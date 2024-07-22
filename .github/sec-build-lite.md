@@ -27,7 +27,8 @@
 │                        │      │                   terminal's input buffer. 
 │                        │      ├ Severity        : LOW 
 │                        │      ├ CweIDs           ─ [0]: CWE-20 
-│                        │      ├ VendorSeverity   ╭ cbl-mariner: 2 
+│                        │      ├ VendorSeverity   ╭ azure      : 2 
+│                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ nvd        : 2 
 │                        │      │                  ├ redhat     : 2 
 │                        │      │                  ╰ ubuntu     : 1 
@@ -2082,7 +2083,7 @@
 │                        │      │                  ├ [8]: https://tukaani.org/xz/ 
 │                        │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2020-22916 
 │                        │      ├ PublishedDate   : 2023-08-22T19:16:19.407Z 
-│                        │      ╰ LastModifiedDate: 2024-05-17T01:45:27.397Z 
+│                        │      ╰ LastModifiedDate: 2024-07-18T16:15:05.387Z 
 │                        ├ [40] ╭ VulnerabilityID : CVE-2024-2511 
 │                        │      ├ PkgID           : libssl3t64@3.0.13-0ubuntu3.1 
 │                        │      ├ PkgName         : libssl3t64 
@@ -2135,6 +2136,7 @@
 │                        │      │                   1.0.2 is also not affected by this issue. 
 │                        │      ├ Severity        : LOW 
 │                        │      ├ VendorSeverity   ╭ amazon     : 2 
+│                        │      │                  ├ azure      : 1 
 │                        │      │                  ├ cbl-mariner: 3 
 │                        │      │                  ├ photon     : 3 
 │                        │      │                  ├ redhat     : 1 
@@ -2230,8 +2232,10 @@
 │                        │      │                   The OpenSSL 3.0 and 3.1 FIPS providers are affected by this
 │                        │      │                    issue. 
 │                        │      ├ Severity        : LOW 
-│                        │      ├ VendorSeverity   ╭ redhat: 1 
-│                        │      │                  ╰ ubuntu: 1 
+│                        │      ├ VendorSeverity   ╭ azure      : 2 
+│                        │      │                  ├ cbl-mariner: 2 
+│                        │      │                  ├ redhat     : 1 
+│                        │      │                  ╰ ubuntu     : 1 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
 │                        │      │                           │           :N/I:N/A:L 
 │                        │      │                           ╰ V3Score : 5.3 
@@ -2339,6 +2343,7 @@
 │                        │      │                   1.0.2 is also not affected by this issue. 
 │                        │      ├ Severity        : LOW 
 │                        │      ├ VendorSeverity   ╭ amazon     : 2 
+│                        │      │                  ├ azure      : 1 
 │                        │      │                  ├ cbl-mariner: 3 
 │                        │      │                  ├ photon     : 3 
 │                        │      │                  ├ redhat     : 1 
@@ -2434,8 +2439,10 @@
 │                        │      │                   The OpenSSL 3.0 and 3.1 FIPS providers are affected by this
 │                        │      │                    issue. 
 │                        │      ├ Severity        : LOW 
-│                        │      ├ VendorSeverity   ╭ redhat: 1 
-│                        │      │                  ╰ ubuntu: 1 
+│                        │      ├ VendorSeverity   ╭ azure      : 2 
+│                        │      │                  ├ cbl-mariner: 2 
+│                        │      │                  ├ redhat     : 1 
+│                        │      │                  ╰ ubuntu     : 1 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
 │                        │      │                           │           :N/I:N/A:L 
 │                        │      │                           ╰ V3Score : 5.3 
@@ -2515,6 +2522,7 @@
 │                        │      ├ Severity        : LOW 
 │                        │      ├ CweIDs           ─ [0]: CWE-415 
 │                        │      ├ VendorSeverity   ╭ amazon     : 3 
+│                        │      │                  ├ azure      : 3 
 │                        │      │                  ├ cbl-mariner: 3 
 │                        │      │                  ├ nvd        : 3 
 │                        │      │                  ├ oracle-oval: 1 
@@ -2722,7 +2730,7 @@
 │                               │                  ├ [8]: https://tukaani.org/xz/ 
 │                               │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2020-22916 
 │                               ├ PublishedDate   : 2023-08-22T19:16:19.407Z 
-│                               ╰ LastModifiedDate: 2024-05-17T01:45:27.397Z 
+│                               ╰ LastModifiedDate: 2024-07-18T16:15:05.387Z 
 ├ [1]  ╭ Target: Java 
 │      ├ Class : lang-pkgs 
 │      ╰ Type  : jar 
@@ -2772,6 +2780,7 @@
 │                        │      ├ CweIDs           ─ [0]: CWE-770 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
 │                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ azure      : 3 
 │                        │      │                  ├ bitnami    : 3 
 │                        │      │                  ├ cbl-mariner: 3 
 │                        │      │                  ├ ghsa       : 3 
@@ -3078,7 +3087,8 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ ghsa       : 2 
 │                        │      │                  ├ nvd        : 2 
@@ -3145,6 +3155,7 @@
 │                        │      ├ CweIDs           ─ [0]: CWE-400 
 │                        │      ├ VendorSeverity   ╭ alma       : 3 
 │                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ azure      : 3 
 │                        │      │                  ├ bitnami    : 3 
 │                        │      │                  ├ cbl-mariner: 3 
 │                        │      │                  ├ ghsa       : 2 
@@ -3687,6 +3698,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ VendorSeverity   ╭ alma       : 3 
 │                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ azure      : 3 
 │                        │      │                  ├ cbl-mariner: 3 
 │                        │      │                  ├ ghsa       : 2 
 │                        │      │                  ├ oracle-oval: 3 
@@ -3783,6 +3795,7 @@
 │                        │      │                  ├ oracle-oval: 2 
 │                        │      │                  ├ photon     : 4 
 │                        │      │                  ├ redhat     : 2 
+│                        │      │                  ├ rocky      : 2 
 │                        │      │                  ╰ ubuntu     : 2 
 │                        │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/
 │                        │      │                  │         │           C:H/I:H/A:H 
@@ -3800,24 +3813,31 @@
 │                        │      │                  │       -24790 
 │                        │      │                  ├ [3] : https://bugzilla.redhat.com/2292668 
 │                        │      │                  ├ [4] : https://bugzilla.redhat.com/2292787 
-│                        │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2024-4212.html 
-│                        │      │                  ├ [6] : https://github.com/golang/go/commit/051bdf3fd12
+│                        │      │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2292668 
+│                        │      │                  ├ [6] : https://bugzilla.redhat.com/show_bug.cgi?id=2292787 
+│                        │      │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │      │                  │       CVE-2024-24789 
+│                        │      │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │      │                  │       CVE-2024-24790 
+│                        │      │                  ├ [9] : https://errata.almalinux.org/9/ALSA-2024-4212.html 
+│                        │      │                  ├ [10]: https://errata.rockylinux.org/RLSA-2024:4212 
+│                        │      │                  ├ [11]: https://github.com/golang/go/commit/051bdf3fd12
 │                        │      │                  │       a40307606ff9381138039c5f452f0 (1.21) 
-│                        │      │                  ├ [7] : https://github.com/golang/go/commit/12d5810cdb1
+│                        │      │                  ├ [12]: https://github.com/golang/go/commit/12d5810cdb1
 │                        │      │                  │       f73cf23d7a86462143e9463317fca (1.22) 
-│                        │      │                  ├ [8] : https://github.com/golang/go/issues/67680 
-│                        │      │                  ├ [9] : https://go.dev/cl/590316 
-│                        │      │                  ├ [10]: https://go.dev/issue/67680 
-│                        │      │                  ├ [11]: https://groups.google.com/g/golang-announce/c/X
+│                        │      │                  ├ [13]: https://github.com/golang/go/issues/67680 
+│                        │      │                  ├ [14]: https://go.dev/cl/590316 
+│                        │      │                  ├ [15]: https://go.dev/issue/67680 
+│                        │      │                  ├ [16]: https://groups.google.com/g/golang-announce/c/X
 │                        │      │                  │       bxouI9gY7k 
-│                        │      │                  ├ [12]: https://groups.google.com/g/golang-announce/c/X
+│                        │      │                  ├ [17]: https://groups.google.com/g/golang-announce/c/X
 │                        │      │                  │       bxouI9gY7k/m/TuoGEhxIEwAJ 
-│                        │      │                  ├ [13]: https://linux.oracle.com/cve/CVE-2024-24790.html 
-│                        │      │                  ├ [14]: https://linux.oracle.com/errata/ELSA-2024-4237.html 
-│                        │      │                  ├ [15]: https://nvd.nist.gov/vuln/detail/CVE-2024-24790 
-│                        │      │                  ├ [16]: https://pkg.go.dev/vuln/GO-2024-2887 
-│                        │      │                  ├ [17]: https://ubuntu.com/security/notices/USN-6886-1 
-│                        │      │                  ╰ [18]: https://www.cve.org/CVERecord?id=CVE-2024-24790 
+│                        │      │                  ├ [18]: https://linux.oracle.com/cve/CVE-2024-24790.html 
+│                        │      │                  ├ [19]: https://linux.oracle.com/errata/ELSA-2024-4237.html 
+│                        │      │                  ├ [20]: https://nvd.nist.gov/vuln/detail/CVE-2024-24790 
+│                        │      │                  ├ [21]: https://pkg.go.dev/vuln/GO-2024-2887 
+│                        │      │                  ├ [22]: https://ubuntu.com/security/notices/USN-6886-1 
+│                        │      │                  ╰ [23]: https://www.cve.org/CVERecord?id=CVE-2024-24790 
 │                        │      ├ PublishedDate   : 2024-06-05T16:15:10.56Z 
 │                        │      ╰ LastModifiedDate: 2024-06-18T17:59:12.547Z 
 │                        ├ [5]  ╭ VulnerabilityID : CVE-2023-39325 
@@ -3862,6 +3882,7 @@
 │                        │      ├ CweIDs           ─ [0]: CWE-770 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
 │                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ azure      : 3 
 │                        │      │                  ├ bitnami    : 3 
 │                        │      │                  ├ cbl-mariner: 3 
 │                        │      │                  ├ ghsa       : 3 
@@ -4246,6 +4267,7 @@
 │                        │      ├ Severity        : HIGH 
 │                        │      ├ VendorSeverity   ╭ alma       : 3 
 │                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ azure      : 3 
 │                        │      │                  ├ cbl-mariner: 3 
 │                        │      │                  ├ ghsa       : 2 
 │                        │      │                  ├ oracle-oval: 3 
@@ -4337,6 +4359,7 @@
 │                        │      ├ CweIDs           ─ [0]: CWE-436 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
 │                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ nvd        : 2 
@@ -4423,6 +4446,7 @@
 │                        │      ├ CweIDs           ─ [0]: CWE-400 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
 │                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ nvd        : 2 
@@ -4488,7 +4512,8 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ nvd        : 2 
@@ -4562,7 +4587,8 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ nvd        : 2 
@@ -5159,12 +5185,14 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
 │                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ nvd        : 2 
 │                        │      │                  ├ oracle-oval: 2 
 │                        │      │                  ├ photon     : 2 
 │                        │      │                  ├ redhat     : 2 
+│                        │      │                  ├ rocky      : 2 
 │                        │      │                  ╰ ubuntu     : 2 
 │                        │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/
 │                        │      │                  │         │           C:N/I:H/A:N 
@@ -5182,27 +5210,34 @@
 │                        │      │                  │       -24789 
 │                        │      │                  ├ [3] : https://bugzilla.redhat.com/2292668 
 │                        │      │                  ├ [4] : https://bugzilla.redhat.com/2292787 
-│                        │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2024-4212.html 
-│                        │      │                  ├ [6] : https://github.com/golang/go/commit/c8e40338cf0
+│                        │      │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2292668 
+│                        │      │                  ├ [6] : https://bugzilla.redhat.com/show_bug.cgi?id=2292787 
+│                        │      │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │      │                  │       CVE-2024-24789 
+│                        │      │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │      │                  │       CVE-2024-24790 
+│                        │      │                  ├ [9] : https://errata.almalinux.org/9/ALSA-2024-4212.html 
+│                        │      │                  ├ [10]: https://errata.rockylinux.org/RLSA-2024:4212 
+│                        │      │                  ├ [11]: https://github.com/golang/go/commit/c8e40338cf0
 │                        │      │                  │       0f3c1d86c8fb23863ad67a4c72bcc (1.21) 
-│                        │      │                  ├ [7] : https://github.com/golang/go/commit/cf501ac0c5f
+│                        │      │                  ├ [12]: https://github.com/golang/go/commit/cf501ac0c5f
 │                        │      │                  │       e351a8582d20b43562027927906e7 (1.22) 
-│                        │      │                  ├ [8] : https://github.com/golang/go/issues/66869 
-│                        │      │                  ├ [9] : https://go.dev/cl/585397 
-│                        │      │                  ├ [10]: https://go.dev/issue/66869 
-│                        │      │                  ├ [11]: https://groups.google.com/g/golang-announce/c/X
+│                        │      │                  ├ [13]: https://github.com/golang/go/issues/66869 
+│                        │      │                  ├ [14]: https://go.dev/cl/585397 
+│                        │      │                  ├ [15]: https://go.dev/issue/66869 
+│                        │      │                  ├ [16]: https://groups.google.com/g/golang-announce/c/X
 │                        │      │                  │       bxouI9gY7k 
-│                        │      │                  ├ [12]: https://groups.google.com/g/golang-announce/c/X
+│                        │      │                  ├ [17]: https://groups.google.com/g/golang-announce/c/X
 │                        │      │                  │       bxouI9gY7k/m/TuoGEhxIEwAJ 
-│                        │      │                  ├ [13]: https://linux.oracle.com/cve/CVE-2024-24789.html 
-│                        │      │                  ├ [14]: https://linux.oracle.com/errata/ELSA-2024-4237.html 
-│                        │      │                  ├ [15]: https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  ├ [18]: https://linux.oracle.com/cve/CVE-2024-24789.html 
+│                        │      │                  ├ [19]: https://linux.oracle.com/errata/ELSA-2024-4237.html 
+│                        │      │                  ├ [20]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce@lists.fedoraproject.org/message/U5YA
 │                        │      │                  │       EIA6IUHUNGJ7AIXXPQT6D2GYENX7/ 
-│                        │      │                  ├ [16]: https://nvd.nist.gov/vuln/detail/CVE-2024-24789 
-│                        │      │                  ├ [17]: https://pkg.go.dev/vuln/GO-2024-2888 
-│                        │      │                  ├ [18]: https://ubuntu.com/security/notices/USN-6886-1 
-│                        │      │                  ╰ [19]: https://www.cve.org/CVERecord?id=CVE-2024-24789 
+│                        │      │                  ├ [21]: https://nvd.nist.gov/vuln/detail/CVE-2024-24789 
+│                        │      │                  ├ [22]: https://pkg.go.dev/vuln/GO-2024-2888 
+│                        │      │                  ├ [23]: https://ubuntu.com/security/notices/USN-6886-1 
+│                        │      │                  ╰ [24]: https://www.cve.org/CVERecord?id=CVE-2024-24789 
 │                        │      ├ PublishedDate   : 2024-06-05T16:15:10.47Z 
 │                        │      ╰ LastModifiedDate: 2024-07-03T01:48:25.51Z 
 │                        ╰ [20] ╭ VulnerabilityID : CVE-2024-24791 
@@ -5300,6 +5335,7 @@
 │                        │      ├ CweIDs           ─ [0]: CWE-770 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
 │                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ azure      : 3 
 │                        │      │                  ├ bitnami    : 3 
 │                        │      │                  ├ cbl-mariner: 3 
 │                        │      │                  ├ ghsa       : 3 
@@ -5606,7 +5642,8 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ ghsa       : 2 
 │                        │      │                  ├ nvd        : 2 
@@ -5673,6 +5710,7 @@
 │                        │      ├ CweIDs           ─ [0]: CWE-400 
 │                        │      ├ VendorSeverity   ╭ alma       : 3 
 │                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ azure      : 3 
 │                        │      │                  ├ bitnami    : 3 
 │                        │      │                  ├ cbl-mariner: 3 
 │                        │      │                  ├ ghsa       : 2 
@@ -6215,6 +6253,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ VendorSeverity   ╭ alma       : 3 
 │                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ azure      : 3 
 │                        │      │                  ├ cbl-mariner: 3 
 │                        │      │                  ├ ghsa       : 2 
 │                        │      │                  ├ oracle-oval: 3 
@@ -6311,6 +6350,7 @@
 │                        │      │                  ├ oracle-oval: 2 
 │                        │      │                  ├ photon     : 4 
 │                        │      │                  ├ redhat     : 2 
+│                        │      │                  ├ rocky      : 2 
 │                        │      │                  ╰ ubuntu     : 2 
 │                        │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/
 │                        │      │                  │         │           C:H/I:H/A:H 
@@ -6328,24 +6368,31 @@
 │                        │      │                  │       -24790 
 │                        │      │                  ├ [3] : https://bugzilla.redhat.com/2292668 
 │                        │      │                  ├ [4] : https://bugzilla.redhat.com/2292787 
-│                        │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2024-4212.html 
-│                        │      │                  ├ [6] : https://github.com/golang/go/commit/051bdf3fd12
+│                        │      │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2292668 
+│                        │      │                  ├ [6] : https://bugzilla.redhat.com/show_bug.cgi?id=2292787 
+│                        │      │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │      │                  │       CVE-2024-24789 
+│                        │      │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │      │                  │       CVE-2024-24790 
+│                        │      │                  ├ [9] : https://errata.almalinux.org/9/ALSA-2024-4212.html 
+│                        │      │                  ├ [10]: https://errata.rockylinux.org/RLSA-2024:4212 
+│                        │      │                  ├ [11]: https://github.com/golang/go/commit/051bdf3fd12
 │                        │      │                  │       a40307606ff9381138039c5f452f0 (1.21) 
-│                        │      │                  ├ [7] : https://github.com/golang/go/commit/12d5810cdb1
+│                        │      │                  ├ [12]: https://github.com/golang/go/commit/12d5810cdb1
 │                        │      │                  │       f73cf23d7a86462143e9463317fca (1.22) 
-│                        │      │                  ├ [8] : https://github.com/golang/go/issues/67680 
-│                        │      │                  ├ [9] : https://go.dev/cl/590316 
-│                        │      │                  ├ [10]: https://go.dev/issue/67680 
-│                        │      │                  ├ [11]: https://groups.google.com/g/golang-announce/c/X
+│                        │      │                  ├ [13]: https://github.com/golang/go/issues/67680 
+│                        │      │                  ├ [14]: https://go.dev/cl/590316 
+│                        │      │                  ├ [15]: https://go.dev/issue/67680 
+│                        │      │                  ├ [16]: https://groups.google.com/g/golang-announce/c/X
 │                        │      │                  │       bxouI9gY7k 
-│                        │      │                  ├ [12]: https://groups.google.com/g/golang-announce/c/X
+│                        │      │                  ├ [17]: https://groups.google.com/g/golang-announce/c/X
 │                        │      │                  │       bxouI9gY7k/m/TuoGEhxIEwAJ 
-│                        │      │                  ├ [13]: https://linux.oracle.com/cve/CVE-2024-24790.html 
-│                        │      │                  ├ [14]: https://linux.oracle.com/errata/ELSA-2024-4237.html 
-│                        │      │                  ├ [15]: https://nvd.nist.gov/vuln/detail/CVE-2024-24790 
-│                        │      │                  ├ [16]: https://pkg.go.dev/vuln/GO-2024-2887 
-│                        │      │                  ├ [17]: https://ubuntu.com/security/notices/USN-6886-1 
-│                        │      │                  ╰ [18]: https://www.cve.org/CVERecord?id=CVE-2024-24790 
+│                        │      │                  ├ [18]: https://linux.oracle.com/cve/CVE-2024-24790.html 
+│                        │      │                  ├ [19]: https://linux.oracle.com/errata/ELSA-2024-4237.html 
+│                        │      │                  ├ [20]: https://nvd.nist.gov/vuln/detail/CVE-2024-24790 
+│                        │      │                  ├ [21]: https://pkg.go.dev/vuln/GO-2024-2887 
+│                        │      │                  ├ [22]: https://ubuntu.com/security/notices/USN-6886-1 
+│                        │      │                  ╰ [23]: https://www.cve.org/CVERecord?id=CVE-2024-24790 
 │                        │      ├ PublishedDate   : 2024-06-05T16:15:10.56Z 
 │                        │      ╰ LastModifiedDate: 2024-06-18T17:59:12.547Z 
 │                        ├ [5]  ╭ VulnerabilityID : CVE-2023-39325 
@@ -6390,6 +6437,7 @@
 │                        │      ├ CweIDs           ─ [0]: CWE-770 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
 │                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ azure      : 3 
 │                        │      │                  ├ bitnami    : 3 
 │                        │      │                  ├ cbl-mariner: 3 
 │                        │      │                  ├ ghsa       : 3 
@@ -6774,6 +6822,7 @@
 │                        │      ├ Severity        : HIGH 
 │                        │      ├ VendorSeverity   ╭ alma       : 3 
 │                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ azure      : 3 
 │                        │      │                  ├ cbl-mariner: 3 
 │                        │      │                  ├ ghsa       : 2 
 │                        │      │                  ├ oracle-oval: 3 
@@ -6865,6 +6914,7 @@
 │                        │      ├ CweIDs           ─ [0]: CWE-436 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
 │                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ nvd        : 2 
@@ -6951,6 +7001,7 @@
 │                        │      ├ CweIDs           ─ [0]: CWE-400 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
 │                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ nvd        : 2 
@@ -7016,7 +7067,8 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ nvd        : 2 
@@ -7090,7 +7142,8 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ nvd        : 2 
@@ -7687,12 +7740,14 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
 │                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ nvd        : 2 
 │                        │      │                  ├ oracle-oval: 2 
 │                        │      │                  ├ photon     : 2 
 │                        │      │                  ├ redhat     : 2 
+│                        │      │                  ├ rocky      : 2 
 │                        │      │                  ╰ ubuntu     : 2 
 │                        │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/
 │                        │      │                  │         │           C:N/I:H/A:N 
@@ -7710,27 +7765,34 @@
 │                        │      │                  │       -24789 
 │                        │      │                  ├ [3] : https://bugzilla.redhat.com/2292668 
 │                        │      │                  ├ [4] : https://bugzilla.redhat.com/2292787 
-│                        │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2024-4212.html 
-│                        │      │                  ├ [6] : https://github.com/golang/go/commit/c8e40338cf0
+│                        │      │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2292668 
+│                        │      │                  ├ [6] : https://bugzilla.redhat.com/show_bug.cgi?id=2292787 
+│                        │      │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │      │                  │       CVE-2024-24789 
+│                        │      │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │      │                  │       CVE-2024-24790 
+│                        │      │                  ├ [9] : https://errata.almalinux.org/9/ALSA-2024-4212.html 
+│                        │      │                  ├ [10]: https://errata.rockylinux.org/RLSA-2024:4212 
+│                        │      │                  ├ [11]: https://github.com/golang/go/commit/c8e40338cf0
 │                        │      │                  │       0f3c1d86c8fb23863ad67a4c72bcc (1.21) 
-│                        │      │                  ├ [7] : https://github.com/golang/go/commit/cf501ac0c5f
+│                        │      │                  ├ [12]: https://github.com/golang/go/commit/cf501ac0c5f
 │                        │      │                  │       e351a8582d20b43562027927906e7 (1.22) 
-│                        │      │                  ├ [8] : https://github.com/golang/go/issues/66869 
-│                        │      │                  ├ [9] : https://go.dev/cl/585397 
-│                        │      │                  ├ [10]: https://go.dev/issue/66869 
-│                        │      │                  ├ [11]: https://groups.google.com/g/golang-announce/c/X
+│                        │      │                  ├ [13]: https://github.com/golang/go/issues/66869 
+│                        │      │                  ├ [14]: https://go.dev/cl/585397 
+│                        │      │                  ├ [15]: https://go.dev/issue/66869 
+│                        │      │                  ├ [16]: https://groups.google.com/g/golang-announce/c/X
 │                        │      │                  │       bxouI9gY7k 
-│                        │      │                  ├ [12]: https://groups.google.com/g/golang-announce/c/X
+│                        │      │                  ├ [17]: https://groups.google.com/g/golang-announce/c/X
 │                        │      │                  │       bxouI9gY7k/m/TuoGEhxIEwAJ 
-│                        │      │                  ├ [13]: https://linux.oracle.com/cve/CVE-2024-24789.html 
-│                        │      │                  ├ [14]: https://linux.oracle.com/errata/ELSA-2024-4237.html 
-│                        │      │                  ├ [15]: https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  ├ [18]: https://linux.oracle.com/cve/CVE-2024-24789.html 
+│                        │      │                  ├ [19]: https://linux.oracle.com/errata/ELSA-2024-4237.html 
+│                        │      │                  ├ [20]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce@lists.fedoraproject.org/message/U5YA
 │                        │      │                  │       EIA6IUHUNGJ7AIXXPQT6D2GYENX7/ 
-│                        │      │                  ├ [16]: https://nvd.nist.gov/vuln/detail/CVE-2024-24789 
-│                        │      │                  ├ [17]: https://pkg.go.dev/vuln/GO-2024-2888 
-│                        │      │                  ├ [18]: https://ubuntu.com/security/notices/USN-6886-1 
-│                        │      │                  ╰ [19]: https://www.cve.org/CVERecord?id=CVE-2024-24789 
+│                        │      │                  ├ [21]: https://nvd.nist.gov/vuln/detail/CVE-2024-24789 
+│                        │      │                  ├ [22]: https://pkg.go.dev/vuln/GO-2024-2888 
+│                        │      │                  ├ [23]: https://ubuntu.com/security/notices/USN-6886-1 
+│                        │      │                  ╰ [24]: https://www.cve.org/CVERecord?id=CVE-2024-24789 
 │                        │      ├ PublishedDate   : 2024-06-05T16:15:10.47Z 
 │                        │      ╰ LastModifiedDate: 2024-07-03T01:48:25.51Z 
 │                        ╰ [20] ╭ VulnerabilityID : CVE-2024-24791 
@@ -7983,65 +8045,7 @@
 │                              │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-24791 
 │                              ├ PublishedDate   : 2024-07-02T22:15:04.833Z 
 │                              ╰ LastModifiedDate: 2024-07-08T14:17:39.083Z 
-├ [9]  ╭ Target : /etc/ssh/ssh_host_ecdsa_key 
-│      ├ Class  : secret 
-│      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
-│                      ├ Category : AsymmetricPrivateKey 
-│                      ├ Severity : HIGH 
-│                      ├ Title    : Asymmetric Private Key 
-│                      ├ StartLine: 1 
-│                      ├ EndLine  : 1 
-│                      ├ Code      ─ Lines ╭ [0] ╭ Number     : 1 
-│                      │                   │     ├ Content    : -----BEGIN OPENSSH PRIVATE
-│                      │                   │     │              KEY-----***************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              *****************************-----END OPENSSH
-│                      │                   │     │              PRIVATE KEY----- 
-│                      │                   │     ├ IsCause    : true 
-│                      │                   │     ├ Annotation :  
-│                      │                   │     ├ Truncated  : false 
-│                      │                   │     ├ Highlighted: -----BEGIN OPENSSH PRIVATE
-│                      │                   │     │              KEY-----***************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              *****************************-----END OPENSSH
-│                      │                   │     │              PRIVATE KEY----- 
-│                      │                   │     ├ FirstCause : true 
-│                      │                   │     ╰ LastCause  : true 
-│                      │                   ╰ [1] ╭ Number    : 2 
-│                      │                         ├ Content   :  
-│                      │                         ├ IsCause   : false 
-│                      │                         ├ Annotation:  
-│                      │                         ├ Truncated : false 
-│                      │                         ├ FirstCause: false 
-│                      │                         ╰ LastCause : false 
-│                      ├ Match    : BEGIN OPENSSH PRIVATE
-│                      │            KEY-----*******************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            **-----END OPENSSH PRI 
-│                      ╰ Layer     ╭ Digest   : sha256:cb7792f84a86e034c9a95f45889e589649e787b9a808080a892
-│                                  │            883b7fee7a8ec 
-│                                  ├ DiffID   : sha256:c2c949af632b5f51cb2d50ea265e020f745faf4eb20d8d2e5ad
-│                                  │            3adff6f519c29 
-│                                  ╰ CreatedBy: COPY / / # buildkit 
-├ [10] ╭ Target : /etc/ssh/ssh_host_ed25519_key 
+├ [9]  ╭ Target : /etc/ssh/ssh_host_ed25519_key 
 │      ├ Class  : secret 
 │      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
 │                      ├ Category : AsymmetricPrivateKey 
@@ -8094,7 +8098,183 @@
 │                                  ├ DiffID   : sha256:c2c949af632b5f51cb2d50ea265e020f745faf4eb20d8d2e5ad
 │                                  │            3adff6f519c29 
 │                                  ╰ CreatedBy: COPY / / # buildkit 
-╰ [11] ╭ Target : /etc/ssh/ssh_host_rsa_key 
+├ [10] ╭ Target : /etc/ssh/ssh_host_rsa_key 
+│      ├ Class  : secret 
+│      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
+│                      ├ Category : AsymmetricPrivateKey 
+│                      ├ Severity : HIGH 
+│                      ├ Title    : Asymmetric Private Key 
+│                      ├ StartLine: 1 
+│                      ├ EndLine  : 1 
+│                      ├ Code      ─ Lines ╭ [0] ╭ Number     : 1 
+│                      │                   │     ├ Content    : -----BEGIN OPENSSH PRIVATE
+│                      │                   │     │              KEY-----***************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********-----END OPENSSH PRIVATE
+│                      │                   │     │              KEY----- 
+│                      │                   │     ├ IsCause    : true 
+│                      │                   │     ├ Annotation :  
+│                      │                   │     ├ Truncated  : false 
+│                      │                   │     ├ Highlighted: -----BEGIN OPENSSH PRIVATE
+│                      │                   │     │              KEY-----***************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********-----END OPENSSH PRIVATE
+│                      │                   │     │              KEY----- 
+│                      │                   │     ├ FirstCause : true 
+│                      │                   │     ╰ LastCause  : true 
+│                      │                   ╰ [1] ╭ Number    : 2 
+│                      │                         ├ Content   :  
+│                      │                         ├ IsCause   : false 
+│                      │                         ├ Annotation:  
+│                      │                         ├ Truncated : false 
+│                      │                         ├ FirstCause: false 
+│                      │                         ╰ LastCause : false 
+│                      ├ Match    : BEGIN OPENSSH PRIVATE
+│                      │            KEY-----*******************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            **************************************************************************-
+│                      │            ----END OPENSSH PRI 
+│                      ╰ Layer     ╭ Digest   : sha256:cb7792f84a86e034c9a95f45889e589649e787b9a808080a892
+│                                  │            883b7fee7a8ec 
+│                                  ├ DiffID   : sha256:c2c949af632b5f51cb2d50ea265e020f745faf4eb20d8d2e5ad
+│                                  │            3adff6f519c29 
+│                                  ╰ CreatedBy: COPY / / # buildkit 
+╰ [11] ╭ Target : /etc/ssh/ssh_host_ecdsa_key 
        ├ Class  : secret 
        ╰ Secrets ─ [0] ╭ RuleID   : private-key 
                        ├ Category : AsymmetricPrivateKey 
@@ -8113,53 +8293,8 @@
                        │                   │     │              ***********************************************
                        │                   │     │              ***********************************************
                        │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********-----END OPENSSH PRIVATE
-                       │                   │     │              KEY----- 
+                       │                   │     │              *****************************-----END OPENSSH
+                       │                   │     │              PRIVATE KEY----- 
                        │                   │     ├ IsCause    : true 
                        │                   │     ├ Annotation :  
                        │                   │     ├ Truncated  : false 
@@ -8173,53 +8308,8 @@
                        │                   │     │              ***********************************************
                        │                   │     │              ***********************************************
                        │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********-----END OPENSSH PRIVATE
-                       │                   │     │              KEY----- 
+                       │                   │     │              *****************************-----END OPENSSH
+                       │                   │     │              PRIVATE KEY----- 
                        │                   │     ├ FirstCause : true 
                        │                   │     ╰ LastCause  : true 
                        │                   ╰ [1] ╭ Number    : 2 
@@ -8236,35 +8326,7 @@
                        │            ***************************************************************************
                        │            ***************************************************************************
                        │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            **************************************************************************-
-                       │            ----END OPENSSH PRI 
+                       │            **-----END OPENSSH PRI 
                        ╰ Layer     ╭ Digest   : sha256:cb7792f84a86e034c9a95f45889e589649e787b9a808080a892
                                    │            883b7fee7a8ec 
                                    ├ DiffID   : sha256:c2c949af632b5f51cb2d50ea265e020f745faf4eb20d8d2e5ad
