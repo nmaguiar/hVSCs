@@ -25,6 +25,7 @@
     CweIDs:
     - CWE-20
     VendorSeverity:
+      azure: 2
       cbl-mariner: 2
       nvd: 2
       redhat: 2
@@ -1879,7 +1880,7 @@
     - https://tukaani.org/xz/
     - https://www.cve.org/CVERecord?id=CVE-2020-22916
     PublishedDate: '2023-08-22T19:16:19.407Z'
-    LastModifiedDate: '2024-05-17T01:45:27.397Z'
+    LastModifiedDate: '2024-07-18T16:15:05.387Z'
   - VulnerabilityID: CVE-2024-2511
     PkgID: libssl3t64@3.0.13-0ubuntu3.1
     PkgName: libssl3t64
@@ -1921,6 +1922,7 @@
     Severity: LOW
     VendorSeverity:
       amazon: 2
+      azure: 1
       cbl-mariner: 3
       photon: 3
       redhat: 1
@@ -1995,6 +1997,8 @@
       The OpenSSL 3.0 and 3.1 FIPS providers are affected by this issue.
     Severity: LOW
     VendorSeverity:
+      azure: 2
+      cbl-mariner: 2
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -2089,6 +2093,7 @@
     Severity: LOW
     VendorSeverity:
       amazon: 2
+      azure: 1
       cbl-mariner: 3
       photon: 3
       redhat: 1
@@ -2163,6 +2168,8 @@
       The OpenSSL 3.0 and 3.1 FIPS providers are affected by this issue.
     Severity: LOW
     VendorSeverity:
+      azure: 2
+      cbl-mariner: 2
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -2240,6 +2247,7 @@
     - CWE-415
     VendorSeverity:
       amazon: 3
+      azure: 3
       cbl-mariner: 3
       nvd: 3
       oracle-oval: 1
@@ -2444,7 +2452,7 @@
     - https://tukaani.org/xz/
     - https://www.cve.org/CVERecord?id=CVE-2020-22916
     PublishedDate: '2023-08-22T19:16:19.407Z'
-    LastModifiedDate: '2024-05-17T01:45:27.397Z'
+    LastModifiedDate: '2024-07-18T16:15:05.387Z'
 - Target: Java
   Class: lang-pkgs
   Type: jar
@@ -2477,6 +2485,7 @@
     VendorSeverity:
       alma: 2
       amazon: 3
+      azure: 3
       bitnami: 3
       cbl-mariner: 3
       ghsa: 3
@@ -2627,7 +2636,8 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
+      azure: 2
       cbl-mariner: 2
       ghsa: 2
       nvd: 2
@@ -2694,6 +2704,7 @@
     VendorSeverity:
       alma: 3
       amazon: 3
+      azure: 3
       bitnami: 3
       cbl-mariner: 3
       ghsa: 2
@@ -2977,6 +2988,7 @@
     VendorSeverity:
       alma: 3
       amazon: 2
+      azure: 3
       cbl-mariner: 3
       ghsa: 2
       oracle-oval: 3
@@ -3058,6 +3070,7 @@
       oracle-oval: 2
       photon: 4
       redhat: 2
+      rocky: 2
       ubuntu: 2
     CVSS:
       bitnami:
@@ -3075,7 +3088,12 @@
     - https://access.redhat.com/security/cve/CVE-2024-24790
     - https://bugzilla.redhat.com/2292668
     - https://bugzilla.redhat.com/2292787
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2292668
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2292787
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24789
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24790
     - https://errata.almalinux.org/9/ALSA-2024-4212.html
+    - https://errata.rockylinux.org/RLSA-2024:4212
     - https://github.com/golang/go/commit/051bdf3fd12a40307606ff9381138039c5f452f0 (1.21)
     - https://github.com/golang/go/commit/12d5810cdb1f73cf23d7a86462143e9463317fca (1.22)
     - https://github.com/golang/go/issues/67680
@@ -3116,6 +3134,7 @@
     VendorSeverity:
       alma: 2
       amazon: 3
+      azure: 3
       bitnami: 3
       cbl-mariner: 3
       ghsa: 3
@@ -3312,6 +3331,7 @@
     VendorSeverity:
       alma: 3
       amazon: 2
+      azure: 3
       cbl-mariner: 3
       ghsa: 2
       oracle-oval: 3
@@ -3389,6 +3409,7 @@
     VendorSeverity:
       alma: 2
       amazon: 3
+      azure: 2
       bitnami: 2
       cbl-mariner: 2
       nvd: 2
@@ -3463,6 +3484,7 @@
     VendorSeverity:
       alma: 2
       amazon: 3
+      azure: 2
       bitnami: 2
       cbl-mariner: 2
       nvd: 2
@@ -3524,7 +3546,8 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
+      azure: 2
       bitnami: 2
       cbl-mariner: 2
       nvd: 2
@@ -3590,7 +3613,8 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
+      azure: 2
       bitnami: 2
       cbl-mariner: 2
       nvd: 2
@@ -4089,12 +4113,14 @@
     VendorSeverity:
       alma: 2
       amazon: 2
+      azure: 2
       bitnami: 2
       cbl-mariner: 2
       nvd: 2
       oracle-oval: 2
       photon: 2
       redhat: 2
+      rocky: 2
       ubuntu: 2
     CVSS:
       bitnami:
@@ -4112,7 +4138,12 @@
     - https://access.redhat.com/security/cve/CVE-2024-24789
     - https://bugzilla.redhat.com/2292668
     - https://bugzilla.redhat.com/2292787
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2292668
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2292787
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24789
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24790
     - https://errata.almalinux.org/9/ALSA-2024-4212.html
+    - https://errata.rockylinux.org/RLSA-2024:4212
     - https://github.com/golang/go/commit/c8e40338cf00f3c1d86c8fb23863ad67a4c72bcc (1.21)
     - https://github.com/golang/go/commit/cf501ac0c5fe351a8582d20b43562027927906e7 (1.22)
     - https://github.com/golang/go/issues/66869
@@ -4197,6 +4228,7 @@
     VendorSeverity:
       alma: 2
       amazon: 3
+      azure: 3
       bitnami: 3
       cbl-mariner: 3
       ghsa: 3
@@ -4347,7 +4379,8 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
+      azure: 2
       cbl-mariner: 2
       ghsa: 2
       nvd: 2
@@ -4414,6 +4447,7 @@
     VendorSeverity:
       alma: 3
       amazon: 3
+      azure: 3
       bitnami: 3
       cbl-mariner: 3
       ghsa: 2
@@ -4697,6 +4731,7 @@
     VendorSeverity:
       alma: 3
       amazon: 2
+      azure: 3
       cbl-mariner: 3
       ghsa: 2
       oracle-oval: 3
@@ -4778,6 +4813,7 @@
       oracle-oval: 2
       photon: 4
       redhat: 2
+      rocky: 2
       ubuntu: 2
     CVSS:
       bitnami:
@@ -4795,7 +4831,12 @@
     - https://access.redhat.com/security/cve/CVE-2024-24790
     - https://bugzilla.redhat.com/2292668
     - https://bugzilla.redhat.com/2292787
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2292668
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2292787
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24789
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24790
     - https://errata.almalinux.org/9/ALSA-2024-4212.html
+    - https://errata.rockylinux.org/RLSA-2024:4212
     - https://github.com/golang/go/commit/051bdf3fd12a40307606ff9381138039c5f452f0 (1.21)
     - https://github.com/golang/go/commit/12d5810cdb1f73cf23d7a86462143e9463317fca (1.22)
     - https://github.com/golang/go/issues/67680
@@ -4836,6 +4877,7 @@
     VendorSeverity:
       alma: 2
       amazon: 3
+      azure: 3
       bitnami: 3
       cbl-mariner: 3
       ghsa: 3
@@ -5032,6 +5074,7 @@
     VendorSeverity:
       alma: 3
       amazon: 2
+      azure: 3
       cbl-mariner: 3
       ghsa: 2
       oracle-oval: 3
@@ -5109,6 +5152,7 @@
     VendorSeverity:
       alma: 2
       amazon: 3
+      azure: 2
       bitnami: 2
       cbl-mariner: 2
       nvd: 2
@@ -5183,6 +5227,7 @@
     VendorSeverity:
       alma: 2
       amazon: 3
+      azure: 2
       bitnami: 2
       cbl-mariner: 2
       nvd: 2
@@ -5244,7 +5289,8 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
+      azure: 2
       bitnami: 2
       cbl-mariner: 2
       nvd: 2
@@ -5310,7 +5356,8 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
+      azure: 2
       bitnami: 2
       cbl-mariner: 2
       nvd: 2
@@ -5809,12 +5856,14 @@
     VendorSeverity:
       alma: 2
       amazon: 2
+      azure: 2
       bitnami: 2
       cbl-mariner: 2
       nvd: 2
       oracle-oval: 2
       photon: 2
       redhat: 2
+      rocky: 2
       ubuntu: 2
     CVSS:
       bitnami:
@@ -5832,7 +5881,12 @@
     - https://access.redhat.com/security/cve/CVE-2024-24789
     - https://bugzilla.redhat.com/2292668
     - https://bugzilla.redhat.com/2292787
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2292668
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2292787
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24789
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24790
     - https://errata.almalinux.org/9/ALSA-2024-4212.html
+    - https://errata.rockylinux.org/RLSA-2024:4212
     - https://github.com/golang/go/commit/c8e40338cf00f3c1d86c8fb23863ad67a4c72bcc (1.21)
     - https://github.com/golang/go/commit/cf501ac0c5fe351a8582d20b43562027927906e7 (1.22)
     - https://github.com/golang/go/issues/66869
@@ -6057,37 +6111,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-24791
     PublishedDate: '2024-07-02T22:15:04.833Z'
     LastModifiedDate: '2024-07-08T14:17:39.083Z'
-- Target: /etc/ssh/ssh_host_ecdsa_key
-  Class: secret
-  Secrets:
-  - RuleID: private-key
-    Category: AsymmetricPrivateKey
-    Severity: HIGH
-    Title: Asymmetric Private Key
-    StartLine: 1
-    EndLine: 1
-    Code:
-      Lines:
-      - Number: 1
-        Content: '-----BEGIN OPENSSH PRIVATE KEY-----************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
-        IsCause: true
-        Annotation: ''
-        Truncated: false
-        Highlighted: '-----BEGIN OPENSSH PRIVATE KEY-----************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
-        FirstCause: true
-        LastCause: true
-      - Number: 2
-        Content: ''
-        IsCause: false
-        Annotation: ''
-        Truncated: false
-        FirstCause: false
-        LastCause: false
-    Match: BEGIN OPENSSH PRIVATE KEY-----************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
-    Layer:
-      Digest: sha256:cb7792f84a86e034c9a95f45889e589649e787b9a808080a892883b7fee7a8ec
-      DiffID: sha256:c2c949af632b5f51cb2d50ea265e020f745faf4eb20d8d2e5ad3adff6f519c29
-      CreatedBy: 'COPY / / # buildkit'
 - Target: /etc/ssh/ssh_host_ed25519_key
   Class: secret
   Secrets:
@@ -6146,6 +6169,37 @@
         FirstCause: false
         LastCause: false
     Match: BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
+    Layer:
+      Digest: sha256:cb7792f84a86e034c9a95f45889e589649e787b9a808080a892883b7fee7a8ec
+      DiffID: sha256:c2c949af632b5f51cb2d50ea265e020f745faf4eb20d8d2e5ad3adff6f519c29
+      CreatedBy: 'COPY / / # buildkit'
+- Target: /etc/ssh/ssh_host_ecdsa_key
+  Class: secret
+  Secrets:
+  - RuleID: private-key
+    Category: AsymmetricPrivateKey
+    Severity: HIGH
+    Title: Asymmetric Private Key
+    StartLine: 1
+    EndLine: 1
+    Code:
+      Lines:
+      - Number: 1
+        Content: '-----BEGIN OPENSSH PRIVATE KEY-----************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
+        IsCause: true
+        Annotation: ''
+        Truncated: false
+        Highlighted: '-----BEGIN OPENSSH PRIVATE KEY-----************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
+        FirstCause: true
+        LastCause: true
+      - Number: 2
+        Content: ''
+        IsCause: false
+        Annotation: ''
+        Truncated: false
+        FirstCause: false
+        LastCause: false
+    Match: BEGIN OPENSSH PRIVATE KEY-----************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
     Layer:
       Digest: sha256:cb7792f84a86e034c9a95f45889e589649e787b9a808080a892883b7fee7a8ec
       DiffID: sha256:c2c949af632b5f51cb2d50ea265e020f745faf4eb20d8d2e5ad3adff6f519c29
