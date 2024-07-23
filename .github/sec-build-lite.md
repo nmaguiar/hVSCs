@@ -2731,9 +2731,146 @@
 │                               │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2020-22916 
 │                               ├ PublishedDate   : 2023-08-22T19:16:19.407Z 
 │                               ╰ LastModifiedDate: 2024-07-18T16:15:05.387Z 
-├ [1]  ╭ Target: Java 
-│      ├ Class : lang-pkgs 
-│      ╰ Type  : jar 
+├ [1]  ╭ Target         : Java 
+│      ├ Class          : lang-pkgs 
+│      ├ Type           : jar 
+│      ╰ Vulnerabilities ╭ [0] ╭ VulnerabilityID : CVE-2024-25638 
+│                        │     ├ PkgName         : dnsjava:dnsjava 
+│                        │     ├ PkgPath         : opt/oaf/openaf.jar 
+│                        │     ├ PkgIdentifier    ╭ PURL: pkg:maven/dnsjava/dnsjava@3.5.3 
+│                        │     │                  ╰ UID : d3e14c8362eb4071 
+│                        │     ├ InstalledVersion: 3.5.3 
+│                        │     ├ FixedVersion    : 3.6.0 
+│                        │     ├ Status          : fixed 
+│                        │     ├ Layer            ╭ Digest: sha256:cb7792f84a86e034c9a95f45889e589649e787b
+│                        │     │                  │         9a808080a892883b7fee7a8ec 
+│                        │     │                  ╰ DiffID: sha256:c2c949af632b5f51cb2d50ea265e020f745faf4
+│                        │     │                            eb20d8d2e5ad3adff6f519c29 
+│                        │     ├ SeveritySource  : ghsa 
+│                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-25638 
+│                        │     ├ DataSource       ╭ ID  : ghsa 
+│                        │     │                  ├ Name: GitHub Security Advisory Maven 
+│                        │     │                  ╰ URL : https://github.com/advisories?query=type%3Arevie
+│                        │     │                          wed+ecosystem%3Amaven 
+│                        │     ├ Title           : dnsjava: Improper response validation allowing DNSSEC bypass 
+│                        │     ├ Description     : dnsjava is an implementation of DNS in Java. Records in
+│                        │     │                    DNS replies are not checked for their relevance to the
+│                        │     │                   query, allowing an attacker to respond with RRs from
+│                        │     │                   different zones. This vulnerability is fixed in
+│                        │     │                   3.6.0. 
+│                        │     ├ Severity        : HIGH 
+│                        │     ├ CweIDs           ╭ [0]: CWE-345 
+│                        │     │                  ╰ [1]: CWE-349 
+│                        │     ├ VendorSeverity   ╭ ghsa  : 3 
+│                        │     │                  ╰ redhat: 3 
+│                        │     ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:
+│                        │     │                  │        │           H/I:H/A:L 
+│                        │     │                  │        ╰ V3Score : 8.9 
+│                        │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:
+│                        │     │                           │           H/I:H/A:L 
+│                        │     │                           ╰ V3Score : 8.9 
+│                        │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-25638 
+│                        │     │                  ├ [1]: https://github.com/dnsjava/dnsjava 
+│                        │     │                  ├ [2]: https://github.com/dnsjava/dnsjava/commit/bc51df1
+│                        │     │                  │      c455e6c9fb7cbd42fcb6d62d16047818d 
+│                        │     │                  ├ [3]: https://github.com/dnsjava/dnsjava/security/advis
+│                        │     │                  │      ories/GHSA-cfxw-4h78-h7fw 
+│                        │     │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-25638 
+│                        │     │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-25638 
+│                        │     ├ PublishedDate   : 2024-07-22T14:15:04.593Z 
+│                        │     ╰ LastModifiedDate: 2024-07-22T14:15:04.593Z 
+│                        ├ [1] ╭ VulnerabilityID : GHSA-crjg-w57m-rqqf 
+│                        │     ├ PkgName         : dnsjava:dnsjava 
+│                        │     ├ PkgPath         : opt/oaf/openaf.jar 
+│                        │     ├ PkgIdentifier    ╭ PURL: pkg:maven/dnsjava/dnsjava@3.5.3 
+│                        │     │                  ╰ UID : d3e14c8362eb4071 
+│                        │     ├ InstalledVersion: 3.5.3 
+│                        │     ├ FixedVersion    : 3.6.0 
+│                        │     ├ Status          : fixed 
+│                        │     ├ Layer            ╭ Digest: sha256:cb7792f84a86e034c9a95f45889e589649e787b
+│                        │     │                  │         9a808080a892883b7fee7a8ec 
+│                        │     │                  ╰ DiffID: sha256:c2c949af632b5f51cb2d50ea265e020f745faf4
+│                        │     │                            eb20d8d2e5ad3adff6f519c29 
+│                        │     ├ SeveritySource  : ghsa 
+│                        │     ├ PrimaryURL      : https://github.com/advisories/GHSA-crjg-w57m-rqqf 
+│                        │     ├ DataSource       ╭ ID  : ghsa 
+│                        │     │                  ├ Name: GitHub Security Advisory Maven 
+│                        │     │                  ╰ URL : https://github.com/advisories?query=type%3Arevie
+│                        │     │                          wed+ecosystem%3Amaven 
+│                        │     ├ Title           : DNSJava vulnerable to KeyTrap - Denial-of-Service
+│                        │     │                   Algorithmic Complexity Attacks 
+│                        │     ├ Description     : ### Impact
+│                        │     │                   Users using the `ValidatingResolver` for DNSSEC validation
+│                        │     │                   can run into CPU exhaustion with specially crafted
+│                        │     │                   DNSSEC-signed zones.
+│                        │     │                   
+│                        │     │                   ### Patches
+│                        │     │                   Users should upgrade to dnsjava v3.6.0
+│                        │     │                   
+│                        │     │                   ### Workarounds
+│                        │     │                   Although not recommended, only using a non-validating
+│                        │     │                   resolver, will remove the vulnerability. 
+│                        │     │                   
+│                        │     │                   ### References
+│                        │     │                   https://www.athene-center.de/en/keytrap
+│                        │     │                    
+│                        │     ├ Severity        : MEDIUM 
+│                        │     ├ VendorSeverity   ─ ghsa: 2 
+│                        │     ├ CVSS             ─ ghsa ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/
+│                        │     │                         │           I:N/A:H 
+│                        │     │                         ╰ V3Score : 6.5 
+│                        │     ╰ References       ╭ [0]: https://github.com/dnsjava/dnsjava 
+│                        │                        ├ [1]: https://github.com/dnsjava/dnsjava/commit/07ac36a
+│                        │                        │      11578cc1bce0cd8ddf2fe568f062aee78 
+│                        │                        ├ [2]: https://github.com/dnsjava/dnsjava/commit/3ddc45c
+│                        │                        │      e8cdb5c2274e10b7401416f497694e1cf 
+│                        │                        ╰ [3]: https://github.com/dnsjava/dnsjava/security/advis
+│                        │                               ories/GHSA-crjg-w57m-rqqf 
+│                        ╰ [2] ╭ VulnerabilityID : GHSA-mmwx-rj87-vfgr 
+│                              ├ PkgName         : dnsjava:dnsjava 
+│                              ├ PkgPath         : opt/oaf/openaf.jar 
+│                              ├ PkgIdentifier    ╭ PURL: pkg:maven/dnsjava/dnsjava@3.5.3 
+│                              │                  ╰ UID : d3e14c8362eb4071 
+│                              ├ InstalledVersion: 3.5.3 
+│                              ├ FixedVersion    : 3.6.0 
+│                              ├ Status          : fixed 
+│                              ├ Layer            ╭ Digest: sha256:cb7792f84a86e034c9a95f45889e589649e787b
+│                              │                  │         9a808080a892883b7fee7a8ec 
+│                              │                  ╰ DiffID: sha256:c2c949af632b5f51cb2d50ea265e020f745faf4
+│                              │                            eb20d8d2e5ad3adff6f519c29 
+│                              ├ SeveritySource  : ghsa 
+│                              ├ PrimaryURL      : https://github.com/advisories/GHSA-mmwx-rj87-vfgr 
+│                              ├ DataSource       ╭ ID  : ghsa 
+│                              │                  ├ Name: GitHub Security Advisory Maven 
+│                              │                  ╰ URL : https://github.com/advisories?query=type%3Arevie
+│                              │                          wed+ecosystem%3Amaven 
+│                              ├ Title           : DNSJava affected by KeyTrap - NSEC3 closest encloser
+│                              │                   proof can exhaust CPU resources 
+│                              ├ Description     : ### Impact
+│                              │                   Users using the `ValidatingResolver` for DNSSEC validation
+│                              │                   can run into CPU exhaustion with specially crafted
+│                              │                   DNSSEC-signed zones.
+│                              │                   
+│                              │                   ### Patches
+│                              │                   Users should upgrade to dnsjava v3.6.0
+│                              │                   
+│                              │                   ### Workarounds
+│                              │                   Although not recommended, only using a non-validating
+│                              │                   resolver, will remove the vulnerability.
+│                              │                   
+│                              │                   ### References
+│                              │                   https://www.athene-center.de/en/keytrap
+│                              │                    
+│                              ├ Severity        : MEDIUM 
+│                              ├ VendorSeverity   ─ ghsa: 2 
+│                              ├ CVSS             ─ ghsa ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/
+│                              │                         │           I:N/A:H 
+│                              │                         ╰ V3Score : 6.5 
+│                              ╰ References       ╭ [0]: https://github.com/dnsjava/dnsjava 
+│                                                 ├ [1]: https://github.com/dnsjava/dnsjava/commit/711af79
+│                                                 │      be3214f52daa5c846b95766dc0a075116 
+│                                                 ╰ [2]: https://github.com/dnsjava/dnsjava/security/advis
+│                                                        ories/GHSA-mmwx-rj87-vfgr 
 ├ [2]  ╭ Target         : home/user/.krew/store/krew/v0.4.4/krew 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : gobinary 
@@ -3087,7 +3224,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ amazon     : 3 
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ ghsa       : 2 
@@ -4512,7 +4649,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ amazon     : 3 
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
@@ -4587,7 +4724,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ amazon     : 3 
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
@@ -5271,7 +5408,8 @@
 │                               │                   causes one subsequent request using that connection to
 │                               │                   fail. 
 │                               ├ Severity        : MEDIUM 
-│                               ├ VendorSeverity   ╭ bitnami: 3 
+│                               ├ VendorSeverity   ╭ amazon : 2 
+│                               │                  ├ bitnami: 3 
 │                               │                  ╰ redhat : 2 
 │                               ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/
 │                               │                  │         │           C:N/I:N/A:H 
@@ -5642,7 +5780,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ amazon     : 3 
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ ghsa       : 2 
@@ -7067,7 +7205,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ amazon     : 3 
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
@@ -7142,7 +7280,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ amazon     : 3 
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
@@ -7826,7 +7964,8 @@
 │                               │                   causes one subsequent request using that connection to
 │                               │                   fail. 
 │                               ├ Severity        : MEDIUM 
-│                               ├ VendorSeverity   ╭ bitnami: 3 
+│                               ├ VendorSeverity   ╭ amazon : 2 
+│                               │                  ├ bitnami: 3 
 │                               │                  ╰ redhat : 2 
 │                               ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/
 │                               │                  │         │           C:N/I:N/A:H 
@@ -7877,7 +8016,8 @@
 │                              │                   proxy with an invalid connection, and causes one subsequent
 │                              │                   request using that connection to fail. 
 │                              ├ Severity        : MEDIUM 
-│                              ├ VendorSeverity   ╭ bitnami: 3 
+│                              ├ VendorSeverity   ╭ amazon : 2 
+│                              │                  ├ bitnami: 3 
 │                              │                  ╰ redhat : 2 
 │                              ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
 │                              │                  │         │           :N/I:N/A:H 
@@ -7931,7 +8071,8 @@
 │                              │                   proxy with an invalid connection, and causes one subsequent
 │                              │                   request using that connection to fail. 
 │                              ├ Severity        : MEDIUM 
-│                              ├ VendorSeverity   ╭ bitnami: 3 
+│                              ├ VendorSeverity   ╭ amazon : 2 
+│                              │                  ├ bitnami: 3 
 │                              │                  ╰ redhat : 2 
 │                              ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
 │                              │                  │         │           :N/I:N/A:H 
@@ -8027,7 +8168,8 @@
 │                              │                   proxy with an invalid connection, and causes one subsequent
 │                              │                   request using that connection to fail. 
 │                              ├ Severity        : MEDIUM 
-│                              ├ VendorSeverity   ╭ bitnami: 3 
+│                              ├ VendorSeverity   ╭ amazon : 2 
+│                              │                  ├ bitnami: 3 
 │                              │                  ╰ redhat : 2 
 │                              ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
 │                              │                  │         │           :N/I:N/A:H 
