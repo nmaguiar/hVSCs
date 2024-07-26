@@ -26,6 +26,7 @@
       This issue affects BIND 9 versions 9.18.1 through 9.18.27, 9.19.0 through 9.19.24, and 9.18.11-S1 through 9.18.27-S1.
     Severity: MEDIUM
     VendorSeverity:
+      photon: 3
       redhat: 3
       ubuntu: 2
     CVSS:
@@ -65,6 +66,7 @@
       This issue affects BIND 9 versions 9.11.0 through 9.11.37, 9.16.0 through 9.16.50, 9.18.0 through 9.18.27, 9.19.0 through 9.19.24, 9.11.4-S1 through 9.11.37-S1, 9.16.8-S1 through 9.16.50-S1, and 9.18.11-S1 through 9.18.27-S1.
     Severity: MEDIUM
     VendorSeverity:
+      photon: 3
       redhat: 3
       ubuntu: 2
     CVSS:
@@ -105,6 +107,7 @@
       This issue affects BIND 9 versions 9.0.0 through 9.11.37, 9.16.0 through 9.16.50, 9.18.0 through 9.18.27, 9.19.0 through 9.19.24, 9.9.3-S1 through 9.11.37-S1, 9.16.8-S1 through 9.16.49-S1, and 9.18.11-S1 through 9.18.27-S1.
     Severity: MEDIUM
     VendorSeverity:
+      photon: 3
       redhat: 3
       ubuntu: 2
     CVSS:
@@ -144,6 +147,7 @@
       This issue affects BIND 9 versions 9.16.13 through 9.16.50, 9.18.0 through 9.18.27, 9.19.0 through 9.19.24, 9.11.33-S1 through 9.11.37-S1, 9.16.13-S1 through 9.16.50-S1, and 9.18.11-S1 through 9.18.27-S1.
     Severity: MEDIUM
     VendorSeverity:
+      photon: 3
       redhat: 3
       ubuntu: 2
     CVSS:
@@ -183,6 +187,7 @@
       This issue affects BIND 9 versions 9.18.1 through 9.18.27, 9.19.0 through 9.19.24, and 9.18.11-S1 through 9.18.27-S1.
     Severity: MEDIUM
     VendorSeverity:
+      photon: 3
       redhat: 3
       ubuntu: 2
     CVSS:
@@ -222,6 +227,7 @@
       This issue affects BIND 9 versions 9.11.0 through 9.11.37, 9.16.0 through 9.16.50, 9.18.0 through 9.18.27, 9.19.0 through 9.19.24, 9.11.4-S1 through 9.11.37-S1, 9.16.8-S1 through 9.16.50-S1, and 9.18.11-S1 through 9.18.27-S1.
     Severity: MEDIUM
     VendorSeverity:
+      photon: 3
       redhat: 3
       ubuntu: 2
     CVSS:
@@ -262,6 +268,7 @@
       This issue affects BIND 9 versions 9.0.0 through 9.11.37, 9.16.0 through 9.16.50, 9.18.0 through 9.18.27, 9.19.0 through 9.19.24, 9.9.3-S1 through 9.11.37-S1, 9.16.8-S1 through 9.16.49-S1, and 9.18.11-S1 through 9.18.27-S1.
     Severity: MEDIUM
     VendorSeverity:
+      photon: 3
       redhat: 3
       ubuntu: 2
     CVSS:
@@ -301,6 +308,7 @@
       This issue affects BIND 9 versions 9.16.13 through 9.16.50, 9.18.0 through 9.18.27, 9.19.0 through 9.19.24, 9.11.33-S1 through 9.11.37-S1, 9.16.13-S1 through 9.16.50-S1, and 9.18.11-S1 through 9.18.27-S1.
     Severity: MEDIUM
     VendorSeverity:
+      photon: 3
       redhat: 3
       ubuntu: 2
     CVSS:
@@ -340,6 +348,7 @@
       This issue affects BIND 9 versions 9.18.1 through 9.18.27, 9.19.0 through 9.19.24, and 9.18.11-S1 through 9.18.27-S1.
     Severity: MEDIUM
     VendorSeverity:
+      photon: 3
       redhat: 3
       ubuntu: 2
     CVSS:
@@ -379,6 +388,7 @@
       This issue affects BIND 9 versions 9.11.0 through 9.11.37, 9.16.0 through 9.16.50, 9.18.0 through 9.18.27, 9.19.0 through 9.19.24, 9.11.4-S1 through 9.11.37-S1, 9.16.8-S1 through 9.16.50-S1, and 9.18.11-S1 through 9.18.27-S1.
     Severity: MEDIUM
     VendorSeverity:
+      photon: 3
       redhat: 3
       ubuntu: 2
     CVSS:
@@ -419,6 +429,7 @@
       This issue affects BIND 9 versions 9.0.0 through 9.11.37, 9.16.0 through 9.16.50, 9.18.0 through 9.18.27, 9.19.0 through 9.19.24, 9.9.3-S1 through 9.11.37-S1, 9.16.8-S1 through 9.16.49-S1, and 9.18.11-S1 through 9.18.27-S1.
     Severity: MEDIUM
     VendorSeverity:
+      photon: 3
       redhat: 3
       ubuntu: 2
     CVSS:
@@ -458,6 +469,7 @@
       This issue affects BIND 9 versions 9.16.13 through 9.16.50, 9.18.0 through 9.18.27, 9.19.0 through 9.19.24, 9.11.33-S1 through 9.11.37-S1, 9.16.13-S1 through 9.16.50-S1, and 9.18.11-S1 through 9.18.27-S1.
     Severity: MEDIUM
     VendorSeverity:
+      photon: 3
       redhat: 3
       ubuntu: 2
     CVSS:
@@ -927,6 +939,7 @@
       This issue affects BIND 9 versions 9.18.1 through 9.18.27, 9.19.0 through 9.19.24, and 9.18.11-S1 through 9.18.27-S1.
     Severity: MEDIUM
     VendorSeverity:
+      photon: 3
       redhat: 3
       ubuntu: 2
     CVSS:
@@ -966,6 +979,7 @@
       This issue affects BIND 9 versions 9.11.0 through 9.11.37, 9.16.0 through 9.16.50, 9.18.0 through 9.18.27, 9.19.0 through 9.19.24, 9.11.4-S1 through 9.11.37-S1, 9.16.8-S1 through 9.16.50-S1, and 9.18.11-S1 through 9.18.27-S1.
     Severity: MEDIUM
     VendorSeverity:
+      photon: 3
       redhat: 3
       ubuntu: 2
     CVSS:
@@ -1006,6 +1020,7 @@
       This issue affects BIND 9 versions 9.0.0 through 9.11.37, 9.16.0 through 9.16.50, 9.18.0 through 9.18.27, 9.19.0 through 9.19.24, 9.9.3-S1 through 9.11.37-S1, 9.16.8-S1 through 9.16.49-S1, and 9.18.11-S1 through 9.18.27-S1.
     Severity: MEDIUM
     VendorSeverity:
+      photon: 3
       redhat: 3
       ubuntu: 2
     CVSS:
@@ -1045,6 +1060,7 @@
       This issue affects BIND 9 versions 9.16.13 through 9.16.50, 9.18.0 through 9.18.27, 9.19.0 through 9.19.24, 9.11.33-S1 through 9.11.37-S1, 9.16.13-S1 through 9.16.50-S1, and 9.18.11-S1 through 9.18.27-S1.
     Severity: MEDIUM
     VendorSeverity:
+      photon: 3
       redhat: 3
       ubuntu: 2
     CVSS:
@@ -4370,7 +4386,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -4435,7 +4451,7 @@
     Severity: MEDIUM
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       bitnami: 2
       cbl-mariner: 2
       nvd: 2
@@ -4939,6 +4955,7 @@
     VendorSeverity:
       amazon: 2
       bitnami: 3
+      photon: 3
       redhat: 2
     CVSS:
       bitnami:
@@ -6114,7 +6131,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -6179,7 +6196,7 @@
     Severity: MEDIUM
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       bitnami: 2
       cbl-mariner: 2
       nvd: 2
@@ -6683,6 +6700,7 @@
     VendorSeverity:
       amazon: 2
       bitnami: 3
+      photon: 3
       redhat: 2
     CVSS:
       bitnami:
@@ -6727,6 +6745,7 @@
     VendorSeverity:
       amazon: 2
       bitnami: 3
+      photon: 3
       redhat: 2
     CVSS:
       bitnami:
@@ -6774,6 +6793,7 @@
     VendorSeverity:
       amazon: 2
       bitnami: 3
+      photon: 3
       redhat: 2
     CVSS:
       bitnami:
@@ -6855,6 +6875,7 @@
     VendorSeverity:
       amazon: 2
       bitnami: 3
+      photon: 3
       redhat: 2
     CVSS:
       bitnami:
@@ -6873,37 +6894,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-24791
     PublishedDate: '2024-07-02T22:15:04.833Z'
     LastModifiedDate: '2024-07-08T14:17:39.083Z'
-- Target: /etc/ssh/ssh_host_ecdsa_key
-  Class: secret
-  Secrets:
-  - RuleID: private-key
-    Category: AsymmetricPrivateKey
-    Severity: HIGH
-    Title: Asymmetric Private Key
-    StartLine: 1
-    EndLine: 1
-    Code:
-      Lines:
-      - Number: 1
-        Content: '-----BEGIN OPENSSH PRIVATE KEY-----************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
-        IsCause: true
-        Annotation: ''
-        Truncated: false
-        Highlighted: '-----BEGIN OPENSSH PRIVATE KEY-----************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
-        FirstCause: true
-        LastCause: true
-      - Number: 2
-        Content: ''
-        IsCause: false
-        Annotation: ''
-        Truncated: false
-        FirstCause: false
-        LastCause: false
-    Match: BEGIN OPENSSH PRIVATE KEY-----************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
-    Layer:
-      Digest: sha256:cb7792f84a86e034c9a95f45889e589649e787b9a808080a892883b7fee7a8ec
-      DiffID: sha256:c2c949af632b5f51cb2d50ea265e020f745faf4eb20d8d2e5ad3adff6f519c29
-      CreatedBy: 'COPY / / # buildkit'
 - Target: /etc/ssh/ssh_host_ed25519_key
   Class: secret
   Secrets:
@@ -6962,6 +6952,37 @@
         FirstCause: false
         LastCause: false
     Match: BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
+    Layer:
+      Digest: sha256:cb7792f84a86e034c9a95f45889e589649e787b9a808080a892883b7fee7a8ec
+      DiffID: sha256:c2c949af632b5f51cb2d50ea265e020f745faf4eb20d8d2e5ad3adff6f519c29
+      CreatedBy: 'COPY / / # buildkit'
+- Target: /etc/ssh/ssh_host_ecdsa_key
+  Class: secret
+  Secrets:
+  - RuleID: private-key
+    Category: AsymmetricPrivateKey
+    Severity: HIGH
+    Title: Asymmetric Private Key
+    StartLine: 1
+    EndLine: 1
+    Code:
+      Lines:
+      - Number: 1
+        Content: '-----BEGIN OPENSSH PRIVATE KEY-----************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
+        IsCause: true
+        Annotation: ''
+        Truncated: false
+        Highlighted: '-----BEGIN OPENSSH PRIVATE KEY-----************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
+        FirstCause: true
+        LastCause: true
+      - Number: 2
+        Content: ''
+        IsCause: false
+        Annotation: ''
+        Truncated: false
+        FirstCause: false
+        LastCause: false
+    Match: BEGIN OPENSSH PRIVATE KEY-----************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
     Layer:
       Digest: sha256:cb7792f84a86e034c9a95f45889e589649e787b9a808080a892883b7fee7a8ec
       DiffID: sha256:c2c949af632b5f51cb2d50ea265e020f745faf4eb20d8d2e5ad3adff6f519c29
