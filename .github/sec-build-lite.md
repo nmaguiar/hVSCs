@@ -102,15 +102,15 @@
 │                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C
 │                        │      │                           │           :N/I:N/A:H 
 │                        │      │                           ╰ V3Score : 6.2 
-│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:4498 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:4569 
 │                        │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023
 │                        │      │                  │       -34969 
 │                        │      │                  ├ [2] : https://bugzilla.redhat.com/2213166 
 │                        │      │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2213166 
 │                        │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                        │      │                  │       CVE-2023-34969 
-│                        │      │                  ├ [5] : https://errata.almalinux.org/8/ALSA-2023-4498.html 
-│                        │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4569 
+│                        │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2023-4569.html 
+│                        │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4498 
 │                        │      │                  ├ [7] : https://gitlab.freedesktop.org/dbus/dbus/-/issu
 │                        │      │                  │       es/457 
 │                        │      │                  ├ [8] : https://linux.oracle.com/cve/CVE-2023-34969.html 
@@ -173,15 +173,15 @@
 │                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C
 │                        │      │                           │           :N/I:N/A:H 
 │                        │      │                           ╰ V3Score : 6.2 
-│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:4498 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:4569 
 │                        │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023
 │                        │      │                  │       -34969 
 │                        │      │                  ├ [2] : https://bugzilla.redhat.com/2213166 
 │                        │      │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2213166 
 │                        │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                        │      │                  │       CVE-2023-34969 
-│                        │      │                  ├ [5] : https://errata.almalinux.org/8/ALSA-2023-4498.html 
-│                        │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4569 
+│                        │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2023-4569.html 
+│                        │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4498 
 │                        │      │                  ├ [7] : https://gitlab.freedesktop.org/dbus/dbus/-/issu
 │                        │      │                  │       es/457 
 │                        │      │                  ├ [8] : https://linux.oracle.com/cve/CVE-2023-34969.html 
@@ -244,15 +244,15 @@
 │                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C
 │                        │      │                           │           :N/I:N/A:H 
 │                        │      │                           ╰ V3Score : 6.2 
-│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:4498 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:4569 
 │                        │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023
 │                        │      │                  │       -34969 
 │                        │      │                  ├ [2] : https://bugzilla.redhat.com/2213166 
 │                        │      │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2213166 
 │                        │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                        │      │                  │       CVE-2023-34969 
-│                        │      │                  ├ [5] : https://errata.almalinux.org/8/ALSA-2023-4498.html 
-│                        │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4569 
+│                        │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2023-4569.html 
+│                        │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4498 
 │                        │      │                  ├ [7] : https://gitlab.freedesktop.org/dbus/dbus/-/issu
 │                        │      │                  │       es/457 
 │                        │      │                  ├ [8] : https://linux.oracle.com/cve/CVE-2023-34969.html 
@@ -315,15 +315,15 @@
 │                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C
 │                        │      │                           │           :N/I:N/A:H 
 │                        │      │                           ╰ V3Score : 6.2 
-│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:4498 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:4569 
 │                        │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023
 │                        │      │                  │       -34969 
 │                        │      │                  ├ [2] : https://bugzilla.redhat.com/2213166 
 │                        │      │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2213166 
 │                        │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                        │      │                  │       CVE-2023-34969 
-│                        │      │                  ├ [5] : https://errata.almalinux.org/8/ALSA-2023-4498.html 
-│                        │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4569 
+│                        │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2023-4569.html 
+│                        │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4498 
 │                        │      │                  ├ [7] : https://gitlab.freedesktop.org/dbus/dbus/-/issu
 │                        │      │                  │       es/457 
 │                        │      │                  ├ [8] : https://linux.oracle.com/cve/CVE-2023-34969.html 
@@ -386,15 +386,15 @@
 │                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C
 │                        │      │                           │           :N/I:N/A:H 
 │                        │      │                           ╰ V3Score : 6.2 
-│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:4498 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:4569 
 │                        │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023
 │                        │      │                  │       -34969 
 │                        │      │                  ├ [2] : https://bugzilla.redhat.com/2213166 
 │                        │      │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2213166 
 │                        │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                        │      │                  │       CVE-2023-34969 
-│                        │      │                  ├ [5] : https://errata.almalinux.org/8/ALSA-2023-4498.html 
-│                        │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4569 
+│                        │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2023-4569.html 
+│                        │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4498 
 │                        │      │                  ├ [7] : https://gitlab.freedesktop.org/dbus/dbus/-/issu
 │                        │      │                  │       es/457 
 │                        │      │                  ├ [8] : https://linux.oracle.com/cve/CVE-2023-34969.html 
@@ -457,15 +457,15 @@
 │                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C
 │                        │      │                           │           :N/I:N/A:H 
 │                        │      │                           ╰ V3Score : 6.2 
-│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:4498 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:4569 
 │                        │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023
 │                        │      │                  │       -34969 
 │                        │      │                  ├ [2] : https://bugzilla.redhat.com/2213166 
 │                        │      │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2213166 
 │                        │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                        │      │                  │       CVE-2023-34969 
-│                        │      │                  ├ [5] : https://errata.almalinux.org/8/ALSA-2023-4498.html 
-│                        │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4569 
+│                        │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2023-4569.html 
+│                        │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4498 
 │                        │      │                  ├ [7] : https://gitlab.freedesktop.org/dbus/dbus/-/issu
 │                        │      │                  │       es/457 
 │                        │      │                  ├ [8] : https://linux.oracle.com/cve/CVE-2023-34969.html 
@@ -1125,7 +1125,77 @@
 │                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-26462 
 │                        │      ├ PublishedDate   : 2024-02-29T01:44:18.857Z 
 │                        │      ╰ LastModifiedDate: 2024-05-14T15:09:01.053Z 
-│                        ├ [21] ╭ VulnerabilityID : CVE-2024-26458 
+│                        ├ [21] ╭ VulnerabilityID : CVE-2024-37370 
+│                        │      ├ PkgID           : krb5-locales@1.20.1-6ubuntu2 
+│                        │      ├ PkgName         : krb5-locales 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/krb5-locales@1.20.1-6ubuntu2?arc
+│                        │      │                  │       h=all&distro=ubuntu-24.04 
+│                        │      │                  ╰ UID : cea867423b688b2 
+│                        │      ├ InstalledVersion: 1.20.1-6ubuntu2 
+│                        │      ├ Status          : affected 
+│                        │      ├ Layer            ╭ Digest: sha256:87b844cbf68f751be3d7afb42a7da8febcc197
+│                        │      │                  │         3a9a731ac1cb7da355dd6c9e64 
+│                        │      │                  ╰ DiffID: sha256:1d899900a07650426cac4df88279b2b2046f8c
+│                        │      │                            b687c7e874bba739dada477201 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-37370 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : krb5: GSS message token handling 
+│                        │      ├ Description     : In MIT Kerberos 5 (aka krb5) before 1.21.3, an
+│                        │      │                   attacker can modify the plaintext Extra Count field of a
+│                        │      │                   confidential GSS krb5 wrap token, causing the unwrapped
+│                        │      │                   token to appear truncated to the application. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ VendorSeverity   ╭ amazon: 2 
+│                        │      │                  ├ redhat: 2 
+│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-37370 
+│                        │      │                  ├ [1]: https://github.com/krb5/krb5/commit/55fbf435edbe
+│                        │      │                  │      2e92dd8101669b1ce7144bc96fef 
+│                        │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-37370 
+│                        │      │                  ├ [3]: https://web.mit.edu/kerberos/www/advisories/ 
+│                        │      │                  ├ [4]: https://web.mit.edu/kerberos/www/krb5-1.21/ 
+│                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-37370 
+│                        │      ├ PublishedDate   : 2024-06-28T22:15:02.293Z 
+│                        │      ╰ LastModifiedDate: 2024-07-01T12:37:24.22Z 
+│                        ├ [22] ╭ VulnerabilityID : CVE-2024-37371 
+│                        │      ├ PkgID           : krb5-locales@1.20.1-6ubuntu2 
+│                        │      ├ PkgName         : krb5-locales 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/krb5-locales@1.20.1-6ubuntu2?arc
+│                        │      │                  │       h=all&distro=ubuntu-24.04 
+│                        │      │                  ╰ UID : cea867423b688b2 
+│                        │      ├ InstalledVersion: 1.20.1-6ubuntu2 
+│                        │      ├ Status          : affected 
+│                        │      ├ Layer            ╭ Digest: sha256:87b844cbf68f751be3d7afb42a7da8febcc197
+│                        │      │                  │         3a9a731ac1cb7da355dd6c9e64 
+│                        │      │                  ╰ DiffID: sha256:1d899900a07650426cac4df88279b2b2046f8c
+│                        │      │                            b687c7e874bba739dada477201 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-37371 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : krb5: GSS message token handling 
+│                        │      ├ Description     : In MIT Kerberos 5 (aka krb5) before 1.21.3, an
+│                        │      │                   attacker can cause invalid memory reads during GSS message
+│                        │      │                   token handling by sending message tokens with invalid
+│                        │      │                   length fields. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ VendorSeverity   ╭ amazon: 2 
+│                        │      │                  ├ redhat: 2 
+│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-37371 
+│                        │      │                  ├ [1]: https://github.com/krb5/krb5/commit/55fbf435edbe
+│                        │      │                  │      2e92dd8101669b1ce7144bc96fef 
+│                        │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-37371 
+│                        │      │                  ├ [3]: https://web.mit.edu/kerberos/www/advisories/ 
+│                        │      │                  ├ [4]: https://web.mit.edu/kerberos/www/krb5-1.21/ 
+│                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-37371 
+│                        │      ├ PublishedDate   : 2024-06-28T23:15:11.603Z 
+│                        │      ╰ LastModifiedDate: 2024-07-01T12:37:24.22Z 
+│                        ├ [23] ╭ VulnerabilityID : CVE-2024-26458 
 │                        │      ├ PkgID           : krb5-locales@1.20.1-6ubuntu2 
 │                        │      ├ PkgName         : krb5-locales 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/krb5-locales@1.20.1-6ubuntu2?arc
@@ -1181,7 +1251,7 @@
 │                        │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2024-26458 
 │                        │      ├ PublishedDate   : 2024-02-29T01:44:18.78Z 
 │                        │      ╰ LastModifiedDate: 2024-05-14T15:09:00.47Z 
-│                        ├ [22] ╭ VulnerabilityID : CVE-2024-26461 
+│                        ├ [24] ╭ VulnerabilityID : CVE-2024-26461 
 │                        │      ├ PkgID           : krb5-locales@1.20.1-6ubuntu2 
 │                        │      ├ PkgName         : krb5-locales 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/krb5-locales@1.20.1-6ubuntu2?arc
@@ -1238,7 +1308,7 @@
 │                        │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2024-26461 
 │                        │      ├ PublishedDate   : 2024-02-29T01:44:18.82Z 
 │                        │      ╰ LastModifiedDate: 2024-05-14T15:09:00.787Z 
-│                        ├ [23] ╭ VulnerabilityID : CVE-2016-20013 
+│                        ├ [25] ╭ VulnerabilityID : CVE-2016-20013 
 │                        │      ├ PkgID           : libc-bin@2.39-0ubuntu8.2 
 │                        │      ├ PkgName         : libc-bin 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libc-bin@2.39-0ubuntu8.2?arch=am
@@ -1276,7 +1346,7 @@
 │                        │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2016-20013 
 │                        │      ├ PublishedDate   : 2022-02-19T05:15:09.413Z 
 │                        │      ╰ LastModifiedDate: 2022-03-03T16:43:19.667Z 
-│                        ├ [24] ╭ VulnerabilityID : CVE-2016-20013 
+│                        ├ [26] ╭ VulnerabilityID : CVE-2016-20013 
 │                        │      ├ PkgID           : libc6@2.39-0ubuntu8.2 
 │                        │      ├ PkgName         : libc6 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libc6@2.39-0ubuntu8.2?arch=amd64
@@ -1314,7 +1384,7 @@
 │                        │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2016-20013 
 │                        │      ├ PublishedDate   : 2022-02-19T05:15:09.413Z 
 │                        │      ╰ LastModifiedDate: 2022-03-03T16:43:19.667Z 
-│                        ├ [25] ╭ VulnerabilityID : CVE-2023-34969 
+│                        ├ [27] ╭ VulnerabilityID : CVE-2023-34969 
 │                        │      ├ PkgID           : libdbus-1-3@1.14.10-4ubuntu4 
 │                        │      ├ PkgName         : libdbus-1-3 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libdbus-1-3@1.14.10-4ubuntu4?arc
@@ -1360,15 +1430,15 @@
 │                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C
 │                        │      │                           │           :N/I:N/A:H 
 │                        │      │                           ╰ V3Score : 6.2 
-│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:4498 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:4569 
 │                        │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023
 │                        │      │                  │       -34969 
 │                        │      │                  ├ [2] : https://bugzilla.redhat.com/2213166 
 │                        │      │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2213166 
 │                        │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                        │      │                  │       CVE-2023-34969 
-│                        │      │                  ├ [5] : https://errata.almalinux.org/8/ALSA-2023-4498.html 
-│                        │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4569 
+│                        │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2023-4569.html 
+│                        │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4498 
 │                        │      │                  ├ [7] : https://gitlab.freedesktop.org/dbus/dbus/-/issu
 │                        │      │                  │       es/457 
 │                        │      │                  ├ [8] : https://linux.oracle.com/cve/CVE-2023-34969.html 
@@ -1385,7 +1455,7 @@
 │                        │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2023-34969 
 │                        │      ├ PublishedDate   : 2023-06-08T03:15:08.97Z 
 │                        │      ╰ LastModifiedDate: 2023-12-27T16:36:58.353Z 
-│                        ├ [26] ╭ VulnerabilityID : CVE-2024-2236 
+│                        ├ [28] ╭ VulnerabilityID : CVE-2024-2236 
 │                        │      ├ PkgID           : libgcrypt20@1.10.3-2build1 
 │                        │      ├ PkgName         : libgcrypt20 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libgcrypt20@1.10.3-2build1?arch=
@@ -1426,7 +1496,7 @@
 │                        │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-2236 
 │                        │      ├ PublishedDate   : 2024-03-06T22:15:57.977Z 
 │                        │      ╰ LastModifiedDate: 2024-04-25T17:15:49.467Z 
-│                        ├ [27] ╭ VulnerabilityID : CVE-2024-26462 
+│                        ├ [29] ╭ VulnerabilityID : CVE-2024-26462 
 │                        │      ├ PkgID           : libgssapi-krb5-2@1.20.1-6ubuntu2 
 │                        │      ├ PkgName         : libgssapi-krb5-2 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libgssapi-krb5-2@1.20.1-6ubuntu2
@@ -1465,7 +1535,77 @@
 │                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-26462 
 │                        │      ├ PublishedDate   : 2024-02-29T01:44:18.857Z 
 │                        │      ╰ LastModifiedDate: 2024-05-14T15:09:01.053Z 
-│                        ├ [28] ╭ VulnerabilityID : CVE-2024-26458 
+│                        ├ [30] ╭ VulnerabilityID : CVE-2024-37370 
+│                        │      ├ PkgID           : libgssapi-krb5-2@1.20.1-6ubuntu2 
+│                        │      ├ PkgName         : libgssapi-krb5-2 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libgssapi-krb5-2@1.20.1-6ubuntu2
+│                        │      │                  │       ?arch=amd64&distro=ubuntu-24.04 
+│                        │      │                  ╰ UID : 107365047477de89 
+│                        │      ├ InstalledVersion: 1.20.1-6ubuntu2 
+│                        │      ├ Status          : affected 
+│                        │      ├ Layer            ╭ Digest: sha256:87b844cbf68f751be3d7afb42a7da8febcc197
+│                        │      │                  │         3a9a731ac1cb7da355dd6c9e64 
+│                        │      │                  ╰ DiffID: sha256:1d899900a07650426cac4df88279b2b2046f8c
+│                        │      │                            b687c7e874bba739dada477201 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-37370 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : krb5: GSS message token handling 
+│                        │      ├ Description     : In MIT Kerberos 5 (aka krb5) before 1.21.3, an
+│                        │      │                   attacker can modify the plaintext Extra Count field of a
+│                        │      │                   confidential GSS krb5 wrap token, causing the unwrapped
+│                        │      │                   token to appear truncated to the application. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ VendorSeverity   ╭ amazon: 2 
+│                        │      │                  ├ redhat: 2 
+│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-37370 
+│                        │      │                  ├ [1]: https://github.com/krb5/krb5/commit/55fbf435edbe
+│                        │      │                  │      2e92dd8101669b1ce7144bc96fef 
+│                        │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-37370 
+│                        │      │                  ├ [3]: https://web.mit.edu/kerberos/www/advisories/ 
+│                        │      │                  ├ [4]: https://web.mit.edu/kerberos/www/krb5-1.21/ 
+│                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-37370 
+│                        │      ├ PublishedDate   : 2024-06-28T22:15:02.293Z 
+│                        │      ╰ LastModifiedDate: 2024-07-01T12:37:24.22Z 
+│                        ├ [31] ╭ VulnerabilityID : CVE-2024-37371 
+│                        │      ├ PkgID           : libgssapi-krb5-2@1.20.1-6ubuntu2 
+│                        │      ├ PkgName         : libgssapi-krb5-2 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libgssapi-krb5-2@1.20.1-6ubuntu2
+│                        │      │                  │       ?arch=amd64&distro=ubuntu-24.04 
+│                        │      │                  ╰ UID : 107365047477de89 
+│                        │      ├ InstalledVersion: 1.20.1-6ubuntu2 
+│                        │      ├ Status          : affected 
+│                        │      ├ Layer            ╭ Digest: sha256:87b844cbf68f751be3d7afb42a7da8febcc197
+│                        │      │                  │         3a9a731ac1cb7da355dd6c9e64 
+│                        │      │                  ╰ DiffID: sha256:1d899900a07650426cac4df88279b2b2046f8c
+│                        │      │                            b687c7e874bba739dada477201 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-37371 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : krb5: GSS message token handling 
+│                        │      ├ Description     : In MIT Kerberos 5 (aka krb5) before 1.21.3, an
+│                        │      │                   attacker can cause invalid memory reads during GSS message
+│                        │      │                   token handling by sending message tokens with invalid
+│                        │      │                   length fields. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ VendorSeverity   ╭ amazon: 2 
+│                        │      │                  ├ redhat: 2 
+│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-37371 
+│                        │      │                  ├ [1]: https://github.com/krb5/krb5/commit/55fbf435edbe
+│                        │      │                  │      2e92dd8101669b1ce7144bc96fef 
+│                        │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-37371 
+│                        │      │                  ├ [3]: https://web.mit.edu/kerberos/www/advisories/ 
+│                        │      │                  ├ [4]: https://web.mit.edu/kerberos/www/krb5-1.21/ 
+│                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-37371 
+│                        │      ├ PublishedDate   : 2024-06-28T23:15:11.603Z 
+│                        │      ╰ LastModifiedDate: 2024-07-01T12:37:24.22Z 
+│                        ├ [32] ╭ VulnerabilityID : CVE-2024-26458 
 │                        │      ├ PkgID           : libgssapi-krb5-2@1.20.1-6ubuntu2 
 │                        │      ├ PkgName         : libgssapi-krb5-2 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libgssapi-krb5-2@1.20.1-6ubuntu2
@@ -1521,7 +1661,7 @@
 │                        │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2024-26458 
 │                        │      ├ PublishedDate   : 2024-02-29T01:44:18.78Z 
 │                        │      ╰ LastModifiedDate: 2024-05-14T15:09:00.47Z 
-│                        ├ [29] ╭ VulnerabilityID : CVE-2024-26461 
+│                        ├ [33] ╭ VulnerabilityID : CVE-2024-26461 
 │                        │      ├ PkgID           : libgssapi-krb5-2@1.20.1-6ubuntu2 
 │                        │      ├ PkgName         : libgssapi-krb5-2 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libgssapi-krb5-2@1.20.1-6ubuntu2
@@ -1578,7 +1718,7 @@
 │                        │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2024-26461 
 │                        │      ├ PublishedDate   : 2024-02-29T01:44:18.82Z 
 │                        │      ╰ LastModifiedDate: 2024-05-14T15:09:00.787Z 
-│                        ├ [30] ╭ VulnerabilityID : CVE-2024-26462 
+│                        ├ [34] ╭ VulnerabilityID : CVE-2024-26462 
 │                        │      ├ PkgID           : libk5crypto3@1.20.1-6ubuntu2 
 │                        │      ├ PkgName         : libk5crypto3 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libk5crypto3@1.20.1-6ubuntu2?arc
@@ -1617,7 +1757,7 @@
 │                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-26462 
 │                        │      ├ PublishedDate   : 2024-02-29T01:44:18.857Z 
 │                        │      ╰ LastModifiedDate: 2024-05-14T15:09:01.053Z 
-│                        ├ [31] ╭ VulnerabilityID : CVE-2024-26458 
+│                        ├ [35] ╭ VulnerabilityID : CVE-2024-37370 
 │                        │      ├ PkgID           : libk5crypto3@1.20.1-6ubuntu2 
 │                        │      ├ PkgName         : libk5crypto3 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libk5crypto3@1.20.1-6ubuntu2?arc
@@ -1630,50 +1770,29 @@
 │                        │      │                  ╰ DiffID: sha256:1d899900a07650426cac4df88279b2b2046f8c
 │                        │      │                            b687c7e874bba739dada477201 
 │                        │      ├ SeveritySource  : ubuntu 
-│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-26458 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-37370 
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
 │                        │      │                  ├ Name: Ubuntu CVE Tracker 
 │                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │      ├ Title           : krb5: Memory leak at /krb5/src/lib/rpc/pmap_rmt.c 
-│                        │      ├ Description     : Kerberos 5 (aka krb5) 1.21.2 contains a memory leak in
-│                        │      │                    /krb5/src/lib/rpc/pmap_rmt.c. 
-│                        │      ├ Severity        : LOW 
-│                        │      ├ VendorSeverity   ╭ alma       : 1 
-│                        │      │                  ├ amazon     : 2 
-│                        │      │                  ├ oracle-oval: 1 
-│                        │      │                  ├ photon     : 2 
-│                        │      │                  ├ redhat     : 1 
-│                        │      │                  ├ rocky      : 1 
-│                        │      │                  ╰ ubuntu     : 1 
-│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
-│                        │      │                           │           :N/I:N/A:H 
-│                        │      │                           ╰ V3Score : 5.9 
-│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:3268 
-│                        │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024
-│                        │      │                  │       -26458 
-│                        │      │                  ├ [2] : https://bugzilla.redhat.com/2266731 
-│                        │      │                  ├ [3] : https://bugzilla.redhat.com/2266740 
-│                        │      │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2266731 
-│                        │      │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2266740 
-│                        │      │                  ├ [6] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
-│                        │      │                  │       CVE-2024-26458 
-│                        │      │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
-│                        │      │                  │       CVE-2024-26461 
-│                        │      │                  ├ [8] : https://errata.almalinux.org/8/ALSA-2024-3268.html 
-│                        │      │                  ├ [9] : https://errata.rockylinux.org/RLSA-2024:3268 
-│                        │      │                  ├ [10]: https://github.com/LuMingYinDetect/krb5_defects
-│                        │      │                  │       /blob/main/krb5_detect_1.md 
-│                        │      │                  ├ [11]: https://linux.oracle.com/cve/CVE-2024-26458.html 
-│                        │      │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2024-3268.html 
-│                        │      │                  ├ [13]: https://mailman.mit.edu/pipermail/kerberos/2024
-│                        │      │                  │       -March/023095.html 
-│                        │      │                  ├ [14]: https://nvd.nist.gov/vuln/detail/CVE-2024-26458 
-│                        │      │                  ├ [15]: https://security.netapp.com/advisory/ntap-20240
-│                        │      │                  │       415-0010/ 
-│                        │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2024-26458 
-│                        │      ├ PublishedDate   : 2024-02-29T01:44:18.78Z 
-│                        │      ╰ LastModifiedDate: 2024-05-14T15:09:00.47Z 
-│                        ├ [32] ╭ VulnerabilityID : CVE-2024-26461 
+│                        │      ├ Title           : krb5: GSS message token handling 
+│                        │      ├ Description     : In MIT Kerberos 5 (aka krb5) before 1.21.3, an
+│                        │      │                   attacker can modify the plaintext Extra Count field of a
+│                        │      │                   confidential GSS krb5 wrap token, causing the unwrapped
+│                        │      │                   token to appear truncated to the application. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ VendorSeverity   ╭ amazon: 2 
+│                        │      │                  ├ redhat: 2 
+│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-37370 
+│                        │      │                  ├ [1]: https://github.com/krb5/krb5/commit/55fbf435edbe
+│                        │      │                  │      2e92dd8101669b1ce7144bc96fef 
+│                        │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-37370 
+│                        │      │                  ├ [3]: https://web.mit.edu/kerberos/www/advisories/ 
+│                        │      │                  ├ [4]: https://web.mit.edu/kerberos/www/krb5-1.21/ 
+│                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-37370 
+│                        │      ├ PublishedDate   : 2024-06-28T22:15:02.293Z 
+│                        │      ╰ LastModifiedDate: 2024-07-01T12:37:24.22Z 
+│                        ├ [36] ╭ VulnerabilityID : CVE-2024-37371 
 │                        │      ├ PkgID           : libk5crypto3@1.20.1-6ubuntu2 
 │                        │      ├ PkgName         : libk5crypto3 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libk5crypto3@1.20.1-6ubuntu2?arc
@@ -1686,247 +1805,34 @@
 │                        │      │                  ╰ DiffID: sha256:1d899900a07650426cac4df88279b2b2046f8c
 │                        │      │                            b687c7e874bba739dada477201 
 │                        │      ├ SeveritySource  : ubuntu 
-│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-26461 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-37371 
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
 │                        │      │                  ├ Name: Ubuntu CVE Tracker 
 │                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │      ├ Title           : krb5: Memory leak at /krb5/src/lib/gssapi/krb5/k5sealv3.c 
-│                        │      ├ Description     : Kerberos 5 (aka krb5) 1.21.2 contains a memory leak
-│                        │      │                   vulnerability in
-│                        │      │                   /krb5/src/lib/gssapi/krb5/k5sealv3.c. 
-│                        │      ├ Severity        : LOW 
-│                        │      ├ VendorSeverity   ╭ alma       : 1 
-│                        │      │                  ├ amazon     : 2 
-│                        │      │                  ├ oracle-oval: 1 
-│                        │      │                  ├ photon     : 2 
-│                        │      │                  ├ redhat     : 1 
-│                        │      │                  ├ rocky      : 1 
-│                        │      │                  ╰ ubuntu     : 1 
-│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
-│                        │      │                           │           :N/I:N/A:H 
-│                        │      │                           ╰ V3Score : 5.9 
-│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:3268 
-│                        │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024
-│                        │      │                  │       -26461 
-│                        │      │                  ├ [2] : https://bugzilla.redhat.com/2266731 
-│                        │      │                  ├ [3] : https://bugzilla.redhat.com/2266740 
-│                        │      │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2266731 
-│                        │      │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2266740 
-│                        │      │                  ├ [6] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
-│                        │      │                  │       CVE-2024-26458 
-│                        │      │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
-│                        │      │                  │       CVE-2024-26461 
-│                        │      │                  ├ [8] : https://errata.almalinux.org/8/ALSA-2024-3268.html 
-│                        │      │                  ├ [9] : https://errata.rockylinux.org/RLSA-2024:3268 
-│                        │      │                  ├ [10]: https://github.com/LuMingYinDetect/krb5_defects
-│                        │      │                  │       /blob/main/krb5_detect_2.md 
-│                        │      │                  ├ [11]: https://linux.oracle.com/cve/CVE-2024-26461.html 
-│                        │      │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2024-3268.html 
-│                        │      │                  ├ [13]: https://mailman.mit.edu/pipermail/kerberos/2024
-│                        │      │                  │       -March/023095.html 
-│                        │      │                  ├ [14]: https://nvd.nist.gov/vuln/detail/CVE-2024-26461 
-│                        │      │                  ├ [15]: https://security.netapp.com/advisory/ntap-20240
-│                        │      │                  │       415-0011/ 
-│                        │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2024-26461 
-│                        │      ├ PublishedDate   : 2024-02-29T01:44:18.82Z 
-│                        │      ╰ LastModifiedDate: 2024-05-14T15:09:00.787Z 
-│                        ├ [33] ╭ VulnerabilityID : CVE-2024-26462 
-│                        │      ├ PkgID           : libkrb5-3@1.20.1-6ubuntu2 
-│                        │      ├ PkgName         : libkrb5-3 
-│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libkrb5-3@1.20.1-6ubuntu2?arch=a
-│                        │      │                  │       md64&distro=ubuntu-24.04 
-│                        │      │                  ╰ UID : ac9ec2f6f1be7179 
-│                        │      ├ InstalledVersion: 1.20.1-6ubuntu2 
-│                        │      ├ Status          : affected 
-│                        │      ├ Layer            ╭ Digest: sha256:87b844cbf68f751be3d7afb42a7da8febcc197
-│                        │      │                  │         3a9a731ac1cb7da355dd6c9e64 
-│                        │      │                  ╰ DiffID: sha256:1d899900a07650426cac4df88279b2b2046f8c
-│                        │      │                            b687c7e874bba739dada477201 
-│                        │      ├ SeveritySource  : ubuntu 
-│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-26462 
-│                        │      ├ DataSource       ╭ ID  : ubuntu 
-│                        │      │                  ├ Name: Ubuntu CVE Tracker 
-│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │      ├ Title           : krb5: Memory leak at /krb5/src/kdc/ndr.c 
-│                        │      ├ Description     : Kerberos 5 (aka krb5) 1.21.2 contains a memory leak
-│                        │      │                   vulnerability in /krb5/src/kdc/ndr.c. 
+│                        │      ├ Title           : krb5: GSS message token handling 
+│                        │      ├ Description     : In MIT Kerberos 5 (aka krb5) before 1.21.3, an
+│                        │      │                   attacker can cause invalid memory reads during GSS message
+│                        │      │                   token handling by sending message tokens with invalid
+│                        │      │                   length fields. 
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ VendorSeverity   ╭ amazon: 2 
-│                        │      │                  ├ photon: 2 
 │                        │      │                  ├ redhat: 2 
 │                        │      │                  ╰ ubuntu: 2 
-│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
-│                        │      │                           │           :N/I:N/A:H 
-│                        │      │                           ╰ V3Score : 7.5 
-│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-26462 
-│                        │      │                  ├ [1]: https://github.com/LuMingYinDetect/krb5_defects/
-│                        │      │                  │      blob/main/krb5_detect_3.md 
-│                        │      │                  ├ [2]: https://mailman.mit.edu/pipermail/kerberos/2024-
-│                        │      │                  │      March/023095.html 
-│                        │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2024-26462 
-│                        │      │                  ├ [4]: https://security.netapp.com/advisory/ntap-202404
-│                        │      │                  │      15-0012/ 
-│                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-26462 
-│                        │      ├ PublishedDate   : 2024-02-29T01:44:18.857Z 
-│                        │      ╰ LastModifiedDate: 2024-05-14T15:09:01.053Z 
-│                        ├ [34] ╭ VulnerabilityID : CVE-2024-26458 
-│                        │      ├ PkgID           : libkrb5-3@1.20.1-6ubuntu2 
-│                        │      ├ PkgName         : libkrb5-3 
-│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libkrb5-3@1.20.1-6ubuntu2?arch=a
-│                        │      │                  │       md64&distro=ubuntu-24.04 
-│                        │      │                  ╰ UID : ac9ec2f6f1be7179 
-│                        │      ├ InstalledVersion: 1.20.1-6ubuntu2 
-│                        │      ├ Status          : affected 
-│                        │      ├ Layer            ╭ Digest: sha256:87b844cbf68f751be3d7afb42a7da8febcc197
-│                        │      │                  │         3a9a731ac1cb7da355dd6c9e64 
-│                        │      │                  ╰ DiffID: sha256:1d899900a07650426cac4df88279b2b2046f8c
-│                        │      │                            b687c7e874bba739dada477201 
-│                        │      ├ SeveritySource  : ubuntu 
-│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-26458 
-│                        │      ├ DataSource       ╭ ID  : ubuntu 
-│                        │      │                  ├ Name: Ubuntu CVE Tracker 
-│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │      ├ Title           : krb5: Memory leak at /krb5/src/lib/rpc/pmap_rmt.c 
-│                        │      ├ Description     : Kerberos 5 (aka krb5) 1.21.2 contains a memory leak in
-│                        │      │                    /krb5/src/lib/rpc/pmap_rmt.c. 
-│                        │      ├ Severity        : LOW 
-│                        │      ├ VendorSeverity   ╭ alma       : 1 
-│                        │      │                  ├ amazon     : 2 
-│                        │      │                  ├ oracle-oval: 1 
-│                        │      │                  ├ photon     : 2 
-│                        │      │                  ├ redhat     : 1 
-│                        │      │                  ├ rocky      : 1 
-│                        │      │                  ╰ ubuntu     : 1 
-│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
-│                        │      │                           │           :N/I:N/A:H 
-│                        │      │                           ╰ V3Score : 5.9 
-│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:3268 
-│                        │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024
-│                        │      │                  │       -26458 
-│                        │      │                  ├ [2] : https://bugzilla.redhat.com/2266731 
-│                        │      │                  ├ [3] : https://bugzilla.redhat.com/2266740 
-│                        │      │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2266731 
-│                        │      │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2266740 
-│                        │      │                  ├ [6] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
-│                        │      │                  │       CVE-2024-26458 
-│                        │      │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
-│                        │      │                  │       CVE-2024-26461 
-│                        │      │                  ├ [8] : https://errata.almalinux.org/8/ALSA-2024-3268.html 
-│                        │      │                  ├ [9] : https://errata.rockylinux.org/RLSA-2024:3268 
-│                        │      │                  ├ [10]: https://github.com/LuMingYinDetect/krb5_defects
-│                        │      │                  │       /blob/main/krb5_detect_1.md 
-│                        │      │                  ├ [11]: https://linux.oracle.com/cve/CVE-2024-26458.html 
-│                        │      │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2024-3268.html 
-│                        │      │                  ├ [13]: https://mailman.mit.edu/pipermail/kerberos/2024
-│                        │      │                  │       -March/023095.html 
-│                        │      │                  ├ [14]: https://nvd.nist.gov/vuln/detail/CVE-2024-26458 
-│                        │      │                  ├ [15]: https://security.netapp.com/advisory/ntap-20240
-│                        │      │                  │       415-0010/ 
-│                        │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2024-26458 
-│                        │      ├ PublishedDate   : 2024-02-29T01:44:18.78Z 
-│                        │      ╰ LastModifiedDate: 2024-05-14T15:09:00.47Z 
-│                        ├ [35] ╭ VulnerabilityID : CVE-2024-26461 
-│                        │      ├ PkgID           : libkrb5-3@1.20.1-6ubuntu2 
-│                        │      ├ PkgName         : libkrb5-3 
-│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libkrb5-3@1.20.1-6ubuntu2?arch=a
-│                        │      │                  │       md64&distro=ubuntu-24.04 
-│                        │      │                  ╰ UID : ac9ec2f6f1be7179 
-│                        │      ├ InstalledVersion: 1.20.1-6ubuntu2 
-│                        │      ├ Status          : affected 
-│                        │      ├ Layer            ╭ Digest: sha256:87b844cbf68f751be3d7afb42a7da8febcc197
-│                        │      │                  │         3a9a731ac1cb7da355dd6c9e64 
-│                        │      │                  ╰ DiffID: sha256:1d899900a07650426cac4df88279b2b2046f8c
-│                        │      │                            b687c7e874bba739dada477201 
-│                        │      ├ SeveritySource  : ubuntu 
-│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-26461 
-│                        │      ├ DataSource       ╭ ID  : ubuntu 
-│                        │      │                  ├ Name: Ubuntu CVE Tracker 
-│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │      ├ Title           : krb5: Memory leak at /krb5/src/lib/gssapi/krb5/k5sealv3.c 
-│                        │      ├ Description     : Kerberos 5 (aka krb5) 1.21.2 contains a memory leak
-│                        │      │                   vulnerability in
-│                        │      │                   /krb5/src/lib/gssapi/krb5/k5sealv3.c. 
-│                        │      ├ Severity        : LOW 
-│                        │      ├ VendorSeverity   ╭ alma       : 1 
-│                        │      │                  ├ amazon     : 2 
-│                        │      │                  ├ oracle-oval: 1 
-│                        │      │                  ├ photon     : 2 
-│                        │      │                  ├ redhat     : 1 
-│                        │      │                  ├ rocky      : 1 
-│                        │      │                  ╰ ubuntu     : 1 
-│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
-│                        │      │                           │           :N/I:N/A:H 
-│                        │      │                           ╰ V3Score : 5.9 
-│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:3268 
-│                        │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024
-│                        │      │                  │       -26461 
-│                        │      │                  ├ [2] : https://bugzilla.redhat.com/2266731 
-│                        │      │                  ├ [3] : https://bugzilla.redhat.com/2266740 
-│                        │      │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2266731 
-│                        │      │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2266740 
-│                        │      │                  ├ [6] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
-│                        │      │                  │       CVE-2024-26458 
-│                        │      │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
-│                        │      │                  │       CVE-2024-26461 
-│                        │      │                  ├ [8] : https://errata.almalinux.org/8/ALSA-2024-3268.html 
-│                        │      │                  ├ [9] : https://errata.rockylinux.org/RLSA-2024:3268 
-│                        │      │                  ├ [10]: https://github.com/LuMingYinDetect/krb5_defects
-│                        │      │                  │       /blob/main/krb5_detect_2.md 
-│                        │      │                  ├ [11]: https://linux.oracle.com/cve/CVE-2024-26461.html 
-│                        │      │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2024-3268.html 
-│                        │      │                  ├ [13]: https://mailman.mit.edu/pipermail/kerberos/2024
-│                        │      │                  │       -March/023095.html 
-│                        │      │                  ├ [14]: https://nvd.nist.gov/vuln/detail/CVE-2024-26461 
-│                        │      │                  ├ [15]: https://security.netapp.com/advisory/ntap-20240
-│                        │      │                  │       415-0011/ 
-│                        │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2024-26461 
-│                        │      ├ PublishedDate   : 2024-02-29T01:44:18.82Z 
-│                        │      ╰ LastModifiedDate: 2024-05-14T15:09:00.787Z 
-│                        ├ [36] ╭ VulnerabilityID : CVE-2024-26462 
-│                        │      ├ PkgID           : libkrb5support0@1.20.1-6ubuntu2 
-│                        │      ├ PkgName         : libkrb5support0 
-│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libkrb5support0@1.20.1-6ubuntu2?
-│                        │      │                  │       arch=amd64&distro=ubuntu-24.04 
-│                        │      │                  ╰ UID : f0110046a9da43ea 
-│                        │      ├ InstalledVersion: 1.20.1-6ubuntu2 
-│                        │      ├ Status          : affected 
-│                        │      ├ Layer            ╭ Digest: sha256:87b844cbf68f751be3d7afb42a7da8febcc197
-│                        │      │                  │         3a9a731ac1cb7da355dd6c9e64 
-│                        │      │                  ╰ DiffID: sha256:1d899900a07650426cac4df88279b2b2046f8c
-│                        │      │                            b687c7e874bba739dada477201 
-│                        │      ├ SeveritySource  : ubuntu 
-│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-26462 
-│                        │      ├ DataSource       ╭ ID  : ubuntu 
-│                        │      │                  ├ Name: Ubuntu CVE Tracker 
-│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │      ├ Title           : krb5: Memory leak at /krb5/src/kdc/ndr.c 
-│                        │      ├ Description     : Kerberos 5 (aka krb5) 1.21.2 contains a memory leak
-│                        │      │                   vulnerability in /krb5/src/kdc/ndr.c. 
-│                        │      ├ Severity        : MEDIUM 
-│                        │      ├ VendorSeverity   ╭ amazon: 2 
-│                        │      │                  ├ photon: 2 
-│                        │      │                  ├ redhat: 2 
-│                        │      │                  ╰ ubuntu: 2 
-│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
-│                        │      │                           │           :N/I:N/A:H 
-│                        │      │                           ╰ V3Score : 7.5 
-│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-26462 
-│                        │      │                  ├ [1]: https://github.com/LuMingYinDetect/krb5_defects/
-│                        │      │                  │      blob/main/krb5_detect_3.md 
-│                        │      │                  ├ [2]: https://mailman.mit.edu/pipermail/kerberos/2024-
-│                        │      │                  │      March/023095.html 
-│                        │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2024-26462 
-│                        │      │                  ├ [4]: https://security.netapp.com/advisory/ntap-202404
-│                        │      │                  │      15-0012/ 
-│                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-26462 
-│                        │      ├ PublishedDate   : 2024-02-29T01:44:18.857Z 
-│                        │      ╰ LastModifiedDate: 2024-05-14T15:09:01.053Z 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-37371 
+│                        │      │                  ├ [1]: https://github.com/krb5/krb5/commit/55fbf435edbe
+│                        │      │                  │      2e92dd8101669b1ce7144bc96fef 
+│                        │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-37371 
+│                        │      │                  ├ [3]: https://web.mit.edu/kerberos/www/advisories/ 
+│                        │      │                  ├ [4]: https://web.mit.edu/kerberos/www/krb5-1.21/ 
+│                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-37371 
+│                        │      ├ PublishedDate   : 2024-06-28T23:15:11.603Z 
+│                        │      ╰ LastModifiedDate: 2024-07-01T12:37:24.22Z 
 │                        ├ [37] ╭ VulnerabilityID : CVE-2024-26458 
-│                        │      ├ PkgID           : libkrb5support0@1.20.1-6ubuntu2 
-│                        │      ├ PkgName         : libkrb5support0 
-│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libkrb5support0@1.20.1-6ubuntu2?
-│                        │      │                  │       arch=amd64&distro=ubuntu-24.04 
-│                        │      │                  ╰ UID : f0110046a9da43ea 
+│                        │      ├ PkgID           : libk5crypto3@1.20.1-6ubuntu2 
+│                        │      ├ PkgName         : libk5crypto3 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libk5crypto3@1.20.1-6ubuntu2?arc
+│                        │      │                  │       h=amd64&distro=ubuntu-24.04 
+│                        │      │                  ╰ UID : c57982d130496c50 
 │                        │      ├ InstalledVersion: 1.20.1-6ubuntu2 
 │                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:87b844cbf68f751be3d7afb42a7da8febcc197
@@ -1978,6 +1884,450 @@
 │                        │      ├ PublishedDate   : 2024-02-29T01:44:18.78Z 
 │                        │      ╰ LastModifiedDate: 2024-05-14T15:09:00.47Z 
 │                        ├ [38] ╭ VulnerabilityID : CVE-2024-26461 
+│                        │      ├ PkgID           : libk5crypto3@1.20.1-6ubuntu2 
+│                        │      ├ PkgName         : libk5crypto3 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libk5crypto3@1.20.1-6ubuntu2?arc
+│                        │      │                  │       h=amd64&distro=ubuntu-24.04 
+│                        │      │                  ╰ UID : c57982d130496c50 
+│                        │      ├ InstalledVersion: 1.20.1-6ubuntu2 
+│                        │      ├ Status          : affected 
+│                        │      ├ Layer            ╭ Digest: sha256:87b844cbf68f751be3d7afb42a7da8febcc197
+│                        │      │                  │         3a9a731ac1cb7da355dd6c9e64 
+│                        │      │                  ╰ DiffID: sha256:1d899900a07650426cac4df88279b2b2046f8c
+│                        │      │                            b687c7e874bba739dada477201 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-26461 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : krb5: Memory leak at /krb5/src/lib/gssapi/krb5/k5sealv3.c 
+│                        │      ├ Description     : Kerberos 5 (aka krb5) 1.21.2 contains a memory leak
+│                        │      │                   vulnerability in
+│                        │      │                   /krb5/src/lib/gssapi/krb5/k5sealv3.c. 
+│                        │      ├ Severity        : LOW 
+│                        │      ├ VendorSeverity   ╭ alma       : 1 
+│                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ oracle-oval: 1 
+│                        │      │                  ├ photon     : 2 
+│                        │      │                  ├ redhat     : 1 
+│                        │      │                  ├ rocky      : 1 
+│                        │      │                  ╰ ubuntu     : 1 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
+│                        │      │                           │           :N/I:N/A:H 
+│                        │      │                           ╰ V3Score : 5.9 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:3268 
+│                        │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024
+│                        │      │                  │       -26461 
+│                        │      │                  ├ [2] : https://bugzilla.redhat.com/2266731 
+│                        │      │                  ├ [3] : https://bugzilla.redhat.com/2266740 
+│                        │      │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2266731 
+│                        │      │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2266740 
+│                        │      │                  ├ [6] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │      │                  │       CVE-2024-26458 
+│                        │      │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │      │                  │       CVE-2024-26461 
+│                        │      │                  ├ [8] : https://errata.almalinux.org/8/ALSA-2024-3268.html 
+│                        │      │                  ├ [9] : https://errata.rockylinux.org/RLSA-2024:3268 
+│                        │      │                  ├ [10]: https://github.com/LuMingYinDetect/krb5_defects
+│                        │      │                  │       /blob/main/krb5_detect_2.md 
+│                        │      │                  ├ [11]: https://linux.oracle.com/cve/CVE-2024-26461.html 
+│                        │      │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2024-3268.html 
+│                        │      │                  ├ [13]: https://mailman.mit.edu/pipermail/kerberos/2024
+│                        │      │                  │       -March/023095.html 
+│                        │      │                  ├ [14]: https://nvd.nist.gov/vuln/detail/CVE-2024-26461 
+│                        │      │                  ├ [15]: https://security.netapp.com/advisory/ntap-20240
+│                        │      │                  │       415-0011/ 
+│                        │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2024-26461 
+│                        │      ├ PublishedDate   : 2024-02-29T01:44:18.82Z 
+│                        │      ╰ LastModifiedDate: 2024-05-14T15:09:00.787Z 
+│                        ├ [39] ╭ VulnerabilityID : CVE-2024-26462 
+│                        │      ├ PkgID           : libkrb5-3@1.20.1-6ubuntu2 
+│                        │      ├ PkgName         : libkrb5-3 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libkrb5-3@1.20.1-6ubuntu2?arch=a
+│                        │      │                  │       md64&distro=ubuntu-24.04 
+│                        │      │                  ╰ UID : ac9ec2f6f1be7179 
+│                        │      ├ InstalledVersion: 1.20.1-6ubuntu2 
+│                        │      ├ Status          : affected 
+│                        │      ├ Layer            ╭ Digest: sha256:87b844cbf68f751be3d7afb42a7da8febcc197
+│                        │      │                  │         3a9a731ac1cb7da355dd6c9e64 
+│                        │      │                  ╰ DiffID: sha256:1d899900a07650426cac4df88279b2b2046f8c
+│                        │      │                            b687c7e874bba739dada477201 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-26462 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : krb5: Memory leak at /krb5/src/kdc/ndr.c 
+│                        │      ├ Description     : Kerberos 5 (aka krb5) 1.21.2 contains a memory leak
+│                        │      │                   vulnerability in /krb5/src/kdc/ndr.c. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ VendorSeverity   ╭ amazon: 2 
+│                        │      │                  ├ photon: 2 
+│                        │      │                  ├ redhat: 2 
+│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
+│                        │      │                           │           :N/I:N/A:H 
+│                        │      │                           ╰ V3Score : 7.5 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-26462 
+│                        │      │                  ├ [1]: https://github.com/LuMingYinDetect/krb5_defects/
+│                        │      │                  │      blob/main/krb5_detect_3.md 
+│                        │      │                  ├ [2]: https://mailman.mit.edu/pipermail/kerberos/2024-
+│                        │      │                  │      March/023095.html 
+│                        │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2024-26462 
+│                        │      │                  ├ [4]: https://security.netapp.com/advisory/ntap-202404
+│                        │      │                  │      15-0012/ 
+│                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-26462 
+│                        │      ├ PublishedDate   : 2024-02-29T01:44:18.857Z 
+│                        │      ╰ LastModifiedDate: 2024-05-14T15:09:01.053Z 
+│                        ├ [40] ╭ VulnerabilityID : CVE-2024-37370 
+│                        │      ├ PkgID           : libkrb5-3@1.20.1-6ubuntu2 
+│                        │      ├ PkgName         : libkrb5-3 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libkrb5-3@1.20.1-6ubuntu2?arch=a
+│                        │      │                  │       md64&distro=ubuntu-24.04 
+│                        │      │                  ╰ UID : ac9ec2f6f1be7179 
+│                        │      ├ InstalledVersion: 1.20.1-6ubuntu2 
+│                        │      ├ Status          : affected 
+│                        │      ├ Layer            ╭ Digest: sha256:87b844cbf68f751be3d7afb42a7da8febcc197
+│                        │      │                  │         3a9a731ac1cb7da355dd6c9e64 
+│                        │      │                  ╰ DiffID: sha256:1d899900a07650426cac4df88279b2b2046f8c
+│                        │      │                            b687c7e874bba739dada477201 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-37370 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : krb5: GSS message token handling 
+│                        │      ├ Description     : In MIT Kerberos 5 (aka krb5) before 1.21.3, an
+│                        │      │                   attacker can modify the plaintext Extra Count field of a
+│                        │      │                   confidential GSS krb5 wrap token, causing the unwrapped
+│                        │      │                   token to appear truncated to the application. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ VendorSeverity   ╭ amazon: 2 
+│                        │      │                  ├ redhat: 2 
+│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-37370 
+│                        │      │                  ├ [1]: https://github.com/krb5/krb5/commit/55fbf435edbe
+│                        │      │                  │      2e92dd8101669b1ce7144bc96fef 
+│                        │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-37370 
+│                        │      │                  ├ [3]: https://web.mit.edu/kerberos/www/advisories/ 
+│                        │      │                  ├ [4]: https://web.mit.edu/kerberos/www/krb5-1.21/ 
+│                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-37370 
+│                        │      ├ PublishedDate   : 2024-06-28T22:15:02.293Z 
+│                        │      ╰ LastModifiedDate: 2024-07-01T12:37:24.22Z 
+│                        ├ [41] ╭ VulnerabilityID : CVE-2024-37371 
+│                        │      ├ PkgID           : libkrb5-3@1.20.1-6ubuntu2 
+│                        │      ├ PkgName         : libkrb5-3 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libkrb5-3@1.20.1-6ubuntu2?arch=a
+│                        │      │                  │       md64&distro=ubuntu-24.04 
+│                        │      │                  ╰ UID : ac9ec2f6f1be7179 
+│                        │      ├ InstalledVersion: 1.20.1-6ubuntu2 
+│                        │      ├ Status          : affected 
+│                        │      ├ Layer            ╭ Digest: sha256:87b844cbf68f751be3d7afb42a7da8febcc197
+│                        │      │                  │         3a9a731ac1cb7da355dd6c9e64 
+│                        │      │                  ╰ DiffID: sha256:1d899900a07650426cac4df88279b2b2046f8c
+│                        │      │                            b687c7e874bba739dada477201 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-37371 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : krb5: GSS message token handling 
+│                        │      ├ Description     : In MIT Kerberos 5 (aka krb5) before 1.21.3, an
+│                        │      │                   attacker can cause invalid memory reads during GSS message
+│                        │      │                   token handling by sending message tokens with invalid
+│                        │      │                   length fields. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ VendorSeverity   ╭ amazon: 2 
+│                        │      │                  ├ redhat: 2 
+│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-37371 
+│                        │      │                  ├ [1]: https://github.com/krb5/krb5/commit/55fbf435edbe
+│                        │      │                  │      2e92dd8101669b1ce7144bc96fef 
+│                        │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-37371 
+│                        │      │                  ├ [3]: https://web.mit.edu/kerberos/www/advisories/ 
+│                        │      │                  ├ [4]: https://web.mit.edu/kerberos/www/krb5-1.21/ 
+│                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-37371 
+│                        │      ├ PublishedDate   : 2024-06-28T23:15:11.603Z 
+│                        │      ╰ LastModifiedDate: 2024-07-01T12:37:24.22Z 
+│                        ├ [42] ╭ VulnerabilityID : CVE-2024-26458 
+│                        │      ├ PkgID           : libkrb5-3@1.20.1-6ubuntu2 
+│                        │      ├ PkgName         : libkrb5-3 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libkrb5-3@1.20.1-6ubuntu2?arch=a
+│                        │      │                  │       md64&distro=ubuntu-24.04 
+│                        │      │                  ╰ UID : ac9ec2f6f1be7179 
+│                        │      ├ InstalledVersion: 1.20.1-6ubuntu2 
+│                        │      ├ Status          : affected 
+│                        │      ├ Layer            ╭ Digest: sha256:87b844cbf68f751be3d7afb42a7da8febcc197
+│                        │      │                  │         3a9a731ac1cb7da355dd6c9e64 
+│                        │      │                  ╰ DiffID: sha256:1d899900a07650426cac4df88279b2b2046f8c
+│                        │      │                            b687c7e874bba739dada477201 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-26458 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : krb5: Memory leak at /krb5/src/lib/rpc/pmap_rmt.c 
+│                        │      ├ Description     : Kerberos 5 (aka krb5) 1.21.2 contains a memory leak in
+│                        │      │                    /krb5/src/lib/rpc/pmap_rmt.c. 
+│                        │      ├ Severity        : LOW 
+│                        │      ├ VendorSeverity   ╭ alma       : 1 
+│                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ oracle-oval: 1 
+│                        │      │                  ├ photon     : 2 
+│                        │      │                  ├ redhat     : 1 
+│                        │      │                  ├ rocky      : 1 
+│                        │      │                  ╰ ubuntu     : 1 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
+│                        │      │                           │           :N/I:N/A:H 
+│                        │      │                           ╰ V3Score : 5.9 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:3268 
+│                        │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024
+│                        │      │                  │       -26458 
+│                        │      │                  ├ [2] : https://bugzilla.redhat.com/2266731 
+│                        │      │                  ├ [3] : https://bugzilla.redhat.com/2266740 
+│                        │      │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2266731 
+│                        │      │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2266740 
+│                        │      │                  ├ [6] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │      │                  │       CVE-2024-26458 
+│                        │      │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │      │                  │       CVE-2024-26461 
+│                        │      │                  ├ [8] : https://errata.almalinux.org/8/ALSA-2024-3268.html 
+│                        │      │                  ├ [9] : https://errata.rockylinux.org/RLSA-2024:3268 
+│                        │      │                  ├ [10]: https://github.com/LuMingYinDetect/krb5_defects
+│                        │      │                  │       /blob/main/krb5_detect_1.md 
+│                        │      │                  ├ [11]: https://linux.oracle.com/cve/CVE-2024-26458.html 
+│                        │      │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2024-3268.html 
+│                        │      │                  ├ [13]: https://mailman.mit.edu/pipermail/kerberos/2024
+│                        │      │                  │       -March/023095.html 
+│                        │      │                  ├ [14]: https://nvd.nist.gov/vuln/detail/CVE-2024-26458 
+│                        │      │                  ├ [15]: https://security.netapp.com/advisory/ntap-20240
+│                        │      │                  │       415-0010/ 
+│                        │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2024-26458 
+│                        │      ├ PublishedDate   : 2024-02-29T01:44:18.78Z 
+│                        │      ╰ LastModifiedDate: 2024-05-14T15:09:00.47Z 
+│                        ├ [43] ╭ VulnerabilityID : CVE-2024-26461 
+│                        │      ├ PkgID           : libkrb5-3@1.20.1-6ubuntu2 
+│                        │      ├ PkgName         : libkrb5-3 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libkrb5-3@1.20.1-6ubuntu2?arch=a
+│                        │      │                  │       md64&distro=ubuntu-24.04 
+│                        │      │                  ╰ UID : ac9ec2f6f1be7179 
+│                        │      ├ InstalledVersion: 1.20.1-6ubuntu2 
+│                        │      ├ Status          : affected 
+│                        │      ├ Layer            ╭ Digest: sha256:87b844cbf68f751be3d7afb42a7da8febcc197
+│                        │      │                  │         3a9a731ac1cb7da355dd6c9e64 
+│                        │      │                  ╰ DiffID: sha256:1d899900a07650426cac4df88279b2b2046f8c
+│                        │      │                            b687c7e874bba739dada477201 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-26461 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : krb5: Memory leak at /krb5/src/lib/gssapi/krb5/k5sealv3.c 
+│                        │      ├ Description     : Kerberos 5 (aka krb5) 1.21.2 contains a memory leak
+│                        │      │                   vulnerability in
+│                        │      │                   /krb5/src/lib/gssapi/krb5/k5sealv3.c. 
+│                        │      ├ Severity        : LOW 
+│                        │      ├ VendorSeverity   ╭ alma       : 1 
+│                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ oracle-oval: 1 
+│                        │      │                  ├ photon     : 2 
+│                        │      │                  ├ redhat     : 1 
+│                        │      │                  ├ rocky      : 1 
+│                        │      │                  ╰ ubuntu     : 1 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
+│                        │      │                           │           :N/I:N/A:H 
+│                        │      │                           ╰ V3Score : 5.9 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:3268 
+│                        │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024
+│                        │      │                  │       -26461 
+│                        │      │                  ├ [2] : https://bugzilla.redhat.com/2266731 
+│                        │      │                  ├ [3] : https://bugzilla.redhat.com/2266740 
+│                        │      │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2266731 
+│                        │      │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2266740 
+│                        │      │                  ├ [6] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │      │                  │       CVE-2024-26458 
+│                        │      │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │      │                  │       CVE-2024-26461 
+│                        │      │                  ├ [8] : https://errata.almalinux.org/8/ALSA-2024-3268.html 
+│                        │      │                  ├ [9] : https://errata.rockylinux.org/RLSA-2024:3268 
+│                        │      │                  ├ [10]: https://github.com/LuMingYinDetect/krb5_defects
+│                        │      │                  │       /blob/main/krb5_detect_2.md 
+│                        │      │                  ├ [11]: https://linux.oracle.com/cve/CVE-2024-26461.html 
+│                        │      │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2024-3268.html 
+│                        │      │                  ├ [13]: https://mailman.mit.edu/pipermail/kerberos/2024
+│                        │      │                  │       -March/023095.html 
+│                        │      │                  ├ [14]: https://nvd.nist.gov/vuln/detail/CVE-2024-26461 
+│                        │      │                  ├ [15]: https://security.netapp.com/advisory/ntap-20240
+│                        │      │                  │       415-0011/ 
+│                        │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2024-26461 
+│                        │      ├ PublishedDate   : 2024-02-29T01:44:18.82Z 
+│                        │      ╰ LastModifiedDate: 2024-05-14T15:09:00.787Z 
+│                        ├ [44] ╭ VulnerabilityID : CVE-2024-26462 
+│                        │      ├ PkgID           : libkrb5support0@1.20.1-6ubuntu2 
+│                        │      ├ PkgName         : libkrb5support0 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libkrb5support0@1.20.1-6ubuntu2?
+│                        │      │                  │       arch=amd64&distro=ubuntu-24.04 
+│                        │      │                  ╰ UID : f0110046a9da43ea 
+│                        │      ├ InstalledVersion: 1.20.1-6ubuntu2 
+│                        │      ├ Status          : affected 
+│                        │      ├ Layer            ╭ Digest: sha256:87b844cbf68f751be3d7afb42a7da8febcc197
+│                        │      │                  │         3a9a731ac1cb7da355dd6c9e64 
+│                        │      │                  ╰ DiffID: sha256:1d899900a07650426cac4df88279b2b2046f8c
+│                        │      │                            b687c7e874bba739dada477201 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-26462 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : krb5: Memory leak at /krb5/src/kdc/ndr.c 
+│                        │      ├ Description     : Kerberos 5 (aka krb5) 1.21.2 contains a memory leak
+│                        │      │                   vulnerability in /krb5/src/kdc/ndr.c. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ VendorSeverity   ╭ amazon: 2 
+│                        │      │                  ├ photon: 2 
+│                        │      │                  ├ redhat: 2 
+│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
+│                        │      │                           │           :N/I:N/A:H 
+│                        │      │                           ╰ V3Score : 7.5 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-26462 
+│                        │      │                  ├ [1]: https://github.com/LuMingYinDetect/krb5_defects/
+│                        │      │                  │      blob/main/krb5_detect_3.md 
+│                        │      │                  ├ [2]: https://mailman.mit.edu/pipermail/kerberos/2024-
+│                        │      │                  │      March/023095.html 
+│                        │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2024-26462 
+│                        │      │                  ├ [4]: https://security.netapp.com/advisory/ntap-202404
+│                        │      │                  │      15-0012/ 
+│                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-26462 
+│                        │      ├ PublishedDate   : 2024-02-29T01:44:18.857Z 
+│                        │      ╰ LastModifiedDate: 2024-05-14T15:09:01.053Z 
+│                        ├ [45] ╭ VulnerabilityID : CVE-2024-37370 
+│                        │      ├ PkgID           : libkrb5support0@1.20.1-6ubuntu2 
+│                        │      ├ PkgName         : libkrb5support0 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libkrb5support0@1.20.1-6ubuntu2?
+│                        │      │                  │       arch=amd64&distro=ubuntu-24.04 
+│                        │      │                  ╰ UID : f0110046a9da43ea 
+│                        │      ├ InstalledVersion: 1.20.1-6ubuntu2 
+│                        │      ├ Status          : affected 
+│                        │      ├ Layer            ╭ Digest: sha256:87b844cbf68f751be3d7afb42a7da8febcc197
+│                        │      │                  │         3a9a731ac1cb7da355dd6c9e64 
+│                        │      │                  ╰ DiffID: sha256:1d899900a07650426cac4df88279b2b2046f8c
+│                        │      │                            b687c7e874bba739dada477201 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-37370 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : krb5: GSS message token handling 
+│                        │      ├ Description     : In MIT Kerberos 5 (aka krb5) before 1.21.3, an
+│                        │      │                   attacker can modify the plaintext Extra Count field of a
+│                        │      │                   confidential GSS krb5 wrap token, causing the unwrapped
+│                        │      │                   token to appear truncated to the application. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ VendorSeverity   ╭ amazon: 2 
+│                        │      │                  ├ redhat: 2 
+│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-37370 
+│                        │      │                  ├ [1]: https://github.com/krb5/krb5/commit/55fbf435edbe
+│                        │      │                  │      2e92dd8101669b1ce7144bc96fef 
+│                        │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-37370 
+│                        │      │                  ├ [3]: https://web.mit.edu/kerberos/www/advisories/ 
+│                        │      │                  ├ [4]: https://web.mit.edu/kerberos/www/krb5-1.21/ 
+│                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-37370 
+│                        │      ├ PublishedDate   : 2024-06-28T22:15:02.293Z 
+│                        │      ╰ LastModifiedDate: 2024-07-01T12:37:24.22Z 
+│                        ├ [46] ╭ VulnerabilityID : CVE-2024-37371 
+│                        │      ├ PkgID           : libkrb5support0@1.20.1-6ubuntu2 
+│                        │      ├ PkgName         : libkrb5support0 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libkrb5support0@1.20.1-6ubuntu2?
+│                        │      │                  │       arch=amd64&distro=ubuntu-24.04 
+│                        │      │                  ╰ UID : f0110046a9da43ea 
+│                        │      ├ InstalledVersion: 1.20.1-6ubuntu2 
+│                        │      ├ Status          : affected 
+│                        │      ├ Layer            ╭ Digest: sha256:87b844cbf68f751be3d7afb42a7da8febcc197
+│                        │      │                  │         3a9a731ac1cb7da355dd6c9e64 
+│                        │      │                  ╰ DiffID: sha256:1d899900a07650426cac4df88279b2b2046f8c
+│                        │      │                            b687c7e874bba739dada477201 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-37371 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : krb5: GSS message token handling 
+│                        │      ├ Description     : In MIT Kerberos 5 (aka krb5) before 1.21.3, an
+│                        │      │                   attacker can cause invalid memory reads during GSS message
+│                        │      │                   token handling by sending message tokens with invalid
+│                        │      │                   length fields. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ VendorSeverity   ╭ amazon: 2 
+│                        │      │                  ├ redhat: 2 
+│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-37371 
+│                        │      │                  ├ [1]: https://github.com/krb5/krb5/commit/55fbf435edbe
+│                        │      │                  │      2e92dd8101669b1ce7144bc96fef 
+│                        │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-37371 
+│                        │      │                  ├ [3]: https://web.mit.edu/kerberos/www/advisories/ 
+│                        │      │                  ├ [4]: https://web.mit.edu/kerberos/www/krb5-1.21/ 
+│                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-37371 
+│                        │      ├ PublishedDate   : 2024-06-28T23:15:11.603Z 
+│                        │      ╰ LastModifiedDate: 2024-07-01T12:37:24.22Z 
+│                        ├ [47] ╭ VulnerabilityID : CVE-2024-26458 
+│                        │      ├ PkgID           : libkrb5support0@1.20.1-6ubuntu2 
+│                        │      ├ PkgName         : libkrb5support0 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libkrb5support0@1.20.1-6ubuntu2?
+│                        │      │                  │       arch=amd64&distro=ubuntu-24.04 
+│                        │      │                  ╰ UID : f0110046a9da43ea 
+│                        │      ├ InstalledVersion: 1.20.1-6ubuntu2 
+│                        │      ├ Status          : affected 
+│                        │      ├ Layer            ╭ Digest: sha256:87b844cbf68f751be3d7afb42a7da8febcc197
+│                        │      │                  │         3a9a731ac1cb7da355dd6c9e64 
+│                        │      │                  ╰ DiffID: sha256:1d899900a07650426cac4df88279b2b2046f8c
+│                        │      │                            b687c7e874bba739dada477201 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-26458 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : krb5: Memory leak at /krb5/src/lib/rpc/pmap_rmt.c 
+│                        │      ├ Description     : Kerberos 5 (aka krb5) 1.21.2 contains a memory leak in
+│                        │      │                    /krb5/src/lib/rpc/pmap_rmt.c. 
+│                        │      ├ Severity        : LOW 
+│                        │      ├ VendorSeverity   ╭ alma       : 1 
+│                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ oracle-oval: 1 
+│                        │      │                  ├ photon     : 2 
+│                        │      │                  ├ redhat     : 1 
+│                        │      │                  ├ rocky      : 1 
+│                        │      │                  ╰ ubuntu     : 1 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
+│                        │      │                           │           :N/I:N/A:H 
+│                        │      │                           ╰ V3Score : 5.9 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:3268 
+│                        │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024
+│                        │      │                  │       -26458 
+│                        │      │                  ├ [2] : https://bugzilla.redhat.com/2266731 
+│                        │      │                  ├ [3] : https://bugzilla.redhat.com/2266740 
+│                        │      │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2266731 
+│                        │      │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2266740 
+│                        │      │                  ├ [6] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │      │                  │       CVE-2024-26458 
+│                        │      │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │      │                  │       CVE-2024-26461 
+│                        │      │                  ├ [8] : https://errata.almalinux.org/8/ALSA-2024-3268.html 
+│                        │      │                  ├ [9] : https://errata.rockylinux.org/RLSA-2024:3268 
+│                        │      │                  ├ [10]: https://github.com/LuMingYinDetect/krb5_defects
+│                        │      │                  │       /blob/main/krb5_detect_1.md 
+│                        │      │                  ├ [11]: https://linux.oracle.com/cve/CVE-2024-26458.html 
+│                        │      │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2024-3268.html 
+│                        │      │                  ├ [13]: https://mailman.mit.edu/pipermail/kerberos/2024
+│                        │      │                  │       -March/023095.html 
+│                        │      │                  ├ [14]: https://nvd.nist.gov/vuln/detail/CVE-2024-26458 
+│                        │      │                  ├ [15]: https://security.netapp.com/advisory/ntap-20240
+│                        │      │                  │       415-0010/ 
+│                        │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2024-26458 
+│                        │      ├ PublishedDate   : 2024-02-29T01:44:18.78Z 
+│                        │      ╰ LastModifiedDate: 2024-05-14T15:09:00.47Z 
+│                        ├ [48] ╭ VulnerabilityID : CVE-2024-26461 
 │                        │      ├ PkgID           : libkrb5support0@1.20.1-6ubuntu2 
 │                        │      ├ PkgName         : libkrb5support0 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libkrb5support0@1.20.1-6ubuntu2?
@@ -2034,7 +2384,7 @@
 │                        │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2024-26461 
 │                        │      ├ PublishedDate   : 2024-02-29T01:44:18.82Z 
 │                        │      ╰ LastModifiedDate: 2024-05-14T15:09:00.787Z 
-│                        ├ [39] ╭ VulnerabilityID : CVE-2020-22916 
+│                        ├ [49] ╭ VulnerabilityID : CVE-2020-22916 
 │                        │      ├ PkgID           : liblzma5@5.6.1+really5.4.5-1 
 │                        │      ├ PkgName         : liblzma5 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/liblzma5@5.6.1%2Breally5.4.5-1?a
@@ -2084,7 +2434,7 @@
 │                        │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2020-22916 
 │                        │      ├ PublishedDate   : 2023-08-22T19:16:19.407Z 
 │                        │      ╰ LastModifiedDate: 2024-07-18T16:15:05.387Z 
-│                        ├ [40] ╭ VulnerabilityID : CVE-2024-4032 
+│                        ├ [50] ╭ VulnerabilityID : CVE-2024-4032 
 │                        │      ├ PkgID           : libpython3.12-minimal@3.12.3-1 
 │                        │      ├ PkgName         : libpython3.12-minimal 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpython3.12-minimal@3.12.3-1?a
@@ -2165,7 +2515,7 @@
 │                        │      │                          [m 
 │                        │      ├ PublishedDate   : 2024-06-17T15:15:52.517Z 
 │                        │      ╰ LastModifiedDate: 2024-07-28T14:15:10.783Z 
-│                        ├ [41] ╭ VulnerabilityID : CVE-2024-4032 
+│                        ├ [51] ╭ VulnerabilityID : CVE-2024-4032 
 │                        │      ├ PkgID           : libpython3.12-stdlib@3.12.3-1 
 │                        │      ├ PkgName         : libpython3.12-stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpython3.12-stdlib@3.12.3-1?ar
@@ -2246,7 +2596,7 @@
 │                        │      │                          [m 
 │                        │      ├ PublishedDate   : 2024-06-17T15:15:52.517Z 
 │                        │      ╰ LastModifiedDate: 2024-07-28T14:15:10.783Z 
-│                        ├ [42] ╭ VulnerabilityID : CVE-2024-4032 
+│                        ├ [52] ╭ VulnerabilityID : CVE-2024-4032 
 │                        │      ├ PkgID           : libpython3.12t64@3.12.3-1 
 │                        │      ├ PkgName         : libpython3.12t64 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpython3.12t64@3.12.3-1?arch=a
@@ -2327,14 +2677,15 @@
 │                        │      │                          [m 
 │                        │      ├ PublishedDate   : 2024-06-17T15:15:52.517Z 
 │                        │      ╰ LastModifiedDate: 2024-07-28T14:15:10.783Z 
-│                        ├ [43] ╭ VulnerabilityID : CVE-2024-2511 
+│                        ├ [53] ╭ VulnerabilityID : CVE-2024-2511 
 │                        │      ├ PkgID           : libssl3t64@3.0.13-0ubuntu3.1 
 │                        │      ├ PkgName         : libssl3t64 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libssl3t64@3.0.13-0ubuntu3.1?arc
 │                        │      │                  │       h=amd64&distro=ubuntu-24.04 
 │                        │      │                  ╰ UID : b601335036b6d0c 
 │                        │      ├ InstalledVersion: 3.0.13-0ubuntu3.1 
-│                        │      ├ Status          : affected 
+│                        │      ├ FixedVersion    : 3.0.13-0ubuntu3.2 
+│                        │      ├ Status          : fixed 
 │                        │      ├ Layer            ╭ Digest: sha256:87b844cbf68f751be3d7afb42a7da8febcc197
 │                        │      │                  │         3a9a731ac1cb7da355dd6c9e64 
 │                        │      │                  ╰ DiffID: sha256:1d899900a07650426cac4df88279b2b2046f8c
@@ -2402,19 +2753,21 @@
 │                        │      │                  ├ [6] : https://nvd.nist.gov/vuln/detail/CVE-2024-2511 
 │                        │      │                  ├ [7] : https://security.netapp.com/advisory/ntap-20240
 │                        │      │                  │       503-0013/ 
-│                        │      │                  ├ [8] : https://www.cve.org/CVERecord?id=CVE-2024-2511 
-│                        │      │                  ├ [9] : https://www.openssl.org/news/secadv/20240408.txt 
-│                        │      │                  ╰ [10]: https://www.openssl.org/news/vulnerabilities.html 
+│                        │      │                  ├ [8] : https://ubuntu.com/security/notices/USN-6937-1 
+│                        │      │                  ├ [9] : https://www.cve.org/CVERecord?id=CVE-2024-2511 
+│                        │      │                  ├ [10]: https://www.openssl.org/news/secadv/20240408.txt 
+│                        │      │                  ╰ [11]: https://www.openssl.org/news/vulnerabilities.html 
 │                        │      ├ PublishedDate   : 2024-04-08T14:15:07.66Z 
 │                        │      ╰ LastModifiedDate: 2024-05-03T13:15:21.93Z 
-│                        ├ [44] ╭ VulnerabilityID : CVE-2024-4603 
+│                        ├ [54] ╭ VulnerabilityID : CVE-2024-4603 
 │                        │      ├ PkgID           : libssl3t64@3.0.13-0ubuntu3.1 
 │                        │      ├ PkgName         : libssl3t64 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libssl3t64@3.0.13-0ubuntu3.1?arc
 │                        │      │                  │       h=amd64&distro=ubuntu-24.04 
 │                        │      │                  ╰ UID : b601335036b6d0c 
 │                        │      ├ InstalledVersion: 3.0.13-0ubuntu3.1 
-│                        │      ├ Status          : affected 
+│                        │      ├ FixedVersion    : 3.0.13-0ubuntu3.2 
+│                        │      ├ Status          : fixed 
 │                        │      ├ Layer            ╭ Digest: sha256:87b844cbf68f751be3d7afb42a7da8febcc197
 │                        │      │                  │         3a9a731ac1cb7da355dd6c9e64 
 │                        │      │                  ╰ DiffID: sha256:1d899900a07650426cac4df88279b2b2046f8c
@@ -2482,32 +2835,34 @@
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
 │                        │      │                           │           :N/I:N/A:L 
 │                        │      │                           ╰ V3Score : 5.3 
-│                        │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2024/
-│                        │      │                  │      05/16/2 
-│                        │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2024-4603 
-│                        │      │                  ├ [2]: https://github.com/openssl/openssl/commit/3559e8
-│                        │      │                  │      68e58005d15c6013a0c1fd832e51c73397 
-│                        │      │                  ├ [3]: https://github.com/openssl/openssl/commit/53ea06
-│                        │      │                  │      486d296b890d565fb971b2764fcd826e7e 
-│                        │      │                  ├ [4]: https://github.com/openssl/openssl/commit/9c39b3
-│                        │      │                  │      858091c152f52513c066ff2c5a47969f0d 
-│                        │      │                  ├ [5]: https://github.com/openssl/openssl/commit/da343d
-│                        │      │                  │      0605c826ef197aceedc67e8e04f065f740 
-│                        │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2024-4603 
-│                        │      │                  ├ [7]: https://security.netapp.com/advisory/ntap-202406
-│                        │      │                  │      21-0001/ 
-│                        │      │                  ├ [8]: https://www.cve.org/CVERecord?id=CVE-2024-4603 
-│                        │      │                  ╰ [9]: https://www.openssl.org/news/secadv/20240516.txt 
+│                        │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2024
+│                        │      │                  │       /05/16/2 
+│                        │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024-4603 
+│                        │      │                  ├ [2] : https://github.com/openssl/openssl/commit/3559e
+│                        │      │                  │       868e58005d15c6013a0c1fd832e51c73397 
+│                        │      │                  ├ [3] : https://github.com/openssl/openssl/commit/53ea0
+│                        │      │                  │       6486d296b890d565fb971b2764fcd826e7e 
+│                        │      │                  ├ [4] : https://github.com/openssl/openssl/commit/9c39b
+│                        │      │                  │       3858091c152f52513c066ff2c5a47969f0d 
+│                        │      │                  ├ [5] : https://github.com/openssl/openssl/commit/da343
+│                        │      │                  │       d0605c826ef197aceedc67e8e04f065f740 
+│                        │      │                  ├ [6] : https://nvd.nist.gov/vuln/detail/CVE-2024-4603 
+│                        │      │                  ├ [7] : https://security.netapp.com/advisory/ntap-20240
+│                        │      │                  │       621-0001/ 
+│                        │      │                  ├ [8] : https://ubuntu.com/security/notices/USN-6937-1 
+│                        │      │                  ├ [9] : https://www.cve.org/CVERecord?id=CVE-2024-4603 
+│                        │      │                  ╰ [10]: https://www.openssl.org/news/secadv/20240516.txt 
 │                        │      ├ PublishedDate   : 2024-05-16T16:15:10.643Z 
 │                        │      ╰ LastModifiedDate: 2024-06-21T19:15:30.783Z 
-│                        ├ [45] ╭ VulnerabilityID : CVE-2024-4741 
+│                        ├ [55] ╭ VulnerabilityID : CVE-2024-4741 
 │                        │      ├ PkgID           : libssl3t64@3.0.13-0ubuntu3.1 
 │                        │      ├ PkgName         : libssl3t64 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libssl3t64@3.0.13-0ubuntu3.1?arc
 │                        │      │                  │       h=amd64&distro=ubuntu-24.04 
 │                        │      │                  ╰ UID : b601335036b6d0c 
 │                        │      ├ InstalledVersion: 3.0.13-0ubuntu3.1 
-│                        │      ├ Status          : affected 
+│                        │      ├ FixedVersion    : 3.0.13-0ubuntu3.2 
+│                        │      ├ Status          : fixed 
 │                        │      ├ Layer            ╭ Digest: sha256:87b844cbf68f751be3d7afb42a7da8febcc197
 │                        │      │                  │         3a9a731ac1cb7da355dd6c9e64 
 │                        │      │                  ╰ DiffID: sha256:1d899900a07650426cac4df88279b2b2046f8c
@@ -2518,10 +2873,7 @@
 │                        │      │                  ├ Name: Ubuntu CVE Tracker 
 │                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
 │                        │      ├ Title           : openssl: Use After Free with SSL_free_buffers 
-│                        │      ├ Description     : A use-after-free vulnerability was found in OpenSSL.
-│                        │      │                   Calling the OpenSSL API SSL_free_buffers function may cause
-│                        │      │                    memory to be accessed that was previously freed in some
-│                        │      │                   situations. 
+│                        │      ├ Description     : No description is available for this CVE. 
 │                        │      ├ Severity        : LOW 
 │                        │      ├ VendorSeverity   ╭ cbl-mariner: 3 
 │                        │      │                  ├ photon     : 2 
@@ -2532,16 +2884,185 @@
 │                        │      │                           ╰ V3Score : 5.6 
 │                        │      ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-4741 
 │                        │                         ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2024-4741 
-│                        │                         ├ [2]: https://www.cve.org/CVERecord?id=CVE-2024-4741 
-│                        │                         ╰ [3]: https://www.openssl.org/news/secadv/20240528.txt 
-│                        ├ [46] ╭ VulnerabilityID : CVE-2024-2511 
+│                        │                         ├ [2]: https://ubuntu.com/security/notices/USN-6937-1 
+│                        │                         ├ [3]: https://www.cve.org/CVERecord?id=CVE-2024-4741 
+│                        │                         ╰ [4]: https://www.openssl.org/news/secadv/20240528.txt 
+│                        ├ [56] ╭ VulnerabilityID : CVE-2024-5535 
+│                        │      ├ PkgID           : libssl3t64@3.0.13-0ubuntu3.1 
+│                        │      ├ PkgName         : libssl3t64 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libssl3t64@3.0.13-0ubuntu3.1?arc
+│                        │      │                  │       h=amd64&distro=ubuntu-24.04 
+│                        │      │                  ╰ UID : b601335036b6d0c 
+│                        │      ├ InstalledVersion: 3.0.13-0ubuntu3.1 
+│                        │      ├ FixedVersion    : 3.0.13-0ubuntu3.2 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:87b844cbf68f751be3d7afb42a7da8febcc197
+│                        │      │                  │         3a9a731ac1cb7da355dd6c9e64 
+│                        │      │                  ╰ DiffID: sha256:1d899900a07650426cac4df88279b2b2046f8c
+│                        │      │                            b687c7e874bba739dada477201 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-5535 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : openssl: SSL_select_next_proto buffer overread 
+│                        │      ├ Description     : Issue summary: Calling the OpenSSL API function
+│                        │      │                   SSL_select_next_proto with an
+│                        │      │                   empty supported client protocols buffer may cause a crash
+│                        │      │                   or memory contents to
+│                        │      │                   be sent to the peer.
+│                        │      │                   
+│                        │      │                   Impact summary: A buffer overread can have a range of
+│                        │      │                   potential consequences
+│                        │      │                   such as unexpected application beahviour or a crash. In
+│                        │      │                   particular this issue
+│                        │      │                   could result in up to 255 bytes of arbitrary private data
+│                        │      │                   from memory being sent
+│                        │      │                   to the peer leading to a loss of confidentiality. However,
+│                        │      │                   only applications
+│                        │      │                   that directly call the SSL_select_next_proto function with
+│                        │      │                   a 0 length list of
+│                        │      │                   supported client protocols are affected by this issue. This
+│                        │      │                    would normally never
+│                        │      │                   be a valid scenario and is typically not under attacker
+│                        │      │                   control but may occur by
+│                        │      │                   accident in the case of a configuration or programming
+│                        │      │                   error in the calling
+│                        │      │                   application.
+│                        │      │                   
+│                        │      │                   The OpenSSL API function SSL_select_next_proto is typically
+│                        │      │                    used by TLS
+│                        │      │                   applications that support ALPN (Application Layer Protocol
+│                        │      │                   Negotiation) or NPN
+│                        │      │                   (Next Protocol Negotiation). NPN is older, was never
+│                        │      │                   standardised and
+│                        │      │                   is deprecated in favour of ALPN. We believe that ALPN is
+│                        │      │                   significantly more
+│                        │      │                   widely deployed than NPN. The SSL_select_next_proto
+│                        │      │                   function accepts a list of
+│                        │      │                   protocols from the server and a list of protocols from the
+│                        │      │                   client and returns
+│                        │      │                   the first protocol that appears in the server list that
+│                        │      │                   also appears in the
+│                        │      │                   client list. In the case of no overlap between the two
+│                        │      │                   lists it returns the
+│                        │      │                   first item in the client list. In either case it will
+│                        │      │                   signal whether an overlap
+│                        │      │                   between the two lists was found. In the case where
+│                        │      │                   SSL_select_next_proto is
+│                        │      │                   called with a zero length client list it fails to notice
+│                        │      │                   this condition and
+│                        │      │                   returns the memory immediately following the client list
+│                        │      │                   pointer (and reports
+│                        │      │                   that there was no overlap in the lists).
+│                        │      │                   
+│                        │      │                   This function is typically called from a server side
+│                        │      │                   application callback for
+│                        │      │                   ALPN or a client side application callback for NPN. In the
+│                        │      │                   case of ALPN the list
+│                        │      │                   of protocols supplied by the client is guaranteed by libssl
+│                        │      │                    to never be zero in
+│                        │      │                   length. The list of server protocols comes from the
+│                        │      │                   application and should never
+│                        │      │                   normally be expected to be of zero length. In this case if
+│                        │      │                   the
+│                        │      │                   SSL_select_next_proto function has been called as expected
+│                        │      │                   (with the list
+│                        │      │                   supplied by the client passed in the client/client_len
+│                        │      │                   parameters), then the
+│                        │      │                   application will not be vulnerable to this issue. If the
+│                        │      │                   application has
+│                        │      │                   accidentally been configured with a zero length server
+│                        │      │                   list, and has
+│                        │      │                   accidentally passed that zero length server list in the
+│                        │      │                   client/client_len
+│                        │      │                   parameters, and has additionally failed to correctly handle
+│                        │      │                    a "no overlap"
+│                        │      │                   response (which would normally result in a handshake
+│                        │      │                   failure in ALPN) then it
+│                        │      │                   will be vulnerable to this problem.
+│                        │      │                   
+│                        │      │                   In the case of NPN, the protocol permits the client to
+│                        │      │                   opportunistically select
+│                        │      │                   a protocol when there is no overlap. OpenSSL returns the
+│                        │      │                   first client protocol
+│                        │      │                   in the no overlap case in support of this. The list of
+│                        │      │                   client protocols comes
+│                        │      │                   from the application and should never normally be expected
+│                        │      │                   to be of zero length.
+│                        │      │                   However if the SSL_select_next_proto function is
+│                        │      │                   accidentally called with a
+│                        │      │                   client_len of 0 then an invalid memory pointer will be
+│                        │      │                   returned instead. If the
+│                        │      │                   application uses this output as the opportunistic protocol
+│                        │      │                   then the loss of
+│                        │      │                   confidentiality will occur.
+│                        │      │                   
+│                        │      │                   This issue has been assessed as Low severity because
+│                        │      │                   applications are most
+│                        │      │                   likely to be vulnerable if they are using NPN instead of
+│                        │      │                   ALPN - but NPN is not
+│                        │      │                   widely used. It also requires an application configuration
+│                        │      │                   or programming error.
+│                        │      │                   Finally, this issue would not typically be under attacker
+│                        │      │                   control making active
+│                        │      │                   exploitation unlikely.
+│                        │      │                   
+│                        │      │                   The FIPS modules in 3.3, 3.2, 3.1 and 3.0 are not affected
+│                        │      │                   by this issue.
+│                        │      │                   
+│                        │      │                   Due to the low severity of this issue we are not issuing
+│                        │      │                   new releases of
+│                        │      │                   OpenSSL at this time. The fix will be included in the next
+│                        │      │                   releases when they
+│                        │      │                   become available. 
+│                        │      ├ Severity        : LOW 
+│                        │      ├ CweIDs           ─ [0]: CWE-200 
+│                        │      ├ VendorSeverity   ╭ amazon     : 2 
+│                        │      │                  ├ cbl-mariner: 4 
+│                        │      │                  ├ photon     : 4 
+│                        │      │                  ├ redhat     : 1 
+│                        │      │                  ╰ ubuntu     : 1 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C
+│                        │      │                           │           :N/I:N/A:H 
+│                        │      │                           ╰ V3Score : 5.9 
+│                        │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2024
+│                        │      │                  │       /06/27/1 
+│                        │      │                  ├ [1] : http://www.openwall.com/lists/oss-security/2024
+│                        │      │                  │       /06/28/4 
+│                        │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2024-5535 
+│                        │      │                  ├ [3] : https://github.com/openssl/openssl/commit/4ada4
+│                        │      │                  │       36a1946cbb24db5ab4ca082b69c1bc10f37 
+│                        │      │                  ├ [4] : https://github.com/openssl/openssl/commit/99fb7
+│                        │      │                  │       85a5f85315b95288921a321a935ea29a51e 
+│                        │      │                  ├ [5] : https://github.com/openssl/openssl/commit/cf6f9
+│                        │      │                  │       1f6121f4db167405db2f0de410a456f260c 
+│                        │      │                  ├ [6] : https://github.com/openssl/openssl/commit/e86ac
+│                        │      │                  │       436f0bd54d4517745483e2315650fae7b2c 
+│                        │      │                  ├ [7] : https://github.openssl.org/openssl/extended-rel
+│                        │      │                  │       eases/commit/9947251413065a05189a63c9b7a6c1d4e224c21
+│                        │      │                  │       c 
+│                        │      │                  ├ [8] : https://github.openssl.org/openssl/extended-rel
+│                        │      │                  │       eases/commit/b78ec0824da857223486660177d3b1f255c65d8
+│                        │      │                  │       7 
+│                        │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2024-5535 
+│                        │      │                  ├ [10]: https://openssl.org/news/secadv/20240627.txt 
+│                        │      │                  ├ [11]: https://security.netapp.com/advisory/ntap-20240
+│                        │      │                  │       712-0005/ 
+│                        │      │                  ├ [12]: https://ubuntu.com/security/notices/USN-6937-1 
+│                        │      │                  ├ [13]: https://www.cve.org/CVERecord?id=CVE-2024-5535 
+│                        │      │                  ╰ [14]: https://www.openssl.org/news/secadv/20240627.txt 
+│                        │      ├ PublishedDate   : 2024-06-27T11:15:24.447Z 
+│                        │      ╰ LastModifiedDate: 2024-07-12T14:15:16.79Z 
+│                        ├ [57] ╭ VulnerabilityID : CVE-2024-2511 
 │                        │      ├ PkgID           : openssl@3.0.13-0ubuntu3.1 
 │                        │      ├ PkgName         : openssl 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl@3.0.13-0ubuntu3.1?arch=a
 │                        │      │                  │       md64&distro=ubuntu-24.04 
 │                        │      │                  ╰ UID : 87cebb5c42f41fef 
 │                        │      ├ InstalledVersion: 3.0.13-0ubuntu3.1 
-│                        │      ├ Status          : affected 
+│                        │      ├ FixedVersion    : 3.0.13-0ubuntu3.2 
+│                        │      ├ Status          : fixed 
 │                        │      ├ Layer            ╭ Digest: sha256:87b844cbf68f751be3d7afb42a7da8febcc197
 │                        │      │                  │         3a9a731ac1cb7da355dd6c9e64 
 │                        │      │                  ╰ DiffID: sha256:1d899900a07650426cac4df88279b2b2046f8c
@@ -2609,19 +3130,21 @@
 │                        │      │                  ├ [6] : https://nvd.nist.gov/vuln/detail/CVE-2024-2511 
 │                        │      │                  ├ [7] : https://security.netapp.com/advisory/ntap-20240
 │                        │      │                  │       503-0013/ 
-│                        │      │                  ├ [8] : https://www.cve.org/CVERecord?id=CVE-2024-2511 
-│                        │      │                  ├ [9] : https://www.openssl.org/news/secadv/20240408.txt 
-│                        │      │                  ╰ [10]: https://www.openssl.org/news/vulnerabilities.html 
+│                        │      │                  ├ [8] : https://ubuntu.com/security/notices/USN-6937-1 
+│                        │      │                  ├ [9] : https://www.cve.org/CVERecord?id=CVE-2024-2511 
+│                        │      │                  ├ [10]: https://www.openssl.org/news/secadv/20240408.txt 
+│                        │      │                  ╰ [11]: https://www.openssl.org/news/vulnerabilities.html 
 │                        │      ├ PublishedDate   : 2024-04-08T14:15:07.66Z 
 │                        │      ╰ LastModifiedDate: 2024-05-03T13:15:21.93Z 
-│                        ├ [47] ╭ VulnerabilityID : CVE-2024-4603 
+│                        ├ [58] ╭ VulnerabilityID : CVE-2024-4603 
 │                        │      ├ PkgID           : openssl@3.0.13-0ubuntu3.1 
 │                        │      ├ PkgName         : openssl 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl@3.0.13-0ubuntu3.1?arch=a
 │                        │      │                  │       md64&distro=ubuntu-24.04 
 │                        │      │                  ╰ UID : 87cebb5c42f41fef 
 │                        │      ├ InstalledVersion: 3.0.13-0ubuntu3.1 
-│                        │      ├ Status          : affected 
+│                        │      ├ FixedVersion    : 3.0.13-0ubuntu3.2 
+│                        │      ├ Status          : fixed 
 │                        │      ├ Layer            ╭ Digest: sha256:87b844cbf68f751be3d7afb42a7da8febcc197
 │                        │      │                  │         3a9a731ac1cb7da355dd6c9e64 
 │                        │      │                  ╰ DiffID: sha256:1d899900a07650426cac4df88279b2b2046f8c
@@ -2689,32 +3212,34 @@
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
 │                        │      │                           │           :N/I:N/A:L 
 │                        │      │                           ╰ V3Score : 5.3 
-│                        │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2024/
-│                        │      │                  │      05/16/2 
-│                        │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2024-4603 
-│                        │      │                  ├ [2]: https://github.com/openssl/openssl/commit/3559e8
-│                        │      │                  │      68e58005d15c6013a0c1fd832e51c73397 
-│                        │      │                  ├ [3]: https://github.com/openssl/openssl/commit/53ea06
-│                        │      │                  │      486d296b890d565fb971b2764fcd826e7e 
-│                        │      │                  ├ [4]: https://github.com/openssl/openssl/commit/9c39b3
-│                        │      │                  │      858091c152f52513c066ff2c5a47969f0d 
-│                        │      │                  ├ [5]: https://github.com/openssl/openssl/commit/da343d
-│                        │      │                  │      0605c826ef197aceedc67e8e04f065f740 
-│                        │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2024-4603 
-│                        │      │                  ├ [7]: https://security.netapp.com/advisory/ntap-202406
-│                        │      │                  │      21-0001/ 
-│                        │      │                  ├ [8]: https://www.cve.org/CVERecord?id=CVE-2024-4603 
-│                        │      │                  ╰ [9]: https://www.openssl.org/news/secadv/20240516.txt 
+│                        │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2024
+│                        │      │                  │       /05/16/2 
+│                        │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024-4603 
+│                        │      │                  ├ [2] : https://github.com/openssl/openssl/commit/3559e
+│                        │      │                  │       868e58005d15c6013a0c1fd832e51c73397 
+│                        │      │                  ├ [3] : https://github.com/openssl/openssl/commit/53ea0
+│                        │      │                  │       6486d296b890d565fb971b2764fcd826e7e 
+│                        │      │                  ├ [4] : https://github.com/openssl/openssl/commit/9c39b
+│                        │      │                  │       3858091c152f52513c066ff2c5a47969f0d 
+│                        │      │                  ├ [5] : https://github.com/openssl/openssl/commit/da343
+│                        │      │                  │       d0605c826ef197aceedc67e8e04f065f740 
+│                        │      │                  ├ [6] : https://nvd.nist.gov/vuln/detail/CVE-2024-4603 
+│                        │      │                  ├ [7] : https://security.netapp.com/advisory/ntap-20240
+│                        │      │                  │       621-0001/ 
+│                        │      │                  ├ [8] : https://ubuntu.com/security/notices/USN-6937-1 
+│                        │      │                  ├ [9] : https://www.cve.org/CVERecord?id=CVE-2024-4603 
+│                        │      │                  ╰ [10]: https://www.openssl.org/news/secadv/20240516.txt 
 │                        │      ├ PublishedDate   : 2024-05-16T16:15:10.643Z 
 │                        │      ╰ LastModifiedDate: 2024-06-21T19:15:30.783Z 
-│                        ├ [48] ╭ VulnerabilityID : CVE-2024-4741 
+│                        ├ [59] ╭ VulnerabilityID : CVE-2024-4741 
 │                        │      ├ PkgID           : openssl@3.0.13-0ubuntu3.1 
 │                        │      ├ PkgName         : openssl 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl@3.0.13-0ubuntu3.1?arch=a
 │                        │      │                  │       md64&distro=ubuntu-24.04 
 │                        │      │                  ╰ UID : 87cebb5c42f41fef 
 │                        │      ├ InstalledVersion: 3.0.13-0ubuntu3.1 
-│                        │      ├ Status          : affected 
+│                        │      ├ FixedVersion    : 3.0.13-0ubuntu3.2 
+│                        │      ├ Status          : fixed 
 │                        │      ├ Layer            ╭ Digest: sha256:87b844cbf68f751be3d7afb42a7da8febcc197
 │                        │      │                  │         3a9a731ac1cb7da355dd6c9e64 
 │                        │      │                  ╰ DiffID: sha256:1d899900a07650426cac4df88279b2b2046f8c
@@ -2725,10 +3250,7 @@
 │                        │      │                  ├ Name: Ubuntu CVE Tracker 
 │                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
 │                        │      ├ Title           : openssl: Use After Free with SSL_free_buffers 
-│                        │      ├ Description     : A use-after-free vulnerability was found in OpenSSL.
-│                        │      │                   Calling the OpenSSL API SSL_free_buffers function may cause
-│                        │      │                    memory to be accessed that was previously freed in some
-│                        │      │                   situations. 
+│                        │      ├ Description     : No description is available for this CVE. 
 │                        │      ├ Severity        : LOW 
 │                        │      ├ VendorSeverity   ╭ cbl-mariner: 3 
 │                        │      │                  ├ photon     : 2 
@@ -2739,9 +3261,177 @@
 │                        │      │                           ╰ V3Score : 5.6 
 │                        │      ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-4741 
 │                        │                         ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2024-4741 
-│                        │                         ├ [2]: https://www.cve.org/CVERecord?id=CVE-2024-4741 
-│                        │                         ╰ [3]: https://www.openssl.org/news/secadv/20240528.txt 
-│                        ├ [49] ╭ VulnerabilityID : CVE-2018-6952 
+│                        │                         ├ [2]: https://ubuntu.com/security/notices/USN-6937-1 
+│                        │                         ├ [3]: https://www.cve.org/CVERecord?id=CVE-2024-4741 
+│                        │                         ╰ [4]: https://www.openssl.org/news/secadv/20240528.txt 
+│                        ├ [60] ╭ VulnerabilityID : CVE-2024-5535 
+│                        │      ├ PkgID           : openssl@3.0.13-0ubuntu3.1 
+│                        │      ├ PkgName         : openssl 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl@3.0.13-0ubuntu3.1?arch=a
+│                        │      │                  │       md64&distro=ubuntu-24.04 
+│                        │      │                  ╰ UID : 87cebb5c42f41fef 
+│                        │      ├ InstalledVersion: 3.0.13-0ubuntu3.1 
+│                        │      ├ FixedVersion    : 3.0.13-0ubuntu3.2 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:87b844cbf68f751be3d7afb42a7da8febcc197
+│                        │      │                  │         3a9a731ac1cb7da355dd6c9e64 
+│                        │      │                  ╰ DiffID: sha256:1d899900a07650426cac4df88279b2b2046f8c
+│                        │      │                            b687c7e874bba739dada477201 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-5535 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : openssl: SSL_select_next_proto buffer overread 
+│                        │      ├ Description     : Issue summary: Calling the OpenSSL API function
+│                        │      │                   SSL_select_next_proto with an
+│                        │      │                   empty supported client protocols buffer may cause a crash
+│                        │      │                   or memory contents to
+│                        │      │                   be sent to the peer.
+│                        │      │                   
+│                        │      │                   Impact summary: A buffer overread can have a range of
+│                        │      │                   potential consequences
+│                        │      │                   such as unexpected application beahviour or a crash. In
+│                        │      │                   particular this issue
+│                        │      │                   could result in up to 255 bytes of arbitrary private data
+│                        │      │                   from memory being sent
+│                        │      │                   to the peer leading to a loss of confidentiality. However,
+│                        │      │                   only applications
+│                        │      │                   that directly call the SSL_select_next_proto function with
+│                        │      │                   a 0 length list of
+│                        │      │                   supported client protocols are affected by this issue. This
+│                        │      │                    would normally never
+│                        │      │                   be a valid scenario and is typically not under attacker
+│                        │      │                   control but may occur by
+│                        │      │                   accident in the case of a configuration or programming
+│                        │      │                   error in the calling
+│                        │      │                   application.
+│                        │      │                   
+│                        │      │                   The OpenSSL API function SSL_select_next_proto is typically
+│                        │      │                    used by TLS
+│                        │      │                   applications that support ALPN (Application Layer Protocol
+│                        │      │                   Negotiation) or NPN
+│                        │      │                   (Next Protocol Negotiation). NPN is older, was never
+│                        │      │                   standardised and
+│                        │      │                   is deprecated in favour of ALPN. We believe that ALPN is
+│                        │      │                   significantly more
+│                        │      │                   widely deployed than NPN. The SSL_select_next_proto
+│                        │      │                   function accepts a list of
+│                        │      │                   protocols from the server and a list of protocols from the
+│                        │      │                   client and returns
+│                        │      │                   the first protocol that appears in the server list that
+│                        │      │                   also appears in the
+│                        │      │                   client list. In the case of no overlap between the two
+│                        │      │                   lists it returns the
+│                        │      │                   first item in the client list. In either case it will
+│                        │      │                   signal whether an overlap
+│                        │      │                   between the two lists was found. In the case where
+│                        │      │                   SSL_select_next_proto is
+│                        │      │                   called with a zero length client list it fails to notice
+│                        │      │                   this condition and
+│                        │      │                   returns the memory immediately following the client list
+│                        │      │                   pointer (and reports
+│                        │      │                   that there was no overlap in the lists).
+│                        │      │                   
+│                        │      │                   This function is typically called from a server side
+│                        │      │                   application callback for
+│                        │      │                   ALPN or a client side application callback for NPN. In the
+│                        │      │                   case of ALPN the list
+│                        │      │                   of protocols supplied by the client is guaranteed by libssl
+│                        │      │                    to never be zero in
+│                        │      │                   length. The list of server protocols comes from the
+│                        │      │                   application and should never
+│                        │      │                   normally be expected to be of zero length. In this case if
+│                        │      │                   the
+│                        │      │                   SSL_select_next_proto function has been called as expected
+│                        │      │                   (with the list
+│                        │      │                   supplied by the client passed in the client/client_len
+│                        │      │                   parameters), then the
+│                        │      │                   application will not be vulnerable to this issue. If the
+│                        │      │                   application has
+│                        │      │                   accidentally been configured with a zero length server
+│                        │      │                   list, and has
+│                        │      │                   accidentally passed that zero length server list in the
+│                        │      │                   client/client_len
+│                        │      │                   parameters, and has additionally failed to correctly handle
+│                        │      │                    a "no overlap"
+│                        │      │                   response (which would normally result in a handshake
+│                        │      │                   failure in ALPN) then it
+│                        │      │                   will be vulnerable to this problem.
+│                        │      │                   
+│                        │      │                   In the case of NPN, the protocol permits the client to
+│                        │      │                   opportunistically select
+│                        │      │                   a protocol when there is no overlap. OpenSSL returns the
+│                        │      │                   first client protocol
+│                        │      │                   in the no overlap case in support of this. The list of
+│                        │      │                   client protocols comes
+│                        │      │                   from the application and should never normally be expected
+│                        │      │                   to be of zero length.
+│                        │      │                   However if the SSL_select_next_proto function is
+│                        │      │                   accidentally called with a
+│                        │      │                   client_len of 0 then an invalid memory pointer will be
+│                        │      │                   returned instead. If the
+│                        │      │                   application uses this output as the opportunistic protocol
+│                        │      │                   then the loss of
+│                        │      │                   confidentiality will occur.
+│                        │      │                   
+│                        │      │                   This issue has been assessed as Low severity because
+│                        │      │                   applications are most
+│                        │      │                   likely to be vulnerable if they are using NPN instead of
+│                        │      │                   ALPN - but NPN is not
+│                        │      │                   widely used. It also requires an application configuration
+│                        │      │                   or programming error.
+│                        │      │                   Finally, this issue would not typically be under attacker
+│                        │      │                   control making active
+│                        │      │                   exploitation unlikely.
+│                        │      │                   
+│                        │      │                   The FIPS modules in 3.3, 3.2, 3.1 and 3.0 are not affected
+│                        │      │                   by this issue.
+│                        │      │                   
+│                        │      │                   Due to the low severity of this issue we are not issuing
+│                        │      │                   new releases of
+│                        │      │                   OpenSSL at this time. The fix will be included in the next
+│                        │      │                   releases when they
+│                        │      │                   become available. 
+│                        │      ├ Severity        : LOW 
+│                        │      ├ CweIDs           ─ [0]: CWE-200 
+│                        │      ├ VendorSeverity   ╭ amazon     : 2 
+│                        │      │                  ├ cbl-mariner: 4 
+│                        │      │                  ├ photon     : 4 
+│                        │      │                  ├ redhat     : 1 
+│                        │      │                  ╰ ubuntu     : 1 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C
+│                        │      │                           │           :N/I:N/A:H 
+│                        │      │                           ╰ V3Score : 5.9 
+│                        │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2024
+│                        │      │                  │       /06/27/1 
+│                        │      │                  ├ [1] : http://www.openwall.com/lists/oss-security/2024
+│                        │      │                  │       /06/28/4 
+│                        │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2024-5535 
+│                        │      │                  ├ [3] : https://github.com/openssl/openssl/commit/4ada4
+│                        │      │                  │       36a1946cbb24db5ab4ca082b69c1bc10f37 
+│                        │      │                  ├ [4] : https://github.com/openssl/openssl/commit/99fb7
+│                        │      │                  │       85a5f85315b95288921a321a935ea29a51e 
+│                        │      │                  ├ [5] : https://github.com/openssl/openssl/commit/cf6f9
+│                        │      │                  │       1f6121f4db167405db2f0de410a456f260c 
+│                        │      │                  ├ [6] : https://github.com/openssl/openssl/commit/e86ac
+│                        │      │                  │       436f0bd54d4517745483e2315650fae7b2c 
+│                        │      │                  ├ [7] : https://github.openssl.org/openssl/extended-rel
+│                        │      │                  │       eases/commit/9947251413065a05189a63c9b7a6c1d4e224c21
+│                        │      │                  │       c 
+│                        │      │                  ├ [8] : https://github.openssl.org/openssl/extended-rel
+│                        │      │                  │       eases/commit/b78ec0824da857223486660177d3b1f255c65d8
+│                        │      │                  │       7 
+│                        │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2024-5535 
+│                        │      │                  ├ [10]: https://openssl.org/news/secadv/20240627.txt 
+│                        │      │                  ├ [11]: https://security.netapp.com/advisory/ntap-20240
+│                        │      │                  │       712-0005/ 
+│                        │      │                  ├ [12]: https://ubuntu.com/security/notices/USN-6937-1 
+│                        │      │                  ├ [13]: https://www.cve.org/CVERecord?id=CVE-2024-5535 
+│                        │      │                  ╰ [14]: https://www.openssl.org/news/secadv/20240627.txt 
+│                        │      ├ PublishedDate   : 2024-06-27T11:15:24.447Z 
+│                        │      ╰ LastModifiedDate: 2024-07-12T14:15:16.79Z 
+│                        ├ [61] ╭ VulnerabilityID : CVE-2018-6952 
 │                        │      ├ PkgID           : patch@2.7.6-7build3 
 │                        │      ├ PkgName         : patch 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/patch@2.7.6-7build3?arch=amd64&d
@@ -2791,7 +3481,7 @@
 │                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2018-6952 
 │                        │      ├ PublishedDate   : 2018-02-13T19:29:00.573Z 
 │                        │      ╰ LastModifiedDate: 2019-04-17T20:29:01.727Z 
-│                        ├ [50] ╭ VulnerabilityID : CVE-2021-45261 
+│                        ├ [62] ╭ VulnerabilityID : CVE-2021-45261 
 │                        │      ├ PkgID           : patch@2.7.6-7build3 
 │                        │      ├ PkgName         : patch 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/patch@2.7.6-7build3?arch=amd64&d
@@ -2831,7 +3521,7 @@
 │                        │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2021-45261 
 │                        │      ├ PublishedDate   : 2021-12-22T18:15:08.1Z 
 │                        │      ╰ LastModifiedDate: 2021-12-28T14:24:34.243Z 
-│                        ├ [51] ╭ VulnerabilityID : CVE-2024-4032 
+│                        ├ [63] ╭ VulnerabilityID : CVE-2024-4032 
 │                        │      ├ PkgID           : python3.12@3.12.3-1 
 │                        │      ├ PkgName         : python3.12 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/python3.12@3.12.3-1?arch=amd64&d
@@ -2912,7 +3602,7 @@
 │                        │      │                          [m 
 │                        │      ├ PublishedDate   : 2024-06-17T15:15:52.517Z 
 │                        │      ╰ LastModifiedDate: 2024-07-28T14:15:10.783Z 
-│                        ├ [52] ╭ VulnerabilityID : CVE-2024-4032 
+│                        ├ [64] ╭ VulnerabilityID : CVE-2024-4032 
 │                        │      ├ PkgID           : python3.12-minimal@3.12.3-1 
 │                        │      ├ PkgName         : python3.12-minimal 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/python3.12-minimal@3.12.3-1?arch
@@ -2993,7 +3683,7 @@
 │                        │      │                          [m 
 │                        │      ├ PublishedDate   : 2024-06-17T15:15:52.517Z 
 │                        │      ╰ LastModifiedDate: 2024-07-28T14:15:10.783Z 
-│                        ├ [53] ╭ VulnerabilityID : CVE-2021-4217 
+│                        ├ [65] ╭ VulnerabilityID : CVE-2021-4217 
 │                        │      ├ PkgID           : unzip@6.0-28ubuntu4 
 │                        │      ├ PkgName         : unzip 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/unzip@6.0-28ubuntu4?arch=amd64&d
@@ -3039,7 +3729,7 @@
 │                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2021-4217 
 │                        │      ├ PublishedDate   : 2022-08-24T16:15:10.09Z 
 │                        │      ╰ LastModifiedDate: 2022-11-29T15:45:16.2Z 
-│                        ├ [54] ╭ VulnerabilityID : CVE-2021-31879 
+│                        ├ [66] ╭ VulnerabilityID : CVE-2021-31879 
 │                        │      ├ PkgID           : wget@1.21.4-1ubuntu4.1 
 │                        │      ├ PkgName         : wget 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/wget@1.21.4-1ubuntu4.1?arch=amd6
@@ -3086,7 +3776,7 @@
 │                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2021-31879 
 │                        │      ├ PublishedDate   : 2021-04-29T05:15:08.707Z 
 │                        │      ╰ LastModifiedDate: 2022-05-13T20:52:24.793Z 
-│                        ╰ [55] ╭ VulnerabilityID : CVE-2020-22916 
+│                        ╰ [67] ╭ VulnerabilityID : CVE-2020-22916 
 │                               ├ PkgID           : xz-utils@5.6.1+really5.4.5-1 
 │                               ├ PkgName         : xz-utils 
 │                               ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/xz-utils@5.6.1%2Breally5.4.5-1?a
@@ -3344,7 +4034,7 @@
 │                        │      │                            │           C:N/I:N/A:H 
 │                        │      │                            ╰ V3Score : 7.5 
 │                        │      ├ References       ╭ [0]  : golang.org/x/net 
-│                        │      │                  ├ [1]  : https://access.redhat.com/errata/RHSA-2023:5863 
+│                        │      │                  ├ [1]  : https://access.redhat.com/errata/RHSA-2023:6077 
 │                        │      │                  ├ [2]  : https://access.redhat.com/security/cve/CVE-202
 │                        │      │                  │        3-39325 
 │                        │      │                  ├ [3]  : https://access.redhat.com/security/cve/CVE-202
@@ -3359,8 +4049,8 @@
 │                        │      │                  │        =CVE-2023-39325 
 │                        │      │                  ├ [10] : https://cve.mitre.org/cgi-bin/cvename.cgi?name
 │                        │      │                  │        =CVE-2023-44487 
-│                        │      │                  ├ [11] : https://errata.almalinux.org/8/ALSA-2023-5863.html 
-│                        │      │                  ├ [12] : https://errata.rockylinux.org/RLSA-2023:6077 
+│                        │      │                  ├ [11] : https://errata.almalinux.org/9/ALSA-2023-6077.html 
+│                        │      │                  ├ [12] : https://errata.rockylinux.org/RLSA-2023:5863 
 │                        │      │                  ├ [13] : https://github.com/golang/go/commit/24ae2d9272
 │                        │      │                  │        85c697440fdde3ad7f26028354bcf3 [golang-
 │                        │      │                  │        1.21] 
@@ -3645,33 +4335,29 @@
 │                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C
 │                        │      │                           │           :L/I:L/A:N 
 │                        │      │                           ╰ V3Score : 6.1 
-│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:6939 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:6474 
 │                        │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023-3978 
-│                        │      │                  ├ [2] : https://bugzilla.redhat.com/2163037 
-│                        │      │                  ├ [3] : https://bugzilla.redhat.com/2174485 
-│                        │      │                  ├ [4] : https://bugzilla.redhat.com/2175721 
-│                        │      │                  ├ [5] : https://bugzilla.redhat.com/2178358 
-│                        │      │                  ├ [6] : https://bugzilla.redhat.com/2178488 
-│                        │      │                  ├ [7] : https://bugzilla.redhat.com/2178492 
-│                        │      │                  ├ [8] : https://bugzilla.redhat.com/2182883 
-│                        │      │                  ├ [9] : https://bugzilla.redhat.com/2182884 
-│                        │      │                  ├ [10]: https://bugzilla.redhat.com/2184481 
-│                        │      │                  ├ [11]: https://bugzilla.redhat.com/2184482 
-│                        │      │                  ├ [12]: https://bugzilla.redhat.com/2184483 
-│                        │      │                  ├ [13]: https://bugzilla.redhat.com/2184484 
-│                        │      │                  ├ [14]: https://bugzilla.redhat.com/2196026 
-│                        │      │                  ├ [15]: https://bugzilla.redhat.com/2196027 
-│                        │      │                  ├ [16]: https://bugzilla.redhat.com/2196029 
-│                        │      │                  ├ [17]: https://bugzilla.redhat.com/2222167 
-│                        │      │                  ├ [18]: https://bugzilla.redhat.com/2228689 
-│                        │      │                  ├ [19]: https://errata.almalinux.org/8/ALSA-2023-6939.html 
-│                        │      │                  ├ [20]: https://go.dev/cl/514896 
-│                        │      │                  ├ [21]: https://go.dev/issue/61615 
-│                        │      │                  ├ [22]: https://linux.oracle.com/cve/CVE-2023-3978.html 
-│                        │      │                  ├ [23]: https://linux.oracle.com/errata/ELSA-2023-6939.html 
-│                        │      │                  ├ [24]: https://nvd.nist.gov/vuln/detail/CVE-2023-3978 
-│                        │      │                  ├ [25]: https://pkg.go.dev/vuln/GO-2023-1988 
-│                        │      │                  ╰ [26]: https://www.cve.org/CVERecord?id=CVE-2023-3978 
+│                        │      │                  ├ [2] : https://bugzilla.redhat.com/2174485 
+│                        │      │                  ├ [3] : https://bugzilla.redhat.com/2178358 
+│                        │      │                  ├ [4] : https://bugzilla.redhat.com/2178488 
+│                        │      │                  ├ [5] : https://bugzilla.redhat.com/2178492 
+│                        │      │                  ├ [6] : https://bugzilla.redhat.com/2184481 
+│                        │      │                  ├ [7] : https://bugzilla.redhat.com/2184482 
+│                        │      │                  ├ [8] : https://bugzilla.redhat.com/2184483 
+│                        │      │                  ├ [9] : https://bugzilla.redhat.com/2184484 
+│                        │      │                  ├ [10]: https://bugzilla.redhat.com/2196026 
+│                        │      │                  ├ [11]: https://bugzilla.redhat.com/2196027 
+│                        │      │                  ├ [12]: https://bugzilla.redhat.com/2196029 
+│                        │      │                  ├ [13]: https://bugzilla.redhat.com/2222167 
+│                        │      │                  ├ [14]: https://bugzilla.redhat.com/2228689 
+│                        │      │                  ├ [15]: https://errata.almalinux.org/9/ALSA-2023-6474.html 
+│                        │      │                  ├ [16]: https://go.dev/cl/514896 
+│                        │      │                  ├ [17]: https://go.dev/issue/61615 
+│                        │      │                  ├ [18]: https://linux.oracle.com/cve/CVE-2023-3978.html 
+│                        │      │                  ├ [19]: https://linux.oracle.com/errata/ELSA-2023-6939.html 
+│                        │      │                  ├ [20]: https://nvd.nist.gov/vuln/detail/CVE-2023-3978 
+│                        │      │                  ├ [21]: https://pkg.go.dev/vuln/GO-2023-1988 
+│                        │      │                  ╰ [22]: https://www.cve.org/CVERecord?id=CVE-2023-3978 
 │                        │      ├ PublishedDate   : 2023-08-02T20:15:12.097Z 
 │                        │      ╰ LastModifiedDate: 2023-11-07T04:20:03.647Z 
 │                        ├ [2]  ╭ VulnerabilityID : CVE-2023-44487 
@@ -3735,7 +4421,7 @@
 │                        │      │                  │        3/10/19/6 
 │                        │      │                  ├ [5]  : http://www.openwall.com/lists/oss-security/202
 │                        │      │                  │        3/10/20/8 
-│                        │      │                  ├ [6]  : https://access.redhat.com/errata/RHSA-2024:1444 
+│                        │      │                  ├ [6]  : https://access.redhat.com/errata/RHSA-2023:6746 
 │                        │      │                  ├ [7]  : https://access.redhat.com/security/cve/CVE-202
 │                        │      │                  │        3-44487 
 │                        │      │                  ├ [8]  : https://access.redhat.com/security/cve/cve-202
@@ -3771,440 +4457,439 @@
 │                        │      │                  ├ [22] : https://blog.vespa.ai/cve-2023-44487/ 
 │                        │      │                  ├ [23] : https://bugzilla.proxmox.com/show_bug.cgi?id=4988 
 │                        │      │                  ├ [24] : https://bugzilla.redhat.com/2242803 
-│                        │      │                  ├ [25] : https://bugzilla.redhat.com/2264574 
-│                        │      │                  ├ [26] : https://bugzilla.redhat.com/show_bug.cgi?id=2242803 
-│                        │      │                  ├ [27] : https://bugzilla.suse.com/show_bug.cgi?id=1216123 
-│                        │      │                  ├ [28] : https://cgit.freebsd.org/ports/commit/?id=c64c
+│                        │      │                  ├ [25] : https://bugzilla.redhat.com/show_bug.cgi?id=2242803 
+│                        │      │                  ├ [26] : https://bugzilla.suse.com/show_bug.cgi?id=1216123 
+│                        │      │                  ├ [27] : https://cgit.freebsd.org/ports/commit/?id=c64c
 │                        │      │                  │        329c2c1752f46b73e3e6ce9f4329be6629f9 
-│                        │      │                  ├ [29] : https://chaos.social/@icing/111210915918780532 
-│                        │      │                  ├ [30] : https://cloud.google.com/blog/products/identit
+│                        │      │                  ├ [28] : https://chaos.social/@icing/111210915918780532 
+│                        │      │                  ├ [29] : https://cloud.google.com/blog/products/identit
 │                        │      │                  │        y-security/google-cloud-mitigated-largest-ddos-atta
 │                        │      │                  │        ck-peaking-above-398-million-rps 
-│                        │      │                  ├ [31] : https://cloud.google.com/blog/products/identit
+│                        │      │                  ├ [30] : https://cloud.google.com/blog/products/identit
 │                        │      │                  │        y-security/google-cloud-mitigated-largest-ddos-atta
 │                        │      │                  │        ck-peaking-above-398-million-rps/ 
-│                        │      │                  ├ [32] : https://cloud.google.com/blog/products/identit
+│                        │      │                  ├ [31] : https://cloud.google.com/blog/products/identit
 │                        │      │                  │        y-security/how-it-works-the-novel-http2-rapid-reset
 │                        │      │                  │        -ddos-attack 
-│                        │      │                  ├ [33] : https://community.traefik.io/t/is-traefik-vuln
+│                        │      │                  ├ [32] : https://community.traefik.io/t/is-traefik-vuln
 │                        │      │                  │        erable-to-cve-2023-44487/20125 
-│                        │      │                  ├ [34] : https://cve.mitre.org/cgi-bin/cvename.cgi?name
+│                        │      │                  ├ [33] : https://cve.mitre.org/cgi-bin/cvename.cgi?name
 │                        │      │                  │        =CVE-2023-44487 
-│                        │      │                  ├ [35] : https://devblogs.microsoft.com/dotnet/october-
+│                        │      │                  ├ [34] : https://devblogs.microsoft.com/dotnet/october-
 │                        │      │                  │        2023-updates/ 
-│                        │      │                  ├ [36] : https://discuss.hashicorp.com/t/hcsec-2023-32-
+│                        │      │                  ├ [35] : https://discuss.hashicorp.com/t/hcsec-2023-32-
 │                        │      │                  │        vault-consul-and-boundary-affected-by-http-2-rapid-
 │                        │      │                  │        reset-denial-of-service-vulnerability-cve-2023-4448
 │                        │      │                  │        7/59715 
-│                        │      │                  ├ [37] : https://edg.io/lp/blog/resets-leaks-ddos-and-t
+│                        │      │                  ├ [36] : https://edg.io/lp/blog/resets-leaks-ddos-and-t
 │                        │      │                  │        he-tale-of-a-hidden-cve 
-│                        │      │                  ├ [38] : https://errata.almalinux.org/8/ALSA-2024-1444.html 
-│                        │      │                  ├ [39] : https://errata.rockylinux.org/RLSA-2023:5838 
-│                        │      │                  ├ [40] : https://forums.swift.org/t/swift-nio-http2-sec
+│                        │      │                  ├ [37] : https://errata.almalinux.org/9/ALSA-2023-6746.html 
+│                        │      │                  ├ [38] : https://errata.rockylinux.org/RLSA-2023:5928 
+│                        │      │                  ├ [39] : https://forums.swift.org/t/swift-nio-http2-sec
 │                        │      │                  │        urity-update-cve-2023-44487-http-2-dos/67764
 │                        │      │                  │        [m 
-│                        │      │                  ├ [41] : https://gist.github.com/adulau/7c2bfb8e9cdbe4b
+│                        │      │                  ├ [40] : https://gist.github.com/adulau/7c2bfb8e9cdbe4b
 │                        │      │                  │        35a5e131c66a0c088 
-│                        │      │                  ├ [42] : https://github.com/Azure/AKS/issues/3947 
-│                        │      │                  ├ [43] : https://github.com/Kong/kong/discussions/11741 
-│                        │      │                  ├ [44] : https://github.com/advisories/GHSA-qppj-fm5r-hxr3 
-│                        │      │                  ├ [45] : https://github.com/advisories/GHSA-vx74-f528-fxqg 
-│                        │      │                  ├ [46] : https://github.com/advisories/GHSA-xpw8-rcwv-8f8p 
-│                        │      │                  ├ [47] : https://github.com/akka/akka-http/issues/4323 
-│                        │      │                  ├ [48] : https://github.com/akka/akka-http/pull/4324 
-│                        │      │                  ├ [49] : https://github.com/akka/akka-http/pull/4325 
-│                        │      │                  ├ [50] : https://github.com/alibaba/tengine/issues/1872 
-│                        │      │                  ├ [51] : https://github.com/apache/apisix/issues/10320 
-│                        │      │                  ├ [52] : https://github.com/apache/httpd-site/pull/10 
-│                        │      │                  ├ [53] : https://github.com/apache/httpd/blob/afcdbeebb
+│                        │      │                  ├ [41] : https://github.com/Azure/AKS/issues/3947 
+│                        │      │                  ├ [42] : https://github.com/Kong/kong/discussions/11741 
+│                        │      │                  ├ [43] : https://github.com/advisories/GHSA-qppj-fm5r-hxr3 
+│                        │      │                  ├ [44] : https://github.com/advisories/GHSA-vx74-f528-fxqg 
+│                        │      │                  ├ [45] : https://github.com/advisories/GHSA-xpw8-rcwv-8f8p 
+│                        │      │                  ├ [46] : https://github.com/akka/akka-http/issues/4323 
+│                        │      │                  ├ [47] : https://github.com/akka/akka-http/pull/4324 
+│                        │      │                  ├ [48] : https://github.com/akka/akka-http/pull/4325 
+│                        │      │                  ├ [49] : https://github.com/alibaba/tengine/issues/1872 
+│                        │      │                  ├ [50] : https://github.com/apache/apisix/issues/10320 
+│                        │      │                  ├ [51] : https://github.com/apache/httpd-site/pull/10 
+│                        │      │                  ├ [52] : https://github.com/apache/httpd/blob/afcdbeebb
 │                        │      │                  │        ff4b0c50ea26cdd16e178c0d1f24152/modules/http2/h2_mp
 │                        │      │                  │        lx.c#L1101-L1113 
-│                        │      │                  ├ [54] : https://github.com/apache/tomcat/tree/main/jav
+│                        │      │                  ├ [53] : https://github.com/apache/tomcat/tree/main/jav
 │                        │      │                  │        a/org/apache/coyote/http2 
-│                        │      │                  ├ [55] : https://github.com/apache/trafficserver/pull/10564 
-│                        │      │                  ├ [56] : https://github.com/apple/swift-nio-http2 
-│                        │      │                  ├ [57] : https://github.com/apple/swift-nio-http2/secur
+│                        │      │                  ├ [54] : https://github.com/apache/trafficserver/pull/10564 
+│                        │      │                  ├ [55] : https://github.com/apple/swift-nio-http2 
+│                        │      │                  ├ [56] : https://github.com/apple/swift-nio-http2/secur
 │                        │      │                  │        ity/advisories/GHSA-qppj-fm5r-hxr3 
-│                        │      │                  ├ [58] : https://github.com/arkrwn/PoC/tree/main/CVE-20
+│                        │      │                  ├ [57] : https://github.com/arkrwn/PoC/tree/main/CVE-20
 │                        │      │                  │        23-44487 
-│                        │      │                  ├ [59] : https://github.com/bcdannyboy/CVE-2023-44487 
-│                        │      │                  ├ [60] : https://github.com/caddyserver/caddy/issues/5877 
-│                        │      │                  ├ [61] : https://github.com/caddyserver/caddy/releases/
+│                        │      │                  ├ [58] : https://github.com/bcdannyboy/CVE-2023-44487 
+│                        │      │                  ├ [59] : https://github.com/caddyserver/caddy/issues/5877 
+│                        │      │                  ├ [60] : https://github.com/caddyserver/caddy/releases/
 │                        │      │                  │        tag/v2.7.5 
-│                        │      │                  ├ [62] : https://github.com/dotnet/announcements/issues/277 
-│                        │      │                  ├ [63] : https://github.com/dotnet/core/blob/e4613450ea
+│                        │      │                  ├ [61] : https://github.com/dotnet/announcements/issues/277 
+│                        │      │                  ├ [62] : https://github.com/dotnet/core/blob/e4613450ea
 │                        │      │                  │        0da7fd2fc6b61dfb2c1c1dec1ce9ec/release-notes/6.0/6.
 │                        │      │                  │        0.23/6.0.23.md?plain=1#L73 
-│                        │      │                  ├ [64] : https://github.com/eclipse/jetty.project/issue
+│                        │      │                  ├ [63] : https://github.com/eclipse/jetty.project/issue
 │                        │      │                  │        s/10679 
-│                        │      │                  ├ [65] : https://github.com/envoyproxy/envoy/pull/30055 
-│                        │      │                  ├ [66] : https://github.com/etcd-io/etcd/issues/16740 
-│                        │      │                  ├ [67] : https://github.com/facebook/proxygen/pull/466 
-│                        │      │                  ├ [68] : https://github.com/golang/go/issues/63417 
-│                        │      │                  ├ [69] : https://github.com/grpc/grpc-go/pull/6703 
-│                        │      │                  ├ [70] : https://github.com/grpc/grpc-go/releases 
-│                        │      │                  ├ [71] : https://github.com/h2o/h2o/pull/3291 
-│                        │      │                  ├ [72] : https://github.com/h2o/h2o/security/advisories
+│                        │      │                  ├ [64] : https://github.com/envoyproxy/envoy/pull/30055 
+│                        │      │                  ├ [65] : https://github.com/etcd-io/etcd/issues/16740 
+│                        │      │                  ├ [66] : https://github.com/facebook/proxygen/pull/466 
+│                        │      │                  ├ [67] : https://github.com/golang/go/issues/63417 
+│                        │      │                  ├ [68] : https://github.com/grpc/grpc-go/pull/6703 
+│                        │      │                  ├ [69] : https://github.com/grpc/grpc-go/releases 
+│                        │      │                  ├ [70] : https://github.com/h2o/h2o/pull/3291 
+│                        │      │                  ├ [71] : https://github.com/h2o/h2o/security/advisories
 │                        │      │                  │        /GHSA-2m7v-gc89-fjqf 
-│                        │      │                  ├ [73] : https://github.com/haproxy/haproxy/issues/2312 
-│                        │      │                  ├ [74] : https://github.com/hyperium/hyper/issues/3337 
-│                        │      │                  ├ [75] : https://github.com/icing/mod_h2/blob/0a864782a
+│                        │      │                  ├ [72] : https://github.com/haproxy/haproxy/issues/2312 
+│                        │      │                  ├ [73] : https://github.com/hyperium/hyper/issues/3337 
+│                        │      │                  ├ [74] : https://github.com/icing/mod_h2/blob/0a864782a
 │                        │      │                  │        f0a942aa2ad4ed960a6b32cd35bcf0a/mod_http2/README.md
 │                        │      │                  │        ?plain=1#L239-L244 
-│                        │      │                  ├ [76] : https://github.com/junkurihara/rust-rpxy/issues/97 
-│                        │      │                  ├ [77] : https://github.com/kazu-yamamoto/http2/commit/
+│                        │      │                  ├ [75] : https://github.com/junkurihara/rust-rpxy/issues/97 
+│                        │      │                  ├ [76] : https://github.com/kazu-yamamoto/http2/commit/
 │                        │      │                  │        f61d41a502bd0f60eb24e1ce14edc7b6df6722a1 
-│                        │      │                  ├ [78] : https://github.com/kazu-yamamoto/http2/issues/93 
-│                        │      │                  ├ [79] : https://github.com/kubernetes/kubernetes/pull/
+│                        │      │                  ├ [77] : https://github.com/kazu-yamamoto/http2/issues/93 
+│                        │      │                  ├ [78] : https://github.com/kubernetes/kubernetes/pull/
 │                        │      │                  │        121120 
-│                        │      │                  ├ [80] : https://github.com/line/armeria/pull/5232 
-│                        │      │                  ├ [81] : https://github.com/linkerd/website/pull/1695/c
+│                        │      │                  ├ [79] : https://github.com/line/armeria/pull/5232 
+│                        │      │                  ├ [80] : https://github.com/linkerd/website/pull/1695/c
 │                        │      │                  │        ommits/4b9c6836471bc8270ab48aae6fd2181bc73fd632
 │                        │      │                  │        [m 
-│                        │      │                  ├ [82] : https://github.com/micrictor/http2-rst-stream 
-│                        │      │                  ├ [83] : https://github.com/microsoft/CBL-Mariner/pull/6381 
-│                        │      │                  ├ [84] : https://github.com/netty/netty/commit/58f75f66
+│                        │      │                  ├ [81] : https://github.com/micrictor/http2-rst-stream 
+│                        │      │                  ├ [82] : https://github.com/microsoft/CBL-Mariner/pull/6381 
+│                        │      │                  ├ [83] : https://github.com/netty/netty/commit/58f75f66
 │                        │      │                  │        5aa81a8cbcf6ffa74820042a285c5e61 
-│                        │      │                  ├ [85] : https://github.com/nghttp2/nghttp2/pull/1961 
-│                        │      │                  ├ [86] : https://github.com/nghttp2/nghttp2/releases/ta
+│                        │      │                  ├ [84] : https://github.com/nghttp2/nghttp2/pull/1961 
+│                        │      │                  ├ [85] : https://github.com/nghttp2/nghttp2/releases/ta
 │                        │      │                  │        g/v1.57.0 
-│                        │      │                  ├ [87] : https://github.com/ninenines/cowboy/issues/1615 
-│                        │      │                  ├ [88] : https://github.com/nodejs/node/pull/50121 
-│                        │      │                  ├ [89] : https://github.com/openresty/openresty/issues/930 
-│                        │      │                  ├ [90] : https://github.com/opensearch-project/data-pre
+│                        │      │                  ├ [86] : https://github.com/ninenines/cowboy/issues/1615 
+│                        │      │                  ├ [87] : https://github.com/nodejs/node/pull/50121 
+│                        │      │                  ├ [88] : https://github.com/openresty/openresty/issues/930 
+│                        │      │                  ├ [89] : https://github.com/opensearch-project/data-pre
 │                        │      │                  │        pper/issues/3474 
-│                        │      │                  ├ [91] : https://github.com/oqtane/oqtane.framework/dis
+│                        │      │                  ├ [90] : https://github.com/oqtane/oqtane.framework/dis
 │                        │      │                  │        cussions/3367 
-│                        │      │                  ├ [92] : https://github.com/projectcontour/contour/pull/5826 
-│                        │      │                  ├ [93] : https://github.com/tempesta-tech/tempesta/issu
+│                        │      │                  ├ [91] : https://github.com/projectcontour/contour/pull/5826 
+│                        │      │                  ├ [92] : https://github.com/tempesta-tech/tempesta/issu
 │                        │      │                  │        es/1986 
-│                        │      │                  ├ [94] : https://github.com/varnishcache/varnish-cache/
+│                        │      │                  ├ [93] : https://github.com/varnishcache/varnish-cache/
 │                        │      │                  │        issues/3996 
-│                        │      │                  ├ [95] : https://go.dev/cl/534215 
-│                        │      │                  ├ [96] : https://go.dev/cl/534235 
-│                        │      │                  ├ [97] : https://go.dev/issue/63417 
-│                        │      │                  ├ [98] : https://groups.google.com/g/golang-announce/c/
+│                        │      │                  ├ [94] : https://go.dev/cl/534215 
+│                        │      │                  ├ [95] : https://go.dev/cl/534235 
+│                        │      │                  ├ [96] : https://go.dev/issue/63417 
+│                        │      │                  ├ [97] : https://groups.google.com/g/golang-announce/c/
 │                        │      │                  │        iNNxDTCjZvo 
-│                        │      │                  ├ [99] : https://groups.google.com/g/golang-announce/c/
+│                        │      │                  ├ [98] : https://groups.google.com/g/golang-announce/c/
 │                        │      │                  │        iNNxDTCjZvo/m/UDd7VKQuAAAJ 
-│                        │      │                  ├ [100]: https://istio.io/latest/news/security/istio-se
+│                        │      │                  ├ [99] : https://istio.io/latest/news/security/istio-se
 │                        │      │                  │        curity-2023-004 
-│                        │      │                  ├ [101]: https://istio.io/latest/news/security/istio-se
+│                        │      │                  ├ [100]: https://istio.io/latest/news/security/istio-se
 │                        │      │                  │        curity-2023-004/ 
-│                        │      │                  ├ [102]: https://linkerd.io/2023/10/12/linkerd-cve-2023
+│                        │      │                  ├ [101]: https://linkerd.io/2023/10/12/linkerd-cve-2023
 │                        │      │                  │        -44487 
-│                        │      │                  ├ [103]: https://linkerd.io/2023/10/12/linkerd-cve-2023
+│                        │      │                  ├ [102]: https://linkerd.io/2023/10/12/linkerd-cve-2023
 │                        │      │                  │        -44487/ 
-│                        │      │                  ├ [104]: https://linux.oracle.com/cve/CVE-2023-44487.html 
-│                        │      │                  ├ [105]: https://linux.oracle.com/errata/ELSA-2024-1444.html 
-│                        │      │                  ├ [106]: https://lists.apache.org/thread/5py8h42mxfsn8l
+│                        │      │                  ├ [103]: https://linux.oracle.com/cve/CVE-2023-44487.html 
+│                        │      │                  ├ [104]: https://linux.oracle.com/errata/ELSA-2024-1444.html 
+│                        │      │                  ├ [105]: https://lists.apache.org/thread/5py8h42mxfsn8l
 │                        │      │                  │        1wy6o41xwhsjlsd87q 
-│                        │      │                  ├ [107]: https://lists.debian.org/debian-lts-announce/2
+│                        │      │                  ├ [106]: https://lists.debian.org/debian-lts-announce/2
 │                        │      │                  │        023/10/msg00020.html 
-│                        │      │                  ├ [108]: https://lists.debian.org/debian-lts-announce/2
+│                        │      │                  ├ [107]: https://lists.debian.org/debian-lts-announce/2
 │                        │      │                  │        023/10/msg00023.html 
-│                        │      │                  ├ [109]: https://lists.debian.org/debian-lts-announce/2
+│                        │      │                  ├ [108]: https://lists.debian.org/debian-lts-announce/2
 │                        │      │                  │        023/10/msg00024.html 
-│                        │      │                  ├ [110]: https://lists.debian.org/debian-lts-announce/2
+│                        │      │                  ├ [109]: https://lists.debian.org/debian-lts-announce/2
 │                        │      │                  │        023/10/msg00045.html 
-│                        │      │                  ├ [111]: https://lists.debian.org/debian-lts-announce/2
+│                        │      │                  ├ [110]: https://lists.debian.org/debian-lts-announce/2
 │                        │      │                  │        023/10/msg00047.html 
-│                        │      │                  ├ [112]: https://lists.debian.org/debian-lts-announce/2
+│                        │      │                  ├ [111]: https://lists.debian.org/debian-lts-announce/2
 │                        │      │                  │        023/11/msg00001.html 
-│                        │      │                  ├ [113]: https://lists.debian.org/debian-lts-announce/2
+│                        │      │                  ├ [112]: https://lists.debian.org/debian-lts-announce/2
 │                        │      │                  │        023/11/msg00012.html 
-│                        │      │                  ├ [114]: https://lists.fedoraproject.org/archives/list/
+│                        │      │                  ├ [113]: https://lists.fedoraproject.org/archives/list/
 │                        │      │                  │        package-announce%40lists.fedoraproject.org/message/
 │                        │      │                  │        2MBEPPC36UBVOZZNAXFHKLFGSLCMN5LI 
-│                        │      │                  ├ [115]: https://lists.fedoraproject.org/archives/list/
+│                        │      │                  ├ [114]: https://lists.fedoraproject.org/archives/list/
 │                        │      │                  │        package-announce%40lists.fedoraproject.org/message/
 │                        │      │                  │        2MBEPPC36UBVOZZNAXFHKLFGSLCMN5LI/ 
-│                        │      │                  ├ [116]: https://lists.fedoraproject.org/archives/list/
+│                        │      │                  ├ [115]: https://lists.fedoraproject.org/archives/list/
 │                        │      │                  │        package-announce%40lists.fedoraproject.org/message/
 │                        │      │                  │        3N4NJ7FR4X4FPZUGNTQAPSTVB2HB2Y4A 
-│                        │      │                  ├ [117]: https://lists.fedoraproject.org/archives/list/
+│                        │      │                  ├ [116]: https://lists.fedoraproject.org/archives/list/
 │                        │      │                  │        package-announce%40lists.fedoraproject.org/message/
 │                        │      │                  │        3N4NJ7FR4X4FPZUGNTQAPSTVB2HB2Y4A/ 
-│                        │      │                  ├ [118]: https://lists.fedoraproject.org/archives/list/
+│                        │      │                  ├ [117]: https://lists.fedoraproject.org/archives/list/
 │                        │      │                  │        package-announce%40lists.fedoraproject.org/message/
 │                        │      │                  │        BFQD3KUEMFBHPAPBGLWQC34L4OWL5HAZ 
-│                        │      │                  ├ [119]: https://lists.fedoraproject.org/archives/list/
+│                        │      │                  ├ [118]: https://lists.fedoraproject.org/archives/list/
 │                        │      │                  │        package-announce%40lists.fedoraproject.org/message/
 │                        │      │                  │        BFQD3KUEMFBHPAPBGLWQC34L4OWL5HAZ/ 
-│                        │      │                  ├ [120]: https://lists.fedoraproject.org/archives/list/
+│                        │      │                  ├ [119]: https://lists.fedoraproject.org/archives/list/
 │                        │      │                  │        package-announce%40lists.fedoraproject.org/message/
 │                        │      │                  │        CLB4TW7KALB3EEQWNWCN7OUIWWVWWCG2 
-│                        │      │                  ├ [121]: https://lists.fedoraproject.org/archives/list/
+│                        │      │                  ├ [120]: https://lists.fedoraproject.org/archives/list/
 │                        │      │                  │        package-announce%40lists.fedoraproject.org/message/
 │                        │      │                  │        CLB4TW7KALB3EEQWNWCN7OUIWWVWWCG2/ 
-│                        │      │                  ├ [122]: https://lists.fedoraproject.org/archives/list/
+│                        │      │                  ├ [121]: https://lists.fedoraproject.org/archives/list/
 │                        │      │                  │        package-announce%40lists.fedoraproject.org/message/
 │                        │      │                  │        E72T67UPDRXHIDLO3OROR25YAMN4GGW5 
-│                        │      │                  ├ [123]: https://lists.fedoraproject.org/archives/list/
+│                        │      │                  ├ [122]: https://lists.fedoraproject.org/archives/list/
 │                        │      │                  │        package-announce%40lists.fedoraproject.org/message/
 │                        │      │                  │        E72T67UPDRXHIDLO3OROR25YAMN4GGW5/ 
-│                        │      │                  ├ [124]: https://lists.fedoraproject.org/archives/list/
+│                        │      │                  ├ [123]: https://lists.fedoraproject.org/archives/list/
 │                        │      │                  │        package-announce%40lists.fedoraproject.org/message/
 │                        │      │                  │        FNA62Q767CFAFHBCDKYNPBMZWB7TWYVU 
-│                        │      │                  ├ [125]: https://lists.fedoraproject.org/archives/list/
+│                        │      │                  ├ [124]: https://lists.fedoraproject.org/archives/list/
 │                        │      │                  │        package-announce%40lists.fedoraproject.org/message/
 │                        │      │                  │        FNA62Q767CFAFHBCDKYNPBMZWB7TWYVU/ 
-│                        │      │                  ├ [126]: https://lists.fedoraproject.org/archives/list/
+│                        │      │                  ├ [125]: https://lists.fedoraproject.org/archives/list/
 │                        │      │                  │        package-announce%40lists.fedoraproject.org/message/
 │                        │      │                  │        HT7T2R4MQKLIF4ODV4BDLPARWFPCJ5CZ 
-│                        │      │                  ├ [127]: https://lists.fedoraproject.org/archives/list/
+│                        │      │                  ├ [126]: https://lists.fedoraproject.org/archives/list/
 │                        │      │                  │        package-announce%40lists.fedoraproject.org/message/
 │                        │      │                  │        HT7T2R4MQKLIF4ODV4BDLPARWFPCJ5CZ/ 
-│                        │      │                  ├ [128]: https://lists.fedoraproject.org/archives/list/
+│                        │      │                  ├ [127]: https://lists.fedoraproject.org/archives/list/
 │                        │      │                  │        package-announce%40lists.fedoraproject.org/message/
 │                        │      │                  │        JIZSEFC3YKCGABA2BZW6ZJRMDZJMB7PJ 
-│                        │      │                  ├ [129]: https://lists.fedoraproject.org/archives/list/
+│                        │      │                  ├ [128]: https://lists.fedoraproject.org/archives/list/
 │                        │      │                  │        package-announce%40lists.fedoraproject.org/message/
 │                        │      │                  │        JIZSEFC3YKCGABA2BZW6ZJRMDZJMB7PJ/ 
-│                        │      │                  ├ [130]: https://lists.fedoraproject.org/archives/list/
+│                        │      │                  ├ [129]: https://lists.fedoraproject.org/archives/list/
 │                        │      │                  │        package-announce%40lists.fedoraproject.org/message/
 │                        │      │                  │        JMEXY22BFG5Q64HQCM5CK2Q7KDKVV4TY 
-│                        │      │                  ├ [131]: https://lists.fedoraproject.org/archives/list/
+│                        │      │                  ├ [130]: https://lists.fedoraproject.org/archives/list/
 │                        │      │                  │        package-announce%40lists.fedoraproject.org/message/
 │                        │      │                  │        JMEXY22BFG5Q64HQCM5CK2Q7KDKVV4TY/ 
-│                        │      │                  ├ [132]: https://lists.fedoraproject.org/archives/list/
+│                        │      │                  ├ [131]: https://lists.fedoraproject.org/archives/list/
 │                        │      │                  │        package-announce%40lists.fedoraproject.org/message/
 │                        │      │                  │        KSEGD2IWKNUO3DWY4KQGUQM5BISRWHQE 
-│                        │      │                  ├ [133]: https://lists.fedoraproject.org/archives/list/
+│                        │      │                  ├ [132]: https://lists.fedoraproject.org/archives/list/
 │                        │      │                  │        package-announce%40lists.fedoraproject.org/message/
 │                        │      │                  │        KSEGD2IWKNUO3DWY4KQGUQM5BISRWHQE/ 
-│                        │      │                  ├ [134]: https://lists.fedoraproject.org/archives/list/
+│                        │      │                  ├ [133]: https://lists.fedoraproject.org/archives/list/
 │                        │      │                  │        package-announce%40lists.fedoraproject.org/message/
 │                        │      │                  │        LKYHSZQFDNR7RSA7LHVLLIAQMVYCUGBG 
-│                        │      │                  ├ [135]: https://lists.fedoraproject.org/archives/list/
+│                        │      │                  ├ [134]: https://lists.fedoraproject.org/archives/list/
 │                        │      │                  │        package-announce%40lists.fedoraproject.org/message/
 │                        │      │                  │        LKYHSZQFDNR7RSA7LHVLLIAQMVYCUGBG/ 
-│                        │      │                  ├ [136]: https://lists.fedoraproject.org/archives/list/
+│                        │      │                  ├ [135]: https://lists.fedoraproject.org/archives/list/
 │                        │      │                  │        package-announce%40lists.fedoraproject.org/message/
 │                        │      │                  │        LNMZJCDHGLJJLXO4OXWJMTVQRNWOC7UL 
-│                        │      │                  ├ [137]: https://lists.fedoraproject.org/archives/list/
+│                        │      │                  ├ [136]: https://lists.fedoraproject.org/archives/list/
 │                        │      │                  │        package-announce%40lists.fedoraproject.org/message/
 │                        │      │                  │        LNMZJCDHGLJJLXO4OXWJMTVQRNWOC7UL/ 
-│                        │      │                  ├ [138]: https://lists.fedoraproject.org/archives/list/
+│                        │      │                  ├ [137]: https://lists.fedoraproject.org/archives/list/
 │                        │      │                  │        package-announce%40lists.fedoraproject.org/message/
 │                        │      │                  │        VHUHTSXLXGXS7JYKBXTA3VINUPHTNGVU 
-│                        │      │                  ├ [139]: https://lists.fedoraproject.org/archives/list/
+│                        │      │                  ├ [138]: https://lists.fedoraproject.org/archives/list/
 │                        │      │                  │        package-announce%40lists.fedoraproject.org/message/
 │                        │      │                  │        VHUHTSXLXGXS7JYKBXTA3VINUPHTNGVU/ 
-│                        │      │                  ├ [140]: https://lists.fedoraproject.org/archives/list/
+│                        │      │                  ├ [139]: https://lists.fedoraproject.org/archives/list/
 │                        │      │                  │        package-announce%40lists.fedoraproject.org/message/
 │                        │      │                  │        VSRDIV77HNKUSM7SJC5BKE5JSHLHU2NK 
-│                        │      │                  ├ [141]: https://lists.fedoraproject.org/archives/list/
+│                        │      │                  ├ [140]: https://lists.fedoraproject.org/archives/list/
 │                        │      │                  │        package-announce%40lists.fedoraproject.org/message/
 │                        │      │                  │        VSRDIV77HNKUSM7SJC5BKE5JSHLHU2NK/ 
-│                        │      │                  ├ [142]: https://lists.fedoraproject.org/archives/list/
+│                        │      │                  ├ [141]: https://lists.fedoraproject.org/archives/list/
 │                        │      │                  │        package-announce%40lists.fedoraproject.org/message/
 │                        │      │                  │        WE2I52RHNNU42PX6NZ2RBUHSFFJ2LVZX 
-│                        │      │                  ├ [143]: https://lists.fedoraproject.org/archives/list/
+│                        │      │                  ├ [142]: https://lists.fedoraproject.org/archives/list/
 │                        │      │                  │        package-announce%40lists.fedoraproject.org/message/
 │                        │      │                  │        WE2I52RHNNU42PX6NZ2RBUHSFFJ2LVZX/ 
-│                        │      │                  ├ [144]: https://lists.fedoraproject.org/archives/list/
+│                        │      │                  ├ [143]: https://lists.fedoraproject.org/archives/list/
 │                        │      │                  │        package-announce%40lists.fedoraproject.org/message/
 │                        │      │                  │        WLPRQ5TWUQQXYWBJM7ECYDAIL2YVKIUH 
-│                        │      │                  ├ [145]: https://lists.fedoraproject.org/archives/list/
+│                        │      │                  ├ [144]: https://lists.fedoraproject.org/archives/list/
 │                        │      │                  │        package-announce%40lists.fedoraproject.org/message/
 │                        │      │                  │        WLPRQ5TWUQQXYWBJM7ECYDAIL2YVKIUH/ 
-│                        │      │                  ├ [146]: https://lists.fedoraproject.org/archives/list/
+│                        │      │                  ├ [145]: https://lists.fedoraproject.org/archives/list/
 │                        │      │                  │        package-announce%40lists.fedoraproject.org/message/
 │                        │      │                  │        X6QXN4ORIVF6XBW4WWFE7VNPVC74S45Y 
-│                        │      │                  ├ [147]: https://lists.fedoraproject.org/archives/list/
+│                        │      │                  ├ [146]: https://lists.fedoraproject.org/archives/list/
 │                        │      │                  │        package-announce%40lists.fedoraproject.org/message/
 │                        │      │                  │        X6QXN4ORIVF6XBW4WWFE7VNPVC74S45Y/ 
-│                        │      │                  ├ [148]: https://lists.fedoraproject.org/archives/list/
+│                        │      │                  ├ [147]: https://lists.fedoraproject.org/archives/list/
 │                        │      │                  │        package-announce%40lists.fedoraproject.org/message/
 │                        │      │                  │        XFOIBB4YFICHDM7IBOP7PWXW3FX4HLL2 
-│                        │      │                  ├ [149]: https://lists.fedoraproject.org/archives/list/
+│                        │      │                  ├ [148]: https://lists.fedoraproject.org/archives/list/
 │                        │      │                  │        package-announce%40lists.fedoraproject.org/message/
 │                        │      │                  │        XFOIBB4YFICHDM7IBOP7PWXW3FX4HLL2/ 
-│                        │      │                  ├ [150]: https://lists.fedoraproject.org/archives/list/
+│                        │      │                  ├ [149]: https://lists.fedoraproject.org/archives/list/
 │                        │      │                  │        package-announce%40lists.fedoraproject.org/message/
 │                        │      │                  │        ZB43REMKRQR62NJEI7I5NQ4FSXNLBKRT 
-│                        │      │                  ├ [151]: https://lists.fedoraproject.org/archives/list/
+│                        │      │                  ├ [150]: https://lists.fedoraproject.org/archives/list/
 │                        │      │                  │        package-announce%40lists.fedoraproject.org/message/
 │                        │      │                  │        ZB43REMKRQR62NJEI7I5NQ4FSXNLBKRT/ 
-│                        │      │                  ├ [152]: https://lists.fedoraproject.org/archives/list/
+│                        │      │                  ├ [151]: https://lists.fedoraproject.org/archives/list/
 │                        │      │                  │        package-announce%40lists.fedoraproject.org/message/
 │                        │      │                  │        ZKQSIKIAT5TJ3WSLU3RDBQ35YX4GY4V3 
-│                        │      │                  ├ [153]: https://lists.fedoraproject.org/archives/list/
+│                        │      │                  ├ [152]: https://lists.fedoraproject.org/archives/list/
 │                        │      │                  │        package-announce%40lists.fedoraproject.org/message/
 │                        │      │                  │        ZKQSIKIAT5TJ3WSLU3RDBQ35YX4GY4V3/ 
-│                        │      │                  ├ [154]: https://lists.fedoraproject.org/archives/list/
+│                        │      │                  ├ [153]: https://lists.fedoraproject.org/archives/list/
 │                        │      │                  │        package-announce%40lists.fedoraproject.org/message/
 │                        │      │                  │        ZLU6U2R2IC2K64NDPNMV55AUAO65MAF4 
-│                        │      │                  ├ [155]: https://lists.fedoraproject.org/archives/list/
+│                        │      │                  ├ [154]: https://lists.fedoraproject.org/archives/list/
 │                        │      │                  │        package-announce%40lists.fedoraproject.org/message/
 │                        │      │                  │        ZLU6U2R2IC2K64NDPNMV55AUAO65MAF4/ 
-│                        │      │                  ├ [156]: https://lists.fedoraproject.org/archives/list/
+│                        │      │                  ├ [155]: https://lists.fedoraproject.org/archives/list/
 │                        │      │                  │        package-announce@lists.fedoraproject.org/message/3N
 │                        │      │                  │        4NJ7FR4X4FPZUGNTQAPSTVB2HB2Y4A 
-│                        │      │                  ├ [157]: https://lists.fedoraproject.org/archives/list/
+│                        │      │                  ├ [156]: https://lists.fedoraproject.org/archives/list/
 │                        │      │                  │        package-announce@lists.fedoraproject.org/message/BF
 │                        │      │                  │        QD3KUEMFBHPAPBGLWQC34L4OWL5HAZ 
-│                        │      │                  ├ [158]: https://lists.fedoraproject.org/archives/list/
+│                        │      │                  ├ [157]: https://lists.fedoraproject.org/archives/list/
 │                        │      │                  │        package-announce@lists.fedoraproject.org/message/CL
 │                        │      │                  │        B4TW7KALB3EEQWNWCN7OUIWWVWWCG2 
-│                        │      │                  ├ [159]: https://lists.fedoraproject.org/archives/list/
+│                        │      │                  ├ [158]: https://lists.fedoraproject.org/archives/list/
 │                        │      │                  │        package-announce@lists.fedoraproject.org/message/E7
 │                        │      │                  │        2T67UPDRXHIDLO3OROR25YAMN4GGW5 
-│                        │      │                  ├ [160]: https://lists.fedoraproject.org/archives/list/
+│                        │      │                  ├ [159]: https://lists.fedoraproject.org/archives/list/
 │                        │      │                  │        package-announce@lists.fedoraproject.org/message/FN
 │                        │      │                  │        A62Q767CFAFHBCDKYNPBMZWB7TWYVU 
-│                        │      │                  ├ [161]: https://lists.fedoraproject.org/archives/list/
+│                        │      │                  ├ [160]: https://lists.fedoraproject.org/archives/list/
 │                        │      │                  │        package-announce@lists.fedoraproject.org/message/HT
 │                        │      │                  │        7T2R4MQKLIF4ODV4BDLPARWFPCJ5CZ 
-│                        │      │                  ├ [162]: https://lists.fedoraproject.org/archives/list/
+│                        │      │                  ├ [161]: https://lists.fedoraproject.org/archives/list/
 │                        │      │                  │        package-announce@lists.fedoraproject.org/message/JI
 │                        │      │                  │        ZSEFC3YKCGABA2BZW6ZJRMDZJMB7PJ 
-│                        │      │                  ├ [163]: https://lists.fedoraproject.org/archives/list/
+│                        │      │                  ├ [162]: https://lists.fedoraproject.org/archives/list/
 │                        │      │                  │        package-announce@lists.fedoraproject.org/message/JM
 │                        │      │                  │        EXY22BFG5Q64HQCM5CK2Q7KDKVV4TY 
-│                        │      │                  ├ [164]: https://lists.fedoraproject.org/archives/list/
+│                        │      │                  ├ [163]: https://lists.fedoraproject.org/archives/list/
 │                        │      │                  │        package-announce@lists.fedoraproject.org/message/KS
 │                        │      │                  │        EGD2IWKNUO3DWY4KQGUQM5BISRWHQE 
-│                        │      │                  ├ [165]: https://lists.fedoraproject.org/archives/list/
+│                        │      │                  ├ [164]: https://lists.fedoraproject.org/archives/list/
 │                        │      │                  │        package-announce@lists.fedoraproject.org/message/LK
 │                        │      │                  │        YHSZQFDNR7RSA7LHVLLIAQMVYCUGBG 
-│                        │      │                  ├ [166]: https://lists.fedoraproject.org/archives/list/
+│                        │      │                  ├ [165]: https://lists.fedoraproject.org/archives/list/
 │                        │      │                  │        package-announce@lists.fedoraproject.org/message/LN
 │                        │      │                  │        MZJCDHGLJJLXO4OXWJMTVQRNWOC7UL 
-│                        │      │                  ├ [167]: https://lists.fedoraproject.org/archives/list/
+│                        │      │                  ├ [166]: https://lists.fedoraproject.org/archives/list/
 │                        │      │                  │        package-announce@lists.fedoraproject.org/message/VH
 │                        │      │                  │        UHTSXLXGXS7JYKBXTA3VINUPHTNGVU 
-│                        │      │                  ├ [168]: https://lists.fedoraproject.org/archives/list/
+│                        │      │                  ├ [167]: https://lists.fedoraproject.org/archives/list/
 │                        │      │                  │        package-announce@lists.fedoraproject.org/message/VS
 │                        │      │                  │        RDIV77HNKUSM7SJC5BKE5JSHLHU2NK 
-│                        │      │                  ├ [169]: https://lists.fedoraproject.org/archives/list/
+│                        │      │                  ├ [168]: https://lists.fedoraproject.org/archives/list/
 │                        │      │                  │        package-announce@lists.fedoraproject.org/message/WL
 │                        │      │                  │        PRQ5TWUQQXYWBJM7ECYDAIL2YVKIUH 
-│                        │      │                  ├ [170]: https://lists.fedoraproject.org/archives/list/
+│                        │      │                  ├ [169]: https://lists.fedoraproject.org/archives/list/
 │                        │      │                  │        package-announce@lists.fedoraproject.org/message/X6
 │                        │      │                  │        QXN4ORIVF6XBW4WWFE7VNPVC74S45Y 
-│                        │      │                  ├ [171]: https://lists.fedoraproject.org/archives/list/
+│                        │      │                  ├ [170]: https://lists.fedoraproject.org/archives/list/
 │                        │      │                  │        package-announce@lists.fedoraproject.org/message/XF
 │                        │      │                  │        OIBB4YFICHDM7IBOP7PWXW3FX4HLL2 
-│                        │      │                  ├ [172]: https://lists.fedoraproject.org/archives/list/
+│                        │      │                  ├ [171]: https://lists.fedoraproject.org/archives/list/
 │                        │      │                  │        package-announce@lists.fedoraproject.org/message/ZB
 │                        │      │                  │        43REMKRQR62NJEI7I5NQ4FSXNLBKRT 
-│                        │      │                  ├ [173]: https://lists.fedoraproject.org/archives/list/
+│                        │      │                  ├ [172]: https://lists.fedoraproject.org/archives/list/
 │                        │      │                  │        package-announce@lists.fedoraproject.org/message/ZK
 │                        │      │                  │        QSIKIAT5TJ3WSLU3RDBQ35YX4GY4V3 
-│                        │      │                  ├ [174]: https://lists.fedoraproject.org/archives/list/
+│                        │      │                  ├ [173]: https://lists.fedoraproject.org/archives/list/
 │                        │      │                  │        package-announce@lists.fedoraproject.org/message/ZL
 │                        │      │                  │        U6U2R2IC2K64NDPNMV55AUAO65MAF4 
-│                        │      │                  ├ [175]: https://lists.w3.org/Archives/Public/ietf-http
+│                        │      │                  ├ [174]: https://lists.w3.org/Archives/Public/ietf-http
 │                        │      │                  │        -wg/2023OctDec/0025.html 
-│                        │      │                  ├ [176]: https://mailman.nginx.org/pipermail/nginx-deve
+│                        │      │                  ├ [175]: https://mailman.nginx.org/pipermail/nginx-deve
 │                        │      │                  │        l/2023-October/S36Q5HBXR7CAIMPLLPRSSSYR4PCMWILK.htm
 │                        │      │                  │        l 
-│                        │      │                  ├ [177]: https://martinthomson.github.io/h2-stream-limi
+│                        │      │                  ├ [176]: https://martinthomson.github.io/h2-stream-limi
 │                        │      │                  │        ts/draft-thomson-httpbis-h2-stream-limits.html[
 │                        │      │                  │        m 
-│                        │      │                  ├ [178]: https://msrc.microsoft.com/blog/2023/10/micros
+│                        │      │                  ├ [177]: https://msrc.microsoft.com/blog/2023/10/micros
 │                        │      │                  │        oft-response-to-distributed-denial-of-service-ddos-
 │                        │      │                  │        attacks-against-http/2 
-│                        │      │                  ├ [179]: https://msrc.microsoft.com/blog/2023/10/micros
+│                        │      │                  ├ [178]: https://msrc.microsoft.com/blog/2023/10/micros
 │                        │      │                  │        oft-response-to-distributed-denial-of-service-ddos-
 │                        │      │                  │        attacks-against-http/2/ 
-│                        │      │                  ├ [180]: https://msrc.microsoft.com/update-guide/vulner
+│                        │      │                  ├ [179]: https://msrc.microsoft.com/update-guide/vulner
 │                        │      │                  │        ability/CVE-2023-44487 
-│                        │      │                  ├ [181]: https://my.f5.com/manage/s/article/K000137106 
-│                        │      │                  ├ [182]: https://netty.io/news/2023/10/10/4-1-100-Final.html 
-│                        │      │                  ├ [183]: https://news.ycombinator.com/item?id=37830987 
-│                        │      │                  ├ [184]: https://news.ycombinator.com/item?id=37830998 
-│                        │      │                  ├ [185]: https://news.ycombinator.com/item?id=37831062 
-│                        │      │                  ├ [186]: https://news.ycombinator.com/item?id=37837043 
-│                        │      │                  ├ [187]: https://nodejs.org/en/blog/vulnerability/octob
+│                        │      │                  ├ [180]: https://my.f5.com/manage/s/article/K000137106 
+│                        │      │                  ├ [181]: https://netty.io/news/2023/10/10/4-1-100-Final.html 
+│                        │      │                  ├ [182]: https://news.ycombinator.com/item?id=37830987 
+│                        │      │                  ├ [183]: https://news.ycombinator.com/item?id=37830998 
+│                        │      │                  ├ [184]: https://news.ycombinator.com/item?id=37831062 
+│                        │      │                  ├ [185]: https://news.ycombinator.com/item?id=37837043 
+│                        │      │                  ├ [186]: https://nodejs.org/en/blog/vulnerability/octob
 │                        │      │                  │        er-2023-security-releases 
-│                        │      │                  ├ [188]: https://nvd.nist.gov/vuln/detail/CVE-2023-44487 
-│                        │      │                  ├ [189]: https://openssf.org/blog/2023/10/10/http-2-rap
+│                        │      │                  ├ [187]: https://nvd.nist.gov/vuln/detail/CVE-2023-44487 
+│                        │      │                  ├ [188]: https://openssf.org/blog/2023/10/10/http-2-rap
 │                        │      │                  │        id-reset-vulnerability-highlights-need-for-rapid-re
 │                        │      │                  │        sponse 
-│                        │      │                  ├ [190]: https://openssf.org/blog/2023/10/10/http-2-rap
+│                        │      │                  ├ [189]: https://openssf.org/blog/2023/10/10/http-2-rap
 │                        │      │                  │        id-reset-vulnerability-highlights-need-for-rapid-re
 │                        │      │                  │        sponse/ 
-│                        │      │                  ├ [191]: https://pkg.go.dev/vuln/GO-2023-2102 
-│                        │      │                  ├ [192]: https://seanmonstar.com/post/73079415113693593
+│                        │      │                  ├ [190]: https://pkg.go.dev/vuln/GO-2023-2102 
+│                        │      │                  ├ [191]: https://seanmonstar.com/post/73079415113693593
 │                        │      │                  │        6/hyper-http2-rapid-reset-unaffected 
-│                        │      │                  ├ [193]: https://security.gentoo.org/glsa/202311-09 
-│                        │      │                  ├ [194]: https://security.netapp.com/advisory/ntap-2023
+│                        │      │                  ├ [192]: https://security.gentoo.org/glsa/202311-09 
+│                        │      │                  ├ [193]: https://security.netapp.com/advisory/ntap-2023
 │                        │      │                  │        1016-0001 
-│                        │      │                  ├ [195]: https://security.netapp.com/advisory/ntap-2023
+│                        │      │                  ├ [194]: https://security.netapp.com/advisory/ntap-2023
 │                        │      │                  │        1016-0001/ 
-│                        │      │                  ├ [196]: https://security.netapp.com/advisory/ntap-2024
+│                        │      │                  ├ [195]: https://security.netapp.com/advisory/ntap-2024
 │                        │      │                  │        0426-0007 
-│                        │      │                  ├ [197]: https://security.netapp.com/advisory/ntap-2024
+│                        │      │                  ├ [196]: https://security.netapp.com/advisory/ntap-2024
 │                        │      │                  │        0426-0007/ 
-│                        │      │                  ├ [198]: https://security.netapp.com/advisory/ntap-2024
+│                        │      │                  ├ [197]: https://security.netapp.com/advisory/ntap-2024
 │                        │      │                  │        0621-0006 
-│                        │      │                  ├ [199]: https://security.netapp.com/advisory/ntap-2024
+│                        │      │                  ├ [198]: https://security.netapp.com/advisory/ntap-2024
 │                        │      │                  │        0621-0006/ 
-│                        │      │                  ├ [200]: https://security.netapp.com/advisory/ntap-2024
+│                        │      │                  ├ [199]: https://security.netapp.com/advisory/ntap-2024
 │                        │      │                  │        0621-0007 
-│                        │      │                  ├ [201]: https://security.netapp.com/advisory/ntap-2024
+│                        │      │                  ├ [200]: https://security.netapp.com/advisory/ntap-2024
 │                        │      │                  │        0621-0007/ 
-│                        │      │                  ├ [202]: https://security.paloaltonetworks.com/CVE-2023
+│                        │      │                  ├ [201]: https://security.paloaltonetworks.com/CVE-2023
 │                        │      │                  │        -44487 
-│                        │      │                  ├ [203]: https://tomcat.apache.org/security-10.html#Fix
+│                        │      │                  ├ [202]: https://tomcat.apache.org/security-10.html#Fix
 │                        │      │                  │        ed_in_Apache_Tomcat_10.1.14 
-│                        │      │                  ├ [204]: https://tomcat.apache.org/security-11.html#Fix
+│                        │      │                  ├ [203]: https://tomcat.apache.org/security-11.html#Fix
 │                        │      │                  │        ed_in_Apache_Tomcat_11.0.0-M12 
-│                        │      │                  ├ [205]: https://tomcat.apache.org/security-8.html#Fixe
+│                        │      │                  ├ [204]: https://tomcat.apache.org/security-8.html#Fixe
 │                        │      │                  │        d_in_Apache_Tomcat_8.5.94 
-│                        │      │                  ├ [206]: https://tomcat.apache.org/security-9.html#Fixe
+│                        │      │                  ├ [205]: https://tomcat.apache.org/security-9.html#Fixe
 │                        │      │                  │        d_in_Apache_Tomcat_9.0.81 
-│                        │      │                  ├ [207]: https://ubuntu.com/security/CVE-2023-44487 
-│                        │      │                  ├ [208]: https://ubuntu.com/security/notices/USN-6427-1 
-│                        │      │                  ├ [209]: https://ubuntu.com/security/notices/USN-6427-2 
-│                        │      │                  ├ [210]: https://ubuntu.com/security/notices/USN-6438-1 
-│                        │      │                  ├ [211]: https://ubuntu.com/security/notices/USN-6505-1 
-│                        │      │                  ├ [212]: https://ubuntu.com/security/notices/USN-6574-1 
-│                        │      │                  ├ [213]: https://ubuntu.com/security/notices/USN-6754-1 
-│                        │      │                  ├ [214]: https://www.bleepingcomputer.com/news/security
+│                        │      │                  ├ [206]: https://ubuntu.com/security/CVE-2023-44487 
+│                        │      │                  ├ [207]: https://ubuntu.com/security/notices/USN-6427-1 
+│                        │      │                  ├ [208]: https://ubuntu.com/security/notices/USN-6427-2 
+│                        │      │                  ├ [209]: https://ubuntu.com/security/notices/USN-6438-1 
+│                        │      │                  ├ [210]: https://ubuntu.com/security/notices/USN-6505-1 
+│                        │      │                  ├ [211]: https://ubuntu.com/security/notices/USN-6574-1 
+│                        │      │                  ├ [212]: https://ubuntu.com/security/notices/USN-6754-1 
+│                        │      │                  ├ [213]: https://www.bleepingcomputer.com/news/security
 │                        │      │                  │        /new-http-2-rapid-reset-zero-day-attack-breaks-ddos
 │                        │      │                  │        -records 
-│                        │      │                  ├ [215]: https://www.bleepingcomputer.com/news/security
+│                        │      │                  ├ [214]: https://www.bleepingcomputer.com/news/security
 │                        │      │                  │        /new-http-2-rapid-reset-zero-day-attack-breaks-ddos
 │                        │      │                  │        -records/ 
-│                        │      │                  ├ [216]: https://www.cisa.gov/news-events/alerts/2023/1
+│                        │      │                  ├ [215]: https://www.cisa.gov/news-events/alerts/2023/1
 │                        │      │                  │        0/10/http2-rapid-reset-vulnerability-cve-2023-44487
 │                        │      │                  │         
-│                        │      │                  ├ [217]: https://www.cve.org/CVERecord?id=CVE-2023-44487 
-│                        │      │                  ├ [218]: https://www.darkreading.com/cloud/internet-wid
+│                        │      │                  ├ [216]: https://www.cve.org/CVERecord?id=CVE-2023-44487 
+│                        │      │                  ├ [217]: https://www.darkreading.com/cloud/internet-wid
 │                        │      │                  │        e-zero-day-bug-fuels-largest-ever-ddos-event
 │                        │      │                  │        [m 
-│                        │      │                  ├ [219]: https://www.debian.org/security/2023/dsa-5521 
-│                        │      │                  ├ [220]: https://www.debian.org/security/2023/dsa-5522 
-│                        │      │                  ├ [221]: https://www.debian.org/security/2023/dsa-5540 
-│                        │      │                  ├ [222]: https://www.debian.org/security/2023/dsa-5549 
-│                        │      │                  ├ [223]: https://www.debian.org/security/2023/dsa-5558 
-│                        │      │                  ├ [224]: https://www.debian.org/security/2023/dsa-5570 
-│                        │      │                  ├ [225]: https://www.eclipse.org/lists/jetty-announce/m
+│                        │      │                  ├ [218]: https://www.debian.org/security/2023/dsa-5521 
+│                        │      │                  ├ [219]: https://www.debian.org/security/2023/dsa-5522 
+│                        │      │                  ├ [220]: https://www.debian.org/security/2023/dsa-5540 
+│                        │      │                  ├ [221]: https://www.debian.org/security/2023/dsa-5549 
+│                        │      │                  ├ [222]: https://www.debian.org/security/2023/dsa-5558 
+│                        │      │                  ├ [223]: https://www.debian.org/security/2023/dsa-5570 
+│                        │      │                  ├ [224]: https://www.eclipse.org/lists/jetty-announce/m
 │                        │      │                  │        sg00181.html 
-│                        │      │                  ├ [226]: https://www.haproxy.com/blog/haproxy-is-not-af
+│                        │      │                  ├ [225]: https://www.haproxy.com/blog/haproxy-is-not-af
 │                        │      │                  │        fected-by-the-http-2-rapid-reset-attack-cve-2023-44
 │                        │      │                  │        487 
-│                        │      │                  ├ [227]: https://www.mail-archive.com/haproxy@formilux.
+│                        │      │                  ├ [226]: https://www.mail-archive.com/haproxy@formilux.
 │                        │      │                  │        org/msg44134.html 
-│                        │      │                  ├ [228]: https://www.netlify.com/blog/netlify-successfu
+│                        │      │                  ├ [227]: https://www.netlify.com/blog/netlify-successfu
 │                        │      │                  │        lly-mitigates-cve-2023-44487 
-│                        │      │                  ├ [229]: https://www.netlify.com/blog/netlify-successfu
+│                        │      │                  ├ [228]: https://www.netlify.com/blog/netlify-successfu
 │                        │      │                  │        lly-mitigates-cve-2023-44487/ 
-│                        │      │                  ├ [230]: https://www.nginx.com/blog/http-2-rapid-reset-
+│                        │      │                  ├ [229]: https://www.nginx.com/blog/http-2-rapid-reset-
 │                        │      │                  │        attack-impacting-f5-nginx-products 
-│                        │      │                  ├ [231]: https://www.nginx.com/blog/http-2-rapid-reset-
+│                        │      │                  ├ [230]: https://www.nginx.com/blog/http-2-rapid-reset-
 │                        │      │                  │        attack-impacting-f5-nginx-products/ 
-│                        │      │                  ├ [232]: https://www.openwall.com/lists/oss-security/20
+│                        │      │                  ├ [231]: https://www.openwall.com/lists/oss-security/20
 │                        │      │                  │        23/10/10/6 
-│                        │      │                  ├ [233]: https://www.phoronix.com/news/HTTP2-Rapid-Rese
+│                        │      │                  ├ [232]: https://www.phoronix.com/news/HTTP2-Rapid-Rese
 │                        │      │                  │        t-Attack 
-│                        │      │                  ├ [234]: https://www.theregister.com/2023/10/10/http2_r
+│                        │      │                  ├ [233]: https://www.theregister.com/2023/10/10/http2_r
 │                        │      │                  │        apid_reset_zeroday 
-│                        │      │                  ╰ [235]: https://www.theregister.com/2023/10/10/http2_r
+│                        │      │                  ╰ [234]: https://www.theregister.com/2023/10/10/http2_r
 │                        │      │                           apid_reset_zeroday/ 
 │                        │      ├ PublishedDate   : 2023-10-10T14:15:10.883Z 
 │                        │      ╰ LastModifiedDate: 2024-06-27T18:34:22.11Z 
@@ -4263,7 +4948,7 @@
 │                        │      │                  │       /04/03/16 
 │                        │      │                  ├ [1] : http://www.openwall.com/lists/oss-security/2024
 │                        │      │                  │       /04/05/4 
-│                        │      │                  ├ [2] : https://access.redhat.com/errata/RHSA-2024:3346 
+│                        │      │                  ├ [2] : https://access.redhat.com/errata/RHSA-2024:2724 
 │                        │      │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2023
 │                        │      │                  │       -45288 
 │                        │      │                  ├ [4] : https://bugzilla.redhat.com/2268017 
@@ -4282,8 +4967,8 @@
 │                        │      │                  │       CVE-2023-45290 
 │                        │      │                  ├ [15]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                        │      │                  │       CVE-2024-24783 
-│                        │      │                  ├ [16]: https://errata.almalinux.org/8/ALSA-2024-3346.html 
-│                        │      │                  ├ [17]: https://errata.rockylinux.org/RLSA-2024:2724 
+│                        │      │                  ├ [16]: https://errata.almalinux.org/9/ALSA-2024-2724.html 
+│                        │      │                  ├ [17]: https://errata.rockylinux.org/RLSA-2024:3346 
 │                        │      │                  ├ [18]: https://go.dev/cl/576155 
 │                        │      │                  ├ [19]: https://go.dev/issue/65051 
 │                        │      │                  ├ [20]: https://groups.google.com/g/golang-announce/c/Y
@@ -4355,7 +5040,7 @@
 │                        │      │                            ╰ V3Score : 6.7 
 │                        │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2024
 │                        │      │                  │       /06/04/1 
-│                        │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2024:4237 
+│                        │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2024:4212 
 │                        │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2024
 │                        │      │                  │       -24790 
 │                        │      │                  ├ [3] : https://bugzilla.redhat.com/2292668 
@@ -4366,7 +5051,7 @@
 │                        │      │                  │       CVE-2024-24789 
 │                        │      │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                        │      │                  │       CVE-2024-24790 
-│                        │      │                  ├ [9] : https://errata.almalinux.org/8/ALSA-2024-4237.html 
+│                        │      │                  ├ [9] : https://errata.almalinux.org/9/ALSA-2024-4212.html 
 │                        │      │                  ├ [10]: https://errata.rockylinux.org/RLSA-2024:4212 
 │                        │      │                  ├ [11]: https://github.com/golang/go/commit/051bdf3fd12
 │                        │      │                  │       a40307606ff9381138039c5f452f0 (1.21) 
@@ -4451,7 +5136,7 @@
 │                        │      │                            │           C:N/I:N/A:H 
 │                        │      │                            ╰ V3Score : 7.5 
 │                        │      ├ References       ╭ [0]  : golang.org/x/net 
-│                        │      │                  ├ [1]  : https://access.redhat.com/errata/RHSA-2023:5863 
+│                        │      │                  ├ [1]  : https://access.redhat.com/errata/RHSA-2023:6077 
 │                        │      │                  ├ [2]  : https://access.redhat.com/security/cve/CVE-202
 │                        │      │                  │        3-39325 
 │                        │      │                  ├ [3]  : https://access.redhat.com/security/cve/CVE-202
@@ -4466,8 +5151,8 @@
 │                        │      │                  │        =CVE-2023-39325 
 │                        │      │                  ├ [10] : https://cve.mitre.org/cgi-bin/cvename.cgi?name
 │                        │      │                  │        =CVE-2023-44487 
-│                        │      │                  ├ [11] : https://errata.almalinux.org/8/ALSA-2023-5863.html 
-│                        │      │                  ├ [12] : https://errata.rockylinux.org/RLSA-2023:6077 
+│                        │      │                  ├ [11] : https://errata.almalinux.org/9/ALSA-2023-6077.html 
+│                        │      │                  ├ [12] : https://errata.rockylinux.org/RLSA-2023:5863 
 │                        │      │                  ├ [13] : https://github.com/golang/go/commit/24ae2d9272
 │                        │      │                  │        85c697440fdde3ad7f26028354bcf3 [golang-
 │                        │      │                  │        1.21] 
@@ -4832,7 +5517,7 @@
 │                        │      │                  │       /04/03/16 
 │                        │      │                  ├ [1] : http://www.openwall.com/lists/oss-security/2024
 │                        │      │                  │       /04/05/4 
-│                        │      │                  ├ [2] : https://access.redhat.com/errata/RHSA-2024:3346 
+│                        │      │                  ├ [2] : https://access.redhat.com/errata/RHSA-2024:2724 
 │                        │      │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2023
 │                        │      │                  │       -45288 
 │                        │      │                  ├ [4] : https://bugzilla.redhat.com/2268017 
@@ -4851,8 +5536,8 @@
 │                        │      │                  │       CVE-2023-45290 
 │                        │      │                  ├ [15]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                        │      │                  │       CVE-2024-24783 
-│                        │      │                  ├ [16]: https://errata.almalinux.org/8/ALSA-2024-3346.html 
-│                        │      │                  ├ [17]: https://errata.rockylinux.org/RLSA-2024:2724 
+│                        │      │                  ├ [16]: https://errata.almalinux.org/9/ALSA-2024-2724.html 
+│                        │      │                  ├ [17]: https://errata.rockylinux.org/RLSA-2024:3346 
 │                        │      │                  ├ [18]: https://go.dev/cl/576155 
 │                        │      │                  ├ [19]: https://go.dev/issue/65051 
 │                        │      │                  ├ [20]: https://groups.google.com/g/golang-announce/c/Y
@@ -4923,28 +5608,40 @@
 │                        │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/
 │                        │      │                            │           C:N/I:H/A:N 
 │                        │      │                            ╰ V3Score : 6.5 
-│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:7202 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:6474 
 │                        │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023
 │                        │      │                  │       -29406 
-│                        │      │                  ├ [2] : https://bugzilla.redhat.com/2222167 
-│                        │      │                  ├ [3] : https://errata.almalinux.org/8/ALSA-2023-7202.html 
-│                        │      │                  ├ [4] : https://github.com/golang/go/commit/312920c00aa
+│                        │      │                  ├ [2] : https://bugzilla.redhat.com/2174485 
+│                        │      │                  ├ [3] : https://bugzilla.redhat.com/2178358 
+│                        │      │                  ├ [4] : https://bugzilla.redhat.com/2178488 
+│                        │      │                  ├ [5] : https://bugzilla.redhat.com/2178492 
+│                        │      │                  ├ [6] : https://bugzilla.redhat.com/2184481 
+│                        │      │                  ├ [7] : https://bugzilla.redhat.com/2184482 
+│                        │      │                  ├ [8] : https://bugzilla.redhat.com/2184483 
+│                        │      │                  ├ [9] : https://bugzilla.redhat.com/2184484 
+│                        │      │                  ├ [10]: https://bugzilla.redhat.com/2196026 
+│                        │      │                  ├ [11]: https://bugzilla.redhat.com/2196027 
+│                        │      │                  ├ [12]: https://bugzilla.redhat.com/2196029 
+│                        │      │                  ├ [13]: https://bugzilla.redhat.com/2222167 
+│                        │      │                  ├ [14]: https://bugzilla.redhat.com/2228689 
+│                        │      │                  ├ [15]: https://errata.almalinux.org/9/ALSA-2023-6474.html 
+│                        │      │                  ├ [16]: https://github.com/golang/go/commit/312920c00aa
 │                        │      │                  │       c9897b2a0693e752390b5b0711a5a (go1.20.6) 
-│                        │      │                  ├ [5] : https://github.com/golang/go/commit/5fa6923b1ea
+│                        │      │                  ├ [17]: https://github.com/golang/go/commit/5fa6923b1ea
 │                        │      │                  │       891400153d04ddf1545e23b40041b (go1.19.11) 
-│                        │      │                  ├ [6] : https://github.com/golang/go/issues/60374 
-│                        │      │                  ├ [7] : https://go.dev/cl/506996 
-│                        │      │                  ├ [8] : https://go.dev/issue/60374 
-│                        │      │                  ├ [9] : https://groups.google.com/g/golang-announce/c/2
+│                        │      │                  ├ [18]: https://github.com/golang/go/issues/60374 
+│                        │      │                  ├ [19]: https://go.dev/cl/506996 
+│                        │      │                  ├ [20]: https://go.dev/issue/60374 
+│                        │      │                  ├ [21]: https://groups.google.com/g/golang-announce/c/2
 │                        │      │                  │       q13H6LEEx0 
-│                        │      │                  ├ [10]: https://linux.oracle.com/cve/CVE-2023-29406.html 
-│                        │      │                  ├ [11]: https://linux.oracle.com/errata/ELSA-2023-7202.html 
-│                        │      │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2023-29406 
-│                        │      │                  ├ [13]: https://pkg.go.dev/vuln/GO-2023-1878 
-│                        │      │                  ├ [14]: https://security.gentoo.org/glsa/202311-09 
-│                        │      │                  ├ [15]: https://security.netapp.com/advisory/ntap-20230
+│                        │      │                  ├ [22]: https://linux.oracle.com/cve/CVE-2023-29406.html 
+│                        │      │                  ├ [23]: https://linux.oracle.com/errata/ELSA-2023-7202.html 
+│                        │      │                  ├ [24]: https://nvd.nist.gov/vuln/detail/CVE-2023-29406 
+│                        │      │                  ├ [25]: https://pkg.go.dev/vuln/GO-2023-1878 
+│                        │      │                  ├ [26]: https://security.gentoo.org/glsa/202311-09 
+│                        │      │                  ├ [27]: https://security.netapp.com/advisory/ntap-20230
 │                        │      │                  │       814-0002/ 
-│                        │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2023-29406 
+│                        │      │                  ╰ [28]: https://www.cve.org/CVERecord?id=CVE-2023-29406 
 │                        │      ├ PublishedDate   : 2023-07-11T20:15:10.643Z 
 │                        │      ╰ LastModifiedDate: 2023-11-25T11:15:14.727Z 
 │                        ├ [9]  ╭ VulnerabilityID : CVE-2023-29409 
@@ -4997,31 +5694,27 @@
 │                        │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/
 │                        │      │                            │           C:N/I:N/A:L 
 │                        │      │                            ╰ V3Score : 5.3 
-│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:0121 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:7766 
 │                        │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023
 │                        │      │                  │       -29409 
-│                        │      │                  ├ [2] : https://bugzilla.redhat.com/2124669 
-│                        │      │                  ├ [3] : https://bugzilla.redhat.com/2132867 
-│                        │      │                  ├ [4] : https://bugzilla.redhat.com/2132868 
-│                        │      │                  ├ [5] : https://bugzilla.redhat.com/2132872 
-│                        │      │                  ├ [6] : https://bugzilla.redhat.com/2228743 
-│                        │      │                  ├ [7] : https://bugzilla.redhat.com/2237773 
-│                        │      │                  ├ [8] : https://bugzilla.redhat.com/2237776 
-│                        │      │                  ├ [9] : https://bugzilla.redhat.com/2237777 
-│                        │      │                  ├ [10]: https://bugzilla.redhat.com/2237778 
-│                        │      │                  ├ [11]: https://errata.almalinux.org/8/ALSA-2024-0121.html 
-│                        │      │                  ├ [12]: https://go.dev/cl/515257 
-│                        │      │                  ├ [13]: https://go.dev/issue/61460 
-│                        │      │                  ├ [14]: https://groups.google.com/g/golang-announce/c/X
+│                        │      │                  ├ [2] : https://bugzilla.redhat.com/2228743 
+│                        │      │                  ├ [3] : https://bugzilla.redhat.com/2237773 
+│                        │      │                  ├ [4] : https://bugzilla.redhat.com/2237776 
+│                        │      │                  ├ [5] : https://bugzilla.redhat.com/2237777 
+│                        │      │                  ├ [6] : https://bugzilla.redhat.com/2237778 
+│                        │      │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2023-7766.html 
+│                        │      │                  ├ [8] : https://go.dev/cl/515257 
+│                        │      │                  ├ [9] : https://go.dev/issue/61460 
+│                        │      │                  ├ [10]: https://groups.google.com/g/golang-announce/c/X
 │                        │      │                  │       0b6CsSAaYI/m/Efv5DbZ9AwAJ 
-│                        │      │                  ├ [15]: https://linux.oracle.com/cve/CVE-2023-29409.html 
-│                        │      │                  ├ [16]: https://linux.oracle.com/errata/ELSA-2024-2988.html 
-│                        │      │                  ├ [17]: https://nvd.nist.gov/vuln/detail/CVE-2023-29409 
-│                        │      │                  ├ [18]: https://pkg.go.dev/vuln/GO-2023-1987 
-│                        │      │                  ├ [19]: https://security.gentoo.org/glsa/202311-09 
-│                        │      │                  ├ [20]: https://security.netapp.com/advisory/ntap-20230
+│                        │      │                  ├ [11]: https://linux.oracle.com/cve/CVE-2023-29409.html 
+│                        │      │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2024-2988.html 
+│                        │      │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2023-29409 
+│                        │      │                  ├ [14]: https://pkg.go.dev/vuln/GO-2023-1987 
+│                        │      │                  ├ [15]: https://security.gentoo.org/glsa/202311-09 
+│                        │      │                  ├ [16]: https://security.netapp.com/advisory/ntap-20230
 │                        │      │                  │       831-0010/ 
-│                        │      │                  ╰ [21]: https://www.cve.org/CVERecord?id=CVE-2023-29409 
+│                        │      │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2023-29409 
 │                        │      ├ PublishedDate   : 2023-08-02T20:15:11.94Z 
 │                        │      ╰ LastModifiedDate: 2023-11-25T11:15:14.87Z 
 │                        ├ [10] ╭ VulnerabilityID : CVE-2023-39318 
@@ -5069,39 +5762,33 @@
 │                        │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/
 │                        │      │                            │           C:L/I:L/A:N 
 │                        │      │                            ╰ V3Score : 6.1 
-│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:0121 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:2160 
 │                        │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023
 │                        │      │                  │       -39318 
-│                        │      │                  ├ [2] : https://bugzilla.redhat.com/2124669 
-│                        │      │                  ├ [3] : https://bugzilla.redhat.com/2132867 
-│                        │      │                  ├ [4] : https://bugzilla.redhat.com/2132868 
-│                        │      │                  ├ [5] : https://bugzilla.redhat.com/2132872 
-│                        │      │                  ├ [6] : https://bugzilla.redhat.com/2228743 
-│                        │      │                  ├ [7] : https://bugzilla.redhat.com/2237773 
-│                        │      │                  ├ [8] : https://bugzilla.redhat.com/2237776 
-│                        │      │                  ├ [9] : https://bugzilla.redhat.com/2237777 
-│                        │      │                  ├ [10]: https://bugzilla.redhat.com/2237778 
-│                        │      │                  ├ [11]: https://errata.almalinux.org/8/ALSA-2024-0121.html 
-│                        │      │                  ├ [12]: https://github.com/golang/go/commit/023b542edf3
+│                        │      │                  ├ [2] : https://bugzilla.redhat.com/2237773 
+│                        │      │                  ├ [3] : https://bugzilla.redhat.com/2237776 
+│                        │      │                  ├ [4] : https://bugzilla.redhat.com/2253330 
+│                        │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2024-2160.html 
+│                        │      │                  ├ [6] : https://github.com/golang/go/commit/023b542edf3
 │                        │      │                  │       8e2a1f87fcefb9f75ff2f99401b4c (go1.20.8) 
-│                        │      │                  ├ [13]: https://github.com/golang/go/commit/b0e1d3ea26e
+│                        │      │                  ├ [7] : https://github.com/golang/go/commit/b0e1d3ea26e
 │                        │      │                  │       8e8fce7726690c9ef0597e60739fb (go1.21.1) 
-│                        │      │                  ├ [14]: https://go.dev/cl/526156 
-│                        │      │                  ├ [15]: https://go.dev/issue/62196 
-│                        │      │                  ├ [16]: https://groups.google.com/g/golang-announce/c/F
+│                        │      │                  ├ [8] : https://go.dev/cl/526156 
+│                        │      │                  ├ [9] : https://go.dev/issue/62196 
+│                        │      │                  ├ [10]: https://groups.google.com/g/golang-announce/c/F
 │                        │      │                  │       m51GRLNRvM 
-│                        │      │                  ├ [17]: https://groups.google.com/g/golang-dev/c/2C5vbR
+│                        │      │                  ├ [11]: https://groups.google.com/g/golang-dev/c/2C5vbR
 │                        │      │                  │       -UNkI/m/L1hdrPhfBAAJ 
-│                        │      │                  ├ [18]: https://linux.oracle.com/cve/CVE-2023-39318.html 
-│                        │      │                  ├ [19]: https://linux.oracle.com/errata/ELSA-2024-2988.html 
-│                        │      │                  ├ [20]: https://nvd.nist.gov/vuln/detail/CVE-2023-39318 
-│                        │      │                  ├ [21]: https://pkg.go.dev/vuln/GO-2023-2041 
-│                        │      │                  ├ [22]: https://security.gentoo.org/glsa/202311-09 
-│                        │      │                  ├ [23]: https://security.netapp.com/advisory/ntap-20231
+│                        │      │                  ├ [12]: https://linux.oracle.com/cve/CVE-2023-39318.html 
+│                        │      │                  ├ [13]: https://linux.oracle.com/errata/ELSA-2024-2988.html 
+│                        │      │                  ├ [14]: https://nvd.nist.gov/vuln/detail/CVE-2023-39318 
+│                        │      │                  ├ [15]: https://pkg.go.dev/vuln/GO-2023-2041 
+│                        │      │                  ├ [16]: https://security.gentoo.org/glsa/202311-09 
+│                        │      │                  ├ [17]: https://security.netapp.com/advisory/ntap-20231
 │                        │      │                  │       020-0009/ 
-│                        │      │                  ├ [24]: https://ubuntu.com/security/notices/USN-6574-1 
-│                        │      │                  ├ [25]: https://vuln.go.dev/ID/GO-2023-2041.json 
-│                        │      │                  ╰ [26]: https://www.cve.org/CVERecord?id=CVE-2023-39318 
+│                        │      │                  ├ [18]: https://ubuntu.com/security/notices/USN-6574-1 
+│                        │      │                  ├ [19]: https://vuln.go.dev/ID/GO-2023-2041.json 
+│                        │      │                  ╰ [20]: https://www.cve.org/CVERecord?id=CVE-2023-39318 
 │                        │      ├ PublishedDate   : 2023-09-08T17:15:27.823Z 
 │                        │      ╰ LastModifiedDate: 2023-11-25T11:15:17.43Z 
 │                        ├ [11] ╭ VulnerabilityID : CVE-2023-39319 
@@ -5132,7 +5819,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
@@ -5150,39 +5837,33 @@
 │                        │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/
 │                        │      │                            │           C:L/I:L/A:N 
 │                        │      │                            ╰ V3Score : 6.1 
-│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:0121 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:2160 
 │                        │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023
 │                        │      │                  │       -39319 
-│                        │      │                  ├ [2] : https://bugzilla.redhat.com/2124669 
-│                        │      │                  ├ [3] : https://bugzilla.redhat.com/2132867 
-│                        │      │                  ├ [4] : https://bugzilla.redhat.com/2132868 
-│                        │      │                  ├ [5] : https://bugzilla.redhat.com/2132872 
-│                        │      │                  ├ [6] : https://bugzilla.redhat.com/2228743 
-│                        │      │                  ├ [7] : https://bugzilla.redhat.com/2237773 
-│                        │      │                  ├ [8] : https://bugzilla.redhat.com/2237776 
-│                        │      │                  ├ [9] : https://bugzilla.redhat.com/2237777 
-│                        │      │                  ├ [10]: https://bugzilla.redhat.com/2237778 
-│                        │      │                  ├ [11]: https://errata.almalinux.org/8/ALSA-2024-0121.html 
-│                        │      │                  ├ [12]: https://github.com/golang/go/commit/2070531d2f5
+│                        │      │                  ├ [2] : https://bugzilla.redhat.com/2237773 
+│                        │      │                  ├ [3] : https://bugzilla.redhat.com/2237776 
+│                        │      │                  ├ [4] : https://bugzilla.redhat.com/2253330 
+│                        │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2024-2160.html 
+│                        │      │                  ├ [6] : https://github.com/golang/go/commit/2070531d2f5
 │                        │      │                  │       3df88e312edace6c8dfc9686ab2f5 (go1.20.8) 
-│                        │      │                  ├ [13]: https://github.com/golang/go/commit/bbd043ff0d6
+│                        │      │                  ├ [7] : https://github.com/golang/go/commit/bbd043ff0d6
 │                        │      │                  │       d59f1a9232d31ecd5eacf6507bf6a (go1.21.1) 
-│                        │      │                  ├ [14]: https://go.dev/cl/526157 
-│                        │      │                  ├ [15]: https://go.dev/issue/62197 
-│                        │      │                  ├ [16]: https://groups.google.com/g/golang-announce/c/F
+│                        │      │                  ├ [8] : https://go.dev/cl/526157 
+│                        │      │                  ├ [9] : https://go.dev/issue/62197 
+│                        │      │                  ├ [10]: https://groups.google.com/g/golang-announce/c/F
 │                        │      │                  │       m51GRLNRvM 
-│                        │      │                  ├ [17]: https://groups.google.com/g/golang-dev/c/2C5vbR
+│                        │      │                  ├ [11]: https://groups.google.com/g/golang-dev/c/2C5vbR
 │                        │      │                  │       -UNkI/m/L1hdrPhfBAAJ 
-│                        │      │                  ├ [18]: https://linux.oracle.com/cve/CVE-2023-39319.html 
-│                        │      │                  ├ [19]: https://linux.oracle.com/errata/ELSA-2024-2988.html 
-│                        │      │                  ├ [20]: https://nvd.nist.gov/vuln/detail/CVE-2023-39319 
-│                        │      │                  ├ [21]: https://pkg.go.dev/vuln/GO-2023-2043 
-│                        │      │                  ├ [22]: https://security.gentoo.org/glsa/202311-09 
-│                        │      │                  ├ [23]: https://security.netapp.com/advisory/ntap-20231
+│                        │      │                  ├ [12]: https://linux.oracle.com/cve/CVE-2023-39319.html 
+│                        │      │                  ├ [13]: https://linux.oracle.com/errata/ELSA-2024-2988.html 
+│                        │      │                  ├ [14]: https://nvd.nist.gov/vuln/detail/CVE-2023-39319 
+│                        │      │                  ├ [15]: https://pkg.go.dev/vuln/GO-2023-2043 
+│                        │      │                  ├ [16]: https://security.gentoo.org/glsa/202311-09 
+│                        │      │                  ├ [17]: https://security.netapp.com/advisory/ntap-20231
 │                        │      │                  │       020-0009/ 
-│                        │      │                  ├ [24]: https://ubuntu.com/security/notices/USN-6574-1 
-│                        │      │                  ├ [25]: https://vuln.go.dev/ID/GO-2023-2043.json 
-│                        │      │                  ╰ [26]: https://www.cve.org/CVERecord?id=CVE-2023-39319 
+│                        │      │                  ├ [18]: https://ubuntu.com/security/notices/USN-6574-1 
+│                        │      │                  ├ [19]: https://vuln.go.dev/ID/GO-2023-2043.json 
+│                        │      │                  ╰ [20]: https://www.cve.org/CVERecord?id=CVE-2023-39319 
 │                        │      ├ PublishedDate   : 2023-09-08T17:15:27.91Z 
 │                        │      ╰ LastModifiedDate: 2023-11-25T11:15:17.543Z 
 │                        ├ [12] ╭ VulnerabilityID : CVE-2023-39326 
@@ -5219,7 +5900,7 @@
 │                        │      │                   encoded bytes grows too small. 
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ nvd        : 2 
@@ -5236,12 +5917,12 @@
 │                        │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/
 │                        │      │                            │           C:L/I:N/A:N 
 │                        │      │                            ╰ V3Score : 5.3 
-│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:0887 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:2272 
 │                        │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023
 │                        │      │                  │       -39326 
-│                        │      │                  ├ [2] : https://bugzilla.redhat.com/2253323 
+│                        │      │                  ├ [2] : https://bugzilla.redhat.com/2253193 
 │                        │      │                  ├ [3] : https://bugzilla.redhat.com/2253330 
-│                        │      │                  ├ [4] : https://errata.almalinux.org/8/ALSA-2024-0887.html 
+│                        │      │                  ├ [4] : https://errata.almalinux.org/9/ALSA-2024-2272.html 
 │                        │      │                  ├ [5] : https://github.com/golang/go/commit/6446af942e2
 │                        │      │                  │       e2b161c4ec1b60d9703a2b55dc4dd (go1.20.12) 
 │                        │      │                  ├ [6] : https://github.com/golang/go/commit/ec8c526e4be
@@ -5343,7 +6024,7 @@
 │                        │      │                           ╰ V3Score : 5.3 
 │                        │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2024
 │                        │      │                  │       /03/08/4 
-│                        │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2024:3346 
+│                        │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2024:2724 
 │                        │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2023
 │                        │      │                  │       -45289 
 │                        │      │                  ├ [3] : https://bugzilla.redhat.com/2268017 
@@ -5362,8 +6043,8 @@
 │                        │      │                  │       CVE-2023-45290 
 │                        │      │                  ├ [14]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                        │      │                  │       CVE-2024-24783 
-│                        │      │                  ├ [15]: https://errata.almalinux.org/8/ALSA-2024-3346.html 
-│                        │      │                  ├ [16]: https://errata.rockylinux.org/RLSA-2024:2724 
+│                        │      │                  ├ [15]: https://errata.almalinux.org/9/ALSA-2024-2724.html 
+│                        │      │                  ├ [16]: https://errata.rockylinux.org/RLSA-2024:3346 
 │                        │      │                  ├ [17]: https://github.com/golang/go/commit/20586c0dbe0
 │                        │      │                  │       3d144f914155f879fa5ee287591a1 (go1.21.8) 
 │                        │      │                  ├ [18]: https://github.com/golang/go/commit/3a855208e3e
@@ -5412,49 +6093,55 @@
 │                        │      │                   function now correctly limits the maximum size of form
 │                        │      │                   lines. 
 │                        │      ├ Severity        : MEDIUM 
-│                        │      ├ VendorSeverity   ╭ alma       : 3 
+│                        │      ├ VendorSeverity   ╭ alma       : 2 
 │                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ oracle-oval: 2 
 │                        │      │                  ├ redhat     : 2 
-│                        │      │                  ├ rocky      : 2 
+│                        │      │                  ├ rocky      : 3 
 │                        │      │                  ╰ ubuntu     : 2 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
 │                        │      │                           │           :N/I:N/A:L 
 │                        │      │                           ╰ V3Score : 5.3 
 │                        │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2024
 │                        │      │                  │       /03/08/4 
-│                        │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2024:3346 
+│                        │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2024:3831 
 │                        │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2023
 │                        │      │                  │       -45290 
 │                        │      │                  ├ [3] : https://bugzilla.redhat.com/2268017 
-│                        │      │                  ├ [4] : https://bugzilla.redhat.com/2268018 
-│                        │      │                  ├ [5] : https://bugzilla.redhat.com/2268019 
-│                        │      │                  ├ [6] : https://bugzilla.redhat.com/2268273 
-│                        │      │                  ├ [7] : https://bugzilla.redhat.com/show_bug.cgi?id=2268017 
+│                        │      │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2268017 
+│                        │      │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2268018 
+│                        │      │                  ├ [6] : https://bugzilla.redhat.com/show_bug.cgi?id=2268019 
+│                        │      │                  ├ [7] : https://bugzilla.redhat.com/show_bug.cgi?id=2268273 
 │                        │      │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │      │                  │       CVE-2023-45288 
+│                        │      │                  ├ [9] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │      │                  │       CVE-2023-45289 
+│                        │      │                  ├ [10]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                        │      │                  │       CVE-2023-45290 
-│                        │      │                  ├ [9] : https://errata.almalinux.org/8/ALSA-2024-3346.html 
-│                        │      │                  ├ [10]: https://errata.rockylinux.org/RLSA-2024:3830 
-│                        │      │                  ├ [11]: https://github.com/golang/go/commit/041a47712e7
+│                        │      │                  ├ [11]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │      │                  │       CVE-2024-24783 
+│                        │      │                  ├ [12]: https://errata.almalinux.org/9/ALSA-2024-3831.html 
+│                        │      │                  ├ [13]: https://errata.rockylinux.org/RLSA-2024:3346 
+│                        │      │                  ├ [14]: https://github.com/golang/go/commit/041a47712e7
 │                        │      │                  │       65e94f86d841c3110c840e76d8f82 (go1.22.1) 
-│                        │      │                  ├ [12]: https://github.com/golang/go/commit/bf80213b121
+│                        │      │                  ├ [15]: https://github.com/golang/go/commit/bf80213b121
 │                        │      │                  │       074f4ad9b449410a4d13bae5e9be0 (go1.21.8) 
-│                        │      │                  ├ [13]: https://github.com/golang/go/issues/65383 
-│                        │      │                  ├ [14]: https://go.dev/cl/569341 
-│                        │      │                  ├ [15]: https://go.dev/issue/65383 
-│                        │      │                  ├ [16]: https://groups.google.com/g/golang-announce/c/5
+│                        │      │                  ├ [16]: https://github.com/golang/go/issues/65383 
+│                        │      │                  ├ [17]: https://go.dev/cl/569341 
+│                        │      │                  ├ [18]: https://go.dev/issue/65383 
+│                        │      │                  ├ [19]: https://groups.google.com/g/golang-announce/c/5
 │                        │      │                  │       pwGVUPoMbg 
-│                        │      │                  ├ [17]: https://linux.oracle.com/cve/CVE-2023-45290.html 
-│                        │      │                  ├ [18]: https://linux.oracle.com/errata/ELSA-2024-3831.html 
-│                        │      │                  ├ [19]: https://nvd.nist.gov/vuln/detail/CVE-2023-45290 
-│                        │      │                  ├ [20]: https://pkg.go.dev/vuln/GO-2024-2599 
-│                        │      │                  ├ [21]: https://security.netapp.com/advisory/ntap-20240
+│                        │      │                  ├ [20]: https://linux.oracle.com/cve/CVE-2023-45290.html 
+│                        │      │                  ├ [21]: https://linux.oracle.com/errata/ELSA-2024-3831.html 
+│                        │      │                  ├ [22]: https://nvd.nist.gov/vuln/detail/CVE-2023-45290 
+│                        │      │                  ├ [23]: https://pkg.go.dev/vuln/GO-2024-2599 
+│                        │      │                  ├ [24]: https://security.netapp.com/advisory/ntap-20240
 │                        │      │                  │       329-0004 
-│                        │      │                  ├ [22]: https://security.netapp.com/advisory/ntap-20240
+│                        │      │                  ├ [25]: https://security.netapp.com/advisory/ntap-20240
 │                        │      │                  │       329-0004/ 
-│                        │      │                  ├ [23]: https://ubuntu.com/security/notices/USN-6886-1 
-│                        │      │                  ╰ [24]: https://www.cve.org/CVERecord?id=CVE-2023-45290 
+│                        │      │                  ├ [26]: https://ubuntu.com/security/notices/USN-6886-1 
+│                        │      │                  ╰ [27]: https://www.cve.org/CVERecord?id=CVE-2023-45290 
 │                        │      ├ PublishedDate   : 2024-03-05T23:15:07.21Z 
 │                        │      ╰ LastModifiedDate: 2024-05-01T17:15:26.04Z 
 │                        ├ [16] ╭ VulnerabilityID : CVE-2024-24783 
@@ -5494,7 +6181,7 @@
 │                        │      │                           ╰ V3Score : 5.9 
 │                        │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2024
 │                        │      │                  │       /03/08/4 
-│                        │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2024:3346 
+│                        │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2024:2724 
 │                        │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2024
 │                        │      │                  │       -24783 
 │                        │      │                  ├ [3] : https://bugzilla.redhat.com/2268017 
@@ -5513,8 +6200,8 @@
 │                        │      │                  │       CVE-2023-45290 
 │                        │      │                  ├ [14]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                        │      │                  │       CVE-2024-24783 
-│                        │      │                  ├ [15]: https://errata.almalinux.org/8/ALSA-2024-3346.html 
-│                        │      │                  ├ [16]: https://errata.rockylinux.org/RLSA-2024:2724 
+│                        │      │                  ├ [15]: https://errata.almalinux.org/9/ALSA-2024-2724.html 
+│                        │      │                  ├ [16]: https://errata.rockylinux.org/RLSA-2024:3346 
 │                        │      │                  ├ [17]: https://github.com/advisories/GHSA-3q2c-pvp5-3cqp 
 │                        │      │                  ├ [18]: https://github.com/golang/go/commit/337b8e9cbfa
 │                        │      │                  │       749d9d5c899e0dc358e2208d5e54f (go1.22.1) 
@@ -5572,55 +6259,56 @@
 │                        │      │                           ╰ V3Score : 5.4 
 │                        │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2024
 │                        │      │                  │       /03/08/4 
-│                        │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2024:3259 
+│                        │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2024:2562 
 │                        │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2024
 │                        │      │                  │       -24784 
-│                        │      │                  ├ [3] : https://bugzilla.redhat.com/2268017 
-│                        │      │                  ├ [4] : https://bugzilla.redhat.com/2268018 
-│                        │      │                  ├ [5] : https://bugzilla.redhat.com/2268019 
-│                        │      │                  ├ [6] : https://bugzilla.redhat.com/2268021 
-│                        │      │                  ├ [7] : https://bugzilla.redhat.com/2268022 
-│                        │      │                  ├ [8] : https://bugzilla.redhat.com/2268273 
-│                        │      │                  ├ [9] : https://bugzilla.redhat.com/show_bug.cgi?id=2262921 
-│                        │      │                  ├ [10]: https://bugzilla.redhat.com/show_bug.cgi?id=2268017 
-│                        │      │                  ├ [11]: https://bugzilla.redhat.com/show_bug.cgi?id=2268018 
-│                        │      │                  ├ [12]: https://bugzilla.redhat.com/show_bug.cgi?id=2268019 
-│                        │      │                  ├ [13]: https://bugzilla.redhat.com/show_bug.cgi?id=2268021 
-│                        │      │                  ├ [14]: https://bugzilla.redhat.com/show_bug.cgi?id=2268022 
-│                        │      │                  ├ [15]: https://bugzilla.redhat.com/show_bug.cgi?id=2268273 
-│                        │      │                  ├ [16]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
-│                        │      │                  │       CVE-2023-45288 
+│                        │      │                  ├ [3] : https://bugzilla.redhat.com/2262921 
+│                        │      │                  ├ [4] : https://bugzilla.redhat.com/2268017 
+│                        │      │                  ├ [5] : https://bugzilla.redhat.com/2268018 
+│                        │      │                  ├ [6] : https://bugzilla.redhat.com/2268019 
+│                        │      │                  ├ [7] : https://bugzilla.redhat.com/2268021 
+│                        │      │                  ├ [8] : https://bugzilla.redhat.com/2268022 
+│                        │      │                  ├ [9] : https://bugzilla.redhat.com/2268273 
+│                        │      │                  ├ [10]: https://bugzilla.redhat.com/show_bug.cgi?id=2262921 
+│                        │      │                  ├ [11]: https://bugzilla.redhat.com/show_bug.cgi?id=2268017 
+│                        │      │                  ├ [12]: https://bugzilla.redhat.com/show_bug.cgi?id=2268018 
+│                        │      │                  ├ [13]: https://bugzilla.redhat.com/show_bug.cgi?id=2268019 
+│                        │      │                  ├ [14]: https://bugzilla.redhat.com/show_bug.cgi?id=2268021 
+│                        │      │                  ├ [15]: https://bugzilla.redhat.com/show_bug.cgi?id=2268022 
+│                        │      │                  ├ [16]: https://bugzilla.redhat.com/show_bug.cgi?id=2268273 
 │                        │      │                  ├ [17]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
-│                        │      │                  │       CVE-2023-45289 
+│                        │      │                  │       CVE-2023-45288 
 │                        │      │                  ├ [18]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
-│                        │      │                  │       CVE-2023-45290 
+│                        │      │                  │       CVE-2023-45289 
 │                        │      │                  ├ [19]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
-│                        │      │                  │       CVE-2024-1394 
+│                        │      │                  │       CVE-2023-45290 
 │                        │      │                  ├ [20]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
-│                        │      │                  │       CVE-2024-24783 
+│                        │      │                  │       CVE-2024-1394 
 │                        │      │                  ├ [21]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
-│                        │      │                  │       CVE-2024-24784 
+│                        │      │                  │       CVE-2024-24783 
 │                        │      │                  ├ [22]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │      │                  │       CVE-2024-24784 
+│                        │      │                  ├ [23]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                        │      │                  │       CVE-2024-24785 
-│                        │      │                  ├ [23]: https://errata.almalinux.org/8/ALSA-2024-3259.html 
-│                        │      │                  ├ [24]: https://errata.rockylinux.org/RLSA-2024:2562 
-│                        │      │                  ├ [25]: https://github.com/golang/go/commit/263c059b09f
+│                        │      │                  ├ [24]: https://errata.almalinux.org/9/ALSA-2024-2562.html 
+│                        │      │                  ├ [25]: https://errata.rockylinux.org/RLSA-2024:2562 
+│                        │      │                  ├ [26]: https://github.com/golang/go/commit/263c059b09f
 │                        │      │                  │       dd40d9dd945f2ecb20c89ea28efe5 (go1.21.8) 
-│                        │      │                  ├ [26]: https://github.com/golang/go/commit/5330cd225ba
+│                        │      │                  ├ [27]: https://github.com/golang/go/commit/5330cd225ba
 │                        │      │                  │       54c7dc78c1b46dcdf61a4671a632c (go1.22.1) 
-│                        │      │                  ├ [27]: https://github.com/golang/go/issues/65083 
-│                        │      │                  ├ [28]: https://go.dev/cl/555596 
-│                        │      │                  ├ [29]: https://go.dev/issue/65083 
-│                        │      │                  ├ [30]: https://groups.google.com/g/golang-announce/c/5
+│                        │      │                  ├ [28]: https://github.com/golang/go/issues/65083 
+│                        │      │                  ├ [29]: https://go.dev/cl/555596 
+│                        │      │                  ├ [30]: https://go.dev/issue/65083 
+│                        │      │                  ├ [31]: https://groups.google.com/g/golang-announce/c/5
 │                        │      │                  │       pwGVUPoMbg 
-│                        │      │                  ├ [31]: https://linux.oracle.com/cve/CVE-2024-24784.html 
-│                        │      │                  ├ [32]: https://linux.oracle.com/errata/ELSA-2024-3259.html 
-│                        │      │                  ├ [33]: https://nvd.nist.gov/vuln/detail/CVE-2024-24784 
-│                        │      │                  ├ [34]: https://pkg.go.dev/vuln/GO-2024-2609 
-│                        │      │                  ├ [35]: https://security.netapp.com/advisory/ntap-20240
+│                        │      │                  ├ [32]: https://linux.oracle.com/cve/CVE-2024-24784.html 
+│                        │      │                  ├ [33]: https://linux.oracle.com/errata/ELSA-2024-3259.html 
+│                        │      │                  ├ [34]: https://nvd.nist.gov/vuln/detail/CVE-2024-24784 
+│                        │      │                  ├ [35]: https://pkg.go.dev/vuln/GO-2024-2609 
+│                        │      │                  ├ [36]: https://security.netapp.com/advisory/ntap-20240
 │                        │      │                  │       329-0007/ 
-│                        │      │                  ├ [36]: https://ubuntu.com/security/notices/USN-6886-1 
-│                        │      │                  ╰ [37]: https://www.cve.org/CVERecord?id=CVE-2024-24784 
+│                        │      │                  ├ [37]: https://ubuntu.com/security/notices/USN-6886-1 
+│                        │      │                  ╰ [38]: https://www.cve.org/CVERecord?id=CVE-2024-24784 
 │                        │      ├ PublishedDate   : 2024-03-05T23:15:07.733Z 
 │                        │      ╰ LastModifiedDate: 2024-05-01T17:15:29.527Z 
 │                        ├ [18] ╭ VulnerabilityID : CVE-2024-24785 
@@ -5658,56 +6346,57 @@
 │                        │      │                           ╰ V3Score : 6.5 
 │                        │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2024
 │                        │      │                  │       /03/08/4 
-│                        │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2024:3259 
+│                        │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2024:2562 
 │                        │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2024
 │                        │      │                  │       -24785 
-│                        │      │                  ├ [3] : https://bugzilla.redhat.com/2268017 
-│                        │      │                  ├ [4] : https://bugzilla.redhat.com/2268018 
-│                        │      │                  ├ [5] : https://bugzilla.redhat.com/2268019 
-│                        │      │                  ├ [6] : https://bugzilla.redhat.com/2268021 
-│                        │      │                  ├ [7] : https://bugzilla.redhat.com/2268022 
-│                        │      │                  ├ [8] : https://bugzilla.redhat.com/2268273 
-│                        │      │                  ├ [9] : https://bugzilla.redhat.com/show_bug.cgi?id=2262921 
-│                        │      │                  ├ [10]: https://bugzilla.redhat.com/show_bug.cgi?id=2268017 
-│                        │      │                  ├ [11]: https://bugzilla.redhat.com/show_bug.cgi?id=2268018 
-│                        │      │                  ├ [12]: https://bugzilla.redhat.com/show_bug.cgi?id=2268019 
-│                        │      │                  ├ [13]: https://bugzilla.redhat.com/show_bug.cgi?id=2268021 
-│                        │      │                  ├ [14]: https://bugzilla.redhat.com/show_bug.cgi?id=2268022 
-│                        │      │                  ├ [15]: https://bugzilla.redhat.com/show_bug.cgi?id=2268273 
-│                        │      │                  ├ [16]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
-│                        │      │                  │       CVE-2023-45288 
+│                        │      │                  ├ [3] : https://bugzilla.redhat.com/2262921 
+│                        │      │                  ├ [4] : https://bugzilla.redhat.com/2268017 
+│                        │      │                  ├ [5] : https://bugzilla.redhat.com/2268018 
+│                        │      │                  ├ [6] : https://bugzilla.redhat.com/2268019 
+│                        │      │                  ├ [7] : https://bugzilla.redhat.com/2268021 
+│                        │      │                  ├ [8] : https://bugzilla.redhat.com/2268022 
+│                        │      │                  ├ [9] : https://bugzilla.redhat.com/2268273 
+│                        │      │                  ├ [10]: https://bugzilla.redhat.com/show_bug.cgi?id=2262921 
+│                        │      │                  ├ [11]: https://bugzilla.redhat.com/show_bug.cgi?id=2268017 
+│                        │      │                  ├ [12]: https://bugzilla.redhat.com/show_bug.cgi?id=2268018 
+│                        │      │                  ├ [13]: https://bugzilla.redhat.com/show_bug.cgi?id=2268019 
+│                        │      │                  ├ [14]: https://bugzilla.redhat.com/show_bug.cgi?id=2268021 
+│                        │      │                  ├ [15]: https://bugzilla.redhat.com/show_bug.cgi?id=2268022 
+│                        │      │                  ├ [16]: https://bugzilla.redhat.com/show_bug.cgi?id=2268273 
 │                        │      │                  ├ [17]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
-│                        │      │                  │       CVE-2023-45289 
+│                        │      │                  │       CVE-2023-45288 
 │                        │      │                  ├ [18]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
-│                        │      │                  │       CVE-2023-45290 
+│                        │      │                  │       CVE-2023-45289 
 │                        │      │                  ├ [19]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
-│                        │      │                  │       CVE-2024-1394 
+│                        │      │                  │       CVE-2023-45290 
 │                        │      │                  ├ [20]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
-│                        │      │                  │       CVE-2024-24783 
+│                        │      │                  │       CVE-2024-1394 
 │                        │      │                  ├ [21]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
-│                        │      │                  │       CVE-2024-24784 
+│                        │      │                  │       CVE-2024-24783 
 │                        │      │                  ├ [22]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │      │                  │       CVE-2024-24784 
+│                        │      │                  ├ [23]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                        │      │                  │       CVE-2024-24785 
-│                        │      │                  ├ [23]: https://errata.almalinux.org/8/ALSA-2024-3259.html 
-│                        │      │                  ├ [24]: https://errata.rockylinux.org/RLSA-2024:2562 
-│                        │      │                  ├ [25]: https://github.com/golang/go/commit/056b0edcb8c
+│                        │      │                  ├ [24]: https://errata.almalinux.org/9/ALSA-2024-2562.html 
+│                        │      │                  ├ [25]: https://errata.rockylinux.org/RLSA-2024:2562 
+│                        │      │                  ├ [26]: https://github.com/golang/go/commit/056b0edcb8c
 │                        │      │                  │       152152021eebf4cf42adbfbe77992 (go1.22.1) 
-│                        │      │                  ├ [26]: https://github.com/golang/go/commit/3643147a293
+│                        │      │                  ├ [27]: https://github.com/golang/go/commit/3643147a293
 │                        │      │                  │       52ca2894fd5d0d2069bc4b4335a7e (go1.21.8) 
-│                        │      │                  ├ [27]: https://github.com/golang/go/issues/65697 
-│                        │      │                  ├ [28]: https://go.dev/cl/564196 
-│                        │      │                  ├ [29]: https://go.dev/issue/65697 
-│                        │      │                  ├ [30]: https://groups.google.com/g/golang-announce/c/5
+│                        │      │                  ├ [28]: https://github.com/golang/go/issues/65697 
+│                        │      │                  ├ [29]: https://go.dev/cl/564196 
+│                        │      │                  ├ [30]: https://go.dev/issue/65697 
+│                        │      │                  ├ [31]: https://groups.google.com/g/golang-announce/c/5
 │                        │      │                  │       pwGVUPoMbg 
-│                        │      │                  ├ [31]: https://linux.oracle.com/cve/CVE-2024-24785.html 
-│                        │      │                  ├ [32]: https://linux.oracle.com/errata/ELSA-2024-3259.html 
-│                        │      │                  ├ [33]: https://nvd.nist.gov/vuln/detail/CVE-2024-24785 
-│                        │      │                  ├ [34]: https://pkg.go.dev/vuln/GO-2024-2610 
-│                        │      │                  ├ [35]: https://security.netapp.com/advisory/ntap-20240
+│                        │      │                  ├ [32]: https://linux.oracle.com/cve/CVE-2024-24785.html 
+│                        │      │                  ├ [33]: https://linux.oracle.com/errata/ELSA-2024-3259.html 
+│                        │      │                  ├ [34]: https://nvd.nist.gov/vuln/detail/CVE-2024-24785 
+│                        │      │                  ├ [35]: https://pkg.go.dev/vuln/GO-2024-2610 
+│                        │      │                  ├ [36]: https://security.netapp.com/advisory/ntap-20240
 │                        │      │                  │       329-0008/ 
-│                        │      │                  ├ [36]: https://ubuntu.com/security/notices/USN-6886-1 
-│                        │      │                  ├ [37]: https://vuln.go.dev/ID/GO-2024-2610.json 
-│                        │      │                  ╰ [38]: https://www.cve.org/CVERecord?id=CVE-2024-24785 
+│                        │      │                  ├ [37]: https://ubuntu.com/security/notices/USN-6886-1 
+│                        │      │                  ├ [38]: https://vuln.go.dev/ID/GO-2024-2610.json 
+│                        │      │                  ╰ [39]: https://www.cve.org/CVERecord?id=CVE-2024-24785 
 │                        │      ├ PublishedDate   : 2024-03-05T23:15:07.777Z 
 │                        │      ╰ LastModifiedDate: 2024-05-01T17:15:29.61Z 
 │                        ├ [19] ╭ VulnerabilityID : CVE-2024-24789 
@@ -5757,7 +6446,7 @@
 │                        │      │                            ╰ V3Score : 7.5 
 │                        │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2024
 │                        │      │                  │       /06/04/1 
-│                        │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2024:4237 
+│                        │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2024:4212 
 │                        │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2024
 │                        │      │                  │       -24789 
 │                        │      │                  ├ [3] : https://bugzilla.redhat.com/2292668 
@@ -5768,7 +6457,7 @@
 │                        │      │                  │       CVE-2024-24789 
 │                        │      │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                        │      │                  │       CVE-2024-24790 
-│                        │      │                  ├ [9] : https://errata.almalinux.org/8/ALSA-2024-4237.html 
+│                        │      │                  ├ [9] : https://errata.almalinux.org/9/ALSA-2024-4212.html 
 │                        │      │                  ├ [10]: https://errata.rockylinux.org/RLSA-2024:4212 
 │                        │      │                  ├ [11]: https://github.com/golang/go/commit/c8e40338cf0
 │                        │      │                  │       0f3c1d86c8fb23863ad67a4c72bcc (1.21) 
@@ -5911,7 +6600,7 @@
 │                        │      │                            │           C:N/I:N/A:H 
 │                        │      │                            ╰ V3Score : 7.5 
 │                        │      ├ References       ╭ [0]  : golang.org/x/net 
-│                        │      │                  ├ [1]  : https://access.redhat.com/errata/RHSA-2023:5863 
+│                        │      │                  ├ [1]  : https://access.redhat.com/errata/RHSA-2023:6077 
 │                        │      │                  ├ [2]  : https://access.redhat.com/security/cve/CVE-202
 │                        │      │                  │        3-39325 
 │                        │      │                  ├ [3]  : https://access.redhat.com/security/cve/CVE-202
@@ -5926,8 +6615,8 @@
 │                        │      │                  │        =CVE-2023-39325 
 │                        │      │                  ├ [10] : https://cve.mitre.org/cgi-bin/cvename.cgi?name
 │                        │      │                  │        =CVE-2023-44487 
-│                        │      │                  ├ [11] : https://errata.almalinux.org/8/ALSA-2023-5863.html 
-│                        │      │                  ├ [12] : https://errata.rockylinux.org/RLSA-2023:6077 
+│                        │      │                  ├ [11] : https://errata.almalinux.org/9/ALSA-2023-6077.html 
+│                        │      │                  ├ [12] : https://errata.rockylinux.org/RLSA-2023:5863 
 │                        │      │                  ├ [13] : https://github.com/golang/go/commit/24ae2d9272
 │                        │      │                  │        85c697440fdde3ad7f26028354bcf3 [golang-
 │                        │      │                  │        1.21] 
@@ -6212,33 +6901,29 @@
 │                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C
 │                        │      │                           │           :L/I:L/A:N 
 │                        │      │                           ╰ V3Score : 6.1 
-│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:6939 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:6474 
 │                        │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023-3978 
-│                        │      │                  ├ [2] : https://bugzilla.redhat.com/2163037 
-│                        │      │                  ├ [3] : https://bugzilla.redhat.com/2174485 
-│                        │      │                  ├ [4] : https://bugzilla.redhat.com/2175721 
-│                        │      │                  ├ [5] : https://bugzilla.redhat.com/2178358 
-│                        │      │                  ├ [6] : https://bugzilla.redhat.com/2178488 
-│                        │      │                  ├ [7] : https://bugzilla.redhat.com/2178492 
-│                        │      │                  ├ [8] : https://bugzilla.redhat.com/2182883 
-│                        │      │                  ├ [9] : https://bugzilla.redhat.com/2182884 
-│                        │      │                  ├ [10]: https://bugzilla.redhat.com/2184481 
-│                        │      │                  ├ [11]: https://bugzilla.redhat.com/2184482 
-│                        │      │                  ├ [12]: https://bugzilla.redhat.com/2184483 
-│                        │      │                  ├ [13]: https://bugzilla.redhat.com/2184484 
-│                        │      │                  ├ [14]: https://bugzilla.redhat.com/2196026 
-│                        │      │                  ├ [15]: https://bugzilla.redhat.com/2196027 
-│                        │      │                  ├ [16]: https://bugzilla.redhat.com/2196029 
-│                        │      │                  ├ [17]: https://bugzilla.redhat.com/2222167 
-│                        │      │                  ├ [18]: https://bugzilla.redhat.com/2228689 
-│                        │      │                  ├ [19]: https://errata.almalinux.org/8/ALSA-2023-6939.html 
-│                        │      │                  ├ [20]: https://go.dev/cl/514896 
-│                        │      │                  ├ [21]: https://go.dev/issue/61615 
-│                        │      │                  ├ [22]: https://linux.oracle.com/cve/CVE-2023-3978.html 
-│                        │      │                  ├ [23]: https://linux.oracle.com/errata/ELSA-2023-6939.html 
-│                        │      │                  ├ [24]: https://nvd.nist.gov/vuln/detail/CVE-2023-3978 
-│                        │      │                  ├ [25]: https://pkg.go.dev/vuln/GO-2023-1988 
-│                        │      │                  ╰ [26]: https://www.cve.org/CVERecord?id=CVE-2023-3978 
+│                        │      │                  ├ [2] : https://bugzilla.redhat.com/2174485 
+│                        │      │                  ├ [3] : https://bugzilla.redhat.com/2178358 
+│                        │      │                  ├ [4] : https://bugzilla.redhat.com/2178488 
+│                        │      │                  ├ [5] : https://bugzilla.redhat.com/2178492 
+│                        │      │                  ├ [6] : https://bugzilla.redhat.com/2184481 
+│                        │      │                  ├ [7] : https://bugzilla.redhat.com/2184482 
+│                        │      │                  ├ [8] : https://bugzilla.redhat.com/2184483 
+│                        │      │                  ├ [9] : https://bugzilla.redhat.com/2184484 
+│                        │      │                  ├ [10]: https://bugzilla.redhat.com/2196026 
+│                        │      │                  ├ [11]: https://bugzilla.redhat.com/2196027 
+│                        │      │                  ├ [12]: https://bugzilla.redhat.com/2196029 
+│                        │      │                  ├ [13]: https://bugzilla.redhat.com/2222167 
+│                        │      │                  ├ [14]: https://bugzilla.redhat.com/2228689 
+│                        │      │                  ├ [15]: https://errata.almalinux.org/9/ALSA-2023-6474.html 
+│                        │      │                  ├ [16]: https://go.dev/cl/514896 
+│                        │      │                  ├ [17]: https://go.dev/issue/61615 
+│                        │      │                  ├ [18]: https://linux.oracle.com/cve/CVE-2023-3978.html 
+│                        │      │                  ├ [19]: https://linux.oracle.com/errata/ELSA-2023-6939.html 
+│                        │      │                  ├ [20]: https://nvd.nist.gov/vuln/detail/CVE-2023-3978 
+│                        │      │                  ├ [21]: https://pkg.go.dev/vuln/GO-2023-1988 
+│                        │      │                  ╰ [22]: https://www.cve.org/CVERecord?id=CVE-2023-3978 
 │                        │      ├ PublishedDate   : 2023-08-02T20:15:12.097Z 
 │                        │      ╰ LastModifiedDate: 2023-11-07T04:20:03.647Z 
 │                        ├ [2]  ╭ VulnerabilityID : CVE-2023-44487 
@@ -6302,7 +6987,7 @@
 │                        │      │                  │        3/10/19/6 
 │                        │      │                  ├ [5]  : http://www.openwall.com/lists/oss-security/202
 │                        │      │                  │        3/10/20/8 
-│                        │      │                  ├ [6]  : https://access.redhat.com/errata/RHSA-2024:1444 
+│                        │      │                  ├ [6]  : https://access.redhat.com/errata/RHSA-2023:6746 
 │                        │      │                  ├ [7]  : https://access.redhat.com/security/cve/CVE-202
 │                        │      │                  │        3-44487 
 │                        │      │                  ├ [8]  : https://access.redhat.com/security/cve/cve-202
@@ -6338,440 +7023,439 @@
 │                        │      │                  ├ [22] : https://blog.vespa.ai/cve-2023-44487/ 
 │                        │      │                  ├ [23] : https://bugzilla.proxmox.com/show_bug.cgi?id=4988 
 │                        │      │                  ├ [24] : https://bugzilla.redhat.com/2242803 
-│                        │      │                  ├ [25] : https://bugzilla.redhat.com/2264574 
-│                        │      │                  ├ [26] : https://bugzilla.redhat.com/show_bug.cgi?id=2242803 
-│                        │      │                  ├ [27] : https://bugzilla.suse.com/show_bug.cgi?id=1216123 
-│                        │      │                  ├ [28] : https://cgit.freebsd.org/ports/commit/?id=c64c
+│                        │      │                  ├ [25] : https://bugzilla.redhat.com/show_bug.cgi?id=2242803 
+│                        │      │                  ├ [26] : https://bugzilla.suse.com/show_bug.cgi?id=1216123 
+│                        │      │                  ├ [27] : https://cgit.freebsd.org/ports/commit/?id=c64c
 │                        │      │                  │        329c2c1752f46b73e3e6ce9f4329be6629f9 
-│                        │      │                  ├ [29] : https://chaos.social/@icing/111210915918780532 
-│                        │      │                  ├ [30] : https://cloud.google.com/blog/products/identit
+│                        │      │                  ├ [28] : https://chaos.social/@icing/111210915918780532 
+│                        │      │                  ├ [29] : https://cloud.google.com/blog/products/identit
 │                        │      │                  │        y-security/google-cloud-mitigated-largest-ddos-atta
 │                        │      │                  │        ck-peaking-above-398-million-rps 
-│                        │      │                  ├ [31] : https://cloud.google.com/blog/products/identit
+│                        │      │                  ├ [30] : https://cloud.google.com/blog/products/identit
 │                        │      │                  │        y-security/google-cloud-mitigated-largest-ddos-atta
 │                        │      │                  │        ck-peaking-above-398-million-rps/ 
-│                        │      │                  ├ [32] : https://cloud.google.com/blog/products/identit
+│                        │      │                  ├ [31] : https://cloud.google.com/blog/products/identit
 │                        │      │                  │        y-security/how-it-works-the-novel-http2-rapid-reset
 │                        │      │                  │        -ddos-attack 
-│                        │      │                  ├ [33] : https://community.traefik.io/t/is-traefik-vuln
+│                        │      │                  ├ [32] : https://community.traefik.io/t/is-traefik-vuln
 │                        │      │                  │        erable-to-cve-2023-44487/20125 
-│                        │      │                  ├ [34] : https://cve.mitre.org/cgi-bin/cvename.cgi?name
+│                        │      │                  ├ [33] : https://cve.mitre.org/cgi-bin/cvename.cgi?name
 │                        │      │                  │        =CVE-2023-44487 
-│                        │      │                  ├ [35] : https://devblogs.microsoft.com/dotnet/october-
+│                        │      │                  ├ [34] : https://devblogs.microsoft.com/dotnet/october-
 │                        │      │                  │        2023-updates/ 
-│                        │      │                  ├ [36] : https://discuss.hashicorp.com/t/hcsec-2023-32-
+│                        │      │                  ├ [35] : https://discuss.hashicorp.com/t/hcsec-2023-32-
 │                        │      │                  │        vault-consul-and-boundary-affected-by-http-2-rapid-
 │                        │      │                  │        reset-denial-of-service-vulnerability-cve-2023-4448
 │                        │      │                  │        7/59715 
-│                        │      │                  ├ [37] : https://edg.io/lp/blog/resets-leaks-ddos-and-t
+│                        │      │                  ├ [36] : https://edg.io/lp/blog/resets-leaks-ddos-and-t
 │                        │      │                  │        he-tale-of-a-hidden-cve 
-│                        │      │                  ├ [38] : https://errata.almalinux.org/8/ALSA-2024-1444.html 
-│                        │      │                  ├ [39] : https://errata.rockylinux.org/RLSA-2023:5838 
-│                        │      │                  ├ [40] : https://forums.swift.org/t/swift-nio-http2-sec
+│                        │      │                  ├ [37] : https://errata.almalinux.org/9/ALSA-2023-6746.html 
+│                        │      │                  ├ [38] : https://errata.rockylinux.org/RLSA-2023:5928 
+│                        │      │                  ├ [39] : https://forums.swift.org/t/swift-nio-http2-sec
 │                        │      │                  │        urity-update-cve-2023-44487-http-2-dos/67764
 │                        │      │                  │        [m 
-│                        │      │                  ├ [41] : https://gist.github.com/adulau/7c2bfb8e9cdbe4b
+│                        │      │                  ├ [40] : https://gist.github.com/adulau/7c2bfb8e9cdbe4b
 │                        │      │                  │        35a5e131c66a0c088 
-│                        │      │                  ├ [42] : https://github.com/Azure/AKS/issues/3947 
-│                        │      │                  ├ [43] : https://github.com/Kong/kong/discussions/11741 
-│                        │      │                  ├ [44] : https://github.com/advisories/GHSA-qppj-fm5r-hxr3 
-│                        │      │                  ├ [45] : https://github.com/advisories/GHSA-vx74-f528-fxqg 
-│                        │      │                  ├ [46] : https://github.com/advisories/GHSA-xpw8-rcwv-8f8p 
-│                        │      │                  ├ [47] : https://github.com/akka/akka-http/issues/4323 
-│                        │      │                  ├ [48] : https://github.com/akka/akka-http/pull/4324 
-│                        │      │                  ├ [49] : https://github.com/akka/akka-http/pull/4325 
-│                        │      │                  ├ [50] : https://github.com/alibaba/tengine/issues/1872 
-│                        │      │                  ├ [51] : https://github.com/apache/apisix/issues/10320 
-│                        │      │                  ├ [52] : https://github.com/apache/httpd-site/pull/10 
-│                        │      │                  ├ [53] : https://github.com/apache/httpd/blob/afcdbeebb
+│                        │      │                  ├ [41] : https://github.com/Azure/AKS/issues/3947 
+│                        │      │                  ├ [42] : https://github.com/Kong/kong/discussions/11741 
+│                        │      │                  ├ [43] : https://github.com/advisories/GHSA-qppj-fm5r-hxr3 
+│                        │      │                  ├ [44] : https://github.com/advisories/GHSA-vx74-f528-fxqg 
+│                        │      │                  ├ [45] : https://github.com/advisories/GHSA-xpw8-rcwv-8f8p 
+│                        │      │                  ├ [46] : https://github.com/akka/akka-http/issues/4323 
+│                        │      │                  ├ [47] : https://github.com/akka/akka-http/pull/4324 
+│                        │      │                  ├ [48] : https://github.com/akka/akka-http/pull/4325 
+│                        │      │                  ├ [49] : https://github.com/alibaba/tengine/issues/1872 
+│                        │      │                  ├ [50] : https://github.com/apache/apisix/issues/10320 
+│                        │      │                  ├ [51] : https://github.com/apache/httpd-site/pull/10 
+│                        │      │                  ├ [52] : https://github.com/apache/httpd/blob/afcdbeebb
 │                        │      │                  │        ff4b0c50ea26cdd16e178c0d1f24152/modules/http2/h2_mp
 │                        │      │                  │        lx.c#L1101-L1113 
-│                        │      │                  ├ [54] : https://github.com/apache/tomcat/tree/main/jav
+│                        │      │                  ├ [53] : https://github.com/apache/tomcat/tree/main/jav
 │                        │      │                  │        a/org/apache/coyote/http2 
-│                        │      │                  ├ [55] : https://github.com/apache/trafficserver/pull/10564 
-│                        │      │                  ├ [56] : https://github.com/apple/swift-nio-http2 
-│                        │      │                  ├ [57] : https://github.com/apple/swift-nio-http2/secur
+│                        │      │                  ├ [54] : https://github.com/apache/trafficserver/pull/10564 
+│                        │      │                  ├ [55] : https://github.com/apple/swift-nio-http2 
+│                        │      │                  ├ [56] : https://github.com/apple/swift-nio-http2/secur
 │                        │      │                  │        ity/advisories/GHSA-qppj-fm5r-hxr3 
-│                        │      │                  ├ [58] : https://github.com/arkrwn/PoC/tree/main/CVE-20
+│                        │      │                  ├ [57] : https://github.com/arkrwn/PoC/tree/main/CVE-20
 │                        │      │                  │        23-44487 
-│                        │      │                  ├ [59] : https://github.com/bcdannyboy/CVE-2023-44487 
-│                        │      │                  ├ [60] : https://github.com/caddyserver/caddy/issues/5877 
-│                        │      │                  ├ [61] : https://github.com/caddyserver/caddy/releases/
+│                        │      │                  ├ [58] : https://github.com/bcdannyboy/CVE-2023-44487 
+│                        │      │                  ├ [59] : https://github.com/caddyserver/caddy/issues/5877 
+│                        │      │                  ├ [60] : https://github.com/caddyserver/caddy/releases/
 │                        │      │                  │        tag/v2.7.5 
-│                        │      │                  ├ [62] : https://github.com/dotnet/announcements/issues/277 
-│                        │      │                  ├ [63] : https://github.com/dotnet/core/blob/e4613450ea
+│                        │      │                  ├ [61] : https://github.com/dotnet/announcements/issues/277 
+│                        │      │                  ├ [62] : https://github.com/dotnet/core/blob/e4613450ea
 │                        │      │                  │        0da7fd2fc6b61dfb2c1c1dec1ce9ec/release-notes/6.0/6.
 │                        │      │                  │        0.23/6.0.23.md?plain=1#L73 
-│                        │      │                  ├ [64] : https://github.com/eclipse/jetty.project/issue
+│                        │      │                  ├ [63] : https://github.com/eclipse/jetty.project/issue
 │                        │      │                  │        s/10679 
-│                        │      │                  ├ [65] : https://github.com/envoyproxy/envoy/pull/30055 
-│                        │      │                  ├ [66] : https://github.com/etcd-io/etcd/issues/16740 
-│                        │      │                  ├ [67] : https://github.com/facebook/proxygen/pull/466 
-│                        │      │                  ├ [68] : https://github.com/golang/go/issues/63417 
-│                        │      │                  ├ [69] : https://github.com/grpc/grpc-go/pull/6703 
-│                        │      │                  ├ [70] : https://github.com/grpc/grpc-go/releases 
-│                        │      │                  ├ [71] : https://github.com/h2o/h2o/pull/3291 
-│                        │      │                  ├ [72] : https://github.com/h2o/h2o/security/advisories
+│                        │      │                  ├ [64] : https://github.com/envoyproxy/envoy/pull/30055 
+│                        │      │                  ├ [65] : https://github.com/etcd-io/etcd/issues/16740 
+│                        │      │                  ├ [66] : https://github.com/facebook/proxygen/pull/466 
+│                        │      │                  ├ [67] : https://github.com/golang/go/issues/63417 
+│                        │      │                  ├ [68] : https://github.com/grpc/grpc-go/pull/6703 
+│                        │      │                  ├ [69] : https://github.com/grpc/grpc-go/releases 
+│                        │      │                  ├ [70] : https://github.com/h2o/h2o/pull/3291 
+│                        │      │                  ├ [71] : https://github.com/h2o/h2o/security/advisories
 │                        │      │                  │        /GHSA-2m7v-gc89-fjqf 
-│                        │      │                  ├ [73] : https://github.com/haproxy/haproxy/issues/2312 
-│                        │      │                  ├ [74] : https://github.com/hyperium/hyper/issues/3337 
-│                        │      │                  ├ [75] : https://github.com/icing/mod_h2/blob/0a864782a
+│                        │      │                  ├ [72] : https://github.com/haproxy/haproxy/issues/2312 
+│                        │      │                  ├ [73] : https://github.com/hyperium/hyper/issues/3337 
+│                        │      │                  ├ [74] : https://github.com/icing/mod_h2/blob/0a864782a
 │                        │      │                  │        f0a942aa2ad4ed960a6b32cd35bcf0a/mod_http2/README.md
 │                        │      │                  │        ?plain=1#L239-L244 
-│                        │      │                  ├ [76] : https://github.com/junkurihara/rust-rpxy/issues/97 
-│                        │      │                  ├ [77] : https://github.com/kazu-yamamoto/http2/commit/
+│                        │      │                  ├ [75] : https://github.com/junkurihara/rust-rpxy/issues/97 
+│                        │      │                  ├ [76] : https://github.com/kazu-yamamoto/http2/commit/
 │                        │      │                  │        f61d41a502bd0f60eb24e1ce14edc7b6df6722a1 
-│                        │      │                  ├ [78] : https://github.com/kazu-yamamoto/http2/issues/93 
-│                        │      │                  ├ [79] : https://github.com/kubernetes/kubernetes/pull/
+│                        │      │                  ├ [77] : https://github.com/kazu-yamamoto/http2/issues/93 
+│                        │      │                  ├ [78] : https://github.com/kubernetes/kubernetes/pull/
 │                        │      │                  │        121120 
-│                        │      │                  ├ [80] : https://github.com/line/armeria/pull/5232 
-│                        │      │                  ├ [81] : https://github.com/linkerd/website/pull/1695/c
+│                        │      │                  ├ [79] : https://github.com/line/armeria/pull/5232 
+│                        │      │                  ├ [80] : https://github.com/linkerd/website/pull/1695/c
 │                        │      │                  │        ommits/4b9c6836471bc8270ab48aae6fd2181bc73fd632
 │                        │      │                  │        [m 
-│                        │      │                  ├ [82] : https://github.com/micrictor/http2-rst-stream 
-│                        │      │                  ├ [83] : https://github.com/microsoft/CBL-Mariner/pull/6381 
-│                        │      │                  ├ [84] : https://github.com/netty/netty/commit/58f75f66
+│                        │      │                  ├ [81] : https://github.com/micrictor/http2-rst-stream 
+│                        │      │                  ├ [82] : https://github.com/microsoft/CBL-Mariner/pull/6381 
+│                        │      │                  ├ [83] : https://github.com/netty/netty/commit/58f75f66
 │                        │      │                  │        5aa81a8cbcf6ffa74820042a285c5e61 
-│                        │      │                  ├ [85] : https://github.com/nghttp2/nghttp2/pull/1961 
-│                        │      │                  ├ [86] : https://github.com/nghttp2/nghttp2/releases/ta
+│                        │      │                  ├ [84] : https://github.com/nghttp2/nghttp2/pull/1961 
+│                        │      │                  ├ [85] : https://github.com/nghttp2/nghttp2/releases/ta
 │                        │      │                  │        g/v1.57.0 
-│                        │      │                  ├ [87] : https://github.com/ninenines/cowboy/issues/1615 
-│                        │      │                  ├ [88] : https://github.com/nodejs/node/pull/50121 
-│                        │      │                  ├ [89] : https://github.com/openresty/openresty/issues/930 
-│                        │      │                  ├ [90] : https://github.com/opensearch-project/data-pre
+│                        │      │                  ├ [86] : https://github.com/ninenines/cowboy/issues/1615 
+│                        │      │                  ├ [87] : https://github.com/nodejs/node/pull/50121 
+│                        │      │                  ├ [88] : https://github.com/openresty/openresty/issues/930 
+│                        │      │                  ├ [89] : https://github.com/opensearch-project/data-pre
 │                        │      │                  │        pper/issues/3474 
-│                        │      │                  ├ [91] : https://github.com/oqtane/oqtane.framework/dis
+│                        │      │                  ├ [90] : https://github.com/oqtane/oqtane.framework/dis
 │                        │      │                  │        cussions/3367 
-│                        │      │                  ├ [92] : https://github.com/projectcontour/contour/pull/5826 
-│                        │      │                  ├ [93] : https://github.com/tempesta-tech/tempesta/issu
+│                        │      │                  ├ [91] : https://github.com/projectcontour/contour/pull/5826 
+│                        │      │                  ├ [92] : https://github.com/tempesta-tech/tempesta/issu
 │                        │      │                  │        es/1986 
-│                        │      │                  ├ [94] : https://github.com/varnishcache/varnish-cache/
+│                        │      │                  ├ [93] : https://github.com/varnishcache/varnish-cache/
 │                        │      │                  │        issues/3996 
-│                        │      │                  ├ [95] : https://go.dev/cl/534215 
-│                        │      │                  ├ [96] : https://go.dev/cl/534235 
-│                        │      │                  ├ [97] : https://go.dev/issue/63417 
-│                        │      │                  ├ [98] : https://groups.google.com/g/golang-announce/c/
+│                        │      │                  ├ [94] : https://go.dev/cl/534215 
+│                        │      │                  ├ [95] : https://go.dev/cl/534235 
+│                        │      │                  ├ [96] : https://go.dev/issue/63417 
+│                        │      │                  ├ [97] : https://groups.google.com/g/golang-announce/c/
 │                        │      │                  │        iNNxDTCjZvo 
-│                        │      │                  ├ [99] : https://groups.google.com/g/golang-announce/c/
+│                        │      │                  ├ [98] : https://groups.google.com/g/golang-announce/c/
 │                        │      │                  │        iNNxDTCjZvo/m/UDd7VKQuAAAJ 
-│                        │      │                  ├ [100]: https://istio.io/latest/news/security/istio-se
+│                        │      │                  ├ [99] : https://istio.io/latest/news/security/istio-se
 │                        │      │                  │        curity-2023-004 
-│                        │      │                  ├ [101]: https://istio.io/latest/news/security/istio-se
+│                        │      │                  ├ [100]: https://istio.io/latest/news/security/istio-se
 │                        │      │                  │        curity-2023-004/ 
-│                        │      │                  ├ [102]: https://linkerd.io/2023/10/12/linkerd-cve-2023
+│                        │      │                  ├ [101]: https://linkerd.io/2023/10/12/linkerd-cve-2023
 │                        │      │                  │        -44487 
-│                        │      │                  ├ [103]: https://linkerd.io/2023/10/12/linkerd-cve-2023
+│                        │      │                  ├ [102]: https://linkerd.io/2023/10/12/linkerd-cve-2023
 │                        │      │                  │        -44487/ 
-│                        │      │                  ├ [104]: https://linux.oracle.com/cve/CVE-2023-44487.html 
-│                        │      │                  ├ [105]: https://linux.oracle.com/errata/ELSA-2024-1444.html 
-│                        │      │                  ├ [106]: https://lists.apache.org/thread/5py8h42mxfsn8l
+│                        │      │                  ├ [103]: https://linux.oracle.com/cve/CVE-2023-44487.html 
+│                        │      │                  ├ [104]: https://linux.oracle.com/errata/ELSA-2024-1444.html 
+│                        │      │                  ├ [105]: https://lists.apache.org/thread/5py8h42mxfsn8l
 │                        │      │                  │        1wy6o41xwhsjlsd87q 
-│                        │      │                  ├ [107]: https://lists.debian.org/debian-lts-announce/2
+│                        │      │                  ├ [106]: https://lists.debian.org/debian-lts-announce/2
 │                        │      │                  │        023/10/msg00020.html 
-│                        │      │                  ├ [108]: https://lists.debian.org/debian-lts-announce/2
+│                        │      │                  ├ [107]: https://lists.debian.org/debian-lts-announce/2
 │                        │      │                  │        023/10/msg00023.html 
-│                        │      │                  ├ [109]: https://lists.debian.org/debian-lts-announce/2
+│                        │      │                  ├ [108]: https://lists.debian.org/debian-lts-announce/2
 │                        │      │                  │        023/10/msg00024.html 
-│                        │      │                  ├ [110]: https://lists.debian.org/debian-lts-announce/2
+│                        │      │                  ├ [109]: https://lists.debian.org/debian-lts-announce/2
 │                        │      │                  │        023/10/msg00045.html 
-│                        │      │                  ├ [111]: https://lists.debian.org/debian-lts-announce/2
+│                        │      │                  ├ [110]: https://lists.debian.org/debian-lts-announce/2
 │                        │      │                  │        023/10/msg00047.html 
-│                        │      │                  ├ [112]: https://lists.debian.org/debian-lts-announce/2
+│                        │      │                  ├ [111]: https://lists.debian.org/debian-lts-announce/2
 │                        │      │                  │        023/11/msg00001.html 
-│                        │      │                  ├ [113]: https://lists.debian.org/debian-lts-announce/2
+│                        │      │                  ├ [112]: https://lists.debian.org/debian-lts-announce/2
 │                        │      │                  │        023/11/msg00012.html 
-│                        │      │                  ├ [114]: https://lists.fedoraproject.org/archives/list/
+│                        │      │                  ├ [113]: https://lists.fedoraproject.org/archives/list/
 │                        │      │                  │        package-announce%40lists.fedoraproject.org/message/
 │                        │      │                  │        2MBEPPC36UBVOZZNAXFHKLFGSLCMN5LI 
-│                        │      │                  ├ [115]: https://lists.fedoraproject.org/archives/list/
+│                        │      │                  ├ [114]: https://lists.fedoraproject.org/archives/list/
 │                        │      │                  │        package-announce%40lists.fedoraproject.org/message/
 │                        │      │                  │        2MBEPPC36UBVOZZNAXFHKLFGSLCMN5LI/ 
-│                        │      │                  ├ [116]: https://lists.fedoraproject.org/archives/list/
+│                        │      │                  ├ [115]: https://lists.fedoraproject.org/archives/list/
 │                        │      │                  │        package-announce%40lists.fedoraproject.org/message/
 │                        │      │                  │        3N4NJ7FR4X4FPZUGNTQAPSTVB2HB2Y4A 
-│                        │      │                  ├ [117]: https://lists.fedoraproject.org/archives/list/
+│                        │      │                  ├ [116]: https://lists.fedoraproject.org/archives/list/
 │                        │      │                  │        package-announce%40lists.fedoraproject.org/message/
 │                        │      │                  │        3N4NJ7FR4X4FPZUGNTQAPSTVB2HB2Y4A/ 
-│                        │      │                  ├ [118]: https://lists.fedoraproject.org/archives/list/
+│                        │      │                  ├ [117]: https://lists.fedoraproject.org/archives/list/
 │                        │      │                  │        package-announce%40lists.fedoraproject.org/message/
 │                        │      │                  │        BFQD3KUEMFBHPAPBGLWQC34L4OWL5HAZ 
-│                        │      │                  ├ [119]: https://lists.fedoraproject.org/archives/list/
+│                        │      │                  ├ [118]: https://lists.fedoraproject.org/archives/list/
 │                        │      │                  │        package-announce%40lists.fedoraproject.org/message/
 │                        │      │                  │        BFQD3KUEMFBHPAPBGLWQC34L4OWL5HAZ/ 
-│                        │      │                  ├ [120]: https://lists.fedoraproject.org/archives/list/
+│                        │      │                  ├ [119]: https://lists.fedoraproject.org/archives/list/
 │                        │      │                  │        package-announce%40lists.fedoraproject.org/message/
 │                        │      │                  │        CLB4TW7KALB3EEQWNWCN7OUIWWVWWCG2 
-│                        │      │                  ├ [121]: https://lists.fedoraproject.org/archives/list/
+│                        │      │                  ├ [120]: https://lists.fedoraproject.org/archives/list/
 │                        │      │                  │        package-announce%40lists.fedoraproject.org/message/
 │                        │      │                  │        CLB4TW7KALB3EEQWNWCN7OUIWWVWWCG2/ 
-│                        │      │                  ├ [122]: https://lists.fedoraproject.org/archives/list/
+│                        │      │                  ├ [121]: https://lists.fedoraproject.org/archives/list/
 │                        │      │                  │        package-announce%40lists.fedoraproject.org/message/
 │                        │      │                  │        E72T67UPDRXHIDLO3OROR25YAMN4GGW5 
-│                        │      │                  ├ [123]: https://lists.fedoraproject.org/archives/list/
+│                        │      │                  ├ [122]: https://lists.fedoraproject.org/archives/list/
 │                        │      │                  │        package-announce%40lists.fedoraproject.org/message/
 │                        │      │                  │        E72T67UPDRXHIDLO3OROR25YAMN4GGW5/ 
-│                        │      │                  ├ [124]: https://lists.fedoraproject.org/archives/list/
+│                        │      │                  ├ [123]: https://lists.fedoraproject.org/archives/list/
 │                        │      │                  │        package-announce%40lists.fedoraproject.org/message/
 │                        │      │                  │        FNA62Q767CFAFHBCDKYNPBMZWB7TWYVU 
-│                        │      │                  ├ [125]: https://lists.fedoraproject.org/archives/list/
+│                        │      │                  ├ [124]: https://lists.fedoraproject.org/archives/list/
 │                        │      │                  │        package-announce%40lists.fedoraproject.org/message/
 │                        │      │                  │        FNA62Q767CFAFHBCDKYNPBMZWB7TWYVU/ 
-│                        │      │                  ├ [126]: https://lists.fedoraproject.org/archives/list/
+│                        │      │                  ├ [125]: https://lists.fedoraproject.org/archives/list/
 │                        │      │                  │        package-announce%40lists.fedoraproject.org/message/
 │                        │      │                  │        HT7T2R4MQKLIF4ODV4BDLPARWFPCJ5CZ 
-│                        │      │                  ├ [127]: https://lists.fedoraproject.org/archives/list/
+│                        │      │                  ├ [126]: https://lists.fedoraproject.org/archives/list/
 │                        │      │                  │        package-announce%40lists.fedoraproject.org/message/
 │                        │      │                  │        HT7T2R4MQKLIF4ODV4BDLPARWFPCJ5CZ/ 
-│                        │      │                  ├ [128]: https://lists.fedoraproject.org/archives/list/
+│                        │      │                  ├ [127]: https://lists.fedoraproject.org/archives/list/
 │                        │      │                  │        package-announce%40lists.fedoraproject.org/message/
 │                        │      │                  │        JIZSEFC3YKCGABA2BZW6ZJRMDZJMB7PJ 
-│                        │      │                  ├ [129]: https://lists.fedoraproject.org/archives/list/
+│                        │      │                  ├ [128]: https://lists.fedoraproject.org/archives/list/
 │                        │      │                  │        package-announce%40lists.fedoraproject.org/message/
 │                        │      │                  │        JIZSEFC3YKCGABA2BZW6ZJRMDZJMB7PJ/ 
-│                        │      │                  ├ [130]: https://lists.fedoraproject.org/archives/list/
+│                        │      │                  ├ [129]: https://lists.fedoraproject.org/archives/list/
 │                        │      │                  │        package-announce%40lists.fedoraproject.org/message/
 │                        │      │                  │        JMEXY22BFG5Q64HQCM5CK2Q7KDKVV4TY 
-│                        │      │                  ├ [131]: https://lists.fedoraproject.org/archives/list/
+│                        │      │                  ├ [130]: https://lists.fedoraproject.org/archives/list/
 │                        │      │                  │        package-announce%40lists.fedoraproject.org/message/
 │                        │      │                  │        JMEXY22BFG5Q64HQCM5CK2Q7KDKVV4TY/ 
-│                        │      │                  ├ [132]: https://lists.fedoraproject.org/archives/list/
+│                        │      │                  ├ [131]: https://lists.fedoraproject.org/archives/list/
 │                        │      │                  │        package-announce%40lists.fedoraproject.org/message/
 │                        │      │                  │        KSEGD2IWKNUO3DWY4KQGUQM5BISRWHQE 
-│                        │      │                  ├ [133]: https://lists.fedoraproject.org/archives/list/
+│                        │      │                  ├ [132]: https://lists.fedoraproject.org/archives/list/
 │                        │      │                  │        package-announce%40lists.fedoraproject.org/message/
 │                        │      │                  │        KSEGD2IWKNUO3DWY4KQGUQM5BISRWHQE/ 
-│                        │      │                  ├ [134]: https://lists.fedoraproject.org/archives/list/
+│                        │      │                  ├ [133]: https://lists.fedoraproject.org/archives/list/
 │                        │      │                  │        package-announce%40lists.fedoraproject.org/message/
 │                        │      │                  │        LKYHSZQFDNR7RSA7LHVLLIAQMVYCUGBG 
-│                        │      │                  ├ [135]: https://lists.fedoraproject.org/archives/list/
+│                        │      │                  ├ [134]: https://lists.fedoraproject.org/archives/list/
 │                        │      │                  │        package-announce%40lists.fedoraproject.org/message/
 │                        │      │                  │        LKYHSZQFDNR7RSA7LHVLLIAQMVYCUGBG/ 
-│                        │      │                  ├ [136]: https://lists.fedoraproject.org/archives/list/
+│                        │      │                  ├ [135]: https://lists.fedoraproject.org/archives/list/
 │                        │      │                  │        package-announce%40lists.fedoraproject.org/message/
 │                        │      │                  │        LNMZJCDHGLJJLXO4OXWJMTVQRNWOC7UL 
-│                        │      │                  ├ [137]: https://lists.fedoraproject.org/archives/list/
+│                        │      │                  ├ [136]: https://lists.fedoraproject.org/archives/list/
 │                        │      │                  │        package-announce%40lists.fedoraproject.org/message/
 │                        │      │                  │        LNMZJCDHGLJJLXO4OXWJMTVQRNWOC7UL/ 
-│                        │      │                  ├ [138]: https://lists.fedoraproject.org/archives/list/
+│                        │      │                  ├ [137]: https://lists.fedoraproject.org/archives/list/
 │                        │      │                  │        package-announce%40lists.fedoraproject.org/message/
 │                        │      │                  │        VHUHTSXLXGXS7JYKBXTA3VINUPHTNGVU 
-│                        │      │                  ├ [139]: https://lists.fedoraproject.org/archives/list/
+│                        │      │                  ├ [138]: https://lists.fedoraproject.org/archives/list/
 │                        │      │                  │        package-announce%40lists.fedoraproject.org/message/
 │                        │      │                  │        VHUHTSXLXGXS7JYKBXTA3VINUPHTNGVU/ 
-│                        │      │                  ├ [140]: https://lists.fedoraproject.org/archives/list/
+│                        │      │                  ├ [139]: https://lists.fedoraproject.org/archives/list/
 │                        │      │                  │        package-announce%40lists.fedoraproject.org/message/
 │                        │      │                  │        VSRDIV77HNKUSM7SJC5BKE5JSHLHU2NK 
-│                        │      │                  ├ [141]: https://lists.fedoraproject.org/archives/list/
+│                        │      │                  ├ [140]: https://lists.fedoraproject.org/archives/list/
 │                        │      │                  │        package-announce%40lists.fedoraproject.org/message/
 │                        │      │                  │        VSRDIV77HNKUSM7SJC5BKE5JSHLHU2NK/ 
-│                        │      │                  ├ [142]: https://lists.fedoraproject.org/archives/list/
+│                        │      │                  ├ [141]: https://lists.fedoraproject.org/archives/list/
 │                        │      │                  │        package-announce%40lists.fedoraproject.org/message/
 │                        │      │                  │        WE2I52RHNNU42PX6NZ2RBUHSFFJ2LVZX 
-│                        │      │                  ├ [143]: https://lists.fedoraproject.org/archives/list/
+│                        │      │                  ├ [142]: https://lists.fedoraproject.org/archives/list/
 │                        │      │                  │        package-announce%40lists.fedoraproject.org/message/
 │                        │      │                  │        WE2I52RHNNU42PX6NZ2RBUHSFFJ2LVZX/ 
-│                        │      │                  ├ [144]: https://lists.fedoraproject.org/archives/list/
+│                        │      │                  ├ [143]: https://lists.fedoraproject.org/archives/list/
 │                        │      │                  │        package-announce%40lists.fedoraproject.org/message/
 │                        │      │                  │        WLPRQ5TWUQQXYWBJM7ECYDAIL2YVKIUH 
-│                        │      │                  ├ [145]: https://lists.fedoraproject.org/archives/list/
+│                        │      │                  ├ [144]: https://lists.fedoraproject.org/archives/list/
 │                        │      │                  │        package-announce%40lists.fedoraproject.org/message/
 │                        │      │                  │        WLPRQ5TWUQQXYWBJM7ECYDAIL2YVKIUH/ 
-│                        │      │                  ├ [146]: https://lists.fedoraproject.org/archives/list/
+│                        │      │                  ├ [145]: https://lists.fedoraproject.org/archives/list/
 │                        │      │                  │        package-announce%40lists.fedoraproject.org/message/
 │                        │      │                  │        X6QXN4ORIVF6XBW4WWFE7VNPVC74S45Y 
-│                        │      │                  ├ [147]: https://lists.fedoraproject.org/archives/list/
+│                        │      │                  ├ [146]: https://lists.fedoraproject.org/archives/list/
 │                        │      │                  │        package-announce%40lists.fedoraproject.org/message/
 │                        │      │                  │        X6QXN4ORIVF6XBW4WWFE7VNPVC74S45Y/ 
-│                        │      │                  ├ [148]: https://lists.fedoraproject.org/archives/list/
+│                        │      │                  ├ [147]: https://lists.fedoraproject.org/archives/list/
 │                        │      │                  │        package-announce%40lists.fedoraproject.org/message/
 │                        │      │                  │        XFOIBB4YFICHDM7IBOP7PWXW3FX4HLL2 
-│                        │      │                  ├ [149]: https://lists.fedoraproject.org/archives/list/
+│                        │      │                  ├ [148]: https://lists.fedoraproject.org/archives/list/
 │                        │      │                  │        package-announce%40lists.fedoraproject.org/message/
 │                        │      │                  │        XFOIBB4YFICHDM7IBOP7PWXW3FX4HLL2/ 
-│                        │      │                  ├ [150]: https://lists.fedoraproject.org/archives/list/
+│                        │      │                  ├ [149]: https://lists.fedoraproject.org/archives/list/
 │                        │      │                  │        package-announce%40lists.fedoraproject.org/message/
 │                        │      │                  │        ZB43REMKRQR62NJEI7I5NQ4FSXNLBKRT 
-│                        │      │                  ├ [151]: https://lists.fedoraproject.org/archives/list/
+│                        │      │                  ├ [150]: https://lists.fedoraproject.org/archives/list/
 │                        │      │                  │        package-announce%40lists.fedoraproject.org/message/
 │                        │      │                  │        ZB43REMKRQR62NJEI7I5NQ4FSXNLBKRT/ 
-│                        │      │                  ├ [152]: https://lists.fedoraproject.org/archives/list/
+│                        │      │                  ├ [151]: https://lists.fedoraproject.org/archives/list/
 │                        │      │                  │        package-announce%40lists.fedoraproject.org/message/
 │                        │      │                  │        ZKQSIKIAT5TJ3WSLU3RDBQ35YX4GY4V3 
-│                        │      │                  ├ [153]: https://lists.fedoraproject.org/archives/list/
+│                        │      │                  ├ [152]: https://lists.fedoraproject.org/archives/list/
 │                        │      │                  │        package-announce%40lists.fedoraproject.org/message/
 │                        │      │                  │        ZKQSIKIAT5TJ3WSLU3RDBQ35YX4GY4V3/ 
-│                        │      │                  ├ [154]: https://lists.fedoraproject.org/archives/list/
+│                        │      │                  ├ [153]: https://lists.fedoraproject.org/archives/list/
 │                        │      │                  │        package-announce%40lists.fedoraproject.org/message/
 │                        │      │                  │        ZLU6U2R2IC2K64NDPNMV55AUAO65MAF4 
-│                        │      │                  ├ [155]: https://lists.fedoraproject.org/archives/list/
+│                        │      │                  ├ [154]: https://lists.fedoraproject.org/archives/list/
 │                        │      │                  │        package-announce%40lists.fedoraproject.org/message/
 │                        │      │                  │        ZLU6U2R2IC2K64NDPNMV55AUAO65MAF4/ 
-│                        │      │                  ├ [156]: https://lists.fedoraproject.org/archives/list/
+│                        │      │                  ├ [155]: https://lists.fedoraproject.org/archives/list/
 │                        │      │                  │        package-announce@lists.fedoraproject.org/message/3N
 │                        │      │                  │        4NJ7FR4X4FPZUGNTQAPSTVB2HB2Y4A 
-│                        │      │                  ├ [157]: https://lists.fedoraproject.org/archives/list/
+│                        │      │                  ├ [156]: https://lists.fedoraproject.org/archives/list/
 │                        │      │                  │        package-announce@lists.fedoraproject.org/message/BF
 │                        │      │                  │        QD3KUEMFBHPAPBGLWQC34L4OWL5HAZ 
-│                        │      │                  ├ [158]: https://lists.fedoraproject.org/archives/list/
+│                        │      │                  ├ [157]: https://lists.fedoraproject.org/archives/list/
 │                        │      │                  │        package-announce@lists.fedoraproject.org/message/CL
 │                        │      │                  │        B4TW7KALB3EEQWNWCN7OUIWWVWWCG2 
-│                        │      │                  ├ [159]: https://lists.fedoraproject.org/archives/list/
+│                        │      │                  ├ [158]: https://lists.fedoraproject.org/archives/list/
 │                        │      │                  │        package-announce@lists.fedoraproject.org/message/E7
 │                        │      │                  │        2T67UPDRXHIDLO3OROR25YAMN4GGW5 
-│                        │      │                  ├ [160]: https://lists.fedoraproject.org/archives/list/
+│                        │      │                  ├ [159]: https://lists.fedoraproject.org/archives/list/
 │                        │      │                  │        package-announce@lists.fedoraproject.org/message/FN
 │                        │      │                  │        A62Q767CFAFHBCDKYNPBMZWB7TWYVU 
-│                        │      │                  ├ [161]: https://lists.fedoraproject.org/archives/list/
+│                        │      │                  ├ [160]: https://lists.fedoraproject.org/archives/list/
 │                        │      │                  │        package-announce@lists.fedoraproject.org/message/HT
 │                        │      │                  │        7T2R4MQKLIF4ODV4BDLPARWFPCJ5CZ 
-│                        │      │                  ├ [162]: https://lists.fedoraproject.org/archives/list/
+│                        │      │                  ├ [161]: https://lists.fedoraproject.org/archives/list/
 │                        │      │                  │        package-announce@lists.fedoraproject.org/message/JI
 │                        │      │                  │        ZSEFC3YKCGABA2BZW6ZJRMDZJMB7PJ 
-│                        │      │                  ├ [163]: https://lists.fedoraproject.org/archives/list/
+│                        │      │                  ├ [162]: https://lists.fedoraproject.org/archives/list/
 │                        │      │                  │        package-announce@lists.fedoraproject.org/message/JM
 │                        │      │                  │        EXY22BFG5Q64HQCM5CK2Q7KDKVV4TY 
-│                        │      │                  ├ [164]: https://lists.fedoraproject.org/archives/list/
+│                        │      │                  ├ [163]: https://lists.fedoraproject.org/archives/list/
 │                        │      │                  │        package-announce@lists.fedoraproject.org/message/KS
 │                        │      │                  │        EGD2IWKNUO3DWY4KQGUQM5BISRWHQE 
-│                        │      │                  ├ [165]: https://lists.fedoraproject.org/archives/list/
+│                        │      │                  ├ [164]: https://lists.fedoraproject.org/archives/list/
 │                        │      │                  │        package-announce@lists.fedoraproject.org/message/LK
 │                        │      │                  │        YHSZQFDNR7RSA7LHVLLIAQMVYCUGBG 
-│                        │      │                  ├ [166]: https://lists.fedoraproject.org/archives/list/
+│                        │      │                  ├ [165]: https://lists.fedoraproject.org/archives/list/
 │                        │      │                  │        package-announce@lists.fedoraproject.org/message/LN
 │                        │      │                  │        MZJCDHGLJJLXO4OXWJMTVQRNWOC7UL 
-│                        │      │                  ├ [167]: https://lists.fedoraproject.org/archives/list/
+│                        │      │                  ├ [166]: https://lists.fedoraproject.org/archives/list/
 │                        │      │                  │        package-announce@lists.fedoraproject.org/message/VH
 │                        │      │                  │        UHTSXLXGXS7JYKBXTA3VINUPHTNGVU 
-│                        │      │                  ├ [168]: https://lists.fedoraproject.org/archives/list/
+│                        │      │                  ├ [167]: https://lists.fedoraproject.org/archives/list/
 │                        │      │                  │        package-announce@lists.fedoraproject.org/message/VS
 │                        │      │                  │        RDIV77HNKUSM7SJC5BKE5JSHLHU2NK 
-│                        │      │                  ├ [169]: https://lists.fedoraproject.org/archives/list/
+│                        │      │                  ├ [168]: https://lists.fedoraproject.org/archives/list/
 │                        │      │                  │        package-announce@lists.fedoraproject.org/message/WL
 │                        │      │                  │        PRQ5TWUQQXYWBJM7ECYDAIL2YVKIUH 
-│                        │      │                  ├ [170]: https://lists.fedoraproject.org/archives/list/
+│                        │      │                  ├ [169]: https://lists.fedoraproject.org/archives/list/
 │                        │      │                  │        package-announce@lists.fedoraproject.org/message/X6
 │                        │      │                  │        QXN4ORIVF6XBW4WWFE7VNPVC74S45Y 
-│                        │      │                  ├ [171]: https://lists.fedoraproject.org/archives/list/
+│                        │      │                  ├ [170]: https://lists.fedoraproject.org/archives/list/
 │                        │      │                  │        package-announce@lists.fedoraproject.org/message/XF
 │                        │      │                  │        OIBB4YFICHDM7IBOP7PWXW3FX4HLL2 
-│                        │      │                  ├ [172]: https://lists.fedoraproject.org/archives/list/
+│                        │      │                  ├ [171]: https://lists.fedoraproject.org/archives/list/
 │                        │      │                  │        package-announce@lists.fedoraproject.org/message/ZB
 │                        │      │                  │        43REMKRQR62NJEI7I5NQ4FSXNLBKRT 
-│                        │      │                  ├ [173]: https://lists.fedoraproject.org/archives/list/
+│                        │      │                  ├ [172]: https://lists.fedoraproject.org/archives/list/
 │                        │      │                  │        package-announce@lists.fedoraproject.org/message/ZK
 │                        │      │                  │        QSIKIAT5TJ3WSLU3RDBQ35YX4GY4V3 
-│                        │      │                  ├ [174]: https://lists.fedoraproject.org/archives/list/
+│                        │      │                  ├ [173]: https://lists.fedoraproject.org/archives/list/
 │                        │      │                  │        package-announce@lists.fedoraproject.org/message/ZL
 │                        │      │                  │        U6U2R2IC2K64NDPNMV55AUAO65MAF4 
-│                        │      │                  ├ [175]: https://lists.w3.org/Archives/Public/ietf-http
+│                        │      │                  ├ [174]: https://lists.w3.org/Archives/Public/ietf-http
 │                        │      │                  │        -wg/2023OctDec/0025.html 
-│                        │      │                  ├ [176]: https://mailman.nginx.org/pipermail/nginx-deve
+│                        │      │                  ├ [175]: https://mailman.nginx.org/pipermail/nginx-deve
 │                        │      │                  │        l/2023-October/S36Q5HBXR7CAIMPLLPRSSSYR4PCMWILK.htm
 │                        │      │                  │        l 
-│                        │      │                  ├ [177]: https://martinthomson.github.io/h2-stream-limi
+│                        │      │                  ├ [176]: https://martinthomson.github.io/h2-stream-limi
 │                        │      │                  │        ts/draft-thomson-httpbis-h2-stream-limits.html[
 │                        │      │                  │        m 
-│                        │      │                  ├ [178]: https://msrc.microsoft.com/blog/2023/10/micros
+│                        │      │                  ├ [177]: https://msrc.microsoft.com/blog/2023/10/micros
 │                        │      │                  │        oft-response-to-distributed-denial-of-service-ddos-
 │                        │      │                  │        attacks-against-http/2 
-│                        │      │                  ├ [179]: https://msrc.microsoft.com/blog/2023/10/micros
+│                        │      │                  ├ [178]: https://msrc.microsoft.com/blog/2023/10/micros
 │                        │      │                  │        oft-response-to-distributed-denial-of-service-ddos-
 │                        │      │                  │        attacks-against-http/2/ 
-│                        │      │                  ├ [180]: https://msrc.microsoft.com/update-guide/vulner
+│                        │      │                  ├ [179]: https://msrc.microsoft.com/update-guide/vulner
 │                        │      │                  │        ability/CVE-2023-44487 
-│                        │      │                  ├ [181]: https://my.f5.com/manage/s/article/K000137106 
-│                        │      │                  ├ [182]: https://netty.io/news/2023/10/10/4-1-100-Final.html 
-│                        │      │                  ├ [183]: https://news.ycombinator.com/item?id=37830987 
-│                        │      │                  ├ [184]: https://news.ycombinator.com/item?id=37830998 
-│                        │      │                  ├ [185]: https://news.ycombinator.com/item?id=37831062 
-│                        │      │                  ├ [186]: https://news.ycombinator.com/item?id=37837043 
-│                        │      │                  ├ [187]: https://nodejs.org/en/blog/vulnerability/octob
+│                        │      │                  ├ [180]: https://my.f5.com/manage/s/article/K000137106 
+│                        │      │                  ├ [181]: https://netty.io/news/2023/10/10/4-1-100-Final.html 
+│                        │      │                  ├ [182]: https://news.ycombinator.com/item?id=37830987 
+│                        │      │                  ├ [183]: https://news.ycombinator.com/item?id=37830998 
+│                        │      │                  ├ [184]: https://news.ycombinator.com/item?id=37831062 
+│                        │      │                  ├ [185]: https://news.ycombinator.com/item?id=37837043 
+│                        │      │                  ├ [186]: https://nodejs.org/en/blog/vulnerability/octob
 │                        │      │                  │        er-2023-security-releases 
-│                        │      │                  ├ [188]: https://nvd.nist.gov/vuln/detail/CVE-2023-44487 
-│                        │      │                  ├ [189]: https://openssf.org/blog/2023/10/10/http-2-rap
+│                        │      │                  ├ [187]: https://nvd.nist.gov/vuln/detail/CVE-2023-44487 
+│                        │      │                  ├ [188]: https://openssf.org/blog/2023/10/10/http-2-rap
 │                        │      │                  │        id-reset-vulnerability-highlights-need-for-rapid-re
 │                        │      │                  │        sponse 
-│                        │      │                  ├ [190]: https://openssf.org/blog/2023/10/10/http-2-rap
+│                        │      │                  ├ [189]: https://openssf.org/blog/2023/10/10/http-2-rap
 │                        │      │                  │        id-reset-vulnerability-highlights-need-for-rapid-re
 │                        │      │                  │        sponse/ 
-│                        │      │                  ├ [191]: https://pkg.go.dev/vuln/GO-2023-2102 
-│                        │      │                  ├ [192]: https://seanmonstar.com/post/73079415113693593
+│                        │      │                  ├ [190]: https://pkg.go.dev/vuln/GO-2023-2102 
+│                        │      │                  ├ [191]: https://seanmonstar.com/post/73079415113693593
 │                        │      │                  │        6/hyper-http2-rapid-reset-unaffected 
-│                        │      │                  ├ [193]: https://security.gentoo.org/glsa/202311-09 
-│                        │      │                  ├ [194]: https://security.netapp.com/advisory/ntap-2023
+│                        │      │                  ├ [192]: https://security.gentoo.org/glsa/202311-09 
+│                        │      │                  ├ [193]: https://security.netapp.com/advisory/ntap-2023
 │                        │      │                  │        1016-0001 
-│                        │      │                  ├ [195]: https://security.netapp.com/advisory/ntap-2023
+│                        │      │                  ├ [194]: https://security.netapp.com/advisory/ntap-2023
 │                        │      │                  │        1016-0001/ 
-│                        │      │                  ├ [196]: https://security.netapp.com/advisory/ntap-2024
+│                        │      │                  ├ [195]: https://security.netapp.com/advisory/ntap-2024
 │                        │      │                  │        0426-0007 
-│                        │      │                  ├ [197]: https://security.netapp.com/advisory/ntap-2024
+│                        │      │                  ├ [196]: https://security.netapp.com/advisory/ntap-2024
 │                        │      │                  │        0426-0007/ 
-│                        │      │                  ├ [198]: https://security.netapp.com/advisory/ntap-2024
+│                        │      │                  ├ [197]: https://security.netapp.com/advisory/ntap-2024
 │                        │      │                  │        0621-0006 
-│                        │      │                  ├ [199]: https://security.netapp.com/advisory/ntap-2024
+│                        │      │                  ├ [198]: https://security.netapp.com/advisory/ntap-2024
 │                        │      │                  │        0621-0006/ 
-│                        │      │                  ├ [200]: https://security.netapp.com/advisory/ntap-2024
+│                        │      │                  ├ [199]: https://security.netapp.com/advisory/ntap-2024
 │                        │      │                  │        0621-0007 
-│                        │      │                  ├ [201]: https://security.netapp.com/advisory/ntap-2024
+│                        │      │                  ├ [200]: https://security.netapp.com/advisory/ntap-2024
 │                        │      │                  │        0621-0007/ 
-│                        │      │                  ├ [202]: https://security.paloaltonetworks.com/CVE-2023
+│                        │      │                  ├ [201]: https://security.paloaltonetworks.com/CVE-2023
 │                        │      │                  │        -44487 
-│                        │      │                  ├ [203]: https://tomcat.apache.org/security-10.html#Fix
+│                        │      │                  ├ [202]: https://tomcat.apache.org/security-10.html#Fix
 │                        │      │                  │        ed_in_Apache_Tomcat_10.1.14 
-│                        │      │                  ├ [204]: https://tomcat.apache.org/security-11.html#Fix
+│                        │      │                  ├ [203]: https://tomcat.apache.org/security-11.html#Fix
 │                        │      │                  │        ed_in_Apache_Tomcat_11.0.0-M12 
-│                        │      │                  ├ [205]: https://tomcat.apache.org/security-8.html#Fixe
+│                        │      │                  ├ [204]: https://tomcat.apache.org/security-8.html#Fixe
 │                        │      │                  │        d_in_Apache_Tomcat_8.5.94 
-│                        │      │                  ├ [206]: https://tomcat.apache.org/security-9.html#Fixe
+│                        │      │                  ├ [205]: https://tomcat.apache.org/security-9.html#Fixe
 │                        │      │                  │        d_in_Apache_Tomcat_9.0.81 
-│                        │      │                  ├ [207]: https://ubuntu.com/security/CVE-2023-44487 
-│                        │      │                  ├ [208]: https://ubuntu.com/security/notices/USN-6427-1 
-│                        │      │                  ├ [209]: https://ubuntu.com/security/notices/USN-6427-2 
-│                        │      │                  ├ [210]: https://ubuntu.com/security/notices/USN-6438-1 
-│                        │      │                  ├ [211]: https://ubuntu.com/security/notices/USN-6505-1 
-│                        │      │                  ├ [212]: https://ubuntu.com/security/notices/USN-6574-1 
-│                        │      │                  ├ [213]: https://ubuntu.com/security/notices/USN-6754-1 
-│                        │      │                  ├ [214]: https://www.bleepingcomputer.com/news/security
+│                        │      │                  ├ [206]: https://ubuntu.com/security/CVE-2023-44487 
+│                        │      │                  ├ [207]: https://ubuntu.com/security/notices/USN-6427-1 
+│                        │      │                  ├ [208]: https://ubuntu.com/security/notices/USN-6427-2 
+│                        │      │                  ├ [209]: https://ubuntu.com/security/notices/USN-6438-1 
+│                        │      │                  ├ [210]: https://ubuntu.com/security/notices/USN-6505-1 
+│                        │      │                  ├ [211]: https://ubuntu.com/security/notices/USN-6574-1 
+│                        │      │                  ├ [212]: https://ubuntu.com/security/notices/USN-6754-1 
+│                        │      │                  ├ [213]: https://www.bleepingcomputer.com/news/security
 │                        │      │                  │        /new-http-2-rapid-reset-zero-day-attack-breaks-ddos
 │                        │      │                  │        -records 
-│                        │      │                  ├ [215]: https://www.bleepingcomputer.com/news/security
+│                        │      │                  ├ [214]: https://www.bleepingcomputer.com/news/security
 │                        │      │                  │        /new-http-2-rapid-reset-zero-day-attack-breaks-ddos
 │                        │      │                  │        -records/ 
-│                        │      │                  ├ [216]: https://www.cisa.gov/news-events/alerts/2023/1
+│                        │      │                  ├ [215]: https://www.cisa.gov/news-events/alerts/2023/1
 │                        │      │                  │        0/10/http2-rapid-reset-vulnerability-cve-2023-44487
 │                        │      │                  │         
-│                        │      │                  ├ [217]: https://www.cve.org/CVERecord?id=CVE-2023-44487 
-│                        │      │                  ├ [218]: https://www.darkreading.com/cloud/internet-wid
+│                        │      │                  ├ [216]: https://www.cve.org/CVERecord?id=CVE-2023-44487 
+│                        │      │                  ├ [217]: https://www.darkreading.com/cloud/internet-wid
 │                        │      │                  │        e-zero-day-bug-fuels-largest-ever-ddos-event
 │                        │      │                  │        [m 
-│                        │      │                  ├ [219]: https://www.debian.org/security/2023/dsa-5521 
-│                        │      │                  ├ [220]: https://www.debian.org/security/2023/dsa-5522 
-│                        │      │                  ├ [221]: https://www.debian.org/security/2023/dsa-5540 
-│                        │      │                  ├ [222]: https://www.debian.org/security/2023/dsa-5549 
-│                        │      │                  ├ [223]: https://www.debian.org/security/2023/dsa-5558 
-│                        │      │                  ├ [224]: https://www.debian.org/security/2023/dsa-5570 
-│                        │      │                  ├ [225]: https://www.eclipse.org/lists/jetty-announce/m
+│                        │      │                  ├ [218]: https://www.debian.org/security/2023/dsa-5521 
+│                        │      │                  ├ [219]: https://www.debian.org/security/2023/dsa-5522 
+│                        │      │                  ├ [220]: https://www.debian.org/security/2023/dsa-5540 
+│                        │      │                  ├ [221]: https://www.debian.org/security/2023/dsa-5549 
+│                        │      │                  ├ [222]: https://www.debian.org/security/2023/dsa-5558 
+│                        │      │                  ├ [223]: https://www.debian.org/security/2023/dsa-5570 
+│                        │      │                  ├ [224]: https://www.eclipse.org/lists/jetty-announce/m
 │                        │      │                  │        sg00181.html 
-│                        │      │                  ├ [226]: https://www.haproxy.com/blog/haproxy-is-not-af
+│                        │      │                  ├ [225]: https://www.haproxy.com/blog/haproxy-is-not-af
 │                        │      │                  │        fected-by-the-http-2-rapid-reset-attack-cve-2023-44
 │                        │      │                  │        487 
-│                        │      │                  ├ [227]: https://www.mail-archive.com/haproxy@formilux.
+│                        │      │                  ├ [226]: https://www.mail-archive.com/haproxy@formilux.
 │                        │      │                  │        org/msg44134.html 
-│                        │      │                  ├ [228]: https://www.netlify.com/blog/netlify-successfu
+│                        │      │                  ├ [227]: https://www.netlify.com/blog/netlify-successfu
 │                        │      │                  │        lly-mitigates-cve-2023-44487 
-│                        │      │                  ├ [229]: https://www.netlify.com/blog/netlify-successfu
+│                        │      │                  ├ [228]: https://www.netlify.com/blog/netlify-successfu
 │                        │      │                  │        lly-mitigates-cve-2023-44487/ 
-│                        │      │                  ├ [230]: https://www.nginx.com/blog/http-2-rapid-reset-
+│                        │      │                  ├ [229]: https://www.nginx.com/blog/http-2-rapid-reset-
 │                        │      │                  │        attack-impacting-f5-nginx-products 
-│                        │      │                  ├ [231]: https://www.nginx.com/blog/http-2-rapid-reset-
+│                        │      │                  ├ [230]: https://www.nginx.com/blog/http-2-rapid-reset-
 │                        │      │                  │        attack-impacting-f5-nginx-products/ 
-│                        │      │                  ├ [232]: https://www.openwall.com/lists/oss-security/20
+│                        │      │                  ├ [231]: https://www.openwall.com/lists/oss-security/20
 │                        │      │                  │        23/10/10/6 
-│                        │      │                  ├ [233]: https://www.phoronix.com/news/HTTP2-Rapid-Rese
+│                        │      │                  ├ [232]: https://www.phoronix.com/news/HTTP2-Rapid-Rese
 │                        │      │                  │        t-Attack 
-│                        │      │                  ├ [234]: https://www.theregister.com/2023/10/10/http2_r
+│                        │      │                  ├ [233]: https://www.theregister.com/2023/10/10/http2_r
 │                        │      │                  │        apid_reset_zeroday 
-│                        │      │                  ╰ [235]: https://www.theregister.com/2023/10/10/http2_r
+│                        │      │                  ╰ [234]: https://www.theregister.com/2023/10/10/http2_r
 │                        │      │                           apid_reset_zeroday/ 
 │                        │      ├ PublishedDate   : 2023-10-10T14:15:10.883Z 
 │                        │      ╰ LastModifiedDate: 2024-06-27T18:34:22.11Z 
@@ -6830,7 +7514,7 @@
 │                        │      │                  │       /04/03/16 
 │                        │      │                  ├ [1] : http://www.openwall.com/lists/oss-security/2024
 │                        │      │                  │       /04/05/4 
-│                        │      │                  ├ [2] : https://access.redhat.com/errata/RHSA-2024:3346 
+│                        │      │                  ├ [2] : https://access.redhat.com/errata/RHSA-2024:2724 
 │                        │      │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2023
 │                        │      │                  │       -45288 
 │                        │      │                  ├ [4] : https://bugzilla.redhat.com/2268017 
@@ -6849,8 +7533,8 @@
 │                        │      │                  │       CVE-2023-45290 
 │                        │      │                  ├ [15]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                        │      │                  │       CVE-2024-24783 
-│                        │      │                  ├ [16]: https://errata.almalinux.org/8/ALSA-2024-3346.html 
-│                        │      │                  ├ [17]: https://errata.rockylinux.org/RLSA-2024:2724 
+│                        │      │                  ├ [16]: https://errata.almalinux.org/9/ALSA-2024-2724.html 
+│                        │      │                  ├ [17]: https://errata.rockylinux.org/RLSA-2024:3346 
 │                        │      │                  ├ [18]: https://go.dev/cl/576155 
 │                        │      │                  ├ [19]: https://go.dev/issue/65051 
 │                        │      │                  ├ [20]: https://groups.google.com/g/golang-announce/c/Y
@@ -6922,7 +7606,7 @@
 │                        │      │                            ╰ V3Score : 6.7 
 │                        │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2024
 │                        │      │                  │       /06/04/1 
-│                        │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2024:4237 
+│                        │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2024:4212 
 │                        │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2024
 │                        │      │                  │       -24790 
 │                        │      │                  ├ [3] : https://bugzilla.redhat.com/2292668 
@@ -6933,7 +7617,7 @@
 │                        │      │                  │       CVE-2024-24789 
 │                        │      │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                        │      │                  │       CVE-2024-24790 
-│                        │      │                  ├ [9] : https://errata.almalinux.org/8/ALSA-2024-4237.html 
+│                        │      │                  ├ [9] : https://errata.almalinux.org/9/ALSA-2024-4212.html 
 │                        │      │                  ├ [10]: https://errata.rockylinux.org/RLSA-2024:4212 
 │                        │      │                  ├ [11]: https://github.com/golang/go/commit/051bdf3fd12
 │                        │      │                  │       a40307606ff9381138039c5f452f0 (1.21) 
@@ -7018,7 +7702,7 @@
 │                        │      │                            │           C:N/I:N/A:H 
 │                        │      │                            ╰ V3Score : 7.5 
 │                        │      ├ References       ╭ [0]  : golang.org/x/net 
-│                        │      │                  ├ [1]  : https://access.redhat.com/errata/RHSA-2023:5863 
+│                        │      │                  ├ [1]  : https://access.redhat.com/errata/RHSA-2023:6077 
 │                        │      │                  ├ [2]  : https://access.redhat.com/security/cve/CVE-202
 │                        │      │                  │        3-39325 
 │                        │      │                  ├ [3]  : https://access.redhat.com/security/cve/CVE-202
@@ -7033,8 +7717,8 @@
 │                        │      │                  │        =CVE-2023-39325 
 │                        │      │                  ├ [10] : https://cve.mitre.org/cgi-bin/cvename.cgi?name
 │                        │      │                  │        =CVE-2023-44487 
-│                        │      │                  ├ [11] : https://errata.almalinux.org/8/ALSA-2023-5863.html 
-│                        │      │                  ├ [12] : https://errata.rockylinux.org/RLSA-2023:6077 
+│                        │      │                  ├ [11] : https://errata.almalinux.org/9/ALSA-2023-6077.html 
+│                        │      │                  ├ [12] : https://errata.rockylinux.org/RLSA-2023:5863 
 │                        │      │                  ├ [13] : https://github.com/golang/go/commit/24ae2d9272
 │                        │      │                  │        85c697440fdde3ad7f26028354bcf3 [golang-
 │                        │      │                  │        1.21] 
@@ -7399,7 +8083,7 @@
 │                        │      │                  │       /04/03/16 
 │                        │      │                  ├ [1] : http://www.openwall.com/lists/oss-security/2024
 │                        │      │                  │       /04/05/4 
-│                        │      │                  ├ [2] : https://access.redhat.com/errata/RHSA-2024:3346 
+│                        │      │                  ├ [2] : https://access.redhat.com/errata/RHSA-2024:2724 
 │                        │      │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2023
 │                        │      │                  │       -45288 
 │                        │      │                  ├ [4] : https://bugzilla.redhat.com/2268017 
@@ -7418,8 +8102,8 @@
 │                        │      │                  │       CVE-2023-45290 
 │                        │      │                  ├ [15]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                        │      │                  │       CVE-2024-24783 
-│                        │      │                  ├ [16]: https://errata.almalinux.org/8/ALSA-2024-3346.html 
-│                        │      │                  ├ [17]: https://errata.rockylinux.org/RLSA-2024:2724 
+│                        │      │                  ├ [16]: https://errata.almalinux.org/9/ALSA-2024-2724.html 
+│                        │      │                  ├ [17]: https://errata.rockylinux.org/RLSA-2024:3346 
 │                        │      │                  ├ [18]: https://go.dev/cl/576155 
 │                        │      │                  ├ [19]: https://go.dev/issue/65051 
 │                        │      │                  ├ [20]: https://groups.google.com/g/golang-announce/c/Y
@@ -7490,28 +8174,40 @@
 │                        │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/
 │                        │      │                            │           C:N/I:H/A:N 
 │                        │      │                            ╰ V3Score : 6.5 
-│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:7202 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:6474 
 │                        │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023
 │                        │      │                  │       -29406 
-│                        │      │                  ├ [2] : https://bugzilla.redhat.com/2222167 
-│                        │      │                  ├ [3] : https://errata.almalinux.org/8/ALSA-2023-7202.html 
-│                        │      │                  ├ [4] : https://github.com/golang/go/commit/312920c00aa
+│                        │      │                  ├ [2] : https://bugzilla.redhat.com/2174485 
+│                        │      │                  ├ [3] : https://bugzilla.redhat.com/2178358 
+│                        │      │                  ├ [4] : https://bugzilla.redhat.com/2178488 
+│                        │      │                  ├ [5] : https://bugzilla.redhat.com/2178492 
+│                        │      │                  ├ [6] : https://bugzilla.redhat.com/2184481 
+│                        │      │                  ├ [7] : https://bugzilla.redhat.com/2184482 
+│                        │      │                  ├ [8] : https://bugzilla.redhat.com/2184483 
+│                        │      │                  ├ [9] : https://bugzilla.redhat.com/2184484 
+│                        │      │                  ├ [10]: https://bugzilla.redhat.com/2196026 
+│                        │      │                  ├ [11]: https://bugzilla.redhat.com/2196027 
+│                        │      │                  ├ [12]: https://bugzilla.redhat.com/2196029 
+│                        │      │                  ├ [13]: https://bugzilla.redhat.com/2222167 
+│                        │      │                  ├ [14]: https://bugzilla.redhat.com/2228689 
+│                        │      │                  ├ [15]: https://errata.almalinux.org/9/ALSA-2023-6474.html 
+│                        │      │                  ├ [16]: https://github.com/golang/go/commit/312920c00aa
 │                        │      │                  │       c9897b2a0693e752390b5b0711a5a (go1.20.6) 
-│                        │      │                  ├ [5] : https://github.com/golang/go/commit/5fa6923b1ea
+│                        │      │                  ├ [17]: https://github.com/golang/go/commit/5fa6923b1ea
 │                        │      │                  │       891400153d04ddf1545e23b40041b (go1.19.11) 
-│                        │      │                  ├ [6] : https://github.com/golang/go/issues/60374 
-│                        │      │                  ├ [7] : https://go.dev/cl/506996 
-│                        │      │                  ├ [8] : https://go.dev/issue/60374 
-│                        │      │                  ├ [9] : https://groups.google.com/g/golang-announce/c/2
+│                        │      │                  ├ [18]: https://github.com/golang/go/issues/60374 
+│                        │      │                  ├ [19]: https://go.dev/cl/506996 
+│                        │      │                  ├ [20]: https://go.dev/issue/60374 
+│                        │      │                  ├ [21]: https://groups.google.com/g/golang-announce/c/2
 │                        │      │                  │       q13H6LEEx0 
-│                        │      │                  ├ [10]: https://linux.oracle.com/cve/CVE-2023-29406.html 
-│                        │      │                  ├ [11]: https://linux.oracle.com/errata/ELSA-2023-7202.html 
-│                        │      │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2023-29406 
-│                        │      │                  ├ [13]: https://pkg.go.dev/vuln/GO-2023-1878 
-│                        │      │                  ├ [14]: https://security.gentoo.org/glsa/202311-09 
-│                        │      │                  ├ [15]: https://security.netapp.com/advisory/ntap-20230
+│                        │      │                  ├ [22]: https://linux.oracle.com/cve/CVE-2023-29406.html 
+│                        │      │                  ├ [23]: https://linux.oracle.com/errata/ELSA-2023-7202.html 
+│                        │      │                  ├ [24]: https://nvd.nist.gov/vuln/detail/CVE-2023-29406 
+│                        │      │                  ├ [25]: https://pkg.go.dev/vuln/GO-2023-1878 
+│                        │      │                  ├ [26]: https://security.gentoo.org/glsa/202311-09 
+│                        │      │                  ├ [27]: https://security.netapp.com/advisory/ntap-20230
 │                        │      │                  │       814-0002/ 
-│                        │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2023-29406 
+│                        │      │                  ╰ [28]: https://www.cve.org/CVERecord?id=CVE-2023-29406 
 │                        │      ├ PublishedDate   : 2023-07-11T20:15:10.643Z 
 │                        │      ╰ LastModifiedDate: 2023-11-25T11:15:14.727Z 
 │                        ├ [9]  ╭ VulnerabilityID : CVE-2023-29409 
@@ -7564,31 +8260,27 @@
 │                        │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/
 │                        │      │                            │           C:N/I:N/A:L 
 │                        │      │                            ╰ V3Score : 5.3 
-│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:0121 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:7766 
 │                        │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023
 │                        │      │                  │       -29409 
-│                        │      │                  ├ [2] : https://bugzilla.redhat.com/2124669 
-│                        │      │                  ├ [3] : https://bugzilla.redhat.com/2132867 
-│                        │      │                  ├ [4] : https://bugzilla.redhat.com/2132868 
-│                        │      │                  ├ [5] : https://bugzilla.redhat.com/2132872 
-│                        │      │                  ├ [6] : https://bugzilla.redhat.com/2228743 
-│                        │      │                  ├ [7] : https://bugzilla.redhat.com/2237773 
-│                        │      │                  ├ [8] : https://bugzilla.redhat.com/2237776 
-│                        │      │                  ├ [9] : https://bugzilla.redhat.com/2237777 
-│                        │      │                  ├ [10]: https://bugzilla.redhat.com/2237778 
-│                        │      │                  ├ [11]: https://errata.almalinux.org/8/ALSA-2024-0121.html 
-│                        │      │                  ├ [12]: https://go.dev/cl/515257 
-│                        │      │                  ├ [13]: https://go.dev/issue/61460 
-│                        │      │                  ├ [14]: https://groups.google.com/g/golang-announce/c/X
+│                        │      │                  ├ [2] : https://bugzilla.redhat.com/2228743 
+│                        │      │                  ├ [3] : https://bugzilla.redhat.com/2237773 
+│                        │      │                  ├ [4] : https://bugzilla.redhat.com/2237776 
+│                        │      │                  ├ [5] : https://bugzilla.redhat.com/2237777 
+│                        │      │                  ├ [6] : https://bugzilla.redhat.com/2237778 
+│                        │      │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2023-7766.html 
+│                        │      │                  ├ [8] : https://go.dev/cl/515257 
+│                        │      │                  ├ [9] : https://go.dev/issue/61460 
+│                        │      │                  ├ [10]: https://groups.google.com/g/golang-announce/c/X
 │                        │      │                  │       0b6CsSAaYI/m/Efv5DbZ9AwAJ 
-│                        │      │                  ├ [15]: https://linux.oracle.com/cve/CVE-2023-29409.html 
-│                        │      │                  ├ [16]: https://linux.oracle.com/errata/ELSA-2024-2988.html 
-│                        │      │                  ├ [17]: https://nvd.nist.gov/vuln/detail/CVE-2023-29409 
-│                        │      │                  ├ [18]: https://pkg.go.dev/vuln/GO-2023-1987 
-│                        │      │                  ├ [19]: https://security.gentoo.org/glsa/202311-09 
-│                        │      │                  ├ [20]: https://security.netapp.com/advisory/ntap-20230
+│                        │      │                  ├ [11]: https://linux.oracle.com/cve/CVE-2023-29409.html 
+│                        │      │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2024-2988.html 
+│                        │      │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2023-29409 
+│                        │      │                  ├ [14]: https://pkg.go.dev/vuln/GO-2023-1987 
+│                        │      │                  ├ [15]: https://security.gentoo.org/glsa/202311-09 
+│                        │      │                  ├ [16]: https://security.netapp.com/advisory/ntap-20230
 │                        │      │                  │       831-0010/ 
-│                        │      │                  ╰ [21]: https://www.cve.org/CVERecord?id=CVE-2023-29409 
+│                        │      │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2023-29409 
 │                        │      ├ PublishedDate   : 2023-08-02T20:15:11.94Z 
 │                        │      ╰ LastModifiedDate: 2023-11-25T11:15:14.87Z 
 │                        ├ [10] ╭ VulnerabilityID : CVE-2023-39318 
@@ -7636,39 +8328,33 @@
 │                        │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/
 │                        │      │                            │           C:L/I:L/A:N 
 │                        │      │                            ╰ V3Score : 6.1 
-│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:0121 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:2160 
 │                        │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023
 │                        │      │                  │       -39318 
-│                        │      │                  ├ [2] : https://bugzilla.redhat.com/2124669 
-│                        │      │                  ├ [3] : https://bugzilla.redhat.com/2132867 
-│                        │      │                  ├ [4] : https://bugzilla.redhat.com/2132868 
-│                        │      │                  ├ [5] : https://bugzilla.redhat.com/2132872 
-│                        │      │                  ├ [6] : https://bugzilla.redhat.com/2228743 
-│                        │      │                  ├ [7] : https://bugzilla.redhat.com/2237773 
-│                        │      │                  ├ [8] : https://bugzilla.redhat.com/2237776 
-│                        │      │                  ├ [9] : https://bugzilla.redhat.com/2237777 
-│                        │      │                  ├ [10]: https://bugzilla.redhat.com/2237778 
-│                        │      │                  ├ [11]: https://errata.almalinux.org/8/ALSA-2024-0121.html 
-│                        │      │                  ├ [12]: https://github.com/golang/go/commit/023b542edf3
+│                        │      │                  ├ [2] : https://bugzilla.redhat.com/2237773 
+│                        │      │                  ├ [3] : https://bugzilla.redhat.com/2237776 
+│                        │      │                  ├ [4] : https://bugzilla.redhat.com/2253330 
+│                        │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2024-2160.html 
+│                        │      │                  ├ [6] : https://github.com/golang/go/commit/023b542edf3
 │                        │      │                  │       8e2a1f87fcefb9f75ff2f99401b4c (go1.20.8) 
-│                        │      │                  ├ [13]: https://github.com/golang/go/commit/b0e1d3ea26e
+│                        │      │                  ├ [7] : https://github.com/golang/go/commit/b0e1d3ea26e
 │                        │      │                  │       8e8fce7726690c9ef0597e60739fb (go1.21.1) 
-│                        │      │                  ├ [14]: https://go.dev/cl/526156 
-│                        │      │                  ├ [15]: https://go.dev/issue/62196 
-│                        │      │                  ├ [16]: https://groups.google.com/g/golang-announce/c/F
+│                        │      │                  ├ [8] : https://go.dev/cl/526156 
+│                        │      │                  ├ [9] : https://go.dev/issue/62196 
+│                        │      │                  ├ [10]: https://groups.google.com/g/golang-announce/c/F
 │                        │      │                  │       m51GRLNRvM 
-│                        │      │                  ├ [17]: https://groups.google.com/g/golang-dev/c/2C5vbR
+│                        │      │                  ├ [11]: https://groups.google.com/g/golang-dev/c/2C5vbR
 │                        │      │                  │       -UNkI/m/L1hdrPhfBAAJ 
-│                        │      │                  ├ [18]: https://linux.oracle.com/cve/CVE-2023-39318.html 
-│                        │      │                  ├ [19]: https://linux.oracle.com/errata/ELSA-2024-2988.html 
-│                        │      │                  ├ [20]: https://nvd.nist.gov/vuln/detail/CVE-2023-39318 
-│                        │      │                  ├ [21]: https://pkg.go.dev/vuln/GO-2023-2041 
-│                        │      │                  ├ [22]: https://security.gentoo.org/glsa/202311-09 
-│                        │      │                  ├ [23]: https://security.netapp.com/advisory/ntap-20231
+│                        │      │                  ├ [12]: https://linux.oracle.com/cve/CVE-2023-39318.html 
+│                        │      │                  ├ [13]: https://linux.oracle.com/errata/ELSA-2024-2988.html 
+│                        │      │                  ├ [14]: https://nvd.nist.gov/vuln/detail/CVE-2023-39318 
+│                        │      │                  ├ [15]: https://pkg.go.dev/vuln/GO-2023-2041 
+│                        │      │                  ├ [16]: https://security.gentoo.org/glsa/202311-09 
+│                        │      │                  ├ [17]: https://security.netapp.com/advisory/ntap-20231
 │                        │      │                  │       020-0009/ 
-│                        │      │                  ├ [24]: https://ubuntu.com/security/notices/USN-6574-1 
-│                        │      │                  ├ [25]: https://vuln.go.dev/ID/GO-2023-2041.json 
-│                        │      │                  ╰ [26]: https://www.cve.org/CVERecord?id=CVE-2023-39318 
+│                        │      │                  ├ [18]: https://ubuntu.com/security/notices/USN-6574-1 
+│                        │      │                  ├ [19]: https://vuln.go.dev/ID/GO-2023-2041.json 
+│                        │      │                  ╰ [20]: https://www.cve.org/CVERecord?id=CVE-2023-39318 
 │                        │      ├ PublishedDate   : 2023-09-08T17:15:27.823Z 
 │                        │      ╰ LastModifiedDate: 2023-11-25T11:15:17.43Z 
 │                        ├ [11] ╭ VulnerabilityID : CVE-2023-39319 
@@ -7699,7 +8385,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
@@ -7717,39 +8403,33 @@
 │                        │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/
 │                        │      │                            │           C:L/I:L/A:N 
 │                        │      │                            ╰ V3Score : 6.1 
-│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:0121 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:2160 
 │                        │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023
 │                        │      │                  │       -39319 
-│                        │      │                  ├ [2] : https://bugzilla.redhat.com/2124669 
-│                        │      │                  ├ [3] : https://bugzilla.redhat.com/2132867 
-│                        │      │                  ├ [4] : https://bugzilla.redhat.com/2132868 
-│                        │      │                  ├ [5] : https://bugzilla.redhat.com/2132872 
-│                        │      │                  ├ [6] : https://bugzilla.redhat.com/2228743 
-│                        │      │                  ├ [7] : https://bugzilla.redhat.com/2237773 
-│                        │      │                  ├ [8] : https://bugzilla.redhat.com/2237776 
-│                        │      │                  ├ [9] : https://bugzilla.redhat.com/2237777 
-│                        │      │                  ├ [10]: https://bugzilla.redhat.com/2237778 
-│                        │      │                  ├ [11]: https://errata.almalinux.org/8/ALSA-2024-0121.html 
-│                        │      │                  ├ [12]: https://github.com/golang/go/commit/2070531d2f5
+│                        │      │                  ├ [2] : https://bugzilla.redhat.com/2237773 
+│                        │      │                  ├ [3] : https://bugzilla.redhat.com/2237776 
+│                        │      │                  ├ [4] : https://bugzilla.redhat.com/2253330 
+│                        │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2024-2160.html 
+│                        │      │                  ├ [6] : https://github.com/golang/go/commit/2070531d2f5
 │                        │      │                  │       3df88e312edace6c8dfc9686ab2f5 (go1.20.8) 
-│                        │      │                  ├ [13]: https://github.com/golang/go/commit/bbd043ff0d6
+│                        │      │                  ├ [7] : https://github.com/golang/go/commit/bbd043ff0d6
 │                        │      │                  │       d59f1a9232d31ecd5eacf6507bf6a (go1.21.1) 
-│                        │      │                  ├ [14]: https://go.dev/cl/526157 
-│                        │      │                  ├ [15]: https://go.dev/issue/62197 
-│                        │      │                  ├ [16]: https://groups.google.com/g/golang-announce/c/F
+│                        │      │                  ├ [8] : https://go.dev/cl/526157 
+│                        │      │                  ├ [9] : https://go.dev/issue/62197 
+│                        │      │                  ├ [10]: https://groups.google.com/g/golang-announce/c/F
 │                        │      │                  │       m51GRLNRvM 
-│                        │      │                  ├ [17]: https://groups.google.com/g/golang-dev/c/2C5vbR
+│                        │      │                  ├ [11]: https://groups.google.com/g/golang-dev/c/2C5vbR
 │                        │      │                  │       -UNkI/m/L1hdrPhfBAAJ 
-│                        │      │                  ├ [18]: https://linux.oracle.com/cve/CVE-2023-39319.html 
-│                        │      │                  ├ [19]: https://linux.oracle.com/errata/ELSA-2024-2988.html 
-│                        │      │                  ├ [20]: https://nvd.nist.gov/vuln/detail/CVE-2023-39319 
-│                        │      │                  ├ [21]: https://pkg.go.dev/vuln/GO-2023-2043 
-│                        │      │                  ├ [22]: https://security.gentoo.org/glsa/202311-09 
-│                        │      │                  ├ [23]: https://security.netapp.com/advisory/ntap-20231
+│                        │      │                  ├ [12]: https://linux.oracle.com/cve/CVE-2023-39319.html 
+│                        │      │                  ├ [13]: https://linux.oracle.com/errata/ELSA-2024-2988.html 
+│                        │      │                  ├ [14]: https://nvd.nist.gov/vuln/detail/CVE-2023-39319 
+│                        │      │                  ├ [15]: https://pkg.go.dev/vuln/GO-2023-2043 
+│                        │      │                  ├ [16]: https://security.gentoo.org/glsa/202311-09 
+│                        │      │                  ├ [17]: https://security.netapp.com/advisory/ntap-20231
 │                        │      │                  │       020-0009/ 
-│                        │      │                  ├ [24]: https://ubuntu.com/security/notices/USN-6574-1 
-│                        │      │                  ├ [25]: https://vuln.go.dev/ID/GO-2023-2043.json 
-│                        │      │                  ╰ [26]: https://www.cve.org/CVERecord?id=CVE-2023-39319 
+│                        │      │                  ├ [18]: https://ubuntu.com/security/notices/USN-6574-1 
+│                        │      │                  ├ [19]: https://vuln.go.dev/ID/GO-2023-2043.json 
+│                        │      │                  ╰ [20]: https://www.cve.org/CVERecord?id=CVE-2023-39319 
 │                        │      ├ PublishedDate   : 2023-09-08T17:15:27.91Z 
 │                        │      ╰ LastModifiedDate: 2023-11-25T11:15:17.543Z 
 │                        ├ [12] ╭ VulnerabilityID : CVE-2023-39326 
@@ -7786,7 +8466,7 @@
 │                        │      │                   encoded bytes grows too small. 
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ nvd        : 2 
@@ -7803,12 +8483,12 @@
 │                        │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/
 │                        │      │                            │           C:L/I:N/A:N 
 │                        │      │                            ╰ V3Score : 5.3 
-│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:0887 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:2272 
 │                        │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023
 │                        │      │                  │       -39326 
-│                        │      │                  ├ [2] : https://bugzilla.redhat.com/2253323 
+│                        │      │                  ├ [2] : https://bugzilla.redhat.com/2253193 
 │                        │      │                  ├ [3] : https://bugzilla.redhat.com/2253330 
-│                        │      │                  ├ [4] : https://errata.almalinux.org/8/ALSA-2024-0887.html 
+│                        │      │                  ├ [4] : https://errata.almalinux.org/9/ALSA-2024-2272.html 
 │                        │      │                  ├ [5] : https://github.com/golang/go/commit/6446af942e2
 │                        │      │                  │       e2b161c4ec1b60d9703a2b55dc4dd (go1.20.12) 
 │                        │      │                  ├ [6] : https://github.com/golang/go/commit/ec8c526e4be
@@ -7910,7 +8590,7 @@
 │                        │      │                           ╰ V3Score : 5.3 
 │                        │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2024
 │                        │      │                  │       /03/08/4 
-│                        │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2024:3346 
+│                        │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2024:2724 
 │                        │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2023
 │                        │      │                  │       -45289 
 │                        │      │                  ├ [3] : https://bugzilla.redhat.com/2268017 
@@ -7929,8 +8609,8 @@
 │                        │      │                  │       CVE-2023-45290 
 │                        │      │                  ├ [14]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                        │      │                  │       CVE-2024-24783 
-│                        │      │                  ├ [15]: https://errata.almalinux.org/8/ALSA-2024-3346.html 
-│                        │      │                  ├ [16]: https://errata.rockylinux.org/RLSA-2024:2724 
+│                        │      │                  ├ [15]: https://errata.almalinux.org/9/ALSA-2024-2724.html 
+│                        │      │                  ├ [16]: https://errata.rockylinux.org/RLSA-2024:3346 
 │                        │      │                  ├ [17]: https://github.com/golang/go/commit/20586c0dbe0
 │                        │      │                  │       3d144f914155f879fa5ee287591a1 (go1.21.8) 
 │                        │      │                  ├ [18]: https://github.com/golang/go/commit/3a855208e3e
@@ -7979,49 +8659,55 @@
 │                        │      │                   function now correctly limits the maximum size of form
 │                        │      │                   lines. 
 │                        │      ├ Severity        : MEDIUM 
-│                        │      ├ VendorSeverity   ╭ alma       : 3 
+│                        │      ├ VendorSeverity   ╭ alma       : 2 
 │                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ oracle-oval: 2 
 │                        │      │                  ├ redhat     : 2 
-│                        │      │                  ├ rocky      : 2 
+│                        │      │                  ├ rocky      : 3 
 │                        │      │                  ╰ ubuntu     : 2 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
 │                        │      │                           │           :N/I:N/A:L 
 │                        │      │                           ╰ V3Score : 5.3 
 │                        │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2024
 │                        │      │                  │       /03/08/4 
-│                        │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2024:3346 
+│                        │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2024:3831 
 │                        │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2023
 │                        │      │                  │       -45290 
 │                        │      │                  ├ [3] : https://bugzilla.redhat.com/2268017 
-│                        │      │                  ├ [4] : https://bugzilla.redhat.com/2268018 
-│                        │      │                  ├ [5] : https://bugzilla.redhat.com/2268019 
-│                        │      │                  ├ [6] : https://bugzilla.redhat.com/2268273 
-│                        │      │                  ├ [7] : https://bugzilla.redhat.com/show_bug.cgi?id=2268017 
+│                        │      │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2268017 
+│                        │      │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2268018 
+│                        │      │                  ├ [6] : https://bugzilla.redhat.com/show_bug.cgi?id=2268019 
+│                        │      │                  ├ [7] : https://bugzilla.redhat.com/show_bug.cgi?id=2268273 
 │                        │      │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │      │                  │       CVE-2023-45288 
+│                        │      │                  ├ [9] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │      │                  │       CVE-2023-45289 
+│                        │      │                  ├ [10]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                        │      │                  │       CVE-2023-45290 
-│                        │      │                  ├ [9] : https://errata.almalinux.org/8/ALSA-2024-3346.html 
-│                        │      │                  ├ [10]: https://errata.rockylinux.org/RLSA-2024:3830 
-│                        │      │                  ├ [11]: https://github.com/golang/go/commit/041a47712e7
+│                        │      │                  ├ [11]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │      │                  │       CVE-2024-24783 
+│                        │      │                  ├ [12]: https://errata.almalinux.org/9/ALSA-2024-3831.html 
+│                        │      │                  ├ [13]: https://errata.rockylinux.org/RLSA-2024:3346 
+│                        │      │                  ├ [14]: https://github.com/golang/go/commit/041a47712e7
 │                        │      │                  │       65e94f86d841c3110c840e76d8f82 (go1.22.1) 
-│                        │      │                  ├ [12]: https://github.com/golang/go/commit/bf80213b121
+│                        │      │                  ├ [15]: https://github.com/golang/go/commit/bf80213b121
 │                        │      │                  │       074f4ad9b449410a4d13bae5e9be0 (go1.21.8) 
-│                        │      │                  ├ [13]: https://github.com/golang/go/issues/65383 
-│                        │      │                  ├ [14]: https://go.dev/cl/569341 
-│                        │      │                  ├ [15]: https://go.dev/issue/65383 
-│                        │      │                  ├ [16]: https://groups.google.com/g/golang-announce/c/5
+│                        │      │                  ├ [16]: https://github.com/golang/go/issues/65383 
+│                        │      │                  ├ [17]: https://go.dev/cl/569341 
+│                        │      │                  ├ [18]: https://go.dev/issue/65383 
+│                        │      │                  ├ [19]: https://groups.google.com/g/golang-announce/c/5
 │                        │      │                  │       pwGVUPoMbg 
-│                        │      │                  ├ [17]: https://linux.oracle.com/cve/CVE-2023-45290.html 
-│                        │      │                  ├ [18]: https://linux.oracle.com/errata/ELSA-2024-3831.html 
-│                        │      │                  ├ [19]: https://nvd.nist.gov/vuln/detail/CVE-2023-45290 
-│                        │      │                  ├ [20]: https://pkg.go.dev/vuln/GO-2024-2599 
-│                        │      │                  ├ [21]: https://security.netapp.com/advisory/ntap-20240
+│                        │      │                  ├ [20]: https://linux.oracle.com/cve/CVE-2023-45290.html 
+│                        │      │                  ├ [21]: https://linux.oracle.com/errata/ELSA-2024-3831.html 
+│                        │      │                  ├ [22]: https://nvd.nist.gov/vuln/detail/CVE-2023-45290 
+│                        │      │                  ├ [23]: https://pkg.go.dev/vuln/GO-2024-2599 
+│                        │      │                  ├ [24]: https://security.netapp.com/advisory/ntap-20240
 │                        │      │                  │       329-0004 
-│                        │      │                  ├ [22]: https://security.netapp.com/advisory/ntap-20240
+│                        │      │                  ├ [25]: https://security.netapp.com/advisory/ntap-20240
 │                        │      │                  │       329-0004/ 
-│                        │      │                  ├ [23]: https://ubuntu.com/security/notices/USN-6886-1 
-│                        │      │                  ╰ [24]: https://www.cve.org/CVERecord?id=CVE-2023-45290 
+│                        │      │                  ├ [26]: https://ubuntu.com/security/notices/USN-6886-1 
+│                        │      │                  ╰ [27]: https://www.cve.org/CVERecord?id=CVE-2023-45290 
 │                        │      ├ PublishedDate   : 2024-03-05T23:15:07.21Z 
 │                        │      ╰ LastModifiedDate: 2024-05-01T17:15:26.04Z 
 │                        ├ [16] ╭ VulnerabilityID : CVE-2024-24783 
@@ -8061,7 +8747,7 @@
 │                        │      │                           ╰ V3Score : 5.9 
 │                        │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2024
 │                        │      │                  │       /03/08/4 
-│                        │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2024:3346 
+│                        │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2024:2724 
 │                        │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2024
 │                        │      │                  │       -24783 
 │                        │      │                  ├ [3] : https://bugzilla.redhat.com/2268017 
@@ -8080,8 +8766,8 @@
 │                        │      │                  │       CVE-2023-45290 
 │                        │      │                  ├ [14]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                        │      │                  │       CVE-2024-24783 
-│                        │      │                  ├ [15]: https://errata.almalinux.org/8/ALSA-2024-3346.html 
-│                        │      │                  ├ [16]: https://errata.rockylinux.org/RLSA-2024:2724 
+│                        │      │                  ├ [15]: https://errata.almalinux.org/9/ALSA-2024-2724.html 
+│                        │      │                  ├ [16]: https://errata.rockylinux.org/RLSA-2024:3346 
 │                        │      │                  ├ [17]: https://github.com/advisories/GHSA-3q2c-pvp5-3cqp 
 │                        │      │                  ├ [18]: https://github.com/golang/go/commit/337b8e9cbfa
 │                        │      │                  │       749d9d5c899e0dc358e2208d5e54f (go1.22.1) 
@@ -8139,55 +8825,56 @@
 │                        │      │                           ╰ V3Score : 5.4 
 │                        │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2024
 │                        │      │                  │       /03/08/4 
-│                        │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2024:3259 
+│                        │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2024:2562 
 │                        │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2024
 │                        │      │                  │       -24784 
-│                        │      │                  ├ [3] : https://bugzilla.redhat.com/2268017 
-│                        │      │                  ├ [4] : https://bugzilla.redhat.com/2268018 
-│                        │      │                  ├ [5] : https://bugzilla.redhat.com/2268019 
-│                        │      │                  ├ [6] : https://bugzilla.redhat.com/2268021 
-│                        │      │                  ├ [7] : https://bugzilla.redhat.com/2268022 
-│                        │      │                  ├ [8] : https://bugzilla.redhat.com/2268273 
-│                        │      │                  ├ [9] : https://bugzilla.redhat.com/show_bug.cgi?id=2262921 
-│                        │      │                  ├ [10]: https://bugzilla.redhat.com/show_bug.cgi?id=2268017 
-│                        │      │                  ├ [11]: https://bugzilla.redhat.com/show_bug.cgi?id=2268018 
-│                        │      │                  ├ [12]: https://bugzilla.redhat.com/show_bug.cgi?id=2268019 
-│                        │      │                  ├ [13]: https://bugzilla.redhat.com/show_bug.cgi?id=2268021 
-│                        │      │                  ├ [14]: https://bugzilla.redhat.com/show_bug.cgi?id=2268022 
-│                        │      │                  ├ [15]: https://bugzilla.redhat.com/show_bug.cgi?id=2268273 
-│                        │      │                  ├ [16]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
-│                        │      │                  │       CVE-2023-45288 
+│                        │      │                  ├ [3] : https://bugzilla.redhat.com/2262921 
+│                        │      │                  ├ [4] : https://bugzilla.redhat.com/2268017 
+│                        │      │                  ├ [5] : https://bugzilla.redhat.com/2268018 
+│                        │      │                  ├ [6] : https://bugzilla.redhat.com/2268019 
+│                        │      │                  ├ [7] : https://bugzilla.redhat.com/2268021 
+│                        │      │                  ├ [8] : https://bugzilla.redhat.com/2268022 
+│                        │      │                  ├ [9] : https://bugzilla.redhat.com/2268273 
+│                        │      │                  ├ [10]: https://bugzilla.redhat.com/show_bug.cgi?id=2262921 
+│                        │      │                  ├ [11]: https://bugzilla.redhat.com/show_bug.cgi?id=2268017 
+│                        │      │                  ├ [12]: https://bugzilla.redhat.com/show_bug.cgi?id=2268018 
+│                        │      │                  ├ [13]: https://bugzilla.redhat.com/show_bug.cgi?id=2268019 
+│                        │      │                  ├ [14]: https://bugzilla.redhat.com/show_bug.cgi?id=2268021 
+│                        │      │                  ├ [15]: https://bugzilla.redhat.com/show_bug.cgi?id=2268022 
+│                        │      │                  ├ [16]: https://bugzilla.redhat.com/show_bug.cgi?id=2268273 
 │                        │      │                  ├ [17]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
-│                        │      │                  │       CVE-2023-45289 
+│                        │      │                  │       CVE-2023-45288 
 │                        │      │                  ├ [18]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
-│                        │      │                  │       CVE-2023-45290 
+│                        │      │                  │       CVE-2023-45289 
 │                        │      │                  ├ [19]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
-│                        │      │                  │       CVE-2024-1394 
+│                        │      │                  │       CVE-2023-45290 
 │                        │      │                  ├ [20]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
-│                        │      │                  │       CVE-2024-24783 
+│                        │      │                  │       CVE-2024-1394 
 │                        │      │                  ├ [21]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
-│                        │      │                  │       CVE-2024-24784 
+│                        │      │                  │       CVE-2024-24783 
 │                        │      │                  ├ [22]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │      │                  │       CVE-2024-24784 
+│                        │      │                  ├ [23]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                        │      │                  │       CVE-2024-24785 
-│                        │      │                  ├ [23]: https://errata.almalinux.org/8/ALSA-2024-3259.html 
-│                        │      │                  ├ [24]: https://errata.rockylinux.org/RLSA-2024:2562 
-│                        │      │                  ├ [25]: https://github.com/golang/go/commit/263c059b09f
+│                        │      │                  ├ [24]: https://errata.almalinux.org/9/ALSA-2024-2562.html 
+│                        │      │                  ├ [25]: https://errata.rockylinux.org/RLSA-2024:2562 
+│                        │      │                  ├ [26]: https://github.com/golang/go/commit/263c059b09f
 │                        │      │                  │       dd40d9dd945f2ecb20c89ea28efe5 (go1.21.8) 
-│                        │      │                  ├ [26]: https://github.com/golang/go/commit/5330cd225ba
+│                        │      │                  ├ [27]: https://github.com/golang/go/commit/5330cd225ba
 │                        │      │                  │       54c7dc78c1b46dcdf61a4671a632c (go1.22.1) 
-│                        │      │                  ├ [27]: https://github.com/golang/go/issues/65083 
-│                        │      │                  ├ [28]: https://go.dev/cl/555596 
-│                        │      │                  ├ [29]: https://go.dev/issue/65083 
-│                        │      │                  ├ [30]: https://groups.google.com/g/golang-announce/c/5
+│                        │      │                  ├ [28]: https://github.com/golang/go/issues/65083 
+│                        │      │                  ├ [29]: https://go.dev/cl/555596 
+│                        │      │                  ├ [30]: https://go.dev/issue/65083 
+│                        │      │                  ├ [31]: https://groups.google.com/g/golang-announce/c/5
 │                        │      │                  │       pwGVUPoMbg 
-│                        │      │                  ├ [31]: https://linux.oracle.com/cve/CVE-2024-24784.html 
-│                        │      │                  ├ [32]: https://linux.oracle.com/errata/ELSA-2024-3259.html 
-│                        │      │                  ├ [33]: https://nvd.nist.gov/vuln/detail/CVE-2024-24784 
-│                        │      │                  ├ [34]: https://pkg.go.dev/vuln/GO-2024-2609 
-│                        │      │                  ├ [35]: https://security.netapp.com/advisory/ntap-20240
+│                        │      │                  ├ [32]: https://linux.oracle.com/cve/CVE-2024-24784.html 
+│                        │      │                  ├ [33]: https://linux.oracle.com/errata/ELSA-2024-3259.html 
+│                        │      │                  ├ [34]: https://nvd.nist.gov/vuln/detail/CVE-2024-24784 
+│                        │      │                  ├ [35]: https://pkg.go.dev/vuln/GO-2024-2609 
+│                        │      │                  ├ [36]: https://security.netapp.com/advisory/ntap-20240
 │                        │      │                  │       329-0007/ 
-│                        │      │                  ├ [36]: https://ubuntu.com/security/notices/USN-6886-1 
-│                        │      │                  ╰ [37]: https://www.cve.org/CVERecord?id=CVE-2024-24784 
+│                        │      │                  ├ [37]: https://ubuntu.com/security/notices/USN-6886-1 
+│                        │      │                  ╰ [38]: https://www.cve.org/CVERecord?id=CVE-2024-24784 
 │                        │      ├ PublishedDate   : 2024-03-05T23:15:07.733Z 
 │                        │      ╰ LastModifiedDate: 2024-05-01T17:15:29.527Z 
 │                        ├ [18] ╭ VulnerabilityID : CVE-2024-24785 
@@ -8225,56 +8912,57 @@
 │                        │      │                           ╰ V3Score : 6.5 
 │                        │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2024
 │                        │      │                  │       /03/08/4 
-│                        │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2024:3259 
+│                        │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2024:2562 
 │                        │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2024
 │                        │      │                  │       -24785 
-│                        │      │                  ├ [3] : https://bugzilla.redhat.com/2268017 
-│                        │      │                  ├ [4] : https://bugzilla.redhat.com/2268018 
-│                        │      │                  ├ [5] : https://bugzilla.redhat.com/2268019 
-│                        │      │                  ├ [6] : https://bugzilla.redhat.com/2268021 
-│                        │      │                  ├ [7] : https://bugzilla.redhat.com/2268022 
-│                        │      │                  ├ [8] : https://bugzilla.redhat.com/2268273 
-│                        │      │                  ├ [9] : https://bugzilla.redhat.com/show_bug.cgi?id=2262921 
-│                        │      │                  ├ [10]: https://bugzilla.redhat.com/show_bug.cgi?id=2268017 
-│                        │      │                  ├ [11]: https://bugzilla.redhat.com/show_bug.cgi?id=2268018 
-│                        │      │                  ├ [12]: https://bugzilla.redhat.com/show_bug.cgi?id=2268019 
-│                        │      │                  ├ [13]: https://bugzilla.redhat.com/show_bug.cgi?id=2268021 
-│                        │      │                  ├ [14]: https://bugzilla.redhat.com/show_bug.cgi?id=2268022 
-│                        │      │                  ├ [15]: https://bugzilla.redhat.com/show_bug.cgi?id=2268273 
-│                        │      │                  ├ [16]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
-│                        │      │                  │       CVE-2023-45288 
+│                        │      │                  ├ [3] : https://bugzilla.redhat.com/2262921 
+│                        │      │                  ├ [4] : https://bugzilla.redhat.com/2268017 
+│                        │      │                  ├ [5] : https://bugzilla.redhat.com/2268018 
+│                        │      │                  ├ [6] : https://bugzilla.redhat.com/2268019 
+│                        │      │                  ├ [7] : https://bugzilla.redhat.com/2268021 
+│                        │      │                  ├ [8] : https://bugzilla.redhat.com/2268022 
+│                        │      │                  ├ [9] : https://bugzilla.redhat.com/2268273 
+│                        │      │                  ├ [10]: https://bugzilla.redhat.com/show_bug.cgi?id=2262921 
+│                        │      │                  ├ [11]: https://bugzilla.redhat.com/show_bug.cgi?id=2268017 
+│                        │      │                  ├ [12]: https://bugzilla.redhat.com/show_bug.cgi?id=2268018 
+│                        │      │                  ├ [13]: https://bugzilla.redhat.com/show_bug.cgi?id=2268019 
+│                        │      │                  ├ [14]: https://bugzilla.redhat.com/show_bug.cgi?id=2268021 
+│                        │      │                  ├ [15]: https://bugzilla.redhat.com/show_bug.cgi?id=2268022 
+│                        │      │                  ├ [16]: https://bugzilla.redhat.com/show_bug.cgi?id=2268273 
 │                        │      │                  ├ [17]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
-│                        │      │                  │       CVE-2023-45289 
+│                        │      │                  │       CVE-2023-45288 
 │                        │      │                  ├ [18]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
-│                        │      │                  │       CVE-2023-45290 
+│                        │      │                  │       CVE-2023-45289 
 │                        │      │                  ├ [19]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
-│                        │      │                  │       CVE-2024-1394 
+│                        │      │                  │       CVE-2023-45290 
 │                        │      │                  ├ [20]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
-│                        │      │                  │       CVE-2024-24783 
+│                        │      │                  │       CVE-2024-1394 
 │                        │      │                  ├ [21]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
-│                        │      │                  │       CVE-2024-24784 
+│                        │      │                  │       CVE-2024-24783 
 │                        │      │                  ├ [22]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │      │                  │       CVE-2024-24784 
+│                        │      │                  ├ [23]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                        │      │                  │       CVE-2024-24785 
-│                        │      │                  ├ [23]: https://errata.almalinux.org/8/ALSA-2024-3259.html 
-│                        │      │                  ├ [24]: https://errata.rockylinux.org/RLSA-2024:2562 
-│                        │      │                  ├ [25]: https://github.com/golang/go/commit/056b0edcb8c
+│                        │      │                  ├ [24]: https://errata.almalinux.org/9/ALSA-2024-2562.html 
+│                        │      │                  ├ [25]: https://errata.rockylinux.org/RLSA-2024:2562 
+│                        │      │                  ├ [26]: https://github.com/golang/go/commit/056b0edcb8c
 │                        │      │                  │       152152021eebf4cf42adbfbe77992 (go1.22.1) 
-│                        │      │                  ├ [26]: https://github.com/golang/go/commit/3643147a293
+│                        │      │                  ├ [27]: https://github.com/golang/go/commit/3643147a293
 │                        │      │                  │       52ca2894fd5d0d2069bc4b4335a7e (go1.21.8) 
-│                        │      │                  ├ [27]: https://github.com/golang/go/issues/65697 
-│                        │      │                  ├ [28]: https://go.dev/cl/564196 
-│                        │      │                  ├ [29]: https://go.dev/issue/65697 
-│                        │      │                  ├ [30]: https://groups.google.com/g/golang-announce/c/5
+│                        │      │                  ├ [28]: https://github.com/golang/go/issues/65697 
+│                        │      │                  ├ [29]: https://go.dev/cl/564196 
+│                        │      │                  ├ [30]: https://go.dev/issue/65697 
+│                        │      │                  ├ [31]: https://groups.google.com/g/golang-announce/c/5
 │                        │      │                  │       pwGVUPoMbg 
-│                        │      │                  ├ [31]: https://linux.oracle.com/cve/CVE-2024-24785.html 
-│                        │      │                  ├ [32]: https://linux.oracle.com/errata/ELSA-2024-3259.html 
-│                        │      │                  ├ [33]: https://nvd.nist.gov/vuln/detail/CVE-2024-24785 
-│                        │      │                  ├ [34]: https://pkg.go.dev/vuln/GO-2024-2610 
-│                        │      │                  ├ [35]: https://security.netapp.com/advisory/ntap-20240
+│                        │      │                  ├ [32]: https://linux.oracle.com/cve/CVE-2024-24785.html 
+│                        │      │                  ├ [33]: https://linux.oracle.com/errata/ELSA-2024-3259.html 
+│                        │      │                  ├ [34]: https://nvd.nist.gov/vuln/detail/CVE-2024-24785 
+│                        │      │                  ├ [35]: https://pkg.go.dev/vuln/GO-2024-2610 
+│                        │      │                  ├ [36]: https://security.netapp.com/advisory/ntap-20240
 │                        │      │                  │       329-0008/ 
-│                        │      │                  ├ [36]: https://ubuntu.com/security/notices/USN-6886-1 
-│                        │      │                  ├ [37]: https://vuln.go.dev/ID/GO-2024-2610.json 
-│                        │      │                  ╰ [38]: https://www.cve.org/CVERecord?id=CVE-2024-24785 
+│                        │      │                  ├ [37]: https://ubuntu.com/security/notices/USN-6886-1 
+│                        │      │                  ├ [38]: https://vuln.go.dev/ID/GO-2024-2610.json 
+│                        │      │                  ╰ [39]: https://www.cve.org/CVERecord?id=CVE-2024-24785 
 │                        │      ├ PublishedDate   : 2024-03-05T23:15:07.777Z 
 │                        │      ╰ LastModifiedDate: 2024-05-01T17:15:29.61Z 
 │                        ├ [19] ╭ VulnerabilityID : CVE-2024-24789 
@@ -8324,7 +9012,7 @@
 │                        │      │                            ╰ V3Score : 7.5 
 │                        │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2024
 │                        │      │                  │       /06/04/1 
-│                        │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2024:4237 
+│                        │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2024:4212 
 │                        │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2024
 │                        │      │                  │       -24789 
 │                        │      │                  ├ [3] : https://bugzilla.redhat.com/2292668 
@@ -8335,7 +9023,7 @@
 │                        │      │                  │       CVE-2024-24789 
 │                        │      │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                        │      │                  │       CVE-2024-24790 
-│                        │      │                  ├ [9] : https://errata.almalinux.org/8/ALSA-2024-4237.html 
+│                        │      │                  ├ [9] : https://errata.almalinux.org/9/ALSA-2024-4212.html 
 │                        │      │                  ├ [10]: https://errata.rockylinux.org/RLSA-2024:4212 
 │                        │      │                  ├ [11]: https://github.com/golang/go/commit/c8e40338cf0
 │                        │      │                  │       0f3c1d86c8fb23863ad67a4c72bcc (1.21) 
