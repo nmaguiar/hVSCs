@@ -3212,9 +3212,6 @@
 │                        │      ├ CweIDs           ─ [0]: CWE-400 
 │                        │      ├ VendorSeverity   ╭ redhat: 2 
 │                        │      │                  ╰ ubuntu: 1 
-│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
-│                        │      │                           │           :N/I:N/A:H 
-│                        │      │                           ╰ V3Score : 7.5 
 │                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-6716 
 │                        │      │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2297636 
 │                        │      │                  ├ [2]: https://gitlab.com/libtiff/libtiff/-/issues/620 
