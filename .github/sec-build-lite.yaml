@@ -70,7 +70,7 @@
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: libcurl's ASN1 parser code has the `GTime2str()` function, used for pa ...
+    Title: 'curl: libcurl: ASN.1 date parser overread'
     Description: |-
       libcurl's ASN1 parser code has the `GTime2str()` function, used for parsing an
       ASN.1 Generalized Time field. If given an syntactically incorrect field, the
@@ -83,12 +83,19 @@
       [CURLINFO_CERTINFO](https://curl.se/libcurl/c/CURLINFO_CERTINFO.html) is used.
     Severity: MEDIUM
     VendorSeverity:
+      redhat: 1
       ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:N/A:H
+        V3Score: 5.3
     References:
     - http://www.openwall.com/lists/oss-security/2024/07/31/1
+    - https://access.redhat.com/security/cve/CVE-2024-7264
     - https://curl.se/docs/CVE-2024-7264.html
     - https://curl.se/docs/CVE-2024-7264.json
     - https://hackerone.com/reports/2629968
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-7264
     - https://ubuntu.com/security/notices/USN-6944-1
     - https://www.cve.org/CVERecord?id=CVE-2024-7264
     PublishedDate: '2024-07-31T08:15:02.657Z'
@@ -1310,7 +1317,7 @@
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: libcurl's ASN1 parser code has the `GTime2str()` function, used for pa ...
+    Title: 'curl: libcurl: ASN.1 date parser overread'
     Description: |-
       libcurl's ASN1 parser code has the `GTime2str()` function, used for parsing an
       ASN.1 Generalized Time field. If given an syntactically incorrect field, the
@@ -1323,12 +1330,19 @@
       [CURLINFO_CERTINFO](https://curl.se/libcurl/c/CURLINFO_CERTINFO.html) is used.
     Severity: MEDIUM
     VendorSeverity:
+      redhat: 1
       ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:N/A:H
+        V3Score: 5.3
     References:
     - http://www.openwall.com/lists/oss-security/2024/07/31/1
+    - https://access.redhat.com/security/cve/CVE-2024-7264
     - https://curl.se/docs/CVE-2024-7264.html
     - https://curl.se/docs/CVE-2024-7264.json
     - https://hackerone.com/reports/2629968
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-7264
     - https://ubuntu.com/security/notices/USN-6944-1
     - https://www.cve.org/CVERecord?id=CVE-2024-7264
     PublishedDate: '2024-07-31T08:15:02.657Z'
@@ -1351,7 +1365,7 @@
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: libcurl's ASN1 parser code has the `GTime2str()` function, used for pa ...
+    Title: 'curl: libcurl: ASN.1 date parser overread'
     Description: |-
       libcurl's ASN1 parser code has the `GTime2str()` function, used for parsing an
       ASN.1 Generalized Time field. If given an syntactically incorrect field, the
@@ -1364,12 +1378,19 @@
       [CURLINFO_CERTINFO](https://curl.se/libcurl/c/CURLINFO_CERTINFO.html) is used.
     Severity: MEDIUM
     VendorSeverity:
+      redhat: 1
       ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:N/A:H
+        V3Score: 5.3
     References:
     - http://www.openwall.com/lists/oss-security/2024/07/31/1
+    - https://access.redhat.com/security/cve/CVE-2024-7264
     - https://curl.se/docs/CVE-2024-7264.html
     - https://curl.se/docs/CVE-2024-7264.json
     - https://hackerone.com/reports/2629968
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-7264
     - https://ubuntu.com/security/notices/USN-6944-1
     - https://www.cve.org/CVERecord?id=CVE-2024-7264
     PublishedDate: '2024-07-31T08:15:02.657Z'
@@ -3076,6 +3097,7 @@
     - https://github.com/apache/apisix/issues/10320
     - https://github.com/apache/httpd-site/pull/10
     - https://github.com/apache/httpd/blob/afcdbeebbff4b0c50ea26cdd16e178c0d1f24152/modules/http2/h2_mplx.c#L1101-L1113
+    - https://github.com/apache/tomcat/commit/944332bb15bd2f3bf76ec2caeb1ff0a58a3bc628
     - https://github.com/apache/tomcat/tree/main/java/org/apache/coyote/http2
     - https://github.com/apache/trafficserver/pull/10564
     - https://github.com/apple/swift-nio-http2
@@ -4825,6 +4847,7 @@
     - https://github.com/apache/apisix/issues/10320
     - https://github.com/apache/httpd-site/pull/10
     - https://github.com/apache/httpd/blob/afcdbeebbff4b0c50ea26cdd16e178c0d1f24152/modules/http2/h2_mplx.c#L1101-L1113
+    - https://github.com/apache/tomcat/commit/944332bb15bd2f3bf76ec2caeb1ff0a58a3bc628
     - https://github.com/apache/tomcat/tree/main/java/org/apache/coyote/http2
     - https://github.com/apache/trafficserver/pull/10564
     - https://github.com/apple/swift-nio-http2
