@@ -1485,7 +1485,8 @@
 │                        │      │                  │       .3?arch=amd64&distro=ubuntu-22.04 
 │                        │      │                  ╰ UID : bbffc9c75422f546 
 │                        │      ├ InstalledVersion: 1.19.2-2ubuntu0.3 
-│                        │      ├ Status          : affected 
+│                        │      ├ FixedVersion    : 1.19.2-2ubuntu0.4 
+│                        │      ├ Status          : fixed 
 │                        │      ├ Layer            ╭ Digest: sha256:f0695fbfad68ce892e7d63c15a69e33a4289d8
 │                        │      │                  │         ccebfd32aa352797276701949f 
 │                        │      │                  ╰ DiffID: sha256:cb10596dac2ff3d408452d417594f6f3cc286a
@@ -1512,9 +1513,10 @@
 │                        │      │                  ├ [1]: https://github.com/krb5/krb5/commit/55fbf435edbe
 │                        │      │                  │      2e92dd8101669b1ce7144bc96fef 
 │                        │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-37370 
-│                        │      │                  ├ [3]: https://web.mit.edu/kerberos/www/advisories/ 
-│                        │      │                  ├ [4]: https://web.mit.edu/kerberos/www/krb5-1.21/ 
-│                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-37370 
+│                        │      │                  ├ [3]: https://ubuntu.com/security/notices/USN-6947-1 
+│                        │      │                  ├ [4]: https://web.mit.edu/kerberos/www/advisories/ 
+│                        │      │                  ├ [5]: https://web.mit.edu/kerberos/www/krb5-1.21/ 
+│                        │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-37370 
 │                        │      ├ PublishedDate   : 2024-06-28T22:15:02.293Z 
 │                        │      ╰ LastModifiedDate: 2024-07-01T12:37:24.22Z 
 │                        ├ [31] ╭ VulnerabilityID : CVE-2024-37371 
@@ -1524,7 +1526,8 @@
 │                        │      │                  │       .3?arch=amd64&distro=ubuntu-22.04 
 │                        │      │                  ╰ UID : bbffc9c75422f546 
 │                        │      ├ InstalledVersion: 1.19.2-2ubuntu0.3 
-│                        │      ├ Status          : affected 
+│                        │      ├ FixedVersion    : 1.19.2-2ubuntu0.4 
+│                        │      ├ Status          : fixed 
 │                        │      ├ Layer            ╭ Digest: sha256:f0695fbfad68ce892e7d63c15a69e33a4289d8
 │                        │      │                  │         ccebfd32aa352797276701949f 
 │                        │      │                  ╰ DiffID: sha256:cb10596dac2ff3d408452d417594f6f3cc286a
@@ -1551,9 +1554,10 @@
 │                        │      │                  ├ [1]: https://github.com/krb5/krb5/commit/55fbf435edbe
 │                        │      │                  │      2e92dd8101669b1ce7144bc96fef 
 │                        │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-37371 
-│                        │      │                  ├ [3]: https://web.mit.edu/kerberos/www/advisories/ 
-│                        │      │                  ├ [4]: https://web.mit.edu/kerberos/www/krb5-1.21/ 
-│                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-37371 
+│                        │      │                  ├ [3]: https://ubuntu.com/security/notices/USN-6947-1 
+│                        │      │                  ├ [4]: https://web.mit.edu/kerberos/www/advisories/ 
+│                        │      │                  ├ [5]: https://web.mit.edu/kerberos/www/krb5-1.21/ 
+│                        │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-37371 
 │                        │      ├ PublishedDate   : 2024-06-28T23:15:11.603Z 
 │                        │      ╰ LastModifiedDate: 2024-07-01T12:37:24.22Z 
 │                        ├ [32] ╭ VulnerabilityID : CVE-2024-26458 
@@ -1716,7 +1720,8 @@
 │                        │      │                  │       rch=amd64&distro=ubuntu-22.04 
 │                        │      │                  ╰ UID : 5d8ac9e14e11c868 
 │                        │      ├ InstalledVersion: 1.19.2-2ubuntu0.3 
-│                        │      ├ Status          : affected 
+│                        │      ├ FixedVersion    : 1.19.2-2ubuntu0.4 
+│                        │      ├ Status          : fixed 
 │                        │      ├ Layer            ╭ Digest: sha256:f0695fbfad68ce892e7d63c15a69e33a4289d8
 │                        │      │                  │         ccebfd32aa352797276701949f 
 │                        │      │                  ╰ DiffID: sha256:cb10596dac2ff3d408452d417594f6f3cc286a
@@ -1743,9 +1748,10 @@
 │                        │      │                  ├ [1]: https://github.com/krb5/krb5/commit/55fbf435edbe
 │                        │      │                  │      2e92dd8101669b1ce7144bc96fef 
 │                        │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-37370 
-│                        │      │                  ├ [3]: https://web.mit.edu/kerberos/www/advisories/ 
-│                        │      │                  ├ [4]: https://web.mit.edu/kerberos/www/krb5-1.21/ 
-│                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-37370 
+│                        │      │                  ├ [3]: https://ubuntu.com/security/notices/USN-6947-1 
+│                        │      │                  ├ [4]: https://web.mit.edu/kerberos/www/advisories/ 
+│                        │      │                  ├ [5]: https://web.mit.edu/kerberos/www/krb5-1.21/ 
+│                        │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-37370 
 │                        │      ├ PublishedDate   : 2024-06-28T22:15:02.293Z 
 │                        │      ╰ LastModifiedDate: 2024-07-01T12:37:24.22Z 
 │                        ├ [36] ╭ VulnerabilityID : CVE-2024-37371 
@@ -1755,7 +1761,8 @@
 │                        │      │                  │       rch=amd64&distro=ubuntu-22.04 
 │                        │      │                  ╰ UID : 5d8ac9e14e11c868 
 │                        │      ├ InstalledVersion: 1.19.2-2ubuntu0.3 
-│                        │      ├ Status          : affected 
+│                        │      ├ FixedVersion    : 1.19.2-2ubuntu0.4 
+│                        │      ├ Status          : fixed 
 │                        │      ├ Layer            ╭ Digest: sha256:f0695fbfad68ce892e7d63c15a69e33a4289d8
 │                        │      │                  │         ccebfd32aa352797276701949f 
 │                        │      │                  ╰ DiffID: sha256:cb10596dac2ff3d408452d417594f6f3cc286a
@@ -1782,9 +1789,10 @@
 │                        │      │                  ├ [1]: https://github.com/krb5/krb5/commit/55fbf435edbe
 │                        │      │                  │      2e92dd8101669b1ce7144bc96fef 
 │                        │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-37371 
-│                        │      │                  ├ [3]: https://web.mit.edu/kerberos/www/advisories/ 
-│                        │      │                  ├ [4]: https://web.mit.edu/kerberos/www/krb5-1.21/ 
-│                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-37371 
+│                        │      │                  ├ [3]: https://ubuntu.com/security/notices/USN-6947-1 
+│                        │      │                  ├ [4]: https://web.mit.edu/kerberos/www/advisories/ 
+│                        │      │                  ├ [5]: https://web.mit.edu/kerberos/www/krb5-1.21/ 
+│                        │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-37371 
 │                        │      ├ PublishedDate   : 2024-06-28T23:15:11.603Z 
 │                        │      ╰ LastModifiedDate: 2024-07-01T12:37:24.22Z 
 │                        ├ [37] ╭ VulnerabilityID : CVE-2024-26458 
@@ -1947,7 +1955,8 @@
 │                        │      │                  │       =amd64&distro=ubuntu-22.04 
 │                        │      │                  ╰ UID : a551917558e85d0f 
 │                        │      ├ InstalledVersion: 1.19.2-2ubuntu0.3 
-│                        │      ├ Status          : affected 
+│                        │      ├ FixedVersion    : 1.19.2-2ubuntu0.4 
+│                        │      ├ Status          : fixed 
 │                        │      ├ Layer            ╭ Digest: sha256:f0695fbfad68ce892e7d63c15a69e33a4289d8
 │                        │      │                  │         ccebfd32aa352797276701949f 
 │                        │      │                  ╰ DiffID: sha256:cb10596dac2ff3d408452d417594f6f3cc286a
@@ -1974,9 +1983,10 @@
 │                        │      │                  ├ [1]: https://github.com/krb5/krb5/commit/55fbf435edbe
 │                        │      │                  │      2e92dd8101669b1ce7144bc96fef 
 │                        │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-37370 
-│                        │      │                  ├ [3]: https://web.mit.edu/kerberos/www/advisories/ 
-│                        │      │                  ├ [4]: https://web.mit.edu/kerberos/www/krb5-1.21/ 
-│                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-37370 
+│                        │      │                  ├ [3]: https://ubuntu.com/security/notices/USN-6947-1 
+│                        │      │                  ├ [4]: https://web.mit.edu/kerberos/www/advisories/ 
+│                        │      │                  ├ [5]: https://web.mit.edu/kerberos/www/krb5-1.21/ 
+│                        │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-37370 
 │                        │      ├ PublishedDate   : 2024-06-28T22:15:02.293Z 
 │                        │      ╰ LastModifiedDate: 2024-07-01T12:37:24.22Z 
 │                        ├ [41] ╭ VulnerabilityID : CVE-2024-37371 
@@ -1986,7 +1996,8 @@
 │                        │      │                  │       =amd64&distro=ubuntu-22.04 
 │                        │      │                  ╰ UID : a551917558e85d0f 
 │                        │      ├ InstalledVersion: 1.19.2-2ubuntu0.3 
-│                        │      ├ Status          : affected 
+│                        │      ├ FixedVersion    : 1.19.2-2ubuntu0.4 
+│                        │      ├ Status          : fixed 
 │                        │      ├ Layer            ╭ Digest: sha256:f0695fbfad68ce892e7d63c15a69e33a4289d8
 │                        │      │                  │         ccebfd32aa352797276701949f 
 │                        │      │                  ╰ DiffID: sha256:cb10596dac2ff3d408452d417594f6f3cc286a
@@ -2013,9 +2024,10 @@
 │                        │      │                  ├ [1]: https://github.com/krb5/krb5/commit/55fbf435edbe
 │                        │      │                  │      2e92dd8101669b1ce7144bc96fef 
 │                        │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-37371 
-│                        │      │                  ├ [3]: https://web.mit.edu/kerberos/www/advisories/ 
-│                        │      │                  ├ [4]: https://web.mit.edu/kerberos/www/krb5-1.21/ 
-│                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-37371 
+│                        │      │                  ├ [3]: https://ubuntu.com/security/notices/USN-6947-1 
+│                        │      │                  ├ [4]: https://web.mit.edu/kerberos/www/advisories/ 
+│                        │      │                  ├ [5]: https://web.mit.edu/kerberos/www/krb5-1.21/ 
+│                        │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-37371 
 │                        │      ├ PublishedDate   : 2024-06-28T23:15:11.603Z 
 │                        │      ╰ LastModifiedDate: 2024-07-01T12:37:24.22Z 
 │                        ├ [42] ╭ VulnerabilityID : CVE-2024-26458 
@@ -2178,7 +2190,8 @@
 │                        │      │                  │       3?arch=amd64&distro=ubuntu-22.04 
 │                        │      │                  ╰ UID : ab9803cd86f04af8 
 │                        │      ├ InstalledVersion: 1.19.2-2ubuntu0.3 
-│                        │      ├ Status          : affected 
+│                        │      ├ FixedVersion    : 1.19.2-2ubuntu0.4 
+│                        │      ├ Status          : fixed 
 │                        │      ├ Layer            ╭ Digest: sha256:f0695fbfad68ce892e7d63c15a69e33a4289d8
 │                        │      │                  │         ccebfd32aa352797276701949f 
 │                        │      │                  ╰ DiffID: sha256:cb10596dac2ff3d408452d417594f6f3cc286a
@@ -2205,9 +2218,10 @@
 │                        │      │                  ├ [1]: https://github.com/krb5/krb5/commit/55fbf435edbe
 │                        │      │                  │      2e92dd8101669b1ce7144bc96fef 
 │                        │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-37370 
-│                        │      │                  ├ [3]: https://web.mit.edu/kerberos/www/advisories/ 
-│                        │      │                  ├ [4]: https://web.mit.edu/kerberos/www/krb5-1.21/ 
-│                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-37370 
+│                        │      │                  ├ [3]: https://ubuntu.com/security/notices/USN-6947-1 
+│                        │      │                  ├ [4]: https://web.mit.edu/kerberos/www/advisories/ 
+│                        │      │                  ├ [5]: https://web.mit.edu/kerberos/www/krb5-1.21/ 
+│                        │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-37370 
 │                        │      ├ PublishedDate   : 2024-06-28T22:15:02.293Z 
 │                        │      ╰ LastModifiedDate: 2024-07-01T12:37:24.22Z 
 │                        ├ [46] ╭ VulnerabilityID : CVE-2024-37371 
@@ -2217,7 +2231,8 @@
 │                        │      │                  │       3?arch=amd64&distro=ubuntu-22.04 
 │                        │      │                  ╰ UID : ab9803cd86f04af8 
 │                        │      ├ InstalledVersion: 1.19.2-2ubuntu0.3 
-│                        │      ├ Status          : affected 
+│                        │      ├ FixedVersion    : 1.19.2-2ubuntu0.4 
+│                        │      ├ Status          : fixed 
 │                        │      ├ Layer            ╭ Digest: sha256:f0695fbfad68ce892e7d63c15a69e33a4289d8
 │                        │      │                  │         ccebfd32aa352797276701949f 
 │                        │      │                  ╰ DiffID: sha256:cb10596dac2ff3d408452d417594f6f3cc286a
@@ -2244,9 +2259,10 @@
 │                        │      │                  ├ [1]: https://github.com/krb5/krb5/commit/55fbf435edbe
 │                        │      │                  │      2e92dd8101669b1ce7144bc96fef 
 │                        │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-37371 
-│                        │      │                  ├ [3]: https://web.mit.edu/kerberos/www/advisories/ 
-│                        │      │                  ├ [4]: https://web.mit.edu/kerberos/www/krb5-1.21/ 
-│                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-37371 
+│                        │      │                  ├ [3]: https://ubuntu.com/security/notices/USN-6947-1 
+│                        │      │                  ├ [4]: https://web.mit.edu/kerberos/www/advisories/ 
+│                        │      │                  ├ [5]: https://web.mit.edu/kerberos/www/krb5-1.21/ 
+│                        │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-37371 
 │                        │      ├ PublishedDate   : 2024-06-28T23:15:11.603Z 
 │                        │      ╰ LastModifiedDate: 2024-07-01T12:37:24.22Z 
 │                        ├ [47] ╭ VulnerabilityID : CVE-2024-26458 
@@ -7151,7 +7167,7 @@
 │                        │      ├ VendorSeverity   ╭ alma       : 3 
 │                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ bitnami    : 3 
-│                        │      │                  ├ cbl-mariner: 2 
+│                        │      │                  ├ cbl-mariner: 3 
 │                        │      │                  ├ oracle-oval: 3 
 │                        │      │                  ├ redhat     : 2 
 │                        │      │                  ├ rocky      : 3 
@@ -9714,7 +9730,7 @@
 │                        │      ├ VendorSeverity   ╭ alma       : 3 
 │                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ bitnami    : 3 
-│                        │      │                  ├ cbl-mariner: 2 
+│                        │      │                  ├ cbl-mariner: 3 
 │                        │      │                  ├ oracle-oval: 3 
 │                        │      │                  ├ redhat     : 2 
 │                        │      │                  ├ rocky      : 3 
