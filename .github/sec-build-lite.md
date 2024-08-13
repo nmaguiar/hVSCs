@@ -91,10 +91,15 @@
 │                        │      │                   [CURLINFO_CERTINFO](https://curl.se/libcurl/c/CURLINFO_CERT
 │                        │      │                   INFO.html) is used. 
 │                        │      ├ Severity        : MEDIUM 
+│                        │      ├ CweIDs           ─ [0]: CWE-125 
 │                        │      ├ VendorSeverity   ╭ cbl-mariner: 2 
+│                        │      │                  ├ nvd        : 2 
 │                        │      │                  ├ redhat     : 1 
 │                        │      │                  ╰ ubuntu     : 2 
-│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C
+│                        │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C
+│                        │      │                  │        │           :N/I:N/A:H 
+│                        │      │                  │        ╰ V3Score : 6.5 
+│                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C
 │                        │      │                           │           :L/I:N/A:H 
 │                        │      │                           ╰ V3Score : 5.3 
 │                        │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2024/
@@ -107,7 +112,7 @@
 │                        │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-6944-1 
 │                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2024-7264 
 │                        │      ├ PublishedDate   : 2024-07-31T08:15:02.657Z 
-│                        │      ╰ LastModifiedDate: 2024-07-31T12:57:02.3Z 
+│                        │      ╰ LastModifiedDate: 2024-08-12T17:30:51.88Z 
 │                        ├ [2]  ╭ VulnerabilityID : CVE-2023-34969 
 │                        │      ├ PkgID           : dbus@1.14.10-4ubuntu4 
 │                        │      ├ PkgName         : dbus 
@@ -1484,10 +1489,15 @@
 │                        │      │                   [CURLINFO_CERTINFO](https://curl.se/libcurl/c/CURLINFO_CERT
 │                        │      │                   INFO.html) is used. 
 │                        │      ├ Severity        : MEDIUM 
+│                        │      ├ CweIDs           ─ [0]: CWE-125 
 │                        │      ├ VendorSeverity   ╭ cbl-mariner: 2 
+│                        │      │                  ├ nvd        : 2 
 │                        │      │                  ├ redhat     : 1 
 │                        │      │                  ╰ ubuntu     : 2 
-│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C
+│                        │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C
+│                        │      │                  │        │           :N/I:N/A:H 
+│                        │      │                  │        ╰ V3Score : 6.5 
+│                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C
 │                        │      │                           │           :L/I:N/A:H 
 │                        │      │                           ╰ V3Score : 5.3 
 │                        │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2024/
@@ -1500,7 +1510,7 @@
 │                        │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-6944-1 
 │                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2024-7264 
 │                        │      ├ PublishedDate   : 2024-07-31T08:15:02.657Z 
-│                        │      ╰ LastModifiedDate: 2024-07-31T12:57:02.3Z 
+│                        │      ╰ LastModifiedDate: 2024-08-12T17:30:51.88Z 
 │                        ├ [29] ╭ VulnerabilityID : CVE-2024-7264 
 │                        │      ├ PkgID           : libcurl4t64@8.5.0-2ubuntu10.1 
 │                        │      ├ PkgName         : libcurl4t64 
@@ -1536,10 +1546,15 @@
 │                        │      │                   [CURLINFO_CERTINFO](https://curl.se/libcurl/c/CURLINFO_CERT
 │                        │      │                   INFO.html) is used. 
 │                        │      ├ Severity        : MEDIUM 
+│                        │      ├ CweIDs           ─ [0]: CWE-125 
 │                        │      ├ VendorSeverity   ╭ cbl-mariner: 2 
+│                        │      │                  ├ nvd        : 2 
 │                        │      │                  ├ redhat     : 1 
 │                        │      │                  ╰ ubuntu     : 2 
-│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C
+│                        │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C
+│                        │      │                  │        │           :N/I:N/A:H 
+│                        │      │                  │        ╰ V3Score : 6.5 
+│                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C
 │                        │      │                           │           :L/I:N/A:H 
 │                        │      │                           ╰ V3Score : 5.3 
 │                        │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2024/
@@ -1552,7 +1567,7 @@
 │                        │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-6944-1 
 │                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2024-7264 
 │                        │      ├ PublishedDate   : 2024-07-31T08:15:02.657Z 
-│                        │      ╰ LastModifiedDate: 2024-07-31T12:57:02.3Z 
+│                        │      ╰ LastModifiedDate: 2024-08-12T17:30:51.88Z 
 │                        ├ [30] ╭ VulnerabilityID : CVE-2023-34969 
 │                        │      ├ PkgID           : libdbus-1-3@1.14.10-4ubuntu4 
 │                        │      ├ PkgName         : libdbus-1-3 
@@ -3381,7 +3396,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ amazon     : 3 
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ ghsa       : 2 
@@ -4808,7 +4823,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ amazon     : 3 
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
@@ -4883,7 +4898,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ amazon     : 3 
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
@@ -5944,7 +5959,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ amazon     : 3 
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ ghsa       : 2 
@@ -7371,7 +7386,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ amazon     : 3 
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
@@ -7446,7 +7461,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ amazon     : 3 
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
