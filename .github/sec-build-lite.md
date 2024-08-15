@@ -1208,6 +1208,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ VendorSeverity   ╭ amazon     : 2 
 │                        │      │                  ├ cbl-mariner: 2 
+│                        │      │                  ├ oracle-oval: 2 
 │                        │      │                  ├ redhat     : 2 
 │                        │      │                  ╰ ubuntu     : 2 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
@@ -1216,11 +1217,13 @@
 │                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-37370 
 │                        │      │                  ├ [1]: https://github.com/krb5/krb5/commit/55fbf435edbe
 │                        │      │                  │      2e92dd8101669b1ce7144bc96fef 
-│                        │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-37370 
-│                        │      │                  ├ [3]: https://ubuntu.com/security/notices/USN-6947-1 
-│                        │      │                  ├ [4]: https://web.mit.edu/kerberos/www/advisories/ 
-│                        │      │                  ├ [5]: https://web.mit.edu/kerberos/www/krb5-1.21/ 
-│                        │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-37370 
+│                        │      │                  ├ [2]: https://linux.oracle.com/cve/CVE-2024-37370.html 
+│                        │      │                  ├ [3]: https://linux.oracle.com/errata/ELSA-2024-5312.html 
+│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-37370 
+│                        │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-6947-1 
+│                        │      │                  ├ [6]: https://web.mit.edu/kerberos/www/advisories/ 
+│                        │      │                  ├ [7]: https://web.mit.edu/kerberos/www/krb5-1.21/ 
+│                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-37370 
 │                        │      ├ PublishedDate   : 2024-06-28T22:15:02.293Z 
 │                        │      ╰ LastModifiedDate: 2024-07-01T12:37:24.22Z 
 │                        ├ [23] ╭ VulnerabilityID : CVE-2024-37371 
@@ -1249,6 +1252,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ VendorSeverity   ╭ amazon     : 2 
 │                        │      │                  ├ cbl-mariner: 2 
+│                        │      │                  ├ oracle-oval: 2 
 │                        │      │                  ├ redhat     : 2 
 │                        │      │                  ╰ ubuntu     : 2 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C
@@ -1257,11 +1261,13 @@
 │                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-37371 
 │                        │      │                  ├ [1]: https://github.com/krb5/krb5/commit/55fbf435edbe
 │                        │      │                  │      2e92dd8101669b1ce7144bc96fef 
-│                        │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-37371 
-│                        │      │                  ├ [3]: https://ubuntu.com/security/notices/USN-6947-1 
-│                        │      │                  ├ [4]: https://web.mit.edu/kerberos/www/advisories/ 
-│                        │      │                  ├ [5]: https://web.mit.edu/kerberos/www/krb5-1.21/ 
-│                        │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-37371 
+│                        │      │                  ├ [2]: https://linux.oracle.com/cve/CVE-2024-37371.html 
+│                        │      │                  ├ [3]: https://linux.oracle.com/errata/ELSA-2024-5312.html 
+│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-37371 
+│                        │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-6947-1 
+│                        │      │                  ├ [6]: https://web.mit.edu/kerberos/www/advisories/ 
+│                        │      │                  ├ [7]: https://web.mit.edu/kerberos/www/krb5-1.21/ 
+│                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-37371 
 │                        │      ├ PublishedDate   : 2024-06-28T23:15:11.603Z 
 │                        │      ╰ LastModifiedDate: 2024-07-01T12:37:24.22Z 
 │                        ├ [24] ╭ VulnerabilityID : CVE-2024-26458 
@@ -1342,6 +1348,7 @@
 │                        │      │                   vulnerability in
 │                        │      │                   /krb5/src/lib/gssapi/krb5/k5sealv3.c. 
 │                        │      ├ Severity        : LOW 
+│                        │      ├ CweIDs           ─ [0]: CWE-770 
 │                        │      ├ VendorSeverity   ╭ alma       : 1 
 │                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ cbl-mariner: 3 
@@ -1377,7 +1384,7 @@
 │                        │      │                  │       415-0011/ 
 │                        │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2024-26461 
 │                        │      ├ PublishedDate   : 2024-02-29T01:44:18.82Z 
-│                        │      ╰ LastModifiedDate: 2024-05-14T15:09:00.787Z 
+│                        │      ╰ LastModifiedDate: 2024-08-14T16:35:10.207Z 
 │                        ├ [26] ╭ VulnerabilityID : CVE-2016-20013 
 │                        │      ├ PkgID           : libc-bin@2.39-0ubuntu8.2 
 │                        │      ├ PkgName         : libc-bin 
@@ -1745,6 +1752,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ VendorSeverity   ╭ amazon     : 2 
 │                        │      │                  ├ cbl-mariner: 2 
+│                        │      │                  ├ oracle-oval: 2 
 │                        │      │                  ├ redhat     : 2 
 │                        │      │                  ╰ ubuntu     : 2 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
@@ -1753,11 +1761,13 @@
 │                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-37370 
 │                        │      │                  ├ [1]: https://github.com/krb5/krb5/commit/55fbf435edbe
 │                        │      │                  │      2e92dd8101669b1ce7144bc96fef 
-│                        │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-37370 
-│                        │      │                  ├ [3]: https://ubuntu.com/security/notices/USN-6947-1 
-│                        │      │                  ├ [4]: https://web.mit.edu/kerberos/www/advisories/ 
-│                        │      │                  ├ [5]: https://web.mit.edu/kerberos/www/krb5-1.21/ 
-│                        │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-37370 
+│                        │      │                  ├ [2]: https://linux.oracle.com/cve/CVE-2024-37370.html 
+│                        │      │                  ├ [3]: https://linux.oracle.com/errata/ELSA-2024-5312.html 
+│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-37370 
+│                        │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-6947-1 
+│                        │      │                  ├ [6]: https://web.mit.edu/kerberos/www/advisories/ 
+│                        │      │                  ├ [7]: https://web.mit.edu/kerberos/www/krb5-1.21/ 
+│                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-37370 
 │                        │      ├ PublishedDate   : 2024-06-28T22:15:02.293Z 
 │                        │      ╰ LastModifiedDate: 2024-07-01T12:37:24.22Z 
 │                        ├ [34] ╭ VulnerabilityID : CVE-2024-37371 
@@ -1786,6 +1796,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ VendorSeverity   ╭ amazon     : 2 
 │                        │      │                  ├ cbl-mariner: 2 
+│                        │      │                  ├ oracle-oval: 2 
 │                        │      │                  ├ redhat     : 2 
 │                        │      │                  ╰ ubuntu     : 2 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C
@@ -1794,11 +1805,13 @@
 │                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-37371 
 │                        │      │                  ├ [1]: https://github.com/krb5/krb5/commit/55fbf435edbe
 │                        │      │                  │      2e92dd8101669b1ce7144bc96fef 
-│                        │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-37371 
-│                        │      │                  ├ [3]: https://ubuntu.com/security/notices/USN-6947-1 
-│                        │      │                  ├ [4]: https://web.mit.edu/kerberos/www/advisories/ 
-│                        │      │                  ├ [5]: https://web.mit.edu/kerberos/www/krb5-1.21/ 
-│                        │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-37371 
+│                        │      │                  ├ [2]: https://linux.oracle.com/cve/CVE-2024-37371.html 
+│                        │      │                  ├ [3]: https://linux.oracle.com/errata/ELSA-2024-5312.html 
+│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-37371 
+│                        │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-6947-1 
+│                        │      │                  ├ [6]: https://web.mit.edu/kerberos/www/advisories/ 
+│                        │      │                  ├ [7]: https://web.mit.edu/kerberos/www/krb5-1.21/ 
+│                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-37371 
 │                        │      ├ PublishedDate   : 2024-06-28T23:15:11.603Z 
 │                        │      ╰ LastModifiedDate: 2024-07-01T12:37:24.22Z 
 │                        ├ [35] ╭ VulnerabilityID : CVE-2024-26458 
@@ -1879,6 +1892,7 @@
 │                        │      │                   vulnerability in
 │                        │      │                   /krb5/src/lib/gssapi/krb5/k5sealv3.c. 
 │                        │      ├ Severity        : LOW 
+│                        │      ├ CweIDs           ─ [0]: CWE-770 
 │                        │      ├ VendorSeverity   ╭ alma       : 1 
 │                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ cbl-mariner: 3 
@@ -1914,7 +1928,7 @@
 │                        │      │                  │       415-0011/ 
 │                        │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2024-26461 
 │                        │      ├ PublishedDate   : 2024-02-29T01:44:18.82Z 
-│                        │      ╰ LastModifiedDate: 2024-05-14T15:09:00.787Z 
+│                        │      ╰ LastModifiedDate: 2024-08-14T16:35:10.207Z 
 │                        ├ [37] ╭ VulnerabilityID : CVE-2024-26462 
 │                        │      ├ PkgID           : libk5crypto3@1.20.1-6ubuntu2 
 │                        │      ├ PkgName         : libk5crypto3 
@@ -1980,6 +1994,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ VendorSeverity   ╭ amazon     : 2 
 │                        │      │                  ├ cbl-mariner: 2 
+│                        │      │                  ├ oracle-oval: 2 
 │                        │      │                  ├ redhat     : 2 
 │                        │      │                  ╰ ubuntu     : 2 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
@@ -1988,11 +2003,13 @@
 │                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-37370 
 │                        │      │                  ├ [1]: https://github.com/krb5/krb5/commit/55fbf435edbe
 │                        │      │                  │      2e92dd8101669b1ce7144bc96fef 
-│                        │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-37370 
-│                        │      │                  ├ [3]: https://ubuntu.com/security/notices/USN-6947-1 
-│                        │      │                  ├ [4]: https://web.mit.edu/kerberos/www/advisories/ 
-│                        │      │                  ├ [5]: https://web.mit.edu/kerberos/www/krb5-1.21/ 
-│                        │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-37370 
+│                        │      │                  ├ [2]: https://linux.oracle.com/cve/CVE-2024-37370.html 
+│                        │      │                  ├ [3]: https://linux.oracle.com/errata/ELSA-2024-5312.html 
+│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-37370 
+│                        │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-6947-1 
+│                        │      │                  ├ [6]: https://web.mit.edu/kerberos/www/advisories/ 
+│                        │      │                  ├ [7]: https://web.mit.edu/kerberos/www/krb5-1.21/ 
+│                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-37370 
 │                        │      ├ PublishedDate   : 2024-06-28T22:15:02.293Z 
 │                        │      ╰ LastModifiedDate: 2024-07-01T12:37:24.22Z 
 │                        ├ [39] ╭ VulnerabilityID : CVE-2024-37371 
@@ -2021,6 +2038,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ VendorSeverity   ╭ amazon     : 2 
 │                        │      │                  ├ cbl-mariner: 2 
+│                        │      │                  ├ oracle-oval: 2 
 │                        │      │                  ├ redhat     : 2 
 │                        │      │                  ╰ ubuntu     : 2 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C
@@ -2029,11 +2047,13 @@
 │                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-37371 
 │                        │      │                  ├ [1]: https://github.com/krb5/krb5/commit/55fbf435edbe
 │                        │      │                  │      2e92dd8101669b1ce7144bc96fef 
-│                        │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-37371 
-│                        │      │                  ├ [3]: https://ubuntu.com/security/notices/USN-6947-1 
-│                        │      │                  ├ [4]: https://web.mit.edu/kerberos/www/advisories/ 
-│                        │      │                  ├ [5]: https://web.mit.edu/kerberos/www/krb5-1.21/ 
-│                        │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-37371 
+│                        │      │                  ├ [2]: https://linux.oracle.com/cve/CVE-2024-37371.html 
+│                        │      │                  ├ [3]: https://linux.oracle.com/errata/ELSA-2024-5312.html 
+│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-37371 
+│                        │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-6947-1 
+│                        │      │                  ├ [6]: https://web.mit.edu/kerberos/www/advisories/ 
+│                        │      │                  ├ [7]: https://web.mit.edu/kerberos/www/krb5-1.21/ 
+│                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-37371 
 │                        │      ├ PublishedDate   : 2024-06-28T23:15:11.603Z 
 │                        │      ╰ LastModifiedDate: 2024-07-01T12:37:24.22Z 
 │                        ├ [40] ╭ VulnerabilityID : CVE-2024-26458 
@@ -2114,6 +2134,7 @@
 │                        │      │                   vulnerability in
 │                        │      │                   /krb5/src/lib/gssapi/krb5/k5sealv3.c. 
 │                        │      ├ Severity        : LOW 
+│                        │      ├ CweIDs           ─ [0]: CWE-770 
 │                        │      ├ VendorSeverity   ╭ alma       : 1 
 │                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ cbl-mariner: 3 
@@ -2149,7 +2170,7 @@
 │                        │      │                  │       415-0011/ 
 │                        │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2024-26461 
 │                        │      ├ PublishedDate   : 2024-02-29T01:44:18.82Z 
-│                        │      ╰ LastModifiedDate: 2024-05-14T15:09:00.787Z 
+│                        │      ╰ LastModifiedDate: 2024-08-14T16:35:10.207Z 
 │                        ├ [42] ╭ VulnerabilityID : CVE-2024-26462 
 │                        │      ├ PkgID           : libkrb5-3@1.20.1-6ubuntu2 
 │                        │      ├ PkgName         : libkrb5-3 
@@ -2215,6 +2236,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ VendorSeverity   ╭ amazon     : 2 
 │                        │      │                  ├ cbl-mariner: 2 
+│                        │      │                  ├ oracle-oval: 2 
 │                        │      │                  ├ redhat     : 2 
 │                        │      │                  ╰ ubuntu     : 2 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
@@ -2223,11 +2245,13 @@
 │                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-37370 
 │                        │      │                  ├ [1]: https://github.com/krb5/krb5/commit/55fbf435edbe
 │                        │      │                  │      2e92dd8101669b1ce7144bc96fef 
-│                        │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-37370 
-│                        │      │                  ├ [3]: https://ubuntu.com/security/notices/USN-6947-1 
-│                        │      │                  ├ [4]: https://web.mit.edu/kerberos/www/advisories/ 
-│                        │      │                  ├ [5]: https://web.mit.edu/kerberos/www/krb5-1.21/ 
-│                        │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-37370 
+│                        │      │                  ├ [2]: https://linux.oracle.com/cve/CVE-2024-37370.html 
+│                        │      │                  ├ [3]: https://linux.oracle.com/errata/ELSA-2024-5312.html 
+│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-37370 
+│                        │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-6947-1 
+│                        │      │                  ├ [6]: https://web.mit.edu/kerberos/www/advisories/ 
+│                        │      │                  ├ [7]: https://web.mit.edu/kerberos/www/krb5-1.21/ 
+│                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-37370 
 │                        │      ├ PublishedDate   : 2024-06-28T22:15:02.293Z 
 │                        │      ╰ LastModifiedDate: 2024-07-01T12:37:24.22Z 
 │                        ├ [44] ╭ VulnerabilityID : CVE-2024-37371 
@@ -2256,6 +2280,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ VendorSeverity   ╭ amazon     : 2 
 │                        │      │                  ├ cbl-mariner: 2 
+│                        │      │                  ├ oracle-oval: 2 
 │                        │      │                  ├ redhat     : 2 
 │                        │      │                  ╰ ubuntu     : 2 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C
@@ -2264,11 +2289,13 @@
 │                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-37371 
 │                        │      │                  ├ [1]: https://github.com/krb5/krb5/commit/55fbf435edbe
 │                        │      │                  │      2e92dd8101669b1ce7144bc96fef 
-│                        │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-37371 
-│                        │      │                  ├ [3]: https://ubuntu.com/security/notices/USN-6947-1 
-│                        │      │                  ├ [4]: https://web.mit.edu/kerberos/www/advisories/ 
-│                        │      │                  ├ [5]: https://web.mit.edu/kerberos/www/krb5-1.21/ 
-│                        │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-37371 
+│                        │      │                  ├ [2]: https://linux.oracle.com/cve/CVE-2024-37371.html 
+│                        │      │                  ├ [3]: https://linux.oracle.com/errata/ELSA-2024-5312.html 
+│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-37371 
+│                        │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-6947-1 
+│                        │      │                  ├ [6]: https://web.mit.edu/kerberos/www/advisories/ 
+│                        │      │                  ├ [7]: https://web.mit.edu/kerberos/www/krb5-1.21/ 
+│                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-37371 
 │                        │      ├ PublishedDate   : 2024-06-28T23:15:11.603Z 
 │                        │      ╰ LastModifiedDate: 2024-07-01T12:37:24.22Z 
 │                        ├ [45] ╭ VulnerabilityID : CVE-2024-26458 
@@ -2349,6 +2376,7 @@
 │                        │      │                   vulnerability in
 │                        │      │                   /krb5/src/lib/gssapi/krb5/k5sealv3.c. 
 │                        │      ├ Severity        : LOW 
+│                        │      ├ CweIDs           ─ [0]: CWE-770 
 │                        │      ├ VendorSeverity   ╭ alma       : 1 
 │                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ cbl-mariner: 3 
@@ -2384,7 +2412,7 @@
 │                        │      │                  │       415-0011/ 
 │                        │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2024-26461 
 │                        │      ├ PublishedDate   : 2024-02-29T01:44:18.82Z 
-│                        │      ╰ LastModifiedDate: 2024-05-14T15:09:00.787Z 
+│                        │      ╰ LastModifiedDate: 2024-08-14T16:35:10.207Z 
 │                        ├ [47] ╭ VulnerabilityID : CVE-2024-26462 
 │                        │      ├ PkgID           : libkrb5support0@1.20.1-6ubuntu2 
 │                        │      ├ PkgName         : libkrb5support0 
@@ -2450,6 +2478,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ VendorSeverity   ╭ amazon     : 2 
 │                        │      │                  ├ cbl-mariner: 2 
+│                        │      │                  ├ oracle-oval: 2 
 │                        │      │                  ├ redhat     : 2 
 │                        │      │                  ╰ ubuntu     : 2 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
@@ -2458,11 +2487,13 @@
 │                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-37370 
 │                        │      │                  ├ [1]: https://github.com/krb5/krb5/commit/55fbf435edbe
 │                        │      │                  │      2e92dd8101669b1ce7144bc96fef 
-│                        │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-37370 
-│                        │      │                  ├ [3]: https://ubuntu.com/security/notices/USN-6947-1 
-│                        │      │                  ├ [4]: https://web.mit.edu/kerberos/www/advisories/ 
-│                        │      │                  ├ [5]: https://web.mit.edu/kerberos/www/krb5-1.21/ 
-│                        │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-37370 
+│                        │      │                  ├ [2]: https://linux.oracle.com/cve/CVE-2024-37370.html 
+│                        │      │                  ├ [3]: https://linux.oracle.com/errata/ELSA-2024-5312.html 
+│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-37370 
+│                        │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-6947-1 
+│                        │      │                  ├ [6]: https://web.mit.edu/kerberos/www/advisories/ 
+│                        │      │                  ├ [7]: https://web.mit.edu/kerberos/www/krb5-1.21/ 
+│                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-37370 
 │                        │      ├ PublishedDate   : 2024-06-28T22:15:02.293Z 
 │                        │      ╰ LastModifiedDate: 2024-07-01T12:37:24.22Z 
 │                        ├ [49] ╭ VulnerabilityID : CVE-2024-37371 
@@ -2491,6 +2522,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ VendorSeverity   ╭ amazon     : 2 
 │                        │      │                  ├ cbl-mariner: 2 
+│                        │      │                  ├ oracle-oval: 2 
 │                        │      │                  ├ redhat     : 2 
 │                        │      │                  ╰ ubuntu     : 2 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C
@@ -2499,11 +2531,13 @@
 │                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-37371 
 │                        │      │                  ├ [1]: https://github.com/krb5/krb5/commit/55fbf435edbe
 │                        │      │                  │      2e92dd8101669b1ce7144bc96fef 
-│                        │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-37371 
-│                        │      │                  ├ [3]: https://ubuntu.com/security/notices/USN-6947-1 
-│                        │      │                  ├ [4]: https://web.mit.edu/kerberos/www/advisories/ 
-│                        │      │                  ├ [5]: https://web.mit.edu/kerberos/www/krb5-1.21/ 
-│                        │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-37371 
+│                        │      │                  ├ [2]: https://linux.oracle.com/cve/CVE-2024-37371.html 
+│                        │      │                  ├ [3]: https://linux.oracle.com/errata/ELSA-2024-5312.html 
+│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-37371 
+│                        │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-6947-1 
+│                        │      │                  ├ [6]: https://web.mit.edu/kerberos/www/advisories/ 
+│                        │      │                  ├ [7]: https://web.mit.edu/kerberos/www/krb5-1.21/ 
+│                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-37371 
 │                        │      ├ PublishedDate   : 2024-06-28T23:15:11.603Z 
 │                        │      ╰ LastModifiedDate: 2024-07-01T12:37:24.22Z 
 │                        ├ [50] ╭ VulnerabilityID : CVE-2024-26458 
@@ -2584,6 +2618,7 @@
 │                        │      │                   vulnerability in
 │                        │      │                   /krb5/src/lib/gssapi/krb5/k5sealv3.c. 
 │                        │      ├ Severity        : LOW 
+│                        │      ├ CweIDs           ─ [0]: CWE-770 
 │                        │      ├ VendorSeverity   ╭ alma       : 1 
 │                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ cbl-mariner: 3 
@@ -2619,7 +2654,7 @@
 │                        │      │                  │       415-0011/ 
 │                        │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2024-26461 
 │                        │      ├ PublishedDate   : 2024-02-29T01:44:18.82Z 
-│                        │      ╰ LastModifiedDate: 2024-05-14T15:09:00.787Z 
+│                        │      ╰ LastModifiedDate: 2024-08-14T16:35:10.207Z 
 │                        ├ [52] ╭ VulnerabilityID : CVE-2018-6952 
 │                        │      ├ PkgID           : patch@2.7.6-7build3 
 │                        │      ├ PkgName         : patch 
@@ -3873,7 +3908,7 @@
 │                        │      │                  ╰ [236]: https://www.theregister.com/2023/10/10/http2_r
 │                        │      │                           apid_reset_zeroday/ 
 │                        │      ├ PublishedDate   : 2023-10-10T14:15:10.883Z 
-│                        │      ╰ LastModifiedDate: 2024-08-01T13:44:53.5Z 
+│                        │      ╰ LastModifiedDate: 2024-08-14T19:57:18.86Z 
 │                        ├ [3]  ╭ VulnerabilityID : CVE-2023-45288 
 │                        │      ├ PkgName         : golang.org/x/net 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/golang.org/x/net@v0.12.0 
@@ -4046,7 +4081,7 @@
 │                        │      │                  ├ [17]: https://groups.google.com/g/golang-announce/c/X
 │                        │      │                  │       bxouI9gY7k/m/TuoGEhxIEwAJ 
 │                        │      │                  ├ [18]: https://linux.oracle.com/cve/CVE-2024-24790.html 
-│                        │      │                  ├ [19]: https://linux.oracle.com/errata/ELSA-2024-4237.html 
+│                        │      │                  ├ [19]: https://linux.oracle.com/errata/ELSA-2024-5291.html 
 │                        │      │                  ├ [20]: https://nvd.nist.gov/vuln/detail/CVE-2024-24790 
 │                        │      │                  ├ [21]: https://pkg.go.dev/vuln/GO-2024-2887 
 │                        │      │                  ├ [22]: https://ubuntu.com/security/notices/USN-6886-1 
@@ -5077,7 +5112,7 @@
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
 │                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ cbl-mariner: 2 
-│                        │      │                  ├ oracle-oval: 2 
+│                        │      │                  ├ oracle-oval: 3 
 │                        │      │                  ├ redhat     : 2 
 │                        │      │                  ├ rocky      : 2 
 │                        │      │                  ╰ ubuntu     : 2 
@@ -5105,7 +5140,7 @@
 │                        │      │                  ├ [13]: https://groups.google.com/g/golang-announce/c/5
 │                        │      │                  │       pwGVUPoMbg 
 │                        │      │                  ├ [14]: https://linux.oracle.com/cve/CVE-2023-45290.html 
-│                        │      │                  ├ [15]: https://linux.oracle.com/errata/ELSA-2024-3831.html 
+│                        │      │                  ├ [15]: https://linux.oracle.com/errata/ELSA-2024-5258.html 
 │                        │      │                  ├ [16]: https://nvd.nist.gov/vuln/detail/CVE-2023-45290 
 │                        │      │                  ├ [17]: https://pkg.go.dev/vuln/GO-2024-2599 
 │                        │      │                  ├ [18]: https://security.netapp.com/advisory/ntap-20240
@@ -5185,7 +5220,7 @@
 │                        │      │                  ├ [23]: https://groups.google.com/g/golang-announce/c/5
 │                        │      │                  │       pwGVUPoMbg 
 │                        │      │                  ├ [24]: https://linux.oracle.com/cve/CVE-2024-24783.html 
-│                        │      │                  ├ [25]: https://linux.oracle.com/errata/ELSA-2024-3346.html 
+│                        │      │                  ├ [25]: https://linux.oracle.com/errata/ELSA-2024-5258.html 
 │                        │      │                  ├ [26]: https://nvd.nist.gov/vuln/detail/CVE-2024-24783 
 │                        │      │                  ├ [27]: https://pkg.go.dev/vuln/GO-2024-2598 
 │                        │      │                  ├ [28]: https://security.netapp.com/advisory/ntap-20240
@@ -5278,7 +5313,7 @@
 │                        │      │                  ├ [31]: https://groups.google.com/g/golang-announce/c/5
 │                        │      │                  │       pwGVUPoMbg 
 │                        │      │                  ├ [32]: https://linux.oracle.com/cve/CVE-2024-24784.html 
-│                        │      │                  ├ [33]: https://linux.oracle.com/errata/ELSA-2024-3259.html 
+│                        │      │                  ├ [33]: https://linux.oracle.com/errata/ELSA-2024-5258.html 
 │                        │      │                  ├ [34]: https://nvd.nist.gov/vuln/detail/CVE-2024-24784 
 │                        │      │                  ├ [35]: https://pkg.go.dev/vuln/GO-2024-2609 
 │                        │      │                  ├ [36]: https://security.netapp.com/advisory/ntap-20240
@@ -5447,7 +5482,7 @@
 │                        │      │                  ├ [17]: https://groups.google.com/g/golang-announce/c/X
 │                        │      │                  │       bxouI9gY7k/m/TuoGEhxIEwAJ 
 │                        │      │                  ├ [18]: https://linux.oracle.com/cve/CVE-2024-24789.html 
-│                        │      │                  ├ [19]: https://linux.oracle.com/errata/ELSA-2024-4237.html 
+│                        │      │                  ├ [19]: https://linux.oracle.com/errata/ELSA-2024-5291.html 
 │                        │      │                  ├ [20]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce@lists.fedoraproject.org/message/U5YA
 │                        │      │                  │       EIA6IUHUNGJ7AIXXPQT6D2GYENX7/ 
@@ -6438,7 +6473,7 @@
 │                        │      │                  ╰ [236]: https://www.theregister.com/2023/10/10/http2_r
 │                        │      │                           apid_reset_zeroday/ 
 │                        │      ├ PublishedDate   : 2023-10-10T14:15:10.883Z 
-│                        │      ╰ LastModifiedDate: 2024-08-01T13:44:53.5Z 
+│                        │      ╰ LastModifiedDate: 2024-08-14T19:57:18.86Z 
 │                        ├ [3]  ╭ VulnerabilityID : CVE-2023-45288 
 │                        │      ├ PkgName         : golang.org/x/net 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/golang.org/x/net@v0.12.0 
@@ -6611,7 +6646,7 @@
 │                        │      │                  ├ [17]: https://groups.google.com/g/golang-announce/c/X
 │                        │      │                  │       bxouI9gY7k/m/TuoGEhxIEwAJ 
 │                        │      │                  ├ [18]: https://linux.oracle.com/cve/CVE-2024-24790.html 
-│                        │      │                  ├ [19]: https://linux.oracle.com/errata/ELSA-2024-4237.html 
+│                        │      │                  ├ [19]: https://linux.oracle.com/errata/ELSA-2024-5291.html 
 │                        │      │                  ├ [20]: https://nvd.nist.gov/vuln/detail/CVE-2024-24790 
 │                        │      │                  ├ [21]: https://pkg.go.dev/vuln/GO-2024-2887 
 │                        │      │                  ├ [22]: https://ubuntu.com/security/notices/USN-6886-1 
@@ -7642,7 +7677,7 @@
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
 │                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ cbl-mariner: 2 
-│                        │      │                  ├ oracle-oval: 2 
+│                        │      │                  ├ oracle-oval: 3 
 │                        │      │                  ├ redhat     : 2 
 │                        │      │                  ├ rocky      : 2 
 │                        │      │                  ╰ ubuntu     : 2 
@@ -7670,7 +7705,7 @@
 │                        │      │                  ├ [13]: https://groups.google.com/g/golang-announce/c/5
 │                        │      │                  │       pwGVUPoMbg 
 │                        │      │                  ├ [14]: https://linux.oracle.com/cve/CVE-2023-45290.html 
-│                        │      │                  ├ [15]: https://linux.oracle.com/errata/ELSA-2024-3831.html 
+│                        │      │                  ├ [15]: https://linux.oracle.com/errata/ELSA-2024-5258.html 
 │                        │      │                  ├ [16]: https://nvd.nist.gov/vuln/detail/CVE-2023-45290 
 │                        │      │                  ├ [17]: https://pkg.go.dev/vuln/GO-2024-2599 
 │                        │      │                  ├ [18]: https://security.netapp.com/advisory/ntap-20240
@@ -7750,7 +7785,7 @@
 │                        │      │                  ├ [23]: https://groups.google.com/g/golang-announce/c/5
 │                        │      │                  │       pwGVUPoMbg 
 │                        │      │                  ├ [24]: https://linux.oracle.com/cve/CVE-2024-24783.html 
-│                        │      │                  ├ [25]: https://linux.oracle.com/errata/ELSA-2024-3346.html 
+│                        │      │                  ├ [25]: https://linux.oracle.com/errata/ELSA-2024-5258.html 
 │                        │      │                  ├ [26]: https://nvd.nist.gov/vuln/detail/CVE-2024-24783 
 │                        │      │                  ├ [27]: https://pkg.go.dev/vuln/GO-2024-2598 
 │                        │      │                  ├ [28]: https://security.netapp.com/advisory/ntap-20240
@@ -7843,7 +7878,7 @@
 │                        │      │                  ├ [31]: https://groups.google.com/g/golang-announce/c/5
 │                        │      │                  │       pwGVUPoMbg 
 │                        │      │                  ├ [32]: https://linux.oracle.com/cve/CVE-2024-24784.html 
-│                        │      │                  ├ [33]: https://linux.oracle.com/errata/ELSA-2024-3259.html 
+│                        │      │                  ├ [33]: https://linux.oracle.com/errata/ELSA-2024-5258.html 
 │                        │      │                  ├ [34]: https://nvd.nist.gov/vuln/detail/CVE-2024-24784 
 │                        │      │                  ├ [35]: https://pkg.go.dev/vuln/GO-2024-2609 
 │                        │      │                  ├ [36]: https://security.netapp.com/advisory/ntap-20240
@@ -8012,7 +8047,7 @@
 │                        │      │                  ├ [17]: https://groups.google.com/g/golang-announce/c/X
 │                        │      │                  │       bxouI9gY7k/m/TuoGEhxIEwAJ 
 │                        │      │                  ├ [18]: https://linux.oracle.com/cve/CVE-2024-24789.html 
-│                        │      │                  ├ [19]: https://linux.oracle.com/errata/ELSA-2024-4237.html 
+│                        │      │                  ├ [19]: https://linux.oracle.com/errata/ELSA-2024-5291.html 
 │                        │      │                  ├ [20]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce@lists.fedoraproject.org/message/U5YA
 │                        │      │                  │       EIA6IUHUNGJ7AIXXPQT6D2GYENX7/ 
@@ -8471,181 +8506,7 @@
 │                                                 │      c0f3b7a7786754d1fe05264c3021eb 
 │                                                 ╰ [2]: https://github.com/grpc/grpc-go/security/advisori
 │                                                        es/GHSA-xr7q-jx4m-x55m 
-├ [9]  ╭ Target : /etc/ssh/ssh_host_rsa_key 
-│      ├ Class  : secret 
-│      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
-│                      ├ Category : AsymmetricPrivateKey 
-│                      ├ Severity : HIGH 
-│                      ├ Title    : Asymmetric Private Key 
-│                      ├ StartLine: 1 
-│                      ├ EndLine  : 1 
-│                      ├ Code      ─ Lines ╭ [0] ╭ Number     : 1 
-│                      │                   │     ├ Content    : BEGIN OPENSSH PRIVATE
-│                      │                   │     │              KEY-----***************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********-----END OPENSSH PRI 
-│                      │                   │     ├ IsCause    : true 
-│                      │                   │     ├ Annotation :  
-│                      │                   │     ├ Truncated  : false 
-│                      │                   │     ├ Highlighted: BEGIN OPENSSH PRIVATE
-│                      │                   │     │              KEY-----***************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********-----END OPENSSH PRI 
-│                      │                   │     ├ FirstCause : true 
-│                      │                   │     ╰ LastCause  : true 
-│                      │                   ╰ [1] ╭ Number    : 2 
-│                      │                         ├ Content   :  
-│                      │                         ├ IsCause   : false 
-│                      │                         ├ Annotation:  
-│                      │                         ├ Truncated : false 
-│                      │                         ├ FirstCause: false 
-│                      │                         ╰ LastCause : false 
-│                      ├ Match    : BEGIN OPENSSH PRIVATE
-│                      │            KEY-----*******************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            **************************************************************************-
-│                      │            ----END OPENSSH PRI 
-│                      ╰ Layer     ╭ Digest   : sha256:bdfe9683b09a72cfbea152c906f7414b55bd5484a0f4bcaca61
-│                                  │            233b181b64859 
-│                                  ├ DiffID   : sha256:d0fae7845c7b77e4a5148b5f481e5b6bd9d549b1dab290b72ff
-│                                  │            aa3696cac1984 
-│                                  ╰ CreatedBy: COPY / / # buildkit 
-├ [10] ╭ Target : /etc/ssh/ssh_host_ecdsa_key 
+├ [9]  ╭ Target : /etc/ssh/ssh_host_ecdsa_key 
 │      ├ Class  : secret 
 │      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
 │                      ├ Category : AsymmetricPrivateKey 
@@ -8703,7 +8564,60 @@
 │                                  ├ DiffID   : sha256:d0fae7845c7b77e4a5148b5f481e5b6bd9d549b1dab290b72ff
 │                                  │            aa3696cac1984 
 │                                  ╰ CreatedBy: COPY / / # buildkit 
-╰ [11] ╭ Target : /etc/ssh/ssh_host_ed25519_key 
+├ [10] ╭ Target : /etc/ssh/ssh_host_ed25519_key 
+│      ├ Class  : secret 
+│      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
+│                      ├ Category : AsymmetricPrivateKey 
+│                      ├ Severity : HIGH 
+│                      ├ Title    : Asymmetric Private Key 
+│                      ├ StartLine: 1 
+│                      ├ EndLine  : 1 
+│                      ├ Code      ─ Lines ╭ [0] ╭ Number     : 1 
+│                      │                   │     ├ Content    : BEGIN OPENSSH PRIVATE
+│                      │                   │     │              KEY-----***************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              *********************-----END OPENSSH
+│                      │                   │     │              PRI 
+│                      │                   │     ├ IsCause    : true 
+│                      │                   │     ├ Annotation :  
+│                      │                   │     ├ Truncated  : false 
+│                      │                   │     ├ Highlighted: BEGIN OPENSSH PRIVATE
+│                      │                   │     │              KEY-----***************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              *********************-----END OPENSSH
+│                      │                   │     │              PRI 
+│                      │                   │     ├ FirstCause : true 
+│                      │                   │     ╰ LastCause  : true 
+│                      │                   ╰ [1] ╭ Number    : 2 
+│                      │                         ├ Content   :  
+│                      │                         ├ IsCause   : false 
+│                      │                         ├ Annotation:  
+│                      │                         ├ Truncated : false 
+│                      │                         ├ FirstCause: false 
+│                      │                         ╰ LastCause : false 
+│                      ├ Match    : BEGIN OPENSSH PRIVATE
+│                      │            KEY-----*******************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            **************************************************-----END OPENSSH
+│                      │            PRI 
+│                      ╰ Layer     ╭ Digest   : sha256:bdfe9683b09a72cfbea152c906f7414b55bd5484a0f4bcaca61
+│                                  │            233b181b64859 
+│                                  ├ DiffID   : sha256:d0fae7845c7b77e4a5148b5f481e5b6bd9d549b1dab290b72ff
+│                                  │            aa3696cac1984 
+│                                  ╰ CreatedBy: COPY / / # buildkit 
+╰ [11] ╭ Target : /etc/ssh/ssh_host_rsa_key 
        ├ Class  : secret 
        ╰ Secrets ─ [0] ╭ RuleID   : private-key 
                        ├ Category : AsymmetricPrivateKey 
@@ -8720,8 +8634,54 @@
                        │                   │     │              ***********************************************
                        │                   │     │              ***********************************************
                        │                   │     │              ***********************************************
-                       │                   │     │              *********************-----END OPENSSH
-                       │                   │     │              PRI 
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********-----END OPENSSH PRI 
                        │                   │     ├ IsCause    : true 
                        │                   │     ├ Annotation :  
                        │                   │     ├ Truncated  : false 
@@ -8733,8 +8693,54 @@
                        │                   │     │              ***********************************************
                        │                   │     │              ***********************************************
                        │                   │     │              ***********************************************
-                       │                   │     │              *********************-----END OPENSSH
-                       │                   │     │              PRI 
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********-----END OPENSSH PRI 
                        │                   │     ├ FirstCause : true 
                        │                   │     ╰ LastCause  : true 
                        │                   ╰ [1] ╭ Number    : 2 
@@ -8749,8 +8755,37 @@
                        │            ***************************************************************************
                        │            ***************************************************************************
                        │            ***************************************************************************
-                       │            **************************************************-----END OPENSSH
-                       │            PRI 
+                       │            ***************************************************************************
+                       │            ***************************************************************************
+                       │            ***************************************************************************
+                       │            ***************************************************************************
+                       │            ***************************************************************************
+                       │            ***************************************************************************
+                       │            ***************************************************************************
+                       │            ***************************************************************************
+                       │            ***************************************************************************
+                       │            ***************************************************************************
+                       │            ***************************************************************************
+                       │            ***************************************************************************
+                       │            ***************************************************************************
+                       │            ***************************************************************************
+                       │            ***************************************************************************
+                       │            ***************************************************************************
+                       │            ***************************************************************************
+                       │            ***************************************************************************
+                       │            ***************************************************************************
+                       │            ***************************************************************************
+                       │            ***************************************************************************
+                       │            ***************************************************************************
+                       │            ***************************************************************************
+                       │            ***************************************************************************
+                       │            ***************************************************************************
+                       │            ***************************************************************************
+                       │            ***************************************************************************
+                       │            ***************************************************************************
+                       │            ***************************************************************************
+                       │            **************************************************************************-
+                       │            ----END OPENSSH PRI 
                        ╰ Layer     ╭ Digest   : sha256:bdfe9683b09a72cfbea152c906f7414b55bd5484a0f4bcaca61
                                    │            233b181b64859 
                                    ├ DiffID   : sha256:d0fae7845c7b77e4a5148b5f481e5b6bd9d549b1dab290b72ff
