@@ -1075,6 +1075,7 @@
     VendorSeverity:
       amazon: 2
       cbl-mariner: 2
+      oracle-oval: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -1084,6 +1085,8 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2024-37370
     - https://github.com/krb5/krb5/commit/55fbf435edbe2e92dd8101669b1ce7144bc96fef
+    - https://linux.oracle.com/cve/CVE-2024-37370.html
+    - https://linux.oracle.com/errata/ELSA-2024-5312.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-37370
     - https://ubuntu.com/security/notices/USN-6947-1
     - https://web.mit.edu/kerberos/www/advisories/
@@ -1115,6 +1118,7 @@
     VendorSeverity:
       amazon: 2
       cbl-mariner: 2
+      oracle-oval: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -1124,6 +1128,8 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2024-37371
     - https://github.com/krb5/krb5/commit/55fbf435edbe2e92dd8101669b1ce7144bc96fef
+    - https://linux.oracle.com/cve/CVE-2024-37371.html
+    - https://linux.oracle.com/errata/ELSA-2024-5312.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-37371
     - https://ubuntu.com/security/notices/USN-6947-1
     - https://web.mit.edu/kerberos/www/advisories/
@@ -1203,6 +1209,8 @@
     Title: 'krb5: Memory leak at /krb5/src/lib/gssapi/krb5/k5sealv3.c'
     Description: Kerberos 5 (aka krb5) 1.21.2 contains a memory leak vulnerability in /krb5/src/lib/gssapi/krb5/k5sealv3.c.
     Severity: LOW
+    CweIDs:
+    - CWE-770
     VendorSeverity:
       alma: 1
       amazon: 2
@@ -1235,7 +1243,7 @@
     - https://security.netapp.com/advisory/ntap-20240415-0011/
     - https://www.cve.org/CVERecord?id=CVE-2024-26461
     PublishedDate: '2024-02-29T01:44:18.82Z'
-    LastModifiedDate: '2024-05-14T15:09:00.787Z'
+    LastModifiedDate: '2024-08-14T16:35:10.207Z'
   - VulnerabilityID: CVE-2016-20013
     PkgID: libc-bin@2.39-0ubuntu8.2
     PkgName: libc-bin
@@ -1577,6 +1585,7 @@
     VendorSeverity:
       amazon: 2
       cbl-mariner: 2
+      oracle-oval: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -1586,6 +1595,8 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2024-37370
     - https://github.com/krb5/krb5/commit/55fbf435edbe2e92dd8101669b1ce7144bc96fef
+    - https://linux.oracle.com/cve/CVE-2024-37370.html
+    - https://linux.oracle.com/errata/ELSA-2024-5312.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-37370
     - https://ubuntu.com/security/notices/USN-6947-1
     - https://web.mit.edu/kerberos/www/advisories/
@@ -1617,6 +1628,7 @@
     VendorSeverity:
       amazon: 2
       cbl-mariner: 2
+      oracle-oval: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -1626,6 +1638,8 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2024-37371
     - https://github.com/krb5/krb5/commit/55fbf435edbe2e92dd8101669b1ce7144bc96fef
+    - https://linux.oracle.com/cve/CVE-2024-37371.html
+    - https://linux.oracle.com/errata/ELSA-2024-5312.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-37371
     - https://ubuntu.com/security/notices/USN-6947-1
     - https://web.mit.edu/kerberos/www/advisories/
@@ -1705,6 +1719,8 @@
     Title: 'krb5: Memory leak at /krb5/src/lib/gssapi/krb5/k5sealv3.c'
     Description: Kerberos 5 (aka krb5) 1.21.2 contains a memory leak vulnerability in /krb5/src/lib/gssapi/krb5/k5sealv3.c.
     Severity: LOW
+    CweIDs:
+    - CWE-770
     VendorSeverity:
       alma: 1
       amazon: 2
@@ -1737,7 +1753,7 @@
     - https://security.netapp.com/advisory/ntap-20240415-0011/
     - https://www.cve.org/CVERecord?id=CVE-2024-26461
     PublishedDate: '2024-02-29T01:44:18.82Z'
-    LastModifiedDate: '2024-05-14T15:09:00.787Z'
+    LastModifiedDate: '2024-08-14T16:35:10.207Z'
   - VulnerabilityID: CVE-2024-26462
     PkgID: libk5crypto3@1.20.1-6ubuntu2
     PkgName: libk5crypto3
@@ -1800,6 +1816,7 @@
     VendorSeverity:
       amazon: 2
       cbl-mariner: 2
+      oracle-oval: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -1809,6 +1826,8 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2024-37370
     - https://github.com/krb5/krb5/commit/55fbf435edbe2e92dd8101669b1ce7144bc96fef
+    - https://linux.oracle.com/cve/CVE-2024-37370.html
+    - https://linux.oracle.com/errata/ELSA-2024-5312.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-37370
     - https://ubuntu.com/security/notices/USN-6947-1
     - https://web.mit.edu/kerberos/www/advisories/
@@ -1840,6 +1859,7 @@
     VendorSeverity:
       amazon: 2
       cbl-mariner: 2
+      oracle-oval: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -1849,6 +1869,8 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2024-37371
     - https://github.com/krb5/krb5/commit/55fbf435edbe2e92dd8101669b1ce7144bc96fef
+    - https://linux.oracle.com/cve/CVE-2024-37371.html
+    - https://linux.oracle.com/errata/ELSA-2024-5312.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-37371
     - https://ubuntu.com/security/notices/USN-6947-1
     - https://web.mit.edu/kerberos/www/advisories/
@@ -1928,6 +1950,8 @@
     Title: 'krb5: Memory leak at /krb5/src/lib/gssapi/krb5/k5sealv3.c'
     Description: Kerberos 5 (aka krb5) 1.21.2 contains a memory leak vulnerability in /krb5/src/lib/gssapi/krb5/k5sealv3.c.
     Severity: LOW
+    CweIDs:
+    - CWE-770
     VendorSeverity:
       alma: 1
       amazon: 2
@@ -1960,7 +1984,7 @@
     - https://security.netapp.com/advisory/ntap-20240415-0011/
     - https://www.cve.org/CVERecord?id=CVE-2024-26461
     PublishedDate: '2024-02-29T01:44:18.82Z'
-    LastModifiedDate: '2024-05-14T15:09:00.787Z'
+    LastModifiedDate: '2024-08-14T16:35:10.207Z'
   - VulnerabilityID: CVE-2024-26462
     PkgID: libkrb5-3@1.20.1-6ubuntu2
     PkgName: libkrb5-3
@@ -2023,6 +2047,7 @@
     VendorSeverity:
       amazon: 2
       cbl-mariner: 2
+      oracle-oval: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -2032,6 +2057,8 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2024-37370
     - https://github.com/krb5/krb5/commit/55fbf435edbe2e92dd8101669b1ce7144bc96fef
+    - https://linux.oracle.com/cve/CVE-2024-37370.html
+    - https://linux.oracle.com/errata/ELSA-2024-5312.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-37370
     - https://ubuntu.com/security/notices/USN-6947-1
     - https://web.mit.edu/kerberos/www/advisories/
@@ -2063,6 +2090,7 @@
     VendorSeverity:
       amazon: 2
       cbl-mariner: 2
+      oracle-oval: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -2072,6 +2100,8 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2024-37371
     - https://github.com/krb5/krb5/commit/55fbf435edbe2e92dd8101669b1ce7144bc96fef
+    - https://linux.oracle.com/cve/CVE-2024-37371.html
+    - https://linux.oracle.com/errata/ELSA-2024-5312.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-37371
     - https://ubuntu.com/security/notices/USN-6947-1
     - https://web.mit.edu/kerberos/www/advisories/
@@ -2151,6 +2181,8 @@
     Title: 'krb5: Memory leak at /krb5/src/lib/gssapi/krb5/k5sealv3.c'
     Description: Kerberos 5 (aka krb5) 1.21.2 contains a memory leak vulnerability in /krb5/src/lib/gssapi/krb5/k5sealv3.c.
     Severity: LOW
+    CweIDs:
+    - CWE-770
     VendorSeverity:
       alma: 1
       amazon: 2
@@ -2183,7 +2215,7 @@
     - https://security.netapp.com/advisory/ntap-20240415-0011/
     - https://www.cve.org/CVERecord?id=CVE-2024-26461
     PublishedDate: '2024-02-29T01:44:18.82Z'
-    LastModifiedDate: '2024-05-14T15:09:00.787Z'
+    LastModifiedDate: '2024-08-14T16:35:10.207Z'
   - VulnerabilityID: CVE-2024-26462
     PkgID: libkrb5support0@1.20.1-6ubuntu2
     PkgName: libkrb5support0
@@ -2246,6 +2278,7 @@
     VendorSeverity:
       amazon: 2
       cbl-mariner: 2
+      oracle-oval: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -2255,6 +2288,8 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2024-37370
     - https://github.com/krb5/krb5/commit/55fbf435edbe2e92dd8101669b1ce7144bc96fef
+    - https://linux.oracle.com/cve/CVE-2024-37370.html
+    - https://linux.oracle.com/errata/ELSA-2024-5312.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-37370
     - https://ubuntu.com/security/notices/USN-6947-1
     - https://web.mit.edu/kerberos/www/advisories/
@@ -2286,6 +2321,7 @@
     VendorSeverity:
       amazon: 2
       cbl-mariner: 2
+      oracle-oval: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -2295,6 +2331,8 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2024-37371
     - https://github.com/krb5/krb5/commit/55fbf435edbe2e92dd8101669b1ce7144bc96fef
+    - https://linux.oracle.com/cve/CVE-2024-37371.html
+    - https://linux.oracle.com/errata/ELSA-2024-5312.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-37371
     - https://ubuntu.com/security/notices/USN-6947-1
     - https://web.mit.edu/kerberos/www/advisories/
@@ -2374,6 +2412,8 @@
     Title: 'krb5: Memory leak at /krb5/src/lib/gssapi/krb5/k5sealv3.c'
     Description: Kerberos 5 (aka krb5) 1.21.2 contains a memory leak vulnerability in /krb5/src/lib/gssapi/krb5/k5sealv3.c.
     Severity: LOW
+    CweIDs:
+    - CWE-770
     VendorSeverity:
       alma: 1
       amazon: 2
@@ -2406,7 +2446,7 @@
     - https://security.netapp.com/advisory/ntap-20240415-0011/
     - https://www.cve.org/CVERecord?id=CVE-2024-26461
     PublishedDate: '2024-02-29T01:44:18.82Z'
-    LastModifiedDate: '2024-05-14T15:09:00.787Z'
+    LastModifiedDate: '2024-08-14T16:35:10.207Z'
   - VulnerabilityID: CVE-2018-6952
     PkgID: patch@2.7.6-7build3
     PkgName: patch
@@ -3235,7 +3275,7 @@
     - https://www.theregister.com/2023/10/10/http2_rapid_reset_zeroday
     - https://www.theregister.com/2023/10/10/http2_rapid_reset_zeroday/
     PublishedDate: '2023-10-10T14:15:10.883Z'
-    LastModifiedDate: '2024-08-01T13:44:53.5Z'
+    LastModifiedDate: '2024-08-14T19:57:18.86Z'
   - VulnerabilityID: CVE-2023-45288
     PkgName: golang.org/x/net
     PkgIdentifier:
@@ -3373,7 +3413,7 @@
     - https://groups.google.com/g/golang-announce/c/XbxouI9gY7k
     - https://groups.google.com/g/golang-announce/c/XbxouI9gY7k/m/TuoGEhxIEwAJ
     - https://linux.oracle.com/cve/CVE-2024-24790.html
-    - https://linux.oracle.com/errata/ELSA-2024-4237.html
+    - https://linux.oracle.com/errata/ELSA-2024-5291.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-24790
     - https://pkg.go.dev/vuln/GO-2024-2887
     - https://ubuntu.com/security/notices/USN-6886-1
@@ -4115,7 +4155,7 @@
       alma: 2
       amazon: 2
       cbl-mariner: 2
-      oracle-oval: 2
+      oracle-oval: 3
       redhat: 2
       rocky: 2
       ubuntu: 2
@@ -4139,7 +4179,7 @@
     - https://go.dev/issue/65383
     - https://groups.google.com/g/golang-announce/c/5pwGVUPoMbg
     - https://linux.oracle.com/cve/CVE-2023-45290.html
-    - https://linux.oracle.com/errata/ELSA-2024-3831.html
+    - https://linux.oracle.com/errata/ELSA-2024-5258.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-45290
     - https://pkg.go.dev/vuln/GO-2024-2599
     - https://security.netapp.com/advisory/ntap-20240329-0004
@@ -4205,7 +4245,7 @@
     - https://go.dev/issue/65390
     - https://groups.google.com/g/golang-announce/c/5pwGVUPoMbg
     - https://linux.oracle.com/cve/CVE-2024-24783.html
-    - https://linux.oracle.com/errata/ELSA-2024-3346.html
+    - https://linux.oracle.com/errata/ELSA-2024-5258.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-24783
     - https://pkg.go.dev/vuln/GO-2024-2598
     - https://security.netapp.com/advisory/ntap-20240329-0005
@@ -4283,7 +4323,7 @@
     - https://go.dev/issue/65083
     - https://groups.google.com/g/golang-announce/c/5pwGVUPoMbg
     - https://linux.oracle.com/cve/CVE-2024-24784.html
-    - https://linux.oracle.com/errata/ELSA-2024-3259.html
+    - https://linux.oracle.com/errata/ELSA-2024-5258.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-24784
     - https://pkg.go.dev/vuln/GO-2024-2609
     - https://security.netapp.com/advisory/ntap-20240329-0007/
@@ -4427,7 +4467,7 @@
     - https://groups.google.com/g/golang-announce/c/XbxouI9gY7k
     - https://groups.google.com/g/golang-announce/c/XbxouI9gY7k/m/TuoGEhxIEwAJ
     - https://linux.oracle.com/cve/CVE-2024-24789.html
-    - https://linux.oracle.com/errata/ELSA-2024-4237.html
+    - https://linux.oracle.com/errata/ELSA-2024-5291.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/U5YAEIA6IUHUNGJ7AIXXPQT6D2GYENX7/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-24789
     - https://pkg.go.dev/vuln/GO-2024-2888
@@ -4986,7 +5026,7 @@
     - https://www.theregister.com/2023/10/10/http2_rapid_reset_zeroday
     - https://www.theregister.com/2023/10/10/http2_rapid_reset_zeroday/
     PublishedDate: '2023-10-10T14:15:10.883Z'
-    LastModifiedDate: '2024-08-01T13:44:53.5Z'
+    LastModifiedDate: '2024-08-14T19:57:18.86Z'
   - VulnerabilityID: CVE-2023-45288
     PkgName: golang.org/x/net
     PkgIdentifier:
@@ -5124,7 +5164,7 @@
     - https://groups.google.com/g/golang-announce/c/XbxouI9gY7k
     - https://groups.google.com/g/golang-announce/c/XbxouI9gY7k/m/TuoGEhxIEwAJ
     - https://linux.oracle.com/cve/CVE-2024-24790.html
-    - https://linux.oracle.com/errata/ELSA-2024-4237.html
+    - https://linux.oracle.com/errata/ELSA-2024-5291.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-24790
     - https://pkg.go.dev/vuln/GO-2024-2887
     - https://ubuntu.com/security/notices/USN-6886-1
@@ -5866,7 +5906,7 @@
       alma: 2
       amazon: 2
       cbl-mariner: 2
-      oracle-oval: 2
+      oracle-oval: 3
       redhat: 2
       rocky: 2
       ubuntu: 2
@@ -5890,7 +5930,7 @@
     - https://go.dev/issue/65383
     - https://groups.google.com/g/golang-announce/c/5pwGVUPoMbg
     - https://linux.oracle.com/cve/CVE-2023-45290.html
-    - https://linux.oracle.com/errata/ELSA-2024-3831.html
+    - https://linux.oracle.com/errata/ELSA-2024-5258.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-45290
     - https://pkg.go.dev/vuln/GO-2024-2599
     - https://security.netapp.com/advisory/ntap-20240329-0004
@@ -5956,7 +5996,7 @@
     - https://go.dev/issue/65390
     - https://groups.google.com/g/golang-announce/c/5pwGVUPoMbg
     - https://linux.oracle.com/cve/CVE-2024-24783.html
-    - https://linux.oracle.com/errata/ELSA-2024-3346.html
+    - https://linux.oracle.com/errata/ELSA-2024-5258.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-24783
     - https://pkg.go.dev/vuln/GO-2024-2598
     - https://security.netapp.com/advisory/ntap-20240329-0005
@@ -6034,7 +6074,7 @@
     - https://go.dev/issue/65083
     - https://groups.google.com/g/golang-announce/c/5pwGVUPoMbg
     - https://linux.oracle.com/cve/CVE-2024-24784.html
-    - https://linux.oracle.com/errata/ELSA-2024-3259.html
+    - https://linux.oracle.com/errata/ELSA-2024-5258.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-24784
     - https://pkg.go.dev/vuln/GO-2024-2609
     - https://security.netapp.com/advisory/ntap-20240329-0007/
@@ -6178,7 +6218,7 @@
     - https://groups.google.com/g/golang-announce/c/XbxouI9gY7k
     - https://groups.google.com/g/golang-announce/c/XbxouI9gY7k/m/TuoGEhxIEwAJ
     - https://linux.oracle.com/cve/CVE-2024-24789.html
-    - https://linux.oracle.com/errata/ELSA-2024-4237.html
+    - https://linux.oracle.com/errata/ELSA-2024-5291.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/U5YAEIA6IUHUNGJ7AIXXPQT6D2GYENX7/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-24789
     - https://pkg.go.dev/vuln/GO-2024-2888
@@ -6512,37 +6552,6 @@
     - https://github.com/grpc/grpc-go
     - https://github.com/grpc/grpc-go/commit/ab292411ddc0f3b7a7786754d1fe05264c3021eb
     - https://github.com/grpc/grpc-go/security/advisories/GHSA-xr7q-jx4m-x55m
-- Target: /etc/ssh/ssh_host_rsa_key
-  Class: secret
-  Secrets:
-  - RuleID: private-key
-    Category: AsymmetricPrivateKey
-    Severity: HIGH
-    Title: Asymmetric Private Key
-    StartLine: 1
-    EndLine: 1
-    Code:
-      Lines:
-      - Number: 1
-        Content: BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
-        IsCause: true
-        Annotation: ''
-        Truncated: false
-        Highlighted: BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
-        FirstCause: true
-        LastCause: true
-      - Number: 2
-        Content: ''
-        IsCause: false
-        Annotation: ''
-        Truncated: false
-        FirstCause: false
-        LastCause: false
-    Match: BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
-    Layer:
-      Digest: sha256:bdfe9683b09a72cfbea152c906f7414b55bd5484a0f4bcaca61233b181b64859
-      DiffID: sha256:d0fae7845c7b77e4a5148b5f481e5b6bd9d549b1dab290b72ffaa3696cac1984
-      CreatedBy: 'COPY / / # buildkit'
 - Target: /etc/ssh/ssh_host_ecdsa_key
   Class: secret
   Secrets:
@@ -6601,6 +6610,37 @@
         FirstCause: false
         LastCause: false
     Match: BEGIN OPENSSH PRIVATE KEY-----******************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
+    Layer:
+      Digest: sha256:bdfe9683b09a72cfbea152c906f7414b55bd5484a0f4bcaca61233b181b64859
+      DiffID: sha256:d0fae7845c7b77e4a5148b5f481e5b6bd9d549b1dab290b72ffaa3696cac1984
+      CreatedBy: 'COPY / / # buildkit'
+- Target: /etc/ssh/ssh_host_rsa_key
+  Class: secret
+  Secrets:
+  - RuleID: private-key
+    Category: AsymmetricPrivateKey
+    Severity: HIGH
+    Title: Asymmetric Private Key
+    StartLine: 1
+    EndLine: 1
+    Code:
+      Lines:
+      - Number: 1
+        Content: BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
+        IsCause: true
+        Annotation: ''
+        Truncated: false
+        Highlighted: BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
+        FirstCause: true
+        LastCause: true
+      - Number: 2
+        Content: ''
+        IsCause: false
+        Annotation: ''
+        Truncated: false
+        FirstCause: false
+        LastCause: false
+    Match: BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
     Layer:
       Digest: sha256:bdfe9683b09a72cfbea152c906f7414b55bd5484a0f4bcaca61233b181b64859
       DiffID: sha256:d0fae7845c7b77e4a5148b5f481e5b6bd9d549b1dab290b72ffaa3696cac1984
