@@ -3211,6 +3211,252 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-50495
     PublishedDate: '2023-12-12T15:15:07.867Z'
     LastModifiedDate: '2024-01-31T03:15:08.49Z'
+  - VulnerabilityID: CVE-2024-7347
+    PkgID: libnginx-mod-http-geoip2@1.18.0-6ubuntu14.4
+    PkgName: libnginx-mod-http-geoip2
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libnginx-mod-http-geoip2@1.18.0-6ubuntu14.4?arch=amd64&distro=ubuntu-22.04
+      UID: b1b5a26eca515380
+    InstalledVersion: 1.18.0-6ubuntu14.4
+    Status: affected
+    Layer:
+      Digest: sha256:20fcace4cc790ca2878342e08b6452084f5473193820d92438d0df23ad3ac7bd
+      DiffID: sha256:dbb9a8c1a921b4e38a084464c64d67d83075cc2e6cddbc20b269062af679b676
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-7347
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'nginx: Nginx: Specially crafted file may cause Denial of Service'
+    Description: "NGINX Open Source and NGINX Plus have a vulnerability in the ngx_http_mp4_module, which might allow an attacker to over-read NGINX worker memory resulting in its termination, using a specially crafted mp4 file. The issue only affects NGINX if it is built with the ngx_http_mp4_module and the mp4 directive is used in the configuration file. Additionally, the attack is possible only if an attacker can trigger the processing of a specially crafted mp4 file with the ngx_http_mp4_module.\_ Note: Software versions which have reached End of Technical Support (EoTS) are not evaluated."
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-126
+    VendorSeverity:
+      bitnami: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 4.7
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 4.7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-7347
+    - https://forum.nginx.org/read.php?27,300027
+    - https://my.f5.com/manage/s/article/K000140529
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-7347
+    - https://www.cve.org/CVERecord?id=CVE-2024-7347
+    PublishedDate: '2024-08-14T15:15:31.87Z'
+    LastModifiedDate: '2024-08-14T17:49:14.177Z'
+  - VulnerabilityID: CVE-2024-7347
+    PkgID: libnginx-mod-http-image-filter@1.18.0-6ubuntu14.4
+    PkgName: libnginx-mod-http-image-filter
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libnginx-mod-http-image-filter@1.18.0-6ubuntu14.4?arch=amd64&distro=ubuntu-22.04
+      UID: 3776ec6cbe28d94d
+    InstalledVersion: 1.18.0-6ubuntu14.4
+    Status: affected
+    Layer:
+      Digest: sha256:20fcace4cc790ca2878342e08b6452084f5473193820d92438d0df23ad3ac7bd
+      DiffID: sha256:dbb9a8c1a921b4e38a084464c64d67d83075cc2e6cddbc20b269062af679b676
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-7347
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'nginx: Nginx: Specially crafted file may cause Denial of Service'
+    Description: "NGINX Open Source and NGINX Plus have a vulnerability in the ngx_http_mp4_module, which might allow an attacker to over-read NGINX worker memory resulting in its termination, using a specially crafted mp4 file. The issue only affects NGINX if it is built with the ngx_http_mp4_module and the mp4 directive is used in the configuration file. Additionally, the attack is possible only if an attacker can trigger the processing of a specially crafted mp4 file with the ngx_http_mp4_module.\_ Note: Software versions which have reached End of Technical Support (EoTS) are not evaluated."
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-126
+    VendorSeverity:
+      bitnami: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 4.7
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 4.7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-7347
+    - https://forum.nginx.org/read.php?27,300027
+    - https://my.f5.com/manage/s/article/K000140529
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-7347
+    - https://www.cve.org/CVERecord?id=CVE-2024-7347
+    PublishedDate: '2024-08-14T15:15:31.87Z'
+    LastModifiedDate: '2024-08-14T17:49:14.177Z'
+  - VulnerabilityID: CVE-2024-7347
+    PkgID: libnginx-mod-http-xslt-filter@1.18.0-6ubuntu14.4
+    PkgName: libnginx-mod-http-xslt-filter
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libnginx-mod-http-xslt-filter@1.18.0-6ubuntu14.4?arch=amd64&distro=ubuntu-22.04
+      UID: 9e10d3e2998bc7ee
+    InstalledVersion: 1.18.0-6ubuntu14.4
+    Status: affected
+    Layer:
+      Digest: sha256:20fcace4cc790ca2878342e08b6452084f5473193820d92438d0df23ad3ac7bd
+      DiffID: sha256:dbb9a8c1a921b4e38a084464c64d67d83075cc2e6cddbc20b269062af679b676
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-7347
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'nginx: Nginx: Specially crafted file may cause Denial of Service'
+    Description: "NGINX Open Source and NGINX Plus have a vulnerability in the ngx_http_mp4_module, which might allow an attacker to over-read NGINX worker memory resulting in its termination, using a specially crafted mp4 file. The issue only affects NGINX if it is built with the ngx_http_mp4_module and the mp4 directive is used in the configuration file. Additionally, the attack is possible only if an attacker can trigger the processing of a specially crafted mp4 file with the ngx_http_mp4_module.\_ Note: Software versions which have reached End of Technical Support (EoTS) are not evaluated."
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-126
+    VendorSeverity:
+      bitnami: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 4.7
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 4.7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-7347
+    - https://forum.nginx.org/read.php?27,300027
+    - https://my.f5.com/manage/s/article/K000140529
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-7347
+    - https://www.cve.org/CVERecord?id=CVE-2024-7347
+    PublishedDate: '2024-08-14T15:15:31.87Z'
+    LastModifiedDate: '2024-08-14T17:49:14.177Z'
+  - VulnerabilityID: CVE-2024-7347
+    PkgID: libnginx-mod-mail@1.18.0-6ubuntu14.4
+    PkgName: libnginx-mod-mail
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libnginx-mod-mail@1.18.0-6ubuntu14.4?arch=amd64&distro=ubuntu-22.04
+      UID: ac122609d4b09c60
+    InstalledVersion: 1.18.0-6ubuntu14.4
+    Status: affected
+    Layer:
+      Digest: sha256:20fcace4cc790ca2878342e08b6452084f5473193820d92438d0df23ad3ac7bd
+      DiffID: sha256:dbb9a8c1a921b4e38a084464c64d67d83075cc2e6cddbc20b269062af679b676
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-7347
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'nginx: Nginx: Specially crafted file may cause Denial of Service'
+    Description: "NGINX Open Source and NGINX Plus have a vulnerability in the ngx_http_mp4_module, which might allow an attacker to over-read NGINX worker memory resulting in its termination, using a specially crafted mp4 file. The issue only affects NGINX if it is built with the ngx_http_mp4_module and the mp4 directive is used in the configuration file. Additionally, the attack is possible only if an attacker can trigger the processing of a specially crafted mp4 file with the ngx_http_mp4_module.\_ Note: Software versions which have reached End of Technical Support (EoTS) are not evaluated."
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-126
+    VendorSeverity:
+      bitnami: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 4.7
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 4.7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-7347
+    - https://forum.nginx.org/read.php?27,300027
+    - https://my.f5.com/manage/s/article/K000140529
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-7347
+    - https://www.cve.org/CVERecord?id=CVE-2024-7347
+    PublishedDate: '2024-08-14T15:15:31.87Z'
+    LastModifiedDate: '2024-08-14T17:49:14.177Z'
+  - VulnerabilityID: CVE-2024-7347
+    PkgID: libnginx-mod-stream@1.18.0-6ubuntu14.4
+    PkgName: libnginx-mod-stream
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libnginx-mod-stream@1.18.0-6ubuntu14.4?arch=amd64&distro=ubuntu-22.04
+      UID: ca4d10d325225caf
+    InstalledVersion: 1.18.0-6ubuntu14.4
+    Status: affected
+    Layer:
+      Digest: sha256:20fcace4cc790ca2878342e08b6452084f5473193820d92438d0df23ad3ac7bd
+      DiffID: sha256:dbb9a8c1a921b4e38a084464c64d67d83075cc2e6cddbc20b269062af679b676
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-7347
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'nginx: Nginx: Specially crafted file may cause Denial of Service'
+    Description: "NGINX Open Source and NGINX Plus have a vulnerability in the ngx_http_mp4_module, which might allow an attacker to over-read NGINX worker memory resulting in its termination, using a specially crafted mp4 file. The issue only affects NGINX if it is built with the ngx_http_mp4_module and the mp4 directive is used in the configuration file. Additionally, the attack is possible only if an attacker can trigger the processing of a specially crafted mp4 file with the ngx_http_mp4_module.\_ Note: Software versions which have reached End of Technical Support (EoTS) are not evaluated."
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-126
+    VendorSeverity:
+      bitnami: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 4.7
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 4.7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-7347
+    - https://forum.nginx.org/read.php?27,300027
+    - https://my.f5.com/manage/s/article/K000140529
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-7347
+    - https://www.cve.org/CVERecord?id=CVE-2024-7347
+    PublishedDate: '2024-08-14T15:15:31.87Z'
+    LastModifiedDate: '2024-08-14T17:49:14.177Z'
+  - VulnerabilityID: CVE-2024-7347
+    PkgID: libnginx-mod-stream-geoip2@1.18.0-6ubuntu14.4
+    PkgName: libnginx-mod-stream-geoip2
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libnginx-mod-stream-geoip2@1.18.0-6ubuntu14.4?arch=amd64&distro=ubuntu-22.04
+      UID: 3fa374d40a0c8a6b
+    InstalledVersion: 1.18.0-6ubuntu14.4
+    Status: affected
+    Layer:
+      Digest: sha256:20fcace4cc790ca2878342e08b6452084f5473193820d92438d0df23ad3ac7bd
+      DiffID: sha256:dbb9a8c1a921b4e38a084464c64d67d83075cc2e6cddbc20b269062af679b676
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-7347
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'nginx: Nginx: Specially crafted file may cause Denial of Service'
+    Description: "NGINX Open Source and NGINX Plus have a vulnerability in the ngx_http_mp4_module, which might allow an attacker to over-read NGINX worker memory resulting in its termination, using a specially crafted mp4 file. The issue only affects NGINX if it is built with the ngx_http_mp4_module and the mp4 directive is used in the configuration file. Additionally, the attack is possible only if an attacker can trigger the processing of a specially crafted mp4 file with the ngx_http_mp4_module.\_ Note: Software versions which have reached End of Technical Support (EoTS) are not evaluated."
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-126
+    VendorSeverity:
+      bitnami: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 4.7
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 4.7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-7347
+    - https://forum.nginx.org/read.php?27,300027
+    - https://my.f5.com/manage/s/article/K000140529
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-7347
+    - https://www.cve.org/CVERecord?id=CVE-2024-7347
+    PublishedDate: '2024-08-14T15:15:31.87Z'
+    LastModifiedDate: '2024-08-14T17:49:14.177Z'
   - VulnerabilityID: CVE-2023-7008
     PkgID: libnss-systemd@249.11-0ubuntu3.12
     PkgName: libnss-systemd
@@ -3529,7 +3775,7 @@
     VendorSeverity:
       amazon: 2
       bitnami: 3
-      cbl-mariner: 2
+      cbl-mariner: 3
       redhat: 1
       ubuntu: 2
     CVSS:
@@ -3733,7 +3979,7 @@
     VendorSeverity:
       amazon: 2
       bitnami: 3
-      cbl-mariner: 2
+      cbl-mariner: 3
       redhat: 1
       ubuntu: 2
     CVSS:
@@ -3937,7 +4183,7 @@
     VendorSeverity:
       amazon: 2
       bitnami: 3
-      cbl-mariner: 2
+      cbl-mariner: 3
       redhat: 1
       ubuntu: 2
     CVSS:
@@ -5065,6 +5311,129 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-50495
     PublishedDate: '2023-12-12T15:15:07.867Z'
     LastModifiedDate: '2024-01-31T03:15:08.49Z'
+  - VulnerabilityID: CVE-2024-7347
+    PkgID: nginx@1.18.0-6ubuntu14.4
+    PkgName: nginx
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/nginx@1.18.0-6ubuntu14.4?arch=amd64&distro=ubuntu-22.04
+      UID: babe1c395023c3ca
+    InstalledVersion: 1.18.0-6ubuntu14.4
+    Status: affected
+    Layer:
+      Digest: sha256:20fcace4cc790ca2878342e08b6452084f5473193820d92438d0df23ad3ac7bd
+      DiffID: sha256:dbb9a8c1a921b4e38a084464c64d67d83075cc2e6cddbc20b269062af679b676
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-7347
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'nginx: Nginx: Specially crafted file may cause Denial of Service'
+    Description: "NGINX Open Source and NGINX Plus have a vulnerability in the ngx_http_mp4_module, which might allow an attacker to over-read NGINX worker memory resulting in its termination, using a specially crafted mp4 file. The issue only affects NGINX if it is built with the ngx_http_mp4_module and the mp4 directive is used in the configuration file. Additionally, the attack is possible only if an attacker can trigger the processing of a specially crafted mp4 file with the ngx_http_mp4_module.\_ Note: Software versions which have reached End of Technical Support (EoTS) are not evaluated."
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-126
+    VendorSeverity:
+      bitnami: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 4.7
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 4.7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-7347
+    - https://forum.nginx.org/read.php?27,300027
+    - https://my.f5.com/manage/s/article/K000140529
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-7347
+    - https://www.cve.org/CVERecord?id=CVE-2024-7347
+    PublishedDate: '2024-08-14T15:15:31.87Z'
+    LastModifiedDate: '2024-08-14T17:49:14.177Z'
+  - VulnerabilityID: CVE-2024-7347
+    PkgID: nginx-common@1.18.0-6ubuntu14.4
+    PkgName: nginx-common
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/nginx-common@1.18.0-6ubuntu14.4?arch=all&distro=ubuntu-22.04
+      UID: e691658a6e0cca79
+    InstalledVersion: 1.18.0-6ubuntu14.4
+    Status: affected
+    Layer:
+      Digest: sha256:20fcace4cc790ca2878342e08b6452084f5473193820d92438d0df23ad3ac7bd
+      DiffID: sha256:dbb9a8c1a921b4e38a084464c64d67d83075cc2e6cddbc20b269062af679b676
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-7347
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'nginx: Nginx: Specially crafted file may cause Denial of Service'
+    Description: "NGINX Open Source and NGINX Plus have a vulnerability in the ngx_http_mp4_module, which might allow an attacker to over-read NGINX worker memory resulting in its termination, using a specially crafted mp4 file. The issue only affects NGINX if it is built with the ngx_http_mp4_module and the mp4 directive is used in the configuration file. Additionally, the attack is possible only if an attacker can trigger the processing of a specially crafted mp4 file with the ngx_http_mp4_module.\_ Note: Software versions which have reached End of Technical Support (EoTS) are not evaluated."
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-126
+    VendorSeverity:
+      bitnami: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 4.7
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 4.7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-7347
+    - https://forum.nginx.org/read.php?27,300027
+    - https://my.f5.com/manage/s/article/K000140529
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-7347
+    - https://www.cve.org/CVERecord?id=CVE-2024-7347
+    PublishedDate: '2024-08-14T15:15:31.87Z'
+    LastModifiedDate: '2024-08-14T17:49:14.177Z'
+  - VulnerabilityID: CVE-2024-7347
+    PkgID: nginx-core@1.18.0-6ubuntu14.4
+    PkgName: nginx-core
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/nginx-core@1.18.0-6ubuntu14.4?arch=amd64&distro=ubuntu-22.04
+      UID: b35a70013816cb14
+    InstalledVersion: 1.18.0-6ubuntu14.4
+    Status: affected
+    Layer:
+      Digest: sha256:20fcace4cc790ca2878342e08b6452084f5473193820d92438d0df23ad3ac7bd
+      DiffID: sha256:dbb9a8c1a921b4e38a084464c64d67d83075cc2e6cddbc20b269062af679b676
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-7347
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'nginx: Nginx: Specially crafted file may cause Denial of Service'
+    Description: "NGINX Open Source and NGINX Plus have a vulnerability in the ngx_http_mp4_module, which might allow an attacker to over-read NGINX worker memory resulting in its termination, using a specially crafted mp4 file. The issue only affects NGINX if it is built with the ngx_http_mp4_module and the mp4 directive is used in the configuration file. Additionally, the attack is possible only if an attacker can trigger the processing of a specially crafted mp4 file with the ngx_http_mp4_module.\_ Note: Software versions which have reached End of Technical Support (EoTS) are not evaluated."
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-126
+    VendorSeverity:
+      bitnami: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 4.7
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 4.7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-7347
+    - https://forum.nginx.org/read.php?27,300027
+    - https://my.f5.com/manage/s/article/K000140529
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-7347
+    - https://www.cve.org/CVERecord?id=CVE-2024-7347
+    PublishedDate: '2024-08-14T15:15:31.87Z'
+    LastModifiedDate: '2024-08-14T17:49:14.177Z'
   - VulnerabilityID: CVE-2024-2511
     PkgID: openssl@3.0.2-0ubuntu1.16
     PkgName: openssl
@@ -5517,7 +5886,7 @@
     VendorSeverity:
       amazon: 2
       bitnami: 3
-      cbl-mariner: 2
+      cbl-mariner: 3
       redhat: 1
       ubuntu: 2
     CVSS:
@@ -5721,7 +6090,7 @@
     VendorSeverity:
       amazon: 2
       bitnami: 3
-      cbl-mariner: 2
+      cbl-mariner: 3
       redhat: 1
       ubuntu: 2
     CVSS:
@@ -6440,7 +6809,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       azure: 2
       cbl-mariner: 2
       ghsa: 2
@@ -7352,7 +7721,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -7419,7 +7788,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -7772,7 +8141,7 @@
       alma: 3
       amazon: 2
       bitnami: 3
-      cbl-mariner: 2
+      cbl-mariner: 3
       oracle-oval: 3
       redhat: 2
       rocky: 3
@@ -8192,7 +8561,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       azure: 2
       cbl-mariner: 2
       ghsa: 2
@@ -9104,7 +9473,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -9171,7 +9540,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -9524,7 +9893,7 @@
       alma: 3
       amazon: 2
       bitnami: 3
-      cbl-mariner: 2
+      cbl-mariner: 3
       oracle-oval: 3
       redhat: 2
       rocky: 3
@@ -10135,6 +10504,37 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-24791
     PublishedDate: '2024-07-02T22:15:04.833Z'
     LastModifiedDate: '2024-07-08T14:17:39.083Z'
+- Target: /etc/ssh/ssh_host_rsa_key
+  Class: secret
+  Secrets:
+  - RuleID: private-key
+    Category: AsymmetricPrivateKey
+    Severity: HIGH
+    Title: Asymmetric Private Key
+    StartLine: 1
+    EndLine: 1
+    Code:
+      Lines:
+      - Number: 1
+        Content: BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
+        IsCause: true
+        Annotation: ''
+        Truncated: false
+        Highlighted: BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
+        FirstCause: true
+        LastCause: true
+      - Number: 2
+        Content: ''
+        IsCause: false
+        Annotation: ''
+        Truncated: false
+        FirstCause: false
+        LastCause: false
+    Match: BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
+    Layer:
+      Digest: sha256:20fcace4cc790ca2878342e08b6452084f5473193820d92438d0df23ad3ac7bd
+      DiffID: sha256:dbb9a8c1a921b4e38a084464c64d67d83075cc2e6cddbc20b269062af679b676
+      CreatedBy: 'COPY / / # buildkit'
 - Target: /etc/ssh/ssh_host_dsa_key
   Class: secret
   Secrets:
@@ -10224,37 +10624,6 @@
         FirstCause: false
         LastCause: false
     Match: BEGIN OPENSSH PRIVATE KEY-----******************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
-    Layer:
-      Digest: sha256:20fcace4cc790ca2878342e08b6452084f5473193820d92438d0df23ad3ac7bd
-      DiffID: sha256:dbb9a8c1a921b4e38a084464c64d67d83075cc2e6cddbc20b269062af679b676
-      CreatedBy: 'COPY / / # buildkit'
-- Target: /etc/ssh/ssh_host_rsa_key
-  Class: secret
-  Secrets:
-  - RuleID: private-key
-    Category: AsymmetricPrivateKey
-    Severity: HIGH
-    Title: Asymmetric Private Key
-    StartLine: 1
-    EndLine: 1
-    Code:
-      Lines:
-      - Number: 1
-        Content: BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
-        IsCause: true
-        Annotation: ''
-        Truncated: false
-        Highlighted: BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
-        FirstCause: true
-        LastCause: true
-      - Number: 2
-        Content: ''
-        IsCause: false
-        Annotation: ''
-        Truncated: false
-        FirstCause: false
-        LastCause: false
-    Match: BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
     Layer:
       Digest: sha256:20fcace4cc790ca2878342e08b6452084f5473193820d92438d0df23ad3ac7bd
       DiffID: sha256:dbb9a8c1a921b4e38a084464c64d67d83075cc2e6cddbc20b269062af679b676
