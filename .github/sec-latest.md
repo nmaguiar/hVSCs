@@ -129,7 +129,8 @@
 │                        │       │                   9.18.27-S1. 
 │                        │       ├ Severity        : MEDIUM 
 │                        │       ├ CweIDs           ─ [0]: CWE-770 
-│                        │       ├ VendorSeverity   ╭ amazon     : 3 
+│                        │       ├ VendorSeverity   ╭ alma       : 3 
+│                        │       │                  ├ amazon     : 3 
 │                        │       │                  ├ azure      : 3 
 │                        │       │                  ├ cbl-mariner: 3 
 │                        │       │                  ├ oracle-oval: 3 
@@ -143,17 +144,21 @@
 │                        │       │                  │       4/07/23/1 
 │                        │       │                  ├ [1] : http://www.openwall.com/lists/oss-security/202
 │                        │       │                  │       4/07/31/2 
-│                        │       │                  ├ [2] : https://access.redhat.com/security/cve/CVE-202
+│                        │       │                  ├ [2] : https://access.redhat.com/errata/RHSA-2024:5524 
+│                        │       │                  ├ [3] : https://access.redhat.com/security/cve/CVE-202
 │                        │       │                  │       4-1737 
-│                        │       │                  ├ [3] : https://kb.isc.org/docs/cve-2024-1737 
-│                        │       │                  ├ [4] : https://kb.isc.org/docs/rrset-limits-in-zones 
-│                        │       │                  ├ [5] : https://linux.oracle.com/cve/CVE-2024-1737.html 
-│                        │       │                  ├ [6] : https://linux.oracle.com/errata/ELSA-2024-5524.html 
-│                        │       │                  ├ [7] : https://nvd.nist.gov/vuln/detail/CVE-2024-1737 
-│                        │       │                  ├ [8] : https://ubuntu.com/security/notices/USN-6909-1 
-│                        │       │                  ├ [9] : https://ubuntu.com/security/notices/USN-6909-2 
-│                        │       │                  ├ [10]: https://ubuntu.com/security/notices/USN-6909-3 
-│                        │       │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2024-1737 
+│                        │       │                  ├ [4] : https://bugzilla.redhat.com/2298893 
+│                        │       │                  ├ [5] : https://bugzilla.redhat.com/2298901 
+│                        │       │                  ├ [6] : https://errata.almalinux.org/8/ALSA-2024-5524.html 
+│                        │       │                  ├ [7] : https://kb.isc.org/docs/cve-2024-1737 
+│                        │       │                  ├ [8] : https://kb.isc.org/docs/rrset-limits-in-zones 
+│                        │       │                  ├ [9] : https://linux.oracle.com/cve/CVE-2024-1737.html 
+│                        │       │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2024-5524.html 
+│                        │       │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2024-1737 
+│                        │       │                  ├ [12]: https://ubuntu.com/security/notices/USN-6909-1 
+│                        │       │                  ├ [13]: https://ubuntu.com/security/notices/USN-6909-2 
+│                        │       │                  ├ [14]: https://ubuntu.com/security/notices/USN-6909-3 
+│                        │       │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2024-1737 
 │                        │       ├ PublishedDate   : 2024-07-23T15:15:03.74Z 
 │                        │       ╰ LastModifiedDate: 2024-08-01T13:46:11.85Z 
 │                        ├ [3]   ╭ VulnerabilityID : CVE-2024-1975 
@@ -188,7 +193,8 @@
 │                        │       │                   9.18.27-S1. 
 │                        │       ├ Severity        : MEDIUM 
 │                        │       ├ CweIDs           ─ [0]: CWE-770 
-│                        │       ├ VendorSeverity   ╭ amazon     : 3 
+│                        │       ├ VendorSeverity   ╭ alma       : 3 
+│                        │       │                  ├ amazon     : 3 
 │                        │       │                  ├ azure      : 3 
 │                        │       │                  ├ cbl-mariner: 3 
 │                        │       │                  ├ oracle-oval: 3 
@@ -202,16 +208,20 @@
 │                        │       │                  │       4/07/23/1 
 │                        │       │                  ├ [1] : http://www.openwall.com/lists/oss-security/202
 │                        │       │                  │       4/07/31/2 
-│                        │       │                  ├ [2] : https://access.redhat.com/security/cve/CVE-202
+│                        │       │                  ├ [2] : https://access.redhat.com/errata/RHSA-2024:5524 
+│                        │       │                  ├ [3] : https://access.redhat.com/security/cve/CVE-202
 │                        │       │                  │       4-1975 
-│                        │       │                  ├ [3] : https://kb.isc.org/docs/cve-2024-1975 
-│                        │       │                  ├ [4] : https://linux.oracle.com/cve/CVE-2024-1975.html 
-│                        │       │                  ├ [5] : https://linux.oracle.com/errata/ELSA-2024-5524.html 
-│                        │       │                  ├ [6] : https://nvd.nist.gov/vuln/detail/CVE-2024-1975 
-│                        │       │                  ├ [7] : https://ubuntu.com/security/notices/USN-6909-1 
-│                        │       │                  ├ [8] : https://ubuntu.com/security/notices/USN-6909-2 
-│                        │       │                  ├ [9] : https://ubuntu.com/security/notices/USN-6909-3 
-│                        │       │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2024-1975 
+│                        │       │                  ├ [4] : https://bugzilla.redhat.com/2298893 
+│                        │       │                  ├ [5] : https://bugzilla.redhat.com/2298901 
+│                        │       │                  ├ [6] : https://errata.almalinux.org/8/ALSA-2024-5524.html 
+│                        │       │                  ├ [7] : https://kb.isc.org/docs/cve-2024-1975 
+│                        │       │                  ├ [8] : https://linux.oracle.com/cve/CVE-2024-1975.html 
+│                        │       │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2024-5524.html 
+│                        │       │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2024-1975 
+│                        │       │                  ├ [11]: https://ubuntu.com/security/notices/USN-6909-1 
+│                        │       │                  ├ [12]: https://ubuntu.com/security/notices/USN-6909-2 
+│                        │       │                  ├ [13]: https://ubuntu.com/security/notices/USN-6909-3 
+│                        │       │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2024-1975 
 │                        │       ├ PublishedDate   : 2024-07-23T15:15:03.943Z 
 │                        │       ╰ LastModifiedDate: 2024-08-01T13:46:16.177Z 
 │                        ├ [4]   ╭ VulnerabilityID : CVE-2024-4076 
@@ -244,7 +254,8 @@
 │                        │       │                   9.16.50-S1, and 9.18.11-S1 through 9.18.27-S1. 
 │                        │       ├ Severity        : MEDIUM 
 │                        │       ├ CweIDs           ─ [0]: CWE-617 
-│                        │       ├ VendorSeverity   ╭ amazon     : 3 
+│                        │       ├ VendorSeverity   ╭ alma       : 3 
+│                        │       │                  ├ amazon     : 3 
 │                        │       │                  ├ azure      : 3 
 │                        │       │                  ├ cbl-mariner: 3 
 │                        │       │                  ├ oracle-oval: 3 
@@ -254,17 +265,23 @@
 │                        │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/
 │                        │       │                           │           C:N/I:N/A:H 
 │                        │       │                           ╰ V3Score : 7.5 
-│                        │       ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2024
-│                        │       │                  │      /07/23/1 
-│                        │       │                  ├ [1]: http://www.openwall.com/lists/oss-security/2024
-│                        │       │                  │      /07/31/2 
-│                        │       │                  ├ [2]: https://access.redhat.com/security/cve/CVE-2024-4076 
-│                        │       │                  ├ [3]: https://kb.isc.org/docs/cve-2024-4076 
-│                        │       │                  ├ [4]: https://linux.oracle.com/cve/CVE-2024-4076.html 
-│                        │       │                  ├ [5]: https://linux.oracle.com/errata/ELSA-2024-5390.html 
-│                        │       │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2024-4076 
-│                        │       │                  ├ [7]: https://ubuntu.com/security/notices/USN-6909-1 
-│                        │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-4076 
+│                        │       ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/202
+│                        │       │                  │       4/07/23/1 
+│                        │       │                  ├ [1] : http://www.openwall.com/lists/oss-security/202
+│                        │       │                  │       4/07/31/2 
+│                        │       │                  ├ [2] : https://access.redhat.com/errata/RHSA-2024:5390 
+│                        │       │                  ├ [3] : https://access.redhat.com/security/cve/CVE-202
+│                        │       │                  │       4-4076 
+│                        │       │                  ├ [4] : https://bugzilla.redhat.com/2298893 
+│                        │       │                  ├ [5] : https://bugzilla.redhat.com/2298901 
+│                        │       │                  ├ [6] : https://bugzilla.redhat.com/2298904 
+│                        │       │                  ├ [7] : https://errata.almalinux.org/8/ALSA-2024-5390.html 
+│                        │       │                  ├ [8] : https://kb.isc.org/docs/cve-2024-4076 
+│                        │       │                  ├ [9] : https://linux.oracle.com/cve/CVE-2024-4076.html 
+│                        │       │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2024-5390.html 
+│                        │       │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2024-4076 
+│                        │       │                  ├ [12]: https://ubuntu.com/security/notices/USN-6909-1 
+│                        │       │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2024-4076 
 │                        │       ├ PublishedDate   : 2024-07-23T15:15:05.5Z 
 │                        │       ╰ LastModifiedDate: 2024-08-01T13:59:24.073Z 
 │                        ├ [5]   ╭ VulnerabilityID : CVE-2024-0760 
@@ -349,7 +366,8 @@
 │                        │       │                   9.18.27-S1. 
 │                        │       ├ Severity        : MEDIUM 
 │                        │       ├ CweIDs           ─ [0]: CWE-770 
-│                        │       ├ VendorSeverity   ╭ amazon     : 3 
+│                        │       ├ VendorSeverity   ╭ alma       : 3 
+│                        │       │                  ├ amazon     : 3 
 │                        │       │                  ├ azure      : 3 
 │                        │       │                  ├ cbl-mariner: 3 
 │                        │       │                  ├ oracle-oval: 3 
@@ -363,17 +381,21 @@
 │                        │       │                  │       4/07/23/1 
 │                        │       │                  ├ [1] : http://www.openwall.com/lists/oss-security/202
 │                        │       │                  │       4/07/31/2 
-│                        │       │                  ├ [2] : https://access.redhat.com/security/cve/CVE-202
+│                        │       │                  ├ [2] : https://access.redhat.com/errata/RHSA-2024:5524 
+│                        │       │                  ├ [3] : https://access.redhat.com/security/cve/CVE-202
 │                        │       │                  │       4-1737 
-│                        │       │                  ├ [3] : https://kb.isc.org/docs/cve-2024-1737 
-│                        │       │                  ├ [4] : https://kb.isc.org/docs/rrset-limits-in-zones 
-│                        │       │                  ├ [5] : https://linux.oracle.com/cve/CVE-2024-1737.html 
-│                        │       │                  ├ [6] : https://linux.oracle.com/errata/ELSA-2024-5524.html 
-│                        │       │                  ├ [7] : https://nvd.nist.gov/vuln/detail/CVE-2024-1737 
-│                        │       │                  ├ [8] : https://ubuntu.com/security/notices/USN-6909-1 
-│                        │       │                  ├ [9] : https://ubuntu.com/security/notices/USN-6909-2 
-│                        │       │                  ├ [10]: https://ubuntu.com/security/notices/USN-6909-3 
-│                        │       │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2024-1737 
+│                        │       │                  ├ [4] : https://bugzilla.redhat.com/2298893 
+│                        │       │                  ├ [5] : https://bugzilla.redhat.com/2298901 
+│                        │       │                  ├ [6] : https://errata.almalinux.org/8/ALSA-2024-5524.html 
+│                        │       │                  ├ [7] : https://kb.isc.org/docs/cve-2024-1737 
+│                        │       │                  ├ [8] : https://kb.isc.org/docs/rrset-limits-in-zones 
+│                        │       │                  ├ [9] : https://linux.oracle.com/cve/CVE-2024-1737.html 
+│                        │       │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2024-5524.html 
+│                        │       │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2024-1737 
+│                        │       │                  ├ [12]: https://ubuntu.com/security/notices/USN-6909-1 
+│                        │       │                  ├ [13]: https://ubuntu.com/security/notices/USN-6909-2 
+│                        │       │                  ├ [14]: https://ubuntu.com/security/notices/USN-6909-3 
+│                        │       │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2024-1737 
 │                        │       ├ PublishedDate   : 2024-07-23T15:15:03.74Z 
 │                        │       ╰ LastModifiedDate: 2024-08-01T13:46:11.85Z 
 │                        ├ [7]   ╭ VulnerabilityID : CVE-2024-1975 
@@ -408,7 +430,8 @@
 │                        │       │                   9.18.27-S1. 
 │                        │       ├ Severity        : MEDIUM 
 │                        │       ├ CweIDs           ─ [0]: CWE-770 
-│                        │       ├ VendorSeverity   ╭ amazon     : 3 
+│                        │       ├ VendorSeverity   ╭ alma       : 3 
+│                        │       │                  ├ amazon     : 3 
 │                        │       │                  ├ azure      : 3 
 │                        │       │                  ├ cbl-mariner: 3 
 │                        │       │                  ├ oracle-oval: 3 
@@ -422,16 +445,20 @@
 │                        │       │                  │       4/07/23/1 
 │                        │       │                  ├ [1] : http://www.openwall.com/lists/oss-security/202
 │                        │       │                  │       4/07/31/2 
-│                        │       │                  ├ [2] : https://access.redhat.com/security/cve/CVE-202
+│                        │       │                  ├ [2] : https://access.redhat.com/errata/RHSA-2024:5524 
+│                        │       │                  ├ [3] : https://access.redhat.com/security/cve/CVE-202
 │                        │       │                  │       4-1975 
-│                        │       │                  ├ [3] : https://kb.isc.org/docs/cve-2024-1975 
-│                        │       │                  ├ [4] : https://linux.oracle.com/cve/CVE-2024-1975.html 
-│                        │       │                  ├ [5] : https://linux.oracle.com/errata/ELSA-2024-5524.html 
-│                        │       │                  ├ [6] : https://nvd.nist.gov/vuln/detail/CVE-2024-1975 
-│                        │       │                  ├ [7] : https://ubuntu.com/security/notices/USN-6909-1 
-│                        │       │                  ├ [8] : https://ubuntu.com/security/notices/USN-6909-2 
-│                        │       │                  ├ [9] : https://ubuntu.com/security/notices/USN-6909-3 
-│                        │       │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2024-1975 
+│                        │       │                  ├ [4] : https://bugzilla.redhat.com/2298893 
+│                        │       │                  ├ [5] : https://bugzilla.redhat.com/2298901 
+│                        │       │                  ├ [6] : https://errata.almalinux.org/8/ALSA-2024-5524.html 
+│                        │       │                  ├ [7] : https://kb.isc.org/docs/cve-2024-1975 
+│                        │       │                  ├ [8] : https://linux.oracle.com/cve/CVE-2024-1975.html 
+│                        │       │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2024-5524.html 
+│                        │       │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2024-1975 
+│                        │       │                  ├ [11]: https://ubuntu.com/security/notices/USN-6909-1 
+│                        │       │                  ├ [12]: https://ubuntu.com/security/notices/USN-6909-2 
+│                        │       │                  ├ [13]: https://ubuntu.com/security/notices/USN-6909-3 
+│                        │       │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2024-1975 
 │                        │       ├ PublishedDate   : 2024-07-23T15:15:03.943Z 
 │                        │       ╰ LastModifiedDate: 2024-08-01T13:46:16.177Z 
 │                        ├ [8]   ╭ VulnerabilityID : CVE-2024-4076 
@@ -464,7 +491,8 @@
 │                        │       │                   9.16.50-S1, and 9.18.11-S1 through 9.18.27-S1. 
 │                        │       ├ Severity        : MEDIUM 
 │                        │       ├ CweIDs           ─ [0]: CWE-617 
-│                        │       ├ VendorSeverity   ╭ amazon     : 3 
+│                        │       ├ VendorSeverity   ╭ alma       : 3 
+│                        │       │                  ├ amazon     : 3 
 │                        │       │                  ├ azure      : 3 
 │                        │       │                  ├ cbl-mariner: 3 
 │                        │       │                  ├ oracle-oval: 3 
@@ -474,17 +502,23 @@
 │                        │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/
 │                        │       │                           │           C:N/I:N/A:H 
 │                        │       │                           ╰ V3Score : 7.5 
-│                        │       ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2024
-│                        │       │                  │      /07/23/1 
-│                        │       │                  ├ [1]: http://www.openwall.com/lists/oss-security/2024
-│                        │       │                  │      /07/31/2 
-│                        │       │                  ├ [2]: https://access.redhat.com/security/cve/CVE-2024-4076 
-│                        │       │                  ├ [3]: https://kb.isc.org/docs/cve-2024-4076 
-│                        │       │                  ├ [4]: https://linux.oracle.com/cve/CVE-2024-4076.html 
-│                        │       │                  ├ [5]: https://linux.oracle.com/errata/ELSA-2024-5390.html 
-│                        │       │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2024-4076 
-│                        │       │                  ├ [7]: https://ubuntu.com/security/notices/USN-6909-1 
-│                        │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-4076 
+│                        │       ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/202
+│                        │       │                  │       4/07/23/1 
+│                        │       │                  ├ [1] : http://www.openwall.com/lists/oss-security/202
+│                        │       │                  │       4/07/31/2 
+│                        │       │                  ├ [2] : https://access.redhat.com/errata/RHSA-2024:5390 
+│                        │       │                  ├ [3] : https://access.redhat.com/security/cve/CVE-202
+│                        │       │                  │       4-4076 
+│                        │       │                  ├ [4] : https://bugzilla.redhat.com/2298893 
+│                        │       │                  ├ [5] : https://bugzilla.redhat.com/2298901 
+│                        │       │                  ├ [6] : https://bugzilla.redhat.com/2298904 
+│                        │       │                  ├ [7] : https://errata.almalinux.org/8/ALSA-2024-5390.html 
+│                        │       │                  ├ [8] : https://kb.isc.org/docs/cve-2024-4076 
+│                        │       │                  ├ [9] : https://linux.oracle.com/cve/CVE-2024-4076.html 
+│                        │       │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2024-5390.html 
+│                        │       │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2024-4076 
+│                        │       │                  ├ [12]: https://ubuntu.com/security/notices/USN-6909-1 
+│                        │       │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2024-4076 
 │                        │       ├ PublishedDate   : 2024-07-23T15:15:05.5Z 
 │                        │       ╰ LastModifiedDate: 2024-08-01T13:59:24.073Z 
 │                        ├ [9]   ╭ VulnerabilityID : CVE-2024-0760 
@@ -569,7 +603,8 @@
 │                        │       │                   9.18.27-S1. 
 │                        │       ├ Severity        : MEDIUM 
 │                        │       ├ CweIDs           ─ [0]: CWE-770 
-│                        │       ├ VendorSeverity   ╭ amazon     : 3 
+│                        │       ├ VendorSeverity   ╭ alma       : 3 
+│                        │       │                  ├ amazon     : 3 
 │                        │       │                  ├ azure      : 3 
 │                        │       │                  ├ cbl-mariner: 3 
 │                        │       │                  ├ oracle-oval: 3 
@@ -583,17 +618,21 @@
 │                        │       │                  │       4/07/23/1 
 │                        │       │                  ├ [1] : http://www.openwall.com/lists/oss-security/202
 │                        │       │                  │       4/07/31/2 
-│                        │       │                  ├ [2] : https://access.redhat.com/security/cve/CVE-202
+│                        │       │                  ├ [2] : https://access.redhat.com/errata/RHSA-2024:5524 
+│                        │       │                  ├ [3] : https://access.redhat.com/security/cve/CVE-202
 │                        │       │                  │       4-1737 
-│                        │       │                  ├ [3] : https://kb.isc.org/docs/cve-2024-1737 
-│                        │       │                  ├ [4] : https://kb.isc.org/docs/rrset-limits-in-zones 
-│                        │       │                  ├ [5] : https://linux.oracle.com/cve/CVE-2024-1737.html 
-│                        │       │                  ├ [6] : https://linux.oracle.com/errata/ELSA-2024-5524.html 
-│                        │       │                  ├ [7] : https://nvd.nist.gov/vuln/detail/CVE-2024-1737 
-│                        │       │                  ├ [8] : https://ubuntu.com/security/notices/USN-6909-1 
-│                        │       │                  ├ [9] : https://ubuntu.com/security/notices/USN-6909-2 
-│                        │       │                  ├ [10]: https://ubuntu.com/security/notices/USN-6909-3 
-│                        │       │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2024-1737 
+│                        │       │                  ├ [4] : https://bugzilla.redhat.com/2298893 
+│                        │       │                  ├ [5] : https://bugzilla.redhat.com/2298901 
+│                        │       │                  ├ [6] : https://errata.almalinux.org/8/ALSA-2024-5524.html 
+│                        │       │                  ├ [7] : https://kb.isc.org/docs/cve-2024-1737 
+│                        │       │                  ├ [8] : https://kb.isc.org/docs/rrset-limits-in-zones 
+│                        │       │                  ├ [9] : https://linux.oracle.com/cve/CVE-2024-1737.html 
+│                        │       │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2024-5524.html 
+│                        │       │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2024-1737 
+│                        │       │                  ├ [12]: https://ubuntu.com/security/notices/USN-6909-1 
+│                        │       │                  ├ [13]: https://ubuntu.com/security/notices/USN-6909-2 
+│                        │       │                  ├ [14]: https://ubuntu.com/security/notices/USN-6909-3 
+│                        │       │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2024-1737 
 │                        │       ├ PublishedDate   : 2024-07-23T15:15:03.74Z 
 │                        │       ╰ LastModifiedDate: 2024-08-01T13:46:11.85Z 
 │                        ├ [11]  ╭ VulnerabilityID : CVE-2024-1975 
@@ -628,7 +667,8 @@
 │                        │       │                   9.18.27-S1. 
 │                        │       ├ Severity        : MEDIUM 
 │                        │       ├ CweIDs           ─ [0]: CWE-770 
-│                        │       ├ VendorSeverity   ╭ amazon     : 3 
+│                        │       ├ VendorSeverity   ╭ alma       : 3 
+│                        │       │                  ├ amazon     : 3 
 │                        │       │                  ├ azure      : 3 
 │                        │       │                  ├ cbl-mariner: 3 
 │                        │       │                  ├ oracle-oval: 3 
@@ -642,16 +682,20 @@
 │                        │       │                  │       4/07/23/1 
 │                        │       │                  ├ [1] : http://www.openwall.com/lists/oss-security/202
 │                        │       │                  │       4/07/31/2 
-│                        │       │                  ├ [2] : https://access.redhat.com/security/cve/CVE-202
+│                        │       │                  ├ [2] : https://access.redhat.com/errata/RHSA-2024:5524 
+│                        │       │                  ├ [3] : https://access.redhat.com/security/cve/CVE-202
 │                        │       │                  │       4-1975 
-│                        │       │                  ├ [3] : https://kb.isc.org/docs/cve-2024-1975 
-│                        │       │                  ├ [4] : https://linux.oracle.com/cve/CVE-2024-1975.html 
-│                        │       │                  ├ [5] : https://linux.oracle.com/errata/ELSA-2024-5524.html 
-│                        │       │                  ├ [6] : https://nvd.nist.gov/vuln/detail/CVE-2024-1975 
-│                        │       │                  ├ [7] : https://ubuntu.com/security/notices/USN-6909-1 
-│                        │       │                  ├ [8] : https://ubuntu.com/security/notices/USN-6909-2 
-│                        │       │                  ├ [9] : https://ubuntu.com/security/notices/USN-6909-3 
-│                        │       │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2024-1975 
+│                        │       │                  ├ [4] : https://bugzilla.redhat.com/2298893 
+│                        │       │                  ├ [5] : https://bugzilla.redhat.com/2298901 
+│                        │       │                  ├ [6] : https://errata.almalinux.org/8/ALSA-2024-5524.html 
+│                        │       │                  ├ [7] : https://kb.isc.org/docs/cve-2024-1975 
+│                        │       │                  ├ [8] : https://linux.oracle.com/cve/CVE-2024-1975.html 
+│                        │       │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2024-5524.html 
+│                        │       │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2024-1975 
+│                        │       │                  ├ [11]: https://ubuntu.com/security/notices/USN-6909-1 
+│                        │       │                  ├ [12]: https://ubuntu.com/security/notices/USN-6909-2 
+│                        │       │                  ├ [13]: https://ubuntu.com/security/notices/USN-6909-3 
+│                        │       │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2024-1975 
 │                        │       ├ PublishedDate   : 2024-07-23T15:15:03.943Z 
 │                        │       ╰ LastModifiedDate: 2024-08-01T13:46:16.177Z 
 │                        ├ [12]  ╭ VulnerabilityID : CVE-2024-4076 
@@ -684,7 +728,8 @@
 │                        │       │                   9.16.50-S1, and 9.18.11-S1 through 9.18.27-S1. 
 │                        │       ├ Severity        : MEDIUM 
 │                        │       ├ CweIDs           ─ [0]: CWE-617 
-│                        │       ├ VendorSeverity   ╭ amazon     : 3 
+│                        │       ├ VendorSeverity   ╭ alma       : 3 
+│                        │       │                  ├ amazon     : 3 
 │                        │       │                  ├ azure      : 3 
 │                        │       │                  ├ cbl-mariner: 3 
 │                        │       │                  ├ oracle-oval: 3 
@@ -694,17 +739,23 @@
 │                        │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/
 │                        │       │                           │           C:N/I:N/A:H 
 │                        │       │                           ╰ V3Score : 7.5 
-│                        │       ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2024
-│                        │       │                  │      /07/23/1 
-│                        │       │                  ├ [1]: http://www.openwall.com/lists/oss-security/2024
-│                        │       │                  │      /07/31/2 
-│                        │       │                  ├ [2]: https://access.redhat.com/security/cve/CVE-2024-4076 
-│                        │       │                  ├ [3]: https://kb.isc.org/docs/cve-2024-4076 
-│                        │       │                  ├ [4]: https://linux.oracle.com/cve/CVE-2024-4076.html 
-│                        │       │                  ├ [5]: https://linux.oracle.com/errata/ELSA-2024-5390.html 
-│                        │       │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2024-4076 
-│                        │       │                  ├ [7]: https://ubuntu.com/security/notices/USN-6909-1 
-│                        │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-4076 
+│                        │       ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/202
+│                        │       │                  │       4/07/23/1 
+│                        │       │                  ├ [1] : http://www.openwall.com/lists/oss-security/202
+│                        │       │                  │       4/07/31/2 
+│                        │       │                  ├ [2] : https://access.redhat.com/errata/RHSA-2024:5390 
+│                        │       │                  ├ [3] : https://access.redhat.com/security/cve/CVE-202
+│                        │       │                  │       4-4076 
+│                        │       │                  ├ [4] : https://bugzilla.redhat.com/2298893 
+│                        │       │                  ├ [5] : https://bugzilla.redhat.com/2298901 
+│                        │       │                  ├ [6] : https://bugzilla.redhat.com/2298904 
+│                        │       │                  ├ [7] : https://errata.almalinux.org/8/ALSA-2024-5390.html 
+│                        │       │                  ├ [8] : https://kb.isc.org/docs/cve-2024-4076 
+│                        │       │                  ├ [9] : https://linux.oracle.com/cve/CVE-2024-4076.html 
+│                        │       │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2024-5390.html 
+│                        │       │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2024-4076 
+│                        │       │                  ├ [12]: https://ubuntu.com/security/notices/USN-6909-1 
+│                        │       │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2024-4076 
 │                        │       ├ PublishedDate   : 2024-07-23T15:15:05.5Z 
 │                        │       ╰ LastModifiedDate: 2024-08-01T13:59:24.073Z 
 │                        ├ [13]  ╭ VulnerabilityID : CVE-2016-2781 
@@ -1087,7 +1138,8 @@
 │                        │       │                   9.18.27-S1. 
 │                        │       ├ Severity        : MEDIUM 
 │                        │       ├ CweIDs           ─ [0]: CWE-770 
-│                        │       ├ VendorSeverity   ╭ amazon     : 3 
+│                        │       ├ VendorSeverity   ╭ alma       : 3 
+│                        │       │                  ├ amazon     : 3 
 │                        │       │                  ├ azure      : 3 
 │                        │       │                  ├ cbl-mariner: 3 
 │                        │       │                  ├ oracle-oval: 3 
@@ -1101,17 +1153,21 @@
 │                        │       │                  │       4/07/23/1 
 │                        │       │                  ├ [1] : http://www.openwall.com/lists/oss-security/202
 │                        │       │                  │       4/07/31/2 
-│                        │       │                  ├ [2] : https://access.redhat.com/security/cve/CVE-202
+│                        │       │                  ├ [2] : https://access.redhat.com/errata/RHSA-2024:5524 
+│                        │       │                  ├ [3] : https://access.redhat.com/security/cve/CVE-202
 │                        │       │                  │       4-1737 
-│                        │       │                  ├ [3] : https://kb.isc.org/docs/cve-2024-1737 
-│                        │       │                  ├ [4] : https://kb.isc.org/docs/rrset-limits-in-zones 
-│                        │       │                  ├ [5] : https://linux.oracle.com/cve/CVE-2024-1737.html 
-│                        │       │                  ├ [6] : https://linux.oracle.com/errata/ELSA-2024-5524.html 
-│                        │       │                  ├ [7] : https://nvd.nist.gov/vuln/detail/CVE-2024-1737 
-│                        │       │                  ├ [8] : https://ubuntu.com/security/notices/USN-6909-1 
-│                        │       │                  ├ [9] : https://ubuntu.com/security/notices/USN-6909-2 
-│                        │       │                  ├ [10]: https://ubuntu.com/security/notices/USN-6909-3 
-│                        │       │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2024-1737 
+│                        │       │                  ├ [4] : https://bugzilla.redhat.com/2298893 
+│                        │       │                  ├ [5] : https://bugzilla.redhat.com/2298901 
+│                        │       │                  ├ [6] : https://errata.almalinux.org/8/ALSA-2024-5524.html 
+│                        │       │                  ├ [7] : https://kb.isc.org/docs/cve-2024-1737 
+│                        │       │                  ├ [8] : https://kb.isc.org/docs/rrset-limits-in-zones 
+│                        │       │                  ├ [9] : https://linux.oracle.com/cve/CVE-2024-1737.html 
+│                        │       │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2024-5524.html 
+│                        │       │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2024-1737 
+│                        │       │                  ├ [12]: https://ubuntu.com/security/notices/USN-6909-1 
+│                        │       │                  ├ [13]: https://ubuntu.com/security/notices/USN-6909-2 
+│                        │       │                  ├ [14]: https://ubuntu.com/security/notices/USN-6909-3 
+│                        │       │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2024-1737 
 │                        │       ├ PublishedDate   : 2024-07-23T15:15:03.74Z 
 │                        │       ╰ LastModifiedDate: 2024-08-01T13:46:11.85Z 
 │                        ├ [20]  ╭ VulnerabilityID : CVE-2024-1975 
@@ -1145,7 +1201,8 @@
 │                        │       │                   9.18.27-S1. 
 │                        │       ├ Severity        : MEDIUM 
 │                        │       ├ CweIDs           ─ [0]: CWE-770 
-│                        │       ├ VendorSeverity   ╭ amazon     : 3 
+│                        │       ├ VendorSeverity   ╭ alma       : 3 
+│                        │       │                  ├ amazon     : 3 
 │                        │       │                  ├ azure      : 3 
 │                        │       │                  ├ cbl-mariner: 3 
 │                        │       │                  ├ oracle-oval: 3 
@@ -1159,16 +1216,20 @@
 │                        │       │                  │       4/07/23/1 
 │                        │       │                  ├ [1] : http://www.openwall.com/lists/oss-security/202
 │                        │       │                  │       4/07/31/2 
-│                        │       │                  ├ [2] : https://access.redhat.com/security/cve/CVE-202
+│                        │       │                  ├ [2] : https://access.redhat.com/errata/RHSA-2024:5524 
+│                        │       │                  ├ [3] : https://access.redhat.com/security/cve/CVE-202
 │                        │       │                  │       4-1975 
-│                        │       │                  ├ [3] : https://kb.isc.org/docs/cve-2024-1975 
-│                        │       │                  ├ [4] : https://linux.oracle.com/cve/CVE-2024-1975.html 
-│                        │       │                  ├ [5] : https://linux.oracle.com/errata/ELSA-2024-5524.html 
-│                        │       │                  ├ [6] : https://nvd.nist.gov/vuln/detail/CVE-2024-1975 
-│                        │       │                  ├ [7] : https://ubuntu.com/security/notices/USN-6909-1 
-│                        │       │                  ├ [8] : https://ubuntu.com/security/notices/USN-6909-2 
-│                        │       │                  ├ [9] : https://ubuntu.com/security/notices/USN-6909-3 
-│                        │       │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2024-1975 
+│                        │       │                  ├ [4] : https://bugzilla.redhat.com/2298893 
+│                        │       │                  ├ [5] : https://bugzilla.redhat.com/2298901 
+│                        │       │                  ├ [6] : https://errata.almalinux.org/8/ALSA-2024-5524.html 
+│                        │       │                  ├ [7] : https://kb.isc.org/docs/cve-2024-1975 
+│                        │       │                  ├ [8] : https://linux.oracle.com/cve/CVE-2024-1975.html 
+│                        │       │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2024-5524.html 
+│                        │       │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2024-1975 
+│                        │       │                  ├ [11]: https://ubuntu.com/security/notices/USN-6909-1 
+│                        │       │                  ├ [12]: https://ubuntu.com/security/notices/USN-6909-2 
+│                        │       │                  ├ [13]: https://ubuntu.com/security/notices/USN-6909-3 
+│                        │       │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2024-1975 
 │                        │       ├ PublishedDate   : 2024-07-23T15:15:03.943Z 
 │                        │       ╰ LastModifiedDate: 2024-08-01T13:46:16.177Z 
 │                        ├ [21]  ╭ VulnerabilityID : CVE-2024-4076 
@@ -1200,7 +1261,8 @@
 │                        │       │                   9.16.50-S1, and 9.18.11-S1 through 9.18.27-S1. 
 │                        │       ├ Severity        : MEDIUM 
 │                        │       ├ CweIDs           ─ [0]: CWE-617 
-│                        │       ├ VendorSeverity   ╭ amazon     : 3 
+│                        │       ├ VendorSeverity   ╭ alma       : 3 
+│                        │       │                  ├ amazon     : 3 
 │                        │       │                  ├ azure      : 3 
 │                        │       │                  ├ cbl-mariner: 3 
 │                        │       │                  ├ oracle-oval: 3 
@@ -1210,17 +1272,23 @@
 │                        │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/
 │                        │       │                           │           C:N/I:N/A:H 
 │                        │       │                           ╰ V3Score : 7.5 
-│                        │       ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2024
-│                        │       │                  │      /07/23/1 
-│                        │       │                  ├ [1]: http://www.openwall.com/lists/oss-security/2024
-│                        │       │                  │      /07/31/2 
-│                        │       │                  ├ [2]: https://access.redhat.com/security/cve/CVE-2024-4076 
-│                        │       │                  ├ [3]: https://kb.isc.org/docs/cve-2024-4076 
-│                        │       │                  ├ [4]: https://linux.oracle.com/cve/CVE-2024-4076.html 
-│                        │       │                  ├ [5]: https://linux.oracle.com/errata/ELSA-2024-5390.html 
-│                        │       │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2024-4076 
-│                        │       │                  ├ [7]: https://ubuntu.com/security/notices/USN-6909-1 
-│                        │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-4076 
+│                        │       ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/202
+│                        │       │                  │       4/07/23/1 
+│                        │       │                  ├ [1] : http://www.openwall.com/lists/oss-security/202
+│                        │       │                  │       4/07/31/2 
+│                        │       │                  ├ [2] : https://access.redhat.com/errata/RHSA-2024:5390 
+│                        │       │                  ├ [3] : https://access.redhat.com/security/cve/CVE-202
+│                        │       │                  │       4-4076 
+│                        │       │                  ├ [4] : https://bugzilla.redhat.com/2298893 
+│                        │       │                  ├ [5] : https://bugzilla.redhat.com/2298901 
+│                        │       │                  ├ [6] : https://bugzilla.redhat.com/2298904 
+│                        │       │                  ├ [7] : https://errata.almalinux.org/8/ALSA-2024-5390.html 
+│                        │       │                  ├ [8] : https://kb.isc.org/docs/cve-2024-4076 
+│                        │       │                  ├ [9] : https://linux.oracle.com/cve/CVE-2024-4076.html 
+│                        │       │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2024-5390.html 
+│                        │       │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2024-4076 
+│                        │       │                  ├ [12]: https://ubuntu.com/security/notices/USN-6909-1 
+│                        │       │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2024-4076 
 │                        │       ├ PublishedDate   : 2024-07-23T15:15:05.5Z 
 │                        │       ╰ LastModifiedDate: 2024-08-01T13:59:24.073Z 
 │                        ├ [22]  ╭ VulnerabilityID : CVE-2022-27943 
@@ -2409,7 +2477,8 @@
 │                        │       │                   confidential GSS krb5 wrap token, causing the unwrapped
 │                        │       │                   token to appear truncated to the application. 
 │                        │       ├ Severity        : MEDIUM 
-│                        │       ├ VendorSeverity   ╭ amazon     : 2 
+│                        │       ├ VendorSeverity   ╭ alma       : 2 
+│                        │       │                  ├ amazon     : 2 
 │                        │       │                  ├ azure      : 2 
 │                        │       │                  ├ cbl-mariner: 2 
 │                        │       │                  ├ oracle-oval: 2 
@@ -2418,17 +2487,21 @@
 │                        │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/
 │                        │       │                           │           C:N/I:H/A:H 
 │                        │       │                           ╰ V3Score : 7.4 
-│                        │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024
-│                        │       │                  │      -37370 
-│                        │       │                  ├ [1]: https://github.com/krb5/krb5/commit/55fbf435edb
-│                        │       │                  │      e2e92dd8101669b1ce7144bc96fef 
-│                        │       │                  ├ [2]: https://linux.oracle.com/cve/CVE-2024-37370.html 
-│                        │       │                  ├ [3]: https://linux.oracle.com/errata/ELSA-2024-5312.html 
-│                        │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-37370 
-│                        │       │                  ├ [5]: https://ubuntu.com/security/notices/USN-6947-1 
-│                        │       │                  ├ [6]: https://web.mit.edu/kerberos/www/advisories/ 
-│                        │       │                  ├ [7]: https://web.mit.edu/kerberos/www/krb5-1.21/ 
-│                        │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-37370 
+│                        │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:5312 
+│                        │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-202
+│                        │       │                  │       4-37370 
+│                        │       │                  ├ [2] : https://bugzilla.redhat.com/2294676 
+│                        │       │                  ├ [3] : https://bugzilla.redhat.com/2294677 
+│                        │       │                  ├ [4] : https://errata.almalinux.org/8/ALSA-2024-5312.html 
+│                        │       │                  ├ [5] : https://github.com/krb5/krb5/commit/55fbf435ed
+│                        │       │                  │       be2e92dd8101669b1ce7144bc96fef 
+│                        │       │                  ├ [6] : https://linux.oracle.com/cve/CVE-2024-37370.html 
+│                        │       │                  ├ [7] : https://linux.oracle.com/errata/ELSA-2024-5312.html 
+│                        │       │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2024-37370 
+│                        │       │                  ├ [9] : https://ubuntu.com/security/notices/USN-6947-1 
+│                        │       │                  ├ [10]: https://web.mit.edu/kerberos/www/advisories/ 
+│                        │       │                  ├ [11]: https://web.mit.edu/kerberos/www/krb5-1.21/ 
+│                        │       │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2024-37370 
 │                        │       ├ PublishedDate   : 2024-06-28T22:15:02.293Z 
 │                        │       ╰ LastModifiedDate: 2024-07-01T12:37:24.22Z 
 │                        ├ [47]  ╭ VulnerabilityID : CVE-2024-37371 
@@ -2455,7 +2528,8 @@
 │                        │       │                    token handling by sending message tokens with invalid
 │                        │       │                   length fields. 
 │                        │       ├ Severity        : MEDIUM 
-│                        │       ├ VendorSeverity   ╭ amazon     : 2 
+│                        │       ├ VendorSeverity   ╭ alma       : 2 
+│                        │       │                  ├ amazon     : 2 
 │                        │       │                  ├ azure      : 2 
 │                        │       │                  ├ cbl-mariner: 2 
 │                        │       │                  ├ oracle-oval: 2 
@@ -2464,17 +2538,21 @@
 │                        │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/
 │                        │       │                           │           C:N/I:N/A:H 
 │                        │       │                           ╰ V3Score : 6.5 
-│                        │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024
-│                        │       │                  │      -37371 
-│                        │       │                  ├ [1]: https://github.com/krb5/krb5/commit/55fbf435edb
-│                        │       │                  │      e2e92dd8101669b1ce7144bc96fef 
-│                        │       │                  ├ [2]: https://linux.oracle.com/cve/CVE-2024-37371.html 
-│                        │       │                  ├ [3]: https://linux.oracle.com/errata/ELSA-2024-5312.html 
-│                        │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-37371 
-│                        │       │                  ├ [5]: https://ubuntu.com/security/notices/USN-6947-1 
-│                        │       │                  ├ [6]: https://web.mit.edu/kerberos/www/advisories/ 
-│                        │       │                  ├ [7]: https://web.mit.edu/kerberos/www/krb5-1.21/ 
-│                        │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-37371 
+│                        │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:5312 
+│                        │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-202
+│                        │       │                  │       4-37371 
+│                        │       │                  ├ [2] : https://bugzilla.redhat.com/2294676 
+│                        │       │                  ├ [3] : https://bugzilla.redhat.com/2294677 
+│                        │       │                  ├ [4] : https://errata.almalinux.org/8/ALSA-2024-5312.html 
+│                        │       │                  ├ [5] : https://github.com/krb5/krb5/commit/55fbf435ed
+│                        │       │                  │       be2e92dd8101669b1ce7144bc96fef 
+│                        │       │                  ├ [6] : https://linux.oracle.com/cve/CVE-2024-37371.html 
+│                        │       │                  ├ [7] : https://linux.oracle.com/errata/ELSA-2024-5312.html 
+│                        │       │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2024-37371 
+│                        │       │                  ├ [9] : https://ubuntu.com/security/notices/USN-6947-1 
+│                        │       │                  ├ [10]: https://web.mit.edu/kerberos/www/advisories/ 
+│                        │       │                  ├ [11]: https://web.mit.edu/kerberos/www/krb5-1.21/ 
+│                        │       │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2024-37371 
 │                        │       ├ PublishedDate   : 2024-06-28T23:15:11.603Z 
 │                        │       ╰ LastModifiedDate: 2024-07-01T12:37:24.22Z 
 │                        ├ [48]  ╭ VulnerabilityID : CVE-2024-26458 
@@ -2658,7 +2736,8 @@
 │                        │       │                   confidential GSS krb5 wrap token, causing the unwrapped
 │                        │       │                   token to appear truncated to the application. 
 │                        │       ├ Severity        : MEDIUM 
-│                        │       ├ VendorSeverity   ╭ amazon     : 2 
+│                        │       ├ VendorSeverity   ╭ alma       : 2 
+│                        │       │                  ├ amazon     : 2 
 │                        │       │                  ├ azure      : 2 
 │                        │       │                  ├ cbl-mariner: 2 
 │                        │       │                  ├ oracle-oval: 2 
@@ -2667,17 +2746,21 @@
 │                        │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/
 │                        │       │                           │           C:N/I:H/A:H 
 │                        │       │                           ╰ V3Score : 7.4 
-│                        │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024
-│                        │       │                  │      -37370 
-│                        │       │                  ├ [1]: https://github.com/krb5/krb5/commit/55fbf435edb
-│                        │       │                  │      e2e92dd8101669b1ce7144bc96fef 
-│                        │       │                  ├ [2]: https://linux.oracle.com/cve/CVE-2024-37370.html 
-│                        │       │                  ├ [3]: https://linux.oracle.com/errata/ELSA-2024-5312.html 
-│                        │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-37370 
-│                        │       │                  ├ [5]: https://ubuntu.com/security/notices/USN-6947-1 
-│                        │       │                  ├ [6]: https://web.mit.edu/kerberos/www/advisories/ 
-│                        │       │                  ├ [7]: https://web.mit.edu/kerberos/www/krb5-1.21/ 
-│                        │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-37370 
+│                        │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:5312 
+│                        │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-202
+│                        │       │                  │       4-37370 
+│                        │       │                  ├ [2] : https://bugzilla.redhat.com/2294676 
+│                        │       │                  ├ [3] : https://bugzilla.redhat.com/2294677 
+│                        │       │                  ├ [4] : https://errata.almalinux.org/8/ALSA-2024-5312.html 
+│                        │       │                  ├ [5] : https://github.com/krb5/krb5/commit/55fbf435ed
+│                        │       │                  │       be2e92dd8101669b1ce7144bc96fef 
+│                        │       │                  ├ [6] : https://linux.oracle.com/cve/CVE-2024-37370.html 
+│                        │       │                  ├ [7] : https://linux.oracle.com/errata/ELSA-2024-5312.html 
+│                        │       │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2024-37370 
+│                        │       │                  ├ [9] : https://ubuntu.com/security/notices/USN-6947-1 
+│                        │       │                  ├ [10]: https://web.mit.edu/kerberos/www/advisories/ 
+│                        │       │                  ├ [11]: https://web.mit.edu/kerberos/www/krb5-1.21/ 
+│                        │       │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2024-37370 
 │                        │       ├ PublishedDate   : 2024-06-28T22:15:02.293Z 
 │                        │       ╰ LastModifiedDate: 2024-07-01T12:37:24.22Z 
 │                        ├ [52]  ╭ VulnerabilityID : CVE-2024-37371 
@@ -2704,7 +2787,8 @@
 │                        │       │                    token handling by sending message tokens with invalid
 │                        │       │                   length fields. 
 │                        │       ├ Severity        : MEDIUM 
-│                        │       ├ VendorSeverity   ╭ amazon     : 2 
+│                        │       ├ VendorSeverity   ╭ alma       : 2 
+│                        │       │                  ├ amazon     : 2 
 │                        │       │                  ├ azure      : 2 
 │                        │       │                  ├ cbl-mariner: 2 
 │                        │       │                  ├ oracle-oval: 2 
@@ -2713,17 +2797,21 @@
 │                        │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/
 │                        │       │                           │           C:N/I:N/A:H 
 │                        │       │                           ╰ V3Score : 6.5 
-│                        │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024
-│                        │       │                  │      -37371 
-│                        │       │                  ├ [1]: https://github.com/krb5/krb5/commit/55fbf435edb
-│                        │       │                  │      e2e92dd8101669b1ce7144bc96fef 
-│                        │       │                  ├ [2]: https://linux.oracle.com/cve/CVE-2024-37371.html 
-│                        │       │                  ├ [3]: https://linux.oracle.com/errata/ELSA-2024-5312.html 
-│                        │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-37371 
-│                        │       │                  ├ [5]: https://ubuntu.com/security/notices/USN-6947-1 
-│                        │       │                  ├ [6]: https://web.mit.edu/kerberos/www/advisories/ 
-│                        │       │                  ├ [7]: https://web.mit.edu/kerberos/www/krb5-1.21/ 
-│                        │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-37371 
+│                        │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:5312 
+│                        │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-202
+│                        │       │                  │       4-37371 
+│                        │       │                  ├ [2] : https://bugzilla.redhat.com/2294676 
+│                        │       │                  ├ [3] : https://bugzilla.redhat.com/2294677 
+│                        │       │                  ├ [4] : https://errata.almalinux.org/8/ALSA-2024-5312.html 
+│                        │       │                  ├ [5] : https://github.com/krb5/krb5/commit/55fbf435ed
+│                        │       │                  │       be2e92dd8101669b1ce7144bc96fef 
+│                        │       │                  ├ [6] : https://linux.oracle.com/cve/CVE-2024-37371.html 
+│                        │       │                  ├ [7] : https://linux.oracle.com/errata/ELSA-2024-5312.html 
+│                        │       │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2024-37371 
+│                        │       │                  ├ [9] : https://ubuntu.com/security/notices/USN-6947-1 
+│                        │       │                  ├ [10]: https://web.mit.edu/kerberos/www/advisories/ 
+│                        │       │                  ├ [11]: https://web.mit.edu/kerberos/www/krb5-1.21/ 
+│                        │       │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2024-37371 
 │                        │       ├ PublishedDate   : 2024-06-28T23:15:11.603Z 
 │                        │       ╰ LastModifiedDate: 2024-07-01T12:37:24.22Z 
 │                        ├ [53]  ╭ VulnerabilityID : CVE-2024-26458 
@@ -2907,7 +2995,8 @@
 │                        │       │                   confidential GSS krb5 wrap token, causing the unwrapped
 │                        │       │                   token to appear truncated to the application. 
 │                        │       ├ Severity        : MEDIUM 
-│                        │       ├ VendorSeverity   ╭ amazon     : 2 
+│                        │       ├ VendorSeverity   ╭ alma       : 2 
+│                        │       │                  ├ amazon     : 2 
 │                        │       │                  ├ azure      : 2 
 │                        │       │                  ├ cbl-mariner: 2 
 │                        │       │                  ├ oracle-oval: 2 
@@ -2916,17 +3005,21 @@
 │                        │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/
 │                        │       │                           │           C:N/I:H/A:H 
 │                        │       │                           ╰ V3Score : 7.4 
-│                        │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024
-│                        │       │                  │      -37370 
-│                        │       │                  ├ [1]: https://github.com/krb5/krb5/commit/55fbf435edb
-│                        │       │                  │      e2e92dd8101669b1ce7144bc96fef 
-│                        │       │                  ├ [2]: https://linux.oracle.com/cve/CVE-2024-37370.html 
-│                        │       │                  ├ [3]: https://linux.oracle.com/errata/ELSA-2024-5312.html 
-│                        │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-37370 
-│                        │       │                  ├ [5]: https://ubuntu.com/security/notices/USN-6947-1 
-│                        │       │                  ├ [6]: https://web.mit.edu/kerberos/www/advisories/ 
-│                        │       │                  ├ [7]: https://web.mit.edu/kerberos/www/krb5-1.21/ 
-│                        │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-37370 
+│                        │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:5312 
+│                        │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-202
+│                        │       │                  │       4-37370 
+│                        │       │                  ├ [2] : https://bugzilla.redhat.com/2294676 
+│                        │       │                  ├ [3] : https://bugzilla.redhat.com/2294677 
+│                        │       │                  ├ [4] : https://errata.almalinux.org/8/ALSA-2024-5312.html 
+│                        │       │                  ├ [5] : https://github.com/krb5/krb5/commit/55fbf435ed
+│                        │       │                  │       be2e92dd8101669b1ce7144bc96fef 
+│                        │       │                  ├ [6] : https://linux.oracle.com/cve/CVE-2024-37370.html 
+│                        │       │                  ├ [7] : https://linux.oracle.com/errata/ELSA-2024-5312.html 
+│                        │       │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2024-37370 
+│                        │       │                  ├ [9] : https://ubuntu.com/security/notices/USN-6947-1 
+│                        │       │                  ├ [10]: https://web.mit.edu/kerberos/www/advisories/ 
+│                        │       │                  ├ [11]: https://web.mit.edu/kerberos/www/krb5-1.21/ 
+│                        │       │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2024-37370 
 │                        │       ├ PublishedDate   : 2024-06-28T22:15:02.293Z 
 │                        │       ╰ LastModifiedDate: 2024-07-01T12:37:24.22Z 
 │                        ├ [57]  ╭ VulnerabilityID : CVE-2024-37371 
@@ -2953,7 +3046,8 @@
 │                        │       │                    token handling by sending message tokens with invalid
 │                        │       │                   length fields. 
 │                        │       ├ Severity        : MEDIUM 
-│                        │       ├ VendorSeverity   ╭ amazon     : 2 
+│                        │       ├ VendorSeverity   ╭ alma       : 2 
+│                        │       │                  ├ amazon     : 2 
 │                        │       │                  ├ azure      : 2 
 │                        │       │                  ├ cbl-mariner: 2 
 │                        │       │                  ├ oracle-oval: 2 
@@ -2962,17 +3056,21 @@
 │                        │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/
 │                        │       │                           │           C:N/I:N/A:H 
 │                        │       │                           ╰ V3Score : 6.5 
-│                        │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024
-│                        │       │                  │      -37371 
-│                        │       │                  ├ [1]: https://github.com/krb5/krb5/commit/55fbf435edb
-│                        │       │                  │      e2e92dd8101669b1ce7144bc96fef 
-│                        │       │                  ├ [2]: https://linux.oracle.com/cve/CVE-2024-37371.html 
-│                        │       │                  ├ [3]: https://linux.oracle.com/errata/ELSA-2024-5312.html 
-│                        │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-37371 
-│                        │       │                  ├ [5]: https://ubuntu.com/security/notices/USN-6947-1 
-│                        │       │                  ├ [6]: https://web.mit.edu/kerberos/www/advisories/ 
-│                        │       │                  ├ [7]: https://web.mit.edu/kerberos/www/krb5-1.21/ 
-│                        │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-37371 
+│                        │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:5312 
+│                        │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-202
+│                        │       │                  │       4-37371 
+│                        │       │                  ├ [2] : https://bugzilla.redhat.com/2294676 
+│                        │       │                  ├ [3] : https://bugzilla.redhat.com/2294677 
+│                        │       │                  ├ [4] : https://errata.almalinux.org/8/ALSA-2024-5312.html 
+│                        │       │                  ├ [5] : https://github.com/krb5/krb5/commit/55fbf435ed
+│                        │       │                  │       be2e92dd8101669b1ce7144bc96fef 
+│                        │       │                  ├ [6] : https://linux.oracle.com/cve/CVE-2024-37371.html 
+│                        │       │                  ├ [7] : https://linux.oracle.com/errata/ELSA-2024-5312.html 
+│                        │       │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2024-37371 
+│                        │       │                  ├ [9] : https://ubuntu.com/security/notices/USN-6947-1 
+│                        │       │                  ├ [10]: https://web.mit.edu/kerberos/www/advisories/ 
+│                        │       │                  ├ [11]: https://web.mit.edu/kerberos/www/krb5-1.21/ 
+│                        │       │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2024-37371 
 │                        │       ├ PublishedDate   : 2024-06-28T23:15:11.603Z 
 │                        │       ╰ LastModifiedDate: 2024-07-01T12:37:24.22Z 
 │                        ├ [58]  ╭ VulnerabilityID : CVE-2024-26458 
@@ -3156,7 +3254,8 @@
 │                        │       │                   confidential GSS krb5 wrap token, causing the unwrapped
 │                        │       │                   token to appear truncated to the application. 
 │                        │       ├ Severity        : MEDIUM 
-│                        │       ├ VendorSeverity   ╭ amazon     : 2 
+│                        │       ├ VendorSeverity   ╭ alma       : 2 
+│                        │       │                  ├ amazon     : 2 
 │                        │       │                  ├ azure      : 2 
 │                        │       │                  ├ cbl-mariner: 2 
 │                        │       │                  ├ oracle-oval: 2 
@@ -3165,17 +3264,21 @@
 │                        │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/
 │                        │       │                           │           C:N/I:H/A:H 
 │                        │       │                           ╰ V3Score : 7.4 
-│                        │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024
-│                        │       │                  │      -37370 
-│                        │       │                  ├ [1]: https://github.com/krb5/krb5/commit/55fbf435edb
-│                        │       │                  │      e2e92dd8101669b1ce7144bc96fef 
-│                        │       │                  ├ [2]: https://linux.oracle.com/cve/CVE-2024-37370.html 
-│                        │       │                  ├ [3]: https://linux.oracle.com/errata/ELSA-2024-5312.html 
-│                        │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-37370 
-│                        │       │                  ├ [5]: https://ubuntu.com/security/notices/USN-6947-1 
-│                        │       │                  ├ [6]: https://web.mit.edu/kerberos/www/advisories/ 
-│                        │       │                  ├ [7]: https://web.mit.edu/kerberos/www/krb5-1.21/ 
-│                        │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-37370 
+│                        │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:5312 
+│                        │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-202
+│                        │       │                  │       4-37370 
+│                        │       │                  ├ [2] : https://bugzilla.redhat.com/2294676 
+│                        │       │                  ├ [3] : https://bugzilla.redhat.com/2294677 
+│                        │       │                  ├ [4] : https://errata.almalinux.org/8/ALSA-2024-5312.html 
+│                        │       │                  ├ [5] : https://github.com/krb5/krb5/commit/55fbf435ed
+│                        │       │                  │       be2e92dd8101669b1ce7144bc96fef 
+│                        │       │                  ├ [6] : https://linux.oracle.com/cve/CVE-2024-37370.html 
+│                        │       │                  ├ [7] : https://linux.oracle.com/errata/ELSA-2024-5312.html 
+│                        │       │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2024-37370 
+│                        │       │                  ├ [9] : https://ubuntu.com/security/notices/USN-6947-1 
+│                        │       │                  ├ [10]: https://web.mit.edu/kerberos/www/advisories/ 
+│                        │       │                  ├ [11]: https://web.mit.edu/kerberos/www/krb5-1.21/ 
+│                        │       │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2024-37370 
 │                        │       ├ PublishedDate   : 2024-06-28T22:15:02.293Z 
 │                        │       ╰ LastModifiedDate: 2024-07-01T12:37:24.22Z 
 │                        ├ [62]  ╭ VulnerabilityID : CVE-2024-37371 
@@ -3202,7 +3305,8 @@
 │                        │       │                    token handling by sending message tokens with invalid
 │                        │       │                   length fields. 
 │                        │       ├ Severity        : MEDIUM 
-│                        │       ├ VendorSeverity   ╭ amazon     : 2 
+│                        │       ├ VendorSeverity   ╭ alma       : 2 
+│                        │       │                  ├ amazon     : 2 
 │                        │       │                  ├ azure      : 2 
 │                        │       │                  ├ cbl-mariner: 2 
 │                        │       │                  ├ oracle-oval: 2 
@@ -3211,17 +3315,21 @@
 │                        │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/
 │                        │       │                           │           C:N/I:N/A:H 
 │                        │       │                           ╰ V3Score : 6.5 
-│                        │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024
-│                        │       │                  │      -37371 
-│                        │       │                  ├ [1]: https://github.com/krb5/krb5/commit/55fbf435edb
-│                        │       │                  │      e2e92dd8101669b1ce7144bc96fef 
-│                        │       │                  ├ [2]: https://linux.oracle.com/cve/CVE-2024-37371.html 
-│                        │       │                  ├ [3]: https://linux.oracle.com/errata/ELSA-2024-5312.html 
-│                        │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-37371 
-│                        │       │                  ├ [5]: https://ubuntu.com/security/notices/USN-6947-1 
-│                        │       │                  ├ [6]: https://web.mit.edu/kerberos/www/advisories/ 
-│                        │       │                  ├ [7]: https://web.mit.edu/kerberos/www/krb5-1.21/ 
-│                        │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-37371 
+│                        │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:5312 
+│                        │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-202
+│                        │       │                  │       4-37371 
+│                        │       │                  ├ [2] : https://bugzilla.redhat.com/2294676 
+│                        │       │                  ├ [3] : https://bugzilla.redhat.com/2294677 
+│                        │       │                  ├ [4] : https://errata.almalinux.org/8/ALSA-2024-5312.html 
+│                        │       │                  ├ [5] : https://github.com/krb5/krb5/commit/55fbf435ed
+│                        │       │                  │       be2e92dd8101669b1ce7144bc96fef 
+│                        │       │                  ├ [6] : https://linux.oracle.com/cve/CVE-2024-37371.html 
+│                        │       │                  ├ [7] : https://linux.oracle.com/errata/ELSA-2024-5312.html 
+│                        │       │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2024-37371 
+│                        │       │                  ├ [9] : https://ubuntu.com/security/notices/USN-6947-1 
+│                        │       │                  ├ [10]: https://web.mit.edu/kerberos/www/advisories/ 
+│                        │       │                  ├ [11]: https://web.mit.edu/kerberos/www/krb5-1.21/ 
+│                        │       │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2024-37371 
 │                        │       ├ PublishedDate   : 2024-06-28T23:15:11.603Z 
 │                        │       ╰ LastModifiedDate: 2024-07-01T12:37:24.22Z 
 │                        ├ [63]  ╭ VulnerabilityID : CVE-2024-26458 
@@ -4223,7 +4331,7 @@
 │                        │       ├ CweIDs           ─ [0]: CWE-362 
 │                        │       ├ VendorSeverity   ╭ amazon     : 2 
 │                        │       │                  ├ bitnami    : 3 
-│                        │       │                  ├ cbl-mariner: 2 
+│                        │       │                  ├ cbl-mariner: 3 
 │                        │       │                  ├ redhat     : 1 
 │                        │       │                  ╰ ubuntu     : 2 
 │                        │       ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U
@@ -4510,7 +4618,7 @@
 │                        │       ├ CweIDs           ─ [0]: CWE-362 
 │                        │       ├ VendorSeverity   ╭ amazon     : 2 
 │                        │       │                  ├ bitnami    : 3 
-│                        │       │                  ├ cbl-mariner: 2 
+│                        │       │                  ├ cbl-mariner: 3 
 │                        │       │                  ├ redhat     : 1 
 │                        │       │                  ╰ ubuntu     : 2 
 │                        │       ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U
@@ -4797,7 +4905,7 @@
 │                        │       ├ CweIDs           ─ [0]: CWE-362 
 │                        │       ├ VendorSeverity   ╭ amazon     : 2 
 │                        │       │                  ├ bitnami    : 3 
-│                        │       │                  ├ cbl-mariner: 2 
+│                        │       │                  ├ cbl-mariner: 3 
 │                        │       │                  ├ redhat     : 1 
 │                        │       │                  ╰ ubuntu     : 2 
 │                        │       ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U
@@ -6905,7 +7013,7 @@
 │                        │       ├ CweIDs           ─ [0]: CWE-362 
 │                        │       ├ VendorSeverity   ╭ amazon     : 2 
 │                        │       │                  ├ bitnami    : 3 
-│                        │       │                  ├ cbl-mariner: 2 
+│                        │       │                  ├ cbl-mariner: 3 
 │                        │       │                  ├ redhat     : 1 
 │                        │       │                  ╰ ubuntu     : 2 
 │                        │       ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U
@@ -7192,7 +7300,7 @@
 │                        │       ├ CweIDs           ─ [0]: CWE-362 
 │                        │       ├ VendorSeverity   ╭ amazon     : 2 
 │                        │       │                  ├ bitnami    : 3 
-│                        │       │                  ├ cbl-mariner: 2 
+│                        │       │                  ├ cbl-mariner: 3 
 │                        │       │                  ├ redhat     : 1 
 │                        │       │                  ╰ ubuntu     : 2 
 │                        │       ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U
@@ -8260,7 +8368,7 @@
 │                        │      │                  ├ photon     : 3 
 │                        │      │                  ├ redhat     : 3 
 │                        │      │                  ├ rocky      : 3 
-│                        │      │                  ╰ ubuntu     : 2 
+│                        │      │                  ╰ ubuntu     : 3 
 │                        │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/
 │                        │      │                  │         │           C:N/I:N/A:H 
 │                        │      │                  │         ╰ V3Score : 7.5 
@@ -10827,7 +10935,7 @@
 │                        │      │                  ├ photon     : 3 
 │                        │      │                  ├ redhat     : 3 
 │                        │      │                  ├ rocky      : 3 
-│                        │      │                  ╰ ubuntu     : 2 
+│                        │      │                  ╰ ubuntu     : 3 
 │                        │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/
 │                        │      │                  │         │           C:N/I:N/A:H 
 │                        │      │                  │         ╰ V3Score : 7.5 
@@ -13465,7 +13573,113 @@
 │                              │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-24791 
 │                              ├ PublishedDate   : 2024-07-02T22:15:04.833Z 
 │                              ╰ LastModifiedDate: 2024-07-08T14:17:39.083Z 
-├ [10] ╭ Target : /etc/ssh/ssh_host_ecdsa_key 
+├ [10] ╭ Target : /etc/ssh/ssh_host_dsa_key 
+│      ├ Class  : secret 
+│      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
+│                      ├ Category : AsymmetricPrivateKey 
+│                      ├ Severity : HIGH 
+│                      ├ Title    : Asymmetric Private Key 
+│                      ├ StartLine: 1 
+│                      ├ EndLine  : 1 
+│                      ├ Code      ─ Lines ╭ [0] ╭ Number     : 1 
+│                      │                   │     ├ Content    : BEGIN OPENSSH PRIVATE
+│                      │                   │     │              KEY-----***************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ****************-----END OPENSSH PRI 
+│                      │                   │     ├ IsCause    : true 
+│                      │                   │     ├ Annotation :  
+│                      │                   │     ├ Truncated  : false 
+│                      │                   │     ├ Highlighted: BEGIN OPENSSH PRIVATE
+│                      │                   │     │              KEY-----***************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ****************-----END OPENSSH PRI 
+│                      │                   │     ├ FirstCause : true 
+│                      │                   │     ╰ LastCause  : true 
+│                      │                   ╰ [1] ╭ Number    : 2 
+│                      │                         ├ Content   :  
+│                      │                         ├ IsCause   : false 
+│                      │                         ├ Annotation:  
+│                      │                         ├ Truncated : false 
+│                      │                         ├ FirstCause: false 
+│                      │                         ╰ LastCause : false 
+│                      ├ Match    : BEGIN OPENSSH PRIVATE
+│                      │            KEY-----*******************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            *********************************************************-----END OPENSSH
+│                      │            PRI 
+│                      ╰ Layer     ╭ Digest   : sha256:20fcace4cc790ca2878342e08b6452084f5473193820d92438d
+│                                  │            0df23ad3ac7bd 
+│                                  ├ DiffID   : sha256:dbb9a8c1a921b4e38a084464c64d67d83075cc2e6cddbc20b26
+│                                  │            9062af679b676 
+│                                  ╰ CreatedBy: COPY / / # buildkit 
+├ [11] ╭ Target : /etc/ssh/ssh_host_ecdsa_key 
 │      ├ Class  : secret 
 │      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
 │                      ├ Category : AsymmetricPrivateKey 
@@ -13523,7 +13737,7 @@
 │                                  ├ DiffID   : sha256:dbb9a8c1a921b4e38a084464c64d67d83075cc2e6cddbc20b26
 │                                  │            9062af679b676 
 │                                  ╰ CreatedBy: COPY / / # buildkit 
-├ [11] ╭ Target : /etc/ssh/ssh_host_ed25519_key 
+├ [12] ╭ Target : /etc/ssh/ssh_host_ed25519_key 
 │      ├ Class  : secret 
 │      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
 │                      ├ Category : AsymmetricPrivateKey 
@@ -13576,181 +13790,7 @@
 │                                  ├ DiffID   : sha256:dbb9a8c1a921b4e38a084464c64d67d83075cc2e6cddbc20b26
 │                                  │            9062af679b676 
 │                                  ╰ CreatedBy: COPY / / # buildkit 
-├ [12] ╭ Target : /etc/ssh/ssh_host_rsa_key 
-│      ├ Class  : secret 
-│      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
-│                      ├ Category : AsymmetricPrivateKey 
-│                      ├ Severity : HIGH 
-│                      ├ Title    : Asymmetric Private Key 
-│                      ├ StartLine: 1 
-│                      ├ EndLine  : 1 
-│                      ├ Code      ─ Lines ╭ [0] ╭ Number     : 1 
-│                      │                   │     ├ Content    : BEGIN OPENSSH PRIVATE
-│                      │                   │     │              KEY-----***************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********-----END OPENSSH PRI 
-│                      │                   │     ├ IsCause    : true 
-│                      │                   │     ├ Annotation :  
-│                      │                   │     ├ Truncated  : false 
-│                      │                   │     ├ Highlighted: BEGIN OPENSSH PRIVATE
-│                      │                   │     │              KEY-----***************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********-----END OPENSSH PRI 
-│                      │                   │     ├ FirstCause : true 
-│                      │                   │     ╰ LastCause  : true 
-│                      │                   ╰ [1] ╭ Number    : 2 
-│                      │                         ├ Content   :  
-│                      │                         ├ IsCause   : false 
-│                      │                         ├ Annotation:  
-│                      │                         ├ Truncated : false 
-│                      │                         ├ FirstCause: false 
-│                      │                         ╰ LastCause : false 
-│                      ├ Match    : BEGIN OPENSSH PRIVATE
-│                      │            KEY-----*******************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            **************************************************************************-
-│                      │            ----END OPENSSH PRI 
-│                      ╰ Layer     ╭ Digest   : sha256:20fcace4cc790ca2878342e08b6452084f5473193820d92438d
-│                                  │            0df23ad3ac7bd 
-│                                  ├ DiffID   : sha256:dbb9a8c1a921b4e38a084464c64d67d83075cc2e6cddbc20b26
-│                                  │            9062af679b676 
-│                                  ╰ CreatedBy: COPY / / # buildkit 
-╰ [13] ╭ Target : /etc/ssh/ssh_host_dsa_key 
+╰ [13] ╭ Target : /etc/ssh/ssh_host_rsa_key 
        ├ Class  : secret 
        ╰ Secrets ─ [0] ╭ RuleID   : private-key 
                        ├ Category : AsymmetricPrivateKey 
@@ -13788,7 +13828,33 @@
                        │                   │     │              ***********************************************
                        │                   │     │              ***********************************************
                        │                   │     │              ***********************************************
-                       │                   │     │              ****************-----END OPENSSH PRI 
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********-----END OPENSSH PRI 
                        │                   │     ├ IsCause    : true 
                        │                   │     ├ Annotation :  
                        │                   │     ├ Truncated  : false 
@@ -13821,7 +13887,33 @@
                        │                   │     │              ***********************************************
                        │                   │     │              ***********************************************
                        │                   │     │              ***********************************************
-                       │                   │     │              ****************-----END OPENSSH PRI 
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********-----END OPENSSH PRI 
                        │                   │     ├ FirstCause : true 
                        │                   │     ╰ LastCause  : true 
                        │                   ╰ [1] ╭ Number    : 2 
@@ -13849,8 +13941,24 @@
                        │            ***************************************************************************
                        │            ***************************************************************************
                        │            ***************************************************************************
-                       │            *********************************************************-----END OPENSSH
-                       │            PRI 
+                       │            ***************************************************************************
+                       │            ***************************************************************************
+                       │            ***************************************************************************
+                       │            ***************************************************************************
+                       │            ***************************************************************************
+                       │            ***************************************************************************
+                       │            ***************************************************************************
+                       │            ***************************************************************************
+                       │            ***************************************************************************
+                       │            ***************************************************************************
+                       │            ***************************************************************************
+                       │            ***************************************************************************
+                       │            ***************************************************************************
+                       │            ***************************************************************************
+                       │            ***************************************************************************
+                       │            ***************************************************************************
+                       │            **************************************************************************-
+                       │            ----END OPENSSH PRI 
                        ╰ Layer     ╭ Digest   : sha256:20fcace4cc790ca2878342e08b6452084f5473193820d92438d
                                    │            0df23ad3ac7bd 
                                    ├ DiffID   : sha256:dbb9a8c1a921b4e38a084464c64d67d83075cc2e6cddbc20b26
