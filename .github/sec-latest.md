@@ -3656,6 +3656,7 @@
 │                        │       │                  ╰ [1]: CWE-126 
 │                        │       ├ VendorSeverity   ╭ bitnami: 2 
 │                        │       │                  ├ nvd    : 2 
+│                        │       │                  ├ photon : 2 
 │                        │       │                  ├ redhat : 2 
 │                        │       │                  ╰ ubuntu : 2 
 │                        │       ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U
@@ -3710,6 +3711,7 @@
 │                        │       │                  ╰ [1]: CWE-126 
 │                        │       ├ VendorSeverity   ╭ bitnami: 2 
 │                        │       │                  ├ nvd    : 2 
+│                        │       │                  ├ photon : 2 
 │                        │       │                  ├ redhat : 2 
 │                        │       │                  ╰ ubuntu : 2 
 │                        │       ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U
@@ -3764,6 +3766,7 @@
 │                        │       │                  ╰ [1]: CWE-126 
 │                        │       ├ VendorSeverity   ╭ bitnami: 2 
 │                        │       │                  ├ nvd    : 2 
+│                        │       │                  ├ photon : 2 
 │                        │       │                  ├ redhat : 2 
 │                        │       │                  ╰ ubuntu : 2 
 │                        │       ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U
@@ -3817,6 +3820,7 @@
 │                        │       │                  ╰ [1]: CWE-126 
 │                        │       ├ VendorSeverity   ╭ bitnami: 2 
 │                        │       │                  ├ nvd    : 2 
+│                        │       │                  ├ photon : 2 
 │                        │       │                  ├ redhat : 2 
 │                        │       │                  ╰ ubuntu : 2 
 │                        │       ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U
@@ -3870,6 +3874,7 @@
 │                        │       │                  ╰ [1]: CWE-126 
 │                        │       ├ VendorSeverity   ╭ bitnami: 2 
 │                        │       │                  ├ nvd    : 2 
+│                        │       │                  ├ photon : 2 
 │                        │       │                  ├ redhat : 2 
 │                        │       │                  ╰ ubuntu : 2 
 │                        │       ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U
@@ -3924,6 +3929,7 @@
 │                        │       │                  ╰ [1]: CWE-126 
 │                        │       ├ VendorSeverity   ╭ bitnami: 2 
 │                        │       │                  ├ nvd    : 2 
+│                        │       │                  ├ photon : 2 
 │                        │       │                  ├ redhat : 2 
 │                        │       │                  ╰ ubuntu : 2 
 │                        │       ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U
@@ -6278,6 +6284,7 @@
 │                        │       │                  ╰ [1]: CWE-126 
 │                        │       ├ VendorSeverity   ╭ bitnami: 2 
 │                        │       │                  ├ nvd    : 2 
+│                        │       │                  ├ photon : 2 
 │                        │       │                  ├ redhat : 2 
 │                        │       │                  ╰ ubuntu : 2 
 │                        │       ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U
@@ -6331,6 +6338,7 @@
 │                        │       │                  ╰ [1]: CWE-126 
 │                        │       ├ VendorSeverity   ╭ bitnami: 2 
 │                        │       │                  ├ nvd    : 2 
+│                        │       │                  ├ photon : 2 
 │                        │       │                  ├ redhat : 2 
 │                        │       │                  ╰ ubuntu : 2 
 │                        │       ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U
@@ -6384,6 +6392,7 @@
 │                        │       │                  ╰ [1]: CWE-126 
 │                        │       ├ VendorSeverity   ╭ bitnami: 2 
 │                        │       │                  ├ nvd    : 2 
+│                        │       │                  ├ photon : 2 
 │                        │       │                  ├ redhat : 2 
 │                        │       │                  ╰ ubuntu : 2 
 │                        │       ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U
