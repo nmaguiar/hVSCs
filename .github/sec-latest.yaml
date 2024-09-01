@@ -114,8 +114,10 @@
     CweIDs:
     - CWE-770
     VendorSeverity:
+      alma: 3
       amazon: 3
       azure: 3
+      cbl-mariner: 3
       oracle-oval: 3
       photon: 3
       redhat: 3
@@ -127,11 +129,16 @@
     References:
     - http://www.openwall.com/lists/oss-security/2024/07/23/1
     - http://www.openwall.com/lists/oss-security/2024/07/31/2
+    - https://access.redhat.com/errata/RHSA-2024:5231
     - https://access.redhat.com/security/cve/CVE-2024-1737
+    - https://bugzilla.redhat.com/2298893
+    - https://bugzilla.redhat.com/2298901
+    - https://bugzilla.redhat.com/2298904
+    - https://errata.almalinux.org/9/ALSA-2024-5231.html
     - https://kb.isc.org/docs/cve-2024-1737
     - https://kb.isc.org/docs/rrset-limits-in-zones
     - https://linux.oracle.com/cve/CVE-2024-1737.html
-    - https://linux.oracle.com/errata/ELSA-2024-5390.html
+    - https://linux.oracle.com/errata/ELSA-2024-5524.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-1737
     - https://ubuntu.com/security/notices/USN-6909-1
     - https://ubuntu.com/security/notices/USN-6909-2
@@ -165,8 +172,10 @@
     CweIDs:
     - CWE-770
     VendorSeverity:
+      alma: 3
       amazon: 3
       azure: 3
+      cbl-mariner: 3
       oracle-oval: 3
       photon: 3
       redhat: 3
@@ -178,10 +187,15 @@
     References:
     - http://www.openwall.com/lists/oss-security/2024/07/23/1
     - http://www.openwall.com/lists/oss-security/2024/07/31/2
+    - https://access.redhat.com/errata/RHSA-2024:5231
     - https://access.redhat.com/security/cve/CVE-2024-1975
+    - https://bugzilla.redhat.com/2298893
+    - https://bugzilla.redhat.com/2298901
+    - https://bugzilla.redhat.com/2298904
+    - https://errata.almalinux.org/9/ALSA-2024-5231.html
     - https://kb.isc.org/docs/cve-2024-1975
     - https://linux.oracle.com/cve/CVE-2024-1975.html
-    - https://linux.oracle.com/errata/ELSA-2024-5390.html
+    - https://linux.oracle.com/errata/ELSA-2024-5524.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-1975
     - https://ubuntu.com/security/notices/USN-6909-1
     - https://ubuntu.com/security/notices/USN-6909-2
@@ -215,8 +229,10 @@
     CweIDs:
     - CWE-617
     VendorSeverity:
+      alma: 3
       amazon: 3
       azure: 3
+      cbl-mariner: 3
       oracle-oval: 3
       photon: 3
       redhat: 3
@@ -228,7 +244,12 @@
     References:
     - http://www.openwall.com/lists/oss-security/2024/07/23/1
     - http://www.openwall.com/lists/oss-security/2024/07/31/2
+    - https://access.redhat.com/errata/RHSA-2024:5231
     - https://access.redhat.com/security/cve/CVE-2024-4076
+    - https://bugzilla.redhat.com/2298893
+    - https://bugzilla.redhat.com/2298901
+    - https://bugzilla.redhat.com/2298904
+    - https://errata.almalinux.org/9/ALSA-2024-5231.html
     - https://kb.isc.org/docs/cve-2024-4076
     - https://linux.oracle.com/cve/CVE-2024-4076.html
     - https://linux.oracle.com/errata/ELSA-2024-5390.html
@@ -307,8 +328,10 @@
     CweIDs:
     - CWE-770
     VendorSeverity:
+      alma: 3
       amazon: 3
       azure: 3
+      cbl-mariner: 3
       oracle-oval: 3
       photon: 3
       redhat: 3
@@ -320,11 +343,16 @@
     References:
     - http://www.openwall.com/lists/oss-security/2024/07/23/1
     - http://www.openwall.com/lists/oss-security/2024/07/31/2
+    - https://access.redhat.com/errata/RHSA-2024:5231
     - https://access.redhat.com/security/cve/CVE-2024-1737
+    - https://bugzilla.redhat.com/2298893
+    - https://bugzilla.redhat.com/2298901
+    - https://bugzilla.redhat.com/2298904
+    - https://errata.almalinux.org/9/ALSA-2024-5231.html
     - https://kb.isc.org/docs/cve-2024-1737
     - https://kb.isc.org/docs/rrset-limits-in-zones
     - https://linux.oracle.com/cve/CVE-2024-1737.html
-    - https://linux.oracle.com/errata/ELSA-2024-5390.html
+    - https://linux.oracle.com/errata/ELSA-2024-5524.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-1737
     - https://ubuntu.com/security/notices/USN-6909-1
     - https://ubuntu.com/security/notices/USN-6909-2
@@ -358,8 +386,10 @@
     CweIDs:
     - CWE-770
     VendorSeverity:
+      alma: 3
       amazon: 3
       azure: 3
+      cbl-mariner: 3
       oracle-oval: 3
       photon: 3
       redhat: 3
@@ -371,10 +401,15 @@
     References:
     - http://www.openwall.com/lists/oss-security/2024/07/23/1
     - http://www.openwall.com/lists/oss-security/2024/07/31/2
+    - https://access.redhat.com/errata/RHSA-2024:5231
     - https://access.redhat.com/security/cve/CVE-2024-1975
+    - https://bugzilla.redhat.com/2298893
+    - https://bugzilla.redhat.com/2298901
+    - https://bugzilla.redhat.com/2298904
+    - https://errata.almalinux.org/9/ALSA-2024-5231.html
     - https://kb.isc.org/docs/cve-2024-1975
     - https://linux.oracle.com/cve/CVE-2024-1975.html
-    - https://linux.oracle.com/errata/ELSA-2024-5390.html
+    - https://linux.oracle.com/errata/ELSA-2024-5524.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-1975
     - https://ubuntu.com/security/notices/USN-6909-1
     - https://ubuntu.com/security/notices/USN-6909-2
@@ -408,8 +443,10 @@
     CweIDs:
     - CWE-617
     VendorSeverity:
+      alma: 3
       amazon: 3
       azure: 3
+      cbl-mariner: 3
       oracle-oval: 3
       photon: 3
       redhat: 3
@@ -421,7 +458,12 @@
     References:
     - http://www.openwall.com/lists/oss-security/2024/07/23/1
     - http://www.openwall.com/lists/oss-security/2024/07/31/2
+    - https://access.redhat.com/errata/RHSA-2024:5231
     - https://access.redhat.com/security/cve/CVE-2024-4076
+    - https://bugzilla.redhat.com/2298893
+    - https://bugzilla.redhat.com/2298901
+    - https://bugzilla.redhat.com/2298904
+    - https://errata.almalinux.org/9/ALSA-2024-5231.html
     - https://kb.isc.org/docs/cve-2024-4076
     - https://linux.oracle.com/cve/CVE-2024-4076.html
     - https://linux.oracle.com/errata/ELSA-2024-5390.html
@@ -500,8 +542,10 @@
     CweIDs:
     - CWE-770
     VendorSeverity:
+      alma: 3
       amazon: 3
       azure: 3
+      cbl-mariner: 3
       oracle-oval: 3
       photon: 3
       redhat: 3
@@ -513,11 +557,16 @@
     References:
     - http://www.openwall.com/lists/oss-security/2024/07/23/1
     - http://www.openwall.com/lists/oss-security/2024/07/31/2
+    - https://access.redhat.com/errata/RHSA-2024:5231
     - https://access.redhat.com/security/cve/CVE-2024-1737
+    - https://bugzilla.redhat.com/2298893
+    - https://bugzilla.redhat.com/2298901
+    - https://bugzilla.redhat.com/2298904
+    - https://errata.almalinux.org/9/ALSA-2024-5231.html
     - https://kb.isc.org/docs/cve-2024-1737
     - https://kb.isc.org/docs/rrset-limits-in-zones
     - https://linux.oracle.com/cve/CVE-2024-1737.html
-    - https://linux.oracle.com/errata/ELSA-2024-5390.html
+    - https://linux.oracle.com/errata/ELSA-2024-5524.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-1737
     - https://ubuntu.com/security/notices/USN-6909-1
     - https://ubuntu.com/security/notices/USN-6909-2
@@ -551,8 +600,10 @@
     CweIDs:
     - CWE-770
     VendorSeverity:
+      alma: 3
       amazon: 3
       azure: 3
+      cbl-mariner: 3
       oracle-oval: 3
       photon: 3
       redhat: 3
@@ -564,10 +615,15 @@
     References:
     - http://www.openwall.com/lists/oss-security/2024/07/23/1
     - http://www.openwall.com/lists/oss-security/2024/07/31/2
+    - https://access.redhat.com/errata/RHSA-2024:5231
     - https://access.redhat.com/security/cve/CVE-2024-1975
+    - https://bugzilla.redhat.com/2298893
+    - https://bugzilla.redhat.com/2298901
+    - https://bugzilla.redhat.com/2298904
+    - https://errata.almalinux.org/9/ALSA-2024-5231.html
     - https://kb.isc.org/docs/cve-2024-1975
     - https://linux.oracle.com/cve/CVE-2024-1975.html
-    - https://linux.oracle.com/errata/ELSA-2024-5390.html
+    - https://linux.oracle.com/errata/ELSA-2024-5524.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-1975
     - https://ubuntu.com/security/notices/USN-6909-1
     - https://ubuntu.com/security/notices/USN-6909-2
@@ -601,8 +657,10 @@
     CweIDs:
     - CWE-617
     VendorSeverity:
+      alma: 3
       amazon: 3
       azure: 3
+      cbl-mariner: 3
       oracle-oval: 3
       photon: 3
       redhat: 3
@@ -614,7 +672,12 @@
     References:
     - http://www.openwall.com/lists/oss-security/2024/07/23/1
     - http://www.openwall.com/lists/oss-security/2024/07/31/2
+    - https://access.redhat.com/errata/RHSA-2024:5231
     - https://access.redhat.com/security/cve/CVE-2024-4076
+    - https://bugzilla.redhat.com/2298893
+    - https://bugzilla.redhat.com/2298901
+    - https://bugzilla.redhat.com/2298904
+    - https://errata.almalinux.org/9/ALSA-2024-5231.html
     - https://kb.isc.org/docs/cve-2024-4076
     - https://linux.oracle.com/cve/CVE-2024-4076.html
     - https://linux.oracle.com/errata/ELSA-2024-5390.html
@@ -725,6 +788,7 @@
     - https://hackerone.com/reports/2629968
     - https://nvd.nist.gov/vuln/detail/CVE-2024-7264
     - https://ubuntu.com/security/notices/USN-6944-1
+    - https://ubuntu.com/security/notices/USN-6944-2
     - https://www.cve.org/CVERecord?id=CVE-2024-7264
     PublishedDate: '2024-07-31T08:15:02.657Z'
     LastModifiedDate: '2024-08-12T17:30:51.88Z'
@@ -772,7 +836,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2213166
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-34969
     - https://errata.almalinux.org/9/ALSA-2023-4569.html
-    - https://errata.rockylinux.org/RLSA-2023:4498
+    - https://errata.rockylinux.org/RLSA-2023:4569
     - https://gitlab.freedesktop.org/dbus/dbus/-/issues/457
     - https://linux.oracle.com/cve/CVE-2023-34969.html
     - https://linux.oracle.com/errata/ELSA-2023-4569.html
@@ -828,7 +892,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2213166
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-34969
     - https://errata.almalinux.org/9/ALSA-2023-4569.html
-    - https://errata.rockylinux.org/RLSA-2023:4498
+    - https://errata.rockylinux.org/RLSA-2023:4569
     - https://gitlab.freedesktop.org/dbus/dbus/-/issues/457
     - https://linux.oracle.com/cve/CVE-2023-34969.html
     - https://linux.oracle.com/errata/ELSA-2023-4569.html
@@ -954,8 +1018,10 @@
     CweIDs:
     - CWE-770
     VendorSeverity:
+      alma: 3
       amazon: 3
       azure: 3
+      cbl-mariner: 3
       oracle-oval: 3
       photon: 3
       redhat: 3
@@ -967,11 +1033,16 @@
     References:
     - http://www.openwall.com/lists/oss-security/2024/07/23/1
     - http://www.openwall.com/lists/oss-security/2024/07/31/2
+    - https://access.redhat.com/errata/RHSA-2024:5231
     - https://access.redhat.com/security/cve/CVE-2024-1737
+    - https://bugzilla.redhat.com/2298893
+    - https://bugzilla.redhat.com/2298901
+    - https://bugzilla.redhat.com/2298904
+    - https://errata.almalinux.org/9/ALSA-2024-5231.html
     - https://kb.isc.org/docs/cve-2024-1737
     - https://kb.isc.org/docs/rrset-limits-in-zones
     - https://linux.oracle.com/cve/CVE-2024-1737.html
-    - https://linux.oracle.com/errata/ELSA-2024-5390.html
+    - https://linux.oracle.com/errata/ELSA-2024-5524.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-1737
     - https://ubuntu.com/security/notices/USN-6909-1
     - https://ubuntu.com/security/notices/USN-6909-2
@@ -1005,8 +1076,10 @@
     CweIDs:
     - CWE-770
     VendorSeverity:
+      alma: 3
       amazon: 3
       azure: 3
+      cbl-mariner: 3
       oracle-oval: 3
       photon: 3
       redhat: 3
@@ -1018,10 +1091,15 @@
     References:
     - http://www.openwall.com/lists/oss-security/2024/07/23/1
     - http://www.openwall.com/lists/oss-security/2024/07/31/2
+    - https://access.redhat.com/errata/RHSA-2024:5231
     - https://access.redhat.com/security/cve/CVE-2024-1975
+    - https://bugzilla.redhat.com/2298893
+    - https://bugzilla.redhat.com/2298901
+    - https://bugzilla.redhat.com/2298904
+    - https://errata.almalinux.org/9/ALSA-2024-5231.html
     - https://kb.isc.org/docs/cve-2024-1975
     - https://linux.oracle.com/cve/CVE-2024-1975.html
-    - https://linux.oracle.com/errata/ELSA-2024-5390.html
+    - https://linux.oracle.com/errata/ELSA-2024-5524.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-1975
     - https://ubuntu.com/security/notices/USN-6909-1
     - https://ubuntu.com/security/notices/USN-6909-2
@@ -1055,8 +1133,10 @@
     CweIDs:
     - CWE-617
     VendorSeverity:
+      alma: 3
       amazon: 3
       azure: 3
+      cbl-mariner: 3
       oracle-oval: 3
       photon: 3
       redhat: 3
@@ -1068,7 +1148,12 @@
     References:
     - http://www.openwall.com/lists/oss-security/2024/07/23/1
     - http://www.openwall.com/lists/oss-security/2024/07/31/2
+    - https://access.redhat.com/errata/RHSA-2024:5231
     - https://access.redhat.com/security/cve/CVE-2024-4076
+    - https://bugzilla.redhat.com/2298893
+    - https://bugzilla.redhat.com/2298901
+    - https://bugzilla.redhat.com/2298904
+    - https://errata.almalinux.org/9/ALSA-2024-5231.html
     - https://kb.isc.org/docs/cve-2024-4076
     - https://linux.oracle.com/cve/CVE-2024-4076.html
     - https://linux.oracle.com/errata/ELSA-2024-5390.html
@@ -1869,6 +1954,7 @@
     - https://hackerone.com/reports/2629968
     - https://nvd.nist.gov/vuln/detail/CVE-2024-7264
     - https://ubuntu.com/security/notices/USN-6944-1
+    - https://ubuntu.com/security/notices/USN-6944-2
     - https://www.cve.org/CVERecord?id=CVE-2024-7264
     PublishedDate: '2024-07-31T08:15:02.657Z'
     LastModifiedDate: '2024-08-12T17:30:51.88Z'
@@ -1924,6 +2010,7 @@
     - https://hackerone.com/reports/2629968
     - https://nvd.nist.gov/vuln/detail/CVE-2024-7264
     - https://ubuntu.com/security/notices/USN-6944-1
+    - https://ubuntu.com/security/notices/USN-6944-2
     - https://www.cve.org/CVERecord?id=CVE-2024-7264
     PublishedDate: '2024-07-31T08:15:02.657Z'
     LastModifiedDate: '2024-08-12T17:30:51.88Z'
@@ -1971,7 +2058,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2213166
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-34969
     - https://errata.almalinux.org/9/ALSA-2023-4569.html
-    - https://errata.rockylinux.org/RLSA-2023:4498
+    - https://errata.rockylinux.org/RLSA-2023:4569
     - https://gitlab.freedesktop.org/dbus/dbus/-/issues/457
     - https://linux.oracle.com/cve/CVE-2023-34969.html
     - https://linux.oracle.com/errata/ELSA-2023-4569.html
@@ -2065,7 +2152,9 @@
     - https://access.redhat.com/security/cve/CVE-2024-2236
     - https://bugzilla.redhat.com/show_bug.cgi?id=2245218
     - https://bugzilla.redhat.com/show_bug.cgi?id=2268268
+    - https://dev.gnupg.org/T7136
     - https://github.com/tomato42/marvin-toolkit/tree/master/example/libgcrypt
+    - https://gitlab.com/redhat-crypto/libgcrypt/libgcrypt-mirror/-/merge_requests/17
     - https://lists.gnupg.org/pipermail/gcrypt-devel/2024-March/005607.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-2236
     - https://www.cve.org/CVERecord?id=CVE-2024-2236
@@ -2174,18 +2263,27 @@
     Description: In MIT Kerberos 5 (aka krb5) before 1.21.3, an attacker can modify the plaintext Extra Count field of a confidential GSS krb5 wrap token, causing the unwrapped token to appear truncated to the application.
     Severity: MEDIUM
     VendorSeverity:
+      alma: 2
       amazon: 2
-      azure: 2
-      cbl-mariner: 2
+      azure: 3
+      cbl-mariner: 3
+      nvd: 3
       oracle-oval: 2
       redhat: 2
       ubuntu: 2
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+        V3Score: 7.5
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:H
         V3Score: 7.4
     References:
+    - https://access.redhat.com/errata/RHSA-2024:5312
     - https://access.redhat.com/security/cve/CVE-2024-37370
+    - https://bugzilla.redhat.com/2294676
+    - https://bugzilla.redhat.com/2294677
+    - https://errata.almalinux.org/8/ALSA-2024-5312.html
     - https://github.com/krb5/krb5/commit/55fbf435edbe2e92dd8101669b1ce7144bc96fef
     - https://linux.oracle.com/cve/CVE-2024-37370.html
     - https://linux.oracle.com/errata/ELSA-2024-5312.html
@@ -2195,7 +2293,7 @@
     - https://web.mit.edu/kerberos/www/krb5-1.21/
     - https://www.cve.org/CVERecord?id=CVE-2024-37370
     PublishedDate: '2024-06-28T22:15:02.293Z'
-    LastModifiedDate: '2024-07-01T12:37:24.22Z'
+    LastModifiedDate: '2024-08-27T17:48:12.297Z'
   - VulnerabilityID: CVE-2024-37371
     PkgID: libgssapi-krb5-2@1.19.2-2ubuntu0.3
     PkgName: libgssapi-krb5-2
@@ -2218,18 +2316,27 @@
     Description: In MIT Kerberos 5 (aka krb5) before 1.21.3, an attacker can cause invalid memory reads during GSS message token handling by sending message tokens with invalid length fields.
     Severity: MEDIUM
     VendorSeverity:
+      alma: 2
       amazon: 2
-      azure: 2
-      cbl-mariner: 2
+      azure: 4
+      cbl-mariner: 4
+      nvd: 4
       oracle-oval: 2
       redhat: 2
       ubuntu: 2
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H
+        V3Score: 9.1
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
         V3Score: 6.5
     References:
+    - https://access.redhat.com/errata/RHSA-2024:5312
     - https://access.redhat.com/security/cve/CVE-2024-37371
+    - https://bugzilla.redhat.com/2294676
+    - https://bugzilla.redhat.com/2294677
+    - https://errata.almalinux.org/8/ALSA-2024-5312.html
     - https://github.com/krb5/krb5/commit/55fbf435edbe2e92dd8101669b1ce7144bc96fef
     - https://linux.oracle.com/cve/CVE-2024-37371.html
     - https://linux.oracle.com/errata/ELSA-2024-5312.html
@@ -2239,7 +2346,7 @@
     - https://web.mit.edu/kerberos/www/krb5-1.21/
     - https://www.cve.org/CVERecord?id=CVE-2024-37371
     PublishedDate: '2024-06-28T23:15:11.603Z'
-    LastModifiedDate: '2024-07-01T12:37:24.22Z'
+    LastModifiedDate: '2024-08-27T17:47:30.89Z'
   - VulnerabilityID: CVE-2024-26458
     PkgID: libgssapi-krb5-2@1.19.2-2ubuntu0.3
     PkgName: libgssapi-krb5-2
@@ -2409,18 +2516,27 @@
     Description: In MIT Kerberos 5 (aka krb5) before 1.21.3, an attacker can modify the plaintext Extra Count field of a confidential GSS krb5 wrap token, causing the unwrapped token to appear truncated to the application.
     Severity: MEDIUM
     VendorSeverity:
+      alma: 2
       amazon: 2
-      azure: 2
-      cbl-mariner: 2
+      azure: 3
+      cbl-mariner: 3
+      nvd: 3
       oracle-oval: 2
       redhat: 2
       ubuntu: 2
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+        V3Score: 7.5
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:H
         V3Score: 7.4
     References:
+    - https://access.redhat.com/errata/RHSA-2024:5312
     - https://access.redhat.com/security/cve/CVE-2024-37370
+    - https://bugzilla.redhat.com/2294676
+    - https://bugzilla.redhat.com/2294677
+    - https://errata.almalinux.org/8/ALSA-2024-5312.html
     - https://github.com/krb5/krb5/commit/55fbf435edbe2e92dd8101669b1ce7144bc96fef
     - https://linux.oracle.com/cve/CVE-2024-37370.html
     - https://linux.oracle.com/errata/ELSA-2024-5312.html
@@ -2430,7 +2546,7 @@
     - https://web.mit.edu/kerberos/www/krb5-1.21/
     - https://www.cve.org/CVERecord?id=CVE-2024-37370
     PublishedDate: '2024-06-28T22:15:02.293Z'
-    LastModifiedDate: '2024-07-01T12:37:24.22Z'
+    LastModifiedDate: '2024-08-27T17:48:12.297Z'
   - VulnerabilityID: CVE-2024-37371
     PkgID: libk5crypto3@1.19.2-2ubuntu0.3
     PkgName: libk5crypto3
@@ -2453,18 +2569,27 @@
     Description: In MIT Kerberos 5 (aka krb5) before 1.21.3, an attacker can cause invalid memory reads during GSS message token handling by sending message tokens with invalid length fields.
     Severity: MEDIUM
     VendorSeverity:
+      alma: 2
       amazon: 2
-      azure: 2
-      cbl-mariner: 2
+      azure: 4
+      cbl-mariner: 4
+      nvd: 4
       oracle-oval: 2
       redhat: 2
       ubuntu: 2
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H
+        V3Score: 9.1
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
         V3Score: 6.5
     References:
+    - https://access.redhat.com/errata/RHSA-2024:5312
     - https://access.redhat.com/security/cve/CVE-2024-37371
+    - https://bugzilla.redhat.com/2294676
+    - https://bugzilla.redhat.com/2294677
+    - https://errata.almalinux.org/8/ALSA-2024-5312.html
     - https://github.com/krb5/krb5/commit/55fbf435edbe2e92dd8101669b1ce7144bc96fef
     - https://linux.oracle.com/cve/CVE-2024-37371.html
     - https://linux.oracle.com/errata/ELSA-2024-5312.html
@@ -2474,7 +2599,7 @@
     - https://web.mit.edu/kerberos/www/krb5-1.21/
     - https://www.cve.org/CVERecord?id=CVE-2024-37371
     PublishedDate: '2024-06-28T23:15:11.603Z'
-    LastModifiedDate: '2024-07-01T12:37:24.22Z'
+    LastModifiedDate: '2024-08-27T17:47:30.89Z'
   - VulnerabilityID: CVE-2024-26458
     PkgID: libk5crypto3@1.19.2-2ubuntu0.3
     PkgName: libk5crypto3
@@ -2644,18 +2769,27 @@
     Description: In MIT Kerberos 5 (aka krb5) before 1.21.3, an attacker can modify the plaintext Extra Count field of a confidential GSS krb5 wrap token, causing the unwrapped token to appear truncated to the application.
     Severity: MEDIUM
     VendorSeverity:
+      alma: 2
       amazon: 2
-      azure: 2
-      cbl-mariner: 2
+      azure: 3
+      cbl-mariner: 3
+      nvd: 3
       oracle-oval: 2
       redhat: 2
       ubuntu: 2
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+        V3Score: 7.5
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:H
         V3Score: 7.4
     References:
+    - https://access.redhat.com/errata/RHSA-2024:5312
     - https://access.redhat.com/security/cve/CVE-2024-37370
+    - https://bugzilla.redhat.com/2294676
+    - https://bugzilla.redhat.com/2294677
+    - https://errata.almalinux.org/8/ALSA-2024-5312.html
     - https://github.com/krb5/krb5/commit/55fbf435edbe2e92dd8101669b1ce7144bc96fef
     - https://linux.oracle.com/cve/CVE-2024-37370.html
     - https://linux.oracle.com/errata/ELSA-2024-5312.html
@@ -2665,7 +2799,7 @@
     - https://web.mit.edu/kerberos/www/krb5-1.21/
     - https://www.cve.org/CVERecord?id=CVE-2024-37370
     PublishedDate: '2024-06-28T22:15:02.293Z'
-    LastModifiedDate: '2024-07-01T12:37:24.22Z'
+    LastModifiedDate: '2024-08-27T17:48:12.297Z'
   - VulnerabilityID: CVE-2024-37371
     PkgID: libkrb5-3@1.19.2-2ubuntu0.3
     PkgName: libkrb5-3
@@ -2688,18 +2822,27 @@
     Description: In MIT Kerberos 5 (aka krb5) before 1.21.3, an attacker can cause invalid memory reads during GSS message token handling by sending message tokens with invalid length fields.
     Severity: MEDIUM
     VendorSeverity:
+      alma: 2
       amazon: 2
-      azure: 2
-      cbl-mariner: 2
+      azure: 4
+      cbl-mariner: 4
+      nvd: 4
       oracle-oval: 2
       redhat: 2
       ubuntu: 2
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H
+        V3Score: 9.1
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
         V3Score: 6.5
     References:
+    - https://access.redhat.com/errata/RHSA-2024:5312
     - https://access.redhat.com/security/cve/CVE-2024-37371
+    - https://bugzilla.redhat.com/2294676
+    - https://bugzilla.redhat.com/2294677
+    - https://errata.almalinux.org/8/ALSA-2024-5312.html
     - https://github.com/krb5/krb5/commit/55fbf435edbe2e92dd8101669b1ce7144bc96fef
     - https://linux.oracle.com/cve/CVE-2024-37371.html
     - https://linux.oracle.com/errata/ELSA-2024-5312.html
@@ -2709,7 +2852,7 @@
     - https://web.mit.edu/kerberos/www/krb5-1.21/
     - https://www.cve.org/CVERecord?id=CVE-2024-37371
     PublishedDate: '2024-06-28T23:15:11.603Z'
-    LastModifiedDate: '2024-07-01T12:37:24.22Z'
+    LastModifiedDate: '2024-08-27T17:47:30.89Z'
   - VulnerabilityID: CVE-2024-26458
     PkgID: libkrb5-3@1.19.2-2ubuntu0.3
     PkgName: libkrb5-3
@@ -2879,18 +3022,27 @@
     Description: In MIT Kerberos 5 (aka krb5) before 1.21.3, an attacker can modify the plaintext Extra Count field of a confidential GSS krb5 wrap token, causing the unwrapped token to appear truncated to the application.
     Severity: MEDIUM
     VendorSeverity:
+      alma: 2
       amazon: 2
-      azure: 2
-      cbl-mariner: 2
+      azure: 3
+      cbl-mariner: 3
+      nvd: 3
       oracle-oval: 2
       redhat: 2
       ubuntu: 2
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+        V3Score: 7.5
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:H
         V3Score: 7.4
     References:
+    - https://access.redhat.com/errata/RHSA-2024:5312
     - https://access.redhat.com/security/cve/CVE-2024-37370
+    - https://bugzilla.redhat.com/2294676
+    - https://bugzilla.redhat.com/2294677
+    - https://errata.almalinux.org/8/ALSA-2024-5312.html
     - https://github.com/krb5/krb5/commit/55fbf435edbe2e92dd8101669b1ce7144bc96fef
     - https://linux.oracle.com/cve/CVE-2024-37370.html
     - https://linux.oracle.com/errata/ELSA-2024-5312.html
@@ -2900,7 +3052,7 @@
     - https://web.mit.edu/kerberos/www/krb5-1.21/
     - https://www.cve.org/CVERecord?id=CVE-2024-37370
     PublishedDate: '2024-06-28T22:15:02.293Z'
-    LastModifiedDate: '2024-07-01T12:37:24.22Z'
+    LastModifiedDate: '2024-08-27T17:48:12.297Z'
   - VulnerabilityID: CVE-2024-37371
     PkgID: libkrb5support0@1.19.2-2ubuntu0.3
     PkgName: libkrb5support0
@@ -2923,18 +3075,27 @@
     Description: In MIT Kerberos 5 (aka krb5) before 1.21.3, an attacker can cause invalid memory reads during GSS message token handling by sending message tokens with invalid length fields.
     Severity: MEDIUM
     VendorSeverity:
+      alma: 2
       amazon: 2
-      azure: 2
-      cbl-mariner: 2
+      azure: 4
+      cbl-mariner: 4
+      nvd: 4
       oracle-oval: 2
       redhat: 2
       ubuntu: 2
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H
+        V3Score: 9.1
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
         V3Score: 6.5
     References:
+    - https://access.redhat.com/errata/RHSA-2024:5312
     - https://access.redhat.com/security/cve/CVE-2024-37371
+    - https://bugzilla.redhat.com/2294676
+    - https://bugzilla.redhat.com/2294677
+    - https://errata.almalinux.org/8/ALSA-2024-5312.html
     - https://github.com/krb5/krb5/commit/55fbf435edbe2e92dd8101669b1ce7144bc96fef
     - https://linux.oracle.com/cve/CVE-2024-37371.html
     - https://linux.oracle.com/errata/ELSA-2024-5312.html
@@ -2944,7 +3105,7 @@
     - https://web.mit.edu/kerberos/www/krb5-1.21/
     - https://www.cve.org/CVERecord?id=CVE-2024-37371
     PublishedDate: '2024-06-28T23:15:11.603Z'
-    LastModifiedDate: '2024-07-01T12:37:24.22Z'
+    LastModifiedDate: '2024-08-27T17:47:30.89Z'
   - VulnerabilityID: CVE-2024-26458
     PkgID: libkrb5support0@1.19.2-2ubuntu0.3
     PkgName: libkrb5support0
@@ -3232,14 +3393,20 @@
     Description: "NGINX Open Source and NGINX Plus have a vulnerability in the ngx_http_mp4_module, which might allow an attacker to over-read NGINX worker memory resulting in its termination, using a specially crafted mp4 file. The issue only affects NGINX if it is built with the ngx_http_mp4_module and the mp4 directive is used in the configuration file. Additionally, the attack is possible only if an attacker can trigger the processing of a specially crafted mp4 file with the ngx_http_mp4_module.\_ Note: Software versions which have reached End of Technical Support (EoTS) are not evaluated."
     Severity: MEDIUM
     CweIDs:
+    - CWE-125
     - CWE-126
     VendorSeverity:
       bitnami: 2
+      nvd: 2
+      photon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
       bitnami:
-        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 4.7
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:N/I:N/A:H
         V3Score: 4.7
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H
@@ -3251,7 +3418,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2024-7347
     - https://www.cve.org/CVERecord?id=CVE-2024-7347
     PublishedDate: '2024-08-14T15:15:31.87Z'
-    LastModifiedDate: '2024-08-14T17:49:14.177Z'
+    LastModifiedDate: '2024-08-20T19:25:17.513Z'
   - VulnerabilityID: CVE-2024-7347
     PkgID: libnginx-mod-http-image-filter@1.18.0-6ubuntu14.4
     PkgName: libnginx-mod-http-image-filter
@@ -3273,14 +3440,20 @@
     Description: "NGINX Open Source and NGINX Plus have a vulnerability in the ngx_http_mp4_module, which might allow an attacker to over-read NGINX worker memory resulting in its termination, using a specially crafted mp4 file. The issue only affects NGINX if it is built with the ngx_http_mp4_module and the mp4 directive is used in the configuration file. Additionally, the attack is possible only if an attacker can trigger the processing of a specially crafted mp4 file with the ngx_http_mp4_module.\_ Note: Software versions which have reached End of Technical Support (EoTS) are not evaluated."
     Severity: MEDIUM
     CweIDs:
+    - CWE-125
     - CWE-126
     VendorSeverity:
       bitnami: 2
+      nvd: 2
+      photon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
       bitnami:
-        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 4.7
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:N/I:N/A:H
         V3Score: 4.7
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H
@@ -3292,7 +3465,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2024-7347
     - https://www.cve.org/CVERecord?id=CVE-2024-7347
     PublishedDate: '2024-08-14T15:15:31.87Z'
-    LastModifiedDate: '2024-08-14T17:49:14.177Z'
+    LastModifiedDate: '2024-08-20T19:25:17.513Z'
   - VulnerabilityID: CVE-2024-7347
     PkgID: libnginx-mod-http-xslt-filter@1.18.0-6ubuntu14.4
     PkgName: libnginx-mod-http-xslt-filter
@@ -3314,14 +3487,20 @@
     Description: "NGINX Open Source and NGINX Plus have a vulnerability in the ngx_http_mp4_module, which might allow an attacker to over-read NGINX worker memory resulting in its termination, using a specially crafted mp4 file. The issue only affects NGINX if it is built with the ngx_http_mp4_module and the mp4 directive is used in the configuration file. Additionally, the attack is possible only if an attacker can trigger the processing of a specially crafted mp4 file with the ngx_http_mp4_module.\_ Note: Software versions which have reached End of Technical Support (EoTS) are not evaluated."
     Severity: MEDIUM
     CweIDs:
+    - CWE-125
     - CWE-126
     VendorSeverity:
       bitnami: 2
+      nvd: 2
+      photon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
       bitnami:
-        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 4.7
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:N/I:N/A:H
         V3Score: 4.7
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H
@@ -3333,7 +3512,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2024-7347
     - https://www.cve.org/CVERecord?id=CVE-2024-7347
     PublishedDate: '2024-08-14T15:15:31.87Z'
-    LastModifiedDate: '2024-08-14T17:49:14.177Z'
+    LastModifiedDate: '2024-08-20T19:25:17.513Z'
   - VulnerabilityID: CVE-2024-7347
     PkgID: libnginx-mod-mail@1.18.0-6ubuntu14.4
     PkgName: libnginx-mod-mail
@@ -3355,14 +3534,20 @@
     Description: "NGINX Open Source and NGINX Plus have a vulnerability in the ngx_http_mp4_module, which might allow an attacker to over-read NGINX worker memory resulting in its termination, using a specially crafted mp4 file. The issue only affects NGINX if it is built with the ngx_http_mp4_module and the mp4 directive is used in the configuration file. Additionally, the attack is possible only if an attacker can trigger the processing of a specially crafted mp4 file with the ngx_http_mp4_module.\_ Note: Software versions which have reached End of Technical Support (EoTS) are not evaluated."
     Severity: MEDIUM
     CweIDs:
+    - CWE-125
     - CWE-126
     VendorSeverity:
       bitnami: 2
+      nvd: 2
+      photon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
       bitnami:
-        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 4.7
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:N/I:N/A:H
         V3Score: 4.7
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H
@@ -3374,7 +3559,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2024-7347
     - https://www.cve.org/CVERecord?id=CVE-2024-7347
     PublishedDate: '2024-08-14T15:15:31.87Z'
-    LastModifiedDate: '2024-08-14T17:49:14.177Z'
+    LastModifiedDate: '2024-08-20T19:25:17.513Z'
   - VulnerabilityID: CVE-2024-7347
     PkgID: libnginx-mod-stream@1.18.0-6ubuntu14.4
     PkgName: libnginx-mod-stream
@@ -3396,14 +3581,20 @@
     Description: "NGINX Open Source and NGINX Plus have a vulnerability in the ngx_http_mp4_module, which might allow an attacker to over-read NGINX worker memory resulting in its termination, using a specially crafted mp4 file. The issue only affects NGINX if it is built with the ngx_http_mp4_module and the mp4 directive is used in the configuration file. Additionally, the attack is possible only if an attacker can trigger the processing of a specially crafted mp4 file with the ngx_http_mp4_module.\_ Note: Software versions which have reached End of Technical Support (EoTS) are not evaluated."
     Severity: MEDIUM
     CweIDs:
+    - CWE-125
     - CWE-126
     VendorSeverity:
       bitnami: 2
+      nvd: 2
+      photon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
       bitnami:
-        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 4.7
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:N/I:N/A:H
         V3Score: 4.7
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H
@@ -3415,7 +3606,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2024-7347
     - https://www.cve.org/CVERecord?id=CVE-2024-7347
     PublishedDate: '2024-08-14T15:15:31.87Z'
-    LastModifiedDate: '2024-08-14T17:49:14.177Z'
+    LastModifiedDate: '2024-08-20T19:25:17.513Z'
   - VulnerabilityID: CVE-2024-7347
     PkgID: libnginx-mod-stream-geoip2@1.18.0-6ubuntu14.4
     PkgName: libnginx-mod-stream-geoip2
@@ -3437,14 +3628,20 @@
     Description: "NGINX Open Source and NGINX Plus have a vulnerability in the ngx_http_mp4_module, which might allow an attacker to over-read NGINX worker memory resulting in its termination, using a specially crafted mp4 file. The issue only affects NGINX if it is built with the ngx_http_mp4_module and the mp4 directive is used in the configuration file. Additionally, the attack is possible only if an attacker can trigger the processing of a specially crafted mp4 file with the ngx_http_mp4_module.\_ Note: Software versions which have reached End of Technical Support (EoTS) are not evaluated."
     Severity: MEDIUM
     CweIDs:
+    - CWE-125
     - CWE-126
     VendorSeverity:
       bitnami: 2
+      nvd: 2
+      photon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
       bitnami:
-        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 4.7
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:N/I:N/A:H
         V3Score: 4.7
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H
@@ -3456,7 +3653,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2024-7347
     - https://www.cve.org/CVERecord?id=CVE-2024-7347
     PublishedDate: '2024-08-14T15:15:31.87Z'
-    LastModifiedDate: '2024-08-14T17:49:14.177Z'
+    LastModifiedDate: '2024-08-20T19:25:17.513Z'
   - VulnerabilityID: CVE-2023-7008
     PkgID: libnss-systemd@249.11-0ubuntu3.12
     PkgName: libnss-systemd
@@ -3774,8 +3971,9 @@
     - CWE-362
     VendorSeverity:
       amazon: 2
+      azure: 3
       bitnami: 3
-      cbl-mariner: 2
+      cbl-mariner: 3
       redhat: 1
       ubuntu: 2
     CVSS:
@@ -3827,13 +4025,19 @@
 
       CPython 3.12.4 and 3.13.0a6 contain updated information from these registries and thus have the intended behavior.
     Severity: LOW
+    CweIDs:
+    - CWE-697
     VendorSeverity:
       alma: 1
-      oracle-oval: 1
+      bitnami: 3
+      oracle-oval: 2
       photon: 1
       redhat: 1
       ubuntu: 1
     CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+        V3Score: 7.5
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 3.7
@@ -3854,7 +4058,7 @@
     - https://github.com/python/cpython/issues/113171
     - https://github.com/python/cpython/pull/113179
     - https://linux.oracle.com/cve/CVE-2024-4032.html
-    - https://linux.oracle.com/errata/ELSA-2024-4779.html
+    - https://linux.oracle.com/errata/ELSA-2024-5962.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/NRUHDUS2IV2USIZM2CVMSFL6SCKU3RZA/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-4032
     - https://security.netapp.com/advisory/ntap-20240726-0004/
@@ -3864,7 +4068,7 @@
     - https://www.iana.org/assignments/iana-ipv4-special-registry/iana-ipv4-special-registry.xhtml
     - https://www.iana.org/assignments/iana-ipv6-special-registry/iana-ipv6-special-registry.xhtml
     PublishedDate: '2024-06-17T15:15:52.517Z'
-    LastModifiedDate: '2024-07-28T14:15:10.783Z'
+    LastModifiedDate: '2024-08-29T21:35:11.017Z'
   - VulnerabilityID: CVE-2023-27043
     PkgID: libpython3.10-minimal@3.10.12-1~22.04.4
     PkgName: libpython3.10-minimal
@@ -3978,8 +4182,9 @@
     - CWE-362
     VendorSeverity:
       amazon: 2
+      azure: 3
       bitnami: 3
-      cbl-mariner: 2
+      cbl-mariner: 3
       redhat: 1
       ubuntu: 2
     CVSS:
@@ -4031,13 +4236,19 @@
 
       CPython 3.12.4 and 3.13.0a6 contain updated information from these registries and thus have the intended behavior.
     Severity: LOW
+    CweIDs:
+    - CWE-697
     VendorSeverity:
       alma: 1
-      oracle-oval: 1
+      bitnami: 3
+      oracle-oval: 2
       photon: 1
       redhat: 1
       ubuntu: 1
     CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+        V3Score: 7.5
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 3.7
@@ -4058,7 +4269,7 @@
     - https://github.com/python/cpython/issues/113171
     - https://github.com/python/cpython/pull/113179
     - https://linux.oracle.com/cve/CVE-2024-4032.html
-    - https://linux.oracle.com/errata/ELSA-2024-4779.html
+    - https://linux.oracle.com/errata/ELSA-2024-5962.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/NRUHDUS2IV2USIZM2CVMSFL6SCKU3RZA/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-4032
     - https://security.netapp.com/advisory/ntap-20240726-0004/
@@ -4068,7 +4279,7 @@
     - https://www.iana.org/assignments/iana-ipv4-special-registry/iana-ipv4-special-registry.xhtml
     - https://www.iana.org/assignments/iana-ipv6-special-registry/iana-ipv6-special-registry.xhtml
     PublishedDate: '2024-06-17T15:15:52.517Z'
-    LastModifiedDate: '2024-07-28T14:15:10.783Z'
+    LastModifiedDate: '2024-08-29T21:35:11.017Z'
   - VulnerabilityID: CVE-2023-27043
     PkgID: libpython3.10-stdlib@3.10.12-1~22.04.4
     PkgName: libpython3.10-stdlib
@@ -4182,8 +4393,9 @@
     - CWE-362
     VendorSeverity:
       amazon: 2
+      azure: 3
       bitnami: 3
-      cbl-mariner: 2
+      cbl-mariner: 3
       redhat: 1
       ubuntu: 2
     CVSS:
@@ -4235,13 +4447,19 @@
 
       CPython 3.12.4 and 3.13.0a6 contain updated information from these registries and thus have the intended behavior.
     Severity: LOW
+    CweIDs:
+    - CWE-697
     VendorSeverity:
       alma: 1
-      oracle-oval: 1
+      bitnami: 3
+      oracle-oval: 2
       photon: 1
       redhat: 1
       ubuntu: 1
     CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+        V3Score: 7.5
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 3.7
@@ -4262,7 +4480,7 @@
     - https://github.com/python/cpython/issues/113171
     - https://github.com/python/cpython/pull/113179
     - https://linux.oracle.com/cve/CVE-2024-4032.html
-    - https://linux.oracle.com/errata/ELSA-2024-4779.html
+    - https://linux.oracle.com/errata/ELSA-2024-5962.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/NRUHDUS2IV2USIZM2CVMSFL6SCKU3RZA/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-4032
     - https://security.netapp.com/advisory/ntap-20240726-0004/
@@ -4272,7 +4490,7 @@
     - https://www.iana.org/assignments/iana-ipv4-special-registry/iana-ipv4-special-registry.xhtml
     - https://www.iana.org/assignments/iana-ipv6-special-registry/iana-ipv6-special-registry.xhtml
     PublishedDate: '2024-06-17T15:15:52.517Z'
-    LastModifiedDate: '2024-07-28T14:15:10.783Z'
+    LastModifiedDate: '2024-08-29T21:35:11.017Z'
   - VulnerabilityID: CVE-2024-2511
     PkgID: libssl3@3.0.2-0ubuntu1.16
     PkgName: libssl3
@@ -4541,6 +4759,7 @@
     - CWE-200
     VendorSeverity:
       amazon: 2
+      azure: 2
       cbl-mariner: 4
       photon: 4
       redhat: 1
@@ -4691,7 +4910,7 @@
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Title: 'libtiff: NULL pointer dereference in the jpeg_fdct_16x16 function in jfdctint.c'
-    Description: LibTIFF 4.0.9 has a NULL pointer dereference in the jpeg_fdct_16x16 function in jfdctint.c.
+    Description: ijg-libjpeg before 9d, as used in tiff2pdf (from LibTIFF) and other products, does not check for a NULL pointer at a certain place in jpeg_fdct_16x16 in jfdctint.c.
     Severity: LOW
     CweIDs:
     - CWE-476
@@ -4712,11 +4931,12 @@
     References:
     - http://bugzilla.maptools.org/show_bug.cgi?id=2786
     - https://access.redhat.com/security/cve/CVE-2018-10126
+    - https://gitlab.com/libtiff/libtiff/-/issues/128
     - https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772%40%3Cdev.mina.apache.org%3E
     - https://nvd.nist.gov/vuln/detail/CVE-2018-10126
     - https://www.cve.org/CVERecord?id=CVE-2018-10126
     PublishedDate: '2018-04-21T21:29:00.29Z'
-    LastModifiedDate: '2023-11-07T02:51:16.693Z'
+    LastModifiedDate: '2024-08-20T05:15:11.773Z'
   - VulnerabilityID: CVE-2024-6716
     PkgID: libtiff5@4.3.0-6ubuntu0.9
     PkgName: libtiff5
@@ -5332,14 +5552,20 @@
     Description: "NGINX Open Source and NGINX Plus have a vulnerability in the ngx_http_mp4_module, which might allow an attacker to over-read NGINX worker memory resulting in its termination, using a specially crafted mp4 file. The issue only affects NGINX if it is built with the ngx_http_mp4_module and the mp4 directive is used in the configuration file. Additionally, the attack is possible only if an attacker can trigger the processing of a specially crafted mp4 file with the ngx_http_mp4_module.\_ Note: Software versions which have reached End of Technical Support (EoTS) are not evaluated."
     Severity: MEDIUM
     CweIDs:
+    - CWE-125
     - CWE-126
     VendorSeverity:
       bitnami: 2
+      nvd: 2
+      photon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
       bitnami:
-        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 4.7
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:N/I:N/A:H
         V3Score: 4.7
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H
@@ -5351,7 +5577,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2024-7347
     - https://www.cve.org/CVERecord?id=CVE-2024-7347
     PublishedDate: '2024-08-14T15:15:31.87Z'
-    LastModifiedDate: '2024-08-14T17:49:14.177Z'
+    LastModifiedDate: '2024-08-20T19:25:17.513Z'
   - VulnerabilityID: CVE-2024-7347
     PkgID: nginx-common@1.18.0-6ubuntu14.4
     PkgName: nginx-common
@@ -5373,14 +5599,20 @@
     Description: "NGINX Open Source and NGINX Plus have a vulnerability in the ngx_http_mp4_module, which might allow an attacker to over-read NGINX worker memory resulting in its termination, using a specially crafted mp4 file. The issue only affects NGINX if it is built with the ngx_http_mp4_module and the mp4 directive is used in the configuration file. Additionally, the attack is possible only if an attacker can trigger the processing of a specially crafted mp4 file with the ngx_http_mp4_module.\_ Note: Software versions which have reached End of Technical Support (EoTS) are not evaluated."
     Severity: MEDIUM
     CweIDs:
+    - CWE-125
     - CWE-126
     VendorSeverity:
       bitnami: 2
+      nvd: 2
+      photon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
       bitnami:
-        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 4.7
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:N/I:N/A:H
         V3Score: 4.7
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H
@@ -5392,7 +5624,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2024-7347
     - https://www.cve.org/CVERecord?id=CVE-2024-7347
     PublishedDate: '2024-08-14T15:15:31.87Z'
-    LastModifiedDate: '2024-08-14T17:49:14.177Z'
+    LastModifiedDate: '2024-08-20T19:25:17.513Z'
   - VulnerabilityID: CVE-2024-7347
     PkgID: nginx-core@1.18.0-6ubuntu14.4
     PkgName: nginx-core
@@ -5414,14 +5646,20 @@
     Description: "NGINX Open Source and NGINX Plus have a vulnerability in the ngx_http_mp4_module, which might allow an attacker to over-read NGINX worker memory resulting in its termination, using a specially crafted mp4 file. The issue only affects NGINX if it is built with the ngx_http_mp4_module and the mp4 directive is used in the configuration file. Additionally, the attack is possible only if an attacker can trigger the processing of a specially crafted mp4 file with the ngx_http_mp4_module.\_ Note: Software versions which have reached End of Technical Support (EoTS) are not evaluated."
     Severity: MEDIUM
     CweIDs:
+    - CWE-125
     - CWE-126
     VendorSeverity:
       bitnami: 2
+      nvd: 2
+      photon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
       bitnami:
-        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 4.7
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:N/I:N/A:H
         V3Score: 4.7
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H
@@ -5433,7 +5671,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2024-7347
     - https://www.cve.org/CVERecord?id=CVE-2024-7347
     PublishedDate: '2024-08-14T15:15:31.87Z'
-    LastModifiedDate: '2024-08-14T17:49:14.177Z'
+    LastModifiedDate: '2024-08-20T19:25:17.513Z'
   - VulnerabilityID: CVE-2024-2511
     PkgID: openssl@3.0.2-0ubuntu1.16
     PkgName: openssl
@@ -5702,6 +5940,7 @@
     - CWE-200
     VendorSeverity:
       amazon: 2
+      azure: 2
       cbl-mariner: 4
       photon: 4
       redhat: 1
@@ -5885,8 +6124,9 @@
     - CWE-362
     VendorSeverity:
       amazon: 2
+      azure: 3
       bitnami: 3
-      cbl-mariner: 2
+      cbl-mariner: 3
       redhat: 1
       ubuntu: 2
     CVSS:
@@ -5938,13 +6178,19 @@
 
       CPython 3.12.4 and 3.13.0a6 contain updated information from these registries and thus have the intended behavior.
     Severity: LOW
+    CweIDs:
+    - CWE-697
     VendorSeverity:
       alma: 1
-      oracle-oval: 1
+      bitnami: 3
+      oracle-oval: 2
       photon: 1
       redhat: 1
       ubuntu: 1
     CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+        V3Score: 7.5
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 3.7
@@ -5965,7 +6211,7 @@
     - https://github.com/python/cpython/issues/113171
     - https://github.com/python/cpython/pull/113179
     - https://linux.oracle.com/cve/CVE-2024-4032.html
-    - https://linux.oracle.com/errata/ELSA-2024-4779.html
+    - https://linux.oracle.com/errata/ELSA-2024-5962.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/NRUHDUS2IV2USIZM2CVMSFL6SCKU3RZA/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-4032
     - https://security.netapp.com/advisory/ntap-20240726-0004/
@@ -5975,7 +6221,7 @@
     - https://www.iana.org/assignments/iana-ipv4-special-registry/iana-ipv4-special-registry.xhtml
     - https://www.iana.org/assignments/iana-ipv6-special-registry/iana-ipv6-special-registry.xhtml
     PublishedDate: '2024-06-17T15:15:52.517Z'
-    LastModifiedDate: '2024-07-28T14:15:10.783Z'
+    LastModifiedDate: '2024-08-29T21:35:11.017Z'
   - VulnerabilityID: CVE-2023-27043
     PkgID: python3.10-minimal@3.10.12-1~22.04.4
     PkgName: python3.10-minimal
@@ -6089,8 +6335,9 @@
     - CWE-362
     VendorSeverity:
       amazon: 2
+      azure: 3
       bitnami: 3
-      cbl-mariner: 2
+      cbl-mariner: 3
       redhat: 1
       ubuntu: 2
     CVSS:
@@ -6142,13 +6389,19 @@
 
       CPython 3.12.4 and 3.13.0a6 contain updated information from these registries and thus have the intended behavior.
     Severity: LOW
+    CweIDs:
+    - CWE-697
     VendorSeverity:
       alma: 1
-      oracle-oval: 1
+      bitnami: 3
+      oracle-oval: 2
       photon: 1
       redhat: 1
       ubuntu: 1
     CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+        V3Score: 7.5
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 3.7
@@ -6169,7 +6422,7 @@
     - https://github.com/python/cpython/issues/113171
     - https://github.com/python/cpython/pull/113179
     - https://linux.oracle.com/cve/CVE-2024-4032.html
-    - https://linux.oracle.com/errata/ELSA-2024-4779.html
+    - https://linux.oracle.com/errata/ELSA-2024-5962.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/NRUHDUS2IV2USIZM2CVMSFL6SCKU3RZA/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-4032
     - https://security.netapp.com/advisory/ntap-20240726-0004/
@@ -6179,7 +6432,7 @@
     - https://www.iana.org/assignments/iana-ipv4-special-registry/iana-ipv4-special-registry.xhtml
     - https://www.iana.org/assignments/iana-ipv6-special-registry/iana-ipv6-special-registry.xhtml
     PublishedDate: '2024-06-17T15:15:52.517Z'
-    LastModifiedDate: '2024-07-28T14:15:10.783Z'
+    LastModifiedDate: '2024-08-29T21:35:11.017Z'
   - VulnerabilityID: CVE-2023-7008
     PkgID: systemd@249.11-0ubuntu3.12
     PkgName: systemd
@@ -6693,7 +6946,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-39325
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-44487
     - https://errata.almalinux.org/9/ALSA-2023-6077.html
-    - https://errata.rockylinux.org/RLSA-2023:5863
+    - https://errata.rockylinux.org/RLSA-2023:6077
     - https://github.com/golang/go/commit/24ae2d927285c697440fdde3ad7f26028354bcf3 [golang- 1.21]
     - https://github.com/golang/go/commit/e175f27f58aa7b9cd4d79607ae65d2cd5baaee68 [golang-1.20]
     - https://github.com/golang/go/issues/63417
@@ -6886,7 +7139,7 @@
       photon: 3
       redhat: 3
       rocky: 3
-      ubuntu: 2
+      ubuntu: 3
     CVSS:
       bitnami:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
@@ -6939,7 +7192,7 @@
     - https://discuss.hashicorp.com/t/hcsec-2023-32-vault-consul-and-boundary-affected-by-http-2-rapid-reset-denial-of-service-vulnerability-cve-2023-44487/59715
     - https://edg.io/lp/blog/resets-leaks-ddos-and-the-tale-of-a-hidden-cve
     - https://errata.almalinux.org/9/ALSA-2023-6746.html
-    - https://errata.rockylinux.org/RLSA-2023:5928
+    - https://errata.rockylinux.org/RLSA-2023:5838
     - https://forums.swift.org/t/swift-nio-http2-security-update-cve-2023-44487-http-2-dos/67764
     - https://gist.github.com/adulau/7c2bfb8e9cdbe4b35a5e131c66a0c088
     - https://github.com/Azure/AKS/issues/3947
@@ -7164,6 +7417,7 @@
       alma: 3
       amazon: 2
       azure: 3
+      bitnami: 3
       cbl-mariner: 3
       ghsa: 2
       oracle-oval: 3
@@ -7172,6 +7426,9 @@
       rocky: 3
       ubuntu: 2
     CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
       ghsa:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 5.3
@@ -7196,7 +7453,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45290
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24783
     - https://errata.almalinux.org/9/ALSA-2024-2724.html
-    - https://errata.rockylinux.org/RLSA-2024:3346
+    - https://errata.rockylinux.org/RLSA-2024:2724
     - https://go.dev/cl/576155
     - https://go.dev/issue/65051
     - https://groups.google.com/g/golang-announce/c/YgW0sx8mN3M
@@ -7215,7 +7472,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-45288
     - https://www.kb.cert.org/vuls/id/421644
     PublishedDate: '2024-04-04T21:15:16.113Z'
-    LastModifiedDate: '2024-05-01T18:15:10.493Z'
+    LastModifiedDate: '2024-08-26T21:35:02.457Z'
   - VulnerabilityID: CVE-2024-24790
     PkgName: stdlib
     PkgIdentifier:
@@ -7344,7 +7601,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-39325
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-44487
     - https://errata.almalinux.org/9/ALSA-2023-6077.html
-    - https://errata.rockylinux.org/RLSA-2023:5863
+    - https://errata.rockylinux.org/RLSA-2023:6077
     - https://github.com/golang/go/commit/24ae2d927285c697440fdde3ad7f26028354bcf3 [golang- 1.21]
     - https://github.com/golang/go/commit/e175f27f58aa7b9cd4d79607ae65d2cd5baaee68 [golang-1.20]
     - https://github.com/golang/go/issues/63417
@@ -7507,6 +7764,7 @@
       alma: 3
       amazon: 2
       azure: 3
+      bitnami: 3
       cbl-mariner: 3
       ghsa: 2
       oracle-oval: 3
@@ -7515,6 +7773,9 @@
       rocky: 3
       ubuntu: 2
     CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
       ghsa:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 5.3
@@ -7539,7 +7800,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45290
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24783
     - https://errata.almalinux.org/9/ALSA-2024-2724.html
-    - https://errata.rockylinux.org/RLSA-2024:3346
+    - https://errata.rockylinux.org/RLSA-2024:2724
     - https://go.dev/cl/576155
     - https://go.dev/issue/65051
     - https://groups.google.com/g/golang-announce/c/YgW0sx8mN3M
@@ -7558,7 +7819,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-45288
     - https://www.kb.cert.org/vuls/id/421644
     PublishedDate: '2024-04-04T21:15:16.113Z'
-    LastModifiedDate: '2024-05-01T18:15:10.493Z'
+    LastModifiedDate: '2024-08-26T21:35:02.457Z'
   - VulnerabilityID: CVE-2023-29406
     PkgName: stdlib
     PkgIdentifier:
@@ -7980,7 +8241,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45290
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24783
     - https://errata.almalinux.org/9/ALSA-2024-2724.html
-    - https://errata.rockylinux.org/RLSA-2024:3346
+    - https://errata.rockylinux.org/RLSA-2024:2724
     - https://github.com/golang/go/commit/20586c0dbe03d144f914155f879fa5ee287591a1 (go1.21.8)
     - https://github.com/golang/go/commit/3a855208e3efed2e9d7c20ad023f1fa78afcc0be (go1.22.1)
     - https://github.com/golang/go/issues/65065
@@ -8021,7 +8282,7 @@
       cbl-mariner: 2
       oracle-oval: 3
       redhat: 2
-      rocky: 3
+      rocky: 2
       ubuntu: 2
     CVSS:
       redhat:
@@ -8033,15 +8294,9 @@
     - https://access.redhat.com/security/cve/CVE-2023-45290
     - https://bugzilla.redhat.com/2268017
     - https://bugzilla.redhat.com/show_bug.cgi?id=2268017
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2268018
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2268019
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2268273
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45288
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45289
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45290
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24783
     - https://errata.almalinux.org/9/ALSA-2024-3831.html
-    - https://errata.rockylinux.org/RLSA-2024:3346
+    - https://errata.rockylinux.org/RLSA-2024:3830
     - https://github.com/golang/go/commit/041a47712e765e94f86d841c3110c840e76d8f82 (go1.22.1)
     - https://github.com/golang/go/commit/bf80213b121074f4ad9b449410a4d13bae5e9be0 (go1.21.8)
     - https://github.com/golang/go/issues/65383
@@ -8106,7 +8361,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45290
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24783
     - https://errata.almalinux.org/9/ALSA-2024-2724.html
-    - https://errata.rockylinux.org/RLSA-2024:3346
+    - https://errata.rockylinux.org/RLSA-2024:2724
     - https://github.com/advisories/GHSA-3q2c-pvp5-3cqp
     - https://github.com/golang/go/commit/337b8e9cbfa749d9d5c899e0dc358e2208d5e54f (go1.22.1)
     - https://github.com/golang/go/commit/be5b52bea674190ef7de272664be6c7ae93ec5a0 (go1.21.8)
@@ -8147,7 +8402,7 @@
       alma: 3
       amazon: 2
       bitnami: 3
-      cbl-mariner: 3
+      cbl-mariner: 2
       oracle-oval: 3
       photon: 3
       redhat: 2
@@ -8452,7 +8707,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-39325
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-44487
     - https://errata.almalinux.org/9/ALSA-2023-6077.html
-    - https://errata.rockylinux.org/RLSA-2023:5863
+    - https://errata.rockylinux.org/RLSA-2023:6077
     - https://github.com/golang/go/commit/24ae2d927285c697440fdde3ad7f26028354bcf3 [golang- 1.21]
     - https://github.com/golang/go/commit/e175f27f58aa7b9cd4d79607ae65d2cd5baaee68 [golang-1.20]
     - https://github.com/golang/go/issues/63417
@@ -8645,7 +8900,7 @@
       photon: 3
       redhat: 3
       rocky: 3
-      ubuntu: 2
+      ubuntu: 3
     CVSS:
       bitnami:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
@@ -8698,7 +8953,7 @@
     - https://discuss.hashicorp.com/t/hcsec-2023-32-vault-consul-and-boundary-affected-by-http-2-rapid-reset-denial-of-service-vulnerability-cve-2023-44487/59715
     - https://edg.io/lp/blog/resets-leaks-ddos-and-the-tale-of-a-hidden-cve
     - https://errata.almalinux.org/9/ALSA-2023-6746.html
-    - https://errata.rockylinux.org/RLSA-2023:5928
+    - https://errata.rockylinux.org/RLSA-2023:5838
     - https://forums.swift.org/t/swift-nio-http2-security-update-cve-2023-44487-http-2-dos/67764
     - https://gist.github.com/adulau/7c2bfb8e9cdbe4b35a5e131c66a0c088
     - https://github.com/Azure/AKS/issues/3947
@@ -8923,6 +9178,7 @@
       alma: 3
       amazon: 2
       azure: 3
+      bitnami: 3
       cbl-mariner: 3
       ghsa: 2
       oracle-oval: 3
@@ -8931,6 +9187,9 @@
       rocky: 3
       ubuntu: 2
     CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
       ghsa:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 5.3
@@ -8955,7 +9214,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45290
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24783
     - https://errata.almalinux.org/9/ALSA-2024-2724.html
-    - https://errata.rockylinux.org/RLSA-2024:3346
+    - https://errata.rockylinux.org/RLSA-2024:2724
     - https://go.dev/cl/576155
     - https://go.dev/issue/65051
     - https://groups.google.com/g/golang-announce/c/YgW0sx8mN3M
@@ -8974,7 +9233,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-45288
     - https://www.kb.cert.org/vuls/id/421644
     PublishedDate: '2024-04-04T21:15:16.113Z'
-    LastModifiedDate: '2024-05-01T18:15:10.493Z'
+    LastModifiedDate: '2024-08-26T21:35:02.457Z'
   - VulnerabilityID: CVE-2024-24790
     PkgName: stdlib
     PkgIdentifier:
@@ -9103,7 +9362,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-39325
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-44487
     - https://errata.almalinux.org/9/ALSA-2023-6077.html
-    - https://errata.rockylinux.org/RLSA-2023:5863
+    - https://errata.rockylinux.org/RLSA-2023:6077
     - https://github.com/golang/go/commit/24ae2d927285c697440fdde3ad7f26028354bcf3 [golang- 1.21]
     - https://github.com/golang/go/commit/e175f27f58aa7b9cd4d79607ae65d2cd5baaee68 [golang-1.20]
     - https://github.com/golang/go/issues/63417
@@ -9266,6 +9525,7 @@
       alma: 3
       amazon: 2
       azure: 3
+      bitnami: 3
       cbl-mariner: 3
       ghsa: 2
       oracle-oval: 3
@@ -9274,6 +9534,9 @@
       rocky: 3
       ubuntu: 2
     CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
       ghsa:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 5.3
@@ -9298,7 +9561,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45290
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24783
     - https://errata.almalinux.org/9/ALSA-2024-2724.html
-    - https://errata.rockylinux.org/RLSA-2024:3346
+    - https://errata.rockylinux.org/RLSA-2024:2724
     - https://go.dev/cl/576155
     - https://go.dev/issue/65051
     - https://groups.google.com/g/golang-announce/c/YgW0sx8mN3M
@@ -9317,7 +9580,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-45288
     - https://www.kb.cert.org/vuls/id/421644
     PublishedDate: '2024-04-04T21:15:16.113Z'
-    LastModifiedDate: '2024-05-01T18:15:10.493Z'
+    LastModifiedDate: '2024-08-26T21:35:02.457Z'
   - VulnerabilityID: CVE-2023-29406
     PkgName: stdlib
     PkgIdentifier:
@@ -9739,7 +10002,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45290
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24783
     - https://errata.almalinux.org/9/ALSA-2024-2724.html
-    - https://errata.rockylinux.org/RLSA-2024:3346
+    - https://errata.rockylinux.org/RLSA-2024:2724
     - https://github.com/golang/go/commit/20586c0dbe03d144f914155f879fa5ee287591a1 (go1.21.8)
     - https://github.com/golang/go/commit/3a855208e3efed2e9d7c20ad023f1fa78afcc0be (go1.22.1)
     - https://github.com/golang/go/issues/65065
@@ -9780,7 +10043,7 @@
       cbl-mariner: 2
       oracle-oval: 3
       redhat: 2
-      rocky: 3
+      rocky: 2
       ubuntu: 2
     CVSS:
       redhat:
@@ -9792,15 +10055,9 @@
     - https://access.redhat.com/security/cve/CVE-2023-45290
     - https://bugzilla.redhat.com/2268017
     - https://bugzilla.redhat.com/show_bug.cgi?id=2268017
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2268018
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2268019
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2268273
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45288
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45289
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45290
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24783
     - https://errata.almalinux.org/9/ALSA-2024-3831.html
-    - https://errata.rockylinux.org/RLSA-2024:3346
+    - https://errata.rockylinux.org/RLSA-2024:3830
     - https://github.com/golang/go/commit/041a47712e765e94f86d841c3110c840e76d8f82 (go1.22.1)
     - https://github.com/golang/go/commit/bf80213b121074f4ad9b449410a4d13bae5e9be0 (go1.21.8)
     - https://github.com/golang/go/issues/65383
@@ -9865,7 +10122,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45290
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24783
     - https://errata.almalinux.org/9/ALSA-2024-2724.html
-    - https://errata.rockylinux.org/RLSA-2024:3346
+    - https://errata.rockylinux.org/RLSA-2024:2724
     - https://github.com/advisories/GHSA-3q2c-pvp5-3cqp
     - https://github.com/golang/go/commit/337b8e9cbfa749d9d5c899e0dc358e2208d5e54f (go1.22.1)
     - https://github.com/golang/go/commit/be5b52bea674190ef7de272664be6c7ae93ec5a0 (go1.21.8)
@@ -9906,7 +10163,7 @@
       alma: 3
       amazon: 2
       bitnami: 3
-      cbl-mariner: 3
+      cbl-mariner: 2
       oracle-oval: 3
       photon: 3
       redhat: 2
@@ -10186,6 +10443,7 @@
     - CWE-863
     VendorSeverity:
       amazon: 3
+      azure: 4
       cbl-mariner: 4
       ghsa: 4
       redhat: 4
@@ -10296,6 +10554,7 @@
     - CWE-863
     VendorSeverity:
       amazon: 3
+      azure: 4
       cbl-mariner: 4
       ghsa: 4
       redhat: 4
@@ -10413,6 +10672,7 @@
     - CWE-863
     VendorSeverity:
       amazon: 3
+      azure: 4
       cbl-mariner: 4
       ghsa: 4
       redhat: 4
