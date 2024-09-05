@@ -1948,7 +1948,9 @@
     - CWE-125
     - CWE-126
     VendorSeverity:
+      amazon: 2
       bitnami: 2
+      cbl-mariner: 2
       nvd: 2
       photon: 2
       redhat: 2
@@ -1995,7 +1997,9 @@
     - CWE-125
     - CWE-126
     VendorSeverity:
+      amazon: 2
       bitnami: 2
+      cbl-mariner: 2
       nvd: 2
       photon: 2
       redhat: 2
@@ -2042,7 +2046,9 @@
     - CWE-125
     - CWE-126
     VendorSeverity:
+      amazon: 2
       bitnami: 2
+      cbl-mariner: 2
       nvd: 2
       photon: 2
       redhat: 2
@@ -2089,7 +2095,9 @@
     - CWE-125
     - CWE-126
     VendorSeverity:
+      amazon: 2
       bitnami: 2
+      cbl-mariner: 2
       nvd: 2
       photon: 2
       redhat: 2
@@ -2136,7 +2144,9 @@
     - CWE-125
     - CWE-126
     VendorSeverity:
+      amazon: 2
       bitnami: 2
+      cbl-mariner: 2
       nvd: 2
       photon: 2
       redhat: 2
@@ -2183,7 +2193,9 @@
     - CWE-125
     - CWE-126
     VendorSeverity:
+      amazon: 2
       bitnami: 2
+      cbl-mariner: 2
       nvd: 2
       photon: 2
       redhat: 2
@@ -2674,7 +2686,7 @@
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'Issue summary: Applications performing certificate name checks (e.g.,  ...'
+    Title: 'openssl: Possible denial of service in X.509 name checks'
     Description: |-
       Issue summary: Applications performing certificate name checks (e.g., TLS
       clients checking server certificates) may attempt to read an invalid memory
@@ -2704,12 +2716,20 @@
     CweIDs:
     - CWE-843
     VendorSeverity:
+      redhat: 2
       ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.9
     References:
+    - https://access.redhat.com/security/cve/CVE-2024-6119
     - https://github.com/openssl/openssl/commit/05f360d9e849a1b277db628f1f13083a7f8dd04f
     - https://github.com/openssl/openssl/commit/06d1dc3fa96a2ba5a3e22735a033012aadc9f0d6
     - https://github.com/openssl/openssl/commit/621f3729831b05ee828a3203eddb621d014ff2b2
     - https://github.com/openssl/openssl/commit/7dfcee2cd2a63b2c64b9b4b0850be64cb695b0a0
+    - https://github.com/openssl/openssl/security/advisories/GHSA-5qrj-vq78-58fj
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-6119
     - https://openssl-library.org/news/secadv/20240903.txt
     - https://ubuntu.com/security/notices/USN-6986-1
     - https://www.cve.org/CVERecord?id=CVE-2024-6119
@@ -2821,6 +2841,52 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-7008
     PublishedDate: '2023-12-23T13:15:07.573Z'
     LastModifiedDate: '2024-05-22T17:16:10.83Z'
+  - VulnerabilityID: CVE-2024-7006
+    PkgID: libtiff5@4.3.0-6ubuntu0.9
+    PkgName: libtiff5
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libtiff5@4.3.0-6ubuntu0.9?arch=amd64&distro=ubuntu-22.04
+      UID: 18abaff0d350634a
+    InstalledVersion: 4.3.0-6ubuntu0.9
+    Status: affected
+    Layer:
+      Digest: sha256:ea20a748157abffddff61dc48cf4503bf70efe906e22dd21a624fe3f010263d6
+      DiffID: sha256:d939d59e5386821f78642e82e4b13c320a2b067ce0dab85e9fcd6b0ec99d13a8
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-7006
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'libtiff: NULL pointer dereference in tif_dirinfo.c'
+    Description: A null pointer dereference flaw was found in Libtiff via `tif_dirinfo.c`. This issue may allow an attacker to trigger memory allocation failures through certain means, such as restricting the heap space size or injecting faults, causing a segmentation fault. This can cause an application crash, eventually leading to a denial of service.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-476
+    - CWE-754
+    VendorSeverity:
+      azure: 3
+      cbl-mariner: 3
+      nvd: 3
+      photon: 3
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/errata/RHSA-2024:6360
+    - https://access.redhat.com/security/cve/CVE-2024-7006
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2302996
+    - https://gitlab.com/libtiff/libtiff/-/merge_requests/559
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-7006
+    - https://www.cve.org/CVERecord?id=CVE-2024-7006
+    PublishedDate: '2024-08-12T13:38:40.577Z'
+    LastModifiedDate: '2024-09-04T23:15:12.977Z'
   - VulnerabilityID: CVE-2018-10126
     PkgID: libtiff5@4.3.0-6ubuntu0.9
     PkgName: libtiff5
@@ -2883,26 +2949,14 @@
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'libtiff: Out-of-memory issue in TIFFReadEncodedStrip() may lead to Denial of Service'
-    Description: A flaw was found in the libtiff library. An out-of-memory issue in the TIFFReadEncodedStrip function can be triggered when processing a crafted tiff file, allowing attackers to perform memory allocation of arbitrary sizes, resulting in a denial of service.
+    Description: 'Rejected reason: Invalid security issue.'
     Severity: LOW
-    CweIDs:
-    - CWE-400
     VendorSeverity:
-      redhat: 2
       ubuntu: 1
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
     References:
-    - https://access.redhat.com/security/cve/CVE-2024-6716
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2297636
-    - https://gitlab.com/libtiff/libtiff/-/issues/620
-    - https://nvd.nist.gov/vuln/detail/CVE-2024-6716
     - https://www.cve.org/CVERecord?id=CVE-2024-6716
     PublishedDate: '2024-07-15T15:15:10.9Z'
-    LastModifiedDate: '2024-07-17T14:15:04.21Z'
+    LastModifiedDate: '2024-09-04T14:15:14.457Z'
   - VulnerabilityID: CVE-2023-45918
     PkgID: libtinfo6@6.3-2ubuntu0.1
     PkgName: libtinfo6
@@ -3484,7 +3538,9 @@
     - CWE-125
     - CWE-126
     VendorSeverity:
+      amazon: 2
       bitnami: 2
+      cbl-mariner: 2
       nvd: 2
       photon: 2
       redhat: 2
@@ -3531,7 +3587,9 @@
     - CWE-125
     - CWE-126
     VendorSeverity:
+      amazon: 2
       bitnami: 2
+      cbl-mariner: 2
       nvd: 2
       photon: 2
       redhat: 2
@@ -3578,7 +3636,9 @@
     - CWE-125
     - CWE-126
     VendorSeverity:
+      amazon: 2
       bitnami: 2
+      cbl-mariner: 2
       nvd: 2
       photon: 2
       redhat: 2
@@ -3619,7 +3679,7 @@
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'Issue summary: Applications performing certificate name checks (e.g.,  ...'
+    Title: 'openssl: Possible denial of service in X.509 name checks'
     Description: |-
       Issue summary: Applications performing certificate name checks (e.g., TLS
       clients checking server certificates) may attempt to read an invalid memory
@@ -3649,12 +3709,20 @@
     CweIDs:
     - CWE-843
     VendorSeverity:
+      redhat: 2
       ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.9
     References:
+    - https://access.redhat.com/security/cve/CVE-2024-6119
     - https://github.com/openssl/openssl/commit/05f360d9e849a1b277db628f1f13083a7f8dd04f
     - https://github.com/openssl/openssl/commit/06d1dc3fa96a2ba5a3e22735a033012aadc9f0d6
     - https://github.com/openssl/openssl/commit/621f3729831b05ee828a3203eddb621d014ff2b2
     - https://github.com/openssl/openssl/commit/7dfcee2cd2a63b2c64b9b4b0850be64cb695b0a0
+    - https://github.com/openssl/openssl/security/advisories/GHSA-5qrj-vq78-58fj
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-6119
     - https://openssl-library.org/news/secadv/20240903.txt
     - https://ubuntu.com/security/notices/USN-6986-1
     - https://www.cve.org/CVERecord?id=CVE-2024-6119
@@ -5706,7 +5774,7 @@
       alma: 3
       amazon: 2
       bitnami: 3
-      cbl-mariner: 3
+      cbl-mariner: 2
       oracle-oval: 3
       photon: 3
       redhat: 2
@@ -7464,7 +7532,7 @@
       alma: 3
       amazon: 2
       bitnami: 3
-      cbl-mariner: 3
+      cbl-mariner: 2
       oracle-oval: 3
       photon: 3
       redhat: 2
