@@ -2075,8 +2075,7 @@
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
 │                        │      │                  ├ Name: Ubuntu CVE Tracker 
 │                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │      ├ Title           : Issue summary: Applications performing certificate
-│                        │      │                   name checks (e.g.,  ... 
+│                        │      ├ Title           : openssl: Possible denial of service in X.509 name checks 
 │                        │      ├ Description     : Issue summary: Applications performing certificate
 │                        │      │                   name checks (e.g., TLS
 │                        │      │                   clients checking server certificates) may attempt to read
@@ -2119,18 +2118,26 @@
 │                        │      │                   by this issue. 
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-843 
-│                        │      ├ VendorSeverity   ─ ubuntu: 2 
-│                        │      ├ References       ╭ [0]: https://github.com/openssl/openssl/commit/05f360
+│                        │      ├ VendorSeverity   ╭ redhat: 2 
+│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
+│                        │      │                           │           :N/I:N/A:H 
+│                        │      │                           ╰ V3Score : 5.9 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-6119 
+│                        │      │                  ├ [1]: https://github.com/openssl/openssl/commit/05f360
 │                        │      │                  │      d9e849a1b277db628f1f13083a7f8dd04f 
-│                        │      │                  ├ [1]: https://github.com/openssl/openssl/commit/06d1dc
+│                        │      │                  ├ [2]: https://github.com/openssl/openssl/commit/06d1dc
 │                        │      │                  │      3fa96a2ba5a3e22735a033012aadc9f0d6 
-│                        │      │                  ├ [2]: https://github.com/openssl/openssl/commit/621f37
+│                        │      │                  ├ [3]: https://github.com/openssl/openssl/commit/621f37
 │                        │      │                  │      29831b05ee828a3203eddb621d014ff2b2 
-│                        │      │                  ├ [3]: https://github.com/openssl/openssl/commit/7dfcee
+│                        │      │                  ├ [4]: https://github.com/openssl/openssl/commit/7dfcee
 │                        │      │                  │      2cd2a63b2c64b9b4b0850be64cb695b0a0 
-│                        │      │                  ├ [4]: https://openssl-library.org/news/secadv/20240903.txt 
-│                        │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-6986-1 
-│                        │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-6119 
+│                        │      │                  ├ [5]: https://github.com/openssl/openssl/security/advi
+│                        │      │                  │      sories/GHSA-5qrj-vq78-58fj 
+│                        │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2024-6119 
+│                        │      │                  ├ [7]: https://openssl-library.org/news/secadv/20240903.txt 
+│                        │      │                  ├ [8]: https://ubuntu.com/security/notices/USN-6986-1 
+│                        │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2024-6119 
 │                        │      ├ PublishedDate   : 2024-09-03T16:15:07.177Z 
 │                        │      ╰ LastModifiedDate: 2024-09-03T21:35:12.987Z 
 │                        ├ [40] ╭ VulnerabilityID : CVE-2024-6119 
@@ -2151,8 +2158,7 @@
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
 │                        │      │                  ├ Name: Ubuntu CVE Tracker 
 │                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │      ├ Title           : Issue summary: Applications performing certificate
-│                        │      │                   name checks (e.g.,  ... 
+│                        │      ├ Title           : openssl: Possible denial of service in X.509 name checks 
 │                        │      ├ Description     : Issue summary: Applications performing certificate
 │                        │      │                   name checks (e.g., TLS
 │                        │      │                   clients checking server certificates) may attempt to read
@@ -2195,18 +2201,26 @@
 │                        │      │                   by this issue. 
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-843 
-│                        │      ├ VendorSeverity   ─ ubuntu: 2 
-│                        │      ├ References       ╭ [0]: https://github.com/openssl/openssl/commit/05f360
+│                        │      ├ VendorSeverity   ╭ redhat: 2 
+│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
+│                        │      │                           │           :N/I:N/A:H 
+│                        │      │                           ╰ V3Score : 5.9 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-6119 
+│                        │      │                  ├ [1]: https://github.com/openssl/openssl/commit/05f360
 │                        │      │                  │      d9e849a1b277db628f1f13083a7f8dd04f 
-│                        │      │                  ├ [1]: https://github.com/openssl/openssl/commit/06d1dc
+│                        │      │                  ├ [2]: https://github.com/openssl/openssl/commit/06d1dc
 │                        │      │                  │      3fa96a2ba5a3e22735a033012aadc9f0d6 
-│                        │      │                  ├ [2]: https://github.com/openssl/openssl/commit/621f37
+│                        │      │                  ├ [3]: https://github.com/openssl/openssl/commit/621f37
 │                        │      │                  │      29831b05ee828a3203eddb621d014ff2b2 
-│                        │      │                  ├ [3]: https://github.com/openssl/openssl/commit/7dfcee
+│                        │      │                  ├ [4]: https://github.com/openssl/openssl/commit/7dfcee
 │                        │      │                  │      2cd2a63b2c64b9b4b0850be64cb695b0a0 
-│                        │      │                  ├ [4]: https://openssl-library.org/news/secadv/20240903.txt 
-│                        │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-6986-1 
-│                        │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-6119 
+│                        │      │                  ├ [5]: https://github.com/openssl/openssl/security/advi
+│                        │      │                  │      sories/GHSA-5qrj-vq78-58fj 
+│                        │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2024-6119 
+│                        │      │                  ├ [7]: https://openssl-library.org/news/secadv/20240903.txt 
+│                        │      │                  ├ [8]: https://ubuntu.com/security/notices/USN-6986-1 
+│                        │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2024-6119 
 │                        │      ├ PublishedDate   : 2024-09-03T16:15:07.177Z 
 │                        │      ╰ LastModifiedDate: 2024-09-03T21:35:12.987Z 
 │                        ├ [41] ╭ VulnerabilityID : CVE-2018-6952 
@@ -4679,7 +4693,7 @@
 │                        │      ├ VendorSeverity   ╭ alma       : 3 
 │                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ bitnami    : 3 
-│                        │      │                  ├ cbl-mariner: 3 
+│                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ oracle-oval: 3 
 │                        │      │                  ├ photon     : 3 
 │                        │      │                  ├ redhat     : 2 
@@ -7251,7 +7265,7 @@
 │                        │      ├ VendorSeverity   ╭ alma       : 3 
 │                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ bitnami    : 3 
-│                        │      │                  ├ cbl-mariner: 3 
+│                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ oracle-oval: 3 
 │                        │      │                  ├ photon     : 3 
 │                        │      │                  ├ redhat     : 2 
