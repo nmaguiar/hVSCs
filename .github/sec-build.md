@@ -2114,11 +2114,13 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ╭ [0]: CWE-125 
 │                        │      │                  ╰ [1]: CWE-126 
-│                        │      ├ VendorSeverity   ╭ bitnami: 2 
-│                        │      │                  ├ nvd    : 2 
-│                        │      │                  ├ photon : 2 
-│                        │      │                  ├ redhat : 2 
-│                        │      │                  ╰ ubuntu : 2 
+│                        │      ├ VendorSeverity   ╭ amazon     : 2 
+│                        │      │                  ├ bitnami    : 2 
+│                        │      │                  ├ cbl-mariner: 2 
+│                        │      │                  ├ nvd        : 2 
+│                        │      │                  ├ photon     : 2 
+│                        │      │                  ├ redhat     : 2 
+│                        │      │                  ╰ ubuntu     : 2 
 │                        │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/
 │                        │      │                  │         │           C:N/I:N/A:H 
 │                        │      │                  │         ╰ V3Score : 4.7 
@@ -2169,11 +2171,13 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ╭ [0]: CWE-125 
 │                        │      │                  ╰ [1]: CWE-126 
-│                        │      ├ VendorSeverity   ╭ bitnami: 2 
-│                        │      │                  ├ nvd    : 2 
-│                        │      │                  ├ photon : 2 
-│                        │      │                  ├ redhat : 2 
-│                        │      │                  ╰ ubuntu : 2 
+│                        │      ├ VendorSeverity   ╭ amazon     : 2 
+│                        │      │                  ├ bitnami    : 2 
+│                        │      │                  ├ cbl-mariner: 2 
+│                        │      │                  ├ nvd        : 2 
+│                        │      │                  ├ photon     : 2 
+│                        │      │                  ├ redhat     : 2 
+│                        │      │                  ╰ ubuntu     : 2 
 │                        │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/
 │                        │      │                  │         │           C:N/I:N/A:H 
 │                        │      │                  │         ╰ V3Score : 4.7 
@@ -2224,11 +2228,13 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ╭ [0]: CWE-125 
 │                        │      │                  ╰ [1]: CWE-126 
-│                        │      ├ VendorSeverity   ╭ bitnami: 2 
-│                        │      │                  ├ nvd    : 2 
-│                        │      │                  ├ photon : 2 
-│                        │      │                  ├ redhat : 2 
-│                        │      │                  ╰ ubuntu : 2 
+│                        │      ├ VendorSeverity   ╭ amazon     : 2 
+│                        │      │                  ├ bitnami    : 2 
+│                        │      │                  ├ cbl-mariner: 2 
+│                        │      │                  ├ nvd        : 2 
+│                        │      │                  ├ photon     : 2 
+│                        │      │                  ├ redhat     : 2 
+│                        │      │                  ╰ ubuntu     : 2 
 │                        │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/
 │                        │      │                  │         │           C:N/I:N/A:H 
 │                        │      │                  │         ╰ V3Score : 4.7 
@@ -2278,11 +2284,13 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ╭ [0]: CWE-125 
 │                        │      │                  ╰ [1]: CWE-126 
-│                        │      ├ VendorSeverity   ╭ bitnami: 2 
-│                        │      │                  ├ nvd    : 2 
-│                        │      │                  ├ photon : 2 
-│                        │      │                  ├ redhat : 2 
-│                        │      │                  ╰ ubuntu : 2 
+│                        │      ├ VendorSeverity   ╭ amazon     : 2 
+│                        │      │                  ├ bitnami    : 2 
+│                        │      │                  ├ cbl-mariner: 2 
+│                        │      │                  ├ nvd        : 2 
+│                        │      │                  ├ photon     : 2 
+│                        │      │                  ├ redhat     : 2 
+│                        │      │                  ╰ ubuntu     : 2 
 │                        │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/
 │                        │      │                  │         │           C:N/I:N/A:H 
 │                        │      │                  │         ╰ V3Score : 4.7 
@@ -2332,11 +2340,13 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ╭ [0]: CWE-125 
 │                        │      │                  ╰ [1]: CWE-126 
-│                        │      ├ VendorSeverity   ╭ bitnami: 2 
-│                        │      │                  ├ nvd    : 2 
-│                        │      │                  ├ photon : 2 
-│                        │      │                  ├ redhat : 2 
-│                        │      │                  ╰ ubuntu : 2 
+│                        │      ├ VendorSeverity   ╭ amazon     : 2 
+│                        │      │                  ├ bitnami    : 2 
+│                        │      │                  ├ cbl-mariner: 2 
+│                        │      │                  ├ nvd        : 2 
+│                        │      │                  ├ photon     : 2 
+│                        │      │                  ├ redhat     : 2 
+│                        │      │                  ╰ ubuntu     : 2 
 │                        │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/
 │                        │      │                  │         │           C:N/I:N/A:H 
 │                        │      │                  │         ╰ V3Score : 4.7 
@@ -2387,11 +2397,13 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ╭ [0]: CWE-125 
 │                        │      │                  ╰ [1]: CWE-126 
-│                        │      ├ VendorSeverity   ╭ bitnami: 2 
-│                        │      │                  ├ nvd    : 2 
-│                        │      │                  ├ photon : 2 
-│                        │      │                  ├ redhat : 2 
-│                        │      │                  ╰ ubuntu : 2 
+│                        │      ├ VendorSeverity   ╭ amazon     : 2 
+│                        │      │                  ├ bitnami    : 2 
+│                        │      │                  ├ cbl-mariner: 2 
+│                        │      │                  ├ nvd        : 2 
+│                        │      │                  ├ photon     : 2 
+│                        │      │                  ├ redhat     : 2 
+│                        │      │                  ╰ ubuntu     : 2 
 │                        │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/
 │                        │      │                  │         │           C:N/I:N/A:H 
 │                        │      │                  │         ╰ V3Score : 4.7 
@@ -3033,8 +3045,7 @@
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
 │                        │      │                  ├ Name: Ubuntu CVE Tracker 
 │                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │      ├ Title           : Issue summary: Applications performing certificate
-│                        │      │                   name checks (e.g.,  ... 
+│                        │      ├ Title           : openssl: Possible denial of service in X.509 name checks 
 │                        │      ├ Description     : Issue summary: Applications performing certificate
 │                        │      │                   name checks (e.g., TLS
 │                        │      │                   clients checking server certificates) may attempt to read
@@ -3077,18 +3088,26 @@
 │                        │      │                   by this issue. 
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-843 
-│                        │      ├ VendorSeverity   ─ ubuntu: 2 
-│                        │      ├ References       ╭ [0]: https://github.com/openssl/openssl/commit/05f360
+│                        │      ├ VendorSeverity   ╭ redhat: 2 
+│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
+│                        │      │                           │           :N/I:N/A:H 
+│                        │      │                           ╰ V3Score : 5.9 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-6119 
+│                        │      │                  ├ [1]: https://github.com/openssl/openssl/commit/05f360
 │                        │      │                  │      d9e849a1b277db628f1f13083a7f8dd04f 
-│                        │      │                  ├ [1]: https://github.com/openssl/openssl/commit/06d1dc
+│                        │      │                  ├ [2]: https://github.com/openssl/openssl/commit/06d1dc
 │                        │      │                  │      3fa96a2ba5a3e22735a033012aadc9f0d6 
-│                        │      │                  ├ [2]: https://github.com/openssl/openssl/commit/621f37
+│                        │      │                  ├ [3]: https://github.com/openssl/openssl/commit/621f37
 │                        │      │                  │      29831b05ee828a3203eddb621d014ff2b2 
-│                        │      │                  ├ [3]: https://github.com/openssl/openssl/commit/7dfcee
+│                        │      │                  ├ [4]: https://github.com/openssl/openssl/commit/7dfcee
 │                        │      │                  │      2cd2a63b2c64b9b4b0850be64cb695b0a0 
-│                        │      │                  ├ [4]: https://openssl-library.org/news/secadv/20240903.txt 
-│                        │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-6986-1 
-│                        │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-6119 
+│                        │      │                  ├ [5]: https://github.com/openssl/openssl/security/advi
+│                        │      │                  │      sories/GHSA-5qrj-vq78-58fj 
+│                        │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2024-6119 
+│                        │      │                  ├ [7]: https://openssl-library.org/news/secadv/20240903.txt 
+│                        │      │                  ├ [8]: https://ubuntu.com/security/notices/USN-6986-1 
+│                        │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2024-6119 
 │                        │      ├ PublishedDate   : 2024-09-03T16:15:07.177Z 
 │                        │      ╰ LastModifiedDate: 2024-09-03T21:35:12.987Z 
 │                        ├ [56] ╭ VulnerabilityID : CVE-2022-27943 
@@ -3208,7 +3227,56 @@
 │                        │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
 │                        │      ├ PublishedDate   : 2023-12-23T13:15:07.573Z 
 │                        │      ╰ LastModifiedDate: 2024-05-22T17:16:10.83Z 
-│                        ├ [58] ╭ VulnerabilityID : CVE-2018-10126 
+│                        ├ [58] ╭ VulnerabilityID : CVE-2024-7006 
+│                        │      ├ PkgID           : libtiff5@4.3.0-6ubuntu0.9 
+│                        │      ├ PkgName         : libtiff5 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libtiff5@4.3.0-6ubuntu0.9?arch=a
+│                        │      │                  │       md64&distro=ubuntu-22.04 
+│                        │      │                  ╰ UID : 18abaff0d350634a 
+│                        │      ├ InstalledVersion: 4.3.0-6ubuntu0.9 
+│                        │      ├ Status          : affected 
+│                        │      ├ Layer            ╭ Digest: sha256:ea20a748157abffddff61dc48cf4503bf70efe
+│                        │      │                  │         906e22dd21a624fe3f010263d6 
+│                        │      │                  ╰ DiffID: sha256:d939d59e5386821f78642e82e4b13c320a2b06
+│                        │      │                            7ce0dab85e9fcd6b0ec99d13a8 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-7006 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : libtiff: NULL pointer dereference in tif_dirinfo.c 
+│                        │      ├ Description     : A null pointer dereference flaw was found in Libtiff
+│                        │      │                   via `tif_dirinfo.c`. This issue may allow an attacker to
+│                        │      │                   trigger memory allocation failures through certain means,
+│                        │      │                   such as restricting the heap space size or injecting
+│                        │      │                   faults, causing a segmentation fault. This can cause an
+│                        │      │                   application crash, eventually leading to a denial of
+│                        │      │                   service. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ CweIDs           ╭ [0]: CWE-476 
+│                        │      │                  ╰ [1]: CWE-754 
+│                        │      ├ VendorSeverity   ╭ azure      : 3 
+│                        │      │                  ├ cbl-mariner: 3 
+│                        │      │                  ├ nvd        : 3 
+│                        │      │                  ├ photon     : 3 
+│                        │      │                  ├ redhat     : 2 
+│                        │      │                  ╰ ubuntu     : 2 
+│                        │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
+│                        │      │                  │        │           :N/I:N/A:H 
+│                        │      │                  │        ╰ V3Score : 7.5 
+│                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
+│                        │      │                           │           :N/I:N/A:H 
+│                        │      │                           ╰ V3Score : 7.5 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2024:6360 
+│                        │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2024-7006 
+│                        │      │                  ├ [2]: https://bugzilla.redhat.com/show_bug.cgi?id=2302996 
+│                        │      │                  ├ [3]: https://gitlab.com/libtiff/libtiff/-/merge_reque
+│                        │      │                  │      sts/559 
+│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-7006 
+│                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-7006 
+│                        │      ├ PublishedDate   : 2024-08-12T13:38:40.577Z 
+│                        │      ╰ LastModifiedDate: 2024-09-04T23:15:12.977Z 
+│                        ├ [59] ╭ VulnerabilityID : CVE-2018-10126 
 │                        │      ├ PkgID           : libtiff5@4.3.0-6ubuntu0.9 
 │                        │      ├ PkgName         : libtiff5 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libtiff5@4.3.0-6ubuntu0.9?arch=a
@@ -3255,7 +3323,7 @@
 │                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2018-10126 
 │                        │      ├ PublishedDate   : 2018-04-21T21:29:00.29Z 
 │                        │      ╰ LastModifiedDate: 2024-08-20T05:15:11.773Z 
-│                        ├ [59] ╭ VulnerabilityID : CVE-2024-6716 
+│                        ├ [60] ╭ VulnerabilityID : CVE-2024-6716 
 │                        │      ├ PkgID           : libtiff5@4.3.0-6ubuntu0.9 
 │                        │      ├ PkgName         : libtiff5 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libtiff5@4.3.0-6ubuntu0.9?arch=a
@@ -3272,28 +3340,13 @@
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
 │                        │      │                  ├ Name: Ubuntu CVE Tracker 
 │                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │      ├ Title           : libtiff: Out-of-memory issue in TIFFReadEncodedStrip()
-│                        │      │                    may lead to Denial of Service 
-│                        │      ├ Description     : A flaw was found in the libtiff library. An
-│                        │      │                   out-of-memory issue in the TIFFReadEncodedStrip function
-│                        │      │                   can be triggered when processing a crafted tiff file,
-│                        │      │                   allowing attackers to perform memory allocation of
-│                        │      │                   arbitrary sizes, resulting in a denial of service. 
+│                        │      ├ Description     : Rejected reason: Invalid security issue. 
 │                        │      ├ Severity        : LOW 
-│                        │      ├ CweIDs           ─ [0]: CWE-400 
-│                        │      ├ VendorSeverity   ╭ redhat: 2 
-│                        │      │                  ╰ ubuntu: 1 
-│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
-│                        │      │                           │           :N/I:N/A:H 
-│                        │      │                           ╰ V3Score : 7.5 
-│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-6716 
-│                        │      │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2297636 
-│                        │      │                  ├ [2]: https://gitlab.com/libtiff/libtiff/-/issues/620 
-│                        │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2024-6716 
-│                        │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2024-6716 
+│                        │      ├ VendorSeverity   ─ ubuntu: 1 
+│                        │      ├ References       ─ [0]: https://www.cve.org/CVERecord?id=CVE-2024-6716 
 │                        │      ├ PublishedDate   : 2024-07-15T15:15:10.9Z 
-│                        │      ╰ LastModifiedDate: 2024-07-17T14:15:04.21Z 
-│                        ├ [60] ╭ VulnerabilityID : CVE-2023-45918 
+│                        │      ╰ LastModifiedDate: 2024-09-04T14:15:14.457Z 
+│                        ├ [61] ╭ VulnerabilityID : CVE-2023-45918 
 │                        │      ├ PkgID           : libtinfo6@6.3-2ubuntu0.1 
 │                        │      ├ PkgName         : libtinfo6 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libtinfo6@6.3-2ubuntu0.1?arch=am
@@ -3330,7 +3383,7 @@
 │                        │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2023-45918 
 │                        │      ├ PublishedDate   : 2024-02-16T22:15:07.88Z 
 │                        │      ╰ LastModifiedDate: 2024-03-15T11:15:08.51Z 
-│                        ├ [61] ╭ VulnerabilityID : CVE-2023-50495 
+│                        ├ [62] ╭ VulnerabilityID : CVE-2023-50495 
 │                        │      ├ PkgID           : libtinfo6@6.3-2ubuntu0.1 
 │                        │      ├ PkgName         : libtinfo6 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libtinfo6@6.3-2ubuntu0.1?arch=am
@@ -3377,7 +3430,7 @@
 │                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-50495 
 │                        │      ├ PublishedDate   : 2023-12-12T15:15:07.867Z 
 │                        │      ╰ LastModifiedDate: 2024-01-31T03:15:08.49Z 
-│                        ├ [62] ╭ VulnerabilityID : CVE-2023-7008 
+│                        ├ [63] ╭ VulnerabilityID : CVE-2023-7008 
 │                        │      ├ PkgID           : libudev1@249.11-0ubuntu3.12 
 │                        │      ├ PkgName         : libudev1 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libudev1@249.11-0ubuntu3.12?arch
@@ -3440,7 +3493,7 @@
 │                        │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
 │                        │      ├ PublishedDate   : 2023-12-23T13:15:07.573Z 
 │                        │      ╰ LastModifiedDate: 2024-05-22T17:16:10.83Z 
-│                        ├ [63] ╭ VulnerabilityID : CVE-2022-4899 
+│                        ├ [64] ╭ VulnerabilityID : CVE-2022-4899 
 │                        │      ├ PkgID           : libzstd1@1.4.8+dfsg-3build1 
 │                        │      ├ PkgName         : libzstd1 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libzstd1@1.4.8%2Bdfsg-3build1?ar
@@ -3595,7 +3648,7 @@
 │                        │      │                  ╰ [94]: https://www.cve.org/CVERecord?id=CVE-2022-4899 
 │                        │      ├ PublishedDate   : 2023-03-31T20:15:07.213Z 
 │                        │      ╰ LastModifiedDate: 2023-11-07T03:59:16.09Z 
-│                        ├ [64] ╭ VulnerabilityID : CVE-2023-29383 
+│                        ├ [65] ╭ VulnerabilityID : CVE-2023-29383 
 │                        │      ├ PkgID           : login@1:4.8.1-2ubuntu2.2 
 │                        │      ├ PkgName         : login 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/login@4.8.1-2ubuntu2.2?arch=amd6
@@ -3652,7 +3705,7 @@
 │                        │      │                         ty-resources/security-advisories/?fid=31797 
 │                        │      ├ PublishedDate   : 2023-04-14T22:15:07.68Z 
 │                        │      ╰ LastModifiedDate: 2023-04-24T18:05:30.313Z 
-│                        ├ [65] ╭ VulnerabilityID : CVE-2023-45918 
+│                        ├ [66] ╭ VulnerabilityID : CVE-2023-45918 
 │                        │      ├ PkgID           : ncurses-base@6.3-2ubuntu0.1 
 │                        │      ├ PkgName         : ncurses-base 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/ncurses-base@6.3-2ubuntu0.1?arch
@@ -3689,7 +3742,7 @@
 │                        │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2023-45918 
 │                        │      ├ PublishedDate   : 2024-02-16T22:15:07.88Z 
 │                        │      ╰ LastModifiedDate: 2024-03-15T11:15:08.51Z 
-│                        ├ [66] ╭ VulnerabilityID : CVE-2023-50495 
+│                        ├ [67] ╭ VulnerabilityID : CVE-2023-50495 
 │                        │      ├ PkgID           : ncurses-base@6.3-2ubuntu0.1 
 │                        │      ├ PkgName         : ncurses-base 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/ncurses-base@6.3-2ubuntu0.1?arch
@@ -3736,7 +3789,7 @@
 │                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-50495 
 │                        │      ├ PublishedDate   : 2023-12-12T15:15:07.867Z 
 │                        │      ╰ LastModifiedDate: 2024-01-31T03:15:08.49Z 
-│                        ├ [67] ╭ VulnerabilityID : CVE-2023-45918 
+│                        ├ [68] ╭ VulnerabilityID : CVE-2023-45918 
 │                        │      ├ PkgID           : ncurses-bin@6.3-2ubuntu0.1 
 │                        │      ├ PkgName         : ncurses-bin 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/ncurses-bin@6.3-2ubuntu0.1?arch=
@@ -3773,7 +3826,7 @@
 │                        │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2023-45918 
 │                        │      ├ PublishedDate   : 2024-02-16T22:15:07.88Z 
 │                        │      ╰ LastModifiedDate: 2024-03-15T11:15:08.51Z 
-│                        ├ [68] ╭ VulnerabilityID : CVE-2023-50495 
+│                        ├ [69] ╭ VulnerabilityID : CVE-2023-50495 
 │                        │      ├ PkgID           : ncurses-bin@6.3-2ubuntu0.1 
 │                        │      ├ PkgName         : ncurses-bin 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/ncurses-bin@6.3-2ubuntu0.1?arch=
@@ -3820,7 +3873,7 @@
 │                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-50495 
 │                        │      ├ PublishedDate   : 2023-12-12T15:15:07.867Z 
 │                        │      ╰ LastModifiedDate: 2024-01-31T03:15:08.49Z 
-│                        ├ [69] ╭ VulnerabilityID : CVE-2023-45918 
+│                        ├ [70] ╭ VulnerabilityID : CVE-2023-45918 
 │                        │      ├ PkgID           : ncurses-term@6.3-2ubuntu0.1 
 │                        │      ├ PkgName         : ncurses-term 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/ncurses-term@6.3-2ubuntu0.1?arch
@@ -3857,7 +3910,7 @@
 │                        │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2023-45918 
 │                        │      ├ PublishedDate   : 2024-02-16T22:15:07.88Z 
 │                        │      ╰ LastModifiedDate: 2024-03-15T11:15:08.51Z 
-│                        ├ [70] ╭ VulnerabilityID : CVE-2023-50495 
+│                        ├ [71] ╭ VulnerabilityID : CVE-2023-50495 
 │                        │      ├ PkgID           : ncurses-term@6.3-2ubuntu0.1 
 │                        │      ├ PkgName         : ncurses-term 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/ncurses-term@6.3-2ubuntu0.1?arch
@@ -3904,7 +3957,7 @@
 │                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-50495 
 │                        │      ├ PublishedDate   : 2023-12-12T15:15:07.867Z 
 │                        │      ╰ LastModifiedDate: 2024-01-31T03:15:08.49Z 
-│                        ├ [71] ╭ VulnerabilityID : CVE-2024-7347 
+│                        ├ [72] ╭ VulnerabilityID : CVE-2024-7347 
 │                        │      ├ PkgID           : nginx@1.18.0-6ubuntu14.4 
 │                        │      ├ PkgName         : nginx 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/nginx@1.18.0-6ubuntu14.4?arch=am
@@ -3937,11 +3990,13 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ╭ [0]: CWE-125 
 │                        │      │                  ╰ [1]: CWE-126 
-│                        │      ├ VendorSeverity   ╭ bitnami: 2 
-│                        │      │                  ├ nvd    : 2 
-│                        │      │                  ├ photon : 2 
-│                        │      │                  ├ redhat : 2 
-│                        │      │                  ╰ ubuntu : 2 
+│                        │      ├ VendorSeverity   ╭ amazon     : 2 
+│                        │      │                  ├ bitnami    : 2 
+│                        │      │                  ├ cbl-mariner: 2 
+│                        │      │                  ├ nvd        : 2 
+│                        │      │                  ├ photon     : 2 
+│                        │      │                  ├ redhat     : 2 
+│                        │      │                  ╰ ubuntu     : 2 
 │                        │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/
 │                        │      │                  │         │           C:N/I:N/A:H 
 │                        │      │                  │         ╰ V3Score : 4.7 
@@ -3958,7 +4013,7 @@
 │                        │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2024-7347 
 │                        │      ├ PublishedDate   : 2024-08-14T15:15:31.87Z 
 │                        │      ╰ LastModifiedDate: 2024-08-20T19:25:17.513Z 
-│                        ├ [72] ╭ VulnerabilityID : CVE-2024-7347 
+│                        ├ [73] ╭ VulnerabilityID : CVE-2024-7347 
 │                        │      ├ PkgID           : nginx-common@1.18.0-6ubuntu14.4 
 │                        │      ├ PkgName         : nginx-common 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/nginx-common@1.18.0-6ubuntu14.4?
@@ -3991,11 +4046,13 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ╭ [0]: CWE-125 
 │                        │      │                  ╰ [1]: CWE-126 
-│                        │      ├ VendorSeverity   ╭ bitnami: 2 
-│                        │      │                  ├ nvd    : 2 
-│                        │      │                  ├ photon : 2 
-│                        │      │                  ├ redhat : 2 
-│                        │      │                  ╰ ubuntu : 2 
+│                        │      ├ VendorSeverity   ╭ amazon     : 2 
+│                        │      │                  ├ bitnami    : 2 
+│                        │      │                  ├ cbl-mariner: 2 
+│                        │      │                  ├ nvd        : 2 
+│                        │      │                  ├ photon     : 2 
+│                        │      │                  ├ redhat     : 2 
+│                        │      │                  ╰ ubuntu     : 2 
 │                        │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/
 │                        │      │                  │         │           C:N/I:N/A:H 
 │                        │      │                  │         ╰ V3Score : 4.7 
@@ -4012,7 +4069,7 @@
 │                        │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2024-7347 
 │                        │      ├ PublishedDate   : 2024-08-14T15:15:31.87Z 
 │                        │      ╰ LastModifiedDate: 2024-08-20T19:25:17.513Z 
-│                        ├ [73] ╭ VulnerabilityID : CVE-2024-7347 
+│                        ├ [74] ╭ VulnerabilityID : CVE-2024-7347 
 │                        │      ├ PkgID           : nginx-core@1.18.0-6ubuntu14.4 
 │                        │      ├ PkgName         : nginx-core 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/nginx-core@1.18.0-6ubuntu14.4?ar
@@ -4045,11 +4102,13 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ╭ [0]: CWE-125 
 │                        │      │                  ╰ [1]: CWE-126 
-│                        │      ├ VendorSeverity   ╭ bitnami: 2 
-│                        │      │                  ├ nvd    : 2 
-│                        │      │                  ├ photon : 2 
-│                        │      │                  ├ redhat : 2 
-│                        │      │                  ╰ ubuntu : 2 
+│                        │      ├ VendorSeverity   ╭ amazon     : 2 
+│                        │      │                  ├ bitnami    : 2 
+│                        │      │                  ├ cbl-mariner: 2 
+│                        │      │                  ├ nvd        : 2 
+│                        │      │                  ├ photon     : 2 
+│                        │      │                  ├ redhat     : 2 
+│                        │      │                  ╰ ubuntu     : 2 
 │                        │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/
 │                        │      │                  │         │           C:N/I:N/A:H 
 │                        │      │                  │         ╰ V3Score : 4.7 
@@ -4066,7 +4125,7 @@
 │                        │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2024-7347 
 │                        │      ├ PublishedDate   : 2024-08-14T15:15:31.87Z 
 │                        │      ╰ LastModifiedDate: 2024-08-20T19:25:17.513Z 
-│                        ├ [74] ╭ VulnerabilityID : CVE-2024-6119 
+│                        ├ [75] ╭ VulnerabilityID : CVE-2024-6119 
 │                        │      ├ PkgID           : openssl@3.0.2-0ubuntu1.17 
 │                        │      ├ PkgName         : openssl 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl@3.0.2-0ubuntu1.17?arch=a
@@ -4084,8 +4143,7 @@
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
 │                        │      │                  ├ Name: Ubuntu CVE Tracker 
 │                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │      ├ Title           : Issue summary: Applications performing certificate
-│                        │      │                   name checks (e.g.,  ... 
+│                        │      ├ Title           : openssl: Possible denial of service in X.509 name checks 
 │                        │      ├ Description     : Issue summary: Applications performing certificate
 │                        │      │                   name checks (e.g., TLS
 │                        │      │                   clients checking server certificates) may attempt to read
@@ -4128,21 +4186,29 @@
 │                        │      │                   by this issue. 
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-843 
-│                        │      ├ VendorSeverity   ─ ubuntu: 2 
-│                        │      ├ References       ╭ [0]: https://github.com/openssl/openssl/commit/05f360
+│                        │      ├ VendorSeverity   ╭ redhat: 2 
+│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
+│                        │      │                           │           :N/I:N/A:H 
+│                        │      │                           ╰ V3Score : 5.9 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-6119 
+│                        │      │                  ├ [1]: https://github.com/openssl/openssl/commit/05f360
 │                        │      │                  │      d9e849a1b277db628f1f13083a7f8dd04f 
-│                        │      │                  ├ [1]: https://github.com/openssl/openssl/commit/06d1dc
+│                        │      │                  ├ [2]: https://github.com/openssl/openssl/commit/06d1dc
 │                        │      │                  │      3fa96a2ba5a3e22735a033012aadc9f0d6 
-│                        │      │                  ├ [2]: https://github.com/openssl/openssl/commit/621f37
+│                        │      │                  ├ [3]: https://github.com/openssl/openssl/commit/621f37
 │                        │      │                  │      29831b05ee828a3203eddb621d014ff2b2 
-│                        │      │                  ├ [3]: https://github.com/openssl/openssl/commit/7dfcee
+│                        │      │                  ├ [4]: https://github.com/openssl/openssl/commit/7dfcee
 │                        │      │                  │      2cd2a63b2c64b9b4b0850be64cb695b0a0 
-│                        │      │                  ├ [4]: https://openssl-library.org/news/secadv/20240903.txt 
-│                        │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-6986-1 
-│                        │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-6119 
+│                        │      │                  ├ [5]: https://github.com/openssl/openssl/security/advi
+│                        │      │                  │      sories/GHSA-5qrj-vq78-58fj 
+│                        │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2024-6119 
+│                        │      │                  ├ [7]: https://openssl-library.org/news/secadv/20240903.txt 
+│                        │      │                  ├ [8]: https://ubuntu.com/security/notices/USN-6986-1 
+│                        │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2024-6119 
 │                        │      ├ PublishedDate   : 2024-09-03T16:15:07.177Z 
 │                        │      ╰ LastModifiedDate: 2024-09-03T21:35:12.987Z 
-│                        ├ [75] ╭ VulnerabilityID : CVE-2023-29383 
+│                        ├ [76] ╭ VulnerabilityID : CVE-2023-29383 
 │                        │      ├ PkgID           : passwd@1:4.8.1-2ubuntu2.2 
 │                        │      ├ PkgName         : passwd 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/passwd@4.8.1-2ubuntu2.2?arch=amd
@@ -4199,7 +4265,7 @@
 │                        │      │                         ty-resources/security-advisories/?fid=31797 
 │                        │      ├ PublishedDate   : 2023-04-14T22:15:07.68Z 
 │                        │      ╰ LastModifiedDate: 2023-04-24T18:05:30.313Z 
-│                        ├ [76] ╭ VulnerabilityID : CVE-2023-27043 
+│                        ├ [77] ╭ VulnerabilityID : CVE-2023-27043 
 │                        │      ├ PkgID           : python3.10@3.10.12-1~22.04.5 
 │                        │      ├ PkgName         : python3.10 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/python3.10@3.10.12-1~22.04.5?arc
@@ -4328,7 +4394,7 @@
 │                        │      │                  ╰ [36]: https://www.cve.org/CVERecord?id=CVE-2023-27043 
 │                        │      ├ PublishedDate   : 2023-04-19T00:15:07.973Z 
 │                        │      ╰ LastModifiedDate: 2024-02-26T16:27:45.78Z 
-│                        ├ [77] ╭ VulnerabilityID : CVE-2023-27043 
+│                        ├ [78] ╭ VulnerabilityID : CVE-2023-27043 
 │                        │      ├ PkgID           : python3.10-minimal@3.10.12-1~22.04.5 
 │                        │      ├ PkgName         : python3.10-minimal 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/python3.10-minimal@3.10.12-1~22.
@@ -4457,7 +4523,7 @@
 │                        │      │                  ╰ [36]: https://www.cve.org/CVERecord?id=CVE-2023-27043 
 │                        │      ├ PublishedDate   : 2023-04-19T00:15:07.973Z 
 │                        │      ╰ LastModifiedDate: 2024-02-26T16:27:45.78Z 
-│                        ├ [78] ╭ VulnerabilityID : CVE-2023-7008 
+│                        ├ [79] ╭ VulnerabilityID : CVE-2023-7008 
 │                        │      ├ PkgID           : systemd@249.11-0ubuntu3.12 
 │                        │      ├ PkgName         : systemd 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/systemd@249.11-0ubuntu3.12?arch=
@@ -4520,7 +4586,7 @@
 │                        │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
 │                        │      ├ PublishedDate   : 2023-12-23T13:15:07.573Z 
 │                        │      ╰ LastModifiedDate: 2024-05-22T17:16:10.83Z 
-│                        ├ [79] ╭ VulnerabilityID : CVE-2023-7008 
+│                        ├ [80] ╭ VulnerabilityID : CVE-2023-7008 
 │                        │      ├ PkgID           : systemd-sysv@249.11-0ubuntu3.12 
 │                        │      ├ PkgName         : systemd-sysv 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/systemd-sysv@249.11-0ubuntu3.12?
@@ -4583,7 +4649,7 @@
 │                        │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
 │                        │      ├ PublishedDate   : 2023-12-23T13:15:07.573Z 
 │                        │      ╰ LastModifiedDate: 2024-05-22T17:16:10.83Z 
-│                        ├ [80] ╭ VulnerabilityID : CVE-2023-7008 
+│                        ├ [81] ╭ VulnerabilityID : CVE-2023-7008 
 │                        │      ├ PkgID           : systemd-timesyncd@249.11-0ubuntu3.12 
 │                        │      ├ PkgName         : systemd-timesyncd 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/systemd-timesyncd@249.11-0ubuntu
@@ -4646,7 +4712,7 @@
 │                        │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
 │                        │      ├ PublishedDate   : 2023-12-23T13:15:07.573Z 
 │                        │      ╰ LastModifiedDate: 2024-05-22T17:16:10.83Z 
-│                        ├ [81] ╭ VulnerabilityID : CVE-2023-29383 
+│                        ├ [82] ╭ VulnerabilityID : CVE-2023-29383 
 │                        │      ├ PkgID           : uidmap@1:4.8.1-2ubuntu2.2 
 │                        │      ├ PkgName         : uidmap 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/uidmap@4.8.1-2ubuntu2.2?arch=amd
@@ -4703,7 +4769,7 @@
 │                        │      │                         ty-resources/security-advisories/?fid=31797 
 │                        │      ├ PublishedDate   : 2023-04-14T22:15:07.68Z 
 │                        │      ╰ LastModifiedDate: 2023-04-24T18:05:30.313Z 
-│                        ╰ [82] ╭ VulnerabilityID : CVE-2021-31879 
+│                        ╰ [83] ╭ VulnerabilityID : CVE-2021-31879 
 │                               ├ PkgID           : wget@1.21.2-2ubuntu1.1 
 │                               ├ PkgName         : wget 
 │                               ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/wget@1.21.2-2ubuntu1.1?arch=amd6
@@ -7115,7 +7181,7 @@
 │                        │      ├ VendorSeverity   ╭ alma       : 3 
 │                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ bitnami    : 3 
-│                        │      │                  ├ cbl-mariner: 3 
+│                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ oracle-oval: 3 
 │                        │      │                  ├ photon     : 3 
 │                        │      │                  ├ redhat     : 2 
@@ -9687,7 +9753,7 @@
 │                        │      ├ VendorSeverity   ╭ alma       : 3 
 │                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ bitnami    : 3 
-│                        │      │                  ├ cbl-mariner: 3 
+│                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ oracle-oval: 3 
 │                        │      │                  ├ photon     : 3 
 │                        │      │                  ├ redhat     : 2 
