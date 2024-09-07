@@ -2988,51 +2988,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-7006
     PublishedDate: '2024-08-12T13:38:40.577Z'
     LastModifiedDate: '2024-09-06T17:15:17.387Z'
-  - VulnerabilityID: CVE-2018-10126
-    PkgID: libtiff5@4.3.0-6ubuntu0.9
-    PkgName: libtiff5
-    PkgIdentifier:
-      PURL: pkg:deb/ubuntu/libtiff5@4.3.0-6ubuntu0.9?arch=amd64&distro=ubuntu-22.04
-      UID: 18abaff0d350634a
-    InstalledVersion: 4.3.0-6ubuntu0.9
-    Status: affected
-    Layer:
-      Digest: sha256:eb4108e75dc6f8e6fc5a5e04197674c0d9a1dd13ec796f87aff09fd0a4bbd6ca
-      DiffID: sha256:853b5d95f07f5f2e1b0bf3839c45f15d937b8d18ad499f49ad4553075cd9fdf4
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2018-10126
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'libtiff: NULL pointer dereference in the jpeg_fdct_16x16 function in jfdctint.c'
-    Description: ijg-libjpeg before 9d, as used in tiff2pdf (from LibTIFF) and other products, does not check for a NULL pointer at a certain place in jpeg_fdct_16x16 in jfdctint.c.
-    Severity: LOW
-    CweIDs:
-    - CWE-476
-    VendorSeverity:
-      nvd: 2
-      photon: 2
-      redhat: 1
-      ubuntu: 1
-    CVSS:
-      nvd:
-        V2Vector: AV:N/AC:M/Au:N/C:N/I:N/A:P
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
-        V2Score: 4.3
-        V3Score: 6.5
-      redhat:
-        V3Vector: CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L
-        V3Score: 3.3
-    References:
-    - http://bugzilla.maptools.org/show_bug.cgi?id=2786
-    - https://access.redhat.com/security/cve/CVE-2018-10126
-    - https://gitlab.com/libtiff/libtiff/-/issues/128
-    - https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772%40%3Cdev.mina.apache.org%3E
-    - https://nvd.nist.gov/vuln/detail/CVE-2018-10126
-    - https://www.cve.org/CVERecord?id=CVE-2018-10126
-    PublishedDate: '2018-04-21T21:29:00.29Z'
-    LastModifiedDate: '2024-08-20T05:15:11.773Z'
   - VulnerabilityID: CVE-2024-6716
     PkgID: libtiff5@4.3.0-6ubuntu0.9
     PkgName: libtiff5
@@ -5269,6 +5224,41 @@
     - https://www.kb.cert.org/vuls/id/421644
     PublishedDate: '2024-04-04T21:15:16.113Z'
     LastModifiedDate: '2024-08-26T21:35:02.457Z'
+  - VulnerabilityID: CVE-2024-34156
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@1.20.5
+      UID: a803c46e7bd27b90
+    InstalledVersion: 1.20.5
+    FixedVersion: 1.22.7, 1.23.1
+    Status: fixed
+    Layer:
+      Digest: sha256:eb4108e75dc6f8e6fc5a5e04197674c0d9a1dd13ec796f87aff09fd0a4bbd6ca
+      DiffID: sha256:853b5d95f07f5f2e1b0bf3839c45f15d937b8d18ad499f49ad4553075cd9fdf4
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-34156
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: 'encoding/gob: Calling Decoder.Decode on a message which contains deeply nested structures can cause a panic due to stack exhaustion'
+    Description: Calling Decoder.Decode on a message which contains deeply nested structures can cause a panic due to stack exhaustion. This is a follow-up to CVE-2022-30635.
+    Severity: HIGH
+    VendorSeverity:
+      redhat: 3
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-34156
+    - https://go.dev/cl/611239
+    - https://go.dev/issue/69139
+    - https://groups.google.com/g/golang-dev/c/S9POB9NCTdk
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-34156
+    - https://pkg.go.dev/vuln/GO-2024-3106
+    - https://www.cve.org/CVERecord?id=CVE-2024-34156
+    PublishedDate: '2024-09-06T21:15:12.02Z'
+    LastModifiedDate: '2024-09-06T21:15:12.02Z'
   - VulnerabilityID: CVE-2023-29406
     PkgName: stdlib
     PkgIdentifier:
@@ -5498,7 +5488,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -5563,7 +5553,7 @@
     Severity: MEDIUM
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       bitnami: 2
       cbl-mariner: 2
       nvd: 2
@@ -6105,40 +6095,25 @@
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
+    Title: 'go/parser: Calling any of the Parse functions containing deeply nested literals can cause a panic/stack exhaustion'
     Description: Calling any of the Parse functions on Go source code which contains deeply nested literals can cause a panic due to stack exhaustion.
-    Severity: UNKNOWN
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.9
     References:
+    - https://access.redhat.com/security/cve/CVE-2024-34155
     - https://go.dev/cl/611238
     - https://go.dev/issue/69138
     - https://groups.google.com/g/golang-dev/c/S9POB9NCTdk
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-34155
     - https://pkg.go.dev/vuln/GO-2024-3105
+    - https://www.cve.org/CVERecord?id=CVE-2024-34155
     PublishedDate: '2024-09-06T21:15:11.947Z'
     LastModifiedDate: '2024-09-06T21:15:11.947Z'
-  - VulnerabilityID: CVE-2024-34156
-    PkgName: stdlib
-    PkgIdentifier:
-      PURL: pkg:golang/stdlib@1.20.5
-      UID: a803c46e7bd27b90
-    InstalledVersion: 1.20.5
-    FixedVersion: 1.22.7, 1.23.1
-    Status: fixed
-    Layer:
-      Digest: sha256:eb4108e75dc6f8e6fc5a5e04197674c0d9a1dd13ec796f87aff09fd0a4bbd6ca
-      DiffID: sha256:853b5d95f07f5f2e1b0bf3839c45f15d937b8d18ad499f49ad4553075cd9fdf4
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-34156
-    DataSource:
-      ID: govulndb
-      Name: The Go Vulnerability Database
-      URL: https://pkg.go.dev/vuln/
-    Description: Calling Decoder.Decode on a message which contains deeply nested structures can cause a panic due to stack exhaustion. This is a follow-up to CVE-2022-30635.
-    Severity: UNKNOWN
-    References:
-    - https://go.dev/cl/611239
-    - https://go.dev/issue/69139
-    - https://groups.google.com/g/golang-dev/c/S9POB9NCTdk
-    - https://pkg.go.dev/vuln/GO-2024-3106
-    PublishedDate: '2024-09-06T21:15:12.02Z'
-    LastModifiedDate: '2024-09-06T21:15:12.02Z'
   - VulnerabilityID: CVE-2024-34158
     PkgName: stdlib
     PkgIdentifier:
@@ -6155,13 +6130,23 @@
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
+    Title: 'go/build/constraint: golang: Calling Parse on a "// +build" build tag line with deeply nested expressions can cause a panic due to stack exhaustion'
     Description: Calling Parse on a "// +build" build tag line with deeply nested expressions can cause a panic due to stack exhaustion.
-    Severity: UNKNOWN
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.9
     References:
+    - https://access.redhat.com/security/cve/CVE-2024-34158
     - https://go.dev/cl/611240
     - https://go.dev/issue/69141
     - https://groups.google.com/g/golang-dev/c/S9POB9NCTdk
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-34158
     - https://pkg.go.dev/vuln/GO-2024-3107
+    - https://www.cve.org/CVERecord?id=CVE-2024-34158
     PublishedDate: '2024-09-06T21:15:12.083Z'
     LastModifiedDate: '2024-09-06T21:15:12.083Z'
 - Target: tmp/tmp.gL2zc7VJXQ/krew-linux_amd64
@@ -7102,6 +7087,41 @@
     - https://www.kb.cert.org/vuls/id/421644
     PublishedDate: '2024-04-04T21:15:16.113Z'
     LastModifiedDate: '2024-08-26T21:35:02.457Z'
+  - VulnerabilityID: CVE-2024-34156
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@1.20.5
+      UID: 32fb84d610a24a34
+    InstalledVersion: 1.20.5
+    FixedVersion: 1.22.7, 1.23.1
+    Status: fixed
+    Layer:
+      Digest: sha256:eb4108e75dc6f8e6fc5a5e04197674c0d9a1dd13ec796f87aff09fd0a4bbd6ca
+      DiffID: sha256:853b5d95f07f5f2e1b0bf3839c45f15d937b8d18ad499f49ad4553075cd9fdf4
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-34156
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: 'encoding/gob: Calling Decoder.Decode on a message which contains deeply nested structures can cause a panic due to stack exhaustion'
+    Description: Calling Decoder.Decode on a message which contains deeply nested structures can cause a panic due to stack exhaustion. This is a follow-up to CVE-2022-30635.
+    Severity: HIGH
+    VendorSeverity:
+      redhat: 3
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-34156
+    - https://go.dev/cl/611239
+    - https://go.dev/issue/69139
+    - https://groups.google.com/g/golang-dev/c/S9POB9NCTdk
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-34156
+    - https://pkg.go.dev/vuln/GO-2024-3106
+    - https://www.cve.org/CVERecord?id=CVE-2024-34156
+    PublishedDate: '2024-09-06T21:15:12.02Z'
+    LastModifiedDate: '2024-09-06T21:15:12.02Z'
   - VulnerabilityID: CVE-2023-29406
     PkgName: stdlib
     PkgIdentifier:
@@ -7331,7 +7351,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -7396,7 +7416,7 @@
     Severity: MEDIUM
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       bitnami: 2
       cbl-mariner: 2
       nvd: 2
@@ -7938,40 +7958,25 @@
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
+    Title: 'go/parser: Calling any of the Parse functions containing deeply nested literals can cause a panic/stack exhaustion'
     Description: Calling any of the Parse functions on Go source code which contains deeply nested literals can cause a panic due to stack exhaustion.
-    Severity: UNKNOWN
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.9
     References:
+    - https://access.redhat.com/security/cve/CVE-2024-34155
     - https://go.dev/cl/611238
     - https://go.dev/issue/69138
     - https://groups.google.com/g/golang-dev/c/S9POB9NCTdk
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-34155
     - https://pkg.go.dev/vuln/GO-2024-3105
+    - https://www.cve.org/CVERecord?id=CVE-2024-34155
     PublishedDate: '2024-09-06T21:15:11.947Z'
     LastModifiedDate: '2024-09-06T21:15:11.947Z'
-  - VulnerabilityID: CVE-2024-34156
-    PkgName: stdlib
-    PkgIdentifier:
-      PURL: pkg:golang/stdlib@1.20.5
-      UID: 32fb84d610a24a34
-    InstalledVersion: 1.20.5
-    FixedVersion: 1.22.7, 1.23.1
-    Status: fixed
-    Layer:
-      Digest: sha256:eb4108e75dc6f8e6fc5a5e04197674c0d9a1dd13ec796f87aff09fd0a4bbd6ca
-      DiffID: sha256:853b5d95f07f5f2e1b0bf3839c45f15d937b8d18ad499f49ad4553075cd9fdf4
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-34156
-    DataSource:
-      ID: govulndb
-      Name: The Go Vulnerability Database
-      URL: https://pkg.go.dev/vuln/
-    Description: Calling Decoder.Decode on a message which contains deeply nested structures can cause a panic due to stack exhaustion. This is a follow-up to CVE-2022-30635.
-    Severity: UNKNOWN
-    References:
-    - https://go.dev/cl/611239
-    - https://go.dev/issue/69139
-    - https://groups.google.com/g/golang-dev/c/S9POB9NCTdk
-    - https://pkg.go.dev/vuln/GO-2024-3106
-    PublishedDate: '2024-09-06T21:15:12.02Z'
-    LastModifiedDate: '2024-09-06T21:15:12.02Z'
   - VulnerabilityID: CVE-2024-34158
     PkgName: stdlib
     PkgIdentifier:
@@ -7988,44 +7993,29 @@
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
+    Title: 'go/build/constraint: golang: Calling Parse on a "// +build" build tag line with deeply nested expressions can cause a panic due to stack exhaustion'
     Description: Calling Parse on a "// +build" build tag line with deeply nested expressions can cause a panic due to stack exhaustion.
-    Severity: UNKNOWN
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.9
     References:
+    - https://access.redhat.com/security/cve/CVE-2024-34158
     - https://go.dev/cl/611240
     - https://go.dev/issue/69141
     - https://groups.google.com/g/golang-dev/c/S9POB9NCTdk
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-34158
     - https://pkg.go.dev/vuln/GO-2024-3107
+    - https://www.cve.org/CVERecord?id=CVE-2024-34158
     PublishedDate: '2024-09-06T21:15:12.083Z'
     LastModifiedDate: '2024-09-06T21:15:12.083Z'
 - Target: usr/bin/docker-compose
   Class: lang-pkgs
   Type: gobinary
   Vulnerabilities:
-  - VulnerabilityID: CVE-2024-34155
-    PkgName: stdlib
-    PkgIdentifier:
-      PURL: pkg:golang/stdlib@1.21.12
-      UID: da55131cb8063f06
-    InstalledVersion: 1.21.12
-    FixedVersion: 1.22.7, 1.23.1
-    Status: fixed
-    Layer:
-      Digest: sha256:eb4108e75dc6f8e6fc5a5e04197674c0d9a1dd13ec796f87aff09fd0a4bbd6ca
-      DiffID: sha256:853b5d95f07f5f2e1b0bf3839c45f15d937b8d18ad499f49ad4553075cd9fdf4
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-34155
-    DataSource:
-      ID: govulndb
-      Name: The Go Vulnerability Database
-      URL: https://pkg.go.dev/vuln/
-    Description: Calling any of the Parse functions on Go source code which contains deeply nested literals can cause a panic due to stack exhaustion.
-    Severity: UNKNOWN
-    References:
-    - https://go.dev/cl/611238
-    - https://go.dev/issue/69138
-    - https://groups.google.com/g/golang-dev/c/S9POB9NCTdk
-    - https://pkg.go.dev/vuln/GO-2024-3105
-    PublishedDate: '2024-09-06T21:15:11.947Z'
-    LastModifiedDate: '2024-09-06T21:15:11.947Z'
   - VulnerabilityID: CVE-2024-34156
     PkgName: stdlib
     PkgIdentifier:
@@ -8042,15 +8032,60 @@
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
+    Title: 'encoding/gob: Calling Decoder.Decode on a message which contains deeply nested structures can cause a panic due to stack exhaustion'
     Description: Calling Decoder.Decode on a message which contains deeply nested structures can cause a panic due to stack exhaustion. This is a follow-up to CVE-2022-30635.
-    Severity: UNKNOWN
+    Severity: HIGH
+    VendorSeverity:
+      redhat: 3
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
     References:
+    - https://access.redhat.com/security/cve/CVE-2024-34156
     - https://go.dev/cl/611239
     - https://go.dev/issue/69139
     - https://groups.google.com/g/golang-dev/c/S9POB9NCTdk
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-34156
     - https://pkg.go.dev/vuln/GO-2024-3106
+    - https://www.cve.org/CVERecord?id=CVE-2024-34156
     PublishedDate: '2024-09-06T21:15:12.02Z'
     LastModifiedDate: '2024-09-06T21:15:12.02Z'
+  - VulnerabilityID: CVE-2024-34155
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@1.21.12
+      UID: da55131cb8063f06
+    InstalledVersion: 1.21.12
+    FixedVersion: 1.22.7, 1.23.1
+    Status: fixed
+    Layer:
+      Digest: sha256:eb4108e75dc6f8e6fc5a5e04197674c0d9a1dd13ec796f87aff09fd0a4bbd6ca
+      DiffID: sha256:853b5d95f07f5f2e1b0bf3839c45f15d937b8d18ad499f49ad4553075cd9fdf4
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-34155
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: 'go/parser: Calling any of the Parse functions containing deeply nested literals can cause a panic/stack exhaustion'
+    Description: Calling any of the Parse functions on Go source code which contains deeply nested literals can cause a panic due to stack exhaustion.
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-34155
+    - https://go.dev/cl/611238
+    - https://go.dev/issue/69138
+    - https://groups.google.com/g/golang-dev/c/S9POB9NCTdk
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-34155
+    - https://pkg.go.dev/vuln/GO-2024-3105
+    - https://www.cve.org/CVERecord?id=CVE-2024-34155
+    PublishedDate: '2024-09-06T21:15:11.947Z'
+    LastModifiedDate: '2024-09-06T21:15:11.947Z'
   - VulnerabilityID: CVE-2024-34158
     PkgName: stdlib
     PkgIdentifier:
@@ -8067,44 +8102,29 @@
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
+    Title: 'go/build/constraint: golang: Calling Parse on a "// +build" build tag line with deeply nested expressions can cause a panic due to stack exhaustion'
     Description: Calling Parse on a "// +build" build tag line with deeply nested expressions can cause a panic due to stack exhaustion.
-    Severity: UNKNOWN
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.9
     References:
+    - https://access.redhat.com/security/cve/CVE-2024-34158
     - https://go.dev/cl/611240
     - https://go.dev/issue/69141
     - https://groups.google.com/g/golang-dev/c/S9POB9NCTdk
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-34158
     - https://pkg.go.dev/vuln/GO-2024-3107
+    - https://www.cve.org/CVERecord?id=CVE-2024-34158
     PublishedDate: '2024-09-06T21:15:12.083Z'
     LastModifiedDate: '2024-09-06T21:15:12.083Z'
 - Target: usr/bin/helm
   Class: lang-pkgs
   Type: gobinary
   Vulnerabilities:
-  - VulnerabilityID: CVE-2024-34155
-    PkgName: stdlib
-    PkgIdentifier:
-      PURL: pkg:golang/stdlib@1.22.6
-      UID: 52327f3a60888de3
-    InstalledVersion: 1.22.6
-    FixedVersion: 1.22.7, 1.23.1
-    Status: fixed
-    Layer:
-      Digest: sha256:eb4108e75dc6f8e6fc5a5e04197674c0d9a1dd13ec796f87aff09fd0a4bbd6ca
-      DiffID: sha256:853b5d95f07f5f2e1b0bf3839c45f15d937b8d18ad499f49ad4553075cd9fdf4
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-34155
-    DataSource:
-      ID: govulndb
-      Name: The Go Vulnerability Database
-      URL: https://pkg.go.dev/vuln/
-    Description: Calling any of the Parse functions on Go source code which contains deeply nested literals can cause a panic due to stack exhaustion.
-    Severity: UNKNOWN
-    References:
-    - https://go.dev/cl/611238
-    - https://go.dev/issue/69138
-    - https://groups.google.com/g/golang-dev/c/S9POB9NCTdk
-    - https://pkg.go.dev/vuln/GO-2024-3105
-    PublishedDate: '2024-09-06T21:15:11.947Z'
-    LastModifiedDate: '2024-09-06T21:15:11.947Z'
   - VulnerabilityID: CVE-2024-34156
     PkgName: stdlib
     PkgIdentifier:
@@ -8121,15 +8141,60 @@
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
+    Title: 'encoding/gob: Calling Decoder.Decode on a message which contains deeply nested structures can cause a panic due to stack exhaustion'
     Description: Calling Decoder.Decode on a message which contains deeply nested structures can cause a panic due to stack exhaustion. This is a follow-up to CVE-2022-30635.
-    Severity: UNKNOWN
+    Severity: HIGH
+    VendorSeverity:
+      redhat: 3
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
     References:
+    - https://access.redhat.com/security/cve/CVE-2024-34156
     - https://go.dev/cl/611239
     - https://go.dev/issue/69139
     - https://groups.google.com/g/golang-dev/c/S9POB9NCTdk
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-34156
     - https://pkg.go.dev/vuln/GO-2024-3106
+    - https://www.cve.org/CVERecord?id=CVE-2024-34156
     PublishedDate: '2024-09-06T21:15:12.02Z'
     LastModifiedDate: '2024-09-06T21:15:12.02Z'
+  - VulnerabilityID: CVE-2024-34155
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@1.22.6
+      UID: 52327f3a60888de3
+    InstalledVersion: 1.22.6
+    FixedVersion: 1.22.7, 1.23.1
+    Status: fixed
+    Layer:
+      Digest: sha256:eb4108e75dc6f8e6fc5a5e04197674c0d9a1dd13ec796f87aff09fd0a4bbd6ca
+      DiffID: sha256:853b5d95f07f5f2e1b0bf3839c45f15d937b8d18ad499f49ad4553075cd9fdf4
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-34155
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: 'go/parser: Calling any of the Parse functions containing deeply nested literals can cause a panic/stack exhaustion'
+    Description: Calling any of the Parse functions on Go source code which contains deeply nested literals can cause a panic due to stack exhaustion.
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-34155
+    - https://go.dev/cl/611238
+    - https://go.dev/issue/69138
+    - https://groups.google.com/g/golang-dev/c/S9POB9NCTdk
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-34155
+    - https://pkg.go.dev/vuln/GO-2024-3105
+    - https://www.cve.org/CVERecord?id=CVE-2024-34155
+    PublishedDate: '2024-09-06T21:15:11.947Z'
+    LastModifiedDate: '2024-09-06T21:15:11.947Z'
   - VulnerabilityID: CVE-2024-34158
     PkgName: stdlib
     PkgIdentifier:
@@ -8146,44 +8211,29 @@
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
+    Title: 'go/build/constraint: golang: Calling Parse on a "// +build" build tag line with deeply nested expressions can cause a panic due to stack exhaustion'
     Description: Calling Parse on a "// +build" build tag line with deeply nested expressions can cause a panic due to stack exhaustion.
-    Severity: UNKNOWN
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.9
     References:
+    - https://access.redhat.com/security/cve/CVE-2024-34158
     - https://go.dev/cl/611240
     - https://go.dev/issue/69141
     - https://groups.google.com/g/golang-dev/c/S9POB9NCTdk
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-34158
     - https://pkg.go.dev/vuln/GO-2024-3107
+    - https://www.cve.org/CVERecord?id=CVE-2024-34158
     PublishedDate: '2024-09-06T21:15:12.083Z'
     LastModifiedDate: '2024-09-06T21:15:12.083Z'
 - Target: usr/bin/kubectl
   Class: lang-pkgs
   Type: gobinary
   Vulnerabilities:
-  - VulnerabilityID: CVE-2024-34155
-    PkgName: stdlib
-    PkgIdentifier:
-      PURL: pkg:golang/stdlib@1.22.5
-      UID: 3bb01ece7d33d04b
-    InstalledVersion: 1.22.5
-    FixedVersion: 1.22.7, 1.23.1
-    Status: fixed
-    Layer:
-      Digest: sha256:eb4108e75dc6f8e6fc5a5e04197674c0d9a1dd13ec796f87aff09fd0a4bbd6ca
-      DiffID: sha256:853b5d95f07f5f2e1b0bf3839c45f15d937b8d18ad499f49ad4553075cd9fdf4
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-34155
-    DataSource:
-      ID: govulndb
-      Name: The Go Vulnerability Database
-      URL: https://pkg.go.dev/vuln/
-    Description: Calling any of the Parse functions on Go source code which contains deeply nested literals can cause a panic due to stack exhaustion.
-    Severity: UNKNOWN
-    References:
-    - https://go.dev/cl/611238
-    - https://go.dev/issue/69138
-    - https://groups.google.com/g/golang-dev/c/S9POB9NCTdk
-    - https://pkg.go.dev/vuln/GO-2024-3105
-    PublishedDate: '2024-09-06T21:15:11.947Z'
-    LastModifiedDate: '2024-09-06T21:15:11.947Z'
   - VulnerabilityID: CVE-2024-34156
     PkgName: stdlib
     PkgIdentifier:
@@ -8200,15 +8250,60 @@
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
+    Title: 'encoding/gob: Calling Decoder.Decode on a message which contains deeply nested structures can cause a panic due to stack exhaustion'
     Description: Calling Decoder.Decode on a message which contains deeply nested structures can cause a panic due to stack exhaustion. This is a follow-up to CVE-2022-30635.
-    Severity: UNKNOWN
+    Severity: HIGH
+    VendorSeverity:
+      redhat: 3
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
     References:
+    - https://access.redhat.com/security/cve/CVE-2024-34156
     - https://go.dev/cl/611239
     - https://go.dev/issue/69139
     - https://groups.google.com/g/golang-dev/c/S9POB9NCTdk
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-34156
     - https://pkg.go.dev/vuln/GO-2024-3106
+    - https://www.cve.org/CVERecord?id=CVE-2024-34156
     PublishedDate: '2024-09-06T21:15:12.02Z'
     LastModifiedDate: '2024-09-06T21:15:12.02Z'
+  - VulnerabilityID: CVE-2024-34155
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@1.22.5
+      UID: 3bb01ece7d33d04b
+    InstalledVersion: 1.22.5
+    FixedVersion: 1.22.7, 1.23.1
+    Status: fixed
+    Layer:
+      Digest: sha256:eb4108e75dc6f8e6fc5a5e04197674c0d9a1dd13ec796f87aff09fd0a4bbd6ca
+      DiffID: sha256:853b5d95f07f5f2e1b0bf3839c45f15d937b8d18ad499f49ad4553075cd9fdf4
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-34155
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: 'go/parser: Calling any of the Parse functions containing deeply nested literals can cause a panic/stack exhaustion'
+    Description: Calling any of the Parse functions on Go source code which contains deeply nested literals can cause a panic due to stack exhaustion.
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-34155
+    - https://go.dev/cl/611238
+    - https://go.dev/issue/69138
+    - https://groups.google.com/g/golang-dev/c/S9POB9NCTdk
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-34155
+    - https://pkg.go.dev/vuln/GO-2024-3105
+    - https://www.cve.org/CVERecord?id=CVE-2024-34155
+    PublishedDate: '2024-09-06T21:15:11.947Z'
+    LastModifiedDate: '2024-09-06T21:15:11.947Z'
   - VulnerabilityID: CVE-2024-34158
     PkgName: stdlib
     PkgIdentifier:
@@ -8225,44 +8320,29 @@
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
+    Title: 'go/build/constraint: golang: Calling Parse on a "// +build" build tag line with deeply nested expressions can cause a panic due to stack exhaustion'
     Description: Calling Parse on a "// +build" build tag line with deeply nested expressions can cause a panic due to stack exhaustion.
-    Severity: UNKNOWN
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.9
     References:
+    - https://access.redhat.com/security/cve/CVE-2024-34158
     - https://go.dev/cl/611240
     - https://go.dev/issue/69141
     - https://groups.google.com/g/golang-dev/c/S9POB9NCTdk
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-34158
     - https://pkg.go.dev/vuln/GO-2024-3107
+    - https://www.cve.org/CVERecord?id=CVE-2024-34158
     PublishedDate: '2024-09-06T21:15:12.083Z'
     LastModifiedDate: '2024-09-06T21:15:12.083Z'
 - Target: usr/bin/mc
   Class: lang-pkgs
   Type: gobinary
   Vulnerabilities:
-  - VulnerabilityID: CVE-2024-34155
-    PkgName: stdlib
-    PkgIdentifier:
-      PURL: pkg:golang/stdlib@1.22.6
-      UID: 2d3ddb96c250098c
-    InstalledVersion: 1.22.6
-    FixedVersion: 1.22.7, 1.23.1
-    Status: fixed
-    Layer:
-      Digest: sha256:eb4108e75dc6f8e6fc5a5e04197674c0d9a1dd13ec796f87aff09fd0a4bbd6ca
-      DiffID: sha256:853b5d95f07f5f2e1b0bf3839c45f15d937b8d18ad499f49ad4553075cd9fdf4
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-34155
-    DataSource:
-      ID: govulndb
-      Name: The Go Vulnerability Database
-      URL: https://pkg.go.dev/vuln/
-    Description: Calling any of the Parse functions on Go source code which contains deeply nested literals can cause a panic due to stack exhaustion.
-    Severity: UNKNOWN
-    References:
-    - https://go.dev/cl/611238
-    - https://go.dev/issue/69138
-    - https://groups.google.com/g/golang-dev/c/S9POB9NCTdk
-    - https://pkg.go.dev/vuln/GO-2024-3105
-    PublishedDate: '2024-09-06T21:15:11.947Z'
-    LastModifiedDate: '2024-09-06T21:15:11.947Z'
   - VulnerabilityID: CVE-2024-34156
     PkgName: stdlib
     PkgIdentifier:
@@ -8279,15 +8359,60 @@
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
+    Title: 'encoding/gob: Calling Decoder.Decode on a message which contains deeply nested structures can cause a panic due to stack exhaustion'
     Description: Calling Decoder.Decode on a message which contains deeply nested structures can cause a panic due to stack exhaustion. This is a follow-up to CVE-2022-30635.
-    Severity: UNKNOWN
+    Severity: HIGH
+    VendorSeverity:
+      redhat: 3
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
     References:
+    - https://access.redhat.com/security/cve/CVE-2024-34156
     - https://go.dev/cl/611239
     - https://go.dev/issue/69139
     - https://groups.google.com/g/golang-dev/c/S9POB9NCTdk
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-34156
     - https://pkg.go.dev/vuln/GO-2024-3106
+    - https://www.cve.org/CVERecord?id=CVE-2024-34156
     PublishedDate: '2024-09-06T21:15:12.02Z'
     LastModifiedDate: '2024-09-06T21:15:12.02Z'
+  - VulnerabilityID: CVE-2024-34155
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@1.22.6
+      UID: 2d3ddb96c250098c
+    InstalledVersion: 1.22.6
+    FixedVersion: 1.22.7, 1.23.1
+    Status: fixed
+    Layer:
+      Digest: sha256:eb4108e75dc6f8e6fc5a5e04197674c0d9a1dd13ec796f87aff09fd0a4bbd6ca
+      DiffID: sha256:853b5d95f07f5f2e1b0bf3839c45f15d937b8d18ad499f49ad4553075cd9fdf4
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-34155
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: 'go/parser: Calling any of the Parse functions containing deeply nested literals can cause a panic/stack exhaustion'
+    Description: Calling any of the Parse functions on Go source code which contains deeply nested literals can cause a panic due to stack exhaustion.
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-34155
+    - https://go.dev/cl/611238
+    - https://go.dev/issue/69138
+    - https://groups.google.com/g/golang-dev/c/S9POB9NCTdk
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-34155
+    - https://pkg.go.dev/vuln/GO-2024-3105
+    - https://www.cve.org/CVERecord?id=CVE-2024-34155
+    PublishedDate: '2024-09-06T21:15:11.947Z'
+    LastModifiedDate: '2024-09-06T21:15:11.947Z'
   - VulnerabilityID: CVE-2024-34158
     PkgName: stdlib
     PkgIdentifier:
@@ -8304,13 +8429,23 @@
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
+    Title: 'go/build/constraint: golang: Calling Parse on a "// +build" build tag line with deeply nested expressions can cause a panic due to stack exhaustion'
     Description: Calling Parse on a "// +build" build tag line with deeply nested expressions can cause a panic due to stack exhaustion.
-    Severity: UNKNOWN
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.9
     References:
+    - https://access.redhat.com/security/cve/CVE-2024-34158
     - https://go.dev/cl/611240
     - https://go.dev/issue/69141
     - https://groups.google.com/g/golang-dev/c/S9POB9NCTdk
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-34158
     - https://pkg.go.dev/vuln/GO-2024-3107
+    - https://www.cve.org/CVERecord?id=CVE-2024-34158
     PublishedDate: '2024-09-06T21:15:12.083Z'
     LastModifiedDate: '2024-09-06T21:15:12.083Z'
 - Target: usr/local/bin/k3d
@@ -8416,31 +8551,6 @@
     - https://github.com/grpc/grpc-go
     - https://github.com/grpc/grpc-go/commit/ab292411ddc0f3b7a7786754d1fe05264c3021eb
     - https://github.com/grpc/grpc-go/security/advisories/GHSA-xr7q-jx4m-x55m
-  - VulnerabilityID: CVE-2024-34155
-    PkgName: stdlib
-    PkgIdentifier:
-      PURL: pkg:golang/stdlib@1.22.5
-      UID: 72ac8f1f11422dc7
-    InstalledVersion: 1.22.5
-    FixedVersion: 1.22.7, 1.23.1
-    Status: fixed
-    Layer:
-      Digest: sha256:eb4108e75dc6f8e6fc5a5e04197674c0d9a1dd13ec796f87aff09fd0a4bbd6ca
-      DiffID: sha256:853b5d95f07f5f2e1b0bf3839c45f15d937b8d18ad499f49ad4553075cd9fdf4
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-34155
-    DataSource:
-      ID: govulndb
-      Name: The Go Vulnerability Database
-      URL: https://pkg.go.dev/vuln/
-    Description: Calling any of the Parse functions on Go source code which contains deeply nested literals can cause a panic due to stack exhaustion.
-    Severity: UNKNOWN
-    References:
-    - https://go.dev/cl/611238
-    - https://go.dev/issue/69138
-    - https://groups.google.com/g/golang-dev/c/S9POB9NCTdk
-    - https://pkg.go.dev/vuln/GO-2024-3105
-    PublishedDate: '2024-09-06T21:15:11.947Z'
-    LastModifiedDate: '2024-09-06T21:15:11.947Z'
   - VulnerabilityID: CVE-2024-34156
     PkgName: stdlib
     PkgIdentifier:
@@ -8457,15 +8567,60 @@
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
+    Title: 'encoding/gob: Calling Decoder.Decode on a message which contains deeply nested structures can cause a panic due to stack exhaustion'
     Description: Calling Decoder.Decode on a message which contains deeply nested structures can cause a panic due to stack exhaustion. This is a follow-up to CVE-2022-30635.
-    Severity: UNKNOWN
+    Severity: HIGH
+    VendorSeverity:
+      redhat: 3
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
     References:
+    - https://access.redhat.com/security/cve/CVE-2024-34156
     - https://go.dev/cl/611239
     - https://go.dev/issue/69139
     - https://groups.google.com/g/golang-dev/c/S9POB9NCTdk
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-34156
     - https://pkg.go.dev/vuln/GO-2024-3106
+    - https://www.cve.org/CVERecord?id=CVE-2024-34156
     PublishedDate: '2024-09-06T21:15:12.02Z'
     LastModifiedDate: '2024-09-06T21:15:12.02Z'
+  - VulnerabilityID: CVE-2024-34155
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@1.22.5
+      UID: 72ac8f1f11422dc7
+    InstalledVersion: 1.22.5
+    FixedVersion: 1.22.7, 1.23.1
+    Status: fixed
+    Layer:
+      Digest: sha256:eb4108e75dc6f8e6fc5a5e04197674c0d9a1dd13ec796f87aff09fd0a4bbd6ca
+      DiffID: sha256:853b5d95f07f5f2e1b0bf3839c45f15d937b8d18ad499f49ad4553075cd9fdf4
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-34155
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: 'go/parser: Calling any of the Parse functions containing deeply nested literals can cause a panic/stack exhaustion'
+    Description: Calling any of the Parse functions on Go source code which contains deeply nested literals can cause a panic due to stack exhaustion.
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-34155
+    - https://go.dev/cl/611238
+    - https://go.dev/issue/69138
+    - https://groups.google.com/g/golang-dev/c/S9POB9NCTdk
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-34155
+    - https://pkg.go.dev/vuln/GO-2024-3105
+    - https://www.cve.org/CVERecord?id=CVE-2024-34155
+    PublishedDate: '2024-09-06T21:15:11.947Z'
+    LastModifiedDate: '2024-09-06T21:15:11.947Z'
   - VulnerabilityID: CVE-2024-34158
     PkgName: stdlib
     PkgIdentifier:
@@ -8482,46 +8637,25 @@
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
+    Title: 'go/build/constraint: golang: Calling Parse on a "// +build" build tag line with deeply nested expressions can cause a panic due to stack exhaustion'
     Description: Calling Parse on a "// +build" build tag line with deeply nested expressions can cause a panic due to stack exhaustion.
-    Severity: UNKNOWN
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.9
     References:
+    - https://access.redhat.com/security/cve/CVE-2024-34158
     - https://go.dev/cl/611240
     - https://go.dev/issue/69141
     - https://groups.google.com/g/golang-dev/c/S9POB9NCTdk
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-34158
     - https://pkg.go.dev/vuln/GO-2024-3107
+    - https://www.cve.org/CVERecord?id=CVE-2024-34158
     PublishedDate: '2024-09-06T21:15:12.083Z'
     LastModifiedDate: '2024-09-06T21:15:12.083Z'
-- Target: /etc/ssh/ssh_host_dsa_key
-  Class: secret
-  Secrets:
-  - RuleID: private-key
-    Category: AsymmetricPrivateKey
-    Severity: HIGH
-    Title: Asymmetric Private Key
-    StartLine: 1
-    EndLine: 1
-    Code:
-      Lines:
-      - Number: 1
-        Content: BEGIN OPENSSH PRIVATE KEY-----****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
-        IsCause: true
-        Annotation: ''
-        Truncated: false
-        Highlighted: BEGIN OPENSSH PRIVATE KEY-----****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
-        FirstCause: true
-        LastCause: true
-      - Number: 2
-        Content: ''
-        IsCause: false
-        Annotation: ''
-        Truncated: false
-        FirstCause: false
-        LastCause: false
-    Match: BEGIN OPENSSH PRIVATE KEY-----****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
-    Layer:
-      Digest: sha256:eb4108e75dc6f8e6fc5a5e04197674c0d9a1dd13ec796f87aff09fd0a4bbd6ca
-      DiffID: sha256:853b5d95f07f5f2e1b0bf3839c45f15d937b8d18ad499f49ad4553075cd9fdf4
-      CreatedBy: 'COPY / / # buildkit'
 - Target: /etc/ssh/ssh_host_ecdsa_key
   Class: secret
   Secrets:
@@ -8611,6 +8745,37 @@
         FirstCause: false
         LastCause: false
     Match: BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
+    Layer:
+      Digest: sha256:eb4108e75dc6f8e6fc5a5e04197674c0d9a1dd13ec796f87aff09fd0a4bbd6ca
+      DiffID: sha256:853b5d95f07f5f2e1b0bf3839c45f15d937b8d18ad499f49ad4553075cd9fdf4
+      CreatedBy: 'COPY / / # buildkit'
+- Target: /etc/ssh/ssh_host_dsa_key
+  Class: secret
+  Secrets:
+  - RuleID: private-key
+    Category: AsymmetricPrivateKey
+    Severity: HIGH
+    Title: Asymmetric Private Key
+    StartLine: 1
+    EndLine: 1
+    Code:
+      Lines:
+      - Number: 1
+        Content: BEGIN OPENSSH PRIVATE KEY-----****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
+        IsCause: true
+        Annotation: ''
+        Truncated: false
+        Highlighted: BEGIN OPENSSH PRIVATE KEY-----****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
+        FirstCause: true
+        LastCause: true
+      - Number: 2
+        Content: ''
+        IsCause: false
+        Annotation: ''
+        Truncated: false
+        FirstCause: false
+        LastCause: false
+    Match: BEGIN OPENSSH PRIVATE KEY-----****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
     Layer:
       Digest: sha256:eb4108e75dc6f8e6fc5a5e04197674c0d9a1dd13ec796f87aff09fd0a4bbd6ca
       DiffID: sha256:853b5d95f07f5f2e1b0bf3839c45f15d937b8d18ad499f49ad4553075cd9fdf4
