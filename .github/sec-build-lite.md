@@ -4080,7 +4080,42 @@
 │                        │      │                  ╰ [34]: https://www.kb.cert.org/vuls/id/421644 
 │                        │      ├ PublishedDate   : 2024-04-04T21:15:16.113Z 
 │                        │      ╰ LastModifiedDate: 2024-08-26T21:35:02.457Z 
-│                        ├ [8]  ╭ VulnerabilityID : CVE-2023-29406 
+│                        ├ [8]  ╭ VulnerabilityID : CVE-2024-34156 
+│                        │      ├ PkgName         : stdlib 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.20.5 
+│                        │      │                  ╰ UID : 2bf84b0f0cdcf903 
+│                        │      ├ InstalledVersion: 1.20.5 
+│                        │      ├ FixedVersion    : 1.22.7, 1.23.1 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:7b1872648c8db9c5992f20797ece855d76f3f7
+│                        │      │                  │         2de05489a7a8778c09c2ec8f1c 
+│                        │      │                  ╰ DiffID: sha256:64493e85baa4a08956c595b833fb92bf0a2b5c
+│                        │      │                            cb1ff8f6f4307ce71d8fc473f0 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-34156 
+│                        │      ├ DataSource       ╭ ID  : govulndb 
+│                        │      │                  ├ Name: The Go Vulnerability Database 
+│                        │      │                  ╰ URL : https://pkg.go.dev/vuln/ 
+│                        │      ├ Title           : encoding/gob: Calling Decoder.Decode on a message
+│                        │      │                   which contains deeply nested structures can cause a panic
+│                        │      │                   due to stack exhaustion 
+│                        │      ├ Description     : Calling Decoder.Decode on a message which contains
+│                        │      │                   deeply nested structures can cause a panic due to stack
+│                        │      │                   exhaustion. This is a follow-up to CVE-2022-30635. 
+│                        │      ├ Severity        : HIGH 
+│                        │      ├ VendorSeverity   ─ redhat: 3 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
+│                        │      │                           │           :N/I:N/A:H 
+│                        │      │                           ╰ V3Score : 7.5 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-34156 
+│                        │      │                  ├ [1]: https://go.dev/cl/611239 
+│                        │      │                  ├ [2]: https://go.dev/issue/69139 
+│                        │      │                  ├ [3]: https://groups.google.com/g/golang-dev/c/S9POB9NCTdk 
+│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-34156 
+│                        │      │                  ├ [5]: https://pkg.go.dev/vuln/GO-2024-3106 
+│                        │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-34156 
+│                        │      ├ PublishedDate   : 2024-09-06T21:15:12.02Z 
+│                        │      ╰ LastModifiedDate: 2024-09-06T21:15:12.02Z 
+│                        ├ [9]  ╭ VulnerabilityID : CVE-2023-29406 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.20.5 
 │                        │      │                  ╰ UID : 2bf84b0f0cdcf903 
@@ -4159,7 +4194,7 @@
 │                        │      │                  ╰ [28]: https://www.cve.org/CVERecord?id=CVE-2023-29406 
 │                        │      ├ PublishedDate   : 2023-07-11T20:15:10.643Z 
 │                        │      ╰ LastModifiedDate: 2023-11-25T11:15:14.727Z 
-│                        ├ [9]  ╭ VulnerabilityID : CVE-2023-29409 
+│                        ├ [10] ╭ VulnerabilityID : CVE-2023-29409 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.20.5 
 │                        │      │                  ╰ UID : 2bf84b0f0cdcf903 
@@ -4232,7 +4267,7 @@
 │                        │      │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2023-29409 
 │                        │      ├ PublishedDate   : 2023-08-02T20:15:11.94Z 
 │                        │      ╰ LastModifiedDate: 2023-11-25T11:15:14.87Z 
-│                        ├ [10] ╭ VulnerabilityID : CVE-2023-39318 
+│                        ├ [11] ╭ VulnerabilityID : CVE-2023-39318 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.20.5 
 │                        │      │                  ╰ UID : 2bf84b0f0cdcf903 
@@ -4306,7 +4341,7 @@
 │                        │      │                  ╰ [20]: https://www.cve.org/CVERecord?id=CVE-2023-39318 
 │                        │      ├ PublishedDate   : 2023-09-08T17:15:27.823Z 
 │                        │      ╰ LastModifiedDate: 2023-11-25T11:15:17.43Z 
-│                        ├ [11] ╭ VulnerabilityID : CVE-2023-39319 
+│                        ├ [12] ╭ VulnerabilityID : CVE-2023-39319 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.20.5 
 │                        │      │                  ╰ UID : 2bf84b0f0cdcf903 
@@ -4334,7 +4369,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ amazon     : 3 
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
@@ -4381,7 +4416,7 @@
 │                        │      │                  ╰ [20]: https://www.cve.org/CVERecord?id=CVE-2023-39319 
 │                        │      ├ PublishedDate   : 2023-09-08T17:15:27.91Z 
 │                        │      ╰ LastModifiedDate: 2023-11-25T11:15:17.543Z 
-│                        ├ [12] ╭ VulnerabilityID : CVE-2023-39326 
+│                        ├ [13] ╭ VulnerabilityID : CVE-2023-39326 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.20.5 
 │                        │      │                  ╰ UID : 2bf84b0f0cdcf903 
@@ -4415,7 +4450,7 @@
 │                        │      │                   encoded bytes grows too small. 
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ amazon     : 3 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ nvd        : 2 
@@ -4457,7 +4492,7 @@
 │                        │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2023-39326 
 │                        │      ├ PublishedDate   : 2023-12-06T17:15:07.147Z 
 │                        │      ╰ LastModifiedDate: 2024-01-20T04:15:07.89Z 
-│                        ├ [13] ╭ VulnerabilityID : CVE-2023-45284 
+│                        ├ [14] ╭ VulnerabilityID : CVE-2023-45284 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.20.5 
 │                        │      │                  ╰ UID : 2bf84b0f0cdcf903 
@@ -4501,7 +4536,7 @@
 │                        │      │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2023-2186 
 │                        │      ├ PublishedDate   : 2023-11-09T17:15:08.813Z 
 │                        │      ╰ LastModifiedDate: 2024-09-03T19:35:05.593Z 
-│                        ├ [14] ╭ VulnerabilityID : CVE-2023-45289 
+│                        ├ [15] ╭ VulnerabilityID : CVE-2023-45289 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.20.5 
 │                        │      │                  ╰ UID : 2bf84b0f0cdcf903 
@@ -4579,7 +4614,7 @@
 │                        │      │                  ╰ [29]: https://www.cve.org/CVERecord?id=CVE-2023-45289 
 │                        │      ├ PublishedDate   : 2024-03-05T23:15:07.137Z 
 │                        │      ╰ LastModifiedDate: 2024-05-01T17:15:25.983Z 
-│                        ├ [15] ╭ VulnerabilityID : CVE-2023-45290 
+│                        ├ [16] ╭ VulnerabilityID : CVE-2023-45290 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.20.5 
 │                        │      │                  ╰ UID : 2bf84b0f0cdcf903 
@@ -4650,7 +4685,7 @@
 │                        │      │                  ╰ [21]: https://www.cve.org/CVERecord?id=CVE-2023-45290 
 │                        │      ├ PublishedDate   : 2024-03-05T23:15:07.21Z 
 │                        │      ╰ LastModifiedDate: 2024-05-01T17:15:26.04Z 
-│                        ├ [16] ╭ VulnerabilityID : CVE-2024-24783 
+│                        ├ [17] ╭ VulnerabilityID : CVE-2024-24783 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.20.5 
 │                        │      │                  ╰ UID : 2bf84b0f0cdcf903 
@@ -4727,7 +4762,7 @@
 │                        │      │                  ╰ [28]: https://www.cve.org/CVERecord?id=CVE-2024-24783 
 │                        │      ├ PublishedDate   : 2024-03-05T23:15:07.683Z 
 │                        │      ╰ LastModifiedDate: 2024-05-01T17:15:29.45Z 
-│                        ├ [17] ╭ VulnerabilityID : CVE-2024-24784 
+│                        ├ [18] ╭ VulnerabilityID : CVE-2024-24784 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.20.5 
 │                        │      │                  ╰ UID : 2bf84b0f0cdcf903 
@@ -4819,7 +4854,7 @@
 │                        │      │                  ╰ [38]: https://www.cve.org/CVERecord?id=CVE-2024-24784 
 │                        │      ├ PublishedDate   : 2024-03-05T23:15:07.733Z 
 │                        │      ╰ LastModifiedDate: 2024-08-05T21:35:04.457Z 
-│                        ├ [18] ╭ VulnerabilityID : CVE-2024-24785 
+│                        ├ [19] ╭ VulnerabilityID : CVE-2024-24785 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.20.5 
 │                        │      │                  ╰ UID : 2bf84b0f0cdcf903 
@@ -4907,7 +4942,7 @@
 │                        │      │                  ╰ [39]: https://www.cve.org/CVERecord?id=CVE-2024-24785 
 │                        │      ├ PublishedDate   : 2024-03-05T23:15:07.777Z 
 │                        │      ╰ LastModifiedDate: 2024-05-01T17:15:29.61Z 
-│                        ├ [19] ╭ VulnerabilityID : CVE-2024-24789 
+│                        ├ [20] ╭ VulnerabilityID : CVE-2024-24789 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.20.5 
 │                        │      │                  ╰ UID : 2bf84b0f0cdcf903 
@@ -4989,7 +5024,7 @@
 │                        │      │                  ╰ [24]: https://www.cve.org/CVERecord?id=CVE-2024-24789 
 │                        │      ├ PublishedDate   : 2024-06-05T16:15:10.47Z 
 │                        │      ╰ LastModifiedDate: 2024-07-03T01:48:25.51Z 
-│                        ├ [20] ╭ VulnerabilityID : CVE-2024-24791 
+│                        ├ [21] ╭ VulnerabilityID : CVE-2024-24791 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.20.5 
 │                        │      │                  ╰ UID : 2bf84b0f0cdcf903 
@@ -5041,7 +5076,7 @@
 │                        │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-24791 
 │                        │      ├ PublishedDate   : 2024-07-02T22:15:04.833Z 
 │                        │      ╰ LastModifiedDate: 2024-07-08T14:17:39.083Z 
-│                        ├ [21] ╭ VulnerabilityID : CVE-2024-34155 
+│                        ├ [22] ╭ VulnerabilityID : CVE-2024-34155 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.20.5 
 │                        │      │                  ╰ UID : 2bf84b0f0cdcf903 
@@ -5056,41 +5091,26 @@
 │                        │      ├ DataSource       ╭ ID  : govulndb 
 │                        │      │                  ├ Name: The Go Vulnerability Database 
 │                        │      │                  ╰ URL : https://pkg.go.dev/vuln/ 
+│                        │      ├ Title           : go/parser: Calling any of the Parse functions
+│                        │      │                   containing deeply nested literals can cause a panic/stack
+│                        │      │                   exhaustion 
 │                        │      ├ Description     : Calling any of the Parse functions on Go source code
 │                        │      │                   which contains deeply nested literals can cause a panic due
 │                        │      │                    to stack exhaustion. 
-│                        │      ├ Severity        : UNKNOWN 
-│                        │      ├ References       ╭ [0]: https://go.dev/cl/611238 
-│                        │      │                  ├ [1]: https://go.dev/issue/69138 
-│                        │      │                  ├ [2]: https://groups.google.com/g/golang-dev/c/S9POB9NCTdk 
-│                        │      │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2024-3105 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ VendorSeverity   ─ redhat: 2 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
+│                        │      │                           │           :N/I:N/A:H 
+│                        │      │                           ╰ V3Score : 5.9 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-34155 
+│                        │      │                  ├ [1]: https://go.dev/cl/611238 
+│                        │      │                  ├ [2]: https://go.dev/issue/69138 
+│                        │      │                  ├ [3]: https://groups.google.com/g/golang-dev/c/S9POB9NCTdk 
+│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-34155 
+│                        │      │                  ├ [5]: https://pkg.go.dev/vuln/GO-2024-3105 
+│                        │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-34155 
 │                        │      ├ PublishedDate   : 2024-09-06T21:15:11.947Z 
 │                        │      ╰ LastModifiedDate: 2024-09-06T21:15:11.947Z 
-│                        ├ [22] ╭ VulnerabilityID : CVE-2024-34156 
-│                        │      ├ PkgName         : stdlib 
-│                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.20.5 
-│                        │      │                  ╰ UID : 2bf84b0f0cdcf903 
-│                        │      ├ InstalledVersion: 1.20.5 
-│                        │      ├ FixedVersion    : 1.22.7, 1.23.1 
-│                        │      ├ Status          : fixed 
-│                        │      ├ Layer            ╭ Digest: sha256:7b1872648c8db9c5992f20797ece855d76f3f7
-│                        │      │                  │         2de05489a7a8778c09c2ec8f1c 
-│                        │      │                  ╰ DiffID: sha256:64493e85baa4a08956c595b833fb92bf0a2b5c
-│                        │      │                            cb1ff8f6f4307ce71d8fc473f0 
-│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-34156 
-│                        │      ├ DataSource       ╭ ID  : govulndb 
-│                        │      │                  ├ Name: The Go Vulnerability Database 
-│                        │      │                  ╰ URL : https://pkg.go.dev/vuln/ 
-│                        │      ├ Description     : Calling Decoder.Decode on a message which contains
-│                        │      │                   deeply nested structures can cause a panic due to stack
-│                        │      │                   exhaustion. This is a follow-up to CVE-2022-30635. 
-│                        │      ├ Severity        : UNKNOWN 
-│                        │      ├ References       ╭ [0]: https://go.dev/cl/611239 
-│                        │      │                  ├ [1]: https://go.dev/issue/69139 
-│                        │      │                  ├ [2]: https://groups.google.com/g/golang-dev/c/S9POB9NCTdk 
-│                        │      │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2024-3106 
-│                        │      ├ PublishedDate   : 2024-09-06T21:15:12.02Z 
-│                        │      ╰ LastModifiedDate: 2024-09-06T21:15:12.02Z 
 │                        ╰ [23] ╭ VulnerabilityID : CVE-2024-34158 
 │                               ├ PkgName         : stdlib 
 │                               ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.20.5 
@@ -5106,14 +5126,24 @@
 │                               ├ DataSource       ╭ ID  : govulndb 
 │                               │                  ├ Name: The Go Vulnerability Database 
 │                               │                  ╰ URL : https://pkg.go.dev/vuln/ 
+│                               ├ Title           : go/build/constraint: golang: Calling Parse on a "//
+│                               │                   +build" build tag line with deeply nested expressions can
+│                               │                   cause a panic due to stack exhaustion 
 │                               ├ Description     : Calling Parse on a "// +build" build tag line with
 │                               │                   deeply nested expressions can cause a panic due to stack
 │                               │                   exhaustion. 
-│                               ├ Severity        : UNKNOWN 
-│                               ├ References       ╭ [0]: https://go.dev/cl/611240 
-│                               │                  ├ [1]: https://go.dev/issue/69141 
-│                               │                  ├ [2]: https://groups.google.com/g/golang-dev/c/S9POB9NCTdk 
-│                               │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2024-3107 
+│                               ├ Severity        : MEDIUM 
+│                               ├ VendorSeverity   ─ redhat: 2 
+│                               ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
+│                               │                           │           :N/I:N/A:H 
+│                               │                           ╰ V3Score : 5.9 
+│                               ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-34158 
+│                               │                  ├ [1]: https://go.dev/cl/611240 
+│                               │                  ├ [2]: https://go.dev/issue/69141 
+│                               │                  ├ [3]: https://groups.google.com/g/golang-dev/c/S9POB9NCTdk 
+│                               │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-34158 
+│                               │                  ├ [5]: https://pkg.go.dev/vuln/GO-2024-3107 
+│                               │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-34158 
 │                               ├ PublishedDate   : 2024-09-06T21:15:12.083Z 
 │                               ╰ LastModifiedDate: 2024-09-06T21:15:12.083Z 
 ├ [3]  ╭ Target         : tmp/tmp.TUbJy1RXeu/krew-linux_amd64 
@@ -6727,7 +6757,42 @@
 │                        │      │                  ╰ [34]: https://www.kb.cert.org/vuls/id/421644 
 │                        │      ├ PublishedDate   : 2024-04-04T21:15:16.113Z 
 │                        │      ╰ LastModifiedDate: 2024-08-26T21:35:02.457Z 
-│                        ├ [8]  ╭ VulnerabilityID : CVE-2023-29406 
+│                        ├ [8]  ╭ VulnerabilityID : CVE-2024-34156 
+│                        │      ├ PkgName         : stdlib 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.20.5 
+│                        │      │                  ╰ UID : d0bb2ff3e60788db 
+│                        │      ├ InstalledVersion: 1.20.5 
+│                        │      ├ FixedVersion    : 1.22.7, 1.23.1 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:7b1872648c8db9c5992f20797ece855d76f3f7
+│                        │      │                  │         2de05489a7a8778c09c2ec8f1c 
+│                        │      │                  ╰ DiffID: sha256:64493e85baa4a08956c595b833fb92bf0a2b5c
+│                        │      │                            cb1ff8f6f4307ce71d8fc473f0 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-34156 
+│                        │      ├ DataSource       ╭ ID  : govulndb 
+│                        │      │                  ├ Name: The Go Vulnerability Database 
+│                        │      │                  ╰ URL : https://pkg.go.dev/vuln/ 
+│                        │      ├ Title           : encoding/gob: Calling Decoder.Decode on a message
+│                        │      │                   which contains deeply nested structures can cause a panic
+│                        │      │                   due to stack exhaustion 
+│                        │      ├ Description     : Calling Decoder.Decode on a message which contains
+│                        │      │                   deeply nested structures can cause a panic due to stack
+│                        │      │                   exhaustion. This is a follow-up to CVE-2022-30635. 
+│                        │      ├ Severity        : HIGH 
+│                        │      ├ VendorSeverity   ─ redhat: 3 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
+│                        │      │                           │           :N/I:N/A:H 
+│                        │      │                           ╰ V3Score : 7.5 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-34156 
+│                        │      │                  ├ [1]: https://go.dev/cl/611239 
+│                        │      │                  ├ [2]: https://go.dev/issue/69139 
+│                        │      │                  ├ [3]: https://groups.google.com/g/golang-dev/c/S9POB9NCTdk 
+│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-34156 
+│                        │      │                  ├ [5]: https://pkg.go.dev/vuln/GO-2024-3106 
+│                        │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-34156 
+│                        │      ├ PublishedDate   : 2024-09-06T21:15:12.02Z 
+│                        │      ╰ LastModifiedDate: 2024-09-06T21:15:12.02Z 
+│                        ├ [9]  ╭ VulnerabilityID : CVE-2023-29406 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.20.5 
 │                        │      │                  ╰ UID : d0bb2ff3e60788db 
@@ -6806,7 +6871,7 @@
 │                        │      │                  ╰ [28]: https://www.cve.org/CVERecord?id=CVE-2023-29406 
 │                        │      ├ PublishedDate   : 2023-07-11T20:15:10.643Z 
 │                        │      ╰ LastModifiedDate: 2023-11-25T11:15:14.727Z 
-│                        ├ [9]  ╭ VulnerabilityID : CVE-2023-29409 
+│                        ├ [10] ╭ VulnerabilityID : CVE-2023-29409 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.20.5 
 │                        │      │                  ╰ UID : d0bb2ff3e60788db 
@@ -6879,7 +6944,7 @@
 │                        │      │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2023-29409 
 │                        │      ├ PublishedDate   : 2023-08-02T20:15:11.94Z 
 │                        │      ╰ LastModifiedDate: 2023-11-25T11:15:14.87Z 
-│                        ├ [10] ╭ VulnerabilityID : CVE-2023-39318 
+│                        ├ [11] ╭ VulnerabilityID : CVE-2023-39318 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.20.5 
 │                        │      │                  ╰ UID : d0bb2ff3e60788db 
@@ -6953,7 +7018,7 @@
 │                        │      │                  ╰ [20]: https://www.cve.org/CVERecord?id=CVE-2023-39318 
 │                        │      ├ PublishedDate   : 2023-09-08T17:15:27.823Z 
 │                        │      ╰ LastModifiedDate: 2023-11-25T11:15:17.43Z 
-│                        ├ [11] ╭ VulnerabilityID : CVE-2023-39319 
+│                        ├ [12] ╭ VulnerabilityID : CVE-2023-39319 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.20.5 
 │                        │      │                  ╰ UID : d0bb2ff3e60788db 
@@ -6981,7 +7046,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ amazon     : 3 
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
@@ -7028,7 +7093,7 @@
 │                        │      │                  ╰ [20]: https://www.cve.org/CVERecord?id=CVE-2023-39319 
 │                        │      ├ PublishedDate   : 2023-09-08T17:15:27.91Z 
 │                        │      ╰ LastModifiedDate: 2023-11-25T11:15:17.543Z 
-│                        ├ [12] ╭ VulnerabilityID : CVE-2023-39326 
+│                        ├ [13] ╭ VulnerabilityID : CVE-2023-39326 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.20.5 
 │                        │      │                  ╰ UID : d0bb2ff3e60788db 
@@ -7062,7 +7127,7 @@
 │                        │      │                   encoded bytes grows too small. 
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ amazon     : 3 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ nvd        : 2 
@@ -7104,7 +7169,7 @@
 │                        │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2023-39326 
 │                        │      ├ PublishedDate   : 2023-12-06T17:15:07.147Z 
 │                        │      ╰ LastModifiedDate: 2024-01-20T04:15:07.89Z 
-│                        ├ [13] ╭ VulnerabilityID : CVE-2023-45284 
+│                        ├ [14] ╭ VulnerabilityID : CVE-2023-45284 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.20.5 
 │                        │      │                  ╰ UID : d0bb2ff3e60788db 
@@ -7148,7 +7213,7 @@
 │                        │      │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2023-2186 
 │                        │      ├ PublishedDate   : 2023-11-09T17:15:08.813Z 
 │                        │      ╰ LastModifiedDate: 2024-09-03T19:35:05.593Z 
-│                        ├ [14] ╭ VulnerabilityID : CVE-2023-45289 
+│                        ├ [15] ╭ VulnerabilityID : CVE-2023-45289 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.20.5 
 │                        │      │                  ╰ UID : d0bb2ff3e60788db 
@@ -7226,7 +7291,7 @@
 │                        │      │                  ╰ [29]: https://www.cve.org/CVERecord?id=CVE-2023-45289 
 │                        │      ├ PublishedDate   : 2024-03-05T23:15:07.137Z 
 │                        │      ╰ LastModifiedDate: 2024-05-01T17:15:25.983Z 
-│                        ├ [15] ╭ VulnerabilityID : CVE-2023-45290 
+│                        ├ [16] ╭ VulnerabilityID : CVE-2023-45290 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.20.5 
 │                        │      │                  ╰ UID : d0bb2ff3e60788db 
@@ -7297,7 +7362,7 @@
 │                        │      │                  ╰ [21]: https://www.cve.org/CVERecord?id=CVE-2023-45290 
 │                        │      ├ PublishedDate   : 2024-03-05T23:15:07.21Z 
 │                        │      ╰ LastModifiedDate: 2024-05-01T17:15:26.04Z 
-│                        ├ [16] ╭ VulnerabilityID : CVE-2024-24783 
+│                        ├ [17] ╭ VulnerabilityID : CVE-2024-24783 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.20.5 
 │                        │      │                  ╰ UID : d0bb2ff3e60788db 
@@ -7374,7 +7439,7 @@
 │                        │      │                  ╰ [28]: https://www.cve.org/CVERecord?id=CVE-2024-24783 
 │                        │      ├ PublishedDate   : 2024-03-05T23:15:07.683Z 
 │                        │      ╰ LastModifiedDate: 2024-05-01T17:15:29.45Z 
-│                        ├ [17] ╭ VulnerabilityID : CVE-2024-24784 
+│                        ├ [18] ╭ VulnerabilityID : CVE-2024-24784 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.20.5 
 │                        │      │                  ╰ UID : d0bb2ff3e60788db 
@@ -7466,7 +7531,7 @@
 │                        │      │                  ╰ [38]: https://www.cve.org/CVERecord?id=CVE-2024-24784 
 │                        │      ├ PublishedDate   : 2024-03-05T23:15:07.733Z 
 │                        │      ╰ LastModifiedDate: 2024-08-05T21:35:04.457Z 
-│                        ├ [18] ╭ VulnerabilityID : CVE-2024-24785 
+│                        ├ [19] ╭ VulnerabilityID : CVE-2024-24785 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.20.5 
 │                        │      │                  ╰ UID : d0bb2ff3e60788db 
@@ -7554,7 +7619,7 @@
 │                        │      │                  ╰ [39]: https://www.cve.org/CVERecord?id=CVE-2024-24785 
 │                        │      ├ PublishedDate   : 2024-03-05T23:15:07.777Z 
 │                        │      ╰ LastModifiedDate: 2024-05-01T17:15:29.61Z 
-│                        ├ [19] ╭ VulnerabilityID : CVE-2024-24789 
+│                        ├ [20] ╭ VulnerabilityID : CVE-2024-24789 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.20.5 
 │                        │      │                  ╰ UID : d0bb2ff3e60788db 
@@ -7636,7 +7701,7 @@
 │                        │      │                  ╰ [24]: https://www.cve.org/CVERecord?id=CVE-2024-24789 
 │                        │      ├ PublishedDate   : 2024-06-05T16:15:10.47Z 
 │                        │      ╰ LastModifiedDate: 2024-07-03T01:48:25.51Z 
-│                        ├ [20] ╭ VulnerabilityID : CVE-2024-24791 
+│                        ├ [21] ╭ VulnerabilityID : CVE-2024-24791 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.20.5 
 │                        │      │                  ╰ UID : d0bb2ff3e60788db 
@@ -7688,7 +7753,7 @@
 │                        │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-24791 
 │                        │      ├ PublishedDate   : 2024-07-02T22:15:04.833Z 
 │                        │      ╰ LastModifiedDate: 2024-07-08T14:17:39.083Z 
-│                        ├ [21] ╭ VulnerabilityID : CVE-2024-34155 
+│                        ├ [22] ╭ VulnerabilityID : CVE-2024-34155 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.20.5 
 │                        │      │                  ╰ UID : d0bb2ff3e60788db 
@@ -7703,41 +7768,26 @@
 │                        │      ├ DataSource       ╭ ID  : govulndb 
 │                        │      │                  ├ Name: The Go Vulnerability Database 
 │                        │      │                  ╰ URL : https://pkg.go.dev/vuln/ 
+│                        │      ├ Title           : go/parser: Calling any of the Parse functions
+│                        │      │                   containing deeply nested literals can cause a panic/stack
+│                        │      │                   exhaustion 
 │                        │      ├ Description     : Calling any of the Parse functions on Go source code
 │                        │      │                   which contains deeply nested literals can cause a panic due
 │                        │      │                    to stack exhaustion. 
-│                        │      ├ Severity        : UNKNOWN 
-│                        │      ├ References       ╭ [0]: https://go.dev/cl/611238 
-│                        │      │                  ├ [1]: https://go.dev/issue/69138 
-│                        │      │                  ├ [2]: https://groups.google.com/g/golang-dev/c/S9POB9NCTdk 
-│                        │      │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2024-3105 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ VendorSeverity   ─ redhat: 2 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
+│                        │      │                           │           :N/I:N/A:H 
+│                        │      │                           ╰ V3Score : 5.9 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-34155 
+│                        │      │                  ├ [1]: https://go.dev/cl/611238 
+│                        │      │                  ├ [2]: https://go.dev/issue/69138 
+│                        │      │                  ├ [3]: https://groups.google.com/g/golang-dev/c/S9POB9NCTdk 
+│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-34155 
+│                        │      │                  ├ [5]: https://pkg.go.dev/vuln/GO-2024-3105 
+│                        │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-34155 
 │                        │      ├ PublishedDate   : 2024-09-06T21:15:11.947Z 
 │                        │      ╰ LastModifiedDate: 2024-09-06T21:15:11.947Z 
-│                        ├ [22] ╭ VulnerabilityID : CVE-2024-34156 
-│                        │      ├ PkgName         : stdlib 
-│                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.20.5 
-│                        │      │                  ╰ UID : d0bb2ff3e60788db 
-│                        │      ├ InstalledVersion: 1.20.5 
-│                        │      ├ FixedVersion    : 1.22.7, 1.23.1 
-│                        │      ├ Status          : fixed 
-│                        │      ├ Layer            ╭ Digest: sha256:7b1872648c8db9c5992f20797ece855d76f3f7
-│                        │      │                  │         2de05489a7a8778c09c2ec8f1c 
-│                        │      │                  ╰ DiffID: sha256:64493e85baa4a08956c595b833fb92bf0a2b5c
-│                        │      │                            cb1ff8f6f4307ce71d8fc473f0 
-│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-34156 
-│                        │      ├ DataSource       ╭ ID  : govulndb 
-│                        │      │                  ├ Name: The Go Vulnerability Database 
-│                        │      │                  ╰ URL : https://pkg.go.dev/vuln/ 
-│                        │      ├ Description     : Calling Decoder.Decode on a message which contains
-│                        │      │                   deeply nested structures can cause a panic due to stack
-│                        │      │                   exhaustion. This is a follow-up to CVE-2022-30635. 
-│                        │      ├ Severity        : UNKNOWN 
-│                        │      ├ References       ╭ [0]: https://go.dev/cl/611239 
-│                        │      │                  ├ [1]: https://go.dev/issue/69139 
-│                        │      │                  ├ [2]: https://groups.google.com/g/golang-dev/c/S9POB9NCTdk 
-│                        │      │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2024-3106 
-│                        │      ├ PublishedDate   : 2024-09-06T21:15:12.02Z 
-│                        │      ╰ LastModifiedDate: 2024-09-06T21:15:12.02Z 
 │                        ╰ [23] ╭ VulnerabilityID : CVE-2024-34158 
 │                               ├ PkgName         : stdlib 
 │                               ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.20.5 
@@ -7753,45 +7803,30 @@
 │                               ├ DataSource       ╭ ID  : govulndb 
 │                               │                  ├ Name: The Go Vulnerability Database 
 │                               │                  ╰ URL : https://pkg.go.dev/vuln/ 
+│                               ├ Title           : go/build/constraint: golang: Calling Parse on a "//
+│                               │                   +build" build tag line with deeply nested expressions can
+│                               │                   cause a panic due to stack exhaustion 
 │                               ├ Description     : Calling Parse on a "// +build" build tag line with
 │                               │                   deeply nested expressions can cause a panic due to stack
 │                               │                   exhaustion. 
-│                               ├ Severity        : UNKNOWN 
-│                               ├ References       ╭ [0]: https://go.dev/cl/611240 
-│                               │                  ├ [1]: https://go.dev/issue/69141 
-│                               │                  ├ [2]: https://groups.google.com/g/golang-dev/c/S9POB9NCTdk 
-│                               │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2024-3107 
+│                               ├ Severity        : MEDIUM 
+│                               ├ VendorSeverity   ─ redhat: 2 
+│                               ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
+│                               │                           │           :N/I:N/A:H 
+│                               │                           ╰ V3Score : 5.9 
+│                               ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-34158 
+│                               │                  ├ [1]: https://go.dev/cl/611240 
+│                               │                  ├ [2]: https://go.dev/issue/69141 
+│                               │                  ├ [3]: https://groups.google.com/g/golang-dev/c/S9POB9NCTdk 
+│                               │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-34158 
+│                               │                  ├ [5]: https://pkg.go.dev/vuln/GO-2024-3107 
+│                               │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-34158 
 │                               ├ PublishedDate   : 2024-09-06T21:15:12.083Z 
 │                               ╰ LastModifiedDate: 2024-09-06T21:15:12.083Z 
 ├ [4]  ╭ Target         : usr/bin/docker-compose 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : gobinary 
-│      ╰ Vulnerabilities ╭ [0] ╭ VulnerabilityID : CVE-2024-34155 
-│                        │     ├ PkgName         : stdlib 
-│                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.21.12 
-│                        │     │                  ╰ UID : da55131cb8063f06 
-│                        │     ├ InstalledVersion: 1.21.12 
-│                        │     ├ FixedVersion    : 1.22.7, 1.23.1 
-│                        │     ├ Status          : fixed 
-│                        │     ├ Layer            ╭ Digest: sha256:7b1872648c8db9c5992f20797ece855d76f3f72
-│                        │     │                  │         de05489a7a8778c09c2ec8f1c 
-│                        │     │                  ╰ DiffID: sha256:64493e85baa4a08956c595b833fb92bf0a2b5cc
-│                        │     │                            b1ff8f6f4307ce71d8fc473f0 
-│                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-34155 
-│                        │     ├ DataSource       ╭ ID  : govulndb 
-│                        │     │                  ├ Name: The Go Vulnerability Database 
-│                        │     │                  ╰ URL : https://pkg.go.dev/vuln/ 
-│                        │     ├ Description     : Calling any of the Parse functions on Go source code
-│                        │     │                   which contains deeply nested literals can cause a panic due
-│                        │     │                   to stack exhaustion. 
-│                        │     ├ Severity        : UNKNOWN 
-│                        │     ├ References       ╭ [0]: https://go.dev/cl/611238 
-│                        │     │                  ├ [1]: https://go.dev/issue/69138 
-│                        │     │                  ├ [2]: https://groups.google.com/g/golang-dev/c/S9POB9NCTdk 
-│                        │     │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2024-3105 
-│                        │     ├ PublishedDate   : 2024-09-06T21:15:11.947Z 
-│                        │     ╰ LastModifiedDate: 2024-09-06T21:15:11.947Z 
-│                        ├ [1] ╭ VulnerabilityID : CVE-2024-34156 
+│      ╰ Vulnerabilities ╭ [0] ╭ VulnerabilityID : CVE-2024-34156 
 │                        │     ├ PkgName         : stdlib 
 │                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.21.12 
 │                        │     │                  ╰ UID : da55131cb8063f06 
@@ -7806,16 +7841,61 @@
 │                        │     ├ DataSource       ╭ ID  : govulndb 
 │                        │     │                  ├ Name: The Go Vulnerability Database 
 │                        │     │                  ╰ URL : https://pkg.go.dev/vuln/ 
+│                        │     ├ Title           : encoding/gob: Calling Decoder.Decode on a message which
+│                        │     │                    contains deeply nested structures can cause a panic due to
+│                        │     │                   stack exhaustion 
 │                        │     ├ Description     : Calling Decoder.Decode on a message which contains
 │                        │     │                   deeply nested structures can cause a panic due to stack
 │                        │     │                   exhaustion. This is a follow-up to CVE-2022-30635. 
-│                        │     ├ Severity        : UNKNOWN 
-│                        │     ├ References       ╭ [0]: https://go.dev/cl/611239 
-│                        │     │                  ├ [1]: https://go.dev/issue/69139 
-│                        │     │                  ├ [2]: https://groups.google.com/g/golang-dev/c/S9POB9NCTdk 
-│                        │     │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2024-3106 
+│                        │     ├ Severity        : HIGH 
+│                        │     ├ VendorSeverity   ─ redhat: 3 
+│                        │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
+│                        │     │                           │           N/I:N/A:H 
+│                        │     │                           ╰ V3Score : 7.5 
+│                        │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-34156 
+│                        │     │                  ├ [1]: https://go.dev/cl/611239 
+│                        │     │                  ├ [2]: https://go.dev/issue/69139 
+│                        │     │                  ├ [3]: https://groups.google.com/g/golang-dev/c/S9POB9NCTdk 
+│                        │     │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-34156 
+│                        │     │                  ├ [5]: https://pkg.go.dev/vuln/GO-2024-3106 
+│                        │     │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-34156 
 │                        │     ├ PublishedDate   : 2024-09-06T21:15:12.02Z 
 │                        │     ╰ LastModifiedDate: 2024-09-06T21:15:12.02Z 
+│                        ├ [1] ╭ VulnerabilityID : CVE-2024-34155 
+│                        │     ├ PkgName         : stdlib 
+│                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.21.12 
+│                        │     │                  ╰ UID : da55131cb8063f06 
+│                        │     ├ InstalledVersion: 1.21.12 
+│                        │     ├ FixedVersion    : 1.22.7, 1.23.1 
+│                        │     ├ Status          : fixed 
+│                        │     ├ Layer            ╭ Digest: sha256:7b1872648c8db9c5992f20797ece855d76f3f72
+│                        │     │                  │         de05489a7a8778c09c2ec8f1c 
+│                        │     │                  ╰ DiffID: sha256:64493e85baa4a08956c595b833fb92bf0a2b5cc
+│                        │     │                            b1ff8f6f4307ce71d8fc473f0 
+│                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-34155 
+│                        │     ├ DataSource       ╭ ID  : govulndb 
+│                        │     │                  ├ Name: The Go Vulnerability Database 
+│                        │     │                  ╰ URL : https://pkg.go.dev/vuln/ 
+│                        │     ├ Title           : go/parser: Calling any of the Parse functions
+│                        │     │                   containing deeply nested literals can cause a panic/stack
+│                        │     │                   exhaustion 
+│                        │     ├ Description     : Calling any of the Parse functions on Go source code
+│                        │     │                   which contains deeply nested literals can cause a panic due
+│                        │     │                   to stack exhaustion. 
+│                        │     ├ Severity        : MEDIUM 
+│                        │     ├ VendorSeverity   ─ redhat: 2 
+│                        │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:
+│                        │     │                           │           N/I:N/A:H 
+│                        │     │                           ╰ V3Score : 5.9 
+│                        │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-34155 
+│                        │     │                  ├ [1]: https://go.dev/cl/611238 
+│                        │     │                  ├ [2]: https://go.dev/issue/69138 
+│                        │     │                  ├ [3]: https://groups.google.com/g/golang-dev/c/S9POB9NCTdk 
+│                        │     │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-34155 
+│                        │     │                  ├ [5]: https://pkg.go.dev/vuln/GO-2024-3105 
+│                        │     │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-34155 
+│                        │     ├ PublishedDate   : 2024-09-06T21:15:11.947Z 
+│                        │     ╰ LastModifiedDate: 2024-09-06T21:15:11.947Z 
 │                        ╰ [2] ╭ VulnerabilityID : CVE-2024-34158 
 │                              ├ PkgName         : stdlib 
 │                              ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.21.12 
@@ -7831,45 +7911,30 @@
 │                              ├ DataSource       ╭ ID  : govulndb 
 │                              │                  ├ Name: The Go Vulnerability Database 
 │                              │                  ╰ URL : https://pkg.go.dev/vuln/ 
+│                              ├ Title           : go/build/constraint: golang: Calling Parse on a "//
+│                              │                   +build" build tag line with deeply nested expressions can
+│                              │                   cause a panic due to stack exhaustion 
 │                              ├ Description     : Calling Parse on a "// +build" build tag line with
 │                              │                   deeply nested expressions can cause a panic due to stack
 │                              │                   exhaustion. 
-│                              ├ Severity        : UNKNOWN 
-│                              ├ References       ╭ [0]: https://go.dev/cl/611240 
-│                              │                  ├ [1]: https://go.dev/issue/69141 
-│                              │                  ├ [2]: https://groups.google.com/g/golang-dev/c/S9POB9NCTdk 
-│                              │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2024-3107 
+│                              ├ Severity        : MEDIUM 
+│                              ├ VendorSeverity   ─ redhat: 2 
+│                              ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:
+│                              │                           │           N/I:N/A:H 
+│                              │                           ╰ V3Score : 5.9 
+│                              ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-34158 
+│                              │                  ├ [1]: https://go.dev/cl/611240 
+│                              │                  ├ [2]: https://go.dev/issue/69141 
+│                              │                  ├ [3]: https://groups.google.com/g/golang-dev/c/S9POB9NCTdk 
+│                              │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-34158 
+│                              │                  ├ [5]: https://pkg.go.dev/vuln/GO-2024-3107 
+│                              │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-34158 
 │                              ├ PublishedDate   : 2024-09-06T21:15:12.083Z 
 │                              ╰ LastModifiedDate: 2024-09-06T21:15:12.083Z 
 ├ [5]  ╭ Target         : usr/bin/helm 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : gobinary 
-│      ╰ Vulnerabilities ╭ [0] ╭ VulnerabilityID : CVE-2024-34155 
-│                        │     ├ PkgName         : stdlib 
-│                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.22.6 
-│                        │     │                  ╰ UID : 52327f3a60888de3 
-│                        │     ├ InstalledVersion: 1.22.6 
-│                        │     ├ FixedVersion    : 1.22.7, 1.23.1 
-│                        │     ├ Status          : fixed 
-│                        │     ├ Layer            ╭ Digest: sha256:7b1872648c8db9c5992f20797ece855d76f3f72
-│                        │     │                  │         de05489a7a8778c09c2ec8f1c 
-│                        │     │                  ╰ DiffID: sha256:64493e85baa4a08956c595b833fb92bf0a2b5cc
-│                        │     │                            b1ff8f6f4307ce71d8fc473f0 
-│                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-34155 
-│                        │     ├ DataSource       ╭ ID  : govulndb 
-│                        │     │                  ├ Name: The Go Vulnerability Database 
-│                        │     │                  ╰ URL : https://pkg.go.dev/vuln/ 
-│                        │     ├ Description     : Calling any of the Parse functions on Go source code
-│                        │     │                   which contains deeply nested literals can cause a panic due
-│                        │     │                   to stack exhaustion. 
-│                        │     ├ Severity        : UNKNOWN 
-│                        │     ├ References       ╭ [0]: https://go.dev/cl/611238 
-│                        │     │                  ├ [1]: https://go.dev/issue/69138 
-│                        │     │                  ├ [2]: https://groups.google.com/g/golang-dev/c/S9POB9NCTdk 
-│                        │     │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2024-3105 
-│                        │     ├ PublishedDate   : 2024-09-06T21:15:11.947Z 
-│                        │     ╰ LastModifiedDate: 2024-09-06T21:15:11.947Z 
-│                        ├ [1] ╭ VulnerabilityID : CVE-2024-34156 
+│      ╰ Vulnerabilities ╭ [0] ╭ VulnerabilityID : CVE-2024-34156 
 │                        │     ├ PkgName         : stdlib 
 │                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.22.6 
 │                        │     │                  ╰ UID : 52327f3a60888de3 
@@ -7884,16 +7949,61 @@
 │                        │     ├ DataSource       ╭ ID  : govulndb 
 │                        │     │                  ├ Name: The Go Vulnerability Database 
 │                        │     │                  ╰ URL : https://pkg.go.dev/vuln/ 
+│                        │     ├ Title           : encoding/gob: Calling Decoder.Decode on a message which
+│                        │     │                    contains deeply nested structures can cause a panic due to
+│                        │     │                   stack exhaustion 
 │                        │     ├ Description     : Calling Decoder.Decode on a message which contains
 │                        │     │                   deeply nested structures can cause a panic due to stack
 │                        │     │                   exhaustion. This is a follow-up to CVE-2022-30635. 
-│                        │     ├ Severity        : UNKNOWN 
-│                        │     ├ References       ╭ [0]: https://go.dev/cl/611239 
-│                        │     │                  ├ [1]: https://go.dev/issue/69139 
-│                        │     │                  ├ [2]: https://groups.google.com/g/golang-dev/c/S9POB9NCTdk 
-│                        │     │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2024-3106 
+│                        │     ├ Severity        : HIGH 
+│                        │     ├ VendorSeverity   ─ redhat: 3 
+│                        │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
+│                        │     │                           │           N/I:N/A:H 
+│                        │     │                           ╰ V3Score : 7.5 
+│                        │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-34156 
+│                        │     │                  ├ [1]: https://go.dev/cl/611239 
+│                        │     │                  ├ [2]: https://go.dev/issue/69139 
+│                        │     │                  ├ [3]: https://groups.google.com/g/golang-dev/c/S9POB9NCTdk 
+│                        │     │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-34156 
+│                        │     │                  ├ [5]: https://pkg.go.dev/vuln/GO-2024-3106 
+│                        │     │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-34156 
 │                        │     ├ PublishedDate   : 2024-09-06T21:15:12.02Z 
 │                        │     ╰ LastModifiedDate: 2024-09-06T21:15:12.02Z 
+│                        ├ [1] ╭ VulnerabilityID : CVE-2024-34155 
+│                        │     ├ PkgName         : stdlib 
+│                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.22.6 
+│                        │     │                  ╰ UID : 52327f3a60888de3 
+│                        │     ├ InstalledVersion: 1.22.6 
+│                        │     ├ FixedVersion    : 1.22.7, 1.23.1 
+│                        │     ├ Status          : fixed 
+│                        │     ├ Layer            ╭ Digest: sha256:7b1872648c8db9c5992f20797ece855d76f3f72
+│                        │     │                  │         de05489a7a8778c09c2ec8f1c 
+│                        │     │                  ╰ DiffID: sha256:64493e85baa4a08956c595b833fb92bf0a2b5cc
+│                        │     │                            b1ff8f6f4307ce71d8fc473f0 
+│                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-34155 
+│                        │     ├ DataSource       ╭ ID  : govulndb 
+│                        │     │                  ├ Name: The Go Vulnerability Database 
+│                        │     │                  ╰ URL : https://pkg.go.dev/vuln/ 
+│                        │     ├ Title           : go/parser: Calling any of the Parse functions
+│                        │     │                   containing deeply nested literals can cause a panic/stack
+│                        │     │                   exhaustion 
+│                        │     ├ Description     : Calling any of the Parse functions on Go source code
+│                        │     │                   which contains deeply nested literals can cause a panic due
+│                        │     │                   to stack exhaustion. 
+│                        │     ├ Severity        : MEDIUM 
+│                        │     ├ VendorSeverity   ─ redhat: 2 
+│                        │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:
+│                        │     │                           │           N/I:N/A:H 
+│                        │     │                           ╰ V3Score : 5.9 
+│                        │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-34155 
+│                        │     │                  ├ [1]: https://go.dev/cl/611238 
+│                        │     │                  ├ [2]: https://go.dev/issue/69138 
+│                        │     │                  ├ [3]: https://groups.google.com/g/golang-dev/c/S9POB9NCTdk 
+│                        │     │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-34155 
+│                        │     │                  ├ [5]: https://pkg.go.dev/vuln/GO-2024-3105 
+│                        │     │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-34155 
+│                        │     ├ PublishedDate   : 2024-09-06T21:15:11.947Z 
+│                        │     ╰ LastModifiedDate: 2024-09-06T21:15:11.947Z 
 │                        ╰ [2] ╭ VulnerabilityID : CVE-2024-34158 
 │                              ├ PkgName         : stdlib 
 │                              ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.22.6 
@@ -7909,45 +8019,30 @@
 │                              ├ DataSource       ╭ ID  : govulndb 
 │                              │                  ├ Name: The Go Vulnerability Database 
 │                              │                  ╰ URL : https://pkg.go.dev/vuln/ 
+│                              ├ Title           : go/build/constraint: golang: Calling Parse on a "//
+│                              │                   +build" build tag line with deeply nested expressions can
+│                              │                   cause a panic due to stack exhaustion 
 │                              ├ Description     : Calling Parse on a "// +build" build tag line with
 │                              │                   deeply nested expressions can cause a panic due to stack
 │                              │                   exhaustion. 
-│                              ├ Severity        : UNKNOWN 
-│                              ├ References       ╭ [0]: https://go.dev/cl/611240 
-│                              │                  ├ [1]: https://go.dev/issue/69141 
-│                              │                  ├ [2]: https://groups.google.com/g/golang-dev/c/S9POB9NCTdk 
-│                              │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2024-3107 
+│                              ├ Severity        : MEDIUM 
+│                              ├ VendorSeverity   ─ redhat: 2 
+│                              ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:
+│                              │                           │           N/I:N/A:H 
+│                              │                           ╰ V3Score : 5.9 
+│                              ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-34158 
+│                              │                  ├ [1]: https://go.dev/cl/611240 
+│                              │                  ├ [2]: https://go.dev/issue/69141 
+│                              │                  ├ [3]: https://groups.google.com/g/golang-dev/c/S9POB9NCTdk 
+│                              │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-34158 
+│                              │                  ├ [5]: https://pkg.go.dev/vuln/GO-2024-3107 
+│                              │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-34158 
 │                              ├ PublishedDate   : 2024-09-06T21:15:12.083Z 
 │                              ╰ LastModifiedDate: 2024-09-06T21:15:12.083Z 
 ├ [6]  ╭ Target         : usr/bin/kubectl 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : gobinary 
-│      ╰ Vulnerabilities ╭ [0] ╭ VulnerabilityID : CVE-2024-34155 
-│                        │     ├ PkgName         : stdlib 
-│                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.22.5 
-│                        │     │                  ╰ UID : 3bb01ece7d33d04b 
-│                        │     ├ InstalledVersion: 1.22.5 
-│                        │     ├ FixedVersion    : 1.22.7, 1.23.1 
-│                        │     ├ Status          : fixed 
-│                        │     ├ Layer            ╭ Digest: sha256:7b1872648c8db9c5992f20797ece855d76f3f72
-│                        │     │                  │         de05489a7a8778c09c2ec8f1c 
-│                        │     │                  ╰ DiffID: sha256:64493e85baa4a08956c595b833fb92bf0a2b5cc
-│                        │     │                            b1ff8f6f4307ce71d8fc473f0 
-│                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-34155 
-│                        │     ├ DataSource       ╭ ID  : govulndb 
-│                        │     │                  ├ Name: The Go Vulnerability Database 
-│                        │     │                  ╰ URL : https://pkg.go.dev/vuln/ 
-│                        │     ├ Description     : Calling any of the Parse functions on Go source code
-│                        │     │                   which contains deeply nested literals can cause a panic due
-│                        │     │                   to stack exhaustion. 
-│                        │     ├ Severity        : UNKNOWN 
-│                        │     ├ References       ╭ [0]: https://go.dev/cl/611238 
-│                        │     │                  ├ [1]: https://go.dev/issue/69138 
-│                        │     │                  ├ [2]: https://groups.google.com/g/golang-dev/c/S9POB9NCTdk 
-│                        │     │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2024-3105 
-│                        │     ├ PublishedDate   : 2024-09-06T21:15:11.947Z 
-│                        │     ╰ LastModifiedDate: 2024-09-06T21:15:11.947Z 
-│                        ├ [1] ╭ VulnerabilityID : CVE-2024-34156 
+│      ╰ Vulnerabilities ╭ [0] ╭ VulnerabilityID : CVE-2024-34156 
 │                        │     ├ PkgName         : stdlib 
 │                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.22.5 
 │                        │     │                  ╰ UID : 3bb01ece7d33d04b 
@@ -7962,16 +8057,61 @@
 │                        │     ├ DataSource       ╭ ID  : govulndb 
 │                        │     │                  ├ Name: The Go Vulnerability Database 
 │                        │     │                  ╰ URL : https://pkg.go.dev/vuln/ 
+│                        │     ├ Title           : encoding/gob: Calling Decoder.Decode on a message which
+│                        │     │                    contains deeply nested structures can cause a panic due to
+│                        │     │                   stack exhaustion 
 │                        │     ├ Description     : Calling Decoder.Decode on a message which contains
 │                        │     │                   deeply nested structures can cause a panic due to stack
 │                        │     │                   exhaustion. This is a follow-up to CVE-2022-30635. 
-│                        │     ├ Severity        : UNKNOWN 
-│                        │     ├ References       ╭ [0]: https://go.dev/cl/611239 
-│                        │     │                  ├ [1]: https://go.dev/issue/69139 
-│                        │     │                  ├ [2]: https://groups.google.com/g/golang-dev/c/S9POB9NCTdk 
-│                        │     │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2024-3106 
+│                        │     ├ Severity        : HIGH 
+│                        │     ├ VendorSeverity   ─ redhat: 3 
+│                        │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
+│                        │     │                           │           N/I:N/A:H 
+│                        │     │                           ╰ V3Score : 7.5 
+│                        │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-34156 
+│                        │     │                  ├ [1]: https://go.dev/cl/611239 
+│                        │     │                  ├ [2]: https://go.dev/issue/69139 
+│                        │     │                  ├ [3]: https://groups.google.com/g/golang-dev/c/S9POB9NCTdk 
+│                        │     │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-34156 
+│                        │     │                  ├ [5]: https://pkg.go.dev/vuln/GO-2024-3106 
+│                        │     │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-34156 
 │                        │     ├ PublishedDate   : 2024-09-06T21:15:12.02Z 
 │                        │     ╰ LastModifiedDate: 2024-09-06T21:15:12.02Z 
+│                        ├ [1] ╭ VulnerabilityID : CVE-2024-34155 
+│                        │     ├ PkgName         : stdlib 
+│                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.22.5 
+│                        │     │                  ╰ UID : 3bb01ece7d33d04b 
+│                        │     ├ InstalledVersion: 1.22.5 
+│                        │     ├ FixedVersion    : 1.22.7, 1.23.1 
+│                        │     ├ Status          : fixed 
+│                        │     ├ Layer            ╭ Digest: sha256:7b1872648c8db9c5992f20797ece855d76f3f72
+│                        │     │                  │         de05489a7a8778c09c2ec8f1c 
+│                        │     │                  ╰ DiffID: sha256:64493e85baa4a08956c595b833fb92bf0a2b5cc
+│                        │     │                            b1ff8f6f4307ce71d8fc473f0 
+│                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-34155 
+│                        │     ├ DataSource       ╭ ID  : govulndb 
+│                        │     │                  ├ Name: The Go Vulnerability Database 
+│                        │     │                  ╰ URL : https://pkg.go.dev/vuln/ 
+│                        │     ├ Title           : go/parser: Calling any of the Parse functions
+│                        │     │                   containing deeply nested literals can cause a panic/stack
+│                        │     │                   exhaustion 
+│                        │     ├ Description     : Calling any of the Parse functions on Go source code
+│                        │     │                   which contains deeply nested literals can cause a panic due
+│                        │     │                   to stack exhaustion. 
+│                        │     ├ Severity        : MEDIUM 
+│                        │     ├ VendorSeverity   ─ redhat: 2 
+│                        │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:
+│                        │     │                           │           N/I:N/A:H 
+│                        │     │                           ╰ V3Score : 5.9 
+│                        │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-34155 
+│                        │     │                  ├ [1]: https://go.dev/cl/611238 
+│                        │     │                  ├ [2]: https://go.dev/issue/69138 
+│                        │     │                  ├ [3]: https://groups.google.com/g/golang-dev/c/S9POB9NCTdk 
+│                        │     │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-34155 
+│                        │     │                  ├ [5]: https://pkg.go.dev/vuln/GO-2024-3105 
+│                        │     │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-34155 
+│                        │     ├ PublishedDate   : 2024-09-06T21:15:11.947Z 
+│                        │     ╰ LastModifiedDate: 2024-09-06T21:15:11.947Z 
 │                        ╰ [2] ╭ VulnerabilityID : CVE-2024-34158 
 │                              ├ PkgName         : stdlib 
 │                              ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.22.5 
@@ -7987,45 +8127,30 @@
 │                              ├ DataSource       ╭ ID  : govulndb 
 │                              │                  ├ Name: The Go Vulnerability Database 
 │                              │                  ╰ URL : https://pkg.go.dev/vuln/ 
+│                              ├ Title           : go/build/constraint: golang: Calling Parse on a "//
+│                              │                   +build" build tag line with deeply nested expressions can
+│                              │                   cause a panic due to stack exhaustion 
 │                              ├ Description     : Calling Parse on a "// +build" build tag line with
 │                              │                   deeply nested expressions can cause a panic due to stack
 │                              │                   exhaustion. 
-│                              ├ Severity        : UNKNOWN 
-│                              ├ References       ╭ [0]: https://go.dev/cl/611240 
-│                              │                  ├ [1]: https://go.dev/issue/69141 
-│                              │                  ├ [2]: https://groups.google.com/g/golang-dev/c/S9POB9NCTdk 
-│                              │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2024-3107 
+│                              ├ Severity        : MEDIUM 
+│                              ├ VendorSeverity   ─ redhat: 2 
+│                              ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:
+│                              │                           │           N/I:N/A:H 
+│                              │                           ╰ V3Score : 5.9 
+│                              ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-34158 
+│                              │                  ├ [1]: https://go.dev/cl/611240 
+│                              │                  ├ [2]: https://go.dev/issue/69141 
+│                              │                  ├ [3]: https://groups.google.com/g/golang-dev/c/S9POB9NCTdk 
+│                              │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-34158 
+│                              │                  ├ [5]: https://pkg.go.dev/vuln/GO-2024-3107 
+│                              │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-34158 
 │                              ├ PublishedDate   : 2024-09-06T21:15:12.083Z 
 │                              ╰ LastModifiedDate: 2024-09-06T21:15:12.083Z 
 ├ [7]  ╭ Target         : usr/bin/mc 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : gobinary 
-│      ╰ Vulnerabilities ╭ [0] ╭ VulnerabilityID : CVE-2024-34155 
-│                        │     ├ PkgName         : stdlib 
-│                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.22.6 
-│                        │     │                  ╰ UID : 2d3ddb96c250098c 
-│                        │     ├ InstalledVersion: 1.22.6 
-│                        │     ├ FixedVersion    : 1.22.7, 1.23.1 
-│                        │     ├ Status          : fixed 
-│                        │     ├ Layer            ╭ Digest: sha256:7b1872648c8db9c5992f20797ece855d76f3f72
-│                        │     │                  │         de05489a7a8778c09c2ec8f1c 
-│                        │     │                  ╰ DiffID: sha256:64493e85baa4a08956c595b833fb92bf0a2b5cc
-│                        │     │                            b1ff8f6f4307ce71d8fc473f0 
-│                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-34155 
-│                        │     ├ DataSource       ╭ ID  : govulndb 
-│                        │     │                  ├ Name: The Go Vulnerability Database 
-│                        │     │                  ╰ URL : https://pkg.go.dev/vuln/ 
-│                        │     ├ Description     : Calling any of the Parse functions on Go source code
-│                        │     │                   which contains deeply nested literals can cause a panic due
-│                        │     │                   to stack exhaustion. 
-│                        │     ├ Severity        : UNKNOWN 
-│                        │     ├ References       ╭ [0]: https://go.dev/cl/611238 
-│                        │     │                  ├ [1]: https://go.dev/issue/69138 
-│                        │     │                  ├ [2]: https://groups.google.com/g/golang-dev/c/S9POB9NCTdk 
-│                        │     │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2024-3105 
-│                        │     ├ PublishedDate   : 2024-09-06T21:15:11.947Z 
-│                        │     ╰ LastModifiedDate: 2024-09-06T21:15:11.947Z 
-│                        ├ [1] ╭ VulnerabilityID : CVE-2024-34156 
+│      ╰ Vulnerabilities ╭ [0] ╭ VulnerabilityID : CVE-2024-34156 
 │                        │     ├ PkgName         : stdlib 
 │                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.22.6 
 │                        │     │                  ╰ UID : 2d3ddb96c250098c 
@@ -8040,16 +8165,61 @@
 │                        │     ├ DataSource       ╭ ID  : govulndb 
 │                        │     │                  ├ Name: The Go Vulnerability Database 
 │                        │     │                  ╰ URL : https://pkg.go.dev/vuln/ 
+│                        │     ├ Title           : encoding/gob: Calling Decoder.Decode on a message which
+│                        │     │                    contains deeply nested structures can cause a panic due to
+│                        │     │                   stack exhaustion 
 │                        │     ├ Description     : Calling Decoder.Decode on a message which contains
 │                        │     │                   deeply nested structures can cause a panic due to stack
 │                        │     │                   exhaustion. This is a follow-up to CVE-2022-30635. 
-│                        │     ├ Severity        : UNKNOWN 
-│                        │     ├ References       ╭ [0]: https://go.dev/cl/611239 
-│                        │     │                  ├ [1]: https://go.dev/issue/69139 
-│                        │     │                  ├ [2]: https://groups.google.com/g/golang-dev/c/S9POB9NCTdk 
-│                        │     │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2024-3106 
+│                        │     ├ Severity        : HIGH 
+│                        │     ├ VendorSeverity   ─ redhat: 3 
+│                        │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
+│                        │     │                           │           N/I:N/A:H 
+│                        │     │                           ╰ V3Score : 7.5 
+│                        │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-34156 
+│                        │     │                  ├ [1]: https://go.dev/cl/611239 
+│                        │     │                  ├ [2]: https://go.dev/issue/69139 
+│                        │     │                  ├ [3]: https://groups.google.com/g/golang-dev/c/S9POB9NCTdk 
+│                        │     │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-34156 
+│                        │     │                  ├ [5]: https://pkg.go.dev/vuln/GO-2024-3106 
+│                        │     │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-34156 
 │                        │     ├ PublishedDate   : 2024-09-06T21:15:12.02Z 
 │                        │     ╰ LastModifiedDate: 2024-09-06T21:15:12.02Z 
+│                        ├ [1] ╭ VulnerabilityID : CVE-2024-34155 
+│                        │     ├ PkgName         : stdlib 
+│                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.22.6 
+│                        │     │                  ╰ UID : 2d3ddb96c250098c 
+│                        │     ├ InstalledVersion: 1.22.6 
+│                        │     ├ FixedVersion    : 1.22.7, 1.23.1 
+│                        │     ├ Status          : fixed 
+│                        │     ├ Layer            ╭ Digest: sha256:7b1872648c8db9c5992f20797ece855d76f3f72
+│                        │     │                  │         de05489a7a8778c09c2ec8f1c 
+│                        │     │                  ╰ DiffID: sha256:64493e85baa4a08956c595b833fb92bf0a2b5cc
+│                        │     │                            b1ff8f6f4307ce71d8fc473f0 
+│                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-34155 
+│                        │     ├ DataSource       ╭ ID  : govulndb 
+│                        │     │                  ├ Name: The Go Vulnerability Database 
+│                        │     │                  ╰ URL : https://pkg.go.dev/vuln/ 
+│                        │     ├ Title           : go/parser: Calling any of the Parse functions
+│                        │     │                   containing deeply nested literals can cause a panic/stack
+│                        │     │                   exhaustion 
+│                        │     ├ Description     : Calling any of the Parse functions on Go source code
+│                        │     │                   which contains deeply nested literals can cause a panic due
+│                        │     │                   to stack exhaustion. 
+│                        │     ├ Severity        : MEDIUM 
+│                        │     ├ VendorSeverity   ─ redhat: 2 
+│                        │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:
+│                        │     │                           │           N/I:N/A:H 
+│                        │     │                           ╰ V3Score : 5.9 
+│                        │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-34155 
+│                        │     │                  ├ [1]: https://go.dev/cl/611238 
+│                        │     │                  ├ [2]: https://go.dev/issue/69138 
+│                        │     │                  ├ [3]: https://groups.google.com/g/golang-dev/c/S9POB9NCTdk 
+│                        │     │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-34155 
+│                        │     │                  ├ [5]: https://pkg.go.dev/vuln/GO-2024-3105 
+│                        │     │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-34155 
+│                        │     ├ PublishedDate   : 2024-09-06T21:15:11.947Z 
+│                        │     ╰ LastModifiedDate: 2024-09-06T21:15:11.947Z 
 │                        ╰ [2] ╭ VulnerabilityID : CVE-2024-34158 
 │                              ├ PkgName         : stdlib 
 │                              ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.22.6 
@@ -8065,14 +8235,24 @@
 │                              ├ DataSource       ╭ ID  : govulndb 
 │                              │                  ├ Name: The Go Vulnerability Database 
 │                              │                  ╰ URL : https://pkg.go.dev/vuln/ 
+│                              ├ Title           : go/build/constraint: golang: Calling Parse on a "//
+│                              │                   +build" build tag line with deeply nested expressions can
+│                              │                   cause a panic due to stack exhaustion 
 │                              ├ Description     : Calling Parse on a "// +build" build tag line with
 │                              │                   deeply nested expressions can cause a panic due to stack
 │                              │                   exhaustion. 
-│                              ├ Severity        : UNKNOWN 
-│                              ├ References       ╭ [0]: https://go.dev/cl/611240 
-│                              │                  ├ [1]: https://go.dev/issue/69141 
-│                              │                  ├ [2]: https://groups.google.com/g/golang-dev/c/S9POB9NCTdk 
-│                              │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2024-3107 
+│                              ├ Severity        : MEDIUM 
+│                              ├ VendorSeverity   ─ redhat: 2 
+│                              ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:
+│                              │                           │           N/I:N/A:H 
+│                              │                           ╰ V3Score : 5.9 
+│                              ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-34158 
+│                              │                  ├ [1]: https://go.dev/cl/611240 
+│                              │                  ├ [2]: https://go.dev/issue/69141 
+│                              │                  ├ [3]: https://groups.google.com/g/golang-dev/c/S9POB9NCTdk 
+│                              │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-34158 
+│                              │                  ├ [5]: https://pkg.go.dev/vuln/GO-2024-3107 
+│                              │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-34158 
 │                              ├ PublishedDate   : 2024-09-06T21:15:12.083Z 
 │                              ╰ LastModifiedDate: 2024-09-06T21:15:12.083Z 
 ├ [8]  ╭ Target         : usr/local/bin/k3d 
@@ -8218,32 +8398,7 @@
 │                        │                        │      c0f3b7a7786754d1fe05264c3021eb 
 │                        │                        ╰ [2]: https://github.com/grpc/grpc-go/security/advisori
 │                        │                               es/GHSA-xr7q-jx4m-x55m 
-│                        ├ [2] ╭ VulnerabilityID : CVE-2024-34155 
-│                        │     ├ PkgName         : stdlib 
-│                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.22.5 
-│                        │     │                  ╰ UID : 72ac8f1f11422dc7 
-│                        │     ├ InstalledVersion: 1.22.5 
-│                        │     ├ FixedVersion    : 1.22.7, 1.23.1 
-│                        │     ├ Status          : fixed 
-│                        │     ├ Layer            ╭ Digest: sha256:7b1872648c8db9c5992f20797ece855d76f3f72
-│                        │     │                  │         de05489a7a8778c09c2ec8f1c 
-│                        │     │                  ╰ DiffID: sha256:64493e85baa4a08956c595b833fb92bf0a2b5cc
-│                        │     │                            b1ff8f6f4307ce71d8fc473f0 
-│                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-34155 
-│                        │     ├ DataSource       ╭ ID  : govulndb 
-│                        │     │                  ├ Name: The Go Vulnerability Database 
-│                        │     │                  ╰ URL : https://pkg.go.dev/vuln/ 
-│                        │     ├ Description     : Calling any of the Parse functions on Go source code
-│                        │     │                   which contains deeply nested literals can cause a panic due
-│                        │     │                   to stack exhaustion. 
-│                        │     ├ Severity        : UNKNOWN 
-│                        │     ├ References       ╭ [0]: https://go.dev/cl/611238 
-│                        │     │                  ├ [1]: https://go.dev/issue/69138 
-│                        │     │                  ├ [2]: https://groups.google.com/g/golang-dev/c/S9POB9NCTdk 
-│                        │     │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2024-3105 
-│                        │     ├ PublishedDate   : 2024-09-06T21:15:11.947Z 
-│                        │     ╰ LastModifiedDate: 2024-09-06T21:15:11.947Z 
-│                        ├ [3] ╭ VulnerabilityID : CVE-2024-34156 
+│                        ├ [2] ╭ VulnerabilityID : CVE-2024-34156 
 │                        │     ├ PkgName         : stdlib 
 │                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.22.5 
 │                        │     │                  ╰ UID : 72ac8f1f11422dc7 
@@ -8258,16 +8413,61 @@
 │                        │     ├ DataSource       ╭ ID  : govulndb 
 │                        │     │                  ├ Name: The Go Vulnerability Database 
 │                        │     │                  ╰ URL : https://pkg.go.dev/vuln/ 
+│                        │     ├ Title           : encoding/gob: Calling Decoder.Decode on a message which
+│                        │     │                    contains deeply nested structures can cause a panic due to
+│                        │     │                   stack exhaustion 
 │                        │     ├ Description     : Calling Decoder.Decode on a message which contains
 │                        │     │                   deeply nested structures can cause a panic due to stack
 │                        │     │                   exhaustion. This is a follow-up to CVE-2022-30635. 
-│                        │     ├ Severity        : UNKNOWN 
-│                        │     ├ References       ╭ [0]: https://go.dev/cl/611239 
-│                        │     │                  ├ [1]: https://go.dev/issue/69139 
-│                        │     │                  ├ [2]: https://groups.google.com/g/golang-dev/c/S9POB9NCTdk 
-│                        │     │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2024-3106 
+│                        │     ├ Severity        : HIGH 
+│                        │     ├ VendorSeverity   ─ redhat: 3 
+│                        │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
+│                        │     │                           │           N/I:N/A:H 
+│                        │     │                           ╰ V3Score : 7.5 
+│                        │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-34156 
+│                        │     │                  ├ [1]: https://go.dev/cl/611239 
+│                        │     │                  ├ [2]: https://go.dev/issue/69139 
+│                        │     │                  ├ [3]: https://groups.google.com/g/golang-dev/c/S9POB9NCTdk 
+│                        │     │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-34156 
+│                        │     │                  ├ [5]: https://pkg.go.dev/vuln/GO-2024-3106 
+│                        │     │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-34156 
 │                        │     ├ PublishedDate   : 2024-09-06T21:15:12.02Z 
 │                        │     ╰ LastModifiedDate: 2024-09-06T21:15:12.02Z 
+│                        ├ [3] ╭ VulnerabilityID : CVE-2024-34155 
+│                        │     ├ PkgName         : stdlib 
+│                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.22.5 
+│                        │     │                  ╰ UID : 72ac8f1f11422dc7 
+│                        │     ├ InstalledVersion: 1.22.5 
+│                        │     ├ FixedVersion    : 1.22.7, 1.23.1 
+│                        │     ├ Status          : fixed 
+│                        │     ├ Layer            ╭ Digest: sha256:7b1872648c8db9c5992f20797ece855d76f3f72
+│                        │     │                  │         de05489a7a8778c09c2ec8f1c 
+│                        │     │                  ╰ DiffID: sha256:64493e85baa4a08956c595b833fb92bf0a2b5cc
+│                        │     │                            b1ff8f6f4307ce71d8fc473f0 
+│                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-34155 
+│                        │     ├ DataSource       ╭ ID  : govulndb 
+│                        │     │                  ├ Name: The Go Vulnerability Database 
+│                        │     │                  ╰ URL : https://pkg.go.dev/vuln/ 
+│                        │     ├ Title           : go/parser: Calling any of the Parse functions
+│                        │     │                   containing deeply nested literals can cause a panic/stack
+│                        │     │                   exhaustion 
+│                        │     ├ Description     : Calling any of the Parse functions on Go source code
+│                        │     │                   which contains deeply nested literals can cause a panic due
+│                        │     │                   to stack exhaustion. 
+│                        │     ├ Severity        : MEDIUM 
+│                        │     ├ VendorSeverity   ─ redhat: 2 
+│                        │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:
+│                        │     │                           │           N/I:N/A:H 
+│                        │     │                           ╰ V3Score : 5.9 
+│                        │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-34155 
+│                        │     │                  ├ [1]: https://go.dev/cl/611238 
+│                        │     │                  ├ [2]: https://go.dev/issue/69138 
+│                        │     │                  ├ [3]: https://groups.google.com/g/golang-dev/c/S9POB9NCTdk 
+│                        │     │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-34155 
+│                        │     │                  ├ [5]: https://pkg.go.dev/vuln/GO-2024-3105 
+│                        │     │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-34155 
+│                        │     ├ PublishedDate   : 2024-09-06T21:15:11.947Z 
+│                        │     ╰ LastModifiedDate: 2024-09-06T21:15:11.947Z 
 │                        ╰ [4] ╭ VulnerabilityID : CVE-2024-34158 
 │                              ├ PkgName         : stdlib 
 │                              ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.22.5 
@@ -8283,75 +8483,27 @@
 │                              ├ DataSource       ╭ ID  : govulndb 
 │                              │                  ├ Name: The Go Vulnerability Database 
 │                              │                  ╰ URL : https://pkg.go.dev/vuln/ 
+│                              ├ Title           : go/build/constraint: golang: Calling Parse on a "//
+│                              │                   +build" build tag line with deeply nested expressions can
+│                              │                   cause a panic due to stack exhaustion 
 │                              ├ Description     : Calling Parse on a "// +build" build tag line with
 │                              │                   deeply nested expressions can cause a panic due to stack
 │                              │                   exhaustion. 
-│                              ├ Severity        : UNKNOWN 
-│                              ├ References       ╭ [0]: https://go.dev/cl/611240 
-│                              │                  ├ [1]: https://go.dev/issue/69141 
-│                              │                  ├ [2]: https://groups.google.com/g/golang-dev/c/S9POB9NCTdk 
-│                              │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2024-3107 
+│                              ├ Severity        : MEDIUM 
+│                              ├ VendorSeverity   ─ redhat: 2 
+│                              ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:
+│                              │                           │           N/I:N/A:H 
+│                              │                           ╰ V3Score : 5.9 
+│                              ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-34158 
+│                              │                  ├ [1]: https://go.dev/cl/611240 
+│                              │                  ├ [2]: https://go.dev/issue/69141 
+│                              │                  ├ [3]: https://groups.google.com/g/golang-dev/c/S9POB9NCTdk 
+│                              │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-34158 
+│                              │                  ├ [5]: https://pkg.go.dev/vuln/GO-2024-3107 
+│                              │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-34158 
 │                              ├ PublishedDate   : 2024-09-06T21:15:12.083Z 
 │                              ╰ LastModifiedDate: 2024-09-06T21:15:12.083Z 
-├ [9]  ╭ Target : /etc/ssh/ssh_host_ecdsa_key 
-│      ├ Class  : secret 
-│      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
-│                      ├ Category : AsymmetricPrivateKey 
-│                      ├ Severity : HIGH 
-│                      ├ Title    : Asymmetric Private Key 
-│                      ├ StartLine: 1 
-│                      ├ EndLine  : 1 
-│                      ├ Code      ─ Lines ╭ [0] ╭ Number     : 1 
-│                      │                   │     ├ Content    : BEGIN OPENSSH PRIVATE
-│                      │                   │     │              KEY-----***************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              *****************************-----END OPENSSH
-│                      │                   │     │              PRI 
-│                      │                   │     ├ IsCause    : true 
-│                      │                   │     ├ Annotation :  
-│                      │                   │     ├ Truncated  : false 
-│                      │                   │     ├ Highlighted: BEGIN OPENSSH PRIVATE
-│                      │                   │     │              KEY-----***************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              *****************************-----END OPENSSH
-│                      │                   │     │              PRI 
-│                      │                   │     ├ FirstCause : true 
-│                      │                   │     ╰ LastCause  : true 
-│                      │                   ╰ [1] ╭ Number    : 2 
-│                      │                         ├ Content   :  
-│                      │                         ├ IsCause   : false 
-│                      │                         ├ Annotation:  
-│                      │                         ├ Truncated : false 
-│                      │                         ├ FirstCause: false 
-│                      │                         ╰ LastCause : false 
-│                      ├ Match    : BEGIN OPENSSH PRIVATE
-│                      │            KEY-----*******************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            **-----END OPENSSH PRI 
-│                      ╰ Layer     ╭ Digest   : sha256:7b1872648c8db9c5992f20797ece855d76f3f72de05489a7a87
-│                                  │            78c09c2ec8f1c 
-│                                  ├ DiffID   : sha256:64493e85baa4a08956c595b833fb92bf0a2b5ccb1ff8f6f4307
-│                                  │            ce71d8fc473f0 
-│                                  ╰ CreatedBy: COPY / / # buildkit 
-├ [10] ╭ Target : /etc/ssh/ssh_host_ed25519_key 
+├ [9]  ╭ Target : /etc/ssh/ssh_host_ed25519_key 
 │      ├ Class  : secret 
 │      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
 │                      ├ Category : AsymmetricPrivateKey 
@@ -8404,7 +8556,181 @@
 │                                  ├ DiffID   : sha256:64493e85baa4a08956c595b833fb92bf0a2b5ccb1ff8f6f4307
 │                                  │            ce71d8fc473f0 
 │                                  ╰ CreatedBy: COPY / / # buildkit 
-╰ [11] ╭ Target : /etc/ssh/ssh_host_rsa_key 
+├ [10] ╭ Target : /etc/ssh/ssh_host_rsa_key 
+│      ├ Class  : secret 
+│      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
+│                      ├ Category : AsymmetricPrivateKey 
+│                      ├ Severity : HIGH 
+│                      ├ Title    : Asymmetric Private Key 
+│                      ├ StartLine: 1 
+│                      ├ EndLine  : 1 
+│                      ├ Code      ─ Lines ╭ [0] ╭ Number     : 1 
+│                      │                   │     ├ Content    : BEGIN OPENSSH PRIVATE
+│                      │                   │     │              KEY-----***************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********-----END OPENSSH PRI 
+│                      │                   │     ├ IsCause    : true 
+│                      │                   │     ├ Annotation :  
+│                      │                   │     ├ Truncated  : false 
+│                      │                   │     ├ Highlighted: BEGIN OPENSSH PRIVATE
+│                      │                   │     │              KEY-----***************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********-----END OPENSSH PRI 
+│                      │                   │     ├ FirstCause : true 
+│                      │                   │     ╰ LastCause  : true 
+│                      │                   ╰ [1] ╭ Number    : 2 
+│                      │                         ├ Content   :  
+│                      │                         ├ IsCause   : false 
+│                      │                         ├ Annotation:  
+│                      │                         ├ Truncated : false 
+│                      │                         ├ FirstCause: false 
+│                      │                         ╰ LastCause : false 
+│                      ├ Match    : BEGIN OPENSSH PRIVATE
+│                      │            KEY-----*******************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            **************************************************************************-
+│                      │            ----END OPENSSH PRI 
+│                      ╰ Layer     ╭ Digest   : sha256:7b1872648c8db9c5992f20797ece855d76f3f72de05489a7a87
+│                                  │            78c09c2ec8f1c 
+│                                  ├ DiffID   : sha256:64493e85baa4a08956c595b833fb92bf0a2b5ccb1ff8f6f4307
+│                                  │            ce71d8fc473f0 
+│                                  ╰ CreatedBy: COPY / / # buildkit 
+╰ [11] ╭ Target : /etc/ssh/ssh_host_ecdsa_key 
        ├ Class  : secret 
        ╰ Secrets ─ [0] ╭ RuleID   : private-key 
                        ├ Category : AsymmetricPrivateKey 
@@ -8423,52 +8749,8 @@
                        │                   │     │              ***********************************************
                        │                   │     │              ***********************************************
                        │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********-----END OPENSSH PRI 
+                       │                   │     │              *****************************-----END OPENSSH
+                       │                   │     │              PRI 
                        │                   │     ├ IsCause    : true 
                        │                   │     ├ Annotation :  
                        │                   │     ├ Truncated  : false 
@@ -8482,52 +8764,8 @@
                        │                   │     │              ***********************************************
                        │                   │     │              ***********************************************
                        │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********-----END OPENSSH PRI 
+                       │                   │     │              *****************************-----END OPENSSH
+                       │                   │     │              PRI 
                        │                   │     ├ FirstCause : true 
                        │                   │     ╰ LastCause  : true 
                        │                   ╰ [1] ╭ Number    : 2 
@@ -8544,35 +8782,7 @@
                        │            ***************************************************************************
                        │            ***************************************************************************
                        │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            **************************************************************************-
-                       │            ----END OPENSSH PRI 
+                       │            **-----END OPENSSH PRI 
                        ╰ Layer     ╭ Digest   : sha256:7b1872648c8db9c5992f20797ece855d76f3f72de05489a7a87
                                    │            78c09c2ec8f1c 
                                    ├ DiffID   : sha256:64493e85baa4a08956c595b833fb92bf0a2b5ccb1ff8f6f4307
