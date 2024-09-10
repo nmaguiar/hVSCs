@@ -3332,7 +3332,8 @@
 │                        │      │                  │       md64&distro=ubuntu-22.04 
 │                        │      │                  ╰ UID : 18abaff0d350634a 
 │                        │      ├ InstalledVersion: 4.3.0-6ubuntu0.9 
-│                        │      ├ Status          : affected 
+│                        │      ├ FixedVersion    : 4.3.0-6ubuntu0.10 
+│                        │      ├ Status          : fixed 
 │                        │      ├ Layer            ╭ Digest: sha256:eb4108e75dc6f8e6fc5a5e04197674c0d9a1dd
 │                        │      │                  │         13ec796f87aff09fd0a4bbd6ca 
 │                        │      │                  ╰ DiffID: sha256:853b5d95f07f5f2e1b0bf3839c45f15d937b8d
@@ -3370,7 +3371,8 @@
 │                        │      │                  ├ [3]: https://gitlab.com/libtiff/libtiff/-/merge_reque
 │                        │      │                  │      sts/559 
 │                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-7006 
-│                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-7006 
+│                        │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-6997-1 
+│                        │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-7006 
 │                        │      ├ PublishedDate   : 2024-08-12T13:38:40.577Z 
 │                        │      ╰ LastModifiedDate: 2024-09-06T17:15:17.387Z 
 │                        ├ [62] ╭ VulnerabilityID : CVE-2024-6716 
@@ -5266,7 +5268,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ amazon     : 3 
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ ghsa       : 2 
@@ -5798,49 +5800,50 @@
 │                        │      │                  ├ [211]: https://ubuntu.com/security/notices/USN-6505-1 
 │                        │      │                  ├ [212]: https://ubuntu.com/security/notices/USN-6574-1 
 │                        │      │                  ├ [213]: https://ubuntu.com/security/notices/USN-6754-1 
-│                        │      │                  ├ [214]: https://www.bleepingcomputer.com/news/security
-│                        │      │                  │        /new-http-2-rapid-reset-zero-day-attack-breaks-ddos
-│                        │      │                  │        -records 
+│                        │      │                  ├ [214]: https://ubuntu.com/security/notices/USN-6994-1 
 │                        │      │                  ├ [215]: https://www.bleepingcomputer.com/news/security
 │                        │      │                  │        /new-http-2-rapid-reset-zero-day-attack-breaks-ddos
+│                        │      │                  │        -records 
+│                        │      │                  ├ [216]: https://www.bleepingcomputer.com/news/security
+│                        │      │                  │        /new-http-2-rapid-reset-zero-day-attack-breaks-ddos
 │                        │      │                  │        -records/ 
-│                        │      │                  ├ [216]: https://www.cisa.gov/known-exploited-vulnerabi
+│                        │      │                  ├ [217]: https://www.cisa.gov/known-exploited-vulnerabi
 │                        │      │                  │        lities-catalog 
-│                        │      │                  ├ [217]: https://www.cisa.gov/news-events/alerts/2023/1
+│                        │      │                  ├ [218]: https://www.cisa.gov/news-events/alerts/2023/1
 │                        │      │                  │        0/10/http2-rapid-reset-vulnerability-cve-2023-44487
 │                        │      │                  │         
-│                        │      │                  ├ [218]: https://www.cve.org/CVERecord?id=CVE-2023-44487 
-│                        │      │                  ├ [219]: https://www.darkreading.com/cloud/internet-wid
+│                        │      │                  ├ [219]: https://www.cve.org/CVERecord?id=CVE-2023-44487 
+│                        │      │                  ├ [220]: https://www.darkreading.com/cloud/internet-wid
 │                        │      │                  │        e-zero-day-bug-fuels-largest-ever-ddos-event
 │                        │      │                  │        [m 
-│                        │      │                  ├ [220]: https://www.debian.org/security/2023/dsa-5521 
-│                        │      │                  ├ [221]: https://www.debian.org/security/2023/dsa-5522 
-│                        │      │                  ├ [222]: https://www.debian.org/security/2023/dsa-5540 
-│                        │      │                  ├ [223]: https://www.debian.org/security/2023/dsa-5549 
-│                        │      │                  ├ [224]: https://www.debian.org/security/2023/dsa-5558 
-│                        │      │                  ├ [225]: https://www.debian.org/security/2023/dsa-5570 
-│                        │      │                  ├ [226]: https://www.eclipse.org/lists/jetty-announce/m
+│                        │      │                  ├ [221]: https://www.debian.org/security/2023/dsa-5521 
+│                        │      │                  ├ [222]: https://www.debian.org/security/2023/dsa-5522 
+│                        │      │                  ├ [223]: https://www.debian.org/security/2023/dsa-5540 
+│                        │      │                  ├ [224]: https://www.debian.org/security/2023/dsa-5549 
+│                        │      │                  ├ [225]: https://www.debian.org/security/2023/dsa-5558 
+│                        │      │                  ├ [226]: https://www.debian.org/security/2023/dsa-5570 
+│                        │      │                  ├ [227]: https://www.eclipse.org/lists/jetty-announce/m
 │                        │      │                  │        sg00181.html 
-│                        │      │                  ├ [227]: https://www.haproxy.com/blog/haproxy-is-not-af
+│                        │      │                  ├ [228]: https://www.haproxy.com/blog/haproxy-is-not-af
 │                        │      │                  │        fected-by-the-http-2-rapid-reset-attack-cve-2023-44
 │                        │      │                  │        487 
-│                        │      │                  ├ [228]: https://www.mail-archive.com/haproxy@formilux.
+│                        │      │                  ├ [229]: https://www.mail-archive.com/haproxy@formilux.
 │                        │      │                  │        org/msg44134.html 
-│                        │      │                  ├ [229]: https://www.netlify.com/blog/netlify-successfu
-│                        │      │                  │        lly-mitigates-cve-2023-44487 
 │                        │      │                  ├ [230]: https://www.netlify.com/blog/netlify-successfu
+│                        │      │                  │        lly-mitigates-cve-2023-44487 
+│                        │      │                  ├ [231]: https://www.netlify.com/blog/netlify-successfu
 │                        │      │                  │        lly-mitigates-cve-2023-44487/ 
-│                        │      │                  ├ [231]: https://www.nginx.com/blog/http-2-rapid-reset-
-│                        │      │                  │        attack-impacting-f5-nginx-products 
 │                        │      │                  ├ [232]: https://www.nginx.com/blog/http-2-rapid-reset-
+│                        │      │                  │        attack-impacting-f5-nginx-products 
+│                        │      │                  ├ [233]: https://www.nginx.com/blog/http-2-rapid-reset-
 │                        │      │                  │        attack-impacting-f5-nginx-products/ 
-│                        │      │                  ├ [233]: https://www.openwall.com/lists/oss-security/20
+│                        │      │                  ├ [234]: https://www.openwall.com/lists/oss-security/20
 │                        │      │                  │        23/10/10/6 
-│                        │      │                  ├ [234]: https://www.phoronix.com/news/HTTP2-Rapid-Rese
+│                        │      │                  ├ [235]: https://www.phoronix.com/news/HTTP2-Rapid-Rese
 │                        │      │                  │        t-Attack 
-│                        │      │                  ├ [235]: https://www.theregister.com/2023/10/10/http2_r
+│                        │      │                  ├ [236]: https://www.theregister.com/2023/10/10/http2_r
 │                        │      │                  │        apid_reset_zeroday 
-│                        │      │                  ╰ [236]: https://www.theregister.com/2023/10/10/http2_r
+│                        │      │                  ╰ [237]: https://www.theregister.com/2023/10/10/http2_r
 │                        │      │                           apid_reset_zeroday/ 
 │                        │      ├ PublishedDate   : 2023-10-10T14:15:10.883Z 
 │                        │      ╰ LastModifiedDate: 2024-08-14T19:57:18.86Z 
@@ -6558,7 +6561,7 @@
 │                        │      │                  ├ [5]: https://pkg.go.dev/vuln/GO-2024-3106 
 │                        │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-34156 
 │                        │      ├ PublishedDate   : 2024-09-06T21:15:12.02Z 
-│                        │      ╰ LastModifiedDate: 2024-09-06T21:15:12.02Z 
+│                        │      ╰ LastModifiedDate: 2024-09-09T15:35:07.573Z 
 │                        ├ [9]  ╭ VulnerabilityID : CVE-2023-29406 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.20.5 
@@ -6738,7 +6741,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ amazon     : 3 
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
@@ -6813,7 +6816,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ amazon     : 3 
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
@@ -7232,7 +7235,7 @@
 │                        │      ├ VendorSeverity   ╭ alma       : 3 
 │                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ bitnami    : 3 
-│                        │      │                  ├ cbl-mariner: 3 
+│                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ oracle-oval: 3 
 │                        │      │                  ├ photon     : 3 
 │                        │      │                  ├ redhat     : 2 
@@ -7554,7 +7557,7 @@
 │                        │      │                  ├ [5]: https://pkg.go.dev/vuln/GO-2024-3105 
 │                        │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-34155 
 │                        │      ├ PublishedDate   : 2024-09-06T21:15:11.947Z 
-│                        │      ╰ LastModifiedDate: 2024-09-06T21:15:11.947Z 
+│                        │      ╰ LastModifiedDate: 2024-09-09T13:03:38.303Z 
 │                        ╰ [23] ╭ VulnerabilityID : CVE-2024-34158 
 │                               ├ PkgName         : stdlib 
 │                               ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.20.5 
@@ -7577,6 +7580,7 @@
 │                               │                   deeply nested expressions can cause a panic due to stack
 │                               │                   exhaustion. 
 │                               ├ Severity        : MEDIUM 
+│                               ├ CweIDs           ─ [0]: CWE-674 
 │                               ├ VendorSeverity   ─ redhat: 2 
 │                               ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
 │                               │                           │           :N/I:N/A:H 
@@ -7589,7 +7593,7 @@
 │                               │                  ├ [5]: https://pkg.go.dev/vuln/GO-2024-3107 
 │                               │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-34158 
 │                               ├ PublishedDate   : 2024-09-06T21:15:12.083Z 
-│                               ╰ LastModifiedDate: 2024-09-06T21:15:12.083Z 
+│                               ╰ LastModifiedDate: 2024-09-09T14:35:01.17Z 
 ├ [4]  ╭ Target         : tmp/tmp.gL2zc7VJXQ/krew-linux_amd64 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : gobinary 
@@ -7943,7 +7947,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ amazon     : 3 
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ ghsa       : 2 
@@ -8475,49 +8479,50 @@
 │                        │      │                  ├ [211]: https://ubuntu.com/security/notices/USN-6505-1 
 │                        │      │                  ├ [212]: https://ubuntu.com/security/notices/USN-6574-1 
 │                        │      │                  ├ [213]: https://ubuntu.com/security/notices/USN-6754-1 
-│                        │      │                  ├ [214]: https://www.bleepingcomputer.com/news/security
-│                        │      │                  │        /new-http-2-rapid-reset-zero-day-attack-breaks-ddos
-│                        │      │                  │        -records 
+│                        │      │                  ├ [214]: https://ubuntu.com/security/notices/USN-6994-1 
 │                        │      │                  ├ [215]: https://www.bleepingcomputer.com/news/security
 │                        │      │                  │        /new-http-2-rapid-reset-zero-day-attack-breaks-ddos
+│                        │      │                  │        -records 
+│                        │      │                  ├ [216]: https://www.bleepingcomputer.com/news/security
+│                        │      │                  │        /new-http-2-rapid-reset-zero-day-attack-breaks-ddos
 │                        │      │                  │        -records/ 
-│                        │      │                  ├ [216]: https://www.cisa.gov/known-exploited-vulnerabi
+│                        │      │                  ├ [217]: https://www.cisa.gov/known-exploited-vulnerabi
 │                        │      │                  │        lities-catalog 
-│                        │      │                  ├ [217]: https://www.cisa.gov/news-events/alerts/2023/1
+│                        │      │                  ├ [218]: https://www.cisa.gov/news-events/alerts/2023/1
 │                        │      │                  │        0/10/http2-rapid-reset-vulnerability-cve-2023-44487
 │                        │      │                  │         
-│                        │      │                  ├ [218]: https://www.cve.org/CVERecord?id=CVE-2023-44487 
-│                        │      │                  ├ [219]: https://www.darkreading.com/cloud/internet-wid
+│                        │      │                  ├ [219]: https://www.cve.org/CVERecord?id=CVE-2023-44487 
+│                        │      │                  ├ [220]: https://www.darkreading.com/cloud/internet-wid
 │                        │      │                  │        e-zero-day-bug-fuels-largest-ever-ddos-event
 │                        │      │                  │        [m 
-│                        │      │                  ├ [220]: https://www.debian.org/security/2023/dsa-5521 
-│                        │      │                  ├ [221]: https://www.debian.org/security/2023/dsa-5522 
-│                        │      │                  ├ [222]: https://www.debian.org/security/2023/dsa-5540 
-│                        │      │                  ├ [223]: https://www.debian.org/security/2023/dsa-5549 
-│                        │      │                  ├ [224]: https://www.debian.org/security/2023/dsa-5558 
-│                        │      │                  ├ [225]: https://www.debian.org/security/2023/dsa-5570 
-│                        │      │                  ├ [226]: https://www.eclipse.org/lists/jetty-announce/m
+│                        │      │                  ├ [221]: https://www.debian.org/security/2023/dsa-5521 
+│                        │      │                  ├ [222]: https://www.debian.org/security/2023/dsa-5522 
+│                        │      │                  ├ [223]: https://www.debian.org/security/2023/dsa-5540 
+│                        │      │                  ├ [224]: https://www.debian.org/security/2023/dsa-5549 
+│                        │      │                  ├ [225]: https://www.debian.org/security/2023/dsa-5558 
+│                        │      │                  ├ [226]: https://www.debian.org/security/2023/dsa-5570 
+│                        │      │                  ├ [227]: https://www.eclipse.org/lists/jetty-announce/m
 │                        │      │                  │        sg00181.html 
-│                        │      │                  ├ [227]: https://www.haproxy.com/blog/haproxy-is-not-af
+│                        │      │                  ├ [228]: https://www.haproxy.com/blog/haproxy-is-not-af
 │                        │      │                  │        fected-by-the-http-2-rapid-reset-attack-cve-2023-44
 │                        │      │                  │        487 
-│                        │      │                  ├ [228]: https://www.mail-archive.com/haproxy@formilux.
+│                        │      │                  ├ [229]: https://www.mail-archive.com/haproxy@formilux.
 │                        │      │                  │        org/msg44134.html 
-│                        │      │                  ├ [229]: https://www.netlify.com/blog/netlify-successfu
-│                        │      │                  │        lly-mitigates-cve-2023-44487 
 │                        │      │                  ├ [230]: https://www.netlify.com/blog/netlify-successfu
+│                        │      │                  │        lly-mitigates-cve-2023-44487 
+│                        │      │                  ├ [231]: https://www.netlify.com/blog/netlify-successfu
 │                        │      │                  │        lly-mitigates-cve-2023-44487/ 
-│                        │      │                  ├ [231]: https://www.nginx.com/blog/http-2-rapid-reset-
-│                        │      │                  │        attack-impacting-f5-nginx-products 
 │                        │      │                  ├ [232]: https://www.nginx.com/blog/http-2-rapid-reset-
+│                        │      │                  │        attack-impacting-f5-nginx-products 
+│                        │      │                  ├ [233]: https://www.nginx.com/blog/http-2-rapid-reset-
 │                        │      │                  │        attack-impacting-f5-nginx-products/ 
-│                        │      │                  ├ [233]: https://www.openwall.com/lists/oss-security/20
+│                        │      │                  ├ [234]: https://www.openwall.com/lists/oss-security/20
 │                        │      │                  │        23/10/10/6 
-│                        │      │                  ├ [234]: https://www.phoronix.com/news/HTTP2-Rapid-Rese
+│                        │      │                  ├ [235]: https://www.phoronix.com/news/HTTP2-Rapid-Rese
 │                        │      │                  │        t-Attack 
-│                        │      │                  ├ [235]: https://www.theregister.com/2023/10/10/http2_r
+│                        │      │                  ├ [236]: https://www.theregister.com/2023/10/10/http2_r
 │                        │      │                  │        apid_reset_zeroday 
-│                        │      │                  ╰ [236]: https://www.theregister.com/2023/10/10/http2_r
+│                        │      │                  ╰ [237]: https://www.theregister.com/2023/10/10/http2_r
 │                        │      │                           apid_reset_zeroday/ 
 │                        │      ├ PublishedDate   : 2023-10-10T14:15:10.883Z 
 │                        │      ╰ LastModifiedDate: 2024-08-14T19:57:18.86Z 
@@ -9235,7 +9240,7 @@
 │                        │      │                  ├ [5]: https://pkg.go.dev/vuln/GO-2024-3106 
 │                        │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-34156 
 │                        │      ├ PublishedDate   : 2024-09-06T21:15:12.02Z 
-│                        │      ╰ LastModifiedDate: 2024-09-06T21:15:12.02Z 
+│                        │      ╰ LastModifiedDate: 2024-09-09T15:35:07.573Z 
 │                        ├ [9]  ╭ VulnerabilityID : CVE-2023-29406 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.20.5 
@@ -9415,7 +9420,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ amazon     : 3 
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
@@ -9490,7 +9495,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ amazon     : 3 
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
@@ -9909,7 +9914,7 @@
 │                        │      ├ VendorSeverity   ╭ alma       : 3 
 │                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ bitnami    : 3 
-│                        │      │                  ├ cbl-mariner: 3 
+│                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ oracle-oval: 3 
 │                        │      │                  ├ photon     : 3 
 │                        │      │                  ├ redhat     : 2 
@@ -10231,7 +10236,7 @@
 │                        │      │                  ├ [5]: https://pkg.go.dev/vuln/GO-2024-3105 
 │                        │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-34155 
 │                        │      ├ PublishedDate   : 2024-09-06T21:15:11.947Z 
-│                        │      ╰ LastModifiedDate: 2024-09-06T21:15:11.947Z 
+│                        │      ╰ LastModifiedDate: 2024-09-09T13:03:38.303Z 
 │                        ╰ [23] ╭ VulnerabilityID : CVE-2024-34158 
 │                               ├ PkgName         : stdlib 
 │                               ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.20.5 
@@ -10254,6 +10259,7 @@
 │                               │                   deeply nested expressions can cause a panic due to stack
 │                               │                   exhaustion. 
 │                               ├ Severity        : MEDIUM 
+│                               ├ CweIDs           ─ [0]: CWE-674 
 │                               ├ VendorSeverity   ─ redhat: 2 
 │                               ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
 │                               │                           │           :N/I:N/A:H 
@@ -10266,7 +10272,7 @@
 │                               │                  ├ [5]: https://pkg.go.dev/vuln/GO-2024-3107 
 │                               │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-34158 
 │                               ├ PublishedDate   : 2024-09-06T21:15:12.083Z 
-│                               ╰ LastModifiedDate: 2024-09-06T21:15:12.083Z 
+│                               ╰ LastModifiedDate: 2024-09-09T14:35:01.17Z 
 ├ [5]  ╭ Target         : usr/bin/docker-compose 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : gobinary 
@@ -10304,7 +10310,7 @@
 │                        │     │                  ├ [5]: https://pkg.go.dev/vuln/GO-2024-3106 
 │                        │     │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-34156 
 │                        │     ├ PublishedDate   : 2024-09-06T21:15:12.02Z 
-│                        │     ╰ LastModifiedDate: 2024-09-06T21:15:12.02Z 
+│                        │     ╰ LastModifiedDate: 2024-09-09T15:35:07.573Z 
 │                        ├ [1] ╭ VulnerabilityID : CVE-2024-34155 
 │                        │     ├ PkgName         : stdlib 
 │                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.21.12 
@@ -10339,7 +10345,7 @@
 │                        │     │                  ├ [5]: https://pkg.go.dev/vuln/GO-2024-3105 
 │                        │     │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-34155 
 │                        │     ├ PublishedDate   : 2024-09-06T21:15:11.947Z 
-│                        │     ╰ LastModifiedDate: 2024-09-06T21:15:11.947Z 
+│                        │     ╰ LastModifiedDate: 2024-09-09T13:03:38.303Z 
 │                        ╰ [2] ╭ VulnerabilityID : CVE-2024-34158 
 │                              ├ PkgName         : stdlib 
 │                              ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.21.12 
@@ -10362,6 +10368,7 @@
 │                              │                   deeply nested expressions can cause a panic due to stack
 │                              │                   exhaustion. 
 │                              ├ Severity        : MEDIUM 
+│                              ├ CweIDs           ─ [0]: CWE-674 
 │                              ├ VendorSeverity   ─ redhat: 2 
 │                              ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:
 │                              │                           │           N/I:N/A:H 
@@ -10374,7 +10381,7 @@
 │                              │                  ├ [5]: https://pkg.go.dev/vuln/GO-2024-3107 
 │                              │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-34158 
 │                              ├ PublishedDate   : 2024-09-06T21:15:12.083Z 
-│                              ╰ LastModifiedDate: 2024-09-06T21:15:12.083Z 
+│                              ╰ LastModifiedDate: 2024-09-09T14:35:01.17Z 
 ├ [6]  ╭ Target         : usr/bin/helm 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : gobinary 
@@ -10412,7 +10419,7 @@
 │                        │     │                  ├ [5]: https://pkg.go.dev/vuln/GO-2024-3106 
 │                        │     │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-34156 
 │                        │     ├ PublishedDate   : 2024-09-06T21:15:12.02Z 
-│                        │     ╰ LastModifiedDate: 2024-09-06T21:15:12.02Z 
+│                        │     ╰ LastModifiedDate: 2024-09-09T15:35:07.573Z 
 │                        ├ [1] ╭ VulnerabilityID : CVE-2024-34155 
 │                        │     ├ PkgName         : stdlib 
 │                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.22.6 
@@ -10447,7 +10454,7 @@
 │                        │     │                  ├ [5]: https://pkg.go.dev/vuln/GO-2024-3105 
 │                        │     │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-34155 
 │                        │     ├ PublishedDate   : 2024-09-06T21:15:11.947Z 
-│                        │     ╰ LastModifiedDate: 2024-09-06T21:15:11.947Z 
+│                        │     ╰ LastModifiedDate: 2024-09-09T13:03:38.303Z 
 │                        ╰ [2] ╭ VulnerabilityID : CVE-2024-34158 
 │                              ├ PkgName         : stdlib 
 │                              ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.22.6 
@@ -10470,6 +10477,7 @@
 │                              │                   deeply nested expressions can cause a panic due to stack
 │                              │                   exhaustion. 
 │                              ├ Severity        : MEDIUM 
+│                              ├ CweIDs           ─ [0]: CWE-674 
 │                              ├ VendorSeverity   ─ redhat: 2 
 │                              ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:
 │                              │                           │           N/I:N/A:H 
@@ -10482,7 +10490,7 @@
 │                              │                  ├ [5]: https://pkg.go.dev/vuln/GO-2024-3107 
 │                              │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-34158 
 │                              ├ PublishedDate   : 2024-09-06T21:15:12.083Z 
-│                              ╰ LastModifiedDate: 2024-09-06T21:15:12.083Z 
+│                              ╰ LastModifiedDate: 2024-09-09T14:35:01.17Z 
 ├ [7]  ╭ Target         : usr/bin/kubectl 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : gobinary 
@@ -10520,7 +10528,7 @@
 │                        │     │                  ├ [5]: https://pkg.go.dev/vuln/GO-2024-3106 
 │                        │     │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-34156 
 │                        │     ├ PublishedDate   : 2024-09-06T21:15:12.02Z 
-│                        │     ╰ LastModifiedDate: 2024-09-06T21:15:12.02Z 
+│                        │     ╰ LastModifiedDate: 2024-09-09T15:35:07.573Z 
 │                        ├ [1] ╭ VulnerabilityID : CVE-2024-34155 
 │                        │     ├ PkgName         : stdlib 
 │                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.22.5 
@@ -10555,7 +10563,7 @@
 │                        │     │                  ├ [5]: https://pkg.go.dev/vuln/GO-2024-3105 
 │                        │     │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-34155 
 │                        │     ├ PublishedDate   : 2024-09-06T21:15:11.947Z 
-│                        │     ╰ LastModifiedDate: 2024-09-06T21:15:11.947Z 
+│                        │     ╰ LastModifiedDate: 2024-09-09T13:03:38.303Z 
 │                        ╰ [2] ╭ VulnerabilityID : CVE-2024-34158 
 │                              ├ PkgName         : stdlib 
 │                              ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.22.5 
@@ -10578,6 +10586,7 @@
 │                              │                   deeply nested expressions can cause a panic due to stack
 │                              │                   exhaustion. 
 │                              ├ Severity        : MEDIUM 
+│                              ├ CweIDs           ─ [0]: CWE-674 
 │                              ├ VendorSeverity   ─ redhat: 2 
 │                              ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:
 │                              │                           │           N/I:N/A:H 
@@ -10590,7 +10599,7 @@
 │                              │                  ├ [5]: https://pkg.go.dev/vuln/GO-2024-3107 
 │                              │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-34158 
 │                              ├ PublishedDate   : 2024-09-06T21:15:12.083Z 
-│                              ╰ LastModifiedDate: 2024-09-06T21:15:12.083Z 
+│                              ╰ LastModifiedDate: 2024-09-09T14:35:01.17Z 
 ├ [8]  ╭ Target         : usr/bin/mc 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : gobinary 
@@ -10628,7 +10637,7 @@
 │                        │     │                  ├ [5]: https://pkg.go.dev/vuln/GO-2024-3106 
 │                        │     │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-34156 
 │                        │     ├ PublishedDate   : 2024-09-06T21:15:12.02Z 
-│                        │     ╰ LastModifiedDate: 2024-09-06T21:15:12.02Z 
+│                        │     ╰ LastModifiedDate: 2024-09-09T15:35:07.573Z 
 │                        ├ [1] ╭ VulnerabilityID : CVE-2024-34155 
 │                        │     ├ PkgName         : stdlib 
 │                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.22.6 
@@ -10663,7 +10672,7 @@
 │                        │     │                  ├ [5]: https://pkg.go.dev/vuln/GO-2024-3105 
 │                        │     │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-34155 
 │                        │     ├ PublishedDate   : 2024-09-06T21:15:11.947Z 
-│                        │     ╰ LastModifiedDate: 2024-09-06T21:15:11.947Z 
+│                        │     ╰ LastModifiedDate: 2024-09-09T13:03:38.303Z 
 │                        ╰ [2] ╭ VulnerabilityID : CVE-2024-34158 
 │                              ├ PkgName         : stdlib 
 │                              ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.22.6 
@@ -10686,6 +10695,7 @@
 │                              │                   deeply nested expressions can cause a panic due to stack
 │                              │                   exhaustion. 
 │                              ├ Severity        : MEDIUM 
+│                              ├ CweIDs           ─ [0]: CWE-674 
 │                              ├ VendorSeverity   ─ redhat: 2 
 │                              ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:
 │                              │                           │           N/I:N/A:H 
@@ -10698,7 +10708,7 @@
 │                              │                  ├ [5]: https://pkg.go.dev/vuln/GO-2024-3107 
 │                              │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-34158 
 │                              ├ PublishedDate   : 2024-09-06T21:15:12.083Z 
-│                              ╰ LastModifiedDate: 2024-09-06T21:15:12.083Z 
+│                              ╰ LastModifiedDate: 2024-09-09T14:35:01.17Z 
 ├ [9]  ╭ Target         : usr/local/bin/k3d 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : gobinary 
@@ -10876,7 +10886,7 @@
 │                        │     │                  ├ [5]: https://pkg.go.dev/vuln/GO-2024-3106 
 │                        │     │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-34156 
 │                        │     ├ PublishedDate   : 2024-09-06T21:15:12.02Z 
-│                        │     ╰ LastModifiedDate: 2024-09-06T21:15:12.02Z 
+│                        │     ╰ LastModifiedDate: 2024-09-09T15:35:07.573Z 
 │                        ├ [3] ╭ VulnerabilityID : CVE-2024-34155 
 │                        │     ├ PkgName         : stdlib 
 │                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.22.5 
@@ -10911,7 +10921,7 @@
 │                        │     │                  ├ [5]: https://pkg.go.dev/vuln/GO-2024-3105 
 │                        │     │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-34155 
 │                        │     ├ PublishedDate   : 2024-09-06T21:15:11.947Z 
-│                        │     ╰ LastModifiedDate: 2024-09-06T21:15:11.947Z 
+│                        │     ╰ LastModifiedDate: 2024-09-09T13:03:38.303Z 
 │                        ╰ [4] ╭ VulnerabilityID : CVE-2024-34158 
 │                              ├ PkgName         : stdlib 
 │                              ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.22.5 
@@ -10934,6 +10944,7 @@
 │                              │                   deeply nested expressions can cause a panic due to stack
 │                              │                   exhaustion. 
 │                              ├ Severity        : MEDIUM 
+│                              ├ CweIDs           ─ [0]: CWE-674 
 │                              ├ VendorSeverity   ─ redhat: 2 
 │                              ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:
 │                              │                           │           N/I:N/A:H 
@@ -10946,7 +10957,7 @@
 │                              │                  ├ [5]: https://pkg.go.dev/vuln/GO-2024-3107 
 │                              │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-34158 
 │                              ├ PublishedDate   : 2024-09-06T21:15:12.083Z 
-│                              ╰ LastModifiedDate: 2024-09-06T21:15:12.083Z 
+│                              ╰ LastModifiedDate: 2024-09-09T14:35:01.17Z 
 ├ [10] ╭ Target : /etc/ssh/ssh_host_dsa_key 
 │      ├ Class  : secret 
 │      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
