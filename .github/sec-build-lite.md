@@ -1520,7 +1520,8 @@
 │                        │      │                  │       64&distro=ubuntu-24.04 
 │                        │      │                  ╰ UID : 621172f1249e2bf0 
 │                        │      ├ InstalledVersion: 2.6.1-2build1 
-│                        │      ├ Status          : affected 
+│                        │      ├ FixedVersion    : 2.6.1-2ubuntu0.1 
+│                        │      ├ Status          : fixed 
 │                        │      ├ Layer            ╭ Digest: sha256:7b1872648c8db9c5992f20797ece855d76f3f7
 │                        │      │                  │         2de05489a7a8778c09c2ec8f1c 
 │                        │      │                  ╰ DiffID: sha256:64493e85baa4a08956c595b833fb92bf0a2b5c
@@ -1552,7 +1553,9 @@
 │                        │      │                  ├ [2]: https://github.com/libexpat/libexpat/issues/887 
 │                        │      │                  ├ [3]: https://github.com/libexpat/libexpat/pull/890 
 │                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-45490 
-│                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-45490 
+│                        │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-7000-1 
+│                        │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-7001-1 
+│                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2024-45490 
 │                        │      ├ PublishedDate   : 2024-08-30T03:15:03.757Z 
 │                        │      ╰ LastModifiedDate: 2024-09-04T14:28:19.313Z 
 │                        ├ [30] ╭ VulnerabilityID : CVE-2024-45491 
@@ -1562,7 +1565,8 @@
 │                        │      │                  │       64&distro=ubuntu-24.04 
 │                        │      │                  ╰ UID : 621172f1249e2bf0 
 │                        │      ├ InstalledVersion: 2.6.1-2build1 
-│                        │      ├ Status          : affected 
+│                        │      ├ FixedVersion    : 2.6.1-2ubuntu0.1 
+│                        │      ├ Status          : fixed 
 │                        │      ├ Layer            ╭ Digest: sha256:7b1872648c8db9c5992f20797ece855d76f3f7
 │                        │      │                  │         2de05489a7a8778c09c2ec8f1c 
 │                        │      │                  ╰ DiffID: sha256:64493e85baa4a08956c595b833fb92bf0a2b5c
@@ -1595,7 +1599,9 @@
 │                        │      │                  ├ [2]: https://github.com/libexpat/libexpat/issues/888 
 │                        │      │                  ├ [3]: https://github.com/libexpat/libexpat/pull/891 
 │                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-45491 
-│                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-45491 
+│                        │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-7000-1 
+│                        │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-7001-1 
+│                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2024-45491 
 │                        │      ├ PublishedDate   : 2024-08-30T03:15:03.85Z 
 │                        │      ╰ LastModifiedDate: 2024-09-04T14:28:33.953Z 
 │                        ├ [31] ╭ VulnerabilityID : CVE-2024-45492 
@@ -1605,7 +1611,8 @@
 │                        │      │                  │       64&distro=ubuntu-24.04 
 │                        │      │                  ╰ UID : 621172f1249e2bf0 
 │                        │      ├ InstalledVersion: 2.6.1-2build1 
-│                        │      ├ Status          : affected 
+│                        │      ├ FixedVersion    : 2.6.1-2ubuntu0.1 
+│                        │      ├ Status          : fixed 
 │                        │      ├ Layer            ╭ Digest: sha256:7b1872648c8db9c5992f20797ece855d76f3f7
 │                        │      │                  │         2de05489a7a8778c09c2ec8f1c 
 │                        │      │                  ╰ DiffID: sha256:64493e85baa4a08956c595b833fb92bf0a2b5c
@@ -1638,7 +1645,8 @@
 │                        │      │                  ├ [2]: https://github.com/libexpat/libexpat/issues/889 
 │                        │      │                  ├ [3]: https://github.com/libexpat/libexpat/pull/892 
 │                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-45492 
-│                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-45492 
+│                        │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-7000-1 
+│                        │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-45492 
 │                        │      ├ PublishedDate   : 2024-08-30T03:15:03.93Z 
 │                        │      ╰ LastModifiedDate: 2024-09-04T14:28:41.76Z 
 │                        ├ [32] ╭ VulnerabilityID : CVE-2024-2236 
@@ -5147,7 +5155,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
@@ -5228,7 +5236,7 @@
 │                        │      │                   encoded bytes grows too small. 
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ nvd        : 2 
@@ -7834,7 +7842,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
@@ -7915,7 +7923,7 @@
 │                        │      │                   encoded bytes grows too small. 
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ nvd        : 2 
