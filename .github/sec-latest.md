@@ -1309,7 +1309,9 @@
 │                        │      │                  ├ [2]: https://github.com/libexpat/libexpat/issues/887 
 │                        │      │                  ├ [3]: https://github.com/libexpat/libexpat/pull/890 
 │                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-45490 
-│                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-45490 
+│                        │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-7000-1 
+│                        │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-7001-1 
+│                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2024-45490 
 │                        │      ├ PublishedDate   : 2024-08-30T03:15:03.757Z 
 │                        │      ╰ LastModifiedDate: 2024-09-04T14:28:19.313Z 
 │                        ├ [27] ╭ VulnerabilityID : CVE-2024-45491 
@@ -1352,7 +1354,9 @@
 │                        │      │                  ├ [2]: https://github.com/libexpat/libexpat/issues/888 
 │                        │      │                  ├ [3]: https://github.com/libexpat/libexpat/pull/891 
 │                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-45491 
-│                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-45491 
+│                        │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-7000-1 
+│                        │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-7001-1 
+│                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2024-45491 
 │                        │      ├ PublishedDate   : 2024-08-30T03:15:03.85Z 
 │                        │      ╰ LastModifiedDate: 2024-09-04T14:28:33.953Z 
 │                        ├ [28] ╭ VulnerabilityID : CVE-2024-45492 
@@ -1395,7 +1399,8 @@
 │                        │      │                  ├ [2]: https://github.com/libexpat/libexpat/issues/889 
 │                        │      │                  ├ [3]: https://github.com/libexpat/libexpat/pull/892 
 │                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-45492 
-│                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-45492 
+│                        │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-7000-1 
+│                        │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-45492 
 │                        │      ├ PublishedDate   : 2024-08-30T03:15:03.93Z 
 │                        │      ╰ LastModifiedDate: 2024-09-04T14:28:41.76Z 
 │                        ├ [29] ╭ VulnerabilityID : CVE-2022-27943 
@@ -6944,7 +6949,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
@@ -7025,7 +7030,7 @@
 │                        │      │                   encoded bytes grows too small. 
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ nvd        : 2 
@@ -9631,7 +9636,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
@@ -9712,7 +9717,7 @@
 │                        │      │                   encoded bytes grows too small. 
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ nvd        : 2 
