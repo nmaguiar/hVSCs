@@ -1545,18 +1545,17 @@
 │                        │      │                           ╰ V3Score : 5.9 
 │                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-2236 
 │                        │      │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2245218 
-│                        │      │                  ├ [2]: https://bugzilla.redhat.com/show_bug.cgi?id=2268268 
-│                        │      │                  ├ [3]: https://dev.gnupg.org/T7136 
-│                        │      │                  ├ [4]: https://github.com/tomato42/marvin-toolkit/tree/
+│                        │      │                  ├ [2]: https://dev.gnupg.org/T7136 
+│                        │      │                  ├ [3]: https://github.com/tomato42/marvin-toolkit/tree/
 │                        │      │                  │      master/example/libgcrypt 
-│                        │      │                  ├ [5]: https://gitlab.com/redhat-crypto/libgcrypt/libgc
+│                        │      │                  ├ [4]: https://gitlab.com/redhat-crypto/libgcrypt/libgc
 │                        │      │                  │      rypt-mirror/-/merge_requests/17 
-│                        │      │                  ├ [6]: https://lists.gnupg.org/pipermail/gcrypt-devel/2
+│                        │      │                  ├ [5]: https://lists.gnupg.org/pipermail/gcrypt-devel/2
 │                        │      │                  │      024-March/005607.html 
-│                        │      │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2024-2236 
-│                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-2236 
+│                        │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2024-2236 
+│                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2024-2236 
 │                        │      ├ PublishedDate   : 2024-03-06T22:15:57.977Z 
-│                        │      ╰ LastModifiedDate: 2024-04-25T17:15:49.467Z 
+│                        │      ╰ LastModifiedDate: 2024-09-14T04:15:02.903Z 
 │                        ├ [30] ╭ VulnerabilityID : CVE-2024-26462 
 │                        │      ├ PkgID           : libgssapi-krb5-2@1.20.1-6ubuntu2.1 
 │                        │      ├ PkgName         : libgssapi-krb5-2 
@@ -5438,7 +5437,7 @@
 │                        │      ├ VendorSeverity   ╭ alma       : 3 
 │                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ bitnami    : 3 
-│                        │      │                  ├ cbl-mariner: 3 
+│                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ oracle-oval: 3 
 │                        │      │                  ├ photon     : 3 
 │                        │      │                  ├ redhat     : 2 
@@ -8125,7 +8124,7 @@
 │                        │      ├ VendorSeverity   ╭ alma       : 3 
 │                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ bitnami    : 3 
-│                        │      │                  ├ cbl-mariner: 3 
+│                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ oracle-oval: 3 
 │                        │      │                  ├ photon     : 3 
 │                        │      │                  ├ redhat     : 2 
