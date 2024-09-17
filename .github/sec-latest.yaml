@@ -101,7 +101,8 @@
       PURL: pkg:deb/ubuntu/curl@7.81.0-1ubuntu1.17?arch=amd64&distro=ubuntu-22.04
       UID: 66ed260702c0b81b
     InstalledVersion: 7.81.0-1ubuntu1.17
-    Status: affected
+    FixedVersion: 7.81.0-1ubuntu1.18
+    Status: fixed
     Layer:
       Digest: sha256:eb4108e75dc6f8e6fc5a5e04197674c0d9a1dd13ec796f87aff09fd0a4bbd6ca
       DiffID: sha256:853b5d95f07f5f2e1b0bf3839c45f15d937b8d18ad499f49ad4553075cd9fdf4
@@ -129,6 +130,7 @@
     - https://curl.se/docs/CVE-2024-8096.json
     - https://hackerone.com/reports/2669852
     - https://nvd.nist.gov/vuln/detail/CVE-2024-8096
+    - https://ubuntu.com/security/notices/USN-7012-1
     - https://www.cve.org/CVERecord?id=CVE-2024-8096
     PublishedDate: '2024-09-11T10:15:02.883Z'
     LastModifiedDate: '2024-09-11T16:26:11.92Z'
@@ -170,12 +172,12 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 6.2
     References:
-    - https://access.redhat.com/errata/RHSA-2023:4569
+    - https://access.redhat.com/errata/RHSA-2023:4498
     - https://access.redhat.com/security/cve/CVE-2023-34969
     - https://bugzilla.redhat.com/2213166
     - https://bugzilla.redhat.com/show_bug.cgi?id=2213166
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-34969
-    - https://errata.almalinux.org/9/ALSA-2023-4569.html
+    - https://errata.almalinux.org/8/ALSA-2023-4498.html
     - https://errata.rockylinux.org/RLSA-2023:4569
     - https://gitlab.freedesktop.org/dbus/dbus/-/issues/457
     - https://linux.oracle.com/cve/CVE-2023-34969.html
@@ -226,12 +228,12 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 6.2
     References:
-    - https://access.redhat.com/errata/RHSA-2023:4569
+    - https://access.redhat.com/errata/RHSA-2023:4498
     - https://access.redhat.com/security/cve/CVE-2023-34969
     - https://bugzilla.redhat.com/2213166
     - https://bugzilla.redhat.com/show_bug.cgi?id=2213166
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-34969
-    - https://errata.almalinux.org/9/ALSA-2023-4569.html
+    - https://errata.almalinux.org/8/ALSA-2023-4498.html
     - https://errata.rockylinux.org/RLSA-2023:4569
     - https://gitlab.freedesktop.org/dbus/dbus/-/issues/457
     - https://linux.oracle.com/cve/CVE-2023-34969.html
@@ -1035,7 +1037,8 @@
       PURL: pkg:deb/ubuntu/libcurl3-gnutls@7.81.0-1ubuntu1.17?arch=amd64&distro=ubuntu-22.04
       UID: 3da5ab90f216c631
     InstalledVersion: 7.81.0-1ubuntu1.17
-    Status: affected
+    FixedVersion: 7.81.0-1ubuntu1.18
+    Status: fixed
     Layer:
       Digest: sha256:eb4108e75dc6f8e6fc5a5e04197674c0d9a1dd13ec796f87aff09fd0a4bbd6ca
       DiffID: sha256:853b5d95f07f5f2e1b0bf3839c45f15d937b8d18ad499f49ad4553075cd9fdf4
@@ -1063,6 +1066,7 @@
     - https://curl.se/docs/CVE-2024-8096.json
     - https://hackerone.com/reports/2669852
     - https://nvd.nist.gov/vuln/detail/CVE-2024-8096
+    - https://ubuntu.com/security/notices/USN-7012-1
     - https://www.cve.org/CVERecord?id=CVE-2024-8096
     PublishedDate: '2024-09-11T10:15:02.883Z'
     LastModifiedDate: '2024-09-11T16:26:11.92Z'
@@ -1073,7 +1077,8 @@
       PURL: pkg:deb/ubuntu/libcurl4@7.81.0-1ubuntu1.17?arch=amd64&distro=ubuntu-22.04
       UID: a6b6330c453d59d5
     InstalledVersion: 7.81.0-1ubuntu1.17
-    Status: affected
+    FixedVersion: 7.81.0-1ubuntu1.18
+    Status: fixed
     Layer:
       Digest: sha256:eb4108e75dc6f8e6fc5a5e04197674c0d9a1dd13ec796f87aff09fd0a4bbd6ca
       DiffID: sha256:853b5d95f07f5f2e1b0bf3839c45f15d937b8d18ad499f49ad4553075cd9fdf4
@@ -1101,6 +1106,7 @@
     - https://curl.se/docs/CVE-2024-8096.json
     - https://hackerone.com/reports/2669852
     - https://nvd.nist.gov/vuln/detail/CVE-2024-8096
+    - https://ubuntu.com/security/notices/USN-7012-1
     - https://www.cve.org/CVERecord?id=CVE-2024-8096
     PublishedDate: '2024-09-11T10:15:02.883Z'
     LastModifiedDate: '2024-09-11T16:26:11.92Z'
@@ -1142,12 +1148,12 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 6.2
     References:
-    - https://access.redhat.com/errata/RHSA-2023:4569
+    - https://access.redhat.com/errata/RHSA-2023:4498
     - https://access.redhat.com/security/cve/CVE-2023-34969
     - https://bugzilla.redhat.com/2213166
     - https://bugzilla.redhat.com/show_bug.cgi?id=2213166
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-34969
-    - https://errata.almalinux.org/9/ALSA-2023-4569.html
+    - https://errata.almalinux.org/8/ALSA-2023-4498.html
     - https://errata.rockylinux.org/RLSA-2023:4569
     - https://gitlab.freedesktop.org/dbus/dbus/-/issues/457
     - https://linux.oracle.com/cve/CVE-2023-34969.html
@@ -1229,7 +1235,7 @@
     CweIDs:
     - CWE-190
     VendorSeverity:
-      cbl-mariner: 4
+      cbl-mariner: 3
       nvd: 4
       photon: 4
       redhat: 2
@@ -1275,7 +1281,7 @@
     CweIDs:
     - CWE-190
     VendorSeverity:
-      cbl-mariner: 3
+      cbl-mariner: 4
       nvd: 4
       photon: 4
       redhat: 2
@@ -2185,7 +2191,8 @@
       PURL: pkg:deb/ubuntu/libnginx-mod-http-geoip2@1.18.0-6ubuntu14.4?arch=amd64&distro=ubuntu-22.04
       UID: b1b5a26eca515380
     InstalledVersion: 1.18.0-6ubuntu14.4
-    Status: affected
+    FixedVersion: 1.18.0-6ubuntu14.5
+    Status: fixed
     Layer:
       Digest: sha256:eb4108e75dc6f8e6fc5a5e04197674c0d9a1dd13ec796f87aff09fd0a4bbd6ca
       DiffID: sha256:853b5d95f07f5f2e1b0bf3839c45f15d937b8d18ad499f49ad4553075cd9fdf4
@@ -2224,6 +2231,7 @@
     - https://forum.nginx.org/read.php?27,300027
     - https://my.f5.com/manage/s/article/K000140529
     - https://nvd.nist.gov/vuln/detail/CVE-2024-7347
+    - https://ubuntu.com/security/notices/USN-7014-1
     - https://www.cve.org/CVERecord?id=CVE-2024-7347
     PublishedDate: '2024-08-14T15:15:31.87Z'
     LastModifiedDate: '2024-08-20T19:25:17.513Z'
@@ -2234,7 +2242,8 @@
       PURL: pkg:deb/ubuntu/libnginx-mod-http-image-filter@1.18.0-6ubuntu14.4?arch=amd64&distro=ubuntu-22.04
       UID: 3776ec6cbe28d94d
     InstalledVersion: 1.18.0-6ubuntu14.4
-    Status: affected
+    FixedVersion: 1.18.0-6ubuntu14.5
+    Status: fixed
     Layer:
       Digest: sha256:eb4108e75dc6f8e6fc5a5e04197674c0d9a1dd13ec796f87aff09fd0a4bbd6ca
       DiffID: sha256:853b5d95f07f5f2e1b0bf3839c45f15d937b8d18ad499f49ad4553075cd9fdf4
@@ -2273,6 +2282,7 @@
     - https://forum.nginx.org/read.php?27,300027
     - https://my.f5.com/manage/s/article/K000140529
     - https://nvd.nist.gov/vuln/detail/CVE-2024-7347
+    - https://ubuntu.com/security/notices/USN-7014-1
     - https://www.cve.org/CVERecord?id=CVE-2024-7347
     PublishedDate: '2024-08-14T15:15:31.87Z'
     LastModifiedDate: '2024-08-20T19:25:17.513Z'
@@ -2283,7 +2293,8 @@
       PURL: pkg:deb/ubuntu/libnginx-mod-http-xslt-filter@1.18.0-6ubuntu14.4?arch=amd64&distro=ubuntu-22.04
       UID: 9e10d3e2998bc7ee
     InstalledVersion: 1.18.0-6ubuntu14.4
-    Status: affected
+    FixedVersion: 1.18.0-6ubuntu14.5
+    Status: fixed
     Layer:
       Digest: sha256:eb4108e75dc6f8e6fc5a5e04197674c0d9a1dd13ec796f87aff09fd0a4bbd6ca
       DiffID: sha256:853b5d95f07f5f2e1b0bf3839c45f15d937b8d18ad499f49ad4553075cd9fdf4
@@ -2322,6 +2333,7 @@
     - https://forum.nginx.org/read.php?27,300027
     - https://my.f5.com/manage/s/article/K000140529
     - https://nvd.nist.gov/vuln/detail/CVE-2024-7347
+    - https://ubuntu.com/security/notices/USN-7014-1
     - https://www.cve.org/CVERecord?id=CVE-2024-7347
     PublishedDate: '2024-08-14T15:15:31.87Z'
     LastModifiedDate: '2024-08-20T19:25:17.513Z'
@@ -2332,7 +2344,8 @@
       PURL: pkg:deb/ubuntu/libnginx-mod-mail@1.18.0-6ubuntu14.4?arch=amd64&distro=ubuntu-22.04
       UID: ac122609d4b09c60
     InstalledVersion: 1.18.0-6ubuntu14.4
-    Status: affected
+    FixedVersion: 1.18.0-6ubuntu14.5
+    Status: fixed
     Layer:
       Digest: sha256:eb4108e75dc6f8e6fc5a5e04197674c0d9a1dd13ec796f87aff09fd0a4bbd6ca
       DiffID: sha256:853b5d95f07f5f2e1b0bf3839c45f15d937b8d18ad499f49ad4553075cd9fdf4
@@ -2371,6 +2384,7 @@
     - https://forum.nginx.org/read.php?27,300027
     - https://my.f5.com/manage/s/article/K000140529
     - https://nvd.nist.gov/vuln/detail/CVE-2024-7347
+    - https://ubuntu.com/security/notices/USN-7014-1
     - https://www.cve.org/CVERecord?id=CVE-2024-7347
     PublishedDate: '2024-08-14T15:15:31.87Z'
     LastModifiedDate: '2024-08-20T19:25:17.513Z'
@@ -2381,7 +2395,8 @@
       PURL: pkg:deb/ubuntu/libnginx-mod-stream@1.18.0-6ubuntu14.4?arch=amd64&distro=ubuntu-22.04
       UID: ca4d10d325225caf
     InstalledVersion: 1.18.0-6ubuntu14.4
-    Status: affected
+    FixedVersion: 1.18.0-6ubuntu14.5
+    Status: fixed
     Layer:
       Digest: sha256:eb4108e75dc6f8e6fc5a5e04197674c0d9a1dd13ec796f87aff09fd0a4bbd6ca
       DiffID: sha256:853b5d95f07f5f2e1b0bf3839c45f15d937b8d18ad499f49ad4553075cd9fdf4
@@ -2420,6 +2435,7 @@
     - https://forum.nginx.org/read.php?27,300027
     - https://my.f5.com/manage/s/article/K000140529
     - https://nvd.nist.gov/vuln/detail/CVE-2024-7347
+    - https://ubuntu.com/security/notices/USN-7014-1
     - https://www.cve.org/CVERecord?id=CVE-2024-7347
     PublishedDate: '2024-08-14T15:15:31.87Z'
     LastModifiedDate: '2024-08-20T19:25:17.513Z'
@@ -2430,7 +2446,8 @@
       PURL: pkg:deb/ubuntu/libnginx-mod-stream-geoip2@1.18.0-6ubuntu14.4?arch=amd64&distro=ubuntu-22.04
       UID: 3fa374d40a0c8a6b
     InstalledVersion: 1.18.0-6ubuntu14.4
-    Status: affected
+    FixedVersion: 1.18.0-6ubuntu14.5
+    Status: fixed
     Layer:
       Digest: sha256:eb4108e75dc6f8e6fc5a5e04197674c0d9a1dd13ec796f87aff09fd0a4bbd6ca
       DiffID: sha256:853b5d95f07f5f2e1b0bf3839c45f15d937b8d18ad499f49ad4553075cd9fdf4
@@ -2469,6 +2486,7 @@
     - https://forum.nginx.org/read.php?27,300027
     - https://my.f5.com/manage/s/article/K000140529
     - https://nvd.nist.gov/vuln/detail/CVE-2024-7347
+    - https://ubuntu.com/security/notices/USN-7014-1
     - https://www.cve.org/CVERecord?id=CVE-2024-7347
     PublishedDate: '2024-08-14T15:15:31.87Z'
     LastModifiedDate: '2024-08-20T19:25:17.513Z'
@@ -2518,17 +2536,15 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222261
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222672
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-7008
-    - https://errata.almalinux.org/9/ALSA-2024-2463.html
+    - https://errata.almalinux.org/8/ALSA-2024-3203.html
     - https://errata.rockylinux.org/RLSA-2024:2463
     - https://github.com/systemd/systemd/issues/25676
     - https://linux.oracle.com/cve/CVE-2023-7008.html
     - https://linux.oracle.com/errata/ELSA-2024-3203.html
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4GMDEG5PKONWNHOEYSUDRT6JEOISRMN2/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QHNBXGKJWISJETTTDTZKTBFIBJUOSLKL/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-7008
     - https://www.cve.org/CVERecord?id=CVE-2023-7008
     PublishedDate: '2023-12-23T13:15:07.573Z'
-    LastModifiedDate: '2024-05-22T17:16:10.83Z'
+    LastModifiedDate: '2024-09-16T17:16:02.17Z'
   - VulnerabilityID: CVE-2023-7008
     PkgID: libpam-systemd@249.11-0ubuntu3.12
     PkgName: libpam-systemd
@@ -2575,17 +2591,15 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222261
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222672
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-7008
-    - https://errata.almalinux.org/9/ALSA-2024-2463.html
+    - https://errata.almalinux.org/8/ALSA-2024-3203.html
     - https://errata.rockylinux.org/RLSA-2024:2463
     - https://github.com/systemd/systemd/issues/25676
     - https://linux.oracle.com/cve/CVE-2023-7008.html
     - https://linux.oracle.com/errata/ELSA-2024-3203.html
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4GMDEG5PKONWNHOEYSUDRT6JEOISRMN2/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QHNBXGKJWISJETTTDTZKTBFIBJUOSLKL/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-7008
     - https://www.cve.org/CVERecord?id=CVE-2023-7008
     PublishedDate: '2023-12-23T13:15:07.573Z'
-    LastModifiedDate: '2024-05-22T17:16:10.83Z'
+    LastModifiedDate: '2024-09-16T17:16:02.17Z'
   - VulnerabilityID: CVE-2017-11164
     PkgID: libpcre3@2:8.39-13ubuntu0.22.04.1
     PkgName: libpcre3
@@ -2683,7 +2697,8 @@
       PURL: pkg:deb/ubuntu/libpython3.10@3.10.12-1~22.04.5?arch=amd64&distro=ubuntu-22.04
       UID: 5180c6f173b92cd8
     InstalledVersion: 3.10.12-1~22.04.5
-    Status: affected
+    FixedVersion: 3.10.12-1~22.04.6
+    Status: fixed
     Layer:
       Digest: sha256:eb4108e75dc6f8e6fc5a5e04197674c0d9a1dd13ec796f87aff09fd0a4bbd6ca
       DiffID: sha256:853b5d95f07f5f2e1b0bf3839c45f15d937b8d18ad499f49ad4553075cd9fdf4
@@ -2721,12 +2736,12 @@
     References:
     - http://python.org
     - https://access.redhat.com/articles/7051467
-    - https://access.redhat.com/errata/RHSA-2024:2292
+    - https://access.redhat.com/errata/RHSA-2024:3062
     - https://access.redhat.com/security/cve/CVE-2023-27043
     - https://bugzilla.redhat.com/2196183
     - https://bugzilla.redhat.com/show_bug.cgi?id=2196183
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-27043
-    - https://errata.almalinux.org/9/ALSA-2024-2292.html
+    - https://errata.almalinux.org/8/ALSA-2024-3062.html
     - https://errata.rockylinux.org/RLSA-2024:0256
     - https://github.com/python/cpython/issues/102988
     - https://github.com/python/cpython/pull/102990
@@ -2755,9 +2770,278 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-27043
     - https://python-security.readthedocs.io/vuln/email-parseaddr-realname.html
     - https://security.netapp.com/advisory/ntap-20230601-0003/
+    - https://ubuntu.com/security/notices/USN-7015-1
     - https://www.cve.org/CVERecord?id=CVE-2023-27043
     PublishedDate: '2023-04-19T00:15:07.973Z'
     LastModifiedDate: '2024-02-26T16:27:45.78Z'
+  - VulnerabilityID: CVE-2024-6232
+    PkgID: libpython3.10@3.10.12-1~22.04.5
+    PkgName: libpython3.10
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libpython3.10@3.10.12-1~22.04.5?arch=amd64&distro=ubuntu-22.04
+      UID: 5180c6f173b92cd8
+    InstalledVersion: 3.10.12-1~22.04.5
+    FixedVersion: 3.10.12-1~22.04.6
+    Status: fixed
+    Layer:
+      Digest: sha256:eb4108e75dc6f8e6fc5a5e04197674c0d9a1dd13ec796f87aff09fd0a4bbd6ca
+      DiffID: sha256:853b5d95f07f5f2e1b0bf3839c45f15d937b8d18ad499f49ad4553075cd9fdf4
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-6232
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'python: cpython: tarfile: ReDos via excessive backtracking while parsing header values'
+    Description: |-
+      There is a MEDIUM severity vulnerability affecting CPython.
+
+
+
+
+
+      Regular expressions that allowed excessive backtracking during tarfile.TarFile header parsing are vulnerable to ReDoS via specifically-crafted tar archives.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-1333
+    VendorSeverity:
+      bitnami: 3
+      nvd: 3
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-6232
+    - https://github.com/python/cpython/commit/4eaf4891c12589e3c7bdad5f5b076e4c8392dd06
+    - https://github.com/python/cpython/commit/743acbe872485dc18df4d8ab2dc7895187f062c4
+    - https://github.com/python/cpython/commit/7d1f50cd92ff7e10a1c15a8f591dde8a6843a64d
+    - https://github.com/python/cpython/commit/b4225ca91547aa97ed3aca391614afbb255bc877
+    - https://github.com/python/cpython/commit/d449caf8a179e3b954268b3a88eb9170be3c8fbf
+    - https://github.com/python/cpython/commit/ed3a49ea734ada357ff4442996fd4ae71d253373
+    - https://github.com/python/cpython/issues/121285
+    - https://github.com/python/cpython/pull/121286
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/JRYFTPRHZRTLMZLWQEUHZSJXNHM4ACTY/
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-6232
+    - https://ubuntu.com/security/notices/USN-7015-1
+    - https://www.cve.org/CVERecord?id=CVE-2024-6232
+    PublishedDate: '2024-09-03T13:15:05.363Z'
+    LastModifiedDate: '2024-09-04T21:15:14.48Z'
+  - VulnerabilityID: CVE-2024-6923
+    PkgID: libpython3.10@3.10.12-1~22.04.5
+    PkgName: libpython3.10
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libpython3.10@3.10.12-1~22.04.5?arch=amd64&distro=ubuntu-22.04
+      UID: 5180c6f173b92cd8
+    InstalledVersion: 3.10.12-1~22.04.5
+    FixedVersion: 3.10.12-1~22.04.6
+    Status: fixed
+    Layer:
+      Digest: sha256:eb4108e75dc6f8e6fc5a5e04197674c0d9a1dd13ec796f87aff09fd0a4bbd6ca
+      DiffID: sha256:853b5d95f07f5f2e1b0bf3839c45f15d937b8d18ad499f49ad4553075cd9fdf4
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-6923
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'cpython: python: email module doesn''t properly quotes newlines in email headers, allowing header injection'
+    Description: |-
+      There is a MEDIUM severity vulnerability affecting CPython.
+
+      The 
+      email module didn’t properly quote newlines for email headers when 
+      serializing an email message allowing for header injection when an email
+       is serialized.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-94
+    VendorSeverity:
+      alma: 2
+      bitnami: 2
+      oracle-oval: 2
+      photon: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:L/I:L/A:L
+        V3Score: 5.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:N
+        V3Score: 6.8
+    References:
+    - https://access.redhat.com/errata/RHSA-2024:5962
+    - https://access.redhat.com/security/cve/CVE-2024-6923
+    - https://bugzilla.redhat.com/2292921
+    - https://bugzilla.redhat.com/2297771
+    - https://bugzilla.redhat.com/2302255
+    - https://bugzilla.redhat.com/2307370
+    - https://errata.almalinux.org/8/ALSA-2024-5962.html
+    - https://github.com/python/cpython/commit/06f28dc236708f72871c64d4bc4b4ea144c50147
+    - https://github.com/python/cpython/commit/4766d1200fdf8b6728137aa2927a297e224d5fa7
+    - https://github.com/python/cpython/commit/4aaa4259b5a6e664b7316a4d60bdec7ee0f124d0
+    - https://github.com/python/cpython/commit/b158a76ce094897c870fb6b3de62887b7ccc33f1
+    - https://github.com/python/cpython/commit/f7be505d137a22528cb0fc004422c0081d5d90e6
+    - https://github.com/python/cpython/commit/f7c0f09e69e950cf3c5ada9dbde93898eb975533
+    - https://github.com/python/cpython/issues/121650
+    - https://github.com/python/cpython/pull/122233
+    - https://linux.oracle.com/cve/CVE-2024-6923.html
+    - https://linux.oracle.com/errata/ELSA-2024-6179.html
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/QH3BUOE2DYQBWP7NAQ7UNHPPOELKISRW/
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-6923
+    - https://ubuntu.com/security/notices/USN-7015-1
+    - https://www.cve.org/CVERecord?id=CVE-2024-6923
+    PublishedDate: '2024-08-01T14:15:03.647Z'
+    LastModifiedDate: '2024-09-04T21:15:14.567Z'
+  - VulnerabilityID: CVE-2024-8088
+    PkgID: libpython3.10@3.10.12-1~22.04.5
+    PkgName: libpython3.10
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libpython3.10@3.10.12-1~22.04.5?arch=amd64&distro=ubuntu-22.04
+      UID: 5180c6f173b92cd8
+    InstalledVersion: 3.10.12-1~22.04.5
+    FixedVersion: 3.10.12-1~22.04.6
+    Status: fixed
+    Layer:
+      Digest: sha256:eb4108e75dc6f8e6fc5a5e04197674c0d9a1dd13ec796f87aff09fd0a4bbd6ca
+      DiffID: sha256:853b5d95f07f5f2e1b0bf3839c45f15d937b8d18ad499f49ad4553075cd9fdf4
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-8088
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'python: cpython: Iterating over a malicious ZIP file may lead to Denial of Service'
+    Description: |-
+      There is a HIGH severity vulnerability affecting the CPython "zipfile"
+      module affecting "zipfile.Path". Note that the more common API "zipfile.ZipFile" class is unaffected.
+
+
+
+
+
+      When iterating over names of entries in a zip archive (for example, methods
+      of "zipfile.Path" like "namelist()", "iterdir()", etc)
+      the process can be put into an infinite loop with a maliciously crafted
+      zip archive. This defect applies when reading only metadata or extracting
+      the contents of the zip archive. Programs that are not handling
+      user-controlled zip archives are not affected.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-835
+    VendorSeverity:
+      alma: 2
+      oracle-oval: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 5.3
+    References:
+    - https://access.redhat.com/errata/RHSA-2024:5962
+    - https://access.redhat.com/security/cve/CVE-2024-8088
+    - https://bugzilla.redhat.com/2292921
+    - https://bugzilla.redhat.com/2297771
+    - https://bugzilla.redhat.com/2302255
+    - https://bugzilla.redhat.com/2307370
+    - https://errata.almalinux.org/8/ALSA-2024-5962.html
+    - https://github.com/python/cpython/commit/0aa1ee22ab6e204e9d3d0e9dd63ea648ed691ef1
+    - https://github.com/python/cpython/commit/2231286d78d328c2f575e0b05b16fe447d1656d6
+    - https://github.com/python/cpython/commit/795f2597a4be988e2bb19b69ff9958e981cb894e
+    - https://github.com/python/cpython/commit/7bc367e464ce50b956dd232c1dfa1cad4e7fb814
+    - https://github.com/python/cpython/commit/7e8883a3f04d308302361aeffc73e0e9837f19d4
+    - https://github.com/python/cpython/commit/8c7348939d8a3ecd79d630075f6be1b0c5b41f64
+    - https://github.com/python/cpython/commit/95b073bddefa6243effa08e131e297c0383e7f6a
+    - https://github.com/python/cpython/commit/962055268ed4f2ca1d717bfc8b6385de50a23ab7
+    - https://github.com/python/cpython/commit/dcc5182f27c1500006a1ef78e10613bb45788dea
+    - https://github.com/python/cpython/commit/e0264a61119d551658d9445af38323ba94fc16db
+    - https://github.com/python/cpython/commit/fc0b8259e693caa8400fa8b6ac1e494e47ea7798
+    - https://github.com/python/cpython/issues/122905
+    - https://github.com/python/cpython/issues/123270
+    - https://github.com/python/cpython/pull/122906
+    - https://linux.oracle.com/cve/CVE-2024-8088.html
+    - https://linux.oracle.com/errata/ELSA-2024-5962.html
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/GNFCKVI4TCATKQLALJ5SN4L4CSPSMILU/
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-8088
+    - https://ubuntu.com/security/notices/USN-7015-1
+    - https://www.cve.org/CVERecord?id=CVE-2024-8088
+    PublishedDate: '2024-08-22T19:15:09.72Z'
+    LastModifiedDate: '2024-09-04T23:15:13.1Z'
+  - VulnerabilityID: CVE-2024-7592
+    PkgID: libpython3.10@3.10.12-1~22.04.5
+    PkgName: libpython3.10
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libpython3.10@3.10.12-1~22.04.5?arch=amd64&distro=ubuntu-22.04
+      UID: 5180c6f173b92cd8
+    InstalledVersion: 3.10.12-1~22.04.5
+    FixedVersion: 3.10.12-1~22.04.6
+    Status: fixed
+    Layer:
+      Digest: sha256:eb4108e75dc6f8e6fc5a5e04197674c0d9a1dd13ec796f87aff09fd0a4bbd6ca
+      DiffID: sha256:853b5d95f07f5f2e1b0bf3839c45f15d937b8d18ad499f49ad4553075cd9fdf4
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-7592
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'cpython: python: Uncontrolled CPU resource consumption when in http.cookies module'
+    Description: |-
+      There is a LOW severity vulnerability affecting CPython, specifically the
+      'http.cookies' standard library module.
+
+
+      When parsing cookies that contained backslashes for quoted characters in
+      the cookie value, the parser would use an algorithm with quadratic
+      complexity, resulting in excess CPU resources being used while parsing the
+      value.
+    Severity: LOW
+    CweIDs:
+    - CWE-1333
+    - CWE-400
+    VendorSeverity:
+      azure: 3
+      bitnami: 3
+      cbl-mariner: 3
+      nvd: 3
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 4.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-7592
+    - https://github.com/python/cpython/commit/391e5626e3ee5af267b97e37abc7475732e67621
+    - https://github.com/python/cpython/commit/a77ab24427a18bff817025adb03ca920dc3f1a06
+    - https://github.com/python/cpython/commit/b2f11ca7667e4d57c71c1c88b255115f16042d9a
+    - https://github.com/python/cpython/commit/d4ac921a4b081f7f996a5d2b101684b67ba0ed7f
+    - https://github.com/python/cpython/commit/d662e2db2605515a767f88ad48096b8ac623c774
+    - https://github.com/python/cpython/commit/dcc3eaef98cd94d6cb6cb0f44bd1c903d04f33b1
+    - https://github.com/python/cpython/issues/123067
+    - https://github.com/python/cpython/pull/123075
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/HXJAAAALNUNGCQUS2W7WR6GFIZIHFOOK/
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-7592
+    - https://ubuntu.com/security/notices/USN-7015-1
+    - https://www.cve.org/CVERecord?id=CVE-2024-7592
+    PublishedDate: '2024-08-19T19:15:08.18Z'
+    LastModifiedDate: '2024-09-04T21:15:14.643Z'
   - VulnerabilityID: CVE-2023-27043
     PkgID: libpython3.10-minimal@3.10.12-1~22.04.5
     PkgName: libpython3.10-minimal
@@ -2765,7 +3049,8 @@
       PURL: pkg:deb/ubuntu/libpython3.10-minimal@3.10.12-1~22.04.5?arch=amd64&distro=ubuntu-22.04
       UID: 8551ce10019ba333
     InstalledVersion: 3.10.12-1~22.04.5
-    Status: affected
+    FixedVersion: 3.10.12-1~22.04.6
+    Status: fixed
     Layer:
       Digest: sha256:eb4108e75dc6f8e6fc5a5e04197674c0d9a1dd13ec796f87aff09fd0a4bbd6ca
       DiffID: sha256:853b5d95f07f5f2e1b0bf3839c45f15d937b8d18ad499f49ad4553075cd9fdf4
@@ -2803,12 +3088,12 @@
     References:
     - http://python.org
     - https://access.redhat.com/articles/7051467
-    - https://access.redhat.com/errata/RHSA-2024:2292
+    - https://access.redhat.com/errata/RHSA-2024:3062
     - https://access.redhat.com/security/cve/CVE-2023-27043
     - https://bugzilla.redhat.com/2196183
     - https://bugzilla.redhat.com/show_bug.cgi?id=2196183
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-27043
-    - https://errata.almalinux.org/9/ALSA-2024-2292.html
+    - https://errata.almalinux.org/8/ALSA-2024-3062.html
     - https://errata.rockylinux.org/RLSA-2024:0256
     - https://github.com/python/cpython/issues/102988
     - https://github.com/python/cpython/pull/102990
@@ -2837,9 +3122,278 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-27043
     - https://python-security.readthedocs.io/vuln/email-parseaddr-realname.html
     - https://security.netapp.com/advisory/ntap-20230601-0003/
+    - https://ubuntu.com/security/notices/USN-7015-1
     - https://www.cve.org/CVERecord?id=CVE-2023-27043
     PublishedDate: '2023-04-19T00:15:07.973Z'
     LastModifiedDate: '2024-02-26T16:27:45.78Z'
+  - VulnerabilityID: CVE-2024-6232
+    PkgID: libpython3.10-minimal@3.10.12-1~22.04.5
+    PkgName: libpython3.10-minimal
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libpython3.10-minimal@3.10.12-1~22.04.5?arch=amd64&distro=ubuntu-22.04
+      UID: 8551ce10019ba333
+    InstalledVersion: 3.10.12-1~22.04.5
+    FixedVersion: 3.10.12-1~22.04.6
+    Status: fixed
+    Layer:
+      Digest: sha256:eb4108e75dc6f8e6fc5a5e04197674c0d9a1dd13ec796f87aff09fd0a4bbd6ca
+      DiffID: sha256:853b5d95f07f5f2e1b0bf3839c45f15d937b8d18ad499f49ad4553075cd9fdf4
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-6232
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'python: cpython: tarfile: ReDos via excessive backtracking while parsing header values'
+    Description: |-
+      There is a MEDIUM severity vulnerability affecting CPython.
+
+
+
+
+
+      Regular expressions that allowed excessive backtracking during tarfile.TarFile header parsing are vulnerable to ReDoS via specifically-crafted tar archives.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-1333
+    VendorSeverity:
+      bitnami: 3
+      nvd: 3
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-6232
+    - https://github.com/python/cpython/commit/4eaf4891c12589e3c7bdad5f5b076e4c8392dd06
+    - https://github.com/python/cpython/commit/743acbe872485dc18df4d8ab2dc7895187f062c4
+    - https://github.com/python/cpython/commit/7d1f50cd92ff7e10a1c15a8f591dde8a6843a64d
+    - https://github.com/python/cpython/commit/b4225ca91547aa97ed3aca391614afbb255bc877
+    - https://github.com/python/cpython/commit/d449caf8a179e3b954268b3a88eb9170be3c8fbf
+    - https://github.com/python/cpython/commit/ed3a49ea734ada357ff4442996fd4ae71d253373
+    - https://github.com/python/cpython/issues/121285
+    - https://github.com/python/cpython/pull/121286
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/JRYFTPRHZRTLMZLWQEUHZSJXNHM4ACTY/
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-6232
+    - https://ubuntu.com/security/notices/USN-7015-1
+    - https://www.cve.org/CVERecord?id=CVE-2024-6232
+    PublishedDate: '2024-09-03T13:15:05.363Z'
+    LastModifiedDate: '2024-09-04T21:15:14.48Z'
+  - VulnerabilityID: CVE-2024-6923
+    PkgID: libpython3.10-minimal@3.10.12-1~22.04.5
+    PkgName: libpython3.10-minimal
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libpython3.10-minimal@3.10.12-1~22.04.5?arch=amd64&distro=ubuntu-22.04
+      UID: 8551ce10019ba333
+    InstalledVersion: 3.10.12-1~22.04.5
+    FixedVersion: 3.10.12-1~22.04.6
+    Status: fixed
+    Layer:
+      Digest: sha256:eb4108e75dc6f8e6fc5a5e04197674c0d9a1dd13ec796f87aff09fd0a4bbd6ca
+      DiffID: sha256:853b5d95f07f5f2e1b0bf3839c45f15d937b8d18ad499f49ad4553075cd9fdf4
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-6923
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'cpython: python: email module doesn''t properly quotes newlines in email headers, allowing header injection'
+    Description: |-
+      There is a MEDIUM severity vulnerability affecting CPython.
+
+      The 
+      email module didn’t properly quote newlines for email headers when 
+      serializing an email message allowing for header injection when an email
+       is serialized.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-94
+    VendorSeverity:
+      alma: 2
+      bitnami: 2
+      oracle-oval: 2
+      photon: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:L/I:L/A:L
+        V3Score: 5.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:N
+        V3Score: 6.8
+    References:
+    - https://access.redhat.com/errata/RHSA-2024:5962
+    - https://access.redhat.com/security/cve/CVE-2024-6923
+    - https://bugzilla.redhat.com/2292921
+    - https://bugzilla.redhat.com/2297771
+    - https://bugzilla.redhat.com/2302255
+    - https://bugzilla.redhat.com/2307370
+    - https://errata.almalinux.org/8/ALSA-2024-5962.html
+    - https://github.com/python/cpython/commit/06f28dc236708f72871c64d4bc4b4ea144c50147
+    - https://github.com/python/cpython/commit/4766d1200fdf8b6728137aa2927a297e224d5fa7
+    - https://github.com/python/cpython/commit/4aaa4259b5a6e664b7316a4d60bdec7ee0f124d0
+    - https://github.com/python/cpython/commit/b158a76ce094897c870fb6b3de62887b7ccc33f1
+    - https://github.com/python/cpython/commit/f7be505d137a22528cb0fc004422c0081d5d90e6
+    - https://github.com/python/cpython/commit/f7c0f09e69e950cf3c5ada9dbde93898eb975533
+    - https://github.com/python/cpython/issues/121650
+    - https://github.com/python/cpython/pull/122233
+    - https://linux.oracle.com/cve/CVE-2024-6923.html
+    - https://linux.oracle.com/errata/ELSA-2024-6179.html
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/QH3BUOE2DYQBWP7NAQ7UNHPPOELKISRW/
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-6923
+    - https://ubuntu.com/security/notices/USN-7015-1
+    - https://www.cve.org/CVERecord?id=CVE-2024-6923
+    PublishedDate: '2024-08-01T14:15:03.647Z'
+    LastModifiedDate: '2024-09-04T21:15:14.567Z'
+  - VulnerabilityID: CVE-2024-8088
+    PkgID: libpython3.10-minimal@3.10.12-1~22.04.5
+    PkgName: libpython3.10-minimal
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libpython3.10-minimal@3.10.12-1~22.04.5?arch=amd64&distro=ubuntu-22.04
+      UID: 8551ce10019ba333
+    InstalledVersion: 3.10.12-1~22.04.5
+    FixedVersion: 3.10.12-1~22.04.6
+    Status: fixed
+    Layer:
+      Digest: sha256:eb4108e75dc6f8e6fc5a5e04197674c0d9a1dd13ec796f87aff09fd0a4bbd6ca
+      DiffID: sha256:853b5d95f07f5f2e1b0bf3839c45f15d937b8d18ad499f49ad4553075cd9fdf4
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-8088
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'python: cpython: Iterating over a malicious ZIP file may lead to Denial of Service'
+    Description: |-
+      There is a HIGH severity vulnerability affecting the CPython "zipfile"
+      module affecting "zipfile.Path". Note that the more common API "zipfile.ZipFile" class is unaffected.
+
+
+
+
+
+      When iterating over names of entries in a zip archive (for example, methods
+      of "zipfile.Path" like "namelist()", "iterdir()", etc)
+      the process can be put into an infinite loop with a maliciously crafted
+      zip archive. This defect applies when reading only metadata or extracting
+      the contents of the zip archive. Programs that are not handling
+      user-controlled zip archives are not affected.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-835
+    VendorSeverity:
+      alma: 2
+      oracle-oval: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 5.3
+    References:
+    - https://access.redhat.com/errata/RHSA-2024:5962
+    - https://access.redhat.com/security/cve/CVE-2024-8088
+    - https://bugzilla.redhat.com/2292921
+    - https://bugzilla.redhat.com/2297771
+    - https://bugzilla.redhat.com/2302255
+    - https://bugzilla.redhat.com/2307370
+    - https://errata.almalinux.org/8/ALSA-2024-5962.html
+    - https://github.com/python/cpython/commit/0aa1ee22ab6e204e9d3d0e9dd63ea648ed691ef1
+    - https://github.com/python/cpython/commit/2231286d78d328c2f575e0b05b16fe447d1656d6
+    - https://github.com/python/cpython/commit/795f2597a4be988e2bb19b69ff9958e981cb894e
+    - https://github.com/python/cpython/commit/7bc367e464ce50b956dd232c1dfa1cad4e7fb814
+    - https://github.com/python/cpython/commit/7e8883a3f04d308302361aeffc73e0e9837f19d4
+    - https://github.com/python/cpython/commit/8c7348939d8a3ecd79d630075f6be1b0c5b41f64
+    - https://github.com/python/cpython/commit/95b073bddefa6243effa08e131e297c0383e7f6a
+    - https://github.com/python/cpython/commit/962055268ed4f2ca1d717bfc8b6385de50a23ab7
+    - https://github.com/python/cpython/commit/dcc5182f27c1500006a1ef78e10613bb45788dea
+    - https://github.com/python/cpython/commit/e0264a61119d551658d9445af38323ba94fc16db
+    - https://github.com/python/cpython/commit/fc0b8259e693caa8400fa8b6ac1e494e47ea7798
+    - https://github.com/python/cpython/issues/122905
+    - https://github.com/python/cpython/issues/123270
+    - https://github.com/python/cpython/pull/122906
+    - https://linux.oracle.com/cve/CVE-2024-8088.html
+    - https://linux.oracle.com/errata/ELSA-2024-5962.html
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/GNFCKVI4TCATKQLALJ5SN4L4CSPSMILU/
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-8088
+    - https://ubuntu.com/security/notices/USN-7015-1
+    - https://www.cve.org/CVERecord?id=CVE-2024-8088
+    PublishedDate: '2024-08-22T19:15:09.72Z'
+    LastModifiedDate: '2024-09-04T23:15:13.1Z'
+  - VulnerabilityID: CVE-2024-7592
+    PkgID: libpython3.10-minimal@3.10.12-1~22.04.5
+    PkgName: libpython3.10-minimal
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libpython3.10-minimal@3.10.12-1~22.04.5?arch=amd64&distro=ubuntu-22.04
+      UID: 8551ce10019ba333
+    InstalledVersion: 3.10.12-1~22.04.5
+    FixedVersion: 3.10.12-1~22.04.6
+    Status: fixed
+    Layer:
+      Digest: sha256:eb4108e75dc6f8e6fc5a5e04197674c0d9a1dd13ec796f87aff09fd0a4bbd6ca
+      DiffID: sha256:853b5d95f07f5f2e1b0bf3839c45f15d937b8d18ad499f49ad4553075cd9fdf4
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-7592
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'cpython: python: Uncontrolled CPU resource consumption when in http.cookies module'
+    Description: |-
+      There is a LOW severity vulnerability affecting CPython, specifically the
+      'http.cookies' standard library module.
+
+
+      When parsing cookies that contained backslashes for quoted characters in
+      the cookie value, the parser would use an algorithm with quadratic
+      complexity, resulting in excess CPU resources being used while parsing the
+      value.
+    Severity: LOW
+    CweIDs:
+    - CWE-1333
+    - CWE-400
+    VendorSeverity:
+      azure: 3
+      bitnami: 3
+      cbl-mariner: 3
+      nvd: 3
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 4.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-7592
+    - https://github.com/python/cpython/commit/391e5626e3ee5af267b97e37abc7475732e67621
+    - https://github.com/python/cpython/commit/a77ab24427a18bff817025adb03ca920dc3f1a06
+    - https://github.com/python/cpython/commit/b2f11ca7667e4d57c71c1c88b255115f16042d9a
+    - https://github.com/python/cpython/commit/d4ac921a4b081f7f996a5d2b101684b67ba0ed7f
+    - https://github.com/python/cpython/commit/d662e2db2605515a767f88ad48096b8ac623c774
+    - https://github.com/python/cpython/commit/dcc3eaef98cd94d6cb6cb0f44bd1c903d04f33b1
+    - https://github.com/python/cpython/issues/123067
+    - https://github.com/python/cpython/pull/123075
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/HXJAAAALNUNGCQUS2W7WR6GFIZIHFOOK/
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-7592
+    - https://ubuntu.com/security/notices/USN-7015-1
+    - https://www.cve.org/CVERecord?id=CVE-2024-7592
+    PublishedDate: '2024-08-19T19:15:08.18Z'
+    LastModifiedDate: '2024-09-04T21:15:14.643Z'
   - VulnerabilityID: CVE-2023-27043
     PkgID: libpython3.10-stdlib@3.10.12-1~22.04.5
     PkgName: libpython3.10-stdlib
@@ -2847,7 +3401,8 @@
       PURL: pkg:deb/ubuntu/libpython3.10-stdlib@3.10.12-1~22.04.5?arch=amd64&distro=ubuntu-22.04
       UID: 94efb54ef51eff75
     InstalledVersion: 3.10.12-1~22.04.5
-    Status: affected
+    FixedVersion: 3.10.12-1~22.04.6
+    Status: fixed
     Layer:
       Digest: sha256:eb4108e75dc6f8e6fc5a5e04197674c0d9a1dd13ec796f87aff09fd0a4bbd6ca
       DiffID: sha256:853b5d95f07f5f2e1b0bf3839c45f15d937b8d18ad499f49ad4553075cd9fdf4
@@ -2885,12 +3440,12 @@
     References:
     - http://python.org
     - https://access.redhat.com/articles/7051467
-    - https://access.redhat.com/errata/RHSA-2024:2292
+    - https://access.redhat.com/errata/RHSA-2024:3062
     - https://access.redhat.com/security/cve/CVE-2023-27043
     - https://bugzilla.redhat.com/2196183
     - https://bugzilla.redhat.com/show_bug.cgi?id=2196183
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-27043
-    - https://errata.almalinux.org/9/ALSA-2024-2292.html
+    - https://errata.almalinux.org/8/ALSA-2024-3062.html
     - https://errata.rockylinux.org/RLSA-2024:0256
     - https://github.com/python/cpython/issues/102988
     - https://github.com/python/cpython/pull/102990
@@ -2919,9 +3474,278 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-27043
     - https://python-security.readthedocs.io/vuln/email-parseaddr-realname.html
     - https://security.netapp.com/advisory/ntap-20230601-0003/
+    - https://ubuntu.com/security/notices/USN-7015-1
     - https://www.cve.org/CVERecord?id=CVE-2023-27043
     PublishedDate: '2023-04-19T00:15:07.973Z'
     LastModifiedDate: '2024-02-26T16:27:45.78Z'
+  - VulnerabilityID: CVE-2024-6232
+    PkgID: libpython3.10-stdlib@3.10.12-1~22.04.5
+    PkgName: libpython3.10-stdlib
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libpython3.10-stdlib@3.10.12-1~22.04.5?arch=amd64&distro=ubuntu-22.04
+      UID: 94efb54ef51eff75
+    InstalledVersion: 3.10.12-1~22.04.5
+    FixedVersion: 3.10.12-1~22.04.6
+    Status: fixed
+    Layer:
+      Digest: sha256:eb4108e75dc6f8e6fc5a5e04197674c0d9a1dd13ec796f87aff09fd0a4bbd6ca
+      DiffID: sha256:853b5d95f07f5f2e1b0bf3839c45f15d937b8d18ad499f49ad4553075cd9fdf4
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-6232
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'python: cpython: tarfile: ReDos via excessive backtracking while parsing header values'
+    Description: |-
+      There is a MEDIUM severity vulnerability affecting CPython.
+
+
+
+
+
+      Regular expressions that allowed excessive backtracking during tarfile.TarFile header parsing are vulnerable to ReDoS via specifically-crafted tar archives.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-1333
+    VendorSeverity:
+      bitnami: 3
+      nvd: 3
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-6232
+    - https://github.com/python/cpython/commit/4eaf4891c12589e3c7bdad5f5b076e4c8392dd06
+    - https://github.com/python/cpython/commit/743acbe872485dc18df4d8ab2dc7895187f062c4
+    - https://github.com/python/cpython/commit/7d1f50cd92ff7e10a1c15a8f591dde8a6843a64d
+    - https://github.com/python/cpython/commit/b4225ca91547aa97ed3aca391614afbb255bc877
+    - https://github.com/python/cpython/commit/d449caf8a179e3b954268b3a88eb9170be3c8fbf
+    - https://github.com/python/cpython/commit/ed3a49ea734ada357ff4442996fd4ae71d253373
+    - https://github.com/python/cpython/issues/121285
+    - https://github.com/python/cpython/pull/121286
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/JRYFTPRHZRTLMZLWQEUHZSJXNHM4ACTY/
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-6232
+    - https://ubuntu.com/security/notices/USN-7015-1
+    - https://www.cve.org/CVERecord?id=CVE-2024-6232
+    PublishedDate: '2024-09-03T13:15:05.363Z'
+    LastModifiedDate: '2024-09-04T21:15:14.48Z'
+  - VulnerabilityID: CVE-2024-6923
+    PkgID: libpython3.10-stdlib@3.10.12-1~22.04.5
+    PkgName: libpython3.10-stdlib
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libpython3.10-stdlib@3.10.12-1~22.04.5?arch=amd64&distro=ubuntu-22.04
+      UID: 94efb54ef51eff75
+    InstalledVersion: 3.10.12-1~22.04.5
+    FixedVersion: 3.10.12-1~22.04.6
+    Status: fixed
+    Layer:
+      Digest: sha256:eb4108e75dc6f8e6fc5a5e04197674c0d9a1dd13ec796f87aff09fd0a4bbd6ca
+      DiffID: sha256:853b5d95f07f5f2e1b0bf3839c45f15d937b8d18ad499f49ad4553075cd9fdf4
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-6923
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'cpython: python: email module doesn''t properly quotes newlines in email headers, allowing header injection'
+    Description: |-
+      There is a MEDIUM severity vulnerability affecting CPython.
+
+      The 
+      email module didn’t properly quote newlines for email headers when 
+      serializing an email message allowing for header injection when an email
+       is serialized.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-94
+    VendorSeverity:
+      alma: 2
+      bitnami: 2
+      oracle-oval: 2
+      photon: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:L/I:L/A:L
+        V3Score: 5.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:N
+        V3Score: 6.8
+    References:
+    - https://access.redhat.com/errata/RHSA-2024:5962
+    - https://access.redhat.com/security/cve/CVE-2024-6923
+    - https://bugzilla.redhat.com/2292921
+    - https://bugzilla.redhat.com/2297771
+    - https://bugzilla.redhat.com/2302255
+    - https://bugzilla.redhat.com/2307370
+    - https://errata.almalinux.org/8/ALSA-2024-5962.html
+    - https://github.com/python/cpython/commit/06f28dc236708f72871c64d4bc4b4ea144c50147
+    - https://github.com/python/cpython/commit/4766d1200fdf8b6728137aa2927a297e224d5fa7
+    - https://github.com/python/cpython/commit/4aaa4259b5a6e664b7316a4d60bdec7ee0f124d0
+    - https://github.com/python/cpython/commit/b158a76ce094897c870fb6b3de62887b7ccc33f1
+    - https://github.com/python/cpython/commit/f7be505d137a22528cb0fc004422c0081d5d90e6
+    - https://github.com/python/cpython/commit/f7c0f09e69e950cf3c5ada9dbde93898eb975533
+    - https://github.com/python/cpython/issues/121650
+    - https://github.com/python/cpython/pull/122233
+    - https://linux.oracle.com/cve/CVE-2024-6923.html
+    - https://linux.oracle.com/errata/ELSA-2024-6179.html
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/QH3BUOE2DYQBWP7NAQ7UNHPPOELKISRW/
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-6923
+    - https://ubuntu.com/security/notices/USN-7015-1
+    - https://www.cve.org/CVERecord?id=CVE-2024-6923
+    PublishedDate: '2024-08-01T14:15:03.647Z'
+    LastModifiedDate: '2024-09-04T21:15:14.567Z'
+  - VulnerabilityID: CVE-2024-8088
+    PkgID: libpython3.10-stdlib@3.10.12-1~22.04.5
+    PkgName: libpython3.10-stdlib
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libpython3.10-stdlib@3.10.12-1~22.04.5?arch=amd64&distro=ubuntu-22.04
+      UID: 94efb54ef51eff75
+    InstalledVersion: 3.10.12-1~22.04.5
+    FixedVersion: 3.10.12-1~22.04.6
+    Status: fixed
+    Layer:
+      Digest: sha256:eb4108e75dc6f8e6fc5a5e04197674c0d9a1dd13ec796f87aff09fd0a4bbd6ca
+      DiffID: sha256:853b5d95f07f5f2e1b0bf3839c45f15d937b8d18ad499f49ad4553075cd9fdf4
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-8088
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'python: cpython: Iterating over a malicious ZIP file may lead to Denial of Service'
+    Description: |-
+      There is a HIGH severity vulnerability affecting the CPython "zipfile"
+      module affecting "zipfile.Path". Note that the more common API "zipfile.ZipFile" class is unaffected.
+
+
+
+
+
+      When iterating over names of entries in a zip archive (for example, methods
+      of "zipfile.Path" like "namelist()", "iterdir()", etc)
+      the process can be put into an infinite loop with a maliciously crafted
+      zip archive. This defect applies when reading only metadata or extracting
+      the contents of the zip archive. Programs that are not handling
+      user-controlled zip archives are not affected.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-835
+    VendorSeverity:
+      alma: 2
+      oracle-oval: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 5.3
+    References:
+    - https://access.redhat.com/errata/RHSA-2024:5962
+    - https://access.redhat.com/security/cve/CVE-2024-8088
+    - https://bugzilla.redhat.com/2292921
+    - https://bugzilla.redhat.com/2297771
+    - https://bugzilla.redhat.com/2302255
+    - https://bugzilla.redhat.com/2307370
+    - https://errata.almalinux.org/8/ALSA-2024-5962.html
+    - https://github.com/python/cpython/commit/0aa1ee22ab6e204e9d3d0e9dd63ea648ed691ef1
+    - https://github.com/python/cpython/commit/2231286d78d328c2f575e0b05b16fe447d1656d6
+    - https://github.com/python/cpython/commit/795f2597a4be988e2bb19b69ff9958e981cb894e
+    - https://github.com/python/cpython/commit/7bc367e464ce50b956dd232c1dfa1cad4e7fb814
+    - https://github.com/python/cpython/commit/7e8883a3f04d308302361aeffc73e0e9837f19d4
+    - https://github.com/python/cpython/commit/8c7348939d8a3ecd79d630075f6be1b0c5b41f64
+    - https://github.com/python/cpython/commit/95b073bddefa6243effa08e131e297c0383e7f6a
+    - https://github.com/python/cpython/commit/962055268ed4f2ca1d717bfc8b6385de50a23ab7
+    - https://github.com/python/cpython/commit/dcc5182f27c1500006a1ef78e10613bb45788dea
+    - https://github.com/python/cpython/commit/e0264a61119d551658d9445af38323ba94fc16db
+    - https://github.com/python/cpython/commit/fc0b8259e693caa8400fa8b6ac1e494e47ea7798
+    - https://github.com/python/cpython/issues/122905
+    - https://github.com/python/cpython/issues/123270
+    - https://github.com/python/cpython/pull/122906
+    - https://linux.oracle.com/cve/CVE-2024-8088.html
+    - https://linux.oracle.com/errata/ELSA-2024-5962.html
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/GNFCKVI4TCATKQLALJ5SN4L4CSPSMILU/
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-8088
+    - https://ubuntu.com/security/notices/USN-7015-1
+    - https://www.cve.org/CVERecord?id=CVE-2024-8088
+    PublishedDate: '2024-08-22T19:15:09.72Z'
+    LastModifiedDate: '2024-09-04T23:15:13.1Z'
+  - VulnerabilityID: CVE-2024-7592
+    PkgID: libpython3.10-stdlib@3.10.12-1~22.04.5
+    PkgName: libpython3.10-stdlib
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libpython3.10-stdlib@3.10.12-1~22.04.5?arch=amd64&distro=ubuntu-22.04
+      UID: 94efb54ef51eff75
+    InstalledVersion: 3.10.12-1~22.04.5
+    FixedVersion: 3.10.12-1~22.04.6
+    Status: fixed
+    Layer:
+      Digest: sha256:eb4108e75dc6f8e6fc5a5e04197674c0d9a1dd13ec796f87aff09fd0a4bbd6ca
+      DiffID: sha256:853b5d95f07f5f2e1b0bf3839c45f15d937b8d18ad499f49ad4553075cd9fdf4
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-7592
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'cpython: python: Uncontrolled CPU resource consumption when in http.cookies module'
+    Description: |-
+      There is a LOW severity vulnerability affecting CPython, specifically the
+      'http.cookies' standard library module.
+
+
+      When parsing cookies that contained backslashes for quoted characters in
+      the cookie value, the parser would use an algorithm with quadratic
+      complexity, resulting in excess CPU resources being used while parsing the
+      value.
+    Severity: LOW
+    CweIDs:
+    - CWE-1333
+    - CWE-400
+    VendorSeverity:
+      azure: 3
+      bitnami: 3
+      cbl-mariner: 3
+      nvd: 3
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 4.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-7592
+    - https://github.com/python/cpython/commit/391e5626e3ee5af267b97e37abc7475732e67621
+    - https://github.com/python/cpython/commit/a77ab24427a18bff817025adb03ca920dc3f1a06
+    - https://github.com/python/cpython/commit/b2f11ca7667e4d57c71c1c88b255115f16042d9a
+    - https://github.com/python/cpython/commit/d4ac921a4b081f7f996a5d2b101684b67ba0ed7f
+    - https://github.com/python/cpython/commit/d662e2db2605515a767f88ad48096b8ac623c774
+    - https://github.com/python/cpython/commit/dcc3eaef98cd94d6cb6cb0f44bd1c903d04f33b1
+    - https://github.com/python/cpython/issues/123067
+    - https://github.com/python/cpython/pull/123075
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/HXJAAAALNUNGCQUS2W7WR6GFIZIHFOOK/
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-7592
+    - https://ubuntu.com/security/notices/USN-7015-1
+    - https://www.cve.org/CVERecord?id=CVE-2024-7592
+    PublishedDate: '2024-08-19T19:15:08.18Z'
+    LastModifiedDate: '2024-09-04T21:15:14.643Z'
   - VulnerabilityID: CVE-2024-41996
     PkgID: libssl3@3.0.2-0ubuntu1.18
     PkgName: libssl3
@@ -2957,6 +3781,7 @@
     - https://dheatattack.gitlab.io/faq/
     - https://gist.github.com/c0r0n3r/abccc14d4d96c0442f3a77fa5ca255d1
     - https://github.com/openssl/openssl/issues/17374
+    - https://github.com/openssl/openssl/pull/25088
     - https://nvd.nist.gov/vuln/detail/CVE-2024-41996
     - https://openssl-library.org/post/2022-10-21-tls-groups-configuration/
     - https://www.cve.org/CVERecord?id=CVE-2024-41996
@@ -3057,17 +3882,15 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222261
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222672
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-7008
-    - https://errata.almalinux.org/9/ALSA-2024-2463.html
+    - https://errata.almalinux.org/8/ALSA-2024-3203.html
     - https://errata.rockylinux.org/RLSA-2024:2463
     - https://github.com/systemd/systemd/issues/25676
     - https://linux.oracle.com/cve/CVE-2023-7008.html
     - https://linux.oracle.com/errata/ELSA-2024-3203.html
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4GMDEG5PKONWNHOEYSUDRT6JEOISRMN2/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QHNBXGKJWISJETTTDTZKTBFIBJUOSLKL/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-7008
     - https://www.cve.org/CVERecord?id=CVE-2023-7008
     PublishedDate: '2023-12-23T13:15:07.573Z'
-    LastModifiedDate: '2024-05-22T17:16:10.83Z'
+    LastModifiedDate: '2024-09-16T17:16:02.17Z'
   - VulnerabilityID: CVE-2024-7006
     PkgID: libtiff5@4.3.0-6ubuntu0.9
     PkgName: libtiff5
@@ -3266,17 +4089,15 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222261
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222672
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-7008
-    - https://errata.almalinux.org/9/ALSA-2024-2463.html
+    - https://errata.almalinux.org/8/ALSA-2024-3203.html
     - https://errata.rockylinux.org/RLSA-2024:2463
     - https://github.com/systemd/systemd/issues/25676
     - https://linux.oracle.com/cve/CVE-2023-7008.html
     - https://linux.oracle.com/errata/ELSA-2024-3203.html
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4GMDEG5PKONWNHOEYSUDRT6JEOISRMN2/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QHNBXGKJWISJETTTDTZKTBFIBJUOSLKL/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-7008
     - https://www.cve.org/CVERecord?id=CVE-2023-7008
     PublishedDate: '2023-12-23T13:15:07.573Z'
-    LastModifiedDate: '2024-05-22T17:16:10.83Z'
+    LastModifiedDate: '2024-09-16T17:16:02.17Z'
   - VulnerabilityID: CVE-2022-4899
     PkgID: libzstd1@1.4.8+dfsg-3build1
     PkgName: libzstd1
@@ -3320,7 +4141,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2024:1141
+    - https://access.redhat.com/errata/RHSA-2024:0894
     - https://access.redhat.com/security/cve/CVE-2022-4899
     - https://bugzilla.redhat.com/2179864
     - https://bugzilla.redhat.com/2188109
@@ -3397,7 +4218,7 @@
     - https://bugzilla.redhat.com/2258792
     - https://bugzilla.redhat.com/2258793
     - https://bugzilla.redhat.com/2258794
-    - https://errata.almalinux.org/9/ALSA-2024-1141.html
+    - https://errata.almalinux.org/8/ALSA-2024-0894.html
     - https://github.com/facebook/zstd
     - https://github.com/facebook/zstd/issues/3200
     - https://github.com/facebook/zstd/pull/3220
@@ -3705,7 +4526,8 @@
       PURL: pkg:deb/ubuntu/nginx@1.18.0-6ubuntu14.4?arch=amd64&distro=ubuntu-22.04
       UID: babe1c395023c3ca
     InstalledVersion: 1.18.0-6ubuntu14.4
-    Status: affected
+    FixedVersion: 1.18.0-6ubuntu14.5
+    Status: fixed
     Layer:
       Digest: sha256:eb4108e75dc6f8e6fc5a5e04197674c0d9a1dd13ec796f87aff09fd0a4bbd6ca
       DiffID: sha256:853b5d95f07f5f2e1b0bf3839c45f15d937b8d18ad499f49ad4553075cd9fdf4
@@ -3744,6 +4566,7 @@
     - https://forum.nginx.org/read.php?27,300027
     - https://my.f5.com/manage/s/article/K000140529
     - https://nvd.nist.gov/vuln/detail/CVE-2024-7347
+    - https://ubuntu.com/security/notices/USN-7014-1
     - https://www.cve.org/CVERecord?id=CVE-2024-7347
     PublishedDate: '2024-08-14T15:15:31.87Z'
     LastModifiedDate: '2024-08-20T19:25:17.513Z'
@@ -3754,7 +4577,8 @@
       PURL: pkg:deb/ubuntu/nginx-common@1.18.0-6ubuntu14.4?arch=all&distro=ubuntu-22.04
       UID: e691658a6e0cca79
     InstalledVersion: 1.18.0-6ubuntu14.4
-    Status: affected
+    FixedVersion: 1.18.0-6ubuntu14.5
+    Status: fixed
     Layer:
       Digest: sha256:eb4108e75dc6f8e6fc5a5e04197674c0d9a1dd13ec796f87aff09fd0a4bbd6ca
       DiffID: sha256:853b5d95f07f5f2e1b0bf3839c45f15d937b8d18ad499f49ad4553075cd9fdf4
@@ -3793,6 +4617,7 @@
     - https://forum.nginx.org/read.php?27,300027
     - https://my.f5.com/manage/s/article/K000140529
     - https://nvd.nist.gov/vuln/detail/CVE-2024-7347
+    - https://ubuntu.com/security/notices/USN-7014-1
     - https://www.cve.org/CVERecord?id=CVE-2024-7347
     PublishedDate: '2024-08-14T15:15:31.87Z'
     LastModifiedDate: '2024-08-20T19:25:17.513Z'
@@ -3803,7 +4628,8 @@
       PURL: pkg:deb/ubuntu/nginx-core@1.18.0-6ubuntu14.4?arch=amd64&distro=ubuntu-22.04
       UID: 6b79329858a272c3
     InstalledVersion: 1.18.0-6ubuntu14.4
-    Status: affected
+    FixedVersion: 1.18.0-6ubuntu14.5
+    Status: fixed
     Layer:
       Digest: sha256:eb4108e75dc6f8e6fc5a5e04197674c0d9a1dd13ec796f87aff09fd0a4bbd6ca
       DiffID: sha256:853b5d95f07f5f2e1b0bf3839c45f15d937b8d18ad499f49ad4553075cd9fdf4
@@ -3842,6 +4668,7 @@
     - https://forum.nginx.org/read.php?27,300027
     - https://my.f5.com/manage/s/article/K000140529
     - https://nvd.nist.gov/vuln/detail/CVE-2024-7347
+    - https://ubuntu.com/security/notices/USN-7014-1
     - https://www.cve.org/CVERecord?id=CVE-2024-7347
     PublishedDate: '2024-08-14T15:15:31.87Z'
     LastModifiedDate: '2024-08-20T19:25:17.513Z'
@@ -3880,6 +4707,7 @@
     - https://dheatattack.gitlab.io/faq/
     - https://gist.github.com/c0r0n3r/abccc14d4d96c0442f3a77fa5ca255d1
     - https://github.com/openssl/openssl/issues/17374
+    - https://github.com/openssl/openssl/pull/25088
     - https://nvd.nist.gov/vuln/detail/CVE-2024-41996
     - https://openssl-library.org/post/2022-10-21-tls-groups-configuration/
     - https://www.cve.org/CVERecord?id=CVE-2024-41996
@@ -3936,7 +4764,8 @@
       PURL: pkg:deb/ubuntu/python3.10@3.10.12-1~22.04.5?arch=amd64&distro=ubuntu-22.04
       UID: 614e929f50047f8e
     InstalledVersion: 3.10.12-1~22.04.5
-    Status: affected
+    FixedVersion: 3.10.12-1~22.04.6
+    Status: fixed
     Layer:
       Digest: sha256:eb4108e75dc6f8e6fc5a5e04197674c0d9a1dd13ec796f87aff09fd0a4bbd6ca
       DiffID: sha256:853b5d95f07f5f2e1b0bf3839c45f15d937b8d18ad499f49ad4553075cd9fdf4
@@ -3974,12 +4803,12 @@
     References:
     - http://python.org
     - https://access.redhat.com/articles/7051467
-    - https://access.redhat.com/errata/RHSA-2024:2292
+    - https://access.redhat.com/errata/RHSA-2024:3062
     - https://access.redhat.com/security/cve/CVE-2023-27043
     - https://bugzilla.redhat.com/2196183
     - https://bugzilla.redhat.com/show_bug.cgi?id=2196183
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-27043
-    - https://errata.almalinux.org/9/ALSA-2024-2292.html
+    - https://errata.almalinux.org/8/ALSA-2024-3062.html
     - https://errata.rockylinux.org/RLSA-2024:0256
     - https://github.com/python/cpython/issues/102988
     - https://github.com/python/cpython/pull/102990
@@ -4008,9 +4837,278 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-27043
     - https://python-security.readthedocs.io/vuln/email-parseaddr-realname.html
     - https://security.netapp.com/advisory/ntap-20230601-0003/
+    - https://ubuntu.com/security/notices/USN-7015-1
     - https://www.cve.org/CVERecord?id=CVE-2023-27043
     PublishedDate: '2023-04-19T00:15:07.973Z'
     LastModifiedDate: '2024-02-26T16:27:45.78Z'
+  - VulnerabilityID: CVE-2024-6232
+    PkgID: python3.10@3.10.12-1~22.04.5
+    PkgName: python3.10
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/python3.10@3.10.12-1~22.04.5?arch=amd64&distro=ubuntu-22.04
+      UID: 614e929f50047f8e
+    InstalledVersion: 3.10.12-1~22.04.5
+    FixedVersion: 3.10.12-1~22.04.6
+    Status: fixed
+    Layer:
+      Digest: sha256:eb4108e75dc6f8e6fc5a5e04197674c0d9a1dd13ec796f87aff09fd0a4bbd6ca
+      DiffID: sha256:853b5d95f07f5f2e1b0bf3839c45f15d937b8d18ad499f49ad4553075cd9fdf4
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-6232
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'python: cpython: tarfile: ReDos via excessive backtracking while parsing header values'
+    Description: |-
+      There is a MEDIUM severity vulnerability affecting CPython.
+
+
+
+
+
+      Regular expressions that allowed excessive backtracking during tarfile.TarFile header parsing are vulnerable to ReDoS via specifically-crafted tar archives.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-1333
+    VendorSeverity:
+      bitnami: 3
+      nvd: 3
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-6232
+    - https://github.com/python/cpython/commit/4eaf4891c12589e3c7bdad5f5b076e4c8392dd06
+    - https://github.com/python/cpython/commit/743acbe872485dc18df4d8ab2dc7895187f062c4
+    - https://github.com/python/cpython/commit/7d1f50cd92ff7e10a1c15a8f591dde8a6843a64d
+    - https://github.com/python/cpython/commit/b4225ca91547aa97ed3aca391614afbb255bc877
+    - https://github.com/python/cpython/commit/d449caf8a179e3b954268b3a88eb9170be3c8fbf
+    - https://github.com/python/cpython/commit/ed3a49ea734ada357ff4442996fd4ae71d253373
+    - https://github.com/python/cpython/issues/121285
+    - https://github.com/python/cpython/pull/121286
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/JRYFTPRHZRTLMZLWQEUHZSJXNHM4ACTY/
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-6232
+    - https://ubuntu.com/security/notices/USN-7015-1
+    - https://www.cve.org/CVERecord?id=CVE-2024-6232
+    PublishedDate: '2024-09-03T13:15:05.363Z'
+    LastModifiedDate: '2024-09-04T21:15:14.48Z'
+  - VulnerabilityID: CVE-2024-6923
+    PkgID: python3.10@3.10.12-1~22.04.5
+    PkgName: python3.10
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/python3.10@3.10.12-1~22.04.5?arch=amd64&distro=ubuntu-22.04
+      UID: 614e929f50047f8e
+    InstalledVersion: 3.10.12-1~22.04.5
+    FixedVersion: 3.10.12-1~22.04.6
+    Status: fixed
+    Layer:
+      Digest: sha256:eb4108e75dc6f8e6fc5a5e04197674c0d9a1dd13ec796f87aff09fd0a4bbd6ca
+      DiffID: sha256:853b5d95f07f5f2e1b0bf3839c45f15d937b8d18ad499f49ad4553075cd9fdf4
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-6923
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'cpython: python: email module doesn''t properly quotes newlines in email headers, allowing header injection'
+    Description: |-
+      There is a MEDIUM severity vulnerability affecting CPython.
+
+      The 
+      email module didn’t properly quote newlines for email headers when 
+      serializing an email message allowing for header injection when an email
+       is serialized.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-94
+    VendorSeverity:
+      alma: 2
+      bitnami: 2
+      oracle-oval: 2
+      photon: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:L/I:L/A:L
+        V3Score: 5.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:N
+        V3Score: 6.8
+    References:
+    - https://access.redhat.com/errata/RHSA-2024:5962
+    - https://access.redhat.com/security/cve/CVE-2024-6923
+    - https://bugzilla.redhat.com/2292921
+    - https://bugzilla.redhat.com/2297771
+    - https://bugzilla.redhat.com/2302255
+    - https://bugzilla.redhat.com/2307370
+    - https://errata.almalinux.org/8/ALSA-2024-5962.html
+    - https://github.com/python/cpython/commit/06f28dc236708f72871c64d4bc4b4ea144c50147
+    - https://github.com/python/cpython/commit/4766d1200fdf8b6728137aa2927a297e224d5fa7
+    - https://github.com/python/cpython/commit/4aaa4259b5a6e664b7316a4d60bdec7ee0f124d0
+    - https://github.com/python/cpython/commit/b158a76ce094897c870fb6b3de62887b7ccc33f1
+    - https://github.com/python/cpython/commit/f7be505d137a22528cb0fc004422c0081d5d90e6
+    - https://github.com/python/cpython/commit/f7c0f09e69e950cf3c5ada9dbde93898eb975533
+    - https://github.com/python/cpython/issues/121650
+    - https://github.com/python/cpython/pull/122233
+    - https://linux.oracle.com/cve/CVE-2024-6923.html
+    - https://linux.oracle.com/errata/ELSA-2024-6179.html
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/QH3BUOE2DYQBWP7NAQ7UNHPPOELKISRW/
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-6923
+    - https://ubuntu.com/security/notices/USN-7015-1
+    - https://www.cve.org/CVERecord?id=CVE-2024-6923
+    PublishedDate: '2024-08-01T14:15:03.647Z'
+    LastModifiedDate: '2024-09-04T21:15:14.567Z'
+  - VulnerabilityID: CVE-2024-8088
+    PkgID: python3.10@3.10.12-1~22.04.5
+    PkgName: python3.10
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/python3.10@3.10.12-1~22.04.5?arch=amd64&distro=ubuntu-22.04
+      UID: 614e929f50047f8e
+    InstalledVersion: 3.10.12-1~22.04.5
+    FixedVersion: 3.10.12-1~22.04.6
+    Status: fixed
+    Layer:
+      Digest: sha256:eb4108e75dc6f8e6fc5a5e04197674c0d9a1dd13ec796f87aff09fd0a4bbd6ca
+      DiffID: sha256:853b5d95f07f5f2e1b0bf3839c45f15d937b8d18ad499f49ad4553075cd9fdf4
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-8088
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'python: cpython: Iterating over a malicious ZIP file may lead to Denial of Service'
+    Description: |-
+      There is a HIGH severity vulnerability affecting the CPython "zipfile"
+      module affecting "zipfile.Path". Note that the more common API "zipfile.ZipFile" class is unaffected.
+
+
+
+
+
+      When iterating over names of entries in a zip archive (for example, methods
+      of "zipfile.Path" like "namelist()", "iterdir()", etc)
+      the process can be put into an infinite loop with a maliciously crafted
+      zip archive. This defect applies when reading only metadata or extracting
+      the contents of the zip archive. Programs that are not handling
+      user-controlled zip archives are not affected.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-835
+    VendorSeverity:
+      alma: 2
+      oracle-oval: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 5.3
+    References:
+    - https://access.redhat.com/errata/RHSA-2024:5962
+    - https://access.redhat.com/security/cve/CVE-2024-8088
+    - https://bugzilla.redhat.com/2292921
+    - https://bugzilla.redhat.com/2297771
+    - https://bugzilla.redhat.com/2302255
+    - https://bugzilla.redhat.com/2307370
+    - https://errata.almalinux.org/8/ALSA-2024-5962.html
+    - https://github.com/python/cpython/commit/0aa1ee22ab6e204e9d3d0e9dd63ea648ed691ef1
+    - https://github.com/python/cpython/commit/2231286d78d328c2f575e0b05b16fe447d1656d6
+    - https://github.com/python/cpython/commit/795f2597a4be988e2bb19b69ff9958e981cb894e
+    - https://github.com/python/cpython/commit/7bc367e464ce50b956dd232c1dfa1cad4e7fb814
+    - https://github.com/python/cpython/commit/7e8883a3f04d308302361aeffc73e0e9837f19d4
+    - https://github.com/python/cpython/commit/8c7348939d8a3ecd79d630075f6be1b0c5b41f64
+    - https://github.com/python/cpython/commit/95b073bddefa6243effa08e131e297c0383e7f6a
+    - https://github.com/python/cpython/commit/962055268ed4f2ca1d717bfc8b6385de50a23ab7
+    - https://github.com/python/cpython/commit/dcc5182f27c1500006a1ef78e10613bb45788dea
+    - https://github.com/python/cpython/commit/e0264a61119d551658d9445af38323ba94fc16db
+    - https://github.com/python/cpython/commit/fc0b8259e693caa8400fa8b6ac1e494e47ea7798
+    - https://github.com/python/cpython/issues/122905
+    - https://github.com/python/cpython/issues/123270
+    - https://github.com/python/cpython/pull/122906
+    - https://linux.oracle.com/cve/CVE-2024-8088.html
+    - https://linux.oracle.com/errata/ELSA-2024-5962.html
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/GNFCKVI4TCATKQLALJ5SN4L4CSPSMILU/
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-8088
+    - https://ubuntu.com/security/notices/USN-7015-1
+    - https://www.cve.org/CVERecord?id=CVE-2024-8088
+    PublishedDate: '2024-08-22T19:15:09.72Z'
+    LastModifiedDate: '2024-09-04T23:15:13.1Z'
+  - VulnerabilityID: CVE-2024-7592
+    PkgID: python3.10@3.10.12-1~22.04.5
+    PkgName: python3.10
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/python3.10@3.10.12-1~22.04.5?arch=amd64&distro=ubuntu-22.04
+      UID: 614e929f50047f8e
+    InstalledVersion: 3.10.12-1~22.04.5
+    FixedVersion: 3.10.12-1~22.04.6
+    Status: fixed
+    Layer:
+      Digest: sha256:eb4108e75dc6f8e6fc5a5e04197674c0d9a1dd13ec796f87aff09fd0a4bbd6ca
+      DiffID: sha256:853b5d95f07f5f2e1b0bf3839c45f15d937b8d18ad499f49ad4553075cd9fdf4
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-7592
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'cpython: python: Uncontrolled CPU resource consumption when in http.cookies module'
+    Description: |-
+      There is a LOW severity vulnerability affecting CPython, specifically the
+      'http.cookies' standard library module.
+
+
+      When parsing cookies that contained backslashes for quoted characters in
+      the cookie value, the parser would use an algorithm with quadratic
+      complexity, resulting in excess CPU resources being used while parsing the
+      value.
+    Severity: LOW
+    CweIDs:
+    - CWE-1333
+    - CWE-400
+    VendorSeverity:
+      azure: 3
+      bitnami: 3
+      cbl-mariner: 3
+      nvd: 3
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 4.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-7592
+    - https://github.com/python/cpython/commit/391e5626e3ee5af267b97e37abc7475732e67621
+    - https://github.com/python/cpython/commit/a77ab24427a18bff817025adb03ca920dc3f1a06
+    - https://github.com/python/cpython/commit/b2f11ca7667e4d57c71c1c88b255115f16042d9a
+    - https://github.com/python/cpython/commit/d4ac921a4b081f7f996a5d2b101684b67ba0ed7f
+    - https://github.com/python/cpython/commit/d662e2db2605515a767f88ad48096b8ac623c774
+    - https://github.com/python/cpython/commit/dcc3eaef98cd94d6cb6cb0f44bd1c903d04f33b1
+    - https://github.com/python/cpython/issues/123067
+    - https://github.com/python/cpython/pull/123075
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/HXJAAAALNUNGCQUS2W7WR6GFIZIHFOOK/
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-7592
+    - https://ubuntu.com/security/notices/USN-7015-1
+    - https://www.cve.org/CVERecord?id=CVE-2024-7592
+    PublishedDate: '2024-08-19T19:15:08.18Z'
+    LastModifiedDate: '2024-09-04T21:15:14.643Z'
   - VulnerabilityID: CVE-2023-27043
     PkgID: python3.10-minimal@3.10.12-1~22.04.5
     PkgName: python3.10-minimal
@@ -4018,7 +5116,8 @@
       PURL: pkg:deb/ubuntu/python3.10-minimal@3.10.12-1~22.04.5?arch=amd64&distro=ubuntu-22.04
       UID: c4f8635ddb4c4ff9
     InstalledVersion: 3.10.12-1~22.04.5
-    Status: affected
+    FixedVersion: 3.10.12-1~22.04.6
+    Status: fixed
     Layer:
       Digest: sha256:eb4108e75dc6f8e6fc5a5e04197674c0d9a1dd13ec796f87aff09fd0a4bbd6ca
       DiffID: sha256:853b5d95f07f5f2e1b0bf3839c45f15d937b8d18ad499f49ad4553075cd9fdf4
@@ -4056,12 +5155,12 @@
     References:
     - http://python.org
     - https://access.redhat.com/articles/7051467
-    - https://access.redhat.com/errata/RHSA-2024:2292
+    - https://access.redhat.com/errata/RHSA-2024:3062
     - https://access.redhat.com/security/cve/CVE-2023-27043
     - https://bugzilla.redhat.com/2196183
     - https://bugzilla.redhat.com/show_bug.cgi?id=2196183
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-27043
-    - https://errata.almalinux.org/9/ALSA-2024-2292.html
+    - https://errata.almalinux.org/8/ALSA-2024-3062.html
     - https://errata.rockylinux.org/RLSA-2024:0256
     - https://github.com/python/cpython/issues/102988
     - https://github.com/python/cpython/pull/102990
@@ -4090,9 +5189,278 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-27043
     - https://python-security.readthedocs.io/vuln/email-parseaddr-realname.html
     - https://security.netapp.com/advisory/ntap-20230601-0003/
+    - https://ubuntu.com/security/notices/USN-7015-1
     - https://www.cve.org/CVERecord?id=CVE-2023-27043
     PublishedDate: '2023-04-19T00:15:07.973Z'
     LastModifiedDate: '2024-02-26T16:27:45.78Z'
+  - VulnerabilityID: CVE-2024-6232
+    PkgID: python3.10-minimal@3.10.12-1~22.04.5
+    PkgName: python3.10-minimal
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/python3.10-minimal@3.10.12-1~22.04.5?arch=amd64&distro=ubuntu-22.04
+      UID: c4f8635ddb4c4ff9
+    InstalledVersion: 3.10.12-1~22.04.5
+    FixedVersion: 3.10.12-1~22.04.6
+    Status: fixed
+    Layer:
+      Digest: sha256:eb4108e75dc6f8e6fc5a5e04197674c0d9a1dd13ec796f87aff09fd0a4bbd6ca
+      DiffID: sha256:853b5d95f07f5f2e1b0bf3839c45f15d937b8d18ad499f49ad4553075cd9fdf4
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-6232
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'python: cpython: tarfile: ReDos via excessive backtracking while parsing header values'
+    Description: |-
+      There is a MEDIUM severity vulnerability affecting CPython.
+
+
+
+
+
+      Regular expressions that allowed excessive backtracking during tarfile.TarFile header parsing are vulnerable to ReDoS via specifically-crafted tar archives.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-1333
+    VendorSeverity:
+      bitnami: 3
+      nvd: 3
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-6232
+    - https://github.com/python/cpython/commit/4eaf4891c12589e3c7bdad5f5b076e4c8392dd06
+    - https://github.com/python/cpython/commit/743acbe872485dc18df4d8ab2dc7895187f062c4
+    - https://github.com/python/cpython/commit/7d1f50cd92ff7e10a1c15a8f591dde8a6843a64d
+    - https://github.com/python/cpython/commit/b4225ca91547aa97ed3aca391614afbb255bc877
+    - https://github.com/python/cpython/commit/d449caf8a179e3b954268b3a88eb9170be3c8fbf
+    - https://github.com/python/cpython/commit/ed3a49ea734ada357ff4442996fd4ae71d253373
+    - https://github.com/python/cpython/issues/121285
+    - https://github.com/python/cpython/pull/121286
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/JRYFTPRHZRTLMZLWQEUHZSJXNHM4ACTY/
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-6232
+    - https://ubuntu.com/security/notices/USN-7015-1
+    - https://www.cve.org/CVERecord?id=CVE-2024-6232
+    PublishedDate: '2024-09-03T13:15:05.363Z'
+    LastModifiedDate: '2024-09-04T21:15:14.48Z'
+  - VulnerabilityID: CVE-2024-6923
+    PkgID: python3.10-minimal@3.10.12-1~22.04.5
+    PkgName: python3.10-minimal
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/python3.10-minimal@3.10.12-1~22.04.5?arch=amd64&distro=ubuntu-22.04
+      UID: c4f8635ddb4c4ff9
+    InstalledVersion: 3.10.12-1~22.04.5
+    FixedVersion: 3.10.12-1~22.04.6
+    Status: fixed
+    Layer:
+      Digest: sha256:eb4108e75dc6f8e6fc5a5e04197674c0d9a1dd13ec796f87aff09fd0a4bbd6ca
+      DiffID: sha256:853b5d95f07f5f2e1b0bf3839c45f15d937b8d18ad499f49ad4553075cd9fdf4
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-6923
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'cpython: python: email module doesn''t properly quotes newlines in email headers, allowing header injection'
+    Description: |-
+      There is a MEDIUM severity vulnerability affecting CPython.
+
+      The 
+      email module didn’t properly quote newlines for email headers when 
+      serializing an email message allowing for header injection when an email
+       is serialized.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-94
+    VendorSeverity:
+      alma: 2
+      bitnami: 2
+      oracle-oval: 2
+      photon: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:L/I:L/A:L
+        V3Score: 5.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:N
+        V3Score: 6.8
+    References:
+    - https://access.redhat.com/errata/RHSA-2024:5962
+    - https://access.redhat.com/security/cve/CVE-2024-6923
+    - https://bugzilla.redhat.com/2292921
+    - https://bugzilla.redhat.com/2297771
+    - https://bugzilla.redhat.com/2302255
+    - https://bugzilla.redhat.com/2307370
+    - https://errata.almalinux.org/8/ALSA-2024-5962.html
+    - https://github.com/python/cpython/commit/06f28dc236708f72871c64d4bc4b4ea144c50147
+    - https://github.com/python/cpython/commit/4766d1200fdf8b6728137aa2927a297e224d5fa7
+    - https://github.com/python/cpython/commit/4aaa4259b5a6e664b7316a4d60bdec7ee0f124d0
+    - https://github.com/python/cpython/commit/b158a76ce094897c870fb6b3de62887b7ccc33f1
+    - https://github.com/python/cpython/commit/f7be505d137a22528cb0fc004422c0081d5d90e6
+    - https://github.com/python/cpython/commit/f7c0f09e69e950cf3c5ada9dbde93898eb975533
+    - https://github.com/python/cpython/issues/121650
+    - https://github.com/python/cpython/pull/122233
+    - https://linux.oracle.com/cve/CVE-2024-6923.html
+    - https://linux.oracle.com/errata/ELSA-2024-6179.html
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/QH3BUOE2DYQBWP7NAQ7UNHPPOELKISRW/
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-6923
+    - https://ubuntu.com/security/notices/USN-7015-1
+    - https://www.cve.org/CVERecord?id=CVE-2024-6923
+    PublishedDate: '2024-08-01T14:15:03.647Z'
+    LastModifiedDate: '2024-09-04T21:15:14.567Z'
+  - VulnerabilityID: CVE-2024-8088
+    PkgID: python3.10-minimal@3.10.12-1~22.04.5
+    PkgName: python3.10-minimal
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/python3.10-minimal@3.10.12-1~22.04.5?arch=amd64&distro=ubuntu-22.04
+      UID: c4f8635ddb4c4ff9
+    InstalledVersion: 3.10.12-1~22.04.5
+    FixedVersion: 3.10.12-1~22.04.6
+    Status: fixed
+    Layer:
+      Digest: sha256:eb4108e75dc6f8e6fc5a5e04197674c0d9a1dd13ec796f87aff09fd0a4bbd6ca
+      DiffID: sha256:853b5d95f07f5f2e1b0bf3839c45f15d937b8d18ad499f49ad4553075cd9fdf4
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-8088
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'python: cpython: Iterating over a malicious ZIP file may lead to Denial of Service'
+    Description: |-
+      There is a HIGH severity vulnerability affecting the CPython "zipfile"
+      module affecting "zipfile.Path". Note that the more common API "zipfile.ZipFile" class is unaffected.
+
+
+
+
+
+      When iterating over names of entries in a zip archive (for example, methods
+      of "zipfile.Path" like "namelist()", "iterdir()", etc)
+      the process can be put into an infinite loop with a maliciously crafted
+      zip archive. This defect applies when reading only metadata or extracting
+      the contents of the zip archive. Programs that are not handling
+      user-controlled zip archives are not affected.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-835
+    VendorSeverity:
+      alma: 2
+      oracle-oval: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 5.3
+    References:
+    - https://access.redhat.com/errata/RHSA-2024:5962
+    - https://access.redhat.com/security/cve/CVE-2024-8088
+    - https://bugzilla.redhat.com/2292921
+    - https://bugzilla.redhat.com/2297771
+    - https://bugzilla.redhat.com/2302255
+    - https://bugzilla.redhat.com/2307370
+    - https://errata.almalinux.org/8/ALSA-2024-5962.html
+    - https://github.com/python/cpython/commit/0aa1ee22ab6e204e9d3d0e9dd63ea648ed691ef1
+    - https://github.com/python/cpython/commit/2231286d78d328c2f575e0b05b16fe447d1656d6
+    - https://github.com/python/cpython/commit/795f2597a4be988e2bb19b69ff9958e981cb894e
+    - https://github.com/python/cpython/commit/7bc367e464ce50b956dd232c1dfa1cad4e7fb814
+    - https://github.com/python/cpython/commit/7e8883a3f04d308302361aeffc73e0e9837f19d4
+    - https://github.com/python/cpython/commit/8c7348939d8a3ecd79d630075f6be1b0c5b41f64
+    - https://github.com/python/cpython/commit/95b073bddefa6243effa08e131e297c0383e7f6a
+    - https://github.com/python/cpython/commit/962055268ed4f2ca1d717bfc8b6385de50a23ab7
+    - https://github.com/python/cpython/commit/dcc5182f27c1500006a1ef78e10613bb45788dea
+    - https://github.com/python/cpython/commit/e0264a61119d551658d9445af38323ba94fc16db
+    - https://github.com/python/cpython/commit/fc0b8259e693caa8400fa8b6ac1e494e47ea7798
+    - https://github.com/python/cpython/issues/122905
+    - https://github.com/python/cpython/issues/123270
+    - https://github.com/python/cpython/pull/122906
+    - https://linux.oracle.com/cve/CVE-2024-8088.html
+    - https://linux.oracle.com/errata/ELSA-2024-5962.html
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/GNFCKVI4TCATKQLALJ5SN4L4CSPSMILU/
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-8088
+    - https://ubuntu.com/security/notices/USN-7015-1
+    - https://www.cve.org/CVERecord?id=CVE-2024-8088
+    PublishedDate: '2024-08-22T19:15:09.72Z'
+    LastModifiedDate: '2024-09-04T23:15:13.1Z'
+  - VulnerabilityID: CVE-2024-7592
+    PkgID: python3.10-minimal@3.10.12-1~22.04.5
+    PkgName: python3.10-minimal
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/python3.10-minimal@3.10.12-1~22.04.5?arch=amd64&distro=ubuntu-22.04
+      UID: c4f8635ddb4c4ff9
+    InstalledVersion: 3.10.12-1~22.04.5
+    FixedVersion: 3.10.12-1~22.04.6
+    Status: fixed
+    Layer:
+      Digest: sha256:eb4108e75dc6f8e6fc5a5e04197674c0d9a1dd13ec796f87aff09fd0a4bbd6ca
+      DiffID: sha256:853b5d95f07f5f2e1b0bf3839c45f15d937b8d18ad499f49ad4553075cd9fdf4
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-7592
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'cpython: python: Uncontrolled CPU resource consumption when in http.cookies module'
+    Description: |-
+      There is a LOW severity vulnerability affecting CPython, specifically the
+      'http.cookies' standard library module.
+
+
+      When parsing cookies that contained backslashes for quoted characters in
+      the cookie value, the parser would use an algorithm with quadratic
+      complexity, resulting in excess CPU resources being used while parsing the
+      value.
+    Severity: LOW
+    CweIDs:
+    - CWE-1333
+    - CWE-400
+    VendorSeverity:
+      azure: 3
+      bitnami: 3
+      cbl-mariner: 3
+      nvd: 3
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 4.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-7592
+    - https://github.com/python/cpython/commit/391e5626e3ee5af267b97e37abc7475732e67621
+    - https://github.com/python/cpython/commit/a77ab24427a18bff817025adb03ca920dc3f1a06
+    - https://github.com/python/cpython/commit/b2f11ca7667e4d57c71c1c88b255115f16042d9a
+    - https://github.com/python/cpython/commit/d4ac921a4b081f7f996a5d2b101684b67ba0ed7f
+    - https://github.com/python/cpython/commit/d662e2db2605515a767f88ad48096b8ac623c774
+    - https://github.com/python/cpython/commit/dcc3eaef98cd94d6cb6cb0f44bd1c903d04f33b1
+    - https://github.com/python/cpython/issues/123067
+    - https://github.com/python/cpython/pull/123075
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/HXJAAAALNUNGCQUS2W7WR6GFIZIHFOOK/
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-7592
+    - https://ubuntu.com/security/notices/USN-7015-1
+    - https://www.cve.org/CVERecord?id=CVE-2024-7592
+    PublishedDate: '2024-08-19T19:15:08.18Z'
+    LastModifiedDate: '2024-09-04T21:15:14.643Z'
   - VulnerabilityID: CVE-2023-7008
     PkgID: systemd@249.11-0ubuntu3.12
     PkgName: systemd
@@ -4139,17 +5507,15 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222261
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222672
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-7008
-    - https://errata.almalinux.org/9/ALSA-2024-2463.html
+    - https://errata.almalinux.org/8/ALSA-2024-3203.html
     - https://errata.rockylinux.org/RLSA-2024:2463
     - https://github.com/systemd/systemd/issues/25676
     - https://linux.oracle.com/cve/CVE-2023-7008.html
     - https://linux.oracle.com/errata/ELSA-2024-3203.html
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4GMDEG5PKONWNHOEYSUDRT6JEOISRMN2/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QHNBXGKJWISJETTTDTZKTBFIBJUOSLKL/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-7008
     - https://www.cve.org/CVERecord?id=CVE-2023-7008
     PublishedDate: '2023-12-23T13:15:07.573Z'
-    LastModifiedDate: '2024-05-22T17:16:10.83Z'
+    LastModifiedDate: '2024-09-16T17:16:02.17Z'
   - VulnerabilityID: CVE-2023-7008
     PkgID: systemd-sysv@249.11-0ubuntu3.12
     PkgName: systemd-sysv
@@ -4196,17 +5562,15 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222261
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222672
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-7008
-    - https://errata.almalinux.org/9/ALSA-2024-2463.html
+    - https://errata.almalinux.org/8/ALSA-2024-3203.html
     - https://errata.rockylinux.org/RLSA-2024:2463
     - https://github.com/systemd/systemd/issues/25676
     - https://linux.oracle.com/cve/CVE-2023-7008.html
     - https://linux.oracle.com/errata/ELSA-2024-3203.html
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4GMDEG5PKONWNHOEYSUDRT6JEOISRMN2/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QHNBXGKJWISJETTTDTZKTBFIBJUOSLKL/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-7008
     - https://www.cve.org/CVERecord?id=CVE-2023-7008
     PublishedDate: '2023-12-23T13:15:07.573Z'
-    LastModifiedDate: '2024-05-22T17:16:10.83Z'
+    LastModifiedDate: '2024-09-16T17:16:02.17Z'
   - VulnerabilityID: CVE-2023-7008
     PkgID: systemd-timesyncd@249.11-0ubuntu3.12
     PkgName: systemd-timesyncd
@@ -4253,17 +5617,15 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222261
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222672
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-7008
-    - https://errata.almalinux.org/9/ALSA-2024-2463.html
+    - https://errata.almalinux.org/8/ALSA-2024-3203.html
     - https://errata.rockylinux.org/RLSA-2024:2463
     - https://github.com/systemd/systemd/issues/25676
     - https://linux.oracle.com/cve/CVE-2023-7008.html
     - https://linux.oracle.com/errata/ELSA-2024-3203.html
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4GMDEG5PKONWNHOEYSUDRT6JEOISRMN2/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QHNBXGKJWISJETTTDTZKTBFIBJUOSLKL/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-7008
     - https://www.cve.org/CVERecord?id=CVE-2023-7008
     PublishedDate: '2023-12-23T13:15:07.573Z'
-    LastModifiedDate: '2024-05-22T17:16:10.83Z'
+    LastModifiedDate: '2024-09-16T17:16:02.17Z'
   - VulnerabilityID: CVE-2023-29383
     PkgID: uidmap@1:4.8.1-2ubuntu2.2
     PkgName: uidmap
@@ -4467,7 +5829,7 @@
         V3Score: 7.5
     References:
     - golang.org/x/net
-    - https://access.redhat.com/errata/RHSA-2023:6077
+    - https://access.redhat.com/errata/RHSA-2023:5863
     - https://access.redhat.com/security/cve/CVE-2023-39325
     - https://access.redhat.com/security/cve/CVE-2023-44487
     - https://access.redhat.com/security/vulnerabilities/RHSB-2023-003
@@ -4477,7 +5839,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2243296
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-39325
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-44487
-    - https://errata.almalinux.org/9/ALSA-2023-6077.html
+    - https://errata.almalinux.org/8/ALSA-2023-5863.html
     - https://errata.rockylinux.org/RLSA-2023:6077
     - https://github.com/golang/go/commit/24ae2d927285c697440fdde3ad7f26028354bcf3 [golang- 1.21]
     - https://github.com/golang/go/commit/e175f27f58aa7b9cd4d79607ae65d2cd5baaee68 [golang-1.20]
@@ -4612,12 +5974,16 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
         V3Score: 6.1
     References:
-    - https://access.redhat.com/errata/RHSA-2023:6474
+    - https://access.redhat.com/errata/RHSA-2023:6939
     - https://access.redhat.com/security/cve/CVE-2023-3978
+    - https://bugzilla.redhat.com/2163037
     - https://bugzilla.redhat.com/2174485
+    - https://bugzilla.redhat.com/2175721
     - https://bugzilla.redhat.com/2178358
     - https://bugzilla.redhat.com/2178488
     - https://bugzilla.redhat.com/2178492
+    - https://bugzilla.redhat.com/2182883
+    - https://bugzilla.redhat.com/2182884
     - https://bugzilla.redhat.com/2184481
     - https://bugzilla.redhat.com/2184482
     - https://bugzilla.redhat.com/2184483
@@ -4627,7 +5993,7 @@
     - https://bugzilla.redhat.com/2196029
     - https://bugzilla.redhat.com/2222167
     - https://bugzilla.redhat.com/2228689
-    - https://errata.almalinux.org/9/ALSA-2023-6474.html
+    - https://errata.almalinux.org/8/ALSA-2023-6939.html
     - https://go.dev/cl/514896
     - https://go.dev/issue/61615
     - https://linux.oracle.com/cve/CVE-2023-3978.html
@@ -4692,7 +6058,7 @@
     - http://www.openwall.com/lists/oss-security/2023/10/18/8
     - http://www.openwall.com/lists/oss-security/2023/10/19/6
     - http://www.openwall.com/lists/oss-security/2023/10/20/8
-    - https://access.redhat.com/errata/RHSA-2023:6746
+    - https://access.redhat.com/errata/RHSA-2024:1444
     - https://access.redhat.com/security/cve/CVE-2023-44487
     - https://access.redhat.com/security/cve/cve-2023-44487
     - https://akka.io/security/akka-http-cve-2023-44487.html
@@ -4711,6 +6077,7 @@
     - https://blog.vespa.ai/cve-2023-44487/
     - https://bugzilla.proxmox.com/show_bug.cgi?id=4988
     - https://bugzilla.redhat.com/2242803
+    - https://bugzilla.redhat.com/2264574
     - https://bugzilla.redhat.com/show_bug.cgi?id=2242803
     - https://bugzilla.suse.com/show_bug.cgi?id=1216123
     - https://cgit.freebsd.org/ports/commit/?id=c64c329c2c1752f46b73e3e6ce9f4329be6629f9
@@ -4723,7 +6090,7 @@
     - https://devblogs.microsoft.com/dotnet/october-2023-updates/
     - https://discuss.hashicorp.com/t/hcsec-2023-32-vault-consul-and-boundary-affected-by-http-2-rapid-reset-denial-of-service-vulnerability-cve-2023-44487/59715
     - https://edg.io/lp/blog/resets-leaks-ddos-and-the-tale-of-a-hidden-cve
-    - https://errata.almalinux.org/9/ALSA-2023-6746.html
+    - https://errata.almalinux.org/8/ALSA-2024-1444.html
     - https://errata.rockylinux.org/RLSA-2023:5838
     - https://forums.swift.org/t/swift-nio-http2-security-update-cve-2023-44487-http-2-dos/67764
     - https://gist.github.com/adulau/7c2bfb8e9cdbe4b35a5e131c66a0c088
@@ -4971,7 +6338,7 @@
     References:
     - http://www.openwall.com/lists/oss-security/2024/04/03/16
     - http://www.openwall.com/lists/oss-security/2024/04/05/4
-    - https://access.redhat.com/errata/RHSA-2024:2724
+    - https://access.redhat.com/errata/RHSA-2024:3346
     - https://access.redhat.com/security/cve/CVE-2023-45288
     - https://bugzilla.redhat.com/2268017
     - https://bugzilla.redhat.com/2268018
@@ -4985,7 +6352,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45289
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45290
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24783
-    - https://errata.almalinux.org/9/ALSA-2024-2724.html
+    - https://errata.almalinux.org/8/ALSA-2024-3346.html
     - https://errata.rockylinux.org/RLSA-2024:2724
     - https://go.dev/cl/576155
     - https://go.dev/issue/65051
@@ -5049,15 +6416,16 @@
         V3Score: 6.7
     References:
     - http://www.openwall.com/lists/oss-security/2024/06/04/1
-    - https://access.redhat.com/errata/RHSA-2024:4212
+    - https://access.redhat.com/errata/RHSA-2024:5291
     - https://access.redhat.com/security/cve/CVE-2024-24790
+    - https://bugzilla.redhat.com/2279814
     - https://bugzilla.redhat.com/2292668
     - https://bugzilla.redhat.com/2292787
     - https://bugzilla.redhat.com/show_bug.cgi?id=2292668
     - https://bugzilla.redhat.com/show_bug.cgi?id=2292787
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24789
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24790
-    - https://errata.almalinux.org/9/ALSA-2024-4212.html
+    - https://errata.almalinux.org/8/ALSA-2024-5291.html
     - https://errata.rockylinux.org/RLSA-2024:4212
     - https://github.com/golang/go/commit/051bdf3fd12a40307606ff9381138039c5f452f0 (1.21)
     - https://github.com/golang/go/commit/12d5810cdb1f73cf23d7a86462143e9463317fca (1.22)
@@ -5123,7 +6491,7 @@
         V3Score: 7.5
     References:
     - golang.org/x/net
-    - https://access.redhat.com/errata/RHSA-2023:6077
+    - https://access.redhat.com/errata/RHSA-2023:5863
     - https://access.redhat.com/security/cve/CVE-2023-39325
     - https://access.redhat.com/security/cve/CVE-2023-44487
     - https://access.redhat.com/security/vulnerabilities/RHSB-2023-003
@@ -5133,7 +6501,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2243296
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-39325
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-44487
-    - https://errata.almalinux.org/9/ALSA-2023-6077.html
+    - https://errata.almalinux.org/8/ALSA-2023-5863.html
     - https://errata.rockylinux.org/RLSA-2023:6077
     - https://github.com/golang/go/commit/24ae2d927285c697440fdde3ad7f26028354bcf3 [golang- 1.21]
     - https://github.com/golang/go/commit/e175f27f58aa7b9cd4d79607ae65d2cd5baaee68 [golang-1.20]
@@ -5318,7 +6686,7 @@
     References:
     - http://www.openwall.com/lists/oss-security/2024/04/03/16
     - http://www.openwall.com/lists/oss-security/2024/04/05/4
-    - https://access.redhat.com/errata/RHSA-2024:2724
+    - https://access.redhat.com/errata/RHSA-2024:3346
     - https://access.redhat.com/security/cve/CVE-2023-45288
     - https://bugzilla.redhat.com/2268017
     - https://bugzilla.redhat.com/2268018
@@ -5332,7 +6700,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45289
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45290
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24783
-    - https://errata.almalinux.org/9/ALSA-2024-2724.html
+    - https://errata.almalinux.org/8/ALSA-2024-3346.html
     - https://errata.rockylinux.org/RLSA-2024:2724
     - https://go.dev/cl/576155
     - https://go.dev/issue/65051
@@ -5436,22 +6804,10 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:N
         V3Score: 6.5
     References:
-    - https://access.redhat.com/errata/RHSA-2023:6474
+    - https://access.redhat.com/errata/RHSA-2023:7202
     - https://access.redhat.com/security/cve/CVE-2023-29406
-    - https://bugzilla.redhat.com/2174485
-    - https://bugzilla.redhat.com/2178358
-    - https://bugzilla.redhat.com/2178488
-    - https://bugzilla.redhat.com/2178492
-    - https://bugzilla.redhat.com/2184481
-    - https://bugzilla.redhat.com/2184482
-    - https://bugzilla.redhat.com/2184483
-    - https://bugzilla.redhat.com/2184484
-    - https://bugzilla.redhat.com/2196026
-    - https://bugzilla.redhat.com/2196027
-    - https://bugzilla.redhat.com/2196029
     - https://bugzilla.redhat.com/2222167
-    - https://bugzilla.redhat.com/2228689
-    - https://errata.almalinux.org/9/ALSA-2023-6474.html
+    - https://errata.almalinux.org/8/ALSA-2023-7202.html
     - https://github.com/golang/go/commit/312920c00aac9897b2a0693e752390b5b0711a5a (go1.20.6)
     - https://github.com/golang/go/commit/5fa6923b1ea891400153d04ddf1545e23b40041b (go1.19.11)
     - https://github.com/golang/go/issues/60374
@@ -5510,14 +6866,18 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 5.3
     References:
-    - https://access.redhat.com/errata/RHSA-2023:7766
+    - https://access.redhat.com/errata/RHSA-2024:0121
     - https://access.redhat.com/security/cve/CVE-2023-29409
+    - https://bugzilla.redhat.com/2124669
+    - https://bugzilla.redhat.com/2132867
+    - https://bugzilla.redhat.com/2132868
+    - https://bugzilla.redhat.com/2132872
     - https://bugzilla.redhat.com/2228743
     - https://bugzilla.redhat.com/2237773
     - https://bugzilla.redhat.com/2237776
     - https://bugzilla.redhat.com/2237777
     - https://bugzilla.redhat.com/2237778
-    - https://errata.almalinux.org/9/ALSA-2023-7766.html
+    - https://errata.almalinux.org/8/ALSA-2024-0121.html
     - https://go.dev/cl/515257
     - https://go.dev/issue/61460
     - https://groups.google.com/g/golang-announce/c/X0b6CsSAaYI/m/Efv5DbZ9AwAJ
@@ -5574,12 +6934,18 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
         V3Score: 6.1
     References:
-    - https://access.redhat.com/errata/RHSA-2024:2160
+    - https://access.redhat.com/errata/RHSA-2024:0121
     - https://access.redhat.com/security/cve/CVE-2023-39318
+    - https://bugzilla.redhat.com/2124669
+    - https://bugzilla.redhat.com/2132867
+    - https://bugzilla.redhat.com/2132868
+    - https://bugzilla.redhat.com/2132872
+    - https://bugzilla.redhat.com/2228743
     - https://bugzilla.redhat.com/2237773
     - https://bugzilla.redhat.com/2237776
-    - https://bugzilla.redhat.com/2253330
-    - https://errata.almalinux.org/9/ALSA-2024-2160.html
+    - https://bugzilla.redhat.com/2237777
+    - https://bugzilla.redhat.com/2237778
+    - https://errata.almalinux.org/8/ALSA-2024-0121.html
     - https://github.com/golang/go/commit/023b542edf38e2a1f87fcefb9f75ff2f99401b4c (go1.20.8)
     - https://github.com/golang/go/commit/b0e1d3ea26e8e8fce7726690c9ef0597e60739fb (go1.21.1)
     - https://go.dev/cl/526156
@@ -5641,12 +7007,18 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
         V3Score: 6.1
     References:
-    - https://access.redhat.com/errata/RHSA-2024:2160
+    - https://access.redhat.com/errata/RHSA-2024:0121
     - https://access.redhat.com/security/cve/CVE-2023-39319
+    - https://bugzilla.redhat.com/2124669
+    - https://bugzilla.redhat.com/2132867
+    - https://bugzilla.redhat.com/2132868
+    - https://bugzilla.redhat.com/2132872
+    - https://bugzilla.redhat.com/2228743
     - https://bugzilla.redhat.com/2237773
     - https://bugzilla.redhat.com/2237776
-    - https://bugzilla.redhat.com/2253330
-    - https://errata.almalinux.org/9/ALSA-2024-2160.html
+    - https://bugzilla.redhat.com/2237777
+    - https://bugzilla.redhat.com/2237778
+    - https://errata.almalinux.org/8/ALSA-2024-0121.html
     - https://github.com/golang/go/commit/2070531d2f53df88e312edace6c8dfc9686ab2f5 (go1.20.8)
     - https://github.com/golang/go/commit/bbd043ff0d6d59f1a9232d31ecd5eacf6507bf6a (go1.21.1)
     - https://go.dev/cl/526157
@@ -5705,11 +7077,11 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
         V3Score: 5.3
     References:
-    - https://access.redhat.com/errata/RHSA-2024:2272
+    - https://access.redhat.com/errata/RHSA-2024:0887
     - https://access.redhat.com/security/cve/CVE-2023-39326
-    - https://bugzilla.redhat.com/2253193
+    - https://bugzilla.redhat.com/2253323
     - https://bugzilla.redhat.com/2253330
-    - https://errata.almalinux.org/9/ALSA-2024-2272.html
+    - https://errata.almalinux.org/8/ALSA-2024-0887.html
     - https://github.com/golang/go/commit/6446af942e2e2b161c4ec1b60d9703a2b55dc4dd (go1.20.12)
     - https://github.com/golang/go/commit/ec8c526e4be720e94b98ca509e6364f0efaf28f7 (go1.21.5)
     - https://go.dev/cl/547335
@@ -5798,7 +7170,7 @@
         V3Score: 5.3
     References:
     - http://www.openwall.com/lists/oss-security/2024/03/08/4
-    - https://access.redhat.com/errata/RHSA-2024:2724
+    - https://access.redhat.com/errata/RHSA-2024:3346
     - https://access.redhat.com/security/cve/CVE-2023-45289
     - https://bugzilla.redhat.com/2268017
     - https://bugzilla.redhat.com/2268018
@@ -5812,7 +7184,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45289
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45290
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24783
-    - https://errata.almalinux.org/9/ALSA-2024-2724.html
+    - https://errata.almalinux.org/8/ALSA-2024-3346.html
     - https://errata.rockylinux.org/RLSA-2024:2724
     - https://github.com/golang/go/commit/20586c0dbe03d144f914155f879fa5ee287591a1 (go1.21.8)
     - https://github.com/golang/go/commit/3a855208e3efed2e9d7c20ad023f1fa78afcc0be (go1.22.1)
@@ -5849,7 +7221,7 @@
     Description: When parsing a multipart form (either explicitly with Request.ParseMultipartForm or implicitly with Request.FormValue, Request.PostFormValue, or Request.FormFile), limits on the total size of the parsed form were not applied to the memory consumed while reading a single form line. This permits a maliciously crafted input containing very long lines to cause allocation of arbitrarily large amounts of memory, potentially leading to memory exhaustion. With fix, the ParseMultipartForm function now correctly limits the maximum size of form lines.
     Severity: MEDIUM
     VendorSeverity:
-      alma: 2
+      alma: 3
       amazon: 2
       cbl-mariner: 2
       oracle-oval: 3
@@ -5862,12 +7234,19 @@
         V3Score: 5.3
     References:
     - http://www.openwall.com/lists/oss-security/2024/03/08/4
-    - https://access.redhat.com/errata/RHSA-2024:3831
+    - https://access.redhat.com/errata/RHSA-2024:5258
     - https://access.redhat.com/security/cve/CVE-2023-45290
+    - https://bugzilla.redhat.com/2262921
     - https://bugzilla.redhat.com/2268017
+    - https://bugzilla.redhat.com/2268019
+    - https://bugzilla.redhat.com/2268021
+    - https://bugzilla.redhat.com/2274767
+    - https://bugzilla.redhat.com/2292668
+    - https://bugzilla.redhat.com/2294000
+    - https://bugzilla.redhat.com/2295010
     - https://bugzilla.redhat.com/show_bug.cgi?id=2268017
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45290
-    - https://errata.almalinux.org/9/ALSA-2024-3831.html
+    - https://errata.almalinux.org/8/ALSA-2024-5258.html
     - https://errata.rockylinux.org/RLSA-2024:3830
     - https://github.com/golang/go/commit/041a47712e765e94f86d841c3110c840e76d8f82 (go1.22.1)
     - https://github.com/golang/go/commit/bf80213b121074f4ad9b449410a4d13bae5e9be0 (go1.21.8)
@@ -5905,7 +7284,7 @@
     Description: Verifying a certificate chain which contains a certificate with an unknown public key algorithm will cause Certificate.Verify to panic. This affects all crypto/tls clients, and servers that set Config.ClientAuth to VerifyClientCertIfGiven or RequireAndVerifyClientCert. The default behavior is for TLS servers to not verify client certificates.
     Severity: MEDIUM
     VendorSeverity:
-      alma: 2
+      alma: 3
       amazon: 2
       cbl-mariner: 2
       oracle-oval: 2
@@ -5918,9 +7297,16 @@
         V3Score: 5.9
     References:
     - http://www.openwall.com/lists/oss-security/2024/03/08/4
-    - https://access.redhat.com/errata/RHSA-2024:6195
+    - https://access.redhat.com/errata/RHSA-2024:5258
     - https://access.redhat.com/security/cve/CVE-2024-24783
+    - https://bugzilla.redhat.com/2262921
+    - https://bugzilla.redhat.com/2268017
     - https://bugzilla.redhat.com/2268019
+    - https://bugzilla.redhat.com/2268021
+    - https://bugzilla.redhat.com/2274767
+    - https://bugzilla.redhat.com/2292668
+    - https://bugzilla.redhat.com/2294000
+    - https://bugzilla.redhat.com/2295010
     - https://bugzilla.redhat.com/show_bug.cgi?id=2268017
     - https://bugzilla.redhat.com/show_bug.cgi?id=2268018
     - https://bugzilla.redhat.com/show_bug.cgi?id=2268019
@@ -5929,7 +7315,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45289
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45290
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24783
-    - https://errata.almalinux.org/9/ALSA-2024-6195.html
+    - https://errata.almalinux.org/8/ALSA-2024-5258.html
     - https://errata.rockylinux.org/RLSA-2024:2724
     - https://github.com/advisories/GHSA-3q2c-pvp5-3cqp
     - https://github.com/golang/go/commit/337b8e9cbfa749d9d5c899e0dc358e2208d5e54f (go1.22.1)
@@ -5971,7 +7357,7 @@
       alma: 3
       amazon: 2
       bitnami: 3
-      cbl-mariner: 3
+      cbl-mariner: 2
       oracle-oval: 3
       photon: 3
       redhat: 2
@@ -5986,15 +7372,16 @@
         V3Score: 5.4
     References:
     - http://www.openwall.com/lists/oss-security/2024/03/08/4
-    - https://access.redhat.com/errata/RHSA-2024:2562
+    - https://access.redhat.com/errata/RHSA-2024:5258
     - https://access.redhat.com/security/cve/CVE-2024-24784
     - https://bugzilla.redhat.com/2262921
     - https://bugzilla.redhat.com/2268017
-    - https://bugzilla.redhat.com/2268018
     - https://bugzilla.redhat.com/2268019
     - https://bugzilla.redhat.com/2268021
-    - https://bugzilla.redhat.com/2268022
-    - https://bugzilla.redhat.com/2268273
+    - https://bugzilla.redhat.com/2274767
+    - https://bugzilla.redhat.com/2292668
+    - https://bugzilla.redhat.com/2294000
+    - https://bugzilla.redhat.com/2295010
     - https://bugzilla.redhat.com/show_bug.cgi?id=2262921
     - https://bugzilla.redhat.com/show_bug.cgi?id=2268017
     - https://bugzilla.redhat.com/show_bug.cgi?id=2268018
@@ -6009,7 +7396,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24783
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24784
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24785
-    - https://errata.almalinux.org/9/ALSA-2024-2562.html
+    - https://errata.almalinux.org/8/ALSA-2024-5258.html
     - https://errata.rockylinux.org/RLSA-2024:2562
     - https://github.com/golang/go/commit/263c059b09fdd40d9dd945f2ecb20c89ea28efe5 (go1.21.8)
     - https://github.com/golang/go/commit/5330cd225ba54c7dc78c1b46dcdf61a4671a632c (go1.22.1)
@@ -6059,9 +7446,8 @@
         V3Score: 6.5
     References:
     - http://www.openwall.com/lists/oss-security/2024/03/08/4
-    - https://access.redhat.com/errata/RHSA-2024:2562
+    - https://access.redhat.com/errata/RHSA-2024:3259
     - https://access.redhat.com/security/cve/CVE-2024-24785
-    - https://bugzilla.redhat.com/2262921
     - https://bugzilla.redhat.com/2268017
     - https://bugzilla.redhat.com/2268018
     - https://bugzilla.redhat.com/2268019
@@ -6082,7 +7468,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24783
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24784
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24785
-    - https://errata.almalinux.org/9/ALSA-2024-2562.html
+    - https://errata.almalinux.org/8/ALSA-2024-3259.html
     - https://errata.rockylinux.org/RLSA-2024:2562
     - https://github.com/golang/go/commit/056b0edcb8c152152021eebf4cf42adbfbe77992 (go1.22.1)
     - https://github.com/golang/go/commit/3643147a29352ca2894fd5d0d2069bc4b4335a7e (go1.21.8)
@@ -6144,15 +7530,16 @@
         V3Score: 7.5
     References:
     - http://www.openwall.com/lists/oss-security/2024/06/04/1
-    - https://access.redhat.com/errata/RHSA-2024:4212
+    - https://access.redhat.com/errata/RHSA-2024:5291
     - https://access.redhat.com/security/cve/CVE-2024-24789
+    - https://bugzilla.redhat.com/2279814
     - https://bugzilla.redhat.com/2292668
     - https://bugzilla.redhat.com/2292787
     - https://bugzilla.redhat.com/show_bug.cgi?id=2292668
     - https://bugzilla.redhat.com/show_bug.cgi?id=2292787
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24789
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24790
-    - https://errata.almalinux.org/9/ALSA-2024-4212.html
+    - https://errata.almalinux.org/8/ALSA-2024-5291.html
     - https://errata.rockylinux.org/RLSA-2024:4212
     - https://github.com/golang/go/commit/c8e40338cf00f3c1d86c8fb23863ad67a4c72bcc (1.21)
     - https://github.com/golang/go/commit/cf501ac0c5fe351a8582d20b43562027927906e7 (1.22)
@@ -6341,7 +7728,7 @@
         V3Score: 7.5
     References:
     - golang.org/x/net
-    - https://access.redhat.com/errata/RHSA-2023:6077
+    - https://access.redhat.com/errata/RHSA-2023:5863
     - https://access.redhat.com/security/cve/CVE-2023-39325
     - https://access.redhat.com/security/cve/CVE-2023-44487
     - https://access.redhat.com/security/vulnerabilities/RHSB-2023-003
@@ -6351,7 +7738,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2243296
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-39325
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-44487
-    - https://errata.almalinux.org/9/ALSA-2023-6077.html
+    - https://errata.almalinux.org/8/ALSA-2023-5863.html
     - https://errata.rockylinux.org/RLSA-2023:6077
     - https://github.com/golang/go/commit/24ae2d927285c697440fdde3ad7f26028354bcf3 [golang- 1.21]
     - https://github.com/golang/go/commit/e175f27f58aa7b9cd4d79607ae65d2cd5baaee68 [golang-1.20]
@@ -6486,12 +7873,16 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
         V3Score: 6.1
     References:
-    - https://access.redhat.com/errata/RHSA-2023:6474
+    - https://access.redhat.com/errata/RHSA-2023:6939
     - https://access.redhat.com/security/cve/CVE-2023-3978
+    - https://bugzilla.redhat.com/2163037
     - https://bugzilla.redhat.com/2174485
+    - https://bugzilla.redhat.com/2175721
     - https://bugzilla.redhat.com/2178358
     - https://bugzilla.redhat.com/2178488
     - https://bugzilla.redhat.com/2178492
+    - https://bugzilla.redhat.com/2182883
+    - https://bugzilla.redhat.com/2182884
     - https://bugzilla.redhat.com/2184481
     - https://bugzilla.redhat.com/2184482
     - https://bugzilla.redhat.com/2184483
@@ -6501,7 +7892,7 @@
     - https://bugzilla.redhat.com/2196029
     - https://bugzilla.redhat.com/2222167
     - https://bugzilla.redhat.com/2228689
-    - https://errata.almalinux.org/9/ALSA-2023-6474.html
+    - https://errata.almalinux.org/8/ALSA-2023-6939.html
     - https://go.dev/cl/514896
     - https://go.dev/issue/61615
     - https://linux.oracle.com/cve/CVE-2023-3978.html
@@ -6566,7 +7957,7 @@
     - http://www.openwall.com/lists/oss-security/2023/10/18/8
     - http://www.openwall.com/lists/oss-security/2023/10/19/6
     - http://www.openwall.com/lists/oss-security/2023/10/20/8
-    - https://access.redhat.com/errata/RHSA-2023:6746
+    - https://access.redhat.com/errata/RHSA-2024:1444
     - https://access.redhat.com/security/cve/CVE-2023-44487
     - https://access.redhat.com/security/cve/cve-2023-44487
     - https://akka.io/security/akka-http-cve-2023-44487.html
@@ -6585,6 +7976,7 @@
     - https://blog.vespa.ai/cve-2023-44487/
     - https://bugzilla.proxmox.com/show_bug.cgi?id=4988
     - https://bugzilla.redhat.com/2242803
+    - https://bugzilla.redhat.com/2264574
     - https://bugzilla.redhat.com/show_bug.cgi?id=2242803
     - https://bugzilla.suse.com/show_bug.cgi?id=1216123
     - https://cgit.freebsd.org/ports/commit/?id=c64c329c2c1752f46b73e3e6ce9f4329be6629f9
@@ -6597,7 +7989,7 @@
     - https://devblogs.microsoft.com/dotnet/october-2023-updates/
     - https://discuss.hashicorp.com/t/hcsec-2023-32-vault-consul-and-boundary-affected-by-http-2-rapid-reset-denial-of-service-vulnerability-cve-2023-44487/59715
     - https://edg.io/lp/blog/resets-leaks-ddos-and-the-tale-of-a-hidden-cve
-    - https://errata.almalinux.org/9/ALSA-2023-6746.html
+    - https://errata.almalinux.org/8/ALSA-2024-1444.html
     - https://errata.rockylinux.org/RLSA-2023:5838
     - https://forums.swift.org/t/swift-nio-http2-security-update-cve-2023-44487-http-2-dos/67764
     - https://gist.github.com/adulau/7c2bfb8e9cdbe4b35a5e131c66a0c088
@@ -6845,7 +8237,7 @@
     References:
     - http://www.openwall.com/lists/oss-security/2024/04/03/16
     - http://www.openwall.com/lists/oss-security/2024/04/05/4
-    - https://access.redhat.com/errata/RHSA-2024:2724
+    - https://access.redhat.com/errata/RHSA-2024:3346
     - https://access.redhat.com/security/cve/CVE-2023-45288
     - https://bugzilla.redhat.com/2268017
     - https://bugzilla.redhat.com/2268018
@@ -6859,7 +8251,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45289
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45290
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24783
-    - https://errata.almalinux.org/9/ALSA-2024-2724.html
+    - https://errata.almalinux.org/8/ALSA-2024-3346.html
     - https://errata.rockylinux.org/RLSA-2024:2724
     - https://go.dev/cl/576155
     - https://go.dev/issue/65051
@@ -6923,15 +8315,16 @@
         V3Score: 6.7
     References:
     - http://www.openwall.com/lists/oss-security/2024/06/04/1
-    - https://access.redhat.com/errata/RHSA-2024:4212
+    - https://access.redhat.com/errata/RHSA-2024:5291
     - https://access.redhat.com/security/cve/CVE-2024-24790
+    - https://bugzilla.redhat.com/2279814
     - https://bugzilla.redhat.com/2292668
     - https://bugzilla.redhat.com/2292787
     - https://bugzilla.redhat.com/show_bug.cgi?id=2292668
     - https://bugzilla.redhat.com/show_bug.cgi?id=2292787
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24789
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24790
-    - https://errata.almalinux.org/9/ALSA-2024-4212.html
+    - https://errata.almalinux.org/8/ALSA-2024-5291.html
     - https://errata.rockylinux.org/RLSA-2024:4212
     - https://github.com/golang/go/commit/051bdf3fd12a40307606ff9381138039c5f452f0 (1.21)
     - https://github.com/golang/go/commit/12d5810cdb1f73cf23d7a86462143e9463317fca (1.22)
@@ -6997,7 +8390,7 @@
         V3Score: 7.5
     References:
     - golang.org/x/net
-    - https://access.redhat.com/errata/RHSA-2023:6077
+    - https://access.redhat.com/errata/RHSA-2023:5863
     - https://access.redhat.com/security/cve/CVE-2023-39325
     - https://access.redhat.com/security/cve/CVE-2023-44487
     - https://access.redhat.com/security/vulnerabilities/RHSB-2023-003
@@ -7007,7 +8400,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2243296
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-39325
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-44487
-    - https://errata.almalinux.org/9/ALSA-2023-6077.html
+    - https://errata.almalinux.org/8/ALSA-2023-5863.html
     - https://errata.rockylinux.org/RLSA-2023:6077
     - https://github.com/golang/go/commit/24ae2d927285c697440fdde3ad7f26028354bcf3 [golang- 1.21]
     - https://github.com/golang/go/commit/e175f27f58aa7b9cd4d79607ae65d2cd5baaee68 [golang-1.20]
@@ -7192,7 +8585,7 @@
     References:
     - http://www.openwall.com/lists/oss-security/2024/04/03/16
     - http://www.openwall.com/lists/oss-security/2024/04/05/4
-    - https://access.redhat.com/errata/RHSA-2024:2724
+    - https://access.redhat.com/errata/RHSA-2024:3346
     - https://access.redhat.com/security/cve/CVE-2023-45288
     - https://bugzilla.redhat.com/2268017
     - https://bugzilla.redhat.com/2268018
@@ -7206,7 +8599,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45289
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45290
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24783
-    - https://errata.almalinux.org/9/ALSA-2024-2724.html
+    - https://errata.almalinux.org/8/ALSA-2024-3346.html
     - https://errata.rockylinux.org/RLSA-2024:2724
     - https://go.dev/cl/576155
     - https://go.dev/issue/65051
@@ -7310,22 +8703,10 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:N
         V3Score: 6.5
     References:
-    - https://access.redhat.com/errata/RHSA-2023:6474
+    - https://access.redhat.com/errata/RHSA-2023:7202
     - https://access.redhat.com/security/cve/CVE-2023-29406
-    - https://bugzilla.redhat.com/2174485
-    - https://bugzilla.redhat.com/2178358
-    - https://bugzilla.redhat.com/2178488
-    - https://bugzilla.redhat.com/2178492
-    - https://bugzilla.redhat.com/2184481
-    - https://bugzilla.redhat.com/2184482
-    - https://bugzilla.redhat.com/2184483
-    - https://bugzilla.redhat.com/2184484
-    - https://bugzilla.redhat.com/2196026
-    - https://bugzilla.redhat.com/2196027
-    - https://bugzilla.redhat.com/2196029
     - https://bugzilla.redhat.com/2222167
-    - https://bugzilla.redhat.com/2228689
-    - https://errata.almalinux.org/9/ALSA-2023-6474.html
+    - https://errata.almalinux.org/8/ALSA-2023-7202.html
     - https://github.com/golang/go/commit/312920c00aac9897b2a0693e752390b5b0711a5a (go1.20.6)
     - https://github.com/golang/go/commit/5fa6923b1ea891400153d04ddf1545e23b40041b (go1.19.11)
     - https://github.com/golang/go/issues/60374
@@ -7384,14 +8765,18 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 5.3
     References:
-    - https://access.redhat.com/errata/RHSA-2023:7766
+    - https://access.redhat.com/errata/RHSA-2024:0121
     - https://access.redhat.com/security/cve/CVE-2023-29409
+    - https://bugzilla.redhat.com/2124669
+    - https://bugzilla.redhat.com/2132867
+    - https://bugzilla.redhat.com/2132868
+    - https://bugzilla.redhat.com/2132872
     - https://bugzilla.redhat.com/2228743
     - https://bugzilla.redhat.com/2237773
     - https://bugzilla.redhat.com/2237776
     - https://bugzilla.redhat.com/2237777
     - https://bugzilla.redhat.com/2237778
-    - https://errata.almalinux.org/9/ALSA-2023-7766.html
+    - https://errata.almalinux.org/8/ALSA-2024-0121.html
     - https://go.dev/cl/515257
     - https://go.dev/issue/61460
     - https://groups.google.com/g/golang-announce/c/X0b6CsSAaYI/m/Efv5DbZ9AwAJ
@@ -7448,12 +8833,18 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
         V3Score: 6.1
     References:
-    - https://access.redhat.com/errata/RHSA-2024:2160
+    - https://access.redhat.com/errata/RHSA-2024:0121
     - https://access.redhat.com/security/cve/CVE-2023-39318
+    - https://bugzilla.redhat.com/2124669
+    - https://bugzilla.redhat.com/2132867
+    - https://bugzilla.redhat.com/2132868
+    - https://bugzilla.redhat.com/2132872
+    - https://bugzilla.redhat.com/2228743
     - https://bugzilla.redhat.com/2237773
     - https://bugzilla.redhat.com/2237776
-    - https://bugzilla.redhat.com/2253330
-    - https://errata.almalinux.org/9/ALSA-2024-2160.html
+    - https://bugzilla.redhat.com/2237777
+    - https://bugzilla.redhat.com/2237778
+    - https://errata.almalinux.org/8/ALSA-2024-0121.html
     - https://github.com/golang/go/commit/023b542edf38e2a1f87fcefb9f75ff2f99401b4c (go1.20.8)
     - https://github.com/golang/go/commit/b0e1d3ea26e8e8fce7726690c9ef0597e60739fb (go1.21.1)
     - https://go.dev/cl/526156
@@ -7515,12 +8906,18 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
         V3Score: 6.1
     References:
-    - https://access.redhat.com/errata/RHSA-2024:2160
+    - https://access.redhat.com/errata/RHSA-2024:0121
     - https://access.redhat.com/security/cve/CVE-2023-39319
+    - https://bugzilla.redhat.com/2124669
+    - https://bugzilla.redhat.com/2132867
+    - https://bugzilla.redhat.com/2132868
+    - https://bugzilla.redhat.com/2132872
+    - https://bugzilla.redhat.com/2228743
     - https://bugzilla.redhat.com/2237773
     - https://bugzilla.redhat.com/2237776
-    - https://bugzilla.redhat.com/2253330
-    - https://errata.almalinux.org/9/ALSA-2024-2160.html
+    - https://bugzilla.redhat.com/2237777
+    - https://bugzilla.redhat.com/2237778
+    - https://errata.almalinux.org/8/ALSA-2024-0121.html
     - https://github.com/golang/go/commit/2070531d2f53df88e312edace6c8dfc9686ab2f5 (go1.20.8)
     - https://github.com/golang/go/commit/bbd043ff0d6d59f1a9232d31ecd5eacf6507bf6a (go1.21.1)
     - https://go.dev/cl/526157
@@ -7579,11 +8976,11 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
         V3Score: 5.3
     References:
-    - https://access.redhat.com/errata/RHSA-2024:2272
+    - https://access.redhat.com/errata/RHSA-2024:0887
     - https://access.redhat.com/security/cve/CVE-2023-39326
-    - https://bugzilla.redhat.com/2253193
+    - https://bugzilla.redhat.com/2253323
     - https://bugzilla.redhat.com/2253330
-    - https://errata.almalinux.org/9/ALSA-2024-2272.html
+    - https://errata.almalinux.org/8/ALSA-2024-0887.html
     - https://github.com/golang/go/commit/6446af942e2e2b161c4ec1b60d9703a2b55dc4dd (go1.20.12)
     - https://github.com/golang/go/commit/ec8c526e4be720e94b98ca509e6364f0efaf28f7 (go1.21.5)
     - https://go.dev/cl/547335
@@ -7672,7 +9069,7 @@
         V3Score: 5.3
     References:
     - http://www.openwall.com/lists/oss-security/2024/03/08/4
-    - https://access.redhat.com/errata/RHSA-2024:2724
+    - https://access.redhat.com/errata/RHSA-2024:3346
     - https://access.redhat.com/security/cve/CVE-2023-45289
     - https://bugzilla.redhat.com/2268017
     - https://bugzilla.redhat.com/2268018
@@ -7686,7 +9083,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45289
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45290
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24783
-    - https://errata.almalinux.org/9/ALSA-2024-2724.html
+    - https://errata.almalinux.org/8/ALSA-2024-3346.html
     - https://errata.rockylinux.org/RLSA-2024:2724
     - https://github.com/golang/go/commit/20586c0dbe03d144f914155f879fa5ee287591a1 (go1.21.8)
     - https://github.com/golang/go/commit/3a855208e3efed2e9d7c20ad023f1fa78afcc0be (go1.22.1)
@@ -7723,7 +9120,7 @@
     Description: When parsing a multipart form (either explicitly with Request.ParseMultipartForm or implicitly with Request.FormValue, Request.PostFormValue, or Request.FormFile), limits on the total size of the parsed form were not applied to the memory consumed while reading a single form line. This permits a maliciously crafted input containing very long lines to cause allocation of arbitrarily large amounts of memory, potentially leading to memory exhaustion. With fix, the ParseMultipartForm function now correctly limits the maximum size of form lines.
     Severity: MEDIUM
     VendorSeverity:
-      alma: 2
+      alma: 3
       amazon: 2
       cbl-mariner: 2
       oracle-oval: 3
@@ -7736,12 +9133,19 @@
         V3Score: 5.3
     References:
     - http://www.openwall.com/lists/oss-security/2024/03/08/4
-    - https://access.redhat.com/errata/RHSA-2024:3831
+    - https://access.redhat.com/errata/RHSA-2024:5258
     - https://access.redhat.com/security/cve/CVE-2023-45290
+    - https://bugzilla.redhat.com/2262921
     - https://bugzilla.redhat.com/2268017
+    - https://bugzilla.redhat.com/2268019
+    - https://bugzilla.redhat.com/2268021
+    - https://bugzilla.redhat.com/2274767
+    - https://bugzilla.redhat.com/2292668
+    - https://bugzilla.redhat.com/2294000
+    - https://bugzilla.redhat.com/2295010
     - https://bugzilla.redhat.com/show_bug.cgi?id=2268017
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45290
-    - https://errata.almalinux.org/9/ALSA-2024-3831.html
+    - https://errata.almalinux.org/8/ALSA-2024-5258.html
     - https://errata.rockylinux.org/RLSA-2024:3830
     - https://github.com/golang/go/commit/041a47712e765e94f86d841c3110c840e76d8f82 (go1.22.1)
     - https://github.com/golang/go/commit/bf80213b121074f4ad9b449410a4d13bae5e9be0 (go1.21.8)
@@ -7779,7 +9183,7 @@
     Description: Verifying a certificate chain which contains a certificate with an unknown public key algorithm will cause Certificate.Verify to panic. This affects all crypto/tls clients, and servers that set Config.ClientAuth to VerifyClientCertIfGiven or RequireAndVerifyClientCert. The default behavior is for TLS servers to not verify client certificates.
     Severity: MEDIUM
     VendorSeverity:
-      alma: 2
+      alma: 3
       amazon: 2
       cbl-mariner: 2
       oracle-oval: 2
@@ -7792,9 +9196,16 @@
         V3Score: 5.9
     References:
     - http://www.openwall.com/lists/oss-security/2024/03/08/4
-    - https://access.redhat.com/errata/RHSA-2024:6195
+    - https://access.redhat.com/errata/RHSA-2024:5258
     - https://access.redhat.com/security/cve/CVE-2024-24783
+    - https://bugzilla.redhat.com/2262921
+    - https://bugzilla.redhat.com/2268017
     - https://bugzilla.redhat.com/2268019
+    - https://bugzilla.redhat.com/2268021
+    - https://bugzilla.redhat.com/2274767
+    - https://bugzilla.redhat.com/2292668
+    - https://bugzilla.redhat.com/2294000
+    - https://bugzilla.redhat.com/2295010
     - https://bugzilla.redhat.com/show_bug.cgi?id=2268017
     - https://bugzilla.redhat.com/show_bug.cgi?id=2268018
     - https://bugzilla.redhat.com/show_bug.cgi?id=2268019
@@ -7803,7 +9214,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45289
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45290
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24783
-    - https://errata.almalinux.org/9/ALSA-2024-6195.html
+    - https://errata.almalinux.org/8/ALSA-2024-5258.html
     - https://errata.rockylinux.org/RLSA-2024:2724
     - https://github.com/advisories/GHSA-3q2c-pvp5-3cqp
     - https://github.com/golang/go/commit/337b8e9cbfa749d9d5c899e0dc358e2208d5e54f (go1.22.1)
@@ -7845,7 +9256,7 @@
       alma: 3
       amazon: 2
       bitnami: 3
-      cbl-mariner: 3
+      cbl-mariner: 2
       oracle-oval: 3
       photon: 3
       redhat: 2
@@ -7860,15 +9271,16 @@
         V3Score: 5.4
     References:
     - http://www.openwall.com/lists/oss-security/2024/03/08/4
-    - https://access.redhat.com/errata/RHSA-2024:2562
+    - https://access.redhat.com/errata/RHSA-2024:5258
     - https://access.redhat.com/security/cve/CVE-2024-24784
     - https://bugzilla.redhat.com/2262921
     - https://bugzilla.redhat.com/2268017
-    - https://bugzilla.redhat.com/2268018
     - https://bugzilla.redhat.com/2268019
     - https://bugzilla.redhat.com/2268021
-    - https://bugzilla.redhat.com/2268022
-    - https://bugzilla.redhat.com/2268273
+    - https://bugzilla.redhat.com/2274767
+    - https://bugzilla.redhat.com/2292668
+    - https://bugzilla.redhat.com/2294000
+    - https://bugzilla.redhat.com/2295010
     - https://bugzilla.redhat.com/show_bug.cgi?id=2262921
     - https://bugzilla.redhat.com/show_bug.cgi?id=2268017
     - https://bugzilla.redhat.com/show_bug.cgi?id=2268018
@@ -7883,7 +9295,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24783
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24784
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24785
-    - https://errata.almalinux.org/9/ALSA-2024-2562.html
+    - https://errata.almalinux.org/8/ALSA-2024-5258.html
     - https://errata.rockylinux.org/RLSA-2024:2562
     - https://github.com/golang/go/commit/263c059b09fdd40d9dd945f2ecb20c89ea28efe5 (go1.21.8)
     - https://github.com/golang/go/commit/5330cd225ba54c7dc78c1b46dcdf61a4671a632c (go1.22.1)
@@ -7933,9 +9345,8 @@
         V3Score: 6.5
     References:
     - http://www.openwall.com/lists/oss-security/2024/03/08/4
-    - https://access.redhat.com/errata/RHSA-2024:2562
+    - https://access.redhat.com/errata/RHSA-2024:3259
     - https://access.redhat.com/security/cve/CVE-2024-24785
-    - https://bugzilla.redhat.com/2262921
     - https://bugzilla.redhat.com/2268017
     - https://bugzilla.redhat.com/2268018
     - https://bugzilla.redhat.com/2268019
@@ -7956,7 +9367,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24783
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24784
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24785
-    - https://errata.almalinux.org/9/ALSA-2024-2562.html
+    - https://errata.almalinux.org/8/ALSA-2024-3259.html
     - https://errata.rockylinux.org/RLSA-2024:2562
     - https://github.com/golang/go/commit/056b0edcb8c152152021eebf4cf42adbfbe77992 (go1.22.1)
     - https://github.com/golang/go/commit/3643147a29352ca2894fd5d0d2069bc4b4335a7e (go1.21.8)
@@ -8018,15 +9429,16 @@
         V3Score: 7.5
     References:
     - http://www.openwall.com/lists/oss-security/2024/06/04/1
-    - https://access.redhat.com/errata/RHSA-2024:4212
+    - https://access.redhat.com/errata/RHSA-2024:5291
     - https://access.redhat.com/security/cve/CVE-2024-24789
+    - https://bugzilla.redhat.com/2279814
     - https://bugzilla.redhat.com/2292668
     - https://bugzilla.redhat.com/2292787
     - https://bugzilla.redhat.com/show_bug.cgi?id=2292668
     - https://bugzilla.redhat.com/show_bug.cgi?id=2292787
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24789
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24790
-    - https://errata.almalinux.org/9/ALSA-2024-4212.html
+    - https://errata.almalinux.org/8/ALSA-2024-5291.html
     - https://errata.rockylinux.org/RLSA-2024:4212
     - https://github.com/golang/go/commit/c8e40338cf00f3c1d86c8fb23863ad67a4c72bcc (1.21)
     - https://github.com/golang/go/commit/cf501ac0c5fe351a8582d20b43562027927906e7 (1.22)
@@ -8856,68 +10268,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-34158
     PublishedDate: '2024-09-06T21:15:12.083Z'
     LastModifiedDate: '2024-09-09T14:35:01.17Z'
-- Target: /etc/ssh/ssh_host_ecdsa_key
-  Class: secret
-  Secrets:
-  - RuleID: private-key
-    Category: AsymmetricPrivateKey
-    Severity: HIGH
-    Title: Asymmetric Private Key
-    StartLine: 1
-    EndLine: 1
-    Code:
-      Lines:
-      - Number: 1
-        Content: BEGIN OPENSSH PRIVATE KEY-----************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
-        IsCause: true
-        Annotation: ''
-        Truncated: false
-        Highlighted: BEGIN OPENSSH PRIVATE KEY-----************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
-        FirstCause: true
-        LastCause: true
-      - Number: 2
-        Content: ''
-        IsCause: false
-        Annotation: ''
-        Truncated: false
-        FirstCause: false
-        LastCause: false
-    Match: BEGIN OPENSSH PRIVATE KEY-----************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
-    Layer:
-      Digest: sha256:eb4108e75dc6f8e6fc5a5e04197674c0d9a1dd13ec796f87aff09fd0a4bbd6ca
-      DiffID: sha256:853b5d95f07f5f2e1b0bf3839c45f15d937b8d18ad499f49ad4553075cd9fdf4
-      CreatedBy: 'COPY / / # buildkit'
-- Target: /etc/ssh/ssh_host_ed25519_key
-  Class: secret
-  Secrets:
-  - RuleID: private-key
-    Category: AsymmetricPrivateKey
-    Severity: HIGH
-    Title: Asymmetric Private Key
-    StartLine: 1
-    EndLine: 1
-    Code:
-      Lines:
-      - Number: 1
-        Content: BEGIN OPENSSH PRIVATE KEY-----******************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
-        IsCause: true
-        Annotation: ''
-        Truncated: false
-        Highlighted: BEGIN OPENSSH PRIVATE KEY-----******************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
-        FirstCause: true
-        LastCause: true
-      - Number: 2
-        Content: ''
-        IsCause: false
-        Annotation: ''
-        Truncated: false
-        FirstCause: false
-        LastCause: false
-    Match: BEGIN OPENSSH PRIVATE KEY-----******************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
-    Layer:
-      Digest: sha256:eb4108e75dc6f8e6fc5a5e04197674c0d9a1dd13ec796f87aff09fd0a4bbd6ca
-      DiffID: sha256:853b5d95f07f5f2e1b0bf3839c45f15d937b8d18ad499f49ad4553075cd9fdf4
-      CreatedBy: 'COPY / / # buildkit'
 - Target: /etc/ssh/ssh_host_rsa_key
   Class: secret
   Secrets:
@@ -8976,6 +10326,68 @@
         FirstCause: false
         LastCause: false
     Match: BEGIN OPENSSH PRIVATE KEY-----****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
+    Layer:
+      Digest: sha256:eb4108e75dc6f8e6fc5a5e04197674c0d9a1dd13ec796f87aff09fd0a4bbd6ca
+      DiffID: sha256:853b5d95f07f5f2e1b0bf3839c45f15d937b8d18ad499f49ad4553075cd9fdf4
+      CreatedBy: 'COPY / / # buildkit'
+- Target: /etc/ssh/ssh_host_ecdsa_key
+  Class: secret
+  Secrets:
+  - RuleID: private-key
+    Category: AsymmetricPrivateKey
+    Severity: HIGH
+    Title: Asymmetric Private Key
+    StartLine: 1
+    EndLine: 1
+    Code:
+      Lines:
+      - Number: 1
+        Content: BEGIN OPENSSH PRIVATE KEY-----************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
+        IsCause: true
+        Annotation: ''
+        Truncated: false
+        Highlighted: BEGIN OPENSSH PRIVATE KEY-----************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
+        FirstCause: true
+        LastCause: true
+      - Number: 2
+        Content: ''
+        IsCause: false
+        Annotation: ''
+        Truncated: false
+        FirstCause: false
+        LastCause: false
+    Match: BEGIN OPENSSH PRIVATE KEY-----************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
+    Layer:
+      Digest: sha256:eb4108e75dc6f8e6fc5a5e04197674c0d9a1dd13ec796f87aff09fd0a4bbd6ca
+      DiffID: sha256:853b5d95f07f5f2e1b0bf3839c45f15d937b8d18ad499f49ad4553075cd9fdf4
+      CreatedBy: 'COPY / / # buildkit'
+- Target: /etc/ssh/ssh_host_ed25519_key
+  Class: secret
+  Secrets:
+  - RuleID: private-key
+    Category: AsymmetricPrivateKey
+    Severity: HIGH
+    Title: Asymmetric Private Key
+    StartLine: 1
+    EndLine: 1
+    Code:
+      Lines:
+      - Number: 1
+        Content: BEGIN OPENSSH PRIVATE KEY-----******************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
+        IsCause: true
+        Annotation: ''
+        Truncated: false
+        Highlighted: BEGIN OPENSSH PRIVATE KEY-----******************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
+        FirstCause: true
+        LastCause: true
+      - Number: 2
+        Content: ''
+        IsCause: false
+        Annotation: ''
+        Truncated: false
+        FirstCause: false
+        LastCause: false
+    Match: BEGIN OPENSSH PRIVATE KEY-----******************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
     Layer:
       Digest: sha256:eb4108e75dc6f8e6fc5a5e04197674c0d9a1dd13ec796f87aff09fd0a4bbd6ca
       DiffID: sha256:853b5d95f07f5f2e1b0bf3839c45f15d937b8d18ad499f49ad4553075cd9fdf4
