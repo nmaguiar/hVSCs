@@ -2319,7 +2319,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       azure: 2
       cbl-mariner: 2
       ghsa: 2
@@ -3098,6 +3098,7 @@
     Description: Calling Decoder.Decode on a message which contains deeply nested structures can cause a panic due to stack exhaustion. This is a follow-up to CVE-2022-30635.
     Severity: HIGH
     VendorSeverity:
+      alma: 3
       bitnami: 3
       oracle-oval: 3
       redhat: 3
@@ -3109,7 +3110,10 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
+    - https://access.redhat.com/errata/RHSA-2024:6947
     - https://access.redhat.com/security/cve/CVE-2024-34156
+    - https://bugzilla.redhat.com/2310528
+    - https://errata.almalinux.org/9/ALSA-2024-6947.html
     - https://go.dev/cl/611239
     - https://go.dev/issue/69139
     - https://groups.google.com/g/golang-dev/c/S9POB9NCTdk
@@ -3282,7 +3286,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -3349,7 +3353,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -3580,7 +3584,7 @@
       alma: 2
       amazon: 2
       cbl-mariner: 2
-      oracle-oval: 3
+      oracle-oval: 2
       redhat: 2
       rocky: 2
       ubuntu: 2
@@ -3604,7 +3608,7 @@
     - https://go.dev/issue/65383
     - https://groups.google.com/g/golang-announce/c/5pwGVUPoMbg
     - https://linux.oracle.com/cve/CVE-2023-45290.html
-    - https://linux.oracle.com/errata/ELSA-2024-5258.html
+    - https://linux.oracle.com/errata/ELSA-2024-6969.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-45290
     - https://pkg.go.dev/vuln/GO-2024-2599
     - https://security.netapp.com/advisory/ntap-20240329-0004
@@ -3667,7 +3671,7 @@
     - https://go.dev/issue/65390
     - https://groups.google.com/g/golang-announce/c/5pwGVUPoMbg
     - https://linux.oracle.com/cve/CVE-2024-24783.html
-    - https://linux.oracle.com/errata/ELSA-2024-6195.html
+    - https://linux.oracle.com/errata/ELSA-2024-6969.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-24783
     - https://pkg.go.dev/vuln/GO-2024-2598
     - https://security.netapp.com/advisory/ntap-20240329-0005
@@ -3699,8 +3703,8 @@
       alma: 3
       amazon: 2
       bitnami: 3
-      cbl-mariner: 2
-      oracle-oval: 3
+      cbl-mariner: 3
+      oracle-oval: 2
       photon: 3
       redhat: 2
       rocky: 3
@@ -3746,7 +3750,7 @@
     - https://go.dev/issue/65083
     - https://groups.google.com/g/golang-announce/c/5pwGVUPoMbg
     - https://linux.oracle.com/cve/CVE-2024-24784.html
-    - https://linux.oracle.com/errata/ELSA-2024-5258.html
+    - https://linux.oracle.com/errata/ELSA-2024-6969.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-24784
     - https://pkg.go.dev/vuln/GO-2024-2609
     - https://security.netapp.com/advisory/ntap-20240329-0007/
@@ -3918,10 +3922,11 @@
     Description: 'The net/http HTTP/1.1 client mishandled the case where a server responds to a request with an "Expect: 100-continue" header with a non-informational (200 or higher) status. This mishandling could leave a client connection in an invalid state, where the next request sent on the connection will fail. An attacker sending a request to a net/http/httputil.ReverseProxy proxy can exploit this mishandling to cause a denial of service by sending "Expect: 100-continue" requests which elicit a non-informational response from the backend. Each such request leaves the proxy with an invalid connection, and causes one subsequent request using that connection to fail.'
     Severity: MEDIUM
     VendorSeverity:
+      alma: 3
       amazon: 2
       azure: 3
       bitnami: 3
-      oracle-oval: 3
+      oracle-oval: 2
       photon: 3
       redhat: 2
     CVSS:
@@ -3932,12 +3937,18 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
     References:
+    - https://access.redhat.com/errata/RHSA-2024:6913
     - https://access.redhat.com/security/cve/CVE-2024-24791
+    - https://bugzilla.redhat.com/2295310
+    - https://bugzilla.redhat.com/2310527
+    - https://bugzilla.redhat.com/2310528
+    - https://bugzilla.redhat.com/2310529
+    - https://errata.almalinux.org/9/ALSA-2024-6913.html
     - https://go.dev/cl/591255
     - https://go.dev/issue/67555
     - https://groups.google.com/g/golang-dev/c/t0rK-qHBqzY/m/6MMoAZkMAgAJ
     - https://linux.oracle.com/cve/CVE-2024-24791.html
-    - https://linux.oracle.com/errata/ELSA-2024-6913.html
+    - https://linux.oracle.com/errata/ELSA-2024-6969.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-24791
     - https://pkg.go.dev/vuln/GO-2024-2963
     - https://www.cve.org/CVERecord?id=CVE-2024-24791
@@ -3963,6 +3974,7 @@
     Description: Calling any of the Parse functions on Go source code which contains deeply nested literals can cause a panic due to stack exhaustion.
     Severity: MEDIUM
     VendorSeverity:
+      alma: 3
       oracle-oval: 3
       redhat: 2
     CVSS:
@@ -3970,7 +3982,13 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
     References:
+    - https://access.redhat.com/errata/RHSA-2024:6913
     - https://access.redhat.com/security/cve/CVE-2024-34155
+    - https://bugzilla.redhat.com/2295310
+    - https://bugzilla.redhat.com/2310527
+    - https://bugzilla.redhat.com/2310528
+    - https://bugzilla.redhat.com/2310529
+    - https://errata.almalinux.org/9/ALSA-2024-6913.html
     - https://go.dev/cl/611238
     - https://go.dev/issue/69138
     - https://groups.google.com/g/golang-dev/c/S9POB9NCTdk
@@ -4003,6 +4021,7 @@
     CweIDs:
     - CWE-674
     VendorSeverity:
+      alma: 3
       bitnami: 3
       oracle-oval: 3
       redhat: 2
@@ -4014,7 +4033,13 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
     References:
+    - https://access.redhat.com/errata/RHSA-2024:6913
     - https://access.redhat.com/security/cve/CVE-2024-34158
+    - https://bugzilla.redhat.com/2295310
+    - https://bugzilla.redhat.com/2310527
+    - https://bugzilla.redhat.com/2310528
+    - https://bugzilla.redhat.com/2310529
+    - https://errata.almalinux.org/9/ALSA-2024-6913.html
     - https://go.dev/cl/611240
     - https://go.dev/issue/69141
     - https://groups.google.com/g/golang-dev/c/S9POB9NCTdk
@@ -4205,7 +4230,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       azure: 2
       cbl-mariner: 2
       ghsa: 2
@@ -4984,6 +5009,7 @@
     Description: Calling Decoder.Decode on a message which contains deeply nested structures can cause a panic due to stack exhaustion. This is a follow-up to CVE-2022-30635.
     Severity: HIGH
     VendorSeverity:
+      alma: 3
       bitnami: 3
       oracle-oval: 3
       redhat: 3
@@ -4995,7 +5021,10 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
+    - https://access.redhat.com/errata/RHSA-2024:6947
     - https://access.redhat.com/security/cve/CVE-2024-34156
+    - https://bugzilla.redhat.com/2310528
+    - https://errata.almalinux.org/9/ALSA-2024-6947.html
     - https://go.dev/cl/611239
     - https://go.dev/issue/69139
     - https://groups.google.com/g/golang-dev/c/S9POB9NCTdk
@@ -5168,7 +5197,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -5235,7 +5264,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -5466,7 +5495,7 @@
       alma: 2
       amazon: 2
       cbl-mariner: 2
-      oracle-oval: 3
+      oracle-oval: 2
       redhat: 2
       rocky: 2
       ubuntu: 2
@@ -5490,7 +5519,7 @@
     - https://go.dev/issue/65383
     - https://groups.google.com/g/golang-announce/c/5pwGVUPoMbg
     - https://linux.oracle.com/cve/CVE-2023-45290.html
-    - https://linux.oracle.com/errata/ELSA-2024-5258.html
+    - https://linux.oracle.com/errata/ELSA-2024-6969.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-45290
     - https://pkg.go.dev/vuln/GO-2024-2599
     - https://security.netapp.com/advisory/ntap-20240329-0004
@@ -5553,7 +5582,7 @@
     - https://go.dev/issue/65390
     - https://groups.google.com/g/golang-announce/c/5pwGVUPoMbg
     - https://linux.oracle.com/cve/CVE-2024-24783.html
-    - https://linux.oracle.com/errata/ELSA-2024-6195.html
+    - https://linux.oracle.com/errata/ELSA-2024-6969.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-24783
     - https://pkg.go.dev/vuln/GO-2024-2598
     - https://security.netapp.com/advisory/ntap-20240329-0005
@@ -5585,8 +5614,8 @@
       alma: 3
       amazon: 2
       bitnami: 3
-      cbl-mariner: 2
-      oracle-oval: 3
+      cbl-mariner: 3
+      oracle-oval: 2
       photon: 3
       redhat: 2
       rocky: 3
@@ -5632,7 +5661,7 @@
     - https://go.dev/issue/65083
     - https://groups.google.com/g/golang-announce/c/5pwGVUPoMbg
     - https://linux.oracle.com/cve/CVE-2024-24784.html
-    - https://linux.oracle.com/errata/ELSA-2024-5258.html
+    - https://linux.oracle.com/errata/ELSA-2024-6969.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-24784
     - https://pkg.go.dev/vuln/GO-2024-2609
     - https://security.netapp.com/advisory/ntap-20240329-0007/
@@ -5804,10 +5833,11 @@
     Description: 'The net/http HTTP/1.1 client mishandled the case where a server responds to a request with an "Expect: 100-continue" header with a non-informational (200 or higher) status. This mishandling could leave a client connection in an invalid state, where the next request sent on the connection will fail. An attacker sending a request to a net/http/httputil.ReverseProxy proxy can exploit this mishandling to cause a denial of service by sending "Expect: 100-continue" requests which elicit a non-informational response from the backend. Each such request leaves the proxy with an invalid connection, and causes one subsequent request using that connection to fail.'
     Severity: MEDIUM
     VendorSeverity:
+      alma: 3
       amazon: 2
       azure: 3
       bitnami: 3
-      oracle-oval: 3
+      oracle-oval: 2
       photon: 3
       redhat: 2
     CVSS:
@@ -5818,12 +5848,18 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
     References:
+    - https://access.redhat.com/errata/RHSA-2024:6913
     - https://access.redhat.com/security/cve/CVE-2024-24791
+    - https://bugzilla.redhat.com/2295310
+    - https://bugzilla.redhat.com/2310527
+    - https://bugzilla.redhat.com/2310528
+    - https://bugzilla.redhat.com/2310529
+    - https://errata.almalinux.org/9/ALSA-2024-6913.html
     - https://go.dev/cl/591255
     - https://go.dev/issue/67555
     - https://groups.google.com/g/golang-dev/c/t0rK-qHBqzY/m/6MMoAZkMAgAJ
     - https://linux.oracle.com/cve/CVE-2024-24791.html
-    - https://linux.oracle.com/errata/ELSA-2024-6913.html
+    - https://linux.oracle.com/errata/ELSA-2024-6969.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-24791
     - https://pkg.go.dev/vuln/GO-2024-2963
     - https://www.cve.org/CVERecord?id=CVE-2024-24791
@@ -5849,6 +5885,7 @@
     Description: Calling any of the Parse functions on Go source code which contains deeply nested literals can cause a panic due to stack exhaustion.
     Severity: MEDIUM
     VendorSeverity:
+      alma: 3
       oracle-oval: 3
       redhat: 2
     CVSS:
@@ -5856,7 +5893,13 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
     References:
+    - https://access.redhat.com/errata/RHSA-2024:6913
     - https://access.redhat.com/security/cve/CVE-2024-34155
+    - https://bugzilla.redhat.com/2295310
+    - https://bugzilla.redhat.com/2310527
+    - https://bugzilla.redhat.com/2310528
+    - https://bugzilla.redhat.com/2310529
+    - https://errata.almalinux.org/9/ALSA-2024-6913.html
     - https://go.dev/cl/611238
     - https://go.dev/issue/69138
     - https://groups.google.com/g/golang-dev/c/S9POB9NCTdk
@@ -5889,6 +5932,7 @@
     CweIDs:
     - CWE-674
     VendorSeverity:
+      alma: 3
       bitnami: 3
       oracle-oval: 3
       redhat: 2
@@ -5900,7 +5944,13 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
     References:
+    - https://access.redhat.com/errata/RHSA-2024:6913
     - https://access.redhat.com/security/cve/CVE-2024-34158
+    - https://bugzilla.redhat.com/2295310
+    - https://bugzilla.redhat.com/2310527
+    - https://bugzilla.redhat.com/2310528
+    - https://bugzilla.redhat.com/2310529
+    - https://errata.almalinux.org/9/ALSA-2024-6913.html
     - https://go.dev/cl/611240
     - https://go.dev/issue/69141
     - https://groups.google.com/g/golang-dev/c/S9POB9NCTdk
@@ -5941,6 +5991,7 @@
     Description: Calling Decoder.Decode on a message which contains deeply nested structures can cause a panic due to stack exhaustion. This is a follow-up to CVE-2022-30635.
     Severity: HIGH
     VendorSeverity:
+      alma: 3
       bitnami: 3
       oracle-oval: 3
       redhat: 3
@@ -5952,7 +6003,10 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
+    - https://access.redhat.com/errata/RHSA-2024:6947
     - https://access.redhat.com/security/cve/CVE-2024-34156
+    - https://bugzilla.redhat.com/2310528
+    - https://errata.almalinux.org/9/ALSA-2024-6947.html
     - https://go.dev/cl/611239
     - https://go.dev/issue/69139
     - https://groups.google.com/g/golang-dev/c/S9POB9NCTdk
@@ -5983,6 +6037,7 @@
     Description: Calling any of the Parse functions on Go source code which contains deeply nested literals can cause a panic due to stack exhaustion.
     Severity: MEDIUM
     VendorSeverity:
+      alma: 3
       oracle-oval: 3
       redhat: 2
     CVSS:
@@ -5990,7 +6045,13 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
     References:
+    - https://access.redhat.com/errata/RHSA-2024:6913
     - https://access.redhat.com/security/cve/CVE-2024-34155
+    - https://bugzilla.redhat.com/2295310
+    - https://bugzilla.redhat.com/2310527
+    - https://bugzilla.redhat.com/2310528
+    - https://bugzilla.redhat.com/2310529
+    - https://errata.almalinux.org/9/ALSA-2024-6913.html
     - https://go.dev/cl/611238
     - https://go.dev/issue/69138
     - https://groups.google.com/g/golang-dev/c/S9POB9NCTdk
@@ -6023,6 +6084,7 @@
     CweIDs:
     - CWE-674
     VendorSeverity:
+      alma: 3
       bitnami: 3
       oracle-oval: 3
       redhat: 2
@@ -6034,7 +6096,13 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
     References:
+    - https://access.redhat.com/errata/RHSA-2024:6913
     - https://access.redhat.com/security/cve/CVE-2024-34158
+    - https://bugzilla.redhat.com/2295310
+    - https://bugzilla.redhat.com/2310527
+    - https://bugzilla.redhat.com/2310528
+    - https://bugzilla.redhat.com/2310529
+    - https://errata.almalinux.org/9/ALSA-2024-6913.html
     - https://go.dev/cl/611240
     - https://go.dev/issue/69141
     - https://groups.google.com/g/golang-dev/c/S9POB9NCTdk
@@ -6069,6 +6137,7 @@
     Description: Calling Decoder.Decode on a message which contains deeply nested structures can cause a panic due to stack exhaustion. This is a follow-up to CVE-2022-30635.
     Severity: HIGH
     VendorSeverity:
+      alma: 3
       bitnami: 3
       oracle-oval: 3
       redhat: 3
@@ -6080,7 +6149,10 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
+    - https://access.redhat.com/errata/RHSA-2024:6947
     - https://access.redhat.com/security/cve/CVE-2024-34156
+    - https://bugzilla.redhat.com/2310528
+    - https://errata.almalinux.org/9/ALSA-2024-6947.html
     - https://go.dev/cl/611239
     - https://go.dev/issue/69139
     - https://groups.google.com/g/golang-dev/c/S9POB9NCTdk
@@ -6111,6 +6183,7 @@
     Description: Calling any of the Parse functions on Go source code which contains deeply nested literals can cause a panic due to stack exhaustion.
     Severity: MEDIUM
     VendorSeverity:
+      alma: 3
       oracle-oval: 3
       redhat: 2
     CVSS:
@@ -6118,7 +6191,13 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
     References:
+    - https://access.redhat.com/errata/RHSA-2024:6913
     - https://access.redhat.com/security/cve/CVE-2024-34155
+    - https://bugzilla.redhat.com/2295310
+    - https://bugzilla.redhat.com/2310527
+    - https://bugzilla.redhat.com/2310528
+    - https://bugzilla.redhat.com/2310529
+    - https://errata.almalinux.org/9/ALSA-2024-6913.html
     - https://go.dev/cl/611238
     - https://go.dev/issue/69138
     - https://groups.google.com/g/golang-dev/c/S9POB9NCTdk
@@ -6151,6 +6230,7 @@
     CweIDs:
     - CWE-674
     VendorSeverity:
+      alma: 3
       bitnami: 3
       oracle-oval: 3
       redhat: 2
@@ -6162,7 +6242,13 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
     References:
+    - https://access.redhat.com/errata/RHSA-2024:6913
     - https://access.redhat.com/security/cve/CVE-2024-34158
+    - https://bugzilla.redhat.com/2295310
+    - https://bugzilla.redhat.com/2310527
+    - https://bugzilla.redhat.com/2310528
+    - https://bugzilla.redhat.com/2310529
+    - https://errata.almalinux.org/9/ALSA-2024-6913.html
     - https://go.dev/cl/611240
     - https://go.dev/issue/69141
     - https://groups.google.com/g/golang-dev/c/S9POB9NCTdk
@@ -6276,6 +6362,37 @@
     - https://github.com/grpc/grpc-go
     - https://github.com/grpc/grpc-go/commit/ab292411ddc0f3b7a7786754d1fe05264c3021eb
     - https://github.com/grpc/grpc-go/security/advisories/GHSA-xr7q-jx4m-x55m
+- Target: /etc/ssh/ssh_host_rsa_key
+  Class: secret
+  Secrets:
+  - RuleID: private-key
+    Category: AsymmetricPrivateKey
+    Severity: HIGH
+    Title: Asymmetric Private Key
+    StartLine: 1
+    EndLine: 1
+    Code:
+      Lines:
+      - Number: 1
+        Content: BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
+        IsCause: true
+        Annotation: ''
+        Truncated: false
+        Highlighted: BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
+        FirstCause: true
+        LastCause: true
+      - Number: 2
+        Content: ''
+        IsCause: false
+        Annotation: ''
+        Truncated: false
+        FirstCause: false
+        LastCause: false
+    Match: BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
+    Layer:
+      Digest: sha256:f1c227d7123ec69b621f448169daaaf6e61a77172458ade22c458b57315d6c6c
+      DiffID: sha256:bde3a18dd662972c96231262b3c558987438a518738d3139515b8dbfe0584867
+      CreatedBy: 'COPY / / # buildkit'
 - Target: /etc/ssh/ssh_host_ecdsa_key
   Class: secret
   Secrets:
@@ -6334,37 +6451,6 @@
         FirstCause: false
         LastCause: false
     Match: BEGIN OPENSSH PRIVATE KEY-----******************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
-    Layer:
-      Digest: sha256:f1c227d7123ec69b621f448169daaaf6e61a77172458ade22c458b57315d6c6c
-      DiffID: sha256:bde3a18dd662972c96231262b3c558987438a518738d3139515b8dbfe0584867
-      CreatedBy: 'COPY / / # buildkit'
-- Target: /etc/ssh/ssh_host_rsa_key
-  Class: secret
-  Secrets:
-  - RuleID: private-key
-    Category: AsymmetricPrivateKey
-    Severity: HIGH
-    Title: Asymmetric Private Key
-    StartLine: 1
-    EndLine: 1
-    Code:
-      Lines:
-      - Number: 1
-        Content: BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
-        IsCause: true
-        Annotation: ''
-        Truncated: false
-        Highlighted: BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
-        FirstCause: true
-        LastCause: true
-      - Number: 2
-        Content: ''
-        IsCause: false
-        Annotation: ''
-        Truncated: false
-        FirstCause: false
-        LastCause: false
-    Match: BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
     Layer:
       Digest: sha256:f1c227d7123ec69b621f448169daaaf6e61a77172458ade22c458b57315d6c6c
       DiffID: sha256:bde3a18dd662972c96231262b3c558987438a518738d3139515b8dbfe0584867
