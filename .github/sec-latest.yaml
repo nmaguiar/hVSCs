@@ -9,7 +9,8 @@
       PURL: pkg:deb/ubuntu/apparmor@3.0.4-2ubuntu2.3build2?arch=amd64&distro=ubuntu-22.04
       UID: b9023567b5641b1b
     InstalledVersion: 3.0.4-2ubuntu2.3build2
-    Status: affected
+    FixedVersion: 3.0.4-2ubuntu2.4
+    Status: fixed
     Layer:
       Digest: sha256:eb4108e75dc6f8e6fc5a5e04197674c0d9a1dd13ec796f87aff09fd0a4bbd6ca
       DiffID: sha256:853b5d95f07f5f2e1b0bf3839c45f15d937b8d18ad499f49ad4553075cd9fdf4
@@ -41,6 +42,7 @@
     - https://gitlab.com/apparmor/apparmor/-/merge_requests/333
     - https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772%40%3Cdev.mina.apache.org%3E
     - https://nvd.nist.gov/vuln/detail/CVE-2016-1585
+    - https://ubuntu.com/security/notices/USN-7035-1
     - https://www.cve.org/CVERecord?id=CVE-2016-1585
     PublishedDate: '2019-04-22T16:29:01.303Z'
     LastModifiedDate: '2023-11-07T02:29:58.223Z'
@@ -940,7 +942,8 @@
       PURL: pkg:deb/ubuntu/libapparmor1@3.0.4-2ubuntu2.3build2?arch=amd64&distro=ubuntu-22.04
       UID: 75280aff37ed3f5f
     InstalledVersion: 3.0.4-2ubuntu2.3build2
-    Status: affected
+    FixedVersion: 3.0.4-2ubuntu2.4
+    Status: fixed
     Layer:
       Digest: sha256:eb4108e75dc6f8e6fc5a5e04197674c0d9a1dd13ec796f87aff09fd0a4bbd6ca
       DiffID: sha256:853b5d95f07f5f2e1b0bf3839c45f15d937b8d18ad499f49ad4553075cd9fdf4
@@ -972,6 +975,7 @@
     - https://gitlab.com/apparmor/apparmor/-/merge_requests/333
     - https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772%40%3Cdev.mina.apache.org%3E
     - https://nvd.nist.gov/vuln/detail/CVE-2016-1585
+    - https://ubuntu.com/security/notices/USN-7035-1
     - https://www.cve.org/CVERecord?id=CVE-2016-1585
     PublishedDate: '2019-04-22T16:29:01.303Z'
     LastModifiedDate: '2023-11-07T02:29:58.223Z'
@@ -1351,7 +1355,7 @@
     - https://github.com/libexpat/libexpat/issues/887
     - https://github.com/libexpat/libexpat/pull/890
     - https://linux.oracle.com/cve/CVE-2024-45490.html
-    - https://linux.oracle.com/errata/ELSA-2024-6754.html
+    - https://linux.oracle.com/errata/ELSA-2024-6989.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-45490
     - https://ubuntu.com/security/notices/USN-7000-1
     - https://ubuntu.com/security/notices/USN-7000-2
@@ -1409,7 +1413,7 @@
     - https://github.com/libexpat/libexpat/issues/888
     - https://github.com/libexpat/libexpat/pull/891
     - https://linux.oracle.com/cve/CVE-2024-45491.html
-    - https://linux.oracle.com/errata/ELSA-2024-6754.html
+    - https://linux.oracle.com/errata/ELSA-2024-6989.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-45491
     - https://ubuntu.com/security/notices/USN-7000-1
     - https://ubuntu.com/security/notices/USN-7000-2
@@ -1467,7 +1471,7 @@
     - https://github.com/libexpat/libexpat/issues/889
     - https://github.com/libexpat/libexpat/pull/892
     - https://linux.oracle.com/cve/CVE-2024-45492.html
-    - https://linux.oracle.com/errata/ELSA-2024-6754.html
+    - https://linux.oracle.com/errata/ELSA-2024-6989.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-45492
     - https://ubuntu.com/security/notices/USN-7000-1
     - https://ubuntu.com/security/notices/USN-7000-2
@@ -3044,8 +3048,10 @@
     CweIDs:
     - CWE-1333
     VendorSeverity:
+      alma: 2
       bitnami: 3
       nvd: 3
+      oracle-oval: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -3059,7 +3065,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
+    - https://access.redhat.com/errata/RHSA-2024:6975
     - https://access.redhat.com/security/cve/CVE-2024-6232
+    - https://bugzilla.redhat.com/2292921
+    - https://bugzilla.redhat.com/2302255
+    - https://bugzilla.redhat.com/2309426
+    - https://errata.almalinux.org/8/ALSA-2024-6975.html
     - https://github.com/python/cpython/commit/4eaf4891c12589e3c7bdad5f5b076e4c8392dd06
     - https://github.com/python/cpython/commit/743acbe872485dc18df4d8ab2dc7895187f062c4
     - https://github.com/python/cpython/commit/7d1f50cd92ff7e10a1c15a8f591dde8a6843a64d
@@ -3068,6 +3079,8 @@
     - https://github.com/python/cpython/commit/ed3a49ea734ada357ff4442996fd4ae71d253373
     - https://github.com/python/cpython/issues/121285
     - https://github.com/python/cpython/pull/121286
+    - https://linux.oracle.com/cve/CVE-2024-6232.html
+    - https://linux.oracle.com/errata/ELSA-2024-6975.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/JRYFTPRHZRTLMZLWQEUHZSJXNHM4ACTY/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-6232
     - https://ubuntu.com/security/notices/USN-7015-1
@@ -3132,7 +3145,7 @@
     - https://github.com/python/cpython/issues/121650
     - https://github.com/python/cpython/pull/122233
     - https://linux.oracle.com/cve/CVE-2024-6923.html
-    - https://linux.oracle.com/errata/ELSA-2024-6179.html
+    - https://linux.oracle.com/errata/ELSA-2024-6975.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/QH3BUOE2DYQBWP7NAQ7UNHPPOELKISRW/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-6923
     - https://ubuntu.com/security/notices/USN-7015-1
@@ -3185,13 +3198,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:N/A:H
         V3Score: 5.3
     References:
-    - https://access.redhat.com/errata/RHSA-2024:5962
+    - https://access.redhat.com/errata/RHSA-2024:6962
     - https://access.redhat.com/security/cve/CVE-2024-8088
     - https://bugzilla.redhat.com/2292921
-    - https://bugzilla.redhat.com/2297771
     - https://bugzilla.redhat.com/2302255
     - https://bugzilla.redhat.com/2307370
-    - https://errata.almalinux.org/8/ALSA-2024-5962.html
+    - https://errata.almalinux.org/8/ALSA-2024-6962.html
     - https://github.com/python/cpython/commit/0aa1ee22ab6e204e9d3d0e9dd63ea648ed691ef1
     - https://github.com/python/cpython/commit/2231286d78d328c2f575e0b05b16fe447d1656d6
     - https://github.com/python/cpython/commit/795f2597a4be988e2bb19b69ff9958e981cb894e
@@ -3207,7 +3219,7 @@
     - https://github.com/python/cpython/issues/123270
     - https://github.com/python/cpython/pull/122906
     - https://linux.oracle.com/cve/CVE-2024-8088.html
-    - https://linux.oracle.com/errata/ELSA-2024-5962.html
+    - https://linux.oracle.com/errata/ELSA-2024-6962.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/GNFCKVI4TCATKQLALJ5SN4L4CSPSMILU/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-8088
     - https://ubuntu.com/security/notices/USN-7015-1
@@ -3395,8 +3407,10 @@
     CweIDs:
     - CWE-1333
     VendorSeverity:
+      alma: 2
       bitnami: 3
       nvd: 3
+      oracle-oval: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -3410,7 +3424,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
+    - https://access.redhat.com/errata/RHSA-2024:6975
     - https://access.redhat.com/security/cve/CVE-2024-6232
+    - https://bugzilla.redhat.com/2292921
+    - https://bugzilla.redhat.com/2302255
+    - https://bugzilla.redhat.com/2309426
+    - https://errata.almalinux.org/8/ALSA-2024-6975.html
     - https://github.com/python/cpython/commit/4eaf4891c12589e3c7bdad5f5b076e4c8392dd06
     - https://github.com/python/cpython/commit/743acbe872485dc18df4d8ab2dc7895187f062c4
     - https://github.com/python/cpython/commit/7d1f50cd92ff7e10a1c15a8f591dde8a6843a64d
@@ -3419,6 +3438,8 @@
     - https://github.com/python/cpython/commit/ed3a49ea734ada357ff4442996fd4ae71d253373
     - https://github.com/python/cpython/issues/121285
     - https://github.com/python/cpython/pull/121286
+    - https://linux.oracle.com/cve/CVE-2024-6232.html
+    - https://linux.oracle.com/errata/ELSA-2024-6975.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/JRYFTPRHZRTLMZLWQEUHZSJXNHM4ACTY/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-6232
     - https://ubuntu.com/security/notices/USN-7015-1
@@ -3483,7 +3504,7 @@
     - https://github.com/python/cpython/issues/121650
     - https://github.com/python/cpython/pull/122233
     - https://linux.oracle.com/cve/CVE-2024-6923.html
-    - https://linux.oracle.com/errata/ELSA-2024-6179.html
+    - https://linux.oracle.com/errata/ELSA-2024-6975.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/QH3BUOE2DYQBWP7NAQ7UNHPPOELKISRW/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-6923
     - https://ubuntu.com/security/notices/USN-7015-1
@@ -3536,13 +3557,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:N/A:H
         V3Score: 5.3
     References:
-    - https://access.redhat.com/errata/RHSA-2024:5962
+    - https://access.redhat.com/errata/RHSA-2024:6962
     - https://access.redhat.com/security/cve/CVE-2024-8088
     - https://bugzilla.redhat.com/2292921
-    - https://bugzilla.redhat.com/2297771
     - https://bugzilla.redhat.com/2302255
     - https://bugzilla.redhat.com/2307370
-    - https://errata.almalinux.org/8/ALSA-2024-5962.html
+    - https://errata.almalinux.org/8/ALSA-2024-6962.html
     - https://github.com/python/cpython/commit/0aa1ee22ab6e204e9d3d0e9dd63ea648ed691ef1
     - https://github.com/python/cpython/commit/2231286d78d328c2f575e0b05b16fe447d1656d6
     - https://github.com/python/cpython/commit/795f2597a4be988e2bb19b69ff9958e981cb894e
@@ -3558,7 +3578,7 @@
     - https://github.com/python/cpython/issues/123270
     - https://github.com/python/cpython/pull/122906
     - https://linux.oracle.com/cve/CVE-2024-8088.html
-    - https://linux.oracle.com/errata/ELSA-2024-5962.html
+    - https://linux.oracle.com/errata/ELSA-2024-6962.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/GNFCKVI4TCATKQLALJ5SN4L4CSPSMILU/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-8088
     - https://ubuntu.com/security/notices/USN-7015-1
@@ -3746,8 +3766,10 @@
     CweIDs:
     - CWE-1333
     VendorSeverity:
+      alma: 2
       bitnami: 3
       nvd: 3
+      oracle-oval: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -3761,7 +3783,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
+    - https://access.redhat.com/errata/RHSA-2024:6975
     - https://access.redhat.com/security/cve/CVE-2024-6232
+    - https://bugzilla.redhat.com/2292921
+    - https://bugzilla.redhat.com/2302255
+    - https://bugzilla.redhat.com/2309426
+    - https://errata.almalinux.org/8/ALSA-2024-6975.html
     - https://github.com/python/cpython/commit/4eaf4891c12589e3c7bdad5f5b076e4c8392dd06
     - https://github.com/python/cpython/commit/743acbe872485dc18df4d8ab2dc7895187f062c4
     - https://github.com/python/cpython/commit/7d1f50cd92ff7e10a1c15a8f591dde8a6843a64d
@@ -3770,6 +3797,8 @@
     - https://github.com/python/cpython/commit/ed3a49ea734ada357ff4442996fd4ae71d253373
     - https://github.com/python/cpython/issues/121285
     - https://github.com/python/cpython/pull/121286
+    - https://linux.oracle.com/cve/CVE-2024-6232.html
+    - https://linux.oracle.com/errata/ELSA-2024-6975.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/JRYFTPRHZRTLMZLWQEUHZSJXNHM4ACTY/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-6232
     - https://ubuntu.com/security/notices/USN-7015-1
@@ -3834,7 +3863,7 @@
     - https://github.com/python/cpython/issues/121650
     - https://github.com/python/cpython/pull/122233
     - https://linux.oracle.com/cve/CVE-2024-6923.html
-    - https://linux.oracle.com/errata/ELSA-2024-6179.html
+    - https://linux.oracle.com/errata/ELSA-2024-6975.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/QH3BUOE2DYQBWP7NAQ7UNHPPOELKISRW/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-6923
     - https://ubuntu.com/security/notices/USN-7015-1
@@ -3887,13 +3916,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:N/A:H
         V3Score: 5.3
     References:
-    - https://access.redhat.com/errata/RHSA-2024:5962
+    - https://access.redhat.com/errata/RHSA-2024:6962
     - https://access.redhat.com/security/cve/CVE-2024-8088
     - https://bugzilla.redhat.com/2292921
-    - https://bugzilla.redhat.com/2297771
     - https://bugzilla.redhat.com/2302255
     - https://bugzilla.redhat.com/2307370
-    - https://errata.almalinux.org/8/ALSA-2024-5962.html
+    - https://errata.almalinux.org/8/ALSA-2024-6962.html
     - https://github.com/python/cpython/commit/0aa1ee22ab6e204e9d3d0e9dd63ea648ed691ef1
     - https://github.com/python/cpython/commit/2231286d78d328c2f575e0b05b16fe447d1656d6
     - https://github.com/python/cpython/commit/795f2597a4be988e2bb19b69ff9958e981cb894e
@@ -3909,7 +3937,7 @@
     - https://github.com/python/cpython/issues/123270
     - https://github.com/python/cpython/pull/122906
     - https://linux.oracle.com/cve/CVE-2024-8088.html
-    - https://linux.oracle.com/errata/ELSA-2024-5962.html
+    - https://linux.oracle.com/errata/ELSA-2024-6962.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/GNFCKVI4TCATKQLALJ5SN4L4CSPSMILU/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-8088
     - https://ubuntu.com/security/notices/USN-7015-1
@@ -5176,8 +5204,10 @@
     CweIDs:
     - CWE-1333
     VendorSeverity:
+      alma: 2
       bitnami: 3
       nvd: 3
+      oracle-oval: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -5191,7 +5221,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
+    - https://access.redhat.com/errata/RHSA-2024:6975
     - https://access.redhat.com/security/cve/CVE-2024-6232
+    - https://bugzilla.redhat.com/2292921
+    - https://bugzilla.redhat.com/2302255
+    - https://bugzilla.redhat.com/2309426
+    - https://errata.almalinux.org/8/ALSA-2024-6975.html
     - https://github.com/python/cpython/commit/4eaf4891c12589e3c7bdad5f5b076e4c8392dd06
     - https://github.com/python/cpython/commit/743acbe872485dc18df4d8ab2dc7895187f062c4
     - https://github.com/python/cpython/commit/7d1f50cd92ff7e10a1c15a8f591dde8a6843a64d
@@ -5200,6 +5235,8 @@
     - https://github.com/python/cpython/commit/ed3a49ea734ada357ff4442996fd4ae71d253373
     - https://github.com/python/cpython/issues/121285
     - https://github.com/python/cpython/pull/121286
+    - https://linux.oracle.com/cve/CVE-2024-6232.html
+    - https://linux.oracle.com/errata/ELSA-2024-6975.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/JRYFTPRHZRTLMZLWQEUHZSJXNHM4ACTY/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-6232
     - https://ubuntu.com/security/notices/USN-7015-1
@@ -5264,7 +5301,7 @@
     - https://github.com/python/cpython/issues/121650
     - https://github.com/python/cpython/pull/122233
     - https://linux.oracle.com/cve/CVE-2024-6923.html
-    - https://linux.oracle.com/errata/ELSA-2024-6179.html
+    - https://linux.oracle.com/errata/ELSA-2024-6975.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/QH3BUOE2DYQBWP7NAQ7UNHPPOELKISRW/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-6923
     - https://ubuntu.com/security/notices/USN-7015-1
@@ -5317,13 +5354,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:N/A:H
         V3Score: 5.3
     References:
-    - https://access.redhat.com/errata/RHSA-2024:5962
+    - https://access.redhat.com/errata/RHSA-2024:6962
     - https://access.redhat.com/security/cve/CVE-2024-8088
     - https://bugzilla.redhat.com/2292921
-    - https://bugzilla.redhat.com/2297771
     - https://bugzilla.redhat.com/2302255
     - https://bugzilla.redhat.com/2307370
-    - https://errata.almalinux.org/8/ALSA-2024-5962.html
+    - https://errata.almalinux.org/8/ALSA-2024-6962.html
     - https://github.com/python/cpython/commit/0aa1ee22ab6e204e9d3d0e9dd63ea648ed691ef1
     - https://github.com/python/cpython/commit/2231286d78d328c2f575e0b05b16fe447d1656d6
     - https://github.com/python/cpython/commit/795f2597a4be988e2bb19b69ff9958e981cb894e
@@ -5339,7 +5375,7 @@
     - https://github.com/python/cpython/issues/123270
     - https://github.com/python/cpython/pull/122906
     - https://linux.oracle.com/cve/CVE-2024-8088.html
-    - https://linux.oracle.com/errata/ELSA-2024-5962.html
+    - https://linux.oracle.com/errata/ELSA-2024-6962.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/GNFCKVI4TCATKQLALJ5SN4L4CSPSMILU/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-8088
     - https://ubuntu.com/security/notices/USN-7015-1
@@ -5527,8 +5563,10 @@
     CweIDs:
     - CWE-1333
     VendorSeverity:
+      alma: 2
       bitnami: 3
       nvd: 3
+      oracle-oval: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -5542,7 +5580,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
+    - https://access.redhat.com/errata/RHSA-2024:6975
     - https://access.redhat.com/security/cve/CVE-2024-6232
+    - https://bugzilla.redhat.com/2292921
+    - https://bugzilla.redhat.com/2302255
+    - https://bugzilla.redhat.com/2309426
+    - https://errata.almalinux.org/8/ALSA-2024-6975.html
     - https://github.com/python/cpython/commit/4eaf4891c12589e3c7bdad5f5b076e4c8392dd06
     - https://github.com/python/cpython/commit/743acbe872485dc18df4d8ab2dc7895187f062c4
     - https://github.com/python/cpython/commit/7d1f50cd92ff7e10a1c15a8f591dde8a6843a64d
@@ -5551,6 +5594,8 @@
     - https://github.com/python/cpython/commit/ed3a49ea734ada357ff4442996fd4ae71d253373
     - https://github.com/python/cpython/issues/121285
     - https://github.com/python/cpython/pull/121286
+    - https://linux.oracle.com/cve/CVE-2024-6232.html
+    - https://linux.oracle.com/errata/ELSA-2024-6975.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/JRYFTPRHZRTLMZLWQEUHZSJXNHM4ACTY/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-6232
     - https://ubuntu.com/security/notices/USN-7015-1
@@ -5615,7 +5660,7 @@
     - https://github.com/python/cpython/issues/121650
     - https://github.com/python/cpython/pull/122233
     - https://linux.oracle.com/cve/CVE-2024-6923.html
-    - https://linux.oracle.com/errata/ELSA-2024-6179.html
+    - https://linux.oracle.com/errata/ELSA-2024-6975.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/QH3BUOE2DYQBWP7NAQ7UNHPPOELKISRW/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-6923
     - https://ubuntu.com/security/notices/USN-7015-1
@@ -5668,13 +5713,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:N/A:H
         V3Score: 5.3
     References:
-    - https://access.redhat.com/errata/RHSA-2024:5962
+    - https://access.redhat.com/errata/RHSA-2024:6962
     - https://access.redhat.com/security/cve/CVE-2024-8088
     - https://bugzilla.redhat.com/2292921
-    - https://bugzilla.redhat.com/2297771
     - https://bugzilla.redhat.com/2302255
     - https://bugzilla.redhat.com/2307370
-    - https://errata.almalinux.org/8/ALSA-2024-5962.html
+    - https://errata.almalinux.org/8/ALSA-2024-6962.html
     - https://github.com/python/cpython/commit/0aa1ee22ab6e204e9d3d0e9dd63ea648ed691ef1
     - https://github.com/python/cpython/commit/2231286d78d328c2f575e0b05b16fe447d1656d6
     - https://github.com/python/cpython/commit/795f2597a4be988e2bb19b69ff9958e981cb894e
@@ -5690,7 +5734,7 @@
     - https://github.com/python/cpython/issues/123270
     - https://github.com/python/cpython/pull/122906
     - https://linux.oracle.com/cve/CVE-2024-8088.html
-    - https://linux.oracle.com/errata/ELSA-2024-5962.html
+    - https://linux.oracle.com/errata/ELSA-2024-6962.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/GNFCKVI4TCATKQLALJ5SN4L4CSPSMILU/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-8088
     - https://ubuntu.com/security/notices/USN-7015-1
@@ -6258,7 +6302,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       azure: 2
       cbl-mariner: 2
       ghsa: 2
@@ -7037,6 +7081,7 @@
     Description: Calling Decoder.Decode on a message which contains deeply nested structures can cause a panic due to stack exhaustion. This is a follow-up to CVE-2022-30635.
     Severity: HIGH
     VendorSeverity:
+      alma: 3
       bitnami: 3
       oracle-oval: 3
       redhat: 3
@@ -7048,7 +7093,10 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
+    - https://access.redhat.com/errata/RHSA-2024:6947
     - https://access.redhat.com/security/cve/CVE-2024-34156
+    - https://bugzilla.redhat.com/2310528
+    - https://errata.almalinux.org/9/ALSA-2024-6947.html
     - https://go.dev/cl/611239
     - https://go.dev/issue/69139
     - https://groups.google.com/g/golang-dev/c/S9POB9NCTdk
@@ -7221,7 +7269,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -7288,7 +7336,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -7519,7 +7567,7 @@
       alma: 2
       amazon: 2
       cbl-mariner: 2
-      oracle-oval: 3
+      oracle-oval: 2
       redhat: 2
       rocky: 2
       ubuntu: 2
@@ -7543,7 +7591,7 @@
     - https://go.dev/issue/65383
     - https://groups.google.com/g/golang-announce/c/5pwGVUPoMbg
     - https://linux.oracle.com/cve/CVE-2023-45290.html
-    - https://linux.oracle.com/errata/ELSA-2024-5258.html
+    - https://linux.oracle.com/errata/ELSA-2024-6969.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-45290
     - https://pkg.go.dev/vuln/GO-2024-2599
     - https://security.netapp.com/advisory/ntap-20240329-0004
@@ -7606,7 +7654,7 @@
     - https://go.dev/issue/65390
     - https://groups.google.com/g/golang-announce/c/5pwGVUPoMbg
     - https://linux.oracle.com/cve/CVE-2024-24783.html
-    - https://linux.oracle.com/errata/ELSA-2024-6195.html
+    - https://linux.oracle.com/errata/ELSA-2024-6969.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-24783
     - https://pkg.go.dev/vuln/GO-2024-2598
     - https://security.netapp.com/advisory/ntap-20240329-0005
@@ -7638,8 +7686,8 @@
       alma: 3
       amazon: 2
       bitnami: 3
-      cbl-mariner: 2
-      oracle-oval: 3
+      cbl-mariner: 3
+      oracle-oval: 2
       photon: 3
       redhat: 2
       rocky: 3
@@ -7685,7 +7733,7 @@
     - https://go.dev/issue/65083
     - https://groups.google.com/g/golang-announce/c/5pwGVUPoMbg
     - https://linux.oracle.com/cve/CVE-2024-24784.html
-    - https://linux.oracle.com/errata/ELSA-2024-5258.html
+    - https://linux.oracle.com/errata/ELSA-2024-6969.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-24784
     - https://pkg.go.dev/vuln/GO-2024-2609
     - https://security.netapp.com/advisory/ntap-20240329-0007/
@@ -7857,10 +7905,11 @@
     Description: 'The net/http HTTP/1.1 client mishandled the case where a server responds to a request with an "Expect: 100-continue" header with a non-informational (200 or higher) status. This mishandling could leave a client connection in an invalid state, where the next request sent on the connection will fail. An attacker sending a request to a net/http/httputil.ReverseProxy proxy can exploit this mishandling to cause a denial of service by sending "Expect: 100-continue" requests which elicit a non-informational response from the backend. Each such request leaves the proxy with an invalid connection, and causes one subsequent request using that connection to fail.'
     Severity: MEDIUM
     VendorSeverity:
+      alma: 3
       amazon: 2
       azure: 3
       bitnami: 3
-      oracle-oval: 3
+      oracle-oval: 2
       photon: 3
       redhat: 2
     CVSS:
@@ -7871,12 +7920,18 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
     References:
+    - https://access.redhat.com/errata/RHSA-2024:6913
     - https://access.redhat.com/security/cve/CVE-2024-24791
+    - https://bugzilla.redhat.com/2295310
+    - https://bugzilla.redhat.com/2310527
+    - https://bugzilla.redhat.com/2310528
+    - https://bugzilla.redhat.com/2310529
+    - https://errata.almalinux.org/9/ALSA-2024-6913.html
     - https://go.dev/cl/591255
     - https://go.dev/issue/67555
     - https://groups.google.com/g/golang-dev/c/t0rK-qHBqzY/m/6MMoAZkMAgAJ
     - https://linux.oracle.com/cve/CVE-2024-24791.html
-    - https://linux.oracle.com/errata/ELSA-2024-6913.html
+    - https://linux.oracle.com/errata/ELSA-2024-6969.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-24791
     - https://pkg.go.dev/vuln/GO-2024-2963
     - https://www.cve.org/CVERecord?id=CVE-2024-24791
@@ -7902,6 +7957,7 @@
     Description: Calling any of the Parse functions on Go source code which contains deeply nested literals can cause a panic due to stack exhaustion.
     Severity: MEDIUM
     VendorSeverity:
+      alma: 3
       oracle-oval: 3
       redhat: 2
     CVSS:
@@ -7909,7 +7965,13 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
     References:
+    - https://access.redhat.com/errata/RHSA-2024:6913
     - https://access.redhat.com/security/cve/CVE-2024-34155
+    - https://bugzilla.redhat.com/2295310
+    - https://bugzilla.redhat.com/2310527
+    - https://bugzilla.redhat.com/2310528
+    - https://bugzilla.redhat.com/2310529
+    - https://errata.almalinux.org/9/ALSA-2024-6913.html
     - https://go.dev/cl/611238
     - https://go.dev/issue/69138
     - https://groups.google.com/g/golang-dev/c/S9POB9NCTdk
@@ -7942,6 +8004,7 @@
     CweIDs:
     - CWE-674
     VendorSeverity:
+      alma: 3
       bitnami: 3
       oracle-oval: 3
       redhat: 2
@@ -7953,7 +8016,13 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
     References:
+    - https://access.redhat.com/errata/RHSA-2024:6913
     - https://access.redhat.com/security/cve/CVE-2024-34158
+    - https://bugzilla.redhat.com/2295310
+    - https://bugzilla.redhat.com/2310527
+    - https://bugzilla.redhat.com/2310528
+    - https://bugzilla.redhat.com/2310529
+    - https://errata.almalinux.org/9/ALSA-2024-6913.html
     - https://go.dev/cl/611240
     - https://go.dev/issue/69141
     - https://groups.google.com/g/golang-dev/c/S9POB9NCTdk
@@ -8144,7 +8213,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       azure: 2
       cbl-mariner: 2
       ghsa: 2
@@ -8923,6 +8992,7 @@
     Description: Calling Decoder.Decode on a message which contains deeply nested structures can cause a panic due to stack exhaustion. This is a follow-up to CVE-2022-30635.
     Severity: HIGH
     VendorSeverity:
+      alma: 3
       bitnami: 3
       oracle-oval: 3
       redhat: 3
@@ -8934,7 +9004,10 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
+    - https://access.redhat.com/errata/RHSA-2024:6947
     - https://access.redhat.com/security/cve/CVE-2024-34156
+    - https://bugzilla.redhat.com/2310528
+    - https://errata.almalinux.org/9/ALSA-2024-6947.html
     - https://go.dev/cl/611239
     - https://go.dev/issue/69139
     - https://groups.google.com/g/golang-dev/c/S9POB9NCTdk
@@ -9107,7 +9180,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -9174,7 +9247,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -9405,7 +9478,7 @@
       alma: 2
       amazon: 2
       cbl-mariner: 2
-      oracle-oval: 3
+      oracle-oval: 2
       redhat: 2
       rocky: 2
       ubuntu: 2
@@ -9429,7 +9502,7 @@
     - https://go.dev/issue/65383
     - https://groups.google.com/g/golang-announce/c/5pwGVUPoMbg
     - https://linux.oracle.com/cve/CVE-2023-45290.html
-    - https://linux.oracle.com/errata/ELSA-2024-5258.html
+    - https://linux.oracle.com/errata/ELSA-2024-6969.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-45290
     - https://pkg.go.dev/vuln/GO-2024-2599
     - https://security.netapp.com/advisory/ntap-20240329-0004
@@ -9492,7 +9565,7 @@
     - https://go.dev/issue/65390
     - https://groups.google.com/g/golang-announce/c/5pwGVUPoMbg
     - https://linux.oracle.com/cve/CVE-2024-24783.html
-    - https://linux.oracle.com/errata/ELSA-2024-6195.html
+    - https://linux.oracle.com/errata/ELSA-2024-6969.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-24783
     - https://pkg.go.dev/vuln/GO-2024-2598
     - https://security.netapp.com/advisory/ntap-20240329-0005
@@ -9524,8 +9597,8 @@
       alma: 3
       amazon: 2
       bitnami: 3
-      cbl-mariner: 2
-      oracle-oval: 3
+      cbl-mariner: 3
+      oracle-oval: 2
       photon: 3
       redhat: 2
       rocky: 3
@@ -9571,7 +9644,7 @@
     - https://go.dev/issue/65083
     - https://groups.google.com/g/golang-announce/c/5pwGVUPoMbg
     - https://linux.oracle.com/cve/CVE-2024-24784.html
-    - https://linux.oracle.com/errata/ELSA-2024-5258.html
+    - https://linux.oracle.com/errata/ELSA-2024-6969.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-24784
     - https://pkg.go.dev/vuln/GO-2024-2609
     - https://security.netapp.com/advisory/ntap-20240329-0007/
@@ -9743,10 +9816,11 @@
     Description: 'The net/http HTTP/1.1 client mishandled the case where a server responds to a request with an "Expect: 100-continue" header with a non-informational (200 or higher) status. This mishandling could leave a client connection in an invalid state, where the next request sent on the connection will fail. An attacker sending a request to a net/http/httputil.ReverseProxy proxy can exploit this mishandling to cause a denial of service by sending "Expect: 100-continue" requests which elicit a non-informational response from the backend. Each such request leaves the proxy with an invalid connection, and causes one subsequent request using that connection to fail.'
     Severity: MEDIUM
     VendorSeverity:
+      alma: 3
       amazon: 2
       azure: 3
       bitnami: 3
-      oracle-oval: 3
+      oracle-oval: 2
       photon: 3
       redhat: 2
     CVSS:
@@ -9757,12 +9831,18 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
     References:
+    - https://access.redhat.com/errata/RHSA-2024:6913
     - https://access.redhat.com/security/cve/CVE-2024-24791
+    - https://bugzilla.redhat.com/2295310
+    - https://bugzilla.redhat.com/2310527
+    - https://bugzilla.redhat.com/2310528
+    - https://bugzilla.redhat.com/2310529
+    - https://errata.almalinux.org/9/ALSA-2024-6913.html
     - https://go.dev/cl/591255
     - https://go.dev/issue/67555
     - https://groups.google.com/g/golang-dev/c/t0rK-qHBqzY/m/6MMoAZkMAgAJ
     - https://linux.oracle.com/cve/CVE-2024-24791.html
-    - https://linux.oracle.com/errata/ELSA-2024-6913.html
+    - https://linux.oracle.com/errata/ELSA-2024-6969.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-24791
     - https://pkg.go.dev/vuln/GO-2024-2963
     - https://www.cve.org/CVERecord?id=CVE-2024-24791
@@ -9788,6 +9868,7 @@
     Description: Calling any of the Parse functions on Go source code which contains deeply nested literals can cause a panic due to stack exhaustion.
     Severity: MEDIUM
     VendorSeverity:
+      alma: 3
       oracle-oval: 3
       redhat: 2
     CVSS:
@@ -9795,7 +9876,13 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
     References:
+    - https://access.redhat.com/errata/RHSA-2024:6913
     - https://access.redhat.com/security/cve/CVE-2024-34155
+    - https://bugzilla.redhat.com/2295310
+    - https://bugzilla.redhat.com/2310527
+    - https://bugzilla.redhat.com/2310528
+    - https://bugzilla.redhat.com/2310529
+    - https://errata.almalinux.org/9/ALSA-2024-6913.html
     - https://go.dev/cl/611238
     - https://go.dev/issue/69138
     - https://groups.google.com/g/golang-dev/c/S9POB9NCTdk
@@ -9828,6 +9915,7 @@
     CweIDs:
     - CWE-674
     VendorSeverity:
+      alma: 3
       bitnami: 3
       oracle-oval: 3
       redhat: 2
@@ -9839,7 +9927,13 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
     References:
+    - https://access.redhat.com/errata/RHSA-2024:6913
     - https://access.redhat.com/security/cve/CVE-2024-34158
+    - https://bugzilla.redhat.com/2295310
+    - https://bugzilla.redhat.com/2310527
+    - https://bugzilla.redhat.com/2310528
+    - https://bugzilla.redhat.com/2310529
+    - https://errata.almalinux.org/9/ALSA-2024-6913.html
     - https://go.dev/cl/611240
     - https://go.dev/issue/69141
     - https://groups.google.com/g/golang-dev/c/S9POB9NCTdk
@@ -9874,6 +9968,7 @@
     Description: Calling Decoder.Decode on a message which contains deeply nested structures can cause a panic due to stack exhaustion. This is a follow-up to CVE-2022-30635.
     Severity: HIGH
     VendorSeverity:
+      alma: 3
       bitnami: 3
       oracle-oval: 3
       redhat: 3
@@ -9885,7 +9980,10 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
+    - https://access.redhat.com/errata/RHSA-2024:6947
     - https://access.redhat.com/security/cve/CVE-2024-34156
+    - https://bugzilla.redhat.com/2310528
+    - https://errata.almalinux.org/9/ALSA-2024-6947.html
     - https://go.dev/cl/611239
     - https://go.dev/issue/69139
     - https://groups.google.com/g/golang-dev/c/S9POB9NCTdk
@@ -9916,6 +10014,7 @@
     Description: Calling any of the Parse functions on Go source code which contains deeply nested literals can cause a panic due to stack exhaustion.
     Severity: MEDIUM
     VendorSeverity:
+      alma: 3
       oracle-oval: 3
       redhat: 2
     CVSS:
@@ -9923,7 +10022,13 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
     References:
+    - https://access.redhat.com/errata/RHSA-2024:6913
     - https://access.redhat.com/security/cve/CVE-2024-34155
+    - https://bugzilla.redhat.com/2295310
+    - https://bugzilla.redhat.com/2310527
+    - https://bugzilla.redhat.com/2310528
+    - https://bugzilla.redhat.com/2310529
+    - https://errata.almalinux.org/9/ALSA-2024-6913.html
     - https://go.dev/cl/611238
     - https://go.dev/issue/69138
     - https://groups.google.com/g/golang-dev/c/S9POB9NCTdk
@@ -9956,6 +10061,7 @@
     CweIDs:
     - CWE-674
     VendorSeverity:
+      alma: 3
       bitnami: 3
       oracle-oval: 3
       redhat: 2
@@ -9967,7 +10073,13 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
     References:
+    - https://access.redhat.com/errata/RHSA-2024:6913
     - https://access.redhat.com/security/cve/CVE-2024-34158
+    - https://bugzilla.redhat.com/2295310
+    - https://bugzilla.redhat.com/2310527
+    - https://bugzilla.redhat.com/2310528
+    - https://bugzilla.redhat.com/2310529
+    - https://errata.almalinux.org/9/ALSA-2024-6913.html
     - https://go.dev/cl/611240
     - https://go.dev/issue/69141
     - https://groups.google.com/g/golang-dev/c/S9POB9NCTdk
@@ -10002,6 +10114,7 @@
     Description: Calling Decoder.Decode on a message which contains deeply nested structures can cause a panic due to stack exhaustion. This is a follow-up to CVE-2022-30635.
     Severity: HIGH
     VendorSeverity:
+      alma: 3
       bitnami: 3
       oracle-oval: 3
       redhat: 3
@@ -10013,7 +10126,10 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
+    - https://access.redhat.com/errata/RHSA-2024:6947
     - https://access.redhat.com/security/cve/CVE-2024-34156
+    - https://bugzilla.redhat.com/2310528
+    - https://errata.almalinux.org/9/ALSA-2024-6947.html
     - https://go.dev/cl/611239
     - https://go.dev/issue/69139
     - https://groups.google.com/g/golang-dev/c/S9POB9NCTdk
@@ -10044,6 +10160,7 @@
     Description: Calling any of the Parse functions on Go source code which contains deeply nested literals can cause a panic due to stack exhaustion.
     Severity: MEDIUM
     VendorSeverity:
+      alma: 3
       oracle-oval: 3
       redhat: 2
     CVSS:
@@ -10051,7 +10168,13 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
     References:
+    - https://access.redhat.com/errata/RHSA-2024:6913
     - https://access.redhat.com/security/cve/CVE-2024-34155
+    - https://bugzilla.redhat.com/2295310
+    - https://bugzilla.redhat.com/2310527
+    - https://bugzilla.redhat.com/2310528
+    - https://bugzilla.redhat.com/2310529
+    - https://errata.almalinux.org/9/ALSA-2024-6913.html
     - https://go.dev/cl/611238
     - https://go.dev/issue/69138
     - https://groups.google.com/g/golang-dev/c/S9POB9NCTdk
@@ -10084,6 +10207,7 @@
     CweIDs:
     - CWE-674
     VendorSeverity:
+      alma: 3
       bitnami: 3
       oracle-oval: 3
       redhat: 2
@@ -10095,7 +10219,13 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
     References:
+    - https://access.redhat.com/errata/RHSA-2024:6913
     - https://access.redhat.com/security/cve/CVE-2024-34158
+    - https://bugzilla.redhat.com/2295310
+    - https://bugzilla.redhat.com/2310527
+    - https://bugzilla.redhat.com/2310528
+    - https://bugzilla.redhat.com/2310529
+    - https://errata.almalinux.org/9/ALSA-2024-6913.html
     - https://go.dev/cl/611240
     - https://go.dev/issue/69141
     - https://groups.google.com/g/golang-dev/c/S9POB9NCTdk
@@ -10130,6 +10260,7 @@
     Description: Calling Decoder.Decode on a message which contains deeply nested structures can cause a panic due to stack exhaustion. This is a follow-up to CVE-2022-30635.
     Severity: HIGH
     VendorSeverity:
+      alma: 3
       bitnami: 3
       oracle-oval: 3
       redhat: 3
@@ -10141,7 +10272,10 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
+    - https://access.redhat.com/errata/RHSA-2024:6947
     - https://access.redhat.com/security/cve/CVE-2024-34156
+    - https://bugzilla.redhat.com/2310528
+    - https://errata.almalinux.org/9/ALSA-2024-6947.html
     - https://go.dev/cl/611239
     - https://go.dev/issue/69139
     - https://groups.google.com/g/golang-dev/c/S9POB9NCTdk
@@ -10172,6 +10306,7 @@
     Description: Calling any of the Parse functions on Go source code which contains deeply nested literals can cause a panic due to stack exhaustion.
     Severity: MEDIUM
     VendorSeverity:
+      alma: 3
       oracle-oval: 3
       redhat: 2
     CVSS:
@@ -10179,7 +10314,13 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
     References:
+    - https://access.redhat.com/errata/RHSA-2024:6913
     - https://access.redhat.com/security/cve/CVE-2024-34155
+    - https://bugzilla.redhat.com/2295310
+    - https://bugzilla.redhat.com/2310527
+    - https://bugzilla.redhat.com/2310528
+    - https://bugzilla.redhat.com/2310529
+    - https://errata.almalinux.org/9/ALSA-2024-6913.html
     - https://go.dev/cl/611238
     - https://go.dev/issue/69138
     - https://groups.google.com/g/golang-dev/c/S9POB9NCTdk
@@ -10212,6 +10353,7 @@
     CweIDs:
     - CWE-674
     VendorSeverity:
+      alma: 3
       bitnami: 3
       oracle-oval: 3
       redhat: 2
@@ -10223,7 +10365,13 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
     References:
+    - https://access.redhat.com/errata/RHSA-2024:6913
     - https://access.redhat.com/security/cve/CVE-2024-34158
+    - https://bugzilla.redhat.com/2295310
+    - https://bugzilla.redhat.com/2310527
+    - https://bugzilla.redhat.com/2310528
+    - https://bugzilla.redhat.com/2310529
+    - https://errata.almalinux.org/9/ALSA-2024-6913.html
     - https://go.dev/cl/611240
     - https://go.dev/issue/69141
     - https://groups.google.com/g/golang-dev/c/S9POB9NCTdk
@@ -10258,6 +10406,7 @@
     Description: Calling Decoder.Decode on a message which contains deeply nested structures can cause a panic due to stack exhaustion. This is a follow-up to CVE-2022-30635.
     Severity: HIGH
     VendorSeverity:
+      alma: 3
       bitnami: 3
       oracle-oval: 3
       redhat: 3
@@ -10269,7 +10418,10 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
+    - https://access.redhat.com/errata/RHSA-2024:6947
     - https://access.redhat.com/security/cve/CVE-2024-34156
+    - https://bugzilla.redhat.com/2310528
+    - https://errata.almalinux.org/9/ALSA-2024-6947.html
     - https://go.dev/cl/611239
     - https://go.dev/issue/69139
     - https://groups.google.com/g/golang-dev/c/S9POB9NCTdk
@@ -10300,6 +10452,7 @@
     Description: Calling any of the Parse functions on Go source code which contains deeply nested literals can cause a panic due to stack exhaustion.
     Severity: MEDIUM
     VendorSeverity:
+      alma: 3
       oracle-oval: 3
       redhat: 2
     CVSS:
@@ -10307,7 +10460,13 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
     References:
+    - https://access.redhat.com/errata/RHSA-2024:6913
     - https://access.redhat.com/security/cve/CVE-2024-34155
+    - https://bugzilla.redhat.com/2295310
+    - https://bugzilla.redhat.com/2310527
+    - https://bugzilla.redhat.com/2310528
+    - https://bugzilla.redhat.com/2310529
+    - https://errata.almalinux.org/9/ALSA-2024-6913.html
     - https://go.dev/cl/611238
     - https://go.dev/issue/69138
     - https://groups.google.com/g/golang-dev/c/S9POB9NCTdk
@@ -10340,6 +10499,7 @@
     CweIDs:
     - CWE-674
     VendorSeverity:
+      alma: 3
       bitnami: 3
       oracle-oval: 3
       redhat: 2
@@ -10351,7 +10511,13 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
     References:
+    - https://access.redhat.com/errata/RHSA-2024:6913
     - https://access.redhat.com/security/cve/CVE-2024-34158
+    - https://bugzilla.redhat.com/2295310
+    - https://bugzilla.redhat.com/2310527
+    - https://bugzilla.redhat.com/2310528
+    - https://bugzilla.redhat.com/2310529
+    - https://errata.almalinux.org/9/ALSA-2024-6913.html
     - https://go.dev/cl/611240
     - https://go.dev/issue/69141
     - https://groups.google.com/g/golang-dev/c/S9POB9NCTdk
@@ -10485,6 +10651,7 @@
     Description: Calling Decoder.Decode on a message which contains deeply nested structures can cause a panic due to stack exhaustion. This is a follow-up to CVE-2022-30635.
     Severity: HIGH
     VendorSeverity:
+      alma: 3
       bitnami: 3
       oracle-oval: 3
       redhat: 3
@@ -10496,7 +10663,10 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
+    - https://access.redhat.com/errata/RHSA-2024:6947
     - https://access.redhat.com/security/cve/CVE-2024-34156
+    - https://bugzilla.redhat.com/2310528
+    - https://errata.almalinux.org/9/ALSA-2024-6947.html
     - https://go.dev/cl/611239
     - https://go.dev/issue/69139
     - https://groups.google.com/g/golang-dev/c/S9POB9NCTdk
@@ -10527,6 +10697,7 @@
     Description: Calling any of the Parse functions on Go source code which contains deeply nested literals can cause a panic due to stack exhaustion.
     Severity: MEDIUM
     VendorSeverity:
+      alma: 3
       oracle-oval: 3
       redhat: 2
     CVSS:
@@ -10534,7 +10705,13 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
     References:
+    - https://access.redhat.com/errata/RHSA-2024:6913
     - https://access.redhat.com/security/cve/CVE-2024-34155
+    - https://bugzilla.redhat.com/2295310
+    - https://bugzilla.redhat.com/2310527
+    - https://bugzilla.redhat.com/2310528
+    - https://bugzilla.redhat.com/2310529
+    - https://errata.almalinux.org/9/ALSA-2024-6913.html
     - https://go.dev/cl/611238
     - https://go.dev/issue/69138
     - https://groups.google.com/g/golang-dev/c/S9POB9NCTdk
@@ -10567,6 +10744,7 @@
     CweIDs:
     - CWE-674
     VendorSeverity:
+      alma: 3
       bitnami: 3
       oracle-oval: 3
       redhat: 2
@@ -10578,7 +10756,13 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
     References:
+    - https://access.redhat.com/errata/RHSA-2024:6913
     - https://access.redhat.com/security/cve/CVE-2024-34158
+    - https://bugzilla.redhat.com/2295310
+    - https://bugzilla.redhat.com/2310527
+    - https://bugzilla.redhat.com/2310528
+    - https://bugzilla.redhat.com/2310529
+    - https://errata.almalinux.org/9/ALSA-2024-6913.html
     - https://go.dev/cl/611240
     - https://go.dev/issue/69141
     - https://groups.google.com/g/golang-dev/c/S9POB9NCTdk
@@ -10589,37 +10773,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-34158
     PublishedDate: '2024-09-06T21:15:12.083Z'
     LastModifiedDate: '2024-09-09T14:35:01.17Z'
-- Target: /etc/ssh/ssh_host_dsa_key
-  Class: secret
-  Secrets:
-  - RuleID: private-key
-    Category: AsymmetricPrivateKey
-    Severity: HIGH
-    Title: Asymmetric Private Key
-    StartLine: 1
-    EndLine: 1
-    Code:
-      Lines:
-      - Number: 1
-        Content: BEGIN OPENSSH PRIVATE KEY-----****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
-        IsCause: true
-        Annotation: ''
-        Truncated: false
-        Highlighted: BEGIN OPENSSH PRIVATE KEY-----****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
-        FirstCause: true
-        LastCause: true
-      - Number: 2
-        Content: ''
-        IsCause: false
-        Annotation: ''
-        Truncated: false
-        FirstCause: false
-        LastCause: false
-    Match: BEGIN OPENSSH PRIVATE KEY-----****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
-    Layer:
-      Digest: sha256:eb4108e75dc6f8e6fc5a5e04197674c0d9a1dd13ec796f87aff09fd0a4bbd6ca
-      DiffID: sha256:853b5d95f07f5f2e1b0bf3839c45f15d937b8d18ad499f49ad4553075cd9fdf4
-      CreatedBy: 'COPY / / # buildkit'
 - Target: /etc/ssh/ssh_host_ecdsa_key
   Class: secret
   Secrets:
@@ -10709,6 +10862,37 @@
         FirstCause: false
         LastCause: false
     Match: BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
+    Layer:
+      Digest: sha256:eb4108e75dc6f8e6fc5a5e04197674c0d9a1dd13ec796f87aff09fd0a4bbd6ca
+      DiffID: sha256:853b5d95f07f5f2e1b0bf3839c45f15d937b8d18ad499f49ad4553075cd9fdf4
+      CreatedBy: 'COPY / / # buildkit'
+- Target: /etc/ssh/ssh_host_dsa_key
+  Class: secret
+  Secrets:
+  - RuleID: private-key
+    Category: AsymmetricPrivateKey
+    Severity: HIGH
+    Title: Asymmetric Private Key
+    StartLine: 1
+    EndLine: 1
+    Code:
+      Lines:
+      - Number: 1
+        Content: BEGIN OPENSSH PRIVATE KEY-----****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
+        IsCause: true
+        Annotation: ''
+        Truncated: false
+        Highlighted: BEGIN OPENSSH PRIVATE KEY-----****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
+        FirstCause: true
+        LastCause: true
+      - Number: 2
+        Content: ''
+        IsCause: false
+        Annotation: ''
+        Truncated: false
+        FirstCause: false
+        LastCause: false
+    Match: BEGIN OPENSSH PRIVATE KEY-----****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
     Layer:
       Digest: sha256:eb4108e75dc6f8e6fc5a5e04197674c0d9a1dd13ec796f87aff09fd0a4bbd6ca
       DiffID: sha256:853b5d95f07f5f2e1b0bf3839c45f15d937b8d18ad499f49ad4553075cd9fdf4
