@@ -120,6 +120,7 @@
     CweIDs:
     - CWE-295
     VendorSeverity:
+      cbl-mariner: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -1194,6 +1195,7 @@
     CweIDs:
     - CWE-295
     VendorSeverity:
+      cbl-mariner: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -1234,6 +1236,7 @@
     CweIDs:
     - CWE-295
     VendorSeverity:
+      cbl-mariner: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -1336,6 +1339,7 @@
       oracle-oval: 2
       photon: 4
       redhat: 2
+      rocky: 2
       ubuntu: 2
     CVSS:
       nvd:
@@ -1350,7 +1354,14 @@
     - https://bugzilla.redhat.com/2308615
     - https://bugzilla.redhat.com/2308616
     - https://bugzilla.redhat.com/2308617
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2308615
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2308616
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2308617
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-45490
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-45491
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-45492
     - https://errata.almalinux.org/9/ALSA-2024-6754.html
+    - https://errata.rockylinux.org/RLSA-2024:6989
     - https://github.com/libexpat/libexpat/blob/R_2_6_3/expat/Changes
     - https://github.com/libexpat/libexpat/issues/887
     - https://github.com/libexpat/libexpat/pull/890
@@ -1389,11 +1400,12 @@
     - CWE-190
     VendorSeverity:
       alma: 2
-      cbl-mariner: 3
+      cbl-mariner: 4
       nvd: 4
       oracle-oval: 2
       photon: 4
       redhat: 2
+      rocky: 2
       ubuntu: 2
     CVSS:
       nvd:
@@ -1408,7 +1420,14 @@
     - https://bugzilla.redhat.com/2308615
     - https://bugzilla.redhat.com/2308616
     - https://bugzilla.redhat.com/2308617
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2308615
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2308616
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2308617
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-45490
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-45491
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-45492
     - https://errata.almalinux.org/9/ALSA-2024-6754.html
+    - https://errata.rockylinux.org/RLSA-2024:6989
     - https://github.com/libexpat/libexpat/blob/R_2_6_3/expat/Changes
     - https://github.com/libexpat/libexpat/issues/888
     - https://github.com/libexpat/libexpat/pull/891
@@ -1452,6 +1471,7 @@
       oracle-oval: 2
       photon: 4
       redhat: 2
+      rocky: 2
       ubuntu: 2
     CVSS:
       nvd:
@@ -1466,7 +1486,14 @@
     - https://bugzilla.redhat.com/2308615
     - https://bugzilla.redhat.com/2308616
     - https://bugzilla.redhat.com/2308617
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2308615
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2308616
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2308617
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-45490
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-45491
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-45492
     - https://errata.almalinux.org/9/ALSA-2024-6754.html
+    - https://errata.rockylinux.org/RLSA-2024:6989
     - https://github.com/libexpat/libexpat/blob/R_2_6_3/expat/Changes
     - https://github.com/libexpat/libexpat/issues/889
     - https://github.com/libexpat/libexpat/pull/892
@@ -3099,6 +3126,7 @@
       nvd: 3
       oracle-oval: 2
       redhat: 2
+      rocky: 2
       ubuntu: 2
     CVSS:
       bitnami:
@@ -3116,7 +3144,14 @@
     - https://bugzilla.redhat.com/2292921
     - https://bugzilla.redhat.com/2302255
     - https://bugzilla.redhat.com/2309426
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2292921
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2302255
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2309426
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-4032
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-6232
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-6923
     - https://errata.almalinux.org/8/ALSA-2024-6975.html
+    - https://errata.rockylinux.org/RLSA-2024:6975
     - https://github.com/python/cpython/commit/4eaf4891c12589e3c7bdad5f5b076e4c8392dd06
     - https://github.com/python/cpython/commit/743acbe872485dc18df4d8ab2dc7895187f062c4
     - https://github.com/python/cpython/commit/7d1f50cd92ff7e10a1c15a8f591dde8a6843a64d
@@ -3169,6 +3204,7 @@
       oracle-oval: 2
       photon: 2
       redhat: 2
+      rocky: 2
       ubuntu: 2
     CVSS:
       bitnami:
@@ -3181,7 +3217,14 @@
     - https://access.redhat.com/errata/RHSA-2024:6179
     - https://access.redhat.com/security/cve/CVE-2024-6923
     - https://bugzilla.redhat.com/2302255
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2292921
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2302255
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2309426
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-4032
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-6232
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-6923
     - https://errata.almalinux.org/9/ALSA-2024-6179.html
+    - https://errata.rockylinux.org/RLSA-2024:6975
     - https://github.com/python/cpython/commit/06f28dc236708f72871c64d4bc4b4ea144c50147
     - https://github.com/python/cpython/commit/4766d1200fdf8b6728137aa2927a297e224d5fa7
     - https://github.com/python/cpython/commit/4aaa4259b5a6e664b7316a4d60bdec7ee0f124d0
@@ -3239,6 +3282,7 @@
       cbl-mariner: 3
       oracle-oval: 2
       redhat: 2
+      rocky: 2
       ubuntu: 2
     CVSS:
       redhat:
@@ -3250,7 +3294,14 @@
     - https://bugzilla.redhat.com/2292921
     - https://bugzilla.redhat.com/2302255
     - https://bugzilla.redhat.com/2307370
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2292921
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2302255
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2307370
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-4032
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-6923
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-8088
     - https://errata.almalinux.org/8/ALSA-2024-6962.html
+    - https://errata.rockylinux.org/RLSA-2024:6962
     - https://github.com/python/cpython/commit/0aa1ee22ab6e204e9d3d0e9dd63ea648ed691ef1
     - https://github.com/python/cpython/commit/2231286d78d328c2f575e0b05b16fe447d1656d6
     - https://github.com/python/cpython/commit/795f2597a4be988e2bb19b69ff9958e981cb894e
@@ -3460,6 +3511,7 @@
       nvd: 3
       oracle-oval: 2
       redhat: 2
+      rocky: 2
       ubuntu: 2
     CVSS:
       bitnami:
@@ -3477,7 +3529,14 @@
     - https://bugzilla.redhat.com/2292921
     - https://bugzilla.redhat.com/2302255
     - https://bugzilla.redhat.com/2309426
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2292921
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2302255
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2309426
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-4032
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-6232
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-6923
     - https://errata.almalinux.org/8/ALSA-2024-6975.html
+    - https://errata.rockylinux.org/RLSA-2024:6975
     - https://github.com/python/cpython/commit/4eaf4891c12589e3c7bdad5f5b076e4c8392dd06
     - https://github.com/python/cpython/commit/743acbe872485dc18df4d8ab2dc7895187f062c4
     - https://github.com/python/cpython/commit/7d1f50cd92ff7e10a1c15a8f591dde8a6843a64d
@@ -3530,6 +3589,7 @@
       oracle-oval: 2
       photon: 2
       redhat: 2
+      rocky: 2
       ubuntu: 2
     CVSS:
       bitnami:
@@ -3542,7 +3602,14 @@
     - https://access.redhat.com/errata/RHSA-2024:6179
     - https://access.redhat.com/security/cve/CVE-2024-6923
     - https://bugzilla.redhat.com/2302255
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2292921
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2302255
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2309426
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-4032
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-6232
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-6923
     - https://errata.almalinux.org/9/ALSA-2024-6179.html
+    - https://errata.rockylinux.org/RLSA-2024:6975
     - https://github.com/python/cpython/commit/06f28dc236708f72871c64d4bc4b4ea144c50147
     - https://github.com/python/cpython/commit/4766d1200fdf8b6728137aa2927a297e224d5fa7
     - https://github.com/python/cpython/commit/4aaa4259b5a6e664b7316a4d60bdec7ee0f124d0
@@ -3600,6 +3667,7 @@
       cbl-mariner: 3
       oracle-oval: 2
       redhat: 2
+      rocky: 2
       ubuntu: 2
     CVSS:
       redhat:
@@ -3611,7 +3679,14 @@
     - https://bugzilla.redhat.com/2292921
     - https://bugzilla.redhat.com/2302255
     - https://bugzilla.redhat.com/2307370
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2292921
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2302255
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2307370
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-4032
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-6923
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-8088
     - https://errata.almalinux.org/8/ALSA-2024-6962.html
+    - https://errata.rockylinux.org/RLSA-2024:6962
     - https://github.com/python/cpython/commit/0aa1ee22ab6e204e9d3d0e9dd63ea648ed691ef1
     - https://github.com/python/cpython/commit/2231286d78d328c2f575e0b05b16fe447d1656d6
     - https://github.com/python/cpython/commit/795f2597a4be988e2bb19b69ff9958e981cb894e
@@ -3821,6 +3896,7 @@
       nvd: 3
       oracle-oval: 2
       redhat: 2
+      rocky: 2
       ubuntu: 2
     CVSS:
       bitnami:
@@ -3838,7 +3914,14 @@
     - https://bugzilla.redhat.com/2292921
     - https://bugzilla.redhat.com/2302255
     - https://bugzilla.redhat.com/2309426
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2292921
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2302255
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2309426
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-4032
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-6232
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-6923
     - https://errata.almalinux.org/8/ALSA-2024-6975.html
+    - https://errata.rockylinux.org/RLSA-2024:6975
     - https://github.com/python/cpython/commit/4eaf4891c12589e3c7bdad5f5b076e4c8392dd06
     - https://github.com/python/cpython/commit/743acbe872485dc18df4d8ab2dc7895187f062c4
     - https://github.com/python/cpython/commit/7d1f50cd92ff7e10a1c15a8f591dde8a6843a64d
@@ -3891,6 +3974,7 @@
       oracle-oval: 2
       photon: 2
       redhat: 2
+      rocky: 2
       ubuntu: 2
     CVSS:
       bitnami:
@@ -3903,7 +3987,14 @@
     - https://access.redhat.com/errata/RHSA-2024:6179
     - https://access.redhat.com/security/cve/CVE-2024-6923
     - https://bugzilla.redhat.com/2302255
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2292921
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2302255
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2309426
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-4032
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-6232
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-6923
     - https://errata.almalinux.org/9/ALSA-2024-6179.html
+    - https://errata.rockylinux.org/RLSA-2024:6975
     - https://github.com/python/cpython/commit/06f28dc236708f72871c64d4bc4b4ea144c50147
     - https://github.com/python/cpython/commit/4766d1200fdf8b6728137aa2927a297e224d5fa7
     - https://github.com/python/cpython/commit/4aaa4259b5a6e664b7316a4d60bdec7ee0f124d0
@@ -3961,6 +4052,7 @@
       cbl-mariner: 3
       oracle-oval: 2
       redhat: 2
+      rocky: 2
       ubuntu: 2
     CVSS:
       redhat:
@@ -3972,7 +4064,14 @@
     - https://bugzilla.redhat.com/2292921
     - https://bugzilla.redhat.com/2302255
     - https://bugzilla.redhat.com/2307370
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2292921
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2302255
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2307370
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-4032
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-6923
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-8088
     - https://errata.almalinux.org/8/ALSA-2024-6962.html
+    - https://errata.rockylinux.org/RLSA-2024:6962
     - https://github.com/python/cpython/commit/0aa1ee22ab6e204e9d3d0e9dd63ea648ed691ef1
     - https://github.com/python/cpython/commit/2231286d78d328c2f575e0b05b16fe447d1656d6
     - https://github.com/python/cpython/commit/795f2597a4be988e2bb19b69ff9958e981cb894e
@@ -4084,7 +4183,7 @@
     CweIDs:
     - CWE-295
     VendorSeverity:
-      redhat: 2
+      redhat: 1
       ubuntu: 1
     CVSS:
       redhat:
@@ -5078,7 +5177,7 @@
     CweIDs:
     - CWE-295
     VendorSeverity:
-      redhat: 2
+      redhat: 1
       ubuntu: 1
     CVSS:
       redhat:
@@ -5261,6 +5360,7 @@
       nvd: 3
       oracle-oval: 2
       redhat: 2
+      rocky: 2
       ubuntu: 2
     CVSS:
       bitnami:
@@ -5278,7 +5378,14 @@
     - https://bugzilla.redhat.com/2292921
     - https://bugzilla.redhat.com/2302255
     - https://bugzilla.redhat.com/2309426
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2292921
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2302255
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2309426
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-4032
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-6232
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-6923
     - https://errata.almalinux.org/8/ALSA-2024-6975.html
+    - https://errata.rockylinux.org/RLSA-2024:6975
     - https://github.com/python/cpython/commit/4eaf4891c12589e3c7bdad5f5b076e4c8392dd06
     - https://github.com/python/cpython/commit/743acbe872485dc18df4d8ab2dc7895187f062c4
     - https://github.com/python/cpython/commit/7d1f50cd92ff7e10a1c15a8f591dde8a6843a64d
@@ -5331,6 +5438,7 @@
       oracle-oval: 2
       photon: 2
       redhat: 2
+      rocky: 2
       ubuntu: 2
     CVSS:
       bitnami:
@@ -5343,7 +5451,14 @@
     - https://access.redhat.com/errata/RHSA-2024:6179
     - https://access.redhat.com/security/cve/CVE-2024-6923
     - https://bugzilla.redhat.com/2302255
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2292921
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2302255
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2309426
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-4032
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-6232
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-6923
     - https://errata.almalinux.org/9/ALSA-2024-6179.html
+    - https://errata.rockylinux.org/RLSA-2024:6975
     - https://github.com/python/cpython/commit/06f28dc236708f72871c64d4bc4b4ea144c50147
     - https://github.com/python/cpython/commit/4766d1200fdf8b6728137aa2927a297e224d5fa7
     - https://github.com/python/cpython/commit/4aaa4259b5a6e664b7316a4d60bdec7ee0f124d0
@@ -5401,6 +5516,7 @@
       cbl-mariner: 3
       oracle-oval: 2
       redhat: 2
+      rocky: 2
       ubuntu: 2
     CVSS:
       redhat:
@@ -5412,7 +5528,14 @@
     - https://bugzilla.redhat.com/2292921
     - https://bugzilla.redhat.com/2302255
     - https://bugzilla.redhat.com/2307370
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2292921
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2302255
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2307370
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-4032
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-6923
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-8088
     - https://errata.almalinux.org/8/ALSA-2024-6962.html
+    - https://errata.rockylinux.org/RLSA-2024:6962
     - https://github.com/python/cpython/commit/0aa1ee22ab6e204e9d3d0e9dd63ea648ed691ef1
     - https://github.com/python/cpython/commit/2231286d78d328c2f575e0b05b16fe447d1656d6
     - https://github.com/python/cpython/commit/795f2597a4be988e2bb19b69ff9958e981cb894e
@@ -5622,6 +5745,7 @@
       nvd: 3
       oracle-oval: 2
       redhat: 2
+      rocky: 2
       ubuntu: 2
     CVSS:
       bitnami:
@@ -5639,7 +5763,14 @@
     - https://bugzilla.redhat.com/2292921
     - https://bugzilla.redhat.com/2302255
     - https://bugzilla.redhat.com/2309426
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2292921
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2302255
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2309426
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-4032
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-6232
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-6923
     - https://errata.almalinux.org/8/ALSA-2024-6975.html
+    - https://errata.rockylinux.org/RLSA-2024:6975
     - https://github.com/python/cpython/commit/4eaf4891c12589e3c7bdad5f5b076e4c8392dd06
     - https://github.com/python/cpython/commit/743acbe872485dc18df4d8ab2dc7895187f062c4
     - https://github.com/python/cpython/commit/7d1f50cd92ff7e10a1c15a8f591dde8a6843a64d
@@ -5692,6 +5823,7 @@
       oracle-oval: 2
       photon: 2
       redhat: 2
+      rocky: 2
       ubuntu: 2
     CVSS:
       bitnami:
@@ -5704,7 +5836,14 @@
     - https://access.redhat.com/errata/RHSA-2024:6179
     - https://access.redhat.com/security/cve/CVE-2024-6923
     - https://bugzilla.redhat.com/2302255
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2292921
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2302255
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2309426
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-4032
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-6232
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-6923
     - https://errata.almalinux.org/9/ALSA-2024-6179.html
+    - https://errata.rockylinux.org/RLSA-2024:6975
     - https://github.com/python/cpython/commit/06f28dc236708f72871c64d4bc4b4ea144c50147
     - https://github.com/python/cpython/commit/4766d1200fdf8b6728137aa2927a297e224d5fa7
     - https://github.com/python/cpython/commit/4aaa4259b5a6e664b7316a4d60bdec7ee0f124d0
@@ -5762,6 +5901,7 @@
       cbl-mariner: 3
       oracle-oval: 2
       redhat: 2
+      rocky: 2
       ubuntu: 2
     CVSS:
       redhat:
@@ -5773,7 +5913,14 @@
     - https://bugzilla.redhat.com/2292921
     - https://bugzilla.redhat.com/2302255
     - https://bugzilla.redhat.com/2307370
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2292921
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2302255
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2307370
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-4032
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-6923
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-8088
     - https://errata.almalinux.org/8/ALSA-2024-6962.html
+    - https://errata.rockylinux.org/RLSA-2024:6962
     - https://github.com/python/cpython/commit/0aa1ee22ab6e204e9d3d0e9dd63ea648ed691ef1
     - https://github.com/python/cpython/commit/2231286d78d328c2f575e0b05b16fe447d1656d6
     - https://github.com/python/cpython/commit/795f2597a4be988e2bb19b69ff9958e981cb894e
@@ -6357,7 +6504,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       azure: 2
       cbl-mariner: 2
       ghsa: 2
@@ -7140,6 +7287,7 @@
       bitnami: 3
       oracle-oval: 3
       redhat: 3
+      rocky: 3
     CVSS:
       bitnami:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
@@ -7151,12 +7299,17 @@
     - https://access.redhat.com/errata/RHSA-2024:7204
     - https://access.redhat.com/security/cve/CVE-2024-34156
     - https://bugzilla.redhat.com/2310528
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2262921
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2310528
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-1394
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-34156
     - https://errata.almalinux.org/9/ALSA-2024-7204.html
+    - https://errata.rockylinux.org/RLSA-2024:7262
     - https://go.dev/cl/611239
     - https://go.dev/issue/69139
     - https://groups.google.com/g/golang-dev/c/S9POB9NCTdk
     - https://linux.oracle.com/cve/CVE-2024-34156.html
-    - https://linux.oracle.com/errata/ELSA-2024-7204.html
+    - https://linux.oracle.com/errata/ELSA-2024-7262.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-34156
     - https://pkg.go.dev/vuln/GO-2024-3106
     - https://www.cve.org/CVERecord?id=CVE-2024-34156
@@ -7324,7 +7477,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -7391,7 +7544,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -7986,7 +8139,7 @@
     - https://go.dev/issue/67555
     - https://groups.google.com/g/golang-dev/c/t0rK-qHBqzY/m/6MMoAZkMAgAJ
     - https://linux.oracle.com/cve/CVE-2024-24791.html
-    - https://linux.oracle.com/errata/ELSA-2024-6969.html
+    - https://linux.oracle.com/errata/ELSA-2024-7349.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-24791
     - https://pkg.go.dev/vuln/GO-2024-2963
     - https://www.cve.org/CVERecord?id=CVE-2024-24791
@@ -8268,7 +8421,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       azure: 2
       cbl-mariner: 2
       ghsa: 2
@@ -9051,6 +9204,7 @@
       bitnami: 3
       oracle-oval: 3
       redhat: 3
+      rocky: 3
     CVSS:
       bitnami:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
@@ -9062,12 +9216,17 @@
     - https://access.redhat.com/errata/RHSA-2024:7204
     - https://access.redhat.com/security/cve/CVE-2024-34156
     - https://bugzilla.redhat.com/2310528
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2262921
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2310528
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-1394
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-34156
     - https://errata.almalinux.org/9/ALSA-2024-7204.html
+    - https://errata.rockylinux.org/RLSA-2024:7262
     - https://go.dev/cl/611239
     - https://go.dev/issue/69139
     - https://groups.google.com/g/golang-dev/c/S9POB9NCTdk
     - https://linux.oracle.com/cve/CVE-2024-34156.html
-    - https://linux.oracle.com/errata/ELSA-2024-7204.html
+    - https://linux.oracle.com/errata/ELSA-2024-7262.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-34156
     - https://pkg.go.dev/vuln/GO-2024-3106
     - https://www.cve.org/CVERecord?id=CVE-2024-34156
@@ -9235,7 +9394,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -9302,7 +9461,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -9897,7 +10056,7 @@
     - https://go.dev/issue/67555
     - https://groups.google.com/g/golang-dev/c/t0rK-qHBqzY/m/6MMoAZkMAgAJ
     - https://linux.oracle.com/cve/CVE-2024-24791.html
-    - https://linux.oracle.com/errata/ELSA-2024-6969.html
+    - https://linux.oracle.com/errata/ELSA-2024-7349.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-24791
     - https://pkg.go.dev/vuln/GO-2024-2963
     - https://www.cve.org/CVERecord?id=CVE-2024-24791
@@ -10027,6 +10186,7 @@
       bitnami: 3
       oracle-oval: 3
       redhat: 3
+      rocky: 3
     CVSS:
       bitnami:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
@@ -10038,12 +10198,17 @@
     - https://access.redhat.com/errata/RHSA-2024:7204
     - https://access.redhat.com/security/cve/CVE-2024-34156
     - https://bugzilla.redhat.com/2310528
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2262921
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2310528
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-1394
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-34156
     - https://errata.almalinux.org/9/ALSA-2024-7204.html
+    - https://errata.rockylinux.org/RLSA-2024:7262
     - https://go.dev/cl/611239
     - https://go.dev/issue/69139
     - https://groups.google.com/g/golang-dev/c/S9POB9NCTdk
     - https://linux.oracle.com/cve/CVE-2024-34156.html
-    - https://linux.oracle.com/errata/ELSA-2024-7204.html
+    - https://linux.oracle.com/errata/ELSA-2024-7262.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-34156
     - https://pkg.go.dev/vuln/GO-2024-3106
     - https://www.cve.org/CVERecord?id=CVE-2024-34156
@@ -10173,6 +10338,7 @@
       bitnami: 3
       oracle-oval: 3
       redhat: 3
+      rocky: 3
     CVSS:
       bitnami:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
@@ -10184,12 +10350,17 @@
     - https://access.redhat.com/errata/RHSA-2024:7204
     - https://access.redhat.com/security/cve/CVE-2024-34156
     - https://bugzilla.redhat.com/2310528
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2262921
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2310528
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-1394
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-34156
     - https://errata.almalinux.org/9/ALSA-2024-7204.html
+    - https://errata.rockylinux.org/RLSA-2024:7262
     - https://go.dev/cl/611239
     - https://go.dev/issue/69139
     - https://groups.google.com/g/golang-dev/c/S9POB9NCTdk
     - https://linux.oracle.com/cve/CVE-2024-34156.html
-    - https://linux.oracle.com/errata/ELSA-2024-7204.html
+    - https://linux.oracle.com/errata/ELSA-2024-7262.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-34156
     - https://pkg.go.dev/vuln/GO-2024-3106
     - https://www.cve.org/CVERecord?id=CVE-2024-34156
@@ -10319,6 +10490,7 @@
       bitnami: 3
       oracle-oval: 3
       redhat: 3
+      rocky: 3
     CVSS:
       bitnami:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
@@ -10330,12 +10502,17 @@
     - https://access.redhat.com/errata/RHSA-2024:7204
     - https://access.redhat.com/security/cve/CVE-2024-34156
     - https://bugzilla.redhat.com/2310528
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2262921
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2310528
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-1394
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-34156
     - https://errata.almalinux.org/9/ALSA-2024-7204.html
+    - https://errata.rockylinux.org/RLSA-2024:7262
     - https://go.dev/cl/611239
     - https://go.dev/issue/69139
     - https://groups.google.com/g/golang-dev/c/S9POB9NCTdk
     - https://linux.oracle.com/cve/CVE-2024-34156.html
-    - https://linux.oracle.com/errata/ELSA-2024-7204.html
+    - https://linux.oracle.com/errata/ELSA-2024-7262.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-34156
     - https://pkg.go.dev/vuln/GO-2024-3106
     - https://www.cve.org/CVERecord?id=CVE-2024-34156
@@ -10465,6 +10642,7 @@
       bitnami: 3
       oracle-oval: 3
       redhat: 3
+      rocky: 3
     CVSS:
       bitnami:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
@@ -10476,12 +10654,17 @@
     - https://access.redhat.com/errata/RHSA-2024:7204
     - https://access.redhat.com/security/cve/CVE-2024-34156
     - https://bugzilla.redhat.com/2310528
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2262921
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2310528
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-1394
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-34156
     - https://errata.almalinux.org/9/ALSA-2024-7204.html
+    - https://errata.rockylinux.org/RLSA-2024:7262
     - https://go.dev/cl/611239
     - https://go.dev/issue/69139
     - https://groups.google.com/g/golang-dev/c/S9POB9NCTdk
     - https://linux.oracle.com/cve/CVE-2024-34156.html
-    - https://linux.oracle.com/errata/ELSA-2024-7204.html
+    - https://linux.oracle.com/errata/ELSA-2024-7262.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-34156
     - https://pkg.go.dev/vuln/GO-2024-3106
     - https://www.cve.org/CVERecord?id=CVE-2024-34156
@@ -10710,6 +10893,7 @@
       bitnami: 3
       oracle-oval: 3
       redhat: 3
+      rocky: 3
     CVSS:
       bitnami:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
@@ -10721,12 +10905,17 @@
     - https://access.redhat.com/errata/RHSA-2024:7204
     - https://access.redhat.com/security/cve/CVE-2024-34156
     - https://bugzilla.redhat.com/2310528
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2262921
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2310528
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-1394
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-34156
     - https://errata.almalinux.org/9/ALSA-2024-7204.html
+    - https://errata.rockylinux.org/RLSA-2024:7262
     - https://go.dev/cl/611239
     - https://go.dev/issue/69139
     - https://groups.google.com/g/golang-dev/c/S9POB9NCTdk
     - https://linux.oracle.com/cve/CVE-2024-34156.html
-    - https://linux.oracle.com/errata/ELSA-2024-7204.html
+    - https://linux.oracle.com/errata/ELSA-2024-7262.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-34156
     - https://pkg.go.dev/vuln/GO-2024-3106
     - https://www.cve.org/CVERecord?id=CVE-2024-34156
@@ -10828,6 +11017,37 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-34158
     PublishedDate: '2024-09-06T21:15:12.083Z'
     LastModifiedDate: '2024-09-09T14:35:01.17Z'
+- Target: /etc/ssh/ssh_host_dsa_key
+  Class: secret
+  Secrets:
+  - RuleID: private-key
+    Category: AsymmetricPrivateKey
+    Severity: HIGH
+    Title: Asymmetric Private Key
+    StartLine: 1
+    EndLine: 1
+    Code:
+      Lines:
+      - Number: 1
+        Content: BEGIN OPENSSH PRIVATE KEY-----****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
+        IsCause: true
+        Annotation: ''
+        Truncated: false
+        Highlighted: BEGIN OPENSSH PRIVATE KEY-----****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
+        FirstCause: true
+        LastCause: true
+      - Number: 2
+        Content: ''
+        IsCause: false
+        Annotation: ''
+        Truncated: false
+        FirstCause: false
+        LastCause: false
+    Match: BEGIN OPENSSH PRIVATE KEY-----****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
+    Layer:
+      Digest: sha256:eb4108e75dc6f8e6fc5a5e04197674c0d9a1dd13ec796f87aff09fd0a4bbd6ca
+      DiffID: sha256:853b5d95f07f5f2e1b0bf3839c45f15d937b8d18ad499f49ad4553075cd9fdf4
+      CreatedBy: 'COPY / / # buildkit'
 - Target: /etc/ssh/ssh_host_ecdsa_key
   Class: secret
   Secrets:
@@ -10917,37 +11137,6 @@
         FirstCause: false
         LastCause: false
     Match: BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
-    Layer:
-      Digest: sha256:eb4108e75dc6f8e6fc5a5e04197674c0d9a1dd13ec796f87aff09fd0a4bbd6ca
-      DiffID: sha256:853b5d95f07f5f2e1b0bf3839c45f15d937b8d18ad499f49ad4553075cd9fdf4
-      CreatedBy: 'COPY / / # buildkit'
-- Target: /etc/ssh/ssh_host_dsa_key
-  Class: secret
-  Secrets:
-  - RuleID: private-key
-    Category: AsymmetricPrivateKey
-    Severity: HIGH
-    Title: Asymmetric Private Key
-    StartLine: 1
-    EndLine: 1
-    Code:
-      Lines:
-      - Number: 1
-        Content: BEGIN OPENSSH PRIVATE KEY-----****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
-        IsCause: true
-        Annotation: ''
-        Truncated: false
-        Highlighted: BEGIN OPENSSH PRIVATE KEY-----****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
-        FirstCause: true
-        LastCause: true
-      - Number: 2
-        Content: ''
-        IsCause: false
-        Annotation: ''
-        Truncated: false
-        FirstCause: false
-        LastCause: false
-    Match: BEGIN OPENSSH PRIVATE KEY-----****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
     Layer:
       Digest: sha256:eb4108e75dc6f8e6fc5a5e04197674c0d9a1dd13ec796f87aff09fd0a4bbd6ca
       DiffID: sha256:853b5d95f07f5f2e1b0bf3839c45f15d937b8d18ad499f49ad4553075cd9fdf4
