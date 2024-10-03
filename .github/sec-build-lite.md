@@ -1,41 +1,107 @@
 ````yaml
 ╭ stdout   
 ├ stderr  : latest: Pulling from aquasec/trivy
-│           Digest: sha256:addfb8fd6b9e520c25b22c61d8aa5d58ecd7879177aa959f952bf4734f4e3f60
+│           Digest: sha256:e682a9f8db9db6f09731fe2f63e4234d240ec67a811d90974b5af3d40497f843
 │           Status: Image is up to date for aquasec/trivy:latest
-│           2024-10-02T07:06:25Z	INFO	[db] Need to update DB
-│           2024-10-02T07:06:25Z	INFO	[db] Downloading DB...	repository="ghcr.io/aquasecurity/trivy-db:2"
-│           53.94 MiB / 53.94 MiB [----------------------------------------------------------->] 100.00% ? p/s
-│           ?53.94 MiB / 53.94 MiB [----------------------------------------------------------->] 100.00% ? p/s
-│            ?53.94 MiB / 53.94 MiB [----------------------------------------------------------->] 100.00% ?
-│           p/s ?53.94 MiB / 53.94 MiB [----------------------------------------------------------->] 100.00% ?
-│            p/s ?53.94 MiB / 53.94 MiB [----------------------------------------------------------->] 100.00%
-│           ? p/s ?53.94 MiB / 53.94 MiB [----------------------------------------------------------->] 100.00%
-│            ? p/s ?53.94 MiB / 53.94 MiB [----------------------------------------------------------->]
-│           100.00% ? p/s ?53.94 MiB / 53.94 MiB [----------------------------------------------------------->]
-│            100.00% ? p/s ?53.94 MiB / 53.94 MiB [-------------------------------------------------] 100.00%
-│           35.19 MiB p/s 1.7s2024-10-02T07:06:27Z	INFO	[vuln] Vulnerability scanning is enabled
-│           2024-10-02T07:06:27Z	INFO	[secret] Secret scanning is enabled
-│           2024-10-02T07:06:27Z	INFO	[secret] If your scanning is slow, please try '--scanners vuln' to
+│           2024-10-03T07:07:07Z	INFO	[vulndb] Need to update DB
+│           2024-10-03T07:07:07Z	INFO	[vulndb] Downloading vulnerability DB...
+│           2024-10-03T07:07:07Z	INFO	[vulndb] Downloading artifact...	repo="ghcr.io/aquasecurity/trivy-db:2"
+│           53.95 MiB / 53.95 MiB [----------------------------------------------------------->] 100.00% ? p/s
+│           ?53.95 MiB / 53.95 MiB [----------------------------------------------------------->] 100.00% ? p/s
+│            ?53.95 MiB / 53.95 MiB [----------------------------------------------------------->] 100.00% ?
+│           p/s ?53.95 MiB / 53.95 MiB [----------------------------------------------------------->] 100.00% ?
+│            p/s ?53.95 MiB / 53.95 MiB [----------------------------------------------------------->] 100.00%
+│           ? p/s ?53.95 MiB / 53.95 MiB [----------------------------------------------------------->] 100.00%
+│            ? p/s ?53.95 MiB / 53.95 MiB [----------------------------------------------------------->]
+│           100.00% ? p/s ?53.95 MiB / 53.95 MiB [----------------------------------------------------------->]
+│            100.00% ? p/s ?53.95 MiB / 53.95 MiB [-------------------------------------------------] 100.00%
+│           34.71 MiB p/s 1.8s2024-10-03T07:07:10Z	INFO	[vulndb] Artifact successfully
+│           downloaded	repo="ghcr.io/aquasecurity/trivy-db:2"
+│           2024-10-03T07:07:10Z	INFO	[vuln] Vulnerability scanning is enabled
+│           2024-10-03T07:07:10Z	INFO	[secret] Secret scanning is enabled
+│           2024-10-03T07:07:10Z	INFO	[secret] If your scanning is slow, please try '--scanners vuln' to
 │           disable secret scanning
-│           2024-10-02T07:06:27Z	INFO	[secret] Please see also
-│           https://aquasecurity.github.io/trivy/v0.55/docs/scanner/secret#recommendation for faster secret
+│           2024-10-03T07:07:10Z	INFO	[secret] Please see also
+│           https://aquasecurity.github.io/trivy/v0.56/docs/scanner/secret#recommendation for faster secret
 │           detection
-│           2024-10-02T07:06:44Z	INFO	[python] License acquired from METADATA classifiers may be subject to
+│           2024-10-03T07:07:27Z	INFO	[python] License acquired from METADATA classifiers may be subject to
 │           additional terms	name="PyGObject" version="3.48.2"
-│           2024-10-02T07:06:44Z	INFO	[python] License acquired from METADATA classifiers may be subject to
+│           2024-10-03T07:07:27Z	INFO	[python] License acquired from METADATA classifiers may be subject to
 │           additional terms	name="dbus-python" version="1.3.2"
-│           2024-10-02T07:06:44Z	INFO	[python] License acquired from METADATA classifiers may be subject to
+│           2024-10-03T07:07:27Z	INFO	[python] License acquired from METADATA classifiers may be subject to
 │           additional terms	name="distro" version="1.9.0"
-│           2024-10-02T07:06:44Z	INFO	Java DB Repository	repository=ghcr.io/aquasecurity/trivy-java-db:1
-│           2024-10-02T07:06:44Z	INFO	Downloading the Java DB...
-│           2024-10-02T07:06:44Z	FATAL	Fatal error	image scan error: scan error: scan failed: failed analysis:
+│           2024-10-03T07:07:27Z	INFO	[javadb] Downloading Java DB...
+│           2024-10-03T07:07:27Z	INFO	[javadb] Downloading
+│           artifact...	repo="ghcr.io/aquasecurity/trivy-java-db:1"
+│           61.52 MiB / 649.13 MiB [----->_______________________________________________________] 9.48% ? p/s
+│           ?120.59 MiB / 649.13 MiB [---------->________________________________________________] 18.58% ? p/s
+│            ?176.10 MiB / 649.13 MiB [---------------->__________________________________________] 27.13% ?
+│           p/s ?232.42 MiB / 649.13 MiB [---------------->____________________________] 35.81% 284.90 MiB p/s
+│           ETA 1s292.80 MiB / 649.13 MiB [-------------------->________________________] 45.11% 284.90 MiB p/s
+│            ETA 1s349.32 MiB / 649.13 MiB [------------------------>____________________] 53.81% 284.90 MiB
+│           p/s ETA 1s406.48 MiB / 649.13 MiB [---------------------------->________________] 62.62% 285.21 MiB
+│            p/s ETA 0s462.06 MiB / 649.13 MiB [-------------------------------->____________] 71.18% 285.21
+│           MiB p/s ETA 0s521.15 MiB / 649.13 MiB [------------------------------------>________] 80.28% 285.21
+│            MiB p/s ETA 0s579.84 MiB / 649.13 MiB [---------------------------------------->____] 89.33%
+│           285.48 MiB p/s ETA 0s637.69 MiB / 649.13 MiB [-------------------------------------------->] 98.24%
+│            285.48 MiB p/s ETA 0s649.13 MiB / 649.13 MiB [------------------------------------------->]
+│           100.00% 285.48 MiB p/s ETA 0s649.13 MiB / 649.13 MiB [------------------------------------------->]
+│            100.00% 274.50 MiB p/s ETA 0s649.13 MiB / 649.13 MiB
+│           [------------------------------------------->] 100.00% 274.50 MiB p/s ETA 0s649.13 MiB / 649.13 MiB
+│            [------------------------------------------->] 100.00% 274.50 MiB p/s ETA 0s649.13 MiB / 649.13
+│           MiB [------------------------------------------->] 100.00% 256.79 MiB p/s ETA 0s649.13 MiB / 649.13
+│            MiB [------------------------------------------->] 100.00% 256.79 MiB p/s ETA 0s649.13 MiB /
+│           649.13 MiB [------------------------------------------->] 100.00% 256.79 MiB p/s ETA 0s649.13 MiB /
+│            649.13 MiB [------------------------------------------->] 100.00% 240.22 MiB p/s ETA 0s649.13 MiB
+│           / 649.13 MiB [------------------------------------------->] 100.00% 240.22 MiB p/s ETA 0s649.13 MiB
+│            / 649.13 MiB [------------------------------------------->] 100.00% 240.22 MiB p/s ETA 0s649.13
+│           MiB / 649.13 MiB [------------------------------------------->] 100.00% 224.72 MiB p/s ETA 0s649.13
+│            MiB / 649.13 MiB [------------------------------------------->] 100.00% 224.72 MiB p/s ETA
+│           0s649.13 MiB / 649.13 MiB [------------------------------------------->] 100.00% 224.72 MiB p/s ETA
+│            0s649.13 MiB / 649.13 MiB [------------------------------------------->] 100.00% 210.22 MiB p/s
+│           ETA 0s649.13 MiB / 649.13 MiB [------------------------------------------->] 100.00% 210.22 MiB p/s
+│            ETA 0s649.13 MiB / 649.13 MiB [------------------------------------------->] 100.00% 210.22 MiB
+│           p/s ETA 0s649.13 MiB / 649.13 MiB [------------------------------------------->] 100.00% 196.66 MiB
+│            p/s ETA 0s649.13 MiB / 649.13 MiB [------------------------------------------->] 100.00% 196.66
+│           MiB p/s ETA 0s649.13 MiB / 649.13 MiB [------------------------------------------->] 100.00% 196.66
+│            MiB p/s ETA 0s649.13 MiB / 649.13 MiB [------------------------------------------->] 100.00%
+│           183.97 MiB p/s ETA 0s649.13 MiB / 649.13 MiB [------------------------------------------->] 100.00%
+│            183.97 MiB p/s ETA 0s649.13 MiB / 649.13 MiB [------------------------------------------->]
+│           100.00% 183.97 MiB p/s ETA 0s649.13 MiB / 649.13 MiB [------------------------------------------->]
+│            100.00% 172.10 MiB p/s ETA 0s649.13 MiB / 649.13 MiB
+│           [------------------------------------------->] 100.00% 172.10 MiB p/s ETA 0s649.13 MiB / 649.13 MiB
+│            [------------------------------------------->] 100.00% 172.10 MiB p/s ETA 0s649.13 MiB / 649.13
+│           MiB [------------------------------------------->] 100.00% 161.00 MiB p/s ETA 0s649.13 MiB / 649.13
+│            MiB [------------------------------------------->] 100.00% 161.00 MiB p/s ETA 0s649.13 MiB /
+│           649.13 MiB [------------------------------------------->] 100.00% 161.00 MiB p/s ETA 0s649.13 MiB /
+│            649.13 MiB [------------------------------------------->] 100.00% 150.61 MiB p/s ETA 0s649.13 MiB
+│           / 649.13 MiB [------------------------------------------->] 100.00% 150.61 MiB p/s ETA 0s649.13 MiB
+│            / 649.13 MiB [------------------------------------------->] 100.00% 150.61 MiB p/s ETA 0s649.13
+│           MiB / 649.13 MiB [------------------------------------------->] 100.00% 140.90 MiB p/s ETA 0s649.13
+│            MiB / 649.13 MiB [------------------------------------------->] 100.00% 140.90 MiB p/s ETA
+│           0s649.13 MiB / 649.13 MiB [------------------------------------------->] 100.00% 140.90 MiB p/s ETA
+│            0s649.13 MiB / 649.13 MiB [------------------------------------------->] 100.00% 131.81 MiB p/s
+│           ETA 0s649.13 MiB / 649.13 MiB [------------------------------------------->] 100.00% 131.81 MiB p/s
+│            ETA 0s649.13 MiB / 649.13 MiB [------------------------------------------->] 100.00% 131.81 MiB
+│           p/s ETA 0s649.13 MiB / 649.13 MiB [------------------------------------------->] 100.00% 123.30 MiB
+│            p/s ETA 0s649.13 MiB / 649.13 MiB [------------------------------------------->] 100.00% 123.30
+│           MiB p/s ETA 0s649.13 MiB / 649.13 MiB [------------------------------------------->] 100.00% 123.30
+│            MiB p/s ETA 0s649.13 MiB / 649.13 MiB [------------------------------------------->] 100.00%
+│           115.35 MiB p/s ETA 0s649.13 MiB / 649.13 MiB [------------------------------------------->] 100.00%
+│            115.35 MiB p/s ETA 0s649.13 MiB / 649.13 MiB [------------------------------------------->]
+│           100.00% 115.35 MiB p/s ETA 0s649.13 MiB / 649.13 MiB [------------------------------------------->]
+│            100.00% 107.91 MiB p/s ETA 0s649.13 MiB / 649.13 MiB
+│           [------------------------------------------->] 100.00% 107.91 MiB p/s ETA 0s649.13 MiB / 649.13 MiB
+│            [------------------------------------------->] 100.00% 107.91 MiB p/s ETA 0s649.13 MiB / 649.13
+│           MiB [------------------------------------------->] 100.00% 100.94 MiB p/s ETA 0s649.13 MiB / 649.13
+│            MiB [------------------------------------------------] 100.00% 56.68 MiB p/s
+│           12s2024-10-03T07:07:39Z	INFO	[javadb] Artifact successfully
+│           downloaded	repo="ghcr.io/aquasecurity/trivy-java-db:1"
+│           2024-10-03T07:07:39Z	FATAL	Fatal error	image scan error: scan error: scan failed: failed analysis:
 │           analyze error: pipeline error: failed to analyze layer
 │           (sha256:3c3ba101d7122bd7f70d83c6eb2d6ac9d1c199725c95a395005bb33575ea19c8): post analysis error:
-│           post analysis error: Unable to initialize the Java DB: Java DB update failed: DB download error:
-│           oci download error: failed to fetch the layer: GET
-│           https://ghcr.io/v2/aquasecurity/trivy-java-db/blobs/sha256:54bf40698d24f75a9368553bad38f5b981ff3cb4
-│           bdced7f8f5fb120166d60ecb: TOOMANYREQUESTS: retry-after: 47.266µs, allowed: 44000/minute
+│           post analysis error: Unable to initialize the Java DB: Java DB update failed: OCI artifact error:
+│           failed to download Java DB from any source
 │            
 ├ exitcode: 1 
 ╰ cmd     : docker run --pull always --rm  aquasec/trivy -f json --skip-dirs /home/.openvscode-server/**
