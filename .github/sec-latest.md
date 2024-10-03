@@ -2,54 +2,30 @@
 ╭ stdout   
 ├ stderr  : latest: Pulling from aquasec/trivy
 │           43c4264eed91: Already exists
-│           22126857a555: Pulling fs layer
-│           1e4db3f86ba5: Pulling fs layer
-│           f5a907a27a4a: Pulling fs layer
-│           f5a907a27a4a: Download complete
-│           22126857a555: Verifying Checksum
-│           22126857a555: Download complete
-│           1e4db3f86ba5: Verifying Checksum
-│           1e4db3f86ba5: Download complete
-│           22126857a555: Pull complete
-│           1e4db3f86ba5: Pull complete
-│           f5a907a27a4a: Pull complete
-│           Digest: sha256:addfb8fd6b9e520c25b22c61d8aa5d58ecd7879177aa959f952bf4734f4e3f60
+│           a614f65bf3d4: Pulling fs layer
+│           b3805e8267bc: Pulling fs layer
+│           da758d7eb143: Pulling fs layer
+│           da758d7eb143: Download complete
+│           a614f65bf3d4: Verifying Checksum
+│           a614f65bf3d4: Download complete
+│           b3805e8267bc: Verifying Checksum
+│           b3805e8267bc: Download complete
+│           a614f65bf3d4: Pull complete
+│           b3805e8267bc: Pull complete
+│           da758d7eb143: Pull complete
+│           Digest: sha256:e682a9f8db9db6f09731fe2f63e4234d240ec67a811d90974b5af3d40497f843
 │           Status: Downloaded newer image for aquasec/trivy:latest
-│           2024-10-02T07:05:39Z	INFO	[db] Need to update DB
-│           2024-10-02T07:05:39Z	INFO	[db] Downloading DB...	repository="ghcr.io/aquasecurity/trivy-db:2"
-│           53.94 MiB / 53.94 MiB [----------------------------------------------------------->] 100.00% ? p/s
-│           ?53.94 MiB / 53.94 MiB [----------------------------------------------------------->] 100.00% ? p/s
-│            ?53.94 MiB / 53.94 MiB [----------------------------------------------------------->] 100.00% ?
-│           p/s ?53.94 MiB / 53.94 MiB [----------------------------------------------------------->] 100.00% ?
-│            p/s ?53.94 MiB / 53.94 MiB [----------------------------------------------------------->] 100.00%
-│           ? p/s ?53.94 MiB / 53.94 MiB [----------------------------------------------------------->] 100.00%
-│            ? p/s ?53.94 MiB / 53.94 MiB [----------------------------------------------------------->]
-│           100.00% ? p/s ?53.94 MiB / 53.94 MiB [----------------------------------------------------------->]
-│            100.00% ? p/s ?53.94 MiB / 53.94 MiB [-------------------------------------------------] 100.00%
-│           35.49 MiB p/s 1.7s2024-10-02T07:05:41Z	INFO	[vuln] Vulnerability scanning is enabled
-│           2024-10-02T07:05:41Z	INFO	[secret] Secret scanning is enabled
-│           2024-10-02T07:05:41Z	INFO	[secret] If your scanning is slow, please try '--scanners vuln' to
-│           disable secret scanning
-│           2024-10-02T07:05:41Z	INFO	[secret] Please see also
-│           https://aquasecurity.github.io/trivy/v0.55/docs/scanner/secret#recommendation for faster secret
-│           detection
-│           2024-10-02T07:06:10Z	INFO	[python] License acquired from METADATA classifiers may be subject to
-│           additional terms	name="PyGObject" version="3.42.1"
-│           2024-10-02T07:06:10Z	INFO	[python] License acquired from METADATA classifiers may be subject to
-│           additional terms	name="dbus-python" version="1.2.18"
-│           2024-10-02T07:06:10Z	INFO	[python] License acquired from METADATA classifiers may be subject to
-│           additional terms	name="distro" version="1.7.0"
-│           2024-10-02T07:06:10Z	INFO	Java DB Repository	repository=ghcr.io/aquasecurity/trivy-java-db:1
-│           2024-10-02T07:06:10Z	INFO	Downloading the Java DB...
-│           2024-10-02T07:06:10Z	FATAL	Fatal error	image scan error: scan error: scan failed: failed analysis:
-│           analyze error: pipeline error: failed to analyze layer
-│           (sha256:853b5d95f07f5f2e1b0bf3839c45f15d937b8d18ad499f49ad4553075cd9fdf4): post analysis error:
-│           post analysis error: Unable to initialize the Java DB: Java DB update failed: DB download error:
-│           OCI repository error: 1 error occurred:
-│           	* GET https://ghcr.io/v2/aquasecurity/trivy-java-db/manifests/1: TOOMANYREQUESTS: retry-after:
-│           343.739µs, allowed: 44000/minute
-│           
-│           
+│           2024-10-03T07:06:05Z	INFO	[vulndb] Need to update DB
+│           2024-10-03T07:06:05Z	INFO	[vulndb] Downloading vulnerability DB...
+│           2024-10-03T07:06:05Z	INFO	[vulndb] Downloading artifact...	repo="ghcr.io/aquasecurity/trivy-db:2"
+│           2024-10-03T07:06:05Z	ERROR	[vulndb] Failed to download
+│           artifact	repo="ghcr.io/aquasecurity/trivy-db:2" err="oci download error: failed to fetch the layer:
+│            GET
+│           https://ghcr.io/v2/aquasecurity/trivy-db/blobs/sha256:77a50f405854d311fdf062f2d7edf3c04c63e2f5d2187
+│           51a29125431376757a1: TOOMANYREQUESTS: retry-after: 27.209µs, allowed: 44000/minute"
+│           2024-10-03T07:06:05Z	FATAL	Fatal error	init error: DB error: failed to download vulnerability DB:
+│           OCI artifact error: failed to download vulnerability DB: failed to download artifact from any
+│           source
 │            
 ├ exitcode: 1 
 ╰ cmd     : docker run --pull always --rm  aquasec/trivy -f json --skip-dirs /home/.openvscode-server/**
