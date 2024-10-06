@@ -9,7 +9,8 @@
       PURL: pkg:deb/ubuntu/apparmor@3.0.4-2ubuntu2.3build2?arch=amd64&distro=ubuntu-22.04
       UID: b9023567b5641b1b
     InstalledVersion: 3.0.4-2ubuntu2.3build2
-    Status: affected
+    FixedVersion: 3.0.4-2ubuntu2.4
+    Status: fixed
     Layer:
       Digest: sha256:eb4108e75dc6f8e6fc5a5e04197674c0d9a1dd13ec796f87aff09fd0a4bbd6ca
       DiffID: sha256:853b5d95f07f5f2e1b0bf3839c45f15d937b8d18ad499f49ad4553075cd9fdf4
@@ -41,6 +42,7 @@
     - https://gitlab.com/apparmor/apparmor/-/merge_requests/333
     - https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772%40%3Cdev.mina.apache.org%3E
     - https://nvd.nist.gov/vuln/detail/CVE-2016-1585
+    - https://ubuntu.com/security/notices/USN-7035-1
     - https://www.cve.org/CVERecord?id=CVE-2016-1585
     PublishedDate: '2019-04-22T16:29:01.303Z'
     LastModifiedDate: '2023-11-07T02:29:58.223Z'
@@ -90,10 +92,53 @@
     - https://access.redhat.com/security/cve/CVE-2016-2781
     - https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772%40%3Cdev.mina.apache.org%3E
     - https://lore.kernel.org/patchwork/patch/793178/
+    - https://mirrors.edge.kernel.org/pub/linux/utils/util-linux/v2.28/v2.28-ReleaseNotes
     - https://nvd.nist.gov/vuln/detail/CVE-2016-2781
     - https://www.cve.org/CVERecord?id=CVE-2016-2781
     PublishedDate: '2017-02-07T15:59:00.333Z'
     LastModifiedDate: '2023-11-07T02:32:03.347Z'
+  - VulnerabilityID: CVE-2024-8096
+    PkgID: curl@7.81.0-1ubuntu1.17
+    PkgName: curl
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/curl@7.81.0-1ubuntu1.17?arch=amd64&distro=ubuntu-22.04
+      UID: 66ed260702c0b81b
+    InstalledVersion: 7.81.0-1ubuntu1.17
+    FixedVersion: 7.81.0-1ubuntu1.18
+    Status: fixed
+    Layer:
+      Digest: sha256:eb4108e75dc6f8e6fc5a5e04197674c0d9a1dd13ec796f87aff09fd0a4bbd6ca
+      DiffID: sha256:853b5d95f07f5f2e1b0bf3839c45f15d937b8d18ad499f49ad4553075cd9fdf4
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-8096
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'curl: OCSP stapling bypass with GnuTLS'
+    Description: When curl is told to use the Certificate Status Request TLS extension, often referred to as OCSP stapling, to verify that the server certificate is valid, it might fail to detect some OCSP problems and instead wrongly consider the response as fine.  If the returned status reports another error than 'revoked' (like for example 'unauthorized') it is not treated as a bad certficate.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-295
+    VendorSeverity:
+      azure: 2
+      cbl-mariner: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N
+        V3Score: 6.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-8096
+    - https://curl.se/docs/CVE-2024-8096.html
+    - https://curl.se/docs/CVE-2024-8096.json
+    - https://hackerone.com/reports/2669852
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-8096
+    - https://ubuntu.com/security/notices/USN-7012-1
+    - https://www.cve.org/CVERecord?id=CVE-2024-8096
+    PublishedDate: '2024-09-11T10:15:02.883Z'
+    LastModifiedDate: '2024-09-11T16:26:11.92Z'
   - VulnerabilityID: CVE-2023-34969
     PkgID: dbus@1.12.20-2ubuntu4.1
     PkgName: dbus
@@ -250,6 +295,74 @@
     - https://www.cve.org/CVERecord?id=CVE-2022-3219
     PublishedDate: '2023-02-23T20:15:12.393Z'
     LastModifiedDate: '2023-05-26T16:31:34.07Z'
+  - VulnerabilityID: CVE-2023-4039
+    PkgID: gcc-12-base@12.3.0-1ubuntu1~22.04
+    PkgName: gcc-12-base
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/gcc-12-base@12.3.0-1ubuntu1~22.04?arch=amd64&distro=ubuntu-22.04
+      UID: 4075ab57b22d0ab2
+    InstalledVersion: 12.3.0-1ubuntu1~22.04
+    Status: affected
+    Layer:
+      Digest: sha256:eb4108e75dc6f8e6fc5a5e04197674c0d9a1dd13ec796f87aff09fd0a4bbd6ca
+      DiffID: sha256:853b5d95f07f5f2e1b0bf3839c45f15d937b8d18ad499f49ad4553075cd9fdf4
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-4039
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'gcc: -fstack-protector fails to guard dynamic stack allocations on ARM64'
+    Description: |+
+
+
+      **DISPUTED**A failure in the -fstack-protector feature in GCC-based toolchains 
+      that target AArch64 allows an attacker to exploit an existing buffer 
+      overflow in dynamically-sized local variables in your application 
+      without this being detected. This stack-protector failure only applies 
+      to C99-style dynamically-sized local variables or those created using 
+      alloca(). The stack-protector operates as intended for statically-sized 
+      local variables.
+
+      The default behavior when the stack-protector 
+      detects an overflow is to terminate your application, resulting in 
+      controlled loss of availability. An attacker who can exploit a buffer 
+      overflow without triggering the stack-protector might be able to change 
+      program flow control to cause an uncontrolled loss of availability or to
+       go further and affect confidentiality or integrity. NOTE: The GCC project argues that this is a missed hardening bug and not a vulnerability by itself.
+
+
+
+
+
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-693
+    VendorSeverity:
+      amazon: 2
+      azure: 2
+      cbl-mariner: 2
+      nvd: 2
+      oracle-oval: 1
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N
+        V3Score: 4.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-4039
+    - https://developer.arm.com/Arm%20Security%20Center/GCC%20Stack%20Protector%20Vulnerability%20AArch64
+    - https://gcc.gnu.org/git/?p=gcc.git;a=blob_plain;f=SECURITY.txt
+    - https://gcc.gnu.org/pipermail/gcc-patches/2023-October/634066.html
+    - https://github.com/metaredteam/external-disclosures/security/advisories/GHSA-x7ch-h5rf-w2mf
+    - https://inbox.sourceware.org/gcc-patches/46cfa37b-56eb-344d-0745-e0d35393392d@gotplt.org
+    - https://linux.oracle.com/cve/CVE-2023-4039.html
+    - https://linux.oracle.com/errata/ELSA-2023-28766.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-4039
+    - https://rtx.meta.security/mitigation/2023/09/12/CVE-2023-4039.html
+    - https://www.cve.org/CVERecord?id=CVE-2023-4039
+    PublishedDate: '2023-09-13T09:15:15.69Z'
+    LastModifiedDate: '2024-08-02T08:15:14.993Z'
   - VulnerabilityID: CVE-2022-27943
     PkgID: gcc-12-base@12.3.0-1ubuntu1~22.04
     PkgName: gcc-12-base
@@ -832,7 +945,8 @@
       PURL: pkg:deb/ubuntu/libapparmor1@3.0.4-2ubuntu2.3build2?arch=amd64&distro=ubuntu-22.04
       UID: 75280aff37ed3f5f
     InstalledVersion: 3.0.4-2ubuntu2.3build2
-    Status: affected
+    FixedVersion: 3.0.4-2ubuntu2.4
+    Status: fixed
     Layer:
       Digest: sha256:eb4108e75dc6f8e6fc5a5e04197674c0d9a1dd13ec796f87aff09fd0a4bbd6ca
       DiffID: sha256:853b5d95f07f5f2e1b0bf3839c45f15d937b8d18ad499f49ad4553075cd9fdf4
@@ -864,9 +978,78 @@
     - https://gitlab.com/apparmor/apparmor/-/merge_requests/333
     - https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772%40%3Cdev.mina.apache.org%3E
     - https://nvd.nist.gov/vuln/detail/CVE-2016-1585
+    - https://ubuntu.com/security/notices/USN-7035-1
     - https://www.cve.org/CVERecord?id=CVE-2016-1585
     PublishedDate: '2019-04-22T16:29:01.303Z'
     LastModifiedDate: '2023-11-07T02:29:58.223Z'
+  - VulnerabilityID: CVE-2023-4039
+    PkgID: libatomic1@12.3.0-1ubuntu1~22.04
+    PkgName: libatomic1
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libatomic1@12.3.0-1ubuntu1~22.04?arch=amd64&distro=ubuntu-22.04
+      UID: ef001d3fbf3a80c9
+    InstalledVersion: 12.3.0-1ubuntu1~22.04
+    Status: affected
+    Layer:
+      Digest: sha256:eb4108e75dc6f8e6fc5a5e04197674c0d9a1dd13ec796f87aff09fd0a4bbd6ca
+      DiffID: sha256:853b5d95f07f5f2e1b0bf3839c45f15d937b8d18ad499f49ad4553075cd9fdf4
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-4039
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'gcc: -fstack-protector fails to guard dynamic stack allocations on ARM64'
+    Description: |+
+
+
+      **DISPUTED**A failure in the -fstack-protector feature in GCC-based toolchains 
+      that target AArch64 allows an attacker to exploit an existing buffer 
+      overflow in dynamically-sized local variables in your application 
+      without this being detected. This stack-protector failure only applies 
+      to C99-style dynamically-sized local variables or those created using 
+      alloca(). The stack-protector operates as intended for statically-sized 
+      local variables.
+
+      The default behavior when the stack-protector 
+      detects an overflow is to terminate your application, resulting in 
+      controlled loss of availability. An attacker who can exploit a buffer 
+      overflow without triggering the stack-protector might be able to change 
+      program flow control to cause an uncontrolled loss of availability or to
+       go further and affect confidentiality or integrity. NOTE: The GCC project argues that this is a missed hardening bug and not a vulnerability by itself.
+
+
+
+
+
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-693
+    VendorSeverity:
+      amazon: 2
+      azure: 2
+      cbl-mariner: 2
+      nvd: 2
+      oracle-oval: 1
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N
+        V3Score: 4.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-4039
+    - https://developer.arm.com/Arm%20Security%20Center/GCC%20Stack%20Protector%20Vulnerability%20AArch64
+    - https://gcc.gnu.org/git/?p=gcc.git;a=blob_plain;f=SECURITY.txt
+    - https://gcc.gnu.org/pipermail/gcc-patches/2023-October/634066.html
+    - https://github.com/metaredteam/external-disclosures/security/advisories/GHSA-x7ch-h5rf-w2mf
+    - https://inbox.sourceware.org/gcc-patches/46cfa37b-56eb-344d-0745-e0d35393392d@gotplt.org
+    - https://linux.oracle.com/cve/CVE-2023-4039.html
+    - https://linux.oracle.com/errata/ELSA-2023-28766.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-4039
+    - https://rtx.meta.security/mitigation/2023/09/12/CVE-2023-4039.html
+    - https://www.cve.org/CVERecord?id=CVE-2023-4039
+    PublishedDate: '2023-09-13T09:15:15.69Z'
+    LastModifiedDate: '2024-08-02T08:15:14.993Z'
   - VulnerabilityID: CVE-2022-27943
     PkgID: libatomic1@12.3.0-1ubuntu1~22.04
     PkgName: libatomic1
@@ -990,6 +1173,90 @@
     - https://www.cve.org/CVERecord?id=CVE-2016-20013
     PublishedDate: '2022-02-19T05:15:09.413Z'
     LastModifiedDate: '2022-03-03T16:43:19.667Z'
+  - VulnerabilityID: CVE-2024-8096
+    PkgID: libcurl3-gnutls@7.81.0-1ubuntu1.17
+    PkgName: libcurl3-gnutls
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libcurl3-gnutls@7.81.0-1ubuntu1.17?arch=amd64&distro=ubuntu-22.04
+      UID: 3da5ab90f216c631
+    InstalledVersion: 7.81.0-1ubuntu1.17
+    FixedVersion: 7.81.0-1ubuntu1.18
+    Status: fixed
+    Layer:
+      Digest: sha256:eb4108e75dc6f8e6fc5a5e04197674c0d9a1dd13ec796f87aff09fd0a4bbd6ca
+      DiffID: sha256:853b5d95f07f5f2e1b0bf3839c45f15d937b8d18ad499f49ad4553075cd9fdf4
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-8096
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'curl: OCSP stapling bypass with GnuTLS'
+    Description: When curl is told to use the Certificate Status Request TLS extension, often referred to as OCSP stapling, to verify that the server certificate is valid, it might fail to detect some OCSP problems and instead wrongly consider the response as fine.  If the returned status reports another error than 'revoked' (like for example 'unauthorized') it is not treated as a bad certficate.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-295
+    VendorSeverity:
+      azure: 2
+      cbl-mariner: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N
+        V3Score: 6.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-8096
+    - https://curl.se/docs/CVE-2024-8096.html
+    - https://curl.se/docs/CVE-2024-8096.json
+    - https://hackerone.com/reports/2669852
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-8096
+    - https://ubuntu.com/security/notices/USN-7012-1
+    - https://www.cve.org/CVERecord?id=CVE-2024-8096
+    PublishedDate: '2024-09-11T10:15:02.883Z'
+    LastModifiedDate: '2024-09-11T16:26:11.92Z'
+  - VulnerabilityID: CVE-2024-8096
+    PkgID: libcurl4@7.81.0-1ubuntu1.17
+    PkgName: libcurl4
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libcurl4@7.81.0-1ubuntu1.17?arch=amd64&distro=ubuntu-22.04
+      UID: a6b6330c453d59d5
+    InstalledVersion: 7.81.0-1ubuntu1.17
+    FixedVersion: 7.81.0-1ubuntu1.18
+    Status: fixed
+    Layer:
+      Digest: sha256:eb4108e75dc6f8e6fc5a5e04197674c0d9a1dd13ec796f87aff09fd0a4bbd6ca
+      DiffID: sha256:853b5d95f07f5f2e1b0bf3839c45f15d937b8d18ad499f49ad4553075cd9fdf4
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-8096
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'curl: OCSP stapling bypass with GnuTLS'
+    Description: When curl is told to use the Certificate Status Request TLS extension, often referred to as OCSP stapling, to verify that the server certificate is valid, it might fail to detect some OCSP problems and instead wrongly consider the response as fine.  If the returned status reports another error than 'revoked' (like for example 'unauthorized') it is not treated as a bad certficate.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-295
+    VendorSeverity:
+      azure: 2
+      cbl-mariner: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N
+        V3Score: 6.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-8096
+    - https://curl.se/docs/CVE-2024-8096.html
+    - https://curl.se/docs/CVE-2024-8096.json
+    - https://hackerone.com/reports/2669852
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-8096
+    - https://ubuntu.com/security/notices/USN-7012-1
+    - https://www.cve.org/CVERecord?id=CVE-2024-8096
+    PublishedDate: '2024-09-11T10:15:02.883Z'
+    LastModifiedDate: '2024-09-11T16:26:11.92Z'
   - VulnerabilityID: CVE-2023-34969
     PkgID: libdbus-1-3@1.12.20-2ubuntu4.1
     PkgName: libdbus-1-3
@@ -1053,7 +1320,8 @@
       PURL: pkg:deb/ubuntu/libexpat1@2.4.7-1ubuntu0.3?arch=amd64&distro=ubuntu-22.04
       UID: 5b70a18ed03f8b1c
     InstalledVersion: 2.4.7-1ubuntu0.3
-    Status: affected
+    FixedVersion: 2.4.7-1ubuntu0.4
+    Status: fixed
     Layer:
       Digest: sha256:eb4108e75dc6f8e6fc5a5e04197674c0d9a1dd13ec796f87aff09fd0a4bbd6ca
       DiffID: sha256:853b5d95f07f5f2e1b0bf3839c45f15d937b8d18ad499f49ad4553075cd9fdf4
@@ -1069,9 +1337,13 @@
     CweIDs:
     - CWE-611
     VendorSeverity:
+      alma: 2
+      cbl-mariner: 4
       nvd: 4
+      oracle-oval: 2
       photon: 4
       redhat: 2
+      rocky: 2
       ubuntu: 2
     CVSS:
       nvd:
@@ -1081,11 +1353,29 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:L
         V3Score: 5.1
     References:
+    - https://access.redhat.com/errata/RHSA-2024:6754
     - https://access.redhat.com/security/cve/CVE-2024-45490
+    - https://bugzilla.redhat.com/2308615
+    - https://bugzilla.redhat.com/2308616
+    - https://bugzilla.redhat.com/2308617
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2308615
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2308616
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2308617
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-45490
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-45491
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-45492
+    - https://errata.almalinux.org/9/ALSA-2024-6754.html
+    - https://errata.rockylinux.org/RLSA-2024:6754
     - https://github.com/libexpat/libexpat/blob/R_2_6_3/expat/Changes
     - https://github.com/libexpat/libexpat/issues/887
     - https://github.com/libexpat/libexpat/pull/890
+    - https://linux.oracle.com/cve/CVE-2024-45490.html
+    - https://linux.oracle.com/errata/ELSA-2024-6989.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-45490
+    - https://ubuntu.com/security/notices/USN-7000-1
+    - https://ubuntu.com/security/notices/USN-7000-2
+    - https://ubuntu.com/security/notices/USN-7001-1
+    - https://ubuntu.com/security/notices/USN-7001-2
     - https://www.cve.org/CVERecord?id=CVE-2024-45490
     PublishedDate: '2024-08-30T03:15:03.757Z'
     LastModifiedDate: '2024-09-04T14:28:19.313Z'
@@ -1096,7 +1386,8 @@
       PURL: pkg:deb/ubuntu/libexpat1@2.4.7-1ubuntu0.3?arch=amd64&distro=ubuntu-22.04
       UID: 5b70a18ed03f8b1c
     InstalledVersion: 2.4.7-1ubuntu0.3
-    Status: affected
+    FixedVersion: 2.4.7-1ubuntu0.4
+    Status: fixed
     Layer:
       Digest: sha256:eb4108e75dc6f8e6fc5a5e04197674c0d9a1dd13ec796f87aff09fd0a4bbd6ca
       DiffID: sha256:853b5d95f07f5f2e1b0bf3839c45f15d937b8d18ad499f49ad4553075cd9fdf4
@@ -1112,9 +1403,13 @@
     CweIDs:
     - CWE-190
     VendorSeverity:
+      alma: 2
+      cbl-mariner: 3
       nvd: 4
+      oracle-oval: 2
       photon: 4
       redhat: 2
+      rocky: 2
       ubuntu: 2
     CVSS:
       nvd:
@@ -1124,11 +1419,29 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
+    - https://access.redhat.com/errata/RHSA-2024:6754
     - https://access.redhat.com/security/cve/CVE-2024-45491
+    - https://bugzilla.redhat.com/2308615
+    - https://bugzilla.redhat.com/2308616
+    - https://bugzilla.redhat.com/2308617
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2308615
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2308616
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2308617
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-45490
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-45491
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-45492
+    - https://errata.almalinux.org/9/ALSA-2024-6754.html
+    - https://errata.rockylinux.org/RLSA-2024:6754
     - https://github.com/libexpat/libexpat/blob/R_2_6_3/expat/Changes
     - https://github.com/libexpat/libexpat/issues/888
     - https://github.com/libexpat/libexpat/pull/891
+    - https://linux.oracle.com/cve/CVE-2024-45491.html
+    - https://linux.oracle.com/errata/ELSA-2024-6989.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-45491
+    - https://ubuntu.com/security/notices/USN-7000-1
+    - https://ubuntu.com/security/notices/USN-7000-2
+    - https://ubuntu.com/security/notices/USN-7001-1
+    - https://ubuntu.com/security/notices/USN-7001-2
     - https://www.cve.org/CVERecord?id=CVE-2024-45491
     PublishedDate: '2024-08-30T03:15:03.85Z'
     LastModifiedDate: '2024-09-04T14:28:33.953Z'
@@ -1139,7 +1452,8 @@
       PURL: pkg:deb/ubuntu/libexpat1@2.4.7-1ubuntu0.3?arch=amd64&distro=ubuntu-22.04
       UID: 5b70a18ed03f8b1c
     InstalledVersion: 2.4.7-1ubuntu0.3
-    Status: affected
+    FixedVersion: 2.4.7-1ubuntu0.4
+    Status: fixed
     Layer:
       Digest: sha256:eb4108e75dc6f8e6fc5a5e04197674c0d9a1dd13ec796f87aff09fd0a4bbd6ca
       DiffID: sha256:853b5d95f07f5f2e1b0bf3839c45f15d937b8d18ad499f49ad4553075cd9fdf4
@@ -1155,9 +1469,13 @@
     CweIDs:
     - CWE-190
     VendorSeverity:
+      alma: 2
+      cbl-mariner: 3
       nvd: 4
+      oracle-oval: 2
       photon: 4
       redhat: 2
+      rocky: 2
       ubuntu: 2
     CVSS:
       nvd:
@@ -1167,14 +1485,98 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 6.2
     References:
+    - https://access.redhat.com/errata/RHSA-2024:6754
     - https://access.redhat.com/security/cve/CVE-2024-45492
+    - https://bugzilla.redhat.com/2308615
+    - https://bugzilla.redhat.com/2308616
+    - https://bugzilla.redhat.com/2308617
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2308615
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2308616
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2308617
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-45490
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-45491
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-45492
+    - https://errata.almalinux.org/9/ALSA-2024-6754.html
+    - https://errata.rockylinux.org/RLSA-2024:6754
     - https://github.com/libexpat/libexpat/blob/R_2_6_3/expat/Changes
     - https://github.com/libexpat/libexpat/issues/889
     - https://github.com/libexpat/libexpat/pull/892
+    - https://linux.oracle.com/cve/CVE-2024-45492.html
+    - https://linux.oracle.com/errata/ELSA-2024-6989.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-45492
+    - https://ubuntu.com/security/notices/USN-7000-1
+    - https://ubuntu.com/security/notices/USN-7000-2
     - https://www.cve.org/CVERecord?id=CVE-2024-45492
     PublishedDate: '2024-08-30T03:15:03.93Z'
     LastModifiedDate: '2024-09-04T14:28:41.76Z'
+  - VulnerabilityID: CVE-2023-4039
+    PkgID: libgcc-s1@12.3.0-1ubuntu1~22.04
+    PkgName: libgcc-s1
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libgcc-s1@12.3.0-1ubuntu1~22.04?arch=amd64&distro=ubuntu-22.04
+      UID: a27b047981e340f6
+    InstalledVersion: 12.3.0-1ubuntu1~22.04
+    Status: affected
+    Layer:
+      Digest: sha256:eb4108e75dc6f8e6fc5a5e04197674c0d9a1dd13ec796f87aff09fd0a4bbd6ca
+      DiffID: sha256:853b5d95f07f5f2e1b0bf3839c45f15d937b8d18ad499f49ad4553075cd9fdf4
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-4039
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'gcc: -fstack-protector fails to guard dynamic stack allocations on ARM64'
+    Description: |+
+
+
+      **DISPUTED**A failure in the -fstack-protector feature in GCC-based toolchains 
+      that target AArch64 allows an attacker to exploit an existing buffer 
+      overflow in dynamically-sized local variables in your application 
+      without this being detected. This stack-protector failure only applies 
+      to C99-style dynamically-sized local variables or those created using 
+      alloca(). The stack-protector operates as intended for statically-sized 
+      local variables.
+
+      The default behavior when the stack-protector 
+      detects an overflow is to terminate your application, resulting in 
+      controlled loss of availability. An attacker who can exploit a buffer 
+      overflow without triggering the stack-protector might be able to change 
+      program flow control to cause an uncontrolled loss of availability or to
+       go further and affect confidentiality or integrity. NOTE: The GCC project argues that this is a missed hardening bug and not a vulnerability by itself.
+
+
+
+
+
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-693
+    VendorSeverity:
+      amazon: 2
+      azure: 2
+      cbl-mariner: 2
+      nvd: 2
+      oracle-oval: 1
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N
+        V3Score: 4.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-4039
+    - https://developer.arm.com/Arm%20Security%20Center/GCC%20Stack%20Protector%20Vulnerability%20AArch64
+    - https://gcc.gnu.org/git/?p=gcc.git;a=blob_plain;f=SECURITY.txt
+    - https://gcc.gnu.org/pipermail/gcc-patches/2023-October/634066.html
+    - https://github.com/metaredteam/external-disclosures/security/advisories/GHSA-x7ch-h5rf-w2mf
+    - https://inbox.sourceware.org/gcc-patches/46cfa37b-56eb-344d-0745-e0d35393392d@gotplt.org
+    - https://linux.oracle.com/cve/CVE-2023-4039.html
+    - https://linux.oracle.com/errata/ELSA-2023-28766.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-4039
+    - https://rtx.meta.security/mitigation/2023/09/12/CVE-2023-4039.html
+    - https://www.cve.org/CVERecord?id=CVE-2023-4039
+    PublishedDate: '2023-09-13T09:15:15.69Z'
+    LastModifiedDate: '2024-08-02T08:15:14.993Z'
   - VulnerabilityID: CVE-2022-27943
     PkgID: libgcc-s1@12.3.0-1ubuntu1~22.04
     PkgName: libgcc-s1
@@ -1256,7 +1658,6 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2024-2236
     - https://bugzilla.redhat.com/show_bug.cgi?id=2245218
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2268268
     - https://dev.gnupg.org/T7136
     - https://github.com/tomato42/marvin-toolkit/tree/master/example/libgcrypt
     - https://gitlab.com/redhat-crypto/libgcrypt/libgcrypt-mirror/-/merge_requests/17
@@ -1264,7 +1665,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2024-2236
     - https://www.cve.org/CVERecord?id=CVE-2024-2236
     PublishedDate: '2024-03-06T22:15:57.977Z'
-    LastModifiedDate: '2024-04-25T17:15:49.467Z'
+    LastModifiedDate: '2024-09-14T04:15:02.903Z'
   - VulnerabilityID: CVE-2021-40812
     PkgID: libgd3@2.3.0-2ubuntu2
     PkgName: libgd3
@@ -1301,7 +1702,6 @@
     References:
     - https://github.com/libgd/libgd/commit/6f5136821be86e7068fcdf651ae9420b5d42e9a9
     - https://github.com/libgd/libgd/issues/750#issuecomment-914872385
-    - https://github.com/libgd/libgd/issues/757
     - https://lists.debian.org/debian-lts-announce/2024/04/msg00003.html
     - https://nvd.nist.gov/vuln/detail/CVE-2021-40812
     - https://www.cve.org/CVERecord?id=CVE-2021-40812
@@ -1369,6 +1769,7 @@
     VendorSeverity:
       alma: 1
       amazon: 2
+      cbl-mariner: 3
       oracle-oval: 1
       photon: 2
       redhat: 1
@@ -1516,6 +1917,7 @@
     VendorSeverity:
       alma: 1
       amazon: 2
+      cbl-mariner: 3
       oracle-oval: 1
       photon: 2
       redhat: 1
@@ -1663,6 +2065,7 @@
     VendorSeverity:
       alma: 1
       amazon: 2
+      cbl-mariner: 3
       oracle-oval: 1
       photon: 2
       redhat: 1
@@ -1810,6 +2213,7 @@
     VendorSeverity:
       alma: 1
       amazon: 2
+      cbl-mariner: 3
       oracle-oval: 1
       photon: 2
       redhat: 1
@@ -2060,7 +2464,8 @@
       PURL: pkg:deb/ubuntu/libnginx-mod-http-geoip2@1.18.0-6ubuntu14.4?arch=amd64&distro=ubuntu-22.04
       UID: b1b5a26eca515380
     InstalledVersion: 1.18.0-6ubuntu14.4
-    Status: affected
+    FixedVersion: 1.18.0-6ubuntu14.5
+    Status: fixed
     Layer:
       Digest: sha256:eb4108e75dc6f8e6fc5a5e04197674c0d9a1dd13ec796f87aff09fd0a4bbd6ca
       DiffID: sha256:853b5d95f07f5f2e1b0bf3839c45f15d937b8d18ad499f49ad4553075cd9fdf4
@@ -2099,6 +2504,7 @@
     - https://forum.nginx.org/read.php?27,300027
     - https://my.f5.com/manage/s/article/K000140529
     - https://nvd.nist.gov/vuln/detail/CVE-2024-7347
+    - https://ubuntu.com/security/notices/USN-7014-1
     - https://www.cve.org/CVERecord?id=CVE-2024-7347
     PublishedDate: '2024-08-14T15:15:31.87Z'
     LastModifiedDate: '2024-08-20T19:25:17.513Z'
@@ -2109,7 +2515,8 @@
       PURL: pkg:deb/ubuntu/libnginx-mod-http-image-filter@1.18.0-6ubuntu14.4?arch=amd64&distro=ubuntu-22.04
       UID: 3776ec6cbe28d94d
     InstalledVersion: 1.18.0-6ubuntu14.4
-    Status: affected
+    FixedVersion: 1.18.0-6ubuntu14.5
+    Status: fixed
     Layer:
       Digest: sha256:eb4108e75dc6f8e6fc5a5e04197674c0d9a1dd13ec796f87aff09fd0a4bbd6ca
       DiffID: sha256:853b5d95f07f5f2e1b0bf3839c45f15d937b8d18ad499f49ad4553075cd9fdf4
@@ -2148,6 +2555,7 @@
     - https://forum.nginx.org/read.php?27,300027
     - https://my.f5.com/manage/s/article/K000140529
     - https://nvd.nist.gov/vuln/detail/CVE-2024-7347
+    - https://ubuntu.com/security/notices/USN-7014-1
     - https://www.cve.org/CVERecord?id=CVE-2024-7347
     PublishedDate: '2024-08-14T15:15:31.87Z'
     LastModifiedDate: '2024-08-20T19:25:17.513Z'
@@ -2158,7 +2566,8 @@
       PURL: pkg:deb/ubuntu/libnginx-mod-http-xslt-filter@1.18.0-6ubuntu14.4?arch=amd64&distro=ubuntu-22.04
       UID: 9e10d3e2998bc7ee
     InstalledVersion: 1.18.0-6ubuntu14.4
-    Status: affected
+    FixedVersion: 1.18.0-6ubuntu14.5
+    Status: fixed
     Layer:
       Digest: sha256:eb4108e75dc6f8e6fc5a5e04197674c0d9a1dd13ec796f87aff09fd0a4bbd6ca
       DiffID: sha256:853b5d95f07f5f2e1b0bf3839c45f15d937b8d18ad499f49ad4553075cd9fdf4
@@ -2197,6 +2606,7 @@
     - https://forum.nginx.org/read.php?27,300027
     - https://my.f5.com/manage/s/article/K000140529
     - https://nvd.nist.gov/vuln/detail/CVE-2024-7347
+    - https://ubuntu.com/security/notices/USN-7014-1
     - https://www.cve.org/CVERecord?id=CVE-2024-7347
     PublishedDate: '2024-08-14T15:15:31.87Z'
     LastModifiedDate: '2024-08-20T19:25:17.513Z'
@@ -2207,7 +2617,8 @@
       PURL: pkg:deb/ubuntu/libnginx-mod-mail@1.18.0-6ubuntu14.4?arch=amd64&distro=ubuntu-22.04
       UID: ac122609d4b09c60
     InstalledVersion: 1.18.0-6ubuntu14.4
-    Status: affected
+    FixedVersion: 1.18.0-6ubuntu14.5
+    Status: fixed
     Layer:
       Digest: sha256:eb4108e75dc6f8e6fc5a5e04197674c0d9a1dd13ec796f87aff09fd0a4bbd6ca
       DiffID: sha256:853b5d95f07f5f2e1b0bf3839c45f15d937b8d18ad499f49ad4553075cd9fdf4
@@ -2246,6 +2657,7 @@
     - https://forum.nginx.org/read.php?27,300027
     - https://my.f5.com/manage/s/article/K000140529
     - https://nvd.nist.gov/vuln/detail/CVE-2024-7347
+    - https://ubuntu.com/security/notices/USN-7014-1
     - https://www.cve.org/CVERecord?id=CVE-2024-7347
     PublishedDate: '2024-08-14T15:15:31.87Z'
     LastModifiedDate: '2024-08-20T19:25:17.513Z'
@@ -2256,7 +2668,8 @@
       PURL: pkg:deb/ubuntu/libnginx-mod-stream@1.18.0-6ubuntu14.4?arch=amd64&distro=ubuntu-22.04
       UID: ca4d10d325225caf
     InstalledVersion: 1.18.0-6ubuntu14.4
-    Status: affected
+    FixedVersion: 1.18.0-6ubuntu14.5
+    Status: fixed
     Layer:
       Digest: sha256:eb4108e75dc6f8e6fc5a5e04197674c0d9a1dd13ec796f87aff09fd0a4bbd6ca
       DiffID: sha256:853b5d95f07f5f2e1b0bf3839c45f15d937b8d18ad499f49ad4553075cd9fdf4
@@ -2295,6 +2708,7 @@
     - https://forum.nginx.org/read.php?27,300027
     - https://my.f5.com/manage/s/article/K000140529
     - https://nvd.nist.gov/vuln/detail/CVE-2024-7347
+    - https://ubuntu.com/security/notices/USN-7014-1
     - https://www.cve.org/CVERecord?id=CVE-2024-7347
     PublishedDate: '2024-08-14T15:15:31.87Z'
     LastModifiedDate: '2024-08-20T19:25:17.513Z'
@@ -2305,7 +2719,8 @@
       PURL: pkg:deb/ubuntu/libnginx-mod-stream-geoip2@1.18.0-6ubuntu14.4?arch=amd64&distro=ubuntu-22.04
       UID: 3fa374d40a0c8a6b
     InstalledVersion: 1.18.0-6ubuntu14.4
-    Status: affected
+    FixedVersion: 1.18.0-6ubuntu14.5
+    Status: fixed
     Layer:
       Digest: sha256:eb4108e75dc6f8e6fc5a5e04197674c0d9a1dd13ec796f87aff09fd0a4bbd6ca
       DiffID: sha256:853b5d95f07f5f2e1b0bf3839c45f15d937b8d18ad499f49ad4553075cd9fdf4
@@ -2344,6 +2759,7 @@
     - https://forum.nginx.org/read.php?27,300027
     - https://my.f5.com/manage/s/article/K000140529
     - https://nvd.nist.gov/vuln/detail/CVE-2024-7347
+    - https://ubuntu.com/security/notices/USN-7014-1
     - https://www.cve.org/CVERecord?id=CVE-2024-7347
     PublishedDate: '2024-08-14T15:15:31.87Z'
     LastModifiedDate: '2024-08-20T19:25:17.513Z'
@@ -2398,12 +2814,10 @@
     - https://github.com/systemd/systemd/issues/25676
     - https://linux.oracle.com/cve/CVE-2023-7008.html
     - https://linux.oracle.com/errata/ELSA-2024-3203.html
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4GMDEG5PKONWNHOEYSUDRT6JEOISRMN2/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QHNBXGKJWISJETTTDTZKTBFIBJUOSLKL/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-7008
     - https://www.cve.org/CVERecord?id=CVE-2023-7008
     PublishedDate: '2023-12-23T13:15:07.573Z'
-    LastModifiedDate: '2024-05-22T17:16:10.83Z'
+    LastModifiedDate: '2024-09-16T17:16:02.17Z'
   - VulnerabilityID: CVE-2023-7008
     PkgID: libpam-systemd@249.11-0ubuntu3.12
     PkgName: libpam-systemd
@@ -2455,12 +2869,55 @@
     - https://github.com/systemd/systemd/issues/25676
     - https://linux.oracle.com/cve/CVE-2023-7008.html
     - https://linux.oracle.com/errata/ELSA-2024-3203.html
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4GMDEG5PKONWNHOEYSUDRT6JEOISRMN2/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QHNBXGKJWISJETTTDTZKTBFIBJUOSLKL/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-7008
     - https://www.cve.org/CVERecord?id=CVE-2023-7008
     PublishedDate: '2023-12-23T13:15:07.573Z'
-    LastModifiedDate: '2024-05-22T17:16:10.83Z'
+    LastModifiedDate: '2024-09-16T17:16:02.17Z'
+  - VulnerabilityID: CVE-2022-41409
+    PkgID: libpcre2-8-0@10.39-3ubuntu0.1
+    PkgName: libpcre2-8-0
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libpcre2-8-0@10.39-3ubuntu0.1?arch=amd64&distro=ubuntu-22.04
+      UID: e1d9b39b29b38eec
+    InstalledVersion: 10.39-3ubuntu0.1
+    Status: affected
+    Layer:
+      Digest: sha256:eb4108e75dc6f8e6fc5a5e04197674c0d9a1dd13ec796f87aff09fd0a4bbd6ca
+      DiffID: sha256:853b5d95f07f5f2e1b0bf3839c45f15d937b8d18ad499f49ad4553075cd9fdf4
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-41409
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'pcre2: negative repeat value in a pcre2test subject line leads to inifinite loop'
+    Description: Integer overflow vulnerability in pcre2test before 10.41 allows attackers to cause a denial of service or other unspecified impacts via negative input.
+    Severity: LOW
+    CweIDs:
+    - CWE-190
+    VendorSeverity:
+      amazon: 1
+      cbl-mariner: 3
+      nvd: 3
+      photon: 3
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2022-41409
+    - https://github.com/PCRE2Project/pcre2/commit/94e1c001761373b7d9450768aa15d04c25547a35
+    - https://github.com/PCRE2Project/pcre2/issues/141
+    - https://github.com/advisories/GHSA-4qfx-v7wh-3q4j
+    - https://nvd.nist.gov/vuln/detail/CVE-2022-41409
+    - https://www.cve.org/CVERecord?id=CVE-2022-41409
+    PublishedDate: '2023-07-18T14:15:12.197Z'
+    LastModifiedDate: '2023-07-27T03:46:09.807Z'
   - VulnerabilityID: CVE-2017-11164
     PkgID: libpcre3@2:8.39-13ubuntu0.22.04.1
     PkgName: libpcre3
@@ -2558,7 +3015,8 @@
       PURL: pkg:deb/ubuntu/libpython3.10@3.10.12-1~22.04.5?arch=amd64&distro=ubuntu-22.04
       UID: 5180c6f173b92cd8
     InstalledVersion: 3.10.12-1~22.04.5
-    Status: affected
+    FixedVersion: 3.10.12-1~22.04.6
+    Status: fixed
     Layer:
       Digest: sha256:eb4108e75dc6f8e6fc5a5e04197674c0d9a1dd13ec796f87aff09fd0a4bbd6ca
       DiffID: sha256:853b5d95f07f5f2e1b0bf3839c45f15d937b8d18ad499f49ad4553075cd9fdf4
@@ -2630,9 +3088,308 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-27043
     - https://python-security.readthedocs.io/vuln/email-parseaddr-realname.html
     - https://security.netapp.com/advisory/ntap-20230601-0003/
+    - https://ubuntu.com/security/notices/USN-7015-1
+    - https://ubuntu.com/security/notices/USN-7015-3
     - https://www.cve.org/CVERecord?id=CVE-2023-27043
     PublishedDate: '2023-04-19T00:15:07.973Z'
     LastModifiedDate: '2024-02-26T16:27:45.78Z'
+  - VulnerabilityID: CVE-2024-6232
+    PkgID: libpython3.10@3.10.12-1~22.04.5
+    PkgName: libpython3.10
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libpython3.10@3.10.12-1~22.04.5?arch=amd64&distro=ubuntu-22.04
+      UID: 5180c6f173b92cd8
+    InstalledVersion: 3.10.12-1~22.04.5
+    FixedVersion: 3.10.12-1~22.04.6
+    Status: fixed
+    Layer:
+      Digest: sha256:eb4108e75dc6f8e6fc5a5e04197674c0d9a1dd13ec796f87aff09fd0a4bbd6ca
+      DiffID: sha256:853b5d95f07f5f2e1b0bf3839c45f15d937b8d18ad499f49ad4553075cd9fdf4
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-6232
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'python: cpython: tarfile: ReDos via excessive backtracking while parsing header values'
+    Description: |-
+      There is a MEDIUM severity vulnerability affecting CPython.
+
+
+
+
+
+      Regular expressions that allowed excessive backtracking during tarfile.TarFile header parsing are vulnerable to ReDoS via specifically-crafted tar archives.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-1333
+    VendorSeverity:
+      alma: 2
+      bitnami: 3
+      cbl-mariner: 3
+      nvd: 3
+      oracle-oval: 2
+      redhat: 2
+      rocky: 2
+      ubuntu: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/errata/RHSA-2024:6975
+    - https://access.redhat.com/security/cve/CVE-2024-6232
+    - https://bugzilla.redhat.com/2292921
+    - https://bugzilla.redhat.com/2302255
+    - https://bugzilla.redhat.com/2309426
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2292921
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2302255
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2309426
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-4032
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-6232
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-6923
+    - https://errata.almalinux.org/8/ALSA-2024-6975.html
+    - https://errata.rockylinux.org/RLSA-2024:6975
+    - https://github.com/python/cpython/commit/4eaf4891c12589e3c7bdad5f5b076e4c8392dd06
+    - https://github.com/python/cpython/commit/743acbe872485dc18df4d8ab2dc7895187f062c4
+    - https://github.com/python/cpython/commit/7d1f50cd92ff7e10a1c15a8f591dde8a6843a64d
+    - https://github.com/python/cpython/commit/b4225ca91547aa97ed3aca391614afbb255bc877
+    - https://github.com/python/cpython/commit/d449caf8a179e3b954268b3a88eb9170be3c8fbf
+    - https://github.com/python/cpython/commit/ed3a49ea734ada357ff4442996fd4ae71d253373
+    - https://github.com/python/cpython/issues/121285
+    - https://github.com/python/cpython/pull/121286
+    - https://linux.oracle.com/cve/CVE-2024-6232.html
+    - https://linux.oracle.com/errata/ELSA-2024-6975.html
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/JRYFTPRHZRTLMZLWQEUHZSJXNHM4ACTY/
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-6232
+    - https://ubuntu.com/security/notices/USN-7015-1
+    - https://ubuntu.com/security/notices/USN-7015-2
+    - https://www.cve.org/CVERecord?id=CVE-2024-6232
+    PublishedDate: '2024-09-03T13:15:05.363Z'
+    LastModifiedDate: '2024-09-04T21:15:14.48Z'
+  - VulnerabilityID: CVE-2024-6923
+    PkgID: libpython3.10@3.10.12-1~22.04.5
+    PkgName: libpython3.10
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libpython3.10@3.10.12-1~22.04.5?arch=amd64&distro=ubuntu-22.04
+      UID: 5180c6f173b92cd8
+    InstalledVersion: 3.10.12-1~22.04.5
+    FixedVersion: 3.10.12-1~22.04.6
+    Status: fixed
+    Layer:
+      Digest: sha256:eb4108e75dc6f8e6fc5a5e04197674c0d9a1dd13ec796f87aff09fd0a4bbd6ca
+      DiffID: sha256:853b5d95f07f5f2e1b0bf3839c45f15d937b8d18ad499f49ad4553075cd9fdf4
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-6923
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'cpython: python: email module doesn''t properly quotes newlines in email headers, allowing header injection'
+    Description: |-
+      There is a MEDIUM severity vulnerability affecting CPython.
+
+      The 
+      email module didn’t properly quote newlines for email headers when 
+      serializing an email message allowing for header injection when an email
+       is serialized.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-94
+    VendorSeverity:
+      alma: 2
+      bitnami: 2
+      oracle-oval: 2
+      photon: 2
+      redhat: 2
+      rocky: 2
+      ubuntu: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:L/I:L/A:L
+        V3Score: 5.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:N
+        V3Score: 6.8
+    References:
+    - https://access.redhat.com/errata/RHSA-2024:6179
+    - https://access.redhat.com/security/cve/CVE-2024-6923
+    - https://bugzilla.redhat.com/2302255
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2302255
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-6923
+    - https://errata.almalinux.org/9/ALSA-2024-6179.html
+    - https://errata.rockylinux.org/RLSA-2024:6146
+    - https://github.com/python/cpython/commit/06f28dc236708f72871c64d4bc4b4ea144c50147
+    - https://github.com/python/cpython/commit/4766d1200fdf8b6728137aa2927a297e224d5fa7
+    - https://github.com/python/cpython/commit/4aaa4259b5a6e664b7316a4d60bdec7ee0f124d0
+    - https://github.com/python/cpython/commit/b158a76ce094897c870fb6b3de62887b7ccc33f1
+    - https://github.com/python/cpython/commit/f7be505d137a22528cb0fc004422c0081d5d90e6
+    - https://github.com/python/cpython/commit/f7c0f09e69e950cf3c5ada9dbde93898eb975533
+    - https://github.com/python/cpython/issues/121650
+    - https://github.com/python/cpython/pull/122233
+    - https://linux.oracle.com/cve/CVE-2024-6923.html
+    - https://linux.oracle.com/errata/ELSA-2024-6975.html
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/QH3BUOE2DYQBWP7NAQ7UNHPPOELKISRW/
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-6923
+    - https://ubuntu.com/security/notices/USN-7015-1
+    - https://www.cve.org/CVERecord?id=CVE-2024-6923
+    PublishedDate: '2024-08-01T14:15:03.647Z'
+    LastModifiedDate: '2024-09-04T21:15:14.567Z'
+  - VulnerabilityID: CVE-2024-8088
+    PkgID: libpython3.10@3.10.12-1~22.04.5
+    PkgName: libpython3.10
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libpython3.10@3.10.12-1~22.04.5?arch=amd64&distro=ubuntu-22.04
+      UID: 5180c6f173b92cd8
+    InstalledVersion: 3.10.12-1~22.04.5
+    FixedVersion: 3.10.12-1~22.04.6
+    Status: fixed
+    Layer:
+      Digest: sha256:eb4108e75dc6f8e6fc5a5e04197674c0d9a1dd13ec796f87aff09fd0a4bbd6ca
+      DiffID: sha256:853b5d95f07f5f2e1b0bf3839c45f15d937b8d18ad499f49ad4553075cd9fdf4
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-8088
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'python: cpython: Iterating over a malicious ZIP file may lead to Denial of Service'
+    Description: |-
+      There is a HIGH severity vulnerability affecting the CPython "zipfile"
+      module affecting "zipfile.Path". Note that the more common API "zipfile.ZipFile" class is unaffected.
+
+
+
+
+
+      When iterating over names of entries in a zip archive (for example, methods
+      of "zipfile.Path" like "namelist()", "iterdir()", etc)
+      the process can be put into an infinite loop with a maliciously crafted
+      zip archive. This defect applies when reading only metadata or extracting
+      the contents of the zip archive. Programs that are not handling
+      user-controlled zip archives are not affected.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-835
+    VendorSeverity:
+      alma: 2
+      cbl-mariner: 3
+      oracle-oval: 2
+      redhat: 2
+      rocky: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 5.3
+    References:
+    - https://access.redhat.com/errata/RHSA-2024:6962
+    - https://access.redhat.com/security/cve/CVE-2024-8088
+    - https://bugzilla.redhat.com/2292921
+    - https://bugzilla.redhat.com/2302255
+    - https://bugzilla.redhat.com/2307370
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2292921
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2302255
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2307370
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-4032
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-6923
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-8088
+    - https://errata.almalinux.org/8/ALSA-2024-6962.html
+    - https://errata.rockylinux.org/RLSA-2024:6962
+    - https://github.com/python/cpython/commit/0aa1ee22ab6e204e9d3d0e9dd63ea648ed691ef1
+    - https://github.com/python/cpython/commit/2231286d78d328c2f575e0b05b16fe447d1656d6
+    - https://github.com/python/cpython/commit/795f2597a4be988e2bb19b69ff9958e981cb894e
+    - https://github.com/python/cpython/commit/7bc367e464ce50b956dd232c1dfa1cad4e7fb814
+    - https://github.com/python/cpython/commit/7e8883a3f04d308302361aeffc73e0e9837f19d4
+    - https://github.com/python/cpython/commit/8c7348939d8a3ecd79d630075f6be1b0c5b41f64
+    - https://github.com/python/cpython/commit/95b073bddefa6243effa08e131e297c0383e7f6a
+    - https://github.com/python/cpython/commit/962055268ed4f2ca1d717bfc8b6385de50a23ab7
+    - https://github.com/python/cpython/commit/dcc5182f27c1500006a1ef78e10613bb45788dea
+    - https://github.com/python/cpython/commit/e0264a61119d551658d9445af38323ba94fc16db
+    - https://github.com/python/cpython/commit/fc0b8259e693caa8400fa8b6ac1e494e47ea7798
+    - https://github.com/python/cpython/issues/122905
+    - https://github.com/python/cpython/issues/123270
+    - https://github.com/python/cpython/pull/122906
+    - https://linux.oracle.com/cve/CVE-2024-8088.html
+    - https://linux.oracle.com/errata/ELSA-2024-6962.html
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/GNFCKVI4TCATKQLALJ5SN4L4CSPSMILU/
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-8088
+    - https://ubuntu.com/security/notices/USN-7015-1
+    - https://www.cve.org/CVERecord?id=CVE-2024-8088
+    PublishedDate: '2024-08-22T19:15:09.72Z'
+    LastModifiedDate: '2024-09-04T23:15:13.1Z'
+  - VulnerabilityID: CVE-2024-7592
+    PkgID: libpython3.10@3.10.12-1~22.04.5
+    PkgName: libpython3.10
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libpython3.10@3.10.12-1~22.04.5?arch=amd64&distro=ubuntu-22.04
+      UID: 5180c6f173b92cd8
+    InstalledVersion: 3.10.12-1~22.04.5
+    FixedVersion: 3.10.12-1~22.04.6
+    Status: fixed
+    Layer:
+      Digest: sha256:eb4108e75dc6f8e6fc5a5e04197674c0d9a1dd13ec796f87aff09fd0a4bbd6ca
+      DiffID: sha256:853b5d95f07f5f2e1b0bf3839c45f15d937b8d18ad499f49ad4553075cd9fdf4
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-7592
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'cpython: python: Uncontrolled CPU resource consumption when in http.cookies module'
+    Description: |-
+      There is a LOW severity vulnerability affecting CPython, specifically the
+      'http.cookies' standard library module.
+
+
+      When parsing cookies that contained backslashes for quoted characters in
+      the cookie value, the parser would use an algorithm with quadratic
+      complexity, resulting in excess CPU resources being used while parsing the
+      value.
+    Severity: LOW
+    CweIDs:
+    - CWE-1333
+    - CWE-400
+    VendorSeverity:
+      azure: 3
+      bitnami: 3
+      cbl-mariner: 3
+      nvd: 3
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 4.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-7592
+    - https://github.com/python/cpython/commit/391e5626e3ee5af267b97e37abc7475732e67621
+    - https://github.com/python/cpython/commit/a77ab24427a18bff817025adb03ca920dc3f1a06
+    - https://github.com/python/cpython/commit/b2f11ca7667e4d57c71c1c88b255115f16042d9a
+    - https://github.com/python/cpython/commit/d4ac921a4b081f7f996a5d2b101684b67ba0ed7f
+    - https://github.com/python/cpython/commit/d662e2db2605515a767f88ad48096b8ac623c774
+    - https://github.com/python/cpython/commit/dcc3eaef98cd94d6cb6cb0f44bd1c903d04f33b1
+    - https://github.com/python/cpython/issues/123067
+    - https://github.com/python/cpython/pull/123075
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/HXJAAAALNUNGCQUS2W7WR6GFIZIHFOOK/
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-7592
+    - https://ubuntu.com/security/notices/USN-7015-1
+    - https://ubuntu.com/security/notices/USN-7015-2
+    - https://www.cve.org/CVERecord?id=CVE-2024-7592
+    PublishedDate: '2024-08-19T19:15:08.18Z'
+    LastModifiedDate: '2024-09-04T21:15:14.643Z'
   - VulnerabilityID: CVE-2023-27043
     PkgID: libpython3.10-minimal@3.10.12-1~22.04.5
     PkgName: libpython3.10-minimal
@@ -2640,7 +3397,8 @@
       PURL: pkg:deb/ubuntu/libpython3.10-minimal@3.10.12-1~22.04.5?arch=amd64&distro=ubuntu-22.04
       UID: 8551ce10019ba333
     InstalledVersion: 3.10.12-1~22.04.5
-    Status: affected
+    FixedVersion: 3.10.12-1~22.04.6
+    Status: fixed
     Layer:
       Digest: sha256:eb4108e75dc6f8e6fc5a5e04197674c0d9a1dd13ec796f87aff09fd0a4bbd6ca
       DiffID: sha256:853b5d95f07f5f2e1b0bf3839c45f15d937b8d18ad499f49ad4553075cd9fdf4
@@ -2712,9 +3470,308 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-27043
     - https://python-security.readthedocs.io/vuln/email-parseaddr-realname.html
     - https://security.netapp.com/advisory/ntap-20230601-0003/
+    - https://ubuntu.com/security/notices/USN-7015-1
+    - https://ubuntu.com/security/notices/USN-7015-3
     - https://www.cve.org/CVERecord?id=CVE-2023-27043
     PublishedDate: '2023-04-19T00:15:07.973Z'
     LastModifiedDate: '2024-02-26T16:27:45.78Z'
+  - VulnerabilityID: CVE-2024-6232
+    PkgID: libpython3.10-minimal@3.10.12-1~22.04.5
+    PkgName: libpython3.10-minimal
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libpython3.10-minimal@3.10.12-1~22.04.5?arch=amd64&distro=ubuntu-22.04
+      UID: 8551ce10019ba333
+    InstalledVersion: 3.10.12-1~22.04.5
+    FixedVersion: 3.10.12-1~22.04.6
+    Status: fixed
+    Layer:
+      Digest: sha256:eb4108e75dc6f8e6fc5a5e04197674c0d9a1dd13ec796f87aff09fd0a4bbd6ca
+      DiffID: sha256:853b5d95f07f5f2e1b0bf3839c45f15d937b8d18ad499f49ad4553075cd9fdf4
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-6232
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'python: cpython: tarfile: ReDos via excessive backtracking while parsing header values'
+    Description: |-
+      There is a MEDIUM severity vulnerability affecting CPython.
+
+
+
+
+
+      Regular expressions that allowed excessive backtracking during tarfile.TarFile header parsing are vulnerable to ReDoS via specifically-crafted tar archives.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-1333
+    VendorSeverity:
+      alma: 2
+      bitnami: 3
+      cbl-mariner: 3
+      nvd: 3
+      oracle-oval: 2
+      redhat: 2
+      rocky: 2
+      ubuntu: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/errata/RHSA-2024:6975
+    - https://access.redhat.com/security/cve/CVE-2024-6232
+    - https://bugzilla.redhat.com/2292921
+    - https://bugzilla.redhat.com/2302255
+    - https://bugzilla.redhat.com/2309426
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2292921
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2302255
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2309426
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-4032
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-6232
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-6923
+    - https://errata.almalinux.org/8/ALSA-2024-6975.html
+    - https://errata.rockylinux.org/RLSA-2024:6975
+    - https://github.com/python/cpython/commit/4eaf4891c12589e3c7bdad5f5b076e4c8392dd06
+    - https://github.com/python/cpython/commit/743acbe872485dc18df4d8ab2dc7895187f062c4
+    - https://github.com/python/cpython/commit/7d1f50cd92ff7e10a1c15a8f591dde8a6843a64d
+    - https://github.com/python/cpython/commit/b4225ca91547aa97ed3aca391614afbb255bc877
+    - https://github.com/python/cpython/commit/d449caf8a179e3b954268b3a88eb9170be3c8fbf
+    - https://github.com/python/cpython/commit/ed3a49ea734ada357ff4442996fd4ae71d253373
+    - https://github.com/python/cpython/issues/121285
+    - https://github.com/python/cpython/pull/121286
+    - https://linux.oracle.com/cve/CVE-2024-6232.html
+    - https://linux.oracle.com/errata/ELSA-2024-6975.html
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/JRYFTPRHZRTLMZLWQEUHZSJXNHM4ACTY/
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-6232
+    - https://ubuntu.com/security/notices/USN-7015-1
+    - https://ubuntu.com/security/notices/USN-7015-2
+    - https://www.cve.org/CVERecord?id=CVE-2024-6232
+    PublishedDate: '2024-09-03T13:15:05.363Z'
+    LastModifiedDate: '2024-09-04T21:15:14.48Z'
+  - VulnerabilityID: CVE-2024-6923
+    PkgID: libpython3.10-minimal@3.10.12-1~22.04.5
+    PkgName: libpython3.10-minimal
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libpython3.10-minimal@3.10.12-1~22.04.5?arch=amd64&distro=ubuntu-22.04
+      UID: 8551ce10019ba333
+    InstalledVersion: 3.10.12-1~22.04.5
+    FixedVersion: 3.10.12-1~22.04.6
+    Status: fixed
+    Layer:
+      Digest: sha256:eb4108e75dc6f8e6fc5a5e04197674c0d9a1dd13ec796f87aff09fd0a4bbd6ca
+      DiffID: sha256:853b5d95f07f5f2e1b0bf3839c45f15d937b8d18ad499f49ad4553075cd9fdf4
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-6923
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'cpython: python: email module doesn''t properly quotes newlines in email headers, allowing header injection'
+    Description: |-
+      There is a MEDIUM severity vulnerability affecting CPython.
+
+      The 
+      email module didn’t properly quote newlines for email headers when 
+      serializing an email message allowing for header injection when an email
+       is serialized.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-94
+    VendorSeverity:
+      alma: 2
+      bitnami: 2
+      oracle-oval: 2
+      photon: 2
+      redhat: 2
+      rocky: 2
+      ubuntu: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:L/I:L/A:L
+        V3Score: 5.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:N
+        V3Score: 6.8
+    References:
+    - https://access.redhat.com/errata/RHSA-2024:6179
+    - https://access.redhat.com/security/cve/CVE-2024-6923
+    - https://bugzilla.redhat.com/2302255
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2302255
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-6923
+    - https://errata.almalinux.org/9/ALSA-2024-6179.html
+    - https://errata.rockylinux.org/RLSA-2024:6146
+    - https://github.com/python/cpython/commit/06f28dc236708f72871c64d4bc4b4ea144c50147
+    - https://github.com/python/cpython/commit/4766d1200fdf8b6728137aa2927a297e224d5fa7
+    - https://github.com/python/cpython/commit/4aaa4259b5a6e664b7316a4d60bdec7ee0f124d0
+    - https://github.com/python/cpython/commit/b158a76ce094897c870fb6b3de62887b7ccc33f1
+    - https://github.com/python/cpython/commit/f7be505d137a22528cb0fc004422c0081d5d90e6
+    - https://github.com/python/cpython/commit/f7c0f09e69e950cf3c5ada9dbde93898eb975533
+    - https://github.com/python/cpython/issues/121650
+    - https://github.com/python/cpython/pull/122233
+    - https://linux.oracle.com/cve/CVE-2024-6923.html
+    - https://linux.oracle.com/errata/ELSA-2024-6975.html
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/QH3BUOE2DYQBWP7NAQ7UNHPPOELKISRW/
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-6923
+    - https://ubuntu.com/security/notices/USN-7015-1
+    - https://www.cve.org/CVERecord?id=CVE-2024-6923
+    PublishedDate: '2024-08-01T14:15:03.647Z'
+    LastModifiedDate: '2024-09-04T21:15:14.567Z'
+  - VulnerabilityID: CVE-2024-8088
+    PkgID: libpython3.10-minimal@3.10.12-1~22.04.5
+    PkgName: libpython3.10-minimal
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libpython3.10-minimal@3.10.12-1~22.04.5?arch=amd64&distro=ubuntu-22.04
+      UID: 8551ce10019ba333
+    InstalledVersion: 3.10.12-1~22.04.5
+    FixedVersion: 3.10.12-1~22.04.6
+    Status: fixed
+    Layer:
+      Digest: sha256:eb4108e75dc6f8e6fc5a5e04197674c0d9a1dd13ec796f87aff09fd0a4bbd6ca
+      DiffID: sha256:853b5d95f07f5f2e1b0bf3839c45f15d937b8d18ad499f49ad4553075cd9fdf4
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-8088
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'python: cpython: Iterating over a malicious ZIP file may lead to Denial of Service'
+    Description: |-
+      There is a HIGH severity vulnerability affecting the CPython "zipfile"
+      module affecting "zipfile.Path". Note that the more common API "zipfile.ZipFile" class is unaffected.
+
+
+
+
+
+      When iterating over names of entries in a zip archive (for example, methods
+      of "zipfile.Path" like "namelist()", "iterdir()", etc)
+      the process can be put into an infinite loop with a maliciously crafted
+      zip archive. This defect applies when reading only metadata or extracting
+      the contents of the zip archive. Programs that are not handling
+      user-controlled zip archives are not affected.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-835
+    VendorSeverity:
+      alma: 2
+      cbl-mariner: 3
+      oracle-oval: 2
+      redhat: 2
+      rocky: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 5.3
+    References:
+    - https://access.redhat.com/errata/RHSA-2024:6962
+    - https://access.redhat.com/security/cve/CVE-2024-8088
+    - https://bugzilla.redhat.com/2292921
+    - https://bugzilla.redhat.com/2302255
+    - https://bugzilla.redhat.com/2307370
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2292921
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2302255
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2307370
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-4032
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-6923
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-8088
+    - https://errata.almalinux.org/8/ALSA-2024-6962.html
+    - https://errata.rockylinux.org/RLSA-2024:6962
+    - https://github.com/python/cpython/commit/0aa1ee22ab6e204e9d3d0e9dd63ea648ed691ef1
+    - https://github.com/python/cpython/commit/2231286d78d328c2f575e0b05b16fe447d1656d6
+    - https://github.com/python/cpython/commit/795f2597a4be988e2bb19b69ff9958e981cb894e
+    - https://github.com/python/cpython/commit/7bc367e464ce50b956dd232c1dfa1cad4e7fb814
+    - https://github.com/python/cpython/commit/7e8883a3f04d308302361aeffc73e0e9837f19d4
+    - https://github.com/python/cpython/commit/8c7348939d8a3ecd79d630075f6be1b0c5b41f64
+    - https://github.com/python/cpython/commit/95b073bddefa6243effa08e131e297c0383e7f6a
+    - https://github.com/python/cpython/commit/962055268ed4f2ca1d717bfc8b6385de50a23ab7
+    - https://github.com/python/cpython/commit/dcc5182f27c1500006a1ef78e10613bb45788dea
+    - https://github.com/python/cpython/commit/e0264a61119d551658d9445af38323ba94fc16db
+    - https://github.com/python/cpython/commit/fc0b8259e693caa8400fa8b6ac1e494e47ea7798
+    - https://github.com/python/cpython/issues/122905
+    - https://github.com/python/cpython/issues/123270
+    - https://github.com/python/cpython/pull/122906
+    - https://linux.oracle.com/cve/CVE-2024-8088.html
+    - https://linux.oracle.com/errata/ELSA-2024-6962.html
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/GNFCKVI4TCATKQLALJ5SN4L4CSPSMILU/
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-8088
+    - https://ubuntu.com/security/notices/USN-7015-1
+    - https://www.cve.org/CVERecord?id=CVE-2024-8088
+    PublishedDate: '2024-08-22T19:15:09.72Z'
+    LastModifiedDate: '2024-09-04T23:15:13.1Z'
+  - VulnerabilityID: CVE-2024-7592
+    PkgID: libpython3.10-minimal@3.10.12-1~22.04.5
+    PkgName: libpython3.10-minimal
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libpython3.10-minimal@3.10.12-1~22.04.5?arch=amd64&distro=ubuntu-22.04
+      UID: 8551ce10019ba333
+    InstalledVersion: 3.10.12-1~22.04.5
+    FixedVersion: 3.10.12-1~22.04.6
+    Status: fixed
+    Layer:
+      Digest: sha256:eb4108e75dc6f8e6fc5a5e04197674c0d9a1dd13ec796f87aff09fd0a4bbd6ca
+      DiffID: sha256:853b5d95f07f5f2e1b0bf3839c45f15d937b8d18ad499f49ad4553075cd9fdf4
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-7592
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'cpython: python: Uncontrolled CPU resource consumption when in http.cookies module'
+    Description: |-
+      There is a LOW severity vulnerability affecting CPython, specifically the
+      'http.cookies' standard library module.
+
+
+      When parsing cookies that contained backslashes for quoted characters in
+      the cookie value, the parser would use an algorithm with quadratic
+      complexity, resulting in excess CPU resources being used while parsing the
+      value.
+    Severity: LOW
+    CweIDs:
+    - CWE-1333
+    - CWE-400
+    VendorSeverity:
+      azure: 3
+      bitnami: 3
+      cbl-mariner: 3
+      nvd: 3
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 4.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-7592
+    - https://github.com/python/cpython/commit/391e5626e3ee5af267b97e37abc7475732e67621
+    - https://github.com/python/cpython/commit/a77ab24427a18bff817025adb03ca920dc3f1a06
+    - https://github.com/python/cpython/commit/b2f11ca7667e4d57c71c1c88b255115f16042d9a
+    - https://github.com/python/cpython/commit/d4ac921a4b081f7f996a5d2b101684b67ba0ed7f
+    - https://github.com/python/cpython/commit/d662e2db2605515a767f88ad48096b8ac623c774
+    - https://github.com/python/cpython/commit/dcc3eaef98cd94d6cb6cb0f44bd1c903d04f33b1
+    - https://github.com/python/cpython/issues/123067
+    - https://github.com/python/cpython/pull/123075
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/HXJAAAALNUNGCQUS2W7WR6GFIZIHFOOK/
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-7592
+    - https://ubuntu.com/security/notices/USN-7015-1
+    - https://ubuntu.com/security/notices/USN-7015-2
+    - https://www.cve.org/CVERecord?id=CVE-2024-7592
+    PublishedDate: '2024-08-19T19:15:08.18Z'
+    LastModifiedDate: '2024-09-04T21:15:14.643Z'
   - VulnerabilityID: CVE-2023-27043
     PkgID: libpython3.10-stdlib@3.10.12-1~22.04.5
     PkgName: libpython3.10-stdlib
@@ -2722,7 +3779,8 @@
       PURL: pkg:deb/ubuntu/libpython3.10-stdlib@3.10.12-1~22.04.5?arch=amd64&distro=ubuntu-22.04
       UID: 94efb54ef51eff75
     InstalledVersion: 3.10.12-1~22.04.5
-    Status: affected
+    FixedVersion: 3.10.12-1~22.04.6
+    Status: fixed
     Layer:
       Digest: sha256:eb4108e75dc6f8e6fc5a5e04197674c0d9a1dd13ec796f87aff09fd0a4bbd6ca
       DiffID: sha256:853b5d95f07f5f2e1b0bf3839c45f15d937b8d18ad499f49ad4553075cd9fdf4
@@ -2794,9 +3852,308 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-27043
     - https://python-security.readthedocs.io/vuln/email-parseaddr-realname.html
     - https://security.netapp.com/advisory/ntap-20230601-0003/
+    - https://ubuntu.com/security/notices/USN-7015-1
+    - https://ubuntu.com/security/notices/USN-7015-3
     - https://www.cve.org/CVERecord?id=CVE-2023-27043
     PublishedDate: '2023-04-19T00:15:07.973Z'
     LastModifiedDate: '2024-02-26T16:27:45.78Z'
+  - VulnerabilityID: CVE-2024-6232
+    PkgID: libpython3.10-stdlib@3.10.12-1~22.04.5
+    PkgName: libpython3.10-stdlib
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libpython3.10-stdlib@3.10.12-1~22.04.5?arch=amd64&distro=ubuntu-22.04
+      UID: 94efb54ef51eff75
+    InstalledVersion: 3.10.12-1~22.04.5
+    FixedVersion: 3.10.12-1~22.04.6
+    Status: fixed
+    Layer:
+      Digest: sha256:eb4108e75dc6f8e6fc5a5e04197674c0d9a1dd13ec796f87aff09fd0a4bbd6ca
+      DiffID: sha256:853b5d95f07f5f2e1b0bf3839c45f15d937b8d18ad499f49ad4553075cd9fdf4
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-6232
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'python: cpython: tarfile: ReDos via excessive backtracking while parsing header values'
+    Description: |-
+      There is a MEDIUM severity vulnerability affecting CPython.
+
+
+
+
+
+      Regular expressions that allowed excessive backtracking during tarfile.TarFile header parsing are vulnerable to ReDoS via specifically-crafted tar archives.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-1333
+    VendorSeverity:
+      alma: 2
+      bitnami: 3
+      cbl-mariner: 3
+      nvd: 3
+      oracle-oval: 2
+      redhat: 2
+      rocky: 2
+      ubuntu: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/errata/RHSA-2024:6975
+    - https://access.redhat.com/security/cve/CVE-2024-6232
+    - https://bugzilla.redhat.com/2292921
+    - https://bugzilla.redhat.com/2302255
+    - https://bugzilla.redhat.com/2309426
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2292921
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2302255
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2309426
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-4032
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-6232
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-6923
+    - https://errata.almalinux.org/8/ALSA-2024-6975.html
+    - https://errata.rockylinux.org/RLSA-2024:6975
+    - https://github.com/python/cpython/commit/4eaf4891c12589e3c7bdad5f5b076e4c8392dd06
+    - https://github.com/python/cpython/commit/743acbe872485dc18df4d8ab2dc7895187f062c4
+    - https://github.com/python/cpython/commit/7d1f50cd92ff7e10a1c15a8f591dde8a6843a64d
+    - https://github.com/python/cpython/commit/b4225ca91547aa97ed3aca391614afbb255bc877
+    - https://github.com/python/cpython/commit/d449caf8a179e3b954268b3a88eb9170be3c8fbf
+    - https://github.com/python/cpython/commit/ed3a49ea734ada357ff4442996fd4ae71d253373
+    - https://github.com/python/cpython/issues/121285
+    - https://github.com/python/cpython/pull/121286
+    - https://linux.oracle.com/cve/CVE-2024-6232.html
+    - https://linux.oracle.com/errata/ELSA-2024-6975.html
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/JRYFTPRHZRTLMZLWQEUHZSJXNHM4ACTY/
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-6232
+    - https://ubuntu.com/security/notices/USN-7015-1
+    - https://ubuntu.com/security/notices/USN-7015-2
+    - https://www.cve.org/CVERecord?id=CVE-2024-6232
+    PublishedDate: '2024-09-03T13:15:05.363Z'
+    LastModifiedDate: '2024-09-04T21:15:14.48Z'
+  - VulnerabilityID: CVE-2024-6923
+    PkgID: libpython3.10-stdlib@3.10.12-1~22.04.5
+    PkgName: libpython3.10-stdlib
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libpython3.10-stdlib@3.10.12-1~22.04.5?arch=amd64&distro=ubuntu-22.04
+      UID: 94efb54ef51eff75
+    InstalledVersion: 3.10.12-1~22.04.5
+    FixedVersion: 3.10.12-1~22.04.6
+    Status: fixed
+    Layer:
+      Digest: sha256:eb4108e75dc6f8e6fc5a5e04197674c0d9a1dd13ec796f87aff09fd0a4bbd6ca
+      DiffID: sha256:853b5d95f07f5f2e1b0bf3839c45f15d937b8d18ad499f49ad4553075cd9fdf4
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-6923
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'cpython: python: email module doesn''t properly quotes newlines in email headers, allowing header injection'
+    Description: |-
+      There is a MEDIUM severity vulnerability affecting CPython.
+
+      The 
+      email module didn’t properly quote newlines for email headers when 
+      serializing an email message allowing for header injection when an email
+       is serialized.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-94
+    VendorSeverity:
+      alma: 2
+      bitnami: 2
+      oracle-oval: 2
+      photon: 2
+      redhat: 2
+      rocky: 2
+      ubuntu: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:L/I:L/A:L
+        V3Score: 5.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:N
+        V3Score: 6.8
+    References:
+    - https://access.redhat.com/errata/RHSA-2024:6179
+    - https://access.redhat.com/security/cve/CVE-2024-6923
+    - https://bugzilla.redhat.com/2302255
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2302255
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-6923
+    - https://errata.almalinux.org/9/ALSA-2024-6179.html
+    - https://errata.rockylinux.org/RLSA-2024:6146
+    - https://github.com/python/cpython/commit/06f28dc236708f72871c64d4bc4b4ea144c50147
+    - https://github.com/python/cpython/commit/4766d1200fdf8b6728137aa2927a297e224d5fa7
+    - https://github.com/python/cpython/commit/4aaa4259b5a6e664b7316a4d60bdec7ee0f124d0
+    - https://github.com/python/cpython/commit/b158a76ce094897c870fb6b3de62887b7ccc33f1
+    - https://github.com/python/cpython/commit/f7be505d137a22528cb0fc004422c0081d5d90e6
+    - https://github.com/python/cpython/commit/f7c0f09e69e950cf3c5ada9dbde93898eb975533
+    - https://github.com/python/cpython/issues/121650
+    - https://github.com/python/cpython/pull/122233
+    - https://linux.oracle.com/cve/CVE-2024-6923.html
+    - https://linux.oracle.com/errata/ELSA-2024-6975.html
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/QH3BUOE2DYQBWP7NAQ7UNHPPOELKISRW/
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-6923
+    - https://ubuntu.com/security/notices/USN-7015-1
+    - https://www.cve.org/CVERecord?id=CVE-2024-6923
+    PublishedDate: '2024-08-01T14:15:03.647Z'
+    LastModifiedDate: '2024-09-04T21:15:14.567Z'
+  - VulnerabilityID: CVE-2024-8088
+    PkgID: libpython3.10-stdlib@3.10.12-1~22.04.5
+    PkgName: libpython3.10-stdlib
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libpython3.10-stdlib@3.10.12-1~22.04.5?arch=amd64&distro=ubuntu-22.04
+      UID: 94efb54ef51eff75
+    InstalledVersion: 3.10.12-1~22.04.5
+    FixedVersion: 3.10.12-1~22.04.6
+    Status: fixed
+    Layer:
+      Digest: sha256:eb4108e75dc6f8e6fc5a5e04197674c0d9a1dd13ec796f87aff09fd0a4bbd6ca
+      DiffID: sha256:853b5d95f07f5f2e1b0bf3839c45f15d937b8d18ad499f49ad4553075cd9fdf4
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-8088
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'python: cpython: Iterating over a malicious ZIP file may lead to Denial of Service'
+    Description: |-
+      There is a HIGH severity vulnerability affecting the CPython "zipfile"
+      module affecting "zipfile.Path". Note that the more common API "zipfile.ZipFile" class is unaffected.
+
+
+
+
+
+      When iterating over names of entries in a zip archive (for example, methods
+      of "zipfile.Path" like "namelist()", "iterdir()", etc)
+      the process can be put into an infinite loop with a maliciously crafted
+      zip archive. This defect applies when reading only metadata or extracting
+      the contents of the zip archive. Programs that are not handling
+      user-controlled zip archives are not affected.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-835
+    VendorSeverity:
+      alma: 2
+      cbl-mariner: 3
+      oracle-oval: 2
+      redhat: 2
+      rocky: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 5.3
+    References:
+    - https://access.redhat.com/errata/RHSA-2024:6962
+    - https://access.redhat.com/security/cve/CVE-2024-8088
+    - https://bugzilla.redhat.com/2292921
+    - https://bugzilla.redhat.com/2302255
+    - https://bugzilla.redhat.com/2307370
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2292921
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2302255
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2307370
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-4032
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-6923
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-8088
+    - https://errata.almalinux.org/8/ALSA-2024-6962.html
+    - https://errata.rockylinux.org/RLSA-2024:6962
+    - https://github.com/python/cpython/commit/0aa1ee22ab6e204e9d3d0e9dd63ea648ed691ef1
+    - https://github.com/python/cpython/commit/2231286d78d328c2f575e0b05b16fe447d1656d6
+    - https://github.com/python/cpython/commit/795f2597a4be988e2bb19b69ff9958e981cb894e
+    - https://github.com/python/cpython/commit/7bc367e464ce50b956dd232c1dfa1cad4e7fb814
+    - https://github.com/python/cpython/commit/7e8883a3f04d308302361aeffc73e0e9837f19d4
+    - https://github.com/python/cpython/commit/8c7348939d8a3ecd79d630075f6be1b0c5b41f64
+    - https://github.com/python/cpython/commit/95b073bddefa6243effa08e131e297c0383e7f6a
+    - https://github.com/python/cpython/commit/962055268ed4f2ca1d717bfc8b6385de50a23ab7
+    - https://github.com/python/cpython/commit/dcc5182f27c1500006a1ef78e10613bb45788dea
+    - https://github.com/python/cpython/commit/e0264a61119d551658d9445af38323ba94fc16db
+    - https://github.com/python/cpython/commit/fc0b8259e693caa8400fa8b6ac1e494e47ea7798
+    - https://github.com/python/cpython/issues/122905
+    - https://github.com/python/cpython/issues/123270
+    - https://github.com/python/cpython/pull/122906
+    - https://linux.oracle.com/cve/CVE-2024-8088.html
+    - https://linux.oracle.com/errata/ELSA-2024-6962.html
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/GNFCKVI4TCATKQLALJ5SN4L4CSPSMILU/
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-8088
+    - https://ubuntu.com/security/notices/USN-7015-1
+    - https://www.cve.org/CVERecord?id=CVE-2024-8088
+    PublishedDate: '2024-08-22T19:15:09.72Z'
+    LastModifiedDate: '2024-09-04T23:15:13.1Z'
+  - VulnerabilityID: CVE-2024-7592
+    PkgID: libpython3.10-stdlib@3.10.12-1~22.04.5
+    PkgName: libpython3.10-stdlib
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libpython3.10-stdlib@3.10.12-1~22.04.5?arch=amd64&distro=ubuntu-22.04
+      UID: 94efb54ef51eff75
+    InstalledVersion: 3.10.12-1~22.04.5
+    FixedVersion: 3.10.12-1~22.04.6
+    Status: fixed
+    Layer:
+      Digest: sha256:eb4108e75dc6f8e6fc5a5e04197674c0d9a1dd13ec796f87aff09fd0a4bbd6ca
+      DiffID: sha256:853b5d95f07f5f2e1b0bf3839c45f15d937b8d18ad499f49ad4553075cd9fdf4
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-7592
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'cpython: python: Uncontrolled CPU resource consumption when in http.cookies module'
+    Description: |-
+      There is a LOW severity vulnerability affecting CPython, specifically the
+      'http.cookies' standard library module.
+
+
+      When parsing cookies that contained backslashes for quoted characters in
+      the cookie value, the parser would use an algorithm with quadratic
+      complexity, resulting in excess CPU resources being used while parsing the
+      value.
+    Severity: LOW
+    CweIDs:
+    - CWE-1333
+    - CWE-400
+    VendorSeverity:
+      azure: 3
+      bitnami: 3
+      cbl-mariner: 3
+      nvd: 3
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 4.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-7592
+    - https://github.com/python/cpython/commit/391e5626e3ee5af267b97e37abc7475732e67621
+    - https://github.com/python/cpython/commit/a77ab24427a18bff817025adb03ca920dc3f1a06
+    - https://github.com/python/cpython/commit/b2f11ca7667e4d57c71c1c88b255115f16042d9a
+    - https://github.com/python/cpython/commit/d4ac921a4b081f7f996a5d2b101684b67ba0ed7f
+    - https://github.com/python/cpython/commit/d662e2db2605515a767f88ad48096b8ac623c774
+    - https://github.com/python/cpython/commit/dcc3eaef98cd94d6cb6cb0f44bd1c903d04f33b1
+    - https://github.com/python/cpython/issues/123067
+    - https://github.com/python/cpython/pull/123075
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/HXJAAAALNUNGCQUS2W7WR6GFIZIHFOOK/
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-7592
+    - https://ubuntu.com/security/notices/USN-7015-1
+    - https://ubuntu.com/security/notices/USN-7015-2
+    - https://www.cve.org/CVERecord?id=CVE-2024-7592
+    PublishedDate: '2024-08-19T19:15:08.18Z'
+    LastModifiedDate: '2024-09-04T21:15:14.643Z'
   - VulnerabilityID: CVE-2024-41996
     PkgID: libssl3@3.0.2-0ubuntu1.18
     PkgName: libssl3
@@ -2816,12 +4173,12 @@
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Title: 'openssl: remote attackers (from the client side) to trigger unnecessarily expensive server-side DHE modular-exponentiation calculations'
     Description: Validating the order of the public keys in the Diffie-Hellman Key Agreement Protocol, when an approved safe prime is used, allows remote attackers (from the client side) to trigger unnecessarily expensive server-side DHE modular-exponentiation calculations. The client may cause asymmetric resource consumption. The basic attack scenario is that the client must claim that it can only communicate with DHE, and the server must be configured to allow DHE and validate the order of the public key.
-    Severity: MEDIUM
+    Severity: LOW
     CweIDs:
     - CWE-295
     VendorSeverity:
-      redhat: 2
-      ubuntu: 2
+      redhat: 1
+      ubuntu: 1
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
@@ -2832,11 +4189,80 @@
     - https://dheatattack.gitlab.io/faq/
     - https://gist.github.com/c0r0n3r/abccc14d4d96c0442f3a77fa5ca255d1
     - https://github.com/openssl/openssl/issues/17374
+    - https://github.com/openssl/openssl/pull/25088
     - https://nvd.nist.gov/vuln/detail/CVE-2024-41996
     - https://openssl-library.org/post/2022-10-21-tls-groups-configuration/
     - https://www.cve.org/CVERecord?id=CVE-2024-41996
     PublishedDate: '2024-08-26T06:15:04.603Z'
     LastModifiedDate: '2024-08-26T16:35:11.247Z'
+  - VulnerabilityID: CVE-2023-4039
+    PkgID: libstdc++6@12.3.0-1ubuntu1~22.04
+    PkgName: libstdc++6
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libstdc%2B%2B6@12.3.0-1ubuntu1~22.04?arch=amd64&distro=ubuntu-22.04
+      UID: e1023378c51f6cb
+    InstalledVersion: 12.3.0-1ubuntu1~22.04
+    Status: affected
+    Layer:
+      Digest: sha256:eb4108e75dc6f8e6fc5a5e04197674c0d9a1dd13ec796f87aff09fd0a4bbd6ca
+      DiffID: sha256:853b5d95f07f5f2e1b0bf3839c45f15d937b8d18ad499f49ad4553075cd9fdf4
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-4039
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'gcc: -fstack-protector fails to guard dynamic stack allocations on ARM64'
+    Description: |+
+
+
+      **DISPUTED**A failure in the -fstack-protector feature in GCC-based toolchains 
+      that target AArch64 allows an attacker to exploit an existing buffer 
+      overflow in dynamically-sized local variables in your application 
+      without this being detected. This stack-protector failure only applies 
+      to C99-style dynamically-sized local variables or those created using 
+      alloca(). The stack-protector operates as intended for statically-sized 
+      local variables.
+
+      The default behavior when the stack-protector 
+      detects an overflow is to terminate your application, resulting in 
+      controlled loss of availability. An attacker who can exploit a buffer 
+      overflow without triggering the stack-protector might be able to change 
+      program flow control to cause an uncontrolled loss of availability or to
+       go further and affect confidentiality or integrity. NOTE: The GCC project argues that this is a missed hardening bug and not a vulnerability by itself.
+
+
+
+
+
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-693
+    VendorSeverity:
+      amazon: 2
+      azure: 2
+      cbl-mariner: 2
+      nvd: 2
+      oracle-oval: 1
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N
+        V3Score: 4.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-4039
+    - https://developer.arm.com/Arm%20Security%20Center/GCC%20Stack%20Protector%20Vulnerability%20AArch64
+    - https://gcc.gnu.org/git/?p=gcc.git;a=blob_plain;f=SECURITY.txt
+    - https://gcc.gnu.org/pipermail/gcc-patches/2023-October/634066.html
+    - https://github.com/metaredteam/external-disclosures/security/advisories/GHSA-x7ch-h5rf-w2mf
+    - https://inbox.sourceware.org/gcc-patches/46cfa37b-56eb-344d-0745-e0d35393392d@gotplt.org
+    - https://linux.oracle.com/cve/CVE-2023-4039.html
+    - https://linux.oracle.com/errata/ELSA-2023-28766.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-4039
+    - https://rtx.meta.security/mitigation/2023/09/12/CVE-2023-4039.html
+    - https://www.cve.org/CVERecord?id=CVE-2023-4039
+    PublishedDate: '2023-09-13T09:15:15.69Z'
+    LastModifiedDate: '2024-08-02T08:15:14.993Z'
   - VulnerabilityID: CVE-2022-27943
     PkgID: libstdc++6@12.3.0-1ubuntu1~22.04
     PkgName: libstdc++6
@@ -2937,12 +4363,10 @@
     - https://github.com/systemd/systemd/issues/25676
     - https://linux.oracle.com/cve/CVE-2023-7008.html
     - https://linux.oracle.com/errata/ELSA-2024-3203.html
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4GMDEG5PKONWNHOEYSUDRT6JEOISRMN2/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QHNBXGKJWISJETTTDTZKTBFIBJUOSLKL/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-7008
     - https://www.cve.org/CVERecord?id=CVE-2023-7008
     PublishedDate: '2023-12-23T13:15:07.573Z'
-    LastModifiedDate: '2024-05-22T17:16:10.83Z'
+    LastModifiedDate: '2024-09-16T17:16:02.17Z'
   - VulnerabilityID: CVE-2024-7006
     PkgID: libtiff5@4.3.0-6ubuntu0.9
     PkgName: libtiff5
@@ -2950,7 +4374,8 @@
       PURL: pkg:deb/ubuntu/libtiff5@4.3.0-6ubuntu0.9?arch=amd64&distro=ubuntu-22.04
       UID: 18abaff0d350634a
     InstalledVersion: 4.3.0-6ubuntu0.9
-    Status: affected
+    FixedVersion: 4.3.0-6ubuntu0.10
+    Status: fixed
     Layer:
       Digest: sha256:eb4108e75dc6f8e6fc5a5e04197674c0d9a1dd13ec796f87aff09fd0a4bbd6ca
       DiffID: sha256:853b5d95f07f5f2e1b0bf3839c45f15d937b8d18ad499f49ad4553075cd9fdf4
@@ -2966,6 +4391,7 @@
     CweIDs:
     - CWE-476
     VendorSeverity:
+      amazon: 2
       azure: 3
       cbl-mariner: 3
       nvd: 3
@@ -2985,6 +4411,8 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2302996
     - https://gitlab.com/libtiff/libtiff/-/merge_requests/559
     - https://nvd.nist.gov/vuln/detail/CVE-2024-7006
+    - https://ubuntu.com/security/notices/USN-6997-1
+    - https://ubuntu.com/security/notices/USN-6997-2
     - https://www.cve.org/CVERecord?id=CVE-2024-7006
     PublishedDate: '2024-08-12T13:38:40.577Z'
     LastModifiedDate: '2024-09-06T17:15:17.387Z'
@@ -3143,12 +4571,10 @@
     - https://github.com/systemd/systemd/issues/25676
     - https://linux.oracle.com/cve/CVE-2023-7008.html
     - https://linux.oracle.com/errata/ELSA-2024-3203.html
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4GMDEG5PKONWNHOEYSUDRT6JEOISRMN2/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QHNBXGKJWISJETTTDTZKTBFIBJUOSLKL/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-7008
     - https://www.cve.org/CVERecord?id=CVE-2023-7008
     PublishedDate: '2023-12-23T13:15:07.573Z'
-    LastModifiedDate: '2024-05-22T17:16:10.83Z'
+    LastModifiedDate: '2024-09-16T17:16:02.17Z'
   - VulnerabilityID: CVE-2022-4899
     PkgID: libzstd1@1.4.8+dfsg-3build1
     PkgName: libzstd1
@@ -3577,7 +5003,8 @@
       PURL: pkg:deb/ubuntu/nginx@1.18.0-6ubuntu14.4?arch=amd64&distro=ubuntu-22.04
       UID: babe1c395023c3ca
     InstalledVersion: 1.18.0-6ubuntu14.4
-    Status: affected
+    FixedVersion: 1.18.0-6ubuntu14.5
+    Status: fixed
     Layer:
       Digest: sha256:eb4108e75dc6f8e6fc5a5e04197674c0d9a1dd13ec796f87aff09fd0a4bbd6ca
       DiffID: sha256:853b5d95f07f5f2e1b0bf3839c45f15d937b8d18ad499f49ad4553075cd9fdf4
@@ -3616,6 +5043,7 @@
     - https://forum.nginx.org/read.php?27,300027
     - https://my.f5.com/manage/s/article/K000140529
     - https://nvd.nist.gov/vuln/detail/CVE-2024-7347
+    - https://ubuntu.com/security/notices/USN-7014-1
     - https://www.cve.org/CVERecord?id=CVE-2024-7347
     PublishedDate: '2024-08-14T15:15:31.87Z'
     LastModifiedDate: '2024-08-20T19:25:17.513Z'
@@ -3626,7 +5054,8 @@
       PURL: pkg:deb/ubuntu/nginx-common@1.18.0-6ubuntu14.4?arch=all&distro=ubuntu-22.04
       UID: e691658a6e0cca79
     InstalledVersion: 1.18.0-6ubuntu14.4
-    Status: affected
+    FixedVersion: 1.18.0-6ubuntu14.5
+    Status: fixed
     Layer:
       Digest: sha256:eb4108e75dc6f8e6fc5a5e04197674c0d9a1dd13ec796f87aff09fd0a4bbd6ca
       DiffID: sha256:853b5d95f07f5f2e1b0bf3839c45f15d937b8d18ad499f49ad4553075cd9fdf4
@@ -3665,6 +5094,7 @@
     - https://forum.nginx.org/read.php?27,300027
     - https://my.f5.com/manage/s/article/K000140529
     - https://nvd.nist.gov/vuln/detail/CVE-2024-7347
+    - https://ubuntu.com/security/notices/USN-7014-1
     - https://www.cve.org/CVERecord?id=CVE-2024-7347
     PublishedDate: '2024-08-14T15:15:31.87Z'
     LastModifiedDate: '2024-08-20T19:25:17.513Z'
@@ -3675,7 +5105,8 @@
       PURL: pkg:deb/ubuntu/nginx-core@1.18.0-6ubuntu14.4?arch=amd64&distro=ubuntu-22.04
       UID: 6b79329858a272c3
     InstalledVersion: 1.18.0-6ubuntu14.4
-    Status: affected
+    FixedVersion: 1.18.0-6ubuntu14.5
+    Status: fixed
     Layer:
       Digest: sha256:eb4108e75dc6f8e6fc5a5e04197674c0d9a1dd13ec796f87aff09fd0a4bbd6ca
       DiffID: sha256:853b5d95f07f5f2e1b0bf3839c45f15d937b8d18ad499f49ad4553075cd9fdf4
@@ -3714,6 +5145,7 @@
     - https://forum.nginx.org/read.php?27,300027
     - https://my.f5.com/manage/s/article/K000140529
     - https://nvd.nist.gov/vuln/detail/CVE-2024-7347
+    - https://ubuntu.com/security/notices/USN-7014-1
     - https://www.cve.org/CVERecord?id=CVE-2024-7347
     PublishedDate: '2024-08-14T15:15:31.87Z'
     LastModifiedDate: '2024-08-20T19:25:17.513Z'
@@ -3736,12 +5168,12 @@
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Title: 'openssl: remote attackers (from the client side) to trigger unnecessarily expensive server-side DHE modular-exponentiation calculations'
     Description: Validating the order of the public keys in the Diffie-Hellman Key Agreement Protocol, when an approved safe prime is used, allows remote attackers (from the client side) to trigger unnecessarily expensive server-side DHE modular-exponentiation calculations. The client may cause asymmetric resource consumption. The basic attack scenario is that the client must claim that it can only communicate with DHE, and the server must be configured to allow DHE and validate the order of the public key.
-    Severity: MEDIUM
+    Severity: LOW
     CweIDs:
     - CWE-295
     VendorSeverity:
-      redhat: 2
-      ubuntu: 2
+      redhat: 1
+      ubuntu: 1
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
@@ -3752,6 +5184,7 @@
     - https://dheatattack.gitlab.io/faq/
     - https://gist.github.com/c0r0n3r/abccc14d4d96c0442f3a77fa5ca255d1
     - https://github.com/openssl/openssl/issues/17374
+    - https://github.com/openssl/openssl/pull/25088
     - https://nvd.nist.gov/vuln/detail/CVE-2024-41996
     - https://openssl-library.org/post/2022-10-21-tls-groups-configuration/
     - https://www.cve.org/CVERecord?id=CVE-2024-41996
@@ -3808,7 +5241,8 @@
       PURL: pkg:deb/ubuntu/python3.10@3.10.12-1~22.04.5?arch=amd64&distro=ubuntu-22.04
       UID: 614e929f50047f8e
     InstalledVersion: 3.10.12-1~22.04.5
-    Status: affected
+    FixedVersion: 3.10.12-1~22.04.6
+    Status: fixed
     Layer:
       Digest: sha256:eb4108e75dc6f8e6fc5a5e04197674c0d9a1dd13ec796f87aff09fd0a4bbd6ca
       DiffID: sha256:853b5d95f07f5f2e1b0bf3839c45f15d937b8d18ad499f49ad4553075cd9fdf4
@@ -3880,9 +5314,308 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-27043
     - https://python-security.readthedocs.io/vuln/email-parseaddr-realname.html
     - https://security.netapp.com/advisory/ntap-20230601-0003/
+    - https://ubuntu.com/security/notices/USN-7015-1
+    - https://ubuntu.com/security/notices/USN-7015-3
     - https://www.cve.org/CVERecord?id=CVE-2023-27043
     PublishedDate: '2023-04-19T00:15:07.973Z'
     LastModifiedDate: '2024-02-26T16:27:45.78Z'
+  - VulnerabilityID: CVE-2024-6232
+    PkgID: python3.10@3.10.12-1~22.04.5
+    PkgName: python3.10
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/python3.10@3.10.12-1~22.04.5?arch=amd64&distro=ubuntu-22.04
+      UID: 614e929f50047f8e
+    InstalledVersion: 3.10.12-1~22.04.5
+    FixedVersion: 3.10.12-1~22.04.6
+    Status: fixed
+    Layer:
+      Digest: sha256:eb4108e75dc6f8e6fc5a5e04197674c0d9a1dd13ec796f87aff09fd0a4bbd6ca
+      DiffID: sha256:853b5d95f07f5f2e1b0bf3839c45f15d937b8d18ad499f49ad4553075cd9fdf4
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-6232
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'python: cpython: tarfile: ReDos via excessive backtracking while parsing header values'
+    Description: |-
+      There is a MEDIUM severity vulnerability affecting CPython.
+
+
+
+
+
+      Regular expressions that allowed excessive backtracking during tarfile.TarFile header parsing are vulnerable to ReDoS via specifically-crafted tar archives.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-1333
+    VendorSeverity:
+      alma: 2
+      bitnami: 3
+      cbl-mariner: 3
+      nvd: 3
+      oracle-oval: 2
+      redhat: 2
+      rocky: 2
+      ubuntu: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/errata/RHSA-2024:6975
+    - https://access.redhat.com/security/cve/CVE-2024-6232
+    - https://bugzilla.redhat.com/2292921
+    - https://bugzilla.redhat.com/2302255
+    - https://bugzilla.redhat.com/2309426
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2292921
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2302255
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2309426
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-4032
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-6232
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-6923
+    - https://errata.almalinux.org/8/ALSA-2024-6975.html
+    - https://errata.rockylinux.org/RLSA-2024:6975
+    - https://github.com/python/cpython/commit/4eaf4891c12589e3c7bdad5f5b076e4c8392dd06
+    - https://github.com/python/cpython/commit/743acbe872485dc18df4d8ab2dc7895187f062c4
+    - https://github.com/python/cpython/commit/7d1f50cd92ff7e10a1c15a8f591dde8a6843a64d
+    - https://github.com/python/cpython/commit/b4225ca91547aa97ed3aca391614afbb255bc877
+    - https://github.com/python/cpython/commit/d449caf8a179e3b954268b3a88eb9170be3c8fbf
+    - https://github.com/python/cpython/commit/ed3a49ea734ada357ff4442996fd4ae71d253373
+    - https://github.com/python/cpython/issues/121285
+    - https://github.com/python/cpython/pull/121286
+    - https://linux.oracle.com/cve/CVE-2024-6232.html
+    - https://linux.oracle.com/errata/ELSA-2024-6975.html
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/JRYFTPRHZRTLMZLWQEUHZSJXNHM4ACTY/
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-6232
+    - https://ubuntu.com/security/notices/USN-7015-1
+    - https://ubuntu.com/security/notices/USN-7015-2
+    - https://www.cve.org/CVERecord?id=CVE-2024-6232
+    PublishedDate: '2024-09-03T13:15:05.363Z'
+    LastModifiedDate: '2024-09-04T21:15:14.48Z'
+  - VulnerabilityID: CVE-2024-6923
+    PkgID: python3.10@3.10.12-1~22.04.5
+    PkgName: python3.10
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/python3.10@3.10.12-1~22.04.5?arch=amd64&distro=ubuntu-22.04
+      UID: 614e929f50047f8e
+    InstalledVersion: 3.10.12-1~22.04.5
+    FixedVersion: 3.10.12-1~22.04.6
+    Status: fixed
+    Layer:
+      Digest: sha256:eb4108e75dc6f8e6fc5a5e04197674c0d9a1dd13ec796f87aff09fd0a4bbd6ca
+      DiffID: sha256:853b5d95f07f5f2e1b0bf3839c45f15d937b8d18ad499f49ad4553075cd9fdf4
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-6923
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'cpython: python: email module doesn''t properly quotes newlines in email headers, allowing header injection'
+    Description: |-
+      There is a MEDIUM severity vulnerability affecting CPython.
+
+      The 
+      email module didn’t properly quote newlines for email headers when 
+      serializing an email message allowing for header injection when an email
+       is serialized.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-94
+    VendorSeverity:
+      alma: 2
+      bitnami: 2
+      oracle-oval: 2
+      photon: 2
+      redhat: 2
+      rocky: 2
+      ubuntu: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:L/I:L/A:L
+        V3Score: 5.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:N
+        V3Score: 6.8
+    References:
+    - https://access.redhat.com/errata/RHSA-2024:6179
+    - https://access.redhat.com/security/cve/CVE-2024-6923
+    - https://bugzilla.redhat.com/2302255
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2302255
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-6923
+    - https://errata.almalinux.org/9/ALSA-2024-6179.html
+    - https://errata.rockylinux.org/RLSA-2024:6146
+    - https://github.com/python/cpython/commit/06f28dc236708f72871c64d4bc4b4ea144c50147
+    - https://github.com/python/cpython/commit/4766d1200fdf8b6728137aa2927a297e224d5fa7
+    - https://github.com/python/cpython/commit/4aaa4259b5a6e664b7316a4d60bdec7ee0f124d0
+    - https://github.com/python/cpython/commit/b158a76ce094897c870fb6b3de62887b7ccc33f1
+    - https://github.com/python/cpython/commit/f7be505d137a22528cb0fc004422c0081d5d90e6
+    - https://github.com/python/cpython/commit/f7c0f09e69e950cf3c5ada9dbde93898eb975533
+    - https://github.com/python/cpython/issues/121650
+    - https://github.com/python/cpython/pull/122233
+    - https://linux.oracle.com/cve/CVE-2024-6923.html
+    - https://linux.oracle.com/errata/ELSA-2024-6975.html
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/QH3BUOE2DYQBWP7NAQ7UNHPPOELKISRW/
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-6923
+    - https://ubuntu.com/security/notices/USN-7015-1
+    - https://www.cve.org/CVERecord?id=CVE-2024-6923
+    PublishedDate: '2024-08-01T14:15:03.647Z'
+    LastModifiedDate: '2024-09-04T21:15:14.567Z'
+  - VulnerabilityID: CVE-2024-8088
+    PkgID: python3.10@3.10.12-1~22.04.5
+    PkgName: python3.10
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/python3.10@3.10.12-1~22.04.5?arch=amd64&distro=ubuntu-22.04
+      UID: 614e929f50047f8e
+    InstalledVersion: 3.10.12-1~22.04.5
+    FixedVersion: 3.10.12-1~22.04.6
+    Status: fixed
+    Layer:
+      Digest: sha256:eb4108e75dc6f8e6fc5a5e04197674c0d9a1dd13ec796f87aff09fd0a4bbd6ca
+      DiffID: sha256:853b5d95f07f5f2e1b0bf3839c45f15d937b8d18ad499f49ad4553075cd9fdf4
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-8088
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'python: cpython: Iterating over a malicious ZIP file may lead to Denial of Service'
+    Description: |-
+      There is a HIGH severity vulnerability affecting the CPython "zipfile"
+      module affecting "zipfile.Path". Note that the more common API "zipfile.ZipFile" class is unaffected.
+
+
+
+
+
+      When iterating over names of entries in a zip archive (for example, methods
+      of "zipfile.Path" like "namelist()", "iterdir()", etc)
+      the process can be put into an infinite loop with a maliciously crafted
+      zip archive. This defect applies when reading only metadata or extracting
+      the contents of the zip archive. Programs that are not handling
+      user-controlled zip archives are not affected.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-835
+    VendorSeverity:
+      alma: 2
+      cbl-mariner: 3
+      oracle-oval: 2
+      redhat: 2
+      rocky: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 5.3
+    References:
+    - https://access.redhat.com/errata/RHSA-2024:6962
+    - https://access.redhat.com/security/cve/CVE-2024-8088
+    - https://bugzilla.redhat.com/2292921
+    - https://bugzilla.redhat.com/2302255
+    - https://bugzilla.redhat.com/2307370
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2292921
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2302255
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2307370
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-4032
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-6923
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-8088
+    - https://errata.almalinux.org/8/ALSA-2024-6962.html
+    - https://errata.rockylinux.org/RLSA-2024:6962
+    - https://github.com/python/cpython/commit/0aa1ee22ab6e204e9d3d0e9dd63ea648ed691ef1
+    - https://github.com/python/cpython/commit/2231286d78d328c2f575e0b05b16fe447d1656d6
+    - https://github.com/python/cpython/commit/795f2597a4be988e2bb19b69ff9958e981cb894e
+    - https://github.com/python/cpython/commit/7bc367e464ce50b956dd232c1dfa1cad4e7fb814
+    - https://github.com/python/cpython/commit/7e8883a3f04d308302361aeffc73e0e9837f19d4
+    - https://github.com/python/cpython/commit/8c7348939d8a3ecd79d630075f6be1b0c5b41f64
+    - https://github.com/python/cpython/commit/95b073bddefa6243effa08e131e297c0383e7f6a
+    - https://github.com/python/cpython/commit/962055268ed4f2ca1d717bfc8b6385de50a23ab7
+    - https://github.com/python/cpython/commit/dcc5182f27c1500006a1ef78e10613bb45788dea
+    - https://github.com/python/cpython/commit/e0264a61119d551658d9445af38323ba94fc16db
+    - https://github.com/python/cpython/commit/fc0b8259e693caa8400fa8b6ac1e494e47ea7798
+    - https://github.com/python/cpython/issues/122905
+    - https://github.com/python/cpython/issues/123270
+    - https://github.com/python/cpython/pull/122906
+    - https://linux.oracle.com/cve/CVE-2024-8088.html
+    - https://linux.oracle.com/errata/ELSA-2024-6962.html
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/GNFCKVI4TCATKQLALJ5SN4L4CSPSMILU/
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-8088
+    - https://ubuntu.com/security/notices/USN-7015-1
+    - https://www.cve.org/CVERecord?id=CVE-2024-8088
+    PublishedDate: '2024-08-22T19:15:09.72Z'
+    LastModifiedDate: '2024-09-04T23:15:13.1Z'
+  - VulnerabilityID: CVE-2024-7592
+    PkgID: python3.10@3.10.12-1~22.04.5
+    PkgName: python3.10
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/python3.10@3.10.12-1~22.04.5?arch=amd64&distro=ubuntu-22.04
+      UID: 614e929f50047f8e
+    InstalledVersion: 3.10.12-1~22.04.5
+    FixedVersion: 3.10.12-1~22.04.6
+    Status: fixed
+    Layer:
+      Digest: sha256:eb4108e75dc6f8e6fc5a5e04197674c0d9a1dd13ec796f87aff09fd0a4bbd6ca
+      DiffID: sha256:853b5d95f07f5f2e1b0bf3839c45f15d937b8d18ad499f49ad4553075cd9fdf4
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-7592
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'cpython: python: Uncontrolled CPU resource consumption when in http.cookies module'
+    Description: |-
+      There is a LOW severity vulnerability affecting CPython, specifically the
+      'http.cookies' standard library module.
+
+
+      When parsing cookies that contained backslashes for quoted characters in
+      the cookie value, the parser would use an algorithm with quadratic
+      complexity, resulting in excess CPU resources being used while parsing the
+      value.
+    Severity: LOW
+    CweIDs:
+    - CWE-1333
+    - CWE-400
+    VendorSeverity:
+      azure: 3
+      bitnami: 3
+      cbl-mariner: 3
+      nvd: 3
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 4.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-7592
+    - https://github.com/python/cpython/commit/391e5626e3ee5af267b97e37abc7475732e67621
+    - https://github.com/python/cpython/commit/a77ab24427a18bff817025adb03ca920dc3f1a06
+    - https://github.com/python/cpython/commit/b2f11ca7667e4d57c71c1c88b255115f16042d9a
+    - https://github.com/python/cpython/commit/d4ac921a4b081f7f996a5d2b101684b67ba0ed7f
+    - https://github.com/python/cpython/commit/d662e2db2605515a767f88ad48096b8ac623c774
+    - https://github.com/python/cpython/commit/dcc3eaef98cd94d6cb6cb0f44bd1c903d04f33b1
+    - https://github.com/python/cpython/issues/123067
+    - https://github.com/python/cpython/pull/123075
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/HXJAAAALNUNGCQUS2W7WR6GFIZIHFOOK/
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-7592
+    - https://ubuntu.com/security/notices/USN-7015-1
+    - https://ubuntu.com/security/notices/USN-7015-2
+    - https://www.cve.org/CVERecord?id=CVE-2024-7592
+    PublishedDate: '2024-08-19T19:15:08.18Z'
+    LastModifiedDate: '2024-09-04T21:15:14.643Z'
   - VulnerabilityID: CVE-2023-27043
     PkgID: python3.10-minimal@3.10.12-1~22.04.5
     PkgName: python3.10-minimal
@@ -3890,7 +5623,8 @@
       PURL: pkg:deb/ubuntu/python3.10-minimal@3.10.12-1~22.04.5?arch=amd64&distro=ubuntu-22.04
       UID: c4f8635ddb4c4ff9
     InstalledVersion: 3.10.12-1~22.04.5
-    Status: affected
+    FixedVersion: 3.10.12-1~22.04.6
+    Status: fixed
     Layer:
       Digest: sha256:eb4108e75dc6f8e6fc5a5e04197674c0d9a1dd13ec796f87aff09fd0a4bbd6ca
       DiffID: sha256:853b5d95f07f5f2e1b0bf3839c45f15d937b8d18ad499f49ad4553075cd9fdf4
@@ -3962,9 +5696,308 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-27043
     - https://python-security.readthedocs.io/vuln/email-parseaddr-realname.html
     - https://security.netapp.com/advisory/ntap-20230601-0003/
+    - https://ubuntu.com/security/notices/USN-7015-1
+    - https://ubuntu.com/security/notices/USN-7015-3
     - https://www.cve.org/CVERecord?id=CVE-2023-27043
     PublishedDate: '2023-04-19T00:15:07.973Z'
     LastModifiedDate: '2024-02-26T16:27:45.78Z'
+  - VulnerabilityID: CVE-2024-6232
+    PkgID: python3.10-minimal@3.10.12-1~22.04.5
+    PkgName: python3.10-minimal
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/python3.10-minimal@3.10.12-1~22.04.5?arch=amd64&distro=ubuntu-22.04
+      UID: c4f8635ddb4c4ff9
+    InstalledVersion: 3.10.12-1~22.04.5
+    FixedVersion: 3.10.12-1~22.04.6
+    Status: fixed
+    Layer:
+      Digest: sha256:eb4108e75dc6f8e6fc5a5e04197674c0d9a1dd13ec796f87aff09fd0a4bbd6ca
+      DiffID: sha256:853b5d95f07f5f2e1b0bf3839c45f15d937b8d18ad499f49ad4553075cd9fdf4
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-6232
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'python: cpython: tarfile: ReDos via excessive backtracking while parsing header values'
+    Description: |-
+      There is a MEDIUM severity vulnerability affecting CPython.
+
+
+
+
+
+      Regular expressions that allowed excessive backtracking during tarfile.TarFile header parsing are vulnerable to ReDoS via specifically-crafted tar archives.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-1333
+    VendorSeverity:
+      alma: 2
+      bitnami: 3
+      cbl-mariner: 3
+      nvd: 3
+      oracle-oval: 2
+      redhat: 2
+      rocky: 2
+      ubuntu: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/errata/RHSA-2024:6975
+    - https://access.redhat.com/security/cve/CVE-2024-6232
+    - https://bugzilla.redhat.com/2292921
+    - https://bugzilla.redhat.com/2302255
+    - https://bugzilla.redhat.com/2309426
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2292921
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2302255
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2309426
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-4032
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-6232
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-6923
+    - https://errata.almalinux.org/8/ALSA-2024-6975.html
+    - https://errata.rockylinux.org/RLSA-2024:6975
+    - https://github.com/python/cpython/commit/4eaf4891c12589e3c7bdad5f5b076e4c8392dd06
+    - https://github.com/python/cpython/commit/743acbe872485dc18df4d8ab2dc7895187f062c4
+    - https://github.com/python/cpython/commit/7d1f50cd92ff7e10a1c15a8f591dde8a6843a64d
+    - https://github.com/python/cpython/commit/b4225ca91547aa97ed3aca391614afbb255bc877
+    - https://github.com/python/cpython/commit/d449caf8a179e3b954268b3a88eb9170be3c8fbf
+    - https://github.com/python/cpython/commit/ed3a49ea734ada357ff4442996fd4ae71d253373
+    - https://github.com/python/cpython/issues/121285
+    - https://github.com/python/cpython/pull/121286
+    - https://linux.oracle.com/cve/CVE-2024-6232.html
+    - https://linux.oracle.com/errata/ELSA-2024-6975.html
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/JRYFTPRHZRTLMZLWQEUHZSJXNHM4ACTY/
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-6232
+    - https://ubuntu.com/security/notices/USN-7015-1
+    - https://ubuntu.com/security/notices/USN-7015-2
+    - https://www.cve.org/CVERecord?id=CVE-2024-6232
+    PublishedDate: '2024-09-03T13:15:05.363Z'
+    LastModifiedDate: '2024-09-04T21:15:14.48Z'
+  - VulnerabilityID: CVE-2024-6923
+    PkgID: python3.10-minimal@3.10.12-1~22.04.5
+    PkgName: python3.10-minimal
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/python3.10-minimal@3.10.12-1~22.04.5?arch=amd64&distro=ubuntu-22.04
+      UID: c4f8635ddb4c4ff9
+    InstalledVersion: 3.10.12-1~22.04.5
+    FixedVersion: 3.10.12-1~22.04.6
+    Status: fixed
+    Layer:
+      Digest: sha256:eb4108e75dc6f8e6fc5a5e04197674c0d9a1dd13ec796f87aff09fd0a4bbd6ca
+      DiffID: sha256:853b5d95f07f5f2e1b0bf3839c45f15d937b8d18ad499f49ad4553075cd9fdf4
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-6923
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'cpython: python: email module doesn''t properly quotes newlines in email headers, allowing header injection'
+    Description: |-
+      There is a MEDIUM severity vulnerability affecting CPython.
+
+      The 
+      email module didn’t properly quote newlines for email headers when 
+      serializing an email message allowing for header injection when an email
+       is serialized.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-94
+    VendorSeverity:
+      alma: 2
+      bitnami: 2
+      oracle-oval: 2
+      photon: 2
+      redhat: 2
+      rocky: 2
+      ubuntu: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:L/I:L/A:L
+        V3Score: 5.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:N
+        V3Score: 6.8
+    References:
+    - https://access.redhat.com/errata/RHSA-2024:6179
+    - https://access.redhat.com/security/cve/CVE-2024-6923
+    - https://bugzilla.redhat.com/2302255
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2302255
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-6923
+    - https://errata.almalinux.org/9/ALSA-2024-6179.html
+    - https://errata.rockylinux.org/RLSA-2024:6146
+    - https://github.com/python/cpython/commit/06f28dc236708f72871c64d4bc4b4ea144c50147
+    - https://github.com/python/cpython/commit/4766d1200fdf8b6728137aa2927a297e224d5fa7
+    - https://github.com/python/cpython/commit/4aaa4259b5a6e664b7316a4d60bdec7ee0f124d0
+    - https://github.com/python/cpython/commit/b158a76ce094897c870fb6b3de62887b7ccc33f1
+    - https://github.com/python/cpython/commit/f7be505d137a22528cb0fc004422c0081d5d90e6
+    - https://github.com/python/cpython/commit/f7c0f09e69e950cf3c5ada9dbde93898eb975533
+    - https://github.com/python/cpython/issues/121650
+    - https://github.com/python/cpython/pull/122233
+    - https://linux.oracle.com/cve/CVE-2024-6923.html
+    - https://linux.oracle.com/errata/ELSA-2024-6975.html
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/QH3BUOE2DYQBWP7NAQ7UNHPPOELKISRW/
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-6923
+    - https://ubuntu.com/security/notices/USN-7015-1
+    - https://www.cve.org/CVERecord?id=CVE-2024-6923
+    PublishedDate: '2024-08-01T14:15:03.647Z'
+    LastModifiedDate: '2024-09-04T21:15:14.567Z'
+  - VulnerabilityID: CVE-2024-8088
+    PkgID: python3.10-minimal@3.10.12-1~22.04.5
+    PkgName: python3.10-minimal
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/python3.10-minimal@3.10.12-1~22.04.5?arch=amd64&distro=ubuntu-22.04
+      UID: c4f8635ddb4c4ff9
+    InstalledVersion: 3.10.12-1~22.04.5
+    FixedVersion: 3.10.12-1~22.04.6
+    Status: fixed
+    Layer:
+      Digest: sha256:eb4108e75dc6f8e6fc5a5e04197674c0d9a1dd13ec796f87aff09fd0a4bbd6ca
+      DiffID: sha256:853b5d95f07f5f2e1b0bf3839c45f15d937b8d18ad499f49ad4553075cd9fdf4
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-8088
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'python: cpython: Iterating over a malicious ZIP file may lead to Denial of Service'
+    Description: |-
+      There is a HIGH severity vulnerability affecting the CPython "zipfile"
+      module affecting "zipfile.Path". Note that the more common API "zipfile.ZipFile" class is unaffected.
+
+
+
+
+
+      When iterating over names of entries in a zip archive (for example, methods
+      of "zipfile.Path" like "namelist()", "iterdir()", etc)
+      the process can be put into an infinite loop with a maliciously crafted
+      zip archive. This defect applies when reading only metadata or extracting
+      the contents of the zip archive. Programs that are not handling
+      user-controlled zip archives are not affected.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-835
+    VendorSeverity:
+      alma: 2
+      cbl-mariner: 3
+      oracle-oval: 2
+      redhat: 2
+      rocky: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 5.3
+    References:
+    - https://access.redhat.com/errata/RHSA-2024:6962
+    - https://access.redhat.com/security/cve/CVE-2024-8088
+    - https://bugzilla.redhat.com/2292921
+    - https://bugzilla.redhat.com/2302255
+    - https://bugzilla.redhat.com/2307370
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2292921
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2302255
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2307370
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-4032
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-6923
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-8088
+    - https://errata.almalinux.org/8/ALSA-2024-6962.html
+    - https://errata.rockylinux.org/RLSA-2024:6962
+    - https://github.com/python/cpython/commit/0aa1ee22ab6e204e9d3d0e9dd63ea648ed691ef1
+    - https://github.com/python/cpython/commit/2231286d78d328c2f575e0b05b16fe447d1656d6
+    - https://github.com/python/cpython/commit/795f2597a4be988e2bb19b69ff9958e981cb894e
+    - https://github.com/python/cpython/commit/7bc367e464ce50b956dd232c1dfa1cad4e7fb814
+    - https://github.com/python/cpython/commit/7e8883a3f04d308302361aeffc73e0e9837f19d4
+    - https://github.com/python/cpython/commit/8c7348939d8a3ecd79d630075f6be1b0c5b41f64
+    - https://github.com/python/cpython/commit/95b073bddefa6243effa08e131e297c0383e7f6a
+    - https://github.com/python/cpython/commit/962055268ed4f2ca1d717bfc8b6385de50a23ab7
+    - https://github.com/python/cpython/commit/dcc5182f27c1500006a1ef78e10613bb45788dea
+    - https://github.com/python/cpython/commit/e0264a61119d551658d9445af38323ba94fc16db
+    - https://github.com/python/cpython/commit/fc0b8259e693caa8400fa8b6ac1e494e47ea7798
+    - https://github.com/python/cpython/issues/122905
+    - https://github.com/python/cpython/issues/123270
+    - https://github.com/python/cpython/pull/122906
+    - https://linux.oracle.com/cve/CVE-2024-8088.html
+    - https://linux.oracle.com/errata/ELSA-2024-6962.html
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/GNFCKVI4TCATKQLALJ5SN4L4CSPSMILU/
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-8088
+    - https://ubuntu.com/security/notices/USN-7015-1
+    - https://www.cve.org/CVERecord?id=CVE-2024-8088
+    PublishedDate: '2024-08-22T19:15:09.72Z'
+    LastModifiedDate: '2024-09-04T23:15:13.1Z'
+  - VulnerabilityID: CVE-2024-7592
+    PkgID: python3.10-minimal@3.10.12-1~22.04.5
+    PkgName: python3.10-minimal
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/python3.10-minimal@3.10.12-1~22.04.5?arch=amd64&distro=ubuntu-22.04
+      UID: c4f8635ddb4c4ff9
+    InstalledVersion: 3.10.12-1~22.04.5
+    FixedVersion: 3.10.12-1~22.04.6
+    Status: fixed
+    Layer:
+      Digest: sha256:eb4108e75dc6f8e6fc5a5e04197674c0d9a1dd13ec796f87aff09fd0a4bbd6ca
+      DiffID: sha256:853b5d95f07f5f2e1b0bf3839c45f15d937b8d18ad499f49ad4553075cd9fdf4
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-7592
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'cpython: python: Uncontrolled CPU resource consumption when in http.cookies module'
+    Description: |-
+      There is a LOW severity vulnerability affecting CPython, specifically the
+      'http.cookies' standard library module.
+
+
+      When parsing cookies that contained backslashes for quoted characters in
+      the cookie value, the parser would use an algorithm with quadratic
+      complexity, resulting in excess CPU resources being used while parsing the
+      value.
+    Severity: LOW
+    CweIDs:
+    - CWE-1333
+    - CWE-400
+    VendorSeverity:
+      azure: 3
+      bitnami: 3
+      cbl-mariner: 3
+      nvd: 3
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 4.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-7592
+    - https://github.com/python/cpython/commit/391e5626e3ee5af267b97e37abc7475732e67621
+    - https://github.com/python/cpython/commit/a77ab24427a18bff817025adb03ca920dc3f1a06
+    - https://github.com/python/cpython/commit/b2f11ca7667e4d57c71c1c88b255115f16042d9a
+    - https://github.com/python/cpython/commit/d4ac921a4b081f7f996a5d2b101684b67ba0ed7f
+    - https://github.com/python/cpython/commit/d662e2db2605515a767f88ad48096b8ac623c774
+    - https://github.com/python/cpython/commit/dcc3eaef98cd94d6cb6cb0f44bd1c903d04f33b1
+    - https://github.com/python/cpython/issues/123067
+    - https://github.com/python/cpython/pull/123075
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/HXJAAAALNUNGCQUS2W7WR6GFIZIHFOOK/
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-7592
+    - https://ubuntu.com/security/notices/USN-7015-1
+    - https://ubuntu.com/security/notices/USN-7015-2
+    - https://www.cve.org/CVERecord?id=CVE-2024-7592
+    PublishedDate: '2024-08-19T19:15:08.18Z'
+    LastModifiedDate: '2024-09-04T21:15:14.643Z'
   - VulnerabilityID: CVE-2023-7008
     PkgID: systemd@249.11-0ubuntu3.12
     PkgName: systemd
@@ -4016,12 +6049,10 @@
     - https://github.com/systemd/systemd/issues/25676
     - https://linux.oracle.com/cve/CVE-2023-7008.html
     - https://linux.oracle.com/errata/ELSA-2024-3203.html
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4GMDEG5PKONWNHOEYSUDRT6JEOISRMN2/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QHNBXGKJWISJETTTDTZKTBFIBJUOSLKL/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-7008
     - https://www.cve.org/CVERecord?id=CVE-2023-7008
     PublishedDate: '2023-12-23T13:15:07.573Z'
-    LastModifiedDate: '2024-05-22T17:16:10.83Z'
+    LastModifiedDate: '2024-09-16T17:16:02.17Z'
   - VulnerabilityID: CVE-2023-7008
     PkgID: systemd-sysv@249.11-0ubuntu3.12
     PkgName: systemd-sysv
@@ -4073,12 +6104,10 @@
     - https://github.com/systemd/systemd/issues/25676
     - https://linux.oracle.com/cve/CVE-2023-7008.html
     - https://linux.oracle.com/errata/ELSA-2024-3203.html
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4GMDEG5PKONWNHOEYSUDRT6JEOISRMN2/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QHNBXGKJWISJETTTDTZKTBFIBJUOSLKL/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-7008
     - https://www.cve.org/CVERecord?id=CVE-2023-7008
     PublishedDate: '2023-12-23T13:15:07.573Z'
-    LastModifiedDate: '2024-05-22T17:16:10.83Z'
+    LastModifiedDate: '2024-09-16T17:16:02.17Z'
   - VulnerabilityID: CVE-2023-7008
     PkgID: systemd-timesyncd@249.11-0ubuntu3.12
     PkgName: systemd-timesyncd
@@ -4130,12 +6159,10 @@
     - https://github.com/systemd/systemd/issues/25676
     - https://linux.oracle.com/cve/CVE-2023-7008.html
     - https://linux.oracle.com/errata/ELSA-2024-3203.html
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4GMDEG5PKONWNHOEYSUDRT6JEOISRMN2/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QHNBXGKJWISJETTTDTZKTBFIBJUOSLKL/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-7008
     - https://www.cve.org/CVERecord?id=CVE-2023-7008
     PublishedDate: '2023-12-23T13:15:07.573Z'
-    LastModifiedDate: '2024-05-22T17:16:10.83Z'
+    LastModifiedDate: '2024-09-16T17:16:02.17Z'
   - VulnerabilityID: CVE-2023-29383
     PkgID: uidmap@1:4.8.1-2ubuntu2.2
     PkgName: uidmap
@@ -4772,6 +6799,7 @@
     - https://ubuntu.com/security/notices/USN-6505-1
     - https://ubuntu.com/security/notices/USN-6574-1
     - https://ubuntu.com/security/notices/USN-6754-1
+    - https://ubuntu.com/security/notices/USN-6994-1
     - https://www.bleepingcomputer.com/news/security/new-http-2-rapid-reset-zero-day-attack-breaks-ddos-records
     - https://www.bleepingcomputer.com/news/security/new-http-2-rapid-reset-zero-day-attack-breaks-ddos-records/
     - https://www.cisa.gov/known-exploited-vulnerabilities-catalog
@@ -5240,25 +7268,41 @@
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
-    Title: 'encoding/gob: Calling Decoder.Decode on a message which contains deeply nested structures can cause a panic due to stack exhaustion'
+    Title: 'encoding/gob: golang: Calling Decoder.Decode on a message which contains deeply nested structures can cause a panic due to stack exhaustion'
     Description: Calling Decoder.Decode on a message which contains deeply nested structures can cause a panic due to stack exhaustion. This is a follow-up to CVE-2022-30635.
     Severity: HIGH
     VendorSeverity:
+      alma: 3
+      amazon: 3
+      bitnami: 3
+      oracle-oval: 3
       redhat: 3
+      rocky: 3
     CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
+    - https://access.redhat.com/errata/RHSA-2024:7204
     - https://access.redhat.com/security/cve/CVE-2024-34156
+    - https://bugzilla.redhat.com/2310528
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2310528
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-34156
+    - https://errata.almalinux.org/9/ALSA-2024-7204.html
+    - https://errata.rockylinux.org/RLSA-2024:7204
     - https://go.dev/cl/611239
     - https://go.dev/issue/69139
     - https://groups.google.com/g/golang-dev/c/S9POB9NCTdk
+    - https://linux.oracle.com/cve/CVE-2024-34156.html
+    - https://linux.oracle.com/errata/ELSA-2024-7262.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-34156
     - https://pkg.go.dev/vuln/GO-2024-3106
     - https://www.cve.org/CVERecord?id=CVE-2024-34156
     PublishedDate: '2024-09-06T21:15:12.02Z'
-    LastModifiedDate: '2024-09-06T21:15:12.02Z'
+    LastModifiedDate: '2024-09-09T15:35:07.573Z'
   - VulnerabilityID: CVE-2023-29406
     PkgName: stdlib
     PkgIdentifier:
@@ -5488,7 +7532,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -5553,7 +7597,7 @@
     Severity: MEDIUM
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       bitnami: 2
       cbl-mariner: 2
       nvd: 2
@@ -5712,14 +7756,14 @@
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
-    Title: 'golang: net/http: memory exhaustion in Request.ParseMultipartForm'
+    Title: 'golang: net/http: golang: mime/multipart: golang: net/textproto: memory exhaustion in Request.ParseMultipartForm'
     Description: When parsing a multipart form (either explicitly with Request.ParseMultipartForm or implicitly with Request.FormValue, Request.PostFormValue, or Request.FormFile), limits on the total size of the parsed form were not applied to the memory consumed while reading a single form line. This permits a maliciously crafted input containing very long lines to cause allocation of arbitrarily large amounts of memory, potentially leading to memory exhaustion. With fix, the ParseMultipartForm function now correctly limits the maximum size of form lines.
     Severity: MEDIUM
     VendorSeverity:
       alma: 2
       amazon: 2
       cbl-mariner: 2
-      oracle-oval: 3
+      oracle-oval: 2
       redhat: 2
       rocky: 2
       ubuntu: 2
@@ -5743,7 +7787,7 @@
     - https://go.dev/issue/65383
     - https://groups.google.com/g/golang-announce/c/5pwGVUPoMbg
     - https://linux.oracle.com/cve/CVE-2023-45290.html
-    - https://linux.oracle.com/errata/ELSA-2024-5258.html
+    - https://linux.oracle.com/errata/ELSA-2024-6969.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-45290
     - https://pkg.go.dev/vuln/GO-2024-2599
     - https://security.netapp.com/advisory/ntap-20240329-0004
@@ -5806,7 +7850,7 @@
     - https://go.dev/issue/65390
     - https://groups.google.com/g/golang-announce/c/5pwGVUPoMbg
     - https://linux.oracle.com/cve/CVE-2024-24783.html
-    - https://linux.oracle.com/errata/ELSA-2024-6195.html
+    - https://linux.oracle.com/errata/ELSA-2024-6969.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-24783
     - https://pkg.go.dev/vuln/GO-2024-2598
     - https://security.netapp.com/advisory/ntap-20240329-0005
@@ -5839,7 +7883,7 @@
       amazon: 2
       bitnami: 3
       cbl-mariner: 2
-      oracle-oval: 3
+      oracle-oval: 2
       photon: 3
       redhat: 2
       rocky: 3
@@ -5885,7 +7929,7 @@
     - https://go.dev/issue/65083
     - https://groups.google.com/g/golang-announce/c/5pwGVUPoMbg
     - https://linux.oracle.com/cve/CVE-2024-24784.html
-    - https://linux.oracle.com/errata/ELSA-2024-5258.html
+    - https://linux.oracle.com/errata/ELSA-2024-6969.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-24784
     - https://pkg.go.dev/vuln/GO-2024-2609
     - https://security.netapp.com/advisory/ntap-20240329-0007/
@@ -6057,11 +8101,14 @@
     Description: 'The net/http HTTP/1.1 client mishandled the case where a server responds to a request with an "Expect: 100-continue" header with a non-informational (200 or higher) status. This mishandling could leave a client connection in an invalid state, where the next request sent on the connection will fail. An attacker sending a request to a net/http/httputil.ReverseProxy proxy can exploit this mishandling to cause a denial of service by sending "Expect: 100-continue" requests which elicit a non-informational response from the backend. Each such request leaves the proxy with an invalid connection, and causes one subsequent request using that connection to fail.'
     Severity: MEDIUM
     VendorSeverity:
+      alma: 3
       amazon: 2
       azure: 3
       bitnami: 3
+      oracle-oval: 2
       photon: 3
       redhat: 2
+      rocky: 3
     CVSS:
       bitnami:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
@@ -6070,10 +8117,27 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
     References:
+    - https://access.redhat.com/errata/RHSA-2024:6913
     - https://access.redhat.com/security/cve/CVE-2024-24791
+    - https://bugzilla.redhat.com/2295310
+    - https://bugzilla.redhat.com/2310527
+    - https://bugzilla.redhat.com/2310528
+    - https://bugzilla.redhat.com/2310529
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2295310
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2310527
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2310528
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2310529
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24791
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-34155
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-34156
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-34158
+    - https://errata.almalinux.org/9/ALSA-2024-6913.html
+    - https://errata.rockylinux.org/RLSA-2024:6913
     - https://go.dev/cl/591255
     - https://go.dev/issue/67555
     - https://groups.google.com/g/golang-dev/c/t0rK-qHBqzY/m/6MMoAZkMAgAJ
+    - https://linux.oracle.com/cve/CVE-2024-24791.html
+    - https://linux.oracle.com/errata/ELSA-2024-7349.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-24791
     - https://pkg.go.dev/vuln/GO-2024-2963
     - https://www.cve.org/CVERecord?id=CVE-2024-24791
@@ -6095,25 +8159,46 @@
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
-    Title: 'go/parser: Calling any of the Parse functions containing deeply nested literals can cause a panic/stack exhaustion'
+    Title: 'go/parser: golang: Calling any of the Parse functions containing deeply nested literals can cause a panic/stack exhaustion'
     Description: Calling any of the Parse functions on Go source code which contains deeply nested literals can cause a panic due to stack exhaustion.
     Severity: MEDIUM
     VendorSeverity:
+      alma: 3
+      amazon: 3
+      oracle-oval: 3
       redhat: 2
+      rocky: 3
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
     References:
+    - https://access.redhat.com/errata/RHSA-2024:6913
     - https://access.redhat.com/security/cve/CVE-2024-34155
+    - https://bugzilla.redhat.com/2295310
+    - https://bugzilla.redhat.com/2310527
+    - https://bugzilla.redhat.com/2310528
+    - https://bugzilla.redhat.com/2310529
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2295310
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2310527
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2310528
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2310529
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24791
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-34155
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-34156
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-34158
+    - https://errata.almalinux.org/9/ALSA-2024-6913.html
+    - https://errata.rockylinux.org/RLSA-2024:6913
     - https://go.dev/cl/611238
     - https://go.dev/issue/69138
     - https://groups.google.com/g/golang-dev/c/S9POB9NCTdk
+    - https://linux.oracle.com/cve/CVE-2024-34155.html
+    - https://linux.oracle.com/errata/ELSA-2024-6913.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-34155
     - https://pkg.go.dev/vuln/GO-2024-3105
     - https://www.cve.org/CVERecord?id=CVE-2024-34155
     PublishedDate: '2024-09-06T21:15:11.947Z'
-    LastModifiedDate: '2024-09-06T21:15:11.947Z'
+    LastModifiedDate: '2024-09-09T13:03:38.303Z'
   - VulnerabilityID: CVE-2024-34158
     PkgName: stdlib
     PkgIdentifier:
@@ -6133,22 +8218,49 @@
     Title: 'go/build/constraint: golang: Calling Parse on a "// +build" build tag line with deeply nested expressions can cause a panic due to stack exhaustion'
     Description: Calling Parse on a "// +build" build tag line with deeply nested expressions can cause a panic due to stack exhaustion.
     Severity: MEDIUM
+    CweIDs:
+    - CWE-674
     VendorSeverity:
+      alma: 3
+      amazon: 3
+      bitnami: 3
+      oracle-oval: 3
       redhat: 2
+      rocky: 3
     CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
     References:
+    - https://access.redhat.com/errata/RHSA-2024:6913
     - https://access.redhat.com/security/cve/CVE-2024-34158
+    - https://bugzilla.redhat.com/2295310
+    - https://bugzilla.redhat.com/2310527
+    - https://bugzilla.redhat.com/2310528
+    - https://bugzilla.redhat.com/2310529
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2295310
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2310527
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2310528
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2310529
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24791
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-34155
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-34156
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-34158
+    - https://errata.almalinux.org/9/ALSA-2024-6913.html
+    - https://errata.rockylinux.org/RLSA-2024:6913
     - https://go.dev/cl/611240
     - https://go.dev/issue/69141
     - https://groups.google.com/g/golang-dev/c/S9POB9NCTdk
+    - https://linux.oracle.com/cve/CVE-2024-34158.html
+    - https://linux.oracle.com/errata/ELSA-2024-6913.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-34158
     - https://pkg.go.dev/vuln/GO-2024-3107
     - https://www.cve.org/CVERecord?id=CVE-2024-34158
     PublishedDate: '2024-09-06T21:15:12.083Z'
-    LastModifiedDate: '2024-09-06T21:15:12.083Z'
+    LastModifiedDate: '2024-09-09T14:35:01.17Z'
 - Target: tmp/tmp.gL2zc7VJXQ/krew-linux_amd64
   Class: lang-pkgs
   Type: gobinary
@@ -6635,6 +8747,7 @@
     - https://ubuntu.com/security/notices/USN-6505-1
     - https://ubuntu.com/security/notices/USN-6574-1
     - https://ubuntu.com/security/notices/USN-6754-1
+    - https://ubuntu.com/security/notices/USN-6994-1
     - https://www.bleepingcomputer.com/news/security/new-http-2-rapid-reset-zero-day-attack-breaks-ddos-records
     - https://www.bleepingcomputer.com/news/security/new-http-2-rapid-reset-zero-day-attack-breaks-ddos-records/
     - https://www.cisa.gov/known-exploited-vulnerabilities-catalog
@@ -7103,25 +9216,41 @@
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
-    Title: 'encoding/gob: Calling Decoder.Decode on a message which contains deeply nested structures can cause a panic due to stack exhaustion'
+    Title: 'encoding/gob: golang: Calling Decoder.Decode on a message which contains deeply nested structures can cause a panic due to stack exhaustion'
     Description: Calling Decoder.Decode on a message which contains deeply nested structures can cause a panic due to stack exhaustion. This is a follow-up to CVE-2022-30635.
     Severity: HIGH
     VendorSeverity:
+      alma: 3
+      amazon: 3
+      bitnami: 3
+      oracle-oval: 3
       redhat: 3
+      rocky: 3
     CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
+    - https://access.redhat.com/errata/RHSA-2024:7204
     - https://access.redhat.com/security/cve/CVE-2024-34156
+    - https://bugzilla.redhat.com/2310528
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2310528
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-34156
+    - https://errata.almalinux.org/9/ALSA-2024-7204.html
+    - https://errata.rockylinux.org/RLSA-2024:7204
     - https://go.dev/cl/611239
     - https://go.dev/issue/69139
     - https://groups.google.com/g/golang-dev/c/S9POB9NCTdk
+    - https://linux.oracle.com/cve/CVE-2024-34156.html
+    - https://linux.oracle.com/errata/ELSA-2024-7262.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-34156
     - https://pkg.go.dev/vuln/GO-2024-3106
     - https://www.cve.org/CVERecord?id=CVE-2024-34156
     PublishedDate: '2024-09-06T21:15:12.02Z'
-    LastModifiedDate: '2024-09-06T21:15:12.02Z'
+    LastModifiedDate: '2024-09-09T15:35:07.573Z'
   - VulnerabilityID: CVE-2023-29406
     PkgName: stdlib
     PkgIdentifier:
@@ -7351,7 +9480,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -7416,7 +9545,7 @@
     Severity: MEDIUM
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       bitnami: 2
       cbl-mariner: 2
       nvd: 2
@@ -7575,14 +9704,14 @@
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
-    Title: 'golang: net/http: memory exhaustion in Request.ParseMultipartForm'
+    Title: 'golang: net/http: golang: mime/multipart: golang: net/textproto: memory exhaustion in Request.ParseMultipartForm'
     Description: When parsing a multipart form (either explicitly with Request.ParseMultipartForm or implicitly with Request.FormValue, Request.PostFormValue, or Request.FormFile), limits on the total size of the parsed form were not applied to the memory consumed while reading a single form line. This permits a maliciously crafted input containing very long lines to cause allocation of arbitrarily large amounts of memory, potentially leading to memory exhaustion. With fix, the ParseMultipartForm function now correctly limits the maximum size of form lines.
     Severity: MEDIUM
     VendorSeverity:
       alma: 2
       amazon: 2
       cbl-mariner: 2
-      oracle-oval: 3
+      oracle-oval: 2
       redhat: 2
       rocky: 2
       ubuntu: 2
@@ -7606,7 +9735,7 @@
     - https://go.dev/issue/65383
     - https://groups.google.com/g/golang-announce/c/5pwGVUPoMbg
     - https://linux.oracle.com/cve/CVE-2023-45290.html
-    - https://linux.oracle.com/errata/ELSA-2024-5258.html
+    - https://linux.oracle.com/errata/ELSA-2024-6969.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-45290
     - https://pkg.go.dev/vuln/GO-2024-2599
     - https://security.netapp.com/advisory/ntap-20240329-0004
@@ -7669,7 +9798,7 @@
     - https://go.dev/issue/65390
     - https://groups.google.com/g/golang-announce/c/5pwGVUPoMbg
     - https://linux.oracle.com/cve/CVE-2024-24783.html
-    - https://linux.oracle.com/errata/ELSA-2024-6195.html
+    - https://linux.oracle.com/errata/ELSA-2024-6969.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-24783
     - https://pkg.go.dev/vuln/GO-2024-2598
     - https://security.netapp.com/advisory/ntap-20240329-0005
@@ -7702,7 +9831,7 @@
       amazon: 2
       bitnami: 3
       cbl-mariner: 2
-      oracle-oval: 3
+      oracle-oval: 2
       photon: 3
       redhat: 2
       rocky: 3
@@ -7748,7 +9877,7 @@
     - https://go.dev/issue/65083
     - https://groups.google.com/g/golang-announce/c/5pwGVUPoMbg
     - https://linux.oracle.com/cve/CVE-2024-24784.html
-    - https://linux.oracle.com/errata/ELSA-2024-5258.html
+    - https://linux.oracle.com/errata/ELSA-2024-6969.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-24784
     - https://pkg.go.dev/vuln/GO-2024-2609
     - https://security.netapp.com/advisory/ntap-20240329-0007/
@@ -7920,11 +10049,14 @@
     Description: 'The net/http HTTP/1.1 client mishandled the case where a server responds to a request with an "Expect: 100-continue" header with a non-informational (200 or higher) status. This mishandling could leave a client connection in an invalid state, where the next request sent on the connection will fail. An attacker sending a request to a net/http/httputil.ReverseProxy proxy can exploit this mishandling to cause a denial of service by sending "Expect: 100-continue" requests which elicit a non-informational response from the backend. Each such request leaves the proxy with an invalid connection, and causes one subsequent request using that connection to fail.'
     Severity: MEDIUM
     VendorSeverity:
+      alma: 3
       amazon: 2
       azure: 3
       bitnami: 3
+      oracle-oval: 2
       photon: 3
       redhat: 2
+      rocky: 3
     CVSS:
       bitnami:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
@@ -7933,10 +10065,27 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
     References:
+    - https://access.redhat.com/errata/RHSA-2024:6913
     - https://access.redhat.com/security/cve/CVE-2024-24791
+    - https://bugzilla.redhat.com/2295310
+    - https://bugzilla.redhat.com/2310527
+    - https://bugzilla.redhat.com/2310528
+    - https://bugzilla.redhat.com/2310529
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2295310
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2310527
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2310528
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2310529
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24791
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-34155
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-34156
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-34158
+    - https://errata.almalinux.org/9/ALSA-2024-6913.html
+    - https://errata.rockylinux.org/RLSA-2024:6913
     - https://go.dev/cl/591255
     - https://go.dev/issue/67555
     - https://groups.google.com/g/golang-dev/c/t0rK-qHBqzY/m/6MMoAZkMAgAJ
+    - https://linux.oracle.com/cve/CVE-2024-24791.html
+    - https://linux.oracle.com/errata/ELSA-2024-7349.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-24791
     - https://pkg.go.dev/vuln/GO-2024-2963
     - https://www.cve.org/CVERecord?id=CVE-2024-24791
@@ -7958,25 +10107,46 @@
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
-    Title: 'go/parser: Calling any of the Parse functions containing deeply nested literals can cause a panic/stack exhaustion'
+    Title: 'go/parser: golang: Calling any of the Parse functions containing deeply nested literals can cause a panic/stack exhaustion'
     Description: Calling any of the Parse functions on Go source code which contains deeply nested literals can cause a panic due to stack exhaustion.
     Severity: MEDIUM
     VendorSeverity:
+      alma: 3
+      amazon: 3
+      oracle-oval: 3
       redhat: 2
+      rocky: 3
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
     References:
+    - https://access.redhat.com/errata/RHSA-2024:6913
     - https://access.redhat.com/security/cve/CVE-2024-34155
+    - https://bugzilla.redhat.com/2295310
+    - https://bugzilla.redhat.com/2310527
+    - https://bugzilla.redhat.com/2310528
+    - https://bugzilla.redhat.com/2310529
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2295310
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2310527
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2310528
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2310529
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24791
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-34155
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-34156
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-34158
+    - https://errata.almalinux.org/9/ALSA-2024-6913.html
+    - https://errata.rockylinux.org/RLSA-2024:6913
     - https://go.dev/cl/611238
     - https://go.dev/issue/69138
     - https://groups.google.com/g/golang-dev/c/S9POB9NCTdk
+    - https://linux.oracle.com/cve/CVE-2024-34155.html
+    - https://linux.oracle.com/errata/ELSA-2024-6913.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-34155
     - https://pkg.go.dev/vuln/GO-2024-3105
     - https://www.cve.org/CVERecord?id=CVE-2024-34155
     PublishedDate: '2024-09-06T21:15:11.947Z'
-    LastModifiedDate: '2024-09-06T21:15:11.947Z'
+    LastModifiedDate: '2024-09-09T13:03:38.303Z'
   - VulnerabilityID: CVE-2024-34158
     PkgName: stdlib
     PkgIdentifier:
@@ -7996,22 +10166,49 @@
     Title: 'go/build/constraint: golang: Calling Parse on a "// +build" build tag line with deeply nested expressions can cause a panic due to stack exhaustion'
     Description: Calling Parse on a "// +build" build tag line with deeply nested expressions can cause a panic due to stack exhaustion.
     Severity: MEDIUM
+    CweIDs:
+    - CWE-674
     VendorSeverity:
+      alma: 3
+      amazon: 3
+      bitnami: 3
+      oracle-oval: 3
       redhat: 2
+      rocky: 3
     CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
     References:
+    - https://access.redhat.com/errata/RHSA-2024:6913
     - https://access.redhat.com/security/cve/CVE-2024-34158
+    - https://bugzilla.redhat.com/2295310
+    - https://bugzilla.redhat.com/2310527
+    - https://bugzilla.redhat.com/2310528
+    - https://bugzilla.redhat.com/2310529
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2295310
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2310527
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2310528
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2310529
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24791
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-34155
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-34156
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-34158
+    - https://errata.almalinux.org/9/ALSA-2024-6913.html
+    - https://errata.rockylinux.org/RLSA-2024:6913
     - https://go.dev/cl/611240
     - https://go.dev/issue/69141
     - https://groups.google.com/g/golang-dev/c/S9POB9NCTdk
+    - https://linux.oracle.com/cve/CVE-2024-34158.html
+    - https://linux.oracle.com/errata/ELSA-2024-6913.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-34158
     - https://pkg.go.dev/vuln/GO-2024-3107
     - https://www.cve.org/CVERecord?id=CVE-2024-34158
     PublishedDate: '2024-09-06T21:15:12.083Z'
-    LastModifiedDate: '2024-09-06T21:15:12.083Z'
+    LastModifiedDate: '2024-09-09T14:35:01.17Z'
 - Target: usr/bin/docker-compose
   Class: lang-pkgs
   Type: gobinary
@@ -8032,25 +10229,41 @@
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
-    Title: 'encoding/gob: Calling Decoder.Decode on a message which contains deeply nested structures can cause a panic due to stack exhaustion'
+    Title: 'encoding/gob: golang: Calling Decoder.Decode on a message which contains deeply nested structures can cause a panic due to stack exhaustion'
     Description: Calling Decoder.Decode on a message which contains deeply nested structures can cause a panic due to stack exhaustion. This is a follow-up to CVE-2022-30635.
     Severity: HIGH
     VendorSeverity:
+      alma: 3
+      amazon: 3
+      bitnami: 3
+      oracle-oval: 3
       redhat: 3
+      rocky: 3
     CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
+    - https://access.redhat.com/errata/RHSA-2024:7204
     - https://access.redhat.com/security/cve/CVE-2024-34156
+    - https://bugzilla.redhat.com/2310528
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2310528
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-34156
+    - https://errata.almalinux.org/9/ALSA-2024-7204.html
+    - https://errata.rockylinux.org/RLSA-2024:7204
     - https://go.dev/cl/611239
     - https://go.dev/issue/69139
     - https://groups.google.com/g/golang-dev/c/S9POB9NCTdk
+    - https://linux.oracle.com/cve/CVE-2024-34156.html
+    - https://linux.oracle.com/errata/ELSA-2024-7262.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-34156
     - https://pkg.go.dev/vuln/GO-2024-3106
     - https://www.cve.org/CVERecord?id=CVE-2024-34156
     PublishedDate: '2024-09-06T21:15:12.02Z'
-    LastModifiedDate: '2024-09-06T21:15:12.02Z'
+    LastModifiedDate: '2024-09-09T15:35:07.573Z'
   - VulnerabilityID: CVE-2024-34155
     PkgName: stdlib
     PkgIdentifier:
@@ -8067,25 +10280,46 @@
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
-    Title: 'go/parser: Calling any of the Parse functions containing deeply nested literals can cause a panic/stack exhaustion'
+    Title: 'go/parser: golang: Calling any of the Parse functions containing deeply nested literals can cause a panic/stack exhaustion'
     Description: Calling any of the Parse functions on Go source code which contains deeply nested literals can cause a panic due to stack exhaustion.
     Severity: MEDIUM
     VendorSeverity:
+      alma: 3
+      amazon: 3
+      oracle-oval: 3
       redhat: 2
+      rocky: 3
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
     References:
+    - https://access.redhat.com/errata/RHSA-2024:6913
     - https://access.redhat.com/security/cve/CVE-2024-34155
+    - https://bugzilla.redhat.com/2295310
+    - https://bugzilla.redhat.com/2310527
+    - https://bugzilla.redhat.com/2310528
+    - https://bugzilla.redhat.com/2310529
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2295310
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2310527
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2310528
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2310529
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24791
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-34155
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-34156
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-34158
+    - https://errata.almalinux.org/9/ALSA-2024-6913.html
+    - https://errata.rockylinux.org/RLSA-2024:6913
     - https://go.dev/cl/611238
     - https://go.dev/issue/69138
     - https://groups.google.com/g/golang-dev/c/S9POB9NCTdk
+    - https://linux.oracle.com/cve/CVE-2024-34155.html
+    - https://linux.oracle.com/errata/ELSA-2024-6913.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-34155
     - https://pkg.go.dev/vuln/GO-2024-3105
     - https://www.cve.org/CVERecord?id=CVE-2024-34155
     PublishedDate: '2024-09-06T21:15:11.947Z'
-    LastModifiedDate: '2024-09-06T21:15:11.947Z'
+    LastModifiedDate: '2024-09-09T13:03:38.303Z'
   - VulnerabilityID: CVE-2024-34158
     PkgName: stdlib
     PkgIdentifier:
@@ -8105,22 +10339,49 @@
     Title: 'go/build/constraint: golang: Calling Parse on a "// +build" build tag line with deeply nested expressions can cause a panic due to stack exhaustion'
     Description: Calling Parse on a "// +build" build tag line with deeply nested expressions can cause a panic due to stack exhaustion.
     Severity: MEDIUM
+    CweIDs:
+    - CWE-674
     VendorSeverity:
+      alma: 3
+      amazon: 3
+      bitnami: 3
+      oracle-oval: 3
       redhat: 2
+      rocky: 3
     CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
     References:
+    - https://access.redhat.com/errata/RHSA-2024:6913
     - https://access.redhat.com/security/cve/CVE-2024-34158
+    - https://bugzilla.redhat.com/2295310
+    - https://bugzilla.redhat.com/2310527
+    - https://bugzilla.redhat.com/2310528
+    - https://bugzilla.redhat.com/2310529
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2295310
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2310527
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2310528
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2310529
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24791
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-34155
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-34156
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-34158
+    - https://errata.almalinux.org/9/ALSA-2024-6913.html
+    - https://errata.rockylinux.org/RLSA-2024:6913
     - https://go.dev/cl/611240
     - https://go.dev/issue/69141
     - https://groups.google.com/g/golang-dev/c/S9POB9NCTdk
+    - https://linux.oracle.com/cve/CVE-2024-34158.html
+    - https://linux.oracle.com/errata/ELSA-2024-6913.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-34158
     - https://pkg.go.dev/vuln/GO-2024-3107
     - https://www.cve.org/CVERecord?id=CVE-2024-34158
     PublishedDate: '2024-09-06T21:15:12.083Z'
-    LastModifiedDate: '2024-09-06T21:15:12.083Z'
+    LastModifiedDate: '2024-09-09T14:35:01.17Z'
 - Target: usr/bin/helm
   Class: lang-pkgs
   Type: gobinary
@@ -8141,25 +10402,41 @@
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
-    Title: 'encoding/gob: Calling Decoder.Decode on a message which contains deeply nested structures can cause a panic due to stack exhaustion'
+    Title: 'encoding/gob: golang: Calling Decoder.Decode on a message which contains deeply nested structures can cause a panic due to stack exhaustion'
     Description: Calling Decoder.Decode on a message which contains deeply nested structures can cause a panic due to stack exhaustion. This is a follow-up to CVE-2022-30635.
     Severity: HIGH
     VendorSeverity:
+      alma: 3
+      amazon: 3
+      bitnami: 3
+      oracle-oval: 3
       redhat: 3
+      rocky: 3
     CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
+    - https://access.redhat.com/errata/RHSA-2024:7204
     - https://access.redhat.com/security/cve/CVE-2024-34156
+    - https://bugzilla.redhat.com/2310528
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2310528
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-34156
+    - https://errata.almalinux.org/9/ALSA-2024-7204.html
+    - https://errata.rockylinux.org/RLSA-2024:7204
     - https://go.dev/cl/611239
     - https://go.dev/issue/69139
     - https://groups.google.com/g/golang-dev/c/S9POB9NCTdk
+    - https://linux.oracle.com/cve/CVE-2024-34156.html
+    - https://linux.oracle.com/errata/ELSA-2024-7262.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-34156
     - https://pkg.go.dev/vuln/GO-2024-3106
     - https://www.cve.org/CVERecord?id=CVE-2024-34156
     PublishedDate: '2024-09-06T21:15:12.02Z'
-    LastModifiedDate: '2024-09-06T21:15:12.02Z'
+    LastModifiedDate: '2024-09-09T15:35:07.573Z'
   - VulnerabilityID: CVE-2024-34155
     PkgName: stdlib
     PkgIdentifier:
@@ -8176,25 +10453,46 @@
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
-    Title: 'go/parser: Calling any of the Parse functions containing deeply nested literals can cause a panic/stack exhaustion'
+    Title: 'go/parser: golang: Calling any of the Parse functions containing deeply nested literals can cause a panic/stack exhaustion'
     Description: Calling any of the Parse functions on Go source code which contains deeply nested literals can cause a panic due to stack exhaustion.
     Severity: MEDIUM
     VendorSeverity:
+      alma: 3
+      amazon: 3
+      oracle-oval: 3
       redhat: 2
+      rocky: 3
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
     References:
+    - https://access.redhat.com/errata/RHSA-2024:6913
     - https://access.redhat.com/security/cve/CVE-2024-34155
+    - https://bugzilla.redhat.com/2295310
+    - https://bugzilla.redhat.com/2310527
+    - https://bugzilla.redhat.com/2310528
+    - https://bugzilla.redhat.com/2310529
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2295310
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2310527
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2310528
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2310529
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24791
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-34155
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-34156
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-34158
+    - https://errata.almalinux.org/9/ALSA-2024-6913.html
+    - https://errata.rockylinux.org/RLSA-2024:6913
     - https://go.dev/cl/611238
     - https://go.dev/issue/69138
     - https://groups.google.com/g/golang-dev/c/S9POB9NCTdk
+    - https://linux.oracle.com/cve/CVE-2024-34155.html
+    - https://linux.oracle.com/errata/ELSA-2024-6913.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-34155
     - https://pkg.go.dev/vuln/GO-2024-3105
     - https://www.cve.org/CVERecord?id=CVE-2024-34155
     PublishedDate: '2024-09-06T21:15:11.947Z'
-    LastModifiedDate: '2024-09-06T21:15:11.947Z'
+    LastModifiedDate: '2024-09-09T13:03:38.303Z'
   - VulnerabilityID: CVE-2024-34158
     PkgName: stdlib
     PkgIdentifier:
@@ -8214,22 +10512,49 @@
     Title: 'go/build/constraint: golang: Calling Parse on a "// +build" build tag line with deeply nested expressions can cause a panic due to stack exhaustion'
     Description: Calling Parse on a "// +build" build tag line with deeply nested expressions can cause a panic due to stack exhaustion.
     Severity: MEDIUM
+    CweIDs:
+    - CWE-674
     VendorSeverity:
+      alma: 3
+      amazon: 3
+      bitnami: 3
+      oracle-oval: 3
       redhat: 2
+      rocky: 3
     CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
     References:
+    - https://access.redhat.com/errata/RHSA-2024:6913
     - https://access.redhat.com/security/cve/CVE-2024-34158
+    - https://bugzilla.redhat.com/2295310
+    - https://bugzilla.redhat.com/2310527
+    - https://bugzilla.redhat.com/2310528
+    - https://bugzilla.redhat.com/2310529
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2295310
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2310527
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2310528
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2310529
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24791
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-34155
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-34156
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-34158
+    - https://errata.almalinux.org/9/ALSA-2024-6913.html
+    - https://errata.rockylinux.org/RLSA-2024:6913
     - https://go.dev/cl/611240
     - https://go.dev/issue/69141
     - https://groups.google.com/g/golang-dev/c/S9POB9NCTdk
+    - https://linux.oracle.com/cve/CVE-2024-34158.html
+    - https://linux.oracle.com/errata/ELSA-2024-6913.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-34158
     - https://pkg.go.dev/vuln/GO-2024-3107
     - https://www.cve.org/CVERecord?id=CVE-2024-34158
     PublishedDate: '2024-09-06T21:15:12.083Z'
-    LastModifiedDate: '2024-09-06T21:15:12.083Z'
+    LastModifiedDate: '2024-09-09T14:35:01.17Z'
 - Target: usr/bin/kubectl
   Class: lang-pkgs
   Type: gobinary
@@ -8250,25 +10575,41 @@
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
-    Title: 'encoding/gob: Calling Decoder.Decode on a message which contains deeply nested structures can cause a panic due to stack exhaustion'
+    Title: 'encoding/gob: golang: Calling Decoder.Decode on a message which contains deeply nested structures can cause a panic due to stack exhaustion'
     Description: Calling Decoder.Decode on a message which contains deeply nested structures can cause a panic due to stack exhaustion. This is a follow-up to CVE-2022-30635.
     Severity: HIGH
     VendorSeverity:
+      alma: 3
+      amazon: 3
+      bitnami: 3
+      oracle-oval: 3
       redhat: 3
+      rocky: 3
     CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
+    - https://access.redhat.com/errata/RHSA-2024:7204
     - https://access.redhat.com/security/cve/CVE-2024-34156
+    - https://bugzilla.redhat.com/2310528
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2310528
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-34156
+    - https://errata.almalinux.org/9/ALSA-2024-7204.html
+    - https://errata.rockylinux.org/RLSA-2024:7204
     - https://go.dev/cl/611239
     - https://go.dev/issue/69139
     - https://groups.google.com/g/golang-dev/c/S9POB9NCTdk
+    - https://linux.oracle.com/cve/CVE-2024-34156.html
+    - https://linux.oracle.com/errata/ELSA-2024-7262.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-34156
     - https://pkg.go.dev/vuln/GO-2024-3106
     - https://www.cve.org/CVERecord?id=CVE-2024-34156
     PublishedDate: '2024-09-06T21:15:12.02Z'
-    LastModifiedDate: '2024-09-06T21:15:12.02Z'
+    LastModifiedDate: '2024-09-09T15:35:07.573Z'
   - VulnerabilityID: CVE-2024-34155
     PkgName: stdlib
     PkgIdentifier:
@@ -8285,25 +10626,46 @@
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
-    Title: 'go/parser: Calling any of the Parse functions containing deeply nested literals can cause a panic/stack exhaustion'
+    Title: 'go/parser: golang: Calling any of the Parse functions containing deeply nested literals can cause a panic/stack exhaustion'
     Description: Calling any of the Parse functions on Go source code which contains deeply nested literals can cause a panic due to stack exhaustion.
     Severity: MEDIUM
     VendorSeverity:
+      alma: 3
+      amazon: 3
+      oracle-oval: 3
       redhat: 2
+      rocky: 3
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
     References:
+    - https://access.redhat.com/errata/RHSA-2024:6913
     - https://access.redhat.com/security/cve/CVE-2024-34155
+    - https://bugzilla.redhat.com/2295310
+    - https://bugzilla.redhat.com/2310527
+    - https://bugzilla.redhat.com/2310528
+    - https://bugzilla.redhat.com/2310529
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2295310
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2310527
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2310528
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2310529
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24791
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-34155
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-34156
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-34158
+    - https://errata.almalinux.org/9/ALSA-2024-6913.html
+    - https://errata.rockylinux.org/RLSA-2024:6913
     - https://go.dev/cl/611238
     - https://go.dev/issue/69138
     - https://groups.google.com/g/golang-dev/c/S9POB9NCTdk
+    - https://linux.oracle.com/cve/CVE-2024-34155.html
+    - https://linux.oracle.com/errata/ELSA-2024-6913.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-34155
     - https://pkg.go.dev/vuln/GO-2024-3105
     - https://www.cve.org/CVERecord?id=CVE-2024-34155
     PublishedDate: '2024-09-06T21:15:11.947Z'
-    LastModifiedDate: '2024-09-06T21:15:11.947Z'
+    LastModifiedDate: '2024-09-09T13:03:38.303Z'
   - VulnerabilityID: CVE-2024-34158
     PkgName: stdlib
     PkgIdentifier:
@@ -8323,22 +10685,49 @@
     Title: 'go/build/constraint: golang: Calling Parse on a "// +build" build tag line with deeply nested expressions can cause a panic due to stack exhaustion'
     Description: Calling Parse on a "// +build" build tag line with deeply nested expressions can cause a panic due to stack exhaustion.
     Severity: MEDIUM
+    CweIDs:
+    - CWE-674
     VendorSeverity:
+      alma: 3
+      amazon: 3
+      bitnami: 3
+      oracle-oval: 3
       redhat: 2
+      rocky: 3
     CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
     References:
+    - https://access.redhat.com/errata/RHSA-2024:6913
     - https://access.redhat.com/security/cve/CVE-2024-34158
+    - https://bugzilla.redhat.com/2295310
+    - https://bugzilla.redhat.com/2310527
+    - https://bugzilla.redhat.com/2310528
+    - https://bugzilla.redhat.com/2310529
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2295310
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2310527
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2310528
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2310529
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24791
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-34155
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-34156
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-34158
+    - https://errata.almalinux.org/9/ALSA-2024-6913.html
+    - https://errata.rockylinux.org/RLSA-2024:6913
     - https://go.dev/cl/611240
     - https://go.dev/issue/69141
     - https://groups.google.com/g/golang-dev/c/S9POB9NCTdk
+    - https://linux.oracle.com/cve/CVE-2024-34158.html
+    - https://linux.oracle.com/errata/ELSA-2024-6913.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-34158
     - https://pkg.go.dev/vuln/GO-2024-3107
     - https://www.cve.org/CVERecord?id=CVE-2024-34158
     PublishedDate: '2024-09-06T21:15:12.083Z'
-    LastModifiedDate: '2024-09-06T21:15:12.083Z'
+    LastModifiedDate: '2024-09-09T14:35:01.17Z'
 - Target: usr/bin/mc
   Class: lang-pkgs
   Type: gobinary
@@ -8359,25 +10748,41 @@
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
-    Title: 'encoding/gob: Calling Decoder.Decode on a message which contains deeply nested structures can cause a panic due to stack exhaustion'
+    Title: 'encoding/gob: golang: Calling Decoder.Decode on a message which contains deeply nested structures can cause a panic due to stack exhaustion'
     Description: Calling Decoder.Decode on a message which contains deeply nested structures can cause a panic due to stack exhaustion. This is a follow-up to CVE-2022-30635.
     Severity: HIGH
     VendorSeverity:
+      alma: 3
+      amazon: 3
+      bitnami: 3
+      oracle-oval: 3
       redhat: 3
+      rocky: 3
     CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
+    - https://access.redhat.com/errata/RHSA-2024:7204
     - https://access.redhat.com/security/cve/CVE-2024-34156
+    - https://bugzilla.redhat.com/2310528
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2310528
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-34156
+    - https://errata.almalinux.org/9/ALSA-2024-7204.html
+    - https://errata.rockylinux.org/RLSA-2024:7204
     - https://go.dev/cl/611239
     - https://go.dev/issue/69139
     - https://groups.google.com/g/golang-dev/c/S9POB9NCTdk
+    - https://linux.oracle.com/cve/CVE-2024-34156.html
+    - https://linux.oracle.com/errata/ELSA-2024-7262.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-34156
     - https://pkg.go.dev/vuln/GO-2024-3106
     - https://www.cve.org/CVERecord?id=CVE-2024-34156
     PublishedDate: '2024-09-06T21:15:12.02Z'
-    LastModifiedDate: '2024-09-06T21:15:12.02Z'
+    LastModifiedDate: '2024-09-09T15:35:07.573Z'
   - VulnerabilityID: CVE-2024-34155
     PkgName: stdlib
     PkgIdentifier:
@@ -8394,25 +10799,46 @@
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
-    Title: 'go/parser: Calling any of the Parse functions containing deeply nested literals can cause a panic/stack exhaustion'
+    Title: 'go/parser: golang: Calling any of the Parse functions containing deeply nested literals can cause a panic/stack exhaustion'
     Description: Calling any of the Parse functions on Go source code which contains deeply nested literals can cause a panic due to stack exhaustion.
     Severity: MEDIUM
     VendorSeverity:
+      alma: 3
+      amazon: 3
+      oracle-oval: 3
       redhat: 2
+      rocky: 3
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
     References:
+    - https://access.redhat.com/errata/RHSA-2024:6913
     - https://access.redhat.com/security/cve/CVE-2024-34155
+    - https://bugzilla.redhat.com/2295310
+    - https://bugzilla.redhat.com/2310527
+    - https://bugzilla.redhat.com/2310528
+    - https://bugzilla.redhat.com/2310529
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2295310
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2310527
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2310528
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2310529
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24791
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-34155
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-34156
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-34158
+    - https://errata.almalinux.org/9/ALSA-2024-6913.html
+    - https://errata.rockylinux.org/RLSA-2024:6913
     - https://go.dev/cl/611238
     - https://go.dev/issue/69138
     - https://groups.google.com/g/golang-dev/c/S9POB9NCTdk
+    - https://linux.oracle.com/cve/CVE-2024-34155.html
+    - https://linux.oracle.com/errata/ELSA-2024-6913.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-34155
     - https://pkg.go.dev/vuln/GO-2024-3105
     - https://www.cve.org/CVERecord?id=CVE-2024-34155
     PublishedDate: '2024-09-06T21:15:11.947Z'
-    LastModifiedDate: '2024-09-06T21:15:11.947Z'
+    LastModifiedDate: '2024-09-09T13:03:38.303Z'
   - VulnerabilityID: CVE-2024-34158
     PkgName: stdlib
     PkgIdentifier:
@@ -8432,22 +10858,49 @@
     Title: 'go/build/constraint: golang: Calling Parse on a "// +build" build tag line with deeply nested expressions can cause a panic due to stack exhaustion'
     Description: Calling Parse on a "// +build" build tag line with deeply nested expressions can cause a panic due to stack exhaustion.
     Severity: MEDIUM
+    CweIDs:
+    - CWE-674
     VendorSeverity:
+      alma: 3
+      amazon: 3
+      bitnami: 3
+      oracle-oval: 3
       redhat: 2
+      rocky: 3
     CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
     References:
+    - https://access.redhat.com/errata/RHSA-2024:6913
     - https://access.redhat.com/security/cve/CVE-2024-34158
+    - https://bugzilla.redhat.com/2295310
+    - https://bugzilla.redhat.com/2310527
+    - https://bugzilla.redhat.com/2310528
+    - https://bugzilla.redhat.com/2310529
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2295310
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2310527
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2310528
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2310529
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24791
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-34155
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-34156
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-34158
+    - https://errata.almalinux.org/9/ALSA-2024-6913.html
+    - https://errata.rockylinux.org/RLSA-2024:6913
     - https://go.dev/cl/611240
     - https://go.dev/issue/69141
     - https://groups.google.com/g/golang-dev/c/S9POB9NCTdk
+    - https://linux.oracle.com/cve/CVE-2024-34158.html
+    - https://linux.oracle.com/errata/ELSA-2024-6913.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-34158
     - https://pkg.go.dev/vuln/GO-2024-3107
     - https://www.cve.org/CVERecord?id=CVE-2024-34158
     PublishedDate: '2024-09-06T21:15:12.083Z'
-    LastModifiedDate: '2024-09-06T21:15:12.083Z'
+    LastModifiedDate: '2024-09-09T14:35:01.17Z'
 - Target: usr/local/bin/k3d
   Class: lang-pkgs
   Type: gobinary
@@ -8567,25 +11020,41 @@
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
-    Title: 'encoding/gob: Calling Decoder.Decode on a message which contains deeply nested structures can cause a panic due to stack exhaustion'
+    Title: 'encoding/gob: golang: Calling Decoder.Decode on a message which contains deeply nested structures can cause a panic due to stack exhaustion'
     Description: Calling Decoder.Decode on a message which contains deeply nested structures can cause a panic due to stack exhaustion. This is a follow-up to CVE-2022-30635.
     Severity: HIGH
     VendorSeverity:
+      alma: 3
+      amazon: 3
+      bitnami: 3
+      oracle-oval: 3
       redhat: 3
+      rocky: 3
     CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
+    - https://access.redhat.com/errata/RHSA-2024:7204
     - https://access.redhat.com/security/cve/CVE-2024-34156
+    - https://bugzilla.redhat.com/2310528
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2310528
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-34156
+    - https://errata.almalinux.org/9/ALSA-2024-7204.html
+    - https://errata.rockylinux.org/RLSA-2024:7204
     - https://go.dev/cl/611239
     - https://go.dev/issue/69139
     - https://groups.google.com/g/golang-dev/c/S9POB9NCTdk
+    - https://linux.oracle.com/cve/CVE-2024-34156.html
+    - https://linux.oracle.com/errata/ELSA-2024-7262.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-34156
     - https://pkg.go.dev/vuln/GO-2024-3106
     - https://www.cve.org/CVERecord?id=CVE-2024-34156
     PublishedDate: '2024-09-06T21:15:12.02Z'
-    LastModifiedDate: '2024-09-06T21:15:12.02Z'
+    LastModifiedDate: '2024-09-09T15:35:07.573Z'
   - VulnerabilityID: CVE-2024-34155
     PkgName: stdlib
     PkgIdentifier:
@@ -8602,25 +11071,46 @@
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
-    Title: 'go/parser: Calling any of the Parse functions containing deeply nested literals can cause a panic/stack exhaustion'
+    Title: 'go/parser: golang: Calling any of the Parse functions containing deeply nested literals can cause a panic/stack exhaustion'
     Description: Calling any of the Parse functions on Go source code which contains deeply nested literals can cause a panic due to stack exhaustion.
     Severity: MEDIUM
     VendorSeverity:
+      alma: 3
+      amazon: 3
+      oracle-oval: 3
       redhat: 2
+      rocky: 3
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
     References:
+    - https://access.redhat.com/errata/RHSA-2024:6913
     - https://access.redhat.com/security/cve/CVE-2024-34155
+    - https://bugzilla.redhat.com/2295310
+    - https://bugzilla.redhat.com/2310527
+    - https://bugzilla.redhat.com/2310528
+    - https://bugzilla.redhat.com/2310529
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2295310
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2310527
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2310528
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2310529
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24791
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-34155
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-34156
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-34158
+    - https://errata.almalinux.org/9/ALSA-2024-6913.html
+    - https://errata.rockylinux.org/RLSA-2024:6913
     - https://go.dev/cl/611238
     - https://go.dev/issue/69138
     - https://groups.google.com/g/golang-dev/c/S9POB9NCTdk
+    - https://linux.oracle.com/cve/CVE-2024-34155.html
+    - https://linux.oracle.com/errata/ELSA-2024-6913.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-34155
     - https://pkg.go.dev/vuln/GO-2024-3105
     - https://www.cve.org/CVERecord?id=CVE-2024-34155
     PublishedDate: '2024-09-06T21:15:11.947Z'
-    LastModifiedDate: '2024-09-06T21:15:11.947Z'
+    LastModifiedDate: '2024-09-09T13:03:38.303Z'
   - VulnerabilityID: CVE-2024-34158
     PkgName: stdlib
     PkgIdentifier:
@@ -8640,22 +11130,49 @@
     Title: 'go/build/constraint: golang: Calling Parse on a "// +build" build tag line with deeply nested expressions can cause a panic due to stack exhaustion'
     Description: Calling Parse on a "// +build" build tag line with deeply nested expressions can cause a panic due to stack exhaustion.
     Severity: MEDIUM
+    CweIDs:
+    - CWE-674
     VendorSeverity:
+      alma: 3
+      amazon: 3
+      bitnami: 3
+      oracle-oval: 3
       redhat: 2
+      rocky: 3
     CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
     References:
+    - https://access.redhat.com/errata/RHSA-2024:6913
     - https://access.redhat.com/security/cve/CVE-2024-34158
+    - https://bugzilla.redhat.com/2295310
+    - https://bugzilla.redhat.com/2310527
+    - https://bugzilla.redhat.com/2310528
+    - https://bugzilla.redhat.com/2310529
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2295310
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2310527
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2310528
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2310529
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24791
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-34155
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-34156
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-34158
+    - https://errata.almalinux.org/9/ALSA-2024-6913.html
+    - https://errata.rockylinux.org/RLSA-2024:6913
     - https://go.dev/cl/611240
     - https://go.dev/issue/69141
     - https://groups.google.com/g/golang-dev/c/S9POB9NCTdk
+    - https://linux.oracle.com/cve/CVE-2024-34158.html
+    - https://linux.oracle.com/errata/ELSA-2024-6913.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-34158
     - https://pkg.go.dev/vuln/GO-2024-3107
     - https://www.cve.org/CVERecord?id=CVE-2024-34158
     PublishedDate: '2024-09-06T21:15:12.083Z'
-    LastModifiedDate: '2024-09-06T21:15:12.083Z'
+    LastModifiedDate: '2024-09-09T14:35:01.17Z'
 - Target: /etc/ssh/ssh_host_dsa_key
   Class: secret
   Secrets:
