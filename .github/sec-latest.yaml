@@ -2505,6 +2505,7 @@
     - https://my.f5.com/manage/s/article/K000140529
     - https://nvd.nist.gov/vuln/detail/CVE-2024-7347
     - https://ubuntu.com/security/notices/USN-7014-1
+    - https://ubuntu.com/security/notices/USN-7014-2
     - https://www.cve.org/CVERecord?id=CVE-2024-7347
     PublishedDate: '2024-08-14T15:15:31.87Z'
     LastModifiedDate: '2024-08-20T19:25:17.513Z'
@@ -2556,6 +2557,7 @@
     - https://my.f5.com/manage/s/article/K000140529
     - https://nvd.nist.gov/vuln/detail/CVE-2024-7347
     - https://ubuntu.com/security/notices/USN-7014-1
+    - https://ubuntu.com/security/notices/USN-7014-2
     - https://www.cve.org/CVERecord?id=CVE-2024-7347
     PublishedDate: '2024-08-14T15:15:31.87Z'
     LastModifiedDate: '2024-08-20T19:25:17.513Z'
@@ -2607,6 +2609,7 @@
     - https://my.f5.com/manage/s/article/K000140529
     - https://nvd.nist.gov/vuln/detail/CVE-2024-7347
     - https://ubuntu.com/security/notices/USN-7014-1
+    - https://ubuntu.com/security/notices/USN-7014-2
     - https://www.cve.org/CVERecord?id=CVE-2024-7347
     PublishedDate: '2024-08-14T15:15:31.87Z'
     LastModifiedDate: '2024-08-20T19:25:17.513Z'
@@ -2658,6 +2661,7 @@
     - https://my.f5.com/manage/s/article/K000140529
     - https://nvd.nist.gov/vuln/detail/CVE-2024-7347
     - https://ubuntu.com/security/notices/USN-7014-1
+    - https://ubuntu.com/security/notices/USN-7014-2
     - https://www.cve.org/CVERecord?id=CVE-2024-7347
     PublishedDate: '2024-08-14T15:15:31.87Z'
     LastModifiedDate: '2024-08-20T19:25:17.513Z'
@@ -2709,6 +2713,7 @@
     - https://my.f5.com/manage/s/article/K000140529
     - https://nvd.nist.gov/vuln/detail/CVE-2024-7347
     - https://ubuntu.com/security/notices/USN-7014-1
+    - https://ubuntu.com/security/notices/USN-7014-2
     - https://www.cve.org/CVERecord?id=CVE-2024-7347
     PublishedDate: '2024-08-14T15:15:31.87Z'
     LastModifiedDate: '2024-08-20T19:25:17.513Z'
@@ -2760,6 +2765,7 @@
     - https://my.f5.com/manage/s/article/K000140529
     - https://nvd.nist.gov/vuln/detail/CVE-2024-7347
     - https://ubuntu.com/security/notices/USN-7014-1
+    - https://ubuntu.com/security/notices/USN-7014-2
     - https://www.cve.org/CVERecord?id=CVE-2024-7347
     PublishedDate: '2024-08-14T15:15:31.87Z'
     LastModifiedDate: '2024-08-20T19:25:17.513Z'
@@ -2983,31 +2989,24 @@
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Title: 'libpng: Null pointer dereference leads to segmentation fault'
-    Description: A flaw was found in libpng 1.6.38. A crafted PNG image can lead to a segmentation fault and denial of service in png_setup_paeth_row() function.
+    Description: 'Rejected reason: Maintainer contacted. This is a false-positive. The flaw does not actually exist and was erroneously tested.'
     Severity: LOW
-    CweIDs:
-    - CWE-476
     VendorSeverity:
       azure: 2
       cbl-mariner: 2
-      nvd: 2
       redhat: 1
       ubuntu: 1
     CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
-        V3Score: 5.5
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
         V3Score: 5.5
     References:
     - https://access.redhat.com/security/cve/CVE-2022-3857
     - https://nvd.nist.gov/vuln/detail/CVE-2022-3857
-    - https://security.netapp.com/advisory/ntap-20230406-0004/
     - https://sourceforge.net/p/libpng/bugs/300/
     - https://www.cve.org/CVERecord?id=CVE-2022-3857
     PublishedDate: '2023-03-06T23:15:11.087Z'
-    LastModifiedDate: '2023-04-06T13:15:08.467Z'
+    LastModifiedDate: '2024-10-09T04:15:06.567Z'
   - VulnerabilityID: CVE-2023-27043
     PkgID: libpython3.10@3.10.12-1~22.04.5
     PkgName: libpython3.10
@@ -4415,7 +4414,7 @@
     - https://ubuntu.com/security/notices/USN-6997-2
     - https://www.cve.org/CVERecord?id=CVE-2024-7006
     PublishedDate: '2024-08-12T13:38:40.577Z'
-    LastModifiedDate: '2024-09-06T17:15:17.387Z'
+    LastModifiedDate: '2024-10-11T14:39:13.093Z'
   - VulnerabilityID: CVE-2024-6716
     PkgID: libtiff5@4.3.0-6ubuntu0.9
     PkgName: libtiff5
@@ -5044,6 +5043,7 @@
     - https://my.f5.com/manage/s/article/K000140529
     - https://nvd.nist.gov/vuln/detail/CVE-2024-7347
     - https://ubuntu.com/security/notices/USN-7014-1
+    - https://ubuntu.com/security/notices/USN-7014-2
     - https://www.cve.org/CVERecord?id=CVE-2024-7347
     PublishedDate: '2024-08-14T15:15:31.87Z'
     LastModifiedDate: '2024-08-20T19:25:17.513Z'
@@ -5095,6 +5095,7 @@
     - https://my.f5.com/manage/s/article/K000140529
     - https://nvd.nist.gov/vuln/detail/CVE-2024-7347
     - https://ubuntu.com/security/notices/USN-7014-1
+    - https://ubuntu.com/security/notices/USN-7014-2
     - https://www.cve.org/CVERecord?id=CVE-2024-7347
     PublishedDate: '2024-08-14T15:15:31.87Z'
     LastModifiedDate: '2024-08-20T19:25:17.513Z'
@@ -5146,6 +5147,7 @@
     - https://my.f5.com/manage/s/article/K000140529
     - https://nvd.nist.gov/vuln/detail/CVE-2024-7347
     - https://ubuntu.com/security/notices/USN-7014-1
+    - https://ubuntu.com/security/notices/USN-7014-2
     - https://www.cve.org/CVERecord?id=CVE-2024-7347
     PublishedDate: '2024-08-14T15:15:31.87Z'
     LastModifiedDate: '2024-08-20T19:25:17.513Z'
@@ -6207,6 +6209,129 @@
     - https://www.trustwave.com/en-us/resources/security-resources/security-advisories/?fid=31797
     PublishedDate: '2023-04-14T22:15:07.68Z'
     LastModifiedDate: '2023-04-24T18:05:30.313Z'
+  - VulnerabilityID: CVE-2024-43802
+    PkgID: vim@2:8.2.3995-1ubuntu2.18
+    PkgName: vim
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/vim@8.2.3995-1ubuntu2.18?arch=amd64&distro=ubuntu-22.04&epoch=2
+      UID: 2f6699da568ec6be
+    InstalledVersion: 2:8.2.3995-1ubuntu2.18
+    FixedVersion: 2:8.2.3995-1ubuntu2.19
+    Status: fixed
+    Layer:
+      Digest: sha256:eb4108e75dc6f8e6fc5a5e04197674c0d9a1dd13ec796f87aff09fd0a4bbd6ca
+      DiffID: sha256:853b5d95f07f5f2e1b0bf3839c45f15d937b8d18ad499f49ad4553075cd9fdf4
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-43802
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'vim: Heap Buffer Overflow in Vim''s Typeahead Buffer Handling'
+    Description: Vim is an improved version of the unix vi text editor. When flushing the typeahead buffer, Vim moves the current position in the typeahead buffer but does not check whether there is enough space left in the buffer to handle the next characters.  So this may lead to the tb_off position within the typebuf variable to point outside of the valid buffer size, which can then later lead to a heap-buffer overflow in e.g. ins_typebuf(). Therefore, when flushing the typeahead buffer, check if there is enough space left before advancing the off position. If not, fall back to flush current typebuf contents. It's not quite clear yet, what can lead to this situation. It seems to happen when error messages occur (which will cause Vim to flush the typeahead buffer) in comnination with several long mappgins and so it may eventually move the off position out of a valid buffer size. Impact is low since it is not easily reproducible and requires to have several mappings active and run into some error condition. But when this happens, this will cause a crash. The issue has been fixed as of Vim patch v9.1.0697. Users are advised to upgrade. There are no known workarounds for this issue.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-122
+    VendorSeverity:
+      photon: 2
+      redhat: 1
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:L/I:L/A:L
+        V3Score: 4.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-43802
+    - https://github.com/vim/vim/commit/322ba9108612bead5eb
+    - https://github.com/vim/vim/commit/322ba9108612bead5eb7731ccb66763dec69ef1b (v9.1.0697)
+    - https://github.com/vim/vim/security/advisories/GHSA-4ghr-c62x-cqfh
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-43802
+    - https://ubuntu.com/security/notices/USN-7048-1
+    - https://www.cve.org/CVERecord?id=CVE-2024-43802
+    PublishedDate: '2024-08-26T19:15:07.943Z'
+    LastModifiedDate: '2024-08-27T13:02:05.683Z'
+  - VulnerabilityID: CVE-2024-43802
+    PkgID: vim-common@2:8.2.3995-1ubuntu2.18
+    PkgName: vim-common
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/vim-common@8.2.3995-1ubuntu2.18?arch=all&distro=ubuntu-22.04&epoch=2
+      UID: 7bc4f515f48ccaf8
+    InstalledVersion: 2:8.2.3995-1ubuntu2.18
+    FixedVersion: 2:8.2.3995-1ubuntu2.19
+    Status: fixed
+    Layer:
+      Digest: sha256:eb4108e75dc6f8e6fc5a5e04197674c0d9a1dd13ec796f87aff09fd0a4bbd6ca
+      DiffID: sha256:853b5d95f07f5f2e1b0bf3839c45f15d937b8d18ad499f49ad4553075cd9fdf4
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-43802
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'vim: Heap Buffer Overflow in Vim''s Typeahead Buffer Handling'
+    Description: Vim is an improved version of the unix vi text editor. When flushing the typeahead buffer, Vim moves the current position in the typeahead buffer but does not check whether there is enough space left in the buffer to handle the next characters.  So this may lead to the tb_off position within the typebuf variable to point outside of the valid buffer size, which can then later lead to a heap-buffer overflow in e.g. ins_typebuf(). Therefore, when flushing the typeahead buffer, check if there is enough space left before advancing the off position. If not, fall back to flush current typebuf contents. It's not quite clear yet, what can lead to this situation. It seems to happen when error messages occur (which will cause Vim to flush the typeahead buffer) in comnination with several long mappgins and so it may eventually move the off position out of a valid buffer size. Impact is low since it is not easily reproducible and requires to have several mappings active and run into some error condition. But when this happens, this will cause a crash. The issue has been fixed as of Vim patch v9.1.0697. Users are advised to upgrade. There are no known workarounds for this issue.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-122
+    VendorSeverity:
+      photon: 2
+      redhat: 1
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:L/I:L/A:L
+        V3Score: 4.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-43802
+    - https://github.com/vim/vim/commit/322ba9108612bead5eb
+    - https://github.com/vim/vim/commit/322ba9108612bead5eb7731ccb66763dec69ef1b (v9.1.0697)
+    - https://github.com/vim/vim/security/advisories/GHSA-4ghr-c62x-cqfh
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-43802
+    - https://ubuntu.com/security/notices/USN-7048-1
+    - https://www.cve.org/CVERecord?id=CVE-2024-43802
+    PublishedDate: '2024-08-26T19:15:07.943Z'
+    LastModifiedDate: '2024-08-27T13:02:05.683Z'
+  - VulnerabilityID: CVE-2024-43802
+    PkgID: vim-runtime@2:8.2.3995-1ubuntu2.18
+    PkgName: vim-runtime
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/vim-runtime@8.2.3995-1ubuntu2.18?arch=all&distro=ubuntu-22.04&epoch=2
+      UID: e41f9afd7a5b925b
+    InstalledVersion: 2:8.2.3995-1ubuntu2.18
+    FixedVersion: 2:8.2.3995-1ubuntu2.19
+    Status: fixed
+    Layer:
+      Digest: sha256:eb4108e75dc6f8e6fc5a5e04197674c0d9a1dd13ec796f87aff09fd0a4bbd6ca
+      DiffID: sha256:853b5d95f07f5f2e1b0bf3839c45f15d937b8d18ad499f49ad4553075cd9fdf4
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-43802
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'vim: Heap Buffer Overflow in Vim''s Typeahead Buffer Handling'
+    Description: Vim is an improved version of the unix vi text editor. When flushing the typeahead buffer, Vim moves the current position in the typeahead buffer but does not check whether there is enough space left in the buffer to handle the next characters.  So this may lead to the tb_off position within the typebuf variable to point outside of the valid buffer size, which can then later lead to a heap-buffer overflow in e.g. ins_typebuf(). Therefore, when flushing the typeahead buffer, check if there is enough space left before advancing the off position. If not, fall back to flush current typebuf contents. It's not quite clear yet, what can lead to this situation. It seems to happen when error messages occur (which will cause Vim to flush the typeahead buffer) in comnination with several long mappgins and so it may eventually move the off position out of a valid buffer size. Impact is low since it is not easily reproducible and requires to have several mappings active and run into some error condition. But when this happens, this will cause a crash. The issue has been fixed as of Vim patch v9.1.0697. Users are advised to upgrade. There are no known workarounds for this issue.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-122
+    VendorSeverity:
+      photon: 2
+      redhat: 1
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:L/I:L/A:L
+        V3Score: 4.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-43802
+    - https://github.com/vim/vim/commit/322ba9108612bead5eb
+    - https://github.com/vim/vim/commit/322ba9108612bead5eb7731ccb66763dec69ef1b (v9.1.0697)
+    - https://github.com/vim/vim/security/advisories/GHSA-4ghr-c62x-cqfh
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-43802
+    - https://ubuntu.com/security/notices/USN-7048-1
+    - https://www.cve.org/CVERecord?id=CVE-2024-43802
+    PublishedDate: '2024-08-26T19:15:07.943Z'
+    LastModifiedDate: '2024-08-27T13:02:05.683Z'
   - VulnerabilityID: CVE-2021-31879
     PkgID: wget@1.21.2-2ubuntu1.1
     PkgName: wget
@@ -6254,6 +6379,47 @@
     - https://www.cve.org/CVERecord?id=CVE-2021-31879
     PublishedDate: '2021-04-29T05:15:08.707Z'
     LastModifiedDate: '2022-05-13T20:52:24.793Z'
+  - VulnerabilityID: CVE-2024-43802
+    PkgID: xxd@2:8.2.3995-1ubuntu2.18
+    PkgName: xxd
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/xxd@8.2.3995-1ubuntu2.18?arch=amd64&distro=ubuntu-22.04&epoch=2
+      UID: 77a7cf4a2340556
+    InstalledVersion: 2:8.2.3995-1ubuntu2.18
+    FixedVersion: 2:8.2.3995-1ubuntu2.19
+    Status: fixed
+    Layer:
+      Digest: sha256:eb4108e75dc6f8e6fc5a5e04197674c0d9a1dd13ec796f87aff09fd0a4bbd6ca
+      DiffID: sha256:853b5d95f07f5f2e1b0bf3839c45f15d937b8d18ad499f49ad4553075cd9fdf4
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-43802
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'vim: Heap Buffer Overflow in Vim''s Typeahead Buffer Handling'
+    Description: Vim is an improved version of the unix vi text editor. When flushing the typeahead buffer, Vim moves the current position in the typeahead buffer but does not check whether there is enough space left in the buffer to handle the next characters.  So this may lead to the tb_off position within the typebuf variable to point outside of the valid buffer size, which can then later lead to a heap-buffer overflow in e.g. ins_typebuf(). Therefore, when flushing the typeahead buffer, check if there is enough space left before advancing the off position. If not, fall back to flush current typebuf contents. It's not quite clear yet, what can lead to this situation. It seems to happen when error messages occur (which will cause Vim to flush the typeahead buffer) in comnination with several long mappgins and so it may eventually move the off position out of a valid buffer size. Impact is low since it is not easily reproducible and requires to have several mappings active and run into some error condition. But when this happens, this will cause a crash. The issue has been fixed as of Vim patch v9.1.0697. Users are advised to upgrade. There are no known workarounds for this issue.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-122
+    VendorSeverity:
+      photon: 2
+      redhat: 1
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:L/I:L/A:L
+        V3Score: 4.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-43802
+    - https://github.com/vim/vim/commit/322ba9108612bead5eb
+    - https://github.com/vim/vim/commit/322ba9108612bead5eb7731ccb66763dec69ef1b (v9.1.0697)
+    - https://github.com/vim/vim/security/advisories/GHSA-4ghr-c62x-cqfh
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-43802
+    - https://ubuntu.com/security/notices/USN-7048-1
+    - https://www.cve.org/CVERecord?id=CVE-2024-43802
+    PublishedDate: '2024-08-26T19:15:07.943Z'
+    LastModifiedDate: '2024-08-27T13:02:05.683Z'
 - Target: Java
   Class: lang-pkgs
   Type: jar
@@ -6465,6 +6631,7 @@
     - https://security.netapp.com/advisory/ntap-20231110-0008
     - https://security.netapp.com/advisory/ntap-20231110-0008/
     - https://ubuntu.com/security/notices/USN-6574-1
+    - https://ubuntu.com/security/notices/USN-7061-1
     - https://www.cisa.gov/news-events/alerts/2023/10/10/http2-rapid-reset-vulnerability-cve-2023-44487
     - https://www.cve.org/CVERecord?id=CVE-2023-39325
     PublishedDate: '2023-10-11T22:15:09.88Z'
@@ -7121,6 +7288,7 @@
     - https://security.netapp.com/advisory/ntap-20231110-0008
     - https://security.netapp.com/advisory/ntap-20231110-0008/
     - https://ubuntu.com/security/notices/USN-6574-1
+    - https://ubuntu.com/security/notices/USN-7061-1
     - https://www.cisa.gov/news-events/alerts/2023/10/10/http2-rapid-reset-vulnerability-cve-2023-44487
     - https://www.cve.org/CVERecord?id=CVE-2023-39325
     PublishedDate: '2023-10-11T22:15:09.88Z'
@@ -7375,6 +7543,7 @@
     - https://pkg.go.dev/vuln/GO-2023-1878
     - https://security.gentoo.org/glsa/202311-09
     - https://security.netapp.com/advisory/ntap-20230814-0002/
+    - https://ubuntu.com/security/notices/USN-7061-1
     - https://www.cve.org/CVERecord?id=CVE-2023-29406
     PublishedDate: '2023-07-11T20:15:10.643Z'
     LastModifiedDate: '2023-11-25T11:15:14.727Z'
@@ -7504,6 +7673,7 @@
     - https://security.gentoo.org/glsa/202311-09
     - https://security.netapp.com/advisory/ntap-20231020-0009/
     - https://ubuntu.com/security/notices/USN-6574-1
+    - https://ubuntu.com/security/notices/USN-7061-1
     - https://vuln.go.dev/ID/GO-2023-2041.json
     - https://www.cve.org/CVERecord?id=CVE-2023-39318
     PublishedDate: '2023-09-08T17:15:27.823Z'
@@ -7571,6 +7741,7 @@
     - https://security.gentoo.org/glsa/202311-09
     - https://security.netapp.com/advisory/ntap-20231020-0009/
     - https://ubuntu.com/security/notices/USN-6574-1
+    - https://ubuntu.com/security/notices/USN-7061-1
     - https://vuln.go.dev/ID/GO-2023-2043.json
     - https://www.cve.org/CVERecord?id=CVE-2023-39319
     PublishedDate: '2023-09-08T17:15:27.91Z'
@@ -8007,6 +8178,7 @@
     - https://pkg.go.dev/vuln/GO-2024-2610
     - https://security.netapp.com/advisory/ntap-20240329-0008/
     - https://ubuntu.com/security/notices/USN-6886-1
+    - https://ubuntu.com/security/notices/USN-7061-1
     - https://vuln.go.dev/ID/GO-2024-2610.json
     - https://www.cve.org/CVERecord?id=CVE-2024-24785
     PublishedDate: '2024-03-05T23:15:07.777Z'
@@ -8413,6 +8585,7 @@
     - https://security.netapp.com/advisory/ntap-20231110-0008
     - https://security.netapp.com/advisory/ntap-20231110-0008/
     - https://ubuntu.com/security/notices/USN-6574-1
+    - https://ubuntu.com/security/notices/USN-7061-1
     - https://www.cisa.gov/news-events/alerts/2023/10/10/http2-rapid-reset-vulnerability-cve-2023-44487
     - https://www.cve.org/CVERecord?id=CVE-2023-39325
     PublishedDate: '2023-10-11T22:15:09.88Z'
@@ -9069,6 +9242,7 @@
     - https://security.netapp.com/advisory/ntap-20231110-0008
     - https://security.netapp.com/advisory/ntap-20231110-0008/
     - https://ubuntu.com/security/notices/USN-6574-1
+    - https://ubuntu.com/security/notices/USN-7061-1
     - https://www.cisa.gov/news-events/alerts/2023/10/10/http2-rapid-reset-vulnerability-cve-2023-44487
     - https://www.cve.org/CVERecord?id=CVE-2023-39325
     PublishedDate: '2023-10-11T22:15:09.88Z'
@@ -9323,6 +9497,7 @@
     - https://pkg.go.dev/vuln/GO-2023-1878
     - https://security.gentoo.org/glsa/202311-09
     - https://security.netapp.com/advisory/ntap-20230814-0002/
+    - https://ubuntu.com/security/notices/USN-7061-1
     - https://www.cve.org/CVERecord?id=CVE-2023-29406
     PublishedDate: '2023-07-11T20:15:10.643Z'
     LastModifiedDate: '2023-11-25T11:15:14.727Z'
@@ -9452,6 +9627,7 @@
     - https://security.gentoo.org/glsa/202311-09
     - https://security.netapp.com/advisory/ntap-20231020-0009/
     - https://ubuntu.com/security/notices/USN-6574-1
+    - https://ubuntu.com/security/notices/USN-7061-1
     - https://vuln.go.dev/ID/GO-2023-2041.json
     - https://www.cve.org/CVERecord?id=CVE-2023-39318
     PublishedDate: '2023-09-08T17:15:27.823Z'
@@ -9519,6 +9695,7 @@
     - https://security.gentoo.org/glsa/202311-09
     - https://security.netapp.com/advisory/ntap-20231020-0009/
     - https://ubuntu.com/security/notices/USN-6574-1
+    - https://ubuntu.com/security/notices/USN-7061-1
     - https://vuln.go.dev/ID/GO-2023-2043.json
     - https://www.cve.org/CVERecord?id=CVE-2023-39319
     PublishedDate: '2023-09-08T17:15:27.91Z'
@@ -9955,6 +10132,7 @@
     - https://pkg.go.dev/vuln/GO-2024-2610
     - https://security.netapp.com/advisory/ntap-20240329-0008/
     - https://ubuntu.com/security/notices/USN-6886-1
+    - https://ubuntu.com/security/notices/USN-7061-1
     - https://vuln.go.dev/ID/GO-2024-2610.json
     - https://www.cve.org/CVERecord?id=CVE-2024-24785
     PublishedDate: '2024-03-05T23:15:07.777Z'
