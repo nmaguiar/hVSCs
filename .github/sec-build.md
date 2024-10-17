@@ -1441,6 +1441,7 @@
 │                        │      ├ Severity        : LOW 
 │                        │      ├ VendorSeverity   ╭ alma       : 1 
 │                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ azure      : 3 
 │                        │      │                  ├ cbl-mariner: 3 
 │                        │      │                  ├ oracle-oval: 1 
 │                        │      │                  ├ photon     : 2 
@@ -1595,6 +1596,7 @@
 │                        │      ├ Severity        : LOW 
 │                        │      ├ VendorSeverity   ╭ alma       : 1 
 │                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ azure      : 3 
 │                        │      │                  ├ cbl-mariner: 3 
 │                        │      │                  ├ oracle-oval: 1 
 │                        │      │                  ├ photon     : 2 
@@ -1749,6 +1751,7 @@
 │                        │      ├ Severity        : LOW 
 │                        │      ├ VendorSeverity   ╭ alma       : 1 
 │                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ azure      : 3 
 │                        │      │                  ├ cbl-mariner: 3 
 │                        │      │                  ├ oracle-oval: 1 
 │                        │      │                  ├ photon     : 2 
@@ -1903,6 +1906,7 @@
 │                        │      ├ Severity        : LOW 
 │                        │      ├ VendorSeverity   ╭ alma       : 1 
 │                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ azure      : 3 
 │                        │      │                  ├ cbl-mariner: 3 
 │                        │      │                  ├ oracle-oval: 1 
 │                        │      │                  ├ photon     : 2 
@@ -5393,7 +5397,7 @@
 │                        │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
 │                        │      │                            │           :N/A:H 
 │                        │      │                            ╰ V3Score : 7.5 
-│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:8039 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:8112 
 │                        │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024-34156 
 │                        │      │                  ├ [2] : https://bugzilla.redhat.com/2310527 
 │                        │      │                  ├ [3] : https://bugzilla.redhat.com/2310528 
@@ -5402,7 +5406,7 @@
 │                        │      │                  ├ [6] : https://bugzilla.redhat.com/show_bug.cgi?id=2310528 
 │                        │      │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                        │      │                  │       024-34156 
-│                        │      │                  ├ [8] : https://errata.almalinux.org/9/ALSA-2024-8039.html 
+│                        │      │                  ├ [8] : https://errata.almalinux.org/9/ALSA-2024-8112.html 
 │                        │      │                  ├ [9] : https://errata.rockylinux.org/RLSA-2024:7204 
 │                        │      │                  ├ [10]: https://go.dev/cl/611239 
 │                        │      │                  ├ [11]: https://go.dev/issue/69139 
@@ -6422,7 +6426,7 @@
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:
 │                        │      │                           │           N/A:H 
 │                        │      │                           ╰ V3Score : 5.9 
-│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:8039 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:8112 
 │                        │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024-34155 
 │                        │      │                  ├ [2] : https://bugzilla.redhat.com/2310527 
 │                        │      │                  ├ [3] : https://bugzilla.redhat.com/2310528 
@@ -6440,7 +6444,7 @@
 │                        │      │                  │       024-34156 
 │                        │      │                  ├ [13]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                        │      │                  │       024-34158 
-│                        │      │                  ├ [14]: https://errata.almalinux.org/9/ALSA-2024-8039.html 
+│                        │      │                  ├ [14]: https://errata.almalinux.org/9/ALSA-2024-8112.html 
 │                        │      │                  ├ [15]: https://errata.rockylinux.org/RLSA-2024:6913 
 │                        │      │                  ├ [16]: https://go.dev/cl/611238 
 │                        │      │                  ├ [17]: https://go.dev/issue/69138 
@@ -6487,7 +6491,7 @@
 │                               │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I
 │                               │                            │           :N/A:H 
 │                               │                            ╰ V3Score : 5.9 
-│                               ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:8039 
+│                               ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:8112 
 │                               │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024-34158 
 │                               │                  ├ [2] : https://bugzilla.redhat.com/2310527 
 │                               │                  ├ [3] : https://bugzilla.redhat.com/2310528 
@@ -6505,7 +6509,7 @@
 │                               │                  │       024-34156 
 │                               │                  ├ [13]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                               │                  │       024-34158 
-│                               │                  ├ [14]: https://errata.almalinux.org/9/ALSA-2024-8039.html 
+│                               │                  ├ [14]: https://errata.almalinux.org/9/ALSA-2024-8112.html 
 │                               │                  ├ [15]: https://errata.rockylinux.org/RLSA-2024:6913 
 │                               │                  ├ [16]: https://go.dev/cl/611240 
 │                               │                  ├ [17]: https://go.dev/issue/69141 
@@ -8133,7 +8137,7 @@
 │                        │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
 │                        │      │                            │           :N/A:H 
 │                        │      │                            ╰ V3Score : 7.5 
-│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:8039 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:8112 
 │                        │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024-34156 
 │                        │      │                  ├ [2] : https://bugzilla.redhat.com/2310527 
 │                        │      │                  ├ [3] : https://bugzilla.redhat.com/2310528 
@@ -8142,7 +8146,7 @@
 │                        │      │                  ├ [6] : https://bugzilla.redhat.com/show_bug.cgi?id=2310528 
 │                        │      │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                        │      │                  │       024-34156 
-│                        │      │                  ├ [8] : https://errata.almalinux.org/9/ALSA-2024-8039.html 
+│                        │      │                  ├ [8] : https://errata.almalinux.org/9/ALSA-2024-8112.html 
 │                        │      │                  ├ [9] : https://errata.rockylinux.org/RLSA-2024:7204 
 │                        │      │                  ├ [10]: https://go.dev/cl/611239 
 │                        │      │                  ├ [11]: https://go.dev/issue/69139 
@@ -9162,7 +9166,7 @@
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:
 │                        │      │                           │           N/A:H 
 │                        │      │                           ╰ V3Score : 5.9 
-│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:8039 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:8112 
 │                        │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024-34155 
 │                        │      │                  ├ [2] : https://bugzilla.redhat.com/2310527 
 │                        │      │                  ├ [3] : https://bugzilla.redhat.com/2310528 
@@ -9180,7 +9184,7 @@
 │                        │      │                  │       024-34156 
 │                        │      │                  ├ [13]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                        │      │                  │       024-34158 
-│                        │      │                  ├ [14]: https://errata.almalinux.org/9/ALSA-2024-8039.html 
+│                        │      │                  ├ [14]: https://errata.almalinux.org/9/ALSA-2024-8112.html 
 │                        │      │                  ├ [15]: https://errata.rockylinux.org/RLSA-2024:6913 
 │                        │      │                  ├ [16]: https://go.dev/cl/611238 
 │                        │      │                  ├ [17]: https://go.dev/issue/69138 
@@ -9227,7 +9231,7 @@
 │                               │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I
 │                               │                            │           :N/A:H 
 │                               │                            ╰ V3Score : 5.9 
-│                               ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:8039 
+│                               ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:8112 
 │                               │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024-34158 
 │                               │                  ├ [2] : https://bugzilla.redhat.com/2310527 
 │                               │                  ├ [3] : https://bugzilla.redhat.com/2310528 
@@ -9245,7 +9249,7 @@
 │                               │                  │       024-34156 
 │                               │                  ├ [13]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                               │                  │       024-34158 
-│                               │                  ├ [14]: https://errata.almalinux.org/9/ALSA-2024-8039.html 
+│                               │                  ├ [14]: https://errata.almalinux.org/9/ALSA-2024-8112.html 
 │                               │                  ├ [15]: https://errata.rockylinux.org/RLSA-2024:6913 
 │                               │                  ├ [16]: https://go.dev/cl/611240 
 │                               │                  ├ [17]: https://go.dev/issue/69141 
@@ -9300,7 +9304,7 @@
 │                        │     │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
 │                        │     │                            │           N/A:H 
 │                        │     │                            ╰ V3Score : 7.5 
-│                        │     ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:8039 
+│                        │     ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:8112 
 │                        │     │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024-34156 
 │                        │     │                  ├ [2] : https://bugzilla.redhat.com/2310527 
 │                        │     │                  ├ [3] : https://bugzilla.redhat.com/2310528 
@@ -9309,7 +9313,7 @@
 │                        │     │                  ├ [6] : https://bugzilla.redhat.com/show_bug.cgi?id=2310528 
 │                        │     │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                        │     │                  │       24-34156 
-│                        │     │                  ├ [8] : https://errata.almalinux.org/9/ALSA-2024-8039.html 
+│                        │     │                  ├ [8] : https://errata.almalinux.org/9/ALSA-2024-8112.html 
 │                        │     │                  ├ [9] : https://errata.rockylinux.org/RLSA-2024:7204 
 │                        │     │                  ├ [10]: https://go.dev/cl/611239 
 │                        │     │                  ├ [11]: https://go.dev/issue/69139 
@@ -9351,7 +9355,7 @@
 │                        │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N
 │                        │     │                           │           /A:H 
 │                        │     │                           ╰ V3Score : 5.9 
-│                        │     ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:8039 
+│                        │     ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:8112 
 │                        │     │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024-34155 
 │                        │     │                  ├ [2] : https://bugzilla.redhat.com/2310527 
 │                        │     │                  ├ [3] : https://bugzilla.redhat.com/2310528 
@@ -9369,7 +9373,7 @@
 │                        │     │                  │       24-34156 
 │                        │     │                  ├ [13]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                        │     │                  │       24-34158 
-│                        │     │                  ├ [14]: https://errata.almalinux.org/9/ALSA-2024-8039.html 
+│                        │     │                  ├ [14]: https://errata.almalinux.org/9/ALSA-2024-8112.html 
 │                        │     │                  ├ [15]: https://errata.rockylinux.org/RLSA-2024:6913 
 │                        │     │                  ├ [16]: https://go.dev/cl/611238 
 │                        │     │                  ├ [17]: https://go.dev/issue/69138 
@@ -9416,7 +9420,7 @@
 │                              │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:
 │                              │                            │           N/A:H 
 │                              │                            ╰ V3Score : 5.9 
-│                              ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:8039 
+│                              ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:8112 
 │                              │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024-34158 
 │                              │                  ├ [2] : https://bugzilla.redhat.com/2310527 
 │                              │                  ├ [3] : https://bugzilla.redhat.com/2310528 
@@ -9434,7 +9438,7 @@
 │                              │                  │       24-34156 
 │                              │                  ├ [13]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                              │                  │       24-34158 
-│                              │                  ├ [14]: https://errata.almalinux.org/9/ALSA-2024-8039.html 
+│                              │                  ├ [14]: https://errata.almalinux.org/9/ALSA-2024-8112.html 
 │                              │                  ├ [15]: https://errata.rockylinux.org/RLSA-2024:6913 
 │                              │                  ├ [16]: https://go.dev/cl/611240 
 │                              │                  ├ [17]: https://go.dev/issue/69141 
@@ -9586,7 +9590,84 @@
 │                                                 │      7a7786754d1fe05264c3021eb 
 │                                                 ╰ [2]: https://github.com/grpc/grpc-go/security/advisories/GH
 │                                                        SA-xr7q-jx4m-x55m 
-├ [10] ╭ Target : /etc/ssh/ssh_host_dsa_key 
+├ [10] ╭ Target : /etc/ssh/ssh_host_ed25519_key 
+│      ├ Class  : secret 
+│      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
+│                      ├ Category : AsymmetricPrivateKey 
+│                      ├ Severity : HIGH 
+│                      ├ Title    : Asymmetric Private Key 
+│                      ├ StartLine: 1 
+│                      ├ EndLine  : 1 
+│                      ├ Code      ─ Lines ╭ [0] ╭ Number     : 1 
+│                      │                   │     ├ Content    : BEGIN OPENSSH PRIVATE
+│                      │                   │     │              KEY-----***************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              *********************-----END OPENSSH PRI 
+│                      │                   │     ├ IsCause    : true 
+│                      │                   │     ├ Annotation :  
+│                      │                   │     ├ Truncated  : false 
+│                      │                   │     ├ Highlighted: BEGIN OPENSSH PRIVATE
+│                      │                   │     │              KEY-----***************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              *********************-----END OPENSSH PRI 
+│                      │                   │     ├ FirstCause : true 
+│                      │                   │     ╰ LastCause  : true 
+│                      │                   ╰ [1] ╭ Number    : 2 
+│                      │                         ├ Content   :  
+│                      │                         ├ IsCause   : false 
+│                      │                         ├ Annotation:  
+│                      │                         ├ Truncated : false 
+│                      │                         ├ FirstCause: false 
+│                      │                         ╰ LastCause : false 
+│                      ├ Match    : BEGIN OPENSSH PRIVATE
+│                      │            KEY-----*******************************************************************
+│                      │            ***************************************************************************
+│                      │            **************************************************-----END OPENSSH PRI 
+│                      ╰ Layer     ╭ Digest   : sha256:e4238b13d4923985de38b55ca837702b01cd3a65b49e08f2b738462a
+│                                  │            aeb30538 
+│                                  ├ DiffID   : sha256:1bb5c6ec0c1187b18273bc6efbbfda7c861760a004aa90a5021c8117
+│                                  │            bee5bd92 
+│                                  ╰ CreatedBy: COPY / / # buildkit 
+├ [11] ╭ Target : /etc/ssh/ssh_host_rsa_key 
+│      ├ Class  : secret 
+│      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
+│                      ├ Category : AsymmetricPrivateKey 
+│                      ├ Severity : HIGH 
+│                      ├ Title    : Asymmetric Private Key 
+│                      ├ StartLine: 1 
+│                      ├ EndLine  : 1 
+│                      ├ Code      ─ Lines ╭ [0] ╭ Number     : 1 
+│                      │                   │     ├ Content    : BEGIN OPENSSH PRIVATE
+│                      │                   │     │              KEY-----***************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********-----END OPENSSH PRI 
+│                      │                   │     ├ IsCause    : true 
+│                      │                   │     ├ Annotation :  
+│                      │                   │     ├ Truncated  : false 
+│                      │                   │     ├ Highlighted: BEGIN OPENSSH PRIVATE
+│                      │                   │     │              KEY-----***************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********-----END OPENSSH PRI 
+│                      │                   │     ├ FirstCause : true 
+│                      │                   │     ╰ LastCause  : true 
+│                      │                   ╰ [1] ╭ Number    : 2 
+│                      │                         ├ Content   :  
+│                      │                         ├ IsCause   : false 
+│                      │                         ├ Annotation:  
+│                      │                         ├ Truncated : false 
+│                      │                         ├ FirstCause: false 
+│                      │                         ╰ LastCause : false 
+│                      ├ Match    : BEGIN OPENSSH PRIVATE
+│                      │            KEY-----*******************************************************************
+│                      │            ***************************************************************************
+│                      │            **************************************************************************-
+│                      │            ----END OPENSSH PRI 
+│                      ╰ Layer     ╭ Digest   : sha256:e4238b13d4923985de38b55ca837702b01cd3a65b49e08f2b738462a
+│                                  │            aeb30538 
+│                                  ├ DiffID   : sha256:1bb5c6ec0c1187b18273bc6efbbfda7c861760a004aa90a5021c8117
+│                                  │            bee5bd92 
+│                                  ╰ CreatedBy: COPY / / # buildkit 
+├ [12] ╭ Target : /etc/ssh/ssh_host_dsa_key 
 │      ├ Class  : secret 
 │      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
 │                      ├ Category : AsymmetricPrivateKey 
@@ -9625,85 +9706,7 @@
 │                                  ├ DiffID   : sha256:1bb5c6ec0c1187b18273bc6efbbfda7c861760a004aa90a5021c8117
 │                                  │            bee5bd92 
 │                                  ╰ CreatedBy: COPY / / # buildkit 
-├ [11] ╭ Target : /etc/ssh/ssh_host_ecdsa_key 
-│      ├ Class  : secret 
-│      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
-│                      ├ Category : AsymmetricPrivateKey 
-│                      ├ Severity : HIGH 
-│                      ├ Title    : Asymmetric Private Key 
-│                      ├ StartLine: 1 
-│                      ├ EndLine  : 1 
-│                      ├ Code      ─ Lines ╭ [0] ╭ Number     : 1 
-│                      │                   │     ├ Content    : BEGIN OPENSSH PRIVATE
-│                      │                   │     │              KEY-----***************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              *****************************-----END OPENSSH
-│                      │                   │     │              PRI 
-│                      │                   │     ├ IsCause    : true 
-│                      │                   │     ├ Annotation :  
-│                      │                   │     ├ Truncated  : false 
-│                      │                   │     ├ Highlighted: BEGIN OPENSSH PRIVATE
-│                      │                   │     │              KEY-----***************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              *****************************-----END OPENSSH
-│                      │                   │     │              PRI 
-│                      │                   │     ├ FirstCause : true 
-│                      │                   │     ╰ LastCause  : true 
-│                      │                   ╰ [1] ╭ Number    : 2 
-│                      │                         ├ Content   :  
-│                      │                         ├ IsCause   : false 
-│                      │                         ├ Annotation:  
-│                      │                         ├ Truncated : false 
-│                      │                         ├ FirstCause: false 
-│                      │                         ╰ LastCause : false 
-│                      ├ Match    : BEGIN OPENSSH PRIVATE
-│                      │            KEY-----*******************************************************************
-│                      │            ***************************************************************************
-│                      │            **-----END OPENSSH PRI 
-│                      ╰ Layer     ╭ Digest   : sha256:e4238b13d4923985de38b55ca837702b01cd3a65b49e08f2b738462a
-│                                  │            aeb30538 
-│                                  ├ DiffID   : sha256:1bb5c6ec0c1187b18273bc6efbbfda7c861760a004aa90a5021c8117
-│                                  │            bee5bd92 
-│                                  ╰ CreatedBy: COPY / / # buildkit 
-├ [12] ╭ Target : /etc/ssh/ssh_host_ed25519_key 
-│      ├ Class  : secret 
-│      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
-│                      ├ Category : AsymmetricPrivateKey 
-│                      ├ Severity : HIGH 
-│                      ├ Title    : Asymmetric Private Key 
-│                      ├ StartLine: 1 
-│                      ├ EndLine  : 1 
-│                      ├ Code      ─ Lines ╭ [0] ╭ Number     : 1 
-│                      │                   │     ├ Content    : BEGIN OPENSSH PRIVATE
-│                      │                   │     │              KEY-----***************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              *********************-----END OPENSSH PRI 
-│                      │                   │     ├ IsCause    : true 
-│                      │                   │     ├ Annotation :  
-│                      │                   │     ├ Truncated  : false 
-│                      │                   │     ├ Highlighted: BEGIN OPENSSH PRIVATE
-│                      │                   │     │              KEY-----***************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              *********************-----END OPENSSH PRI 
-│                      │                   │     ├ FirstCause : true 
-│                      │                   │     ╰ LastCause  : true 
-│                      │                   ╰ [1] ╭ Number    : 2 
-│                      │                         ├ Content   :  
-│                      │                         ├ IsCause   : false 
-│                      │                         ├ Annotation:  
-│                      │                         ├ Truncated : false 
-│                      │                         ├ FirstCause: false 
-│                      │                         ╰ LastCause : false 
-│                      ├ Match    : BEGIN OPENSSH PRIVATE
-│                      │            KEY-----*******************************************************************
-│                      │            ***************************************************************************
-│                      │            **************************************************-----END OPENSSH PRI 
-│                      ╰ Layer     ╭ Digest   : sha256:e4238b13d4923985de38b55ca837702b01cd3a65b49e08f2b738462a
-│                                  │            aeb30538 
-│                                  ├ DiffID   : sha256:1bb5c6ec0c1187b18273bc6efbbfda7c861760a004aa90a5021c8117
-│                                  │            bee5bd92 
-│                                  ╰ CreatedBy: COPY / / # buildkit 
-╰ [13] ╭ Target : /etc/ssh/ssh_host_rsa_key 
+╰ [13] ╭ Target : /etc/ssh/ssh_host_ecdsa_key 
        ├ Class  : secret 
        ╰ Secrets ─ [0] ╭ RuleID   : private-key 
                        ├ Category : AsymmetricPrivateKey 
@@ -9715,14 +9718,16 @@
                        │                   │     ├ Content    : BEGIN OPENSSH PRIVATE
                        │                   │     │              KEY-----***************************************
                        │                   │     │              ***********************************************
-                       │                   │     │              ***********-----END OPENSSH PRI 
+                       │                   │     │              *****************************-----END OPENSSH
+                       │                   │     │              PRI 
                        │                   │     ├ IsCause    : true 
                        │                   │     ├ Annotation :  
                        │                   │     ├ Truncated  : false 
                        │                   │     ├ Highlighted: BEGIN OPENSSH PRIVATE
                        │                   │     │              KEY-----***************************************
                        │                   │     │              ***********************************************
-                       │                   │     │              ***********-----END OPENSSH PRI 
+                       │                   │     │              *****************************-----END OPENSSH
+                       │                   │     │              PRI 
                        │                   │     ├ FirstCause : true 
                        │                   │     ╰ LastCause  : true 
                        │                   ╰ [1] ╭ Number    : 2 
@@ -9735,8 +9740,7 @@
                        ├ Match    : BEGIN OPENSSH PRIVATE
                        │            KEY-----*******************************************************************
                        │            ***************************************************************************
-                       │            **************************************************************************-
-                       │            ----END OPENSSH PRI 
+                       │            **-----END OPENSSH PRI 
                        ╰ Layer     ╭ Digest   : sha256:e4238b13d4923985de38b55ca837702b01cd3a65b49e08f2b738462a
                                    │            aeb30538 
                                    ├ DiffID   : sha256:1bb5c6ec0c1187b18273bc6efbbfda7c861760a004aa90a5021c8117
