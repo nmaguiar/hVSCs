@@ -4651,46 +4651,47 @@
 │                        │      │                  ├ [212]: https://ubuntu.com/security/notices/USN-6574-1 
 │                        │      │                  ├ [213]: https://ubuntu.com/security/notices/USN-6754-1 
 │                        │      │                  ├ [214]: https://ubuntu.com/security/notices/USN-6994-1 
-│                        │      │                  ├ [215]: https://www.bleepingcomputer.com/news/security/new-
-│                        │      │                  │        http-2-rapid-reset-zero-day-attack-breaks-ddos-reco
-│                        │      │                  │        rds 
+│                        │      │                  ├ [215]: https://ubuntu.com/security/notices/USN-7067-1 
 │                        │      │                  ├ [216]: https://www.bleepingcomputer.com/news/security/new-
 │                        │      │                  │        http-2-rapid-reset-zero-day-attack-breaks-ddos-reco
+│                        │      │                  │        rds 
+│                        │      │                  ├ [217]: https://www.bleepingcomputer.com/news/security/new-
+│                        │      │                  │        http-2-rapid-reset-zero-day-attack-breaks-ddos-reco
 │                        │      │                  │        rds/ 
-│                        │      │                  ├ [217]: https://www.cisa.gov/known-exploited-vulnerabilitie
+│                        │      │                  ├ [218]: https://www.cisa.gov/known-exploited-vulnerabilitie
 │                        │      │                  │        s-catalog 
-│                        │      │                  ├ [218]: https://www.cisa.gov/news-events/alerts/2023/10/10/
+│                        │      │                  ├ [219]: https://www.cisa.gov/news-events/alerts/2023/10/10/
 │                        │      │                  │        http2-rapid-reset-vulnerability-cve-2023-44487 
-│                        │      │                  ├ [219]: https://www.cve.org/CVERecord?id=CVE-2023-44487 
-│                        │      │                  ├ [220]: https://www.darkreading.com/cloud/internet-wide-zer
+│                        │      │                  ├ [220]: https://www.cve.org/CVERecord?id=CVE-2023-44487 
+│                        │      │                  ├ [221]: https://www.darkreading.com/cloud/internet-wide-zer
 │                        │      │                  │        o-day-bug-fuels-largest-ever-ddos-event 
-│                        │      │                  ├ [221]: https://www.debian.org/security/2023/dsa-5521 
-│                        │      │                  ├ [222]: https://www.debian.org/security/2023/dsa-5522 
-│                        │      │                  ├ [223]: https://www.debian.org/security/2023/dsa-5540 
-│                        │      │                  ├ [224]: https://www.debian.org/security/2023/dsa-5549 
-│                        │      │                  ├ [225]: https://www.debian.org/security/2023/dsa-5558 
-│                        │      │                  ├ [226]: https://www.debian.org/security/2023/dsa-5570 
-│                        │      │                  ├ [227]: https://www.eclipse.org/lists/jetty-announce/msg001
+│                        │      │                  ├ [222]: https://www.debian.org/security/2023/dsa-5521 
+│                        │      │                  ├ [223]: https://www.debian.org/security/2023/dsa-5522 
+│                        │      │                  ├ [224]: https://www.debian.org/security/2023/dsa-5540 
+│                        │      │                  ├ [225]: https://www.debian.org/security/2023/dsa-5549 
+│                        │      │                  ├ [226]: https://www.debian.org/security/2023/dsa-5558 
+│                        │      │                  ├ [227]: https://www.debian.org/security/2023/dsa-5570 
+│                        │      │                  ├ [228]: https://www.eclipse.org/lists/jetty-announce/msg001
 │                        │      │                  │        81.html 
-│                        │      │                  ├ [228]: https://www.haproxy.com/blog/haproxy-is-not-affecte
+│                        │      │                  ├ [229]: https://www.haproxy.com/blog/haproxy-is-not-affecte
 │                        │      │                  │        d-by-the-http-2-rapid-reset-attack-cve-2023-44487 
-│                        │      │                  ├ [229]: https://www.mail-archive.com/haproxy@formilux.org/m
+│                        │      │                  ├ [230]: https://www.mail-archive.com/haproxy@formilux.org/m
 │                        │      │                  │        sg44134.html 
-│                        │      │                  ├ [230]: https://www.netlify.com/blog/netlify-successfully-m
-│                        │      │                  │        itigates-cve-2023-44487 
 │                        │      │                  ├ [231]: https://www.netlify.com/blog/netlify-successfully-m
+│                        │      │                  │        itigates-cve-2023-44487 
+│                        │      │                  ├ [232]: https://www.netlify.com/blog/netlify-successfully-m
 │                        │      │                  │        itigates-cve-2023-44487/ 
-│                        │      │                  ├ [232]: https://www.nginx.com/blog/http-2-rapid-reset-attac
-│                        │      │                  │        k-impacting-f5-nginx-products 
 │                        │      │                  ├ [233]: https://www.nginx.com/blog/http-2-rapid-reset-attac
+│                        │      │                  │        k-impacting-f5-nginx-products 
+│                        │      │                  ├ [234]: https://www.nginx.com/blog/http-2-rapid-reset-attac
 │                        │      │                  │        k-impacting-f5-nginx-products/ 
-│                        │      │                  ├ [234]: https://www.openwall.com/lists/oss-security/2023/10
+│                        │      │                  ├ [235]: https://www.openwall.com/lists/oss-security/2023/10
 │                        │      │                  │        /10/6 
-│                        │      │                  ├ [235]: https://www.phoronix.com/news/HTTP2-Rapid-Reset-Att
+│                        │      │                  ├ [236]: https://www.phoronix.com/news/HTTP2-Rapid-Reset-Att
 │                        │      │                  │        ack 
-│                        │      │                  ├ [236]: https://www.theregister.com/2023/10/10/http2_rapid_
+│                        │      │                  ├ [237]: https://www.theregister.com/2023/10/10/http2_rapid_
 │                        │      │                  │        reset_zeroday 
-│                        │      │                  ╰ [237]: https://www.theregister.com/2023/10/10/http2_rapid_
+│                        │      │                  ╰ [238]: https://www.theregister.com/2023/10/10/http2_rapid_
 │                        │      │                           reset_zeroday/ 
 │                        │      ├ PublishedDate   : 2023-10-10T14:15:10.883Z 
 │                        │      ╰ LastModifiedDate: 2024-08-14T19:57:18.86Z 
@@ -5390,7 +5391,8 @@
 │                        │      │                  ├ bitnami    : 3 
 │                        │      │                  ├ oracle-oval: 3 
 │                        │      │                  ├ redhat     : 3 
-│                        │      │                  ╰ rocky      : 3 
+│                        │      │                  ├ rocky      : 3 
+│                        │      │                  ╰ ubuntu     : 2 
 │                        │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
 │                        │      │                  │         │           :N/A:H 
 │                        │      │                  │         ╰ V3Score : 7.5 
@@ -5408,14 +5410,20 @@
 │                        │      │                  │       024-34156 
 │                        │      │                  ├ [8] : https://errata.almalinux.org/9/ALSA-2024-8112.html 
 │                        │      │                  ├ [9] : https://errata.rockylinux.org/RLSA-2024:7204 
-│                        │      │                  ├ [10]: https://go.dev/cl/611239 
-│                        │      │                  ├ [11]: https://go.dev/issue/69139 
-│                        │      │                  ├ [12]: https://groups.google.com/g/golang-dev/c/S9POB9NCTdk 
-│                        │      │                  ├ [13]: https://linux.oracle.com/cve/CVE-2024-34156.html 
-│                        │      │                  ├ [14]: https://linux.oracle.com/errata/ELSA-2024-8112.html 
-│                        │      │                  ├ [15]: https://nvd.nist.gov/vuln/detail/CVE-2024-34156 
-│                        │      │                  ├ [16]: https://pkg.go.dev/vuln/GO-2024-3106 
-│                        │      │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2024-34156 
+│                        │      │                  ├ [10]: https://github.com/golang/go/commit/2092294f2b097c58
+│                        │      │                  │       28f4eace6c98a322c1510b01 (go1.22.7) 
+│                        │      │                  ├ [11]: https://github.com/golang/go/commit/fa8ff1a46deb6c81
+│                        │      │                  │       6304441ec6740ec112e19012 (go1.23.1) 
+│                        │      │                  ├ [12]: https://go.dev/cl/611239 
+│                        │      │                  ├ [13]: https://go.dev/issue/69139 
+│                        │      │                  ├ [14]: https://groups.google.com/g/golang-announce/c/K-cEzD
+│                        │      │                  │       eCtpc 
+│                        │      │                  ├ [15]: https://groups.google.com/g/golang-dev/c/S9POB9NCTdk 
+│                        │      │                  ├ [16]: https://linux.oracle.com/cve/CVE-2024-34156.html 
+│                        │      │                  ├ [17]: https://linux.oracle.com/errata/ELSA-2024-8112.html 
+│                        │      │                  ├ [18]: https://nvd.nist.gov/vuln/detail/CVE-2024-34156 
+│                        │      │                  ├ [19]: https://pkg.go.dev/vuln/GO-2024-3106 
+│                        │      │                  ╰ [20]: https://www.cve.org/CVERecord?id=CVE-2024-34156 
 │                        │      ├ PublishedDate   : 2024-09-06T21:15:12.02Z 
 │                        │      ╰ LastModifiedDate: 2024-09-09T15:35:07.573Z 
 │                        ├ [9]  ╭ VulnerabilityID : CVE-2023-29406 
@@ -6358,7 +6366,8 @@
 │                        │      │                  ├ oracle-oval: 2 
 │                        │      │                  ├ photon     : 3 
 │                        │      │                  ├ redhat     : 2 
-│                        │      │                  ╰ rocky      : 3 
+│                        │      │                  ├ rocky      : 3 
+│                        │      │                  ╰ ubuntu     : 2 
 │                        │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
 │                        │      │                  │         │           :N/A:H 
 │                        │      │                  │         ╰ V3Score : 7.5 
@@ -6422,7 +6431,8 @@
 │                        │      │                  ├ amazon     : 3 
 │                        │      │                  ├ oracle-oval: 3 
 │                        │      │                  ├ redhat     : 2 
-│                        │      │                  ╰ rocky      : 3 
+│                        │      │                  ├ rocky      : 3 
+│                        │      │                  ╰ ubuntu     : 2 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:
 │                        │      │                           │           N/A:H 
 │                        │      │                           ╰ V3Score : 5.9 
@@ -6446,14 +6456,20 @@
 │                        │      │                  │       024-34158 
 │                        │      │                  ├ [14]: https://errata.almalinux.org/9/ALSA-2024-8112.html 
 │                        │      │                  ├ [15]: https://errata.rockylinux.org/RLSA-2024:6913 
-│                        │      │                  ├ [16]: https://go.dev/cl/611238 
-│                        │      │                  ├ [17]: https://go.dev/issue/69138 
-│                        │      │                  ├ [18]: https://groups.google.com/g/golang-dev/c/S9POB9NCTdk 
-│                        │      │                  ├ [19]: https://linux.oracle.com/cve/CVE-2024-34155.html 
-│                        │      │                  ├ [20]: https://linux.oracle.com/errata/ELSA-2024-8112.html 
-│                        │      │                  ├ [21]: https://nvd.nist.gov/vuln/detail/CVE-2024-34155 
-│                        │      │                  ├ [22]: https://pkg.go.dev/vuln/GO-2024-3105 
-│                        │      │                  ╰ [23]: https://www.cve.org/CVERecord?id=CVE-2024-34155 
+│                        │      │                  ├ [16]: https://github.com/golang/go/commit/53487e5477151ed7
+│                        │      │                  │       5da50e50a0ba8f1ca64c00a3 (go1.23.1) 
+│                        │      │                  ├ [17]: https://github.com/golang/go/commit/b232596139dbe96a
+│                        │      │                  │       62edbe3a2a203e856bf556eb (go1.22.7) 
+│                        │      │                  ├ [18]: https://go.dev/cl/611238 
+│                        │      │                  ├ [19]: https://go.dev/issue/69138 
+│                        │      │                  ├ [20]: https://groups.google.com/g/golang-announce/c/K-cEzD
+│                        │      │                  │       eCtpc 
+│                        │      │                  ├ [21]: https://groups.google.com/g/golang-dev/c/S9POB9NCTdk 
+│                        │      │                  ├ [22]: https://linux.oracle.com/cve/CVE-2024-34155.html 
+│                        │      │                  ├ [23]: https://linux.oracle.com/errata/ELSA-2024-8112.html 
+│                        │      │                  ├ [24]: https://nvd.nist.gov/vuln/detail/CVE-2024-34155 
+│                        │      │                  ├ [25]: https://pkg.go.dev/vuln/GO-2024-3105 
+│                        │      │                  ╰ [26]: https://www.cve.org/CVERecord?id=CVE-2024-34155 
 │                        │      ├ PublishedDate   : 2024-09-06T21:15:11.947Z 
 │                        │      ╰ LastModifiedDate: 2024-09-09T13:03:38.303Z 
 │                        ╰ [23] ╭ VulnerabilityID : CVE-2024-34158 
@@ -6484,7 +6500,8 @@
 │                               │                  ├ bitnami    : 3 
 │                               │                  ├ oracle-oval: 3 
 │                               │                  ├ redhat     : 2 
-│                               │                  ╰ rocky      : 3 
+│                               │                  ├ rocky      : 3 
+│                               │                  ╰ ubuntu     : 2 
 │                               ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
 │                               │                  │         │           :N/A:H 
 │                               │                  │         ╰ V3Score : 7.5 
@@ -6511,14 +6528,20 @@
 │                               │                  │       024-34158 
 │                               │                  ├ [14]: https://errata.almalinux.org/9/ALSA-2024-8112.html 
 │                               │                  ├ [15]: https://errata.rockylinux.org/RLSA-2024:6913 
-│                               │                  ├ [16]: https://go.dev/cl/611240 
-│                               │                  ├ [17]: https://go.dev/issue/69141 
-│                               │                  ├ [18]: https://groups.google.com/g/golang-dev/c/S9POB9NCTdk 
-│                               │                  ├ [19]: https://linux.oracle.com/cve/CVE-2024-34158.html 
-│                               │                  ├ [20]: https://linux.oracle.com/errata/ELSA-2024-8112.html 
-│                               │                  ├ [21]: https://nvd.nist.gov/vuln/detail/CVE-2024-34158 
-│                               │                  ├ [22]: https://pkg.go.dev/vuln/GO-2024-3107 
-│                               │                  ╰ [23]: https://www.cve.org/CVERecord?id=CVE-2024-34158 
+│                               │                  ├ [16]: https://github.com/golang/go/commit/032ac075c20c01c6
+│                               │                  │       c35a672d1542d3e98eab84ea (go1.23.1) 
+│                               │                  ├ [17]: https://github.com/golang/go/commit/d4c53812e6ce2ac3
+│                               │                  │       68173d7fcd31d0ecfcffb002 (go1.22.7) 
+│                               │                  ├ [18]: https://go.dev/cl/611240 
+│                               │                  ├ [19]: https://go.dev/issue/69141 
+│                               │                  ├ [20]: https://groups.google.com/g/golang-announce/c/K-cEzD
+│                               │                  │       eCtpc 
+│                               │                  ├ [21]: https://groups.google.com/g/golang-dev/c/S9POB9NCTdk 
+│                               │                  ├ [22]: https://linux.oracle.com/cve/CVE-2024-34158.html 
+│                               │                  ├ [23]: https://linux.oracle.com/errata/ELSA-2024-8112.html 
+│                               │                  ├ [24]: https://nvd.nist.gov/vuln/detail/CVE-2024-34158 
+│                               │                  ├ [25]: https://pkg.go.dev/vuln/GO-2024-3107 
+│                               │                  ╰ [26]: https://www.cve.org/CVERecord?id=CVE-2024-34158 
 │                               ├ PublishedDate   : 2024-09-06T21:15:12.083Z 
 │                               ╰ LastModifiedDate: 2024-09-09T14:35:01.17Z 
 ├ [4]  ╭ Target         : tmp/tmp.BIunBOzhGn/krew-linux_amd64 
@@ -7391,46 +7414,47 @@
 │                        │      │                  ├ [212]: https://ubuntu.com/security/notices/USN-6574-1 
 │                        │      │                  ├ [213]: https://ubuntu.com/security/notices/USN-6754-1 
 │                        │      │                  ├ [214]: https://ubuntu.com/security/notices/USN-6994-1 
-│                        │      │                  ├ [215]: https://www.bleepingcomputer.com/news/security/new-
-│                        │      │                  │        http-2-rapid-reset-zero-day-attack-breaks-ddos-reco
-│                        │      │                  │        rds 
+│                        │      │                  ├ [215]: https://ubuntu.com/security/notices/USN-7067-1 
 │                        │      │                  ├ [216]: https://www.bleepingcomputer.com/news/security/new-
 │                        │      │                  │        http-2-rapid-reset-zero-day-attack-breaks-ddos-reco
+│                        │      │                  │        rds 
+│                        │      │                  ├ [217]: https://www.bleepingcomputer.com/news/security/new-
+│                        │      │                  │        http-2-rapid-reset-zero-day-attack-breaks-ddos-reco
 │                        │      │                  │        rds/ 
-│                        │      │                  ├ [217]: https://www.cisa.gov/known-exploited-vulnerabilitie
+│                        │      │                  ├ [218]: https://www.cisa.gov/known-exploited-vulnerabilitie
 │                        │      │                  │        s-catalog 
-│                        │      │                  ├ [218]: https://www.cisa.gov/news-events/alerts/2023/10/10/
+│                        │      │                  ├ [219]: https://www.cisa.gov/news-events/alerts/2023/10/10/
 │                        │      │                  │        http2-rapid-reset-vulnerability-cve-2023-44487 
-│                        │      │                  ├ [219]: https://www.cve.org/CVERecord?id=CVE-2023-44487 
-│                        │      │                  ├ [220]: https://www.darkreading.com/cloud/internet-wide-zer
+│                        │      │                  ├ [220]: https://www.cve.org/CVERecord?id=CVE-2023-44487 
+│                        │      │                  ├ [221]: https://www.darkreading.com/cloud/internet-wide-zer
 │                        │      │                  │        o-day-bug-fuels-largest-ever-ddos-event 
-│                        │      │                  ├ [221]: https://www.debian.org/security/2023/dsa-5521 
-│                        │      │                  ├ [222]: https://www.debian.org/security/2023/dsa-5522 
-│                        │      │                  ├ [223]: https://www.debian.org/security/2023/dsa-5540 
-│                        │      │                  ├ [224]: https://www.debian.org/security/2023/dsa-5549 
-│                        │      │                  ├ [225]: https://www.debian.org/security/2023/dsa-5558 
-│                        │      │                  ├ [226]: https://www.debian.org/security/2023/dsa-5570 
-│                        │      │                  ├ [227]: https://www.eclipse.org/lists/jetty-announce/msg001
+│                        │      │                  ├ [222]: https://www.debian.org/security/2023/dsa-5521 
+│                        │      │                  ├ [223]: https://www.debian.org/security/2023/dsa-5522 
+│                        │      │                  ├ [224]: https://www.debian.org/security/2023/dsa-5540 
+│                        │      │                  ├ [225]: https://www.debian.org/security/2023/dsa-5549 
+│                        │      │                  ├ [226]: https://www.debian.org/security/2023/dsa-5558 
+│                        │      │                  ├ [227]: https://www.debian.org/security/2023/dsa-5570 
+│                        │      │                  ├ [228]: https://www.eclipse.org/lists/jetty-announce/msg001
 │                        │      │                  │        81.html 
-│                        │      │                  ├ [228]: https://www.haproxy.com/blog/haproxy-is-not-affecte
+│                        │      │                  ├ [229]: https://www.haproxy.com/blog/haproxy-is-not-affecte
 │                        │      │                  │        d-by-the-http-2-rapid-reset-attack-cve-2023-44487 
-│                        │      │                  ├ [229]: https://www.mail-archive.com/haproxy@formilux.org/m
+│                        │      │                  ├ [230]: https://www.mail-archive.com/haproxy@formilux.org/m
 │                        │      │                  │        sg44134.html 
-│                        │      │                  ├ [230]: https://www.netlify.com/blog/netlify-successfully-m
-│                        │      │                  │        itigates-cve-2023-44487 
 │                        │      │                  ├ [231]: https://www.netlify.com/blog/netlify-successfully-m
+│                        │      │                  │        itigates-cve-2023-44487 
+│                        │      │                  ├ [232]: https://www.netlify.com/blog/netlify-successfully-m
 │                        │      │                  │        itigates-cve-2023-44487/ 
-│                        │      │                  ├ [232]: https://www.nginx.com/blog/http-2-rapid-reset-attac
-│                        │      │                  │        k-impacting-f5-nginx-products 
 │                        │      │                  ├ [233]: https://www.nginx.com/blog/http-2-rapid-reset-attac
+│                        │      │                  │        k-impacting-f5-nginx-products 
+│                        │      │                  ├ [234]: https://www.nginx.com/blog/http-2-rapid-reset-attac
 │                        │      │                  │        k-impacting-f5-nginx-products/ 
-│                        │      │                  ├ [234]: https://www.openwall.com/lists/oss-security/2023/10
+│                        │      │                  ├ [235]: https://www.openwall.com/lists/oss-security/2023/10
 │                        │      │                  │        /10/6 
-│                        │      │                  ├ [235]: https://www.phoronix.com/news/HTTP2-Rapid-Reset-Att
+│                        │      │                  ├ [236]: https://www.phoronix.com/news/HTTP2-Rapid-Reset-Att
 │                        │      │                  │        ack 
-│                        │      │                  ├ [236]: https://www.theregister.com/2023/10/10/http2_rapid_
+│                        │      │                  ├ [237]: https://www.theregister.com/2023/10/10/http2_rapid_
 │                        │      │                  │        reset_zeroday 
-│                        │      │                  ╰ [237]: https://www.theregister.com/2023/10/10/http2_rapid_
+│                        │      │                  ╰ [238]: https://www.theregister.com/2023/10/10/http2_rapid_
 │                        │      │                           reset_zeroday/ 
 │                        │      ├ PublishedDate   : 2023-10-10T14:15:10.883Z 
 │                        │      ╰ LastModifiedDate: 2024-08-14T19:57:18.86Z 
@@ -8130,7 +8154,8 @@
 │                        │      │                  ├ bitnami    : 3 
 │                        │      │                  ├ oracle-oval: 3 
 │                        │      │                  ├ redhat     : 3 
-│                        │      │                  ╰ rocky      : 3 
+│                        │      │                  ├ rocky      : 3 
+│                        │      │                  ╰ ubuntu     : 2 
 │                        │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
 │                        │      │                  │         │           :N/A:H 
 │                        │      │                  │         ╰ V3Score : 7.5 
@@ -8148,14 +8173,20 @@
 │                        │      │                  │       024-34156 
 │                        │      │                  ├ [8] : https://errata.almalinux.org/9/ALSA-2024-8112.html 
 │                        │      │                  ├ [9] : https://errata.rockylinux.org/RLSA-2024:7204 
-│                        │      │                  ├ [10]: https://go.dev/cl/611239 
-│                        │      │                  ├ [11]: https://go.dev/issue/69139 
-│                        │      │                  ├ [12]: https://groups.google.com/g/golang-dev/c/S9POB9NCTdk 
-│                        │      │                  ├ [13]: https://linux.oracle.com/cve/CVE-2024-34156.html 
-│                        │      │                  ├ [14]: https://linux.oracle.com/errata/ELSA-2024-8112.html 
-│                        │      │                  ├ [15]: https://nvd.nist.gov/vuln/detail/CVE-2024-34156 
-│                        │      │                  ├ [16]: https://pkg.go.dev/vuln/GO-2024-3106 
-│                        │      │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2024-34156 
+│                        │      │                  ├ [10]: https://github.com/golang/go/commit/2092294f2b097c58
+│                        │      │                  │       28f4eace6c98a322c1510b01 (go1.22.7) 
+│                        │      │                  ├ [11]: https://github.com/golang/go/commit/fa8ff1a46deb6c81
+│                        │      │                  │       6304441ec6740ec112e19012 (go1.23.1) 
+│                        │      │                  ├ [12]: https://go.dev/cl/611239 
+│                        │      │                  ├ [13]: https://go.dev/issue/69139 
+│                        │      │                  ├ [14]: https://groups.google.com/g/golang-announce/c/K-cEzD
+│                        │      │                  │       eCtpc 
+│                        │      │                  ├ [15]: https://groups.google.com/g/golang-dev/c/S9POB9NCTdk 
+│                        │      │                  ├ [16]: https://linux.oracle.com/cve/CVE-2024-34156.html 
+│                        │      │                  ├ [17]: https://linux.oracle.com/errata/ELSA-2024-8112.html 
+│                        │      │                  ├ [18]: https://nvd.nist.gov/vuln/detail/CVE-2024-34156 
+│                        │      │                  ├ [19]: https://pkg.go.dev/vuln/GO-2024-3106 
+│                        │      │                  ╰ [20]: https://www.cve.org/CVERecord?id=CVE-2024-34156 
 │                        │      ├ PublishedDate   : 2024-09-06T21:15:12.02Z 
 │                        │      ╰ LastModifiedDate: 2024-09-09T15:35:07.573Z 
 │                        ├ [9]  ╭ VulnerabilityID : CVE-2023-29406 
@@ -9098,7 +9129,8 @@
 │                        │      │                  ├ oracle-oval: 2 
 │                        │      │                  ├ photon     : 3 
 │                        │      │                  ├ redhat     : 2 
-│                        │      │                  ╰ rocky      : 3 
+│                        │      │                  ├ rocky      : 3 
+│                        │      │                  ╰ ubuntu     : 2 
 │                        │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
 │                        │      │                  │         │           :N/A:H 
 │                        │      │                  │         ╰ V3Score : 7.5 
@@ -9162,7 +9194,8 @@
 │                        │      │                  ├ amazon     : 3 
 │                        │      │                  ├ oracle-oval: 3 
 │                        │      │                  ├ redhat     : 2 
-│                        │      │                  ╰ rocky      : 3 
+│                        │      │                  ├ rocky      : 3 
+│                        │      │                  ╰ ubuntu     : 2 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:
 │                        │      │                           │           N/A:H 
 │                        │      │                           ╰ V3Score : 5.9 
@@ -9186,14 +9219,20 @@
 │                        │      │                  │       024-34158 
 │                        │      │                  ├ [14]: https://errata.almalinux.org/9/ALSA-2024-8112.html 
 │                        │      │                  ├ [15]: https://errata.rockylinux.org/RLSA-2024:6913 
-│                        │      │                  ├ [16]: https://go.dev/cl/611238 
-│                        │      │                  ├ [17]: https://go.dev/issue/69138 
-│                        │      │                  ├ [18]: https://groups.google.com/g/golang-dev/c/S9POB9NCTdk 
-│                        │      │                  ├ [19]: https://linux.oracle.com/cve/CVE-2024-34155.html 
-│                        │      │                  ├ [20]: https://linux.oracle.com/errata/ELSA-2024-8112.html 
-│                        │      │                  ├ [21]: https://nvd.nist.gov/vuln/detail/CVE-2024-34155 
-│                        │      │                  ├ [22]: https://pkg.go.dev/vuln/GO-2024-3105 
-│                        │      │                  ╰ [23]: https://www.cve.org/CVERecord?id=CVE-2024-34155 
+│                        │      │                  ├ [16]: https://github.com/golang/go/commit/53487e5477151ed7
+│                        │      │                  │       5da50e50a0ba8f1ca64c00a3 (go1.23.1) 
+│                        │      │                  ├ [17]: https://github.com/golang/go/commit/b232596139dbe96a
+│                        │      │                  │       62edbe3a2a203e856bf556eb (go1.22.7) 
+│                        │      │                  ├ [18]: https://go.dev/cl/611238 
+│                        │      │                  ├ [19]: https://go.dev/issue/69138 
+│                        │      │                  ├ [20]: https://groups.google.com/g/golang-announce/c/K-cEzD
+│                        │      │                  │       eCtpc 
+│                        │      │                  ├ [21]: https://groups.google.com/g/golang-dev/c/S9POB9NCTdk 
+│                        │      │                  ├ [22]: https://linux.oracle.com/cve/CVE-2024-34155.html 
+│                        │      │                  ├ [23]: https://linux.oracle.com/errata/ELSA-2024-8112.html 
+│                        │      │                  ├ [24]: https://nvd.nist.gov/vuln/detail/CVE-2024-34155 
+│                        │      │                  ├ [25]: https://pkg.go.dev/vuln/GO-2024-3105 
+│                        │      │                  ╰ [26]: https://www.cve.org/CVERecord?id=CVE-2024-34155 
 │                        │      ├ PublishedDate   : 2024-09-06T21:15:11.947Z 
 │                        │      ╰ LastModifiedDate: 2024-09-09T13:03:38.303Z 
 │                        ╰ [23] ╭ VulnerabilityID : CVE-2024-34158 
@@ -9224,7 +9263,8 @@
 │                               │                  ├ bitnami    : 3 
 │                               │                  ├ oracle-oval: 3 
 │                               │                  ├ redhat     : 2 
-│                               │                  ╰ rocky      : 3 
+│                               │                  ├ rocky      : 3 
+│                               │                  ╰ ubuntu     : 2 
 │                               ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
 │                               │                  │         │           :N/A:H 
 │                               │                  │         ╰ V3Score : 7.5 
@@ -9251,14 +9291,20 @@
 │                               │                  │       024-34158 
 │                               │                  ├ [14]: https://errata.almalinux.org/9/ALSA-2024-8112.html 
 │                               │                  ├ [15]: https://errata.rockylinux.org/RLSA-2024:6913 
-│                               │                  ├ [16]: https://go.dev/cl/611240 
-│                               │                  ├ [17]: https://go.dev/issue/69141 
-│                               │                  ├ [18]: https://groups.google.com/g/golang-dev/c/S9POB9NCTdk 
-│                               │                  ├ [19]: https://linux.oracle.com/cve/CVE-2024-34158.html 
-│                               │                  ├ [20]: https://linux.oracle.com/errata/ELSA-2024-8112.html 
-│                               │                  ├ [21]: https://nvd.nist.gov/vuln/detail/CVE-2024-34158 
-│                               │                  ├ [22]: https://pkg.go.dev/vuln/GO-2024-3107 
-│                               │                  ╰ [23]: https://www.cve.org/CVERecord?id=CVE-2024-34158 
+│                               │                  ├ [16]: https://github.com/golang/go/commit/032ac075c20c01c6
+│                               │                  │       c35a672d1542d3e98eab84ea (go1.23.1) 
+│                               │                  ├ [17]: https://github.com/golang/go/commit/d4c53812e6ce2ac3
+│                               │                  │       68173d7fcd31d0ecfcffb002 (go1.22.7) 
+│                               │                  ├ [18]: https://go.dev/cl/611240 
+│                               │                  ├ [19]: https://go.dev/issue/69141 
+│                               │                  ├ [20]: https://groups.google.com/g/golang-announce/c/K-cEzD
+│                               │                  │       eCtpc 
+│                               │                  ├ [21]: https://groups.google.com/g/golang-dev/c/S9POB9NCTdk 
+│                               │                  ├ [22]: https://linux.oracle.com/cve/CVE-2024-34158.html 
+│                               │                  ├ [23]: https://linux.oracle.com/errata/ELSA-2024-8112.html 
+│                               │                  ├ [24]: https://nvd.nist.gov/vuln/detail/CVE-2024-34158 
+│                               │                  ├ [25]: https://pkg.go.dev/vuln/GO-2024-3107 
+│                               │                  ╰ [26]: https://www.cve.org/CVERecord?id=CVE-2024-34158 
 │                               ├ PublishedDate   : 2024-09-06T21:15:12.083Z 
 │                               ╰ LastModifiedDate: 2024-09-09T14:35:01.17Z 
 ├ [5]  ╭ Target: usr/bin/docker-compose 
@@ -9297,7 +9343,8 @@
 │                        │     │                  ├ bitnami    : 3 
 │                        │     │                  ├ oracle-oval: 3 
 │                        │     │                  ├ redhat     : 3 
-│                        │     │                  ╰ rocky      : 3 
+│                        │     │                  ├ rocky      : 3 
+│                        │     │                  ╰ ubuntu     : 2 
 │                        │     ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
 │                        │     │                  │         │           N/A:H 
 │                        │     │                  │         ╰ V3Score : 7.5 
@@ -9315,14 +9362,20 @@
 │                        │     │                  │       24-34156 
 │                        │     │                  ├ [8] : https://errata.almalinux.org/9/ALSA-2024-8112.html 
 │                        │     │                  ├ [9] : https://errata.rockylinux.org/RLSA-2024:7204 
-│                        │     │                  ├ [10]: https://go.dev/cl/611239 
-│                        │     │                  ├ [11]: https://go.dev/issue/69139 
-│                        │     │                  ├ [12]: https://groups.google.com/g/golang-dev/c/S9POB9NCTdk 
-│                        │     │                  ├ [13]: https://linux.oracle.com/cve/CVE-2024-34156.html 
-│                        │     │                  ├ [14]: https://linux.oracle.com/errata/ELSA-2024-8112.html 
-│                        │     │                  ├ [15]: https://nvd.nist.gov/vuln/detail/CVE-2024-34156 
-│                        │     │                  ├ [16]: https://pkg.go.dev/vuln/GO-2024-3106 
-│                        │     │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2024-34156 
+│                        │     │                  ├ [10]: https://github.com/golang/go/commit/2092294f2b097c582
+│                        │     │                  │       8f4eace6c98a322c1510b01 (go1.22.7) 
+│                        │     │                  ├ [11]: https://github.com/golang/go/commit/fa8ff1a46deb6c816
+│                        │     │                  │       304441ec6740ec112e19012 (go1.23.1) 
+│                        │     │                  ├ [12]: https://go.dev/cl/611239 
+│                        │     │                  ├ [13]: https://go.dev/issue/69139 
+│                        │     │                  ├ [14]: https://groups.google.com/g/golang-announce/c/K-cEzDe
+│                        │     │                  │       Ctpc 
+│                        │     │                  ├ [15]: https://groups.google.com/g/golang-dev/c/S9POB9NCTdk 
+│                        │     │                  ├ [16]: https://linux.oracle.com/cve/CVE-2024-34156.html 
+│                        │     │                  ├ [17]: https://linux.oracle.com/errata/ELSA-2024-8112.html 
+│                        │     │                  ├ [18]: https://nvd.nist.gov/vuln/detail/CVE-2024-34156 
+│                        │     │                  ├ [19]: https://pkg.go.dev/vuln/GO-2024-3106 
+│                        │     │                  ╰ [20]: https://www.cve.org/CVERecord?id=CVE-2024-34156 
 │                        │     ├ PublishedDate   : 2024-09-06T21:15:12.02Z 
 │                        │     ╰ LastModifiedDate: 2024-09-09T15:35:07.573Z 
 │                        ├ [1] ╭ VulnerabilityID : CVE-2024-34155 
@@ -9351,7 +9404,8 @@
 │                        │     │                  ├ amazon     : 3 
 │                        │     │                  ├ oracle-oval: 3 
 │                        │     │                  ├ redhat     : 2 
-│                        │     │                  ╰ rocky      : 3 
+│                        │     │                  ├ rocky      : 3 
+│                        │     │                  ╰ ubuntu     : 2 
 │                        │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N
 │                        │     │                           │           /A:H 
 │                        │     │                           ╰ V3Score : 5.9 
@@ -9375,14 +9429,20 @@
 │                        │     │                  │       24-34158 
 │                        │     │                  ├ [14]: https://errata.almalinux.org/9/ALSA-2024-8112.html 
 │                        │     │                  ├ [15]: https://errata.rockylinux.org/RLSA-2024:6913 
-│                        │     │                  ├ [16]: https://go.dev/cl/611238 
-│                        │     │                  ├ [17]: https://go.dev/issue/69138 
-│                        │     │                  ├ [18]: https://groups.google.com/g/golang-dev/c/S9POB9NCTdk 
-│                        │     │                  ├ [19]: https://linux.oracle.com/cve/CVE-2024-34155.html 
-│                        │     │                  ├ [20]: https://linux.oracle.com/errata/ELSA-2024-8112.html 
-│                        │     │                  ├ [21]: https://nvd.nist.gov/vuln/detail/CVE-2024-34155 
-│                        │     │                  ├ [22]: https://pkg.go.dev/vuln/GO-2024-3105 
-│                        │     │                  ╰ [23]: https://www.cve.org/CVERecord?id=CVE-2024-34155 
+│                        │     │                  ├ [16]: https://github.com/golang/go/commit/53487e5477151ed75
+│                        │     │                  │       da50e50a0ba8f1ca64c00a3 (go1.23.1) 
+│                        │     │                  ├ [17]: https://github.com/golang/go/commit/b232596139dbe96a6
+│                        │     │                  │       2edbe3a2a203e856bf556eb (go1.22.7) 
+│                        │     │                  ├ [18]: https://go.dev/cl/611238 
+│                        │     │                  ├ [19]: https://go.dev/issue/69138 
+│                        │     │                  ├ [20]: https://groups.google.com/g/golang-announce/c/K-cEzDe
+│                        │     │                  │       Ctpc 
+│                        │     │                  ├ [21]: https://groups.google.com/g/golang-dev/c/S9POB9NCTdk 
+│                        │     │                  ├ [22]: https://linux.oracle.com/cve/CVE-2024-34155.html 
+│                        │     │                  ├ [23]: https://linux.oracle.com/errata/ELSA-2024-8112.html 
+│                        │     │                  ├ [24]: https://nvd.nist.gov/vuln/detail/CVE-2024-34155 
+│                        │     │                  ├ [25]: https://pkg.go.dev/vuln/GO-2024-3105 
+│                        │     │                  ╰ [26]: https://www.cve.org/CVERecord?id=CVE-2024-34155 
 │                        │     ├ PublishedDate   : 2024-09-06T21:15:11.947Z 
 │                        │     ╰ LastModifiedDate: 2024-09-09T13:03:38.303Z 
 │                        ╰ [2] ╭ VulnerabilityID : CVE-2024-34158 
@@ -9413,7 +9473,8 @@
 │                              │                  ├ bitnami    : 3 
 │                              │                  ├ oracle-oval: 3 
 │                              │                  ├ redhat     : 2 
-│                              │                  ╰ rocky      : 3 
+│                              │                  ├ rocky      : 3 
+│                              │                  ╰ ubuntu     : 2 
 │                              ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
 │                              │                  │         │           N/A:H 
 │                              │                  │         ╰ V3Score : 7.5 
@@ -9440,14 +9501,20 @@
 │                              │                  │       24-34158 
 │                              │                  ├ [14]: https://errata.almalinux.org/9/ALSA-2024-8112.html 
 │                              │                  ├ [15]: https://errata.rockylinux.org/RLSA-2024:6913 
-│                              │                  ├ [16]: https://go.dev/cl/611240 
-│                              │                  ├ [17]: https://go.dev/issue/69141 
-│                              │                  ├ [18]: https://groups.google.com/g/golang-dev/c/S9POB9NCTdk 
-│                              │                  ├ [19]: https://linux.oracle.com/cve/CVE-2024-34158.html 
-│                              │                  ├ [20]: https://linux.oracle.com/errata/ELSA-2024-8112.html 
-│                              │                  ├ [21]: https://nvd.nist.gov/vuln/detail/CVE-2024-34158 
-│                              │                  ├ [22]: https://pkg.go.dev/vuln/GO-2024-3107 
-│                              │                  ╰ [23]: https://www.cve.org/CVERecord?id=CVE-2024-34158 
+│                              │                  ├ [16]: https://github.com/golang/go/commit/032ac075c20c01c6c
+│                              │                  │       35a672d1542d3e98eab84ea (go1.23.1) 
+│                              │                  ├ [17]: https://github.com/golang/go/commit/d4c53812e6ce2ac36
+│                              │                  │       8173d7fcd31d0ecfcffb002 (go1.22.7) 
+│                              │                  ├ [18]: https://go.dev/cl/611240 
+│                              │                  ├ [19]: https://go.dev/issue/69141 
+│                              │                  ├ [20]: https://groups.google.com/g/golang-announce/c/K-cEzDe
+│                              │                  │       Ctpc 
+│                              │                  ├ [21]: https://groups.google.com/g/golang-dev/c/S9POB9NCTdk 
+│                              │                  ├ [22]: https://linux.oracle.com/cve/CVE-2024-34158.html 
+│                              │                  ├ [23]: https://linux.oracle.com/errata/ELSA-2024-8112.html 
+│                              │                  ├ [24]: https://nvd.nist.gov/vuln/detail/CVE-2024-34158 
+│                              │                  ├ [25]: https://pkg.go.dev/vuln/GO-2024-3107 
+│                              │                  ╰ [26]: https://www.cve.org/CVERecord?id=CVE-2024-34158 
 │                              ├ PublishedDate   : 2024-09-06T21:15:12.083Z 
 │                              ╰ LastModifiedDate: 2024-09-09T14:35:01.17Z 
 ├ [8]  ╭ Target: usr/bin/mc 
@@ -9590,84 +9657,7 @@
 │                                                 │      7a7786754d1fe05264c3021eb 
 │                                                 ╰ [2]: https://github.com/grpc/grpc-go/security/advisories/GH
 │                                                        SA-xr7q-jx4m-x55m 
-├ [10] ╭ Target : /etc/ssh/ssh_host_ed25519_key 
-│      ├ Class  : secret 
-│      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
-│                      ├ Category : AsymmetricPrivateKey 
-│                      ├ Severity : HIGH 
-│                      ├ Title    : Asymmetric Private Key 
-│                      ├ StartLine: 1 
-│                      ├ EndLine  : 1 
-│                      ├ Code      ─ Lines ╭ [0] ╭ Number     : 1 
-│                      │                   │     ├ Content    : BEGIN OPENSSH PRIVATE
-│                      │                   │     │              KEY-----***************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              *********************-----END OPENSSH PRI 
-│                      │                   │     ├ IsCause    : true 
-│                      │                   │     ├ Annotation :  
-│                      │                   │     ├ Truncated  : false 
-│                      │                   │     ├ Highlighted: BEGIN OPENSSH PRIVATE
-│                      │                   │     │              KEY-----***************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              *********************-----END OPENSSH PRI 
-│                      │                   │     ├ FirstCause : true 
-│                      │                   │     ╰ LastCause  : true 
-│                      │                   ╰ [1] ╭ Number    : 2 
-│                      │                         ├ Content   :  
-│                      │                         ├ IsCause   : false 
-│                      │                         ├ Annotation:  
-│                      │                         ├ Truncated : false 
-│                      │                         ├ FirstCause: false 
-│                      │                         ╰ LastCause : false 
-│                      ├ Match    : BEGIN OPENSSH PRIVATE
-│                      │            KEY-----*******************************************************************
-│                      │            ***************************************************************************
-│                      │            **************************************************-----END OPENSSH PRI 
-│                      ╰ Layer     ╭ Digest   : sha256:e4238b13d4923985de38b55ca837702b01cd3a65b49e08f2b738462a
-│                                  │            aeb30538 
-│                                  ├ DiffID   : sha256:1bb5c6ec0c1187b18273bc6efbbfda7c861760a004aa90a5021c8117
-│                                  │            bee5bd92 
-│                                  ╰ CreatedBy: COPY / / # buildkit 
-├ [11] ╭ Target : /etc/ssh/ssh_host_rsa_key 
-│      ├ Class  : secret 
-│      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
-│                      ├ Category : AsymmetricPrivateKey 
-│                      ├ Severity : HIGH 
-│                      ├ Title    : Asymmetric Private Key 
-│                      ├ StartLine: 1 
-│                      ├ EndLine  : 1 
-│                      ├ Code      ─ Lines ╭ [0] ╭ Number     : 1 
-│                      │                   │     ├ Content    : BEGIN OPENSSH PRIVATE
-│                      │                   │     │              KEY-----***************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********-----END OPENSSH PRI 
-│                      │                   │     ├ IsCause    : true 
-│                      │                   │     ├ Annotation :  
-│                      │                   │     ├ Truncated  : false 
-│                      │                   │     ├ Highlighted: BEGIN OPENSSH PRIVATE
-│                      │                   │     │              KEY-----***************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********-----END OPENSSH PRI 
-│                      │                   │     ├ FirstCause : true 
-│                      │                   │     ╰ LastCause  : true 
-│                      │                   ╰ [1] ╭ Number    : 2 
-│                      │                         ├ Content   :  
-│                      │                         ├ IsCause   : false 
-│                      │                         ├ Annotation:  
-│                      │                         ├ Truncated : false 
-│                      │                         ├ FirstCause: false 
-│                      │                         ╰ LastCause : false 
-│                      ├ Match    : BEGIN OPENSSH PRIVATE
-│                      │            KEY-----*******************************************************************
-│                      │            ***************************************************************************
-│                      │            **************************************************************************-
-│                      │            ----END OPENSSH PRI 
-│                      ╰ Layer     ╭ Digest   : sha256:e4238b13d4923985de38b55ca837702b01cd3a65b49e08f2b738462a
-│                                  │            aeb30538 
-│                                  ├ DiffID   : sha256:1bb5c6ec0c1187b18273bc6efbbfda7c861760a004aa90a5021c8117
-│                                  │            bee5bd92 
-│                                  ╰ CreatedBy: COPY / / # buildkit 
-├ [12] ╭ Target : /etc/ssh/ssh_host_dsa_key 
+├ [10] ╭ Target : /etc/ssh/ssh_host_dsa_key 
 │      ├ Class  : secret 
 │      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
 │                      ├ Category : AsymmetricPrivateKey 
@@ -9706,7 +9696,85 @@
 │                                  ├ DiffID   : sha256:1bb5c6ec0c1187b18273bc6efbbfda7c861760a004aa90a5021c8117
 │                                  │            bee5bd92 
 │                                  ╰ CreatedBy: COPY / / # buildkit 
-╰ [13] ╭ Target : /etc/ssh/ssh_host_ecdsa_key 
+├ [11] ╭ Target : /etc/ssh/ssh_host_ecdsa_key 
+│      ├ Class  : secret 
+│      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
+│                      ├ Category : AsymmetricPrivateKey 
+│                      ├ Severity : HIGH 
+│                      ├ Title    : Asymmetric Private Key 
+│                      ├ StartLine: 1 
+│                      ├ EndLine  : 1 
+│                      ├ Code      ─ Lines ╭ [0] ╭ Number     : 1 
+│                      │                   │     ├ Content    : BEGIN OPENSSH PRIVATE
+│                      │                   │     │              KEY-----***************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              *****************************-----END OPENSSH
+│                      │                   │     │              PRI 
+│                      │                   │     ├ IsCause    : true 
+│                      │                   │     ├ Annotation :  
+│                      │                   │     ├ Truncated  : false 
+│                      │                   │     ├ Highlighted: BEGIN OPENSSH PRIVATE
+│                      │                   │     │              KEY-----***************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              *****************************-----END OPENSSH
+│                      │                   │     │              PRI 
+│                      │                   │     ├ FirstCause : true 
+│                      │                   │     ╰ LastCause  : true 
+│                      │                   ╰ [1] ╭ Number    : 2 
+│                      │                         ├ Content   :  
+│                      │                         ├ IsCause   : false 
+│                      │                         ├ Annotation:  
+│                      │                         ├ Truncated : false 
+│                      │                         ├ FirstCause: false 
+│                      │                         ╰ LastCause : false 
+│                      ├ Match    : BEGIN OPENSSH PRIVATE
+│                      │            KEY-----*******************************************************************
+│                      │            ***************************************************************************
+│                      │            **-----END OPENSSH PRI 
+│                      ╰ Layer     ╭ Digest   : sha256:e4238b13d4923985de38b55ca837702b01cd3a65b49e08f2b738462a
+│                                  │            aeb30538 
+│                                  ├ DiffID   : sha256:1bb5c6ec0c1187b18273bc6efbbfda7c861760a004aa90a5021c8117
+│                                  │            bee5bd92 
+│                                  ╰ CreatedBy: COPY / / # buildkit 
+├ [12] ╭ Target : /etc/ssh/ssh_host_ed25519_key 
+│      ├ Class  : secret 
+│      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
+│                      ├ Category : AsymmetricPrivateKey 
+│                      ├ Severity : HIGH 
+│                      ├ Title    : Asymmetric Private Key 
+│                      ├ StartLine: 1 
+│                      ├ EndLine  : 1 
+│                      ├ Code      ─ Lines ╭ [0] ╭ Number     : 1 
+│                      │                   │     ├ Content    : BEGIN OPENSSH PRIVATE
+│                      │                   │     │              KEY-----***************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              *********************-----END OPENSSH PRI 
+│                      │                   │     ├ IsCause    : true 
+│                      │                   │     ├ Annotation :  
+│                      │                   │     ├ Truncated  : false 
+│                      │                   │     ├ Highlighted: BEGIN OPENSSH PRIVATE
+│                      │                   │     │              KEY-----***************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              *********************-----END OPENSSH PRI 
+│                      │                   │     ├ FirstCause : true 
+│                      │                   │     ╰ LastCause  : true 
+│                      │                   ╰ [1] ╭ Number    : 2 
+│                      │                         ├ Content   :  
+│                      │                         ├ IsCause   : false 
+│                      │                         ├ Annotation:  
+│                      │                         ├ Truncated : false 
+│                      │                         ├ FirstCause: false 
+│                      │                         ╰ LastCause : false 
+│                      ├ Match    : BEGIN OPENSSH PRIVATE
+│                      │            KEY-----*******************************************************************
+│                      │            ***************************************************************************
+│                      │            **************************************************-----END OPENSSH PRI 
+│                      ╰ Layer     ╭ Digest   : sha256:e4238b13d4923985de38b55ca837702b01cd3a65b49e08f2b738462a
+│                                  │            aeb30538 
+│                                  ├ DiffID   : sha256:1bb5c6ec0c1187b18273bc6efbbfda7c861760a004aa90a5021c8117
+│                                  │            bee5bd92 
+│                                  ╰ CreatedBy: COPY / / # buildkit 
+╰ [13] ╭ Target : /etc/ssh/ssh_host_rsa_key 
        ├ Class  : secret 
        ╰ Secrets ─ [0] ╭ RuleID   : private-key 
                        ├ Category : AsymmetricPrivateKey 
@@ -9718,16 +9786,14 @@
                        │                   │     ├ Content    : BEGIN OPENSSH PRIVATE
                        │                   │     │              KEY-----***************************************
                        │                   │     │              ***********************************************
-                       │                   │     │              *****************************-----END OPENSSH
-                       │                   │     │              PRI 
+                       │                   │     │              ***********-----END OPENSSH PRI 
                        │                   │     ├ IsCause    : true 
                        │                   │     ├ Annotation :  
                        │                   │     ├ Truncated  : false 
                        │                   │     ├ Highlighted: BEGIN OPENSSH PRIVATE
                        │                   │     │              KEY-----***************************************
                        │                   │     │              ***********************************************
-                       │                   │     │              *****************************-----END OPENSSH
-                       │                   │     │              PRI 
+                       │                   │     │              ***********-----END OPENSSH PRI 
                        │                   │     ├ FirstCause : true 
                        │                   │     ╰ LastCause  : true 
                        │                   ╰ [1] ╭ Number    : 2 
@@ -9740,7 +9806,8 @@
                        ├ Match    : BEGIN OPENSSH PRIVATE
                        │            KEY-----*******************************************************************
                        │            ***************************************************************************
-                       │            **-----END OPENSSH PRI 
+                       │            **************************************************************************-
+                       │            ----END OPENSSH PRI 
                        ╰ Layer     ╭ Digest   : sha256:e4238b13d4923985de38b55ca837702b01cd3a65b49e08f2b738462a
                                    │            aeb30538 
                                    ├ DiffID   : sha256:1bb5c6ec0c1187b18273bc6efbbfda7c861760a004aa90a5021c8117
