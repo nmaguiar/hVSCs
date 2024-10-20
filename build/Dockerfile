@@ -30,7 +30,7 @@ RUN apt-get update\
  && ssh-keygen -A\
  && sed -i "s/AllowTcpForwarding no/AllowTcpForwarding yes/g" /etc/ssh/sshd_config\
  && sed -i "s/GatewayPorts no/GatewayPorts yes/g" /etc/ssh/sshd_config\
- && sed -i "s/default:\"welcomePage\"/default:\"readme\"/g" /home/.openvscode-server/out/vs/workbench/workbench.web.main.js
+ && sed -i "s/default:\"welcomePage\"/default:\"readme\"/g" /home/.openvscode-server/out/vs/code/browser/workbench/workbench.js
 
 COPY ojob_p2.yaml /tmp/.p2.yaml
 COPY ojob_p1.sh /tmp/.p1.sh
