@@ -1828,7 +1828,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-39325
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-44487
     - https://errata.almalinux.org/9/ALSA-2023-6077.html
-    - https://errata.rockylinux.org/RLSA-2023:6077
+    - https://errata.rockylinux.org/RLSA-2023:5863
     - https://github.com/golang/go/commit/24ae2d927285c697440fdde3ad7f26028354bcf3 [golang- 1.21]
     - https://github.com/golang/go/commit/e175f27f58aa7b9cd4d79607ae65d2cd5baaee68 [golang-1.20]
     - https://github.com/golang/go/issues/63417
@@ -1945,7 +1945,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       ghsa: 2
@@ -2075,7 +2075,7 @@
     - https://discuss.hashicorp.com/t/hcsec-2023-32-vault-consul-and-boundary-affected-by-http-2-rapid-reset-denial-of-service-vulnerability-cve-2023-44487/59715
     - https://edg.io/lp/blog/resets-leaks-ddos-and-the-tale-of-a-hidden-cve
     - https://errata.almalinux.org/9/ALSA-2023-6746.html
-    - https://errata.rockylinux.org/RLSA-2023:5838
+    - https://errata.rockylinux.org/RLSA-2023:5928
     - https://forums.swift.org/t/swift-nio-http2-security-update-cve-2023-44487-http-2-dos/67764
     - https://gist.github.com/adulau/7c2bfb8e9cdbe4b35a5e131c66a0c088
     - https://github.com/Azure/AKS/issues/3947
@@ -2338,7 +2338,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45290
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24783
     - https://errata.almalinux.org/9/ALSA-2024-2724.html
-    - https://errata.rockylinux.org/RLSA-2024:2724
+    - https://errata.rockylinux.org/RLSA-2024:3346
     - https://go.dev/cl/576155
     - https://go.dev/issue/65051
     - https://groups.google.com/g/golang-announce/c/YgW0sx8mN3M
@@ -2486,7 +2486,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-39325
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-44487
     - https://errata.almalinux.org/9/ALSA-2023-6077.html
-    - https://errata.rockylinux.org/RLSA-2023:6077
+    - https://errata.rockylinux.org/RLSA-2023:5863
     - https://github.com/golang/go/commit/24ae2d927285c697440fdde3ad7f26028354bcf3 [golang- 1.21]
     - https://github.com/golang/go/commit/e175f27f58aa7b9cd4d79607ae65d2cd5baaee68 [golang-1.20]
     - https://github.com/golang/go/issues/63417
@@ -2686,7 +2686,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45290
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24783
     - https://errata.almalinux.org/9/ALSA-2024-2724.html
-    - https://errata.rockylinux.org/RLSA-2024:2724
+    - https://errata.rockylinux.org/RLSA-2024:3346
     - https://go.dev/cl/576155
     - https://go.dev/issue/65051
     - https://groups.google.com/g/golang-announce/c/YgW0sx8mN3M
@@ -2748,10 +2748,12 @@
     - https://bugzilla.redhat.com/2310528
     - https://bugzilla.redhat.com/2310529
     - https://bugzilla.redhat.com/2315691
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2262921
     - https://bugzilla.redhat.com/show_bug.cgi?id=2310528
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-1394
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-34156
     - https://errata.almalinux.org/9/ALSA-2024-8112.html
-    - https://errata.rockylinux.org/RLSA-2024:7204
+    - https://errata.rockylinux.org/RLSA-2024:7262
     - https://github.com/golang/go/commit/2092294f2b097c5828f4eace6c98a322c1510b01 (go1.22.7)
     - https://github.com/golang/go/commit/fa8ff1a46deb6c816304441ec6740ec112e19012 (go1.23.1)
     - https://go.dev/cl/611239
@@ -2929,7 +2931,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -2997,7 +2999,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -3190,7 +3192,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45290
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24783
     - https://errata.almalinux.org/9/ALSA-2024-2724.html
-    - https://errata.rockylinux.org/RLSA-2024:2724
+    - https://errata.rockylinux.org/RLSA-2024:3346
     - https://github.com/golang/go/commit/20586c0dbe03d144f914155f879fa5ee287591a1 (go1.21.8)
     - https://github.com/golang/go/commit/3a855208e3efed2e9d7c20ad023f1fa78afcc0be (go1.22.1)
     - https://github.com/golang/go/issues/65065
@@ -3231,7 +3233,7 @@
       cbl-mariner: 2
       oracle-oval: 3
       redhat: 2
-      rocky: 2
+      rocky: 3
       ubuntu: 2
     CVSS:
       redhat:
@@ -3243,9 +3245,15 @@
     - https://access.redhat.com/security/cve/CVE-2023-45290
     - https://bugzilla.redhat.com/2268017
     - https://bugzilla.redhat.com/show_bug.cgi?id=2268017
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2268018
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2268019
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2268273
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45288
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45289
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45290
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24783
     - https://errata.almalinux.org/9/ALSA-2024-3831.html
-    - https://errata.rockylinux.org/RLSA-2024:3830
+    - https://errata.rockylinux.org/RLSA-2024:3346
     - https://github.com/golang/go/commit/041a47712e765e94f86d841c3110c840e76d8f82 (go1.22.1)
     - https://github.com/golang/go/commit/bf80213b121074f4ad9b449410a4d13bae5e9be0 (go1.21.8)
     - https://github.com/golang/go/issues/65383
@@ -3307,7 +3315,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45290
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24783
     - https://errata.almalinux.org/9/ALSA-2024-6195.html
-    - https://errata.rockylinux.org/RLSA-2024:2724
+    - https://errata.rockylinux.org/RLSA-2024:3346
     - https://github.com/advisories/GHSA-3q2c-pvp5-3cqp
     - https://github.com/golang/go/commit/337b8e9cbfa749d9d5c899e0dc358e2208d5e54f (go1.22.1)
     - https://github.com/golang/go/commit/be5b52bea674190ef7de272664be6c7ae93ec5a0 (go1.21.8)
@@ -3348,7 +3356,7 @@
       alma: 3
       amazon: 2
       bitnami: 3
-      cbl-mariner: 3
+      cbl-mariner: 2
       oracle-oval: 2
       photon: 3
       redhat: 2
@@ -3805,7 +3813,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-39325
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-44487
     - https://errata.almalinux.org/9/ALSA-2023-6077.html
-    - https://errata.rockylinux.org/RLSA-2023:6077
+    - https://errata.rockylinux.org/RLSA-2023:5863
     - https://github.com/golang/go/commit/24ae2d927285c697440fdde3ad7f26028354bcf3 [golang- 1.21]
     - https://github.com/golang/go/commit/e175f27f58aa7b9cd4d79607ae65d2cd5baaee68 [golang-1.20]
     - https://github.com/golang/go/issues/63417
@@ -3922,7 +3930,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       ghsa: 2
@@ -4052,7 +4060,7 @@
     - https://discuss.hashicorp.com/t/hcsec-2023-32-vault-consul-and-boundary-affected-by-http-2-rapid-reset-denial-of-service-vulnerability-cve-2023-44487/59715
     - https://edg.io/lp/blog/resets-leaks-ddos-and-the-tale-of-a-hidden-cve
     - https://errata.almalinux.org/9/ALSA-2023-6746.html
-    - https://errata.rockylinux.org/RLSA-2023:5838
+    - https://errata.rockylinux.org/RLSA-2023:5928
     - https://forums.swift.org/t/swift-nio-http2-security-update-cve-2023-44487-http-2-dos/67764
     - https://gist.github.com/adulau/7c2bfb8e9cdbe4b35a5e131c66a0c088
     - https://github.com/Azure/AKS/issues/3947
@@ -4315,7 +4323,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45290
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24783
     - https://errata.almalinux.org/9/ALSA-2024-2724.html
-    - https://errata.rockylinux.org/RLSA-2024:2724
+    - https://errata.rockylinux.org/RLSA-2024:3346
     - https://go.dev/cl/576155
     - https://go.dev/issue/65051
     - https://groups.google.com/g/golang-announce/c/YgW0sx8mN3M
@@ -4463,7 +4471,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-39325
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-44487
     - https://errata.almalinux.org/9/ALSA-2023-6077.html
-    - https://errata.rockylinux.org/RLSA-2023:6077
+    - https://errata.rockylinux.org/RLSA-2023:5863
     - https://github.com/golang/go/commit/24ae2d927285c697440fdde3ad7f26028354bcf3 [golang- 1.21]
     - https://github.com/golang/go/commit/e175f27f58aa7b9cd4d79607ae65d2cd5baaee68 [golang-1.20]
     - https://github.com/golang/go/issues/63417
@@ -4663,7 +4671,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45290
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24783
     - https://errata.almalinux.org/9/ALSA-2024-2724.html
-    - https://errata.rockylinux.org/RLSA-2024:2724
+    - https://errata.rockylinux.org/RLSA-2024:3346
     - https://go.dev/cl/576155
     - https://go.dev/issue/65051
     - https://groups.google.com/g/golang-announce/c/YgW0sx8mN3M
@@ -4725,10 +4733,12 @@
     - https://bugzilla.redhat.com/2310528
     - https://bugzilla.redhat.com/2310529
     - https://bugzilla.redhat.com/2315691
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2262921
     - https://bugzilla.redhat.com/show_bug.cgi?id=2310528
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-1394
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-34156
     - https://errata.almalinux.org/9/ALSA-2024-8112.html
-    - https://errata.rockylinux.org/RLSA-2024:7204
+    - https://errata.rockylinux.org/RLSA-2024:7262
     - https://github.com/golang/go/commit/2092294f2b097c5828f4eace6c98a322c1510b01 (go1.22.7)
     - https://github.com/golang/go/commit/fa8ff1a46deb6c816304441ec6740ec112e19012 (go1.23.1)
     - https://go.dev/cl/611239
@@ -4906,7 +4916,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -4974,7 +4984,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -5167,7 +5177,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45290
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24783
     - https://errata.almalinux.org/9/ALSA-2024-2724.html
-    - https://errata.rockylinux.org/RLSA-2024:2724
+    - https://errata.rockylinux.org/RLSA-2024:3346
     - https://github.com/golang/go/commit/20586c0dbe03d144f914155f879fa5ee287591a1 (go1.21.8)
     - https://github.com/golang/go/commit/3a855208e3efed2e9d7c20ad023f1fa78afcc0be (go1.22.1)
     - https://github.com/golang/go/issues/65065
@@ -5208,7 +5218,7 @@
       cbl-mariner: 2
       oracle-oval: 3
       redhat: 2
-      rocky: 2
+      rocky: 3
       ubuntu: 2
     CVSS:
       redhat:
@@ -5220,9 +5230,15 @@
     - https://access.redhat.com/security/cve/CVE-2023-45290
     - https://bugzilla.redhat.com/2268017
     - https://bugzilla.redhat.com/show_bug.cgi?id=2268017
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2268018
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2268019
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2268273
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45288
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45289
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45290
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24783
     - https://errata.almalinux.org/9/ALSA-2024-3831.html
-    - https://errata.rockylinux.org/RLSA-2024:3830
+    - https://errata.rockylinux.org/RLSA-2024:3346
     - https://github.com/golang/go/commit/041a47712e765e94f86d841c3110c840e76d8f82 (go1.22.1)
     - https://github.com/golang/go/commit/bf80213b121074f4ad9b449410a4d13bae5e9be0 (go1.21.8)
     - https://github.com/golang/go/issues/65383
@@ -5284,7 +5300,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45290
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24783
     - https://errata.almalinux.org/9/ALSA-2024-6195.html
-    - https://errata.rockylinux.org/RLSA-2024:2724
+    - https://errata.rockylinux.org/RLSA-2024:3346
     - https://github.com/advisories/GHSA-3q2c-pvp5-3cqp
     - https://github.com/golang/go/commit/337b8e9cbfa749d9d5c899e0dc358e2208d5e54f (go1.22.1)
     - https://github.com/golang/go/commit/be5b52bea674190ef7de272664be6c7ae93ec5a0 (go1.21.8)
@@ -5325,7 +5341,7 @@
       alma: 3
       amazon: 2
       bitnami: 3
-      cbl-mariner: 3
+      cbl-mariner: 2
       oracle-oval: 2
       photon: 3
       redhat: 2
@@ -5833,37 +5849,6 @@
     - https://github.com/grpc/grpc-go
     - https://github.com/grpc/grpc-go/commit/ab292411ddc0f3b7a7786754d1fe05264c3021eb
     - https://github.com/grpc/grpc-go/security/advisories/GHSA-xr7q-jx4m-x55m
-- Target: /etc/ssh/ssh_host_ecdsa_key
-  Class: secret
-  Secrets:
-  - RuleID: private-key
-    Category: AsymmetricPrivateKey
-    Severity: HIGH
-    Title: Asymmetric Private Key
-    StartLine: 1
-    EndLine: 1
-    Code:
-      Lines:
-      - Number: 1
-        Content: BEGIN OPENSSH PRIVATE KEY-----************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
-        IsCause: true
-        Annotation: ''
-        Truncated: false
-        Highlighted: BEGIN OPENSSH PRIVATE KEY-----************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
-        FirstCause: true
-        LastCause: true
-      - Number: 2
-        Content: ''
-        IsCause: false
-        Annotation: ''
-        Truncated: false
-        FirstCause: false
-        LastCause: false
-    Match: BEGIN OPENSSH PRIVATE KEY-----************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
-    Layer:
-      Digest: sha256:3cda22b7b0036845fa836edb7eea80bc6d970cdaa5e89623fe0963d318892a63
-      DiffID: sha256:e7b5e8e0b1e85287dd2c441a75e790b95755bd7e0221b4380623a9d76fbcd69e
-      CreatedBy: 'COPY / / # buildkit'
 - Target: /etc/ssh/ssh_host_ed25519_key
   Class: secret
   Secrets:
@@ -5922,6 +5907,37 @@
         FirstCause: false
         LastCause: false
     Match: BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
+    Layer:
+      Digest: sha256:3cda22b7b0036845fa836edb7eea80bc6d970cdaa5e89623fe0963d318892a63
+      DiffID: sha256:e7b5e8e0b1e85287dd2c441a75e790b95755bd7e0221b4380623a9d76fbcd69e
+      CreatedBy: 'COPY / / # buildkit'
+- Target: /etc/ssh/ssh_host_ecdsa_key
+  Class: secret
+  Secrets:
+  - RuleID: private-key
+    Category: AsymmetricPrivateKey
+    Severity: HIGH
+    Title: Asymmetric Private Key
+    StartLine: 1
+    EndLine: 1
+    Code:
+      Lines:
+      - Number: 1
+        Content: BEGIN OPENSSH PRIVATE KEY-----************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
+        IsCause: true
+        Annotation: ''
+        Truncated: false
+        Highlighted: BEGIN OPENSSH PRIVATE KEY-----************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
+        FirstCause: true
+        LastCause: true
+      - Number: 2
+        Content: ''
+        IsCause: false
+        Annotation: ''
+        Truncated: false
+        FirstCause: false
+        LastCause: false
+    Match: BEGIN OPENSSH PRIVATE KEY-----************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
     Layer:
       Digest: sha256:3cda22b7b0036845fa836edb7eea80bc6d970cdaa5e89623fe0963d318892a63
       DiffID: sha256:e7b5e8e0b1e85287dd2c441a75e790b95755bd7e0221b4380623a9d76fbcd69e
