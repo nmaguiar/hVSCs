@@ -1515,19 +1515,20 @@
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:
 │                        │      │                           │           N/A:N 
 │                        │      │                           ╰ V3Score : 5.9 
-│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-2236 
-│                        │      │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2245218 
-│                        │      │                  ├ [2]: https://dev.gnupg.org/T7136 
-│                        │      │                  ├ [3]: https://github.com/tomato42/marvin-toolkit/tree/maste
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2024:9404 
+│                        │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2024-2236 
+│                        │      │                  ├ [2]: https://bugzilla.redhat.com/show_bug.cgi?id=2245218 
+│                        │      │                  ├ [3]: https://dev.gnupg.org/T7136 
+│                        │      │                  ├ [4]: https://github.com/tomato42/marvin-toolkit/tree/maste
 │                        │      │                  │      r/example/libgcrypt 
-│                        │      │                  ├ [4]: https://gitlab.com/redhat-crypto/libgcrypt/libgcrypt-
+│                        │      │                  ├ [5]: https://gitlab.com/redhat-crypto/libgcrypt/libgcrypt-
 │                        │      │                  │      mirror/-/merge_requests/17 
-│                        │      │                  ├ [5]: https://lists.gnupg.org/pipermail/gcrypt-devel/2024-M
+│                        │      │                  ├ [6]: https://lists.gnupg.org/pipermail/gcrypt-devel/2024-M
 │                        │      │                  │      arch/005607.html 
-│                        │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2024-2236 
-│                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2024-2236 
+│                        │      │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2024-2236 
+│                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-2236 
 │                        │      ├ PublishedDate   : 2024-03-06T22:15:57.977Z 
-│                        │      ╰ LastModifiedDate: 2024-09-14T04:15:02.903Z 
+│                        │      ╰ LastModifiedDate: 2024-11-12T18:15:20.15Z 
 │                        ├ [29] ╭ VulnerabilityID : CVE-2021-40812 
 │                        │      ├ PkgID           : libgd3@2.3.0-2ubuntu2 
 │                        │      ├ PkgName         : libgd3 
@@ -5866,7 +5867,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ amazon     : 3 
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
@@ -5947,7 +5948,7 @@
 │                        │      │                   bytes grows too small. 
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ amazon     : 3 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ nvd        : 2 
@@ -8653,7 +8654,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ amazon     : 3 
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
@@ -8734,7 +8735,7 @@
 │                        │      │                   bytes grows too small. 
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ amazon     : 3 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ nvd        : 2 
