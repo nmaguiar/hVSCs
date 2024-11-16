@@ -1461,6 +1461,82 @@
     - https://www.cve.org/CVERecord?id=CVE-2021-40812
     PublishedDate: '2021-09-08T21:15:14.083Z'
     LastModifiedDate: '2024-10-29T14:35:07.913Z'
+  - VulnerabilityID: CVE-2024-52533
+    PkgID: libglib2.0-0@2.72.4-0ubuntu2.3
+    PkgName: libglib2.0-0
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libglib2.0-0@2.72.4-0ubuntu2.3?arch=amd64&distro=ubuntu-22.04
+      UID: 514d38bac417391e
+    InstalledVersion: 2.72.4-0ubuntu2.3
+    Status: affected
+    Layer:
+      Digest: sha256:208bee752db169e4e5492dd461e5980fdee9c00882b52e7c5182cb7bc2d0b4cf
+      DiffID: sha256:82d41002ec052a8aa2463273a2353805d91b16a95ebae3c0c073cf514436a0d7
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-52533
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'glib: buffer overflow in set_connect_msg()'
+    Description: gio/gsocks4aproxy.c in GNOME GLib before 2.82.1 has an off-by-one error and resultant buffer overflow because SOCKS4_CONN_MSG_LEN is not sufficient for a trailing '\0' character.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-120
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:H
+        V3Score: 7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-52533
+    - https://gitlab.gnome.org/GNOME/glib/-/issues/3461
+    - https://gitlab.gnome.org/GNOME/glib/-/releases/2.82.1
+    - https://gitlab.gnome.org/Teams/Releng/security/-/wikis/home
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-52533
+    - https://www.cve.org/CVERecord?id=CVE-2024-52533
+    PublishedDate: '2024-11-11T23:15:05.967Z'
+    LastModifiedDate: '2024-11-12T16:35:24.297Z'
+  - VulnerabilityID: CVE-2024-52533
+    PkgID: libglib2.0-data@2.72.4-0ubuntu2.3
+    PkgName: libglib2.0-data
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libglib2.0-data@2.72.4-0ubuntu2.3?arch=all&distro=ubuntu-22.04
+      UID: 8cdae52db743242e
+    InstalledVersion: 2.72.4-0ubuntu2.3
+    Status: affected
+    Layer:
+      Digest: sha256:208bee752db169e4e5492dd461e5980fdee9c00882b52e7c5182cb7bc2d0b4cf
+      DiffID: sha256:82d41002ec052a8aa2463273a2353805d91b16a95ebae3c0c073cf514436a0d7
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-52533
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'glib: buffer overflow in set_connect_msg()'
+    Description: gio/gsocks4aproxy.c in GNOME GLib before 2.82.1 has an off-by-one error and resultant buffer overflow because SOCKS4_CONN_MSG_LEN is not sufficient for a trailing '\0' character.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-120
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:H
+        V3Score: 7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-52533
+    - https://gitlab.gnome.org/GNOME/glib/-/issues/3461
+    - https://gitlab.gnome.org/GNOME/glib/-/releases/2.82.1
+    - https://gitlab.gnome.org/Teams/Releng/security/-/wikis/home
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-52533
+    - https://www.cve.org/CVERecord?id=CVE-2024-52533
+    PublishedDate: '2024-11-11T23:15:05.967Z'
+    LastModifiedDate: '2024-11-12T16:35:24.297Z'
   - VulnerabilityID: CVE-2024-26462
     PkgID: libgssapi-krb5-2@1.19.2-2ubuntu0.4
     PkgName: libgssapi-krb5-2
@@ -3839,6 +3915,7 @@
     - https://security.netapp.com/advisory/ntap-20231110-0008/
     - https://ubuntu.com/security/notices/USN-6574-1
     - https://ubuntu.com/security/notices/USN-7061-1
+    - https://ubuntu.com/security/notices/USN-7109-1
     - https://www.cisa.gov/news-events/alerts/2023/10/10/http2-rapid-reset-vulnerability-cve-2023-44487
     - https://www.cve.org/CVERecord?id=CVE-2023-39325
     PublishedDate: '2023-10-11T22:15:09.88Z'
@@ -4276,6 +4353,8 @@
     - https://security.netapp.com/advisory/ntap-20240419-0009
     - https://security.netapp.com/advisory/ntap-20240419-0009/
     - https://ubuntu.com/security/notices/USN-6886-1
+    - https://ubuntu.com/security/notices/USN-7109-1
+    - https://ubuntu.com/security/notices/USN-7111-1
     - https://www.cve.org/CVERecord?id=CVE-2023-45288
     - https://www.kb.cert.org/vuls/id/421644
     PublishedDate: '2024-04-04T21:15:16.113Z'
@@ -4345,6 +4424,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2024-24790
     - https://pkg.go.dev/vuln/GO-2024-2887
     - https://ubuntu.com/security/notices/USN-6886-1
+    - https://ubuntu.com/security/notices/USN-7109-1
     - https://www.cve.org/CVERecord?id=CVE-2024-24790
     PublishedDate: '2024-06-05T16:15:10.56Z'
     LastModifiedDate: '2024-09-03T18:35:07.483Z'
@@ -4497,6 +4577,7 @@
     - https://security.netapp.com/advisory/ntap-20231110-0008/
     - https://ubuntu.com/security/notices/USN-6574-1
     - https://ubuntu.com/security/notices/USN-7061-1
+    - https://ubuntu.com/security/notices/USN-7109-1
     - https://www.cisa.gov/news-events/alerts/2023/10/10/http2-rapid-reset-vulnerability-cve-2023-44487
     - https://www.cve.org/CVERecord?id=CVE-2023-39325
     PublishedDate: '2023-10-11T22:15:09.88Z'
@@ -4624,6 +4705,8 @@
     - https://security.netapp.com/advisory/ntap-20240419-0009
     - https://security.netapp.com/advisory/ntap-20240419-0009/
     - https://ubuntu.com/security/notices/USN-6886-1
+    - https://ubuntu.com/security/notices/USN-7109-1
+    - https://ubuntu.com/security/notices/USN-7111-1
     - https://www.cve.org/CVERecord?id=CVE-2023-45288
     - https://www.kb.cert.org/vuls/id/421644
     PublishedDate: '2024-04-04T21:15:16.113Z'
@@ -4685,6 +4768,8 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2024-34156
     - https://pkg.go.dev/vuln/GO-2024-3106
     - https://ubuntu.com/security/notices/USN-7081-1
+    - https://ubuntu.com/security/notices/USN-7109-1
+    - https://ubuntu.com/security/notices/USN-7111-1
     - https://www.cve.org/CVERecord?id=CVE-2024-34156
     PublishedDate: '2024-09-06T21:15:12.02Z'
     LastModifiedDate: '2024-09-09T15:35:07.573Z'
@@ -4761,6 +4846,7 @@
     - https://security.gentoo.org/glsa/202311-09
     - https://security.netapp.com/advisory/ntap-20230814-0002/
     - https://ubuntu.com/security/notices/USN-7061-1
+    - https://ubuntu.com/security/notices/USN-7109-1
     - https://www.cve.org/CVERecord?id=CVE-2023-29406
     PublishedDate: '2023-07-11T20:15:10.643Z'
     LastModifiedDate: '2023-11-25T11:15:14.727Z'
@@ -4891,6 +4977,7 @@
     - https://security.netapp.com/advisory/ntap-20231020-0009/
     - https://ubuntu.com/security/notices/USN-6574-1
     - https://ubuntu.com/security/notices/USN-7061-1
+    - https://ubuntu.com/security/notices/USN-7109-1
     - https://vuln.go.dev/ID/GO-2023-2041.json
     - https://www.cve.org/CVERecord?id=CVE-2023-39318
     PublishedDate: '2023-09-08T17:15:27.823Z'
@@ -4959,6 +5046,7 @@
     - https://security.netapp.com/advisory/ntap-20231020-0009/
     - https://ubuntu.com/security/notices/USN-6574-1
     - https://ubuntu.com/security/notices/USN-7061-1
+    - https://ubuntu.com/security/notices/USN-7109-1
     - https://vuln.go.dev/ID/GO-2023-2043.json
     - https://www.cve.org/CVERecord?id=CVE-2023-39319
     PublishedDate: '2023-09-08T17:15:27.91Z'
@@ -5191,6 +5279,8 @@
     - https://security.netapp.com/advisory/ntap-20240329-0004
     - https://security.netapp.com/advisory/ntap-20240329-0004/
     - https://ubuntu.com/security/notices/USN-6886-1
+    - https://ubuntu.com/security/notices/USN-7109-1
+    - https://ubuntu.com/security/notices/USN-7111-1
     - https://www.cve.org/CVERecord?id=CVE-2023-45290
     PublishedDate: '2024-03-05T23:15:07.21Z'
     LastModifiedDate: '2024-11-07T11:35:02.48Z'
@@ -5260,6 +5350,8 @@
     - https://security.netapp.com/advisory/ntap-20240329-0005
     - https://security.netapp.com/advisory/ntap-20240329-0005/
     - https://ubuntu.com/security/notices/USN-6886-1
+    - https://ubuntu.com/security/notices/USN-7109-1
+    - https://ubuntu.com/security/notices/USN-7111-1
     - https://www.cve.org/CVERecord?id=CVE-2024-24783
     PublishedDate: '2024-03-05T23:15:07.683Z'
     LastModifiedDate: '2024-11-05T17:35:08.987Z'
@@ -5286,7 +5378,7 @@
       alma: 3
       amazon: 2
       bitnami: 3
-      cbl-mariner: 2
+      cbl-mariner: 3
       oracle-oval: 2
       photon: 3
       redhat: 2
@@ -5338,6 +5430,8 @@
     - https://pkg.go.dev/vuln/GO-2024-2609
     - https://security.netapp.com/advisory/ntap-20240329-0007/
     - https://ubuntu.com/security/notices/USN-6886-1
+    - https://ubuntu.com/security/notices/USN-7109-1
+    - https://ubuntu.com/security/notices/USN-7111-1
     - https://www.cve.org/CVERecord?id=CVE-2024-24784
     PublishedDate: '2024-03-05T23:15:07.733Z'
     LastModifiedDate: '2024-08-05T21:35:04.457Z'
@@ -5412,6 +5506,7 @@
     - https://security.netapp.com/advisory/ntap-20240329-0008/
     - https://ubuntu.com/security/notices/USN-6886-1
     - https://ubuntu.com/security/notices/USN-7061-1
+    - https://ubuntu.com/security/notices/USN-7109-1
     - https://vuln.go.dev/ID/GO-2024-2610.json
     - https://www.cve.org/CVERecord?id=CVE-2024-24785
     PublishedDate: '2024-03-05T23:15:07.777Z'
@@ -5483,6 +5578,8 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2024-24789
     - https://pkg.go.dev/vuln/GO-2024-2888
     - https://ubuntu.com/security/notices/USN-6886-1
+    - https://ubuntu.com/security/notices/USN-7109-1
+    - https://ubuntu.com/security/notices/USN-7111-1
     - https://www.cve.org/CVERecord?id=CVE-2024-24789
     PublishedDate: '2024-06-05T16:15:10.47Z'
     LastModifiedDate: '2024-07-03T01:48:25.51Z'
@@ -5547,6 +5644,8 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2024-24791
     - https://pkg.go.dev/vuln/GO-2024-2963
     - https://ubuntu.com/security/notices/USN-7081-1
+    - https://ubuntu.com/security/notices/USN-7109-1
+    - https://ubuntu.com/security/notices/USN-7111-1
     - https://www.cve.org/CVERecord?id=CVE-2024-24791
     PublishedDate: '2024-07-02T22:15:04.833Z'
     LastModifiedDate: '2024-07-08T14:17:39.083Z'
@@ -5612,6 +5711,8 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2024-34155
     - https://pkg.go.dev/vuln/GO-2024-3105
     - https://ubuntu.com/security/notices/USN-7081-1
+    - https://ubuntu.com/security/notices/USN-7109-1
+    - https://ubuntu.com/security/notices/USN-7111-1
     - https://www.cve.org/CVERecord?id=CVE-2024-34155
     PublishedDate: '2024-09-06T21:15:11.947Z'
     LastModifiedDate: '2024-11-04T17:35:17.887Z'
@@ -5680,6 +5781,8 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2024-34158
     - https://pkg.go.dev/vuln/GO-2024-3107
     - https://ubuntu.com/security/notices/USN-7081-1
+    - https://ubuntu.com/security/notices/USN-7109-1
+    - https://ubuntu.com/security/notices/USN-7111-1
     - https://www.cve.org/CVERecord?id=CVE-2024-34158
     PublishedDate: '2024-09-06T21:15:12.083Z'
     LastModifiedDate: '2024-09-09T14:35:01.17Z'
@@ -5836,6 +5939,7 @@
     - https://security.netapp.com/advisory/ntap-20231110-0008/
     - https://ubuntu.com/security/notices/USN-6574-1
     - https://ubuntu.com/security/notices/USN-7061-1
+    - https://ubuntu.com/security/notices/USN-7109-1
     - https://www.cisa.gov/news-events/alerts/2023/10/10/http2-rapid-reset-vulnerability-cve-2023-44487
     - https://www.cve.org/CVERecord?id=CVE-2023-39325
     PublishedDate: '2023-10-11T22:15:09.88Z'
@@ -6273,6 +6377,8 @@
     - https://security.netapp.com/advisory/ntap-20240419-0009
     - https://security.netapp.com/advisory/ntap-20240419-0009/
     - https://ubuntu.com/security/notices/USN-6886-1
+    - https://ubuntu.com/security/notices/USN-7109-1
+    - https://ubuntu.com/security/notices/USN-7111-1
     - https://www.cve.org/CVERecord?id=CVE-2023-45288
     - https://www.kb.cert.org/vuls/id/421644
     PublishedDate: '2024-04-04T21:15:16.113Z'
@@ -6342,6 +6448,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2024-24790
     - https://pkg.go.dev/vuln/GO-2024-2887
     - https://ubuntu.com/security/notices/USN-6886-1
+    - https://ubuntu.com/security/notices/USN-7109-1
     - https://www.cve.org/CVERecord?id=CVE-2024-24790
     PublishedDate: '2024-06-05T16:15:10.56Z'
     LastModifiedDate: '2024-09-03T18:35:07.483Z'
@@ -6494,6 +6601,7 @@
     - https://security.netapp.com/advisory/ntap-20231110-0008/
     - https://ubuntu.com/security/notices/USN-6574-1
     - https://ubuntu.com/security/notices/USN-7061-1
+    - https://ubuntu.com/security/notices/USN-7109-1
     - https://www.cisa.gov/news-events/alerts/2023/10/10/http2-rapid-reset-vulnerability-cve-2023-44487
     - https://www.cve.org/CVERecord?id=CVE-2023-39325
     PublishedDate: '2023-10-11T22:15:09.88Z'
@@ -6621,6 +6729,8 @@
     - https://security.netapp.com/advisory/ntap-20240419-0009
     - https://security.netapp.com/advisory/ntap-20240419-0009/
     - https://ubuntu.com/security/notices/USN-6886-1
+    - https://ubuntu.com/security/notices/USN-7109-1
+    - https://ubuntu.com/security/notices/USN-7111-1
     - https://www.cve.org/CVERecord?id=CVE-2023-45288
     - https://www.kb.cert.org/vuls/id/421644
     PublishedDate: '2024-04-04T21:15:16.113Z'
@@ -6682,6 +6792,8 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2024-34156
     - https://pkg.go.dev/vuln/GO-2024-3106
     - https://ubuntu.com/security/notices/USN-7081-1
+    - https://ubuntu.com/security/notices/USN-7109-1
+    - https://ubuntu.com/security/notices/USN-7111-1
     - https://www.cve.org/CVERecord?id=CVE-2024-34156
     PublishedDate: '2024-09-06T21:15:12.02Z'
     LastModifiedDate: '2024-09-09T15:35:07.573Z'
@@ -6758,6 +6870,7 @@
     - https://security.gentoo.org/glsa/202311-09
     - https://security.netapp.com/advisory/ntap-20230814-0002/
     - https://ubuntu.com/security/notices/USN-7061-1
+    - https://ubuntu.com/security/notices/USN-7109-1
     - https://www.cve.org/CVERecord?id=CVE-2023-29406
     PublishedDate: '2023-07-11T20:15:10.643Z'
     LastModifiedDate: '2023-11-25T11:15:14.727Z'
@@ -6888,6 +7001,7 @@
     - https://security.netapp.com/advisory/ntap-20231020-0009/
     - https://ubuntu.com/security/notices/USN-6574-1
     - https://ubuntu.com/security/notices/USN-7061-1
+    - https://ubuntu.com/security/notices/USN-7109-1
     - https://vuln.go.dev/ID/GO-2023-2041.json
     - https://www.cve.org/CVERecord?id=CVE-2023-39318
     PublishedDate: '2023-09-08T17:15:27.823Z'
@@ -6956,6 +7070,7 @@
     - https://security.netapp.com/advisory/ntap-20231020-0009/
     - https://ubuntu.com/security/notices/USN-6574-1
     - https://ubuntu.com/security/notices/USN-7061-1
+    - https://ubuntu.com/security/notices/USN-7109-1
     - https://vuln.go.dev/ID/GO-2023-2043.json
     - https://www.cve.org/CVERecord?id=CVE-2023-39319
     PublishedDate: '2023-09-08T17:15:27.91Z'
@@ -7188,6 +7303,8 @@
     - https://security.netapp.com/advisory/ntap-20240329-0004
     - https://security.netapp.com/advisory/ntap-20240329-0004/
     - https://ubuntu.com/security/notices/USN-6886-1
+    - https://ubuntu.com/security/notices/USN-7109-1
+    - https://ubuntu.com/security/notices/USN-7111-1
     - https://www.cve.org/CVERecord?id=CVE-2023-45290
     PublishedDate: '2024-03-05T23:15:07.21Z'
     LastModifiedDate: '2024-11-07T11:35:02.48Z'
@@ -7257,6 +7374,8 @@
     - https://security.netapp.com/advisory/ntap-20240329-0005
     - https://security.netapp.com/advisory/ntap-20240329-0005/
     - https://ubuntu.com/security/notices/USN-6886-1
+    - https://ubuntu.com/security/notices/USN-7109-1
+    - https://ubuntu.com/security/notices/USN-7111-1
     - https://www.cve.org/CVERecord?id=CVE-2024-24783
     PublishedDate: '2024-03-05T23:15:07.683Z'
     LastModifiedDate: '2024-11-05T17:35:08.987Z'
@@ -7283,7 +7402,7 @@
       alma: 3
       amazon: 2
       bitnami: 3
-      cbl-mariner: 2
+      cbl-mariner: 3
       oracle-oval: 2
       photon: 3
       redhat: 2
@@ -7335,6 +7454,8 @@
     - https://pkg.go.dev/vuln/GO-2024-2609
     - https://security.netapp.com/advisory/ntap-20240329-0007/
     - https://ubuntu.com/security/notices/USN-6886-1
+    - https://ubuntu.com/security/notices/USN-7109-1
+    - https://ubuntu.com/security/notices/USN-7111-1
     - https://www.cve.org/CVERecord?id=CVE-2024-24784
     PublishedDate: '2024-03-05T23:15:07.733Z'
     LastModifiedDate: '2024-08-05T21:35:04.457Z'
@@ -7409,6 +7530,7 @@
     - https://security.netapp.com/advisory/ntap-20240329-0008/
     - https://ubuntu.com/security/notices/USN-6886-1
     - https://ubuntu.com/security/notices/USN-7061-1
+    - https://ubuntu.com/security/notices/USN-7109-1
     - https://vuln.go.dev/ID/GO-2024-2610.json
     - https://www.cve.org/CVERecord?id=CVE-2024-24785
     PublishedDate: '2024-03-05T23:15:07.777Z'
@@ -7480,6 +7602,8 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2024-24789
     - https://pkg.go.dev/vuln/GO-2024-2888
     - https://ubuntu.com/security/notices/USN-6886-1
+    - https://ubuntu.com/security/notices/USN-7109-1
+    - https://ubuntu.com/security/notices/USN-7111-1
     - https://www.cve.org/CVERecord?id=CVE-2024-24789
     PublishedDate: '2024-06-05T16:15:10.47Z'
     LastModifiedDate: '2024-07-03T01:48:25.51Z'
@@ -7544,6 +7668,8 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2024-24791
     - https://pkg.go.dev/vuln/GO-2024-2963
     - https://ubuntu.com/security/notices/USN-7081-1
+    - https://ubuntu.com/security/notices/USN-7109-1
+    - https://ubuntu.com/security/notices/USN-7111-1
     - https://www.cve.org/CVERecord?id=CVE-2024-24791
     PublishedDate: '2024-07-02T22:15:04.833Z'
     LastModifiedDate: '2024-07-08T14:17:39.083Z'
@@ -7609,6 +7735,8 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2024-34155
     - https://pkg.go.dev/vuln/GO-2024-3105
     - https://ubuntu.com/security/notices/USN-7081-1
+    - https://ubuntu.com/security/notices/USN-7109-1
+    - https://ubuntu.com/security/notices/USN-7111-1
     - https://www.cve.org/CVERecord?id=CVE-2024-34155
     PublishedDate: '2024-09-06T21:15:11.947Z'
     LastModifiedDate: '2024-11-04T17:35:17.887Z'
@@ -7677,6 +7805,8 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2024-34158
     - https://pkg.go.dev/vuln/GO-2024-3107
     - https://ubuntu.com/security/notices/USN-7081-1
+    - https://ubuntu.com/security/notices/USN-7109-1
+    - https://ubuntu.com/security/notices/USN-7111-1
     - https://www.cve.org/CVERecord?id=CVE-2024-34158
     PublishedDate: '2024-09-06T21:15:12.083Z'
     LastModifiedDate: '2024-09-09T14:35:01.17Z'
@@ -7747,6 +7877,8 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2024-34156
     - https://pkg.go.dev/vuln/GO-2024-3106
     - https://ubuntu.com/security/notices/USN-7081-1
+    - https://ubuntu.com/security/notices/USN-7109-1
+    - https://ubuntu.com/security/notices/USN-7111-1
     - https://www.cve.org/CVERecord?id=CVE-2024-34156
     PublishedDate: '2024-09-06T21:15:12.02Z'
     LastModifiedDate: '2024-09-09T15:35:07.573Z'
@@ -7812,6 +7944,8 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2024-34155
     - https://pkg.go.dev/vuln/GO-2024-3105
     - https://ubuntu.com/security/notices/USN-7081-1
+    - https://ubuntu.com/security/notices/USN-7109-1
+    - https://ubuntu.com/security/notices/USN-7111-1
     - https://www.cve.org/CVERecord?id=CVE-2024-34155
     PublishedDate: '2024-09-06T21:15:11.947Z'
     LastModifiedDate: '2024-11-04T17:35:17.887Z'
@@ -7880,6 +8014,8 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2024-34158
     - https://pkg.go.dev/vuln/GO-2024-3107
     - https://ubuntu.com/security/notices/USN-7081-1
+    - https://ubuntu.com/security/notices/USN-7109-1
+    - https://ubuntu.com/security/notices/USN-7111-1
     - https://www.cve.org/CVERecord?id=CVE-2024-34158
     PublishedDate: '2024-09-06T21:15:12.083Z'
     LastModifiedDate: '2024-09-09T14:35:01.17Z'
@@ -8031,6 +8167,37 @@
     - https://github.com/grpc/grpc-go
     - https://github.com/grpc/grpc-go/commit/ab292411ddc0f3b7a7786754d1fe05264c3021eb
     - https://github.com/grpc/grpc-go/security/advisories/GHSA-xr7q-jx4m-x55m
+- Target: /etc/ssh/ssh_host_ed25519_key
+  Class: secret
+  Secrets:
+  - RuleID: private-key
+    Category: AsymmetricPrivateKey
+    Severity: HIGH
+    Title: Asymmetric Private Key
+    StartLine: 1
+    EndLine: 1
+    Code:
+      Lines:
+      - Number: 1
+        Content: BEGIN OPENSSH PRIVATE KEY-----******************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
+        IsCause: true
+        Annotation: ''
+        Truncated: false
+        Highlighted: BEGIN OPENSSH PRIVATE KEY-----******************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
+        FirstCause: true
+        LastCause: true
+      - Number: 2
+        Content: ''
+        IsCause: false
+        Annotation: ''
+        Truncated: false
+        FirstCause: false
+        LastCause: false
+    Match: BEGIN OPENSSH PRIVATE KEY-----******************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
+    Layer:
+      Digest: sha256:208bee752db169e4e5492dd461e5980fdee9c00882b52e7c5182cb7bc2d0b4cf
+      DiffID: sha256:82d41002ec052a8aa2463273a2353805d91b16a95ebae3c0c073cf514436a0d7
+      CreatedBy: 'COPY / / # buildkit'
 - Target: /etc/ssh/ssh_host_rsa_key
   Class: secret
   Secrets:
@@ -8120,37 +8287,6 @@
         FirstCause: false
         LastCause: false
     Match: BEGIN OPENSSH PRIVATE KEY-----************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
-    Layer:
-      Digest: sha256:208bee752db169e4e5492dd461e5980fdee9c00882b52e7c5182cb7bc2d0b4cf
-      DiffID: sha256:82d41002ec052a8aa2463273a2353805d91b16a95ebae3c0c073cf514436a0d7
-      CreatedBy: 'COPY / / # buildkit'
-- Target: /etc/ssh/ssh_host_ed25519_key
-  Class: secret
-  Secrets:
-  - RuleID: private-key
-    Category: AsymmetricPrivateKey
-    Severity: HIGH
-    Title: Asymmetric Private Key
-    StartLine: 1
-    EndLine: 1
-    Code:
-      Lines:
-      - Number: 1
-        Content: BEGIN OPENSSH PRIVATE KEY-----******************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
-        IsCause: true
-        Annotation: ''
-        Truncated: false
-        Highlighted: BEGIN OPENSSH PRIVATE KEY-----******************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
-        FirstCause: true
-        LastCause: true
-      - Number: 2
-        Content: ''
-        IsCause: false
-        Annotation: ''
-        Truncated: false
-        FirstCause: false
-        LastCause: false
-    Match: BEGIN OPENSSH PRIVATE KEY-----******************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
     Layer:
       Digest: sha256:208bee752db169e4e5492dd461e5980fdee9c00882b52e7c5182cb7bc2d0b4cf
       DiffID: sha256:82d41002ec052a8aa2463273a2353805d91b16a95ebae3c0c073cf514436a0d7
