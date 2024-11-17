@@ -70,7 +70,7 @@
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: When curl is asked to use HSTS, the expiry time for a subdomain might  ...
+    Title: 'curl: HSTS subdomain overwrites parent cache entry'
     Description: |-
       When curl is asked to use HSTS, the expiry time for a subdomain might
       overwrite a parent domain's cache entry, making it end sooner or later than
@@ -99,11 +99,18 @@
     Severity: LOW
     VendorSeverity:
       photon: 2
+      redhat: 1
       ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:N/A:N
+        V3Score: 2.5
     References:
+    - https://access.redhat.com/security/cve/CVE-2024-9681
     - https://curl.se/docs/CVE-2024-9681.html
     - https://curl.se/docs/CVE-2024-9681.json
     - https://hackerone.com/reports/2764830
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-9681
     - https://www.cve.org/CVERecord?id=CVE-2024-9681
     PublishedDate: '2024-11-06T08:15:03.74Z'
     LastModifiedDate: '2024-11-06T18:17:17.287Z'
@@ -1114,7 +1121,7 @@
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: When curl is asked to use HSTS, the expiry time for a subdomain might  ...
+    Title: 'curl: HSTS subdomain overwrites parent cache entry'
     Description: |-
       When curl is asked to use HSTS, the expiry time for a subdomain might
       overwrite a parent domain's cache entry, making it end sooner or later than
@@ -1143,11 +1150,18 @@
     Severity: LOW
     VendorSeverity:
       photon: 2
+      redhat: 1
       ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:N/A:N
+        V3Score: 2.5
     References:
+    - https://access.redhat.com/security/cve/CVE-2024-9681
     - https://curl.se/docs/CVE-2024-9681.html
     - https://curl.se/docs/CVE-2024-9681.json
     - https://hackerone.com/reports/2764830
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-9681
     - https://www.cve.org/CVERecord?id=CVE-2024-9681
     PublishedDate: '2024-11-06T08:15:03.74Z'
     LastModifiedDate: '2024-11-06T18:17:17.287Z'
@@ -1168,7 +1182,7 @@
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: When curl is asked to use HSTS, the expiry time for a subdomain might  ...
+    Title: 'curl: HSTS subdomain overwrites parent cache entry'
     Description: |-
       When curl is asked to use HSTS, the expiry time for a subdomain might
       overwrite a parent domain's cache entry, making it end sooner or later than
@@ -1197,11 +1211,18 @@
     Severity: LOW
     VendorSeverity:
       photon: 2
+      redhat: 1
       ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:N/A:N
+        V3Score: 2.5
     References:
+    - https://access.redhat.com/security/cve/CVE-2024-9681
     - https://curl.se/docs/CVE-2024-9681.html
     - https://curl.se/docs/CVE-2024-9681.json
     - https://hackerone.com/reports/2764830
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-9681
     - https://www.cve.org/CVERecord?id=CVE-2024-9681
     PublishedDate: '2024-11-06T08:15:03.74Z'
     LastModifiedDate: '2024-11-06T18:17:17.287Z'
@@ -1420,47 +1441,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-2236
     PublishedDate: '2024-03-06T22:15:57.977Z'
     LastModifiedDate: '2024-11-12T18:15:20.15Z'
-  - VulnerabilityID: CVE-2021-40812
-    PkgID: libgd3@2.3.0-2ubuntu2.3
-    PkgName: libgd3
-    PkgIdentifier:
-      PURL: pkg:deb/ubuntu/libgd3@2.3.0-2ubuntu2.3?arch=amd64&distro=ubuntu-22.04
-      UID: 19dbec68f0460d6
-    InstalledVersion: 2.3.0-2ubuntu2.3
-    Status: affected
-    Layer:
-      Digest: sha256:062a8f5510ebaaa2580f24c25b56d8c2b59787e31e3b6510e84c204271ea653c
-      DiffID: sha256:c84cc24f51d2f4090c6e18de187a5078f21dcce25c6fcd3a0c5f9dd02ce3b4ed
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2021-40812
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: The GD Graphics Library (aka LibGD) through 2.3.2 has an out-of-bounds ...
-    Description: The GD Graphics Library (aka LibGD) through 2.3.2 has an out-of-bounds read because of the lack of certain gdGetBuf and gdPutBuf return value checks.
-    Severity: LOW
-    CweIDs:
-    - CWE-125
-    VendorSeverity:
-      cbl-mariner: 2
-      nvd: 2
-      photon: 2
-      ubuntu: 1
-    CVSS:
-      nvd:
-        V2Vector: AV:N/AC:M/Au:N/C:N/I:N/A:P
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
-        V2Score: 4.3
-        V3Score: 6.5
-    References:
-    - https://github.com/libgd/libgd/commit/6f5136821be86e7068fcdf651ae9420b5d42e9a9
-    - https://github.com/libgd/libgd/issues/750#issuecomment-914872385
-    - https://lists.debian.org/debian-lts-announce/2024/04/msg00003.html
-    - https://nvd.nist.gov/vuln/detail/CVE-2021-40812
-    - https://www.cve.org/CVERecord?id=CVE-2021-40812
-    PublishedDate: '2021-09-08T21:15:14.083Z'
-    LastModifiedDate: '2024-10-29T14:35:07.913Z'
   - VulnerabilityID: CVE-2024-52533
     PkgID: libglib2.0-0@2.72.4-0ubuntu2.3
     PkgName: libglib2.0-0
@@ -3762,6 +3742,46 @@
 - Target: Node.js
   Class: lang-pkgs
   Type: node-pkg
+  Vulnerabilities:
+  - VulnerabilityID: CVE-2024-21538
+    PkgID: cross-spawn@7.0.3
+    PkgName: cross-spawn
+    PkgPath: home/workspace/.openvscode-server/extensions/ms-kubernetes-tools.vscode-kubernetes-tools-1.3.18-universal/node_modules/cross-spawn/package.json
+    PkgIdentifier:
+      PURL: pkg:npm/cross-spawn@7.0.3
+      UID: dfeb48a3b04b3da5
+    InstalledVersion: 7.0.3
+    FixedVersion: 7.0.5
+    Status: fixed
+    Layer:
+      Digest: sha256:062a8f5510ebaaa2580f24c25b56d8c2b59787e31e3b6510e84c204271ea653c
+      DiffID: sha256:c84cc24f51d2f4090c6e18de187a5078f21dcce25c6fcd3a0c5f9dd02ce3b4ed
+    SeveritySource: ghsa
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-21538
+    DataSource:
+      ID: ghsa
+      Name: GitHub Security Advisory npm
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Anpm
+    Title: Regular Expression Denial of Service (ReDoS) in cross-spawn
+    Description: Versions of the package cross-spawn before 7.0.5 are vulnerable to Regular Expression Denial of Service (ReDoS) due to improper input sanitization. An attacker can increase the CPU usage and crash the program by crafting a very large and well crafted string.
+    Severity: HIGH
+    CweIDs:
+    - CWE-1333
+    VendorSeverity:
+      ghsa: 3
+    CVSS:
+      ghsa:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://github.com/moxystudio/node-cross-spawn
+    - https://github.com/moxystudio/node-cross-spawn/commit/5ff3a07d9add449021d806e45c4168203aa833ff
+    - https://github.com/moxystudio/node-cross-spawn/commit/640d391fde65388548601d95abedccc12943374f
+    - https://github.com/moxystudio/node-cross-spawn/pull/160
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-21538
+    - https://security.snyk.io/vuln/SNYK-JS-CROSSSPAWN-8303230
+    PublishedDate: '2024-11-08T05:15:06.453Z'
+    LastModifiedDate: '2024-11-08T19:01:03.88Z'
 - Target: home/openvscode-server/.krew/store/krew/v0.4.4/krew
   Class: lang-pkgs
   Type: gobinary
@@ -5006,7 +5026,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -5073,7 +5093,7 @@
     Severity: MEDIUM
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       bitnami: 2
       cbl-mariner: 2
       nvd: 2
@@ -7030,7 +7050,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -7097,7 +7117,7 @@
     Severity: MEDIUM
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       bitnami: 2
       cbl-mariner: 2
       nvd: 2
