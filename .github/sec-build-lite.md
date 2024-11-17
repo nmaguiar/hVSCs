@@ -73,8 +73,7 @@
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
 │                        │      │                  ├ Name: Ubuntu CVE Tracker 
 │                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │      ├ Title           : When curl is asked to use HSTS, the expiry time for a
-│                        │      │                   subdomain might  ... 
+│                        │      ├ Title           : curl: HSTS subdomain overwrites parent cache entry 
 │                        │      ├ Description     : When curl is asked to use HSTS, the expiry time for a
 │                        │      │                   subdomain might
 │                        │      │                   overwrite a parent domain's cache entry, making it end
@@ -113,11 +112,17 @@
 │                        │      │                   than otherwise intended. 
 │                        │      ├ Severity        : LOW 
 │                        │      ├ VendorSeverity   ╭ photon: 2 
+│                        │      │                  ├ redhat: 1 
 │                        │      │                  ╰ ubuntu: 1 
-│                        │      ├ References       ╭ [0]: https://curl.se/docs/CVE-2024-9681.html 
-│                        │      │                  ├ [1]: https://curl.se/docs/CVE-2024-9681.json 
-│                        │      │                  ├ [2]: https://hackerone.com/reports/2764830 
-│                        │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2024-9681 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:
+│                        │      │                           │           N/A:N 
+│                        │      │                           ╰ V3Score : 2.5 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-9681 
+│                        │      │                  ├ [1]: https://curl.se/docs/CVE-2024-9681.html 
+│                        │      │                  ├ [2]: https://curl.se/docs/CVE-2024-9681.json 
+│                        │      │                  ├ [3]: https://hackerone.com/reports/2764830 
+│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-9681 
+│                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-9681 
 │                        │      ├ PublishedDate   : 2024-11-06T08:15:03.74Z 
 │                        │      ╰ LastModifiedDate: 2024-11-06T18:17:17.287Z 
 │                        ├ [2]  ╭ VulnerabilityID : CVE-2022-3219 
@@ -982,8 +987,7 @@
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
 │                        │      │                  ├ Name: Ubuntu CVE Tracker 
 │                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │      ├ Title           : When curl is asked to use HSTS, the expiry time for a
-│                        │      │                   subdomain might  ... 
+│                        │      ├ Title           : curl: HSTS subdomain overwrites parent cache entry 
 │                        │      ├ Description     : When curl is asked to use HSTS, the expiry time for a
 │                        │      │                   subdomain might
 │                        │      │                   overwrite a parent domain's cache entry, making it end
@@ -1022,11 +1026,17 @@
 │                        │      │                   than otherwise intended. 
 │                        │      ├ Severity        : LOW 
 │                        │      ├ VendorSeverity   ╭ photon: 2 
+│                        │      │                  ├ redhat: 1 
 │                        │      │                  ╰ ubuntu: 1 
-│                        │      ├ References       ╭ [0]: https://curl.se/docs/CVE-2024-9681.html 
-│                        │      │                  ├ [1]: https://curl.se/docs/CVE-2024-9681.json 
-│                        │      │                  ├ [2]: https://hackerone.com/reports/2764830 
-│                        │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2024-9681 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:
+│                        │      │                           │           N/A:N 
+│                        │      │                           ╰ V3Score : 2.5 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-9681 
+│                        │      │                  ├ [1]: https://curl.se/docs/CVE-2024-9681.html 
+│                        │      │                  ├ [2]: https://curl.se/docs/CVE-2024-9681.json 
+│                        │      │                  ├ [3]: https://hackerone.com/reports/2764830 
+│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-9681 
+│                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-9681 
 │                        │      ├ PublishedDate   : 2024-11-06T08:15:03.74Z 
 │                        │      ╰ LastModifiedDate: 2024-11-06T18:17:17.287Z 
 │                        ├ [22] ╭ VulnerabilityID : CVE-2024-9681 
@@ -1046,8 +1056,7 @@
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
 │                        │      │                  ├ Name: Ubuntu CVE Tracker 
 │                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │      ├ Title           : When curl is asked to use HSTS, the expiry time for a
-│                        │      │                   subdomain might  ... 
+│                        │      ├ Title           : curl: HSTS subdomain overwrites parent cache entry 
 │                        │      ├ Description     : When curl is asked to use HSTS, the expiry time for a
 │                        │      │                   subdomain might
 │                        │      │                   overwrite a parent domain's cache entry, making it end
@@ -1086,11 +1095,17 @@
 │                        │      │                   than otherwise intended. 
 │                        │      ├ Severity        : LOW 
 │                        │      ├ VendorSeverity   ╭ photon: 2 
+│                        │      │                  ├ redhat: 1 
 │                        │      │                  ╰ ubuntu: 1 
-│                        │      ├ References       ╭ [0]: https://curl.se/docs/CVE-2024-9681.html 
-│                        │      │                  ├ [1]: https://curl.se/docs/CVE-2024-9681.json 
-│                        │      │                  ├ [2]: https://hackerone.com/reports/2764830 
-│                        │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2024-9681 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:
+│                        │      │                           │           N/A:N 
+│                        │      │                           ╰ V3Score : 2.5 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-9681 
+│                        │      │                  ├ [1]: https://curl.se/docs/CVE-2024-9681.html 
+│                        │      │                  ├ [2]: https://curl.se/docs/CVE-2024-9681.json 
+│                        │      │                  ├ [3]: https://hackerone.com/reports/2764830 
+│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-9681 
+│                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-9681 
 │                        │      ├ PublishedDate   : 2024-11-06T08:15:03.74Z 
 │                        │      ╰ LastModifiedDate: 2024-11-06T18:17:17.287Z 
 │                        ├ [23] ╭ VulnerabilityID : CVE-2024-2236 
@@ -4047,7 +4062,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
@@ -4129,7 +4144,7 @@
 │                        │      │                   bytes grows too small. 
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ nvd        : 2 
@@ -6861,7 +6876,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
@@ -6943,7 +6958,7 @@
 │                        │      │                   bytes grows too small. 
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ nvd        : 2 
@@ -7913,7 +7928,46 @@
 │                                                 │      7a7786754d1fe05264c3021eb 
 │                                                 ╰ [2]: https://github.com/grpc/grpc-go/security/advisories/GH
 │                                                        SA-xr7q-jx4m-x55m 
-├ [9]  ╭ Target : /etc/ssh/ssh_host_ecdsa_key 
+├ [9]  ╭ Target : /etc/ssh/ssh_host_rsa_key 
+│      ├ Class  : secret 
+│      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
+│                      ├ Category : AsymmetricPrivateKey 
+│                      ├ Severity : HIGH 
+│                      ├ Title    : Asymmetric Private Key 
+│                      ├ StartLine: 1 
+│                      ├ EndLine  : 1 
+│                      ├ Code      ─ Lines ╭ [0] ╭ Number     : 1 
+│                      │                   │     ├ Content    : BEGIN OPENSSH PRIVATE
+│                      │                   │     │              KEY-----***************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********-----END OPENSSH PRI 
+│                      │                   │     ├ IsCause    : true 
+│                      │                   │     ├ Annotation :  
+│                      │                   │     ├ Truncated  : false 
+│                      │                   │     ├ Highlighted: BEGIN OPENSSH PRIVATE
+│                      │                   │     │              KEY-----***************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********-----END OPENSSH PRI 
+│                      │                   │     ├ FirstCause : true 
+│                      │                   │     ╰ LastCause  : true 
+│                      │                   ╰ [1] ╭ Number    : 2 
+│                      │                         ├ Content   :  
+│                      │                         ├ IsCause   : false 
+│                      │                         ├ Annotation:  
+│                      │                         ├ Truncated : false 
+│                      │                         ├ FirstCause: false 
+│                      │                         ╰ LastCause : false 
+│                      ├ Match    : BEGIN OPENSSH PRIVATE
+│                      │            KEY-----*******************************************************************
+│                      │            ***************************************************************************
+│                      │            **************************************************************************-
+│                      │            ----END OPENSSH PRI 
+│                      ╰ Layer     ╭ Digest   : sha256:bad8adf35287483e3ae1e8c5958c37a698f3367e6e8c0dcdb7081918
+│                                  │            c0c154d1 
+│                                  ├ DiffID   : sha256:f5f8efdbd71129266b4cdc1a18d7ec592563c6e365093fe9b261a6a4
+│                                  │            78f85947 
+│                                  ╰ CreatedBy: COPY / / # buildkit 
+├ [10] ╭ Target : /etc/ssh/ssh_host_ecdsa_key 
 │      ├ Class  : secret 
 │      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
 │                      ├ Category : AsymmetricPrivateKey 
@@ -7953,45 +8007,7 @@
 │                                  ├ DiffID   : sha256:f5f8efdbd71129266b4cdc1a18d7ec592563c6e365093fe9b261a6a4
 │                                  │            78f85947 
 │                                  ╰ CreatedBy: COPY / / # buildkit 
-├ [10] ╭ Target : /etc/ssh/ssh_host_ed25519_key 
-│      ├ Class  : secret 
-│      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
-│                      ├ Category : AsymmetricPrivateKey 
-│                      ├ Severity : HIGH 
-│                      ├ Title    : Asymmetric Private Key 
-│                      ├ StartLine: 1 
-│                      ├ EndLine  : 1 
-│                      ├ Code      ─ Lines ╭ [0] ╭ Number     : 1 
-│                      │                   │     ├ Content    : BEGIN OPENSSH PRIVATE
-│                      │                   │     │              KEY-----***************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              *********************-----END OPENSSH PRI 
-│                      │                   │     ├ IsCause    : true 
-│                      │                   │     ├ Annotation :  
-│                      │                   │     ├ Truncated  : false 
-│                      │                   │     ├ Highlighted: BEGIN OPENSSH PRIVATE
-│                      │                   │     │              KEY-----***************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              *********************-----END OPENSSH PRI 
-│                      │                   │     ├ FirstCause : true 
-│                      │                   │     ╰ LastCause  : true 
-│                      │                   ╰ [1] ╭ Number    : 2 
-│                      │                         ├ Content   :  
-│                      │                         ├ IsCause   : false 
-│                      │                         ├ Annotation:  
-│                      │                         ├ Truncated : false 
-│                      │                         ├ FirstCause: false 
-│                      │                         ╰ LastCause : false 
-│                      ├ Match    : BEGIN OPENSSH PRIVATE
-│                      │            KEY-----*******************************************************************
-│                      │            ***************************************************************************
-│                      │            **************************************************-----END OPENSSH PRI 
-│                      ╰ Layer     ╭ Digest   : sha256:bad8adf35287483e3ae1e8c5958c37a698f3367e6e8c0dcdb7081918
-│                                  │            c0c154d1 
-│                                  ├ DiffID   : sha256:f5f8efdbd71129266b4cdc1a18d7ec592563c6e365093fe9b261a6a4
-│                                  │            78f85947 
-│                                  ╰ CreatedBy: COPY / / # buildkit 
-╰ [11] ╭ Target : /etc/ssh/ssh_host_rsa_key 
+╰ [11] ╭ Target : /etc/ssh/ssh_host_ed25519_key 
        ├ Class  : secret 
        ╰ Secrets ─ [0] ╭ RuleID   : private-key 
                        ├ Category : AsymmetricPrivateKey 
@@ -8003,14 +8019,14 @@
                        │                   │     ├ Content    : BEGIN OPENSSH PRIVATE
                        │                   │     │              KEY-----***************************************
                        │                   │     │              ***********************************************
-                       │                   │     │              ***********-----END OPENSSH PRI 
+                       │                   │     │              *********************-----END OPENSSH PRI 
                        │                   │     ├ IsCause    : true 
                        │                   │     ├ Annotation :  
                        │                   │     ├ Truncated  : false 
                        │                   │     ├ Highlighted: BEGIN OPENSSH PRIVATE
                        │                   │     │              KEY-----***************************************
                        │                   │     │              ***********************************************
-                       │                   │     │              ***********-----END OPENSSH PRI 
+                       │                   │     │              *********************-----END OPENSSH PRI 
                        │                   │     ├ FirstCause : true 
                        │                   │     ╰ LastCause  : true 
                        │                   ╰ [1] ╭ Number    : 2 
@@ -8023,8 +8039,7 @@
                        ├ Match    : BEGIN OPENSSH PRIVATE
                        │            KEY-----*******************************************************************
                        │            ***************************************************************************
-                       │            **************************************************************************-
-                       │            ----END OPENSSH PRI 
+                       │            **************************************************-----END OPENSSH PRI 
                        ╰ Layer     ╭ Digest   : sha256:bad8adf35287483e3ae1e8c5958c37a698f3367e6e8c0dcdb7081918
                                    │            c0c154d1 
                                    ├ DiffID   : sha256:f5f8efdbd71129266b4cdc1a18d7ec592563c6e365093fe9b261a6a4
