@@ -73,8 +73,7 @@
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
 │                        │      │                  ├ Name: Ubuntu CVE Tracker 
 │                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │      ├ Title           : When curl is asked to use HSTS, the expiry time for a
-│                        │      │                   subdomain might  ... 
+│                        │      ├ Title           : curl: HSTS subdomain overwrites parent cache entry 
 │                        │      ├ Description     : When curl is asked to use HSTS, the expiry time for a
 │                        │      │                   subdomain might
 │                        │      │                   overwrite a parent domain's cache entry, making it end
@@ -113,11 +112,17 @@
 │                        │      │                   than otherwise intended. 
 │                        │      ├ Severity        : LOW 
 │                        │      ├ VendorSeverity   ╭ photon: 2 
+│                        │      │                  ├ redhat: 1 
 │                        │      │                  ╰ ubuntu: 1 
-│                        │      ├ References       ╭ [0]: https://curl.se/docs/CVE-2024-9681.html 
-│                        │      │                  ├ [1]: https://curl.se/docs/CVE-2024-9681.json 
-│                        │      │                  ├ [2]: https://hackerone.com/reports/2764830 
-│                        │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2024-9681 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:
+│                        │      │                           │           N/A:N 
+│                        │      │                           ╰ V3Score : 2.5 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-9681 
+│                        │      │                  ├ [1]: https://curl.se/docs/CVE-2024-9681.html 
+│                        │      │                  ├ [2]: https://curl.se/docs/CVE-2024-9681.json 
+│                        │      │                  ├ [3]: https://hackerone.com/reports/2764830 
+│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-9681 
+│                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-9681 
 │                        │      ├ PublishedDate   : 2024-11-06T08:15:03.74Z 
 │                        │      ╰ LastModifiedDate: 2024-11-06T18:17:17.287Z 
 │                        ├ [2]  ╭ VulnerabilityID : CVE-2023-34969 
@@ -1179,8 +1184,7 @@
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
 │                        │      │                  ├ Name: Ubuntu CVE Tracker 
 │                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │      ├ Title           : When curl is asked to use HSTS, the expiry time for a
-│                        │      │                   subdomain might  ... 
+│                        │      ├ Title           : curl: HSTS subdomain overwrites parent cache entry 
 │                        │      ├ Description     : When curl is asked to use HSTS, the expiry time for a
 │                        │      │                   subdomain might
 │                        │      │                   overwrite a parent domain's cache entry, making it end
@@ -1219,11 +1223,17 @@
 │                        │      │                   than otherwise intended. 
 │                        │      ├ Severity        : LOW 
 │                        │      ├ VendorSeverity   ╭ photon: 2 
+│                        │      │                  ├ redhat: 1 
 │                        │      │                  ╰ ubuntu: 1 
-│                        │      ├ References       ╭ [0]: https://curl.se/docs/CVE-2024-9681.html 
-│                        │      │                  ├ [1]: https://curl.se/docs/CVE-2024-9681.json 
-│                        │      │                  ├ [2]: https://hackerone.com/reports/2764830 
-│                        │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2024-9681 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:
+│                        │      │                           │           N/A:N 
+│                        │      │                           ╰ V3Score : 2.5 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-9681 
+│                        │      │                  ├ [1]: https://curl.se/docs/CVE-2024-9681.html 
+│                        │      │                  ├ [2]: https://curl.se/docs/CVE-2024-9681.json 
+│                        │      │                  ├ [3]: https://hackerone.com/reports/2764830 
+│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-9681 
+│                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-9681 
 │                        │      ├ PublishedDate   : 2024-11-06T08:15:03.74Z 
 │                        │      ╰ LastModifiedDate: 2024-11-06T18:17:17.287Z 
 │                        ├ [24] ╭ VulnerabilityID : CVE-2024-9681 
@@ -1243,8 +1253,7 @@
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
 │                        │      │                  ├ Name: Ubuntu CVE Tracker 
 │                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │      ├ Title           : When curl is asked to use HSTS, the expiry time for a
-│                        │      │                   subdomain might  ... 
+│                        │      ├ Title           : curl: HSTS subdomain overwrites parent cache entry 
 │                        │      ├ Description     : When curl is asked to use HSTS, the expiry time for a
 │                        │      │                   subdomain might
 │                        │      │                   overwrite a parent domain's cache entry, making it end
@@ -1283,11 +1292,17 @@
 │                        │      │                   than otherwise intended. 
 │                        │      ├ Severity        : LOW 
 │                        │      ├ VendorSeverity   ╭ photon: 2 
+│                        │      │                  ├ redhat: 1 
 │                        │      │                  ╰ ubuntu: 1 
-│                        │      ├ References       ╭ [0]: https://curl.se/docs/CVE-2024-9681.html 
-│                        │      │                  ├ [1]: https://curl.se/docs/CVE-2024-9681.json 
-│                        │      │                  ├ [2]: https://hackerone.com/reports/2764830 
-│                        │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2024-9681 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:
+│                        │      │                           │           N/A:N 
+│                        │      │                           ╰ V3Score : 2.5 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-9681 
+│                        │      │                  ├ [1]: https://curl.se/docs/CVE-2024-9681.html 
+│                        │      │                  ├ [2]: https://curl.se/docs/CVE-2024-9681.json 
+│                        │      │                  ├ [3]: https://hackerone.com/reports/2764830 
+│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-9681 
+│                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-9681 
 │                        │      ├ PublishedDate   : 2024-11-06T08:15:03.74Z 
 │                        │      ╰ LastModifiedDate: 2024-11-06T18:17:17.287Z 
 │                        ├ [25] ╭ VulnerabilityID : CVE-2023-34969 
@@ -1529,49 +1544,7 @@
 │                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-2236 
 │                        │      ├ PublishedDate   : 2024-03-06T22:15:57.977Z 
 │                        │      ╰ LastModifiedDate: 2024-11-12T18:15:20.15Z 
-│                        ├ [29] ╭ VulnerabilityID : CVE-2021-40812 
-│                        │      ├ PkgID           : libgd3@2.3.0-2ubuntu2.3 
-│                        │      ├ PkgName         : libgd3 
-│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libgd3@2.3.0-2ubuntu2.3?arch=amd64&di
-│                        │      │                  │       stro=ubuntu-22.04 
-│                        │      │                  ╰ UID : 19dbec68f0460d6 
-│                        │      ├ InstalledVersion: 2.3.0-2ubuntu2.3 
-│                        │      ├ Status          : affected 
-│                        │      ├ Layer            ╭ Digest: sha256:062a8f5510ebaaa2580f24c25b56d8c2b59787e31e3
-│                        │      │                  │         b6510e84c204271ea653c 
-│                        │      │                  ╰ DiffID: sha256:c84cc24f51d2f4090c6e18de187a5078f21dcce25c6
-│                        │      │                            fcd3a0c5f9dd02ce3b4ed 
-│                        │      ├ SeveritySource  : ubuntu 
-│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2021-40812 
-│                        │      ├ DataSource       ╭ ID  : ubuntu 
-│                        │      │                  ├ Name: Ubuntu CVE Tracker 
-│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │      ├ Title           : The GD Graphics Library (aka LibGD) through 2.3.2 has an
-│                        │      │                   out-of-bounds ... 
-│                        │      ├ Description     : The GD Graphics Library (aka LibGD) through 2.3.2 has an
-│                        │      │                   out-of-bounds read because of the lack of certain gdGetBuf
-│                        │      │                   and gdPutBuf return value checks. 
-│                        │      ├ Severity        : LOW 
-│                        │      ├ CweIDs           ─ [0]: CWE-125 
-│                        │      ├ VendorSeverity   ╭ cbl-mariner: 2 
-│                        │      │                  ├ nvd        : 2 
-│                        │      │                  ├ photon     : 2 
-│                        │      │                  ╰ ubuntu     : 1 
-│                        │      ├ CVSS             ─ nvd ╭ V2Vector: AV:N/AC:M/Au:N/C:N/I:N/A:P 
-│                        │      │                        ├ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H 
-│                        │      │                        ├ V2Score : 4.3 
-│                        │      │                        ╰ V3Score : 6.5 
-│                        │      ├ References       ╭ [0]: https://github.com/libgd/libgd/commit/6f5136821be86e7
-│                        │      │                  │      068fcdf651ae9420b5d42e9a9 
-│                        │      │                  ├ [1]: https://github.com/libgd/libgd/issues/750#issuecommen
-│                        │      │                  │      t-914872385 
-│                        │      │                  ├ [2]: https://lists.debian.org/debian-lts-announce/2024/04/
-│                        │      │                  │      msg00003.html 
-│                        │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2021-40812 
-│                        │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2021-40812 
-│                        │      ├ PublishedDate   : 2021-09-08T21:15:14.083Z 
-│                        │      ╰ LastModifiedDate: 2024-10-29T14:35:07.913Z 
-│                        ├ [30] ╭ VulnerabilityID : CVE-2024-52533 
+│                        ├ [29] ╭ VulnerabilityID : CVE-2024-52533 
 │                        │      ├ PkgID           : libglib2.0-0@2.72.4-0ubuntu2.3 
 │                        │      ├ PkgName         : libglib2.0-0 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libglib2.0-0@2.72.4-0ubuntu2.3?arch=a
@@ -1609,7 +1582,7 @@
 │                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-52533 
 │                        │      ├ PublishedDate   : 2024-11-11T23:15:05.967Z 
 │                        │      ╰ LastModifiedDate: 2024-11-12T16:35:24.297Z 
-│                        ├ [31] ╭ VulnerabilityID : CVE-2024-52533 
+│                        ├ [30] ╭ VulnerabilityID : CVE-2024-52533 
 │                        │      ├ PkgID           : libglib2.0-data@2.72.4-0ubuntu2.3 
 │                        │      ├ PkgName         : libglib2.0-data 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libglib2.0-data@2.72.4-0ubuntu2.3?arc
@@ -1647,7 +1620,7 @@
 │                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-52533 
 │                        │      ├ PublishedDate   : 2024-11-11T23:15:05.967Z 
 │                        │      ╰ LastModifiedDate: 2024-11-12T16:35:24.297Z 
-│                        ├ [32] ╭ VulnerabilityID : CVE-2024-26462 
+│                        ├ [31] ╭ VulnerabilityID : CVE-2024-26462 
 │                        │      ├ PkgID           : libgssapi-krb5-2@1.19.2-2ubuntu0.4 
 │                        │      ├ PkgName         : libgssapi-krb5-2 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libgssapi-krb5-2@1.19.2-2ubuntu0.4?ar
@@ -1687,7 +1660,7 @@
 │                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-26462 
 │                        │      ├ PublishedDate   : 2024-02-29T01:44:18.857Z 
 │                        │      ╰ LastModifiedDate: 2024-05-14T15:09:01.053Z 
-│                        ├ [33] ╭ VulnerabilityID : CVE-2024-26458 
+│                        ├ [32] ╭ VulnerabilityID : CVE-2024-26458 
 │                        │      ├ PkgID           : libgssapi-krb5-2@1.19.2-2ubuntu0.4 
 │                        │      ├ PkgName         : libgssapi-krb5-2 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libgssapi-krb5-2@1.19.2-2ubuntu0.4?ar
@@ -1744,7 +1717,7 @@
 │                        │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2024-26458 
 │                        │      ├ PublishedDate   : 2024-02-29T01:44:18.78Z 
 │                        │      ╰ LastModifiedDate: 2024-05-14T15:09:00.47Z 
-│                        ├ [34] ╭ VulnerabilityID : CVE-2024-26461 
+│                        ├ [33] ╭ VulnerabilityID : CVE-2024-26461 
 │                        │      ├ PkgID           : libgssapi-krb5-2@1.19.2-2ubuntu0.4 
 │                        │      ├ PkgName         : libgssapi-krb5-2 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libgssapi-krb5-2@1.19.2-2ubuntu0.4?ar
@@ -1802,7 +1775,7 @@
 │                        │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2024-26461 
 │                        │      ├ PublishedDate   : 2024-02-29T01:44:18.82Z 
 │                        │      ╰ LastModifiedDate: 2024-08-14T16:35:10.207Z 
-│                        ├ [35] ╭ VulnerabilityID : CVE-2024-26462 
+│                        ├ [34] ╭ VulnerabilityID : CVE-2024-26462 
 │                        │      ├ PkgID           : libk5crypto3@1.19.2-2ubuntu0.4 
 │                        │      ├ PkgName         : libk5crypto3 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libk5crypto3@1.19.2-2ubuntu0.4?arch=a
@@ -1842,7 +1815,7 @@
 │                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-26462 
 │                        │      ├ PublishedDate   : 2024-02-29T01:44:18.857Z 
 │                        │      ╰ LastModifiedDate: 2024-05-14T15:09:01.053Z 
-│                        ├ [36] ╭ VulnerabilityID : CVE-2024-26458 
+│                        ├ [35] ╭ VulnerabilityID : CVE-2024-26458 
 │                        │      ├ PkgID           : libk5crypto3@1.19.2-2ubuntu0.4 
 │                        │      ├ PkgName         : libk5crypto3 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libk5crypto3@1.19.2-2ubuntu0.4?arch=a
@@ -1899,7 +1872,7 @@
 │                        │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2024-26458 
 │                        │      ├ PublishedDate   : 2024-02-29T01:44:18.78Z 
 │                        │      ╰ LastModifiedDate: 2024-05-14T15:09:00.47Z 
-│                        ├ [37] ╭ VulnerabilityID : CVE-2024-26461 
+│                        ├ [36] ╭ VulnerabilityID : CVE-2024-26461 
 │                        │      ├ PkgID           : libk5crypto3@1.19.2-2ubuntu0.4 
 │                        │      ├ PkgName         : libk5crypto3 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libk5crypto3@1.19.2-2ubuntu0.4?arch=a
@@ -1957,7 +1930,7 @@
 │                        │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2024-26461 
 │                        │      ├ PublishedDate   : 2024-02-29T01:44:18.82Z 
 │                        │      ╰ LastModifiedDate: 2024-08-14T16:35:10.207Z 
-│                        ├ [38] ╭ VulnerabilityID : CVE-2024-26462 
+│                        ├ [37] ╭ VulnerabilityID : CVE-2024-26462 
 │                        │      ├ PkgID           : libkrb5-3@1.19.2-2ubuntu0.4 
 │                        │      ├ PkgName         : libkrb5-3 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libkrb5-3@1.19.2-2ubuntu0.4?arch=amd6
@@ -1997,7 +1970,7 @@
 │                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-26462 
 │                        │      ├ PublishedDate   : 2024-02-29T01:44:18.857Z 
 │                        │      ╰ LastModifiedDate: 2024-05-14T15:09:01.053Z 
-│                        ├ [39] ╭ VulnerabilityID : CVE-2024-26458 
+│                        ├ [38] ╭ VulnerabilityID : CVE-2024-26458 
 │                        │      ├ PkgID           : libkrb5-3@1.19.2-2ubuntu0.4 
 │                        │      ├ PkgName         : libkrb5-3 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libkrb5-3@1.19.2-2ubuntu0.4?arch=amd6
@@ -2054,7 +2027,7 @@
 │                        │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2024-26458 
 │                        │      ├ PublishedDate   : 2024-02-29T01:44:18.78Z 
 │                        │      ╰ LastModifiedDate: 2024-05-14T15:09:00.47Z 
-│                        ├ [40] ╭ VulnerabilityID : CVE-2024-26461 
+│                        ├ [39] ╭ VulnerabilityID : CVE-2024-26461 
 │                        │      ├ PkgID           : libkrb5-3@1.19.2-2ubuntu0.4 
 │                        │      ├ PkgName         : libkrb5-3 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libkrb5-3@1.19.2-2ubuntu0.4?arch=amd6
@@ -2112,7 +2085,7 @@
 │                        │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2024-26461 
 │                        │      ├ PublishedDate   : 2024-02-29T01:44:18.82Z 
 │                        │      ╰ LastModifiedDate: 2024-08-14T16:35:10.207Z 
-│                        ├ [41] ╭ VulnerabilityID : CVE-2024-26462 
+│                        ├ [40] ╭ VulnerabilityID : CVE-2024-26462 
 │                        │      ├ PkgID           : libkrb5support0@1.19.2-2ubuntu0.4 
 │                        │      ├ PkgName         : libkrb5support0 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libkrb5support0@1.19.2-2ubuntu0.4?arc
@@ -2152,7 +2125,7 @@
 │                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-26462 
 │                        │      ├ PublishedDate   : 2024-02-29T01:44:18.857Z 
 │                        │      ╰ LastModifiedDate: 2024-05-14T15:09:01.053Z 
-│                        ├ [42] ╭ VulnerabilityID : CVE-2024-26458 
+│                        ├ [41] ╭ VulnerabilityID : CVE-2024-26458 
 │                        │      ├ PkgID           : libkrb5support0@1.19.2-2ubuntu0.4 
 │                        │      ├ PkgName         : libkrb5support0 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libkrb5support0@1.19.2-2ubuntu0.4?arc
@@ -2209,7 +2182,7 @@
 │                        │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2024-26458 
 │                        │      ├ PublishedDate   : 2024-02-29T01:44:18.78Z 
 │                        │      ╰ LastModifiedDate: 2024-05-14T15:09:00.47Z 
-│                        ├ [43] ╭ VulnerabilityID : CVE-2024-26461 
+│                        ├ [42] ╭ VulnerabilityID : CVE-2024-26461 
 │                        │      ├ PkgID           : libkrb5support0@1.19.2-2ubuntu0.4 
 │                        │      ├ PkgName         : libkrb5support0 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libkrb5support0@1.19.2-2ubuntu0.4?arc
@@ -2267,7 +2240,7 @@
 │                        │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2024-26461 
 │                        │      ├ PublishedDate   : 2024-02-29T01:44:18.82Z 
 │                        │      ╰ LastModifiedDate: 2024-08-14T16:35:10.207Z 
-│                        ├ [44] ╭ VulnerabilityID : CVE-2023-45918 
+│                        ├ [43] ╭ VulnerabilityID : CVE-2023-45918 
 │                        │      ├ PkgID           : libncurses6@6.3-2ubuntu0.1 
 │                        │      ├ PkgName         : libncurses6 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libncurses6@6.3-2ubuntu0.1?arch=amd64
@@ -2308,7 +2281,7 @@
 │                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-45918 
 │                        │      ├ PublishedDate   : 2024-02-16T22:15:07.88Z 
 │                        │      ╰ LastModifiedDate: 2024-10-31T18:35:03.08Z 
-│                        ├ [45] ╭ VulnerabilityID : CVE-2023-50495 
+│                        ├ [44] ╭ VulnerabilityID : CVE-2023-50495 
 │                        │      ├ PkgID           : libncurses6@6.3-2ubuntu0.1 
 │                        │      ├ PkgName         : libncurses6 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libncurses6@6.3-2ubuntu0.1?arch=amd64
@@ -2354,7 +2327,7 @@
 │                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-50495 
 │                        │      ├ PublishedDate   : 2023-12-12T15:15:07.867Z 
 │                        │      ╰ LastModifiedDate: 2024-01-31T03:15:08.49Z 
-│                        ├ [46] ╭ VulnerabilityID : CVE-2023-45918 
+│                        ├ [45] ╭ VulnerabilityID : CVE-2023-45918 
 │                        │      ├ PkgID           : libncursesw6@6.3-2ubuntu0.1 
 │                        │      ├ PkgName         : libncursesw6 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libncursesw6@6.3-2ubuntu0.1?arch=amd6
@@ -2395,7 +2368,7 @@
 │                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-45918 
 │                        │      ├ PublishedDate   : 2024-02-16T22:15:07.88Z 
 │                        │      ╰ LastModifiedDate: 2024-10-31T18:35:03.08Z 
-│                        ├ [47] ╭ VulnerabilityID : CVE-2023-50495 
+│                        ├ [46] ╭ VulnerabilityID : CVE-2023-50495 
 │                        │      ├ PkgID           : libncursesw6@6.3-2ubuntu0.1 
 │                        │      ├ PkgName         : libncursesw6 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libncursesw6@6.3-2ubuntu0.1?arch=amd6
@@ -2441,7 +2414,7 @@
 │                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-50495 
 │                        │      ├ PublishedDate   : 2023-12-12T15:15:07.867Z 
 │                        │      ╰ LastModifiedDate: 2024-01-31T03:15:08.49Z 
-│                        ├ [48] ╭ VulnerabilityID : CVE-2023-7008 
+│                        ├ [47] ╭ VulnerabilityID : CVE-2023-7008 
 │                        │      ├ PkgID           : libnss-systemd@249.11-0ubuntu3.12 
 │                        │      ├ PkgName         : libnss-systemd 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libnss-systemd@249.11-0ubuntu3.12?arc
@@ -2498,7 +2471,7 @@
 │                        │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
 │                        │      ├ PublishedDate   : 2023-12-23T13:15:07.573Z 
 │                        │      ╰ LastModifiedDate: 2024-09-16T17:16:02.17Z 
-│                        ├ [49] ╭ VulnerabilityID : CVE-2023-7008 
+│                        ├ [48] ╭ VulnerabilityID : CVE-2023-7008 
 │                        │      ├ PkgID           : libpam-systemd@249.11-0ubuntu3.12 
 │                        │      ├ PkgName         : libpam-systemd 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpam-systemd@249.11-0ubuntu3.12?arc
@@ -2555,7 +2528,7 @@
 │                        │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
 │                        │      ├ PublishedDate   : 2023-12-23T13:15:07.573Z 
 │                        │      ╰ LastModifiedDate: 2024-09-16T17:16:02.17Z 
-│                        ├ [50] ╭ VulnerabilityID : CVE-2022-41409 
+│                        ├ [49] ╭ VulnerabilityID : CVE-2022-41409 
 │                        │      ├ PkgID           : libpcre2-8-0@10.39-3ubuntu0.1 
 │                        │      ├ PkgName         : libpcre2-8-0 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpcre2-8-0@10.39-3ubuntu0.1?arch=am
@@ -2600,7 +2573,7 @@
 │                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2022-41409 
 │                        │      ├ PublishedDate   : 2023-07-18T14:15:12.197Z 
 │                        │      ╰ LastModifiedDate: 2023-07-27T03:46:09.807Z 
-│                        ├ [51] ╭ VulnerabilityID : CVE-2017-11164 
+│                        ├ [50] ╭ VulnerabilityID : CVE-2017-11164 
 │                        │      ├ PkgID           : libpcre3@2:8.39-13ubuntu0.22.04.1 
 │                        │      ├ PkgName         : libpcre3 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpcre3@8.39-13ubuntu0.22.04.1?arch=
@@ -2647,7 +2620,7 @@
 │                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2017-11164 
 │                        │      ├ PublishedDate   : 2017-07-11T03:29:00.277Z 
 │                        │      ╰ LastModifiedDate: 2023-11-07T02:38:10.98Z 
-│                        ├ [52] ╭ VulnerabilityID : CVE-2024-41996 
+│                        ├ [51] ╭ VulnerabilityID : CVE-2024-41996 
 │                        │      ├ PkgID           : libssl3@3.0.2-0ubuntu1.18 
 │                        │      ├ PkgName         : libssl3 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libssl3@3.0.2-0ubuntu1.18?arch=amd64&
@@ -2697,7 +2670,7 @@
 │                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-41996 
 │                        │      ├ PublishedDate   : 2024-08-26T06:15:04.603Z 
 │                        │      ╰ LastModifiedDate: 2024-08-26T16:35:11.247Z 
-│                        ├ [53] ╭ VulnerabilityID : CVE-2023-4039 
+│                        ├ [52] ╭ VulnerabilityID : CVE-2023-4039 
 │                        │      ├ PkgID           : libstdc++6@12.3.0-1ubuntu1~22.04 
 │                        │      ├ PkgName         : libstdc++6 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libstdc%2B%2B6@12.3.0-1ubuntu1~22.04?
@@ -2771,7 +2744,7 @@
 │                        │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2023-4039 
 │                        │      ├ PublishedDate   : 2023-09-13T09:15:15.69Z 
 │                        │      ╰ LastModifiedDate: 2024-08-02T08:15:14.993Z 
-│                        ├ [54] ╭ VulnerabilityID : CVE-2022-27943 
+│                        ├ [53] ╭ VulnerabilityID : CVE-2022-27943 
 │                        │      ├ PkgID           : libstdc++6@12.3.0-1ubuntu1~22.04 
 │                        │      ├ PkgName         : libstdc++6 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libstdc%2B%2B6@12.3.0-1ubuntu1~22.04?
@@ -2824,7 +2797,7 @@
 │                        │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2022-27943 
 │                        │      ├ PublishedDate   : 2022-03-26T13:15:07.9Z 
 │                        │      ╰ LastModifiedDate: 2023-11-07T03:45:32.64Z 
-│                        ├ [55] ╭ VulnerabilityID : CVE-2023-7008 
+│                        ├ [54] ╭ VulnerabilityID : CVE-2023-7008 
 │                        │      ├ PkgID           : libsystemd0@249.11-0ubuntu3.12 
 │                        │      ├ PkgName         : libsystemd0 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libsystemd0@249.11-0ubuntu3.12?arch=a
@@ -2881,7 +2854,7 @@
 │                        │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
 │                        │      ├ PublishedDate   : 2023-12-23T13:15:07.573Z 
 │                        │      ╰ LastModifiedDate: 2024-09-16T17:16:02.17Z 
-│                        ├ [56] ╭ VulnerabilityID : CVE-2024-6716 
+│                        ├ [55] ╭ VulnerabilityID : CVE-2024-6716 
 │                        │      ├ PkgID           : libtiff5@4.3.0-6ubuntu0.10 
 │                        │      ├ PkgName         : libtiff5 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libtiff5@4.3.0-6ubuntu0.10?arch=amd64
@@ -2904,7 +2877,7 @@
 │                        │      ├ References       ─ [0]: https://www.cve.org/CVERecord?id=CVE-2024-6716 
 │                        │      ├ PublishedDate   : 2024-07-15T15:15:10.9Z 
 │                        │      ╰ LastModifiedDate: 2024-09-04T14:15:14.457Z 
-│                        ├ [57] ╭ VulnerabilityID : CVE-2023-45918 
+│                        ├ [56] ╭ VulnerabilityID : CVE-2023-45918 
 │                        │      ├ PkgID           : libtinfo6@6.3-2ubuntu0.1 
 │                        │      ├ PkgName         : libtinfo6 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libtinfo6@6.3-2ubuntu0.1?arch=amd64&d
@@ -2945,7 +2918,7 @@
 │                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-45918 
 │                        │      ├ PublishedDate   : 2024-02-16T22:15:07.88Z 
 │                        │      ╰ LastModifiedDate: 2024-10-31T18:35:03.08Z 
-│                        ├ [58] ╭ VulnerabilityID : CVE-2023-50495 
+│                        ├ [57] ╭ VulnerabilityID : CVE-2023-50495 
 │                        │      ├ PkgID           : libtinfo6@6.3-2ubuntu0.1 
 │                        │      ├ PkgName         : libtinfo6 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libtinfo6@6.3-2ubuntu0.1?arch=amd64&d
@@ -2991,7 +2964,7 @@
 │                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-50495 
 │                        │      ├ PublishedDate   : 2023-12-12T15:15:07.867Z 
 │                        │      ╰ LastModifiedDate: 2024-01-31T03:15:08.49Z 
-│                        ├ [59] ╭ VulnerabilityID : CVE-2023-7008 
+│                        ├ [58] ╭ VulnerabilityID : CVE-2023-7008 
 │                        │      ├ PkgID           : libudev1@249.11-0ubuntu3.12 
 │                        │      ├ PkgName         : libudev1 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libudev1@249.11-0ubuntu3.12?arch=amd6
@@ -3048,7 +3021,7 @@
 │                        │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
 │                        │      ├ PublishedDate   : 2023-12-23T13:15:07.573Z 
 │                        │      ╰ LastModifiedDate: 2024-09-16T17:16:02.17Z 
-│                        ├ [60] ╭ VulnerabilityID : CVE-2022-4899 
+│                        ├ [59] ╭ VulnerabilityID : CVE-2022-4899 
 │                        │      ├ PkgID           : libzstd1@1.4.8+dfsg-3build1 
 │                        │      ├ PkgName         : libzstd1 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libzstd1@1.4.8%2Bdfsg-3build1?arch=am
@@ -3202,7 +3175,7 @@
 │                        │      │                  ╰ [94]: https://www.cve.org/CVERecord?id=CVE-2022-4899 
 │                        │      ├ PublishedDate   : 2023-03-31T20:15:07.213Z 
 │                        │      ╰ LastModifiedDate: 2023-11-07T03:59:16.09Z 
-│                        ├ [61] ╭ VulnerabilityID : CVE-2023-29383 
+│                        ├ [60] ╭ VulnerabilityID : CVE-2023-29383 
 │                        │      ├ PkgID           : login@1:4.8.1-2ubuntu2.2 
 │                        │      ├ PkgName         : login 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/login@4.8.1-2ubuntu2.2?arch=amd64&dis
@@ -3259,7 +3232,7 @@
 │                        │      │                         sources/security-advisories/?fid=31797 
 │                        │      ├ PublishedDate   : 2023-04-14T22:15:07.68Z 
 │                        │      ╰ LastModifiedDate: 2023-04-24T18:05:30.313Z 
-│                        ├ [62] ╭ VulnerabilityID : CVE-2023-45918 
+│                        ├ [61] ╭ VulnerabilityID : CVE-2023-45918 
 │                        │      ├ PkgID           : ncurses-base@6.3-2ubuntu0.1 
 │                        │      ├ PkgName         : ncurses-base 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/ncurses-base@6.3-2ubuntu0.1?arch=all&
@@ -3300,7 +3273,7 @@
 │                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-45918 
 │                        │      ├ PublishedDate   : 2024-02-16T22:15:07.88Z 
 │                        │      ╰ LastModifiedDate: 2024-10-31T18:35:03.08Z 
-│                        ├ [63] ╭ VulnerabilityID : CVE-2023-50495 
+│                        ├ [62] ╭ VulnerabilityID : CVE-2023-50495 
 │                        │      ├ PkgID           : ncurses-base@6.3-2ubuntu0.1 
 │                        │      ├ PkgName         : ncurses-base 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/ncurses-base@6.3-2ubuntu0.1?arch=all&
@@ -3346,7 +3319,7 @@
 │                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-50495 
 │                        │      ├ PublishedDate   : 2023-12-12T15:15:07.867Z 
 │                        │      ╰ LastModifiedDate: 2024-01-31T03:15:08.49Z 
-│                        ├ [64] ╭ VulnerabilityID : CVE-2023-45918 
+│                        ├ [63] ╭ VulnerabilityID : CVE-2023-45918 
 │                        │      ├ PkgID           : ncurses-bin@6.3-2ubuntu0.1 
 │                        │      ├ PkgName         : ncurses-bin 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/ncurses-bin@6.3-2ubuntu0.1?arch=amd64
@@ -3387,7 +3360,7 @@
 │                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-45918 
 │                        │      ├ PublishedDate   : 2024-02-16T22:15:07.88Z 
 │                        │      ╰ LastModifiedDate: 2024-10-31T18:35:03.08Z 
-│                        ├ [65] ╭ VulnerabilityID : CVE-2023-50495 
+│                        ├ [64] ╭ VulnerabilityID : CVE-2023-50495 
 │                        │      ├ PkgID           : ncurses-bin@6.3-2ubuntu0.1 
 │                        │      ├ PkgName         : ncurses-bin 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/ncurses-bin@6.3-2ubuntu0.1?arch=amd64
@@ -3433,7 +3406,7 @@
 │                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-50495 
 │                        │      ├ PublishedDate   : 2023-12-12T15:15:07.867Z 
 │                        │      ╰ LastModifiedDate: 2024-01-31T03:15:08.49Z 
-│                        ├ [66] ╭ VulnerabilityID : CVE-2023-45918 
+│                        ├ [65] ╭ VulnerabilityID : CVE-2023-45918 
 │                        │      ├ PkgID           : ncurses-term@6.3-2ubuntu0.1 
 │                        │      ├ PkgName         : ncurses-term 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/ncurses-term@6.3-2ubuntu0.1?arch=all&
@@ -3474,7 +3447,7 @@
 │                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-45918 
 │                        │      ├ PublishedDate   : 2024-02-16T22:15:07.88Z 
 │                        │      ╰ LastModifiedDate: 2024-10-31T18:35:03.08Z 
-│                        ├ [67] ╭ VulnerabilityID : CVE-2023-50495 
+│                        ├ [66] ╭ VulnerabilityID : CVE-2023-50495 
 │                        │      ├ PkgID           : ncurses-term@6.3-2ubuntu0.1 
 │                        │      ├ PkgName         : ncurses-term 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/ncurses-term@6.3-2ubuntu0.1?arch=all&
@@ -3520,7 +3493,7 @@
 │                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-50495 
 │                        │      ├ PublishedDate   : 2023-12-12T15:15:07.867Z 
 │                        │      ╰ LastModifiedDate: 2024-01-31T03:15:08.49Z 
-│                        ├ [68] ╭ VulnerabilityID : CVE-2024-41996 
+│                        ├ [67] ╭ VulnerabilityID : CVE-2024-41996 
 │                        │      ├ PkgID           : openssl@3.0.2-0ubuntu1.18 
 │                        │      ├ PkgName         : openssl 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl@3.0.2-0ubuntu1.18?arch=amd64&
@@ -3570,7 +3543,7 @@
 │                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-41996 
 │                        │      ├ PublishedDate   : 2024-08-26T06:15:04.603Z 
 │                        │      ╰ LastModifiedDate: 2024-08-26T16:35:11.247Z 
-│                        ├ [69] ╭ VulnerabilityID : CVE-2023-29383 
+│                        ├ [68] ╭ VulnerabilityID : CVE-2023-29383 
 │                        │      ├ PkgID           : passwd@1:4.8.1-2ubuntu2.2 
 │                        │      ├ PkgName         : passwd 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/passwd@4.8.1-2ubuntu2.2?arch=amd64&di
@@ -3627,7 +3600,7 @@
 │                        │      │                         sources/security-advisories/?fid=31797 
 │                        │      ├ PublishedDate   : 2023-04-14T22:15:07.68Z 
 │                        │      ╰ LastModifiedDate: 2023-04-24T18:05:30.313Z 
-│                        ├ [70] ╭ VulnerabilityID : CVE-2023-7008 
+│                        ├ [69] ╭ VulnerabilityID : CVE-2023-7008 
 │                        │      ├ PkgID           : systemd@249.11-0ubuntu3.12 
 │                        │      ├ PkgName         : systemd 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/systemd@249.11-0ubuntu3.12?arch=amd64
@@ -3684,7 +3657,7 @@
 │                        │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
 │                        │      ├ PublishedDate   : 2023-12-23T13:15:07.573Z 
 │                        │      ╰ LastModifiedDate: 2024-09-16T17:16:02.17Z 
-│                        ├ [71] ╭ VulnerabilityID : CVE-2023-7008 
+│                        ├ [70] ╭ VulnerabilityID : CVE-2023-7008 
 │                        │      ├ PkgID           : systemd-sysv@249.11-0ubuntu3.12 
 │                        │      ├ PkgName         : systemd-sysv 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/systemd-sysv@249.11-0ubuntu3.12?arch=
@@ -3741,7 +3714,7 @@
 │                        │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
 │                        │      ├ PublishedDate   : 2023-12-23T13:15:07.573Z 
 │                        │      ╰ LastModifiedDate: 2024-09-16T17:16:02.17Z 
-│                        ├ [72] ╭ VulnerabilityID : CVE-2023-7008 
+│                        ├ [71] ╭ VulnerabilityID : CVE-2023-7008 
 │                        │      ├ PkgID           : systemd-timesyncd@249.11-0ubuntu3.12 
 │                        │      ├ PkgName         : systemd-timesyncd 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/systemd-timesyncd@249.11-0ubuntu3.12?
@@ -3798,7 +3771,7 @@
 │                        │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
 │                        │      ├ PublishedDate   : 2023-12-23T13:15:07.573Z 
 │                        │      ╰ LastModifiedDate: 2024-09-16T17:16:02.17Z 
-│                        ├ [73] ╭ VulnerabilityID : CVE-2023-29383 
+│                        ├ [72] ╭ VulnerabilityID : CVE-2023-29383 
 │                        │      ├ PkgID           : uidmap@1:4.8.1-2ubuntu2.2 
 │                        │      ├ PkgName         : uidmap 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/uidmap@4.8.1-2ubuntu2.2?arch=amd64&di
@@ -3855,7 +3828,7 @@
 │                        │      │                         sources/security-advisories/?fid=31797 
 │                        │      ├ PublishedDate   : 2023-04-14T22:15:07.68Z 
 │                        │      ╰ LastModifiedDate: 2023-04-24T18:05:30.313Z 
-│                        ╰ [74] ╭ VulnerabilityID : CVE-2021-31879 
+│                        ╰ [73] ╭ VulnerabilityID : CVE-2021-31879 
 │                               ├ PkgID           : wget@1.21.2-2ubuntu1.1 
 │                               ├ PkgName         : wget 
 │                               ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/wget@1.21.2-2ubuntu1.1?arch=amd64&dis
@@ -4040,9 +4013,51 @@
 │                              │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2022-36033 
 │                              ├ PublishedDate   : 2022-08-29T17:15:08.523Z 
 │                              ╰ LastModifiedDate: 2022-12-08T03:48:04.673Z 
-├ [2]  ╭ Target: Node.js 
-│      ├ Class : lang-pkgs 
-│      ╰ Type  : node-pkg 
+├ [2]  ╭ Target         : Node.js 
+│      ├ Class          : lang-pkgs 
+│      ├ Type           : node-pkg 
+│      ╰ Vulnerabilities ─ [0] ╭ VulnerabilityID : CVE-2024-21538 
+│                              ├ PkgID           : cross-spawn@7.0.3 
+│                              ├ PkgName         : cross-spawn 
+│                              ├ PkgPath         : home/workspace/.openvscode-server/extensions/ms-kubernetes-t
+│                              │                   ools.vscode-kubernetes-tools-1.3.18-universal/node_modules/c
+│                              │                   ross-spawn/package.json 
+│                              ├ PkgIdentifier    ╭ PURL: pkg:npm/cross-spawn@7.0.3 
+│                              │                  ╰ UID : dfeb48a3b04b3da5 
+│                              ├ InstalledVersion: 7.0.3 
+│                              ├ FixedVersion    : 7.0.5 
+│                              ├ Status          : fixed 
+│                              ├ Layer            ╭ Digest: sha256:062a8f5510ebaaa2580f24c25b56d8c2b59787e31e3b
+│                              │                  │         6510e84c204271ea653c 
+│                              │                  ╰ DiffID: sha256:c84cc24f51d2f4090c6e18de187a5078f21dcce25c6f
+│                              │                            cd3a0c5f9dd02ce3b4ed 
+│                              ├ SeveritySource  : ghsa 
+│                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-21538 
+│                              ├ DataSource       ╭ ID  : ghsa 
+│                              │                  ├ Name: GitHub Security Advisory npm 
+│                              │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+e
+│                              │                          cosystem%3Anpm 
+│                              ├ Title           : Regular Expression Denial of Service (ReDoS) in cross-spawn 
+│                              ├ Description     : Versions of the package cross-spawn before 7.0.5 are
+│                              │                   vulnerable to Regular Expression Denial of Service (ReDoS)
+│                              │                   due to improper input sanitization. An attacker can increase
+│                              │                    the CPU usage and crash the program by crafting a very
+│                              │                   large and well crafted string. 
+│                              ├ Severity        : HIGH 
+│                              ├ CweIDs           ─ [0]: CWE-1333 
+│                              ├ VendorSeverity   ─ ghsa: 3 
+│                              ├ CVSS             ─ ghsa ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H 
+│                              │                         ╰ V3Score : 7.5 
+│                              ├ References       ╭ [0]: https://github.com/moxystudio/node-cross-spawn 
+│                              │                  ├ [1]: https://github.com/moxystudio/node-cross-spawn/commit/
+│                              │                  │      5ff3a07d9add449021d806e45c4168203aa833ff 
+│                              │                  ├ [2]: https://github.com/moxystudio/node-cross-spawn/commit/
+│                              │                  │      640d391fde65388548601d95abedccc12943374f 
+│                              │                  ├ [3]: https://github.com/moxystudio/node-cross-spawn/pull/160 
+│                              │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-21538 
+│                              │                  ╰ [5]: https://security.snyk.io/vuln/SNYK-JS-CROSSSPAWN-8303230 
+│                              ├ PublishedDate   : 2024-11-08T05:15:06.453Z 
+│                              ╰ LastModifiedDate: 2024-11-08T19:01:03.88Z 
 ├ [3]  ╭ Target         : home/openvscode-server/.krew/store/krew/v0.4.4/krew 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : gobinary 
@@ -5954,7 +5969,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
@@ -6036,7 +6051,7 @@
 │                        │      │                   bytes grows too small. 
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ nvd        : 2 
@@ -8768,7 +8783,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
@@ -8850,7 +8865,7 @@
 │                        │      │                   bytes grows too small. 
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ nvd        : 2 
