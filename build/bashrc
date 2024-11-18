@@ -7,7 +7,7 @@ if ! shopt -oq posix; then
 fi
 
 if [ ! -e ~/.openaf_completion_bash.sh ] || [ $(find ~/.openaf_completion_bash.sh -mtime +1) ]; then
-  /Applications/OpenAF/oaf --bashcompletion all > ~/.openaf_completion_bash.sh
+  /opt/oaf --bashcompletion all > ~/.openaf_completion_bash.sh
 fi
 source ~/.openaf_completion_bash.sh
 source <(helm completion bash)
