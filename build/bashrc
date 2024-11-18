@@ -6,8 +6,10 @@ if ! shopt -oq posix; then
   fi
 fi
 
-if [ ! -e ~/.openaf-ojobio-complete ] || [ $(find ~/.openaf-ojobio-complete -mmin +1440) ]; then curl -s https://ojob.io/autoComplete.sh -o ~/.openaf-ojobio-complete; fi
-source ~/.openaf-ojobio-complete
+if [ ! -e ~/.openaf_completion_bash.sh ] || [ $(find ~/.openaf_completion_bash.sh -mtime +1) ]; then
+  /Applications/OpenAF/oaf --bashcompletion all > ~/.openaf_completion_bash.sh
+fi
+source ~/.openaf_completion_bash.sh
 source <(helm completion bash)
 source <(kubectl completion bash)
 source <(docker completion bash)
