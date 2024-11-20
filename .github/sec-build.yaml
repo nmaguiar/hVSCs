@@ -60,7 +60,8 @@
       PURL: pkg:deb/ubuntu/curl@7.81.0-1ubuntu1.18?arch=amd64&distro=ubuntu-22.04
       UID: 2baddcec76ce0cd9
     InstalledVersion: 7.81.0-1ubuntu1.18
-    Status: affected
+    FixedVersion: 7.81.0-1ubuntu1.19
+    Status: fixed
     Layer:
       Digest: sha256:f1d953bd7bd833b0eecf3661fe85c9a0581c1ca8b2a761670044927e3c018c0b
       DiffID: sha256:684d00f605e86b1b9fd6908d120e178197af9291c540dd9784471e417df530a9
@@ -111,6 +112,7 @@
     - https://curl.se/docs/CVE-2024-9681.json
     - https://hackerone.com/reports/2764830
     - https://nvd.nist.gov/vuln/detail/CVE-2024-9681
+    - https://ubuntu.com/security/notices/USN-7104-1
     - https://www.cve.org/CVERecord?id=CVE-2024-9681
     PublishedDate: '2024-11-06T08:15:03.74Z'
     LastModifiedDate: '2024-11-06T18:17:17.287Z'
@@ -1111,7 +1113,8 @@
       PURL: pkg:deb/ubuntu/libcurl3-gnutls@7.81.0-1ubuntu1.18?arch=amd64&distro=ubuntu-22.04
       UID: 8e1e3f5856a95896
     InstalledVersion: 7.81.0-1ubuntu1.18
-    Status: affected
+    FixedVersion: 7.81.0-1ubuntu1.19
+    Status: fixed
     Layer:
       Digest: sha256:f1d953bd7bd833b0eecf3661fe85c9a0581c1ca8b2a761670044927e3c018c0b
       DiffID: sha256:684d00f605e86b1b9fd6908d120e178197af9291c540dd9784471e417df530a9
@@ -1162,6 +1165,7 @@
     - https://curl.se/docs/CVE-2024-9681.json
     - https://hackerone.com/reports/2764830
     - https://nvd.nist.gov/vuln/detail/CVE-2024-9681
+    - https://ubuntu.com/security/notices/USN-7104-1
     - https://www.cve.org/CVERecord?id=CVE-2024-9681
     PublishedDate: '2024-11-06T08:15:03.74Z'
     LastModifiedDate: '2024-11-06T18:17:17.287Z'
@@ -1172,7 +1176,8 @@
       PURL: pkg:deb/ubuntu/libcurl4@7.81.0-1ubuntu1.18?arch=amd64&distro=ubuntu-22.04
       UID: 1737bac37e72315
     InstalledVersion: 7.81.0-1ubuntu1.18
-    Status: affected
+    FixedVersion: 7.81.0-1ubuntu1.19
+    Status: fixed
     Layer:
       Digest: sha256:f1d953bd7bd833b0eecf3661fe85c9a0581c1ca8b2a761670044927e3c018c0b
       DiffID: sha256:684d00f605e86b1b9fd6908d120e178197af9291c540dd9784471e417df530a9
@@ -1223,6 +1228,7 @@
     - https://curl.se/docs/CVE-2024-9681.json
     - https://hackerone.com/reports/2764830
     - https://nvd.nist.gov/vuln/detail/CVE-2024-9681
+    - https://ubuntu.com/security/notices/USN-7104-1
     - https://www.cve.org/CVERecord?id=CVE-2024-9681
     PublishedDate: '2024-11-06T08:15:03.74Z'
     LastModifiedDate: '2024-11-06T18:17:17.287Z'
@@ -1422,6 +1428,7 @@
     CweIDs:
     - CWE-208
     VendorSeverity:
+      alma: 2
       amazon: 2
       redhat: 2
       ubuntu: 2
@@ -1432,8 +1439,10 @@
     References:
     - https://access.redhat.com/errata/RHSA-2024:9404
     - https://access.redhat.com/security/cve/CVE-2024-2236
+    - https://bugzilla.redhat.com/2245218
     - https://bugzilla.redhat.com/show_bug.cgi?id=2245218
     - https://dev.gnupg.org/T7136
+    - https://errata.almalinux.org/9/ALSA-2024-9404.html
     - https://github.com/tomato42/marvin-toolkit/tree/master/example/libgcrypt
     - https://gitlab.com/redhat-crypto/libgcrypt/libgcrypt-mirror/-/merge_requests/17
     - https://lists.gnupg.org/pipermail/gcrypt-devel/2024-March/005607.html
@@ -1448,7 +1457,8 @@
       PURL: pkg:deb/ubuntu/libglib2.0-0@2.72.4-0ubuntu2.3?arch=amd64&distro=ubuntu-22.04
       UID: 514d38bac417391e
     InstalledVersion: 2.72.4-0ubuntu2.3
-    Status: affected
+    FixedVersion: 2.72.4-0ubuntu2.4
+    Status: fixed
     Layer:
       Digest: sha256:f1d953bd7bd833b0eecf3661fe85c9a0581c1ca8b2a761670044927e3c018c0b
       DiffID: sha256:684d00f605e86b1b9fd6908d120e178197af9291c540dd9784471e417df530a9
@@ -1477,6 +1487,7 @@
     - https://gitlab.gnome.org/GNOME/glib/-/releases/2.82.1
     - https://gitlab.gnome.org/Teams/Releng/security/-/wikis/home
     - https://nvd.nist.gov/vuln/detail/CVE-2024-52533
+    - https://ubuntu.com/security/notices/USN-7114-1
     - https://www.cve.org/CVERecord?id=CVE-2024-52533
     PublishedDate: '2024-11-11T23:15:05.967Z'
     LastModifiedDate: '2024-11-12T16:35:24.297Z'
@@ -1487,7 +1498,8 @@
       PURL: pkg:deb/ubuntu/libglib2.0-data@2.72.4-0ubuntu2.3?arch=all&distro=ubuntu-22.04
       UID: 8cdae52db743242e
     InstalledVersion: 2.72.4-0ubuntu2.3
-    Status: affected
+    FixedVersion: 2.72.4-0ubuntu2.4
+    Status: fixed
     Layer:
       Digest: sha256:f1d953bd7bd833b0eecf3661fe85c9a0581c1ca8b2a761670044927e3c018c0b
       DiffID: sha256:684d00f605e86b1b9fd6908d120e178197af9291c540dd9784471e417df530a9
@@ -1516,6 +1528,7 @@
     - https://gitlab.gnome.org/GNOME/glib/-/releases/2.82.1
     - https://gitlab.gnome.org/Teams/Releng/security/-/wikis/home
     - https://nvd.nist.gov/vuln/detail/CVE-2024-52533
+    - https://ubuntu.com/security/notices/USN-7114-1
     - https://www.cve.org/CVERecord?id=CVE-2024-52533
     PublishedDate: '2024-11-11T23:15:05.967Z'
     LastModifiedDate: '2024-11-12T16:35:24.297Z'
@@ -1540,6 +1553,7 @@
     Description: Kerberos 5 (aka krb5) 1.21.2 contains a memory leak vulnerability in /krb5/src/kdc/ndr.c.
     Severity: MEDIUM
     VendorSeverity:
+      alma: 2
       amazon: 2
       azure: 3
       photon: 2
@@ -1550,7 +1564,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
+    - https://access.redhat.com/errata/RHSA-2024:9331
     - https://access.redhat.com/security/cve/CVE-2024-26462
+    - https://bugzilla.redhat.com/2266731
+    - https://bugzilla.redhat.com/2266740
+    - https://bugzilla.redhat.com/2266742
+    - https://errata.almalinux.org/9/ALSA-2024-9331.html
     - https://github.com/LuMingYinDetect/krb5_defects/blob/main/krb5_detect_3.md
     - https://mailman.mit.edu/pipermail/kerberos/2024-March/023095.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-26462
@@ -1579,7 +1598,7 @@
     Description: Kerberos 5 (aka krb5) 1.21.2 contains a memory leak in /krb5/src/lib/rpc/pmap_rmt.c.
     Severity: LOW
     VendorSeverity:
-      alma: 1
+      alma: 2
       amazon: 2
       azure: 3
       cbl-mariner: 3
@@ -1593,15 +1612,16 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
     References:
-    - https://access.redhat.com/errata/RHSA-2024:3268
+    - https://access.redhat.com/errata/RHSA-2024:9331
     - https://access.redhat.com/security/cve/CVE-2024-26458
     - https://bugzilla.redhat.com/2266731
     - https://bugzilla.redhat.com/2266740
+    - https://bugzilla.redhat.com/2266742
     - https://bugzilla.redhat.com/show_bug.cgi?id=2266731
     - https://bugzilla.redhat.com/show_bug.cgi?id=2266740
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26458
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26461
-    - https://errata.almalinux.org/8/ALSA-2024-3268.html
+    - https://errata.almalinux.org/9/ALSA-2024-9331.html
     - https://errata.rockylinux.org/RLSA-2024:3268
     - https://github.com/LuMingYinDetect/krb5_defects/blob/main/krb5_detect_1.md
     - https://linux.oracle.com/cve/CVE-2024-26458.html
@@ -1635,7 +1655,7 @@
     CweIDs:
     - CWE-770
     VendorSeverity:
-      alma: 1
+      alma: 2
       amazon: 2
       azure: 3
       cbl-mariner: 3
@@ -1649,15 +1669,16 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
     References:
-    - https://access.redhat.com/errata/RHSA-2024:3268
+    - https://access.redhat.com/errata/RHSA-2024:9331
     - https://access.redhat.com/security/cve/CVE-2024-26461
     - https://bugzilla.redhat.com/2266731
     - https://bugzilla.redhat.com/2266740
+    - https://bugzilla.redhat.com/2266742
     - https://bugzilla.redhat.com/show_bug.cgi?id=2266731
     - https://bugzilla.redhat.com/show_bug.cgi?id=2266740
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26458
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26461
-    - https://errata.almalinux.org/8/ALSA-2024-3268.html
+    - https://errata.almalinux.org/9/ALSA-2024-9331.html
     - https://errata.rockylinux.org/RLSA-2024:3268
     - https://github.com/LuMingYinDetect/krb5_defects/blob/main/krb5_detect_2.md
     - https://linux.oracle.com/cve/CVE-2024-26461.html
@@ -1689,6 +1710,7 @@
     Description: Kerberos 5 (aka krb5) 1.21.2 contains a memory leak vulnerability in /krb5/src/kdc/ndr.c.
     Severity: MEDIUM
     VendorSeverity:
+      alma: 2
       amazon: 2
       azure: 3
       photon: 2
@@ -1699,7 +1721,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
+    - https://access.redhat.com/errata/RHSA-2024:9331
     - https://access.redhat.com/security/cve/CVE-2024-26462
+    - https://bugzilla.redhat.com/2266731
+    - https://bugzilla.redhat.com/2266740
+    - https://bugzilla.redhat.com/2266742
+    - https://errata.almalinux.org/9/ALSA-2024-9331.html
     - https://github.com/LuMingYinDetect/krb5_defects/blob/main/krb5_detect_3.md
     - https://mailman.mit.edu/pipermail/kerberos/2024-March/023095.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-26462
@@ -1728,7 +1755,7 @@
     Description: Kerberos 5 (aka krb5) 1.21.2 contains a memory leak in /krb5/src/lib/rpc/pmap_rmt.c.
     Severity: LOW
     VendorSeverity:
-      alma: 1
+      alma: 2
       amazon: 2
       azure: 3
       cbl-mariner: 3
@@ -1742,15 +1769,16 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
     References:
-    - https://access.redhat.com/errata/RHSA-2024:3268
+    - https://access.redhat.com/errata/RHSA-2024:9331
     - https://access.redhat.com/security/cve/CVE-2024-26458
     - https://bugzilla.redhat.com/2266731
     - https://bugzilla.redhat.com/2266740
+    - https://bugzilla.redhat.com/2266742
     - https://bugzilla.redhat.com/show_bug.cgi?id=2266731
     - https://bugzilla.redhat.com/show_bug.cgi?id=2266740
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26458
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26461
-    - https://errata.almalinux.org/8/ALSA-2024-3268.html
+    - https://errata.almalinux.org/9/ALSA-2024-9331.html
     - https://errata.rockylinux.org/RLSA-2024:3268
     - https://github.com/LuMingYinDetect/krb5_defects/blob/main/krb5_detect_1.md
     - https://linux.oracle.com/cve/CVE-2024-26458.html
@@ -1784,7 +1812,7 @@
     CweIDs:
     - CWE-770
     VendorSeverity:
-      alma: 1
+      alma: 2
       amazon: 2
       azure: 3
       cbl-mariner: 3
@@ -1798,15 +1826,16 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
     References:
-    - https://access.redhat.com/errata/RHSA-2024:3268
+    - https://access.redhat.com/errata/RHSA-2024:9331
     - https://access.redhat.com/security/cve/CVE-2024-26461
     - https://bugzilla.redhat.com/2266731
     - https://bugzilla.redhat.com/2266740
+    - https://bugzilla.redhat.com/2266742
     - https://bugzilla.redhat.com/show_bug.cgi?id=2266731
     - https://bugzilla.redhat.com/show_bug.cgi?id=2266740
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26458
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26461
-    - https://errata.almalinux.org/8/ALSA-2024-3268.html
+    - https://errata.almalinux.org/9/ALSA-2024-9331.html
     - https://errata.rockylinux.org/RLSA-2024:3268
     - https://github.com/LuMingYinDetect/krb5_defects/blob/main/krb5_detect_2.md
     - https://linux.oracle.com/cve/CVE-2024-26461.html
@@ -1838,6 +1867,7 @@
     Description: Kerberos 5 (aka krb5) 1.21.2 contains a memory leak vulnerability in /krb5/src/kdc/ndr.c.
     Severity: MEDIUM
     VendorSeverity:
+      alma: 2
       amazon: 2
       azure: 3
       photon: 2
@@ -1848,7 +1878,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
+    - https://access.redhat.com/errata/RHSA-2024:9331
     - https://access.redhat.com/security/cve/CVE-2024-26462
+    - https://bugzilla.redhat.com/2266731
+    - https://bugzilla.redhat.com/2266740
+    - https://bugzilla.redhat.com/2266742
+    - https://errata.almalinux.org/9/ALSA-2024-9331.html
     - https://github.com/LuMingYinDetect/krb5_defects/blob/main/krb5_detect_3.md
     - https://mailman.mit.edu/pipermail/kerberos/2024-March/023095.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-26462
@@ -1877,7 +1912,7 @@
     Description: Kerberos 5 (aka krb5) 1.21.2 contains a memory leak in /krb5/src/lib/rpc/pmap_rmt.c.
     Severity: LOW
     VendorSeverity:
-      alma: 1
+      alma: 2
       amazon: 2
       azure: 3
       cbl-mariner: 3
@@ -1891,15 +1926,16 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
     References:
-    - https://access.redhat.com/errata/RHSA-2024:3268
+    - https://access.redhat.com/errata/RHSA-2024:9331
     - https://access.redhat.com/security/cve/CVE-2024-26458
     - https://bugzilla.redhat.com/2266731
     - https://bugzilla.redhat.com/2266740
+    - https://bugzilla.redhat.com/2266742
     - https://bugzilla.redhat.com/show_bug.cgi?id=2266731
     - https://bugzilla.redhat.com/show_bug.cgi?id=2266740
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26458
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26461
-    - https://errata.almalinux.org/8/ALSA-2024-3268.html
+    - https://errata.almalinux.org/9/ALSA-2024-9331.html
     - https://errata.rockylinux.org/RLSA-2024:3268
     - https://github.com/LuMingYinDetect/krb5_defects/blob/main/krb5_detect_1.md
     - https://linux.oracle.com/cve/CVE-2024-26458.html
@@ -1933,7 +1969,7 @@
     CweIDs:
     - CWE-770
     VendorSeverity:
-      alma: 1
+      alma: 2
       amazon: 2
       azure: 3
       cbl-mariner: 3
@@ -1947,15 +1983,16 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
     References:
-    - https://access.redhat.com/errata/RHSA-2024:3268
+    - https://access.redhat.com/errata/RHSA-2024:9331
     - https://access.redhat.com/security/cve/CVE-2024-26461
     - https://bugzilla.redhat.com/2266731
     - https://bugzilla.redhat.com/2266740
+    - https://bugzilla.redhat.com/2266742
     - https://bugzilla.redhat.com/show_bug.cgi?id=2266731
     - https://bugzilla.redhat.com/show_bug.cgi?id=2266740
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26458
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26461
-    - https://errata.almalinux.org/8/ALSA-2024-3268.html
+    - https://errata.almalinux.org/9/ALSA-2024-9331.html
     - https://errata.rockylinux.org/RLSA-2024:3268
     - https://github.com/LuMingYinDetect/krb5_defects/blob/main/krb5_detect_2.md
     - https://linux.oracle.com/cve/CVE-2024-26461.html
@@ -1987,6 +2024,7 @@
     Description: Kerberos 5 (aka krb5) 1.21.2 contains a memory leak vulnerability in /krb5/src/kdc/ndr.c.
     Severity: MEDIUM
     VendorSeverity:
+      alma: 2
       amazon: 2
       azure: 3
       photon: 2
@@ -1997,7 +2035,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
+    - https://access.redhat.com/errata/RHSA-2024:9331
     - https://access.redhat.com/security/cve/CVE-2024-26462
+    - https://bugzilla.redhat.com/2266731
+    - https://bugzilla.redhat.com/2266740
+    - https://bugzilla.redhat.com/2266742
+    - https://errata.almalinux.org/9/ALSA-2024-9331.html
     - https://github.com/LuMingYinDetect/krb5_defects/blob/main/krb5_detect_3.md
     - https://mailman.mit.edu/pipermail/kerberos/2024-March/023095.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-26462
@@ -2026,7 +2069,7 @@
     Description: Kerberos 5 (aka krb5) 1.21.2 contains a memory leak in /krb5/src/lib/rpc/pmap_rmt.c.
     Severity: LOW
     VendorSeverity:
-      alma: 1
+      alma: 2
       amazon: 2
       azure: 3
       cbl-mariner: 3
@@ -2040,15 +2083,16 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
     References:
-    - https://access.redhat.com/errata/RHSA-2024:3268
+    - https://access.redhat.com/errata/RHSA-2024:9331
     - https://access.redhat.com/security/cve/CVE-2024-26458
     - https://bugzilla.redhat.com/2266731
     - https://bugzilla.redhat.com/2266740
+    - https://bugzilla.redhat.com/2266742
     - https://bugzilla.redhat.com/show_bug.cgi?id=2266731
     - https://bugzilla.redhat.com/show_bug.cgi?id=2266740
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26458
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26461
-    - https://errata.almalinux.org/8/ALSA-2024-3268.html
+    - https://errata.almalinux.org/9/ALSA-2024-9331.html
     - https://errata.rockylinux.org/RLSA-2024:3268
     - https://github.com/LuMingYinDetect/krb5_defects/blob/main/krb5_detect_1.md
     - https://linux.oracle.com/cve/CVE-2024-26458.html
@@ -2082,7 +2126,7 @@
     CweIDs:
     - CWE-770
     VendorSeverity:
-      alma: 1
+      alma: 2
       amazon: 2
       azure: 3
       cbl-mariner: 3
@@ -2096,15 +2140,16 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
     References:
-    - https://access.redhat.com/errata/RHSA-2024:3268
+    - https://access.redhat.com/errata/RHSA-2024:9331
     - https://access.redhat.com/security/cve/CVE-2024-26461
     - https://bugzilla.redhat.com/2266731
     - https://bugzilla.redhat.com/2266740
+    - https://bugzilla.redhat.com/2266742
     - https://bugzilla.redhat.com/show_bug.cgi?id=2266731
     - https://bugzilla.redhat.com/show_bug.cgi?id=2266740
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26458
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26461
-    - https://errata.almalinux.org/8/ALSA-2024-3268.html
+    - https://errata.almalinux.org/9/ALSA-2024-9331.html
     - https://errata.rockylinux.org/RLSA-2024:3268
     - https://github.com/LuMingYinDetect/krb5_defects/blob/main/krb5_detect_2.md
     - https://linux.oracle.com/cve/CVE-2024-26461.html
@@ -2481,6 +2526,126 @@
     - https://www.cve.org/CVERecord?id=CVE-2017-11164
     PublishedDate: '2017-07-11T03:29:00.277Z'
     LastModifiedDate: '2023-11-07T02:38:10.98Z'
+  - VulnerabilityID: CVE-2024-11168
+    PkgID: libpython3.10@3.10.12-1~22.04.6
+    PkgName: libpython3.10
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libpython3.10@3.10.12-1~22.04.6?arch=amd64&distro=ubuntu-22.04
+      UID: 8917bbf9f8c77bc6
+    InstalledVersion: 3.10.12-1~22.04.6
+    Status: affected
+    Layer:
+      Digest: sha256:f1d953bd7bd833b0eecf3661fe85c9a0581c1ca8b2a761670044927e3c018c0b
+      DiffID: sha256:684d00f605e86b1b9fd6908d120e178197af9291c540dd9784471e417df530a9
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-11168
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'python: Improper validation of IPv6 and IPvFuture addresses'
+    Description: The urllib.parse.urlsplit() and urlparse() functions improperly validated bracketed hosts (`[]`), allowing hosts that weren't IPv6 or IPvFuture. This behavior was not conformant to RFC 3986 and potentially enabled SSRF if a URL is processed by more than one URL parser.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-918
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N
+        V3Score: 3.7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-11168
+    - https://github.com/python/cpython/commit/29f348e232e82938ba2165843c448c2b291504c5
+    - https://github.com/python/cpython/commit/b2171a2fd41416cf68afd67460578631d755a550
+    - https://github.com/python/cpython/issues/103848
+    - https://github.com/python/cpython/pull/103849
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/XPWB6XVZ5G5KGEI63M4AWLIEUF5BPH4T/
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-11168
+    - https://www.cve.org/CVERecord?id=CVE-2024-11168
+    PublishedDate: '2024-11-12T22:15:14.92Z'
+    LastModifiedDate: '2024-11-13T17:01:16.85Z'
+  - VulnerabilityID: CVE-2024-11168
+    PkgID: libpython3.10-minimal@3.10.12-1~22.04.6
+    PkgName: libpython3.10-minimal
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libpython3.10-minimal@3.10.12-1~22.04.6?arch=amd64&distro=ubuntu-22.04
+      UID: c8c66406c8508e84
+    InstalledVersion: 3.10.12-1~22.04.6
+    Status: affected
+    Layer:
+      Digest: sha256:f1d953bd7bd833b0eecf3661fe85c9a0581c1ca8b2a761670044927e3c018c0b
+      DiffID: sha256:684d00f605e86b1b9fd6908d120e178197af9291c540dd9784471e417df530a9
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-11168
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'python: Improper validation of IPv6 and IPvFuture addresses'
+    Description: The urllib.parse.urlsplit() and urlparse() functions improperly validated bracketed hosts (`[]`), allowing hosts that weren't IPv6 or IPvFuture. This behavior was not conformant to RFC 3986 and potentially enabled SSRF if a URL is processed by more than one URL parser.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-918
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N
+        V3Score: 3.7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-11168
+    - https://github.com/python/cpython/commit/29f348e232e82938ba2165843c448c2b291504c5
+    - https://github.com/python/cpython/commit/b2171a2fd41416cf68afd67460578631d755a550
+    - https://github.com/python/cpython/issues/103848
+    - https://github.com/python/cpython/pull/103849
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/XPWB6XVZ5G5KGEI63M4AWLIEUF5BPH4T/
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-11168
+    - https://www.cve.org/CVERecord?id=CVE-2024-11168
+    PublishedDate: '2024-11-12T22:15:14.92Z'
+    LastModifiedDate: '2024-11-13T17:01:16.85Z'
+  - VulnerabilityID: CVE-2024-11168
+    PkgID: libpython3.10-stdlib@3.10.12-1~22.04.6
+    PkgName: libpython3.10-stdlib
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libpython3.10-stdlib@3.10.12-1~22.04.6?arch=amd64&distro=ubuntu-22.04
+      UID: b32f632ec7ac78a9
+    InstalledVersion: 3.10.12-1~22.04.6
+    Status: affected
+    Layer:
+      Digest: sha256:f1d953bd7bd833b0eecf3661fe85c9a0581c1ca8b2a761670044927e3c018c0b
+      DiffID: sha256:684d00f605e86b1b9fd6908d120e178197af9291c540dd9784471e417df530a9
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-11168
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'python: Improper validation of IPv6 and IPvFuture addresses'
+    Description: The urllib.parse.urlsplit() and urlparse() functions improperly validated bracketed hosts (`[]`), allowing hosts that weren't IPv6 or IPvFuture. This behavior was not conformant to RFC 3986 and potentially enabled SSRF if a URL is processed by more than one URL parser.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-918
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N
+        V3Score: 3.7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-11168
+    - https://github.com/python/cpython/commit/29f348e232e82938ba2165843c448c2b291504c5
+    - https://github.com/python/cpython/commit/b2171a2fd41416cf68afd67460578631d755a550
+    - https://github.com/python/cpython/issues/103848
+    - https://github.com/python/cpython/pull/103849
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/XPWB6XVZ5G5KGEI63M4AWLIEUF5BPH4T/
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-11168
+    - https://www.cve.org/CVERecord?id=CVE-2024-11168
+    PublishedDate: '2024-11-12T22:15:14.92Z'
+    LastModifiedDate: '2024-11-13T17:01:16.85Z'
   - VulnerabilityID: CVE-2024-41996
     PkgID: libssl3@3.0.2-0ubuntu1.18
     PkgName: libssl3
@@ -3373,6 +3538,86 @@
     - https://www.trustwave.com/en-us/resources/security-resources/security-advisories/?fid=31797
     PublishedDate: '2023-04-14T22:15:07.68Z'
     LastModifiedDate: '2023-04-24T18:05:30.313Z'
+  - VulnerabilityID: CVE-2024-11168
+    PkgID: python3.10@3.10.12-1~22.04.6
+    PkgName: python3.10
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/python3.10@3.10.12-1~22.04.6?arch=amd64&distro=ubuntu-22.04
+      UID: ee748184120ae260
+    InstalledVersion: 3.10.12-1~22.04.6
+    Status: affected
+    Layer:
+      Digest: sha256:f1d953bd7bd833b0eecf3661fe85c9a0581c1ca8b2a761670044927e3c018c0b
+      DiffID: sha256:684d00f605e86b1b9fd6908d120e178197af9291c540dd9784471e417df530a9
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-11168
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'python: Improper validation of IPv6 and IPvFuture addresses'
+    Description: The urllib.parse.urlsplit() and urlparse() functions improperly validated bracketed hosts (`[]`), allowing hosts that weren't IPv6 or IPvFuture. This behavior was not conformant to RFC 3986 and potentially enabled SSRF if a URL is processed by more than one URL parser.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-918
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N
+        V3Score: 3.7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-11168
+    - https://github.com/python/cpython/commit/29f348e232e82938ba2165843c448c2b291504c5
+    - https://github.com/python/cpython/commit/b2171a2fd41416cf68afd67460578631d755a550
+    - https://github.com/python/cpython/issues/103848
+    - https://github.com/python/cpython/pull/103849
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/XPWB6XVZ5G5KGEI63M4AWLIEUF5BPH4T/
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-11168
+    - https://www.cve.org/CVERecord?id=CVE-2024-11168
+    PublishedDate: '2024-11-12T22:15:14.92Z'
+    LastModifiedDate: '2024-11-13T17:01:16.85Z'
+  - VulnerabilityID: CVE-2024-11168
+    PkgID: python3.10-minimal@3.10.12-1~22.04.6
+    PkgName: python3.10-minimal
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/python3.10-minimal@3.10.12-1~22.04.6?arch=amd64&distro=ubuntu-22.04
+      UID: ad705ba420502ed1
+    InstalledVersion: 3.10.12-1~22.04.6
+    Status: affected
+    Layer:
+      Digest: sha256:f1d953bd7bd833b0eecf3661fe85c9a0581c1ca8b2a761670044927e3c018c0b
+      DiffID: sha256:684d00f605e86b1b9fd6908d120e178197af9291c540dd9784471e417df530a9
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-11168
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'python: Improper validation of IPv6 and IPvFuture addresses'
+    Description: The urllib.parse.urlsplit() and urlparse() functions improperly validated bracketed hosts (`[]`), allowing hosts that weren't IPv6 or IPvFuture. This behavior was not conformant to RFC 3986 and potentially enabled SSRF if a URL is processed by more than one URL parser.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-918
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N
+        V3Score: 3.7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-11168
+    - https://github.com/python/cpython/commit/29f348e232e82938ba2165843c448c2b291504c5
+    - https://github.com/python/cpython/commit/b2171a2fd41416cf68afd67460578631d755a550
+    - https://github.com/python/cpython/issues/103848
+    - https://github.com/python/cpython/pull/103849
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/XPWB6XVZ5G5KGEI63M4AWLIEUF5BPH4T/
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-11168
+    - https://www.cve.org/CVERecord?id=CVE-2024-11168
+    PublishedDate: '2024-11-12T22:15:14.92Z'
+    LastModifiedDate: '2024-11-13T17:01:16.85Z'
   - VulnerabilityID: CVE-2023-7008
     PkgID: systemd@249.11-0ubuntu3.12
     PkgName: systemd
@@ -3697,7 +3942,7 @@
       PURL: pkg:npm/cross-spawn@7.0.3
       UID: dfeb48a3b04b3da5
     InstalledVersion: 7.0.3
-    FixedVersion: 7.0.5
+    FixedVersion: 7.0.5, 6.0.6
     Status: fixed
     Layer:
       Digest: sha256:f1d953bd7bd833b0eecf3661fe85c9a0581c1ca8b2a761670044927e3c018c0b
@@ -3723,8 +3968,11 @@
     - https://github.com/moxystudio/node-cross-spawn
     - https://github.com/moxystudio/node-cross-spawn/commit/5ff3a07d9add449021d806e45c4168203aa833ff
     - https://github.com/moxystudio/node-cross-spawn/commit/640d391fde65388548601d95abedccc12943374f
+    - https://github.com/moxystudio/node-cross-spawn/commit/d35c865b877d2f9ded7c1ed87521c2fdb689c8dd
+    - https://github.com/moxystudio/node-cross-spawn/issues/165
     - https://github.com/moxystudio/node-cross-spawn/pull/160
     - https://nvd.nist.gov/vuln/detail/CVE-2024-21538
+    - https://security.snyk.io/vuln/SNYK-JAVA-ORGWEBJARSNPM-8366349
     - https://security.snyk.io/vuln/SNYK-JS-CROSSSPAWN-8303230
     PublishedDate: '2024-11-08T05:15:06.453Z'
     LastModifiedDate: '2024-11-08T19:01:03.88Z'
@@ -3910,7 +4158,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       ghsa: 2
@@ -4368,15 +4616,18 @@
         V3Score: 6.7
     References:
     - http://www.openwall.com/lists/oss-security/2024/06/04/1
-    - https://access.redhat.com/errata/RHSA-2024:4212
+    - https://access.redhat.com/errata/RHSA-2024:9115
     - https://access.redhat.com/security/cve/CVE-2024-24790
+    - https://bugzilla.redhat.com/2279814
     - https://bugzilla.redhat.com/2292668
     - https://bugzilla.redhat.com/2292787
+    - https://bugzilla.redhat.com/2294000
+    - https://bugzilla.redhat.com/2295310
     - https://bugzilla.redhat.com/show_bug.cgi?id=2292668
     - https://bugzilla.redhat.com/show_bug.cgi?id=2292787
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24789
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24790
-    - https://errata.almalinux.org/9/ALSA-2024-4212.html
+    - https://errata.almalinux.org/9/ALSA-2024-9115.html
     - https://errata.rockylinux.org/RLSA-2024:4212
     - https://github.com/golang/go/commit/051bdf3fd12a40307606ff9381138039c5f452f0 (1.21)
     - https://github.com/golang/go/commit/12d5810cdb1f73cf23d7a86462143e9463317fca (1.22)
@@ -4713,15 +4964,13 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2024:8112
+    - https://access.redhat.com/errata/RHSA-2024:9473
     - https://access.redhat.com/security/cve/CVE-2024-34156
-    - https://bugzilla.redhat.com/2310527
     - https://bugzilla.redhat.com/2310528
-    - https://bugzilla.redhat.com/2310529
-    - https://bugzilla.redhat.com/2315691
+    - https://bugzilla.redhat.com/2318052
     - https://bugzilla.redhat.com/show_bug.cgi?id=2310528
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-34156
-    - https://errata.almalinux.org/9/ALSA-2024-8112.html
+    - https://errata.almalinux.org/9/ALSA-2024-9473.html
     - https://errata.rockylinux.org/RLSA-2024:7204
     - https://github.com/golang/go/commit/2092294f2b097c5828f4eace6c98a322c1510b01 (go1.22.7)
     - https://github.com/golang/go/commit/fa8ff1a46deb6c816304441ec6740ec112e19012 (go1.23.1)
@@ -4903,7 +5152,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -4972,7 +5221,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -5225,12 +5474,15 @@
         V3Score: 5.3
     References:
     - http://www.openwall.com/lists/oss-security/2024/03/08/4
-    - https://access.redhat.com/errata/RHSA-2024:3831
+    - https://access.redhat.com/errata/RHSA-2024:9135
     - https://access.redhat.com/security/cve/CVE-2023-45290
     - https://bugzilla.redhat.com/2268017
+    - https://bugzilla.redhat.com/2268022
+    - https://bugzilla.redhat.com/2279814
+    - https://bugzilla.redhat.com/2295310
     - https://bugzilla.redhat.com/show_bug.cgi?id=2268017
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45290
-    - https://errata.almalinux.org/9/ALSA-2024-3831.html
+    - https://errata.almalinux.org/9/ALSA-2024-9135.html
     - https://errata.rockylinux.org/RLSA-2024:3830
     - https://github.com/golang/go/commit/041a47712e765e94f86d841c3110c840e76d8f82 (go1.22.1)
     - https://github.com/golang/go/commit/bf80213b121074f4ad9b449410a4d13bae5e9be0 (go1.21.8)
@@ -5344,7 +5596,7 @@
       alma: 3
       amazon: 2
       bitnami: 3
-      cbl-mariner: 2
+      cbl-mariner: 3
       oracle-oval: 2
       photon: 3
       redhat: 2
@@ -5421,7 +5673,7 @@
     Description: If errors returned from MarshalJSON methods contain user controlled data, they may be used to break the contextual auto-escaping behavior of the html/template package, allowing for subsequent actions to inject unexpected content into templates.
     Severity: MEDIUM
     VendorSeverity:
-      alma: 3
+      alma: 2
       amazon: 2
       cbl-mariner: 2
       oracle-oval: 3
@@ -5434,15 +5686,12 @@
         V3Score: 6.5
     References:
     - http://www.openwall.com/lists/oss-security/2024/03/08/4
-    - https://access.redhat.com/errata/RHSA-2024:2562
+    - https://access.redhat.com/errata/RHSA-2024:9135
     - https://access.redhat.com/security/cve/CVE-2024-24785
-    - https://bugzilla.redhat.com/2262921
     - https://bugzilla.redhat.com/2268017
-    - https://bugzilla.redhat.com/2268018
-    - https://bugzilla.redhat.com/2268019
-    - https://bugzilla.redhat.com/2268021
     - https://bugzilla.redhat.com/2268022
-    - https://bugzilla.redhat.com/2268273
+    - https://bugzilla.redhat.com/2279814
+    - https://bugzilla.redhat.com/2295310
     - https://bugzilla.redhat.com/show_bug.cgi?id=2262921
     - https://bugzilla.redhat.com/show_bug.cgi?id=2268017
     - https://bugzilla.redhat.com/show_bug.cgi?id=2268018
@@ -5457,7 +5706,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24783
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24784
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24785
-    - https://errata.almalinux.org/9/ALSA-2024-2562.html
+    - https://errata.almalinux.org/9/ALSA-2024-9135.html
     - https://errata.rockylinux.org/RLSA-2024:2562
     - https://github.com/golang/go/commit/056b0edcb8c152152021eebf4cf42adbfbe77992 (go1.22.1)
     - https://github.com/golang/go/commit/3643147a29352ca2894fd5d0d2069bc4b4335a7e (go1.21.8)
@@ -5521,15 +5770,18 @@
         V3Score: 7.5
     References:
     - http://www.openwall.com/lists/oss-security/2024/06/04/1
-    - https://access.redhat.com/errata/RHSA-2024:4212
+    - https://access.redhat.com/errata/RHSA-2024:9115
     - https://access.redhat.com/security/cve/CVE-2024-24789
+    - https://bugzilla.redhat.com/2279814
     - https://bugzilla.redhat.com/2292668
     - https://bugzilla.redhat.com/2292787
+    - https://bugzilla.redhat.com/2294000
+    - https://bugzilla.redhat.com/2295310
     - https://bugzilla.redhat.com/show_bug.cgi?id=2292668
     - https://bugzilla.redhat.com/show_bug.cgi?id=2292787
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24789
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24790
-    - https://errata.almalinux.org/9/ALSA-2024-4212.html
+    - https://errata.almalinux.org/9/ALSA-2024-9115.html
     - https://errata.rockylinux.org/RLSA-2024:4212
     - https://github.com/golang/go/commit/c8e40338cf00f3c1d86c8fb23863ad67a4c72bcc (1.21)
     - https://github.com/golang/go/commit/cf501ac0c5fe351a8582d20b43562027927906e7 (1.22)
@@ -5569,7 +5821,7 @@
     Description: 'The net/http HTTP/1.1 client mishandled the case where a server responds to a request with an "Expect: 100-continue" header with a non-informational (200 or higher) status. This mishandling could leave a client connection in an invalid state, where the next request sent on the connection will fail. An attacker sending a request to a net/http/httputil.ReverseProxy proxy can exploit this mishandling to cause a denial of service by sending "Expect: 100-continue" requests which elicit a non-informational response from the backend. Each such request leaves the proxy with an invalid connection, and causes one subsequent request using that connection to fail.'
     Severity: MEDIUM
     VendorSeverity:
-      alma: 3
+      alma: 2
       amazon: 2
       azure: 3
       bitnami: 3
@@ -5586,12 +5838,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
     References:
-    - https://access.redhat.com/errata/RHSA-2024:6913
+    - https://access.redhat.com/errata/RHSA-2024:9135
     - https://access.redhat.com/security/cve/CVE-2024-24791
+    - https://bugzilla.redhat.com/2268017
+    - https://bugzilla.redhat.com/2268022
+    - https://bugzilla.redhat.com/2279814
     - https://bugzilla.redhat.com/2295310
-    - https://bugzilla.redhat.com/2310527
-    - https://bugzilla.redhat.com/2310528
-    - https://bugzilla.redhat.com/2310529
     - https://bugzilla.redhat.com/show_bug.cgi?id=2295310
     - https://bugzilla.redhat.com/show_bug.cgi?id=2310527
     - https://bugzilla.redhat.com/show_bug.cgi?id=2310528
@@ -5600,7 +5852,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-34155
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-34156
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-34158
-    - https://errata.almalinux.org/9/ALSA-2024-6913.html
+    - https://errata.almalinux.org/9/ALSA-2024-9135.html
     - https://errata.rockylinux.org/RLSA-2024:6913
     - https://go.dev/cl/591255
     - https://go.dev/issue/67555
@@ -5650,12 +5902,15 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
     References:
-    - https://access.redhat.com/errata/RHSA-2024:8112
+    - https://access.redhat.com/errata/RHSA-2024:9459
     - https://access.redhat.com/security/cve/CVE-2024-34155
     - https://bugzilla.redhat.com/2310527
     - https://bugzilla.redhat.com/2310528
     - https://bugzilla.redhat.com/2310529
     - https://bugzilla.redhat.com/2315691
+    - https://bugzilla.redhat.com/2315887
+    - https://bugzilla.redhat.com/2317458
+    - https://bugzilla.redhat.com/2317467
     - https://bugzilla.redhat.com/show_bug.cgi?id=2295310
     - https://bugzilla.redhat.com/show_bug.cgi?id=2310527
     - https://bugzilla.redhat.com/show_bug.cgi?id=2310528
@@ -5664,7 +5919,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-34155
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-34156
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-34158
-    - https://errata.almalinux.org/9/ALSA-2024-8112.html
+    - https://errata.almalinux.org/9/ALSA-2024-9459.html
     - https://errata.rockylinux.org/RLSA-2024:6913
     - https://github.com/golang/go/commit/53487e5477151ed75da50e50a0ba8f1ca64c00a3 (go1.23.1)
     - https://github.com/golang/go/commit/b232596139dbe96a62edbe3a2a203e856bf556eb (go1.22.7)
@@ -5720,12 +5975,15 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
     References:
-    - https://access.redhat.com/errata/RHSA-2024:8112
+    - https://access.redhat.com/errata/RHSA-2024:9459
     - https://access.redhat.com/security/cve/CVE-2024-34158
     - https://bugzilla.redhat.com/2310527
     - https://bugzilla.redhat.com/2310528
     - https://bugzilla.redhat.com/2310529
     - https://bugzilla.redhat.com/2315691
+    - https://bugzilla.redhat.com/2315887
+    - https://bugzilla.redhat.com/2317458
+    - https://bugzilla.redhat.com/2317467
     - https://bugzilla.redhat.com/show_bug.cgi?id=2295310
     - https://bugzilla.redhat.com/show_bug.cgi?id=2310527
     - https://bugzilla.redhat.com/show_bug.cgi?id=2310528
@@ -5734,7 +5992,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-34155
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-34156
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-34158
-    - https://errata.almalinux.org/9/ALSA-2024-8112.html
+    - https://errata.almalinux.org/9/ALSA-2024-9459.html
     - https://errata.rockylinux.org/RLSA-2024:6913
     - https://github.com/golang/go/commit/032ac075c20c01c6c35a672d1542d3e98eab84ea (go1.23.1)
     - https://github.com/golang/go/commit/d4c53812e6ce2ac368173d7fcd31d0ecfcffb002 (go1.22.7)
@@ -5934,7 +6192,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       ghsa: 2
@@ -6392,15 +6650,18 @@
         V3Score: 6.7
     References:
     - http://www.openwall.com/lists/oss-security/2024/06/04/1
-    - https://access.redhat.com/errata/RHSA-2024:4212
+    - https://access.redhat.com/errata/RHSA-2024:9115
     - https://access.redhat.com/security/cve/CVE-2024-24790
+    - https://bugzilla.redhat.com/2279814
     - https://bugzilla.redhat.com/2292668
     - https://bugzilla.redhat.com/2292787
+    - https://bugzilla.redhat.com/2294000
+    - https://bugzilla.redhat.com/2295310
     - https://bugzilla.redhat.com/show_bug.cgi?id=2292668
     - https://bugzilla.redhat.com/show_bug.cgi?id=2292787
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24789
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24790
-    - https://errata.almalinux.org/9/ALSA-2024-4212.html
+    - https://errata.almalinux.org/9/ALSA-2024-9115.html
     - https://errata.rockylinux.org/RLSA-2024:4212
     - https://github.com/golang/go/commit/051bdf3fd12a40307606ff9381138039c5f452f0 (1.21)
     - https://github.com/golang/go/commit/12d5810cdb1f73cf23d7a86462143e9463317fca (1.22)
@@ -6737,15 +6998,13 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2024:8112
+    - https://access.redhat.com/errata/RHSA-2024:9473
     - https://access.redhat.com/security/cve/CVE-2024-34156
-    - https://bugzilla.redhat.com/2310527
     - https://bugzilla.redhat.com/2310528
-    - https://bugzilla.redhat.com/2310529
-    - https://bugzilla.redhat.com/2315691
+    - https://bugzilla.redhat.com/2318052
     - https://bugzilla.redhat.com/show_bug.cgi?id=2310528
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-34156
-    - https://errata.almalinux.org/9/ALSA-2024-8112.html
+    - https://errata.almalinux.org/9/ALSA-2024-9473.html
     - https://errata.rockylinux.org/RLSA-2024:7204
     - https://github.com/golang/go/commit/2092294f2b097c5828f4eace6c98a322c1510b01 (go1.22.7)
     - https://github.com/golang/go/commit/fa8ff1a46deb6c816304441ec6740ec112e19012 (go1.23.1)
@@ -6927,7 +7186,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -6996,7 +7255,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -7249,12 +7508,15 @@
         V3Score: 5.3
     References:
     - http://www.openwall.com/lists/oss-security/2024/03/08/4
-    - https://access.redhat.com/errata/RHSA-2024:3831
+    - https://access.redhat.com/errata/RHSA-2024:9135
     - https://access.redhat.com/security/cve/CVE-2023-45290
     - https://bugzilla.redhat.com/2268017
+    - https://bugzilla.redhat.com/2268022
+    - https://bugzilla.redhat.com/2279814
+    - https://bugzilla.redhat.com/2295310
     - https://bugzilla.redhat.com/show_bug.cgi?id=2268017
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45290
-    - https://errata.almalinux.org/9/ALSA-2024-3831.html
+    - https://errata.almalinux.org/9/ALSA-2024-9135.html
     - https://errata.rockylinux.org/RLSA-2024:3830
     - https://github.com/golang/go/commit/041a47712e765e94f86d841c3110c840e76d8f82 (go1.22.1)
     - https://github.com/golang/go/commit/bf80213b121074f4ad9b449410a4d13bae5e9be0 (go1.21.8)
@@ -7368,7 +7630,7 @@
       alma: 3
       amazon: 2
       bitnami: 3
-      cbl-mariner: 2
+      cbl-mariner: 3
       oracle-oval: 2
       photon: 3
       redhat: 2
@@ -7445,7 +7707,7 @@
     Description: If errors returned from MarshalJSON methods contain user controlled data, they may be used to break the contextual auto-escaping behavior of the html/template package, allowing for subsequent actions to inject unexpected content into templates.
     Severity: MEDIUM
     VendorSeverity:
-      alma: 3
+      alma: 2
       amazon: 2
       cbl-mariner: 2
       oracle-oval: 3
@@ -7458,15 +7720,12 @@
         V3Score: 6.5
     References:
     - http://www.openwall.com/lists/oss-security/2024/03/08/4
-    - https://access.redhat.com/errata/RHSA-2024:2562
+    - https://access.redhat.com/errata/RHSA-2024:9135
     - https://access.redhat.com/security/cve/CVE-2024-24785
-    - https://bugzilla.redhat.com/2262921
     - https://bugzilla.redhat.com/2268017
-    - https://bugzilla.redhat.com/2268018
-    - https://bugzilla.redhat.com/2268019
-    - https://bugzilla.redhat.com/2268021
     - https://bugzilla.redhat.com/2268022
-    - https://bugzilla.redhat.com/2268273
+    - https://bugzilla.redhat.com/2279814
+    - https://bugzilla.redhat.com/2295310
     - https://bugzilla.redhat.com/show_bug.cgi?id=2262921
     - https://bugzilla.redhat.com/show_bug.cgi?id=2268017
     - https://bugzilla.redhat.com/show_bug.cgi?id=2268018
@@ -7481,7 +7740,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24783
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24784
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24785
-    - https://errata.almalinux.org/9/ALSA-2024-2562.html
+    - https://errata.almalinux.org/9/ALSA-2024-9135.html
     - https://errata.rockylinux.org/RLSA-2024:2562
     - https://github.com/golang/go/commit/056b0edcb8c152152021eebf4cf42adbfbe77992 (go1.22.1)
     - https://github.com/golang/go/commit/3643147a29352ca2894fd5d0d2069bc4b4335a7e (go1.21.8)
@@ -7545,15 +7804,18 @@
         V3Score: 7.5
     References:
     - http://www.openwall.com/lists/oss-security/2024/06/04/1
-    - https://access.redhat.com/errata/RHSA-2024:4212
+    - https://access.redhat.com/errata/RHSA-2024:9115
     - https://access.redhat.com/security/cve/CVE-2024-24789
+    - https://bugzilla.redhat.com/2279814
     - https://bugzilla.redhat.com/2292668
     - https://bugzilla.redhat.com/2292787
+    - https://bugzilla.redhat.com/2294000
+    - https://bugzilla.redhat.com/2295310
     - https://bugzilla.redhat.com/show_bug.cgi?id=2292668
     - https://bugzilla.redhat.com/show_bug.cgi?id=2292787
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24789
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24790
-    - https://errata.almalinux.org/9/ALSA-2024-4212.html
+    - https://errata.almalinux.org/9/ALSA-2024-9115.html
     - https://errata.rockylinux.org/RLSA-2024:4212
     - https://github.com/golang/go/commit/c8e40338cf00f3c1d86c8fb23863ad67a4c72bcc (1.21)
     - https://github.com/golang/go/commit/cf501ac0c5fe351a8582d20b43562027927906e7 (1.22)
@@ -7593,7 +7855,7 @@
     Description: 'The net/http HTTP/1.1 client mishandled the case where a server responds to a request with an "Expect: 100-continue" header with a non-informational (200 or higher) status. This mishandling could leave a client connection in an invalid state, where the next request sent on the connection will fail. An attacker sending a request to a net/http/httputil.ReverseProxy proxy can exploit this mishandling to cause a denial of service by sending "Expect: 100-continue" requests which elicit a non-informational response from the backend. Each such request leaves the proxy with an invalid connection, and causes one subsequent request using that connection to fail.'
     Severity: MEDIUM
     VendorSeverity:
-      alma: 3
+      alma: 2
       amazon: 2
       azure: 3
       bitnami: 3
@@ -7610,12 +7872,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
     References:
-    - https://access.redhat.com/errata/RHSA-2024:6913
+    - https://access.redhat.com/errata/RHSA-2024:9135
     - https://access.redhat.com/security/cve/CVE-2024-24791
+    - https://bugzilla.redhat.com/2268017
+    - https://bugzilla.redhat.com/2268022
+    - https://bugzilla.redhat.com/2279814
     - https://bugzilla.redhat.com/2295310
-    - https://bugzilla.redhat.com/2310527
-    - https://bugzilla.redhat.com/2310528
-    - https://bugzilla.redhat.com/2310529
     - https://bugzilla.redhat.com/show_bug.cgi?id=2295310
     - https://bugzilla.redhat.com/show_bug.cgi?id=2310527
     - https://bugzilla.redhat.com/show_bug.cgi?id=2310528
@@ -7624,7 +7886,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-34155
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-34156
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-34158
-    - https://errata.almalinux.org/9/ALSA-2024-6913.html
+    - https://errata.almalinux.org/9/ALSA-2024-9135.html
     - https://errata.rockylinux.org/RLSA-2024:6913
     - https://go.dev/cl/591255
     - https://go.dev/issue/67555
@@ -7674,12 +7936,15 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
     References:
-    - https://access.redhat.com/errata/RHSA-2024:8112
+    - https://access.redhat.com/errata/RHSA-2024:9459
     - https://access.redhat.com/security/cve/CVE-2024-34155
     - https://bugzilla.redhat.com/2310527
     - https://bugzilla.redhat.com/2310528
     - https://bugzilla.redhat.com/2310529
     - https://bugzilla.redhat.com/2315691
+    - https://bugzilla.redhat.com/2315887
+    - https://bugzilla.redhat.com/2317458
+    - https://bugzilla.redhat.com/2317467
     - https://bugzilla.redhat.com/show_bug.cgi?id=2295310
     - https://bugzilla.redhat.com/show_bug.cgi?id=2310527
     - https://bugzilla.redhat.com/show_bug.cgi?id=2310528
@@ -7688,7 +7953,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-34155
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-34156
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-34158
-    - https://errata.almalinux.org/9/ALSA-2024-8112.html
+    - https://errata.almalinux.org/9/ALSA-2024-9459.html
     - https://errata.rockylinux.org/RLSA-2024:6913
     - https://github.com/golang/go/commit/53487e5477151ed75da50e50a0ba8f1ca64c00a3 (go1.23.1)
     - https://github.com/golang/go/commit/b232596139dbe96a62edbe3a2a203e856bf556eb (go1.22.7)
@@ -7744,12 +8009,15 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
     References:
-    - https://access.redhat.com/errata/RHSA-2024:8112
+    - https://access.redhat.com/errata/RHSA-2024:9459
     - https://access.redhat.com/security/cve/CVE-2024-34158
     - https://bugzilla.redhat.com/2310527
     - https://bugzilla.redhat.com/2310528
     - https://bugzilla.redhat.com/2310529
     - https://bugzilla.redhat.com/2315691
+    - https://bugzilla.redhat.com/2315887
+    - https://bugzilla.redhat.com/2317458
+    - https://bugzilla.redhat.com/2317467
     - https://bugzilla.redhat.com/show_bug.cgi?id=2295310
     - https://bugzilla.redhat.com/show_bug.cgi?id=2310527
     - https://bugzilla.redhat.com/show_bug.cgi?id=2310528
@@ -7758,7 +8026,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-34155
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-34156
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-34158
-    - https://errata.almalinux.org/9/ALSA-2024-8112.html
+    - https://errata.almalinux.org/9/ALSA-2024-9459.html
     - https://errata.rockylinux.org/RLSA-2024:6913
     - https://github.com/golang/go/commit/032ac075c20c01c6c35a672d1542d3e98eab84ea (go1.23.1)
     - https://github.com/golang/go/commit/d4c53812e6ce2ac368173d7fcd31d0ecfcffb002 (go1.22.7)
