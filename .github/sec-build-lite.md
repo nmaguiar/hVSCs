@@ -1621,12 +1621,13 @@
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:
 │                        │      │                           │           N/A:N 
 │                        │      │                           ╰ V3Score : 4.7 
-│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-10041 
-│                        │      │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2319212 
-│                        │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-10041 
-│                        │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2024-10041 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2024:9941 
+│                        │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2024-10041 
+│                        │      │                  ├ [2]: https://bugzilla.redhat.com/show_bug.cgi?id=2319212 
+│                        │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2024-10041 
+│                        │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2024-10041 
 │                        │      ├ PublishedDate   : 2024-10-23T14:15:03.97Z 
-│                        │      ╰ LastModifiedDate: 2024-11-12T21:15:10.467Z 
+│                        │      ╰ LastModifiedDate: 2024-11-25T00:15:03.593Z 
 │                        ├ [33] ╭ VulnerabilityID : CVE-2024-10963 
 │                        │      ├ PkgID           : libpam-modules@1.5.3-5ubuntu5.1 
 │                        │      ├ PkgName         : libpam-modules 
@@ -1699,12 +1700,13 @@
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:
 │                        │      │                           │           N/A:N 
 │                        │      │                           ╰ V3Score : 4.7 
-│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-10041 
-│                        │      │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2319212 
-│                        │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-10041 
-│                        │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2024-10041 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2024:9941 
+│                        │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2024-10041 
+│                        │      │                  ├ [2]: https://bugzilla.redhat.com/show_bug.cgi?id=2319212 
+│                        │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2024-10041 
+│                        │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2024-10041 
 │                        │      ├ PublishedDate   : 2024-10-23T14:15:03.97Z 
-│                        │      ╰ LastModifiedDate: 2024-11-12T21:15:10.467Z 
+│                        │      ╰ LastModifiedDate: 2024-11-25T00:15:03.593Z 
 │                        ├ [35] ╭ VulnerabilityID : CVE-2024-10963 
 │                        │      ├ PkgID           : libpam-modules-bin@1.5.3-5ubuntu5.1 
 │                        │      ├ PkgName         : libpam-modules-bin 
@@ -1777,12 +1779,13 @@
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:
 │                        │      │                           │           N/A:N 
 │                        │      │                           ╰ V3Score : 4.7 
-│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-10041 
-│                        │      │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2319212 
-│                        │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-10041 
-│                        │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2024-10041 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2024:9941 
+│                        │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2024-10041 
+│                        │      │                  ├ [2]: https://bugzilla.redhat.com/show_bug.cgi?id=2319212 
+│                        │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2024-10041 
+│                        │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2024-10041 
 │                        │      ├ PublishedDate   : 2024-10-23T14:15:03.97Z 
-│                        │      ╰ LastModifiedDate: 2024-11-12T21:15:10.467Z 
+│                        │      ╰ LastModifiedDate: 2024-11-25T00:15:03.593Z 
 │                        ├ [37] ╭ VulnerabilityID : CVE-2024-10963 
 │                        │      ├ PkgID           : libpam-runtime@1.5.3-5ubuntu5.1 
 │                        │      ├ PkgName         : libpam-runtime 
@@ -1855,12 +1858,13 @@
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:
 │                        │      │                           │           N/A:N 
 │                        │      │                           ╰ V3Score : 4.7 
-│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-10041 
-│                        │      │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2319212 
-│                        │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-10041 
-│                        │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2024-10041 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2024:9941 
+│                        │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2024-10041 
+│                        │      │                  ├ [2]: https://bugzilla.redhat.com/show_bug.cgi?id=2319212 
+│                        │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2024-10041 
+│                        │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2024-10041 
 │                        │      ├ PublishedDate   : 2024-10-23T14:15:03.97Z 
-│                        │      ╰ LastModifiedDate: 2024-11-12T21:15:10.467Z 
+│                        │      ╰ LastModifiedDate: 2024-11-25T00:15:03.593Z 
 │                        ├ [39] ╭ VulnerabilityID : CVE-2024-10963 
 │                        │      ├ PkgID           : libpam0g@1.5.3-5ubuntu5.1 
 │                        │      ├ PkgName         : libpam0g 
