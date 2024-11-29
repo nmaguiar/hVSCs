@@ -1568,6 +1568,7 @@
     CweIDs:
     - CWE-922
     VendorSeverity:
+      oracle-oval: 3
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -1575,13 +1576,16 @@
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N
         V3Score: 4.7
     References:
+    - https://access.redhat.com/errata/RHSA-2024:10379
     - https://access.redhat.com/errata/RHSA-2024:9941
     - https://access.redhat.com/security/cve/CVE-2024-10041
     - https://bugzilla.redhat.com/show_bug.cgi?id=2319212
+    - https://linux.oracle.com/cve/CVE-2024-10041.html
+    - https://linux.oracle.com/errata/ELSA-2024-10379.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-10041
     - https://www.cve.org/CVERecord?id=CVE-2024-10041
     PublishedDate: '2024-10-23T14:15:03.97Z'
-    LastModifiedDate: '2024-11-25T00:15:03.593Z'
+    LastModifiedDate: '2024-11-26T16:15:09.23Z'
   - VulnerabilityID: CVE-2024-10963
     PkgID: libpam-modules@1.5.3-5ubuntu5.1
     PkgName: libpam-modules
@@ -1605,6 +1609,7 @@
     CweIDs:
     - CWE-287
     VendorSeverity:
+      oracle-oval: 3
       redhat: 3
       ubuntu: 2
     CVSS:
@@ -1614,6 +1619,8 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2024-10963
     - https://bugzilla.redhat.com/show_bug.cgi?id=2324291
+    - https://linux.oracle.com/cve/CVE-2024-10963.html
+    - https://linux.oracle.com/errata/ELSA-2024-10379.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-10963
     - https://www.cve.org/CVERecord?id=CVE-2024-10963
     PublishedDate: '2024-11-07T16:15:17.15Z'
@@ -1641,6 +1648,7 @@
     CweIDs:
     - CWE-922
     VendorSeverity:
+      oracle-oval: 3
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -1648,13 +1656,16 @@
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N
         V3Score: 4.7
     References:
+    - https://access.redhat.com/errata/RHSA-2024:10379
     - https://access.redhat.com/errata/RHSA-2024:9941
     - https://access.redhat.com/security/cve/CVE-2024-10041
     - https://bugzilla.redhat.com/show_bug.cgi?id=2319212
+    - https://linux.oracle.com/cve/CVE-2024-10041.html
+    - https://linux.oracle.com/errata/ELSA-2024-10379.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-10041
     - https://www.cve.org/CVERecord?id=CVE-2024-10041
     PublishedDate: '2024-10-23T14:15:03.97Z'
-    LastModifiedDate: '2024-11-25T00:15:03.593Z'
+    LastModifiedDate: '2024-11-26T16:15:09.23Z'
   - VulnerabilityID: CVE-2024-10963
     PkgID: libpam-modules-bin@1.5.3-5ubuntu5.1
     PkgName: libpam-modules-bin
@@ -1678,6 +1689,7 @@
     CweIDs:
     - CWE-287
     VendorSeverity:
+      oracle-oval: 3
       redhat: 3
       ubuntu: 2
     CVSS:
@@ -1687,6 +1699,8 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2024-10963
     - https://bugzilla.redhat.com/show_bug.cgi?id=2324291
+    - https://linux.oracle.com/cve/CVE-2024-10963.html
+    - https://linux.oracle.com/errata/ELSA-2024-10379.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-10963
     - https://www.cve.org/CVERecord?id=CVE-2024-10963
     PublishedDate: '2024-11-07T16:15:17.15Z'
@@ -1714,6 +1728,7 @@
     CweIDs:
     - CWE-922
     VendorSeverity:
+      oracle-oval: 3
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -1721,13 +1736,16 @@
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N
         V3Score: 4.7
     References:
+    - https://access.redhat.com/errata/RHSA-2024:10379
     - https://access.redhat.com/errata/RHSA-2024:9941
     - https://access.redhat.com/security/cve/CVE-2024-10041
     - https://bugzilla.redhat.com/show_bug.cgi?id=2319212
+    - https://linux.oracle.com/cve/CVE-2024-10041.html
+    - https://linux.oracle.com/errata/ELSA-2024-10379.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-10041
     - https://www.cve.org/CVERecord?id=CVE-2024-10041
     PublishedDate: '2024-10-23T14:15:03.97Z'
-    LastModifiedDate: '2024-11-25T00:15:03.593Z'
+    LastModifiedDate: '2024-11-26T16:15:09.23Z'
   - VulnerabilityID: CVE-2024-10963
     PkgID: libpam-runtime@1.5.3-5ubuntu5.1
     PkgName: libpam-runtime
@@ -1751,6 +1769,7 @@
     CweIDs:
     - CWE-287
     VendorSeverity:
+      oracle-oval: 3
       redhat: 3
       ubuntu: 2
     CVSS:
@@ -1760,6 +1779,8 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2024-10963
     - https://bugzilla.redhat.com/show_bug.cgi?id=2324291
+    - https://linux.oracle.com/cve/CVE-2024-10963.html
+    - https://linux.oracle.com/errata/ELSA-2024-10379.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-10963
     - https://www.cve.org/CVERecord?id=CVE-2024-10963
     PublishedDate: '2024-11-07T16:15:17.15Z'
@@ -1787,6 +1808,7 @@
     CweIDs:
     - CWE-922
     VendorSeverity:
+      oracle-oval: 3
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -1794,13 +1816,16 @@
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N
         V3Score: 4.7
     References:
+    - https://access.redhat.com/errata/RHSA-2024:10379
     - https://access.redhat.com/errata/RHSA-2024:9941
     - https://access.redhat.com/security/cve/CVE-2024-10041
     - https://bugzilla.redhat.com/show_bug.cgi?id=2319212
+    - https://linux.oracle.com/cve/CVE-2024-10041.html
+    - https://linux.oracle.com/errata/ELSA-2024-10379.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-10041
     - https://www.cve.org/CVERecord?id=CVE-2024-10041
     PublishedDate: '2024-10-23T14:15:03.97Z'
-    LastModifiedDate: '2024-11-25T00:15:03.593Z'
+    LastModifiedDate: '2024-11-26T16:15:09.23Z'
   - VulnerabilityID: CVE-2024-10963
     PkgID: libpam0g@1.5.3-5ubuntu5.1
     PkgName: libpam0g
@@ -1824,6 +1849,7 @@
     CweIDs:
     - CWE-287
     VendorSeverity:
+      oracle-oval: 3
       redhat: 3
       ubuntu: 2
     CVSS:
@@ -1833,6 +1859,8 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2024-10963
     - https://bugzilla.redhat.com/show_bug.cgi?id=2324291
+    - https://linux.oracle.com/cve/CVE-2024-10963.html
+    - https://linux.oracle.com/errata/ELSA-2024-10379.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-10963
     - https://www.cve.org/CVERecord?id=CVE-2024-10963
     PublishedDate: '2024-11-07T16:15:17.15Z'
@@ -2015,6 +2043,132 @@
     - https://www.cve.org/CVERecord?id=CVE-2021-45261
     PublishedDate: '2021-12-22T18:15:08.1Z'
     LastModifiedDate: '2021-12-28T14:24:34.243Z'
+  - VulnerabilityID: CVE-2024-47814
+    PkgID: vim@2:9.1.0016-1ubuntu7.4
+    PkgName: vim
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/vim@9.1.0016-1ubuntu7.4?arch=amd64&distro=ubuntu-24.04&epoch=2
+      UID: 17d0bd625a6fb1a5
+    InstalledVersion: 2:9.1.0016-1ubuntu7.4
+    FixedVersion: 2:9.1.0016-1ubuntu7.5
+    Status: fixed
+    Layer:
+      Digest: sha256:edff4d29d88e943efd68842fc71002ac79a03925e16f392fc331e2b5c372e32f
+      DiffID: sha256:057e6ef98b3db2555d53d779e80829437ea8c705fa970ba58bea67d017aefdb5
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-47814
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'vim: use-after-free when closing buffers in Vim'
+    Description: Vim is an open source, command line text editor. A use-after-free was found in Vim < 9.1.0764. When closing a buffer (visible in a window) a BufWinLeave auto command can cause an use-after-free if this auto command happens to re-open the same buffer in a new split window. Impact is low since the user must have intentionally set up such a strange auto command and run some buffer unload commands. However this may lead to a crash. This issue has been addressed in version 9.1.0764 and all users are advised to upgrade. There are no known workarounds for this vulnerability.
+    Severity: LOW
+    CweIDs:
+    - CWE-416
+    VendorSeverity:
+      amazon: 2
+      azure: 1
+      photon: 1
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:N/I:L/A:L
+        V3Score: 3.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-47814
+    - https://github.com/vim/vim/commit/51b62387be93c65fa56bbabe1c3
+    - https://github.com/vim/vim/security/advisories/GHSA-rj48-v4mq-j4vg
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-47814
+    - https://ubuntu.com/security/notices/USN-7131-1
+    - https://www.cve.org/CVERecord?id=CVE-2024-47814
+    PublishedDate: '2024-10-07T22:15:03.657Z'
+    LastModifiedDate: '2024-10-10T12:57:21.987Z'
+  - VulnerabilityID: CVE-2024-47814
+    PkgID: vim-common@2:9.1.0016-1ubuntu7.4
+    PkgName: vim-common
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/vim-common@9.1.0016-1ubuntu7.4?arch=all&distro=ubuntu-24.04&epoch=2
+      UID: 301b80483f775c31
+    InstalledVersion: 2:9.1.0016-1ubuntu7.4
+    FixedVersion: 2:9.1.0016-1ubuntu7.5
+    Status: fixed
+    Layer:
+      Digest: sha256:edff4d29d88e943efd68842fc71002ac79a03925e16f392fc331e2b5c372e32f
+      DiffID: sha256:057e6ef98b3db2555d53d779e80829437ea8c705fa970ba58bea67d017aefdb5
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-47814
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'vim: use-after-free when closing buffers in Vim'
+    Description: Vim is an open source, command line text editor. A use-after-free was found in Vim < 9.1.0764. When closing a buffer (visible in a window) a BufWinLeave auto command can cause an use-after-free if this auto command happens to re-open the same buffer in a new split window. Impact is low since the user must have intentionally set up such a strange auto command and run some buffer unload commands. However this may lead to a crash. This issue has been addressed in version 9.1.0764 and all users are advised to upgrade. There are no known workarounds for this vulnerability.
+    Severity: LOW
+    CweIDs:
+    - CWE-416
+    VendorSeverity:
+      amazon: 2
+      azure: 1
+      photon: 1
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:N/I:L/A:L
+        V3Score: 3.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-47814
+    - https://github.com/vim/vim/commit/51b62387be93c65fa56bbabe1c3
+    - https://github.com/vim/vim/security/advisories/GHSA-rj48-v4mq-j4vg
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-47814
+    - https://ubuntu.com/security/notices/USN-7131-1
+    - https://www.cve.org/CVERecord?id=CVE-2024-47814
+    PublishedDate: '2024-10-07T22:15:03.657Z'
+    LastModifiedDate: '2024-10-10T12:57:21.987Z'
+  - VulnerabilityID: CVE-2024-47814
+    PkgID: vim-runtime@2:9.1.0016-1ubuntu7.4
+    PkgName: vim-runtime
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/vim-runtime@9.1.0016-1ubuntu7.4?arch=all&distro=ubuntu-24.04&epoch=2
+      UID: ffeda0006dd5b87d
+    InstalledVersion: 2:9.1.0016-1ubuntu7.4
+    FixedVersion: 2:9.1.0016-1ubuntu7.5
+    Status: fixed
+    Layer:
+      Digest: sha256:edff4d29d88e943efd68842fc71002ac79a03925e16f392fc331e2b5c372e32f
+      DiffID: sha256:057e6ef98b3db2555d53d779e80829437ea8c705fa970ba58bea67d017aefdb5
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-47814
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'vim: use-after-free when closing buffers in Vim'
+    Description: Vim is an open source, command line text editor. A use-after-free was found in Vim < 9.1.0764. When closing a buffer (visible in a window) a BufWinLeave auto command can cause an use-after-free if this auto command happens to re-open the same buffer in a new split window. Impact is low since the user must have intentionally set up such a strange auto command and run some buffer unload commands. However this may lead to a crash. This issue has been addressed in version 9.1.0764 and all users are advised to upgrade. There are no known workarounds for this vulnerability.
+    Severity: LOW
+    CweIDs:
+    - CWE-416
+    VendorSeverity:
+      amazon: 2
+      azure: 1
+      photon: 1
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:N/I:L/A:L
+        V3Score: 3.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-47814
+    - https://github.com/vim/vim/commit/51b62387be93c65fa56bbabe1c3
+    - https://github.com/vim/vim/security/advisories/GHSA-rj48-v4mq-j4vg
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-47814
+    - https://ubuntu.com/security/notices/USN-7131-1
+    - https://www.cve.org/CVERecord?id=CVE-2024-47814
+    PublishedDate: '2024-10-07T22:15:03.657Z'
+    LastModifiedDate: '2024-10-10T12:57:21.987Z'
   - VulnerabilityID: CVE-2021-31879
     PkgID: wget@1.21.4-1ubuntu4.1
     PkgName: wget
@@ -2062,6 +2216,48 @@
     - https://www.cve.org/CVERecord?id=CVE-2021-31879
     PublishedDate: '2021-04-29T05:15:08.707Z'
     LastModifiedDate: '2022-05-13T20:52:24.793Z'
+  - VulnerabilityID: CVE-2024-47814
+    PkgID: xxd@2:9.1.0016-1ubuntu7.4
+    PkgName: xxd
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/xxd@9.1.0016-1ubuntu7.4?arch=amd64&distro=ubuntu-24.04&epoch=2
+      UID: 641bf78dca988f55
+    InstalledVersion: 2:9.1.0016-1ubuntu7.4
+    FixedVersion: 2:9.1.0016-1ubuntu7.5
+    Status: fixed
+    Layer:
+      Digest: sha256:edff4d29d88e943efd68842fc71002ac79a03925e16f392fc331e2b5c372e32f
+      DiffID: sha256:057e6ef98b3db2555d53d779e80829437ea8c705fa970ba58bea67d017aefdb5
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-47814
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'vim: use-after-free when closing buffers in Vim'
+    Description: Vim is an open source, command line text editor. A use-after-free was found in Vim < 9.1.0764. When closing a buffer (visible in a window) a BufWinLeave auto command can cause an use-after-free if this auto command happens to re-open the same buffer in a new split window. Impact is low since the user must have intentionally set up such a strange auto command and run some buffer unload commands. However this may lead to a crash. This issue has been addressed in version 9.1.0764 and all users are advised to upgrade. There are no known workarounds for this vulnerability.
+    Severity: LOW
+    CweIDs:
+    - CWE-416
+    VendorSeverity:
+      amazon: 2
+      azure: 1
+      photon: 1
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:N/I:L/A:L
+        V3Score: 3.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-47814
+    - https://github.com/vim/vim/commit/51b62387be93c65fa56bbabe1c3
+    - https://github.com/vim/vim/security/advisories/GHSA-rj48-v4mq-j4vg
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-47814
+    - https://ubuntu.com/security/notices/USN-7131-1
+    - https://www.cve.org/CVERecord?id=CVE-2024-47814
+    PublishedDate: '2024-10-07T22:15:03.657Z'
+    LastModifiedDate: '2024-10-10T12:57:21.987Z'
 - Target: Java
   Class: lang-pkgs
   Type: jar
@@ -3015,6 +3211,66 @@
     - https://www.kb.cert.org/vuls/id/421644
     PublishedDate: '2024-04-04T21:15:16.113Z'
     LastModifiedDate: '2024-08-26T21:35:02.457Z'
+  - VulnerabilityID: CVE-2024-34156
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@v1.20.5
+      UID: 693f382acd2c1792
+    InstalledVersion: v1.20.5
+    FixedVersion: 1.22.7, 1.23.1
+    Status: fixed
+    Layer:
+      Digest: sha256:edff4d29d88e943efd68842fc71002ac79a03925e16f392fc331e2b5c372e32f
+      DiffID: sha256:057e6ef98b3db2555d53d779e80829437ea8c705fa970ba58bea67d017aefdb5
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-34156
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: 'encoding/gob: golang: Calling Decoder.Decode on a message which contains deeply nested structures can cause a panic due to stack exhaustion'
+    Description: Calling Decoder.Decode on a message which contains deeply nested structures can cause a panic due to stack exhaustion. This is a follow-up to CVE-2022-30635.
+    Severity: HIGH
+    VendorSeverity:
+      alma: 3
+      amazon: 3
+      bitnami: 3
+      oracle-oval: 3
+      photon: 3
+      redhat: 3
+      rocky: 3
+      ubuntu: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/errata/RHSA-2024:9473
+    - https://access.redhat.com/security/cve/CVE-2024-34156
+    - https://bugzilla.redhat.com/2310528
+    - https://bugzilla.redhat.com/2318052
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2310528
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-34156
+    - https://errata.almalinux.org/9/ALSA-2024-9473.html
+    - https://errata.rockylinux.org/RLSA-2024:7204
+    - https://github.com/golang/go/commit/2092294f2b097c5828f4eace6c98a322c1510b01 (go1.22.7)
+    - https://github.com/golang/go/commit/fa8ff1a46deb6c816304441ec6740ec112e19012 (go1.23.1)
+    - https://go.dev/cl/611239
+    - https://go.dev/issue/69139
+    - https://groups.google.com/g/golang-announce/c/K-cEzDeCtpc
+    - https://groups.google.com/g/golang-dev/c/S9POB9NCTdk
+    - https://linux.oracle.com/cve/CVE-2024-34156.html
+    - https://linux.oracle.com/errata/ELSA-2024-9473.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-34156
+    - https://pkg.go.dev/vuln/GO-2024-3106
+    - https://ubuntu.com/security/notices/USN-7081-1
+    - https://ubuntu.com/security/notices/USN-7109-1
+    - https://ubuntu.com/security/notices/USN-7111-1
+    - https://www.cve.org/CVERecord?id=CVE-2024-34156
+    PublishedDate: '2024-09-06T21:15:12.02Z'
+    LastModifiedDate: '2024-09-09T15:35:07.573Z'
   - VulnerabilityID: CVE-2023-29406
     PkgName: stdlib
     PkgIdentifier:
@@ -3910,7 +4166,7 @@
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
-    Title: Calling any of the Parse functions on Go source code which contains de ...
+    Title: 'go/parser: golang: Calling any of the Parse functions containing deeply nested literals can cause a panic/stack exhaustion'
     Description: Calling any of the Parse functions on Go source code which contains deeply nested literals can cause a panic due to stack exhaustion.
     Severity: MEDIUM
     VendorSeverity:
@@ -3918,14 +4174,19 @@
       amazon: 3
       bitnami: 2
       oracle-oval: 3
+      redhat: 2
       rocky: 3
       ubuntu: 2
     CVSS:
       bitnami:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L
         V3Score: 4.3
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.9
     References:
     - https://access.redhat.com/errata/RHSA-2024:9459
+    - https://access.redhat.com/security/cve/CVE-2024-34155
     - https://bugzilla.redhat.com/2310527
     - https://bugzilla.redhat.com/2310528
     - https://bugzilla.redhat.com/2310529
@@ -3951,6 +4212,7 @@
     - https://groups.google.com/g/golang-dev/c/S9POB9NCTdk
     - https://linux.oracle.com/cve/CVE-2024-34155.html
     - https://linux.oracle.com/errata/ELSA-2024-9459.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-34155
     - https://pkg.go.dev/vuln/GO-2024-3105
     - https://ubuntu.com/security/notices/USN-7081-1
     - https://ubuntu.com/security/notices/USN-7109-1
@@ -3958,60 +4220,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-34155
     PublishedDate: '2024-09-06T21:15:11.947Z'
     LastModifiedDate: '2024-11-04T17:35:17.887Z'
-  - VulnerabilityID: CVE-2024-34156
-    PkgName: stdlib
-    PkgIdentifier:
-      PURL: pkg:golang/stdlib@v1.20.5
-      UID: 693f382acd2c1792
-    InstalledVersion: v1.20.5
-    FixedVersion: 1.22.7, 1.23.1
-    Status: fixed
-    Layer:
-      Digest: sha256:edff4d29d88e943efd68842fc71002ac79a03925e16f392fc331e2b5c372e32f
-      DiffID: sha256:057e6ef98b3db2555d53d779e80829437ea8c705fa970ba58bea67d017aefdb5
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-34156
-    DataSource:
-      ID: govulndb
-      Name: The Go Vulnerability Database
-      URL: https://pkg.go.dev/vuln/
-    Title: Calling Decoder.Decode on a message which contains deeply nested struc ...
-    Description: Calling Decoder.Decode on a message which contains deeply nested structures can cause a panic due to stack exhaustion. This is a follow-up to CVE-2022-30635.
-    Severity: MEDIUM
-    VendorSeverity:
-      alma: 3
-      amazon: 3
-      bitnami: 3
-      oracle-oval: 3
-      photon: 3
-      rocky: 3
-      ubuntu: 2
-    CVSS:
-      bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
-    References:
-    - https://access.redhat.com/errata/RHSA-2024:9473
-    - https://bugzilla.redhat.com/2310528
-    - https://bugzilla.redhat.com/2318052
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2310528
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-34156
-    - https://errata.almalinux.org/9/ALSA-2024-9473.html
-    - https://errata.rockylinux.org/RLSA-2024:7204
-    - https://github.com/golang/go/commit/2092294f2b097c5828f4eace6c98a322c1510b01 (go1.22.7)
-    - https://github.com/golang/go/commit/fa8ff1a46deb6c816304441ec6740ec112e19012 (go1.23.1)
-    - https://go.dev/cl/611239
-    - https://go.dev/issue/69139
-    - https://groups.google.com/g/golang-announce/c/K-cEzDeCtpc
-    - https://groups.google.com/g/golang-dev/c/S9POB9NCTdk
-    - https://linux.oracle.com/cve/CVE-2024-34156.html
-    - https://linux.oracle.com/errata/ELSA-2024-9473.html
-    - https://pkg.go.dev/vuln/GO-2024-3106
-    - https://ubuntu.com/security/notices/USN-7081-1
-    - https://ubuntu.com/security/notices/USN-7109-1
-    - https://ubuntu.com/security/notices/USN-7111-1
-    - https://www.cve.org/CVERecord?id=CVE-2024-34156
-    PublishedDate: '2024-09-06T21:15:12.02Z'
-    LastModifiedDate: '2024-09-09T15:35:07.573Z'
   - VulnerabilityID: CVE-2024-34158
     PkgName: stdlib
     PkgIdentifier:
@@ -4028,7 +4236,7 @@
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
-    Title: Calling Parse on a "// +build" build tag line with deeply nested expre ...
+    Title: 'go/build/constraint: golang: Calling Parse on a "// +build" build tag line with deeply nested expressions can cause a panic due to stack exhaustion'
     Description: Calling Parse on a "// +build" build tag line with deeply nested expressions can cause a panic due to stack exhaustion.
     Severity: MEDIUM
     CweIDs:
@@ -4039,14 +4247,19 @@
       bitnami: 3
       oracle-oval: 3
       photon: 3
+      redhat: 2
       rocky: 3
       ubuntu: 2
     CVSS:
       bitnami:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.9
     References:
     - https://access.redhat.com/errata/RHSA-2024:9459
+    - https://access.redhat.com/security/cve/CVE-2024-34158
     - https://bugzilla.redhat.com/2310527
     - https://bugzilla.redhat.com/2310528
     - https://bugzilla.redhat.com/2310529
@@ -4072,6 +4285,7 @@
     - https://groups.google.com/g/golang-dev/c/S9POB9NCTdk
     - https://linux.oracle.com/cve/CVE-2024-34158.html
     - https://linux.oracle.com/errata/ELSA-2024-9459.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-34158
     - https://pkg.go.dev/vuln/GO-2024-3107
     - https://ubuntu.com/security/notices/USN-7081-1
     - https://ubuntu.com/security/notices/USN-7109-1
@@ -5029,6 +5243,66 @@
     - https://www.kb.cert.org/vuls/id/421644
     PublishedDate: '2024-04-04T21:15:16.113Z'
     LastModifiedDate: '2024-08-26T21:35:02.457Z'
+  - VulnerabilityID: CVE-2024-34156
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@v1.20.5
+      UID: d9313334a1e7fbae
+    InstalledVersion: v1.20.5
+    FixedVersion: 1.22.7, 1.23.1
+    Status: fixed
+    Layer:
+      Digest: sha256:edff4d29d88e943efd68842fc71002ac79a03925e16f392fc331e2b5c372e32f
+      DiffID: sha256:057e6ef98b3db2555d53d779e80829437ea8c705fa970ba58bea67d017aefdb5
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-34156
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: 'encoding/gob: golang: Calling Decoder.Decode on a message which contains deeply nested structures can cause a panic due to stack exhaustion'
+    Description: Calling Decoder.Decode on a message which contains deeply nested structures can cause a panic due to stack exhaustion. This is a follow-up to CVE-2022-30635.
+    Severity: HIGH
+    VendorSeverity:
+      alma: 3
+      amazon: 3
+      bitnami: 3
+      oracle-oval: 3
+      photon: 3
+      redhat: 3
+      rocky: 3
+      ubuntu: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/errata/RHSA-2024:9473
+    - https://access.redhat.com/security/cve/CVE-2024-34156
+    - https://bugzilla.redhat.com/2310528
+    - https://bugzilla.redhat.com/2318052
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2310528
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-34156
+    - https://errata.almalinux.org/9/ALSA-2024-9473.html
+    - https://errata.rockylinux.org/RLSA-2024:7204
+    - https://github.com/golang/go/commit/2092294f2b097c5828f4eace6c98a322c1510b01 (go1.22.7)
+    - https://github.com/golang/go/commit/fa8ff1a46deb6c816304441ec6740ec112e19012 (go1.23.1)
+    - https://go.dev/cl/611239
+    - https://go.dev/issue/69139
+    - https://groups.google.com/g/golang-announce/c/K-cEzDeCtpc
+    - https://groups.google.com/g/golang-dev/c/S9POB9NCTdk
+    - https://linux.oracle.com/cve/CVE-2024-34156.html
+    - https://linux.oracle.com/errata/ELSA-2024-9473.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-34156
+    - https://pkg.go.dev/vuln/GO-2024-3106
+    - https://ubuntu.com/security/notices/USN-7081-1
+    - https://ubuntu.com/security/notices/USN-7109-1
+    - https://ubuntu.com/security/notices/USN-7111-1
+    - https://www.cve.org/CVERecord?id=CVE-2024-34156
+    PublishedDate: '2024-09-06T21:15:12.02Z'
+    LastModifiedDate: '2024-09-09T15:35:07.573Z'
   - VulnerabilityID: CVE-2023-29406
     PkgName: stdlib
     PkgIdentifier:
@@ -5924,7 +6198,7 @@
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
-    Title: Calling any of the Parse functions on Go source code which contains de ...
+    Title: 'go/parser: golang: Calling any of the Parse functions containing deeply nested literals can cause a panic/stack exhaustion'
     Description: Calling any of the Parse functions on Go source code which contains deeply nested literals can cause a panic due to stack exhaustion.
     Severity: MEDIUM
     VendorSeverity:
@@ -5932,14 +6206,19 @@
       amazon: 3
       bitnami: 2
       oracle-oval: 3
+      redhat: 2
       rocky: 3
       ubuntu: 2
     CVSS:
       bitnami:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L
         V3Score: 4.3
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.9
     References:
     - https://access.redhat.com/errata/RHSA-2024:9459
+    - https://access.redhat.com/security/cve/CVE-2024-34155
     - https://bugzilla.redhat.com/2310527
     - https://bugzilla.redhat.com/2310528
     - https://bugzilla.redhat.com/2310529
@@ -5965,6 +6244,7 @@
     - https://groups.google.com/g/golang-dev/c/S9POB9NCTdk
     - https://linux.oracle.com/cve/CVE-2024-34155.html
     - https://linux.oracle.com/errata/ELSA-2024-9459.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-34155
     - https://pkg.go.dev/vuln/GO-2024-3105
     - https://ubuntu.com/security/notices/USN-7081-1
     - https://ubuntu.com/security/notices/USN-7109-1
@@ -5972,60 +6252,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-34155
     PublishedDate: '2024-09-06T21:15:11.947Z'
     LastModifiedDate: '2024-11-04T17:35:17.887Z'
-  - VulnerabilityID: CVE-2024-34156
-    PkgName: stdlib
-    PkgIdentifier:
-      PURL: pkg:golang/stdlib@v1.20.5
-      UID: d9313334a1e7fbae
-    InstalledVersion: v1.20.5
-    FixedVersion: 1.22.7, 1.23.1
-    Status: fixed
-    Layer:
-      Digest: sha256:edff4d29d88e943efd68842fc71002ac79a03925e16f392fc331e2b5c372e32f
-      DiffID: sha256:057e6ef98b3db2555d53d779e80829437ea8c705fa970ba58bea67d017aefdb5
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-34156
-    DataSource:
-      ID: govulndb
-      Name: The Go Vulnerability Database
-      URL: https://pkg.go.dev/vuln/
-    Title: Calling Decoder.Decode on a message which contains deeply nested struc ...
-    Description: Calling Decoder.Decode on a message which contains deeply nested structures can cause a panic due to stack exhaustion. This is a follow-up to CVE-2022-30635.
-    Severity: MEDIUM
-    VendorSeverity:
-      alma: 3
-      amazon: 3
-      bitnami: 3
-      oracle-oval: 3
-      photon: 3
-      rocky: 3
-      ubuntu: 2
-    CVSS:
-      bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
-    References:
-    - https://access.redhat.com/errata/RHSA-2024:9473
-    - https://bugzilla.redhat.com/2310528
-    - https://bugzilla.redhat.com/2318052
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2310528
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-34156
-    - https://errata.almalinux.org/9/ALSA-2024-9473.html
-    - https://errata.rockylinux.org/RLSA-2024:7204
-    - https://github.com/golang/go/commit/2092294f2b097c5828f4eace6c98a322c1510b01 (go1.22.7)
-    - https://github.com/golang/go/commit/fa8ff1a46deb6c816304441ec6740ec112e19012 (go1.23.1)
-    - https://go.dev/cl/611239
-    - https://go.dev/issue/69139
-    - https://groups.google.com/g/golang-announce/c/K-cEzDeCtpc
-    - https://groups.google.com/g/golang-dev/c/S9POB9NCTdk
-    - https://linux.oracle.com/cve/CVE-2024-34156.html
-    - https://linux.oracle.com/errata/ELSA-2024-9473.html
-    - https://pkg.go.dev/vuln/GO-2024-3106
-    - https://ubuntu.com/security/notices/USN-7081-1
-    - https://ubuntu.com/security/notices/USN-7109-1
-    - https://ubuntu.com/security/notices/USN-7111-1
-    - https://www.cve.org/CVERecord?id=CVE-2024-34156
-    PublishedDate: '2024-09-06T21:15:12.02Z'
-    LastModifiedDate: '2024-09-09T15:35:07.573Z'
   - VulnerabilityID: CVE-2024-34158
     PkgName: stdlib
     PkgIdentifier:
@@ -6042,7 +6268,7 @@
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
-    Title: Calling Parse on a "// +build" build tag line with deeply nested expre ...
+    Title: 'go/build/constraint: golang: Calling Parse on a "// +build" build tag line with deeply nested expressions can cause a panic due to stack exhaustion'
     Description: Calling Parse on a "// +build" build tag line with deeply nested expressions can cause a panic due to stack exhaustion.
     Severity: MEDIUM
     CweIDs:
@@ -6053,14 +6279,19 @@
       bitnami: 3
       oracle-oval: 3
       photon: 3
+      redhat: 2
       rocky: 3
       ubuntu: 2
     CVSS:
       bitnami:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.9
     References:
     - https://access.redhat.com/errata/RHSA-2024:9459
+    - https://access.redhat.com/security/cve/CVE-2024-34158
     - https://bugzilla.redhat.com/2310527
     - https://bugzilla.redhat.com/2310528
     - https://bugzilla.redhat.com/2310529
@@ -6086,6 +6317,7 @@
     - https://groups.google.com/g/golang-dev/c/S9POB9NCTdk
     - https://linux.oracle.com/cve/CVE-2024-34158.html
     - https://linux.oracle.com/errata/ELSA-2024-9459.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-34158
     - https://pkg.go.dev/vuln/GO-2024-3107
     - https://ubuntu.com/security/notices/USN-7081-1
     - https://ubuntu.com/security/notices/USN-7109-1
