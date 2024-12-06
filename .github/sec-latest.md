@@ -3166,27 +3166,30 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-918 
 │                        │      ├ VendorSeverity   ╭ cbl-mariner: 2 
+│                        │      │                  ├ oracle-oval: 2 
 │                        │      │                  ├ redhat     : 2 
 │                        │      │                  ╰ ubuntu     : 2 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:
 │                        │      │                           │           L/A:N 
 │                        │      │                           ╰ V3Score : 3.7 
-│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-11168 
-│                        │      │                  ├ [1]: https://github.com/python/cpython/commit/29f348e232e8
-│                        │      │                  │      2938ba2165843c448c2b291504c5 
-│                        │      │                  ├ [2]: https://github.com/python/cpython/commit/634ded45545c
-│                        │      │                  │      e8cbd6fd5d49785613dd7fa9b89e 
-│                        │      │                  ├ [3]: https://github.com/python/cpython/commit/b2171a2fd414
-│                        │      │                  │      16cf68afd67460578631d755a550 
-│                        │      │                  ├ [4]: https://github.com/python/cpython/commit/ddca2953191c
-│                        │      │                  │      67a12b1f19d6bca41016c6ae7132 
-│                        │      │                  ├ [5]: https://github.com/python/cpython/issues/103848 
-│                        │      │                  ├ [6]: https://github.com/python/cpython/pull/103849 
-│                        │      │                  ├ [7]: https://mail.python.org/archives/list/security-announ
-│                        │      │                  │      ce@python.org/thread/XPWB6XVZ5G5KGEI63M4AWLIEUF5BPH4T
-│                        │      │                  │      / 
-│                        │      │                  ├ [8]: https://nvd.nist.gov/vuln/detail/CVE-2024-11168 
-│                        │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2024-11168 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2024-11168 
+│                        │      │                  ├ [1] : https://github.com/python/cpython/commit/29f348e232e
+│                        │      │                  │       82938ba2165843c448c2b291504c5 
+│                        │      │                  ├ [2] : https://github.com/python/cpython/commit/634ded45545
+│                        │      │                  │       ce8cbd6fd5d49785613dd7fa9b89e 
+│                        │      │                  ├ [3] : https://github.com/python/cpython/commit/b2171a2fd41
+│                        │      │                  │       416cf68afd67460578631d755a550 
+│                        │      │                  ├ [4] : https://github.com/python/cpython/commit/ddca2953191
+│                        │      │                  │       c67a12b1f19d6bca41016c6ae7132 
+│                        │      │                  ├ [5] : https://github.com/python/cpython/issues/103848 
+│                        │      │                  ├ [6] : https://github.com/python/cpython/pull/103849 
+│                        │      │                  ├ [7] : https://linux.oracle.com/cve/CVE-2024-11168.html 
+│                        │      │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2024-10779.html 
+│                        │      │                  ├ [9] : https://mail.python.org/archives/list/security-annou
+│                        │      │                  │       nce@python.org/thread/XPWB6XVZ5G5KGEI63M4AWLIEUF5BPH
+│                        │      │                  │       4T/ 
+│                        │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2024-11168 
+│                        │      │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2024-11168 
 │                        │      ├ PublishedDate   : 2024-11-12T22:15:14.92Z 
 │                        │      ╰ LastModifiedDate: 2024-12-03T21:15:05.47Z 
 │                        ├ [61] ╭ VulnerabilityID : CVE-2024-9287 
@@ -3221,8 +3224,9 @@
 │                        │      │                   "./venv/bin/python") are not affected. 
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-428 
-│                        │      ├ VendorSeverity   ╭ redhat: 2 
-│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ VendorSeverity   ╭ oracle-oval: 2 
+│                        │      │                  ├ redhat     : 2 
+│                        │      │                  ╰ ubuntu     : 2 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:H/UI:R/S:C/C:L/I:
 │                        │      │                           │           H/A:N 
 │                        │      │                           ╰ V3Score : 6.3 
@@ -3241,12 +3245,14 @@
 │                        │      │                  ├ [7] : https://github.com/python/cpython/pull/124712 
 │                        │      │                  ├ [8] : https://github.com/python/cpython/pull/124712/commit
 │                        │      │                  │       s/b6a3bbd155c558cdcda482629073e492437db3d0 
-│                        │      │                  ├ [9] : https://mail.python.org/archives/list/security-annou
+│                        │      │                  ├ [9] : https://linux.oracle.com/cve/CVE-2024-9287.html 
+│                        │      │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2024-10779.html 
+│                        │      │                  ├ [11]: https://mail.python.org/archives/list/security-annou
 │                        │      │                  │       nce@python.org/thread/RSPJ2B5JL22FG3TKUJ7D7DQ4N5JRRB
 │                        │      │                  │       ZL/ 
-│                        │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2024-9287 
-│                        │      │                  ├ [11]: https://ubuntu.com/security/notices/USN-7116-1 
-│                        │      │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2024-9287 
+│                        │      │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2024-9287 
+│                        │      │                  ├ [13]: https://ubuntu.com/security/notices/USN-7116-1 
+│                        │      │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2024-9287 
 │                        │      ├ PublishedDate   : 2024-10-22T17:15:06.697Z 
 │                        │      ╰ LastModifiedDate: 2024-11-04T18:15:05.627Z 
 │                        ├ [62] ╭ VulnerabilityID : CVE-2024-11168 
@@ -3275,27 +3281,30 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-918 
 │                        │      ├ VendorSeverity   ╭ cbl-mariner: 2 
+│                        │      │                  ├ oracle-oval: 2 
 │                        │      │                  ├ redhat     : 2 
 │                        │      │                  ╰ ubuntu     : 2 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:
 │                        │      │                           │           L/A:N 
 │                        │      │                           ╰ V3Score : 3.7 
-│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-11168 
-│                        │      │                  ├ [1]: https://github.com/python/cpython/commit/29f348e232e8
-│                        │      │                  │      2938ba2165843c448c2b291504c5 
-│                        │      │                  ├ [2]: https://github.com/python/cpython/commit/634ded45545c
-│                        │      │                  │      e8cbd6fd5d49785613dd7fa9b89e 
-│                        │      │                  ├ [3]: https://github.com/python/cpython/commit/b2171a2fd414
-│                        │      │                  │      16cf68afd67460578631d755a550 
-│                        │      │                  ├ [4]: https://github.com/python/cpython/commit/ddca2953191c
-│                        │      │                  │      67a12b1f19d6bca41016c6ae7132 
-│                        │      │                  ├ [5]: https://github.com/python/cpython/issues/103848 
-│                        │      │                  ├ [6]: https://github.com/python/cpython/pull/103849 
-│                        │      │                  ├ [7]: https://mail.python.org/archives/list/security-announ
-│                        │      │                  │      ce@python.org/thread/XPWB6XVZ5G5KGEI63M4AWLIEUF5BPH4T
-│                        │      │                  │      / 
-│                        │      │                  ├ [8]: https://nvd.nist.gov/vuln/detail/CVE-2024-11168 
-│                        │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2024-11168 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2024-11168 
+│                        │      │                  ├ [1] : https://github.com/python/cpython/commit/29f348e232e
+│                        │      │                  │       82938ba2165843c448c2b291504c5 
+│                        │      │                  ├ [2] : https://github.com/python/cpython/commit/634ded45545
+│                        │      │                  │       ce8cbd6fd5d49785613dd7fa9b89e 
+│                        │      │                  ├ [3] : https://github.com/python/cpython/commit/b2171a2fd41
+│                        │      │                  │       416cf68afd67460578631d755a550 
+│                        │      │                  ├ [4] : https://github.com/python/cpython/commit/ddca2953191
+│                        │      │                  │       c67a12b1f19d6bca41016c6ae7132 
+│                        │      │                  ├ [5] : https://github.com/python/cpython/issues/103848 
+│                        │      │                  ├ [6] : https://github.com/python/cpython/pull/103849 
+│                        │      │                  ├ [7] : https://linux.oracle.com/cve/CVE-2024-11168.html 
+│                        │      │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2024-10779.html 
+│                        │      │                  ├ [9] : https://mail.python.org/archives/list/security-annou
+│                        │      │                  │       nce@python.org/thread/XPWB6XVZ5G5KGEI63M4AWLIEUF5BPH
+│                        │      │                  │       4T/ 
+│                        │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2024-11168 
+│                        │      │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2024-11168 
 │                        │      ├ PublishedDate   : 2024-11-12T22:15:14.92Z 
 │                        │      ╰ LastModifiedDate: 2024-12-03T21:15:05.47Z 
 │                        ├ [63] ╭ VulnerabilityID : CVE-2024-9287 
@@ -3330,8 +3339,9 @@
 │                        │      │                   "./venv/bin/python") are not affected. 
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-428 
-│                        │      ├ VendorSeverity   ╭ redhat: 2 
-│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ VendorSeverity   ╭ oracle-oval: 2 
+│                        │      │                  ├ redhat     : 2 
+│                        │      │                  ╰ ubuntu     : 2 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:H/UI:R/S:C/C:L/I:
 │                        │      │                           │           H/A:N 
 │                        │      │                           ╰ V3Score : 6.3 
@@ -3350,12 +3360,14 @@
 │                        │      │                  ├ [7] : https://github.com/python/cpython/pull/124712 
 │                        │      │                  ├ [8] : https://github.com/python/cpython/pull/124712/commit
 │                        │      │                  │       s/b6a3bbd155c558cdcda482629073e492437db3d0 
-│                        │      │                  ├ [9] : https://mail.python.org/archives/list/security-annou
+│                        │      │                  ├ [9] : https://linux.oracle.com/cve/CVE-2024-9287.html 
+│                        │      │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2024-10779.html 
+│                        │      │                  ├ [11]: https://mail.python.org/archives/list/security-annou
 │                        │      │                  │       nce@python.org/thread/RSPJ2B5JL22FG3TKUJ7D7DQ4N5JRRB
 │                        │      │                  │       ZL/ 
-│                        │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2024-9287 
-│                        │      │                  ├ [11]: https://ubuntu.com/security/notices/USN-7116-1 
-│                        │      │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2024-9287 
+│                        │      │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2024-9287 
+│                        │      │                  ├ [13]: https://ubuntu.com/security/notices/USN-7116-1 
+│                        │      │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2024-9287 
 │                        │      ├ PublishedDate   : 2024-10-22T17:15:06.697Z 
 │                        │      ╰ LastModifiedDate: 2024-11-04T18:15:05.627Z 
 │                        ├ [64] ╭ VulnerabilityID : CVE-2024-11168 
@@ -3384,27 +3396,30 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-918 
 │                        │      ├ VendorSeverity   ╭ cbl-mariner: 2 
+│                        │      │                  ├ oracle-oval: 2 
 │                        │      │                  ├ redhat     : 2 
 │                        │      │                  ╰ ubuntu     : 2 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:
 │                        │      │                           │           L/A:N 
 │                        │      │                           ╰ V3Score : 3.7 
-│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-11168 
-│                        │      │                  ├ [1]: https://github.com/python/cpython/commit/29f348e232e8
-│                        │      │                  │      2938ba2165843c448c2b291504c5 
-│                        │      │                  ├ [2]: https://github.com/python/cpython/commit/634ded45545c
-│                        │      │                  │      e8cbd6fd5d49785613dd7fa9b89e 
-│                        │      │                  ├ [3]: https://github.com/python/cpython/commit/b2171a2fd414
-│                        │      │                  │      16cf68afd67460578631d755a550 
-│                        │      │                  ├ [4]: https://github.com/python/cpython/commit/ddca2953191c
-│                        │      │                  │      67a12b1f19d6bca41016c6ae7132 
-│                        │      │                  ├ [5]: https://github.com/python/cpython/issues/103848 
-│                        │      │                  ├ [6]: https://github.com/python/cpython/pull/103849 
-│                        │      │                  ├ [7]: https://mail.python.org/archives/list/security-announ
-│                        │      │                  │      ce@python.org/thread/XPWB6XVZ5G5KGEI63M4AWLIEUF5BPH4T
-│                        │      │                  │      / 
-│                        │      │                  ├ [8]: https://nvd.nist.gov/vuln/detail/CVE-2024-11168 
-│                        │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2024-11168 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2024-11168 
+│                        │      │                  ├ [1] : https://github.com/python/cpython/commit/29f348e232e
+│                        │      │                  │       82938ba2165843c448c2b291504c5 
+│                        │      │                  ├ [2] : https://github.com/python/cpython/commit/634ded45545
+│                        │      │                  │       ce8cbd6fd5d49785613dd7fa9b89e 
+│                        │      │                  ├ [3] : https://github.com/python/cpython/commit/b2171a2fd41
+│                        │      │                  │       416cf68afd67460578631d755a550 
+│                        │      │                  ├ [4] : https://github.com/python/cpython/commit/ddca2953191
+│                        │      │                  │       c67a12b1f19d6bca41016c6ae7132 
+│                        │      │                  ├ [5] : https://github.com/python/cpython/issues/103848 
+│                        │      │                  ├ [6] : https://github.com/python/cpython/pull/103849 
+│                        │      │                  ├ [7] : https://linux.oracle.com/cve/CVE-2024-11168.html 
+│                        │      │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2024-10779.html 
+│                        │      │                  ├ [9] : https://mail.python.org/archives/list/security-annou
+│                        │      │                  │       nce@python.org/thread/XPWB6XVZ5G5KGEI63M4AWLIEUF5BPH
+│                        │      │                  │       4T/ 
+│                        │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2024-11168 
+│                        │      │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2024-11168 
 │                        │      ├ PublishedDate   : 2024-11-12T22:15:14.92Z 
 │                        │      ╰ LastModifiedDate: 2024-12-03T21:15:05.47Z 
 │                        ├ [65] ╭ VulnerabilityID : CVE-2024-9287 
@@ -3439,8 +3454,9 @@
 │                        │      │                   "./venv/bin/python") are not affected. 
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-428 
-│                        │      ├ VendorSeverity   ╭ redhat: 2 
-│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ VendorSeverity   ╭ oracle-oval: 2 
+│                        │      │                  ├ redhat     : 2 
+│                        │      │                  ╰ ubuntu     : 2 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:H/UI:R/S:C/C:L/I:
 │                        │      │                           │           H/A:N 
 │                        │      │                           ╰ V3Score : 6.3 
@@ -3459,12 +3475,14 @@
 │                        │      │                  ├ [7] : https://github.com/python/cpython/pull/124712 
 │                        │      │                  ├ [8] : https://github.com/python/cpython/pull/124712/commit
 │                        │      │                  │       s/b6a3bbd155c558cdcda482629073e492437db3d0 
-│                        │      │                  ├ [9] : https://mail.python.org/archives/list/security-annou
+│                        │      │                  ├ [9] : https://linux.oracle.com/cve/CVE-2024-9287.html 
+│                        │      │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2024-10779.html 
+│                        │      │                  ├ [11]: https://mail.python.org/archives/list/security-annou
 │                        │      │                  │       nce@python.org/thread/RSPJ2B5JL22FG3TKUJ7D7DQ4N5JRRB
 │                        │      │                  │       ZL/ 
-│                        │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2024-9287 
-│                        │      │                  ├ [11]: https://ubuntu.com/security/notices/USN-7116-1 
-│                        │      │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2024-9287 
+│                        │      │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2024-9287 
+│                        │      │                  ├ [13]: https://ubuntu.com/security/notices/USN-7116-1 
+│                        │      │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2024-9287 
 │                        │      ├ PublishedDate   : 2024-10-22T17:15:06.697Z 
 │                        │      ╰ LastModifiedDate: 2024-11-04T18:15:05.627Z 
 │                        ├ [66] ╭ VulnerabilityID : CVE-2024-41996 
@@ -4479,27 +4497,30 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-918 
 │                        │      ├ VendorSeverity   ╭ cbl-mariner: 2 
+│                        │      │                  ├ oracle-oval: 2 
 │                        │      │                  ├ redhat     : 2 
 │                        │      │                  ╰ ubuntu     : 2 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:
 │                        │      │                           │           L/A:N 
 │                        │      │                           ╰ V3Score : 3.7 
-│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-11168 
-│                        │      │                  ├ [1]: https://github.com/python/cpython/commit/29f348e232e8
-│                        │      │                  │      2938ba2165843c448c2b291504c5 
-│                        │      │                  ├ [2]: https://github.com/python/cpython/commit/634ded45545c
-│                        │      │                  │      e8cbd6fd5d49785613dd7fa9b89e 
-│                        │      │                  ├ [3]: https://github.com/python/cpython/commit/b2171a2fd414
-│                        │      │                  │      16cf68afd67460578631d755a550 
-│                        │      │                  ├ [4]: https://github.com/python/cpython/commit/ddca2953191c
-│                        │      │                  │      67a12b1f19d6bca41016c6ae7132 
-│                        │      │                  ├ [5]: https://github.com/python/cpython/issues/103848 
-│                        │      │                  ├ [6]: https://github.com/python/cpython/pull/103849 
-│                        │      │                  ├ [7]: https://mail.python.org/archives/list/security-announ
-│                        │      │                  │      ce@python.org/thread/XPWB6XVZ5G5KGEI63M4AWLIEUF5BPH4T
-│                        │      │                  │      / 
-│                        │      │                  ├ [8]: https://nvd.nist.gov/vuln/detail/CVE-2024-11168 
-│                        │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2024-11168 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2024-11168 
+│                        │      │                  ├ [1] : https://github.com/python/cpython/commit/29f348e232e
+│                        │      │                  │       82938ba2165843c448c2b291504c5 
+│                        │      │                  ├ [2] : https://github.com/python/cpython/commit/634ded45545
+│                        │      │                  │       ce8cbd6fd5d49785613dd7fa9b89e 
+│                        │      │                  ├ [3] : https://github.com/python/cpython/commit/b2171a2fd41
+│                        │      │                  │       416cf68afd67460578631d755a550 
+│                        │      │                  ├ [4] : https://github.com/python/cpython/commit/ddca2953191
+│                        │      │                  │       c67a12b1f19d6bca41016c6ae7132 
+│                        │      │                  ├ [5] : https://github.com/python/cpython/issues/103848 
+│                        │      │                  ├ [6] : https://github.com/python/cpython/pull/103849 
+│                        │      │                  ├ [7] : https://linux.oracle.com/cve/CVE-2024-11168.html 
+│                        │      │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2024-10779.html 
+│                        │      │                  ├ [9] : https://mail.python.org/archives/list/security-annou
+│                        │      │                  │       nce@python.org/thread/XPWB6XVZ5G5KGEI63M4AWLIEUF5BPH
+│                        │      │                  │       4T/ 
+│                        │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2024-11168 
+│                        │      │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2024-11168 
 │                        │      ├ PublishedDate   : 2024-11-12T22:15:14.92Z 
 │                        │      ╰ LastModifiedDate: 2024-12-03T21:15:05.47Z 
 │                        ├ [85] ╭ VulnerabilityID : CVE-2024-9287 
@@ -4534,8 +4555,9 @@
 │                        │      │                   "./venv/bin/python") are not affected. 
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-428 
-│                        │      ├ VendorSeverity   ╭ redhat: 2 
-│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ VendorSeverity   ╭ oracle-oval: 2 
+│                        │      │                  ├ redhat     : 2 
+│                        │      │                  ╰ ubuntu     : 2 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:H/UI:R/S:C/C:L/I:
 │                        │      │                           │           H/A:N 
 │                        │      │                           ╰ V3Score : 6.3 
@@ -4554,12 +4576,14 @@
 │                        │      │                  ├ [7] : https://github.com/python/cpython/pull/124712 
 │                        │      │                  ├ [8] : https://github.com/python/cpython/pull/124712/commit
 │                        │      │                  │       s/b6a3bbd155c558cdcda482629073e492437db3d0 
-│                        │      │                  ├ [9] : https://mail.python.org/archives/list/security-annou
+│                        │      │                  ├ [9] : https://linux.oracle.com/cve/CVE-2024-9287.html 
+│                        │      │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2024-10779.html 
+│                        │      │                  ├ [11]: https://mail.python.org/archives/list/security-annou
 │                        │      │                  │       nce@python.org/thread/RSPJ2B5JL22FG3TKUJ7D7DQ4N5JRRB
 │                        │      │                  │       ZL/ 
-│                        │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2024-9287 
-│                        │      │                  ├ [11]: https://ubuntu.com/security/notices/USN-7116-1 
-│                        │      │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2024-9287 
+│                        │      │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2024-9287 
+│                        │      │                  ├ [13]: https://ubuntu.com/security/notices/USN-7116-1 
+│                        │      │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2024-9287 
 │                        │      ├ PublishedDate   : 2024-10-22T17:15:06.697Z 
 │                        │      ╰ LastModifiedDate: 2024-11-04T18:15:05.627Z 
 │                        ├ [86] ╭ VulnerabilityID : CVE-2024-11168 
@@ -4588,27 +4612,30 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-918 
 │                        │      ├ VendorSeverity   ╭ cbl-mariner: 2 
+│                        │      │                  ├ oracle-oval: 2 
 │                        │      │                  ├ redhat     : 2 
 │                        │      │                  ╰ ubuntu     : 2 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:
 │                        │      │                           │           L/A:N 
 │                        │      │                           ╰ V3Score : 3.7 
-│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-11168 
-│                        │      │                  ├ [1]: https://github.com/python/cpython/commit/29f348e232e8
-│                        │      │                  │      2938ba2165843c448c2b291504c5 
-│                        │      │                  ├ [2]: https://github.com/python/cpython/commit/634ded45545c
-│                        │      │                  │      e8cbd6fd5d49785613dd7fa9b89e 
-│                        │      │                  ├ [3]: https://github.com/python/cpython/commit/b2171a2fd414
-│                        │      │                  │      16cf68afd67460578631d755a550 
-│                        │      │                  ├ [4]: https://github.com/python/cpython/commit/ddca2953191c
-│                        │      │                  │      67a12b1f19d6bca41016c6ae7132 
-│                        │      │                  ├ [5]: https://github.com/python/cpython/issues/103848 
-│                        │      │                  ├ [6]: https://github.com/python/cpython/pull/103849 
-│                        │      │                  ├ [7]: https://mail.python.org/archives/list/security-announ
-│                        │      │                  │      ce@python.org/thread/XPWB6XVZ5G5KGEI63M4AWLIEUF5BPH4T
-│                        │      │                  │      / 
-│                        │      │                  ├ [8]: https://nvd.nist.gov/vuln/detail/CVE-2024-11168 
-│                        │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2024-11168 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2024-11168 
+│                        │      │                  ├ [1] : https://github.com/python/cpython/commit/29f348e232e
+│                        │      │                  │       82938ba2165843c448c2b291504c5 
+│                        │      │                  ├ [2] : https://github.com/python/cpython/commit/634ded45545
+│                        │      │                  │       ce8cbd6fd5d49785613dd7fa9b89e 
+│                        │      │                  ├ [3] : https://github.com/python/cpython/commit/b2171a2fd41
+│                        │      │                  │       416cf68afd67460578631d755a550 
+│                        │      │                  ├ [4] : https://github.com/python/cpython/commit/ddca2953191
+│                        │      │                  │       c67a12b1f19d6bca41016c6ae7132 
+│                        │      │                  ├ [5] : https://github.com/python/cpython/issues/103848 
+│                        │      │                  ├ [6] : https://github.com/python/cpython/pull/103849 
+│                        │      │                  ├ [7] : https://linux.oracle.com/cve/CVE-2024-11168.html 
+│                        │      │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2024-10779.html 
+│                        │      │                  ├ [9] : https://mail.python.org/archives/list/security-annou
+│                        │      │                  │       nce@python.org/thread/XPWB6XVZ5G5KGEI63M4AWLIEUF5BPH
+│                        │      │                  │       4T/ 
+│                        │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2024-11168 
+│                        │      │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2024-11168 
 │                        │      ├ PublishedDate   : 2024-11-12T22:15:14.92Z 
 │                        │      ╰ LastModifiedDate: 2024-12-03T21:15:05.47Z 
 │                        ├ [87] ╭ VulnerabilityID : CVE-2024-9287 
@@ -4643,8 +4670,9 @@
 │                        │      │                   "./venv/bin/python") are not affected. 
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-428 
-│                        │      ├ VendorSeverity   ╭ redhat: 2 
-│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ VendorSeverity   ╭ oracle-oval: 2 
+│                        │      │                  ├ redhat     : 2 
+│                        │      │                  ╰ ubuntu     : 2 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:H/UI:R/S:C/C:L/I:
 │                        │      │                           │           H/A:N 
 │                        │      │                           ╰ V3Score : 6.3 
@@ -4663,12 +4691,14 @@
 │                        │      │                  ├ [7] : https://github.com/python/cpython/pull/124712 
 │                        │      │                  ├ [8] : https://github.com/python/cpython/pull/124712/commit
 │                        │      │                  │       s/b6a3bbd155c558cdcda482629073e492437db3d0 
-│                        │      │                  ├ [9] : https://mail.python.org/archives/list/security-annou
+│                        │      │                  ├ [9] : https://linux.oracle.com/cve/CVE-2024-9287.html 
+│                        │      │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2024-10779.html 
+│                        │      │                  ├ [11]: https://mail.python.org/archives/list/security-annou
 │                        │      │                  │       nce@python.org/thread/RSPJ2B5JL22FG3TKUJ7D7DQ4N5JRRB
 │                        │      │                  │       ZL/ 
-│                        │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2024-9287 
-│                        │      │                  ├ [11]: https://ubuntu.com/security/notices/USN-7116-1 
-│                        │      │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2024-9287 
+│                        │      │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2024-9287 
+│                        │      │                  ├ [13]: https://ubuntu.com/security/notices/USN-7116-1 
+│                        │      │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2024-9287 
 │                        │      ├ PublishedDate   : 2024-10-22T17:15:06.697Z 
 │                        │      ╰ LastModifiedDate: 2024-11-04T18:15:05.627Z 
 │                        ├ [88] ╭ VulnerabilityID : CVE-2023-7008 
@@ -7287,7 +7317,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
@@ -7370,7 +7400,7 @@
 │                        │      │                   bytes grows too small. 
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ nvd        : 2 
@@ -10131,7 +10161,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
@@ -10214,7 +10244,7 @@
 │                        │      │                   bytes grows too small. 
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ nvd        : 2 
@@ -11492,84 +11522,7 @@
 │                                                 │      7a7786754d1fe05264c3021eb 
 │                                                 ╰ [2]: https://github.com/grpc/grpc-go/security/advisories/GH
 │                                                        SA-xr7q-jx4m-x55m 
-├ [10] ╭ Target : /etc/ssh/ssh_host_ed25519_key 
-│      ├ Class  : secret 
-│      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
-│                      ├ Category : AsymmetricPrivateKey 
-│                      ├ Severity : HIGH 
-│                      ├ Title    : Asymmetric Private Key 
-│                      ├ StartLine: 1 
-│                      ├ EndLine  : 1 
-│                      ├ Code      ─ Lines ╭ [0] ╭ Number     : 1 
-│                      │                   │     ├ Content    : BEGIN OPENSSH PRIVATE
-│                      │                   │     │              KEY-----***************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              *********************-----END OPENSSH PRI 
-│                      │                   │     ├ IsCause    : true 
-│                      │                   │     ├ Annotation :  
-│                      │                   │     ├ Truncated  : false 
-│                      │                   │     ├ Highlighted: BEGIN OPENSSH PRIVATE
-│                      │                   │     │              KEY-----***************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              *********************-----END OPENSSH PRI 
-│                      │                   │     ├ FirstCause : true 
-│                      │                   │     ╰ LastCause  : true 
-│                      │                   ╰ [1] ╭ Number    : 2 
-│                      │                         ├ Content   :  
-│                      │                         ├ IsCause   : false 
-│                      │                         ├ Annotation:  
-│                      │                         ├ Truncated : false 
-│                      │                         ├ FirstCause: false 
-│                      │                         ╰ LastCause : false 
-│                      ├ Match    : BEGIN OPENSSH PRIVATE
-│                      │            KEY-----*******************************************************************
-│                      │            ***************************************************************************
-│                      │            **************************************************-----END OPENSSH PRI 
-│                      ╰ Layer     ╭ Digest   : sha256:208bee752db169e4e5492dd461e5980fdee9c00882b52e7c5182cb7b
-│                                  │            c2d0b4cf 
-│                                  ├ DiffID   : sha256:82d41002ec052a8aa2463273a2353805d91b16a95ebae3c0c073cf51
-│                                  │            4436a0d7 
-│                                  ╰ CreatedBy: COPY / / # buildkit 
-├ [11] ╭ Target : /etc/ssh/ssh_host_rsa_key 
-│      ├ Class  : secret 
-│      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
-│                      ├ Category : AsymmetricPrivateKey 
-│                      ├ Severity : HIGH 
-│                      ├ Title    : Asymmetric Private Key 
-│                      ├ StartLine: 1 
-│                      ├ EndLine  : 1 
-│                      ├ Code      ─ Lines ╭ [0] ╭ Number     : 1 
-│                      │                   │     ├ Content    : BEGIN OPENSSH PRIVATE
-│                      │                   │     │              KEY-----***************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********-----END OPENSSH PRI 
-│                      │                   │     ├ IsCause    : true 
-│                      │                   │     ├ Annotation :  
-│                      │                   │     ├ Truncated  : false 
-│                      │                   │     ├ Highlighted: BEGIN OPENSSH PRIVATE
-│                      │                   │     │              KEY-----***************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********-----END OPENSSH PRI 
-│                      │                   │     ├ FirstCause : true 
-│                      │                   │     ╰ LastCause  : true 
-│                      │                   ╰ [1] ╭ Number    : 2 
-│                      │                         ├ Content   :  
-│                      │                         ├ IsCause   : false 
-│                      │                         ├ Annotation:  
-│                      │                         ├ Truncated : false 
-│                      │                         ├ FirstCause: false 
-│                      │                         ╰ LastCause : false 
-│                      ├ Match    : BEGIN OPENSSH PRIVATE
-│                      │            KEY-----*******************************************************************
-│                      │            ***************************************************************************
-│                      │            **************************************************************************-
-│                      │            ----END OPENSSH PRI 
-│                      ╰ Layer     ╭ Digest   : sha256:208bee752db169e4e5492dd461e5980fdee9c00882b52e7c5182cb7b
-│                                  │            c2d0b4cf 
-│                                  ├ DiffID   : sha256:82d41002ec052a8aa2463273a2353805d91b16a95ebae3c0c073cf51
-│                                  │            4436a0d7 
-│                                  ╰ CreatedBy: COPY / / # buildkit 
-├ [12] ╭ Target : /etc/ssh/ssh_host_dsa_key 
+├ [10] ╭ Target : /etc/ssh/ssh_host_dsa_key 
 │      ├ Class  : secret 
 │      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
 │                      ├ Category : AsymmetricPrivateKey 
@@ -11608,7 +11561,85 @@
 │                                  ├ DiffID   : sha256:82d41002ec052a8aa2463273a2353805d91b16a95ebae3c0c073cf51
 │                                  │            4436a0d7 
 │                                  ╰ CreatedBy: COPY / / # buildkit 
-╰ [13] ╭ Target : /etc/ssh/ssh_host_ecdsa_key 
+├ [11] ╭ Target : /etc/ssh/ssh_host_ecdsa_key 
+│      ├ Class  : secret 
+│      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
+│                      ├ Category : AsymmetricPrivateKey 
+│                      ├ Severity : HIGH 
+│                      ├ Title    : Asymmetric Private Key 
+│                      ├ StartLine: 1 
+│                      ├ EndLine  : 1 
+│                      ├ Code      ─ Lines ╭ [0] ╭ Number     : 1 
+│                      │                   │     ├ Content    : BEGIN OPENSSH PRIVATE
+│                      │                   │     │              KEY-----***************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              *****************************-----END OPENSSH
+│                      │                   │     │              PRI 
+│                      │                   │     ├ IsCause    : true 
+│                      │                   │     ├ Annotation :  
+│                      │                   │     ├ Truncated  : false 
+│                      │                   │     ├ Highlighted: BEGIN OPENSSH PRIVATE
+│                      │                   │     │              KEY-----***************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              *****************************-----END OPENSSH
+│                      │                   │     │              PRI 
+│                      │                   │     ├ FirstCause : true 
+│                      │                   │     ╰ LastCause  : true 
+│                      │                   ╰ [1] ╭ Number    : 2 
+│                      │                         ├ Content   :  
+│                      │                         ├ IsCause   : false 
+│                      │                         ├ Annotation:  
+│                      │                         ├ Truncated : false 
+│                      │                         ├ FirstCause: false 
+│                      │                         ╰ LastCause : false 
+│                      ├ Match    : BEGIN OPENSSH PRIVATE
+│                      │            KEY-----*******************************************************************
+│                      │            ***************************************************************************
+│                      │            **-----END OPENSSH PRI 
+│                      ╰ Layer     ╭ Digest   : sha256:208bee752db169e4e5492dd461e5980fdee9c00882b52e7c5182cb7b
+│                                  │            c2d0b4cf 
+│                                  ├ DiffID   : sha256:82d41002ec052a8aa2463273a2353805d91b16a95ebae3c0c073cf51
+│                                  │            4436a0d7 
+│                                  ╰ CreatedBy: COPY / / # buildkit 
+├ [12] ╭ Target : /etc/ssh/ssh_host_ed25519_key 
+│      ├ Class  : secret 
+│      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
+│                      ├ Category : AsymmetricPrivateKey 
+│                      ├ Severity : HIGH 
+│                      ├ Title    : Asymmetric Private Key 
+│                      ├ StartLine: 1 
+│                      ├ EndLine  : 1 
+│                      ├ Code      ─ Lines ╭ [0] ╭ Number     : 1 
+│                      │                   │     ├ Content    : BEGIN OPENSSH PRIVATE
+│                      │                   │     │              KEY-----***************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              *********************-----END OPENSSH PRI 
+│                      │                   │     ├ IsCause    : true 
+│                      │                   │     ├ Annotation :  
+│                      │                   │     ├ Truncated  : false 
+│                      │                   │     ├ Highlighted: BEGIN OPENSSH PRIVATE
+│                      │                   │     │              KEY-----***************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              *********************-----END OPENSSH PRI 
+│                      │                   │     ├ FirstCause : true 
+│                      │                   │     ╰ LastCause  : true 
+│                      │                   ╰ [1] ╭ Number    : 2 
+│                      │                         ├ Content   :  
+│                      │                         ├ IsCause   : false 
+│                      │                         ├ Annotation:  
+│                      │                         ├ Truncated : false 
+│                      │                         ├ FirstCause: false 
+│                      │                         ╰ LastCause : false 
+│                      ├ Match    : BEGIN OPENSSH PRIVATE
+│                      │            KEY-----*******************************************************************
+│                      │            ***************************************************************************
+│                      │            **************************************************-----END OPENSSH PRI 
+│                      ╰ Layer     ╭ Digest   : sha256:208bee752db169e4e5492dd461e5980fdee9c00882b52e7c5182cb7b
+│                                  │            c2d0b4cf 
+│                                  ├ DiffID   : sha256:82d41002ec052a8aa2463273a2353805d91b16a95ebae3c0c073cf51
+│                                  │            4436a0d7 
+│                                  ╰ CreatedBy: COPY / / # buildkit 
+╰ [13] ╭ Target : /etc/ssh/ssh_host_rsa_key 
        ├ Class  : secret 
        ╰ Secrets ─ [0] ╭ RuleID   : private-key 
                        ├ Category : AsymmetricPrivateKey 
@@ -11620,16 +11651,14 @@
                        │                   │     ├ Content    : BEGIN OPENSSH PRIVATE
                        │                   │     │              KEY-----***************************************
                        │                   │     │              ***********************************************
-                       │                   │     │              *****************************-----END OPENSSH
-                       │                   │     │              PRI 
+                       │                   │     │              ***********-----END OPENSSH PRI 
                        │                   │     ├ IsCause    : true 
                        │                   │     ├ Annotation :  
                        │                   │     ├ Truncated  : false 
                        │                   │     ├ Highlighted: BEGIN OPENSSH PRIVATE
                        │                   │     │              KEY-----***************************************
                        │                   │     │              ***********************************************
-                       │                   │     │              *****************************-----END OPENSSH
-                       │                   │     │              PRI 
+                       │                   │     │              ***********-----END OPENSSH PRI 
                        │                   │     ├ FirstCause : true 
                        │                   │     ╰ LastCause  : true 
                        │                   ╰ [1] ╭ Number    : 2 
@@ -11642,7 +11671,8 @@
                        ├ Match    : BEGIN OPENSSH PRIVATE
                        │            KEY-----*******************************************************************
                        │            ***************************************************************************
-                       │            **-----END OPENSSH PRI 
+                       │            **************************************************************************-
+                       │            ----END OPENSSH PRI 
                        ╰ Layer     ╭ Digest   : sha256:208bee752db169e4e5492dd461e5980fdee9c00882b52e7c5182cb7b
                                    │            c2d0b4cf 
                                    ├ DiffID   : sha256:82d41002ec052a8aa2463273a2353805d91b16a95ebae3c0c073cf51
