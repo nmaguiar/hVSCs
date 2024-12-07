@@ -2303,6 +2303,7 @@
     Severity: LOW
     VendorSeverity:
       amazon: 2
+      cbl-mariner: 2
       nvd: 2
       redhat: 1
       ubuntu: 1
@@ -2382,6 +2383,7 @@
     Severity: LOW
     VendorSeverity:
       amazon: 2
+      cbl-mariner: 2
       nvd: 2
       redhat: 1
       ubuntu: 1
@@ -2984,6 +2986,7 @@
     CweIDs:
     - CWE-918
     VendorSeverity:
+      alma: 2
       cbl-mariner: 2
       oracle-oval: 2
       redhat: 2
@@ -2993,7 +2996,11 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N
         V3Score: 3.7
     References:
+    - https://access.redhat.com/errata/RHSA-2024:10779
     - https://access.redhat.com/security/cve/CVE-2024-11168
+    - https://bugzilla.redhat.com/2321440
+    - https://bugzilla.redhat.com/2325776
+    - https://errata.almalinux.org/8/ALSA-2024-10779.html
     - https://github.com/python/cpython/commit/29f348e232e82938ba2165843c448c2b291504c5
     - https://github.com/python/cpython/commit/634ded45545ce8cbd6fd5d49785613dd7fa9b89e
     - https://github.com/python/cpython/commit/b2171a2fd41416cf68afd67460578631d755a550
@@ -3031,6 +3038,7 @@
     CweIDs:
     - CWE-428
     VendorSeverity:
+      alma: 2
       oracle-oval: 2
       redhat: 2
       ubuntu: 2
@@ -3039,7 +3047,11 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:H/UI:R/S:C/C:L/I:H/A:N
         V3Score: 6.3
     References:
+    - https://access.redhat.com/errata/RHSA-2024:10779
     - https://access.redhat.com/security/cve/CVE-2024-9287
+    - https://bugzilla.redhat.com/2321440
+    - https://bugzilla.redhat.com/2325776
+    - https://errata.almalinux.org/8/ALSA-2024-10779.html
     - https://github.com/python/cpython/commit/633555735a023d3e4d92ba31da35b1205f9ecbd7
     - https://github.com/python/cpython/commit/8450b2482586857d689b6658f08de9c8179af7db
     - https://github.com/python/cpython/commit/9286ab3a107ea41bd3f3c3682ce2512692bdded8
@@ -3079,6 +3091,7 @@
     CweIDs:
     - CWE-918
     VendorSeverity:
+      alma: 2
       cbl-mariner: 2
       oracle-oval: 2
       redhat: 2
@@ -3088,7 +3101,11 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N
         V3Score: 3.7
     References:
+    - https://access.redhat.com/errata/RHSA-2024:10779
     - https://access.redhat.com/security/cve/CVE-2024-11168
+    - https://bugzilla.redhat.com/2321440
+    - https://bugzilla.redhat.com/2325776
+    - https://errata.almalinux.org/8/ALSA-2024-10779.html
     - https://github.com/python/cpython/commit/29f348e232e82938ba2165843c448c2b291504c5
     - https://github.com/python/cpython/commit/634ded45545ce8cbd6fd5d49785613dd7fa9b89e
     - https://github.com/python/cpython/commit/b2171a2fd41416cf68afd67460578631d755a550
@@ -3126,6 +3143,7 @@
     CweIDs:
     - CWE-428
     VendorSeverity:
+      alma: 2
       oracle-oval: 2
       redhat: 2
       ubuntu: 2
@@ -3134,7 +3152,11 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:H/UI:R/S:C/C:L/I:H/A:N
         V3Score: 6.3
     References:
+    - https://access.redhat.com/errata/RHSA-2024:10779
     - https://access.redhat.com/security/cve/CVE-2024-9287
+    - https://bugzilla.redhat.com/2321440
+    - https://bugzilla.redhat.com/2325776
+    - https://errata.almalinux.org/8/ALSA-2024-10779.html
     - https://github.com/python/cpython/commit/633555735a023d3e4d92ba31da35b1205f9ecbd7
     - https://github.com/python/cpython/commit/8450b2482586857d689b6658f08de9c8179af7db
     - https://github.com/python/cpython/commit/9286ab3a107ea41bd3f3c3682ce2512692bdded8
@@ -3174,6 +3196,7 @@
     CweIDs:
     - CWE-918
     VendorSeverity:
+      alma: 2
       cbl-mariner: 2
       oracle-oval: 2
       redhat: 2
@@ -3183,7 +3206,11 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N
         V3Score: 3.7
     References:
+    - https://access.redhat.com/errata/RHSA-2024:10779
     - https://access.redhat.com/security/cve/CVE-2024-11168
+    - https://bugzilla.redhat.com/2321440
+    - https://bugzilla.redhat.com/2325776
+    - https://errata.almalinux.org/8/ALSA-2024-10779.html
     - https://github.com/python/cpython/commit/29f348e232e82938ba2165843c448c2b291504c5
     - https://github.com/python/cpython/commit/634ded45545ce8cbd6fd5d49785613dd7fa9b89e
     - https://github.com/python/cpython/commit/b2171a2fd41416cf68afd67460578631d755a550
@@ -3221,6 +3248,7 @@
     CweIDs:
     - CWE-428
     VendorSeverity:
+      alma: 2
       oracle-oval: 2
       redhat: 2
       ubuntu: 2
@@ -3229,7 +3257,11 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:H/UI:R/S:C/C:L/I:H/A:N
         V3Score: 6.3
     References:
+    - https://access.redhat.com/errata/RHSA-2024:10779
     - https://access.redhat.com/security/cve/CVE-2024-9287
+    - https://bugzilla.redhat.com/2321440
+    - https://bugzilla.redhat.com/2325776
+    - https://errata.almalinux.org/8/ALSA-2024-10779.html
     - https://github.com/python/cpython/commit/633555735a023d3e4d92ba31da35b1205f9ecbd7
     - https://github.com/python/cpython/commit/8450b2482586857d689b6658f08de9c8179af7db
     - https://github.com/python/cpython/commit/9286ab3a107ea41bd3f3c3682ce2512692bdded8
@@ -3545,6 +3577,7 @@
     Severity: LOW
     VendorSeverity:
       amazon: 2
+      cbl-mariner: 2
       nvd: 2
       redhat: 1
       ubuntu: 1
@@ -3865,6 +3898,7 @@
     Severity: LOW
     VendorSeverity:
       amazon: 2
+      cbl-mariner: 2
       nvd: 2
       redhat: 1
       ubuntu: 1
@@ -3944,6 +3978,7 @@
     Severity: LOW
     VendorSeverity:
       amazon: 2
+      cbl-mariner: 2
       nvd: 2
       redhat: 1
       ubuntu: 1
@@ -4023,6 +4058,7 @@
     Severity: LOW
     VendorSeverity:
       amazon: 2
+      cbl-mariner: 2
       nvd: 2
       redhat: 1
       ubuntu: 1
@@ -4153,6 +4189,7 @@
     CweIDs:
     - CWE-918
     VendorSeverity:
+      alma: 2
       cbl-mariner: 2
       oracle-oval: 2
       redhat: 2
@@ -4162,7 +4199,11 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N
         V3Score: 3.7
     References:
+    - https://access.redhat.com/errata/RHSA-2024:10779
     - https://access.redhat.com/security/cve/CVE-2024-11168
+    - https://bugzilla.redhat.com/2321440
+    - https://bugzilla.redhat.com/2325776
+    - https://errata.almalinux.org/8/ALSA-2024-10779.html
     - https://github.com/python/cpython/commit/29f348e232e82938ba2165843c448c2b291504c5
     - https://github.com/python/cpython/commit/634ded45545ce8cbd6fd5d49785613dd7fa9b89e
     - https://github.com/python/cpython/commit/b2171a2fd41416cf68afd67460578631d755a550
@@ -4200,6 +4241,7 @@
     CweIDs:
     - CWE-428
     VendorSeverity:
+      alma: 2
       oracle-oval: 2
       redhat: 2
       ubuntu: 2
@@ -4208,7 +4250,11 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:H/UI:R/S:C/C:L/I:H/A:N
         V3Score: 6.3
     References:
+    - https://access.redhat.com/errata/RHSA-2024:10779
     - https://access.redhat.com/security/cve/CVE-2024-9287
+    - https://bugzilla.redhat.com/2321440
+    - https://bugzilla.redhat.com/2325776
+    - https://errata.almalinux.org/8/ALSA-2024-10779.html
     - https://github.com/python/cpython/commit/633555735a023d3e4d92ba31da35b1205f9ecbd7
     - https://github.com/python/cpython/commit/8450b2482586857d689b6658f08de9c8179af7db
     - https://github.com/python/cpython/commit/9286ab3a107ea41bd3f3c3682ce2512692bdded8
@@ -4248,6 +4294,7 @@
     CweIDs:
     - CWE-918
     VendorSeverity:
+      alma: 2
       cbl-mariner: 2
       oracle-oval: 2
       redhat: 2
@@ -4257,7 +4304,11 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N
         V3Score: 3.7
     References:
+    - https://access.redhat.com/errata/RHSA-2024:10779
     - https://access.redhat.com/security/cve/CVE-2024-11168
+    - https://bugzilla.redhat.com/2321440
+    - https://bugzilla.redhat.com/2325776
+    - https://errata.almalinux.org/8/ALSA-2024-10779.html
     - https://github.com/python/cpython/commit/29f348e232e82938ba2165843c448c2b291504c5
     - https://github.com/python/cpython/commit/634ded45545ce8cbd6fd5d49785613dd7fa9b89e
     - https://github.com/python/cpython/commit/b2171a2fd41416cf68afd67460578631d755a550
@@ -4295,6 +4346,7 @@
     CweIDs:
     - CWE-428
     VendorSeverity:
+      alma: 2
       oracle-oval: 2
       redhat: 2
       ubuntu: 2
@@ -4303,7 +4355,11 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:H/UI:R/S:C/C:L/I:H/A:N
         V3Score: 6.3
     References:
+    - https://access.redhat.com/errata/RHSA-2024:10779
     - https://access.redhat.com/security/cve/CVE-2024-9287
+    - https://bugzilla.redhat.com/2321440
+    - https://bugzilla.redhat.com/2325776
+    - https://errata.almalinux.org/8/ALSA-2024-10779.html
     - https://github.com/python/cpython/commit/633555735a023d3e4d92ba31da35b1205f9ecbd7
     - https://github.com/python/cpython/commit/8450b2482586857d689b6658f08de9c8179af7db
     - https://github.com/python/cpython/commit/9286ab3a107ea41bd3f3c3682ce2512692bdded8
@@ -9334,6 +9390,7 @@
       cbl-mariner: 4
       ghsa: 4
       redhat: 4
+      ubuntu: 3
     CVSS:
       ghsa:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H
@@ -9358,6 +9415,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2024-41110
     - https://www.cve.org/CVERecord?id=CVE-2024-41110
     - https://www.docker.com/blog/docker-security-advisory-docker-engine-authz-plugin
+    - https://www.docker.com/blog/docker-security-advisory-docker-engine-authz-plugin/
     PublishedDate: '2024-07-24T17:15:11.053Z'
     LastModifiedDate: '2024-07-30T20:15:04.567Z'
   - VulnerabilityID: GHSA-xr7q-jx4m-x55m
