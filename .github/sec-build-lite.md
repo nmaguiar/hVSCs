@@ -742,7 +742,7 @@
 │                        │      │                  │       010/ 
 │                        │      │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2024-26458 
 │                        │      ├ PublishedDate   : 2024-02-29T01:44:18.78Z 
-│                        │      ╰ LastModifiedDate: 2024-05-14T15:09:00.47Z 
+│                        │      ╰ LastModifiedDate: 2024-12-06T21:15:06.28Z 
 │                        ├ [16] ╭ VulnerabilityID : CVE-2024-26461 
 │                        │      ├ PkgID           : krb5-locales@1.20.1-6ubuntu2.2 
 │                        │      ├ PkgName         : krb5-locales 
@@ -1030,7 +1030,7 @@
 │                        │      │                  │       010/ 
 │                        │      │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2024-26458 
 │                        │      ├ PublishedDate   : 2024-02-29T01:44:18.78Z 
-│                        │      ╰ LastModifiedDate: 2024-05-14T15:09:00.47Z 
+│                        │      ╰ LastModifiedDate: 2024-12-06T21:15:06.28Z 
 │                        ├ [22] ╭ VulnerabilityID : CVE-2024-26461 
 │                        │      ├ PkgID           : libgssapi-krb5-2@1.20.1-6ubuntu2.2 
 │                        │      ├ PkgName         : libgssapi-krb5-2 
@@ -1196,7 +1196,7 @@
 │                        │      │                  │       010/ 
 │                        │      │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2024-26458 
 │                        │      ├ PublishedDate   : 2024-02-29T01:44:18.78Z 
-│                        │      ╰ LastModifiedDate: 2024-05-14T15:09:00.47Z 
+│                        │      ╰ LastModifiedDate: 2024-12-06T21:15:06.28Z 
 │                        ├ [25] ╭ VulnerabilityID : CVE-2024-26461 
 │                        │      ├ PkgID           : libk5crypto3@1.20.1-6ubuntu2.2 
 │                        │      ├ PkgName         : libk5crypto3 
@@ -1362,7 +1362,7 @@
 │                        │      │                  │       010/ 
 │                        │      │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2024-26458 
 │                        │      ├ PublishedDate   : 2024-02-29T01:44:18.78Z 
-│                        │      ╰ LastModifiedDate: 2024-05-14T15:09:00.47Z 
+│                        │      ╰ LastModifiedDate: 2024-12-06T21:15:06.28Z 
 │                        ├ [28] ╭ VulnerabilityID : CVE-2024-26461 
 │                        │      ├ PkgID           : libkrb5-3@1.20.1-6ubuntu2.2 
 │                        │      ├ PkgName         : libkrb5-3 
@@ -1528,7 +1528,7 @@
 │                        │      │                  │       010/ 
 │                        │      │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2024-26458 
 │                        │      ├ PublishedDate   : 2024-02-29T01:44:18.78Z 
-│                        │      ╰ LastModifiedDate: 2024-05-14T15:09:00.47Z 
+│                        │      ╰ LastModifiedDate: 2024-12-06T21:15:06.28Z 
 │                        ├ [31] ╭ VulnerabilityID : CVE-2024-26461 
 │                        │      ├ PkgID           : libkrb5support0@1.20.1-6ubuntu2.2 
 │                        │      ├ PkgName         : libkrb5support0 
@@ -4125,7 +4125,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ amazon     : 3 
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
@@ -4208,7 +4208,7 @@
 │                        │      │                   bytes grows too small. 
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ amazon     : 3 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ nvd        : 2 
@@ -6969,7 +6969,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ amazon     : 3 
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
@@ -7052,7 +7052,7 @@
 │                        │      │                   bytes grows too small. 
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ amazon     : 3 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ nvd        : 2 
