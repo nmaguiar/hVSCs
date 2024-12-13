@@ -8252,15 +8252,117 @@
 - Target: usr/bin/docker-compose
   Class: lang-pkgs
   Type: gobinary
+  Vulnerabilities:
+  - VulnerabilityID: CVE-2024-45337
+    PkgID: golang.org/x/crypto@v0.27.0
+    PkgName: golang.org/x/crypto
+    PkgIdentifier:
+      PURL: pkg:golang/golang.org/x/crypto@v0.27.0
+      UID: 5d43e968773d77d9
+    InstalledVersion: v0.27.0
+    FixedVersion: 0.31.0
+    Status: fixed
+    Layer:
+      Digest: sha256:c00e9f20c11619ec18c49ef1d29566e4387f02e00da2b0b3318029c41df26b3e
+      DiffID: sha256:00e541010f8659f22b5bc95bc349618acf9cc32fcab683733108b06b510b510c
+    SeveritySource: ghsa
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-45337
+    DataSource:
+      ID: ghsa
+      Name: GitHub Security Advisory Go
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
+    Title: Applications and libraries which misuse the ServerConfig.PublicKeyCall ...
+    Description: Applications and libraries which misuse the ServerConfig.PublicKeyCallback callback may be susceptible to an authorization bypass.
+    Severity: HIGH
+    VendorSeverity:
+      ghsa: 3
+    References:
+    - http://www.openwall.com/lists/oss-security/2024/12/11/2
+    - https://github.com/golang/crypto
+    - https://github.com/golang/crypto/commit/b4f1988a35dee11ec3e05d6bf3e90b695fbd8909
+    - https://go.dev/cl/635315
+    - https://go.dev/issue/70779
+    - https://groups.google.com/g/golang-announce/c/-nPEi39gI4Q/m/cGVPJCqdAQAJ
+    - https://pkg.go.dev/vuln/GO-2024-3321
+    PublishedDate: '2024-12-12T02:02:07.97Z'
+    LastModifiedDate: '2024-12-12T02:15:24.673Z'
 - Target: usr/bin/helm
   Class: lang-pkgs
   Type: gobinary
+  Vulnerabilities:
+  - VulnerabilityID: CVE-2024-45337
+    PkgID: golang.org/x/crypto@v0.27.0
+    PkgName: golang.org/x/crypto
+    PkgIdentifier:
+      PURL: pkg:golang/golang.org/x/crypto@v0.27.0
+      UID: 2c48ad94df90e1d1
+    InstalledVersion: v0.27.0
+    FixedVersion: 0.31.0
+    Status: fixed
+    Layer:
+      Digest: sha256:c00e9f20c11619ec18c49ef1d29566e4387f02e00da2b0b3318029c41df26b3e
+      DiffID: sha256:00e541010f8659f22b5bc95bc349618acf9cc32fcab683733108b06b510b510c
+    SeveritySource: ghsa
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-45337
+    DataSource:
+      ID: ghsa
+      Name: GitHub Security Advisory Go
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
+    Title: Applications and libraries which misuse the ServerConfig.PublicKeyCall ...
+    Description: Applications and libraries which misuse the ServerConfig.PublicKeyCallback callback may be susceptible to an authorization bypass.
+    Severity: HIGH
+    VendorSeverity:
+      ghsa: 3
+    References:
+    - http://www.openwall.com/lists/oss-security/2024/12/11/2
+    - https://github.com/golang/crypto
+    - https://github.com/golang/crypto/commit/b4f1988a35dee11ec3e05d6bf3e90b695fbd8909
+    - https://go.dev/cl/635315
+    - https://go.dev/issue/70779
+    - https://groups.google.com/g/golang-announce/c/-nPEi39gI4Q/m/cGVPJCqdAQAJ
+    - https://pkg.go.dev/vuln/GO-2024-3321
+    PublishedDate: '2024-12-12T02:02:07.97Z'
+    LastModifiedDate: '2024-12-12T02:15:24.673Z'
 - Target: usr/bin/kubectl
   Class: lang-pkgs
   Type: gobinary
 - Target: usr/bin/mc
   Class: lang-pkgs
   Type: gobinary
+  Vulnerabilities:
+  - VulnerabilityID: CVE-2024-45337
+    PkgID: golang.org/x/crypto@v0.27.0
+    PkgName: golang.org/x/crypto
+    PkgIdentifier:
+      PURL: pkg:golang/golang.org/x/crypto@v0.27.0
+      UID: cf34dae4a4163322
+    InstalledVersion: v0.27.0
+    FixedVersion: 0.31.0
+    Status: fixed
+    Layer:
+      Digest: sha256:c00e9f20c11619ec18c49ef1d29566e4387f02e00da2b0b3318029c41df26b3e
+      DiffID: sha256:00e541010f8659f22b5bc95bc349618acf9cc32fcab683733108b06b510b510c
+    SeveritySource: ghsa
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-45337
+    DataSource:
+      ID: ghsa
+      Name: GitHub Security Advisory Go
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
+    Title: Applications and libraries which misuse the ServerConfig.PublicKeyCall ...
+    Description: Applications and libraries which misuse the ServerConfig.PublicKeyCallback callback may be susceptible to an authorization bypass.
+    Severity: HIGH
+    VendorSeverity:
+      ghsa: 3
+    References:
+    - http://www.openwall.com/lists/oss-security/2024/12/11/2
+    - https://github.com/golang/crypto
+    - https://github.com/golang/crypto/commit/b4f1988a35dee11ec3e05d6bf3e90b695fbd8909
+    - https://go.dev/cl/635315
+    - https://go.dev/issue/70779
+    - https://groups.google.com/g/golang-announce/c/-nPEi39gI4Q/m/cGVPJCqdAQAJ
+    - https://pkg.go.dev/vuln/GO-2024-3321
+    PublishedDate: '2024-12-12T02:02:07.97Z'
+    LastModifiedDate: '2024-12-12T02:15:24.673Z'
 - Target: usr/local/bin/k3d
   Class: lang-pkgs
   Type: gobinary
@@ -8333,6 +8435,39 @@
     - https://www.docker.com/blog/docker-security-advisory-docker-engine-authz-plugin/
     PublishedDate: '2024-07-24T17:15:11.053Z'
     LastModifiedDate: '2024-07-30T20:15:04.567Z'
+  - VulnerabilityID: CVE-2024-45337
+    PkgID: golang.org/x/crypto@v0.24.0
+    PkgName: golang.org/x/crypto
+    PkgIdentifier:
+      PURL: pkg:golang/golang.org/x/crypto@v0.24.0
+      UID: 51665884b15027a5
+    InstalledVersion: v0.24.0
+    FixedVersion: 0.31.0
+    Status: fixed
+    Layer:
+      Digest: sha256:c00e9f20c11619ec18c49ef1d29566e4387f02e00da2b0b3318029c41df26b3e
+      DiffID: sha256:00e541010f8659f22b5bc95bc349618acf9cc32fcab683733108b06b510b510c
+    SeveritySource: ghsa
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-45337
+    DataSource:
+      ID: ghsa
+      Name: GitHub Security Advisory Go
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
+    Title: Applications and libraries which misuse the ServerConfig.PublicKeyCall ...
+    Description: Applications and libraries which misuse the ServerConfig.PublicKeyCallback callback may be susceptible to an authorization bypass.
+    Severity: HIGH
+    VendorSeverity:
+      ghsa: 3
+    References:
+    - http://www.openwall.com/lists/oss-security/2024/12/11/2
+    - https://github.com/golang/crypto
+    - https://github.com/golang/crypto/commit/b4f1988a35dee11ec3e05d6bf3e90b695fbd8909
+    - https://go.dev/cl/635315
+    - https://go.dev/issue/70779
+    - https://groups.google.com/g/golang-announce/c/-nPEi39gI4Q/m/cGVPJCqdAQAJ
+    - https://pkg.go.dev/vuln/GO-2024-3321
+    PublishedDate: '2024-12-12T02:02:07.97Z'
+    LastModifiedDate: '2024-12-12T02:15:24.673Z'
   - VulnerabilityID: GHSA-xr7q-jx4m-x55m
     PkgID: google.golang.org/grpc@v1.64.0
     PkgName: google.golang.org/grpc
