@@ -6240,15 +6240,117 @@
 - Target: usr/bin/docker-compose
   Class: lang-pkgs
   Type: gobinary
+  Vulnerabilities:
+  - VulnerabilityID: CVE-2024-45337
+    PkgID: golang.org/x/crypto@v0.27.0
+    PkgName: golang.org/x/crypto
+    PkgIdentifier:
+      PURL: pkg:golang/golang.org/x/crypto@v0.27.0
+      UID: 5d43e968773d77d9
+    InstalledVersion: v0.27.0
+    FixedVersion: 0.31.0
+    Status: fixed
+    Layer:
+      Digest: sha256:f9cc1a6a0a0696b2bca04f931491ceb5f72a8950bb14c4f050d2a73fe0c38e04
+      DiffID: sha256:9efc7b412722427a6d44eb1550b0d725c0876f575deb2414780f88ee688de4a1
+    SeveritySource: ghsa
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-45337
+    DataSource:
+      ID: ghsa
+      Name: GitHub Security Advisory Go
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
+    Title: Applications and libraries which misuse the ServerConfig.PublicKeyCall ...
+    Description: Applications and libraries which misuse the ServerConfig.PublicKeyCallback callback may be susceptible to an authorization bypass.
+    Severity: HIGH
+    VendorSeverity:
+      ghsa: 3
+    References:
+    - http://www.openwall.com/lists/oss-security/2024/12/11/2
+    - https://github.com/golang/crypto
+    - https://github.com/golang/crypto/commit/b4f1988a35dee11ec3e05d6bf3e90b695fbd8909
+    - https://go.dev/cl/635315
+    - https://go.dev/issue/70779
+    - https://groups.google.com/g/golang-announce/c/-nPEi39gI4Q/m/cGVPJCqdAQAJ
+    - https://pkg.go.dev/vuln/GO-2024-3321
+    PublishedDate: '2024-12-12T02:02:07.97Z'
+    LastModifiedDate: '2024-12-12T02:15:24.673Z'
 - Target: usr/bin/helm
   Class: lang-pkgs
   Type: gobinary
+  Vulnerabilities:
+  - VulnerabilityID: CVE-2024-45337
+    PkgID: golang.org/x/crypto@v0.27.0
+    PkgName: golang.org/x/crypto
+    PkgIdentifier:
+      PURL: pkg:golang/golang.org/x/crypto@v0.27.0
+      UID: 2c48ad94df90e1d1
+    InstalledVersion: v0.27.0
+    FixedVersion: 0.31.0
+    Status: fixed
+    Layer:
+      Digest: sha256:f9cc1a6a0a0696b2bca04f931491ceb5f72a8950bb14c4f050d2a73fe0c38e04
+      DiffID: sha256:9efc7b412722427a6d44eb1550b0d725c0876f575deb2414780f88ee688de4a1
+    SeveritySource: ghsa
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-45337
+    DataSource:
+      ID: ghsa
+      Name: GitHub Security Advisory Go
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
+    Title: Applications and libraries which misuse the ServerConfig.PublicKeyCall ...
+    Description: Applications and libraries which misuse the ServerConfig.PublicKeyCallback callback may be susceptible to an authorization bypass.
+    Severity: HIGH
+    VendorSeverity:
+      ghsa: 3
+    References:
+    - http://www.openwall.com/lists/oss-security/2024/12/11/2
+    - https://github.com/golang/crypto
+    - https://github.com/golang/crypto/commit/b4f1988a35dee11ec3e05d6bf3e90b695fbd8909
+    - https://go.dev/cl/635315
+    - https://go.dev/issue/70779
+    - https://groups.google.com/g/golang-announce/c/-nPEi39gI4Q/m/cGVPJCqdAQAJ
+    - https://pkg.go.dev/vuln/GO-2024-3321
+    PublishedDate: '2024-12-12T02:02:07.97Z'
+    LastModifiedDate: '2024-12-12T02:15:24.673Z'
 - Target: usr/bin/kubectl
   Class: lang-pkgs
   Type: gobinary
 - Target: usr/bin/mc
   Class: lang-pkgs
   Type: gobinary
+  Vulnerabilities:
+  - VulnerabilityID: CVE-2024-45337
+    PkgID: golang.org/x/crypto@v0.27.0
+    PkgName: golang.org/x/crypto
+    PkgIdentifier:
+      PURL: pkg:golang/golang.org/x/crypto@v0.27.0
+      UID: cf34dae4a4163322
+    InstalledVersion: v0.27.0
+    FixedVersion: 0.31.0
+    Status: fixed
+    Layer:
+      Digest: sha256:f9cc1a6a0a0696b2bca04f931491ceb5f72a8950bb14c4f050d2a73fe0c38e04
+      DiffID: sha256:9efc7b412722427a6d44eb1550b0d725c0876f575deb2414780f88ee688de4a1
+    SeveritySource: ghsa
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-45337
+    DataSource:
+      ID: ghsa
+      Name: GitHub Security Advisory Go
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
+    Title: Applications and libraries which misuse the ServerConfig.PublicKeyCall ...
+    Description: Applications and libraries which misuse the ServerConfig.PublicKeyCallback callback may be susceptible to an authorization bypass.
+    Severity: HIGH
+    VendorSeverity:
+      ghsa: 3
+    References:
+    - http://www.openwall.com/lists/oss-security/2024/12/11/2
+    - https://github.com/golang/crypto
+    - https://github.com/golang/crypto/commit/b4f1988a35dee11ec3e05d6bf3e90b695fbd8909
+    - https://go.dev/cl/635315
+    - https://go.dev/issue/70779
+    - https://groups.google.com/g/golang-announce/c/-nPEi39gI4Q/m/cGVPJCqdAQAJ
+    - https://pkg.go.dev/vuln/GO-2024-3321
+    PublishedDate: '2024-12-12T02:02:07.97Z'
+    LastModifiedDate: '2024-12-12T02:15:24.673Z'
 - Target: usr/local/bin/k3d
   Class: lang-pkgs
   Type: gobinary
@@ -6321,6 +6423,39 @@
     - https://www.docker.com/blog/docker-security-advisory-docker-engine-authz-plugin/
     PublishedDate: '2024-07-24T17:15:11.053Z'
     LastModifiedDate: '2024-07-30T20:15:04.567Z'
+  - VulnerabilityID: CVE-2024-45337
+    PkgID: golang.org/x/crypto@v0.24.0
+    PkgName: golang.org/x/crypto
+    PkgIdentifier:
+      PURL: pkg:golang/golang.org/x/crypto@v0.24.0
+      UID: 51665884b15027a5
+    InstalledVersion: v0.24.0
+    FixedVersion: 0.31.0
+    Status: fixed
+    Layer:
+      Digest: sha256:f9cc1a6a0a0696b2bca04f931491ceb5f72a8950bb14c4f050d2a73fe0c38e04
+      DiffID: sha256:9efc7b412722427a6d44eb1550b0d725c0876f575deb2414780f88ee688de4a1
+    SeveritySource: ghsa
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-45337
+    DataSource:
+      ID: ghsa
+      Name: GitHub Security Advisory Go
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
+    Title: Applications and libraries which misuse the ServerConfig.PublicKeyCall ...
+    Description: Applications and libraries which misuse the ServerConfig.PublicKeyCallback callback may be susceptible to an authorization bypass.
+    Severity: HIGH
+    VendorSeverity:
+      ghsa: 3
+    References:
+    - http://www.openwall.com/lists/oss-security/2024/12/11/2
+    - https://github.com/golang/crypto
+    - https://github.com/golang/crypto/commit/b4f1988a35dee11ec3e05d6bf3e90b695fbd8909
+    - https://go.dev/cl/635315
+    - https://go.dev/issue/70779
+    - https://groups.google.com/g/golang-announce/c/-nPEi39gI4Q/m/cGVPJCqdAQAJ
+    - https://pkg.go.dev/vuln/GO-2024-3321
+    PublishedDate: '2024-12-12T02:02:07.97Z'
+    LastModifiedDate: '2024-12-12T02:15:24.673Z'
   - VulnerabilityID: GHSA-xr7q-jx4m-x55m
     PkgID: google.golang.org/grpc@v1.64.0
     PkgName: google.golang.org/grpc
@@ -6356,6 +6491,37 @@
     - https://github.com/grpc/grpc-go
     - https://github.com/grpc/grpc-go/commit/ab292411ddc0f3b7a7786754d1fe05264c3021eb
     - https://github.com/grpc/grpc-go/security/advisories/GHSA-xr7q-jx4m-x55m
+- Target: /etc/ssh/ssh_host_ecdsa_key
+  Class: secret
+  Secrets:
+  - RuleID: private-key
+    Category: AsymmetricPrivateKey
+    Severity: HIGH
+    Title: Asymmetric Private Key
+    StartLine: 1
+    EndLine: 1
+    Code:
+      Lines:
+      - Number: 1
+        Content: BEGIN OPENSSH PRIVATE KEY-----************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
+        IsCause: true
+        Annotation: ''
+        Truncated: false
+        Highlighted: BEGIN OPENSSH PRIVATE KEY-----************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
+        FirstCause: true
+        LastCause: true
+      - Number: 2
+        Content: ''
+        IsCause: false
+        Annotation: ''
+        Truncated: false
+        FirstCause: false
+        LastCause: false
+    Match: BEGIN OPENSSH PRIVATE KEY-----************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
+    Layer:
+      Digest: sha256:f9cc1a6a0a0696b2bca04f931491ceb5f72a8950bb14c4f050d2a73fe0c38e04
+      DiffID: sha256:9efc7b412722427a6d44eb1550b0d725c0876f575deb2414780f88ee688de4a1
+      CreatedBy: 'COPY / / # buildkit'
 - Target: /etc/ssh/ssh_host_ed25519_key
   Class: secret
   Secrets:
@@ -6414,37 +6580,6 @@
         FirstCause: false
         LastCause: false
     Match: BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
-    Layer:
-      Digest: sha256:f9cc1a6a0a0696b2bca04f931491ceb5f72a8950bb14c4f050d2a73fe0c38e04
-      DiffID: sha256:9efc7b412722427a6d44eb1550b0d725c0876f575deb2414780f88ee688de4a1
-      CreatedBy: 'COPY / / # buildkit'
-- Target: /etc/ssh/ssh_host_ecdsa_key
-  Class: secret
-  Secrets:
-  - RuleID: private-key
-    Category: AsymmetricPrivateKey
-    Severity: HIGH
-    Title: Asymmetric Private Key
-    StartLine: 1
-    EndLine: 1
-    Code:
-      Lines:
-      - Number: 1
-        Content: BEGIN OPENSSH PRIVATE KEY-----************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
-        IsCause: true
-        Annotation: ''
-        Truncated: false
-        Highlighted: BEGIN OPENSSH PRIVATE KEY-----************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
-        FirstCause: true
-        LastCause: true
-      - Number: 2
-        Content: ''
-        IsCause: false
-        Annotation: ''
-        Truncated: false
-        FirstCause: false
-        LastCause: false
-    Match: BEGIN OPENSSH PRIVATE KEY-----************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
     Layer:
       Digest: sha256:f9cc1a6a0a0696b2bca04f931491ceb5f72a8950bb14c4f050d2a73fe0c38e04
       DiffID: sha256:9efc7b412722427a6d44eb1550b0d725c0876f575deb2414780f88ee688de4a1
