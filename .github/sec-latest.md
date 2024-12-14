@@ -2824,7 +2824,7 @@
 │                        │      │                  ├ [9] : https://github.com/python/cpython/issues/103848 
 │                        │      │                  ├ [10]: https://github.com/python/cpython/pull/103849 
 │                        │      │                  ├ [11]: https://linux.oracle.com/cve/CVE-2024-11168.html 
-│                        │      │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2024-10779.html 
+│                        │      │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2024-10983.html 
 │                        │      │                  ├ [13]: https://mail.python.org/archives/list/security-annou
 │                        │      │                  │       nce@python.org/thread/XPWB6XVZ5G5KGEI63M4AWLIEUF5BPH
 │                        │      │                  │       4T/ 
@@ -2881,7 +2881,7 @@
 │                        │      │                  ├ [9] : https://github.com/python/cpython/issues/103848 
 │                        │      │                  ├ [10]: https://github.com/python/cpython/pull/103849 
 │                        │      │                  ├ [11]: https://linux.oracle.com/cve/CVE-2024-11168.html 
-│                        │      │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2024-10779.html 
+│                        │      │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2024-10983.html 
 │                        │      │                  ├ [13]: https://mail.python.org/archives/list/security-annou
 │                        │      │                  │       nce@python.org/thread/XPWB6XVZ5G5KGEI63M4AWLIEUF5BPH
 │                        │      │                  │       4T/ 
@@ -2938,7 +2938,7 @@
 │                        │      │                  ├ [9] : https://github.com/python/cpython/issues/103848 
 │                        │      │                  ├ [10]: https://github.com/python/cpython/pull/103849 
 │                        │      │                  ├ [11]: https://linux.oracle.com/cve/CVE-2024-11168.html 
-│                        │      │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2024-10779.html 
+│                        │      │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2024-10983.html 
 │                        │      │                  ├ [13]: https://mail.python.org/archives/list/security-annou
 │                        │      │                  │       nce@python.org/thread/XPWB6XVZ5G5KGEI63M4AWLIEUF5BPH
 │                        │      │                  │       4T/ 
@@ -3985,7 +3985,7 @@
 │                        │      │                  ├ [9] : https://github.com/python/cpython/issues/103848 
 │                        │      │                  ├ [10]: https://github.com/python/cpython/pull/103849 
 │                        │      │                  ├ [11]: https://linux.oracle.com/cve/CVE-2024-11168.html 
-│                        │      │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2024-10779.html 
+│                        │      │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2024-10983.html 
 │                        │      │                  ├ [13]: https://mail.python.org/archives/list/security-annou
 │                        │      │                  │       nce@python.org/thread/XPWB6XVZ5G5KGEI63M4AWLIEUF5BPH
 │                        │      │                  │       4T/ 
@@ -4042,7 +4042,7 @@
 │                        │      │                  ├ [9] : https://github.com/python/cpython/issues/103848 
 │                        │      │                  ├ [10]: https://github.com/python/cpython/pull/103849 
 │                        │      │                  ├ [11]: https://linux.oracle.com/cve/CVE-2024-11168.html 
-│                        │      │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2024-10779.html 
+│                        │      │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2024-10983.html 
 │                        │      │                  ├ [13]: https://mail.python.org/archives/list/security-annou
 │                        │      │                  │       nce@python.org/thread/XPWB6XVZ5G5KGEI63M4AWLIEUF5BPH
 │                        │      │                  │       4T/ 
@@ -10191,24 +10191,69 @@
 │                              │                  ├ Name: GitHub Security Advisory Go 
 │                              │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+e
 │                              │                          cosystem%3Ago 
-│                              ├ Title           : Applications and libraries which misuse the
-│                              │                   ServerConfig.PublicKeyCall ... 
+│                              ├ Title           : golang.org/x/crypto/ssh: Misuse of
+│                              │                   ServerConfig.PublicKeyCallback may cause authorization
+│                              │                   bypass in golang.org/x/crypto 
 │                              ├ Description     : Applications and libraries which misuse the
 │                              │                   ServerConfig.PublicKeyCallback callback may be susceptible
-│                              │                   to an authorization bypass. 
+│                              │                   to an authorization bypass. The documentation for
+│                              │                   ServerConfig.PublicKeyCallback says that "A call to this
+│                              │                   function does not guarantee that the key offered is in fact
+│                              │                   used to authenticate." Specifically, the SSH protocol allows
+│                              │                    clients to inquire about whether a public key is acceptable
+│                              │                    before proving control of the corresponding private key.
+│                              │                   PublicKeyCallback may be called with multiple keys, and the
+│                              │                   order in which the keys were provided cannot be used to
+│                              │                   infer which key the client successfully authenticated with,
+│                              │                   if any. Some applications, which store the key(s) passed to
+│                              │                   PublicKeyCallback (or derived information) and make security
+│                              │                    relevant determinations based on it once the connection is
+│                              │                   established, may make incorrect assumptions. For example, an
+│                              │                    attacker may send public keys A and B, and then
+│                              │                   authenticate with A. PublicKeyCallback would be called only
+│                              │                   twice, first with A and then with B. A vulnerable
+│                              │                   application may then make authorization decisions based on
+│                              │                   key B for which the attacker does not actually control the
+│                              │                   private key. Since this API is widely misused, as a partial
+│                              │                   mitigation golang.org/x/cry...@v0.31.0 enforces the property
+│                              │                    that, when successfully authenticating via public key, the
+│                              │                   last key passed to ServerConfig.PublicKeyCallback will be
+│                              │                   the key used to authenticate the connection.
+│                              │                   PublicKeyCallback will now be called multiple times with the
+│                              │                    same key, if necessary. Note that the client may still not
+│                              │                   control the last key passed to PublicKeyCallback if the
+│                              │                   connection is then authenticated with a different method,
+│                              │                   such as PasswordCallback, KeyboardInteractiveCallback, or
+│                              │                   NoClientAuth. Users should be using the Extensions field of
+│                              │                   the Permissions return value from the various authentication
+│                              │                    callbacks to record data associated with the authentication
+│                              │                    attempt instead of referencing external state. Once the
+│                              │                   connection is established the state corresponding to the
+│                              │                   successful authentication attempt can be retrieved via the
+│                              │                   ServerConn.Permissions field. Note that some third-party
+│                              │                   libraries misuse the Permissions type by sharing it across
+│                              │                   authentication attempts; users of third-party libraries
+│                              │                   should refer to the relevant projects for guidance. 
 │                              ├ Severity        : HIGH 
-│                              ├ VendorSeverity   ─ ghsa: 3 
+│                              ├ VendorSeverity   ╭ ghsa  : 3 
+│                              │                  ╰ redhat: 3 
+│                              ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:N
+│                              │                           │           /A:N 
+│                              │                           ╰ V3Score : 7.7 
 │                              ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2024/12/11/2 
-│                              │                  ├ [1]: https://github.com/golang/crypto 
-│                              │                  ├ [2]: https://github.com/golang/crypto/commit/b4f1988a35dee1
+│                              │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2024-45337 
+│                              │                  ├ [2]: https://github.com/golang/crypto 
+│                              │                  ├ [3]: https://github.com/golang/crypto/commit/b4f1988a35dee1
 │                              │                  │      1ec3e05d6bf3e90b695fbd8909 
-│                              │                  ├ [3]: https://go.dev/cl/635315 
-│                              │                  ├ [4]: https://go.dev/issue/70779 
-│                              │                  ├ [5]: https://groups.google.com/g/golang-announce/c/-nPEi39g
+│                              │                  ├ [4]: https://go.dev/cl/635315 
+│                              │                  ├ [5]: https://go.dev/issue/70779 
+│                              │                  ├ [6]: https://groups.google.com/g/golang-announce/c/-nPEi39g
 │                              │                  │      I4Q/m/cGVPJCqdAQAJ 
-│                              │                  ╰ [6]: https://pkg.go.dev/vuln/GO-2024-3321 
+│                              │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2024-45337 
+│                              │                  ├ [8]: https://pkg.go.dev/vuln/GO-2024-3321 
+│                              │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2024-45337 
 │                              ├ PublishedDate   : 2024-12-12T02:02:07.97Z 
-│                              ╰ LastModifiedDate: 2024-12-12T02:15:24.673Z 
+│                              ╰ LastModifiedDate: 2024-12-12T21:15:08.5Z 
 ├ [6]  ╭ Target         : usr/bin/helm 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : gobinary 
@@ -10230,24 +10275,69 @@
 │                              │                  ├ Name: GitHub Security Advisory Go 
 │                              │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+e
 │                              │                          cosystem%3Ago 
-│                              ├ Title           : Applications and libraries which misuse the
-│                              │                   ServerConfig.PublicKeyCall ... 
+│                              ├ Title           : golang.org/x/crypto/ssh: Misuse of
+│                              │                   ServerConfig.PublicKeyCallback may cause authorization
+│                              │                   bypass in golang.org/x/crypto 
 │                              ├ Description     : Applications and libraries which misuse the
 │                              │                   ServerConfig.PublicKeyCallback callback may be susceptible
-│                              │                   to an authorization bypass. 
+│                              │                   to an authorization bypass. The documentation for
+│                              │                   ServerConfig.PublicKeyCallback says that "A call to this
+│                              │                   function does not guarantee that the key offered is in fact
+│                              │                   used to authenticate." Specifically, the SSH protocol allows
+│                              │                    clients to inquire about whether a public key is acceptable
+│                              │                    before proving control of the corresponding private key.
+│                              │                   PublicKeyCallback may be called with multiple keys, and the
+│                              │                   order in which the keys were provided cannot be used to
+│                              │                   infer which key the client successfully authenticated with,
+│                              │                   if any. Some applications, which store the key(s) passed to
+│                              │                   PublicKeyCallback (or derived information) and make security
+│                              │                    relevant determinations based on it once the connection is
+│                              │                   established, may make incorrect assumptions. For example, an
+│                              │                    attacker may send public keys A and B, and then
+│                              │                   authenticate with A. PublicKeyCallback would be called only
+│                              │                   twice, first with A and then with B. A vulnerable
+│                              │                   application may then make authorization decisions based on
+│                              │                   key B for which the attacker does not actually control the
+│                              │                   private key. Since this API is widely misused, as a partial
+│                              │                   mitigation golang.org/x/cry...@v0.31.0 enforces the property
+│                              │                    that, when successfully authenticating via public key, the
+│                              │                   last key passed to ServerConfig.PublicKeyCallback will be
+│                              │                   the key used to authenticate the connection.
+│                              │                   PublicKeyCallback will now be called multiple times with the
+│                              │                    same key, if necessary. Note that the client may still not
+│                              │                   control the last key passed to PublicKeyCallback if the
+│                              │                   connection is then authenticated with a different method,
+│                              │                   such as PasswordCallback, KeyboardInteractiveCallback, or
+│                              │                   NoClientAuth. Users should be using the Extensions field of
+│                              │                   the Permissions return value from the various authentication
+│                              │                    callbacks to record data associated with the authentication
+│                              │                    attempt instead of referencing external state. Once the
+│                              │                   connection is established the state corresponding to the
+│                              │                   successful authentication attempt can be retrieved via the
+│                              │                   ServerConn.Permissions field. Note that some third-party
+│                              │                   libraries misuse the Permissions type by sharing it across
+│                              │                   authentication attempts; users of third-party libraries
+│                              │                   should refer to the relevant projects for guidance. 
 │                              ├ Severity        : HIGH 
-│                              ├ VendorSeverity   ─ ghsa: 3 
+│                              ├ VendorSeverity   ╭ ghsa  : 3 
+│                              │                  ╰ redhat: 3 
+│                              ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:N
+│                              │                           │           /A:N 
+│                              │                           ╰ V3Score : 7.7 
 │                              ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2024/12/11/2 
-│                              │                  ├ [1]: https://github.com/golang/crypto 
-│                              │                  ├ [2]: https://github.com/golang/crypto/commit/b4f1988a35dee1
+│                              │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2024-45337 
+│                              │                  ├ [2]: https://github.com/golang/crypto 
+│                              │                  ├ [3]: https://github.com/golang/crypto/commit/b4f1988a35dee1
 │                              │                  │      1ec3e05d6bf3e90b695fbd8909 
-│                              │                  ├ [3]: https://go.dev/cl/635315 
-│                              │                  ├ [4]: https://go.dev/issue/70779 
-│                              │                  ├ [5]: https://groups.google.com/g/golang-announce/c/-nPEi39g
+│                              │                  ├ [4]: https://go.dev/cl/635315 
+│                              │                  ├ [5]: https://go.dev/issue/70779 
+│                              │                  ├ [6]: https://groups.google.com/g/golang-announce/c/-nPEi39g
 │                              │                  │      I4Q/m/cGVPJCqdAQAJ 
-│                              │                  ╰ [6]: https://pkg.go.dev/vuln/GO-2024-3321 
+│                              │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2024-45337 
+│                              │                  ├ [8]: https://pkg.go.dev/vuln/GO-2024-3321 
+│                              │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2024-45337 
 │                              ├ PublishedDate   : 2024-12-12T02:02:07.97Z 
-│                              ╰ LastModifiedDate: 2024-12-12T02:15:24.673Z 
+│                              ╰ LastModifiedDate: 2024-12-12T21:15:08.5Z 
 ├ [7]  ╭ Target: usr/bin/kubectl 
 │      ├ Class : lang-pkgs 
 │      ╰ Type  : gobinary 
@@ -10272,24 +10362,69 @@
 │                              │                  ├ Name: GitHub Security Advisory Go 
 │                              │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+e
 │                              │                          cosystem%3Ago 
-│                              ├ Title           : Applications and libraries which misuse the
-│                              │                   ServerConfig.PublicKeyCall ... 
+│                              ├ Title           : golang.org/x/crypto/ssh: Misuse of
+│                              │                   ServerConfig.PublicKeyCallback may cause authorization
+│                              │                   bypass in golang.org/x/crypto 
 │                              ├ Description     : Applications and libraries which misuse the
 │                              │                   ServerConfig.PublicKeyCallback callback may be susceptible
-│                              │                   to an authorization bypass. 
+│                              │                   to an authorization bypass. The documentation for
+│                              │                   ServerConfig.PublicKeyCallback says that "A call to this
+│                              │                   function does not guarantee that the key offered is in fact
+│                              │                   used to authenticate." Specifically, the SSH protocol allows
+│                              │                    clients to inquire about whether a public key is acceptable
+│                              │                    before proving control of the corresponding private key.
+│                              │                   PublicKeyCallback may be called with multiple keys, and the
+│                              │                   order in which the keys were provided cannot be used to
+│                              │                   infer which key the client successfully authenticated with,
+│                              │                   if any. Some applications, which store the key(s) passed to
+│                              │                   PublicKeyCallback (or derived information) and make security
+│                              │                    relevant determinations based on it once the connection is
+│                              │                   established, may make incorrect assumptions. For example, an
+│                              │                    attacker may send public keys A and B, and then
+│                              │                   authenticate with A. PublicKeyCallback would be called only
+│                              │                   twice, first with A and then with B. A vulnerable
+│                              │                   application may then make authorization decisions based on
+│                              │                   key B for which the attacker does not actually control the
+│                              │                   private key. Since this API is widely misused, as a partial
+│                              │                   mitigation golang.org/x/cry...@v0.31.0 enforces the property
+│                              │                    that, when successfully authenticating via public key, the
+│                              │                   last key passed to ServerConfig.PublicKeyCallback will be
+│                              │                   the key used to authenticate the connection.
+│                              │                   PublicKeyCallback will now be called multiple times with the
+│                              │                    same key, if necessary. Note that the client may still not
+│                              │                   control the last key passed to PublicKeyCallback if the
+│                              │                   connection is then authenticated with a different method,
+│                              │                   such as PasswordCallback, KeyboardInteractiveCallback, or
+│                              │                   NoClientAuth. Users should be using the Extensions field of
+│                              │                   the Permissions return value from the various authentication
+│                              │                    callbacks to record data associated with the authentication
+│                              │                    attempt instead of referencing external state. Once the
+│                              │                   connection is established the state corresponding to the
+│                              │                   successful authentication attempt can be retrieved via the
+│                              │                   ServerConn.Permissions field. Note that some third-party
+│                              │                   libraries misuse the Permissions type by sharing it across
+│                              │                   authentication attempts; users of third-party libraries
+│                              │                   should refer to the relevant projects for guidance. 
 │                              ├ Severity        : HIGH 
-│                              ├ VendorSeverity   ─ ghsa: 3 
+│                              ├ VendorSeverity   ╭ ghsa  : 3 
+│                              │                  ╰ redhat: 3 
+│                              ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:N
+│                              │                           │           /A:N 
+│                              │                           ╰ V3Score : 7.7 
 │                              ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2024/12/11/2 
-│                              │                  ├ [1]: https://github.com/golang/crypto 
-│                              │                  ├ [2]: https://github.com/golang/crypto/commit/b4f1988a35dee1
+│                              │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2024-45337 
+│                              │                  ├ [2]: https://github.com/golang/crypto 
+│                              │                  ├ [3]: https://github.com/golang/crypto/commit/b4f1988a35dee1
 │                              │                  │      1ec3e05d6bf3e90b695fbd8909 
-│                              │                  ├ [3]: https://go.dev/cl/635315 
-│                              │                  ├ [4]: https://go.dev/issue/70779 
-│                              │                  ├ [5]: https://groups.google.com/g/golang-announce/c/-nPEi39g
+│                              │                  ├ [4]: https://go.dev/cl/635315 
+│                              │                  ├ [5]: https://go.dev/issue/70779 
+│                              │                  ├ [6]: https://groups.google.com/g/golang-announce/c/-nPEi39g
 │                              │                  │      I4Q/m/cGVPJCqdAQAJ 
-│                              │                  ╰ [6]: https://pkg.go.dev/vuln/GO-2024-3321 
+│                              │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2024-45337 
+│                              │                  ├ [8]: https://pkg.go.dev/vuln/GO-2024-3321 
+│                              │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2024-45337 
 │                              ├ PublishedDate   : 2024-12-12T02:02:07.97Z 
-│                              ╰ LastModifiedDate: 2024-12-12T02:15:24.673Z 
+│                              ╰ LastModifiedDate: 2024-12-12T21:15:08.5Z 
 ├ [9]  ╭ Target         : usr/local/bin/k3d 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : gobinary 
@@ -10410,24 +10545,69 @@
 │                        │     │                  ├ Name: GitHub Security Advisory Go 
 │                        │     │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+e
 │                        │     │                          cosystem%3Ago 
-│                        │     ├ Title           : Applications and libraries which misuse the
-│                        │     │                   ServerConfig.PublicKeyCall ... 
+│                        │     ├ Title           : golang.org/x/crypto/ssh: Misuse of
+│                        │     │                   ServerConfig.PublicKeyCallback may cause authorization
+│                        │     │                   bypass in golang.org/x/crypto 
 │                        │     ├ Description     : Applications and libraries which misuse the
 │                        │     │                   ServerConfig.PublicKeyCallback callback may be susceptible
-│                        │     │                   to an authorization bypass. 
+│                        │     │                   to an authorization bypass. The documentation for
+│                        │     │                   ServerConfig.PublicKeyCallback says that "A call to this
+│                        │     │                   function does not guarantee that the key offered is in fact
+│                        │     │                   used to authenticate." Specifically, the SSH protocol allows
+│                        │     │                    clients to inquire about whether a public key is acceptable
+│                        │     │                    before proving control of the corresponding private key.
+│                        │     │                   PublicKeyCallback may be called with multiple keys, and the
+│                        │     │                   order in which the keys were provided cannot be used to
+│                        │     │                   infer which key the client successfully authenticated with,
+│                        │     │                   if any. Some applications, which store the key(s) passed to
+│                        │     │                   PublicKeyCallback (or derived information) and make security
+│                        │     │                    relevant determinations based on it once the connection is
+│                        │     │                   established, may make incorrect assumptions. For example, an
+│                        │     │                    attacker may send public keys A and B, and then
+│                        │     │                   authenticate with A. PublicKeyCallback would be called only
+│                        │     │                   twice, first with A and then with B. A vulnerable
+│                        │     │                   application may then make authorization decisions based on
+│                        │     │                   key B for which the attacker does not actually control the
+│                        │     │                   private key. Since this API is widely misused, as a partial
+│                        │     │                   mitigation golang.org/x/cry...@v0.31.0 enforces the property
+│                        │     │                    that, when successfully authenticating via public key, the
+│                        │     │                   last key passed to ServerConfig.PublicKeyCallback will be
+│                        │     │                   the key used to authenticate the connection.
+│                        │     │                   PublicKeyCallback will now be called multiple times with the
+│                        │     │                    same key, if necessary. Note that the client may still not
+│                        │     │                   control the last key passed to PublicKeyCallback if the
+│                        │     │                   connection is then authenticated with a different method,
+│                        │     │                   such as PasswordCallback, KeyboardInteractiveCallback, or
+│                        │     │                   NoClientAuth. Users should be using the Extensions field of
+│                        │     │                   the Permissions return value from the various authentication
+│                        │     │                    callbacks to record data associated with the authentication
+│                        │     │                    attempt instead of referencing external state. Once the
+│                        │     │                   connection is established the state corresponding to the
+│                        │     │                   successful authentication attempt can be retrieved via the
+│                        │     │                   ServerConn.Permissions field. Note that some third-party
+│                        │     │                   libraries misuse the Permissions type by sharing it across
+│                        │     │                   authentication attempts; users of third-party libraries
+│                        │     │                   should refer to the relevant projects for guidance. 
 │                        │     ├ Severity        : HIGH 
-│                        │     ├ VendorSeverity   ─ ghsa: 3 
+│                        │     ├ VendorSeverity   ╭ ghsa  : 3 
+│                        │     │                  ╰ redhat: 3 
+│                        │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:N
+│                        │     │                           │           /A:N 
+│                        │     │                           ╰ V3Score : 7.7 
 │                        │     ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2024/12/11/2 
-│                        │     │                  ├ [1]: https://github.com/golang/crypto 
-│                        │     │                  ├ [2]: https://github.com/golang/crypto/commit/b4f1988a35dee1
+│                        │     │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2024-45337 
+│                        │     │                  ├ [2]: https://github.com/golang/crypto 
+│                        │     │                  ├ [3]: https://github.com/golang/crypto/commit/b4f1988a35dee1
 │                        │     │                  │      1ec3e05d6bf3e90b695fbd8909 
-│                        │     │                  ├ [3]: https://go.dev/cl/635315 
-│                        │     │                  ├ [4]: https://go.dev/issue/70779 
-│                        │     │                  ├ [5]: https://groups.google.com/g/golang-announce/c/-nPEi39g
+│                        │     │                  ├ [4]: https://go.dev/cl/635315 
+│                        │     │                  ├ [5]: https://go.dev/issue/70779 
+│                        │     │                  ├ [6]: https://groups.google.com/g/golang-announce/c/-nPEi39g
 │                        │     │                  │      I4Q/m/cGVPJCqdAQAJ 
-│                        │     │                  ╰ [6]: https://pkg.go.dev/vuln/GO-2024-3321 
+│                        │     │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2024-45337 
+│                        │     │                  ├ [8]: https://pkg.go.dev/vuln/GO-2024-3321 
+│                        │     │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2024-45337 
 │                        │     ├ PublishedDate   : 2024-12-12T02:02:07.97Z 
-│                        │     ╰ LastModifiedDate: 2024-12-12T02:15:24.673Z 
+│                        │     ╰ LastModifiedDate: 2024-12-12T21:15:08.5Z 
 │                        ╰ [2] ╭ VulnerabilityID : GHSA-xr7q-jx4m-x55m 
 │                              ├ PkgID           : google.golang.org/grpc@v1.64.0 
 │                              ├ PkgName         : google.golang.org/grpc 
@@ -10468,46 +10648,7 @@
 │                                                 │      7a7786754d1fe05264c3021eb 
 │                                                 ╰ [2]: https://github.com/grpc/grpc-go/security/advisories/GH
 │                                                        SA-xr7q-jx4m-x55m 
-├ [10] ╭ Target : /etc/ssh/ssh_host_dsa_key 
-│      ├ Class  : secret 
-│      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
-│                      ├ Category : AsymmetricPrivateKey 
-│                      ├ Severity : HIGH 
-│                      ├ Title    : Asymmetric Private Key 
-│                      ├ StartLine: 1 
-│                      ├ EndLine  : 1 
-│                      ├ Code      ─ Lines ╭ [0] ╭ Number     : 1 
-│                      │                   │     ├ Content    : BEGIN OPENSSH PRIVATE
-│                      │                   │     │              KEY-----***************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ****************-----END OPENSSH PRI 
-│                      │                   │     ├ IsCause    : true 
-│                      │                   │     ├ Annotation :  
-│                      │                   │     ├ Truncated  : false 
-│                      │                   │     ├ Highlighted: BEGIN OPENSSH PRIVATE
-│                      │                   │     │              KEY-----***************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ****************-----END OPENSSH PRI 
-│                      │                   │     ├ FirstCause : true 
-│                      │                   │     ╰ LastCause  : true 
-│                      │                   ╰ [1] ╭ Number    : 2 
-│                      │                         ├ Content   :  
-│                      │                         ├ IsCause   : false 
-│                      │                         ├ Annotation:  
-│                      │                         ├ Truncated : false 
-│                      │                         ├ FirstCause: false 
-│                      │                         ╰ LastCause : false 
-│                      ├ Match    : BEGIN OPENSSH PRIVATE
-│                      │            KEY-----*******************************************************************
-│                      │            ***************************************************************************
-│                      │            *********************************************************-----END OPENSSH
-│                      │            PRI 
-│                      ╰ Layer     ╭ Digest   : sha256:c00e9f20c11619ec18c49ef1d29566e4387f02e00da2b0b3318029c4
-│                                  │            1df26b3e 
-│                                  ├ DiffID   : sha256:00e541010f8659f22b5bc95bc349618acf9cc32fcab683733108b06b
-│                                  │            510b510c 
-│                                  ╰ CreatedBy: COPY / / # buildkit 
-├ [11] ╭ Target : /etc/ssh/ssh_host_ecdsa_key 
+├ [10] ╭ Target : /etc/ssh/ssh_host_ecdsa_key 
 │      ├ Class  : secret 
 │      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
 │                      ├ Category : AsymmetricPrivateKey 
@@ -10547,7 +10688,7 @@
 │                                  ├ DiffID   : sha256:00e541010f8659f22b5bc95bc349618acf9cc32fcab683733108b06b
 │                                  │            510b510c 
 │                                  ╰ CreatedBy: COPY / / # buildkit 
-├ [12] ╭ Target : /etc/ssh/ssh_host_ed25519_key 
+├ [11] ╭ Target : /etc/ssh/ssh_host_ed25519_key 
 │      ├ Class  : secret 
 │      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
 │                      ├ Category : AsymmetricPrivateKey 
@@ -10585,7 +10726,46 @@
 │                                  ├ DiffID   : sha256:00e541010f8659f22b5bc95bc349618acf9cc32fcab683733108b06b
 │                                  │            510b510c 
 │                                  ╰ CreatedBy: COPY / / # buildkit 
-╰ [13] ╭ Target : /etc/ssh/ssh_host_rsa_key 
+├ [12] ╭ Target : /etc/ssh/ssh_host_rsa_key 
+│      ├ Class  : secret 
+│      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
+│                      ├ Category : AsymmetricPrivateKey 
+│                      ├ Severity : HIGH 
+│                      ├ Title    : Asymmetric Private Key 
+│                      ├ StartLine: 1 
+│                      ├ EndLine  : 1 
+│                      ├ Code      ─ Lines ╭ [0] ╭ Number     : 1 
+│                      │                   │     ├ Content    : BEGIN OPENSSH PRIVATE
+│                      │                   │     │              KEY-----***************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********-----END OPENSSH PRI 
+│                      │                   │     ├ IsCause    : true 
+│                      │                   │     ├ Annotation :  
+│                      │                   │     ├ Truncated  : false 
+│                      │                   │     ├ Highlighted: BEGIN OPENSSH PRIVATE
+│                      │                   │     │              KEY-----***************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********-----END OPENSSH PRI 
+│                      │                   │     ├ FirstCause : true 
+│                      │                   │     ╰ LastCause  : true 
+│                      │                   ╰ [1] ╭ Number    : 2 
+│                      │                         ├ Content   :  
+│                      │                         ├ IsCause   : false 
+│                      │                         ├ Annotation:  
+│                      │                         ├ Truncated : false 
+│                      │                         ├ FirstCause: false 
+│                      │                         ╰ LastCause : false 
+│                      ├ Match    : BEGIN OPENSSH PRIVATE
+│                      │            KEY-----*******************************************************************
+│                      │            ***************************************************************************
+│                      │            **************************************************************************-
+│                      │            ----END OPENSSH PRI 
+│                      ╰ Layer     ╭ Digest   : sha256:c00e9f20c11619ec18c49ef1d29566e4387f02e00da2b0b3318029c4
+│                                  │            1df26b3e 
+│                                  ├ DiffID   : sha256:00e541010f8659f22b5bc95bc349618acf9cc32fcab683733108b06b
+│                                  │            510b510c 
+│                                  ╰ CreatedBy: COPY / / # buildkit 
+╰ [13] ╭ Target : /etc/ssh/ssh_host_dsa_key 
        ├ Class  : secret 
        ╰ Secrets ─ [0] ╭ RuleID   : private-key 
                        ├ Category : AsymmetricPrivateKey 
@@ -10597,14 +10777,14 @@
                        │                   │     ├ Content    : BEGIN OPENSSH PRIVATE
                        │                   │     │              KEY-----***************************************
                        │                   │     │              ***********************************************
-                       │                   │     │              ***********-----END OPENSSH PRI 
+                       │                   │     │              ****************-----END OPENSSH PRI 
                        │                   │     ├ IsCause    : true 
                        │                   │     ├ Annotation :  
                        │                   │     ├ Truncated  : false 
                        │                   │     ├ Highlighted: BEGIN OPENSSH PRIVATE
                        │                   │     │              KEY-----***************************************
                        │                   │     │              ***********************************************
-                       │                   │     │              ***********-----END OPENSSH PRI 
+                       │                   │     │              ****************-----END OPENSSH PRI 
                        │                   │     ├ FirstCause : true 
                        │                   │     ╰ LastCause  : true 
                        │                   ╰ [1] ╭ Number    : 2 
@@ -10617,8 +10797,8 @@
                        ├ Match    : BEGIN OPENSSH PRIVATE
                        │            KEY-----*******************************************************************
                        │            ***************************************************************************
-                       │            **************************************************************************-
-                       │            ----END OPENSSH PRI 
+                       │            *********************************************************-----END OPENSSH
+                       │            PRI 
                        ╰ Layer     ╭ Digest   : sha256:c00e9f20c11619ec18c49ef1d29566e4387f02e00da2b0b3318029c4
                                    │            1df26b3e 
                                    ├ DiffID   : sha256:00e541010f8659f22b5bc95bc349618acf9cc32fcab683733108b06b
