@@ -4832,7 +4832,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ amazon     : 3 
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ ghsa       : 2 
@@ -6326,7 +6326,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ amazon     : 3 
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
@@ -6403,7 +6403,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ amazon     : 3 
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
@@ -7676,7 +7676,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ amazon     : 3 
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ ghsa       : 2 
@@ -9170,7 +9170,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ amazon     : 3 
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
@@ -9247,7 +9247,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ amazon     : 3 
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
@@ -10234,10 +10234,13 @@
 │                              │                   libraries misuse the Permissions type by sharing it across
 │                              │                   authentication attempts; users of third-party libraries
 │                              │                   should refer to the relevant projects for guidance. 
-│                              ├ Severity        : HIGH 
-│                              ├ VendorSeverity   ╭ ghsa  : 3 
+│                              ├ Severity        : CRITICAL 
+│                              ├ VendorSeverity   ╭ ghsa  : 4 
 │                              │                  ╰ redhat: 3 
-│                              ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:N
+│                              ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H
+│                              │                  │        │           /A:N 
+│                              │                  │        ╰ V3Score : 9.1 
+│                              │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:N
 │                              │                           │           /A:N 
 │                              │                           ╰ V3Score : 7.7 
 │                              ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2024/12/11/2 
@@ -10318,10 +10321,13 @@
 │                              │                   libraries misuse the Permissions type by sharing it across
 │                              │                   authentication attempts; users of third-party libraries
 │                              │                   should refer to the relevant projects for guidance. 
-│                              ├ Severity        : HIGH 
-│                              ├ VendorSeverity   ╭ ghsa  : 3 
+│                              ├ Severity        : CRITICAL 
+│                              ├ VendorSeverity   ╭ ghsa  : 4 
 │                              │                  ╰ redhat: 3 
-│                              ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:N
+│                              ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H
+│                              │                  │        │           /A:N 
+│                              │                  │        ╰ V3Score : 9.1 
+│                              │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:N
 │                              │                           │           /A:N 
 │                              │                           ╰ V3Score : 7.7 
 │                              ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2024/12/11/2 
@@ -10405,10 +10411,13 @@
 │                              │                   libraries misuse the Permissions type by sharing it across
 │                              │                   authentication attempts; users of third-party libraries
 │                              │                   should refer to the relevant projects for guidance. 
-│                              ├ Severity        : HIGH 
-│                              ├ VendorSeverity   ╭ ghsa  : 3 
+│                              ├ Severity        : CRITICAL 
+│                              ├ VendorSeverity   ╭ ghsa  : 4 
 │                              │                  ╰ redhat: 3 
-│                              ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:N
+│                              ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H
+│                              │                  │        │           /A:N 
+│                              │                  │        ╰ V3Score : 9.1 
+│                              │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:N
 │                              │                           │           /A:N 
 │                              │                           ╰ V3Score : 7.7 
 │                              ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2024/12/11/2 
@@ -10588,10 +10597,13 @@
 │                        │     │                   libraries misuse the Permissions type by sharing it across
 │                        │     │                   authentication attempts; users of third-party libraries
 │                        │     │                   should refer to the relevant projects for guidance. 
-│                        │     ├ Severity        : HIGH 
-│                        │     ├ VendorSeverity   ╭ ghsa  : 3 
+│                        │     ├ Severity        : CRITICAL 
+│                        │     ├ VendorSeverity   ╭ ghsa  : 4 
 │                        │     │                  ╰ redhat: 3 
-│                        │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:N
+│                        │     ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H
+│                        │     │                  │        │           /A:N 
+│                        │     │                  │        ╰ V3Score : 9.1 
+│                        │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:N
 │                        │     │                           │           /A:N 
 │                        │     │                           ╰ V3Score : 7.7 
 │                        │     ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2024/12/11/2 
@@ -10648,47 +10660,7 @@
 │                                                 │      7a7786754d1fe05264c3021eb 
 │                                                 ╰ [2]: https://github.com/grpc/grpc-go/security/advisories/GH
 │                                                        SA-xr7q-jx4m-x55m 
-├ [10] ╭ Target : /etc/ssh/ssh_host_ecdsa_key 
-│      ├ Class  : secret 
-│      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
-│                      ├ Category : AsymmetricPrivateKey 
-│                      ├ Severity : HIGH 
-│                      ├ Title    : Asymmetric Private Key 
-│                      ├ StartLine: 1 
-│                      ├ EndLine  : 1 
-│                      ├ Code      ─ Lines ╭ [0] ╭ Number     : 1 
-│                      │                   │     ├ Content    : BEGIN OPENSSH PRIVATE
-│                      │                   │     │              KEY-----***************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              *****************************-----END OPENSSH
-│                      │                   │     │              PRI 
-│                      │                   │     ├ IsCause    : true 
-│                      │                   │     ├ Annotation :  
-│                      │                   │     ├ Truncated  : false 
-│                      │                   │     ├ Highlighted: BEGIN OPENSSH PRIVATE
-│                      │                   │     │              KEY-----***************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              *****************************-----END OPENSSH
-│                      │                   │     │              PRI 
-│                      │                   │     ├ FirstCause : true 
-│                      │                   │     ╰ LastCause  : true 
-│                      │                   ╰ [1] ╭ Number    : 2 
-│                      │                         ├ Content   :  
-│                      │                         ├ IsCause   : false 
-│                      │                         ├ Annotation:  
-│                      │                         ├ Truncated : false 
-│                      │                         ├ FirstCause: false 
-│                      │                         ╰ LastCause : false 
-│                      ├ Match    : BEGIN OPENSSH PRIVATE
-│                      │            KEY-----*******************************************************************
-│                      │            ***************************************************************************
-│                      │            **-----END OPENSSH PRI 
-│                      ╰ Layer     ╭ Digest   : sha256:c00e9f20c11619ec18c49ef1d29566e4387f02e00da2b0b3318029c4
-│                                  │            1df26b3e 
-│                                  ├ DiffID   : sha256:00e541010f8659f22b5bc95bc349618acf9cc32fcab683733108b06b
-│                                  │            510b510c 
-│                                  ╰ CreatedBy: COPY / / # buildkit 
-├ [11] ╭ Target : /etc/ssh/ssh_host_ed25519_key 
+├ [10] ╭ Target : /etc/ssh/ssh_host_ed25519_key 
 │      ├ Class  : secret 
 │      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
 │                      ├ Category : AsymmetricPrivateKey 
@@ -10726,7 +10698,7 @@
 │                                  ├ DiffID   : sha256:00e541010f8659f22b5bc95bc349618acf9cc32fcab683733108b06b
 │                                  │            510b510c 
 │                                  ╰ CreatedBy: COPY / / # buildkit 
-├ [12] ╭ Target : /etc/ssh/ssh_host_rsa_key 
+├ [11] ╭ Target : /etc/ssh/ssh_host_rsa_key 
 │      ├ Class  : secret 
 │      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
 │                      ├ Category : AsymmetricPrivateKey 
@@ -10765,7 +10737,46 @@
 │                                  ├ DiffID   : sha256:00e541010f8659f22b5bc95bc349618acf9cc32fcab683733108b06b
 │                                  │            510b510c 
 │                                  ╰ CreatedBy: COPY / / # buildkit 
-╰ [13] ╭ Target : /etc/ssh/ssh_host_dsa_key 
+├ [12] ╭ Target : /etc/ssh/ssh_host_dsa_key 
+│      ├ Class  : secret 
+│      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
+│                      ├ Category : AsymmetricPrivateKey 
+│                      ├ Severity : HIGH 
+│                      ├ Title    : Asymmetric Private Key 
+│                      ├ StartLine: 1 
+│                      ├ EndLine  : 1 
+│                      ├ Code      ─ Lines ╭ [0] ╭ Number     : 1 
+│                      │                   │     ├ Content    : BEGIN OPENSSH PRIVATE
+│                      │                   │     │              KEY-----***************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ****************-----END OPENSSH PRI 
+│                      │                   │     ├ IsCause    : true 
+│                      │                   │     ├ Annotation :  
+│                      │                   │     ├ Truncated  : false 
+│                      │                   │     ├ Highlighted: BEGIN OPENSSH PRIVATE
+│                      │                   │     │              KEY-----***************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ****************-----END OPENSSH PRI 
+│                      │                   │     ├ FirstCause : true 
+│                      │                   │     ╰ LastCause  : true 
+│                      │                   ╰ [1] ╭ Number    : 2 
+│                      │                         ├ Content   :  
+│                      │                         ├ IsCause   : false 
+│                      │                         ├ Annotation:  
+│                      │                         ├ Truncated : false 
+│                      │                         ├ FirstCause: false 
+│                      │                         ╰ LastCause : false 
+│                      ├ Match    : BEGIN OPENSSH PRIVATE
+│                      │            KEY-----*******************************************************************
+│                      │            ***************************************************************************
+│                      │            *********************************************************-----END OPENSSH
+│                      │            PRI 
+│                      ╰ Layer     ╭ Digest   : sha256:c00e9f20c11619ec18c49ef1d29566e4387f02e00da2b0b3318029c4
+│                                  │            1df26b3e 
+│                                  ├ DiffID   : sha256:00e541010f8659f22b5bc95bc349618acf9cc32fcab683733108b06b
+│                                  │            510b510c 
+│                                  ╰ CreatedBy: COPY / / # buildkit 
+╰ [13] ╭ Target : /etc/ssh/ssh_host_ecdsa_key 
        ├ Class  : secret 
        ╰ Secrets ─ [0] ╭ RuleID   : private-key 
                        ├ Category : AsymmetricPrivateKey 
@@ -10777,14 +10788,16 @@
                        │                   │     ├ Content    : BEGIN OPENSSH PRIVATE
                        │                   │     │              KEY-----***************************************
                        │                   │     │              ***********************************************
-                       │                   │     │              ****************-----END OPENSSH PRI 
+                       │                   │     │              *****************************-----END OPENSSH
+                       │                   │     │              PRI 
                        │                   │     ├ IsCause    : true 
                        │                   │     ├ Annotation :  
                        │                   │     ├ Truncated  : false 
                        │                   │     ├ Highlighted: BEGIN OPENSSH PRIVATE
                        │                   │     │              KEY-----***************************************
                        │                   │     │              ***********************************************
-                       │                   │     │              ****************-----END OPENSSH PRI 
+                       │                   │     │              *****************************-----END OPENSSH
+                       │                   │     │              PRI 
                        │                   │     ├ FirstCause : true 
                        │                   │     ╰ LastCause  : true 
                        │                   ╰ [1] ╭ Number    : 2 
@@ -10797,8 +10810,7 @@
                        ├ Match    : BEGIN OPENSSH PRIVATE
                        │            KEY-----*******************************************************************
                        │            ***************************************************************************
-                       │            *********************************************************-----END OPENSSH
-                       │            PRI 
+                       │            **-----END OPENSSH PRI 
                        ╰ Layer     ╭ Digest   : sha256:c00e9f20c11619ec18c49ef1d29566e4387f02e00da2b0b3318029c4
                                    │            1df26b3e 
                                    ├ DiffID   : sha256:00e541010f8659f22b5bc95bc349618acf9cc32fcab683733108b06b
