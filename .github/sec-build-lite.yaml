@@ -1716,6 +1716,7 @@
         V3Score: 4.7
     References:
     - https://access.redhat.com/errata/RHSA-2024:10379
+    - https://access.redhat.com/errata/RHSA-2024:11250
     - https://access.redhat.com/errata/RHSA-2024:9941
     - https://access.redhat.com/security/cve/CVE-2024-10041
     - https://bugzilla.redhat.com/2319212
@@ -1727,7 +1728,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2024-10041
     - https://www.cve.org/CVERecord?id=CVE-2024-10041
     PublishedDate: '2024-10-23T14:15:03.97Z'
-    LastModifiedDate: '2024-11-26T16:15:09.23Z'
+    LastModifiedDate: '2024-12-18T10:15:05.85Z'
   - VulnerabilityID: CVE-2024-10963
     PkgID: libpam-modules@1.5.3-5ubuntu5.1
     PkgName: libpam-modules
@@ -1804,6 +1805,7 @@
         V3Score: 4.7
     References:
     - https://access.redhat.com/errata/RHSA-2024:10379
+    - https://access.redhat.com/errata/RHSA-2024:11250
     - https://access.redhat.com/errata/RHSA-2024:9941
     - https://access.redhat.com/security/cve/CVE-2024-10041
     - https://bugzilla.redhat.com/2319212
@@ -1815,7 +1817,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2024-10041
     - https://www.cve.org/CVERecord?id=CVE-2024-10041
     PublishedDate: '2024-10-23T14:15:03.97Z'
-    LastModifiedDate: '2024-11-26T16:15:09.23Z'
+    LastModifiedDate: '2024-12-18T10:15:05.85Z'
   - VulnerabilityID: CVE-2024-10963
     PkgID: libpam-modules-bin@1.5.3-5ubuntu5.1
     PkgName: libpam-modules-bin
@@ -1892,6 +1894,7 @@
         V3Score: 4.7
     References:
     - https://access.redhat.com/errata/RHSA-2024:10379
+    - https://access.redhat.com/errata/RHSA-2024:11250
     - https://access.redhat.com/errata/RHSA-2024:9941
     - https://access.redhat.com/security/cve/CVE-2024-10041
     - https://bugzilla.redhat.com/2319212
@@ -1903,7 +1906,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2024-10041
     - https://www.cve.org/CVERecord?id=CVE-2024-10041
     PublishedDate: '2024-10-23T14:15:03.97Z'
-    LastModifiedDate: '2024-11-26T16:15:09.23Z'
+    LastModifiedDate: '2024-12-18T10:15:05.85Z'
   - VulnerabilityID: CVE-2024-10963
     PkgID: libpam-runtime@1.5.3-5ubuntu5.1
     PkgName: libpam-runtime
@@ -1980,6 +1983,7 @@
         V3Score: 4.7
     References:
     - https://access.redhat.com/errata/RHSA-2024:10379
+    - https://access.redhat.com/errata/RHSA-2024:11250
     - https://access.redhat.com/errata/RHSA-2024:9941
     - https://access.redhat.com/security/cve/CVE-2024-10041
     - https://bugzilla.redhat.com/2319212
@@ -1991,7 +1995,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2024-10041
     - https://www.cve.org/CVERecord?id=CVE-2024-10041
     PublishedDate: '2024-10-23T14:15:03.97Z'
-    LastModifiedDate: '2024-11-26T16:15:09.23Z'
+    LastModifiedDate: '2024-12-18T10:15:05.85Z'
   - VulnerabilityID: CVE-2024-10963
     PkgID: libpam0g@1.5.3-5ubuntu5.1
     PkgName: libpam0g
@@ -2446,7 +2450,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       azure: 2
       cbl-mariner: 2
       ghsa: 2
@@ -3451,7 +3455,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -3521,7 +3525,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -4504,7 +4508,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       azure: 2
       cbl-mariner: 2
       ghsa: 2
@@ -5509,7 +5513,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -5579,7 +5583,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -6415,8 +6419,8 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N
         V3Score: 9.1
       redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:N/A:N
-        V3Score: 7.7
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:N
+        V3Score: 8.2
     References:
     - http://www.openwall.com/lists/oss-security/2024/12/11/2
     - https://access.redhat.com/security/cve/CVE-2024-45337
@@ -6466,8 +6470,8 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N
         V3Score: 9.1
       redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:N/A:N
-        V3Score: 7.7
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:N
+        V3Score: 8.2
     References:
     - http://www.openwall.com/lists/oss-security/2024/12/11/2
     - https://access.redhat.com/security/cve/CVE-2024-45337
@@ -6548,6 +6552,7 @@
     - https://github.com/moby/moby/commit/fc274cd2ff4cf3b48c91697fb327dd1fb95588fb
     - https://github.com/moby/moby/security/advisories/GHSA-v23v-6jw2-98fq
     - https://nvd.nist.gov/vuln/detail/CVE-2024-41110
+    - https://ubuntu.com/security/notices/USN-7161-1
     - https://www.cve.org/CVERecord?id=CVE-2024-41110
     - https://www.docker.com/blog/docker-security-advisory-docker-engine-authz-plugin
     - https://www.docker.com/blog/docker-security-advisory-docker-engine-authz-plugin/
@@ -6582,8 +6587,8 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N
         V3Score: 9.1
       redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:N/A:N
-        V3Score: 7.7
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:N
+        V3Score: 8.2
     References:
     - http://www.openwall.com/lists/oss-security/2024/12/11/2
     - https://access.redhat.com/security/cve/CVE-2024-45337
