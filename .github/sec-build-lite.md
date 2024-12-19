@@ -1762,18 +1762,19 @@
 │                        │      │                           │           N/A:N 
 │                        │      │                           ╰ V3Score : 4.7 
 │                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:10379 
-│                        │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2024:9941 
-│                        │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2024-10041 
-│                        │      │                  ├ [3] : https://bugzilla.redhat.com/2319212 
-│                        │      │                  ├ [4] : https://bugzilla.redhat.com/2324291 
-│                        │      │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2319212 
-│                        │      │                  ├ [6] : https://errata.almalinux.org/8/ALSA-2024-10379.html 
-│                        │      │                  ├ [7] : https://linux.oracle.com/cve/CVE-2024-10041.html 
-│                        │      │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2024-10379.html 
-│                        │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2024-10041 
-│                        │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2024-10041 
+│                        │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2024:11250 
+│                        │      │                  ├ [2] : https://access.redhat.com/errata/RHSA-2024:9941 
+│                        │      │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2024-10041 
+│                        │      │                  ├ [4] : https://bugzilla.redhat.com/2319212 
+│                        │      │                  ├ [5] : https://bugzilla.redhat.com/2324291 
+│                        │      │                  ├ [6] : https://bugzilla.redhat.com/show_bug.cgi?id=2319212 
+│                        │      │                  ├ [7] : https://errata.almalinux.org/8/ALSA-2024-10379.html 
+│                        │      │                  ├ [8] : https://linux.oracle.com/cve/CVE-2024-10041.html 
+│                        │      │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2024-10379.html 
+│                        │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2024-10041 
+│                        │      │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2024-10041 
 │                        │      ├ PublishedDate   : 2024-10-23T14:15:03.97Z 
-│                        │      ╰ LastModifiedDate: 2024-11-26T16:15:09.23Z 
+│                        │      ╰ LastModifiedDate: 2024-12-18T10:15:05.85Z 
 │                        ├ [36] ╭ VulnerabilityID : CVE-2024-10963 
 │                        │      ├ PkgID           : libpam-modules@1.5.3-5ubuntu5.1 
 │                        │      ├ PkgName         : libpam-modules 
@@ -1856,18 +1857,19 @@
 │                        │      │                           │           N/A:N 
 │                        │      │                           ╰ V3Score : 4.7 
 │                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:10379 
-│                        │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2024:9941 
-│                        │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2024-10041 
-│                        │      │                  ├ [3] : https://bugzilla.redhat.com/2319212 
-│                        │      │                  ├ [4] : https://bugzilla.redhat.com/2324291 
-│                        │      │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2319212 
-│                        │      │                  ├ [6] : https://errata.almalinux.org/8/ALSA-2024-10379.html 
-│                        │      │                  ├ [7] : https://linux.oracle.com/cve/CVE-2024-10041.html 
-│                        │      │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2024-10379.html 
-│                        │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2024-10041 
-│                        │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2024-10041 
+│                        │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2024:11250 
+│                        │      │                  ├ [2] : https://access.redhat.com/errata/RHSA-2024:9941 
+│                        │      │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2024-10041 
+│                        │      │                  ├ [4] : https://bugzilla.redhat.com/2319212 
+│                        │      │                  ├ [5] : https://bugzilla.redhat.com/2324291 
+│                        │      │                  ├ [6] : https://bugzilla.redhat.com/show_bug.cgi?id=2319212 
+│                        │      │                  ├ [7] : https://errata.almalinux.org/8/ALSA-2024-10379.html 
+│                        │      │                  ├ [8] : https://linux.oracle.com/cve/CVE-2024-10041.html 
+│                        │      │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2024-10379.html 
+│                        │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2024-10041 
+│                        │      │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2024-10041 
 │                        │      ├ PublishedDate   : 2024-10-23T14:15:03.97Z 
-│                        │      ╰ LastModifiedDate: 2024-11-26T16:15:09.23Z 
+│                        │      ╰ LastModifiedDate: 2024-12-18T10:15:05.85Z 
 │                        ├ [38] ╭ VulnerabilityID : CVE-2024-10963 
 │                        │      ├ PkgID           : libpam-modules-bin@1.5.3-5ubuntu5.1 
 │                        │      ├ PkgName         : libpam-modules-bin 
@@ -1950,18 +1952,19 @@
 │                        │      │                           │           N/A:N 
 │                        │      │                           ╰ V3Score : 4.7 
 │                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:10379 
-│                        │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2024:9941 
-│                        │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2024-10041 
-│                        │      │                  ├ [3] : https://bugzilla.redhat.com/2319212 
-│                        │      │                  ├ [4] : https://bugzilla.redhat.com/2324291 
-│                        │      │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2319212 
-│                        │      │                  ├ [6] : https://errata.almalinux.org/8/ALSA-2024-10379.html 
-│                        │      │                  ├ [7] : https://linux.oracle.com/cve/CVE-2024-10041.html 
-│                        │      │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2024-10379.html 
-│                        │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2024-10041 
-│                        │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2024-10041 
+│                        │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2024:11250 
+│                        │      │                  ├ [2] : https://access.redhat.com/errata/RHSA-2024:9941 
+│                        │      │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2024-10041 
+│                        │      │                  ├ [4] : https://bugzilla.redhat.com/2319212 
+│                        │      │                  ├ [5] : https://bugzilla.redhat.com/2324291 
+│                        │      │                  ├ [6] : https://bugzilla.redhat.com/show_bug.cgi?id=2319212 
+│                        │      │                  ├ [7] : https://errata.almalinux.org/8/ALSA-2024-10379.html 
+│                        │      │                  ├ [8] : https://linux.oracle.com/cve/CVE-2024-10041.html 
+│                        │      │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2024-10379.html 
+│                        │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2024-10041 
+│                        │      │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2024-10041 
 │                        │      ├ PublishedDate   : 2024-10-23T14:15:03.97Z 
-│                        │      ╰ LastModifiedDate: 2024-11-26T16:15:09.23Z 
+│                        │      ╰ LastModifiedDate: 2024-12-18T10:15:05.85Z 
 │                        ├ [40] ╭ VulnerabilityID : CVE-2024-10963 
 │                        │      ├ PkgID           : libpam-runtime@1.5.3-5ubuntu5.1 
 │                        │      ├ PkgName         : libpam-runtime 
@@ -2044,18 +2047,19 @@
 │                        │      │                           │           N/A:N 
 │                        │      │                           ╰ V3Score : 4.7 
 │                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:10379 
-│                        │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2024:9941 
-│                        │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2024-10041 
-│                        │      │                  ├ [3] : https://bugzilla.redhat.com/2319212 
-│                        │      │                  ├ [4] : https://bugzilla.redhat.com/2324291 
-│                        │      │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2319212 
-│                        │      │                  ├ [6] : https://errata.almalinux.org/8/ALSA-2024-10379.html 
-│                        │      │                  ├ [7] : https://linux.oracle.com/cve/CVE-2024-10041.html 
-│                        │      │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2024-10379.html 
-│                        │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2024-10041 
-│                        │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2024-10041 
+│                        │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2024:11250 
+│                        │      │                  ├ [2] : https://access.redhat.com/errata/RHSA-2024:9941 
+│                        │      │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2024-10041 
+│                        │      │                  ├ [4] : https://bugzilla.redhat.com/2319212 
+│                        │      │                  ├ [5] : https://bugzilla.redhat.com/2324291 
+│                        │      │                  ├ [6] : https://bugzilla.redhat.com/show_bug.cgi?id=2319212 
+│                        │      │                  ├ [7] : https://errata.almalinux.org/8/ALSA-2024-10379.html 
+│                        │      │                  ├ [8] : https://linux.oracle.com/cve/CVE-2024-10041.html 
+│                        │      │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2024-10379.html 
+│                        │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2024-10041 
+│                        │      │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2024-10041 
 │                        │      ├ PublishedDate   : 2024-10-23T14:15:03.97Z 
-│                        │      ╰ LastModifiedDate: 2024-11-26T16:15:09.23Z 
+│                        │      ╰ LastModifiedDate: 2024-12-18T10:15:05.85Z 
 │                        ├ [42] ╭ VulnerabilityID : CVE-2024-10963 
 │                        │      ├ PkgID           : libpam0g@1.5.3-5ubuntu5.1 
 │                        │      ├ PkgName         : libpam0g 
@@ -2692,7 +2696,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ ghsa       : 2 
@@ -4189,7 +4193,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
@@ -4266,7 +4270,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
@@ -5539,7 +5543,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ ghsa       : 2 
@@ -7036,7 +7040,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
@@ -7113,7 +7117,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
@@ -8109,9 +8113,9 @@
 │                              ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H
 │                              │                  │        │           /A:N 
 │                              │                  │        ╰ V3Score : 9.1 
-│                              │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:N
+│                              │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:H/I:H
 │                              │                           │           /A:N 
-│                              │                           ╰ V3Score : 7.7 
+│                              │                           ╰ V3Score : 8.2 
 │                              ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2024/12/11/2 
 │                              │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2024-45337 
 │                              │                  ├ [2]: https://github.com/golang/crypto 
@@ -8199,9 +8203,9 @@
 │                              ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H
 │                              │                  │        │           /A:N 
 │                              │                  │        ╰ V3Score : 9.1 
-│                              │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:N
+│                              │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:H/I:H
 │                              │                           │           /A:N 
-│                              │                           ╰ V3Score : 7.7 
+│                              │                           ╰ V3Score : 8.2 
 │                              ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2024/12/11/2 
 │                              │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2024-45337 
 │                              │                  ├ [2]: https://github.com/golang/crypto 
@@ -8311,10 +8315,11 @@
 │                        │     │                  ├ [12]: https://github.com/moby/moby/security/advisories/GHSA
 │                        │     │                  │       -v23v-6jw2-98fq 
 │                        │     │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2024-41110 
-│                        │     │                  ├ [14]: https://www.cve.org/CVERecord?id=CVE-2024-41110 
-│                        │     │                  ├ [15]: https://www.docker.com/blog/docker-security-advisory-
+│                        │     │                  ├ [14]: https://ubuntu.com/security/notices/USN-7161-1 
+│                        │     │                  ├ [15]: https://www.cve.org/CVERecord?id=CVE-2024-41110 
+│                        │     │                  ├ [16]: https://www.docker.com/blog/docker-security-advisory-
 │                        │     │                  │       docker-engine-authz-plugin 
-│                        │     │                  ╰ [16]: https://www.docker.com/blog/docker-security-advisory-
+│                        │     │                  ╰ [17]: https://www.docker.com/blog/docker-security-advisory-
 │                        │     │                          docker-engine-authz-plugin/ 
 │                        │     ├ PublishedDate   : 2024-07-24T17:15:11.053Z 
 │                        │     ╰ LastModifiedDate: 2024-07-30T20:15:04.567Z 
@@ -8385,9 +8390,9 @@
 │                        │     ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H
 │                        │     │                  │        │           /A:N 
 │                        │     │                  │        ╰ V3Score : 9.1 
-│                        │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:N
+│                        │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:H/I:H
 │                        │     │                           │           /A:N 
-│                        │     │                           ╰ V3Score : 7.7 
+│                        │     │                           ╰ V3Score : 8.2 
 │                        │     ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2024/12/11/2 
 │                        │     │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2024-45337 
 │                        │     │                  ├ [2]: https://github.com/golang/crypto 
