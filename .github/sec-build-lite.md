@@ -2611,22 +2611,28 @@
 │                        │      │                  ├ Name: GitHub Security Advisory Go 
 │                        │      │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+
 │                        │      │                          ecosystem%3Ago 
-│                        │      ├ Title           : Non-linear parsing of case-insensitive content in
-│                        │      │                   golang.org/x/net/html 
+│                        │      ├ Title           : golang.org/x/net/html: Non-linear parsing of
+│                        │      │                   case-insensitive content in golang.org/x/net/html 
 │                        │      ├ Description     : An attacker can craft an input to the Parse functions that
 │                        │      │                   would be processed non-linearly with respect to its length,
 │                        │      │                    resulting in extremely slow parsing. This could cause a
 │                        │      │                   denial of service. 
 │                        │      ├ Severity        : HIGH 
-│                        │      ├ VendorSeverity   ─ ghsa: 3 
-│                        │      ├ References       ╭ [0]: https://cs.opensource.google/go/x/net 
-│                        │      │                  ├ [1]: https://github.com/golang/go/issues/70906 
-│                        │      │                  ├ [2]: https://go.dev/cl/637536 
-│                        │      │                  ├ [3]: https://go.dev/issue/70906 
-│                        │      │                  ├ [4]: https://groups.google.com/g/golang-announce/c/wSCRmFn
+│                        │      ├ VendorSeverity   ╭ ghsa  : 3 
+│                        │      │                  ╰ redhat: 3 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
+│                        │      │                           │           N/A:H 
+│                        │      │                           ╰ V3Score : 7.5 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-45338 
+│                        │      │                  ├ [1]: https://cs.opensource.google/go/x/net 
+│                        │      │                  ├ [2]: https://github.com/golang/go/issues/70906 
+│                        │      │                  ├ [3]: https://go.dev/cl/637536 
+│                        │      │                  ├ [4]: https://go.dev/issue/70906 
+│                        │      │                  ├ [5]: https://groups.google.com/g/golang-announce/c/wSCRmFn
 │                        │      │                  │      NmPA/m/Lvcd0mRMAwAJ 
-│                        │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-45338 
-│                        │      │                  ╰ [6]: https://pkg.go.dev/vuln/GO-2024-3333 
+│                        │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2024-45338 
+│                        │      │                  ├ [7]: https://pkg.go.dev/vuln/GO-2024-3333 
+│                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-45338 
 │                        │      ├ PublishedDate   : 2024-12-18T21:15:08.173Z 
 │                        │      ╰ LastModifiedDate: 2024-12-18T21:15:08.173Z 
 │                        ├ [2]  ╭ VulnerabilityID : CVE-2023-3978 
@@ -3216,10 +3222,13 @@
 │                        │      │                  │        ack 
 │                        │      │                  ├ [237]: https://www.theregister.com/2023/10/10/http2_rapid_
 │                        │      │                  │        reset_zeroday 
-│                        │      │                  ╰ [238]: https://www.theregister.com/2023/10/10/http2_rapid_
-│                        │      │                           reset_zeroday/ 
+│                        │      │                  ├ [238]: https://www.theregister.com/2023/10/10/http2_rapid_
+│                        │      │                  │        reset_zeroday/ 
+│                        │      │                  ╰ [239]: https://www.vicarius.io/vsociety/posts/rapid-reset-
+│                        │      │                           cve-2023-44487-dos-in-http2-understanding-the-root-
+│                        │      │                           cause 
 │                        │      ├ PublishedDate   : 2023-10-10T14:15:10.883Z 
-│                        │      ╰ LastModifiedDate: 2024-08-14T19:57:18.86Z 
+│                        │      ╰ LastModifiedDate: 2024-12-20T17:40:52.067Z 
 │                        ├ [4]  ╭ VulnerabilityID : CVE-2023-45288 
 │                        │      ├ PkgID           : golang.org/x/net@v0.12.0 
 │                        │      ├ PkgName         : golang.org/x/net 
@@ -5491,22 +5500,28 @@
 │                        │      │                  ├ Name: GitHub Security Advisory Go 
 │                        │      │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+
 │                        │      │                          ecosystem%3Ago 
-│                        │      ├ Title           : Non-linear parsing of case-insensitive content in
-│                        │      │                   golang.org/x/net/html 
+│                        │      ├ Title           : golang.org/x/net/html: Non-linear parsing of
+│                        │      │                   case-insensitive content in golang.org/x/net/html 
 │                        │      ├ Description     : An attacker can craft an input to the Parse functions that
 │                        │      │                   would be processed non-linearly with respect to its length,
 │                        │      │                    resulting in extremely slow parsing. This could cause a
 │                        │      │                   denial of service. 
 │                        │      ├ Severity        : HIGH 
-│                        │      ├ VendorSeverity   ─ ghsa: 3 
-│                        │      ├ References       ╭ [0]: https://cs.opensource.google/go/x/net 
-│                        │      │                  ├ [1]: https://github.com/golang/go/issues/70906 
-│                        │      │                  ├ [2]: https://go.dev/cl/637536 
-│                        │      │                  ├ [3]: https://go.dev/issue/70906 
-│                        │      │                  ├ [4]: https://groups.google.com/g/golang-announce/c/wSCRmFn
+│                        │      ├ VendorSeverity   ╭ ghsa  : 3 
+│                        │      │                  ╰ redhat: 3 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
+│                        │      │                           │           N/A:H 
+│                        │      │                           ╰ V3Score : 7.5 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-45338 
+│                        │      │                  ├ [1]: https://cs.opensource.google/go/x/net 
+│                        │      │                  ├ [2]: https://github.com/golang/go/issues/70906 
+│                        │      │                  ├ [3]: https://go.dev/cl/637536 
+│                        │      │                  ├ [4]: https://go.dev/issue/70906 
+│                        │      │                  ├ [5]: https://groups.google.com/g/golang-announce/c/wSCRmFn
 │                        │      │                  │      NmPA/m/Lvcd0mRMAwAJ 
-│                        │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-45338 
-│                        │      │                  ╰ [6]: https://pkg.go.dev/vuln/GO-2024-3333 
+│                        │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2024-45338 
+│                        │      │                  ├ [7]: https://pkg.go.dev/vuln/GO-2024-3333 
+│                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-45338 
 │                        │      ├ PublishedDate   : 2024-12-18T21:15:08.173Z 
 │                        │      ╰ LastModifiedDate: 2024-12-18T21:15:08.173Z 
 │                        ├ [2]  ╭ VulnerabilityID : CVE-2023-3978 
@@ -6096,10 +6111,13 @@
 │                        │      │                  │        ack 
 │                        │      │                  ├ [237]: https://www.theregister.com/2023/10/10/http2_rapid_
 │                        │      │                  │        reset_zeroday 
-│                        │      │                  ╰ [238]: https://www.theregister.com/2023/10/10/http2_rapid_
-│                        │      │                           reset_zeroday/ 
+│                        │      │                  ├ [238]: https://www.theregister.com/2023/10/10/http2_rapid_
+│                        │      │                  │        reset_zeroday/ 
+│                        │      │                  ╰ [239]: https://www.vicarius.io/vsociety/posts/rapid-reset-
+│                        │      │                           cve-2023-44487-dos-in-http2-understanding-the-root-
+│                        │      │                           cause 
 │                        │      ├ PublishedDate   : 2023-10-10T14:15:10.883Z 
-│                        │      ╰ LastModifiedDate: 2024-08-14T19:57:18.86Z 
+│                        │      ╰ LastModifiedDate: 2024-12-20T17:40:52.067Z 
 │                        ├ [4]  ╭ VulnerabilityID : CVE-2023-45288 
 │                        │      ├ PkgID           : golang.org/x/net@v0.12.0 
 │                        │      ├ PkgName         : golang.org/x/net 
@@ -8049,22 +8067,28 @@
 │                              │                  ├ Name: GitHub Security Advisory Go 
 │                              │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+e
 │                              │                          cosystem%3Ago 
-│                              ├ Title           : Non-linear parsing of case-insensitive content in
-│                              │                   golang.org/x/net/html 
+│                              ├ Title           : golang.org/x/net/html: Non-linear parsing of
+│                              │                   case-insensitive content in golang.org/x/net/html 
 │                              ├ Description     : An attacker can craft an input to the Parse functions that
 │                              │                   would be processed non-linearly with respect to its length,
 │                              │                   resulting in extremely slow parsing. This could cause a
 │                              │                   denial of service. 
 │                              ├ Severity        : HIGH 
-│                              ├ VendorSeverity   ─ ghsa: 3 
-│                              ├ References       ╭ [0]: https://cs.opensource.google/go/x/net 
-│                              │                  ├ [1]: https://github.com/golang/go/issues/70906 
-│                              │                  ├ [2]: https://go.dev/cl/637536 
-│                              │                  ├ [3]: https://go.dev/issue/70906 
-│                              │                  ├ [4]: https://groups.google.com/g/golang-announce/c/wSCRmFnN
+│                              ├ VendorSeverity   ╭ ghsa  : 3 
+│                              │                  ╰ redhat: 3 
+│                              ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
+│                              │                           │           /A:H 
+│                              │                           ╰ V3Score : 7.5 
+│                              ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-45338 
+│                              │                  ├ [1]: https://cs.opensource.google/go/x/net 
+│                              │                  ├ [2]: https://github.com/golang/go/issues/70906 
+│                              │                  ├ [3]: https://go.dev/cl/637536 
+│                              │                  ├ [4]: https://go.dev/issue/70906 
+│                              │                  ├ [5]: https://groups.google.com/g/golang-announce/c/wSCRmFnN
 │                              │                  │      mPA/m/Lvcd0mRMAwAJ 
-│                              │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-45338 
-│                              │                  ╰ [6]: https://pkg.go.dev/vuln/GO-2024-3333 
+│                              │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2024-45338 
+│                              │                  ├ [7]: https://pkg.go.dev/vuln/GO-2024-3333 
+│                              │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-45338 
 │                              ├ PublishedDate   : 2024-12-18T21:15:08.173Z 
 │                              ╰ LastModifiedDate: 2024-12-18T21:15:08.173Z 
 ├ [5]  ╭ Target         : usr/bin/helm 
@@ -8088,22 +8112,28 @@
 │                              │                  ├ Name: GitHub Security Advisory Go 
 │                              │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+e
 │                              │                          cosystem%3Ago 
-│                              ├ Title           : Non-linear parsing of case-insensitive content in
-│                              │                   golang.org/x/net/html 
+│                              ├ Title           : golang.org/x/net/html: Non-linear parsing of
+│                              │                   case-insensitive content in golang.org/x/net/html 
 │                              ├ Description     : An attacker can craft an input to the Parse functions that
 │                              │                   would be processed non-linearly with respect to its length,
 │                              │                   resulting in extremely slow parsing. This could cause a
 │                              │                   denial of service. 
 │                              ├ Severity        : HIGH 
-│                              ├ VendorSeverity   ─ ghsa: 3 
-│                              ├ References       ╭ [0]: https://cs.opensource.google/go/x/net 
-│                              │                  ├ [1]: https://github.com/golang/go/issues/70906 
-│                              │                  ├ [2]: https://go.dev/cl/637536 
-│                              │                  ├ [3]: https://go.dev/issue/70906 
-│                              │                  ├ [4]: https://groups.google.com/g/golang-announce/c/wSCRmFnN
+│                              ├ VendorSeverity   ╭ ghsa  : 3 
+│                              │                  ╰ redhat: 3 
+│                              ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
+│                              │                           │           /A:H 
+│                              │                           ╰ V3Score : 7.5 
+│                              ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-45338 
+│                              │                  ├ [1]: https://cs.opensource.google/go/x/net 
+│                              │                  ├ [2]: https://github.com/golang/go/issues/70906 
+│                              │                  ├ [3]: https://go.dev/cl/637536 
+│                              │                  ├ [4]: https://go.dev/issue/70906 
+│                              │                  ├ [5]: https://groups.google.com/g/golang-announce/c/wSCRmFnN
 │                              │                  │      mPA/m/Lvcd0mRMAwAJ 
-│                              │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-45338 
-│                              │                  ╰ [6]: https://pkg.go.dev/vuln/GO-2024-3333 
+│                              │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2024-45338 
+│                              │                  ├ [7]: https://pkg.go.dev/vuln/GO-2024-3333 
+│                              │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-45338 
 │                              ├ PublishedDate   : 2024-12-18T21:15:08.173Z 
 │                              ╰ LastModifiedDate: 2024-12-18T21:15:08.173Z 
 ├ [6]  ╭ Target         : usr/bin/kubectl 
@@ -8127,22 +8157,28 @@
 │                              │                  ├ Name: GitHub Security Advisory Go 
 │                              │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+e
 │                              │                          cosystem%3Ago 
-│                              ├ Title           : Non-linear parsing of case-insensitive content in
-│                              │                   golang.org/x/net/html 
+│                              ├ Title           : golang.org/x/net/html: Non-linear parsing of
+│                              │                   case-insensitive content in golang.org/x/net/html 
 │                              ├ Description     : An attacker can craft an input to the Parse functions that
 │                              │                   would be processed non-linearly with respect to its length,
 │                              │                   resulting in extremely slow parsing. This could cause a
 │                              │                   denial of service. 
 │                              ├ Severity        : HIGH 
-│                              ├ VendorSeverity   ─ ghsa: 3 
-│                              ├ References       ╭ [0]: https://cs.opensource.google/go/x/net 
-│                              │                  ├ [1]: https://github.com/golang/go/issues/70906 
-│                              │                  ├ [2]: https://go.dev/cl/637536 
-│                              │                  ├ [3]: https://go.dev/issue/70906 
-│                              │                  ├ [4]: https://groups.google.com/g/golang-announce/c/wSCRmFnN
+│                              ├ VendorSeverity   ╭ ghsa  : 3 
+│                              │                  ╰ redhat: 3 
+│                              ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
+│                              │                           │           /A:H 
+│                              │                           ╰ V3Score : 7.5 
+│                              ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-45338 
+│                              │                  ├ [1]: https://cs.opensource.google/go/x/net 
+│                              │                  ├ [2]: https://github.com/golang/go/issues/70906 
+│                              │                  ├ [3]: https://go.dev/cl/637536 
+│                              │                  ├ [4]: https://go.dev/issue/70906 
+│                              │                  ├ [5]: https://groups.google.com/g/golang-announce/c/wSCRmFnN
 │                              │                  │      mPA/m/Lvcd0mRMAwAJ 
-│                              │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-45338 
-│                              │                  ╰ [6]: https://pkg.go.dev/vuln/GO-2024-3333 
+│                              │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2024-45338 
+│                              │                  ├ [7]: https://pkg.go.dev/vuln/GO-2024-3333 
+│                              │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-45338 
 │                              ├ PublishedDate   : 2024-12-18T21:15:08.173Z 
 │                              ╰ LastModifiedDate: 2024-12-18T21:15:08.173Z 
 ├ [7]  ╭ Target         : usr/bin/mc 
@@ -8210,7 +8246,8 @@
 │                        │     │                   authentication attempts; users of third-party libraries
 │                        │     │                   should refer to the relevant projects for guidance. 
 │                        │     ├ Severity        : CRITICAL 
-│                        │     ├ VendorSeverity   ╭ cbl-mariner: 4 
+│                        │     ├ VendorSeverity   ╭ azure      : 4 
+│                        │     │                  ├ cbl-mariner: 4 
 │                        │     │                  ├ ghsa       : 4 
 │                        │     │                  ╰ redhat     : 3 
 │                        │     ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H
@@ -8251,22 +8288,28 @@
 │                              │                  ├ Name: GitHub Security Advisory Go 
 │                              │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+e
 │                              │                          cosystem%3Ago 
-│                              ├ Title           : Non-linear parsing of case-insensitive content in
-│                              │                   golang.org/x/net/html 
+│                              ├ Title           : golang.org/x/net/html: Non-linear parsing of
+│                              │                   case-insensitive content in golang.org/x/net/html 
 │                              ├ Description     : An attacker can craft an input to the Parse functions that
 │                              │                   would be processed non-linearly with respect to its length,
 │                              │                   resulting in extremely slow parsing. This could cause a
 │                              │                   denial of service. 
 │                              ├ Severity        : HIGH 
-│                              ├ VendorSeverity   ─ ghsa: 3 
-│                              ├ References       ╭ [0]: https://cs.opensource.google/go/x/net 
-│                              │                  ├ [1]: https://github.com/golang/go/issues/70906 
-│                              │                  ├ [2]: https://go.dev/cl/637536 
-│                              │                  ├ [3]: https://go.dev/issue/70906 
-│                              │                  ├ [4]: https://groups.google.com/g/golang-announce/c/wSCRmFnN
+│                              ├ VendorSeverity   ╭ ghsa  : 3 
+│                              │                  ╰ redhat: 3 
+│                              ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
+│                              │                           │           /A:H 
+│                              │                           ╰ V3Score : 7.5 
+│                              ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-45338 
+│                              │                  ├ [1]: https://cs.opensource.google/go/x/net 
+│                              │                  ├ [2]: https://github.com/golang/go/issues/70906 
+│                              │                  ├ [3]: https://go.dev/cl/637536 
+│                              │                  ├ [4]: https://go.dev/issue/70906 
+│                              │                  ├ [5]: https://groups.google.com/g/golang-announce/c/wSCRmFnN
 │                              │                  │      mPA/m/Lvcd0mRMAwAJ 
-│                              │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-45338 
-│                              │                  ╰ [6]: https://pkg.go.dev/vuln/GO-2024-3333 
+│                              │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2024-45338 
+│                              │                  ├ [7]: https://pkg.go.dev/vuln/GO-2024-3333 
+│                              │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-45338 
 │                              ├ PublishedDate   : 2024-12-18T21:15:08.173Z 
 │                              ╰ LastModifiedDate: 2024-12-18T21:15:08.173Z 
 ├ [8]  ╭ Target         : usr/local/bin/k3d 
@@ -8434,7 +8477,8 @@
 │                        │     │                   authentication attempts; users of third-party libraries
 │                        │     │                   should refer to the relevant projects for guidance. 
 │                        │     ├ Severity        : CRITICAL 
-│                        │     ├ VendorSeverity   ╭ cbl-mariner: 4 
+│                        │     ├ VendorSeverity   ╭ azure      : 4 
+│                        │     │                  ├ cbl-mariner: 4 
 │                        │     │                  ├ ghsa       : 4 
 │                        │     │                  ╰ redhat     : 3 
 │                        │     ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H
@@ -8475,22 +8519,28 @@
 │                        │     │                  ├ Name: GitHub Security Advisory Go 
 │                        │     │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+e
 │                        │     │                          cosystem%3Ago 
-│                        │     ├ Title           : Non-linear parsing of case-insensitive content in
-│                        │     │                   golang.org/x/net/html 
+│                        │     ├ Title           : golang.org/x/net/html: Non-linear parsing of
+│                        │     │                   case-insensitive content in golang.org/x/net/html 
 │                        │     ├ Description     : An attacker can craft an input to the Parse functions that
 │                        │     │                   would be processed non-linearly with respect to its length,
 │                        │     │                   resulting in extremely slow parsing. This could cause a
 │                        │     │                   denial of service. 
 │                        │     ├ Severity        : HIGH 
-│                        │     ├ VendorSeverity   ─ ghsa: 3 
-│                        │     ├ References       ╭ [0]: https://cs.opensource.google/go/x/net 
-│                        │     │                  ├ [1]: https://github.com/golang/go/issues/70906 
-│                        │     │                  ├ [2]: https://go.dev/cl/637536 
-│                        │     │                  ├ [3]: https://go.dev/issue/70906 
-│                        │     │                  ├ [4]: https://groups.google.com/g/golang-announce/c/wSCRmFnN
+│                        │     ├ VendorSeverity   ╭ ghsa  : 3 
+│                        │     │                  ╰ redhat: 3 
+│                        │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
+│                        │     │                           │           /A:H 
+│                        │     │                           ╰ V3Score : 7.5 
+│                        │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-45338 
+│                        │     │                  ├ [1]: https://cs.opensource.google/go/x/net 
+│                        │     │                  ├ [2]: https://github.com/golang/go/issues/70906 
+│                        │     │                  ├ [3]: https://go.dev/cl/637536 
+│                        │     │                  ├ [4]: https://go.dev/issue/70906 
+│                        │     │                  ├ [5]: https://groups.google.com/g/golang-announce/c/wSCRmFnN
 │                        │     │                  │      mPA/m/Lvcd0mRMAwAJ 
-│                        │     │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-45338 
-│                        │     │                  ╰ [6]: https://pkg.go.dev/vuln/GO-2024-3333 
+│                        │     │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2024-45338 
+│                        │     │                  ├ [7]: https://pkg.go.dev/vuln/GO-2024-3333 
+│                        │     │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-45338 
 │                        │     ├ PublishedDate   : 2024-12-18T21:15:08.173Z 
 │                        │     ╰ LastModifiedDate: 2024-12-18T21:15:08.173Z 
 │                        ╰ [3] ╭ VulnerabilityID : GHSA-xr7q-jx4m-x55m 
