@@ -2282,7 +2282,7 @@
     CweIDs:
     - CWE-922
     VendorSeverity:
-      alma: 3
+      alma: 2
       oracle-oval: 2
       redhat: 2
       rocky: 3
@@ -2297,12 +2297,11 @@
     - https://access.redhat.com/errata/RHSA-2024:9941
     - https://access.redhat.com/security/cve/CVE-2024-10041
     - https://bugzilla.redhat.com/2319212
-    - https://bugzilla.redhat.com/2324291
     - https://bugzilla.redhat.com/show_bug.cgi?id=2319212
     - https://bugzilla.redhat.com/show_bug.cgi?id=2324291
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10041
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10963
-    - https://errata.almalinux.org/8/ALSA-2024-10379.html
+    - https://errata.almalinux.org/9/ALSA-2024-11250.html
     - https://errata.rockylinux.org/RLSA-2024:10379
     - https://linux.oracle.com/cve/CVE-2024-10041.html
     - https://linux.oracle.com/errata/ELSA-2024-11250.html
@@ -2382,7 +2381,7 @@
     CweIDs:
     - CWE-922
     VendorSeverity:
-      alma: 3
+      alma: 2
       oracle-oval: 2
       redhat: 2
       rocky: 3
@@ -2397,12 +2396,11 @@
     - https://access.redhat.com/errata/RHSA-2024:9941
     - https://access.redhat.com/security/cve/CVE-2024-10041
     - https://bugzilla.redhat.com/2319212
-    - https://bugzilla.redhat.com/2324291
     - https://bugzilla.redhat.com/show_bug.cgi?id=2319212
     - https://bugzilla.redhat.com/show_bug.cgi?id=2324291
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10041
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10963
-    - https://errata.almalinux.org/8/ALSA-2024-10379.html
+    - https://errata.almalinux.org/9/ALSA-2024-11250.html
     - https://errata.rockylinux.org/RLSA-2024:10379
     - https://linux.oracle.com/cve/CVE-2024-10041.html
     - https://linux.oracle.com/errata/ELSA-2024-11250.html
@@ -2482,7 +2480,7 @@
     CweIDs:
     - CWE-922
     VendorSeverity:
-      alma: 3
+      alma: 2
       oracle-oval: 2
       redhat: 2
       rocky: 3
@@ -2497,12 +2495,11 @@
     - https://access.redhat.com/errata/RHSA-2024:9941
     - https://access.redhat.com/security/cve/CVE-2024-10041
     - https://bugzilla.redhat.com/2319212
-    - https://bugzilla.redhat.com/2324291
     - https://bugzilla.redhat.com/show_bug.cgi?id=2319212
     - https://bugzilla.redhat.com/show_bug.cgi?id=2324291
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10041
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10963
-    - https://errata.almalinux.org/8/ALSA-2024-10379.html
+    - https://errata.almalinux.org/9/ALSA-2024-11250.html
     - https://errata.rockylinux.org/RLSA-2024:10379
     - https://linux.oracle.com/cve/CVE-2024-10041.html
     - https://linux.oracle.com/errata/ELSA-2024-11250.html
@@ -2639,7 +2636,7 @@
     CweIDs:
     - CWE-922
     VendorSeverity:
-      alma: 3
+      alma: 2
       oracle-oval: 2
       redhat: 2
       rocky: 3
@@ -2654,12 +2651,11 @@
     - https://access.redhat.com/errata/RHSA-2024:9941
     - https://access.redhat.com/security/cve/CVE-2024-10041
     - https://bugzilla.redhat.com/2319212
-    - https://bugzilla.redhat.com/2324291
     - https://bugzilla.redhat.com/show_bug.cgi?id=2319212
     - https://bugzilla.redhat.com/show_bug.cgi?id=2324291
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10041
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10963
-    - https://errata.almalinux.org/8/ALSA-2024-10379.html
+    - https://errata.almalinux.org/9/ALSA-2024-11250.html
     - https://errata.rockylinux.org/RLSA-2024:10379
     - https://linux.oracle.com/cve/CVE-2024-10041.html
     - https://linux.oracle.com/errata/ELSA-2024-11250.html
@@ -2842,7 +2838,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N
         V3Score: 3.7
     References:
-    - https://access.redhat.com/errata/RHSA-2024:10779
+    - https://access.redhat.com/errata/RHSA-2024:10983
     - https://access.redhat.com/security/cve/CVE-2024-11168
     - https://bugzilla.redhat.com/2321440
     - https://bugzilla.redhat.com/2325776
@@ -2850,7 +2846,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2325776
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-11168
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-9287
-    - https://errata.almalinux.org/8/ALSA-2024-10779.html
+    - https://errata.almalinux.org/9/ALSA-2024-10983.html
     - https://errata.rockylinux.org/RLSA-2024:10779
     - https://github.com/python/cpython/commit/29f348e232e82938ba2165843c448c2b291504c5
     - https://github.com/python/cpython/commit/634ded45545ce8cbd6fd5d49785613dd7fa9b89e
@@ -2899,7 +2895,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N
         V3Score: 3.7
     References:
-    - https://access.redhat.com/errata/RHSA-2024:10779
+    - https://access.redhat.com/errata/RHSA-2024:10983
     - https://access.redhat.com/security/cve/CVE-2024-11168
     - https://bugzilla.redhat.com/2321440
     - https://bugzilla.redhat.com/2325776
@@ -2907,7 +2903,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2325776
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-11168
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-9287
-    - https://errata.almalinux.org/8/ALSA-2024-10779.html
+    - https://errata.almalinux.org/9/ALSA-2024-10983.html
     - https://errata.rockylinux.org/RLSA-2024:10779
     - https://github.com/python/cpython/commit/29f348e232e82938ba2165843c448c2b291504c5
     - https://github.com/python/cpython/commit/634ded45545ce8cbd6fd5d49785613dd7fa9b89e
@@ -2956,7 +2952,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N
         V3Score: 3.7
     References:
-    - https://access.redhat.com/errata/RHSA-2024:10779
+    - https://access.redhat.com/errata/RHSA-2024:10983
     - https://access.redhat.com/security/cve/CVE-2024-11168
     - https://bugzilla.redhat.com/2321440
     - https://bugzilla.redhat.com/2325776
@@ -2964,7 +2960,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2325776
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-11168
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-9287
-    - https://errata.almalinux.org/8/ALSA-2024-10779.html
+    - https://errata.almalinux.org/9/ALSA-2024-10983.html
     - https://errata.rockylinux.org/RLSA-2024:10779
     - https://github.com/python/cpython/commit/29f348e232e82938ba2165843c448c2b291504c5
     - https://github.com/python/cpython/commit/634ded45545ce8cbd6fd5d49785613dd7fa9b89e
@@ -3901,7 +3897,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N
         V3Score: 3.7
     References:
-    - https://access.redhat.com/errata/RHSA-2024:10779
+    - https://access.redhat.com/errata/RHSA-2024:10983
     - https://access.redhat.com/security/cve/CVE-2024-11168
     - https://bugzilla.redhat.com/2321440
     - https://bugzilla.redhat.com/2325776
@@ -3909,7 +3905,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2325776
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-11168
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-9287
-    - https://errata.almalinux.org/8/ALSA-2024-10779.html
+    - https://errata.almalinux.org/9/ALSA-2024-10983.html
     - https://errata.rockylinux.org/RLSA-2024:10779
     - https://github.com/python/cpython/commit/29f348e232e82938ba2165843c448c2b291504c5
     - https://github.com/python/cpython/commit/634ded45545ce8cbd6fd5d49785613dd7fa9b89e
@@ -3958,7 +3954,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N
         V3Score: 3.7
     References:
-    - https://access.redhat.com/errata/RHSA-2024:10779
+    - https://access.redhat.com/errata/RHSA-2024:10983
     - https://access.redhat.com/security/cve/CVE-2024-11168
     - https://bugzilla.redhat.com/2321440
     - https://bugzilla.redhat.com/2325776
@@ -3966,7 +3962,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2325776
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-11168
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-9287
-    - https://errata.almalinux.org/8/ALSA-2024-10779.html
+    - https://errata.almalinux.org/9/ALSA-2024-10983.html
     - https://errata.rockylinux.org/RLSA-2024:10779
     - https://github.com/python/cpython/commit/29f348e232e82938ba2165843c448c2b291504c5
     - https://github.com/python/cpython/commit/634ded45545ce8cbd6fd5d49785613dd7fa9b89e
@@ -4532,6 +4528,8 @@
     Title: 'golang.org/x/net/html: Non-linear parsing of case-insensitive content in golang.org/x/net/html'
     Description: An attacker can craft an input to the Parse functions that would be processed non-linearly with respect to its length, resulting in extremely slow parsing. This could cause a denial of service.
     Severity: HIGH
+    CweIDs:
+    - CWE-1333
     VendorSeverity:
       ghsa: 3
       redhat: 3
@@ -4550,7 +4548,7 @@
     - https://pkg.go.dev/vuln/GO-2024-3333
     - https://www.cve.org/CVERecord?id=CVE-2024-45338
     PublishedDate: '2024-12-18T21:15:08.173Z'
-    LastModifiedDate: '2024-12-18T21:15:08.173Z'
+    LastModifiedDate: '2024-12-31T20:16:06.603Z'
   - VulnerabilityID: CVE-2023-3978
     PkgID: golang.org/x/net@v0.12.0
     PkgName: golang.org/x/net
@@ -5650,7 +5648,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -5718,7 +5716,7 @@
     Severity: MEDIUM
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       bitnami: 2
       cbl-mariner: 2
       nvd: 2
@@ -6629,6 +6627,8 @@
     Title: 'golang.org/x/net/html: Non-linear parsing of case-insensitive content in golang.org/x/net/html'
     Description: An attacker can craft an input to the Parse functions that would be processed non-linearly with respect to its length, resulting in extremely slow parsing. This could cause a denial of service.
     Severity: HIGH
+    CweIDs:
+    - CWE-1333
     VendorSeverity:
       ghsa: 3
       redhat: 3
@@ -6647,7 +6647,7 @@
     - https://pkg.go.dev/vuln/GO-2024-3333
     - https://www.cve.org/CVERecord?id=CVE-2024-45338
     PublishedDate: '2024-12-18T21:15:08.173Z'
-    LastModifiedDate: '2024-12-18T21:15:08.173Z'
+    LastModifiedDate: '2024-12-31T20:16:06.603Z'
   - VulnerabilityID: CVE-2023-3978
     PkgID: golang.org/x/net@v0.12.0
     PkgName: golang.org/x/net
@@ -7747,7 +7747,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -7815,7 +7815,7 @@
     Severity: MEDIUM
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       bitnami: 2
       cbl-mariner: 2
       nvd: 2
@@ -8618,6 +8618,8 @@
     Title: 'golang.org/x/net/html: Non-linear parsing of case-insensitive content in golang.org/x/net/html'
     Description: An attacker can craft an input to the Parse functions that would be processed non-linearly with respect to its length, resulting in extremely slow parsing. This could cause a denial of service.
     Severity: HIGH
+    CweIDs:
+    - CWE-1333
     VendorSeverity:
       ghsa: 3
       redhat: 3
@@ -8636,7 +8638,7 @@
     - https://pkg.go.dev/vuln/GO-2024-3333
     - https://www.cve.org/CVERecord?id=CVE-2024-45338
     PublishedDate: '2024-12-18T21:15:08.173Z'
-    LastModifiedDate: '2024-12-18T21:15:08.173Z'
+    LastModifiedDate: '2024-12-31T20:16:06.603Z'
 - Target: usr/bin/helm
   Class: lang-pkgs
   Type: gobinary
@@ -8708,6 +8710,8 @@
     Title: 'golang.org/x/net/html: Non-linear parsing of case-insensitive content in golang.org/x/net/html'
     Description: An attacker can craft an input to the Parse functions that would be processed non-linearly with respect to its length, resulting in extremely slow parsing. This could cause a denial of service.
     Severity: HIGH
+    CweIDs:
+    - CWE-1333
     VendorSeverity:
       ghsa: 3
       redhat: 3
@@ -8726,7 +8730,7 @@
     - https://pkg.go.dev/vuln/GO-2024-3333
     - https://www.cve.org/CVERecord?id=CVE-2024-45338
     PublishedDate: '2024-12-18T21:15:08.173Z'
-    LastModifiedDate: '2024-12-18T21:15:08.173Z'
+    LastModifiedDate: '2024-12-31T20:16:06.603Z'
 - Target: usr/bin/kubectl
   Class: lang-pkgs
   Type: gobinary
@@ -8752,6 +8756,8 @@
     Title: 'golang.org/x/net/html: Non-linear parsing of case-insensitive content in golang.org/x/net/html'
     Description: An attacker can craft an input to the Parse functions that would be processed non-linearly with respect to its length, resulting in extremely slow parsing. This could cause a denial of service.
     Severity: HIGH
+    CweIDs:
+    - CWE-1333
     VendorSeverity:
       ghsa: 3
       redhat: 3
@@ -8770,7 +8776,7 @@
     - https://pkg.go.dev/vuln/GO-2024-3333
     - https://www.cve.org/CVERecord?id=CVE-2024-45338
     PublishedDate: '2024-12-18T21:15:08.173Z'
-    LastModifiedDate: '2024-12-18T21:15:08.173Z'
+    LastModifiedDate: '2024-12-31T20:16:06.603Z'
 - Target: usr/bin/mc
   Class: lang-pkgs
   Type: gobinary
@@ -8842,6 +8848,8 @@
     Title: 'golang.org/x/net/html: Non-linear parsing of case-insensitive content in golang.org/x/net/html'
     Description: An attacker can craft an input to the Parse functions that would be processed non-linearly with respect to its length, resulting in extremely slow parsing. This could cause a denial of service.
     Severity: HIGH
+    CweIDs:
+    - CWE-1333
     VendorSeverity:
       ghsa: 3
       redhat: 3
@@ -8860,7 +8868,7 @@
     - https://pkg.go.dev/vuln/GO-2024-3333
     - https://www.cve.org/CVERecord?id=CVE-2024-45338
     PublishedDate: '2024-12-18T21:15:08.173Z'
-    LastModifiedDate: '2024-12-18T21:15:08.173Z'
+    LastModifiedDate: '2024-12-31T20:16:06.603Z'
 - Target: usr/local/bin/k3d
   Class: lang-pkgs
   Type: gobinary
@@ -9001,6 +9009,8 @@
     Title: 'golang.org/x/net/html: Non-linear parsing of case-insensitive content in golang.org/x/net/html'
     Description: An attacker can craft an input to the Parse functions that would be processed non-linearly with respect to its length, resulting in extremely slow parsing. This could cause a denial of service.
     Severity: HIGH
+    CweIDs:
+    - CWE-1333
     VendorSeverity:
       ghsa: 3
       redhat: 3
@@ -9019,7 +9029,7 @@
     - https://pkg.go.dev/vuln/GO-2024-3333
     - https://www.cve.org/CVERecord?id=CVE-2024-45338
     PublishedDate: '2024-12-18T21:15:08.173Z'
-    LastModifiedDate: '2024-12-18T21:15:08.173Z'
+    LastModifiedDate: '2024-12-31T20:16:06.603Z'
   - VulnerabilityID: GHSA-xr7q-jx4m-x55m
     PkgID: google.golang.org/grpc@v1.64.0
     PkgName: google.golang.org/grpc
