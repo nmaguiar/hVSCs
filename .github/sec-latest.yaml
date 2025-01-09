@@ -2171,55 +2171,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-10041
     PublishedDate: '2024-10-23T14:15:03.97Z'
     LastModifiedDate: '2024-12-18T10:15:05.85Z'
-  - VulnerabilityID: CVE-2024-10963
-    PkgID: libpam-modules@1.4.0-11ubuntu2.4
-    PkgName: libpam-modules
-    PkgIdentifier:
-      PURL: pkg:deb/ubuntu/libpam-modules@1.4.0-11ubuntu2.4?arch=amd64&distro=ubuntu-22.04
-      UID: ba6b1e96e0ed706d
-    InstalledVersion: 1.4.0-11ubuntu2.4
-    Status: affected
-    Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-10963
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'pam: Improper Hostname Interpretation in pam_access Leads to Access Control Bypass'
-    Description: A flaw was found in pam_access, where certain rules in its configuration file are mistakenly treated as hostnames. This vulnerability allows attackers to trick the system by pretending to be a trusted hostname, gaining unauthorized access. This issue poses a risk for systems that rely on this feature to control who can access certain services or terminals.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-287
-    VendorSeverity:
-      alma: 3
-      azure: 3
-      oracle-oval: 3
-      redhat: 3
-      rocky: 3
-      ubuntu: 2
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N
-        V3Score: 7.4
-    References:
-    - https://access.redhat.com/errata/RHSA-2024:10244
-    - https://access.redhat.com/security/cve/CVE-2024-10963
-    - https://bugzilla.redhat.com/2324291
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2319212
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2324291
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10041
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10963
-    - https://errata.almalinux.org/9/ALSA-2024-10244.html
-    - https://errata.rockylinux.org/RLSA-2024:10379
-    - https://linux.oracle.com/cve/CVE-2024-10963.html
-    - https://linux.oracle.com/errata/ELSA-2024-10379.html
-    - https://nvd.nist.gov/vuln/detail/CVE-2024-10963
-    - https://www.cve.org/CVERecord?id=CVE-2024-10963
-    PublishedDate: '2024-11-07T16:15:17.15Z'
-    LastModifiedDate: '2024-11-11T18:15:14.487Z'
   - VulnerabilityID: CVE-2024-10041
     PkgID: libpam-modules-bin@1.4.0-11ubuntu2.4
     PkgName: libpam-modules-bin
@@ -2270,55 +2221,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-10041
     PublishedDate: '2024-10-23T14:15:03.97Z'
     LastModifiedDate: '2024-12-18T10:15:05.85Z'
-  - VulnerabilityID: CVE-2024-10963
-    PkgID: libpam-modules-bin@1.4.0-11ubuntu2.4
-    PkgName: libpam-modules-bin
-    PkgIdentifier:
-      PURL: pkg:deb/ubuntu/libpam-modules-bin@1.4.0-11ubuntu2.4?arch=amd64&distro=ubuntu-22.04
-      UID: 321a22a4c77f5995
-    InstalledVersion: 1.4.0-11ubuntu2.4
-    Status: affected
-    Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-10963
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'pam: Improper Hostname Interpretation in pam_access Leads to Access Control Bypass'
-    Description: A flaw was found in pam_access, where certain rules in its configuration file are mistakenly treated as hostnames. This vulnerability allows attackers to trick the system by pretending to be a trusted hostname, gaining unauthorized access. This issue poses a risk for systems that rely on this feature to control who can access certain services or terminals.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-287
-    VendorSeverity:
-      alma: 3
-      azure: 3
-      oracle-oval: 3
-      redhat: 3
-      rocky: 3
-      ubuntu: 2
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N
-        V3Score: 7.4
-    References:
-    - https://access.redhat.com/errata/RHSA-2024:10244
-    - https://access.redhat.com/security/cve/CVE-2024-10963
-    - https://bugzilla.redhat.com/2324291
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2319212
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2324291
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10041
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10963
-    - https://errata.almalinux.org/9/ALSA-2024-10244.html
-    - https://errata.rockylinux.org/RLSA-2024:10379
-    - https://linux.oracle.com/cve/CVE-2024-10963.html
-    - https://linux.oracle.com/errata/ELSA-2024-10379.html
-    - https://nvd.nist.gov/vuln/detail/CVE-2024-10963
-    - https://www.cve.org/CVERecord?id=CVE-2024-10963
-    PublishedDate: '2024-11-07T16:15:17.15Z'
-    LastModifiedDate: '2024-11-11T18:15:14.487Z'
   - VulnerabilityID: CVE-2024-10041
     PkgID: libpam-runtime@1.4.0-11ubuntu2.4
     PkgName: libpam-runtime
@@ -2369,55 +2271,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-10041
     PublishedDate: '2024-10-23T14:15:03.97Z'
     LastModifiedDate: '2024-12-18T10:15:05.85Z'
-  - VulnerabilityID: CVE-2024-10963
-    PkgID: libpam-runtime@1.4.0-11ubuntu2.4
-    PkgName: libpam-runtime
-    PkgIdentifier:
-      PURL: pkg:deb/ubuntu/libpam-runtime@1.4.0-11ubuntu2.4?arch=all&distro=ubuntu-22.04
-      UID: ae69a929f8c8f57c
-    InstalledVersion: 1.4.0-11ubuntu2.4
-    Status: affected
-    Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-10963
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'pam: Improper Hostname Interpretation in pam_access Leads to Access Control Bypass'
-    Description: A flaw was found in pam_access, where certain rules in its configuration file are mistakenly treated as hostnames. This vulnerability allows attackers to trick the system by pretending to be a trusted hostname, gaining unauthorized access. This issue poses a risk for systems that rely on this feature to control who can access certain services or terminals.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-287
-    VendorSeverity:
-      alma: 3
-      azure: 3
-      oracle-oval: 3
-      redhat: 3
-      rocky: 3
-      ubuntu: 2
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N
-        V3Score: 7.4
-    References:
-    - https://access.redhat.com/errata/RHSA-2024:10244
-    - https://access.redhat.com/security/cve/CVE-2024-10963
-    - https://bugzilla.redhat.com/2324291
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2319212
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2324291
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10041
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10963
-    - https://errata.almalinux.org/9/ALSA-2024-10244.html
-    - https://errata.rockylinux.org/RLSA-2024:10379
-    - https://linux.oracle.com/cve/CVE-2024-10963.html
-    - https://linux.oracle.com/errata/ELSA-2024-10379.html
-    - https://nvd.nist.gov/vuln/detail/CVE-2024-10963
-    - https://www.cve.org/CVERecord?id=CVE-2024-10963
-    PublishedDate: '2024-11-07T16:15:17.15Z'
-    LastModifiedDate: '2024-11-11T18:15:14.487Z'
   - VulnerabilityID: CVE-2023-7008
     PkgID: libpam-systemd@249.11-0ubuntu3.12
     PkgName: libpam-systemd
@@ -2525,55 +2378,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-10041
     PublishedDate: '2024-10-23T14:15:03.97Z'
     LastModifiedDate: '2024-12-18T10:15:05.85Z'
-  - VulnerabilityID: CVE-2024-10963
-    PkgID: libpam0g@1.4.0-11ubuntu2.4
-    PkgName: libpam0g
-    PkgIdentifier:
-      PURL: pkg:deb/ubuntu/libpam0g@1.4.0-11ubuntu2.4?arch=amd64&distro=ubuntu-22.04
-      UID: 64ea3b2c360277bb
-    InstalledVersion: 1.4.0-11ubuntu2.4
-    Status: affected
-    Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-10963
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'pam: Improper Hostname Interpretation in pam_access Leads to Access Control Bypass'
-    Description: A flaw was found in pam_access, where certain rules in its configuration file are mistakenly treated as hostnames. This vulnerability allows attackers to trick the system by pretending to be a trusted hostname, gaining unauthorized access. This issue poses a risk for systems that rely on this feature to control who can access certain services or terminals.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-287
-    VendorSeverity:
-      alma: 3
-      azure: 3
-      oracle-oval: 3
-      redhat: 3
-      rocky: 3
-      ubuntu: 2
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N
-        V3Score: 7.4
-    References:
-    - https://access.redhat.com/errata/RHSA-2024:10244
-    - https://access.redhat.com/security/cve/CVE-2024-10963
-    - https://bugzilla.redhat.com/2324291
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2319212
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2324291
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10041
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10963
-    - https://errata.almalinux.org/9/ALSA-2024-10244.html
-    - https://errata.rockylinux.org/RLSA-2024:10379
-    - https://linux.oracle.com/cve/CVE-2024-10963.html
-    - https://linux.oracle.com/errata/ELSA-2024-10379.html
-    - https://nvd.nist.gov/vuln/detail/CVE-2024-10963
-    - https://www.cve.org/CVERecord?id=CVE-2024-10963
-    PublishedDate: '2024-11-07T16:15:17.15Z'
-    LastModifiedDate: '2024-11-11T18:15:14.487Z'
   - VulnerabilityID: CVE-2022-41409
     PkgID: libpcre2-8-0@10.39-3ubuntu0.1
     PkgName: libpcre2-8-0
@@ -4529,6 +4333,7 @@
     VendorSeverity:
       ghsa: 3
       redhat: 3
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
@@ -4537,6 +4342,7 @@
     - https://access.redhat.com/security/cve/CVE-2024-45338
     - https://cs.opensource.google/go/x/net
     - https://github.com/golang/go/issues/70906
+    - https://go-review.googlesource.com/c/net/+/637536
     - https://go.dev/cl/637536
     - https://go.dev/issue/70906
     - https://groups.google.com/g/golang-announce/c/wSCRmFnNmPA/m/Lvcd0mRMAwAJ
@@ -6628,6 +6434,7 @@
     VendorSeverity:
       ghsa: 3
       redhat: 3
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
@@ -6636,6 +6443,7 @@
     - https://access.redhat.com/security/cve/CVE-2024-45338
     - https://cs.opensource.google/go/x/net
     - https://github.com/golang/go/issues/70906
+    - https://go-review.googlesource.com/c/net/+/637536
     - https://go.dev/cl/637536
     - https://go.dev/issue/70906
     - https://groups.google.com/g/golang-announce/c/wSCRmFnNmPA/m/Lvcd0mRMAwAJ
@@ -8573,6 +8381,7 @@
     VendorSeverity:
       ghsa: 3
       redhat: 3
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
@@ -8581,6 +8390,7 @@
     - https://access.redhat.com/security/cve/CVE-2024-45338
     - https://cs.opensource.google/go/x/net
     - https://github.com/golang/go/issues/70906
+    - https://go-review.googlesource.com/c/net/+/637536
     - https://go.dev/cl/637536
     - https://go.dev/issue/70906
     - https://groups.google.com/g/golang-announce/c/wSCRmFnNmPA/m/Lvcd0mRMAwAJ
@@ -8619,6 +8429,7 @@
     VendorSeverity:
       ghsa: 3
       redhat: 3
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
@@ -8627,6 +8438,7 @@
     - https://access.redhat.com/security/cve/CVE-2024-45338
     - https://cs.opensource.google/go/x/net
     - https://github.com/golang/go/issues/70906
+    - https://go-review.googlesource.com/c/net/+/637536
     - https://go.dev/cl/637536
     - https://go.dev/issue/70906
     - https://groups.google.com/g/golang-announce/c/wSCRmFnNmPA/m/Lvcd0mRMAwAJ
@@ -8665,6 +8477,7 @@
     VendorSeverity:
       ghsa: 3
       redhat: 3
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
@@ -8673,6 +8486,7 @@
     - https://access.redhat.com/security/cve/CVE-2024-45338
     - https://cs.opensource.google/go/x/net
     - https://github.com/golang/go/issues/70906
+    - https://go-review.googlesource.com/c/net/+/637536
     - https://go.dev/cl/637536
     - https://go.dev/issue/70906
     - https://groups.google.com/g/golang-announce/c/wSCRmFnNmPA/m/Lvcd0mRMAwAJ
@@ -8757,6 +8571,7 @@
     VendorSeverity:
       ghsa: 3
       redhat: 3
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
@@ -8765,6 +8580,7 @@
     - https://access.redhat.com/security/cve/CVE-2024-45338
     - https://cs.opensource.google/go/x/net
     - https://github.com/golang/go/issues/70906
+    - https://go-review.googlesource.com/c/net/+/637536
     - https://go.dev/cl/637536
     - https://go.dev/issue/70906
     - https://groups.google.com/g/golang-announce/c/wSCRmFnNmPA/m/Lvcd0mRMAwAJ
@@ -8918,6 +8734,7 @@
     VendorSeverity:
       ghsa: 3
       redhat: 3
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
@@ -8926,6 +8743,7 @@
     - https://access.redhat.com/security/cve/CVE-2024-45338
     - https://cs.opensource.google/go/x/net
     - https://github.com/golang/go/issues/70906
+    - https://go-review.googlesource.com/c/net/+/637536
     - https://go.dev/cl/637536
     - https://go.dev/issue/70906
     - https://groups.google.com/g/golang-announce/c/wSCRmFnNmPA/m/Lvcd0mRMAwAJ
