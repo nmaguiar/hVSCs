@@ -11,8 +11,8 @@
     InstalledVersion: 8.32-4.1ubuntu1.2
     Status: affected
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2016-2781
     DataSource:
@@ -62,8 +62,8 @@
     InstalledVersion: 1.12.20-2ubuntu4.1
     Status: affected
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-34969
     DataSource:
@@ -118,8 +118,8 @@
     InstalledVersion: 1.12.20-2ubuntu4.1
     Status: affected
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-34969
     DataSource:
@@ -174,8 +174,8 @@
     InstalledVersion: 2.2.27-3ubuntu2.1
     Status: affected
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-3219
     DataSource:
@@ -218,8 +218,8 @@
     InstalledVersion: 12.3.0-1ubuntu1~22.04
     Status: affected
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-4039
     DataSource:
@@ -286,8 +286,8 @@
     InstalledVersion: 12.3.0-1ubuntu1~22.04
     Status: affected
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-27943
     DataSource:
@@ -335,8 +335,8 @@
     InstalledVersion: 1:2.34.1-1ubuntu1.11
     Status: affected
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2018-1000021
     DataSource:
@@ -378,8 +378,8 @@
     InstalledVersion: 1:2.34.1-1ubuntu1.11
     Status: affected
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2018-1000021
     DataSource:
@@ -421,8 +421,8 @@
     InstalledVersion: 2.2.27-3ubuntu2.1
     Status: affected
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-3219
     DataSource:
@@ -465,8 +465,8 @@
     InstalledVersion: 2.2.27-3ubuntu2.1
     Status: affected
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-3219
     DataSource:
@@ -509,8 +509,8 @@
     InstalledVersion: 2.2.27-3ubuntu2.1
     Status: affected
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-3219
     DataSource:
@@ -553,8 +553,8 @@
     InstalledVersion: 2.2.27-3ubuntu2.1
     Status: affected
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-3219
     DataSource:
@@ -597,8 +597,8 @@
     InstalledVersion: 2.2.27-3ubuntu2.1
     Status: affected
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-3219
     DataSource:
@@ -641,8 +641,8 @@
     InstalledVersion: 2.2.27-3ubuntu2.1
     Status: affected
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-3219
     DataSource:
@@ -685,8 +685,8 @@
     InstalledVersion: 2.2.27-3ubuntu2.1
     Status: affected
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-3219
     DataSource:
@@ -729,8 +729,8 @@
     InstalledVersion: 2.2.27-3ubuntu2.1
     Status: affected
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-3219
     DataSource:
@@ -773,8 +773,8 @@
     InstalledVersion: 2.2.27-3ubuntu2.1
     Status: affected
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-3219
     DataSource:
@@ -817,8 +817,8 @@
     InstalledVersion: 2.2.27-3ubuntu2.1
     Status: affected
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-3219
     DataSource:
@@ -861,8 +861,8 @@
     InstalledVersion: 12.3.0-1ubuntu1~22.04
     Status: affected
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-4039
     DataSource:
@@ -929,8 +929,8 @@
     InstalledVersion: 12.3.0-1ubuntu1~22.04
     Status: affected
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-27943
     DataSource:
@@ -978,8 +978,8 @@
     InstalledVersion: 2.35-0ubuntu3.8
     Status: affected
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2016-20013
     DataSource:
@@ -1015,8 +1015,8 @@
     InstalledVersion: 2.35-0ubuntu3.8
     Status: affected
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2016-20013
     DataSource:
@@ -1052,8 +1052,8 @@
     InstalledVersion: 1.12.20-2ubuntu4.1
     Status: affected
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-34969
     DataSource:
@@ -1108,8 +1108,8 @@
     InstalledVersion: 12.3.0-1ubuntu1~22.04
     Status: affected
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-4039
     DataSource:
@@ -1176,8 +1176,8 @@
     InstalledVersion: 12.3.0-1ubuntu1~22.04
     Status: affected
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-27943
     DataSource:
@@ -1225,8 +1225,8 @@
     InstalledVersion: 1.9.4-3ubuntu3
     Status: affected
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-2236
     DataSource:
@@ -1273,8 +1273,8 @@
     InstalledVersion: 1.19.2-2ubuntu0.4
     Status: affected
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-26462
     DataSource:
@@ -1321,8 +1321,8 @@
     InstalledVersion: 1.19.2-2ubuntu0.4
     Status: affected
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-26458
     DataSource:
@@ -1376,8 +1376,8 @@
     InstalledVersion: 1.19.2-2ubuntu0.4
     Status: affected
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-26461
     DataSource:
@@ -1433,8 +1433,8 @@
     InstalledVersion: 1.19.2-2ubuntu0.4
     Status: affected
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-26462
     DataSource:
@@ -1481,8 +1481,8 @@
     InstalledVersion: 1.19.2-2ubuntu0.4
     Status: affected
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-26458
     DataSource:
@@ -1536,8 +1536,8 @@
     InstalledVersion: 1.19.2-2ubuntu0.4
     Status: affected
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-26461
     DataSource:
@@ -1593,8 +1593,8 @@
     InstalledVersion: 1.19.2-2ubuntu0.4
     Status: affected
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-26462
     DataSource:
@@ -1641,8 +1641,8 @@
     InstalledVersion: 1.19.2-2ubuntu0.4
     Status: affected
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-26458
     DataSource:
@@ -1696,8 +1696,8 @@
     InstalledVersion: 1.19.2-2ubuntu0.4
     Status: affected
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-26461
     DataSource:
@@ -1753,8 +1753,8 @@
     InstalledVersion: 1.19.2-2ubuntu0.4
     Status: affected
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-26462
     DataSource:
@@ -1801,8 +1801,8 @@
     InstalledVersion: 1.19.2-2ubuntu0.4
     Status: affected
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-26458
     DataSource:
@@ -1856,8 +1856,8 @@
     InstalledVersion: 1.19.2-2ubuntu0.4
     Status: affected
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-26461
     DataSource:
@@ -1913,8 +1913,8 @@
     InstalledVersion: 6.3-2ubuntu0.1
     Status: affected
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-45918
     DataSource:
@@ -1949,8 +1949,8 @@
     InstalledVersion: 6.3-2ubuntu0.1
     Status: affected
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-50495
     DataSource:
@@ -1993,8 +1993,8 @@
     InstalledVersion: 6.3-2ubuntu0.1
     Status: affected
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-45918
     DataSource:
@@ -2029,8 +2029,8 @@
     InstalledVersion: 6.3-2ubuntu0.1
     Status: affected
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-50495
     DataSource:
@@ -2073,8 +2073,8 @@
     InstalledVersion: 249.11-0ubuntu3.12
     Status: affected
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-7008
     DataSource:
@@ -2130,8 +2130,8 @@
     InstalledVersion: 1.4.0-11ubuntu2.4
     Status: affected
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-10041
     DataSource:
@@ -2145,6 +2145,7 @@
     - CWE-922
     VendorSeverity:
       alma: 2
+      azure: 2
       oracle-oval: 2
       redhat: 2
       rocky: 3
@@ -2180,8 +2181,8 @@
     InstalledVersion: 1.4.0-11ubuntu2.4
     Status: affected
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-10041
     DataSource:
@@ -2195,6 +2196,7 @@
     - CWE-922
     VendorSeverity:
       alma: 2
+      azure: 2
       oracle-oval: 2
       redhat: 2
       rocky: 3
@@ -2230,8 +2232,8 @@
     InstalledVersion: 1.4.0-11ubuntu2.4
     Status: affected
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-10041
     DataSource:
@@ -2245,6 +2247,7 @@
     - CWE-922
     VendorSeverity:
       alma: 2
+      azure: 2
       oracle-oval: 2
       redhat: 2
       rocky: 3
@@ -2280,8 +2283,8 @@
     InstalledVersion: 249.11-0ubuntu3.12
     Status: affected
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-7008
     DataSource:
@@ -2337,8 +2340,8 @@
     InstalledVersion: 1.4.0-11ubuntu2.4
     Status: affected
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-10041
     DataSource:
@@ -2352,6 +2355,7 @@
     - CWE-922
     VendorSeverity:
       alma: 2
+      azure: 2
       oracle-oval: 2
       redhat: 2
       rocky: 3
@@ -2387,8 +2391,8 @@
     InstalledVersion: 10.39-3ubuntu0.1
     Status: affected
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-41409
     DataSource:
@@ -2432,8 +2436,8 @@
     InstalledVersion: 2:8.39-13ubuntu0.22.04.1
     Status: affected
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2017-11164
     DataSource:
@@ -2479,8 +2483,8 @@
     InstalledVersion: 3.10.12-1~22.04.7
     Status: affected
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-11168
     DataSource:
@@ -2540,8 +2544,8 @@
     InstalledVersion: 3.10.12-1~22.04.7
     Status: affected
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-11168
     DataSource:
@@ -2601,8 +2605,8 @@
     InstalledVersion: 3.10.12-1~22.04.7
     Status: affected
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-11168
     DataSource:
@@ -2662,8 +2666,8 @@
     InstalledVersion: 3.0.2-0ubuntu1.18
     Status: affected
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-41996
     DataSource:
@@ -2704,8 +2708,8 @@
     InstalledVersion: 12.3.0-1ubuntu1~22.04
     Status: affected
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-4039
     DataSource:
@@ -2772,8 +2776,8 @@
     InstalledVersion: 12.3.0-1ubuntu1~22.04
     Status: affected
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-27943
     DataSource:
@@ -2821,8 +2825,8 @@
     InstalledVersion: 249.11-0ubuntu3.12
     Status: affected
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-7008
     DataSource:
@@ -2878,8 +2882,8 @@
     InstalledVersion: 4.3.0-6ubuntu0.10
     Status: affected
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-6716
     DataSource:
@@ -2903,8 +2907,8 @@
     InstalledVersion: 6.3-2ubuntu0.1
     Status: affected
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-45918
     DataSource:
@@ -2939,8 +2943,8 @@
     InstalledVersion: 6.3-2ubuntu0.1
     Status: affected
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-50495
     DataSource:
@@ -2983,8 +2987,8 @@
     InstalledVersion: 249.11-0ubuntu3.12
     Status: affected
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-7008
     DataSource:
@@ -3040,8 +3044,8 @@
     InstalledVersion: 1.4.8+dfsg-3build1
     Status: affected
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-4899
     DataSource:
@@ -3180,8 +3184,8 @@
     InstalledVersion: 1:4.8.1-2ubuntu2.2
     Status: affected
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-56433
     DataSource:
@@ -3218,8 +3222,8 @@
     InstalledVersion: 1:4.8.1-2ubuntu2.2
     Status: affected
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-29383
     DataSource:
@@ -3262,8 +3266,8 @@
     InstalledVersion: 6.3-2ubuntu0.1
     Status: affected
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-45918
     DataSource:
@@ -3298,8 +3302,8 @@
     InstalledVersion: 6.3-2ubuntu0.1
     Status: affected
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-50495
     DataSource:
@@ -3342,8 +3346,8 @@
     InstalledVersion: 6.3-2ubuntu0.1
     Status: affected
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-45918
     DataSource:
@@ -3378,8 +3382,8 @@
     InstalledVersion: 6.3-2ubuntu0.1
     Status: affected
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-50495
     DataSource:
@@ -3422,8 +3426,8 @@
     InstalledVersion: 6.3-2ubuntu0.1
     Status: affected
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-45918
     DataSource:
@@ -3458,8 +3462,8 @@
     InstalledVersion: 6.3-2ubuntu0.1
     Status: affected
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-50495
     DataSource:
@@ -3502,8 +3506,8 @@
     InstalledVersion: 3.0.2-0ubuntu1.18
     Status: affected
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-41996
     DataSource:
@@ -3544,8 +3548,8 @@
     InstalledVersion: 1:4.8.1-2ubuntu2.2
     Status: affected
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-56433
     DataSource:
@@ -3582,8 +3586,8 @@
     InstalledVersion: 1:4.8.1-2ubuntu2.2
     Status: affected
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-29383
     DataSource:
@@ -3626,8 +3630,8 @@
     InstalledVersion: 3.10.12-1~22.04.7
     Status: affected
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-11168
     DataSource:
@@ -3687,8 +3691,8 @@
     InstalledVersion: 3.10.12-1~22.04.7
     Status: affected
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-11168
     DataSource:
@@ -3748,8 +3752,8 @@
     InstalledVersion: 249.11-0ubuntu3.12
     Status: affected
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-7008
     DataSource:
@@ -3805,8 +3809,8 @@
     InstalledVersion: 249.11-0ubuntu3.12
     Status: affected
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-7008
     DataSource:
@@ -3862,8 +3866,8 @@
     InstalledVersion: 249.11-0ubuntu3.12
     Status: affected
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-7008
     DataSource:
@@ -3919,8 +3923,8 @@
     InstalledVersion: 1:4.8.1-2ubuntu2.2
     Status: affected
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-56433
     DataSource:
@@ -3957,8 +3961,8 @@
     InstalledVersion: 1:4.8.1-2ubuntu2.2
     Status: affected
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-29383
     DataSource:
@@ -4001,8 +4005,8 @@
     InstalledVersion: 1.21.2-2ubuntu1.1
     Status: affected
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2021-31879
     DataSource:
@@ -4053,8 +4057,8 @@
     FixedVersion: 1.15.3
     Status: fixed
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     SeveritySource: ghsa
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-36033
     DataSource:
@@ -4110,8 +4114,8 @@
     FixedVersion: 7.0.5, 6.0.6
     Status: fixed
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     SeveritySource: ghsa
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-21538
     DataSource:
@@ -4124,6 +4128,7 @@
     CweIDs:
     - CWE-1333
     VendorSeverity:
+      amazon: 2
       azure: 3
       cbl-mariner: 3
       ghsa: 3
@@ -4163,8 +4168,8 @@
     FixedVersion: 0.17.0
     Status: fixed
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     SeveritySource: ghsa
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-39325
     DataSource:
@@ -4317,8 +4322,8 @@
     FixedVersion: 0.33.0
     Status: fixed
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     SeveritySource: ghsa
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-45338
     DataSource:
@@ -4349,6 +4354,7 @@
     - https://groups.google.com/g/golang-announce/c/wSCRmFnNmPA/m/Lvcd0mRMAwAJ
     - https://nvd.nist.gov/vuln/detail/CVE-2024-45338
     - https://pkg.go.dev/vuln/GO-2024-3333
+    - https://ubuntu.com/security/notices/USN-7197-1
     - https://www.cve.org/CVERecord?id=CVE-2024-45338
     PublishedDate: '2024-12-18T21:15:08.173Z'
     LastModifiedDate: '2024-12-31T20:16:06.603Z'
@@ -4362,8 +4368,8 @@
     FixedVersion: 0.13.0
     Status: fixed
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     SeveritySource: ghsa
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-3978
     DataSource:
@@ -4430,8 +4436,8 @@
     FixedVersion: 0.17.0
     Status: fixed
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     SeveritySource: ghsa
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-44487
     DataSource:
@@ -4722,8 +4728,8 @@
     FixedVersion: 0.23.0
     Status: fixed
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     SeveritySource: ghsa
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-45288
     DataSource:
@@ -4805,8 +4811,8 @@
     FixedVersion: 1.21.11, 1.22.4
     Status: fixed
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-24790
     DataSource:
@@ -4878,8 +4884,8 @@
     FixedVersion: 1.20.10, 1.21.3
     Status: fixed
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-39325
     DataSource:
@@ -5032,8 +5038,8 @@
     FixedVersion: 1.20.11, 1.21.4, 1.20.12, 1.21.5
     Status: fixed
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-45283
     DataSource:
@@ -5081,8 +5087,8 @@
     FixedVersion: 1.21.9, 1.22.2
     Status: fixed
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-45288
     DataSource:
       ID: govulndb
@@ -5163,8 +5169,8 @@
     FixedVersion: 1.22.7, 1.23.1
     Status: fixed
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-34156
     DataSource:
       ID: govulndb
@@ -5224,8 +5230,8 @@
     FixedVersion: 1.19.11, 1.20.6
     Status: fixed
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-29406
     DataSource:
@@ -5302,8 +5308,8 @@
     FixedVersion: 1.19.12, 1.20.7, 1.21.0-rc.4
     Status: fixed
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-29409
     DataSource:
@@ -5366,8 +5372,8 @@
     FixedVersion: 1.20.8, 1.21.1
     Status: fixed
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-39318
     DataSource:
@@ -5436,8 +5442,8 @@
     FixedVersion: 1.20.8, 1.21.1
     Status: fixed
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-39319
     DataSource:
@@ -5451,7 +5457,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -5506,8 +5512,8 @@
     FixedVersion: 1.20.12, 1.21.5
     Status: fixed
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-39326
     DataSource:
@@ -5519,7 +5525,7 @@
     Severity: MEDIUM
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       bitnami: 2
       cbl-mariner: 2
       nvd: 2
@@ -5567,8 +5573,8 @@
     FixedVersion: 1.20.11, 1.21.4
     Status: fixed
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-45284
     DataSource:
@@ -5609,8 +5615,8 @@
     FixedVersion: 1.21.8, 1.22.1
     Status: fixed
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-45289
     DataSource:
       ID: govulndb
@@ -5678,8 +5684,8 @@
     FixedVersion: 1.21.8, 1.22.1
     Status: fixed
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-45290
     DataSource:
       ID: govulndb
@@ -5746,8 +5752,8 @@
     FixedVersion: 1.21.8, 1.22.1
     Status: fixed
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-24783
     DataSource:
       ID: govulndb
@@ -5818,8 +5824,8 @@
     FixedVersion: 1.21.8, 1.22.1
     Status: fixed
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-24784
     DataSource:
       ID: govulndb
@@ -5899,8 +5905,8 @@
     FixedVersion: 1.21.8, 1.22.1
     Status: fixed
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-24785
     DataSource:
       ID: govulndb
@@ -5973,8 +5979,8 @@
     FixedVersion: 1.21.11, 1.22.4
     Status: fixed
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-24789
     DataSource:
@@ -6049,8 +6055,8 @@
     FixedVersion: 1.21.12, 1.22.5
     Status: fixed
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-24791
     DataSource:
       ID: govulndb
@@ -6116,8 +6122,8 @@
     FixedVersion: 1.22.7, 1.23.1
     Status: fixed
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-34155
     DataSource:
       ID: govulndb
@@ -6187,8 +6193,8 @@
     FixedVersion: 1.22.7, 1.23.1
     Status: fixed
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-34158
     DataSource:
       ID: govulndb
@@ -6251,7 +6257,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-34158
     PublishedDate: '2024-09-06T21:15:12.083Z'
     LastModifiedDate: '2024-09-09T14:35:01.17Z'
-- Target: tmp/tmp.lFSpTqS1CB/krew-linux_amd64
+- Target: tmp/tmp.5rs7lg1bLk/krew-linux_amd64
   Class: lang-pkgs
   Type: gobinary
   Vulnerabilities:
@@ -6260,13 +6266,13 @@
     PkgName: golang.org/x/net
     PkgIdentifier:
       PURL: pkg:golang/golang.org/x/net@v0.12.0
-      UID: 96eaff758c8ab422
+      UID: 7482de668d22aa62
     InstalledVersion: v0.12.0
     FixedVersion: 0.17.0
     Status: fixed
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     SeveritySource: ghsa
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-39325
     DataSource:
@@ -6414,13 +6420,13 @@
     PkgName: golang.org/x/net
     PkgIdentifier:
       PURL: pkg:golang/golang.org/x/net@v0.12.0
-      UID: 96eaff758c8ab422
+      UID: 7482de668d22aa62
     InstalledVersion: v0.12.0
     FixedVersion: 0.33.0
     Status: fixed
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     SeveritySource: ghsa
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-45338
     DataSource:
@@ -6451,6 +6457,7 @@
     - https://groups.google.com/g/golang-announce/c/wSCRmFnNmPA/m/Lvcd0mRMAwAJ
     - https://nvd.nist.gov/vuln/detail/CVE-2024-45338
     - https://pkg.go.dev/vuln/GO-2024-3333
+    - https://ubuntu.com/security/notices/USN-7197-1
     - https://www.cve.org/CVERecord?id=CVE-2024-45338
     PublishedDate: '2024-12-18T21:15:08.173Z'
     LastModifiedDate: '2024-12-31T20:16:06.603Z'
@@ -6459,13 +6466,13 @@
     PkgName: golang.org/x/net
     PkgIdentifier:
       PURL: pkg:golang/golang.org/x/net@v0.12.0
-      UID: 96eaff758c8ab422
+      UID: 7482de668d22aa62
     InstalledVersion: v0.12.0
     FixedVersion: 0.13.0
     Status: fixed
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     SeveritySource: ghsa
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-3978
     DataSource:
@@ -6527,13 +6534,13 @@
     PkgName: golang.org/x/net
     PkgIdentifier:
       PURL: pkg:golang/golang.org/x/net@v0.12.0
-      UID: 96eaff758c8ab422
+      UID: 7482de668d22aa62
     InstalledVersion: v0.12.0
     FixedVersion: 0.17.0
     Status: fixed
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     SeveritySource: ghsa
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-44487
     DataSource:
@@ -6819,13 +6826,13 @@
     PkgName: golang.org/x/net
     PkgIdentifier:
       PURL: pkg:golang/golang.org/x/net@v0.12.0
-      UID: 96eaff758c8ab422
+      UID: 7482de668d22aa62
     InstalledVersion: v0.12.0
     FixedVersion: 0.23.0
     Status: fixed
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     SeveritySource: ghsa
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-45288
     DataSource:
@@ -6902,13 +6909,13 @@
     PkgName: stdlib
     PkgIdentifier:
       PURL: pkg:golang/stdlib@v1.20.5
-      UID: 16fb642a207df156
+      UID: 5dc1cc3e4c60088e
     InstalledVersion: v1.20.5
     FixedVersion: 1.21.11, 1.22.4
     Status: fixed
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-24790
     DataSource:
@@ -6975,13 +6982,13 @@
     PkgName: stdlib
     PkgIdentifier:
       PURL: pkg:golang/stdlib@v1.20.5
-      UID: 16fb642a207df156
+      UID: 5dc1cc3e4c60088e
     InstalledVersion: v1.20.5
     FixedVersion: 1.20.10, 1.21.3
     Status: fixed
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-39325
     DataSource:
@@ -7129,13 +7136,13 @@
     PkgName: stdlib
     PkgIdentifier:
       PURL: pkg:golang/stdlib@v1.20.5
-      UID: 16fb642a207df156
+      UID: 5dc1cc3e4c60088e
     InstalledVersion: v1.20.5
     FixedVersion: 1.20.11, 1.21.4, 1.20.12, 1.21.5
     Status: fixed
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-45283
     DataSource:
@@ -7178,13 +7185,13 @@
     PkgName: stdlib
     PkgIdentifier:
       PURL: pkg:golang/stdlib@v1.20.5
-      UID: 16fb642a207df156
+      UID: 5dc1cc3e4c60088e
     InstalledVersion: v1.20.5
     FixedVersion: 1.21.9, 1.22.2
     Status: fixed
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-45288
     DataSource:
       ID: govulndb
@@ -7260,13 +7267,13 @@
     PkgName: stdlib
     PkgIdentifier:
       PURL: pkg:golang/stdlib@v1.20.5
-      UID: 16fb642a207df156
+      UID: 5dc1cc3e4c60088e
     InstalledVersion: v1.20.5
     FixedVersion: 1.22.7, 1.23.1
     Status: fixed
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-34156
     DataSource:
       ID: govulndb
@@ -7321,13 +7328,13 @@
     PkgName: stdlib
     PkgIdentifier:
       PURL: pkg:golang/stdlib@v1.20.5
-      UID: 16fb642a207df156
+      UID: 5dc1cc3e4c60088e
     InstalledVersion: v1.20.5
     FixedVersion: 1.19.11, 1.20.6
     Status: fixed
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-29406
     DataSource:
@@ -7399,13 +7406,13 @@
     PkgName: stdlib
     PkgIdentifier:
       PURL: pkg:golang/stdlib@v1.20.5
-      UID: 16fb642a207df156
+      UID: 5dc1cc3e4c60088e
     InstalledVersion: v1.20.5
     FixedVersion: 1.19.12, 1.20.7, 1.21.0-rc.4
     Status: fixed
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-29409
     DataSource:
@@ -7463,13 +7470,13 @@
     PkgName: stdlib
     PkgIdentifier:
       PURL: pkg:golang/stdlib@v1.20.5
-      UID: 16fb642a207df156
+      UID: 5dc1cc3e4c60088e
     InstalledVersion: v1.20.5
     FixedVersion: 1.20.8, 1.21.1
     Status: fixed
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-39318
     DataSource:
@@ -7533,13 +7540,13 @@
     PkgName: stdlib
     PkgIdentifier:
       PURL: pkg:golang/stdlib@v1.20.5
-      UID: 16fb642a207df156
+      UID: 5dc1cc3e4c60088e
     InstalledVersion: v1.20.5
     FixedVersion: 1.20.8, 1.21.1
     Status: fixed
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-39319
     DataSource:
@@ -7553,7 +7560,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -7603,13 +7610,13 @@
     PkgName: stdlib
     PkgIdentifier:
       PURL: pkg:golang/stdlib@v1.20.5
-      UID: 16fb642a207df156
+      UID: 5dc1cc3e4c60088e
     InstalledVersion: v1.20.5
     FixedVersion: 1.20.12, 1.21.5
     Status: fixed
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-39326
     DataSource:
@@ -7621,7 +7628,7 @@
     Severity: MEDIUM
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       bitnami: 2
       cbl-mariner: 2
       nvd: 2
@@ -7664,13 +7671,13 @@
     PkgName: stdlib
     PkgIdentifier:
       PURL: pkg:golang/stdlib@v1.20.5
-      UID: 16fb642a207df156
+      UID: 5dc1cc3e4c60088e
     InstalledVersion: v1.20.5
     FixedVersion: 1.20.11, 1.21.4
     Status: fixed
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-45284
     DataSource:
@@ -7706,13 +7713,13 @@
     PkgName: stdlib
     PkgIdentifier:
       PURL: pkg:golang/stdlib@v1.20.5
-      UID: 16fb642a207df156
+      UID: 5dc1cc3e4c60088e
     InstalledVersion: v1.20.5
     FixedVersion: 1.21.8, 1.22.1
     Status: fixed
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-45289
     DataSource:
       ID: govulndb
@@ -7775,13 +7782,13 @@
     PkgName: stdlib
     PkgIdentifier:
       PURL: pkg:golang/stdlib@v1.20.5
-      UID: 16fb642a207df156
+      UID: 5dc1cc3e4c60088e
     InstalledVersion: v1.20.5
     FixedVersion: 1.21.8, 1.22.1
     Status: fixed
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-45290
     DataSource:
       ID: govulndb
@@ -7843,13 +7850,13 @@
     PkgName: stdlib
     PkgIdentifier:
       PURL: pkg:golang/stdlib@v1.20.5
-      UID: 16fb642a207df156
+      UID: 5dc1cc3e4c60088e
     InstalledVersion: v1.20.5
     FixedVersion: 1.21.8, 1.22.1
     Status: fixed
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-24783
     DataSource:
       ID: govulndb
@@ -7915,13 +7922,13 @@
     PkgName: stdlib
     PkgIdentifier:
       PURL: pkg:golang/stdlib@v1.20.5
-      UID: 16fb642a207df156
+      UID: 5dc1cc3e4c60088e
     InstalledVersion: v1.20.5
     FixedVersion: 1.21.8, 1.22.1
     Status: fixed
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-24784
     DataSource:
       ID: govulndb
@@ -7996,13 +8003,13 @@
     PkgName: stdlib
     PkgIdentifier:
       PURL: pkg:golang/stdlib@v1.20.5
-      UID: 16fb642a207df156
+      UID: 5dc1cc3e4c60088e
     InstalledVersion: v1.20.5
     FixedVersion: 1.21.8, 1.22.1
     Status: fixed
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-24785
     DataSource:
       ID: govulndb
@@ -8070,13 +8077,13 @@
     PkgName: stdlib
     PkgIdentifier:
       PURL: pkg:golang/stdlib@v1.20.5
-      UID: 16fb642a207df156
+      UID: 5dc1cc3e4c60088e
     InstalledVersion: v1.20.5
     FixedVersion: 1.21.11, 1.22.4
     Status: fixed
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-24789
     DataSource:
@@ -8146,13 +8153,13 @@
     PkgName: stdlib
     PkgIdentifier:
       PURL: pkg:golang/stdlib@v1.20.5
-      UID: 16fb642a207df156
+      UID: 5dc1cc3e4c60088e
     InstalledVersion: v1.20.5
     FixedVersion: 1.21.12, 1.22.5
     Status: fixed
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-24791
     DataSource:
       ID: govulndb
@@ -8213,13 +8220,13 @@
     PkgName: stdlib
     PkgIdentifier:
       PURL: pkg:golang/stdlib@v1.20.5
-      UID: 16fb642a207df156
+      UID: 5dc1cc3e4c60088e
     InstalledVersion: v1.20.5
     FixedVersion: 1.22.7, 1.23.1
     Status: fixed
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-34155
     DataSource:
       ID: govulndb
@@ -8284,13 +8291,13 @@
     PkgName: stdlib
     PkgIdentifier:
       PURL: pkg:golang/stdlib@v1.20.5
-      UID: 16fb642a207df156
+      UID: 5dc1cc3e4c60088e
     InstalledVersion: v1.20.5
     FixedVersion: 1.22.7, 1.23.1
     Status: fixed
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-34158
     DataSource:
       ID: govulndb
@@ -8356,52 +8363,6 @@
 - Target: usr/bin/docker-compose
   Class: lang-pkgs
   Type: gobinary
-  Vulnerabilities:
-  - VulnerabilityID: CVE-2024-45338
-    PkgID: golang.org/x/net@v0.29.0
-    PkgName: golang.org/x/net
-    PkgIdentifier:
-      PURL: pkg:golang/golang.org/x/net@v0.29.0
-      UID: 8bf71dbc595805db
-    InstalledVersion: v0.29.0
-    FixedVersion: 0.33.0
-    Status: fixed
-    Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
-    SeveritySource: ghsa
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-45338
-    DataSource:
-      ID: ghsa
-      Name: GitHub Security Advisory Go
-      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
-    Title: 'golang.org/x/net/html: Non-linear parsing of case-insensitive content in golang.org/x/net/html'
-    Description: An attacker can craft an input to the Parse functions that would be processed non-linearly with respect to its length, resulting in extremely slow parsing. This could cause a denial of service.
-    Severity: HIGH
-    CweIDs:
-    - CWE-1333
-    VendorSeverity:
-      cbl-mariner: 3
-      ghsa: 3
-      redhat: 3
-      ubuntu: 2
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
-    References:
-    - https://access.redhat.com/security/cve/CVE-2024-45338
-    - https://cs.opensource.google/go/x/net
-    - https://github.com/golang/go/issues/70906
-    - https://go-review.googlesource.com/c/net/+/637536
-    - https://go.dev/cl/637536
-    - https://go.dev/issue/70906
-    - https://groups.google.com/g/golang-announce/c/wSCRmFnNmPA/m/Lvcd0mRMAwAJ
-    - https://nvd.nist.gov/vuln/detail/CVE-2024-45338
-    - https://pkg.go.dev/vuln/GO-2024-3333
-    - https://www.cve.org/CVERecord?id=CVE-2024-45338
-    PublishedDate: '2024-12-18T21:15:08.173Z'
-    LastModifiedDate: '2024-12-31T20:16:06.603Z'
 - Target: usr/bin/helm
   Class: lang-pkgs
   Type: gobinary
@@ -8416,8 +8377,8 @@
     FixedVersion: 0.33.0
     Status: fixed
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     SeveritySource: ghsa
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-45338
     DataSource:
@@ -8448,6 +8409,7 @@
     - https://groups.google.com/g/golang-announce/c/wSCRmFnNmPA/m/Lvcd0mRMAwAJ
     - https://nvd.nist.gov/vuln/detail/CVE-2024-45338
     - https://pkg.go.dev/vuln/GO-2024-3333
+    - https://ubuntu.com/security/notices/USN-7197-1
     - https://www.cve.org/CVERecord?id=CVE-2024-45338
     PublishedDate: '2024-12-18T21:15:08.173Z'
     LastModifiedDate: '2024-12-31T20:16:06.603Z'
@@ -8465,8 +8427,8 @@
     FixedVersion: 0.33.0
     Status: fixed
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     SeveritySource: ghsa
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-45338
     DataSource:
@@ -8497,6 +8459,7 @@
     - https://groups.google.com/g/golang-announce/c/wSCRmFnNmPA/m/Lvcd0mRMAwAJ
     - https://nvd.nist.gov/vuln/detail/CVE-2024-45338
     - https://pkg.go.dev/vuln/GO-2024-3333
+    - https://ubuntu.com/security/notices/USN-7197-1
     - https://www.cve.org/CVERecord?id=CVE-2024-45338
     PublishedDate: '2024-12-18T21:15:08.173Z'
     LastModifiedDate: '2024-12-31T20:16:06.603Z'
@@ -8514,8 +8477,8 @@
     FixedVersion: 0.31.0
     Status: fixed
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     SeveritySource: ghsa
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-45337
     DataSource:
@@ -8560,8 +8523,8 @@
     FixedVersion: 0.33.0
     Status: fixed
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     SeveritySource: ghsa
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-45338
     DataSource:
@@ -8592,6 +8555,7 @@
     - https://groups.google.com/g/golang-announce/c/wSCRmFnNmPA/m/Lvcd0mRMAwAJ
     - https://nvd.nist.gov/vuln/detail/CVE-2024-45338
     - https://pkg.go.dev/vuln/GO-2024-3333
+    - https://ubuntu.com/security/notices/USN-7197-1
     - https://www.cve.org/CVERecord?id=CVE-2024-45338
     PublishedDate: '2024-12-18T21:15:08.173Z'
     LastModifiedDate: '2024-12-31T20:16:06.603Z'
@@ -8609,8 +8573,8 @@
     FixedVersion: 23.0.15, 26.1.5, 27.1.1, 25.0.6
     Status: fixed
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     SeveritySource: ghsa
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-41110
     DataSource:
@@ -8678,8 +8642,8 @@
     FixedVersion: 0.31.0
     Status: fixed
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     SeveritySource: ghsa
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-45337
     DataSource:
@@ -8724,8 +8688,8 @@
     FixedVersion: 0.33.0
     Status: fixed
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     SeveritySource: ghsa
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-45338
     DataSource:
@@ -8756,6 +8720,7 @@
     - https://groups.google.com/g/golang-announce/c/wSCRmFnNmPA/m/Lvcd0mRMAwAJ
     - https://nvd.nist.gov/vuln/detail/CVE-2024-45338
     - https://pkg.go.dev/vuln/GO-2024-3333
+    - https://ubuntu.com/security/notices/USN-7197-1
     - https://www.cve.org/CVERecord?id=CVE-2024-45338
     PublishedDate: '2024-12-18T21:15:08.173Z'
     LastModifiedDate: '2024-12-31T20:16:06.603Z'
@@ -8769,8 +8734,8 @@
     FixedVersion: 1.64.1
     Status: fixed
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
     SeveritySource: ghsa
     PrimaryURL: https://github.com/advisories/GHSA-xr7q-jx4m-x55m
     DataSource:
@@ -8822,8 +8787,8 @@
         LastCause: false
     Match: BEGIN OPENSSH PRIVATE KEY-----****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
       CreatedBy: 'COPY / / # buildkit'
 - Target: /etc/ssh/ssh_host_ecdsa_key
   Class: secret
@@ -8853,8 +8818,8 @@
         LastCause: false
     Match: BEGIN OPENSSH PRIVATE KEY-----************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
       CreatedBy: 'COPY / / # buildkit'
 - Target: /etc/ssh/ssh_host_ed25519_key
   Class: secret
@@ -8884,8 +8849,8 @@
         LastCause: false
     Match: BEGIN OPENSSH PRIVATE KEY-----******************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
       CreatedBy: 'COPY / / # buildkit'
 - Target: /etc/ssh/ssh_host_rsa_key
   Class: secret
@@ -8915,6 +8880,6 @@
         LastCause: false
     Match: BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
     Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc96c087f46
+      DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef0b2bb846
       CreatedBy: 'COPY / / # buildkit'
