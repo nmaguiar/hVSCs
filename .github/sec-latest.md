@@ -2272,6 +2272,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-922 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
+│                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ oracle-oval: 2 
 │                        │      │                  ├ redhat     : 2 
 │                        │      │                  ├ rocky      : 3 
@@ -2327,6 +2328,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-922 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
+│                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ oracle-oval: 2 
 │                        │      │                  ├ redhat     : 2 
 │                        │      │                  ├ rocky      : 3 
@@ -2382,6 +2384,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-922 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
+│                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ oracle-oval: 2 
 │                        │      │                  ├ redhat     : 2 
 │                        │      │                  ├ rocky      : 3 
@@ -2501,6 +2504,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-922 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
+│                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ oracle-oval: 2 
 │                        │      │                  ├ redhat     : 2 
 │                        │      │                  ├ rocky      : 3 
@@ -4498,7 +4502,8 @@
 │                              │                   large and well crafted string. 
 │                              ├ Severity        : HIGH 
 │                              ├ CweIDs           ─ [0]: CWE-1333 
-│                              ├ VendorSeverity   ╭ azure      : 3 
+│                              ├ VendorSeverity   ╭ amazon     : 2 
+│                              │                  ├ azure      : 3 
 │                              │                  ├ cbl-mariner: 3 
 │                              │                  ├ ghsa       : 3 
 │                              │                  ╰ redhat     : 1 
@@ -4885,17 +4890,18 @@
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
 │                        │      │                           │           N/A:H 
 │                        │      │                           ╰ V3Score : 7.5 
-│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-45338 
-│                        │      │                  ├ [1]: https://cs.opensource.google/go/x/net 
-│                        │      │                  ├ [2]: https://github.com/golang/go/issues/70906 
-│                        │      │                  ├ [3]: https://go-review.googlesource.com/c/net/+/637536 
-│                        │      │                  ├ [4]: https://go.dev/cl/637536 
-│                        │      │                  ├ [5]: https://go.dev/issue/70906 
-│                        │      │                  ├ [6]: https://groups.google.com/g/golang-announce/c/wSCRmFn
-│                        │      │                  │      NmPA/m/Lvcd0mRMAwAJ 
-│                        │      │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2024-45338 
-│                        │      │                  ├ [8]: https://pkg.go.dev/vuln/GO-2024-3333 
-│                        │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2024-45338 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2024-45338 
+│                        │      │                  ├ [1] : https://cs.opensource.google/go/x/net 
+│                        │      │                  ├ [2] : https://github.com/golang/go/issues/70906 
+│                        │      │                  ├ [3] : https://go-review.googlesource.com/c/net/+/637536 
+│                        │      │                  ├ [4] : https://go.dev/cl/637536 
+│                        │      │                  ├ [5] : https://go.dev/issue/70906 
+│                        │      │                  ├ [6] : https://groups.google.com/g/golang-announce/c/wSCRmF
+│                        │      │                  │       nNmPA/m/Lvcd0mRMAwAJ 
+│                        │      │                  ├ [7] : https://nvd.nist.gov/vuln/detail/CVE-2024-45338 
+│                        │      │                  ├ [8] : https://pkg.go.dev/vuln/GO-2024-3333 
+│                        │      │                  ├ [9] : https://ubuntu.com/security/notices/USN-7197-1 
+│                        │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2024-45338 
 │                        │      ├ PublishedDate   : 2024-12-18T21:15:08.173Z 
 │                        │      ╰ LastModifiedDate: 2024-12-31T20:16:06.603Z 
 │                        ├ [2]  ╭ VulnerabilityID : CVE-2023-3978 
@@ -6497,7 +6503,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
@@ -6580,7 +6586,7 @@
 │                        │      │                   bytes grows too small. 
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ nvd        : 2 
@@ -7778,17 +7784,18 @@
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
 │                        │      │                           │           N/A:H 
 │                        │      │                           ╰ V3Score : 7.5 
-│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-45338 
-│                        │      │                  ├ [1]: https://cs.opensource.google/go/x/net 
-│                        │      │                  ├ [2]: https://github.com/golang/go/issues/70906 
-│                        │      │                  ├ [3]: https://go-review.googlesource.com/c/net/+/637536 
-│                        │      │                  ├ [4]: https://go.dev/cl/637536 
-│                        │      │                  ├ [5]: https://go.dev/issue/70906 
-│                        │      │                  ├ [6]: https://groups.google.com/g/golang-announce/c/wSCRmFn
-│                        │      │                  │      NmPA/m/Lvcd0mRMAwAJ 
-│                        │      │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2024-45338 
-│                        │      │                  ├ [8]: https://pkg.go.dev/vuln/GO-2024-3333 
-│                        │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2024-45338 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2024-45338 
+│                        │      │                  ├ [1] : https://cs.opensource.google/go/x/net 
+│                        │      │                  ├ [2] : https://github.com/golang/go/issues/70906 
+│                        │      │                  ├ [3] : https://go-review.googlesource.com/c/net/+/637536 
+│                        │      │                  ├ [4] : https://go.dev/cl/637536 
+│                        │      │                  ├ [5] : https://go.dev/issue/70906 
+│                        │      │                  ├ [6] : https://groups.google.com/g/golang-announce/c/wSCRmF
+│                        │      │                  │       nNmPA/m/Lvcd0mRMAwAJ 
+│                        │      │                  ├ [7] : https://nvd.nist.gov/vuln/detail/CVE-2024-45338 
+│                        │      │                  ├ [8] : https://pkg.go.dev/vuln/GO-2024-3333 
+│                        │      │                  ├ [9] : https://ubuntu.com/security/notices/USN-7197-1 
+│                        │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2024-45338 
 │                        │      ├ PublishedDate   : 2024-12-18T21:15:08.173Z 
 │                        │      ╰ LastModifiedDate: 2024-12-31T20:16:06.603Z 
 │                        ├ [2]  ╭ VulnerabilityID : CVE-2023-3978 
@@ -9390,7 +9397,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
@@ -9473,7 +9480,7 @@
 │                        │      │                   bytes grows too small. 
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ nvd        : 2 
@@ -10349,17 +10356,18 @@
 │                              ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
 │                              │                           │           /A:H 
 │                              │                           ╰ V3Score : 7.5 
-│                              ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-45338 
-│                              │                  ├ [1]: https://cs.opensource.google/go/x/net 
-│                              │                  ├ [2]: https://github.com/golang/go/issues/70906 
-│                              │                  ├ [3]: https://go-review.googlesource.com/c/net/+/637536 
-│                              │                  ├ [4]: https://go.dev/cl/637536 
-│                              │                  ├ [5]: https://go.dev/issue/70906 
-│                              │                  ├ [6]: https://groups.google.com/g/golang-announce/c/wSCRmFnN
-│                              │                  │      mPA/m/Lvcd0mRMAwAJ 
-│                              │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2024-45338 
-│                              │                  ├ [8]: https://pkg.go.dev/vuln/GO-2024-3333 
-│                              │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2024-45338 
+│                              ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2024-45338 
+│                              │                  ├ [1] : https://cs.opensource.google/go/x/net 
+│                              │                  ├ [2] : https://github.com/golang/go/issues/70906 
+│                              │                  ├ [3] : https://go-review.googlesource.com/c/net/+/637536 
+│                              │                  ├ [4] : https://go.dev/cl/637536 
+│                              │                  ├ [5] : https://go.dev/issue/70906 
+│                              │                  ├ [6] : https://groups.google.com/g/golang-announce/c/wSCRmFn
+│                              │                  │       NmPA/m/Lvcd0mRMAwAJ 
+│                              │                  ├ [7] : https://nvd.nist.gov/vuln/detail/CVE-2024-45338 
+│                              │                  ├ [8] : https://pkg.go.dev/vuln/GO-2024-3333 
+│                              │                  ├ [9] : https://ubuntu.com/security/notices/USN-7197-1 
+│                              │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2024-45338 
 │                              ├ PublishedDate   : 2024-12-18T21:15:08.173Z 
 │                              ╰ LastModifiedDate: 2024-12-31T20:16:06.603Z 
 ├ [6]  ╭ Target         : usr/bin/helm 
@@ -10398,17 +10406,18 @@
 │                              ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
 │                              │                           │           /A:H 
 │                              │                           ╰ V3Score : 7.5 
-│                              ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-45338 
-│                              │                  ├ [1]: https://cs.opensource.google/go/x/net 
-│                              │                  ├ [2]: https://github.com/golang/go/issues/70906 
-│                              │                  ├ [3]: https://go-review.googlesource.com/c/net/+/637536 
-│                              │                  ├ [4]: https://go.dev/cl/637536 
-│                              │                  ├ [5]: https://go.dev/issue/70906 
-│                              │                  ├ [6]: https://groups.google.com/g/golang-announce/c/wSCRmFnN
-│                              │                  │      mPA/m/Lvcd0mRMAwAJ 
-│                              │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2024-45338 
-│                              │                  ├ [8]: https://pkg.go.dev/vuln/GO-2024-3333 
-│                              │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2024-45338 
+│                              ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2024-45338 
+│                              │                  ├ [1] : https://cs.opensource.google/go/x/net 
+│                              │                  ├ [2] : https://github.com/golang/go/issues/70906 
+│                              │                  ├ [3] : https://go-review.googlesource.com/c/net/+/637536 
+│                              │                  ├ [4] : https://go.dev/cl/637536 
+│                              │                  ├ [5] : https://go.dev/issue/70906 
+│                              │                  ├ [6] : https://groups.google.com/g/golang-announce/c/wSCRmFn
+│                              │                  │       NmPA/m/Lvcd0mRMAwAJ 
+│                              │                  ├ [7] : https://nvd.nist.gov/vuln/detail/CVE-2024-45338 
+│                              │                  ├ [8] : https://pkg.go.dev/vuln/GO-2024-3333 
+│                              │                  ├ [9] : https://ubuntu.com/security/notices/USN-7197-1 
+│                              │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2024-45338 
 │                              ├ PublishedDate   : 2024-12-18T21:15:08.173Z 
 │                              ╰ LastModifiedDate: 2024-12-31T20:16:06.603Z 
 ├ [7]  ╭ Target         : usr/bin/kubectl 
@@ -10447,17 +10456,18 @@
 │                              ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
 │                              │                           │           /A:H 
 │                              │                           ╰ V3Score : 7.5 
-│                              ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-45338 
-│                              │                  ├ [1]: https://cs.opensource.google/go/x/net 
-│                              │                  ├ [2]: https://github.com/golang/go/issues/70906 
-│                              │                  ├ [3]: https://go-review.googlesource.com/c/net/+/637536 
-│                              │                  ├ [4]: https://go.dev/cl/637536 
-│                              │                  ├ [5]: https://go.dev/issue/70906 
-│                              │                  ├ [6]: https://groups.google.com/g/golang-announce/c/wSCRmFnN
-│                              │                  │      mPA/m/Lvcd0mRMAwAJ 
-│                              │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2024-45338 
-│                              │                  ├ [8]: https://pkg.go.dev/vuln/GO-2024-3333 
-│                              │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2024-45338 
+│                              ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2024-45338 
+│                              │                  ├ [1] : https://cs.opensource.google/go/x/net 
+│                              │                  ├ [2] : https://github.com/golang/go/issues/70906 
+│                              │                  ├ [3] : https://go-review.googlesource.com/c/net/+/637536 
+│                              │                  ├ [4] : https://go.dev/cl/637536 
+│                              │                  ├ [5] : https://go.dev/issue/70906 
+│                              │                  ├ [6] : https://groups.google.com/g/golang-announce/c/wSCRmFn
+│                              │                  │       NmPA/m/Lvcd0mRMAwAJ 
+│                              │                  ├ [7] : https://nvd.nist.gov/vuln/detail/CVE-2024-45338 
+│                              │                  ├ [8] : https://pkg.go.dev/vuln/GO-2024-3333 
+│                              │                  ├ [9] : https://ubuntu.com/security/notices/USN-7197-1 
+│                              │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2024-45338 
 │                              ├ PublishedDate   : 2024-12-18T21:15:08.173Z 
 │                              ╰ LastModifiedDate: 2024-12-31T20:16:06.603Z 
 ├ [8]  ╭ Target         : usr/bin/mc 
@@ -10582,17 +10592,18 @@
 │                              ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
 │                              │                           │           /A:H 
 │                              │                           ╰ V3Score : 7.5 
-│                              ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-45338 
-│                              │                  ├ [1]: https://cs.opensource.google/go/x/net 
-│                              │                  ├ [2]: https://github.com/golang/go/issues/70906 
-│                              │                  ├ [3]: https://go-review.googlesource.com/c/net/+/637536 
-│                              │                  ├ [4]: https://go.dev/cl/637536 
-│                              │                  ├ [5]: https://go.dev/issue/70906 
-│                              │                  ├ [6]: https://groups.google.com/g/golang-announce/c/wSCRmFnN
-│                              │                  │      mPA/m/Lvcd0mRMAwAJ 
-│                              │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2024-45338 
-│                              │                  ├ [8]: https://pkg.go.dev/vuln/GO-2024-3333 
-│                              │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2024-45338 
+│                              ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2024-45338 
+│                              │                  ├ [1] : https://cs.opensource.google/go/x/net 
+│                              │                  ├ [2] : https://github.com/golang/go/issues/70906 
+│                              │                  ├ [3] : https://go-review.googlesource.com/c/net/+/637536 
+│                              │                  ├ [4] : https://go.dev/cl/637536 
+│                              │                  ├ [5] : https://go.dev/issue/70906 
+│                              │                  ├ [6] : https://groups.google.com/g/golang-announce/c/wSCRmFn
+│                              │                  │       NmPA/m/Lvcd0mRMAwAJ 
+│                              │                  ├ [7] : https://nvd.nist.gov/vuln/detail/CVE-2024-45338 
+│                              │                  ├ [8] : https://pkg.go.dev/vuln/GO-2024-3333 
+│                              │                  ├ [9] : https://ubuntu.com/security/notices/USN-7197-1 
+│                              │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2024-45338 
 │                              ├ PublishedDate   : 2024-12-18T21:15:08.173Z 
 │                              ╰ LastModifiedDate: 2024-12-31T20:16:06.603Z 
 ├ [9]  ╭ Target         : usr/local/bin/k3d 
@@ -10817,17 +10828,18 @@
 │                        │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
 │                        │     │                           │           /A:H 
 │                        │     │                           ╰ V3Score : 7.5 
-│                        │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-45338 
-│                        │     │                  ├ [1]: https://cs.opensource.google/go/x/net 
-│                        │     │                  ├ [2]: https://github.com/golang/go/issues/70906 
-│                        │     │                  ├ [3]: https://go-review.googlesource.com/c/net/+/637536 
-│                        │     │                  ├ [4]: https://go.dev/cl/637536 
-│                        │     │                  ├ [5]: https://go.dev/issue/70906 
-│                        │     │                  ├ [6]: https://groups.google.com/g/golang-announce/c/wSCRmFnN
-│                        │     │                  │      mPA/m/Lvcd0mRMAwAJ 
-│                        │     │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2024-45338 
-│                        │     │                  ├ [8]: https://pkg.go.dev/vuln/GO-2024-3333 
-│                        │     │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2024-45338 
+│                        │     ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2024-45338 
+│                        │     │                  ├ [1] : https://cs.opensource.google/go/x/net 
+│                        │     │                  ├ [2] : https://github.com/golang/go/issues/70906 
+│                        │     │                  ├ [3] : https://go-review.googlesource.com/c/net/+/637536 
+│                        │     │                  ├ [4] : https://go.dev/cl/637536 
+│                        │     │                  ├ [5] : https://go.dev/issue/70906 
+│                        │     │                  ├ [6] : https://groups.google.com/g/golang-announce/c/wSCRmFn
+│                        │     │                  │       NmPA/m/Lvcd0mRMAwAJ 
+│                        │     │                  ├ [7] : https://nvd.nist.gov/vuln/detail/CVE-2024-45338 
+│                        │     │                  ├ [8] : https://pkg.go.dev/vuln/GO-2024-3333 
+│                        │     │                  ├ [9] : https://ubuntu.com/security/notices/USN-7197-1 
+│                        │     │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2024-45338 
 │                        │     ├ PublishedDate   : 2024-12-18T21:15:08.173Z 
 │                        │     ╰ LastModifiedDate: 2024-12-31T20:16:06.603Z 
 │                        ╰ [3] ╭ VulnerabilityID : GHSA-xr7q-jx4m-x55m 
@@ -10870,46 +10882,7 @@
 │                                                 │      7a7786754d1fe05264c3021eb 
 │                                                 ╰ [2]: https://github.com/grpc/grpc-go/security/advisories/GH
 │                                                        SA-xr7q-jx4m-x55m 
-├ [10] ╭ Target : /etc/ssh/ssh_host_rsa_key 
-│      ├ Class  : secret 
-│      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
-│                      ├ Category : AsymmetricPrivateKey 
-│                      ├ Severity : HIGH 
-│                      ├ Title    : Asymmetric Private Key 
-│                      ├ StartLine: 1 
-│                      ├ EndLine  : 1 
-│                      ├ Code      ─ Lines ╭ [0] ╭ Number     : 1 
-│                      │                   │     ├ Content    : BEGIN OPENSSH PRIVATE
-│                      │                   │     │              KEY-----***************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********-----END OPENSSH PRI 
-│                      │                   │     ├ IsCause    : true 
-│                      │                   │     ├ Annotation :  
-│                      │                   │     ├ Truncated  : false 
-│                      │                   │     ├ Highlighted: BEGIN OPENSSH PRIVATE
-│                      │                   │     │              KEY-----***************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********-----END OPENSSH PRI 
-│                      │                   │     ├ FirstCause : true 
-│                      │                   │     ╰ LastCause  : true 
-│                      │                   ╰ [1] ╭ Number    : 2 
-│                      │                         ├ Content   :  
-│                      │                         ├ IsCause   : false 
-│                      │                         ├ Annotation:  
-│                      │                         ├ Truncated : false 
-│                      │                         ├ FirstCause: false 
-│                      │                         ╰ LastCause : false 
-│                      ├ Match    : BEGIN OPENSSH PRIVATE
-│                      │            KEY-----*******************************************************************
-│                      │            ***************************************************************************
-│                      │            **************************************************************************-
-│                      │            ----END OPENSSH PRI 
-│                      ╰ Layer     ╭ Digest   : sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca80805547
-│                                  │            71c9d616 
-│                                  ├ DiffID   : sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9
-│                                  │            ec02fe93 
-│                                  ╰ CreatedBy: COPY / / # buildkit 
-├ [11] ╭ Target : /etc/ssh/ssh_host_dsa_key 
+├ [10] ╭ Target : /etc/ssh/ssh_host_dsa_key 
 │      ├ Class  : secret 
 │      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
 │                      ├ Category : AsymmetricPrivateKey 
@@ -10948,7 +10921,7 @@
 │                                  ├ DiffID   : sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9
 │                                  │            ec02fe93 
 │                                  ╰ CreatedBy: COPY / / # buildkit 
-├ [12] ╭ Target : /etc/ssh/ssh_host_ecdsa_key 
+├ [11] ╭ Target : /etc/ssh/ssh_host_ecdsa_key 
 │      ├ Class  : secret 
 │      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
 │                      ├ Category : AsymmetricPrivateKey 
@@ -10988,7 +10961,45 @@
 │                                  ├ DiffID   : sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9
 │                                  │            ec02fe93 
 │                                  ╰ CreatedBy: COPY / / # buildkit 
-╰ [13] ╭ Target : /etc/ssh/ssh_host_ed25519_key 
+├ [12] ╭ Target : /etc/ssh/ssh_host_ed25519_key 
+│      ├ Class  : secret 
+│      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
+│                      ├ Category : AsymmetricPrivateKey 
+│                      ├ Severity : HIGH 
+│                      ├ Title    : Asymmetric Private Key 
+│                      ├ StartLine: 1 
+│                      ├ EndLine  : 1 
+│                      ├ Code      ─ Lines ╭ [0] ╭ Number     : 1 
+│                      │                   │     ├ Content    : BEGIN OPENSSH PRIVATE
+│                      │                   │     │              KEY-----***************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              *********************-----END OPENSSH PRI 
+│                      │                   │     ├ IsCause    : true 
+│                      │                   │     ├ Annotation :  
+│                      │                   │     ├ Truncated  : false 
+│                      │                   │     ├ Highlighted: BEGIN OPENSSH PRIVATE
+│                      │                   │     │              KEY-----***************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              *********************-----END OPENSSH PRI 
+│                      │                   │     ├ FirstCause : true 
+│                      │                   │     ╰ LastCause  : true 
+│                      │                   ╰ [1] ╭ Number    : 2 
+│                      │                         ├ Content   :  
+│                      │                         ├ IsCause   : false 
+│                      │                         ├ Annotation:  
+│                      │                         ├ Truncated : false 
+│                      │                         ├ FirstCause: false 
+│                      │                         ╰ LastCause : false 
+│                      ├ Match    : BEGIN OPENSSH PRIVATE
+│                      │            KEY-----*******************************************************************
+│                      │            ***************************************************************************
+│                      │            **************************************************-----END OPENSSH PRI 
+│                      ╰ Layer     ╭ Digest   : sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca80805547
+│                                  │            71c9d616 
+│                                  ├ DiffID   : sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9
+│                                  │            ec02fe93 
+│                                  ╰ CreatedBy: COPY / / # buildkit 
+╰ [13] ╭ Target : /etc/ssh/ssh_host_rsa_key 
        ├ Class  : secret 
        ╰ Secrets ─ [0] ╭ RuleID   : private-key 
                        ├ Category : AsymmetricPrivateKey 
@@ -11000,14 +11011,14 @@
                        │                   │     ├ Content    : BEGIN OPENSSH PRIVATE
                        │                   │     │              KEY-----***************************************
                        │                   │     │              ***********************************************
-                       │                   │     │              *********************-----END OPENSSH PRI 
+                       │                   │     │              ***********-----END OPENSSH PRI 
                        │                   │     ├ IsCause    : true 
                        │                   │     ├ Annotation :  
                        │                   │     ├ Truncated  : false 
                        │                   │     ├ Highlighted: BEGIN OPENSSH PRIVATE
                        │                   │     │              KEY-----***************************************
                        │                   │     │              ***********************************************
-                       │                   │     │              *********************-----END OPENSSH PRI 
+                       │                   │     │              ***********-----END OPENSSH PRI 
                        │                   │     ├ FirstCause : true 
                        │                   │     ╰ LastCause  : true 
                        │                   ╰ [1] ╭ Number    : 2 
@@ -11020,7 +11031,8 @@
                        ├ Match    : BEGIN OPENSSH PRIVATE
                        │            KEY-----*******************************************************************
                        │            ***************************************************************************
-                       │            **************************************************-----END OPENSSH PRI 
+                       │            **************************************************************************-
+                       │            ----END OPENSSH PRI 
                        ╰ Layer     ╭ Digest   : sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca80805547
                                    │            71c9d616 
                                    ├ DiffID   : sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9
