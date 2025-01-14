@@ -4172,7 +4172,7 @@
       ID: ghsa
       Name: GitHub Security Advisory Go
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
-    Title: 'golang: net/http, x/net/http2: rapid stream resets can cause excessive work (CVE-2023-44487)'
+    Title: A malicious HTTP/2 client which rapidly creates requests and immediate ...
     Description: A malicious HTTP/2 client which rapidly creates requests and immediately resets them can cause excessive server resource consumption. While the total number of requests is bounded by the http2.Server.MaxConcurrentStreams setting, resetting an in-progress request allows the attacker to create a new request while the existing one is still executing. With the fix applied, HTTP/2 servers now bound the number of simultaneously executing handler goroutines to the stream concurrency limit (MaxConcurrentStreams). New requests arriving when at the limit (which can only happen after the client has reset an existing, in-flight request) will be queued until a handler exits. If the request queue grows too large, the server will terminate the connection. This issue is also fixed in golang.org/x/net/http2 for users manually configuring HTTP/2. The default stream concurrency limit is 250 streams (requests) per HTTP/2 connection. This value may be adjusted using the golang.org/x/net/http2 package; see the Server.MaxConcurrentStreams setting and the ConfigureServer function.
     Severity: HIGH
     CweIDs:
@@ -4186,7 +4186,6 @@
       ghsa: 3
       nvd: 3
       oracle-oval: 2
-      redhat: 3
       rocky: 2
       ubuntu: 2
     CVSS:
@@ -4199,14 +4198,9 @@
       nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
     References:
     - golang.org/x/net
     - https://access.redhat.com/errata/RHSA-2023:5863
-    - https://access.redhat.com/security/cve/CVE-2023-39325
-    - https://access.redhat.com/security/cve/CVE-2023-44487
     - https://bugzilla.redhat.com/2242803
     - https://bugzilla.redhat.com/2243296
     - https://bugzilla.redhat.com/show_bug.cgi?id=2242803
@@ -4304,7 +4298,6 @@
     - https://ubuntu.com/security/notices/USN-6574-1
     - https://ubuntu.com/security/notices/USN-7061-1
     - https://ubuntu.com/security/notices/USN-7109-1
-    - https://www.cisa.gov/news-events/alerts/2023/10/10/http2-rapid-reset-vulnerability-cve-2023-44487
     - https://www.cve.org/CVERecord?id=CVE-2023-39325
     PublishedDate: '2023-10-11T22:15:09.88Z'
     LastModifiedDate: '2024-04-28T04:15:09.877Z'
@@ -4891,7 +4884,7 @@
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
-    Title: 'golang: net/http, x/net/http2: rapid stream resets can cause excessive work (CVE-2023-44487)'
+    Title: A malicious HTTP/2 client which rapidly creates requests and immediate ...
     Description: A malicious HTTP/2 client which rapidly creates requests and immediately resets them can cause excessive server resource consumption. While the total number of requests is bounded by the http2.Server.MaxConcurrentStreams setting, resetting an in-progress request allows the attacker to create a new request while the existing one is still executing. With the fix applied, HTTP/2 servers now bound the number of simultaneously executing handler goroutines to the stream concurrency limit (MaxConcurrentStreams). New requests arriving when at the limit (which can only happen after the client has reset an existing, in-flight request) will be queued until a handler exits. If the request queue grows too large, the server will terminate the connection. This issue is also fixed in golang.org/x/net/http2 for users manually configuring HTTP/2. The default stream concurrency limit is 250 streams (requests) per HTTP/2 connection. This value may be adjusted using the golang.org/x/net/http2 package; see the Server.MaxConcurrentStreams setting and the ConfigureServer function.
     Severity: HIGH
     CweIDs:
@@ -4905,7 +4898,6 @@
       ghsa: 3
       nvd: 3
       oracle-oval: 2
-      redhat: 3
       rocky: 2
       ubuntu: 2
     CVSS:
@@ -4918,14 +4910,9 @@
       nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
     References:
     - golang.org/x/net
     - https://access.redhat.com/errata/RHSA-2023:5863
-    - https://access.redhat.com/security/cve/CVE-2023-39325
-    - https://access.redhat.com/security/cve/CVE-2023-44487
     - https://bugzilla.redhat.com/2242803
     - https://bugzilla.redhat.com/2243296
     - https://bugzilla.redhat.com/show_bug.cgi?id=2242803
@@ -5023,7 +5010,6 @@
     - https://ubuntu.com/security/notices/USN-6574-1
     - https://ubuntu.com/security/notices/USN-7061-1
     - https://ubuntu.com/security/notices/USN-7109-1
-    - https://www.cisa.gov/news-events/alerts/2023/10/10/http2-rapid-reset-vulnerability-cve-2023-44487
     - https://www.cve.org/CVERecord?id=CVE-2023-39325
     PublishedDate: '2023-10-11T22:15:09.88Z'
     LastModifiedDate: '2024-04-28T04:15:09.877Z'
@@ -5204,7 +5190,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2310528
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-34156
     - https://errata.almalinux.org/8/ALSA-2024-8038.html
-    - https://errata.rockylinux.org/RLSA-2024:7204
+    - https://errata.rockylinux.org/RLSA-2024:8111
     - https://github.com/golang/go/commit/2092294f2b097c5828f4eace6c98a322c1510b01 (go1.22.7)
     - https://github.com/golang/go/commit/fa8ff1a46deb6c816304441ec6740ec112e19012 (go1.23.1)
     - https://go.dev/cl/611239
@@ -5456,7 +5442,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -5525,18 +5511,17 @@
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
-    Title: 'golang: net/http/internal: Denial of Service (DoS) via Resource Consumption via HTTP requests'
+    Title: A malicious HTTP sender can use chunk extensions to cause a receiver r ...
     Description: A malicious HTTP sender can use chunk extensions to cause a receiver reading from a request or response body to read many more bytes from the network than are in the body. A malicious HTTP client can further exploit this to cause a server to automatically read a large amount of data (up to about 1GiB) when a handler fails to read the entire body of a request. Chunk extensions are a little-used HTTP feature which permit including additional metadata in a request or response body sent using the chunked encoding. The net/http chunked encoding reader discards this metadata. A sender can exploit this by inserting a large metadata segment with each byte transferred. The chunk reader now produces an error if the ratio of real body to encoded bytes grows too small.
     Severity: MEDIUM
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       bitnami: 2
       cbl-mariner: 2
       nvd: 2
       oracle-oval: 2
       photon: 2
-      redhat: 2
       ubuntu: 2
     CVSS:
       bitnami:
@@ -5545,12 +5530,8 @@
       nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
         V3Score: 5.3
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
-        V3Score: 5.3
     References:
     - https://access.redhat.com/errata/RHSA-2024:0887
-    - https://access.redhat.com/security/cve/CVE-2023-39326
     - https://bugzilla.redhat.com/2253323
     - https://bugzilla.redhat.com/2253330
     - https://errata.almalinux.org/8/ALSA-2024-0887.html
@@ -6158,16 +6139,16 @@
     - https://bugzilla.redhat.com/2310527
     - https://bugzilla.redhat.com/2310528
     - https://bugzilla.redhat.com/2310529
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2295310
     - https://bugzilla.redhat.com/show_bug.cgi?id=2310527
     - https://bugzilla.redhat.com/show_bug.cgi?id=2310528
     - https://bugzilla.redhat.com/show_bug.cgi?id=2310529
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24791
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2315691
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-34155
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-34156
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-34158
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-9341
     - https://errata.almalinux.org/8/ALSA-2024-8038.html
-    - https://errata.rockylinux.org/RLSA-2024:6913
+    - https://errata.rockylinux.org/RLSA-2024:8039
     - https://github.com/golang/go/commit/53487e5477151ed75da50e50a0ba8f1ca64c00a3 (go1.23.1)
     - https://github.com/golang/go/commit/b232596139dbe96a62edbe3a2a203e856bf556eb (go1.22.7)
     - https://go.dev/cl/611238
@@ -6229,16 +6210,16 @@
     - https://bugzilla.redhat.com/2310527
     - https://bugzilla.redhat.com/2310528
     - https://bugzilla.redhat.com/2310529
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2295310
     - https://bugzilla.redhat.com/show_bug.cgi?id=2310527
     - https://bugzilla.redhat.com/show_bug.cgi?id=2310528
     - https://bugzilla.redhat.com/show_bug.cgi?id=2310529
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24791
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2315691
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-34155
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-34156
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-34158
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-9341
     - https://errata.almalinux.org/8/ALSA-2024-8038.html
-    - https://errata.rockylinux.org/RLSA-2024:6913
+    - https://errata.rockylinux.org/RLSA-2024:8039
     - https://github.com/golang/go/commit/032ac075c20c01c6c35a672d1542d3e98eab84ea (go1.23.1)
     - https://github.com/golang/go/commit/d4c53812e6ce2ac368173d7fcd31d0ecfcffb002 (go1.22.7)
     - https://go.dev/cl/611240
@@ -6277,7 +6258,7 @@
       ID: ghsa
       Name: GitHub Security Advisory Go
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
-    Title: 'golang: net/http, x/net/http2: rapid stream resets can cause excessive work (CVE-2023-44487)'
+    Title: A malicious HTTP/2 client which rapidly creates requests and immediate ...
     Description: A malicious HTTP/2 client which rapidly creates requests and immediately resets them can cause excessive server resource consumption. While the total number of requests is bounded by the http2.Server.MaxConcurrentStreams setting, resetting an in-progress request allows the attacker to create a new request while the existing one is still executing. With the fix applied, HTTP/2 servers now bound the number of simultaneously executing handler goroutines to the stream concurrency limit (MaxConcurrentStreams). New requests arriving when at the limit (which can only happen after the client has reset an existing, in-flight request) will be queued until a handler exits. If the request queue grows too large, the server will terminate the connection. This issue is also fixed in golang.org/x/net/http2 for users manually configuring HTTP/2. The default stream concurrency limit is 250 streams (requests) per HTTP/2 connection. This value may be adjusted using the golang.org/x/net/http2 package; see the Server.MaxConcurrentStreams setting and the ConfigureServer function.
     Severity: HIGH
     CweIDs:
@@ -6291,7 +6272,6 @@
       ghsa: 3
       nvd: 3
       oracle-oval: 2
-      redhat: 3
       rocky: 2
       ubuntu: 2
     CVSS:
@@ -6304,14 +6284,9 @@
       nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
     References:
     - golang.org/x/net
     - https://access.redhat.com/errata/RHSA-2023:5863
-    - https://access.redhat.com/security/cve/CVE-2023-39325
-    - https://access.redhat.com/security/cve/CVE-2023-44487
     - https://bugzilla.redhat.com/2242803
     - https://bugzilla.redhat.com/2243296
     - https://bugzilla.redhat.com/show_bug.cgi?id=2242803
@@ -6409,7 +6384,6 @@
     - https://ubuntu.com/security/notices/USN-6574-1
     - https://ubuntu.com/security/notices/USN-7061-1
     - https://ubuntu.com/security/notices/USN-7109-1
-    - https://www.cisa.gov/news-events/alerts/2023/10/10/http2-rapid-reset-vulnerability-cve-2023-44487
     - https://www.cve.org/CVERecord?id=CVE-2023-39325
     PublishedDate: '2023-10-11T22:15:09.88Z'
     LastModifiedDate: '2024-04-28T04:15:09.877Z'
@@ -6996,7 +6970,7 @@
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
-    Title: 'golang: net/http, x/net/http2: rapid stream resets can cause excessive work (CVE-2023-44487)'
+    Title: A malicious HTTP/2 client which rapidly creates requests and immediate ...
     Description: A malicious HTTP/2 client which rapidly creates requests and immediately resets them can cause excessive server resource consumption. While the total number of requests is bounded by the http2.Server.MaxConcurrentStreams setting, resetting an in-progress request allows the attacker to create a new request while the existing one is still executing. With the fix applied, HTTP/2 servers now bound the number of simultaneously executing handler goroutines to the stream concurrency limit (MaxConcurrentStreams). New requests arriving when at the limit (which can only happen after the client has reset an existing, in-flight request) will be queued until a handler exits. If the request queue grows too large, the server will terminate the connection. This issue is also fixed in golang.org/x/net/http2 for users manually configuring HTTP/2. The default stream concurrency limit is 250 streams (requests) per HTTP/2 connection. This value may be adjusted using the golang.org/x/net/http2 package; see the Server.MaxConcurrentStreams setting and the ConfigureServer function.
     Severity: HIGH
     CweIDs:
@@ -7010,7 +6984,6 @@
       ghsa: 3
       nvd: 3
       oracle-oval: 2
-      redhat: 3
       rocky: 2
       ubuntu: 2
     CVSS:
@@ -7023,14 +6996,9 @@
       nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
     References:
     - golang.org/x/net
     - https://access.redhat.com/errata/RHSA-2023:5863
-    - https://access.redhat.com/security/cve/CVE-2023-39325
-    - https://access.redhat.com/security/cve/CVE-2023-44487
     - https://bugzilla.redhat.com/2242803
     - https://bugzilla.redhat.com/2243296
     - https://bugzilla.redhat.com/show_bug.cgi?id=2242803
@@ -7128,7 +7096,6 @@
     - https://ubuntu.com/security/notices/USN-6574-1
     - https://ubuntu.com/security/notices/USN-7061-1
     - https://ubuntu.com/security/notices/USN-7109-1
-    - https://www.cisa.gov/news-events/alerts/2023/10/10/http2-rapid-reset-vulnerability-cve-2023-44487
     - https://www.cve.org/CVERecord?id=CVE-2023-39325
     PublishedDate: '2023-10-11T22:15:09.88Z'
     LastModifiedDate: '2024-04-28T04:15:09.877Z'
@@ -7309,7 +7276,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2310528
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-34156
     - https://errata.almalinux.org/8/ALSA-2024-8038.html
-    - https://errata.rockylinux.org/RLSA-2024:7204
+    - https://errata.rockylinux.org/RLSA-2024:8111
     - https://github.com/golang/go/commit/2092294f2b097c5828f4eace6c98a322c1510b01 (go1.22.7)
     - https://github.com/golang/go/commit/fa8ff1a46deb6c816304441ec6740ec112e19012 (go1.23.1)
     - https://go.dev/cl/611239
@@ -7561,7 +7528,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -7630,18 +7597,17 @@
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
-    Title: 'golang: net/http/internal: Denial of Service (DoS) via Resource Consumption via HTTP requests'
+    Title: A malicious HTTP sender can use chunk extensions to cause a receiver r ...
     Description: A malicious HTTP sender can use chunk extensions to cause a receiver reading from a request or response body to read many more bytes from the network than are in the body. A malicious HTTP client can further exploit this to cause a server to automatically read a large amount of data (up to about 1GiB) when a handler fails to read the entire body of a request. Chunk extensions are a little-used HTTP feature which permit including additional metadata in a request or response body sent using the chunked encoding. The net/http chunked encoding reader discards this metadata. A sender can exploit this by inserting a large metadata segment with each byte transferred. The chunk reader now produces an error if the ratio of real body to encoded bytes grows too small.
     Severity: MEDIUM
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       bitnami: 2
       cbl-mariner: 2
       nvd: 2
       oracle-oval: 2
       photon: 2
-      redhat: 2
       ubuntu: 2
     CVSS:
       bitnami:
@@ -7650,12 +7616,8 @@
       nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
         V3Score: 5.3
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
-        V3Score: 5.3
     References:
     - https://access.redhat.com/errata/RHSA-2024:0887
-    - https://access.redhat.com/security/cve/CVE-2023-39326
     - https://bugzilla.redhat.com/2253323
     - https://bugzilla.redhat.com/2253330
     - https://errata.almalinux.org/8/ALSA-2024-0887.html
@@ -8263,16 +8225,16 @@
     - https://bugzilla.redhat.com/2310527
     - https://bugzilla.redhat.com/2310528
     - https://bugzilla.redhat.com/2310529
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2295310
     - https://bugzilla.redhat.com/show_bug.cgi?id=2310527
     - https://bugzilla.redhat.com/show_bug.cgi?id=2310528
     - https://bugzilla.redhat.com/show_bug.cgi?id=2310529
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24791
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2315691
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-34155
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-34156
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-34158
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-9341
     - https://errata.almalinux.org/8/ALSA-2024-8038.html
-    - https://errata.rockylinux.org/RLSA-2024:6913
+    - https://errata.rockylinux.org/RLSA-2024:8039
     - https://github.com/golang/go/commit/53487e5477151ed75da50e50a0ba8f1ca64c00a3 (go1.23.1)
     - https://github.com/golang/go/commit/b232596139dbe96a62edbe3a2a203e856bf556eb (go1.22.7)
     - https://go.dev/cl/611238
@@ -8334,16 +8296,16 @@
     - https://bugzilla.redhat.com/2310527
     - https://bugzilla.redhat.com/2310528
     - https://bugzilla.redhat.com/2310529
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2295310
     - https://bugzilla.redhat.com/show_bug.cgi?id=2310527
     - https://bugzilla.redhat.com/show_bug.cgi?id=2310528
     - https://bugzilla.redhat.com/show_bug.cgi?id=2310529
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24791
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2315691
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-34155
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-34156
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-34158
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-9341
     - https://errata.almalinux.org/8/ALSA-2024-8038.html
-    - https://errata.rockylinux.org/RLSA-2024:6913
+    - https://errata.rockylinux.org/RLSA-2024:8039
     - https://github.com/golang/go/commit/032ac075c20c01c6c35a672d1542d3e98eab84ea (go1.23.1)
     - https://github.com/golang/go/commit/d4c53812e6ce2ac368173d7fcd31d0ecfcffb002 (go1.22.7)
     - https://go.dev/cl/611240
@@ -8806,37 +8768,6 @@
     - https://github.com/grpc/grpc-go
     - https://github.com/grpc/grpc-go/commit/ab292411ddc0f3b7a7786754d1fe05264c3021eb
     - https://github.com/grpc/grpc-go/security/advisories/GHSA-xr7q-jx4m-x55m
-- Target: /etc/ssh/ssh_host_dsa_key
-  Class: secret
-  Secrets:
-  - RuleID: private-key
-    Category: AsymmetricPrivateKey
-    Severity: HIGH
-    Title: Asymmetric Private Key
-    StartLine: 1
-    EndLine: 1
-    Code:
-      Lines:
-      - Number: 1
-        Content: BEGIN OPENSSH PRIVATE KEY-----****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
-        IsCause: true
-        Annotation: ''
-        Truncated: false
-        Highlighted: BEGIN OPENSSH PRIVATE KEY-----****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
-        FirstCause: true
-        LastCause: true
-      - Number: 2
-        Content: ''
-        IsCause: false
-        Annotation: ''
-        Truncated: false
-        FirstCause: false
-        LastCause: false
-    Match: BEGIN OPENSSH PRIVATE KEY-----****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
-    Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
-      CreatedBy: 'COPY / / # buildkit'
 - Target: /etc/ssh/ssh_host_ecdsa_key
   Class: secret
   Secrets:
@@ -8926,6 +8857,37 @@
         FirstCause: false
         LastCause: false
     Match: BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
+    Layer:
+      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
+      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      CreatedBy: 'COPY / / # buildkit'
+- Target: /etc/ssh/ssh_host_dsa_key
+  Class: secret
+  Secrets:
+  - RuleID: private-key
+    Category: AsymmetricPrivateKey
+    Severity: HIGH
+    Title: Asymmetric Private Key
+    StartLine: 1
+    EndLine: 1
+    Code:
+      Lines:
+      - Number: 1
+        Content: BEGIN OPENSSH PRIVATE KEY-----****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
+        IsCause: true
+        Annotation: ''
+        Truncated: false
+        Highlighted: BEGIN OPENSSH PRIVATE KEY-----****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
+        FirstCause: true
+        LastCause: true
+      - Number: 2
+        Content: ''
+        IsCause: false
+        Annotation: ''
+        Truncated: false
+        FirstCause: false
+        LastCause: false
+    Match: BEGIN OPENSSH PRIVATE KEY-----****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
     Layer:
       Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
       DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
