@@ -1166,7 +1166,43 @@
 │                        │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2023-34969 
 │                        │      ├ PublishedDate   : 2023-06-08T03:15:08.97Z 
 │                        │      ╰ LastModifiedDate: 2023-12-27T16:36:58.353Z 
-│                        ├ [23] ╭ VulnerabilityID : CVE-2023-4039 
+│                        ├ [23] ╭ VulnerabilityID : CVE-2025-23022 
+│                        │      ├ PkgID           : libfreetype6@2.11.1+dfsg-1ubuntu0.2 
+│                        │      ├ PkgName         : libfreetype6 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libfreetype6@2.11.1%2Bdfsg-1ubuntu0.2
+│                        │      │                  │       ?arch=amd64&distro=ubuntu-22.04 
+│                        │      │                  ╰ UID : 4c44b738884fe01f 
+│                        │      ├ InstalledVersion: 2.11.1+dfsg-1ubuntu0.2 
+│                        │      ├ Status          : affected 
+│                        │      ├ Layer            ╭ Digest: sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e2
+│                        │      │                  │         2428f7fccbdc96c087f46 
+│                        │      │                  ╰ DiffID: sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d
+│                        │      │                            8ec29e53f06ef0b2bb846 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-23022 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : freetype: signed integer overflow in cf2_doFlex 
+│                        │      ├ Description     : FreeType 2.8.1 has a signed integer overflow in cf2_doFlex
+│                        │      │                   in cff/cf2intrp.c. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ CweIDs           ─ [0]: CWE-190 
+│                        │      ├ VendorSeverity   ╭ redhat: 2 
+│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:
+│                        │      │                           │           N/A:H 
+│                        │      │                           ╰ V3Score : 5.5 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-23022 
+│                        │      │                  ├ [1]: https://gitlab.freedesktop.org/freetype/freetype/-/is
+│                        │      │                  │      sues/1312 
+│                        │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2025-23022 
+│                        │      │                  ├ [3]: https://security-tracker.debian.org/tracker/CVE-2025-
+│                        │      │                  │      23022 
+│                        │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2025-23022 
+│                        │      ├ PublishedDate   : 2025-01-10T15:15:16.967Z 
+│                        │      ╰ LastModifiedDate: 2025-01-13T21:15:15.753Z 
+│                        ├ [24] ╭ VulnerabilityID : CVE-2023-4039 
 │                        │      ├ PkgID           : libgcc-s1@12.3.0-1ubuntu1~22.04 
 │                        │      ├ PkgName         : libgcc-s1 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libgcc-s1@12.3.0-1ubuntu1~22.04?arch=
@@ -1240,7 +1276,7 @@
 │                        │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2023-4039 
 │                        │      ├ PublishedDate   : 2023-09-13T09:15:15.69Z 
 │                        │      ╰ LastModifiedDate: 2024-08-02T08:15:14.993Z 
-│                        ├ [24] ╭ VulnerabilityID : CVE-2022-27943 
+│                        ├ [25] ╭ VulnerabilityID : CVE-2022-27943 
 │                        │      ├ PkgID           : libgcc-s1@12.3.0-1ubuntu1~22.04 
 │                        │      ├ PkgName         : libgcc-s1 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libgcc-s1@12.3.0-1ubuntu1~22.04?arch=
@@ -1293,7 +1329,7 @@
 │                        │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2022-27943 
 │                        │      ├ PublishedDate   : 2022-03-26T13:15:07.9Z 
 │                        │      ╰ LastModifiedDate: 2023-11-07T03:45:32.64Z 
-│                        ├ [25] ╭ VulnerabilityID : CVE-2024-2236 
+│                        ├ [26] ╭ VulnerabilityID : CVE-2024-2236 
 │                        │      ├ PkgID           : libgcrypt20@1.9.4-3ubuntu3 
 │                        │      ├ PkgName         : libgcrypt20 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libgcrypt20@1.9.4-3ubuntu3?arch=amd64
@@ -1343,7 +1379,7 @@
 │                        │      │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2024-2236 
 │                        │      ├ PublishedDate   : 2024-03-06T22:15:57.977Z 
 │                        │      ╰ LastModifiedDate: 2024-11-12T18:15:20.15Z 
-│                        ├ [26] ╭ VulnerabilityID : CVE-2024-26462 
+│                        ├ [27] ╭ VulnerabilityID : CVE-2024-26462 
 │                        │      ├ PkgID           : libgssapi-krb5-2@1.19.2-2ubuntu0.4 
 │                        │      ├ PkgName         : libgssapi-krb5-2 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libgssapi-krb5-2@1.19.2-2ubuntu0.4?ar
@@ -1392,7 +1428,7 @@
 │                        │      │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2024-26462 
 │                        │      ├ PublishedDate   : 2024-02-29T01:44:18.857Z 
 │                        │      ╰ LastModifiedDate: 2024-05-14T15:09:01.053Z 
-│                        ├ [27] ╭ VulnerabilityID : CVE-2024-26458 
+│                        ├ [28] ╭ VulnerabilityID : CVE-2024-26458 
 │                        │      ├ PkgID           : libgssapi-krb5-2@1.19.2-2ubuntu0.4 
 │                        │      ├ PkgName         : libgssapi-krb5-2 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libgssapi-krb5-2@1.19.2-2ubuntu0.4?ar
@@ -1449,7 +1485,7 @@
 │                        │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2024-26458 
 │                        │      ├ PublishedDate   : 2024-02-29T01:44:18.78Z 
 │                        │      ╰ LastModifiedDate: 2024-12-06T21:15:06.28Z 
-│                        ├ [28] ╭ VulnerabilityID : CVE-2024-26461 
+│                        ├ [29] ╭ VulnerabilityID : CVE-2024-26461 
 │                        │      ├ PkgID           : libgssapi-krb5-2@1.19.2-2ubuntu0.4 
 │                        │      ├ PkgName         : libgssapi-krb5-2 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libgssapi-krb5-2@1.19.2-2ubuntu0.4?ar
@@ -1507,7 +1543,7 @@
 │                        │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2024-26461 
 │                        │      ├ PublishedDate   : 2024-02-29T01:44:18.82Z 
 │                        │      ╰ LastModifiedDate: 2024-08-14T16:35:10.207Z 
-│                        ├ [29] ╭ VulnerabilityID : CVE-2024-26462 
+│                        ├ [30] ╭ VulnerabilityID : CVE-2024-26462 
 │                        │      ├ PkgID           : libk5crypto3@1.19.2-2ubuntu0.4 
 │                        │      ├ PkgName         : libk5crypto3 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libk5crypto3@1.19.2-2ubuntu0.4?arch=a
@@ -1556,7 +1592,7 @@
 │                        │      │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2024-26462 
 │                        │      ├ PublishedDate   : 2024-02-29T01:44:18.857Z 
 │                        │      ╰ LastModifiedDate: 2024-05-14T15:09:01.053Z 
-│                        ├ [30] ╭ VulnerabilityID : CVE-2024-26458 
+│                        ├ [31] ╭ VulnerabilityID : CVE-2024-26458 
 │                        │      ├ PkgID           : libk5crypto3@1.19.2-2ubuntu0.4 
 │                        │      ├ PkgName         : libk5crypto3 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libk5crypto3@1.19.2-2ubuntu0.4?arch=a
@@ -1613,7 +1649,7 @@
 │                        │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2024-26458 
 │                        │      ├ PublishedDate   : 2024-02-29T01:44:18.78Z 
 │                        │      ╰ LastModifiedDate: 2024-12-06T21:15:06.28Z 
-│                        ├ [31] ╭ VulnerabilityID : CVE-2024-26461 
+│                        ├ [32] ╭ VulnerabilityID : CVE-2024-26461 
 │                        │      ├ PkgID           : libk5crypto3@1.19.2-2ubuntu0.4 
 │                        │      ├ PkgName         : libk5crypto3 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libk5crypto3@1.19.2-2ubuntu0.4?arch=a
@@ -1671,7 +1707,7 @@
 │                        │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2024-26461 
 │                        │      ├ PublishedDate   : 2024-02-29T01:44:18.82Z 
 │                        │      ╰ LastModifiedDate: 2024-08-14T16:35:10.207Z 
-│                        ├ [32] ╭ VulnerabilityID : CVE-2024-26462 
+│                        ├ [33] ╭ VulnerabilityID : CVE-2024-26462 
 │                        │      ├ PkgID           : libkrb5-3@1.19.2-2ubuntu0.4 
 │                        │      ├ PkgName         : libkrb5-3 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libkrb5-3@1.19.2-2ubuntu0.4?arch=amd6
@@ -1720,7 +1756,7 @@
 │                        │      │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2024-26462 
 │                        │      ├ PublishedDate   : 2024-02-29T01:44:18.857Z 
 │                        │      ╰ LastModifiedDate: 2024-05-14T15:09:01.053Z 
-│                        ├ [33] ╭ VulnerabilityID : CVE-2024-26458 
+│                        ├ [34] ╭ VulnerabilityID : CVE-2024-26458 
 │                        │      ├ PkgID           : libkrb5-3@1.19.2-2ubuntu0.4 
 │                        │      ├ PkgName         : libkrb5-3 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libkrb5-3@1.19.2-2ubuntu0.4?arch=amd6
@@ -1777,7 +1813,7 @@
 │                        │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2024-26458 
 │                        │      ├ PublishedDate   : 2024-02-29T01:44:18.78Z 
 │                        │      ╰ LastModifiedDate: 2024-12-06T21:15:06.28Z 
-│                        ├ [34] ╭ VulnerabilityID : CVE-2024-26461 
+│                        ├ [35] ╭ VulnerabilityID : CVE-2024-26461 
 │                        │      ├ PkgID           : libkrb5-3@1.19.2-2ubuntu0.4 
 │                        │      ├ PkgName         : libkrb5-3 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libkrb5-3@1.19.2-2ubuntu0.4?arch=amd6
@@ -1835,7 +1871,7 @@
 │                        │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2024-26461 
 │                        │      ├ PublishedDate   : 2024-02-29T01:44:18.82Z 
 │                        │      ╰ LastModifiedDate: 2024-08-14T16:35:10.207Z 
-│                        ├ [35] ╭ VulnerabilityID : CVE-2024-26462 
+│                        ├ [36] ╭ VulnerabilityID : CVE-2024-26462 
 │                        │      ├ PkgID           : libkrb5support0@1.19.2-2ubuntu0.4 
 │                        │      ├ PkgName         : libkrb5support0 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libkrb5support0@1.19.2-2ubuntu0.4?arc
@@ -1884,7 +1920,7 @@
 │                        │      │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2024-26462 
 │                        │      ├ PublishedDate   : 2024-02-29T01:44:18.857Z 
 │                        │      ╰ LastModifiedDate: 2024-05-14T15:09:01.053Z 
-│                        ├ [36] ╭ VulnerabilityID : CVE-2024-26458 
+│                        ├ [37] ╭ VulnerabilityID : CVE-2024-26458 
 │                        │      ├ PkgID           : libkrb5support0@1.19.2-2ubuntu0.4 
 │                        │      ├ PkgName         : libkrb5support0 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libkrb5support0@1.19.2-2ubuntu0.4?arc
@@ -1941,7 +1977,7 @@
 │                        │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2024-26458 
 │                        │      ├ PublishedDate   : 2024-02-29T01:44:18.78Z 
 │                        │      ╰ LastModifiedDate: 2024-12-06T21:15:06.28Z 
-│                        ├ [37] ╭ VulnerabilityID : CVE-2024-26461 
+│                        ├ [38] ╭ VulnerabilityID : CVE-2024-26461 
 │                        │      ├ PkgID           : libkrb5support0@1.19.2-2ubuntu0.4 
 │                        │      ├ PkgName         : libkrb5support0 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libkrb5support0@1.19.2-2ubuntu0.4?arc
@@ -1999,7 +2035,7 @@
 │                        │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2024-26461 
 │                        │      ├ PublishedDate   : 2024-02-29T01:44:18.82Z 
 │                        │      ╰ LastModifiedDate: 2024-08-14T16:35:10.207Z 
-│                        ├ [38] ╭ VulnerabilityID : CVE-2023-45918 
+│                        ├ [39] ╭ VulnerabilityID : CVE-2023-45918 
 │                        │      ├ PkgID           : libncurses6@6.3-2ubuntu0.1 
 │                        │      ├ PkgName         : libncurses6 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libncurses6@6.3-2ubuntu0.1?arch=amd64
@@ -2038,7 +2074,7 @@
 │                        │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2023-45918 
 │                        │      ├ PublishedDate   : 2024-02-16T22:15:07.88Z 
 │                        │      ╰ LastModifiedDate: 2024-11-21T21:15:10.63Z 
-│                        ├ [39] ╭ VulnerabilityID : CVE-2023-50495 
+│                        ├ [40] ╭ VulnerabilityID : CVE-2023-50495 
 │                        │      ├ PkgID           : libncurses6@6.3-2ubuntu0.1 
 │                        │      ├ PkgName         : libncurses6 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libncurses6@6.3-2ubuntu0.1?arch=amd64
@@ -2085,7 +2121,7 @@
 │                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-50495 
 │                        │      ├ PublishedDate   : 2023-12-12T15:15:07.867Z 
 │                        │      ╰ LastModifiedDate: 2024-01-31T03:15:08.49Z 
-│                        ├ [40] ╭ VulnerabilityID : CVE-2023-45918 
+│                        ├ [41] ╭ VulnerabilityID : CVE-2023-45918 
 │                        │      ├ PkgID           : libncursesw6@6.3-2ubuntu0.1 
 │                        │      ├ PkgName         : libncursesw6 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libncursesw6@6.3-2ubuntu0.1?arch=amd6
@@ -2124,7 +2160,7 @@
 │                        │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2023-45918 
 │                        │      ├ PublishedDate   : 2024-02-16T22:15:07.88Z 
 │                        │      ╰ LastModifiedDate: 2024-11-21T21:15:10.63Z 
-│                        ├ [41] ╭ VulnerabilityID : CVE-2023-50495 
+│                        ├ [42] ╭ VulnerabilityID : CVE-2023-50495 
 │                        │      ├ PkgID           : libncursesw6@6.3-2ubuntu0.1 
 │                        │      ├ PkgName         : libncursesw6 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libncursesw6@6.3-2ubuntu0.1?arch=amd6
@@ -2171,7 +2207,7 @@
 │                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-50495 
 │                        │      ├ PublishedDate   : 2023-12-12T15:15:07.867Z 
 │                        │      ╰ LastModifiedDate: 2024-01-31T03:15:08.49Z 
-│                        ├ [42] ╭ VulnerabilityID : CVE-2023-7008 
+│                        ├ [43] ╭ VulnerabilityID : CVE-2023-7008 
 │                        │      ├ PkgID           : libnss-systemd@249.11-0ubuntu3.12 
 │                        │      ├ PkgName         : libnss-systemd 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libnss-systemd@249.11-0ubuntu3.12?arc
@@ -2235,7 +2271,7 @@
 │                        │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
 │                        │      ├ PublishedDate   : 2023-12-23T13:15:07.573Z 
 │                        │      ╰ LastModifiedDate: 2024-11-22T12:15:17.59Z 
-│                        ├ [43] ╭ VulnerabilityID : CVE-2024-10041 
+│                        ├ [44] ╭ VulnerabilityID : CVE-2024-10041 
 │                        │      ├ PkgID           : libpam-modules@1.4.0-11ubuntu2.4 
 │                        │      ├ PkgName         : libpam-modules 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpam-modules@1.4.0-11ubuntu2.4?arch
@@ -2292,7 +2328,7 @@
 │                        │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2024-10041 
 │                        │      ├ PublishedDate   : 2024-10-23T14:15:03.97Z 
 │                        │      ╰ LastModifiedDate: 2024-12-18T10:15:05.85Z 
-│                        ├ [44] ╭ VulnerabilityID : CVE-2024-10041 
+│                        ├ [45] ╭ VulnerabilityID : CVE-2024-10041 
 │                        │      ├ PkgID           : libpam-modules-bin@1.4.0-11ubuntu2.4 
 │                        │      ├ PkgName         : libpam-modules-bin 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpam-modules-bin@1.4.0-11ubuntu2.4?
@@ -2349,7 +2385,7 @@
 │                        │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2024-10041 
 │                        │      ├ PublishedDate   : 2024-10-23T14:15:03.97Z 
 │                        │      ╰ LastModifiedDate: 2024-12-18T10:15:05.85Z 
-│                        ├ [45] ╭ VulnerabilityID : CVE-2024-10041 
+│                        ├ [46] ╭ VulnerabilityID : CVE-2024-10041 
 │                        │      ├ PkgID           : libpam-runtime@1.4.0-11ubuntu2.4 
 │                        │      ├ PkgName         : libpam-runtime 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpam-runtime@1.4.0-11ubuntu2.4?arch
@@ -2406,7 +2442,7 @@
 │                        │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2024-10041 
 │                        │      ├ PublishedDate   : 2024-10-23T14:15:03.97Z 
 │                        │      ╰ LastModifiedDate: 2024-12-18T10:15:05.85Z 
-│                        ├ [46] ╭ VulnerabilityID : CVE-2023-7008 
+│                        ├ [47] ╭ VulnerabilityID : CVE-2023-7008 
 │                        │      ├ PkgID           : libpam-systemd@249.11-0ubuntu3.12 
 │                        │      ├ PkgName         : libpam-systemd 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpam-systemd@249.11-0ubuntu3.12?arc
@@ -2470,7 +2506,7 @@
 │                        │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
 │                        │      ├ PublishedDate   : 2023-12-23T13:15:07.573Z 
 │                        │      ╰ LastModifiedDate: 2024-11-22T12:15:17.59Z 
-│                        ├ [47] ╭ VulnerabilityID : CVE-2024-10041 
+│                        ├ [48] ╭ VulnerabilityID : CVE-2024-10041 
 │                        │      ├ PkgID           : libpam0g@1.4.0-11ubuntu2.4 
 │                        │      ├ PkgName         : libpam0g 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpam0g@1.4.0-11ubuntu2.4?arch=amd64
@@ -2527,7 +2563,7 @@
 │                        │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2024-10041 
 │                        │      ├ PublishedDate   : 2024-10-23T14:15:03.97Z 
 │                        │      ╰ LastModifiedDate: 2024-12-18T10:15:05.85Z 
-│                        ├ [48] ╭ VulnerabilityID : CVE-2022-41409 
+│                        ├ [49] ╭ VulnerabilityID : CVE-2022-41409 
 │                        │      ├ PkgID           : libpcre2-8-0@10.39-3ubuntu0.1 
 │                        │      ├ PkgName         : libpcre2-8-0 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpcre2-8-0@10.39-3ubuntu0.1?arch=am
@@ -2572,7 +2608,7 @@
 │                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2022-41409 
 │                        │      ├ PublishedDate   : 2023-07-18T14:15:12.197Z 
 │                        │      ╰ LastModifiedDate: 2023-07-27T03:46:09.807Z 
-│                        ├ [49] ╭ VulnerabilityID : CVE-2017-11164 
+│                        ├ [50] ╭ VulnerabilityID : CVE-2017-11164 
 │                        │      ├ PkgID           : libpcre3@2:8.39-13ubuntu0.22.04.1 
 │                        │      ├ PkgName         : libpcre3 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpcre3@8.39-13ubuntu0.22.04.1?arch=
@@ -2619,7 +2655,7 @@
 │                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2017-11164 
 │                        │      ├ PublishedDate   : 2017-07-11T03:29:00.277Z 
 │                        │      ╰ LastModifiedDate: 2023-11-07T02:38:10.98Z 
-│                        ├ [50] ╭ VulnerabilityID : CVE-2024-11168 
+│                        ├ [51] ╭ VulnerabilityID : CVE-2024-11168 
 │                        │      ├ PkgID           : libpython3.10@3.10.12-1~22.04.7 
 │                        │      ├ PkgName         : libpython3.10 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpython3.10@3.10.12-1~22.04.7?arch=
@@ -2688,7 +2724,7 @@
 │                        │      │                  ╰ [20]: https://www.cve.org/CVERecord?id=CVE-2024-11168 
 │                        │      ├ PublishedDate   : 2024-11-12T22:15:14.92Z 
 │                        │      ╰ LastModifiedDate: 2025-01-06T18:15:17.9Z 
-│                        ├ [51] ╭ VulnerabilityID : CVE-2024-11168 
+│                        ├ [52] ╭ VulnerabilityID : CVE-2024-11168 
 │                        │      ├ PkgID           : libpython3.10-minimal@3.10.12-1~22.04.7 
 │                        │      ├ PkgName         : libpython3.10-minimal 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpython3.10-minimal@3.10.12-1~22.04
@@ -2757,7 +2793,7 @@
 │                        │      │                  ╰ [20]: https://www.cve.org/CVERecord?id=CVE-2024-11168 
 │                        │      ├ PublishedDate   : 2024-11-12T22:15:14.92Z 
 │                        │      ╰ LastModifiedDate: 2025-01-06T18:15:17.9Z 
-│                        ├ [52] ╭ VulnerabilityID : CVE-2024-11168 
+│                        ├ [53] ╭ VulnerabilityID : CVE-2024-11168 
 │                        │      ├ PkgID           : libpython3.10-stdlib@3.10.12-1~22.04.7 
 │                        │      ├ PkgName         : libpython3.10-stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpython3.10-stdlib@3.10.12-1~22.04.
@@ -2826,7 +2862,7 @@
 │                        │      │                  ╰ [20]: https://www.cve.org/CVERecord?id=CVE-2024-11168 
 │                        │      ├ PublishedDate   : 2024-11-12T22:15:14.92Z 
 │                        │      ╰ LastModifiedDate: 2025-01-06T18:15:17.9Z 
-│                        ├ [53] ╭ VulnerabilityID : CVE-2024-41996 
+│                        ├ [54] ╭ VulnerabilityID : CVE-2024-41996 
 │                        │      ├ PkgID           : libssl3@3.0.2-0ubuntu1.18 
 │                        │      ├ PkgName         : libssl3 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libssl3@3.0.2-0ubuntu1.18?arch=amd64&
@@ -2876,7 +2912,7 @@
 │                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-41996 
 │                        │      ├ PublishedDate   : 2024-08-26T06:15:04.603Z 
 │                        │      ╰ LastModifiedDate: 2024-08-26T16:35:11.247Z 
-│                        ├ [54] ╭ VulnerabilityID : CVE-2023-4039 
+│                        ├ [55] ╭ VulnerabilityID : CVE-2023-4039 
 │                        │      ├ PkgID           : libstdc++6@12.3.0-1ubuntu1~22.04 
 │                        │      ├ PkgName         : libstdc++6 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libstdc%2B%2B6@12.3.0-1ubuntu1~22.04?
@@ -2950,7 +2986,7 @@
 │                        │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2023-4039 
 │                        │      ├ PublishedDate   : 2023-09-13T09:15:15.69Z 
 │                        │      ╰ LastModifiedDate: 2024-08-02T08:15:14.993Z 
-│                        ├ [55] ╭ VulnerabilityID : CVE-2022-27943 
+│                        ├ [56] ╭ VulnerabilityID : CVE-2022-27943 
 │                        │      ├ PkgID           : libstdc++6@12.3.0-1ubuntu1~22.04 
 │                        │      ├ PkgName         : libstdc++6 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libstdc%2B%2B6@12.3.0-1ubuntu1~22.04?
@@ -3003,7 +3039,7 @@
 │                        │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2022-27943 
 │                        │      ├ PublishedDate   : 2022-03-26T13:15:07.9Z 
 │                        │      ╰ LastModifiedDate: 2023-11-07T03:45:32.64Z 
-│                        ├ [56] ╭ VulnerabilityID : CVE-2023-7008 
+│                        ├ [57] ╭ VulnerabilityID : CVE-2023-7008 
 │                        │      ├ PkgID           : libsystemd0@249.11-0ubuntu3.12 
 │                        │      ├ PkgName         : libsystemd0 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libsystemd0@249.11-0ubuntu3.12?arch=a
@@ -3067,7 +3103,7 @@
 │                        │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
 │                        │      ├ PublishedDate   : 2023-12-23T13:15:07.573Z 
 │                        │      ╰ LastModifiedDate: 2024-11-22T12:15:17.59Z 
-│                        ├ [57] ╭ VulnerabilityID : CVE-2024-6716 
+│                        ├ [58] ╭ VulnerabilityID : CVE-2024-6716 
 │                        │      ├ PkgID           : libtiff5@4.3.0-6ubuntu0.10 
 │                        │      ├ PkgName         : libtiff5 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libtiff5@4.3.0-6ubuntu0.10?arch=amd64
@@ -3090,7 +3126,7 @@
 │                        │      ├ References       ─ [0]: https://www.cve.org/CVERecord?id=CVE-2024-6716 
 │                        │      ├ PublishedDate   : 2024-07-15T15:15:10.9Z 
 │                        │      ╰ LastModifiedDate: 2024-09-04T14:15:14.457Z 
-│                        ├ [58] ╭ VulnerabilityID : CVE-2023-45918 
+│                        ├ [59] ╭ VulnerabilityID : CVE-2023-45918 
 │                        │      ├ PkgID           : libtinfo6@6.3-2ubuntu0.1 
 │                        │      ├ PkgName         : libtinfo6 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libtinfo6@6.3-2ubuntu0.1?arch=amd64&d
@@ -3129,7 +3165,7 @@
 │                        │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2023-45918 
 │                        │      ├ PublishedDate   : 2024-02-16T22:15:07.88Z 
 │                        │      ╰ LastModifiedDate: 2024-11-21T21:15:10.63Z 
-│                        ├ [59] ╭ VulnerabilityID : CVE-2023-50495 
+│                        ├ [60] ╭ VulnerabilityID : CVE-2023-50495 
 │                        │      ├ PkgID           : libtinfo6@6.3-2ubuntu0.1 
 │                        │      ├ PkgName         : libtinfo6 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libtinfo6@6.3-2ubuntu0.1?arch=amd64&d
@@ -3176,7 +3212,7 @@
 │                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-50495 
 │                        │      ├ PublishedDate   : 2023-12-12T15:15:07.867Z 
 │                        │      ╰ LastModifiedDate: 2024-01-31T03:15:08.49Z 
-│                        ├ [60] ╭ VulnerabilityID : CVE-2023-7008 
+│                        ├ [61] ╭ VulnerabilityID : CVE-2023-7008 
 │                        │      ├ PkgID           : libudev1@249.11-0ubuntu3.12 
 │                        │      ├ PkgName         : libudev1 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libudev1@249.11-0ubuntu3.12?arch=amd6
@@ -3240,7 +3276,7 @@
 │                        │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
 │                        │      ├ PublishedDate   : 2023-12-23T13:15:07.573Z 
 │                        │      ╰ LastModifiedDate: 2024-11-22T12:15:17.59Z 
-│                        ├ [61] ╭ VulnerabilityID : CVE-2022-4899 
+│                        ├ [62] ╭ VulnerabilityID : CVE-2022-4899 
 │                        │      ├ PkgID           : libzstd1@1.4.8+dfsg-3build1 
 │                        │      ├ PkgName         : libzstd1 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libzstd1@1.4.8%2Bdfsg-3build1?arch=am
@@ -3394,7 +3430,7 @@
 │                        │      │                  ╰ [94]: https://www.cve.org/CVERecord?id=CVE-2022-4899 
 │                        │      ├ PublishedDate   : 2023-03-31T20:15:07.213Z 
 │                        │      ╰ LastModifiedDate: 2023-11-07T03:59:16.09Z 
-│                        ├ [62] ╭ VulnerabilityID : CVE-2024-56433 
+│                        ├ [63] ╭ VulnerabilityID : CVE-2024-56433 
 │                        │      ├ PkgID           : login@1:4.8.1-2ubuntu2.2 
 │                        │      ├ PkgName         : login 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/login@4.8.1-2ubuntu2.2?arch=amd64&dis
@@ -3441,7 +3477,7 @@
 │                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                        │      ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                        │      ╰ LastModifiedDate: 2024-12-26T09:15:07.267Z 
-│                        ├ [63] ╭ VulnerabilityID : CVE-2023-29383 
+│                        ├ [64] ╭ VulnerabilityID : CVE-2023-29383 
 │                        │      ├ PkgID           : login@1:4.8.1-2ubuntu2.2 
 │                        │      ├ PkgName         : login 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/login@4.8.1-2ubuntu2.2?arch=amd64&dis
@@ -3498,7 +3534,7 @@
 │                        │      │                         sources/security-advisories/?fid=31797 
 │                        │      ├ PublishedDate   : 2023-04-14T22:15:07.68Z 
 │                        │      ╰ LastModifiedDate: 2023-04-24T18:05:30.313Z 
-│                        ├ [64] ╭ VulnerabilityID : CVE-2023-45918 
+│                        ├ [65] ╭ VulnerabilityID : CVE-2023-45918 
 │                        │      ├ PkgID           : ncurses-base@6.3-2ubuntu0.1 
 │                        │      ├ PkgName         : ncurses-base 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/ncurses-base@6.3-2ubuntu0.1?arch=all&
@@ -3537,7 +3573,7 @@
 │                        │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2023-45918 
 │                        │      ├ PublishedDate   : 2024-02-16T22:15:07.88Z 
 │                        │      ╰ LastModifiedDate: 2024-11-21T21:15:10.63Z 
-│                        ├ [65] ╭ VulnerabilityID : CVE-2023-50495 
+│                        ├ [66] ╭ VulnerabilityID : CVE-2023-50495 
 │                        │      ├ PkgID           : ncurses-base@6.3-2ubuntu0.1 
 │                        │      ├ PkgName         : ncurses-base 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/ncurses-base@6.3-2ubuntu0.1?arch=all&
@@ -3584,7 +3620,7 @@
 │                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-50495 
 │                        │      ├ PublishedDate   : 2023-12-12T15:15:07.867Z 
 │                        │      ╰ LastModifiedDate: 2024-01-31T03:15:08.49Z 
-│                        ├ [66] ╭ VulnerabilityID : CVE-2023-45918 
+│                        ├ [67] ╭ VulnerabilityID : CVE-2023-45918 
 │                        │      ├ PkgID           : ncurses-bin@6.3-2ubuntu0.1 
 │                        │      ├ PkgName         : ncurses-bin 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/ncurses-bin@6.3-2ubuntu0.1?arch=amd64
@@ -3623,7 +3659,7 @@
 │                        │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2023-45918 
 │                        │      ├ PublishedDate   : 2024-02-16T22:15:07.88Z 
 │                        │      ╰ LastModifiedDate: 2024-11-21T21:15:10.63Z 
-│                        ├ [67] ╭ VulnerabilityID : CVE-2023-50495 
+│                        ├ [68] ╭ VulnerabilityID : CVE-2023-50495 
 │                        │      ├ PkgID           : ncurses-bin@6.3-2ubuntu0.1 
 │                        │      ├ PkgName         : ncurses-bin 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/ncurses-bin@6.3-2ubuntu0.1?arch=amd64
@@ -3670,7 +3706,7 @@
 │                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-50495 
 │                        │      ├ PublishedDate   : 2023-12-12T15:15:07.867Z 
 │                        │      ╰ LastModifiedDate: 2024-01-31T03:15:08.49Z 
-│                        ├ [68] ╭ VulnerabilityID : CVE-2023-45918 
+│                        ├ [69] ╭ VulnerabilityID : CVE-2023-45918 
 │                        │      ├ PkgID           : ncurses-term@6.3-2ubuntu0.1 
 │                        │      ├ PkgName         : ncurses-term 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/ncurses-term@6.3-2ubuntu0.1?arch=all&
@@ -3709,7 +3745,7 @@
 │                        │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2023-45918 
 │                        │      ├ PublishedDate   : 2024-02-16T22:15:07.88Z 
 │                        │      ╰ LastModifiedDate: 2024-11-21T21:15:10.63Z 
-│                        ├ [69] ╭ VulnerabilityID : CVE-2023-50495 
+│                        ├ [70] ╭ VulnerabilityID : CVE-2023-50495 
 │                        │      ├ PkgID           : ncurses-term@6.3-2ubuntu0.1 
 │                        │      ├ PkgName         : ncurses-term 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/ncurses-term@6.3-2ubuntu0.1?arch=all&
@@ -3756,7 +3792,7 @@
 │                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-50495 
 │                        │      ├ PublishedDate   : 2023-12-12T15:15:07.867Z 
 │                        │      ╰ LastModifiedDate: 2024-01-31T03:15:08.49Z 
-│                        ├ [70] ╭ VulnerabilityID : CVE-2024-41996 
+│                        ├ [71] ╭ VulnerabilityID : CVE-2024-41996 
 │                        │      ├ PkgID           : openssl@3.0.2-0ubuntu1.18 
 │                        │      ├ PkgName         : openssl 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl@3.0.2-0ubuntu1.18?arch=amd64&
@@ -3806,7 +3842,7 @@
 │                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-41996 
 │                        │      ├ PublishedDate   : 2024-08-26T06:15:04.603Z 
 │                        │      ╰ LastModifiedDate: 2024-08-26T16:35:11.247Z 
-│                        ├ [71] ╭ VulnerabilityID : CVE-2024-56433 
+│                        ├ [72] ╭ VulnerabilityID : CVE-2024-56433 
 │                        │      ├ PkgID           : passwd@1:4.8.1-2ubuntu2.2 
 │                        │      ├ PkgName         : passwd 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/passwd@4.8.1-2ubuntu2.2?arch=amd64&di
@@ -3853,7 +3889,7 @@
 │                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                        │      ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                        │      ╰ LastModifiedDate: 2024-12-26T09:15:07.267Z 
-│                        ├ [72] ╭ VulnerabilityID : CVE-2023-29383 
+│                        ├ [73] ╭ VulnerabilityID : CVE-2023-29383 
 │                        │      ├ PkgID           : passwd@1:4.8.1-2ubuntu2.2 
 │                        │      ├ PkgName         : passwd 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/passwd@4.8.1-2ubuntu2.2?arch=amd64&di
@@ -3910,7 +3946,7 @@
 │                        │      │                         sources/security-advisories/?fid=31797 
 │                        │      ├ PublishedDate   : 2023-04-14T22:15:07.68Z 
 │                        │      ╰ LastModifiedDate: 2023-04-24T18:05:30.313Z 
-│                        ├ [73] ╭ VulnerabilityID : CVE-2024-11168 
+│                        ├ [74] ╭ VulnerabilityID : CVE-2024-11168 
 │                        │      ├ PkgID           : python3.10@3.10.12-1~22.04.7 
 │                        │      ├ PkgName         : python3.10 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/python3.10@3.10.12-1~22.04.7?arch=amd
@@ -3979,7 +4015,7 @@
 │                        │      │                  ╰ [20]: https://www.cve.org/CVERecord?id=CVE-2024-11168 
 │                        │      ├ PublishedDate   : 2024-11-12T22:15:14.92Z 
 │                        │      ╰ LastModifiedDate: 2025-01-06T18:15:17.9Z 
-│                        ├ [74] ╭ VulnerabilityID : CVE-2024-11168 
+│                        ├ [75] ╭ VulnerabilityID : CVE-2024-11168 
 │                        │      ├ PkgID           : python3.10-minimal@3.10.12-1~22.04.7 
 │                        │      ├ PkgName         : python3.10-minimal 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/python3.10-minimal@3.10.12-1~22.04.7?
@@ -4048,7 +4084,7 @@
 │                        │      │                  ╰ [20]: https://www.cve.org/CVERecord?id=CVE-2024-11168 
 │                        │      ├ PublishedDate   : 2024-11-12T22:15:14.92Z 
 │                        │      ╰ LastModifiedDate: 2025-01-06T18:15:17.9Z 
-│                        ├ [75] ╭ VulnerabilityID : CVE-2023-7008 
+│                        ├ [76] ╭ VulnerabilityID : CVE-2023-7008 
 │                        │      ├ PkgID           : systemd@249.11-0ubuntu3.12 
 │                        │      ├ PkgName         : systemd 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/systemd@249.11-0ubuntu3.12?arch=amd64
@@ -4112,7 +4148,7 @@
 │                        │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
 │                        │      ├ PublishedDate   : 2023-12-23T13:15:07.573Z 
 │                        │      ╰ LastModifiedDate: 2024-11-22T12:15:17.59Z 
-│                        ├ [76] ╭ VulnerabilityID : CVE-2023-7008 
+│                        ├ [77] ╭ VulnerabilityID : CVE-2023-7008 
 │                        │      ├ PkgID           : systemd-sysv@249.11-0ubuntu3.12 
 │                        │      ├ PkgName         : systemd-sysv 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/systemd-sysv@249.11-0ubuntu3.12?arch=
@@ -4176,7 +4212,7 @@
 │                        │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
 │                        │      ├ PublishedDate   : 2023-12-23T13:15:07.573Z 
 │                        │      ╰ LastModifiedDate: 2024-11-22T12:15:17.59Z 
-│                        ├ [77] ╭ VulnerabilityID : CVE-2023-7008 
+│                        ├ [78] ╭ VulnerabilityID : CVE-2023-7008 
 │                        │      ├ PkgID           : systemd-timesyncd@249.11-0ubuntu3.12 
 │                        │      ├ PkgName         : systemd-timesyncd 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/systemd-timesyncd@249.11-0ubuntu3.12?
@@ -4240,7 +4276,7 @@
 │                        │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
 │                        │      ├ PublishedDate   : 2023-12-23T13:15:07.573Z 
 │                        │      ╰ LastModifiedDate: 2024-11-22T12:15:17.59Z 
-│                        ├ [78] ╭ VulnerabilityID : CVE-2024-56433 
+│                        ├ [79] ╭ VulnerabilityID : CVE-2024-56433 
 │                        │      ├ PkgID           : uidmap@1:4.8.1-2ubuntu2.2 
 │                        │      ├ PkgName         : uidmap 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/uidmap@4.8.1-2ubuntu2.2?arch=amd64&di
@@ -4287,7 +4323,7 @@
 │                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                        │      ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                        │      ╰ LastModifiedDate: 2024-12-26T09:15:07.267Z 
-│                        ├ [79] ╭ VulnerabilityID : CVE-2023-29383 
+│                        ├ [80] ╭ VulnerabilityID : CVE-2023-29383 
 │                        │      ├ PkgID           : uidmap@1:4.8.1-2ubuntu2.2 
 │                        │      ├ PkgName         : uidmap 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/uidmap@4.8.1-2ubuntu2.2?arch=amd64&di
@@ -4344,7 +4380,7 @@
 │                        │      │                         sources/security-advisories/?fid=31797 
 │                        │      ├ PublishedDate   : 2023-04-14T22:15:07.68Z 
 │                        │      ╰ LastModifiedDate: 2023-04-24T18:05:30.313Z 
-│                        ╰ [80] ╭ VulnerabilityID : CVE-2021-31879 
+│                        ╰ [81] ╭ VulnerabilityID : CVE-2021-31879 
 │                               ├ PkgID           : wget@1.21.2-2ubuntu1.1 
 │                               ├ PkgName         : wget 
 │                               ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/wget@1.21.2-2ubuntu1.1?arch=amd64&dis
@@ -4549,8 +4585,8 @@
 │                        │      │                  ├ Name: GitHub Security Advisory Go 
 │                        │      │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+
 │                        │      │                          ecosystem%3Ago 
-│                        │      ├ Title           : A malicious HTTP/2 client which rapidly creates requests
-│                        │      │                   and immediate ... 
+│                        │      ├ Title           : golang: net/http, x/net/http2: rapid stream resets can
+│                        │      │                   cause excessive work (CVE-2023-44487) 
 │                        │      ├ Description     : A malicious HTTP/2 client which rapidly creates requests
 │                        │      │                   and immediately resets them can cause excessive server
 │                        │      │                   resource consumption. While the total number of requests is
@@ -4581,6 +4617,7 @@
 │                        │      │                  ├ ghsa       : 3 
 │                        │      │                  ├ nvd        : 3 
 │                        │      │                  ├ oracle-oval: 2 
+│                        │      │                  ├ redhat     : 3 
 │                        │      │                  ├ rocky      : 2 
 │                        │      │                  ╰ ubuntu     : 2 
 │                        │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
@@ -4589,260 +4626,267 @@
 │                        │      │                  ├ ghsa    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
 │                        │      │                  │         │           :N/A:H 
 │                        │      │                  │         ╰ V3Score : 7.5 
-│                        │      │                  ╰ nvd     ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                        │      │                  ├ nvd     ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                        │      │                  │         │           :N/A:H 
+│                        │      │                  │         ╰ V3Score : 7.5 
+│                        │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
 │                        │      │                            │           :N/A:H 
 │                        │      │                            ╰ V3Score : 7.5 
-│                        │      ├ References       ╭ [0] : golang.org/x/net 
-│                        │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2023:5863 
-│                        │      │                  ├ [2] : https://bugzilla.redhat.com/2242803 
-│                        │      │                  ├ [3] : https://bugzilla.redhat.com/2243296 
-│                        │      │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2242803 
-│                        │      │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2243296 
-│                        │      │                  ├ [6] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                        │      │                  │       023-39325 
-│                        │      │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                        │      │                  │       023-44487 
-│                        │      │                  ├ [8] : https://errata.almalinux.org/8/ALSA-2023-5863.html 
-│                        │      │                  ├ [9] : https://errata.rockylinux.org/RLSA-2023:6077 
-│                        │      │                  ├ [10]: https://github.com/golang/go/commit/24ae2d927285c697
-│                        │      │                  │       440fdde3ad7f26028354bcf3 [golang- 1.21] 
-│                        │      │                  ├ [11]: https://github.com/golang/go/commit/e175f27f58aa7b9c
-│                        │      │                  │       d4d79607ae65d2cd5baaee68 [golang-1.20] 
-│                        │      │                  ├ [12]: https://github.com/golang/go/issues/63417 
-│                        │      │                  ├ [13]: https://go.dev/cl/534215 
-│                        │      │                  ├ [14]: https://go.dev/cl/534235 
-│                        │      │                  ├ [15]: https://go.dev/issue/63417 
-│                        │      │                  ├ [16]: https://groups.google.com/g/golang-announce/c/iNNxDT
-│                        │      │                  │       CjZvo/m/UDd7VKQuAAAJ 
-│                        │      │                  ├ [17]: https://linux.oracle.com/cve/CVE-2023-39325.html 
-│                        │      │                  ├ [18]: https://linux.oracle.com/errata/ELSA-2023-5867.html 
-│                        │      │                  ├ [19]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/3OVW5V2DM
-│                        │      │                  │       5K5IC3H7O42YDUGNJ74J35O 
-│                        │      │                  ├ [20]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/3OVW5V2DM
-│                        │      │                  │       5K5IC3H7O42YDUGNJ74J35O/ 
-│                        │      │                  ├ [21]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/3SZN67IL7
-│                        │      │                  │       HMGMNAVLOTIXLIHUDXZK4LH 
-│                        │      │                  ├ [22]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/3SZN67IL7
-│                        │      │                  │       HMGMNAVLOTIXLIHUDXZK4LH/ 
-│                        │      │                  ├ [23]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/3WJ4QVX2A
-│                        │      │                  │       MUJ2F2S27POOAHRC4K3CHU4 
-│                        │      │                  ├ [24]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/3WJ4QVX2A
-│                        │      │                  │       MUJ2F2S27POOAHRC4K3CHU4/ 
-│                        │      │                  ├ [25]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/4BUK2ZIAG
-│                        │      │                  │       CULOOYDNH25JPU6JBES5NF2 
-│                        │      │                  ├ [26]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/4BUK2ZIAG
-│                        │      │                  │       CULOOYDNH25JPU6JBES5NF2/ 
-│                        │      │                  ├ [27]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/5RSKA2II6
-│                        │      │                  │       QTD4YUKUNDVJQSRYSFC4VFR 
-│                        │      │                  ├ [28]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/5RSKA2II6
-│                        │      │                  │       QTD4YUKUNDVJQSRYSFC4VFR/ 
-│                        │      │                  ├ [29]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/AVZDNSMVD
-│                        │      │                  │       AQJ64LJC5I5U5LDM5753647 
-│                        │      │                  ├ [30]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/AVZDNSMVD
-│                        │      │                  │       AQJ64LJC5I5U5LDM5753647/ 
-│                        │      │                  ├ [31]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/CHHITS4PU
-│                        │      │                  │       OZAKFIUBQAQZC7JWXMOYE4B 
-│                        │      │                  ├ [32]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/CHHITS4PU
-│                        │      │                  │       OZAKFIUBQAQZC7JWXMOYE4B/ 
-│                        │      │                  ├ [33]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/CLB4TW7KA
-│                        │      │                  │       LB3EEQWNWCN7OUIWWVWWCG2 
-│                        │      │                  ├ [34]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/CLB4TW7KA
-│                        │      │                  │       LB3EEQWNWCN7OUIWWVWWCG2/ 
-│                        │      │                  ├ [35]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/D2BBIDR2Z
-│                        │      │                  │       MB3X5BC7SR4SLQMHRMVPY6L 
-│                        │      │                  ├ [36]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/D2BBIDR2Z
-│                        │      │                  │       MB3X5BC7SR4SLQMHRMVPY6L/ 
-│                        │      │                  ├ [37]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/ECRC75BQJ
-│                        │      │                  │       P6FJN2L7KCKYZW4DSBD7QSD 
-│                        │      │                  ├ [38]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/ECRC75BQJ
-│                        │      │                  │       P6FJN2L7KCKYZW4DSBD7QSD/ 
-│                        │      │                  ├ [39]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/FTMJ3NJID
-│                        │      │                  │       AZFWJQQSP3L22MUFJ3UP2PT 
-│                        │      │                  ├ [40]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/FTMJ3NJID
-│                        │      │                  │       AZFWJQQSP3L22MUFJ3UP2PT/ 
-│                        │      │                  ├ [41]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/GSY7SXFFT
-│                        │      │                  │       PZFWDM6XELSDSHZLVW3AHK7 
-│                        │      │                  ├ [42]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/GSY7SXFFT
-│                        │      │                  │       PZFWDM6XELSDSHZLVW3AHK7/ 
-│                        │      │                  ├ [43]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/HZQIELEIR
-│                        │      │                  │       SZUYTFFH5KTH2YJ4IIQG2KE 
-│                        │      │                  ├ [44]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/HZQIELEIR
-│                        │      │                  │       SZUYTFFH5KTH2YJ4IIQG2KE/ 
-│                        │      │                  ├ [45]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/IPWCNYB5P
-│                        │      │                  │       Q5PCVZ4NJT6G56ZYFZ5QBU6 
-│                        │      │                  ├ [46]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/IPWCNYB5P
-│                        │      │                  │       Q5PCVZ4NJT6G56ZYFZ5QBU6/ 
-│                        │      │                  ├ [47]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/KEOTKBUPZ
-│                        │      │                  │       XHE3F352JBYNTSNRXYLWD6P 
-│                        │      │                  ├ [48]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/KEOTKBUPZ
-│                        │      │                  │       XHE3F352JBYNTSNRXYLWD6P/ 
-│                        │      │                  ├ [49]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/KSEGD2IWK
-│                        │      │                  │       NUO3DWY4KQGUQM5BISRWHQE 
-│                        │      │                  ├ [50]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/KSEGD2IWK
-│                        │      │                  │       NUO3DWY4KQGUQM5BISRWHQE/ 
-│                        │      │                  ├ [51]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/L5E5JSJBZ
-│                        │      │                  │       LYXOTZWXHJKRVCIXIHVWKJ6 
-│                        │      │                  ├ [52]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/L5E5JSJBZ
-│                        │      │                  │       LYXOTZWXHJKRVCIXIHVWKJ6/ 
-│                        │      │                  ├ [53]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/MZQYOOKHQ
-│                        │      │                  │       DQ57LV2IAG6NRFOVXKHJJ3Z 
-│                        │      │                  ├ [54]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/MZQYOOKHQ
-│                        │      │                  │       DQ57LV2IAG6NRFOVXKHJJ3Z/ 
-│                        │      │                  ├ [55]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/NG7IMPL55
-│                        │      │                  │       MVWU3LCI4JQJT3K2U5CHDV7 
-│                        │      │                  ├ [56]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/NG7IMPL55
-│                        │      │                  │       MVWU3LCI4JQJT3K2U5CHDV7/ 
-│                        │      │                  ├ [57]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/ODBY7RVMG
-│                        │      │                  │       ZCBSTWF2OZGIZS57FNFUL67 
-│                        │      │                  ├ [58]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/ODBY7RVMG
-│                        │      │                  │       ZCBSTWF2OZGIZS57FNFUL67/ 
-│                        │      │                  ├ [59]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/OXGWPQOJ3
-│                        │      │                  │       JNDW2XIYKIVJ7N7QUIFNM2Q 
-│                        │      │                  ├ [60]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/OXGWPQOJ3
-│                        │      │                  │       JNDW2XIYKIVJ7N7QUIFNM2Q/ 
-│                        │      │                  ├ [61]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/PJCUNGIQD
-│                        │      │                  │       UMZ4Z6HWVYIMR66A35F5S74 
-│                        │      │                  ├ [62]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/PJCUNGIQD
-│                        │      │                  │       UMZ4Z6HWVYIMR66A35F5S74/ 
-│                        │      │                  ├ [63]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/QF5QSYAOP
-│                        │      │                  │       DOWLY6DUHID56Q4HQFYB45I 
-│                        │      │                  ├ [64]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/QF5QSYAOP
-│                        │      │                  │       DOWLY6DUHID56Q4HQFYB45I/ 
-│                        │      │                  ├ [65]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/QXOU2JZUB
-│                        │      │                  │       EBP7GBKAYIJRPRBZSJCD7ST 
-│                        │      │                  ├ [66]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/QXOU2JZUB
-│                        │      │                  │       EBP7GBKAYIJRPRBZSJCD7ST/ 
-│                        │      │                  ├ [67]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/R3UETKPUB
-│                        │      │                  │       3V5JS5TLZOF3SMTGT5K5APS 
-│                        │      │                  ├ [68]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/R3UETKPUB
-│                        │      │                  │       3V5JS5TLZOF3SMTGT5K5APS/ 
-│                        │      │                  ├ [69]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/REMHVVIBD
-│                        │      │                  │       NKSRKNOTV7EQSB7CYQWOUOU 
-│                        │      │                  ├ [70]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/REMHVVIBD
-│                        │      │                  │       NKSRKNOTV7EQSB7CYQWOUOU/ 
-│                        │      │                  ├ [71]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/T7N5GV4CH
-│                        │      │                  │       H6WAGX3GFMDD3COEOVCZ4RI 
-│                        │      │                  ├ [72]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/T7N5GV4CH
-│                        │      │                  │       H6WAGX3GFMDD3COEOVCZ4RI/ 
-│                        │      │                  ├ [73]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/ULQQONMSC
-│                        │      │                  │       QSH5Z5OWFFQHCGEZ3NL4DRJ 
-│                        │      │                  ├ [74]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/ULQQONMSC
-│                        │      │                  │       QSH5Z5OWFFQHCGEZ3NL4DRJ/ 
-│                        │      │                  ├ [75]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/UTT7DG3QO
-│                        │      │                  │       F5ZNJLUGHDNLRUIN6OWZARP 
-│                        │      │                  ├ [76]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/UTT7DG3QO
-│                        │      │                  │       F5ZNJLUGHDNLRUIN6OWZARP/ 
-│                        │      │                  ├ [77]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/W2LZSWTV4
-│                        │      │                  │       NV4SNQARNXG5T6LRHP26EW2 
-│                        │      │                  ├ [78]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/W2LZSWTV4
-│                        │      │                  │       NV4SNQARNXG5T6LRHP26EW2/ 
-│                        │      │                  ├ [79]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/WCNCBYKZX
-│                        │      │                  │       LDFGAJUB7ZP5VLC3YTHJNVH 
-│                        │      │                  ├ [80]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/WCNCBYKZX
-│                        │      │                  │       LDFGAJUB7ZP5VLC3YTHJNVH/ 
-│                        │      │                  ├ [81]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/XFOIBB4YF
-│                        │      │                  │       ICHDM7IBOP7PWXW3FX4HLL2 
-│                        │      │                  ├ [82]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/XFOIBB4YF
-│                        │      │                  │       ICHDM7IBOP7PWXW3FX4HLL2/ 
-│                        │      │                  ├ [83]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/XTNLSL44Y
-│                        │      │                  │       5FB6JWADSZH6DCV4JJAAEQY 
-│                        │      │                  ├ [84]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/XTNLSL44Y
-│                        │      │                  │       5FB6JWADSZH6DCV4JJAAEQY/ 
-│                        │      │                  ├ [85]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/YJWHBLVZD
-│                        │      │                  │       M5KQSDFRBFRKU5KSSOLIRQ4 
-│                        │      │                  ├ [86]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/YJWHBLVZD
-│                        │      │                  │       M5KQSDFRBFRKU5KSSOLIRQ4/ 
-│                        │      │                  ├ [87]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/YRKEXKANQ
-│                        │      │                  │       7BKJW2YTAMP625LJUJZLJ4P 
-│                        │      │                  ├ [88]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/YRKEXKANQ
-│                        │      │                  │       7BKJW2YTAMP625LJUJZLJ4P/ 
-│                        │      │                  ├ [89]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/ZSVEMQV5R
-│                        │      │                  │       OY5YW5QE3I57HT3ITWG5GCV 
-│                        │      │                  ├ [90]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/ZSVEMQV5R
-│                        │      │                  │       OY5YW5QE3I57HT3ITWG5GCV/ 
-│                        │      │                  ├ [91]: https://nvd.nist.gov/vuln/detail/CVE-2023-39325 
-│                        │      │                  ├ [92]: https://pkg.go.dev/vuln/GO-2023-2102 
-│                        │      │                  ├ [93]: https://security.gentoo.org/glsa/202311-09 
-│                        │      │                  ├ [94]: https://security.netapp.com/advisory/ntap-20231110-0
-│                        │      │                  │       008 
-│                        │      │                  ├ [95]: https://security.netapp.com/advisory/ntap-20231110-0
-│                        │      │                  │       008/ 
-│                        │      │                  ├ [96]: https://ubuntu.com/security/notices/USN-6574-1 
-│                        │      │                  ├ [97]: https://ubuntu.com/security/notices/USN-7061-1 
-│                        │      │                  ├ [98]: https://ubuntu.com/security/notices/USN-7109-1 
-│                        │      │                  ╰ [99]: https://www.cve.org/CVERecord?id=CVE-2023-39325 
+│                        │      ├ References       ╭ [0]  : golang.org/x/net 
+│                        │      │                  ├ [1]  : https://access.redhat.com/errata/RHSA-2023:5863 
+│                        │      │                  ├ [2]  : https://access.redhat.com/security/cve/CVE-2023-39325 
+│                        │      │                  ├ [3]  : https://access.redhat.com/security/cve/CVE-2023-44487 
+│                        │      │                  ├ [4]  : https://bugzilla.redhat.com/2242803 
+│                        │      │                  ├ [5]  : https://bugzilla.redhat.com/2243296 
+│                        │      │                  ├ [6]  : https://bugzilla.redhat.com/show_bug.cgi?id=2242803 
+│                        │      │                  ├ [7]  : https://bugzilla.redhat.com/show_bug.cgi?id=2243296 
+│                        │      │                  ├ [8]  : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                        │      │                  │        2023-39325 
+│                        │      │                  ├ [9]  : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                        │      │                  │        2023-44487 
+│                        │      │                  ├ [10] : https://errata.almalinux.org/8/ALSA-2023-5863.html 
+│                        │      │                  ├ [11] : https://errata.rockylinux.org/RLSA-2023:6077 
+│                        │      │                  ├ [12] : https://github.com/golang/go/commit/24ae2d927285c69
+│                        │      │                  │        7440fdde3ad7f26028354bcf3 [golang- 1.21] 
+│                        │      │                  ├ [13] : https://github.com/golang/go/commit/e175f27f58aa7b9
+│                        │      │                  │        cd4d79607ae65d2cd5baaee68 [golang-1.20] 
+│                        │      │                  ├ [14] : https://github.com/golang/go/issues/63417 
+│                        │      │                  ├ [15] : https://go.dev/cl/534215 
+│                        │      │                  ├ [16] : https://go.dev/cl/534235 
+│                        │      │                  ├ [17] : https://go.dev/issue/63417 
+│                        │      │                  ├ [18] : https://groups.google.com/g/golang-announce/c/iNNxD
+│                        │      │                  │        TCjZvo/m/UDd7VKQuAAAJ 
+│                        │      │                  ├ [19] : https://linux.oracle.com/cve/CVE-2023-39325.html 
+│                        │      │                  ├ [20] : https://linux.oracle.com/errata/ELSA-2023-5867.html 
+│                        │      │                  ├ [21] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/3OVW5V2
+│                        │      │                  │        DM5K5IC3H7O42YDUGNJ74J35O 
+│                        │      │                  ├ [22] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/3OVW5V2
+│                        │      │                  │        DM5K5IC3H7O42YDUGNJ74J35O/ 
+│                        │      │                  ├ [23] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/3SZN67I
+│                        │      │                  │        L7HMGMNAVLOTIXLIHUDXZK4LH 
+│                        │      │                  ├ [24] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/3SZN67I
+│                        │      │                  │        L7HMGMNAVLOTIXLIHUDXZK4LH/ 
+│                        │      │                  ├ [25] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/3WJ4QVX
+│                        │      │                  │        2AMUJ2F2S27POOAHRC4K3CHU4 
+│                        │      │                  ├ [26] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/3WJ4QVX
+│                        │      │                  │        2AMUJ2F2S27POOAHRC4K3CHU4/ 
+│                        │      │                  ├ [27] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/4BUK2ZI
+│                        │      │                  │        AGCULOOYDNH25JPU6JBES5NF2 
+│                        │      │                  ├ [28] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/4BUK2ZI
+│                        │      │                  │        AGCULOOYDNH25JPU6JBES5NF2/ 
+│                        │      │                  ├ [29] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/5RSKA2I
+│                        │      │                  │        I6QTD4YUKUNDVJQSRYSFC4VFR 
+│                        │      │                  ├ [30] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/5RSKA2I
+│                        │      │                  │        I6QTD4YUKUNDVJQSRYSFC4VFR/ 
+│                        │      │                  ├ [31] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/AVZDNSM
+│                        │      │                  │        VDAQJ64LJC5I5U5LDM5753647 
+│                        │      │                  ├ [32] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/AVZDNSM
+│                        │      │                  │        VDAQJ64LJC5I5U5LDM5753647/ 
+│                        │      │                  ├ [33] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/CHHITS4
+│                        │      │                  │        PUOZAKFIUBQAQZC7JWXMOYE4B 
+│                        │      │                  ├ [34] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/CHHITS4
+│                        │      │                  │        PUOZAKFIUBQAQZC7JWXMOYE4B/ 
+│                        │      │                  ├ [35] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/CLB4TW7
+│                        │      │                  │        KALB3EEQWNWCN7OUIWWVWWCG2 
+│                        │      │                  ├ [36] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/CLB4TW7
+│                        │      │                  │        KALB3EEQWNWCN7OUIWWVWWCG2/ 
+│                        │      │                  ├ [37] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/D2BBIDR
+│                        │      │                  │        2ZMB3X5BC7SR4SLQMHRMVPY6L 
+│                        │      │                  ├ [38] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/D2BBIDR
+│                        │      │                  │        2ZMB3X5BC7SR4SLQMHRMVPY6L/ 
+│                        │      │                  ├ [39] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/ECRC75B
+│                        │      │                  │        QJP6FJN2L7KCKYZW4DSBD7QSD 
+│                        │      │                  ├ [40] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/ECRC75B
+│                        │      │                  │        QJP6FJN2L7KCKYZW4DSBD7QSD/ 
+│                        │      │                  ├ [41] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/FTMJ3NJ
+│                        │      │                  │        IDAZFWJQQSP3L22MUFJ3UP2PT 
+│                        │      │                  ├ [42] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/FTMJ3NJ
+│                        │      │                  │        IDAZFWJQQSP3L22MUFJ3UP2PT/ 
+│                        │      │                  ├ [43] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/GSY7SXF
+│                        │      │                  │        FTPZFWDM6XELSDSHZLVW3AHK7 
+│                        │      │                  ├ [44] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/GSY7SXF
+│                        │      │                  │        FTPZFWDM6XELSDSHZLVW3AHK7/ 
+│                        │      │                  ├ [45] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/HZQIELE
+│                        │      │                  │        IRSZUYTFFH5KTH2YJ4IIQG2KE 
+│                        │      │                  ├ [46] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/HZQIELE
+│                        │      │                  │        IRSZUYTFFH5KTH2YJ4IIQG2KE/ 
+│                        │      │                  ├ [47] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/IPWCNYB
+│                        │      │                  │        5PQ5PCVZ4NJT6G56ZYFZ5QBU6 
+│                        │      │                  ├ [48] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/IPWCNYB
+│                        │      │                  │        5PQ5PCVZ4NJT6G56ZYFZ5QBU6/ 
+│                        │      │                  ├ [49] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/KEOTKBU
+│                        │      │                  │        PZXHE3F352JBYNTSNRXYLWD6P 
+│                        │      │                  ├ [50] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/KEOTKBU
+│                        │      │                  │        PZXHE3F352JBYNTSNRXYLWD6P/ 
+│                        │      │                  ├ [51] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/KSEGD2I
+│                        │      │                  │        WKNUO3DWY4KQGUQM5BISRWHQE 
+│                        │      │                  ├ [52] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/KSEGD2I
+│                        │      │                  │        WKNUO3DWY4KQGUQM5BISRWHQE/ 
+│                        │      │                  ├ [53] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/L5E5JSJ
+│                        │      │                  │        BZLYXOTZWXHJKRVCIXIHVWKJ6 
+│                        │      │                  ├ [54] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/L5E5JSJ
+│                        │      │                  │        BZLYXOTZWXHJKRVCIXIHVWKJ6/ 
+│                        │      │                  ├ [55] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/MZQYOOK
+│                        │      │                  │        HQDQ57LV2IAG6NRFOVXKHJJ3Z 
+│                        │      │                  ├ [56] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/MZQYOOK
+│                        │      │                  │        HQDQ57LV2IAG6NRFOVXKHJJ3Z/ 
+│                        │      │                  ├ [57] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/NG7IMPL
+│                        │      │                  │        55MVWU3LCI4JQJT3K2U5CHDV7 
+│                        │      │                  ├ [58] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/NG7IMPL
+│                        │      │                  │        55MVWU3LCI4JQJT3K2U5CHDV7/ 
+│                        │      │                  ├ [59] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/ODBY7RV
+│                        │      │                  │        MGZCBSTWF2OZGIZS57FNFUL67 
+│                        │      │                  ├ [60] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/ODBY7RV
+│                        │      │                  │        MGZCBSTWF2OZGIZS57FNFUL67/ 
+│                        │      │                  ├ [61] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/OXGWPQO
+│                        │      │                  │        J3JNDW2XIYKIVJ7N7QUIFNM2Q 
+│                        │      │                  ├ [62] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/OXGWPQO
+│                        │      │                  │        J3JNDW2XIYKIVJ7N7QUIFNM2Q/ 
+│                        │      │                  ├ [63] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/PJCUNGI
+│                        │      │                  │        QDUMZ4Z6HWVYIMR66A35F5S74 
+│                        │      │                  ├ [64] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/PJCUNGI
+│                        │      │                  │        QDUMZ4Z6HWVYIMR66A35F5S74/ 
+│                        │      │                  ├ [65] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/QF5QSYA
+│                        │      │                  │        OPDOWLY6DUHID56Q4HQFYB45I 
+│                        │      │                  ├ [66] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/QF5QSYA
+│                        │      │                  │        OPDOWLY6DUHID56Q4HQFYB45I/ 
+│                        │      │                  ├ [67] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/QXOU2JZ
+│                        │      │                  │        UBEBP7GBKAYIJRPRBZSJCD7ST 
+│                        │      │                  ├ [68] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/QXOU2JZ
+│                        │      │                  │        UBEBP7GBKAYIJRPRBZSJCD7ST/ 
+│                        │      │                  ├ [69] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/R3UETKP
+│                        │      │                  │        UB3V5JS5TLZOF3SMTGT5K5APS 
+│                        │      │                  ├ [70] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/R3UETKP
+│                        │      │                  │        UB3V5JS5TLZOF3SMTGT5K5APS/ 
+│                        │      │                  ├ [71] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/REMHVVI
+│                        │      │                  │        BDNKSRKNOTV7EQSB7CYQWOUOU 
+│                        │      │                  ├ [72] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/REMHVVI
+│                        │      │                  │        BDNKSRKNOTV7EQSB7CYQWOUOU/ 
+│                        │      │                  ├ [73] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/T7N5GV4
+│                        │      │                  │        CHH6WAGX3GFMDD3COEOVCZ4RI 
+│                        │      │                  ├ [74] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/T7N5GV4
+│                        │      │                  │        CHH6WAGX3GFMDD3COEOVCZ4RI/ 
+│                        │      │                  ├ [75] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/ULQQONM
+│                        │      │                  │        SCQSH5Z5OWFFQHCGEZ3NL4DRJ 
+│                        │      │                  ├ [76] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/ULQQONM
+│                        │      │                  │        SCQSH5Z5OWFFQHCGEZ3NL4DRJ/ 
+│                        │      │                  ├ [77] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/UTT7DG3
+│                        │      │                  │        QOF5ZNJLUGHDNLRUIN6OWZARP 
+│                        │      │                  ├ [78] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/UTT7DG3
+│                        │      │                  │        QOF5ZNJLUGHDNLRUIN6OWZARP/ 
+│                        │      │                  ├ [79] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/W2LZSWT
+│                        │      │                  │        V4NV4SNQARNXG5T6LRHP26EW2 
+│                        │      │                  ├ [80] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/W2LZSWT
+│                        │      │                  │        V4NV4SNQARNXG5T6LRHP26EW2/ 
+│                        │      │                  ├ [81] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/WCNCBYK
+│                        │      │                  │        ZXLDFGAJUB7ZP5VLC3YTHJNVH 
+│                        │      │                  ├ [82] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/WCNCBYK
+│                        │      │                  │        ZXLDFGAJUB7ZP5VLC3YTHJNVH/ 
+│                        │      │                  ├ [83] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/XFOIBB4
+│                        │      │                  │        YFICHDM7IBOP7PWXW3FX4HLL2 
+│                        │      │                  ├ [84] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/XFOIBB4
+│                        │      │                  │        YFICHDM7IBOP7PWXW3FX4HLL2/ 
+│                        │      │                  ├ [85] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/XTNLSL4
+│                        │      │                  │        4Y5FB6JWADSZH6DCV4JJAAEQY 
+│                        │      │                  ├ [86] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/XTNLSL4
+│                        │      │                  │        4Y5FB6JWADSZH6DCV4JJAAEQY/ 
+│                        │      │                  ├ [87] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/YJWHBLV
+│                        │      │                  │        ZDM5KQSDFRBFRKU5KSSOLIRQ4 
+│                        │      │                  ├ [88] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/YJWHBLV
+│                        │      │                  │        ZDM5KQSDFRBFRKU5KSSOLIRQ4/ 
+│                        │      │                  ├ [89] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/YRKEXKA
+│                        │      │                  │        NQ7BKJW2YTAMP625LJUJZLJ4P 
+│                        │      │                  ├ [90] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/YRKEXKA
+│                        │      │                  │        NQ7BKJW2YTAMP625LJUJZLJ4P/ 
+│                        │      │                  ├ [91] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/ZSVEMQV
+│                        │      │                  │        5ROY5YW5QE3I57HT3ITWG5GCV 
+│                        │      │                  ├ [92] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/ZSVEMQV
+│                        │      │                  │        5ROY5YW5QE3I57HT3ITWG5GCV/ 
+│                        │      │                  ├ [93] : https://nvd.nist.gov/vuln/detail/CVE-2023-39325 
+│                        │      │                  ├ [94] : https://pkg.go.dev/vuln/GO-2023-2102 
+│                        │      │                  ├ [95] : https://security.gentoo.org/glsa/202311-09 
+│                        │      │                  ├ [96] : https://security.netapp.com/advisory/ntap-20231110-
+│                        │      │                  │        0008 
+│                        │      │                  ├ [97] : https://security.netapp.com/advisory/ntap-20231110-
+│                        │      │                  │        0008/ 
+│                        │      │                  ├ [98] : https://ubuntu.com/security/notices/USN-6574-1 
+│                        │      │                  ├ [99] : https://ubuntu.com/security/notices/USN-7061-1 
+│                        │      │                  ├ [100]: https://ubuntu.com/security/notices/USN-7109-1 
+│                        │      │                  ├ [101]: https://www.cisa.gov/news-events/alerts/2023/10/10/
+│                        │      │                  │        http2-rapid-reset-vulnerability-cve-2023-44487 
+│                        │      │                  ╰ [102]: https://www.cve.org/CVERecord?id=CVE-2023-39325 
 │                        │      ├ PublishedDate   : 2023-10-11T22:15:09.88Z 
 │                        │      ╰ LastModifiedDate: 2024-04-28T04:15:09.877Z 
 │                        ├ [1]  ╭ VulnerabilityID : CVE-2024-45338 
@@ -4917,7 +4961,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ amazon     : 3 
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ ghsa       : 2 
@@ -5694,8 +5738,8 @@
 │                        │      ├ DataSource       ╭ ID  : govulndb 
 │                        │      │                  ├ Name: The Go Vulnerability Database 
 │                        │      │                  ╰ URL : https://pkg.go.dev/vuln/ 
-│                        │      ├ Title           : A malicious HTTP/2 client which rapidly creates requests
-│                        │      │                   and immediate ... 
+│                        │      ├ Title           : golang: net/http, x/net/http2: rapid stream resets can
+│                        │      │                   cause excessive work (CVE-2023-44487) 
 │                        │      ├ Description     : A malicious HTTP/2 client which rapidly creates requests
 │                        │      │                   and immediately resets them can cause excessive server
 │                        │      │                   resource consumption. While the total number of requests is
@@ -5726,6 +5770,7 @@
 │                        │      │                  ├ ghsa       : 3 
 │                        │      │                  ├ nvd        : 3 
 │                        │      │                  ├ oracle-oval: 2 
+│                        │      │                  ├ redhat     : 3 
 │                        │      │                  ├ rocky      : 2 
 │                        │      │                  ╰ ubuntu     : 2 
 │                        │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
@@ -5734,260 +5779,267 @@
 │                        │      │                  ├ ghsa    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
 │                        │      │                  │         │           :N/A:H 
 │                        │      │                  │         ╰ V3Score : 7.5 
-│                        │      │                  ╰ nvd     ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                        │      │                  ├ nvd     ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                        │      │                  │         │           :N/A:H 
+│                        │      │                  │         ╰ V3Score : 7.5 
+│                        │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
 │                        │      │                            │           :N/A:H 
 │                        │      │                            ╰ V3Score : 7.5 
-│                        │      ├ References       ╭ [0] : golang.org/x/net 
-│                        │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2023:5863 
-│                        │      │                  ├ [2] : https://bugzilla.redhat.com/2242803 
-│                        │      │                  ├ [3] : https://bugzilla.redhat.com/2243296 
-│                        │      │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2242803 
-│                        │      │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2243296 
-│                        │      │                  ├ [6] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                        │      │                  │       023-39325 
-│                        │      │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                        │      │                  │       023-44487 
-│                        │      │                  ├ [8] : https://errata.almalinux.org/8/ALSA-2023-5863.html 
-│                        │      │                  ├ [9] : https://errata.rockylinux.org/RLSA-2023:6077 
-│                        │      │                  ├ [10]: https://github.com/golang/go/commit/24ae2d927285c697
-│                        │      │                  │       440fdde3ad7f26028354bcf3 [golang- 1.21] 
-│                        │      │                  ├ [11]: https://github.com/golang/go/commit/e175f27f58aa7b9c
-│                        │      │                  │       d4d79607ae65d2cd5baaee68 [golang-1.20] 
-│                        │      │                  ├ [12]: https://github.com/golang/go/issues/63417 
-│                        │      │                  ├ [13]: https://go.dev/cl/534215 
-│                        │      │                  ├ [14]: https://go.dev/cl/534235 
-│                        │      │                  ├ [15]: https://go.dev/issue/63417 
-│                        │      │                  ├ [16]: https://groups.google.com/g/golang-announce/c/iNNxDT
-│                        │      │                  │       CjZvo/m/UDd7VKQuAAAJ 
-│                        │      │                  ├ [17]: https://linux.oracle.com/cve/CVE-2023-39325.html 
-│                        │      │                  ├ [18]: https://linux.oracle.com/errata/ELSA-2023-5867.html 
-│                        │      │                  ├ [19]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/3OVW5V2DM
-│                        │      │                  │       5K5IC3H7O42YDUGNJ74J35O 
-│                        │      │                  ├ [20]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/3OVW5V2DM
-│                        │      │                  │       5K5IC3H7O42YDUGNJ74J35O/ 
-│                        │      │                  ├ [21]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/3SZN67IL7
-│                        │      │                  │       HMGMNAVLOTIXLIHUDXZK4LH 
-│                        │      │                  ├ [22]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/3SZN67IL7
-│                        │      │                  │       HMGMNAVLOTIXLIHUDXZK4LH/ 
-│                        │      │                  ├ [23]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/3WJ4QVX2A
-│                        │      │                  │       MUJ2F2S27POOAHRC4K3CHU4 
-│                        │      │                  ├ [24]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/3WJ4QVX2A
-│                        │      │                  │       MUJ2F2S27POOAHRC4K3CHU4/ 
-│                        │      │                  ├ [25]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/4BUK2ZIAG
-│                        │      │                  │       CULOOYDNH25JPU6JBES5NF2 
-│                        │      │                  ├ [26]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/4BUK2ZIAG
-│                        │      │                  │       CULOOYDNH25JPU6JBES5NF2/ 
-│                        │      │                  ├ [27]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/5RSKA2II6
-│                        │      │                  │       QTD4YUKUNDVJQSRYSFC4VFR 
-│                        │      │                  ├ [28]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/5RSKA2II6
-│                        │      │                  │       QTD4YUKUNDVJQSRYSFC4VFR/ 
-│                        │      │                  ├ [29]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/AVZDNSMVD
-│                        │      │                  │       AQJ64LJC5I5U5LDM5753647 
-│                        │      │                  ├ [30]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/AVZDNSMVD
-│                        │      │                  │       AQJ64LJC5I5U5LDM5753647/ 
-│                        │      │                  ├ [31]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/CHHITS4PU
-│                        │      │                  │       OZAKFIUBQAQZC7JWXMOYE4B 
-│                        │      │                  ├ [32]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/CHHITS4PU
-│                        │      │                  │       OZAKFIUBQAQZC7JWXMOYE4B/ 
-│                        │      │                  ├ [33]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/CLB4TW7KA
-│                        │      │                  │       LB3EEQWNWCN7OUIWWVWWCG2 
-│                        │      │                  ├ [34]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/CLB4TW7KA
-│                        │      │                  │       LB3EEQWNWCN7OUIWWVWWCG2/ 
-│                        │      │                  ├ [35]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/D2BBIDR2Z
-│                        │      │                  │       MB3X5BC7SR4SLQMHRMVPY6L 
-│                        │      │                  ├ [36]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/D2BBIDR2Z
-│                        │      │                  │       MB3X5BC7SR4SLQMHRMVPY6L/ 
-│                        │      │                  ├ [37]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/ECRC75BQJ
-│                        │      │                  │       P6FJN2L7KCKYZW4DSBD7QSD 
-│                        │      │                  ├ [38]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/ECRC75BQJ
-│                        │      │                  │       P6FJN2L7KCKYZW4DSBD7QSD/ 
-│                        │      │                  ├ [39]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/FTMJ3NJID
-│                        │      │                  │       AZFWJQQSP3L22MUFJ3UP2PT 
-│                        │      │                  ├ [40]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/FTMJ3NJID
-│                        │      │                  │       AZFWJQQSP3L22MUFJ3UP2PT/ 
-│                        │      │                  ├ [41]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/GSY7SXFFT
-│                        │      │                  │       PZFWDM6XELSDSHZLVW3AHK7 
-│                        │      │                  ├ [42]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/GSY7SXFFT
-│                        │      │                  │       PZFWDM6XELSDSHZLVW3AHK7/ 
-│                        │      │                  ├ [43]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/HZQIELEIR
-│                        │      │                  │       SZUYTFFH5KTH2YJ4IIQG2KE 
-│                        │      │                  ├ [44]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/HZQIELEIR
-│                        │      │                  │       SZUYTFFH5KTH2YJ4IIQG2KE/ 
-│                        │      │                  ├ [45]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/IPWCNYB5P
-│                        │      │                  │       Q5PCVZ4NJT6G56ZYFZ5QBU6 
-│                        │      │                  ├ [46]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/IPWCNYB5P
-│                        │      │                  │       Q5PCVZ4NJT6G56ZYFZ5QBU6/ 
-│                        │      │                  ├ [47]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/KEOTKBUPZ
-│                        │      │                  │       XHE3F352JBYNTSNRXYLWD6P 
-│                        │      │                  ├ [48]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/KEOTKBUPZ
-│                        │      │                  │       XHE3F352JBYNTSNRXYLWD6P/ 
-│                        │      │                  ├ [49]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/KSEGD2IWK
-│                        │      │                  │       NUO3DWY4KQGUQM5BISRWHQE 
-│                        │      │                  ├ [50]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/KSEGD2IWK
-│                        │      │                  │       NUO3DWY4KQGUQM5BISRWHQE/ 
-│                        │      │                  ├ [51]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/L5E5JSJBZ
-│                        │      │                  │       LYXOTZWXHJKRVCIXIHVWKJ6 
-│                        │      │                  ├ [52]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/L5E5JSJBZ
-│                        │      │                  │       LYXOTZWXHJKRVCIXIHVWKJ6/ 
-│                        │      │                  ├ [53]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/MZQYOOKHQ
-│                        │      │                  │       DQ57LV2IAG6NRFOVXKHJJ3Z 
-│                        │      │                  ├ [54]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/MZQYOOKHQ
-│                        │      │                  │       DQ57LV2IAG6NRFOVXKHJJ3Z/ 
-│                        │      │                  ├ [55]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/NG7IMPL55
-│                        │      │                  │       MVWU3LCI4JQJT3K2U5CHDV7 
-│                        │      │                  ├ [56]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/NG7IMPL55
-│                        │      │                  │       MVWU3LCI4JQJT3K2U5CHDV7/ 
-│                        │      │                  ├ [57]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/ODBY7RVMG
-│                        │      │                  │       ZCBSTWF2OZGIZS57FNFUL67 
-│                        │      │                  ├ [58]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/ODBY7RVMG
-│                        │      │                  │       ZCBSTWF2OZGIZS57FNFUL67/ 
-│                        │      │                  ├ [59]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/OXGWPQOJ3
-│                        │      │                  │       JNDW2XIYKIVJ7N7QUIFNM2Q 
-│                        │      │                  ├ [60]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/OXGWPQOJ3
-│                        │      │                  │       JNDW2XIYKIVJ7N7QUIFNM2Q/ 
-│                        │      │                  ├ [61]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/PJCUNGIQD
-│                        │      │                  │       UMZ4Z6HWVYIMR66A35F5S74 
-│                        │      │                  ├ [62]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/PJCUNGIQD
-│                        │      │                  │       UMZ4Z6HWVYIMR66A35F5S74/ 
-│                        │      │                  ├ [63]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/QF5QSYAOP
-│                        │      │                  │       DOWLY6DUHID56Q4HQFYB45I 
-│                        │      │                  ├ [64]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/QF5QSYAOP
-│                        │      │                  │       DOWLY6DUHID56Q4HQFYB45I/ 
-│                        │      │                  ├ [65]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/QXOU2JZUB
-│                        │      │                  │       EBP7GBKAYIJRPRBZSJCD7ST 
-│                        │      │                  ├ [66]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/QXOU2JZUB
-│                        │      │                  │       EBP7GBKAYIJRPRBZSJCD7ST/ 
-│                        │      │                  ├ [67]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/R3UETKPUB
-│                        │      │                  │       3V5JS5TLZOF3SMTGT5K5APS 
-│                        │      │                  ├ [68]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/R3UETKPUB
-│                        │      │                  │       3V5JS5TLZOF3SMTGT5K5APS/ 
-│                        │      │                  ├ [69]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/REMHVVIBD
-│                        │      │                  │       NKSRKNOTV7EQSB7CYQWOUOU 
-│                        │      │                  ├ [70]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/REMHVVIBD
-│                        │      │                  │       NKSRKNOTV7EQSB7CYQWOUOU/ 
-│                        │      │                  ├ [71]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/T7N5GV4CH
-│                        │      │                  │       H6WAGX3GFMDD3COEOVCZ4RI 
-│                        │      │                  ├ [72]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/T7N5GV4CH
-│                        │      │                  │       H6WAGX3GFMDD3COEOVCZ4RI/ 
-│                        │      │                  ├ [73]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/ULQQONMSC
-│                        │      │                  │       QSH5Z5OWFFQHCGEZ3NL4DRJ 
-│                        │      │                  ├ [74]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/ULQQONMSC
-│                        │      │                  │       QSH5Z5OWFFQHCGEZ3NL4DRJ/ 
-│                        │      │                  ├ [75]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/UTT7DG3QO
-│                        │      │                  │       F5ZNJLUGHDNLRUIN6OWZARP 
-│                        │      │                  ├ [76]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/UTT7DG3QO
-│                        │      │                  │       F5ZNJLUGHDNLRUIN6OWZARP/ 
-│                        │      │                  ├ [77]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/W2LZSWTV4
-│                        │      │                  │       NV4SNQARNXG5T6LRHP26EW2 
-│                        │      │                  ├ [78]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/W2LZSWTV4
-│                        │      │                  │       NV4SNQARNXG5T6LRHP26EW2/ 
-│                        │      │                  ├ [79]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/WCNCBYKZX
-│                        │      │                  │       LDFGAJUB7ZP5VLC3YTHJNVH 
-│                        │      │                  ├ [80]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/WCNCBYKZX
-│                        │      │                  │       LDFGAJUB7ZP5VLC3YTHJNVH/ 
-│                        │      │                  ├ [81]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/XFOIBB4YF
-│                        │      │                  │       ICHDM7IBOP7PWXW3FX4HLL2 
-│                        │      │                  ├ [82]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/XFOIBB4YF
-│                        │      │                  │       ICHDM7IBOP7PWXW3FX4HLL2/ 
-│                        │      │                  ├ [83]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/XTNLSL44Y
-│                        │      │                  │       5FB6JWADSZH6DCV4JJAAEQY 
-│                        │      │                  ├ [84]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/XTNLSL44Y
-│                        │      │                  │       5FB6JWADSZH6DCV4JJAAEQY/ 
-│                        │      │                  ├ [85]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/YJWHBLVZD
-│                        │      │                  │       M5KQSDFRBFRKU5KSSOLIRQ4 
-│                        │      │                  ├ [86]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/YJWHBLVZD
-│                        │      │                  │       M5KQSDFRBFRKU5KSSOLIRQ4/ 
-│                        │      │                  ├ [87]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/YRKEXKANQ
-│                        │      │                  │       7BKJW2YTAMP625LJUJZLJ4P 
-│                        │      │                  ├ [88]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/YRKEXKANQ
-│                        │      │                  │       7BKJW2YTAMP625LJUJZLJ4P/ 
-│                        │      │                  ├ [89]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/ZSVEMQV5R
-│                        │      │                  │       OY5YW5QE3I57HT3ITWG5GCV 
-│                        │      │                  ├ [90]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/ZSVEMQV5R
-│                        │      │                  │       OY5YW5QE3I57HT3ITWG5GCV/ 
-│                        │      │                  ├ [91]: https://nvd.nist.gov/vuln/detail/CVE-2023-39325 
-│                        │      │                  ├ [92]: https://pkg.go.dev/vuln/GO-2023-2102 
-│                        │      │                  ├ [93]: https://security.gentoo.org/glsa/202311-09 
-│                        │      │                  ├ [94]: https://security.netapp.com/advisory/ntap-20231110-0
-│                        │      │                  │       008 
-│                        │      │                  ├ [95]: https://security.netapp.com/advisory/ntap-20231110-0
-│                        │      │                  │       008/ 
-│                        │      │                  ├ [96]: https://ubuntu.com/security/notices/USN-6574-1 
-│                        │      │                  ├ [97]: https://ubuntu.com/security/notices/USN-7061-1 
-│                        │      │                  ├ [98]: https://ubuntu.com/security/notices/USN-7109-1 
-│                        │      │                  ╰ [99]: https://www.cve.org/CVERecord?id=CVE-2023-39325 
+│                        │      ├ References       ╭ [0]  : golang.org/x/net 
+│                        │      │                  ├ [1]  : https://access.redhat.com/errata/RHSA-2023:5863 
+│                        │      │                  ├ [2]  : https://access.redhat.com/security/cve/CVE-2023-39325 
+│                        │      │                  ├ [3]  : https://access.redhat.com/security/cve/CVE-2023-44487 
+│                        │      │                  ├ [4]  : https://bugzilla.redhat.com/2242803 
+│                        │      │                  ├ [5]  : https://bugzilla.redhat.com/2243296 
+│                        │      │                  ├ [6]  : https://bugzilla.redhat.com/show_bug.cgi?id=2242803 
+│                        │      │                  ├ [7]  : https://bugzilla.redhat.com/show_bug.cgi?id=2243296 
+│                        │      │                  ├ [8]  : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                        │      │                  │        2023-39325 
+│                        │      │                  ├ [9]  : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                        │      │                  │        2023-44487 
+│                        │      │                  ├ [10] : https://errata.almalinux.org/8/ALSA-2023-5863.html 
+│                        │      │                  ├ [11] : https://errata.rockylinux.org/RLSA-2023:6077 
+│                        │      │                  ├ [12] : https://github.com/golang/go/commit/24ae2d927285c69
+│                        │      │                  │        7440fdde3ad7f26028354bcf3 [golang- 1.21] 
+│                        │      │                  ├ [13] : https://github.com/golang/go/commit/e175f27f58aa7b9
+│                        │      │                  │        cd4d79607ae65d2cd5baaee68 [golang-1.20] 
+│                        │      │                  ├ [14] : https://github.com/golang/go/issues/63417 
+│                        │      │                  ├ [15] : https://go.dev/cl/534215 
+│                        │      │                  ├ [16] : https://go.dev/cl/534235 
+│                        │      │                  ├ [17] : https://go.dev/issue/63417 
+│                        │      │                  ├ [18] : https://groups.google.com/g/golang-announce/c/iNNxD
+│                        │      │                  │        TCjZvo/m/UDd7VKQuAAAJ 
+│                        │      │                  ├ [19] : https://linux.oracle.com/cve/CVE-2023-39325.html 
+│                        │      │                  ├ [20] : https://linux.oracle.com/errata/ELSA-2023-5867.html 
+│                        │      │                  ├ [21] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/3OVW5V2
+│                        │      │                  │        DM5K5IC3H7O42YDUGNJ74J35O 
+│                        │      │                  ├ [22] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/3OVW5V2
+│                        │      │                  │        DM5K5IC3H7O42YDUGNJ74J35O/ 
+│                        │      │                  ├ [23] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/3SZN67I
+│                        │      │                  │        L7HMGMNAVLOTIXLIHUDXZK4LH 
+│                        │      │                  ├ [24] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/3SZN67I
+│                        │      │                  │        L7HMGMNAVLOTIXLIHUDXZK4LH/ 
+│                        │      │                  ├ [25] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/3WJ4QVX
+│                        │      │                  │        2AMUJ2F2S27POOAHRC4K3CHU4 
+│                        │      │                  ├ [26] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/3WJ4QVX
+│                        │      │                  │        2AMUJ2F2S27POOAHRC4K3CHU4/ 
+│                        │      │                  ├ [27] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/4BUK2ZI
+│                        │      │                  │        AGCULOOYDNH25JPU6JBES5NF2 
+│                        │      │                  ├ [28] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/4BUK2ZI
+│                        │      │                  │        AGCULOOYDNH25JPU6JBES5NF2/ 
+│                        │      │                  ├ [29] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/5RSKA2I
+│                        │      │                  │        I6QTD4YUKUNDVJQSRYSFC4VFR 
+│                        │      │                  ├ [30] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/5RSKA2I
+│                        │      │                  │        I6QTD4YUKUNDVJQSRYSFC4VFR/ 
+│                        │      │                  ├ [31] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/AVZDNSM
+│                        │      │                  │        VDAQJ64LJC5I5U5LDM5753647 
+│                        │      │                  ├ [32] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/AVZDNSM
+│                        │      │                  │        VDAQJ64LJC5I5U5LDM5753647/ 
+│                        │      │                  ├ [33] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/CHHITS4
+│                        │      │                  │        PUOZAKFIUBQAQZC7JWXMOYE4B 
+│                        │      │                  ├ [34] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/CHHITS4
+│                        │      │                  │        PUOZAKFIUBQAQZC7JWXMOYE4B/ 
+│                        │      │                  ├ [35] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/CLB4TW7
+│                        │      │                  │        KALB3EEQWNWCN7OUIWWVWWCG2 
+│                        │      │                  ├ [36] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/CLB4TW7
+│                        │      │                  │        KALB3EEQWNWCN7OUIWWVWWCG2/ 
+│                        │      │                  ├ [37] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/D2BBIDR
+│                        │      │                  │        2ZMB3X5BC7SR4SLQMHRMVPY6L 
+│                        │      │                  ├ [38] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/D2BBIDR
+│                        │      │                  │        2ZMB3X5BC7SR4SLQMHRMVPY6L/ 
+│                        │      │                  ├ [39] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/ECRC75B
+│                        │      │                  │        QJP6FJN2L7KCKYZW4DSBD7QSD 
+│                        │      │                  ├ [40] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/ECRC75B
+│                        │      │                  │        QJP6FJN2L7KCKYZW4DSBD7QSD/ 
+│                        │      │                  ├ [41] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/FTMJ3NJ
+│                        │      │                  │        IDAZFWJQQSP3L22MUFJ3UP2PT 
+│                        │      │                  ├ [42] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/FTMJ3NJ
+│                        │      │                  │        IDAZFWJQQSP3L22MUFJ3UP2PT/ 
+│                        │      │                  ├ [43] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/GSY7SXF
+│                        │      │                  │        FTPZFWDM6XELSDSHZLVW3AHK7 
+│                        │      │                  ├ [44] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/GSY7SXF
+│                        │      │                  │        FTPZFWDM6XELSDSHZLVW3AHK7/ 
+│                        │      │                  ├ [45] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/HZQIELE
+│                        │      │                  │        IRSZUYTFFH5KTH2YJ4IIQG2KE 
+│                        │      │                  ├ [46] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/HZQIELE
+│                        │      │                  │        IRSZUYTFFH5KTH2YJ4IIQG2KE/ 
+│                        │      │                  ├ [47] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/IPWCNYB
+│                        │      │                  │        5PQ5PCVZ4NJT6G56ZYFZ5QBU6 
+│                        │      │                  ├ [48] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/IPWCNYB
+│                        │      │                  │        5PQ5PCVZ4NJT6G56ZYFZ5QBU6/ 
+│                        │      │                  ├ [49] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/KEOTKBU
+│                        │      │                  │        PZXHE3F352JBYNTSNRXYLWD6P 
+│                        │      │                  ├ [50] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/KEOTKBU
+│                        │      │                  │        PZXHE3F352JBYNTSNRXYLWD6P/ 
+│                        │      │                  ├ [51] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/KSEGD2I
+│                        │      │                  │        WKNUO3DWY4KQGUQM5BISRWHQE 
+│                        │      │                  ├ [52] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/KSEGD2I
+│                        │      │                  │        WKNUO3DWY4KQGUQM5BISRWHQE/ 
+│                        │      │                  ├ [53] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/L5E5JSJ
+│                        │      │                  │        BZLYXOTZWXHJKRVCIXIHVWKJ6 
+│                        │      │                  ├ [54] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/L5E5JSJ
+│                        │      │                  │        BZLYXOTZWXHJKRVCIXIHVWKJ6/ 
+│                        │      │                  ├ [55] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/MZQYOOK
+│                        │      │                  │        HQDQ57LV2IAG6NRFOVXKHJJ3Z 
+│                        │      │                  ├ [56] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/MZQYOOK
+│                        │      │                  │        HQDQ57LV2IAG6NRFOVXKHJJ3Z/ 
+│                        │      │                  ├ [57] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/NG7IMPL
+│                        │      │                  │        55MVWU3LCI4JQJT3K2U5CHDV7 
+│                        │      │                  ├ [58] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/NG7IMPL
+│                        │      │                  │        55MVWU3LCI4JQJT3K2U5CHDV7/ 
+│                        │      │                  ├ [59] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/ODBY7RV
+│                        │      │                  │        MGZCBSTWF2OZGIZS57FNFUL67 
+│                        │      │                  ├ [60] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/ODBY7RV
+│                        │      │                  │        MGZCBSTWF2OZGIZS57FNFUL67/ 
+│                        │      │                  ├ [61] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/OXGWPQO
+│                        │      │                  │        J3JNDW2XIYKIVJ7N7QUIFNM2Q 
+│                        │      │                  ├ [62] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/OXGWPQO
+│                        │      │                  │        J3JNDW2XIYKIVJ7N7QUIFNM2Q/ 
+│                        │      │                  ├ [63] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/PJCUNGI
+│                        │      │                  │        QDUMZ4Z6HWVYIMR66A35F5S74 
+│                        │      │                  ├ [64] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/PJCUNGI
+│                        │      │                  │        QDUMZ4Z6HWVYIMR66A35F5S74/ 
+│                        │      │                  ├ [65] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/QF5QSYA
+│                        │      │                  │        OPDOWLY6DUHID56Q4HQFYB45I 
+│                        │      │                  ├ [66] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/QF5QSYA
+│                        │      │                  │        OPDOWLY6DUHID56Q4HQFYB45I/ 
+│                        │      │                  ├ [67] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/QXOU2JZ
+│                        │      │                  │        UBEBP7GBKAYIJRPRBZSJCD7ST 
+│                        │      │                  ├ [68] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/QXOU2JZ
+│                        │      │                  │        UBEBP7GBKAYIJRPRBZSJCD7ST/ 
+│                        │      │                  ├ [69] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/R3UETKP
+│                        │      │                  │        UB3V5JS5TLZOF3SMTGT5K5APS 
+│                        │      │                  ├ [70] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/R3UETKP
+│                        │      │                  │        UB3V5JS5TLZOF3SMTGT5K5APS/ 
+│                        │      │                  ├ [71] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/REMHVVI
+│                        │      │                  │        BDNKSRKNOTV7EQSB7CYQWOUOU 
+│                        │      │                  ├ [72] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/REMHVVI
+│                        │      │                  │        BDNKSRKNOTV7EQSB7CYQWOUOU/ 
+│                        │      │                  ├ [73] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/T7N5GV4
+│                        │      │                  │        CHH6WAGX3GFMDD3COEOVCZ4RI 
+│                        │      │                  ├ [74] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/T7N5GV4
+│                        │      │                  │        CHH6WAGX3GFMDD3COEOVCZ4RI/ 
+│                        │      │                  ├ [75] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/ULQQONM
+│                        │      │                  │        SCQSH5Z5OWFFQHCGEZ3NL4DRJ 
+│                        │      │                  ├ [76] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/ULQQONM
+│                        │      │                  │        SCQSH5Z5OWFFQHCGEZ3NL4DRJ/ 
+│                        │      │                  ├ [77] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/UTT7DG3
+│                        │      │                  │        QOF5ZNJLUGHDNLRUIN6OWZARP 
+│                        │      │                  ├ [78] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/UTT7DG3
+│                        │      │                  │        QOF5ZNJLUGHDNLRUIN6OWZARP/ 
+│                        │      │                  ├ [79] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/W2LZSWT
+│                        │      │                  │        V4NV4SNQARNXG5T6LRHP26EW2 
+│                        │      │                  ├ [80] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/W2LZSWT
+│                        │      │                  │        V4NV4SNQARNXG5T6LRHP26EW2/ 
+│                        │      │                  ├ [81] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/WCNCBYK
+│                        │      │                  │        ZXLDFGAJUB7ZP5VLC3YTHJNVH 
+│                        │      │                  ├ [82] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/WCNCBYK
+│                        │      │                  │        ZXLDFGAJUB7ZP5VLC3YTHJNVH/ 
+│                        │      │                  ├ [83] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/XFOIBB4
+│                        │      │                  │        YFICHDM7IBOP7PWXW3FX4HLL2 
+│                        │      │                  ├ [84] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/XFOIBB4
+│                        │      │                  │        YFICHDM7IBOP7PWXW3FX4HLL2/ 
+│                        │      │                  ├ [85] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/XTNLSL4
+│                        │      │                  │        4Y5FB6JWADSZH6DCV4JJAAEQY 
+│                        │      │                  ├ [86] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/XTNLSL4
+│                        │      │                  │        4Y5FB6JWADSZH6DCV4JJAAEQY/ 
+│                        │      │                  ├ [87] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/YJWHBLV
+│                        │      │                  │        ZDM5KQSDFRBFRKU5KSSOLIRQ4 
+│                        │      │                  ├ [88] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/YJWHBLV
+│                        │      │                  │        ZDM5KQSDFRBFRKU5KSSOLIRQ4/ 
+│                        │      │                  ├ [89] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/YRKEXKA
+│                        │      │                  │        NQ7BKJW2YTAMP625LJUJZLJ4P 
+│                        │      │                  ├ [90] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/YRKEXKA
+│                        │      │                  │        NQ7BKJW2YTAMP625LJUJZLJ4P/ 
+│                        │      │                  ├ [91] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/ZSVEMQV
+│                        │      │                  │        5ROY5YW5QE3I57HT3ITWG5GCV 
+│                        │      │                  ├ [92] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/ZSVEMQV
+│                        │      │                  │        5ROY5YW5QE3I57HT3ITWG5GCV/ 
+│                        │      │                  ├ [93] : https://nvd.nist.gov/vuln/detail/CVE-2023-39325 
+│                        │      │                  ├ [94] : https://pkg.go.dev/vuln/GO-2023-2102 
+│                        │      │                  ├ [95] : https://security.gentoo.org/glsa/202311-09 
+│                        │      │                  ├ [96] : https://security.netapp.com/advisory/ntap-20231110-
+│                        │      │                  │        0008 
+│                        │      │                  ├ [97] : https://security.netapp.com/advisory/ntap-20231110-
+│                        │      │                  │        0008/ 
+│                        │      │                  ├ [98] : https://ubuntu.com/security/notices/USN-6574-1 
+│                        │      │                  ├ [99] : https://ubuntu.com/security/notices/USN-7061-1 
+│                        │      │                  ├ [100]: https://ubuntu.com/security/notices/USN-7109-1 
+│                        │      │                  ├ [101]: https://www.cisa.gov/news-events/alerts/2023/10/10/
+│                        │      │                  │        http2-rapid-reset-vulnerability-cve-2023-44487 
+│                        │      │                  ╰ [102]: https://www.cve.org/CVERecord?id=CVE-2023-39325 
 │                        │      ├ PublishedDate   : 2023-10-11T22:15:09.88Z 
 │                        │      ╰ LastModifiedDate: 2024-04-28T04:15:09.877Z 
 │                        ├ [7]  ╭ VulnerabilityID : CVE-2023-45283 
@@ -6403,7 +6455,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ amazon     : 3 
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
@@ -6486,7 +6538,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ amazon     : 3 
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
@@ -6557,8 +6609,8 @@
 │                        │      ├ DataSource       ╭ ID  : govulndb 
 │                        │      │                  ├ Name: The Go Vulnerability Database 
 │                        │      │                  ╰ URL : https://pkg.go.dev/vuln/ 
-│                        │      ├ Title           : A malicious HTTP sender can use chunk extensions to cause a
-│                        │      │                    receiver r ... 
+│                        │      ├ Title           : golang: net/http/internal: Denial of Service (DoS) via
+│                        │      │                   Resource Consumption via HTTP requests 
 │                        │      ├ Description     : A malicious HTTP sender can use chunk extensions to cause a
 │                        │      │                    receiver reading from a request or response body to read
 │                        │      │                   many more bytes from the network than are in the body. A
@@ -6581,34 +6633,39 @@
 │                        │      │                  ├ nvd        : 2 
 │                        │      │                  ├ oracle-oval: 2 
 │                        │      │                  ├ photon     : 2 
+│                        │      │                  ├ redhat     : 2 
 │                        │      │                  ╰ ubuntu     : 2 
 │                        │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I
 │                        │      │                  │         │           :N/A:N 
 │                        │      │                  │         ╰ V3Score : 5.3 
-│                        │      │                  ╰ nvd     ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I
+│                        │      │                  ├ nvd     ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I
+│                        │      │                  │         │           :N/A:N 
+│                        │      │                  │         ╰ V3Score : 5.3 
+│                        │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I
 │                        │      │                            │           :N/A:N 
 │                        │      │                            ╰ V3Score : 5.3 
 │                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:0887 
-│                        │      │                  ├ [1] : https://bugzilla.redhat.com/2253323 
-│                        │      │                  ├ [2] : https://bugzilla.redhat.com/2253330 
-│                        │      │                  ├ [3] : https://errata.almalinux.org/8/ALSA-2024-0887.html 
-│                        │      │                  ├ [4] : https://github.com/golang/go/commit/6446af942e2e2b16
+│                        │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023-39326 
+│                        │      │                  ├ [2] : https://bugzilla.redhat.com/2253323 
+│                        │      │                  ├ [3] : https://bugzilla.redhat.com/2253330 
+│                        │      │                  ├ [4] : https://errata.almalinux.org/8/ALSA-2024-0887.html 
+│                        │      │                  ├ [5] : https://github.com/golang/go/commit/6446af942e2e2b16
 │                        │      │                  │       1c4ec1b60d9703a2b55dc4dd (go1.20.12) 
-│                        │      │                  ├ [5] : https://github.com/golang/go/commit/ec8c526e4be720e9
+│                        │      │                  ├ [6] : https://github.com/golang/go/commit/ec8c526e4be720e9
 │                        │      │                  │       4b98ca509e6364f0efaf28f7 (go1.21.5) 
-│                        │      │                  ├ [6] : https://go.dev/cl/547335 
-│                        │      │                  ├ [7] : https://go.dev/issue/64433 
-│                        │      │                  ├ [8] : https://groups.google.com/g/golang-dev/c/6ypN5EjibjM
+│                        │      │                  ├ [7] : https://go.dev/cl/547335 
+│                        │      │                  ├ [8] : https://go.dev/issue/64433 
+│                        │      │                  ├ [9] : https://groups.google.com/g/golang-dev/c/6ypN5EjibjM
 │                        │      │                  │       /m/KmLVYH_uAgAJ 
-│                        │      │                  ├ [9] : https://linux.oracle.com/cve/CVE-2023-39326.html 
-│                        │      │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2024-2988.html 
-│                        │      │                  ├ [11]: https://lists.fedoraproject.org/archives/list/packag
+│                        │      │                  ├ [10]: https://linux.oracle.com/cve/CVE-2023-39326.html 
+│                        │      │                  ├ [11]: https://linux.oracle.com/errata/ELSA-2024-2988.html 
+│                        │      │                  ├ [12]: https://lists.fedoraproject.org/archives/list/packag
 │                        │      │                  │       e-announce@lists.fedoraproject.org/message/UIU6HOGV6
 │                        │      │                  │       RRIKWM57LOXQA75BGZSIH6G/ 
-│                        │      │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2023-39326 
-│                        │      │                  ├ [13]: https://pkg.go.dev/vuln/GO-2023-2382 
-│                        │      │                  ├ [14]: https://ubuntu.com/security/notices/USN-6574-1 
-│                        │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2023-39326 
+│                        │      │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2023-39326 
+│                        │      │                  ├ [14]: https://pkg.go.dev/vuln/GO-2023-2382 
+│                        │      │                  ├ [15]: https://ubuntu.com/security/notices/USN-6574-1 
+│                        │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2023-39326 
 │                        │      ├ PublishedDate   : 2023-12-06T17:15:07.147Z 
 │                        │      ╰ LastModifiedDate: 2024-01-20T04:15:07.89Z 
 │                        ├ [15] ╭ VulnerabilityID : CVE-2023-45284 
@@ -7424,8 +7481,8 @@
 │                        │      │                  ├ Name: GitHub Security Advisory Go 
 │                        │      │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+
 │                        │      │                          ecosystem%3Ago 
-│                        │      ├ Title           : A malicious HTTP/2 client which rapidly creates requests
-│                        │      │                   and immediate ... 
+│                        │      ├ Title           : golang: net/http, x/net/http2: rapid stream resets can
+│                        │      │                   cause excessive work (CVE-2023-44487) 
 │                        │      ├ Description     : A malicious HTTP/2 client which rapidly creates requests
 │                        │      │                   and immediately resets them can cause excessive server
 │                        │      │                   resource consumption. While the total number of requests is
@@ -7456,6 +7513,7 @@
 │                        │      │                  ├ ghsa       : 3 
 │                        │      │                  ├ nvd        : 3 
 │                        │      │                  ├ oracle-oval: 2 
+│                        │      │                  ├ redhat     : 3 
 │                        │      │                  ├ rocky      : 2 
 │                        │      │                  ╰ ubuntu     : 2 
 │                        │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
@@ -7464,260 +7522,267 @@
 │                        │      │                  ├ ghsa    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
 │                        │      │                  │         │           :N/A:H 
 │                        │      │                  │         ╰ V3Score : 7.5 
-│                        │      │                  ╰ nvd     ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                        │      │                  ├ nvd     ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                        │      │                  │         │           :N/A:H 
+│                        │      │                  │         ╰ V3Score : 7.5 
+│                        │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
 │                        │      │                            │           :N/A:H 
 │                        │      │                            ╰ V3Score : 7.5 
-│                        │      ├ References       ╭ [0] : golang.org/x/net 
-│                        │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2023:5863 
-│                        │      │                  ├ [2] : https://bugzilla.redhat.com/2242803 
-│                        │      │                  ├ [3] : https://bugzilla.redhat.com/2243296 
-│                        │      │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2242803 
-│                        │      │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2243296 
-│                        │      │                  ├ [6] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                        │      │                  │       023-39325 
-│                        │      │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                        │      │                  │       023-44487 
-│                        │      │                  ├ [8] : https://errata.almalinux.org/8/ALSA-2023-5863.html 
-│                        │      │                  ├ [9] : https://errata.rockylinux.org/RLSA-2023:6077 
-│                        │      │                  ├ [10]: https://github.com/golang/go/commit/24ae2d927285c697
-│                        │      │                  │       440fdde3ad7f26028354bcf3 [golang- 1.21] 
-│                        │      │                  ├ [11]: https://github.com/golang/go/commit/e175f27f58aa7b9c
-│                        │      │                  │       d4d79607ae65d2cd5baaee68 [golang-1.20] 
-│                        │      │                  ├ [12]: https://github.com/golang/go/issues/63417 
-│                        │      │                  ├ [13]: https://go.dev/cl/534215 
-│                        │      │                  ├ [14]: https://go.dev/cl/534235 
-│                        │      │                  ├ [15]: https://go.dev/issue/63417 
-│                        │      │                  ├ [16]: https://groups.google.com/g/golang-announce/c/iNNxDT
-│                        │      │                  │       CjZvo/m/UDd7VKQuAAAJ 
-│                        │      │                  ├ [17]: https://linux.oracle.com/cve/CVE-2023-39325.html 
-│                        │      │                  ├ [18]: https://linux.oracle.com/errata/ELSA-2023-5867.html 
-│                        │      │                  ├ [19]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/3OVW5V2DM
-│                        │      │                  │       5K5IC3H7O42YDUGNJ74J35O 
-│                        │      │                  ├ [20]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/3OVW5V2DM
-│                        │      │                  │       5K5IC3H7O42YDUGNJ74J35O/ 
-│                        │      │                  ├ [21]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/3SZN67IL7
-│                        │      │                  │       HMGMNAVLOTIXLIHUDXZK4LH 
-│                        │      │                  ├ [22]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/3SZN67IL7
-│                        │      │                  │       HMGMNAVLOTIXLIHUDXZK4LH/ 
-│                        │      │                  ├ [23]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/3WJ4QVX2A
-│                        │      │                  │       MUJ2F2S27POOAHRC4K3CHU4 
-│                        │      │                  ├ [24]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/3WJ4QVX2A
-│                        │      │                  │       MUJ2F2S27POOAHRC4K3CHU4/ 
-│                        │      │                  ├ [25]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/4BUK2ZIAG
-│                        │      │                  │       CULOOYDNH25JPU6JBES5NF2 
-│                        │      │                  ├ [26]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/4BUK2ZIAG
-│                        │      │                  │       CULOOYDNH25JPU6JBES5NF2/ 
-│                        │      │                  ├ [27]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/5RSKA2II6
-│                        │      │                  │       QTD4YUKUNDVJQSRYSFC4VFR 
-│                        │      │                  ├ [28]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/5RSKA2II6
-│                        │      │                  │       QTD4YUKUNDVJQSRYSFC4VFR/ 
-│                        │      │                  ├ [29]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/AVZDNSMVD
-│                        │      │                  │       AQJ64LJC5I5U5LDM5753647 
-│                        │      │                  ├ [30]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/AVZDNSMVD
-│                        │      │                  │       AQJ64LJC5I5U5LDM5753647/ 
-│                        │      │                  ├ [31]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/CHHITS4PU
-│                        │      │                  │       OZAKFIUBQAQZC7JWXMOYE4B 
-│                        │      │                  ├ [32]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/CHHITS4PU
-│                        │      │                  │       OZAKFIUBQAQZC7JWXMOYE4B/ 
-│                        │      │                  ├ [33]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/CLB4TW7KA
-│                        │      │                  │       LB3EEQWNWCN7OUIWWVWWCG2 
-│                        │      │                  ├ [34]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/CLB4TW7KA
-│                        │      │                  │       LB3EEQWNWCN7OUIWWVWWCG2/ 
-│                        │      │                  ├ [35]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/D2BBIDR2Z
-│                        │      │                  │       MB3X5BC7SR4SLQMHRMVPY6L 
-│                        │      │                  ├ [36]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/D2BBIDR2Z
-│                        │      │                  │       MB3X5BC7SR4SLQMHRMVPY6L/ 
-│                        │      │                  ├ [37]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/ECRC75BQJ
-│                        │      │                  │       P6FJN2L7KCKYZW4DSBD7QSD 
-│                        │      │                  ├ [38]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/ECRC75BQJ
-│                        │      │                  │       P6FJN2L7KCKYZW4DSBD7QSD/ 
-│                        │      │                  ├ [39]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/FTMJ3NJID
-│                        │      │                  │       AZFWJQQSP3L22MUFJ3UP2PT 
-│                        │      │                  ├ [40]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/FTMJ3NJID
-│                        │      │                  │       AZFWJQQSP3L22MUFJ3UP2PT/ 
-│                        │      │                  ├ [41]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/GSY7SXFFT
-│                        │      │                  │       PZFWDM6XELSDSHZLVW3AHK7 
-│                        │      │                  ├ [42]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/GSY7SXFFT
-│                        │      │                  │       PZFWDM6XELSDSHZLVW3AHK7/ 
-│                        │      │                  ├ [43]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/HZQIELEIR
-│                        │      │                  │       SZUYTFFH5KTH2YJ4IIQG2KE 
-│                        │      │                  ├ [44]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/HZQIELEIR
-│                        │      │                  │       SZUYTFFH5KTH2YJ4IIQG2KE/ 
-│                        │      │                  ├ [45]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/IPWCNYB5P
-│                        │      │                  │       Q5PCVZ4NJT6G56ZYFZ5QBU6 
-│                        │      │                  ├ [46]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/IPWCNYB5P
-│                        │      │                  │       Q5PCVZ4NJT6G56ZYFZ5QBU6/ 
-│                        │      │                  ├ [47]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/KEOTKBUPZ
-│                        │      │                  │       XHE3F352JBYNTSNRXYLWD6P 
-│                        │      │                  ├ [48]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/KEOTKBUPZ
-│                        │      │                  │       XHE3F352JBYNTSNRXYLWD6P/ 
-│                        │      │                  ├ [49]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/KSEGD2IWK
-│                        │      │                  │       NUO3DWY4KQGUQM5BISRWHQE 
-│                        │      │                  ├ [50]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/KSEGD2IWK
-│                        │      │                  │       NUO3DWY4KQGUQM5BISRWHQE/ 
-│                        │      │                  ├ [51]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/L5E5JSJBZ
-│                        │      │                  │       LYXOTZWXHJKRVCIXIHVWKJ6 
-│                        │      │                  ├ [52]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/L5E5JSJBZ
-│                        │      │                  │       LYXOTZWXHJKRVCIXIHVWKJ6/ 
-│                        │      │                  ├ [53]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/MZQYOOKHQ
-│                        │      │                  │       DQ57LV2IAG6NRFOVXKHJJ3Z 
-│                        │      │                  ├ [54]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/MZQYOOKHQ
-│                        │      │                  │       DQ57LV2IAG6NRFOVXKHJJ3Z/ 
-│                        │      │                  ├ [55]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/NG7IMPL55
-│                        │      │                  │       MVWU3LCI4JQJT3K2U5CHDV7 
-│                        │      │                  ├ [56]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/NG7IMPL55
-│                        │      │                  │       MVWU3LCI4JQJT3K2U5CHDV7/ 
-│                        │      │                  ├ [57]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/ODBY7RVMG
-│                        │      │                  │       ZCBSTWF2OZGIZS57FNFUL67 
-│                        │      │                  ├ [58]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/ODBY7RVMG
-│                        │      │                  │       ZCBSTWF2OZGIZS57FNFUL67/ 
-│                        │      │                  ├ [59]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/OXGWPQOJ3
-│                        │      │                  │       JNDW2XIYKIVJ7N7QUIFNM2Q 
-│                        │      │                  ├ [60]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/OXGWPQOJ3
-│                        │      │                  │       JNDW2XIYKIVJ7N7QUIFNM2Q/ 
-│                        │      │                  ├ [61]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/PJCUNGIQD
-│                        │      │                  │       UMZ4Z6HWVYIMR66A35F5S74 
-│                        │      │                  ├ [62]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/PJCUNGIQD
-│                        │      │                  │       UMZ4Z6HWVYIMR66A35F5S74/ 
-│                        │      │                  ├ [63]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/QF5QSYAOP
-│                        │      │                  │       DOWLY6DUHID56Q4HQFYB45I 
-│                        │      │                  ├ [64]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/QF5QSYAOP
-│                        │      │                  │       DOWLY6DUHID56Q4HQFYB45I/ 
-│                        │      │                  ├ [65]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/QXOU2JZUB
-│                        │      │                  │       EBP7GBKAYIJRPRBZSJCD7ST 
-│                        │      │                  ├ [66]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/QXOU2JZUB
-│                        │      │                  │       EBP7GBKAYIJRPRBZSJCD7ST/ 
-│                        │      │                  ├ [67]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/R3UETKPUB
-│                        │      │                  │       3V5JS5TLZOF3SMTGT5K5APS 
-│                        │      │                  ├ [68]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/R3UETKPUB
-│                        │      │                  │       3V5JS5TLZOF3SMTGT5K5APS/ 
-│                        │      │                  ├ [69]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/REMHVVIBD
-│                        │      │                  │       NKSRKNOTV7EQSB7CYQWOUOU 
-│                        │      │                  ├ [70]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/REMHVVIBD
-│                        │      │                  │       NKSRKNOTV7EQSB7CYQWOUOU/ 
-│                        │      │                  ├ [71]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/T7N5GV4CH
-│                        │      │                  │       H6WAGX3GFMDD3COEOVCZ4RI 
-│                        │      │                  ├ [72]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/T7N5GV4CH
-│                        │      │                  │       H6WAGX3GFMDD3COEOVCZ4RI/ 
-│                        │      │                  ├ [73]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/ULQQONMSC
-│                        │      │                  │       QSH5Z5OWFFQHCGEZ3NL4DRJ 
-│                        │      │                  ├ [74]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/ULQQONMSC
-│                        │      │                  │       QSH5Z5OWFFQHCGEZ3NL4DRJ/ 
-│                        │      │                  ├ [75]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/UTT7DG3QO
-│                        │      │                  │       F5ZNJLUGHDNLRUIN6OWZARP 
-│                        │      │                  ├ [76]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/UTT7DG3QO
-│                        │      │                  │       F5ZNJLUGHDNLRUIN6OWZARP/ 
-│                        │      │                  ├ [77]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/W2LZSWTV4
-│                        │      │                  │       NV4SNQARNXG5T6LRHP26EW2 
-│                        │      │                  ├ [78]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/W2LZSWTV4
-│                        │      │                  │       NV4SNQARNXG5T6LRHP26EW2/ 
-│                        │      │                  ├ [79]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/WCNCBYKZX
-│                        │      │                  │       LDFGAJUB7ZP5VLC3YTHJNVH 
-│                        │      │                  ├ [80]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/WCNCBYKZX
-│                        │      │                  │       LDFGAJUB7ZP5VLC3YTHJNVH/ 
-│                        │      │                  ├ [81]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/XFOIBB4YF
-│                        │      │                  │       ICHDM7IBOP7PWXW3FX4HLL2 
-│                        │      │                  ├ [82]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/XFOIBB4YF
-│                        │      │                  │       ICHDM7IBOP7PWXW3FX4HLL2/ 
-│                        │      │                  ├ [83]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/XTNLSL44Y
-│                        │      │                  │       5FB6JWADSZH6DCV4JJAAEQY 
-│                        │      │                  ├ [84]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/XTNLSL44Y
-│                        │      │                  │       5FB6JWADSZH6DCV4JJAAEQY/ 
-│                        │      │                  ├ [85]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/YJWHBLVZD
-│                        │      │                  │       M5KQSDFRBFRKU5KSSOLIRQ4 
-│                        │      │                  ├ [86]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/YJWHBLVZD
-│                        │      │                  │       M5KQSDFRBFRKU5KSSOLIRQ4/ 
-│                        │      │                  ├ [87]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/YRKEXKANQ
-│                        │      │                  │       7BKJW2YTAMP625LJUJZLJ4P 
-│                        │      │                  ├ [88]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/YRKEXKANQ
-│                        │      │                  │       7BKJW2YTAMP625LJUJZLJ4P/ 
-│                        │      │                  ├ [89]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/ZSVEMQV5R
-│                        │      │                  │       OY5YW5QE3I57HT3ITWG5GCV 
-│                        │      │                  ├ [90]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/ZSVEMQV5R
-│                        │      │                  │       OY5YW5QE3I57HT3ITWG5GCV/ 
-│                        │      │                  ├ [91]: https://nvd.nist.gov/vuln/detail/CVE-2023-39325 
-│                        │      │                  ├ [92]: https://pkg.go.dev/vuln/GO-2023-2102 
-│                        │      │                  ├ [93]: https://security.gentoo.org/glsa/202311-09 
-│                        │      │                  ├ [94]: https://security.netapp.com/advisory/ntap-20231110-0
-│                        │      │                  │       008 
-│                        │      │                  ├ [95]: https://security.netapp.com/advisory/ntap-20231110-0
-│                        │      │                  │       008/ 
-│                        │      │                  ├ [96]: https://ubuntu.com/security/notices/USN-6574-1 
-│                        │      │                  ├ [97]: https://ubuntu.com/security/notices/USN-7061-1 
-│                        │      │                  ├ [98]: https://ubuntu.com/security/notices/USN-7109-1 
-│                        │      │                  ╰ [99]: https://www.cve.org/CVERecord?id=CVE-2023-39325 
+│                        │      ├ References       ╭ [0]  : golang.org/x/net 
+│                        │      │                  ├ [1]  : https://access.redhat.com/errata/RHSA-2023:5863 
+│                        │      │                  ├ [2]  : https://access.redhat.com/security/cve/CVE-2023-39325 
+│                        │      │                  ├ [3]  : https://access.redhat.com/security/cve/CVE-2023-44487 
+│                        │      │                  ├ [4]  : https://bugzilla.redhat.com/2242803 
+│                        │      │                  ├ [5]  : https://bugzilla.redhat.com/2243296 
+│                        │      │                  ├ [6]  : https://bugzilla.redhat.com/show_bug.cgi?id=2242803 
+│                        │      │                  ├ [7]  : https://bugzilla.redhat.com/show_bug.cgi?id=2243296 
+│                        │      │                  ├ [8]  : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                        │      │                  │        2023-39325 
+│                        │      │                  ├ [9]  : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                        │      │                  │        2023-44487 
+│                        │      │                  ├ [10] : https://errata.almalinux.org/8/ALSA-2023-5863.html 
+│                        │      │                  ├ [11] : https://errata.rockylinux.org/RLSA-2023:6077 
+│                        │      │                  ├ [12] : https://github.com/golang/go/commit/24ae2d927285c69
+│                        │      │                  │        7440fdde3ad7f26028354bcf3 [golang- 1.21] 
+│                        │      │                  ├ [13] : https://github.com/golang/go/commit/e175f27f58aa7b9
+│                        │      │                  │        cd4d79607ae65d2cd5baaee68 [golang-1.20] 
+│                        │      │                  ├ [14] : https://github.com/golang/go/issues/63417 
+│                        │      │                  ├ [15] : https://go.dev/cl/534215 
+│                        │      │                  ├ [16] : https://go.dev/cl/534235 
+│                        │      │                  ├ [17] : https://go.dev/issue/63417 
+│                        │      │                  ├ [18] : https://groups.google.com/g/golang-announce/c/iNNxD
+│                        │      │                  │        TCjZvo/m/UDd7VKQuAAAJ 
+│                        │      │                  ├ [19] : https://linux.oracle.com/cve/CVE-2023-39325.html 
+│                        │      │                  ├ [20] : https://linux.oracle.com/errata/ELSA-2023-5867.html 
+│                        │      │                  ├ [21] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/3OVW5V2
+│                        │      │                  │        DM5K5IC3H7O42YDUGNJ74J35O 
+│                        │      │                  ├ [22] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/3OVW5V2
+│                        │      │                  │        DM5K5IC3H7O42YDUGNJ74J35O/ 
+│                        │      │                  ├ [23] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/3SZN67I
+│                        │      │                  │        L7HMGMNAVLOTIXLIHUDXZK4LH 
+│                        │      │                  ├ [24] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/3SZN67I
+│                        │      │                  │        L7HMGMNAVLOTIXLIHUDXZK4LH/ 
+│                        │      │                  ├ [25] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/3WJ4QVX
+│                        │      │                  │        2AMUJ2F2S27POOAHRC4K3CHU4 
+│                        │      │                  ├ [26] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/3WJ4QVX
+│                        │      │                  │        2AMUJ2F2S27POOAHRC4K3CHU4/ 
+│                        │      │                  ├ [27] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/4BUK2ZI
+│                        │      │                  │        AGCULOOYDNH25JPU6JBES5NF2 
+│                        │      │                  ├ [28] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/4BUK2ZI
+│                        │      │                  │        AGCULOOYDNH25JPU6JBES5NF2/ 
+│                        │      │                  ├ [29] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/5RSKA2I
+│                        │      │                  │        I6QTD4YUKUNDVJQSRYSFC4VFR 
+│                        │      │                  ├ [30] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/5RSKA2I
+│                        │      │                  │        I6QTD4YUKUNDVJQSRYSFC4VFR/ 
+│                        │      │                  ├ [31] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/AVZDNSM
+│                        │      │                  │        VDAQJ64LJC5I5U5LDM5753647 
+│                        │      │                  ├ [32] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/AVZDNSM
+│                        │      │                  │        VDAQJ64LJC5I5U5LDM5753647/ 
+│                        │      │                  ├ [33] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/CHHITS4
+│                        │      │                  │        PUOZAKFIUBQAQZC7JWXMOYE4B 
+│                        │      │                  ├ [34] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/CHHITS4
+│                        │      │                  │        PUOZAKFIUBQAQZC7JWXMOYE4B/ 
+│                        │      │                  ├ [35] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/CLB4TW7
+│                        │      │                  │        KALB3EEQWNWCN7OUIWWVWWCG2 
+│                        │      │                  ├ [36] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/CLB4TW7
+│                        │      │                  │        KALB3EEQWNWCN7OUIWWVWWCG2/ 
+│                        │      │                  ├ [37] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/D2BBIDR
+│                        │      │                  │        2ZMB3X5BC7SR4SLQMHRMVPY6L 
+│                        │      │                  ├ [38] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/D2BBIDR
+│                        │      │                  │        2ZMB3X5BC7SR4SLQMHRMVPY6L/ 
+│                        │      │                  ├ [39] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/ECRC75B
+│                        │      │                  │        QJP6FJN2L7KCKYZW4DSBD7QSD 
+│                        │      │                  ├ [40] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/ECRC75B
+│                        │      │                  │        QJP6FJN2L7KCKYZW4DSBD7QSD/ 
+│                        │      │                  ├ [41] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/FTMJ3NJ
+│                        │      │                  │        IDAZFWJQQSP3L22MUFJ3UP2PT 
+│                        │      │                  ├ [42] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/FTMJ3NJ
+│                        │      │                  │        IDAZFWJQQSP3L22MUFJ3UP2PT/ 
+│                        │      │                  ├ [43] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/GSY7SXF
+│                        │      │                  │        FTPZFWDM6XELSDSHZLVW3AHK7 
+│                        │      │                  ├ [44] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/GSY7SXF
+│                        │      │                  │        FTPZFWDM6XELSDSHZLVW3AHK7/ 
+│                        │      │                  ├ [45] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/HZQIELE
+│                        │      │                  │        IRSZUYTFFH5KTH2YJ4IIQG2KE 
+│                        │      │                  ├ [46] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/HZQIELE
+│                        │      │                  │        IRSZUYTFFH5KTH2YJ4IIQG2KE/ 
+│                        │      │                  ├ [47] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/IPWCNYB
+│                        │      │                  │        5PQ5PCVZ4NJT6G56ZYFZ5QBU6 
+│                        │      │                  ├ [48] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/IPWCNYB
+│                        │      │                  │        5PQ5PCVZ4NJT6G56ZYFZ5QBU6/ 
+│                        │      │                  ├ [49] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/KEOTKBU
+│                        │      │                  │        PZXHE3F352JBYNTSNRXYLWD6P 
+│                        │      │                  ├ [50] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/KEOTKBU
+│                        │      │                  │        PZXHE3F352JBYNTSNRXYLWD6P/ 
+│                        │      │                  ├ [51] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/KSEGD2I
+│                        │      │                  │        WKNUO3DWY4KQGUQM5BISRWHQE 
+│                        │      │                  ├ [52] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/KSEGD2I
+│                        │      │                  │        WKNUO3DWY4KQGUQM5BISRWHQE/ 
+│                        │      │                  ├ [53] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/L5E5JSJ
+│                        │      │                  │        BZLYXOTZWXHJKRVCIXIHVWKJ6 
+│                        │      │                  ├ [54] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/L5E5JSJ
+│                        │      │                  │        BZLYXOTZWXHJKRVCIXIHVWKJ6/ 
+│                        │      │                  ├ [55] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/MZQYOOK
+│                        │      │                  │        HQDQ57LV2IAG6NRFOVXKHJJ3Z 
+│                        │      │                  ├ [56] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/MZQYOOK
+│                        │      │                  │        HQDQ57LV2IAG6NRFOVXKHJJ3Z/ 
+│                        │      │                  ├ [57] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/NG7IMPL
+│                        │      │                  │        55MVWU3LCI4JQJT3K2U5CHDV7 
+│                        │      │                  ├ [58] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/NG7IMPL
+│                        │      │                  │        55MVWU3LCI4JQJT3K2U5CHDV7/ 
+│                        │      │                  ├ [59] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/ODBY7RV
+│                        │      │                  │        MGZCBSTWF2OZGIZS57FNFUL67 
+│                        │      │                  ├ [60] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/ODBY7RV
+│                        │      │                  │        MGZCBSTWF2OZGIZS57FNFUL67/ 
+│                        │      │                  ├ [61] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/OXGWPQO
+│                        │      │                  │        J3JNDW2XIYKIVJ7N7QUIFNM2Q 
+│                        │      │                  ├ [62] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/OXGWPQO
+│                        │      │                  │        J3JNDW2XIYKIVJ7N7QUIFNM2Q/ 
+│                        │      │                  ├ [63] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/PJCUNGI
+│                        │      │                  │        QDUMZ4Z6HWVYIMR66A35F5S74 
+│                        │      │                  ├ [64] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/PJCUNGI
+│                        │      │                  │        QDUMZ4Z6HWVYIMR66A35F5S74/ 
+│                        │      │                  ├ [65] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/QF5QSYA
+│                        │      │                  │        OPDOWLY6DUHID56Q4HQFYB45I 
+│                        │      │                  ├ [66] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/QF5QSYA
+│                        │      │                  │        OPDOWLY6DUHID56Q4HQFYB45I/ 
+│                        │      │                  ├ [67] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/QXOU2JZ
+│                        │      │                  │        UBEBP7GBKAYIJRPRBZSJCD7ST 
+│                        │      │                  ├ [68] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/QXOU2JZ
+│                        │      │                  │        UBEBP7GBKAYIJRPRBZSJCD7ST/ 
+│                        │      │                  ├ [69] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/R3UETKP
+│                        │      │                  │        UB3V5JS5TLZOF3SMTGT5K5APS 
+│                        │      │                  ├ [70] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/R3UETKP
+│                        │      │                  │        UB3V5JS5TLZOF3SMTGT5K5APS/ 
+│                        │      │                  ├ [71] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/REMHVVI
+│                        │      │                  │        BDNKSRKNOTV7EQSB7CYQWOUOU 
+│                        │      │                  ├ [72] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/REMHVVI
+│                        │      │                  │        BDNKSRKNOTV7EQSB7CYQWOUOU/ 
+│                        │      │                  ├ [73] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/T7N5GV4
+│                        │      │                  │        CHH6WAGX3GFMDD3COEOVCZ4RI 
+│                        │      │                  ├ [74] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/T7N5GV4
+│                        │      │                  │        CHH6WAGX3GFMDD3COEOVCZ4RI/ 
+│                        │      │                  ├ [75] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/ULQQONM
+│                        │      │                  │        SCQSH5Z5OWFFQHCGEZ3NL4DRJ 
+│                        │      │                  ├ [76] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/ULQQONM
+│                        │      │                  │        SCQSH5Z5OWFFQHCGEZ3NL4DRJ/ 
+│                        │      │                  ├ [77] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/UTT7DG3
+│                        │      │                  │        QOF5ZNJLUGHDNLRUIN6OWZARP 
+│                        │      │                  ├ [78] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/UTT7DG3
+│                        │      │                  │        QOF5ZNJLUGHDNLRUIN6OWZARP/ 
+│                        │      │                  ├ [79] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/W2LZSWT
+│                        │      │                  │        V4NV4SNQARNXG5T6LRHP26EW2 
+│                        │      │                  ├ [80] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/W2LZSWT
+│                        │      │                  │        V4NV4SNQARNXG5T6LRHP26EW2/ 
+│                        │      │                  ├ [81] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/WCNCBYK
+│                        │      │                  │        ZXLDFGAJUB7ZP5VLC3YTHJNVH 
+│                        │      │                  ├ [82] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/WCNCBYK
+│                        │      │                  │        ZXLDFGAJUB7ZP5VLC3YTHJNVH/ 
+│                        │      │                  ├ [83] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/XFOIBB4
+│                        │      │                  │        YFICHDM7IBOP7PWXW3FX4HLL2 
+│                        │      │                  ├ [84] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/XFOIBB4
+│                        │      │                  │        YFICHDM7IBOP7PWXW3FX4HLL2/ 
+│                        │      │                  ├ [85] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/XTNLSL4
+│                        │      │                  │        4Y5FB6JWADSZH6DCV4JJAAEQY 
+│                        │      │                  ├ [86] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/XTNLSL4
+│                        │      │                  │        4Y5FB6JWADSZH6DCV4JJAAEQY/ 
+│                        │      │                  ├ [87] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/YJWHBLV
+│                        │      │                  │        ZDM5KQSDFRBFRKU5KSSOLIRQ4 
+│                        │      │                  ├ [88] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/YJWHBLV
+│                        │      │                  │        ZDM5KQSDFRBFRKU5KSSOLIRQ4/ 
+│                        │      │                  ├ [89] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/YRKEXKA
+│                        │      │                  │        NQ7BKJW2YTAMP625LJUJZLJ4P 
+│                        │      │                  ├ [90] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/YRKEXKA
+│                        │      │                  │        NQ7BKJW2YTAMP625LJUJZLJ4P/ 
+│                        │      │                  ├ [91] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/ZSVEMQV
+│                        │      │                  │        5ROY5YW5QE3I57HT3ITWG5GCV 
+│                        │      │                  ├ [92] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/ZSVEMQV
+│                        │      │                  │        5ROY5YW5QE3I57HT3ITWG5GCV/ 
+│                        │      │                  ├ [93] : https://nvd.nist.gov/vuln/detail/CVE-2023-39325 
+│                        │      │                  ├ [94] : https://pkg.go.dev/vuln/GO-2023-2102 
+│                        │      │                  ├ [95] : https://security.gentoo.org/glsa/202311-09 
+│                        │      │                  ├ [96] : https://security.netapp.com/advisory/ntap-20231110-
+│                        │      │                  │        0008 
+│                        │      │                  ├ [97] : https://security.netapp.com/advisory/ntap-20231110-
+│                        │      │                  │        0008/ 
+│                        │      │                  ├ [98] : https://ubuntu.com/security/notices/USN-6574-1 
+│                        │      │                  ├ [99] : https://ubuntu.com/security/notices/USN-7061-1 
+│                        │      │                  ├ [100]: https://ubuntu.com/security/notices/USN-7109-1 
+│                        │      │                  ├ [101]: https://www.cisa.gov/news-events/alerts/2023/10/10/
+│                        │      │                  │        http2-rapid-reset-vulnerability-cve-2023-44487 
+│                        │      │                  ╰ [102]: https://www.cve.org/CVERecord?id=CVE-2023-39325 
 │                        │      ├ PublishedDate   : 2023-10-11T22:15:09.88Z 
 │                        │      ╰ LastModifiedDate: 2024-04-28T04:15:09.877Z 
 │                        ├ [1]  ╭ VulnerabilityID : CVE-2024-45338 
@@ -7792,7 +7857,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ amazon     : 3 
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ ghsa       : 2 
@@ -8569,8 +8634,8 @@
 │                        │      ├ DataSource       ╭ ID  : govulndb 
 │                        │      │                  ├ Name: The Go Vulnerability Database 
 │                        │      │                  ╰ URL : https://pkg.go.dev/vuln/ 
-│                        │      ├ Title           : A malicious HTTP/2 client which rapidly creates requests
-│                        │      │                   and immediate ... 
+│                        │      ├ Title           : golang: net/http, x/net/http2: rapid stream resets can
+│                        │      │                   cause excessive work (CVE-2023-44487) 
 │                        │      ├ Description     : A malicious HTTP/2 client which rapidly creates requests
 │                        │      │                   and immediately resets them can cause excessive server
 │                        │      │                   resource consumption. While the total number of requests is
@@ -8601,6 +8666,7 @@
 │                        │      │                  ├ ghsa       : 3 
 │                        │      │                  ├ nvd        : 3 
 │                        │      │                  ├ oracle-oval: 2 
+│                        │      │                  ├ redhat     : 3 
 │                        │      │                  ├ rocky      : 2 
 │                        │      │                  ╰ ubuntu     : 2 
 │                        │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
@@ -8609,260 +8675,267 @@
 │                        │      │                  ├ ghsa    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
 │                        │      │                  │         │           :N/A:H 
 │                        │      │                  │         ╰ V3Score : 7.5 
-│                        │      │                  ╰ nvd     ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                        │      │                  ├ nvd     ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                        │      │                  │         │           :N/A:H 
+│                        │      │                  │         ╰ V3Score : 7.5 
+│                        │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
 │                        │      │                            │           :N/A:H 
 │                        │      │                            ╰ V3Score : 7.5 
-│                        │      ├ References       ╭ [0] : golang.org/x/net 
-│                        │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2023:5863 
-│                        │      │                  ├ [2] : https://bugzilla.redhat.com/2242803 
-│                        │      │                  ├ [3] : https://bugzilla.redhat.com/2243296 
-│                        │      │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2242803 
-│                        │      │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2243296 
-│                        │      │                  ├ [6] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                        │      │                  │       023-39325 
-│                        │      │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                        │      │                  │       023-44487 
-│                        │      │                  ├ [8] : https://errata.almalinux.org/8/ALSA-2023-5863.html 
-│                        │      │                  ├ [9] : https://errata.rockylinux.org/RLSA-2023:6077 
-│                        │      │                  ├ [10]: https://github.com/golang/go/commit/24ae2d927285c697
-│                        │      │                  │       440fdde3ad7f26028354bcf3 [golang- 1.21] 
-│                        │      │                  ├ [11]: https://github.com/golang/go/commit/e175f27f58aa7b9c
-│                        │      │                  │       d4d79607ae65d2cd5baaee68 [golang-1.20] 
-│                        │      │                  ├ [12]: https://github.com/golang/go/issues/63417 
-│                        │      │                  ├ [13]: https://go.dev/cl/534215 
-│                        │      │                  ├ [14]: https://go.dev/cl/534235 
-│                        │      │                  ├ [15]: https://go.dev/issue/63417 
-│                        │      │                  ├ [16]: https://groups.google.com/g/golang-announce/c/iNNxDT
-│                        │      │                  │       CjZvo/m/UDd7VKQuAAAJ 
-│                        │      │                  ├ [17]: https://linux.oracle.com/cve/CVE-2023-39325.html 
-│                        │      │                  ├ [18]: https://linux.oracle.com/errata/ELSA-2023-5867.html 
-│                        │      │                  ├ [19]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/3OVW5V2DM
-│                        │      │                  │       5K5IC3H7O42YDUGNJ74J35O 
-│                        │      │                  ├ [20]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/3OVW5V2DM
-│                        │      │                  │       5K5IC3H7O42YDUGNJ74J35O/ 
-│                        │      │                  ├ [21]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/3SZN67IL7
-│                        │      │                  │       HMGMNAVLOTIXLIHUDXZK4LH 
-│                        │      │                  ├ [22]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/3SZN67IL7
-│                        │      │                  │       HMGMNAVLOTIXLIHUDXZK4LH/ 
-│                        │      │                  ├ [23]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/3WJ4QVX2A
-│                        │      │                  │       MUJ2F2S27POOAHRC4K3CHU4 
-│                        │      │                  ├ [24]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/3WJ4QVX2A
-│                        │      │                  │       MUJ2F2S27POOAHRC4K3CHU4/ 
-│                        │      │                  ├ [25]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/4BUK2ZIAG
-│                        │      │                  │       CULOOYDNH25JPU6JBES5NF2 
-│                        │      │                  ├ [26]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/4BUK2ZIAG
-│                        │      │                  │       CULOOYDNH25JPU6JBES5NF2/ 
-│                        │      │                  ├ [27]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/5RSKA2II6
-│                        │      │                  │       QTD4YUKUNDVJQSRYSFC4VFR 
-│                        │      │                  ├ [28]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/5RSKA2II6
-│                        │      │                  │       QTD4YUKUNDVJQSRYSFC4VFR/ 
-│                        │      │                  ├ [29]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/AVZDNSMVD
-│                        │      │                  │       AQJ64LJC5I5U5LDM5753647 
-│                        │      │                  ├ [30]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/AVZDNSMVD
-│                        │      │                  │       AQJ64LJC5I5U5LDM5753647/ 
-│                        │      │                  ├ [31]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/CHHITS4PU
-│                        │      │                  │       OZAKFIUBQAQZC7JWXMOYE4B 
-│                        │      │                  ├ [32]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/CHHITS4PU
-│                        │      │                  │       OZAKFIUBQAQZC7JWXMOYE4B/ 
-│                        │      │                  ├ [33]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/CLB4TW7KA
-│                        │      │                  │       LB3EEQWNWCN7OUIWWVWWCG2 
-│                        │      │                  ├ [34]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/CLB4TW7KA
-│                        │      │                  │       LB3EEQWNWCN7OUIWWVWWCG2/ 
-│                        │      │                  ├ [35]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/D2BBIDR2Z
-│                        │      │                  │       MB3X5BC7SR4SLQMHRMVPY6L 
-│                        │      │                  ├ [36]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/D2BBIDR2Z
-│                        │      │                  │       MB3X5BC7SR4SLQMHRMVPY6L/ 
-│                        │      │                  ├ [37]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/ECRC75BQJ
-│                        │      │                  │       P6FJN2L7KCKYZW4DSBD7QSD 
-│                        │      │                  ├ [38]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/ECRC75BQJ
-│                        │      │                  │       P6FJN2L7KCKYZW4DSBD7QSD/ 
-│                        │      │                  ├ [39]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/FTMJ3NJID
-│                        │      │                  │       AZFWJQQSP3L22MUFJ3UP2PT 
-│                        │      │                  ├ [40]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/FTMJ3NJID
-│                        │      │                  │       AZFWJQQSP3L22MUFJ3UP2PT/ 
-│                        │      │                  ├ [41]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/GSY7SXFFT
-│                        │      │                  │       PZFWDM6XELSDSHZLVW3AHK7 
-│                        │      │                  ├ [42]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/GSY7SXFFT
-│                        │      │                  │       PZFWDM6XELSDSHZLVW3AHK7/ 
-│                        │      │                  ├ [43]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/HZQIELEIR
-│                        │      │                  │       SZUYTFFH5KTH2YJ4IIQG2KE 
-│                        │      │                  ├ [44]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/HZQIELEIR
-│                        │      │                  │       SZUYTFFH5KTH2YJ4IIQG2KE/ 
-│                        │      │                  ├ [45]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/IPWCNYB5P
-│                        │      │                  │       Q5PCVZ4NJT6G56ZYFZ5QBU6 
-│                        │      │                  ├ [46]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/IPWCNYB5P
-│                        │      │                  │       Q5PCVZ4NJT6G56ZYFZ5QBU6/ 
-│                        │      │                  ├ [47]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/KEOTKBUPZ
-│                        │      │                  │       XHE3F352JBYNTSNRXYLWD6P 
-│                        │      │                  ├ [48]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/KEOTKBUPZ
-│                        │      │                  │       XHE3F352JBYNTSNRXYLWD6P/ 
-│                        │      │                  ├ [49]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/KSEGD2IWK
-│                        │      │                  │       NUO3DWY4KQGUQM5BISRWHQE 
-│                        │      │                  ├ [50]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/KSEGD2IWK
-│                        │      │                  │       NUO3DWY4KQGUQM5BISRWHQE/ 
-│                        │      │                  ├ [51]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/L5E5JSJBZ
-│                        │      │                  │       LYXOTZWXHJKRVCIXIHVWKJ6 
-│                        │      │                  ├ [52]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/L5E5JSJBZ
-│                        │      │                  │       LYXOTZWXHJKRVCIXIHVWKJ6/ 
-│                        │      │                  ├ [53]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/MZQYOOKHQ
-│                        │      │                  │       DQ57LV2IAG6NRFOVXKHJJ3Z 
-│                        │      │                  ├ [54]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/MZQYOOKHQ
-│                        │      │                  │       DQ57LV2IAG6NRFOVXKHJJ3Z/ 
-│                        │      │                  ├ [55]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/NG7IMPL55
-│                        │      │                  │       MVWU3LCI4JQJT3K2U5CHDV7 
-│                        │      │                  ├ [56]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/NG7IMPL55
-│                        │      │                  │       MVWU3LCI4JQJT3K2U5CHDV7/ 
-│                        │      │                  ├ [57]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/ODBY7RVMG
-│                        │      │                  │       ZCBSTWF2OZGIZS57FNFUL67 
-│                        │      │                  ├ [58]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/ODBY7RVMG
-│                        │      │                  │       ZCBSTWF2OZGIZS57FNFUL67/ 
-│                        │      │                  ├ [59]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/OXGWPQOJ3
-│                        │      │                  │       JNDW2XIYKIVJ7N7QUIFNM2Q 
-│                        │      │                  ├ [60]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/OXGWPQOJ3
-│                        │      │                  │       JNDW2XIYKIVJ7N7QUIFNM2Q/ 
-│                        │      │                  ├ [61]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/PJCUNGIQD
-│                        │      │                  │       UMZ4Z6HWVYIMR66A35F5S74 
-│                        │      │                  ├ [62]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/PJCUNGIQD
-│                        │      │                  │       UMZ4Z6HWVYIMR66A35F5S74/ 
-│                        │      │                  ├ [63]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/QF5QSYAOP
-│                        │      │                  │       DOWLY6DUHID56Q4HQFYB45I 
-│                        │      │                  ├ [64]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/QF5QSYAOP
-│                        │      │                  │       DOWLY6DUHID56Q4HQFYB45I/ 
-│                        │      │                  ├ [65]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/QXOU2JZUB
-│                        │      │                  │       EBP7GBKAYIJRPRBZSJCD7ST 
-│                        │      │                  ├ [66]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/QXOU2JZUB
-│                        │      │                  │       EBP7GBKAYIJRPRBZSJCD7ST/ 
-│                        │      │                  ├ [67]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/R3UETKPUB
-│                        │      │                  │       3V5JS5TLZOF3SMTGT5K5APS 
-│                        │      │                  ├ [68]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/R3UETKPUB
-│                        │      │                  │       3V5JS5TLZOF3SMTGT5K5APS/ 
-│                        │      │                  ├ [69]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/REMHVVIBD
-│                        │      │                  │       NKSRKNOTV7EQSB7CYQWOUOU 
-│                        │      │                  ├ [70]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/REMHVVIBD
-│                        │      │                  │       NKSRKNOTV7EQSB7CYQWOUOU/ 
-│                        │      │                  ├ [71]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/T7N5GV4CH
-│                        │      │                  │       H6WAGX3GFMDD3COEOVCZ4RI 
-│                        │      │                  ├ [72]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/T7N5GV4CH
-│                        │      │                  │       H6WAGX3GFMDD3COEOVCZ4RI/ 
-│                        │      │                  ├ [73]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/ULQQONMSC
-│                        │      │                  │       QSH5Z5OWFFQHCGEZ3NL4DRJ 
-│                        │      │                  ├ [74]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/ULQQONMSC
-│                        │      │                  │       QSH5Z5OWFFQHCGEZ3NL4DRJ/ 
-│                        │      │                  ├ [75]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/UTT7DG3QO
-│                        │      │                  │       F5ZNJLUGHDNLRUIN6OWZARP 
-│                        │      │                  ├ [76]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/UTT7DG3QO
-│                        │      │                  │       F5ZNJLUGHDNLRUIN6OWZARP/ 
-│                        │      │                  ├ [77]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/W2LZSWTV4
-│                        │      │                  │       NV4SNQARNXG5T6LRHP26EW2 
-│                        │      │                  ├ [78]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/W2LZSWTV4
-│                        │      │                  │       NV4SNQARNXG5T6LRHP26EW2/ 
-│                        │      │                  ├ [79]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/WCNCBYKZX
-│                        │      │                  │       LDFGAJUB7ZP5VLC3YTHJNVH 
-│                        │      │                  ├ [80]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/WCNCBYKZX
-│                        │      │                  │       LDFGAJUB7ZP5VLC3YTHJNVH/ 
-│                        │      │                  ├ [81]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/XFOIBB4YF
-│                        │      │                  │       ICHDM7IBOP7PWXW3FX4HLL2 
-│                        │      │                  ├ [82]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/XFOIBB4YF
-│                        │      │                  │       ICHDM7IBOP7PWXW3FX4HLL2/ 
-│                        │      │                  ├ [83]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/XTNLSL44Y
-│                        │      │                  │       5FB6JWADSZH6DCV4JJAAEQY 
-│                        │      │                  ├ [84]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/XTNLSL44Y
-│                        │      │                  │       5FB6JWADSZH6DCV4JJAAEQY/ 
-│                        │      │                  ├ [85]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/YJWHBLVZD
-│                        │      │                  │       M5KQSDFRBFRKU5KSSOLIRQ4 
-│                        │      │                  ├ [86]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/YJWHBLVZD
-│                        │      │                  │       M5KQSDFRBFRKU5KSSOLIRQ4/ 
-│                        │      │                  ├ [87]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/YRKEXKANQ
-│                        │      │                  │       7BKJW2YTAMP625LJUJZLJ4P 
-│                        │      │                  ├ [88]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/YRKEXKANQ
-│                        │      │                  │       7BKJW2YTAMP625LJUJZLJ4P/ 
-│                        │      │                  ├ [89]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/ZSVEMQV5R
-│                        │      │                  │       OY5YW5QE3I57HT3ITWG5GCV 
-│                        │      │                  ├ [90]: https://lists.fedoraproject.org/archives/list/packag
-│                        │      │                  │       e-announce@lists.fedoraproject.org/message/ZSVEMQV5R
-│                        │      │                  │       OY5YW5QE3I57HT3ITWG5GCV/ 
-│                        │      │                  ├ [91]: https://nvd.nist.gov/vuln/detail/CVE-2023-39325 
-│                        │      │                  ├ [92]: https://pkg.go.dev/vuln/GO-2023-2102 
-│                        │      │                  ├ [93]: https://security.gentoo.org/glsa/202311-09 
-│                        │      │                  ├ [94]: https://security.netapp.com/advisory/ntap-20231110-0
-│                        │      │                  │       008 
-│                        │      │                  ├ [95]: https://security.netapp.com/advisory/ntap-20231110-0
-│                        │      │                  │       008/ 
-│                        │      │                  ├ [96]: https://ubuntu.com/security/notices/USN-6574-1 
-│                        │      │                  ├ [97]: https://ubuntu.com/security/notices/USN-7061-1 
-│                        │      │                  ├ [98]: https://ubuntu.com/security/notices/USN-7109-1 
-│                        │      │                  ╰ [99]: https://www.cve.org/CVERecord?id=CVE-2023-39325 
+│                        │      ├ References       ╭ [0]  : golang.org/x/net 
+│                        │      │                  ├ [1]  : https://access.redhat.com/errata/RHSA-2023:5863 
+│                        │      │                  ├ [2]  : https://access.redhat.com/security/cve/CVE-2023-39325 
+│                        │      │                  ├ [3]  : https://access.redhat.com/security/cve/CVE-2023-44487 
+│                        │      │                  ├ [4]  : https://bugzilla.redhat.com/2242803 
+│                        │      │                  ├ [5]  : https://bugzilla.redhat.com/2243296 
+│                        │      │                  ├ [6]  : https://bugzilla.redhat.com/show_bug.cgi?id=2242803 
+│                        │      │                  ├ [7]  : https://bugzilla.redhat.com/show_bug.cgi?id=2243296 
+│                        │      │                  ├ [8]  : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                        │      │                  │        2023-39325 
+│                        │      │                  ├ [9]  : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                        │      │                  │        2023-44487 
+│                        │      │                  ├ [10] : https://errata.almalinux.org/8/ALSA-2023-5863.html 
+│                        │      │                  ├ [11] : https://errata.rockylinux.org/RLSA-2023:6077 
+│                        │      │                  ├ [12] : https://github.com/golang/go/commit/24ae2d927285c69
+│                        │      │                  │        7440fdde3ad7f26028354bcf3 [golang- 1.21] 
+│                        │      │                  ├ [13] : https://github.com/golang/go/commit/e175f27f58aa7b9
+│                        │      │                  │        cd4d79607ae65d2cd5baaee68 [golang-1.20] 
+│                        │      │                  ├ [14] : https://github.com/golang/go/issues/63417 
+│                        │      │                  ├ [15] : https://go.dev/cl/534215 
+│                        │      │                  ├ [16] : https://go.dev/cl/534235 
+│                        │      │                  ├ [17] : https://go.dev/issue/63417 
+│                        │      │                  ├ [18] : https://groups.google.com/g/golang-announce/c/iNNxD
+│                        │      │                  │        TCjZvo/m/UDd7VKQuAAAJ 
+│                        │      │                  ├ [19] : https://linux.oracle.com/cve/CVE-2023-39325.html 
+│                        │      │                  ├ [20] : https://linux.oracle.com/errata/ELSA-2023-5867.html 
+│                        │      │                  ├ [21] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/3OVW5V2
+│                        │      │                  │        DM5K5IC3H7O42YDUGNJ74J35O 
+│                        │      │                  ├ [22] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/3OVW5V2
+│                        │      │                  │        DM5K5IC3H7O42YDUGNJ74J35O/ 
+│                        │      │                  ├ [23] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/3SZN67I
+│                        │      │                  │        L7HMGMNAVLOTIXLIHUDXZK4LH 
+│                        │      │                  ├ [24] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/3SZN67I
+│                        │      │                  │        L7HMGMNAVLOTIXLIHUDXZK4LH/ 
+│                        │      │                  ├ [25] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/3WJ4QVX
+│                        │      │                  │        2AMUJ2F2S27POOAHRC4K3CHU4 
+│                        │      │                  ├ [26] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/3WJ4QVX
+│                        │      │                  │        2AMUJ2F2S27POOAHRC4K3CHU4/ 
+│                        │      │                  ├ [27] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/4BUK2ZI
+│                        │      │                  │        AGCULOOYDNH25JPU6JBES5NF2 
+│                        │      │                  ├ [28] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/4BUK2ZI
+│                        │      │                  │        AGCULOOYDNH25JPU6JBES5NF2/ 
+│                        │      │                  ├ [29] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/5RSKA2I
+│                        │      │                  │        I6QTD4YUKUNDVJQSRYSFC4VFR 
+│                        │      │                  ├ [30] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/5RSKA2I
+│                        │      │                  │        I6QTD4YUKUNDVJQSRYSFC4VFR/ 
+│                        │      │                  ├ [31] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/AVZDNSM
+│                        │      │                  │        VDAQJ64LJC5I5U5LDM5753647 
+│                        │      │                  ├ [32] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/AVZDNSM
+│                        │      │                  │        VDAQJ64LJC5I5U5LDM5753647/ 
+│                        │      │                  ├ [33] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/CHHITS4
+│                        │      │                  │        PUOZAKFIUBQAQZC7JWXMOYE4B 
+│                        │      │                  ├ [34] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/CHHITS4
+│                        │      │                  │        PUOZAKFIUBQAQZC7JWXMOYE4B/ 
+│                        │      │                  ├ [35] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/CLB4TW7
+│                        │      │                  │        KALB3EEQWNWCN7OUIWWVWWCG2 
+│                        │      │                  ├ [36] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/CLB4TW7
+│                        │      │                  │        KALB3EEQWNWCN7OUIWWVWWCG2/ 
+│                        │      │                  ├ [37] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/D2BBIDR
+│                        │      │                  │        2ZMB3X5BC7SR4SLQMHRMVPY6L 
+│                        │      │                  ├ [38] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/D2BBIDR
+│                        │      │                  │        2ZMB3X5BC7SR4SLQMHRMVPY6L/ 
+│                        │      │                  ├ [39] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/ECRC75B
+│                        │      │                  │        QJP6FJN2L7KCKYZW4DSBD7QSD 
+│                        │      │                  ├ [40] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/ECRC75B
+│                        │      │                  │        QJP6FJN2L7KCKYZW4DSBD7QSD/ 
+│                        │      │                  ├ [41] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/FTMJ3NJ
+│                        │      │                  │        IDAZFWJQQSP3L22MUFJ3UP2PT 
+│                        │      │                  ├ [42] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/FTMJ3NJ
+│                        │      │                  │        IDAZFWJQQSP3L22MUFJ3UP2PT/ 
+│                        │      │                  ├ [43] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/GSY7SXF
+│                        │      │                  │        FTPZFWDM6XELSDSHZLVW3AHK7 
+│                        │      │                  ├ [44] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/GSY7SXF
+│                        │      │                  │        FTPZFWDM6XELSDSHZLVW3AHK7/ 
+│                        │      │                  ├ [45] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/HZQIELE
+│                        │      │                  │        IRSZUYTFFH5KTH2YJ4IIQG2KE 
+│                        │      │                  ├ [46] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/HZQIELE
+│                        │      │                  │        IRSZUYTFFH5KTH2YJ4IIQG2KE/ 
+│                        │      │                  ├ [47] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/IPWCNYB
+│                        │      │                  │        5PQ5PCVZ4NJT6G56ZYFZ5QBU6 
+│                        │      │                  ├ [48] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/IPWCNYB
+│                        │      │                  │        5PQ5PCVZ4NJT6G56ZYFZ5QBU6/ 
+│                        │      │                  ├ [49] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/KEOTKBU
+│                        │      │                  │        PZXHE3F352JBYNTSNRXYLWD6P 
+│                        │      │                  ├ [50] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/KEOTKBU
+│                        │      │                  │        PZXHE3F352JBYNTSNRXYLWD6P/ 
+│                        │      │                  ├ [51] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/KSEGD2I
+│                        │      │                  │        WKNUO3DWY4KQGUQM5BISRWHQE 
+│                        │      │                  ├ [52] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/KSEGD2I
+│                        │      │                  │        WKNUO3DWY4KQGUQM5BISRWHQE/ 
+│                        │      │                  ├ [53] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/L5E5JSJ
+│                        │      │                  │        BZLYXOTZWXHJKRVCIXIHVWKJ6 
+│                        │      │                  ├ [54] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/L5E5JSJ
+│                        │      │                  │        BZLYXOTZWXHJKRVCIXIHVWKJ6/ 
+│                        │      │                  ├ [55] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/MZQYOOK
+│                        │      │                  │        HQDQ57LV2IAG6NRFOVXKHJJ3Z 
+│                        │      │                  ├ [56] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/MZQYOOK
+│                        │      │                  │        HQDQ57LV2IAG6NRFOVXKHJJ3Z/ 
+│                        │      │                  ├ [57] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/NG7IMPL
+│                        │      │                  │        55MVWU3LCI4JQJT3K2U5CHDV7 
+│                        │      │                  ├ [58] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/NG7IMPL
+│                        │      │                  │        55MVWU3LCI4JQJT3K2U5CHDV7/ 
+│                        │      │                  ├ [59] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/ODBY7RV
+│                        │      │                  │        MGZCBSTWF2OZGIZS57FNFUL67 
+│                        │      │                  ├ [60] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/ODBY7RV
+│                        │      │                  │        MGZCBSTWF2OZGIZS57FNFUL67/ 
+│                        │      │                  ├ [61] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/OXGWPQO
+│                        │      │                  │        J3JNDW2XIYKIVJ7N7QUIFNM2Q 
+│                        │      │                  ├ [62] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/OXGWPQO
+│                        │      │                  │        J3JNDW2XIYKIVJ7N7QUIFNM2Q/ 
+│                        │      │                  ├ [63] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/PJCUNGI
+│                        │      │                  │        QDUMZ4Z6HWVYIMR66A35F5S74 
+│                        │      │                  ├ [64] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/PJCUNGI
+│                        │      │                  │        QDUMZ4Z6HWVYIMR66A35F5S74/ 
+│                        │      │                  ├ [65] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/QF5QSYA
+│                        │      │                  │        OPDOWLY6DUHID56Q4HQFYB45I 
+│                        │      │                  ├ [66] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/QF5QSYA
+│                        │      │                  │        OPDOWLY6DUHID56Q4HQFYB45I/ 
+│                        │      │                  ├ [67] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/QXOU2JZ
+│                        │      │                  │        UBEBP7GBKAYIJRPRBZSJCD7ST 
+│                        │      │                  ├ [68] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/QXOU2JZ
+│                        │      │                  │        UBEBP7GBKAYIJRPRBZSJCD7ST/ 
+│                        │      │                  ├ [69] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/R3UETKP
+│                        │      │                  │        UB3V5JS5TLZOF3SMTGT5K5APS 
+│                        │      │                  ├ [70] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/R3UETKP
+│                        │      │                  │        UB3V5JS5TLZOF3SMTGT5K5APS/ 
+│                        │      │                  ├ [71] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/REMHVVI
+│                        │      │                  │        BDNKSRKNOTV7EQSB7CYQWOUOU 
+│                        │      │                  ├ [72] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/REMHVVI
+│                        │      │                  │        BDNKSRKNOTV7EQSB7CYQWOUOU/ 
+│                        │      │                  ├ [73] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/T7N5GV4
+│                        │      │                  │        CHH6WAGX3GFMDD3COEOVCZ4RI 
+│                        │      │                  ├ [74] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/T7N5GV4
+│                        │      │                  │        CHH6WAGX3GFMDD3COEOVCZ4RI/ 
+│                        │      │                  ├ [75] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/ULQQONM
+│                        │      │                  │        SCQSH5Z5OWFFQHCGEZ3NL4DRJ 
+│                        │      │                  ├ [76] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/ULQQONM
+│                        │      │                  │        SCQSH5Z5OWFFQHCGEZ3NL4DRJ/ 
+│                        │      │                  ├ [77] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/UTT7DG3
+│                        │      │                  │        QOF5ZNJLUGHDNLRUIN6OWZARP 
+│                        │      │                  ├ [78] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/UTT7DG3
+│                        │      │                  │        QOF5ZNJLUGHDNLRUIN6OWZARP/ 
+│                        │      │                  ├ [79] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/W2LZSWT
+│                        │      │                  │        V4NV4SNQARNXG5T6LRHP26EW2 
+│                        │      │                  ├ [80] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/W2LZSWT
+│                        │      │                  │        V4NV4SNQARNXG5T6LRHP26EW2/ 
+│                        │      │                  ├ [81] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/WCNCBYK
+│                        │      │                  │        ZXLDFGAJUB7ZP5VLC3YTHJNVH 
+│                        │      │                  ├ [82] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/WCNCBYK
+│                        │      │                  │        ZXLDFGAJUB7ZP5VLC3YTHJNVH/ 
+│                        │      │                  ├ [83] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/XFOIBB4
+│                        │      │                  │        YFICHDM7IBOP7PWXW3FX4HLL2 
+│                        │      │                  ├ [84] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/XFOIBB4
+│                        │      │                  │        YFICHDM7IBOP7PWXW3FX4HLL2/ 
+│                        │      │                  ├ [85] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/XTNLSL4
+│                        │      │                  │        4Y5FB6JWADSZH6DCV4JJAAEQY 
+│                        │      │                  ├ [86] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/XTNLSL4
+│                        │      │                  │        4Y5FB6JWADSZH6DCV4JJAAEQY/ 
+│                        │      │                  ├ [87] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/YJWHBLV
+│                        │      │                  │        ZDM5KQSDFRBFRKU5KSSOLIRQ4 
+│                        │      │                  ├ [88] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/YJWHBLV
+│                        │      │                  │        ZDM5KQSDFRBFRKU5KSSOLIRQ4/ 
+│                        │      │                  ├ [89] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/YRKEXKA
+│                        │      │                  │        NQ7BKJW2YTAMP625LJUJZLJ4P 
+│                        │      │                  ├ [90] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/YRKEXKA
+│                        │      │                  │        NQ7BKJW2YTAMP625LJUJZLJ4P/ 
+│                        │      │                  ├ [91] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/ZSVEMQV
+│                        │      │                  │        5ROY5YW5QE3I57HT3ITWG5GCV 
+│                        │      │                  ├ [92] : https://lists.fedoraproject.org/archives/list/packa
+│                        │      │                  │        ge-announce@lists.fedoraproject.org/message/ZSVEMQV
+│                        │      │                  │        5ROY5YW5QE3I57HT3ITWG5GCV/ 
+│                        │      │                  ├ [93] : https://nvd.nist.gov/vuln/detail/CVE-2023-39325 
+│                        │      │                  ├ [94] : https://pkg.go.dev/vuln/GO-2023-2102 
+│                        │      │                  ├ [95] : https://security.gentoo.org/glsa/202311-09 
+│                        │      │                  ├ [96] : https://security.netapp.com/advisory/ntap-20231110-
+│                        │      │                  │        0008 
+│                        │      │                  ├ [97] : https://security.netapp.com/advisory/ntap-20231110-
+│                        │      │                  │        0008/ 
+│                        │      │                  ├ [98] : https://ubuntu.com/security/notices/USN-6574-1 
+│                        │      │                  ├ [99] : https://ubuntu.com/security/notices/USN-7061-1 
+│                        │      │                  ├ [100]: https://ubuntu.com/security/notices/USN-7109-1 
+│                        │      │                  ├ [101]: https://www.cisa.gov/news-events/alerts/2023/10/10/
+│                        │      │                  │        http2-rapid-reset-vulnerability-cve-2023-44487 
+│                        │      │                  ╰ [102]: https://www.cve.org/CVERecord?id=CVE-2023-39325 
 │                        │      ├ PublishedDate   : 2023-10-11T22:15:09.88Z 
 │                        │      ╰ LastModifiedDate: 2024-04-28T04:15:09.877Z 
 │                        ├ [7]  ╭ VulnerabilityID : CVE-2023-45283 
@@ -9278,7 +9351,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ amazon     : 3 
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
@@ -9361,7 +9434,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ amazon     : 3 
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
@@ -9432,8 +9505,8 @@
 │                        │      ├ DataSource       ╭ ID  : govulndb 
 │                        │      │                  ├ Name: The Go Vulnerability Database 
 │                        │      │                  ╰ URL : https://pkg.go.dev/vuln/ 
-│                        │      ├ Title           : A malicious HTTP sender can use chunk extensions to cause a
-│                        │      │                    receiver r ... 
+│                        │      ├ Title           : golang: net/http/internal: Denial of Service (DoS) via
+│                        │      │                   Resource Consumption via HTTP requests 
 │                        │      ├ Description     : A malicious HTTP sender can use chunk extensions to cause a
 │                        │      │                    receiver reading from a request or response body to read
 │                        │      │                   many more bytes from the network than are in the body. A
@@ -9456,34 +9529,39 @@
 │                        │      │                  ├ nvd        : 2 
 │                        │      │                  ├ oracle-oval: 2 
 │                        │      │                  ├ photon     : 2 
+│                        │      │                  ├ redhat     : 2 
 │                        │      │                  ╰ ubuntu     : 2 
 │                        │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I
 │                        │      │                  │         │           :N/A:N 
 │                        │      │                  │         ╰ V3Score : 5.3 
-│                        │      │                  ╰ nvd     ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I
+│                        │      │                  ├ nvd     ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I
+│                        │      │                  │         │           :N/A:N 
+│                        │      │                  │         ╰ V3Score : 5.3 
+│                        │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I
 │                        │      │                            │           :N/A:N 
 │                        │      │                            ╰ V3Score : 5.3 
 │                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:0887 
-│                        │      │                  ├ [1] : https://bugzilla.redhat.com/2253323 
-│                        │      │                  ├ [2] : https://bugzilla.redhat.com/2253330 
-│                        │      │                  ├ [3] : https://errata.almalinux.org/8/ALSA-2024-0887.html 
-│                        │      │                  ├ [4] : https://github.com/golang/go/commit/6446af942e2e2b16
+│                        │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023-39326 
+│                        │      │                  ├ [2] : https://bugzilla.redhat.com/2253323 
+│                        │      │                  ├ [3] : https://bugzilla.redhat.com/2253330 
+│                        │      │                  ├ [4] : https://errata.almalinux.org/8/ALSA-2024-0887.html 
+│                        │      │                  ├ [5] : https://github.com/golang/go/commit/6446af942e2e2b16
 │                        │      │                  │       1c4ec1b60d9703a2b55dc4dd (go1.20.12) 
-│                        │      │                  ├ [5] : https://github.com/golang/go/commit/ec8c526e4be720e9
+│                        │      │                  ├ [6] : https://github.com/golang/go/commit/ec8c526e4be720e9
 │                        │      │                  │       4b98ca509e6364f0efaf28f7 (go1.21.5) 
-│                        │      │                  ├ [6] : https://go.dev/cl/547335 
-│                        │      │                  ├ [7] : https://go.dev/issue/64433 
-│                        │      │                  ├ [8] : https://groups.google.com/g/golang-dev/c/6ypN5EjibjM
+│                        │      │                  ├ [7] : https://go.dev/cl/547335 
+│                        │      │                  ├ [8] : https://go.dev/issue/64433 
+│                        │      │                  ├ [9] : https://groups.google.com/g/golang-dev/c/6ypN5EjibjM
 │                        │      │                  │       /m/KmLVYH_uAgAJ 
-│                        │      │                  ├ [9] : https://linux.oracle.com/cve/CVE-2023-39326.html 
-│                        │      │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2024-2988.html 
-│                        │      │                  ├ [11]: https://lists.fedoraproject.org/archives/list/packag
+│                        │      │                  ├ [10]: https://linux.oracle.com/cve/CVE-2023-39326.html 
+│                        │      │                  ├ [11]: https://linux.oracle.com/errata/ELSA-2024-2988.html 
+│                        │      │                  ├ [12]: https://lists.fedoraproject.org/archives/list/packag
 │                        │      │                  │       e-announce@lists.fedoraproject.org/message/UIU6HOGV6
 │                        │      │                  │       RRIKWM57LOXQA75BGZSIH6G/ 
-│                        │      │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2023-39326 
-│                        │      │                  ├ [13]: https://pkg.go.dev/vuln/GO-2023-2382 
-│                        │      │                  ├ [14]: https://ubuntu.com/security/notices/USN-6574-1 
-│                        │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2023-39326 
+│                        │      │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2023-39326 
+│                        │      │                  ├ [14]: https://pkg.go.dev/vuln/GO-2023-2382 
+│                        │      │                  ├ [15]: https://ubuntu.com/security/notices/USN-6574-1 
+│                        │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2023-39326 
 │                        │      ├ PublishedDate   : 2023-12-06T17:15:07.147Z 
 │                        │      ╰ LastModifiedDate: 2024-01-20T04:15:07.89Z 
 │                        ├ [15] ╭ VulnerabilityID : CVE-2023-45284 
@@ -10793,46 +10871,7 @@
 │                                                 │      7a7786754d1fe05264c3021eb 
 │                                                 ╰ [2]: https://github.com/grpc/grpc-go/security/advisories/GH
 │                                                        SA-xr7q-jx4m-x55m 
-├ [10] ╭ Target : /etc/ssh/ssh_host_dsa_key 
-│      ├ Class  : secret 
-│      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
-│                      ├ Category : AsymmetricPrivateKey 
-│                      ├ Severity : HIGH 
-│                      ├ Title    : Asymmetric Private Key 
-│                      ├ StartLine: 1 
-│                      ├ EndLine  : 1 
-│                      ├ Code      ─ Lines ╭ [0] ╭ Number     : 1 
-│                      │                   │     ├ Content    : BEGIN OPENSSH PRIVATE
-│                      │                   │     │              KEY-----***************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ****************-----END OPENSSH PRI 
-│                      │                   │     ├ IsCause    : true 
-│                      │                   │     ├ Annotation :  
-│                      │                   │     ├ Truncated  : false 
-│                      │                   │     ├ Highlighted: BEGIN OPENSSH PRIVATE
-│                      │                   │     │              KEY-----***************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ****************-----END OPENSSH PRI 
-│                      │                   │     ├ FirstCause : true 
-│                      │                   │     ╰ LastCause  : true 
-│                      │                   ╰ [1] ╭ Number    : 2 
-│                      │                         ├ Content   :  
-│                      │                         ├ IsCause   : false 
-│                      │                         ├ Annotation:  
-│                      │                         ├ Truncated : false 
-│                      │                         ├ FirstCause: false 
-│                      │                         ╰ LastCause : false 
-│                      ├ Match    : BEGIN OPENSSH PRIVATE
-│                      │            KEY-----*******************************************************************
-│                      │            ***************************************************************************
-│                      │            *********************************************************-----END OPENSSH
-│                      │            PRI 
-│                      ╰ Layer     ╭ Digest   : sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc9
-│                                  │            6c087f46 
-│                                  ├ DiffID   : sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef
-│                                  │            0b2bb846 
-│                                  ╰ CreatedBy: COPY / / # buildkit 
-├ [11] ╭ Target : /etc/ssh/ssh_host_ecdsa_key 
+├ [10] ╭ Target : /etc/ssh/ssh_host_ecdsa_key 
 │      ├ Class  : secret 
 │      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
 │                      ├ Category : AsymmetricPrivateKey 
@@ -10872,7 +10911,7 @@
 │                                  ├ DiffID   : sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef
 │                                  │            0b2bb846 
 │                                  ╰ CreatedBy: COPY / / # buildkit 
-├ [12] ╭ Target : /etc/ssh/ssh_host_ed25519_key 
+├ [11] ╭ Target : /etc/ssh/ssh_host_ed25519_key 
 │      ├ Class  : secret 
 │      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
 │                      ├ Category : AsymmetricPrivateKey 
@@ -10910,7 +10949,46 @@
 │                                  ├ DiffID   : sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef
 │                                  │            0b2bb846 
 │                                  ╰ CreatedBy: COPY / / # buildkit 
-╰ [13] ╭ Target : /etc/ssh/ssh_host_rsa_key 
+├ [12] ╭ Target : /etc/ssh/ssh_host_rsa_key 
+│      ├ Class  : secret 
+│      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
+│                      ├ Category : AsymmetricPrivateKey 
+│                      ├ Severity : HIGH 
+│                      ├ Title    : Asymmetric Private Key 
+│                      ├ StartLine: 1 
+│                      ├ EndLine  : 1 
+│                      ├ Code      ─ Lines ╭ [0] ╭ Number     : 1 
+│                      │                   │     ├ Content    : BEGIN OPENSSH PRIVATE
+│                      │                   │     │              KEY-----***************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********-----END OPENSSH PRI 
+│                      │                   │     ├ IsCause    : true 
+│                      │                   │     ├ Annotation :  
+│                      │                   │     ├ Truncated  : false 
+│                      │                   │     ├ Highlighted: BEGIN OPENSSH PRIVATE
+│                      │                   │     │              KEY-----***************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********-----END OPENSSH PRI 
+│                      │                   │     ├ FirstCause : true 
+│                      │                   │     ╰ LastCause  : true 
+│                      │                   ╰ [1] ╭ Number    : 2 
+│                      │                         ├ Content   :  
+│                      │                         ├ IsCause   : false 
+│                      │                         ├ Annotation:  
+│                      │                         ├ Truncated : false 
+│                      │                         ├ FirstCause: false 
+│                      │                         ╰ LastCause : false 
+│                      ├ Match    : BEGIN OPENSSH PRIVATE
+│                      │            KEY-----*******************************************************************
+│                      │            ***************************************************************************
+│                      │            **************************************************************************-
+│                      │            ----END OPENSSH PRI 
+│                      ╰ Layer     ╭ Digest   : sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc9
+│                                  │            6c087f46 
+│                                  ├ DiffID   : sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef
+│                                  │            0b2bb846 
+│                                  ╰ CreatedBy: COPY / / # buildkit 
+╰ [13] ╭ Target : /etc/ssh/ssh_host_dsa_key 
        ├ Class  : secret 
        ╰ Secrets ─ [0] ╭ RuleID   : private-key 
                        ├ Category : AsymmetricPrivateKey 
@@ -10922,14 +11000,14 @@
                        │                   │     ├ Content    : BEGIN OPENSSH PRIVATE
                        │                   │     │              KEY-----***************************************
                        │                   │     │              ***********************************************
-                       │                   │     │              ***********-----END OPENSSH PRI 
+                       │                   │     │              ****************-----END OPENSSH PRI 
                        │                   │     ├ IsCause    : true 
                        │                   │     ├ Annotation :  
                        │                   │     ├ Truncated  : false 
                        │                   │     ├ Highlighted: BEGIN OPENSSH PRIVATE
                        │                   │     │              KEY-----***************************************
                        │                   │     │              ***********************************************
-                       │                   │     │              ***********-----END OPENSSH PRI 
+                       │                   │     │              ****************-----END OPENSSH PRI 
                        │                   │     ├ FirstCause : true 
                        │                   │     ╰ LastCause  : true 
                        │                   ╰ [1] ╭ Number    : 2 
@@ -10942,8 +11020,8 @@
                        ├ Match    : BEGIN OPENSSH PRIVATE
                        │            KEY-----*******************************************************************
                        │            ***************************************************************************
-                       │            **************************************************************************-
-                       │            ----END OPENSSH PRI 
+                       │            *********************************************************-----END OPENSSH
+                       │            PRI 
                        ╰ Layer     ╭ Digest   : sha256:e425dfc3ec65d1aa54541c69298b015f552aadf16e22428f7fccbdc9
                                    │            6c087f46 
                                    ├ DiffID   : sha256:338c71639c1761153ee4c53626b5296aa675ab43e1d8ec29e53f06ef
