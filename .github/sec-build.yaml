@@ -2524,7 +2524,8 @@
       PURL: pkg:deb/ubuntu/libpython3.10@3.10.12-1~22.04.7?arch=amd64&distro=ubuntu-22.04
       UID: be54d4919bf2d618
     InstalledVersion: 3.10.12-1~22.04.7
-    Status: affected
+    FixedVersion: 3.10.12-1~22.04.8
+    Status: fixed
     Layer:
       Digest: sha256:f93642bd0eaf8a99c59ed6084ffb9b0d1719e7ec57010387733e911dd9badaa2
       DiffID: sha256:f7860b3cbe3821e3f1f42b20d35b6570a2ef9cfa1ce8941fbf2dcdf8d56fae79
@@ -2575,6 +2576,7 @@
     - https://linux.oracle.com/errata/ELSA-2024-10983.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/XPWB6XVZ5G5KGEI63M4AWLIEUF5BPH4T/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-11168
+    - https://ubuntu.com/security/notices/USN-7218-1
     - https://www.cve.org/CVERecord?id=CVE-2024-11168
     PublishedDate: '2024-11-12T22:15:14.92Z'
     LastModifiedDate: '2025-01-06T18:15:17.9Z'
@@ -2585,7 +2587,8 @@
       PURL: pkg:deb/ubuntu/libpython3.10-minimal@3.10.12-1~22.04.7?arch=amd64&distro=ubuntu-22.04
       UID: f113c3f58fb49533
     InstalledVersion: 3.10.12-1~22.04.7
-    Status: affected
+    FixedVersion: 3.10.12-1~22.04.8
+    Status: fixed
     Layer:
       Digest: sha256:f93642bd0eaf8a99c59ed6084ffb9b0d1719e7ec57010387733e911dd9badaa2
       DiffID: sha256:f7860b3cbe3821e3f1f42b20d35b6570a2ef9cfa1ce8941fbf2dcdf8d56fae79
@@ -2636,6 +2639,7 @@
     - https://linux.oracle.com/errata/ELSA-2024-10983.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/XPWB6XVZ5G5KGEI63M4AWLIEUF5BPH4T/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-11168
+    - https://ubuntu.com/security/notices/USN-7218-1
     - https://www.cve.org/CVERecord?id=CVE-2024-11168
     PublishedDate: '2024-11-12T22:15:14.92Z'
     LastModifiedDate: '2025-01-06T18:15:17.9Z'
@@ -2646,7 +2650,8 @@
       PURL: pkg:deb/ubuntu/libpython3.10-stdlib@3.10.12-1~22.04.7?arch=amd64&distro=ubuntu-22.04
       UID: c6d531a788fff08d
     InstalledVersion: 3.10.12-1~22.04.7
-    Status: affected
+    FixedVersion: 3.10.12-1~22.04.8
+    Status: fixed
     Layer:
       Digest: sha256:f93642bd0eaf8a99c59ed6084ffb9b0d1719e7ec57010387733e911dd9badaa2
       DiffID: sha256:f7860b3cbe3821e3f1f42b20d35b6570a2ef9cfa1ce8941fbf2dcdf8d56fae79
@@ -2697,6 +2702,7 @@
     - https://linux.oracle.com/errata/ELSA-2024-10983.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/XPWB6XVZ5G5KGEI63M4AWLIEUF5BPH4T/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-11168
+    - https://ubuntu.com/security/notices/USN-7218-1
     - https://www.cve.org/CVERecord?id=CVE-2024-11168
     PublishedDate: '2024-11-12T22:15:14.92Z'
     LastModifiedDate: '2025-01-06T18:15:17.9Z'
@@ -3673,7 +3679,8 @@
       PURL: pkg:deb/ubuntu/python3.10@3.10.12-1~22.04.7?arch=amd64&distro=ubuntu-22.04
       UID: 1ba6475fc0e3d4fb
     InstalledVersion: 3.10.12-1~22.04.7
-    Status: affected
+    FixedVersion: 3.10.12-1~22.04.8
+    Status: fixed
     Layer:
       Digest: sha256:f93642bd0eaf8a99c59ed6084ffb9b0d1719e7ec57010387733e911dd9badaa2
       DiffID: sha256:f7860b3cbe3821e3f1f42b20d35b6570a2ef9cfa1ce8941fbf2dcdf8d56fae79
@@ -3724,6 +3731,7 @@
     - https://linux.oracle.com/errata/ELSA-2024-10983.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/XPWB6XVZ5G5KGEI63M4AWLIEUF5BPH4T/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-11168
+    - https://ubuntu.com/security/notices/USN-7218-1
     - https://www.cve.org/CVERecord?id=CVE-2024-11168
     PublishedDate: '2024-11-12T22:15:14.92Z'
     LastModifiedDate: '2025-01-06T18:15:17.9Z'
@@ -3734,7 +3742,8 @@
       PURL: pkg:deb/ubuntu/python3.10-minimal@3.10.12-1~22.04.7?arch=amd64&distro=ubuntu-22.04
       UID: af215ffaa483bbcc
     InstalledVersion: 3.10.12-1~22.04.7
-    Status: affected
+    FixedVersion: 3.10.12-1~22.04.8
+    Status: fixed
     Layer:
       Digest: sha256:f93642bd0eaf8a99c59ed6084ffb9b0d1719e7ec57010387733e911dd9badaa2
       DiffID: sha256:f7860b3cbe3821e3f1f42b20d35b6570a2ef9cfa1ce8941fbf2dcdf8d56fae79
@@ -3785,6 +3794,7 @@
     - https://linux.oracle.com/errata/ELSA-2024-10983.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/XPWB6XVZ5G5KGEI63M4AWLIEUF5BPH4T/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-11168
+    - https://ubuntu.com/security/notices/USN-7218-1
     - https://www.cve.org/CVERecord?id=CVE-2024-11168
     PublishedDate: '2024-11-12T22:15:14.92Z'
     LastModifiedDate: '2025-01-06T18:15:17.9Z'
@@ -4431,7 +4441,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       azure: 2
       cbl-mariner: 2
       ghsa: 2
@@ -5435,7 +5445,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -5505,7 +5515,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -6534,7 +6544,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       azure: 2
       cbl-mariner: 2
       ghsa: 2
@@ -7538,7 +7548,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -7608,7 +7618,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       azure: 2
       bitnami: 2
       cbl-mariner: 2
