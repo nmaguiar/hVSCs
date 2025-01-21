@@ -2028,7 +2028,268 @@
 │                        │      │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2024-10963 
 │                        │      ├ PublishedDate   : 2024-11-07T16:15:17.15Z 
 │                        │      ╰ LastModifiedDate: 2024-11-11T18:15:14.487Z 
-│                        ├ [40] ╭ VulnerabilityID : CVE-2024-41996 
+│                        ├ [40] ╭ VulnerabilityID : CVE-2024-12254 
+│                        │      ├ PkgID           : libpython3.12-minimal@3.12.3-1ubuntu0.3 
+│                        │      ├ PkgName         : libpython3.12-minimal 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpython3.12-minimal@3.12.3-1ubuntu0
+│                        │      │                  │       .3?arch=amd64&distro=ubuntu-24.04 
+│                        │      │                  ╰ UID : af21b612b271eb28 
+│                        │      ├ InstalledVersion: 3.12.3-1ubuntu0.3 
+│                        │      ├ FixedVersion    : 3.12.3-1ubuntu0.4 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:0d33217572b4987680e92dcd84375c4202591c60a9d
+│                        │      │                  │         0111662091c0b0ffd54b0 
+│                        │      │                  ╰ DiffID: sha256:d9d1e1bc670b33186e24de6c95c3d2a65ab93594045
+│                        │      │                            81a9f36f573ecf8b556cb 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-12254 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : python: Unbounded memory buffering in
+│                        │      │                   SelectorSocketTransport.writelines() 
+│                        │      ├ Description     : Starting in Python 3.12.0, the
+│                        │      │                   asyncio._SelectorSocketTransport.writelines()
+│                        │      │                    method would not "pause" writing and signal to the
+│                        │      │                   Protocol to drain 
+│                        │      │                   the buffer to the wire once the write buffer reached the
+│                        │      │                   "high-water 
+│                        │      │                   mark". Because of this, Protocols would not periodically
+│                        │      │                   drain the write
+│                        │      │                    buffer potentially leading to memory exhaustion.
+│                        │      │                   
+│                        │      │                   This
+│                        │      │                    vulnerability likely impacts a small number of users, you
+│                        │      │                   must be using
+│                        │      │                    Python 3.12.0 or later, on macOS or Linux, using the
+│                        │      │                   asyncio module 
+│                        │      │                   with protocols, and using .writelines() method which had
+│                        │      │                   new 
+│                        │      │                   zero-copy-on-write behavior in Python 3.12.0 and later. If
+│                        │      │                   not all of 
+│                        │      │                   these factors are true then your usage of Python is
+│                        │      │                   unaffected. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ CweIDs           ╭ [0]: CWE-400 
+│                        │      │                  ╰ [1]: CWE-770 
+│                        │      ├ VendorSeverity   ╭ alma       : 3 
+│                        │      │                  ├ azure      : 3 
+│                        │      │                  ├ bitnami    : 3 
+│                        │      │                  ├ oracle-oval: 3 
+│                        │      │                  ├ redhat     : 3 
+│                        │      │                  ├ rocky      : 3 
+│                        │      │                  ╰ ubuntu     : 2 
+│                        │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                        │      │                  │         │           :N/A:H 
+│                        │      │                  │         ╰ V3Score : 7.5 
+│                        │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                        │      │                            │           :N/A:H 
+│                        │      │                            ╰ V3Score : 7.5 
+│                        │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2024/12/0
+│                        │      │                  │       6/1 
+│                        │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2024:10978 
+│                        │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2024-12254 
+│                        │      │                  ├ [3] : https://bugzilla.redhat.com/2321440 
+│                        │      │                  ├ [4] : https://bugzilla.redhat.com/2330804 
+│                        │      │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2321440 
+│                        │      │                  ├ [6] : https://bugzilla.redhat.com/show_bug.cgi?id=2330804 
+│                        │      │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                        │      │                  │       024-12254 
+│                        │      │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                        │      │                  │       024-9287 
+│                        │      │                  ├ [9] : https://errata.almalinux.org/9/ALSA-2024-10978.html 
+│                        │      │                  ├ [10]: https://errata.rockylinux.org/RLSA-2024:10980 
+│                        │      │                  ├ [11]: https://github.com/python/cpython/commit/71e8429ac8e
+│                        │      │                  │       2adc10084ab5ec29a62f4b6671a82 
+│                        │      │                  ├ [12]: https://github.com/python/cpython/commit/9aa0deb2eef
+│                        │      │                  │       2655a1029ba228527b152353135b5 
+│                        │      │                  ├ [13]: https://github.com/python/cpython/issues/127655 
+│                        │      │                  ├ [14]: https://github.com/python/cpython/pull/127656 
+│                        │      │                  ├ [15]: https://linux.oracle.com/cve/CVE-2024-12254.html 
+│                        │      │                  ├ [16]: https://linux.oracle.com/errata/ELSA-2024-10980.html 
+│                        │      │                  ├ [17]: https://mail.python.org/archives/list/security-annou
+│                        │      │                  │       nce@python.org/thread/H4O3UBAOAQQXGT4RE3E4XQYR5XLROO
+│                        │      │                  │       RB/ 
+│                        │      │                  ├ [18]: https://nvd.nist.gov/vuln/detail/CVE-2024-12254 
+│                        │      │                  ├ [19]: https://ubuntu.com/security/notices/USN-7219-1 
+│                        │      │                  ╰ [20]: https://www.cve.org/CVERecord?id=CVE-2024-12254 
+│                        │      ├ PublishedDate   : 2024-12-06T16:15:20.623Z 
+│                        │      ╰ LastModifiedDate: 2025-01-06T18:15:18.713Z 
+│                        ├ [41] ╭ VulnerabilityID : CVE-2024-12254 
+│                        │      ├ PkgID           : libpython3.12-stdlib@3.12.3-1ubuntu0.3 
+│                        │      ├ PkgName         : libpython3.12-stdlib 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpython3.12-stdlib@3.12.3-1ubuntu0.
+│                        │      │                  │       3?arch=amd64&distro=ubuntu-24.04 
+│                        │      │                  ╰ UID : c1437ef345f2cca3 
+│                        │      ├ InstalledVersion: 3.12.3-1ubuntu0.3 
+│                        │      ├ FixedVersion    : 3.12.3-1ubuntu0.4 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:0d33217572b4987680e92dcd84375c4202591c60a9d
+│                        │      │                  │         0111662091c0b0ffd54b0 
+│                        │      │                  ╰ DiffID: sha256:d9d1e1bc670b33186e24de6c95c3d2a65ab93594045
+│                        │      │                            81a9f36f573ecf8b556cb 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-12254 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : python: Unbounded memory buffering in
+│                        │      │                   SelectorSocketTransport.writelines() 
+│                        │      ├ Description     : Starting in Python 3.12.0, the
+│                        │      │                   asyncio._SelectorSocketTransport.writelines()
+│                        │      │                    method would not "pause" writing and signal to the
+│                        │      │                   Protocol to drain 
+│                        │      │                   the buffer to the wire once the write buffer reached the
+│                        │      │                   "high-water 
+│                        │      │                   mark". Because of this, Protocols would not periodically
+│                        │      │                   drain the write
+│                        │      │                    buffer potentially leading to memory exhaustion.
+│                        │      │                   
+│                        │      │                   This
+│                        │      │                    vulnerability likely impacts a small number of users, you
+│                        │      │                   must be using
+│                        │      │                    Python 3.12.0 or later, on macOS or Linux, using the
+│                        │      │                   asyncio module 
+│                        │      │                   with protocols, and using .writelines() method which had
+│                        │      │                   new 
+│                        │      │                   zero-copy-on-write behavior in Python 3.12.0 and later. If
+│                        │      │                   not all of 
+│                        │      │                   these factors are true then your usage of Python is
+│                        │      │                   unaffected. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ CweIDs           ╭ [0]: CWE-400 
+│                        │      │                  ╰ [1]: CWE-770 
+│                        │      ├ VendorSeverity   ╭ alma       : 3 
+│                        │      │                  ├ azure      : 3 
+│                        │      │                  ├ bitnami    : 3 
+│                        │      │                  ├ oracle-oval: 3 
+│                        │      │                  ├ redhat     : 3 
+│                        │      │                  ├ rocky      : 3 
+│                        │      │                  ╰ ubuntu     : 2 
+│                        │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                        │      │                  │         │           :N/A:H 
+│                        │      │                  │         ╰ V3Score : 7.5 
+│                        │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                        │      │                            │           :N/A:H 
+│                        │      │                            ╰ V3Score : 7.5 
+│                        │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2024/12/0
+│                        │      │                  │       6/1 
+│                        │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2024:10978 
+│                        │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2024-12254 
+│                        │      │                  ├ [3] : https://bugzilla.redhat.com/2321440 
+│                        │      │                  ├ [4] : https://bugzilla.redhat.com/2330804 
+│                        │      │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2321440 
+│                        │      │                  ├ [6] : https://bugzilla.redhat.com/show_bug.cgi?id=2330804 
+│                        │      │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                        │      │                  │       024-12254 
+│                        │      │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                        │      │                  │       024-9287 
+│                        │      │                  ├ [9] : https://errata.almalinux.org/9/ALSA-2024-10978.html 
+│                        │      │                  ├ [10]: https://errata.rockylinux.org/RLSA-2024:10980 
+│                        │      │                  ├ [11]: https://github.com/python/cpython/commit/71e8429ac8e
+│                        │      │                  │       2adc10084ab5ec29a62f4b6671a82 
+│                        │      │                  ├ [12]: https://github.com/python/cpython/commit/9aa0deb2eef
+│                        │      │                  │       2655a1029ba228527b152353135b5 
+│                        │      │                  ├ [13]: https://github.com/python/cpython/issues/127655 
+│                        │      │                  ├ [14]: https://github.com/python/cpython/pull/127656 
+│                        │      │                  ├ [15]: https://linux.oracle.com/cve/CVE-2024-12254.html 
+│                        │      │                  ├ [16]: https://linux.oracle.com/errata/ELSA-2024-10980.html 
+│                        │      │                  ├ [17]: https://mail.python.org/archives/list/security-annou
+│                        │      │                  │       nce@python.org/thread/H4O3UBAOAQQXGT4RE3E4XQYR5XLROO
+│                        │      │                  │       RB/ 
+│                        │      │                  ├ [18]: https://nvd.nist.gov/vuln/detail/CVE-2024-12254 
+│                        │      │                  ├ [19]: https://ubuntu.com/security/notices/USN-7219-1 
+│                        │      │                  ╰ [20]: https://www.cve.org/CVERecord?id=CVE-2024-12254 
+│                        │      ├ PublishedDate   : 2024-12-06T16:15:20.623Z 
+│                        │      ╰ LastModifiedDate: 2025-01-06T18:15:18.713Z 
+│                        ├ [42] ╭ VulnerabilityID : CVE-2024-12254 
+│                        │      ├ PkgID           : libpython3.12t64@3.12.3-1ubuntu0.3 
+│                        │      ├ PkgName         : libpython3.12t64 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpython3.12t64@3.12.3-1ubuntu0.3?ar
+│                        │      │                  │       ch=amd64&distro=ubuntu-24.04 
+│                        │      │                  ╰ UID : f94b9fb21711b17a 
+│                        │      ├ InstalledVersion: 3.12.3-1ubuntu0.3 
+│                        │      ├ FixedVersion    : 3.12.3-1ubuntu0.4 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:0d33217572b4987680e92dcd84375c4202591c60a9d
+│                        │      │                  │         0111662091c0b0ffd54b0 
+│                        │      │                  ╰ DiffID: sha256:d9d1e1bc670b33186e24de6c95c3d2a65ab93594045
+│                        │      │                            81a9f36f573ecf8b556cb 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-12254 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : python: Unbounded memory buffering in
+│                        │      │                   SelectorSocketTransport.writelines() 
+│                        │      ├ Description     : Starting in Python 3.12.0, the
+│                        │      │                   asyncio._SelectorSocketTransport.writelines()
+│                        │      │                    method would not "pause" writing and signal to the
+│                        │      │                   Protocol to drain 
+│                        │      │                   the buffer to the wire once the write buffer reached the
+│                        │      │                   "high-water 
+│                        │      │                   mark". Because of this, Protocols would not periodically
+│                        │      │                   drain the write
+│                        │      │                    buffer potentially leading to memory exhaustion.
+│                        │      │                   
+│                        │      │                   This
+│                        │      │                    vulnerability likely impacts a small number of users, you
+│                        │      │                   must be using
+│                        │      │                    Python 3.12.0 or later, on macOS or Linux, using the
+│                        │      │                   asyncio module 
+│                        │      │                   with protocols, and using .writelines() method which had
+│                        │      │                   new 
+│                        │      │                   zero-copy-on-write behavior in Python 3.12.0 and later. If
+│                        │      │                   not all of 
+│                        │      │                   these factors are true then your usage of Python is
+│                        │      │                   unaffected. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ CweIDs           ╭ [0]: CWE-400 
+│                        │      │                  ╰ [1]: CWE-770 
+│                        │      ├ VendorSeverity   ╭ alma       : 3 
+│                        │      │                  ├ azure      : 3 
+│                        │      │                  ├ bitnami    : 3 
+│                        │      │                  ├ oracle-oval: 3 
+│                        │      │                  ├ redhat     : 3 
+│                        │      │                  ├ rocky      : 3 
+│                        │      │                  ╰ ubuntu     : 2 
+│                        │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                        │      │                  │         │           :N/A:H 
+│                        │      │                  │         ╰ V3Score : 7.5 
+│                        │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                        │      │                            │           :N/A:H 
+│                        │      │                            ╰ V3Score : 7.5 
+│                        │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2024/12/0
+│                        │      │                  │       6/1 
+│                        │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2024:10978 
+│                        │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2024-12254 
+│                        │      │                  ├ [3] : https://bugzilla.redhat.com/2321440 
+│                        │      │                  ├ [4] : https://bugzilla.redhat.com/2330804 
+│                        │      │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2321440 
+│                        │      │                  ├ [6] : https://bugzilla.redhat.com/show_bug.cgi?id=2330804 
+│                        │      │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                        │      │                  │       024-12254 
+│                        │      │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                        │      │                  │       024-9287 
+│                        │      │                  ├ [9] : https://errata.almalinux.org/9/ALSA-2024-10978.html 
+│                        │      │                  ├ [10]: https://errata.rockylinux.org/RLSA-2024:10980 
+│                        │      │                  ├ [11]: https://github.com/python/cpython/commit/71e8429ac8e
+│                        │      │                  │       2adc10084ab5ec29a62f4b6671a82 
+│                        │      │                  ├ [12]: https://github.com/python/cpython/commit/9aa0deb2eef
+│                        │      │                  │       2655a1029ba228527b152353135b5 
+│                        │      │                  ├ [13]: https://github.com/python/cpython/issues/127655 
+│                        │      │                  ├ [14]: https://github.com/python/cpython/pull/127656 
+│                        │      │                  ├ [15]: https://linux.oracle.com/cve/CVE-2024-12254.html 
+│                        │      │                  ├ [16]: https://linux.oracle.com/errata/ELSA-2024-10980.html 
+│                        │      │                  ├ [17]: https://mail.python.org/archives/list/security-annou
+│                        │      │                  │       nce@python.org/thread/H4O3UBAOAQQXGT4RE3E4XQYR5XLROO
+│                        │      │                  │       RB/ 
+│                        │      │                  ├ [18]: https://nvd.nist.gov/vuln/detail/CVE-2024-12254 
+│                        │      │                  ├ [19]: https://ubuntu.com/security/notices/USN-7219-1 
+│                        │      │                  ╰ [20]: https://www.cve.org/CVERecord?id=CVE-2024-12254 
+│                        │      ├ PublishedDate   : 2024-12-06T16:15:20.623Z 
+│                        │      ╰ LastModifiedDate: 2025-01-06T18:15:18.713Z 
+│                        ├ [43] ╭ VulnerabilityID : CVE-2024-41996 
 │                        │      ├ PkgID           : libssl3t64@3.0.13-0ubuntu3.4 
 │                        │      ├ PkgName         : libssl3t64 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libssl3t64@3.0.13-0ubuntu3.4?arch=amd
@@ -2078,7 +2339,7 @@
 │                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-41996 
 │                        │      ├ PublishedDate   : 2024-08-26T06:15:04.603Z 
 │                        │      ╰ LastModifiedDate: 2024-08-26T16:35:11.247Z 
-│                        ├ [41] ╭ VulnerabilityID : CVE-2024-56433 
+│                        ├ [44] ╭ VulnerabilityID : CVE-2024-56433 
 │                        │      ├ PkgID           : libsubid4@1:4.13+dfsg1-4ubuntu3.2 
 │                        │      ├ PkgName         : libsubid4 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libsubid4@4.13%2Bdfsg1-4ubuntu3.2?arc
@@ -2125,7 +2386,7 @@
 │                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                        │      ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                        │      ╰ LastModifiedDate: 2024-12-26T09:15:07.267Z 
-│                        ├ [42] ╭ VulnerabilityID : CVE-2024-56433 
+│                        ├ [45] ╭ VulnerabilityID : CVE-2024-56433 
 │                        │      ├ PkgID           : login@1:4.13+dfsg1-4ubuntu3.2 
 │                        │      ├ PkgName         : login 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/login@4.13%2Bdfsg1-4ubuntu3.2?arch=am
@@ -2172,7 +2433,7 @@
 │                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                        │      ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                        │      ╰ LastModifiedDate: 2024-12-26T09:15:07.267Z 
-│                        ├ [43] ╭ VulnerabilityID : CVE-2024-41996 
+│                        ├ [46] ╭ VulnerabilityID : CVE-2024-41996 
 │                        │      ├ PkgID           : openssl@3.0.13-0ubuntu3.4 
 │                        │      ├ PkgName         : openssl 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl@3.0.13-0ubuntu3.4?arch=amd64&
@@ -2222,7 +2483,7 @@
 │                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-41996 
 │                        │      ├ PublishedDate   : 2024-08-26T06:15:04.603Z 
 │                        │      ╰ LastModifiedDate: 2024-08-26T16:35:11.247Z 
-│                        ├ [44] ╭ VulnerabilityID : CVE-2024-56433 
+│                        ├ [47] ╭ VulnerabilityID : CVE-2024-56433 
 │                        │      ├ PkgID           : passwd@1:4.13+dfsg1-4ubuntu3.2 
 │                        │      ├ PkgName         : passwd 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/passwd@4.13%2Bdfsg1-4ubuntu3.2?arch=a
@@ -2269,7 +2530,7 @@
 │                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                        │      ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                        │      ╰ LastModifiedDate: 2024-12-26T09:15:07.267Z 
-│                        ├ [45] ╭ VulnerabilityID : CVE-2018-6952 
+│                        ├ [48] ╭ VulnerabilityID : CVE-2018-6952 
 │                        │      ├ PkgID           : patch@2.7.6-7build3 
 │                        │      ├ PkgName         : patch 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/patch@2.7.6-7build3?arch=amd64&distro
@@ -2319,7 +2580,7 @@
 │                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2018-6952 
 │                        │      ├ PublishedDate   : 2018-02-13T19:29:00.573Z 
 │                        │      ╰ LastModifiedDate: 2019-04-17T20:29:01.727Z 
-│                        ├ [46] ╭ VulnerabilityID : CVE-2021-45261 
+│                        ├ [49] ╭ VulnerabilityID : CVE-2021-45261 
 │                        │      ├ PkgID           : patch@2.7.6-7build3 
 │                        │      ├ PkgName         : patch 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/patch@2.7.6-7build3?arch=amd64&distro
@@ -2359,7 +2620,181 @@
 │                        │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2021-45261 
 │                        │      ├ PublishedDate   : 2021-12-22T18:15:08.1Z 
 │                        │      ╰ LastModifiedDate: 2021-12-28T14:24:34.243Z 
-│                        ├ [47] ╭ VulnerabilityID : CVE-2024-56433 
+│                        ├ [50] ╭ VulnerabilityID : CVE-2024-12254 
+│                        │      ├ PkgID           : python3.12@3.12.3-1ubuntu0.3 
+│                        │      ├ PkgName         : python3.12 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/python3.12@3.12.3-1ubuntu0.3?arch=amd
+│                        │      │                  │       64&distro=ubuntu-24.04 
+│                        │      │                  ╰ UID : bad28f0027fca19c 
+│                        │      ├ InstalledVersion: 3.12.3-1ubuntu0.3 
+│                        │      ├ FixedVersion    : 3.12.3-1ubuntu0.4 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:0d33217572b4987680e92dcd84375c4202591c60a9d
+│                        │      │                  │         0111662091c0b0ffd54b0 
+│                        │      │                  ╰ DiffID: sha256:d9d1e1bc670b33186e24de6c95c3d2a65ab93594045
+│                        │      │                            81a9f36f573ecf8b556cb 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-12254 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : python: Unbounded memory buffering in
+│                        │      │                   SelectorSocketTransport.writelines() 
+│                        │      ├ Description     : Starting in Python 3.12.0, the
+│                        │      │                   asyncio._SelectorSocketTransport.writelines()
+│                        │      │                    method would not "pause" writing and signal to the
+│                        │      │                   Protocol to drain 
+│                        │      │                   the buffer to the wire once the write buffer reached the
+│                        │      │                   "high-water 
+│                        │      │                   mark". Because of this, Protocols would not periodically
+│                        │      │                   drain the write
+│                        │      │                    buffer potentially leading to memory exhaustion.
+│                        │      │                   
+│                        │      │                   This
+│                        │      │                    vulnerability likely impacts a small number of users, you
+│                        │      │                   must be using
+│                        │      │                    Python 3.12.0 or later, on macOS or Linux, using the
+│                        │      │                   asyncio module 
+│                        │      │                   with protocols, and using .writelines() method which had
+│                        │      │                   new 
+│                        │      │                   zero-copy-on-write behavior in Python 3.12.0 and later. If
+│                        │      │                   not all of 
+│                        │      │                   these factors are true then your usage of Python is
+│                        │      │                   unaffected. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ CweIDs           ╭ [0]: CWE-400 
+│                        │      │                  ╰ [1]: CWE-770 
+│                        │      ├ VendorSeverity   ╭ alma       : 3 
+│                        │      │                  ├ azure      : 3 
+│                        │      │                  ├ bitnami    : 3 
+│                        │      │                  ├ oracle-oval: 3 
+│                        │      │                  ├ redhat     : 3 
+│                        │      │                  ├ rocky      : 3 
+│                        │      │                  ╰ ubuntu     : 2 
+│                        │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                        │      │                  │         │           :N/A:H 
+│                        │      │                  │         ╰ V3Score : 7.5 
+│                        │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                        │      │                            │           :N/A:H 
+│                        │      │                            ╰ V3Score : 7.5 
+│                        │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2024/12/0
+│                        │      │                  │       6/1 
+│                        │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2024:10978 
+│                        │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2024-12254 
+│                        │      │                  ├ [3] : https://bugzilla.redhat.com/2321440 
+│                        │      │                  ├ [4] : https://bugzilla.redhat.com/2330804 
+│                        │      │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2321440 
+│                        │      │                  ├ [6] : https://bugzilla.redhat.com/show_bug.cgi?id=2330804 
+│                        │      │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                        │      │                  │       024-12254 
+│                        │      │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                        │      │                  │       024-9287 
+│                        │      │                  ├ [9] : https://errata.almalinux.org/9/ALSA-2024-10978.html 
+│                        │      │                  ├ [10]: https://errata.rockylinux.org/RLSA-2024:10980 
+│                        │      │                  ├ [11]: https://github.com/python/cpython/commit/71e8429ac8e
+│                        │      │                  │       2adc10084ab5ec29a62f4b6671a82 
+│                        │      │                  ├ [12]: https://github.com/python/cpython/commit/9aa0deb2eef
+│                        │      │                  │       2655a1029ba228527b152353135b5 
+│                        │      │                  ├ [13]: https://github.com/python/cpython/issues/127655 
+│                        │      │                  ├ [14]: https://github.com/python/cpython/pull/127656 
+│                        │      │                  ├ [15]: https://linux.oracle.com/cve/CVE-2024-12254.html 
+│                        │      │                  ├ [16]: https://linux.oracle.com/errata/ELSA-2024-10980.html 
+│                        │      │                  ├ [17]: https://mail.python.org/archives/list/security-annou
+│                        │      │                  │       nce@python.org/thread/H4O3UBAOAQQXGT4RE3E4XQYR5XLROO
+│                        │      │                  │       RB/ 
+│                        │      │                  ├ [18]: https://nvd.nist.gov/vuln/detail/CVE-2024-12254 
+│                        │      │                  ├ [19]: https://ubuntu.com/security/notices/USN-7219-1 
+│                        │      │                  ╰ [20]: https://www.cve.org/CVERecord?id=CVE-2024-12254 
+│                        │      ├ PublishedDate   : 2024-12-06T16:15:20.623Z 
+│                        │      ╰ LastModifiedDate: 2025-01-06T18:15:18.713Z 
+│                        ├ [51] ╭ VulnerabilityID : CVE-2024-12254 
+│                        │      ├ PkgID           : python3.12-minimal@3.12.3-1ubuntu0.3 
+│                        │      ├ PkgName         : python3.12-minimal 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/python3.12-minimal@3.12.3-1ubuntu0.3?
+│                        │      │                  │       arch=amd64&distro=ubuntu-24.04 
+│                        │      │                  ╰ UID : 4fbcc4bf0a8189ee 
+│                        │      ├ InstalledVersion: 3.12.3-1ubuntu0.3 
+│                        │      ├ FixedVersion    : 3.12.3-1ubuntu0.4 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:0d33217572b4987680e92dcd84375c4202591c60a9d
+│                        │      │                  │         0111662091c0b0ffd54b0 
+│                        │      │                  ╰ DiffID: sha256:d9d1e1bc670b33186e24de6c95c3d2a65ab93594045
+│                        │      │                            81a9f36f573ecf8b556cb 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-12254 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : python: Unbounded memory buffering in
+│                        │      │                   SelectorSocketTransport.writelines() 
+│                        │      ├ Description     : Starting in Python 3.12.0, the
+│                        │      │                   asyncio._SelectorSocketTransport.writelines()
+│                        │      │                    method would not "pause" writing and signal to the
+│                        │      │                   Protocol to drain 
+│                        │      │                   the buffer to the wire once the write buffer reached the
+│                        │      │                   "high-water 
+│                        │      │                   mark". Because of this, Protocols would not periodically
+│                        │      │                   drain the write
+│                        │      │                    buffer potentially leading to memory exhaustion.
+│                        │      │                   
+│                        │      │                   This
+│                        │      │                    vulnerability likely impacts a small number of users, you
+│                        │      │                   must be using
+│                        │      │                    Python 3.12.0 or later, on macOS or Linux, using the
+│                        │      │                   asyncio module 
+│                        │      │                   with protocols, and using .writelines() method which had
+│                        │      │                   new 
+│                        │      │                   zero-copy-on-write behavior in Python 3.12.0 and later. If
+│                        │      │                   not all of 
+│                        │      │                   these factors are true then your usage of Python is
+│                        │      │                   unaffected. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ CweIDs           ╭ [0]: CWE-400 
+│                        │      │                  ╰ [1]: CWE-770 
+│                        │      ├ VendorSeverity   ╭ alma       : 3 
+│                        │      │                  ├ azure      : 3 
+│                        │      │                  ├ bitnami    : 3 
+│                        │      │                  ├ oracle-oval: 3 
+│                        │      │                  ├ redhat     : 3 
+│                        │      │                  ├ rocky      : 3 
+│                        │      │                  ╰ ubuntu     : 2 
+│                        │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                        │      │                  │         │           :N/A:H 
+│                        │      │                  │         ╰ V3Score : 7.5 
+│                        │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                        │      │                            │           :N/A:H 
+│                        │      │                            ╰ V3Score : 7.5 
+│                        │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2024/12/0
+│                        │      │                  │       6/1 
+│                        │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2024:10978 
+│                        │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2024-12254 
+│                        │      │                  ├ [3] : https://bugzilla.redhat.com/2321440 
+│                        │      │                  ├ [4] : https://bugzilla.redhat.com/2330804 
+│                        │      │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2321440 
+│                        │      │                  ├ [6] : https://bugzilla.redhat.com/show_bug.cgi?id=2330804 
+│                        │      │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                        │      │                  │       024-12254 
+│                        │      │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                        │      │                  │       024-9287 
+│                        │      │                  ├ [9] : https://errata.almalinux.org/9/ALSA-2024-10978.html 
+│                        │      │                  ├ [10]: https://errata.rockylinux.org/RLSA-2024:10980 
+│                        │      │                  ├ [11]: https://github.com/python/cpython/commit/71e8429ac8e
+│                        │      │                  │       2adc10084ab5ec29a62f4b6671a82 
+│                        │      │                  ├ [12]: https://github.com/python/cpython/commit/9aa0deb2eef
+│                        │      │                  │       2655a1029ba228527b152353135b5 
+│                        │      │                  ├ [13]: https://github.com/python/cpython/issues/127655 
+│                        │      │                  ├ [14]: https://github.com/python/cpython/pull/127656 
+│                        │      │                  ├ [15]: https://linux.oracle.com/cve/CVE-2024-12254.html 
+│                        │      │                  ├ [16]: https://linux.oracle.com/errata/ELSA-2024-10980.html 
+│                        │      │                  ├ [17]: https://mail.python.org/archives/list/security-annou
+│                        │      │                  │       nce@python.org/thread/H4O3UBAOAQQXGT4RE3E4XQYR5XLROO
+│                        │      │                  │       RB/ 
+│                        │      │                  ├ [18]: https://nvd.nist.gov/vuln/detail/CVE-2024-12254 
+│                        │      │                  ├ [19]: https://ubuntu.com/security/notices/USN-7219-1 
+│                        │      │                  ╰ [20]: https://www.cve.org/CVERecord?id=CVE-2024-12254 
+│                        │      ├ PublishedDate   : 2024-12-06T16:15:20.623Z 
+│                        │      ╰ LastModifiedDate: 2025-01-06T18:15:18.713Z 
+│                        ├ [52] ╭ VulnerabilityID : CVE-2024-56433 
 │                        │      ├ PkgID           : uidmap@1:4.13+dfsg1-4ubuntu3.2 
 │                        │      ├ PkgName         : uidmap 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/uidmap@4.13%2Bdfsg1-4ubuntu3.2?arch=a
@@ -2406,7 +2841,7 @@
 │                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                        │      ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                        │      ╰ LastModifiedDate: 2024-12-26T09:15:07.267Z 
-│                        ╰ [48] ╭ VulnerabilityID : CVE-2021-31879 
+│                        ╰ [53] ╭ VulnerabilityID : CVE-2021-31879 
 │                               ├ PkgID           : wget@1.21.4-1ubuntu4.1 
 │                               ├ PkgName         : wget 
 │                               ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/wget@1.21.4-1ubuntu4.1?arch=amd64&dis
@@ -2853,7 +3288,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ ghsa       : 2 
@@ -4350,7 +4785,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
@@ -4427,7 +4862,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
@@ -5747,7 +6182,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ ghsa       : 2 
@@ -7244,7 +7679,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
@@ -7321,7 +7756,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
