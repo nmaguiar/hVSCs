@@ -2672,7 +2672,8 @@
 │                        │      │                  │       amd64&distro=ubuntu-22.04 
 │                        │      │                  ╰ UID : be54d4919bf2d618 
 │                        │      ├ InstalledVersion: 3.10.12-1~22.04.7 
-│                        │      ├ Status          : affected 
+│                        │      ├ FixedVersion    : 3.10.12-1~22.04.8 
+│                        │      ├ Status          : fixed 
 │                        │      ├ Layer            ╭ Digest: sha256:f93642bd0eaf8a99c59ed6084ffb9b0d1719e7ec570
 │                        │      │                  │         10387733e911dd9badaa2 
 │                        │      │                  ╰ DiffID: sha256:f7860b3cbe3821e3f1f42b20d35b6570a2ef9cfa1ce
@@ -2731,7 +2732,8 @@
 │                        │      │                  │       nce@python.org/thread/XPWB6XVZ5G5KGEI63M4AWLIEUF5BPH
 │                        │      │                  │       4T/ 
 │                        │      │                  ├ [19]: https://nvd.nist.gov/vuln/detail/CVE-2024-11168 
-│                        │      │                  ╰ [20]: https://www.cve.org/CVERecord?id=CVE-2024-11168 
+│                        │      │                  ├ [20]: https://ubuntu.com/security/notices/USN-7218-1 
+│                        │      │                  ╰ [21]: https://www.cve.org/CVERecord?id=CVE-2024-11168 
 │                        │      ├ PublishedDate   : 2024-11-12T22:15:14.92Z 
 │                        │      ╰ LastModifiedDate: 2025-01-06T18:15:17.9Z 
 │                        ├ [52] ╭ VulnerabilityID : CVE-2024-11168 
@@ -2741,7 +2743,8 @@
 │                        │      │                  │       .7?arch=amd64&distro=ubuntu-22.04 
 │                        │      │                  ╰ UID : f113c3f58fb49533 
 │                        │      ├ InstalledVersion: 3.10.12-1~22.04.7 
-│                        │      ├ Status          : affected 
+│                        │      ├ FixedVersion    : 3.10.12-1~22.04.8 
+│                        │      ├ Status          : fixed 
 │                        │      ├ Layer            ╭ Digest: sha256:f93642bd0eaf8a99c59ed6084ffb9b0d1719e7ec570
 │                        │      │                  │         10387733e911dd9badaa2 
 │                        │      │                  ╰ DiffID: sha256:f7860b3cbe3821e3f1f42b20d35b6570a2ef9cfa1ce
@@ -2800,7 +2803,8 @@
 │                        │      │                  │       nce@python.org/thread/XPWB6XVZ5G5KGEI63M4AWLIEUF5BPH
 │                        │      │                  │       4T/ 
 │                        │      │                  ├ [19]: https://nvd.nist.gov/vuln/detail/CVE-2024-11168 
-│                        │      │                  ╰ [20]: https://www.cve.org/CVERecord?id=CVE-2024-11168 
+│                        │      │                  ├ [20]: https://ubuntu.com/security/notices/USN-7218-1 
+│                        │      │                  ╰ [21]: https://www.cve.org/CVERecord?id=CVE-2024-11168 
 │                        │      ├ PublishedDate   : 2024-11-12T22:15:14.92Z 
 │                        │      ╰ LastModifiedDate: 2025-01-06T18:15:17.9Z 
 │                        ├ [53] ╭ VulnerabilityID : CVE-2024-11168 
@@ -2810,7 +2814,8 @@
 │                        │      │                  │       7?arch=amd64&distro=ubuntu-22.04 
 │                        │      │                  ╰ UID : c6d531a788fff08d 
 │                        │      ├ InstalledVersion: 3.10.12-1~22.04.7 
-│                        │      ├ Status          : affected 
+│                        │      ├ FixedVersion    : 3.10.12-1~22.04.8 
+│                        │      ├ Status          : fixed 
 │                        │      ├ Layer            ╭ Digest: sha256:f93642bd0eaf8a99c59ed6084ffb9b0d1719e7ec570
 │                        │      │                  │         10387733e911dd9badaa2 
 │                        │      │                  ╰ DiffID: sha256:f7860b3cbe3821e3f1f42b20d35b6570a2ef9cfa1ce
@@ -2869,7 +2874,8 @@
 │                        │      │                  │       nce@python.org/thread/XPWB6XVZ5G5KGEI63M4AWLIEUF5BPH
 │                        │      │                  │       4T/ 
 │                        │      │                  ├ [19]: https://nvd.nist.gov/vuln/detail/CVE-2024-11168 
-│                        │      │                  ╰ [20]: https://www.cve.org/CVERecord?id=CVE-2024-11168 
+│                        │      │                  ├ [20]: https://ubuntu.com/security/notices/USN-7218-1 
+│                        │      │                  ╰ [21]: https://www.cve.org/CVERecord?id=CVE-2024-11168 
 │                        │      ├ PublishedDate   : 2024-11-12T22:15:14.92Z 
 │                        │      ╰ LastModifiedDate: 2025-01-06T18:15:17.9Z 
 │                        ├ [54] ╭ VulnerabilityID : CVE-2024-41996 
@@ -3965,7 +3971,8 @@
 │                        │      │                  │       64&distro=ubuntu-22.04 
 │                        │      │                  ╰ UID : 1ba6475fc0e3d4fb 
 │                        │      ├ InstalledVersion: 3.10.12-1~22.04.7 
-│                        │      ├ Status          : affected 
+│                        │      ├ FixedVersion    : 3.10.12-1~22.04.8 
+│                        │      ├ Status          : fixed 
 │                        │      ├ Layer            ╭ Digest: sha256:f93642bd0eaf8a99c59ed6084ffb9b0d1719e7ec570
 │                        │      │                  │         10387733e911dd9badaa2 
 │                        │      │                  ╰ DiffID: sha256:f7860b3cbe3821e3f1f42b20d35b6570a2ef9cfa1ce
@@ -4024,7 +4031,8 @@
 │                        │      │                  │       nce@python.org/thread/XPWB6XVZ5G5KGEI63M4AWLIEUF5BPH
 │                        │      │                  │       4T/ 
 │                        │      │                  ├ [19]: https://nvd.nist.gov/vuln/detail/CVE-2024-11168 
-│                        │      │                  ╰ [20]: https://www.cve.org/CVERecord?id=CVE-2024-11168 
+│                        │      │                  ├ [20]: https://ubuntu.com/security/notices/USN-7218-1 
+│                        │      │                  ╰ [21]: https://www.cve.org/CVERecord?id=CVE-2024-11168 
 │                        │      ├ PublishedDate   : 2024-11-12T22:15:14.92Z 
 │                        │      ╰ LastModifiedDate: 2025-01-06T18:15:17.9Z 
 │                        ├ [75] ╭ VulnerabilityID : CVE-2024-11168 
@@ -4034,7 +4042,8 @@
 │                        │      │                  │       arch=amd64&distro=ubuntu-22.04 
 │                        │      │                  ╰ UID : af215ffaa483bbcc 
 │                        │      ├ InstalledVersion: 3.10.12-1~22.04.7 
-│                        │      ├ Status          : affected 
+│                        │      ├ FixedVersion    : 3.10.12-1~22.04.8 
+│                        │      ├ Status          : fixed 
 │                        │      ├ Layer            ╭ Digest: sha256:f93642bd0eaf8a99c59ed6084ffb9b0d1719e7ec570
 │                        │      │                  │         10387733e911dd9badaa2 
 │                        │      │                  ╰ DiffID: sha256:f7860b3cbe3821e3f1f42b20d35b6570a2ef9cfa1ce
@@ -4093,7 +4102,8 @@
 │                        │      │                  │       nce@python.org/thread/XPWB6XVZ5G5KGEI63M4AWLIEUF5BPH
 │                        │      │                  │       4T/ 
 │                        │      │                  ├ [19]: https://nvd.nist.gov/vuln/detail/CVE-2024-11168 
-│                        │      │                  ╰ [20]: https://www.cve.org/CVERecord?id=CVE-2024-11168 
+│                        │      │                  ├ [20]: https://ubuntu.com/security/notices/USN-7218-1 
+│                        │      │                  ╰ [21]: https://www.cve.org/CVERecord?id=CVE-2024-11168 
 │                        │      ├ PublishedDate   : 2024-11-12T22:15:14.92Z 
 │                        │      ╰ LastModifiedDate: 2025-01-06T18:15:17.9Z 
 │                        ├ [76] ╭ VulnerabilityID : CVE-2023-7008 
@@ -4976,7 +4986,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ ghsa       : 2 
@@ -6473,7 +6483,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
@@ -6550,7 +6560,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
@@ -7870,7 +7880,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ ghsa       : 2 
@@ -9367,7 +9377,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
@@ -9444,7 +9454,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
