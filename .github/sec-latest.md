@@ -406,9 +406,10 @@
 │                        │      ├ CweIDs           ╭ [0]: CWE-116 
 │                        │      │                  ├ [1]: CWE-147 
 │                        │      │                  ╰ [2]: CWE-150 
-│                        │      ├ VendorSeverity   ╭ azure : 1 
-│                        │      │                  ├ redhat: 1 
-│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ VendorSeverity   ╭ azure      : 1 
+│                        │      │                  ├ cbl-mariner: 1 
+│                        │      │                  ├ redhat     : 1 
+│                        │      │                  ╰ ubuntu     : 2 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:
 │                        │      │                           │           L/A:N 
 │                        │      │                           ╰ V3Score : 3.1 
@@ -463,9 +464,10 @@
 │                        │      ├ CweIDs           ╭ [0]: CWE-116 
 │                        │      │                  ├ [1]: CWE-147 
 │                        │      │                  ╰ [2]: CWE-150 
-│                        │      ├ VendorSeverity   ╭ azure : 1 
-│                        │      │                  ├ redhat: 1 
-│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ VendorSeverity   ╭ azure      : 1 
+│                        │      │                  ├ cbl-mariner: 1 
+│                        │      │                  ├ redhat     : 1 
+│                        │      │                  ╰ ubuntu     : 2 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:
 │                        │      │                           │           L/A:N 
 │                        │      │                           ╰ V3Score : 4.3 
@@ -574,9 +576,10 @@
 │                        │      ├ CweIDs           ╭ [0]: CWE-116 
 │                        │      │                  ├ [1]: CWE-147 
 │                        │      │                  ╰ [2]: CWE-150 
-│                        │      ├ VendorSeverity   ╭ azure : 1 
-│                        │      │                  ├ redhat: 1 
-│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ VendorSeverity   ╭ azure      : 1 
+│                        │      │                  ├ cbl-mariner: 1 
+│                        │      │                  ├ redhat     : 1 
+│                        │      │                  ╰ ubuntu     : 2 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:
 │                        │      │                           │           L/A:N 
 │                        │      │                           ╰ V3Score : 3.1 
@@ -631,9 +634,10 @@
 │                        │      ├ CweIDs           ╭ [0]: CWE-116 
 │                        │      │                  ├ [1]: CWE-147 
 │                        │      │                  ╰ [2]: CWE-150 
-│                        │      ├ VendorSeverity   ╭ azure : 1 
-│                        │      │                  ├ redhat: 1 
-│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ VendorSeverity   ╭ azure      : 1 
+│                        │      │                  ├ cbl-mariner: 1 
+│                        │      │                  ├ redhat     : 1 
+│                        │      │                  ╰ ubuntu     : 2 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:
 │                        │      │                           │           L/A:N 
 │                        │      │                           ╰ V3Score : 4.3 
@@ -4645,53 +4649,265 @@
 │                        │      │                         sources/security-advisories/?fid=31797 
 │                        │      ├ PublishedDate   : 2023-04-14T22:15:07.68Z 
 │                        │      ╰ LastModifiedDate: 2023-04-24T18:05:30.313Z 
-│                        ╰ [85] ╭ VulnerabilityID : CVE-2021-31879 
-│                               ├ PkgID           : wget@1.21.2-2ubuntu1.1 
-│                               ├ PkgName         : wget 
-│                               ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/wget@1.21.2-2ubuntu1.1?arch=amd64&dis
-│                               │                  │       tro=ubuntu-22.04 
-│                               │                  ╰ UID : d648f3419bcefd65 
-│                               ├ InstalledVersion: 1.21.2-2ubuntu1.1 
-│                               ├ Status          : affected 
+│                        ├ [85] ╭ VulnerabilityID : CVE-2025-22134 
+│                        │      ├ PkgID           : vim@2:8.2.3995-1ubuntu2.21 
+│                        │      ├ PkgName         : vim 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/vim@8.2.3995-1ubuntu2.21?arch=amd64&d
+│                        │      │                  │       istro=ubuntu-22.04&epoch=2 
+│                        │      │                  ╰ UID : 1e850c871a3e50fa 
+│                        │      ├ InstalledVersion: 2:8.2.3995-1ubuntu2.21 
+│                        │      ├ FixedVersion    : 2:8.2.3995-1ubuntu2.22 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1
+│                        │      │                  │         ceaca8080554771c9d616 
+│                        │      │                  ╰ DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7
+│                        │      │                            c6441377552d9ec02fe93 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-22134 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : vim: heap-buffer-overflow with visual mode in Vim < 9.1.1003 
+│                        │      ├ Description     : When switching to other buffers using the :all command and
+│                        │      │                   visual mode still being active, this may cause a
+│                        │      │                   heap-buffer overflow, because Vim does not properly end
+│                        │      │                   visual mode and therefore may try to access beyond the end
+│                        │      │                   of a line in a buffer. In Patch 9.1.1003 Vim will correctly
+│                        │      │                    reset the visual mode before opening other windows and
+│                        │      │                   buffers and therefore fix this bug. In addition it does
+│                        │      │                   verify that it won't try to access a position if the
+│                        │      │                   position is greater than the corresponding buffer line.
+│                        │      │                   Impact is medium since the user must have switched on
+│                        │      │                   visual mode when executing the :all ex command. The Vim
+│                        │      │                   project would like to thank github user gandalf4a for
+│                        │      │                   reporting this issue. The issue has been fixed as of Vim
+│                        │      │                   patch v9.1.1003 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ CweIDs           ─ [0]: CWE-122 
+│                        │      ├ VendorSeverity   ╭ azure      : 2 
+│                        │      │                  ├ cbl-mariner: 2 
+│                        │      │                  ├ redhat     : 1 
+│                        │      │                  ╰ ubuntu     : 2 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:
+│                        │      │                           │           L/A:L 
+│                        │      │                           ╰ V3Score : 4.2 
+│                        │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/01/11/1 
+│                        │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-22134 
+│                        │      │                  ├ [2]: https://github.com/vim/vim/commit/c9a1e257f1630a08664
+│                        │      │                  │      47e53a564f7ff96a80ead 
+│                        │      │                  ├ [3]: https://github.com/vim/vim/security/advisories/GHSA-5
+│                        │      │                  │      rgf-26wj-48v8 
+│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-22134 
+│                        │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-7220-1 
+│                        │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-22134 
+│                        │      ├ PublishedDate   : 2025-01-13T21:15:14.333Z 
+│                        │      ╰ LastModifiedDate: 2025-01-13T21:15:14.333Z 
+│                        ├ [86] ╭ VulnerabilityID : CVE-2025-22134 
+│                        │      ├ PkgID           : vim-common@2:8.2.3995-1ubuntu2.21 
+│                        │      ├ PkgName         : vim-common 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/vim-common@8.2.3995-1ubuntu2.21?arch=
+│                        │      │                  │       all&distro=ubuntu-22.04&epoch=2 
+│                        │      │                  ╰ UID : d949510cecbc1ae7 
+│                        │      ├ InstalledVersion: 2:8.2.3995-1ubuntu2.21 
+│                        │      ├ FixedVersion    : 2:8.2.3995-1ubuntu2.22 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1
+│                        │      │                  │         ceaca8080554771c9d616 
+│                        │      │                  ╰ DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7
+│                        │      │                            c6441377552d9ec02fe93 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-22134 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : vim: heap-buffer-overflow with visual mode in Vim < 9.1.1003 
+│                        │      ├ Description     : When switching to other buffers using the :all command and
+│                        │      │                   visual mode still being active, this may cause a
+│                        │      │                   heap-buffer overflow, because Vim does not properly end
+│                        │      │                   visual mode and therefore may try to access beyond the end
+│                        │      │                   of a line in a buffer. In Patch 9.1.1003 Vim will correctly
+│                        │      │                    reset the visual mode before opening other windows and
+│                        │      │                   buffers and therefore fix this bug. In addition it does
+│                        │      │                   verify that it won't try to access a position if the
+│                        │      │                   position is greater than the corresponding buffer line.
+│                        │      │                   Impact is medium since the user must have switched on
+│                        │      │                   visual mode when executing the :all ex command. The Vim
+│                        │      │                   project would like to thank github user gandalf4a for
+│                        │      │                   reporting this issue. The issue has been fixed as of Vim
+│                        │      │                   patch v9.1.1003 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ CweIDs           ─ [0]: CWE-122 
+│                        │      ├ VendorSeverity   ╭ azure      : 2 
+│                        │      │                  ├ cbl-mariner: 2 
+│                        │      │                  ├ redhat     : 1 
+│                        │      │                  ╰ ubuntu     : 2 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:
+│                        │      │                           │           L/A:L 
+│                        │      │                           ╰ V3Score : 4.2 
+│                        │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/01/11/1 
+│                        │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-22134 
+│                        │      │                  ├ [2]: https://github.com/vim/vim/commit/c9a1e257f1630a08664
+│                        │      │                  │      47e53a564f7ff96a80ead 
+│                        │      │                  ├ [3]: https://github.com/vim/vim/security/advisories/GHSA-5
+│                        │      │                  │      rgf-26wj-48v8 
+│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-22134 
+│                        │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-7220-1 
+│                        │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-22134 
+│                        │      ├ PublishedDate   : 2025-01-13T21:15:14.333Z 
+│                        │      ╰ LastModifiedDate: 2025-01-13T21:15:14.333Z 
+│                        ├ [87] ╭ VulnerabilityID : CVE-2025-22134 
+│                        │      ├ PkgID           : vim-runtime@2:8.2.3995-1ubuntu2.21 
+│                        │      ├ PkgName         : vim-runtime 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/vim-runtime@8.2.3995-1ubuntu2.21?arch
+│                        │      │                  │       =all&distro=ubuntu-22.04&epoch=2 
+│                        │      │                  ╰ UID : 503b4a79f1484745 
+│                        │      ├ InstalledVersion: 2:8.2.3995-1ubuntu2.21 
+│                        │      ├ FixedVersion    : 2:8.2.3995-1ubuntu2.22 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1
+│                        │      │                  │         ceaca8080554771c9d616 
+│                        │      │                  ╰ DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7
+│                        │      │                            c6441377552d9ec02fe93 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-22134 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : vim: heap-buffer-overflow with visual mode in Vim < 9.1.1003 
+│                        │      ├ Description     : When switching to other buffers using the :all command and
+│                        │      │                   visual mode still being active, this may cause a
+│                        │      │                   heap-buffer overflow, because Vim does not properly end
+│                        │      │                   visual mode and therefore may try to access beyond the end
+│                        │      │                   of a line in a buffer. In Patch 9.1.1003 Vim will correctly
+│                        │      │                    reset the visual mode before opening other windows and
+│                        │      │                   buffers and therefore fix this bug. In addition it does
+│                        │      │                   verify that it won't try to access a position if the
+│                        │      │                   position is greater than the corresponding buffer line.
+│                        │      │                   Impact is medium since the user must have switched on
+│                        │      │                   visual mode when executing the :all ex command. The Vim
+│                        │      │                   project would like to thank github user gandalf4a for
+│                        │      │                   reporting this issue. The issue has been fixed as of Vim
+│                        │      │                   patch v9.1.1003 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ CweIDs           ─ [0]: CWE-122 
+│                        │      ├ VendorSeverity   ╭ azure      : 2 
+│                        │      │                  ├ cbl-mariner: 2 
+│                        │      │                  ├ redhat     : 1 
+│                        │      │                  ╰ ubuntu     : 2 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:
+│                        │      │                           │           L/A:L 
+│                        │      │                           ╰ V3Score : 4.2 
+│                        │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/01/11/1 
+│                        │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-22134 
+│                        │      │                  ├ [2]: https://github.com/vim/vim/commit/c9a1e257f1630a08664
+│                        │      │                  │      47e53a564f7ff96a80ead 
+│                        │      │                  ├ [3]: https://github.com/vim/vim/security/advisories/GHSA-5
+│                        │      │                  │      rgf-26wj-48v8 
+│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-22134 
+│                        │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-7220-1 
+│                        │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-22134 
+│                        │      ├ PublishedDate   : 2025-01-13T21:15:14.333Z 
+│                        │      ╰ LastModifiedDate: 2025-01-13T21:15:14.333Z 
+│                        ├ [88] ╭ VulnerabilityID : CVE-2021-31879 
+│                        │      ├ PkgID           : wget@1.21.2-2ubuntu1.1 
+│                        │      ├ PkgName         : wget 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/wget@1.21.2-2ubuntu1.1?arch=amd64&dis
+│                        │      │                  │       tro=ubuntu-22.04 
+│                        │      │                  ╰ UID : d648f3419bcefd65 
+│                        │      ├ InstalledVersion: 1.21.2-2ubuntu1.1 
+│                        │      ├ Status          : affected 
+│                        │      ├ Layer            ╭ Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1
+│                        │      │                  │         ceaca8080554771c9d616 
+│                        │      │                  ╰ DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7
+│                        │      │                            c6441377552d9ec02fe93 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2021-31879 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : wget: authorization header disclosure on redirect 
+│                        │      ├ Description     : GNU Wget through 1.21.1 does not omit the Authorization
+│                        │      │                   header upon a redirect to a different origin, a related
+│                        │      │                   issue to CVE-2018-1000007. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ CweIDs           ─ [0]: CWE-601 
+│                        │      ├ VendorSeverity   ╭ amazon     : 2 
+│                        │      │                  ├ cbl-mariner: 2 
+│                        │      │                  ├ nvd        : 2 
+│                        │      │                  ├ photon     : 2 
+│                        │      │                  ├ redhat     : 2 
+│                        │      │                  ╰ ubuntu     : 2 
+│                        │      ├ CVSS             ╭ nvd    ╭ V2Vector: AV:N/AC:M/Au:N/C:P/I:P/A:N 
+│                        │      │                  │        ├ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:
+│                        │      │                  │        │           L/A:N 
+│                        │      │                  │        ├ V2Score : 5.8 
+│                        │      │                  │        ╰ V3Score : 6.1 
+│                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:
+│                        │      │                           │           N/A:N 
+│                        │      │                           ╰ V3Score : 6.5 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2021-31879 
+│                        │      │                  ├ [1]: https://mail.gnu.org/archive/html/bug-wget/2021-02/ms
+│                        │      │                  │      g00002.html 
+│                        │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2021-31879 
+│                        │      │                  ├ [3]: https://savannah.gnu.org/bugs/?56909 
+│                        │      │                  ├ [4]: https://security.netapp.com/advisory/ntap-20210618-00
+│                        │      │                  │      02/ 
+│                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2021-31879 
+│                        │      ├ PublishedDate   : 2021-04-29T05:15:08.707Z 
+│                        │      ╰ LastModifiedDate: 2022-05-13T20:52:24.793Z 
+│                        ╰ [89] ╭ VulnerabilityID : CVE-2025-22134 
+│                               ├ PkgID           : xxd@2:8.2.3995-1ubuntu2.21 
+│                               ├ PkgName         : xxd 
+│                               ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/xxd@8.2.3995-1ubuntu2.21?arch=amd64&d
+│                               │                  │       istro=ubuntu-22.04&epoch=2 
+│                               │                  ╰ UID : 76a5652d258b0804 
+│                               ├ InstalledVersion: 2:8.2.3995-1ubuntu2.21 
+│                               ├ FixedVersion    : 2:8.2.3995-1ubuntu2.22 
+│                               ├ Status          : fixed 
 │                               ├ Layer            ╭ Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1
 │                               │                  │         ceaca8080554771c9d616 
 │                               │                  ╰ DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7
 │                               │                            c6441377552d9ec02fe93 
 │                               ├ SeveritySource  : ubuntu 
-│                               ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2021-31879 
+│                               ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-22134 
 │                               ├ DataSource       ╭ ID  : ubuntu 
 │                               │                  ├ Name: Ubuntu CVE Tracker 
 │                               │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                               ├ Title           : wget: authorization header disclosure on redirect 
-│                               ├ Description     : GNU Wget through 1.21.1 does not omit the Authorization
-│                               │                   header upon a redirect to a different origin, a related
-│                               │                   issue to CVE-2018-1000007. 
+│                               ├ Title           : vim: heap-buffer-overflow with visual mode in Vim < 9.1.1003 
+│                               ├ Description     : When switching to other buffers using the :all command and
+│                               │                   visual mode still being active, this may cause a
+│                               │                   heap-buffer overflow, because Vim does not properly end
+│                               │                   visual mode and therefore may try to access beyond the end
+│                               │                   of a line in a buffer. In Patch 9.1.1003 Vim will correctly
+│                               │                    reset the visual mode before opening other windows and
+│                               │                   buffers and therefore fix this bug. In addition it does
+│                               │                   verify that it won't try to access a position if the
+│                               │                   position is greater than the corresponding buffer line.
+│                               │                   Impact is medium since the user must have switched on
+│                               │                   visual mode when executing the :all ex command. The Vim
+│                               │                   project would like to thank github user gandalf4a for
+│                               │                   reporting this issue. The issue has been fixed as of Vim
+│                               │                   patch v9.1.1003 
 │                               ├ Severity        : MEDIUM 
-│                               ├ CweIDs           ─ [0]: CWE-601 
-│                               ├ VendorSeverity   ╭ amazon     : 2 
+│                               ├ CweIDs           ─ [0]: CWE-122 
+│                               ├ VendorSeverity   ╭ azure      : 2 
 │                               │                  ├ cbl-mariner: 2 
-│                               │                  ├ nvd        : 2 
-│                               │                  ├ photon     : 2 
-│                               │                  ├ redhat     : 2 
+│                               │                  ├ redhat     : 1 
 │                               │                  ╰ ubuntu     : 2 
-│                               ├ CVSS             ╭ nvd    ╭ V2Vector: AV:N/AC:M/Au:N/C:P/I:P/A:N 
-│                               │                  │        ├ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:
-│                               │                  │        │           L/A:N 
-│                               │                  │        ├ V2Score : 5.8 
-│                               │                  │        ╰ V3Score : 6.1 
-│                               │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:
-│                               │                           │           N/A:N 
-│                               │                           ╰ V3Score : 6.5 
-│                               ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2021-31879 
-│                               │                  ├ [1]: https://mail.gnu.org/archive/html/bug-wget/2021-02/ms
-│                               │                  │      g00002.html 
-│                               │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2021-31879 
-│                               │                  ├ [3]: https://savannah.gnu.org/bugs/?56909 
-│                               │                  ├ [4]: https://security.netapp.com/advisory/ntap-20210618-00
-│                               │                  │      02/ 
-│                               │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2021-31879 
-│                               ├ PublishedDate   : 2021-04-29T05:15:08.707Z 
-│                               ╰ LastModifiedDate: 2022-05-13T20:52:24.793Z 
+│                               ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:
+│                               │                           │           L/A:L 
+│                               │                           ╰ V3Score : 4.2 
+│                               ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/01/11/1 
+│                               │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-22134 
+│                               │                  ├ [2]: https://github.com/vim/vim/commit/c9a1e257f1630a08664
+│                               │                  │      47e53a564f7ff96a80ead 
+│                               │                  ├ [3]: https://github.com/vim/vim/security/advisories/GHSA-5
+│                               │                  │      rgf-26wj-48v8 
+│                               │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-22134 
+│                               │                  ├ [5]: https://ubuntu.com/security/notices/USN-7220-1 
+│                               │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-22134 
+│                               ├ PublishedDate   : 2025-01-13T21:15:14.333Z 
+│                               ╰ LastModifiedDate: 2025-01-13T21:15:14.333Z 
 ├ [1]  ╭ Target         : Java 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : jar 
@@ -11179,7 +11395,46 @@
 │                                                 │      7a7786754d1fe05264c3021eb 
 │                                                 ╰ [2]: https://github.com/grpc/grpc-go/security/advisories/GH
 │                                                        SA-xr7q-jx4m-x55m 
-├ [10] ╭ Target : /etc/ssh/ssh_host_dsa_key 
+├ [10] ╭ Target : /etc/ssh/ssh_host_rsa_key 
+│      ├ Class  : secret 
+│      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
+│                      ├ Category : AsymmetricPrivateKey 
+│                      ├ Severity : HIGH 
+│                      ├ Title    : Asymmetric Private Key 
+│                      ├ StartLine: 1 
+│                      ├ EndLine  : 1 
+│                      ├ Code      ─ Lines ╭ [0] ╭ Number     : 1 
+│                      │                   │     ├ Content    : BEGIN OPENSSH PRIVATE
+│                      │                   │     │              KEY-----***************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********-----END OPENSSH PRI 
+│                      │                   │     ├ IsCause    : true 
+│                      │                   │     ├ Annotation :  
+│                      │                   │     ├ Truncated  : false 
+│                      │                   │     ├ Highlighted: BEGIN OPENSSH PRIVATE
+│                      │                   │     │              KEY-----***************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********-----END OPENSSH PRI 
+│                      │                   │     ├ FirstCause : true 
+│                      │                   │     ╰ LastCause  : true 
+│                      │                   ╰ [1] ╭ Number    : 2 
+│                      │                         ├ Content   :  
+│                      │                         ├ IsCause   : false 
+│                      │                         ├ Annotation:  
+│                      │                         ├ Truncated : false 
+│                      │                         ├ FirstCause: false 
+│                      │                         ╰ LastCause : false 
+│                      ├ Match    : BEGIN OPENSSH PRIVATE
+│                      │            KEY-----*******************************************************************
+│                      │            ***************************************************************************
+│                      │            **************************************************************************-
+│                      │            ----END OPENSSH PRI 
+│                      ╰ Layer     ╭ Digest   : sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca80805547
+│                                  │            71c9d616 
+│                                  ├ DiffID   : sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9
+│                                  │            ec02fe93 
+│                                  ╰ CreatedBy: COPY / / # buildkit 
+├ [11] ╭ Target : /etc/ssh/ssh_host_dsa_key 
 │      ├ Class  : secret 
 │      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
 │                      ├ Category : AsymmetricPrivateKey 
@@ -11218,7 +11473,7 @@
 │                                  ├ DiffID   : sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9
 │                                  │            ec02fe93 
 │                                  ╰ CreatedBy: COPY / / # buildkit 
-├ [11] ╭ Target : /etc/ssh/ssh_host_ecdsa_key 
+├ [12] ╭ Target : /etc/ssh/ssh_host_ecdsa_key 
 │      ├ Class  : secret 
 │      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
 │                      ├ Category : AsymmetricPrivateKey 
@@ -11258,45 +11513,7 @@
 │                                  ├ DiffID   : sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9
 │                                  │            ec02fe93 
 │                                  ╰ CreatedBy: COPY / / # buildkit 
-├ [12] ╭ Target : /etc/ssh/ssh_host_ed25519_key 
-│      ├ Class  : secret 
-│      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
-│                      ├ Category : AsymmetricPrivateKey 
-│                      ├ Severity : HIGH 
-│                      ├ Title    : Asymmetric Private Key 
-│                      ├ StartLine: 1 
-│                      ├ EndLine  : 1 
-│                      ├ Code      ─ Lines ╭ [0] ╭ Number     : 1 
-│                      │                   │     ├ Content    : BEGIN OPENSSH PRIVATE
-│                      │                   │     │              KEY-----***************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              *********************-----END OPENSSH PRI 
-│                      │                   │     ├ IsCause    : true 
-│                      │                   │     ├ Annotation :  
-│                      │                   │     ├ Truncated  : false 
-│                      │                   │     ├ Highlighted: BEGIN OPENSSH PRIVATE
-│                      │                   │     │              KEY-----***************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              *********************-----END OPENSSH PRI 
-│                      │                   │     ├ FirstCause : true 
-│                      │                   │     ╰ LastCause  : true 
-│                      │                   ╰ [1] ╭ Number    : 2 
-│                      │                         ├ Content   :  
-│                      │                         ├ IsCause   : false 
-│                      │                         ├ Annotation:  
-│                      │                         ├ Truncated : false 
-│                      │                         ├ FirstCause: false 
-│                      │                         ╰ LastCause : false 
-│                      ├ Match    : BEGIN OPENSSH PRIVATE
-│                      │            KEY-----*******************************************************************
-│                      │            ***************************************************************************
-│                      │            **************************************************-----END OPENSSH PRI 
-│                      ╰ Layer     ╭ Digest   : sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca80805547
-│                                  │            71c9d616 
-│                                  ├ DiffID   : sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9
-│                                  │            ec02fe93 
-│                                  ╰ CreatedBy: COPY / / # buildkit 
-╰ [13] ╭ Target : /etc/ssh/ssh_host_rsa_key 
+╰ [13] ╭ Target : /etc/ssh/ssh_host_ed25519_key 
        ├ Class  : secret 
        ╰ Secrets ─ [0] ╭ RuleID   : private-key 
                        ├ Category : AsymmetricPrivateKey 
@@ -11308,14 +11525,14 @@
                        │                   │     ├ Content    : BEGIN OPENSSH PRIVATE
                        │                   │     │              KEY-----***************************************
                        │                   │     │              ***********************************************
-                       │                   │     │              ***********-----END OPENSSH PRI 
+                       │                   │     │              *********************-----END OPENSSH PRI 
                        │                   │     ├ IsCause    : true 
                        │                   │     ├ Annotation :  
                        │                   │     ├ Truncated  : false 
                        │                   │     ├ Highlighted: BEGIN OPENSSH PRIVATE
                        │                   │     │              KEY-----***************************************
                        │                   │     │              ***********************************************
-                       │                   │     │              ***********-----END OPENSSH PRI 
+                       │                   │     │              *********************-----END OPENSSH PRI 
                        │                   │     ├ FirstCause : true 
                        │                   │     ╰ LastCause  : true 
                        │                   ╰ [1] ╭ Number    : 2 
@@ -11328,8 +11545,7 @@
                        ├ Match    : BEGIN OPENSSH PRIVATE
                        │            KEY-----*******************************************************************
                        │            ***************************************************************************
-                       │            **************************************************************************-
-                       │            ----END OPENSSH PRI 
+                       │            **************************************************-----END OPENSSH PRI 
                        ╰ Layer     ╭ Digest   : sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca80805547
                                    │            71c9d616 
                                    ├ DiffID   : sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9
