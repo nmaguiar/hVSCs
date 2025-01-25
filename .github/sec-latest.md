@@ -5396,7 +5396,8 @@
 │                        │      │                   denial of service. 
 │                        │      ├ Severity        : HIGH 
 │                        │      ├ CweIDs           ─ [0]: CWE-1333 
-│                        │      ├ VendorSeverity   ╭ cbl-mariner: 3 
+│                        │      ├ VendorSeverity   ╭ azure      : 3 
+│                        │      │                  ├ cbl-mariner: 3 
 │                        │      │                  ├ ghsa       : 3 
 │                        │      │                  ├ redhat     : 3 
 │                        │      │                  ╰ ubuntu     : 2 
@@ -6194,9 +6195,11 @@
 │                        │      │                  ├ [22]: https://linux.oracle.com/errata/ELSA-2024-9115.html 
 │                        │      │                  ├ [23]: https://nvd.nist.gov/vuln/detail/CVE-2024-24790 
 │                        │      │                  ├ [24]: https://pkg.go.dev/vuln/GO-2024-2887 
-│                        │      │                  ├ [25]: https://ubuntu.com/security/notices/USN-6886-1 
-│                        │      │                  ├ [26]: https://ubuntu.com/security/notices/USN-7109-1 
-│                        │      │                  ╰ [27]: https://www.cve.org/CVERecord?id=CVE-2024-24790 
+│                        │      │                  ├ [25]: https://security.netapp.com/advisory/ntap-20240905-0
+│                        │      │                  │       002/ 
+│                        │      │                  ├ [26]: https://ubuntu.com/security/notices/USN-6886-1 
+│                        │      │                  ├ [27]: https://ubuntu.com/security/notices/USN-7109-1 
+│                        │      │                  ╰ [28]: https://www.cve.org/CVERecord?id=CVE-2024-24790 
 │                        │      ├ PublishedDate   : 2024-06-05T16:15:10.56Z 
 │                        │      ╰ LastModifiedDate: 2024-09-03T18:35:07.483Z 
 │                        ├ [6]  ╭ VulnerabilityID : CVE-2023-39325 
@@ -6751,10 +6754,12 @@
 │                        │      │                  ├ [15]: https://linux.oracle.com/errata/ELSA-2024-9473.html 
 │                        │      │                  ├ [16]: https://nvd.nist.gov/vuln/detail/CVE-2024-34156 
 │                        │      │                  ├ [17]: https://pkg.go.dev/vuln/GO-2024-3106 
-│                        │      │                  ├ [18]: https://ubuntu.com/security/notices/USN-7081-1 
-│                        │      │                  ├ [19]: https://ubuntu.com/security/notices/USN-7109-1 
-│                        │      │                  ├ [20]: https://ubuntu.com/security/notices/USN-7111-1 
-│                        │      │                  ╰ [21]: https://www.cve.org/CVERecord?id=CVE-2024-34156 
+│                        │      │                  ├ [18]: https://security.netapp.com/advisory/ntap-20240926-0
+│                        │      │                  │       004/ 
+│                        │      │                  ├ [19]: https://ubuntu.com/security/notices/USN-7081-1 
+│                        │      │                  ├ [20]: https://ubuntu.com/security/notices/USN-7109-1 
+│                        │      │                  ├ [21]: https://ubuntu.com/security/notices/USN-7111-1 
+│                        │      │                  ╰ [22]: https://www.cve.org/CVERecord?id=CVE-2024-34156 
 │                        │      ├ PublishedDate   : 2024-09-06T21:15:12.02Z 
 │                        │      ╰ LastModifiedDate: 2024-09-09T15:35:07.573Z 
 │                        ├ [10] ╭ VulnerabilityID : CVE-2023-29406 
@@ -7775,10 +7780,12 @@
 │                        │      │                  ├ [20]: https://linux.oracle.com/errata/ELSA-2024-9115.html 
 │                        │      │                  ├ [21]: https://nvd.nist.gov/vuln/detail/CVE-2024-24791 
 │                        │      │                  ├ [22]: https://pkg.go.dev/vuln/GO-2024-2963 
-│                        │      │                  ├ [23]: https://ubuntu.com/security/notices/USN-7081-1 
-│                        │      │                  ├ [24]: https://ubuntu.com/security/notices/USN-7109-1 
-│                        │      │                  ├ [25]: https://ubuntu.com/security/notices/USN-7111-1 
-│                        │      │                  ╰ [26]: https://www.cve.org/CVERecord?id=CVE-2024-24791 
+│                        │      │                  ├ [23]: https://security.netapp.com/advisory/ntap-20241004-0
+│                        │      │                  │       004/ 
+│                        │      │                  ├ [24]: https://ubuntu.com/security/notices/USN-7081-1 
+│                        │      │                  ├ [25]: https://ubuntu.com/security/notices/USN-7109-1 
+│                        │      │                  ├ [26]: https://ubuntu.com/security/notices/USN-7111-1 
+│                        │      │                  ╰ [27]: https://www.cve.org/CVERecord?id=CVE-2024-24791 
 │                        │      ├ PublishedDate   : 2024-07-02T22:15:04.833Z 
 │                        │      ╰ LastModifiedDate: 2024-07-08T14:17:39.083Z 
 │                        ├ [23] ╭ VulnerabilityID : CVE-2024-34155 
@@ -7853,10 +7860,12 @@
 │                        │      │                  ├ [26]: https://linux.oracle.com/errata/ELSA-2024-9459.html 
 │                        │      │                  ├ [27]: https://nvd.nist.gov/vuln/detail/CVE-2024-34155 
 │                        │      │                  ├ [28]: https://pkg.go.dev/vuln/GO-2024-3105 
-│                        │      │                  ├ [29]: https://ubuntu.com/security/notices/USN-7081-1 
-│                        │      │                  ├ [30]: https://ubuntu.com/security/notices/USN-7109-1 
-│                        │      │                  ├ [31]: https://ubuntu.com/security/notices/USN-7111-1 
-│                        │      │                  ╰ [32]: https://www.cve.org/CVERecord?id=CVE-2024-34155 
+│                        │      │                  ├ [29]: https://security.netapp.com/advisory/ntap-20240926-0
+│                        │      │                  │       005/ 
+│                        │      │                  ├ [30]: https://ubuntu.com/security/notices/USN-7081-1 
+│                        │      │                  ├ [31]: https://ubuntu.com/security/notices/USN-7109-1 
+│                        │      │                  ├ [32]: https://ubuntu.com/security/notices/USN-7111-1 
+│                        │      │                  ╰ [33]: https://www.cve.org/CVERecord?id=CVE-2024-34155 
 │                        │      ├ PublishedDate   : 2024-09-06T21:15:11.947Z 
 │                        │      ╰ LastModifiedDate: 2024-11-04T17:35:17.887Z 
 │                        ╰ [24] ╭ VulnerabilityID : CVE-2024-34158 
@@ -7933,10 +7942,12 @@
 │                               │                  ├ [26]: https://linux.oracle.com/errata/ELSA-2024-9459.html 
 │                               │                  ├ [27]: https://nvd.nist.gov/vuln/detail/CVE-2024-34158 
 │                               │                  ├ [28]: https://pkg.go.dev/vuln/GO-2024-3107 
-│                               │                  ├ [29]: https://ubuntu.com/security/notices/USN-7081-1 
-│                               │                  ├ [30]: https://ubuntu.com/security/notices/USN-7109-1 
-│                               │                  ├ [31]: https://ubuntu.com/security/notices/USN-7111-1 
-│                               │                  ╰ [32]: https://www.cve.org/CVERecord?id=CVE-2024-34158 
+│                               │                  ├ [29]: https://security.netapp.com/advisory/ntap-20241004-0
+│                               │                  │       003/ 
+│                               │                  ├ [30]: https://ubuntu.com/security/notices/USN-7081-1 
+│                               │                  ├ [31]: https://ubuntu.com/security/notices/USN-7109-1 
+│                               │                  ├ [32]: https://ubuntu.com/security/notices/USN-7111-1 
+│                               │                  ╰ [33]: https://www.cve.org/CVERecord?id=CVE-2024-34158 
 │                               ├ PublishedDate   : 2024-09-06T21:15:12.083Z 
 │                               ╰ LastModifiedDate: 2024-09-09T14:35:01.17Z 
 ├ [4]  ╭ Target         : tmp/tmp.lFSpTqS1CB/krew-linux_amd64 
@@ -8290,7 +8301,8 @@
 │                        │      │                   denial of service. 
 │                        │      ├ Severity        : HIGH 
 │                        │      ├ CweIDs           ─ [0]: CWE-1333 
-│                        │      ├ VendorSeverity   ╭ cbl-mariner: 3 
+│                        │      ├ VendorSeverity   ╭ azure      : 3 
+│                        │      │                  ├ cbl-mariner: 3 
 │                        │      │                  ├ ghsa       : 3 
 │                        │      │                  ├ redhat     : 3 
 │                        │      │                  ╰ ubuntu     : 2 
@@ -9088,9 +9100,11 @@
 │                        │      │                  ├ [22]: https://linux.oracle.com/errata/ELSA-2024-9115.html 
 │                        │      │                  ├ [23]: https://nvd.nist.gov/vuln/detail/CVE-2024-24790 
 │                        │      │                  ├ [24]: https://pkg.go.dev/vuln/GO-2024-2887 
-│                        │      │                  ├ [25]: https://ubuntu.com/security/notices/USN-6886-1 
-│                        │      │                  ├ [26]: https://ubuntu.com/security/notices/USN-7109-1 
-│                        │      │                  ╰ [27]: https://www.cve.org/CVERecord?id=CVE-2024-24790 
+│                        │      │                  ├ [25]: https://security.netapp.com/advisory/ntap-20240905-0
+│                        │      │                  │       002/ 
+│                        │      │                  ├ [26]: https://ubuntu.com/security/notices/USN-6886-1 
+│                        │      │                  ├ [27]: https://ubuntu.com/security/notices/USN-7109-1 
+│                        │      │                  ╰ [28]: https://www.cve.org/CVERecord?id=CVE-2024-24790 
 │                        │      ├ PublishedDate   : 2024-06-05T16:15:10.56Z 
 │                        │      ╰ LastModifiedDate: 2024-09-03T18:35:07.483Z 
 │                        ├ [6]  ╭ VulnerabilityID : CVE-2023-39325 
@@ -9645,10 +9659,12 @@
 │                        │      │                  ├ [15]: https://linux.oracle.com/errata/ELSA-2024-9473.html 
 │                        │      │                  ├ [16]: https://nvd.nist.gov/vuln/detail/CVE-2024-34156 
 │                        │      │                  ├ [17]: https://pkg.go.dev/vuln/GO-2024-3106 
-│                        │      │                  ├ [18]: https://ubuntu.com/security/notices/USN-7081-1 
-│                        │      │                  ├ [19]: https://ubuntu.com/security/notices/USN-7109-1 
-│                        │      │                  ├ [20]: https://ubuntu.com/security/notices/USN-7111-1 
-│                        │      │                  ╰ [21]: https://www.cve.org/CVERecord?id=CVE-2024-34156 
+│                        │      │                  ├ [18]: https://security.netapp.com/advisory/ntap-20240926-0
+│                        │      │                  │       004/ 
+│                        │      │                  ├ [19]: https://ubuntu.com/security/notices/USN-7081-1 
+│                        │      │                  ├ [20]: https://ubuntu.com/security/notices/USN-7109-1 
+│                        │      │                  ├ [21]: https://ubuntu.com/security/notices/USN-7111-1 
+│                        │      │                  ╰ [22]: https://www.cve.org/CVERecord?id=CVE-2024-34156 
 │                        │      ├ PublishedDate   : 2024-09-06T21:15:12.02Z 
 │                        │      ╰ LastModifiedDate: 2024-09-09T15:35:07.573Z 
 │                        ├ [10] ╭ VulnerabilityID : CVE-2023-29406 
@@ -10669,10 +10685,12 @@
 │                        │      │                  ├ [20]: https://linux.oracle.com/errata/ELSA-2024-9115.html 
 │                        │      │                  ├ [21]: https://nvd.nist.gov/vuln/detail/CVE-2024-24791 
 │                        │      │                  ├ [22]: https://pkg.go.dev/vuln/GO-2024-2963 
-│                        │      │                  ├ [23]: https://ubuntu.com/security/notices/USN-7081-1 
-│                        │      │                  ├ [24]: https://ubuntu.com/security/notices/USN-7109-1 
-│                        │      │                  ├ [25]: https://ubuntu.com/security/notices/USN-7111-1 
-│                        │      │                  ╰ [26]: https://www.cve.org/CVERecord?id=CVE-2024-24791 
+│                        │      │                  ├ [23]: https://security.netapp.com/advisory/ntap-20241004-0
+│                        │      │                  │       004/ 
+│                        │      │                  ├ [24]: https://ubuntu.com/security/notices/USN-7081-1 
+│                        │      │                  ├ [25]: https://ubuntu.com/security/notices/USN-7109-1 
+│                        │      │                  ├ [26]: https://ubuntu.com/security/notices/USN-7111-1 
+│                        │      │                  ╰ [27]: https://www.cve.org/CVERecord?id=CVE-2024-24791 
 │                        │      ├ PublishedDate   : 2024-07-02T22:15:04.833Z 
 │                        │      ╰ LastModifiedDate: 2024-07-08T14:17:39.083Z 
 │                        ├ [23] ╭ VulnerabilityID : CVE-2024-34155 
@@ -10747,10 +10765,12 @@
 │                        │      │                  ├ [26]: https://linux.oracle.com/errata/ELSA-2024-9459.html 
 │                        │      │                  ├ [27]: https://nvd.nist.gov/vuln/detail/CVE-2024-34155 
 │                        │      │                  ├ [28]: https://pkg.go.dev/vuln/GO-2024-3105 
-│                        │      │                  ├ [29]: https://ubuntu.com/security/notices/USN-7081-1 
-│                        │      │                  ├ [30]: https://ubuntu.com/security/notices/USN-7109-1 
-│                        │      │                  ├ [31]: https://ubuntu.com/security/notices/USN-7111-1 
-│                        │      │                  ╰ [32]: https://www.cve.org/CVERecord?id=CVE-2024-34155 
+│                        │      │                  ├ [29]: https://security.netapp.com/advisory/ntap-20240926-0
+│                        │      │                  │       005/ 
+│                        │      │                  ├ [30]: https://ubuntu.com/security/notices/USN-7081-1 
+│                        │      │                  ├ [31]: https://ubuntu.com/security/notices/USN-7109-1 
+│                        │      │                  ├ [32]: https://ubuntu.com/security/notices/USN-7111-1 
+│                        │      │                  ╰ [33]: https://www.cve.org/CVERecord?id=CVE-2024-34155 
 │                        │      ├ PublishedDate   : 2024-09-06T21:15:11.947Z 
 │                        │      ╰ LastModifiedDate: 2024-11-04T17:35:17.887Z 
 │                        ╰ [24] ╭ VulnerabilityID : CVE-2024-34158 
@@ -10827,10 +10847,12 @@
 │                               │                  ├ [26]: https://linux.oracle.com/errata/ELSA-2024-9459.html 
 │                               │                  ├ [27]: https://nvd.nist.gov/vuln/detail/CVE-2024-34158 
 │                               │                  ├ [28]: https://pkg.go.dev/vuln/GO-2024-3107 
-│                               │                  ├ [29]: https://ubuntu.com/security/notices/USN-7081-1 
-│                               │                  ├ [30]: https://ubuntu.com/security/notices/USN-7109-1 
-│                               │                  ├ [31]: https://ubuntu.com/security/notices/USN-7111-1 
-│                               │                  ╰ [32]: https://www.cve.org/CVERecord?id=CVE-2024-34158 
+│                               │                  ├ [29]: https://security.netapp.com/advisory/ntap-20241004-0
+│                               │                  │       003/ 
+│                               │                  ├ [30]: https://ubuntu.com/security/notices/USN-7081-1 
+│                               │                  ├ [31]: https://ubuntu.com/security/notices/USN-7109-1 
+│                               │                  ├ [32]: https://ubuntu.com/security/notices/USN-7111-1 
+│                               │                  ╰ [33]: https://www.cve.org/CVERecord?id=CVE-2024-34158 
 │                               ├ PublishedDate   : 2024-09-06T21:15:12.083Z 
 │                               ╰ LastModifiedDate: 2024-09-09T14:35:01.17Z 
 ├ [5]  ╭ Target         : usr/bin/docker-compose 
@@ -10862,7 +10884,8 @@
 │                              │                   denial of service. 
 │                              ├ Severity        : HIGH 
 │                              ├ CweIDs           ─ [0]: CWE-1333 
-│                              ├ VendorSeverity   ╭ cbl-mariner: 3 
+│                              ├ VendorSeverity   ╭ azure      : 3 
+│                              │                  ├ cbl-mariner: 3 
 │                              │                  ├ ghsa       : 3 
 │                              │                  ├ redhat     : 3 
 │                              │                  ╰ ubuntu     : 2 
@@ -10912,7 +10935,8 @@
 │                              │                   denial of service. 
 │                              ├ Severity        : HIGH 
 │                              ├ CweIDs           ─ [0]: CWE-1333 
-│                              ├ VendorSeverity   ╭ cbl-mariner: 3 
+│                              ├ VendorSeverity   ╭ azure      : 3 
+│                              │                  ├ cbl-mariner: 3 
 │                              │                  ├ ghsa       : 3 
 │                              │                  ├ redhat     : 3 
 │                              │                  ╰ ubuntu     : 2 
@@ -10962,7 +10986,8 @@
 │                              │                   denial of service. 
 │                              ├ Severity        : HIGH 
 │                              ├ CweIDs           ─ [0]: CWE-1333 
-│                              ├ VendorSeverity   ╭ cbl-mariner: 3 
+│                              ├ VendorSeverity   ╭ azure      : 3 
+│                              │                  ├ cbl-mariner: 3 
 │                              │                  ├ ghsa       : 3 
 │                              │                  ├ redhat     : 3 
 │                              │                  ╰ ubuntu     : 2 
@@ -11098,7 +11123,8 @@
 │                              │                   denial of service. 
 │                              ├ Severity        : HIGH 
 │                              ├ CweIDs           ─ [0]: CWE-1333 
-│                              ├ VendorSeverity   ╭ cbl-mariner: 3 
+│                              ├ VendorSeverity   ╭ azure      : 3 
+│                              │                  ├ cbl-mariner: 3 
 │                              │                  ├ ghsa       : 3 
 │                              │                  ├ redhat     : 3 
 │                              │                  ╰ ubuntu     : 2 
@@ -11334,7 +11360,8 @@
 │                        │     │                   denial of service. 
 │                        │     ├ Severity        : HIGH 
 │                        │     ├ CweIDs           ─ [0]: CWE-1333 
-│                        │     ├ VendorSeverity   ╭ cbl-mariner: 3 
+│                        │     ├ VendorSeverity   ╭ azure      : 3 
+│                        │     │                  ├ cbl-mariner: 3 
 │                        │     │                  ├ ghsa       : 3 
 │                        │     │                  ├ redhat     : 3 
 │                        │     │                  ╰ ubuntu     : 2 
@@ -11395,46 +11422,7 @@
 │                                                 │      7a7786754d1fe05264c3021eb 
 │                                                 ╰ [2]: https://github.com/grpc/grpc-go/security/advisories/GH
 │                                                        SA-xr7q-jx4m-x55m 
-├ [10] ╭ Target : /etc/ssh/ssh_host_rsa_key 
-│      ├ Class  : secret 
-│      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
-│                      ├ Category : AsymmetricPrivateKey 
-│                      ├ Severity : HIGH 
-│                      ├ Title    : Asymmetric Private Key 
-│                      ├ StartLine: 1 
-│                      ├ EndLine  : 1 
-│                      ├ Code      ─ Lines ╭ [0] ╭ Number     : 1 
-│                      │                   │     ├ Content    : BEGIN OPENSSH PRIVATE
-│                      │                   │     │              KEY-----***************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********-----END OPENSSH PRI 
-│                      │                   │     ├ IsCause    : true 
-│                      │                   │     ├ Annotation :  
-│                      │                   │     ├ Truncated  : false 
-│                      │                   │     ├ Highlighted: BEGIN OPENSSH PRIVATE
-│                      │                   │     │              KEY-----***************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********-----END OPENSSH PRI 
-│                      │                   │     ├ FirstCause : true 
-│                      │                   │     ╰ LastCause  : true 
-│                      │                   ╰ [1] ╭ Number    : 2 
-│                      │                         ├ Content   :  
-│                      │                         ├ IsCause   : false 
-│                      │                         ├ Annotation:  
-│                      │                         ├ Truncated : false 
-│                      │                         ├ FirstCause: false 
-│                      │                         ╰ LastCause : false 
-│                      ├ Match    : BEGIN OPENSSH PRIVATE
-│                      │            KEY-----*******************************************************************
-│                      │            ***************************************************************************
-│                      │            **************************************************************************-
-│                      │            ----END OPENSSH PRI 
-│                      ╰ Layer     ╭ Digest   : sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca80805547
-│                                  │            71c9d616 
-│                                  ├ DiffID   : sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9
-│                                  │            ec02fe93 
-│                                  ╰ CreatedBy: COPY / / # buildkit 
-├ [11] ╭ Target : /etc/ssh/ssh_host_dsa_key 
+├ [10] ╭ Target : /etc/ssh/ssh_host_dsa_key 
 │      ├ Class  : secret 
 │      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
 │                      ├ Category : AsymmetricPrivateKey 
@@ -11473,7 +11461,7 @@
 │                                  ├ DiffID   : sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9
 │                                  │            ec02fe93 
 │                                  ╰ CreatedBy: COPY / / # buildkit 
-├ [12] ╭ Target : /etc/ssh/ssh_host_ecdsa_key 
+├ [11] ╭ Target : /etc/ssh/ssh_host_ecdsa_key 
 │      ├ Class  : secret 
 │      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
 │                      ├ Category : AsymmetricPrivateKey 
@@ -11513,7 +11501,45 @@
 │                                  ├ DiffID   : sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9
 │                                  │            ec02fe93 
 │                                  ╰ CreatedBy: COPY / / # buildkit 
-╰ [13] ╭ Target : /etc/ssh/ssh_host_ed25519_key 
+├ [12] ╭ Target : /etc/ssh/ssh_host_ed25519_key 
+│      ├ Class  : secret 
+│      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
+│                      ├ Category : AsymmetricPrivateKey 
+│                      ├ Severity : HIGH 
+│                      ├ Title    : Asymmetric Private Key 
+│                      ├ StartLine: 1 
+│                      ├ EndLine  : 1 
+│                      ├ Code      ─ Lines ╭ [0] ╭ Number     : 1 
+│                      │                   │     ├ Content    : BEGIN OPENSSH PRIVATE
+│                      │                   │     │              KEY-----***************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              *********************-----END OPENSSH PRI 
+│                      │                   │     ├ IsCause    : true 
+│                      │                   │     ├ Annotation :  
+│                      │                   │     ├ Truncated  : false 
+│                      │                   │     ├ Highlighted: BEGIN OPENSSH PRIVATE
+│                      │                   │     │              KEY-----***************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              *********************-----END OPENSSH PRI 
+│                      │                   │     ├ FirstCause : true 
+│                      │                   │     ╰ LastCause  : true 
+│                      │                   ╰ [1] ╭ Number    : 2 
+│                      │                         ├ Content   :  
+│                      │                         ├ IsCause   : false 
+│                      │                         ├ Annotation:  
+│                      │                         ├ Truncated : false 
+│                      │                         ├ FirstCause: false 
+│                      │                         ╰ LastCause : false 
+│                      ├ Match    : BEGIN OPENSSH PRIVATE
+│                      │            KEY-----*******************************************************************
+│                      │            ***************************************************************************
+│                      │            **************************************************-----END OPENSSH PRI 
+│                      ╰ Layer     ╭ Digest   : sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca80805547
+│                                  │            71c9d616 
+│                                  ├ DiffID   : sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9
+│                                  │            ec02fe93 
+│                                  ╰ CreatedBy: COPY / / # buildkit 
+╰ [13] ╭ Target : /etc/ssh/ssh_host_rsa_key 
        ├ Class  : secret 
        ╰ Secrets ─ [0] ╭ RuleID   : private-key 
                        ├ Category : AsymmetricPrivateKey 
@@ -11525,14 +11551,14 @@
                        │                   │     ├ Content    : BEGIN OPENSSH PRIVATE
                        │                   │     │              KEY-----***************************************
                        │                   │     │              ***********************************************
-                       │                   │     │              *********************-----END OPENSSH PRI 
+                       │                   │     │              ***********-----END OPENSSH PRI 
                        │                   │     ├ IsCause    : true 
                        │                   │     ├ Annotation :  
                        │                   │     ├ Truncated  : false 
                        │                   │     ├ Highlighted: BEGIN OPENSSH PRIVATE
                        │                   │     │              KEY-----***************************************
                        │                   │     │              ***********************************************
-                       │                   │     │              *********************-----END OPENSSH PRI 
+                       │                   │     │              ***********-----END OPENSSH PRI 
                        │                   │     ├ FirstCause : true 
                        │                   │     ╰ LastCause  : true 
                        │                   ╰ [1] ╭ Number    : 2 
@@ -11545,7 +11571,8 @@
                        ├ Match    : BEGIN OPENSSH PRIVATE
                        │            KEY-----*******************************************************************
                        │            ***************************************************************************
-                       │            **************************************************-----END OPENSSH PRI 
+                       │            **************************************************************************-
+                       │            ----END OPENSSH PRI 
                        ╰ Layer     ╭ Digest   : sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca80805547
                                    │            71c9d616 
                                    ├ DiffID   : sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9
