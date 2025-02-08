@@ -39,10 +39,11 @@
     - https://access.redhat.com/security/cve/CVE-2024-11187
     - https://kb.isc.org/docs/cve-2024-11187
     - https://nvd.nist.gov/vuln/detail/CVE-2024-11187
+    - https://security.netapp.com/advisory/ntap-20250207-0002/
     - https://ubuntu.com/security/notices/USN-7241-1
     - https://www.cve.org/CVERecord?id=CVE-2024-11187
     PublishedDate: '2025-01-29T22:15:28.637Z'
-    LastModifiedDate: '2025-01-29T22:15:28.637Z'
+    LastModifiedDate: '2025-02-07T17:15:30.057Z'
   - VulnerabilityID: CVE-2024-12705
     PkgID: bind9-dnsutils@1:9.18.28-0ubuntu0.22.04.1
     PkgName: bind9-dnsutils
@@ -80,10 +81,11 @@
     - https://access.redhat.com/security/cve/CVE-2024-12705
     - https://kb.isc.org/docs/cve-2024-12705
     - https://nvd.nist.gov/vuln/detail/CVE-2024-12705
+    - https://security.netapp.com/advisory/ntap-20250207-0003/
     - https://ubuntu.com/security/notices/USN-7241-1
     - https://www.cve.org/CVERecord?id=CVE-2024-12705
     PublishedDate: '2025-01-29T22:15:28.8Z'
-    LastModifiedDate: '2025-01-29T22:15:28.8Z'
+    LastModifiedDate: '2025-02-07T17:15:30.177Z'
   - VulnerabilityID: CVE-2024-11187
     PkgID: bind9-host@1:9.18.28-0ubuntu0.22.04.1
     PkgName: bind9-host
@@ -121,10 +123,11 @@
     - https://access.redhat.com/security/cve/CVE-2024-11187
     - https://kb.isc.org/docs/cve-2024-11187
     - https://nvd.nist.gov/vuln/detail/CVE-2024-11187
+    - https://security.netapp.com/advisory/ntap-20250207-0002/
     - https://ubuntu.com/security/notices/USN-7241-1
     - https://www.cve.org/CVERecord?id=CVE-2024-11187
     PublishedDate: '2025-01-29T22:15:28.637Z'
-    LastModifiedDate: '2025-01-29T22:15:28.637Z'
+    LastModifiedDate: '2025-02-07T17:15:30.057Z'
   - VulnerabilityID: CVE-2024-12705
     PkgID: bind9-host@1:9.18.28-0ubuntu0.22.04.1
     PkgName: bind9-host
@@ -162,10 +165,11 @@
     - https://access.redhat.com/security/cve/CVE-2024-12705
     - https://kb.isc.org/docs/cve-2024-12705
     - https://nvd.nist.gov/vuln/detail/CVE-2024-12705
+    - https://security.netapp.com/advisory/ntap-20250207-0003/
     - https://ubuntu.com/security/notices/USN-7241-1
     - https://www.cve.org/CVERecord?id=CVE-2024-12705
     PublishedDate: '2025-01-29T22:15:28.8Z'
-    LastModifiedDate: '2025-01-29T22:15:28.8Z'
+    LastModifiedDate: '2025-02-07T17:15:30.177Z'
   - VulnerabilityID: CVE-2024-11187
     PkgID: bind9-libs@1:9.18.28-0ubuntu0.22.04.1
     PkgName: bind9-libs
@@ -203,10 +207,11 @@
     - https://access.redhat.com/security/cve/CVE-2024-11187
     - https://kb.isc.org/docs/cve-2024-11187
     - https://nvd.nist.gov/vuln/detail/CVE-2024-11187
+    - https://security.netapp.com/advisory/ntap-20250207-0002/
     - https://ubuntu.com/security/notices/USN-7241-1
     - https://www.cve.org/CVERecord?id=CVE-2024-11187
     PublishedDate: '2025-01-29T22:15:28.637Z'
-    LastModifiedDate: '2025-01-29T22:15:28.637Z'
+    LastModifiedDate: '2025-02-07T17:15:30.057Z'
   - VulnerabilityID: CVE-2024-12705
     PkgID: bind9-libs@1:9.18.28-0ubuntu0.22.04.1
     PkgName: bind9-libs
@@ -244,10 +249,11 @@
     - https://access.redhat.com/security/cve/CVE-2024-12705
     - https://kb.isc.org/docs/cve-2024-12705
     - https://nvd.nist.gov/vuln/detail/CVE-2024-12705
+    - https://security.netapp.com/advisory/ntap-20250207-0003/
     - https://ubuntu.com/security/notices/USN-7241-1
     - https://www.cve.org/CVERecord?id=CVE-2024-12705
     PublishedDate: '2025-01-29T22:15:28.8Z'
-    LastModifiedDate: '2025-01-29T22:15:28.8Z'
+    LastModifiedDate: '2025-02-07T17:15:30.177Z'
   - VulnerabilityID: CVE-2016-2781
     PkgID: coreutils@8.32-4.1ubuntu1.2
     PkgName: coreutils
@@ -299,6 +305,41 @@
     - https://www.cve.org/CVERecord?id=CVE-2016-2781
     PublishedDate: '2017-02-07T15:59:00.333Z'
     LastModifiedDate: '2024-11-21T02:48:47.593Z'
+  - VulnerabilityID: CVE-2025-0167
+    PkgID: curl@7.81.0-1ubuntu1.20
+    PkgName: curl
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/curl@7.81.0-1ubuntu1.20?arch=amd64&distro=ubuntu-22.04
+      UID: 3090041d6f66e76
+    InstalledVersion: 7.81.0-1ubuntu1.20
+    Status: affected
+    Layer:
+      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
+      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-0167
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: When asked to use a `.netrc` file for credentials **and** to follow HT ...
+    Description: |-
+      When asked to use a `.netrc` file for credentials **and** to follow HTTP
+      redirects, curl could leak the password used for the first host to the
+      followed-to host under certain circumstances.
+
+      This flaw only manifests itself if the netrc file has a `default` entry that
+      omits both login and password. A rare circumstance.
+    Severity: LOW
+    VendorSeverity:
+      ubuntu: 1
+    References:
+    - https://curl.se/docs/CVE-2025-0167.html
+    - https://curl.se/docs/CVE-2025-0167.json
+    - https://hackerone.com/reports/2917232
+    - https://www.cve.org/CVERecord?id=CVE-2025-0167
+    PublishedDate: '2025-02-05T10:15:22.71Z'
+    LastModifiedDate: '2025-02-06T15:15:16.967Z'
   - VulnerabilityID: CVE-2023-34969
     PkgID: dbus@1.12.20-2ubuntu4.1
     PkgName: dbus
@@ -492,10 +533,11 @@
     - https://access.redhat.com/security/cve/CVE-2024-11187
     - https://kb.isc.org/docs/cve-2024-11187
     - https://nvd.nist.gov/vuln/detail/CVE-2024-11187
+    - https://security.netapp.com/advisory/ntap-20250207-0002/
     - https://ubuntu.com/security/notices/USN-7241-1
     - https://www.cve.org/CVERecord?id=CVE-2024-11187
     PublishedDate: '2025-01-29T22:15:28.637Z'
-    LastModifiedDate: '2025-01-29T22:15:28.637Z'
+    LastModifiedDate: '2025-02-07T17:15:30.057Z'
   - VulnerabilityID: CVE-2024-12705
     PkgID: dnsutils@1:9.18.28-0ubuntu0.22.04.1
     PkgName: dnsutils
@@ -533,10 +575,11 @@
     - https://access.redhat.com/security/cve/CVE-2024-12705
     - https://kb.isc.org/docs/cve-2024-12705
     - https://nvd.nist.gov/vuln/detail/CVE-2024-12705
+    - https://security.netapp.com/advisory/ntap-20250207-0003/
     - https://ubuntu.com/security/notices/USN-7241-1
     - https://www.cve.org/CVERecord?id=CVE-2024-12705
     PublishedDate: '2025-01-29T22:15:28.8Z'
-    LastModifiedDate: '2025-01-29T22:15:28.8Z'
+    LastModifiedDate: '2025-02-07T17:15:30.177Z'
   - VulnerabilityID: CVE-2023-4039
     PkgID: gcc-12-base@12.3.0-1ubuntu1~22.04
     PkgName: gcc-12-base
@@ -1479,6 +1522,49 @@
     - https://www.cve.org/CVERecord?id=CVE-2022-27943
     PublishedDate: '2022-03-26T13:15:07.9Z'
     LastModifiedDate: '2024-11-21T06:56:31.04Z'
+  - VulnerabilityID: CVE-2025-0395
+    PkgID: libc-bin@2.35-0ubuntu3.8
+    PkgName: libc-bin
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libc-bin@2.35-0ubuntu3.8?arch=amd64&distro=ubuntu-22.04
+      UID: 769076add98a4
+    InstalledVersion: 2.35-0ubuntu3.8
+    FixedVersion: 2.35-0ubuntu3.9
+    Status: fixed
+    Layer:
+      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
+      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-0395
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'glibc: buffer overflow in the GNU C Library''s assert()'
+    Description: When the assert() function in the GNU C Library versions 2.13 to 2.40 fails, it does not allocate enough space for the assertion failure message string and size information, which may lead to a buffer overflow if the message string size aligns to page size.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-131
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:L/A:H
+        V3Score: 5.5
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/01/22/4
+    - http://www.openwall.com/lists/oss-security/2025/01/23/2
+    - https://access.redhat.com/security/cve/CVE-2025-0395
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-0395
+    - https://sourceware.org/bugzilla/show_bug.cgi?id=32582
+    - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2025-0001
+    - https://sourceware.org/pipermail/libc-announce/2025/000044.html
+    - https://ubuntu.com/security/notices/USN-7259-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-0395
+    - https://www.openwall.com/lists/oss-security/2025/01/22/4
+    PublishedDate: '2025-01-22T13:15:20.933Z'
+    LastModifiedDate: '2025-02-04T20:15:49.587Z'
   - VulnerabilityID: CVE-2016-20013
     PkgID: libc-bin@2.35-0ubuntu3.8
     PkgName: libc-bin
@@ -1516,6 +1602,49 @@
     - https://www.cve.org/CVERecord?id=CVE-2016-20013
     PublishedDate: '2022-02-19T05:15:09.413Z'
     LastModifiedDate: '2024-11-21T02:47:33.427Z'
+  - VulnerabilityID: CVE-2025-0395
+    PkgID: libc6@2.35-0ubuntu3.8
+    PkgName: libc6
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libc6@2.35-0ubuntu3.8?arch=amd64&distro=ubuntu-22.04
+      UID: 324f2b466e16a5c
+    InstalledVersion: 2.35-0ubuntu3.8
+    FixedVersion: 2.35-0ubuntu3.9
+    Status: fixed
+    Layer:
+      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
+      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-0395
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'glibc: buffer overflow in the GNU C Library''s assert()'
+    Description: When the assert() function in the GNU C Library versions 2.13 to 2.40 fails, it does not allocate enough space for the assertion failure message string and size information, which may lead to a buffer overflow if the message string size aligns to page size.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-131
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:L/A:H
+        V3Score: 5.5
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/01/22/4
+    - http://www.openwall.com/lists/oss-security/2025/01/23/2
+    - https://access.redhat.com/security/cve/CVE-2025-0395
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-0395
+    - https://sourceware.org/bugzilla/show_bug.cgi?id=32582
+    - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2025-0001
+    - https://sourceware.org/pipermail/libc-announce/2025/000044.html
+    - https://ubuntu.com/security/notices/USN-7259-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-0395
+    - https://www.openwall.com/lists/oss-security/2025/01/22/4
+    PublishedDate: '2025-01-22T13:15:20.933Z'
+    LastModifiedDate: '2025-02-04T20:15:49.587Z'
   - VulnerabilityID: CVE-2016-20013
     PkgID: libc6@2.35-0ubuntu3.8
     PkgName: libc6
@@ -1553,6 +1682,76 @@
     - https://www.cve.org/CVERecord?id=CVE-2016-20013
     PublishedDate: '2022-02-19T05:15:09.413Z'
     LastModifiedDate: '2024-11-21T02:47:33.427Z'
+  - VulnerabilityID: CVE-2025-0167
+    PkgID: libcurl3-gnutls@7.81.0-1ubuntu1.20
+    PkgName: libcurl3-gnutls
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libcurl3-gnutls@7.81.0-1ubuntu1.20?arch=amd64&distro=ubuntu-22.04
+      UID: fd082d9c8401a760
+    InstalledVersion: 7.81.0-1ubuntu1.20
+    Status: affected
+    Layer:
+      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
+      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-0167
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: When asked to use a `.netrc` file for credentials **and** to follow HT ...
+    Description: |-
+      When asked to use a `.netrc` file for credentials **and** to follow HTTP
+      redirects, curl could leak the password used for the first host to the
+      followed-to host under certain circumstances.
+
+      This flaw only manifests itself if the netrc file has a `default` entry that
+      omits both login and password. A rare circumstance.
+    Severity: LOW
+    VendorSeverity:
+      ubuntu: 1
+    References:
+    - https://curl.se/docs/CVE-2025-0167.html
+    - https://curl.se/docs/CVE-2025-0167.json
+    - https://hackerone.com/reports/2917232
+    - https://www.cve.org/CVERecord?id=CVE-2025-0167
+    PublishedDate: '2025-02-05T10:15:22.71Z'
+    LastModifiedDate: '2025-02-06T15:15:16.967Z'
+  - VulnerabilityID: CVE-2025-0167
+    PkgID: libcurl4@7.81.0-1ubuntu1.20
+    PkgName: libcurl4
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libcurl4@7.81.0-1ubuntu1.20?arch=amd64&distro=ubuntu-22.04
+      UID: 46cceb51a40ab58a
+    InstalledVersion: 7.81.0-1ubuntu1.20
+    Status: affected
+    Layer:
+      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
+      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-0167
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: When asked to use a `.netrc` file for credentials **and** to follow HT ...
+    Description: |-
+      When asked to use a `.netrc` file for credentials **and** to follow HTTP
+      redirects, curl could leak the password used for the first host to the
+      followed-to host under certain circumstances.
+
+      This flaw only manifests itself if the netrc file has a `default` entry that
+      omits both login and password. A rare circumstance.
+    Severity: LOW
+    VendorSeverity:
+      ubuntu: 1
+    References:
+    - https://curl.se/docs/CVE-2025-0167.html
+    - https://curl.se/docs/CVE-2025-0167.json
+    - https://hackerone.com/reports/2917232
+    - https://www.cve.org/CVERecord?id=CVE-2025-0167
+    PublishedDate: '2025-02-05T10:15:22.71Z'
+    LastModifiedDate: '2025-02-06T15:15:16.967Z'
   - VulnerabilityID: CVE-2023-34969
     PkgID: libdbus-1-3@1.12.20-2ubuntu4.1
     PkgName: libdbus-1-3
@@ -3887,6 +4086,7 @@
     Severity: LOW
     CweIDs:
     - CWE-74
+    - CWE-125
     VendorSeverity:
       cbl-mariner: 1
       nvd: 1
@@ -3909,7 +4109,7 @@
     - https://www.trustwave.com/en-us/resources/blogs/spiderlabs-blog/cve-2023-29383-abusing-linux-chfn-to-misrepresent-etc-passwd/
     - https://www.trustwave.com/en-us/resources/security-resources/security-advisories/?fid=31797
     PublishedDate: '2023-04-14T22:15:07.68Z'
-    LastModifiedDate: '2024-11-21T07:56:58.387Z'
+    LastModifiedDate: '2025-02-06T22:15:35.057Z'
   - VulnerabilityID: CVE-2023-45918
     PkgID: ncurses-base@6.3-2ubuntu0.1
     PkgName: ncurses-base
@@ -4252,6 +4452,7 @@
     Severity: LOW
     CweIDs:
     - CWE-74
+    - CWE-125
     VendorSeverity:
       cbl-mariner: 1
       nvd: 1
@@ -4274,7 +4475,7 @@
     - https://www.trustwave.com/en-us/resources/blogs/spiderlabs-blog/cve-2023-29383-abusing-linux-chfn-to-misrepresent-etc-passwd/
     - https://www.trustwave.com/en-us/resources/security-resources/security-advisories/?fid=31797
     PublishedDate: '2023-04-14T22:15:07.68Z'
-    LastModifiedDate: '2024-11-21T07:56:58.387Z'
+    LastModifiedDate: '2025-02-06T22:15:35.057Z'
   - VulnerabilityID: CVE-2024-11168
     PkgID: python3.10@3.10.12-1~22.04.7
     PkgName: python3.10
@@ -4637,6 +4838,7 @@
     Severity: LOW
     CweIDs:
     - CWE-74
+    - CWE-125
     VendorSeverity:
       cbl-mariner: 1
       nvd: 1
@@ -4659,7 +4861,7 @@
     - https://www.trustwave.com/en-us/resources/blogs/spiderlabs-blog/cve-2023-29383-abusing-linux-chfn-to-misrepresent-etc-passwd/
     - https://www.trustwave.com/en-us/resources/security-resources/security-advisories/?fid=31797
     PublishedDate: '2023-04-14T22:15:07.68Z'
-    LastModifiedDate: '2024-11-21T07:56:58.387Z'
+    LastModifiedDate: '2025-02-06T22:15:35.057Z'
   - VulnerabilityID: CVE-2025-22134
     PkgID: vim@2:8.2.3995-1ubuntu2.21
     PkgName: vim
@@ -5168,7 +5370,7 @@
     CweIDs:
     - CWE-1333
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 3
       cbl-mariner: 3
       ghsa: 3
@@ -6293,7 +6495,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -6361,7 +6563,7 @@
     Severity: MEDIUM
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       bitnami: 2
       cbl-mariner: 2
       nvd: 2
@@ -7160,6 +7362,7 @@
     Severity: MEDIUM
     VendorSeverity:
       bitnami: 2
+      cbl-mariner: 2
       redhat: 1
     CVSS:
       bitnami:
@@ -7179,6 +7382,33 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-45341
     PublishedDate: '2025-01-28T02:15:29.147Z'
     LastModifiedDate: '2025-01-28T16:15:38.65Z'
+  - VulnerabilityID: CVE-2025-22866
+    PkgID: stdlib@v1.20.5
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@v1.20.5
+      UID: 25b67ef9f7a7f62f
+    InstalledVersion: v1.20.5
+    FixedVersion: 1.22.12, 1.23.6, 1.24.0-rc.3
+    Status: fixed
+    Layer:
+      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
+      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-22866
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: Due to the usage of a variable time instruction in the assembly implem ...
+    Description: Due to the usage of a variable time instruction in the assembly implementation of an internal function, a small number of bits of secret scalars are leaked on the ppc64le architecture. Due to the way this function is used, we do not believe this leakage is enough to allow recovery of the private key when P-256 is used in any well known protocols.
+    Severity: UNKNOWN
+    References:
+    - https://go.dev/cl/643735
+    - https://go.dev/issue/71383
+    - https://groups.google.com/g/golang-announce/c/xU1ZCHUZw3k
+    - https://pkg.go.dev/vuln/GO-2025-3447
+    PublishedDate: '2025-02-06T17:15:21.41Z'
+    LastModifiedDate: '2025-02-06T17:15:21.41Z'
 - Target: tmp/tmp.lFSpTqS1CB/krew-linux_amd64
   Class: lang-pkgs
   Type: gobinary
@@ -7361,7 +7591,7 @@
     CweIDs:
     - CWE-1333
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 3
       cbl-mariner: 3
       ghsa: 3
@@ -8486,7 +8716,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -8554,7 +8784,7 @@
     Severity: MEDIUM
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       bitnami: 2
       cbl-mariner: 2
       nvd: 2
@@ -9353,6 +9583,7 @@
     Severity: MEDIUM
     VendorSeverity:
       bitnami: 2
+      cbl-mariner: 2
       redhat: 1
     CVSS:
       bitnami:
@@ -9372,6 +9603,33 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-45341
     PublishedDate: '2025-01-28T02:15:29.147Z'
     LastModifiedDate: '2025-01-28T16:15:38.65Z'
+  - VulnerabilityID: CVE-2025-22866
+    PkgID: stdlib@v1.20.5
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@v1.20.5
+      UID: 16fb642a207df156
+    InstalledVersion: v1.20.5
+    FixedVersion: 1.22.12, 1.23.6, 1.24.0-rc.3
+    Status: fixed
+    Layer:
+      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
+      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-22866
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: Due to the usage of a variable time instruction in the assembly implem ...
+    Description: Due to the usage of a variable time instruction in the assembly implementation of an internal function, a small number of bits of secret scalars are leaked on the ppc64le architecture. Due to the way this function is used, we do not believe this leakage is enough to allow recovery of the private key when P-256 is used in any well known protocols.
+    Severity: UNKNOWN
+    References:
+    - https://go.dev/cl/643735
+    - https://go.dev/issue/71383
+    - https://groups.google.com/g/golang-announce/c/xU1ZCHUZw3k
+    - https://pkg.go.dev/vuln/GO-2025-3447
+    PublishedDate: '2025-02-06T17:15:21.41Z'
+    LastModifiedDate: '2025-02-06T17:15:21.41Z'
 - Target: usr/bin/docker-compose
   Class: lang-pkgs
   Type: gobinary
@@ -9400,7 +9658,7 @@
     CweIDs:
     - CWE-1333
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 3
       cbl-mariner: 3
       ghsa: 3
@@ -9487,6 +9745,7 @@
     Severity: MEDIUM
     VendorSeverity:
       bitnami: 2
+      cbl-mariner: 2
       redhat: 1
     CVSS:
       bitnami:
@@ -9506,6 +9765,33 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-45341
     PublishedDate: '2025-01-28T02:15:29.147Z'
     LastModifiedDate: '2025-01-28T16:15:38.65Z'
+  - VulnerabilityID: CVE-2025-22866
+    PkgID: stdlib@v1.22.8
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@v1.22.8
+      UID: 9e834a38ae7f8fea
+    InstalledVersion: v1.22.8
+    FixedVersion: 1.22.12, 1.23.6, 1.24.0-rc.3
+    Status: fixed
+    Layer:
+      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
+      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-22866
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: Due to the usage of a variable time instruction in the assembly implem ...
+    Description: Due to the usage of a variable time instruction in the assembly implementation of an internal function, a small number of bits of secret scalars are leaked on the ppc64le architecture. Due to the way this function is used, we do not believe this leakage is enough to allow recovery of the private key when P-256 is used in any well known protocols.
+    Severity: UNKNOWN
+    References:
+    - https://go.dev/cl/643735
+    - https://go.dev/issue/71383
+    - https://groups.google.com/g/golang-announce/c/xU1ZCHUZw3k
+    - https://pkg.go.dev/vuln/GO-2025-3447
+    PublishedDate: '2025-02-06T17:15:21.41Z'
+    LastModifiedDate: '2025-02-06T17:15:21.41Z'
 - Target: usr/bin/helm
   Class: lang-pkgs
   Type: gobinary
@@ -9534,7 +9820,7 @@
     CweIDs:
     - CWE-1333
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 3
       cbl-mariner: 3
       ghsa: 3
@@ -9621,6 +9907,7 @@
     Severity: MEDIUM
     VendorSeverity:
       bitnami: 2
+      cbl-mariner: 2
       redhat: 1
     CVSS:
       bitnami:
@@ -9640,6 +9927,33 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-45341
     PublishedDate: '2025-01-28T02:15:29.147Z'
     LastModifiedDate: '2025-01-28T16:15:38.65Z'
+  - VulnerabilityID: CVE-2025-22866
+    PkgID: stdlib@v1.22.7
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@v1.22.7
+      UID: e3ea6a5d54007ed0
+    InstalledVersion: v1.22.7
+    FixedVersion: 1.22.12, 1.23.6, 1.24.0-rc.3
+    Status: fixed
+    Layer:
+      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
+      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-22866
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: Due to the usage of a variable time instruction in the assembly implem ...
+    Description: Due to the usage of a variable time instruction in the assembly implementation of an internal function, a small number of bits of secret scalars are leaked on the ppc64le architecture. Due to the way this function is used, we do not believe this leakage is enough to allow recovery of the private key when P-256 is used in any well known protocols.
+    Severity: UNKNOWN
+    References:
+    - https://go.dev/cl/643735
+    - https://go.dev/issue/71383
+    - https://groups.google.com/g/golang-announce/c/xU1ZCHUZw3k
+    - https://pkg.go.dev/vuln/GO-2025-3447
+    PublishedDate: '2025-02-06T17:15:21.41Z'
+    LastModifiedDate: '2025-02-06T17:15:21.41Z'
 - Target: usr/bin/kubectl
   Class: lang-pkgs
   Type: gobinary
@@ -9668,7 +9982,7 @@
     CweIDs:
     - CWE-1333
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 3
       cbl-mariner: 3
       ghsa: 3
@@ -9755,6 +10069,7 @@
     Severity: MEDIUM
     VendorSeverity:
       bitnami: 2
+      cbl-mariner: 2
       redhat: 1
     CVSS:
       bitnami:
@@ -9774,6 +10089,33 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-45341
     PublishedDate: '2025-01-28T02:15:29.147Z'
     LastModifiedDate: '2025-01-28T16:15:38.65Z'
+  - VulnerabilityID: CVE-2025-22866
+    PkgID: stdlib@v1.23.3
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@v1.23.3
+      UID: 68f96b58099ab89f
+    InstalledVersion: v1.23.3
+    FixedVersion: 1.22.12, 1.23.6, 1.24.0-rc.3
+    Status: fixed
+    Layer:
+      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
+      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-22866
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: Due to the usage of a variable time instruction in the assembly implem ...
+    Description: Due to the usage of a variable time instruction in the assembly implementation of an internal function, a small number of bits of secret scalars are leaked on the ppc64le architecture. Due to the way this function is used, we do not believe this leakage is enough to allow recovery of the private key when P-256 is used in any well known protocols.
+    Severity: UNKNOWN
+    References:
+    - https://go.dev/cl/643735
+    - https://go.dev/issue/71383
+    - https://groups.google.com/g/golang-announce/c/xU1ZCHUZw3k
+    - https://pkg.go.dev/vuln/GO-2025-3447
+    PublishedDate: '2025-02-06T17:15:21.41Z'
+    LastModifiedDate: '2025-02-06T17:15:21.41Z'
 - Target: usr/bin/mc
   Class: lang-pkgs
   Type: gobinary
@@ -9851,7 +10193,7 @@
     CweIDs:
     - CWE-1333
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 3
       cbl-mariner: 3
       ghsa: 3
@@ -9938,6 +10280,7 @@
     Severity: MEDIUM
     VendorSeverity:
       bitnami: 2
+      cbl-mariner: 2
       redhat: 1
     CVSS:
       bitnami:
@@ -9957,6 +10300,33 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-45341
     PublishedDate: '2025-01-28T02:15:29.147Z'
     LastModifiedDate: '2025-01-28T16:15:38.65Z'
+  - VulnerabilityID: CVE-2025-22866
+    PkgID: stdlib@v1.23.4
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@v1.23.4
+      UID: f4caed7de28dc5af
+    InstalledVersion: v1.23.4
+    FixedVersion: 1.22.12, 1.23.6, 1.24.0-rc.3
+    Status: fixed
+    Layer:
+      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
+      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-22866
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: Due to the usage of a variable time instruction in the assembly implem ...
+    Description: Due to the usage of a variable time instruction in the assembly implementation of an internal function, a small number of bits of secret scalars are leaked on the ppc64le architecture. Due to the way this function is used, we do not believe this leakage is enough to allow recovery of the private key when P-256 is used in any well known protocols.
+    Severity: UNKNOWN
+    References:
+    - https://go.dev/cl/643735
+    - https://go.dev/issue/71383
+    - https://groups.google.com/g/golang-announce/c/xU1ZCHUZw3k
+    - https://pkg.go.dev/vuln/GO-2025-3447
+    PublishedDate: '2025-02-06T17:15:21.41Z'
+    LastModifiedDate: '2025-02-06T17:15:21.41Z'
 - Target: usr/local/bin/k3d
   Class: lang-pkgs
   Type: gobinary
@@ -10105,7 +10475,7 @@
     CweIDs:
     - CWE-1333
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 3
       cbl-mariner: 3
       ghsa: 3
@@ -10227,6 +10597,7 @@
     Severity: MEDIUM
     VendorSeverity:
       bitnami: 2
+      cbl-mariner: 2
       redhat: 1
     CVSS:
       bitnami:
@@ -10246,68 +10617,33 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-45341
     PublishedDate: '2025-01-28T02:15:29.147Z'
     LastModifiedDate: '2025-01-28T16:15:38.65Z'
-- Target: /etc/ssh/ssh_host_ed25519_key
-  Class: secret
-  Secrets:
-  - RuleID: private-key
-    Category: AsymmetricPrivateKey
-    Severity: HIGH
-    Title: Asymmetric Private Key
-    StartLine: 1
-    EndLine: 1
-    Code:
-      Lines:
-      - Number: 1
-        Content: BEGIN OPENSSH PRIVATE KEY-----******************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
-        IsCause: true
-        Annotation: ''
-        Truncated: false
-        Highlighted: BEGIN OPENSSH PRIVATE KEY-----******************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
-        FirstCause: true
-        LastCause: true
-      - Number: 2
-        Content: ''
-        IsCause: false
-        Annotation: ''
-        Truncated: false
-        FirstCause: false
-        LastCause: false
-    Match: BEGIN OPENSSH PRIVATE KEY-----******************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
+  - VulnerabilityID: CVE-2025-22866
+    PkgID: stdlib@v1.22.9
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@v1.22.9
+      UID: e2dccc7ca75bb7a8
+    InstalledVersion: v1.22.9
+    FixedVersion: 1.22.12, 1.23.6, 1.24.0-rc.3
+    Status: fixed
     Layer:
       Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
       DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
-      CreatedBy: 'COPY / / # buildkit'
-- Target: /etc/ssh/ssh_host_rsa_key
-  Class: secret
-  Secrets:
-  - RuleID: private-key
-    Category: AsymmetricPrivateKey
-    Severity: HIGH
-    Title: Asymmetric Private Key
-    StartLine: 1
-    EndLine: 1
-    Code:
-      Lines:
-      - Number: 1
-        Content: BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
-        IsCause: true
-        Annotation: ''
-        Truncated: false
-        Highlighted: BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
-        FirstCause: true
-        LastCause: true
-      - Number: 2
-        Content: ''
-        IsCause: false
-        Annotation: ''
-        Truncated: false
-        FirstCause: false
-        LastCause: false
-    Match: BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
-    Layer:
-      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
-      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
-      CreatedBy: 'COPY / / # buildkit'
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-22866
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: Due to the usage of a variable time instruction in the assembly implem ...
+    Description: Due to the usage of a variable time instruction in the assembly implementation of an internal function, a small number of bits of secret scalars are leaked on the ppc64le architecture. Due to the way this function is used, we do not believe this leakage is enough to allow recovery of the private key when P-256 is used in any well known protocols.
+    Severity: UNKNOWN
+    References:
+    - https://go.dev/cl/643735
+    - https://go.dev/issue/71383
+    - https://groups.google.com/g/golang-announce/c/xU1ZCHUZw3k
+    - https://pkg.go.dev/vuln/GO-2025-3447
+    PublishedDate: '2025-02-06T17:15:21.41Z'
+    LastModifiedDate: '2025-02-06T17:15:21.41Z'
 - Target: /etc/ssh/ssh_host_dsa_key
   Class: secret
   Secrets:
@@ -10366,6 +10702,68 @@
         FirstCause: false
         LastCause: false
     Match: BEGIN OPENSSH PRIVATE KEY-----************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
+    Layer:
+      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
+      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      CreatedBy: 'COPY / / # buildkit'
+- Target: /etc/ssh/ssh_host_ed25519_key
+  Class: secret
+  Secrets:
+  - RuleID: private-key
+    Category: AsymmetricPrivateKey
+    Severity: HIGH
+    Title: Asymmetric Private Key
+    StartLine: 1
+    EndLine: 1
+    Code:
+      Lines:
+      - Number: 1
+        Content: BEGIN OPENSSH PRIVATE KEY-----******************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
+        IsCause: true
+        Annotation: ''
+        Truncated: false
+        Highlighted: BEGIN OPENSSH PRIVATE KEY-----******************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
+        FirstCause: true
+        LastCause: true
+      - Number: 2
+        Content: ''
+        IsCause: false
+        Annotation: ''
+        Truncated: false
+        FirstCause: false
+        LastCause: false
+    Match: BEGIN OPENSSH PRIVATE KEY-----******************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
+    Layer:
+      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
+      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+      CreatedBy: 'COPY / / # buildkit'
+- Target: /etc/ssh/ssh_host_rsa_key
+  Class: secret
+  Secrets:
+  - RuleID: private-key
+    Category: AsymmetricPrivateKey
+    Severity: HIGH
+    Title: Asymmetric Private Key
+    StartLine: 1
+    EndLine: 1
+    Code:
+      Lines:
+      - Number: 1
+        Content: BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
+        IsCause: true
+        Annotation: ''
+        Truncated: false
+        Highlighted: BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
+        FirstCause: true
+        LastCause: true
+      - Number: 2
+        Content: ''
+        IsCause: false
+        Annotation: ''
+        Truncated: false
+        FirstCause: false
+        LastCause: false
+    Match: BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
     Layer:
       Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
       DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
