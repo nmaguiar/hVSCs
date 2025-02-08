@@ -2,6 +2,258 @@
   Class: os-pkgs
   Type: ubuntu
   Vulnerabilities:
+  - VulnerabilityID: CVE-2024-11187
+    PkgID: bind9-dnsutils@1:9.18.28-0ubuntu0.22.04.1
+    PkgName: bind9-dnsutils
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/bind9-dnsutils@9.18.28-0ubuntu0.22.04.1?arch=amd64&distro=ubuntu-22.04&epoch=1
+      UID: 5199953bbbf68b10
+    InstalledVersion: 1:9.18.28-0ubuntu0.22.04.1
+    FixedVersion: 1:9.18.30-0ubuntu0.22.04.2
+    Status: fixed
+    Layer:
+      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
+      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-11187
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'bind: bind9: Many records in the additional section cause CPU exhaustion'
+    Description: |-
+      It is possible to construct a zone such that some queries to it will generate responses containing numerous records in the Additional section. An attacker sending many such queries can cause either the authoritative server itself or an independent resolver to use disproportionate resources processing the queries. Zones will usually need to have been deliberately crafted to attack this exposure.
+      This issue affects BIND 9 versions 9.11.0 through 9.11.37, 9.16.0 through 9.16.50, 9.18.0 through 9.18.32, 9.20.0 through 9.20.4, 9.21.0 through 9.21.3, 9.11.3-S1 through 9.11.37-S1, 9.16.8-S1 through 9.16.50-S1, and 9.18.11-S1 through 9.18.32-S1.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-405
+    VendorSeverity:
+      amazon: 3
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-11187
+    - https://kb.isc.org/docs/cve-2024-11187
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-11187
+    - https://security.netapp.com/advisory/ntap-20250207-0002/
+    - https://ubuntu.com/security/notices/USN-7241-1
+    - https://www.cve.org/CVERecord?id=CVE-2024-11187
+    PublishedDate: '2025-01-29T22:15:28.637Z'
+    LastModifiedDate: '2025-02-07T17:15:30.057Z'
+  - VulnerabilityID: CVE-2024-12705
+    PkgID: bind9-dnsutils@1:9.18.28-0ubuntu0.22.04.1
+    PkgName: bind9-dnsutils
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/bind9-dnsutils@9.18.28-0ubuntu0.22.04.1?arch=amd64&distro=ubuntu-22.04&epoch=1
+      UID: 5199953bbbf68b10
+    InstalledVersion: 1:9.18.28-0ubuntu0.22.04.1
+    FixedVersion: 1:9.18.30-0ubuntu0.22.04.2
+    Status: fixed
+    Layer:
+      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
+      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-12705
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'bind: bind9: DNS-over-HTTPS implementation suffers from multiple issues under heavy query load'
+    Description: |-
+      Clients using DNS-over-HTTPS (DoH) can exhaust a DNS resolver's CPU and/or memory by flooding it with crafted valid or invalid HTTP/2 traffic.
+      This issue affects BIND 9 versions 9.18.0 through 9.18.32, 9.20.0 through 9.20.4, 9.21.0 through 9.21.3, and 9.18.11-S1 through 9.18.32-S1.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-770
+    VendorSeverity:
+      amazon: 3
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-12705
+    - https://kb.isc.org/docs/cve-2024-12705
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-12705
+    - https://security.netapp.com/advisory/ntap-20250207-0003/
+    - https://ubuntu.com/security/notices/USN-7241-1
+    - https://www.cve.org/CVERecord?id=CVE-2024-12705
+    PublishedDate: '2025-01-29T22:15:28.8Z'
+    LastModifiedDate: '2025-02-07T17:15:30.177Z'
+  - VulnerabilityID: CVE-2024-11187
+    PkgID: bind9-host@1:9.18.28-0ubuntu0.22.04.1
+    PkgName: bind9-host
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/bind9-host@9.18.28-0ubuntu0.22.04.1?arch=amd64&distro=ubuntu-22.04&epoch=1
+      UID: 14ecf32540032ddf
+    InstalledVersion: 1:9.18.28-0ubuntu0.22.04.1
+    FixedVersion: 1:9.18.30-0ubuntu0.22.04.2
+    Status: fixed
+    Layer:
+      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
+      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-11187
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'bind: bind9: Many records in the additional section cause CPU exhaustion'
+    Description: |-
+      It is possible to construct a zone such that some queries to it will generate responses containing numerous records in the Additional section. An attacker sending many such queries can cause either the authoritative server itself or an independent resolver to use disproportionate resources processing the queries. Zones will usually need to have been deliberately crafted to attack this exposure.
+      This issue affects BIND 9 versions 9.11.0 through 9.11.37, 9.16.0 through 9.16.50, 9.18.0 through 9.18.32, 9.20.0 through 9.20.4, 9.21.0 through 9.21.3, 9.11.3-S1 through 9.11.37-S1, 9.16.8-S1 through 9.16.50-S1, and 9.18.11-S1 through 9.18.32-S1.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-405
+    VendorSeverity:
+      amazon: 3
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-11187
+    - https://kb.isc.org/docs/cve-2024-11187
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-11187
+    - https://security.netapp.com/advisory/ntap-20250207-0002/
+    - https://ubuntu.com/security/notices/USN-7241-1
+    - https://www.cve.org/CVERecord?id=CVE-2024-11187
+    PublishedDate: '2025-01-29T22:15:28.637Z'
+    LastModifiedDate: '2025-02-07T17:15:30.057Z'
+  - VulnerabilityID: CVE-2024-12705
+    PkgID: bind9-host@1:9.18.28-0ubuntu0.22.04.1
+    PkgName: bind9-host
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/bind9-host@9.18.28-0ubuntu0.22.04.1?arch=amd64&distro=ubuntu-22.04&epoch=1
+      UID: 14ecf32540032ddf
+    InstalledVersion: 1:9.18.28-0ubuntu0.22.04.1
+    FixedVersion: 1:9.18.30-0ubuntu0.22.04.2
+    Status: fixed
+    Layer:
+      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
+      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-12705
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'bind: bind9: DNS-over-HTTPS implementation suffers from multiple issues under heavy query load'
+    Description: |-
+      Clients using DNS-over-HTTPS (DoH) can exhaust a DNS resolver's CPU and/or memory by flooding it with crafted valid or invalid HTTP/2 traffic.
+      This issue affects BIND 9 versions 9.18.0 through 9.18.32, 9.20.0 through 9.20.4, 9.21.0 through 9.21.3, and 9.18.11-S1 through 9.18.32-S1.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-770
+    VendorSeverity:
+      amazon: 3
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-12705
+    - https://kb.isc.org/docs/cve-2024-12705
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-12705
+    - https://security.netapp.com/advisory/ntap-20250207-0003/
+    - https://ubuntu.com/security/notices/USN-7241-1
+    - https://www.cve.org/CVERecord?id=CVE-2024-12705
+    PublishedDate: '2025-01-29T22:15:28.8Z'
+    LastModifiedDate: '2025-02-07T17:15:30.177Z'
+  - VulnerabilityID: CVE-2024-11187
+    PkgID: bind9-libs@1:9.18.28-0ubuntu0.22.04.1
+    PkgName: bind9-libs
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/bind9-libs@9.18.28-0ubuntu0.22.04.1?arch=amd64&distro=ubuntu-22.04&epoch=1
+      UID: b548f570656622b8
+    InstalledVersion: 1:9.18.28-0ubuntu0.22.04.1
+    FixedVersion: 1:9.18.30-0ubuntu0.22.04.2
+    Status: fixed
+    Layer:
+      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
+      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-11187
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'bind: bind9: Many records in the additional section cause CPU exhaustion'
+    Description: |-
+      It is possible to construct a zone such that some queries to it will generate responses containing numerous records in the Additional section. An attacker sending many such queries can cause either the authoritative server itself or an independent resolver to use disproportionate resources processing the queries. Zones will usually need to have been deliberately crafted to attack this exposure.
+      This issue affects BIND 9 versions 9.11.0 through 9.11.37, 9.16.0 through 9.16.50, 9.18.0 through 9.18.32, 9.20.0 through 9.20.4, 9.21.0 through 9.21.3, 9.11.3-S1 through 9.11.37-S1, 9.16.8-S1 through 9.16.50-S1, and 9.18.11-S1 through 9.18.32-S1.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-405
+    VendorSeverity:
+      amazon: 3
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-11187
+    - https://kb.isc.org/docs/cve-2024-11187
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-11187
+    - https://security.netapp.com/advisory/ntap-20250207-0002/
+    - https://ubuntu.com/security/notices/USN-7241-1
+    - https://www.cve.org/CVERecord?id=CVE-2024-11187
+    PublishedDate: '2025-01-29T22:15:28.637Z'
+    LastModifiedDate: '2025-02-07T17:15:30.057Z'
+  - VulnerabilityID: CVE-2024-12705
+    PkgID: bind9-libs@1:9.18.28-0ubuntu0.22.04.1
+    PkgName: bind9-libs
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/bind9-libs@9.18.28-0ubuntu0.22.04.1?arch=amd64&distro=ubuntu-22.04&epoch=1
+      UID: b548f570656622b8
+    InstalledVersion: 1:9.18.28-0ubuntu0.22.04.1
+    FixedVersion: 1:9.18.30-0ubuntu0.22.04.2
+    Status: fixed
+    Layer:
+      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
+      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-12705
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'bind: bind9: DNS-over-HTTPS implementation suffers from multiple issues under heavy query load'
+    Description: |-
+      Clients using DNS-over-HTTPS (DoH) can exhaust a DNS resolver's CPU and/or memory by flooding it with crafted valid or invalid HTTP/2 traffic.
+      This issue affects BIND 9 versions 9.18.0 through 9.18.32, 9.20.0 through 9.20.4, 9.21.0 through 9.21.3, and 9.18.11-S1 through 9.18.32-S1.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-770
+    VendorSeverity:
+      amazon: 3
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-12705
+    - https://kb.isc.org/docs/cve-2024-12705
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-12705
+    - https://security.netapp.com/advisory/ntap-20250207-0003/
+    - https://ubuntu.com/security/notices/USN-7241-1
+    - https://www.cve.org/CVERecord?id=CVE-2024-12705
+    PublishedDate: '2025-01-29T22:15:28.8Z'
+    LastModifiedDate: '2025-02-07T17:15:30.177Z'
   - VulnerabilityID: CVE-2016-2781
     PkgID: coreutils@8.32-4.1ubuntu1.2
     PkgName: coreutils
@@ -52,7 +304,42 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2016-2781
     - https://www.cve.org/CVERecord?id=CVE-2016-2781
     PublishedDate: '2017-02-07T15:59:00.333Z'
-    LastModifiedDate: '2023-11-07T02:32:03.347Z'
+    LastModifiedDate: '2024-11-21T02:48:47.593Z'
+  - VulnerabilityID: CVE-2025-0167
+    PkgID: curl@7.81.0-1ubuntu1.20
+    PkgName: curl
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/curl@7.81.0-1ubuntu1.20?arch=amd64&distro=ubuntu-22.04
+      UID: 3090041d6f66e76
+    InstalledVersion: 7.81.0-1ubuntu1.20
+    Status: affected
+    Layer:
+      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
+      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-0167
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: When asked to use a `.netrc` file for credentials **and** to follow HT ...
+    Description: |-
+      When asked to use a `.netrc` file for credentials **and** to follow HTTP
+      redirects, curl could leak the password used for the first host to the
+      followed-to host under certain circumstances.
+
+      This flaw only manifests itself if the netrc file has a `default` entry that
+      omits both login and password. A rare circumstance.
+    Severity: LOW
+    VendorSeverity:
+      ubuntu: 1
+    References:
+    - https://curl.se/docs/CVE-2025-0167.html
+    - https://curl.se/docs/CVE-2025-0167.json
+    - https://hackerone.com/reports/2917232
+    - https://www.cve.org/CVERecord?id=CVE-2025-0167
+    PublishedDate: '2025-02-05T10:15:22.71Z'
+    LastModifiedDate: '2025-02-06T15:15:16.967Z'
   - VulnerabilityID: CVE-2023-34969
     PkgID: dbus@1.12.20-2ubuntu4.1
     PkgName: dbus
@@ -108,7 +395,7 @@
     - https://ubuntu.com/security/notices/USN-6372-1
     - https://www.cve.org/CVERecord?id=CVE-2023-34969
     PublishedDate: '2023-06-08T03:15:08.97Z'
-    LastModifiedDate: '2023-12-27T16:36:58.353Z'
+    LastModifiedDate: '2024-11-21T08:07:44.607Z'
   - VulnerabilityID: CVE-2023-34969
     PkgID: dbus-user-session@1.12.20-2ubuntu4.1
     PkgName: dbus-user-session
@@ -164,7 +451,7 @@
     - https://ubuntu.com/security/notices/USN-6372-1
     - https://www.cve.org/CVERecord?id=CVE-2023-34969
     PublishedDate: '2023-06-08T03:15:08.97Z'
-    LastModifiedDate: '2023-12-27T16:36:58.353Z'
+    LastModifiedDate: '2024-11-21T08:07:44.607Z'
   - VulnerabilityID: CVE-2022-3219
     PkgID: dirmngr@2.2.27-3ubuntu2.1
     PkgName: dirmngr
@@ -208,7 +495,91 @@
     - https://security.netapp.com/advisory/ntap-20230324-0001/
     - https://www.cve.org/CVERecord?id=CVE-2022-3219
     PublishedDate: '2023-02-23T20:15:12.393Z'
-    LastModifiedDate: '2023-05-26T16:31:34.07Z'
+    LastModifiedDate: '2024-11-21T07:19:04.727Z'
+  - VulnerabilityID: CVE-2024-11187
+    PkgID: dnsutils@1:9.18.28-0ubuntu0.22.04.1
+    PkgName: dnsutils
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/dnsutils@9.18.28-0ubuntu0.22.04.1?arch=all&distro=ubuntu-22.04&epoch=1
+      UID: 777bda66b666fc89
+    InstalledVersion: 1:9.18.28-0ubuntu0.22.04.1
+    FixedVersion: 1:9.18.30-0ubuntu0.22.04.2
+    Status: fixed
+    Layer:
+      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
+      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-11187
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'bind: bind9: Many records in the additional section cause CPU exhaustion'
+    Description: |-
+      It is possible to construct a zone such that some queries to it will generate responses containing numerous records in the Additional section. An attacker sending many such queries can cause either the authoritative server itself or an independent resolver to use disproportionate resources processing the queries. Zones will usually need to have been deliberately crafted to attack this exposure.
+      This issue affects BIND 9 versions 9.11.0 through 9.11.37, 9.16.0 through 9.16.50, 9.18.0 through 9.18.32, 9.20.0 through 9.20.4, 9.21.0 through 9.21.3, 9.11.3-S1 through 9.11.37-S1, 9.16.8-S1 through 9.16.50-S1, and 9.18.11-S1 through 9.18.32-S1.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-405
+    VendorSeverity:
+      amazon: 3
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-11187
+    - https://kb.isc.org/docs/cve-2024-11187
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-11187
+    - https://security.netapp.com/advisory/ntap-20250207-0002/
+    - https://ubuntu.com/security/notices/USN-7241-1
+    - https://www.cve.org/CVERecord?id=CVE-2024-11187
+    PublishedDate: '2025-01-29T22:15:28.637Z'
+    LastModifiedDate: '2025-02-07T17:15:30.057Z'
+  - VulnerabilityID: CVE-2024-12705
+    PkgID: dnsutils@1:9.18.28-0ubuntu0.22.04.1
+    PkgName: dnsutils
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/dnsutils@9.18.28-0ubuntu0.22.04.1?arch=all&distro=ubuntu-22.04&epoch=1
+      UID: 777bda66b666fc89
+    InstalledVersion: 1:9.18.28-0ubuntu0.22.04.1
+    FixedVersion: 1:9.18.30-0ubuntu0.22.04.2
+    Status: fixed
+    Layer:
+      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
+      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-12705
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'bind: bind9: DNS-over-HTTPS implementation suffers from multiple issues under heavy query load'
+    Description: |-
+      Clients using DNS-over-HTTPS (DoH) can exhaust a DNS resolver's CPU and/or memory by flooding it with crafted valid or invalid HTTP/2 traffic.
+      This issue affects BIND 9 versions 9.18.0 through 9.18.32, 9.20.0 through 9.20.4, 9.21.0 through 9.21.3, and 9.18.11-S1 through 9.18.32-S1.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-770
+    VendorSeverity:
+      amazon: 3
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-12705
+    - https://kb.isc.org/docs/cve-2024-12705
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-12705
+    - https://security.netapp.com/advisory/ntap-20250207-0003/
+    - https://ubuntu.com/security/notices/USN-7241-1
+    - https://www.cve.org/CVERecord?id=CVE-2024-12705
+    PublishedDate: '2025-01-29T22:15:28.8Z'
+    LastModifiedDate: '2025-02-07T17:15:30.177Z'
   - VulnerabilityID: CVE-2023-4039
     PkgID: gcc-12-base@12.3.0-1ubuntu1~22.04
     PkgName: gcc-12-base
@@ -276,7 +647,7 @@
     - https://rtx.meta.security/mitigation/2023/09/12/CVE-2023-4039.html
     - https://www.cve.org/CVERecord?id=CVE-2023-4039
     PublishedDate: '2023-09-13T09:15:15.69Z'
-    LastModifiedDate: '2024-08-02T08:15:14.993Z'
+    LastModifiedDate: '2024-11-21T08:34:16.613Z'
   - VulnerabilityID: CVE-2022-27943
     PkgID: gcc-12-base@12.3.0-1ubuntu1~22.04
     PkgName: gcc-12-base
@@ -325,7 +696,7 @@
     - https://sourceware.org/bugzilla/show_bug.cgi?id=28995
     - https://www.cve.org/CVERecord?id=CVE-2022-27943
     PublishedDate: '2022-03-26T13:15:07.9Z'
-    LastModifiedDate: '2023-11-07T03:45:32.64Z'
+    LastModifiedDate: '2024-11-21T06:56:31.04Z'
   - VulnerabilityID: CVE-2024-50349
     PkgID: git@1:2.34.1-1ubuntu1.11
     PkgName: git
@@ -459,7 +830,7 @@
     - https://public-inbox.org/git/20180205204312.GB104086@aiede.svl.corp.google.com/
     - https://www.cve.org/CVERecord?id=CVE-2018-1000021
     PublishedDate: '2018-02-09T23:29:00.557Z'
-    LastModifiedDate: '2024-10-24T17:58:28.347Z'
+    LastModifiedDate: '2024-11-21T03:39:26.66Z'
   - VulnerabilityID: CVE-2024-50349
     PkgID: git-man@1:2.34.1-1ubuntu1.11
     PkgName: git-man
@@ -593,7 +964,7 @@
     - https://public-inbox.org/git/20180205204312.GB104086@aiede.svl.corp.google.com/
     - https://www.cve.org/CVERecord?id=CVE-2018-1000021
     PublishedDate: '2018-02-09T23:29:00.557Z'
-    LastModifiedDate: '2024-10-24T17:58:28.347Z'
+    LastModifiedDate: '2024-11-21T03:39:26.66Z'
   - VulnerabilityID: CVE-2022-3219
     PkgID: gnupg@2.2.27-3ubuntu2.1
     PkgName: gnupg
@@ -637,7 +1008,7 @@
     - https://security.netapp.com/advisory/ntap-20230324-0001/
     - https://www.cve.org/CVERecord?id=CVE-2022-3219
     PublishedDate: '2023-02-23T20:15:12.393Z'
-    LastModifiedDate: '2023-05-26T16:31:34.07Z'
+    LastModifiedDate: '2024-11-21T07:19:04.727Z'
   - VulnerabilityID: CVE-2022-3219
     PkgID: gnupg-l10n@2.2.27-3ubuntu2.1
     PkgName: gnupg-l10n
@@ -681,7 +1052,7 @@
     - https://security.netapp.com/advisory/ntap-20230324-0001/
     - https://www.cve.org/CVERecord?id=CVE-2022-3219
     PublishedDate: '2023-02-23T20:15:12.393Z'
-    LastModifiedDate: '2023-05-26T16:31:34.07Z'
+    LastModifiedDate: '2024-11-21T07:19:04.727Z'
   - VulnerabilityID: CVE-2022-3219
     PkgID: gnupg-utils@2.2.27-3ubuntu2.1
     PkgName: gnupg-utils
@@ -725,7 +1096,7 @@
     - https://security.netapp.com/advisory/ntap-20230324-0001/
     - https://www.cve.org/CVERecord?id=CVE-2022-3219
     PublishedDate: '2023-02-23T20:15:12.393Z'
-    LastModifiedDate: '2023-05-26T16:31:34.07Z'
+    LastModifiedDate: '2024-11-21T07:19:04.727Z'
   - VulnerabilityID: CVE-2022-3219
     PkgID: gpg@2.2.27-3ubuntu2.1
     PkgName: gpg
@@ -769,7 +1140,7 @@
     - https://security.netapp.com/advisory/ntap-20230324-0001/
     - https://www.cve.org/CVERecord?id=CVE-2022-3219
     PublishedDate: '2023-02-23T20:15:12.393Z'
-    LastModifiedDate: '2023-05-26T16:31:34.07Z'
+    LastModifiedDate: '2024-11-21T07:19:04.727Z'
   - VulnerabilityID: CVE-2022-3219
     PkgID: gpg-agent@2.2.27-3ubuntu2.1
     PkgName: gpg-agent
@@ -813,7 +1184,7 @@
     - https://security.netapp.com/advisory/ntap-20230324-0001/
     - https://www.cve.org/CVERecord?id=CVE-2022-3219
     PublishedDate: '2023-02-23T20:15:12.393Z'
-    LastModifiedDate: '2023-05-26T16:31:34.07Z'
+    LastModifiedDate: '2024-11-21T07:19:04.727Z'
   - VulnerabilityID: CVE-2022-3219
     PkgID: gpg-wks-client@2.2.27-3ubuntu2.1
     PkgName: gpg-wks-client
@@ -857,7 +1228,7 @@
     - https://security.netapp.com/advisory/ntap-20230324-0001/
     - https://www.cve.org/CVERecord?id=CVE-2022-3219
     PublishedDate: '2023-02-23T20:15:12.393Z'
-    LastModifiedDate: '2023-05-26T16:31:34.07Z'
+    LastModifiedDate: '2024-11-21T07:19:04.727Z'
   - VulnerabilityID: CVE-2022-3219
     PkgID: gpg-wks-server@2.2.27-3ubuntu2.1
     PkgName: gpg-wks-server
@@ -901,7 +1272,7 @@
     - https://security.netapp.com/advisory/ntap-20230324-0001/
     - https://www.cve.org/CVERecord?id=CVE-2022-3219
     PublishedDate: '2023-02-23T20:15:12.393Z'
-    LastModifiedDate: '2023-05-26T16:31:34.07Z'
+    LastModifiedDate: '2024-11-21T07:19:04.727Z'
   - VulnerabilityID: CVE-2022-3219
     PkgID: gpgconf@2.2.27-3ubuntu2.1
     PkgName: gpgconf
@@ -945,7 +1316,7 @@
     - https://security.netapp.com/advisory/ntap-20230324-0001/
     - https://www.cve.org/CVERecord?id=CVE-2022-3219
     PublishedDate: '2023-02-23T20:15:12.393Z'
-    LastModifiedDate: '2023-05-26T16:31:34.07Z'
+    LastModifiedDate: '2024-11-21T07:19:04.727Z'
   - VulnerabilityID: CVE-2022-3219
     PkgID: gpgsm@2.2.27-3ubuntu2.1
     PkgName: gpgsm
@@ -989,7 +1360,7 @@
     - https://security.netapp.com/advisory/ntap-20230324-0001/
     - https://www.cve.org/CVERecord?id=CVE-2022-3219
     PublishedDate: '2023-02-23T20:15:12.393Z'
-    LastModifiedDate: '2023-05-26T16:31:34.07Z'
+    LastModifiedDate: '2024-11-21T07:19:04.727Z'
   - VulnerabilityID: CVE-2022-3219
     PkgID: gpgv@2.2.27-3ubuntu2.1
     PkgName: gpgv
@@ -1033,7 +1404,7 @@
     - https://security.netapp.com/advisory/ntap-20230324-0001/
     - https://www.cve.org/CVERecord?id=CVE-2022-3219
     PublishedDate: '2023-02-23T20:15:12.393Z'
-    LastModifiedDate: '2023-05-26T16:31:34.07Z'
+    LastModifiedDate: '2024-11-21T07:19:04.727Z'
   - VulnerabilityID: CVE-2023-4039
     PkgID: libatomic1@12.3.0-1ubuntu1~22.04
     PkgName: libatomic1
@@ -1101,7 +1472,7 @@
     - https://rtx.meta.security/mitigation/2023/09/12/CVE-2023-4039.html
     - https://www.cve.org/CVERecord?id=CVE-2023-4039
     PublishedDate: '2023-09-13T09:15:15.69Z'
-    LastModifiedDate: '2024-08-02T08:15:14.993Z'
+    LastModifiedDate: '2024-11-21T08:34:16.613Z'
   - VulnerabilityID: CVE-2022-27943
     PkgID: libatomic1@12.3.0-1ubuntu1~22.04
     PkgName: libatomic1
@@ -1150,7 +1521,50 @@
     - https://sourceware.org/bugzilla/show_bug.cgi?id=28995
     - https://www.cve.org/CVERecord?id=CVE-2022-27943
     PublishedDate: '2022-03-26T13:15:07.9Z'
-    LastModifiedDate: '2023-11-07T03:45:32.64Z'
+    LastModifiedDate: '2024-11-21T06:56:31.04Z'
+  - VulnerabilityID: CVE-2025-0395
+    PkgID: libc-bin@2.35-0ubuntu3.8
+    PkgName: libc-bin
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libc-bin@2.35-0ubuntu3.8?arch=amd64&distro=ubuntu-22.04
+      UID: 769076add98a4
+    InstalledVersion: 2.35-0ubuntu3.8
+    FixedVersion: 2.35-0ubuntu3.9
+    Status: fixed
+    Layer:
+      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
+      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-0395
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'glibc: buffer overflow in the GNU C Library''s assert()'
+    Description: When the assert() function in the GNU C Library versions 2.13 to 2.40 fails, it does not allocate enough space for the assertion failure message string and size information, which may lead to a buffer overflow if the message string size aligns to page size.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-131
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:L/A:H
+        V3Score: 5.5
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/01/22/4
+    - http://www.openwall.com/lists/oss-security/2025/01/23/2
+    - https://access.redhat.com/security/cve/CVE-2025-0395
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-0395
+    - https://sourceware.org/bugzilla/show_bug.cgi?id=32582
+    - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2025-0001
+    - https://sourceware.org/pipermail/libc-announce/2025/000044.html
+    - https://ubuntu.com/security/notices/USN-7259-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-0395
+    - https://www.openwall.com/lists/oss-security/2025/01/22/4
+    PublishedDate: '2025-01-22T13:15:20.933Z'
+    LastModifiedDate: '2025-02-04T20:15:49.587Z'
   - VulnerabilityID: CVE-2016-20013
     PkgID: libc-bin@2.35-0ubuntu3.8
     PkgName: libc-bin
@@ -1187,7 +1601,50 @@
     - https://twitter.com/solardiz/status/795601240151457793
     - https://www.cve.org/CVERecord?id=CVE-2016-20013
     PublishedDate: '2022-02-19T05:15:09.413Z'
-    LastModifiedDate: '2022-03-03T16:43:19.667Z'
+    LastModifiedDate: '2024-11-21T02:47:33.427Z'
+  - VulnerabilityID: CVE-2025-0395
+    PkgID: libc6@2.35-0ubuntu3.8
+    PkgName: libc6
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libc6@2.35-0ubuntu3.8?arch=amd64&distro=ubuntu-22.04
+      UID: 324f2b466e16a5c
+    InstalledVersion: 2.35-0ubuntu3.8
+    FixedVersion: 2.35-0ubuntu3.9
+    Status: fixed
+    Layer:
+      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
+      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-0395
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'glibc: buffer overflow in the GNU C Library''s assert()'
+    Description: When the assert() function in the GNU C Library versions 2.13 to 2.40 fails, it does not allocate enough space for the assertion failure message string and size information, which may lead to a buffer overflow if the message string size aligns to page size.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-131
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:L/A:H
+        V3Score: 5.5
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/01/22/4
+    - http://www.openwall.com/lists/oss-security/2025/01/23/2
+    - https://access.redhat.com/security/cve/CVE-2025-0395
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-0395
+    - https://sourceware.org/bugzilla/show_bug.cgi?id=32582
+    - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2025-0001
+    - https://sourceware.org/pipermail/libc-announce/2025/000044.html
+    - https://ubuntu.com/security/notices/USN-7259-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-0395
+    - https://www.openwall.com/lists/oss-security/2025/01/22/4
+    PublishedDate: '2025-01-22T13:15:20.933Z'
+    LastModifiedDate: '2025-02-04T20:15:49.587Z'
   - VulnerabilityID: CVE-2016-20013
     PkgID: libc6@2.35-0ubuntu3.8
     PkgName: libc6
@@ -1224,7 +1681,77 @@
     - https://twitter.com/solardiz/status/795601240151457793
     - https://www.cve.org/CVERecord?id=CVE-2016-20013
     PublishedDate: '2022-02-19T05:15:09.413Z'
-    LastModifiedDate: '2022-03-03T16:43:19.667Z'
+    LastModifiedDate: '2024-11-21T02:47:33.427Z'
+  - VulnerabilityID: CVE-2025-0167
+    PkgID: libcurl3-gnutls@7.81.0-1ubuntu1.20
+    PkgName: libcurl3-gnutls
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libcurl3-gnutls@7.81.0-1ubuntu1.20?arch=amd64&distro=ubuntu-22.04
+      UID: fd082d9c8401a760
+    InstalledVersion: 7.81.0-1ubuntu1.20
+    Status: affected
+    Layer:
+      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
+      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-0167
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: When asked to use a `.netrc` file for credentials **and** to follow HT ...
+    Description: |-
+      When asked to use a `.netrc` file for credentials **and** to follow HTTP
+      redirects, curl could leak the password used for the first host to the
+      followed-to host under certain circumstances.
+
+      This flaw only manifests itself if the netrc file has a `default` entry that
+      omits both login and password. A rare circumstance.
+    Severity: LOW
+    VendorSeverity:
+      ubuntu: 1
+    References:
+    - https://curl.se/docs/CVE-2025-0167.html
+    - https://curl.se/docs/CVE-2025-0167.json
+    - https://hackerone.com/reports/2917232
+    - https://www.cve.org/CVERecord?id=CVE-2025-0167
+    PublishedDate: '2025-02-05T10:15:22.71Z'
+    LastModifiedDate: '2025-02-06T15:15:16.967Z'
+  - VulnerabilityID: CVE-2025-0167
+    PkgID: libcurl4@7.81.0-1ubuntu1.20
+    PkgName: libcurl4
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libcurl4@7.81.0-1ubuntu1.20?arch=amd64&distro=ubuntu-22.04
+      UID: 46cceb51a40ab58a
+    InstalledVersion: 7.81.0-1ubuntu1.20
+    Status: affected
+    Layer:
+      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
+      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-0167
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: When asked to use a `.netrc` file for credentials **and** to follow HT ...
+    Description: |-
+      When asked to use a `.netrc` file for credentials **and** to follow HTTP
+      redirects, curl could leak the password used for the first host to the
+      followed-to host under certain circumstances.
+
+      This flaw only manifests itself if the netrc file has a `default` entry that
+      omits both login and password. A rare circumstance.
+    Severity: LOW
+    VendorSeverity:
+      ubuntu: 1
+    References:
+    - https://curl.se/docs/CVE-2025-0167.html
+    - https://curl.se/docs/CVE-2025-0167.json
+    - https://hackerone.com/reports/2917232
+    - https://www.cve.org/CVERecord?id=CVE-2025-0167
+    PublishedDate: '2025-02-05T10:15:22.71Z'
+    LastModifiedDate: '2025-02-06T15:15:16.967Z'
   - VulnerabilityID: CVE-2023-34969
     PkgID: libdbus-1-3@1.12.20-2ubuntu4.1
     PkgName: libdbus-1-3
@@ -1280,7 +1807,7 @@
     - https://ubuntu.com/security/notices/USN-6372-1
     - https://www.cve.org/CVERecord?id=CVE-2023-34969
     PublishedDate: '2023-06-08T03:15:08.97Z'
-    LastModifiedDate: '2023-12-27T16:36:58.353Z'
+    LastModifiedDate: '2024-11-21T08:07:44.607Z'
   - VulnerabilityID: CVE-2025-23022
     PkgID: libfreetype6@2.11.1+dfsg-1ubuntu0.2
     PkgName: libfreetype6
@@ -1389,7 +1916,7 @@
     - https://rtx.meta.security/mitigation/2023/09/12/CVE-2023-4039.html
     - https://www.cve.org/CVERecord?id=CVE-2023-4039
     PublishedDate: '2023-09-13T09:15:15.69Z'
-    LastModifiedDate: '2024-08-02T08:15:14.993Z'
+    LastModifiedDate: '2024-11-21T08:34:16.613Z'
   - VulnerabilityID: CVE-2022-27943
     PkgID: libgcc-s1@12.3.0-1ubuntu1~22.04
     PkgName: libgcc-s1
@@ -1438,7 +1965,7 @@
     - https://sourceware.org/bugzilla/show_bug.cgi?id=28995
     - https://www.cve.org/CVERecord?id=CVE-2022-27943
     PublishedDate: '2022-03-26T13:15:07.9Z'
-    LastModifiedDate: '2023-11-07T03:45:32.64Z'
+    LastModifiedDate: '2024-11-21T06:56:31.04Z'
   - VulnerabilityID: CVE-2024-2236
     PkgID: libgcrypt20@1.9.4-3ubuntu3
     PkgName: libgcrypt20
@@ -1476,6 +2003,7 @@
     - https://access.redhat.com/security/cve/CVE-2024-2236
     - https://bugzilla.redhat.com/2245218
     - https://bugzilla.redhat.com/show_bug.cgi?id=2245218
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2268268
     - https://dev.gnupg.org/T7136
     - https://errata.almalinux.org/9/ALSA-2024-9404.html
     - https://github.com/tomato42/marvin-toolkit/tree/master/example/libgcrypt
@@ -1486,7 +2014,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2024-2236
     - https://www.cve.org/CVERecord?id=CVE-2024-2236
     PublishedDate: '2024-03-06T22:15:57.977Z'
-    LastModifiedDate: '2024-11-12T18:15:20.15Z'
+    LastModifiedDate: '2024-11-21T09:09:19.41Z'
   - VulnerabilityID: CVE-2024-26462
     PkgID: libgssapi-krb5-2@1.19.2-2ubuntu0.4
     PkgName: libgssapi-krb5-2
@@ -1534,7 +2062,7 @@
     - https://security.netapp.com/advisory/ntap-20240415-0012/
     - https://www.cve.org/CVERecord?id=CVE-2024-26462
     PublishedDate: '2024-02-29T01:44:18.857Z'
-    LastModifiedDate: '2024-05-14T15:09:01.053Z'
+    LastModifiedDate: '2024-11-21T09:02:27.01Z'
   - VulnerabilityID: CVE-2024-26458
     PkgID: libgssapi-krb5-2@1.19.2-2ubuntu0.4
     PkgName: libgssapi-krb5-2
@@ -1646,7 +2174,7 @@
     - https://security.netapp.com/advisory/ntap-20240415-0011/
     - https://www.cve.org/CVERecord?id=CVE-2024-26461
     PublishedDate: '2024-02-29T01:44:18.82Z'
-    LastModifiedDate: '2024-08-14T16:35:10.207Z'
+    LastModifiedDate: '2024-11-21T09:02:26.477Z'
   - VulnerabilityID: CVE-2024-26462
     PkgID: libk5crypto3@1.19.2-2ubuntu0.4
     PkgName: libk5crypto3
@@ -1694,7 +2222,7 @@
     - https://security.netapp.com/advisory/ntap-20240415-0012/
     - https://www.cve.org/CVERecord?id=CVE-2024-26462
     PublishedDate: '2024-02-29T01:44:18.857Z'
-    LastModifiedDate: '2024-05-14T15:09:01.053Z'
+    LastModifiedDate: '2024-11-21T09:02:27.01Z'
   - VulnerabilityID: CVE-2024-26458
     PkgID: libk5crypto3@1.19.2-2ubuntu0.4
     PkgName: libk5crypto3
@@ -1806,7 +2334,7 @@
     - https://security.netapp.com/advisory/ntap-20240415-0011/
     - https://www.cve.org/CVERecord?id=CVE-2024-26461
     PublishedDate: '2024-02-29T01:44:18.82Z'
-    LastModifiedDate: '2024-08-14T16:35:10.207Z'
+    LastModifiedDate: '2024-11-21T09:02:26.477Z'
   - VulnerabilityID: CVE-2024-26462
     PkgID: libkrb5-3@1.19.2-2ubuntu0.4
     PkgName: libkrb5-3
@@ -1854,7 +2382,7 @@
     - https://security.netapp.com/advisory/ntap-20240415-0012/
     - https://www.cve.org/CVERecord?id=CVE-2024-26462
     PublishedDate: '2024-02-29T01:44:18.857Z'
-    LastModifiedDate: '2024-05-14T15:09:01.053Z'
+    LastModifiedDate: '2024-11-21T09:02:27.01Z'
   - VulnerabilityID: CVE-2024-26458
     PkgID: libkrb5-3@1.19.2-2ubuntu0.4
     PkgName: libkrb5-3
@@ -1966,7 +2494,7 @@
     - https://security.netapp.com/advisory/ntap-20240415-0011/
     - https://www.cve.org/CVERecord?id=CVE-2024-26461
     PublishedDate: '2024-02-29T01:44:18.82Z'
-    LastModifiedDate: '2024-08-14T16:35:10.207Z'
+    LastModifiedDate: '2024-11-21T09:02:26.477Z'
   - VulnerabilityID: CVE-2024-26462
     PkgID: libkrb5support0@1.19.2-2ubuntu0.4
     PkgName: libkrb5support0
@@ -2014,7 +2542,7 @@
     - https://security.netapp.com/advisory/ntap-20240415-0012/
     - https://www.cve.org/CVERecord?id=CVE-2024-26462
     PublishedDate: '2024-02-29T01:44:18.857Z'
-    LastModifiedDate: '2024-05-14T15:09:01.053Z'
+    LastModifiedDate: '2024-11-21T09:02:27.01Z'
   - VulnerabilityID: CVE-2024-26458
     PkgID: libkrb5support0@1.19.2-2ubuntu0.4
     PkgName: libkrb5support0
@@ -2126,7 +2654,7 @@
     - https://security.netapp.com/advisory/ntap-20240415-0011/
     - https://www.cve.org/CVERecord?id=CVE-2024-26461
     PublishedDate: '2024-02-29T01:44:18.82Z'
-    LastModifiedDate: '2024-08-14T16:35:10.207Z'
+    LastModifiedDate: '2024-11-21T09:02:26.477Z'
   - VulnerabilityID: CVE-2023-45918
     PkgID: libncurses6@6.3-2ubuntu0.1
     PkgName: libncurses6
@@ -2206,7 +2734,7 @@
     - https://ubuntu.com/security/notices/USN-6684-1
     - https://www.cve.org/CVERecord?id=CVE-2023-50495
     PublishedDate: '2023-12-12T15:15:07.867Z'
-    LastModifiedDate: '2024-01-31T03:15:08.49Z'
+    LastModifiedDate: '2024-11-21T08:37:04.243Z'
   - VulnerabilityID: CVE-2023-45918
     PkgID: libncursesw6@6.3-2ubuntu0.1
     PkgName: libncursesw6
@@ -2286,7 +2814,7 @@
     - https://ubuntu.com/security/notices/USN-6684-1
     - https://www.cve.org/CVERecord?id=CVE-2023-50495
     PublishedDate: '2023-12-12T15:15:07.867Z'
-    LastModifiedDate: '2024-01-31T03:15:08.49Z'
+    LastModifiedDate: '2024-11-21T08:37:04.243Z'
   - VulnerabilityID: CVE-2023-7008
     PkgID: libnss-systemd@249.11-0ubuntu3.12
     PkgName: libnss-systemd
@@ -2651,7 +3179,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2022-41409
     - https://www.cve.org/CVERecord?id=CVE-2022-41409
     PublishedDate: '2023-07-18T14:15:12.197Z'
-    LastModifiedDate: '2023-07-27T03:46:09.807Z'
+    LastModifiedDate: '2024-11-21T07:23:10.577Z'
   - VulnerabilityID: CVE-2017-11164
     PkgID: libpcre3@2:8.39-13ubuntu0.22.04.1
     PkgName: libpcre3
@@ -2698,7 +3226,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2017-11164
     - https://www.cve.org/CVERecord?id=CVE-2017-11164
     PublishedDate: '2017-07-11T03:29:00.277Z'
-    LastModifiedDate: '2023-11-07T02:38:10.98Z'
+    LastModifiedDate: '2024-11-21T03:07:14.377Z'
   - VulnerabilityID: CVE-2024-11168
     PkgID: libpython3.10@3.10.12-1~22.04.7
     PkgName: libpython3.10
@@ -3000,7 +3528,7 @@
     - https://rtx.meta.security/mitigation/2023/09/12/CVE-2023-4039.html
     - https://www.cve.org/CVERecord?id=CVE-2023-4039
     PublishedDate: '2023-09-13T09:15:15.69Z'
-    LastModifiedDate: '2024-08-02T08:15:14.993Z'
+    LastModifiedDate: '2024-11-21T08:34:16.613Z'
   - VulnerabilityID: CVE-2022-27943
     PkgID: libstdc++6@12.3.0-1ubuntu1~22.04
     PkgName: libstdc++6
@@ -3049,7 +3577,7 @@
     - https://sourceware.org/bugzilla/show_bug.cgi?id=28995
     - https://www.cve.org/CVERecord?id=CVE-2022-27943
     PublishedDate: '2022-03-26T13:15:07.9Z'
-    LastModifiedDate: '2023-11-07T03:45:32.64Z'
+    LastModifiedDate: '2024-11-21T06:56:31.04Z'
   - VulnerabilityID: CVE-2023-7008
     PkgID: libsystemd0@249.11-0ubuntu3.12
     PkgName: libsystemd0
@@ -3212,7 +3740,7 @@
     - https://ubuntu.com/security/notices/USN-6684-1
     - https://www.cve.org/CVERecord?id=CVE-2023-50495
     PublishedDate: '2023-12-12T15:15:07.867Z'
-    LastModifiedDate: '2024-01-31T03:15:08.49Z'
+    LastModifiedDate: '2024-11-21T08:37:04.243Z'
   - VulnerabilityID: CVE-2023-7008
     PkgID: libudev1@249.11-0ubuntu3.12
     PkgName: libudev1
@@ -3271,6 +3799,93 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-7008
     PublishedDate: '2023-12-23T13:15:07.573Z'
     LastModifiedDate: '2024-11-22T12:15:17.59Z'
+  - VulnerabilityID: CVE-2022-49043
+    PkgID: libxml2@2.9.13+dfsg-1ubuntu0.4
+    PkgName: libxml2
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libxml2@2.9.13%2Bdfsg-1ubuntu0.4?arch=amd64&distro=ubuntu-22.04
+      UID: b70de7d90350c0dc
+    InstalledVersion: 2.9.13+dfsg-1ubuntu0.4
+    FixedVersion: 2.9.13+dfsg-1ubuntu0.5
+    Status: fixed
+    Layer:
+      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
+      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-49043
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'libxml: use-after-free in xmlXIncludeAddNode'
+    Description: xmlXIncludeAddNode in xinclude.c in libxml2 before 2.11.0 has a use-after-free.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-416
+    VendorSeverity:
+      cbl-mariner: 4
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:H
+        V3Score: 8.1
+    References:
+    - https://access.redhat.com/security/cve/CVE-2022-49043
+    - https://github.com/php/php-src/issues/17467
+    - https://gitlab.gnome.org/GNOME/libxml2/-/commit/5a19e21605398cef6a8b1452477a8705cb41562b
+    - https://nvd.nist.gov/vuln/detail/CVE-2022-49043
+    - https://ubuntu.com/security/notices/USN-7240-1
+    - https://www.cve.org/CVERecord?id=CVE-2022-49043
+    PublishedDate: '2025-01-26T06:15:21Z'
+    LastModifiedDate: '2025-01-26T06:15:21Z'
+  - VulnerabilityID: CVE-2024-34459
+    PkgID: libxml2@2.9.13+dfsg-1ubuntu0.4
+    PkgName: libxml2
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libxml2@2.9.13%2Bdfsg-1ubuntu0.4?arch=amd64&distro=ubuntu-22.04
+      UID: b70de7d90350c0dc
+    InstalledVersion: 2.9.13+dfsg-1ubuntu0.4
+    FixedVersion: 2.9.13+dfsg-1ubuntu0.5
+    Status: fixed
+    Layer:
+      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
+      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-34459
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'libxml2: buffer over-read in xmlHTMLPrintFileContext in xmllint.c'
+    Description: An issue was discovered in xmllint (from libxml2) before 2.11.8 and 2.12.x before 2.12.7. Formatting error messages with xmllint --htmlout can result in a buffer over-read in xmlHTMLPrintFileContext in xmllint.c.
+    Severity: LOW
+    CweIDs:
+    - CWE-122
+    VendorSeverity:
+      amazon: 2
+      azure: 2
+      cbl-mariner: 3
+      photon: 2
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 5.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-34459
+    - https://gitlab.gnome.org/GNOME/libxml2/-/issues/720
+    - https://gitlab.gnome.org/GNOME/libxml2/-/releases/v2.11.8
+    - https://gitlab.gnome.org/GNOME/libxml2/-/releases/v2.12.7
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/5HVUXKYTBWT3G5DEEQX62STJQBY367NL/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/INKSSLW5VMZIXHRPZBAW4TJUX5SQKARG/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/VRDJCNQP32LV56KESUQ5SNZKAJWSZZRI/
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-34459
+    - https://ubuntu.com/security/notices/USN-7240-1
+    - https://www.cve.org/CVERecord?id=CVE-2024-34459
+    PublishedDate: '2024-05-14T15:39:11.917Z'
+    LastModifiedDate: '2024-11-21T09:18:43.59Z'
   - VulnerabilityID: CVE-2022-4899
     PkgID: libzstd1@1.4.8+dfsg-3build1
     PkgName: libzstd1
@@ -3410,7 +4025,7 @@
     - https://security.netapp.com/advisory/ntap-20230725-0005/
     - https://www.cve.org/CVERecord?id=CVE-2022-4899
     PublishedDate: '2023-03-31T20:15:07.213Z'
-    LastModifiedDate: '2023-11-07T03:59:16.09Z'
+    LastModifiedDate: '2024-11-21T07:36:12.31Z'
   - VulnerabilityID: CVE-2024-56433
     PkgID: login@1:4.8.1-2ubuntu2.2
     PkgName: login
@@ -3471,7 +4086,9 @@
     Severity: LOW
     CweIDs:
     - CWE-74
+    - CWE-125
     VendorSeverity:
+      cbl-mariner: 1
       nvd: 1
       photon: 1
       redhat: 2
@@ -3492,7 +4109,7 @@
     - https://www.trustwave.com/en-us/resources/blogs/spiderlabs-blog/cve-2023-29383-abusing-linux-chfn-to-misrepresent-etc-passwd/
     - https://www.trustwave.com/en-us/resources/security-resources/security-advisories/?fid=31797
     PublishedDate: '2023-04-14T22:15:07.68Z'
-    LastModifiedDate: '2023-04-24T18:05:30.313Z'
+    LastModifiedDate: '2025-02-06T22:15:35.057Z'
   - VulnerabilityID: CVE-2023-45918
     PkgID: ncurses-base@6.3-2ubuntu0.1
     PkgName: ncurses-base
@@ -3572,7 +4189,7 @@
     - https://ubuntu.com/security/notices/USN-6684-1
     - https://www.cve.org/CVERecord?id=CVE-2023-50495
     PublishedDate: '2023-12-12T15:15:07.867Z'
-    LastModifiedDate: '2024-01-31T03:15:08.49Z'
+    LastModifiedDate: '2024-11-21T08:37:04.243Z'
   - VulnerabilityID: CVE-2023-45918
     PkgID: ncurses-bin@6.3-2ubuntu0.1
     PkgName: ncurses-bin
@@ -3652,7 +4269,7 @@
     - https://ubuntu.com/security/notices/USN-6684-1
     - https://www.cve.org/CVERecord?id=CVE-2023-50495
     PublishedDate: '2023-12-12T15:15:07.867Z'
-    LastModifiedDate: '2024-01-31T03:15:08.49Z'
+    LastModifiedDate: '2024-11-21T08:37:04.243Z'
   - VulnerabilityID: CVE-2023-45918
     PkgID: ncurses-term@6.3-2ubuntu0.1
     PkgName: ncurses-term
@@ -3732,7 +4349,7 @@
     - https://ubuntu.com/security/notices/USN-6684-1
     - https://www.cve.org/CVERecord?id=CVE-2023-50495
     PublishedDate: '2023-12-12T15:15:07.867Z'
-    LastModifiedDate: '2024-01-31T03:15:08.49Z'
+    LastModifiedDate: '2024-11-21T08:37:04.243Z'
   - VulnerabilityID: CVE-2024-41996
     PkgID: openssl@3.0.2-0ubuntu1.18
     PkgName: openssl
@@ -3835,7 +4452,9 @@
     Severity: LOW
     CweIDs:
     - CWE-74
+    - CWE-125
     VendorSeverity:
+      cbl-mariner: 1
       nvd: 1
       photon: 1
       redhat: 2
@@ -3856,7 +4475,7 @@
     - https://www.trustwave.com/en-us/resources/blogs/spiderlabs-blog/cve-2023-29383-abusing-linux-chfn-to-misrepresent-etc-passwd/
     - https://www.trustwave.com/en-us/resources/security-resources/security-advisories/?fid=31797
     PublishedDate: '2023-04-14T22:15:07.68Z'
-    LastModifiedDate: '2023-04-24T18:05:30.313Z'
+    LastModifiedDate: '2025-02-06T22:15:35.057Z'
   - VulnerabilityID: CVE-2024-11168
     PkgID: python3.10@3.10.12-1~22.04.7
     PkgName: python3.10
@@ -4219,7 +4838,9 @@
     Severity: LOW
     CweIDs:
     - CWE-74
+    - CWE-125
     VendorSeverity:
+      cbl-mariner: 1
       nvd: 1
       photon: 1
       redhat: 2
@@ -4240,7 +4861,7 @@
     - https://www.trustwave.com/en-us/resources/blogs/spiderlabs-blog/cve-2023-29383-abusing-linux-chfn-to-misrepresent-etc-passwd/
     - https://www.trustwave.com/en-us/resources/security-resources/security-advisories/?fid=31797
     PublishedDate: '2023-04-14T22:15:07.68Z'
-    LastModifiedDate: '2023-04-24T18:05:30.313Z'
+    LastModifiedDate: '2025-02-06T22:15:35.057Z'
   - VulnerabilityID: CVE-2025-22134
     PkgID: vim@2:8.2.3995-1ubuntu2.21
     PkgName: vim
@@ -4413,7 +5034,7 @@
     - https://security.netapp.com/advisory/ntap-20210618-0002/
     - https://www.cve.org/CVERecord?id=CVE-2021-31879
     PublishedDate: '2021-04-29T05:15:08.707Z'
-    LastModifiedDate: '2022-05-13T20:52:24.793Z'
+    LastModifiedDate: '2024-11-21T06:06:25.02Z'
   - VulnerabilityID: CVE-2025-22134
     PkgID: xxd@2:8.2.3995-1ubuntu2.21
     PkgName: xxd
@@ -4511,7 +5132,7 @@
     - https://security.netapp.com/advisory/ntap-20221104-0006/
     - https://www.cve.org/CVERecord?id=CVE-2022-36033
     PublishedDate: '2022-08-29T17:15:08.523Z'
-    LastModifiedDate: '2022-12-08T03:48:04.673Z'
+    LastModifiedDate: '2024-11-21T07:12:13.753Z'
 - Target: Node.js
   Class: lang-pkgs
   Type: node-pkg
@@ -4724,7 +5345,7 @@
     - https://www.cisa.gov/news-events/alerts/2023/10/10/http2-rapid-reset-vulnerability-cve-2023-44487
     - https://www.cve.org/CVERecord?id=CVE-2023-39325
     PublishedDate: '2023-10-11T22:15:09.88Z'
-    LastModifiedDate: '2024-04-28T04:15:09.877Z'
+    LastModifiedDate: '2024-11-21T08:15:09.627Z'
   - VulnerabilityID: CVE-2024-45338
     PkgID: golang.org/x/net@v0.12.0
     PkgName: golang.org/x/net
@@ -4749,7 +5370,7 @@
     CweIDs:
     - CWE-1333
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 3
       cbl-mariner: 3
       ghsa: 3
@@ -4840,7 +5461,7 @@
     - https://pkg.go.dev/vuln/GO-2023-1988
     - https://www.cve.org/CVERecord?id=CVE-2023-3978
     PublishedDate: '2023-08-02T20:15:12.097Z'
-    LastModifiedDate: '2023-11-07T04:20:03.647Z'
+    LastModifiedDate: '2024-11-21T08:18:27.68Z'
   - VulnerabilityID: CVE-2023-44487
     PkgID: golang.org/x/net@v0.12.0
     PkgName: golang.org/x/net
@@ -5215,7 +5836,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-45288
     - https://www.kb.cert.org/vuls/id/421644
     PublishedDate: '2024-04-04T21:15:16.113Z'
-    LastModifiedDate: '2024-08-26T21:35:02.457Z'
+    LastModifiedDate: '2024-11-21T08:26:42.38Z'
   - VulnerabilityID: CVE-2024-24790
     PkgID: stdlib@v1.20.5
     PkgName: stdlib
@@ -5289,7 +5910,7 @@
     - https://ubuntu.com/security/notices/USN-7109-1
     - https://www.cve.org/CVERecord?id=CVE-2024-24790
     PublishedDate: '2024-06-05T16:15:10.56Z'
-    LastModifiedDate: '2024-09-03T18:35:07.483Z'
+    LastModifiedDate: '2024-11-21T08:59:42.813Z'
   - VulnerabilityID: CVE-2023-39325
     PkgID: stdlib@v1.20.5
     PkgName: stdlib
@@ -5443,7 +6064,7 @@
     - https://www.cisa.gov/news-events/alerts/2023/10/10/http2-rapid-reset-vulnerability-cve-2023-44487
     - https://www.cve.org/CVERecord?id=CVE-2023-39325
     PublishedDate: '2023-10-11T22:15:09.88Z'
-    LastModifiedDate: '2024-04-28T04:15:09.877Z'
+    LastModifiedDate: '2024-11-21T08:15:09.627Z'
   - VulnerabilityID: CVE-2023-45283
     PkgID: stdlib@v1.20.5
     PkgName: stdlib
@@ -5492,7 +6113,7 @@
     - https://pkg.go.dev/vuln/GO-2023-2185
     - https://security.netapp.com/advisory/ntap-20231214-0008/
     PublishedDate: '2023-11-09T17:15:08.757Z'
-    LastModifiedDate: '2023-12-14T10:15:07.947Z'
+    LastModifiedDate: '2024-11-21T08:26:41.567Z'
   - VulnerabilityID: CVE-2023-45288
     PkgID: stdlib@v1.20.5
     PkgName: stdlib
@@ -5574,7 +6195,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-45288
     - https://www.kb.cert.org/vuls/id/421644
     PublishedDate: '2024-04-04T21:15:16.113Z'
-    LastModifiedDate: '2024-08-26T21:35:02.457Z'
+    LastModifiedDate: '2024-11-21T08:26:42.38Z'
   - VulnerabilityID: CVE-2024-34156
     PkgID: stdlib@v1.20.5
     PkgName: stdlib
@@ -5636,7 +6257,7 @@
     - https://ubuntu.com/security/notices/USN-7111-1
     - https://www.cve.org/CVERecord?id=CVE-2024-34156
     PublishedDate: '2024-09-06T21:15:12.02Z'
-    LastModifiedDate: '2024-09-09T15:35:07.573Z'
+    LastModifiedDate: '2024-11-21T09:18:12.853Z'
   - VulnerabilityID: CVE-2023-29406
     PkgID: stdlib@v1.20.5
     PkgName: stdlib
@@ -5714,7 +6335,7 @@
     - https://ubuntu.com/security/notices/USN-7109-1
     - https://www.cve.org/CVERecord?id=CVE-2023-29406
     PublishedDate: '2023-07-11T20:15:10.643Z'
-    LastModifiedDate: '2023-11-25T11:15:14.727Z'
+    LastModifiedDate: '2024-11-21T07:56:59.913Z'
   - VulnerabilityID: CVE-2023-29409
     PkgID: stdlib@v1.20.5
     PkgName: stdlib
@@ -5778,7 +6399,7 @@
     - https://security.netapp.com/advisory/ntap-20230831-0010/
     - https://www.cve.org/CVERecord?id=CVE-2023-29409
     PublishedDate: '2023-08-02T20:15:11.94Z'
-    LastModifiedDate: '2023-11-25T11:15:14.87Z'
+    LastModifiedDate: '2024-11-21T07:57:00.287Z'
   - VulnerabilityID: CVE-2023-39318
     PkgID: stdlib@v1.20.5
     PkgName: stdlib
@@ -5848,7 +6469,7 @@
     - https://vuln.go.dev/ID/GO-2023-2041.json
     - https://www.cve.org/CVERecord?id=CVE-2023-39318
     PublishedDate: '2023-09-08T17:15:27.823Z'
-    LastModifiedDate: '2023-11-25T11:15:17.43Z'
+    LastModifiedDate: '2024-11-21T08:15:08.737Z'
   - VulnerabilityID: CVE-2023-39319
     PkgID: stdlib@v1.20.5
     PkgName: stdlib
@@ -5918,7 +6539,7 @@
     - https://vuln.go.dev/ID/GO-2023-2043.json
     - https://www.cve.org/CVERecord?id=CVE-2023-39319
     PublishedDate: '2023-09-08T17:15:27.91Z'
-    LastModifiedDate: '2023-11-25T11:15:17.543Z'
+    LastModifiedDate: '2024-11-21T08:15:08.89Z'
   - VulnerabilityID: CVE-2023-39326
     PkgID: stdlib@v1.20.5
     PkgName: stdlib
@@ -5979,7 +6600,7 @@
     - https://ubuntu.com/security/notices/USN-6574-1
     - https://www.cve.org/CVERecord?id=CVE-2023-39326
     PublishedDate: '2023-12-06T17:15:07.147Z'
-    LastModifiedDate: '2024-01-20T04:15:07.89Z'
+    LastModifiedDate: '2024-11-21T08:15:09.89Z'
   - VulnerabilityID: CVE-2023-45284
     PkgID: stdlib@v1.20.5
     PkgName: stdlib
@@ -6021,7 +6642,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-45284
     - https://pkg.go.dev/vuln/GO-2023-2186
     PublishedDate: '2023-11-09T17:15:08.813Z'
-    LastModifiedDate: '2024-09-03T19:35:05.593Z'
+    LastModifiedDate: '2024-11-21T08:26:41.737Z'
   - VulnerabilityID: CVE-2023-45289
     PkgID: stdlib@v1.20.5
     PkgName: stdlib
@@ -6090,7 +6711,7 @@
     - https://ubuntu.com/security/notices/USN-6886-1
     - https://www.cve.org/CVERecord?id=CVE-2023-45289
     PublishedDate: '2024-03-05T23:15:07.137Z'
-    LastModifiedDate: '2024-11-04T19:35:02.6Z'
+    LastModifiedDate: '2024-11-21T08:26:42.62Z'
   - VulnerabilityID: CVE-2023-45290
     PkgID: stdlib@v1.20.5
     PkgName: stdlib
@@ -6158,7 +6779,7 @@
     - https://ubuntu.com/security/notices/USN-7111-1
     - https://www.cve.org/CVERecord?id=CVE-2023-45290
     PublishedDate: '2024-03-05T23:15:07.21Z'
-    LastModifiedDate: '2024-11-07T11:35:02.48Z'
+    LastModifiedDate: '2024-11-21T08:26:42.853Z'
   - VulnerabilityID: CVE-2024-24783
     PkgID: stdlib@v1.20.5
     PkgName: stdlib
@@ -6230,7 +6851,7 @@
     - https://ubuntu.com/security/notices/USN-7111-1
     - https://www.cve.org/CVERecord?id=CVE-2024-24783
     PublishedDate: '2024-03-05T23:15:07.683Z'
-    LastModifiedDate: '2024-11-05T17:35:08.987Z'
+    LastModifiedDate: '2024-11-21T08:59:41.62Z'
   - VulnerabilityID: CVE-2024-24784
     PkgID: stdlib@v1.20.5
     PkgName: stdlib
@@ -6311,7 +6932,7 @@
     - https://ubuntu.com/security/notices/USN-7111-1
     - https://www.cve.org/CVERecord?id=CVE-2024-24784
     PublishedDate: '2024-03-05T23:15:07.733Z'
-    LastModifiedDate: '2024-08-05T21:35:04.457Z'
+    LastModifiedDate: '2024-11-21T08:59:41.82Z'
   - VulnerabilityID: CVE-2024-24785
     PkgID: stdlib@v1.20.5
     PkgName: stdlib
@@ -6385,7 +7006,7 @@
     - https://vuln.go.dev/ID/GO-2024-2610.json
     - https://www.cve.org/CVERecord?id=CVE-2024-24785
     PublishedDate: '2024-03-05T23:15:07.777Z'
-    LastModifiedDate: '2024-05-01T17:15:29.61Z'
+    LastModifiedDate: '2024-11-21T08:59:41.997Z'
   - VulnerabilityID: CVE-2024-24789
     PkgID: stdlib@v1.20.5
     PkgName: stdlib
@@ -6456,12 +7077,13 @@
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/U5YAEIA6IUHUNGJ7AIXXPQT6D2GYENX7/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-24789
     - https://pkg.go.dev/vuln/GO-2024-2888
+    - https://security.netapp.com/advisory/ntap-20250131-0008/
     - https://ubuntu.com/security/notices/USN-6886-1
     - https://ubuntu.com/security/notices/USN-7109-1
     - https://ubuntu.com/security/notices/USN-7111-1
     - https://www.cve.org/CVERecord?id=CVE-2024-24789
     PublishedDate: '2024-06-05T16:15:10.47Z'
-    LastModifiedDate: '2024-07-03T01:48:25.51Z'
+    LastModifiedDate: '2025-01-31T15:15:12.74Z'
   - VulnerabilityID: CVE-2024-24791
     PkgID: stdlib@v1.20.5
     PkgName: stdlib
@@ -6529,7 +7151,7 @@
     - https://ubuntu.com/security/notices/USN-7111-1
     - https://www.cve.org/CVERecord?id=CVE-2024-24791
     PublishedDate: '2024-07-02T22:15:04.833Z'
-    LastModifiedDate: '2024-07-08T14:17:39.083Z'
+    LastModifiedDate: '2024-11-21T08:59:43.013Z'
   - VulnerabilityID: CVE-2024-34155
     PkgID: stdlib@v1.20.5
     PkgName: stdlib
@@ -6601,7 +7223,7 @@
     - https://ubuntu.com/security/notices/USN-7111-1
     - https://www.cve.org/CVERecord?id=CVE-2024-34155
     PublishedDate: '2024-09-06T21:15:11.947Z'
-    LastModifiedDate: '2024-11-04T17:35:17.887Z'
+    LastModifiedDate: '2024-11-21T09:18:12.633Z'
   - VulnerabilityID: CVE-2024-34158
     PkgID: stdlib@v1.20.5
     PkgName: stdlib
@@ -6676,7 +7298,7 @@
     - https://ubuntu.com/security/notices/USN-7111-1
     - https://www.cve.org/CVERecord?id=CVE-2024-34158
     PublishedDate: '2024-09-06T21:15:12.083Z'
-    LastModifiedDate: '2024-09-09T14:35:01.17Z'
+    LastModifiedDate: '2024-11-21T09:18:13.03Z'
   - VulnerabilityID: CVE-2024-45336
     PkgID: stdlib@v1.20.5
     PkgName: stdlib
@@ -6684,7 +7306,7 @@
       PURL: pkg:golang/stdlib@v1.20.5
       UID: 25b67ef9f7a7f62f
     InstalledVersion: v1.20.5
-    FixedVersion: 1.22.11, 1.23.5, 1.24.0-rc2
+    FixedVersion: 1.22.11, 1.23.5, 1.24.0-rc.2
     Status: fixed
     Layer:
       Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
@@ -6698,8 +7320,12 @@
     Description: The HTTP client drops sensitive headers after following a cross-domain redirect. For example, a request to a.com/ containing an Authorization header which is redirected to b.com/ will not send that header to b.com. In the event that the client received a subsequent same-domain redirect, however, the sensitive headers would be restored. For example, a chain of redirects from a.com/, to b.com/1, and finally to b.com/2 would incorrectly send the Authorization header to b.com/2.
     Severity: MEDIUM
     VendorSeverity:
+      bitnami: 2
       redhat: 2
     CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
+        V3Score: 6.1
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N
         V3Score: 5.9
@@ -6721,7 +7347,7 @@
       PURL: pkg:golang/stdlib@v1.20.5
       UID: 25b67ef9f7a7f62f
     InstalledVersion: v1.20.5
-    FixedVersion: 1.22.11, 1.23.5, 1.24.0-rc2
+    FixedVersion: 1.22.11, 1.23.5, 1.24.0-rc.2
     Status: fixed
     Layer:
       Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
@@ -6735,8 +7361,13 @@
     Description: A certificate with a URI which has a IPv6 address with a zone ID may incorrectly satisfy a URI name constraint that applies to the certificate chain. Certificates containing URIs are not permitted in the web PKI, so this only affects users of private PKIs which make use of URIs.
     Severity: MEDIUM
     VendorSeverity:
+      bitnami: 2
+      cbl-mariner: 2
       redhat: 1
     CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
+        V3Score: 6.1
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:L/I:L/A:N
         V3Score: 4.2
@@ -6751,6 +7382,33 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-45341
     PublishedDate: '2025-01-28T02:15:29.147Z'
     LastModifiedDate: '2025-01-28T16:15:38.65Z'
+  - VulnerabilityID: CVE-2025-22866
+    PkgID: stdlib@v1.20.5
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@v1.20.5
+      UID: 25b67ef9f7a7f62f
+    InstalledVersion: v1.20.5
+    FixedVersion: 1.22.12, 1.23.6, 1.24.0-rc.3
+    Status: fixed
+    Layer:
+      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
+      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-22866
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: Due to the usage of a variable time instruction in the assembly implem ...
+    Description: Due to the usage of a variable time instruction in the assembly implementation of an internal function, a small number of bits of secret scalars are leaked on the ppc64le architecture. Due to the way this function is used, we do not believe this leakage is enough to allow recovery of the private key when P-256 is used in any well known protocols.
+    Severity: UNKNOWN
+    References:
+    - https://go.dev/cl/643735
+    - https://go.dev/issue/71383
+    - https://groups.google.com/g/golang-announce/c/xU1ZCHUZw3k
+    - https://pkg.go.dev/vuln/GO-2025-3447
+    PublishedDate: '2025-02-06T17:15:21.41Z'
+    LastModifiedDate: '2025-02-06T17:15:21.41Z'
 - Target: tmp/tmp.lFSpTqS1CB/krew-linux_amd64
   Class: lang-pkgs
   Type: gobinary
@@ -6908,7 +7566,7 @@
     - https://www.cisa.gov/news-events/alerts/2023/10/10/http2-rapid-reset-vulnerability-cve-2023-44487
     - https://www.cve.org/CVERecord?id=CVE-2023-39325
     PublishedDate: '2023-10-11T22:15:09.88Z'
-    LastModifiedDate: '2024-04-28T04:15:09.877Z'
+    LastModifiedDate: '2024-11-21T08:15:09.627Z'
   - VulnerabilityID: CVE-2024-45338
     PkgID: golang.org/x/net@v0.12.0
     PkgName: golang.org/x/net
@@ -6933,7 +7591,7 @@
     CweIDs:
     - CWE-1333
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 3
       cbl-mariner: 3
       ghsa: 3
@@ -7024,7 +7682,7 @@
     - https://pkg.go.dev/vuln/GO-2023-1988
     - https://www.cve.org/CVERecord?id=CVE-2023-3978
     PublishedDate: '2023-08-02T20:15:12.097Z'
-    LastModifiedDate: '2023-11-07T04:20:03.647Z'
+    LastModifiedDate: '2024-11-21T08:18:27.68Z'
   - VulnerabilityID: CVE-2023-44487
     PkgID: golang.org/x/net@v0.12.0
     PkgName: golang.org/x/net
@@ -7399,7 +8057,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-45288
     - https://www.kb.cert.org/vuls/id/421644
     PublishedDate: '2024-04-04T21:15:16.113Z'
-    LastModifiedDate: '2024-08-26T21:35:02.457Z'
+    LastModifiedDate: '2024-11-21T08:26:42.38Z'
   - VulnerabilityID: CVE-2024-24790
     PkgID: stdlib@v1.20.5
     PkgName: stdlib
@@ -7473,7 +8131,7 @@
     - https://ubuntu.com/security/notices/USN-7109-1
     - https://www.cve.org/CVERecord?id=CVE-2024-24790
     PublishedDate: '2024-06-05T16:15:10.56Z'
-    LastModifiedDate: '2024-09-03T18:35:07.483Z'
+    LastModifiedDate: '2024-11-21T08:59:42.813Z'
   - VulnerabilityID: CVE-2023-39325
     PkgID: stdlib@v1.20.5
     PkgName: stdlib
@@ -7627,7 +8285,7 @@
     - https://www.cisa.gov/news-events/alerts/2023/10/10/http2-rapid-reset-vulnerability-cve-2023-44487
     - https://www.cve.org/CVERecord?id=CVE-2023-39325
     PublishedDate: '2023-10-11T22:15:09.88Z'
-    LastModifiedDate: '2024-04-28T04:15:09.877Z'
+    LastModifiedDate: '2024-11-21T08:15:09.627Z'
   - VulnerabilityID: CVE-2023-45283
     PkgID: stdlib@v1.20.5
     PkgName: stdlib
@@ -7676,7 +8334,7 @@
     - https://pkg.go.dev/vuln/GO-2023-2185
     - https://security.netapp.com/advisory/ntap-20231214-0008/
     PublishedDate: '2023-11-09T17:15:08.757Z'
-    LastModifiedDate: '2023-12-14T10:15:07.947Z'
+    LastModifiedDate: '2024-11-21T08:26:41.567Z'
   - VulnerabilityID: CVE-2023-45288
     PkgID: stdlib@v1.20.5
     PkgName: stdlib
@@ -7758,7 +8416,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-45288
     - https://www.kb.cert.org/vuls/id/421644
     PublishedDate: '2024-04-04T21:15:16.113Z'
-    LastModifiedDate: '2024-08-26T21:35:02.457Z'
+    LastModifiedDate: '2024-11-21T08:26:42.38Z'
   - VulnerabilityID: CVE-2024-34156
     PkgID: stdlib@v1.20.5
     PkgName: stdlib
@@ -7820,7 +8478,7 @@
     - https://ubuntu.com/security/notices/USN-7111-1
     - https://www.cve.org/CVERecord?id=CVE-2024-34156
     PublishedDate: '2024-09-06T21:15:12.02Z'
-    LastModifiedDate: '2024-09-09T15:35:07.573Z'
+    LastModifiedDate: '2024-11-21T09:18:12.853Z'
   - VulnerabilityID: CVE-2023-29406
     PkgID: stdlib@v1.20.5
     PkgName: stdlib
@@ -7898,7 +8556,7 @@
     - https://ubuntu.com/security/notices/USN-7109-1
     - https://www.cve.org/CVERecord?id=CVE-2023-29406
     PublishedDate: '2023-07-11T20:15:10.643Z'
-    LastModifiedDate: '2023-11-25T11:15:14.727Z'
+    LastModifiedDate: '2024-11-21T07:56:59.913Z'
   - VulnerabilityID: CVE-2023-29409
     PkgID: stdlib@v1.20.5
     PkgName: stdlib
@@ -7962,7 +8620,7 @@
     - https://security.netapp.com/advisory/ntap-20230831-0010/
     - https://www.cve.org/CVERecord?id=CVE-2023-29409
     PublishedDate: '2023-08-02T20:15:11.94Z'
-    LastModifiedDate: '2023-11-25T11:15:14.87Z'
+    LastModifiedDate: '2024-11-21T07:57:00.287Z'
   - VulnerabilityID: CVE-2023-39318
     PkgID: stdlib@v1.20.5
     PkgName: stdlib
@@ -8032,7 +8690,7 @@
     - https://vuln.go.dev/ID/GO-2023-2041.json
     - https://www.cve.org/CVERecord?id=CVE-2023-39318
     PublishedDate: '2023-09-08T17:15:27.823Z'
-    LastModifiedDate: '2023-11-25T11:15:17.43Z'
+    LastModifiedDate: '2024-11-21T08:15:08.737Z'
   - VulnerabilityID: CVE-2023-39319
     PkgID: stdlib@v1.20.5
     PkgName: stdlib
@@ -8102,7 +8760,7 @@
     - https://vuln.go.dev/ID/GO-2023-2043.json
     - https://www.cve.org/CVERecord?id=CVE-2023-39319
     PublishedDate: '2023-09-08T17:15:27.91Z'
-    LastModifiedDate: '2023-11-25T11:15:17.543Z'
+    LastModifiedDate: '2024-11-21T08:15:08.89Z'
   - VulnerabilityID: CVE-2023-39326
     PkgID: stdlib@v1.20.5
     PkgName: stdlib
@@ -8163,7 +8821,7 @@
     - https://ubuntu.com/security/notices/USN-6574-1
     - https://www.cve.org/CVERecord?id=CVE-2023-39326
     PublishedDate: '2023-12-06T17:15:07.147Z'
-    LastModifiedDate: '2024-01-20T04:15:07.89Z'
+    LastModifiedDate: '2024-11-21T08:15:09.89Z'
   - VulnerabilityID: CVE-2023-45284
     PkgID: stdlib@v1.20.5
     PkgName: stdlib
@@ -8205,7 +8863,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-45284
     - https://pkg.go.dev/vuln/GO-2023-2186
     PublishedDate: '2023-11-09T17:15:08.813Z'
-    LastModifiedDate: '2024-09-03T19:35:05.593Z'
+    LastModifiedDate: '2024-11-21T08:26:41.737Z'
   - VulnerabilityID: CVE-2023-45289
     PkgID: stdlib@v1.20.5
     PkgName: stdlib
@@ -8274,7 +8932,7 @@
     - https://ubuntu.com/security/notices/USN-6886-1
     - https://www.cve.org/CVERecord?id=CVE-2023-45289
     PublishedDate: '2024-03-05T23:15:07.137Z'
-    LastModifiedDate: '2024-11-04T19:35:02.6Z'
+    LastModifiedDate: '2024-11-21T08:26:42.62Z'
   - VulnerabilityID: CVE-2023-45290
     PkgID: stdlib@v1.20.5
     PkgName: stdlib
@@ -8342,7 +9000,7 @@
     - https://ubuntu.com/security/notices/USN-7111-1
     - https://www.cve.org/CVERecord?id=CVE-2023-45290
     PublishedDate: '2024-03-05T23:15:07.21Z'
-    LastModifiedDate: '2024-11-07T11:35:02.48Z'
+    LastModifiedDate: '2024-11-21T08:26:42.853Z'
   - VulnerabilityID: CVE-2024-24783
     PkgID: stdlib@v1.20.5
     PkgName: stdlib
@@ -8414,7 +9072,7 @@
     - https://ubuntu.com/security/notices/USN-7111-1
     - https://www.cve.org/CVERecord?id=CVE-2024-24783
     PublishedDate: '2024-03-05T23:15:07.683Z'
-    LastModifiedDate: '2024-11-05T17:35:08.987Z'
+    LastModifiedDate: '2024-11-21T08:59:41.62Z'
   - VulnerabilityID: CVE-2024-24784
     PkgID: stdlib@v1.20.5
     PkgName: stdlib
@@ -8495,7 +9153,7 @@
     - https://ubuntu.com/security/notices/USN-7111-1
     - https://www.cve.org/CVERecord?id=CVE-2024-24784
     PublishedDate: '2024-03-05T23:15:07.733Z'
-    LastModifiedDate: '2024-08-05T21:35:04.457Z'
+    LastModifiedDate: '2024-11-21T08:59:41.82Z'
   - VulnerabilityID: CVE-2024-24785
     PkgID: stdlib@v1.20.5
     PkgName: stdlib
@@ -8569,7 +9227,7 @@
     - https://vuln.go.dev/ID/GO-2024-2610.json
     - https://www.cve.org/CVERecord?id=CVE-2024-24785
     PublishedDate: '2024-03-05T23:15:07.777Z'
-    LastModifiedDate: '2024-05-01T17:15:29.61Z'
+    LastModifiedDate: '2024-11-21T08:59:41.997Z'
   - VulnerabilityID: CVE-2024-24789
     PkgID: stdlib@v1.20.5
     PkgName: stdlib
@@ -8640,12 +9298,13 @@
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/U5YAEIA6IUHUNGJ7AIXXPQT6D2GYENX7/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-24789
     - https://pkg.go.dev/vuln/GO-2024-2888
+    - https://security.netapp.com/advisory/ntap-20250131-0008/
     - https://ubuntu.com/security/notices/USN-6886-1
     - https://ubuntu.com/security/notices/USN-7109-1
     - https://ubuntu.com/security/notices/USN-7111-1
     - https://www.cve.org/CVERecord?id=CVE-2024-24789
     PublishedDate: '2024-06-05T16:15:10.47Z'
-    LastModifiedDate: '2024-07-03T01:48:25.51Z'
+    LastModifiedDate: '2025-01-31T15:15:12.74Z'
   - VulnerabilityID: CVE-2024-24791
     PkgID: stdlib@v1.20.5
     PkgName: stdlib
@@ -8713,7 +9372,7 @@
     - https://ubuntu.com/security/notices/USN-7111-1
     - https://www.cve.org/CVERecord?id=CVE-2024-24791
     PublishedDate: '2024-07-02T22:15:04.833Z'
-    LastModifiedDate: '2024-07-08T14:17:39.083Z'
+    LastModifiedDate: '2024-11-21T08:59:43.013Z'
   - VulnerabilityID: CVE-2024-34155
     PkgID: stdlib@v1.20.5
     PkgName: stdlib
@@ -8785,7 +9444,7 @@
     - https://ubuntu.com/security/notices/USN-7111-1
     - https://www.cve.org/CVERecord?id=CVE-2024-34155
     PublishedDate: '2024-09-06T21:15:11.947Z'
-    LastModifiedDate: '2024-11-04T17:35:17.887Z'
+    LastModifiedDate: '2024-11-21T09:18:12.633Z'
   - VulnerabilityID: CVE-2024-34158
     PkgID: stdlib@v1.20.5
     PkgName: stdlib
@@ -8860,7 +9519,7 @@
     - https://ubuntu.com/security/notices/USN-7111-1
     - https://www.cve.org/CVERecord?id=CVE-2024-34158
     PublishedDate: '2024-09-06T21:15:12.083Z'
-    LastModifiedDate: '2024-09-09T14:35:01.17Z'
+    LastModifiedDate: '2024-11-21T09:18:13.03Z'
   - VulnerabilityID: CVE-2024-45336
     PkgID: stdlib@v1.20.5
     PkgName: stdlib
@@ -8868,7 +9527,7 @@
       PURL: pkg:golang/stdlib@v1.20.5
       UID: 16fb642a207df156
     InstalledVersion: v1.20.5
-    FixedVersion: 1.22.11, 1.23.5, 1.24.0-rc2
+    FixedVersion: 1.22.11, 1.23.5, 1.24.0-rc.2
     Status: fixed
     Layer:
       Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
@@ -8882,8 +9541,12 @@
     Description: The HTTP client drops sensitive headers after following a cross-domain redirect. For example, a request to a.com/ containing an Authorization header which is redirected to b.com/ will not send that header to b.com. In the event that the client received a subsequent same-domain redirect, however, the sensitive headers would be restored. For example, a chain of redirects from a.com/, to b.com/1, and finally to b.com/2 would incorrectly send the Authorization header to b.com/2.
     Severity: MEDIUM
     VendorSeverity:
+      bitnami: 2
       redhat: 2
     CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
+        V3Score: 6.1
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N
         V3Score: 5.9
@@ -8905,7 +9568,7 @@
       PURL: pkg:golang/stdlib@v1.20.5
       UID: 16fb642a207df156
     InstalledVersion: v1.20.5
-    FixedVersion: 1.22.11, 1.23.5, 1.24.0-rc2
+    FixedVersion: 1.22.11, 1.23.5, 1.24.0-rc.2
     Status: fixed
     Layer:
       Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
@@ -8919,8 +9582,13 @@
     Description: A certificate with a URI which has a IPv6 address with a zone ID may incorrectly satisfy a URI name constraint that applies to the certificate chain. Certificates containing URIs are not permitted in the web PKI, so this only affects users of private PKIs which make use of URIs.
     Severity: MEDIUM
     VendorSeverity:
+      bitnami: 2
+      cbl-mariner: 2
       redhat: 1
     CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
+        V3Score: 6.1
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:L/I:L/A:N
         V3Score: 4.2
@@ -8935,6 +9603,33 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-45341
     PublishedDate: '2025-01-28T02:15:29.147Z'
     LastModifiedDate: '2025-01-28T16:15:38.65Z'
+  - VulnerabilityID: CVE-2025-22866
+    PkgID: stdlib@v1.20.5
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@v1.20.5
+      UID: 16fb642a207df156
+    InstalledVersion: v1.20.5
+    FixedVersion: 1.22.12, 1.23.6, 1.24.0-rc.3
+    Status: fixed
+    Layer:
+      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
+      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-22866
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: Due to the usage of a variable time instruction in the assembly implem ...
+    Description: Due to the usage of a variable time instruction in the assembly implementation of an internal function, a small number of bits of secret scalars are leaked on the ppc64le architecture. Due to the way this function is used, we do not believe this leakage is enough to allow recovery of the private key when P-256 is used in any well known protocols.
+    Severity: UNKNOWN
+    References:
+    - https://go.dev/cl/643735
+    - https://go.dev/issue/71383
+    - https://groups.google.com/g/golang-announce/c/xU1ZCHUZw3k
+    - https://pkg.go.dev/vuln/GO-2025-3447
+    PublishedDate: '2025-02-06T17:15:21.41Z'
+    LastModifiedDate: '2025-02-06T17:15:21.41Z'
 - Target: usr/bin/docker-compose
   Class: lang-pkgs
   Type: gobinary
@@ -8963,7 +9658,7 @@
     CweIDs:
     - CWE-1333
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 3
       cbl-mariner: 3
       ghsa: 3
@@ -8994,7 +9689,7 @@
       PURL: pkg:golang/stdlib@v1.22.8
       UID: 9e834a38ae7f8fea
     InstalledVersion: v1.22.8
-    FixedVersion: 1.22.11, 1.23.5, 1.24.0-rc2
+    FixedVersion: 1.22.11, 1.23.5, 1.24.0-rc.2
     Status: fixed
     Layer:
       Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
@@ -9008,8 +9703,12 @@
     Description: The HTTP client drops sensitive headers after following a cross-domain redirect. For example, a request to a.com/ containing an Authorization header which is redirected to b.com/ will not send that header to b.com. In the event that the client received a subsequent same-domain redirect, however, the sensitive headers would be restored. For example, a chain of redirects from a.com/, to b.com/1, and finally to b.com/2 would incorrectly send the Authorization header to b.com/2.
     Severity: MEDIUM
     VendorSeverity:
+      bitnami: 2
       redhat: 2
     CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
+        V3Score: 6.1
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N
         V3Score: 5.9
@@ -9031,7 +9730,7 @@
       PURL: pkg:golang/stdlib@v1.22.8
       UID: 9e834a38ae7f8fea
     InstalledVersion: v1.22.8
-    FixedVersion: 1.22.11, 1.23.5, 1.24.0-rc2
+    FixedVersion: 1.22.11, 1.23.5, 1.24.0-rc.2
     Status: fixed
     Layer:
       Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
@@ -9045,8 +9744,13 @@
     Description: A certificate with a URI which has a IPv6 address with a zone ID may incorrectly satisfy a URI name constraint that applies to the certificate chain. Certificates containing URIs are not permitted in the web PKI, so this only affects users of private PKIs which make use of URIs.
     Severity: MEDIUM
     VendorSeverity:
+      bitnami: 2
+      cbl-mariner: 2
       redhat: 1
     CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
+        V3Score: 6.1
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:L/I:L/A:N
         V3Score: 4.2
@@ -9061,6 +9765,33 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-45341
     PublishedDate: '2025-01-28T02:15:29.147Z'
     LastModifiedDate: '2025-01-28T16:15:38.65Z'
+  - VulnerabilityID: CVE-2025-22866
+    PkgID: stdlib@v1.22.8
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@v1.22.8
+      UID: 9e834a38ae7f8fea
+    InstalledVersion: v1.22.8
+    FixedVersion: 1.22.12, 1.23.6, 1.24.0-rc.3
+    Status: fixed
+    Layer:
+      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
+      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-22866
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: Due to the usage of a variable time instruction in the assembly implem ...
+    Description: Due to the usage of a variable time instruction in the assembly implementation of an internal function, a small number of bits of secret scalars are leaked on the ppc64le architecture. Due to the way this function is used, we do not believe this leakage is enough to allow recovery of the private key when P-256 is used in any well known protocols.
+    Severity: UNKNOWN
+    References:
+    - https://go.dev/cl/643735
+    - https://go.dev/issue/71383
+    - https://groups.google.com/g/golang-announce/c/xU1ZCHUZw3k
+    - https://pkg.go.dev/vuln/GO-2025-3447
+    PublishedDate: '2025-02-06T17:15:21.41Z'
+    LastModifiedDate: '2025-02-06T17:15:21.41Z'
 - Target: usr/bin/helm
   Class: lang-pkgs
   Type: gobinary
@@ -9089,7 +9820,7 @@
     CweIDs:
     - CWE-1333
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 3
       cbl-mariner: 3
       ghsa: 3
@@ -9120,7 +9851,7 @@
       PURL: pkg:golang/stdlib@v1.22.7
       UID: e3ea6a5d54007ed0
     InstalledVersion: v1.22.7
-    FixedVersion: 1.22.11, 1.23.5, 1.24.0-rc2
+    FixedVersion: 1.22.11, 1.23.5, 1.24.0-rc.2
     Status: fixed
     Layer:
       Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
@@ -9134,8 +9865,12 @@
     Description: The HTTP client drops sensitive headers after following a cross-domain redirect. For example, a request to a.com/ containing an Authorization header which is redirected to b.com/ will not send that header to b.com. In the event that the client received a subsequent same-domain redirect, however, the sensitive headers would be restored. For example, a chain of redirects from a.com/, to b.com/1, and finally to b.com/2 would incorrectly send the Authorization header to b.com/2.
     Severity: MEDIUM
     VendorSeverity:
+      bitnami: 2
       redhat: 2
     CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
+        V3Score: 6.1
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N
         V3Score: 5.9
@@ -9157,7 +9892,7 @@
       PURL: pkg:golang/stdlib@v1.22.7
       UID: e3ea6a5d54007ed0
     InstalledVersion: v1.22.7
-    FixedVersion: 1.22.11, 1.23.5, 1.24.0-rc2
+    FixedVersion: 1.22.11, 1.23.5, 1.24.0-rc.2
     Status: fixed
     Layer:
       Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
@@ -9171,8 +9906,13 @@
     Description: A certificate with a URI which has a IPv6 address with a zone ID may incorrectly satisfy a URI name constraint that applies to the certificate chain. Certificates containing URIs are not permitted in the web PKI, so this only affects users of private PKIs which make use of URIs.
     Severity: MEDIUM
     VendorSeverity:
+      bitnami: 2
+      cbl-mariner: 2
       redhat: 1
     CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
+        V3Score: 6.1
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:L/I:L/A:N
         V3Score: 4.2
@@ -9187,6 +9927,33 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-45341
     PublishedDate: '2025-01-28T02:15:29.147Z'
     LastModifiedDate: '2025-01-28T16:15:38.65Z'
+  - VulnerabilityID: CVE-2025-22866
+    PkgID: stdlib@v1.22.7
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@v1.22.7
+      UID: e3ea6a5d54007ed0
+    InstalledVersion: v1.22.7
+    FixedVersion: 1.22.12, 1.23.6, 1.24.0-rc.3
+    Status: fixed
+    Layer:
+      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
+      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-22866
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: Due to the usage of a variable time instruction in the assembly implem ...
+    Description: Due to the usage of a variable time instruction in the assembly implementation of an internal function, a small number of bits of secret scalars are leaked on the ppc64le architecture. Due to the way this function is used, we do not believe this leakage is enough to allow recovery of the private key when P-256 is used in any well known protocols.
+    Severity: UNKNOWN
+    References:
+    - https://go.dev/cl/643735
+    - https://go.dev/issue/71383
+    - https://groups.google.com/g/golang-announce/c/xU1ZCHUZw3k
+    - https://pkg.go.dev/vuln/GO-2025-3447
+    PublishedDate: '2025-02-06T17:15:21.41Z'
+    LastModifiedDate: '2025-02-06T17:15:21.41Z'
 - Target: usr/bin/kubectl
   Class: lang-pkgs
   Type: gobinary
@@ -9215,7 +9982,7 @@
     CweIDs:
     - CWE-1333
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 3
       cbl-mariner: 3
       ghsa: 3
@@ -9246,7 +10013,7 @@
       PURL: pkg:golang/stdlib@v1.23.3
       UID: 68f96b58099ab89f
     InstalledVersion: v1.23.3
-    FixedVersion: 1.22.11, 1.23.5, 1.24.0-rc2
+    FixedVersion: 1.22.11, 1.23.5, 1.24.0-rc.2
     Status: fixed
     Layer:
       Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
@@ -9260,8 +10027,12 @@
     Description: The HTTP client drops sensitive headers after following a cross-domain redirect. For example, a request to a.com/ containing an Authorization header which is redirected to b.com/ will not send that header to b.com. In the event that the client received a subsequent same-domain redirect, however, the sensitive headers would be restored. For example, a chain of redirects from a.com/, to b.com/1, and finally to b.com/2 would incorrectly send the Authorization header to b.com/2.
     Severity: MEDIUM
     VendorSeverity:
+      bitnami: 2
       redhat: 2
     CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
+        V3Score: 6.1
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N
         V3Score: 5.9
@@ -9283,7 +10054,7 @@
       PURL: pkg:golang/stdlib@v1.23.3
       UID: 68f96b58099ab89f
     InstalledVersion: v1.23.3
-    FixedVersion: 1.22.11, 1.23.5, 1.24.0-rc2
+    FixedVersion: 1.22.11, 1.23.5, 1.24.0-rc.2
     Status: fixed
     Layer:
       Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
@@ -9297,8 +10068,13 @@
     Description: A certificate with a URI which has a IPv6 address with a zone ID may incorrectly satisfy a URI name constraint that applies to the certificate chain. Certificates containing URIs are not permitted in the web PKI, so this only affects users of private PKIs which make use of URIs.
     Severity: MEDIUM
     VendorSeverity:
+      bitnami: 2
+      cbl-mariner: 2
       redhat: 1
     CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
+        V3Score: 6.1
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:L/I:L/A:N
         V3Score: 4.2
@@ -9313,6 +10089,33 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-45341
     PublishedDate: '2025-01-28T02:15:29.147Z'
     LastModifiedDate: '2025-01-28T16:15:38.65Z'
+  - VulnerabilityID: CVE-2025-22866
+    PkgID: stdlib@v1.23.3
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@v1.23.3
+      UID: 68f96b58099ab89f
+    InstalledVersion: v1.23.3
+    FixedVersion: 1.22.12, 1.23.6, 1.24.0-rc.3
+    Status: fixed
+    Layer:
+      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
+      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-22866
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: Due to the usage of a variable time instruction in the assembly implem ...
+    Description: Due to the usage of a variable time instruction in the assembly implementation of an internal function, a small number of bits of secret scalars are leaked on the ppc64le architecture. Due to the way this function is used, we do not believe this leakage is enough to allow recovery of the private key when P-256 is used in any well known protocols.
+    Severity: UNKNOWN
+    References:
+    - https://go.dev/cl/643735
+    - https://go.dev/issue/71383
+    - https://groups.google.com/g/golang-announce/c/xU1ZCHUZw3k
+    - https://pkg.go.dev/vuln/GO-2025-3447
+    PublishedDate: '2025-02-06T17:15:21.41Z'
+    LastModifiedDate: '2025-02-06T17:15:21.41Z'
 - Target: usr/bin/mc
   Class: lang-pkgs
   Type: gobinary
@@ -9339,6 +10142,7 @@
     Description: Applications and libraries which misuse the ServerConfig.PublicKeyCallback callback may be susceptible to an authorization bypass. The documentation for ServerConfig.PublicKeyCallback says that "A call to this function does not guarantee that the key offered is in fact used to authenticate." Specifically, the SSH protocol allows clients to inquire about whether a public key is acceptable before proving control of the corresponding private key. PublicKeyCallback may be called with multiple keys, and the order in which the keys were provided cannot be used to infer which key the client successfully authenticated with, if any. Some applications, which store the key(s) passed to PublicKeyCallback (or derived information) and make security relevant determinations based on it once the connection is established, may make incorrect assumptions. For example, an attacker may send public keys A and B, and then authenticate with A. PublicKeyCallback would be called only twice, first with A and then with B. A vulnerable application may then make authorization decisions based on key B for which the attacker does not actually control the private key. Since this API is widely misused, as a partial mitigation golang.org/x/cry...@v0.31.0 enforces the property that, when successfully authenticating via public key, the last key passed to ServerConfig.PublicKeyCallback will be the key used to authenticate the connection. PublicKeyCallback will now be called multiple times with the same key, if necessary. Note that the client may still not control the last key passed to PublicKeyCallback if the connection is then authenticated with a different method, such as PasswordCallback, KeyboardInteractiveCallback, or NoClientAuth. Users should be using the Extensions field of the Permissions return value from the various authentication callbacks to record data associated with the authentication attempt instead of referencing external state. Once the connection is established the state corresponding to the successful authentication attempt can be retrieved via the ServerConn.Permissions field. Note that some third-party libraries misuse the Permissions type by sharing it across authentication attempts; users of third-party libraries should refer to the relevant projects for guidance.
     Severity: CRITICAL
     VendorSeverity:
+      amazon: 3
       azure: 4
       cbl-mariner: 4
       ghsa: 4
@@ -9360,9 +10164,11 @@
     - https://groups.google.com/g/golang-announce/c/-nPEi39gI4Q/m/cGVPJCqdAQAJ
     - https://nvd.nist.gov/vuln/detail/CVE-2024-45337
     - https://pkg.go.dev/vuln/GO-2024-3321
+    - https://security.netapp.com/advisory/ntap-20250131-0007
+    - https://security.netapp.com/advisory/ntap-20250131-0007/
     - https://www.cve.org/CVERecord?id=CVE-2024-45337
     PublishedDate: '2024-12-12T02:02:07.97Z'
-    LastModifiedDate: '2024-12-12T21:15:08.5Z'
+    LastModifiedDate: '2025-01-31T15:15:13.19Z'
   - VulnerabilityID: CVE-2024-45338
     PkgID: golang.org/x/net@v0.29.0
     PkgName: golang.org/x/net
@@ -9387,7 +10193,7 @@
     CweIDs:
     - CWE-1333
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 3
       cbl-mariner: 3
       ghsa: 3
@@ -9418,7 +10224,7 @@
       PURL: pkg:golang/stdlib@v1.23.4
       UID: f4caed7de28dc5af
     InstalledVersion: v1.23.4
-    FixedVersion: 1.22.11, 1.23.5, 1.24.0-rc2
+    FixedVersion: 1.22.11, 1.23.5, 1.24.0-rc.2
     Status: fixed
     Layer:
       Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
@@ -9432,8 +10238,12 @@
     Description: The HTTP client drops sensitive headers after following a cross-domain redirect. For example, a request to a.com/ containing an Authorization header which is redirected to b.com/ will not send that header to b.com. In the event that the client received a subsequent same-domain redirect, however, the sensitive headers would be restored. For example, a chain of redirects from a.com/, to b.com/1, and finally to b.com/2 would incorrectly send the Authorization header to b.com/2.
     Severity: MEDIUM
     VendorSeverity:
+      bitnami: 2
       redhat: 2
     CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
+        V3Score: 6.1
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N
         V3Score: 5.9
@@ -9455,7 +10265,7 @@
       PURL: pkg:golang/stdlib@v1.23.4
       UID: f4caed7de28dc5af
     InstalledVersion: v1.23.4
-    FixedVersion: 1.22.11, 1.23.5, 1.24.0-rc2
+    FixedVersion: 1.22.11, 1.23.5, 1.24.0-rc.2
     Status: fixed
     Layer:
       Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
@@ -9469,8 +10279,13 @@
     Description: A certificate with a URI which has a IPv6 address with a zone ID may incorrectly satisfy a URI name constraint that applies to the certificate chain. Certificates containing URIs are not permitted in the web PKI, so this only affects users of private PKIs which make use of URIs.
     Severity: MEDIUM
     VendorSeverity:
+      bitnami: 2
+      cbl-mariner: 2
       redhat: 1
     CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
+        V3Score: 6.1
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:L/I:L/A:N
         V3Score: 4.2
@@ -9485,6 +10300,33 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-45341
     PublishedDate: '2025-01-28T02:15:29.147Z'
     LastModifiedDate: '2025-01-28T16:15:38.65Z'
+  - VulnerabilityID: CVE-2025-22866
+    PkgID: stdlib@v1.23.4
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@v1.23.4
+      UID: f4caed7de28dc5af
+    InstalledVersion: v1.23.4
+    FixedVersion: 1.22.12, 1.23.6, 1.24.0-rc.3
+    Status: fixed
+    Layer:
+      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
+      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-22866
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: Due to the usage of a variable time instruction in the assembly implem ...
+    Description: Due to the usage of a variable time instruction in the assembly implementation of an internal function, a small number of bits of secret scalars are leaked on the ppc64le architecture. Due to the way this function is used, we do not believe this leakage is enough to allow recovery of the private key when P-256 is used in any well known protocols.
+    Severity: UNKNOWN
+    References:
+    - https://go.dev/cl/643735
+    - https://go.dev/issue/71383
+    - https://groups.google.com/g/golang-announce/c/xU1ZCHUZw3k
+    - https://pkg.go.dev/vuln/GO-2025-3447
+    PublishedDate: '2025-02-06T17:15:21.41Z'
+    LastModifiedDate: '2025-02-06T17:15:21.41Z'
 - Target: usr/local/bin/k3d
   Class: lang-pkgs
   Type: gobinary
@@ -9551,13 +10393,15 @@
     - https://github.com/moby/moby/commit/cc13f952511154a2866bddbb7dddebfe9e83b801
     - https://github.com/moby/moby/commit/fc274cd2ff4cf3b48c91697fb327dd1fb95588fb
     - https://github.com/moby/moby/security/advisories/GHSA-v23v-6jw2-98fq
+    - https://lists.debian.org/debian-lts-announce/2024/10/msg00009.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-41110
+    - https://security.netapp.com/advisory/ntap-20240802-0001/
     - https://ubuntu.com/security/notices/USN-7161-1
     - https://www.cve.org/CVERecord?id=CVE-2024-41110
     - https://www.docker.com/blog/docker-security-advisory-docker-engine-authz-plugin
     - https://www.docker.com/blog/docker-security-advisory-docker-engine-authz-plugin/
     PublishedDate: '2024-07-24T17:15:11.053Z'
-    LastModifiedDate: '2024-07-30T20:15:04.567Z'
+    LastModifiedDate: '2024-11-21T09:32:15.16Z'
   - VulnerabilityID: CVE-2024-45337
     PkgID: golang.org/x/crypto@v0.24.0
     PkgName: golang.org/x/crypto
@@ -9580,6 +10424,7 @@
     Description: Applications and libraries which misuse the ServerConfig.PublicKeyCallback callback may be susceptible to an authorization bypass. The documentation for ServerConfig.PublicKeyCallback says that "A call to this function does not guarantee that the key offered is in fact used to authenticate." Specifically, the SSH protocol allows clients to inquire about whether a public key is acceptable before proving control of the corresponding private key. PublicKeyCallback may be called with multiple keys, and the order in which the keys were provided cannot be used to infer which key the client successfully authenticated with, if any. Some applications, which store the key(s) passed to PublicKeyCallback (or derived information) and make security relevant determinations based on it once the connection is established, may make incorrect assumptions. For example, an attacker may send public keys A and B, and then authenticate with A. PublicKeyCallback would be called only twice, first with A and then with B. A vulnerable application may then make authorization decisions based on key B for which the attacker does not actually control the private key. Since this API is widely misused, as a partial mitigation golang.org/x/cry...@v0.31.0 enforces the property that, when successfully authenticating via public key, the last key passed to ServerConfig.PublicKeyCallback will be the key used to authenticate the connection. PublicKeyCallback will now be called multiple times with the same key, if necessary. Note that the client may still not control the last key passed to PublicKeyCallback if the connection is then authenticated with a different method, such as PasswordCallback, KeyboardInteractiveCallback, or NoClientAuth. Users should be using the Extensions field of the Permissions return value from the various authentication callbacks to record data associated with the authentication attempt instead of referencing external state. Once the connection is established the state corresponding to the successful authentication attempt can be retrieved via the ServerConn.Permissions field. Note that some third-party libraries misuse the Permissions type by sharing it across authentication attempts; users of third-party libraries should refer to the relevant projects for guidance.
     Severity: CRITICAL
     VendorSeverity:
+      amazon: 3
       azure: 4
       cbl-mariner: 4
       ghsa: 4
@@ -9601,9 +10446,11 @@
     - https://groups.google.com/g/golang-announce/c/-nPEi39gI4Q/m/cGVPJCqdAQAJ
     - https://nvd.nist.gov/vuln/detail/CVE-2024-45337
     - https://pkg.go.dev/vuln/GO-2024-3321
+    - https://security.netapp.com/advisory/ntap-20250131-0007
+    - https://security.netapp.com/advisory/ntap-20250131-0007/
     - https://www.cve.org/CVERecord?id=CVE-2024-45337
     PublishedDate: '2024-12-12T02:02:07.97Z'
-    LastModifiedDate: '2024-12-12T21:15:08.5Z'
+    LastModifiedDate: '2025-01-31T15:15:13.19Z'
   - VulnerabilityID: CVE-2024-45338
     PkgID: golang.org/x/net@v0.26.0
     PkgName: golang.org/x/net
@@ -9628,7 +10475,7 @@
     CweIDs:
     - CWE-1333
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 3
       cbl-mariner: 3
       ghsa: 3
@@ -9694,7 +10541,7 @@
       PURL: pkg:golang/stdlib@v1.22.9
       UID: e2dccc7ca75bb7a8
     InstalledVersion: v1.22.9
-    FixedVersion: 1.22.11, 1.23.5, 1.24.0-rc2
+    FixedVersion: 1.22.11, 1.23.5, 1.24.0-rc.2
     Status: fixed
     Layer:
       Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
@@ -9708,8 +10555,12 @@
     Description: The HTTP client drops sensitive headers after following a cross-domain redirect. For example, a request to a.com/ containing an Authorization header which is redirected to b.com/ will not send that header to b.com. In the event that the client received a subsequent same-domain redirect, however, the sensitive headers would be restored. For example, a chain of redirects from a.com/, to b.com/1, and finally to b.com/2 would incorrectly send the Authorization header to b.com/2.
     Severity: MEDIUM
     VendorSeverity:
+      bitnami: 2
       redhat: 2
     CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
+        V3Score: 6.1
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N
         V3Score: 5.9
@@ -9731,7 +10582,7 @@
       PURL: pkg:golang/stdlib@v1.22.9
       UID: e2dccc7ca75bb7a8
     InstalledVersion: v1.22.9
-    FixedVersion: 1.22.11, 1.23.5, 1.24.0-rc2
+    FixedVersion: 1.22.11, 1.23.5, 1.24.0-rc.2
     Status: fixed
     Layer:
       Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
@@ -9745,8 +10596,13 @@
     Description: A certificate with a URI which has a IPv6 address with a zone ID may incorrectly satisfy a URI name constraint that applies to the certificate chain. Certificates containing URIs are not permitted in the web PKI, so this only affects users of private PKIs which make use of URIs.
     Severity: MEDIUM
     VendorSeverity:
+      bitnami: 2
+      cbl-mariner: 2
       redhat: 1
     CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
+        V3Score: 6.1
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:L/I:L/A:N
         V3Score: 4.2
@@ -9761,6 +10617,33 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-45341
     PublishedDate: '2025-01-28T02:15:29.147Z'
     LastModifiedDate: '2025-01-28T16:15:38.65Z'
+  - VulnerabilityID: CVE-2025-22866
+    PkgID: stdlib@v1.22.9
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@v1.22.9
+      UID: e2dccc7ca75bb7a8
+    InstalledVersion: v1.22.9
+    FixedVersion: 1.22.12, 1.23.6, 1.24.0-rc.3
+    Status: fixed
+    Layer:
+      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
+      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-22866
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: Due to the usage of a variable time instruction in the assembly implem ...
+    Description: Due to the usage of a variable time instruction in the assembly implementation of an internal function, a small number of bits of secret scalars are leaked on the ppc64le architecture. Due to the way this function is used, we do not believe this leakage is enough to allow recovery of the private key when P-256 is used in any well known protocols.
+    Severity: UNKNOWN
+    References:
+    - https://go.dev/cl/643735
+    - https://go.dev/issue/71383
+    - https://groups.google.com/g/golang-announce/c/xU1ZCHUZw3k
+    - https://pkg.go.dev/vuln/GO-2025-3447
+    PublishedDate: '2025-02-06T17:15:21.41Z'
+    LastModifiedDate: '2025-02-06T17:15:21.41Z'
 - Target: /etc/ssh/ssh_host_dsa_key
   Class: secret
   Secrets:
