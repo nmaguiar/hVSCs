@@ -144,7 +144,7 @@
 │                        │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                        │      │                  │       023-34969 
 │                        │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2023-4569.html 
-│                        │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4569 
+│                        │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4498 
 │                        │      │                  ├ [7] : https://gitlab.freedesktop.org/dbus/dbus/-/issues/457 
 │                        │      │                  ├ [8] : https://linux.oracle.com/cve/CVE-2023-34969.html 
 │                        │      │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2023-4569.html 
@@ -212,7 +212,7 @@
 │                        │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                        │      │                  │       023-34969 
 │                        │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2023-4569.html 
-│                        │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4569 
+│                        │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4498 
 │                        │      │                  ├ [7] : https://gitlab.freedesktop.org/dbus/dbus/-/issues/457 
 │                        │      │                  ├ [8] : https://linux.oracle.com/cve/CVE-2023-34969.html 
 │                        │      │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2023-4569.html 
@@ -1258,7 +1258,7 @@
 │                        │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                        │      │                  │       023-34969 
 │                        │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2023-4569.html 
-│                        │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4569 
+│                        │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4498 
 │                        │      │                  ├ [7] : https://gitlab.freedesktop.org/dbus/dbus/-/issues/457 
 │                        │      │                  ├ [8] : https://linux.oracle.com/cve/CVE-2023-34969.html 
 │                        │      │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2023-4569.html 
@@ -4371,7 +4371,7 @@
 │                        │      │                  ├ [9]  : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                        │      │                  │        2023-44487 
 │                        │      │                  ├ [10] : https://errata.almalinux.org/9/ALSA-2023-6077.html 
-│                        │      │                  ├ [11] : https://errata.rockylinux.org/RLSA-2023:6077 
+│                        │      │                  ├ [11] : https://errata.rockylinux.org/RLSA-2023:5863 
 │                        │      │                  ├ [12] : https://github.com/golang/go/commit/24ae2d927285c69
 │                        │      │                  │        7440fdde3ad7f26028354bcf3 [golang- 1.21] 
 │                        │      │                  ├ [13] : https://github.com/golang/go/commit/e175f27f58aa7b9
@@ -4853,7 +4853,7 @@
 │                        │      │                  ├ [36] : https://edg.io/lp/blog/resets-leaks-ddos-and-the-ta
 │                        │      │                  │        le-of-a-hidden-cve 
 │                        │      │                  ├ [37] : https://errata.almalinux.org/9/ALSA-2023-6746.html 
-│                        │      │                  ├ [38] : https://errata.rockylinux.org/RLSA-2023:5838 
+│                        │      │                  ├ [38] : https://errata.rockylinux.org/RLSA-2023:5928 
 │                        │      │                  ├ [39] : https://forums.swift.org/t/swift-nio-http2-security
 │                        │      │                  │        -update-cve-2023-44487-http-2-dos/67764 
 │                        │      │                  ├ [40] : https://gist.github.com/adulau/7c2bfb8e9cdbe4b35a5e
@@ -5336,7 +5336,7 @@
 │                        │      │                  ├ [15]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                        │      │                  │       024-24783 
 │                        │      │                  ├ [16]: https://errata.almalinux.org/9/ALSA-2024-2724.html 
-│                        │      │                  ├ [17]: https://errata.rockylinux.org/RLSA-2024:2724 
+│                        │      │                  ├ [17]: https://errata.rockylinux.org/RLSA-2024:3346 
 │                        │      │                  ├ [18]: https://go.dev/cl/576155 
 │                        │      │                  ├ [19]: https://go.dev/issue/65051 
 │                        │      │                  ├ [20]: https://groups.google.com/g/golang-announce/c/YgW0sx
@@ -5525,7 +5525,7 @@
 │                        │      │                  ├ [9]  : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                        │      │                  │        2023-44487 
 │                        │      │                  ├ [10] : https://errata.almalinux.org/9/ALSA-2023-6077.html 
-│                        │      │                  ├ [11] : https://errata.rockylinux.org/RLSA-2023:6077 
+│                        │      │                  ├ [11] : https://errata.rockylinux.org/RLSA-2023:5863 
 │                        │      │                  ├ [12] : https://github.com/golang/go/commit/24ae2d927285c69
 │                        │      │                  │        7440fdde3ad7f26028354bcf3 [golang- 1.21] 
 │                        │      │                  ├ [13] : https://github.com/golang/go/commit/e175f27f58aa7b9
@@ -5911,7 +5911,7 @@
 │                        │      │                  ├ [15]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                        │      │                  │       024-24783 
 │                        │      │                  ├ [16]: https://errata.almalinux.org/9/ALSA-2024-2724.html 
-│                        │      │                  ├ [17]: https://errata.rockylinux.org/RLSA-2024:2724 
+│                        │      │                  ├ [17]: https://errata.rockylinux.org/RLSA-2024:3346 
 │                        │      │                  ├ [18]: https://go.dev/cl/576155 
 │                        │      │                  ├ [19]: https://go.dev/issue/65051 
 │                        │      │                  ├ [20]: https://groups.google.com/g/golang-announce/c/YgW0sx
@@ -5982,30 +5982,33 @@
 │                        │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024-34156 
 │                        │      │                  ├ [2] : https://bugzilla.redhat.com/2310528 
 │                        │      │                  ├ [3] : https://bugzilla.redhat.com/2318052 
-│                        │      │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2310528 
-│                        │      │                  ├ [5] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                        │      │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2262921 
+│                        │      │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2310528 
+│                        │      │                  ├ [6] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                        │      │                  │       024-1394 
+│                        │      │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                        │      │                  │       024-34156 
-│                        │      │                  ├ [6] : https://errata.almalinux.org/9/ALSA-2024-9473.html 
-│                        │      │                  ├ [7] : https://errata.rockylinux.org/RLSA-2024:8111 
-│                        │      │                  ├ [8] : https://github.com/golang/go/commit/2092294f2b097c58
+│                        │      │                  ├ [8] : https://errata.almalinux.org/9/ALSA-2024-9473.html 
+│                        │      │                  ├ [9] : https://errata.rockylinux.org/RLSA-2024:7262 
+│                        │      │                  ├ [10]: https://github.com/golang/go/commit/2092294f2b097c58
 │                        │      │                  │       28f4eace6c98a322c1510b01 (go1.22.7) 
-│                        │      │                  ├ [9] : https://github.com/golang/go/commit/fa8ff1a46deb6c81
+│                        │      │                  ├ [11]: https://github.com/golang/go/commit/fa8ff1a46deb6c81
 │                        │      │                  │       6304441ec6740ec112e19012 (go1.23.1) 
-│                        │      │                  ├ [10]: https://go.dev/cl/611239 
-│                        │      │                  ├ [11]: https://go.dev/issue/69139 
-│                        │      │                  ├ [12]: https://groups.google.com/g/golang-announce/c/K-cEzD
+│                        │      │                  ├ [12]: https://go.dev/cl/611239 
+│                        │      │                  ├ [13]: https://go.dev/issue/69139 
+│                        │      │                  ├ [14]: https://groups.google.com/g/golang-announce/c/K-cEzD
 │                        │      │                  │       eCtpc 
-│                        │      │                  ├ [13]: https://groups.google.com/g/golang-dev/c/S9POB9NCTdk 
-│                        │      │                  ├ [14]: https://linux.oracle.com/cve/CVE-2024-34156.html 
-│                        │      │                  ├ [15]: https://linux.oracle.com/errata/ELSA-2024-9473.html 
-│                        │      │                  ├ [16]: https://nvd.nist.gov/vuln/detail/CVE-2024-34156 
-│                        │      │                  ├ [17]: https://pkg.go.dev/vuln/GO-2024-3106 
-│                        │      │                  ├ [18]: https://security.netapp.com/advisory/ntap-20240926-0
+│                        │      │                  ├ [15]: https://groups.google.com/g/golang-dev/c/S9POB9NCTdk 
+│                        │      │                  ├ [16]: https://linux.oracle.com/cve/CVE-2024-34156.html 
+│                        │      │                  ├ [17]: https://linux.oracle.com/errata/ELSA-2024-9473.html 
+│                        │      │                  ├ [18]: https://nvd.nist.gov/vuln/detail/CVE-2024-34156 
+│                        │      │                  ├ [19]: https://pkg.go.dev/vuln/GO-2024-3106 
+│                        │      │                  ├ [20]: https://security.netapp.com/advisory/ntap-20240926-0
 │                        │      │                  │       004/ 
-│                        │      │                  ├ [19]: https://ubuntu.com/security/notices/USN-7081-1 
-│                        │      │                  ├ [20]: https://ubuntu.com/security/notices/USN-7109-1 
-│                        │      │                  ├ [21]: https://ubuntu.com/security/notices/USN-7111-1 
-│                        │      │                  ╰ [22]: https://www.cve.org/CVERecord?id=CVE-2024-34156 
+│                        │      │                  ├ [21]: https://ubuntu.com/security/notices/USN-7081-1 
+│                        │      │                  ├ [22]: https://ubuntu.com/security/notices/USN-7109-1 
+│                        │      │                  ├ [23]: https://ubuntu.com/security/notices/USN-7111-1 
+│                        │      │                  ╰ [24]: https://www.cve.org/CVERecord?id=CVE-2024-34156 
 │                        │      ├ PublishedDate   : 2024-09-06T21:15:12.02Z 
 │                        │      ╰ LastModifiedDate: 2024-11-21T09:18:12.853Z 
 │                        ├ [10] ╭ VulnerabilityID : CVE-2023-29406 
@@ -6498,7 +6501,7 @@
 │                        │      │                  ├ [14]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                        │      │                  │       024-24783 
 │                        │      │                  ├ [15]: https://errata.almalinux.org/9/ALSA-2024-2724.html 
-│                        │      │                  ├ [16]: https://errata.rockylinux.org/RLSA-2024:2724 
+│                        │      │                  ├ [16]: https://errata.rockylinux.org/RLSA-2024:3346 
 │                        │      │                  ├ [17]: https://github.com/golang/go/commit/20586c0dbe03d144
 │                        │      │                  │       f914155f879fa5ee287591a1 (go1.21.8) 
 │                        │      │                  ├ [18]: https://github.com/golang/go/commit/3a855208e3efed2e
@@ -6556,7 +6559,7 @@
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ oracle-oval: 3 
 │                        │      │                  ├ redhat     : 2 
-│                        │      │                  ├ rocky      : 2 
+│                        │      │                  ├ rocky      : 3 
 │                        │      │                  ╰ ubuntu     : 2 
 │                        │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I
 │                        │      │                  │         │           :N/A:H 
@@ -6573,31 +6576,40 @@
 │                        │      │                  ├ [5] : https://bugzilla.redhat.com/2279814 
 │                        │      │                  ├ [6] : https://bugzilla.redhat.com/2295310 
 │                        │      │                  ├ [7] : https://bugzilla.redhat.com/show_bug.cgi?id=2268017 
-│                        │      │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                        │      │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2268018 
+│                        │      │                  ├ [9] : https://bugzilla.redhat.com/show_bug.cgi?id=2268019 
+│                        │      │                  ├ [10]: https://bugzilla.redhat.com/show_bug.cgi?id=2268273 
+│                        │      │                  ├ [11]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                        │      │                  │       023-45288 
+│                        │      │                  ├ [12]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                        │      │                  │       023-45289 
+│                        │      │                  ├ [13]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                        │      │                  │       023-45290 
-│                        │      │                  ├ [9] : https://errata.almalinux.org/9/ALSA-2024-9135.html 
-│                        │      │                  ├ [10]: https://errata.rockylinux.org/RLSA-2024:3830 
-│                        │      │                  ├ [11]: https://github.com/golang/go/commit/041a47712e765e94
+│                        │      │                  ├ [14]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                        │      │                  │       024-24783 
+│                        │      │                  ├ [15]: https://errata.almalinux.org/9/ALSA-2024-9135.html 
+│                        │      │                  ├ [16]: https://errata.rockylinux.org/RLSA-2024:3346 
+│                        │      │                  ├ [17]: https://github.com/golang/go/commit/041a47712e765e94
 │                        │      │                  │       f86d841c3110c840e76d8f82 (go1.22.1) 
-│                        │      │                  ├ [12]: https://github.com/golang/go/commit/bf80213b121074f4
+│                        │      │                  ├ [18]: https://github.com/golang/go/commit/bf80213b121074f4
 │                        │      │                  │       ad9b449410a4d13bae5e9be0 (go1.21.8) 
-│                        │      │                  ├ [13]: https://github.com/golang/go/issues/65383 
-│                        │      │                  ├ [14]: https://go.dev/cl/569341 
-│                        │      │                  ├ [15]: https://go.dev/issue/65383 
-│                        │      │                  ├ [16]: https://groups.google.com/g/golang-announce/c/5pwGVU
+│                        │      │                  ├ [19]: https://github.com/golang/go/issues/65383 
+│                        │      │                  ├ [20]: https://go.dev/cl/569341 
+│                        │      │                  ├ [21]: https://go.dev/issue/65383 
+│                        │      │                  ├ [22]: https://groups.google.com/g/golang-announce/c/5pwGVU
 │                        │      │                  │       PoMbg 
-│                        │      │                  ├ [17]: https://linux.oracle.com/cve/CVE-2023-45290.html 
-│                        │      │                  ├ [18]: https://linux.oracle.com/errata/ELSA-2024-8038.html 
-│                        │      │                  ├ [19]: https://nvd.nist.gov/vuln/detail/CVE-2023-45290 
-│                        │      │                  ├ [20]: https://pkg.go.dev/vuln/GO-2024-2599 
-│                        │      │                  ├ [21]: https://security.netapp.com/advisory/ntap-20240329-0
+│                        │      │                  ├ [23]: https://linux.oracle.com/cve/CVE-2023-45290.html 
+│                        │      │                  ├ [24]: https://linux.oracle.com/errata/ELSA-2024-8038.html 
+│                        │      │                  ├ [25]: https://nvd.nist.gov/vuln/detail/CVE-2023-45290 
+│                        │      │                  ├ [26]: https://pkg.go.dev/vuln/GO-2024-2599 
+│                        │      │                  ├ [27]: https://security.netapp.com/advisory/ntap-20240329-0
 │                        │      │                  │       004 
-│                        │      │                  ├ [22]: https://security.netapp.com/advisory/ntap-20240329-0
+│                        │      │                  ├ [28]: https://security.netapp.com/advisory/ntap-20240329-0
 │                        │      │                  │       004/ 
-│                        │      │                  ├ [23]: https://ubuntu.com/security/notices/USN-6886-1 
-│                        │      │                  ├ [24]: https://ubuntu.com/security/notices/USN-7109-1 
-│                        │      │                  ├ [25]: https://ubuntu.com/security/notices/USN-7111-1 
-│                        │      │                  ╰ [26]: https://www.cve.org/CVERecord?id=CVE-2023-45290 
+│                        │      │                  ├ [29]: https://ubuntu.com/security/notices/USN-6886-1 
+│                        │      │                  ├ [30]: https://ubuntu.com/security/notices/USN-7109-1 
+│                        │      │                  ├ [31]: https://ubuntu.com/security/notices/USN-7111-1 
+│                        │      │                  ╰ [32]: https://www.cve.org/CVERecord?id=CVE-2023-45290 
 │                        │      ├ PublishedDate   : 2024-03-05T23:15:07.21Z 
 │                        │      ╰ LastModifiedDate: 2024-11-21T08:26:42.853Z 
 │                        ├ [18] ╭ VulnerabilityID : CVE-2024-24783 
@@ -6659,7 +6671,7 @@
 │                        │      │                  ├ [11]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                        │      │                  │       024-24783 
 │                        │      │                  ├ [12]: https://errata.almalinux.org/9/ALSA-2024-6195.html 
-│                        │      │                  ├ [13]: https://errata.rockylinux.org/RLSA-2024:2724 
+│                        │      │                  ├ [13]: https://errata.rockylinux.org/RLSA-2024:3346 
 │                        │      │                  ├ [14]: https://github.com/advisories/GHSA-3q2c-pvp5-3cqp 
 │                        │      │                  ├ [15]: https://github.com/golang/go/commit/337b8e9cbfa749d9
 │                        │      │                  │       d5c899e0dc358e2208d5e54f (go1.22.1) 
@@ -6992,7 +7004,7 @@
 │                        │      │                  ├ oracle-oval: 2 
 │                        │      │                  ├ photon     : 3 
 │                        │      │                  ├ redhat     : 2 
-│                        │      │                  ├ rocky      : 3 
+│                        │      │                  ├ rocky      : 2 
 │                        │      │                  ╰ ubuntu     : 2 
 │                        │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
 │                        │      │                  │         │           :N/A:H 
@@ -7007,33 +7019,24 @@
 │                        │      │                  ├ [4] : https://bugzilla.redhat.com/2279814 
 │                        │      │                  ├ [5] : https://bugzilla.redhat.com/2295310 
 │                        │      │                  ├ [6] : https://bugzilla.redhat.com/show_bug.cgi?id=2295310 
-│                        │      │                  ├ [7] : https://bugzilla.redhat.com/show_bug.cgi?id=2310527 
-│                        │      │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2310528 
-│                        │      │                  ├ [9] : https://bugzilla.redhat.com/show_bug.cgi?id=2310529 
-│                        │      │                  ├ [10]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                        │      │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                        │      │                  │       024-24791 
-│                        │      │                  ├ [11]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                        │      │                  │       024-34155 
-│                        │      │                  ├ [12]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                        │      │                  │       024-34156 
-│                        │      │                  ├ [13]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                        │      │                  │       024-34158 
-│                        │      │                  ├ [14]: https://errata.almalinux.org/9/ALSA-2024-9135.html 
-│                        │      │                  ├ [15]: https://errata.rockylinux.org/RLSA-2024:6913 
-│                        │      │                  ├ [16]: https://go.dev/cl/591255 
-│                        │      │                  ├ [17]: https://go.dev/issue/67555 
-│                        │      │                  ├ [18]: https://groups.google.com/g/golang-dev/c/t0rK-qHBqzY
+│                        │      │                  ├ [8] : https://errata.almalinux.org/9/ALSA-2024-9135.html 
+│                        │      │                  ├ [9] : https://errata.rockylinux.org/RLSA-2024:7349 
+│                        │      │                  ├ [10]: https://go.dev/cl/591255 
+│                        │      │                  ├ [11]: https://go.dev/issue/67555 
+│                        │      │                  ├ [12]: https://groups.google.com/g/golang-dev/c/t0rK-qHBqzY
 │                        │      │                  │       /m/6MMoAZkMAgAJ 
-│                        │      │                  ├ [19]: https://linux.oracle.com/cve/CVE-2024-24791.html 
-│                        │      │                  ├ [20]: https://linux.oracle.com/errata/ELSA-2024-9115.html 
-│                        │      │                  ├ [21]: https://nvd.nist.gov/vuln/detail/CVE-2024-24791 
-│                        │      │                  ├ [22]: https://pkg.go.dev/vuln/GO-2024-2963 
-│                        │      │                  ├ [23]: https://security.netapp.com/advisory/ntap-20241004-0
+│                        │      │                  ├ [13]: https://linux.oracle.com/cve/CVE-2024-24791.html 
+│                        │      │                  ├ [14]: https://linux.oracle.com/errata/ELSA-2024-9115.html 
+│                        │      │                  ├ [15]: https://nvd.nist.gov/vuln/detail/CVE-2024-24791 
+│                        │      │                  ├ [16]: https://pkg.go.dev/vuln/GO-2024-2963 
+│                        │      │                  ├ [17]: https://security.netapp.com/advisory/ntap-20241004-0
 │                        │      │                  │       004/ 
-│                        │      │                  ├ [24]: https://ubuntu.com/security/notices/USN-7081-1 
-│                        │      │                  ├ [25]: https://ubuntu.com/security/notices/USN-7109-1 
-│                        │      │                  ├ [26]: https://ubuntu.com/security/notices/USN-7111-1 
-│                        │      │                  ╰ [27]: https://www.cve.org/CVERecord?id=CVE-2024-24791 
+│                        │      │                  ├ [18]: https://ubuntu.com/security/notices/USN-7081-1 
+│                        │      │                  ├ [19]: https://ubuntu.com/security/notices/USN-7109-1 
+│                        │      │                  ├ [20]: https://ubuntu.com/security/notices/USN-7111-1 
+│                        │      │                  ╰ [21]: https://www.cve.org/CVERecord?id=CVE-2024-24791 
 │                        │      ├ PublishedDate   : 2024-07-02T22:15:04.833Z 
 │                        │      ╰ LastModifiedDate: 2024-11-21T08:59:43.013Z 
 │                        ├ [23] ╭ VulnerabilityID : CVE-2024-34155 
@@ -7307,8 +7310,8 @@
 │                               ├ DataSource       ╭ ID  : govulndb 
 │                               │                  ├ Name: The Go Vulnerability Database 
 │                               │                  ╰ URL : https://pkg.go.dev/vuln/ 
-│                               ├ Title           : Due to the usage of a variable time instruction in the
-│                               │                   assembly implem ... 
+│                               ├ Title           : crypto/internal/nistec: golang: Timing sidechannel for
+│                               │                   P-256 on ppc64le in crypto/internal/nistec 
 │                               ├ Description     : Due to the usage of a variable time instruction in the
 │                               │                   assembly implementation of an internal function, a small
 │                               │                   number of bits of secret scalars are leaked on the ppc64le
@@ -7316,12 +7319,19 @@
 │                               │                   not believe this leakage is enough to allow recovery of the
 │                               │                    private key when P-256 is used in any well known protocols
 │                               │                   . 
-│                               ├ Severity        : UNKNOWN 
-│                               ├ References       ╭ [0]: https://go.dev/cl/643735 
-│                               │                  ├ [1]: https://go.dev/issue/71383 
-│                               │                  ├ [2]: https://groups.google.com/g/golang-announce/c/xU1ZCHU
+│                               ├ Severity        : MEDIUM 
+│                               ├ VendorSeverity   ─ redhat: 2 
+│                               ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:
+│                               │                           │           N/A:N 
+│                               │                           ╰ V3Score : 5.3 
+│                               ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-22866 
+│                               │                  ├ [1]: https://go.dev/cl/643735 
+│                               │                  ├ [2]: https://go.dev/issue/71383 
+│                               │                  ├ [3]: https://groups.google.com/g/golang-announce/c/xU1ZCHU
 │                               │                  │      Zw3k 
-│                               │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2025-3447 
+│                               │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-22866 
+│                               │                  ├ [5]: https://pkg.go.dev/vuln/GO-2025-3447 
+│                               │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-22866 
 │                               ├ PublishedDate   : 2025-02-06T17:15:21.41Z 
 │                               ╰ LastModifiedDate: 2025-02-06T17:15:21.41Z 
 ├ [4]  ╭ Target         : tmp/tmp.OdZqFD47gC/krew-linux_amd64 
@@ -7405,7 +7415,7 @@
 │                        │      │                  ├ [9]  : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                        │      │                  │        2023-44487 
 │                        │      │                  ├ [10] : https://errata.almalinux.org/9/ALSA-2023-6077.html 
-│                        │      │                  ├ [11] : https://errata.rockylinux.org/RLSA-2023:6077 
+│                        │      │                  ├ [11] : https://errata.rockylinux.org/RLSA-2023:5863 
 │                        │      │                  ├ [12] : https://github.com/golang/go/commit/24ae2d927285c69
 │                        │      │                  │        7440fdde3ad7f26028354bcf3 [golang- 1.21] 
 │                        │      │                  ├ [13] : https://github.com/golang/go/commit/e175f27f58aa7b9
@@ -7887,7 +7897,7 @@
 │                        │      │                  ├ [36] : https://edg.io/lp/blog/resets-leaks-ddos-and-the-ta
 │                        │      │                  │        le-of-a-hidden-cve 
 │                        │      │                  ├ [37] : https://errata.almalinux.org/9/ALSA-2023-6746.html 
-│                        │      │                  ├ [38] : https://errata.rockylinux.org/RLSA-2023:5838 
+│                        │      │                  ├ [38] : https://errata.rockylinux.org/RLSA-2023:5928 
 │                        │      │                  ├ [39] : https://forums.swift.org/t/swift-nio-http2-security
 │                        │      │                  │        -update-cve-2023-44487-http-2-dos/67764 
 │                        │      │                  ├ [40] : https://gist.github.com/adulau/7c2bfb8e9cdbe4b35a5e
@@ -8370,7 +8380,7 @@
 │                        │      │                  ├ [15]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                        │      │                  │       024-24783 
 │                        │      │                  ├ [16]: https://errata.almalinux.org/9/ALSA-2024-2724.html 
-│                        │      │                  ├ [17]: https://errata.rockylinux.org/RLSA-2024:2724 
+│                        │      │                  ├ [17]: https://errata.rockylinux.org/RLSA-2024:3346 
 │                        │      │                  ├ [18]: https://go.dev/cl/576155 
 │                        │      │                  ├ [19]: https://go.dev/issue/65051 
 │                        │      │                  ├ [20]: https://groups.google.com/g/golang-announce/c/YgW0sx
@@ -8559,7 +8569,7 @@
 │                        │      │                  ├ [9]  : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                        │      │                  │        2023-44487 
 │                        │      │                  ├ [10] : https://errata.almalinux.org/9/ALSA-2023-6077.html 
-│                        │      │                  ├ [11] : https://errata.rockylinux.org/RLSA-2023:6077 
+│                        │      │                  ├ [11] : https://errata.rockylinux.org/RLSA-2023:5863 
 │                        │      │                  ├ [12] : https://github.com/golang/go/commit/24ae2d927285c69
 │                        │      │                  │        7440fdde3ad7f26028354bcf3 [golang- 1.21] 
 │                        │      │                  ├ [13] : https://github.com/golang/go/commit/e175f27f58aa7b9
@@ -8945,7 +8955,7 @@
 │                        │      │                  ├ [15]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                        │      │                  │       024-24783 
 │                        │      │                  ├ [16]: https://errata.almalinux.org/9/ALSA-2024-2724.html 
-│                        │      │                  ├ [17]: https://errata.rockylinux.org/RLSA-2024:2724 
+│                        │      │                  ├ [17]: https://errata.rockylinux.org/RLSA-2024:3346 
 │                        │      │                  ├ [18]: https://go.dev/cl/576155 
 │                        │      │                  ├ [19]: https://go.dev/issue/65051 
 │                        │      │                  ├ [20]: https://groups.google.com/g/golang-announce/c/YgW0sx
@@ -9016,30 +9026,33 @@
 │                        │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024-34156 
 │                        │      │                  ├ [2] : https://bugzilla.redhat.com/2310528 
 │                        │      │                  ├ [3] : https://bugzilla.redhat.com/2318052 
-│                        │      │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2310528 
-│                        │      │                  ├ [5] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                        │      │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2262921 
+│                        │      │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2310528 
+│                        │      │                  ├ [6] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                        │      │                  │       024-1394 
+│                        │      │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                        │      │                  │       024-34156 
-│                        │      │                  ├ [6] : https://errata.almalinux.org/9/ALSA-2024-9473.html 
-│                        │      │                  ├ [7] : https://errata.rockylinux.org/RLSA-2024:8111 
-│                        │      │                  ├ [8] : https://github.com/golang/go/commit/2092294f2b097c58
+│                        │      │                  ├ [8] : https://errata.almalinux.org/9/ALSA-2024-9473.html 
+│                        │      │                  ├ [9] : https://errata.rockylinux.org/RLSA-2024:7262 
+│                        │      │                  ├ [10]: https://github.com/golang/go/commit/2092294f2b097c58
 │                        │      │                  │       28f4eace6c98a322c1510b01 (go1.22.7) 
-│                        │      │                  ├ [9] : https://github.com/golang/go/commit/fa8ff1a46deb6c81
+│                        │      │                  ├ [11]: https://github.com/golang/go/commit/fa8ff1a46deb6c81
 │                        │      │                  │       6304441ec6740ec112e19012 (go1.23.1) 
-│                        │      │                  ├ [10]: https://go.dev/cl/611239 
-│                        │      │                  ├ [11]: https://go.dev/issue/69139 
-│                        │      │                  ├ [12]: https://groups.google.com/g/golang-announce/c/K-cEzD
+│                        │      │                  ├ [12]: https://go.dev/cl/611239 
+│                        │      │                  ├ [13]: https://go.dev/issue/69139 
+│                        │      │                  ├ [14]: https://groups.google.com/g/golang-announce/c/K-cEzD
 │                        │      │                  │       eCtpc 
-│                        │      │                  ├ [13]: https://groups.google.com/g/golang-dev/c/S9POB9NCTdk 
-│                        │      │                  ├ [14]: https://linux.oracle.com/cve/CVE-2024-34156.html 
-│                        │      │                  ├ [15]: https://linux.oracle.com/errata/ELSA-2024-9473.html 
-│                        │      │                  ├ [16]: https://nvd.nist.gov/vuln/detail/CVE-2024-34156 
-│                        │      │                  ├ [17]: https://pkg.go.dev/vuln/GO-2024-3106 
-│                        │      │                  ├ [18]: https://security.netapp.com/advisory/ntap-20240926-0
+│                        │      │                  ├ [15]: https://groups.google.com/g/golang-dev/c/S9POB9NCTdk 
+│                        │      │                  ├ [16]: https://linux.oracle.com/cve/CVE-2024-34156.html 
+│                        │      │                  ├ [17]: https://linux.oracle.com/errata/ELSA-2024-9473.html 
+│                        │      │                  ├ [18]: https://nvd.nist.gov/vuln/detail/CVE-2024-34156 
+│                        │      │                  ├ [19]: https://pkg.go.dev/vuln/GO-2024-3106 
+│                        │      │                  ├ [20]: https://security.netapp.com/advisory/ntap-20240926-0
 │                        │      │                  │       004/ 
-│                        │      │                  ├ [19]: https://ubuntu.com/security/notices/USN-7081-1 
-│                        │      │                  ├ [20]: https://ubuntu.com/security/notices/USN-7109-1 
-│                        │      │                  ├ [21]: https://ubuntu.com/security/notices/USN-7111-1 
-│                        │      │                  ╰ [22]: https://www.cve.org/CVERecord?id=CVE-2024-34156 
+│                        │      │                  ├ [21]: https://ubuntu.com/security/notices/USN-7081-1 
+│                        │      │                  ├ [22]: https://ubuntu.com/security/notices/USN-7109-1 
+│                        │      │                  ├ [23]: https://ubuntu.com/security/notices/USN-7111-1 
+│                        │      │                  ╰ [24]: https://www.cve.org/CVERecord?id=CVE-2024-34156 
 │                        │      ├ PublishedDate   : 2024-09-06T21:15:12.02Z 
 │                        │      ╰ LastModifiedDate: 2024-11-21T09:18:12.853Z 
 │                        ├ [10] ╭ VulnerabilityID : CVE-2023-29406 
@@ -9532,7 +9545,7 @@
 │                        │      │                  ├ [14]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                        │      │                  │       024-24783 
 │                        │      │                  ├ [15]: https://errata.almalinux.org/9/ALSA-2024-2724.html 
-│                        │      │                  ├ [16]: https://errata.rockylinux.org/RLSA-2024:2724 
+│                        │      │                  ├ [16]: https://errata.rockylinux.org/RLSA-2024:3346 
 │                        │      │                  ├ [17]: https://github.com/golang/go/commit/20586c0dbe03d144
 │                        │      │                  │       f914155f879fa5ee287591a1 (go1.21.8) 
 │                        │      │                  ├ [18]: https://github.com/golang/go/commit/3a855208e3efed2e
@@ -9590,7 +9603,7 @@
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ oracle-oval: 3 
 │                        │      │                  ├ redhat     : 2 
-│                        │      │                  ├ rocky      : 2 
+│                        │      │                  ├ rocky      : 3 
 │                        │      │                  ╰ ubuntu     : 2 
 │                        │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I
 │                        │      │                  │         │           :N/A:H 
@@ -9607,31 +9620,40 @@
 │                        │      │                  ├ [5] : https://bugzilla.redhat.com/2279814 
 │                        │      │                  ├ [6] : https://bugzilla.redhat.com/2295310 
 │                        │      │                  ├ [7] : https://bugzilla.redhat.com/show_bug.cgi?id=2268017 
-│                        │      │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                        │      │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2268018 
+│                        │      │                  ├ [9] : https://bugzilla.redhat.com/show_bug.cgi?id=2268019 
+│                        │      │                  ├ [10]: https://bugzilla.redhat.com/show_bug.cgi?id=2268273 
+│                        │      │                  ├ [11]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                        │      │                  │       023-45288 
+│                        │      │                  ├ [12]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                        │      │                  │       023-45289 
+│                        │      │                  ├ [13]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                        │      │                  │       023-45290 
-│                        │      │                  ├ [9] : https://errata.almalinux.org/9/ALSA-2024-9135.html 
-│                        │      │                  ├ [10]: https://errata.rockylinux.org/RLSA-2024:3830 
-│                        │      │                  ├ [11]: https://github.com/golang/go/commit/041a47712e765e94
+│                        │      │                  ├ [14]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                        │      │                  │       024-24783 
+│                        │      │                  ├ [15]: https://errata.almalinux.org/9/ALSA-2024-9135.html 
+│                        │      │                  ├ [16]: https://errata.rockylinux.org/RLSA-2024:3346 
+│                        │      │                  ├ [17]: https://github.com/golang/go/commit/041a47712e765e94
 │                        │      │                  │       f86d841c3110c840e76d8f82 (go1.22.1) 
-│                        │      │                  ├ [12]: https://github.com/golang/go/commit/bf80213b121074f4
+│                        │      │                  ├ [18]: https://github.com/golang/go/commit/bf80213b121074f4
 │                        │      │                  │       ad9b449410a4d13bae5e9be0 (go1.21.8) 
-│                        │      │                  ├ [13]: https://github.com/golang/go/issues/65383 
-│                        │      │                  ├ [14]: https://go.dev/cl/569341 
-│                        │      │                  ├ [15]: https://go.dev/issue/65383 
-│                        │      │                  ├ [16]: https://groups.google.com/g/golang-announce/c/5pwGVU
+│                        │      │                  ├ [19]: https://github.com/golang/go/issues/65383 
+│                        │      │                  ├ [20]: https://go.dev/cl/569341 
+│                        │      │                  ├ [21]: https://go.dev/issue/65383 
+│                        │      │                  ├ [22]: https://groups.google.com/g/golang-announce/c/5pwGVU
 │                        │      │                  │       PoMbg 
-│                        │      │                  ├ [17]: https://linux.oracle.com/cve/CVE-2023-45290.html 
-│                        │      │                  ├ [18]: https://linux.oracle.com/errata/ELSA-2024-8038.html 
-│                        │      │                  ├ [19]: https://nvd.nist.gov/vuln/detail/CVE-2023-45290 
-│                        │      │                  ├ [20]: https://pkg.go.dev/vuln/GO-2024-2599 
-│                        │      │                  ├ [21]: https://security.netapp.com/advisory/ntap-20240329-0
+│                        │      │                  ├ [23]: https://linux.oracle.com/cve/CVE-2023-45290.html 
+│                        │      │                  ├ [24]: https://linux.oracle.com/errata/ELSA-2024-8038.html 
+│                        │      │                  ├ [25]: https://nvd.nist.gov/vuln/detail/CVE-2023-45290 
+│                        │      │                  ├ [26]: https://pkg.go.dev/vuln/GO-2024-2599 
+│                        │      │                  ├ [27]: https://security.netapp.com/advisory/ntap-20240329-0
 │                        │      │                  │       004 
-│                        │      │                  ├ [22]: https://security.netapp.com/advisory/ntap-20240329-0
+│                        │      │                  ├ [28]: https://security.netapp.com/advisory/ntap-20240329-0
 │                        │      │                  │       004/ 
-│                        │      │                  ├ [23]: https://ubuntu.com/security/notices/USN-6886-1 
-│                        │      │                  ├ [24]: https://ubuntu.com/security/notices/USN-7109-1 
-│                        │      │                  ├ [25]: https://ubuntu.com/security/notices/USN-7111-1 
-│                        │      │                  ╰ [26]: https://www.cve.org/CVERecord?id=CVE-2023-45290 
+│                        │      │                  ├ [29]: https://ubuntu.com/security/notices/USN-6886-1 
+│                        │      │                  ├ [30]: https://ubuntu.com/security/notices/USN-7109-1 
+│                        │      │                  ├ [31]: https://ubuntu.com/security/notices/USN-7111-1 
+│                        │      │                  ╰ [32]: https://www.cve.org/CVERecord?id=CVE-2023-45290 
 │                        │      ├ PublishedDate   : 2024-03-05T23:15:07.21Z 
 │                        │      ╰ LastModifiedDate: 2024-11-21T08:26:42.853Z 
 │                        ├ [18] ╭ VulnerabilityID : CVE-2024-24783 
@@ -9693,7 +9715,7 @@
 │                        │      │                  ├ [11]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                        │      │                  │       024-24783 
 │                        │      │                  ├ [12]: https://errata.almalinux.org/9/ALSA-2024-6195.html 
-│                        │      │                  ├ [13]: https://errata.rockylinux.org/RLSA-2024:2724 
+│                        │      │                  ├ [13]: https://errata.rockylinux.org/RLSA-2024:3346 
 │                        │      │                  ├ [14]: https://github.com/advisories/GHSA-3q2c-pvp5-3cqp 
 │                        │      │                  ├ [15]: https://github.com/golang/go/commit/337b8e9cbfa749d9
 │                        │      │                  │       d5c899e0dc358e2208d5e54f (go1.22.1) 
@@ -10026,7 +10048,7 @@
 │                        │      │                  ├ oracle-oval: 2 
 │                        │      │                  ├ photon     : 3 
 │                        │      │                  ├ redhat     : 2 
-│                        │      │                  ├ rocky      : 3 
+│                        │      │                  ├ rocky      : 2 
 │                        │      │                  ╰ ubuntu     : 2 
 │                        │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
 │                        │      │                  │         │           :N/A:H 
@@ -10041,33 +10063,24 @@
 │                        │      │                  ├ [4] : https://bugzilla.redhat.com/2279814 
 │                        │      │                  ├ [5] : https://bugzilla.redhat.com/2295310 
 │                        │      │                  ├ [6] : https://bugzilla.redhat.com/show_bug.cgi?id=2295310 
-│                        │      │                  ├ [7] : https://bugzilla.redhat.com/show_bug.cgi?id=2310527 
-│                        │      │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2310528 
-│                        │      │                  ├ [9] : https://bugzilla.redhat.com/show_bug.cgi?id=2310529 
-│                        │      │                  ├ [10]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                        │      │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                        │      │                  │       024-24791 
-│                        │      │                  ├ [11]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                        │      │                  │       024-34155 
-│                        │      │                  ├ [12]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                        │      │                  │       024-34156 
-│                        │      │                  ├ [13]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                        │      │                  │       024-34158 
-│                        │      │                  ├ [14]: https://errata.almalinux.org/9/ALSA-2024-9135.html 
-│                        │      │                  ├ [15]: https://errata.rockylinux.org/RLSA-2024:6913 
-│                        │      │                  ├ [16]: https://go.dev/cl/591255 
-│                        │      │                  ├ [17]: https://go.dev/issue/67555 
-│                        │      │                  ├ [18]: https://groups.google.com/g/golang-dev/c/t0rK-qHBqzY
+│                        │      │                  ├ [8] : https://errata.almalinux.org/9/ALSA-2024-9135.html 
+│                        │      │                  ├ [9] : https://errata.rockylinux.org/RLSA-2024:7349 
+│                        │      │                  ├ [10]: https://go.dev/cl/591255 
+│                        │      │                  ├ [11]: https://go.dev/issue/67555 
+│                        │      │                  ├ [12]: https://groups.google.com/g/golang-dev/c/t0rK-qHBqzY
 │                        │      │                  │       /m/6MMoAZkMAgAJ 
-│                        │      │                  ├ [19]: https://linux.oracle.com/cve/CVE-2024-24791.html 
-│                        │      │                  ├ [20]: https://linux.oracle.com/errata/ELSA-2024-9115.html 
-│                        │      │                  ├ [21]: https://nvd.nist.gov/vuln/detail/CVE-2024-24791 
-│                        │      │                  ├ [22]: https://pkg.go.dev/vuln/GO-2024-2963 
-│                        │      │                  ├ [23]: https://security.netapp.com/advisory/ntap-20241004-0
+│                        │      │                  ├ [13]: https://linux.oracle.com/cve/CVE-2024-24791.html 
+│                        │      │                  ├ [14]: https://linux.oracle.com/errata/ELSA-2024-9115.html 
+│                        │      │                  ├ [15]: https://nvd.nist.gov/vuln/detail/CVE-2024-24791 
+│                        │      │                  ├ [16]: https://pkg.go.dev/vuln/GO-2024-2963 
+│                        │      │                  ├ [17]: https://security.netapp.com/advisory/ntap-20241004-0
 │                        │      │                  │       004/ 
-│                        │      │                  ├ [24]: https://ubuntu.com/security/notices/USN-7081-1 
-│                        │      │                  ├ [25]: https://ubuntu.com/security/notices/USN-7109-1 
-│                        │      │                  ├ [26]: https://ubuntu.com/security/notices/USN-7111-1 
-│                        │      │                  ╰ [27]: https://www.cve.org/CVERecord?id=CVE-2024-24791 
+│                        │      │                  ├ [18]: https://ubuntu.com/security/notices/USN-7081-1 
+│                        │      │                  ├ [19]: https://ubuntu.com/security/notices/USN-7109-1 
+│                        │      │                  ├ [20]: https://ubuntu.com/security/notices/USN-7111-1 
+│                        │      │                  ╰ [21]: https://www.cve.org/CVERecord?id=CVE-2024-24791 
 │                        │      ├ PublishedDate   : 2024-07-02T22:15:04.833Z 
 │                        │      ╰ LastModifiedDate: 2024-11-21T08:59:43.013Z 
 │                        ├ [23] ╭ VulnerabilityID : CVE-2024-34155 
@@ -10341,8 +10354,8 @@
 │                               ├ DataSource       ╭ ID  : govulndb 
 │                               │                  ├ Name: The Go Vulnerability Database 
 │                               │                  ╰ URL : https://pkg.go.dev/vuln/ 
-│                               ├ Title           : Due to the usage of a variable time instruction in the
-│                               │                   assembly implem ... 
+│                               ├ Title           : crypto/internal/nistec: golang: Timing sidechannel for
+│                               │                   P-256 on ppc64le in crypto/internal/nistec 
 │                               ├ Description     : Due to the usage of a variable time instruction in the
 │                               │                   assembly implementation of an internal function, a small
 │                               │                   number of bits of secret scalars are leaked on the ppc64le
@@ -10350,12 +10363,19 @@
 │                               │                   not believe this leakage is enough to allow recovery of the
 │                               │                    private key when P-256 is used in any well known protocols
 │                               │                   . 
-│                               ├ Severity        : UNKNOWN 
-│                               ├ References       ╭ [0]: https://go.dev/cl/643735 
-│                               │                  ├ [1]: https://go.dev/issue/71383 
-│                               │                  ├ [2]: https://groups.google.com/g/golang-announce/c/xU1ZCHU
+│                               ├ Severity        : MEDIUM 
+│                               ├ VendorSeverity   ─ redhat: 2 
+│                               ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:
+│                               │                           │           N/A:N 
+│                               │                           ╰ V3Score : 5.3 
+│                               ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-22866 
+│                               │                  ├ [1]: https://go.dev/cl/643735 
+│                               │                  ├ [2]: https://go.dev/issue/71383 
+│                               │                  ├ [3]: https://groups.google.com/g/golang-announce/c/xU1ZCHU
 │                               │                  │      Zw3k 
-│                               │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2025-3447 
+│                               │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-22866 
+│                               │                  ├ [5]: https://pkg.go.dev/vuln/GO-2025-3447 
+│                               │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-22866 
 │                               ├ PublishedDate   : 2025-02-06T17:15:21.41Z 
 │                               ╰ LastModifiedDate: 2025-02-06T17:15:21.41Z 
 ├ [5]  ╭ Target         : usr/bin/docker-compose 
@@ -10470,20 +10490,27 @@
 │                              ├ DataSource       ╭ ID  : govulndb 
 │                              │                  ├ Name: The Go Vulnerability Database 
 │                              │                  ╰ URL : https://pkg.go.dev/vuln/ 
-│                              ├ Title           : Due to the usage of a variable time instruction in the
-│                              │                   assembly implem ... 
+│                              ├ Title           : crypto/internal/nistec: golang: Timing sidechannel for P-256
+│                              │                    on ppc64le in crypto/internal/nistec 
 │                              ├ Description     : Due to the usage of a variable time instruction in the
 │                              │                   assembly implementation of an internal function, a small
 │                              │                   number of bits of secret scalars are leaked on the ppc64le
 │                              │                   architecture. Due to the way this function is used, we do
 │                              │                   not believe this leakage is enough to allow recovery of the
 │                              │                   private key when P-256 is used in any well known protocols. 
-│                              ├ Severity        : UNKNOWN 
-│                              ├ References       ╭ [0]: https://go.dev/cl/643735 
-│                              │                  ├ [1]: https://go.dev/issue/71383 
-│                              │                  ├ [2]: https://groups.google.com/g/golang-announce/c/xU1ZCHUZ
+│                              ├ Severity        : MEDIUM 
+│                              ├ VendorSeverity   ─ redhat: 2 
+│                              ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N
+│                              │                           │           /A:N 
+│                              │                           ╰ V3Score : 5.3 
+│                              ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-22866 
+│                              │                  ├ [1]: https://go.dev/cl/643735 
+│                              │                  ├ [2]: https://go.dev/issue/71383 
+│                              │                  ├ [3]: https://groups.google.com/g/golang-announce/c/xU1ZCHUZ
 │                              │                  │      w3k 
-│                              │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2025-3447 
+│                              │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-22866 
+│                              │                  ├ [5]: https://pkg.go.dev/vuln/GO-2025-3447 
+│                              │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-22866 
 │                              ├ PublishedDate   : 2025-02-06T17:15:21.41Z 
 │                              ╰ LastModifiedDate: 2025-02-06T17:15:21.41Z 
 ├ [6]  ╭ Target         : usr/bin/helm 
@@ -10598,20 +10625,27 @@
 │                              ├ DataSource       ╭ ID  : govulndb 
 │                              │                  ├ Name: The Go Vulnerability Database 
 │                              │                  ╰ URL : https://pkg.go.dev/vuln/ 
-│                              ├ Title           : Due to the usage of a variable time instruction in the
-│                              │                   assembly implem ... 
+│                              ├ Title           : crypto/internal/nistec: golang: Timing sidechannel for P-256
+│                              │                    on ppc64le in crypto/internal/nistec 
 │                              ├ Description     : Due to the usage of a variable time instruction in the
 │                              │                   assembly implementation of an internal function, a small
 │                              │                   number of bits of secret scalars are leaked on the ppc64le
 │                              │                   architecture. Due to the way this function is used, we do
 │                              │                   not believe this leakage is enough to allow recovery of the
 │                              │                   private key when P-256 is used in any well known protocols. 
-│                              ├ Severity        : UNKNOWN 
-│                              ├ References       ╭ [0]: https://go.dev/cl/643735 
-│                              │                  ├ [1]: https://go.dev/issue/71383 
-│                              │                  ├ [2]: https://groups.google.com/g/golang-announce/c/xU1ZCHUZ
+│                              ├ Severity        : MEDIUM 
+│                              ├ VendorSeverity   ─ redhat: 2 
+│                              ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N
+│                              │                           │           /A:N 
+│                              │                           ╰ V3Score : 5.3 
+│                              ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-22866 
+│                              │                  ├ [1]: https://go.dev/cl/643735 
+│                              │                  ├ [2]: https://go.dev/issue/71383 
+│                              │                  ├ [3]: https://groups.google.com/g/golang-announce/c/xU1ZCHUZ
 │                              │                  │      w3k 
-│                              │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2025-3447 
+│                              │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-22866 
+│                              │                  ├ [5]: https://pkg.go.dev/vuln/GO-2025-3447 
+│                              │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-22866 
 │                              ├ PublishedDate   : 2025-02-06T17:15:21.41Z 
 │                              ╰ LastModifiedDate: 2025-02-06T17:15:21.41Z 
 ├ [7]  ╭ Target         : usr/bin/kubectl 
@@ -10775,20 +10809,27 @@
 │                              ├ DataSource       ╭ ID  : govulndb 
 │                              │                  ├ Name: The Go Vulnerability Database 
 │                              │                  ╰ URL : https://pkg.go.dev/vuln/ 
-│                              ├ Title           : Due to the usage of a variable time instruction in the
-│                              │                   assembly implem ... 
+│                              ├ Title           : crypto/internal/nistec: golang: Timing sidechannel for P-256
+│                              │                    on ppc64le in crypto/internal/nistec 
 │                              ├ Description     : Due to the usage of a variable time instruction in the
 │                              │                   assembly implementation of an internal function, a small
 │                              │                   number of bits of secret scalars are leaked on the ppc64le
 │                              │                   architecture. Due to the way this function is used, we do
 │                              │                   not believe this leakage is enough to allow recovery of the
 │                              │                   private key when P-256 is used in any well known protocols. 
-│                              ├ Severity        : UNKNOWN 
-│                              ├ References       ╭ [0]: https://go.dev/cl/643735 
-│                              │                  ├ [1]: https://go.dev/issue/71383 
-│                              │                  ├ [2]: https://groups.google.com/g/golang-announce/c/xU1ZCHUZ
+│                              ├ Severity        : MEDIUM 
+│                              ├ VendorSeverity   ─ redhat: 2 
+│                              ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N
+│                              │                           │           /A:N 
+│                              │                           ╰ V3Score : 5.3 
+│                              ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-22866 
+│                              │                  ├ [1]: https://go.dev/cl/643735 
+│                              │                  ├ [2]: https://go.dev/issue/71383 
+│                              │                  ├ [3]: https://groups.google.com/g/golang-announce/c/xU1ZCHUZ
 │                              │                  │      w3k 
-│                              │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2025-3447 
+│                              │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-22866 
+│                              │                  ├ [5]: https://pkg.go.dev/vuln/GO-2025-3447 
+│                              │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-22866 
 │                              ├ PublishedDate   : 2025-02-06T17:15:21.41Z 
 │                              ╰ LastModifiedDate: 2025-02-06T17:15:21.41Z 
 ├ [8]  ╭ Target         : usr/bin/mc 
@@ -10810,20 +10851,27 @@
 │                              ├ DataSource       ╭ ID  : govulndb 
 │                              │                  ├ Name: The Go Vulnerability Database 
 │                              │                  ╰ URL : https://pkg.go.dev/vuln/ 
-│                              ├ Title           : Due to the usage of a variable time instruction in the
-│                              │                   assembly implem ... 
+│                              ├ Title           : crypto/internal/nistec: golang: Timing sidechannel for P-256
+│                              │                    on ppc64le in crypto/internal/nistec 
 │                              ├ Description     : Due to the usage of a variable time instruction in the
 │                              │                   assembly implementation of an internal function, a small
 │                              │                   number of bits of secret scalars are leaked on the ppc64le
 │                              │                   architecture. Due to the way this function is used, we do
 │                              │                   not believe this leakage is enough to allow recovery of the
 │                              │                   private key when P-256 is used in any well known protocols. 
-│                              ├ Severity        : UNKNOWN 
-│                              ├ References       ╭ [0]: https://go.dev/cl/643735 
-│                              │                  ├ [1]: https://go.dev/issue/71383 
-│                              │                  ├ [2]: https://groups.google.com/g/golang-announce/c/xU1ZCHUZ
+│                              ├ Severity        : MEDIUM 
+│                              ├ VendorSeverity   ─ redhat: 2 
+│                              ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N
+│                              │                           │           /A:N 
+│                              │                           ╰ V3Score : 5.3 
+│                              ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-22866 
+│                              │                  ├ [1]: https://go.dev/cl/643735 
+│                              │                  ├ [2]: https://go.dev/issue/71383 
+│                              │                  ├ [3]: https://groups.google.com/g/golang-announce/c/xU1ZCHUZ
 │                              │                  │      w3k 
-│                              │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2025-3447 
+│                              │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-22866 
+│                              │                  ├ [5]: https://pkg.go.dev/vuln/GO-2025-3447 
+│                              │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-22866 
 │                              ├ PublishedDate   : 2025-02-06T17:15:21.41Z 
 │                              ╰ LastModifiedDate: 2025-02-06T17:15:21.41Z 
 ├ [9]  ╭ Target         : usr/local/bin/k3d 
@@ -11221,23 +11269,69 @@
 │                              ├ DataSource       ╭ ID  : govulndb 
 │                              │                  ├ Name: The Go Vulnerability Database 
 │                              │                  ╰ URL : https://pkg.go.dev/vuln/ 
-│                              ├ Title           : Due to the usage of a variable time instruction in the
-│                              │                   assembly implem ... 
+│                              ├ Title           : crypto/internal/nistec: golang: Timing sidechannel for P-256
+│                              │                    on ppc64le in crypto/internal/nistec 
 │                              ├ Description     : Due to the usage of a variable time instruction in the
 │                              │                   assembly implementation of an internal function, a small
 │                              │                   number of bits of secret scalars are leaked on the ppc64le
 │                              │                   architecture. Due to the way this function is used, we do
 │                              │                   not believe this leakage is enough to allow recovery of the
 │                              │                   private key when P-256 is used in any well known protocols. 
-│                              ├ Severity        : UNKNOWN 
-│                              ├ References       ╭ [0]: https://go.dev/cl/643735 
-│                              │                  ├ [1]: https://go.dev/issue/71383 
-│                              │                  ├ [2]: https://groups.google.com/g/golang-announce/c/xU1ZCHUZ
+│                              ├ Severity        : MEDIUM 
+│                              ├ VendorSeverity   ─ redhat: 2 
+│                              ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N
+│                              │                           │           /A:N 
+│                              │                           ╰ V3Score : 5.3 
+│                              ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-22866 
+│                              │                  ├ [1]: https://go.dev/cl/643735 
+│                              │                  ├ [2]: https://go.dev/issue/71383 
+│                              │                  ├ [3]: https://groups.google.com/g/golang-announce/c/xU1ZCHUZ
 │                              │                  │      w3k 
-│                              │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2025-3447 
+│                              │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-22866 
+│                              │                  ├ [5]: https://pkg.go.dev/vuln/GO-2025-3447 
+│                              │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-22866 
 │                              ├ PublishedDate   : 2025-02-06T17:15:21.41Z 
 │                              ╰ LastModifiedDate: 2025-02-06T17:15:21.41Z 
-├ [10] ╭ Target : /etc/ssh/ssh_host_ecdsa_key 
+├ [10] ╭ Target : /etc/ssh/ssh_host_dsa_key 
+│      ├ Class  : secret 
+│      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
+│                      ├ Category : AsymmetricPrivateKey 
+│                      ├ Severity : HIGH 
+│                      ├ Title    : Asymmetric Private Key 
+│                      ├ StartLine: 1 
+│                      ├ EndLine  : 1 
+│                      ├ Code      ─ Lines ╭ [0] ╭ Number     : 1 
+│                      │                   │     ├ Content    : BEGIN OPENSSH PRIVATE
+│                      │                   │     │              KEY-----***************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ****************-----END OPENSSH PRI 
+│                      │                   │     ├ IsCause    : true 
+│                      │                   │     ├ Annotation :  
+│                      │                   │     ├ Truncated  : false 
+│                      │                   │     ├ Highlighted: BEGIN OPENSSH PRIVATE
+│                      │                   │     │              KEY-----***************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ****************-----END OPENSSH PRI 
+│                      │                   │     ├ FirstCause : true 
+│                      │                   │     ╰ LastCause  : true 
+│                      │                   ╰ [1] ╭ Number    : 2 
+│                      │                         ├ Content   :  
+│                      │                         ├ IsCause   : false 
+│                      │                         ├ Annotation:  
+│                      │                         ├ Truncated : false 
+│                      │                         ├ FirstCause: false 
+│                      │                         ╰ LastCause : false 
+│                      ├ Match    : BEGIN OPENSSH PRIVATE
+│                      │            KEY-----*******************************************************************
+│                      │            ***************************************************************************
+│                      │            *********************************************************-----END OPENSSH
+│                      │            PRI 
+│                      ╰ Layer     ╭ Digest   : sha256:516731828ccc7b45bf90ae1c4a00205ac28ae0f1ac84b928f2aa2946
+│                                  │            b319a0b5 
+│                                  ├ DiffID   : sha256:c6b06b96654ebdbe3a6eb2b856daec8e0e9dc22e136d414826e1cf55
+│                                  │            e98d270b 
+│                                  ╰ CreatedBy: COPY / / # buildkit 
+├ [11] ╭ Target : /etc/ssh/ssh_host_ecdsa_key 
 │      ├ Class  : secret 
 │      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
 │                      ├ Category : AsymmetricPrivateKey 
@@ -11277,7 +11371,7 @@
 │                                  ├ DiffID   : sha256:c6b06b96654ebdbe3a6eb2b856daec8e0e9dc22e136d414826e1cf55
 │                                  │            e98d270b 
 │                                  ╰ CreatedBy: COPY / / # buildkit 
-├ [11] ╭ Target : /etc/ssh/ssh_host_ed25519_key 
+├ [12] ╭ Target : /etc/ssh/ssh_host_ed25519_key 
 │      ├ Class  : secret 
 │      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
 │                      ├ Category : AsymmetricPrivateKey 
@@ -11315,46 +11409,7 @@
 │                                  ├ DiffID   : sha256:c6b06b96654ebdbe3a6eb2b856daec8e0e9dc22e136d414826e1cf55
 │                                  │            e98d270b 
 │                                  ╰ CreatedBy: COPY / / # buildkit 
-├ [12] ╭ Target : /etc/ssh/ssh_host_rsa_key 
-│      ├ Class  : secret 
-│      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
-│                      ├ Category : AsymmetricPrivateKey 
-│                      ├ Severity : HIGH 
-│                      ├ Title    : Asymmetric Private Key 
-│                      ├ StartLine: 1 
-│                      ├ EndLine  : 1 
-│                      ├ Code      ─ Lines ╭ [0] ╭ Number     : 1 
-│                      │                   │     ├ Content    : BEGIN OPENSSH PRIVATE
-│                      │                   │     │              KEY-----***************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********-----END OPENSSH PRI 
-│                      │                   │     ├ IsCause    : true 
-│                      │                   │     ├ Annotation :  
-│                      │                   │     ├ Truncated  : false 
-│                      │                   │     ├ Highlighted: BEGIN OPENSSH PRIVATE
-│                      │                   │     │              KEY-----***************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********-----END OPENSSH PRI 
-│                      │                   │     ├ FirstCause : true 
-│                      │                   │     ╰ LastCause  : true 
-│                      │                   ╰ [1] ╭ Number    : 2 
-│                      │                         ├ Content   :  
-│                      │                         ├ IsCause   : false 
-│                      │                         ├ Annotation:  
-│                      │                         ├ Truncated : false 
-│                      │                         ├ FirstCause: false 
-│                      │                         ╰ LastCause : false 
-│                      ├ Match    : BEGIN OPENSSH PRIVATE
-│                      │            KEY-----*******************************************************************
-│                      │            ***************************************************************************
-│                      │            **************************************************************************-
-│                      │            ----END OPENSSH PRI 
-│                      ╰ Layer     ╭ Digest   : sha256:516731828ccc7b45bf90ae1c4a00205ac28ae0f1ac84b928f2aa2946
-│                                  │            b319a0b5 
-│                                  ├ DiffID   : sha256:c6b06b96654ebdbe3a6eb2b856daec8e0e9dc22e136d414826e1cf55
-│                                  │            e98d270b 
-│                                  ╰ CreatedBy: COPY / / # buildkit 
-╰ [13] ╭ Target : /etc/ssh/ssh_host_dsa_key 
+╰ [13] ╭ Target : /etc/ssh/ssh_host_rsa_key 
        ├ Class  : secret 
        ╰ Secrets ─ [0] ╭ RuleID   : private-key 
                        ├ Category : AsymmetricPrivateKey 
@@ -11366,14 +11421,14 @@
                        │                   │     ├ Content    : BEGIN OPENSSH PRIVATE
                        │                   │     │              KEY-----***************************************
                        │                   │     │              ***********************************************
-                       │                   │     │              ****************-----END OPENSSH PRI 
+                       │                   │     │              ***********-----END OPENSSH PRI 
                        │                   │     ├ IsCause    : true 
                        │                   │     ├ Annotation :  
                        │                   │     ├ Truncated  : false 
                        │                   │     ├ Highlighted: BEGIN OPENSSH PRIVATE
                        │                   │     │              KEY-----***************************************
                        │                   │     │              ***********************************************
-                       │                   │     │              ****************-----END OPENSSH PRI 
+                       │                   │     │              ***********-----END OPENSSH PRI 
                        │                   │     ├ FirstCause : true 
                        │                   │     ╰ LastCause  : true 
                        │                   ╰ [1] ╭ Number    : 2 
@@ -11386,8 +11441,8 @@
                        ├ Match    : BEGIN OPENSSH PRIVATE
                        │            KEY-----*******************************************************************
                        │            ***************************************************************************
-                       │            *********************************************************-----END OPENSSH
-                       │            PRI 
+                       │            **************************************************************************-
+                       │            ----END OPENSSH PRI 
                        ╰ Layer     ╭ Digest   : sha256:516731828ccc7b45bf90ae1c4a00205ac28ae0f1ac84b928f2aa2946
                                    │            b319a0b5 
                                    ├ DiffID   : sha256:c6b06b96654ebdbe3a6eb2b856daec8e0e9dc22e136d414826e1cf55
