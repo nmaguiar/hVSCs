@@ -2984,7 +2984,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ ghsa       : 2 
@@ -4485,7 +4485,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
@@ -4562,7 +4562,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
@@ -5612,10 +5612,14 @@
 │                               │                    private key when P-256 is used in any well known protocols
 │                               │                   . 
 │                               ├ Severity        : MEDIUM 
-│                               ├ VendorSeverity   ─ redhat: 2 
-│                               ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:
-│                               │                           │           N/A:N 
-│                               │                           ╰ V3Score : 5.3 
+│                               ├ VendorSeverity   ╭ bitnami: 3 
+│                               │                  ╰ redhat : 2 
+│                               ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I
+│                               │                  │         │           :H/A:H 
+│                               │                  │         ╰ V3Score : 8.4 
+│                               │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I
+│                               │                            │           :N/A:N 
+│                               │                            ╰ V3Score : 5.3 
 │                               ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-22866 
 │                               │                  ├ [1]: https://go.dev/cl/643735 
 │                               │                  ├ [2]: https://go.dev/issue/71383 
@@ -5625,7 +5629,7 @@
 │                               │                  ├ [5]: https://pkg.go.dev/vuln/GO-2025-3447 
 │                               │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-22866 
 │                               ├ PublishedDate   : 2025-02-06T17:15:21.41Z 
-│                               ╰ LastModifiedDate: 2025-02-10T21:15:22.477Z 
+│                               ╰ LastModifiedDate: 2025-02-11T15:15:20.87Z 
 ├ [3]  ╭ Target         : tmp/tmp.uJxWDDKGgE/krew-linux_amd64 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : gobinary 
@@ -6025,7 +6029,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ ghsa       : 2 
@@ -7526,7 +7530,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
@@ -7603,7 +7607,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
@@ -8653,10 +8657,14 @@
 │                               │                    private key when P-256 is used in any well known protocols
 │                               │                   . 
 │                               ├ Severity        : MEDIUM 
-│                               ├ VendorSeverity   ─ redhat: 2 
-│                               ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:
-│                               │                           │           N/A:N 
-│                               │                           ╰ V3Score : 5.3 
+│                               ├ VendorSeverity   ╭ bitnami: 3 
+│                               │                  ╰ redhat : 2 
+│                               ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I
+│                               │                  │         │           :H/A:H 
+│                               │                  │         ╰ V3Score : 8.4 
+│                               │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I
+│                               │                            │           :N/A:N 
+│                               │                            ╰ V3Score : 5.3 
 │                               ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-22866 
 │                               │                  ├ [1]: https://go.dev/cl/643735 
 │                               │                  ├ [2]: https://go.dev/issue/71383 
@@ -8666,7 +8674,7 @@
 │                               │                  ├ [5]: https://pkg.go.dev/vuln/GO-2025-3447 
 │                               │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-22866 
 │                               ├ PublishedDate   : 2025-02-06T17:15:21.41Z 
-│                               ╰ LastModifiedDate: 2025-02-10T21:15:22.477Z 
+│                               ╰ LastModifiedDate: 2025-02-11T15:15:20.87Z 
 ├ [4]  ╭ Target         : usr/bin/docker-compose 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : gobinary 
@@ -8788,10 +8796,14 @@
 │                              │                   not believe this leakage is enough to allow recovery of the
 │                              │                   private key when P-256 is used in any well known protocols. 
 │                              ├ Severity        : MEDIUM 
-│                              ├ VendorSeverity   ─ redhat: 2 
-│                              ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N
-│                              │                           │           /A:N 
-│                              │                           ╰ V3Score : 5.3 
+│                              ├ VendorSeverity   ╭ bitnami: 3 
+│                              │                  ╰ redhat : 2 
+│                              ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:
+│                              │                  │         │           H/A:H 
+│                              │                  │         ╰ V3Score : 8.4 
+│                              │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:
+│                              │                            │           N/A:N 
+│                              │                            ╰ V3Score : 5.3 
 │                              ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-22866 
 │                              │                  ├ [1]: https://go.dev/cl/643735 
 │                              │                  ├ [2]: https://go.dev/issue/71383 
@@ -8801,7 +8813,7 @@
 │                              │                  ├ [5]: https://pkg.go.dev/vuln/GO-2025-3447 
 │                              │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-22866 
 │                              ├ PublishedDate   : 2025-02-06T17:15:21.41Z 
-│                              ╰ LastModifiedDate: 2025-02-10T21:15:22.477Z 
+│                              ╰ LastModifiedDate: 2025-02-11T15:15:20.87Z 
 ├ [5]  ╭ Target         : usr/bin/helm 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : gobinary 
@@ -8923,10 +8935,14 @@
 │                              │                   not believe this leakage is enough to allow recovery of the
 │                              │                   private key when P-256 is used in any well known protocols. 
 │                              ├ Severity        : MEDIUM 
-│                              ├ VendorSeverity   ─ redhat: 2 
-│                              ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N
-│                              │                           │           /A:N 
-│                              │                           ╰ V3Score : 5.3 
+│                              ├ VendorSeverity   ╭ bitnami: 3 
+│                              │                  ╰ redhat : 2 
+│                              ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:
+│                              │                  │         │           H/A:H 
+│                              │                  │         ╰ V3Score : 8.4 
+│                              │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:
+│                              │                            │           N/A:N 
+│                              │                            ╰ V3Score : 5.3 
 │                              ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-22866 
 │                              │                  ├ [1]: https://go.dev/cl/643735 
 │                              │                  ├ [2]: https://go.dev/issue/71383 
@@ -8936,7 +8952,7 @@
 │                              │                  ├ [5]: https://pkg.go.dev/vuln/GO-2025-3447 
 │                              │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-22866 
 │                              ├ PublishedDate   : 2025-02-06T17:15:21.41Z 
-│                              ╰ LastModifiedDate: 2025-02-10T21:15:22.477Z 
+│                              ╰ LastModifiedDate: 2025-02-11T15:15:20.87Z 
 ├ [6]  ╭ Target         : usr/bin/kubectl 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : gobinary 
@@ -9107,10 +9123,14 @@
 │                              │                   not believe this leakage is enough to allow recovery of the
 │                              │                   private key when P-256 is used in any well known protocols. 
 │                              ├ Severity        : MEDIUM 
-│                              ├ VendorSeverity   ─ redhat: 2 
-│                              ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N
-│                              │                           │           /A:N 
-│                              │                           ╰ V3Score : 5.3 
+│                              ├ VendorSeverity   ╭ bitnami: 3 
+│                              │                  ╰ redhat : 2 
+│                              ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:
+│                              │                  │         │           H/A:H 
+│                              │                  │         ╰ V3Score : 8.4 
+│                              │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:
+│                              │                            │           N/A:N 
+│                              │                            ╰ V3Score : 5.3 
 │                              ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-22866 
 │                              │                  ├ [1]: https://go.dev/cl/643735 
 │                              │                  ├ [2]: https://go.dev/issue/71383 
@@ -9120,7 +9140,7 @@
 │                              │                  ├ [5]: https://pkg.go.dev/vuln/GO-2025-3447 
 │                              │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-22866 
 │                              ├ PublishedDate   : 2025-02-06T17:15:21.41Z 
-│                              ╰ LastModifiedDate: 2025-02-10T21:15:22.477Z 
+│                              ╰ LastModifiedDate: 2025-02-11T15:15:20.87Z 
 ├ [7]  ╭ Target         : usr/bin/mc 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : gobinary 
@@ -9149,10 +9169,14 @@
 │                              │                   not believe this leakage is enough to allow recovery of the
 │                              │                   private key when P-256 is used in any well known protocols. 
 │                              ├ Severity        : MEDIUM 
-│                              ├ VendorSeverity   ─ redhat: 2 
-│                              ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N
-│                              │                           │           /A:N 
-│                              │                           ╰ V3Score : 5.3 
+│                              ├ VendorSeverity   ╭ bitnami: 3 
+│                              │                  ╰ redhat : 2 
+│                              ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:
+│                              │                  │         │           H/A:H 
+│                              │                  │         ╰ V3Score : 8.4 
+│                              │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:
+│                              │                            │           N/A:N 
+│                              │                            ╰ V3Score : 5.3 
 │                              ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-22866 
 │                              │                  ├ [1]: https://go.dev/cl/643735 
 │                              │                  ├ [2]: https://go.dev/issue/71383 
@@ -9162,7 +9186,7 @@
 │                              │                  ├ [5]: https://pkg.go.dev/vuln/GO-2025-3447 
 │                              │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-22866 
 │                              ├ PublishedDate   : 2025-02-06T17:15:21.41Z 
-│                              ╰ LastModifiedDate: 2025-02-10T21:15:22.477Z 
+│                              ╰ LastModifiedDate: 2025-02-11T15:15:20.87Z 
 ├ [8]  ╭ Target         : usr/local/bin/k3d 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : gobinary 
@@ -9567,10 +9591,14 @@
 │                              │                   not believe this leakage is enough to allow recovery of the
 │                              │                   private key when P-256 is used in any well known protocols. 
 │                              ├ Severity        : MEDIUM 
-│                              ├ VendorSeverity   ─ redhat: 2 
-│                              ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N
-│                              │                           │           /A:N 
-│                              │                           ╰ V3Score : 5.3 
+│                              ├ VendorSeverity   ╭ bitnami: 3 
+│                              │                  ╰ redhat : 2 
+│                              ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:
+│                              │                  │         │           H/A:H 
+│                              │                  │         ╰ V3Score : 8.4 
+│                              │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:
+│                              │                            │           N/A:N 
+│                              │                            ╰ V3Score : 5.3 
 │                              ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-22866 
 │                              │                  ├ [1]: https://go.dev/cl/643735 
 │                              │                  ├ [2]: https://go.dev/issue/71383 
@@ -9580,7 +9608,7 @@
 │                              │                  ├ [5]: https://pkg.go.dev/vuln/GO-2025-3447 
 │                              │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-22866 
 │                              ├ PublishedDate   : 2025-02-06T17:15:21.41Z 
-│                              ╰ LastModifiedDate: 2025-02-10T21:15:22.477Z 
+│                              ╰ LastModifiedDate: 2025-02-11T15:15:20.87Z 
 ├ [9]  ╭ Target : /etc/ssh/ssh_host_ecdsa_key 
 │      ├ Class  : secret 
 │      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
