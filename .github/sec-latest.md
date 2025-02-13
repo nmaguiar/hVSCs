@@ -45,13 +45,15 @@
 │                        │       │                           ╰ V3Score : 7.5 
 │                        │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-11187 
 │                        │       │                  ├ [1]: https://kb.isc.org/docs/cve-2024-11187 
-│                        │       │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-11187 
-│                        │       │                  ├ [3]: https://security.netapp.com/advisory/ntap-20250207-0
+│                        │       │                  ├ [2]: https://lists.debian.org/debian-lts-announce/2025/02
+│                        │       │                  │      /msg00011.html 
+│                        │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2024-11187 
+│                        │       │                  ├ [4]: https://security.netapp.com/advisory/ntap-20250207-0
 │                        │       │                  │      002/ 
-│                        │       │                  ├ [4]: https://ubuntu.com/security/notices/USN-7241-1 
-│                        │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-11187 
+│                        │       │                  ├ [5]: https://ubuntu.com/security/notices/USN-7241-1 
+│                        │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-11187 
 │                        │       ├ PublishedDate   : 2025-01-29T22:15:28.637Z 
-│                        │       ╰ LastModifiedDate: 2025-02-07T17:15:30.057Z 
+│                        │       ╰ LastModifiedDate: 2025-02-11T19:15:12.64Z 
 │                        ├ [1]   ╭ VulnerabilityID : CVE-2024-12705 
 │                        │       ├ PkgID           : bind9-dnsutils@1:9.18.28-0ubuntu0.22.04.1 
 │                        │       ├ PkgName         : bind9-dnsutils 
@@ -138,13 +140,15 @@
 │                        │       │                           ╰ V3Score : 7.5 
 │                        │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-11187 
 │                        │       │                  ├ [1]: https://kb.isc.org/docs/cve-2024-11187 
-│                        │       │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-11187 
-│                        │       │                  ├ [3]: https://security.netapp.com/advisory/ntap-20250207-0
+│                        │       │                  ├ [2]: https://lists.debian.org/debian-lts-announce/2025/02
+│                        │       │                  │      /msg00011.html 
+│                        │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2024-11187 
+│                        │       │                  ├ [4]: https://security.netapp.com/advisory/ntap-20250207-0
 │                        │       │                  │      002/ 
-│                        │       │                  ├ [4]: https://ubuntu.com/security/notices/USN-7241-1 
-│                        │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-11187 
+│                        │       │                  ├ [5]: https://ubuntu.com/security/notices/USN-7241-1 
+│                        │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-11187 
 │                        │       ├ PublishedDate   : 2025-01-29T22:15:28.637Z 
-│                        │       ╰ LastModifiedDate: 2025-02-07T17:15:30.057Z 
+│                        │       ╰ LastModifiedDate: 2025-02-11T19:15:12.64Z 
 │                        ├ [3]   ╭ VulnerabilityID : CVE-2024-12705 
 │                        │       ├ PkgID           : bind9-host@1:9.18.28-0ubuntu0.22.04.1 
 │                        │       ├ PkgName         : bind9-host 
@@ -231,13 +235,15 @@
 │                        │       │                           ╰ V3Score : 7.5 
 │                        │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-11187 
 │                        │       │                  ├ [1]: https://kb.isc.org/docs/cve-2024-11187 
-│                        │       │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-11187 
-│                        │       │                  ├ [3]: https://security.netapp.com/advisory/ntap-20250207-0
+│                        │       │                  ├ [2]: https://lists.debian.org/debian-lts-announce/2025/02
+│                        │       │                  │      /msg00011.html 
+│                        │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2024-11187 
+│                        │       │                  ├ [4]: https://security.netapp.com/advisory/ntap-20250207-0
 │                        │       │                  │      002/ 
-│                        │       │                  ├ [4]: https://ubuntu.com/security/notices/USN-7241-1 
-│                        │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-11187 
+│                        │       │                  ├ [5]: https://ubuntu.com/security/notices/USN-7241-1 
+│                        │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-11187 
 │                        │       ├ PublishedDate   : 2025-01-29T22:15:28.637Z 
-│                        │       ╰ LastModifiedDate: 2025-02-07T17:15:30.057Z 
+│                        │       ╰ LastModifiedDate: 2025-02-11T19:15:12.64Z 
 │                        ├ [5]   ╭ VulnerabilityID : CVE-2024-12705 
 │                        │       ├ PkgID           : bind9-libs@1:9.18.28-0ubuntu0.22.04.1 
 │                        │       ├ PkgName         : bind9-libs 
@@ -597,13 +603,15 @@
 │                        │       │                           ╰ V3Score : 7.5 
 │                        │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-11187 
 │                        │       │                  ├ [1]: https://kb.isc.org/docs/cve-2024-11187 
-│                        │       │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-11187 
-│                        │       │                  ├ [3]: https://security.netapp.com/advisory/ntap-20250207-0
+│                        │       │                  ├ [2]: https://lists.debian.org/debian-lts-announce/2025/02
+│                        │       │                  │      /msg00011.html 
+│                        │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2024-11187 
+│                        │       │                  ├ [4]: https://security.netapp.com/advisory/ntap-20250207-0
 │                        │       │                  │      002/ 
-│                        │       │                  ├ [4]: https://ubuntu.com/security/notices/USN-7241-1 
-│                        │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-11187 
+│                        │       │                  ├ [5]: https://ubuntu.com/security/notices/USN-7241-1 
+│                        │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-11187 
 │                        │       ├ PublishedDate   : 2025-01-29T22:15:28.637Z 
-│                        │       ╰ LastModifiedDate: 2025-02-07T17:15:30.057Z 
+│                        │       ╰ LastModifiedDate: 2025-02-11T19:15:12.64Z 
 │                        ├ [12]  ╭ VulnerabilityID : CVE-2024-12705 
 │                        │       ├ PkgID           : dnsutils@1:9.18.28-0ubuntu0.22.04.1 
 │                        │       ├ PkgName         : dnsutils 
@@ -7127,7 +7135,7 @@
 │                        │      │                  ├ [20]: https://groups.google.com/g/golang-announce/c/XbxouI
 │                        │      │                  │       9gY7k/m/TuoGEhxIEwAJ 
 │                        │      │                  ├ [21]: https://linux.oracle.com/cve/CVE-2024-24790.html 
-│                        │      │                  ├ [22]: https://linux.oracle.com/errata/ELSA-2024-9115.html 
+│                        │      │                  ├ [22]: https://linux.oracle.com/errata/ELSA-2025-31356.html 
 │                        │      │                  ├ [23]: https://nvd.nist.gov/vuln/detail/CVE-2024-24790 
 │                        │      │                  ├ [24]: https://pkg.go.dev/vuln/GO-2024-2887 
 │                        │      │                  ├ [25]: https://security.netapp.com/advisory/ntap-20240905-0
@@ -9006,11 +9014,11 @@
 │                               │                    private key when P-256 is used in any well known protocols
 │                               │                   . 
 │                               ├ Severity        : MEDIUM 
-│                               ├ VendorSeverity   ╭ bitnami: 3 
+│                               ├ VendorSeverity   ╭ bitnami: 2 
 │                               │                  ╰ redhat : 2 
-│                               ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I
-│                               │                  │         │           :H/A:H 
-│                               │                  │         ╰ V3Score : 8.4 
+│                               ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:L/I
+│                               │                  │         │           :N/A:N 
+│                               │                  │         ╰ V3Score : 4 
 │                               │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I
 │                               │                            │           :N/A:N 
 │                               │                            ╰ V3Score : 5.3 
@@ -10172,7 +10180,7 @@
 │                        │      │                  ├ [20]: https://groups.google.com/g/golang-announce/c/XbxouI
 │                        │      │                  │       9gY7k/m/TuoGEhxIEwAJ 
 │                        │      │                  ├ [21]: https://linux.oracle.com/cve/CVE-2024-24790.html 
-│                        │      │                  ├ [22]: https://linux.oracle.com/errata/ELSA-2024-9115.html 
+│                        │      │                  ├ [22]: https://linux.oracle.com/errata/ELSA-2025-31356.html 
 │                        │      │                  ├ [23]: https://nvd.nist.gov/vuln/detail/CVE-2024-24790 
 │                        │      │                  ├ [24]: https://pkg.go.dev/vuln/GO-2024-2887 
 │                        │      │                  ├ [25]: https://security.netapp.com/advisory/ntap-20240905-0
@@ -12051,11 +12059,11 @@
 │                               │                    private key when P-256 is used in any well known protocols
 │                               │                   . 
 │                               ├ Severity        : MEDIUM 
-│                               ├ VendorSeverity   ╭ bitnami: 3 
+│                               ├ VendorSeverity   ╭ bitnami: 2 
 │                               │                  ╰ redhat : 2 
-│                               ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I
-│                               │                  │         │           :H/A:H 
-│                               │                  │         ╰ V3Score : 8.4 
+│                               ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:L/I
+│                               │                  │         │           :N/A:N 
+│                               │                  │         ╰ V3Score : 4 
 │                               │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I
 │                               │                            │           :N/A:N 
 │                               │                            ╰ V3Score : 5.3 
@@ -12239,11 +12247,11 @@
 │                              │                   not believe this leakage is enough to allow recovery of the
 │                              │                   private key when P-256 is used in any well known protocols. 
 │                              ├ Severity        : MEDIUM 
-│                              ├ VendorSeverity   ╭ bitnami: 3 
+│                              ├ VendorSeverity   ╭ bitnami: 2 
 │                              │                  ╰ redhat : 2 
-│                              ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:
-│                              │                  │         │           H/A:H 
-│                              │                  │         ╰ V3Score : 8.4 
+│                              ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:L/I:
+│                              │                  │         │           N/A:N 
+│                              │                  │         ╰ V3Score : 4 
 │                              │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:
 │                              │                            │           N/A:N 
 │                              │                            ╰ V3Score : 5.3 
@@ -12427,11 +12435,11 @@
 │                              │                   not believe this leakage is enough to allow recovery of the
 │                              │                   private key when P-256 is used in any well known protocols. 
 │                              ├ Severity        : MEDIUM 
-│                              ├ VendorSeverity   ╭ bitnami: 3 
+│                              ├ VendorSeverity   ╭ bitnami: 2 
 │                              │                  ╰ redhat : 2 
-│                              ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:
-│                              │                  │         │           H/A:H 
-│                              │                  │         ╰ V3Score : 8.4 
+│                              ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:L/I:
+│                              │                  │         │           N/A:N 
+│                              │                  │         ╰ V3Score : 4 
 │                              │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:
 │                              │                            │           N/A:N 
 │                              │                            ╰ V3Score : 5.3 
@@ -12615,11 +12623,11 @@
 │                              │                   not believe this leakage is enough to allow recovery of the
 │                              │                   private key when P-256 is used in any well known protocols. 
 │                              ├ Severity        : MEDIUM 
-│                              ├ VendorSeverity   ╭ bitnami: 3 
+│                              ├ VendorSeverity   ╭ bitnami: 2 
 │                              │                  ╰ redhat : 2 
-│                              ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:
-│                              │                  │         │           H/A:H 
-│                              │                  │         ╰ V3Score : 8.4 
+│                              ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:L/I:
+│                              │                  │         │           N/A:N 
+│                              │                  │         ╰ V3Score : 4 
 │                              │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:
 │                              │                            │           N/A:N 
 │                              │                            ╰ V3Score : 5.3 
@@ -12893,11 +12901,11 @@
 │                              │                   not believe this leakage is enough to allow recovery of the
 │                              │                   private key when P-256 is used in any well known protocols. 
 │                              ├ Severity        : MEDIUM 
-│                              ├ VendorSeverity   ╭ bitnami: 3 
+│                              ├ VendorSeverity   ╭ bitnami: 2 
 │                              │                  ╰ redhat : 2 
-│                              ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:
-│                              │                  │         │           H/A:H 
-│                              │                  │         ╰ V3Score : 8.4 
+│                              ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:L/I:
+│                              │                  │         │           N/A:N 
+│                              │                  │         ╰ V3Score : 4 
 │                              │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:
 │                              │                            │           N/A:N 
 │                              │                            ╰ V3Score : 5.3 
@@ -13315,11 +13323,11 @@
 │                              │                   not believe this leakage is enough to allow recovery of the
 │                              │                   private key when P-256 is used in any well known protocols. 
 │                              ├ Severity        : MEDIUM 
-│                              ├ VendorSeverity   ╭ bitnami: 3 
+│                              ├ VendorSeverity   ╭ bitnami: 2 
 │                              │                  ╰ redhat : 2 
-│                              ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:
-│                              │                  │         │           H/A:H 
-│                              │                  │         ╰ V3Score : 8.4 
+│                              ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:L/I:
+│                              │                  │         │           N/A:N 
+│                              │                  │         ╰ V3Score : 4 
 │                              │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:
 │                              │                            │           N/A:N 
 │                              │                            ╰ V3Score : 5.3 
@@ -13333,7 +13341,84 @@
 │                              │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-22866 
 │                              ├ PublishedDate   : 2025-02-06T17:15:21.41Z 
 │                              ╰ LastModifiedDate: 2025-02-11T15:15:20.87Z 
-├ [10] ╭ Target : /etc/ssh/ssh_host_dsa_key 
+├ [10] ╭ Target : /etc/ssh/ssh_host_ed25519_key 
+│      ├ Class  : secret 
+│      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
+│                      ├ Category : AsymmetricPrivateKey 
+│                      ├ Severity : HIGH 
+│                      ├ Title    : Asymmetric Private Key 
+│                      ├ StartLine: 1 
+│                      ├ EndLine  : 1 
+│                      ├ Code      ─ Lines ╭ [0] ╭ Number     : 1 
+│                      │                   │     ├ Content    : BEGIN OPENSSH PRIVATE
+│                      │                   │     │              KEY-----***************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              *********************-----END OPENSSH PRI 
+│                      │                   │     ├ IsCause    : true 
+│                      │                   │     ├ Annotation :  
+│                      │                   │     ├ Truncated  : false 
+│                      │                   │     ├ Highlighted: BEGIN OPENSSH PRIVATE
+│                      │                   │     │              KEY-----***************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              *********************-----END OPENSSH PRI 
+│                      │                   │     ├ FirstCause : true 
+│                      │                   │     ╰ LastCause  : true 
+│                      │                   ╰ [1] ╭ Number    : 2 
+│                      │                         ├ Content   :  
+│                      │                         ├ IsCause   : false 
+│                      │                         ├ Annotation:  
+│                      │                         ├ Truncated : false 
+│                      │                         ├ FirstCause: false 
+│                      │                         ╰ LastCause : false 
+│                      ├ Match    : BEGIN OPENSSH PRIVATE
+│                      │            KEY-----*******************************************************************
+│                      │            ***************************************************************************
+│                      │            **************************************************-----END OPENSSH PRI 
+│                      ╰ Layer     ╭ Digest   : sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca80805547
+│                                  │            71c9d616 
+│                                  ├ DiffID   : sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9
+│                                  │            ec02fe93 
+│                                  ╰ CreatedBy: COPY / / # buildkit 
+├ [11] ╭ Target : /etc/ssh/ssh_host_rsa_key 
+│      ├ Class  : secret 
+│      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
+│                      ├ Category : AsymmetricPrivateKey 
+│                      ├ Severity : HIGH 
+│                      ├ Title    : Asymmetric Private Key 
+│                      ├ StartLine: 1 
+│                      ├ EndLine  : 1 
+│                      ├ Code      ─ Lines ╭ [0] ╭ Number     : 1 
+│                      │                   │     ├ Content    : BEGIN OPENSSH PRIVATE
+│                      │                   │     │              KEY-----***************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********-----END OPENSSH PRI 
+│                      │                   │     ├ IsCause    : true 
+│                      │                   │     ├ Annotation :  
+│                      │                   │     ├ Truncated  : false 
+│                      │                   │     ├ Highlighted: BEGIN OPENSSH PRIVATE
+│                      │                   │     │              KEY-----***************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********-----END OPENSSH PRI 
+│                      │                   │     ├ FirstCause : true 
+│                      │                   │     ╰ LastCause  : true 
+│                      │                   ╰ [1] ╭ Number    : 2 
+│                      │                         ├ Content   :  
+│                      │                         ├ IsCause   : false 
+│                      │                         ├ Annotation:  
+│                      │                         ├ Truncated : false 
+│                      │                         ├ FirstCause: false 
+│                      │                         ╰ LastCause : false 
+│                      ├ Match    : BEGIN OPENSSH PRIVATE
+│                      │            KEY-----*******************************************************************
+│                      │            ***************************************************************************
+│                      │            **************************************************************************-
+│                      │            ----END OPENSSH PRI 
+│                      ╰ Layer     ╭ Digest   : sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca80805547
+│                                  │            71c9d616 
+│                                  ├ DiffID   : sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9
+│                                  │            ec02fe93 
+│                                  ╰ CreatedBy: COPY / / # buildkit 
+├ [12] ╭ Target : /etc/ssh/ssh_host_dsa_key 
 │      ├ Class  : secret 
 │      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
 │                      ├ Category : AsymmetricPrivateKey 
@@ -13372,85 +13457,7 @@
 │                                  ├ DiffID   : sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9
 │                                  │            ec02fe93 
 │                                  ╰ CreatedBy: COPY / / # buildkit 
-├ [11] ╭ Target : /etc/ssh/ssh_host_ecdsa_key 
-│      ├ Class  : secret 
-│      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
-│                      ├ Category : AsymmetricPrivateKey 
-│                      ├ Severity : HIGH 
-│                      ├ Title    : Asymmetric Private Key 
-│                      ├ StartLine: 1 
-│                      ├ EndLine  : 1 
-│                      ├ Code      ─ Lines ╭ [0] ╭ Number     : 1 
-│                      │                   │     ├ Content    : BEGIN OPENSSH PRIVATE
-│                      │                   │     │              KEY-----***************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              *****************************-----END OPENSSH
-│                      │                   │     │              PRI 
-│                      │                   │     ├ IsCause    : true 
-│                      │                   │     ├ Annotation :  
-│                      │                   │     ├ Truncated  : false 
-│                      │                   │     ├ Highlighted: BEGIN OPENSSH PRIVATE
-│                      │                   │     │              KEY-----***************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              *****************************-----END OPENSSH
-│                      │                   │     │              PRI 
-│                      │                   │     ├ FirstCause : true 
-│                      │                   │     ╰ LastCause  : true 
-│                      │                   ╰ [1] ╭ Number    : 2 
-│                      │                         ├ Content   :  
-│                      │                         ├ IsCause   : false 
-│                      │                         ├ Annotation:  
-│                      │                         ├ Truncated : false 
-│                      │                         ├ FirstCause: false 
-│                      │                         ╰ LastCause : false 
-│                      ├ Match    : BEGIN OPENSSH PRIVATE
-│                      │            KEY-----*******************************************************************
-│                      │            ***************************************************************************
-│                      │            **-----END OPENSSH PRI 
-│                      ╰ Layer     ╭ Digest   : sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca80805547
-│                                  │            71c9d616 
-│                                  ├ DiffID   : sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9
-│                                  │            ec02fe93 
-│                                  ╰ CreatedBy: COPY / / # buildkit 
-├ [12] ╭ Target : /etc/ssh/ssh_host_ed25519_key 
-│      ├ Class  : secret 
-│      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
-│                      ├ Category : AsymmetricPrivateKey 
-│                      ├ Severity : HIGH 
-│                      ├ Title    : Asymmetric Private Key 
-│                      ├ StartLine: 1 
-│                      ├ EndLine  : 1 
-│                      ├ Code      ─ Lines ╭ [0] ╭ Number     : 1 
-│                      │                   │     ├ Content    : BEGIN OPENSSH PRIVATE
-│                      │                   │     │              KEY-----***************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              *********************-----END OPENSSH PRI 
-│                      │                   │     ├ IsCause    : true 
-│                      │                   │     ├ Annotation :  
-│                      │                   │     ├ Truncated  : false 
-│                      │                   │     ├ Highlighted: BEGIN OPENSSH PRIVATE
-│                      │                   │     │              KEY-----***************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              *********************-----END OPENSSH PRI 
-│                      │                   │     ├ FirstCause : true 
-│                      │                   │     ╰ LastCause  : true 
-│                      │                   ╰ [1] ╭ Number    : 2 
-│                      │                         ├ Content   :  
-│                      │                         ├ IsCause   : false 
-│                      │                         ├ Annotation:  
-│                      │                         ├ Truncated : false 
-│                      │                         ├ FirstCause: false 
-│                      │                         ╰ LastCause : false 
-│                      ├ Match    : BEGIN OPENSSH PRIVATE
-│                      │            KEY-----*******************************************************************
-│                      │            ***************************************************************************
-│                      │            **************************************************-----END OPENSSH PRI 
-│                      ╰ Layer     ╭ Digest   : sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca80805547
-│                                  │            71c9d616 
-│                                  ├ DiffID   : sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9
-│                                  │            ec02fe93 
-│                                  ╰ CreatedBy: COPY / / # buildkit 
-╰ [13] ╭ Target : /etc/ssh/ssh_host_rsa_key 
+╰ [13] ╭ Target : /etc/ssh/ssh_host_ecdsa_key 
        ├ Class  : secret 
        ╰ Secrets ─ [0] ╭ RuleID   : private-key 
                        ├ Category : AsymmetricPrivateKey 
@@ -13462,14 +13469,16 @@
                        │                   │     ├ Content    : BEGIN OPENSSH PRIVATE
                        │                   │     │              KEY-----***************************************
                        │                   │     │              ***********************************************
-                       │                   │     │              ***********-----END OPENSSH PRI 
+                       │                   │     │              *****************************-----END OPENSSH
+                       │                   │     │              PRI 
                        │                   │     ├ IsCause    : true 
                        │                   │     ├ Annotation :  
                        │                   │     ├ Truncated  : false 
                        │                   │     ├ Highlighted: BEGIN OPENSSH PRIVATE
                        │                   │     │              KEY-----***************************************
                        │                   │     │              ***********************************************
-                       │                   │     │              ***********-----END OPENSSH PRI 
+                       │                   │     │              *****************************-----END OPENSSH
+                       │                   │     │              PRI 
                        │                   │     ├ FirstCause : true 
                        │                   │     ╰ LastCause  : true 
                        │                   ╰ [1] ╭ Number    : 2 
@@ -13482,8 +13491,7 @@
                        ├ Match    : BEGIN OPENSSH PRIVATE
                        │            KEY-----*******************************************************************
                        │            ***************************************************************************
-                       │            **************************************************************************-
-                       │            ----END OPENSSH PRI 
+                       │            **-----END OPENSSH PRI 
                        ╰ Layer     ╭ Digest   : sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca80805547
                                    │            71c9d616 
                                    ├ DiffID   : sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9
