@@ -4406,7 +4406,7 @@
 │                        │       ├ CweIDs           ─ [0]: CWE-416 
 │                        │       ├ VendorSeverity   ╭ alma       : 3 
 │                        │       │                  ├ cbl-mariner: 4 
-│                        │       │                  ├ oracle-oval: 3 
+│                        │       │                  ├ oracle-oval: 2 
 │                        │       │                  ├ redhat     : 2 
 │                        │       │                  ╰ ubuntu     : 2 
 │                        │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:N/I
@@ -4420,7 +4420,7 @@
 │                        │       │                  ├ [5] : https://gitlab.gnome.org/GNOME/libxml2/-/commit/5a1
 │                        │       │                  │       9e21605398cef6a8b1452477a8705cb41562b 
 │                        │       │                  ├ [6] : https://linux.oracle.com/cve/CVE-2022-49043.html 
-│                        │       │                  ├ [7] : https://linux.oracle.com/errata/ELSA-2025-1350.html 
+│                        │       │                  ├ [7] : https://linux.oracle.com/errata/ELSA-2025-1517.html 
 │                        │       │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2022-49043 
 │                        │       │                  ├ [9] : https://ubuntu.com/security/notices/USN-7240-1 
 │                        │       │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2022-49043 
@@ -5000,7 +5000,91 @@
 │                        │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-50495 
 │                        │       ├ PublishedDate   : 2023-12-12T15:15:07.867Z 
 │                        │       ╰ LastModifiedDate: 2024-11-21T08:37:04.243Z 
-│                        ├ [92]  ╭ VulnerabilityID : CVE-2024-41996 
+│                        ├ [92]  ╭ VulnerabilityID : CVE-2025-26465 
+│                        │       ├ PkgID           : openssh-client@1:8.9p1-3ubuntu0.10 
+│                        │       ├ PkgName         : openssh-client 
+│                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssh-client@8.9p1-3ubuntu0.10?arc
+│                        │       │                  │       h=amd64&distro=ubuntu-22.04&epoch=1 
+│                        │       │                  ╰ UID : 1e9416b5241c4b7 
+│                        │       ├ InstalledVersion: 1:8.9p1-3ubuntu0.10 
+│                        │       ├ Status          : affected 
+│                        │       ├ Layer            ╭ Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e
+│                        │       │                  │         1ceaca8080554771c9d616 
+│                        │       │                  ╰ DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab
+│                        │       │                            7c6441377552d9ec02fe93 
+│                        │       ├ SeveritySource  : ubuntu 
+│                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-26465 
+│                        │       ├ DataSource       ╭ ID  : ubuntu 
+│                        │       │                  ├ Name: Ubuntu CVE Tracker 
+│                        │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │       ├ Title           : [MitM] 
+│                        │       ├ Description     : The OpenSSH client is vulnerable to an active
+│                        │       │                   machine-in-the-middle attack if the VerifyHostKeyDNS
+│                        │       │                   option is enabled (it is disabled by default): when a
+│                        │       │                   vulnerable client connects to a server, an active
+│                        │       │                   machine-in-the-middle can impersonate the server by
+│                        │       │                   completely bypassing the client's checks of the server's
+│                        │       │                   identity. 
+│                        │       ├ Severity        : MEDIUM 
+│                        │       ├ VendorSeverity   ─ ubuntu: 2 
+│                        │       ╰ References       ─ [0]: https://www.cve.org/CVERecord?id=CVE-2025-26465 
+│                        ├ [93]  ╭ VulnerabilityID : CVE-2025-26465 
+│                        │       ├ PkgID           : openssh-server@1:8.9p1-3ubuntu0.10 
+│                        │       ├ PkgName         : openssh-server 
+│                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssh-server@8.9p1-3ubuntu0.10?arc
+│                        │       │                  │       h=amd64&distro=ubuntu-22.04&epoch=1 
+│                        │       │                  ╰ UID : 1d19c2bc3c99b5c0 
+│                        │       ├ InstalledVersion: 1:8.9p1-3ubuntu0.10 
+│                        │       ├ Status          : affected 
+│                        │       ├ Layer            ╭ Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e
+│                        │       │                  │         1ceaca8080554771c9d616 
+│                        │       │                  ╰ DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab
+│                        │       │                            7c6441377552d9ec02fe93 
+│                        │       ├ SeveritySource  : ubuntu 
+│                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-26465 
+│                        │       ├ DataSource       ╭ ID  : ubuntu 
+│                        │       │                  ├ Name: Ubuntu CVE Tracker 
+│                        │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │       ├ Title           : [MitM] 
+│                        │       ├ Description     : The OpenSSH client is vulnerable to an active
+│                        │       │                   machine-in-the-middle attack if the VerifyHostKeyDNS
+│                        │       │                   option is enabled (it is disabled by default): when a
+│                        │       │                   vulnerable client connects to a server, an active
+│                        │       │                   machine-in-the-middle can impersonate the server by
+│                        │       │                   completely bypassing the client's checks of the server's
+│                        │       │                   identity. 
+│                        │       ├ Severity        : MEDIUM 
+│                        │       ├ VendorSeverity   ─ ubuntu: 2 
+│                        │       ╰ References       ─ [0]: https://www.cve.org/CVERecord?id=CVE-2025-26465 
+│                        ├ [94]  ╭ VulnerabilityID : CVE-2025-26465 
+│                        │       ├ PkgID           : openssh-sftp-server@1:8.9p1-3ubuntu0.10 
+│                        │       ├ PkgName         : openssh-sftp-server 
+│                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssh-sftp-server@8.9p1-3ubuntu0.1
+│                        │       │                  │       0?arch=amd64&distro=ubuntu-22.04&epoch=1 
+│                        │       │                  ╰ UID : 7d788ed09d7264cc 
+│                        │       ├ InstalledVersion: 1:8.9p1-3ubuntu0.10 
+│                        │       ├ Status          : affected 
+│                        │       ├ Layer            ╭ Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e
+│                        │       │                  │         1ceaca8080554771c9d616 
+│                        │       │                  ╰ DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab
+│                        │       │                            7c6441377552d9ec02fe93 
+│                        │       ├ SeveritySource  : ubuntu 
+│                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-26465 
+│                        │       ├ DataSource       ╭ ID  : ubuntu 
+│                        │       │                  ├ Name: Ubuntu CVE Tracker 
+│                        │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │       ├ Title           : [MitM] 
+│                        │       ├ Description     : The OpenSSH client is vulnerable to an active
+│                        │       │                   machine-in-the-middle attack if the VerifyHostKeyDNS
+│                        │       │                   option is enabled (it is disabled by default): when a
+│                        │       │                   vulnerable client connects to a server, an active
+│                        │       │                   machine-in-the-middle can impersonate the server by
+│                        │       │                   completely bypassing the client's checks of the server's
+│                        │       │                   identity. 
+│                        │       ├ Severity        : MEDIUM 
+│                        │       ├ VendorSeverity   ─ ubuntu: 2 
+│                        │       ╰ References       ─ [0]: https://www.cve.org/CVERecord?id=CVE-2025-26465 
+│                        ├ [95]  ╭ VulnerabilityID : CVE-2024-41996 
 │                        │       ├ PkgID           : openssl@3.0.2-0ubuntu1.18 
 │                        │       ├ PkgName         : openssl 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl@3.0.2-0ubuntu1.18?arch=amd64
@@ -5051,7 +5135,7 @@
 │                        │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-41996 
 │                        │       ├ PublishedDate   : 2024-08-26T06:15:04.603Z 
 │                        │       ╰ LastModifiedDate: 2024-08-26T16:35:11.247Z 
-│                        ├ [93]  ╭ VulnerabilityID : CVE-2024-56433 
+│                        ├ [96]  ╭ VulnerabilityID : CVE-2024-56433 
 │                        │       ├ PkgID           : passwd@1:4.8.1-2ubuntu2.2 
 │                        │       ├ PkgName         : passwd 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/passwd@4.8.1-2ubuntu2.2?arch=amd64&d
@@ -5099,7 +5183,7 @@
 │                        │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                        │       ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                        │       ╰ LastModifiedDate: 2024-12-26T09:15:07.267Z 
-│                        ├ [94]  ╭ VulnerabilityID : CVE-2023-29383 
+│                        ├ [97]  ╭ VulnerabilityID : CVE-2023-29383 
 │                        │       ├ PkgID           : passwd@1:4.8.1-2ubuntu2.2 
 │                        │       ├ PkgName         : passwd 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/passwd@4.8.1-2ubuntu2.2?arch=amd64&d
@@ -5158,7 +5242,7 @@
 │                        │       │                         esources/security-advisories/?fid=31797 
 │                        │       ├ PublishedDate   : 2023-04-14T22:15:07.68Z 
 │                        │       ╰ LastModifiedDate: 2025-02-06T22:15:35.057Z 
-│                        ├ [95]  ╭ VulnerabilityID : CVE-2024-11168 
+│                        ├ [98]  ╭ VulnerabilityID : CVE-2024-11168 
 │                        │       ├ PkgID           : python3.10@3.10.12-1~22.04.7 
 │                        │       ├ PkgName         : python3.10 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/python3.10@3.10.12-1~22.04.7?arch=am
@@ -5230,7 +5314,7 @@
 │                        │       │                  ╰ [21]: https://www.cve.org/CVERecord?id=CVE-2024-11168 
 │                        │       ├ PublishedDate   : 2024-11-12T22:15:14.92Z 
 │                        │       ╰ LastModifiedDate: 2025-01-06T18:15:17.9Z 
-│                        ├ [96]  ╭ VulnerabilityID : CVE-2024-11168 
+│                        ├ [99]  ╭ VulnerabilityID : CVE-2024-11168 
 │                        │       ├ PkgID           : python3.10-minimal@3.10.12-1~22.04.7 
 │                        │       ├ PkgName         : python3.10-minimal 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/python3.10-minimal@3.10.12-1~22.04.7
@@ -5302,7 +5386,7 @@
 │                        │       │                  ╰ [21]: https://www.cve.org/CVERecord?id=CVE-2024-11168 
 │                        │       ├ PublishedDate   : 2024-11-12T22:15:14.92Z 
 │                        │       ╰ LastModifiedDate: 2025-01-06T18:15:17.9Z 
-│                        ├ [97]  ╭ VulnerabilityID : CVE-2023-7008 
+│                        ├ [100] ╭ VulnerabilityID : CVE-2023-7008 
 │                        │       ├ PkgID           : systemd@249.11-0ubuntu3.12 
 │                        │       ├ PkgName         : systemd 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/systemd@249.11-0ubuntu3.12?arch=amd6
@@ -5367,7 +5451,7 @@
 │                        │       │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
 │                        │       ├ PublishedDate   : 2023-12-23T13:15:07.573Z 
 │                        │       ╰ LastModifiedDate: 2024-11-22T12:15:17.59Z 
-│                        ├ [98]  ╭ VulnerabilityID : CVE-2023-7008 
+│                        ├ [101] ╭ VulnerabilityID : CVE-2023-7008 
 │                        │       ├ PkgID           : systemd-sysv@249.11-0ubuntu3.12 
 │                        │       ├ PkgName         : systemd-sysv 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/systemd-sysv@249.11-0ubuntu3.12?arch
@@ -5432,7 +5516,7 @@
 │                        │       │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
 │                        │       ├ PublishedDate   : 2023-12-23T13:15:07.573Z 
 │                        │       ╰ LastModifiedDate: 2024-11-22T12:15:17.59Z 
-│                        ├ [99]  ╭ VulnerabilityID : CVE-2023-7008 
+│                        ├ [102] ╭ VulnerabilityID : CVE-2023-7008 
 │                        │       ├ PkgID           : systemd-timesyncd@249.11-0ubuntu3.12 
 │                        │       ├ PkgName         : systemd-timesyncd 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/systemd-timesyncd@249.11-0ubuntu3.12
@@ -5497,7 +5581,7 @@
 │                        │       │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
 │                        │       ├ PublishedDate   : 2023-12-23T13:15:07.573Z 
 │                        │       ╰ LastModifiedDate: 2024-11-22T12:15:17.59Z 
-│                        ├ [100] ╭ VulnerabilityID : CVE-2024-56433 
+│                        ├ [103] ╭ VulnerabilityID : CVE-2024-56433 
 │                        │       ├ PkgID           : uidmap@1:4.8.1-2ubuntu2.2 
 │                        │       ├ PkgName         : uidmap 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/uidmap@4.8.1-2ubuntu2.2?arch=amd64&d
@@ -5545,7 +5629,7 @@
 │                        │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                        │       ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                        │       ╰ LastModifiedDate: 2024-12-26T09:15:07.267Z 
-│                        ├ [101] ╭ VulnerabilityID : CVE-2023-29383 
+│                        ├ [104] ╭ VulnerabilityID : CVE-2023-29383 
 │                        │       ├ PkgID           : uidmap@1:4.8.1-2ubuntu2.2 
 │                        │       ├ PkgName         : uidmap 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/uidmap@4.8.1-2ubuntu2.2?arch=amd64&d
@@ -5604,7 +5688,7 @@
 │                        │       │                         esources/security-advisories/?fid=31797 
 │                        │       ├ PublishedDate   : 2023-04-14T22:15:07.68Z 
 │                        │       ╰ LastModifiedDate: 2025-02-06T22:15:35.057Z 
-│                        ├ [102] ╭ VulnerabilityID : CVE-2025-22134 
+│                        ├ [105] ╭ VulnerabilityID : CVE-2025-22134 
 │                        │       ├ PkgID           : vim@2:8.2.3995-1ubuntu2.21 
 │                        │       ├ PkgName         : vim 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/vim@8.2.3995-1ubuntu2.21?arch=amd64&
@@ -5658,7 +5742,7 @@
 │                        │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-22134 
 │                        │       ├ PublishedDate   : 2025-01-13T21:15:14.333Z 
 │                        │       ╰ LastModifiedDate: 2025-01-13T21:15:14.333Z 
-│                        ├ [103] ╭ VulnerabilityID : CVE-2025-24014 
+│                        ├ [106] ╭ VulnerabilityID : CVE-2025-24014 
 │                        │       ├ PkgID           : vim@2:8.2.3995-1ubuntu2.21 
 │                        │       ├ PkgName         : vim 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/vim@8.2.3995-1ubuntu2.21?arch=amd64&
@@ -5711,7 +5795,7 @@
 │                        │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-24014 
 │                        │       ├ PublishedDate   : 2025-01-20T23:15:07.73Z 
 │                        │       ╰ LastModifiedDate: 2025-01-21T03:15:06.393Z 
-│                        ├ [104] ╭ VulnerabilityID : CVE-2025-22134 
+│                        ├ [107] ╭ VulnerabilityID : CVE-2025-22134 
 │                        │       ├ PkgID           : vim-common@2:8.2.3995-1ubuntu2.21 
 │                        │       ├ PkgName         : vim-common 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/vim-common@8.2.3995-1ubuntu2.21?arch
@@ -5765,7 +5849,7 @@
 │                        │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-22134 
 │                        │       ├ PublishedDate   : 2025-01-13T21:15:14.333Z 
 │                        │       ╰ LastModifiedDate: 2025-01-13T21:15:14.333Z 
-│                        ├ [105] ╭ VulnerabilityID : CVE-2025-24014 
+│                        ├ [108] ╭ VulnerabilityID : CVE-2025-24014 
 │                        │       ├ PkgID           : vim-common@2:8.2.3995-1ubuntu2.21 
 │                        │       ├ PkgName         : vim-common 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/vim-common@8.2.3995-1ubuntu2.21?arch
@@ -5818,7 +5902,7 @@
 │                        │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-24014 
 │                        │       ├ PublishedDate   : 2025-01-20T23:15:07.73Z 
 │                        │       ╰ LastModifiedDate: 2025-01-21T03:15:06.393Z 
-│                        ├ [106] ╭ VulnerabilityID : CVE-2025-22134 
+│                        ├ [109] ╭ VulnerabilityID : CVE-2025-22134 
 │                        │       ├ PkgID           : vim-runtime@2:8.2.3995-1ubuntu2.21 
 │                        │       ├ PkgName         : vim-runtime 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/vim-runtime@8.2.3995-1ubuntu2.21?arc
@@ -5872,7 +5956,7 @@
 │                        │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-22134 
 │                        │       ├ PublishedDate   : 2025-01-13T21:15:14.333Z 
 │                        │       ╰ LastModifiedDate: 2025-01-13T21:15:14.333Z 
-│                        ├ [107] ╭ VulnerabilityID : CVE-2025-24014 
+│                        ├ [110] ╭ VulnerabilityID : CVE-2025-24014 
 │                        │       ├ PkgID           : vim-runtime@2:8.2.3995-1ubuntu2.21 
 │                        │       ├ PkgName         : vim-runtime 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/vim-runtime@8.2.3995-1ubuntu2.21?arc
@@ -5925,7 +6009,7 @@
 │                        │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-24014 
 │                        │       ├ PublishedDate   : 2025-01-20T23:15:07.73Z 
 │                        │       ╰ LastModifiedDate: 2025-01-21T03:15:06.393Z 
-│                        ├ [108] ╭ VulnerabilityID : CVE-2021-31879 
+│                        ├ [111] ╭ VulnerabilityID : CVE-2021-31879 
 │                        │       ├ PkgID           : wget@1.21.2-2ubuntu1.1 
 │                        │       ├ PkgName         : wget 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/wget@1.21.2-2ubuntu1.1?arch=amd64&di
@@ -5972,7 +6056,7 @@
 │                        │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2021-31879 
 │                        │       ├ PublishedDate   : 2021-04-29T05:15:08.707Z 
 │                        │       ╰ LastModifiedDate: 2024-11-21T06:06:25.02Z 
-│                        ├ [109] ╭ VulnerabilityID : CVE-2025-22134 
+│                        ├ [112] ╭ VulnerabilityID : CVE-2025-22134 
 │                        │       ├ PkgID           : xxd@2:8.2.3995-1ubuntu2.21 
 │                        │       ├ PkgName         : xxd 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/xxd@8.2.3995-1ubuntu2.21?arch=amd64&
@@ -6026,7 +6110,7 @@
 │                        │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-22134 
 │                        │       ├ PublishedDate   : 2025-01-13T21:15:14.333Z 
 │                        │       ╰ LastModifiedDate: 2025-01-13T21:15:14.333Z 
-│                        ╰ [110] ╭ VulnerabilityID : CVE-2025-24014 
+│                        ╰ [113] ╭ VulnerabilityID : CVE-2025-24014 
 │                                ├ PkgID           : xxd@2:8.2.3995-1ubuntu2.21 
 │                                ├ PkgName         : xxd 
 │                                ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/xxd@8.2.3995-1ubuntu2.21?arch=amd64&
@@ -6615,7 +6699,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ ghsa       : 2 
@@ -8119,7 +8203,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
@@ -8196,7 +8280,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
@@ -9664,7 +9748,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ ghsa       : 2 
@@ -11168,7 +11252,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
@@ -11245,7 +11329,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
