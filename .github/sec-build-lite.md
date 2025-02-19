@@ -2230,7 +2230,175 @@
 │                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                        │      ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                        │      ╰ LastModifiedDate: 2024-12-26T09:15:07.267Z 
-│                        ├ [44] ╭ VulnerabilityID : CVE-2024-41996 
+│                        ├ [44] ╭ VulnerabilityID : CVE-2025-26465 
+│                        │      ├ PkgID           : openssh-client@1:9.6p1-3ubuntu13.5 
+│                        │      ├ PkgName         : openssh-client 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssh-client@9.6p1-3ubuntu13.5?arch
+│                        │      │                  │       =amd64&distro=ubuntu-24.04&epoch=1 
+│                        │      │                  ╰ UID : a15b83314b574e2 
+│                        │      ├ InstalledVersion: 1:9.6p1-3ubuntu13.5 
+│                        │      ├ Status          : affected 
+│                        │      ├ Layer            ╭ Digest: sha256:febc6d3cbbf6b54458a78cde0ff768dac92e26dbf37
+│                        │      │                  │         c0a0d337281c970799f41 
+│                        │      │                  ╰ DiffID: sha256:8198e4f6fa3746c22c6001b51d92d2ac0387566b970
+│                        │      │                            925f26c39892ed2e6ba90 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-26465 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : [MitM] 
+│                        │      ├ Description     : The OpenSSH client is vulnerable to an active
+│                        │      │                   machine-in-the-middle attack if the VerifyHostKeyDNS option
+│                        │      │                    is enabled (it is disabled by default): when a vulnerable
+│                        │      │                   client connects to a server, an active
+│                        │      │                   machine-in-the-middle can impersonate the server by
+│                        │      │                   completely bypassing the client's checks of the server's
+│                        │      │                   identity. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ VendorSeverity   ─ ubuntu: 2 
+│                        │      ╰ References       ─ [0]: https://www.cve.org/CVERecord?id=CVE-2025-26465 
+│                        ├ [45] ╭ VulnerabilityID : CVE-2025-26466 
+│                        │      ├ PkgID           : openssh-client@1:9.6p1-3ubuntu13.5 
+│                        │      ├ PkgName         : openssh-client 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssh-client@9.6p1-3ubuntu13.5?arch
+│                        │      │                  │       =amd64&distro=ubuntu-24.04&epoch=1 
+│                        │      │                  ╰ UID : a15b83314b574e2 
+│                        │      ├ InstalledVersion: 1:9.6p1-3ubuntu13.5 
+│                        │      ├ Status          : affected 
+│                        │      ├ Layer            ╭ Digest: sha256:febc6d3cbbf6b54458a78cde0ff768dac92e26dbf37
+│                        │      │                  │         c0a0d337281c970799f41 
+│                        │      │                  ╰ DiffID: sha256:8198e4f6fa3746c22c6001b51d92d2ac0387566b970
+│                        │      │                            925f26c39892ed2e6ba90 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-26466 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : [Denial of Service: asymmetric resource consumption of
+│                        │      │                   memory and CPU] 
+│                        │      ├ Description     : The OpenSSH client and server are vulnerable to a
+│                        │      │                   pre-authentication denial-of-service attack: an asymmetric
+│                        │      │                   resource consumption of both memory and CPU. This
+│                        │      │                   vulnerability was introduced in August 2023 (shortly before
+│                        │      │                    OpenSSH 9.5p1) by commit dce6d80 ("Introduce a
+│                        │      │                   transport-level ping facility"). 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ VendorSeverity   ─ ubuntu: 2 
+│                        │      ╰ References       ─ [0]: https://www.cve.org/CVERecord?id=CVE-2025-26466 
+│                        ├ [46] ╭ VulnerabilityID : CVE-2025-26465 
+│                        │      ├ PkgID           : openssh-server@1:9.6p1-3ubuntu13.5 
+│                        │      ├ PkgName         : openssh-server 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssh-server@9.6p1-3ubuntu13.5?arch
+│                        │      │                  │       =amd64&distro=ubuntu-24.04&epoch=1 
+│                        │      │                  ╰ UID : 5447fe2990c91ea4 
+│                        │      ├ InstalledVersion: 1:9.6p1-3ubuntu13.5 
+│                        │      ├ Status          : affected 
+│                        │      ├ Layer            ╭ Digest: sha256:febc6d3cbbf6b54458a78cde0ff768dac92e26dbf37
+│                        │      │                  │         c0a0d337281c970799f41 
+│                        │      │                  ╰ DiffID: sha256:8198e4f6fa3746c22c6001b51d92d2ac0387566b970
+│                        │      │                            925f26c39892ed2e6ba90 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-26465 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : [MitM] 
+│                        │      ├ Description     : The OpenSSH client is vulnerable to an active
+│                        │      │                   machine-in-the-middle attack if the VerifyHostKeyDNS option
+│                        │      │                    is enabled (it is disabled by default): when a vulnerable
+│                        │      │                   client connects to a server, an active
+│                        │      │                   machine-in-the-middle can impersonate the server by
+│                        │      │                   completely bypassing the client's checks of the server's
+│                        │      │                   identity. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ VendorSeverity   ─ ubuntu: 2 
+│                        │      ╰ References       ─ [0]: https://www.cve.org/CVERecord?id=CVE-2025-26465 
+│                        ├ [47] ╭ VulnerabilityID : CVE-2025-26466 
+│                        │      ├ PkgID           : openssh-server@1:9.6p1-3ubuntu13.5 
+│                        │      ├ PkgName         : openssh-server 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssh-server@9.6p1-3ubuntu13.5?arch
+│                        │      │                  │       =amd64&distro=ubuntu-24.04&epoch=1 
+│                        │      │                  ╰ UID : 5447fe2990c91ea4 
+│                        │      ├ InstalledVersion: 1:9.6p1-3ubuntu13.5 
+│                        │      ├ Status          : affected 
+│                        │      ├ Layer            ╭ Digest: sha256:febc6d3cbbf6b54458a78cde0ff768dac92e26dbf37
+│                        │      │                  │         c0a0d337281c970799f41 
+│                        │      │                  ╰ DiffID: sha256:8198e4f6fa3746c22c6001b51d92d2ac0387566b970
+│                        │      │                            925f26c39892ed2e6ba90 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-26466 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : [Denial of Service: asymmetric resource consumption of
+│                        │      │                   memory and CPU] 
+│                        │      ├ Description     : The OpenSSH client and server are vulnerable to a
+│                        │      │                   pre-authentication denial-of-service attack: an asymmetric
+│                        │      │                   resource consumption of both memory and CPU. This
+│                        │      │                   vulnerability was introduced in August 2023 (shortly before
+│                        │      │                    OpenSSH 9.5p1) by commit dce6d80 ("Introduce a
+│                        │      │                   transport-level ping facility"). 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ VendorSeverity   ─ ubuntu: 2 
+│                        │      ╰ References       ─ [0]: https://www.cve.org/CVERecord?id=CVE-2025-26466 
+│                        ├ [48] ╭ VulnerabilityID : CVE-2025-26465 
+│                        │      ├ PkgID           : openssh-sftp-server@1:9.6p1-3ubuntu13.5 
+│                        │      ├ PkgName         : openssh-sftp-server 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssh-sftp-server@9.6p1-3ubuntu13.5
+│                        │      │                  │       ?arch=amd64&distro=ubuntu-24.04&epoch=1 
+│                        │      │                  ╰ UID : 331761323f5a349d 
+│                        │      ├ InstalledVersion: 1:9.6p1-3ubuntu13.5 
+│                        │      ├ Status          : affected 
+│                        │      ├ Layer            ╭ Digest: sha256:febc6d3cbbf6b54458a78cde0ff768dac92e26dbf37
+│                        │      │                  │         c0a0d337281c970799f41 
+│                        │      │                  ╰ DiffID: sha256:8198e4f6fa3746c22c6001b51d92d2ac0387566b970
+│                        │      │                            925f26c39892ed2e6ba90 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-26465 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : [MitM] 
+│                        │      ├ Description     : The OpenSSH client is vulnerable to an active
+│                        │      │                   machine-in-the-middle attack if the VerifyHostKeyDNS option
+│                        │      │                    is enabled (it is disabled by default): when a vulnerable
+│                        │      │                   client connects to a server, an active
+│                        │      │                   machine-in-the-middle can impersonate the server by
+│                        │      │                   completely bypassing the client's checks of the server's
+│                        │      │                   identity. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ VendorSeverity   ─ ubuntu: 2 
+│                        │      ╰ References       ─ [0]: https://www.cve.org/CVERecord?id=CVE-2025-26465 
+│                        ├ [49] ╭ VulnerabilityID : CVE-2025-26466 
+│                        │      ├ PkgID           : openssh-sftp-server@1:9.6p1-3ubuntu13.5 
+│                        │      ├ PkgName         : openssh-sftp-server 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssh-sftp-server@9.6p1-3ubuntu13.5
+│                        │      │                  │       ?arch=amd64&distro=ubuntu-24.04&epoch=1 
+│                        │      │                  ╰ UID : 331761323f5a349d 
+│                        │      ├ InstalledVersion: 1:9.6p1-3ubuntu13.5 
+│                        │      ├ Status          : affected 
+│                        │      ├ Layer            ╭ Digest: sha256:febc6d3cbbf6b54458a78cde0ff768dac92e26dbf37
+│                        │      │                  │         c0a0d337281c970799f41 
+│                        │      │                  ╰ DiffID: sha256:8198e4f6fa3746c22c6001b51d92d2ac0387566b970
+│                        │      │                            925f26c39892ed2e6ba90 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-26466 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : [Denial of Service: asymmetric resource consumption of
+│                        │      │                   memory and CPU] 
+│                        │      ├ Description     : The OpenSSH client and server are vulnerable to a
+│                        │      │                   pre-authentication denial-of-service attack: an asymmetric
+│                        │      │                   resource consumption of both memory and CPU. This
+│                        │      │                   vulnerability was introduced in August 2023 (shortly before
+│                        │      │                    OpenSSH 9.5p1) by commit dce6d80 ("Introduce a
+│                        │      │                   transport-level ping facility"). 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ VendorSeverity   ─ ubuntu: 2 
+│                        │      ╰ References       ─ [0]: https://www.cve.org/CVERecord?id=CVE-2025-26466 
+│                        ├ [50] ╭ VulnerabilityID : CVE-2024-41996 
 │                        │      ├ PkgID           : openssl@3.0.13-0ubuntu3.4 
 │                        │      ├ PkgName         : openssl 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl@3.0.13-0ubuntu3.4?arch=amd64&
@@ -2280,7 +2448,7 @@
 │                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-41996 
 │                        │      ├ PublishedDate   : 2024-08-26T06:15:04.603Z 
 │                        │      ╰ LastModifiedDate: 2024-08-26T16:35:11.247Z 
-│                        ├ [45] ╭ VulnerabilityID : CVE-2024-56433 
+│                        ├ [51] ╭ VulnerabilityID : CVE-2024-56433 
 │                        │      ├ PkgID           : passwd@1:4.13+dfsg1-4ubuntu3.2 
 │                        │      ├ PkgName         : passwd 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/passwd@4.13%2Bdfsg1-4ubuntu3.2?arch=a
@@ -2327,7 +2495,7 @@
 │                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                        │      ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                        │      ╰ LastModifiedDate: 2024-12-26T09:15:07.267Z 
-│                        ├ [46] ╭ VulnerabilityID : CVE-2018-6952 
+│                        ├ [52] ╭ VulnerabilityID : CVE-2018-6952 
 │                        │      ├ PkgID           : patch@2.7.6-7build3 
 │                        │      ├ PkgName         : patch 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/patch@2.7.6-7build3?arch=amd64&distro
@@ -2377,7 +2545,7 @@
 │                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2018-6952 
 │                        │      ├ PublishedDate   : 2018-02-13T19:29:00.573Z 
 │                        │      ╰ LastModifiedDate: 2024-11-21T04:11:28.42Z 
-│                        ├ [47] ╭ VulnerabilityID : CVE-2021-45261 
+│                        ├ [53] ╭ VulnerabilityID : CVE-2021-45261 
 │                        │      ├ PkgID           : patch@2.7.6-7build3 
 │                        │      ├ PkgName         : patch 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/patch@2.7.6-7build3?arch=amd64&distro
@@ -2417,7 +2585,7 @@
 │                        │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2021-45261 
 │                        │      ├ PublishedDate   : 2021-12-22T18:15:08.1Z 
 │                        │      ╰ LastModifiedDate: 2024-11-21T06:32:02.633Z 
-│                        ├ [48] ╭ VulnerabilityID : CVE-2024-56433 
+│                        ├ [54] ╭ VulnerabilityID : CVE-2024-56433 
 │                        │      ├ PkgID           : uidmap@1:4.13+dfsg1-4ubuntu3.2 
 │                        │      ├ PkgName         : uidmap 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/uidmap@4.13%2Bdfsg1-4ubuntu3.2?arch=a
@@ -2464,7 +2632,7 @@
 │                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                        │      ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                        │      ╰ LastModifiedDate: 2024-12-26T09:15:07.267Z 
-│                        ╰ [49] ╭ VulnerabilityID : CVE-2021-31879 
+│                        ╰ [55] ╭ VulnerabilityID : CVE-2021-31879 
 │                               ├ PkgID           : wget@1.21.4-1ubuntu4.1 
 │                               ├ PkgName         : wget 
 │                               ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/wget@1.21.4-1ubuntu4.1?arch=amd64&dis
@@ -2913,7 +3081,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ ghsa       : 2 
@@ -4417,7 +4585,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
@@ -4494,7 +4662,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
@@ -5962,7 +6130,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ ghsa       : 2 
@@ -7466,7 +7634,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
@@ -7543,7 +7711,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
@@ -9182,7 +9350,47 @@
 │                              │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-22866 
 │                              ├ PublishedDate   : 2025-02-06T17:15:21.41Z 
 │                              ╰ LastModifiedDate: 2025-02-11T15:15:20.87Z 
-├ [9]  ╭ Target : /etc/ssh/ssh_host_ed25519_key 
+├ [9]  ╭ Target : /etc/ssh/ssh_host_ecdsa_key 
+│      ├ Class  : secret 
+│      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
+│                      ├ Category : AsymmetricPrivateKey 
+│                      ├ Severity : HIGH 
+│                      ├ Title    : Asymmetric Private Key 
+│                      ├ StartLine: 1 
+│                      ├ EndLine  : 1 
+│                      ├ Code      ─ Lines ╭ [0] ╭ Number     : 1 
+│                      │                   │     ├ Content    : BEGIN OPENSSH PRIVATE
+│                      │                   │     │              KEY-----***************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              *****************************-----END OPENSSH
+│                      │                   │     │              PRI 
+│                      │                   │     ├ IsCause    : true 
+│                      │                   │     ├ Annotation :  
+│                      │                   │     ├ Truncated  : false 
+│                      │                   │     ├ Highlighted: BEGIN OPENSSH PRIVATE
+│                      │                   │     │              KEY-----***************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              *****************************-----END OPENSSH
+│                      │                   │     │              PRI 
+│                      │                   │     ├ FirstCause : true 
+│                      │                   │     ╰ LastCause  : true 
+│                      │                   ╰ [1] ╭ Number    : 2 
+│                      │                         ├ Content   :  
+│                      │                         ├ IsCause   : false 
+│                      │                         ├ Annotation:  
+│                      │                         ├ Truncated : false 
+│                      │                         ├ FirstCause: false 
+│                      │                         ╰ LastCause : false 
+│                      ├ Match    : BEGIN OPENSSH PRIVATE
+│                      │            KEY-----*******************************************************************
+│                      │            ***************************************************************************
+│                      │            **-----END OPENSSH PRI 
+│                      ╰ Layer     ╭ Digest   : sha256:febc6d3cbbf6b54458a78cde0ff768dac92e26dbf37c0a0d337281c9
+│                                  │            70799f41 
+│                                  ├ DiffID   : sha256:8198e4f6fa3746c22c6001b51d92d2ac0387566b970925f26c39892e
+│                                  │            d2e6ba90 
+│                                  ╰ CreatedBy: COPY / / # buildkit 
+├ [10] ╭ Target : /etc/ssh/ssh_host_ed25519_key 
 │      ├ Class  : secret 
 │      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
 │                      ├ Category : AsymmetricPrivateKey 
@@ -9220,46 +9428,7 @@
 │                                  ├ DiffID   : sha256:8198e4f6fa3746c22c6001b51d92d2ac0387566b970925f26c39892e
 │                                  │            d2e6ba90 
 │                                  ╰ CreatedBy: COPY / / # buildkit 
-├ [10] ╭ Target : /etc/ssh/ssh_host_rsa_key 
-│      ├ Class  : secret 
-│      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
-│                      ├ Category : AsymmetricPrivateKey 
-│                      ├ Severity : HIGH 
-│                      ├ Title    : Asymmetric Private Key 
-│                      ├ StartLine: 1 
-│                      ├ EndLine  : 1 
-│                      ├ Code      ─ Lines ╭ [0] ╭ Number     : 1 
-│                      │                   │     ├ Content    : BEGIN OPENSSH PRIVATE
-│                      │                   │     │              KEY-----***************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********-----END OPENSSH PRI 
-│                      │                   │     ├ IsCause    : true 
-│                      │                   │     ├ Annotation :  
-│                      │                   │     ├ Truncated  : false 
-│                      │                   │     ├ Highlighted: BEGIN OPENSSH PRIVATE
-│                      │                   │     │              KEY-----***************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********-----END OPENSSH PRI 
-│                      │                   │     ├ FirstCause : true 
-│                      │                   │     ╰ LastCause  : true 
-│                      │                   ╰ [1] ╭ Number    : 2 
-│                      │                         ├ Content   :  
-│                      │                         ├ IsCause   : false 
-│                      │                         ├ Annotation:  
-│                      │                         ├ Truncated : false 
-│                      │                         ├ FirstCause: false 
-│                      │                         ╰ LastCause : false 
-│                      ├ Match    : BEGIN OPENSSH PRIVATE
-│                      │            KEY-----*******************************************************************
-│                      │            ***************************************************************************
-│                      │            **************************************************************************-
-│                      │            ----END OPENSSH PRI 
-│                      ╰ Layer     ╭ Digest   : sha256:febc6d3cbbf6b54458a78cde0ff768dac92e26dbf37c0a0d337281c9
-│                                  │            70799f41 
-│                                  ├ DiffID   : sha256:8198e4f6fa3746c22c6001b51d92d2ac0387566b970925f26c39892e
-│                                  │            d2e6ba90 
-│                                  ╰ CreatedBy: COPY / / # buildkit 
-╰ [11] ╭ Target : /etc/ssh/ssh_host_ecdsa_key 
+╰ [11] ╭ Target : /etc/ssh/ssh_host_rsa_key 
        ├ Class  : secret 
        ╰ Secrets ─ [0] ╭ RuleID   : private-key 
                        ├ Category : AsymmetricPrivateKey 
@@ -9271,16 +9440,14 @@
                        │                   │     ├ Content    : BEGIN OPENSSH PRIVATE
                        │                   │     │              KEY-----***************************************
                        │                   │     │              ***********************************************
-                       │                   │     │              *****************************-----END OPENSSH
-                       │                   │     │              PRI 
+                       │                   │     │              ***********-----END OPENSSH PRI 
                        │                   │     ├ IsCause    : true 
                        │                   │     ├ Annotation :  
                        │                   │     ├ Truncated  : false 
                        │                   │     ├ Highlighted: BEGIN OPENSSH PRIVATE
                        │                   │     │              KEY-----***************************************
                        │                   │     │              ***********************************************
-                       │                   │     │              *****************************-----END OPENSSH
-                       │                   │     │              PRI 
+                       │                   │     │              ***********-----END OPENSSH PRI 
                        │                   │     ├ FirstCause : true 
                        │                   │     ╰ LastCause  : true 
                        │                   ╰ [1] ╭ Number    : 2 
@@ -9293,7 +9460,8 @@
                        ├ Match    : BEGIN OPENSSH PRIVATE
                        │            KEY-----*******************************************************************
                        │            ***************************************************************************
-                       │            **-----END OPENSSH PRI 
+                       │            **************************************************************************-
+                       │            ----END OPENSSH PRI 
                        ╰ Layer     ╭ Digest   : sha256:febc6d3cbbf6b54458a78cde0ff768dac92e26dbf37c0a0d337281c9
                                    │            70799f41 
                                    ├ DiffID   : sha256:8198e4f6fa3746c22c6001b51d92d2ac0387566b970925f26c39892e
