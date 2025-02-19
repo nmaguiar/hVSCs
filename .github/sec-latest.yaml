@@ -4003,7 +4003,7 @@
     VendorSeverity:
       alma: 3
       cbl-mariner: 4
-      oracle-oval: 3
+      oracle-oval: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -4018,7 +4018,7 @@
     - https://github.com/php/php-src/issues/17467
     - https://gitlab.gnome.org/GNOME/libxml2/-/commit/5a19e21605398cef6a8b1452477a8705cb41562b
     - https://linux.oracle.com/cve/CVE-2022-49043.html
-    - https://linux.oracle.com/errata/ELSA-2025-1350.html
+    - https://linux.oracle.com/errata/ELSA-2025-1517.html
     - https://nvd.nist.gov/vuln/detail/CVE-2022-49043
     - https://ubuntu.com/security/notices/USN-7240-1
     - https://www.cve.org/CVERecord?id=CVE-2022-49043
@@ -4535,6 +4535,78 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-50495
     PublishedDate: '2023-12-12T15:15:07.867Z'
     LastModifiedDate: '2024-11-21T08:37:04.243Z'
+  - VulnerabilityID: CVE-2025-26465
+    PkgID: openssh-client@1:8.9p1-3ubuntu0.10
+    PkgName: openssh-client
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/openssh-client@8.9p1-3ubuntu0.10?arch=amd64&distro=ubuntu-22.04&epoch=1
+      UID: 1e9416b5241c4b7
+    InstalledVersion: 1:8.9p1-3ubuntu0.10
+    Status: affected
+    Layer:
+      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
+      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-26465
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: '[MitM]'
+    Description: 'The OpenSSH client is vulnerable to an active machine-in-the-middle attack if the VerifyHostKeyDNS option is enabled (it is disabled by default): when a vulnerable client connects to a server, an active machine-in-the-middle can impersonate the server by completely bypassing the client''s checks of the server''s identity.'
+    Severity: MEDIUM
+    VendorSeverity:
+      ubuntu: 2
+    References:
+    - https://www.cve.org/CVERecord?id=CVE-2025-26465
+  - VulnerabilityID: CVE-2025-26465
+    PkgID: openssh-server@1:8.9p1-3ubuntu0.10
+    PkgName: openssh-server
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/openssh-server@8.9p1-3ubuntu0.10?arch=amd64&distro=ubuntu-22.04&epoch=1
+      UID: 1d19c2bc3c99b5c0
+    InstalledVersion: 1:8.9p1-3ubuntu0.10
+    Status: affected
+    Layer:
+      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
+      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-26465
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: '[MitM]'
+    Description: 'The OpenSSH client is vulnerable to an active machine-in-the-middle attack if the VerifyHostKeyDNS option is enabled (it is disabled by default): when a vulnerable client connects to a server, an active machine-in-the-middle can impersonate the server by completely bypassing the client''s checks of the server''s identity.'
+    Severity: MEDIUM
+    VendorSeverity:
+      ubuntu: 2
+    References:
+    - https://www.cve.org/CVERecord?id=CVE-2025-26465
+  - VulnerabilityID: CVE-2025-26465
+    PkgID: openssh-sftp-server@1:8.9p1-3ubuntu0.10
+    PkgName: openssh-sftp-server
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/openssh-sftp-server@8.9p1-3ubuntu0.10?arch=amd64&distro=ubuntu-22.04&epoch=1
+      UID: 7d788ed09d7264cc
+    InstalledVersion: 1:8.9p1-3ubuntu0.10
+    Status: affected
+    Layer:
+      Digest: sha256:1cf5114c45d3d57187e893e665db52bd468db3f57e1ceaca8080554771c9d616
+      DiffID: sha256:68e83667e4bcb333f95ed95f798fdb769e0ed13cab7c6441377552d9ec02fe93
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-26465
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: '[MitM]'
+    Description: 'The OpenSSH client is vulnerable to an active machine-in-the-middle attack if the VerifyHostKeyDNS option is enabled (it is disabled by default): when a vulnerable client connects to a server, an active machine-in-the-middle can impersonate the server by completely bypassing the client''s checks of the server''s identity.'
+    Severity: MEDIUM
+    VendorSeverity:
+      ubuntu: 2
+    References:
+    - https://www.cve.org/CVERecord?id=CVE-2025-26465
   - VulnerabilityID: CVE-2024-41996
     PkgID: openssl@3.0.2-0ubuntu1.18
     PkgName: openssl
@@ -5776,7 +5848,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       azure: 2
       cbl-mariner: 2
       ghsa: 2
@@ -6784,7 +6856,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -6854,7 +6926,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -8013,7 +8085,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       azure: 2
       cbl-mariner: 2
       ghsa: 2
@@ -9021,7 +9093,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -9091,7 +9163,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       azure: 2
       bitnami: 2
       cbl-mariner: 2
