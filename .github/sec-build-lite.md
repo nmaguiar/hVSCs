@@ -2237,7 +2237,8 @@
 │                        │      │                  │       =amd64&distro=ubuntu-24.04&epoch=1 
 │                        │      │                  ╰ UID : a15b83314b574e2 
 │                        │      ├ InstalledVersion: 1:9.6p1-3ubuntu13.5 
-│                        │      ├ Status          : affected 
+│                        │      ├ FixedVersion    : 1:9.6p1-3ubuntu13.8 
+│                        │      ├ Status          : fixed 
 │                        │      ├ Layer            ╭ Digest: sha256:febc6d3cbbf6b54458a78cde0ff768dac92e26dbf37
 │                        │      │                  │         c0a0d337281c970799f41 
 │                        │      │                  ╰ DiffID: sha256:8198e4f6fa3746c22c6001b51d92d2ac0387566b970
@@ -2247,17 +2248,54 @@
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
 │                        │      │                  ├ Name: Ubuntu CVE Tracker 
 │                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │      ├ Title           : [MitM] 
-│                        │      ├ Description     : The OpenSSH client is vulnerable to an active
-│                        │      │                   machine-in-the-middle attack if the VerifyHostKeyDNS option
-│                        │      │                    is enabled (it is disabled by default): when a vulnerable
-│                        │      │                   client connects to a server, an active
-│                        │      │                   machine-in-the-middle can impersonate the server by
-│                        │      │                   completely bypassing the client's checks of the server's
-│                        │      │                   identity. 
+│                        │      ├ Title           : openssh: Machine-in-the-middle attack if VerifyHostKeyDNS
+│                        │      │                   is enabled 
+│                        │      ├ Description     : A vulnerability was found in OpenSSH when the
+│                        │      │                   VerifyHostKeyDNS option is enabled. A machine-in-the-middle
+│                        │      │                    attack can be performed by a malicious machine
+│                        │      │                   impersonating a legit server. This issue occurs due to how
+│                        │      │                   OpenSSH mishandles error codes in specific conditions when
+│                        │      │                   verifying the host key. For an attack to be considered
+│                        │      │                   successful, the attacker needs to manage to exhaust the
+│                        │      │                   client's memory resource first, turning the attack
+│                        │      │                   complexity high. 
 │                        │      ├ Severity        : MEDIUM 
-│                        │      ├ VendorSeverity   ─ ubuntu: 2 
-│                        │      ╰ References       ─ [0]: https://www.cve.org/CVERecord?id=CVE-2025-26465 
+│                        │      ├ CweIDs           ─ [0]: CWE-390 
+│                        │      ├ VendorSeverity   ╭ azure : 2 
+│                        │      │                  ├ redhat: 2 
+│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:
+│                        │      │                           │           H/A:N 
+│                        │      │                           ╰ V3Score : 6.8 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2025-26465 
+│                        │      │                  ├ [1] : https://blog.qualys.com/vulnerabilities-threat-resea
+│                        │      │                  │       rch/2025/02/18/qualys-tru-discovers-two-vulnerabilit
+│                        │      │                  │       ies-in-openssh-cve-2025-26465-cve-2025-26466 
+│                        │      │                  ├ [2] : https://bugzilla.redhat.com/show_bug.cgi?id=2344780 
+│                        │      │                  ├ [3] : https://bugzilla.suse.com/show_bug.cgi?id=1237040 
+│                        │      │                  ├ [4] : https://ftp.openbsd.org/pub/OpenBSD/patches/7.6/comm
+│                        │      │                  │       on/008_ssh.patch.sig 
+│                        │      │                  ├ [5] : https://lists.debian.org/debian-lts-announce/2025/02
+│                        │      │                  │       /msg00020.html 
+│                        │      │                  ├ [6] : https://lists.mindrot.org/pipermail/openssh-unix-ann
+│                        │      │                  │       ounce/2025-February/000161.html 
+│                        │      │                  ├ [7] : https://nvd.nist.gov/vuln/detail/CVE-2025-26465 
+│                        │      │                  ├ [8] : https://seclists.org/oss-sec/2025/q1/144 
+│                        │      │                  ├ [9] : https://security-tracker.debian.org/tracker/CVE-2025
+│                        │      │                  │       -26465 
+│                        │      │                  ├ [10]: https://ubuntu.com/security/CVE-2025-26465 
+│                        │      │                  ├ [11]: https://ubuntu.com/security/notices/USN-7270-1 
+│                        │      │                  ├ [12]: https://ubuntu.com/security/notices/USN-7270-2 
+│                        │      │                  ├ [13]: https://www.cve.org/CVERecord?id=CVE-2025-26465 
+│                        │      │                  ├ [14]: https://www.openssh.com/releasenotes.html#9.9p2 
+│                        │      │                  ├ [15]: https://www.openwall.com/lists/oss-security/2025/02/
+│                        │      │                  │       18/1 
+│                        │      │                  ├ [16]: https://www.openwall.com/lists/oss-security/2025/02/
+│                        │      │                  │       18/4 
+│                        │      │                  ╰ [17]: https://www.theregister.com/2025/02/18/openssh_vulne
+│                        │      │                          rabilities_mitm_dos/ 
+│                        │      ├ PublishedDate   : 2025-02-18T19:15:29.23Z 
+│                        │      ╰ LastModifiedDate: 2025-02-19T15:15:18.09Z 
 │                        ├ [45] ╭ VulnerabilityID : CVE-2025-26466 
 │                        │      ├ PkgID           : openssh-client@1:9.6p1-3ubuntu13.5 
 │                        │      ├ PkgName         : openssh-client 
@@ -2265,7 +2303,8 @@
 │                        │      │                  │       =amd64&distro=ubuntu-24.04&epoch=1 
 │                        │      │                  ╰ UID : a15b83314b574e2 
 │                        │      ├ InstalledVersion: 1:9.6p1-3ubuntu13.5 
-│                        │      ├ Status          : affected 
+│                        │      ├ FixedVersion    : 1:9.6p1-3ubuntu13.8 
+│                        │      ├ Status          : fixed 
 │                        │      ├ Layer            ╭ Digest: sha256:febc6d3cbbf6b54458a78cde0ff768dac92e26dbf37
 │                        │      │                  │         c0a0d337281c970799f41 
 │                        │      │                  ╰ DiffID: sha256:8198e4f6fa3746c22c6001b51d92d2ac0387566b970
@@ -2275,17 +2314,28 @@
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
 │                        │      │                  ├ Name: Ubuntu CVE Tracker 
 │                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │      ├ Title           : [Denial of Service: asymmetric resource consumption of
-│                        │      │                   memory and CPU] 
-│                        │      ├ Description     : The OpenSSH client and server are vulnerable to a
-│                        │      │                   pre-authentication denial-of-service attack: an asymmetric
-│                        │      │                   resource consumption of both memory and CPU. This
-│                        │      │                   vulnerability was introduced in August 2023 (shortly before
-│                        │      │                    OpenSSH 9.5p1) by commit dce6d80 ("Introduce a
-│                        │      │                   transport-level ping facility"). 
+│                        │      ├ Title           : openssh: Denial-of-service in OpenSSH 
+│                        │      ├ Description     : A flaw was found in the OpenSSH package. For each ping
+│                        │      │                   packet the SSH server receives, a pong packet is allocated
+│                        │      │                   in a memory buffer and stored in a queue of packages. It is
+│                        │      │                    only freed when the server/client key exchange has
+│                        │      │                   finished. A malicious client may keep sending such
+│                        │      │                   packages, leading to an uncontrolled increase in memory
+│                        │      │                   consumption on the server side. Consequently, the server
+│                        │      │                   may become unavailable, resulting in a denial of service
+│                        │      │                   attack. 
 │                        │      ├ Severity        : MEDIUM 
-│                        │      ├ VendorSeverity   ─ ubuntu: 2 
-│                        │      ╰ References       ─ [0]: https://www.cve.org/CVERecord?id=CVE-2025-26466 
+│                        │      ├ VendorSeverity   ╭ azure : 2 
+│                        │      │                  ├ redhat: 2 
+│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:
+│                        │      │                           │           N/A:H 
+│                        │      │                           ╰ V3Score : 5.9 
+│                        │      ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-26466 
+│                        │                         ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2025-26466 
+│                        │                         ├ [2]: https://ubuntu.com/security/notices/USN-7270-1 
+│                        │                         ├ [3]: https://www.cve.org/CVERecord?id=CVE-2025-26466 
+│                        │                         ╰ [4]: https://www.qualys.com/2025/02/18/openssh-mitm-dos.txt 
 │                        ├ [46] ╭ VulnerabilityID : CVE-2025-26465 
 │                        │      ├ PkgID           : openssh-server@1:9.6p1-3ubuntu13.5 
 │                        │      ├ PkgName         : openssh-server 
@@ -2293,7 +2343,8 @@
 │                        │      │                  │       =amd64&distro=ubuntu-24.04&epoch=1 
 │                        │      │                  ╰ UID : 5447fe2990c91ea4 
 │                        │      ├ InstalledVersion: 1:9.6p1-3ubuntu13.5 
-│                        │      ├ Status          : affected 
+│                        │      ├ FixedVersion    : 1:9.6p1-3ubuntu13.8 
+│                        │      ├ Status          : fixed 
 │                        │      ├ Layer            ╭ Digest: sha256:febc6d3cbbf6b54458a78cde0ff768dac92e26dbf37
 │                        │      │                  │         c0a0d337281c970799f41 
 │                        │      │                  ╰ DiffID: sha256:8198e4f6fa3746c22c6001b51d92d2ac0387566b970
@@ -2303,17 +2354,54 @@
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
 │                        │      │                  ├ Name: Ubuntu CVE Tracker 
 │                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │      ├ Title           : [MitM] 
-│                        │      ├ Description     : The OpenSSH client is vulnerable to an active
-│                        │      │                   machine-in-the-middle attack if the VerifyHostKeyDNS option
-│                        │      │                    is enabled (it is disabled by default): when a vulnerable
-│                        │      │                   client connects to a server, an active
-│                        │      │                   machine-in-the-middle can impersonate the server by
-│                        │      │                   completely bypassing the client's checks of the server's
-│                        │      │                   identity. 
+│                        │      ├ Title           : openssh: Machine-in-the-middle attack if VerifyHostKeyDNS
+│                        │      │                   is enabled 
+│                        │      ├ Description     : A vulnerability was found in OpenSSH when the
+│                        │      │                   VerifyHostKeyDNS option is enabled. A machine-in-the-middle
+│                        │      │                    attack can be performed by a malicious machine
+│                        │      │                   impersonating a legit server. This issue occurs due to how
+│                        │      │                   OpenSSH mishandles error codes in specific conditions when
+│                        │      │                   verifying the host key. For an attack to be considered
+│                        │      │                   successful, the attacker needs to manage to exhaust the
+│                        │      │                   client's memory resource first, turning the attack
+│                        │      │                   complexity high. 
 │                        │      ├ Severity        : MEDIUM 
-│                        │      ├ VendorSeverity   ─ ubuntu: 2 
-│                        │      ╰ References       ─ [0]: https://www.cve.org/CVERecord?id=CVE-2025-26465 
+│                        │      ├ CweIDs           ─ [0]: CWE-390 
+│                        │      ├ VendorSeverity   ╭ azure : 2 
+│                        │      │                  ├ redhat: 2 
+│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:
+│                        │      │                           │           H/A:N 
+│                        │      │                           ╰ V3Score : 6.8 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2025-26465 
+│                        │      │                  ├ [1] : https://blog.qualys.com/vulnerabilities-threat-resea
+│                        │      │                  │       rch/2025/02/18/qualys-tru-discovers-two-vulnerabilit
+│                        │      │                  │       ies-in-openssh-cve-2025-26465-cve-2025-26466 
+│                        │      │                  ├ [2] : https://bugzilla.redhat.com/show_bug.cgi?id=2344780 
+│                        │      │                  ├ [3] : https://bugzilla.suse.com/show_bug.cgi?id=1237040 
+│                        │      │                  ├ [4] : https://ftp.openbsd.org/pub/OpenBSD/patches/7.6/comm
+│                        │      │                  │       on/008_ssh.patch.sig 
+│                        │      │                  ├ [5] : https://lists.debian.org/debian-lts-announce/2025/02
+│                        │      │                  │       /msg00020.html 
+│                        │      │                  ├ [6] : https://lists.mindrot.org/pipermail/openssh-unix-ann
+│                        │      │                  │       ounce/2025-February/000161.html 
+│                        │      │                  ├ [7] : https://nvd.nist.gov/vuln/detail/CVE-2025-26465 
+│                        │      │                  ├ [8] : https://seclists.org/oss-sec/2025/q1/144 
+│                        │      │                  ├ [9] : https://security-tracker.debian.org/tracker/CVE-2025
+│                        │      │                  │       -26465 
+│                        │      │                  ├ [10]: https://ubuntu.com/security/CVE-2025-26465 
+│                        │      │                  ├ [11]: https://ubuntu.com/security/notices/USN-7270-1 
+│                        │      │                  ├ [12]: https://ubuntu.com/security/notices/USN-7270-2 
+│                        │      │                  ├ [13]: https://www.cve.org/CVERecord?id=CVE-2025-26465 
+│                        │      │                  ├ [14]: https://www.openssh.com/releasenotes.html#9.9p2 
+│                        │      │                  ├ [15]: https://www.openwall.com/lists/oss-security/2025/02/
+│                        │      │                  │       18/1 
+│                        │      │                  ├ [16]: https://www.openwall.com/lists/oss-security/2025/02/
+│                        │      │                  │       18/4 
+│                        │      │                  ╰ [17]: https://www.theregister.com/2025/02/18/openssh_vulne
+│                        │      │                          rabilities_mitm_dos/ 
+│                        │      ├ PublishedDate   : 2025-02-18T19:15:29.23Z 
+│                        │      ╰ LastModifiedDate: 2025-02-19T15:15:18.09Z 
 │                        ├ [47] ╭ VulnerabilityID : CVE-2025-26466 
 │                        │      ├ PkgID           : openssh-server@1:9.6p1-3ubuntu13.5 
 │                        │      ├ PkgName         : openssh-server 
@@ -2321,7 +2409,8 @@
 │                        │      │                  │       =amd64&distro=ubuntu-24.04&epoch=1 
 │                        │      │                  ╰ UID : 5447fe2990c91ea4 
 │                        │      ├ InstalledVersion: 1:9.6p1-3ubuntu13.5 
-│                        │      ├ Status          : affected 
+│                        │      ├ FixedVersion    : 1:9.6p1-3ubuntu13.8 
+│                        │      ├ Status          : fixed 
 │                        │      ├ Layer            ╭ Digest: sha256:febc6d3cbbf6b54458a78cde0ff768dac92e26dbf37
 │                        │      │                  │         c0a0d337281c970799f41 
 │                        │      │                  ╰ DiffID: sha256:8198e4f6fa3746c22c6001b51d92d2ac0387566b970
@@ -2331,17 +2420,28 @@
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
 │                        │      │                  ├ Name: Ubuntu CVE Tracker 
 │                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │      ├ Title           : [Denial of Service: asymmetric resource consumption of
-│                        │      │                   memory and CPU] 
-│                        │      ├ Description     : The OpenSSH client and server are vulnerable to a
-│                        │      │                   pre-authentication denial-of-service attack: an asymmetric
-│                        │      │                   resource consumption of both memory and CPU. This
-│                        │      │                   vulnerability was introduced in August 2023 (shortly before
-│                        │      │                    OpenSSH 9.5p1) by commit dce6d80 ("Introduce a
-│                        │      │                   transport-level ping facility"). 
+│                        │      ├ Title           : openssh: Denial-of-service in OpenSSH 
+│                        │      ├ Description     : A flaw was found in the OpenSSH package. For each ping
+│                        │      │                   packet the SSH server receives, a pong packet is allocated
+│                        │      │                   in a memory buffer and stored in a queue of packages. It is
+│                        │      │                    only freed when the server/client key exchange has
+│                        │      │                   finished. A malicious client may keep sending such
+│                        │      │                   packages, leading to an uncontrolled increase in memory
+│                        │      │                   consumption on the server side. Consequently, the server
+│                        │      │                   may become unavailable, resulting in a denial of service
+│                        │      │                   attack. 
 │                        │      ├ Severity        : MEDIUM 
-│                        │      ├ VendorSeverity   ─ ubuntu: 2 
-│                        │      ╰ References       ─ [0]: https://www.cve.org/CVERecord?id=CVE-2025-26466 
+│                        │      ├ VendorSeverity   ╭ azure : 2 
+│                        │      │                  ├ redhat: 2 
+│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:
+│                        │      │                           │           N/A:H 
+│                        │      │                           ╰ V3Score : 5.9 
+│                        │      ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-26466 
+│                        │                         ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2025-26466 
+│                        │                         ├ [2]: https://ubuntu.com/security/notices/USN-7270-1 
+│                        │                         ├ [3]: https://www.cve.org/CVERecord?id=CVE-2025-26466 
+│                        │                         ╰ [4]: https://www.qualys.com/2025/02/18/openssh-mitm-dos.txt 
 │                        ├ [48] ╭ VulnerabilityID : CVE-2025-26465 
 │                        │      ├ PkgID           : openssh-sftp-server@1:9.6p1-3ubuntu13.5 
 │                        │      ├ PkgName         : openssh-sftp-server 
@@ -2349,7 +2449,8 @@
 │                        │      │                  │       ?arch=amd64&distro=ubuntu-24.04&epoch=1 
 │                        │      │                  ╰ UID : 331761323f5a349d 
 │                        │      ├ InstalledVersion: 1:9.6p1-3ubuntu13.5 
-│                        │      ├ Status          : affected 
+│                        │      ├ FixedVersion    : 1:9.6p1-3ubuntu13.8 
+│                        │      ├ Status          : fixed 
 │                        │      ├ Layer            ╭ Digest: sha256:febc6d3cbbf6b54458a78cde0ff768dac92e26dbf37
 │                        │      │                  │         c0a0d337281c970799f41 
 │                        │      │                  ╰ DiffID: sha256:8198e4f6fa3746c22c6001b51d92d2ac0387566b970
@@ -2359,17 +2460,54 @@
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
 │                        │      │                  ├ Name: Ubuntu CVE Tracker 
 │                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │      ├ Title           : [MitM] 
-│                        │      ├ Description     : The OpenSSH client is vulnerable to an active
-│                        │      │                   machine-in-the-middle attack if the VerifyHostKeyDNS option
-│                        │      │                    is enabled (it is disabled by default): when a vulnerable
-│                        │      │                   client connects to a server, an active
-│                        │      │                   machine-in-the-middle can impersonate the server by
-│                        │      │                   completely bypassing the client's checks of the server's
-│                        │      │                   identity. 
+│                        │      ├ Title           : openssh: Machine-in-the-middle attack if VerifyHostKeyDNS
+│                        │      │                   is enabled 
+│                        │      ├ Description     : A vulnerability was found in OpenSSH when the
+│                        │      │                   VerifyHostKeyDNS option is enabled. A machine-in-the-middle
+│                        │      │                    attack can be performed by a malicious machine
+│                        │      │                   impersonating a legit server. This issue occurs due to how
+│                        │      │                   OpenSSH mishandles error codes in specific conditions when
+│                        │      │                   verifying the host key. For an attack to be considered
+│                        │      │                   successful, the attacker needs to manage to exhaust the
+│                        │      │                   client's memory resource first, turning the attack
+│                        │      │                   complexity high. 
 │                        │      ├ Severity        : MEDIUM 
-│                        │      ├ VendorSeverity   ─ ubuntu: 2 
-│                        │      ╰ References       ─ [0]: https://www.cve.org/CVERecord?id=CVE-2025-26465 
+│                        │      ├ CweIDs           ─ [0]: CWE-390 
+│                        │      ├ VendorSeverity   ╭ azure : 2 
+│                        │      │                  ├ redhat: 2 
+│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:
+│                        │      │                           │           H/A:N 
+│                        │      │                           ╰ V3Score : 6.8 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2025-26465 
+│                        │      │                  ├ [1] : https://blog.qualys.com/vulnerabilities-threat-resea
+│                        │      │                  │       rch/2025/02/18/qualys-tru-discovers-two-vulnerabilit
+│                        │      │                  │       ies-in-openssh-cve-2025-26465-cve-2025-26466 
+│                        │      │                  ├ [2] : https://bugzilla.redhat.com/show_bug.cgi?id=2344780 
+│                        │      │                  ├ [3] : https://bugzilla.suse.com/show_bug.cgi?id=1237040 
+│                        │      │                  ├ [4] : https://ftp.openbsd.org/pub/OpenBSD/patches/7.6/comm
+│                        │      │                  │       on/008_ssh.patch.sig 
+│                        │      │                  ├ [5] : https://lists.debian.org/debian-lts-announce/2025/02
+│                        │      │                  │       /msg00020.html 
+│                        │      │                  ├ [6] : https://lists.mindrot.org/pipermail/openssh-unix-ann
+│                        │      │                  │       ounce/2025-February/000161.html 
+│                        │      │                  ├ [7] : https://nvd.nist.gov/vuln/detail/CVE-2025-26465 
+│                        │      │                  ├ [8] : https://seclists.org/oss-sec/2025/q1/144 
+│                        │      │                  ├ [9] : https://security-tracker.debian.org/tracker/CVE-2025
+│                        │      │                  │       -26465 
+│                        │      │                  ├ [10]: https://ubuntu.com/security/CVE-2025-26465 
+│                        │      │                  ├ [11]: https://ubuntu.com/security/notices/USN-7270-1 
+│                        │      │                  ├ [12]: https://ubuntu.com/security/notices/USN-7270-2 
+│                        │      │                  ├ [13]: https://www.cve.org/CVERecord?id=CVE-2025-26465 
+│                        │      │                  ├ [14]: https://www.openssh.com/releasenotes.html#9.9p2 
+│                        │      │                  ├ [15]: https://www.openwall.com/lists/oss-security/2025/02/
+│                        │      │                  │       18/1 
+│                        │      │                  ├ [16]: https://www.openwall.com/lists/oss-security/2025/02/
+│                        │      │                  │       18/4 
+│                        │      │                  ╰ [17]: https://www.theregister.com/2025/02/18/openssh_vulne
+│                        │      │                          rabilities_mitm_dos/ 
+│                        │      ├ PublishedDate   : 2025-02-18T19:15:29.23Z 
+│                        │      ╰ LastModifiedDate: 2025-02-19T15:15:18.09Z 
 │                        ├ [49] ╭ VulnerabilityID : CVE-2025-26466 
 │                        │      ├ PkgID           : openssh-sftp-server@1:9.6p1-3ubuntu13.5 
 │                        │      ├ PkgName         : openssh-sftp-server 
@@ -2377,7 +2515,8 @@
 │                        │      │                  │       ?arch=amd64&distro=ubuntu-24.04&epoch=1 
 │                        │      │                  ╰ UID : 331761323f5a349d 
 │                        │      ├ InstalledVersion: 1:9.6p1-3ubuntu13.5 
-│                        │      ├ Status          : affected 
+│                        │      ├ FixedVersion    : 1:9.6p1-3ubuntu13.8 
+│                        │      ├ Status          : fixed 
 │                        │      ├ Layer            ╭ Digest: sha256:febc6d3cbbf6b54458a78cde0ff768dac92e26dbf37
 │                        │      │                  │         c0a0d337281c970799f41 
 │                        │      │                  ╰ DiffID: sha256:8198e4f6fa3746c22c6001b51d92d2ac0387566b970
@@ -2387,17 +2526,28 @@
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
 │                        │      │                  ├ Name: Ubuntu CVE Tracker 
 │                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │      ├ Title           : [Denial of Service: asymmetric resource consumption of
-│                        │      │                   memory and CPU] 
-│                        │      ├ Description     : The OpenSSH client and server are vulnerable to a
-│                        │      │                   pre-authentication denial-of-service attack: an asymmetric
-│                        │      │                   resource consumption of both memory and CPU. This
-│                        │      │                   vulnerability was introduced in August 2023 (shortly before
-│                        │      │                    OpenSSH 9.5p1) by commit dce6d80 ("Introduce a
-│                        │      │                   transport-level ping facility"). 
+│                        │      ├ Title           : openssh: Denial-of-service in OpenSSH 
+│                        │      ├ Description     : A flaw was found in the OpenSSH package. For each ping
+│                        │      │                   packet the SSH server receives, a pong packet is allocated
+│                        │      │                   in a memory buffer and stored in a queue of packages. It is
+│                        │      │                    only freed when the server/client key exchange has
+│                        │      │                   finished. A malicious client may keep sending such
+│                        │      │                   packages, leading to an uncontrolled increase in memory
+│                        │      │                   consumption on the server side. Consequently, the server
+│                        │      │                   may become unavailable, resulting in a denial of service
+│                        │      │                   attack. 
 │                        │      ├ Severity        : MEDIUM 
-│                        │      ├ VendorSeverity   ─ ubuntu: 2 
-│                        │      ╰ References       ─ [0]: https://www.cve.org/CVERecord?id=CVE-2025-26466 
+│                        │      ├ VendorSeverity   ╭ azure : 2 
+│                        │      │                  ├ redhat: 2 
+│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:
+│                        │      │                           │           N/A:H 
+│                        │      │                           ╰ V3Score : 5.9 
+│                        │      ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-26466 
+│                        │                         ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2025-26466 
+│                        │                         ├ [2]: https://ubuntu.com/security/notices/USN-7270-1 
+│                        │                         ├ [3]: https://www.cve.org/CVERecord?id=CVE-2025-26466 
+│                        │                         ╰ [4]: https://www.qualys.com/2025/02/18/openssh-mitm-dos.txt 
 │                        ├ [50] ╭ VulnerabilityID : CVE-2024-41996 
 │                        │      ├ PkgID           : openssl@3.0.13-0ubuntu3.4 
 │                        │      ├ PkgName         : openssl 
@@ -2763,7 +2913,7 @@
 │                        │      │                  ├ [9]  : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                        │      │                  │        2023-44487 
 │                        │      │                  ├ [10] : https://errata.almalinux.org/9/ALSA-2023-6077.html 
-│                        │      │                  ├ [11] : https://errata.rockylinux.org/RLSA-2023:5863 
+│                        │      │                  ├ [11] : https://errata.rockylinux.org/RLSA-2023:6077 
 │                        │      │                  ├ [12] : https://github.com/golang/go/commit/24ae2d927285c69
 │                        │      │                  │        7440fdde3ad7f26028354bcf3 [golang- 1.21] 
 │                        │      │                  ├ [13] : https://github.com/golang/go/commit/e175f27f58aa7b9
@@ -3245,7 +3395,7 @@
 │                        │      │                  ├ [36] : https://edg.io/lp/blog/resets-leaks-ddos-and-the-ta
 │                        │      │                  │        le-of-a-hidden-cve 
 │                        │      │                  ├ [37] : https://errata.almalinux.org/9/ALSA-2023-6746.html 
-│                        │      │                  ├ [38] : https://errata.rockylinux.org/RLSA-2023:5928 
+│                        │      │                  ├ [38] : https://errata.rockylinux.org/RLSA-2023:5838 
 │                        │      │                  ├ [39] : https://forums.swift.org/t/swift-nio-http2-security
 │                        │      │                  │        -update-cve-2023-44487-http-2-dos/67764 
 │                        │      │                  ├ [40] : https://gist.github.com/adulau/7c2bfb8e9cdbe4b35a5e
@@ -3728,7 +3878,7 @@
 │                        │      │                  ├ [15]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                        │      │                  │       024-24783 
 │                        │      │                  ├ [16]: https://errata.almalinux.org/9/ALSA-2024-2724.html 
-│                        │      │                  ├ [17]: https://errata.rockylinux.org/RLSA-2024:3346 
+│                        │      │                  ├ [17]: https://errata.rockylinux.org/RLSA-2024:2724 
 │                        │      │                  ├ [18]: https://go.dev/cl/576155 
 │                        │      │                  ├ [19]: https://go.dev/issue/65051 
 │                        │      │                  ├ [20]: https://groups.google.com/g/golang-announce/c/YgW0sx
@@ -3917,7 +4067,7 @@
 │                        │      │                  ├ [9]  : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                        │      │                  │        2023-44487 
 │                        │      │                  ├ [10] : https://errata.almalinux.org/9/ALSA-2023-6077.html 
-│                        │      │                  ├ [11] : https://errata.rockylinux.org/RLSA-2023:5863 
+│                        │      │                  ├ [11] : https://errata.rockylinux.org/RLSA-2023:6077 
 │                        │      │                  ├ [12] : https://github.com/golang/go/commit/24ae2d927285c69
 │                        │      │                  │        7440fdde3ad7f26028354bcf3 [golang- 1.21] 
 │                        │      │                  ├ [13] : https://github.com/golang/go/commit/e175f27f58aa7b9
@@ -4303,7 +4453,7 @@
 │                        │      │                  ├ [15]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                        │      │                  │       024-24783 
 │                        │      │                  ├ [16]: https://errata.almalinux.org/9/ALSA-2024-2724.html 
-│                        │      │                  ├ [17]: https://errata.rockylinux.org/RLSA-2024:3346 
+│                        │      │                  ├ [17]: https://errata.rockylinux.org/RLSA-2024:2724 
 │                        │      │                  ├ [18]: https://go.dev/cl/576155 
 │                        │      │                  ├ [19]: https://go.dev/issue/65051 
 │                        │      │                  ├ [20]: https://groups.google.com/g/golang-announce/c/YgW0sx
@@ -4374,33 +4524,30 @@
 │                        │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024-34156 
 │                        │      │                  ├ [2] : https://bugzilla.redhat.com/2310528 
 │                        │      │                  ├ [3] : https://bugzilla.redhat.com/2318052 
-│                        │      │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2262921 
-│                        │      │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2310528 
-│                        │      │                  ├ [6] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                        │      │                  │       024-1394 
-│                        │      │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                        │      │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2310528 
+│                        │      │                  ├ [5] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                        │      │                  │       024-34156 
-│                        │      │                  ├ [8] : https://errata.almalinux.org/9/ALSA-2024-9473.html 
-│                        │      │                  ├ [9] : https://errata.rockylinux.org/RLSA-2024:7262 
-│                        │      │                  ├ [10]: https://github.com/golang/go/commit/2092294f2b097c58
+│                        │      │                  ├ [6] : https://errata.almalinux.org/9/ALSA-2024-9473.html 
+│                        │      │                  ├ [7] : https://errata.rockylinux.org/RLSA-2024:8111 
+│                        │      │                  ├ [8] : https://github.com/golang/go/commit/2092294f2b097c58
 │                        │      │                  │       28f4eace6c98a322c1510b01 (go1.22.7) 
-│                        │      │                  ├ [11]: https://github.com/golang/go/commit/fa8ff1a46deb6c81
+│                        │      │                  ├ [9] : https://github.com/golang/go/commit/fa8ff1a46deb6c81
 │                        │      │                  │       6304441ec6740ec112e19012 (go1.23.1) 
-│                        │      │                  ├ [12]: https://go.dev/cl/611239 
-│                        │      │                  ├ [13]: https://go.dev/issue/69139 
-│                        │      │                  ├ [14]: https://groups.google.com/g/golang-announce/c/K-cEzD
+│                        │      │                  ├ [10]: https://go.dev/cl/611239 
+│                        │      │                  ├ [11]: https://go.dev/issue/69139 
+│                        │      │                  ├ [12]: https://groups.google.com/g/golang-announce/c/K-cEzD
 │                        │      │                  │       eCtpc 
-│                        │      │                  ├ [15]: https://groups.google.com/g/golang-dev/c/S9POB9NCTdk 
-│                        │      │                  ├ [16]: https://linux.oracle.com/cve/CVE-2024-34156.html 
-│                        │      │                  ├ [17]: https://linux.oracle.com/errata/ELSA-2024-9473.html 
-│                        │      │                  ├ [18]: https://nvd.nist.gov/vuln/detail/CVE-2024-34156 
-│                        │      │                  ├ [19]: https://pkg.go.dev/vuln/GO-2024-3106 
-│                        │      │                  ├ [20]: https://security.netapp.com/advisory/ntap-20240926-0
+│                        │      │                  ├ [13]: https://groups.google.com/g/golang-dev/c/S9POB9NCTdk 
+│                        │      │                  ├ [14]: https://linux.oracle.com/cve/CVE-2024-34156.html 
+│                        │      │                  ├ [15]: https://linux.oracle.com/errata/ELSA-2024-9473.html 
+│                        │      │                  ├ [16]: https://nvd.nist.gov/vuln/detail/CVE-2024-34156 
+│                        │      │                  ├ [17]: https://pkg.go.dev/vuln/GO-2024-3106 
+│                        │      │                  ├ [18]: https://security.netapp.com/advisory/ntap-20240926-0
 │                        │      │                  │       004/ 
-│                        │      │                  ├ [21]: https://ubuntu.com/security/notices/USN-7081-1 
-│                        │      │                  ├ [22]: https://ubuntu.com/security/notices/USN-7109-1 
-│                        │      │                  ├ [23]: https://ubuntu.com/security/notices/USN-7111-1 
-│                        │      │                  ╰ [24]: https://www.cve.org/CVERecord?id=CVE-2024-34156 
+│                        │      │                  ├ [19]: https://ubuntu.com/security/notices/USN-7081-1 
+│                        │      │                  ├ [20]: https://ubuntu.com/security/notices/USN-7109-1 
+│                        │      │                  ├ [21]: https://ubuntu.com/security/notices/USN-7111-1 
+│                        │      │                  ╰ [22]: https://www.cve.org/CVERecord?id=CVE-2024-34156 
 │                        │      ├ PublishedDate   : 2024-09-06T21:15:12.02Z 
 │                        │      ╰ LastModifiedDate: 2024-11-21T09:18:12.853Z 
 │                        ├ [10] ╭ VulnerabilityID : CVE-2023-29406 
@@ -4893,7 +5040,7 @@
 │                        │      │                  ├ [14]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                        │      │                  │       024-24783 
 │                        │      │                  ├ [15]: https://errata.almalinux.org/9/ALSA-2024-2724.html 
-│                        │      │                  ├ [16]: https://errata.rockylinux.org/RLSA-2024:3346 
+│                        │      │                  ├ [16]: https://errata.rockylinux.org/RLSA-2024:2724 
 │                        │      │                  ├ [17]: https://github.com/golang/go/commit/20586c0dbe03d144
 │                        │      │                  │       f914155f879fa5ee287591a1 (go1.21.8) 
 │                        │      │                  ├ [18]: https://github.com/golang/go/commit/3a855208e3efed2e
@@ -4951,7 +5098,7 @@
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ oracle-oval: 3 
 │                        │      │                  ├ redhat     : 2 
-│                        │      │                  ├ rocky      : 3 
+│                        │      │                  ├ rocky      : 2 
 │                        │      │                  ╰ ubuntu     : 2 
 │                        │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I
 │                        │      │                  │         │           :N/A:H 
@@ -4968,40 +5115,31 @@
 │                        │      │                  ├ [5] : https://bugzilla.redhat.com/2279814 
 │                        │      │                  ├ [6] : https://bugzilla.redhat.com/2295310 
 │                        │      │                  ├ [7] : https://bugzilla.redhat.com/show_bug.cgi?id=2268017 
-│                        │      │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2268018 
-│                        │      │                  ├ [9] : https://bugzilla.redhat.com/show_bug.cgi?id=2268019 
-│                        │      │                  ├ [10]: https://bugzilla.redhat.com/show_bug.cgi?id=2268273 
-│                        │      │                  ├ [11]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                        │      │                  │       023-45288 
-│                        │      │                  ├ [12]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                        │      │                  │       023-45289 
-│                        │      │                  ├ [13]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                        │      │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                        │      │                  │       023-45290 
-│                        │      │                  ├ [14]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                        │      │                  │       024-24783 
-│                        │      │                  ├ [15]: https://errata.almalinux.org/9/ALSA-2024-9135.html 
-│                        │      │                  ├ [16]: https://errata.rockylinux.org/RLSA-2024:3346 
-│                        │      │                  ├ [17]: https://github.com/golang/go/commit/041a47712e765e94
+│                        │      │                  ├ [9] : https://errata.almalinux.org/9/ALSA-2024-9135.html 
+│                        │      │                  ├ [10]: https://errata.rockylinux.org/RLSA-2024:3830 
+│                        │      │                  ├ [11]: https://github.com/golang/go/commit/041a47712e765e94
 │                        │      │                  │       f86d841c3110c840e76d8f82 (go1.22.1) 
-│                        │      │                  ├ [18]: https://github.com/golang/go/commit/bf80213b121074f4
+│                        │      │                  ├ [12]: https://github.com/golang/go/commit/bf80213b121074f4
 │                        │      │                  │       ad9b449410a4d13bae5e9be0 (go1.21.8) 
-│                        │      │                  ├ [19]: https://github.com/golang/go/issues/65383 
-│                        │      │                  ├ [20]: https://go.dev/cl/569341 
-│                        │      │                  ├ [21]: https://go.dev/issue/65383 
-│                        │      │                  ├ [22]: https://groups.google.com/g/golang-announce/c/5pwGVU
+│                        │      │                  ├ [13]: https://github.com/golang/go/issues/65383 
+│                        │      │                  ├ [14]: https://go.dev/cl/569341 
+│                        │      │                  ├ [15]: https://go.dev/issue/65383 
+│                        │      │                  ├ [16]: https://groups.google.com/g/golang-announce/c/5pwGVU
 │                        │      │                  │       PoMbg 
-│                        │      │                  ├ [23]: https://linux.oracle.com/cve/CVE-2023-45290.html 
-│                        │      │                  ├ [24]: https://linux.oracle.com/errata/ELSA-2024-8038.html 
-│                        │      │                  ├ [25]: https://nvd.nist.gov/vuln/detail/CVE-2023-45290 
-│                        │      │                  ├ [26]: https://pkg.go.dev/vuln/GO-2024-2599 
-│                        │      │                  ├ [27]: https://security.netapp.com/advisory/ntap-20240329-0
+│                        │      │                  ├ [17]: https://linux.oracle.com/cve/CVE-2023-45290.html 
+│                        │      │                  ├ [18]: https://linux.oracle.com/errata/ELSA-2024-8038.html 
+│                        │      │                  ├ [19]: https://nvd.nist.gov/vuln/detail/CVE-2023-45290 
+│                        │      │                  ├ [20]: https://pkg.go.dev/vuln/GO-2024-2599 
+│                        │      │                  ├ [21]: https://security.netapp.com/advisory/ntap-20240329-0
 │                        │      │                  │       004 
-│                        │      │                  ├ [28]: https://security.netapp.com/advisory/ntap-20240329-0
+│                        │      │                  ├ [22]: https://security.netapp.com/advisory/ntap-20240329-0
 │                        │      │                  │       004/ 
-│                        │      │                  ├ [29]: https://ubuntu.com/security/notices/USN-6886-1 
-│                        │      │                  ├ [30]: https://ubuntu.com/security/notices/USN-7109-1 
-│                        │      │                  ├ [31]: https://ubuntu.com/security/notices/USN-7111-1 
-│                        │      │                  ╰ [32]: https://www.cve.org/CVERecord?id=CVE-2023-45290 
+│                        │      │                  ├ [23]: https://ubuntu.com/security/notices/USN-6886-1 
+│                        │      │                  ├ [24]: https://ubuntu.com/security/notices/USN-7109-1 
+│                        │      │                  ├ [25]: https://ubuntu.com/security/notices/USN-7111-1 
+│                        │      │                  ╰ [26]: https://www.cve.org/CVERecord?id=CVE-2023-45290 
 │                        │      ├ PublishedDate   : 2024-03-05T23:15:07.21Z 
 │                        │      ╰ LastModifiedDate: 2024-11-21T08:26:42.853Z 
 │                        ├ [18] ╭ VulnerabilityID : CVE-2024-24783 
@@ -5063,7 +5201,7 @@
 │                        │      │                  ├ [11]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                        │      │                  │       024-24783 
 │                        │      │                  ├ [12]: https://errata.almalinux.org/9/ALSA-2024-6195.html 
-│                        │      │                  ├ [13]: https://errata.rockylinux.org/RLSA-2024:3346 
+│                        │      │                  ├ [13]: https://errata.rockylinux.org/RLSA-2024:2724 
 │                        │      │                  ├ [14]: https://github.com/advisories/GHSA-3q2c-pvp5-3cqp 
 │                        │      │                  ├ [15]: https://github.com/golang/go/commit/337b8e9cbfa749d9
 │                        │      │                  │       d5c899e0dc358e2208d5e54f (go1.22.1) 
@@ -5396,7 +5534,7 @@
 │                        │      │                  ├ oracle-oval: 2 
 │                        │      │                  ├ photon     : 3 
 │                        │      │                  ├ redhat     : 2 
-│                        │      │                  ├ rocky      : 2 
+│                        │      │                  ├ rocky      : 3 
 │                        │      │                  ╰ ubuntu     : 2 
 │                        │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
 │                        │      │                  │         │           :N/A:H 
@@ -5411,24 +5549,33 @@
 │                        │      │                  ├ [4] : https://bugzilla.redhat.com/2279814 
 │                        │      │                  ├ [5] : https://bugzilla.redhat.com/2295310 
 │                        │      │                  ├ [6] : https://bugzilla.redhat.com/show_bug.cgi?id=2295310 
-│                        │      │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                        │      │                  ├ [7] : https://bugzilla.redhat.com/show_bug.cgi?id=2310527 
+│                        │      │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2310528 
+│                        │      │                  ├ [9] : https://bugzilla.redhat.com/show_bug.cgi?id=2310529 
+│                        │      │                  ├ [10]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                        │      │                  │       024-24791 
-│                        │      │                  ├ [8] : https://errata.almalinux.org/9/ALSA-2024-9135.html 
-│                        │      │                  ├ [9] : https://errata.rockylinux.org/RLSA-2024:7349 
-│                        │      │                  ├ [10]: https://go.dev/cl/591255 
-│                        │      │                  ├ [11]: https://go.dev/issue/67555 
-│                        │      │                  ├ [12]: https://groups.google.com/g/golang-dev/c/t0rK-qHBqzY
+│                        │      │                  ├ [11]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                        │      │                  │       024-34155 
+│                        │      │                  ├ [12]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                        │      │                  │       024-34156 
+│                        │      │                  ├ [13]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                        │      │                  │       024-34158 
+│                        │      │                  ├ [14]: https://errata.almalinux.org/9/ALSA-2024-9135.html 
+│                        │      │                  ├ [15]: https://errata.rockylinux.org/RLSA-2024:6913 
+│                        │      │                  ├ [16]: https://go.dev/cl/591255 
+│                        │      │                  ├ [17]: https://go.dev/issue/67555 
+│                        │      │                  ├ [18]: https://groups.google.com/g/golang-dev/c/t0rK-qHBqzY
 │                        │      │                  │       /m/6MMoAZkMAgAJ 
-│                        │      │                  ├ [13]: https://linux.oracle.com/cve/CVE-2024-24791.html 
-│                        │      │                  ├ [14]: https://linux.oracle.com/errata/ELSA-2024-9115.html 
-│                        │      │                  ├ [15]: https://nvd.nist.gov/vuln/detail/CVE-2024-24791 
-│                        │      │                  ├ [16]: https://pkg.go.dev/vuln/GO-2024-2963 
-│                        │      │                  ├ [17]: https://security.netapp.com/advisory/ntap-20241004-0
+│                        │      │                  ├ [19]: https://linux.oracle.com/cve/CVE-2024-24791.html 
+│                        │      │                  ├ [20]: https://linux.oracle.com/errata/ELSA-2024-9115.html 
+│                        │      │                  ├ [21]: https://nvd.nist.gov/vuln/detail/CVE-2024-24791 
+│                        │      │                  ├ [22]: https://pkg.go.dev/vuln/GO-2024-2963 
+│                        │      │                  ├ [23]: https://security.netapp.com/advisory/ntap-20241004-0
 │                        │      │                  │       004/ 
-│                        │      │                  ├ [18]: https://ubuntu.com/security/notices/USN-7081-1 
-│                        │      │                  ├ [19]: https://ubuntu.com/security/notices/USN-7109-1 
-│                        │      │                  ├ [20]: https://ubuntu.com/security/notices/USN-7111-1 
-│                        │      │                  ╰ [21]: https://www.cve.org/CVERecord?id=CVE-2024-24791 
+│                        │      │                  ├ [24]: https://ubuntu.com/security/notices/USN-7081-1 
+│                        │      │                  ├ [25]: https://ubuntu.com/security/notices/USN-7109-1 
+│                        │      │                  ├ [26]: https://ubuntu.com/security/notices/USN-7111-1 
+│                        │      │                  ╰ [27]: https://www.cve.org/CVERecord?id=CVE-2024-24791 
 │                        │      ├ PublishedDate   : 2024-07-02T22:15:04.833Z 
 │                        │      ╰ LastModifiedDate: 2024-11-21T08:59:43.013Z 
 │                        ├ [23] ╭ VulnerabilityID : CVE-2024-34155 
@@ -5812,7 +5959,7 @@
 │                        │      │                  ├ [9]  : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                        │      │                  │        2023-44487 
 │                        │      │                  ├ [10] : https://errata.almalinux.org/9/ALSA-2023-6077.html 
-│                        │      │                  ├ [11] : https://errata.rockylinux.org/RLSA-2023:5863 
+│                        │      │                  ├ [11] : https://errata.rockylinux.org/RLSA-2023:6077 
 │                        │      │                  ├ [12] : https://github.com/golang/go/commit/24ae2d927285c69
 │                        │      │                  │        7440fdde3ad7f26028354bcf3 [golang- 1.21] 
 │                        │      │                  ├ [13] : https://github.com/golang/go/commit/e175f27f58aa7b9
@@ -6294,7 +6441,7 @@
 │                        │      │                  ├ [36] : https://edg.io/lp/blog/resets-leaks-ddos-and-the-ta
 │                        │      │                  │        le-of-a-hidden-cve 
 │                        │      │                  ├ [37] : https://errata.almalinux.org/9/ALSA-2023-6746.html 
-│                        │      │                  ├ [38] : https://errata.rockylinux.org/RLSA-2023:5928 
+│                        │      │                  ├ [38] : https://errata.rockylinux.org/RLSA-2023:5838 
 │                        │      │                  ├ [39] : https://forums.swift.org/t/swift-nio-http2-security
 │                        │      │                  │        -update-cve-2023-44487-http-2-dos/67764 
 │                        │      │                  ├ [40] : https://gist.github.com/adulau/7c2bfb8e9cdbe4b35a5e
@@ -6777,7 +6924,7 @@
 │                        │      │                  ├ [15]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                        │      │                  │       024-24783 
 │                        │      │                  ├ [16]: https://errata.almalinux.org/9/ALSA-2024-2724.html 
-│                        │      │                  ├ [17]: https://errata.rockylinux.org/RLSA-2024:3346 
+│                        │      │                  ├ [17]: https://errata.rockylinux.org/RLSA-2024:2724 
 │                        │      │                  ├ [18]: https://go.dev/cl/576155 
 │                        │      │                  ├ [19]: https://go.dev/issue/65051 
 │                        │      │                  ├ [20]: https://groups.google.com/g/golang-announce/c/YgW0sx
@@ -6966,7 +7113,7 @@
 │                        │      │                  ├ [9]  : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                        │      │                  │        2023-44487 
 │                        │      │                  ├ [10] : https://errata.almalinux.org/9/ALSA-2023-6077.html 
-│                        │      │                  ├ [11] : https://errata.rockylinux.org/RLSA-2023:5863 
+│                        │      │                  ├ [11] : https://errata.rockylinux.org/RLSA-2023:6077 
 │                        │      │                  ├ [12] : https://github.com/golang/go/commit/24ae2d927285c69
 │                        │      │                  │        7440fdde3ad7f26028354bcf3 [golang- 1.21] 
 │                        │      │                  ├ [13] : https://github.com/golang/go/commit/e175f27f58aa7b9
@@ -7352,7 +7499,7 @@
 │                        │      │                  ├ [15]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                        │      │                  │       024-24783 
 │                        │      │                  ├ [16]: https://errata.almalinux.org/9/ALSA-2024-2724.html 
-│                        │      │                  ├ [17]: https://errata.rockylinux.org/RLSA-2024:3346 
+│                        │      │                  ├ [17]: https://errata.rockylinux.org/RLSA-2024:2724 
 │                        │      │                  ├ [18]: https://go.dev/cl/576155 
 │                        │      │                  ├ [19]: https://go.dev/issue/65051 
 │                        │      │                  ├ [20]: https://groups.google.com/g/golang-announce/c/YgW0sx
@@ -7423,33 +7570,30 @@
 │                        │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024-34156 
 │                        │      │                  ├ [2] : https://bugzilla.redhat.com/2310528 
 │                        │      │                  ├ [3] : https://bugzilla.redhat.com/2318052 
-│                        │      │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2262921 
-│                        │      │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2310528 
-│                        │      │                  ├ [6] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                        │      │                  │       024-1394 
-│                        │      │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                        │      │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2310528 
+│                        │      │                  ├ [5] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                        │      │                  │       024-34156 
-│                        │      │                  ├ [8] : https://errata.almalinux.org/9/ALSA-2024-9473.html 
-│                        │      │                  ├ [9] : https://errata.rockylinux.org/RLSA-2024:7262 
-│                        │      │                  ├ [10]: https://github.com/golang/go/commit/2092294f2b097c58
+│                        │      │                  ├ [6] : https://errata.almalinux.org/9/ALSA-2024-9473.html 
+│                        │      │                  ├ [7] : https://errata.rockylinux.org/RLSA-2024:8111 
+│                        │      │                  ├ [8] : https://github.com/golang/go/commit/2092294f2b097c58
 │                        │      │                  │       28f4eace6c98a322c1510b01 (go1.22.7) 
-│                        │      │                  ├ [11]: https://github.com/golang/go/commit/fa8ff1a46deb6c81
+│                        │      │                  ├ [9] : https://github.com/golang/go/commit/fa8ff1a46deb6c81
 │                        │      │                  │       6304441ec6740ec112e19012 (go1.23.1) 
-│                        │      │                  ├ [12]: https://go.dev/cl/611239 
-│                        │      │                  ├ [13]: https://go.dev/issue/69139 
-│                        │      │                  ├ [14]: https://groups.google.com/g/golang-announce/c/K-cEzD
+│                        │      │                  ├ [10]: https://go.dev/cl/611239 
+│                        │      │                  ├ [11]: https://go.dev/issue/69139 
+│                        │      │                  ├ [12]: https://groups.google.com/g/golang-announce/c/K-cEzD
 │                        │      │                  │       eCtpc 
-│                        │      │                  ├ [15]: https://groups.google.com/g/golang-dev/c/S9POB9NCTdk 
-│                        │      │                  ├ [16]: https://linux.oracle.com/cve/CVE-2024-34156.html 
-│                        │      │                  ├ [17]: https://linux.oracle.com/errata/ELSA-2024-9473.html 
-│                        │      │                  ├ [18]: https://nvd.nist.gov/vuln/detail/CVE-2024-34156 
-│                        │      │                  ├ [19]: https://pkg.go.dev/vuln/GO-2024-3106 
-│                        │      │                  ├ [20]: https://security.netapp.com/advisory/ntap-20240926-0
+│                        │      │                  ├ [13]: https://groups.google.com/g/golang-dev/c/S9POB9NCTdk 
+│                        │      │                  ├ [14]: https://linux.oracle.com/cve/CVE-2024-34156.html 
+│                        │      │                  ├ [15]: https://linux.oracle.com/errata/ELSA-2024-9473.html 
+│                        │      │                  ├ [16]: https://nvd.nist.gov/vuln/detail/CVE-2024-34156 
+│                        │      │                  ├ [17]: https://pkg.go.dev/vuln/GO-2024-3106 
+│                        │      │                  ├ [18]: https://security.netapp.com/advisory/ntap-20240926-0
 │                        │      │                  │       004/ 
-│                        │      │                  ├ [21]: https://ubuntu.com/security/notices/USN-7081-1 
-│                        │      │                  ├ [22]: https://ubuntu.com/security/notices/USN-7109-1 
-│                        │      │                  ├ [23]: https://ubuntu.com/security/notices/USN-7111-1 
-│                        │      │                  ╰ [24]: https://www.cve.org/CVERecord?id=CVE-2024-34156 
+│                        │      │                  ├ [19]: https://ubuntu.com/security/notices/USN-7081-1 
+│                        │      │                  ├ [20]: https://ubuntu.com/security/notices/USN-7109-1 
+│                        │      │                  ├ [21]: https://ubuntu.com/security/notices/USN-7111-1 
+│                        │      │                  ╰ [22]: https://www.cve.org/CVERecord?id=CVE-2024-34156 
 │                        │      ├ PublishedDate   : 2024-09-06T21:15:12.02Z 
 │                        │      ╰ LastModifiedDate: 2024-11-21T09:18:12.853Z 
 │                        ├ [10] ╭ VulnerabilityID : CVE-2023-29406 
@@ -7942,7 +8086,7 @@
 │                        │      │                  ├ [14]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                        │      │                  │       024-24783 
 │                        │      │                  ├ [15]: https://errata.almalinux.org/9/ALSA-2024-2724.html 
-│                        │      │                  ├ [16]: https://errata.rockylinux.org/RLSA-2024:3346 
+│                        │      │                  ├ [16]: https://errata.rockylinux.org/RLSA-2024:2724 
 │                        │      │                  ├ [17]: https://github.com/golang/go/commit/20586c0dbe03d144
 │                        │      │                  │       f914155f879fa5ee287591a1 (go1.21.8) 
 │                        │      │                  ├ [18]: https://github.com/golang/go/commit/3a855208e3efed2e
@@ -8000,7 +8144,7 @@
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ oracle-oval: 3 
 │                        │      │                  ├ redhat     : 2 
-│                        │      │                  ├ rocky      : 3 
+│                        │      │                  ├ rocky      : 2 
 │                        │      │                  ╰ ubuntu     : 2 
 │                        │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I
 │                        │      │                  │         │           :N/A:H 
@@ -8017,40 +8161,31 @@
 │                        │      │                  ├ [5] : https://bugzilla.redhat.com/2279814 
 │                        │      │                  ├ [6] : https://bugzilla.redhat.com/2295310 
 │                        │      │                  ├ [7] : https://bugzilla.redhat.com/show_bug.cgi?id=2268017 
-│                        │      │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2268018 
-│                        │      │                  ├ [9] : https://bugzilla.redhat.com/show_bug.cgi?id=2268019 
-│                        │      │                  ├ [10]: https://bugzilla.redhat.com/show_bug.cgi?id=2268273 
-│                        │      │                  ├ [11]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                        │      │                  │       023-45288 
-│                        │      │                  ├ [12]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                        │      │                  │       023-45289 
-│                        │      │                  ├ [13]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                        │      │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                        │      │                  │       023-45290 
-│                        │      │                  ├ [14]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                        │      │                  │       024-24783 
-│                        │      │                  ├ [15]: https://errata.almalinux.org/9/ALSA-2024-9135.html 
-│                        │      │                  ├ [16]: https://errata.rockylinux.org/RLSA-2024:3346 
-│                        │      │                  ├ [17]: https://github.com/golang/go/commit/041a47712e765e94
+│                        │      │                  ├ [9] : https://errata.almalinux.org/9/ALSA-2024-9135.html 
+│                        │      │                  ├ [10]: https://errata.rockylinux.org/RLSA-2024:3830 
+│                        │      │                  ├ [11]: https://github.com/golang/go/commit/041a47712e765e94
 │                        │      │                  │       f86d841c3110c840e76d8f82 (go1.22.1) 
-│                        │      │                  ├ [18]: https://github.com/golang/go/commit/bf80213b121074f4
+│                        │      │                  ├ [12]: https://github.com/golang/go/commit/bf80213b121074f4
 │                        │      │                  │       ad9b449410a4d13bae5e9be0 (go1.21.8) 
-│                        │      │                  ├ [19]: https://github.com/golang/go/issues/65383 
-│                        │      │                  ├ [20]: https://go.dev/cl/569341 
-│                        │      │                  ├ [21]: https://go.dev/issue/65383 
-│                        │      │                  ├ [22]: https://groups.google.com/g/golang-announce/c/5pwGVU
+│                        │      │                  ├ [13]: https://github.com/golang/go/issues/65383 
+│                        │      │                  ├ [14]: https://go.dev/cl/569341 
+│                        │      │                  ├ [15]: https://go.dev/issue/65383 
+│                        │      │                  ├ [16]: https://groups.google.com/g/golang-announce/c/5pwGVU
 │                        │      │                  │       PoMbg 
-│                        │      │                  ├ [23]: https://linux.oracle.com/cve/CVE-2023-45290.html 
-│                        │      │                  ├ [24]: https://linux.oracle.com/errata/ELSA-2024-8038.html 
-│                        │      │                  ├ [25]: https://nvd.nist.gov/vuln/detail/CVE-2023-45290 
-│                        │      │                  ├ [26]: https://pkg.go.dev/vuln/GO-2024-2599 
-│                        │      │                  ├ [27]: https://security.netapp.com/advisory/ntap-20240329-0
+│                        │      │                  ├ [17]: https://linux.oracle.com/cve/CVE-2023-45290.html 
+│                        │      │                  ├ [18]: https://linux.oracle.com/errata/ELSA-2024-8038.html 
+│                        │      │                  ├ [19]: https://nvd.nist.gov/vuln/detail/CVE-2023-45290 
+│                        │      │                  ├ [20]: https://pkg.go.dev/vuln/GO-2024-2599 
+│                        │      │                  ├ [21]: https://security.netapp.com/advisory/ntap-20240329-0
 │                        │      │                  │       004 
-│                        │      │                  ├ [28]: https://security.netapp.com/advisory/ntap-20240329-0
+│                        │      │                  ├ [22]: https://security.netapp.com/advisory/ntap-20240329-0
 │                        │      │                  │       004/ 
-│                        │      │                  ├ [29]: https://ubuntu.com/security/notices/USN-6886-1 
-│                        │      │                  ├ [30]: https://ubuntu.com/security/notices/USN-7109-1 
-│                        │      │                  ├ [31]: https://ubuntu.com/security/notices/USN-7111-1 
-│                        │      │                  ╰ [32]: https://www.cve.org/CVERecord?id=CVE-2023-45290 
+│                        │      │                  ├ [23]: https://ubuntu.com/security/notices/USN-6886-1 
+│                        │      │                  ├ [24]: https://ubuntu.com/security/notices/USN-7109-1 
+│                        │      │                  ├ [25]: https://ubuntu.com/security/notices/USN-7111-1 
+│                        │      │                  ╰ [26]: https://www.cve.org/CVERecord?id=CVE-2023-45290 
 │                        │      ├ PublishedDate   : 2024-03-05T23:15:07.21Z 
 │                        │      ╰ LastModifiedDate: 2024-11-21T08:26:42.853Z 
 │                        ├ [18] ╭ VulnerabilityID : CVE-2024-24783 
@@ -8112,7 +8247,7 @@
 │                        │      │                  ├ [11]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                        │      │                  │       024-24783 
 │                        │      │                  ├ [12]: https://errata.almalinux.org/9/ALSA-2024-6195.html 
-│                        │      │                  ├ [13]: https://errata.rockylinux.org/RLSA-2024:3346 
+│                        │      │                  ├ [13]: https://errata.rockylinux.org/RLSA-2024:2724 
 │                        │      │                  ├ [14]: https://github.com/advisories/GHSA-3q2c-pvp5-3cqp 
 │                        │      │                  ├ [15]: https://github.com/golang/go/commit/337b8e9cbfa749d9
 │                        │      │                  │       d5c899e0dc358e2208d5e54f (go1.22.1) 
@@ -8445,7 +8580,7 @@
 │                        │      │                  ├ oracle-oval: 2 
 │                        │      │                  ├ photon     : 3 
 │                        │      │                  ├ redhat     : 2 
-│                        │      │                  ├ rocky      : 2 
+│                        │      │                  ├ rocky      : 3 
 │                        │      │                  ╰ ubuntu     : 2 
 │                        │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
 │                        │      │                  │         │           :N/A:H 
@@ -8460,24 +8595,33 @@
 │                        │      │                  ├ [4] : https://bugzilla.redhat.com/2279814 
 │                        │      │                  ├ [5] : https://bugzilla.redhat.com/2295310 
 │                        │      │                  ├ [6] : https://bugzilla.redhat.com/show_bug.cgi?id=2295310 
-│                        │      │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                        │      │                  ├ [7] : https://bugzilla.redhat.com/show_bug.cgi?id=2310527 
+│                        │      │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2310528 
+│                        │      │                  ├ [9] : https://bugzilla.redhat.com/show_bug.cgi?id=2310529 
+│                        │      │                  ├ [10]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                        │      │                  │       024-24791 
-│                        │      │                  ├ [8] : https://errata.almalinux.org/9/ALSA-2024-9135.html 
-│                        │      │                  ├ [9] : https://errata.rockylinux.org/RLSA-2024:7349 
-│                        │      │                  ├ [10]: https://go.dev/cl/591255 
-│                        │      │                  ├ [11]: https://go.dev/issue/67555 
-│                        │      │                  ├ [12]: https://groups.google.com/g/golang-dev/c/t0rK-qHBqzY
+│                        │      │                  ├ [11]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                        │      │                  │       024-34155 
+│                        │      │                  ├ [12]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                        │      │                  │       024-34156 
+│                        │      │                  ├ [13]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                        │      │                  │       024-34158 
+│                        │      │                  ├ [14]: https://errata.almalinux.org/9/ALSA-2024-9135.html 
+│                        │      │                  ├ [15]: https://errata.rockylinux.org/RLSA-2024:6913 
+│                        │      │                  ├ [16]: https://go.dev/cl/591255 
+│                        │      │                  ├ [17]: https://go.dev/issue/67555 
+│                        │      │                  ├ [18]: https://groups.google.com/g/golang-dev/c/t0rK-qHBqzY
 │                        │      │                  │       /m/6MMoAZkMAgAJ 
-│                        │      │                  ├ [13]: https://linux.oracle.com/cve/CVE-2024-24791.html 
-│                        │      │                  ├ [14]: https://linux.oracle.com/errata/ELSA-2024-9115.html 
-│                        │      │                  ├ [15]: https://nvd.nist.gov/vuln/detail/CVE-2024-24791 
-│                        │      │                  ├ [16]: https://pkg.go.dev/vuln/GO-2024-2963 
-│                        │      │                  ├ [17]: https://security.netapp.com/advisory/ntap-20241004-0
+│                        │      │                  ├ [19]: https://linux.oracle.com/cve/CVE-2024-24791.html 
+│                        │      │                  ├ [20]: https://linux.oracle.com/errata/ELSA-2024-9115.html 
+│                        │      │                  ├ [21]: https://nvd.nist.gov/vuln/detail/CVE-2024-24791 
+│                        │      │                  ├ [22]: https://pkg.go.dev/vuln/GO-2024-2963 
+│                        │      │                  ├ [23]: https://security.netapp.com/advisory/ntap-20241004-0
 │                        │      │                  │       004/ 
-│                        │      │                  ├ [18]: https://ubuntu.com/security/notices/USN-7081-1 
-│                        │      │                  ├ [19]: https://ubuntu.com/security/notices/USN-7109-1 
-│                        │      │                  ├ [20]: https://ubuntu.com/security/notices/USN-7111-1 
-│                        │      │                  ╰ [21]: https://www.cve.org/CVERecord?id=CVE-2024-24791 
+│                        │      │                  ├ [24]: https://ubuntu.com/security/notices/USN-7081-1 
+│                        │      │                  ├ [25]: https://ubuntu.com/security/notices/USN-7109-1 
+│                        │      │                  ├ [26]: https://ubuntu.com/security/notices/USN-7111-1 
+│                        │      │                  ╰ [27]: https://www.cve.org/CVERecord?id=CVE-2024-24791 
 │                        │      ├ PublishedDate   : 2024-07-02T22:15:04.833Z 
 │                        │      ╰ LastModifiedDate: 2024-11-21T08:59:43.013Z 
 │                        ├ [23] ╭ VulnerabilityID : CVE-2024-34155 
@@ -9121,10 +9265,11 @@
 │                        │     │                  ├ [15]: https://security.netapp.com/advisory/ntap-20240802-00
 │                        │     │                  │       01/ 
 │                        │     │                  ├ [16]: https://ubuntu.com/security/notices/USN-7161-1 
-│                        │     │                  ├ [17]: https://www.cve.org/CVERecord?id=CVE-2024-41110 
-│                        │     │                  ├ [18]: https://www.docker.com/blog/docker-security-advisory-
+│                        │     │                  ├ [17]: https://ubuntu.com/security/notices/USN-7161-2 
+│                        │     │                  ├ [18]: https://www.cve.org/CVERecord?id=CVE-2024-41110 
+│                        │     │                  ├ [19]: https://www.docker.com/blog/docker-security-advisory-
 │                        │     │                  │       docker-engine-authz-plugin 
-│                        │     │                  ╰ [19]: https://www.docker.com/blog/docker-security-advisory-
+│                        │     │                  ╰ [20]: https://www.docker.com/blog/docker-security-advisory-
 │                        │     │                          docker-engine-authz-plugin/ 
 │                        │     ├ PublishedDate   : 2024-07-24T17:15:11.053Z 
 │                        │     ╰ LastModifiedDate: 2024-11-21T09:32:15.16Z 
@@ -9149,9 +9294,10 @@
 │                        │     ├ Title           : golang.org/x/crypto/ssh: Misuse of
 │                        │     │                   ServerConfig.PublicKeyCallback may cause authorization
 │                        │     │                   bypass in golang.org/x/crypto 
-│                        │     ├ Description     : Applications and libraries which misuse the
-│                        │     │                   ServerConfig.PublicKeyCallback callback may be susceptible
-│                        │     │                   to an authorization bypass. The documentation for
+│                        │     ├ Description     : Applications and libraries which misuse
+│                        │     │                   connection.serverAuthenticate (via callback field
+│                        │     │                   ServerConfig.PublicKeyCallback) may be susceptible to an
+│                        │     │                   authorization bypass. The documentation for
 │                        │     │                   ServerConfig.PublicKeyCallback says that "A call to this
 │                        │     │                   function does not guarantee that the key offered is in fact
 │                        │     │                   used to authenticate." Specifically, the SSH protocol allows
@@ -9217,7 +9363,7 @@
 │                        │     │                  │       07/ 
 │                        │     │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2024-45337 
 │                        │     ├ PublishedDate   : 2024-12-12T02:02:07.97Z 
-│                        │     ╰ LastModifiedDate: 2025-01-31T15:15:13.19Z 
+│                        │     ╰ LastModifiedDate: 2025-02-18T21:15:22.187Z 
 │                        ├ [2] ╭ VulnerabilityID : CVE-2024-45338 
 │                        │     ├ PkgID           : golang.org/x/net@v0.26.0 
 │                        │     ├ PkgName         : golang.org/x/net 
