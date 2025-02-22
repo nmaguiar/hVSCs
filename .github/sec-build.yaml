@@ -978,6 +978,78 @@
     - https://www.cve.org/CVERecord?id=CVE-2016-20013
     PublishedDate: '2022-02-19T05:15:09.413Z'
     LastModifiedDate: '2024-11-21T02:47:33.427Z'
+  - VulnerabilityID: CVE-2025-1390
+    PkgID: libcap2@1:2.44-1ubuntu0.22.04.1
+    PkgName: libcap2
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libcap2@2.44-1ubuntu0.22.04.1?arch=amd64&distro=ubuntu-22.04&epoch=1
+      UID: 6ddfe60739263cfb
+    InstalledVersion: 1:2.44-1ubuntu0.22.04.1
+    Status: affected
+    Layer:
+      Digest: sha256:516731828ccc7b45bf90ae1c4a00205ac28ae0f1ac84b928f2aa2946b319a0b5
+      DiffID: sha256:c6b06b96654ebdbe3a6eb2b856daec8e0e9dc22e136d414826e1cf55e98d270b
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-1390
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'libcap: pam_cap: Fix potential configuration parsing error'
+    Description: The PAM module pam_cap.so of libcap configuration supports group names starting with “@”, during actual parsing, configurations not starting with “@” are incorrectly recognized as group names. This may result in nonintended users being granted an inherited capability set, potentially leading to security risks. Attackers can exploit this vulnerability to achieve local privilege escalation on systems where /etc/security/capability.conf is used to configure user inherited privileges by constructing specific usernames.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-284
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:H/A:N
+        V3Score: 6.1
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-1390
+    - https://bugzilla.openanolis.cn/show_bug.cgi?id=18804
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-1390
+    - https://www.cve.org/CVERecord?id=CVE-2025-1390
+    PublishedDate: '2025-02-18T03:15:10.447Z'
+    LastModifiedDate: '2025-02-18T03:15:10.447Z'
+  - VulnerabilityID: CVE-2025-1390
+    PkgID: libcap2-bin@1:2.44-1ubuntu0.22.04.1
+    PkgName: libcap2-bin
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libcap2-bin@2.44-1ubuntu0.22.04.1?arch=amd64&distro=ubuntu-22.04&epoch=1
+      UID: d9ae5eff3d5292c0
+    InstalledVersion: 1:2.44-1ubuntu0.22.04.1
+    Status: affected
+    Layer:
+      Digest: sha256:516731828ccc7b45bf90ae1c4a00205ac28ae0f1ac84b928f2aa2946b319a0b5
+      DiffID: sha256:c6b06b96654ebdbe3a6eb2b856daec8e0e9dc22e136d414826e1cf55e98d270b
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-1390
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'libcap: pam_cap: Fix potential configuration parsing error'
+    Description: The PAM module pam_cap.so of libcap configuration supports group names starting with “@”, during actual parsing, configurations not starting with “@” are incorrectly recognized as group names. This may result in nonintended users being granted an inherited capability set, potentially leading to security risks. Attackers can exploit this vulnerability to achieve local privilege escalation on systems where /etc/security/capability.conf is used to configure user inherited privileges by constructing specific usernames.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-284
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:H/A:N
+        V3Score: 6.1
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-1390
+    - https://bugzilla.openanolis.cn/show_bug.cgi?id=18804
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-1390
+    - https://www.cve.org/CVERecord?id=CVE-2025-1390
+    PublishedDate: '2025-02-18T03:15:10.447Z'
+    LastModifiedDate: '2025-02-18T03:15:10.447Z'
   - VulnerabilityID: CVE-2025-0167
     PkgID: libcurl3-gnutls@7.81.0-1ubuntu1.20
     PkgName: libcurl3-gnutls
@@ -1304,6 +1376,47 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-2236
     PublishedDate: '2024-03-06T22:15:57.977Z'
     LastModifiedDate: '2024-11-21T09:09:19.41Z'
+  - VulnerabilityID: CVE-2024-12243
+    PkgID: libgnutls30@3.7.3-4ubuntu1.5
+    PkgName: libgnutls30
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libgnutls30@3.7.3-4ubuntu1.5?arch=amd64&distro=ubuntu-22.04
+      UID: 833294292fdf24
+    InstalledVersion: 3.7.3-4ubuntu1.5
+    FixedVersion: 3.7.3-4ubuntu1.6
+    Status: fixed
+    Layer:
+      Digest: sha256:516731828ccc7b45bf90ae1c4a00205ac28ae0f1ac84b928f2aa2946b319a0b5
+      DiffID: sha256:c6b06b96654ebdbe3a6eb2b856daec8e0e9dc22e136d414826e1cf55e98d270b
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-12243
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'gnutls: GnuTLS Impacted by Inefficient DER Decoding in libtasn1 Leading to Remote DoS'
+    Description: A flaw was found in GnuTLS, which relies on libtasn1 for ASN.1 data processing. Due to an inefficient algorithm in libtasn1, decoding certain DER-encoded certificate data can take excessive time, leading to increased resource consumption. This flaw allows a remote attacker to send a specially crafted certificate, causing GnuTLS to become unresponsive or slow, resulting in a denial-of-service condition.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-407
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-12243
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2344615
+    - https://gitlab.com/gnutls/libtasn1/-/issues/52
+    - https://lists.gnupg.org/pipermail/gnutls-help/2025-February/004875.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-12243
+    - https://ubuntu.com/security/notices/USN-7281-1
+    - https://www.cve.org/CVERecord?id=CVE-2024-12243
+    - https://www.gnutls.org/security-new.html#GNUTLS-SA-2025-02-07
+    PublishedDate: '2025-02-10T16:15:37.423Z'
+    LastModifiedDate: '2025-02-10T16:15:37.423Z'
   - VulnerabilityID: CVE-2024-26462
     PkgID: libgssapi-krb5-2@1.19.2-2ubuntu0.5
     PkgName: libgssapi-krb5-2
@@ -2186,6 +2299,42 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-7008
     PublishedDate: '2023-12-23T13:15:07.573Z'
     LastModifiedDate: '2024-11-22T12:15:17.59Z'
+  - VulnerabilityID: CVE-2025-1390
+    PkgID: libpam-cap@1:2.44-1ubuntu0.22.04.1
+    PkgName: libpam-cap
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libpam-cap@2.44-1ubuntu0.22.04.1?arch=amd64&distro=ubuntu-22.04&epoch=1
+      UID: 14f7d663532bdafc
+    InstalledVersion: 1:2.44-1ubuntu0.22.04.1
+    Status: affected
+    Layer:
+      Digest: sha256:516731828ccc7b45bf90ae1c4a00205ac28ae0f1ac84b928f2aa2946b319a0b5
+      DiffID: sha256:c6b06b96654ebdbe3a6eb2b856daec8e0e9dc22e136d414826e1cf55e98d270b
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-1390
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'libcap: pam_cap: Fix potential configuration parsing error'
+    Description: The PAM module pam_cap.so of libcap configuration supports group names starting with “@”, during actual parsing, configurations not starting with “@” are incorrectly recognized as group names. This may result in nonintended users being granted an inherited capability set, potentially leading to security risks. Attackers can exploit this vulnerability to achieve local privilege escalation on systems where /etc/security/capability.conf is used to configure user inherited privileges by constructing specific usernames.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-284
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:H/A:N
+        V3Score: 6.1
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-1390
+    - https://bugzilla.openanolis.cn/show_bug.cgi?id=18804
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-1390
+    - https://www.cve.org/CVERecord?id=CVE-2025-1390
+    PublishedDate: '2025-02-18T03:15:10.447Z'
+    LastModifiedDate: '2025-02-18T03:15:10.447Z'
   - VulnerabilityID: CVE-2024-10041
     PkgID: libpam-modules@1.4.0-11ubuntu2.5
     PkgName: libpam-modules
@@ -2540,6 +2689,199 @@
     - https://www.cve.org/CVERecord?id=CVE-2017-11164
     PublishedDate: '2017-07-11T03:29:00.277Z'
     LastModifiedDate: '2024-11-21T03:07:14.377Z'
+  - VulnerabilityID: CVE-2025-0938
+    PkgID: libpython3.10@3.10.12-1~22.04.8
+    PkgName: libpython3.10
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libpython3.10@3.10.12-1~22.04.8?arch=amd64&distro=ubuntu-22.04
+      UID: a0e751412d38aa63
+    InstalledVersion: 3.10.12-1~22.04.8
+    FixedVersion: 3.10.12-1~22.04.9
+    Status: fixed
+    Layer:
+      Digest: sha256:516731828ccc7b45bf90ae1c4a00205ac28ae0f1ac84b928f2aa2946b319a0b5
+      DiffID: sha256:c6b06b96654ebdbe3a6eb2b856daec8e0e9dc22e136d414826e1cf55e98d270b
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-0938
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'python: cpython: URL parser allowed square brackets in domain names'
+    Description: The Python standard library functions `urllib.parse.urlsplit` and `urlparse` accepted domain names that included square brackets which isn't valid according to RFC 3986. Square brackets are only meant to be used as delimiters for specifying IPv6 and IPvFuture hosts in URLs. This could result in differential parsing across the Python URL parser and other specification-compliant URL parsers.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-20
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:N/I:H/A:N
+        V3Score: 6.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-0938
+    - https://github.com/python/cpython/commit/90e526ae67b172ed7c6c56e7edad36263b0f9403
+    - https://github.com/python/cpython/commit/a7084f6075c9595ba60119ce8c62f1496f50c568
+    - https://github.com/python/cpython/commit/d89a5f6a6e65511a5f6e0618c4c30a7aa5aba56a
+    - https://github.com/python/cpython/issues/105704
+    - https://github.com/python/cpython/pull/129418
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/K4EUG6EKV6JYFIC24BASYOZS4M5XOQIB/
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-0938
+    - https://ubuntu.com/security/notices/USN-7280-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-0938
+    PublishedDate: '2025-01-31T18:15:38.053Z'
+    LastModifiedDate: '2025-02-04T21:15:27.543Z'
+  - VulnerabilityID: CVE-2025-0938
+    PkgID: libpython3.10-minimal@3.10.12-1~22.04.8
+    PkgName: libpython3.10-minimal
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libpython3.10-minimal@3.10.12-1~22.04.8?arch=amd64&distro=ubuntu-22.04
+      UID: 1698fe466fa1d800
+    InstalledVersion: 3.10.12-1~22.04.8
+    FixedVersion: 3.10.12-1~22.04.9
+    Status: fixed
+    Layer:
+      Digest: sha256:516731828ccc7b45bf90ae1c4a00205ac28ae0f1ac84b928f2aa2946b319a0b5
+      DiffID: sha256:c6b06b96654ebdbe3a6eb2b856daec8e0e9dc22e136d414826e1cf55e98d270b
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-0938
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'python: cpython: URL parser allowed square brackets in domain names'
+    Description: The Python standard library functions `urllib.parse.urlsplit` and `urlparse` accepted domain names that included square brackets which isn't valid according to RFC 3986. Square brackets are only meant to be used as delimiters for specifying IPv6 and IPvFuture hosts in URLs. This could result in differential parsing across the Python URL parser and other specification-compliant URL parsers.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-20
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:N/I:H/A:N
+        V3Score: 6.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-0938
+    - https://github.com/python/cpython/commit/90e526ae67b172ed7c6c56e7edad36263b0f9403
+    - https://github.com/python/cpython/commit/a7084f6075c9595ba60119ce8c62f1496f50c568
+    - https://github.com/python/cpython/commit/d89a5f6a6e65511a5f6e0618c4c30a7aa5aba56a
+    - https://github.com/python/cpython/issues/105704
+    - https://github.com/python/cpython/pull/129418
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/K4EUG6EKV6JYFIC24BASYOZS4M5XOQIB/
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-0938
+    - https://ubuntu.com/security/notices/USN-7280-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-0938
+    PublishedDate: '2025-01-31T18:15:38.053Z'
+    LastModifiedDate: '2025-02-04T21:15:27.543Z'
+  - VulnerabilityID: CVE-2025-0938
+    PkgID: libpython3.10-stdlib@3.10.12-1~22.04.8
+    PkgName: libpython3.10-stdlib
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libpython3.10-stdlib@3.10.12-1~22.04.8?arch=amd64&distro=ubuntu-22.04
+      UID: aa993fb1c02dabb5
+    InstalledVersion: 3.10.12-1~22.04.8
+    FixedVersion: 3.10.12-1~22.04.9
+    Status: fixed
+    Layer:
+      Digest: sha256:516731828ccc7b45bf90ae1c4a00205ac28ae0f1ac84b928f2aa2946b319a0b5
+      DiffID: sha256:c6b06b96654ebdbe3a6eb2b856daec8e0e9dc22e136d414826e1cf55e98d270b
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-0938
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'python: cpython: URL parser allowed square brackets in domain names'
+    Description: The Python standard library functions `urllib.parse.urlsplit` and `urlparse` accepted domain names that included square brackets which isn't valid according to RFC 3986. Square brackets are only meant to be used as delimiters for specifying IPv6 and IPvFuture hosts in URLs. This could result in differential parsing across the Python URL parser and other specification-compliant URL parsers.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-20
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:N/I:H/A:N
+        V3Score: 6.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-0938
+    - https://github.com/python/cpython/commit/90e526ae67b172ed7c6c56e7edad36263b0f9403
+    - https://github.com/python/cpython/commit/a7084f6075c9595ba60119ce8c62f1496f50c568
+    - https://github.com/python/cpython/commit/d89a5f6a6e65511a5f6e0618c4c30a7aa5aba56a
+    - https://github.com/python/cpython/issues/105704
+    - https://github.com/python/cpython/pull/129418
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/K4EUG6EKV6JYFIC24BASYOZS4M5XOQIB/
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-0938
+    - https://ubuntu.com/security/notices/USN-7280-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-0938
+    PublishedDate: '2025-01-31T18:15:38.053Z'
+    LastModifiedDate: '2025-02-04T21:15:27.543Z'
+  - VulnerabilityID: CVE-2024-13176
+    PkgID: libssl3@3.0.2-0ubuntu1.18
+    PkgName: libssl3
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libssl3@3.0.2-0ubuntu1.18?arch=amd64&distro=ubuntu-22.04
+      UID: d87ec131df2eb6cc
+    InstalledVersion: 3.0.2-0ubuntu1.18
+    FixedVersion: 3.0.2-0ubuntu1.19
+    Status: fixed
+    Layer:
+      Digest: sha256:516731828ccc7b45bf90ae1c4a00205ac28ae0f1ac84b928f2aa2946b319a0b5
+      DiffID: sha256:c6b06b96654ebdbe3a6eb2b856daec8e0e9dc22e136d414826e1cf55e98d270b
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-13176
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'openssl: Timing side-channel in ECDSA signature computation'
+    Description: |-
+      Issue summary: A timing side-channel which could potentially allow recovering
+      the private key exists in the ECDSA signature computation.
+
+      Impact summary: A timing side-channel in ECDSA signature computations
+      could allow recovering the private key by an attacker. However, measuring
+      the timing would require either local access to the signing application or
+      a very fast network connection with low latency.
+
+      There is a timing signal of around 300 nanoseconds when the top word of
+      the inverted ECDSA nonce value is zero. This can happen with significant
+      probability only for some of the supported elliptic curves. In particular
+      the NIST P-521 curve is affected. To be able to measure this leak, the attacker
+      process must either be located in the same physical computer or must
+      have a very fast network connection with low latency. For that reason
+      the severity of this vulnerability is Low.
+    Severity: LOW
+    CweIDs:
+    - CWE-385
+    VendorSeverity:
+      amazon: 2
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N
+        V3Score: 4.7
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/01/20/2
+    - https://access.redhat.com/security/cve/CVE-2024-13176
+    - https://github.com/openssl/openssl/commit/07272b05b04836a762b4baa874958af51d513844
+    - https://github.com/openssl/openssl/commit/2af62e74fb59bc469506bc37eb2990ea408d9467
+    - https://github.com/openssl/openssl/commit/392dcb336405a0c94486aa6655057f59fd3a0902
+    - https://github.com/openssl/openssl/commit/4b1cb94a734a7d4ec363ac0a215a25c181e11f65
+    - https://github.com/openssl/openssl/commit/77c608f4c8857e63e98e66444e2e761c9627916f
+    - https://github.openssl.org/openssl/extended-releases/commit/0d5fd1ab987f7571e2c955d8d8b638fc0fb54ded
+    - https://github.openssl.org/openssl/extended-releases/commit/a2639000db19878d5d89586ae7b725080592ae86
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-13176
+    - https://openssl-library.org/news/secadv/20250120.txt
+    - https://security.netapp.com/advisory/ntap-20250124-0005/
+    - https://ubuntu.com/security/notices/USN-7264-1
+    - https://ubuntu.com/security/notices/USN-7278-1
+    - https://www.cve.org/CVERecord?id=CVE-2024-13176
+    PublishedDate: '2025-01-20T14:15:26.247Z'
+    LastModifiedDate: '2025-01-27T21:15:11.907Z'
   - VulnerabilityID: CVE-2024-41996
     PkgID: libssl3@3.0.2-0ubuntu1.18
     PkgName: libssl3
@@ -2582,6 +2924,84 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-41996
     PublishedDate: '2024-08-26T06:15:04.603Z'
     LastModifiedDate: '2024-08-26T16:35:11.247Z'
+  - VulnerabilityID: CVE-2024-9143
+    PkgID: libssl3@3.0.2-0ubuntu1.18
+    PkgName: libssl3
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libssl3@3.0.2-0ubuntu1.18?arch=amd64&distro=ubuntu-22.04
+      UID: d87ec131df2eb6cc
+    InstalledVersion: 3.0.2-0ubuntu1.18
+    FixedVersion: 3.0.2-0ubuntu1.19
+    Status: fixed
+    Layer:
+      Digest: sha256:516731828ccc7b45bf90ae1c4a00205ac28ae0f1ac84b928f2aa2946b319a0b5
+      DiffID: sha256:c6b06b96654ebdbe3a6eb2b856daec8e0e9dc22e136d414826e1cf55e98d270b
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-9143
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'openssl: Low-level invalid GF(2^m) parameters lead to OOB memory access'
+    Description: |-
+      Issue summary: Use of the low-level GF(2^m) elliptic curve APIs with untrusted
+      explicit values for the field polynomial can lead to out-of-bounds memory reads
+      or writes.
+
+      Impact summary: Out of bound memory writes can lead to an application crash or
+      even a possibility of a remote code execution, however, in all the protocols
+      involving Elliptic Curve Cryptography that we're aware of, either only "named
+      curves" are supported, or, if explicit curve parameters are supported, they
+      specify an X9.62 encoding of binary (GF(2^m)) curves that can't represent
+      problematic input values. Thus the likelihood of existence of a vulnerable
+      application is low.
+
+      In particular, the X9.62 encoding is used for ECC keys in X.509 certificates,
+      so problematic inputs cannot occur in the context of processing X.509
+      certificates.  Any problematic use-cases would have to be using an "exotic"
+      curve encoding.
+
+      The affected APIs include: EC_GROUP_new_curve_GF2m(), EC_GROUP_new_from_params(),
+      and various supporting BN_GF2m_*() functions.
+
+      Applications working with "exotic" explicit binary (GF(2^m)) curve parameters,
+      that make it possible to represent invalid field polynomials with a zero
+      constant term, via the above or similar APIs, may terminate abruptly as a
+      result of reading or writing outside of array bounds.  Remote code execution
+      cannot easily be ruled out.
+
+      The FIPS modules in 3.3, 3.2, 3.1 and 3.0 are not affected by this issue.
+    Severity: LOW
+    CweIDs:
+    - CWE-787
+    VendorSeverity:
+      amazon: 3
+      photon: 2
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 3.7
+    References:
+    - http://www.openwall.com/lists/oss-security/2024/10/16/1
+    - http://www.openwall.com/lists/oss-security/2024/10/23/1
+    - http://www.openwall.com/lists/oss-security/2024/10/24/1
+    - https://access.redhat.com/security/cve/CVE-2024-9143
+    - https://github.com/openssl/openssl/commit/72ae83ad214d2eef262461365a1975707f862712
+    - https://github.com/openssl/openssl/commit/bc7e04d7c8d509fb78fc0e285aa948fb0da04700
+    - https://github.com/openssl/openssl/commit/c0d3e4d32d2805f49bec30547f225bc4d092e1f4
+    - https://github.com/openssl/openssl/commit/fdf6723362ca51bd883295efe206cb5b1cfa5154
+    - https://github.openssl.org/openssl/extended-releases/commit/8efc0cbaa8ebba8e116f7b81a876a4123594d86a
+    - https://github.openssl.org/openssl/extended-releases/commit/9d576994cec2b7aa37a91740ea7e680810957e41
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-9143
+    - https://openssl-library.org/news/secadv/20241016.txt
+    - https://security.netapp.com/advisory/ntap-20241101-0001/
+    - https://ubuntu.com/security/notices/USN-7264-1
+    - https://ubuntu.com/security/notices/USN-7278-1
+    - https://www.cve.org/CVERecord?id=CVE-2024-9143
+    PublishedDate: '2024-10-16T17:15:18.13Z'
+    LastModifiedDate: '2024-11-21T09:54:04.817Z'
   - VulnerabilityID: CVE-2023-4039
     PkgID: libstdc++6@12.3.0-1ubuntu1~22.04
     PkgName: libstdc++6
@@ -2787,11 +3207,13 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2344611
     - https://gitlab.com/gnutls/libtasn1/-/blob/master/doc/security/CVE-2024-12133.md?ref_type=heads
     - https://gitlab.com/gnutls/libtasn1/-/issues/52
+    - https://lists.debian.org/debian-lts-announce/2025/02/msg00025.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-12133
     - https://ubuntu.com/security/notices/USN-7275-1
+    - https://ubuntu.com/security/notices/USN-7275-2
     - https://www.cve.org/CVERecord?id=CVE-2024-12133
     PublishedDate: '2025-02-10T16:15:37.26Z'
-    LastModifiedDate: '2025-02-10T16:15:37.26Z'
+    LastModifiedDate: '2025-02-21T13:15:10.43Z'
   - VulnerabilityID: CVE-2024-6716
     PkgID: libtiff5@4.3.0-6ubuntu0.10
     PkgName: libtiff5
@@ -2955,6 +3377,118 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-7008
     PublishedDate: '2023-12-23T13:15:07.573Z'
     LastModifiedDate: '2024-11-22T12:15:17.59Z'
+  - VulnerabilityID: CVE-2024-56171
+    PkgID: libxml2@2.9.13+dfsg-1ubuntu0.5
+    PkgName: libxml2
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libxml2@2.9.13%2Bdfsg-1ubuntu0.5?arch=amd64&distro=ubuntu-22.04
+      UID: 9fd0edd36090007c
+    InstalledVersion: 2.9.13+dfsg-1ubuntu0.5
+    Status: affected
+    Layer:
+      Digest: sha256:516731828ccc7b45bf90ae1c4a00205ac28ae0f1ac84b928f2aa2946b319a0b5
+      DiffID: sha256:c6b06b96654ebdbe3a6eb2b856daec8e0e9dc22e136d414826e1cf55e98d270b
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-56171
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'libxml2: Use-After-Free in libxml2'
+    Description: libxml2 before 2.12.10 and 2.13.x before 2.13.6 has a use-after-free in xmlSchemaIDCFillNodeTables and xmlSchemaBubbleIDCNodeTables in xmlschemas.c. To exploit this, a crafted XML document must be validated against an XML schema with certain identity constraints, or a crafted XML schema must be used.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-416
+    VendorSeverity:
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:N
+        V3Score: 7.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-56171
+    - https://gitlab.gnome.org/GNOME/libxml2/-/issues/828
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-56171
+    - https://www.cve.org/CVERecord?id=CVE-2024-56171
+    - https://www.openwall.com/lists/oss-security/2025/02/18/2
+    PublishedDate: '2025-02-18T22:15:12.797Z'
+    LastModifiedDate: '2025-02-18T23:15:09.413Z'
+  - VulnerabilityID: CVE-2025-24928
+    PkgID: libxml2@2.9.13+dfsg-1ubuntu0.5
+    PkgName: libxml2
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libxml2@2.9.13%2Bdfsg-1ubuntu0.5?arch=amd64&distro=ubuntu-22.04
+      UID: 9fd0edd36090007c
+    InstalledVersion: 2.9.13+dfsg-1ubuntu0.5
+    Status: affected
+    Layer:
+      Digest: sha256:516731828ccc7b45bf90ae1c4a00205ac28ae0f1ac84b928f2aa2946b319a0b5
+      DiffID: sha256:c6b06b96654ebdbe3a6eb2b856daec8e0e9dc22e136d414826e1cf55e98d270b
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-24928
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'libxml2: Stack-based buffer overflow in xmlSnprintfElements of libxml2'
+    Description: 'libxml2 before 2.12.10 and 2.13.x before 2.13.6 has a stack-based buffer overflow in xmlSnprintfElements in valid.c. To exploit this, DTD validation must occur for an untrusted document or untrusted DTD. NOTE: this is similar to CVE-2017-9047.'
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-121
+    VendorSeverity:
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:N
+        V3Score: 7.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-24928
+    - https://gitlab.gnome.org/GNOME/libxml2/-/issues/847
+    - https://issues.oss-fuzz.com/issues/392687022
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-24928
+    - https://www.cve.org/CVERecord?id=CVE-2025-24928
+    - https://www.openwall.com/lists/oss-security/2025/02/18/2
+    PublishedDate: '2025-02-18T23:15:10.25Z'
+    LastModifiedDate: '2025-02-18T23:15:10.25Z'
+  - VulnerabilityID: CVE-2025-27113
+    PkgID: libxml2@2.9.13+dfsg-1ubuntu0.5
+    PkgName: libxml2
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libxml2@2.9.13%2Bdfsg-1ubuntu0.5?arch=amd64&distro=ubuntu-22.04
+      UID: 9fd0edd36090007c
+    InstalledVersion: 2.9.13+dfsg-1ubuntu0.5
+    Status: affected
+    Layer:
+      Digest: sha256:516731828ccc7b45bf90ae1c4a00205ac28ae0f1ac84b928f2aa2946b319a0b5
+      DiffID: sha256:c6b06b96654ebdbe3a6eb2b856daec8e0e9dc22e136d414826e1cf55e98d270b
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-27113
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'libxml2: NULL Pointer Dereference in libxml2 xmlPatMatch'
+    Description: libxml2 before 2.12.10 and 2.13.x before 2.13.6 has a NULL pointer dereference in xmlPatMatch in pattern.c.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-476
+    VendorSeverity:
+      redhat: 1
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 2.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-27113
+    - https://gitlab.gnome.org/GNOME/libxml2/-/issues/861
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-27113
+    - https://www.cve.org/CVERecord?id=CVE-2025-27113
+    - https://www.openwall.com/lists/oss-security/2025/02/18/2
+    PublishedDate: '2025-02-18T23:15:10.96Z'
+    LastModifiedDate: '2025-02-18T23:15:10.96Z'
   - VulnerabilityID: CVE-2022-4899
     PkgID: libzstd1@1.4.8+dfsg-3build1
     PkgName: libzstd1
@@ -3444,6 +3978,7 @@
     - CWE-390
     VendorSeverity:
       azure: 2
+      photon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -3496,6 +4031,7 @@
     - CWE-390
     VendorSeverity:
       azure: 2
+      photon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -3548,6 +4084,7 @@
     - CWE-390
     VendorSeverity:
       azure: 2
+      photon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -3575,6 +4112,70 @@
     - https://www.theregister.com/2025/02/18/openssh_vulnerabilities_mitm_dos/
     PublishedDate: '2025-02-18T19:15:29.23Z'
     LastModifiedDate: '2025-02-19T15:15:18.09Z'
+  - VulnerabilityID: CVE-2024-13176
+    PkgID: openssl@3.0.2-0ubuntu1.18
+    PkgName: openssl
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/openssl@3.0.2-0ubuntu1.18?arch=amd64&distro=ubuntu-22.04
+      UID: be8e6e40dd2096c
+    InstalledVersion: 3.0.2-0ubuntu1.18
+    FixedVersion: 3.0.2-0ubuntu1.19
+    Status: fixed
+    Layer:
+      Digest: sha256:516731828ccc7b45bf90ae1c4a00205ac28ae0f1ac84b928f2aa2946b319a0b5
+      DiffID: sha256:c6b06b96654ebdbe3a6eb2b856daec8e0e9dc22e136d414826e1cf55e98d270b
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-13176
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'openssl: Timing side-channel in ECDSA signature computation'
+    Description: |-
+      Issue summary: A timing side-channel which could potentially allow recovering
+      the private key exists in the ECDSA signature computation.
+
+      Impact summary: A timing side-channel in ECDSA signature computations
+      could allow recovering the private key by an attacker. However, measuring
+      the timing would require either local access to the signing application or
+      a very fast network connection with low latency.
+
+      There is a timing signal of around 300 nanoseconds when the top word of
+      the inverted ECDSA nonce value is zero. This can happen with significant
+      probability only for some of the supported elliptic curves. In particular
+      the NIST P-521 curve is affected. To be able to measure this leak, the attacker
+      process must either be located in the same physical computer or must
+      have a very fast network connection with low latency. For that reason
+      the severity of this vulnerability is Low.
+    Severity: LOW
+    CweIDs:
+    - CWE-385
+    VendorSeverity:
+      amazon: 2
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N
+        V3Score: 4.7
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/01/20/2
+    - https://access.redhat.com/security/cve/CVE-2024-13176
+    - https://github.com/openssl/openssl/commit/07272b05b04836a762b4baa874958af51d513844
+    - https://github.com/openssl/openssl/commit/2af62e74fb59bc469506bc37eb2990ea408d9467
+    - https://github.com/openssl/openssl/commit/392dcb336405a0c94486aa6655057f59fd3a0902
+    - https://github.com/openssl/openssl/commit/4b1cb94a734a7d4ec363ac0a215a25c181e11f65
+    - https://github.com/openssl/openssl/commit/77c608f4c8857e63e98e66444e2e761c9627916f
+    - https://github.openssl.org/openssl/extended-releases/commit/0d5fd1ab987f7571e2c955d8d8b638fc0fb54ded
+    - https://github.openssl.org/openssl/extended-releases/commit/a2639000db19878d5d89586ae7b725080592ae86
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-13176
+    - https://openssl-library.org/news/secadv/20250120.txt
+    - https://security.netapp.com/advisory/ntap-20250124-0005/
+    - https://ubuntu.com/security/notices/USN-7264-1
+    - https://ubuntu.com/security/notices/USN-7278-1
+    - https://www.cve.org/CVERecord?id=CVE-2024-13176
+    PublishedDate: '2025-01-20T14:15:26.247Z'
+    LastModifiedDate: '2025-01-27T21:15:11.907Z'
   - VulnerabilityID: CVE-2024-41996
     PkgID: openssl@3.0.2-0ubuntu1.18
     PkgName: openssl
@@ -3617,6 +4218,84 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-41996
     PublishedDate: '2024-08-26T06:15:04.603Z'
     LastModifiedDate: '2024-08-26T16:35:11.247Z'
+  - VulnerabilityID: CVE-2024-9143
+    PkgID: openssl@3.0.2-0ubuntu1.18
+    PkgName: openssl
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/openssl@3.0.2-0ubuntu1.18?arch=amd64&distro=ubuntu-22.04
+      UID: be8e6e40dd2096c
+    InstalledVersion: 3.0.2-0ubuntu1.18
+    FixedVersion: 3.0.2-0ubuntu1.19
+    Status: fixed
+    Layer:
+      Digest: sha256:516731828ccc7b45bf90ae1c4a00205ac28ae0f1ac84b928f2aa2946b319a0b5
+      DiffID: sha256:c6b06b96654ebdbe3a6eb2b856daec8e0e9dc22e136d414826e1cf55e98d270b
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-9143
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'openssl: Low-level invalid GF(2^m) parameters lead to OOB memory access'
+    Description: |-
+      Issue summary: Use of the low-level GF(2^m) elliptic curve APIs with untrusted
+      explicit values for the field polynomial can lead to out-of-bounds memory reads
+      or writes.
+
+      Impact summary: Out of bound memory writes can lead to an application crash or
+      even a possibility of a remote code execution, however, in all the protocols
+      involving Elliptic Curve Cryptography that we're aware of, either only "named
+      curves" are supported, or, if explicit curve parameters are supported, they
+      specify an X9.62 encoding of binary (GF(2^m)) curves that can't represent
+      problematic input values. Thus the likelihood of existence of a vulnerable
+      application is low.
+
+      In particular, the X9.62 encoding is used for ECC keys in X.509 certificates,
+      so problematic inputs cannot occur in the context of processing X.509
+      certificates.  Any problematic use-cases would have to be using an "exotic"
+      curve encoding.
+
+      The affected APIs include: EC_GROUP_new_curve_GF2m(), EC_GROUP_new_from_params(),
+      and various supporting BN_GF2m_*() functions.
+
+      Applications working with "exotic" explicit binary (GF(2^m)) curve parameters,
+      that make it possible to represent invalid field polynomials with a zero
+      constant term, via the above or similar APIs, may terminate abruptly as a
+      result of reading or writing outside of array bounds.  Remote code execution
+      cannot easily be ruled out.
+
+      The FIPS modules in 3.3, 3.2, 3.1 and 3.0 are not affected by this issue.
+    Severity: LOW
+    CweIDs:
+    - CWE-787
+    VendorSeverity:
+      amazon: 3
+      photon: 2
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 3.7
+    References:
+    - http://www.openwall.com/lists/oss-security/2024/10/16/1
+    - http://www.openwall.com/lists/oss-security/2024/10/23/1
+    - http://www.openwall.com/lists/oss-security/2024/10/24/1
+    - https://access.redhat.com/security/cve/CVE-2024-9143
+    - https://github.com/openssl/openssl/commit/72ae83ad214d2eef262461365a1975707f862712
+    - https://github.com/openssl/openssl/commit/bc7e04d7c8d509fb78fc0e285aa948fb0da04700
+    - https://github.com/openssl/openssl/commit/c0d3e4d32d2805f49bec30547f225bc4d092e1f4
+    - https://github.com/openssl/openssl/commit/fdf6723362ca51bd883295efe206cb5b1cfa5154
+    - https://github.openssl.org/openssl/extended-releases/commit/8efc0cbaa8ebba8e116f7b81a876a4123594d86a
+    - https://github.openssl.org/openssl/extended-releases/commit/9d576994cec2b7aa37a91740ea7e680810957e41
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-9143
+    - https://openssl-library.org/news/secadv/20241016.txt
+    - https://security.netapp.com/advisory/ntap-20241101-0001/
+    - https://ubuntu.com/security/notices/USN-7264-1
+    - https://ubuntu.com/security/notices/USN-7278-1
+    - https://www.cve.org/CVERecord?id=CVE-2024-9143
+    PublishedDate: '2024-10-16T17:15:18.13Z'
+    LastModifiedDate: '2024-11-21T09:54:04.817Z'
   - VulnerabilityID: CVE-2024-56433
     PkgID: passwd@1:4.8.1-2ubuntu2.2
     PkgName: passwd
@@ -3701,6 +4380,92 @@
     - https://www.trustwave.com/en-us/resources/security-resources/security-advisories/?fid=31797
     PublishedDate: '2023-04-14T22:15:07.68Z'
     LastModifiedDate: '2025-02-06T22:15:35.057Z'
+  - VulnerabilityID: CVE-2025-0938
+    PkgID: python3.10@3.10.12-1~22.04.8
+    PkgName: python3.10
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/python3.10@3.10.12-1~22.04.8?arch=amd64&distro=ubuntu-22.04
+      UID: 5bbcda49eeac6bae
+    InstalledVersion: 3.10.12-1~22.04.8
+    FixedVersion: 3.10.12-1~22.04.9
+    Status: fixed
+    Layer:
+      Digest: sha256:516731828ccc7b45bf90ae1c4a00205ac28ae0f1ac84b928f2aa2946b319a0b5
+      DiffID: sha256:c6b06b96654ebdbe3a6eb2b856daec8e0e9dc22e136d414826e1cf55e98d270b
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-0938
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'python: cpython: URL parser allowed square brackets in domain names'
+    Description: The Python standard library functions `urllib.parse.urlsplit` and `urlparse` accepted domain names that included square brackets which isn't valid according to RFC 3986. Square brackets are only meant to be used as delimiters for specifying IPv6 and IPvFuture hosts in URLs. This could result in differential parsing across the Python URL parser and other specification-compliant URL parsers.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-20
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:N/I:H/A:N
+        V3Score: 6.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-0938
+    - https://github.com/python/cpython/commit/90e526ae67b172ed7c6c56e7edad36263b0f9403
+    - https://github.com/python/cpython/commit/a7084f6075c9595ba60119ce8c62f1496f50c568
+    - https://github.com/python/cpython/commit/d89a5f6a6e65511a5f6e0618c4c30a7aa5aba56a
+    - https://github.com/python/cpython/issues/105704
+    - https://github.com/python/cpython/pull/129418
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/K4EUG6EKV6JYFIC24BASYOZS4M5XOQIB/
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-0938
+    - https://ubuntu.com/security/notices/USN-7280-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-0938
+    PublishedDate: '2025-01-31T18:15:38.053Z'
+    LastModifiedDate: '2025-02-04T21:15:27.543Z'
+  - VulnerabilityID: CVE-2025-0938
+    PkgID: python3.10-minimal@3.10.12-1~22.04.8
+    PkgName: python3.10-minimal
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/python3.10-minimal@3.10.12-1~22.04.8?arch=amd64&distro=ubuntu-22.04
+      UID: 7a0b3f85aa2e76a7
+    InstalledVersion: 3.10.12-1~22.04.8
+    FixedVersion: 3.10.12-1~22.04.9
+    Status: fixed
+    Layer:
+      Digest: sha256:516731828ccc7b45bf90ae1c4a00205ac28ae0f1ac84b928f2aa2946b319a0b5
+      DiffID: sha256:c6b06b96654ebdbe3a6eb2b856daec8e0e9dc22e136d414826e1cf55e98d270b
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-0938
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'python: cpython: URL parser allowed square brackets in domain names'
+    Description: The Python standard library functions `urllib.parse.urlsplit` and `urlparse` accepted domain names that included square brackets which isn't valid according to RFC 3986. Square brackets are only meant to be used as delimiters for specifying IPv6 and IPvFuture hosts in URLs. This could result in differential parsing across the Python URL parser and other specification-compliant URL parsers.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-20
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:N/I:H/A:N
+        V3Score: 6.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-0938
+    - https://github.com/python/cpython/commit/90e526ae67b172ed7c6c56e7edad36263b0f9403
+    - https://github.com/python/cpython/commit/a7084f6075c9595ba60119ce8c62f1496f50c568
+    - https://github.com/python/cpython/commit/d89a5f6a6e65511a5f6e0618c4c30a7aa5aba56a
+    - https://github.com/python/cpython/issues/105704
+    - https://github.com/python/cpython/pull/129418
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/K4EUG6EKV6JYFIC24BASYOZS4M5XOQIB/
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-0938
+    - https://ubuntu.com/security/notices/USN-7280-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-0938
+    PublishedDate: '2025-01-31T18:15:38.053Z'
+    LastModifiedDate: '2025-02-04T21:15:27.543Z'
   - VulnerabilityID: CVE-2023-7008
     PkgID: systemd@249.11-0ubuntu3.12
     PkgName: systemd
@@ -9515,6 +10280,37 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-22866
     PublishedDate: '2025-02-06T17:15:21.41Z'
     LastModifiedDate: '2025-02-11T15:15:20.87Z'
+- Target: /etc/ssh/ssh_host_dsa_key
+  Class: secret
+  Secrets:
+  - RuleID: private-key
+    Category: AsymmetricPrivateKey
+    Severity: HIGH
+    Title: Asymmetric Private Key
+    StartLine: 1
+    EndLine: 1
+    Code:
+      Lines:
+      - Number: 1
+        Content: BEGIN OPENSSH PRIVATE KEY-----****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
+        IsCause: true
+        Annotation: ''
+        Truncated: false
+        Highlighted: BEGIN OPENSSH PRIVATE KEY-----****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
+        FirstCause: true
+        LastCause: true
+      - Number: 2
+        Content: ''
+        IsCause: false
+        Annotation: ''
+        Truncated: false
+        FirstCause: false
+        LastCause: false
+    Match: BEGIN OPENSSH PRIVATE KEY-----****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
+    Layer:
+      Digest: sha256:516731828ccc7b45bf90ae1c4a00205ac28ae0f1ac84b928f2aa2946b319a0b5
+      DiffID: sha256:c6b06b96654ebdbe3a6eb2b856daec8e0e9dc22e136d414826e1cf55e98d270b
+      CreatedBy: 'COPY / / # buildkit'
 - Target: /etc/ssh/ssh_host_ecdsa_key
   Class: secret
   Secrets:
@@ -9604,37 +10400,6 @@
         FirstCause: false
         LastCause: false
     Match: BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
-    Layer:
-      Digest: sha256:516731828ccc7b45bf90ae1c4a00205ac28ae0f1ac84b928f2aa2946b319a0b5
-      DiffID: sha256:c6b06b96654ebdbe3a6eb2b856daec8e0e9dc22e136d414826e1cf55e98d270b
-      CreatedBy: 'COPY / / # buildkit'
-- Target: /etc/ssh/ssh_host_dsa_key
-  Class: secret
-  Secrets:
-  - RuleID: private-key
-    Category: AsymmetricPrivateKey
-    Severity: HIGH
-    Title: Asymmetric Private Key
-    StartLine: 1
-    EndLine: 1
-    Code:
-      Lines:
-      - Number: 1
-        Content: BEGIN OPENSSH PRIVATE KEY-----****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
-        IsCause: true
-        Annotation: ''
-        Truncated: false
-        Highlighted: BEGIN OPENSSH PRIVATE KEY-----****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
-        FirstCause: true
-        LastCause: true
-      - Number: 2
-        Content: ''
-        IsCause: false
-        Annotation: ''
-        Truncated: false
-        FirstCause: false
-        LastCause: false
-    Match: BEGIN OPENSSH PRIVATE KEY-----****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
     Layer:
       Digest: sha256:516731828ccc7b45bf90ae1c4a00205ac28ae0f1ac84b928f2aa2946b319a0b5
       DiffID: sha256:c6b06b96654ebdbe3a6eb2b856daec8e0e9dc22e136d414826e1cf55e98d270b
