@@ -6,10 +6,10 @@ if ! shopt -oq posix; then
   fi
 fi
 
-if [ ! -e ~/.openaf_completion_bash.sh ] || [ $(find ~/.openaf_completion_bash.sh -mtime +1) ]; then
-  /opt/oaf --bashcompletion all > ~/.openaf_completion_bash.sh
+source ~/.openaf_completion_zsh.sh > /dev/null 2>&1
+if [ ! -e ~/.openaf_completion_zsh.sh ] || [ $(find ~/.openaf_completion_zsh.sh -mtime +1) ]; then
+  /Applications/OpenAF/oaf --zshcompletion all > ~/.openaf_completion_zsh.sh &!
 fi
-source ~/.openaf_completion_bash.sh
 source <(helm completion bash)
 source <(kubectl completion bash)
 source <(docker completion bash)
