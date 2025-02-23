@@ -28,8 +28,13 @@ RUN apt-get update\
  && ssh-keygen -A\
  && sed -i "s/AllowTcpForwarding no/AllowTcpForwarding yes/g" /etc/ssh/sshd_config\
  && sed -i "s/GatewayPorts no/GatewayPorts yes/g" /etc/ssh/sshd_config\
- && echo 'if [ ! -e ~/.openaf-ojobio-complete ] || [ $(find ~/.openaf-ojobio-complete -mmin +1440) ]; then curl -s https://ojob.io/autoComplete.sh -o ~/.openaf-ojobio-complete; fi' >> /etc/bash.bashrc\
- && echo "source ~/.openaf-ojobio-complete" >> /etc/bash.bashrc
+ && echo "source ~/.openaf_completion_bash.sh > /dev/null 2>&1" >> /etc/bash.bashrc\
+ && echo 'if [ ! -e ~/.openaf_completion_bash.sh ] || [ $(find ~/.openaf_completion_bash.sh -mtime +1) ]; then /opt/oaf/oaf --bashcompletion all > ~/.openaf_completion_bash.sh & disown; fi' >> /etc/bash.bashrc\
+ && echo "source <(helm completion bash)" >> /etc/bash.bashrc\
+ && echo "source <(kubectl completion bash)" >> /etc/bash.bashrc\
+ && echo "source <(docker completion bash)" >> /etc/bash.bashrc\
+ && echo "source <(skopeo completion bash)" >> /etc/bash.bashrc\
+ && echo "source <(k3d completion bash)" >> /etc/bash.bashrc\
 
 COPY ojob_p2_lite.yaml /tmp/.p2.yaml
 COPY ojob_p1_lite.sh /tmp/.p1.sh
