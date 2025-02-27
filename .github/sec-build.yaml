@@ -354,6 +354,84 @@
     - https://www.cve.org/CVERecord?id=CVE-2022-27943
     PublishedDate: '2022-03-26T13:15:07.9Z'
     LastModifiedDate: '2024-11-21T06:56:31.04Z'
+  - VulnerabilityID: CVE-2024-52005
+    PkgID: git@1:2.34.1-1ubuntu1.12
+    PkgName: git
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/git@2.34.1-1ubuntu1.12?arch=amd64&distro=ubuntu-22.04&epoch=1
+      UID: bc8fd3f67c055b3e
+    InstalledVersion: 1:2.34.1-1ubuntu1.12
+    Status: affected
+    Layer:
+      Digest: sha256:516731828ccc7b45bf90ae1c4a00205ac28ae0f1ac84b928f2aa2946b319a0b5
+      DiffID: sha256:c6b06b96654ebdbe3a6eb2b856daec8e0e9dc22e136d414826e1cf55e98d270b
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-52005
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'git: The sideband payload is passed unfiltered to the terminal in git'
+    Description: Git is a source code management tool. When cloning from a server (or fetching, or pushing), informational or error messages are transported from the remote Git process to the client via the so-called "sideband channel". These messages will be prefixed with "remote:" and printed directly to the standard error output. Typically, this standard error output is connected to a terminal that understands ANSI escape sequences, which Git did not protect against. Most modern terminals support control sequences that can be used by a malicious actor to hide and misrepresent information, or to mislead the user into executing untrusted scripts. As requested on the git-security mailing list, the patches are under discussion on the public mailing list. Users are advised to update as soon as possible. Users unable to upgrade should avoid recursive clones unless they are from trusted sources.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-116
+    - CWE-150
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-52005
+    - https://github.com/git/git/security/advisories/GHSA-7jjc-gg6m-3329
+    - https://lore.kernel.org/git/1M9FnZ-1taoNo1wwh-00ESSd@mail.gmx.net
+    - https://lore.kernel.org/git/8570a129-d66a-465a-905e-0a077c69c409@gmail.com/T/#t
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-52005
+    - https://www.cve.org/CVERecord?id=CVE-2024-52005
+    PublishedDate: '2025-01-15T18:15:24.13Z'
+    LastModifiedDate: '2025-01-15T18:15:24.13Z'
+  - VulnerabilityID: CVE-2024-52005
+    PkgID: git-man@1:2.34.1-1ubuntu1.12
+    PkgName: git-man
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/git-man@2.34.1-1ubuntu1.12?arch=all&distro=ubuntu-22.04&epoch=1
+      UID: 93515fa8ea00e27a
+    InstalledVersion: 1:2.34.1-1ubuntu1.12
+    Status: affected
+    Layer:
+      Digest: sha256:516731828ccc7b45bf90ae1c4a00205ac28ae0f1ac84b928f2aa2946b319a0b5
+      DiffID: sha256:c6b06b96654ebdbe3a6eb2b856daec8e0e9dc22e136d414826e1cf55e98d270b
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-52005
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'git: The sideband payload is passed unfiltered to the terminal in git'
+    Description: Git is a source code management tool. When cloning from a server (or fetching, or pushing), informational or error messages are transported from the remote Git process to the client via the so-called "sideband channel". These messages will be prefixed with "remote:" and printed directly to the standard error output. Typically, this standard error output is connected to a terminal that understands ANSI escape sequences, which Git did not protect against. Most modern terminals support control sequences that can be used by a malicious actor to hide and misrepresent information, or to mislead the user into executing untrusted scripts. As requested on the git-security mailing list, the patches are under discussion on the public mailing list. Users are advised to update as soon as possible. Users unable to upgrade should avoid recursive clones unless they are from trusted sources.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-116
+    - CWE-150
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-52005
+    - https://github.com/git/git/security/advisories/GHSA-7jjc-gg6m-3329
+    - https://lore.kernel.org/git/1M9FnZ-1taoNo1wwh-00ESSd@mail.gmx.net
+    - https://lore.kernel.org/git/8570a129-d66a-465a-905e-0a077c69c409@gmail.com/T/#t
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-52005
+    - https://www.cve.org/CVERecord?id=CVE-2024-52005
+    PublishedDate: '2025-01-15T18:15:24.13Z'
+    LastModifiedDate: '2025-01-15T18:15:24.13Z'
   - VulnerabilityID: CVE-2022-3219
     PkgID: gnupg@2.2.27-3ubuntu2.1
     PkgName: gnupg
@@ -1404,6 +1482,7 @@
     CweIDs:
     - CWE-407
     VendorSeverity:
+      photon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -3466,7 +3545,8 @@
       PURL: pkg:deb/ubuntu/libxml2@2.9.13%2Bdfsg-1ubuntu0.5?arch=amd64&distro=ubuntu-22.04
       UID: 9fd0edd36090007c
     InstalledVersion: 2.9.13+dfsg-1ubuntu0.5
-    Status: affected
+    FixedVersion: 2.9.13+dfsg-1ubuntu0.6
+    Status: fixed
     Layer:
       Digest: sha256:516731828ccc7b45bf90ae1c4a00205ac28ae0f1ac84b928f2aa2946b319a0b5
       DiffID: sha256:c6b06b96654ebdbe3a6eb2b856daec8e0e9dc22e136d414826e1cf55e98d270b
@@ -3492,6 +3572,7 @@
     - https://access.redhat.com/security/cve/CVE-2024-56171
     - https://gitlab.gnome.org/GNOME/libxml2/-/issues/828
     - https://nvd.nist.gov/vuln/detail/CVE-2024-56171
+    - https://ubuntu.com/security/notices/USN-7302-1
     - https://www.cve.org/CVERecord?id=CVE-2024-56171
     - https://www.openwall.com/lists/oss-security/2025/02/18/2
     PublishedDate: '2025-02-18T22:15:12.797Z'
@@ -3503,7 +3584,8 @@
       PURL: pkg:deb/ubuntu/libxml2@2.9.13%2Bdfsg-1ubuntu0.5?arch=amd64&distro=ubuntu-22.04
       UID: 9fd0edd36090007c
     InstalledVersion: 2.9.13+dfsg-1ubuntu0.5
-    Status: affected
+    FixedVersion: 2.9.13+dfsg-1ubuntu0.6
+    Status: fixed
     Layer:
       Digest: sha256:516731828ccc7b45bf90ae1c4a00205ac28ae0f1ac84b928f2aa2946b319a0b5
       DiffID: sha256:c6b06b96654ebdbe3a6eb2b856daec8e0e9dc22e136d414826e1cf55e98d270b
@@ -3530,6 +3612,7 @@
     - https://gitlab.gnome.org/GNOME/libxml2/-/issues/847
     - https://issues.oss-fuzz.com/issues/392687022
     - https://nvd.nist.gov/vuln/detail/CVE-2025-24928
+    - https://ubuntu.com/security/notices/USN-7302-1
     - https://www.cve.org/CVERecord?id=CVE-2025-24928
     - https://www.openwall.com/lists/oss-security/2025/02/18/2
     PublishedDate: '2025-02-18T23:15:10.25Z'
@@ -3541,7 +3624,8 @@
       PURL: pkg:deb/ubuntu/libxml2@2.9.13%2Bdfsg-1ubuntu0.5?arch=amd64&distro=ubuntu-22.04
       UID: 9fd0edd36090007c
     InstalledVersion: 2.9.13+dfsg-1ubuntu0.5
-    Status: affected
+    FixedVersion: 2.9.13+dfsg-1ubuntu0.6
+    Status: fixed
     Layer:
       Digest: sha256:516731828ccc7b45bf90ae1c4a00205ac28ae0f1ac84b928f2aa2946b319a0b5
       DiffID: sha256:c6b06b96654ebdbe3a6eb2b856daec8e0e9dc22e136d414826e1cf55e98d270b
@@ -3567,6 +3651,7 @@
     - https://access.redhat.com/security/cve/CVE-2025-27113
     - https://gitlab.gnome.org/GNOME/libxml2/-/issues/861
     - https://nvd.nist.gov/vuln/detail/CVE-2025-27113
+    - https://ubuntu.com/security/notices/USN-7302-1
     - https://www.cve.org/CVERecord?id=CVE-2025-27113
     - https://www.openwall.com/lists/oss-security/2025/02/18/2
     PublishedDate: '2025-02-18T23:15:10.96Z'
@@ -4976,6 +5061,7 @@
     CweIDs:
     - CWE-787
     VendorSeverity:
+      amazon: 2
       azure: 2
       cbl-mariner: 2
       redhat: 1
@@ -5019,6 +5105,7 @@
     CweIDs:
     - CWE-787
     VendorSeverity:
+      amazon: 2
       azure: 2
       cbl-mariner: 2
       redhat: 1
@@ -5062,6 +5149,7 @@
     CweIDs:
     - CWE-787
     VendorSeverity:
+      amazon: 2
       azure: 2
       cbl-mariner: 2
       redhat: 1
@@ -5152,6 +5240,7 @@
     CweIDs:
     - CWE-787
     VendorSeverity:
+      amazon: 2
       azure: 2
       cbl-mariner: 2
       redhat: 1
