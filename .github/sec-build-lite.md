@@ -85,7 +85,8 @@
 │                        │      │                   `default` entry that
 │                        │      │                   omits both login and password. A rare circumstance. 
 │                        │      ├ Severity        : LOW 
-│                        │      ├ VendorSeverity   ─ ubuntu: 1 
+│                        │      ├ VendorSeverity   ╭ photon: 2 
+│                        │      │                  ╰ ubuntu: 1 
 │                        │      ├ References       ╭ [0]: https://curl.se/docs/CVE-2025-0167.html 
 │                        │      │                  ├ [1]: https://curl.se/docs/CVE-2025-0167.json 
 │                        │      │                  ├ [2]: https://hackerone.com/reports/2917232 
@@ -958,8 +959,9 @@
 │                        │      │                   constructing specific usernames. 
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-284 
-│                        │      ├ VendorSeverity   ╭ redhat: 2 
-│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ VendorSeverity   ╭ cbl-mariner: 2 
+│                        │      │                  ├ redhat     : 2 
+│                        │      │                  ╰ ubuntu     : 2 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:
 │                        │      │                           │           H/A:N 
 │                        │      │                           ╰ V3Score : 6.1 
@@ -1001,8 +1003,9 @@
 │                        │      │                   constructing specific usernames. 
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-284 
-│                        │      ├ VendorSeverity   ╭ redhat: 2 
-│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ VendorSeverity   ╭ cbl-mariner: 2 
+│                        │      │                  ├ redhat     : 2 
+│                        │      │                  ╰ ubuntu     : 2 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:
 │                        │      │                           │           H/A:N 
 │                        │      │                           ╰ V3Score : 6.1 
@@ -1042,7 +1045,8 @@
 │                        │      │                   `default` entry that
 │                        │      │                   omits both login and password. A rare circumstance. 
 │                        │      ├ Severity        : LOW 
-│                        │      ├ VendorSeverity   ─ ubuntu: 1 
+│                        │      ├ VendorSeverity   ╭ photon: 2 
+│                        │      │                  ╰ ubuntu: 1 
 │                        │      ├ References       ╭ [0]: https://curl.se/docs/CVE-2025-0167.html 
 │                        │      │                  ├ [1]: https://curl.se/docs/CVE-2025-0167.json 
 │                        │      │                  ├ [2]: https://hackerone.com/reports/2917232 
@@ -1078,7 +1082,8 @@
 │                        │      │                   `default` entry that
 │                        │      │                   omits both login and password. A rare circumstance. 
 │                        │      ├ Severity        : LOW 
-│                        │      ├ VendorSeverity   ─ ubuntu: 1 
+│                        │      ├ VendorSeverity   ╭ photon: 2 
+│                        │      │                  ╰ ubuntu: 1 
 │                        │      ├ References       ╭ [0]: https://curl.se/docs/CVE-2025-0167.html 
 │                        │      │                  ├ [1]: https://curl.se/docs/CVE-2025-0167.json 
 │                        │      │                  ├ [2]: https://hackerone.com/reports/2917232 
@@ -1851,8 +1856,9 @@
 │                        │      │                   constructing specific usernames. 
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-284 
-│                        │      ├ VendorSeverity   ╭ redhat: 2 
-│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ VendorSeverity   ╭ cbl-mariner: 2 
+│                        │      │                  ├ redhat     : 2 
+│                        │      │                  ╰ ubuntu     : 2 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:
 │                        │      │                           │           H/A:N 
 │                        │      │                           ╰ V3Score : 6.1 
@@ -2447,8 +2453,9 @@
 │                        │      │                   XML schema must be used. 
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-416 
-│                        │      ├ VendorSeverity   ╭ redhat: 3 
-│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ VendorSeverity   ╭ cbl-mariner: 3 
+│                        │      │                  ├ redhat     : 3 
+│                        │      │                  ╰ ubuntu     : 2 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:H/I:
 │                        │      │                           │           H/A:N 
 │                        │      │                           ╰ V3Score : 7.8 
@@ -2488,8 +2495,9 @@
 │                        │      │                   to CVE-2017-9047. 
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-121 
-│                        │      ├ VendorSeverity   ╭ redhat: 3 
-│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ VendorSeverity   ╭ cbl-mariner: 3 
+│                        │      │                  ├ redhat     : 3 
+│                        │      │                  ╰ ubuntu     : 2 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:H/I:
 │                        │      │                           │           H/A:N 
 │                        │      │                           ╰ V3Score : 7.8 
@@ -2526,8 +2534,9 @@
 │                        │      │                   pointer dereference in xmlPatMatch in pattern.c. 
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-476 
-│                        │      ├ VendorSeverity   ╭ redhat: 1 
-│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ VendorSeverity   ╭ cbl-mariner: 1 
+│                        │      │                  ├ redhat     : 1 
+│                        │      │                  ╰ ubuntu     : 2 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:
 │                        │      │                           │           N/A:L 
 │                        │      │                           ╰ V3Score : 2.9 
@@ -4850,7 +4859,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
@@ -4933,7 +4942,7 @@
 │                        │      │                   bytes grows too small. 
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ nvd        : 2 
@@ -7904,7 +7913,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
@@ -7987,7 +7996,7 @@
 │                        │      │                   bytes grows too small. 
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ nvd        : 2 
