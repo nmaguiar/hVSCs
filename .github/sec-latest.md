@@ -4068,9 +4068,13 @@
 │                        │       ├ Severity        : MEDIUM 
 │                        │       ├ CweIDs           ─ [0]: CWE-476 
 │                        │       ├ VendorSeverity   ╭ cbl-mariner: 1 
+│                        │       │                  ├ nvd        : 3 
 │                        │       │                  ├ redhat     : 1 
 │                        │       │                  ╰ ubuntu     : 2 
-│                        │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I
+│                        │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                        │       │                  │        │           :N/A:H 
+│                        │       │                  │        ╰ V3Score : 7.5 
+│                        │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I
 │                        │       │                           │           :N/A:L 
 │                        │       │                           ╰ V3Score : 2.9 
 │                        │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-27113 
@@ -4081,7 +4085,7 @@
 │                        │       │                  ╰ [5]: https://www.openwall.com/lists/oss-security/2025/02/
 │                        │       │                         18/2 
 │                        │       ├ PublishedDate   : 2025-02-18T23:15:10.96Z 
-│                        │       ╰ LastModifiedDate: 2025-02-18T23:15:10.96Z 
+│                        │       ╰ LastModifiedDate: 2025-02-27T20:18:12.583Z 
 │                        ├ [77]  ╭ VulnerabilityID : CVE-2022-4899 
 │                        │       ├ PkgID           : libzstd1@1.4.8+dfsg-3build1 
 │                        │       ├ PkgName         : libzstd1 
@@ -4836,19 +4840,21 @@
 │                        │       │                  ├ [8] : https://seclists.org/oss-sec/2025/q1/144 
 │                        │       │                  ├ [9] : https://security-tracker.debian.org/tracker/CVE-202
 │                        │       │                  │       5-26465 
-│                        │       │                  ├ [10]: https://ubuntu.com/security/CVE-2025-26465 
-│                        │       │                  ├ [11]: https://ubuntu.com/security/notices/USN-7270-1 
-│                        │       │                  ├ [12]: https://ubuntu.com/security/notices/USN-7270-2 
-│                        │       │                  ├ [13]: https://www.cve.org/CVERecord?id=CVE-2025-26465 
-│                        │       │                  ├ [14]: https://www.openssh.com/releasenotes.html#9.9p2 
-│                        │       │                  ├ [15]: https://www.openwall.com/lists/oss-security/2025/02
-│                        │       │                  │       /18/1 
+│                        │       │                  ├ [10]: https://security.netapp.com/advisory/ntap-20250228-
+│                        │       │                  │       0003/ 
+│                        │       │                  ├ [11]: https://ubuntu.com/security/CVE-2025-26465 
+│                        │       │                  ├ [12]: https://ubuntu.com/security/notices/USN-7270-1 
+│                        │       │                  ├ [13]: https://ubuntu.com/security/notices/USN-7270-2 
+│                        │       │                  ├ [14]: https://www.cve.org/CVERecord?id=CVE-2025-26465 
+│                        │       │                  ├ [15]: https://www.openssh.com/releasenotes.html#9.9p2 
 │                        │       │                  ├ [16]: https://www.openwall.com/lists/oss-security/2025/02
+│                        │       │                  │       /18/1 
+│                        │       │                  ├ [17]: https://www.openwall.com/lists/oss-security/2025/02
 │                        │       │                  │       /18/4 
-│                        │       │                  ╰ [17]: https://www.theregister.com/2025/02/18/openssh_vuln
+│                        │       │                  ╰ [18]: https://www.theregister.com/2025/02/18/openssh_vuln
 │                        │       │                          erabilities_mitm_dos/ 
 │                        │       ├ PublishedDate   : 2025-02-18T19:15:29.23Z 
-│                        │       ╰ LastModifiedDate: 2025-02-19T15:15:18.09Z 
+│                        │       ╰ LastModifiedDate: 2025-02-28T13:15:28.343Z 
 │                        ├ [90]  ╭ VulnerabilityID : CVE-2025-26465 
 │                        │       ├ PkgID           : openssh-server@1:8.9p1-3ubuntu0.10 
 │                        │       ├ PkgName         : openssh-server 
@@ -4904,19 +4910,21 @@
 │                        │       │                  ├ [8] : https://seclists.org/oss-sec/2025/q1/144 
 │                        │       │                  ├ [9] : https://security-tracker.debian.org/tracker/CVE-202
 │                        │       │                  │       5-26465 
-│                        │       │                  ├ [10]: https://ubuntu.com/security/CVE-2025-26465 
-│                        │       │                  ├ [11]: https://ubuntu.com/security/notices/USN-7270-1 
-│                        │       │                  ├ [12]: https://ubuntu.com/security/notices/USN-7270-2 
-│                        │       │                  ├ [13]: https://www.cve.org/CVERecord?id=CVE-2025-26465 
-│                        │       │                  ├ [14]: https://www.openssh.com/releasenotes.html#9.9p2 
-│                        │       │                  ├ [15]: https://www.openwall.com/lists/oss-security/2025/02
-│                        │       │                  │       /18/1 
+│                        │       │                  ├ [10]: https://security.netapp.com/advisory/ntap-20250228-
+│                        │       │                  │       0003/ 
+│                        │       │                  ├ [11]: https://ubuntu.com/security/CVE-2025-26465 
+│                        │       │                  ├ [12]: https://ubuntu.com/security/notices/USN-7270-1 
+│                        │       │                  ├ [13]: https://ubuntu.com/security/notices/USN-7270-2 
+│                        │       │                  ├ [14]: https://www.cve.org/CVERecord?id=CVE-2025-26465 
+│                        │       │                  ├ [15]: https://www.openssh.com/releasenotes.html#9.9p2 
 │                        │       │                  ├ [16]: https://www.openwall.com/lists/oss-security/2025/02
+│                        │       │                  │       /18/1 
+│                        │       │                  ├ [17]: https://www.openwall.com/lists/oss-security/2025/02
 │                        │       │                  │       /18/4 
-│                        │       │                  ╰ [17]: https://www.theregister.com/2025/02/18/openssh_vuln
+│                        │       │                  ╰ [18]: https://www.theregister.com/2025/02/18/openssh_vuln
 │                        │       │                          erabilities_mitm_dos/ 
 │                        │       ├ PublishedDate   : 2025-02-18T19:15:29.23Z 
-│                        │       ╰ LastModifiedDate: 2025-02-19T15:15:18.09Z 
+│                        │       ╰ LastModifiedDate: 2025-02-28T13:15:28.343Z 
 │                        ├ [91]  ╭ VulnerabilityID : CVE-2025-26465 
 │                        │       ├ PkgID           : openssh-sftp-server@1:8.9p1-3ubuntu0.10 
 │                        │       ├ PkgName         : openssh-sftp-server 
@@ -4972,19 +4980,21 @@
 │                        │       │                  ├ [8] : https://seclists.org/oss-sec/2025/q1/144 
 │                        │       │                  ├ [9] : https://security-tracker.debian.org/tracker/CVE-202
 │                        │       │                  │       5-26465 
-│                        │       │                  ├ [10]: https://ubuntu.com/security/CVE-2025-26465 
-│                        │       │                  ├ [11]: https://ubuntu.com/security/notices/USN-7270-1 
-│                        │       │                  ├ [12]: https://ubuntu.com/security/notices/USN-7270-2 
-│                        │       │                  ├ [13]: https://www.cve.org/CVERecord?id=CVE-2025-26465 
-│                        │       │                  ├ [14]: https://www.openssh.com/releasenotes.html#9.9p2 
-│                        │       │                  ├ [15]: https://www.openwall.com/lists/oss-security/2025/02
-│                        │       │                  │       /18/1 
+│                        │       │                  ├ [10]: https://security.netapp.com/advisory/ntap-20250228-
+│                        │       │                  │       0003/ 
+│                        │       │                  ├ [11]: https://ubuntu.com/security/CVE-2025-26465 
+│                        │       │                  ├ [12]: https://ubuntu.com/security/notices/USN-7270-1 
+│                        │       │                  ├ [13]: https://ubuntu.com/security/notices/USN-7270-2 
+│                        │       │                  ├ [14]: https://www.cve.org/CVERecord?id=CVE-2025-26465 
+│                        │       │                  ├ [15]: https://www.openssh.com/releasenotes.html#9.9p2 
 │                        │       │                  ├ [16]: https://www.openwall.com/lists/oss-security/2025/02
+│                        │       │                  │       /18/1 
+│                        │       │                  ├ [17]: https://www.openwall.com/lists/oss-security/2025/02
 │                        │       │                  │       /18/4 
-│                        │       │                  ╰ [17]: https://www.theregister.com/2025/02/18/openssh_vuln
+│                        │       │                  ╰ [18]: https://www.theregister.com/2025/02/18/openssh_vuln
 │                        │       │                          erabilities_mitm_dos/ 
 │                        │       ├ PublishedDate   : 2025-02-18T19:15:29.23Z 
-│                        │       ╰ LastModifiedDate: 2025-02-19T15:15:18.09Z 
+│                        │       ╰ LastModifiedDate: 2025-02-28T13:15:28.343Z 
 │                        ├ [92]  ╭ VulnerabilityID : CVE-2024-13176 
 │                        │       ├ PkgID           : openssl@3.0.2-0ubuntu1.18 
 │                        │       ├ PkgName         : openssl 
@@ -13132,46 +13142,7 @@
 │                              │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-22866 
 │                              ├ PublishedDate   : 2025-02-06T17:15:21.41Z 
 │                              ╰ LastModifiedDate: 2025-02-21T18:15:32.243Z 
-├ [10] ╭ Target : /etc/ssh/ssh_host_rsa_key 
-│      ├ Class  : secret 
-│      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
-│                      ├ Category : AsymmetricPrivateKey 
-│                      ├ Severity : HIGH 
-│                      ├ Title    : Asymmetric Private Key 
-│                      ├ StartLine: 1 
-│                      ├ EndLine  : 1 
-│                      ├ Code      ─ Lines ╭ [0] ╭ Number     : 1 
-│                      │                   │     ├ Content    : BEGIN OPENSSH PRIVATE
-│                      │                   │     │              KEY-----***************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********-----END OPENSSH PRI 
-│                      │                   │     ├ IsCause    : true 
-│                      │                   │     ├ Annotation :  
-│                      │                   │     ├ Truncated  : false 
-│                      │                   │     ├ Highlighted: BEGIN OPENSSH PRIVATE
-│                      │                   │     │              KEY-----***************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********-----END OPENSSH PRI 
-│                      │                   │     ├ FirstCause : true 
-│                      │                   │     ╰ LastCause  : true 
-│                      │                   ╰ [1] ╭ Number    : 2 
-│                      │                         ├ Content   :  
-│                      │                         ├ IsCause   : false 
-│                      │                         ├ Annotation:  
-│                      │                         ├ Truncated : false 
-│                      │                         ├ FirstCause: false 
-│                      │                         ╰ LastCause : false 
-│                      ├ Match    : BEGIN OPENSSH PRIVATE
-│                      │            KEY-----*******************************************************************
-│                      │            ***************************************************************************
-│                      │            **************************************************************************-
-│                      │            ----END OPENSSH PRI 
-│                      ╰ Layer     ╭ Digest   : sha256:516731828ccc7b45bf90ae1c4a00205ac28ae0f1ac84b928f2aa2946
-│                                  │            b319a0b5 
-│                                  ├ DiffID   : sha256:c6b06b96654ebdbe3a6eb2b856daec8e0e9dc22e136d414826e1cf55
-│                                  │            e98d270b 
-│                                  ╰ CreatedBy: COPY / / # buildkit 
-├ [11] ╭ Target : /etc/ssh/ssh_host_dsa_key 
+├ [10] ╭ Target : /etc/ssh/ssh_host_dsa_key 
 │      ├ Class  : secret 
 │      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
 │                      ├ Category : AsymmetricPrivateKey 
@@ -13210,7 +13181,7 @@
 │                                  ├ DiffID   : sha256:c6b06b96654ebdbe3a6eb2b856daec8e0e9dc22e136d414826e1cf55
 │                                  │            e98d270b 
 │                                  ╰ CreatedBy: COPY / / # buildkit 
-├ [12] ╭ Target : /etc/ssh/ssh_host_ecdsa_key 
+├ [11] ╭ Target : /etc/ssh/ssh_host_ecdsa_key 
 │      ├ Class  : secret 
 │      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
 │                      ├ Category : AsymmetricPrivateKey 
@@ -13250,7 +13221,45 @@
 │                                  ├ DiffID   : sha256:c6b06b96654ebdbe3a6eb2b856daec8e0e9dc22e136d414826e1cf55
 │                                  │            e98d270b 
 │                                  ╰ CreatedBy: COPY / / # buildkit 
-╰ [13] ╭ Target : /etc/ssh/ssh_host_ed25519_key 
+├ [12] ╭ Target : /etc/ssh/ssh_host_ed25519_key 
+│      ├ Class  : secret 
+│      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
+│                      ├ Category : AsymmetricPrivateKey 
+│                      ├ Severity : HIGH 
+│                      ├ Title    : Asymmetric Private Key 
+│                      ├ StartLine: 1 
+│                      ├ EndLine  : 1 
+│                      ├ Code      ─ Lines ╭ [0] ╭ Number     : 1 
+│                      │                   │     ├ Content    : BEGIN OPENSSH PRIVATE
+│                      │                   │     │              KEY-----***************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              *********************-----END OPENSSH PRI 
+│                      │                   │     ├ IsCause    : true 
+│                      │                   │     ├ Annotation :  
+│                      │                   │     ├ Truncated  : false 
+│                      │                   │     ├ Highlighted: BEGIN OPENSSH PRIVATE
+│                      │                   │     │              KEY-----***************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              *********************-----END OPENSSH PRI 
+│                      │                   │     ├ FirstCause : true 
+│                      │                   │     ╰ LastCause  : true 
+│                      │                   ╰ [1] ╭ Number    : 2 
+│                      │                         ├ Content   :  
+│                      │                         ├ IsCause   : false 
+│                      │                         ├ Annotation:  
+│                      │                         ├ Truncated : false 
+│                      │                         ├ FirstCause: false 
+│                      │                         ╰ LastCause : false 
+│                      ├ Match    : BEGIN OPENSSH PRIVATE
+│                      │            KEY-----*******************************************************************
+│                      │            ***************************************************************************
+│                      │            **************************************************-----END OPENSSH PRI 
+│                      ╰ Layer     ╭ Digest   : sha256:516731828ccc7b45bf90ae1c4a00205ac28ae0f1ac84b928f2aa2946
+│                                  │            b319a0b5 
+│                                  ├ DiffID   : sha256:c6b06b96654ebdbe3a6eb2b856daec8e0e9dc22e136d414826e1cf55
+│                                  │            e98d270b 
+│                                  ╰ CreatedBy: COPY / / # buildkit 
+╰ [13] ╭ Target : /etc/ssh/ssh_host_rsa_key 
        ├ Class  : secret 
        ╰ Secrets ─ [0] ╭ RuleID   : private-key 
                        ├ Category : AsymmetricPrivateKey 
@@ -13262,14 +13271,14 @@
                        │                   │     ├ Content    : BEGIN OPENSSH PRIVATE
                        │                   │     │              KEY-----***************************************
                        │                   │     │              ***********************************************
-                       │                   │     │              *********************-----END OPENSSH PRI 
+                       │                   │     │              ***********-----END OPENSSH PRI 
                        │                   │     ├ IsCause    : true 
                        │                   │     ├ Annotation :  
                        │                   │     ├ Truncated  : false 
                        │                   │     ├ Highlighted: BEGIN OPENSSH PRIVATE
                        │                   │     │              KEY-----***************************************
                        │                   │     │              ***********************************************
-                       │                   │     │              *********************-----END OPENSSH PRI 
+                       │                   │     │              ***********-----END OPENSSH PRI 
                        │                   │     ├ FirstCause : true 
                        │                   │     ╰ LastCause  : true 
                        │                   ╰ [1] ╭ Number    : 2 
@@ -13282,7 +13291,8 @@
                        ├ Match    : BEGIN OPENSSH PRIVATE
                        │            KEY-----*******************************************************************
                        │            ***************************************************************************
-                       │            **************************************************-----END OPENSSH PRI 
+                       │            **************************************************************************-
+                       │            ----END OPENSSH PRI 
                        ╰ Layer     ╭ Digest   : sha256:516731828ccc7b45bf90ae1c4a00205ac28ae0f1ac84b928f2aa2946
                                    │            b319a0b5 
                                    ├ DiffID   : sha256:c6b06b96654ebdbe3a6eb2b856daec8e0e9dc22e136d414826e1cf55
