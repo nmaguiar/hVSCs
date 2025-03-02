@@ -3194,23 +3194,29 @@
 │                        │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:N/I
 │                        │       │                           │           :H/A:N 
 │                        │       │                           ╰ V3Score : 6.8 
-│                        │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-0938 
-│                        │       │                  ├ [1]: https://github.com/python/cpython/commit/90e526ae67b
-│                        │       │                  │      172ed7c6c56e7edad36263b0f9403 
-│                        │       │                  ├ [2]: https://github.com/python/cpython/commit/a7084f6075c
-│                        │       │                  │      9595ba60119ce8c62f1496f50c568 
-│                        │       │                  ├ [3]: https://github.com/python/cpython/commit/d89a5f6a6e6
-│                        │       │                  │      5511a5f6e0618c4c30a7aa5aba56a 
-│                        │       │                  ├ [4]: https://github.com/python/cpython/issues/105704 
-│                        │       │                  ├ [5]: https://github.com/python/cpython/pull/129418 
-│                        │       │                  ├ [6]: https://mail.python.org/archives/list/security-annou
-│                        │       │                  │      nce@python.org/thread/K4EUG6EKV6JYFIC24BASYOZS4M5XOQ
-│                        │       │                  │      IB/ 
-│                        │       │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2025-0938 
-│                        │       │                  ├ [8]: https://ubuntu.com/security/notices/USN-7280-1 
-│                        │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2025-0938 
+│                        │       ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2025-0938 
+│                        │       │                  ├ [1] : https://github.com/python/cpython/commit/526617ed68
+│                        │       │                  │       cde460236c973e5d0a8bad4de896ba 
+│                        │       │                  ├ [2] : https://github.com/python/cpython/commit/90e526ae67
+│                        │       │                  │       b172ed7c6c56e7edad36263b0f9403 
+│                        │       │                  ├ [3] : https://github.com/python/cpython/commit/a7084f6075
+│                        │       │                  │       c9595ba60119ce8c62f1496f50c568 
+│                        │       │                  ├ [4] : https://github.com/python/cpython/commit/b8b4b713c5
+│                        │       │                  │       f8ec0958c7ef8d29d6711889bc94ab 
+│                        │       │                  ├ [5] : https://github.com/python/cpython/commit/d89a5f6a6e
+│                        │       │                  │       65511a5f6e0618c4c30a7aa5aba56a 
+│                        │       │                  ├ [6] : https://github.com/python/cpython/commit/ff4e5c2566
+│                        │       │                  │       6f63544071a6b075ae8b25c98b7a32 
+│                        │       │                  ├ [7] : https://github.com/python/cpython/issues/105704 
+│                        │       │                  ├ [8] : https://github.com/python/cpython/pull/129418 
+│                        │       │                  ├ [9] : https://mail.python.org/archives/list/security-anno
+│                        │       │                  │       unce@python.org/thread/K4EUG6EKV6JYFIC24BASYOZS4M5X
+│                        │       │                  │       OQIB/ 
+│                        │       │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2025-0938 
+│                        │       │                  ├ [11]: https://ubuntu.com/security/notices/USN-7280-1 
+│                        │       │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2025-0938 
 │                        │       ├ PublishedDate   : 2025-01-31T18:15:38.053Z 
-│                        │       ╰ LastModifiedDate: 2025-02-04T21:15:27.543Z 
+│                        │       ╰ LastModifiedDate: 2025-02-28T20:15:46.58Z 
 │                        ├ [61]  ╭ VulnerabilityID : CVE-2025-0938 
 │                        │       ├ PkgID           : libpython3.10-minimal@3.10.12-1~22.04.8 
 │                        │       ├ PkgName         : libpython3.10-minimal 
@@ -3247,23 +3253,29 @@
 │                        │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:N/I
 │                        │       │                           │           :H/A:N 
 │                        │       │                           ╰ V3Score : 6.8 
-│                        │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-0938 
-│                        │       │                  ├ [1]: https://github.com/python/cpython/commit/90e526ae67b
-│                        │       │                  │      172ed7c6c56e7edad36263b0f9403 
-│                        │       │                  ├ [2]: https://github.com/python/cpython/commit/a7084f6075c
-│                        │       │                  │      9595ba60119ce8c62f1496f50c568 
-│                        │       │                  ├ [3]: https://github.com/python/cpython/commit/d89a5f6a6e6
-│                        │       │                  │      5511a5f6e0618c4c30a7aa5aba56a 
-│                        │       │                  ├ [4]: https://github.com/python/cpython/issues/105704 
-│                        │       │                  ├ [5]: https://github.com/python/cpython/pull/129418 
-│                        │       │                  ├ [6]: https://mail.python.org/archives/list/security-annou
-│                        │       │                  │      nce@python.org/thread/K4EUG6EKV6JYFIC24BASYOZS4M5XOQ
-│                        │       │                  │      IB/ 
-│                        │       │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2025-0938 
-│                        │       │                  ├ [8]: https://ubuntu.com/security/notices/USN-7280-1 
-│                        │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2025-0938 
+│                        │       ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2025-0938 
+│                        │       │                  ├ [1] : https://github.com/python/cpython/commit/526617ed68
+│                        │       │                  │       cde460236c973e5d0a8bad4de896ba 
+│                        │       │                  ├ [2] : https://github.com/python/cpython/commit/90e526ae67
+│                        │       │                  │       b172ed7c6c56e7edad36263b0f9403 
+│                        │       │                  ├ [3] : https://github.com/python/cpython/commit/a7084f6075
+│                        │       │                  │       c9595ba60119ce8c62f1496f50c568 
+│                        │       │                  ├ [4] : https://github.com/python/cpython/commit/b8b4b713c5
+│                        │       │                  │       f8ec0958c7ef8d29d6711889bc94ab 
+│                        │       │                  ├ [5] : https://github.com/python/cpython/commit/d89a5f6a6e
+│                        │       │                  │       65511a5f6e0618c4c30a7aa5aba56a 
+│                        │       │                  ├ [6] : https://github.com/python/cpython/commit/ff4e5c2566
+│                        │       │                  │       6f63544071a6b075ae8b25c98b7a32 
+│                        │       │                  ├ [7] : https://github.com/python/cpython/issues/105704 
+│                        │       │                  ├ [8] : https://github.com/python/cpython/pull/129418 
+│                        │       │                  ├ [9] : https://mail.python.org/archives/list/security-anno
+│                        │       │                  │       unce@python.org/thread/K4EUG6EKV6JYFIC24BASYOZS4M5X
+│                        │       │                  │       OQIB/ 
+│                        │       │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2025-0938 
+│                        │       │                  ├ [11]: https://ubuntu.com/security/notices/USN-7280-1 
+│                        │       │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2025-0938 
 │                        │       ├ PublishedDate   : 2025-01-31T18:15:38.053Z 
-│                        │       ╰ LastModifiedDate: 2025-02-04T21:15:27.543Z 
+│                        │       ╰ LastModifiedDate: 2025-02-28T20:15:46.58Z 
 │                        ├ [62]  ╭ VulnerabilityID : CVE-2025-0938 
 │                        │       ├ PkgID           : libpython3.10-stdlib@3.10.12-1~22.04.8 
 │                        │       ├ PkgName         : libpython3.10-stdlib 
@@ -3300,23 +3312,29 @@
 │                        │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:N/I
 │                        │       │                           │           :H/A:N 
 │                        │       │                           ╰ V3Score : 6.8 
-│                        │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-0938 
-│                        │       │                  ├ [1]: https://github.com/python/cpython/commit/90e526ae67b
-│                        │       │                  │      172ed7c6c56e7edad36263b0f9403 
-│                        │       │                  ├ [2]: https://github.com/python/cpython/commit/a7084f6075c
-│                        │       │                  │      9595ba60119ce8c62f1496f50c568 
-│                        │       │                  ├ [3]: https://github.com/python/cpython/commit/d89a5f6a6e6
-│                        │       │                  │      5511a5f6e0618c4c30a7aa5aba56a 
-│                        │       │                  ├ [4]: https://github.com/python/cpython/issues/105704 
-│                        │       │                  ├ [5]: https://github.com/python/cpython/pull/129418 
-│                        │       │                  ├ [6]: https://mail.python.org/archives/list/security-annou
-│                        │       │                  │      nce@python.org/thread/K4EUG6EKV6JYFIC24BASYOZS4M5XOQ
-│                        │       │                  │      IB/ 
-│                        │       │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2025-0938 
-│                        │       │                  ├ [8]: https://ubuntu.com/security/notices/USN-7280-1 
-│                        │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2025-0938 
+│                        │       ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2025-0938 
+│                        │       │                  ├ [1] : https://github.com/python/cpython/commit/526617ed68
+│                        │       │                  │       cde460236c973e5d0a8bad4de896ba 
+│                        │       │                  ├ [2] : https://github.com/python/cpython/commit/90e526ae67
+│                        │       │                  │       b172ed7c6c56e7edad36263b0f9403 
+│                        │       │                  ├ [3] : https://github.com/python/cpython/commit/a7084f6075
+│                        │       │                  │       c9595ba60119ce8c62f1496f50c568 
+│                        │       │                  ├ [4] : https://github.com/python/cpython/commit/b8b4b713c5
+│                        │       │                  │       f8ec0958c7ef8d29d6711889bc94ab 
+│                        │       │                  ├ [5] : https://github.com/python/cpython/commit/d89a5f6a6e
+│                        │       │                  │       65511a5f6e0618c4c30a7aa5aba56a 
+│                        │       │                  ├ [6] : https://github.com/python/cpython/commit/ff4e5c2566
+│                        │       │                  │       6f63544071a6b075ae8b25c98b7a32 
+│                        │       │                  ├ [7] : https://github.com/python/cpython/issues/105704 
+│                        │       │                  ├ [8] : https://github.com/python/cpython/pull/129418 
+│                        │       │                  ├ [9] : https://mail.python.org/archives/list/security-anno
+│                        │       │                  │       unce@python.org/thread/K4EUG6EKV6JYFIC24BASYOZS4M5X
+│                        │       │                  │       OQIB/ 
+│                        │       │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2025-0938 
+│                        │       │                  ├ [11]: https://ubuntu.com/security/notices/USN-7280-1 
+│                        │       │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2025-0938 
 │                        │       ├ PublishedDate   : 2025-01-31T18:15:38.053Z 
-│                        │       ╰ LastModifiedDate: 2025-02-04T21:15:27.543Z 
+│                        │       ╰ LastModifiedDate: 2025-02-28T20:15:46.58Z 
 │                        ├ [63]  ╭ VulnerabilityID : CVE-2024-13176 
 │                        │       ├ PkgID           : libssl3@3.0.2-0ubuntu1.18 
 │                        │       ├ PkgName         : libssl3 
@@ -3990,8 +4008,8 @@
 │                        │       │                  ├ redhat     : 3 
 │                        │       │                  ╰ ubuntu     : 2 
 │                        │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:H/I
-│                        │       │                           │           :H/A:N 
-│                        │       │                           ╰ V3Score : 7.8 
+│                        │       │                           │           :H/A:H 
+│                        │       │                           ╰ V3Score : 8.1 
 │                        │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-56171 
 │                        │       │                  ├ [1]: https://gitlab.gnome.org/GNOME/libxml2/-/issues/828 
 │                        │       │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-56171 
@@ -4116,7 +4134,7 @@
 │                        │       │                  ├ nvd        : 3 
 │                        │       │                  ├ oracle-oval: 2 
 │                        │       │                  ├ photon     : 3 
-│                        │       │                  ├ redhat     : 1 
+│                        │       │                  ├ redhat     : 2 
 │                        │       │                  ╰ ubuntu     : 1 
 │                        │       ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
 │                        │       │                  │        │           :N/A:H 
@@ -5364,23 +5382,29 @@
 │                        │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:N/I
 │                        │       │                           │           :H/A:N 
 │                        │       │                           ╰ V3Score : 6.8 
-│                        │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-0938 
-│                        │       │                  ├ [1]: https://github.com/python/cpython/commit/90e526ae67b
-│                        │       │                  │      172ed7c6c56e7edad36263b0f9403 
-│                        │       │                  ├ [2]: https://github.com/python/cpython/commit/a7084f6075c
-│                        │       │                  │      9595ba60119ce8c62f1496f50c568 
-│                        │       │                  ├ [3]: https://github.com/python/cpython/commit/d89a5f6a6e6
-│                        │       │                  │      5511a5f6e0618c4c30a7aa5aba56a 
-│                        │       │                  ├ [4]: https://github.com/python/cpython/issues/105704 
-│                        │       │                  ├ [5]: https://github.com/python/cpython/pull/129418 
-│                        │       │                  ├ [6]: https://mail.python.org/archives/list/security-annou
-│                        │       │                  │      nce@python.org/thread/K4EUG6EKV6JYFIC24BASYOZS4M5XOQ
-│                        │       │                  │      IB/ 
-│                        │       │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2025-0938 
-│                        │       │                  ├ [8]: https://ubuntu.com/security/notices/USN-7280-1 
-│                        │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2025-0938 
+│                        │       ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2025-0938 
+│                        │       │                  ├ [1] : https://github.com/python/cpython/commit/526617ed68
+│                        │       │                  │       cde460236c973e5d0a8bad4de896ba 
+│                        │       │                  ├ [2] : https://github.com/python/cpython/commit/90e526ae67
+│                        │       │                  │       b172ed7c6c56e7edad36263b0f9403 
+│                        │       │                  ├ [3] : https://github.com/python/cpython/commit/a7084f6075
+│                        │       │                  │       c9595ba60119ce8c62f1496f50c568 
+│                        │       │                  ├ [4] : https://github.com/python/cpython/commit/b8b4b713c5
+│                        │       │                  │       f8ec0958c7ef8d29d6711889bc94ab 
+│                        │       │                  ├ [5] : https://github.com/python/cpython/commit/d89a5f6a6e
+│                        │       │                  │       65511a5f6e0618c4c30a7aa5aba56a 
+│                        │       │                  ├ [6] : https://github.com/python/cpython/commit/ff4e5c2566
+│                        │       │                  │       6f63544071a6b075ae8b25c98b7a32 
+│                        │       │                  ├ [7] : https://github.com/python/cpython/issues/105704 
+│                        │       │                  ├ [8] : https://github.com/python/cpython/pull/129418 
+│                        │       │                  ├ [9] : https://mail.python.org/archives/list/security-anno
+│                        │       │                  │       unce@python.org/thread/K4EUG6EKV6JYFIC24BASYOZS4M5X
+│                        │       │                  │       OQIB/ 
+│                        │       │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2025-0938 
+│                        │       │                  ├ [11]: https://ubuntu.com/security/notices/USN-7280-1 
+│                        │       │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2025-0938 
 │                        │       ├ PublishedDate   : 2025-01-31T18:15:38.053Z 
-│                        │       ╰ LastModifiedDate: 2025-02-04T21:15:27.543Z 
+│                        │       ╰ LastModifiedDate: 2025-02-28T20:15:46.58Z 
 │                        ├ [98]  ╭ VulnerabilityID : CVE-2025-0938 
 │                        │       ├ PkgID           : python3.10-minimal@3.10.12-1~22.04.8 
 │                        │       ├ PkgName         : python3.10-minimal 
@@ -5417,23 +5441,29 @@
 │                        │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:N/I
 │                        │       │                           │           :H/A:N 
 │                        │       │                           ╰ V3Score : 6.8 
-│                        │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-0938 
-│                        │       │                  ├ [1]: https://github.com/python/cpython/commit/90e526ae67b
-│                        │       │                  │      172ed7c6c56e7edad36263b0f9403 
-│                        │       │                  ├ [2]: https://github.com/python/cpython/commit/a7084f6075c
-│                        │       │                  │      9595ba60119ce8c62f1496f50c568 
-│                        │       │                  ├ [3]: https://github.com/python/cpython/commit/d89a5f6a6e6
-│                        │       │                  │      5511a5f6e0618c4c30a7aa5aba56a 
-│                        │       │                  ├ [4]: https://github.com/python/cpython/issues/105704 
-│                        │       │                  ├ [5]: https://github.com/python/cpython/pull/129418 
-│                        │       │                  ├ [6]: https://mail.python.org/archives/list/security-annou
-│                        │       │                  │      nce@python.org/thread/K4EUG6EKV6JYFIC24BASYOZS4M5XOQ
-│                        │       │                  │      IB/ 
-│                        │       │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2025-0938 
-│                        │       │                  ├ [8]: https://ubuntu.com/security/notices/USN-7280-1 
-│                        │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2025-0938 
+│                        │       ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2025-0938 
+│                        │       │                  ├ [1] : https://github.com/python/cpython/commit/526617ed68
+│                        │       │                  │       cde460236c973e5d0a8bad4de896ba 
+│                        │       │                  ├ [2] : https://github.com/python/cpython/commit/90e526ae67
+│                        │       │                  │       b172ed7c6c56e7edad36263b0f9403 
+│                        │       │                  ├ [3] : https://github.com/python/cpython/commit/a7084f6075
+│                        │       │                  │       c9595ba60119ce8c62f1496f50c568 
+│                        │       │                  ├ [4] : https://github.com/python/cpython/commit/b8b4b713c5
+│                        │       │                  │       f8ec0958c7ef8d29d6711889bc94ab 
+│                        │       │                  ├ [5] : https://github.com/python/cpython/commit/d89a5f6a6e
+│                        │       │                  │       65511a5f6e0618c4c30a7aa5aba56a 
+│                        │       │                  ├ [6] : https://github.com/python/cpython/commit/ff4e5c2566
+│                        │       │                  │       6f63544071a6b075ae8b25c98b7a32 
+│                        │       │                  ├ [7] : https://github.com/python/cpython/issues/105704 
+│                        │       │                  ├ [8] : https://github.com/python/cpython/pull/129418 
+│                        │       │                  ├ [9] : https://mail.python.org/archives/list/security-anno
+│                        │       │                  │       unce@python.org/thread/K4EUG6EKV6JYFIC24BASYOZS4M5X
+│                        │       │                  │       OQIB/ 
+│                        │       │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2025-0938 
+│                        │       │                  ├ [11]: https://ubuntu.com/security/notices/USN-7280-1 
+│                        │       │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2025-0938 
 │                        │       ├ PublishedDate   : 2025-01-31T18:15:38.053Z 
-│                        │       ╰ LastModifiedDate: 2025-02-04T21:15:27.543Z 
+│                        │       ╰ LastModifiedDate: 2025-02-28T20:15:46.58Z 
 │                        ├ [99]  ╭ VulnerabilityID : CVE-2023-7008 
 │                        │       ├ PkgID           : systemd@249.11-0ubuntu3.12 
 │                        │       ├ PkgName         : systemd 
@@ -8056,7 +8086,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ amazon     : 3 
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
@@ -8139,7 +8169,7 @@
 │                        │      │                   bytes grows too small. 
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ amazon     : 3 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ nvd        : 2 
@@ -11110,7 +11140,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ amazon     : 3 
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
@@ -11193,7 +11223,7 @@
 │                        │      │                   bytes grows too small. 
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ amazon     : 3 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ nvd        : 2 
