@@ -3754,7 +3754,7 @@
       ID: ghsa
       Name: GitHub Security Advisory Go
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
-    Title: 'golang: net/http, x/net/http2: rapid stream resets can cause excessive work (CVE-2023-44487)'
+    Title: A malicious HTTP/2 client which rapidly creates requests and immediate ...
     Description: A malicious HTTP/2 client which rapidly creates requests and immediately resets them can cause excessive server resource consumption. While the total number of requests is bounded by the http2.Server.MaxConcurrentStreams setting, resetting an in-progress request allows the attacker to create a new request while the existing one is still executing. With the fix applied, HTTP/2 servers now bound the number of simultaneously executing handler goroutines to the stream concurrency limit (MaxConcurrentStreams). New requests arriving when at the limit (which can only happen after the client has reset an existing, in-flight request) will be queued until a handler exits. If the request queue grows too large, the server will terminate the connection. This issue is also fixed in golang.org/x/net/http2 for users manually configuring HTTP/2. The default stream concurrency limit is 250 streams (requests) per HTTP/2 connection. This value may be adjusted using the golang.org/x/net/http2 package; see the Server.MaxConcurrentStreams setting and the ConfigureServer function.
     Severity: HIGH
     CweIDs:
@@ -3768,7 +3768,6 @@
       ghsa: 3
       nvd: 3
       oracle-oval: 2
-      redhat: 3
       rocky: 2
       ubuntu: 2
     CVSS:
@@ -3781,14 +3780,9 @@
       nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
     References:
     - golang.org/x/net
     - https://access.redhat.com/errata/RHSA-2023:6077
-    - https://access.redhat.com/security/cve/CVE-2023-39325
-    - https://access.redhat.com/security/cve/CVE-2023-44487
     - https://bugzilla.redhat.com/2242803
     - https://bugzilla.redhat.com/2243296
     - https://bugzilla.redhat.com/show_bug.cgi?id=2242803
@@ -3886,7 +3880,6 @@
     - https://ubuntu.com/security/notices/USN-6574-1
     - https://ubuntu.com/security/notices/USN-7061-1
     - https://ubuntu.com/security/notices/USN-7109-1
-    - https://www.cisa.gov/news-events/alerts/2023/10/10/http2-rapid-reset-vulnerability-cve-2023-44487
     - https://www.cve.org/CVERecord?id=CVE-2023-39325
     PublishedDate: '2023-10-11T22:15:09.88Z'
     LastModifiedDate: '2024-11-21T08:15:09.627Z'
@@ -4025,7 +4018,7 @@
       ID: ghsa
       Name: GitHub Security Advisory Go
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
-    Title: 'HTTP/2: Multiple HTTP/2 enabled web servers are vulnerable to a DDoS attack (Rapid Reset Attack)'
+    Title: The HTTP/2 protocol allows a denial of service (server resource consum ...
     Description: The HTTP/2 protocol allows a denial of service (server resource consumption) because request cancellation can reset many streams quickly, as exploited in the wild in August through October 2023.
     Severity: MEDIUM
     CweIDs:
@@ -4040,7 +4033,6 @@
       nvd: 3
       oracle-oval: 3
       photon: 3
-      redhat: 3
       rocky: 3
       ubuntu: 3
     CVSS:
@@ -4053,9 +4045,6 @@
       nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
     References:
     - http://www.openwall.com/lists/oss-security/2023/10/13/4
     - http://www.openwall.com/lists/oss-security/2023/10/13/9
@@ -4064,7 +4053,6 @@
     - http://www.openwall.com/lists/oss-security/2023/10/19/6
     - http://www.openwall.com/lists/oss-security/2023/10/20/8
     - https://access.redhat.com/errata/RHSA-2023:6746
-    - https://access.redhat.com/security/cve/CVE-2023-44487
     - https://access.redhat.com/security/cve/cve-2023-44487
     - https://akka.io/security/akka-http-cve-2023-44487.html
     - https://arstechnica.com/security/2023/10/how-ddosers-used-the-http-2-protocol-to-deliver-attacks-of-unprecedented-size
@@ -4248,7 +4236,6 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-44487
     - https://openssf.org/blog/2023/10/10/http-2-rapid-reset-vulnerability-highlights-need-for-rapid-response
     - https://openssf.org/blog/2023/10/10/http-2-rapid-reset-vulnerability-highlights-need-for-rapid-response/
-    - https://pkg.go.dev/vuln/GO-2023-2102
     - https://seanmonstar.com/post/730794151136935936/hyper-http2-rapid-reset-unaffected
     - https://security.gentoo.org/glsa/202311-09
     - https://security.netapp.com/advisory/ntap-20231016-0001
@@ -4400,7 +4387,7 @@
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
-    Title: 'golang: net/netip: Unexpected behavior from Is methods for IPv4-mapped IPv6 addresses'
+    Title: The various Is methods (IsPrivate, IsLoopback, etc) did not work as ex ...
     Description: The various Is methods (IsPrivate, IsLoopback, etc) did not work as expected for IPv4-mapped IPv6 addresses, returning false for addresses which would return true in their traditional IPv4 forms.
     Severity: CRITICAL
     VendorSeverity:
@@ -4411,7 +4398,6 @@
       nvd: 4
       oracle-oval: 2
       photon: 4
-      redhat: 2
       rocky: 2
       ubuntu: 2
     CVSS:
@@ -4421,13 +4407,9 @@
       nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
         V3Score: 9.8
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N
-        V3Score: 6.7
     References:
     - http://www.openwall.com/lists/oss-security/2024/06/04/1
     - https://access.redhat.com/errata/RHSA-2024:9115
-    - https://access.redhat.com/security/cve/CVE-2024-24790
     - https://bugzilla.redhat.com/2279814
     - https://bugzilla.redhat.com/2292668
     - https://bugzilla.redhat.com/2292787
@@ -4474,7 +4456,7 @@
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
-    Title: 'golang: net/http, x/net/http2: rapid stream resets can cause excessive work (CVE-2023-44487)'
+    Title: A malicious HTTP/2 client which rapidly creates requests and immediate ...
     Description: A malicious HTTP/2 client which rapidly creates requests and immediately resets them can cause excessive server resource consumption. While the total number of requests is bounded by the http2.Server.MaxConcurrentStreams setting, resetting an in-progress request allows the attacker to create a new request while the existing one is still executing. With the fix applied, HTTP/2 servers now bound the number of simultaneously executing handler goroutines to the stream concurrency limit (MaxConcurrentStreams). New requests arriving when at the limit (which can only happen after the client has reset an existing, in-flight request) will be queued until a handler exits. If the request queue grows too large, the server will terminate the connection. This issue is also fixed in golang.org/x/net/http2 for users manually configuring HTTP/2. The default stream concurrency limit is 250 streams (requests) per HTTP/2 connection. This value may be adjusted using the golang.org/x/net/http2 package; see the Server.MaxConcurrentStreams setting and the ConfigureServer function.
     Severity: HIGH
     CweIDs:
@@ -4488,7 +4470,6 @@
       ghsa: 3
       nvd: 3
       oracle-oval: 2
-      redhat: 3
       rocky: 2
       ubuntu: 2
     CVSS:
@@ -4501,14 +4482,9 @@
       nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
     References:
     - golang.org/x/net
     - https://access.redhat.com/errata/RHSA-2023:6077
-    - https://access.redhat.com/security/cve/CVE-2023-39325
-    - https://access.redhat.com/security/cve/CVE-2023-44487
     - https://bugzilla.redhat.com/2242803
     - https://bugzilla.redhat.com/2243296
     - https://bugzilla.redhat.com/show_bug.cgi?id=2242803
@@ -4606,7 +4582,6 @@
     - https://ubuntu.com/security/notices/USN-6574-1
     - https://ubuntu.com/security/notices/USN-7061-1
     - https://ubuntu.com/security/notices/USN-7109-1
-    - https://www.cisa.gov/news-events/alerts/2023/10/10/http2-rapid-reset-vulnerability-cve-2023-44487
     - https://www.cve.org/CVERecord?id=CVE-2023-39325
     PublishedDate: '2023-10-11T22:15:09.88Z'
     LastModifiedDate: '2024-11-21T08:15:09.627Z'
@@ -5040,7 +5015,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -5108,7 +5083,7 @@
     Severity: MEDIUM
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       bitnami: 2
       cbl-mariner: 2
       nvd: 2
@@ -5993,7 +5968,7 @@
       ID: ghsa
       Name: GitHub Security Advisory Go
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
-    Title: 'golang: net/http, x/net/http2: rapid stream resets can cause excessive work (CVE-2023-44487)'
+    Title: A malicious HTTP/2 client which rapidly creates requests and immediate ...
     Description: A malicious HTTP/2 client which rapidly creates requests and immediately resets them can cause excessive server resource consumption. While the total number of requests is bounded by the http2.Server.MaxConcurrentStreams setting, resetting an in-progress request allows the attacker to create a new request while the existing one is still executing. With the fix applied, HTTP/2 servers now bound the number of simultaneously executing handler goroutines to the stream concurrency limit (MaxConcurrentStreams). New requests arriving when at the limit (which can only happen after the client has reset an existing, in-flight request) will be queued until a handler exits. If the request queue grows too large, the server will terminate the connection. This issue is also fixed in golang.org/x/net/http2 for users manually configuring HTTP/2. The default stream concurrency limit is 250 streams (requests) per HTTP/2 connection. This value may be adjusted using the golang.org/x/net/http2 package; see the Server.MaxConcurrentStreams setting and the ConfigureServer function.
     Severity: HIGH
     CweIDs:
@@ -6007,7 +5982,6 @@
       ghsa: 3
       nvd: 3
       oracle-oval: 2
-      redhat: 3
       rocky: 2
       ubuntu: 2
     CVSS:
@@ -6020,14 +5994,9 @@
       nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
     References:
     - golang.org/x/net
     - https://access.redhat.com/errata/RHSA-2023:6077
-    - https://access.redhat.com/security/cve/CVE-2023-39325
-    - https://access.redhat.com/security/cve/CVE-2023-44487
     - https://bugzilla.redhat.com/2242803
     - https://bugzilla.redhat.com/2243296
     - https://bugzilla.redhat.com/show_bug.cgi?id=2242803
@@ -6125,7 +6094,6 @@
     - https://ubuntu.com/security/notices/USN-6574-1
     - https://ubuntu.com/security/notices/USN-7061-1
     - https://ubuntu.com/security/notices/USN-7109-1
-    - https://www.cisa.gov/news-events/alerts/2023/10/10/http2-rapid-reset-vulnerability-cve-2023-44487
     - https://www.cve.org/CVERecord?id=CVE-2023-39325
     PublishedDate: '2023-10-11T22:15:09.88Z'
     LastModifiedDate: '2024-11-21T08:15:09.627Z'
@@ -6264,7 +6232,7 @@
       ID: ghsa
       Name: GitHub Security Advisory Go
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
-    Title: 'HTTP/2: Multiple HTTP/2 enabled web servers are vulnerable to a DDoS attack (Rapid Reset Attack)'
+    Title: The HTTP/2 protocol allows a denial of service (server resource consum ...
     Description: The HTTP/2 protocol allows a denial of service (server resource consumption) because request cancellation can reset many streams quickly, as exploited in the wild in August through October 2023.
     Severity: MEDIUM
     CweIDs:
@@ -6279,7 +6247,6 @@
       nvd: 3
       oracle-oval: 3
       photon: 3
-      redhat: 3
       rocky: 3
       ubuntu: 3
     CVSS:
@@ -6292,9 +6259,6 @@
       nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
     References:
     - http://www.openwall.com/lists/oss-security/2023/10/13/4
     - http://www.openwall.com/lists/oss-security/2023/10/13/9
@@ -6303,7 +6267,6 @@
     - http://www.openwall.com/lists/oss-security/2023/10/19/6
     - http://www.openwall.com/lists/oss-security/2023/10/20/8
     - https://access.redhat.com/errata/RHSA-2023:6746
-    - https://access.redhat.com/security/cve/CVE-2023-44487
     - https://access.redhat.com/security/cve/cve-2023-44487
     - https://akka.io/security/akka-http-cve-2023-44487.html
     - https://arstechnica.com/security/2023/10/how-ddosers-used-the-http-2-protocol-to-deliver-attacks-of-unprecedented-size
@@ -6487,7 +6450,6 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-44487
     - https://openssf.org/blog/2023/10/10/http-2-rapid-reset-vulnerability-highlights-need-for-rapid-response
     - https://openssf.org/blog/2023/10/10/http-2-rapid-reset-vulnerability-highlights-need-for-rapid-response/
-    - https://pkg.go.dev/vuln/GO-2023-2102
     - https://seanmonstar.com/post/730794151136935936/hyper-http2-rapid-reset-unaffected
     - https://security.gentoo.org/glsa/202311-09
     - https://security.netapp.com/advisory/ntap-20231016-0001
@@ -6639,7 +6601,7 @@
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
-    Title: 'golang: net/netip: Unexpected behavior from Is methods for IPv4-mapped IPv6 addresses'
+    Title: The various Is methods (IsPrivate, IsLoopback, etc) did not work as ex ...
     Description: The various Is methods (IsPrivate, IsLoopback, etc) did not work as expected for IPv4-mapped IPv6 addresses, returning false for addresses which would return true in their traditional IPv4 forms.
     Severity: CRITICAL
     VendorSeverity:
@@ -6650,7 +6612,6 @@
       nvd: 4
       oracle-oval: 2
       photon: 4
-      redhat: 2
       rocky: 2
       ubuntu: 2
     CVSS:
@@ -6660,13 +6621,9 @@
       nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
         V3Score: 9.8
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N
-        V3Score: 6.7
     References:
     - http://www.openwall.com/lists/oss-security/2024/06/04/1
     - https://access.redhat.com/errata/RHSA-2024:9115
-    - https://access.redhat.com/security/cve/CVE-2024-24790
     - https://bugzilla.redhat.com/2279814
     - https://bugzilla.redhat.com/2292668
     - https://bugzilla.redhat.com/2292787
@@ -6713,7 +6670,7 @@
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
-    Title: 'golang: net/http, x/net/http2: rapid stream resets can cause excessive work (CVE-2023-44487)'
+    Title: A malicious HTTP/2 client which rapidly creates requests and immediate ...
     Description: A malicious HTTP/2 client which rapidly creates requests and immediately resets them can cause excessive server resource consumption. While the total number of requests is bounded by the http2.Server.MaxConcurrentStreams setting, resetting an in-progress request allows the attacker to create a new request while the existing one is still executing. With the fix applied, HTTP/2 servers now bound the number of simultaneously executing handler goroutines to the stream concurrency limit (MaxConcurrentStreams). New requests arriving when at the limit (which can only happen after the client has reset an existing, in-flight request) will be queued until a handler exits. If the request queue grows too large, the server will terminate the connection. This issue is also fixed in golang.org/x/net/http2 for users manually configuring HTTP/2. The default stream concurrency limit is 250 streams (requests) per HTTP/2 connection. This value may be adjusted using the golang.org/x/net/http2 package; see the Server.MaxConcurrentStreams setting and the ConfigureServer function.
     Severity: HIGH
     CweIDs:
@@ -6727,7 +6684,6 @@
       ghsa: 3
       nvd: 3
       oracle-oval: 2
-      redhat: 3
       rocky: 2
       ubuntu: 2
     CVSS:
@@ -6740,14 +6696,9 @@
       nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
     References:
     - golang.org/x/net
     - https://access.redhat.com/errata/RHSA-2023:6077
-    - https://access.redhat.com/security/cve/CVE-2023-39325
-    - https://access.redhat.com/security/cve/CVE-2023-44487
     - https://bugzilla.redhat.com/2242803
     - https://bugzilla.redhat.com/2243296
     - https://bugzilla.redhat.com/show_bug.cgi?id=2242803
@@ -6845,7 +6796,6 @@
     - https://ubuntu.com/security/notices/USN-6574-1
     - https://ubuntu.com/security/notices/USN-7061-1
     - https://ubuntu.com/security/notices/USN-7109-1
-    - https://www.cisa.gov/news-events/alerts/2023/10/10/http2-rapid-reset-vulnerability-cve-2023-44487
     - https://www.cve.org/CVERecord?id=CVE-2023-39325
     PublishedDate: '2023-10-11T22:15:09.88Z'
     LastModifiedDate: '2024-11-21T08:15:09.627Z'
@@ -7279,7 +7229,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -7347,7 +7297,7 @@
     Severity: MEDIUM
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       bitnami: 2
       cbl-mariner: 2
       nvd: 2
@@ -8651,37 +8601,6 @@
     - https://github.com/grpc/grpc-go
     - https://github.com/grpc/grpc-go/commit/ab292411ddc0f3b7a7786754d1fe05264c3021eb
     - https://github.com/grpc/grpc-go/security/advisories/GHSA-xr7q-jx4m-x55m
-- Target: /etc/ssh/ssh_host_rsa_key
-  Class: secret
-  Secrets:
-  - RuleID: private-key
-    Category: AsymmetricPrivateKey
-    Severity: HIGH
-    Title: Asymmetric Private Key
-    StartLine: 1
-    EndLine: 1
-    Code:
-      Lines:
-      - Number: 1
-        Content: BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
-        IsCause: true
-        Annotation: ''
-        Truncated: false
-        Highlighted: BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
-        FirstCause: true
-        LastCause: true
-      - Number: 2
-        Content: ''
-        IsCause: false
-        Annotation: ''
-        Truncated: false
-        FirstCause: false
-        LastCause: false
-    Match: BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
-    Layer:
-      Digest: sha256:0ed1ddf91059c0efb68aec8faeac1d62fdcf5d58cee386132aecfc1c756d01a3
-      DiffID: sha256:14c20874051f5a33b6225c4fce83171c7d73a064382cbfb2702fd76ba2448527
-      CreatedBy: 'COPY / / # buildkit'
 - Target: /etc/ssh/ssh_host_dsa_key
   Class: secret
   Secrets:
@@ -8771,6 +8690,37 @@
         FirstCause: false
         LastCause: false
     Match: BEGIN OPENSSH PRIVATE KEY-----******************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
+    Layer:
+      Digest: sha256:0ed1ddf91059c0efb68aec8faeac1d62fdcf5d58cee386132aecfc1c756d01a3
+      DiffID: sha256:14c20874051f5a33b6225c4fce83171c7d73a064382cbfb2702fd76ba2448527
+      CreatedBy: 'COPY / / # buildkit'
+- Target: /etc/ssh/ssh_host_rsa_key
+  Class: secret
+  Secrets:
+  - RuleID: private-key
+    Category: AsymmetricPrivateKey
+    Severity: HIGH
+    Title: Asymmetric Private Key
+    StartLine: 1
+    EndLine: 1
+    Code:
+      Lines:
+      - Number: 1
+        Content: BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
+        IsCause: true
+        Annotation: ''
+        Truncated: false
+        Highlighted: BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
+        FirstCause: true
+        LastCause: true
+      - Number: 2
+        Content: ''
+        IsCause: false
+        Annotation: ''
+        Truncated: false
+        FirstCause: false
+        LastCause: false
+    Match: BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
     Layer:
       Digest: sha256:0ed1ddf91059c0efb68aec8faeac1d62fdcf5d58cee386132aecfc1c756d01a3
       DiffID: sha256:14c20874051f5a33b6225c4fce83171c7d73a064382cbfb2702fd76ba2448527
