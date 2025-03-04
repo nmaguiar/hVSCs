@@ -1385,6 +1385,40 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-2236
     PublishedDate: '2024-03-06T22:15:57.977Z'
     LastModifiedDate: '2024-11-21T09:09:19.41Z'
+  - VulnerabilityID: CVE-2025-24528
+    PkgID: libgssapi-krb5-2@1.19.2-2ubuntu0.5
+    PkgName: libgssapi-krb5-2
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libgssapi-krb5-2@1.19.2-2ubuntu0.5?arch=amd64&distro=ubuntu-22.04
+      UID: 2a58fbc85d8badd7
+    InstalledVersion: 1.19.2-2ubuntu0.5
+    FixedVersion: 1.19.2-2ubuntu0.6
+    Status: fixed
+    Layer:
+      Digest: sha256:0ed1ddf91059c0efb68aec8faeac1d62fdcf5d58cee386132aecfc1c756d01a3
+      DiffID: sha256:14c20874051f5a33b6225c4fce83171c7d73a064382cbfb2702fd76ba2448527
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-24528
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'krb5: overflow when calculating ulog block size'
+    Description: A flaw was found in krb5. With incremental propagation enabled, an authenticated attacker can cause kadmind to write beyond the end of the mapped region for the iprop log file. This issue can trigger a process crash and lead to a denial of service.
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 6.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-24528
+    - https://github.com/krb5/krb5/commit/78ceba024b64d49612375be4a12d1c066b0bfbd0
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-24528
+    - https://ubuntu.com/security/notices/USN-7314-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-24528
   - VulnerabilityID: CVE-2024-26458
     PkgID: libgssapi-krb5-2@1.19.2-2ubuntu0.5
     PkgName: libgssapi-krb5-2
@@ -1392,7 +1426,8 @@
       PURL: pkg:deb/ubuntu/libgssapi-krb5-2@1.19.2-2ubuntu0.5?arch=amd64&distro=ubuntu-22.04
       UID: 2a58fbc85d8badd7
     InstalledVersion: 1.19.2-2ubuntu0.5
-    Status: affected
+    FixedVersion: 1.19.2-2ubuntu0.6
+    Status: fixed
     Layer:
       Digest: sha256:0ed1ddf91059c0efb68aec8faeac1d62fdcf5d58cee386132aecfc1c756d01a3
       DiffID: sha256:14c20874051f5a33b6225c4fce83171c7d73a064382cbfb2702fd76ba2448527
@@ -1437,6 +1472,7 @@
     - https://mailman.mit.edu/pipermail/kerberos/2024-March/023095.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-26458
     - https://security.netapp.com/advisory/ntap-20240415-0010/
+    - https://ubuntu.com/security/notices/USN-7314-1
     - https://www.cve.org/CVERecord?id=CVE-2024-26458
     PublishedDate: '2024-02-29T01:44:18.78Z'
     LastModifiedDate: '2024-12-06T21:15:06.28Z'
@@ -1447,7 +1483,8 @@
       PURL: pkg:deb/ubuntu/libgssapi-krb5-2@1.19.2-2ubuntu0.5?arch=amd64&distro=ubuntu-22.04
       UID: 2a58fbc85d8badd7
     InstalledVersion: 1.19.2-2ubuntu0.5
-    Status: affected
+    FixedVersion: 1.19.2-2ubuntu0.6
+    Status: fixed
     Layer:
       Digest: sha256:0ed1ddf91059c0efb68aec8faeac1d62fdcf5d58cee386132aecfc1c756d01a3
       DiffID: sha256:14c20874051f5a33b6225c4fce83171c7d73a064382cbfb2702fd76ba2448527
@@ -1494,9 +1531,44 @@
     - https://mailman.mit.edu/pipermail/kerberos/2024-March/023095.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-26461
     - https://security.netapp.com/advisory/ntap-20240415-0011/
+    - https://ubuntu.com/security/notices/USN-7314-1
     - https://www.cve.org/CVERecord?id=CVE-2024-26461
     PublishedDate: '2024-02-29T01:44:18.82Z'
     LastModifiedDate: '2024-11-21T09:02:26.477Z'
+  - VulnerabilityID: CVE-2025-24528
+    PkgID: libk5crypto3@1.19.2-2ubuntu0.5
+    PkgName: libk5crypto3
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libk5crypto3@1.19.2-2ubuntu0.5?arch=amd64&distro=ubuntu-22.04
+      UID: 1c5a5a0da5ff2d81
+    InstalledVersion: 1.19.2-2ubuntu0.5
+    FixedVersion: 1.19.2-2ubuntu0.6
+    Status: fixed
+    Layer:
+      Digest: sha256:0ed1ddf91059c0efb68aec8faeac1d62fdcf5d58cee386132aecfc1c756d01a3
+      DiffID: sha256:14c20874051f5a33b6225c4fce83171c7d73a064382cbfb2702fd76ba2448527
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-24528
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'krb5: overflow when calculating ulog block size'
+    Description: A flaw was found in krb5. With incremental propagation enabled, an authenticated attacker can cause kadmind to write beyond the end of the mapped region for the iprop log file. This issue can trigger a process crash and lead to a denial of service.
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 6.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-24528
+    - https://github.com/krb5/krb5/commit/78ceba024b64d49612375be4a12d1c066b0bfbd0
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-24528
+    - https://ubuntu.com/security/notices/USN-7314-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-24528
   - VulnerabilityID: CVE-2024-26458
     PkgID: libk5crypto3@1.19.2-2ubuntu0.5
     PkgName: libk5crypto3
@@ -1504,7 +1576,8 @@
       PURL: pkg:deb/ubuntu/libk5crypto3@1.19.2-2ubuntu0.5?arch=amd64&distro=ubuntu-22.04
       UID: 1c5a5a0da5ff2d81
     InstalledVersion: 1.19.2-2ubuntu0.5
-    Status: affected
+    FixedVersion: 1.19.2-2ubuntu0.6
+    Status: fixed
     Layer:
       Digest: sha256:0ed1ddf91059c0efb68aec8faeac1d62fdcf5d58cee386132aecfc1c756d01a3
       DiffID: sha256:14c20874051f5a33b6225c4fce83171c7d73a064382cbfb2702fd76ba2448527
@@ -1549,6 +1622,7 @@
     - https://mailman.mit.edu/pipermail/kerberos/2024-March/023095.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-26458
     - https://security.netapp.com/advisory/ntap-20240415-0010/
+    - https://ubuntu.com/security/notices/USN-7314-1
     - https://www.cve.org/CVERecord?id=CVE-2024-26458
     PublishedDate: '2024-02-29T01:44:18.78Z'
     LastModifiedDate: '2024-12-06T21:15:06.28Z'
@@ -1559,7 +1633,8 @@
       PURL: pkg:deb/ubuntu/libk5crypto3@1.19.2-2ubuntu0.5?arch=amd64&distro=ubuntu-22.04
       UID: 1c5a5a0da5ff2d81
     InstalledVersion: 1.19.2-2ubuntu0.5
-    Status: affected
+    FixedVersion: 1.19.2-2ubuntu0.6
+    Status: fixed
     Layer:
       Digest: sha256:0ed1ddf91059c0efb68aec8faeac1d62fdcf5d58cee386132aecfc1c756d01a3
       DiffID: sha256:14c20874051f5a33b6225c4fce83171c7d73a064382cbfb2702fd76ba2448527
@@ -1606,9 +1681,44 @@
     - https://mailman.mit.edu/pipermail/kerberos/2024-March/023095.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-26461
     - https://security.netapp.com/advisory/ntap-20240415-0011/
+    - https://ubuntu.com/security/notices/USN-7314-1
     - https://www.cve.org/CVERecord?id=CVE-2024-26461
     PublishedDate: '2024-02-29T01:44:18.82Z'
     LastModifiedDate: '2024-11-21T09:02:26.477Z'
+  - VulnerabilityID: CVE-2025-24528
+    PkgID: libkrb5-3@1.19.2-2ubuntu0.5
+    PkgName: libkrb5-3
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libkrb5-3@1.19.2-2ubuntu0.5?arch=amd64&distro=ubuntu-22.04
+      UID: aa4511a00a510683
+    InstalledVersion: 1.19.2-2ubuntu0.5
+    FixedVersion: 1.19.2-2ubuntu0.6
+    Status: fixed
+    Layer:
+      Digest: sha256:0ed1ddf91059c0efb68aec8faeac1d62fdcf5d58cee386132aecfc1c756d01a3
+      DiffID: sha256:14c20874051f5a33b6225c4fce83171c7d73a064382cbfb2702fd76ba2448527
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-24528
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'krb5: overflow when calculating ulog block size'
+    Description: A flaw was found in krb5. With incremental propagation enabled, an authenticated attacker can cause kadmind to write beyond the end of the mapped region for the iprop log file. This issue can trigger a process crash and lead to a denial of service.
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 6.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-24528
+    - https://github.com/krb5/krb5/commit/78ceba024b64d49612375be4a12d1c066b0bfbd0
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-24528
+    - https://ubuntu.com/security/notices/USN-7314-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-24528
   - VulnerabilityID: CVE-2024-26458
     PkgID: libkrb5-3@1.19.2-2ubuntu0.5
     PkgName: libkrb5-3
@@ -1616,7 +1726,8 @@
       PURL: pkg:deb/ubuntu/libkrb5-3@1.19.2-2ubuntu0.5?arch=amd64&distro=ubuntu-22.04
       UID: aa4511a00a510683
     InstalledVersion: 1.19.2-2ubuntu0.5
-    Status: affected
+    FixedVersion: 1.19.2-2ubuntu0.6
+    Status: fixed
     Layer:
       Digest: sha256:0ed1ddf91059c0efb68aec8faeac1d62fdcf5d58cee386132aecfc1c756d01a3
       DiffID: sha256:14c20874051f5a33b6225c4fce83171c7d73a064382cbfb2702fd76ba2448527
@@ -1661,6 +1772,7 @@
     - https://mailman.mit.edu/pipermail/kerberos/2024-March/023095.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-26458
     - https://security.netapp.com/advisory/ntap-20240415-0010/
+    - https://ubuntu.com/security/notices/USN-7314-1
     - https://www.cve.org/CVERecord?id=CVE-2024-26458
     PublishedDate: '2024-02-29T01:44:18.78Z'
     LastModifiedDate: '2024-12-06T21:15:06.28Z'
@@ -1671,7 +1783,8 @@
       PURL: pkg:deb/ubuntu/libkrb5-3@1.19.2-2ubuntu0.5?arch=amd64&distro=ubuntu-22.04
       UID: aa4511a00a510683
     InstalledVersion: 1.19.2-2ubuntu0.5
-    Status: affected
+    FixedVersion: 1.19.2-2ubuntu0.6
+    Status: fixed
     Layer:
       Digest: sha256:0ed1ddf91059c0efb68aec8faeac1d62fdcf5d58cee386132aecfc1c756d01a3
       DiffID: sha256:14c20874051f5a33b6225c4fce83171c7d73a064382cbfb2702fd76ba2448527
@@ -1718,9 +1831,44 @@
     - https://mailman.mit.edu/pipermail/kerberos/2024-March/023095.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-26461
     - https://security.netapp.com/advisory/ntap-20240415-0011/
+    - https://ubuntu.com/security/notices/USN-7314-1
     - https://www.cve.org/CVERecord?id=CVE-2024-26461
     PublishedDate: '2024-02-29T01:44:18.82Z'
     LastModifiedDate: '2024-11-21T09:02:26.477Z'
+  - VulnerabilityID: CVE-2025-24528
+    PkgID: libkrb5support0@1.19.2-2ubuntu0.5
+    PkgName: libkrb5support0
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libkrb5support0@1.19.2-2ubuntu0.5?arch=amd64&distro=ubuntu-22.04
+      UID: f12001857be15819
+    InstalledVersion: 1.19.2-2ubuntu0.5
+    FixedVersion: 1.19.2-2ubuntu0.6
+    Status: fixed
+    Layer:
+      Digest: sha256:0ed1ddf91059c0efb68aec8faeac1d62fdcf5d58cee386132aecfc1c756d01a3
+      DiffID: sha256:14c20874051f5a33b6225c4fce83171c7d73a064382cbfb2702fd76ba2448527
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-24528
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'krb5: overflow when calculating ulog block size'
+    Description: A flaw was found in krb5. With incremental propagation enabled, an authenticated attacker can cause kadmind to write beyond the end of the mapped region for the iprop log file. This issue can trigger a process crash and lead to a denial of service.
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 6.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-24528
+    - https://github.com/krb5/krb5/commit/78ceba024b64d49612375be4a12d1c066b0bfbd0
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-24528
+    - https://ubuntu.com/security/notices/USN-7314-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-24528
   - VulnerabilityID: CVE-2024-26458
     PkgID: libkrb5support0@1.19.2-2ubuntu0.5
     PkgName: libkrb5support0
@@ -1728,7 +1876,8 @@
       PURL: pkg:deb/ubuntu/libkrb5support0@1.19.2-2ubuntu0.5?arch=amd64&distro=ubuntu-22.04
       UID: f12001857be15819
     InstalledVersion: 1.19.2-2ubuntu0.5
-    Status: affected
+    FixedVersion: 1.19.2-2ubuntu0.6
+    Status: fixed
     Layer:
       Digest: sha256:0ed1ddf91059c0efb68aec8faeac1d62fdcf5d58cee386132aecfc1c756d01a3
       DiffID: sha256:14c20874051f5a33b6225c4fce83171c7d73a064382cbfb2702fd76ba2448527
@@ -1773,6 +1922,7 @@
     - https://mailman.mit.edu/pipermail/kerberos/2024-March/023095.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-26458
     - https://security.netapp.com/advisory/ntap-20240415-0010/
+    - https://ubuntu.com/security/notices/USN-7314-1
     - https://www.cve.org/CVERecord?id=CVE-2024-26458
     PublishedDate: '2024-02-29T01:44:18.78Z'
     LastModifiedDate: '2024-12-06T21:15:06.28Z'
@@ -1783,7 +1933,8 @@
       PURL: pkg:deb/ubuntu/libkrb5support0@1.19.2-2ubuntu0.5?arch=amd64&distro=ubuntu-22.04
       UID: f12001857be15819
     InstalledVersion: 1.19.2-2ubuntu0.5
-    Status: affected
+    FixedVersion: 1.19.2-2ubuntu0.6
+    Status: fixed
     Layer:
       Digest: sha256:0ed1ddf91059c0efb68aec8faeac1d62fdcf5d58cee386132aecfc1c756d01a3
       DiffID: sha256:14c20874051f5a33b6225c4fce83171c7d73a064382cbfb2702fd76ba2448527
@@ -1830,6 +1981,7 @@
     - https://mailman.mit.edu/pipermail/kerberos/2024-March/023095.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-26461
     - https://security.netapp.com/advisory/ntap-20240415-0011/
+    - https://ubuntu.com/security/notices/USN-7314-1
     - https://www.cve.org/CVERecord?id=CVE-2024-26461
     PublishedDate: '2024-02-29T01:44:18.82Z'
     LastModifiedDate: '2024-11-21T09:02:26.477Z'
@@ -3754,7 +3906,7 @@
       ID: ghsa
       Name: GitHub Security Advisory Go
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
-    Title: A malicious HTTP/2 client which rapidly creates requests and immediate ...
+    Title: 'golang: net/http, x/net/http2: rapid stream resets can cause excessive work (CVE-2023-44487)'
     Description: A malicious HTTP/2 client which rapidly creates requests and immediately resets them can cause excessive server resource consumption. While the total number of requests is bounded by the http2.Server.MaxConcurrentStreams setting, resetting an in-progress request allows the attacker to create a new request while the existing one is still executing. With the fix applied, HTTP/2 servers now bound the number of simultaneously executing handler goroutines to the stream concurrency limit (MaxConcurrentStreams). New requests arriving when at the limit (which can only happen after the client has reset an existing, in-flight request) will be queued until a handler exits. If the request queue grows too large, the server will terminate the connection. This issue is also fixed in golang.org/x/net/http2 for users manually configuring HTTP/2. The default stream concurrency limit is 250 streams (requests) per HTTP/2 connection. This value may be adjusted using the golang.org/x/net/http2 package; see the Server.MaxConcurrentStreams setting and the ConfigureServer function.
     Severity: HIGH
     CweIDs:
@@ -3768,6 +3920,7 @@
       ghsa: 3
       nvd: 3
       oracle-oval: 2
+      redhat: 3
       rocky: 2
       ubuntu: 2
     CVSS:
@@ -3780,9 +3933,14 @@
       nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
     References:
     - golang.org/x/net
     - https://access.redhat.com/errata/RHSA-2023:6077
+    - https://access.redhat.com/security/cve/CVE-2023-39325
+    - https://access.redhat.com/security/cve/CVE-2023-44487
     - https://bugzilla.redhat.com/2242803
     - https://bugzilla.redhat.com/2243296
     - https://bugzilla.redhat.com/show_bug.cgi?id=2242803
@@ -3880,6 +4038,7 @@
     - https://ubuntu.com/security/notices/USN-6574-1
     - https://ubuntu.com/security/notices/USN-7061-1
     - https://ubuntu.com/security/notices/USN-7109-1
+    - https://www.cisa.gov/news-events/alerts/2023/10/10/http2-rapid-reset-vulnerability-cve-2023-44487
     - https://www.cve.org/CVERecord?id=CVE-2023-39325
     PublishedDate: '2023-10-11T22:15:09.88Z'
     LastModifiedDate: '2024-11-21T08:15:09.627Z'
@@ -3907,7 +4066,7 @@
     CweIDs:
     - CWE-1333
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 3
       cbl-mariner: 3
       ghsa: 3
@@ -3957,7 +4116,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       ghsa: 2
@@ -4018,7 +4177,7 @@
       ID: ghsa
       Name: GitHub Security Advisory Go
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
-    Title: The HTTP/2 protocol allows a denial of service (server resource consum ...
+    Title: 'HTTP/2: Multiple HTTP/2 enabled web servers are vulnerable to a DDoS attack (Rapid Reset Attack)'
     Description: The HTTP/2 protocol allows a denial of service (server resource consumption) because request cancellation can reset many streams quickly, as exploited in the wild in August through October 2023.
     Severity: MEDIUM
     CweIDs:
@@ -4033,6 +4192,7 @@
       nvd: 3
       oracle-oval: 3
       photon: 3
+      redhat: 3
       rocky: 3
       ubuntu: 3
     CVSS:
@@ -4045,6 +4205,9 @@
       nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
     References:
     - http://www.openwall.com/lists/oss-security/2023/10/13/4
     - http://www.openwall.com/lists/oss-security/2023/10/13/9
@@ -4053,6 +4216,7 @@
     - http://www.openwall.com/lists/oss-security/2023/10/19/6
     - http://www.openwall.com/lists/oss-security/2023/10/20/8
     - https://access.redhat.com/errata/RHSA-2023:6746
+    - https://access.redhat.com/security/cve/CVE-2023-44487
     - https://access.redhat.com/security/cve/cve-2023-44487
     - https://akka.io/security/akka-http-cve-2023-44487.html
     - https://arstechnica.com/security/2023/10/how-ddosers-used-the-http-2-protocol-to-deliver-attacks-of-unprecedented-size
@@ -4236,6 +4400,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-44487
     - https://openssf.org/blog/2023/10/10/http-2-rapid-reset-vulnerability-highlights-need-for-rapid-response
     - https://openssf.org/blog/2023/10/10/http-2-rapid-reset-vulnerability-highlights-need-for-rapid-response/
+    - https://pkg.go.dev/vuln/GO-2023-2102
     - https://seanmonstar.com/post/730794151136935936/hyper-http2-rapid-reset-unaffected
     - https://security.gentoo.org/glsa/202311-09
     - https://security.netapp.com/advisory/ntap-20231016-0001
@@ -4387,7 +4552,7 @@
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
-    Title: The various Is methods (IsPrivate, IsLoopback, etc) did not work as ex ...
+    Title: 'golang: net/netip: Unexpected behavior from Is methods for IPv4-mapped IPv6 addresses'
     Description: The various Is methods (IsPrivate, IsLoopback, etc) did not work as expected for IPv4-mapped IPv6 addresses, returning false for addresses which would return true in their traditional IPv4 forms.
     Severity: CRITICAL
     VendorSeverity:
@@ -4398,6 +4563,7 @@
       nvd: 4
       oracle-oval: 2
       photon: 4
+      redhat: 2
       rocky: 2
       ubuntu: 2
     CVSS:
@@ -4407,9 +4573,13 @@
       nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
         V3Score: 9.8
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N
+        V3Score: 6.7
     References:
     - http://www.openwall.com/lists/oss-security/2024/06/04/1
     - https://access.redhat.com/errata/RHSA-2024:9115
+    - https://access.redhat.com/security/cve/CVE-2024-24790
     - https://bugzilla.redhat.com/2279814
     - https://bugzilla.redhat.com/2292668
     - https://bugzilla.redhat.com/2292787
@@ -4456,7 +4626,7 @@
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
-    Title: A malicious HTTP/2 client which rapidly creates requests and immediate ...
+    Title: 'golang: net/http, x/net/http2: rapid stream resets can cause excessive work (CVE-2023-44487)'
     Description: A malicious HTTP/2 client which rapidly creates requests and immediately resets them can cause excessive server resource consumption. While the total number of requests is bounded by the http2.Server.MaxConcurrentStreams setting, resetting an in-progress request allows the attacker to create a new request while the existing one is still executing. With the fix applied, HTTP/2 servers now bound the number of simultaneously executing handler goroutines to the stream concurrency limit (MaxConcurrentStreams). New requests arriving when at the limit (which can only happen after the client has reset an existing, in-flight request) will be queued until a handler exits. If the request queue grows too large, the server will terminate the connection. This issue is also fixed in golang.org/x/net/http2 for users manually configuring HTTP/2. The default stream concurrency limit is 250 streams (requests) per HTTP/2 connection. This value may be adjusted using the golang.org/x/net/http2 package; see the Server.MaxConcurrentStreams setting and the ConfigureServer function.
     Severity: HIGH
     CweIDs:
@@ -4470,6 +4640,7 @@
       ghsa: 3
       nvd: 3
       oracle-oval: 2
+      redhat: 3
       rocky: 2
       ubuntu: 2
     CVSS:
@@ -4482,9 +4653,14 @@
       nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
     References:
     - golang.org/x/net
     - https://access.redhat.com/errata/RHSA-2023:6077
+    - https://access.redhat.com/security/cve/CVE-2023-39325
+    - https://access.redhat.com/security/cve/CVE-2023-44487
     - https://bugzilla.redhat.com/2242803
     - https://bugzilla.redhat.com/2243296
     - https://bugzilla.redhat.com/show_bug.cgi?id=2242803
@@ -4582,6 +4758,7 @@
     - https://ubuntu.com/security/notices/USN-6574-1
     - https://ubuntu.com/security/notices/USN-7061-1
     - https://ubuntu.com/security/notices/USN-7109-1
+    - https://www.cisa.gov/news-events/alerts/2023/10/10/http2-rapid-reset-vulnerability-cve-2023-44487
     - https://www.cve.org/CVERecord?id=CVE-2023-39325
     PublishedDate: '2023-10-11T22:15:09.88Z'
     LastModifiedDate: '2024-11-21T08:15:09.627Z'
@@ -4945,7 +5122,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -5015,7 +5192,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -5968,7 +6145,7 @@
       ID: ghsa
       Name: GitHub Security Advisory Go
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
-    Title: A malicious HTTP/2 client which rapidly creates requests and immediate ...
+    Title: 'golang: net/http, x/net/http2: rapid stream resets can cause excessive work (CVE-2023-44487)'
     Description: A malicious HTTP/2 client which rapidly creates requests and immediately resets them can cause excessive server resource consumption. While the total number of requests is bounded by the http2.Server.MaxConcurrentStreams setting, resetting an in-progress request allows the attacker to create a new request while the existing one is still executing. With the fix applied, HTTP/2 servers now bound the number of simultaneously executing handler goroutines to the stream concurrency limit (MaxConcurrentStreams). New requests arriving when at the limit (which can only happen after the client has reset an existing, in-flight request) will be queued until a handler exits. If the request queue grows too large, the server will terminate the connection. This issue is also fixed in golang.org/x/net/http2 for users manually configuring HTTP/2. The default stream concurrency limit is 250 streams (requests) per HTTP/2 connection. This value may be adjusted using the golang.org/x/net/http2 package; see the Server.MaxConcurrentStreams setting and the ConfigureServer function.
     Severity: HIGH
     CweIDs:
@@ -5982,6 +6159,7 @@
       ghsa: 3
       nvd: 3
       oracle-oval: 2
+      redhat: 3
       rocky: 2
       ubuntu: 2
     CVSS:
@@ -5994,9 +6172,14 @@
       nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
     References:
     - golang.org/x/net
     - https://access.redhat.com/errata/RHSA-2023:6077
+    - https://access.redhat.com/security/cve/CVE-2023-39325
+    - https://access.redhat.com/security/cve/CVE-2023-44487
     - https://bugzilla.redhat.com/2242803
     - https://bugzilla.redhat.com/2243296
     - https://bugzilla.redhat.com/show_bug.cgi?id=2242803
@@ -6094,6 +6277,7 @@
     - https://ubuntu.com/security/notices/USN-6574-1
     - https://ubuntu.com/security/notices/USN-7061-1
     - https://ubuntu.com/security/notices/USN-7109-1
+    - https://www.cisa.gov/news-events/alerts/2023/10/10/http2-rapid-reset-vulnerability-cve-2023-44487
     - https://www.cve.org/CVERecord?id=CVE-2023-39325
     PublishedDate: '2023-10-11T22:15:09.88Z'
     LastModifiedDate: '2024-11-21T08:15:09.627Z'
@@ -6121,7 +6305,7 @@
     CweIDs:
     - CWE-1333
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 3
       cbl-mariner: 3
       ghsa: 3
@@ -6171,7 +6355,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       ghsa: 2
@@ -6232,7 +6416,7 @@
       ID: ghsa
       Name: GitHub Security Advisory Go
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
-    Title: The HTTP/2 protocol allows a denial of service (server resource consum ...
+    Title: 'HTTP/2: Multiple HTTP/2 enabled web servers are vulnerable to a DDoS attack (Rapid Reset Attack)'
     Description: The HTTP/2 protocol allows a denial of service (server resource consumption) because request cancellation can reset many streams quickly, as exploited in the wild in August through October 2023.
     Severity: MEDIUM
     CweIDs:
@@ -6247,6 +6431,7 @@
       nvd: 3
       oracle-oval: 3
       photon: 3
+      redhat: 3
       rocky: 3
       ubuntu: 3
     CVSS:
@@ -6259,6 +6444,9 @@
       nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
     References:
     - http://www.openwall.com/lists/oss-security/2023/10/13/4
     - http://www.openwall.com/lists/oss-security/2023/10/13/9
@@ -6267,6 +6455,7 @@
     - http://www.openwall.com/lists/oss-security/2023/10/19/6
     - http://www.openwall.com/lists/oss-security/2023/10/20/8
     - https://access.redhat.com/errata/RHSA-2023:6746
+    - https://access.redhat.com/security/cve/CVE-2023-44487
     - https://access.redhat.com/security/cve/cve-2023-44487
     - https://akka.io/security/akka-http-cve-2023-44487.html
     - https://arstechnica.com/security/2023/10/how-ddosers-used-the-http-2-protocol-to-deliver-attacks-of-unprecedented-size
@@ -6450,6 +6639,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-44487
     - https://openssf.org/blog/2023/10/10/http-2-rapid-reset-vulnerability-highlights-need-for-rapid-response
     - https://openssf.org/blog/2023/10/10/http-2-rapid-reset-vulnerability-highlights-need-for-rapid-response/
+    - https://pkg.go.dev/vuln/GO-2023-2102
     - https://seanmonstar.com/post/730794151136935936/hyper-http2-rapid-reset-unaffected
     - https://security.gentoo.org/glsa/202311-09
     - https://security.netapp.com/advisory/ntap-20231016-0001
@@ -6601,7 +6791,7 @@
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
-    Title: The various Is methods (IsPrivate, IsLoopback, etc) did not work as ex ...
+    Title: 'golang: net/netip: Unexpected behavior from Is methods for IPv4-mapped IPv6 addresses'
     Description: The various Is methods (IsPrivate, IsLoopback, etc) did not work as expected for IPv4-mapped IPv6 addresses, returning false for addresses which would return true in their traditional IPv4 forms.
     Severity: CRITICAL
     VendorSeverity:
@@ -6612,6 +6802,7 @@
       nvd: 4
       oracle-oval: 2
       photon: 4
+      redhat: 2
       rocky: 2
       ubuntu: 2
     CVSS:
@@ -6621,9 +6812,13 @@
       nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
         V3Score: 9.8
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N
+        V3Score: 6.7
     References:
     - http://www.openwall.com/lists/oss-security/2024/06/04/1
     - https://access.redhat.com/errata/RHSA-2024:9115
+    - https://access.redhat.com/security/cve/CVE-2024-24790
     - https://bugzilla.redhat.com/2279814
     - https://bugzilla.redhat.com/2292668
     - https://bugzilla.redhat.com/2292787
@@ -6670,7 +6865,7 @@
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
-    Title: A malicious HTTP/2 client which rapidly creates requests and immediate ...
+    Title: 'golang: net/http, x/net/http2: rapid stream resets can cause excessive work (CVE-2023-44487)'
     Description: A malicious HTTP/2 client which rapidly creates requests and immediately resets them can cause excessive server resource consumption. While the total number of requests is bounded by the http2.Server.MaxConcurrentStreams setting, resetting an in-progress request allows the attacker to create a new request while the existing one is still executing. With the fix applied, HTTP/2 servers now bound the number of simultaneously executing handler goroutines to the stream concurrency limit (MaxConcurrentStreams). New requests arriving when at the limit (which can only happen after the client has reset an existing, in-flight request) will be queued until a handler exits. If the request queue grows too large, the server will terminate the connection. This issue is also fixed in golang.org/x/net/http2 for users manually configuring HTTP/2. The default stream concurrency limit is 250 streams (requests) per HTTP/2 connection. This value may be adjusted using the golang.org/x/net/http2 package; see the Server.MaxConcurrentStreams setting and the ConfigureServer function.
     Severity: HIGH
     CweIDs:
@@ -6684,6 +6879,7 @@
       ghsa: 3
       nvd: 3
       oracle-oval: 2
+      redhat: 3
       rocky: 2
       ubuntu: 2
     CVSS:
@@ -6696,9 +6892,14 @@
       nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
     References:
     - golang.org/x/net
     - https://access.redhat.com/errata/RHSA-2023:6077
+    - https://access.redhat.com/security/cve/CVE-2023-39325
+    - https://access.redhat.com/security/cve/CVE-2023-44487
     - https://bugzilla.redhat.com/2242803
     - https://bugzilla.redhat.com/2243296
     - https://bugzilla.redhat.com/show_bug.cgi?id=2242803
@@ -6796,6 +6997,7 @@
     - https://ubuntu.com/security/notices/USN-6574-1
     - https://ubuntu.com/security/notices/USN-7061-1
     - https://ubuntu.com/security/notices/USN-7109-1
+    - https://www.cisa.gov/news-events/alerts/2023/10/10/http2-rapid-reset-vulnerability-cve-2023-44487
     - https://www.cve.org/CVERecord?id=CVE-2023-39325
     PublishedDate: '2023-10-11T22:15:09.88Z'
     LastModifiedDate: '2024-11-21T08:15:09.627Z'
@@ -7159,7 +7361,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -7229,7 +7431,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -8364,7 +8566,7 @@
     CweIDs:
     - CWE-1333
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 3
       cbl-mariner: 3
       ghsa: 3
@@ -8541,7 +8743,7 @@
     CweIDs:
     - CWE-1333
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 3
       cbl-mariner: 3
       ghsa: 3
