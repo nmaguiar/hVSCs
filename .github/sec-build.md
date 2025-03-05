@@ -273,81 +273,7 @@
 │                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2022-3219 
 │                        │      ├ PublishedDate   : 2023-02-23T20:15:12.393Z 
 │                        │      ╰ LastModifiedDate: 2024-11-21T07:19:04.727Z 
-│                        ├ [5]  ╭ VulnerabilityID : CVE-2023-4039 
-│                        │      ├ PkgID           : gcc-12-base@12.3.0-1ubuntu1~22.04 
-│                        │      ├ PkgName         : gcc-12-base 
-│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/gcc-12-base@12.3.0-1ubuntu1~22.04?arc
-│                        │      │                  │       h=amd64&distro=ubuntu-22.04 
-│                        │      │                  ╰ UID : 4075ab57b22d0ab2 
-│                        │      ├ InstalledVersion: 12.3.0-1ubuntu1~22.04 
-│                        │      ├ Status          : affected 
-│                        │      ├ Layer            ╭ Digest: sha256:0ed1ddf91059c0efb68aec8faeac1d62fdcf5d58cee
-│                        │      │                  │         386132aecfc1c756d01a3 
-│                        │      │                  ╰ DiffID: sha256:14c20874051f5a33b6225c4fce83171c7d73a064382
-│                        │      │                            cbfb2702fd76ba2448527 
-│                        │      ├ SeveritySource  : ubuntu 
-│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-4039 
-│                        │      ├ DataSource       ╭ ID  : ubuntu 
-│                        │      │                  ├ Name: Ubuntu CVE Tracker 
-│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │      ├ Title           : gcc: -fstack-protector fails to guard dynamic stack
-│                        │      │                   allocations on ARM64 
-│                        │      ├ Description     : **DISPUTED**A failure in the -fstack-protector feature in
-│                        │      │                   GCC-based toolchains 
-│                        │      │                   that target AArch64 allows an attacker to exploit an
-│                        │      │                   existing buffer 
-│                        │      │                   overflow in dynamically-sized local variables in your
-│                        │      │                   application 
-│                        │      │                   without this being detected. This stack-protector failure
-│                        │      │                   only applies 
-│                        │      │                   to C99-style dynamically-sized local variables or those
-│                        │      │                   created using 
-│                        │      │                   alloca(). The stack-protector operates as intended for
-│                        │      │                   statically-sized 
-│                        │      │                   local variables.
-│                        │      │                   
-│                        │      │                   The default behavior when the stack-protector 
-│                        │      │                   detects an overflow is to terminate your application,
-│                        │      │                   resulting in 
-│                        │      │                   controlled loss of availability. An attacker who can
-│                        │      │                   exploit a buffer 
-│                        │      │                   overflow without triggering the stack-protector might be
-│                        │      │                   able to change 
-│                        │      │                   program flow control to cause an uncontrolled loss of
-│                        │      │                   availability or to
-│                        │      │                    go further and affect confidentiality or integrity. NOTE:
-│                        │      │                   The GCC project argues that this is a missed hardening bug
-│                        │      │                   and not a vulnerability by itself. 
-│                        │      ├ Severity        : MEDIUM 
-│                        │      ├ CweIDs           ─ [0]: CWE-693 
-│                        │      ├ VendorSeverity   ╭ amazon     : 2 
-│                        │      │                  ├ azure      : 2 
-│                        │      │                  ├ cbl-mariner: 2 
-│                        │      │                  ├ nvd        : 2 
-│                        │      │                  ├ oracle-oval: 1 
-│                        │      │                  ╰ ubuntu     : 2 
-│                        │      ├ CVSS             ─ nvd ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N 
-│                        │      │                        ╰ V3Score : 4.8 
-│                        │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2023-4039 
-│                        │      │                  ├ [1] : https://developer.arm.com/Arm%20Security%20Center/GC
-│                        │      │                  │       C%20Stack%20Protector%20Vulnerability%20AArch64 
-│                        │      │                  ├ [2] : https://gcc.gnu.org/git/?p=gcc.git;a=blob_plain;f=SE
-│                        │      │                  │       CURITY.txt 
-│                        │      │                  ├ [3] : https://gcc.gnu.org/pipermail/gcc-patches/2023-Octob
-│                        │      │                  │       er/634066.html 
-│                        │      │                  ├ [4] : https://github.com/metaredteam/external-disclosures/
-│                        │      │                  │       security/advisories/GHSA-x7ch-h5rf-w2mf 
-│                        │      │                  ├ [5] : https://inbox.sourceware.org/gcc-patches/46cfa37b-56
-│                        │      │                  │       eb-344d-0745-e0d35393392d@gotplt.org 
-│                        │      │                  ├ [6] : https://linux.oracle.com/cve/CVE-2023-4039.html 
-│                        │      │                  ├ [7] : https://linux.oracle.com/errata/ELSA-2023-28766.html 
-│                        │      │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2023-4039 
-│                        │      │                  ├ [9] : https://rtx.meta.security/mitigation/2023/09/12/CVE-
-│                        │      │                  │       2023-4039.html 
-│                        │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2023-4039 
-│                        │      ├ PublishedDate   : 2023-09-13T09:15:15.69Z 
-│                        │      ╰ LastModifiedDate: 2025-02-13T17:17:14.717Z 
-│                        ├ [6]  ╭ VulnerabilityID : CVE-2022-27943 
+│                        ├ [5]  ╭ VulnerabilityID : CVE-2022-27943 
 │                        │      ├ PkgID           : gcc-12-base@12.3.0-1ubuntu1~22.04 
 │                        │      ├ PkgName         : gcc-12-base 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/gcc-12-base@12.3.0-1ubuntu1~22.04?arc
@@ -400,6 +326,80 @@
 │                        │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2022-27943 
 │                        │      ├ PublishedDate   : 2022-03-26T13:15:07.9Z 
 │                        │      ╰ LastModifiedDate: 2024-11-21T06:56:31.04Z 
+│                        ├ [6]  ╭ VulnerabilityID : CVE-2023-4039 
+│                        │      ├ PkgID           : gcc-12-base@12.3.0-1ubuntu1~22.04 
+│                        │      ├ PkgName         : gcc-12-base 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/gcc-12-base@12.3.0-1ubuntu1~22.04?arc
+│                        │      │                  │       h=amd64&distro=ubuntu-22.04 
+│                        │      │                  ╰ UID : 4075ab57b22d0ab2 
+│                        │      ├ InstalledVersion: 12.3.0-1ubuntu1~22.04 
+│                        │      ├ Status          : affected 
+│                        │      ├ Layer            ╭ Digest: sha256:0ed1ddf91059c0efb68aec8faeac1d62fdcf5d58cee
+│                        │      │                  │         386132aecfc1c756d01a3 
+│                        │      │                  ╰ DiffID: sha256:14c20874051f5a33b6225c4fce83171c7d73a064382
+│                        │      │                            cbfb2702fd76ba2448527 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-4039 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : gcc: -fstack-protector fails to guard dynamic stack
+│                        │      │                   allocations on ARM64 
+│                        │      ├ Description     : **DISPUTED**A failure in the -fstack-protector feature in
+│                        │      │                   GCC-based toolchains 
+│                        │      │                   that target AArch64 allows an attacker to exploit an
+│                        │      │                   existing buffer 
+│                        │      │                   overflow in dynamically-sized local variables in your
+│                        │      │                   application 
+│                        │      │                   without this being detected. This stack-protector failure
+│                        │      │                   only applies 
+│                        │      │                   to C99-style dynamically-sized local variables or those
+│                        │      │                   created using 
+│                        │      │                   alloca(). The stack-protector operates as intended for
+│                        │      │                   statically-sized 
+│                        │      │                   local variables.
+│                        │      │                   
+│                        │      │                   The default behavior when the stack-protector 
+│                        │      │                   detects an overflow is to terminate your application,
+│                        │      │                   resulting in 
+│                        │      │                   controlled loss of availability. An attacker who can
+│                        │      │                   exploit a buffer 
+│                        │      │                   overflow without triggering the stack-protector might be
+│                        │      │                   able to change 
+│                        │      │                   program flow control to cause an uncontrolled loss of
+│                        │      │                   availability or to
+│                        │      │                    go further and affect confidentiality or integrity. NOTE:
+│                        │      │                   The GCC project argues that this is a missed hardening bug
+│                        │      │                   and not a vulnerability by itself. 
+│                        │      ├ Severity        : LOW 
+│                        │      ├ CweIDs           ─ [0]: CWE-693 
+│                        │      ├ VendorSeverity   ╭ amazon     : 2 
+│                        │      │                  ├ azure      : 2 
+│                        │      │                  ├ cbl-mariner: 2 
+│                        │      │                  ├ nvd        : 2 
+│                        │      │                  ├ oracle-oval: 1 
+│                        │      │                  ╰ ubuntu     : 1 
+│                        │      ├ CVSS             ─ nvd ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N 
+│                        │      │                        ╰ V3Score : 4.8 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2023-4039 
+│                        │      │                  ├ [1] : https://developer.arm.com/Arm%20Security%20Center/GC
+│                        │      │                  │       C%20Stack%20Protector%20Vulnerability%20AArch64 
+│                        │      │                  ├ [2] : https://gcc.gnu.org/git/?p=gcc.git;a=blob_plain;f=SE
+│                        │      │                  │       CURITY.txt 
+│                        │      │                  ├ [3] : https://gcc.gnu.org/pipermail/gcc-patches/2023-Octob
+│                        │      │                  │       er/634066.html 
+│                        │      │                  ├ [4] : https://github.com/metaredteam/external-disclosures/
+│                        │      │                  │       security/advisories/GHSA-x7ch-h5rf-w2mf 
+│                        │      │                  ├ [5] : https://inbox.sourceware.org/gcc-patches/46cfa37b-56
+│                        │      │                  │       eb-344d-0745-e0d35393392d@gotplt.org 
+│                        │      │                  ├ [6] : https://linux.oracle.com/cve/CVE-2023-4039.html 
+│                        │      │                  ├ [7] : https://linux.oracle.com/errata/ELSA-2023-28766.html 
+│                        │      │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2023-4039 
+│                        │      │                  ├ [9] : https://rtx.meta.security/mitigation/2023/09/12/CVE-
+│                        │      │                  │       2023-4039.html 
+│                        │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2023-4039 
+│                        │      ├ PublishedDate   : 2023-09-13T09:15:15.69Z 
+│                        │      ╰ LastModifiedDate: 2025-02-13T17:17:14.717Z 
 │                        ├ [7]  ╭ VulnerabilityID : CVE-2024-52005 
 │                        │      ├ PkgID           : git@1:2.34.1-1ubuntu1.12 
 │                        │      ├ PkgName         : git 
@@ -948,81 +948,7 @@
 │                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2022-3219 
 │                        │      ├ PublishedDate   : 2023-02-23T20:15:12.393Z 
 │                        │      ╰ LastModifiedDate: 2024-11-21T07:19:04.727Z 
-│                        ├ [19] ╭ VulnerabilityID : CVE-2023-4039 
-│                        │      ├ PkgID           : libatomic1@12.3.0-1ubuntu1~22.04 
-│                        │      ├ PkgName         : libatomic1 
-│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libatomic1@12.3.0-1ubuntu1~22.04?arch
-│                        │      │                  │       =amd64&distro=ubuntu-22.04 
-│                        │      │                  ╰ UID : e4f06854c21e214d 
-│                        │      ├ InstalledVersion: 12.3.0-1ubuntu1~22.04 
-│                        │      ├ Status          : affected 
-│                        │      ├ Layer            ╭ Digest: sha256:0ed1ddf91059c0efb68aec8faeac1d62fdcf5d58cee
-│                        │      │                  │         386132aecfc1c756d01a3 
-│                        │      │                  ╰ DiffID: sha256:14c20874051f5a33b6225c4fce83171c7d73a064382
-│                        │      │                            cbfb2702fd76ba2448527 
-│                        │      ├ SeveritySource  : ubuntu 
-│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-4039 
-│                        │      ├ DataSource       ╭ ID  : ubuntu 
-│                        │      │                  ├ Name: Ubuntu CVE Tracker 
-│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │      ├ Title           : gcc: -fstack-protector fails to guard dynamic stack
-│                        │      │                   allocations on ARM64 
-│                        │      ├ Description     : **DISPUTED**A failure in the -fstack-protector feature in
-│                        │      │                   GCC-based toolchains 
-│                        │      │                   that target AArch64 allows an attacker to exploit an
-│                        │      │                   existing buffer 
-│                        │      │                   overflow in dynamically-sized local variables in your
-│                        │      │                   application 
-│                        │      │                   without this being detected. This stack-protector failure
-│                        │      │                   only applies 
-│                        │      │                   to C99-style dynamically-sized local variables or those
-│                        │      │                   created using 
-│                        │      │                   alloca(). The stack-protector operates as intended for
-│                        │      │                   statically-sized 
-│                        │      │                   local variables.
-│                        │      │                   
-│                        │      │                   The default behavior when the stack-protector 
-│                        │      │                   detects an overflow is to terminate your application,
-│                        │      │                   resulting in 
-│                        │      │                   controlled loss of availability. An attacker who can
-│                        │      │                   exploit a buffer 
-│                        │      │                   overflow without triggering the stack-protector might be
-│                        │      │                   able to change 
-│                        │      │                   program flow control to cause an uncontrolled loss of
-│                        │      │                   availability or to
-│                        │      │                    go further and affect confidentiality or integrity. NOTE:
-│                        │      │                   The GCC project argues that this is a missed hardening bug
-│                        │      │                   and not a vulnerability by itself. 
-│                        │      ├ Severity        : MEDIUM 
-│                        │      ├ CweIDs           ─ [0]: CWE-693 
-│                        │      ├ VendorSeverity   ╭ amazon     : 2 
-│                        │      │                  ├ azure      : 2 
-│                        │      │                  ├ cbl-mariner: 2 
-│                        │      │                  ├ nvd        : 2 
-│                        │      │                  ├ oracle-oval: 1 
-│                        │      │                  ╰ ubuntu     : 2 
-│                        │      ├ CVSS             ─ nvd ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N 
-│                        │      │                        ╰ V3Score : 4.8 
-│                        │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2023-4039 
-│                        │      │                  ├ [1] : https://developer.arm.com/Arm%20Security%20Center/GC
-│                        │      │                  │       C%20Stack%20Protector%20Vulnerability%20AArch64 
-│                        │      │                  ├ [2] : https://gcc.gnu.org/git/?p=gcc.git;a=blob_plain;f=SE
-│                        │      │                  │       CURITY.txt 
-│                        │      │                  ├ [3] : https://gcc.gnu.org/pipermail/gcc-patches/2023-Octob
-│                        │      │                  │       er/634066.html 
-│                        │      │                  ├ [4] : https://github.com/metaredteam/external-disclosures/
-│                        │      │                  │       security/advisories/GHSA-x7ch-h5rf-w2mf 
-│                        │      │                  ├ [5] : https://inbox.sourceware.org/gcc-patches/46cfa37b-56
-│                        │      │                  │       eb-344d-0745-e0d35393392d@gotplt.org 
-│                        │      │                  ├ [6] : https://linux.oracle.com/cve/CVE-2023-4039.html 
-│                        │      │                  ├ [7] : https://linux.oracle.com/errata/ELSA-2023-28766.html 
-│                        │      │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2023-4039 
-│                        │      │                  ├ [9] : https://rtx.meta.security/mitigation/2023/09/12/CVE-
-│                        │      │                  │       2023-4039.html 
-│                        │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2023-4039 
-│                        │      ├ PublishedDate   : 2023-09-13T09:15:15.69Z 
-│                        │      ╰ LastModifiedDate: 2025-02-13T17:17:14.717Z 
-│                        ├ [20] ╭ VulnerabilityID : CVE-2022-27943 
+│                        ├ [19] ╭ VulnerabilityID : CVE-2022-27943 
 │                        │      ├ PkgID           : libatomic1@12.3.0-1ubuntu1~22.04 
 │                        │      ├ PkgName         : libatomic1 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libatomic1@12.3.0-1ubuntu1~22.04?arch
@@ -1075,6 +1001,80 @@
 │                        │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2022-27943 
 │                        │      ├ PublishedDate   : 2022-03-26T13:15:07.9Z 
 │                        │      ╰ LastModifiedDate: 2024-11-21T06:56:31.04Z 
+│                        ├ [20] ╭ VulnerabilityID : CVE-2023-4039 
+│                        │      ├ PkgID           : libatomic1@12.3.0-1ubuntu1~22.04 
+│                        │      ├ PkgName         : libatomic1 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libatomic1@12.3.0-1ubuntu1~22.04?arch
+│                        │      │                  │       =amd64&distro=ubuntu-22.04 
+│                        │      │                  ╰ UID : e4f06854c21e214d 
+│                        │      ├ InstalledVersion: 12.3.0-1ubuntu1~22.04 
+│                        │      ├ Status          : affected 
+│                        │      ├ Layer            ╭ Digest: sha256:0ed1ddf91059c0efb68aec8faeac1d62fdcf5d58cee
+│                        │      │                  │         386132aecfc1c756d01a3 
+│                        │      │                  ╰ DiffID: sha256:14c20874051f5a33b6225c4fce83171c7d73a064382
+│                        │      │                            cbfb2702fd76ba2448527 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-4039 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : gcc: -fstack-protector fails to guard dynamic stack
+│                        │      │                   allocations on ARM64 
+│                        │      ├ Description     : **DISPUTED**A failure in the -fstack-protector feature in
+│                        │      │                   GCC-based toolchains 
+│                        │      │                   that target AArch64 allows an attacker to exploit an
+│                        │      │                   existing buffer 
+│                        │      │                   overflow in dynamically-sized local variables in your
+│                        │      │                   application 
+│                        │      │                   without this being detected. This stack-protector failure
+│                        │      │                   only applies 
+│                        │      │                   to C99-style dynamically-sized local variables or those
+│                        │      │                   created using 
+│                        │      │                   alloca(). The stack-protector operates as intended for
+│                        │      │                   statically-sized 
+│                        │      │                   local variables.
+│                        │      │                   
+│                        │      │                   The default behavior when the stack-protector 
+│                        │      │                   detects an overflow is to terminate your application,
+│                        │      │                   resulting in 
+│                        │      │                   controlled loss of availability. An attacker who can
+│                        │      │                   exploit a buffer 
+│                        │      │                   overflow without triggering the stack-protector might be
+│                        │      │                   able to change 
+│                        │      │                   program flow control to cause an uncontrolled loss of
+│                        │      │                   availability or to
+│                        │      │                    go further and affect confidentiality or integrity. NOTE:
+│                        │      │                   The GCC project argues that this is a missed hardening bug
+│                        │      │                   and not a vulnerability by itself. 
+│                        │      ├ Severity        : LOW 
+│                        │      ├ CweIDs           ─ [0]: CWE-693 
+│                        │      ├ VendorSeverity   ╭ amazon     : 2 
+│                        │      │                  ├ azure      : 2 
+│                        │      │                  ├ cbl-mariner: 2 
+│                        │      │                  ├ nvd        : 2 
+│                        │      │                  ├ oracle-oval: 1 
+│                        │      │                  ╰ ubuntu     : 1 
+│                        │      ├ CVSS             ─ nvd ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N 
+│                        │      │                        ╰ V3Score : 4.8 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2023-4039 
+│                        │      │                  ├ [1] : https://developer.arm.com/Arm%20Security%20Center/GC
+│                        │      │                  │       C%20Stack%20Protector%20Vulnerability%20AArch64 
+│                        │      │                  ├ [2] : https://gcc.gnu.org/git/?p=gcc.git;a=blob_plain;f=SE
+│                        │      │                  │       CURITY.txt 
+│                        │      │                  ├ [3] : https://gcc.gnu.org/pipermail/gcc-patches/2023-Octob
+│                        │      │                  │       er/634066.html 
+│                        │      │                  ├ [4] : https://github.com/metaredteam/external-disclosures/
+│                        │      │                  │       security/advisories/GHSA-x7ch-h5rf-w2mf 
+│                        │      │                  ├ [5] : https://inbox.sourceware.org/gcc-patches/46cfa37b-56
+│                        │      │                  │       eb-344d-0745-e0d35393392d@gotplt.org 
+│                        │      │                  ├ [6] : https://linux.oracle.com/cve/CVE-2023-4039.html 
+│                        │      │                  ├ [7] : https://linux.oracle.com/errata/ELSA-2023-28766.html 
+│                        │      │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2023-4039 
+│                        │      │                  ├ [9] : https://rtx.meta.security/mitigation/2023/09/12/CVE-
+│                        │      │                  │       2023-4039.html 
+│                        │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2023-4039 
+│                        │      ├ PublishedDate   : 2023-09-13T09:15:15.69Z 
+│                        │      ╰ LastModifiedDate: 2025-02-13T17:17:14.717Z 
 │                        ├ [21] ╭ VulnerabilityID : CVE-2016-20013 
 │                        │      ├ PkgID           : libc-bin@2.35-0ubuntu3.9 
 │                        │      ├ PkgName         : libc-bin 
@@ -1329,81 +1329,7 @@
 │                        │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2025-23022 
 │                        │      ├ PublishedDate   : 2025-01-10T15:15:16.967Z 
 │                        │      ╰ LastModifiedDate: 2025-01-16T21:12:15.537Z 
-│                        ├ [27] ╭ VulnerabilityID : CVE-2023-4039 
-│                        │      ├ PkgID           : libgcc-s1@12.3.0-1ubuntu1~22.04 
-│                        │      ├ PkgName         : libgcc-s1 
-│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libgcc-s1@12.3.0-1ubuntu1~22.04?arch=
-│                        │      │                  │       amd64&distro=ubuntu-22.04 
-│                        │      │                  ╰ UID : d54016dd1c8225ab 
-│                        │      ├ InstalledVersion: 12.3.0-1ubuntu1~22.04 
-│                        │      ├ Status          : affected 
-│                        │      ├ Layer            ╭ Digest: sha256:0ed1ddf91059c0efb68aec8faeac1d62fdcf5d58cee
-│                        │      │                  │         386132aecfc1c756d01a3 
-│                        │      │                  ╰ DiffID: sha256:14c20874051f5a33b6225c4fce83171c7d73a064382
-│                        │      │                            cbfb2702fd76ba2448527 
-│                        │      ├ SeveritySource  : ubuntu 
-│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-4039 
-│                        │      ├ DataSource       ╭ ID  : ubuntu 
-│                        │      │                  ├ Name: Ubuntu CVE Tracker 
-│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │      ├ Title           : gcc: -fstack-protector fails to guard dynamic stack
-│                        │      │                   allocations on ARM64 
-│                        │      ├ Description     : **DISPUTED**A failure in the -fstack-protector feature in
-│                        │      │                   GCC-based toolchains 
-│                        │      │                   that target AArch64 allows an attacker to exploit an
-│                        │      │                   existing buffer 
-│                        │      │                   overflow in dynamically-sized local variables in your
-│                        │      │                   application 
-│                        │      │                   without this being detected. This stack-protector failure
-│                        │      │                   only applies 
-│                        │      │                   to C99-style dynamically-sized local variables or those
-│                        │      │                   created using 
-│                        │      │                   alloca(). The stack-protector operates as intended for
-│                        │      │                   statically-sized 
-│                        │      │                   local variables.
-│                        │      │                   
-│                        │      │                   The default behavior when the stack-protector 
-│                        │      │                   detects an overflow is to terminate your application,
-│                        │      │                   resulting in 
-│                        │      │                   controlled loss of availability. An attacker who can
-│                        │      │                   exploit a buffer 
-│                        │      │                   overflow without triggering the stack-protector might be
-│                        │      │                   able to change 
-│                        │      │                   program flow control to cause an uncontrolled loss of
-│                        │      │                   availability or to
-│                        │      │                    go further and affect confidentiality or integrity. NOTE:
-│                        │      │                   The GCC project argues that this is a missed hardening bug
-│                        │      │                   and not a vulnerability by itself. 
-│                        │      ├ Severity        : MEDIUM 
-│                        │      ├ CweIDs           ─ [0]: CWE-693 
-│                        │      ├ VendorSeverity   ╭ amazon     : 2 
-│                        │      │                  ├ azure      : 2 
-│                        │      │                  ├ cbl-mariner: 2 
-│                        │      │                  ├ nvd        : 2 
-│                        │      │                  ├ oracle-oval: 1 
-│                        │      │                  ╰ ubuntu     : 2 
-│                        │      ├ CVSS             ─ nvd ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N 
-│                        │      │                        ╰ V3Score : 4.8 
-│                        │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2023-4039 
-│                        │      │                  ├ [1] : https://developer.arm.com/Arm%20Security%20Center/GC
-│                        │      │                  │       C%20Stack%20Protector%20Vulnerability%20AArch64 
-│                        │      │                  ├ [2] : https://gcc.gnu.org/git/?p=gcc.git;a=blob_plain;f=SE
-│                        │      │                  │       CURITY.txt 
-│                        │      │                  ├ [3] : https://gcc.gnu.org/pipermail/gcc-patches/2023-Octob
-│                        │      │                  │       er/634066.html 
-│                        │      │                  ├ [4] : https://github.com/metaredteam/external-disclosures/
-│                        │      │                  │       security/advisories/GHSA-x7ch-h5rf-w2mf 
-│                        │      │                  ├ [5] : https://inbox.sourceware.org/gcc-patches/46cfa37b-56
-│                        │      │                  │       eb-344d-0745-e0d35393392d@gotplt.org 
-│                        │      │                  ├ [6] : https://linux.oracle.com/cve/CVE-2023-4039.html 
-│                        │      │                  ├ [7] : https://linux.oracle.com/errata/ELSA-2023-28766.html 
-│                        │      │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2023-4039 
-│                        │      │                  ├ [9] : https://rtx.meta.security/mitigation/2023/09/12/CVE-
-│                        │      │                  │       2023-4039.html 
-│                        │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2023-4039 
-│                        │      ├ PublishedDate   : 2023-09-13T09:15:15.69Z 
-│                        │      ╰ LastModifiedDate: 2025-02-13T17:17:14.717Z 
-│                        ├ [28] ╭ VulnerabilityID : CVE-2022-27943 
+│                        ├ [27] ╭ VulnerabilityID : CVE-2022-27943 
 │                        │      ├ PkgID           : libgcc-s1@12.3.0-1ubuntu1~22.04 
 │                        │      ├ PkgName         : libgcc-s1 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libgcc-s1@12.3.0-1ubuntu1~22.04?arch=
@@ -1456,6 +1382,80 @@
 │                        │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2022-27943 
 │                        │      ├ PublishedDate   : 2022-03-26T13:15:07.9Z 
 │                        │      ╰ LastModifiedDate: 2024-11-21T06:56:31.04Z 
+│                        ├ [28] ╭ VulnerabilityID : CVE-2023-4039 
+│                        │      ├ PkgID           : libgcc-s1@12.3.0-1ubuntu1~22.04 
+│                        │      ├ PkgName         : libgcc-s1 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libgcc-s1@12.3.0-1ubuntu1~22.04?arch=
+│                        │      │                  │       amd64&distro=ubuntu-22.04 
+│                        │      │                  ╰ UID : d54016dd1c8225ab 
+│                        │      ├ InstalledVersion: 12.3.0-1ubuntu1~22.04 
+│                        │      ├ Status          : affected 
+│                        │      ├ Layer            ╭ Digest: sha256:0ed1ddf91059c0efb68aec8faeac1d62fdcf5d58cee
+│                        │      │                  │         386132aecfc1c756d01a3 
+│                        │      │                  ╰ DiffID: sha256:14c20874051f5a33b6225c4fce83171c7d73a064382
+│                        │      │                            cbfb2702fd76ba2448527 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-4039 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : gcc: -fstack-protector fails to guard dynamic stack
+│                        │      │                   allocations on ARM64 
+│                        │      ├ Description     : **DISPUTED**A failure in the -fstack-protector feature in
+│                        │      │                   GCC-based toolchains 
+│                        │      │                   that target AArch64 allows an attacker to exploit an
+│                        │      │                   existing buffer 
+│                        │      │                   overflow in dynamically-sized local variables in your
+│                        │      │                   application 
+│                        │      │                   without this being detected. This stack-protector failure
+│                        │      │                   only applies 
+│                        │      │                   to C99-style dynamically-sized local variables or those
+│                        │      │                   created using 
+│                        │      │                   alloca(). The stack-protector operates as intended for
+│                        │      │                   statically-sized 
+│                        │      │                   local variables.
+│                        │      │                   
+│                        │      │                   The default behavior when the stack-protector 
+│                        │      │                   detects an overflow is to terminate your application,
+│                        │      │                   resulting in 
+│                        │      │                   controlled loss of availability. An attacker who can
+│                        │      │                   exploit a buffer 
+│                        │      │                   overflow without triggering the stack-protector might be
+│                        │      │                   able to change 
+│                        │      │                   program flow control to cause an uncontrolled loss of
+│                        │      │                   availability or to
+│                        │      │                    go further and affect confidentiality or integrity. NOTE:
+│                        │      │                   The GCC project argues that this is a missed hardening bug
+│                        │      │                   and not a vulnerability by itself. 
+│                        │      ├ Severity        : LOW 
+│                        │      ├ CweIDs           ─ [0]: CWE-693 
+│                        │      ├ VendorSeverity   ╭ amazon     : 2 
+│                        │      │                  ├ azure      : 2 
+│                        │      │                  ├ cbl-mariner: 2 
+│                        │      │                  ├ nvd        : 2 
+│                        │      │                  ├ oracle-oval: 1 
+│                        │      │                  ╰ ubuntu     : 1 
+│                        │      ├ CVSS             ─ nvd ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N 
+│                        │      │                        ╰ V3Score : 4.8 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2023-4039 
+│                        │      │                  ├ [1] : https://developer.arm.com/Arm%20Security%20Center/GC
+│                        │      │                  │       C%20Stack%20Protector%20Vulnerability%20AArch64 
+│                        │      │                  ├ [2] : https://gcc.gnu.org/git/?p=gcc.git;a=blob_plain;f=SE
+│                        │      │                  │       CURITY.txt 
+│                        │      │                  ├ [3] : https://gcc.gnu.org/pipermail/gcc-patches/2023-Octob
+│                        │      │                  │       er/634066.html 
+│                        │      │                  ├ [4] : https://github.com/metaredteam/external-disclosures/
+│                        │      │                  │       security/advisories/GHSA-x7ch-h5rf-w2mf 
+│                        │      │                  ├ [5] : https://inbox.sourceware.org/gcc-patches/46cfa37b-56
+│                        │      │                  │       eb-344d-0745-e0d35393392d@gotplt.org 
+│                        │      │                  ├ [6] : https://linux.oracle.com/cve/CVE-2023-4039.html 
+│                        │      │                  ├ [7] : https://linux.oracle.com/errata/ELSA-2023-28766.html 
+│                        │      │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2023-4039 
+│                        │      │                  ├ [9] : https://rtx.meta.security/mitigation/2023/09/12/CVE-
+│                        │      │                  │       2023-4039.html 
+│                        │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2023-4039 
+│                        │      ├ PublishedDate   : 2023-09-13T09:15:15.69Z 
+│                        │      ╰ LastModifiedDate: 2025-02-13T17:17:14.717Z 
 │                        ├ [29] ╭ VulnerabilityID : CVE-2024-2236 
 │                        │      ├ PkgID           : libgcrypt20@1.9.4-3ubuntu3 
 │                        │      ├ PkgName         : libgcrypt20 
@@ -2803,81 +2803,7 @@
 │                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-41996 
 │                        │      ├ PublishedDate   : 2024-08-26T06:15:04.603Z 
 │                        │      ╰ LastModifiedDate: 2024-08-26T16:35:11.247Z 
-│                        ├ [55] ╭ VulnerabilityID : CVE-2023-4039 
-│                        │      ├ PkgID           : libstdc++6@12.3.0-1ubuntu1~22.04 
-│                        │      ├ PkgName         : libstdc++6 
-│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libstdc%2B%2B6@12.3.0-1ubuntu1~22.04?
-│                        │      │                  │       arch=amd64&distro=ubuntu-22.04 
-│                        │      │                  ╰ UID : dbbf528ec94fba54 
-│                        │      ├ InstalledVersion: 12.3.0-1ubuntu1~22.04 
-│                        │      ├ Status          : affected 
-│                        │      ├ Layer            ╭ Digest: sha256:0ed1ddf91059c0efb68aec8faeac1d62fdcf5d58cee
-│                        │      │                  │         386132aecfc1c756d01a3 
-│                        │      │                  ╰ DiffID: sha256:14c20874051f5a33b6225c4fce83171c7d73a064382
-│                        │      │                            cbfb2702fd76ba2448527 
-│                        │      ├ SeveritySource  : ubuntu 
-│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-4039 
-│                        │      ├ DataSource       ╭ ID  : ubuntu 
-│                        │      │                  ├ Name: Ubuntu CVE Tracker 
-│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │      ├ Title           : gcc: -fstack-protector fails to guard dynamic stack
-│                        │      │                   allocations on ARM64 
-│                        │      ├ Description     : **DISPUTED**A failure in the -fstack-protector feature in
-│                        │      │                   GCC-based toolchains 
-│                        │      │                   that target AArch64 allows an attacker to exploit an
-│                        │      │                   existing buffer 
-│                        │      │                   overflow in dynamically-sized local variables in your
-│                        │      │                   application 
-│                        │      │                   without this being detected. This stack-protector failure
-│                        │      │                   only applies 
-│                        │      │                   to C99-style dynamically-sized local variables or those
-│                        │      │                   created using 
-│                        │      │                   alloca(). The stack-protector operates as intended for
-│                        │      │                   statically-sized 
-│                        │      │                   local variables.
-│                        │      │                   
-│                        │      │                   The default behavior when the stack-protector 
-│                        │      │                   detects an overflow is to terminate your application,
-│                        │      │                   resulting in 
-│                        │      │                   controlled loss of availability. An attacker who can
-│                        │      │                   exploit a buffer 
-│                        │      │                   overflow without triggering the stack-protector might be
-│                        │      │                   able to change 
-│                        │      │                   program flow control to cause an uncontrolled loss of
-│                        │      │                   availability or to
-│                        │      │                    go further and affect confidentiality or integrity. NOTE:
-│                        │      │                   The GCC project argues that this is a missed hardening bug
-│                        │      │                   and not a vulnerability by itself. 
-│                        │      ├ Severity        : MEDIUM 
-│                        │      ├ CweIDs           ─ [0]: CWE-693 
-│                        │      ├ VendorSeverity   ╭ amazon     : 2 
-│                        │      │                  ├ azure      : 2 
-│                        │      │                  ├ cbl-mariner: 2 
-│                        │      │                  ├ nvd        : 2 
-│                        │      │                  ├ oracle-oval: 1 
-│                        │      │                  ╰ ubuntu     : 2 
-│                        │      ├ CVSS             ─ nvd ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N 
-│                        │      │                        ╰ V3Score : 4.8 
-│                        │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2023-4039 
-│                        │      │                  ├ [1] : https://developer.arm.com/Arm%20Security%20Center/GC
-│                        │      │                  │       C%20Stack%20Protector%20Vulnerability%20AArch64 
-│                        │      │                  ├ [2] : https://gcc.gnu.org/git/?p=gcc.git;a=blob_plain;f=SE
-│                        │      │                  │       CURITY.txt 
-│                        │      │                  ├ [3] : https://gcc.gnu.org/pipermail/gcc-patches/2023-Octob
-│                        │      │                  │       er/634066.html 
-│                        │      │                  ├ [4] : https://github.com/metaredteam/external-disclosures/
-│                        │      │                  │       security/advisories/GHSA-x7ch-h5rf-w2mf 
-│                        │      │                  ├ [5] : https://inbox.sourceware.org/gcc-patches/46cfa37b-56
-│                        │      │                  │       eb-344d-0745-e0d35393392d@gotplt.org 
-│                        │      │                  ├ [6] : https://linux.oracle.com/cve/CVE-2023-4039.html 
-│                        │      │                  ├ [7] : https://linux.oracle.com/errata/ELSA-2023-28766.html 
-│                        │      │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2023-4039 
-│                        │      │                  ├ [9] : https://rtx.meta.security/mitigation/2023/09/12/CVE-
-│                        │      │                  │       2023-4039.html 
-│                        │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2023-4039 
-│                        │      ├ PublishedDate   : 2023-09-13T09:15:15.69Z 
-│                        │      ╰ LastModifiedDate: 2025-02-13T17:17:14.717Z 
-│                        ├ [56] ╭ VulnerabilityID : CVE-2022-27943 
+│                        ├ [55] ╭ VulnerabilityID : CVE-2022-27943 
 │                        │      ├ PkgID           : libstdc++6@12.3.0-1ubuntu1~22.04 
 │                        │      ├ PkgName         : libstdc++6 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libstdc%2B%2B6@12.3.0-1ubuntu1~22.04?
@@ -2930,6 +2856,80 @@
 │                        │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2022-27943 
 │                        │      ├ PublishedDate   : 2022-03-26T13:15:07.9Z 
 │                        │      ╰ LastModifiedDate: 2024-11-21T06:56:31.04Z 
+│                        ├ [56] ╭ VulnerabilityID : CVE-2023-4039 
+│                        │      ├ PkgID           : libstdc++6@12.3.0-1ubuntu1~22.04 
+│                        │      ├ PkgName         : libstdc++6 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libstdc%2B%2B6@12.3.0-1ubuntu1~22.04?
+│                        │      │                  │       arch=amd64&distro=ubuntu-22.04 
+│                        │      │                  ╰ UID : dbbf528ec94fba54 
+│                        │      ├ InstalledVersion: 12.3.0-1ubuntu1~22.04 
+│                        │      ├ Status          : affected 
+│                        │      ├ Layer            ╭ Digest: sha256:0ed1ddf91059c0efb68aec8faeac1d62fdcf5d58cee
+│                        │      │                  │         386132aecfc1c756d01a3 
+│                        │      │                  ╰ DiffID: sha256:14c20874051f5a33b6225c4fce83171c7d73a064382
+│                        │      │                            cbfb2702fd76ba2448527 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-4039 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : gcc: -fstack-protector fails to guard dynamic stack
+│                        │      │                   allocations on ARM64 
+│                        │      ├ Description     : **DISPUTED**A failure in the -fstack-protector feature in
+│                        │      │                   GCC-based toolchains 
+│                        │      │                   that target AArch64 allows an attacker to exploit an
+│                        │      │                   existing buffer 
+│                        │      │                   overflow in dynamically-sized local variables in your
+│                        │      │                   application 
+│                        │      │                   without this being detected. This stack-protector failure
+│                        │      │                   only applies 
+│                        │      │                   to C99-style dynamically-sized local variables or those
+│                        │      │                   created using 
+│                        │      │                   alloca(). The stack-protector operates as intended for
+│                        │      │                   statically-sized 
+│                        │      │                   local variables.
+│                        │      │                   
+│                        │      │                   The default behavior when the stack-protector 
+│                        │      │                   detects an overflow is to terminate your application,
+│                        │      │                   resulting in 
+│                        │      │                   controlled loss of availability. An attacker who can
+│                        │      │                   exploit a buffer 
+│                        │      │                   overflow without triggering the stack-protector might be
+│                        │      │                   able to change 
+│                        │      │                   program flow control to cause an uncontrolled loss of
+│                        │      │                   availability or to
+│                        │      │                    go further and affect confidentiality or integrity. NOTE:
+│                        │      │                   The GCC project argues that this is a missed hardening bug
+│                        │      │                   and not a vulnerability by itself. 
+│                        │      ├ Severity        : LOW 
+│                        │      ├ CweIDs           ─ [0]: CWE-693 
+│                        │      ├ VendorSeverity   ╭ amazon     : 2 
+│                        │      │                  ├ azure      : 2 
+│                        │      │                  ├ cbl-mariner: 2 
+│                        │      │                  ├ nvd        : 2 
+│                        │      │                  ├ oracle-oval: 1 
+│                        │      │                  ╰ ubuntu     : 1 
+│                        │      ├ CVSS             ─ nvd ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N 
+│                        │      │                        ╰ V3Score : 4.8 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2023-4039 
+│                        │      │                  ├ [1] : https://developer.arm.com/Arm%20Security%20Center/GC
+│                        │      │                  │       C%20Stack%20Protector%20Vulnerability%20AArch64 
+│                        │      │                  ├ [2] : https://gcc.gnu.org/git/?p=gcc.git;a=blob_plain;f=SE
+│                        │      │                  │       CURITY.txt 
+│                        │      │                  ├ [3] : https://gcc.gnu.org/pipermail/gcc-patches/2023-Octob
+│                        │      │                  │       er/634066.html 
+│                        │      │                  ├ [4] : https://github.com/metaredteam/external-disclosures/
+│                        │      │                  │       security/advisories/GHSA-x7ch-h5rf-w2mf 
+│                        │      │                  ├ [5] : https://inbox.sourceware.org/gcc-patches/46cfa37b-56
+│                        │      │                  │       eb-344d-0745-e0d35393392d@gotplt.org 
+│                        │      │                  ├ [6] : https://linux.oracle.com/cve/CVE-2023-4039.html 
+│                        │      │                  ├ [7] : https://linux.oracle.com/errata/ELSA-2023-28766.html 
+│                        │      │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2023-4039 
+│                        │      │                  ├ [9] : https://rtx.meta.security/mitigation/2023/09/12/CVE-
+│                        │      │                  │       2023-4039.html 
+│                        │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2023-4039 
+│                        │      ├ PublishedDate   : 2023-09-13T09:15:15.69Z 
+│                        │      ╰ LastModifiedDate: 2025-02-13T17:17:14.717Z 
 │                        ├ [57] ╭ VulnerabilityID : CVE-2023-7008 
 │                        │      ├ PkgID           : libsystemd0@249.11-0ubuntu3.12 
 │                        │      ├ PkgName         : libsystemd0 
@@ -4620,7 +4620,7 @@
 │                        │      │                   denial of service. 
 │                        │      ├ Severity        : HIGH 
 │                        │      ├ CweIDs           ─ [0]: CWE-1333 
-│                        │      ├ VendorSeverity   ╭ amazon     : 3 
+│                        │      ├ VendorSeverity   ╭ amazon     : 2 
 │                        │      │                  ├ azure      : 3 
 │                        │      │                  ├ cbl-mariner: 3 
 │                        │      │                  ├ ghsa       : 3 
@@ -4670,7 +4670,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ ghsa       : 2 
@@ -6171,7 +6171,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
@@ -6331,7 +6331,7 @@
 │                        │      │                   bytes grows too small. 
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ amazon     : 3 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ nvd        : 2 
@@ -7674,7 +7674,7 @@
 │                        │      │                   denial of service. 
 │                        │      ├ Severity        : HIGH 
 │                        │      ├ CweIDs           ─ [0]: CWE-1333 
-│                        │      ├ VendorSeverity   ╭ amazon     : 3 
+│                        │      ├ VendorSeverity   ╭ amazon     : 2 
 │                        │      │                  ├ azure      : 3 
 │                        │      │                  ├ cbl-mariner: 3 
 │                        │      │                  ├ ghsa       : 3 
@@ -7724,7 +7724,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ ghsa       : 2 
@@ -9225,7 +9225,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
@@ -9385,7 +9385,7 @@
 │                        │      │                   bytes grows too small. 
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ amazon     : 3 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ nvd        : 2 
@@ -10596,7 +10596,7 @@
 │                              │                   denial of service. 
 │                              ├ Severity        : HIGH 
 │                              ├ CweIDs           ─ [0]: CWE-1333 
-│                              ├ VendorSeverity   ╭ amazon     : 3 
+│                              ├ VendorSeverity   ╭ amazon     : 2 
 │                              │                  ├ azure      : 3 
 │                              │                  ├ cbl-mariner: 3 
 │                              │                  ├ ghsa       : 3 
@@ -10849,7 +10849,7 @@
 │                        │     │                   denial of service. 
 │                        │     ├ Severity        : HIGH 
 │                        │     ├ CweIDs           ─ [0]: CWE-1333 
-│                        │     ├ VendorSeverity   ╭ amazon     : 3 
+│                        │     ├ VendorSeverity   ╭ amazon     : 2 
 │                        │     │                  ├ azure      : 3 
 │                        │     │                  ├ cbl-mariner: 3 
 │                        │     │                  ├ ghsa       : 3 
