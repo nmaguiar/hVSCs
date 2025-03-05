@@ -245,67 +245,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2022-3219
     PublishedDate: '2023-02-23T20:15:12.393Z'
     LastModifiedDate: '2024-11-21T07:19:04.727Z'
-  - VulnerabilityID: CVE-2023-4039
-    PkgID: gcc-12-base@12.3.0-1ubuntu1~22.04
-    PkgName: gcc-12-base
-    PkgIdentifier:
-      PURL: pkg:deb/ubuntu/gcc-12-base@12.3.0-1ubuntu1~22.04?arch=amd64&distro=ubuntu-22.04
-      UID: 4075ab57b22d0ab2
-    InstalledVersion: 12.3.0-1ubuntu1~22.04
-    Status: affected
-    Layer:
-      Digest: sha256:0ed1ddf91059c0efb68aec8faeac1d62fdcf5d58cee386132aecfc1c756d01a3
-      DiffID: sha256:14c20874051f5a33b6225c4fce83171c7d73a064382cbfb2702fd76ba2448527
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-4039
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'gcc: -fstack-protector fails to guard dynamic stack allocations on ARM64'
-    Description: |-
-      **DISPUTED**A failure in the -fstack-protector feature in GCC-based toolchains 
-      that target AArch64 allows an attacker to exploit an existing buffer 
-      overflow in dynamically-sized local variables in your application 
-      without this being detected. This stack-protector failure only applies 
-      to C99-style dynamically-sized local variables or those created using 
-      alloca(). The stack-protector operates as intended for statically-sized 
-      local variables.
-
-      The default behavior when the stack-protector 
-      detects an overflow is to terminate your application, resulting in 
-      controlled loss of availability. An attacker who can exploit a buffer 
-      overflow without triggering the stack-protector might be able to change 
-      program flow control to cause an uncontrolled loss of availability or to
-       go further and affect confidentiality or integrity. NOTE: The GCC project argues that this is a missed hardening bug and not a vulnerability by itself.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-693
-    VendorSeverity:
-      amazon: 2
-      azure: 2
-      cbl-mariner: 2
-      nvd: 2
-      oracle-oval: 1
-      ubuntu: 2
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N
-        V3Score: 4.8
-    References:
-    - https://access.redhat.com/security/cve/CVE-2023-4039
-    - https://developer.arm.com/Arm%20Security%20Center/GCC%20Stack%20Protector%20Vulnerability%20AArch64
-    - https://gcc.gnu.org/git/?p=gcc.git;a=blob_plain;f=SECURITY.txt
-    - https://gcc.gnu.org/pipermail/gcc-patches/2023-October/634066.html
-    - https://github.com/metaredteam/external-disclosures/security/advisories/GHSA-x7ch-h5rf-w2mf
-    - https://inbox.sourceware.org/gcc-patches/46cfa37b-56eb-344d-0745-e0d35393392d@gotplt.org
-    - https://linux.oracle.com/cve/CVE-2023-4039.html
-    - https://linux.oracle.com/errata/ELSA-2023-28766.html
-    - https://nvd.nist.gov/vuln/detail/CVE-2023-4039
-    - https://rtx.meta.security/mitigation/2023/09/12/CVE-2023-4039.html
-    - https://www.cve.org/CVERecord?id=CVE-2023-4039
-    PublishedDate: '2023-09-13T09:15:15.69Z'
-    LastModifiedDate: '2025-02-13T17:17:14.717Z'
   - VulnerabilityID: CVE-2022-27943
     PkgID: gcc-12-base@12.3.0-1ubuntu1~22.04
     PkgName: gcc-12-base
@@ -355,6 +294,67 @@
     - https://www.cve.org/CVERecord?id=CVE-2022-27943
     PublishedDate: '2022-03-26T13:15:07.9Z'
     LastModifiedDate: '2024-11-21T06:56:31.04Z'
+  - VulnerabilityID: CVE-2023-4039
+    PkgID: gcc-12-base@12.3.0-1ubuntu1~22.04
+    PkgName: gcc-12-base
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/gcc-12-base@12.3.0-1ubuntu1~22.04?arch=amd64&distro=ubuntu-22.04
+      UID: 4075ab57b22d0ab2
+    InstalledVersion: 12.3.0-1ubuntu1~22.04
+    Status: affected
+    Layer:
+      Digest: sha256:0ed1ddf91059c0efb68aec8faeac1d62fdcf5d58cee386132aecfc1c756d01a3
+      DiffID: sha256:14c20874051f5a33b6225c4fce83171c7d73a064382cbfb2702fd76ba2448527
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-4039
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'gcc: -fstack-protector fails to guard dynamic stack allocations on ARM64'
+    Description: |-
+      **DISPUTED**A failure in the -fstack-protector feature in GCC-based toolchains 
+      that target AArch64 allows an attacker to exploit an existing buffer 
+      overflow in dynamically-sized local variables in your application 
+      without this being detected. This stack-protector failure only applies 
+      to C99-style dynamically-sized local variables or those created using 
+      alloca(). The stack-protector operates as intended for statically-sized 
+      local variables.
+
+      The default behavior when the stack-protector 
+      detects an overflow is to terminate your application, resulting in 
+      controlled loss of availability. An attacker who can exploit a buffer 
+      overflow without triggering the stack-protector might be able to change 
+      program flow control to cause an uncontrolled loss of availability or to
+       go further and affect confidentiality or integrity. NOTE: The GCC project argues that this is a missed hardening bug and not a vulnerability by itself.
+    Severity: LOW
+    CweIDs:
+    - CWE-693
+    VendorSeverity:
+      amazon: 2
+      azure: 2
+      cbl-mariner: 2
+      nvd: 2
+      oracle-oval: 1
+      ubuntu: 1
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N
+        V3Score: 4.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-4039
+    - https://developer.arm.com/Arm%20Security%20Center/GCC%20Stack%20Protector%20Vulnerability%20AArch64
+    - https://gcc.gnu.org/git/?p=gcc.git;a=blob_plain;f=SECURITY.txt
+    - https://gcc.gnu.org/pipermail/gcc-patches/2023-October/634066.html
+    - https://github.com/metaredteam/external-disclosures/security/advisories/GHSA-x7ch-h5rf-w2mf
+    - https://inbox.sourceware.org/gcc-patches/46cfa37b-56eb-344d-0745-e0d35393392d@gotplt.org
+    - https://linux.oracle.com/cve/CVE-2023-4039.html
+    - https://linux.oracle.com/errata/ELSA-2023-28766.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-4039
+    - https://rtx.meta.security/mitigation/2023/09/12/CVE-2023-4039.html
+    - https://www.cve.org/CVERecord?id=CVE-2023-4039
+    PublishedDate: '2023-09-13T09:15:15.69Z'
+    LastModifiedDate: '2025-02-13T17:17:14.717Z'
   - VulnerabilityID: CVE-2024-52005
     PkgID: git@1:2.34.1-1ubuntu1.12
     PkgName: git
@@ -873,67 +873,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2022-3219
     PublishedDate: '2023-02-23T20:15:12.393Z'
     LastModifiedDate: '2024-11-21T07:19:04.727Z'
-  - VulnerabilityID: CVE-2023-4039
-    PkgID: libatomic1@12.3.0-1ubuntu1~22.04
-    PkgName: libatomic1
-    PkgIdentifier:
-      PURL: pkg:deb/ubuntu/libatomic1@12.3.0-1ubuntu1~22.04?arch=amd64&distro=ubuntu-22.04
-      UID: e4f06854c21e214d
-    InstalledVersion: 12.3.0-1ubuntu1~22.04
-    Status: affected
-    Layer:
-      Digest: sha256:0ed1ddf91059c0efb68aec8faeac1d62fdcf5d58cee386132aecfc1c756d01a3
-      DiffID: sha256:14c20874051f5a33b6225c4fce83171c7d73a064382cbfb2702fd76ba2448527
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-4039
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'gcc: -fstack-protector fails to guard dynamic stack allocations on ARM64'
-    Description: |-
-      **DISPUTED**A failure in the -fstack-protector feature in GCC-based toolchains 
-      that target AArch64 allows an attacker to exploit an existing buffer 
-      overflow in dynamically-sized local variables in your application 
-      without this being detected. This stack-protector failure only applies 
-      to C99-style dynamically-sized local variables or those created using 
-      alloca(). The stack-protector operates as intended for statically-sized 
-      local variables.
-
-      The default behavior when the stack-protector 
-      detects an overflow is to terminate your application, resulting in 
-      controlled loss of availability. An attacker who can exploit a buffer 
-      overflow without triggering the stack-protector might be able to change 
-      program flow control to cause an uncontrolled loss of availability or to
-       go further and affect confidentiality or integrity. NOTE: The GCC project argues that this is a missed hardening bug and not a vulnerability by itself.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-693
-    VendorSeverity:
-      amazon: 2
-      azure: 2
-      cbl-mariner: 2
-      nvd: 2
-      oracle-oval: 1
-      ubuntu: 2
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N
-        V3Score: 4.8
-    References:
-    - https://access.redhat.com/security/cve/CVE-2023-4039
-    - https://developer.arm.com/Arm%20Security%20Center/GCC%20Stack%20Protector%20Vulnerability%20AArch64
-    - https://gcc.gnu.org/git/?p=gcc.git;a=blob_plain;f=SECURITY.txt
-    - https://gcc.gnu.org/pipermail/gcc-patches/2023-October/634066.html
-    - https://github.com/metaredteam/external-disclosures/security/advisories/GHSA-x7ch-h5rf-w2mf
-    - https://inbox.sourceware.org/gcc-patches/46cfa37b-56eb-344d-0745-e0d35393392d@gotplt.org
-    - https://linux.oracle.com/cve/CVE-2023-4039.html
-    - https://linux.oracle.com/errata/ELSA-2023-28766.html
-    - https://nvd.nist.gov/vuln/detail/CVE-2023-4039
-    - https://rtx.meta.security/mitigation/2023/09/12/CVE-2023-4039.html
-    - https://www.cve.org/CVERecord?id=CVE-2023-4039
-    PublishedDate: '2023-09-13T09:15:15.69Z'
-    LastModifiedDate: '2025-02-13T17:17:14.717Z'
   - VulnerabilityID: CVE-2022-27943
     PkgID: libatomic1@12.3.0-1ubuntu1~22.04
     PkgName: libatomic1
@@ -983,6 +922,67 @@
     - https://www.cve.org/CVERecord?id=CVE-2022-27943
     PublishedDate: '2022-03-26T13:15:07.9Z'
     LastModifiedDate: '2024-11-21T06:56:31.04Z'
+  - VulnerabilityID: CVE-2023-4039
+    PkgID: libatomic1@12.3.0-1ubuntu1~22.04
+    PkgName: libatomic1
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libatomic1@12.3.0-1ubuntu1~22.04?arch=amd64&distro=ubuntu-22.04
+      UID: e4f06854c21e214d
+    InstalledVersion: 12.3.0-1ubuntu1~22.04
+    Status: affected
+    Layer:
+      Digest: sha256:0ed1ddf91059c0efb68aec8faeac1d62fdcf5d58cee386132aecfc1c756d01a3
+      DiffID: sha256:14c20874051f5a33b6225c4fce83171c7d73a064382cbfb2702fd76ba2448527
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-4039
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'gcc: -fstack-protector fails to guard dynamic stack allocations on ARM64'
+    Description: |-
+      **DISPUTED**A failure in the -fstack-protector feature in GCC-based toolchains 
+      that target AArch64 allows an attacker to exploit an existing buffer 
+      overflow in dynamically-sized local variables in your application 
+      without this being detected. This stack-protector failure only applies 
+      to C99-style dynamically-sized local variables or those created using 
+      alloca(). The stack-protector operates as intended for statically-sized 
+      local variables.
+
+      The default behavior when the stack-protector 
+      detects an overflow is to terminate your application, resulting in 
+      controlled loss of availability. An attacker who can exploit a buffer 
+      overflow without triggering the stack-protector might be able to change 
+      program flow control to cause an uncontrolled loss of availability or to
+       go further and affect confidentiality or integrity. NOTE: The GCC project argues that this is a missed hardening bug and not a vulnerability by itself.
+    Severity: LOW
+    CweIDs:
+    - CWE-693
+    VendorSeverity:
+      amazon: 2
+      azure: 2
+      cbl-mariner: 2
+      nvd: 2
+      oracle-oval: 1
+      ubuntu: 1
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N
+        V3Score: 4.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-4039
+    - https://developer.arm.com/Arm%20Security%20Center/GCC%20Stack%20Protector%20Vulnerability%20AArch64
+    - https://gcc.gnu.org/git/?p=gcc.git;a=blob_plain;f=SECURITY.txt
+    - https://gcc.gnu.org/pipermail/gcc-patches/2023-October/634066.html
+    - https://github.com/metaredteam/external-disclosures/security/advisories/GHSA-x7ch-h5rf-w2mf
+    - https://inbox.sourceware.org/gcc-patches/46cfa37b-56eb-344d-0745-e0d35393392d@gotplt.org
+    - https://linux.oracle.com/cve/CVE-2023-4039.html
+    - https://linux.oracle.com/errata/ELSA-2023-28766.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-4039
+    - https://rtx.meta.security/mitigation/2023/09/12/CVE-2023-4039.html
+    - https://www.cve.org/CVERecord?id=CVE-2023-4039
+    PublishedDate: '2023-09-13T09:15:15.69Z'
+    LastModifiedDate: '2025-02-13T17:17:14.717Z'
   - VulnerabilityID: CVE-2016-20013
     PkgID: libc-bin@2.35-0ubuntu3.9
     PkgName: libc-bin
@@ -1226,67 +1226,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-23022
     PublishedDate: '2025-01-10T15:15:16.967Z'
     LastModifiedDate: '2025-01-16T21:12:15.537Z'
-  - VulnerabilityID: CVE-2023-4039
-    PkgID: libgcc-s1@12.3.0-1ubuntu1~22.04
-    PkgName: libgcc-s1
-    PkgIdentifier:
-      PURL: pkg:deb/ubuntu/libgcc-s1@12.3.0-1ubuntu1~22.04?arch=amd64&distro=ubuntu-22.04
-      UID: d54016dd1c8225ab
-    InstalledVersion: 12.3.0-1ubuntu1~22.04
-    Status: affected
-    Layer:
-      Digest: sha256:0ed1ddf91059c0efb68aec8faeac1d62fdcf5d58cee386132aecfc1c756d01a3
-      DiffID: sha256:14c20874051f5a33b6225c4fce83171c7d73a064382cbfb2702fd76ba2448527
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-4039
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'gcc: -fstack-protector fails to guard dynamic stack allocations on ARM64'
-    Description: |-
-      **DISPUTED**A failure in the -fstack-protector feature in GCC-based toolchains 
-      that target AArch64 allows an attacker to exploit an existing buffer 
-      overflow in dynamically-sized local variables in your application 
-      without this being detected. This stack-protector failure only applies 
-      to C99-style dynamically-sized local variables or those created using 
-      alloca(). The stack-protector operates as intended for statically-sized 
-      local variables.
-
-      The default behavior when the stack-protector 
-      detects an overflow is to terminate your application, resulting in 
-      controlled loss of availability. An attacker who can exploit a buffer 
-      overflow without triggering the stack-protector might be able to change 
-      program flow control to cause an uncontrolled loss of availability or to
-       go further and affect confidentiality or integrity. NOTE: The GCC project argues that this is a missed hardening bug and not a vulnerability by itself.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-693
-    VendorSeverity:
-      amazon: 2
-      azure: 2
-      cbl-mariner: 2
-      nvd: 2
-      oracle-oval: 1
-      ubuntu: 2
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N
-        V3Score: 4.8
-    References:
-    - https://access.redhat.com/security/cve/CVE-2023-4039
-    - https://developer.arm.com/Arm%20Security%20Center/GCC%20Stack%20Protector%20Vulnerability%20AArch64
-    - https://gcc.gnu.org/git/?p=gcc.git;a=blob_plain;f=SECURITY.txt
-    - https://gcc.gnu.org/pipermail/gcc-patches/2023-October/634066.html
-    - https://github.com/metaredteam/external-disclosures/security/advisories/GHSA-x7ch-h5rf-w2mf
-    - https://inbox.sourceware.org/gcc-patches/46cfa37b-56eb-344d-0745-e0d35393392d@gotplt.org
-    - https://linux.oracle.com/cve/CVE-2023-4039.html
-    - https://linux.oracle.com/errata/ELSA-2023-28766.html
-    - https://nvd.nist.gov/vuln/detail/CVE-2023-4039
-    - https://rtx.meta.security/mitigation/2023/09/12/CVE-2023-4039.html
-    - https://www.cve.org/CVERecord?id=CVE-2023-4039
-    PublishedDate: '2023-09-13T09:15:15.69Z'
-    LastModifiedDate: '2025-02-13T17:17:14.717Z'
   - VulnerabilityID: CVE-2022-27943
     PkgID: libgcc-s1@12.3.0-1ubuntu1~22.04
     PkgName: libgcc-s1
@@ -1336,6 +1275,67 @@
     - https://www.cve.org/CVERecord?id=CVE-2022-27943
     PublishedDate: '2022-03-26T13:15:07.9Z'
     LastModifiedDate: '2024-11-21T06:56:31.04Z'
+  - VulnerabilityID: CVE-2023-4039
+    PkgID: libgcc-s1@12.3.0-1ubuntu1~22.04
+    PkgName: libgcc-s1
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libgcc-s1@12.3.0-1ubuntu1~22.04?arch=amd64&distro=ubuntu-22.04
+      UID: d54016dd1c8225ab
+    InstalledVersion: 12.3.0-1ubuntu1~22.04
+    Status: affected
+    Layer:
+      Digest: sha256:0ed1ddf91059c0efb68aec8faeac1d62fdcf5d58cee386132aecfc1c756d01a3
+      DiffID: sha256:14c20874051f5a33b6225c4fce83171c7d73a064382cbfb2702fd76ba2448527
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-4039
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'gcc: -fstack-protector fails to guard dynamic stack allocations on ARM64'
+    Description: |-
+      **DISPUTED**A failure in the -fstack-protector feature in GCC-based toolchains 
+      that target AArch64 allows an attacker to exploit an existing buffer 
+      overflow in dynamically-sized local variables in your application 
+      without this being detected. This stack-protector failure only applies 
+      to C99-style dynamically-sized local variables or those created using 
+      alloca(). The stack-protector operates as intended for statically-sized 
+      local variables.
+
+      The default behavior when the stack-protector 
+      detects an overflow is to terminate your application, resulting in 
+      controlled loss of availability. An attacker who can exploit a buffer 
+      overflow without triggering the stack-protector might be able to change 
+      program flow control to cause an uncontrolled loss of availability or to
+       go further and affect confidentiality or integrity. NOTE: The GCC project argues that this is a missed hardening bug and not a vulnerability by itself.
+    Severity: LOW
+    CweIDs:
+    - CWE-693
+    VendorSeverity:
+      amazon: 2
+      azure: 2
+      cbl-mariner: 2
+      nvd: 2
+      oracle-oval: 1
+      ubuntu: 1
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N
+        V3Score: 4.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-4039
+    - https://developer.arm.com/Arm%20Security%20Center/GCC%20Stack%20Protector%20Vulnerability%20AArch64
+    - https://gcc.gnu.org/git/?p=gcc.git;a=blob_plain;f=SECURITY.txt
+    - https://gcc.gnu.org/pipermail/gcc-patches/2023-October/634066.html
+    - https://github.com/metaredteam/external-disclosures/security/advisories/GHSA-x7ch-h5rf-w2mf
+    - https://inbox.sourceware.org/gcc-patches/46cfa37b-56eb-344d-0745-e0d35393392d@gotplt.org
+    - https://linux.oracle.com/cve/CVE-2023-4039.html
+    - https://linux.oracle.com/errata/ELSA-2023-28766.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-4039
+    - https://rtx.meta.security/mitigation/2023/09/12/CVE-2023-4039.html
+    - https://www.cve.org/CVERecord?id=CVE-2023-4039
+    PublishedDate: '2023-09-13T09:15:15.69Z'
+    LastModifiedDate: '2025-02-13T17:17:14.717Z'
   - VulnerabilityID: CVE-2024-2236
     PkgID: libgcrypt20@1.9.4-3ubuntu3
     PkgName: libgcrypt20
@@ -1385,6 +1385,40 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-2236
     PublishedDate: '2024-03-06T22:15:57.977Z'
     LastModifiedDate: '2024-11-21T09:09:19.41Z'
+  - VulnerabilityID: CVE-2025-24528
+    PkgID: libgssapi-krb5-2@1.19.2-2ubuntu0.5
+    PkgName: libgssapi-krb5-2
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libgssapi-krb5-2@1.19.2-2ubuntu0.5?arch=amd64&distro=ubuntu-22.04
+      UID: 2a58fbc85d8badd7
+    InstalledVersion: 1.19.2-2ubuntu0.5
+    FixedVersion: 1.19.2-2ubuntu0.6
+    Status: fixed
+    Layer:
+      Digest: sha256:0ed1ddf91059c0efb68aec8faeac1d62fdcf5d58cee386132aecfc1c756d01a3
+      DiffID: sha256:14c20874051f5a33b6225c4fce83171c7d73a064382cbfb2702fd76ba2448527
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-24528
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'krb5: overflow when calculating ulog block size'
+    Description: A flaw was found in krb5. With incremental propagation enabled, an authenticated attacker can cause kadmind to write beyond the end of the mapped region for the iprop log file. This issue can trigger a process crash and lead to a denial of service.
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 6.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-24528
+    - https://github.com/krb5/krb5/commit/78ceba024b64d49612375be4a12d1c066b0bfbd0
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-24528
+    - https://ubuntu.com/security/notices/USN-7314-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-24528
   - VulnerabilityID: CVE-2024-26458
     PkgID: libgssapi-krb5-2@1.19.2-2ubuntu0.5
     PkgName: libgssapi-krb5-2
@@ -1392,7 +1426,8 @@
       PURL: pkg:deb/ubuntu/libgssapi-krb5-2@1.19.2-2ubuntu0.5?arch=amd64&distro=ubuntu-22.04
       UID: 2a58fbc85d8badd7
     InstalledVersion: 1.19.2-2ubuntu0.5
-    Status: affected
+    FixedVersion: 1.19.2-2ubuntu0.6
+    Status: fixed
     Layer:
       Digest: sha256:0ed1ddf91059c0efb68aec8faeac1d62fdcf5d58cee386132aecfc1c756d01a3
       DiffID: sha256:14c20874051f5a33b6225c4fce83171c7d73a064382cbfb2702fd76ba2448527
@@ -1437,6 +1472,7 @@
     - https://mailman.mit.edu/pipermail/kerberos/2024-March/023095.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-26458
     - https://security.netapp.com/advisory/ntap-20240415-0010/
+    - https://ubuntu.com/security/notices/USN-7314-1
     - https://www.cve.org/CVERecord?id=CVE-2024-26458
     PublishedDate: '2024-02-29T01:44:18.78Z'
     LastModifiedDate: '2024-12-06T21:15:06.28Z'
@@ -1447,7 +1483,8 @@
       PURL: pkg:deb/ubuntu/libgssapi-krb5-2@1.19.2-2ubuntu0.5?arch=amd64&distro=ubuntu-22.04
       UID: 2a58fbc85d8badd7
     InstalledVersion: 1.19.2-2ubuntu0.5
-    Status: affected
+    FixedVersion: 1.19.2-2ubuntu0.6
+    Status: fixed
     Layer:
       Digest: sha256:0ed1ddf91059c0efb68aec8faeac1d62fdcf5d58cee386132aecfc1c756d01a3
       DiffID: sha256:14c20874051f5a33b6225c4fce83171c7d73a064382cbfb2702fd76ba2448527
@@ -1494,9 +1531,44 @@
     - https://mailman.mit.edu/pipermail/kerberos/2024-March/023095.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-26461
     - https://security.netapp.com/advisory/ntap-20240415-0011/
+    - https://ubuntu.com/security/notices/USN-7314-1
     - https://www.cve.org/CVERecord?id=CVE-2024-26461
     PublishedDate: '2024-02-29T01:44:18.82Z'
     LastModifiedDate: '2024-11-21T09:02:26.477Z'
+  - VulnerabilityID: CVE-2025-24528
+    PkgID: libk5crypto3@1.19.2-2ubuntu0.5
+    PkgName: libk5crypto3
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libk5crypto3@1.19.2-2ubuntu0.5?arch=amd64&distro=ubuntu-22.04
+      UID: 1c5a5a0da5ff2d81
+    InstalledVersion: 1.19.2-2ubuntu0.5
+    FixedVersion: 1.19.2-2ubuntu0.6
+    Status: fixed
+    Layer:
+      Digest: sha256:0ed1ddf91059c0efb68aec8faeac1d62fdcf5d58cee386132aecfc1c756d01a3
+      DiffID: sha256:14c20874051f5a33b6225c4fce83171c7d73a064382cbfb2702fd76ba2448527
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-24528
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'krb5: overflow when calculating ulog block size'
+    Description: A flaw was found in krb5. With incremental propagation enabled, an authenticated attacker can cause kadmind to write beyond the end of the mapped region for the iprop log file. This issue can trigger a process crash and lead to a denial of service.
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 6.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-24528
+    - https://github.com/krb5/krb5/commit/78ceba024b64d49612375be4a12d1c066b0bfbd0
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-24528
+    - https://ubuntu.com/security/notices/USN-7314-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-24528
   - VulnerabilityID: CVE-2024-26458
     PkgID: libk5crypto3@1.19.2-2ubuntu0.5
     PkgName: libk5crypto3
@@ -1504,7 +1576,8 @@
       PURL: pkg:deb/ubuntu/libk5crypto3@1.19.2-2ubuntu0.5?arch=amd64&distro=ubuntu-22.04
       UID: 1c5a5a0da5ff2d81
     InstalledVersion: 1.19.2-2ubuntu0.5
-    Status: affected
+    FixedVersion: 1.19.2-2ubuntu0.6
+    Status: fixed
     Layer:
       Digest: sha256:0ed1ddf91059c0efb68aec8faeac1d62fdcf5d58cee386132aecfc1c756d01a3
       DiffID: sha256:14c20874051f5a33b6225c4fce83171c7d73a064382cbfb2702fd76ba2448527
@@ -1549,6 +1622,7 @@
     - https://mailman.mit.edu/pipermail/kerberos/2024-March/023095.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-26458
     - https://security.netapp.com/advisory/ntap-20240415-0010/
+    - https://ubuntu.com/security/notices/USN-7314-1
     - https://www.cve.org/CVERecord?id=CVE-2024-26458
     PublishedDate: '2024-02-29T01:44:18.78Z'
     LastModifiedDate: '2024-12-06T21:15:06.28Z'
@@ -1559,7 +1633,8 @@
       PURL: pkg:deb/ubuntu/libk5crypto3@1.19.2-2ubuntu0.5?arch=amd64&distro=ubuntu-22.04
       UID: 1c5a5a0da5ff2d81
     InstalledVersion: 1.19.2-2ubuntu0.5
-    Status: affected
+    FixedVersion: 1.19.2-2ubuntu0.6
+    Status: fixed
     Layer:
       Digest: sha256:0ed1ddf91059c0efb68aec8faeac1d62fdcf5d58cee386132aecfc1c756d01a3
       DiffID: sha256:14c20874051f5a33b6225c4fce83171c7d73a064382cbfb2702fd76ba2448527
@@ -1606,9 +1681,44 @@
     - https://mailman.mit.edu/pipermail/kerberos/2024-March/023095.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-26461
     - https://security.netapp.com/advisory/ntap-20240415-0011/
+    - https://ubuntu.com/security/notices/USN-7314-1
     - https://www.cve.org/CVERecord?id=CVE-2024-26461
     PublishedDate: '2024-02-29T01:44:18.82Z'
     LastModifiedDate: '2024-11-21T09:02:26.477Z'
+  - VulnerabilityID: CVE-2025-24528
+    PkgID: libkrb5-3@1.19.2-2ubuntu0.5
+    PkgName: libkrb5-3
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libkrb5-3@1.19.2-2ubuntu0.5?arch=amd64&distro=ubuntu-22.04
+      UID: aa4511a00a510683
+    InstalledVersion: 1.19.2-2ubuntu0.5
+    FixedVersion: 1.19.2-2ubuntu0.6
+    Status: fixed
+    Layer:
+      Digest: sha256:0ed1ddf91059c0efb68aec8faeac1d62fdcf5d58cee386132aecfc1c756d01a3
+      DiffID: sha256:14c20874051f5a33b6225c4fce83171c7d73a064382cbfb2702fd76ba2448527
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-24528
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'krb5: overflow when calculating ulog block size'
+    Description: A flaw was found in krb5. With incremental propagation enabled, an authenticated attacker can cause kadmind to write beyond the end of the mapped region for the iprop log file. This issue can trigger a process crash and lead to a denial of service.
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 6.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-24528
+    - https://github.com/krb5/krb5/commit/78ceba024b64d49612375be4a12d1c066b0bfbd0
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-24528
+    - https://ubuntu.com/security/notices/USN-7314-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-24528
   - VulnerabilityID: CVE-2024-26458
     PkgID: libkrb5-3@1.19.2-2ubuntu0.5
     PkgName: libkrb5-3
@@ -1616,7 +1726,8 @@
       PURL: pkg:deb/ubuntu/libkrb5-3@1.19.2-2ubuntu0.5?arch=amd64&distro=ubuntu-22.04
       UID: aa4511a00a510683
     InstalledVersion: 1.19.2-2ubuntu0.5
-    Status: affected
+    FixedVersion: 1.19.2-2ubuntu0.6
+    Status: fixed
     Layer:
       Digest: sha256:0ed1ddf91059c0efb68aec8faeac1d62fdcf5d58cee386132aecfc1c756d01a3
       DiffID: sha256:14c20874051f5a33b6225c4fce83171c7d73a064382cbfb2702fd76ba2448527
@@ -1661,6 +1772,7 @@
     - https://mailman.mit.edu/pipermail/kerberos/2024-March/023095.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-26458
     - https://security.netapp.com/advisory/ntap-20240415-0010/
+    - https://ubuntu.com/security/notices/USN-7314-1
     - https://www.cve.org/CVERecord?id=CVE-2024-26458
     PublishedDate: '2024-02-29T01:44:18.78Z'
     LastModifiedDate: '2024-12-06T21:15:06.28Z'
@@ -1671,7 +1783,8 @@
       PURL: pkg:deb/ubuntu/libkrb5-3@1.19.2-2ubuntu0.5?arch=amd64&distro=ubuntu-22.04
       UID: aa4511a00a510683
     InstalledVersion: 1.19.2-2ubuntu0.5
-    Status: affected
+    FixedVersion: 1.19.2-2ubuntu0.6
+    Status: fixed
     Layer:
       Digest: sha256:0ed1ddf91059c0efb68aec8faeac1d62fdcf5d58cee386132aecfc1c756d01a3
       DiffID: sha256:14c20874051f5a33b6225c4fce83171c7d73a064382cbfb2702fd76ba2448527
@@ -1718,9 +1831,44 @@
     - https://mailman.mit.edu/pipermail/kerberos/2024-March/023095.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-26461
     - https://security.netapp.com/advisory/ntap-20240415-0011/
+    - https://ubuntu.com/security/notices/USN-7314-1
     - https://www.cve.org/CVERecord?id=CVE-2024-26461
     PublishedDate: '2024-02-29T01:44:18.82Z'
     LastModifiedDate: '2024-11-21T09:02:26.477Z'
+  - VulnerabilityID: CVE-2025-24528
+    PkgID: libkrb5support0@1.19.2-2ubuntu0.5
+    PkgName: libkrb5support0
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libkrb5support0@1.19.2-2ubuntu0.5?arch=amd64&distro=ubuntu-22.04
+      UID: f12001857be15819
+    InstalledVersion: 1.19.2-2ubuntu0.5
+    FixedVersion: 1.19.2-2ubuntu0.6
+    Status: fixed
+    Layer:
+      Digest: sha256:0ed1ddf91059c0efb68aec8faeac1d62fdcf5d58cee386132aecfc1c756d01a3
+      DiffID: sha256:14c20874051f5a33b6225c4fce83171c7d73a064382cbfb2702fd76ba2448527
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-24528
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'krb5: overflow when calculating ulog block size'
+    Description: A flaw was found in krb5. With incremental propagation enabled, an authenticated attacker can cause kadmind to write beyond the end of the mapped region for the iprop log file. This issue can trigger a process crash and lead to a denial of service.
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 6.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-24528
+    - https://github.com/krb5/krb5/commit/78ceba024b64d49612375be4a12d1c066b0bfbd0
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-24528
+    - https://ubuntu.com/security/notices/USN-7314-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-24528
   - VulnerabilityID: CVE-2024-26458
     PkgID: libkrb5support0@1.19.2-2ubuntu0.5
     PkgName: libkrb5support0
@@ -1728,7 +1876,8 @@
       PURL: pkg:deb/ubuntu/libkrb5support0@1.19.2-2ubuntu0.5?arch=amd64&distro=ubuntu-22.04
       UID: f12001857be15819
     InstalledVersion: 1.19.2-2ubuntu0.5
-    Status: affected
+    FixedVersion: 1.19.2-2ubuntu0.6
+    Status: fixed
     Layer:
       Digest: sha256:0ed1ddf91059c0efb68aec8faeac1d62fdcf5d58cee386132aecfc1c756d01a3
       DiffID: sha256:14c20874051f5a33b6225c4fce83171c7d73a064382cbfb2702fd76ba2448527
@@ -1773,6 +1922,7 @@
     - https://mailman.mit.edu/pipermail/kerberos/2024-March/023095.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-26458
     - https://security.netapp.com/advisory/ntap-20240415-0010/
+    - https://ubuntu.com/security/notices/USN-7314-1
     - https://www.cve.org/CVERecord?id=CVE-2024-26458
     PublishedDate: '2024-02-29T01:44:18.78Z'
     LastModifiedDate: '2024-12-06T21:15:06.28Z'
@@ -1783,7 +1933,8 @@
       PURL: pkg:deb/ubuntu/libkrb5support0@1.19.2-2ubuntu0.5?arch=amd64&distro=ubuntu-22.04
       UID: f12001857be15819
     InstalledVersion: 1.19.2-2ubuntu0.5
-    Status: affected
+    FixedVersion: 1.19.2-2ubuntu0.6
+    Status: fixed
     Layer:
       Digest: sha256:0ed1ddf91059c0efb68aec8faeac1d62fdcf5d58cee386132aecfc1c756d01a3
       DiffID: sha256:14c20874051f5a33b6225c4fce83171c7d73a064382cbfb2702fd76ba2448527
@@ -1830,6 +1981,7 @@
     - https://mailman.mit.edu/pipermail/kerberos/2024-March/023095.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-26461
     - https://security.netapp.com/advisory/ntap-20240415-0011/
+    - https://ubuntu.com/security/notices/USN-7314-1
     - https://www.cve.org/CVERecord?id=CVE-2024-26461
     PublishedDate: '2024-02-29T01:44:18.82Z'
     LastModifiedDate: '2024-11-21T09:02:26.477Z'
@@ -2447,67 +2599,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-41996
     PublishedDate: '2024-08-26T06:15:04.603Z'
     LastModifiedDate: '2024-08-26T16:35:11.247Z'
-  - VulnerabilityID: CVE-2023-4039
-    PkgID: libstdc++6@12.3.0-1ubuntu1~22.04
-    PkgName: libstdc++6
-    PkgIdentifier:
-      PURL: pkg:deb/ubuntu/libstdc%2B%2B6@12.3.0-1ubuntu1~22.04?arch=amd64&distro=ubuntu-22.04
-      UID: dbbf528ec94fba54
-    InstalledVersion: 12.3.0-1ubuntu1~22.04
-    Status: affected
-    Layer:
-      Digest: sha256:0ed1ddf91059c0efb68aec8faeac1d62fdcf5d58cee386132aecfc1c756d01a3
-      DiffID: sha256:14c20874051f5a33b6225c4fce83171c7d73a064382cbfb2702fd76ba2448527
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-4039
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'gcc: -fstack-protector fails to guard dynamic stack allocations on ARM64'
-    Description: |-
-      **DISPUTED**A failure in the -fstack-protector feature in GCC-based toolchains 
-      that target AArch64 allows an attacker to exploit an existing buffer 
-      overflow in dynamically-sized local variables in your application 
-      without this being detected. This stack-protector failure only applies 
-      to C99-style dynamically-sized local variables or those created using 
-      alloca(). The stack-protector operates as intended for statically-sized 
-      local variables.
-
-      The default behavior when the stack-protector 
-      detects an overflow is to terminate your application, resulting in 
-      controlled loss of availability. An attacker who can exploit a buffer 
-      overflow without triggering the stack-protector might be able to change 
-      program flow control to cause an uncontrolled loss of availability or to
-       go further and affect confidentiality or integrity. NOTE: The GCC project argues that this is a missed hardening bug and not a vulnerability by itself.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-693
-    VendorSeverity:
-      amazon: 2
-      azure: 2
-      cbl-mariner: 2
-      nvd: 2
-      oracle-oval: 1
-      ubuntu: 2
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N
-        V3Score: 4.8
-    References:
-    - https://access.redhat.com/security/cve/CVE-2023-4039
-    - https://developer.arm.com/Arm%20Security%20Center/GCC%20Stack%20Protector%20Vulnerability%20AArch64
-    - https://gcc.gnu.org/git/?p=gcc.git;a=blob_plain;f=SECURITY.txt
-    - https://gcc.gnu.org/pipermail/gcc-patches/2023-October/634066.html
-    - https://github.com/metaredteam/external-disclosures/security/advisories/GHSA-x7ch-h5rf-w2mf
-    - https://inbox.sourceware.org/gcc-patches/46cfa37b-56eb-344d-0745-e0d35393392d@gotplt.org
-    - https://linux.oracle.com/cve/CVE-2023-4039.html
-    - https://linux.oracle.com/errata/ELSA-2023-28766.html
-    - https://nvd.nist.gov/vuln/detail/CVE-2023-4039
-    - https://rtx.meta.security/mitigation/2023/09/12/CVE-2023-4039.html
-    - https://www.cve.org/CVERecord?id=CVE-2023-4039
-    PublishedDate: '2023-09-13T09:15:15.69Z'
-    LastModifiedDate: '2025-02-13T17:17:14.717Z'
   - VulnerabilityID: CVE-2022-27943
     PkgID: libstdc++6@12.3.0-1ubuntu1~22.04
     PkgName: libstdc++6
@@ -2557,6 +2648,67 @@
     - https://www.cve.org/CVERecord?id=CVE-2022-27943
     PublishedDate: '2022-03-26T13:15:07.9Z'
     LastModifiedDate: '2024-11-21T06:56:31.04Z'
+  - VulnerabilityID: CVE-2023-4039
+    PkgID: libstdc++6@12.3.0-1ubuntu1~22.04
+    PkgName: libstdc++6
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libstdc%2B%2B6@12.3.0-1ubuntu1~22.04?arch=amd64&distro=ubuntu-22.04
+      UID: dbbf528ec94fba54
+    InstalledVersion: 12.3.0-1ubuntu1~22.04
+    Status: affected
+    Layer:
+      Digest: sha256:0ed1ddf91059c0efb68aec8faeac1d62fdcf5d58cee386132aecfc1c756d01a3
+      DiffID: sha256:14c20874051f5a33b6225c4fce83171c7d73a064382cbfb2702fd76ba2448527
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-4039
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'gcc: -fstack-protector fails to guard dynamic stack allocations on ARM64'
+    Description: |-
+      **DISPUTED**A failure in the -fstack-protector feature in GCC-based toolchains 
+      that target AArch64 allows an attacker to exploit an existing buffer 
+      overflow in dynamically-sized local variables in your application 
+      without this being detected. This stack-protector failure only applies 
+      to C99-style dynamically-sized local variables or those created using 
+      alloca(). The stack-protector operates as intended for statically-sized 
+      local variables.
+
+      The default behavior when the stack-protector 
+      detects an overflow is to terminate your application, resulting in 
+      controlled loss of availability. An attacker who can exploit a buffer 
+      overflow without triggering the stack-protector might be able to change 
+      program flow control to cause an uncontrolled loss of availability or to
+       go further and affect confidentiality or integrity. NOTE: The GCC project argues that this is a missed hardening bug and not a vulnerability by itself.
+    Severity: LOW
+    CweIDs:
+    - CWE-693
+    VendorSeverity:
+      amazon: 2
+      azure: 2
+      cbl-mariner: 2
+      nvd: 2
+      oracle-oval: 1
+      ubuntu: 1
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N
+        V3Score: 4.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-4039
+    - https://developer.arm.com/Arm%20Security%20Center/GCC%20Stack%20Protector%20Vulnerability%20AArch64
+    - https://gcc.gnu.org/git/?p=gcc.git;a=blob_plain;f=SECURITY.txt
+    - https://gcc.gnu.org/pipermail/gcc-patches/2023-October/634066.html
+    - https://github.com/metaredteam/external-disclosures/security/advisories/GHSA-x7ch-h5rf-w2mf
+    - https://inbox.sourceware.org/gcc-patches/46cfa37b-56eb-344d-0745-e0d35393392d@gotplt.org
+    - https://linux.oracle.com/cve/CVE-2023-4039.html
+    - https://linux.oracle.com/errata/ELSA-2023-28766.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-4039
+    - https://rtx.meta.security/mitigation/2023/09/12/CVE-2023-4039.html
+    - https://www.cve.org/CVERecord?id=CVE-2023-4039
+    PublishedDate: '2023-09-13T09:15:15.69Z'
+    LastModifiedDate: '2025-02-13T17:17:14.717Z'
   - VulnerabilityID: CVE-2023-7008
     PkgID: libsystemd0@249.11-0ubuntu3.12
     PkgName: libsystemd0
@@ -2808,7 +2960,7 @@
       nvd: 3
       oracle-oval: 2
       photon: 3
-      redhat: 1
+      redhat: 2
       ubuntu: 1
     CVSS:
       ghsa:
@@ -5040,7 +5192,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -5108,7 +5260,7 @@
     Severity: MEDIUM
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       bitnami: 2
       cbl-mariner: 2
       nvd: 2
@@ -7279,7 +7431,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -7347,7 +7499,7 @@
     Severity: MEDIUM
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       bitnami: 2
       cbl-mariner: 2
       nvd: 2
@@ -8651,68 +8803,6 @@
     - https://github.com/grpc/grpc-go
     - https://github.com/grpc/grpc-go/commit/ab292411ddc0f3b7a7786754d1fe05264c3021eb
     - https://github.com/grpc/grpc-go/security/advisories/GHSA-xr7q-jx4m-x55m
-- Target: /etc/ssh/ssh_host_ed25519_key
-  Class: secret
-  Secrets:
-  - RuleID: private-key
-    Category: AsymmetricPrivateKey
-    Severity: HIGH
-    Title: Asymmetric Private Key
-    StartLine: 1
-    EndLine: 1
-    Code:
-      Lines:
-      - Number: 1
-        Content: BEGIN OPENSSH PRIVATE KEY-----******************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
-        IsCause: true
-        Annotation: ''
-        Truncated: false
-        Highlighted: BEGIN OPENSSH PRIVATE KEY-----******************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
-        FirstCause: true
-        LastCause: true
-      - Number: 2
-        Content: ''
-        IsCause: false
-        Annotation: ''
-        Truncated: false
-        FirstCause: false
-        LastCause: false
-    Match: BEGIN OPENSSH PRIVATE KEY-----******************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
-    Layer:
-      Digest: sha256:0ed1ddf91059c0efb68aec8faeac1d62fdcf5d58cee386132aecfc1c756d01a3
-      DiffID: sha256:14c20874051f5a33b6225c4fce83171c7d73a064382cbfb2702fd76ba2448527
-      CreatedBy: 'COPY / / # buildkit'
-- Target: /etc/ssh/ssh_host_rsa_key
-  Class: secret
-  Secrets:
-  - RuleID: private-key
-    Category: AsymmetricPrivateKey
-    Severity: HIGH
-    Title: Asymmetric Private Key
-    StartLine: 1
-    EndLine: 1
-    Code:
-      Lines:
-      - Number: 1
-        Content: BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
-        IsCause: true
-        Annotation: ''
-        Truncated: false
-        Highlighted: BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
-        FirstCause: true
-        LastCause: true
-      - Number: 2
-        Content: ''
-        IsCause: false
-        Annotation: ''
-        Truncated: false
-        FirstCause: false
-        LastCause: false
-    Match: BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
-    Layer:
-      Digest: sha256:0ed1ddf91059c0efb68aec8faeac1d62fdcf5d58cee386132aecfc1c756d01a3
-      DiffID: sha256:14c20874051f5a33b6225c4fce83171c7d73a064382cbfb2702fd76ba2448527
-      CreatedBy: 'COPY / / # buildkit'
 - Target: /etc/ssh/ssh_host_dsa_key
   Class: secret
   Secrets:
@@ -8771,6 +8861,68 @@
         FirstCause: false
         LastCause: false
     Match: BEGIN OPENSSH PRIVATE KEY-----************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
+    Layer:
+      Digest: sha256:0ed1ddf91059c0efb68aec8faeac1d62fdcf5d58cee386132aecfc1c756d01a3
+      DiffID: sha256:14c20874051f5a33b6225c4fce83171c7d73a064382cbfb2702fd76ba2448527
+      CreatedBy: 'COPY / / # buildkit'
+- Target: /etc/ssh/ssh_host_ed25519_key
+  Class: secret
+  Secrets:
+  - RuleID: private-key
+    Category: AsymmetricPrivateKey
+    Severity: HIGH
+    Title: Asymmetric Private Key
+    StartLine: 1
+    EndLine: 1
+    Code:
+      Lines:
+      - Number: 1
+        Content: BEGIN OPENSSH PRIVATE KEY-----******************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
+        IsCause: true
+        Annotation: ''
+        Truncated: false
+        Highlighted: BEGIN OPENSSH PRIVATE KEY-----******************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
+        FirstCause: true
+        LastCause: true
+      - Number: 2
+        Content: ''
+        IsCause: false
+        Annotation: ''
+        Truncated: false
+        FirstCause: false
+        LastCause: false
+    Match: BEGIN OPENSSH PRIVATE KEY-----******************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
+    Layer:
+      Digest: sha256:0ed1ddf91059c0efb68aec8faeac1d62fdcf5d58cee386132aecfc1c756d01a3
+      DiffID: sha256:14c20874051f5a33b6225c4fce83171c7d73a064382cbfb2702fd76ba2448527
+      CreatedBy: 'COPY / / # buildkit'
+- Target: /etc/ssh/ssh_host_rsa_key
+  Class: secret
+  Secrets:
+  - RuleID: private-key
+    Category: AsymmetricPrivateKey
+    Severity: HIGH
+    Title: Asymmetric Private Key
+    StartLine: 1
+    EndLine: 1
+    Code:
+      Lines:
+      - Number: 1
+        Content: BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
+        IsCause: true
+        Annotation: ''
+        Truncated: false
+        Highlighted: BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
+        FirstCause: true
+        LastCause: true
+      - Number: 2
+        Content: ''
+        IsCause: false
+        Annotation: ''
+        Truncated: false
+        FirstCause: false
+        LastCause: false
+    Match: BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
     Layer:
       Digest: sha256:0ed1ddf91059c0efb68aec8faeac1d62fdcf5d58cee386132aecfc1c756d01a3
       DiffID: sha256:14c20874051f5a33b6225c4fce83171c7d73a064382cbfb2702fd76ba2448527

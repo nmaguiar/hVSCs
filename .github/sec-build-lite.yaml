@@ -658,7 +658,8 @@
       PURL: pkg:deb/ubuntu/krb5-locales@1.20.1-6ubuntu2.4?arch=all&distro=ubuntu-24.04
       UID: 43c311d1fad01dcc
     InstalledVersion: 1.20.1-6ubuntu2.4
-    Status: affected
+    FixedVersion: 1.20.1-6ubuntu2.5
+    Status: fixed
     Layer:
       Digest: sha256:e373964501dbfe7fc804f44b0a1a3b374aeebbadae4ddfcb609ad826ead9ee3c
       DiffID: sha256:f2b2d438ca86c3e1a8b02cc6d4f35bac748b671c7d49bacbdbf7e9274619a2ac
@@ -702,9 +703,44 @@
     - https://mailman.mit.edu/pipermail/kerberos/2024-March/023095.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-26462
     - https://security.netapp.com/advisory/ntap-20240415-0012/
+    - https://ubuntu.com/security/notices/USN-7314-1
     - https://www.cve.org/CVERecord?id=CVE-2024-26462
     PublishedDate: '2024-02-29T01:44:18.857Z'
     LastModifiedDate: '2025-02-14T17:29:03.303Z'
+  - VulnerabilityID: CVE-2025-24528
+    PkgID: krb5-locales@1.20.1-6ubuntu2.4
+    PkgName: krb5-locales
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/krb5-locales@1.20.1-6ubuntu2.4?arch=all&distro=ubuntu-24.04
+      UID: 43c311d1fad01dcc
+    InstalledVersion: 1.20.1-6ubuntu2.4
+    FixedVersion: 1.20.1-6ubuntu2.5
+    Status: fixed
+    Layer:
+      Digest: sha256:e373964501dbfe7fc804f44b0a1a3b374aeebbadae4ddfcb609ad826ead9ee3c
+      DiffID: sha256:f2b2d438ca86c3e1a8b02cc6d4f35bac748b671c7d49bacbdbf7e9274619a2ac
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-24528
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'krb5: overflow when calculating ulog block size'
+    Description: A flaw was found in krb5. With incremental propagation enabled, an authenticated attacker can cause kadmind to write beyond the end of the mapped region for the iprop log file. This issue can trigger a process crash and lead to a denial of service.
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 6.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-24528
+    - https://github.com/krb5/krb5/commit/78ceba024b64d49612375be4a12d1c066b0bfbd0
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-24528
+    - https://ubuntu.com/security/notices/USN-7314-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-24528
   - VulnerabilityID: CVE-2024-26458
     PkgID: krb5-locales@1.20.1-6ubuntu2.4
     PkgName: krb5-locales
@@ -712,7 +748,8 @@
       PURL: pkg:deb/ubuntu/krb5-locales@1.20.1-6ubuntu2.4?arch=all&distro=ubuntu-24.04
       UID: 43c311d1fad01dcc
     InstalledVersion: 1.20.1-6ubuntu2.4
-    Status: affected
+    FixedVersion: 1.20.1-6ubuntu2.5
+    Status: fixed
     Layer:
       Digest: sha256:e373964501dbfe7fc804f44b0a1a3b374aeebbadae4ddfcb609ad826ead9ee3c
       DiffID: sha256:f2b2d438ca86c3e1a8b02cc6d4f35bac748b671c7d49bacbdbf7e9274619a2ac
@@ -757,6 +794,7 @@
     - https://mailman.mit.edu/pipermail/kerberos/2024-March/023095.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-26458
     - https://security.netapp.com/advisory/ntap-20240415-0010/
+    - https://ubuntu.com/security/notices/USN-7314-1
     - https://www.cve.org/CVERecord?id=CVE-2024-26458
     PublishedDate: '2024-02-29T01:44:18.78Z'
     LastModifiedDate: '2024-12-06T21:15:06.28Z'
@@ -767,7 +805,8 @@
       PURL: pkg:deb/ubuntu/krb5-locales@1.20.1-6ubuntu2.4?arch=all&distro=ubuntu-24.04
       UID: 43c311d1fad01dcc
     InstalledVersion: 1.20.1-6ubuntu2.4
-    Status: affected
+    FixedVersion: 1.20.1-6ubuntu2.5
+    Status: fixed
     Layer:
       Digest: sha256:e373964501dbfe7fc804f44b0a1a3b374aeebbadae4ddfcb609ad826ead9ee3c
       DiffID: sha256:f2b2d438ca86c3e1a8b02cc6d4f35bac748b671c7d49bacbdbf7e9274619a2ac
@@ -814,6 +853,7 @@
     - https://mailman.mit.edu/pipermail/kerberos/2024-March/023095.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-26461
     - https://security.netapp.com/advisory/ntap-20240415-0011/
+    - https://ubuntu.com/security/notices/USN-7314-1
     - https://www.cve.org/CVERecord?id=CVE-2024-26461
     PublishedDate: '2024-02-29T01:44:18.82Z'
     LastModifiedDate: '2024-11-21T09:02:26.477Z'
@@ -1019,7 +1059,8 @@
       PURL: pkg:deb/ubuntu/libgssapi-krb5-2@1.20.1-6ubuntu2.4?arch=amd64&distro=ubuntu-24.04
       UID: 998709db5c1b91a5
     InstalledVersion: 1.20.1-6ubuntu2.4
-    Status: affected
+    FixedVersion: 1.20.1-6ubuntu2.5
+    Status: fixed
     Layer:
       Digest: sha256:e373964501dbfe7fc804f44b0a1a3b374aeebbadae4ddfcb609ad826ead9ee3c
       DiffID: sha256:f2b2d438ca86c3e1a8b02cc6d4f35bac748b671c7d49bacbdbf7e9274619a2ac
@@ -1063,9 +1104,44 @@
     - https://mailman.mit.edu/pipermail/kerberos/2024-March/023095.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-26462
     - https://security.netapp.com/advisory/ntap-20240415-0012/
+    - https://ubuntu.com/security/notices/USN-7314-1
     - https://www.cve.org/CVERecord?id=CVE-2024-26462
     PublishedDate: '2024-02-29T01:44:18.857Z'
     LastModifiedDate: '2025-02-14T17:29:03.303Z'
+  - VulnerabilityID: CVE-2025-24528
+    PkgID: libgssapi-krb5-2@1.20.1-6ubuntu2.4
+    PkgName: libgssapi-krb5-2
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libgssapi-krb5-2@1.20.1-6ubuntu2.4?arch=amd64&distro=ubuntu-24.04
+      UID: 998709db5c1b91a5
+    InstalledVersion: 1.20.1-6ubuntu2.4
+    FixedVersion: 1.20.1-6ubuntu2.5
+    Status: fixed
+    Layer:
+      Digest: sha256:e373964501dbfe7fc804f44b0a1a3b374aeebbadae4ddfcb609ad826ead9ee3c
+      DiffID: sha256:f2b2d438ca86c3e1a8b02cc6d4f35bac748b671c7d49bacbdbf7e9274619a2ac
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-24528
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'krb5: overflow when calculating ulog block size'
+    Description: A flaw was found in krb5. With incremental propagation enabled, an authenticated attacker can cause kadmind to write beyond the end of the mapped region for the iprop log file. This issue can trigger a process crash and lead to a denial of service.
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 6.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-24528
+    - https://github.com/krb5/krb5/commit/78ceba024b64d49612375be4a12d1c066b0bfbd0
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-24528
+    - https://ubuntu.com/security/notices/USN-7314-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-24528
   - VulnerabilityID: CVE-2024-26458
     PkgID: libgssapi-krb5-2@1.20.1-6ubuntu2.4
     PkgName: libgssapi-krb5-2
@@ -1073,7 +1149,8 @@
       PURL: pkg:deb/ubuntu/libgssapi-krb5-2@1.20.1-6ubuntu2.4?arch=amd64&distro=ubuntu-24.04
       UID: 998709db5c1b91a5
     InstalledVersion: 1.20.1-6ubuntu2.4
-    Status: affected
+    FixedVersion: 1.20.1-6ubuntu2.5
+    Status: fixed
     Layer:
       Digest: sha256:e373964501dbfe7fc804f44b0a1a3b374aeebbadae4ddfcb609ad826ead9ee3c
       DiffID: sha256:f2b2d438ca86c3e1a8b02cc6d4f35bac748b671c7d49bacbdbf7e9274619a2ac
@@ -1118,6 +1195,7 @@
     - https://mailman.mit.edu/pipermail/kerberos/2024-March/023095.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-26458
     - https://security.netapp.com/advisory/ntap-20240415-0010/
+    - https://ubuntu.com/security/notices/USN-7314-1
     - https://www.cve.org/CVERecord?id=CVE-2024-26458
     PublishedDate: '2024-02-29T01:44:18.78Z'
     LastModifiedDate: '2024-12-06T21:15:06.28Z'
@@ -1128,7 +1206,8 @@
       PURL: pkg:deb/ubuntu/libgssapi-krb5-2@1.20.1-6ubuntu2.4?arch=amd64&distro=ubuntu-24.04
       UID: 998709db5c1b91a5
     InstalledVersion: 1.20.1-6ubuntu2.4
-    Status: affected
+    FixedVersion: 1.20.1-6ubuntu2.5
+    Status: fixed
     Layer:
       Digest: sha256:e373964501dbfe7fc804f44b0a1a3b374aeebbadae4ddfcb609ad826ead9ee3c
       DiffID: sha256:f2b2d438ca86c3e1a8b02cc6d4f35bac748b671c7d49bacbdbf7e9274619a2ac
@@ -1175,6 +1254,7 @@
     - https://mailman.mit.edu/pipermail/kerberos/2024-March/023095.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-26461
     - https://security.netapp.com/advisory/ntap-20240415-0011/
+    - https://ubuntu.com/security/notices/USN-7314-1
     - https://www.cve.org/CVERecord?id=CVE-2024-26461
     PublishedDate: '2024-02-29T01:44:18.82Z'
     LastModifiedDate: '2024-11-21T09:02:26.477Z'
@@ -1185,7 +1265,8 @@
       PURL: pkg:deb/ubuntu/libk5crypto3@1.20.1-6ubuntu2.4?arch=amd64&distro=ubuntu-24.04
       UID: c0875c431e2fddd0
     InstalledVersion: 1.20.1-6ubuntu2.4
-    Status: affected
+    FixedVersion: 1.20.1-6ubuntu2.5
+    Status: fixed
     Layer:
       Digest: sha256:e373964501dbfe7fc804f44b0a1a3b374aeebbadae4ddfcb609ad826ead9ee3c
       DiffID: sha256:f2b2d438ca86c3e1a8b02cc6d4f35bac748b671c7d49bacbdbf7e9274619a2ac
@@ -1229,9 +1310,44 @@
     - https://mailman.mit.edu/pipermail/kerberos/2024-March/023095.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-26462
     - https://security.netapp.com/advisory/ntap-20240415-0012/
+    - https://ubuntu.com/security/notices/USN-7314-1
     - https://www.cve.org/CVERecord?id=CVE-2024-26462
     PublishedDate: '2024-02-29T01:44:18.857Z'
     LastModifiedDate: '2025-02-14T17:29:03.303Z'
+  - VulnerabilityID: CVE-2025-24528
+    PkgID: libk5crypto3@1.20.1-6ubuntu2.4
+    PkgName: libk5crypto3
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libk5crypto3@1.20.1-6ubuntu2.4?arch=amd64&distro=ubuntu-24.04
+      UID: c0875c431e2fddd0
+    InstalledVersion: 1.20.1-6ubuntu2.4
+    FixedVersion: 1.20.1-6ubuntu2.5
+    Status: fixed
+    Layer:
+      Digest: sha256:e373964501dbfe7fc804f44b0a1a3b374aeebbadae4ddfcb609ad826ead9ee3c
+      DiffID: sha256:f2b2d438ca86c3e1a8b02cc6d4f35bac748b671c7d49bacbdbf7e9274619a2ac
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-24528
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'krb5: overflow when calculating ulog block size'
+    Description: A flaw was found in krb5. With incremental propagation enabled, an authenticated attacker can cause kadmind to write beyond the end of the mapped region for the iprop log file. This issue can trigger a process crash and lead to a denial of service.
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 6.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-24528
+    - https://github.com/krb5/krb5/commit/78ceba024b64d49612375be4a12d1c066b0bfbd0
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-24528
+    - https://ubuntu.com/security/notices/USN-7314-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-24528
   - VulnerabilityID: CVE-2024-26458
     PkgID: libk5crypto3@1.20.1-6ubuntu2.4
     PkgName: libk5crypto3
@@ -1239,7 +1355,8 @@
       PURL: pkg:deb/ubuntu/libk5crypto3@1.20.1-6ubuntu2.4?arch=amd64&distro=ubuntu-24.04
       UID: c0875c431e2fddd0
     InstalledVersion: 1.20.1-6ubuntu2.4
-    Status: affected
+    FixedVersion: 1.20.1-6ubuntu2.5
+    Status: fixed
     Layer:
       Digest: sha256:e373964501dbfe7fc804f44b0a1a3b374aeebbadae4ddfcb609ad826ead9ee3c
       DiffID: sha256:f2b2d438ca86c3e1a8b02cc6d4f35bac748b671c7d49bacbdbf7e9274619a2ac
@@ -1284,6 +1401,7 @@
     - https://mailman.mit.edu/pipermail/kerberos/2024-March/023095.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-26458
     - https://security.netapp.com/advisory/ntap-20240415-0010/
+    - https://ubuntu.com/security/notices/USN-7314-1
     - https://www.cve.org/CVERecord?id=CVE-2024-26458
     PublishedDate: '2024-02-29T01:44:18.78Z'
     LastModifiedDate: '2024-12-06T21:15:06.28Z'
@@ -1294,7 +1412,8 @@
       PURL: pkg:deb/ubuntu/libk5crypto3@1.20.1-6ubuntu2.4?arch=amd64&distro=ubuntu-24.04
       UID: c0875c431e2fddd0
     InstalledVersion: 1.20.1-6ubuntu2.4
-    Status: affected
+    FixedVersion: 1.20.1-6ubuntu2.5
+    Status: fixed
     Layer:
       Digest: sha256:e373964501dbfe7fc804f44b0a1a3b374aeebbadae4ddfcb609ad826ead9ee3c
       DiffID: sha256:f2b2d438ca86c3e1a8b02cc6d4f35bac748b671c7d49bacbdbf7e9274619a2ac
@@ -1341,6 +1460,7 @@
     - https://mailman.mit.edu/pipermail/kerberos/2024-March/023095.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-26461
     - https://security.netapp.com/advisory/ntap-20240415-0011/
+    - https://ubuntu.com/security/notices/USN-7314-1
     - https://www.cve.org/CVERecord?id=CVE-2024-26461
     PublishedDate: '2024-02-29T01:44:18.82Z'
     LastModifiedDate: '2024-11-21T09:02:26.477Z'
@@ -1351,7 +1471,8 @@
       PURL: pkg:deb/ubuntu/libkrb5-3@1.20.1-6ubuntu2.4?arch=amd64&distro=ubuntu-24.04
       UID: d65342dbe27c8452
     InstalledVersion: 1.20.1-6ubuntu2.4
-    Status: affected
+    FixedVersion: 1.20.1-6ubuntu2.5
+    Status: fixed
     Layer:
       Digest: sha256:e373964501dbfe7fc804f44b0a1a3b374aeebbadae4ddfcb609ad826ead9ee3c
       DiffID: sha256:f2b2d438ca86c3e1a8b02cc6d4f35bac748b671c7d49bacbdbf7e9274619a2ac
@@ -1395,9 +1516,44 @@
     - https://mailman.mit.edu/pipermail/kerberos/2024-March/023095.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-26462
     - https://security.netapp.com/advisory/ntap-20240415-0012/
+    - https://ubuntu.com/security/notices/USN-7314-1
     - https://www.cve.org/CVERecord?id=CVE-2024-26462
     PublishedDate: '2024-02-29T01:44:18.857Z'
     LastModifiedDate: '2025-02-14T17:29:03.303Z'
+  - VulnerabilityID: CVE-2025-24528
+    PkgID: libkrb5-3@1.20.1-6ubuntu2.4
+    PkgName: libkrb5-3
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libkrb5-3@1.20.1-6ubuntu2.4?arch=amd64&distro=ubuntu-24.04
+      UID: d65342dbe27c8452
+    InstalledVersion: 1.20.1-6ubuntu2.4
+    FixedVersion: 1.20.1-6ubuntu2.5
+    Status: fixed
+    Layer:
+      Digest: sha256:e373964501dbfe7fc804f44b0a1a3b374aeebbadae4ddfcb609ad826ead9ee3c
+      DiffID: sha256:f2b2d438ca86c3e1a8b02cc6d4f35bac748b671c7d49bacbdbf7e9274619a2ac
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-24528
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'krb5: overflow when calculating ulog block size'
+    Description: A flaw was found in krb5. With incremental propagation enabled, an authenticated attacker can cause kadmind to write beyond the end of the mapped region for the iprop log file. This issue can trigger a process crash and lead to a denial of service.
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 6.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-24528
+    - https://github.com/krb5/krb5/commit/78ceba024b64d49612375be4a12d1c066b0bfbd0
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-24528
+    - https://ubuntu.com/security/notices/USN-7314-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-24528
   - VulnerabilityID: CVE-2024-26458
     PkgID: libkrb5-3@1.20.1-6ubuntu2.4
     PkgName: libkrb5-3
@@ -1405,7 +1561,8 @@
       PURL: pkg:deb/ubuntu/libkrb5-3@1.20.1-6ubuntu2.4?arch=amd64&distro=ubuntu-24.04
       UID: d65342dbe27c8452
     InstalledVersion: 1.20.1-6ubuntu2.4
-    Status: affected
+    FixedVersion: 1.20.1-6ubuntu2.5
+    Status: fixed
     Layer:
       Digest: sha256:e373964501dbfe7fc804f44b0a1a3b374aeebbadae4ddfcb609ad826ead9ee3c
       DiffID: sha256:f2b2d438ca86c3e1a8b02cc6d4f35bac748b671c7d49bacbdbf7e9274619a2ac
@@ -1450,6 +1607,7 @@
     - https://mailman.mit.edu/pipermail/kerberos/2024-March/023095.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-26458
     - https://security.netapp.com/advisory/ntap-20240415-0010/
+    - https://ubuntu.com/security/notices/USN-7314-1
     - https://www.cve.org/CVERecord?id=CVE-2024-26458
     PublishedDate: '2024-02-29T01:44:18.78Z'
     LastModifiedDate: '2024-12-06T21:15:06.28Z'
@@ -1460,7 +1618,8 @@
       PURL: pkg:deb/ubuntu/libkrb5-3@1.20.1-6ubuntu2.4?arch=amd64&distro=ubuntu-24.04
       UID: d65342dbe27c8452
     InstalledVersion: 1.20.1-6ubuntu2.4
-    Status: affected
+    FixedVersion: 1.20.1-6ubuntu2.5
+    Status: fixed
     Layer:
       Digest: sha256:e373964501dbfe7fc804f44b0a1a3b374aeebbadae4ddfcb609ad826ead9ee3c
       DiffID: sha256:f2b2d438ca86c3e1a8b02cc6d4f35bac748b671c7d49bacbdbf7e9274619a2ac
@@ -1507,6 +1666,7 @@
     - https://mailman.mit.edu/pipermail/kerberos/2024-March/023095.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-26461
     - https://security.netapp.com/advisory/ntap-20240415-0011/
+    - https://ubuntu.com/security/notices/USN-7314-1
     - https://www.cve.org/CVERecord?id=CVE-2024-26461
     PublishedDate: '2024-02-29T01:44:18.82Z'
     LastModifiedDate: '2024-11-21T09:02:26.477Z'
@@ -1517,7 +1677,8 @@
       PURL: pkg:deb/ubuntu/libkrb5support0@1.20.1-6ubuntu2.4?arch=amd64&distro=ubuntu-24.04
       UID: 217834966d60c9a8
     InstalledVersion: 1.20.1-6ubuntu2.4
-    Status: affected
+    FixedVersion: 1.20.1-6ubuntu2.5
+    Status: fixed
     Layer:
       Digest: sha256:e373964501dbfe7fc804f44b0a1a3b374aeebbadae4ddfcb609ad826ead9ee3c
       DiffID: sha256:f2b2d438ca86c3e1a8b02cc6d4f35bac748b671c7d49bacbdbf7e9274619a2ac
@@ -1561,9 +1722,44 @@
     - https://mailman.mit.edu/pipermail/kerberos/2024-March/023095.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-26462
     - https://security.netapp.com/advisory/ntap-20240415-0012/
+    - https://ubuntu.com/security/notices/USN-7314-1
     - https://www.cve.org/CVERecord?id=CVE-2024-26462
     PublishedDate: '2024-02-29T01:44:18.857Z'
     LastModifiedDate: '2025-02-14T17:29:03.303Z'
+  - VulnerabilityID: CVE-2025-24528
+    PkgID: libkrb5support0@1.20.1-6ubuntu2.4
+    PkgName: libkrb5support0
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libkrb5support0@1.20.1-6ubuntu2.4?arch=amd64&distro=ubuntu-24.04
+      UID: 217834966d60c9a8
+    InstalledVersion: 1.20.1-6ubuntu2.4
+    FixedVersion: 1.20.1-6ubuntu2.5
+    Status: fixed
+    Layer:
+      Digest: sha256:e373964501dbfe7fc804f44b0a1a3b374aeebbadae4ddfcb609ad826ead9ee3c
+      DiffID: sha256:f2b2d438ca86c3e1a8b02cc6d4f35bac748b671c7d49bacbdbf7e9274619a2ac
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-24528
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'krb5: overflow when calculating ulog block size'
+    Description: A flaw was found in krb5. With incremental propagation enabled, an authenticated attacker can cause kadmind to write beyond the end of the mapped region for the iprop log file. This issue can trigger a process crash and lead to a denial of service.
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 6.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-24528
+    - https://github.com/krb5/krb5/commit/78ceba024b64d49612375be4a12d1c066b0bfbd0
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-24528
+    - https://ubuntu.com/security/notices/USN-7314-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-24528
   - VulnerabilityID: CVE-2024-26458
     PkgID: libkrb5support0@1.20.1-6ubuntu2.4
     PkgName: libkrb5support0
@@ -1571,7 +1767,8 @@
       PURL: pkg:deb/ubuntu/libkrb5support0@1.20.1-6ubuntu2.4?arch=amd64&distro=ubuntu-24.04
       UID: 217834966d60c9a8
     InstalledVersion: 1.20.1-6ubuntu2.4
-    Status: affected
+    FixedVersion: 1.20.1-6ubuntu2.5
+    Status: fixed
     Layer:
       Digest: sha256:e373964501dbfe7fc804f44b0a1a3b374aeebbadae4ddfcb609ad826ead9ee3c
       DiffID: sha256:f2b2d438ca86c3e1a8b02cc6d4f35bac748b671c7d49bacbdbf7e9274619a2ac
@@ -1616,6 +1813,7 @@
     - https://mailman.mit.edu/pipermail/kerberos/2024-March/023095.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-26458
     - https://security.netapp.com/advisory/ntap-20240415-0010/
+    - https://ubuntu.com/security/notices/USN-7314-1
     - https://www.cve.org/CVERecord?id=CVE-2024-26458
     PublishedDate: '2024-02-29T01:44:18.78Z'
     LastModifiedDate: '2024-12-06T21:15:06.28Z'
@@ -1626,7 +1824,8 @@
       PURL: pkg:deb/ubuntu/libkrb5support0@1.20.1-6ubuntu2.4?arch=amd64&distro=ubuntu-24.04
       UID: 217834966d60c9a8
     InstalledVersion: 1.20.1-6ubuntu2.4
-    Status: affected
+    FixedVersion: 1.20.1-6ubuntu2.5
+    Status: fixed
     Layer:
       Digest: sha256:e373964501dbfe7fc804f44b0a1a3b374aeebbadae4ddfcb609ad826ead9ee3c
       DiffID: sha256:f2b2d438ca86c3e1a8b02cc6d4f35bac748b671c7d49bacbdbf7e9274619a2ac
@@ -1673,6 +1872,7 @@
     - https://mailman.mit.edu/pipermail/kerberos/2024-March/023095.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-26461
     - https://security.netapp.com/advisory/ntap-20240415-0011/
+    - https://ubuntu.com/security/notices/USN-7314-1
     - https://www.cve.org/CVERecord?id=CVE-2024-26461
     PublishedDate: '2024-02-29T01:44:18.82Z'
     LastModifiedDate: '2024-11-21T09:02:26.477Z'
@@ -3784,7 +3984,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -3852,7 +4052,7 @@
     Severity: MEDIUM
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       bitnami: 2
       cbl-mariner: 2
       nvd: 2
@@ -6023,7 +6223,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -6091,7 +6291,7 @@
     Severity: MEDIUM
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       bitnami: 2
       cbl-mariner: 2
       nvd: 2
@@ -7395,37 +7595,6 @@
     - https://github.com/grpc/grpc-go
     - https://github.com/grpc/grpc-go/commit/ab292411ddc0f3b7a7786754d1fe05264c3021eb
     - https://github.com/grpc/grpc-go/security/advisories/GHSA-xr7q-jx4m-x55m
-- Target: /etc/ssh/ssh_host_ecdsa_key
-  Class: secret
-  Secrets:
-  - RuleID: private-key
-    Category: AsymmetricPrivateKey
-    Severity: HIGH
-    Title: Asymmetric Private Key
-    StartLine: 1
-    EndLine: 1
-    Code:
-      Lines:
-      - Number: 1
-        Content: BEGIN OPENSSH PRIVATE KEY-----************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
-        IsCause: true
-        Annotation: ''
-        Truncated: false
-        Highlighted: BEGIN OPENSSH PRIVATE KEY-----************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
-        FirstCause: true
-        LastCause: true
-      - Number: 2
-        Content: ''
-        IsCause: false
-        Annotation: ''
-        Truncated: false
-        FirstCause: false
-        LastCause: false
-    Match: BEGIN OPENSSH PRIVATE KEY-----************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
-    Layer:
-      Digest: sha256:e373964501dbfe7fc804f44b0a1a3b374aeebbadae4ddfcb609ad826ead9ee3c
-      DiffID: sha256:f2b2d438ca86c3e1a8b02cc6d4f35bac748b671c7d49bacbdbf7e9274619a2ac
-      CreatedBy: 'COPY / / # buildkit'
 - Target: /etc/ssh/ssh_host_ed25519_key
   Class: secret
   Secrets:
@@ -7484,6 +7653,37 @@
         FirstCause: false
         LastCause: false
     Match: BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
+    Layer:
+      Digest: sha256:e373964501dbfe7fc804f44b0a1a3b374aeebbadae4ddfcb609ad826ead9ee3c
+      DiffID: sha256:f2b2d438ca86c3e1a8b02cc6d4f35bac748b671c7d49bacbdbf7e9274619a2ac
+      CreatedBy: 'COPY / / # buildkit'
+- Target: /etc/ssh/ssh_host_ecdsa_key
+  Class: secret
+  Secrets:
+  - RuleID: private-key
+    Category: AsymmetricPrivateKey
+    Severity: HIGH
+    Title: Asymmetric Private Key
+    StartLine: 1
+    EndLine: 1
+    Code:
+      Lines:
+      - Number: 1
+        Content: BEGIN OPENSSH PRIVATE KEY-----************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
+        IsCause: true
+        Annotation: ''
+        Truncated: false
+        Highlighted: BEGIN OPENSSH PRIVATE KEY-----************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
+        FirstCause: true
+        LastCause: true
+      - Number: 2
+        Content: ''
+        IsCause: false
+        Annotation: ''
+        Truncated: false
+        FirstCause: false
+        LastCause: false
+    Match: BEGIN OPENSSH PRIVATE KEY-----************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
     Layer:
       Digest: sha256:e373964501dbfe7fc804f44b0a1a3b374aeebbadae4ddfcb609ad826ead9ee3c
       DiffID: sha256:f2b2d438ca86c3e1a8b02cc6d4f35bac748b671c7d49bacbdbf7e9274619a2ac
