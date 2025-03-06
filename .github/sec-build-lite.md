@@ -3186,7 +3186,7 @@
 │                        │      │                   denial of service. 
 │                        │      ├ Severity        : HIGH 
 │                        │      ├ CweIDs           ─ [0]: CWE-1333 
-│                        │      ├ VendorSeverity   ╭ amazon     : 2 
+│                        │      ├ VendorSeverity   ╭ amazon     : 3 
 │                        │      │                  ├ azure      : 3 
 │                        │      │                  ├ cbl-mariner: 3 
 │                        │      │                  ├ ghsa       : 3 
@@ -3236,7 +3236,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ amazon     : 3 
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ ghsa       : 2 
@@ -4737,7 +4737,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ amazon     : 3 
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
@@ -4897,7 +4897,7 @@
 │                        │      │                   bytes grows too small. 
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ nvd        : 2 
@@ -6240,7 +6240,7 @@
 │                        │      │                   denial of service. 
 │                        │      ├ Severity        : HIGH 
 │                        │      ├ CweIDs           ─ [0]: CWE-1333 
-│                        │      ├ VendorSeverity   ╭ amazon     : 2 
+│                        │      ├ VendorSeverity   ╭ amazon     : 3 
 │                        │      │                  ├ azure      : 3 
 │                        │      │                  ├ cbl-mariner: 3 
 │                        │      │                  ├ ghsa       : 3 
@@ -6290,7 +6290,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ amazon     : 3 
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ ghsa       : 2 
@@ -7791,7 +7791,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ amazon     : 3 
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
@@ -7951,7 +7951,7 @@
 │                        │      │                   bytes grows too small. 
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ nvd        : 2 
@@ -9162,7 +9162,7 @@
 │                              │                   denial of service. 
 │                              ├ Severity        : HIGH 
 │                              ├ CweIDs           ─ [0]: CWE-1333 
-│                              ├ VendorSeverity   ╭ amazon     : 2 
+│                              ├ VendorSeverity   ╭ amazon     : 3 
 │                              │                  ├ azure      : 3 
 │                              │                  ├ cbl-mariner: 3 
 │                              │                  ├ ghsa       : 3 
@@ -9415,7 +9415,7 @@
 │                        │     │                   denial of service. 
 │                        │     ├ Severity        : HIGH 
 │                        │     ├ CweIDs           ─ [0]: CWE-1333 
-│                        │     ├ VendorSeverity   ╭ amazon     : 2 
+│                        │     ├ VendorSeverity   ╭ amazon     : 3 
 │                        │     │                  ├ azure      : 3 
 │                        │     │                  ├ cbl-mariner: 3 
 │                        │     │                  ├ ghsa       : 3 
@@ -9480,7 +9480,47 @@
 │                                                 │      7a7786754d1fe05264c3021eb 
 │                                                 ╰ [2]: https://github.com/grpc/grpc-go/security/advisories/GH
 │                                                        SA-xr7q-jx4m-x55m 
-├ [9]  ╭ Target : /etc/ssh/ssh_host_ed25519_key 
+├ [9]  ╭ Target : /etc/ssh/ssh_host_ecdsa_key 
+│      ├ Class  : secret 
+│      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
+│                      ├ Category : AsymmetricPrivateKey 
+│                      ├ Severity : HIGH 
+│                      ├ Title    : Asymmetric Private Key 
+│                      ├ StartLine: 1 
+│                      ├ EndLine  : 1 
+│                      ├ Code      ─ Lines ╭ [0] ╭ Number     : 1 
+│                      │                   │     ├ Content    : BEGIN OPENSSH PRIVATE
+│                      │                   │     │              KEY-----***************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              *****************************-----END OPENSSH
+│                      │                   │     │              PRI 
+│                      │                   │     ├ IsCause    : true 
+│                      │                   │     ├ Annotation :  
+│                      │                   │     ├ Truncated  : false 
+│                      │                   │     ├ Highlighted: BEGIN OPENSSH PRIVATE
+│                      │                   │     │              KEY-----***************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              *****************************-----END OPENSSH
+│                      │                   │     │              PRI 
+│                      │                   │     ├ FirstCause : true 
+│                      │                   │     ╰ LastCause  : true 
+│                      │                   ╰ [1] ╭ Number    : 2 
+│                      │                         ├ Content   :  
+│                      │                         ├ IsCause   : false 
+│                      │                         ├ Annotation:  
+│                      │                         ├ Truncated : false 
+│                      │                         ├ FirstCause: false 
+│                      │                         ╰ LastCause : false 
+│                      ├ Match    : BEGIN OPENSSH PRIVATE
+│                      │            KEY-----*******************************************************************
+│                      │            ***************************************************************************
+│                      │            **-----END OPENSSH PRI 
+│                      ╰ Layer     ╭ Digest   : sha256:e373964501dbfe7fc804f44b0a1a3b374aeebbadae4ddfcb609ad826
+│                                  │            ead9ee3c 
+│                                  ├ DiffID   : sha256:f2b2d438ca86c3e1a8b02cc6d4f35bac748b671c7d49bacbdbf7e927
+│                                  │            4619a2ac 
+│                                  ╰ CreatedBy: COPY / / # buildkit 
+├ [10] ╭ Target : /etc/ssh/ssh_host_ed25519_key 
 │      ├ Class  : secret 
 │      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
 │                      ├ Category : AsymmetricPrivateKey 
@@ -9518,46 +9558,7 @@
 │                                  ├ DiffID   : sha256:f2b2d438ca86c3e1a8b02cc6d4f35bac748b671c7d49bacbdbf7e927
 │                                  │            4619a2ac 
 │                                  ╰ CreatedBy: COPY / / # buildkit 
-├ [10] ╭ Target : /etc/ssh/ssh_host_rsa_key 
-│      ├ Class  : secret 
-│      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
-│                      ├ Category : AsymmetricPrivateKey 
-│                      ├ Severity : HIGH 
-│                      ├ Title    : Asymmetric Private Key 
-│                      ├ StartLine: 1 
-│                      ├ EndLine  : 1 
-│                      ├ Code      ─ Lines ╭ [0] ╭ Number     : 1 
-│                      │                   │     ├ Content    : BEGIN OPENSSH PRIVATE
-│                      │                   │     │              KEY-----***************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********-----END OPENSSH PRI 
-│                      │                   │     ├ IsCause    : true 
-│                      │                   │     ├ Annotation :  
-│                      │                   │     ├ Truncated  : false 
-│                      │                   │     ├ Highlighted: BEGIN OPENSSH PRIVATE
-│                      │                   │     │              KEY-----***************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********-----END OPENSSH PRI 
-│                      │                   │     ├ FirstCause : true 
-│                      │                   │     ╰ LastCause  : true 
-│                      │                   ╰ [1] ╭ Number    : 2 
-│                      │                         ├ Content   :  
-│                      │                         ├ IsCause   : false 
-│                      │                         ├ Annotation:  
-│                      │                         ├ Truncated : false 
-│                      │                         ├ FirstCause: false 
-│                      │                         ╰ LastCause : false 
-│                      ├ Match    : BEGIN OPENSSH PRIVATE
-│                      │            KEY-----*******************************************************************
-│                      │            ***************************************************************************
-│                      │            **************************************************************************-
-│                      │            ----END OPENSSH PRI 
-│                      ╰ Layer     ╭ Digest   : sha256:e373964501dbfe7fc804f44b0a1a3b374aeebbadae4ddfcb609ad826
-│                                  │            ead9ee3c 
-│                                  ├ DiffID   : sha256:f2b2d438ca86c3e1a8b02cc6d4f35bac748b671c7d49bacbdbf7e927
-│                                  │            4619a2ac 
-│                                  ╰ CreatedBy: COPY / / # buildkit 
-╰ [11] ╭ Target : /etc/ssh/ssh_host_ecdsa_key 
+╰ [11] ╭ Target : /etc/ssh/ssh_host_rsa_key 
        ├ Class  : secret 
        ╰ Secrets ─ [0] ╭ RuleID   : private-key 
                        ├ Category : AsymmetricPrivateKey 
@@ -9569,16 +9570,14 @@
                        │                   │     ├ Content    : BEGIN OPENSSH PRIVATE
                        │                   │     │              KEY-----***************************************
                        │                   │     │              ***********************************************
-                       │                   │     │              *****************************-----END OPENSSH
-                       │                   │     │              PRI 
+                       │                   │     │              ***********-----END OPENSSH PRI 
                        │                   │     ├ IsCause    : true 
                        │                   │     ├ Annotation :  
                        │                   │     ├ Truncated  : false 
                        │                   │     ├ Highlighted: BEGIN OPENSSH PRIVATE
                        │                   │     │              KEY-----***************************************
                        │                   │     │              ***********************************************
-                       │                   │     │              *****************************-----END OPENSSH
-                       │                   │     │              PRI 
+                       │                   │     │              ***********-----END OPENSSH PRI 
                        │                   │     ├ FirstCause : true 
                        │                   │     ╰ LastCause  : true 
                        │                   ╰ [1] ╭ Number    : 2 
@@ -9591,7 +9590,8 @@
                        ├ Match    : BEGIN OPENSSH PRIVATE
                        │            KEY-----*******************************************************************
                        │            ***************************************************************************
-                       │            **-----END OPENSSH PRI 
+                       │            **************************************************************************-
+                       │            ----END OPENSSH PRI 
                        ╰ Layer     ╭ Digest   : sha256:e373964501dbfe7fc804f44b0a1a3b374aeebbadae4ddfcb609ad826
                                    │            ead9ee3c 
                                    ├ DiffID   : sha256:f2b2d438ca86c3e1a8b02cc6d4f35bac748b671c7d49bacbdbf7e927
