@@ -3029,6 +3029,7 @@
     CweIDs:
     - CWE-20
     VendorSeverity:
+      amazon: 2
       cbl-mariner: 2
       redhat: 2
       ubuntu: 2
@@ -3076,6 +3077,7 @@
     CweIDs:
     - CWE-20
     VendorSeverity:
+      amazon: 2
       cbl-mariner: 2
       redhat: 2
       ubuntu: 2
@@ -3123,6 +3125,7 @@
     CweIDs:
     - CWE-20
     VendorSeverity:
+      amazon: 2
       cbl-mariner: 2
       redhat: 2
       ubuntu: 2
@@ -4463,6 +4466,7 @@
     CweIDs:
     - CWE-390
     VendorSeverity:
+      amazon: 2
       azure: 2
       cbl-mariner: 2
       photon: 2
@@ -4520,6 +4524,7 @@
     CweIDs:
     - CWE-390
     VendorSeverity:
+      amazon: 2
       azure: 2
       cbl-mariner: 2
       photon: 2
@@ -4577,6 +4582,7 @@
     CweIDs:
     - CWE-390
     VendorSeverity:
+      amazon: 2
       azure: 2
       cbl-mariner: 2
       photon: 2
@@ -4902,6 +4908,7 @@
     CweIDs:
     - CWE-20
     VendorSeverity:
+      amazon: 2
       cbl-mariner: 2
       redhat: 2
       ubuntu: 2
@@ -4949,6 +4956,7 @@
     CweIDs:
     - CWE-20
     VendorSeverity:
+      amazon: 2
       cbl-mariner: 2
       redhat: 2
       ubuntu: 2
@@ -5744,7 +5752,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       azure: 2
       cbl-mariner: 2
       ghsa: 2
@@ -6750,7 +6758,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -6888,7 +6896,7 @@
     Severity: MEDIUM
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       bitnami: 2
       cbl-mariner: 2
       nvd: 2
@@ -7645,6 +7653,7 @@
     Description: The HTTP client drops sensitive headers after following a cross-domain redirect. For example, a request to a.com/ containing an Authorization header which is redirected to b.com/ will not send that header to b.com. In the event that the client received a subsequent same-domain redirect, however, the sensitive headers would be restored. For example, a chain of redirects from a.com/, to b.com/1, and finally to b.com/2 would incorrectly send the Authorization header to b.com/2.
     Severity: MEDIUM
     VendorSeverity:
+      amazon: 2
       bitnami: 2
       cbl-mariner: 3
       redhat: 2
@@ -7688,6 +7697,7 @@
     Description: A certificate with a URI which has a IPv6 address with a zone ID may incorrectly satisfy a URI name constraint that applies to the certificate chain. Certificates containing URIs are not permitted in the web PKI, so this only affects users of private PKIs which make use of URIs.
     Severity: MEDIUM
     VendorSeverity:
+      amazon: 2
       bitnami: 2
       cbl-mariner: 2
       redhat: 1
@@ -7983,7 +7993,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       azure: 2
       cbl-mariner: 2
       ghsa: 2
@@ -8989,7 +8999,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -9127,7 +9137,7 @@
     Severity: MEDIUM
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       bitnami: 2
       cbl-mariner: 2
       nvd: 2
@@ -9884,6 +9894,7 @@
     Description: The HTTP client drops sensitive headers after following a cross-domain redirect. For example, a request to a.com/ containing an Authorization header which is redirected to b.com/ will not send that header to b.com. In the event that the client received a subsequent same-domain redirect, however, the sensitive headers would be restored. For example, a chain of redirects from a.com/, to b.com/1, and finally to b.com/2 would incorrectly send the Authorization header to b.com/2.
     Severity: MEDIUM
     VendorSeverity:
+      amazon: 2
       bitnami: 2
       cbl-mariner: 3
       redhat: 2
@@ -9927,6 +9938,7 @@
     Description: A certificate with a URI which has a IPv6 address with a zone ID may incorrectly satisfy a URI name constraint that applies to the certificate chain. Certificates containing URIs are not permitted in the web PKI, so this only affects users of private PKIs which make use of URIs.
     Severity: MEDIUM
     VendorSeverity:
+      amazon: 2
       bitnami: 2
       cbl-mariner: 2
       redhat: 1
@@ -10015,6 +10027,7 @@
     Description: The HTTP client drops sensitive headers after following a cross-domain redirect. For example, a request to a.com/ containing an Authorization header which is redirected to b.com/ will not send that header to b.com. In the event that the client received a subsequent same-domain redirect, however, the sensitive headers would be restored. For example, a chain of redirects from a.com/, to b.com/1, and finally to b.com/2 would incorrectly send the Authorization header to b.com/2.
     Severity: MEDIUM
     VendorSeverity:
+      amazon: 2
       bitnami: 2
       cbl-mariner: 3
       redhat: 2
@@ -10058,6 +10071,7 @@
     Description: A certificate with a URI which has a IPv6 address with a zone ID may incorrectly satisfy a URI name constraint that applies to the certificate chain. Certificates containing URIs are not permitted in the web PKI, so this only affects users of private PKIs which make use of URIs.
     Severity: MEDIUM
     VendorSeverity:
+      amazon: 2
       bitnami: 2
       cbl-mariner: 2
       redhat: 1
@@ -10146,6 +10160,7 @@
     Description: The HTTP client drops sensitive headers after following a cross-domain redirect. For example, a request to a.com/ containing an Authorization header which is redirected to b.com/ will not send that header to b.com. In the event that the client received a subsequent same-domain redirect, however, the sensitive headers would be restored. For example, a chain of redirects from a.com/, to b.com/1, and finally to b.com/2 would incorrectly send the Authorization header to b.com/2.
     Severity: MEDIUM
     VendorSeverity:
+      amazon: 2
       bitnami: 2
       cbl-mariner: 3
       redhat: 2
@@ -10189,6 +10204,7 @@
     Description: A certificate with a URI which has a IPv6 address with a zone ID may incorrectly satisfy a URI name constraint that applies to the certificate chain. Certificates containing URIs are not permitted in the web PKI, so this only affects users of private PKIs which make use of URIs.
     Severity: MEDIUM
     VendorSeverity:
+      amazon: 2
       bitnami: 2
       cbl-mariner: 2
       redhat: 1
@@ -10326,6 +10342,7 @@
     Description: The HTTP client drops sensitive headers after following a cross-domain redirect. For example, a request to a.com/ containing an Authorization header which is redirected to b.com/ will not send that header to b.com. In the event that the client received a subsequent same-domain redirect, however, the sensitive headers would be restored. For example, a chain of redirects from a.com/, to b.com/1, and finally to b.com/2 would incorrectly send the Authorization header to b.com/2.
     Severity: MEDIUM
     VendorSeverity:
+      amazon: 2
       bitnami: 2
       cbl-mariner: 3
       redhat: 2
@@ -10369,6 +10386,7 @@
     Description: A certificate with a URI which has a IPv6 address with a zone ID may incorrectly satisfy a URI name constraint that applies to the certificate chain. Certificates containing URIs are not permitted in the web PKI, so this only affects users of private PKIs which make use of URIs.
     Severity: MEDIUM
     VendorSeverity:
+      amazon: 2
       bitnami: 2
       cbl-mariner: 2
       redhat: 1
@@ -10707,6 +10725,7 @@
     Description: The HTTP client drops sensitive headers after following a cross-domain redirect. For example, a request to a.com/ containing an Authorization header which is redirected to b.com/ will not send that header to b.com. In the event that the client received a subsequent same-domain redirect, however, the sensitive headers would be restored. For example, a chain of redirects from a.com/, to b.com/1, and finally to b.com/2 would incorrectly send the Authorization header to b.com/2.
     Severity: MEDIUM
     VendorSeverity:
+      amazon: 2
       bitnami: 2
       cbl-mariner: 3
       redhat: 2
@@ -10750,6 +10769,7 @@
     Description: A certificate with a URI which has a IPv6 address with a zone ID may incorrectly satisfy a URI name constraint that applies to the certificate chain. Certificates containing URIs are not permitted in the web PKI, so this only affects users of private PKIs which make use of URIs.
     Severity: MEDIUM
     VendorSeverity:
+      amazon: 2
       bitnami: 2
       cbl-mariner: 2
       redhat: 1
