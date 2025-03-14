@@ -245,7 +245,7 @@
     - https://security.netapp.com/advisory/ntap-20230324-0001/
     - https://www.cve.org/CVERecord?id=CVE-2022-3219
     PublishedDate: '2023-02-23T20:15:12.393Z'
-    LastModifiedDate: '2024-11-21T07:19:04.727Z'
+    LastModifiedDate: '2025-03-12T21:15:38.207Z'
   - VulnerabilityID: CVE-2022-27943
     PkgID: gcc-12-base@12.3.0-1ubuntu1~22.04
     PkgName: gcc-12-base
@@ -477,7 +477,7 @@
     - https://security.netapp.com/advisory/ntap-20230324-0001/
     - https://www.cve.org/CVERecord?id=CVE-2022-3219
     PublishedDate: '2023-02-23T20:15:12.393Z'
-    LastModifiedDate: '2024-11-21T07:19:04.727Z'
+    LastModifiedDate: '2025-03-12T21:15:38.207Z'
   - VulnerabilityID: CVE-2022-3219
     PkgID: gnupg-l10n@2.2.27-3ubuntu2.1
     PkgName: gnupg-l10n
@@ -521,7 +521,7 @@
     - https://security.netapp.com/advisory/ntap-20230324-0001/
     - https://www.cve.org/CVERecord?id=CVE-2022-3219
     PublishedDate: '2023-02-23T20:15:12.393Z'
-    LastModifiedDate: '2024-11-21T07:19:04.727Z'
+    LastModifiedDate: '2025-03-12T21:15:38.207Z'
   - VulnerabilityID: CVE-2022-3219
     PkgID: gnupg-utils@2.2.27-3ubuntu2.1
     PkgName: gnupg-utils
@@ -565,7 +565,7 @@
     - https://security.netapp.com/advisory/ntap-20230324-0001/
     - https://www.cve.org/CVERecord?id=CVE-2022-3219
     PublishedDate: '2023-02-23T20:15:12.393Z'
-    LastModifiedDate: '2024-11-21T07:19:04.727Z'
+    LastModifiedDate: '2025-03-12T21:15:38.207Z'
   - VulnerabilityID: CVE-2022-3219
     PkgID: gpg@2.2.27-3ubuntu2.1
     PkgName: gpg
@@ -609,7 +609,7 @@
     - https://security.netapp.com/advisory/ntap-20230324-0001/
     - https://www.cve.org/CVERecord?id=CVE-2022-3219
     PublishedDate: '2023-02-23T20:15:12.393Z'
-    LastModifiedDate: '2024-11-21T07:19:04.727Z'
+    LastModifiedDate: '2025-03-12T21:15:38.207Z'
   - VulnerabilityID: CVE-2022-3219
     PkgID: gpg-agent@2.2.27-3ubuntu2.1
     PkgName: gpg-agent
@@ -653,7 +653,7 @@
     - https://security.netapp.com/advisory/ntap-20230324-0001/
     - https://www.cve.org/CVERecord?id=CVE-2022-3219
     PublishedDate: '2023-02-23T20:15:12.393Z'
-    LastModifiedDate: '2024-11-21T07:19:04.727Z'
+    LastModifiedDate: '2025-03-12T21:15:38.207Z'
   - VulnerabilityID: CVE-2022-3219
     PkgID: gpg-wks-client@2.2.27-3ubuntu2.1
     PkgName: gpg-wks-client
@@ -697,7 +697,7 @@
     - https://security.netapp.com/advisory/ntap-20230324-0001/
     - https://www.cve.org/CVERecord?id=CVE-2022-3219
     PublishedDate: '2023-02-23T20:15:12.393Z'
-    LastModifiedDate: '2024-11-21T07:19:04.727Z'
+    LastModifiedDate: '2025-03-12T21:15:38.207Z'
   - VulnerabilityID: CVE-2022-3219
     PkgID: gpg-wks-server@2.2.27-3ubuntu2.1
     PkgName: gpg-wks-server
@@ -741,7 +741,7 @@
     - https://security.netapp.com/advisory/ntap-20230324-0001/
     - https://www.cve.org/CVERecord?id=CVE-2022-3219
     PublishedDate: '2023-02-23T20:15:12.393Z'
-    LastModifiedDate: '2024-11-21T07:19:04.727Z'
+    LastModifiedDate: '2025-03-12T21:15:38.207Z'
   - VulnerabilityID: CVE-2022-3219
     PkgID: gpgconf@2.2.27-3ubuntu2.1
     PkgName: gpgconf
@@ -785,7 +785,7 @@
     - https://security.netapp.com/advisory/ntap-20230324-0001/
     - https://www.cve.org/CVERecord?id=CVE-2022-3219
     PublishedDate: '2023-02-23T20:15:12.393Z'
-    LastModifiedDate: '2024-11-21T07:19:04.727Z'
+    LastModifiedDate: '2025-03-12T21:15:38.207Z'
   - VulnerabilityID: CVE-2022-3219
     PkgID: gpgsm@2.2.27-3ubuntu2.1
     PkgName: gpgsm
@@ -829,7 +829,7 @@
     - https://security.netapp.com/advisory/ntap-20230324-0001/
     - https://www.cve.org/CVERecord?id=CVE-2022-3219
     PublishedDate: '2023-02-23T20:15:12.393Z'
-    LastModifiedDate: '2024-11-21T07:19:04.727Z'
+    LastModifiedDate: '2025-03-12T21:15:38.207Z'
   - VulnerabilityID: CVE-2022-3219
     PkgID: gpgv@2.2.27-3ubuntu2.1
     PkgName: gpgv
@@ -873,7 +873,7 @@
     - https://security.netapp.com/advisory/ntap-20230324-0001/
     - https://www.cve.org/CVERecord?id=CVE-2022-3219
     PublishedDate: '2023-02-23T20:15:12.393Z'
-    LastModifiedDate: '2024-11-21T07:19:04.727Z'
+    LastModifiedDate: '2025-03-12T21:15:38.207Z'
   - VulnerabilityID: CVE-2022-27943
     PkgID: libatomic1@12.3.0-1ubuntu1~22.04
     PkgName: libatomic1
@@ -1307,6 +1307,46 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-23022
     PublishedDate: '2025-01-10T15:15:16.967Z'
     LastModifiedDate: '2025-01-16T21:12:15.537Z'
+  - VulnerabilityID: CVE-2025-27363
+    PkgID: libfreetype6@2.11.1+dfsg-1ubuntu0.2
+    PkgName: libfreetype6
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libfreetype6@2.11.1%2Bdfsg-1ubuntu0.2?arch=amd64&distro=ubuntu-22.04
+      UID: 8ae6d93976aa11c2
+    InstalledVersion: 2.11.1+dfsg-1ubuntu0.2
+    Status: affected
+    Layer:
+      Digest: sha256:516731828ccc7b45bf90ae1c4a00205ac28ae0f1ac84b928f2aa2946b319a0b5
+      DiffID: sha256:c6b06b96654ebdbe3a6eb2b856daec8e0e9dc22e136d414826e1cf55e98d270b
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-27363
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'freetype: OOB write when attempting to parse font subglyph structures related to TrueType GX and variable font files'
+    Description: An out of bounds write exists in FreeType versions 2.13.0 and below (newer versions of FreeType are not vulnerable) when attempting to parse font subglyph structures related to TrueType GX and variable font files. The vulnerable code assigns a signed short value to an unsigned long and then adds a static value causing it to wrap around and allocate too small of a heap buffer. The code then writes up to 6 signed long integers out of bounds relative to this buffer. This may result in arbitrary code execution. This vulnerability may have been exploited in the wild.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-787
+    VendorSeverity:
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 8.1
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/03/13/1
+    - http://www.openwall.com/lists/oss-security/2025/03/13/2
+    - http://www.openwall.com/lists/oss-security/2025/03/13/3
+    - http://www.openwall.com/lists/oss-security/2025/03/13/8
+    - https://access.redhat.com/security/cve/CVE-2025-27363
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-27363
+    - https://www.cve.org/CVERecord?id=CVE-2025-27363
+    - https://www.facebook.com/security/advisories/cve-2025-27363
+    PublishedDate: '2025-03-11T14:15:25.427Z'
+    LastModifiedDate: '2025-03-13T17:15:37.41Z'
   - VulnerabilityID: CVE-2022-27943
     PkgID: libgcc-s1@12.3.0-1ubuntu1~22.04
     PkgName: libgcc-s1
@@ -3065,6 +3105,7 @@
     - https://mail.python.org/archives/list/security-announce@python.org/thread/K4EUG6EKV6JYFIC24BASYOZS4M5XOQIB/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-0938
     - https://ubuntu.com/security/notices/USN-7280-1
+    - https://ubuntu.com/security/notices/USN-7348-1
     - https://www.cve.org/CVERecord?id=CVE-2025-0938
     PublishedDate: '2025-01-31T18:15:38.053Z'
     LastModifiedDate: '2025-02-28T20:15:46.58Z'
@@ -3113,6 +3154,7 @@
     - https://mail.python.org/archives/list/security-announce@python.org/thread/K4EUG6EKV6JYFIC24BASYOZS4M5XOQIB/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-0938
     - https://ubuntu.com/security/notices/USN-7280-1
+    - https://ubuntu.com/security/notices/USN-7348-1
     - https://www.cve.org/CVERecord?id=CVE-2025-0938
     PublishedDate: '2025-01-31T18:15:38.053Z'
     LastModifiedDate: '2025-02-28T20:15:46.58Z'
@@ -3161,6 +3203,7 @@
     - https://mail.python.org/archives/list/security-announce@python.org/thread/K4EUG6EKV6JYFIC24BASYOZS4M5XOQIB/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-0938
     - https://ubuntu.com/security/notices/USN-7280-1
+    - https://ubuntu.com/security/notices/USN-7348-1
     - https://www.cve.org/CVERecord?id=CVE-2025-0938
     PublishedDate: '2025-01-31T18:15:38.053Z'
     LastModifiedDate: '2025-02-28T20:15:46.58Z'
@@ -3748,7 +3791,9 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
+      alma: 3
       cbl-mariner: 3
+      oracle-oval: 3
       photon: 3
       redhat: 3
       ubuntu: 2
@@ -3757,8 +3802,14 @@
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:H
         V3Score: 8.1
     References:
+    - https://access.redhat.com/errata/RHSA-2025:2679
     - https://access.redhat.com/security/cve/CVE-2024-56171
+    - https://bugzilla.redhat.com/2346416
+    - https://bugzilla.redhat.com/2346421
+    - https://errata.almalinux.org/9/ALSA-2025-2679.html
     - https://gitlab.gnome.org/GNOME/libxml2/-/issues/828
+    - https://linux.oracle.com/cve/CVE-2024-56171.html
+    - https://linux.oracle.com/errata/ELSA-2025-2686.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-56171
     - https://ubuntu.com/security/notices/USN-7302-1
     - https://www.cve.org/CVERecord?id=CVE-2024-56171
@@ -3789,7 +3840,9 @@
     CweIDs:
     - CWE-121
     VendorSeverity:
+      alma: 3
       cbl-mariner: 3
+      oracle-oval: 3
       photon: 3
       redhat: 3
       ubuntu: 2
@@ -3798,9 +3851,15 @@
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:N
         V3Score: 7.8
     References:
+    - https://access.redhat.com/errata/RHSA-2025:2679
     - https://access.redhat.com/security/cve/CVE-2025-24928
+    - https://bugzilla.redhat.com/2346416
+    - https://bugzilla.redhat.com/2346421
+    - https://errata.almalinux.org/9/ALSA-2025-2679.html
     - https://gitlab.gnome.org/GNOME/libxml2/-/issues/847
     - https://issues.oss-fuzz.com/issues/392687022
+    - https://linux.oracle.com/cve/CVE-2025-24928.html
+    - https://linux.oracle.com/errata/ELSA-2025-2686.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-24928
     - https://ubuntu.com/security/notices/USN-7302-1
     - https://www.cve.org/CVERecord?id=CVE-2025-24928
@@ -4948,6 +5007,7 @@
     - https://mail.python.org/archives/list/security-announce@python.org/thread/K4EUG6EKV6JYFIC24BASYOZS4M5XOQIB/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-0938
     - https://ubuntu.com/security/notices/USN-7280-1
+    - https://ubuntu.com/security/notices/USN-7348-1
     - https://www.cve.org/CVERecord?id=CVE-2025-0938
     PublishedDate: '2025-01-31T18:15:38.053Z'
     LastModifiedDate: '2025-02-28T20:15:46.58Z'
@@ -4996,6 +5056,7 @@
     - https://mail.python.org/archives/list/security-announce@python.org/thread/K4EUG6EKV6JYFIC24BASYOZS4M5XOQIB/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-0938
     - https://ubuntu.com/security/notices/USN-7280-1
+    - https://ubuntu.com/security/notices/USN-7348-1
     - https://www.cve.org/CVERecord?id=CVE-2025-0938
     PublishedDate: '2025-01-31T18:15:38.053Z'
     LastModifiedDate: '2025-02-28T20:15:46.58Z'
@@ -5771,7 +5832,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       ghsa: 2
@@ -6215,6 +6276,38 @@
     - https://www.kb.cert.org/vuls/id/421644
     PublishedDate: '2024-04-04T21:15:16.113Z'
     LastModifiedDate: '2024-11-21T08:26:42.38Z'
+  - VulnerabilityID: CVE-2025-22870
+    PkgID: golang.org/x/net@v0.12.0
+    PkgName: golang.org/x/net
+    PkgIdentifier:
+      PURL: pkg:golang/golang.org/x/net@v0.12.0
+      UID: 3cd108581071dfa3
+    InstalledVersion: v0.12.0
+    FixedVersion: 0.36.0
+    Status: fixed
+    Layer:
+      Digest: sha256:516731828ccc7b45bf90ae1c4a00205ac28ae0f1ac84b928f2aa2946b319a0b5
+      DiffID: sha256:c6b06b96654ebdbe3a6eb2b856daec8e0e9dc22e136d414826e1cf55e98d270b
+    SeveritySource: ghsa
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-22870
+    DataSource:
+      ID: ghsa
+      Name: GitHub Security Advisory Go
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
+    Title: Matching of hosts against proxy patterns can improperly treat an IPv6  ...
+    Description: Matching of hosts against proxy patterns can improperly treat an IPv6 zone ID as a hostname component. For example, when the NO_PROXY environment variable is set to "*.example.com", a request to "[::1%25.example.com]:80` will incorrectly match and not be proxied.
+    Severity: MEDIUM
+    VendorSeverity:
+      ghsa: 2
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/03/07/2
+    - https://go-review.googlesource.com/q/project:net
+    - https://go.dev/cl/654697
+    - https://go.dev/issue/71984
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-22870
+    - https://pkg.go.dev/vuln/GO-2025-3503
+    PublishedDate: '2025-03-12T19:15:38.31Z'
+    LastModifiedDate: '2025-03-12T19:15:38.31Z'
   - VulnerabilityID: CVE-2024-24790
     PkgID: stdlib@v1.20.5
     PkgName: stdlib
@@ -6803,7 +6896,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -6873,7 +6966,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -8038,7 +8131,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       ghsa: 2
@@ -8482,6 +8575,38 @@
     - https://www.kb.cert.org/vuls/id/421644
     PublishedDate: '2024-04-04T21:15:16.113Z'
     LastModifiedDate: '2024-11-21T08:26:42.38Z'
+  - VulnerabilityID: CVE-2025-22870
+    PkgID: golang.org/x/net@v0.12.0
+    PkgName: golang.org/x/net
+    PkgIdentifier:
+      PURL: pkg:golang/golang.org/x/net@v0.12.0
+      UID: 2607dbaaeb54f041
+    InstalledVersion: v0.12.0
+    FixedVersion: 0.36.0
+    Status: fixed
+    Layer:
+      Digest: sha256:516731828ccc7b45bf90ae1c4a00205ac28ae0f1ac84b928f2aa2946b319a0b5
+      DiffID: sha256:c6b06b96654ebdbe3a6eb2b856daec8e0e9dc22e136d414826e1cf55e98d270b
+    SeveritySource: ghsa
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-22870
+    DataSource:
+      ID: ghsa
+      Name: GitHub Security Advisory Go
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
+    Title: Matching of hosts against proxy patterns can improperly treat an IPv6  ...
+    Description: Matching of hosts against proxy patterns can improperly treat an IPv6 zone ID as a hostname component. For example, when the NO_PROXY environment variable is set to "*.example.com", a request to "[::1%25.example.com]:80` will incorrectly match and not be proxied.
+    Severity: MEDIUM
+    VendorSeverity:
+      ghsa: 2
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/03/07/2
+    - https://go-review.googlesource.com/q/project:net
+    - https://go.dev/cl/654697
+    - https://go.dev/issue/71984
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-22870
+    - https://pkg.go.dev/vuln/GO-2025-3503
+    PublishedDate: '2025-03-12T19:15:38.31Z'
+    LastModifiedDate: '2025-03-12T19:15:38.31Z'
   - VulnerabilityID: CVE-2024-24790
     PkgID: stdlib@v1.20.5
     PkgName: stdlib
@@ -9070,7 +9195,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -9140,7 +9265,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -10077,6 +10202,38 @@
   Class: lang-pkgs
   Type: gobinary
   Vulnerabilities:
+  - VulnerabilityID: CVE-2025-22870
+    PkgID: golang.org/x/net@v0.33.0
+    PkgName: golang.org/x/net
+    PkgIdentifier:
+      PURL: pkg:golang/golang.org/x/net@v0.33.0
+      UID: 1e3966db66a3aa1
+    InstalledVersion: v0.33.0
+    FixedVersion: 0.36.0
+    Status: fixed
+    Layer:
+      Digest: sha256:516731828ccc7b45bf90ae1c4a00205ac28ae0f1ac84b928f2aa2946b319a0b5
+      DiffID: sha256:c6b06b96654ebdbe3a6eb2b856daec8e0e9dc22e136d414826e1cf55e98d270b
+    SeveritySource: ghsa
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-22870
+    DataSource:
+      ID: ghsa
+      Name: GitHub Security Advisory Go
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
+    Title: Matching of hosts against proxy patterns can improperly treat an IPv6  ...
+    Description: Matching of hosts against proxy patterns can improperly treat an IPv6 zone ID as a hostname component. For example, when the NO_PROXY environment variable is set to "*.example.com", a request to "[::1%25.example.com]:80` will incorrectly match and not be proxied.
+    Severity: MEDIUM
+    VendorSeverity:
+      ghsa: 2
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/03/07/2
+    - https://go-review.googlesource.com/q/project:net
+    - https://go.dev/cl/654697
+    - https://go.dev/issue/71984
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-22870
+    - https://pkg.go.dev/vuln/GO-2025-3503
+    PublishedDate: '2025-03-12T19:15:38.31Z'
+    LastModifiedDate: '2025-03-12T19:15:38.31Z'
   - VulnerabilityID: CVE-2024-45336
     PkgID: stdlib@v1.22.10
     PkgName: stdlib
@@ -10210,6 +10367,38 @@
   Class: lang-pkgs
   Type: gobinary
   Vulnerabilities:
+  - VulnerabilityID: CVE-2025-22870
+    PkgID: golang.org/x/net@v0.33.0
+    PkgName: golang.org/x/net
+    PkgIdentifier:
+      PURL: pkg:golang/golang.org/x/net@v0.33.0
+      UID: 5f4e3d9bb22dafc1
+    InstalledVersion: v0.33.0
+    FixedVersion: 0.36.0
+    Status: fixed
+    Layer:
+      Digest: sha256:516731828ccc7b45bf90ae1c4a00205ac28ae0f1ac84b928f2aa2946b319a0b5
+      DiffID: sha256:c6b06b96654ebdbe3a6eb2b856daec8e0e9dc22e136d414826e1cf55e98d270b
+    SeveritySource: ghsa
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-22870
+    DataSource:
+      ID: ghsa
+      Name: GitHub Security Advisory Go
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
+    Title: Matching of hosts against proxy patterns can improperly treat an IPv6  ...
+    Description: Matching of hosts against proxy patterns can improperly treat an IPv6 zone ID as a hostname component. For example, when the NO_PROXY environment variable is set to "*.example.com", a request to "[::1%25.example.com]:80` will incorrectly match and not be proxied.
+    Severity: MEDIUM
+    VendorSeverity:
+      ghsa: 2
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/03/07/2
+    - https://go-review.googlesource.com/q/project:net
+    - https://go.dev/cl/654697
+    - https://go.dev/issue/71984
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-22870
+    - https://pkg.go.dev/vuln/GO-2025-3503
+    PublishedDate: '2025-03-12T19:15:38.31Z'
+    LastModifiedDate: '2025-03-12T19:15:38.31Z'
   - VulnerabilityID: CVE-2024-45336
     PkgID: stdlib@v1.23.4
     PkgName: stdlib
@@ -10392,6 +10581,38 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-45338
     PublishedDate: '2024-12-18T21:15:08.173Z'
     LastModifiedDate: '2025-02-21T18:15:17.717Z'
+  - VulnerabilityID: CVE-2025-22870
+    PkgID: golang.org/x/net@v0.30.0
+    PkgName: golang.org/x/net
+    PkgIdentifier:
+      PURL: pkg:golang/golang.org/x/net@v0.30.0
+      UID: 49cea3404592705a
+    InstalledVersion: v0.30.0
+    FixedVersion: 0.36.0
+    Status: fixed
+    Layer:
+      Digest: sha256:516731828ccc7b45bf90ae1c4a00205ac28ae0f1ac84b928f2aa2946b319a0b5
+      DiffID: sha256:c6b06b96654ebdbe3a6eb2b856daec8e0e9dc22e136d414826e1cf55e98d270b
+    SeveritySource: ghsa
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-22870
+    DataSource:
+      ID: ghsa
+      Name: GitHub Security Advisory Go
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
+    Title: Matching of hosts against proxy patterns can improperly treat an IPv6  ...
+    Description: Matching of hosts against proxy patterns can improperly treat an IPv6 zone ID as a hostname component. For example, when the NO_PROXY environment variable is set to "*.example.com", a request to "[::1%25.example.com]:80` will incorrectly match and not be proxied.
+    Severity: MEDIUM
+    VendorSeverity:
+      ghsa: 2
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/03/07/2
+    - https://go-review.googlesource.com/q/project:net
+    - https://go.dev/cl/654697
+    - https://go.dev/issue/71984
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-22870
+    - https://pkg.go.dev/vuln/GO-2025-3503
+    PublishedDate: '2025-03-12T19:15:38.31Z'
+    LastModifiedDate: '2025-03-12T19:15:38.31Z'
   - VulnerabilityID: CVE-2024-45336
     PkgID: stdlib@v1.23.4
     PkgName: stdlib
@@ -10525,6 +10746,38 @@
   Class: lang-pkgs
   Type: gobinary
   Vulnerabilities:
+  - VulnerabilityID: CVE-2025-22870
+    PkgID: golang.org/x/net@v0.34.0
+    PkgName: golang.org/x/net
+    PkgIdentifier:
+      PURL: pkg:golang/golang.org/x/net@v0.34.0
+      UID: 11597a8ca73cd6ae
+    InstalledVersion: v0.34.0
+    FixedVersion: 0.36.0
+    Status: fixed
+    Layer:
+      Digest: sha256:516731828ccc7b45bf90ae1c4a00205ac28ae0f1ac84b928f2aa2946b319a0b5
+      DiffID: sha256:c6b06b96654ebdbe3a6eb2b856daec8e0e9dc22e136d414826e1cf55e98d270b
+    SeveritySource: ghsa
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-22870
+    DataSource:
+      ID: ghsa
+      Name: GitHub Security Advisory Go
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
+    Title: Matching of hosts against proxy patterns can improperly treat an IPv6  ...
+    Description: Matching of hosts against proxy patterns can improperly treat an IPv6 zone ID as a hostname component. For example, when the NO_PROXY environment variable is set to "*.example.com", a request to "[::1%25.example.com]:80` will incorrectly match and not be proxied.
+    Severity: MEDIUM
+    VendorSeverity:
+      ghsa: 2
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/03/07/2
+    - https://go-review.googlesource.com/q/project:net
+    - https://go.dev/cl/654697
+    - https://go.dev/issue/71984
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-22870
+    - https://pkg.go.dev/vuln/GO-2025-3503
+    PublishedDate: '2025-03-12T19:15:38.31Z'
+    LastModifiedDate: '2025-03-12T19:15:38.31Z'
   - VulnerabilityID: CVE-2025-22866
     PkgID: stdlib@v1.23.5
     PkgName: stdlib
@@ -10740,6 +10993,38 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-45338
     PublishedDate: '2024-12-18T21:15:08.173Z'
     LastModifiedDate: '2025-02-21T18:15:17.717Z'
+  - VulnerabilityID: CVE-2025-22870
+    PkgID: golang.org/x/net@v0.26.0
+    PkgName: golang.org/x/net
+    PkgIdentifier:
+      PURL: pkg:golang/golang.org/x/net@v0.26.0
+      UID: d33d648a9a9d02d2
+    InstalledVersion: v0.26.0
+    FixedVersion: 0.36.0
+    Status: fixed
+    Layer:
+      Digest: sha256:516731828ccc7b45bf90ae1c4a00205ac28ae0f1ac84b928f2aa2946b319a0b5
+      DiffID: sha256:c6b06b96654ebdbe3a6eb2b856daec8e0e9dc22e136d414826e1cf55e98d270b
+    SeveritySource: ghsa
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-22870
+    DataSource:
+      ID: ghsa
+      Name: GitHub Security Advisory Go
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
+    Title: Matching of hosts against proxy patterns can improperly treat an IPv6  ...
+    Description: Matching of hosts against proxy patterns can improperly treat an IPv6 zone ID as a hostname component. For example, when the NO_PROXY environment variable is set to "*.example.com", a request to "[::1%25.example.com]:80` will incorrectly match and not be proxied.
+    Severity: MEDIUM
+    VendorSeverity:
+      ghsa: 2
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/03/07/2
+    - https://go-review.googlesource.com/q/project:net
+    - https://go.dev/cl/654697
+    - https://go.dev/issue/71984
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-22870
+    - https://pkg.go.dev/vuln/GO-2025-3503
+    PublishedDate: '2025-03-12T19:15:38.31Z'
+    LastModifiedDate: '2025-03-12T19:15:38.31Z'
   - VulnerabilityID: GHSA-xr7q-jx4m-x55m
     PkgID: google.golang.org/grpc@v1.64.0
     PkgName: google.golang.org/grpc
