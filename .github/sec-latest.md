@@ -87,14 +87,16 @@
 │                        │       │                   `default` entry that
 │                        │       │                   omits both login and password. A rare circumstance. 
 │                        │       ├ Severity        : LOW 
-│                        │       ├ VendorSeverity   ╭ photon: 2 
+│                        │       ├ VendorSeverity   ╭ azure : 1 
+│                        │       │                  ├ photon: 2 
 │                        │       │                  ╰ ubuntu: 1 
 │                        │       ├ References       ╭ [0]: https://curl.se/docs/CVE-2025-0167.html 
 │                        │       │                  ├ [1]: https://curl.se/docs/CVE-2025-0167.json 
 │                        │       │                  ├ [2]: https://hackerone.com/reports/2917232 
-│                        │       │                  ├ [3]: https://security.netapp.com/advisory/ntap-20250306-0
+│                        │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-0167 
+│                        │       │                  ├ [4]: https://security.netapp.com/advisory/ntap-20250306-0
 │                        │       │                  │      008/ 
-│                        │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2025-0167 
+│                        │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-0167 
 │                        │       ├ PublishedDate   : 2025-02-05T10:15:22.71Z 
 │                        │       ╰ LastModifiedDate: 2025-03-07T01:15:12.11Z 
 │                        ├ [2]   ╭ VulnerabilityID : CVE-2023-34969 
@@ -1199,7 +1201,8 @@
 │                        │       │                   constructing specific usernames. 
 │                        │       ├ Severity        : MEDIUM 
 │                        │       ├ CweIDs           ─ [0]: CWE-284 
-│                        │       ├ VendorSeverity   ╭ cbl-mariner: 2 
+│                        │       ├ VendorSeverity   ╭ azure      : 2 
+│                        │       │                  ├ cbl-mariner: 2 
 │                        │       │                  ├ redhat     : 2 
 │                        │       │                  ╰ ubuntu     : 2 
 │                        │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I
@@ -1243,7 +1246,8 @@
 │                        │       │                   constructing specific usernames. 
 │                        │       ├ Severity        : MEDIUM 
 │                        │       ├ CweIDs           ─ [0]: CWE-284 
-│                        │       ├ VendorSeverity   ╭ cbl-mariner: 2 
+│                        │       ├ VendorSeverity   ╭ azure      : 2 
+│                        │       │                  ├ cbl-mariner: 2 
 │                        │       │                  ├ redhat     : 2 
 │                        │       │                  ╰ ubuntu     : 2 
 │                        │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I
@@ -1285,14 +1289,16 @@
 │                        │       │                   `default` entry that
 │                        │       │                   omits both login and password. A rare circumstance. 
 │                        │       ├ Severity        : LOW 
-│                        │       ├ VendorSeverity   ╭ photon: 2 
+│                        │       ├ VendorSeverity   ╭ azure : 1 
+│                        │       │                  ├ photon: 2 
 │                        │       │                  ╰ ubuntu: 1 
 │                        │       ├ References       ╭ [0]: https://curl.se/docs/CVE-2025-0167.html 
 │                        │       │                  ├ [1]: https://curl.se/docs/CVE-2025-0167.json 
 │                        │       │                  ├ [2]: https://hackerone.com/reports/2917232 
-│                        │       │                  ├ [3]: https://security.netapp.com/advisory/ntap-20250306-0
+│                        │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-0167 
+│                        │       │                  ├ [4]: https://security.netapp.com/advisory/ntap-20250306-0
 │                        │       │                  │      008/ 
-│                        │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2025-0167 
+│                        │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-0167 
 │                        │       ├ PublishedDate   : 2025-02-05T10:15:22.71Z 
 │                        │       ╰ LastModifiedDate: 2025-03-07T01:15:12.11Z 
 │                        ├ [26]  ╭ VulnerabilityID : CVE-2025-0167 
@@ -1324,14 +1330,16 @@
 │                        │       │                   `default` entry that
 │                        │       │                   omits both login and password. A rare circumstance. 
 │                        │       ├ Severity        : LOW 
-│                        │       ├ VendorSeverity   ╭ photon: 2 
+│                        │       ├ VendorSeverity   ╭ azure : 1 
+│                        │       │                  ├ photon: 2 
 │                        │       │                  ╰ ubuntu: 1 
 │                        │       ├ References       ╭ [0]: https://curl.se/docs/CVE-2025-0167.html 
 │                        │       │                  ├ [1]: https://curl.se/docs/CVE-2025-0167.json 
 │                        │       │                  ├ [2]: https://hackerone.com/reports/2917232 
-│                        │       │                  ├ [3]: https://security.netapp.com/advisory/ntap-20250306-0
+│                        │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-0167 
+│                        │       │                  ├ [4]: https://security.netapp.com/advisory/ntap-20250306-0
 │                        │       │                  │      008/ 
-│                        │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2025-0167 
+│                        │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-0167 
 │                        │       ├ PublishedDate   : 2025-02-05T10:15:22.71Z 
 │                        │       ╰ LastModifiedDate: 2025-03-07T01:15:12.11Z 
 │                        ├ [27]  ╭ VulnerabilityID : CVE-2023-34969 
@@ -1478,21 +1486,33 @@
 │                        │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I
 │                        │       │                           │           :H/A:H 
 │                        │       │                           ╰ V3Score : 8.1 
-│                        │       ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/03/1
-│                        │       │                  │      3/1 
-│                        │       │                  ├ [1]: http://www.openwall.com/lists/oss-security/2025/03/1
-│                        │       │                  │      3/2 
-│                        │       │                  ├ [2]: http://www.openwall.com/lists/oss-security/2025/03/1
-│                        │       │                  │      3/3 
-│                        │       │                  ├ [3]: http://www.openwall.com/lists/oss-security/2025/03/1
-│                        │       │                  │      3/8 
-│                        │       │                  ├ [4]: https://access.redhat.com/security/cve/CVE-2025-27363 
-│                        │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-27363 
-│                        │       │                  ├ [6]: https://www.cve.org/CVERecord?id=CVE-2025-27363 
-│                        │       │                  ╰ [7]: https://www.facebook.com/security/advisories/cve-202
-│                        │       │                         5-27363 
+│                        │       ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/03/
+│                        │       │                  │       13/1 
+│                        │       │                  ├ [1] : http://www.openwall.com/lists/oss-security/2025/03/
+│                        │       │                  │       13/11 
+│                        │       │                  ├ [2] : http://www.openwall.com/lists/oss-security/2025/03/
+│                        │       │                  │       13/12 
+│                        │       │                  ├ [3] : http://www.openwall.com/lists/oss-security/2025/03/
+│                        │       │                  │       13/2 
+│                        │       │                  ├ [4] : http://www.openwall.com/lists/oss-security/2025/03/
+│                        │       │                  │       13/3 
+│                        │       │                  ├ [5] : http://www.openwall.com/lists/oss-security/2025/03/
+│                        │       │                  │       13/8 
+│                        │       │                  ├ [6] : http://www.openwall.com/lists/oss-security/2025/03/
+│                        │       │                  │       14/1 
+│                        │       │                  ├ [7] : http://www.openwall.com/lists/oss-security/2025/03/
+│                        │       │                  │       14/2 
+│                        │       │                  ├ [8] : http://www.openwall.com/lists/oss-security/2025/03/
+│                        │       │                  │       14/3 
+│                        │       │                  ├ [9] : http://www.openwall.com/lists/oss-security/2025/03/
+│                        │       │                  │       14/4 
+│                        │       │                  ├ [10]: https://access.redhat.com/security/cve/CVE-2025-27363 
+│                        │       │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2025-27363 
+│                        │       │                  ├ [12]: https://www.cve.org/CVERecord?id=CVE-2025-27363 
+│                        │       │                  ╰ [13]: https://www.facebook.com/security/advisories/cve-20
+│                        │       │                          25-27363 
 │                        │       ├ PublishedDate   : 2025-03-11T14:15:25.427Z 
-│                        │       ╰ LastModifiedDate: 2025-03-13T17:15:37.41Z 
+│                        │       ╰ LastModifiedDate: 2025-03-14T17:15:51.833Z 
 │                        ├ [30]  ╭ VulnerabilityID : CVE-2022-27943 
 │                        │       ├ PkgID           : libgcc-s1@12.3.0-1ubuntu1~22.04 
 │                        │       ├ PkgName         : libgcc-s1 
@@ -1757,7 +1777,7 @@
 │                        │                          ├ [1]: https://github.com/krb5/krb5/commit/78ceba024b64d496
 │                        │                          │      12375be4a12d1c066b0bfbd0 
 │                        │                          ├ [2]: https://linux.oracle.com/cve/CVE-2025-24528.html 
-│                        │                          ├ [3]: https://linux.oracle.com/errata/ELSA-2025-1352.html 
+│                        │                          ├ [3]: https://linux.oracle.com/errata/ELSA-2025-2722.html 
 │                        │                          ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-24528 
 │                        │                          ├ [5]: https://ubuntu.com/security/notices/USN-7314-1 
 │                        │                          ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-24528 
@@ -1917,7 +1937,7 @@
 │                        │                          ├ [1]: https://github.com/krb5/krb5/commit/78ceba024b64d496
 │                        │                          │      12375be4a12d1c066b0bfbd0 
 │                        │                          ├ [2]: https://linux.oracle.com/cve/CVE-2025-24528.html 
-│                        │                          ├ [3]: https://linux.oracle.com/errata/ELSA-2025-1352.html 
+│                        │                          ├ [3]: https://linux.oracle.com/errata/ELSA-2025-2722.html 
 │                        │                          ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-24528 
 │                        │                          ├ [5]: https://ubuntu.com/security/notices/USN-7314-1 
 │                        │                          ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-24528 
@@ -2077,7 +2097,7 @@
 │                        │                          ├ [1]: https://github.com/krb5/krb5/commit/78ceba024b64d496
 │                        │                          │      12375be4a12d1c066b0bfbd0 
 │                        │                          ├ [2]: https://linux.oracle.com/cve/CVE-2025-24528.html 
-│                        │                          ├ [3]: https://linux.oracle.com/errata/ELSA-2025-1352.html 
+│                        │                          ├ [3]: https://linux.oracle.com/errata/ELSA-2025-2722.html 
 │                        │                          ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-24528 
 │                        │                          ├ [5]: https://ubuntu.com/security/notices/USN-7314-1 
 │                        │                          ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-24528 
@@ -2237,7 +2257,7 @@
 │                        │                          ├ [1]: https://github.com/krb5/krb5/commit/78ceba024b64d496
 │                        │                          │      12375be4a12d1c066b0bfbd0 
 │                        │                          ├ [2]: https://linux.oracle.com/cve/CVE-2025-24528.html 
-│                        │                          ├ [3]: https://linux.oracle.com/errata/ELSA-2025-1352.html 
+│                        │                          ├ [3]: https://linux.oracle.com/errata/ELSA-2025-2722.html 
 │                        │                          ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-24528 
 │                        │                          ├ [5]: https://ubuntu.com/security/notices/USN-7314-1 
 │                        │                          ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-24528 
@@ -2990,7 +3010,8 @@
 │                        │       │                   constructing specific usernames. 
 │                        │       ├ Severity        : MEDIUM 
 │                        │       ├ CweIDs           ─ [0]: CWE-284 
-│                        │       ├ VendorSeverity   ╭ cbl-mariner: 2 
+│                        │       ├ VendorSeverity   ╭ azure      : 2 
+│                        │       │                  ├ cbl-mariner: 2 
 │                        │       │                  ├ redhat     : 2 
 │                        │       │                  ╰ ubuntu     : 2 
 │                        │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I
@@ -3418,6 +3439,7 @@
 │                        │       ├ Severity        : MEDIUM 
 │                        │       ├ CweIDs           ─ [0]: CWE-20 
 │                        │       ├ VendorSeverity   ╭ amazon     : 2 
+│                        │       │                  ├ azure      : 2 
 │                        │       │                  ├ cbl-mariner: 2 
 │                        │       │                  ├ redhat     : 2 
 │                        │       │                  ╰ ubuntu     : 2 
@@ -3443,11 +3465,13 @@
 │                        │       │                  │       unce@python.org/thread/K4EUG6EKV6JYFIC24BASYOZS4M5X
 │                        │       │                  │       OQIB/ 
 │                        │       │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2025-0938 
-│                        │       │                  ├ [11]: https://ubuntu.com/security/notices/USN-7280-1 
-│                        │       │                  ├ [12]: https://ubuntu.com/security/notices/USN-7348-1 
-│                        │       │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2025-0938 
+│                        │       │                  ├ [11]: https://security.netapp.com/advisory/ntap-20250314-
+│                        │       │                  │       0002/ 
+│                        │       │                  ├ [12]: https://ubuntu.com/security/notices/USN-7280-1 
+│                        │       │                  ├ [13]: https://ubuntu.com/security/notices/USN-7348-1 
+│                        │       │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2025-0938 
 │                        │       ├ PublishedDate   : 2025-01-31T18:15:38.053Z 
-│                        │       ╰ LastModifiedDate: 2025-02-28T20:15:46.58Z 
+│                        │       ╰ LastModifiedDate: 2025-03-14T10:15:15.847Z 
 │                        ├ [66]  ╭ VulnerabilityID : CVE-2025-0938 
 │                        │       ├ PkgID           : libpython3.10-minimal@3.10.12-1~22.04.8 
 │                        │       ├ PkgName         : libpython3.10-minimal 
@@ -3479,6 +3503,7 @@
 │                        │       ├ Severity        : MEDIUM 
 │                        │       ├ CweIDs           ─ [0]: CWE-20 
 │                        │       ├ VendorSeverity   ╭ amazon     : 2 
+│                        │       │                  ├ azure      : 2 
 │                        │       │                  ├ cbl-mariner: 2 
 │                        │       │                  ├ redhat     : 2 
 │                        │       │                  ╰ ubuntu     : 2 
@@ -3504,11 +3529,13 @@
 │                        │       │                  │       unce@python.org/thread/K4EUG6EKV6JYFIC24BASYOZS4M5X
 │                        │       │                  │       OQIB/ 
 │                        │       │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2025-0938 
-│                        │       │                  ├ [11]: https://ubuntu.com/security/notices/USN-7280-1 
-│                        │       │                  ├ [12]: https://ubuntu.com/security/notices/USN-7348-1 
-│                        │       │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2025-0938 
+│                        │       │                  ├ [11]: https://security.netapp.com/advisory/ntap-20250314-
+│                        │       │                  │       0002/ 
+│                        │       │                  ├ [12]: https://ubuntu.com/security/notices/USN-7280-1 
+│                        │       │                  ├ [13]: https://ubuntu.com/security/notices/USN-7348-1 
+│                        │       │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2025-0938 
 │                        │       ├ PublishedDate   : 2025-01-31T18:15:38.053Z 
-│                        │       ╰ LastModifiedDate: 2025-02-28T20:15:46.58Z 
+│                        │       ╰ LastModifiedDate: 2025-03-14T10:15:15.847Z 
 │                        ├ [67]  ╭ VulnerabilityID : CVE-2025-0938 
 │                        │       ├ PkgID           : libpython3.10-stdlib@3.10.12-1~22.04.8 
 │                        │       ├ PkgName         : libpython3.10-stdlib 
@@ -3540,6 +3567,7 @@
 │                        │       ├ Severity        : MEDIUM 
 │                        │       ├ CweIDs           ─ [0]: CWE-20 
 │                        │       ├ VendorSeverity   ╭ amazon     : 2 
+│                        │       │                  ├ azure      : 2 
 │                        │       │                  ├ cbl-mariner: 2 
 │                        │       │                  ├ redhat     : 2 
 │                        │       │                  ╰ ubuntu     : 2 
@@ -3565,11 +3593,13 @@
 │                        │       │                  │       unce@python.org/thread/K4EUG6EKV6JYFIC24BASYOZS4M5X
 │                        │       │                  │       OQIB/ 
 │                        │       │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2025-0938 
-│                        │       │                  ├ [11]: https://ubuntu.com/security/notices/USN-7280-1 
-│                        │       │                  ├ [12]: https://ubuntu.com/security/notices/USN-7348-1 
-│                        │       │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2025-0938 
+│                        │       │                  ├ [11]: https://security.netapp.com/advisory/ntap-20250314-
+│                        │       │                  │       0002/ 
+│                        │       │                  ├ [12]: https://ubuntu.com/security/notices/USN-7280-1 
+│                        │       │                  ├ [13]: https://ubuntu.com/security/notices/USN-7348-1 
+│                        │       │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2025-0938 
 │                        │       ├ PublishedDate   : 2025-01-31T18:15:38.053Z 
-│                        │       ╰ LastModifiedDate: 2025-02-28T20:15:46.58Z 
+│                        │       ╰ LastModifiedDate: 2025-03-14T10:15:15.847Z 
 │                        ├ [68]  ╭ VulnerabilityID : CVE-2024-13176 
 │                        │       ├ PkgID           : libssl3@3.0.2-0ubuntu1.18 
 │                        │       ├ PkgName         : libssl3 
@@ -3617,6 +3647,7 @@
 │                        │       ├ Severity        : LOW 
 │                        │       ├ CweIDs           ─ [0]: CWE-385 
 │                        │       ├ VendorSeverity   ╭ amazon: 2 
+│                        │       │                  ├ azure : 2 
 │                        │       │                  ├ redhat: 1 
 │                        │       │                  ╰ ubuntu: 1 
 │                        │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I
@@ -4017,7 +4048,8 @@
 │                        │       │                   certificate, causing a denial of service attack. 
 │                        │       ├ Severity        : MEDIUM 
 │                        │       ├ CweIDs           ─ [0]: CWE-407 
-│                        │       ├ VendorSeverity   ╭ cbl-mariner: 2 
+│                        │       ├ VendorSeverity   ╭ azure      : 3 
+│                        │       │                  ├ cbl-mariner: 2 
 │                        │       │                  ├ photon     : 3 
 │                        │       │                  ├ redhat     : 2 
 │                        │       │                  ╰ ubuntu     : 2 
@@ -4241,6 +4273,7 @@
 │                        │       ├ Severity        : MEDIUM 
 │                        │       ├ CweIDs           ─ [0]: CWE-416 
 │                        │       ├ VendorSeverity   ╭ alma       : 3 
+│                        │       │                  ├ azure      : 3 
 │                        │       │                  ├ cbl-mariner: 3 
 │                        │       │                  ├ oracle-oval: 3 
 │                        │       │                  ├ photon     : 3 
@@ -4292,6 +4325,7 @@
 │                        │       ├ Severity        : MEDIUM 
 │                        │       ├ CweIDs           ─ [0]: CWE-121 
 │                        │       ├ VendorSeverity   ╭ alma       : 3 
+│                        │       │                  ├ azure      : 3 
 │                        │       │                  ├ cbl-mariner: 3 
 │                        │       │                  ├ oracle-oval: 3 
 │                        │       │                  ├ photon     : 3 
@@ -4339,7 +4373,8 @@
 │                        │       │                    pointer dereference in xmlPatMatch in pattern.c. 
 │                        │       ├ Severity        : MEDIUM 
 │                        │       ├ CweIDs           ─ [0]: CWE-476 
-│                        │       ├ VendorSeverity   ╭ cbl-mariner: 1 
+│                        │       ├ VendorSeverity   ╭ azure      : 1 
+│                        │       │                  ├ cbl-mariner: 1 
 │                        │       │                  ├ nvd        : 3 
 │                        │       │                  ├ photon     : 3 
 │                        │       │                  ├ redhat     : 1 
@@ -5332,6 +5367,7 @@
 │                        │       ├ Severity        : LOW 
 │                        │       ├ CweIDs           ─ [0]: CWE-385 
 │                        │       ├ VendorSeverity   ╭ amazon: 2 
+│                        │       │                  ├ azure : 2 
 │                        │       │                  ├ redhat: 1 
 │                        │       │                  ╰ ubuntu: 1 
 │                        │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I
@@ -5649,6 +5685,7 @@
 │                        │       ├ Severity        : MEDIUM 
 │                        │       ├ CweIDs           ─ [0]: CWE-20 
 │                        │       ├ VendorSeverity   ╭ amazon     : 2 
+│                        │       │                  ├ azure      : 2 
 │                        │       │                  ├ cbl-mariner: 2 
 │                        │       │                  ├ redhat     : 2 
 │                        │       │                  ╰ ubuntu     : 2 
@@ -5674,11 +5711,13 @@
 │                        │       │                  │       unce@python.org/thread/K4EUG6EKV6JYFIC24BASYOZS4M5X
 │                        │       │                  │       OQIB/ 
 │                        │       │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2025-0938 
-│                        │       │                  ├ [11]: https://ubuntu.com/security/notices/USN-7280-1 
-│                        │       │                  ├ [12]: https://ubuntu.com/security/notices/USN-7348-1 
-│                        │       │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2025-0938 
+│                        │       │                  ├ [11]: https://security.netapp.com/advisory/ntap-20250314-
+│                        │       │                  │       0002/ 
+│                        │       │                  ├ [12]: https://ubuntu.com/security/notices/USN-7280-1 
+│                        │       │                  ├ [13]: https://ubuntu.com/security/notices/USN-7348-1 
+│                        │       │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2025-0938 
 │                        │       ├ PublishedDate   : 2025-01-31T18:15:38.053Z 
-│                        │       ╰ LastModifiedDate: 2025-02-28T20:15:46.58Z 
+│                        │       ╰ LastModifiedDate: 2025-03-14T10:15:15.847Z 
 │                        ├ [103] ╭ VulnerabilityID : CVE-2025-0938 
 │                        │       ├ PkgID           : python3.10-minimal@3.10.12-1~22.04.8 
 │                        │       ├ PkgName         : python3.10-minimal 
@@ -5710,6 +5749,7 @@
 │                        │       ├ Severity        : MEDIUM 
 │                        │       ├ CweIDs           ─ [0]: CWE-20 
 │                        │       ├ VendorSeverity   ╭ amazon     : 2 
+│                        │       │                  ├ azure      : 2 
 │                        │       │                  ├ cbl-mariner: 2 
 │                        │       │                  ├ redhat     : 2 
 │                        │       │                  ╰ ubuntu     : 2 
@@ -5735,11 +5775,13 @@
 │                        │       │                  │       unce@python.org/thread/K4EUG6EKV6JYFIC24BASYOZS4M5X
 │                        │       │                  │       OQIB/ 
 │                        │       │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2025-0938 
-│                        │       │                  ├ [11]: https://ubuntu.com/security/notices/USN-7280-1 
-│                        │       │                  ├ [12]: https://ubuntu.com/security/notices/USN-7348-1 
-│                        │       │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2025-0938 
+│                        │       │                  ├ [11]: https://security.netapp.com/advisory/ntap-20250314-
+│                        │       │                  │       0002/ 
+│                        │       │                  ├ [12]: https://ubuntu.com/security/notices/USN-7280-1 
+│                        │       │                  ├ [13]: https://ubuntu.com/security/notices/USN-7348-1 
+│                        │       │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2025-0938 
 │                        │       ├ PublishedDate   : 2025-01-31T18:15:38.053Z 
-│                        │       ╰ LastModifiedDate: 2025-02-28T20:15:46.58Z 
+│                        │       ╰ LastModifiedDate: 2025-03-14T10:15:15.847Z 
 │                        ├ [104] ╭ VulnerabilityID : CVE-2023-7008 
 │                        │       ├ PkgID           : systemd@249.11-0ubuntu3.12 
 │                        │       ├ PkgName         : systemd 
@@ -6092,10 +6134,12 @@
 │                        │       │                  ├ [4]: https://github.com/vim/vim/security/advisories/GHSA-
 │                        │       │                  │      j3g9-wg22-v955 
 │                        │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-24014 
-│                        │       │                  ├ [6]: https://ubuntu.com/security/notices/USN-7261-1 
-│                        │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-24014 
+│                        │       │                  ├ [6]: https://security.netapp.com/advisory/ntap-20250314-0
+│                        │       │                  │      005/ 
+│                        │       │                  ├ [7]: https://ubuntu.com/security/notices/USN-7261-1 
+│                        │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2025-24014 
 │                        │       ├ PublishedDate   : 2025-01-20T23:15:07.73Z 
-│                        │       ╰ LastModifiedDate: 2025-01-21T03:15:06.393Z 
+│                        │       ╰ LastModifiedDate: 2025-03-14T10:15:16.24Z 
 │                        ├ [110] ╭ VulnerabilityID : CVE-2025-24014 
 │                        │       ├ PkgID           : vim-common@2:8.2.3995-1ubuntu2.22 
 │                        │       ├ PkgName         : vim-common 
@@ -6146,10 +6190,12 @@
 │                        │       │                  ├ [4]: https://github.com/vim/vim/security/advisories/GHSA-
 │                        │       │                  │      j3g9-wg22-v955 
 │                        │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-24014 
-│                        │       │                  ├ [6]: https://ubuntu.com/security/notices/USN-7261-1 
-│                        │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-24014 
+│                        │       │                  ├ [6]: https://security.netapp.com/advisory/ntap-20250314-0
+│                        │       │                  │      005/ 
+│                        │       │                  ├ [7]: https://ubuntu.com/security/notices/USN-7261-1 
+│                        │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2025-24014 
 │                        │       ├ PublishedDate   : 2025-01-20T23:15:07.73Z 
-│                        │       ╰ LastModifiedDate: 2025-01-21T03:15:06.393Z 
+│                        │       ╰ LastModifiedDate: 2025-03-14T10:15:16.24Z 
 │                        ├ [111] ╭ VulnerabilityID : CVE-2025-24014 
 │                        │       ├ PkgID           : vim-runtime@2:8.2.3995-1ubuntu2.22 
 │                        │       ├ PkgName         : vim-runtime 
@@ -6200,10 +6246,12 @@
 │                        │       │                  ├ [4]: https://github.com/vim/vim/security/advisories/GHSA-
 │                        │       │                  │      j3g9-wg22-v955 
 │                        │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-24014 
-│                        │       │                  ├ [6]: https://ubuntu.com/security/notices/USN-7261-1 
-│                        │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-24014 
+│                        │       │                  ├ [6]: https://security.netapp.com/advisory/ntap-20250314-0
+│                        │       │                  │      005/ 
+│                        │       │                  ├ [7]: https://ubuntu.com/security/notices/USN-7261-1 
+│                        │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2025-24014 
 │                        │       ├ PublishedDate   : 2025-01-20T23:15:07.73Z 
-│                        │       ╰ LastModifiedDate: 2025-01-21T03:15:06.393Z 
+│                        │       ╰ LastModifiedDate: 2025-03-14T10:15:16.24Z 
 │                        ├ [112] ╭ VulnerabilityID : CVE-2021-31879 
 │                        │       ├ PkgID           : wget@1.21.2-2ubuntu1.1 
 │                        │       ├ PkgName         : wget 
@@ -6301,10 +6349,12 @@
 │                                │                  ├ [4]: https://github.com/vim/vim/security/advisories/GHSA-
 │                                │                  │      j3g9-wg22-v955 
 │                                │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-24014 
-│                                │                  ├ [6]: https://ubuntu.com/security/notices/USN-7261-1 
-│                                │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-24014 
+│                                │                  ├ [6]: https://security.netapp.com/advisory/ntap-20250314-0
+│                                │                  │      005/ 
+│                                │                  ├ [7]: https://ubuntu.com/security/notices/USN-7261-1 
+│                                │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2025-24014 
 │                                ├ PublishedDate   : 2025-01-20T23:15:07.73Z 
-│                                ╰ LastModifiedDate: 2025-01-21T03:15:06.393Z 
+│                                ╰ LastModifiedDate: 2025-03-14T10:15:16.24Z 
 ├ [1]  ╭ Target         : Java 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : jar 
@@ -6784,7 +6834,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ ghsa       : 2 
@@ -7553,21 +7603,27 @@
 │                        │      │                  ├ Name: GitHub Security Advisory Go 
 │                        │      │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+
 │                        │      │                          ecosystem%3Ago 
-│                        │      ├ Title           : Matching of hosts against proxy patterns can improperly
-│                        │      │                   treat an IPv6  ... 
+│                        │      ├ Title           : golang.org/x/net/http/httpproxy: golang.org/x/net/proxy:
+│                        │      │                   HTTP Proxy bypass using IPv6 Zone IDs in golang.org/x/net 
 │                        │      ├ Description     : Matching of hosts against proxy patterns can improperly
 │                        │      │                   treat an IPv6 zone ID as a hostname component. For example,
 │                        │      │                    when the NO_PROXY environment variable is set to
 │                        │      │                   "*.example.com", a request to "[::1%25.example.com]:80`
 │                        │      │                   will incorrectly match and not be proxied. 
 │                        │      ├ Severity        : MEDIUM 
-│                        │      ├ VendorSeverity   ─ ghsa: 2 
+│                        │      ├ VendorSeverity   ╭ ghsa  : 2 
+│                        │      │                  ╰ redhat: 2 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:
+│                        │      │                           │           N/A:L 
+│                        │      │                           ╰ V3Score : 4.4 
 │                        │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/03/07/2 
-│                        │      │                  ├ [1]: https://go-review.googlesource.com/q/project:net 
-│                        │      │                  ├ [2]: https://go.dev/cl/654697 
-│                        │      │                  ├ [3]: https://go.dev/issue/71984 
-│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-22870 
-│                        │      │                  ╰ [5]: https://pkg.go.dev/vuln/GO-2025-3503 
+│                        │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-22870 
+│                        │      │                  ├ [2]: https://go-review.googlesource.com/q/project:net 
+│                        │      │                  ├ [3]: https://go.dev/cl/654697 
+│                        │      │                  ├ [4]: https://go.dev/issue/71984 
+│                        │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-22870 
+│                        │      │                  ├ [6]: https://pkg.go.dev/vuln/GO-2025-3503 
+│                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-22870 
 │                        │      ├ PublishedDate   : 2025-03-12T19:15:38.31Z 
 │                        │      ╰ LastModifiedDate: 2025-03-12T19:15:38.31Z 
 │                        ├ [6]  ╭ VulnerabilityID : CVE-2024-24790 
@@ -8394,7 +8450,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
@@ -8471,7 +8527,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
@@ -9068,7 +9124,7 @@
 │                        │      │                  ├ [37]: https://vuln.go.dev/ID/GO-2024-2610.json 
 │                        │      │                  ╰ [38]: https://www.cve.org/CVERecord?id=CVE-2024-24785 
 │                        │      ├ PublishedDate   : 2024-03-05T23:15:07.777Z 
-│                        │      ╰ LastModifiedDate: 2024-11-21T08:59:41.997Z 
+│                        │      ╰ LastModifiedDate: 2025-03-14T02:15:13.167Z 
 │                        ├ [22] ╭ VulnerabilityID : CVE-2024-24789 
 │                        │      ├ PkgID           : stdlib@v1.20.5 
 │                        │      ├ PkgName         : stdlib 
@@ -9949,7 +10005,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ ghsa       : 2 
@@ -10718,21 +10774,27 @@
 │                        │      │                  ├ Name: GitHub Security Advisory Go 
 │                        │      │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+
 │                        │      │                          ecosystem%3Ago 
-│                        │      ├ Title           : Matching of hosts against proxy patterns can improperly
-│                        │      │                   treat an IPv6  ... 
+│                        │      ├ Title           : golang.org/x/net/http/httpproxy: golang.org/x/net/proxy:
+│                        │      │                   HTTP Proxy bypass using IPv6 Zone IDs in golang.org/x/net 
 │                        │      ├ Description     : Matching of hosts against proxy patterns can improperly
 │                        │      │                   treat an IPv6 zone ID as a hostname component. For example,
 │                        │      │                    when the NO_PROXY environment variable is set to
 │                        │      │                   "*.example.com", a request to "[::1%25.example.com]:80`
 │                        │      │                   will incorrectly match and not be proxied. 
 │                        │      ├ Severity        : MEDIUM 
-│                        │      ├ VendorSeverity   ─ ghsa: 2 
+│                        │      ├ VendorSeverity   ╭ ghsa  : 2 
+│                        │      │                  ╰ redhat: 2 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:
+│                        │      │                           │           N/A:L 
+│                        │      │                           ╰ V3Score : 4.4 
 │                        │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/03/07/2 
-│                        │      │                  ├ [1]: https://go-review.googlesource.com/q/project:net 
-│                        │      │                  ├ [2]: https://go.dev/cl/654697 
-│                        │      │                  ├ [3]: https://go.dev/issue/71984 
-│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-22870 
-│                        │      │                  ╰ [5]: https://pkg.go.dev/vuln/GO-2025-3503 
+│                        │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-22870 
+│                        │      │                  ├ [2]: https://go-review.googlesource.com/q/project:net 
+│                        │      │                  ├ [3]: https://go.dev/cl/654697 
+│                        │      │                  ├ [4]: https://go.dev/issue/71984 
+│                        │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-22870 
+│                        │      │                  ├ [6]: https://pkg.go.dev/vuln/GO-2025-3503 
+│                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-22870 
 │                        │      ├ PublishedDate   : 2025-03-12T19:15:38.31Z 
 │                        │      ╰ LastModifiedDate: 2025-03-12T19:15:38.31Z 
 │                        ├ [6]  ╭ VulnerabilityID : CVE-2024-24790 
@@ -11559,7 +11621,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
@@ -11636,7 +11698,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
@@ -12233,7 +12295,7 @@
 │                        │      │                  ├ [37]: https://vuln.go.dev/ID/GO-2024-2610.json 
 │                        │      │                  ╰ [38]: https://www.cve.org/CVERecord?id=CVE-2024-24785 
 │                        │      ├ PublishedDate   : 2024-03-05T23:15:07.777Z 
-│                        │      ╰ LastModifiedDate: 2024-11-21T08:59:41.997Z 
+│                        │      ╰ LastModifiedDate: 2025-03-14T02:15:13.167Z 
 │                        ├ [22] ╭ VulnerabilityID : CVE-2024-24789 
 │                        │      ├ PkgID           : stdlib@v1.20.5 
 │                        │      ├ PkgName         : stdlib 
@@ -12734,21 +12796,27 @@
 │                        │     │                  ├ Name: GitHub Security Advisory Go 
 │                        │     │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+e
 │                        │     │                          cosystem%3Ago 
-│                        │     ├ Title           : Matching of hosts against proxy patterns can improperly
-│                        │     │                   treat an IPv6  ... 
+│                        │     ├ Title           : golang.org/x/net/http/httpproxy: golang.org/x/net/proxy:
+│                        │     │                   HTTP Proxy bypass using IPv6 Zone IDs in golang.org/x/net 
 │                        │     ├ Description     : Matching of hosts against proxy patterns can improperly
 │                        │     │                   treat an IPv6 zone ID as a hostname component. For example,
 │                        │     │                   when the NO_PROXY environment variable is set to
 │                        │     │                   "*.example.com", a request to "[::1%25.example.com]:80` will
 │                        │     │                    incorrectly match and not be proxied. 
 │                        │     ├ Severity        : MEDIUM 
-│                        │     ├ VendorSeverity   ─ ghsa: 2 
+│                        │     ├ VendorSeverity   ╭ ghsa  : 2 
+│                        │     │                  ╰ redhat: 2 
+│                        │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N
+│                        │     │                           │           /A:L 
+│                        │     │                           ╰ V3Score : 4.4 
 │                        │     ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/03/07/2 
-│                        │     │                  ├ [1]: https://go-review.googlesource.com/q/project:net 
-│                        │     │                  ├ [2]: https://go.dev/cl/654697 
-│                        │     │                  ├ [3]: https://go.dev/issue/71984 
-│                        │     │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-22870 
-│                        │     │                  ╰ [5]: https://pkg.go.dev/vuln/GO-2025-3503 
+│                        │     │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-22870 
+│                        │     │                  ├ [2]: https://go-review.googlesource.com/q/project:net 
+│                        │     │                  ├ [3]: https://go.dev/cl/654697 
+│                        │     │                  ├ [4]: https://go.dev/issue/71984 
+│                        │     │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-22870 
+│                        │     │                  ├ [6]: https://pkg.go.dev/vuln/GO-2025-3503 
+│                        │     │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-22870 
 │                        │     ├ PublishedDate   : 2025-03-12T19:15:38.31Z 
 │                        │     ╰ LastModifiedDate: 2025-03-12T19:15:38.31Z 
 │                        ├ [1] ╭ VulnerabilityID : CVE-2024-45336 
@@ -12914,21 +12982,27 @@
 │                        │     │                  ├ Name: GitHub Security Advisory Go 
 │                        │     │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+e
 │                        │     │                          cosystem%3Ago 
-│                        │     ├ Title           : Matching of hosts against proxy patterns can improperly
-│                        │     │                   treat an IPv6  ... 
+│                        │     ├ Title           : golang.org/x/net/http/httpproxy: golang.org/x/net/proxy:
+│                        │     │                   HTTP Proxy bypass using IPv6 Zone IDs in golang.org/x/net 
 │                        │     ├ Description     : Matching of hosts against proxy patterns can improperly
 │                        │     │                   treat an IPv6 zone ID as a hostname component. For example,
 │                        │     │                   when the NO_PROXY environment variable is set to
 │                        │     │                   "*.example.com", a request to "[::1%25.example.com]:80` will
 │                        │     │                    incorrectly match and not be proxied. 
 │                        │     ├ Severity        : MEDIUM 
-│                        │     ├ VendorSeverity   ─ ghsa: 2 
+│                        │     ├ VendorSeverity   ╭ ghsa  : 2 
+│                        │     │                  ╰ redhat: 2 
+│                        │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N
+│                        │     │                           │           /A:L 
+│                        │     │                           ╰ V3Score : 4.4 
 │                        │     ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/03/07/2 
-│                        │     │                  ├ [1]: https://go-review.googlesource.com/q/project:net 
-│                        │     │                  ├ [2]: https://go.dev/cl/654697 
-│                        │     │                  ├ [3]: https://go.dev/issue/71984 
-│                        │     │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-22870 
-│                        │     │                  ╰ [5]: https://pkg.go.dev/vuln/GO-2025-3503 
+│                        │     │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-22870 
+│                        │     │                  ├ [2]: https://go-review.googlesource.com/q/project:net 
+│                        │     │                  ├ [3]: https://go.dev/cl/654697 
+│                        │     │                  ├ [4]: https://go.dev/issue/71984 
+│                        │     │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-22870 
+│                        │     │                  ├ [6]: https://pkg.go.dev/vuln/GO-2025-3503 
+│                        │     │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-22870 
 │                        │     ├ PublishedDate   : 2025-03-12T19:15:38.31Z 
 │                        │     ╰ LastModifiedDate: 2025-03-12T19:15:38.31Z 
 │                        ├ [1] ╭ VulnerabilityID : CVE-2024-45336 
@@ -13145,21 +13219,27 @@
 │                        │     │                  ├ Name: GitHub Security Advisory Go 
 │                        │     │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+e
 │                        │     │                          cosystem%3Ago 
-│                        │     ├ Title           : Matching of hosts against proxy patterns can improperly
-│                        │     │                   treat an IPv6  ... 
+│                        │     ├ Title           : golang.org/x/net/http/httpproxy: golang.org/x/net/proxy:
+│                        │     │                   HTTP Proxy bypass using IPv6 Zone IDs in golang.org/x/net 
 │                        │     ├ Description     : Matching of hosts against proxy patterns can improperly
 │                        │     │                   treat an IPv6 zone ID as a hostname component. For example,
 │                        │     │                   when the NO_PROXY environment variable is set to
 │                        │     │                   "*.example.com", a request to "[::1%25.example.com]:80` will
 │                        │     │                    incorrectly match and not be proxied. 
 │                        │     ├ Severity        : MEDIUM 
-│                        │     ├ VendorSeverity   ─ ghsa: 2 
+│                        │     ├ VendorSeverity   ╭ ghsa  : 2 
+│                        │     │                  ╰ redhat: 2 
+│                        │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N
+│                        │     │                           │           /A:L 
+│                        │     │                           ╰ V3Score : 4.4 
 │                        │     ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/03/07/2 
-│                        │     │                  ├ [1]: https://go-review.googlesource.com/q/project:net 
-│                        │     │                  ├ [2]: https://go.dev/cl/654697 
-│                        │     │                  ├ [3]: https://go.dev/issue/71984 
-│                        │     │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-22870 
-│                        │     │                  ╰ [5]: https://pkg.go.dev/vuln/GO-2025-3503 
+│                        │     │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-22870 
+│                        │     │                  ├ [2]: https://go-review.googlesource.com/q/project:net 
+│                        │     │                  ├ [3]: https://go.dev/cl/654697 
+│                        │     │                  ├ [4]: https://go.dev/issue/71984 
+│                        │     │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-22870 
+│                        │     │                  ├ [6]: https://pkg.go.dev/vuln/GO-2025-3503 
+│                        │     │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-22870 
 │                        │     ├ PublishedDate   : 2025-03-12T19:15:38.31Z 
 │                        │     ╰ LastModifiedDate: 2025-03-12T19:15:38.31Z 
 │                        ├ [2] ╭ VulnerabilityID : CVE-2024-45336 
@@ -13325,21 +13405,27 @@
 │                        │     │                  ├ Name: GitHub Security Advisory Go 
 │                        │     │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+e
 │                        │     │                          cosystem%3Ago 
-│                        │     ├ Title           : Matching of hosts against proxy patterns can improperly
-│                        │     │                   treat an IPv6  ... 
+│                        │     ├ Title           : golang.org/x/net/http/httpproxy: golang.org/x/net/proxy:
+│                        │     │                   HTTP Proxy bypass using IPv6 Zone IDs in golang.org/x/net 
 │                        │     ├ Description     : Matching of hosts against proxy patterns can improperly
 │                        │     │                   treat an IPv6 zone ID as a hostname component. For example,
 │                        │     │                   when the NO_PROXY environment variable is set to
 │                        │     │                   "*.example.com", a request to "[::1%25.example.com]:80` will
 │                        │     │                    incorrectly match and not be proxied. 
 │                        │     ├ Severity        : MEDIUM 
-│                        │     ├ VendorSeverity   ─ ghsa: 2 
+│                        │     ├ VendorSeverity   ╭ ghsa  : 2 
+│                        │     │                  ╰ redhat: 2 
+│                        │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N
+│                        │     │                           │           /A:L 
+│                        │     │                           ╰ V3Score : 4.4 
 │                        │     ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/03/07/2 
-│                        │     │                  ├ [1]: https://go-review.googlesource.com/q/project:net 
-│                        │     │                  ├ [2]: https://go.dev/cl/654697 
-│                        │     │                  ├ [3]: https://go.dev/issue/71984 
-│                        │     │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-22870 
-│                        │     │                  ╰ [5]: https://pkg.go.dev/vuln/GO-2025-3503 
+│                        │     │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-22870 
+│                        │     │                  ├ [2]: https://go-review.googlesource.com/q/project:net 
+│                        │     │                  ├ [3]: https://go.dev/cl/654697 
+│                        │     │                  ├ [4]: https://go.dev/issue/71984 
+│                        │     │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-22870 
+│                        │     │                  ├ [6]: https://pkg.go.dev/vuln/GO-2025-3503 
+│                        │     │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-22870 
 │                        │     ├ PublishedDate   : 2025-03-12T19:15:38.31Z 
 │                        │     ╰ LastModifiedDate: 2025-03-12T19:15:38.31Z 
 │                        ╰ [1] ╭ VulnerabilityID : CVE-2025-22866 
@@ -13654,21 +13740,27 @@
 │                        │     │                  ├ Name: GitHub Security Advisory Go 
 │                        │     │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+e
 │                        │     │                          cosystem%3Ago 
-│                        │     ├ Title           : Matching of hosts against proxy patterns can improperly
-│                        │     │                   treat an IPv6  ... 
+│                        │     ├ Title           : golang.org/x/net/http/httpproxy: golang.org/x/net/proxy:
+│                        │     │                   HTTP Proxy bypass using IPv6 Zone IDs in golang.org/x/net 
 │                        │     ├ Description     : Matching of hosts against proxy patterns can improperly
 │                        │     │                   treat an IPv6 zone ID as a hostname component. For example,
 │                        │     │                   when the NO_PROXY environment variable is set to
 │                        │     │                   "*.example.com", a request to "[::1%25.example.com]:80` will
 │                        │     │                    incorrectly match and not be proxied. 
 │                        │     ├ Severity        : MEDIUM 
-│                        │     ├ VendorSeverity   ─ ghsa: 2 
+│                        │     ├ VendorSeverity   ╭ ghsa  : 2 
+│                        │     │                  ╰ redhat: 2 
+│                        │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N
+│                        │     │                           │           /A:L 
+│                        │     │                           ╰ V3Score : 4.4 
 │                        │     ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/03/07/2 
-│                        │     │                  ├ [1]: https://go-review.googlesource.com/q/project:net 
-│                        │     │                  ├ [2]: https://go.dev/cl/654697 
-│                        │     │                  ├ [3]: https://go.dev/issue/71984 
-│                        │     │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-22870 
-│                        │     │                  ╰ [5]: https://pkg.go.dev/vuln/GO-2025-3503 
+│                        │     │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-22870 
+│                        │     │                  ├ [2]: https://go-review.googlesource.com/q/project:net 
+│                        │     │                  ├ [3]: https://go.dev/cl/654697 
+│                        │     │                  ├ [4]: https://go.dev/issue/71984 
+│                        │     │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-22870 
+│                        │     │                  ├ [6]: https://pkg.go.dev/vuln/GO-2025-3503 
+│                        │     │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-22870 
 │                        │     ├ PublishedDate   : 2025-03-12T19:15:38.31Z 
 │                        │     ╰ LastModifiedDate: 2025-03-12T19:15:38.31Z 
 │                        ├ [4] ╭ VulnerabilityID : GHSA-xr7q-jx4m-x55m 
