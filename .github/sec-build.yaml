@@ -2222,31 +2222,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-7008
     PublishedDate: '2023-12-23T13:15:07.573Z'
     LastModifiedDate: '2024-11-22T12:15:17.59Z'
-  - VulnerabilityID: CVE-2024-6716
-    PkgID: libtiff5@4.3.0-6ubuntu0.10
-    PkgName: libtiff5
-    PkgIdentifier:
-      PURL: pkg:deb/ubuntu/libtiff5@4.3.0-6ubuntu0.10?arch=amd64&distro=ubuntu-22.04
-      UID: f0950cfe01222a1b
-    InstalledVersion: 4.3.0-6ubuntu0.10
-    Status: affected
-    Layer:
-      Digest: sha256:1b189da4627bf6df21dabd18b0890c64e78c3231b1b2ab99049461fac5c89d85
-      DiffID: sha256:322a397ce18131fa8ddb119c4fc51c86347f5c059ebb477082b0b222d33b8344
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-6716
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Description: 'Rejected reason: Invalid security issue.'
-    Severity: LOW
-    VendorSeverity:
-      ubuntu: 1
-    References:
-    - https://www.cve.org/CVERecord?id=CVE-2024-6716
-    PublishedDate: '2024-07-15T15:15:10.9Z'
-    LastModifiedDate: '2024-09-04T14:15:14.457Z'
   - VulnerabilityID: CVE-2023-45918
     PkgID: libtinfo6@6.3-2ubuntu0.1
     PkgName: libtinfo6
@@ -5173,12 +5148,16 @@
     VendorSeverity:
       alma: 2
       amazon: 2
+      bitnami: 2
       cbl-mariner: 2
       oracle-oval: 3
       redhat: 2
       rocky: 3
       ubuntu: 2
     CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N
+        V3Score: 5.4
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:N
         V3Score: 6.5
@@ -7479,12 +7458,16 @@
     VendorSeverity:
       alma: 2
       amazon: 2
+      bitnami: 2
       cbl-mariner: 2
       oracle-oval: 3
       redhat: 2
       rocky: 3
       ubuntu: 2
     CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N
+        V3Score: 5.4
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:N
         V3Score: 6.5
