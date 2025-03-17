@@ -1258,6 +1258,7 @@
     CweIDs:
     - CWE-787
     VendorSeverity:
+      cbl-mariner: 3
       redhat: 3
       ubuntu: 2
     CVSS:
@@ -3472,55 +3473,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-39325
     PublishedDate: '2023-10-11T22:15:09.88Z'
     LastModifiedDate: '2024-11-21T08:15:09.627Z'
-  - VulnerabilityID: CVE-2024-45338
-    PkgID: golang.org/x/net@v0.12.0
-    PkgName: golang.org/x/net
-    PkgIdentifier:
-      PURL: pkg:golang/golang.org/x/net@v0.12.0
-      UID: 3cd108581071dfa3
-    InstalledVersion: v0.12.0
-    FixedVersion: 0.33.0
-    Status: fixed
-    Layer:
-      Digest: sha256:1b189da4627bf6df21dabd18b0890c64e78c3231b1b2ab99049461fac5c89d85
-      DiffID: sha256:322a397ce18131fa8ddb119c4fc51c86347f5c059ebb477082b0b222d33b8344
-    SeveritySource: ghsa
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-45338
-    DataSource:
-      ID: ghsa
-      Name: GitHub Security Advisory Go
-      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
-    Title: 'golang.org/x/net/html: Non-linear parsing of case-insensitive content in golang.org/x/net/html'
-    Description: An attacker can craft an input to the Parse functions that would be processed non-linearly with respect to its length, resulting in extremely slow parsing. This could cause a denial of service.
-    Severity: HIGH
-    CweIDs:
-    - CWE-1333
-    VendorSeverity:
-      amazon: 3
-      azure: 3
-      cbl-mariner: 3
-      ghsa: 3
-      redhat: 3
-      ubuntu: 2
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
-    References:
-    - https://access.redhat.com/security/cve/CVE-2024-45338
-    - https://cs.opensource.google/go/x/net
-    - https://github.com/golang/go/issues/70906
-    - https://go-review.googlesource.com/c/net/+/637536
-    - https://go.dev/cl/637536
-    - https://go.dev/issue/70906
-    - https://groups.google.com/g/golang-announce/c/wSCRmFnNmPA/m/Lvcd0mRMAwAJ
-    - https://nvd.nist.gov/vuln/detail/CVE-2024-45338
-    - https://pkg.go.dev/vuln/GO-2024-3333
-    - https://security.netapp.com/advisory/ntap-20250221-0001/
-    - https://ubuntu.com/security/notices/USN-7197-1
-    - https://www.cve.org/CVERecord?id=CVE-2024-45338
-    PublishedDate: '2024-12-18T21:15:08.173Z'
-    LastModifiedDate: '2025-02-21T18:15:17.717Z'
   - VulnerabilityID: CVE-2023-3978
     PkgID: golang.org/x/net@v0.12.0
     PkgName: golang.org/x/net
@@ -3546,7 +3498,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       ghsa: 2
@@ -4617,7 +4569,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -4687,7 +4639,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -5782,55 +5734,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-39325
     PublishedDate: '2023-10-11T22:15:09.88Z'
     LastModifiedDate: '2024-11-21T08:15:09.627Z'
-  - VulnerabilityID: CVE-2024-45338
-    PkgID: golang.org/x/net@v0.12.0
-    PkgName: golang.org/x/net
-    PkgIdentifier:
-      PURL: pkg:golang/golang.org/x/net@v0.12.0
-      UID: c56765230ac65fb5
-    InstalledVersion: v0.12.0
-    FixedVersion: 0.33.0
-    Status: fixed
-    Layer:
-      Digest: sha256:1b189da4627bf6df21dabd18b0890c64e78c3231b1b2ab99049461fac5c89d85
-      DiffID: sha256:322a397ce18131fa8ddb119c4fc51c86347f5c059ebb477082b0b222d33b8344
-    SeveritySource: ghsa
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-45338
-    DataSource:
-      ID: ghsa
-      Name: GitHub Security Advisory Go
-      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
-    Title: 'golang.org/x/net/html: Non-linear parsing of case-insensitive content in golang.org/x/net/html'
-    Description: An attacker can craft an input to the Parse functions that would be processed non-linearly with respect to its length, resulting in extremely slow parsing. This could cause a denial of service.
-    Severity: HIGH
-    CweIDs:
-    - CWE-1333
-    VendorSeverity:
-      amazon: 3
-      azure: 3
-      cbl-mariner: 3
-      ghsa: 3
-      redhat: 3
-      ubuntu: 2
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
-    References:
-    - https://access.redhat.com/security/cve/CVE-2024-45338
-    - https://cs.opensource.google/go/x/net
-    - https://github.com/golang/go/issues/70906
-    - https://go-review.googlesource.com/c/net/+/637536
-    - https://go.dev/cl/637536
-    - https://go.dev/issue/70906
-    - https://groups.google.com/g/golang-announce/c/wSCRmFnNmPA/m/Lvcd0mRMAwAJ
-    - https://nvd.nist.gov/vuln/detail/CVE-2024-45338
-    - https://pkg.go.dev/vuln/GO-2024-3333
-    - https://security.netapp.com/advisory/ntap-20250221-0001/
-    - https://ubuntu.com/security/notices/USN-7197-1
-    - https://www.cve.org/CVERecord?id=CVE-2024-45338
-    PublishedDate: '2024-12-18T21:15:08.173Z'
-    LastModifiedDate: '2025-02-21T18:15:17.717Z'
   - VulnerabilityID: CVE-2023-3978
     PkgID: golang.org/x/net@v0.12.0
     PkgName: golang.org/x/net
@@ -5856,7 +5759,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       ghsa: 2
@@ -6927,7 +6830,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -6997,7 +6900,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -7984,55 +7887,6 @@
   Class: lang-pkgs
   Type: gobinary
   Vulnerabilities:
-  - VulnerabilityID: CVE-2024-45338
-    PkgID: golang.org/x/net@v0.30.0
-    PkgName: golang.org/x/net
-    PkgIdentifier:
-      PURL: pkg:golang/golang.org/x/net@v0.30.0
-      UID: 49cea3404592705a
-    InstalledVersion: v0.30.0
-    FixedVersion: 0.33.0
-    Status: fixed
-    Layer:
-      Digest: sha256:1b189da4627bf6df21dabd18b0890c64e78c3231b1b2ab99049461fac5c89d85
-      DiffID: sha256:322a397ce18131fa8ddb119c4fc51c86347f5c059ebb477082b0b222d33b8344
-    SeveritySource: ghsa
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-45338
-    DataSource:
-      ID: ghsa
-      Name: GitHub Security Advisory Go
-      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
-    Title: 'golang.org/x/net/html: Non-linear parsing of case-insensitive content in golang.org/x/net/html'
-    Description: An attacker can craft an input to the Parse functions that would be processed non-linearly with respect to its length, resulting in extremely slow parsing. This could cause a denial of service.
-    Severity: HIGH
-    CweIDs:
-    - CWE-1333
-    VendorSeverity:
-      amazon: 3
-      azure: 3
-      cbl-mariner: 3
-      ghsa: 3
-      redhat: 3
-      ubuntu: 2
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
-    References:
-    - https://access.redhat.com/security/cve/CVE-2024-45338
-    - https://cs.opensource.google/go/x/net
-    - https://github.com/golang/go/issues/70906
-    - https://go-review.googlesource.com/c/net/+/637536
-    - https://go.dev/cl/637536
-    - https://go.dev/issue/70906
-    - https://groups.google.com/g/golang-announce/c/wSCRmFnNmPA/m/Lvcd0mRMAwAJ
-    - https://nvd.nist.gov/vuln/detail/CVE-2024-45338
-    - https://pkg.go.dev/vuln/GO-2024-3333
-    - https://security.netapp.com/advisory/ntap-20250221-0001/
-    - https://ubuntu.com/security/notices/USN-7197-1
-    - https://www.cve.org/CVERecord?id=CVE-2024-45338
-    PublishedDate: '2024-12-18T21:15:08.173Z'
-    LastModifiedDate: '2025-02-21T18:15:17.717Z'
   - VulnerabilityID: CVE-2025-22870
     PkgID: golang.org/x/net@v0.30.0
     PkgName: golang.org/x/net
@@ -8200,55 +8054,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-45337
     PublishedDate: '2024-12-12T02:02:07.97Z'
     LastModifiedDate: '2025-02-18T21:15:22.187Z'
-  - VulnerabilityID: CVE-2024-45338
-    PkgID: golang.org/x/net@v0.26.0
-    PkgName: golang.org/x/net
-    PkgIdentifier:
-      PURL: pkg:golang/golang.org/x/net@v0.26.0
-      UID: d33d648a9a9d02d2
-    InstalledVersion: v0.26.0
-    FixedVersion: 0.33.0
-    Status: fixed
-    Layer:
-      Digest: sha256:1b189da4627bf6df21dabd18b0890c64e78c3231b1b2ab99049461fac5c89d85
-      DiffID: sha256:322a397ce18131fa8ddb119c4fc51c86347f5c059ebb477082b0b222d33b8344
-    SeveritySource: ghsa
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-45338
-    DataSource:
-      ID: ghsa
-      Name: GitHub Security Advisory Go
-      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
-    Title: 'golang.org/x/net/html: Non-linear parsing of case-insensitive content in golang.org/x/net/html'
-    Description: An attacker can craft an input to the Parse functions that would be processed non-linearly with respect to its length, resulting in extremely slow parsing. This could cause a denial of service.
-    Severity: HIGH
-    CweIDs:
-    - CWE-1333
-    VendorSeverity:
-      amazon: 3
-      azure: 3
-      cbl-mariner: 3
-      ghsa: 3
-      redhat: 3
-      ubuntu: 2
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
-    References:
-    - https://access.redhat.com/security/cve/CVE-2024-45338
-    - https://cs.opensource.google/go/x/net
-    - https://github.com/golang/go/issues/70906
-    - https://go-review.googlesource.com/c/net/+/637536
-    - https://go.dev/cl/637536
-    - https://go.dev/issue/70906
-    - https://groups.google.com/g/golang-announce/c/wSCRmFnNmPA/m/Lvcd0mRMAwAJ
-    - https://nvd.nist.gov/vuln/detail/CVE-2024-45338
-    - https://pkg.go.dev/vuln/GO-2024-3333
-    - https://security.netapp.com/advisory/ntap-20250221-0001/
-    - https://ubuntu.com/security/notices/USN-7197-1
-    - https://www.cve.org/CVERecord?id=CVE-2024-45338
-    PublishedDate: '2024-12-18T21:15:08.173Z'
-    LastModifiedDate: '2025-02-21T18:15:17.717Z'
   - VulnerabilityID: CVE-2025-22870
     PkgID: golang.org/x/net@v0.26.0
     PkgName: golang.org/x/net
