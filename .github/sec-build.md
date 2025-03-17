@@ -1372,8 +1372,9 @@
 │                        │      │                   vulnerability may have been exploited in the wild. 
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-787 
-│                        │      ├ VendorSeverity   ╭ redhat: 3 
-│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ VendorSeverity   ╭ cbl-mariner: 3 
+│                        │      │                  ├ redhat     : 3 
+│                        │      │                  ╰ ubuntu     : 2 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:
 │                        │      │                           │           H/A:H 
 │                        │      │                           ╰ V3Score : 8.1 
@@ -4018,58 +4019,7 @@
 │                        │      │                  ╰ [102]: https://www.cve.org/CVERecord?id=CVE-2023-39325 
 │                        │      ├ PublishedDate   : 2023-10-11T22:15:09.88Z 
 │                        │      ╰ LastModifiedDate: 2024-11-21T08:15:09.627Z 
-│                        ├ [1]  ╭ VulnerabilityID : CVE-2024-45338 
-│                        │      ├ PkgID           : golang.org/x/net@v0.12.0 
-│                        │      ├ PkgName         : golang.org/x/net 
-│                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/golang.org/x/net@v0.12.0 
-│                        │      │                  ╰ UID : 3cd108581071dfa3 
-│                        │      ├ InstalledVersion: v0.12.0 
-│                        │      ├ FixedVersion    : 0.33.0 
-│                        │      ├ Status          : fixed 
-│                        │      ├ Layer            ╭ Digest: sha256:1b189da4627bf6df21dabd18b0890c64e78c3231b1b
-│                        │      │                  │         2ab99049461fac5c89d85 
-│                        │      │                  ╰ DiffID: sha256:322a397ce18131fa8ddb119c4fc51c86347f5c059eb
-│                        │      │                            b477082b0b222d33b8344 
-│                        │      ├ SeveritySource  : ghsa 
-│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-45338 
-│                        │      ├ DataSource       ╭ ID  : ghsa 
-│                        │      │                  ├ Name: GitHub Security Advisory Go 
-│                        │      │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+
-│                        │      │                          ecosystem%3Ago 
-│                        │      ├ Title           : golang.org/x/net/html: Non-linear parsing of
-│                        │      │                   case-insensitive content in golang.org/x/net/html 
-│                        │      ├ Description     : An attacker can craft an input to the Parse functions that
-│                        │      │                   would be processed non-linearly with respect to its length,
-│                        │      │                    resulting in extremely slow parsing. This could cause a
-│                        │      │                   denial of service. 
-│                        │      ├ Severity        : HIGH 
-│                        │      ├ CweIDs           ─ [0]: CWE-1333 
-│                        │      ├ VendorSeverity   ╭ amazon     : 3 
-│                        │      │                  ├ azure      : 3 
-│                        │      │                  ├ cbl-mariner: 3 
-│                        │      │                  ├ ghsa       : 3 
-│                        │      │                  ├ redhat     : 3 
-│                        │      │                  ╰ ubuntu     : 2 
-│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
-│                        │      │                           │           N/A:H 
-│                        │      │                           ╰ V3Score : 7.5 
-│                        │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2024-45338 
-│                        │      │                  ├ [1] : https://cs.opensource.google/go/x/net 
-│                        │      │                  ├ [2] : https://github.com/golang/go/issues/70906 
-│                        │      │                  ├ [3] : https://go-review.googlesource.com/c/net/+/637536 
-│                        │      │                  ├ [4] : https://go.dev/cl/637536 
-│                        │      │                  ├ [5] : https://go.dev/issue/70906 
-│                        │      │                  ├ [6] : https://groups.google.com/g/golang-announce/c/wSCRmF
-│                        │      │                  │       nNmPA/m/Lvcd0mRMAwAJ 
-│                        │      │                  ├ [7] : https://nvd.nist.gov/vuln/detail/CVE-2024-45338 
-│                        │      │                  ├ [8] : https://pkg.go.dev/vuln/GO-2024-3333 
-│                        │      │                  ├ [9] : https://security.netapp.com/advisory/ntap-20250221-0
-│                        │      │                  │       001/ 
-│                        │      │                  ├ [10]: https://ubuntu.com/security/notices/USN-7197-1 
-│                        │      │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2024-45338 
-│                        │      ├ PublishedDate   : 2024-12-18T21:15:08.173Z 
-│                        │      ╰ LastModifiedDate: 2025-02-21T18:15:17.717Z 
-│                        ├ [2]  ╭ VulnerabilityID : CVE-2023-3978 
+│                        ├ [1]  ╭ VulnerabilityID : CVE-2023-3978 
 │                        │      ├ PkgID           : golang.org/x/net@v0.12.0 
 │                        │      ├ PkgName         : golang.org/x/net 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/golang.org/x/net@v0.12.0 
@@ -4094,7 +4044,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ amazon     : 3 
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ ghsa       : 2 
@@ -4135,7 +4085,7 @@
 │                        │      │                  ╰ [22]: https://www.cve.org/CVERecord?id=CVE-2023-3978 
 │                        │      ├ PublishedDate   : 2023-08-02T20:15:12.097Z 
 │                        │      ╰ LastModifiedDate: 2024-11-21T08:18:27.68Z 
-│                        ├ [3]  ╭ VulnerabilityID : CVE-2023-44487 
+│                        ├ [2]  ╭ VulnerabilityID : CVE-2023-44487 
 │                        │      ├ PkgID           : golang.org/x/net@v0.12.0 
 │                        │      ├ PkgName         : golang.org/x/net 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/golang.org/x/net@v0.12.0 
@@ -4737,7 +4687,7 @@
 │                        │      │                           cause 
 │                        │      ├ PublishedDate   : 2023-10-10T14:15:10.883Z 
 │                        │      ╰ LastModifiedDate: 2025-03-07T19:15:36.157Z 
-│                        ├ [4]  ╭ VulnerabilityID : CVE-2023-45288 
+│                        ├ [3]  ╭ VulnerabilityID : CVE-2023-45288 
 │                        │      ├ PkgID           : golang.org/x/net@v0.12.0 
 │                        │      ├ PkgName         : golang.org/x/net 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/golang.org/x/net@v0.12.0 
@@ -4845,7 +4795,7 @@
 │                        │      │                  ╰ [36]: https://www.kb.cert.org/vuls/id/421644 
 │                        │      ├ PublishedDate   : 2024-04-04T21:15:16.113Z 
 │                        │      ╰ LastModifiedDate: 2024-11-21T08:26:42.38Z 
-│                        ├ [5]  ╭ VulnerabilityID : CVE-2025-22870 
+│                        ├ [4]  ╭ VulnerabilityID : CVE-2025-22870 
 │                        │      ├ PkgID           : golang.org/x/net@v0.12.0 
 │                        │      ├ PkgName         : golang.org/x/net 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/golang.org/x/net@v0.12.0 
@@ -4886,7 +4836,7 @@
 │                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-22870 
 │                        │      ├ PublishedDate   : 2025-03-12T19:15:38.31Z 
 │                        │      ╰ LastModifiedDate: 2025-03-12T19:15:38.31Z 
-│                        ├ [6]  ╭ VulnerabilityID : CVE-2024-24790 
+│                        ├ [5]  ╭ VulnerabilityID : CVE-2024-24790 
 │                        │      ├ PkgID           : stdlib@v1.20.5 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.20.5 
@@ -4968,7 +4918,7 @@
 │                        │      │                  ╰ [28]: https://www.cve.org/CVERecord?id=CVE-2024-24790 
 │                        │      ├ PublishedDate   : 2024-06-05T16:15:10.56Z 
 │                        │      ╰ LastModifiedDate: 2024-11-21T08:59:42.813Z 
-│                        ├ [7]  ╭ VulnerabilityID : CVE-2023-39325 
+│                        ├ [6]  ╭ VulnerabilityID : CVE-2023-39325 
 │                        │      ├ PkgID           : stdlib@v1.20.5 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.20.5 
@@ -5289,7 +5239,7 @@
 │                        │      │                  ╰ [102]: https://www.cve.org/CVERecord?id=CVE-2023-39325 
 │                        │      ├ PublishedDate   : 2023-10-11T22:15:09.88Z 
 │                        │      ╰ LastModifiedDate: 2024-11-21T08:15:09.627Z 
-│                        ├ [8]  ╭ VulnerabilityID : CVE-2023-45283 
+│                        ├ [7]  ╭ VulnerabilityID : CVE-2023-45283 
 │                        │      ├ PkgID           : stdlib@v1.20.5 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.20.5 
@@ -5355,7 +5305,7 @@
 │                        │      │                         08/ 
 │                        │      ├ PublishedDate   : 2023-11-09T17:15:08.757Z 
 │                        │      ╰ LastModifiedDate: 2024-11-21T08:26:41.567Z 
-│                        ├ [9]  ╭ VulnerabilityID : CVE-2023-45288 
+│                        ├ [8]  ╭ VulnerabilityID : CVE-2023-45288 
 │                        │      ├ PkgID           : stdlib@v1.20.5 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.20.5 
@@ -5461,7 +5411,7 @@
 │                        │      │                  ╰ [36]: https://www.kb.cert.org/vuls/id/421644 
 │                        │      ├ PublishedDate   : 2024-04-04T21:15:16.113Z 
 │                        │      ╰ LastModifiedDate: 2024-11-21T08:26:42.38Z 
-│                        ├ [10] ╭ VulnerabilityID : CVE-2024-34156 
+│                        ├ [9]  ╭ VulnerabilityID : CVE-2024-34156 
 │                        │      ├ PkgID           : stdlib@v1.20.5 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.20.5 
@@ -5528,7 +5478,7 @@
 │                        │      │                  ╰ [22]: https://www.cve.org/CVERecord?id=CVE-2024-34156 
 │                        │      ├ PublishedDate   : 2024-09-06T21:15:12.02Z 
 │                        │      ╰ LastModifiedDate: 2024-11-21T09:18:12.853Z 
-│                        ├ [11] ╭ VulnerabilityID : CVE-2023-29406 
+│                        ├ [10] ╭ VulnerabilityID : CVE-2023-29406 
 │                        │      ├ PkgID           : stdlib@v1.20.5 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.20.5 
@@ -5609,7 +5559,7 @@
 │                        │      │                  ╰ [30]: https://www.cve.org/CVERecord?id=CVE-2023-29406 
 │                        │      ├ PublishedDate   : 2023-07-11T20:15:10.643Z 
 │                        │      ╰ LastModifiedDate: 2024-11-21T07:56:59.913Z 
-│                        ├ [12] ╭ VulnerabilityID : CVE-2023-29409 
+│                        ├ [11] ╭ VulnerabilityID : CVE-2023-29409 
 │                        │      ├ PkgID           : stdlib@v1.20.5 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.20.5 
@@ -5682,7 +5632,7 @@
 │                        │      │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2023-29409 
 │                        │      ├ PublishedDate   : 2023-08-02T20:15:11.94Z 
 │                        │      ╰ LastModifiedDate: 2024-11-21T07:57:00.287Z 
-│                        ├ [13] ╭ VulnerabilityID : CVE-2023-39318 
+│                        ├ [12] ╭ VulnerabilityID : CVE-2023-39318 
 │                        │      ├ PkgID           : stdlib@v1.20.5 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.20.5 
@@ -5710,7 +5660,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ amazon     : 3 
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
@@ -5758,7 +5708,7 @@
 │                        │      │                  ╰ [22]: https://www.cve.org/CVERecord?id=CVE-2023-39318 
 │                        │      ├ PublishedDate   : 2023-09-08T17:15:27.823Z 
 │                        │      ╰ LastModifiedDate: 2024-11-21T08:15:08.737Z 
-│                        ├ [14] ╭ VulnerabilityID : CVE-2023-39319 
+│                        ├ [13] ╭ VulnerabilityID : CVE-2023-39319 
 │                        │      ├ PkgID           : stdlib@v1.20.5 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.20.5 
@@ -5787,7 +5737,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ amazon     : 3 
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
@@ -5835,7 +5785,7 @@
 │                        │      │                  ╰ [22]: https://www.cve.org/CVERecord?id=CVE-2023-39319 
 │                        │      ├ PublishedDate   : 2023-09-08T17:15:27.91Z 
 │                        │      ╰ LastModifiedDate: 2024-11-21T08:15:08.89Z 
-│                        ├ [15] ╭ VulnerabilityID : CVE-2023-39326 
+│                        ├ [14] ╭ VulnerabilityID : CVE-2023-39326 
 │                        │      ├ PkgID           : stdlib@v1.20.5 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.20.5 
@@ -5911,7 +5861,7 @@
 │                        │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2023-39326 
 │                        │      ├ PublishedDate   : 2023-12-06T17:15:07.147Z 
 │                        │      ╰ LastModifiedDate: 2024-11-21T08:15:09.89Z 
-│                        ├ [16] ╭ VulnerabilityID : CVE-2023-45284 
+│                        ├ [15] ╭ VulnerabilityID : CVE-2023-45284 
 │                        │      ├ PkgID           : stdlib@v1.20.5 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.20.5 
@@ -5956,7 +5906,7 @@
 │                        │      │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2023-2186 
 │                        │      ├ PublishedDate   : 2023-11-09T17:15:08.813Z 
 │                        │      ╰ LastModifiedDate: 2024-11-21T08:26:41.737Z 
-│                        ├ [17] ╭ VulnerabilityID : CVE-2023-45289 
+│                        ├ [16] ╭ VulnerabilityID : CVE-2023-45289 
 │                        │      ├ PkgID           : stdlib@v1.20.5 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.20.5 
@@ -6038,7 +5988,7 @@
 │                        │      │                  ╰ [29]: https://www.cve.org/CVERecord?id=CVE-2023-45289 
 │                        │      ├ PublishedDate   : 2024-03-05T23:15:07.137Z 
 │                        │      ╰ LastModifiedDate: 2024-11-21T08:26:42.62Z 
-│                        ├ [18] ╭ VulnerabilityID : CVE-2023-45290 
+│                        ├ [17] ╭ VulnerabilityID : CVE-2023-45290 
 │                        │      ├ PkgID           : stdlib@v1.20.5 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.20.5 
@@ -6120,7 +6070,7 @@
 │                        │      │                  ╰ [26]: https://www.cve.org/CVERecord?id=CVE-2023-45290 
 │                        │      ├ PublishedDate   : 2024-03-05T23:15:07.21Z 
 │                        │      ╰ LastModifiedDate: 2024-11-21T08:26:42.853Z 
-│                        ├ [19] ╭ VulnerabilityID : CVE-2024-24783 
+│                        ├ [18] ╭ VulnerabilityID : CVE-2024-24783 
 │                        │      ├ PkgID           : stdlib@v1.20.5 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.20.5 
@@ -6204,7 +6154,7 @@
 │                        │      │                  ╰ [30]: https://www.cve.org/CVERecord?id=CVE-2024-24783 
 │                        │      ├ PublishedDate   : 2024-03-05T23:15:07.683Z 
 │                        │      ╰ LastModifiedDate: 2024-11-21T08:59:41.62Z 
-│                        ├ [20] ╭ VulnerabilityID : CVE-2024-24784 
+│                        ├ [19] ╭ VulnerabilityID : CVE-2024-24784 
 │                        │      ├ PkgID           : stdlib@v1.20.5 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.20.5 
@@ -6298,7 +6248,7 @@
 │                        │      │                  ╰ [40]: https://www.cve.org/CVERecord?id=CVE-2024-24784 
 │                        │      ├ PublishedDate   : 2024-03-05T23:15:07.733Z 
 │                        │      ╰ LastModifiedDate: 2024-11-21T08:59:41.82Z 
-│                        ├ [21] ╭ VulnerabilityID : CVE-2024-24785 
+│                        ├ [20] ╭ VulnerabilityID : CVE-2024-24785 
 │                        │      ├ PkgID           : stdlib@v1.20.5 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.20.5 
@@ -6389,7 +6339,7 @@
 │                        │      │                  ╰ [38]: https://www.cve.org/CVERecord?id=CVE-2024-24785 
 │                        │      ├ PublishedDate   : 2024-03-05T23:15:07.777Z 
 │                        │      ╰ LastModifiedDate: 2025-03-14T02:15:13.167Z 
-│                        ├ [22] ╭ VulnerabilityID : CVE-2024-24789 
+│                        ├ [21] ╭ VulnerabilityID : CVE-2024-24789 
 │                        │      ├ PkgID           : stdlib@v1.20.5 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.20.5 
@@ -6477,7 +6427,7 @@
 │                        │      │                  ╰ [30]: https://www.cve.org/CVERecord?id=CVE-2024-24789 
 │                        │      ├ PublishedDate   : 2024-06-05T16:15:10.47Z 
 │                        │      ╰ LastModifiedDate: 2025-01-31T15:15:12.74Z 
-│                        ├ [23] ╭ VulnerabilityID : CVE-2024-24791 
+│                        ├ [22] ╭ VulnerabilityID : CVE-2024-24791 
 │                        │      ├ PkgID           : stdlib@v1.20.5 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.20.5 
@@ -6560,7 +6510,7 @@
 │                        │      │                  ╰ [27]: https://www.cve.org/CVERecord?id=CVE-2024-24791 
 │                        │      ├ PublishedDate   : 2024-07-02T22:15:04.833Z 
 │                        │      ╰ LastModifiedDate: 2024-11-21T08:59:43.013Z 
-│                        ├ [24] ╭ VulnerabilityID : CVE-2024-34155 
+│                        ├ [23] ╭ VulnerabilityID : CVE-2024-34155 
 │                        │      ├ PkgID           : stdlib@v1.20.5 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.20.5 
@@ -6640,7 +6590,7 @@
 │                        │      │                  ╰ [33]: https://www.cve.org/CVERecord?id=CVE-2024-34155 
 │                        │      ├ PublishedDate   : 2024-09-06T21:15:11.947Z 
 │                        │      ╰ LastModifiedDate: 2024-11-21T09:18:12.633Z 
-│                        ├ [25] ╭ VulnerabilityID : CVE-2024-34158 
+│                        ├ [24] ╭ VulnerabilityID : CVE-2024-34158 
 │                        │      ├ PkgID           : stdlib@v1.20.5 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.20.5 
@@ -6722,7 +6672,7 @@
 │                        │      │                  ╰ [33]: https://www.cve.org/CVERecord?id=CVE-2024-34158 
 │                        │      ├ PublishedDate   : 2024-09-06T21:15:12.083Z 
 │                        │      ╰ LastModifiedDate: 2024-11-21T09:18:13.03Z 
-│                        ├ [26] ╭ VulnerabilityID : CVE-2024-45336 
+│                        ├ [25] ╭ VulnerabilityID : CVE-2024-45336 
 │                        │      ├ PkgID           : stdlib@v1.20.5 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.20.5 
@@ -6774,7 +6724,7 @@
 │                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-45336 
 │                        │      ├ PublishedDate   : 2025-01-28T02:15:28.807Z 
 │                        │      ╰ LastModifiedDate: 2025-02-21T18:15:17.4Z 
-│                        ├ [27] ╭ VulnerabilityID : CVE-2024-45341 
+│                        ├ [26] ╭ VulnerabilityID : CVE-2024-45341 
 │                        │      ├ PkgID           : stdlib@v1.20.5 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.20.5 
@@ -6822,7 +6772,7 @@
 │                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-45341 
 │                        │      ├ PublishedDate   : 2025-01-28T02:15:29.147Z 
 │                        │      ╰ LastModifiedDate: 2025-02-21T18:15:17.96Z 
-│                        ╰ [28] ╭ VulnerabilityID : CVE-2025-22866 
+│                        ╰ [27] ╭ VulnerabilityID : CVE-2025-22866 
 │                               ├ PkgID           : stdlib@v1.20.5 
 │                               ├ PkgName         : stdlib 
 │                               ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.20.5 
@@ -7193,58 +7143,7 @@
 │                        │      │                  ╰ [102]: https://www.cve.org/CVERecord?id=CVE-2023-39325 
 │                        │      ├ PublishedDate   : 2023-10-11T22:15:09.88Z 
 │                        │      ╰ LastModifiedDate: 2024-11-21T08:15:09.627Z 
-│                        ├ [1]  ╭ VulnerabilityID : CVE-2024-45338 
-│                        │      ├ PkgID           : golang.org/x/net@v0.12.0 
-│                        │      ├ PkgName         : golang.org/x/net 
-│                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/golang.org/x/net@v0.12.0 
-│                        │      │                  ╰ UID : c56765230ac65fb5 
-│                        │      ├ InstalledVersion: v0.12.0 
-│                        │      ├ FixedVersion    : 0.33.0 
-│                        │      ├ Status          : fixed 
-│                        │      ├ Layer            ╭ Digest: sha256:1b189da4627bf6df21dabd18b0890c64e78c3231b1b
-│                        │      │                  │         2ab99049461fac5c89d85 
-│                        │      │                  ╰ DiffID: sha256:322a397ce18131fa8ddb119c4fc51c86347f5c059eb
-│                        │      │                            b477082b0b222d33b8344 
-│                        │      ├ SeveritySource  : ghsa 
-│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-45338 
-│                        │      ├ DataSource       ╭ ID  : ghsa 
-│                        │      │                  ├ Name: GitHub Security Advisory Go 
-│                        │      │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+
-│                        │      │                          ecosystem%3Ago 
-│                        │      ├ Title           : golang.org/x/net/html: Non-linear parsing of
-│                        │      │                   case-insensitive content in golang.org/x/net/html 
-│                        │      ├ Description     : An attacker can craft an input to the Parse functions that
-│                        │      │                   would be processed non-linearly with respect to its length,
-│                        │      │                    resulting in extremely slow parsing. This could cause a
-│                        │      │                   denial of service. 
-│                        │      ├ Severity        : HIGH 
-│                        │      ├ CweIDs           ─ [0]: CWE-1333 
-│                        │      ├ VendorSeverity   ╭ amazon     : 3 
-│                        │      │                  ├ azure      : 3 
-│                        │      │                  ├ cbl-mariner: 3 
-│                        │      │                  ├ ghsa       : 3 
-│                        │      │                  ├ redhat     : 3 
-│                        │      │                  ╰ ubuntu     : 2 
-│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
-│                        │      │                           │           N/A:H 
-│                        │      │                           ╰ V3Score : 7.5 
-│                        │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2024-45338 
-│                        │      │                  ├ [1] : https://cs.opensource.google/go/x/net 
-│                        │      │                  ├ [2] : https://github.com/golang/go/issues/70906 
-│                        │      │                  ├ [3] : https://go-review.googlesource.com/c/net/+/637536 
-│                        │      │                  ├ [4] : https://go.dev/cl/637536 
-│                        │      │                  ├ [5] : https://go.dev/issue/70906 
-│                        │      │                  ├ [6] : https://groups.google.com/g/golang-announce/c/wSCRmF
-│                        │      │                  │       nNmPA/m/Lvcd0mRMAwAJ 
-│                        │      │                  ├ [7] : https://nvd.nist.gov/vuln/detail/CVE-2024-45338 
-│                        │      │                  ├ [8] : https://pkg.go.dev/vuln/GO-2024-3333 
-│                        │      │                  ├ [9] : https://security.netapp.com/advisory/ntap-20250221-0
-│                        │      │                  │       001/ 
-│                        │      │                  ├ [10]: https://ubuntu.com/security/notices/USN-7197-1 
-│                        │      │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2024-45338 
-│                        │      ├ PublishedDate   : 2024-12-18T21:15:08.173Z 
-│                        │      ╰ LastModifiedDate: 2025-02-21T18:15:17.717Z 
-│                        ├ [2]  ╭ VulnerabilityID : CVE-2023-3978 
+│                        ├ [1]  ╭ VulnerabilityID : CVE-2023-3978 
 │                        │      ├ PkgID           : golang.org/x/net@v0.12.0 
 │                        │      ├ PkgName         : golang.org/x/net 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/golang.org/x/net@v0.12.0 
@@ -7269,7 +7168,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ amazon     : 3 
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ ghsa       : 2 
@@ -7310,7 +7209,7 @@
 │                        │      │                  ╰ [22]: https://www.cve.org/CVERecord?id=CVE-2023-3978 
 │                        │      ├ PublishedDate   : 2023-08-02T20:15:12.097Z 
 │                        │      ╰ LastModifiedDate: 2024-11-21T08:18:27.68Z 
-│                        ├ [3]  ╭ VulnerabilityID : CVE-2023-44487 
+│                        ├ [2]  ╭ VulnerabilityID : CVE-2023-44487 
 │                        │      ├ PkgID           : golang.org/x/net@v0.12.0 
 │                        │      ├ PkgName         : golang.org/x/net 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/golang.org/x/net@v0.12.0 
@@ -7912,7 +7811,7 @@
 │                        │      │                           cause 
 │                        │      ├ PublishedDate   : 2023-10-10T14:15:10.883Z 
 │                        │      ╰ LastModifiedDate: 2025-03-07T19:15:36.157Z 
-│                        ├ [4]  ╭ VulnerabilityID : CVE-2023-45288 
+│                        ├ [3]  ╭ VulnerabilityID : CVE-2023-45288 
 │                        │      ├ PkgID           : golang.org/x/net@v0.12.0 
 │                        │      ├ PkgName         : golang.org/x/net 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/golang.org/x/net@v0.12.0 
@@ -8020,7 +7919,7 @@
 │                        │      │                  ╰ [36]: https://www.kb.cert.org/vuls/id/421644 
 │                        │      ├ PublishedDate   : 2024-04-04T21:15:16.113Z 
 │                        │      ╰ LastModifiedDate: 2024-11-21T08:26:42.38Z 
-│                        ├ [5]  ╭ VulnerabilityID : CVE-2025-22870 
+│                        ├ [4]  ╭ VulnerabilityID : CVE-2025-22870 
 │                        │      ├ PkgID           : golang.org/x/net@v0.12.0 
 │                        │      ├ PkgName         : golang.org/x/net 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/golang.org/x/net@v0.12.0 
@@ -8061,7 +7960,7 @@
 │                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-22870 
 │                        │      ├ PublishedDate   : 2025-03-12T19:15:38.31Z 
 │                        │      ╰ LastModifiedDate: 2025-03-12T19:15:38.31Z 
-│                        ├ [6]  ╭ VulnerabilityID : CVE-2024-24790 
+│                        ├ [5]  ╭ VulnerabilityID : CVE-2024-24790 
 │                        │      ├ PkgID           : stdlib@v1.20.5 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.20.5 
@@ -8143,7 +8042,7 @@
 │                        │      │                  ╰ [28]: https://www.cve.org/CVERecord?id=CVE-2024-24790 
 │                        │      ├ PublishedDate   : 2024-06-05T16:15:10.56Z 
 │                        │      ╰ LastModifiedDate: 2024-11-21T08:59:42.813Z 
-│                        ├ [7]  ╭ VulnerabilityID : CVE-2023-39325 
+│                        ├ [6]  ╭ VulnerabilityID : CVE-2023-39325 
 │                        │      ├ PkgID           : stdlib@v1.20.5 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.20.5 
@@ -8464,7 +8363,7 @@
 │                        │      │                  ╰ [102]: https://www.cve.org/CVERecord?id=CVE-2023-39325 
 │                        │      ├ PublishedDate   : 2023-10-11T22:15:09.88Z 
 │                        │      ╰ LastModifiedDate: 2024-11-21T08:15:09.627Z 
-│                        ├ [8]  ╭ VulnerabilityID : CVE-2023-45283 
+│                        ├ [7]  ╭ VulnerabilityID : CVE-2023-45283 
 │                        │      ├ PkgID           : stdlib@v1.20.5 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.20.5 
@@ -8530,7 +8429,7 @@
 │                        │      │                         08/ 
 │                        │      ├ PublishedDate   : 2023-11-09T17:15:08.757Z 
 │                        │      ╰ LastModifiedDate: 2024-11-21T08:26:41.567Z 
-│                        ├ [9]  ╭ VulnerabilityID : CVE-2023-45288 
+│                        ├ [8]  ╭ VulnerabilityID : CVE-2023-45288 
 │                        │      ├ PkgID           : stdlib@v1.20.5 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.20.5 
@@ -8636,7 +8535,7 @@
 │                        │      │                  ╰ [36]: https://www.kb.cert.org/vuls/id/421644 
 │                        │      ├ PublishedDate   : 2024-04-04T21:15:16.113Z 
 │                        │      ╰ LastModifiedDate: 2024-11-21T08:26:42.38Z 
-│                        ├ [10] ╭ VulnerabilityID : CVE-2024-34156 
+│                        ├ [9]  ╭ VulnerabilityID : CVE-2024-34156 
 │                        │      ├ PkgID           : stdlib@v1.20.5 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.20.5 
@@ -8703,7 +8602,7 @@
 │                        │      │                  ╰ [22]: https://www.cve.org/CVERecord?id=CVE-2024-34156 
 │                        │      ├ PublishedDate   : 2024-09-06T21:15:12.02Z 
 │                        │      ╰ LastModifiedDate: 2024-11-21T09:18:12.853Z 
-│                        ├ [11] ╭ VulnerabilityID : CVE-2023-29406 
+│                        ├ [10] ╭ VulnerabilityID : CVE-2023-29406 
 │                        │      ├ PkgID           : stdlib@v1.20.5 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.20.5 
@@ -8784,7 +8683,7 @@
 │                        │      │                  ╰ [30]: https://www.cve.org/CVERecord?id=CVE-2023-29406 
 │                        │      ├ PublishedDate   : 2023-07-11T20:15:10.643Z 
 │                        │      ╰ LastModifiedDate: 2024-11-21T07:56:59.913Z 
-│                        ├ [12] ╭ VulnerabilityID : CVE-2023-29409 
+│                        ├ [11] ╭ VulnerabilityID : CVE-2023-29409 
 │                        │      ├ PkgID           : stdlib@v1.20.5 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.20.5 
@@ -8857,7 +8756,7 @@
 │                        │      │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2023-29409 
 │                        │      ├ PublishedDate   : 2023-08-02T20:15:11.94Z 
 │                        │      ╰ LastModifiedDate: 2024-11-21T07:57:00.287Z 
-│                        ├ [13] ╭ VulnerabilityID : CVE-2023-39318 
+│                        ├ [12] ╭ VulnerabilityID : CVE-2023-39318 
 │                        │      ├ PkgID           : stdlib@v1.20.5 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.20.5 
@@ -8885,7 +8784,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ amazon     : 3 
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
@@ -8933,7 +8832,7 @@
 │                        │      │                  ╰ [22]: https://www.cve.org/CVERecord?id=CVE-2023-39318 
 │                        │      ├ PublishedDate   : 2023-09-08T17:15:27.823Z 
 │                        │      ╰ LastModifiedDate: 2024-11-21T08:15:08.737Z 
-│                        ├ [14] ╭ VulnerabilityID : CVE-2023-39319 
+│                        ├ [13] ╭ VulnerabilityID : CVE-2023-39319 
 │                        │      ├ PkgID           : stdlib@v1.20.5 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.20.5 
@@ -8962,7 +8861,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ amazon     : 3 
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
@@ -9010,7 +8909,7 @@
 │                        │      │                  ╰ [22]: https://www.cve.org/CVERecord?id=CVE-2023-39319 
 │                        │      ├ PublishedDate   : 2023-09-08T17:15:27.91Z 
 │                        │      ╰ LastModifiedDate: 2024-11-21T08:15:08.89Z 
-│                        ├ [15] ╭ VulnerabilityID : CVE-2023-39326 
+│                        ├ [14] ╭ VulnerabilityID : CVE-2023-39326 
 │                        │      ├ PkgID           : stdlib@v1.20.5 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.20.5 
@@ -9086,7 +8985,7 @@
 │                        │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2023-39326 
 │                        │      ├ PublishedDate   : 2023-12-06T17:15:07.147Z 
 │                        │      ╰ LastModifiedDate: 2024-11-21T08:15:09.89Z 
-│                        ├ [16] ╭ VulnerabilityID : CVE-2023-45284 
+│                        ├ [15] ╭ VulnerabilityID : CVE-2023-45284 
 │                        │      ├ PkgID           : stdlib@v1.20.5 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.20.5 
@@ -9131,7 +9030,7 @@
 │                        │      │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2023-2186 
 │                        │      ├ PublishedDate   : 2023-11-09T17:15:08.813Z 
 │                        │      ╰ LastModifiedDate: 2024-11-21T08:26:41.737Z 
-│                        ├ [17] ╭ VulnerabilityID : CVE-2023-45289 
+│                        ├ [16] ╭ VulnerabilityID : CVE-2023-45289 
 │                        │      ├ PkgID           : stdlib@v1.20.5 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.20.5 
@@ -9213,7 +9112,7 @@
 │                        │      │                  ╰ [29]: https://www.cve.org/CVERecord?id=CVE-2023-45289 
 │                        │      ├ PublishedDate   : 2024-03-05T23:15:07.137Z 
 │                        │      ╰ LastModifiedDate: 2024-11-21T08:26:42.62Z 
-│                        ├ [18] ╭ VulnerabilityID : CVE-2023-45290 
+│                        ├ [17] ╭ VulnerabilityID : CVE-2023-45290 
 │                        │      ├ PkgID           : stdlib@v1.20.5 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.20.5 
@@ -9295,7 +9194,7 @@
 │                        │      │                  ╰ [26]: https://www.cve.org/CVERecord?id=CVE-2023-45290 
 │                        │      ├ PublishedDate   : 2024-03-05T23:15:07.21Z 
 │                        │      ╰ LastModifiedDate: 2024-11-21T08:26:42.853Z 
-│                        ├ [19] ╭ VulnerabilityID : CVE-2024-24783 
+│                        ├ [18] ╭ VulnerabilityID : CVE-2024-24783 
 │                        │      ├ PkgID           : stdlib@v1.20.5 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.20.5 
@@ -9379,7 +9278,7 @@
 │                        │      │                  ╰ [30]: https://www.cve.org/CVERecord?id=CVE-2024-24783 
 │                        │      ├ PublishedDate   : 2024-03-05T23:15:07.683Z 
 │                        │      ╰ LastModifiedDate: 2024-11-21T08:59:41.62Z 
-│                        ├ [20] ╭ VulnerabilityID : CVE-2024-24784 
+│                        ├ [19] ╭ VulnerabilityID : CVE-2024-24784 
 │                        │      ├ PkgID           : stdlib@v1.20.5 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.20.5 
@@ -9473,7 +9372,7 @@
 │                        │      │                  ╰ [40]: https://www.cve.org/CVERecord?id=CVE-2024-24784 
 │                        │      ├ PublishedDate   : 2024-03-05T23:15:07.733Z 
 │                        │      ╰ LastModifiedDate: 2024-11-21T08:59:41.82Z 
-│                        ├ [21] ╭ VulnerabilityID : CVE-2024-24785 
+│                        ├ [20] ╭ VulnerabilityID : CVE-2024-24785 
 │                        │      ├ PkgID           : stdlib@v1.20.5 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.20.5 
@@ -9564,7 +9463,7 @@
 │                        │      │                  ╰ [38]: https://www.cve.org/CVERecord?id=CVE-2024-24785 
 │                        │      ├ PublishedDate   : 2024-03-05T23:15:07.777Z 
 │                        │      ╰ LastModifiedDate: 2025-03-14T02:15:13.167Z 
-│                        ├ [22] ╭ VulnerabilityID : CVE-2024-24789 
+│                        ├ [21] ╭ VulnerabilityID : CVE-2024-24789 
 │                        │      ├ PkgID           : stdlib@v1.20.5 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.20.5 
@@ -9652,7 +9551,7 @@
 │                        │      │                  ╰ [30]: https://www.cve.org/CVERecord?id=CVE-2024-24789 
 │                        │      ├ PublishedDate   : 2024-06-05T16:15:10.47Z 
 │                        │      ╰ LastModifiedDate: 2025-01-31T15:15:12.74Z 
-│                        ├ [23] ╭ VulnerabilityID : CVE-2024-24791 
+│                        ├ [22] ╭ VulnerabilityID : CVE-2024-24791 
 │                        │      ├ PkgID           : stdlib@v1.20.5 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.20.5 
@@ -9735,7 +9634,7 @@
 │                        │      │                  ╰ [27]: https://www.cve.org/CVERecord?id=CVE-2024-24791 
 │                        │      ├ PublishedDate   : 2024-07-02T22:15:04.833Z 
 │                        │      ╰ LastModifiedDate: 2024-11-21T08:59:43.013Z 
-│                        ├ [24] ╭ VulnerabilityID : CVE-2024-34155 
+│                        ├ [23] ╭ VulnerabilityID : CVE-2024-34155 
 │                        │      ├ PkgID           : stdlib@v1.20.5 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.20.5 
@@ -9815,7 +9714,7 @@
 │                        │      │                  ╰ [33]: https://www.cve.org/CVERecord?id=CVE-2024-34155 
 │                        │      ├ PublishedDate   : 2024-09-06T21:15:11.947Z 
 │                        │      ╰ LastModifiedDate: 2024-11-21T09:18:12.633Z 
-│                        ├ [25] ╭ VulnerabilityID : CVE-2024-34158 
+│                        ├ [24] ╭ VulnerabilityID : CVE-2024-34158 
 │                        │      ├ PkgID           : stdlib@v1.20.5 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.20.5 
@@ -9897,7 +9796,7 @@
 │                        │      │                  ╰ [33]: https://www.cve.org/CVERecord?id=CVE-2024-34158 
 │                        │      ├ PublishedDate   : 2024-09-06T21:15:12.083Z 
 │                        │      ╰ LastModifiedDate: 2024-11-21T09:18:13.03Z 
-│                        ├ [26] ╭ VulnerabilityID : CVE-2024-45336 
+│                        ├ [25] ╭ VulnerabilityID : CVE-2024-45336 
 │                        │      ├ PkgID           : stdlib@v1.20.5 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.20.5 
@@ -9949,7 +9848,7 @@
 │                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-45336 
 │                        │      ├ PublishedDate   : 2025-01-28T02:15:28.807Z 
 │                        │      ╰ LastModifiedDate: 2025-02-21T18:15:17.4Z 
-│                        ├ [27] ╭ VulnerabilityID : CVE-2024-45341 
+│                        ├ [26] ╭ VulnerabilityID : CVE-2024-45341 
 │                        │      ├ PkgID           : stdlib@v1.20.5 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.20.5 
@@ -9997,7 +9896,7 @@
 │                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-45341 
 │                        │      ├ PublishedDate   : 2025-01-28T02:15:29.147Z 
 │                        │      ╰ LastModifiedDate: 2025-02-21T18:15:17.96Z 
-│                        ╰ [28] ╭ VulnerabilityID : CVE-2025-22866 
+│                        ╰ [27] ╭ VulnerabilityID : CVE-2025-22866 
 │                               ├ PkgID           : stdlib@v1.20.5 
 │                               ├ PkgName         : stdlib 
 │                               ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.20.5 
@@ -10093,58 +9992,7 @@
 ├ [7]  ╭ Target         : usr/bin/kubectl 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : gobinary 
-│      ╰ Vulnerabilities ╭ [0] ╭ VulnerabilityID : CVE-2024-45338 
-│                        │     ├ PkgID           : golang.org/x/net@v0.30.0 
-│                        │     ├ PkgName         : golang.org/x/net 
-│                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/golang.org/x/net@v0.30.0 
-│                        │     │                  ╰ UID : 49cea3404592705a 
-│                        │     ├ InstalledVersion: v0.30.0 
-│                        │     ├ FixedVersion    : 0.33.0 
-│                        │     ├ Status          : fixed 
-│                        │     ├ Layer            ╭ Digest: sha256:1b189da4627bf6df21dabd18b0890c64e78c3231b1b2
-│                        │     │                  │         ab99049461fac5c89d85 
-│                        │     │                  ╰ DiffID: sha256:322a397ce18131fa8ddb119c4fc51c86347f5c059ebb
-│                        │     │                            477082b0b222d33b8344 
-│                        │     ├ SeveritySource  : ghsa 
-│                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-45338 
-│                        │     ├ DataSource       ╭ ID  : ghsa 
-│                        │     │                  ├ Name: GitHub Security Advisory Go 
-│                        │     │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+e
-│                        │     │                          cosystem%3Ago 
-│                        │     ├ Title           : golang.org/x/net/html: Non-linear parsing of
-│                        │     │                   case-insensitive content in golang.org/x/net/html 
-│                        │     ├ Description     : An attacker can craft an input to the Parse functions that
-│                        │     │                   would be processed non-linearly with respect to its length,
-│                        │     │                   resulting in extremely slow parsing. This could cause a
-│                        │     │                   denial of service. 
-│                        │     ├ Severity        : HIGH 
-│                        │     ├ CweIDs           ─ [0]: CWE-1333 
-│                        │     ├ VendorSeverity   ╭ amazon     : 3 
-│                        │     │                  ├ azure      : 3 
-│                        │     │                  ├ cbl-mariner: 3 
-│                        │     │                  ├ ghsa       : 3 
-│                        │     │                  ├ redhat     : 3 
-│                        │     │                  ╰ ubuntu     : 2 
-│                        │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
-│                        │     │                           │           /A:H 
-│                        │     │                           ╰ V3Score : 7.5 
-│                        │     ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2024-45338 
-│                        │     │                  ├ [1] : https://cs.opensource.google/go/x/net 
-│                        │     │                  ├ [2] : https://github.com/golang/go/issues/70906 
-│                        │     │                  ├ [3] : https://go-review.googlesource.com/c/net/+/637536 
-│                        │     │                  ├ [4] : https://go.dev/cl/637536 
-│                        │     │                  ├ [5] : https://go.dev/issue/70906 
-│                        │     │                  ├ [6] : https://groups.google.com/g/golang-announce/c/wSCRmFn
-│                        │     │                  │       NmPA/m/Lvcd0mRMAwAJ 
-│                        │     │                  ├ [7] : https://nvd.nist.gov/vuln/detail/CVE-2024-45338 
-│                        │     │                  ├ [8] : https://pkg.go.dev/vuln/GO-2024-3333 
-│                        │     │                  ├ [9] : https://security.netapp.com/advisory/ntap-20250221-00
-│                        │     │                  │       01/ 
-│                        │     │                  ├ [10]: https://ubuntu.com/security/notices/USN-7197-1 
-│                        │     │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2024-45338 
-│                        │     ├ PublishedDate   : 2024-12-18T21:15:08.173Z 
-│                        │     ╰ LastModifiedDate: 2025-02-21T18:15:17.717Z 
-│                        ╰ [1] ╭ VulnerabilityID : CVE-2025-22870 
+│      ╰ Vulnerabilities ─ [0] ╭ VulnerabilityID : CVE-2025-22870 
 │                              ├ PkgID           : golang.org/x/net@v0.30.0 
 │                              ├ PkgName         : golang.org/x/net 
 │                              ├ PkgIdentifier    ╭ PURL: pkg:golang/golang.org/x/net@v0.30.0 
@@ -10387,58 +10235,7 @@
 │                        │     │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2024-45337 
 │                        │     ├ PublishedDate   : 2024-12-12T02:02:07.97Z 
 │                        │     ╰ LastModifiedDate: 2025-02-18T21:15:22.187Z 
-│                        ├ [2] ╭ VulnerabilityID : CVE-2024-45338 
-│                        │     ├ PkgID           : golang.org/x/net@v0.26.0 
-│                        │     ├ PkgName         : golang.org/x/net 
-│                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/golang.org/x/net@v0.26.0 
-│                        │     │                  ╰ UID : d33d648a9a9d02d2 
-│                        │     ├ InstalledVersion: v0.26.0 
-│                        │     ├ FixedVersion    : 0.33.0 
-│                        │     ├ Status          : fixed 
-│                        │     ├ Layer            ╭ Digest: sha256:1b189da4627bf6df21dabd18b0890c64e78c3231b1b2
-│                        │     │                  │         ab99049461fac5c89d85 
-│                        │     │                  ╰ DiffID: sha256:322a397ce18131fa8ddb119c4fc51c86347f5c059ebb
-│                        │     │                            477082b0b222d33b8344 
-│                        │     ├ SeveritySource  : ghsa 
-│                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-45338 
-│                        │     ├ DataSource       ╭ ID  : ghsa 
-│                        │     │                  ├ Name: GitHub Security Advisory Go 
-│                        │     │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+e
-│                        │     │                          cosystem%3Ago 
-│                        │     ├ Title           : golang.org/x/net/html: Non-linear parsing of
-│                        │     │                   case-insensitive content in golang.org/x/net/html 
-│                        │     ├ Description     : An attacker can craft an input to the Parse functions that
-│                        │     │                   would be processed non-linearly with respect to its length,
-│                        │     │                   resulting in extremely slow parsing. This could cause a
-│                        │     │                   denial of service. 
-│                        │     ├ Severity        : HIGH 
-│                        │     ├ CweIDs           ─ [0]: CWE-1333 
-│                        │     ├ VendorSeverity   ╭ amazon     : 3 
-│                        │     │                  ├ azure      : 3 
-│                        │     │                  ├ cbl-mariner: 3 
-│                        │     │                  ├ ghsa       : 3 
-│                        │     │                  ├ redhat     : 3 
-│                        │     │                  ╰ ubuntu     : 2 
-│                        │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
-│                        │     │                           │           /A:H 
-│                        │     │                           ╰ V3Score : 7.5 
-│                        │     ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2024-45338 
-│                        │     │                  ├ [1] : https://cs.opensource.google/go/x/net 
-│                        │     │                  ├ [2] : https://github.com/golang/go/issues/70906 
-│                        │     │                  ├ [3] : https://go-review.googlesource.com/c/net/+/637536 
-│                        │     │                  ├ [4] : https://go.dev/cl/637536 
-│                        │     │                  ├ [5] : https://go.dev/issue/70906 
-│                        │     │                  ├ [6] : https://groups.google.com/g/golang-announce/c/wSCRmFn
-│                        │     │                  │       NmPA/m/Lvcd0mRMAwAJ 
-│                        │     │                  ├ [7] : https://nvd.nist.gov/vuln/detail/CVE-2024-45338 
-│                        │     │                  ├ [8] : https://pkg.go.dev/vuln/GO-2024-3333 
-│                        │     │                  ├ [9] : https://security.netapp.com/advisory/ntap-20250221-00
-│                        │     │                  │       01/ 
-│                        │     │                  ├ [10]: https://ubuntu.com/security/notices/USN-7197-1 
-│                        │     │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2024-45338 
-│                        │     ├ PublishedDate   : 2024-12-18T21:15:08.173Z 
-│                        │     ╰ LastModifiedDate: 2025-02-21T18:15:17.717Z 
-│                        ├ [3] ╭ VulnerabilityID : CVE-2025-22870 
+│                        ├ [2] ╭ VulnerabilityID : CVE-2025-22870 
 │                        │     ├ PkgID           : golang.org/x/net@v0.26.0 
 │                        │     ├ PkgName         : golang.org/x/net 
 │                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/golang.org/x/net@v0.26.0 
@@ -10479,7 +10276,7 @@
 │                        │     │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-22870 
 │                        │     ├ PublishedDate   : 2025-03-12T19:15:38.31Z 
 │                        │     ╰ LastModifiedDate: 2025-03-12T19:15:38.31Z 
-│                        ╰ [4] ╭ VulnerabilityID : GHSA-xr7q-jx4m-x55m 
+│                        ╰ [3] ╭ VulnerabilityID : GHSA-xr7q-jx4m-x55m 
 │                              ├ PkgID           : google.golang.org/grpc@v1.64.0 
 │                              ├ PkgName         : google.golang.org/grpc 
 │                              ├ PkgIdentifier    ╭ PURL: pkg:golang/google.golang.org/grpc@v1.64.0 
