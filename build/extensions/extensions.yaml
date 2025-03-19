@@ -4,3 +4,4 @@ extensions:
 - redhat.vscode-xml
 - ms-azuretools.vscode-docker
 - ms-kubernetes-tools.vscode-kubernetes-tools
+- harrydowning.yaml-embedded-languages
