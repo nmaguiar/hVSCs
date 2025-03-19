@@ -136,7 +136,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2213166
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-34969
     - https://errata.almalinux.org/9/ALSA-2023-4569.html
-    - https://errata.rockylinux.org/RLSA-2023:4498
+    - https://errata.rockylinux.org/RLSA-2023:4569
     - https://gitlab.freedesktop.org/dbus/dbus/-/issues/457
     - https://linux.oracle.com/cve/CVE-2023-34969.html
     - https://linux.oracle.com/errata/ELSA-2023-4569.html
@@ -192,7 +192,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2213166
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-34969
     - https://errata.almalinux.org/9/ALSA-2023-4569.html
-    - https://errata.rockylinux.org/RLSA-2023:4498
+    - https://errata.rockylinux.org/RLSA-2023:4569
     - https://gitlab.freedesktop.org/dbus/dbus/-/issues/457
     - https://linux.oracle.com/cve/CVE-2023-34969.html
     - https://linux.oracle.com/errata/ELSA-2023-4569.html
@@ -1262,7 +1262,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2213166
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-34969
     - https://errata.almalinux.org/9/ALSA-2023-4569.html
-    - https://errata.rockylinux.org/RLSA-2023:4498
+    - https://errata.rockylinux.org/RLSA-2023:4569
     - https://gitlab.freedesktop.org/dbus/dbus/-/issues/457
     - https://linux.oracle.com/cve/CVE-2023-34969.html
     - https://linux.oracle.com/errata/ELSA-2023-4569.html
@@ -1274,6 +1274,176 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-34969
     PublishedDate: '2023-06-08T03:15:08.97Z'
     LastModifiedDate: '2024-11-21T08:07:44.607Z'
+  - VulnerabilityID: CVE-2025-1352
+    PkgID: libelf1@0.186-1build1
+    PkgName: libelf1
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libelf1@0.186-1build1?arch=amd64&distro=ubuntu-22.04
+      UID: c6eff1938e7c14c6
+    InstalledVersion: 0.186-1build1
+    Status: affected
+    Layer:
+      Digest: sha256:516731828ccc7b45bf90ae1c4a00205ac28ae0f1ac84b928f2aa2946b319a0b5
+      DiffID: sha256:c6b06b96654ebdbe3a6eb2b856daec8e0e9dc22e136d414826e1cf55e98d270b
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-1352
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'elfutils: GNU elfutils eu-readelf libdw_alloc.c __libdw_thread_tail memory corruption'
+    Description: A vulnerability has been found in GNU elfutils 0.192 and classified as critical. This vulnerability affects the function __libdw_thread_tail in the library libdw_alloc.c of the component eu-readelf. The manipulation of the argument w leads to memory corruption. The attack can be initiated remotely. The complexity of an attack is rather high. The exploitation appears to be difficult. The exploit has been disclosed to the public and may be used. The name of the patch is 2636426a091bd6c6f7f02e49ab20d4cdc6bfc753. It is recommended to apply a patch to fix this issue.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-119
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:L/A:L
+        V3Score: 5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-1352
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-1352
+    - https://sourceware.org/bugzilla/attachment.cgi?id=15923
+    - https://sourceware.org/bugzilla/show_bug.cgi?id=32650
+    - https://sourceware.org/bugzilla/show_bug.cgi?id=32650#c2
+    - https://vuldb.com/?ctiid.295960
+    - https://vuldb.com/?id.295960
+    - https://vuldb.com/?submit.495965
+    - https://www.cve.org/CVERecord?id=CVE-2025-1352
+    - https://www.gnu.org/
+    PublishedDate: '2025-02-16T15:15:09.133Z'
+    LastModifiedDate: '2025-02-16T15:15:09.133Z'
+  - VulnerabilityID: CVE-2025-1372
+    PkgID: libelf1@0.186-1build1
+    PkgName: libelf1
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libelf1@0.186-1build1?arch=amd64&distro=ubuntu-22.04
+      UID: c6eff1938e7c14c6
+    InstalledVersion: 0.186-1build1
+    Status: affected
+    Layer:
+      Digest: sha256:516731828ccc7b45bf90ae1c4a00205ac28ae0f1ac84b928f2aa2946b319a0b5
+      DiffID: sha256:c6b06b96654ebdbe3a6eb2b856daec8e0e9dc22e136d414826e1cf55e98d270b
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-1372
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'elfutils: GNU elfutils eu-readelf readelf.c print_string_section buffer overflow'
+    Description: A vulnerability was found in GNU elfutils 0.192. It has been declared as critical. Affected by this vulnerability is the function dump_data_section/print_string_section of the file readelf.c of the component eu-readelf. The manipulation of the argument z/x leads to buffer overflow. An attack has to be approached locally. The exploit has been disclosed to the public and may be used. The identifier of the patch is 73db9d2021cab9e23fd734b0a76a612d52a6f1db. It is recommended to apply a patch to fix this issue.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-119
+    - CWE-120
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L
+        V3Score: 5.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-1372
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-1372
+    - https://sourceware.org/bugzilla/attachment.cgi?id=15927
+    - https://sourceware.org/bugzilla/show_bug.cgi?id=32656
+    - https://sourceware.org/bugzilla/show_bug.cgi?id=32656#c3
+    - https://sourceware.org/bugzilla/show_bug.cgi?id=32657
+    - https://vuldb.com/?ctiid.295981
+    - https://vuldb.com/?id.295981
+    - https://vuldb.com/?submit.496485
+    - https://www.cve.org/CVERecord?id=CVE-2025-1372
+    - https://www.gnu.org/
+    PublishedDate: '2025-02-17T03:15:09.573Z'
+    LastModifiedDate: '2025-02-17T03:15:09.573Z'
+  - VulnerabilityID: CVE-2025-1376
+    PkgID: libelf1@0.186-1build1
+    PkgName: libelf1
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libelf1@0.186-1build1?arch=amd64&distro=ubuntu-22.04
+      UID: c6eff1938e7c14c6
+    InstalledVersion: 0.186-1build1
+    Status: affected
+    Layer:
+      Digest: sha256:516731828ccc7b45bf90ae1c4a00205ac28ae0f1ac84b928f2aa2946b319a0b5
+      DiffID: sha256:c6b06b96654ebdbe3a6eb2b856daec8e0e9dc22e136d414826e1cf55e98d270b
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-1376
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'elfutils: GNU elfutils eu-strip elf_strptr.c elf_strptr denial of service'
+    Description: A vulnerability classified as problematic was found in GNU elfutils 0.192. This vulnerability affects the function elf_strptr in the library /libelf/elf_strptr.c of the component eu-strip. The manipulation leads to denial of service. It is possible to launch the attack on the local host. The complexity of an attack is rather high. The exploitation appears to be difficult. The exploit has been disclosed to the public and may be used. The name of the patch is b16f441cca0a4841050e3215a9f120a6d8aea918. It is recommended to apply a patch to fix this issue.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-404
+    VendorSeverity:
+      redhat: 1
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 2.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-1376
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-1376
+    - https://sourceware.org/bugzilla/attachment.cgi?id=15940
+    - https://sourceware.org/bugzilla/show_bug.cgi?id=32672
+    - https://sourceware.org/bugzilla/show_bug.cgi?id=32672#c3
+    - https://vuldb.com/?ctiid.295984
+    - https://vuldb.com/?id.295984
+    - https://vuldb.com/?submit.497538
+    - https://www.cve.org/CVERecord?id=CVE-2025-1376
+    - https://www.gnu.org/
+    PublishedDate: '2025-02-17T05:15:09.807Z'
+    LastModifiedDate: '2025-02-17T05:15:09.807Z'
+  - VulnerabilityID: CVE-2025-1377
+    PkgID: libelf1@0.186-1build1
+    PkgName: libelf1
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libelf1@0.186-1build1?arch=amd64&distro=ubuntu-22.04
+      UID: c6eff1938e7c14c6
+    InstalledVersion: 0.186-1build1
+    Status: affected
+    Layer:
+      Digest: sha256:516731828ccc7b45bf90ae1c4a00205ac28ae0f1ac84b928f2aa2946b319a0b5
+      DiffID: sha256:c6b06b96654ebdbe3a6eb2b856daec8e0e9dc22e136d414826e1cf55e98d270b
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-1377
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'elfutils: GNU elfutils eu-strip strip.c gelf_getsymshndx denial of service'
+    Description: A vulnerability, which was classified as problematic, has been found in GNU elfutils 0.192. This issue affects the function gelf_getsymshndx of the file strip.c of the component eu-strip. The manipulation leads to denial of service. The attack needs to be approached locally. The exploit has been disclosed to the public and may be used. The identifier of the patch is fbf1df9ca286de3323ae541973b08449f8d03aba. It is recommended to apply a patch to fix this issue.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-404
+    VendorSeverity:
+      redhat: 1
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 3.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-1377
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-1377
+    - https://sourceware.org/bugzilla/attachment.cgi?id=15941
+    - https://sourceware.org/bugzilla/show_bug.cgi?id=32673
+    - https://sourceware.org/bugzilla/show_bug.cgi?id=32673#c2
+    - https://vuldb.com/?ctiid.295985
+    - https://vuldb.com/?id.295985
+    - https://vuldb.com/?submit.497539
+    - https://www.cve.org/CVERecord?id=CVE-2025-1377
+    - https://www.gnu.org/
+    PublishedDate: '2025-02-17T05:15:10.09Z'
+    LastModifiedDate: '2025-02-17T05:15:10.09Z'
   - VulnerabilityID: CVE-2025-23022
     PkgID: libfreetype6@2.11.1+dfsg-1ubuntu0.2
     PkgName: libfreetype6
@@ -1322,7 +1492,8 @@
       PURL: pkg:deb/ubuntu/libfreetype6@2.11.1%2Bdfsg-1ubuntu0.2?arch=amd64&distro=ubuntu-22.04
       UID: 8ae6d93976aa11c2
     InstalledVersion: 2.11.1+dfsg-1ubuntu0.2
-    Status: affected
+    FixedVersion: 2.11.1+dfsg-1ubuntu0.3
+    Status: fixed
     Layer:
       Digest: sha256:516731828ccc7b45bf90ae1c4a00205ac28ae0f1ac84b928f2aa2946b319a0b5
       DiffID: sha256:c6b06b96654ebdbe3a6eb2b856daec8e0e9dc22e136d414826e1cf55e98d270b
@@ -1358,6 +1529,8 @@
     - http://www.openwall.com/lists/oss-security/2025/03/14/4
     - https://access.redhat.com/security/cve/CVE-2025-27363
     - https://nvd.nist.gov/vuln/detail/CVE-2025-27363
+    - https://ubuntu.com/security/notices/USN-7352-1
+    - https://ubuntu.com/security/notices/USN-7352-2
     - https://www.cve.org/CVERecord?id=CVE-2025-27363
     - https://www.facebook.com/security/advisories/cve-2025-27363
     PublishedDate: '2025-03-11T14:15:25.427Z'
@@ -1586,6 +1759,7 @@
     Description: A flaw was found in krb5. With incremental propagation enabled, an authenticated attacker can cause kadmind to write beyond the end of the mapped region for the iprop log file. This issue can trigger a process crash and lead to a denial of service.
     Severity: MEDIUM
     VendorSeverity:
+      alma: 2
       oracle-oval: 2
       redhat: 2
       ubuntu: 2
@@ -1594,7 +1768,10 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
         V3Score: 6.5
     References:
+    - https://access.redhat.com/errata/RHSA-2025:2722
     - https://access.redhat.com/security/cve/CVE-2025-24528
+    - https://bugzilla.redhat.com/2342796
+    - https://errata.almalinux.org/8/ALSA-2025-2722.html
     - https://github.com/krb5/krb5/commit/78ceba024b64d49612375be4a12d1c066b0bfbd0
     - https://linux.oracle.com/cve/CVE-2025-24528.html
     - https://linux.oracle.com/errata/ELSA-2025-2722.html
@@ -1739,6 +1916,7 @@
     Description: A flaw was found in krb5. With incremental propagation enabled, an authenticated attacker can cause kadmind to write beyond the end of the mapped region for the iprop log file. This issue can trigger a process crash and lead to a denial of service.
     Severity: MEDIUM
     VendorSeverity:
+      alma: 2
       oracle-oval: 2
       redhat: 2
       ubuntu: 2
@@ -1747,7 +1925,10 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
         V3Score: 6.5
     References:
+    - https://access.redhat.com/errata/RHSA-2025:2722
     - https://access.redhat.com/security/cve/CVE-2025-24528
+    - https://bugzilla.redhat.com/2342796
+    - https://errata.almalinux.org/8/ALSA-2025-2722.html
     - https://github.com/krb5/krb5/commit/78ceba024b64d49612375be4a12d1c066b0bfbd0
     - https://linux.oracle.com/cve/CVE-2025-24528.html
     - https://linux.oracle.com/errata/ELSA-2025-2722.html
@@ -1892,6 +2073,7 @@
     Description: A flaw was found in krb5. With incremental propagation enabled, an authenticated attacker can cause kadmind to write beyond the end of the mapped region for the iprop log file. This issue can trigger a process crash and lead to a denial of service.
     Severity: MEDIUM
     VendorSeverity:
+      alma: 2
       oracle-oval: 2
       redhat: 2
       ubuntu: 2
@@ -1900,7 +2082,10 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
         V3Score: 6.5
     References:
+    - https://access.redhat.com/errata/RHSA-2025:2722
     - https://access.redhat.com/security/cve/CVE-2025-24528
+    - https://bugzilla.redhat.com/2342796
+    - https://errata.almalinux.org/8/ALSA-2025-2722.html
     - https://github.com/krb5/krb5/commit/78ceba024b64d49612375be4a12d1c066b0bfbd0
     - https://linux.oracle.com/cve/CVE-2025-24528.html
     - https://linux.oracle.com/errata/ELSA-2025-2722.html
@@ -2045,6 +2230,7 @@
     Description: A flaw was found in krb5. With incremental propagation enabled, an authenticated attacker can cause kadmind to write beyond the end of the mapped region for the iprop log file. This issue can trigger a process crash and lead to a denial of service.
     Severity: MEDIUM
     VendorSeverity:
+      alma: 2
       oracle-oval: 2
       redhat: 2
       ubuntu: 2
@@ -2053,7 +2239,10 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
         V3Score: 6.5
     References:
+    - https://access.redhat.com/errata/RHSA-2025:2722
     - https://access.redhat.com/security/cve/CVE-2025-24528
+    - https://bugzilla.redhat.com/2342796
+    - https://errata.almalinux.org/8/ALSA-2025-2722.html
     - https://github.com/krb5/krb5/commit/78ceba024b64d49612375be4a12d1c066b0bfbd0
     - https://linux.oracle.com/cve/CVE-2025-24528.html
     - https://linux.oracle.com/errata/ELSA-2025-2722.html
@@ -3264,6 +3453,8 @@
       process must either be located in the same physical computer or must
       have a very fast network connection with low latency. For that reason
       the severity of this vulnerability is Low.
+
+      The FIPS modules in 3.4, 3.3, 3.2, 3.1 and 3.0 are affected by this issue.
     Severity: LOW
     CweIDs:
     - CWE-385
@@ -3293,7 +3484,7 @@
     - https://ubuntu.com/security/notices/USN-7278-1
     - https://www.cve.org/CVERecord?id=CVE-2024-13176
     PublishedDate: '2025-01-20T14:15:26.247Z'
-    LastModifiedDate: '2025-01-27T21:15:11.907Z'
+    LastModifiedDate: '2025-03-18T08:15:10.2Z'
   - VulnerabilityID: CVE-2024-41996
     PkgID: libssl3@3.0.2-0ubuntu1.18
     PkgName: libssl3
@@ -3791,6 +3982,7 @@
     - CWE-416
     VendorSeverity:
       alma: 3
+      amazon: 3
       azure: 3
       cbl-mariner: 3
       oracle-oval: 3
@@ -3841,6 +4033,7 @@
     - CWE-121
     VendorSeverity:
       alma: 3
+      amazon: 3
       azure: 3
       cbl-mariner: 3
       oracle-oval: 3
@@ -4054,44 +4247,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2022-4899
     PublishedDate: '2023-03-31T20:15:07.213Z'
     LastModifiedDate: '2025-02-18T18:15:14.023Z'
-  - VulnerabilityID: CVE-2024-56433
-    PkgID: login@1:4.8.1-2ubuntu2.2
-    PkgName: login
-    PkgIdentifier:
-      PURL: pkg:deb/ubuntu/login@4.8.1-2ubuntu2.2?arch=amd64&distro=ubuntu-22.04&epoch=1
-      UID: 30c6f401b0bfd862
-    InstalledVersion: 1:4.8.1-2ubuntu2.2
-    Status: affected
-    Layer:
-      Digest: sha256:516731828ccc7b45bf90ae1c4a00205ac28ae0f1ac84b928f2aa2946b319a0b5
-      DiffID: sha256:c6b06b96654ebdbe3a6eb2b856daec8e0e9dc22e136d414826e1cf55e98d270b
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-56433
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'shadow-utils: Default subordinate ID configuration in /etc/login.defs could lead to compromise'
-    Description: 'shadow-utils (aka shadow) 4.4 through 4.17.0 establishes a default /etc/subuid behavior (e.g., uid 100000 through 165535 for the first user account) that can realistically conflict with the uids of users defined on locally administered networks, potentially leading to account takeover, e.g., by leveraging newuidmap for access to an NFS home directory (or same-host resources in the case of remote logins by these local network users). NOTE: it may also be argued that system administrators should not have assigned uids, within local networks, that are within the range that can occur in /etc/subuid.'
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-1188
-    VendorSeverity:
-      redhat: 1
-      ubuntu: 2
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:L/A:N
-        V3Score: 3.6
-    References:
-    - https://access.redhat.com/security/cve/CVE-2024-56433
-    - https://github.com/shadow-maint/shadow/blob/e2512d5741d4a44bdd81a8c2d0029b6222728cf0/etc/login.defs#L238-L241
-    - https://github.com/shadow-maint/shadow/issues/1157
-    - https://github.com/shadow-maint/shadow/releases/tag/4.4
-    - https://nvd.nist.gov/vuln/detail/CVE-2024-56433
-    - https://www.cve.org/CVERecord?id=CVE-2024-56433
-    PublishedDate: '2024-12-26T09:15:07.267Z'
-    LastModifiedDate: '2024-12-26T09:15:07.267Z'
   - VulnerabilityID: CVE-2023-29383
     PkgID: login@1:4.8.1-2ubuntu2.2
     PkgName: login
@@ -4138,6 +4293,44 @@
     - https://www.trustwave.com/en-us/resources/security-resources/security-advisories/?fid=31797
     PublishedDate: '2023-04-14T22:15:07.68Z'
     LastModifiedDate: '2025-02-06T22:15:35.057Z'
+  - VulnerabilityID: CVE-2024-56433
+    PkgID: login@1:4.8.1-2ubuntu2.2
+    PkgName: login
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/login@4.8.1-2ubuntu2.2?arch=amd64&distro=ubuntu-22.04&epoch=1
+      UID: 30c6f401b0bfd862
+    InstalledVersion: 1:4.8.1-2ubuntu2.2
+    Status: affected
+    Layer:
+      Digest: sha256:516731828ccc7b45bf90ae1c4a00205ac28ae0f1ac84b928f2aa2946b319a0b5
+      DiffID: sha256:c6b06b96654ebdbe3a6eb2b856daec8e0e9dc22e136d414826e1cf55e98d270b
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-56433
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'shadow-utils: Default subordinate ID configuration in /etc/login.defs could lead to compromise'
+    Description: 'shadow-utils (aka shadow) 4.4 through 4.17.0 establishes a default /etc/subuid behavior (e.g., uid 100000 through 165535 for the first user account) that can realistically conflict with the uids of users defined on locally administered networks, potentially leading to account takeover, e.g., by leveraging newuidmap for access to an NFS home directory (or same-host resources in the case of remote logins by these local network users). NOTE: it may also be argued that system administrators should not have assigned uids, within local networks, that are within the range that can occur in /etc/subuid.'
+    Severity: LOW
+    CweIDs:
+    - CWE-1188
+    VendorSeverity:
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:L/A:N
+        V3Score: 3.6
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-56433
+    - https://github.com/shadow-maint/shadow/blob/e2512d5741d4a44bdd81a8c2d0029b6222728cf0/etc/login.defs#L238-L241
+    - https://github.com/shadow-maint/shadow/issues/1157
+    - https://github.com/shadow-maint/shadow/releases/tag/4.4
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-56433
+    - https://www.cve.org/CVERecord?id=CVE-2024-56433
+    PublishedDate: '2024-12-26T09:15:07.267Z'
+    LastModifiedDate: '2024-12-26T09:15:07.267Z'
   - VulnerabilityID: CVE-2023-45918
     PkgID: ncurses-base@6.3-2ubuntu0.1
     PkgName: ncurses-base
@@ -4731,6 +4924,8 @@
       process must either be located in the same physical computer or must
       have a very fast network connection with low latency. For that reason
       the severity of this vulnerability is Low.
+
+      The FIPS modules in 3.4, 3.3, 3.2, 3.1 and 3.0 are affected by this issue.
     Severity: LOW
     CweIDs:
     - CWE-385
@@ -4760,7 +4955,7 @@
     - https://ubuntu.com/security/notices/USN-7278-1
     - https://www.cve.org/CVERecord?id=CVE-2024-13176
     PublishedDate: '2025-01-20T14:15:26.247Z'
-    LastModifiedDate: '2025-01-27T21:15:11.907Z'
+    LastModifiedDate: '2025-03-18T08:15:10.2Z'
   - VulnerabilityID: CVE-2024-41996
     PkgID: openssl@3.0.2-0ubuntu1.18
     PkgName: openssl
@@ -4881,44 +5076,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-9143
     PublishedDate: '2024-10-16T17:15:18.13Z'
     LastModifiedDate: '2024-11-21T09:54:04.817Z'
-  - VulnerabilityID: CVE-2024-56433
-    PkgID: passwd@1:4.8.1-2ubuntu2.2
-    PkgName: passwd
-    PkgIdentifier:
-      PURL: pkg:deb/ubuntu/passwd@4.8.1-2ubuntu2.2?arch=amd64&distro=ubuntu-22.04&epoch=1
-      UID: d35060d40b70443
-    InstalledVersion: 1:4.8.1-2ubuntu2.2
-    Status: affected
-    Layer:
-      Digest: sha256:516731828ccc7b45bf90ae1c4a00205ac28ae0f1ac84b928f2aa2946b319a0b5
-      DiffID: sha256:c6b06b96654ebdbe3a6eb2b856daec8e0e9dc22e136d414826e1cf55e98d270b
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-56433
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'shadow-utils: Default subordinate ID configuration in /etc/login.defs could lead to compromise'
-    Description: 'shadow-utils (aka shadow) 4.4 through 4.17.0 establishes a default /etc/subuid behavior (e.g., uid 100000 through 165535 for the first user account) that can realistically conflict with the uids of users defined on locally administered networks, potentially leading to account takeover, e.g., by leveraging newuidmap for access to an NFS home directory (or same-host resources in the case of remote logins by these local network users). NOTE: it may also be argued that system administrators should not have assigned uids, within local networks, that are within the range that can occur in /etc/subuid.'
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-1188
-    VendorSeverity:
-      redhat: 1
-      ubuntu: 2
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:L/A:N
-        V3Score: 3.6
-    References:
-    - https://access.redhat.com/security/cve/CVE-2024-56433
-    - https://github.com/shadow-maint/shadow/blob/e2512d5741d4a44bdd81a8c2d0029b6222728cf0/etc/login.defs#L238-L241
-    - https://github.com/shadow-maint/shadow/issues/1157
-    - https://github.com/shadow-maint/shadow/releases/tag/4.4
-    - https://nvd.nist.gov/vuln/detail/CVE-2024-56433
-    - https://www.cve.org/CVERecord?id=CVE-2024-56433
-    PublishedDate: '2024-12-26T09:15:07.267Z'
-    LastModifiedDate: '2024-12-26T09:15:07.267Z'
   - VulnerabilityID: CVE-2023-29383
     PkgID: passwd@1:4.8.1-2ubuntu2.2
     PkgName: passwd
@@ -4965,6 +5122,44 @@
     - https://www.trustwave.com/en-us/resources/security-resources/security-advisories/?fid=31797
     PublishedDate: '2023-04-14T22:15:07.68Z'
     LastModifiedDate: '2025-02-06T22:15:35.057Z'
+  - VulnerabilityID: CVE-2024-56433
+    PkgID: passwd@1:4.8.1-2ubuntu2.2
+    PkgName: passwd
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/passwd@4.8.1-2ubuntu2.2?arch=amd64&distro=ubuntu-22.04&epoch=1
+      UID: d35060d40b70443
+    InstalledVersion: 1:4.8.1-2ubuntu2.2
+    Status: affected
+    Layer:
+      Digest: sha256:516731828ccc7b45bf90ae1c4a00205ac28ae0f1ac84b928f2aa2946b319a0b5
+      DiffID: sha256:c6b06b96654ebdbe3a6eb2b856daec8e0e9dc22e136d414826e1cf55e98d270b
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-56433
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'shadow-utils: Default subordinate ID configuration in /etc/login.defs could lead to compromise'
+    Description: 'shadow-utils (aka shadow) 4.4 through 4.17.0 establishes a default /etc/subuid behavior (e.g., uid 100000 through 165535 for the first user account) that can realistically conflict with the uids of users defined on locally administered networks, potentially leading to account takeover, e.g., by leveraging newuidmap for access to an NFS home directory (or same-host resources in the case of remote logins by these local network users). NOTE: it may also be argued that system administrators should not have assigned uids, within local networks, that are within the range that can occur in /etc/subuid.'
+    Severity: LOW
+    CweIDs:
+    - CWE-1188
+    VendorSeverity:
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:L/A:N
+        V3Score: 3.6
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-56433
+    - https://github.com/shadow-maint/shadow/blob/e2512d5741d4a44bdd81a8c2d0029b6222728cf0/etc/login.defs#L238-L241
+    - https://github.com/shadow-maint/shadow/issues/1157
+    - https://github.com/shadow-maint/shadow/releases/tag/4.4
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-56433
+    - https://www.cve.org/CVERecord?id=CVE-2024-56433
+    PublishedDate: '2024-12-26T09:15:07.267Z'
+    LastModifiedDate: '2024-12-26T09:15:07.267Z'
   - VulnerabilityID: CVE-2025-0938
     PkgID: python3.10@3.10.12-1~22.04.8
     PkgName: python3.10
@@ -5241,44 +5436,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-7008
     PublishedDate: '2023-12-23T13:15:07.573Z'
     LastModifiedDate: '2024-11-22T12:15:17.59Z'
-  - VulnerabilityID: CVE-2024-56433
-    PkgID: uidmap@1:4.8.1-2ubuntu2.2
-    PkgName: uidmap
-    PkgIdentifier:
-      PURL: pkg:deb/ubuntu/uidmap@4.8.1-2ubuntu2.2?arch=amd64&distro=ubuntu-22.04&epoch=1
-      UID: 37494cd75f6465cc
-    InstalledVersion: 1:4.8.1-2ubuntu2.2
-    Status: affected
-    Layer:
-      Digest: sha256:516731828ccc7b45bf90ae1c4a00205ac28ae0f1ac84b928f2aa2946b319a0b5
-      DiffID: sha256:c6b06b96654ebdbe3a6eb2b856daec8e0e9dc22e136d414826e1cf55e98d270b
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-56433
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'shadow-utils: Default subordinate ID configuration in /etc/login.defs could lead to compromise'
-    Description: 'shadow-utils (aka shadow) 4.4 through 4.17.0 establishes a default /etc/subuid behavior (e.g., uid 100000 through 165535 for the first user account) that can realistically conflict with the uids of users defined on locally administered networks, potentially leading to account takeover, e.g., by leveraging newuidmap for access to an NFS home directory (or same-host resources in the case of remote logins by these local network users). NOTE: it may also be argued that system administrators should not have assigned uids, within local networks, that are within the range that can occur in /etc/subuid.'
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-1188
-    VendorSeverity:
-      redhat: 1
-      ubuntu: 2
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:L/A:N
-        V3Score: 3.6
-    References:
-    - https://access.redhat.com/security/cve/CVE-2024-56433
-    - https://github.com/shadow-maint/shadow/blob/e2512d5741d4a44bdd81a8c2d0029b6222728cf0/etc/login.defs#L238-L241
-    - https://github.com/shadow-maint/shadow/issues/1157
-    - https://github.com/shadow-maint/shadow/releases/tag/4.4
-    - https://nvd.nist.gov/vuln/detail/CVE-2024-56433
-    - https://www.cve.org/CVERecord?id=CVE-2024-56433
-    PublishedDate: '2024-12-26T09:15:07.267Z'
-    LastModifiedDate: '2024-12-26T09:15:07.267Z'
   - VulnerabilityID: CVE-2023-29383
     PkgID: uidmap@1:4.8.1-2ubuntu2.2
     PkgName: uidmap
@@ -5325,6 +5482,44 @@
     - https://www.trustwave.com/en-us/resources/security-resources/security-advisories/?fid=31797
     PublishedDate: '2023-04-14T22:15:07.68Z'
     LastModifiedDate: '2025-02-06T22:15:35.057Z'
+  - VulnerabilityID: CVE-2024-56433
+    PkgID: uidmap@1:4.8.1-2ubuntu2.2
+    PkgName: uidmap
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/uidmap@4.8.1-2ubuntu2.2?arch=amd64&distro=ubuntu-22.04&epoch=1
+      UID: 37494cd75f6465cc
+    InstalledVersion: 1:4.8.1-2ubuntu2.2
+    Status: affected
+    Layer:
+      Digest: sha256:516731828ccc7b45bf90ae1c4a00205ac28ae0f1ac84b928f2aa2946b319a0b5
+      DiffID: sha256:c6b06b96654ebdbe3a6eb2b856daec8e0e9dc22e136d414826e1cf55e98d270b
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-56433
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'shadow-utils: Default subordinate ID configuration in /etc/login.defs could lead to compromise'
+    Description: 'shadow-utils (aka shadow) 4.4 through 4.17.0 establishes a default /etc/subuid behavior (e.g., uid 100000 through 165535 for the first user account) that can realistically conflict with the uids of users defined on locally administered networks, potentially leading to account takeover, e.g., by leveraging newuidmap for access to an NFS home directory (or same-host resources in the case of remote logins by these local network users). NOTE: it may also be argued that system administrators should not have assigned uids, within local networks, that are within the range that can occur in /etc/subuid.'
+    Severity: LOW
+    CweIDs:
+    - CWE-1188
+    VendorSeverity:
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:L/A:N
+        V3Score: 3.6
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-56433
+    - https://github.com/shadow-maint/shadow/blob/e2512d5741d4a44bdd81a8c2d0029b6222728cf0/etc/login.defs#L238-L241
+    - https://github.com/shadow-maint/shadow/issues/1157
+    - https://github.com/shadow-maint/shadow/releases/tag/4.4
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-56433
+    - https://www.cve.org/CVERecord?id=CVE-2024-56433
+    PublishedDate: '2024-12-26T09:15:07.267Z'
+    LastModifiedDate: '2024-12-26T09:15:07.267Z'
   - VulnerabilityID: CVE-2025-24014
     PkgID: vim@2:8.2.3995-1ubuntu2.22
     PkgName: vim
@@ -5675,7 +5870,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-39325
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-44487
     - https://errata.almalinux.org/9/ALSA-2023-6077.html
-    - https://errata.rockylinux.org/RLSA-2023:5863
+    - https://errata.rockylinux.org/RLSA-2023:6077
     - https://github.com/golang/go/commit/24ae2d927285c697440fdde3ad7f26028354bcf3 [golang- 1.21]
     - https://github.com/golang/go/commit/e175f27f58aa7b9cd4d79607ae65d2cd5baaee68 [golang-1.20]
     - https://github.com/golang/go/issues/63417
@@ -5794,7 +5989,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       azure: 2
       cbl-mariner: 2
       ghsa: 2
@@ -5927,7 +6122,7 @@
     - https://discuss.hashicorp.com/t/hcsec-2023-32-vault-consul-and-boundary-affected-by-http-2-rapid-reset-denial-of-service-vulnerability-cve-2023-44487/59715
     - https://edg.io/lp/blog/resets-leaks-ddos-and-the-tale-of-a-hidden-cve
     - https://errata.almalinux.org/9/ALSA-2023-6746.html
-    - https://errata.rockylinux.org/RLSA-2023:5928
+    - https://errata.rockylinux.org/RLSA-2023:5838
     - https://forums.swift.org/t/swift-nio-http2-security-update-cve-2023-44487-http-2-dos/67764
     - https://gist.github.com/adulau/7c2bfb8e9cdbe4b35a5e131c66a0c088
     - https://github.com/Azure/AKS/issues/3947
@@ -6216,7 +6411,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45290
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24783
     - https://errata.almalinux.org/9/ALSA-2024-2724.html
-    - https://errata.rockylinux.org/RLSA-2024:3346
+    - https://errata.rockylinux.org/RLSA-2024:2724
     - https://go.dev/cl/576155
     - https://go.dev/issue/65051
     - https://groups.google.com/g/golang-announce/c/YgW0sx8mN3M
@@ -6259,6 +6454,8 @@
     Title: 'golang.org/x/net/http/httpproxy: golang.org/x/net/proxy: HTTP Proxy bypass using IPv6 Zone IDs in golang.org/x/net'
     Description: Matching of hosts against proxy patterns can improperly treat an IPv6 zone ID as a hostname component. For example, when the NO_PROXY environment variable is set to "*.example.com", a request to "[::1%25.example.com]:80` will incorrectly match and not be proxied.
     Severity: MEDIUM
+    CweIDs:
+    - CWE-115
     VendorSeverity:
       ghsa: 2
       redhat: 2
@@ -6276,7 +6473,7 @@
     - https://pkg.go.dev/vuln/GO-2025-3503
     - https://www.cve.org/CVERecord?id=CVE-2025-22870
     PublishedDate: '2025-03-12T19:15:38.31Z'
-    LastModifiedDate: '2025-03-12T19:15:38.31Z'
+    LastModifiedDate: '2025-03-18T17:15:45.467Z'
   - VulnerabilityID: CVE-2024-24790
     PkgID: stdlib@v1.20.5
     PkgName: stdlib
@@ -6411,7 +6608,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-39325
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-44487
     - https://errata.almalinux.org/9/ALSA-2023-6077.html
-    - https://errata.rockylinux.org/RLSA-2023:5863
+    - https://errata.rockylinux.org/RLSA-2023:6077
     - https://github.com/golang/go/commit/24ae2d927285c697440fdde3ad7f26028354bcf3 [golang- 1.21]
     - https://github.com/golang/go/commit/e175f27f58aa7b9cd4d79607ae65d2cd5baaee68 [golang-1.20]
     - https://github.com/golang/go/issues/63417
@@ -6614,7 +6811,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45290
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24783
     - https://errata.almalinux.org/9/ALSA-2024-2724.html
-    - https://errata.rockylinux.org/RLSA-2024:3346
+    - https://errata.rockylinux.org/RLSA-2024:2724
     - https://go.dev/cl/576155
     - https://go.dev/issue/65051
     - https://groups.google.com/g/golang-announce/c/YgW0sx8mN3M
@@ -6677,12 +6874,10 @@
     - https://access.redhat.com/security/cve/CVE-2024-34156
     - https://bugzilla.redhat.com/2310528
     - https://bugzilla.redhat.com/2318052
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2262921
     - https://bugzilla.redhat.com/show_bug.cgi?id=2310528
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-1394
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-34156
     - https://errata.almalinux.org/9/ALSA-2024-9473.html
-    - https://errata.rockylinux.org/RLSA-2024:7262
+    - https://errata.rockylinux.org/RLSA-2024:8111
     - https://github.com/golang/go/commit/2092294f2b097c5828f4eace6c98a322c1510b01 (go1.22.7)
     - https://github.com/golang/go/commit/fa8ff1a46deb6c816304441ec6740ec112e19012 (go1.23.1)
     - https://go.dev/cl/611239
@@ -6867,7 +7062,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -6937,7 +7132,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -7138,7 +7333,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45290
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24783
     - https://errata.almalinux.org/9/ALSA-2024-2724.html
-    - https://errata.rockylinux.org/RLSA-2024:3346
+    - https://errata.rockylinux.org/RLSA-2024:2724
     - https://github.com/golang/go/commit/20586c0dbe03d144f914155f879fa5ee287591a1 (go1.21.8)
     - https://github.com/golang/go/commit/3a855208e3efed2e9d7c20ad023f1fa78afcc0be (go1.22.1)
     - https://github.com/golang/go/issues/65065
@@ -7183,7 +7378,7 @@
       cbl-mariner: 2
       oracle-oval: 3
       redhat: 2
-      rocky: 3
+      rocky: 2
       ubuntu: 2
     CVSS:
       bitnami:
@@ -7201,15 +7396,9 @@
     - https://bugzilla.redhat.com/2279814
     - https://bugzilla.redhat.com/2295310
     - https://bugzilla.redhat.com/show_bug.cgi?id=2268017
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2268018
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2268019
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2268273
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45288
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45289
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45290
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24783
     - https://errata.almalinux.org/9/ALSA-2024-9135.html
-    - https://errata.rockylinux.org/RLSA-2024:3346
+    - https://errata.rockylinux.org/RLSA-2024:3830
     - https://github.com/golang/go/commit/041a47712e765e94f86d841c3110c840e76d8f82 (go1.22.1)
     - https://github.com/golang/go/commit/bf80213b121074f4ad9b449410a4d13bae5e9be0 (go1.21.8)
     - https://github.com/golang/go/issues/65383
@@ -7280,7 +7469,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45290
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24783
     - https://errata.almalinux.org/9/ALSA-2024-6195.html
-    - https://errata.rockylinux.org/RLSA-2024:3346
+    - https://errata.rockylinux.org/RLSA-2024:2724
     - https://github.com/advisories/GHSA-3q2c-pvp5-3cqp
     - https://github.com/golang/go/commit/337b8e9cbfa749d9d5c899e0dc358e2208d5e54f (go1.22.1)
     - https://github.com/golang/go/commit/be5b52bea674190ef7de272664be6c7ae93ec5a0 (go1.21.8)
@@ -7564,7 +7753,7 @@
       oracle-oval: 2
       photon: 3
       redhat: 2
-      rocky: 2
+      rocky: 3
       ubuntu: 2
     CVSS:
       bitnami:
@@ -7581,9 +7770,15 @@
     - https://bugzilla.redhat.com/2279814
     - https://bugzilla.redhat.com/2295310
     - https://bugzilla.redhat.com/show_bug.cgi?id=2295310
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2310527
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2310528
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2310529
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24791
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-34155
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-34156
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-34158
     - https://errata.almalinux.org/9/ALSA-2024-9135.html
-    - https://errata.rockylinux.org/RLSA-2024:7349
+    - https://errata.rockylinux.org/RLSA-2024:6913
     - https://go.dev/cl/591255
     - https://go.dev/issue/67555
     - https://groups.google.com/g/golang-dev/c/t0rK-qHBqzY/m/6MMoAZkMAgAJ
@@ -7938,7 +8133,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-39325
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-44487
     - https://errata.almalinux.org/9/ALSA-2023-6077.html
-    - https://errata.rockylinux.org/RLSA-2023:5863
+    - https://errata.rockylinux.org/RLSA-2023:6077
     - https://github.com/golang/go/commit/24ae2d927285c697440fdde3ad7f26028354bcf3 [golang- 1.21]
     - https://github.com/golang/go/commit/e175f27f58aa7b9cd4d79607ae65d2cd5baaee68 [golang-1.20]
     - https://github.com/golang/go/issues/63417
@@ -8057,7 +8252,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       azure: 2
       cbl-mariner: 2
       ghsa: 2
@@ -8190,7 +8385,7 @@
     - https://discuss.hashicorp.com/t/hcsec-2023-32-vault-consul-and-boundary-affected-by-http-2-rapid-reset-denial-of-service-vulnerability-cve-2023-44487/59715
     - https://edg.io/lp/blog/resets-leaks-ddos-and-the-tale-of-a-hidden-cve
     - https://errata.almalinux.org/9/ALSA-2023-6746.html
-    - https://errata.rockylinux.org/RLSA-2023:5928
+    - https://errata.rockylinux.org/RLSA-2023:5838
     - https://forums.swift.org/t/swift-nio-http2-security-update-cve-2023-44487-http-2-dos/67764
     - https://gist.github.com/adulau/7c2bfb8e9cdbe4b35a5e131c66a0c088
     - https://github.com/Azure/AKS/issues/3947
@@ -8479,7 +8674,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45290
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24783
     - https://errata.almalinux.org/9/ALSA-2024-2724.html
-    - https://errata.rockylinux.org/RLSA-2024:3346
+    - https://errata.rockylinux.org/RLSA-2024:2724
     - https://go.dev/cl/576155
     - https://go.dev/issue/65051
     - https://groups.google.com/g/golang-announce/c/YgW0sx8mN3M
@@ -8522,6 +8717,8 @@
     Title: 'golang.org/x/net/http/httpproxy: golang.org/x/net/proxy: HTTP Proxy bypass using IPv6 Zone IDs in golang.org/x/net'
     Description: Matching of hosts against proxy patterns can improperly treat an IPv6 zone ID as a hostname component. For example, when the NO_PROXY environment variable is set to "*.example.com", a request to "[::1%25.example.com]:80` will incorrectly match and not be proxied.
     Severity: MEDIUM
+    CweIDs:
+    - CWE-115
     VendorSeverity:
       ghsa: 2
       redhat: 2
@@ -8539,7 +8736,7 @@
     - https://pkg.go.dev/vuln/GO-2025-3503
     - https://www.cve.org/CVERecord?id=CVE-2025-22870
     PublishedDate: '2025-03-12T19:15:38.31Z'
-    LastModifiedDate: '2025-03-12T19:15:38.31Z'
+    LastModifiedDate: '2025-03-18T17:15:45.467Z'
   - VulnerabilityID: CVE-2024-24790
     PkgID: stdlib@v1.20.5
     PkgName: stdlib
@@ -8674,7 +8871,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-39325
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-44487
     - https://errata.almalinux.org/9/ALSA-2023-6077.html
-    - https://errata.rockylinux.org/RLSA-2023:5863
+    - https://errata.rockylinux.org/RLSA-2023:6077
     - https://github.com/golang/go/commit/24ae2d927285c697440fdde3ad7f26028354bcf3 [golang- 1.21]
     - https://github.com/golang/go/commit/e175f27f58aa7b9cd4d79607ae65d2cd5baaee68 [golang-1.20]
     - https://github.com/golang/go/issues/63417
@@ -8877,7 +9074,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45290
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24783
     - https://errata.almalinux.org/9/ALSA-2024-2724.html
-    - https://errata.rockylinux.org/RLSA-2024:3346
+    - https://errata.rockylinux.org/RLSA-2024:2724
     - https://go.dev/cl/576155
     - https://go.dev/issue/65051
     - https://groups.google.com/g/golang-announce/c/YgW0sx8mN3M
@@ -8940,12 +9137,10 @@
     - https://access.redhat.com/security/cve/CVE-2024-34156
     - https://bugzilla.redhat.com/2310528
     - https://bugzilla.redhat.com/2318052
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2262921
     - https://bugzilla.redhat.com/show_bug.cgi?id=2310528
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-1394
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-34156
     - https://errata.almalinux.org/9/ALSA-2024-9473.html
-    - https://errata.rockylinux.org/RLSA-2024:7262
+    - https://errata.rockylinux.org/RLSA-2024:8111
     - https://github.com/golang/go/commit/2092294f2b097c5828f4eace6c98a322c1510b01 (go1.22.7)
     - https://github.com/golang/go/commit/fa8ff1a46deb6c816304441ec6740ec112e19012 (go1.23.1)
     - https://go.dev/cl/611239
@@ -9130,7 +9325,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -9200,7 +9395,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -9401,7 +9596,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45290
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24783
     - https://errata.almalinux.org/9/ALSA-2024-2724.html
-    - https://errata.rockylinux.org/RLSA-2024:3346
+    - https://errata.rockylinux.org/RLSA-2024:2724
     - https://github.com/golang/go/commit/20586c0dbe03d144f914155f879fa5ee287591a1 (go1.21.8)
     - https://github.com/golang/go/commit/3a855208e3efed2e9d7c20ad023f1fa78afcc0be (go1.22.1)
     - https://github.com/golang/go/issues/65065
@@ -9446,7 +9641,7 @@
       cbl-mariner: 2
       oracle-oval: 3
       redhat: 2
-      rocky: 3
+      rocky: 2
       ubuntu: 2
     CVSS:
       bitnami:
@@ -9464,15 +9659,9 @@
     - https://bugzilla.redhat.com/2279814
     - https://bugzilla.redhat.com/2295310
     - https://bugzilla.redhat.com/show_bug.cgi?id=2268017
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2268018
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2268019
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2268273
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45288
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45289
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45290
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24783
     - https://errata.almalinux.org/9/ALSA-2024-9135.html
-    - https://errata.rockylinux.org/RLSA-2024:3346
+    - https://errata.rockylinux.org/RLSA-2024:3830
     - https://github.com/golang/go/commit/041a47712e765e94f86d841c3110c840e76d8f82 (go1.22.1)
     - https://github.com/golang/go/commit/bf80213b121074f4ad9b449410a4d13bae5e9be0 (go1.21.8)
     - https://github.com/golang/go/issues/65383
@@ -9543,7 +9732,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45290
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24783
     - https://errata.almalinux.org/9/ALSA-2024-6195.html
-    - https://errata.rockylinux.org/RLSA-2024:3346
+    - https://errata.rockylinux.org/RLSA-2024:2724
     - https://github.com/advisories/GHSA-3q2c-pvp5-3cqp
     - https://github.com/golang/go/commit/337b8e9cbfa749d9d5c899e0dc358e2208d5e54f (go1.22.1)
     - https://github.com/golang/go/commit/be5b52bea674190ef7de272664be6c7ae93ec5a0 (go1.21.8)
@@ -9827,7 +10016,7 @@
       oracle-oval: 2
       photon: 3
       redhat: 2
-      rocky: 2
+      rocky: 3
       ubuntu: 2
     CVSS:
       bitnami:
@@ -9844,9 +10033,15 @@
     - https://bugzilla.redhat.com/2279814
     - https://bugzilla.redhat.com/2295310
     - https://bugzilla.redhat.com/show_bug.cgi?id=2295310
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2310527
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2310528
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2310529
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24791
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-34155
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-34156
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-34158
     - https://errata.almalinux.org/9/ALSA-2024-9135.html
-    - https://errata.rockylinux.org/RLSA-2024:7349
+    - https://errata.rockylinux.org/RLSA-2024:6913
     - https://go.dev/cl/591255
     - https://go.dev/issue/67555
     - https://groups.google.com/g/golang-dev/c/t0rK-qHBqzY/m/6MMoAZkMAgAJ
@@ -10141,6 +10336,75 @@
   Class: lang-pkgs
   Type: gobinary
   Vulnerabilities:
+  - VulnerabilityID: CVE-2024-40635
+    PkgID: github.com/containerd/containerd@v1.7.24
+    PkgName: github.com/containerd/containerd
+    PkgIdentifier:
+      PURL: pkg:golang/github.com/containerd/containerd@v1.7.24
+      UID: 38d1848eb01ba9de
+    InstalledVersion: v1.7.24
+    FixedVersion: 1.7.27, 1.6.38
+    Status: fixed
+    Layer:
+      Digest: sha256:516731828ccc7b45bf90ae1c4a00205ac28ae0f1ac84b928f2aa2946b319a0b5
+      DiffID: sha256:c6b06b96654ebdbe3a6eb2b856daec8e0e9dc22e136d414826e1cf55e98d270b
+    SeveritySource: ghsa
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-40635
+    DataSource:
+      ID: ghsa
+      Name: GitHub Security Advisory Go
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
+    Title: containerd is an open-source container runtime. A bug was found in con ...
+    Description: containerd is an open-source container runtime. A bug was found in containerd prior to versions 1.6.38, 1.7.27, and 2.0.4 where containers launched with a User set as a `UID:GID` larger than the maximum 32-bit signed integer can cause an overflow condition where the container ultimately runs as root (UID 0). This could cause unexpected behavior for environments that require containers to run as a non-root user. This bug has been fixed in containerd 1.6.38, 1.7.27, and 2.04. As a workaround, ensure that only trusted images are used and that only trusted users have permissions to import images.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-190
+    VendorSeverity:
+      ghsa: 2
+    CVSS:
+      ghsa:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:C/C:L/I:L/A:N
+        V3Score: 4.6
+    References:
+    - https://github.com/containerd/containerd
+    - https://github.com/containerd/containerd/commit/05044ec0a9a75232cad458027ca83437aae3f4da
+    - https://github.com/containerd/containerd/commit/1a43cb6a1035441f9aca8f5666a9b3ef9e70ab20
+    - https://github.com/containerd/containerd/commit/cf158e884cfe4812a6c371b59e4ea9bc4c46e51a
+    - https://github.com/containerd/containerd/security/advisories/GHSA-265r-hfxg-fhmg
+    PublishedDate: '2025-03-17T22:15:13.15Z'
+    LastModifiedDate: '2025-03-17T22:15:13.15Z'
+  - VulnerabilityID: CVE-2025-0495
+    PkgID: github.com/docker/buildx@v0.19.2
+    PkgName: github.com/docker/buildx
+    PkgIdentifier:
+      PURL: pkg:golang/github.com/docker/buildx@v0.19.2
+      UID: 9446a18c3279547f
+    InstalledVersion: v0.19.2
+    FixedVersion: 0.21.3
+    Status: fixed
+    Layer:
+      Digest: sha256:516731828ccc7b45bf90ae1c4a00205ac28ae0f1ac84b928f2aa2946b319a0b5
+      DiffID: sha256:c6b06b96654ebdbe3a6eb2b856daec8e0e9dc22e136d414826e1cf55e98d270b
+    SeveritySource: ghsa
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-0495
+    DataSource:
+      ID: ghsa
+      Name: GitHub Security Advisory Go
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
+    Title: Buildx is a Docker CLI plugin that extends build capabilities using Bu ...
+    Description: "Buildx is a Docker CLI plugin that extends build capabilities using BuildKit.\n\nCache backends support credentials by setting secrets directly as attribute values in cache-to/cache-from\_configuration. When supplied as user input, these secure values may be inadvertently captured in OpenTelemetry traces as part of the arguments and flags for the traced CLI command.\_OpenTelemetry traces are also saved in BuildKit daemon's history records.\n\n\nThis vulnerability does not impact secrets passed to the Github cache backend\_via environment variables or registry authentication."
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-532
+    VendorSeverity:
+      ghsa: 2
+    References:
+    - https://github.com/docker/buildx
+    - https://github.com/docker/buildx/commit/18ccba072076ddbfb0aeedd6746d7719b0729b58
+    - https://github.com/docker/buildx/security/advisories/GHSA-m4gq-fm9h-8q75
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-0495
+    PublishedDate: '2025-03-17T20:15:13.737Z'
+    LastModifiedDate: '2025-03-17T20:15:13.737Z'
   - VulnerabilityID: CVE-2025-22870
     PkgID: golang.org/x/net@v0.33.0
     PkgName: golang.org/x/net
@@ -10162,6 +10426,8 @@
     Title: 'golang.org/x/net/http/httpproxy: golang.org/x/net/proxy: HTTP Proxy bypass using IPv6 Zone IDs in golang.org/x/net'
     Description: Matching of hosts against proxy patterns can improperly treat an IPv6 zone ID as a hostname component. For example, when the NO_PROXY environment variable is set to "*.example.com", a request to "[::1%25.example.com]:80` will incorrectly match and not be proxied.
     Severity: MEDIUM
+    CweIDs:
+    - CWE-115
     VendorSeverity:
       ghsa: 2
       redhat: 2
@@ -10179,7 +10445,7 @@
     - https://pkg.go.dev/vuln/GO-2025-3503
     - https://www.cve.org/CVERecord?id=CVE-2025-22870
     PublishedDate: '2025-03-12T19:15:38.31Z'
-    LastModifiedDate: '2025-03-12T19:15:38.31Z'
+    LastModifiedDate: '2025-03-18T17:15:45.467Z'
   - VulnerabilityID: CVE-2024-45336
     PkgID: stdlib@v1.22.10
     PkgName: stdlib
@@ -10313,6 +10579,43 @@
   Class: lang-pkgs
   Type: gobinary
   Vulnerabilities:
+  - VulnerabilityID: CVE-2024-40635
+    PkgID: github.com/containerd/containerd@v1.7.24
+    PkgName: github.com/containerd/containerd
+    PkgIdentifier:
+      PURL: pkg:golang/github.com/containerd/containerd@v1.7.24
+      UID: f4932271e34afc46
+    InstalledVersion: v1.7.24
+    FixedVersion: 1.7.27, 1.6.38
+    Status: fixed
+    Layer:
+      Digest: sha256:516731828ccc7b45bf90ae1c4a00205ac28ae0f1ac84b928f2aa2946b319a0b5
+      DiffID: sha256:c6b06b96654ebdbe3a6eb2b856daec8e0e9dc22e136d414826e1cf55e98d270b
+    SeveritySource: ghsa
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-40635
+    DataSource:
+      ID: ghsa
+      Name: GitHub Security Advisory Go
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
+    Title: containerd is an open-source container runtime. A bug was found in con ...
+    Description: containerd is an open-source container runtime. A bug was found in containerd prior to versions 1.6.38, 1.7.27, and 2.0.4 where containers launched with a User set as a `UID:GID` larger than the maximum 32-bit signed integer can cause an overflow condition where the container ultimately runs as root (UID 0). This could cause unexpected behavior for environments that require containers to run as a non-root user. This bug has been fixed in containerd 1.6.38, 1.7.27, and 2.04. As a workaround, ensure that only trusted images are used and that only trusted users have permissions to import images.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-190
+    VendorSeverity:
+      ghsa: 2
+    CVSS:
+      ghsa:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:C/C:L/I:L/A:N
+        V3Score: 4.6
+    References:
+    - https://github.com/containerd/containerd
+    - https://github.com/containerd/containerd/commit/05044ec0a9a75232cad458027ca83437aae3f4da
+    - https://github.com/containerd/containerd/commit/1a43cb6a1035441f9aca8f5666a9b3ef9e70ab20
+    - https://github.com/containerd/containerd/commit/cf158e884cfe4812a6c371b59e4ea9bc4c46e51a
+    - https://github.com/containerd/containerd/security/advisories/GHSA-265r-hfxg-fhmg
+    PublishedDate: '2025-03-17T22:15:13.15Z'
+    LastModifiedDate: '2025-03-17T22:15:13.15Z'
   - VulnerabilityID: CVE-2025-22870
     PkgID: golang.org/x/net@v0.33.0
     PkgName: golang.org/x/net
@@ -10334,6 +10637,8 @@
     Title: 'golang.org/x/net/http/httpproxy: golang.org/x/net/proxy: HTTP Proxy bypass using IPv6 Zone IDs in golang.org/x/net'
     Description: Matching of hosts against proxy patterns can improperly treat an IPv6 zone ID as a hostname component. For example, when the NO_PROXY environment variable is set to "*.example.com", a request to "[::1%25.example.com]:80` will incorrectly match and not be proxied.
     Severity: MEDIUM
+    CweIDs:
+    - CWE-115
     VendorSeverity:
       ghsa: 2
       redhat: 2
@@ -10351,7 +10656,7 @@
     - https://pkg.go.dev/vuln/GO-2025-3503
     - https://www.cve.org/CVERecord?id=CVE-2025-22870
     PublishedDate: '2025-03-12T19:15:38.31Z'
-    LastModifiedDate: '2025-03-12T19:15:38.31Z'
+    LastModifiedDate: '2025-03-18T17:15:45.467Z'
   - VulnerabilityID: CVE-2024-45336
     PkgID: stdlib@v1.23.4
     PkgName: stdlib
@@ -10506,6 +10811,8 @@
     Title: 'golang.org/x/net/http/httpproxy: golang.org/x/net/proxy: HTTP Proxy bypass using IPv6 Zone IDs in golang.org/x/net'
     Description: Matching of hosts against proxy patterns can improperly treat an IPv6 zone ID as a hostname component. For example, when the NO_PROXY environment variable is set to "*.example.com", a request to "[::1%25.example.com]:80` will incorrectly match and not be proxied.
     Severity: MEDIUM
+    CweIDs:
+    - CWE-115
     VendorSeverity:
       ghsa: 2
       redhat: 2
@@ -10523,7 +10830,7 @@
     - https://pkg.go.dev/vuln/GO-2025-3503
     - https://www.cve.org/CVERecord?id=CVE-2025-22870
     PublishedDate: '2025-03-12T19:15:38.31Z'
-    LastModifiedDate: '2025-03-12T19:15:38.31Z'
+    LastModifiedDate: '2025-03-18T17:15:45.467Z'
   - VulnerabilityID: CVE-2024-45336
     PkgID: stdlib@v1.23.4
     PkgName: stdlib
@@ -10678,6 +10985,8 @@
     Title: 'golang.org/x/net/http/httpproxy: golang.org/x/net/proxy: HTTP Proxy bypass using IPv6 Zone IDs in golang.org/x/net'
     Description: Matching of hosts against proxy patterns can improperly treat an IPv6 zone ID as a hostname component. For example, when the NO_PROXY environment variable is set to "*.example.com", a request to "[::1%25.example.com]:80` will incorrectly match and not be proxied.
     Severity: MEDIUM
+    CweIDs:
+    - CWE-115
     VendorSeverity:
       ghsa: 2
       redhat: 2
@@ -10695,7 +11004,7 @@
     - https://pkg.go.dev/vuln/GO-2025-3503
     - https://www.cve.org/CVERecord?id=CVE-2025-22870
     PublishedDate: '2025-03-12T19:15:38.31Z'
-    LastModifiedDate: '2025-03-12T19:15:38.31Z'
+    LastModifiedDate: '2025-03-18T17:15:45.467Z'
   - VulnerabilityID: CVE-2025-22866
     PkgID: stdlib@v1.23.5
     PkgName: stdlib
@@ -10741,6 +11050,43 @@
   Class: lang-pkgs
   Type: gobinary
   Vulnerabilities:
+  - VulnerabilityID: CVE-2024-40635
+    PkgID: github.com/containerd/containerd@v1.7.19
+    PkgName: github.com/containerd/containerd
+    PkgIdentifier:
+      PURL: pkg:golang/github.com/containerd/containerd@v1.7.19
+      UID: 1b5ac4bc1bc375ec
+    InstalledVersion: v1.7.19
+    FixedVersion: 1.7.27, 1.6.38
+    Status: fixed
+    Layer:
+      Digest: sha256:516731828ccc7b45bf90ae1c4a00205ac28ae0f1ac84b928f2aa2946b319a0b5
+      DiffID: sha256:c6b06b96654ebdbe3a6eb2b856daec8e0e9dc22e136d414826e1cf55e98d270b
+    SeveritySource: ghsa
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-40635
+    DataSource:
+      ID: ghsa
+      Name: GitHub Security Advisory Go
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
+    Title: containerd is an open-source container runtime. A bug was found in con ...
+    Description: containerd is an open-source container runtime. A bug was found in containerd prior to versions 1.6.38, 1.7.27, and 2.0.4 where containers launched with a User set as a `UID:GID` larger than the maximum 32-bit signed integer can cause an overflow condition where the container ultimately runs as root (UID 0). This could cause unexpected behavior for environments that require containers to run as a non-root user. This bug has been fixed in containerd 1.6.38, 1.7.27, and 2.04. As a workaround, ensure that only trusted images are used and that only trusted users have permissions to import images.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-190
+    VendorSeverity:
+      ghsa: 2
+    CVSS:
+      ghsa:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:C/C:L/I:L/A:N
+        V3Score: 4.6
+    References:
+    - https://github.com/containerd/containerd
+    - https://github.com/containerd/containerd/commit/05044ec0a9a75232cad458027ca83437aae3f4da
+    - https://github.com/containerd/containerd/commit/1a43cb6a1035441f9aca8f5666a9b3ef9e70ab20
+    - https://github.com/containerd/containerd/commit/cf158e884cfe4812a6c371b59e4ea9bc4c46e51a
+    - https://github.com/containerd/containerd/security/advisories/GHSA-265r-hfxg-fhmg
+    PublishedDate: '2025-03-17T22:15:13.15Z'
+    LastModifiedDate: '2025-03-17T22:15:13.15Z'
   - VulnerabilityID: CVE-2024-41110
     PkgID: github.com/docker/docker@v27.0.3+incompatible
     PkgName: github.com/docker/docker
@@ -10883,6 +11229,8 @@
     Title: 'golang.org/x/net/http/httpproxy: golang.org/x/net/proxy: HTTP Proxy bypass using IPv6 Zone IDs in golang.org/x/net'
     Description: Matching of hosts against proxy patterns can improperly treat an IPv6 zone ID as a hostname component. For example, when the NO_PROXY environment variable is set to "*.example.com", a request to "[::1%25.example.com]:80` will incorrectly match and not be proxied.
     Severity: MEDIUM
+    CweIDs:
+    - CWE-115
     VendorSeverity:
       ghsa: 2
       redhat: 2
@@ -10900,7 +11248,7 @@
     - https://pkg.go.dev/vuln/GO-2025-3503
     - https://www.cve.org/CVERecord?id=CVE-2025-22870
     PublishedDate: '2025-03-12T19:15:38.31Z'
-    LastModifiedDate: '2025-03-12T19:15:38.31Z'
+    LastModifiedDate: '2025-03-18T17:15:45.467Z'
   - VulnerabilityID: GHSA-xr7q-jx4m-x55m
     PkgID: google.golang.org/grpc@v1.64.0
     PkgName: google.golang.org/grpc
