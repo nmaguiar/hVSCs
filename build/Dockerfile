@@ -54,7 +54,6 @@ RUN cd /tmp/.extensions\
   redhat.vscode-xml\
   ms-azuretools.vscode-docker\
   ms-kubernetes-tools.vscode-kubernetes-tools\
-  harrydowning.yaml-embedded-languages\
  )\
  && for ext in "${exts[@]}"; do /home/.openvscode-server/bin/openvscode-server --install-extension "${ext}"; done\
  && YAML_EMBEDDED_LANGUAGES_VERSION=$(curl -s "https://api.github.com/repos/harrydowning/vscode-yaml-embedded-languages/releases/latest" | grep '"tag_name":' | sed -E 's/.*"v([^"]+)".*/\1/')\
