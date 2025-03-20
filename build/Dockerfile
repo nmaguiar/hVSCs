@@ -54,6 +54,7 @@ RUN cd /tmp/.extensions\
   redhat.vscode-xml\
   ms-azuretools.vscode-docker\
   ms-kubernetes-tools.vscode-kubernetes-tools\
+  harrydowning.yaml-embedded-languages\
  )\
  && for ext in "${exts[@]}"; do /home/.openvscode-server/bin/openvscode-server --install-extension "${ext}"; done\
  && rm *.vsix
