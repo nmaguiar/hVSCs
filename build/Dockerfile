@@ -57,6 +57,9 @@ RUN cd /tmp/.extensions\
   harrydowning.yaml-embedded-languages\
  )\
  && for ext in "${exts[@]}"; do /home/.openvscode-server/bin/openvscode-server --install-extension "${ext}"; done\
+ && YAML_EMBEDDED_LANGUAGES_VERSION=$(curl -s "https://api.github.com/repos/harrydowning/vscode-yaml-embedded-languages/releases/latest" | grep '"tag_name":' | sed -E 's/.*"v([^"]+)".*/\1/')\
+ && wget https://github.com/harrydowning/vscode-yaml-embedded-languages/releases/download/v$YAML_EMBEDDED_LANGUAGES_VERSION/yaml-embedded-languages-$YAML_EMBEDDED_LANGUAGES_VERSION.vsix -O yaml-embedded-languages.vsix\
+ && /home/.openvscode-server/bin/openvscode-server --install-extension yaml-embedded-languages.vsix\
  && rm *.vsix
 USER root
 
