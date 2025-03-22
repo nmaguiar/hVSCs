@@ -4688,7 +4688,45 @@
 │                        │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2024-55549 
 │                        │       ├ PublishedDate   : 2025-03-14T02:15:15.333Z 
 │                        │       ╰ LastModifiedDate: 2025-03-14T02:15:15.333Z 
-│                        ├ [87]  ╭ VulnerabilityID : CVE-2022-4899 
+│                        ├ [87]  ╭ VulnerabilityID : CVE-2025-24855 
+│                        │       ├ PkgID           : libxslt1.1@1.1.34-4ubuntu0.22.04.1 
+│                        │       ├ PkgName         : libxslt1.1 
+│                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libxslt1.1@1.1.34-4ubuntu0.22.04.1?a
+│                        │       │                  │       rch=amd64&distro=ubuntu-22.04 
+│                        │       │                  ╰ UID : c29900ff94be430 
+│                        │       ├ InstalledVersion: 1.1.34-4ubuntu0.22.04.1 
+│                        │       ├ FixedVersion    : 1.1.34-4ubuntu0.22.04.3 
+│                        │       ├ Status          : fixed 
+│                        │       ├ Layer            ╭ Digest: sha256:516731828ccc7b45bf90ae1c4a00205ac28ae0f1ac
+│                        │       │                  │         84b928f2aa2946b319a0b5 
+│                        │       │                  ╰ DiffID: sha256:c6b06b96654ebdbe3a6eb2b856daec8e0e9dc22e13
+│                        │       │                            6d414826e1cf55e98d270b 
+│                        │       ├ SeveritySource  : ubuntu 
+│                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-24855 
+│                        │       ├ DataSource       ╭ ID  : ubuntu 
+│                        │       │                  ├ Name: Ubuntu CVE Tracker 
+│                        │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │       ├ Title           : libxslt: Use-After-Free in libxslt numbers.c 
+│                        │       ├ Description     : numbers.c in libxslt before 1.1.43 has a use-after-free
+│                        │       │                   because, in nested XPath evaluations, an XPath context
+│                        │       │                   node can be modified but never restored. This is related
+│                        │       │                   to xsltNumberFormatGetValue, xsltEvalXPathPredicate,
+│                        │       │                   xsltEvalXPathStringNs, and xsltComputeSortResultInternal. 
+│                        │       ├ Severity        : MEDIUM 
+│                        │       ├ CweIDs           ─ [0]: CWE-416 
+│                        │       ├ VendorSeverity   ╭ redhat: 3 
+│                        │       │                  ╰ ubuntu: 2 
+│                        │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:N/I
+│                        │       │                           │           :H/A:H 
+│                        │       │                           ╰ V3Score : 7.8 
+│                        │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-24855 
+│                        │       │                  ├ [1]: https://gitlab.gnome.org/GNOME/libxslt/-/issues/128 
+│                        │       │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2025-24855 
+│                        │       │                  ├ [3]: https://ubuntu.com/security/notices/USN-7361-1 
+│                        │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2025-24855 
+│                        │       ├ PublishedDate   : 2025-03-14T02:15:15.717Z 
+│                        │       ╰ LastModifiedDate: 2025-03-14T02:15:15.717Z 
+│                        ├ [88]  ╭ VulnerabilityID : CVE-2022-4899 
 │                        │       ├ PkgID           : libzstd1@1.4.8+dfsg-3build1 
 │                        │       ├ PkgName         : libzstd1 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libzstd1@1.4.8%2Bdfsg-3build1?arch=a
@@ -4842,7 +4880,7 @@
 │                        │       │                  ╰ [94]: https://www.cve.org/CVERecord?id=CVE-2022-4899 
 │                        │       ├ PublishedDate   : 2023-03-31T20:15:07.213Z 
 │                        │       ╰ LastModifiedDate: 2025-02-18T18:15:14.023Z 
-│                        ├ [88]  ╭ VulnerabilityID : CVE-2023-29383 
+│                        ├ [89]  ╭ VulnerabilityID : CVE-2023-29383 
 │                        │       ├ PkgID           : login@1:4.8.1-2ubuntu2.2 
 │                        │       ├ PkgName         : login 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/login@4.8.1-2ubuntu2.2?arch=amd64&di
@@ -4901,7 +4939,7 @@
 │                        │       │                         esources/security-advisories/?fid=31797 
 │                        │       ├ PublishedDate   : 2023-04-14T22:15:07.68Z 
 │                        │       ╰ LastModifiedDate: 2025-02-06T22:15:35.057Z 
-│                        ├ [89]  ╭ VulnerabilityID : CVE-2024-56433 
+│                        ├ [90]  ╭ VulnerabilityID : CVE-2024-56433 
 │                        │       ├ PkgID           : login@1:4.8.1-2ubuntu2.2 
 │                        │       ├ PkgName         : login 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/login@4.8.1-2ubuntu2.2?arch=amd64&di
@@ -4949,7 +4987,7 @@
 │                        │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                        │       ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                        │       ╰ LastModifiedDate: 2024-12-26T09:15:07.267Z 
-│                        ├ [90]  ╭ VulnerabilityID : CVE-2023-45918 
+│                        ├ [91]  ╭ VulnerabilityID : CVE-2023-45918 
 │                        │       ├ PkgID           : ncurses-base@6.3-2ubuntu0.1 
 │                        │       ├ PkgName         : ncurses-base 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/ncurses-base@6.3-2ubuntu0.1?arch=all
@@ -4988,7 +5026,7 @@
 │                        │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2023-45918 
 │                        │       ├ PublishedDate   : 2024-02-16T22:15:07.88Z 
 │                        │       ╰ LastModifiedDate: 2024-11-21T21:15:10.63Z 
-│                        ├ [91]  ╭ VulnerabilityID : CVE-2023-50495 
+│                        ├ [92]  ╭ VulnerabilityID : CVE-2023-50495 
 │                        │       ├ PkgID           : ncurses-base@6.3-2ubuntu0.1 
 │                        │       ├ PkgName         : ncurses-base 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/ncurses-base@6.3-2ubuntu0.1?arch=all
@@ -5035,7 +5073,7 @@
 │                        │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-50495 
 │                        │       ├ PublishedDate   : 2023-12-12T15:15:07.867Z 
 │                        │       ╰ LastModifiedDate: 2024-11-21T08:37:04.243Z 
-│                        ├ [92]  ╭ VulnerabilityID : CVE-2023-45918 
+│                        ├ [93]  ╭ VulnerabilityID : CVE-2023-45918 
 │                        │       ├ PkgID           : ncurses-bin@6.3-2ubuntu0.1 
 │                        │       ├ PkgName         : ncurses-bin 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/ncurses-bin@6.3-2ubuntu0.1?arch=amd6
@@ -5074,7 +5112,7 @@
 │                        │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2023-45918 
 │                        │       ├ PublishedDate   : 2024-02-16T22:15:07.88Z 
 │                        │       ╰ LastModifiedDate: 2024-11-21T21:15:10.63Z 
-│                        ├ [93]  ╭ VulnerabilityID : CVE-2023-50495 
+│                        ├ [94]  ╭ VulnerabilityID : CVE-2023-50495 
 │                        │       ├ PkgID           : ncurses-bin@6.3-2ubuntu0.1 
 │                        │       ├ PkgName         : ncurses-bin 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/ncurses-bin@6.3-2ubuntu0.1?arch=amd6
@@ -5121,7 +5159,7 @@
 │                        │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-50495 
 │                        │       ├ PublishedDate   : 2023-12-12T15:15:07.867Z 
 │                        │       ╰ LastModifiedDate: 2024-11-21T08:37:04.243Z 
-│                        ├ [94]  ╭ VulnerabilityID : CVE-2023-45918 
+│                        ├ [95]  ╭ VulnerabilityID : CVE-2023-45918 
 │                        │       ├ PkgID           : ncurses-term@6.3-2ubuntu0.1 
 │                        │       ├ PkgName         : ncurses-term 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/ncurses-term@6.3-2ubuntu0.1?arch=all
@@ -5160,7 +5198,7 @@
 │                        │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2023-45918 
 │                        │       ├ PublishedDate   : 2024-02-16T22:15:07.88Z 
 │                        │       ╰ LastModifiedDate: 2024-11-21T21:15:10.63Z 
-│                        ├ [95]  ╭ VulnerabilityID : CVE-2023-50495 
+│                        ├ [96]  ╭ VulnerabilityID : CVE-2023-50495 
 │                        │       ├ PkgID           : ncurses-term@6.3-2ubuntu0.1 
 │                        │       ├ PkgName         : ncurses-term 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/ncurses-term@6.3-2ubuntu0.1?arch=all
@@ -5207,7 +5245,7 @@
 │                        │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-50495 
 │                        │       ├ PublishedDate   : 2023-12-12T15:15:07.867Z 
 │                        │       ╰ LastModifiedDate: 2024-11-21T08:37:04.243Z 
-│                        ├ [96]  ╭ VulnerabilityID : CVE-2025-23419 
+│                        ├ [97]  ╭ VulnerabilityID : CVE-2025-23419 
 │                        │       ├ PkgID           : nginx@1.18.0-6ubuntu14.5 
 │                        │       ├ PkgName         : nginx 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/nginx@1.18.0-6ubuntu14.5?arch=amd64&
@@ -5267,7 +5305,7 @@
 │                        │       │                         05/8 
 │                        │       ├ PublishedDate   : 2025-02-05T18:15:33.347Z 
 │                        │       ╰ LastModifiedDate: 2025-02-05T20:15:45.717Z 
-│                        ├ [97]  ╭ VulnerabilityID : CVE-2025-23419 
+│                        ├ [98]  ╭ VulnerabilityID : CVE-2025-23419 
 │                        │       ├ PkgID           : nginx-common@1.18.0-6ubuntu14.5 
 │                        │       ├ PkgName         : nginx-common 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/nginx-common@1.18.0-6ubuntu14.5?arch
@@ -5327,7 +5365,7 @@
 │                        │       │                         05/8 
 │                        │       ├ PublishedDate   : 2025-02-05T18:15:33.347Z 
 │                        │       ╰ LastModifiedDate: 2025-02-05T20:15:45.717Z 
-│                        ├ [98]  ╭ VulnerabilityID : CVE-2025-23419 
+│                        ├ [99]  ╭ VulnerabilityID : CVE-2025-23419 
 │                        │       ├ PkgID           : nginx-core@1.18.0-6ubuntu14.5 
 │                        │       ├ PkgName         : nginx-core 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/nginx-core@1.18.0-6ubuntu14.5?arch=a
@@ -5387,7 +5425,7 @@
 │                        │       │                         05/8 
 │                        │       ├ PublishedDate   : 2025-02-05T18:15:33.347Z 
 │                        │       ╰ LastModifiedDate: 2025-02-05T20:15:45.717Z 
-│                        ├ [99]  ╭ VulnerabilityID : CVE-2025-26465 
+│                        ├ [100] ╭ VulnerabilityID : CVE-2025-26465 
 │                        │       ├ PkgID           : openssh-client@1:8.9p1-3ubuntu0.10 
 │                        │       ├ PkgName         : openssh-client 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssh-client@8.9p1-3ubuntu0.10?arc
@@ -5462,7 +5500,7 @@
 │                        │       │                          65-mitigate-vulnerable-openssh 
 │                        │       ├ PublishedDate   : 2025-02-18T19:15:29.23Z 
 │                        │       ╰ LastModifiedDate: 2025-03-03T18:15:40.247Z 
-│                        ├ [100] ╭ VulnerabilityID : CVE-2025-26465 
+│                        ├ [101] ╭ VulnerabilityID : CVE-2025-26465 
 │                        │       ├ PkgID           : openssh-server@1:8.9p1-3ubuntu0.10 
 │                        │       ├ PkgName         : openssh-server 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssh-server@8.9p1-3ubuntu0.10?arc
@@ -5537,7 +5575,7 @@
 │                        │       │                          65-mitigate-vulnerable-openssh 
 │                        │       ├ PublishedDate   : 2025-02-18T19:15:29.23Z 
 │                        │       ╰ LastModifiedDate: 2025-03-03T18:15:40.247Z 
-│                        ├ [101] ╭ VulnerabilityID : CVE-2025-26465 
+│                        ├ [102] ╭ VulnerabilityID : CVE-2025-26465 
 │                        │       ├ PkgID           : openssh-sftp-server@1:8.9p1-3ubuntu0.10 
 │                        │       ├ PkgName         : openssh-sftp-server 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssh-sftp-server@8.9p1-3ubuntu0.1
@@ -5612,7 +5650,7 @@
 │                        │       │                          65-mitigate-vulnerable-openssh 
 │                        │       ├ PublishedDate   : 2025-02-18T19:15:29.23Z 
 │                        │       ╰ LastModifiedDate: 2025-03-03T18:15:40.247Z 
-│                        ├ [102] ╭ VulnerabilityID : CVE-2024-13176 
+│                        ├ [103] ╭ VulnerabilityID : CVE-2024-13176 
 │                        │       ├ PkgID           : openssl@3.0.2-0ubuntu1.18 
 │                        │       ├ PkgName         : openssl 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl@3.0.2-0ubuntu1.18?arch=amd64
@@ -5693,7 +5731,7 @@
 │                        │       │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2024-13176 
 │                        │       ├ PublishedDate   : 2025-01-20T14:15:26.247Z 
 │                        │       ╰ LastModifiedDate: 2025-03-18T08:15:10.2Z 
-│                        ├ [103] ╭ VulnerabilityID : CVE-2024-41996 
+│                        ├ [104] ╭ VulnerabilityID : CVE-2024-41996 
 │                        │       ├ PkgID           : openssl@3.0.2-0ubuntu1.18 
 │                        │       ├ PkgName         : openssl 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl@3.0.2-0ubuntu1.18?arch=amd64
@@ -5744,7 +5782,7 @@
 │                        │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-41996 
 │                        │       ├ PublishedDate   : 2024-08-26T06:15:04.603Z 
 │                        │       ╰ LastModifiedDate: 2024-08-26T16:35:11.247Z 
-│                        ├ [104] ╭ VulnerabilityID : CVE-2024-9143 
+│                        ├ [105] ╭ VulnerabilityID : CVE-2024-9143 
 │                        │       ├ PkgID           : openssl@3.0.2-0ubuntu1.18 
 │                        │       ├ PkgName         : openssl 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl@3.0.2-0ubuntu1.18?arch=amd64
@@ -5841,7 +5879,7 @@
 │                        │       │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2024-9143 
 │                        │       ├ PublishedDate   : 2024-10-16T17:15:18.13Z 
 │                        │       ╰ LastModifiedDate: 2024-11-21T09:54:04.817Z 
-│                        ├ [105] ╭ VulnerabilityID : CVE-2023-29383 
+│                        ├ [106] ╭ VulnerabilityID : CVE-2023-29383 
 │                        │       ├ PkgID           : passwd@1:4.8.1-2ubuntu2.2 
 │                        │       ├ PkgName         : passwd 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/passwd@4.8.1-2ubuntu2.2?arch=amd64&d
@@ -5900,7 +5938,7 @@
 │                        │       │                         esources/security-advisories/?fid=31797 
 │                        │       ├ PublishedDate   : 2023-04-14T22:15:07.68Z 
 │                        │       ╰ LastModifiedDate: 2025-02-06T22:15:35.057Z 
-│                        ├ [106] ╭ VulnerabilityID : CVE-2024-56433 
+│                        ├ [107] ╭ VulnerabilityID : CVE-2024-56433 
 │                        │       ├ PkgID           : passwd@1:4.8.1-2ubuntu2.2 
 │                        │       ├ PkgName         : passwd 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/passwd@4.8.1-2ubuntu2.2?arch=amd64&d
@@ -5948,7 +5986,7 @@
 │                        │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                        │       ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                        │       ╰ LastModifiedDate: 2024-12-26T09:15:07.267Z 
-│                        ├ [107] ╭ VulnerabilityID : CVE-2025-0938 
+│                        ├ [108] ╭ VulnerabilityID : CVE-2025-0938 
 │                        │       ├ PkgID           : python3.10@3.10.12-1~22.04.8 
 │                        │       ├ PkgName         : python3.10 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/python3.10@3.10.12-1~22.04.8?arch=am
@@ -6012,7 +6050,7 @@
 │                        │       │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2025-0938 
 │                        │       ├ PublishedDate   : 2025-01-31T18:15:38.053Z 
 │                        │       ╰ LastModifiedDate: 2025-03-14T10:15:15.847Z 
-│                        ├ [108] ╭ VulnerabilityID : CVE-2025-0938 
+│                        ├ [109] ╭ VulnerabilityID : CVE-2025-0938 
 │                        │       ├ PkgID           : python3.10-minimal@3.10.12-1~22.04.8 
 │                        │       ├ PkgName         : python3.10-minimal 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/python3.10-minimal@3.10.12-1~22.04.8
@@ -6076,7 +6114,7 @@
 │                        │       │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2025-0938 
 │                        │       ├ PublishedDate   : 2025-01-31T18:15:38.053Z 
 │                        │       ╰ LastModifiedDate: 2025-03-14T10:15:15.847Z 
-│                        ├ [109] ╭ VulnerabilityID : CVE-2023-7008 
+│                        ├ [110] ╭ VulnerabilityID : CVE-2023-7008 
 │                        │       ├ PkgID           : systemd@249.11-0ubuntu3.12 
 │                        │       ├ PkgName         : systemd 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/systemd@249.11-0ubuntu3.12?arch=amd6
@@ -6141,7 +6179,7 @@
 │                        │       │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
 │                        │       ├ PublishedDate   : 2023-12-23T13:15:07.573Z 
 │                        │       ╰ LastModifiedDate: 2024-11-22T12:15:17.59Z 
-│                        ├ [110] ╭ VulnerabilityID : CVE-2023-7008 
+│                        ├ [111] ╭ VulnerabilityID : CVE-2023-7008 
 │                        │       ├ PkgID           : systemd-sysv@249.11-0ubuntu3.12 
 │                        │       ├ PkgName         : systemd-sysv 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/systemd-sysv@249.11-0ubuntu3.12?arch
@@ -6206,7 +6244,7 @@
 │                        │       │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
 │                        │       ├ PublishedDate   : 2023-12-23T13:15:07.573Z 
 │                        │       ╰ LastModifiedDate: 2024-11-22T12:15:17.59Z 
-│                        ├ [111] ╭ VulnerabilityID : CVE-2023-7008 
+│                        ├ [112] ╭ VulnerabilityID : CVE-2023-7008 
 │                        │       ├ PkgID           : systemd-timesyncd@249.11-0ubuntu3.12 
 │                        │       ├ PkgName         : systemd-timesyncd 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/systemd-timesyncd@249.11-0ubuntu3.12
@@ -6271,7 +6309,7 @@
 │                        │       │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
 │                        │       ├ PublishedDate   : 2023-12-23T13:15:07.573Z 
 │                        │       ╰ LastModifiedDate: 2024-11-22T12:15:17.59Z 
-│                        ├ [112] ╭ VulnerabilityID : CVE-2023-29383 
+│                        ├ [113] ╭ VulnerabilityID : CVE-2023-29383 
 │                        │       ├ PkgID           : uidmap@1:4.8.1-2ubuntu2.2 
 │                        │       ├ PkgName         : uidmap 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/uidmap@4.8.1-2ubuntu2.2?arch=amd64&d
@@ -6330,7 +6368,7 @@
 │                        │       │                         esources/security-advisories/?fid=31797 
 │                        │       ├ PublishedDate   : 2023-04-14T22:15:07.68Z 
 │                        │       ╰ LastModifiedDate: 2025-02-06T22:15:35.057Z 
-│                        ├ [113] ╭ VulnerabilityID : CVE-2024-56433 
+│                        ├ [114] ╭ VulnerabilityID : CVE-2024-56433 
 │                        │       ├ PkgID           : uidmap@1:4.8.1-2ubuntu2.2 
 │                        │       ├ PkgName         : uidmap 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/uidmap@4.8.1-2ubuntu2.2?arch=amd64&d
@@ -6378,7 +6416,7 @@
 │                        │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                        │       ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                        │       ╰ LastModifiedDate: 2024-12-26T09:15:07.267Z 
-│                        ├ [114] ╭ VulnerabilityID : CVE-2025-24014 
+│                        ├ [115] ╭ VulnerabilityID : CVE-2025-24014 
 │                        │       ├ PkgID           : vim@2:8.2.3995-1ubuntu2.22 
 │                        │       ├ PkgName         : vim 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/vim@8.2.3995-1ubuntu2.22?arch=amd64&
@@ -6434,7 +6472,7 @@
 │                        │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2025-24014 
 │                        │       ├ PublishedDate   : 2025-01-20T23:15:07.73Z 
 │                        │       ╰ LastModifiedDate: 2025-03-14T10:15:16.24Z 
-│                        ├ [115] ╭ VulnerabilityID : CVE-2025-24014 
+│                        ├ [116] ╭ VulnerabilityID : CVE-2025-24014 
 │                        │       ├ PkgID           : vim-common@2:8.2.3995-1ubuntu2.22 
 │                        │       ├ PkgName         : vim-common 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/vim-common@8.2.3995-1ubuntu2.22?arch
@@ -6490,7 +6528,7 @@
 │                        │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2025-24014 
 │                        │       ├ PublishedDate   : 2025-01-20T23:15:07.73Z 
 │                        │       ╰ LastModifiedDate: 2025-03-14T10:15:16.24Z 
-│                        ├ [116] ╭ VulnerabilityID : CVE-2025-24014 
+│                        ├ [117] ╭ VulnerabilityID : CVE-2025-24014 
 │                        │       ├ PkgID           : vim-runtime@2:8.2.3995-1ubuntu2.22 
 │                        │       ├ PkgName         : vim-runtime 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/vim-runtime@8.2.3995-1ubuntu2.22?arc
@@ -6546,7 +6584,7 @@
 │                        │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2025-24014 
 │                        │       ├ PublishedDate   : 2025-01-20T23:15:07.73Z 
 │                        │       ╰ LastModifiedDate: 2025-03-14T10:15:16.24Z 
-│                        ├ [117] ╭ VulnerabilityID : CVE-2021-31879 
+│                        ├ [118] ╭ VulnerabilityID : CVE-2021-31879 
 │                        │       ├ PkgID           : wget@1.21.2-2ubuntu1.1 
 │                        │       ├ PkgName         : wget 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/wget@1.21.2-2ubuntu1.1?arch=amd64&di
@@ -6593,7 +6631,7 @@
 │                        │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2021-31879 
 │                        │       ├ PublishedDate   : 2021-04-29T05:15:08.707Z 
 │                        │       ╰ LastModifiedDate: 2024-11-21T06:06:25.02Z 
-│                        ╰ [118] ╭ VulnerabilityID : CVE-2025-24014 
+│                        ╰ [119] ╭ VulnerabilityID : CVE-2025-24014 
 │                                ├ PkgID           : xxd@2:8.2.3995-1ubuntu2.22 
 │                                ├ PkgName         : xxd 
 │                                ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/xxd@8.2.3995-1ubuntu2.22?arch=amd64&
@@ -9041,8 +9079,9 @@
 │                        │      ├ DataSource       ╭ ID  : govulndb 
 │                        │      │                  ├ Name: The Go Vulnerability Database 
 │                        │      │                  ╰ URL : https://pkg.go.dev/vuln/ 
-│                        │      ├ Title           : When parsing a multipart form (either explicitly with
-│                        │      │                   Request.ParseMul ... 
+│                        │      ├ Title           : golang: net/http: golang: mime/multipart: golang:
+│                        │      │                   net/textproto: memory exhaustion in
+│                        │      │                   Request.ParseMultipartForm 
 │                        │      ├ Description     : When parsing a multipart form (either explicitly with
 │                        │      │                   Request.ParseMultipartForm or implicitly with
 │                        │      │                   Request.FormValue, Request.PostFormValue, or
@@ -9061,42 +9100,49 @@
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ oracle-oval: 3 
+│                        │      │                  ├ redhat     : 2 
 │                        │      │                  ├ rocky      : 2 
 │                        │      │                  ╰ ubuntu     : 2 
-│                        │      ├ CVSS             ─ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I
-│                        │      │                            │           :N/A:H 
-│                        │      │                            ╰ V3Score : 6.5 
+│                        │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I
+│                        │      │                  │         │           :N/A:H 
+│                        │      │                  │         ╰ V3Score : 6.5 
+│                        │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                        │      │                            │           :N/A:L 
+│                        │      │                            ╰ V3Score : 5.3 
 │                        │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2024/03/0
 │                        │      │                  │       8/4 
 │                        │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2024:9135 
-│                        │      │                  ├ [2] : https://bugzilla.redhat.com/2268017 
-│                        │      │                  ├ [3] : https://bugzilla.redhat.com/2268022 
-│                        │      │                  ├ [4] : https://bugzilla.redhat.com/2279814 
-│                        │      │                  ├ [5] : https://bugzilla.redhat.com/2295310 
-│                        │      │                  ├ [6] : https://bugzilla.redhat.com/show_bug.cgi?id=2268017 
-│                        │      │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                        │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2023-45290 
+│                        │      │                  ├ [3] : https://bugzilla.redhat.com/2268017 
+│                        │      │                  ├ [4] : https://bugzilla.redhat.com/2268022 
+│                        │      │                  ├ [5] : https://bugzilla.redhat.com/2279814 
+│                        │      │                  ├ [6] : https://bugzilla.redhat.com/2295310 
+│                        │      │                  ├ [7] : https://bugzilla.redhat.com/show_bug.cgi?id=2268017 
+│                        │      │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                        │      │                  │       023-45290 
-│                        │      │                  ├ [8] : https://errata.almalinux.org/9/ALSA-2024-9135.html 
-│                        │      │                  ├ [9] : https://errata.rockylinux.org/RLSA-2024:3830 
-│                        │      │                  ├ [10]: https://github.com/golang/go/commit/041a47712e765e94
+│                        │      │                  ├ [9] : https://errata.almalinux.org/9/ALSA-2024-9135.html 
+│                        │      │                  ├ [10]: https://errata.rockylinux.org/RLSA-2024:3830 
+│                        │      │                  ├ [11]: https://github.com/golang/go/commit/041a47712e765e94
 │                        │      │                  │       f86d841c3110c840e76d8f82 (go1.22.1) 
-│                        │      │                  ├ [11]: https://github.com/golang/go/commit/bf80213b121074f4
+│                        │      │                  ├ [12]: https://github.com/golang/go/commit/bf80213b121074f4
 │                        │      │                  │       ad9b449410a4d13bae5e9be0 (go1.21.8) 
-│                        │      │                  ├ [12]: https://github.com/golang/go/issues/65383 
-│                        │      │                  ├ [13]: https://go.dev/cl/569341 
-│                        │      │                  ├ [14]: https://go.dev/issue/65383 
-│                        │      │                  ├ [15]: https://groups.google.com/g/golang-announce/c/5pwGVU
+│                        │      │                  ├ [13]: https://github.com/golang/go/issues/65383 
+│                        │      │                  ├ [14]: https://go.dev/cl/569341 
+│                        │      │                  ├ [15]: https://go.dev/issue/65383 
+│                        │      │                  ├ [16]: https://groups.google.com/g/golang-announce/c/5pwGVU
 │                        │      │                  │       PoMbg 
-│                        │      │                  ├ [16]: https://linux.oracle.com/cve/CVE-2023-45290.html 
-│                        │      │                  ├ [17]: https://linux.oracle.com/errata/ELSA-2024-8038.html 
-│                        │      │                  ├ [18]: https://nvd.nist.gov/vuln/detail/CVE-2023-45290 
-│                        │      │                  ├ [19]: https://pkg.go.dev/vuln/GO-2024-2599 
-│                        │      │                  ├ [20]: https://security.netapp.com/advisory/ntap-20240329-0
+│                        │      │                  ├ [17]: https://linux.oracle.com/cve/CVE-2023-45290.html 
+│                        │      │                  ├ [18]: https://linux.oracle.com/errata/ELSA-2024-8038.html 
+│                        │      │                  ├ [19]: https://nvd.nist.gov/vuln/detail/CVE-2023-45290 
+│                        │      │                  ├ [20]: https://pkg.go.dev/vuln/GO-2024-2599 
+│                        │      │                  ├ [21]: https://security.netapp.com/advisory/ntap-20240329-0
+│                        │      │                  │       004 
+│                        │      │                  ├ [22]: https://security.netapp.com/advisory/ntap-20240329-0
 │                        │      │                  │       004/ 
-│                        │      │                  ├ [21]: https://ubuntu.com/security/notices/USN-6886-1 
-│                        │      │                  ├ [22]: https://ubuntu.com/security/notices/USN-7109-1 
-│                        │      │                  ├ [23]: https://ubuntu.com/security/notices/USN-7111-1 
-│                        │      │                  ╰ [24]: https://www.cve.org/CVERecord?id=CVE-2023-45290 
+│                        │      │                  ├ [23]: https://ubuntu.com/security/notices/USN-6886-1 
+│                        │      │                  ├ [24]: https://ubuntu.com/security/notices/USN-7109-1 
+│                        │      │                  ├ [25]: https://ubuntu.com/security/notices/USN-7111-1 
+│                        │      │                  ╰ [26]: https://www.cve.org/CVERecord?id=CVE-2023-45290 
 │                        │      ├ PublishedDate   : 2024-03-05T23:15:07.21Z 
 │                        │      ╰ LastModifiedDate: 2024-11-21T08:26:42.853Z 
 │                        ├ [18] ╭ VulnerabilityID : CVE-2024-24783 
@@ -12161,8 +12207,9 @@
 │                        │      ├ DataSource       ╭ ID  : govulndb 
 │                        │      │                  ├ Name: The Go Vulnerability Database 
 │                        │      │                  ╰ URL : https://pkg.go.dev/vuln/ 
-│                        │      ├ Title           : When parsing a multipart form (either explicitly with
-│                        │      │                   Request.ParseMul ... 
+│                        │      ├ Title           : golang: net/http: golang: mime/multipart: golang:
+│                        │      │                   net/textproto: memory exhaustion in
+│                        │      │                   Request.ParseMultipartForm 
 │                        │      ├ Description     : When parsing a multipart form (either explicitly with
 │                        │      │                   Request.ParseMultipartForm or implicitly with
 │                        │      │                   Request.FormValue, Request.PostFormValue, or
@@ -12181,42 +12228,49 @@
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ oracle-oval: 3 
+│                        │      │                  ├ redhat     : 2 
 │                        │      │                  ├ rocky      : 2 
 │                        │      │                  ╰ ubuntu     : 2 
-│                        │      ├ CVSS             ─ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I
-│                        │      │                            │           :N/A:H 
-│                        │      │                            ╰ V3Score : 6.5 
+│                        │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I
+│                        │      │                  │         │           :N/A:H 
+│                        │      │                  │         ╰ V3Score : 6.5 
+│                        │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                        │      │                            │           :N/A:L 
+│                        │      │                            ╰ V3Score : 5.3 
 │                        │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2024/03/0
 │                        │      │                  │       8/4 
 │                        │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2024:9135 
-│                        │      │                  ├ [2] : https://bugzilla.redhat.com/2268017 
-│                        │      │                  ├ [3] : https://bugzilla.redhat.com/2268022 
-│                        │      │                  ├ [4] : https://bugzilla.redhat.com/2279814 
-│                        │      │                  ├ [5] : https://bugzilla.redhat.com/2295310 
-│                        │      │                  ├ [6] : https://bugzilla.redhat.com/show_bug.cgi?id=2268017 
-│                        │      │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                        │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2023-45290 
+│                        │      │                  ├ [3] : https://bugzilla.redhat.com/2268017 
+│                        │      │                  ├ [4] : https://bugzilla.redhat.com/2268022 
+│                        │      │                  ├ [5] : https://bugzilla.redhat.com/2279814 
+│                        │      │                  ├ [6] : https://bugzilla.redhat.com/2295310 
+│                        │      │                  ├ [7] : https://bugzilla.redhat.com/show_bug.cgi?id=2268017 
+│                        │      │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                        │      │                  │       023-45290 
-│                        │      │                  ├ [8] : https://errata.almalinux.org/9/ALSA-2024-9135.html 
-│                        │      │                  ├ [9] : https://errata.rockylinux.org/RLSA-2024:3830 
-│                        │      │                  ├ [10]: https://github.com/golang/go/commit/041a47712e765e94
+│                        │      │                  ├ [9] : https://errata.almalinux.org/9/ALSA-2024-9135.html 
+│                        │      │                  ├ [10]: https://errata.rockylinux.org/RLSA-2024:3830 
+│                        │      │                  ├ [11]: https://github.com/golang/go/commit/041a47712e765e94
 │                        │      │                  │       f86d841c3110c840e76d8f82 (go1.22.1) 
-│                        │      │                  ├ [11]: https://github.com/golang/go/commit/bf80213b121074f4
+│                        │      │                  ├ [12]: https://github.com/golang/go/commit/bf80213b121074f4
 │                        │      │                  │       ad9b449410a4d13bae5e9be0 (go1.21.8) 
-│                        │      │                  ├ [12]: https://github.com/golang/go/issues/65383 
-│                        │      │                  ├ [13]: https://go.dev/cl/569341 
-│                        │      │                  ├ [14]: https://go.dev/issue/65383 
-│                        │      │                  ├ [15]: https://groups.google.com/g/golang-announce/c/5pwGVU
+│                        │      │                  ├ [13]: https://github.com/golang/go/issues/65383 
+│                        │      │                  ├ [14]: https://go.dev/cl/569341 
+│                        │      │                  ├ [15]: https://go.dev/issue/65383 
+│                        │      │                  ├ [16]: https://groups.google.com/g/golang-announce/c/5pwGVU
 │                        │      │                  │       PoMbg 
-│                        │      │                  ├ [16]: https://linux.oracle.com/cve/CVE-2023-45290.html 
-│                        │      │                  ├ [17]: https://linux.oracle.com/errata/ELSA-2024-8038.html 
-│                        │      │                  ├ [18]: https://nvd.nist.gov/vuln/detail/CVE-2023-45290 
-│                        │      │                  ├ [19]: https://pkg.go.dev/vuln/GO-2024-2599 
-│                        │      │                  ├ [20]: https://security.netapp.com/advisory/ntap-20240329-0
+│                        │      │                  ├ [17]: https://linux.oracle.com/cve/CVE-2023-45290.html 
+│                        │      │                  ├ [18]: https://linux.oracle.com/errata/ELSA-2024-8038.html 
+│                        │      │                  ├ [19]: https://nvd.nist.gov/vuln/detail/CVE-2023-45290 
+│                        │      │                  ├ [20]: https://pkg.go.dev/vuln/GO-2024-2599 
+│                        │      │                  ├ [21]: https://security.netapp.com/advisory/ntap-20240329-0
+│                        │      │                  │       004 
+│                        │      │                  ├ [22]: https://security.netapp.com/advisory/ntap-20240329-0
 │                        │      │                  │       004/ 
-│                        │      │                  ├ [21]: https://ubuntu.com/security/notices/USN-6886-1 
-│                        │      │                  ├ [22]: https://ubuntu.com/security/notices/USN-7109-1 
-│                        │      │                  ├ [23]: https://ubuntu.com/security/notices/USN-7111-1 
-│                        │      │                  ╰ [24]: https://www.cve.org/CVERecord?id=CVE-2023-45290 
+│                        │      │                  ├ [23]: https://ubuntu.com/security/notices/USN-6886-1 
+│                        │      │                  ├ [24]: https://ubuntu.com/security/notices/USN-7109-1 
+│                        │      │                  ├ [25]: https://ubuntu.com/security/notices/USN-7111-1 
+│                        │      │                  ╰ [26]: https://www.cve.org/CVERecord?id=CVE-2023-45290 
 │                        │      ├ PublishedDate   : 2024-03-05T23:15:07.21Z 
 │                        │      ╰ LastModifiedDate: 2024-11-21T08:26:42.853Z 
 │                        ├ [18] ╭ VulnerabilityID : CVE-2024-24783 
