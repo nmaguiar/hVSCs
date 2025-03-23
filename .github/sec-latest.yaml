@@ -4099,11 +4099,12 @@
     - https://linux.oracle.com/cve/CVE-2025-24928.html
     - https://linux.oracle.com/errata/ELSA-2025-2686.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-24928
+    - https://security.netapp.com/advisory/ntap-20250321-0006/
     - https://ubuntu.com/security/notices/USN-7302-1
     - https://www.cve.org/CVERecord?id=CVE-2025-24928
     - https://www.openwall.com/lists/oss-security/2025/02/18/2
     PublishedDate: '2025-02-18T23:15:10.25Z'
-    LastModifiedDate: '2025-02-18T23:15:10.25Z'
+    LastModifiedDate: '2025-03-21T18:15:34.86Z'
   - VulnerabilityID: CVE-2025-27113
     PkgID: libxml2@2.9.13+dfsg-1ubuntu0.5
     PkgName: libxml2
@@ -6109,7 +6110,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       ghsa: 2
@@ -7185,7 +7186,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -7255,7 +7256,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -8375,7 +8376,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       ghsa: 2
@@ -9451,7 +9452,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -9521,7 +9522,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -11113,6 +11114,43 @@
   Class: lang-pkgs
   Type: gobinary
   Vulnerabilities:
+  - VulnerabilityID: CVE-2025-30204
+    PkgID: github.com/golang-jwt/jwt/v4@v4.5.1
+    PkgName: github.com/golang-jwt/jwt/v4
+    PkgIdentifier:
+      PURL: pkg:golang/github.com/golang-jwt/jwt/v4@v4.5.1
+      UID: d622c149a3fbd7de
+    InstalledVersion: v4.5.1
+    FixedVersion: 4.5.2
+    Status: fixed
+    Layer:
+      Digest: sha256:516731828ccc7b45bf90ae1c4a00205ac28ae0f1ac84b928f2aa2946b319a0b5
+      DiffID: sha256:c6b06b96654ebdbe3a6eb2b856daec8e0e9dc22e136d414826e1cf55e98d270b
+    SeveritySource: ghsa
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-30204
+    DataSource:
+      ID: ghsa
+      Name: GitHub Security Advisory Go
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
+    Title: golang-jwt is a Go implementation of JSON Web Tokens. Prior to  5.2.2  ...
+    Description: |-
+      golang-jwt is a Go implementation of JSON Web Tokens. Prior to 
+      5.2.2 and 4.5.2, the function parse.ParseUnverified splits (via a call to strings.Split) its argument (which is untrusted data) on periods. As a result, in the face of a malicious request whose Authorization header consists of Bearer  followed by many period characters, a call to that function incurs allocations to the tune of O(n) bytes (where n stands for the length of the function's argument), with a constant factor of about 16. This issue is fixed in 5.2.2 and 4.5.2.
+    Severity: HIGH
+    CweIDs:
+    - CWE-405
+    VendorSeverity:
+      ghsa: 3
+    CVSS:
+      ghsa:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://github.com/golang-jwt/jwt
+    - https://github.com/golang-jwt/jwt/commit/0951d184286dece21f73c85673fd308786ffe9c3
+    - https://github.com/golang-jwt/jwt/security/advisories/GHSA-mh63-6h87-95cp
+    PublishedDate: '2025-03-21T22:15:26.42Z'
+    LastModifiedDate: '2025-03-21T22:15:26.42Z'
   - VulnerabilityID: CVE-2025-22870
     PkgID: golang.org/x/net@v0.34.0
     PkgName: golang.org/x/net
