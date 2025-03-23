@@ -4441,9 +4441,52 @@
 │                              │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-22870 
 │                              ├ PublishedDate   : 2025-03-12T19:15:38.31Z 
 │                              ╰ LastModifiedDate: 2025-03-18T17:15:45.467Z 
-├ [8]  ╭ Target: usr/bin/mc 
-│      ├ Class : lang-pkgs 
-│      ╰ Type  : gobinary 
+├ [8]  ╭ Target         : usr/bin/mc 
+│      ├ Class          : lang-pkgs 
+│      ├ Type           : gobinary 
+│      ╰ Vulnerabilities ─ [0] ╭ VulnerabilityID : CVE-2025-30204 
+│                              ├ PkgID           : github.com/golang-jwt/jwt/v4@v4.5.1 
+│                              ├ PkgName         : github.com/golang-jwt/jwt/v4 
+│                              ├ PkgIdentifier    ╭ PURL: pkg:golang/github.com/golang-jwt/jwt/v4@v4.5.1 
+│                              │                  ╰ UID : d622c149a3fbd7de 
+│                              ├ InstalledVersion: v4.5.1 
+│                              ├ FixedVersion    : 4.5.2 
+│                              ├ Status          : fixed 
+│                              ├ Layer            ╭ Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4
+│                              │                  │         a8143db4b97d428659d0 
+│                              │                  ╰ DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8
+│                              │                            d67226cb3b9e50f918f0 
+│                              ├ SeveritySource  : ghsa 
+│                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-30204 
+│                              ├ DataSource       ╭ ID  : ghsa 
+│                              │                  ├ Name: GitHub Security Advisory Go 
+│                              │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+e
+│                              │                          cosystem%3Ago 
+│                              ├ Title           : golang-jwt is a Go implementation of JSON Web Tokens. Prior
+│                              │                   to  5.2.2  ... 
+│                              ├ Description     : golang-jwt is a Go implementation of JSON Web Tokens. Prior
+│                              │                   to 
+│                              │                   5.2.2 and 4.5.2, the function parse.ParseUnverified splits
+│                              │                   (via a call to strings.Split) its argument (which is
+│                              │                   untrusted data) on periods. As a result, in the face of a
+│                              │                   malicious request whose Authorization header consists of
+│                              │                   Bearer  followed by many period characters, a call to that
+│                              │                   function incurs allocations to the tune of O(n) bytes (where
+│                              │                    n stands for the length of the function's argument), with a
+│                              │                    constant factor of about 16. This issue is fixed in 5.2.2
+│                              │                   and 4.5.2. 
+│                              ├ Severity        : HIGH 
+│                              ├ CweIDs           ─ [0]: CWE-405 
+│                              ├ VendorSeverity   ─ ghsa: 3 
+│                              ├ CVSS             ─ ghsa ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H 
+│                              │                         ╰ V3Score : 7.5 
+│                              ├ References       ╭ [0]: https://github.com/golang-jwt/jwt 
+│                              │                  ├ [1]: https://github.com/golang-jwt/jwt/commit/0951d184286de
+│                              │                  │      ce21f73c85673fd308786ffe9c3 
+│                              │                  ╰ [2]: https://github.com/golang-jwt/jwt/security/advisories/
+│                              │                         GHSA-mh63-6h87-95cp 
+│                              ├ PublishedDate   : 2025-03-21T22:15:26.42Z 
+│                              ╰ LastModifiedDate: 2025-03-21T22:15:26.42Z 
 ├ [9]  ╭ Target         : usr/local/bin/k3d 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : gobinary 
