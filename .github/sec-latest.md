@@ -4462,8 +4462,8 @@
 │                              │                  ├ Name: GitHub Security Advisory Go 
 │                              │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+e
 │                              │                          cosystem%3Ago 
-│                              ├ Title           : golang-jwt is a Go implementation of JSON Web Tokens. Prior
-│                              │                   to  5.2.2  ... 
+│                              ├ Title           : golang-jwt/jwt: jwt-go allows excessive memory allocation
+│                              │                   during header parsing 
 │                              ├ Description     : golang-jwt is a Go implementation of JSON Web Tokens. Prior
 │                              │                   to 
 │                              │                   5.2.2 and 4.5.2, the function parse.ParseUnverified splits
@@ -4477,14 +4477,22 @@
 │                              │                   and 4.5.2. 
 │                              ├ Severity        : HIGH 
 │                              ├ CweIDs           ─ [0]: CWE-405 
-│                              ├ VendorSeverity   ─ ghsa: 3 
-│                              ├ CVSS             ─ ghsa ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H 
-│                              │                         ╰ V3Score : 7.5 
-│                              ├ References       ╭ [0]: https://github.com/golang-jwt/jwt 
-│                              │                  ├ [1]: https://github.com/golang-jwt/jwt/commit/0951d184286de
+│                              ├ VendorSeverity   ╭ ghsa  : 3 
+│                              │                  ╰ redhat: 3 
+│                              ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
+│                              │                  │        │           /A:H 
+│                              │                  │        ╰ V3Score : 7.5 
+│                              │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
+│                              │                           │           /A:H 
+│                              │                           ╰ V3Score : 7.5 
+│                              ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-30204 
+│                              │                  ├ [1]: https://github.com/golang-jwt/jwt 
+│                              │                  ├ [2]: https://github.com/golang-jwt/jwt/commit/0951d184286de
 │                              │                  │      ce21f73c85673fd308786ffe9c3 
-│                              │                  ╰ [2]: https://github.com/golang-jwt/jwt/security/advisories/
-│                              │                         GHSA-mh63-6h87-95cp 
+│                              │                  ├ [3]: https://github.com/golang-jwt/jwt/security/advisories/
+│                              │                  │      GHSA-mh63-6h87-95cp 
+│                              │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-30204 
+│                              │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-30204 
 │                              ├ PublishedDate   : 2025-03-21T22:15:26.42Z 
 │                              ╰ LastModifiedDate: 2025-03-21T22:15:26.42Z 
 ├ [9]  ╭ Target         : usr/local/bin/k3d 
