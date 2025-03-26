@@ -1357,7 +1357,8 @@
 │                        │      │                  │       ro=ubuntu-22.04 
 │                        │      │                  ╰ UID : c6eff1938e7c14c6 
 │                        │      ├ InstalledVersion: 0.186-1build1 
-│                        │      ├ Status          : affected 
+│                        │      ├ FixedVersion    : 0.186-1ubuntu0.1 
+│                        │      ├ Status          : fixed 
 │                        │      ├ Layer            ╭ Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf
 │                        │      │                  │         4a8143db4b97d428659d0 
 │                        │      │                  ╰ DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e
@@ -1382,7 +1383,8 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ╭ [0]: CWE-119 
 │                        │      │                  ╰ [1]: CWE-120 
-│                        │      ├ VendorSeverity   ╭ redhat: 2 
+│                        │      ├ VendorSeverity   ╭ photon: 3 
+│                        │      │                  ├ redhat: 2 
 │                        │      │                  ╰ ubuntu: 2 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:
 │                        │      │                           │           L/A:L 
@@ -1395,11 +1397,12 @@
 │                        │      │                  ├ [4] : https://sourceware.org/bugzilla/show_bug.cgi?id=3265
 │                        │      │                  │       6#c3 
 │                        │      │                  ├ [5] : https://sourceware.org/bugzilla/show_bug.cgi?id=32657 
-│                        │      │                  ├ [6] : https://vuldb.com/?ctiid.295981 
-│                        │      │                  ├ [7] : https://vuldb.com/?id.295981 
-│                        │      │                  ├ [8] : https://vuldb.com/?submit.496485 
-│                        │      │                  ├ [9] : https://www.cve.org/CVERecord?id=CVE-2025-1372 
-│                        │      │                  ╰ [10]: https://www.gnu.org/ 
+│                        │      │                  ├ [6] : https://ubuntu.com/security/notices/USN-7369-1 
+│                        │      │                  ├ [7] : https://vuldb.com/?ctiid.295981 
+│                        │      │                  ├ [8] : https://vuldb.com/?id.295981 
+│                        │      │                  ├ [9] : https://vuldb.com/?submit.496485 
+│                        │      │                  ├ [10]: https://www.cve.org/CVERecord?id=CVE-2025-1372 
+│                        │      │                  ╰ [11]: https://www.gnu.org/ 
 │                        │      ├ PublishedDate   : 2025-02-17T03:15:09.573Z 
 │                        │      ╰ LastModifiedDate: 2025-02-17T03:15:09.573Z 
 │                        ├ [28] ╭ VulnerabilityID : CVE-2025-1376 
@@ -1433,7 +1436,8 @@
 │                        │      │                   recommended to apply a patch to fix this issue. 
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-404 
-│                        │      ├ VendorSeverity   ╭ redhat: 1 
+│                        │      ├ VendorSeverity   ╭ photon: 2 
+│                        │      │                  ├ redhat: 1 
 │                        │      │                  ╰ ubuntu: 2 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:
 │                        │      │                           │           N/A:L 
@@ -1458,7 +1462,8 @@
 │                        │      │                  │       ro=ubuntu-22.04 
 │                        │      │                  ╰ UID : c6eff1938e7c14c6 
 │                        │      ├ InstalledVersion: 0.186-1build1 
-│                        │      ├ Status          : affected 
+│                        │      ├ FixedVersion    : 0.186-1ubuntu0.1 
+│                        │      ├ Status          : fixed 
 │                        │      ├ Layer            ╭ Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf
 │                        │      │                  │         4a8143db4b97d428659d0 
 │                        │      │                  ╰ DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e
@@ -1481,22 +1486,25 @@
 │                        │      │                    to apply a patch to fix this issue. 
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-404 
-│                        │      ├ VendorSeverity   ╭ redhat: 1 
+│                        │      ├ VendorSeverity   ╭ photon: 3 
+│                        │      │                  ├ redhat: 1 
 │                        │      │                  ╰ ubuntu: 2 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:
 │                        │      │                           │           N/A:L 
 │                        │      │                           ╰ V3Score : 3.3 
-│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-1377 
-│                        │      │                  ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2025-1377 
-│                        │      │                  ├ [2]: https://sourceware.org/bugzilla/attachment.cgi?id=15941 
-│                        │      │                  ├ [3]: https://sourceware.org/bugzilla/show_bug.cgi?id=32673 
-│                        │      │                  ├ [4]: https://sourceware.org/bugzilla/show_bug.cgi?id=32673
-│                        │      │                  │      #c2 
-│                        │      │                  ├ [5]: https://vuldb.com/?ctiid.295985 
-│                        │      │                  ├ [6]: https://vuldb.com/?id.295985 
-│                        │      │                  ├ [7]: https://vuldb.com/?submit.497539 
-│                        │      │                  ├ [8]: https://www.cve.org/CVERecord?id=CVE-2025-1377 
-│                        │      │                  ╰ [9]: https://www.gnu.org/ 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2025-1377 
+│                        │      │                  ├ [1] : https://nvd.nist.gov/vuln/detail/CVE-2025-1377 
+│                        │      │                  ├ [2] : https://sourceware.org/bugzilla/attachment.cgi?id=15
+│                        │      │                  │       941 
+│                        │      │                  ├ [3] : https://sourceware.org/bugzilla/show_bug.cgi?id=32673 
+│                        │      │                  ├ [4] : https://sourceware.org/bugzilla/show_bug.cgi?id=3267
+│                        │      │                  │       3#c2 
+│                        │      │                  ├ [5] : https://ubuntu.com/security/notices/USN-7369-1 
+│                        │      │                  ├ [6] : https://vuldb.com/?ctiid.295985 
+│                        │      │                  ├ [7] : https://vuldb.com/?id.295985 
+│                        │      │                  ├ [8] : https://vuldb.com/?submit.497539 
+│                        │      │                  ├ [9] : https://www.cve.org/CVERecord?id=CVE-2025-1377 
+│                        │      │                  ╰ [10]: https://www.gnu.org/ 
 │                        │      ├ PublishedDate   : 2025-02-17T05:15:10.09Z 
 │                        │      ╰ LastModifiedDate: 2025-02-17T05:15:10.09Z 
 │                        ├ [30] ╭ VulnerabilityID : CVE-2024-8176 
