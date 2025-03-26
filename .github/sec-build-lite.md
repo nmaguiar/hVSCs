@@ -899,7 +899,8 @@
 │                        │      │                  │       64&distro=ubuntu-24.04 
 │                        │      │                  ╰ UID : fae2e99bf4936d6c 
 │                        │      ├ InstalledVersion: 0.190-1.1build4.1 
-│                        │      ├ Status          : affected 
+│                        │      ├ FixedVersion    : 0.190-1.1ubuntu0.1 
+│                        │      ├ Status          : fixed 
 │                        │      ├ Layer            ╭ Digest: sha256:c6993c5985389d7ef0e6449184b23c7543ee28e5819
 │                        │      │                  │         2b4f8f0e4540140cacee1 
 │                        │      │                  ╰ DiffID: sha256:591821b453bce57948b813374fea7f6ec50d6d07d0b
@@ -923,22 +924,25 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ╭ [0]: CWE-119 
 │                        │      │                  ╰ [1]: CWE-120 
-│                        │      ├ VendorSeverity   ╭ redhat: 2 
+│                        │      ├ VendorSeverity   ╭ photon: 3 
+│                        │      │                  ├ redhat: 2 
 │                        │      │                  ╰ ubuntu: 2 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:
 │                        │      │                           │           L/A:L 
 │                        │      │                           ╰ V3Score : 5.3 
-│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-1365 
-│                        │      │                  ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2025-1365 
-│                        │      │                  ├ [2]: https://sourceware.org/bugzilla/attachment.cgi?id=15925 
-│                        │      │                  ├ [3]: https://sourceware.org/bugzilla/show_bug.cgi?id=32654 
-│                        │      │                  ├ [4]: https://sourceware.org/bugzilla/show_bug.cgi?id=32654
-│                        │      │                  │      #c2 
-│                        │      │                  ├ [5]: https://vuldb.com/?ctiid.295977 
-│                        │      │                  ├ [6]: https://vuldb.com/?id.295977 
-│                        │      │                  ├ [7]: https://vuldb.com/?submit.496483 
-│                        │      │                  ├ [8]: https://www.cve.org/CVERecord?id=CVE-2025-1365 
-│                        │      │                  ╰ [9]: https://www.gnu.org/ 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2025-1365 
+│                        │      │                  ├ [1] : https://nvd.nist.gov/vuln/detail/CVE-2025-1365 
+│                        │      │                  ├ [2] : https://sourceware.org/bugzilla/attachment.cgi?id=15
+│                        │      │                  │       925 
+│                        │      │                  ├ [3] : https://sourceware.org/bugzilla/show_bug.cgi?id=32654 
+│                        │      │                  ├ [4] : https://sourceware.org/bugzilla/show_bug.cgi?id=3265
+│                        │      │                  │       4#c2 
+│                        │      │                  ├ [5] : https://ubuntu.com/security/notices/USN-7369-1 
+│                        │      │                  ├ [6] : https://vuldb.com/?ctiid.295977 
+│                        │      │                  ├ [7] : https://vuldb.com/?id.295977 
+│                        │      │                  ├ [8] : https://vuldb.com/?submit.496483 
+│                        │      │                  ├ [9] : https://www.cve.org/CVERecord?id=CVE-2025-1365 
+│                        │      │                  ╰ [10]: https://www.gnu.org/ 
 │                        │      ├ PublishedDate   : 2025-02-17T00:15:09.14Z 
 │                        │      ╰ LastModifiedDate: 2025-02-17T00:15:09.14Z 
 │                        ├ [21] ╭ VulnerabilityID : CVE-2025-1371 
@@ -948,7 +952,8 @@
 │                        │      │                  │       64&distro=ubuntu-24.04 
 │                        │      │                  ╰ UID : fae2e99bf4936d6c 
 │                        │      ├ InstalledVersion: 0.190-1.1build4.1 
-│                        │      ├ Status          : affected 
+│                        │      ├ FixedVersion    : 0.190-1.1ubuntu0.1 
+│                        │      ├ Status          : fixed 
 │                        │      ├ Layer            ╭ Digest: sha256:c6993c5985389d7ef0e6449184b23c7543ee28e5819
 │                        │      │                  │         2b4f8f0e4540140cacee1 
 │                        │      │                  ╰ DiffID: sha256:591821b453bce57948b813374fea7f6ec50d6d07d0b
@@ -977,17 +982,19 @@
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:
 │                        │      │                           │           N/A:L 
 │                        │      │                           ╰ V3Score : 3.3 
-│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-1371 
-│                        │      │                  ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2025-1371 
-│                        │      │                  ├ [2]: https://sourceware.org/bugzilla/attachment.cgi?id=15926 
-│                        │      │                  ├ [3]: https://sourceware.org/bugzilla/show_bug.cgi?id=32655 
-│                        │      │                  ├ [4]: https://sourceware.org/bugzilla/show_bug.cgi?id=32655
-│                        │      │                  │      #c2 
-│                        │      │                  ├ [5]: https://vuldb.com/?ctiid.295978 
-│                        │      │                  ├ [6]: https://vuldb.com/?id.295978 
-│                        │      │                  ├ [7]: https://vuldb.com/?submit.496484 
-│                        │      │                  ├ [8]: https://www.cve.org/CVERecord?id=CVE-2025-1371 
-│                        │      │                  ╰ [9]: https://www.gnu.org/ 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2025-1371 
+│                        │      │                  ├ [1] : https://nvd.nist.gov/vuln/detail/CVE-2025-1371 
+│                        │      │                  ├ [2] : https://sourceware.org/bugzilla/attachment.cgi?id=15
+│                        │      │                  │       926 
+│                        │      │                  ├ [3] : https://sourceware.org/bugzilla/show_bug.cgi?id=32655 
+│                        │      │                  ├ [4] : https://sourceware.org/bugzilla/show_bug.cgi?id=3265
+│                        │      │                  │       5#c2 
+│                        │      │                  ├ [5] : https://ubuntu.com/security/notices/USN-7369-1 
+│                        │      │                  ├ [6] : https://vuldb.com/?ctiid.295978 
+│                        │      │                  ├ [7] : https://vuldb.com/?id.295978 
+│                        │      │                  ├ [8] : https://vuldb.com/?submit.496484 
+│                        │      │                  ├ [9] : https://www.cve.org/CVERecord?id=CVE-2025-1371 
+│                        │      │                  ╰ [10]: https://www.gnu.org/ 
 │                        │      ├ PublishedDate   : 2025-02-17T03:15:09.4Z 
 │                        │      ╰ LastModifiedDate: 2025-02-18T20:15:24.36Z 
 │                        ├ [22] ╭ VulnerabilityID : CVE-2025-1372 
@@ -997,7 +1004,8 @@
 │                        │      │                  │       64&distro=ubuntu-24.04 
 │                        │      │                  ╰ UID : fae2e99bf4936d6c 
 │                        │      ├ InstalledVersion: 0.190-1.1build4.1 
-│                        │      ├ Status          : affected 
+│                        │      ├ FixedVersion    : 0.190-1.1ubuntu0.1 
+│                        │      ├ Status          : fixed 
 │                        │      ├ Layer            ╭ Digest: sha256:c6993c5985389d7ef0e6449184b23c7543ee28e5819
 │                        │      │                  │         2b4f8f0e4540140cacee1 
 │                        │      │                  ╰ DiffID: sha256:591821b453bce57948b813374fea7f6ec50d6d07d0b
@@ -1022,7 +1030,8 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ╭ [0]: CWE-119 
 │                        │      │                  ╰ [1]: CWE-120 
-│                        │      ├ VendorSeverity   ╭ redhat: 2 
+│                        │      ├ VendorSeverity   ╭ photon: 3 
+│                        │      │                  ├ redhat: 2 
 │                        │      │                  ╰ ubuntu: 2 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:
 │                        │      │                           │           L/A:L 
@@ -1035,11 +1044,12 @@
 │                        │      │                  ├ [4] : https://sourceware.org/bugzilla/show_bug.cgi?id=3265
 │                        │      │                  │       6#c3 
 │                        │      │                  ├ [5] : https://sourceware.org/bugzilla/show_bug.cgi?id=32657 
-│                        │      │                  ├ [6] : https://vuldb.com/?ctiid.295981 
-│                        │      │                  ├ [7] : https://vuldb.com/?id.295981 
-│                        │      │                  ├ [8] : https://vuldb.com/?submit.496485 
-│                        │      │                  ├ [9] : https://www.cve.org/CVERecord?id=CVE-2025-1372 
-│                        │      │                  ╰ [10]: https://www.gnu.org/ 
+│                        │      │                  ├ [6] : https://ubuntu.com/security/notices/USN-7369-1 
+│                        │      │                  ├ [7] : https://vuldb.com/?ctiid.295981 
+│                        │      │                  ├ [8] : https://vuldb.com/?id.295981 
+│                        │      │                  ├ [9] : https://vuldb.com/?submit.496485 
+│                        │      │                  ├ [10]: https://www.cve.org/CVERecord?id=CVE-2025-1372 
+│                        │      │                  ╰ [11]: https://www.gnu.org/ 
 │                        │      ├ PublishedDate   : 2025-02-17T03:15:09.573Z 
 │                        │      ╰ LastModifiedDate: 2025-02-17T03:15:09.573Z 
 │                        ├ [23] ╭ VulnerabilityID : CVE-2025-1376 
@@ -1073,7 +1083,8 @@
 │                        │      │                   recommended to apply a patch to fix this issue. 
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-404 
-│                        │      ├ VendorSeverity   ╭ redhat: 1 
+│                        │      ├ VendorSeverity   ╭ photon: 2 
+│                        │      │                  ├ redhat: 1 
 │                        │      │                  ╰ ubuntu: 2 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:
 │                        │      │                           │           N/A:L 
@@ -1098,7 +1109,8 @@
 │                        │      │                  │       64&distro=ubuntu-24.04 
 │                        │      │                  ╰ UID : fae2e99bf4936d6c 
 │                        │      ├ InstalledVersion: 0.190-1.1build4.1 
-│                        │      ├ Status          : affected 
+│                        │      ├ FixedVersion    : 0.190-1.1ubuntu0.1 
+│                        │      ├ Status          : fixed 
 │                        │      ├ Layer            ╭ Digest: sha256:c6993c5985389d7ef0e6449184b23c7543ee28e5819
 │                        │      │                  │         2b4f8f0e4540140cacee1 
 │                        │      │                  ╰ DiffID: sha256:591821b453bce57948b813374fea7f6ec50d6d07d0b
@@ -1121,22 +1133,25 @@
 │                        │      │                    to apply a patch to fix this issue. 
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-404 
-│                        │      ├ VendorSeverity   ╭ redhat: 1 
+│                        │      ├ VendorSeverity   ╭ photon: 3 
+│                        │      │                  ├ redhat: 1 
 │                        │      │                  ╰ ubuntu: 2 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:
 │                        │      │                           │           N/A:L 
 │                        │      │                           ╰ V3Score : 3.3 
-│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-1377 
-│                        │      │                  ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2025-1377 
-│                        │      │                  ├ [2]: https://sourceware.org/bugzilla/attachment.cgi?id=15941 
-│                        │      │                  ├ [3]: https://sourceware.org/bugzilla/show_bug.cgi?id=32673 
-│                        │      │                  ├ [4]: https://sourceware.org/bugzilla/show_bug.cgi?id=32673
-│                        │      │                  │      #c2 
-│                        │      │                  ├ [5]: https://vuldb.com/?ctiid.295985 
-│                        │      │                  ├ [6]: https://vuldb.com/?id.295985 
-│                        │      │                  ├ [7]: https://vuldb.com/?submit.497539 
-│                        │      │                  ├ [8]: https://www.cve.org/CVERecord?id=CVE-2025-1377 
-│                        │      │                  ╰ [9]: https://www.gnu.org/ 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2025-1377 
+│                        │      │                  ├ [1] : https://nvd.nist.gov/vuln/detail/CVE-2025-1377 
+│                        │      │                  ├ [2] : https://sourceware.org/bugzilla/attachment.cgi?id=15
+│                        │      │                  │       941 
+│                        │      │                  ├ [3] : https://sourceware.org/bugzilla/show_bug.cgi?id=32673 
+│                        │      │                  ├ [4] : https://sourceware.org/bugzilla/show_bug.cgi?id=3267
+│                        │      │                  │       3#c2 
+│                        │      │                  ├ [5] : https://ubuntu.com/security/notices/USN-7369-1 
+│                        │      │                  ├ [6] : https://vuldb.com/?ctiid.295985 
+│                        │      │                  ├ [7] : https://vuldb.com/?id.295985 
+│                        │      │                  ├ [8] : https://vuldb.com/?submit.497539 
+│                        │      │                  ├ [9] : https://www.cve.org/CVERecord?id=CVE-2025-1377 
+│                        │      │                  ╰ [10]: https://www.gnu.org/ 
 │                        │      ├ PublishedDate   : 2025-02-17T05:15:10.09Z 
 │                        │      ╰ LastModifiedDate: 2025-02-17T05:15:10.09Z 
 │                        ├ [25] ╭ VulnerabilityID : CVE-2024-25260 
@@ -1146,7 +1161,8 @@
 │                        │      │                  │       64&distro=ubuntu-24.04 
 │                        │      │                  ╰ UID : fae2e99bf4936d6c 
 │                        │      ├ InstalledVersion: 0.190-1.1build4.1 
-│                        │      ├ Status          : affected 
+│                        │      ├ FixedVersion    : 0.190-1.1ubuntu0.1 
+│                        │      ├ Status          : fixed 
 │                        │      ├ Layer            ╭ Digest: sha256:c6993c5985389d7ef0e6449184b23c7543ee28e5819
 │                        │      │                  │         2b4f8f0e4540140cacee1 
 │                        │      │                  ╰ DiffID: sha256:591821b453bce57948b813374fea7f6ec50d6d07d0b
@@ -1172,7 +1188,8 @@
 │                        │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-25260 
 │                        │      │                  ├ [3]: https://sourceware.org/bugzilla/show_bug.cgi?id=31058 
 │                        │      │                  ├ [4]: https://sourceware.org/elfutils/ 
-│                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-25260 
+│                        │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-7369-1 
+│                        │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-25260 
 │                        │      ├ PublishedDate   : 2024-02-20T18:15:52.88Z 
 │                        │      ╰ LastModifiedDate: 2024-11-21T09:00:33Z 
 │                        ├ [26] ╭ VulnerabilityID : CVE-2024-8176 
