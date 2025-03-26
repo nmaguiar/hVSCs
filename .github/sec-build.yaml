@@ -1243,7 +1243,8 @@
       PURL: pkg:deb/ubuntu/libelf1@0.186-1build1?arch=amd64&distro=ubuntu-22.04
       UID: c6eff1938e7c14c6
     InstalledVersion: 0.186-1build1
-    Status: affected
+    FixedVersion: 0.186-1ubuntu0.1
+    Status: fixed
     Layer:
       Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
       DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
@@ -1260,6 +1261,7 @@
     - CWE-119
     - CWE-120
     VendorSeverity:
+      photon: 3
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -1273,6 +1275,7 @@
     - https://sourceware.org/bugzilla/show_bug.cgi?id=32656
     - https://sourceware.org/bugzilla/show_bug.cgi?id=32656#c3
     - https://sourceware.org/bugzilla/show_bug.cgi?id=32657
+    - https://ubuntu.com/security/notices/USN-7369-1
     - https://vuldb.com/?ctiid.295981
     - https://vuldb.com/?id.295981
     - https://vuldb.com/?submit.496485
@@ -1303,6 +1306,7 @@
     CweIDs:
     - CWE-404
     VendorSeverity:
+      photon: 2
       redhat: 1
       ubuntu: 2
     CVSS:
@@ -1329,7 +1333,8 @@
       PURL: pkg:deb/ubuntu/libelf1@0.186-1build1?arch=amd64&distro=ubuntu-22.04
       UID: c6eff1938e7c14c6
     InstalledVersion: 0.186-1build1
-    Status: affected
+    FixedVersion: 0.186-1ubuntu0.1
+    Status: fixed
     Layer:
       Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
       DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
@@ -1345,6 +1350,7 @@
     CweIDs:
     - CWE-404
     VendorSeverity:
+      photon: 3
       redhat: 1
       ubuntu: 2
     CVSS:
@@ -1357,6 +1363,7 @@
     - https://sourceware.org/bugzilla/attachment.cgi?id=15941
     - https://sourceware.org/bugzilla/show_bug.cgi?id=32673
     - https://sourceware.org/bugzilla/show_bug.cgi?id=32673#c2
+    - https://ubuntu.com/security/notices/USN-7369-1
     - https://vuldb.com/?ctiid.295985
     - https://vuldb.com/?id.295985
     - https://vuldb.com/?submit.497539
