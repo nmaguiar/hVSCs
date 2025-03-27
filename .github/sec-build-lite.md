@@ -2319,7 +2319,8 @@
 │                              │                    incorrectly match and not be proxied. 
 │                              ├ Severity        : MEDIUM 
 │                              ├ CweIDs           ─ [0]: CWE-115 
-│                              ├ VendorSeverity   ╭ ghsa  : 2 
+│                              ├ VendorSeverity   ╭ amazon: 2 
+│                              │                  ├ ghsa  : 2 
 │                              │                  ╰ redhat: 2 
 │                              ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N
 │                              │                  │        │           /A:L 
@@ -2473,7 +2474,8 @@
 │                              │                    incorrectly match and not be proxied. 
 │                              ├ Severity        : MEDIUM 
 │                              ├ CweIDs           ─ [0]: CWE-115 
-│                              ├ VendorSeverity   ╭ ghsa  : 2 
+│                              ├ VendorSeverity   ╭ amazon: 2 
+│                              │                  ├ ghsa  : 2 
 │                              │                  ╰ redhat: 2 
 │                              ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N
 │                              │                  │        │           /A:L 
@@ -2620,7 +2622,8 @@
 │                              │                    incorrectly match and not be proxied. 
 │                              ├ Severity        : MEDIUM 
 │                              ├ CweIDs           ─ [0]: CWE-115 
-│                              ├ VendorSeverity   ╭ ghsa  : 2 
+│                              ├ VendorSeverity   ╭ amazon: 2 
+│                              │                  ├ ghsa  : 2 
 │                              │                  ╰ redhat: 2 
 │                              ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N
 │                              │                  │        │           /A:L 
@@ -2726,7 +2729,8 @@
 │                              │                    incorrectly match and not be proxied. 
 │                              ├ Severity        : MEDIUM 
 │                              ├ CweIDs           ─ [0]: CWE-115 
-│                              ├ VendorSeverity   ╭ ghsa  : 2 
+│                              ├ VendorSeverity   ╭ amazon: 2 
+│                              │                  ├ ghsa  : 2 
 │                              │                  ╰ redhat: 2 
 │                              ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N
 │                              │                  │        │           /A:L 
@@ -3079,7 +3083,8 @@
 │                        │     │                    incorrectly match and not be proxied. 
 │                        │     ├ Severity        : MEDIUM 
 │                        │     ├ CweIDs           ─ [0]: CWE-115 
-│                        │     ├ VendorSeverity   ╭ ghsa  : 2 
+│                        │     ├ VendorSeverity   ╭ amazon: 2 
+│                        │     │                  ├ ghsa  : 2 
 │                        │     │                  ╰ redhat: 2 
 │                        │     ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N
 │                        │     │                  │        │           /A:L 
