@@ -1556,10 +1556,12 @@
 │                        │      │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2024-8176 
 │                        │      │                  ├ [9] : https://security-tracker.debian.org/tracker/CVE-2024
 │                        │      │                  │       -8176 
-│                        │      │                  ├ [10]: https://ubuntu.com/security/CVE-2024-8176 
-│                        │      │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2024-8176 
+│                        │      │                  ├ [10]: https://security.netapp.com/advisory/ntap-20250328-0
+│                        │      │                  │       009/ 
+│                        │      │                  ├ [11]: https://ubuntu.com/security/CVE-2024-8176 
+│                        │      │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2024-8176 
 │                        │      ├ PublishedDate   : 2025-03-14T09:15:14.157Z 
-│                        │      ╰ LastModifiedDate: 2025-03-17T17:15:36.167Z 
+│                        │      ╰ LastModifiedDate: 2025-03-28T15:15:46.157Z 
 │                        ├ [31] ╭ VulnerabilityID : CVE-2025-23022 
 │                        │      ├ PkgID           : libfreetype6@2.11.1+dfsg-1ubuntu0.3 
 │                        │      ├ PkgName         : libfreetype6 
@@ -4026,6 +4028,7 @@
 │                              ├ Severity        : MEDIUM 
 │                              ├ CweIDs           ─ [0]: CWE-115 
 │                              ├ VendorSeverity   ╭ amazon     : 2 
+│                              │                  ├ azure      : 1 
 │                              │                  ├ cbl-mariner: 2 
 │                              │                  ├ ghsa       : 2 
 │                              │                  ╰ redhat     : 2 
@@ -4182,6 +4185,7 @@
 │                              ├ Severity        : MEDIUM 
 │                              ├ CweIDs           ─ [0]: CWE-115 
 │                              ├ VendorSeverity   ╭ amazon     : 2 
+│                              │                  ├ azure      : 1 
 │                              │                  ├ cbl-mariner: 2 
 │                              │                  ├ ghsa       : 2 
 │                              │                  ╰ redhat     : 2 
@@ -4337,6 +4341,7 @@
 │                              ├ Severity        : MEDIUM 
 │                              ├ CweIDs           ─ [0]: CWE-115 
 │                              ├ VendorSeverity   ╭ amazon     : 2 
+│                              │                  ├ azure      : 1 
 │                              │                  ├ cbl-mariner: 2 
 │                              │                  ├ ghsa       : 2 
 │                              │                  ╰ redhat     : 2 
@@ -4451,6 +4456,7 @@
 │                              ├ Severity        : MEDIUM 
 │                              ├ CweIDs           ─ [0]: CWE-115 
 │                              ├ VendorSeverity   ╭ amazon     : 2 
+│                              │                  ├ azure      : 1 
 │                              │                  ├ cbl-mariner: 2 
 │                              │                  ├ ghsa       : 2 
 │                              │                  ╰ redhat     : 2 
@@ -4815,6 +4821,7 @@
 │                        │     ├ Severity        : MEDIUM 
 │                        │     ├ CweIDs           ─ [0]: CWE-115 
 │                        │     ├ VendorSeverity   ╭ amazon     : 2 
+│                        │     │                  ├ azure      : 1 
 │                        │     │                  ├ cbl-mariner: 2 
 │                        │     │                  ├ ghsa       : 2 
 │                        │     │                  ╰ redhat     : 2 
