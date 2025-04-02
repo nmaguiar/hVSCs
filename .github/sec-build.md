@@ -4405,7 +4405,8 @@
 │                              │                   and 4.5.2. 
 │                              ├ Severity        : HIGH 
 │                              ├ CweIDs           ─ [0]: CWE-405 
-│                              ├ VendorSeverity   ╭ ghsa       : 3 
+│                              ├ VendorSeverity   ╭ alma       : 3 
+│                              │                  ├ ghsa       : 3 
 │                              │                  ├ oracle-oval: 3 
 │                              │                  ╰ redhat     : 3 
 │                              ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
@@ -4414,16 +4415,19 @@
 │                              │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
 │                              │                           │           /A:H 
 │                              │                           ╰ V3Score : 7.5 
-│                              ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-30204 
-│                              │                  ├ [1]: https://github.com/golang-jwt/jwt 
-│                              │                  ├ [2]: https://github.com/golang-jwt/jwt/commit/0951d184286de
-│                              │                  │      ce21f73c85673fd308786ffe9c3 
-│                              │                  ├ [3]: https://github.com/golang-jwt/jwt/security/advisories/
-│                              │                  │      GHSA-mh63-6h87-95cp 
-│                              │                  ├ [4]: https://linux.oracle.com/cve/CVE-2025-30204.html 
-│                              │                  ├ [5]: https://linux.oracle.com/errata/ELSA-2025-3344.html 
-│                              │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2025-30204 
-│                              │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-30204 
+│                              ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:3344 
+│                              │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-30204 
+│                              │                  ├ [2] : https://bugzilla.redhat.com/2354195 
+│                              │                  ├ [3] : https://errata.almalinux.org/9/ALSA-2025-3344.html 
+│                              │                  ├ [4] : https://github.com/golang-jwt/jwt 
+│                              │                  ├ [5] : https://github.com/golang-jwt/jwt/commit/0951d184286d
+│                              │                  │       ece21f73c85673fd308786ffe9c3 
+│                              │                  ├ [6] : https://github.com/golang-jwt/jwt/security/advisories
+│                              │                  │       /GHSA-mh63-6h87-95cp 
+│                              │                  ├ [7] : https://linux.oracle.com/cve/CVE-2025-30204.html 
+│                              │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2025-3344.html 
+│                              │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2025-30204 
+│                              │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2025-30204 
 │                              ├ PublishedDate   : 2025-03-21T22:15:26.42Z 
 │                              ╰ LastModifiedDate: 2025-03-21T22:15:26.42Z 
 ├ [9]  ╭ Target         : usr/local/bin/k3d 
