@@ -4023,6 +4023,7 @@
     CweIDs:
     - CWE-405
     VendorSeverity:
+      alma: 3
       ghsa: 3
       oracle-oval: 3
       redhat: 3
@@ -4034,7 +4035,10 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
+    - https://access.redhat.com/errata/RHSA-2025:3344
     - https://access.redhat.com/security/cve/CVE-2025-30204
+    - https://bugzilla.redhat.com/2354195
+    - https://errata.almalinux.org/9/ALSA-2025-3344.html
     - https://github.com/golang-jwt/jwt
     - https://github.com/golang-jwt/jwt/commit/0951d184286dece21f73c85673fd308786ffe9c3
     - https://github.com/golang-jwt/jwt/security/advisories/GHSA-mh63-6h87-95cp
