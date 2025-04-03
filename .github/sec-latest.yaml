@@ -1440,6 +1440,7 @@
     CweIDs:
     - CWE-190
     VendorSeverity:
+      amazon: 3
       nvd: 2
       redhat: 2
       ubuntu: 2
@@ -3787,6 +3788,7 @@
     CweIDs:
     - CWE-190
     VendorSeverity:
+      amazon: 2
       ghsa: 2
       redhat: 2
       ubuntu: 2
@@ -3918,6 +3920,7 @@
     CweIDs:
     - CWE-190
     VendorSeverity:
+      amazon: 2
       ghsa: 2
       redhat: 2
       ubuntu: 2
@@ -4076,6 +4079,7 @@
     CweIDs:
     - CWE-190
     VendorSeverity:
+      amazon: 2
       ghsa: 2
       redhat: 2
       ubuntu: 2
