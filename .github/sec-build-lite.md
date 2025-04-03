@@ -2536,7 +2536,8 @@
 │                        │     │                   permissions to import images. 
 │                        │     ├ Severity        : MEDIUM 
 │                        │     ├ CweIDs           ─ [0]: CWE-190 
-│                        │     ├ VendorSeverity   ╭ ghsa  : 2 
+│                        │     ├ VendorSeverity   ╭ amazon: 2 
+│                        │     │                  ├ ghsa  : 2 
 │                        │     │                  ├ redhat: 2 
 │                        │     │                  ╰ ubuntu: 2 
 │                        │     ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:C/C:L/I:L
@@ -2692,7 +2693,8 @@
 │                              │                   permissions to import images. 
 │                              ├ Severity        : MEDIUM 
 │                              ├ CweIDs           ─ [0]: CWE-190 
-│                              ├ VendorSeverity   ╭ ghsa  : 2 
+│                              ├ VendorSeverity   ╭ amazon: 2 
+│                              │                  ├ ghsa  : 2 
 │                              │                  ├ redhat: 2 
 │                              │                  ╰ ubuntu: 2 
 │                              ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:C/C:L/I:L
@@ -2868,7 +2870,8 @@
 │                        │     │                   permissions to import images. 
 │                        │     ├ Severity        : MEDIUM 
 │                        │     ├ CweIDs           ─ [0]: CWE-190 
-│                        │     ├ VendorSeverity   ╭ ghsa  : 2 
+│                        │     ├ VendorSeverity   ╭ amazon: 2 
+│                        │     │                  ├ ghsa  : 2 
 │                        │     │                  ├ redhat: 2 
 │                        │     │                  ╰ ubuntu: 2 
 │                        │     ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:C/C:L/I:L
