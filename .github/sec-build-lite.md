@@ -874,7 +874,8 @@
 │                        │      │                   It is recommended to apply a patch to fix this issue. 
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-119 
-│                        │      ├ VendorSeverity   ╭ redhat: 2 
+│                        │      ├ VendorSeverity   ╭ photon: 3 
+│                        │      │                  ├ redhat: 2 
 │                        │      │                  ╰ ubuntu: 2 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:
 │                        │      │                           │           L/A:L 
@@ -1222,6 +1223,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-674 
 │                        │      ├ VendorSeverity   ╭ cbl-mariner: 3 
+│                        │      │                  ├ oracle-oval: 2 
 │                        │      │                  ├ redhat     : 2 
 │                        │      │                  ╰ ubuntu     : 2 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
@@ -1229,24 +1231,27 @@
 │                        │      │                           ╰ V3Score : 7.5 
 │                        │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/03/1
 │                        │      │                  │       5/1 
-│                        │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024-8176 
-│                        │      │                  ├ [2] : https://blog.hartwork.org/posts/expat-2-7-0-released/ 
-│                        │      │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2310137 
-│                        │      │                  ├ [4] : https://bugzilla.suse.com/show_bug.cgi?id=1239618 
-│                        │      │                  ├ [5] : https://github.com/libexpat/libexpat/blob/R_2_7_0/ex
+│                        │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:3531 
+│                        │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2024-8176 
+│                        │      │                  ├ [3] : https://blog.hartwork.org/posts/expat-2-7-0-released/ 
+│                        │      │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2310137 
+│                        │      │                  ├ [5] : https://bugzilla.suse.com/show_bug.cgi?id=1239618 
+│                        │      │                  ├ [6] : https://github.com/libexpat/libexpat/blob/R_2_7_0/ex
 │                        │      │                  │       pat/Changes#L40-L52 
-│                        │      │                  ├ [6] : https://github.com/libexpat/libexpat/issues/893 
-│                        │      │                  ├ [7] : https://gitlab.alpinelinux.org/alpine/aports/-/commi
+│                        │      │                  ├ [7] : https://github.com/libexpat/libexpat/issues/893 
+│                        │      │                  ├ [8] : https://gitlab.alpinelinux.org/alpine/aports/-/commi
 │                        │      │                  │       t/d068c3ff36fc6f4789988a09c69b434db757db53 
-│                        │      │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2024-8176 
-│                        │      │                  ├ [9] : https://security-tracker.debian.org/tracker/CVE-2024
+│                        │      │                  ├ [9] : https://linux.oracle.com/cve/CVE-2024-8176.html 
+│                        │      │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2025-3531.html 
+│                        │      │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2024-8176 
+│                        │      │                  ├ [12]: https://security-tracker.debian.org/tracker/CVE-2024
 │                        │      │                  │       -8176 
-│                        │      │                  ├ [10]: https://security.netapp.com/advisory/ntap-20250328-0
+│                        │      │                  ├ [13]: https://security.netapp.com/advisory/ntap-20250328-0
 │                        │      │                  │       009/ 
-│                        │      │                  ├ [11]: https://ubuntu.com/security/CVE-2024-8176 
-│                        │      │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2024-8176 
+│                        │      │                  ├ [14]: https://ubuntu.com/security/CVE-2024-8176 
+│                        │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2024-8176 
 │                        │      ├ PublishedDate   : 2025-03-14T09:15:14.157Z 
-│                        │      ╰ LastModifiedDate: 2025-03-28T15:15:46.157Z 
+│                        │      ╰ LastModifiedDate: 2025-04-02T15:15:57.987Z 
 │                        ├ [27] ╭ VulnerabilityID : CVE-2024-2236 
 │                        │      ├ PkgID           : libgcrypt20@1.10.3-2build1 
 │                        │      ├ PkgName         : libgcrypt20 
@@ -1280,24 +1285,26 @@
 │                        │      │                           │           N/A:N 
 │                        │      │                           ╰ V3Score : 5.9 
 │                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:9404 
-│                        │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024-2236 
-│                        │      │                  ├ [2] : https://bugzilla.redhat.com/2245218 
-│                        │      │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2245218 
-│                        │      │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2268268 
-│                        │      │                  ├ [5] : https://dev.gnupg.org/T7136 
-│                        │      │                  ├ [6] : https://errata.almalinux.org/9/ALSA-2024-9404.html 
-│                        │      │                  ├ [7] : https://github.com/tomato42/marvin-toolkit/tree/mast
+│                        │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:3530 
+│                        │      │                  ├ [2] : https://access.redhat.com/errata/RHSA-2025:3534 
+│                        │      │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2024-2236 
+│                        │      │                  ├ [4] : https://bugzilla.redhat.com/2245218 
+│                        │      │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2245218 
+│                        │      │                  ├ [6] : https://bugzilla.redhat.com/show_bug.cgi?id=2268268 
+│                        │      │                  ├ [7] : https://dev.gnupg.org/T7136 
+│                        │      │                  ├ [8] : https://errata.almalinux.org/9/ALSA-2024-9404.html 
+│                        │      │                  ├ [9] : https://github.com/tomato42/marvin-toolkit/tree/mast
 │                        │      │                  │       er/example/libgcrypt 
-│                        │      │                  ├ [8] : https://gitlab.com/redhat-crypto/libgcrypt/libgcrypt
+│                        │      │                  ├ [10]: https://gitlab.com/redhat-crypto/libgcrypt/libgcrypt
 │                        │      │                  │       -mirror/-/merge_requests/17 
-│                        │      │                  ├ [9] : https://linux.oracle.com/cve/CVE-2024-2236.html 
-│                        │      │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2024-9404.html 
-│                        │      │                  ├ [11]: https://lists.gnupg.org/pipermail/gcrypt-devel/2024-
+│                        │      │                  ├ [11]: https://linux.oracle.com/cve/CVE-2024-2236.html 
+│                        │      │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2024-9404.html 
+│                        │      │                  ├ [13]: https://lists.gnupg.org/pipermail/gcrypt-devel/2024-
 │                        │      │                  │       March/005607.html 
-│                        │      │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2024-2236 
-│                        │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2024-2236 
+│                        │      │                  ├ [14]: https://nvd.nist.gov/vuln/detail/CVE-2024-2236 
+│                        │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2024-2236 
 │                        │      ├ PublishedDate   : 2024-03-06T22:15:57.977Z 
-│                        │      ╰ LastModifiedDate: 2024-11-21T09:09:19.41Z 
+│                        │      ╰ LastModifiedDate: 2025-04-02T17:15:37.79Z 
 │                        ├ [28] ╭ VulnerabilityID : CVE-2024-10041 
 │                        │      ├ PkgID           : libpam-modules@1.5.3-5ubuntu5.1 
 │                        │      ├ PkgName         : libpam-modules 
@@ -1326,7 +1333,7 @@
 │                        │      │                   authentications. 
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-922 
-│                        │      ├ VendorSeverity   ╭ alma       : 2 
+│                        │      ├ VendorSeverity   ╭ alma       : 3 
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ oracle-oval: 2 
 │                        │      │                  ├ redhat     : 2 
@@ -1340,18 +1347,19 @@
 │                        │      │                  ├ [2] : https://access.redhat.com/errata/RHSA-2024:9941 
 │                        │      │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2024-10041 
 │                        │      │                  ├ [4] : https://bugzilla.redhat.com/2319212 
-│                        │      │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2319212 
-│                        │      │                  ├ [6] : https://bugzilla.redhat.com/show_bug.cgi?id=2324291 
-│                        │      │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                        │      │                  │       024-10041 
+│                        │      │                  ├ [5] : https://bugzilla.redhat.com/2324291 
+│                        │      │                  ├ [6] : https://bugzilla.redhat.com/show_bug.cgi?id=2319212 
+│                        │      │                  ├ [7] : https://bugzilla.redhat.com/show_bug.cgi?id=2324291 
 │                        │      │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                        │      │                  │       024-10041 
+│                        │      │                  ├ [9] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                        │      │                  │       024-10963 
-│                        │      │                  ├ [9] : https://errata.almalinux.org/9/ALSA-2024-11250.html 
-│                        │      │                  ├ [10]: https://errata.rockylinux.org/RLSA-2024:10379 
-│                        │      │                  ├ [11]: https://linux.oracle.com/cve/CVE-2024-10041.html 
-│                        │      │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2024-11250.html 
-│                        │      │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2024-10041 
-│                        │      │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2024-10041 
+│                        │      │                  ├ [10]: https://errata.almalinux.org/8/ALSA-2024-10379.html 
+│                        │      │                  ├ [11]: https://errata.rockylinux.org/RLSA-2024:10379 
+│                        │      │                  ├ [12]: https://linux.oracle.com/cve/CVE-2024-10041.html 
+│                        │      │                  ├ [13]: https://linux.oracle.com/errata/ELSA-2024-11250.html 
+│                        │      │                  ├ [14]: https://nvd.nist.gov/vuln/detail/CVE-2024-10041 
+│                        │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2024-10041 
 │                        │      ├ PublishedDate   : 2024-10-23T14:15:03.97Z 
 │                        │      ╰ LastModifiedDate: 2024-12-18T10:15:05.85Z 
 │                        ├ [29] ╭ VulnerabilityID : CVE-2024-10963 
@@ -1398,19 +1406,20 @@
 │                        │      │                  ├ [4] : https://access.redhat.com/errata/RHSA-2024:10528 
 │                        │      │                  ├ [5] : https://access.redhat.com/errata/RHSA-2024:10852 
 │                        │      │                  ├ [6] : https://access.redhat.com/security/cve/CVE-2024-10963 
-│                        │      │                  ├ [7] : https://bugzilla.redhat.com/2324291 
-│                        │      │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2319212 
-│                        │      │                  ├ [9] : https://bugzilla.redhat.com/show_bug.cgi?id=2324291 
-│                        │      │                  ├ [10]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                        │      │                  │       024-10041 
+│                        │      │                  ├ [7] : https://bugzilla.redhat.com/2319212 
+│                        │      │                  ├ [8] : https://bugzilla.redhat.com/2324291 
+│                        │      │                  ├ [9] : https://bugzilla.redhat.com/show_bug.cgi?id=2319212 
+│                        │      │                  ├ [10]: https://bugzilla.redhat.com/show_bug.cgi?id=2324291 
 │                        │      │                  ├ [11]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                        │      │                  │       024-10041 
+│                        │      │                  ├ [12]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                        │      │                  │       024-10963 
-│                        │      │                  ├ [12]: https://errata.almalinux.org/9/ALSA-2024-10244.html 
-│                        │      │                  ├ [13]: https://errata.rockylinux.org/RLSA-2024:10379 
-│                        │      │                  ├ [14]: https://linux.oracle.com/cve/CVE-2024-10963.html 
-│                        │      │                  ├ [15]: https://linux.oracle.com/errata/ELSA-2024-10379.html 
-│                        │      │                  ├ [16]: https://nvd.nist.gov/vuln/detail/CVE-2024-10963 
-│                        │      │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2024-10963 
+│                        │      │                  ├ [13]: https://errata.almalinux.org/8/ALSA-2024-10379.html 
+│                        │      │                  ├ [14]: https://errata.rockylinux.org/RLSA-2024:10379 
+│                        │      │                  ├ [15]: https://linux.oracle.com/cve/CVE-2024-10963.html 
+│                        │      │                  ├ [16]: https://linux.oracle.com/errata/ELSA-2024-10379.html 
+│                        │      │                  ├ [17]: https://nvd.nist.gov/vuln/detail/CVE-2024-10963 
+│                        │      │                  ╰ [18]: https://www.cve.org/CVERecord?id=CVE-2024-10963 
 │                        │      ├ PublishedDate   : 2024-11-07T16:15:17.15Z 
 │                        │      ╰ LastModifiedDate: 2025-02-06T06:15:29.24Z 
 │                        ├ [30] ╭ VulnerabilityID : CVE-2024-10041 
@@ -1441,7 +1450,7 @@
 │                        │      │                   authentications. 
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-922 
-│                        │      ├ VendorSeverity   ╭ alma       : 2 
+│                        │      ├ VendorSeverity   ╭ alma       : 3 
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ oracle-oval: 2 
 │                        │      │                  ├ redhat     : 2 
@@ -1455,18 +1464,19 @@
 │                        │      │                  ├ [2] : https://access.redhat.com/errata/RHSA-2024:9941 
 │                        │      │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2024-10041 
 │                        │      │                  ├ [4] : https://bugzilla.redhat.com/2319212 
-│                        │      │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2319212 
-│                        │      │                  ├ [6] : https://bugzilla.redhat.com/show_bug.cgi?id=2324291 
-│                        │      │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                        │      │                  │       024-10041 
+│                        │      │                  ├ [5] : https://bugzilla.redhat.com/2324291 
+│                        │      │                  ├ [6] : https://bugzilla.redhat.com/show_bug.cgi?id=2319212 
+│                        │      │                  ├ [7] : https://bugzilla.redhat.com/show_bug.cgi?id=2324291 
 │                        │      │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                        │      │                  │       024-10041 
+│                        │      │                  ├ [9] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                        │      │                  │       024-10963 
-│                        │      │                  ├ [9] : https://errata.almalinux.org/9/ALSA-2024-11250.html 
-│                        │      │                  ├ [10]: https://errata.rockylinux.org/RLSA-2024:10379 
-│                        │      │                  ├ [11]: https://linux.oracle.com/cve/CVE-2024-10041.html 
-│                        │      │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2024-11250.html 
-│                        │      │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2024-10041 
-│                        │      │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2024-10041 
+│                        │      │                  ├ [10]: https://errata.almalinux.org/8/ALSA-2024-10379.html 
+│                        │      │                  ├ [11]: https://errata.rockylinux.org/RLSA-2024:10379 
+│                        │      │                  ├ [12]: https://linux.oracle.com/cve/CVE-2024-10041.html 
+│                        │      │                  ├ [13]: https://linux.oracle.com/errata/ELSA-2024-11250.html 
+│                        │      │                  ├ [14]: https://nvd.nist.gov/vuln/detail/CVE-2024-10041 
+│                        │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2024-10041 
 │                        │      ├ PublishedDate   : 2024-10-23T14:15:03.97Z 
 │                        │      ╰ LastModifiedDate: 2024-12-18T10:15:05.85Z 
 │                        ├ [31] ╭ VulnerabilityID : CVE-2024-10963 
@@ -1513,19 +1523,20 @@
 │                        │      │                  ├ [4] : https://access.redhat.com/errata/RHSA-2024:10528 
 │                        │      │                  ├ [5] : https://access.redhat.com/errata/RHSA-2024:10852 
 │                        │      │                  ├ [6] : https://access.redhat.com/security/cve/CVE-2024-10963 
-│                        │      │                  ├ [7] : https://bugzilla.redhat.com/2324291 
-│                        │      │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2319212 
-│                        │      │                  ├ [9] : https://bugzilla.redhat.com/show_bug.cgi?id=2324291 
-│                        │      │                  ├ [10]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                        │      │                  │       024-10041 
+│                        │      │                  ├ [7] : https://bugzilla.redhat.com/2319212 
+│                        │      │                  ├ [8] : https://bugzilla.redhat.com/2324291 
+│                        │      │                  ├ [9] : https://bugzilla.redhat.com/show_bug.cgi?id=2319212 
+│                        │      │                  ├ [10]: https://bugzilla.redhat.com/show_bug.cgi?id=2324291 
 │                        │      │                  ├ [11]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                        │      │                  │       024-10041 
+│                        │      │                  ├ [12]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                        │      │                  │       024-10963 
-│                        │      │                  ├ [12]: https://errata.almalinux.org/9/ALSA-2024-10244.html 
-│                        │      │                  ├ [13]: https://errata.rockylinux.org/RLSA-2024:10379 
-│                        │      │                  ├ [14]: https://linux.oracle.com/cve/CVE-2024-10963.html 
-│                        │      │                  ├ [15]: https://linux.oracle.com/errata/ELSA-2024-10379.html 
-│                        │      │                  ├ [16]: https://nvd.nist.gov/vuln/detail/CVE-2024-10963 
-│                        │      │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2024-10963 
+│                        │      │                  ├ [13]: https://errata.almalinux.org/8/ALSA-2024-10379.html 
+│                        │      │                  ├ [14]: https://errata.rockylinux.org/RLSA-2024:10379 
+│                        │      │                  ├ [15]: https://linux.oracle.com/cve/CVE-2024-10963.html 
+│                        │      │                  ├ [16]: https://linux.oracle.com/errata/ELSA-2024-10379.html 
+│                        │      │                  ├ [17]: https://nvd.nist.gov/vuln/detail/CVE-2024-10963 
+│                        │      │                  ╰ [18]: https://www.cve.org/CVERecord?id=CVE-2024-10963 
 │                        │      ├ PublishedDate   : 2024-11-07T16:15:17.15Z 
 │                        │      ╰ LastModifiedDate: 2025-02-06T06:15:29.24Z 
 │                        ├ [32] ╭ VulnerabilityID : CVE-2024-10041 
@@ -1556,7 +1567,7 @@
 │                        │      │                   authentications. 
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-922 
-│                        │      ├ VendorSeverity   ╭ alma       : 2 
+│                        │      ├ VendorSeverity   ╭ alma       : 3 
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ oracle-oval: 2 
 │                        │      │                  ├ redhat     : 2 
@@ -1570,18 +1581,19 @@
 │                        │      │                  ├ [2] : https://access.redhat.com/errata/RHSA-2024:9941 
 │                        │      │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2024-10041 
 │                        │      │                  ├ [4] : https://bugzilla.redhat.com/2319212 
-│                        │      │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2319212 
-│                        │      │                  ├ [6] : https://bugzilla.redhat.com/show_bug.cgi?id=2324291 
-│                        │      │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                        │      │                  │       024-10041 
+│                        │      │                  ├ [5] : https://bugzilla.redhat.com/2324291 
+│                        │      │                  ├ [6] : https://bugzilla.redhat.com/show_bug.cgi?id=2319212 
+│                        │      │                  ├ [7] : https://bugzilla.redhat.com/show_bug.cgi?id=2324291 
 │                        │      │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                        │      │                  │       024-10041 
+│                        │      │                  ├ [9] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                        │      │                  │       024-10963 
-│                        │      │                  ├ [9] : https://errata.almalinux.org/9/ALSA-2024-11250.html 
-│                        │      │                  ├ [10]: https://errata.rockylinux.org/RLSA-2024:10379 
-│                        │      │                  ├ [11]: https://linux.oracle.com/cve/CVE-2024-10041.html 
-│                        │      │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2024-11250.html 
-│                        │      │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2024-10041 
-│                        │      │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2024-10041 
+│                        │      │                  ├ [10]: https://errata.almalinux.org/8/ALSA-2024-10379.html 
+│                        │      │                  ├ [11]: https://errata.rockylinux.org/RLSA-2024:10379 
+│                        │      │                  ├ [12]: https://linux.oracle.com/cve/CVE-2024-10041.html 
+│                        │      │                  ├ [13]: https://linux.oracle.com/errata/ELSA-2024-11250.html 
+│                        │      │                  ├ [14]: https://nvd.nist.gov/vuln/detail/CVE-2024-10041 
+│                        │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2024-10041 
 │                        │      ├ PublishedDate   : 2024-10-23T14:15:03.97Z 
 │                        │      ╰ LastModifiedDate: 2024-12-18T10:15:05.85Z 
 │                        ├ [33] ╭ VulnerabilityID : CVE-2024-10963 
@@ -1628,19 +1640,20 @@
 │                        │      │                  ├ [4] : https://access.redhat.com/errata/RHSA-2024:10528 
 │                        │      │                  ├ [5] : https://access.redhat.com/errata/RHSA-2024:10852 
 │                        │      │                  ├ [6] : https://access.redhat.com/security/cve/CVE-2024-10963 
-│                        │      │                  ├ [7] : https://bugzilla.redhat.com/2324291 
-│                        │      │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2319212 
-│                        │      │                  ├ [9] : https://bugzilla.redhat.com/show_bug.cgi?id=2324291 
-│                        │      │                  ├ [10]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                        │      │                  │       024-10041 
+│                        │      │                  ├ [7] : https://bugzilla.redhat.com/2319212 
+│                        │      │                  ├ [8] : https://bugzilla.redhat.com/2324291 
+│                        │      │                  ├ [9] : https://bugzilla.redhat.com/show_bug.cgi?id=2319212 
+│                        │      │                  ├ [10]: https://bugzilla.redhat.com/show_bug.cgi?id=2324291 
 │                        │      │                  ├ [11]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                        │      │                  │       024-10041 
+│                        │      │                  ├ [12]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                        │      │                  │       024-10963 
-│                        │      │                  ├ [12]: https://errata.almalinux.org/9/ALSA-2024-10244.html 
-│                        │      │                  ├ [13]: https://errata.rockylinux.org/RLSA-2024:10379 
-│                        │      │                  ├ [14]: https://linux.oracle.com/cve/CVE-2024-10963.html 
-│                        │      │                  ├ [15]: https://linux.oracle.com/errata/ELSA-2024-10379.html 
-│                        │      │                  ├ [16]: https://nvd.nist.gov/vuln/detail/CVE-2024-10963 
-│                        │      │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2024-10963 
+│                        │      │                  ├ [13]: https://errata.almalinux.org/8/ALSA-2024-10379.html 
+│                        │      │                  ├ [14]: https://errata.rockylinux.org/RLSA-2024:10379 
+│                        │      │                  ├ [15]: https://linux.oracle.com/cve/CVE-2024-10963.html 
+│                        │      │                  ├ [16]: https://linux.oracle.com/errata/ELSA-2024-10379.html 
+│                        │      │                  ├ [17]: https://nvd.nist.gov/vuln/detail/CVE-2024-10963 
+│                        │      │                  ╰ [18]: https://www.cve.org/CVERecord?id=CVE-2024-10963 
 │                        │      ├ PublishedDate   : 2024-11-07T16:15:17.15Z 
 │                        │      ╰ LastModifiedDate: 2025-02-06T06:15:29.24Z 
 │                        ├ [34] ╭ VulnerabilityID : CVE-2024-10041 
@@ -1671,7 +1684,7 @@
 │                        │      │                   authentications. 
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-922 
-│                        │      ├ VendorSeverity   ╭ alma       : 2 
+│                        │      ├ VendorSeverity   ╭ alma       : 3 
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ oracle-oval: 2 
 │                        │      │                  ├ redhat     : 2 
@@ -1685,18 +1698,19 @@
 │                        │      │                  ├ [2] : https://access.redhat.com/errata/RHSA-2024:9941 
 │                        │      │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2024-10041 
 │                        │      │                  ├ [4] : https://bugzilla.redhat.com/2319212 
-│                        │      │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2319212 
-│                        │      │                  ├ [6] : https://bugzilla.redhat.com/show_bug.cgi?id=2324291 
-│                        │      │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                        │      │                  │       024-10041 
+│                        │      │                  ├ [5] : https://bugzilla.redhat.com/2324291 
+│                        │      │                  ├ [6] : https://bugzilla.redhat.com/show_bug.cgi?id=2319212 
+│                        │      │                  ├ [7] : https://bugzilla.redhat.com/show_bug.cgi?id=2324291 
 │                        │      │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                        │      │                  │       024-10041 
+│                        │      │                  ├ [9] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                        │      │                  │       024-10963 
-│                        │      │                  ├ [9] : https://errata.almalinux.org/9/ALSA-2024-11250.html 
-│                        │      │                  ├ [10]: https://errata.rockylinux.org/RLSA-2024:10379 
-│                        │      │                  ├ [11]: https://linux.oracle.com/cve/CVE-2024-10041.html 
-│                        │      │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2024-11250.html 
-│                        │      │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2024-10041 
-│                        │      │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2024-10041 
+│                        │      │                  ├ [10]: https://errata.almalinux.org/8/ALSA-2024-10379.html 
+│                        │      │                  ├ [11]: https://errata.rockylinux.org/RLSA-2024:10379 
+│                        │      │                  ├ [12]: https://linux.oracle.com/cve/CVE-2024-10041.html 
+│                        │      │                  ├ [13]: https://linux.oracle.com/errata/ELSA-2024-11250.html 
+│                        │      │                  ├ [14]: https://nvd.nist.gov/vuln/detail/CVE-2024-10041 
+│                        │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2024-10041 
 │                        │      ├ PublishedDate   : 2024-10-23T14:15:03.97Z 
 │                        │      ╰ LastModifiedDate: 2024-12-18T10:15:05.85Z 
 │                        ├ [35] ╭ VulnerabilityID : CVE-2024-10963 
@@ -1743,19 +1757,20 @@
 │                        │      │                  ├ [4] : https://access.redhat.com/errata/RHSA-2024:10528 
 │                        │      │                  ├ [5] : https://access.redhat.com/errata/RHSA-2024:10852 
 │                        │      │                  ├ [6] : https://access.redhat.com/security/cve/CVE-2024-10963 
-│                        │      │                  ├ [7] : https://bugzilla.redhat.com/2324291 
-│                        │      │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2319212 
-│                        │      │                  ├ [9] : https://bugzilla.redhat.com/show_bug.cgi?id=2324291 
-│                        │      │                  ├ [10]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                        │      │                  │       024-10041 
+│                        │      │                  ├ [7] : https://bugzilla.redhat.com/2319212 
+│                        │      │                  ├ [8] : https://bugzilla.redhat.com/2324291 
+│                        │      │                  ├ [9] : https://bugzilla.redhat.com/show_bug.cgi?id=2319212 
+│                        │      │                  ├ [10]: https://bugzilla.redhat.com/show_bug.cgi?id=2324291 
 │                        │      │                  ├ [11]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                        │      │                  │       024-10041 
+│                        │      │                  ├ [12]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                        │      │                  │       024-10963 
-│                        │      │                  ├ [12]: https://errata.almalinux.org/9/ALSA-2024-10244.html 
-│                        │      │                  ├ [13]: https://errata.rockylinux.org/RLSA-2024:10379 
-│                        │      │                  ├ [14]: https://linux.oracle.com/cve/CVE-2024-10963.html 
-│                        │      │                  ├ [15]: https://linux.oracle.com/errata/ELSA-2024-10379.html 
-│                        │      │                  ├ [16]: https://nvd.nist.gov/vuln/detail/CVE-2024-10963 
-│                        │      │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2024-10963 
+│                        │      │                  ├ [13]: https://errata.almalinux.org/8/ALSA-2024-10379.html 
+│                        │      │                  ├ [14]: https://errata.rockylinux.org/RLSA-2024:10379 
+│                        │      │                  ├ [15]: https://linux.oracle.com/cve/CVE-2024-10963.html 
+│                        │      │                  ├ [16]: https://linux.oracle.com/errata/ELSA-2024-10379.html 
+│                        │      │                  ├ [17]: https://nvd.nist.gov/vuln/detail/CVE-2024-10963 
+│                        │      │                  ╰ [18]: https://www.cve.org/CVERecord?id=CVE-2024-10963 
 │                        │      ├ PublishedDate   : 2024-11-07T16:15:17.15Z 
 │                        │      ╰ LastModifiedDate: 2025-02-06T06:15:29.24Z 
 │                        ├ [36] ╭ VulnerabilityID : CVE-2024-41996 
@@ -2136,53 +2151,469 @@
 │                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                        │      ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                        │      ╰ LastModifiedDate: 2024-12-26T09:15:07.267Z 
-│                        ╰ [44] ╭ VulnerabilityID : CVE-2021-31879 
-│                               ├ PkgID           : wget@1.21.4-1ubuntu4.1 
-│                               ├ PkgName         : wget 
-│                               ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/wget@1.21.4-1ubuntu4.1?arch=amd64&dis
-│                               │                  │       tro=ubuntu-24.04 
-│                               │                  ╰ UID : 96161d6c104c53f0 
-│                               ├ InstalledVersion: 1.21.4-1ubuntu4.1 
-│                               ├ Status          : affected 
+│                        ├ [44] ╭ VulnerabilityID : CVE-2025-1215 
+│                        │      ├ PkgID           : vim@2:9.1.0016-1ubuntu7.6 
+│                        │      ├ PkgName         : vim 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/vim@9.1.0016-1ubuntu7.6?arch=amd64&di
+│                        │      │                  │       stro=ubuntu-24.04&epoch=2 
+│                        │      │                  ╰ UID : a6f16d0e891e3667 
+│                        │      ├ InstalledVersion: 2:9.1.0016-1ubuntu7.6 
+│                        │      ├ Status          : affected 
+│                        │      ├ Layer            ╭ Digest: sha256:c6993c5985389d7ef0e6449184b23c7543ee28e5819
+│                        │      │                  │         2b4f8f0e4540140cacee1 
+│                        │      │                  ╰ DiffID: sha256:591821b453bce57948b813374fea7f6ec50d6d07d0b
+│                        │      │                            76aa76dff8682c6234cf3 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-1215 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : vim: vim main.c memory corruption 
+│                        │      ├ Description     : A vulnerability classified as problematic was found in vim
+│                        │      │                   up to 9.1.1096. This vulnerability affects unknown code of
+│                        │      │                   the file src/main.c. The manipulation of the argument --log
+│                        │      │                    leads to memory corruption. It is possible to launch the
+│                        │      │                   attack on the local host. Upgrading to version 9.1.1097 is
+│                        │      │                   able to address this issue. The patch is identified as
+│                        │      │                   c5654b84480822817bb7b69ebc97c174c91185e9. It is recommended
+│                        │      │                    to upgrade the affected component. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ CweIDs           ─ [0]: CWE-119 
+│                        │      ├ VendorSeverity   ╭ azure      : 1 
+│                        │      │                  ├ cbl-mariner: 1 
+│                        │      │                  ├ redhat     : 1 
+│                        │      │                  ╰ ubuntu     : 2 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:N/I:
+│                        │      │                           │           N/A:L 
+│                        │      │                           ╰ V3Score : 2.8 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-1215 
+│                        │      │                  ├ [1]: https://github.com/vim/vim/commit/c5654b84480822817bb
+│                        │      │                  │      7b69ebc97c174c91185e9 
+│                        │      │                  ├ [2]: https://github.com/vim/vim/issues/16606 
+│                        │      │                  ├ [3]: https://github.com/vim/vim/releases/tag/v9.1.1097 
+│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-1215 
+│                        │      │                  ├ [5]: https://security.netapp.com/advisory/ntap-20250321-00
+│                        │      │                  │      05/ 
+│                        │      │                  ├ [6]: https://vuldb.com/?ctiid.295174 
+│                        │      │                  ├ [7]: https://vuldb.com/?id.295174 
+│                        │      │                  ├ [8]: https://vuldb.com/?submit.497546 
+│                        │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2025-1215 
+│                        │      ├ PublishedDate   : 2025-02-12T19:15:10.23Z 
+│                        │      ╰ LastModifiedDate: 2025-03-21T18:15:34.29Z 
+│                        ├ [45] ╭ VulnerabilityID : CVE-2025-24014 
+│                        │      ├ PkgID           : vim@2:9.1.0016-1ubuntu7.6 
+│                        │      ├ PkgName         : vim 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/vim@9.1.0016-1ubuntu7.6?arch=amd64&di
+│                        │      │                  │       stro=ubuntu-24.04&epoch=2 
+│                        │      │                  ╰ UID : a6f16d0e891e3667 
+│                        │      ├ InstalledVersion: 2:9.1.0016-1ubuntu7.6 
+│                        │      ├ FixedVersion    : 2:9.1.0016-1ubuntu7.7 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:c6993c5985389d7ef0e6449184b23c7543ee28e5819
+│                        │      │                  │         2b4f8f0e4540140cacee1 
+│                        │      │                  ╰ DiffID: sha256:591821b453bce57948b813374fea7f6ec50d6d07d0b
+│                        │      │                            76aa76dff8682c6234cf3 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-24014 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : vim: segmentation fault in win_line() in Vim < 9.1.1043 
+│                        │      ├ Description     : Vim is an open source, command line text editor. A
+│                        │      │                   segmentation fault was found in Vim before 9.1.1043. In
+│                        │      │                   silent Ex mode (-s -e), Vim typically doesn't show a screen
+│                        │      │                    and just operates silently in batch mode. However, it is
+│                        │      │                   still possible to trigger the function that handles the
+│                        │      │                   scrolling of a gui version of Vim by feeding some binary
+│                        │      │                   characters to Vim. The function that handles the scrolling
+│                        │      │                   however may be triggering a redraw, which will access the
+│                        │      │                   ScreenLines pointer, even so this variable hasn't been
+│                        │      │                   allocated (since there is no screen). This vulnerability is
+│                        │      │                    fixed in 9.1.1043. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ CweIDs           ─ [0]: CWE-787 
+│                        │      ├ VendorSeverity   ╭ amazon     : 2 
+│                        │      │                  ├ azure      : 2 
+│                        │      │                  ├ cbl-mariner: 2 
+│                        │      │                  ├ redhat     : 1 
+│                        │      │                  ╰ ubuntu     : 2 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:
+│                        │      │                           │           L/A:L 
+│                        │      │                           ╰ V3Score : 4.2 
+│                        │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/01/20/4 
+│                        │      │                  ├ [1]: http://www.openwall.com/lists/oss-security/2025/01/21/1 
+│                        │      │                  ├ [2]: https://access.redhat.com/security/cve/CVE-2025-24014 
+│                        │      │                  ├ [3]: https://github.com/vim/vim/commit/9d1bed5eccdbb46a26b
+│                        │      │                  │      8a484f5e9163c40e63919 
+│                        │      │                  ├ [4]: https://github.com/vim/vim/security/advisories/GHSA-j
+│                        │      │                  │      3g9-wg22-v955 
+│                        │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-24014 
+│                        │      │                  ├ [6]: https://security.netapp.com/advisory/ntap-20250314-00
+│                        │      │                  │      05/ 
+│                        │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-7261-1 
+│                        │      │                  ├ [8]: https://ubuntu.com/security/notices/USN-7261-2 
+│                        │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2025-24014 
+│                        │      ├ PublishedDate   : 2025-01-20T23:15:07.73Z 
+│                        │      ╰ LastModifiedDate: 2025-03-14T10:15:16.24Z 
+│                        ├ [46] ╭ VulnerabilityID : CVE-2025-1215 
+│                        │      ├ PkgID           : vim-common@2:9.1.0016-1ubuntu7.6 
+│                        │      ├ PkgName         : vim-common 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/vim-common@9.1.0016-1ubuntu7.6?arch=a
+│                        │      │                  │       ll&distro=ubuntu-24.04&epoch=2 
+│                        │      │                  ╰ UID : 47cef8428edbdc7d 
+│                        │      ├ InstalledVersion: 2:9.1.0016-1ubuntu7.6 
+│                        │      ├ Status          : affected 
+│                        │      ├ Layer            ╭ Digest: sha256:c6993c5985389d7ef0e6449184b23c7543ee28e5819
+│                        │      │                  │         2b4f8f0e4540140cacee1 
+│                        │      │                  ╰ DiffID: sha256:591821b453bce57948b813374fea7f6ec50d6d07d0b
+│                        │      │                            76aa76dff8682c6234cf3 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-1215 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : vim: vim main.c memory corruption 
+│                        │      ├ Description     : A vulnerability classified as problematic was found in vim
+│                        │      │                   up to 9.1.1096. This vulnerability affects unknown code of
+│                        │      │                   the file src/main.c. The manipulation of the argument --log
+│                        │      │                    leads to memory corruption. It is possible to launch the
+│                        │      │                   attack on the local host. Upgrading to version 9.1.1097 is
+│                        │      │                   able to address this issue. The patch is identified as
+│                        │      │                   c5654b84480822817bb7b69ebc97c174c91185e9. It is recommended
+│                        │      │                    to upgrade the affected component. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ CweIDs           ─ [0]: CWE-119 
+│                        │      ├ VendorSeverity   ╭ azure      : 1 
+│                        │      │                  ├ cbl-mariner: 1 
+│                        │      │                  ├ redhat     : 1 
+│                        │      │                  ╰ ubuntu     : 2 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:N/I:
+│                        │      │                           │           N/A:L 
+│                        │      │                           ╰ V3Score : 2.8 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-1215 
+│                        │      │                  ├ [1]: https://github.com/vim/vim/commit/c5654b84480822817bb
+│                        │      │                  │      7b69ebc97c174c91185e9 
+│                        │      │                  ├ [2]: https://github.com/vim/vim/issues/16606 
+│                        │      │                  ├ [3]: https://github.com/vim/vim/releases/tag/v9.1.1097 
+│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-1215 
+│                        │      │                  ├ [5]: https://security.netapp.com/advisory/ntap-20250321-00
+│                        │      │                  │      05/ 
+│                        │      │                  ├ [6]: https://vuldb.com/?ctiid.295174 
+│                        │      │                  ├ [7]: https://vuldb.com/?id.295174 
+│                        │      │                  ├ [8]: https://vuldb.com/?submit.497546 
+│                        │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2025-1215 
+│                        │      ├ PublishedDate   : 2025-02-12T19:15:10.23Z 
+│                        │      ╰ LastModifiedDate: 2025-03-21T18:15:34.29Z 
+│                        ├ [47] ╭ VulnerabilityID : CVE-2025-24014 
+│                        │      ├ PkgID           : vim-common@2:9.1.0016-1ubuntu7.6 
+│                        │      ├ PkgName         : vim-common 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/vim-common@9.1.0016-1ubuntu7.6?arch=a
+│                        │      │                  │       ll&distro=ubuntu-24.04&epoch=2 
+│                        │      │                  ╰ UID : 47cef8428edbdc7d 
+│                        │      ├ InstalledVersion: 2:9.1.0016-1ubuntu7.6 
+│                        │      ├ FixedVersion    : 2:9.1.0016-1ubuntu7.7 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:c6993c5985389d7ef0e6449184b23c7543ee28e5819
+│                        │      │                  │         2b4f8f0e4540140cacee1 
+│                        │      │                  ╰ DiffID: sha256:591821b453bce57948b813374fea7f6ec50d6d07d0b
+│                        │      │                            76aa76dff8682c6234cf3 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-24014 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : vim: segmentation fault in win_line() in Vim < 9.1.1043 
+│                        │      ├ Description     : Vim is an open source, command line text editor. A
+│                        │      │                   segmentation fault was found in Vim before 9.1.1043. In
+│                        │      │                   silent Ex mode (-s -e), Vim typically doesn't show a screen
+│                        │      │                    and just operates silently in batch mode. However, it is
+│                        │      │                   still possible to trigger the function that handles the
+│                        │      │                   scrolling of a gui version of Vim by feeding some binary
+│                        │      │                   characters to Vim. The function that handles the scrolling
+│                        │      │                   however may be triggering a redraw, which will access the
+│                        │      │                   ScreenLines pointer, even so this variable hasn't been
+│                        │      │                   allocated (since there is no screen). This vulnerability is
+│                        │      │                    fixed in 9.1.1043. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ CweIDs           ─ [0]: CWE-787 
+│                        │      ├ VendorSeverity   ╭ amazon     : 2 
+│                        │      │                  ├ azure      : 2 
+│                        │      │                  ├ cbl-mariner: 2 
+│                        │      │                  ├ redhat     : 1 
+│                        │      │                  ╰ ubuntu     : 2 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:
+│                        │      │                           │           L/A:L 
+│                        │      │                           ╰ V3Score : 4.2 
+│                        │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/01/20/4 
+│                        │      │                  ├ [1]: http://www.openwall.com/lists/oss-security/2025/01/21/1 
+│                        │      │                  ├ [2]: https://access.redhat.com/security/cve/CVE-2025-24014 
+│                        │      │                  ├ [3]: https://github.com/vim/vim/commit/9d1bed5eccdbb46a26b
+│                        │      │                  │      8a484f5e9163c40e63919 
+│                        │      │                  ├ [4]: https://github.com/vim/vim/security/advisories/GHSA-j
+│                        │      │                  │      3g9-wg22-v955 
+│                        │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-24014 
+│                        │      │                  ├ [6]: https://security.netapp.com/advisory/ntap-20250314-00
+│                        │      │                  │      05/ 
+│                        │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-7261-1 
+│                        │      │                  ├ [8]: https://ubuntu.com/security/notices/USN-7261-2 
+│                        │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2025-24014 
+│                        │      ├ PublishedDate   : 2025-01-20T23:15:07.73Z 
+│                        │      ╰ LastModifiedDate: 2025-03-14T10:15:16.24Z 
+│                        ├ [48] ╭ VulnerabilityID : CVE-2025-1215 
+│                        │      ├ PkgID           : vim-runtime@2:9.1.0016-1ubuntu7.6 
+│                        │      ├ PkgName         : vim-runtime 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/vim-runtime@9.1.0016-1ubuntu7.6?arch=
+│                        │      │                  │       all&distro=ubuntu-24.04&epoch=2 
+│                        │      │                  ╰ UID : 2c586341da291684 
+│                        │      ├ InstalledVersion: 2:9.1.0016-1ubuntu7.6 
+│                        │      ├ Status          : affected 
+│                        │      ├ Layer            ╭ Digest: sha256:c6993c5985389d7ef0e6449184b23c7543ee28e5819
+│                        │      │                  │         2b4f8f0e4540140cacee1 
+│                        │      │                  ╰ DiffID: sha256:591821b453bce57948b813374fea7f6ec50d6d07d0b
+│                        │      │                            76aa76dff8682c6234cf3 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-1215 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : vim: vim main.c memory corruption 
+│                        │      ├ Description     : A vulnerability classified as problematic was found in vim
+│                        │      │                   up to 9.1.1096. This vulnerability affects unknown code of
+│                        │      │                   the file src/main.c. The manipulation of the argument --log
+│                        │      │                    leads to memory corruption. It is possible to launch the
+│                        │      │                   attack on the local host. Upgrading to version 9.1.1097 is
+│                        │      │                   able to address this issue. The patch is identified as
+│                        │      │                   c5654b84480822817bb7b69ebc97c174c91185e9. It is recommended
+│                        │      │                    to upgrade the affected component. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ CweIDs           ─ [0]: CWE-119 
+│                        │      ├ VendorSeverity   ╭ azure      : 1 
+│                        │      │                  ├ cbl-mariner: 1 
+│                        │      │                  ├ redhat     : 1 
+│                        │      │                  ╰ ubuntu     : 2 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:N/I:
+│                        │      │                           │           N/A:L 
+│                        │      │                           ╰ V3Score : 2.8 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-1215 
+│                        │      │                  ├ [1]: https://github.com/vim/vim/commit/c5654b84480822817bb
+│                        │      │                  │      7b69ebc97c174c91185e9 
+│                        │      │                  ├ [2]: https://github.com/vim/vim/issues/16606 
+│                        │      │                  ├ [3]: https://github.com/vim/vim/releases/tag/v9.1.1097 
+│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-1215 
+│                        │      │                  ├ [5]: https://security.netapp.com/advisory/ntap-20250321-00
+│                        │      │                  │      05/ 
+│                        │      │                  ├ [6]: https://vuldb.com/?ctiid.295174 
+│                        │      │                  ├ [7]: https://vuldb.com/?id.295174 
+│                        │      │                  ├ [8]: https://vuldb.com/?submit.497546 
+│                        │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2025-1215 
+│                        │      ├ PublishedDate   : 2025-02-12T19:15:10.23Z 
+│                        │      ╰ LastModifiedDate: 2025-03-21T18:15:34.29Z 
+│                        ├ [49] ╭ VulnerabilityID : CVE-2025-24014 
+│                        │      ├ PkgID           : vim-runtime@2:9.1.0016-1ubuntu7.6 
+│                        │      ├ PkgName         : vim-runtime 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/vim-runtime@9.1.0016-1ubuntu7.6?arch=
+│                        │      │                  │       all&distro=ubuntu-24.04&epoch=2 
+│                        │      │                  ╰ UID : 2c586341da291684 
+│                        │      ├ InstalledVersion: 2:9.1.0016-1ubuntu7.6 
+│                        │      ├ FixedVersion    : 2:9.1.0016-1ubuntu7.7 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:c6993c5985389d7ef0e6449184b23c7543ee28e5819
+│                        │      │                  │         2b4f8f0e4540140cacee1 
+│                        │      │                  ╰ DiffID: sha256:591821b453bce57948b813374fea7f6ec50d6d07d0b
+│                        │      │                            76aa76dff8682c6234cf3 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-24014 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : vim: segmentation fault in win_line() in Vim < 9.1.1043 
+│                        │      ├ Description     : Vim is an open source, command line text editor. A
+│                        │      │                   segmentation fault was found in Vim before 9.1.1043. In
+│                        │      │                   silent Ex mode (-s -e), Vim typically doesn't show a screen
+│                        │      │                    and just operates silently in batch mode. However, it is
+│                        │      │                   still possible to trigger the function that handles the
+│                        │      │                   scrolling of a gui version of Vim by feeding some binary
+│                        │      │                   characters to Vim. The function that handles the scrolling
+│                        │      │                   however may be triggering a redraw, which will access the
+│                        │      │                   ScreenLines pointer, even so this variable hasn't been
+│                        │      │                   allocated (since there is no screen). This vulnerability is
+│                        │      │                    fixed in 9.1.1043. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ CweIDs           ─ [0]: CWE-787 
+│                        │      ├ VendorSeverity   ╭ amazon     : 2 
+│                        │      │                  ├ azure      : 2 
+│                        │      │                  ├ cbl-mariner: 2 
+│                        │      │                  ├ redhat     : 1 
+│                        │      │                  ╰ ubuntu     : 2 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:
+│                        │      │                           │           L/A:L 
+│                        │      │                           ╰ V3Score : 4.2 
+│                        │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/01/20/4 
+│                        │      │                  ├ [1]: http://www.openwall.com/lists/oss-security/2025/01/21/1 
+│                        │      │                  ├ [2]: https://access.redhat.com/security/cve/CVE-2025-24014 
+│                        │      │                  ├ [3]: https://github.com/vim/vim/commit/9d1bed5eccdbb46a26b
+│                        │      │                  │      8a484f5e9163c40e63919 
+│                        │      │                  ├ [4]: https://github.com/vim/vim/security/advisories/GHSA-j
+│                        │      │                  │      3g9-wg22-v955 
+│                        │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-24014 
+│                        │      │                  ├ [6]: https://security.netapp.com/advisory/ntap-20250314-00
+│                        │      │                  │      05/ 
+│                        │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-7261-1 
+│                        │      │                  ├ [8]: https://ubuntu.com/security/notices/USN-7261-2 
+│                        │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2025-24014 
+│                        │      ├ PublishedDate   : 2025-01-20T23:15:07.73Z 
+│                        │      ╰ LastModifiedDate: 2025-03-14T10:15:16.24Z 
+│                        ├ [50] ╭ VulnerabilityID : CVE-2021-31879 
+│                        │      ├ PkgID           : wget@1.21.4-1ubuntu4.1 
+│                        │      ├ PkgName         : wget 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/wget@1.21.4-1ubuntu4.1?arch=amd64&dis
+│                        │      │                  │       tro=ubuntu-24.04 
+│                        │      │                  ╰ UID : 96161d6c104c53f0 
+│                        │      ├ InstalledVersion: 1.21.4-1ubuntu4.1 
+│                        │      ├ Status          : affected 
+│                        │      ├ Layer            ╭ Digest: sha256:c6993c5985389d7ef0e6449184b23c7543ee28e5819
+│                        │      │                  │         2b4f8f0e4540140cacee1 
+│                        │      │                  ╰ DiffID: sha256:591821b453bce57948b813374fea7f6ec50d6d07d0b
+│                        │      │                            76aa76dff8682c6234cf3 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2021-31879 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : wget: authorization header disclosure on redirect 
+│                        │      ├ Description     : GNU Wget through 1.21.1 does not omit the Authorization
+│                        │      │                   header upon a redirect to a different origin, a related
+│                        │      │                   issue to CVE-2018-1000007. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ CweIDs           ─ [0]: CWE-601 
+│                        │      ├ VendorSeverity   ╭ amazon     : 2 
+│                        │      │                  ├ cbl-mariner: 2 
+│                        │      │                  ├ nvd        : 2 
+│                        │      │                  ├ photon     : 2 
+│                        │      │                  ├ redhat     : 2 
+│                        │      │                  ╰ ubuntu     : 2 
+│                        │      ├ CVSS             ╭ nvd    ╭ V2Vector: AV:N/AC:M/Au:N/C:P/I:P/A:N 
+│                        │      │                  │        ├ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:
+│                        │      │                  │        │           L/A:N 
+│                        │      │                  │        ├ V2Score : 5.8 
+│                        │      │                  │        ╰ V3Score : 6.1 
+│                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:
+│                        │      │                           │           N/A:N 
+│                        │      │                           ╰ V3Score : 6.5 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2021-31879 
+│                        │      │                  ├ [1]: https://mail.gnu.org/archive/html/bug-wget/2021-02/ms
+│                        │      │                  │      g00002.html 
+│                        │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2021-31879 
+│                        │      │                  ├ [3]: https://savannah.gnu.org/bugs/?56909 
+│                        │      │                  ├ [4]: https://security.netapp.com/advisory/ntap-20210618-00
+│                        │      │                  │      02/ 
+│                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2021-31879 
+│                        │      ├ PublishedDate   : 2021-04-29T05:15:08.707Z 
+│                        │      ╰ LastModifiedDate: 2024-11-21T06:06:25.02Z 
+│                        ├ [51] ╭ VulnerabilityID : CVE-2025-1215 
+│                        │      ├ PkgID           : xxd@2:9.1.0016-1ubuntu7.6 
+│                        │      ├ PkgName         : xxd 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/xxd@9.1.0016-1ubuntu7.6?arch=amd64&di
+│                        │      │                  │       stro=ubuntu-24.04&epoch=2 
+│                        │      │                  ╰ UID : 22d49c063cea7406 
+│                        │      ├ InstalledVersion: 2:9.1.0016-1ubuntu7.6 
+│                        │      ├ Status          : affected 
+│                        │      ├ Layer            ╭ Digest: sha256:c6993c5985389d7ef0e6449184b23c7543ee28e5819
+│                        │      │                  │         2b4f8f0e4540140cacee1 
+│                        │      │                  ╰ DiffID: sha256:591821b453bce57948b813374fea7f6ec50d6d07d0b
+│                        │      │                            76aa76dff8682c6234cf3 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-1215 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : vim: vim main.c memory corruption 
+│                        │      ├ Description     : A vulnerability classified as problematic was found in vim
+│                        │      │                   up to 9.1.1096. This vulnerability affects unknown code of
+│                        │      │                   the file src/main.c. The manipulation of the argument --log
+│                        │      │                    leads to memory corruption. It is possible to launch the
+│                        │      │                   attack on the local host. Upgrading to version 9.1.1097 is
+│                        │      │                   able to address this issue. The patch is identified as
+│                        │      │                   c5654b84480822817bb7b69ebc97c174c91185e9. It is recommended
+│                        │      │                    to upgrade the affected component. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ CweIDs           ─ [0]: CWE-119 
+│                        │      ├ VendorSeverity   ╭ azure      : 1 
+│                        │      │                  ├ cbl-mariner: 1 
+│                        │      │                  ├ redhat     : 1 
+│                        │      │                  ╰ ubuntu     : 2 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:N/I:
+│                        │      │                           │           N/A:L 
+│                        │      │                           ╰ V3Score : 2.8 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-1215 
+│                        │      │                  ├ [1]: https://github.com/vim/vim/commit/c5654b84480822817bb
+│                        │      │                  │      7b69ebc97c174c91185e9 
+│                        │      │                  ├ [2]: https://github.com/vim/vim/issues/16606 
+│                        │      │                  ├ [3]: https://github.com/vim/vim/releases/tag/v9.1.1097 
+│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-1215 
+│                        │      │                  ├ [5]: https://security.netapp.com/advisory/ntap-20250321-00
+│                        │      │                  │      05/ 
+│                        │      │                  ├ [6]: https://vuldb.com/?ctiid.295174 
+│                        │      │                  ├ [7]: https://vuldb.com/?id.295174 
+│                        │      │                  ├ [8]: https://vuldb.com/?submit.497546 
+│                        │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2025-1215 
+│                        │      ├ PublishedDate   : 2025-02-12T19:15:10.23Z 
+│                        │      ╰ LastModifiedDate: 2025-03-21T18:15:34.29Z 
+│                        ╰ [52] ╭ VulnerabilityID : CVE-2025-24014 
+│                               ├ PkgID           : xxd@2:9.1.0016-1ubuntu7.6 
+│                               ├ PkgName         : xxd 
+│                               ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/xxd@9.1.0016-1ubuntu7.6?arch=amd64&di
+│                               │                  │       stro=ubuntu-24.04&epoch=2 
+│                               │                  ╰ UID : 22d49c063cea7406 
+│                               ├ InstalledVersion: 2:9.1.0016-1ubuntu7.6 
+│                               ├ FixedVersion    : 2:9.1.0016-1ubuntu7.7 
+│                               ├ Status          : fixed 
 │                               ├ Layer            ╭ Digest: sha256:c6993c5985389d7ef0e6449184b23c7543ee28e5819
 │                               │                  │         2b4f8f0e4540140cacee1 
 │                               │                  ╰ DiffID: sha256:591821b453bce57948b813374fea7f6ec50d6d07d0b
 │                               │                            76aa76dff8682c6234cf3 
 │                               ├ SeveritySource  : ubuntu 
-│                               ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2021-31879 
+│                               ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-24014 
 │                               ├ DataSource       ╭ ID  : ubuntu 
 │                               │                  ├ Name: Ubuntu CVE Tracker 
 │                               │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                               ├ Title           : wget: authorization header disclosure on redirect 
-│                               ├ Description     : GNU Wget through 1.21.1 does not omit the Authorization
-│                               │                   header upon a redirect to a different origin, a related
-│                               │                   issue to CVE-2018-1000007. 
+│                               ├ Title           : vim: segmentation fault in win_line() in Vim < 9.1.1043 
+│                               ├ Description     : Vim is an open source, command line text editor. A
+│                               │                   segmentation fault was found in Vim before 9.1.1043. In
+│                               │                   silent Ex mode (-s -e), Vim typically doesn't show a screen
+│                               │                    and just operates silently in batch mode. However, it is
+│                               │                   still possible to trigger the function that handles the
+│                               │                   scrolling of a gui version of Vim by feeding some binary
+│                               │                   characters to Vim. The function that handles the scrolling
+│                               │                   however may be triggering a redraw, which will access the
+│                               │                   ScreenLines pointer, even so this variable hasn't been
+│                               │                   allocated (since there is no screen). This vulnerability is
+│                               │                    fixed in 9.1.1043. 
 │                               ├ Severity        : MEDIUM 
-│                               ├ CweIDs           ─ [0]: CWE-601 
+│                               ├ CweIDs           ─ [0]: CWE-787 
 │                               ├ VendorSeverity   ╭ amazon     : 2 
+│                               │                  ├ azure      : 2 
 │                               │                  ├ cbl-mariner: 2 
-│                               │                  ├ nvd        : 2 
-│                               │                  ├ photon     : 2 
-│                               │                  ├ redhat     : 2 
+│                               │                  ├ redhat     : 1 
 │                               │                  ╰ ubuntu     : 2 
-│                               ├ CVSS             ╭ nvd    ╭ V2Vector: AV:N/AC:M/Au:N/C:P/I:P/A:N 
-│                               │                  │        ├ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:
-│                               │                  │        │           L/A:N 
-│                               │                  │        ├ V2Score : 5.8 
-│                               │                  │        ╰ V3Score : 6.1 
-│                               │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:
-│                               │                           │           N/A:N 
-│                               │                           ╰ V3Score : 6.5 
-│                               ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2021-31879 
-│                               │                  ├ [1]: https://mail.gnu.org/archive/html/bug-wget/2021-02/ms
-│                               │                  │      g00002.html 
-│                               │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2021-31879 
-│                               │                  ├ [3]: https://savannah.gnu.org/bugs/?56909 
-│                               │                  ├ [4]: https://security.netapp.com/advisory/ntap-20210618-00
-│                               │                  │      02/ 
-│                               │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2021-31879 
-│                               ├ PublishedDate   : 2021-04-29T05:15:08.707Z 
-│                               ╰ LastModifiedDate: 2024-11-21T06:06:25.02Z 
+│                               ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:
+│                               │                           │           L/A:L 
+│                               │                           ╰ V3Score : 4.2 
+│                               ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/01/20/4 
+│                               │                  ├ [1]: http://www.openwall.com/lists/oss-security/2025/01/21/1 
+│                               │                  ├ [2]: https://access.redhat.com/security/cve/CVE-2025-24014 
+│                               │                  ├ [3]: https://github.com/vim/vim/commit/9d1bed5eccdbb46a26b
+│                               │                  │      8a484f5e9163c40e63919 
+│                               │                  ├ [4]: https://github.com/vim/vim/security/advisories/GHSA-j
+│                               │                  │      3g9-wg22-v955 
+│                               │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-24014 
+│                               │                  ├ [6]: https://security.netapp.com/advisory/ntap-20250314-00
+│                               │                  │      05/ 
+│                               │                  ├ [7]: https://ubuntu.com/security/notices/USN-7261-1 
+│                               │                  ├ [8]: https://ubuntu.com/security/notices/USN-7261-2 
+│                               │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2025-24014 
+│                               ├ PublishedDate   : 2025-01-20T23:15:07.73Z 
+│                               ╰ LastModifiedDate: 2025-03-14T10:15:16.24Z 
 ├ [1]  ╭ Target: Java 
 │      ├ Class : lang-pkgs 
 │      ╰ Type  : jar 
@@ -2247,7 +2678,7 @@
 │                        │     ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2024/04/03
 │                        │     │                  │       /16 
 │                        │     │                  ├ [1] : http://www.openwall.com/lists/oss-security/2024/04/05/4 
-│                        │     │                  ├ [2] : https://access.redhat.com/errata/RHSA-2024:2724 
+│                        │     │                  ├ [2] : https://access.redhat.com/errata/RHSA-2024:3346 
 │                        │     │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2023-45288 
 │                        │     │                  ├ [4] : https://bugzilla.redhat.com/2268017 
 │                        │     │                  ├ [5] : https://bugzilla.redhat.com/2268018 
@@ -2265,7 +2696,7 @@
 │                        │     │                  │       23-45290 
 │                        │     │                  ├ [15]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                        │     │                  │       24-24783 
-│                        │     │                  ├ [16]: https://errata.almalinux.org/9/ALSA-2024-2724.html 
+│                        │     │                  ├ [16]: https://errata.almalinux.org/8/ALSA-2024-3346.html 
 │                        │     │                  ├ [17]: https://errata.rockylinux.org/RLSA-2024:2724 
 │                        │     │                  ├ [18]: https://go.dev/cl/576155 
 │                        │     │                  ├ [19]: https://go.dev/issue/65051 
@@ -2404,7 +2835,7 @@
 │                        │     ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2024/04/03
 │                        │     │                  │       /16 
 │                        │     │                  ├ [1] : http://www.openwall.com/lists/oss-security/2024/04/05/4 
-│                        │     │                  ├ [2] : https://access.redhat.com/errata/RHSA-2024:2724 
+│                        │     │                  ├ [2] : https://access.redhat.com/errata/RHSA-2024:3346 
 │                        │     │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2023-45288 
 │                        │     │                  ├ [4] : https://bugzilla.redhat.com/2268017 
 │                        │     │                  ├ [5] : https://bugzilla.redhat.com/2268018 
@@ -2422,7 +2853,7 @@
 │                        │     │                  │       23-45290 
 │                        │     │                  ├ [15]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                        │     │                  │       24-24783 
-│                        │     │                  ├ [16]: https://errata.almalinux.org/9/ALSA-2024-2724.html 
+│                        │     │                  ├ [16]: https://errata.almalinux.org/8/ALSA-2024-3346.html 
 │                        │     │                  ├ [17]: https://errata.rockylinux.org/RLSA-2024:2724 
 │                        │     │                  ├ [18]: https://go.dev/cl/576155 
 │                        │     │                  ├ [19]: https://go.dev/issue/65051 
