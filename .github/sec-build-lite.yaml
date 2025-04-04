@@ -829,6 +829,7 @@
     CweIDs:
     - CWE-119
     VendorSeverity:
+      photon: 3
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -1138,6 +1139,7 @@
     - CWE-674
     VendorSeverity:
       cbl-mariner: 3
+      oracle-oval: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -1146,6 +1148,7 @@
         V3Score: 7.5
     References:
     - http://www.openwall.com/lists/oss-security/2025/03/15/1
+    - https://access.redhat.com/errata/RHSA-2025:3531
     - https://access.redhat.com/security/cve/CVE-2024-8176
     - https://blog.hartwork.org/posts/expat-2-7-0-released/
     - https://bugzilla.redhat.com/show_bug.cgi?id=2310137
@@ -1153,13 +1156,15 @@
     - https://github.com/libexpat/libexpat/blob/R_2_7_0/expat/Changes#L40-L52
     - https://github.com/libexpat/libexpat/issues/893
     - https://gitlab.alpinelinux.org/alpine/aports/-/commit/d068c3ff36fc6f4789988a09c69b434db757db53
+    - https://linux.oracle.com/cve/CVE-2024-8176.html
+    - https://linux.oracle.com/errata/ELSA-2025-3531.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-8176
     - https://security-tracker.debian.org/tracker/CVE-2024-8176
     - https://security.netapp.com/advisory/ntap-20250328-0009/
     - https://ubuntu.com/security/CVE-2024-8176
     - https://www.cve.org/CVERecord?id=CVE-2024-8176
     PublishedDate: '2025-03-14T09:15:14.157Z'
-    LastModifiedDate: '2025-03-28T15:15:46.157Z'
+    LastModifiedDate: '2025-04-02T15:15:57.987Z'
   - VulnerabilityID: CVE-2024-2236
     PkgID: libgcrypt20@1.10.3-2build1
     PkgName: libgcrypt20
@@ -1194,6 +1199,8 @@
         V3Score: 5.9
     References:
     - https://access.redhat.com/errata/RHSA-2024:9404
+    - https://access.redhat.com/errata/RHSA-2025:3530
+    - https://access.redhat.com/errata/RHSA-2025:3534
     - https://access.redhat.com/security/cve/CVE-2024-2236
     - https://bugzilla.redhat.com/2245218
     - https://bugzilla.redhat.com/show_bug.cgi?id=2245218
@@ -1208,7 +1215,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2024-2236
     - https://www.cve.org/CVERecord?id=CVE-2024-2236
     PublishedDate: '2024-03-06T22:15:57.977Z'
-    LastModifiedDate: '2024-11-21T09:09:19.41Z'
+    LastModifiedDate: '2025-04-02T17:15:37.79Z'
   - VulnerabilityID: CVE-2024-10041
     PkgID: libpam-modules@1.5.3-5ubuntu5.1
     PkgName: libpam-modules
@@ -1232,7 +1239,7 @@
     CweIDs:
     - CWE-922
     VendorSeverity:
-      alma: 2
+      alma: 3
       azure: 2
       oracle-oval: 2
       redhat: 2
@@ -1248,11 +1255,12 @@
     - https://access.redhat.com/errata/RHSA-2024:9941
     - https://access.redhat.com/security/cve/CVE-2024-10041
     - https://bugzilla.redhat.com/2319212
+    - https://bugzilla.redhat.com/2324291
     - https://bugzilla.redhat.com/show_bug.cgi?id=2319212
     - https://bugzilla.redhat.com/show_bug.cgi?id=2324291
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10041
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10963
-    - https://errata.almalinux.org/9/ALSA-2024-11250.html
+    - https://errata.almalinux.org/8/ALSA-2024-10379.html
     - https://errata.rockylinux.org/RLSA-2024:10379
     - https://linux.oracle.com/cve/CVE-2024-10041.html
     - https://linux.oracle.com/errata/ELSA-2024-11250.html
@@ -1301,12 +1309,13 @@
     - https://access.redhat.com/errata/RHSA-2024:10528
     - https://access.redhat.com/errata/RHSA-2024:10852
     - https://access.redhat.com/security/cve/CVE-2024-10963
+    - https://bugzilla.redhat.com/2319212
     - https://bugzilla.redhat.com/2324291
     - https://bugzilla.redhat.com/show_bug.cgi?id=2319212
     - https://bugzilla.redhat.com/show_bug.cgi?id=2324291
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10041
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10963
-    - https://errata.almalinux.org/9/ALSA-2024-10244.html
+    - https://errata.almalinux.org/8/ALSA-2024-10379.html
     - https://errata.rockylinux.org/RLSA-2024:10379
     - https://linux.oracle.com/cve/CVE-2024-10963.html
     - https://linux.oracle.com/errata/ELSA-2024-10379.html
@@ -1337,7 +1346,7 @@
     CweIDs:
     - CWE-922
     VendorSeverity:
-      alma: 2
+      alma: 3
       azure: 2
       oracle-oval: 2
       redhat: 2
@@ -1353,11 +1362,12 @@
     - https://access.redhat.com/errata/RHSA-2024:9941
     - https://access.redhat.com/security/cve/CVE-2024-10041
     - https://bugzilla.redhat.com/2319212
+    - https://bugzilla.redhat.com/2324291
     - https://bugzilla.redhat.com/show_bug.cgi?id=2319212
     - https://bugzilla.redhat.com/show_bug.cgi?id=2324291
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10041
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10963
-    - https://errata.almalinux.org/9/ALSA-2024-11250.html
+    - https://errata.almalinux.org/8/ALSA-2024-10379.html
     - https://errata.rockylinux.org/RLSA-2024:10379
     - https://linux.oracle.com/cve/CVE-2024-10041.html
     - https://linux.oracle.com/errata/ELSA-2024-11250.html
@@ -1406,12 +1416,13 @@
     - https://access.redhat.com/errata/RHSA-2024:10528
     - https://access.redhat.com/errata/RHSA-2024:10852
     - https://access.redhat.com/security/cve/CVE-2024-10963
+    - https://bugzilla.redhat.com/2319212
     - https://bugzilla.redhat.com/2324291
     - https://bugzilla.redhat.com/show_bug.cgi?id=2319212
     - https://bugzilla.redhat.com/show_bug.cgi?id=2324291
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10041
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10963
-    - https://errata.almalinux.org/9/ALSA-2024-10244.html
+    - https://errata.almalinux.org/8/ALSA-2024-10379.html
     - https://errata.rockylinux.org/RLSA-2024:10379
     - https://linux.oracle.com/cve/CVE-2024-10963.html
     - https://linux.oracle.com/errata/ELSA-2024-10379.html
@@ -1442,7 +1453,7 @@
     CweIDs:
     - CWE-922
     VendorSeverity:
-      alma: 2
+      alma: 3
       azure: 2
       oracle-oval: 2
       redhat: 2
@@ -1458,11 +1469,12 @@
     - https://access.redhat.com/errata/RHSA-2024:9941
     - https://access.redhat.com/security/cve/CVE-2024-10041
     - https://bugzilla.redhat.com/2319212
+    - https://bugzilla.redhat.com/2324291
     - https://bugzilla.redhat.com/show_bug.cgi?id=2319212
     - https://bugzilla.redhat.com/show_bug.cgi?id=2324291
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10041
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10963
-    - https://errata.almalinux.org/9/ALSA-2024-11250.html
+    - https://errata.almalinux.org/8/ALSA-2024-10379.html
     - https://errata.rockylinux.org/RLSA-2024:10379
     - https://linux.oracle.com/cve/CVE-2024-10041.html
     - https://linux.oracle.com/errata/ELSA-2024-11250.html
@@ -1511,12 +1523,13 @@
     - https://access.redhat.com/errata/RHSA-2024:10528
     - https://access.redhat.com/errata/RHSA-2024:10852
     - https://access.redhat.com/security/cve/CVE-2024-10963
+    - https://bugzilla.redhat.com/2319212
     - https://bugzilla.redhat.com/2324291
     - https://bugzilla.redhat.com/show_bug.cgi?id=2319212
     - https://bugzilla.redhat.com/show_bug.cgi?id=2324291
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10041
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10963
-    - https://errata.almalinux.org/9/ALSA-2024-10244.html
+    - https://errata.almalinux.org/8/ALSA-2024-10379.html
     - https://errata.rockylinux.org/RLSA-2024:10379
     - https://linux.oracle.com/cve/CVE-2024-10963.html
     - https://linux.oracle.com/errata/ELSA-2024-10379.html
@@ -1547,7 +1560,7 @@
     CweIDs:
     - CWE-922
     VendorSeverity:
-      alma: 2
+      alma: 3
       azure: 2
       oracle-oval: 2
       redhat: 2
@@ -1563,11 +1576,12 @@
     - https://access.redhat.com/errata/RHSA-2024:9941
     - https://access.redhat.com/security/cve/CVE-2024-10041
     - https://bugzilla.redhat.com/2319212
+    - https://bugzilla.redhat.com/2324291
     - https://bugzilla.redhat.com/show_bug.cgi?id=2319212
     - https://bugzilla.redhat.com/show_bug.cgi?id=2324291
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10041
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10963
-    - https://errata.almalinux.org/9/ALSA-2024-11250.html
+    - https://errata.almalinux.org/8/ALSA-2024-10379.html
     - https://errata.rockylinux.org/RLSA-2024:10379
     - https://linux.oracle.com/cve/CVE-2024-10041.html
     - https://linux.oracle.com/errata/ELSA-2024-11250.html
@@ -1616,12 +1630,13 @@
     - https://access.redhat.com/errata/RHSA-2024:10528
     - https://access.redhat.com/errata/RHSA-2024:10852
     - https://access.redhat.com/security/cve/CVE-2024-10963
+    - https://bugzilla.redhat.com/2319212
     - https://bugzilla.redhat.com/2324291
     - https://bugzilla.redhat.com/show_bug.cgi?id=2319212
     - https://bugzilla.redhat.com/show_bug.cgi?id=2324291
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10041
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10963
-    - https://errata.almalinux.org/9/ALSA-2024-10244.html
+    - https://errata.almalinux.org/8/ALSA-2024-10379.html
     - https://errata.rockylinux.org/RLSA-2024:10379
     - https://linux.oracle.com/cve/CVE-2024-10963.html
     - https://linux.oracle.com/errata/ELSA-2024-10379.html
@@ -1959,6 +1974,276 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-56433
     PublishedDate: '2024-12-26T09:15:07.267Z'
     LastModifiedDate: '2024-12-26T09:15:07.267Z'
+  - VulnerabilityID: CVE-2025-1215
+    PkgID: vim@2:9.1.0016-1ubuntu7.6
+    PkgName: vim
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/vim@9.1.0016-1ubuntu7.6?arch=amd64&distro=ubuntu-24.04&epoch=2
+      UID: a6f16d0e891e3667
+    InstalledVersion: 2:9.1.0016-1ubuntu7.6
+    Status: affected
+    Layer:
+      Digest: sha256:c6993c5985389d7ef0e6449184b23c7543ee28e58192b4f8f0e4540140cacee1
+      DiffID: sha256:591821b453bce57948b813374fea7f6ec50d6d07d0b76aa76dff8682c6234cf3
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-1215
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'vim: vim main.c memory corruption'
+    Description: A vulnerability classified as problematic was found in vim up to 9.1.1096. This vulnerability affects unknown code of the file src/main.c. The manipulation of the argument --log leads to memory corruption. It is possible to launch the attack on the local host. Upgrading to version 9.1.1097 is able to address this issue. The patch is identified as c5654b84480822817bb7b69ebc97c174c91185e9. It is recommended to upgrade the affected component.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-119
+    VendorSeverity:
+      azure: 1
+      cbl-mariner: 1
+      redhat: 1
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:N/I:N/A:L
+        V3Score: 2.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-1215
+    - https://github.com/vim/vim/commit/c5654b84480822817bb7b69ebc97c174c91185e9
+    - https://github.com/vim/vim/issues/16606
+    - https://github.com/vim/vim/releases/tag/v9.1.1097
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-1215
+    - https://security.netapp.com/advisory/ntap-20250321-0005/
+    - https://vuldb.com/?ctiid.295174
+    - https://vuldb.com/?id.295174
+    - https://vuldb.com/?submit.497546
+    - https://www.cve.org/CVERecord?id=CVE-2025-1215
+    PublishedDate: '2025-02-12T19:15:10.23Z'
+    LastModifiedDate: '2025-03-21T18:15:34.29Z'
+  - VulnerabilityID: CVE-2025-24014
+    PkgID: vim@2:9.1.0016-1ubuntu7.6
+    PkgName: vim
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/vim@9.1.0016-1ubuntu7.6?arch=amd64&distro=ubuntu-24.04&epoch=2
+      UID: a6f16d0e891e3667
+    InstalledVersion: 2:9.1.0016-1ubuntu7.6
+    FixedVersion: 2:9.1.0016-1ubuntu7.7
+    Status: fixed
+    Layer:
+      Digest: sha256:c6993c5985389d7ef0e6449184b23c7543ee28e58192b4f8f0e4540140cacee1
+      DiffID: sha256:591821b453bce57948b813374fea7f6ec50d6d07d0b76aa76dff8682c6234cf3
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-24014
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'vim: segmentation fault in win_line() in Vim < 9.1.1043'
+    Description: Vim is an open source, command line text editor. A segmentation fault was found in Vim before 9.1.1043. In silent Ex mode (-s -e), Vim typically doesn't show a screen and just operates silently in batch mode. However, it is still possible to trigger the function that handles the scrolling of a gui version of Vim by feeding some binary characters to Vim. The function that handles the scrolling however may be triggering a redraw, which will access the ScreenLines pointer, even so this variable hasn't been allocated (since there is no screen). This vulnerability is fixed in 9.1.1043.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-787
+    VendorSeverity:
+      amazon: 2
+      azure: 2
+      cbl-mariner: 2
+      redhat: 1
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:L/A:L
+        V3Score: 4.2
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/01/20/4
+    - http://www.openwall.com/lists/oss-security/2025/01/21/1
+    - https://access.redhat.com/security/cve/CVE-2025-24014
+    - https://github.com/vim/vim/commit/9d1bed5eccdbb46a26b8a484f5e9163c40e63919
+    - https://github.com/vim/vim/security/advisories/GHSA-j3g9-wg22-v955
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-24014
+    - https://security.netapp.com/advisory/ntap-20250314-0005/
+    - https://ubuntu.com/security/notices/USN-7261-1
+    - https://ubuntu.com/security/notices/USN-7261-2
+    - https://www.cve.org/CVERecord?id=CVE-2025-24014
+    PublishedDate: '2025-01-20T23:15:07.73Z'
+    LastModifiedDate: '2025-03-14T10:15:16.24Z'
+  - VulnerabilityID: CVE-2025-1215
+    PkgID: vim-common@2:9.1.0016-1ubuntu7.6
+    PkgName: vim-common
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/vim-common@9.1.0016-1ubuntu7.6?arch=all&distro=ubuntu-24.04&epoch=2
+      UID: 47cef8428edbdc7d
+    InstalledVersion: 2:9.1.0016-1ubuntu7.6
+    Status: affected
+    Layer:
+      Digest: sha256:c6993c5985389d7ef0e6449184b23c7543ee28e58192b4f8f0e4540140cacee1
+      DiffID: sha256:591821b453bce57948b813374fea7f6ec50d6d07d0b76aa76dff8682c6234cf3
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-1215
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'vim: vim main.c memory corruption'
+    Description: A vulnerability classified as problematic was found in vim up to 9.1.1096. This vulnerability affects unknown code of the file src/main.c. The manipulation of the argument --log leads to memory corruption. It is possible to launch the attack on the local host. Upgrading to version 9.1.1097 is able to address this issue. The patch is identified as c5654b84480822817bb7b69ebc97c174c91185e9. It is recommended to upgrade the affected component.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-119
+    VendorSeverity:
+      azure: 1
+      cbl-mariner: 1
+      redhat: 1
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:N/I:N/A:L
+        V3Score: 2.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-1215
+    - https://github.com/vim/vim/commit/c5654b84480822817bb7b69ebc97c174c91185e9
+    - https://github.com/vim/vim/issues/16606
+    - https://github.com/vim/vim/releases/tag/v9.1.1097
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-1215
+    - https://security.netapp.com/advisory/ntap-20250321-0005/
+    - https://vuldb.com/?ctiid.295174
+    - https://vuldb.com/?id.295174
+    - https://vuldb.com/?submit.497546
+    - https://www.cve.org/CVERecord?id=CVE-2025-1215
+    PublishedDate: '2025-02-12T19:15:10.23Z'
+    LastModifiedDate: '2025-03-21T18:15:34.29Z'
+  - VulnerabilityID: CVE-2025-24014
+    PkgID: vim-common@2:9.1.0016-1ubuntu7.6
+    PkgName: vim-common
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/vim-common@9.1.0016-1ubuntu7.6?arch=all&distro=ubuntu-24.04&epoch=2
+      UID: 47cef8428edbdc7d
+    InstalledVersion: 2:9.1.0016-1ubuntu7.6
+    FixedVersion: 2:9.1.0016-1ubuntu7.7
+    Status: fixed
+    Layer:
+      Digest: sha256:c6993c5985389d7ef0e6449184b23c7543ee28e58192b4f8f0e4540140cacee1
+      DiffID: sha256:591821b453bce57948b813374fea7f6ec50d6d07d0b76aa76dff8682c6234cf3
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-24014
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'vim: segmentation fault in win_line() in Vim < 9.1.1043'
+    Description: Vim is an open source, command line text editor. A segmentation fault was found in Vim before 9.1.1043. In silent Ex mode (-s -e), Vim typically doesn't show a screen and just operates silently in batch mode. However, it is still possible to trigger the function that handles the scrolling of a gui version of Vim by feeding some binary characters to Vim. The function that handles the scrolling however may be triggering a redraw, which will access the ScreenLines pointer, even so this variable hasn't been allocated (since there is no screen). This vulnerability is fixed in 9.1.1043.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-787
+    VendorSeverity:
+      amazon: 2
+      azure: 2
+      cbl-mariner: 2
+      redhat: 1
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:L/A:L
+        V3Score: 4.2
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/01/20/4
+    - http://www.openwall.com/lists/oss-security/2025/01/21/1
+    - https://access.redhat.com/security/cve/CVE-2025-24014
+    - https://github.com/vim/vim/commit/9d1bed5eccdbb46a26b8a484f5e9163c40e63919
+    - https://github.com/vim/vim/security/advisories/GHSA-j3g9-wg22-v955
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-24014
+    - https://security.netapp.com/advisory/ntap-20250314-0005/
+    - https://ubuntu.com/security/notices/USN-7261-1
+    - https://ubuntu.com/security/notices/USN-7261-2
+    - https://www.cve.org/CVERecord?id=CVE-2025-24014
+    PublishedDate: '2025-01-20T23:15:07.73Z'
+    LastModifiedDate: '2025-03-14T10:15:16.24Z'
+  - VulnerabilityID: CVE-2025-1215
+    PkgID: vim-runtime@2:9.1.0016-1ubuntu7.6
+    PkgName: vim-runtime
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/vim-runtime@9.1.0016-1ubuntu7.6?arch=all&distro=ubuntu-24.04&epoch=2
+      UID: 2c586341da291684
+    InstalledVersion: 2:9.1.0016-1ubuntu7.6
+    Status: affected
+    Layer:
+      Digest: sha256:c6993c5985389d7ef0e6449184b23c7543ee28e58192b4f8f0e4540140cacee1
+      DiffID: sha256:591821b453bce57948b813374fea7f6ec50d6d07d0b76aa76dff8682c6234cf3
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-1215
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'vim: vim main.c memory corruption'
+    Description: A vulnerability classified as problematic was found in vim up to 9.1.1096. This vulnerability affects unknown code of the file src/main.c. The manipulation of the argument --log leads to memory corruption. It is possible to launch the attack on the local host. Upgrading to version 9.1.1097 is able to address this issue. The patch is identified as c5654b84480822817bb7b69ebc97c174c91185e9. It is recommended to upgrade the affected component.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-119
+    VendorSeverity:
+      azure: 1
+      cbl-mariner: 1
+      redhat: 1
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:N/I:N/A:L
+        V3Score: 2.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-1215
+    - https://github.com/vim/vim/commit/c5654b84480822817bb7b69ebc97c174c91185e9
+    - https://github.com/vim/vim/issues/16606
+    - https://github.com/vim/vim/releases/tag/v9.1.1097
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-1215
+    - https://security.netapp.com/advisory/ntap-20250321-0005/
+    - https://vuldb.com/?ctiid.295174
+    - https://vuldb.com/?id.295174
+    - https://vuldb.com/?submit.497546
+    - https://www.cve.org/CVERecord?id=CVE-2025-1215
+    PublishedDate: '2025-02-12T19:15:10.23Z'
+    LastModifiedDate: '2025-03-21T18:15:34.29Z'
+  - VulnerabilityID: CVE-2025-24014
+    PkgID: vim-runtime@2:9.1.0016-1ubuntu7.6
+    PkgName: vim-runtime
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/vim-runtime@9.1.0016-1ubuntu7.6?arch=all&distro=ubuntu-24.04&epoch=2
+      UID: 2c586341da291684
+    InstalledVersion: 2:9.1.0016-1ubuntu7.6
+    FixedVersion: 2:9.1.0016-1ubuntu7.7
+    Status: fixed
+    Layer:
+      Digest: sha256:c6993c5985389d7ef0e6449184b23c7543ee28e58192b4f8f0e4540140cacee1
+      DiffID: sha256:591821b453bce57948b813374fea7f6ec50d6d07d0b76aa76dff8682c6234cf3
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-24014
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'vim: segmentation fault in win_line() in Vim < 9.1.1043'
+    Description: Vim is an open source, command line text editor. A segmentation fault was found in Vim before 9.1.1043. In silent Ex mode (-s -e), Vim typically doesn't show a screen and just operates silently in batch mode. However, it is still possible to trigger the function that handles the scrolling of a gui version of Vim by feeding some binary characters to Vim. The function that handles the scrolling however may be triggering a redraw, which will access the ScreenLines pointer, even so this variable hasn't been allocated (since there is no screen). This vulnerability is fixed in 9.1.1043.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-787
+    VendorSeverity:
+      amazon: 2
+      azure: 2
+      cbl-mariner: 2
+      redhat: 1
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:L/A:L
+        V3Score: 4.2
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/01/20/4
+    - http://www.openwall.com/lists/oss-security/2025/01/21/1
+    - https://access.redhat.com/security/cve/CVE-2025-24014
+    - https://github.com/vim/vim/commit/9d1bed5eccdbb46a26b8a484f5e9163c40e63919
+    - https://github.com/vim/vim/security/advisories/GHSA-j3g9-wg22-v955
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-24014
+    - https://security.netapp.com/advisory/ntap-20250314-0005/
+    - https://ubuntu.com/security/notices/USN-7261-1
+    - https://ubuntu.com/security/notices/USN-7261-2
+    - https://www.cve.org/CVERecord?id=CVE-2025-24014
+    PublishedDate: '2025-01-20T23:15:07.73Z'
+    LastModifiedDate: '2025-03-14T10:15:16.24Z'
   - VulnerabilityID: CVE-2021-31879
     PkgID: wget@1.21.4-1ubuntu4.1
     PkgName: wget
@@ -2006,6 +2291,96 @@
     - https://www.cve.org/CVERecord?id=CVE-2021-31879
     PublishedDate: '2021-04-29T05:15:08.707Z'
     LastModifiedDate: '2024-11-21T06:06:25.02Z'
+  - VulnerabilityID: CVE-2025-1215
+    PkgID: xxd@2:9.1.0016-1ubuntu7.6
+    PkgName: xxd
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/xxd@9.1.0016-1ubuntu7.6?arch=amd64&distro=ubuntu-24.04&epoch=2
+      UID: 22d49c063cea7406
+    InstalledVersion: 2:9.1.0016-1ubuntu7.6
+    Status: affected
+    Layer:
+      Digest: sha256:c6993c5985389d7ef0e6449184b23c7543ee28e58192b4f8f0e4540140cacee1
+      DiffID: sha256:591821b453bce57948b813374fea7f6ec50d6d07d0b76aa76dff8682c6234cf3
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-1215
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'vim: vim main.c memory corruption'
+    Description: A vulnerability classified as problematic was found in vim up to 9.1.1096. This vulnerability affects unknown code of the file src/main.c. The manipulation of the argument --log leads to memory corruption. It is possible to launch the attack on the local host. Upgrading to version 9.1.1097 is able to address this issue. The patch is identified as c5654b84480822817bb7b69ebc97c174c91185e9. It is recommended to upgrade the affected component.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-119
+    VendorSeverity:
+      azure: 1
+      cbl-mariner: 1
+      redhat: 1
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:N/I:N/A:L
+        V3Score: 2.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-1215
+    - https://github.com/vim/vim/commit/c5654b84480822817bb7b69ebc97c174c91185e9
+    - https://github.com/vim/vim/issues/16606
+    - https://github.com/vim/vim/releases/tag/v9.1.1097
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-1215
+    - https://security.netapp.com/advisory/ntap-20250321-0005/
+    - https://vuldb.com/?ctiid.295174
+    - https://vuldb.com/?id.295174
+    - https://vuldb.com/?submit.497546
+    - https://www.cve.org/CVERecord?id=CVE-2025-1215
+    PublishedDate: '2025-02-12T19:15:10.23Z'
+    LastModifiedDate: '2025-03-21T18:15:34.29Z'
+  - VulnerabilityID: CVE-2025-24014
+    PkgID: xxd@2:9.1.0016-1ubuntu7.6
+    PkgName: xxd
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/xxd@9.1.0016-1ubuntu7.6?arch=amd64&distro=ubuntu-24.04&epoch=2
+      UID: 22d49c063cea7406
+    InstalledVersion: 2:9.1.0016-1ubuntu7.6
+    FixedVersion: 2:9.1.0016-1ubuntu7.7
+    Status: fixed
+    Layer:
+      Digest: sha256:c6993c5985389d7ef0e6449184b23c7543ee28e58192b4f8f0e4540140cacee1
+      DiffID: sha256:591821b453bce57948b813374fea7f6ec50d6d07d0b76aa76dff8682c6234cf3
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-24014
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'vim: segmentation fault in win_line() in Vim < 9.1.1043'
+    Description: Vim is an open source, command line text editor. A segmentation fault was found in Vim before 9.1.1043. In silent Ex mode (-s -e), Vim typically doesn't show a screen and just operates silently in batch mode. However, it is still possible to trigger the function that handles the scrolling of a gui version of Vim by feeding some binary characters to Vim. The function that handles the scrolling however may be triggering a redraw, which will access the ScreenLines pointer, even so this variable hasn't been allocated (since there is no screen). This vulnerability is fixed in 9.1.1043.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-787
+    VendorSeverity:
+      amazon: 2
+      azure: 2
+      cbl-mariner: 2
+      redhat: 1
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:L/A:L
+        V3Score: 4.2
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/01/20/4
+    - http://www.openwall.com/lists/oss-security/2025/01/21/1
+    - https://access.redhat.com/security/cve/CVE-2025-24014
+    - https://github.com/vim/vim/commit/9d1bed5eccdbb46a26b8a484f5e9163c40e63919
+    - https://github.com/vim/vim/security/advisories/GHSA-j3g9-wg22-v955
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-24014
+    - https://security.netapp.com/advisory/ntap-20250314-0005/
+    - https://ubuntu.com/security/notices/USN-7261-1
+    - https://ubuntu.com/security/notices/USN-7261-2
+    - https://www.cve.org/CVERecord?id=CVE-2025-24014
+    PublishedDate: '2025-01-20T23:15:07.73Z'
+    LastModifiedDate: '2025-03-14T10:15:16.24Z'
 - Target: Java
   Class: lang-pkgs
   Type: jar
@@ -2059,7 +2434,7 @@
     References:
     - http://www.openwall.com/lists/oss-security/2024/04/03/16
     - http://www.openwall.com/lists/oss-security/2024/04/05/4
-    - https://access.redhat.com/errata/RHSA-2024:2724
+    - https://access.redhat.com/errata/RHSA-2024:3346
     - https://access.redhat.com/security/cve/CVE-2023-45288
     - https://bugzilla.redhat.com/2268017
     - https://bugzilla.redhat.com/2268018
@@ -2073,7 +2448,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45289
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45290
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24783
-    - https://errata.almalinux.org/9/ALSA-2024-2724.html
+    - https://errata.almalinux.org/8/ALSA-2024-3346.html
     - https://errata.rockylinux.org/RLSA-2024:2724
     - https://go.dev/cl/576155
     - https://go.dev/issue/65051
@@ -2193,7 +2568,7 @@
     References:
     - http://www.openwall.com/lists/oss-security/2024/04/03/16
     - http://www.openwall.com/lists/oss-security/2024/04/05/4
-    - https://access.redhat.com/errata/RHSA-2024:2724
+    - https://access.redhat.com/errata/RHSA-2024:3346
     - https://access.redhat.com/security/cve/CVE-2023-45288
     - https://bugzilla.redhat.com/2268017
     - https://bugzilla.redhat.com/2268018
@@ -2207,7 +2582,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45289
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45290
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24783
-    - https://errata.almalinux.org/9/ALSA-2024-2724.html
+    - https://errata.almalinux.org/8/ALSA-2024-3346.html
     - https://errata.rockylinux.org/RLSA-2024:2724
     - https://go.dev/cl/576155
     - https://go.dev/issue/65051
