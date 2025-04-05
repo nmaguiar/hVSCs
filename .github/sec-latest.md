@@ -233,7 +233,50 @@
 │                        │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2023-34969 
 │                        │      ├ PublishedDate   : 2023-06-08T03:15:08.97Z 
 │                        │      ╰ LastModifiedDate: 2024-11-21T08:07:44.607Z 
-│                        ├ [4]  ╭ VulnerabilityID : CVE-2022-3219 
+│                        ├ [4]  ╭ VulnerabilityID : CVE-2025-30258 
+│                        │      ├ PkgID           : dirmngr@2.2.27-3ubuntu2.1 
+│                        │      ├ PkgName         : dirmngr 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/dirmngr@2.2.27-3ubuntu2.1?arch=amd64&
+│                        │      │                  │       distro=ubuntu-22.04 
+│                        │      │                  ╰ UID : 272c7642b8879c20 
+│                        │      ├ InstalledVersion: 2.2.27-3ubuntu2.1 
+│                        │      ├ FixedVersion    : 2.2.27-3ubuntu2.3 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf
+│                        │      │                  │         4a8143db4b97d428659d0 
+│                        │      │                  ╰ DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e
+│                        │      │                            8d67226cb3b9e50f918f0 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-30258 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : gnupg: verification DoS due to a malicious subkey in the
+│                        │      │                   keyring 
+│                        │      ├ Description     : In GnuPG before 2.5.5, if a user chooses to import a
+│                        │      │                   certificate with certain crafted subkey data that lacks a
+│                        │      │                   valid backsig or that has incorrect usage flags, the user
+│                        │      │                   loses the ability to verify signatures made from certain
+│                        │      │                   other signing keys, aka a "verification DoS." 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ CweIDs           ─ [0]: CWE-754 
+│                        │      ├ VendorSeverity   ╭ redhat: 1 
+│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:C/C:N/I:
+│                        │      │                           │           N/A:L 
+│                        │      │                           ╰ V3Score : 2.7 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-30258 
+│                        │      │                  ├ [1]: https://dev.gnupg.org/T7527 
+│                        │      │                  ├ [2]: https://dev.gnupg.org/rG48978ccb4e20866472ef18436a327
+│                        │      │                  │      44350a65158 
+│                        │      │                  ├ [3]: https://lists.gnupg.org/pipermail/gnupg-announce/2025
+│                        │      │                  │      q1/000491.html 
+│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-30258 
+│                        │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-7412-1 
+│                        │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-30258 
+│                        │      ├ PublishedDate   : 2025-03-19T20:15:20.14Z 
+│                        │      ╰ LastModifiedDate: 2025-03-19T20:15:20.14Z 
+│                        ├ [5]  ╭ VulnerabilityID : CVE-2022-3219 
 │                        │      ├ PkgID           : dirmngr@2.2.27-3ubuntu2.1 
 │                        │      ├ PkgName         : dirmngr 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/dirmngr@2.2.27-3ubuntu2.1?arch=amd64&
@@ -277,7 +320,7 @@
 │                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2022-3219 
 │                        │      ├ PublishedDate   : 2023-02-23T20:15:12.393Z 
 │                        │      ╰ LastModifiedDate: 2025-03-12T21:15:38.207Z 
-│                        ├ [5]  ╭ VulnerabilityID : CVE-2022-27943 
+│                        ├ [6]  ╭ VulnerabilityID : CVE-2022-27943 
 │                        │      ├ PkgID           : gcc-12-base@12.3.0-1ubuntu1~22.04 
 │                        │      ├ PkgName         : gcc-12-base 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/gcc-12-base@12.3.0-1ubuntu1~22.04?arc
@@ -330,7 +373,7 @@
 │                        │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2022-27943 
 │                        │      ├ PublishedDate   : 2022-03-26T13:15:07.9Z 
 │                        │      ╰ LastModifiedDate: 2024-11-21T06:56:31.04Z 
-│                        ├ [6]  ╭ VulnerabilityID : CVE-2023-4039 
+│                        ├ [7]  ╭ VulnerabilityID : CVE-2023-4039 
 │                        │      ├ PkgID           : gcc-12-base@12.3.0-1ubuntu1~22.04 
 │                        │      ├ PkgName         : gcc-12-base 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/gcc-12-base@12.3.0-1ubuntu1~22.04?arc
@@ -404,7 +447,7 @@
 │                        │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2023-4039 
 │                        │      ├ PublishedDate   : 2023-09-13T09:15:15.69Z 
 │                        │      ╰ LastModifiedDate: 2025-02-13T17:17:14.717Z 
-│                        ├ [7]  ╭ VulnerabilityID : CVE-2024-52005 
+│                        ├ [8]  ╭ VulnerabilityID : CVE-2024-52005 
 │                        │      ├ PkgID           : git@1:2.34.1-1ubuntu1.12 
 │                        │      ├ PkgName         : git 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/git@2.34.1-1ubuntu1.12?arch=amd64&dis
@@ -458,7 +501,7 @@
 │                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-52005 
 │                        │      ├ PublishedDate   : 2025-01-15T18:15:24.13Z 
 │                        │      ╰ LastModifiedDate: 2025-01-15T18:15:24.13Z 
-│                        ├ [8]  ╭ VulnerabilityID : CVE-2024-52005 
+│                        ├ [9]  ╭ VulnerabilityID : CVE-2024-52005 
 │                        │      ├ PkgID           : git-man@1:2.34.1-1ubuntu1.12 
 │                        │      ├ PkgName         : git-man 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/git-man@2.34.1-1ubuntu1.12?arch=all&d
@@ -512,7 +555,50 @@
 │                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-52005 
 │                        │      ├ PublishedDate   : 2025-01-15T18:15:24.13Z 
 │                        │      ╰ LastModifiedDate: 2025-01-15T18:15:24.13Z 
-│                        ├ [9]  ╭ VulnerabilityID : CVE-2022-3219 
+│                        ├ [10] ╭ VulnerabilityID : CVE-2025-30258 
+│                        │      ├ PkgID           : gnupg@2.2.27-3ubuntu2.1 
+│                        │      ├ PkgName         : gnupg 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/gnupg@2.2.27-3ubuntu2.1?arch=all&dist
+│                        │      │                  │       ro=ubuntu-22.04 
+│                        │      │                  ╰ UID : 88487e9844c23040 
+│                        │      ├ InstalledVersion: 2.2.27-3ubuntu2.1 
+│                        │      ├ FixedVersion    : 2.2.27-3ubuntu2.3 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf
+│                        │      │                  │         4a8143db4b97d428659d0 
+│                        │      │                  ╰ DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e
+│                        │      │                            8d67226cb3b9e50f918f0 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-30258 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : gnupg: verification DoS due to a malicious subkey in the
+│                        │      │                   keyring 
+│                        │      ├ Description     : In GnuPG before 2.5.5, if a user chooses to import a
+│                        │      │                   certificate with certain crafted subkey data that lacks a
+│                        │      │                   valid backsig or that has incorrect usage flags, the user
+│                        │      │                   loses the ability to verify signatures made from certain
+│                        │      │                   other signing keys, aka a "verification DoS." 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ CweIDs           ─ [0]: CWE-754 
+│                        │      ├ VendorSeverity   ╭ redhat: 1 
+│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:C/C:N/I:
+│                        │      │                           │           N/A:L 
+│                        │      │                           ╰ V3Score : 2.7 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-30258 
+│                        │      │                  ├ [1]: https://dev.gnupg.org/T7527 
+│                        │      │                  ├ [2]: https://dev.gnupg.org/rG48978ccb4e20866472ef18436a327
+│                        │      │                  │      44350a65158 
+│                        │      │                  ├ [3]: https://lists.gnupg.org/pipermail/gnupg-announce/2025
+│                        │      │                  │      q1/000491.html 
+│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-30258 
+│                        │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-7412-1 
+│                        │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-30258 
+│                        │      ├ PublishedDate   : 2025-03-19T20:15:20.14Z 
+│                        │      ╰ LastModifiedDate: 2025-03-19T20:15:20.14Z 
+│                        ├ [11] ╭ VulnerabilityID : CVE-2022-3219 
 │                        │      ├ PkgID           : gnupg@2.2.27-3ubuntu2.1 
 │                        │      ├ PkgName         : gnupg 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/gnupg@2.2.27-3ubuntu2.1?arch=all&dist
@@ -556,7 +642,50 @@
 │                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2022-3219 
 │                        │      ├ PublishedDate   : 2023-02-23T20:15:12.393Z 
 │                        │      ╰ LastModifiedDate: 2025-03-12T21:15:38.207Z 
-│                        ├ [10] ╭ VulnerabilityID : CVE-2022-3219 
+│                        ├ [12] ╭ VulnerabilityID : CVE-2025-30258 
+│                        │      ├ PkgID           : gnupg-l10n@2.2.27-3ubuntu2.1 
+│                        │      ├ PkgName         : gnupg-l10n 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/gnupg-l10n@2.2.27-3ubuntu2.1?arch=all
+│                        │      │                  │       &distro=ubuntu-22.04 
+│                        │      │                  ╰ UID : fd02db41f8d782c5 
+│                        │      ├ InstalledVersion: 2.2.27-3ubuntu2.1 
+│                        │      ├ FixedVersion    : 2.2.27-3ubuntu2.3 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf
+│                        │      │                  │         4a8143db4b97d428659d0 
+│                        │      │                  ╰ DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e
+│                        │      │                            8d67226cb3b9e50f918f0 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-30258 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : gnupg: verification DoS due to a malicious subkey in the
+│                        │      │                   keyring 
+│                        │      ├ Description     : In GnuPG before 2.5.5, if a user chooses to import a
+│                        │      │                   certificate with certain crafted subkey data that lacks a
+│                        │      │                   valid backsig or that has incorrect usage flags, the user
+│                        │      │                   loses the ability to verify signatures made from certain
+│                        │      │                   other signing keys, aka a "verification DoS." 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ CweIDs           ─ [0]: CWE-754 
+│                        │      ├ VendorSeverity   ╭ redhat: 1 
+│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:C/C:N/I:
+│                        │      │                           │           N/A:L 
+│                        │      │                           ╰ V3Score : 2.7 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-30258 
+│                        │      │                  ├ [1]: https://dev.gnupg.org/T7527 
+│                        │      │                  ├ [2]: https://dev.gnupg.org/rG48978ccb4e20866472ef18436a327
+│                        │      │                  │      44350a65158 
+│                        │      │                  ├ [3]: https://lists.gnupg.org/pipermail/gnupg-announce/2025
+│                        │      │                  │      q1/000491.html 
+│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-30258 
+│                        │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-7412-1 
+│                        │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-30258 
+│                        │      ├ PublishedDate   : 2025-03-19T20:15:20.14Z 
+│                        │      ╰ LastModifiedDate: 2025-03-19T20:15:20.14Z 
+│                        ├ [13] ╭ VulnerabilityID : CVE-2022-3219 
 │                        │      ├ PkgID           : gnupg-l10n@2.2.27-3ubuntu2.1 
 │                        │      ├ PkgName         : gnupg-l10n 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/gnupg-l10n@2.2.27-3ubuntu2.1?arch=all
@@ -600,7 +729,50 @@
 │                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2022-3219 
 │                        │      ├ PublishedDate   : 2023-02-23T20:15:12.393Z 
 │                        │      ╰ LastModifiedDate: 2025-03-12T21:15:38.207Z 
-│                        ├ [11] ╭ VulnerabilityID : CVE-2022-3219 
+│                        ├ [14] ╭ VulnerabilityID : CVE-2025-30258 
+│                        │      ├ PkgID           : gnupg-utils@2.2.27-3ubuntu2.1 
+│                        │      ├ PkgName         : gnupg-utils 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/gnupg-utils@2.2.27-3ubuntu2.1?arch=am
+│                        │      │                  │       d64&distro=ubuntu-22.04 
+│                        │      │                  ╰ UID : 46449e9036d8aa40 
+│                        │      ├ InstalledVersion: 2.2.27-3ubuntu2.1 
+│                        │      ├ FixedVersion    : 2.2.27-3ubuntu2.3 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf
+│                        │      │                  │         4a8143db4b97d428659d0 
+│                        │      │                  ╰ DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e
+│                        │      │                            8d67226cb3b9e50f918f0 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-30258 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : gnupg: verification DoS due to a malicious subkey in the
+│                        │      │                   keyring 
+│                        │      ├ Description     : In GnuPG before 2.5.5, if a user chooses to import a
+│                        │      │                   certificate with certain crafted subkey data that lacks a
+│                        │      │                   valid backsig or that has incorrect usage flags, the user
+│                        │      │                   loses the ability to verify signatures made from certain
+│                        │      │                   other signing keys, aka a "verification DoS." 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ CweIDs           ─ [0]: CWE-754 
+│                        │      ├ VendorSeverity   ╭ redhat: 1 
+│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:C/C:N/I:
+│                        │      │                           │           N/A:L 
+│                        │      │                           ╰ V3Score : 2.7 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-30258 
+│                        │      │                  ├ [1]: https://dev.gnupg.org/T7527 
+│                        │      │                  ├ [2]: https://dev.gnupg.org/rG48978ccb4e20866472ef18436a327
+│                        │      │                  │      44350a65158 
+│                        │      │                  ├ [3]: https://lists.gnupg.org/pipermail/gnupg-announce/2025
+│                        │      │                  │      q1/000491.html 
+│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-30258 
+│                        │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-7412-1 
+│                        │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-30258 
+│                        │      ├ PublishedDate   : 2025-03-19T20:15:20.14Z 
+│                        │      ╰ LastModifiedDate: 2025-03-19T20:15:20.14Z 
+│                        ├ [15] ╭ VulnerabilityID : CVE-2022-3219 
 │                        │      ├ PkgID           : gnupg-utils@2.2.27-3ubuntu2.1 
 │                        │      ├ PkgName         : gnupg-utils 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/gnupg-utils@2.2.27-3ubuntu2.1?arch=am
@@ -644,7 +816,50 @@
 │                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2022-3219 
 │                        │      ├ PublishedDate   : 2023-02-23T20:15:12.393Z 
 │                        │      ╰ LastModifiedDate: 2025-03-12T21:15:38.207Z 
-│                        ├ [12] ╭ VulnerabilityID : CVE-2022-3219 
+│                        ├ [16] ╭ VulnerabilityID : CVE-2025-30258 
+│                        │      ├ PkgID           : gpg@2.2.27-3ubuntu2.1 
+│                        │      ├ PkgName         : gpg 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/gpg@2.2.27-3ubuntu2.1?arch=amd64&dist
+│                        │      │                  │       ro=ubuntu-22.04 
+│                        │      │                  ╰ UID : 973c4849eaa7e58f 
+│                        │      ├ InstalledVersion: 2.2.27-3ubuntu2.1 
+│                        │      ├ FixedVersion    : 2.2.27-3ubuntu2.3 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf
+│                        │      │                  │         4a8143db4b97d428659d0 
+│                        │      │                  ╰ DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e
+│                        │      │                            8d67226cb3b9e50f918f0 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-30258 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : gnupg: verification DoS due to a malicious subkey in the
+│                        │      │                   keyring 
+│                        │      ├ Description     : In GnuPG before 2.5.5, if a user chooses to import a
+│                        │      │                   certificate with certain crafted subkey data that lacks a
+│                        │      │                   valid backsig or that has incorrect usage flags, the user
+│                        │      │                   loses the ability to verify signatures made from certain
+│                        │      │                   other signing keys, aka a "verification DoS." 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ CweIDs           ─ [0]: CWE-754 
+│                        │      ├ VendorSeverity   ╭ redhat: 1 
+│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:C/C:N/I:
+│                        │      │                           │           N/A:L 
+│                        │      │                           ╰ V3Score : 2.7 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-30258 
+│                        │      │                  ├ [1]: https://dev.gnupg.org/T7527 
+│                        │      │                  ├ [2]: https://dev.gnupg.org/rG48978ccb4e20866472ef18436a327
+│                        │      │                  │      44350a65158 
+│                        │      │                  ├ [3]: https://lists.gnupg.org/pipermail/gnupg-announce/2025
+│                        │      │                  │      q1/000491.html 
+│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-30258 
+│                        │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-7412-1 
+│                        │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-30258 
+│                        │      ├ PublishedDate   : 2025-03-19T20:15:20.14Z 
+│                        │      ╰ LastModifiedDate: 2025-03-19T20:15:20.14Z 
+│                        ├ [17] ╭ VulnerabilityID : CVE-2022-3219 
 │                        │      ├ PkgID           : gpg@2.2.27-3ubuntu2.1 
 │                        │      ├ PkgName         : gpg 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/gpg@2.2.27-3ubuntu2.1?arch=amd64&dist
@@ -688,7 +903,50 @@
 │                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2022-3219 
 │                        │      ├ PublishedDate   : 2023-02-23T20:15:12.393Z 
 │                        │      ╰ LastModifiedDate: 2025-03-12T21:15:38.207Z 
-│                        ├ [13] ╭ VulnerabilityID : CVE-2022-3219 
+│                        ├ [18] ╭ VulnerabilityID : CVE-2025-30258 
+│                        │      ├ PkgID           : gpg-agent@2.2.27-3ubuntu2.1 
+│                        │      ├ PkgName         : gpg-agent 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/gpg-agent@2.2.27-3ubuntu2.1?arch=amd6
+│                        │      │                  │       4&distro=ubuntu-22.04 
+│                        │      │                  ╰ UID : 3d17248058a6a52c 
+│                        │      ├ InstalledVersion: 2.2.27-3ubuntu2.1 
+│                        │      ├ FixedVersion    : 2.2.27-3ubuntu2.3 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf
+│                        │      │                  │         4a8143db4b97d428659d0 
+│                        │      │                  ╰ DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e
+│                        │      │                            8d67226cb3b9e50f918f0 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-30258 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : gnupg: verification DoS due to a malicious subkey in the
+│                        │      │                   keyring 
+│                        │      ├ Description     : In GnuPG before 2.5.5, if a user chooses to import a
+│                        │      │                   certificate with certain crafted subkey data that lacks a
+│                        │      │                   valid backsig or that has incorrect usage flags, the user
+│                        │      │                   loses the ability to verify signatures made from certain
+│                        │      │                   other signing keys, aka a "verification DoS." 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ CweIDs           ─ [0]: CWE-754 
+│                        │      ├ VendorSeverity   ╭ redhat: 1 
+│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:C/C:N/I:
+│                        │      │                           │           N/A:L 
+│                        │      │                           ╰ V3Score : 2.7 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-30258 
+│                        │      │                  ├ [1]: https://dev.gnupg.org/T7527 
+│                        │      │                  ├ [2]: https://dev.gnupg.org/rG48978ccb4e20866472ef18436a327
+│                        │      │                  │      44350a65158 
+│                        │      │                  ├ [3]: https://lists.gnupg.org/pipermail/gnupg-announce/2025
+│                        │      │                  │      q1/000491.html 
+│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-30258 
+│                        │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-7412-1 
+│                        │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-30258 
+│                        │      ├ PublishedDate   : 2025-03-19T20:15:20.14Z 
+│                        │      ╰ LastModifiedDate: 2025-03-19T20:15:20.14Z 
+│                        ├ [19] ╭ VulnerabilityID : CVE-2022-3219 
 │                        │      ├ PkgID           : gpg-agent@2.2.27-3ubuntu2.1 
 │                        │      ├ PkgName         : gpg-agent 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/gpg-agent@2.2.27-3ubuntu2.1?arch=amd6
@@ -732,7 +990,50 @@
 │                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2022-3219 
 │                        │      ├ PublishedDate   : 2023-02-23T20:15:12.393Z 
 │                        │      ╰ LastModifiedDate: 2025-03-12T21:15:38.207Z 
-│                        ├ [14] ╭ VulnerabilityID : CVE-2022-3219 
+│                        ├ [20] ╭ VulnerabilityID : CVE-2025-30258 
+│                        │      ├ PkgID           : gpg-wks-client@2.2.27-3ubuntu2.1 
+│                        │      ├ PkgName         : gpg-wks-client 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/gpg-wks-client@2.2.27-3ubuntu2.1?arch
+│                        │      │                  │       =amd64&distro=ubuntu-22.04 
+│                        │      │                  ╰ UID : 1f69dc1bc9900fae 
+│                        │      ├ InstalledVersion: 2.2.27-3ubuntu2.1 
+│                        │      ├ FixedVersion    : 2.2.27-3ubuntu2.3 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf
+│                        │      │                  │         4a8143db4b97d428659d0 
+│                        │      │                  ╰ DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e
+│                        │      │                            8d67226cb3b9e50f918f0 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-30258 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : gnupg: verification DoS due to a malicious subkey in the
+│                        │      │                   keyring 
+│                        │      ├ Description     : In GnuPG before 2.5.5, if a user chooses to import a
+│                        │      │                   certificate with certain crafted subkey data that lacks a
+│                        │      │                   valid backsig or that has incorrect usage flags, the user
+│                        │      │                   loses the ability to verify signatures made from certain
+│                        │      │                   other signing keys, aka a "verification DoS." 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ CweIDs           ─ [0]: CWE-754 
+│                        │      ├ VendorSeverity   ╭ redhat: 1 
+│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:C/C:N/I:
+│                        │      │                           │           N/A:L 
+│                        │      │                           ╰ V3Score : 2.7 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-30258 
+│                        │      │                  ├ [1]: https://dev.gnupg.org/T7527 
+│                        │      │                  ├ [2]: https://dev.gnupg.org/rG48978ccb4e20866472ef18436a327
+│                        │      │                  │      44350a65158 
+│                        │      │                  ├ [3]: https://lists.gnupg.org/pipermail/gnupg-announce/2025
+│                        │      │                  │      q1/000491.html 
+│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-30258 
+│                        │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-7412-1 
+│                        │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-30258 
+│                        │      ├ PublishedDate   : 2025-03-19T20:15:20.14Z 
+│                        │      ╰ LastModifiedDate: 2025-03-19T20:15:20.14Z 
+│                        ├ [21] ╭ VulnerabilityID : CVE-2022-3219 
 │                        │      ├ PkgID           : gpg-wks-client@2.2.27-3ubuntu2.1 
 │                        │      ├ PkgName         : gpg-wks-client 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/gpg-wks-client@2.2.27-3ubuntu2.1?arch
@@ -776,7 +1077,50 @@
 │                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2022-3219 
 │                        │      ├ PublishedDate   : 2023-02-23T20:15:12.393Z 
 │                        │      ╰ LastModifiedDate: 2025-03-12T21:15:38.207Z 
-│                        ├ [15] ╭ VulnerabilityID : CVE-2022-3219 
+│                        ├ [22] ╭ VulnerabilityID : CVE-2025-30258 
+│                        │      ├ PkgID           : gpg-wks-server@2.2.27-3ubuntu2.1 
+│                        │      ├ PkgName         : gpg-wks-server 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/gpg-wks-server@2.2.27-3ubuntu2.1?arch
+│                        │      │                  │       =amd64&distro=ubuntu-22.04 
+│                        │      │                  ╰ UID : 994aa1c69ee4251e 
+│                        │      ├ InstalledVersion: 2.2.27-3ubuntu2.1 
+│                        │      ├ FixedVersion    : 2.2.27-3ubuntu2.3 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf
+│                        │      │                  │         4a8143db4b97d428659d0 
+│                        │      │                  ╰ DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e
+│                        │      │                            8d67226cb3b9e50f918f0 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-30258 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : gnupg: verification DoS due to a malicious subkey in the
+│                        │      │                   keyring 
+│                        │      ├ Description     : In GnuPG before 2.5.5, if a user chooses to import a
+│                        │      │                   certificate with certain crafted subkey data that lacks a
+│                        │      │                   valid backsig or that has incorrect usage flags, the user
+│                        │      │                   loses the ability to verify signatures made from certain
+│                        │      │                   other signing keys, aka a "verification DoS." 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ CweIDs           ─ [0]: CWE-754 
+│                        │      ├ VendorSeverity   ╭ redhat: 1 
+│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:C/C:N/I:
+│                        │      │                           │           N/A:L 
+│                        │      │                           ╰ V3Score : 2.7 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-30258 
+│                        │      │                  ├ [1]: https://dev.gnupg.org/T7527 
+│                        │      │                  ├ [2]: https://dev.gnupg.org/rG48978ccb4e20866472ef18436a327
+│                        │      │                  │      44350a65158 
+│                        │      │                  ├ [3]: https://lists.gnupg.org/pipermail/gnupg-announce/2025
+│                        │      │                  │      q1/000491.html 
+│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-30258 
+│                        │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-7412-1 
+│                        │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-30258 
+│                        │      ├ PublishedDate   : 2025-03-19T20:15:20.14Z 
+│                        │      ╰ LastModifiedDate: 2025-03-19T20:15:20.14Z 
+│                        ├ [23] ╭ VulnerabilityID : CVE-2022-3219 
 │                        │      ├ PkgID           : gpg-wks-server@2.2.27-3ubuntu2.1 
 │                        │      ├ PkgName         : gpg-wks-server 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/gpg-wks-server@2.2.27-3ubuntu2.1?arch
@@ -820,7 +1164,50 @@
 │                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2022-3219 
 │                        │      ├ PublishedDate   : 2023-02-23T20:15:12.393Z 
 │                        │      ╰ LastModifiedDate: 2025-03-12T21:15:38.207Z 
-│                        ├ [16] ╭ VulnerabilityID : CVE-2022-3219 
+│                        ├ [24] ╭ VulnerabilityID : CVE-2025-30258 
+│                        │      ├ PkgID           : gpgconf@2.2.27-3ubuntu2.1 
+│                        │      ├ PkgName         : gpgconf 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/gpgconf@2.2.27-3ubuntu2.1?arch=amd64&
+│                        │      │                  │       distro=ubuntu-22.04 
+│                        │      │                  ╰ UID : d4b237f041c842e4 
+│                        │      ├ InstalledVersion: 2.2.27-3ubuntu2.1 
+│                        │      ├ FixedVersion    : 2.2.27-3ubuntu2.3 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf
+│                        │      │                  │         4a8143db4b97d428659d0 
+│                        │      │                  ╰ DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e
+│                        │      │                            8d67226cb3b9e50f918f0 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-30258 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : gnupg: verification DoS due to a malicious subkey in the
+│                        │      │                   keyring 
+│                        │      ├ Description     : In GnuPG before 2.5.5, if a user chooses to import a
+│                        │      │                   certificate with certain crafted subkey data that lacks a
+│                        │      │                   valid backsig or that has incorrect usage flags, the user
+│                        │      │                   loses the ability to verify signatures made from certain
+│                        │      │                   other signing keys, aka a "verification DoS." 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ CweIDs           ─ [0]: CWE-754 
+│                        │      ├ VendorSeverity   ╭ redhat: 1 
+│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:C/C:N/I:
+│                        │      │                           │           N/A:L 
+│                        │      │                           ╰ V3Score : 2.7 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-30258 
+│                        │      │                  ├ [1]: https://dev.gnupg.org/T7527 
+│                        │      │                  ├ [2]: https://dev.gnupg.org/rG48978ccb4e20866472ef18436a327
+│                        │      │                  │      44350a65158 
+│                        │      │                  ├ [3]: https://lists.gnupg.org/pipermail/gnupg-announce/2025
+│                        │      │                  │      q1/000491.html 
+│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-30258 
+│                        │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-7412-1 
+│                        │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-30258 
+│                        │      ├ PublishedDate   : 2025-03-19T20:15:20.14Z 
+│                        │      ╰ LastModifiedDate: 2025-03-19T20:15:20.14Z 
+│                        ├ [25] ╭ VulnerabilityID : CVE-2022-3219 
 │                        │      ├ PkgID           : gpgconf@2.2.27-3ubuntu2.1 
 │                        │      ├ PkgName         : gpgconf 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/gpgconf@2.2.27-3ubuntu2.1?arch=amd64&
@@ -864,7 +1251,50 @@
 │                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2022-3219 
 │                        │      ├ PublishedDate   : 2023-02-23T20:15:12.393Z 
 │                        │      ╰ LastModifiedDate: 2025-03-12T21:15:38.207Z 
-│                        ├ [17] ╭ VulnerabilityID : CVE-2022-3219 
+│                        ├ [26] ╭ VulnerabilityID : CVE-2025-30258 
+│                        │      ├ PkgID           : gpgsm@2.2.27-3ubuntu2.1 
+│                        │      ├ PkgName         : gpgsm 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/gpgsm@2.2.27-3ubuntu2.1?arch=amd64&di
+│                        │      │                  │       stro=ubuntu-22.04 
+│                        │      │                  ╰ UID : d9ad2e0ee30fae25 
+│                        │      ├ InstalledVersion: 2.2.27-3ubuntu2.1 
+│                        │      ├ FixedVersion    : 2.2.27-3ubuntu2.3 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf
+│                        │      │                  │         4a8143db4b97d428659d0 
+│                        │      │                  ╰ DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e
+│                        │      │                            8d67226cb3b9e50f918f0 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-30258 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : gnupg: verification DoS due to a malicious subkey in the
+│                        │      │                   keyring 
+│                        │      ├ Description     : In GnuPG before 2.5.5, if a user chooses to import a
+│                        │      │                   certificate with certain crafted subkey data that lacks a
+│                        │      │                   valid backsig or that has incorrect usage flags, the user
+│                        │      │                   loses the ability to verify signatures made from certain
+│                        │      │                   other signing keys, aka a "verification DoS." 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ CweIDs           ─ [0]: CWE-754 
+│                        │      ├ VendorSeverity   ╭ redhat: 1 
+│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:C/C:N/I:
+│                        │      │                           │           N/A:L 
+│                        │      │                           ╰ V3Score : 2.7 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-30258 
+│                        │      │                  ├ [1]: https://dev.gnupg.org/T7527 
+│                        │      │                  ├ [2]: https://dev.gnupg.org/rG48978ccb4e20866472ef18436a327
+│                        │      │                  │      44350a65158 
+│                        │      │                  ├ [3]: https://lists.gnupg.org/pipermail/gnupg-announce/2025
+│                        │      │                  │      q1/000491.html 
+│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-30258 
+│                        │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-7412-1 
+│                        │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-30258 
+│                        │      ├ PublishedDate   : 2025-03-19T20:15:20.14Z 
+│                        │      ╰ LastModifiedDate: 2025-03-19T20:15:20.14Z 
+│                        ├ [27] ╭ VulnerabilityID : CVE-2022-3219 
 │                        │      ├ PkgID           : gpgsm@2.2.27-3ubuntu2.1 
 │                        │      ├ PkgName         : gpgsm 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/gpgsm@2.2.27-3ubuntu2.1?arch=amd64&di
@@ -908,7 +1338,50 @@
 │                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2022-3219 
 │                        │      ├ PublishedDate   : 2023-02-23T20:15:12.393Z 
 │                        │      ╰ LastModifiedDate: 2025-03-12T21:15:38.207Z 
-│                        ├ [18] ╭ VulnerabilityID : CVE-2022-3219 
+│                        ├ [28] ╭ VulnerabilityID : CVE-2025-30258 
+│                        │      ├ PkgID           : gpgv@2.2.27-3ubuntu2.1 
+│                        │      ├ PkgName         : gpgv 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/gpgv@2.2.27-3ubuntu2.1?arch=amd64&dis
+│                        │      │                  │       tro=ubuntu-22.04 
+│                        │      │                  ╰ UID : 6adc26a2489c8273 
+│                        │      ├ InstalledVersion: 2.2.27-3ubuntu2.1 
+│                        │      ├ FixedVersion    : 2.2.27-3ubuntu2.3 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf
+│                        │      │                  │         4a8143db4b97d428659d0 
+│                        │      │                  ╰ DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e
+│                        │      │                            8d67226cb3b9e50f918f0 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-30258 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : gnupg: verification DoS due to a malicious subkey in the
+│                        │      │                   keyring 
+│                        │      ├ Description     : In GnuPG before 2.5.5, if a user chooses to import a
+│                        │      │                   certificate with certain crafted subkey data that lacks a
+│                        │      │                   valid backsig or that has incorrect usage flags, the user
+│                        │      │                   loses the ability to verify signatures made from certain
+│                        │      │                   other signing keys, aka a "verification DoS." 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ CweIDs           ─ [0]: CWE-754 
+│                        │      ├ VendorSeverity   ╭ redhat: 1 
+│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:C/C:N/I:
+│                        │      │                           │           N/A:L 
+│                        │      │                           ╰ V3Score : 2.7 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-30258 
+│                        │      │                  ├ [1]: https://dev.gnupg.org/T7527 
+│                        │      │                  ├ [2]: https://dev.gnupg.org/rG48978ccb4e20866472ef18436a327
+│                        │      │                  │      44350a65158 
+│                        │      │                  ├ [3]: https://lists.gnupg.org/pipermail/gnupg-announce/2025
+│                        │      │                  │      q1/000491.html 
+│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-30258 
+│                        │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-7412-1 
+│                        │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-30258 
+│                        │      ├ PublishedDate   : 2025-03-19T20:15:20.14Z 
+│                        │      ╰ LastModifiedDate: 2025-03-19T20:15:20.14Z 
+│                        ├ [29] ╭ VulnerabilityID : CVE-2022-3219 
 │                        │      ├ PkgID           : gpgv@2.2.27-3ubuntu2.1 
 │                        │      ├ PkgName         : gpgv 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/gpgv@2.2.27-3ubuntu2.1?arch=amd64&dis
@@ -952,7 +1425,7 @@
 │                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2022-3219 
 │                        │      ├ PublishedDate   : 2023-02-23T20:15:12.393Z 
 │                        │      ╰ LastModifiedDate: 2025-03-12T21:15:38.207Z 
-│                        ├ [19] ╭ VulnerabilityID : CVE-2022-27943 
+│                        ├ [30] ╭ VulnerabilityID : CVE-2022-27943 
 │                        │      ├ PkgID           : libatomic1@12.3.0-1ubuntu1~22.04 
 │                        │      ├ PkgName         : libatomic1 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libatomic1@12.3.0-1ubuntu1~22.04?arch
@@ -1005,7 +1478,7 @@
 │                        │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2022-27943 
 │                        │      ├ PublishedDate   : 2022-03-26T13:15:07.9Z 
 │                        │      ╰ LastModifiedDate: 2024-11-21T06:56:31.04Z 
-│                        ├ [20] ╭ VulnerabilityID : CVE-2023-4039 
+│                        ├ [31] ╭ VulnerabilityID : CVE-2023-4039 
 │                        │      ├ PkgID           : libatomic1@12.3.0-1ubuntu1~22.04 
 │                        │      ├ PkgName         : libatomic1 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libatomic1@12.3.0-1ubuntu1~22.04?arch
@@ -1079,7 +1552,7 @@
 │                        │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2023-4039 
 │                        │      ├ PublishedDate   : 2023-09-13T09:15:15.69Z 
 │                        │      ╰ LastModifiedDate: 2025-02-13T17:17:14.717Z 
-│                        ├ [21] ╭ VulnerabilityID : CVE-2016-20013 
+│                        ├ [32] ╭ VulnerabilityID : CVE-2016-20013 
 │                        │      ├ PkgID           : libc-bin@2.35-0ubuntu3.9 
 │                        │      ├ PkgName         : libc-bin 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libc-bin@2.35-0ubuntu3.9?arch=amd64&d
@@ -1115,7 +1588,7 @@
 │                        │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2016-20013 
 │                        │      ├ PublishedDate   : 2022-02-19T05:15:09.413Z 
 │                        │      ╰ LastModifiedDate: 2024-11-21T02:47:33.427Z 
-│                        ├ [22] ╭ VulnerabilityID : CVE-2016-20013 
+│                        ├ [33] ╭ VulnerabilityID : CVE-2016-20013 
 │                        │      ├ PkgID           : libc6@2.35-0ubuntu3.9 
 │                        │      ├ PkgName         : libc6 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libc6@2.35-0ubuntu3.9?arch=amd64&dist
@@ -1151,7 +1624,7 @@
 │                        │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2016-20013 
 │                        │      ├ PublishedDate   : 2022-02-19T05:15:09.413Z 
 │                        │      ╰ LastModifiedDate: 2024-11-21T02:47:33.427Z 
-│                        ├ [23] ╭ VulnerabilityID : CVE-2025-0167 
+│                        ├ [34] ╭ VulnerabilityID : CVE-2025-0167 
 │                        │      ├ PkgID           : libcurl3-gnutls@7.81.0-1ubuntu1.20 
 │                        │      ├ PkgName         : libcurl3-gnutls 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libcurl3-gnutls@7.81.0-1ubuntu1.20?ar
@@ -1192,7 +1665,7 @@
 │                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-0167 
 │                        │      ├ PublishedDate   : 2025-02-05T10:15:22.71Z 
 │                        │      ╰ LastModifiedDate: 2025-03-07T01:15:12.11Z 
-│                        ├ [24] ╭ VulnerabilityID : CVE-2025-0167 
+│                        ├ [35] ╭ VulnerabilityID : CVE-2025-0167 
 │                        │      ├ PkgID           : libcurl4@7.81.0-1ubuntu1.20 
 │                        │      ├ PkgName         : libcurl4 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libcurl4@7.81.0-1ubuntu1.20?arch=amd6
@@ -1233,7 +1706,7 @@
 │                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-0167 
 │                        │      ├ PublishedDate   : 2025-02-05T10:15:22.71Z 
 │                        │      ╰ LastModifiedDate: 2025-03-07T01:15:12.11Z 
-│                        ├ [25] ╭ VulnerabilityID : CVE-2023-34969 
+│                        ├ [36] ╭ VulnerabilityID : CVE-2023-34969 
 │                        │      ├ PkgID           : libdbus-1-3@1.12.20-2ubuntu4.1 
 │                        │      ├ PkgName         : libdbus-1-3 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libdbus-1-3@1.12.20-2ubuntu4.1?arch=a
@@ -1301,7 +1774,7 @@
 │                        │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2023-34969 
 │                        │      ├ PublishedDate   : 2023-06-08T03:15:08.97Z 
 │                        │      ╰ LastModifiedDate: 2024-11-21T08:07:44.607Z 
-│                        ├ [26] ╭ VulnerabilityID : CVE-2025-1352 
+│                        ├ [37] ╭ VulnerabilityID : CVE-2025-1352 
 │                        │      ├ PkgID           : libelf1@0.186-1build1 
 │                        │      ├ PkgName         : libelf1 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libelf1@0.186-1build1?arch=amd64&dist
@@ -1332,7 +1805,8 @@
 │                        │      │                   It is recommended to apply a patch to fix this issue. 
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-119 
-│                        │      ├ VendorSeverity   ╭ redhat: 2 
+│                        │      ├ VendorSeverity   ╭ photon: 3 
+│                        │      │                  ├ redhat: 2 
 │                        │      │                  ╰ ubuntu: 2 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:
 │                        │      │                           │           L/A:L 
@@ -1350,14 +1824,15 @@
 │                        │      │                  ╰ [9]: https://www.gnu.org/ 
 │                        │      ├ PublishedDate   : 2025-02-16T15:15:09.133Z 
 │                        │      ╰ LastModifiedDate: 2025-02-16T15:15:09.133Z 
-│                        ├ [27] ╭ VulnerabilityID : CVE-2025-1372 
+│                        ├ [38] ╭ VulnerabilityID : CVE-2025-1372 
 │                        │      ├ PkgID           : libelf1@0.186-1build1 
 │                        │      ├ PkgName         : libelf1 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libelf1@0.186-1build1?arch=amd64&dist
 │                        │      │                  │       ro=ubuntu-22.04 
 │                        │      │                  ╰ UID : c6eff1938e7c14c6 
 │                        │      ├ InstalledVersion: 0.186-1build1 
-│                        │      ├ Status          : affected 
+│                        │      ├ FixedVersion    : 0.186-1ubuntu0.1 
+│                        │      ├ Status          : fixed 
 │                        │      ├ Layer            ╭ Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf
 │                        │      │                  │         4a8143db4b97d428659d0 
 │                        │      │                  ╰ DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e
@@ -1382,7 +1857,8 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ╭ [0]: CWE-119 
 │                        │      │                  ╰ [1]: CWE-120 
-│                        │      ├ VendorSeverity   ╭ redhat: 2 
+│                        │      ├ VendorSeverity   ╭ photon: 3 
+│                        │      │                  ├ redhat: 2 
 │                        │      │                  ╰ ubuntu: 2 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:
 │                        │      │                           │           L/A:L 
@@ -1395,14 +1871,15 @@
 │                        │      │                  ├ [4] : https://sourceware.org/bugzilla/show_bug.cgi?id=3265
 │                        │      │                  │       6#c3 
 │                        │      │                  ├ [5] : https://sourceware.org/bugzilla/show_bug.cgi?id=32657 
-│                        │      │                  ├ [6] : https://vuldb.com/?ctiid.295981 
-│                        │      │                  ├ [7] : https://vuldb.com/?id.295981 
-│                        │      │                  ├ [8] : https://vuldb.com/?submit.496485 
-│                        │      │                  ├ [9] : https://www.cve.org/CVERecord?id=CVE-2025-1372 
-│                        │      │                  ╰ [10]: https://www.gnu.org/ 
+│                        │      │                  ├ [6] : https://ubuntu.com/security/notices/USN-7369-1 
+│                        │      │                  ├ [7] : https://vuldb.com/?ctiid.295981 
+│                        │      │                  ├ [8] : https://vuldb.com/?id.295981 
+│                        │      │                  ├ [9] : https://vuldb.com/?submit.496485 
+│                        │      │                  ├ [10]: https://www.cve.org/CVERecord?id=CVE-2025-1372 
+│                        │      │                  ╰ [11]: https://www.gnu.org/ 
 │                        │      ├ PublishedDate   : 2025-02-17T03:15:09.573Z 
 │                        │      ╰ LastModifiedDate: 2025-02-17T03:15:09.573Z 
-│                        ├ [28] ╭ VulnerabilityID : CVE-2025-1376 
+│                        ├ [39] ╭ VulnerabilityID : CVE-2025-1376 
 │                        │      ├ PkgID           : libelf1@0.186-1build1 
 │                        │      ├ PkgName         : libelf1 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libelf1@0.186-1build1?arch=amd64&dist
@@ -1433,7 +1910,8 @@
 │                        │      │                   recommended to apply a patch to fix this issue. 
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-404 
-│                        │      ├ VendorSeverity   ╭ redhat: 1 
+│                        │      ├ VendorSeverity   ╭ photon: 2 
+│                        │      │                  ├ redhat: 1 
 │                        │      │                  ╰ ubuntu: 2 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:
 │                        │      │                           │           N/A:L 
@@ -1451,14 +1929,15 @@
 │                        │      │                  ╰ [9]: https://www.gnu.org/ 
 │                        │      ├ PublishedDate   : 2025-02-17T05:15:09.807Z 
 │                        │      ╰ LastModifiedDate: 2025-02-17T05:15:09.807Z 
-│                        ├ [29] ╭ VulnerabilityID : CVE-2025-1377 
+│                        ├ [40] ╭ VulnerabilityID : CVE-2025-1377 
 │                        │      ├ PkgID           : libelf1@0.186-1build1 
 │                        │      ├ PkgName         : libelf1 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libelf1@0.186-1build1?arch=amd64&dist
 │                        │      │                  │       ro=ubuntu-22.04 
 │                        │      │                  ╰ UID : c6eff1938e7c14c6 
 │                        │      ├ InstalledVersion: 0.186-1build1 
-│                        │      ├ Status          : affected 
+│                        │      ├ FixedVersion    : 0.186-1ubuntu0.1 
+│                        │      ├ Status          : fixed 
 │                        │      ├ Layer            ╭ Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf
 │                        │      │                  │         4a8143db4b97d428659d0 
 │                        │      │                  ╰ DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e
@@ -1481,25 +1960,28 @@
 │                        │      │                    to apply a patch to fix this issue. 
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-404 
-│                        │      ├ VendorSeverity   ╭ redhat: 1 
+│                        │      ├ VendorSeverity   ╭ photon: 3 
+│                        │      │                  ├ redhat: 1 
 │                        │      │                  ╰ ubuntu: 2 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:
 │                        │      │                           │           N/A:L 
 │                        │      │                           ╰ V3Score : 3.3 
-│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-1377 
-│                        │      │                  ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2025-1377 
-│                        │      │                  ├ [2]: https://sourceware.org/bugzilla/attachment.cgi?id=15941 
-│                        │      │                  ├ [3]: https://sourceware.org/bugzilla/show_bug.cgi?id=32673 
-│                        │      │                  ├ [4]: https://sourceware.org/bugzilla/show_bug.cgi?id=32673
-│                        │      │                  │      #c2 
-│                        │      │                  ├ [5]: https://vuldb.com/?ctiid.295985 
-│                        │      │                  ├ [6]: https://vuldb.com/?id.295985 
-│                        │      │                  ├ [7]: https://vuldb.com/?submit.497539 
-│                        │      │                  ├ [8]: https://www.cve.org/CVERecord?id=CVE-2025-1377 
-│                        │      │                  ╰ [9]: https://www.gnu.org/ 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2025-1377 
+│                        │      │                  ├ [1] : https://nvd.nist.gov/vuln/detail/CVE-2025-1377 
+│                        │      │                  ├ [2] : https://sourceware.org/bugzilla/attachment.cgi?id=15
+│                        │      │                  │       941 
+│                        │      │                  ├ [3] : https://sourceware.org/bugzilla/show_bug.cgi?id=32673 
+│                        │      │                  ├ [4] : https://sourceware.org/bugzilla/show_bug.cgi?id=3267
+│                        │      │                  │       3#c2 
+│                        │      │                  ├ [5] : https://ubuntu.com/security/notices/USN-7369-1 
+│                        │      │                  ├ [6] : https://vuldb.com/?ctiid.295985 
+│                        │      │                  ├ [7] : https://vuldb.com/?id.295985 
+│                        │      │                  ├ [8] : https://vuldb.com/?submit.497539 
+│                        │      │                  ├ [9] : https://www.cve.org/CVERecord?id=CVE-2025-1377 
+│                        │      │                  ╰ [10]: https://www.gnu.org/ 
 │                        │      ├ PublishedDate   : 2025-02-17T05:15:10.09Z 
 │                        │      ╰ LastModifiedDate: 2025-02-17T05:15:10.09Z 
-│                        ├ [30] ╭ VulnerabilityID : CVE-2024-8176 
+│                        ├ [41] ╭ VulnerabilityID : CVE-2024-8176 
 │                        │      ├ PkgID           : libexpat1@2.4.7-1ubuntu0.5 
 │                        │      ├ PkgName         : libexpat1 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libexpat1@2.4.7-1ubuntu0.5?arch=amd64
@@ -1528,30 +2010,40 @@
 │                        │      │                   corruption, depending on the environment and library usage. 
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-674 
-│                        │      ├ VendorSeverity   ╭ redhat: 2 
-│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ VendorSeverity   ╭ alma       : 2 
+│                        │      │                  ├ cbl-mariner: 3 
+│                        │      │                  ├ oracle-oval: 2 
+│                        │      │                  ├ redhat     : 2 
+│                        │      │                  ╰ ubuntu     : 2 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
 │                        │      │                           │           N/A:H 
 │                        │      │                           ╰ V3Score : 7.5 
 │                        │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/03/1
 │                        │      │                  │       5/1 
-│                        │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024-8176 
-│                        │      │                  ├ [2] : https://blog.hartwork.org/posts/expat-2-7-0-released/ 
-│                        │      │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2310137 
-│                        │      │                  ├ [4] : https://bugzilla.suse.com/show_bug.cgi?id=1239618 
-│                        │      │                  ├ [5] : https://github.com/libexpat/libexpat/blob/R_2_7_0/ex
+│                        │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:3531 
+│                        │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2024-8176 
+│                        │      │                  ├ [3] : https://blog.hartwork.org/posts/expat-2-7-0-released/ 
+│                        │      │                  ├ [4] : https://bugzilla.redhat.com/2310137 
+│                        │      │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2310137 
+│                        │      │                  ├ [6] : https://bugzilla.suse.com/show_bug.cgi?id=1239618 
+│                        │      │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2025-3531.html 
+│                        │      │                  ├ [8] : https://github.com/libexpat/libexpat/blob/R_2_7_0/ex
 │                        │      │                  │       pat/Changes#L40-L52 
-│                        │      │                  ├ [6] : https://github.com/libexpat/libexpat/issues/893 
-│                        │      │                  ├ [7] : https://gitlab.alpinelinux.org/alpine/aports/-/commi
+│                        │      │                  ├ [9] : https://github.com/libexpat/libexpat/issues/893 
+│                        │      │                  ├ [10]: https://gitlab.alpinelinux.org/alpine/aports/-/commi
 │                        │      │                  │       t/d068c3ff36fc6f4789988a09c69b434db757db53 
-│                        │      │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2024-8176 
-│                        │      │                  ├ [9] : https://security-tracker.debian.org/tracker/CVE-2024
+│                        │      │                  ├ [11]: https://linux.oracle.com/cve/CVE-2024-8176.html 
+│                        │      │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2025-3531.html 
+│                        │      │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2024-8176 
+│                        │      │                  ├ [14]: https://security-tracker.debian.org/tracker/CVE-2024
 │                        │      │                  │       -8176 
-│                        │      │                  ├ [10]: https://ubuntu.com/security/CVE-2024-8176 
-│                        │      │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2024-8176 
+│                        │      │                  ├ [15]: https://security.netapp.com/advisory/ntap-20250328-0
+│                        │      │                  │       009/ 
+│                        │      │                  ├ [16]: https://ubuntu.com/security/CVE-2024-8176 
+│                        │      │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2024-8176 
 │                        │      ├ PublishedDate   : 2025-03-14T09:15:14.157Z 
-│                        │      ╰ LastModifiedDate: 2025-03-17T17:15:36.167Z 
-│                        ├ [31] ╭ VulnerabilityID : CVE-2025-23022 
+│                        │      ╰ LastModifiedDate: 2025-04-02T15:15:57.987Z 
+│                        ├ [42] ╭ VulnerabilityID : CVE-2025-23022 
 │                        │      ├ PkgID           : libfreetype6@2.11.1+dfsg-1ubuntu0.3 
 │                        │      ├ PkgName         : libfreetype6 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libfreetype6@2.11.1%2Bdfsg-1ubuntu0.3
@@ -1573,7 +2065,8 @@
 │                        │      │                   in cff/cf2intrp.c. 
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-190 
-│                        │      ├ VendorSeverity   ╭ nvd   : 2 
+│                        │      ├ VendorSeverity   ╭ amazon: 3 
+│                        │      │                  ├ nvd   : 2 
 │                        │      │                  ├ redhat: 2 
 │                        │      │                  ╰ ubuntu: 2 
 │                        │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:
@@ -1591,7 +2084,7 @@
 │                        │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2025-23022 
 │                        │      ├ PublishedDate   : 2025-01-10T15:15:16.967Z 
 │                        │      ╰ LastModifiedDate: 2025-01-16T21:12:15.537Z 
-│                        ├ [32] ╭ VulnerabilityID : CVE-2022-27943 
+│                        ├ [43] ╭ VulnerabilityID : CVE-2022-27943 
 │                        │      ├ PkgID           : libgcc-s1@12.3.0-1ubuntu1~22.04 
 │                        │      ├ PkgName         : libgcc-s1 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libgcc-s1@12.3.0-1ubuntu1~22.04?arch=
@@ -1644,7 +2137,7 @@
 │                        │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2022-27943 
 │                        │      ├ PublishedDate   : 2022-03-26T13:15:07.9Z 
 │                        │      ╰ LastModifiedDate: 2024-11-21T06:56:31.04Z 
-│                        ├ [33] ╭ VulnerabilityID : CVE-2023-4039 
+│                        ├ [44] ╭ VulnerabilityID : CVE-2023-4039 
 │                        │      ├ PkgID           : libgcc-s1@12.3.0-1ubuntu1~22.04 
 │                        │      ├ PkgName         : libgcc-s1 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libgcc-s1@12.3.0-1ubuntu1~22.04?arch=
@@ -1718,7 +2211,7 @@
 │                        │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2023-4039 
 │                        │      ├ PublishedDate   : 2023-09-13T09:15:15.69Z 
 │                        │      ╰ LastModifiedDate: 2025-02-13T17:17:14.717Z 
-│                        ├ [34] ╭ VulnerabilityID : CVE-2024-2236 
+│                        ├ [45] ╭ VulnerabilityID : CVE-2024-2236 
 │                        │      ├ PkgID           : libgcrypt20@1.9.4-3ubuntu3 
 │                        │      ├ PkgName         : libgcrypt20 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libgcrypt20@1.9.4-3ubuntu3?arch=amd64
@@ -1751,25 +2244,27 @@
 │                        │      │                           │           N/A:N 
 │                        │      │                           ╰ V3Score : 5.9 
 │                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:9404 
-│                        │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024-2236 
-│                        │      │                  ├ [2] : https://bugzilla.redhat.com/2245218 
-│                        │      │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2245218 
-│                        │      │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2268268 
-│                        │      │                  ├ [5] : https://dev.gnupg.org/T7136 
-│                        │      │                  ├ [6] : https://errata.almalinux.org/9/ALSA-2024-9404.html 
-│                        │      │                  ├ [7] : https://github.com/tomato42/marvin-toolkit/tree/mast
+│                        │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:3530 
+│                        │      │                  ├ [2] : https://access.redhat.com/errata/RHSA-2025:3534 
+│                        │      │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2024-2236 
+│                        │      │                  ├ [4] : https://bugzilla.redhat.com/2245218 
+│                        │      │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2245218 
+│                        │      │                  ├ [6] : https://bugzilla.redhat.com/show_bug.cgi?id=2268268 
+│                        │      │                  ├ [7] : https://dev.gnupg.org/T7136 
+│                        │      │                  ├ [8] : https://errata.almalinux.org/9/ALSA-2024-9404.html 
+│                        │      │                  ├ [9] : https://github.com/tomato42/marvin-toolkit/tree/mast
 │                        │      │                  │       er/example/libgcrypt 
-│                        │      │                  ├ [8] : https://gitlab.com/redhat-crypto/libgcrypt/libgcrypt
+│                        │      │                  ├ [10]: https://gitlab.com/redhat-crypto/libgcrypt/libgcrypt
 │                        │      │                  │       -mirror/-/merge_requests/17 
-│                        │      │                  ├ [9] : https://linux.oracle.com/cve/CVE-2024-2236.html 
-│                        │      │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2024-9404.html 
-│                        │      │                  ├ [11]: https://lists.gnupg.org/pipermail/gcrypt-devel/2024-
+│                        │      │                  ├ [11]: https://linux.oracle.com/cve/CVE-2024-2236.html 
+│                        │      │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2024-9404.html 
+│                        │      │                  ├ [13]: https://lists.gnupg.org/pipermail/gcrypt-devel/2024-
 │                        │      │                  │       March/005607.html 
-│                        │      │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2024-2236 
-│                        │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2024-2236 
+│                        │      │                  ├ [14]: https://nvd.nist.gov/vuln/detail/CVE-2024-2236 
+│                        │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2024-2236 
 │                        │      ├ PublishedDate   : 2024-03-06T22:15:57.977Z 
-│                        │      ╰ LastModifiedDate: 2024-11-21T09:09:19.41Z 
-│                        ├ [35] ╭ VulnerabilityID : CVE-2023-45918 
+│                        │      ╰ LastModifiedDate: 2025-04-02T17:15:37.79Z 
+│                        ├ [46] ╭ VulnerabilityID : CVE-2023-45918 
 │                        │      ├ PkgID           : libncurses6@6.3-2ubuntu0.1 
 │                        │      ├ PkgName         : libncurses6 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libncurses6@6.3-2ubuntu0.1?arch=amd64
@@ -1808,7 +2303,7 @@
 │                        │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2023-45918 
 │                        │      ├ PublishedDate   : 2024-02-16T22:15:07.88Z 
 │                        │      ╰ LastModifiedDate: 2024-11-21T21:15:10.63Z 
-│                        ├ [36] ╭ VulnerabilityID : CVE-2023-50495 
+│                        ├ [47] ╭ VulnerabilityID : CVE-2023-50495 
 │                        │      ├ PkgID           : libncurses6@6.3-2ubuntu0.1 
 │                        │      ├ PkgName         : libncurses6 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libncurses6@6.3-2ubuntu0.1?arch=amd64
@@ -1855,7 +2350,7 @@
 │                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-50495 
 │                        │      ├ PublishedDate   : 2023-12-12T15:15:07.867Z 
 │                        │      ╰ LastModifiedDate: 2024-11-21T08:37:04.243Z 
-│                        ├ [37] ╭ VulnerabilityID : CVE-2023-45918 
+│                        ├ [48] ╭ VulnerabilityID : CVE-2023-45918 
 │                        │      ├ PkgID           : libncursesw6@6.3-2ubuntu0.1 
 │                        │      ├ PkgName         : libncursesw6 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libncursesw6@6.3-2ubuntu0.1?arch=amd6
@@ -1894,7 +2389,7 @@
 │                        │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2023-45918 
 │                        │      ├ PublishedDate   : 2024-02-16T22:15:07.88Z 
 │                        │      ╰ LastModifiedDate: 2024-11-21T21:15:10.63Z 
-│                        ├ [38] ╭ VulnerabilityID : CVE-2023-50495 
+│                        ├ [49] ╭ VulnerabilityID : CVE-2023-50495 
 │                        │      ├ PkgID           : libncursesw6@6.3-2ubuntu0.1 
 │                        │      ├ PkgName         : libncursesw6 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libncursesw6@6.3-2ubuntu0.1?arch=amd6
@@ -1941,7 +2436,7 @@
 │                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-50495 
 │                        │      ├ PublishedDate   : 2023-12-12T15:15:07.867Z 
 │                        │      ╰ LastModifiedDate: 2024-11-21T08:37:04.243Z 
-│                        ├ [39] ╭ VulnerabilityID : CVE-2023-7008 
+│                        ├ [50] ╭ VulnerabilityID : CVE-2023-7008 
 │                        │      ├ PkgID           : libnss-systemd@249.11-0ubuntu3.12 
 │                        │      ├ PkgName         : libnss-systemd 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libnss-systemd@249.11-0ubuntu3.12?arc
@@ -2006,7 +2501,7 @@
 │                        │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
 │                        │      ├ PublishedDate   : 2023-12-23T13:15:07.573Z 
 │                        │      ╰ LastModifiedDate: 2024-11-22T12:15:17.59Z 
-│                        ├ [40] ╭ VulnerabilityID : CVE-2024-10041 
+│                        ├ [51] ╭ VulnerabilityID : CVE-2024-10041 
 │                        │      ├ PkgID           : libpam-modules@1.4.0-11ubuntu2.5 
 │                        │      ├ PkgName         : libpam-modules 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpam-modules@1.4.0-11ubuntu2.5?arch
@@ -2062,7 +2557,7 @@
 │                        │      │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2024-10041 
 │                        │      ├ PublishedDate   : 2024-10-23T14:15:03.97Z 
 │                        │      ╰ LastModifiedDate: 2024-12-18T10:15:05.85Z 
-│                        ├ [41] ╭ VulnerabilityID : CVE-2024-10041 
+│                        ├ [52] ╭ VulnerabilityID : CVE-2024-10041 
 │                        │      ├ PkgID           : libpam-modules-bin@1.4.0-11ubuntu2.5 
 │                        │      ├ PkgName         : libpam-modules-bin 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpam-modules-bin@1.4.0-11ubuntu2.5?
@@ -2118,7 +2613,7 @@
 │                        │      │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2024-10041 
 │                        │      ├ PublishedDate   : 2024-10-23T14:15:03.97Z 
 │                        │      ╰ LastModifiedDate: 2024-12-18T10:15:05.85Z 
-│                        ├ [42] ╭ VulnerabilityID : CVE-2024-10041 
+│                        ├ [53] ╭ VulnerabilityID : CVE-2024-10041 
 │                        │      ├ PkgID           : libpam-runtime@1.4.0-11ubuntu2.5 
 │                        │      ├ PkgName         : libpam-runtime 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpam-runtime@1.4.0-11ubuntu2.5?arch
@@ -2174,7 +2669,7 @@
 │                        │      │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2024-10041 
 │                        │      ├ PublishedDate   : 2024-10-23T14:15:03.97Z 
 │                        │      ╰ LastModifiedDate: 2024-12-18T10:15:05.85Z 
-│                        ├ [43] ╭ VulnerabilityID : CVE-2023-7008 
+│                        ├ [54] ╭ VulnerabilityID : CVE-2023-7008 
 │                        │      ├ PkgID           : libpam-systemd@249.11-0ubuntu3.12 
 │                        │      ├ PkgName         : libpam-systemd 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpam-systemd@249.11-0ubuntu3.12?arc
@@ -2239,7 +2734,7 @@
 │                        │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
 │                        │      ├ PublishedDate   : 2023-12-23T13:15:07.573Z 
 │                        │      ╰ LastModifiedDate: 2024-11-22T12:15:17.59Z 
-│                        ├ [44] ╭ VulnerabilityID : CVE-2024-10041 
+│                        ├ [55] ╭ VulnerabilityID : CVE-2024-10041 
 │                        │      ├ PkgID           : libpam0g@1.4.0-11ubuntu2.5 
 │                        │      ├ PkgName         : libpam0g 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpam0g@1.4.0-11ubuntu2.5?arch=amd64
@@ -2295,7 +2790,7 @@
 │                        │      │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2024-10041 
 │                        │      ├ PublishedDate   : 2024-10-23T14:15:03.97Z 
 │                        │      ╰ LastModifiedDate: 2024-12-18T10:15:05.85Z 
-│                        ├ [45] ╭ VulnerabilityID : CVE-2022-41409 
+│                        ├ [56] ╭ VulnerabilityID : CVE-2022-41409 
 │                        │      ├ PkgID           : libpcre2-8-0@10.39-3ubuntu0.1 
 │                        │      ├ PkgName         : libpcre2-8-0 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpcre2-8-0@10.39-3ubuntu0.1?arch=am
@@ -2340,7 +2835,7 @@
 │                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2022-41409 
 │                        │      ├ PublishedDate   : 2023-07-18T14:15:12.197Z 
 │                        │      ╰ LastModifiedDate: 2024-11-21T07:23:10.577Z 
-│                        ├ [46] ╭ VulnerabilityID : CVE-2017-11164 
+│                        ├ [57] ╭ VulnerabilityID : CVE-2017-11164 
 │                        │      ├ PkgID           : libpcre3@2:8.39-13ubuntu0.22.04.1 
 │                        │      ├ PkgName         : libpcre3 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpcre3@8.39-13ubuntu0.22.04.1?arch=
@@ -2387,7 +2882,7 @@
 │                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2017-11164 
 │                        │      ├ PublishedDate   : 2017-07-11T03:29:00.277Z 
 │                        │      ╰ LastModifiedDate: 2024-11-21T03:07:14.377Z 
-│                        ├ [47] ╭ VulnerabilityID : CVE-2024-41996 
+│                        ├ [58] ╭ VulnerabilityID : CVE-2024-41996 
 │                        │      ├ PkgID           : libssl3@3.0.2-0ubuntu1.19 
 │                        │      ├ PkgName         : libssl3 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libssl3@3.0.2-0ubuntu1.19?arch=amd64&
@@ -2437,7 +2932,7 @@
 │                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-41996 
 │                        │      ├ PublishedDate   : 2024-08-26T06:15:04.603Z 
 │                        │      ╰ LastModifiedDate: 2024-08-26T16:35:11.247Z 
-│                        ├ [48] ╭ VulnerabilityID : CVE-2022-27943 
+│                        ├ [59] ╭ VulnerabilityID : CVE-2022-27943 
 │                        │      ├ PkgID           : libstdc++6@12.3.0-1ubuntu1~22.04 
 │                        │      ├ PkgName         : libstdc++6 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libstdc%2B%2B6@12.3.0-1ubuntu1~22.04?
@@ -2490,7 +2985,7 @@
 │                        │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2022-27943 
 │                        │      ├ PublishedDate   : 2022-03-26T13:15:07.9Z 
 │                        │      ╰ LastModifiedDate: 2024-11-21T06:56:31.04Z 
-│                        ├ [49] ╭ VulnerabilityID : CVE-2023-4039 
+│                        ├ [60] ╭ VulnerabilityID : CVE-2023-4039 
 │                        │      ├ PkgID           : libstdc++6@12.3.0-1ubuntu1~22.04 
 │                        │      ├ PkgName         : libstdc++6 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libstdc%2B%2B6@12.3.0-1ubuntu1~22.04?
@@ -2564,7 +3059,7 @@
 │                        │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2023-4039 
 │                        │      ├ PublishedDate   : 2023-09-13T09:15:15.69Z 
 │                        │      ╰ LastModifiedDate: 2025-02-13T17:17:14.717Z 
-│                        ├ [50] ╭ VulnerabilityID : CVE-2023-7008 
+│                        ├ [61] ╭ VulnerabilityID : CVE-2023-7008 
 │                        │      ├ PkgID           : libsystemd0@249.11-0ubuntu3.12 
 │                        │      ├ PkgName         : libsystemd0 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libsystemd0@249.11-0ubuntu3.12?arch=a
@@ -2629,7 +3124,7 @@
 │                        │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
 │                        │      ├ PublishedDate   : 2023-12-23T13:15:07.573Z 
 │                        │      ╰ LastModifiedDate: 2024-11-22T12:15:17.59Z 
-│                        ├ [51] ╭ VulnerabilityID : CVE-2023-45918 
+│                        ├ [62] ╭ VulnerabilityID : CVE-2023-45918 
 │                        │      ├ PkgID           : libtinfo6@6.3-2ubuntu0.1 
 │                        │      ├ PkgName         : libtinfo6 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libtinfo6@6.3-2ubuntu0.1?arch=amd64&d
@@ -2668,7 +3163,7 @@
 │                        │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2023-45918 
 │                        │      ├ PublishedDate   : 2024-02-16T22:15:07.88Z 
 │                        │      ╰ LastModifiedDate: 2024-11-21T21:15:10.63Z 
-│                        ├ [52] ╭ VulnerabilityID : CVE-2023-50495 
+│                        ├ [63] ╭ VulnerabilityID : CVE-2023-50495 
 │                        │      ├ PkgID           : libtinfo6@6.3-2ubuntu0.1 
 │                        │      ├ PkgName         : libtinfo6 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libtinfo6@6.3-2ubuntu0.1?arch=amd64&d
@@ -2715,7 +3210,7 @@
 │                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-50495 
 │                        │      ├ PublishedDate   : 2023-12-12T15:15:07.867Z 
 │                        │      ╰ LastModifiedDate: 2024-11-21T08:37:04.243Z 
-│                        ├ [53] ╭ VulnerabilityID : CVE-2023-7008 
+│                        ├ [64] ╭ VulnerabilityID : CVE-2023-7008 
 │                        │      ├ PkgID           : libudev1@249.11-0ubuntu3.12 
 │                        │      ├ PkgName         : libudev1 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libudev1@249.11-0ubuntu3.12?arch=amd6
@@ -2780,7 +3275,7 @@
 │                        │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
 │                        │      ├ PublishedDate   : 2023-12-23T13:15:07.573Z 
 │                        │      ╰ LastModifiedDate: 2024-11-22T12:15:17.59Z 
-│                        ├ [54] ╭ VulnerabilityID : CVE-2022-4899 
+│                        ├ [65] ╭ VulnerabilityID : CVE-2022-4899 
 │                        │      ├ PkgID           : libzstd1@1.4.8+dfsg-3build1 
 │                        │      ├ PkgName         : libzstd1 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libzstd1@1.4.8%2Bdfsg-3build1?arch=am
@@ -2934,7 +3429,7 @@
 │                        │      │                  ╰ [94]: https://www.cve.org/CVERecord?id=CVE-2022-4899 
 │                        │      ├ PublishedDate   : 2023-03-31T20:15:07.213Z 
 │                        │      ╰ LastModifiedDate: 2025-02-18T18:15:14.023Z 
-│                        ├ [55] ╭ VulnerabilityID : CVE-2023-29383 
+│                        ├ [66] ╭ VulnerabilityID : CVE-2023-29383 
 │                        │      ├ PkgID           : login@1:4.8.1-2ubuntu2.2 
 │                        │      ├ PkgName         : login 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/login@4.8.1-2ubuntu2.2?arch=amd64&dis
@@ -2993,7 +3488,7 @@
 │                        │      │                         sources/security-advisories/?fid=31797 
 │                        │      ├ PublishedDate   : 2023-04-14T22:15:07.68Z 
 │                        │      ╰ LastModifiedDate: 2025-02-06T22:15:35.057Z 
-│                        ├ [56] ╭ VulnerabilityID : CVE-2024-56433 
+│                        ├ [67] ╭ VulnerabilityID : CVE-2024-56433 
 │                        │      ├ PkgID           : login@1:4.8.1-2ubuntu2.2 
 │                        │      ├ PkgName         : login 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/login@4.8.1-2ubuntu2.2?arch=amd64&dis
@@ -3040,7 +3535,7 @@
 │                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                        │      ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                        │      ╰ LastModifiedDate: 2024-12-26T09:15:07.267Z 
-│                        ├ [57] ╭ VulnerabilityID : CVE-2023-45918 
+│                        ├ [68] ╭ VulnerabilityID : CVE-2023-45918 
 │                        │      ├ PkgID           : ncurses-base@6.3-2ubuntu0.1 
 │                        │      ├ PkgName         : ncurses-base 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/ncurses-base@6.3-2ubuntu0.1?arch=all&
@@ -3079,7 +3574,7 @@
 │                        │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2023-45918 
 │                        │      ├ PublishedDate   : 2024-02-16T22:15:07.88Z 
 │                        │      ╰ LastModifiedDate: 2024-11-21T21:15:10.63Z 
-│                        ├ [58] ╭ VulnerabilityID : CVE-2023-50495 
+│                        ├ [69] ╭ VulnerabilityID : CVE-2023-50495 
 │                        │      ├ PkgID           : ncurses-base@6.3-2ubuntu0.1 
 │                        │      ├ PkgName         : ncurses-base 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/ncurses-base@6.3-2ubuntu0.1?arch=all&
@@ -3126,7 +3621,7 @@
 │                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-50495 
 │                        │      ├ PublishedDate   : 2023-12-12T15:15:07.867Z 
 │                        │      ╰ LastModifiedDate: 2024-11-21T08:37:04.243Z 
-│                        ├ [59] ╭ VulnerabilityID : CVE-2023-45918 
+│                        ├ [70] ╭ VulnerabilityID : CVE-2023-45918 
 │                        │      ├ PkgID           : ncurses-bin@6.3-2ubuntu0.1 
 │                        │      ├ PkgName         : ncurses-bin 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/ncurses-bin@6.3-2ubuntu0.1?arch=amd64
@@ -3165,7 +3660,7 @@
 │                        │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2023-45918 
 │                        │      ├ PublishedDate   : 2024-02-16T22:15:07.88Z 
 │                        │      ╰ LastModifiedDate: 2024-11-21T21:15:10.63Z 
-│                        ├ [60] ╭ VulnerabilityID : CVE-2023-50495 
+│                        ├ [71] ╭ VulnerabilityID : CVE-2023-50495 
 │                        │      ├ PkgID           : ncurses-bin@6.3-2ubuntu0.1 
 │                        │      ├ PkgName         : ncurses-bin 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/ncurses-bin@6.3-2ubuntu0.1?arch=amd64
@@ -3212,7 +3707,7 @@
 │                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-50495 
 │                        │      ├ PublishedDate   : 2023-12-12T15:15:07.867Z 
 │                        │      ╰ LastModifiedDate: 2024-11-21T08:37:04.243Z 
-│                        ├ [61] ╭ VulnerabilityID : CVE-2023-45918 
+│                        ├ [72] ╭ VulnerabilityID : CVE-2023-45918 
 │                        │      ├ PkgID           : ncurses-term@6.3-2ubuntu0.1 
 │                        │      ├ PkgName         : ncurses-term 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/ncurses-term@6.3-2ubuntu0.1?arch=all&
@@ -3251,7 +3746,7 @@
 │                        │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2023-45918 
 │                        │      ├ PublishedDate   : 2024-02-16T22:15:07.88Z 
 │                        │      ╰ LastModifiedDate: 2024-11-21T21:15:10.63Z 
-│                        ├ [62] ╭ VulnerabilityID : CVE-2023-50495 
+│                        ├ [73] ╭ VulnerabilityID : CVE-2023-50495 
 │                        │      ├ PkgID           : ncurses-term@6.3-2ubuntu0.1 
 │                        │      ├ PkgName         : ncurses-term 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/ncurses-term@6.3-2ubuntu0.1?arch=all&
@@ -3298,7 +3793,7 @@
 │                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-50495 
 │                        │      ├ PublishedDate   : 2023-12-12T15:15:07.867Z 
 │                        │      ╰ LastModifiedDate: 2024-11-21T08:37:04.243Z 
-│                        ├ [63] ╭ VulnerabilityID : CVE-2024-41996 
+│                        ├ [74] ╭ VulnerabilityID : CVE-2024-41996 
 │                        │      ├ PkgID           : openssl@3.0.2-0ubuntu1.19 
 │                        │      ├ PkgName         : openssl 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl@3.0.2-0ubuntu1.19?arch=amd64&
@@ -3348,7 +3843,7 @@
 │                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-41996 
 │                        │      ├ PublishedDate   : 2024-08-26T06:15:04.603Z 
 │                        │      ╰ LastModifiedDate: 2024-08-26T16:35:11.247Z 
-│                        ├ [64] ╭ VulnerabilityID : CVE-2023-29383 
+│                        ├ [75] ╭ VulnerabilityID : CVE-2023-29383 
 │                        │      ├ PkgID           : passwd@1:4.8.1-2ubuntu2.2 
 │                        │      ├ PkgName         : passwd 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/passwd@4.8.1-2ubuntu2.2?arch=amd64&di
@@ -3407,7 +3902,7 @@
 │                        │      │                         sources/security-advisories/?fid=31797 
 │                        │      ├ PublishedDate   : 2023-04-14T22:15:07.68Z 
 │                        │      ╰ LastModifiedDate: 2025-02-06T22:15:35.057Z 
-│                        ├ [65] ╭ VulnerabilityID : CVE-2024-56433 
+│                        ├ [76] ╭ VulnerabilityID : CVE-2024-56433 
 │                        │      ├ PkgID           : passwd@1:4.8.1-2ubuntu2.2 
 │                        │      ├ PkgName         : passwd 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/passwd@4.8.1-2ubuntu2.2?arch=amd64&di
@@ -3454,7 +3949,7 @@
 │                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                        │      ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                        │      ╰ LastModifiedDate: 2024-12-26T09:15:07.267Z 
-│                        ├ [66] ╭ VulnerabilityID : CVE-2023-7008 
+│                        ├ [77] ╭ VulnerabilityID : CVE-2023-7008 
 │                        │      ├ PkgID           : systemd@249.11-0ubuntu3.12 
 │                        │      ├ PkgName         : systemd 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/systemd@249.11-0ubuntu3.12?arch=amd64
@@ -3519,7 +4014,7 @@
 │                        │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
 │                        │      ├ PublishedDate   : 2023-12-23T13:15:07.573Z 
 │                        │      ╰ LastModifiedDate: 2024-11-22T12:15:17.59Z 
-│                        ├ [67] ╭ VulnerabilityID : CVE-2023-7008 
+│                        ├ [78] ╭ VulnerabilityID : CVE-2023-7008 
 │                        │      ├ PkgID           : systemd-sysv@249.11-0ubuntu3.12 
 │                        │      ├ PkgName         : systemd-sysv 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/systemd-sysv@249.11-0ubuntu3.12?arch=
@@ -3584,7 +4079,7 @@
 │                        │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
 │                        │      ├ PublishedDate   : 2023-12-23T13:15:07.573Z 
 │                        │      ╰ LastModifiedDate: 2024-11-22T12:15:17.59Z 
-│                        ├ [68] ╭ VulnerabilityID : CVE-2023-7008 
+│                        ├ [79] ╭ VulnerabilityID : CVE-2023-7008 
 │                        │      ├ PkgID           : systemd-timesyncd@249.11-0ubuntu3.12 
 │                        │      ├ PkgName         : systemd-timesyncd 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/systemd-timesyncd@249.11-0ubuntu3.12?
@@ -3649,7 +4144,7 @@
 │                        │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
 │                        │      ├ PublishedDate   : 2023-12-23T13:15:07.573Z 
 │                        │      ╰ LastModifiedDate: 2024-11-22T12:15:17.59Z 
-│                        ├ [69] ╭ VulnerabilityID : CVE-2023-29383 
+│                        ├ [80] ╭ VulnerabilityID : CVE-2023-29383 
 │                        │      ├ PkgID           : uidmap@1:4.8.1-2ubuntu2.2 
 │                        │      ├ PkgName         : uidmap 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/uidmap@4.8.1-2ubuntu2.2?arch=amd64&di
@@ -3708,7 +4203,7 @@
 │                        │      │                         sources/security-advisories/?fid=31797 
 │                        │      ├ PublishedDate   : 2023-04-14T22:15:07.68Z 
 │                        │      ╰ LastModifiedDate: 2025-02-06T22:15:35.057Z 
-│                        ├ [70] ╭ VulnerabilityID : CVE-2024-56433 
+│                        ├ [81] ╭ VulnerabilityID : CVE-2024-56433 
 │                        │      ├ PkgID           : uidmap@1:4.8.1-2ubuntu2.2 
 │                        │      ├ PkgName         : uidmap 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/uidmap@4.8.1-2ubuntu2.2?arch=amd64&di
@@ -3755,7 +4250,7 @@
 │                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                        │      ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                        │      ╰ LastModifiedDate: 2024-12-26T09:15:07.267Z 
-│                        ╰ [71] ╭ VulnerabilityID : CVE-2021-31879 
+│                        ╰ [82] ╭ VulnerabilityID : CVE-2021-31879 
 │                               ├ PkgID           : wget@1.21.2-2ubuntu1.1 
 │                               ├ PkgName         : wget 
 │                               ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/wget@1.21.2-2ubuntu1.1?arch=amd64&dis
@@ -4016,8 +4511,11 @@
 │                              │                    incorrectly match and not be proxied. 
 │                              ├ Severity        : MEDIUM 
 │                              ├ CweIDs           ─ [0]: CWE-115 
-│                              ├ VendorSeverity   ╭ ghsa  : 2 
-│                              │                  ╰ redhat: 2 
+│                              ├ VendorSeverity   ╭ amazon     : 2 
+│                              │                  ├ azure      : 1 
+│                              │                  ├ cbl-mariner: 2 
+│                              │                  ├ ghsa       : 2 
+│                              │                  ╰ redhat     : 2 
 │                              ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N
 │                              │                  │        │           /A:L 
 │                              │                  │        ╰ V3Score : 4.4 
@@ -4170,8 +4668,11 @@
 │                              │                    incorrectly match and not be proxied. 
 │                              ├ Severity        : MEDIUM 
 │                              ├ CweIDs           ─ [0]: CWE-115 
-│                              ├ VendorSeverity   ╭ ghsa  : 2 
-│                              │                  ╰ redhat: 2 
+│                              ├ VendorSeverity   ╭ amazon     : 2 
+│                              │                  ├ azure      : 1 
+│                              │                  ├ cbl-mariner: 2 
+│                              │                  ├ ghsa       : 2 
+│                              │                  ╰ redhat     : 2 
 │                              ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N
 │                              │                  │        │           /A:L 
 │                              │                  │        ╰ V3Score : 4.4 
@@ -4224,26 +4725,33 @@
 │                        │     │                   permissions to import images. 
 │                        │     ├ Severity        : MEDIUM 
 │                        │     ├ CweIDs           ─ [0]: CWE-190 
-│                        │     ├ VendorSeverity   ╭ ghsa  : 2 
-│                        │     │                  ╰ redhat: 2 
+│                        │     ├ VendorSeverity   ╭ amazon: 2 
+│                        │     │                  ├ ghsa  : 2 
+│                        │     │                  ├ redhat: 2 
+│                        │     │                  ╰ ubuntu: 2 
 │                        │     ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:C/C:L/I:L
 │                        │     │                  │        │           /A:N 
 │                        │     │                  │        ╰ V3Score : 4.6 
 │                        │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:C/C:L/I:L
 │                        │     │                           │           /A:N 
 │                        │     │                           ╰ V3Score : 4.6 
-│                        │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-40635 
-│                        │     │                  ├ [1]: https://github.com/containerd/containerd 
-│                        │     │                  ├ [2]: https://github.com/containerd/containerd/commit/05044e
-│                        │     │                  │      c0a9a75232cad458027ca83437aae3f4da 
-│                        │     │                  ├ [3]: https://github.com/containerd/containerd/commit/1a43cb
-│                        │     │                  │      6a1035441f9aca8f5666a9b3ef9e70ab20 
-│                        │     │                  ├ [4]: https://github.com/containerd/containerd/commit/cf158e
-│                        │     │                  │      884cfe4812a6c371b59e4ea9bc4c46e51a 
-│                        │     │                  ├ [5]: https://github.com/containerd/containerd/security/advi
-│                        │     │                  │      sories/GHSA-265r-hfxg-fhmg 
-│                        │     │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2024-40635 
-│                        │     │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2024-40635 
+│                        │     ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2024-40635 
+│                        │     │                  ├ [1] : https://github.com/containerd/containerd 
+│                        │     │                  ├ [2] : https://github.com/containerd/containerd/commit/05044
+│                        │     │                  │       ec0a9a75232cad458027ca83437aae3f4da 
+│                        │     │                  ├ [3] : https://github.com/containerd/containerd/commit/11504
+│                        │     │                  │       c3fc5f45634f2d93d57743a998194430b82 (v1.7.27) 
+│                        │     │                  ├ [4] : https://github.com/containerd/containerd/commit/1a43c
+│                        │     │                  │       b6a1035441f9aca8f5666a9b3ef9e70ab20 
+│                        │     │                  ├ [5] : https://github.com/containerd/containerd/commit/9639b
+│                        │     │                  │       9625554183d0c4d8d072dccb84fedd2320f (v1.6.38) 
+│                        │     │                  ├ [6] : https://github.com/containerd/containerd/commit/cf158
+│                        │     │                  │       e884cfe4812a6c371b59e4ea9bc4c46e51a 
+│                        │     │                  ├ [7] : https://github.com/containerd/containerd/security/adv
+│                        │     │                  │       isories/GHSA-265r-hfxg-fhmg 
+│                        │     │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2024-40635 
+│                        │     │                  ├ [9] : https://ubuntu.com/security/notices/USN-7374-1 
+│                        │     │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2024-40635 
 │                        │     ├ PublishedDate   : 2025-03-17T22:15:13.15Z 
 │                        │     ╰ LastModifiedDate: 2025-03-17T22:15:13.15Z 
 │                        ├ [1] ╭ VulnerabilityID : CVE-2025-0495 
@@ -4317,8 +4825,11 @@
 │                              │                    incorrectly match and not be proxied. 
 │                              ├ Severity        : MEDIUM 
 │                              ├ CweIDs           ─ [0]: CWE-115 
-│                              ├ VendorSeverity   ╭ ghsa  : 2 
-│                              │                  ╰ redhat: 2 
+│                              ├ VendorSeverity   ╭ amazon     : 2 
+│                              │                  ├ azure      : 1 
+│                              │                  ├ cbl-mariner: 2 
+│                              │                  ├ ghsa       : 2 
+│                              │                  ╰ redhat     : 2 
 │                              ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N
 │                              │                  │        │           /A:L 
 │                              │                  │        ╰ V3Score : 4.4 
@@ -4371,26 +4882,33 @@
 │                              │                   permissions to import images. 
 │                              ├ Severity        : MEDIUM 
 │                              ├ CweIDs           ─ [0]: CWE-190 
-│                              ├ VendorSeverity   ╭ ghsa  : 2 
-│                              │                  ╰ redhat: 2 
+│                              ├ VendorSeverity   ╭ amazon: 2 
+│                              │                  ├ ghsa  : 2 
+│                              │                  ├ redhat: 2 
+│                              │                  ╰ ubuntu: 2 
 │                              ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:C/C:L/I:L
 │                              │                  │        │           /A:N 
 │                              │                  │        ╰ V3Score : 4.6 
 │                              │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:C/C:L/I:L
 │                              │                           │           /A:N 
 │                              │                           ╰ V3Score : 4.6 
-│                              ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-40635 
-│                              │                  ├ [1]: https://github.com/containerd/containerd 
-│                              │                  ├ [2]: https://github.com/containerd/containerd/commit/05044e
-│                              │                  │      c0a9a75232cad458027ca83437aae3f4da 
-│                              │                  ├ [3]: https://github.com/containerd/containerd/commit/1a43cb
-│                              │                  │      6a1035441f9aca8f5666a9b3ef9e70ab20 
-│                              │                  ├ [4]: https://github.com/containerd/containerd/commit/cf158e
-│                              │                  │      884cfe4812a6c371b59e4ea9bc4c46e51a 
-│                              │                  ├ [5]: https://github.com/containerd/containerd/security/advi
-│                              │                  │      sories/GHSA-265r-hfxg-fhmg 
-│                              │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2024-40635 
-│                              │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2024-40635 
+│                              ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2024-40635 
+│                              │                  ├ [1] : https://github.com/containerd/containerd 
+│                              │                  ├ [2] : https://github.com/containerd/containerd/commit/05044
+│                              │                  │       ec0a9a75232cad458027ca83437aae3f4da 
+│                              │                  ├ [3] : https://github.com/containerd/containerd/commit/11504
+│                              │                  │       c3fc5f45634f2d93d57743a998194430b82 (v1.7.27) 
+│                              │                  ├ [4] : https://github.com/containerd/containerd/commit/1a43c
+│                              │                  │       b6a1035441f9aca8f5666a9b3ef9e70ab20 
+│                              │                  ├ [5] : https://github.com/containerd/containerd/commit/9639b
+│                              │                  │       9625554183d0c4d8d072dccb84fedd2320f (v1.6.38) 
+│                              │                  ├ [6] : https://github.com/containerd/containerd/commit/cf158
+│                              │                  │       e884cfe4812a6c371b59e4ea9bc4c46e51a 
+│                              │                  ├ [7] : https://github.com/containerd/containerd/security/adv
+│                              │                  │       isories/GHSA-265r-hfxg-fhmg 
+│                              │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2024-40635 
+│                              │                  ├ [9] : https://ubuntu.com/security/notices/USN-7374-1 
+│                              │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2024-40635 
 │                              ├ PublishedDate   : 2025-03-17T22:15:13.15Z 
 │                              ╰ LastModifiedDate: 2025-03-17T22:15:13.15Z 
 ├ [7]  ╭ Target         : usr/bin/kubectl 
@@ -4423,8 +4941,11 @@
 │                              │                    incorrectly match and not be proxied. 
 │                              ├ Severity        : MEDIUM 
 │                              ├ CweIDs           ─ [0]: CWE-115 
-│                              ├ VendorSeverity   ╭ ghsa  : 2 
-│                              │                  ╰ redhat: 2 
+│                              ├ VendorSeverity   ╭ amazon     : 2 
+│                              │                  ├ azure      : 1 
+│                              │                  ├ cbl-mariner: 2 
+│                              │                  ├ ghsa       : 2 
+│                              │                  ╰ redhat     : 2 
 │                              ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N
 │                              │                  │        │           /A:L 
 │                              │                  │        ╰ V3Score : 4.4 
@@ -4462,8 +4983,8 @@
 │                              │                  ├ Name: GitHub Security Advisory Go 
 │                              │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+e
 │                              │                          cosystem%3Ago 
-│                              ├ Title           : golang-jwt is a Go implementation of JSON Web Tokens. Prior
-│                              │                   to  5.2.2  ... 
+│                              ├ Title           : golang-jwt/jwt: jwt-go allows excessive memory allocation
+│                              │                   during header parsing 
 │                              ├ Description     : golang-jwt is a Go implementation of JSON Web Tokens. Prior
 │                              │                   to 
 │                              │                   5.2.2 and 4.5.2, the function parse.ParseUnverified splits
@@ -4477,14 +4998,29 @@
 │                              │                   and 4.5.2. 
 │                              ├ Severity        : HIGH 
 │                              ├ CweIDs           ─ [0]: CWE-405 
-│                              ├ VendorSeverity   ─ ghsa: 3 
-│                              ├ CVSS             ─ ghsa ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H 
-│                              │                         ╰ V3Score : 7.5 
-│                              ├ References       ╭ [0]: https://github.com/golang-jwt/jwt 
-│                              │                  ├ [1]: https://github.com/golang-jwt/jwt/commit/0951d184286de
-│                              │                  │      ce21f73c85673fd308786ffe9c3 
-│                              │                  ╰ [2]: https://github.com/golang-jwt/jwt/security/advisories/
-│                              │                         GHSA-mh63-6h87-95cp 
+│                              ├ VendorSeverity   ╭ alma       : 3 
+│                              │                  ├ ghsa       : 3 
+│                              │                  ├ oracle-oval: 3 
+│                              │                  ╰ redhat     : 3 
+│                              ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
+│                              │                  │        │           /A:H 
+│                              │                  │        ╰ V3Score : 7.5 
+│                              │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
+│                              │                           │           /A:H 
+│                              │                           ╰ V3Score : 7.5 
+│                              ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:3344 
+│                              │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-30204 
+│                              │                  ├ [2] : https://bugzilla.redhat.com/2354195 
+│                              │                  ├ [3] : https://errata.almalinux.org/9/ALSA-2025-3344.html 
+│                              │                  ├ [4] : https://github.com/golang-jwt/jwt 
+│                              │                  ├ [5] : https://github.com/golang-jwt/jwt/commit/0951d184286d
+│                              │                  │       ece21f73c85673fd308786ffe9c3 
+│                              │                  ├ [6] : https://github.com/golang-jwt/jwt/security/advisories
+│                              │                  │       /GHSA-mh63-6h87-95cp 
+│                              │                  ├ [7] : https://linux.oracle.com/cve/CVE-2025-30204.html 
+│                              │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2025-3344.html 
+│                              │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2025-30204 
+│                              │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2025-30204 
 │                              ├ PublishedDate   : 2025-03-21T22:15:26.42Z 
 │                              ╰ LastModifiedDate: 2025-03-21T22:15:26.42Z 
 ├ [9]  ╭ Target         : usr/local/bin/k3d 
@@ -4523,26 +5059,33 @@
 │                        │     │                   permissions to import images. 
 │                        │     ├ Severity        : MEDIUM 
 │                        │     ├ CweIDs           ─ [0]: CWE-190 
-│                        │     ├ VendorSeverity   ╭ ghsa  : 2 
-│                        │     │                  ╰ redhat: 2 
+│                        │     ├ VendorSeverity   ╭ amazon: 2 
+│                        │     │                  ├ ghsa  : 2 
+│                        │     │                  ├ redhat: 2 
+│                        │     │                  ╰ ubuntu: 2 
 │                        │     ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:C/C:L/I:L
 │                        │     │                  │        │           /A:N 
 │                        │     │                  │        ╰ V3Score : 4.6 
 │                        │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:C/C:L/I:L
 │                        │     │                           │           /A:N 
 │                        │     │                           ╰ V3Score : 4.6 
-│                        │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-40635 
-│                        │     │                  ├ [1]: https://github.com/containerd/containerd 
-│                        │     │                  ├ [2]: https://github.com/containerd/containerd/commit/05044e
-│                        │     │                  │      c0a9a75232cad458027ca83437aae3f4da 
-│                        │     │                  ├ [3]: https://github.com/containerd/containerd/commit/1a43cb
-│                        │     │                  │      6a1035441f9aca8f5666a9b3ef9e70ab20 
-│                        │     │                  ├ [4]: https://github.com/containerd/containerd/commit/cf158e
-│                        │     │                  │      884cfe4812a6c371b59e4ea9bc4c46e51a 
-│                        │     │                  ├ [5]: https://github.com/containerd/containerd/security/advi
-│                        │     │                  │      sories/GHSA-265r-hfxg-fhmg 
-│                        │     │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2024-40635 
-│                        │     │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2024-40635 
+│                        │     ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2024-40635 
+│                        │     │                  ├ [1] : https://github.com/containerd/containerd 
+│                        │     │                  ├ [2] : https://github.com/containerd/containerd/commit/05044
+│                        │     │                  │       ec0a9a75232cad458027ca83437aae3f4da 
+│                        │     │                  ├ [3] : https://github.com/containerd/containerd/commit/11504
+│                        │     │                  │       c3fc5f45634f2d93d57743a998194430b82 (v1.7.27) 
+│                        │     │                  ├ [4] : https://github.com/containerd/containerd/commit/1a43c
+│                        │     │                  │       b6a1035441f9aca8f5666a9b3ef9e70ab20 
+│                        │     │                  ├ [5] : https://github.com/containerd/containerd/commit/9639b
+│                        │     │                  │       9625554183d0c4d8d072dccb84fedd2320f (v1.6.38) 
+│                        │     │                  ├ [6] : https://github.com/containerd/containerd/commit/cf158
+│                        │     │                  │       e884cfe4812a6c371b59e4ea9bc4c46e51a 
+│                        │     │                  ├ [7] : https://github.com/containerd/containerd/security/adv
+│                        │     │                  │       isories/GHSA-265r-hfxg-fhmg 
+│                        │     │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2024-40635 
+│                        │     │                  ├ [9] : https://ubuntu.com/security/notices/USN-7374-1 
+│                        │     │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2024-40635 
 │                        │     ├ PublishedDate   : 2025-03-17T22:15:13.15Z 
 │                        │     ╰ LastModifiedDate: 2025-03-17T22:15:13.15Z 
 │                        ├ [1] ╭ VulnerabilityID : CVE-2024-41110 
@@ -4768,8 +5311,11 @@
 │                        │     │                    incorrectly match and not be proxied. 
 │                        │     ├ Severity        : MEDIUM 
 │                        │     ├ CweIDs           ─ [0]: CWE-115 
-│                        │     ├ VendorSeverity   ╭ ghsa  : 2 
-│                        │     │                  ╰ redhat: 2 
+│                        │     ├ VendorSeverity   ╭ amazon     : 2 
+│                        │     │                  ├ azure      : 1 
+│                        │     │                  ├ cbl-mariner: 2 
+│                        │     │                  ├ ghsa       : 2 
+│                        │     │                  ╰ redhat     : 2 
 │                        │     ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N
 │                        │     │                  │        │           /A:L 
 │                        │     │                  │        ╰ V3Score : 4.4 
