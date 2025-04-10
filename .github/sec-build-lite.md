@@ -950,7 +950,8 @@
 │                        │      │                  │       &distro=ubuntu-24.04 
 │                        │      │                  ╰ UID : d3b6ebaeb0c7525d 
 │                        │      ├ InstalledVersion: 2.6.1-2ubuntu0.2 
-│                        │      ├ Status          : affected 
+│                        │      ├ FixedVersion    : 2.6.1-2ubuntu0.3 
+│                        │      ├ Status          : fixed 
 │                        │      ├ Layer            ╭ Digest: sha256:c6f1ac931c74d23f7067bebd1ef2106c55e4c04a785
 │                        │      │                  │         da8cdba4214eaadd3e3fe 
 │                        │      │                  ╰ DiffID: sha256:92a132cfbe51c6f0e61d9c5c2da754aa6067dee9781
@@ -1002,7 +1003,8 @@
 │                        │      │                  ├ [15]: https://security.netapp.com/advisory/ntap-20250328-0
 │                        │      │                  │       009/ 
 │                        │      │                  ├ [16]: https://ubuntu.com/security/CVE-2024-8176 
-│                        │      │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2024-8176 
+│                        │      │                  ├ [17]: https://ubuntu.com/security/notices/USN-7424-1 
+│                        │      │                  ╰ [18]: https://www.cve.org/CVERecord?id=CVE-2024-8176 
 │                        │      ├ PublishedDate   : 2025-03-14T09:15:14.157Z 
 │                        │      ╰ LastModifiedDate: 2025-04-02T15:15:57.987Z 
 │                        ├ [22] ╭ VulnerabilityID : CVE-2024-2236 
@@ -1903,7 +1905,8 @@
 │                        │      │                  │       stro=ubuntu-24.04&epoch=2 
 │                        │      │                  ╰ UID : 72c4910d60940f5c 
 │                        │      ├ InstalledVersion: 2:9.1.0016-1ubuntu7.7 
-│                        │      ├ Status          : affected 
+│                        │      ├ FixedVersion    : 2:9.1.0016-1ubuntu7.8 
+│                        │      ├ Status          : fixed 
 │                        │      ├ Layer            ╭ Digest: sha256:c6f1ac931c74d23f7067bebd1ef2106c55e4c04a785
 │                        │      │                  │         da8cdba4214eaadd3e3fe 
 │                        │      │                  ╰ DiffID: sha256:92a132cfbe51c6f0e61d9c5c2da754aa6067dee9781
@@ -1931,28 +1934,93 @@
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:N/I:
 │                        │      │                           │           N/A:L 
 │                        │      │                           ╰ V3Score : 2.8 
-│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-1215 
-│                        │      │                  ├ [1]: https://github.com/vim/vim/commit/c5654b84480822817bb
-│                        │      │                  │      7b69ebc97c174c91185e9 
-│                        │      │                  ├ [2]: https://github.com/vim/vim/issues/16606 
-│                        │      │                  ├ [3]: https://github.com/vim/vim/releases/tag/v9.1.1097 
-│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-1215 
-│                        │      │                  ├ [5]: https://security.netapp.com/advisory/ntap-20250321-00
-│                        │      │                  │      05/ 
-│                        │      │                  ├ [6]: https://vuldb.com/?ctiid.295174 
-│                        │      │                  ├ [7]: https://vuldb.com/?id.295174 
-│                        │      │                  ├ [8]: https://vuldb.com/?submit.497546 
-│                        │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2025-1215 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2025-1215 
+│                        │      │                  ├ [1] : https://github.com/vim/vim/commit/c5654b84480822817b
+│                        │      │                  │       b7b69ebc97c174c91185e9 
+│                        │      │                  ├ [2] : https://github.com/vim/vim/issues/16606 
+│                        │      │                  ├ [3] : https://github.com/vim/vim/releases/tag/v9.1.1097 
+│                        │      │                  ├ [4] : https://nvd.nist.gov/vuln/detail/CVE-2025-1215 
+│                        │      │                  ├ [5] : https://security.netapp.com/advisory/ntap-20250321-0
+│                        │      │                  │       005/ 
+│                        │      │                  ├ [6] : https://ubuntu.com/security/notices/USN-7419-1 
+│                        │      │                  ├ [7] : https://vuldb.com/?ctiid.295174 
+│                        │      │                  ├ [8] : https://vuldb.com/?id.295174 
+│                        │      │                  ├ [9] : https://vuldb.com/?submit.497546 
+│                        │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2025-1215 
 │                        │      ├ PublishedDate   : 2025-02-12T19:15:10.23Z 
 │                        │      ╰ LastModifiedDate: 2025-03-21T18:15:34.29Z 
-│                        ├ [40] ╭ VulnerabilityID : CVE-2025-1215 
+│                        ├ [40] ╭ VulnerabilityID : CVE-2025-26603 
+│                        │      ├ PkgID           : vim@2:9.1.0016-1ubuntu7.7 
+│                        │      ├ PkgName         : vim 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/vim@9.1.0016-1ubuntu7.7?arch=amd64&di
+│                        │      │                  │       stro=ubuntu-24.04&epoch=2 
+│                        │      │                  ╰ UID : 72c4910d60940f5c 
+│                        │      ├ InstalledVersion: 2:9.1.0016-1ubuntu7.7 
+│                        │      ├ FixedVersion    : 2:9.1.0016-1ubuntu7.8 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:c6f1ac931c74d23f7067bebd1ef2106c55e4c04a785
+│                        │      │                  │         da8cdba4214eaadd3e3fe 
+│                        │      │                  ╰ DiffID: sha256:92a132cfbe51c6f0e61d9c5c2da754aa6067dee9781
+│                        │      │                            074e7dbafa0709e6efb05 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-26603 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : vim: heap-use-after-free in function str_to_reg in vim/vim 
+│                        │      ├ Description     : Vim is a greatly improved version of the good old UNIX
+│                        │      │                   editor Vi. Vim allows to redirect screen messages using the
+│                        │      │                    `:redir` ex command to register, variables and files. It
+│                        │      │                   also allows to show the contents of registers using the
+│                        │      │                   `:registers` or `:display` ex command. When redirecting the
+│                        │      │                    output of `:display` to a register, Vim will free the
+│                        │      │                   register content before storing the new content in the
+│                        │      │                   register. Now when redirecting the `:display` command to a
+│                        │      │                   register that is being displayed, Vim will free the content
+│                        │      │                    while shortly afterwards trying to access it, which leads
+│                        │      │                   to a use-after-free. Vim pre 9.1.1115 checks in the
+│                        │      │                   ex_display() function, that it does not try to redirect to
+│                        │      │                   a register while displaying this register at the same time.
+│                        │      │                    However this check is not complete, and so Vim does not
+│                        │      │                   check the `+` and `*` registers (which typically donate the
+│                        │      │                    X11/clipboard registers, and when a clipboard connection
+│                        │      │                   is not possible will fall back to use register 0 instead.
+│                        │      │                   In Patch 9.1.1115 Vim will therefore skip outputting to
+│                        │      │                   register zero when trying to redirect to the clipboard
+│                        │      │                   registers `*` or `+`. Users are advised to upgrade. There
+│                        │      │                   are no known workarounds for this vulnerability. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ CweIDs           ─ [0]: CWE-416 
+│                        │      ├ VendorSeverity   ╭ azure      : 2 
+│                        │      │                  ├ cbl-mariner: 2 
+│                        │      │                  ├ redhat     : 1 
+│                        │      │                  ╰ ubuntu     : 2 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:
+│                        │      │                           │           L/A:L 
+│                        │      │                           ╰ V3Score : 4.2 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-26603 
+│                        │      │                  ├ [1]: https://github.com/vim/vim/commit/c0f0e2380e5954f4a52
+│                        │      │                  │      a131bf6b8 
+│                        │      │                  ├ [2]: https://github.com/vim/vim/commit/c0f0e2380e5954f4a52
+│                        │      │                  │      a131bf6b8 (v9.1.1115) 
+│                        │      │                  ├ [3]: https://github.com/vim/vim/security/advisories/GHSA-6
+│                        │      │                  │      3p5-mwg2-787v 
+│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-26603 
+│                        │      │                  ├ [5]: https://security.netapp.com/advisory/ntap-20250306-00
+│                        │      │                  │      03/ 
+│                        │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-7419-1 
+│                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-26603 
+│                        │      ├ PublishedDate   : 2025-02-18T19:15:29.387Z 
+│                        │      ╰ LastModifiedDate: 2025-03-07T01:15:12.7Z 
+│                        ├ [41] ╭ VulnerabilityID : CVE-2025-1215 
 │                        │      ├ PkgID           : vim-common@2:9.1.0016-1ubuntu7.7 
 │                        │      ├ PkgName         : vim-common 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/vim-common@9.1.0016-1ubuntu7.7?arch=a
 │                        │      │                  │       ll&distro=ubuntu-24.04&epoch=2 
 │                        │      │                  ╰ UID : f888c1e43eff97c1 
 │                        │      ├ InstalledVersion: 2:9.1.0016-1ubuntu7.7 
-│                        │      ├ Status          : affected 
+│                        │      ├ FixedVersion    : 2:9.1.0016-1ubuntu7.8 
+│                        │      ├ Status          : fixed 
 │                        │      ├ Layer            ╭ Digest: sha256:c6f1ac931c74d23f7067bebd1ef2106c55e4c04a785
 │                        │      │                  │         da8cdba4214eaadd3e3fe 
 │                        │      │                  ╰ DiffID: sha256:92a132cfbe51c6f0e61d9c5c2da754aa6067dee9781
@@ -1980,28 +2048,93 @@
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:N/I:
 │                        │      │                           │           N/A:L 
 │                        │      │                           ╰ V3Score : 2.8 
-│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-1215 
-│                        │      │                  ├ [1]: https://github.com/vim/vim/commit/c5654b84480822817bb
-│                        │      │                  │      7b69ebc97c174c91185e9 
-│                        │      │                  ├ [2]: https://github.com/vim/vim/issues/16606 
-│                        │      │                  ├ [3]: https://github.com/vim/vim/releases/tag/v9.1.1097 
-│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-1215 
-│                        │      │                  ├ [5]: https://security.netapp.com/advisory/ntap-20250321-00
-│                        │      │                  │      05/ 
-│                        │      │                  ├ [6]: https://vuldb.com/?ctiid.295174 
-│                        │      │                  ├ [7]: https://vuldb.com/?id.295174 
-│                        │      │                  ├ [8]: https://vuldb.com/?submit.497546 
-│                        │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2025-1215 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2025-1215 
+│                        │      │                  ├ [1] : https://github.com/vim/vim/commit/c5654b84480822817b
+│                        │      │                  │       b7b69ebc97c174c91185e9 
+│                        │      │                  ├ [2] : https://github.com/vim/vim/issues/16606 
+│                        │      │                  ├ [3] : https://github.com/vim/vim/releases/tag/v9.1.1097 
+│                        │      │                  ├ [4] : https://nvd.nist.gov/vuln/detail/CVE-2025-1215 
+│                        │      │                  ├ [5] : https://security.netapp.com/advisory/ntap-20250321-0
+│                        │      │                  │       005/ 
+│                        │      │                  ├ [6] : https://ubuntu.com/security/notices/USN-7419-1 
+│                        │      │                  ├ [7] : https://vuldb.com/?ctiid.295174 
+│                        │      │                  ├ [8] : https://vuldb.com/?id.295174 
+│                        │      │                  ├ [9] : https://vuldb.com/?submit.497546 
+│                        │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2025-1215 
 │                        │      ├ PublishedDate   : 2025-02-12T19:15:10.23Z 
 │                        │      ╰ LastModifiedDate: 2025-03-21T18:15:34.29Z 
-│                        ├ [41] ╭ VulnerabilityID : CVE-2025-1215 
+│                        ├ [42] ╭ VulnerabilityID : CVE-2025-26603 
+│                        │      ├ PkgID           : vim-common@2:9.1.0016-1ubuntu7.7 
+│                        │      ├ PkgName         : vim-common 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/vim-common@9.1.0016-1ubuntu7.7?arch=a
+│                        │      │                  │       ll&distro=ubuntu-24.04&epoch=2 
+│                        │      │                  ╰ UID : f888c1e43eff97c1 
+│                        │      ├ InstalledVersion: 2:9.1.0016-1ubuntu7.7 
+│                        │      ├ FixedVersion    : 2:9.1.0016-1ubuntu7.8 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:c6f1ac931c74d23f7067bebd1ef2106c55e4c04a785
+│                        │      │                  │         da8cdba4214eaadd3e3fe 
+│                        │      │                  ╰ DiffID: sha256:92a132cfbe51c6f0e61d9c5c2da754aa6067dee9781
+│                        │      │                            074e7dbafa0709e6efb05 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-26603 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : vim: heap-use-after-free in function str_to_reg in vim/vim 
+│                        │      ├ Description     : Vim is a greatly improved version of the good old UNIX
+│                        │      │                   editor Vi. Vim allows to redirect screen messages using the
+│                        │      │                    `:redir` ex command to register, variables and files. It
+│                        │      │                   also allows to show the contents of registers using the
+│                        │      │                   `:registers` or `:display` ex command. When redirecting the
+│                        │      │                    output of `:display` to a register, Vim will free the
+│                        │      │                   register content before storing the new content in the
+│                        │      │                   register. Now when redirecting the `:display` command to a
+│                        │      │                   register that is being displayed, Vim will free the content
+│                        │      │                    while shortly afterwards trying to access it, which leads
+│                        │      │                   to a use-after-free. Vim pre 9.1.1115 checks in the
+│                        │      │                   ex_display() function, that it does not try to redirect to
+│                        │      │                   a register while displaying this register at the same time.
+│                        │      │                    However this check is not complete, and so Vim does not
+│                        │      │                   check the `+` and `*` registers (which typically donate the
+│                        │      │                    X11/clipboard registers, and when a clipboard connection
+│                        │      │                   is not possible will fall back to use register 0 instead.
+│                        │      │                   In Patch 9.1.1115 Vim will therefore skip outputting to
+│                        │      │                   register zero when trying to redirect to the clipboard
+│                        │      │                   registers `*` or `+`. Users are advised to upgrade. There
+│                        │      │                   are no known workarounds for this vulnerability. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ CweIDs           ─ [0]: CWE-416 
+│                        │      ├ VendorSeverity   ╭ azure      : 2 
+│                        │      │                  ├ cbl-mariner: 2 
+│                        │      │                  ├ redhat     : 1 
+│                        │      │                  ╰ ubuntu     : 2 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:
+│                        │      │                           │           L/A:L 
+│                        │      │                           ╰ V3Score : 4.2 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-26603 
+│                        │      │                  ├ [1]: https://github.com/vim/vim/commit/c0f0e2380e5954f4a52
+│                        │      │                  │      a131bf6b8 
+│                        │      │                  ├ [2]: https://github.com/vim/vim/commit/c0f0e2380e5954f4a52
+│                        │      │                  │      a131bf6b8 (v9.1.1115) 
+│                        │      │                  ├ [3]: https://github.com/vim/vim/security/advisories/GHSA-6
+│                        │      │                  │      3p5-mwg2-787v 
+│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-26603 
+│                        │      │                  ├ [5]: https://security.netapp.com/advisory/ntap-20250306-00
+│                        │      │                  │      03/ 
+│                        │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-7419-1 
+│                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-26603 
+│                        │      ├ PublishedDate   : 2025-02-18T19:15:29.387Z 
+│                        │      ╰ LastModifiedDate: 2025-03-07T01:15:12.7Z 
+│                        ├ [43] ╭ VulnerabilityID : CVE-2025-1215 
 │                        │      ├ PkgID           : vim-runtime@2:9.1.0016-1ubuntu7.7 
 │                        │      ├ PkgName         : vim-runtime 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/vim-runtime@9.1.0016-1ubuntu7.7?arch=
 │                        │      │                  │       all&distro=ubuntu-24.04&epoch=2 
 │                        │      │                  ╰ UID : 532809ff7e6d46fc 
 │                        │      ├ InstalledVersion: 2:9.1.0016-1ubuntu7.7 
-│                        │      ├ Status          : affected 
+│                        │      ├ FixedVersion    : 2:9.1.0016-1ubuntu7.8 
+│                        │      ├ Status          : fixed 
 │                        │      ├ Layer            ╭ Digest: sha256:c6f1ac931c74d23f7067bebd1ef2106c55e4c04a785
 │                        │      │                  │         da8cdba4214eaadd3e3fe 
 │                        │      │                  ╰ DiffID: sha256:92a132cfbe51c6f0e61d9c5c2da754aa6067dee9781
@@ -2029,21 +2162,85 @@
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:N/I:
 │                        │      │                           │           N/A:L 
 │                        │      │                           ╰ V3Score : 2.8 
-│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-1215 
-│                        │      │                  ├ [1]: https://github.com/vim/vim/commit/c5654b84480822817bb
-│                        │      │                  │      7b69ebc97c174c91185e9 
-│                        │      │                  ├ [2]: https://github.com/vim/vim/issues/16606 
-│                        │      │                  ├ [3]: https://github.com/vim/vim/releases/tag/v9.1.1097 
-│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-1215 
-│                        │      │                  ├ [5]: https://security.netapp.com/advisory/ntap-20250321-00
-│                        │      │                  │      05/ 
-│                        │      │                  ├ [6]: https://vuldb.com/?ctiid.295174 
-│                        │      │                  ├ [7]: https://vuldb.com/?id.295174 
-│                        │      │                  ├ [8]: https://vuldb.com/?submit.497546 
-│                        │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2025-1215 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2025-1215 
+│                        │      │                  ├ [1] : https://github.com/vim/vim/commit/c5654b84480822817b
+│                        │      │                  │       b7b69ebc97c174c91185e9 
+│                        │      │                  ├ [2] : https://github.com/vim/vim/issues/16606 
+│                        │      │                  ├ [3] : https://github.com/vim/vim/releases/tag/v9.1.1097 
+│                        │      │                  ├ [4] : https://nvd.nist.gov/vuln/detail/CVE-2025-1215 
+│                        │      │                  ├ [5] : https://security.netapp.com/advisory/ntap-20250321-0
+│                        │      │                  │       005/ 
+│                        │      │                  ├ [6] : https://ubuntu.com/security/notices/USN-7419-1 
+│                        │      │                  ├ [7] : https://vuldb.com/?ctiid.295174 
+│                        │      │                  ├ [8] : https://vuldb.com/?id.295174 
+│                        │      │                  ├ [9] : https://vuldb.com/?submit.497546 
+│                        │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2025-1215 
 │                        │      ├ PublishedDate   : 2025-02-12T19:15:10.23Z 
 │                        │      ╰ LastModifiedDate: 2025-03-21T18:15:34.29Z 
-│                        ├ [42] ╭ VulnerabilityID : CVE-2021-31879 
+│                        ├ [44] ╭ VulnerabilityID : CVE-2025-26603 
+│                        │      ├ PkgID           : vim-runtime@2:9.1.0016-1ubuntu7.7 
+│                        │      ├ PkgName         : vim-runtime 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/vim-runtime@9.1.0016-1ubuntu7.7?arch=
+│                        │      │                  │       all&distro=ubuntu-24.04&epoch=2 
+│                        │      │                  ╰ UID : 532809ff7e6d46fc 
+│                        │      ├ InstalledVersion: 2:9.1.0016-1ubuntu7.7 
+│                        │      ├ FixedVersion    : 2:9.1.0016-1ubuntu7.8 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:c6f1ac931c74d23f7067bebd1ef2106c55e4c04a785
+│                        │      │                  │         da8cdba4214eaadd3e3fe 
+│                        │      │                  ╰ DiffID: sha256:92a132cfbe51c6f0e61d9c5c2da754aa6067dee9781
+│                        │      │                            074e7dbafa0709e6efb05 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-26603 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : vim: heap-use-after-free in function str_to_reg in vim/vim 
+│                        │      ├ Description     : Vim is a greatly improved version of the good old UNIX
+│                        │      │                   editor Vi. Vim allows to redirect screen messages using the
+│                        │      │                    `:redir` ex command to register, variables and files. It
+│                        │      │                   also allows to show the contents of registers using the
+│                        │      │                   `:registers` or `:display` ex command. When redirecting the
+│                        │      │                    output of `:display` to a register, Vim will free the
+│                        │      │                   register content before storing the new content in the
+│                        │      │                   register. Now when redirecting the `:display` command to a
+│                        │      │                   register that is being displayed, Vim will free the content
+│                        │      │                    while shortly afterwards trying to access it, which leads
+│                        │      │                   to a use-after-free. Vim pre 9.1.1115 checks in the
+│                        │      │                   ex_display() function, that it does not try to redirect to
+│                        │      │                   a register while displaying this register at the same time.
+│                        │      │                    However this check is not complete, and so Vim does not
+│                        │      │                   check the `+` and `*` registers (which typically donate the
+│                        │      │                    X11/clipboard registers, and when a clipboard connection
+│                        │      │                   is not possible will fall back to use register 0 instead.
+│                        │      │                   In Patch 9.1.1115 Vim will therefore skip outputting to
+│                        │      │                   register zero when trying to redirect to the clipboard
+│                        │      │                   registers `*` or `+`. Users are advised to upgrade. There
+│                        │      │                   are no known workarounds for this vulnerability. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ CweIDs           ─ [0]: CWE-416 
+│                        │      ├ VendorSeverity   ╭ azure      : 2 
+│                        │      │                  ├ cbl-mariner: 2 
+│                        │      │                  ├ redhat     : 1 
+│                        │      │                  ╰ ubuntu     : 2 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:
+│                        │      │                           │           L/A:L 
+│                        │      │                           ╰ V3Score : 4.2 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-26603 
+│                        │      │                  ├ [1]: https://github.com/vim/vim/commit/c0f0e2380e5954f4a52
+│                        │      │                  │      a131bf6b8 
+│                        │      │                  ├ [2]: https://github.com/vim/vim/commit/c0f0e2380e5954f4a52
+│                        │      │                  │      a131bf6b8 (v9.1.1115) 
+│                        │      │                  ├ [3]: https://github.com/vim/vim/security/advisories/GHSA-6
+│                        │      │                  │      3p5-mwg2-787v 
+│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-26603 
+│                        │      │                  ├ [5]: https://security.netapp.com/advisory/ntap-20250306-00
+│                        │      │                  │      03/ 
+│                        │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-7419-1 
+│                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-26603 
+│                        │      ├ PublishedDate   : 2025-02-18T19:15:29.387Z 
+│                        │      ╰ LastModifiedDate: 2025-03-07T01:15:12.7Z 
+│                        ├ [45] ╭ VulnerabilityID : CVE-2021-31879 
 │                        │      ├ PkgID           : wget@1.21.4-1ubuntu4.1 
 │                        │      ├ PkgName         : wget 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/wget@1.21.4-1ubuntu4.1?arch=amd64&dis
@@ -2090,55 +2287,120 @@
 │                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2021-31879 
 │                        │      ├ PublishedDate   : 2021-04-29T05:15:08.707Z 
 │                        │      ╰ LastModifiedDate: 2024-11-21T06:06:25.02Z 
-│                        ╰ [43] ╭ VulnerabilityID : CVE-2025-1215 
+│                        ├ [46] ╭ VulnerabilityID : CVE-2025-1215 
+│                        │      ├ PkgID           : xxd@2:9.1.0016-1ubuntu7.7 
+│                        │      ├ PkgName         : xxd 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/xxd@9.1.0016-1ubuntu7.7?arch=amd64&di
+│                        │      │                  │       stro=ubuntu-24.04&epoch=2 
+│                        │      │                  ╰ UID : 9b0f610b0ca92628 
+│                        │      ├ InstalledVersion: 2:9.1.0016-1ubuntu7.7 
+│                        │      ├ FixedVersion    : 2:9.1.0016-1ubuntu7.8 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:c6f1ac931c74d23f7067bebd1ef2106c55e4c04a785
+│                        │      │                  │         da8cdba4214eaadd3e3fe 
+│                        │      │                  ╰ DiffID: sha256:92a132cfbe51c6f0e61d9c5c2da754aa6067dee9781
+│                        │      │                            074e7dbafa0709e6efb05 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-1215 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : vim: vim main.c memory corruption 
+│                        │      ├ Description     : A vulnerability classified as problematic was found in vim
+│                        │      │                   up to 9.1.1096. This vulnerability affects unknown code of
+│                        │      │                   the file src/main.c. The manipulation of the argument --log
+│                        │      │                    leads to memory corruption. It is possible to launch the
+│                        │      │                   attack on the local host. Upgrading to version 9.1.1097 is
+│                        │      │                   able to address this issue. The patch is identified as
+│                        │      │                   c5654b84480822817bb7b69ebc97c174c91185e9. It is recommended
+│                        │      │                    to upgrade the affected component. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ CweIDs           ─ [0]: CWE-119 
+│                        │      ├ VendorSeverity   ╭ azure      : 1 
+│                        │      │                  ├ cbl-mariner: 1 
+│                        │      │                  ├ redhat     : 1 
+│                        │      │                  ╰ ubuntu     : 2 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:N/I:
+│                        │      │                           │           N/A:L 
+│                        │      │                           ╰ V3Score : 2.8 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2025-1215 
+│                        │      │                  ├ [1] : https://github.com/vim/vim/commit/c5654b84480822817b
+│                        │      │                  │       b7b69ebc97c174c91185e9 
+│                        │      │                  ├ [2] : https://github.com/vim/vim/issues/16606 
+│                        │      │                  ├ [3] : https://github.com/vim/vim/releases/tag/v9.1.1097 
+│                        │      │                  ├ [4] : https://nvd.nist.gov/vuln/detail/CVE-2025-1215 
+│                        │      │                  ├ [5] : https://security.netapp.com/advisory/ntap-20250321-0
+│                        │      │                  │       005/ 
+│                        │      │                  ├ [6] : https://ubuntu.com/security/notices/USN-7419-1 
+│                        │      │                  ├ [7] : https://vuldb.com/?ctiid.295174 
+│                        │      │                  ├ [8] : https://vuldb.com/?id.295174 
+│                        │      │                  ├ [9] : https://vuldb.com/?submit.497546 
+│                        │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2025-1215 
+│                        │      ├ PublishedDate   : 2025-02-12T19:15:10.23Z 
+│                        │      ╰ LastModifiedDate: 2025-03-21T18:15:34.29Z 
+│                        ╰ [47] ╭ VulnerabilityID : CVE-2025-26603 
 │                               ├ PkgID           : xxd@2:9.1.0016-1ubuntu7.7 
 │                               ├ PkgName         : xxd 
 │                               ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/xxd@9.1.0016-1ubuntu7.7?arch=amd64&di
 │                               │                  │       stro=ubuntu-24.04&epoch=2 
 │                               │                  ╰ UID : 9b0f610b0ca92628 
 │                               ├ InstalledVersion: 2:9.1.0016-1ubuntu7.7 
-│                               ├ Status          : affected 
+│                               ├ FixedVersion    : 2:9.1.0016-1ubuntu7.8 
+│                               ├ Status          : fixed 
 │                               ├ Layer            ╭ Digest: sha256:c6f1ac931c74d23f7067bebd1ef2106c55e4c04a785
 │                               │                  │         da8cdba4214eaadd3e3fe 
 │                               │                  ╰ DiffID: sha256:92a132cfbe51c6f0e61d9c5c2da754aa6067dee9781
 │                               │                            074e7dbafa0709e6efb05 
 │                               ├ SeveritySource  : ubuntu 
-│                               ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-1215 
+│                               ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-26603 
 │                               ├ DataSource       ╭ ID  : ubuntu 
 │                               │                  ├ Name: Ubuntu CVE Tracker 
 │                               │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                               ├ Title           : vim: vim main.c memory corruption 
-│                               ├ Description     : A vulnerability classified as problematic was found in vim
-│                               │                   up to 9.1.1096. This vulnerability affects unknown code of
-│                               │                   the file src/main.c. The manipulation of the argument --log
-│                               │                    leads to memory corruption. It is possible to launch the
-│                               │                   attack on the local host. Upgrading to version 9.1.1097 is
-│                               │                   able to address this issue. The patch is identified as
-│                               │                   c5654b84480822817bb7b69ebc97c174c91185e9. It is recommended
-│                               │                    to upgrade the affected component. 
+│                               ├ Title           : vim: heap-use-after-free in function str_to_reg in vim/vim 
+│                               ├ Description     : Vim is a greatly improved version of the good old UNIX
+│                               │                   editor Vi. Vim allows to redirect screen messages using the
+│                               │                    `:redir` ex command to register, variables and files. It
+│                               │                   also allows to show the contents of registers using the
+│                               │                   `:registers` or `:display` ex command. When redirecting the
+│                               │                    output of `:display` to a register, Vim will free the
+│                               │                   register content before storing the new content in the
+│                               │                   register. Now when redirecting the `:display` command to a
+│                               │                   register that is being displayed, Vim will free the content
+│                               │                    while shortly afterwards trying to access it, which leads
+│                               │                   to a use-after-free. Vim pre 9.1.1115 checks in the
+│                               │                   ex_display() function, that it does not try to redirect to
+│                               │                   a register while displaying this register at the same time.
+│                               │                    However this check is not complete, and so Vim does not
+│                               │                   check the `+` and `*` registers (which typically donate the
+│                               │                    X11/clipboard registers, and when a clipboard connection
+│                               │                   is not possible will fall back to use register 0 instead.
+│                               │                   In Patch 9.1.1115 Vim will therefore skip outputting to
+│                               │                   register zero when trying to redirect to the clipboard
+│                               │                   registers `*` or `+`. Users are advised to upgrade. There
+│                               │                   are no known workarounds for this vulnerability. 
 │                               ├ Severity        : MEDIUM 
-│                               ├ CweIDs           ─ [0]: CWE-119 
-│                               ├ VendorSeverity   ╭ azure      : 1 
-│                               │                  ├ cbl-mariner: 1 
+│                               ├ CweIDs           ─ [0]: CWE-416 
+│                               ├ VendorSeverity   ╭ azure      : 2 
+│                               │                  ├ cbl-mariner: 2 
 │                               │                  ├ redhat     : 1 
 │                               │                  ╰ ubuntu     : 2 
-│                               ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:N/I:
-│                               │                           │           N/A:L 
-│                               │                           ╰ V3Score : 2.8 
-│                               ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-1215 
-│                               │                  ├ [1]: https://github.com/vim/vim/commit/c5654b84480822817bb
-│                               │                  │      7b69ebc97c174c91185e9 
-│                               │                  ├ [2]: https://github.com/vim/vim/issues/16606 
-│                               │                  ├ [3]: https://github.com/vim/vim/releases/tag/v9.1.1097 
-│                               │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-1215 
-│                               │                  ├ [5]: https://security.netapp.com/advisory/ntap-20250321-00
-│                               │                  │      05/ 
-│                               │                  ├ [6]: https://vuldb.com/?ctiid.295174 
-│                               │                  ├ [7]: https://vuldb.com/?id.295174 
-│                               │                  ├ [8]: https://vuldb.com/?submit.497546 
-│                               │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2025-1215 
-│                               ├ PublishedDate   : 2025-02-12T19:15:10.23Z 
-│                               ╰ LastModifiedDate: 2025-03-21T18:15:34.29Z 
+│                               ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:
+│                               │                           │           L/A:L 
+│                               │                           ╰ V3Score : 4.2 
+│                               ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-26603 
+│                               │                  ├ [1]: https://github.com/vim/vim/commit/c0f0e2380e5954f4a52
+│                               │                  │      a131bf6b8 
+│                               │                  ├ [2]: https://github.com/vim/vim/commit/c0f0e2380e5954f4a52
+│                               │                  │      a131bf6b8 (v9.1.1115) 
+│                               │                  ├ [3]: https://github.com/vim/vim/security/advisories/GHSA-6
+│                               │                  │      3p5-mwg2-787v 
+│                               │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-26603 
+│                               │                  ├ [5]: https://security.netapp.com/advisory/ntap-20250306-00
+│                               │                  │      03/ 
+│                               │                  ├ [6]: https://ubuntu.com/security/notices/USN-7419-1 
+│                               │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-26603 
+│                               ├ PublishedDate   : 2025-02-18T19:15:29.387Z 
+│                               ╰ LastModifiedDate: 2025-03-07T01:15:12.7Z 
 ├ [1]  ╭ Target: Java 
 │      ├ Class : lang-pkgs 
 │      ╰ Type  : jar 
@@ -2251,54 +2513,86 @@
 │                        │     │                  ╰ [36]: https://www.kb.cert.org/vuls/id/421644 
 │                        │     ├ PublishedDate   : 2024-04-04T21:15:16.113Z 
 │                        │     ╰ LastModifiedDate: 2024-11-21T08:26:42.38Z 
-│                        ╰ [1] ╭ VulnerabilityID : CVE-2025-22870 
-│                              ├ PkgID           : golang.org/x/net@v0.19.0 
-│                              ├ PkgName         : golang.org/x/net 
-│                              ├ PkgIdentifier    ╭ PURL: pkg:golang/golang.org/x/net@v0.19.0 
-│                              │                  ╰ UID : 6dd422bfe3996ac2 
-│                              ├ InstalledVersion: v0.19.0 
-│                              ├ FixedVersion    : 0.36.0 
+│                        ├ [1] ╭ VulnerabilityID : CVE-2025-22870 
+│                        │     ├ PkgID           : golang.org/x/net@v0.19.0 
+│                        │     ├ PkgName         : golang.org/x/net 
+│                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/golang.org/x/net@v0.19.0 
+│                        │     │                  ╰ UID : 6dd422bfe3996ac2 
+│                        │     ├ InstalledVersion: v0.19.0 
+│                        │     ├ FixedVersion    : 0.36.0 
+│                        │     ├ Status          : fixed 
+│                        │     ├ Layer            ╭ Digest: sha256:c6f1ac931c74d23f7067bebd1ef2106c55e4c04a785d
+│                        │     │                  │         a8cdba4214eaadd3e3fe 
+│                        │     │                  ╰ DiffID: sha256:92a132cfbe51c6f0e61d9c5c2da754aa6067dee97810
+│                        │     │                            74e7dbafa0709e6efb05 
+│                        │     ├ SeveritySource  : ghsa 
+│                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-22870 
+│                        │     ├ DataSource       ╭ ID  : ghsa 
+│                        │     │                  ├ Name: GitHub Security Advisory Go 
+│                        │     │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+e
+│                        │     │                          cosystem%3Ago 
+│                        │     ├ Title           : golang.org/x/net/proxy: golang.org/x/net/http/httpproxy:
+│                        │     │                   HTTP Proxy bypass using IPv6 Zone IDs in golang.org/x/net 
+│                        │     ├ Description     : Matching of hosts against proxy patterns can improperly
+│                        │     │                   treat an IPv6 zone ID as a hostname component. For example,
+│                        │     │                   when the NO_PROXY environment variable is set to
+│                        │     │                   "*.example.com", a request to "[::1%25.example.com]:80` will
+│                        │     │                    incorrectly match and not be proxied. 
+│                        │     ├ Severity        : MEDIUM 
+│                        │     ├ CweIDs           ─ [0]: CWE-115 
+│                        │     ├ VendorSeverity   ╭ amazon     : 2 
+│                        │     │                  ├ azure      : 1 
+│                        │     │                  ├ cbl-mariner: 2 
+│                        │     │                  ├ ghsa       : 2 
+│                        │     │                  ╰ redhat     : 2 
+│                        │     ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N
+│                        │     │                  │        │           /A:L 
+│                        │     │                  │        ╰ V3Score : 4.4 
+│                        │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N
+│                        │     │                           │           /A:L 
+│                        │     │                           ╰ V3Score : 4.4 
+│                        │     ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/03/07/2 
+│                        │     │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-22870 
+│                        │     │                  ├ [2]: https://go-review.googlesource.com/q/project:net 
+│                        │     │                  ├ [3]: https://go.dev/cl/654697 
+│                        │     │                  ├ [4]: https://go.dev/issue/71984 
+│                        │     │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-22870 
+│                        │     │                  ├ [6]: https://pkg.go.dev/vuln/GO-2025-3503 
+│                        │     │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-22870 
+│                        │     ├ PublishedDate   : 2025-03-12T19:15:38.31Z 
+│                        │     ╰ LastModifiedDate: 2025-03-18T17:15:45.467Z 
+│                        ╰ [2] ╭ VulnerabilityID : CVE-2025-22871 
+│                              ├ PkgID           : stdlib@v1.24.1 
+│                              ├ PkgName         : stdlib 
+│                              ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.24.1 
+│                              │                  ╰ UID : 58815a71868018bb 
+│                              ├ InstalledVersion: v1.24.1 
+│                              ├ FixedVersion    : 1.23.8, 1.24.2 
 │                              ├ Status          : fixed 
 │                              ├ Layer            ╭ Digest: sha256:c6f1ac931c74d23f7067bebd1ef2106c55e4c04a785d
 │                              │                  │         a8cdba4214eaadd3e3fe 
 │                              │                  ╰ DiffID: sha256:92a132cfbe51c6f0e61d9c5c2da754aa6067dee97810
 │                              │                            74e7dbafa0709e6efb05 
-│                              ├ SeveritySource  : ghsa 
-│                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-22870 
-│                              ├ DataSource       ╭ ID  : ghsa 
-│                              │                  ├ Name: GitHub Security Advisory Go 
-│                              │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+e
-│                              │                          cosystem%3Ago 
-│                              ├ Title           : golang.org/x/net/proxy: golang.org/x/net/http/httpproxy:
-│                              │                   HTTP Proxy bypass using IPv6 Zone IDs in golang.org/x/net 
-│                              ├ Description     : Matching of hosts against proxy patterns can improperly
-│                              │                   treat an IPv6 zone ID as a hostname component. For example,
-│                              │                   when the NO_PROXY environment variable is set to
-│                              │                   "*.example.com", a request to "[::1%25.example.com]:80` will
-│                              │                    incorrectly match and not be proxied. 
-│                              ├ Severity        : MEDIUM 
-│                              ├ CweIDs           ─ [0]: CWE-115 
-│                              ├ VendorSeverity   ╭ amazon     : 2 
-│                              │                  ├ azure      : 1 
-│                              │                  ├ cbl-mariner: 2 
-│                              │                  ├ ghsa       : 2 
-│                              │                  ╰ redhat     : 2 
-│                              ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N
-│                              │                  │        │           /A:L 
-│                              │                  │        ╰ V3Score : 4.4 
-│                              │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N
-│                              │                           │           /A:L 
-│                              │                           ╰ V3Score : 4.4 
-│                              ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/03/07/2 
-│                              │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-22870 
-│                              │                  ├ [2]: https://go-review.googlesource.com/q/project:net 
-│                              │                  ├ [3]: https://go.dev/cl/654697 
-│                              │                  ├ [4]: https://go.dev/issue/71984 
-│                              │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-22870 
-│                              │                  ├ [6]: https://pkg.go.dev/vuln/GO-2025-3503 
-│                              │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-22870 
-│                              ├ PublishedDate   : 2025-03-12T19:15:38.31Z 
-│                              ╰ LastModifiedDate: 2025-03-18T17:15:45.467Z 
+│                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-22871 
+│                              ├ DataSource       ╭ ID  : govulndb 
+│                              │                  ├ Name: The Go Vulnerability Database 
+│                              │                  ╰ URL : https://pkg.go.dev/vuln/ 
+│                              ├ Title           : The net/http package improperly accepts a bare LF as a line
+│                              │                   terminator ... 
+│                              ├ Description     : The net/http package improperly accepts a bare LF as a line
+│                              │                   terminator in chunked data chunk-size lines. This can permit
+│                              │                    request smuggling if a net/http server is used in
+│                              │                   conjunction with a server that incorrectly accepts a bare LF
+│                              │                    as part of a chunk-ext. 
+│                              ├ Severity        : UNKNOWN 
+│                              ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/04/04/4 
+│                              │                  ├ [1]: https://go.dev/cl/652998 
+│                              │                  ├ [2]: https://go.dev/issue/71988 
+│                              │                  ├ [3]: https://groups.google.com/g/golang-announce/c/Y2uBTVKj
+│                              │                  │      BQk 
+│                              │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2025-3563 
+│                              ├ PublishedDate   : 2025-04-08T20:15:20.183Z 
+│                              ╰ LastModifiedDate: 2025-04-08T21:15:48.173Z 
 ├ [3]  ╭ Target         : tmp/tmp.qniqI9dqSE/krew-linux_amd64 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : gobinary 
@@ -2408,54 +2702,86 @@
 │                        │     │                  ╰ [36]: https://www.kb.cert.org/vuls/id/421644 
 │                        │     ├ PublishedDate   : 2024-04-04T21:15:16.113Z 
 │                        │     ╰ LastModifiedDate: 2024-11-21T08:26:42.38Z 
-│                        ╰ [1] ╭ VulnerabilityID : CVE-2025-22870 
-│                              ├ PkgID           : golang.org/x/net@v0.19.0 
-│                              ├ PkgName         : golang.org/x/net 
-│                              ├ PkgIdentifier    ╭ PURL: pkg:golang/golang.org/x/net@v0.19.0 
-│                              │                  ╰ UID : 31de2b137af79a7d 
-│                              ├ InstalledVersion: v0.19.0 
-│                              ├ FixedVersion    : 0.36.0 
+│                        ├ [1] ╭ VulnerabilityID : CVE-2025-22870 
+│                        │     ├ PkgID           : golang.org/x/net@v0.19.0 
+│                        │     ├ PkgName         : golang.org/x/net 
+│                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/golang.org/x/net@v0.19.0 
+│                        │     │                  ╰ UID : 31de2b137af79a7d 
+│                        │     ├ InstalledVersion: v0.19.0 
+│                        │     ├ FixedVersion    : 0.36.0 
+│                        │     ├ Status          : fixed 
+│                        │     ├ Layer            ╭ Digest: sha256:c6f1ac931c74d23f7067bebd1ef2106c55e4c04a785d
+│                        │     │                  │         a8cdba4214eaadd3e3fe 
+│                        │     │                  ╰ DiffID: sha256:92a132cfbe51c6f0e61d9c5c2da754aa6067dee97810
+│                        │     │                            74e7dbafa0709e6efb05 
+│                        │     ├ SeveritySource  : ghsa 
+│                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-22870 
+│                        │     ├ DataSource       ╭ ID  : ghsa 
+│                        │     │                  ├ Name: GitHub Security Advisory Go 
+│                        │     │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+e
+│                        │     │                          cosystem%3Ago 
+│                        │     ├ Title           : golang.org/x/net/proxy: golang.org/x/net/http/httpproxy:
+│                        │     │                   HTTP Proxy bypass using IPv6 Zone IDs in golang.org/x/net 
+│                        │     ├ Description     : Matching of hosts against proxy patterns can improperly
+│                        │     │                   treat an IPv6 zone ID as a hostname component. For example,
+│                        │     │                   when the NO_PROXY environment variable is set to
+│                        │     │                   "*.example.com", a request to "[::1%25.example.com]:80` will
+│                        │     │                    incorrectly match and not be proxied. 
+│                        │     ├ Severity        : MEDIUM 
+│                        │     ├ CweIDs           ─ [0]: CWE-115 
+│                        │     ├ VendorSeverity   ╭ amazon     : 2 
+│                        │     │                  ├ azure      : 1 
+│                        │     │                  ├ cbl-mariner: 2 
+│                        │     │                  ├ ghsa       : 2 
+│                        │     │                  ╰ redhat     : 2 
+│                        │     ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N
+│                        │     │                  │        │           /A:L 
+│                        │     │                  │        ╰ V3Score : 4.4 
+│                        │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N
+│                        │     │                           │           /A:L 
+│                        │     │                           ╰ V3Score : 4.4 
+│                        │     ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/03/07/2 
+│                        │     │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-22870 
+│                        │     │                  ├ [2]: https://go-review.googlesource.com/q/project:net 
+│                        │     │                  ├ [3]: https://go.dev/cl/654697 
+│                        │     │                  ├ [4]: https://go.dev/issue/71984 
+│                        │     │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-22870 
+│                        │     │                  ├ [6]: https://pkg.go.dev/vuln/GO-2025-3503 
+│                        │     │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-22870 
+│                        │     ├ PublishedDate   : 2025-03-12T19:15:38.31Z 
+│                        │     ╰ LastModifiedDate: 2025-03-18T17:15:45.467Z 
+│                        ╰ [2] ╭ VulnerabilityID : CVE-2025-22871 
+│                              ├ PkgID           : stdlib@v1.24.1 
+│                              ├ PkgName         : stdlib 
+│                              ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.24.1 
+│                              │                  ╰ UID : 52ccf71aee24ba9c 
+│                              ├ InstalledVersion: v1.24.1 
+│                              ├ FixedVersion    : 1.23.8, 1.24.2 
 │                              ├ Status          : fixed 
 │                              ├ Layer            ╭ Digest: sha256:c6f1ac931c74d23f7067bebd1ef2106c55e4c04a785d
 │                              │                  │         a8cdba4214eaadd3e3fe 
 │                              │                  ╰ DiffID: sha256:92a132cfbe51c6f0e61d9c5c2da754aa6067dee97810
 │                              │                            74e7dbafa0709e6efb05 
-│                              ├ SeveritySource  : ghsa 
-│                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-22870 
-│                              ├ DataSource       ╭ ID  : ghsa 
-│                              │                  ├ Name: GitHub Security Advisory Go 
-│                              │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+e
-│                              │                          cosystem%3Ago 
-│                              ├ Title           : golang.org/x/net/proxy: golang.org/x/net/http/httpproxy:
-│                              │                   HTTP Proxy bypass using IPv6 Zone IDs in golang.org/x/net 
-│                              ├ Description     : Matching of hosts against proxy patterns can improperly
-│                              │                   treat an IPv6 zone ID as a hostname component. For example,
-│                              │                   when the NO_PROXY environment variable is set to
-│                              │                   "*.example.com", a request to "[::1%25.example.com]:80` will
-│                              │                    incorrectly match and not be proxied. 
-│                              ├ Severity        : MEDIUM 
-│                              ├ CweIDs           ─ [0]: CWE-115 
-│                              ├ VendorSeverity   ╭ amazon     : 2 
-│                              │                  ├ azure      : 1 
-│                              │                  ├ cbl-mariner: 2 
-│                              │                  ├ ghsa       : 2 
-│                              │                  ╰ redhat     : 2 
-│                              ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N
-│                              │                  │        │           /A:L 
-│                              │                  │        ╰ V3Score : 4.4 
-│                              │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N
-│                              │                           │           /A:L 
-│                              │                           ╰ V3Score : 4.4 
-│                              ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/03/07/2 
-│                              │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-22870 
-│                              │                  ├ [2]: https://go-review.googlesource.com/q/project:net 
-│                              │                  ├ [3]: https://go.dev/cl/654697 
-│                              │                  ├ [4]: https://go.dev/issue/71984 
-│                              │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-22870 
-│                              │                  ├ [6]: https://pkg.go.dev/vuln/GO-2025-3503 
-│                              │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-22870 
-│                              ├ PublishedDate   : 2025-03-12T19:15:38.31Z 
-│                              ╰ LastModifiedDate: 2025-03-18T17:15:45.467Z 
+│                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-22871 
+│                              ├ DataSource       ╭ ID  : govulndb 
+│                              │                  ├ Name: The Go Vulnerability Database 
+│                              │                  ╰ URL : https://pkg.go.dev/vuln/ 
+│                              ├ Title           : The net/http package improperly accepts a bare LF as a line
+│                              │                   terminator ... 
+│                              ├ Description     : The net/http package improperly accepts a bare LF as a line
+│                              │                   terminator in chunked data chunk-size lines. This can permit
+│                              │                    request smuggling if a net/http server is used in
+│                              │                   conjunction with a server that incorrectly accepts a bare LF
+│                              │                    as part of a chunk-ext. 
+│                              ├ Severity        : UNKNOWN 
+│                              ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/04/04/4 
+│                              │                  ├ [1]: https://go.dev/cl/652998 
+│                              │                  ├ [2]: https://go.dev/issue/71988 
+│                              │                  ├ [3]: https://groups.google.com/g/golang-announce/c/Y2uBTVKj
+│                              │                  │      BQk 
+│                              │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2025-3563 
+│                              ├ PublishedDate   : 2025-04-08T20:15:20.183Z 
+│                              ╰ LastModifiedDate: 2025-04-08T21:15:48.173Z 
 ├ [4]  ╭ Target         : usr/bin/docker-compose 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : gobinary 
@@ -2565,170 +2891,266 @@
 │                        │     │                  ╰ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-0495 
 │                        │     ├ PublishedDate   : 2025-03-17T20:15:13.737Z 
 │                        │     ╰ LastModifiedDate: 2025-03-17T20:15:13.737Z 
-│                        ╰ [2] ╭ VulnerabilityID : CVE-2025-22870 
-│                              ├ PkgID           : golang.org/x/net@v0.34.0 
-│                              ├ PkgName         : golang.org/x/net 
-│                              ├ PkgIdentifier    ╭ PURL: pkg:golang/golang.org/x/net@v0.34.0 
-│                              │                  ╰ UID : 46f27cee60ef8005 
-│                              ├ InstalledVersion: v0.34.0 
-│                              ├ FixedVersion    : 0.36.0 
+│                        ├ [2] ╭ VulnerabilityID : CVE-2025-22870 
+│                        │     ├ PkgID           : golang.org/x/net@v0.34.0 
+│                        │     ├ PkgName         : golang.org/x/net 
+│                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/golang.org/x/net@v0.34.0 
+│                        │     │                  ╰ UID : 46f27cee60ef8005 
+│                        │     ├ InstalledVersion: v0.34.0 
+│                        │     ├ FixedVersion    : 0.36.0 
+│                        │     ├ Status          : fixed 
+│                        │     ├ Layer            ╭ Digest: sha256:c6f1ac931c74d23f7067bebd1ef2106c55e4c04a785d
+│                        │     │                  │         a8cdba4214eaadd3e3fe 
+│                        │     │                  ╰ DiffID: sha256:92a132cfbe51c6f0e61d9c5c2da754aa6067dee97810
+│                        │     │                            74e7dbafa0709e6efb05 
+│                        │     ├ SeveritySource  : ghsa 
+│                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-22870 
+│                        │     ├ DataSource       ╭ ID  : ghsa 
+│                        │     │                  ├ Name: GitHub Security Advisory Go 
+│                        │     │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+e
+│                        │     │                          cosystem%3Ago 
+│                        │     ├ Title           : golang.org/x/net/proxy: golang.org/x/net/http/httpproxy:
+│                        │     │                   HTTP Proxy bypass using IPv6 Zone IDs in golang.org/x/net 
+│                        │     ├ Description     : Matching of hosts against proxy patterns can improperly
+│                        │     │                   treat an IPv6 zone ID as a hostname component. For example,
+│                        │     │                   when the NO_PROXY environment variable is set to
+│                        │     │                   "*.example.com", a request to "[::1%25.example.com]:80` will
+│                        │     │                    incorrectly match and not be proxied. 
+│                        │     ├ Severity        : MEDIUM 
+│                        │     ├ CweIDs           ─ [0]: CWE-115 
+│                        │     ├ VendorSeverity   ╭ amazon     : 2 
+│                        │     │                  ├ azure      : 1 
+│                        │     │                  ├ cbl-mariner: 2 
+│                        │     │                  ├ ghsa       : 2 
+│                        │     │                  ╰ redhat     : 2 
+│                        │     ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N
+│                        │     │                  │        │           /A:L 
+│                        │     │                  │        ╰ V3Score : 4.4 
+│                        │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N
+│                        │     │                           │           /A:L 
+│                        │     │                           ╰ V3Score : 4.4 
+│                        │     ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/03/07/2 
+│                        │     │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-22870 
+│                        │     │                  ├ [2]: https://go-review.googlesource.com/q/project:net 
+│                        │     │                  ├ [3]: https://go.dev/cl/654697 
+│                        │     │                  ├ [4]: https://go.dev/issue/71984 
+│                        │     │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-22870 
+│                        │     │                  ├ [6]: https://pkg.go.dev/vuln/GO-2025-3503 
+│                        │     │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-22870 
+│                        │     ├ PublishedDate   : 2025-03-12T19:15:38.31Z 
+│                        │     ╰ LastModifiedDate: 2025-03-18T17:15:45.467Z 
+│                        ╰ [3] ╭ VulnerabilityID : CVE-2025-22871 
+│                              ├ PkgID           : stdlib@v1.23.6 
+│                              ├ PkgName         : stdlib 
+│                              ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.23.6 
+│                              │                  ╰ UID : f8f7f9e81f31bb46 
+│                              ├ InstalledVersion: v1.23.6 
+│                              ├ FixedVersion    : 1.23.8, 1.24.2 
 │                              ├ Status          : fixed 
 │                              ├ Layer            ╭ Digest: sha256:c6f1ac931c74d23f7067bebd1ef2106c55e4c04a785d
 │                              │                  │         a8cdba4214eaadd3e3fe 
 │                              │                  ╰ DiffID: sha256:92a132cfbe51c6f0e61d9c5c2da754aa6067dee97810
 │                              │                            74e7dbafa0709e6efb05 
-│                              ├ SeveritySource  : ghsa 
-│                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-22870 
-│                              ├ DataSource       ╭ ID  : ghsa 
-│                              │                  ├ Name: GitHub Security Advisory Go 
-│                              │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+e
-│                              │                          cosystem%3Ago 
-│                              ├ Title           : golang.org/x/net/proxy: golang.org/x/net/http/httpproxy:
-│                              │                   HTTP Proxy bypass using IPv6 Zone IDs in golang.org/x/net 
-│                              ├ Description     : Matching of hosts against proxy patterns can improperly
-│                              │                   treat an IPv6 zone ID as a hostname component. For example,
-│                              │                   when the NO_PROXY environment variable is set to
-│                              │                   "*.example.com", a request to "[::1%25.example.com]:80` will
-│                              │                    incorrectly match and not be proxied. 
-│                              ├ Severity        : MEDIUM 
-│                              ├ CweIDs           ─ [0]: CWE-115 
-│                              ├ VendorSeverity   ╭ amazon     : 2 
-│                              │                  ├ azure      : 1 
-│                              │                  ├ cbl-mariner: 2 
-│                              │                  ├ ghsa       : 2 
-│                              │                  ╰ redhat     : 2 
-│                              ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N
-│                              │                  │        │           /A:L 
-│                              │                  │        ╰ V3Score : 4.4 
-│                              │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N
-│                              │                           │           /A:L 
-│                              │                           ╰ V3Score : 4.4 
-│                              ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/03/07/2 
-│                              │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-22870 
-│                              │                  ├ [2]: https://go-review.googlesource.com/q/project:net 
-│                              │                  ├ [3]: https://go.dev/cl/654697 
-│                              │                  ├ [4]: https://go.dev/issue/71984 
-│                              │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-22870 
-│                              │                  ├ [6]: https://pkg.go.dev/vuln/GO-2025-3503 
-│                              │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-22870 
-│                              ├ PublishedDate   : 2025-03-12T19:15:38.31Z 
-│                              ╰ LastModifiedDate: 2025-03-18T17:15:45.467Z 
+│                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-22871 
+│                              ├ DataSource       ╭ ID  : govulndb 
+│                              │                  ├ Name: The Go Vulnerability Database 
+│                              │                  ╰ URL : https://pkg.go.dev/vuln/ 
+│                              ├ Title           : The net/http package improperly accepts a bare LF as a line
+│                              │                   terminator ... 
+│                              ├ Description     : The net/http package improperly accepts a bare LF as a line
+│                              │                   terminator in chunked data chunk-size lines. This can permit
+│                              │                    request smuggling if a net/http server is used in
+│                              │                   conjunction with a server that incorrectly accepts a bare LF
+│                              │                    as part of a chunk-ext. 
+│                              ├ Severity        : UNKNOWN 
+│                              ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/04/04/4 
+│                              │                  ├ [1]: https://go.dev/cl/652998 
+│                              │                  ├ [2]: https://go.dev/issue/71988 
+│                              │                  ├ [3]: https://groups.google.com/g/golang-announce/c/Y2uBTVKj
+│                              │                  │      BQk 
+│                              │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2025-3563 
+│                              ├ PublishedDate   : 2025-04-08T20:15:20.183Z 
+│                              ╰ LastModifiedDate: 2025-04-08T21:15:48.173Z 
 ├ [5]  ╭ Target         : usr/bin/helm 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : gobinary 
-│      ╰ Vulnerabilities ─ [0] ╭ VulnerabilityID : CVE-2024-40635 
-│                              ├ PkgID           : github.com/containerd/containerd@v1.7.24 
-│                              ├ PkgName         : github.com/containerd/containerd 
-│                              ├ PkgIdentifier    ╭ PURL: pkg:golang/github.com/containerd/containerd@v1.7.24 
-│                              │                  ╰ UID : f4932271e34afc46 
-│                              ├ InstalledVersion: v1.7.24 
-│                              ├ FixedVersion    : 1.7.27, 1.6.38 
+│      ╰ Vulnerabilities ╭ [0] ╭ VulnerabilityID : CVE-2024-40635 
+│                        │     ├ PkgID           : github.com/containerd/containerd@v1.7.24 
+│                        │     ├ PkgName         : github.com/containerd/containerd 
+│                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/github.com/containerd/containerd@v1.7.24 
+│                        │     │                  ╰ UID : f4932271e34afc46 
+│                        │     ├ InstalledVersion: v1.7.24 
+│                        │     ├ FixedVersion    : 1.7.27, 1.6.38 
+│                        │     ├ Status          : fixed 
+│                        │     ├ Layer            ╭ Digest: sha256:c6f1ac931c74d23f7067bebd1ef2106c55e4c04a785d
+│                        │     │                  │         a8cdba4214eaadd3e3fe 
+│                        │     │                  ╰ DiffID: sha256:92a132cfbe51c6f0e61d9c5c2da754aa6067dee97810
+│                        │     │                            74e7dbafa0709e6efb05 
+│                        │     ├ SeveritySource  : ghsa 
+│                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-40635 
+│                        │     ├ DataSource       ╭ ID  : ghsa 
+│                        │     │                  ├ Name: GitHub Security Advisory Go 
+│                        │     │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+e
+│                        │     │                          cosystem%3Ago 
+│                        │     ├ Title           : containerd: containerd has an integer overflow in User ID
+│                        │     │                   handling 
+│                        │     ├ Description     : containerd is an open-source container runtime. A bug was
+│                        │     │                   found in containerd prior to versions 1.6.38, 1.7.27, and
+│                        │     │                   2.0.4 where containers launched with a User set as a
+│                        │     │                   `UID:GID` larger than the maximum 32-bit signed integer can
+│                        │     │                   cause an overflow condition where the container ultimately
+│                        │     │                   runs as root (UID 0). This could cause unexpected behavior
+│                        │     │                   for environments that require containers to run as a
+│                        │     │                   non-root user. This bug has been fixed in containerd 1.6.38,
+│                        │     │                    1.7.27, and 2.04. As a workaround, ensure that only trusted
+│                        │     │                    images are used and that only trusted users have
+│                        │     │                   permissions to import images. 
+│                        │     ├ Severity        : MEDIUM 
+│                        │     ├ CweIDs           ─ [0]: CWE-190 
+│                        │     ├ VendorSeverity   ╭ amazon: 2 
+│                        │     │                  ├ ghsa  : 2 
+│                        │     │                  ├ redhat: 2 
+│                        │     │                  ╰ ubuntu: 2 
+│                        │     ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:C/C:L/I:L
+│                        │     │                  │        │           /A:N 
+│                        │     │                  │        ╰ V3Score : 4.6 
+│                        │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:C/C:L/I:L
+│                        │     │                           │           /A:N 
+│                        │     │                           ╰ V3Score : 4.6 
+│                        │     ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2024-40635 
+│                        │     │                  ├ [1] : https://github.com/containerd/containerd 
+│                        │     │                  ├ [2] : https://github.com/containerd/containerd/commit/05044
+│                        │     │                  │       ec0a9a75232cad458027ca83437aae3f4da 
+│                        │     │                  ├ [3] : https://github.com/containerd/containerd/commit/11504
+│                        │     │                  │       c3fc5f45634f2d93d57743a998194430b82 (v1.7.27) 
+│                        │     │                  ├ [4] : https://github.com/containerd/containerd/commit/1a43c
+│                        │     │                  │       b6a1035441f9aca8f5666a9b3ef9e70ab20 
+│                        │     │                  ├ [5] : https://github.com/containerd/containerd/commit/9639b
+│                        │     │                  │       9625554183d0c4d8d072dccb84fedd2320f (v1.6.38) 
+│                        │     │                  ├ [6] : https://github.com/containerd/containerd/commit/cf158
+│                        │     │                  │       e884cfe4812a6c371b59e4ea9bc4c46e51a 
+│                        │     │                  ├ [7] : https://github.com/containerd/containerd/security/adv
+│                        │     │                  │       isories/GHSA-265r-hfxg-fhmg 
+│                        │     │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2024-40635 
+│                        │     │                  ├ [9] : https://ubuntu.com/security/notices/USN-7374-1 
+│                        │     │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2024-40635 
+│                        │     ├ PublishedDate   : 2025-03-17T22:15:13.15Z 
+│                        │     ╰ LastModifiedDate: 2025-03-17T22:15:13.15Z 
+│                        ╰ [1] ╭ VulnerabilityID : CVE-2025-22871 
+│                              ├ PkgID           : stdlib@v1.23.7 
+│                              ├ PkgName         : stdlib 
+│                              ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.23.7 
+│                              │                  ╰ UID : cae2859c17dd6e50 
+│                              ├ InstalledVersion: v1.23.7 
+│                              ├ FixedVersion    : 1.23.8, 1.24.2 
 │                              ├ Status          : fixed 
 │                              ├ Layer            ╭ Digest: sha256:c6f1ac931c74d23f7067bebd1ef2106c55e4c04a785d
 │                              │                  │         a8cdba4214eaadd3e3fe 
 │                              │                  ╰ DiffID: sha256:92a132cfbe51c6f0e61d9c5c2da754aa6067dee97810
 │                              │                            74e7dbafa0709e6efb05 
-│                              ├ SeveritySource  : ghsa 
-│                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-40635 
-│                              ├ DataSource       ╭ ID  : ghsa 
-│                              │                  ├ Name: GitHub Security Advisory Go 
-│                              │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+e
-│                              │                          cosystem%3Ago 
-│                              ├ Title           : containerd: containerd has an integer overflow in User ID
-│                              │                   handling 
-│                              ├ Description     : containerd is an open-source container runtime. A bug was
-│                              │                   found in containerd prior to versions 1.6.38, 1.7.27, and
-│                              │                   2.0.4 where containers launched with a User set as a
-│                              │                   `UID:GID` larger than the maximum 32-bit signed integer can
-│                              │                   cause an overflow condition where the container ultimately
-│                              │                   runs as root (UID 0). This could cause unexpected behavior
-│                              │                   for environments that require containers to run as a
-│                              │                   non-root user. This bug has been fixed in containerd 1.6.38,
-│                              │                    1.7.27, and 2.04. As a workaround, ensure that only trusted
-│                              │                    images are used and that only trusted users have
-│                              │                   permissions to import images. 
-│                              ├ Severity        : MEDIUM 
-│                              ├ CweIDs           ─ [0]: CWE-190 
-│                              ├ VendorSeverity   ╭ amazon: 2 
-│                              │                  ├ ghsa  : 2 
-│                              │                  ├ redhat: 2 
-│                              │                  ╰ ubuntu: 2 
-│                              ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:C/C:L/I:L
-│                              │                  │        │           /A:N 
-│                              │                  │        ╰ V3Score : 4.6 
-│                              │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:C/C:L/I:L
-│                              │                           │           /A:N 
-│                              │                           ╰ V3Score : 4.6 
-│                              ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2024-40635 
-│                              │                  ├ [1] : https://github.com/containerd/containerd 
-│                              │                  ├ [2] : https://github.com/containerd/containerd/commit/05044
-│                              │                  │       ec0a9a75232cad458027ca83437aae3f4da 
-│                              │                  ├ [3] : https://github.com/containerd/containerd/commit/11504
-│                              │                  │       c3fc5f45634f2d93d57743a998194430b82 (v1.7.27) 
-│                              │                  ├ [4] : https://github.com/containerd/containerd/commit/1a43c
-│                              │                  │       b6a1035441f9aca8f5666a9b3ef9e70ab20 
-│                              │                  ├ [5] : https://github.com/containerd/containerd/commit/9639b
-│                              │                  │       9625554183d0c4d8d072dccb84fedd2320f (v1.6.38) 
-│                              │                  ├ [6] : https://github.com/containerd/containerd/commit/cf158
-│                              │                  │       e884cfe4812a6c371b59e4ea9bc4c46e51a 
-│                              │                  ├ [7] : https://github.com/containerd/containerd/security/adv
-│                              │                  │       isories/GHSA-265r-hfxg-fhmg 
-│                              │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2024-40635 
-│                              │                  ├ [9] : https://ubuntu.com/security/notices/USN-7374-1 
-│                              │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2024-40635 
-│                              ├ PublishedDate   : 2025-03-17T22:15:13.15Z 
-│                              ╰ LastModifiedDate: 2025-03-17T22:15:13.15Z 
+│                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-22871 
+│                              ├ DataSource       ╭ ID  : govulndb 
+│                              │                  ├ Name: The Go Vulnerability Database 
+│                              │                  ╰ URL : https://pkg.go.dev/vuln/ 
+│                              ├ Title           : The net/http package improperly accepts a bare LF as a line
+│                              │                   terminator ... 
+│                              ├ Description     : The net/http package improperly accepts a bare LF as a line
+│                              │                   terminator in chunked data chunk-size lines. This can permit
+│                              │                    request smuggling if a net/http server is used in
+│                              │                   conjunction with a server that incorrectly accepts a bare LF
+│                              │                    as part of a chunk-ext. 
+│                              ├ Severity        : UNKNOWN 
+│                              ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/04/04/4 
+│                              │                  ├ [1]: https://go.dev/cl/652998 
+│                              │                  ├ [2]: https://go.dev/issue/71988 
+│                              │                  ├ [3]: https://groups.google.com/g/golang-announce/c/Y2uBTVKj
+│                              │                  │      BQk 
+│                              │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2025-3563 
+│                              ├ PublishedDate   : 2025-04-08T20:15:20.183Z 
+│                              ╰ LastModifiedDate: 2025-04-08T21:15:48.173Z 
 ├ [6]  ╭ Target         : usr/bin/kubectl 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : gobinary 
-│      ╰ Vulnerabilities ─ [0] ╭ VulnerabilityID : CVE-2025-22870 
-│                              ├ PkgID           : golang.org/x/net@v0.30.0 
-│                              ├ PkgName         : golang.org/x/net 
-│                              ├ PkgIdentifier    ╭ PURL: pkg:golang/golang.org/x/net@v0.30.0 
-│                              │                  ╰ UID : 49cea3404592705a 
-│                              ├ InstalledVersion: v0.30.0 
-│                              ├ FixedVersion    : 0.36.0 
+│      ╰ Vulnerabilities ╭ [0] ╭ VulnerabilityID : CVE-2025-22870 
+│                        │     ├ PkgID           : golang.org/x/net@v0.30.0 
+│                        │     ├ PkgName         : golang.org/x/net 
+│                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/golang.org/x/net@v0.30.0 
+│                        │     │                  ╰ UID : 49cea3404592705a 
+│                        │     ├ InstalledVersion: v0.30.0 
+│                        │     ├ FixedVersion    : 0.36.0 
+│                        │     ├ Status          : fixed 
+│                        │     ├ Layer            ╭ Digest: sha256:c6f1ac931c74d23f7067bebd1ef2106c55e4c04a785d
+│                        │     │                  │         a8cdba4214eaadd3e3fe 
+│                        │     │                  ╰ DiffID: sha256:92a132cfbe51c6f0e61d9c5c2da754aa6067dee97810
+│                        │     │                            74e7dbafa0709e6efb05 
+│                        │     ├ SeveritySource  : ghsa 
+│                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-22870 
+│                        │     ├ DataSource       ╭ ID  : ghsa 
+│                        │     │                  ├ Name: GitHub Security Advisory Go 
+│                        │     │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+e
+│                        │     │                          cosystem%3Ago 
+│                        │     ├ Title           : golang.org/x/net/proxy: golang.org/x/net/http/httpproxy:
+│                        │     │                   HTTP Proxy bypass using IPv6 Zone IDs in golang.org/x/net 
+│                        │     ├ Description     : Matching of hosts against proxy patterns can improperly
+│                        │     │                   treat an IPv6 zone ID as a hostname component. For example,
+│                        │     │                   when the NO_PROXY environment variable is set to
+│                        │     │                   "*.example.com", a request to "[::1%25.example.com]:80` will
+│                        │     │                    incorrectly match and not be proxied. 
+│                        │     ├ Severity        : MEDIUM 
+│                        │     ├ CweIDs           ─ [0]: CWE-115 
+│                        │     ├ VendorSeverity   ╭ amazon     : 2 
+│                        │     │                  ├ azure      : 1 
+│                        │     │                  ├ cbl-mariner: 2 
+│                        │     │                  ├ ghsa       : 2 
+│                        │     │                  ╰ redhat     : 2 
+│                        │     ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N
+│                        │     │                  │        │           /A:L 
+│                        │     │                  │        ╰ V3Score : 4.4 
+│                        │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N
+│                        │     │                           │           /A:L 
+│                        │     │                           ╰ V3Score : 4.4 
+│                        │     ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/03/07/2 
+│                        │     │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-22870 
+│                        │     │                  ├ [2]: https://go-review.googlesource.com/q/project:net 
+│                        │     │                  ├ [3]: https://go.dev/cl/654697 
+│                        │     │                  ├ [4]: https://go.dev/issue/71984 
+│                        │     │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-22870 
+│                        │     │                  ├ [6]: https://pkg.go.dev/vuln/GO-2025-3503 
+│                        │     │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-22870 
+│                        │     ├ PublishedDate   : 2025-03-12T19:15:38.31Z 
+│                        │     ╰ LastModifiedDate: 2025-03-18T17:15:45.467Z 
+│                        ╰ [1] ╭ VulnerabilityID : CVE-2025-22871 
+│                              ├ PkgID           : stdlib@v1.23.6 
+│                              ├ PkgName         : stdlib 
+│                              ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.23.6 
+│                              │                  ╰ UID : a200578c56ec45c2 
+│                              ├ InstalledVersion: v1.23.6 
+│                              ├ FixedVersion    : 1.23.8, 1.24.2 
 │                              ├ Status          : fixed 
 │                              ├ Layer            ╭ Digest: sha256:c6f1ac931c74d23f7067bebd1ef2106c55e4c04a785d
 │                              │                  │         a8cdba4214eaadd3e3fe 
 │                              │                  ╰ DiffID: sha256:92a132cfbe51c6f0e61d9c5c2da754aa6067dee97810
 │                              │                            74e7dbafa0709e6efb05 
-│                              ├ SeveritySource  : ghsa 
-│                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-22870 
-│                              ├ DataSource       ╭ ID  : ghsa 
-│                              │                  ├ Name: GitHub Security Advisory Go 
-│                              │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+e
-│                              │                          cosystem%3Ago 
-│                              ├ Title           : golang.org/x/net/proxy: golang.org/x/net/http/httpproxy:
-│                              │                   HTTP Proxy bypass using IPv6 Zone IDs in golang.org/x/net 
-│                              ├ Description     : Matching of hosts against proxy patterns can improperly
-│                              │                   treat an IPv6 zone ID as a hostname component. For example,
-│                              │                   when the NO_PROXY environment variable is set to
-│                              │                   "*.example.com", a request to "[::1%25.example.com]:80` will
-│                              │                    incorrectly match and not be proxied. 
-│                              ├ Severity        : MEDIUM 
-│                              ├ CweIDs           ─ [0]: CWE-115 
-│                              ├ VendorSeverity   ╭ amazon     : 2 
-│                              │                  ├ azure      : 1 
-│                              │                  ├ cbl-mariner: 2 
-│                              │                  ├ ghsa       : 2 
-│                              │                  ╰ redhat     : 2 
-│                              ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N
-│                              │                  │        │           /A:L 
-│                              │                  │        ╰ V3Score : 4.4 
-│                              │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N
-│                              │                           │           /A:L 
-│                              │                           ╰ V3Score : 4.4 
-│                              ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/03/07/2 
-│                              │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-22870 
-│                              │                  ├ [2]: https://go-review.googlesource.com/q/project:net 
-│                              │                  ├ [3]: https://go.dev/cl/654697 
-│                              │                  ├ [4]: https://go.dev/issue/71984 
-│                              │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-22870 
-│                              │                  ├ [6]: https://pkg.go.dev/vuln/GO-2025-3503 
-│                              │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-22870 
-│                              ├ PublishedDate   : 2025-03-12T19:15:38.31Z 
-│                              ╰ LastModifiedDate: 2025-03-18T17:15:45.467Z 
+│                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-22871 
+│                              ├ DataSource       ╭ ID  : govulndb 
+│                              │                  ├ Name: The Go Vulnerability Database 
+│                              │                  ╰ URL : https://pkg.go.dev/vuln/ 
+│                              ├ Title           : The net/http package improperly accepts a bare LF as a line
+│                              │                   terminator ... 
+│                              ├ Description     : The net/http package improperly accepts a bare LF as a line
+│                              │                   terminator in chunked data chunk-size lines. This can permit
+│                              │                    request smuggling if a net/http server is used in
+│                              │                   conjunction with a server that incorrectly accepts a bare LF
+│                              │                    as part of a chunk-ext. 
+│                              ├ Severity        : UNKNOWN 
+│                              ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/04/04/4 
+│                              │                  ├ [1]: https://go.dev/cl/652998 
+│                              │                  ├ [2]: https://go.dev/issue/71988 
+│                              │                  ├ [3]: https://groups.google.com/g/golang-announce/c/Y2uBTVKj
+│                              │                  │      BQk 
+│                              │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2025-3563 
+│                              ├ PublishedDate   : 2025-04-08T20:15:20.183Z 
+│                              ╰ LastModifiedDate: 2025-04-08T21:15:48.173Z 
 ├ [7]  ╭ Target: usr/bin/mc 
 │      ├ Class : lang-pkgs 
 │      ╰ Type  : gobinary 
@@ -3041,46 +3463,78 @@
 │                        │     │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-22870 
 │                        │     ├ PublishedDate   : 2025-03-12T19:15:38.31Z 
 │                        │     ╰ LastModifiedDate: 2025-03-18T17:15:45.467Z 
-│                        ╰ [4] ╭ VulnerabilityID : GHSA-xr7q-jx4m-x55m 
-│                              ├ PkgID           : google.golang.org/grpc@v1.64.0 
-│                              ├ PkgName         : google.golang.org/grpc 
-│                              ├ PkgIdentifier    ╭ PURL: pkg:golang/google.golang.org/grpc@v1.64.0 
-│                              │                  ╰ UID : 5b0d1d1c015eeeb3 
-│                              ├ InstalledVersion: v1.64.0 
-│                              ├ FixedVersion    : 1.64.1 
+│                        ├ [4] ╭ VulnerabilityID : GHSA-xr7q-jx4m-x55m 
+│                        │     ├ PkgID           : google.golang.org/grpc@v1.64.0 
+│                        │     ├ PkgName         : google.golang.org/grpc 
+│                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/google.golang.org/grpc@v1.64.0 
+│                        │     │                  ╰ UID : 5b0d1d1c015eeeb3 
+│                        │     ├ InstalledVersion: v1.64.0 
+│                        │     ├ FixedVersion    : 1.64.1 
+│                        │     ├ Status          : fixed 
+│                        │     ├ Layer            ╭ Digest: sha256:c6f1ac931c74d23f7067bebd1ef2106c55e4c04a785d
+│                        │     │                  │         a8cdba4214eaadd3e3fe 
+│                        │     │                  ╰ DiffID: sha256:92a132cfbe51c6f0e61d9c5c2da754aa6067dee97810
+│                        │     │                            74e7dbafa0709e6efb05 
+│                        │     ├ SeveritySource  : ghsa 
+│                        │     ├ PrimaryURL      : https://github.com/advisories/GHSA-xr7q-jx4m-x55m 
+│                        │     ├ DataSource       ╭ ID  : ghsa 
+│                        │     │                  ├ Name: GitHub Security Advisory Go 
+│                        │     │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+e
+│                        │     │                          cosystem%3Ago 
+│                        │     ├ Title           : Private tokens could appear in logs if context containing
+│                        │     │                   gRPC metadata is logged in github.com/grpc/grpc-go 
+│                        │     ├ Description     : ### Impact
+│                        │     │                   This issue represents a potential PII concern.  If
+│                        │     │                   applications were printing or logging a context containing
+│                        │     │                   gRPC metadata, the affected versions will contain all the
+│                        │     │                   metadata, which may include private information.
+│                        │     │                   
+│                        │     │                   ### Patches
+│                        │     │                   The issue first appeared in 1.64.0 and is patched in 1.64.1
+│                        │     │                   and 1.65.0
+│                        │     │                   ### Workarounds
+│                        │     │                   If using an affected version and upgrading is not possible,
+│                        │     │                   ensuring you do not log or print contexts will avoid the
+│                        │     │                   problem. 
+│                        │     ├ Severity        : LOW 
+│                        │     ├ VendorSeverity   ─ ghsa: 1 
+│                        │     ╰ References       ╭ [0]: https://github.com/grpc/grpc-go 
+│                        │                        ├ [1]: https://github.com/grpc/grpc-go/commit/ab292411ddc0f3b
+│                        │                        │      7a7786754d1fe05264c3021eb 
+│                        │                        ╰ [2]: https://github.com/grpc/grpc-go/security/advisories/GH
+│                        │                               SA-xr7q-jx4m-x55m 
+│                        ╰ [5] ╭ VulnerabilityID : CVE-2025-22871 
+│                              ├ PkgID           : stdlib@v1.22.12 
+│                              ├ PkgName         : stdlib 
+│                              ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.22.12 
+│                              │                  ╰ UID : 156a2e832bd2e3cc 
+│                              ├ InstalledVersion: v1.22.12 
+│                              ├ FixedVersion    : 1.23.8, 1.24.2 
 │                              ├ Status          : fixed 
 │                              ├ Layer            ╭ Digest: sha256:c6f1ac931c74d23f7067bebd1ef2106c55e4c04a785d
 │                              │                  │         a8cdba4214eaadd3e3fe 
 │                              │                  ╰ DiffID: sha256:92a132cfbe51c6f0e61d9c5c2da754aa6067dee97810
 │                              │                            74e7dbafa0709e6efb05 
-│                              ├ SeveritySource  : ghsa 
-│                              ├ PrimaryURL      : https://github.com/advisories/GHSA-xr7q-jx4m-x55m 
-│                              ├ DataSource       ╭ ID  : ghsa 
-│                              │                  ├ Name: GitHub Security Advisory Go 
-│                              │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+e
-│                              │                          cosystem%3Ago 
-│                              ├ Title           : Private tokens could appear in logs if context containing
-│                              │                   gRPC metadata is logged in github.com/grpc/grpc-go 
-│                              ├ Description     : ### Impact
-│                              │                   This issue represents a potential PII concern.  If
-│                              │                   applications were printing or logging a context containing
-│                              │                   gRPC metadata, the affected versions will contain all the
-│                              │                   metadata, which may include private information.
-│                              │                   
-│                              │                   ### Patches
-│                              │                   The issue first appeared in 1.64.0 and is patched in 1.64.1
-│                              │                   and 1.65.0
-│                              │                   ### Workarounds
-│                              │                   If using an affected version and upgrading is not possible,
-│                              │                   ensuring you do not log or print contexts will avoid the
-│                              │                   problem. 
-│                              ├ Severity        : LOW 
-│                              ├ VendorSeverity   ─ ghsa: 1 
-│                              ╰ References       ╭ [0]: https://github.com/grpc/grpc-go 
-│                                                 ├ [1]: https://github.com/grpc/grpc-go/commit/ab292411ddc0f3b
-│                                                 │      7a7786754d1fe05264c3021eb 
-│                                                 ╰ [2]: https://github.com/grpc/grpc-go/security/advisories/GH
-│                                                        SA-xr7q-jx4m-x55m 
+│                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-22871 
+│                              ├ DataSource       ╭ ID  : govulndb 
+│                              │                  ├ Name: The Go Vulnerability Database 
+│                              │                  ╰ URL : https://pkg.go.dev/vuln/ 
+│                              ├ Title           : The net/http package improperly accepts a bare LF as a line
+│                              │                   terminator ... 
+│                              ├ Description     : The net/http package improperly accepts a bare LF as a line
+│                              │                   terminator in chunked data chunk-size lines. This can permit
+│                              │                    request smuggling if a net/http server is used in
+│                              │                   conjunction with a server that incorrectly accepts a bare LF
+│                              │                    as part of a chunk-ext. 
+│                              ├ Severity        : UNKNOWN 
+│                              ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/04/04/4 
+│                              │                  ├ [1]: https://go.dev/cl/652998 
+│                              │                  ├ [2]: https://go.dev/issue/71988 
+│                              │                  ├ [3]: https://groups.google.com/g/golang-announce/c/Y2uBTVKj
+│                              │                  │      BQk 
+│                              │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2025-3563 
+│                              ├ PublishedDate   : 2025-04-08T20:15:20.183Z 
+│                              ╰ LastModifiedDate: 2025-04-08T21:15:48.173Z 
 ├ [9]  ╭ Target : /etc/ssh/ssh_host_ecdsa_key 
 │      ├ Class  : secret 
 │      ╰ Secrets ─ [0] ╭ RuleID   : private-key 

@@ -899,7 +899,8 @@
       PURL: pkg:deb/ubuntu/libexpat1@2.6.1-2ubuntu0.2?arch=amd64&distro=ubuntu-24.04
       UID: d3b6ebaeb0c7525d
     InstalledVersion: 2.6.1-2ubuntu0.2
-    Status: affected
+    FixedVersion: 2.6.1-2ubuntu0.3
+    Status: fixed
     Layer:
       Digest: sha256:c6f1ac931c74d23f7067bebd1ef2106c55e4c04a785da8cdba4214eaadd3e3fe
       DiffID: sha256:92a132cfbe51c6f0e61d9c5c2da754aa6067dee9781074e7dbafa0709e6efb05
@@ -942,6 +943,7 @@
     - https://security-tracker.debian.org/tracker/CVE-2024-8176
     - https://security.netapp.com/advisory/ntap-20250328-0009/
     - https://ubuntu.com/security/CVE-2024-8176
+    - https://ubuntu.com/security/notices/USN-7424-1
     - https://www.cve.org/CVERecord?id=CVE-2024-8176
     PublishedDate: '2025-03-14T09:15:14.157Z'
     LastModifiedDate: '2025-04-02T15:15:57.987Z'
@@ -1753,7 +1755,8 @@
       PURL: pkg:deb/ubuntu/vim@9.1.0016-1ubuntu7.7?arch=amd64&distro=ubuntu-24.04&epoch=2
       UID: 72c4910d60940f5c
     InstalledVersion: 2:9.1.0016-1ubuntu7.7
-    Status: affected
+    FixedVersion: 2:9.1.0016-1ubuntu7.8
+    Status: fixed
     Layer:
       Digest: sha256:c6f1ac931c74d23f7067bebd1ef2106c55e4c04a785da8cdba4214eaadd3e3fe
       DiffID: sha256:92a132cfbe51c6f0e61d9c5c2da754aa6067dee9781074e7dbafa0709e6efb05
@@ -1784,12 +1787,56 @@
     - https://github.com/vim/vim/releases/tag/v9.1.1097
     - https://nvd.nist.gov/vuln/detail/CVE-2025-1215
     - https://security.netapp.com/advisory/ntap-20250321-0005/
+    - https://ubuntu.com/security/notices/USN-7419-1
     - https://vuldb.com/?ctiid.295174
     - https://vuldb.com/?id.295174
     - https://vuldb.com/?submit.497546
     - https://www.cve.org/CVERecord?id=CVE-2025-1215
     PublishedDate: '2025-02-12T19:15:10.23Z'
     LastModifiedDate: '2025-03-21T18:15:34.29Z'
+  - VulnerabilityID: CVE-2025-26603
+    PkgID: vim@2:9.1.0016-1ubuntu7.7
+    PkgName: vim
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/vim@9.1.0016-1ubuntu7.7?arch=amd64&distro=ubuntu-24.04&epoch=2
+      UID: 72c4910d60940f5c
+    InstalledVersion: 2:9.1.0016-1ubuntu7.7
+    FixedVersion: 2:9.1.0016-1ubuntu7.8
+    Status: fixed
+    Layer:
+      Digest: sha256:c6f1ac931c74d23f7067bebd1ef2106c55e4c04a785da8cdba4214eaadd3e3fe
+      DiffID: sha256:92a132cfbe51c6f0e61d9c5c2da754aa6067dee9781074e7dbafa0709e6efb05
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-26603
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'vim: heap-use-after-free in function str_to_reg in vim/vim'
+    Description: Vim is a greatly improved version of the good old UNIX editor Vi. Vim allows to redirect screen messages using the `:redir` ex command to register, variables and files. It also allows to show the contents of registers using the `:registers` or `:display` ex command. When redirecting the output of `:display` to a register, Vim will free the register content before storing the new content in the register. Now when redirecting the `:display` command to a register that is being displayed, Vim will free the content while shortly afterwards trying to access it, which leads to a use-after-free. Vim pre 9.1.1115 checks in the ex_display() function, that it does not try to redirect to a register while displaying this register at the same time. However this check is not complete, and so Vim does not check the `+` and `*` registers (which typically donate the X11/clipboard registers, and when a clipboard connection is not possible will fall back to use register 0 instead. In Patch 9.1.1115 Vim will therefore skip outputting to register zero when trying to redirect to the clipboard registers `*` or `+`. Users are advised to upgrade. There are no known workarounds for this vulnerability.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-416
+    VendorSeverity:
+      azure: 2
+      cbl-mariner: 2
+      redhat: 1
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:L/A:L
+        V3Score: 4.2
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-26603
+    - https://github.com/vim/vim/commit/c0f0e2380e5954f4a52a131bf6b8
+    - https://github.com/vim/vim/commit/c0f0e2380e5954f4a52a131bf6b8 (v9.1.1115)
+    - https://github.com/vim/vim/security/advisories/GHSA-63p5-mwg2-787v
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-26603
+    - https://security.netapp.com/advisory/ntap-20250306-0003/
+    - https://ubuntu.com/security/notices/USN-7419-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-26603
+    PublishedDate: '2025-02-18T19:15:29.387Z'
+    LastModifiedDate: '2025-03-07T01:15:12.7Z'
   - VulnerabilityID: CVE-2025-1215
     PkgID: vim-common@2:9.1.0016-1ubuntu7.7
     PkgName: vim-common
@@ -1797,7 +1844,8 @@
       PURL: pkg:deb/ubuntu/vim-common@9.1.0016-1ubuntu7.7?arch=all&distro=ubuntu-24.04&epoch=2
       UID: f888c1e43eff97c1
     InstalledVersion: 2:9.1.0016-1ubuntu7.7
-    Status: affected
+    FixedVersion: 2:9.1.0016-1ubuntu7.8
+    Status: fixed
     Layer:
       Digest: sha256:c6f1ac931c74d23f7067bebd1ef2106c55e4c04a785da8cdba4214eaadd3e3fe
       DiffID: sha256:92a132cfbe51c6f0e61d9c5c2da754aa6067dee9781074e7dbafa0709e6efb05
@@ -1828,12 +1876,56 @@
     - https://github.com/vim/vim/releases/tag/v9.1.1097
     - https://nvd.nist.gov/vuln/detail/CVE-2025-1215
     - https://security.netapp.com/advisory/ntap-20250321-0005/
+    - https://ubuntu.com/security/notices/USN-7419-1
     - https://vuldb.com/?ctiid.295174
     - https://vuldb.com/?id.295174
     - https://vuldb.com/?submit.497546
     - https://www.cve.org/CVERecord?id=CVE-2025-1215
     PublishedDate: '2025-02-12T19:15:10.23Z'
     LastModifiedDate: '2025-03-21T18:15:34.29Z'
+  - VulnerabilityID: CVE-2025-26603
+    PkgID: vim-common@2:9.1.0016-1ubuntu7.7
+    PkgName: vim-common
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/vim-common@9.1.0016-1ubuntu7.7?arch=all&distro=ubuntu-24.04&epoch=2
+      UID: f888c1e43eff97c1
+    InstalledVersion: 2:9.1.0016-1ubuntu7.7
+    FixedVersion: 2:9.1.0016-1ubuntu7.8
+    Status: fixed
+    Layer:
+      Digest: sha256:c6f1ac931c74d23f7067bebd1ef2106c55e4c04a785da8cdba4214eaadd3e3fe
+      DiffID: sha256:92a132cfbe51c6f0e61d9c5c2da754aa6067dee9781074e7dbafa0709e6efb05
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-26603
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'vim: heap-use-after-free in function str_to_reg in vim/vim'
+    Description: Vim is a greatly improved version of the good old UNIX editor Vi. Vim allows to redirect screen messages using the `:redir` ex command to register, variables and files. It also allows to show the contents of registers using the `:registers` or `:display` ex command. When redirecting the output of `:display` to a register, Vim will free the register content before storing the new content in the register. Now when redirecting the `:display` command to a register that is being displayed, Vim will free the content while shortly afterwards trying to access it, which leads to a use-after-free. Vim pre 9.1.1115 checks in the ex_display() function, that it does not try to redirect to a register while displaying this register at the same time. However this check is not complete, and so Vim does not check the `+` and `*` registers (which typically donate the X11/clipboard registers, and when a clipboard connection is not possible will fall back to use register 0 instead. In Patch 9.1.1115 Vim will therefore skip outputting to register zero when trying to redirect to the clipboard registers `*` or `+`. Users are advised to upgrade. There are no known workarounds for this vulnerability.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-416
+    VendorSeverity:
+      azure: 2
+      cbl-mariner: 2
+      redhat: 1
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:L/A:L
+        V3Score: 4.2
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-26603
+    - https://github.com/vim/vim/commit/c0f0e2380e5954f4a52a131bf6b8
+    - https://github.com/vim/vim/commit/c0f0e2380e5954f4a52a131bf6b8 (v9.1.1115)
+    - https://github.com/vim/vim/security/advisories/GHSA-63p5-mwg2-787v
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-26603
+    - https://security.netapp.com/advisory/ntap-20250306-0003/
+    - https://ubuntu.com/security/notices/USN-7419-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-26603
+    PublishedDate: '2025-02-18T19:15:29.387Z'
+    LastModifiedDate: '2025-03-07T01:15:12.7Z'
   - VulnerabilityID: CVE-2025-1215
     PkgID: vim-runtime@2:9.1.0016-1ubuntu7.7
     PkgName: vim-runtime
@@ -1841,7 +1933,8 @@
       PURL: pkg:deb/ubuntu/vim-runtime@9.1.0016-1ubuntu7.7?arch=all&distro=ubuntu-24.04&epoch=2
       UID: 532809ff7e6d46fc
     InstalledVersion: 2:9.1.0016-1ubuntu7.7
-    Status: affected
+    FixedVersion: 2:9.1.0016-1ubuntu7.8
+    Status: fixed
     Layer:
       Digest: sha256:c6f1ac931c74d23f7067bebd1ef2106c55e4c04a785da8cdba4214eaadd3e3fe
       DiffID: sha256:92a132cfbe51c6f0e61d9c5c2da754aa6067dee9781074e7dbafa0709e6efb05
@@ -1872,12 +1965,56 @@
     - https://github.com/vim/vim/releases/tag/v9.1.1097
     - https://nvd.nist.gov/vuln/detail/CVE-2025-1215
     - https://security.netapp.com/advisory/ntap-20250321-0005/
+    - https://ubuntu.com/security/notices/USN-7419-1
     - https://vuldb.com/?ctiid.295174
     - https://vuldb.com/?id.295174
     - https://vuldb.com/?submit.497546
     - https://www.cve.org/CVERecord?id=CVE-2025-1215
     PublishedDate: '2025-02-12T19:15:10.23Z'
     LastModifiedDate: '2025-03-21T18:15:34.29Z'
+  - VulnerabilityID: CVE-2025-26603
+    PkgID: vim-runtime@2:9.1.0016-1ubuntu7.7
+    PkgName: vim-runtime
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/vim-runtime@9.1.0016-1ubuntu7.7?arch=all&distro=ubuntu-24.04&epoch=2
+      UID: 532809ff7e6d46fc
+    InstalledVersion: 2:9.1.0016-1ubuntu7.7
+    FixedVersion: 2:9.1.0016-1ubuntu7.8
+    Status: fixed
+    Layer:
+      Digest: sha256:c6f1ac931c74d23f7067bebd1ef2106c55e4c04a785da8cdba4214eaadd3e3fe
+      DiffID: sha256:92a132cfbe51c6f0e61d9c5c2da754aa6067dee9781074e7dbafa0709e6efb05
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-26603
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'vim: heap-use-after-free in function str_to_reg in vim/vim'
+    Description: Vim is a greatly improved version of the good old UNIX editor Vi. Vim allows to redirect screen messages using the `:redir` ex command to register, variables and files. It also allows to show the contents of registers using the `:registers` or `:display` ex command. When redirecting the output of `:display` to a register, Vim will free the register content before storing the new content in the register. Now when redirecting the `:display` command to a register that is being displayed, Vim will free the content while shortly afterwards trying to access it, which leads to a use-after-free. Vim pre 9.1.1115 checks in the ex_display() function, that it does not try to redirect to a register while displaying this register at the same time. However this check is not complete, and so Vim does not check the `+` and `*` registers (which typically donate the X11/clipboard registers, and when a clipboard connection is not possible will fall back to use register 0 instead. In Patch 9.1.1115 Vim will therefore skip outputting to register zero when trying to redirect to the clipboard registers `*` or `+`. Users are advised to upgrade. There are no known workarounds for this vulnerability.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-416
+    VendorSeverity:
+      azure: 2
+      cbl-mariner: 2
+      redhat: 1
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:L/A:L
+        V3Score: 4.2
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-26603
+    - https://github.com/vim/vim/commit/c0f0e2380e5954f4a52a131bf6b8
+    - https://github.com/vim/vim/commit/c0f0e2380e5954f4a52a131bf6b8 (v9.1.1115)
+    - https://github.com/vim/vim/security/advisories/GHSA-63p5-mwg2-787v
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-26603
+    - https://security.netapp.com/advisory/ntap-20250306-0003/
+    - https://ubuntu.com/security/notices/USN-7419-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-26603
+    PublishedDate: '2025-02-18T19:15:29.387Z'
+    LastModifiedDate: '2025-03-07T01:15:12.7Z'
   - VulnerabilityID: CVE-2021-31879
     PkgID: wget@1.21.4-1ubuntu4.1
     PkgName: wget
@@ -1932,7 +2069,8 @@
       PURL: pkg:deb/ubuntu/xxd@9.1.0016-1ubuntu7.7?arch=amd64&distro=ubuntu-24.04&epoch=2
       UID: 9b0f610b0ca92628
     InstalledVersion: 2:9.1.0016-1ubuntu7.7
-    Status: affected
+    FixedVersion: 2:9.1.0016-1ubuntu7.8
+    Status: fixed
     Layer:
       Digest: sha256:c6f1ac931c74d23f7067bebd1ef2106c55e4c04a785da8cdba4214eaadd3e3fe
       DiffID: sha256:92a132cfbe51c6f0e61d9c5c2da754aa6067dee9781074e7dbafa0709e6efb05
@@ -1963,12 +2101,56 @@
     - https://github.com/vim/vim/releases/tag/v9.1.1097
     - https://nvd.nist.gov/vuln/detail/CVE-2025-1215
     - https://security.netapp.com/advisory/ntap-20250321-0005/
+    - https://ubuntu.com/security/notices/USN-7419-1
     - https://vuldb.com/?ctiid.295174
     - https://vuldb.com/?id.295174
     - https://vuldb.com/?submit.497546
     - https://www.cve.org/CVERecord?id=CVE-2025-1215
     PublishedDate: '2025-02-12T19:15:10.23Z'
     LastModifiedDate: '2025-03-21T18:15:34.29Z'
+  - VulnerabilityID: CVE-2025-26603
+    PkgID: xxd@2:9.1.0016-1ubuntu7.7
+    PkgName: xxd
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/xxd@9.1.0016-1ubuntu7.7?arch=amd64&distro=ubuntu-24.04&epoch=2
+      UID: 9b0f610b0ca92628
+    InstalledVersion: 2:9.1.0016-1ubuntu7.7
+    FixedVersion: 2:9.1.0016-1ubuntu7.8
+    Status: fixed
+    Layer:
+      Digest: sha256:c6f1ac931c74d23f7067bebd1ef2106c55e4c04a785da8cdba4214eaadd3e3fe
+      DiffID: sha256:92a132cfbe51c6f0e61d9c5c2da754aa6067dee9781074e7dbafa0709e6efb05
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-26603
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'vim: heap-use-after-free in function str_to_reg in vim/vim'
+    Description: Vim is a greatly improved version of the good old UNIX editor Vi. Vim allows to redirect screen messages using the `:redir` ex command to register, variables and files. It also allows to show the contents of registers using the `:registers` or `:display` ex command. When redirecting the output of `:display` to a register, Vim will free the register content before storing the new content in the register. Now when redirecting the `:display` command to a register that is being displayed, Vim will free the content while shortly afterwards trying to access it, which leads to a use-after-free. Vim pre 9.1.1115 checks in the ex_display() function, that it does not try to redirect to a register while displaying this register at the same time. However this check is not complete, and so Vim does not check the `+` and `*` registers (which typically donate the X11/clipboard registers, and when a clipboard connection is not possible will fall back to use register 0 instead. In Patch 9.1.1115 Vim will therefore skip outputting to register zero when trying to redirect to the clipboard registers `*` or `+`. Users are advised to upgrade. There are no known workarounds for this vulnerability.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-416
+    VendorSeverity:
+      azure: 2
+      cbl-mariner: 2
+      redhat: 1
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:L/A:L
+        V3Score: 4.2
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-26603
+    - https://github.com/vim/vim/commit/c0f0e2380e5954f4a52a131bf6b8
+    - https://github.com/vim/vim/commit/c0f0e2380e5954f4a52a131bf6b8 (v9.1.1115)
+    - https://github.com/vim/vim/security/advisories/GHSA-63p5-mwg2-787v
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-26603
+    - https://security.netapp.com/advisory/ntap-20250306-0003/
+    - https://ubuntu.com/security/notices/USN-7419-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-26603
+    PublishedDate: '2025-02-18T19:15:29.387Z'
+    LastModifiedDate: '2025-03-07T01:15:12.7Z'
 - Target: Java
   Class: lang-pkgs
   Type: jar
@@ -2106,6 +2288,34 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-22870
     PublishedDate: '2025-03-12T19:15:38.31Z'
     LastModifiedDate: '2025-03-18T17:15:45.467Z'
+  - VulnerabilityID: CVE-2025-22871
+    PkgID: stdlib@v1.24.1
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@v1.24.1
+      UID: 58815a71868018bb
+    InstalledVersion: v1.24.1
+    FixedVersion: 1.23.8, 1.24.2
+    Status: fixed
+    Layer:
+      Digest: sha256:c6f1ac931c74d23f7067bebd1ef2106c55e4c04a785da8cdba4214eaadd3e3fe
+      DiffID: sha256:92a132cfbe51c6f0e61d9c5c2da754aa6067dee9781074e7dbafa0709e6efb05
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-22871
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: The net/http package improperly accepts a bare LF as a line terminator ...
+    Description: The net/http package improperly accepts a bare LF as a line terminator in chunked data chunk-size lines. This can permit request smuggling if a net/http server is used in conjunction with a server that incorrectly accepts a bare LF as part of a chunk-ext.
+    Severity: UNKNOWN
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/04/04/4
+    - https://go.dev/cl/652998
+    - https://go.dev/issue/71988
+    - https://groups.google.com/g/golang-announce/c/Y2uBTVKjBQk
+    - https://pkg.go.dev/vuln/GO-2025-3563
+    PublishedDate: '2025-04-08T20:15:20.183Z'
+    LastModifiedDate: '2025-04-08T21:15:48.173Z'
 - Target: tmp/tmp.qniqI9dqSE/krew-linux_amd64
   Class: lang-pkgs
   Type: gobinary
@@ -2240,6 +2450,34 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-22870
     PublishedDate: '2025-03-12T19:15:38.31Z'
     LastModifiedDate: '2025-03-18T17:15:45.467Z'
+  - VulnerabilityID: CVE-2025-22871
+    PkgID: stdlib@v1.24.1
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@v1.24.1
+      UID: 52ccf71aee24ba9c
+    InstalledVersion: v1.24.1
+    FixedVersion: 1.23.8, 1.24.2
+    Status: fixed
+    Layer:
+      Digest: sha256:c6f1ac931c74d23f7067bebd1ef2106c55e4c04a785da8cdba4214eaadd3e3fe
+      DiffID: sha256:92a132cfbe51c6f0e61d9c5c2da754aa6067dee9781074e7dbafa0709e6efb05
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-22871
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: The net/http package improperly accepts a bare LF as a line terminator ...
+    Description: The net/http package improperly accepts a bare LF as a line terminator in chunked data chunk-size lines. This can permit request smuggling if a net/http server is used in conjunction with a server that incorrectly accepts a bare LF as part of a chunk-ext.
+    Severity: UNKNOWN
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/04/04/4
+    - https://go.dev/cl/652998
+    - https://go.dev/issue/71988
+    - https://groups.google.com/g/golang-announce/c/Y2uBTVKjBQk
+    - https://pkg.go.dev/vuln/GO-2025-3563
+    PublishedDate: '2025-04-08T20:15:20.183Z'
+    LastModifiedDate: '2025-04-08T21:15:48.173Z'
 - Target: usr/bin/docker-compose
   Class: lang-pkgs
   Type: gobinary
@@ -2372,6 +2610,34 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-22870
     PublishedDate: '2025-03-12T19:15:38.31Z'
     LastModifiedDate: '2025-03-18T17:15:45.467Z'
+  - VulnerabilityID: CVE-2025-22871
+    PkgID: stdlib@v1.23.6
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@v1.23.6
+      UID: f8f7f9e81f31bb46
+    InstalledVersion: v1.23.6
+    FixedVersion: 1.23.8, 1.24.2
+    Status: fixed
+    Layer:
+      Digest: sha256:c6f1ac931c74d23f7067bebd1ef2106c55e4c04a785da8cdba4214eaadd3e3fe
+      DiffID: sha256:92a132cfbe51c6f0e61d9c5c2da754aa6067dee9781074e7dbafa0709e6efb05
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-22871
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: The net/http package improperly accepts a bare LF as a line terminator ...
+    Description: The net/http package improperly accepts a bare LF as a line terminator in chunked data chunk-size lines. This can permit request smuggling if a net/http server is used in conjunction with a server that incorrectly accepts a bare LF as part of a chunk-ext.
+    Severity: UNKNOWN
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/04/04/4
+    - https://go.dev/cl/652998
+    - https://go.dev/issue/71988
+    - https://groups.google.com/g/golang-announce/c/Y2uBTVKjBQk
+    - https://pkg.go.dev/vuln/GO-2025-3563
+    PublishedDate: '2025-04-08T20:15:20.183Z'
+    LastModifiedDate: '2025-04-08T21:15:48.173Z'
 - Target: usr/bin/helm
   Class: lang-pkgs
   Type: gobinary
@@ -2425,6 +2691,34 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-40635
     PublishedDate: '2025-03-17T22:15:13.15Z'
     LastModifiedDate: '2025-03-17T22:15:13.15Z'
+  - VulnerabilityID: CVE-2025-22871
+    PkgID: stdlib@v1.23.7
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@v1.23.7
+      UID: cae2859c17dd6e50
+    InstalledVersion: v1.23.7
+    FixedVersion: 1.23.8, 1.24.2
+    Status: fixed
+    Layer:
+      Digest: sha256:c6f1ac931c74d23f7067bebd1ef2106c55e4c04a785da8cdba4214eaadd3e3fe
+      DiffID: sha256:92a132cfbe51c6f0e61d9c5c2da754aa6067dee9781074e7dbafa0709e6efb05
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-22871
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: The net/http package improperly accepts a bare LF as a line terminator ...
+    Description: The net/http package improperly accepts a bare LF as a line terminator in chunked data chunk-size lines. This can permit request smuggling if a net/http server is used in conjunction with a server that incorrectly accepts a bare LF as part of a chunk-ext.
+    Severity: UNKNOWN
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/04/04/4
+    - https://go.dev/cl/652998
+    - https://go.dev/issue/71988
+    - https://groups.google.com/g/golang-announce/c/Y2uBTVKjBQk
+    - https://pkg.go.dev/vuln/GO-2025-3563
+    PublishedDate: '2025-04-08T20:15:20.183Z'
+    LastModifiedDate: '2025-04-08T21:15:48.173Z'
 - Target: usr/bin/kubectl
   Class: lang-pkgs
   Type: gobinary
@@ -2476,6 +2770,34 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-22870
     PublishedDate: '2025-03-12T19:15:38.31Z'
     LastModifiedDate: '2025-03-18T17:15:45.467Z'
+  - VulnerabilityID: CVE-2025-22871
+    PkgID: stdlib@v1.23.6
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@v1.23.6
+      UID: a200578c56ec45c2
+    InstalledVersion: v1.23.6
+    FixedVersion: 1.23.8, 1.24.2
+    Status: fixed
+    Layer:
+      Digest: sha256:c6f1ac931c74d23f7067bebd1ef2106c55e4c04a785da8cdba4214eaadd3e3fe
+      DiffID: sha256:92a132cfbe51c6f0e61d9c5c2da754aa6067dee9781074e7dbafa0709e6efb05
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-22871
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: The net/http package improperly accepts a bare LF as a line terminator ...
+    Description: The net/http package improperly accepts a bare LF as a line terminator in chunked data chunk-size lines. This can permit request smuggling if a net/http server is used in conjunction with a server that incorrectly accepts a bare LF as part of a chunk-ext.
+    Severity: UNKNOWN
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/04/04/4
+    - https://go.dev/cl/652998
+    - https://go.dev/issue/71988
+    - https://groups.google.com/g/golang-announce/c/Y2uBTVKjBQk
+    - https://pkg.go.dev/vuln/GO-2025-3563
+    PublishedDate: '2025-04-08T20:15:20.183Z'
+    LastModifiedDate: '2025-04-08T21:15:48.173Z'
 - Target: usr/bin/mc
   Class: lang-pkgs
   Type: gobinary
@@ -2735,6 +3057,34 @@
     - https://github.com/grpc/grpc-go
     - https://github.com/grpc/grpc-go/commit/ab292411ddc0f3b7a7786754d1fe05264c3021eb
     - https://github.com/grpc/grpc-go/security/advisories/GHSA-xr7q-jx4m-x55m
+  - VulnerabilityID: CVE-2025-22871
+    PkgID: stdlib@v1.22.12
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@v1.22.12
+      UID: 156a2e832bd2e3cc
+    InstalledVersion: v1.22.12
+    FixedVersion: 1.23.8, 1.24.2
+    Status: fixed
+    Layer:
+      Digest: sha256:c6f1ac931c74d23f7067bebd1ef2106c55e4c04a785da8cdba4214eaadd3e3fe
+      DiffID: sha256:92a132cfbe51c6f0e61d9c5c2da754aa6067dee9781074e7dbafa0709e6efb05
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-22871
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: The net/http package improperly accepts a bare LF as a line terminator ...
+    Description: The net/http package improperly accepts a bare LF as a line terminator in chunked data chunk-size lines. This can permit request smuggling if a net/http server is used in conjunction with a server that incorrectly accepts a bare LF as part of a chunk-ext.
+    Severity: UNKNOWN
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/04/04/4
+    - https://go.dev/cl/652998
+    - https://go.dev/issue/71988
+    - https://groups.google.com/g/golang-announce/c/Y2uBTVKjBQk
+    - https://pkg.go.dev/vuln/GO-2025-3563
+    PublishedDate: '2025-04-08T20:15:20.183Z'
+    LastModifiedDate: '2025-04-08T21:15:48.173Z'
 - Target: /etc/ssh/ssh_host_ecdsa_key
   Class: secret
   Secrets:
