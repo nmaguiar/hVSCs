@@ -2022,29 +2022,30 @@
 │                        │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/03/1
 │                        │      │                  │       5/1 
 │                        │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:3531 
-│                        │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2024-8176 
-│                        │      │                  ├ [3] : https://blog.hartwork.org/posts/expat-2-7-0-released/ 
-│                        │      │                  ├ [4] : https://bugzilla.redhat.com/2310137 
-│                        │      │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2310137 
-│                        │      │                  ├ [6] : https://bugzilla.suse.com/show_bug.cgi?id=1239618 
-│                        │      │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2025-3531.html 
-│                        │      │                  ├ [8] : https://github.com/libexpat/libexpat/blob/R_2_7_0/ex
+│                        │      │                  ├ [2] : https://access.redhat.com/errata/RHSA-2025:3734 
+│                        │      │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2024-8176 
+│                        │      │                  ├ [4] : https://blog.hartwork.org/posts/expat-2-7-0-released/ 
+│                        │      │                  ├ [5] : https://bugzilla.redhat.com/2310137 
+│                        │      │                  ├ [6] : https://bugzilla.redhat.com/show_bug.cgi?id=2310137 
+│                        │      │                  ├ [7] : https://bugzilla.suse.com/show_bug.cgi?id=1239618 
+│                        │      │                  ├ [8] : https://errata.almalinux.org/9/ALSA-2025-3531.html 
+│                        │      │                  ├ [9] : https://github.com/libexpat/libexpat/blob/R_2_7_0/ex
 │                        │      │                  │       pat/Changes#L40-L52 
-│                        │      │                  ├ [9] : https://github.com/libexpat/libexpat/issues/893 
-│                        │      │                  ├ [10]: https://gitlab.alpinelinux.org/alpine/aports/-/commi
+│                        │      │                  ├ [10]: https://github.com/libexpat/libexpat/issues/893 
+│                        │      │                  ├ [11]: https://gitlab.alpinelinux.org/alpine/aports/-/commi
 │                        │      │                  │       t/d068c3ff36fc6f4789988a09c69b434db757db53 
-│                        │      │                  ├ [11]: https://linux.oracle.com/cve/CVE-2024-8176.html 
-│                        │      │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2025-3531.html 
-│                        │      │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2024-8176 
-│                        │      │                  ├ [14]: https://security-tracker.debian.org/tracker/CVE-2024
+│                        │      │                  ├ [12]: https://linux.oracle.com/cve/CVE-2024-8176.html 
+│                        │      │                  ├ [13]: https://linux.oracle.com/errata/ELSA-2025-3531.html 
+│                        │      │                  ├ [14]: https://nvd.nist.gov/vuln/detail/CVE-2024-8176 
+│                        │      │                  ├ [15]: https://security-tracker.debian.org/tracker/CVE-2024
 │                        │      │                  │       -8176 
-│                        │      │                  ├ [15]: https://security.netapp.com/advisory/ntap-20250328-0
+│                        │      │                  ├ [16]: https://security.netapp.com/advisory/ntap-20250328-0
 │                        │      │                  │       009/ 
-│                        │      │                  ├ [16]: https://ubuntu.com/security/CVE-2024-8176 
-│                        │      │                  ├ [17]: https://ubuntu.com/security/notices/USN-7424-1 
-│                        │      │                  ╰ [18]: https://www.cve.org/CVERecord?id=CVE-2024-8176 
+│                        │      │                  ├ [17]: https://ubuntu.com/security/CVE-2024-8176 
+│                        │      │                  ├ [18]: https://ubuntu.com/security/notices/USN-7424-1 
+│                        │      │                  ╰ [19]: https://www.cve.org/CVERecord?id=CVE-2024-8176 
 │                        │      ├ PublishedDate   : 2025-03-14T09:15:14.157Z 
-│                        │      ╰ LastModifiedDate: 2025-04-02T15:15:57.987Z 
+│                        │      ╰ LastModifiedDate: 2025-04-09T08:15:14.71Z 
 │                        ├ [42] ╭ VulnerabilityID : CVE-2025-23022 
 │                        │      ├ PkgID           : libfreetype6@2.11.1+dfsg-1ubuntu0.3 
 │                        │      ├ PkgName         : libfreetype6 
@@ -4802,22 +4803,29 @@
 │                              ├ DataSource       ╭ ID  : govulndb 
 │                              │                  ├ Name: The Go Vulnerability Database 
 │                              │                  ╰ URL : https://pkg.go.dev/vuln/ 
-│                              ├ Title           : The net/http package improperly accepts a bare LF as a line
-│                              │                   terminator ... 
+│                              ├ Title           : net/http: Request smuggling due to acceptance of invalid
+│                              │                   chunked data in net/http 
 │                              ├ Description     : The net/http package improperly accepts a bare LF as a line
 │                              │                   terminator in chunked data chunk-size lines. This can permit
 │                              │                    request smuggling if a net/http server is used in
 │                              │                   conjunction with a server that incorrectly accepts a bare LF
 │                              │                    as part of a chunk-ext. 
-│                              ├ Severity        : UNKNOWN 
+│                              ├ Severity        : MEDIUM 
+│                              ├ VendorSeverity   ─ redhat: 2 
+│                              ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:L/I:L
+│                              │                           │           /A:N 
+│                              │                           ╰ V3Score : 5.4 
 │                              ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/04/04/4 
-│                              │                  ├ [1]: https://go.dev/cl/652998 
-│                              │                  ├ [2]: https://go.dev/issue/71988 
-│                              │                  ├ [3]: https://groups.google.com/g/golang-announce/c/Y2uBTVKj
+│                              │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-22871 
+│                              │                  ├ [2]: https://go.dev/cl/652998 
+│                              │                  ├ [3]: https://go.dev/issue/71988 
+│                              │                  ├ [4]: https://groups.google.com/g/golang-announce/c/Y2uBTVKj
 │                              │                  │      BQk 
-│                              │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2025-3563 
+│                              │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-22871 
+│                              │                  ├ [6]: https://pkg.go.dev/vuln/GO-2025-3563 
+│                              │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-22871 
 │                              ├ PublishedDate   : 2025-04-08T20:15:20.183Z 
-│                              ╰ LastModifiedDate: 2025-04-08T21:15:48.173Z 
+│                              ╰ LastModifiedDate: 2025-04-09T20:02:41.86Z 
 ├ [4]  ╭ Target         : tmp/tmp.rYlCZdukWB/krew-linux_amd64 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : gobinary 
@@ -4991,22 +4999,29 @@
 │                              ├ DataSource       ╭ ID  : govulndb 
 │                              │                  ├ Name: The Go Vulnerability Database 
 │                              │                  ╰ URL : https://pkg.go.dev/vuln/ 
-│                              ├ Title           : The net/http package improperly accepts a bare LF as a line
-│                              │                   terminator ... 
+│                              ├ Title           : net/http: Request smuggling due to acceptance of invalid
+│                              │                   chunked data in net/http 
 │                              ├ Description     : The net/http package improperly accepts a bare LF as a line
 │                              │                   terminator in chunked data chunk-size lines. This can permit
 │                              │                    request smuggling if a net/http server is used in
 │                              │                   conjunction with a server that incorrectly accepts a bare LF
 │                              │                    as part of a chunk-ext. 
-│                              ├ Severity        : UNKNOWN 
+│                              ├ Severity        : MEDIUM 
+│                              ├ VendorSeverity   ─ redhat: 2 
+│                              ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:L/I:L
+│                              │                           │           /A:N 
+│                              │                           ╰ V3Score : 5.4 
 │                              ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/04/04/4 
-│                              │                  ├ [1]: https://go.dev/cl/652998 
-│                              │                  ├ [2]: https://go.dev/issue/71988 
-│                              │                  ├ [3]: https://groups.google.com/g/golang-announce/c/Y2uBTVKj
+│                              │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-22871 
+│                              │                  ├ [2]: https://go.dev/cl/652998 
+│                              │                  ├ [3]: https://go.dev/issue/71988 
+│                              │                  ├ [4]: https://groups.google.com/g/golang-announce/c/Y2uBTVKj
 │                              │                  │      BQk 
-│                              │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2025-3563 
+│                              │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-22871 
+│                              │                  ├ [6]: https://pkg.go.dev/vuln/GO-2025-3563 
+│                              │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-22871 
 │                              ├ PublishedDate   : 2025-04-08T20:15:20.183Z 
-│                              ╰ LastModifiedDate: 2025-04-08T21:15:48.173Z 
+│                              ╰ LastModifiedDate: 2025-04-09T20:02:41.86Z 
 ├ [5]  ╭ Target         : usr/bin/docker-compose 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : gobinary 
@@ -5180,22 +5195,29 @@
 │                              ├ DataSource       ╭ ID  : govulndb 
 │                              │                  ├ Name: The Go Vulnerability Database 
 │                              │                  ╰ URL : https://pkg.go.dev/vuln/ 
-│                              ├ Title           : The net/http package improperly accepts a bare LF as a line
-│                              │                   terminator ... 
+│                              ├ Title           : net/http: Request smuggling due to acceptance of invalid
+│                              │                   chunked data in net/http 
 │                              ├ Description     : The net/http package improperly accepts a bare LF as a line
 │                              │                   terminator in chunked data chunk-size lines. This can permit
 │                              │                    request smuggling if a net/http server is used in
 │                              │                   conjunction with a server that incorrectly accepts a bare LF
 │                              │                    as part of a chunk-ext. 
-│                              ├ Severity        : UNKNOWN 
+│                              ├ Severity        : MEDIUM 
+│                              ├ VendorSeverity   ─ redhat: 2 
+│                              ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:L/I:L
+│                              │                           │           /A:N 
+│                              │                           ╰ V3Score : 5.4 
 │                              ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/04/04/4 
-│                              │                  ├ [1]: https://go.dev/cl/652998 
-│                              │                  ├ [2]: https://go.dev/issue/71988 
-│                              │                  ├ [3]: https://groups.google.com/g/golang-announce/c/Y2uBTVKj
+│                              │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-22871 
+│                              │                  ├ [2]: https://go.dev/cl/652998 
+│                              │                  ├ [3]: https://go.dev/issue/71988 
+│                              │                  ├ [4]: https://groups.google.com/g/golang-announce/c/Y2uBTVKj
 │                              │                  │      BQk 
-│                              │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2025-3563 
+│                              │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-22871 
+│                              │                  ├ [6]: https://pkg.go.dev/vuln/GO-2025-3563 
+│                              │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-22871 
 │                              ├ PublishedDate   : 2025-04-08T20:15:20.183Z 
-│                              ╰ LastModifiedDate: 2025-04-08T21:15:48.173Z 
+│                              ╰ LastModifiedDate: 2025-04-09T20:02:41.86Z 
 ├ [6]  ╭ Target         : usr/bin/helm 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : gobinary 
@@ -5277,22 +5299,29 @@
 │                              ├ DataSource       ╭ ID  : govulndb 
 │                              │                  ├ Name: The Go Vulnerability Database 
 │                              │                  ╰ URL : https://pkg.go.dev/vuln/ 
-│                              ├ Title           : The net/http package improperly accepts a bare LF as a line
-│                              │                   terminator ... 
+│                              ├ Title           : net/http: Request smuggling due to acceptance of invalid
+│                              │                   chunked data in net/http 
 │                              ├ Description     : The net/http package improperly accepts a bare LF as a line
 │                              │                   terminator in chunked data chunk-size lines. This can permit
 │                              │                    request smuggling if a net/http server is used in
 │                              │                   conjunction with a server that incorrectly accepts a bare LF
 │                              │                    as part of a chunk-ext. 
-│                              ├ Severity        : UNKNOWN 
+│                              ├ Severity        : MEDIUM 
+│                              ├ VendorSeverity   ─ redhat: 2 
+│                              ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:L/I:L
+│                              │                           │           /A:N 
+│                              │                           ╰ V3Score : 5.4 
 │                              ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/04/04/4 
-│                              │                  ├ [1]: https://go.dev/cl/652998 
-│                              │                  ├ [2]: https://go.dev/issue/71988 
-│                              │                  ├ [3]: https://groups.google.com/g/golang-announce/c/Y2uBTVKj
+│                              │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-22871 
+│                              │                  ├ [2]: https://go.dev/cl/652998 
+│                              │                  ├ [3]: https://go.dev/issue/71988 
+│                              │                  ├ [4]: https://groups.google.com/g/golang-announce/c/Y2uBTVKj
 │                              │                  │      BQk 
-│                              │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2025-3563 
+│                              │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-22871 
+│                              │                  ├ [6]: https://pkg.go.dev/vuln/GO-2025-3563 
+│                              │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-22871 
 │                              ├ PublishedDate   : 2025-04-08T20:15:20.183Z 
-│                              ╰ LastModifiedDate: 2025-04-08T21:15:48.173Z 
+│                              ╰ LastModifiedDate: 2025-04-09T20:02:41.86Z 
 ├ [7]  ╭ Target         : usr/bin/kubectl 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : gobinary 
@@ -5360,22 +5389,29 @@
 │                              ├ DataSource       ╭ ID  : govulndb 
 │                              │                  ├ Name: The Go Vulnerability Database 
 │                              │                  ╰ URL : https://pkg.go.dev/vuln/ 
-│                              ├ Title           : The net/http package improperly accepts a bare LF as a line
-│                              │                   terminator ... 
+│                              ├ Title           : net/http: Request smuggling due to acceptance of invalid
+│                              │                   chunked data in net/http 
 │                              ├ Description     : The net/http package improperly accepts a bare LF as a line
 │                              │                   terminator in chunked data chunk-size lines. This can permit
 │                              │                    request smuggling if a net/http server is used in
 │                              │                   conjunction with a server that incorrectly accepts a bare LF
 │                              │                    as part of a chunk-ext. 
-│                              ├ Severity        : UNKNOWN 
+│                              ├ Severity        : MEDIUM 
+│                              ├ VendorSeverity   ─ redhat: 2 
+│                              ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:L/I:L
+│                              │                           │           /A:N 
+│                              │                           ╰ V3Score : 5.4 
 │                              ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/04/04/4 
-│                              │                  ├ [1]: https://go.dev/cl/652998 
-│                              │                  ├ [2]: https://go.dev/issue/71988 
-│                              │                  ├ [3]: https://groups.google.com/g/golang-announce/c/Y2uBTVKj
+│                              │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-22871 
+│                              │                  ├ [2]: https://go.dev/cl/652998 
+│                              │                  ├ [3]: https://go.dev/issue/71988 
+│                              │                  ├ [4]: https://groups.google.com/g/golang-announce/c/Y2uBTVKj
 │                              │                  │      BQk 
-│                              │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2025-3563 
+│                              │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-22871 
+│                              │                  ├ [6]: https://pkg.go.dev/vuln/GO-2025-3563 
+│                              │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-22871 
 │                              ├ PublishedDate   : 2025-04-08T20:15:20.183Z 
-│                              ╰ LastModifiedDate: 2025-04-08T21:15:48.173Z 
+│                              ╰ LastModifiedDate: 2025-04-09T20:02:41.86Z 
 ├ [8]  ╭ Target         : usr/bin/mc 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : gobinary 
@@ -5453,22 +5489,29 @@
 │                              ├ DataSource       ╭ ID  : govulndb 
 │                              │                  ├ Name: The Go Vulnerability Database 
 │                              │                  ╰ URL : https://pkg.go.dev/vuln/ 
-│                              ├ Title           : The net/http package improperly accepts a bare LF as a line
-│                              │                   terminator ... 
+│                              ├ Title           : net/http: Request smuggling due to acceptance of invalid
+│                              │                   chunked data in net/http 
 │                              ├ Description     : The net/http package improperly accepts a bare LF as a line
 │                              │                   terminator in chunked data chunk-size lines. This can permit
 │                              │                    request smuggling if a net/http server is used in
 │                              │                   conjunction with a server that incorrectly accepts a bare LF
 │                              │                    as part of a chunk-ext. 
-│                              ├ Severity        : UNKNOWN 
+│                              ├ Severity        : MEDIUM 
+│                              ├ VendorSeverity   ─ redhat: 2 
+│                              ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:L/I:L
+│                              │                           │           /A:N 
+│                              │                           ╰ V3Score : 5.4 
 │                              ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/04/04/4 
-│                              │                  ├ [1]: https://go.dev/cl/652998 
-│                              │                  ├ [2]: https://go.dev/issue/71988 
-│                              │                  ├ [3]: https://groups.google.com/g/golang-announce/c/Y2uBTVKj
+│                              │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-22871 
+│                              │                  ├ [2]: https://go.dev/cl/652998 
+│                              │                  ├ [3]: https://go.dev/issue/71988 
+│                              │                  ├ [4]: https://groups.google.com/g/golang-announce/c/Y2uBTVKj
 │                              │                  │      BQk 
-│                              │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2025-3563 
+│                              │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-22871 
+│                              │                  ├ [6]: https://pkg.go.dev/vuln/GO-2025-3563 
+│                              │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-22871 
 │                              ├ PublishedDate   : 2025-04-08T20:15:20.183Z 
-│                              ╰ LastModifiedDate: 2025-04-08T21:15:48.173Z 
+│                              ╰ LastModifiedDate: 2025-04-09T20:02:41.86Z 
 ├ [9]  ╭ Target         : usr/local/bin/k3d 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : gobinary 
@@ -5834,22 +5877,29 @@
 │                              ├ DataSource       ╭ ID  : govulndb 
 │                              │                  ├ Name: The Go Vulnerability Database 
 │                              │                  ╰ URL : https://pkg.go.dev/vuln/ 
-│                              ├ Title           : The net/http package improperly accepts a bare LF as a line
-│                              │                   terminator ... 
+│                              ├ Title           : net/http: Request smuggling due to acceptance of invalid
+│                              │                   chunked data in net/http 
 │                              ├ Description     : The net/http package improperly accepts a bare LF as a line
 │                              │                   terminator in chunked data chunk-size lines. This can permit
 │                              │                    request smuggling if a net/http server is used in
 │                              │                   conjunction with a server that incorrectly accepts a bare LF
 │                              │                    as part of a chunk-ext. 
-│                              ├ Severity        : UNKNOWN 
+│                              ├ Severity        : MEDIUM 
+│                              ├ VendorSeverity   ─ redhat: 2 
+│                              ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:L/I:L
+│                              │                           │           /A:N 
+│                              │                           ╰ V3Score : 5.4 
 │                              ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/04/04/4 
-│                              │                  ├ [1]: https://go.dev/cl/652998 
-│                              │                  ├ [2]: https://go.dev/issue/71988 
-│                              │                  ├ [3]: https://groups.google.com/g/golang-announce/c/Y2uBTVKj
+│                              │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-22871 
+│                              │                  ├ [2]: https://go.dev/cl/652998 
+│                              │                  ├ [3]: https://go.dev/issue/71988 
+│                              │                  ├ [4]: https://groups.google.com/g/golang-announce/c/Y2uBTVKj
 │                              │                  │      BQk 
-│                              │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2025-3563 
+│                              │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-22871 
+│                              │                  ├ [6]: https://pkg.go.dev/vuln/GO-2025-3563 
+│                              │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-22871 
 │                              ├ PublishedDate   : 2025-04-08T20:15:20.183Z 
-│                              ╰ LastModifiedDate: 2025-04-08T21:15:48.173Z 
+│                              ╰ LastModifiedDate: 2025-04-09T20:02:41.86Z 
 ├ [10] ╭ Target : /etc/ssh/ssh_host_dsa_key 
 │      ├ Class  : secret 
 │      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
