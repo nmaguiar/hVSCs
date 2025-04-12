@@ -5131,7 +5131,69 @@
 │                        │     │                  ╰ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-0495 
 │                        │     ├ PublishedDate   : 2025-03-17T20:15:13.737Z 
 │                        │     ╰ LastModifiedDate: 2025-03-17T20:15:13.737Z 
-│                        ├ [2] ╭ VulnerabilityID : CVE-2025-22870 
+│                        ├ [2] ╭ VulnerabilityID : CVE-2025-30204 
+│                        │     ├ PkgID           : github.com/golang-jwt/jwt@v3.2.2+incompatible 
+│                        │     ├ PkgName         : github.com/golang-jwt/jwt 
+│                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/github.com/golang-jwt/jwt@v3.2.2%2Bincompa
+│                        │     │                  │       tible 
+│                        │     │                  ╰ UID : da80f31fad70a6ec 
+│                        │     ├ InstalledVersion: v3.2.2+incompatible 
+│                        │     ├ Status          : affected 
+│                        │     ├ Layer            ╭ Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4
+│                        │     │                  │         a8143db4b97d428659d0 
+│                        │     │                  ╰ DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8
+│                        │     │                            d67226cb3b9e50f918f0 
+│                        │     ├ SeveritySource  : ghsa 
+│                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-30204 
+│                        │     ├ DataSource       ╭ ID  : ghsa 
+│                        │     │                  ├ Name: GitHub Security Advisory Go 
+│                        │     │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+e
+│                        │     │                          cosystem%3Ago 
+│                        │     ├ Title           : golang-jwt/jwt: jwt-go allows excessive memory allocation
+│                        │     │                   during header parsing 
+│                        │     ├ Description     : golang-jwt is a Go implementation of JSON Web Tokens.
+│                        │     │                   Starting in version 3.2.0 and prior to versions 5.2.2 and
+│                        │     │                   4.5.2, the function parse.ParseUnverified splits (via a call
+│                        │     │                    to strings.Split) its argument (which is untrusted data) on
+│                        │     │                    periods. As a result, in the face of a malicious request
+│                        │     │                   whose Authorization header consists of Bearer  followed by
+│                        │     │                   many period characters, a call to that function incurs
+│                        │     │                   allocations to the tune of O(n) bytes (where n stands for
+│                        │     │                   the length of the function's argument), with a constant
+│                        │     │                   factor of about 16. This issue is fixed in 5.2.2 and 4.5.2. 
+│                        │     ├ Severity        : HIGH 
+│                        │     ├ CweIDs           ─ [0]: CWE-405 
+│                        │     ├ VendorSeverity   ╭ alma       : 3 
+│                        │     │                  ├ ghsa       : 3 
+│                        │     │                  ├ oracle-oval: 3 
+│                        │     │                  ╰ redhat     : 3 
+│                        │     ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
+│                        │     │                  │        │           /A:H 
+│                        │     │                  │        ╰ V3Score : 7.5 
+│                        │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
+│                        │     │                           │           /A:H 
+│                        │     │                           ╰ V3Score : 7.5 
+│                        │     ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:3344 
+│                        │     │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-30204 
+│                        │     │                  ├ [2] : https://bugzilla.redhat.com/2354195 
+│                        │     │                  ├ [3] : https://errata.almalinux.org/9/ALSA-2025-3344.html 
+│                        │     │                  ├ [4] : https://github.com/golang-jwt/jwt 
+│                        │     │                  ├ [5] : https://github.com/golang-jwt/jwt/commit/0951d184286d
+│                        │     │                  │       ece21f73c85673fd308786ffe9c3 
+│                        │     │                  ├ [6] : https://github.com/golang-jwt/jwt/commit/bf316c48137a
+│                        │     │                  │       1212f8d0af9288cc9ce8e59f1afb 
+│                        │     │                  ├ [7] : https://github.com/golang-jwt/jwt/security/advisories
+│                        │     │                  │       /GHSA-mh63-6h87-95cp 
+│                        │     │                  ├ [8] : https://linux.oracle.com/cve/CVE-2025-30204.html 
+│                        │     │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2025-3344.html 
+│                        │     │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2025-30204 
+│                        │     │                  ├ [11]: https://security.netapp.com/advisory/ntap-20250404-0002 
+│                        │     │                  ├ [12]: https://security.netapp.com/advisory/ntap-20250404-00
+│                        │     │                  │       02/ 
+│                        │     │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2025-30204 
+│                        │     ├ PublishedDate   : 2025-03-21T22:15:26.42Z 
+│                        │     ╰ LastModifiedDate: 2025-04-10T13:15:52.097Z 
+│                        ├ [3] ╭ VulnerabilityID : CVE-2025-22870 
 │                        │     ├ PkgID           : golang.org/x/net@v0.34.0 
 │                        │     ├ PkgName         : golang.org/x/net 
 │                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/golang.org/x/net@v0.34.0 
@@ -5179,7 +5241,7 @@
 │                        │     │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-22870 
 │                        │     ├ PublishedDate   : 2025-03-12T19:15:38.31Z 
 │                        │     ╰ LastModifiedDate: 2025-03-18T17:15:45.467Z 
-│                        ╰ [3] ╭ VulnerabilityID : CVE-2025-22871 
+│                        ╰ [4] ╭ VulnerabilityID : CVE-2025-22871 
 │                              ├ PkgID           : stdlib@v1.23.6 
 │                              ├ PkgName         : stdlib 
 │                              ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.23.6 
@@ -5435,17 +5497,16 @@
 │                        │     │                          cosystem%3Ago 
 │                        │     ├ Title           : golang-jwt/jwt: jwt-go allows excessive memory allocation
 │                        │     │                   during header parsing 
-│                        │     ├ Description     : golang-jwt is a Go implementation of JSON Web Tokens. Prior
-│                        │     │                   to 
-│                        │     │                   5.2.2 and 4.5.2, the function parse.ParseUnverified splits
-│                        │     │                   (via a call to strings.Split) its argument (which is
-│                        │     │                   untrusted data) on periods. As a result, in the face of a
-│                        │     │                   malicious request whose Authorization header consists of
-│                        │     │                   Bearer  followed by many period characters, a call to that
-│                        │     │                   function incurs allocations to the tune of O(n) bytes (where
-│                        │     │                    n stands for the length of the function's argument), with a
-│                        │     │                    constant factor of about 16. This issue is fixed in 5.2.2
-│                        │     │                   and 4.5.2. 
+│                        │     ├ Description     : golang-jwt is a Go implementation of JSON Web Tokens.
+│                        │     │                   Starting in version 3.2.0 and prior to versions 5.2.2 and
+│                        │     │                   4.5.2, the function parse.ParseUnverified splits (via a call
+│                        │     │                    to strings.Split) its argument (which is untrusted data) on
+│                        │     │                    periods. As a result, in the face of a malicious request
+│                        │     │                   whose Authorization header consists of Bearer  followed by
+│                        │     │                   many period characters, a call to that function incurs
+│                        │     │                   allocations to the tune of O(n) bytes (where n stands for
+│                        │     │                   the length of the function's argument), with a constant
+│                        │     │                   factor of about 16. This issue is fixed in 5.2.2 and 4.5.2. 
 │                        │     ├ Severity        : HIGH 
 │                        │     ├ CweIDs           ─ [0]: CWE-405 
 │                        │     ├ VendorSeverity   ╭ alma       : 3 
@@ -5465,14 +5526,19 @@
 │                        │     │                  ├ [4] : https://github.com/golang-jwt/jwt 
 │                        │     │                  ├ [5] : https://github.com/golang-jwt/jwt/commit/0951d184286d
 │                        │     │                  │       ece21f73c85673fd308786ffe9c3 
-│                        │     │                  ├ [6] : https://github.com/golang-jwt/jwt/security/advisories
+│                        │     │                  ├ [6] : https://github.com/golang-jwt/jwt/commit/bf316c48137a
+│                        │     │                  │       1212f8d0af9288cc9ce8e59f1afb 
+│                        │     │                  ├ [7] : https://github.com/golang-jwt/jwt/security/advisories
 │                        │     │                  │       /GHSA-mh63-6h87-95cp 
-│                        │     │                  ├ [7] : https://linux.oracle.com/cve/CVE-2025-30204.html 
-│                        │     │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2025-3344.html 
-│                        │     │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2025-30204 
-│                        │     │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2025-30204 
+│                        │     │                  ├ [8] : https://linux.oracle.com/cve/CVE-2025-30204.html 
+│                        │     │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2025-3344.html 
+│                        │     │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2025-30204 
+│                        │     │                  ├ [11]: https://security.netapp.com/advisory/ntap-20250404-0002 
+│                        │     │                  ├ [12]: https://security.netapp.com/advisory/ntap-20250404-00
+│                        │     │                  │       02/ 
+│                        │     │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2025-30204 
 │                        │     ├ PublishedDate   : 2025-03-21T22:15:26.42Z 
-│                        │     ╰ LastModifiedDate: 2025-03-21T22:15:26.42Z 
+│                        │     ╰ LastModifiedDate: 2025-04-10T13:15:52.097Z 
 │                        ╰ [1] ╭ VulnerabilityID : CVE-2025-22871 
 │                              ├ PkgID           : stdlib@v1.24.1 
 │                              ├ PkgName         : stdlib 
