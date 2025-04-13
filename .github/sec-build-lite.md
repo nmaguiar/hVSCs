@@ -1600,7 +1600,130 @@
 │                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                        │      ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                        │      ╰ LastModifiedDate: 2024-12-26T09:15:07.267Z 
-│                        ├ [33] ╭ VulnerabilityID : CVE-2024-41996 
+│                        ├ [33] ╭ VulnerabilityID : CVE-2025-32728 
+│                        │      ├ PkgID           : openssh-client@1:9.6p1-3ubuntu13.9 
+│                        │      ├ PkgName         : openssh-client 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssh-client@9.6p1-3ubuntu13.9?arch
+│                        │      │                  │       =amd64&distro=ubuntu-24.04&epoch=1 
+│                        │      │                  ╰ UID : 504ba1f8681daf67 
+│                        │      ├ InstalledVersion: 1:9.6p1-3ubuntu13.9 
+│                        │      ├ Status          : affected 
+│                        │      ├ Layer            ╭ Digest: sha256:53d5d6d7e268b8c7a9978cab39163523181e93c0e70
+│                        │      │                  │         545d03ac9f20fa9c99b3c 
+│                        │      │                  ╰ DiffID: sha256:a064068663db5734e83181018e99cb43628adbbffbe
+│                        │      │                            959fc93e47321495d6a67 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-32728 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : openssh: OpenSSH SSHD Agent Forwarding and X11 Forwarding 
+│                        │      ├ Description     : In sshd in OpenSSH before 10.0, the DisableForwarding
+│                        │      │                   directive does not adhere to the documentation stating that
+│                        │      │                    it disables X11 and agent forwarding. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ CweIDs           ─ [0]: CWE-440 
+│                        │      ├ VendorSeverity   ╭ redhat: 2 
+│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:N/I:
+│                        │      │                           │           L/A:N 
+│                        │      │                           ╰ V3Score : 4.3 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-32728 
+│                        │      │                  ├ [1]: https://ftp.openbsd.org/pub/OpenBSD/patches/7.6/commo
+│                        │      │                  │      n/013_ssh.patch.sig 
+│                        │      │                  ├ [2]: https://github.com/openssh/openssh-portable/commit/fc
+│                        │      │                  │      86875e6acb36401dfc1dfb6b628a9d1460f367 
+│                        │      │                  ├ [3]: https://lists.mindrot.org/pipermail/openssh-unix-dev/
+│                        │      │                  │      2025-April/041879.html 
+│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-32728 
+│                        │      │                  ├ [5]: https://www.cve.org/CVERecord?id=CVE-2025-32728 
+│                        │      │                  ├ [6]: https://www.openssh.com/txt/release-10.0 
+│                        │      │                  ╰ [7]: https://www.openssh.com/txt/release-7.4 
+│                        │      ├ PublishedDate   : 2025-04-10T02:15:30.873Z 
+│                        │      ╰ LastModifiedDate: 2025-04-11T15:40:10.277Z 
+│                        ├ [34] ╭ VulnerabilityID : CVE-2025-32728 
+│                        │      ├ PkgID           : openssh-server@1:9.6p1-3ubuntu13.9 
+│                        │      ├ PkgName         : openssh-server 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssh-server@9.6p1-3ubuntu13.9?arch
+│                        │      │                  │       =amd64&distro=ubuntu-24.04&epoch=1 
+│                        │      │                  ╰ UID : 38f45ecf11d13630 
+│                        │      ├ InstalledVersion: 1:9.6p1-3ubuntu13.9 
+│                        │      ├ Status          : affected 
+│                        │      ├ Layer            ╭ Digest: sha256:53d5d6d7e268b8c7a9978cab39163523181e93c0e70
+│                        │      │                  │         545d03ac9f20fa9c99b3c 
+│                        │      │                  ╰ DiffID: sha256:a064068663db5734e83181018e99cb43628adbbffbe
+│                        │      │                            959fc93e47321495d6a67 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-32728 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : openssh: OpenSSH SSHD Agent Forwarding and X11 Forwarding 
+│                        │      ├ Description     : In sshd in OpenSSH before 10.0, the DisableForwarding
+│                        │      │                   directive does not adhere to the documentation stating that
+│                        │      │                    it disables X11 and agent forwarding. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ CweIDs           ─ [0]: CWE-440 
+│                        │      ├ VendorSeverity   ╭ redhat: 2 
+│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:N/I:
+│                        │      │                           │           L/A:N 
+│                        │      │                           ╰ V3Score : 4.3 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-32728 
+│                        │      │                  ├ [1]: https://ftp.openbsd.org/pub/OpenBSD/patches/7.6/commo
+│                        │      │                  │      n/013_ssh.patch.sig 
+│                        │      │                  ├ [2]: https://github.com/openssh/openssh-portable/commit/fc
+│                        │      │                  │      86875e6acb36401dfc1dfb6b628a9d1460f367 
+│                        │      │                  ├ [3]: https://lists.mindrot.org/pipermail/openssh-unix-dev/
+│                        │      │                  │      2025-April/041879.html 
+│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-32728 
+│                        │      │                  ├ [5]: https://www.cve.org/CVERecord?id=CVE-2025-32728 
+│                        │      │                  ├ [6]: https://www.openssh.com/txt/release-10.0 
+│                        │      │                  ╰ [7]: https://www.openssh.com/txt/release-7.4 
+│                        │      ├ PublishedDate   : 2025-04-10T02:15:30.873Z 
+│                        │      ╰ LastModifiedDate: 2025-04-11T15:40:10.277Z 
+│                        ├ [35] ╭ VulnerabilityID : CVE-2025-32728 
+│                        │      ├ PkgID           : openssh-sftp-server@1:9.6p1-3ubuntu13.9 
+│                        │      ├ PkgName         : openssh-sftp-server 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssh-sftp-server@9.6p1-3ubuntu13.9
+│                        │      │                  │       ?arch=amd64&distro=ubuntu-24.04&epoch=1 
+│                        │      │                  ╰ UID : 651bcc3c580ae41e 
+│                        │      ├ InstalledVersion: 1:9.6p1-3ubuntu13.9 
+│                        │      ├ Status          : affected 
+│                        │      ├ Layer            ╭ Digest: sha256:53d5d6d7e268b8c7a9978cab39163523181e93c0e70
+│                        │      │                  │         545d03ac9f20fa9c99b3c 
+│                        │      │                  ╰ DiffID: sha256:a064068663db5734e83181018e99cb43628adbbffbe
+│                        │      │                            959fc93e47321495d6a67 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-32728 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : openssh: OpenSSH SSHD Agent Forwarding and X11 Forwarding 
+│                        │      ├ Description     : In sshd in OpenSSH before 10.0, the DisableForwarding
+│                        │      │                   directive does not adhere to the documentation stating that
+│                        │      │                    it disables X11 and agent forwarding. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ CweIDs           ─ [0]: CWE-440 
+│                        │      ├ VendorSeverity   ╭ redhat: 2 
+│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:N/I:
+│                        │      │                           │           L/A:N 
+│                        │      │                           ╰ V3Score : 4.3 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-32728 
+│                        │      │                  ├ [1]: https://ftp.openbsd.org/pub/OpenBSD/patches/7.6/commo
+│                        │      │                  │      n/013_ssh.patch.sig 
+│                        │      │                  ├ [2]: https://github.com/openssh/openssh-portable/commit/fc
+│                        │      │                  │      86875e6acb36401dfc1dfb6b628a9d1460f367 
+│                        │      │                  ├ [3]: https://lists.mindrot.org/pipermail/openssh-unix-dev/
+│                        │      │                  │      2025-April/041879.html 
+│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-32728 
+│                        │      │                  ├ [5]: https://www.cve.org/CVERecord?id=CVE-2025-32728 
+│                        │      │                  ├ [6]: https://www.openssh.com/txt/release-10.0 
+│                        │      │                  ╰ [7]: https://www.openssh.com/txt/release-7.4 
+│                        │      ├ PublishedDate   : 2025-04-10T02:15:30.873Z 
+│                        │      ╰ LastModifiedDate: 2025-04-11T15:40:10.277Z 
+│                        ├ [36] ╭ VulnerabilityID : CVE-2024-41996 
 │                        │      ├ PkgID           : openssl@3.0.13-0ubuntu3.5 
 │                        │      ├ PkgName         : openssl 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl@3.0.13-0ubuntu3.5?arch=amd64&
@@ -1650,7 +1773,7 @@
 │                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-41996 
 │                        │      ├ PublishedDate   : 2024-08-26T06:15:04.603Z 
 │                        │      ╰ LastModifiedDate: 2024-08-26T16:35:11.247Z 
-│                        ├ [34] ╭ VulnerabilityID : CVE-2024-56433 
+│                        ├ [37] ╭ VulnerabilityID : CVE-2024-56433 
 │                        │      ├ PkgID           : passwd@1:4.13+dfsg1-4ubuntu3.2 
 │                        │      ├ PkgName         : passwd 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/passwd@4.13%2Bdfsg1-4ubuntu3.2?arch=a
@@ -1697,7 +1820,7 @@
 │                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                        │      ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                        │      ╰ LastModifiedDate: 2024-12-26T09:15:07.267Z 
-│                        ├ [35] ╭ VulnerabilityID : CVE-2018-6952 
+│                        ├ [38] ╭ VulnerabilityID : CVE-2018-6952 
 │                        │      ├ PkgID           : patch@2.7.6-7build3 
 │                        │      ├ PkgName         : patch 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/patch@2.7.6-7build3?arch=amd64&distro
@@ -1747,7 +1870,7 @@
 │                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2018-6952 
 │                        │      ├ PublishedDate   : 2018-02-13T19:29:00.573Z 
 │                        │      ╰ LastModifiedDate: 2024-11-21T04:11:28.42Z 
-│                        ├ [36] ╭ VulnerabilityID : CVE-2021-45261 
+│                        ├ [39] ╭ VulnerabilityID : CVE-2021-45261 
 │                        │      ├ PkgID           : patch@2.7.6-7build3 
 │                        │      ├ PkgName         : patch 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/patch@2.7.6-7build3?arch=amd64&distro
@@ -1787,7 +1910,7 @@
 │                        │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2021-45261 
 │                        │      ├ PublishedDate   : 2021-12-22T18:15:08.1Z 
 │                        │      ╰ LastModifiedDate: 2024-11-21T06:32:02.633Z 
-│                        ├ [37] ╭ VulnerabilityID : CVE-2024-56433 
+│                        ├ [40] ╭ VulnerabilityID : CVE-2024-56433 
 │                        │      ├ PkgID           : uidmap@1:4.13+dfsg1-4ubuntu3.2 
 │                        │      ├ PkgName         : uidmap 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/uidmap@4.13%2Bdfsg1-4ubuntu3.2?arch=a
@@ -1834,7 +1957,7 @@
 │                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                        │      ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                        │      ╰ LastModifiedDate: 2024-12-26T09:15:07.267Z 
-│                        ╰ [38] ╭ VulnerabilityID : CVE-2021-31879 
+│                        ╰ [41] ╭ VulnerabilityID : CVE-2021-31879 
 │                               ├ PkgID           : wget@1.21.4-1ubuntu4.1 
 │                               ├ PkgName         : wget 
 │                               ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/wget@1.21.4-1ubuntu4.1?arch=amd64&dis
