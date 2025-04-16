@@ -422,6 +422,7 @@
     - CWE-116
     - CWE-150
     VendorSeverity:
+      bitnami: 3
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -461,6 +462,7 @@
     - CWE-116
     - CWE-150
     VendorSeverity:
+      bitnami: 3
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -1839,6 +1841,7 @@
       alma: 2
       cbl-mariner: 3
       oracle-oval: 2
+      photon: 3
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -1868,48 +1871,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-8176
     PublishedDate: '2025-03-14T09:15:14.157Z'
     LastModifiedDate: '2025-04-09T08:15:14.71Z'
-  - VulnerabilityID: CVE-2025-23022
-    PkgID: libfreetype6@2.11.1+dfsg-1ubuntu0.3
-    PkgName: libfreetype6
-    PkgIdentifier:
-      PURL: pkg:deb/ubuntu/libfreetype6@2.11.1%2Bdfsg-1ubuntu0.3?arch=amd64&distro=ubuntu-22.04
-      UID: 93a859597b9a248
-    InstalledVersion: 2.11.1+dfsg-1ubuntu0.3
-    Status: affected
-    Layer:
-      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
-      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-23022
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'freetype: signed integer overflow in cf2_doFlex'
-    Description: FreeType 2.8.1 has a signed integer overflow in cf2_doFlex in cff/cf2intrp.c.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-190
-    VendorSeverity:
-      amazon: 3
-      nvd: 2
-      redhat: 2
-      ubuntu: 2
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 6.2
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
-        V3Score: 5.5
-    References:
-    - https://access.redhat.com/security/cve/CVE-2025-23022
-    - https://gitlab.freedesktop.org/freetype/freetype/-/issues/1312
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-23022
-    - https://security-tracker.debian.org/tracker/CVE-2025-23022
-    - https://www.cve.org/CVERecord?id=CVE-2025-23022
-    PublishedDate: '2025-01-10T15:15:16.967Z'
-    LastModifiedDate: '2025-01-16T21:12:15.537Z'
   - VulnerabilityID: CVE-2022-27943
     PkgID: libgcc-s1@12.3.0-1ubuntu1~22.04
     PkgName: libgcc-s1
@@ -2643,6 +2604,43 @@
     - https://www.cve.org/CVERecord?id=CVE-2017-11164
     PublishedDate: '2017-07-11T03:29:00.277Z'
     LastModifiedDate: '2024-11-21T03:07:14.377Z'
+  - VulnerabilityID: CVE-2024-56406
+    PkgID: libperl5.34@5.34.0-3ubuntu1.3
+    PkgName: libperl5.34
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libperl5.34@5.34.0-3ubuntu1.3?arch=amd64&distro=ubuntu-22.04
+      UID: ba2bcc76202f13a0
+    InstalledVersion: 5.34.0-3ubuntu1.3
+    FixedVersion: 5.34.0-3ubuntu1.4
+    Status: fixed
+    Layer:
+      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
+      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-56406
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: A heap buffer overflow vulnerability was discovered in Perl.   Release ...
+    Description: "A heap buffer overflow vulnerability was discovered in Perl. \n\nRelease branches 5.34, 5.36, 5.38 and 5.40 are affected, including development versions from 5.33.1 through 5.41.10.\n\nWhen there are non-ASCII bytes in the left-hand-side of the `tr` operator, `S_do_trans_invmap` can overflow the destination pointer `d`.\n\n\_ \_$ perl -e '$_ = \"\\x{FF}\" x 1000000; tr/\\xFF/\\x{100}/;' \n\_ \_Segmentation fault (core dumped)\n\nIt is believed that this vulnerability can enable Denial of Service and possibly Code Execution attacks on platforms that lack sufficient defenses."
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-122
+    - CWE-787
+    VendorSeverity:
+      ubuntu: 2
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/04/13/3
+    - http://www.openwall.com/lists/oss-security/2025/04/13/4
+    - http://www.openwall.com/lists/oss-security/2025/04/13/5
+    - https://github.com/Perl/perl5/commit/87f42aa0e0096e9a346c9672aa3a0bd3bef8c1dd.patch
+    - https://metacpan.org/release/SHAY/perl-5.38.4/changes
+    - https://metacpan.org/release/SHAY/perl-5.40.2/changes
+    - https://ubuntu.com/security/notices/USN-7434-1
+    - https://www.cve.org/CVERecord?id=CVE-2024-56406
+    PublishedDate: '2025-04-13T14:15:14.527Z'
+    LastModifiedDate: '2025-04-13T22:15:12.767Z'
   - VulnerabilityID: CVE-2024-41996
     PkgID: libssl3@3.0.2-0ubuntu1.19
     PkgName: libssl3
@@ -3701,6 +3699,117 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-56433
     PublishedDate: '2024-12-26T09:15:07.267Z'
     LastModifiedDate: '2024-12-26T09:15:07.267Z'
+  - VulnerabilityID: CVE-2024-56406
+    PkgID: perl@5.34.0-3ubuntu1.3
+    PkgName: perl
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/perl@5.34.0-3ubuntu1.3?arch=amd64&distro=ubuntu-22.04
+      UID: 76ff406985888589
+    InstalledVersion: 5.34.0-3ubuntu1.3
+    FixedVersion: 5.34.0-3ubuntu1.4
+    Status: fixed
+    Layer:
+      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
+      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-56406
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: A heap buffer overflow vulnerability was discovered in Perl.   Release ...
+    Description: "A heap buffer overflow vulnerability was discovered in Perl. \n\nRelease branches 5.34, 5.36, 5.38 and 5.40 are affected, including development versions from 5.33.1 through 5.41.10.\n\nWhen there are non-ASCII bytes in the left-hand-side of the `tr` operator, `S_do_trans_invmap` can overflow the destination pointer `d`.\n\n\_ \_$ perl -e '$_ = \"\\x{FF}\" x 1000000; tr/\\xFF/\\x{100}/;' \n\_ \_Segmentation fault (core dumped)\n\nIt is believed that this vulnerability can enable Denial of Service and possibly Code Execution attacks on platforms that lack sufficient defenses."
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-122
+    - CWE-787
+    VendorSeverity:
+      ubuntu: 2
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/04/13/3
+    - http://www.openwall.com/lists/oss-security/2025/04/13/4
+    - http://www.openwall.com/lists/oss-security/2025/04/13/5
+    - https://github.com/Perl/perl5/commit/87f42aa0e0096e9a346c9672aa3a0bd3bef8c1dd.patch
+    - https://metacpan.org/release/SHAY/perl-5.38.4/changes
+    - https://metacpan.org/release/SHAY/perl-5.40.2/changes
+    - https://ubuntu.com/security/notices/USN-7434-1
+    - https://www.cve.org/CVERecord?id=CVE-2024-56406
+    PublishedDate: '2025-04-13T14:15:14.527Z'
+    LastModifiedDate: '2025-04-13T22:15:12.767Z'
+  - VulnerabilityID: CVE-2024-56406
+    PkgID: perl-base@5.34.0-3ubuntu1.3
+    PkgName: perl-base
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/perl-base@5.34.0-3ubuntu1.3?arch=amd64&distro=ubuntu-22.04
+      UID: 432ad0ab5c71d599
+    InstalledVersion: 5.34.0-3ubuntu1.3
+    FixedVersion: 5.34.0-3ubuntu1.4
+    Status: fixed
+    Layer:
+      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
+      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-56406
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: A heap buffer overflow vulnerability was discovered in Perl.   Release ...
+    Description: "A heap buffer overflow vulnerability was discovered in Perl. \n\nRelease branches 5.34, 5.36, 5.38 and 5.40 are affected, including development versions from 5.33.1 through 5.41.10.\n\nWhen there are non-ASCII bytes in the left-hand-side of the `tr` operator, `S_do_trans_invmap` can overflow the destination pointer `d`.\n\n\_ \_$ perl -e '$_ = \"\\x{FF}\" x 1000000; tr/\\xFF/\\x{100}/;' \n\_ \_Segmentation fault (core dumped)\n\nIt is believed that this vulnerability can enable Denial of Service and possibly Code Execution attacks on platforms that lack sufficient defenses."
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-122
+    - CWE-787
+    VendorSeverity:
+      ubuntu: 2
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/04/13/3
+    - http://www.openwall.com/lists/oss-security/2025/04/13/4
+    - http://www.openwall.com/lists/oss-security/2025/04/13/5
+    - https://github.com/Perl/perl5/commit/87f42aa0e0096e9a346c9672aa3a0bd3bef8c1dd.patch
+    - https://metacpan.org/release/SHAY/perl-5.38.4/changes
+    - https://metacpan.org/release/SHAY/perl-5.40.2/changes
+    - https://ubuntu.com/security/notices/USN-7434-1
+    - https://www.cve.org/CVERecord?id=CVE-2024-56406
+    PublishedDate: '2025-04-13T14:15:14.527Z'
+    LastModifiedDate: '2025-04-13T22:15:12.767Z'
+  - VulnerabilityID: CVE-2024-56406
+    PkgID: perl-modules-5.34@5.34.0-3ubuntu1.3
+    PkgName: perl-modules-5.34
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/perl-modules-5.34@5.34.0-3ubuntu1.3?arch=all&distro=ubuntu-22.04
+      UID: 6be796a23b485ee0
+    InstalledVersion: 5.34.0-3ubuntu1.3
+    FixedVersion: 5.34.0-3ubuntu1.4
+    Status: fixed
+    Layer:
+      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
+      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-56406
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: A heap buffer overflow vulnerability was discovered in Perl.   Release ...
+    Description: "A heap buffer overflow vulnerability was discovered in Perl. \n\nRelease branches 5.34, 5.36, 5.38 and 5.40 are affected, including development versions from 5.33.1 through 5.41.10.\n\nWhen there are non-ASCII bytes in the left-hand-side of the `tr` operator, `S_do_trans_invmap` can overflow the destination pointer `d`.\n\n\_ \_$ perl -e '$_ = \"\\x{FF}\" x 1000000; tr/\\xFF/\\x{100}/;' \n\_ \_Segmentation fault (core dumped)\n\nIt is believed that this vulnerability can enable Denial of Service and possibly Code Execution attacks on platforms that lack sufficient defenses."
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-122
+    - CWE-787
+    VendorSeverity:
+      ubuntu: 2
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/04/13/3
+    - http://www.openwall.com/lists/oss-security/2025/04/13/4
+    - http://www.openwall.com/lists/oss-security/2025/04/13/5
+    - https://github.com/Perl/perl5/commit/87f42aa0e0096e9a346c9672aa3a0bd3bef8c1dd.patch
+    - https://metacpan.org/release/SHAY/perl-5.38.4/changes
+    - https://metacpan.org/release/SHAY/perl-5.40.2/changes
+    - https://ubuntu.com/security/notices/USN-7434-1
+    - https://www.cve.org/CVERecord?id=CVE-2024-56406
+    PublishedDate: '2025-04-13T14:15:14.527Z'
+    LastModifiedDate: '2025-04-13T22:15:12.767Z'
   - VulnerabilityID: CVE-2023-7008
     PkgID: systemd@249.11-0ubuntu3.12
     PkgName: systemd
@@ -3983,6 +4092,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
+      amazon: 2
       azure: 2
       cbl-mariner: 2
       redhat: 1
@@ -4026,6 +4136,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
+      amazon: 2
       azure: 2
       cbl-mariner: 2
       redhat: 1
@@ -4069,6 +4180,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
+      amazon: 2
       azure: 2
       cbl-mariner: 2
       redhat: 1
@@ -4159,6 +4271,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
+      amazon: 2
       azure: 2
       cbl-mariner: 2
       redhat: 1
@@ -4392,6 +4505,7 @@
     Description: The net/http package improperly accepts a bare LF as a line terminator in chunked data chunk-size lines. This can permit request smuggling if a net/http server is used in conjunction with a server that incorrectly accepts a bare LF as part of a chunk-ext.
     Severity: MEDIUM
     VendorSeverity:
+      amazon: 3
       redhat: 2
     CVSS:
       redhat:
@@ -4563,6 +4677,7 @@
     Description: The net/http package improperly accepts a bare LF as a line terminator in chunked data chunk-size lines. This can permit request smuggling if a net/http server is used in conjunction with a server that incorrectly accepts a bare LF as part of a chunk-ext.
     Severity: MEDIUM
     VendorSeverity:
+      amazon: 3
       redhat: 2
     CVSS:
       redhat:
@@ -4715,6 +4830,59 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-30204
     PublishedDate: '2025-03-21T22:15:26.42Z'
     LastModifiedDate: '2025-04-10T13:15:52.097Z'
+  - VulnerabilityID: CVE-2025-22869
+    PkgID: golang.org/x/crypto@v0.32.0
+    PkgName: golang.org/x/crypto
+    PkgIdentifier:
+      PURL: pkg:golang/golang.org/x/crypto@v0.32.0
+      UID: 72dfa71bcb06cd10
+    InstalledVersion: v0.32.0
+    FixedVersion: 0.35.0
+    Status: fixed
+    Layer:
+      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
+      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
+    SeveritySource: ghsa
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-22869
+    DataSource:
+      ID: ghsa
+      Name: GitHub Security Advisory Go
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
+    Title: 'golang.org/x/crypto/ssh: Denial of Service in the Key Exchange of golang.org/x/crypto/ssh'
+    Description: SSH servers which implement file transfer protocols are vulnerable to a denial of service attack from clients which complete the key exchange slowly, or not at all, causing pending content to be read into memory, but never transmitted.
+    Severity: HIGH
+    CweIDs:
+    - CWE-770
+    VendorSeverity:
+      amazon: 3
+      azure: 3
+      cbl-mariner: 3
+      ghsa: 3
+      oracle-oval: 3
+      redhat: 3
+    CVSS:
+      ghsa:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-22869
+    - https://github.com/golang/crypto
+    - https://github.com/golang/crypto/commit/7292932d45d55c7199324ab0027cc86e8198aa22
+    - https://go-review.googlesource.com/c/crypto/+/652135
+    - https://go.dev/cl/652135
+    - https://go.dev/issue/71931
+    - https://linux.oracle.com/cve/CVE-2025-22869.html
+    - https://linux.oracle.com/errata/ELSA-2025-3833.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-22869
+    - https://pkg.go.dev/vuln/GO-2025-3487
+    - https://security.netapp.com/advisory/ntap-20250411-0010
+    - https://security.netapp.com/advisory/ntap-20250411-0010/
+    - https://www.cve.org/CVERecord?id=CVE-2025-22869
+    PublishedDate: '2025-02-26T08:14:24.997Z'
+    LastModifiedDate: '2025-04-11T22:15:29.837Z'
   - VulnerabilityID: CVE-2025-22870
     PkgID: golang.org/x/net@v0.34.0
     PkgName: golang.org/x/net
@@ -4783,6 +4951,7 @@
     Description: The net/http package improperly accepts a bare LF as a line terminator in chunked data chunk-size lines. This can permit request smuggling if a net/http server is used in conjunction with a server that incorrectly accepts a bare LF as part of a chunk-ext.
     Severity: MEDIUM
     VendorSeverity:
+      amazon: 3
       redhat: 2
     CVSS:
       redhat:
@@ -4873,6 +5042,7 @@
     Description: The net/http package improperly accepts a bare LF as a line terminator in chunked data chunk-size lines. This can permit request smuggling if a net/http server is used in conjunction with a server that incorrectly accepts a bare LF as part of a chunk-ext.
     Severity: MEDIUM
     VendorSeverity:
+      amazon: 3
       redhat: 2
     CVSS:
       redhat:
@@ -4961,6 +5131,7 @@
     Description: The net/http package improperly accepts a bare LF as a line terminator in chunked data chunk-size lines. This can permit request smuggling if a net/http server is used in conjunction with a server that incorrectly accepts a bare LF as part of a chunk-ext.
     Severity: MEDIUM
     VendorSeverity:
+      amazon: 3
       redhat: 2
     CVSS:
       redhat:
@@ -5054,6 +5225,7 @@
     Description: The net/http package improperly accepts a bare LF as a line terminator in chunked data chunk-size lines. This can permit request smuggling if a net/http server is used in conjunction with a server that incorrectly accepts a bare LF as part of a chunk-ext.
     Severity: MEDIUM
     VendorSeverity:
+      amazon: 3
       redhat: 2
     CVSS:
       redhat:
@@ -5244,6 +5416,59 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-45337
     PublishedDate: '2024-12-12T02:02:07.97Z'
     LastModifiedDate: '2025-02-18T21:15:22.187Z'
+  - VulnerabilityID: CVE-2025-22869
+    PkgID: golang.org/x/crypto@v0.24.0
+    PkgName: golang.org/x/crypto
+    PkgIdentifier:
+      PURL: pkg:golang/golang.org/x/crypto@v0.24.0
+      UID: 51665884b15027a5
+    InstalledVersion: v0.24.0
+    FixedVersion: 0.35.0
+    Status: fixed
+    Layer:
+      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
+      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
+    SeveritySource: ghsa
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-22869
+    DataSource:
+      ID: ghsa
+      Name: GitHub Security Advisory Go
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
+    Title: 'golang.org/x/crypto/ssh: Denial of Service in the Key Exchange of golang.org/x/crypto/ssh'
+    Description: SSH servers which implement file transfer protocols are vulnerable to a denial of service attack from clients which complete the key exchange slowly, or not at all, causing pending content to be read into memory, but never transmitted.
+    Severity: HIGH
+    CweIDs:
+    - CWE-770
+    VendorSeverity:
+      amazon: 3
+      azure: 3
+      cbl-mariner: 3
+      ghsa: 3
+      oracle-oval: 3
+      redhat: 3
+    CVSS:
+      ghsa:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-22869
+    - https://github.com/golang/crypto
+    - https://github.com/golang/crypto/commit/7292932d45d55c7199324ab0027cc86e8198aa22
+    - https://go-review.googlesource.com/c/crypto/+/652135
+    - https://go.dev/cl/652135
+    - https://go.dev/issue/71931
+    - https://linux.oracle.com/cve/CVE-2025-22869.html
+    - https://linux.oracle.com/errata/ELSA-2025-3833.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-22869
+    - https://pkg.go.dev/vuln/GO-2025-3487
+    - https://security.netapp.com/advisory/ntap-20250411-0010
+    - https://security.netapp.com/advisory/ntap-20250411-0010/
+    - https://www.cve.org/CVERecord?id=CVE-2025-22869
+    PublishedDate: '2025-02-26T08:14:24.997Z'
+    LastModifiedDate: '2025-04-11T22:15:29.837Z'
   - VulnerabilityID: CVE-2025-22870
     PkgID: golang.org/x/net@v0.26.0
     PkgName: golang.org/x/net
@@ -5347,6 +5572,7 @@
     Description: The net/http package improperly accepts a bare LF as a line terminator in chunked data chunk-size lines. This can permit request smuggling if a net/http server is used in conjunction with a server that incorrectly accepts a bare LF as part of a chunk-ext.
     Severity: MEDIUM
     VendorSeverity:
+      amazon: 3
       redhat: 2
     CVSS:
       redhat:
