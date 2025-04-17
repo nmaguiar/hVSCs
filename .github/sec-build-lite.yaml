@@ -1401,7 +1401,7 @@
     - https://ubuntu.com/security/notices/USN-7434-1
     - https://www.cve.org/CVERecord?id=CVE-2024-56406
     PublishedDate: '2025-04-13T14:15:14.527Z'
-    LastModifiedDate: '2025-04-13T22:15:12.767Z'
+    LastModifiedDate: '2025-04-15T18:39:27.967Z'
   - VulnerabilityID: CVE-2025-29087
     PkgID: libsqlite3-0@3.45.1-1ubuntu2.1
     PkgName: libsqlite3-0
@@ -1425,13 +1425,13 @@
     CweIDs:
     - CWE-190
     VendorSeverity:
-      bitnami: 4
+      bitnami: 1
       redhat: 2
       ubuntu: 2
     CVSS:
       bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
-        V3Score: 9.8
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:N/I:N/A:L
+        V3Score: 3.2
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.5
@@ -1443,7 +1443,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-29087
     - https://www.sqlite.org/cves.html
     PublishedDate: '2025-04-07T20:15:20.253Z'
-    LastModifiedDate: '2025-04-14T14:15:23.813Z'
+    LastModifiedDate: '2025-04-15T16:16:06.233Z'
   - VulnerabilityID: CVE-2024-41996
     PkgID: libssl3t64@3.0.13-0ubuntu3.5
     PkgName: libssl3t64
@@ -1892,7 +1892,7 @@
     - https://ubuntu.com/security/notices/USN-7434-1
     - https://www.cve.org/CVERecord?id=CVE-2024-56406
     PublishedDate: '2025-04-13T14:15:14.527Z'
-    LastModifiedDate: '2025-04-13T22:15:12.767Z'
+    LastModifiedDate: '2025-04-15T18:39:27.967Z'
   - VulnerabilityID: CVE-2024-56406
     PkgID: perl-base@5.38.2-3.2build2.1
     PkgName: perl-base
@@ -1929,7 +1929,7 @@
     - https://ubuntu.com/security/notices/USN-7434-1
     - https://www.cve.org/CVERecord?id=CVE-2024-56406
     PublishedDate: '2025-04-13T14:15:14.527Z'
-    LastModifiedDate: '2025-04-13T22:15:12.767Z'
+    LastModifiedDate: '2025-04-15T18:39:27.967Z'
   - VulnerabilityID: CVE-2024-56406
     PkgID: perl-modules-5.38@5.38.2-3.2build2.1
     PkgName: perl-modules-5.38
@@ -1966,7 +1966,7 @@
     - https://ubuntu.com/security/notices/USN-7434-1
     - https://www.cve.org/CVERecord?id=CVE-2024-56406
     PublishedDate: '2025-04-13T14:15:14.527Z'
-    LastModifiedDate: '2025-04-13T22:15:12.767Z'
+    LastModifiedDate: '2025-04-15T18:39:27.967Z'
   - VulnerabilityID: CVE-2024-56433
     PkgID: uidmap@1:4.13+dfsg1-4ubuntu3.2
     PkgName: uidmap
@@ -2427,6 +2427,7 @@
     CweIDs:
     - CWE-770
     VendorSeverity:
+      alma: 3
       amazon: 3
       azure: 3
       cbl-mariner: 3
@@ -2441,7 +2442,10 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
+    - https://access.redhat.com/errata/RHSA-2025:3833
     - https://access.redhat.com/security/cve/CVE-2025-22869
+    - https://bugzilla.redhat.com/2348367
+    - https://errata.almalinux.org/9/ALSA-2025-3833.html
     - https://github.com/golang/crypto
     - https://github.com/golang/crypto/commit/7292932d45d55c7199324ab0027cc86e8198aa22
     - https://go-review.googlesource.com/c/crypto/+/652135
@@ -2806,6 +2810,7 @@
     - https://security.netapp.com/advisory/ntap-20240802-0001/
     - https://ubuntu.com/security/notices/USN-7161-1
     - https://ubuntu.com/security/notices/USN-7161-2
+    - https://ubuntu.com/security/notices/USN-7161-3
     - https://www.cve.org/CVERecord?id=CVE-2024-41110
     - https://www.docker.com/blog/docker-security-advisory-docker-engine-authz-plugin
     - https://www.docker.com/blog/docker-security-advisory-docker-engine-authz-plugin/
@@ -2884,6 +2889,7 @@
     CweIDs:
     - CWE-770
     VendorSeverity:
+      alma: 3
       amazon: 3
       azure: 3
       cbl-mariner: 3
@@ -2898,7 +2904,10 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
+    - https://access.redhat.com/errata/RHSA-2025:3833
     - https://access.redhat.com/security/cve/CVE-2025-22869
+    - https://bugzilla.redhat.com/2348367
+    - https://errata.almalinux.org/9/ALSA-2025-3833.html
     - https://github.com/golang/crypto
     - https://github.com/golang/crypto/commit/7292932d45d55c7199324ab0027cc86e8198aa22
     - https://go-review.googlesource.com/c/crypto/+/652135
