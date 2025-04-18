@@ -149,7 +149,7 @@
 │                        │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                        │      │                  │       023-34969 
 │                        │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2023-4569.html 
-│                        │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4569 
+│                        │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4498 
 │                        │      │                  ├ [7] : https://gitlab.freedesktop.org/dbus/dbus/-/issues/457 
 │                        │      │                  ├ [8] : https://linux.oracle.com/cve/CVE-2023-34969.html 
 │                        │      │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2023-4569.html 
@@ -217,7 +217,7 @@
 │                        │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                        │      │                  │       023-34969 
 │                        │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2023-4569.html 
-│                        │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4569 
+│                        │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4498 
 │                        │      │                  ├ [7] : https://gitlab.freedesktop.org/dbus/dbus/-/issues/457 
 │                        │      │                  ├ [8] : https://linux.oracle.com/cve/CVE-2023-34969.html 
 │                        │      │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2023-4569.html 
@@ -1760,7 +1760,7 @@
 │                        │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                        │      │                  │       023-34969 
 │                        │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2023-4569.html 
-│                        │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4569 
+│                        │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4498 
 │                        │      │                  ├ [7] : https://gitlab.freedesktop.org/dbus/dbus/-/issues/457 
 │                        │      │                  ├ [8] : https://linux.oracle.com/cve/CVE-2023-34969.html 
 │                        │      │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2023-4569.html 
@@ -4996,7 +4996,7 @@
 │                        │     │                  ├ [15]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                        │     │                  │       24-24783 
 │                        │     │                  ├ [16]: https://errata.almalinux.org/9/ALSA-2024-2724.html 
-│                        │     │                  ├ [17]: https://errata.rockylinux.org/RLSA-2024:2724 
+│                        │     │                  ├ [17]: https://errata.rockylinux.org/RLSA-2024:3346 
 │                        │     │                  ├ [18]: https://go.dev/cl/576155 
 │                        │     │                  ├ [19]: https://go.dev/issue/65051 
 │                        │     │                  ├ [20]: https://groups.google.com/g/golang-announce/c/YgW0sx8
@@ -5073,7 +5073,44 @@
 │                        │     │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-22870 
 │                        │     ├ PublishedDate   : 2025-03-12T19:15:38.31Z 
 │                        │     ╰ LastModifiedDate: 2025-03-18T17:15:45.467Z 
-│                        ╰ [2] ╭ VulnerabilityID : CVE-2025-22871 
+│                        ├ [2] ╭ VulnerabilityID : CVE-2025-22872 
+│                        │     ├ PkgID           : golang.org/x/net@v0.19.0 
+│                        │     ├ PkgName         : golang.org/x/net 
+│                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/golang.org/x/net@v0.19.0 
+│                        │     │                  ╰ UID : 9a23eab608a31534 
+│                        │     ├ InstalledVersion: v0.19.0 
+│                        │     ├ FixedVersion    : 0.38.0 
+│                        │     ├ Status          : fixed 
+│                        │     ├ Layer            ╭ Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4
+│                        │     │                  │         a8143db4b97d428659d0 
+│                        │     │                  ╰ DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8
+│                        │     │                            d67226cb3b9e50f918f0 
+│                        │     ├ SeveritySource  : ghsa 
+│                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-22872 
+│                        │     ├ DataSource       ╭ ID  : ghsa 
+│                        │     │                  ├ Name: GitHub Security Advisory Go 
+│                        │     │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+e
+│                        │     │                          cosystem%3Ago 
+│                        │     ├ Title           : golang.org/x/net vulnerable to Cross-site Scripting 
+│                        │     ├ Description     : The tokenizer incorrectly interprets tags with unquoted
+│                        │     │                   attribute values that end with a solidus character (/) as
+│                        │     │                   self-closing. When directly using Tokenizer, this can result
+│                        │     │                    in such tags incorrectly being marked as self-closing, and
+│                        │     │                   when using the Parse functions, this can result in content
+│                        │     │                   following such tags as being placed in the wrong scope
+│                        │     │                   during DOM construction, but only when tags are in foreign
+│                        │     │                   content (e.g. <math>, <svg>, etc contexts). 
+│                        │     ├ Severity        : MEDIUM 
+│                        │     ├ VendorSeverity   ─ ghsa: 2 
+│                        │     ├ References       ╭ [0]: https://go.dev/cl/662715 
+│                        │     │                  ├ [1]: https://go.dev/issue/73070 
+│                        │     │                  ├ [2]: https://groups.google.com/g/golang-announce/c/ezSKR9vq
+│                        │     │                  │      bqA 
+│                        │     │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-22872 
+│                        │     │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2025-3595 
+│                        │     ├ PublishedDate   : 2025-04-16T18:16:04.183Z 
+│                        │     ╰ LastModifiedDate: 2025-04-16T21:15:46.64Z 
+│                        ╰ [3] ╭ VulnerabilityID : CVE-2025-22871 
 │                              ├ PkgID           : stdlib@v1.24.1 
 │                              ├ PkgName         : stdlib 
 │                              ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.24.1 
@@ -5193,7 +5230,7 @@
 │                        │     │                  ├ [15]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                        │     │                  │       24-24783 
 │                        │     │                  ├ [16]: https://errata.almalinux.org/9/ALSA-2024-2724.html 
-│                        │     │                  ├ [17]: https://errata.rockylinux.org/RLSA-2024:2724 
+│                        │     │                  ├ [17]: https://errata.rockylinux.org/RLSA-2024:3346 
 │                        │     │                  ├ [18]: https://go.dev/cl/576155 
 │                        │     │                  ├ [19]: https://go.dev/issue/65051 
 │                        │     │                  ├ [20]: https://groups.google.com/g/golang-announce/c/YgW0sx8
@@ -5270,7 +5307,44 @@
 │                        │     │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-22870 
 │                        │     ├ PublishedDate   : 2025-03-12T19:15:38.31Z 
 │                        │     ╰ LastModifiedDate: 2025-03-18T17:15:45.467Z 
-│                        ╰ [2] ╭ VulnerabilityID : CVE-2025-22871 
+│                        ├ [2] ╭ VulnerabilityID : CVE-2025-22872 
+│                        │     ├ PkgID           : golang.org/x/net@v0.19.0 
+│                        │     ├ PkgName         : golang.org/x/net 
+│                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/golang.org/x/net@v0.19.0 
+│                        │     │                  ╰ UID : cdcbf8e0c889f733 
+│                        │     ├ InstalledVersion: v0.19.0 
+│                        │     ├ FixedVersion    : 0.38.0 
+│                        │     ├ Status          : fixed 
+│                        │     ├ Layer            ╭ Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4
+│                        │     │                  │         a8143db4b97d428659d0 
+│                        │     │                  ╰ DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8
+│                        │     │                            d67226cb3b9e50f918f0 
+│                        │     ├ SeveritySource  : ghsa 
+│                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-22872 
+│                        │     ├ DataSource       ╭ ID  : ghsa 
+│                        │     │                  ├ Name: GitHub Security Advisory Go 
+│                        │     │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+e
+│                        │     │                          cosystem%3Ago 
+│                        │     ├ Title           : golang.org/x/net vulnerable to Cross-site Scripting 
+│                        │     ├ Description     : The tokenizer incorrectly interprets tags with unquoted
+│                        │     │                   attribute values that end with a solidus character (/) as
+│                        │     │                   self-closing. When directly using Tokenizer, this can result
+│                        │     │                    in such tags incorrectly being marked as self-closing, and
+│                        │     │                   when using the Parse functions, this can result in content
+│                        │     │                   following such tags as being placed in the wrong scope
+│                        │     │                   during DOM construction, but only when tags are in foreign
+│                        │     │                   content (e.g. <math>, <svg>, etc contexts). 
+│                        │     ├ Severity        : MEDIUM 
+│                        │     ├ VendorSeverity   ─ ghsa: 2 
+│                        │     ├ References       ╭ [0]: https://go.dev/cl/662715 
+│                        │     │                  ├ [1]: https://go.dev/issue/73070 
+│                        │     │                  ├ [2]: https://groups.google.com/g/golang-announce/c/ezSKR9vq
+│                        │     │                  │      bqA 
+│                        │     │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-22872 
+│                        │     │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2025-3595 
+│                        │     ├ PublishedDate   : 2025-04-16T18:16:04.183Z 
+│                        │     ╰ LastModifiedDate: 2025-04-16T21:15:46.64Z 
+│                        ╰ [3] ╭ VulnerabilityID : CVE-2025-22871 
 │                              ├ PkgID           : stdlib@v1.24.1 
 │                              ├ PkgName         : stdlib 
 │                              ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.24.1 
@@ -5589,7 +5663,44 @@
 │                        │     │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-22870 
 │                        │     ├ PublishedDate   : 2025-03-12T19:15:38.31Z 
 │                        │     ╰ LastModifiedDate: 2025-03-18T17:15:45.467Z 
-│                        ╰ [5] ╭ VulnerabilityID : CVE-2025-22871 
+│                        ├ [5] ╭ VulnerabilityID : CVE-2025-22872 
+│                        │     ├ PkgID           : golang.org/x/net@v0.34.0 
+│                        │     ├ PkgName         : golang.org/x/net 
+│                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/golang.org/x/net@v0.34.0 
+│                        │     │                  ╰ UID : 46f27cee60ef8005 
+│                        │     ├ InstalledVersion: v0.34.0 
+│                        │     ├ FixedVersion    : 0.38.0 
+│                        │     ├ Status          : fixed 
+│                        │     ├ Layer            ╭ Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4
+│                        │     │                  │         a8143db4b97d428659d0 
+│                        │     │                  ╰ DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8
+│                        │     │                            d67226cb3b9e50f918f0 
+│                        │     ├ SeveritySource  : ghsa 
+│                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-22872 
+│                        │     ├ DataSource       ╭ ID  : ghsa 
+│                        │     │                  ├ Name: GitHub Security Advisory Go 
+│                        │     │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+e
+│                        │     │                          cosystem%3Ago 
+│                        │     ├ Title           : golang.org/x/net vulnerable to Cross-site Scripting 
+│                        │     ├ Description     : The tokenizer incorrectly interprets tags with unquoted
+│                        │     │                   attribute values that end with a solidus character (/) as
+│                        │     │                   self-closing. When directly using Tokenizer, this can result
+│                        │     │                    in such tags incorrectly being marked as self-closing, and
+│                        │     │                   when using the Parse functions, this can result in content
+│                        │     │                   following such tags as being placed in the wrong scope
+│                        │     │                   during DOM construction, but only when tags are in foreign
+│                        │     │                   content (e.g. <math>, <svg>, etc contexts). 
+│                        │     ├ Severity        : MEDIUM 
+│                        │     ├ VendorSeverity   ─ ghsa: 2 
+│                        │     ├ References       ╭ [0]: https://go.dev/cl/662715 
+│                        │     │                  ├ [1]: https://go.dev/issue/73070 
+│                        │     │                  ├ [2]: https://groups.google.com/g/golang-announce/c/ezSKR9vq
+│                        │     │                  │      bqA 
+│                        │     │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-22872 
+│                        │     │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2025-3595 
+│                        │     ├ PublishedDate   : 2025-04-16T18:16:04.183Z 
+│                        │     ╰ LastModifiedDate: 2025-04-16T21:15:46.64Z 
+│                        ╰ [6] ╭ VulnerabilityID : CVE-2025-22871 
 │                              ├ PkgID           : stdlib@v1.23.6 
 │                              ├ PkgName         : stdlib 
 │                              ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.23.6 
@@ -5694,7 +5805,44 @@
 │                        │     │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2024-40635 
 │                        │     ├ PublishedDate   : 2025-03-17T22:15:13.15Z 
 │                        │     ╰ LastModifiedDate: 2025-03-17T22:15:13.15Z 
-│                        ╰ [1] ╭ VulnerabilityID : CVE-2025-22871 
+│                        ├ [1] ╭ VulnerabilityID : CVE-2025-22872 
+│                        │     ├ PkgID           : golang.org/x/net@v0.37.0 
+│                        │     ├ PkgName         : golang.org/x/net 
+│                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/golang.org/x/net@v0.37.0 
+│                        │     │                  ╰ UID : b923aec8027186ac 
+│                        │     ├ InstalledVersion: v0.37.0 
+│                        │     ├ FixedVersion    : 0.38.0 
+│                        │     ├ Status          : fixed 
+│                        │     ├ Layer            ╭ Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4
+│                        │     │                  │         a8143db4b97d428659d0 
+│                        │     │                  ╰ DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8
+│                        │     │                            d67226cb3b9e50f918f0 
+│                        │     ├ SeveritySource  : ghsa 
+│                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-22872 
+│                        │     ├ DataSource       ╭ ID  : ghsa 
+│                        │     │                  ├ Name: GitHub Security Advisory Go 
+│                        │     │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+e
+│                        │     │                          cosystem%3Ago 
+│                        │     ├ Title           : golang.org/x/net vulnerable to Cross-site Scripting 
+│                        │     ├ Description     : The tokenizer incorrectly interprets tags with unquoted
+│                        │     │                   attribute values that end with a solidus character (/) as
+│                        │     │                   self-closing. When directly using Tokenizer, this can result
+│                        │     │                    in such tags incorrectly being marked as self-closing, and
+│                        │     │                   when using the Parse functions, this can result in content
+│                        │     │                   following such tags as being placed in the wrong scope
+│                        │     │                   during DOM construction, but only when tags are in foreign
+│                        │     │                   content (e.g. <math>, <svg>, etc contexts). 
+│                        │     ├ Severity        : MEDIUM 
+│                        │     ├ VendorSeverity   ─ ghsa: 2 
+│                        │     ├ References       ╭ [0]: https://go.dev/cl/662715 
+│                        │     │                  ├ [1]: https://go.dev/issue/73070 
+│                        │     │                  ├ [2]: https://groups.google.com/g/golang-announce/c/ezSKR9vq
+│                        │     │                  │      bqA 
+│                        │     │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-22872 
+│                        │     │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2025-3595 
+│                        │     ├ PublishedDate   : 2025-04-16T18:16:04.183Z 
+│                        │     ╰ LastModifiedDate: 2025-04-16T21:15:46.64Z 
+│                        ╰ [2] ╭ VulnerabilityID : CVE-2025-22871 
 │                              ├ PkgID           : stdlib@v1.23.7 
 │                              ├ PkgName         : stdlib 
 │                              ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.23.7 
@@ -5785,7 +5933,44 @@
 │                        │     │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-22870 
 │                        │     ├ PublishedDate   : 2025-03-12T19:15:38.31Z 
 │                        │     ╰ LastModifiedDate: 2025-03-18T17:15:45.467Z 
-│                        ╰ [1] ╭ VulnerabilityID : CVE-2025-22871 
+│                        ├ [1] ╭ VulnerabilityID : CVE-2025-22872 
+│                        │     ├ PkgID           : golang.org/x/net@v0.30.0 
+│                        │     ├ PkgName         : golang.org/x/net 
+│                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/golang.org/x/net@v0.30.0 
+│                        │     │                  ╰ UID : 49cea3404592705a 
+│                        │     ├ InstalledVersion: v0.30.0 
+│                        │     ├ FixedVersion    : 0.38.0 
+│                        │     ├ Status          : fixed 
+│                        │     ├ Layer            ╭ Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4
+│                        │     │                  │         a8143db4b97d428659d0 
+│                        │     │                  ╰ DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8
+│                        │     │                            d67226cb3b9e50f918f0 
+│                        │     ├ SeveritySource  : ghsa 
+│                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-22872 
+│                        │     ├ DataSource       ╭ ID  : ghsa 
+│                        │     │                  ├ Name: GitHub Security Advisory Go 
+│                        │     │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+e
+│                        │     │                          cosystem%3Ago 
+│                        │     ├ Title           : golang.org/x/net vulnerable to Cross-site Scripting 
+│                        │     ├ Description     : The tokenizer incorrectly interprets tags with unquoted
+│                        │     │                   attribute values that end with a solidus character (/) as
+│                        │     │                   self-closing. When directly using Tokenizer, this can result
+│                        │     │                    in such tags incorrectly being marked as self-closing, and
+│                        │     │                   when using the Parse functions, this can result in content
+│                        │     │                   following such tags as being placed in the wrong scope
+│                        │     │                   during DOM construction, but only when tags are in foreign
+│                        │     │                   content (e.g. <math>, <svg>, etc contexts). 
+│                        │     ├ Severity        : MEDIUM 
+│                        │     ├ VendorSeverity   ─ ghsa: 2 
+│                        │     ├ References       ╭ [0]: https://go.dev/cl/662715 
+│                        │     │                  ├ [1]: https://go.dev/issue/73070 
+│                        │     │                  ├ [2]: https://groups.google.com/g/golang-announce/c/ezSKR9vq
+│                        │     │                  │      bqA 
+│                        │     │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-22872 
+│                        │     │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2025-3595 
+│                        │     ├ PublishedDate   : 2025-04-16T18:16:04.183Z 
+│                        │     ╰ LastModifiedDate: 2025-04-16T21:15:46.64Z 
+│                        ╰ [2] ╭ VulnerabilityID : CVE-2025-22871 
 │                              ├ PkgID           : stdlib@v1.23.6 
 │                              ├ PkgName         : stdlib 
 │                              ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.23.6 
@@ -5890,7 +6075,44 @@
 │                        │     │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2025-30204 
 │                        │     ├ PublishedDate   : 2025-03-21T22:15:26.42Z 
 │                        │     ╰ LastModifiedDate: 2025-04-10T13:15:52.097Z 
-│                        ╰ [1] ╭ VulnerabilityID : CVE-2025-22871 
+│                        ├ [1] ╭ VulnerabilityID : CVE-2025-22872 
+│                        │     ├ PkgID           : golang.org/x/net@v0.37.0 
+│                        │     ├ PkgName         : golang.org/x/net 
+│                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/golang.org/x/net@v0.37.0 
+│                        │     │                  ╰ UID : 551cf172ad4bf963 
+│                        │     ├ InstalledVersion: v0.37.0 
+│                        │     ├ FixedVersion    : 0.38.0 
+│                        │     ├ Status          : fixed 
+│                        │     ├ Layer            ╭ Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4
+│                        │     │                  │         a8143db4b97d428659d0 
+│                        │     │                  ╰ DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8
+│                        │     │                            d67226cb3b9e50f918f0 
+│                        │     ├ SeveritySource  : ghsa 
+│                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-22872 
+│                        │     ├ DataSource       ╭ ID  : ghsa 
+│                        │     │                  ├ Name: GitHub Security Advisory Go 
+│                        │     │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+e
+│                        │     │                          cosystem%3Ago 
+│                        │     ├ Title           : golang.org/x/net vulnerable to Cross-site Scripting 
+│                        │     ├ Description     : The tokenizer incorrectly interprets tags with unquoted
+│                        │     │                   attribute values that end with a solidus character (/) as
+│                        │     │                   self-closing. When directly using Tokenizer, this can result
+│                        │     │                    in such tags incorrectly being marked as self-closing, and
+│                        │     │                   when using the Parse functions, this can result in content
+│                        │     │                   following such tags as being placed in the wrong scope
+│                        │     │                   during DOM construction, but only when tags are in foreign
+│                        │     │                   content (e.g. <math>, <svg>, etc contexts). 
+│                        │     ├ Severity        : MEDIUM 
+│                        │     ├ VendorSeverity   ─ ghsa: 2 
+│                        │     ├ References       ╭ [0]: https://go.dev/cl/662715 
+│                        │     │                  ├ [1]: https://go.dev/issue/73070 
+│                        │     │                  ├ [2]: https://groups.google.com/g/golang-announce/c/ezSKR9vq
+│                        │     │                  │      bqA 
+│                        │     │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-22872 
+│                        │     │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2025-3595 
+│                        │     ├ PublishedDate   : 2025-04-16T18:16:04.183Z 
+│                        │     ╰ LastModifiedDate: 2025-04-16T21:15:46.64Z 
+│                        ╰ [2] ╭ VulnerabilityID : CVE-2025-22871 
 │                              ├ PkgID           : stdlib@v1.24.1 
 │                              ├ PkgName         : stdlib 
 │                              ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.24.1 
@@ -6300,7 +6522,44 @@
 │                        │     │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-22870 
 │                        │     ├ PublishedDate   : 2025-03-12T19:15:38.31Z 
 │                        │     ╰ LastModifiedDate: 2025-03-18T17:15:45.467Z 
-│                        ├ [5] ╭ VulnerabilityID : GHSA-xr7q-jx4m-x55m 
+│                        ├ [5] ╭ VulnerabilityID : CVE-2025-22872 
+│                        │     ├ PkgID           : golang.org/x/net@v0.26.0 
+│                        │     ├ PkgName         : golang.org/x/net 
+│                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/golang.org/x/net@v0.26.0 
+│                        │     │                  ╰ UID : d33d648a9a9d02d2 
+│                        │     ├ InstalledVersion: v0.26.0 
+│                        │     ├ FixedVersion    : 0.38.0 
+│                        │     ├ Status          : fixed 
+│                        │     ├ Layer            ╭ Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4
+│                        │     │                  │         a8143db4b97d428659d0 
+│                        │     │                  ╰ DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8
+│                        │     │                            d67226cb3b9e50f918f0 
+│                        │     ├ SeveritySource  : ghsa 
+│                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-22872 
+│                        │     ├ DataSource       ╭ ID  : ghsa 
+│                        │     │                  ├ Name: GitHub Security Advisory Go 
+│                        │     │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+e
+│                        │     │                          cosystem%3Ago 
+│                        │     ├ Title           : golang.org/x/net vulnerable to Cross-site Scripting 
+│                        │     ├ Description     : The tokenizer incorrectly interprets tags with unquoted
+│                        │     │                   attribute values that end with a solidus character (/) as
+│                        │     │                   self-closing. When directly using Tokenizer, this can result
+│                        │     │                    in such tags incorrectly being marked as self-closing, and
+│                        │     │                   when using the Parse functions, this can result in content
+│                        │     │                   following such tags as being placed in the wrong scope
+│                        │     │                   during DOM construction, but only when tags are in foreign
+│                        │     │                   content (e.g. <math>, <svg>, etc contexts). 
+│                        │     ├ Severity        : MEDIUM 
+│                        │     ├ VendorSeverity   ─ ghsa: 2 
+│                        │     ├ References       ╭ [0]: https://go.dev/cl/662715 
+│                        │     │                  ├ [1]: https://go.dev/issue/73070 
+│                        │     │                  ├ [2]: https://groups.google.com/g/golang-announce/c/ezSKR9vq
+│                        │     │                  │      bqA 
+│                        │     │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-22872 
+│                        │     │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2025-3595 
+│                        │     ├ PublishedDate   : 2025-04-16T18:16:04.183Z 
+│                        │     ╰ LastModifiedDate: 2025-04-16T21:15:46.64Z 
+│                        ├ [6] ╭ VulnerabilityID : GHSA-xr7q-jx4m-x55m 
 │                        │     ├ PkgID           : google.golang.org/grpc@v1.64.0 
 │                        │     ├ PkgName         : google.golang.org/grpc 
 │                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/google.golang.org/grpc@v1.64.0 
@@ -6340,7 +6599,7 @@
 │                        │                        │      7a7786754d1fe05264c3021eb 
 │                        │                        ╰ [2]: https://github.com/grpc/grpc-go/security/advisories/GH
 │                        │                               SA-xr7q-jx4m-x55m 
-│                        ╰ [6] ╭ VulnerabilityID : CVE-2025-22871 
+│                        ╰ [7] ╭ VulnerabilityID : CVE-2025-22871 
 │                              ├ PkgID           : stdlib@v1.22.12 
 │                              ├ PkgName         : stdlib 
 │                              ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.22.12 
