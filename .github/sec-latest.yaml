@@ -136,7 +136,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2213166
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-34969
     - https://errata.almalinux.org/9/ALSA-2023-4569.html
-    - https://errata.rockylinux.org/RLSA-2023:4498
+    - https://errata.rockylinux.org/RLSA-2023:4569
     - https://gitlab.freedesktop.org/dbus/dbus/-/issues/457
     - https://linux.oracle.com/cve/CVE-2023-34969.html
     - https://linux.oracle.com/errata/ELSA-2023-4569.html
@@ -192,7 +192,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2213166
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-34969
     - https://errata.almalinux.org/9/ALSA-2023-4569.html
-    - https://errata.rockylinux.org/RLSA-2023:4498
+    - https://errata.rockylinux.org/RLSA-2023:4569
     - https://gitlab.freedesktop.org/dbus/dbus/-/issues/457
     - https://linux.oracle.com/cve/CVE-2023-34969.html
     - https://linux.oracle.com/errata/ELSA-2023-4569.html
@@ -1624,7 +1624,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2213166
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-34969
     - https://errata.almalinux.org/9/ALSA-2023-4569.html
-    - https://errata.rockylinux.org/RLSA-2023:4498
+    - https://errata.rockylinux.org/RLSA-2023:4569
     - https://gitlab.freedesktop.org/dbus/dbus/-/issues/457
     - https://linux.oracle.com/cve/CVE-2023-34969.html
     - https://linux.oracle.com/errata/ELSA-2023-4569.html
@@ -2033,6 +2033,126 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-2236
     PublishedDate: '2024-03-06T22:15:57.977Z'
     LastModifiedDate: '2025-04-02T17:15:37.79Z'
+  - VulnerabilityID: CVE-2025-3576
+    PkgID: libgssapi-krb5-2@1.19.2-2ubuntu0.6
+    PkgName: libgssapi-krb5-2
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libgssapi-krb5-2@1.19.2-2ubuntu0.6?arch=amd64&distro=ubuntu-22.04
+      UID: f6dc12283f1322bd
+    InstalledVersion: 1.19.2-2ubuntu0.6
+    Status: affected
+    Layer:
+      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
+      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-3576
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: A vulnerability in the MIT Kerberos implementation allows GSSAPI-prote ...
+    Description: A vulnerability in the MIT Kerberos implementation allows GSSAPI-protected messages using RC4-HMAC-MD5 to be spoofed due to weaknesses in the MD5 checksum design. If RC4 is preferred over stronger encryption types, an attacker could exploit MD5 collisions to forge message integrity codes. This may lead to unauthorized message tampering.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-328
+    VendorSeverity:
+      ubuntu: 2
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-3576
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2359465
+    - https://www.cve.org/CVERecord?id=CVE-2025-3576
+    PublishedDate: '2025-04-15T06:15:44.047Z'
+    LastModifiedDate: '2025-04-15T18:39:27.967Z'
+  - VulnerabilityID: CVE-2025-3576
+    PkgID: libk5crypto3@1.19.2-2ubuntu0.6
+    PkgName: libk5crypto3
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libk5crypto3@1.19.2-2ubuntu0.6?arch=amd64&distro=ubuntu-22.04
+      UID: 94dfcbd4eba15b0c
+    InstalledVersion: 1.19.2-2ubuntu0.6
+    Status: affected
+    Layer:
+      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
+      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-3576
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: A vulnerability in the MIT Kerberos implementation allows GSSAPI-prote ...
+    Description: A vulnerability in the MIT Kerberos implementation allows GSSAPI-protected messages using RC4-HMAC-MD5 to be spoofed due to weaknesses in the MD5 checksum design. If RC4 is preferred over stronger encryption types, an attacker could exploit MD5 collisions to forge message integrity codes. This may lead to unauthorized message tampering.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-328
+    VendorSeverity:
+      ubuntu: 2
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-3576
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2359465
+    - https://www.cve.org/CVERecord?id=CVE-2025-3576
+    PublishedDate: '2025-04-15T06:15:44.047Z'
+    LastModifiedDate: '2025-04-15T18:39:27.967Z'
+  - VulnerabilityID: CVE-2025-3576
+    PkgID: libkrb5-3@1.19.2-2ubuntu0.6
+    PkgName: libkrb5-3
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libkrb5-3@1.19.2-2ubuntu0.6?arch=amd64&distro=ubuntu-22.04
+      UID: f4ccea1c71392c97
+    InstalledVersion: 1.19.2-2ubuntu0.6
+    Status: affected
+    Layer:
+      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
+      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-3576
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: A vulnerability in the MIT Kerberos implementation allows GSSAPI-prote ...
+    Description: A vulnerability in the MIT Kerberos implementation allows GSSAPI-protected messages using RC4-HMAC-MD5 to be spoofed due to weaknesses in the MD5 checksum design. If RC4 is preferred over stronger encryption types, an attacker could exploit MD5 collisions to forge message integrity codes. This may lead to unauthorized message tampering.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-328
+    VendorSeverity:
+      ubuntu: 2
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-3576
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2359465
+    - https://www.cve.org/CVERecord?id=CVE-2025-3576
+    PublishedDate: '2025-04-15T06:15:44.047Z'
+    LastModifiedDate: '2025-04-15T18:39:27.967Z'
+  - VulnerabilityID: CVE-2025-3576
+    PkgID: libkrb5support0@1.19.2-2ubuntu0.6
+    PkgName: libkrb5support0
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libkrb5support0@1.19.2-2ubuntu0.6?arch=amd64&distro=ubuntu-22.04
+      UID: 60845f20bb151fff
+    InstalledVersion: 1.19.2-2ubuntu0.6
+    Status: affected
+    Layer:
+      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
+      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-3576
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: A vulnerability in the MIT Kerberos implementation allows GSSAPI-prote ...
+    Description: A vulnerability in the MIT Kerberos implementation allows GSSAPI-protected messages using RC4-HMAC-MD5 to be spoofed due to weaknesses in the MD5 checksum design. If RC4 is preferred over stronger encryption types, an attacker could exploit MD5 collisions to forge message integrity codes. This may lead to unauthorized message tampering.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-328
+    VendorSeverity:
+      ubuntu: 2
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-3576
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2359465
+    - https://www.cve.org/CVERecord?id=CVE-2025-3576
+    PublishedDate: '2025-04-15T06:15:44.047Z'
+    LastModifiedDate: '2025-04-15T18:39:27.967Z'
   - VulnerabilityID: CVE-2023-45918
     PkgID: libncurses6@6.3-2ubuntu0.1
     PkgName: libncurses6
@@ -4416,7 +4536,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45290
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24783
     - https://errata.almalinux.org/9/ALSA-2024-2724.html
-    - https://errata.rockylinux.org/RLSA-2024:3346
+    - https://errata.rockylinux.org/RLSA-2024:2724
     - https://go.dev/cl/576155
     - https://go.dev/issue/65051
     - https://groups.google.com/g/golang-announce/c/YgW0sx8mN3M
@@ -4503,7 +4623,7 @@
       ID: ghsa
       Name: GitHub Security Advisory Go
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
-    Title: golang.org/x/net vulnerable to Cross-site Scripting
+    Title: The tokenizer incorrectly interprets tags with unquoted attribute valu ...
     Description: The tokenizer incorrectly interprets tags with unquoted attribute values that end with a solidus character (/) as self-closing. When directly using Tokenizer, this can result in such tags incorrectly being marked as self-closing, and when using the Parse functions, this can result in content following such tags as being placed in the wrong scope during DOM construction, but only when tags are in foreign content (e.g. <math>, <svg>, etc contexts).
     Severity: MEDIUM
     VendorSeverity:
@@ -4515,7 +4635,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-22872
     - https://pkg.go.dev/vuln/GO-2025-3595
     PublishedDate: '2025-04-16T18:16:04.183Z'
-    LastModifiedDate: '2025-04-16T21:15:46.64Z'
+    LastModifiedDate: '2025-04-17T20:22:16.24Z'
   - VulnerabilityID: CVE-2025-22871
     PkgID: stdlib@v1.24.1
     PkgName: stdlib
@@ -4619,7 +4739,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45290
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24783
     - https://errata.almalinux.org/9/ALSA-2024-2724.html
-    - https://errata.rockylinux.org/RLSA-2024:3346
+    - https://errata.rockylinux.org/RLSA-2024:2724
     - https://go.dev/cl/576155
     - https://go.dev/issue/65051
     - https://groups.google.com/g/golang-announce/c/YgW0sx8mN3M
@@ -4706,7 +4826,7 @@
       ID: ghsa
       Name: GitHub Security Advisory Go
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
-    Title: golang.org/x/net vulnerable to Cross-site Scripting
+    Title: The tokenizer incorrectly interprets tags with unquoted attribute valu ...
     Description: The tokenizer incorrectly interprets tags with unquoted attribute values that end with a solidus character (/) as self-closing. When directly using Tokenizer, this can result in such tags incorrectly being marked as self-closing, and when using the Parse functions, this can result in content following such tags as being placed in the wrong scope during DOM construction, but only when tags are in foreign content (e.g. <math>, <svg>, etc contexts).
     Severity: MEDIUM
     VendorSeverity:
@@ -4718,7 +4838,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-22872
     - https://pkg.go.dev/vuln/GO-2025-3595
     PublishedDate: '2025-04-16T18:16:04.183Z'
-    LastModifiedDate: '2025-04-16T21:15:46.64Z'
+    LastModifiedDate: '2025-04-17T20:22:16.24Z'
   - VulnerabilityID: CVE-2025-22871
     PkgID: stdlib@v1.24.1
     PkgName: stdlib
@@ -5015,7 +5135,7 @@
       ID: ghsa
       Name: GitHub Security Advisory Go
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
-    Title: golang.org/x/net vulnerable to Cross-site Scripting
+    Title: The tokenizer incorrectly interprets tags with unquoted attribute valu ...
     Description: The tokenizer incorrectly interprets tags with unquoted attribute values that end with a solidus character (/) as self-closing. When directly using Tokenizer, this can result in such tags incorrectly being marked as self-closing, and when using the Parse functions, this can result in content following such tags as being placed in the wrong scope during DOM construction, but only when tags are in foreign content (e.g. <math>, <svg>, etc contexts).
     Severity: MEDIUM
     VendorSeverity:
@@ -5027,7 +5147,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-22872
     - https://pkg.go.dev/vuln/GO-2025-3595
     PublishedDate: '2025-04-16T18:16:04.183Z'
-    LastModifiedDate: '2025-04-16T21:15:46.64Z'
+    LastModifiedDate: '2025-04-17T20:22:16.24Z'
   - VulnerabilityID: CVE-2025-22871
     PkgID: stdlib@v1.23.6
     PkgName: stdlib
@@ -5137,7 +5257,7 @@
       ID: ghsa
       Name: GitHub Security Advisory Go
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
-    Title: golang.org/x/net vulnerable to Cross-site Scripting
+    Title: The tokenizer incorrectly interprets tags with unquoted attribute valu ...
     Description: The tokenizer incorrectly interprets tags with unquoted attribute values that end with a solidus character (/) as self-closing. When directly using Tokenizer, this can result in such tags incorrectly being marked as self-closing, and when using the Parse functions, this can result in content following such tags as being placed in the wrong scope during DOM construction, but only when tags are in foreign content (e.g. <math>, <svg>, etc contexts).
     Severity: MEDIUM
     VendorSeverity:
@@ -5149,7 +5269,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-22872
     - https://pkg.go.dev/vuln/GO-2025-3595
     PublishedDate: '2025-04-16T18:16:04.183Z'
-    LastModifiedDate: '2025-04-16T21:15:46.64Z'
+    LastModifiedDate: '2025-04-17T20:22:16.24Z'
   - VulnerabilityID: CVE-2025-22871
     PkgID: stdlib@v1.23.7
     PkgName: stdlib
@@ -5257,7 +5377,7 @@
       ID: ghsa
       Name: GitHub Security Advisory Go
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
-    Title: golang.org/x/net vulnerable to Cross-site Scripting
+    Title: The tokenizer incorrectly interprets tags with unquoted attribute valu ...
     Description: The tokenizer incorrectly interprets tags with unquoted attribute values that end with a solidus character (/) as self-closing. When directly using Tokenizer, this can result in such tags incorrectly being marked as self-closing, and when using the Parse functions, this can result in content following such tags as being placed in the wrong scope during DOM construction, but only when tags are in foreign content (e.g. <math>, <svg>, etc contexts).
     Severity: MEDIUM
     VendorSeverity:
@@ -5269,7 +5389,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-22872
     - https://pkg.go.dev/vuln/GO-2025-3595
     PublishedDate: '2025-04-16T18:16:04.183Z'
-    LastModifiedDate: '2025-04-16T21:15:46.64Z'
+    LastModifiedDate: '2025-04-17T20:22:16.24Z'
   - VulnerabilityID: CVE-2025-22871
     PkgID: stdlib@v1.23.6
     PkgName: stdlib
@@ -5382,7 +5502,7 @@
       ID: ghsa
       Name: GitHub Security Advisory Go
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
-    Title: golang.org/x/net vulnerable to Cross-site Scripting
+    Title: The tokenizer incorrectly interprets tags with unquoted attribute valu ...
     Description: The tokenizer incorrectly interprets tags with unquoted attribute values that end with a solidus character (/) as self-closing. When directly using Tokenizer, this can result in such tags incorrectly being marked as self-closing, and when using the Parse functions, this can result in content following such tags as being placed in the wrong scope during DOM construction, but only when tags are in foreign content (e.g. <math>, <svg>, etc contexts).
     Severity: MEDIUM
     VendorSeverity:
@@ -5394,7 +5514,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-22872
     - https://pkg.go.dev/vuln/GO-2025-3595
     PublishedDate: '2025-04-16T18:16:04.183Z'
-    LastModifiedDate: '2025-04-16T21:15:46.64Z'
+    LastModifiedDate: '2025-04-17T20:22:16.24Z'
   - VulnerabilityID: CVE-2025-22871
     PkgID: stdlib@v1.24.1
     PkgName: stdlib
@@ -5730,7 +5850,7 @@
       ID: ghsa
       Name: GitHub Security Advisory Go
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
-    Title: golang.org/x/net vulnerable to Cross-site Scripting
+    Title: The tokenizer incorrectly interprets tags with unquoted attribute valu ...
     Description: The tokenizer incorrectly interprets tags with unquoted attribute values that end with a solidus character (/) as self-closing. When directly using Tokenizer, this can result in such tags incorrectly being marked as self-closing, and when using the Parse functions, this can result in content following such tags as being placed in the wrong scope during DOM construction, but only when tags are in foreign content (e.g. <math>, <svg>, etc contexts).
     Severity: MEDIUM
     VendorSeverity:
@@ -5742,7 +5862,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-22872
     - https://pkg.go.dev/vuln/GO-2025-3595
     PublishedDate: '2025-04-16T18:16:04.183Z'
-    LastModifiedDate: '2025-04-16T21:15:46.64Z'
+    LastModifiedDate: '2025-04-17T20:22:16.24Z'
   - VulnerabilityID: GHSA-xr7q-jx4m-x55m
     PkgID: google.golang.org/grpc@v1.64.0
     PkgName: google.golang.org/grpc
