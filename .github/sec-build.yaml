@@ -3744,8 +3744,12 @@
     Severity: MEDIUM
     VendorSeverity:
       amazon: 3
+      bitnami: 4
       redhat: 2
     CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N
+        V3Score: 9.1
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:L/I:L/A:N
         V3Score: 5.4
@@ -3759,7 +3763,7 @@
     - https://pkg.go.dev/vuln/GO-2025-3563
     - https://www.cve.org/CVERecord?id=CVE-2025-22871
     PublishedDate: '2025-04-08T20:15:20.183Z'
-    LastModifiedDate: '2025-04-09T20:02:41.86Z'
+    LastModifiedDate: '2025-04-18T15:15:57.923Z'
 - Target: tmp/tmp.3Qql3vlpK5/krew-linux_amd64
   Class: lang-pkgs
   Type: gobinary
@@ -3947,8 +3951,12 @@
     Severity: MEDIUM
     VendorSeverity:
       amazon: 3
+      bitnami: 4
       redhat: 2
     CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N
+        V3Score: 9.1
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:L/I:L/A:N
         V3Score: 5.4
@@ -3962,7 +3970,7 @@
     - https://pkg.go.dev/vuln/GO-2025-3563
     - https://www.cve.org/CVERecord?id=CVE-2025-22871
     PublishedDate: '2025-04-08T20:15:20.183Z'
-    LastModifiedDate: '2025-04-09T20:02:41.86Z'
+    LastModifiedDate: '2025-04-18T15:15:57.923Z'
 - Target: usr/bin/docker-compose
   Class: lang-pkgs
   Type: gobinary
@@ -4072,8 +4080,12 @@
     Severity: MEDIUM
     VendorSeverity:
       amazon: 3
+      bitnami: 4
       redhat: 2
     CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N
+        V3Score: 9.1
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:L/I:L/A:N
         V3Score: 5.4
@@ -4087,7 +4099,7 @@
     - https://pkg.go.dev/vuln/GO-2025-3563
     - https://www.cve.org/CVERecord?id=CVE-2025-22871
     PublishedDate: '2025-04-08T20:15:20.183Z'
-    LastModifiedDate: '2025-04-09T20:02:41.86Z'
+    LastModifiedDate: '2025-04-18T15:15:57.923Z'
 - Target: usr/bin/kubectl
   Class: lang-pkgs
   Type: gobinary
@@ -4192,8 +4204,12 @@
     Severity: MEDIUM
     VendorSeverity:
       amazon: 3
+      bitnami: 4
       redhat: 2
     CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N
+        V3Score: 9.1
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:L/I:L/A:N
         V3Score: 5.4
@@ -4207,7 +4223,7 @@
     - https://pkg.go.dev/vuln/GO-2025-3563
     - https://www.cve.org/CVERecord?id=CVE-2025-22871
     PublishedDate: '2025-04-08T20:15:20.183Z'
-    LastModifiedDate: '2025-04-09T20:02:41.86Z'
+    LastModifiedDate: '2025-04-18T15:15:57.923Z'
 - Target: usr/bin/mc
   Class: lang-pkgs
   Type: gobinary
@@ -4610,8 +4626,12 @@
     Severity: MEDIUM
     VendorSeverity:
       amazon: 3
+      bitnami: 4
       redhat: 2
     CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N
+        V3Score: 9.1
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:L/I:L/A:N
         V3Score: 5.4
@@ -4625,7 +4645,7 @@
     - https://pkg.go.dev/vuln/GO-2025-3563
     - https://www.cve.org/CVERecord?id=CVE-2025-22871
     PublishedDate: '2025-04-08T20:15:20.183Z'
-    LastModifiedDate: '2025-04-09T20:02:41.86Z'
+    LastModifiedDate: '2025-04-18T15:15:57.923Z'
 - Target: /etc/ssh/ssh_host_dsa_key
   Class: secret
   Secrets:
