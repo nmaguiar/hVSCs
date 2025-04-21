@@ -52,7 +52,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2016-2781
     - https://www.cve.org/CVERecord?id=CVE-2016-2781
     PublishedDate: '2017-02-07T15:59:00.333Z'
-    LastModifiedDate: '2024-11-21T02:48:47.593Z'
+    LastModifiedDate: '2025-04-20T01:37:25.86Z'
   - VulnerabilityID: CVE-2025-0167
     PkgID: curl@8.5.0-2ubuntu10.6
     PkgName: curl
@@ -673,16 +673,22 @@
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: A vulnerability in the MIT Kerberos implementation allows GSSAPI-prote ...
+    Title: 'krb5: Kerberos RC4-HMAC-MD5 Checksum Vulnerability Enabling Message Spoofing via MD5 Collisions'
     Description: A vulnerability in the MIT Kerberos implementation allows GSSAPI-protected messages using RC4-HMAC-MD5 to be spoofed due to weaknesses in the MD5 checksum design. If RC4 is preferred over stronger encryption types, an attacker could exploit MD5 collisions to forge message integrity codes. This may lead to unauthorized message tampering.
     Severity: MEDIUM
     CweIDs:
     - CWE-328
     VendorSeverity:
+      redhat: 2
       ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N
+        V3Score: 5.9
     References:
     - https://access.redhat.com/security/cve/CVE-2025-3576
     - https://bugzilla.redhat.com/show_bug.cgi?id=2359465
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-3576
     - https://www.cve.org/CVERecord?id=CVE-2025-3576
     PublishedDate: '2025-04-15T06:15:44.047Z'
     LastModifiedDate: '2025-04-15T18:39:27.967Z'
@@ -992,16 +998,22 @@
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: A vulnerability in the MIT Kerberos implementation allows GSSAPI-prote ...
+    Title: 'krb5: Kerberos RC4-HMAC-MD5 Checksum Vulnerability Enabling Message Spoofing via MD5 Collisions'
     Description: A vulnerability in the MIT Kerberos implementation allows GSSAPI-protected messages using RC4-HMAC-MD5 to be spoofed due to weaknesses in the MD5 checksum design. If RC4 is preferred over stronger encryption types, an attacker could exploit MD5 collisions to forge message integrity codes. This may lead to unauthorized message tampering.
     Severity: MEDIUM
     CweIDs:
     - CWE-328
     VendorSeverity:
+      redhat: 2
       ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N
+        V3Score: 5.9
     References:
     - https://access.redhat.com/security/cve/CVE-2025-3576
     - https://bugzilla.redhat.com/show_bug.cgi?id=2359465
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-3576
     - https://www.cve.org/CVERecord?id=CVE-2025-3576
     PublishedDate: '2025-04-15T06:15:44.047Z'
     LastModifiedDate: '2025-04-15T18:39:27.967Z'
@@ -1022,16 +1034,22 @@
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: A vulnerability in the MIT Kerberos implementation allows GSSAPI-prote ...
+    Title: 'krb5: Kerberos RC4-HMAC-MD5 Checksum Vulnerability Enabling Message Spoofing via MD5 Collisions'
     Description: A vulnerability in the MIT Kerberos implementation allows GSSAPI-protected messages using RC4-HMAC-MD5 to be spoofed due to weaknesses in the MD5 checksum design. If RC4 is preferred over stronger encryption types, an attacker could exploit MD5 collisions to forge message integrity codes. This may lead to unauthorized message tampering.
     Severity: MEDIUM
     CweIDs:
     - CWE-328
     VendorSeverity:
+      redhat: 2
       ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N
+        V3Score: 5.9
     References:
     - https://access.redhat.com/security/cve/CVE-2025-3576
     - https://bugzilla.redhat.com/show_bug.cgi?id=2359465
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-3576
     - https://www.cve.org/CVERecord?id=CVE-2025-3576
     PublishedDate: '2025-04-15T06:15:44.047Z'
     LastModifiedDate: '2025-04-15T18:39:27.967Z'
@@ -1052,16 +1070,22 @@
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: A vulnerability in the MIT Kerberos implementation allows GSSAPI-prote ...
+    Title: 'krb5: Kerberos RC4-HMAC-MD5 Checksum Vulnerability Enabling Message Spoofing via MD5 Collisions'
     Description: A vulnerability in the MIT Kerberos implementation allows GSSAPI-protected messages using RC4-HMAC-MD5 to be spoofed due to weaknesses in the MD5 checksum design. If RC4 is preferred over stronger encryption types, an attacker could exploit MD5 collisions to forge message integrity codes. This may lead to unauthorized message tampering.
     Severity: MEDIUM
     CweIDs:
     - CWE-328
     VendorSeverity:
+      redhat: 2
       ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N
+        V3Score: 5.9
     References:
     - https://access.redhat.com/security/cve/CVE-2025-3576
     - https://bugzilla.redhat.com/show_bug.cgi?id=2359465
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-3576
     - https://www.cve.org/CVERecord?id=CVE-2025-3576
     PublishedDate: '2025-04-15T06:15:44.047Z'
     LastModifiedDate: '2025-04-15T18:39:27.967Z'
@@ -1082,16 +1106,22 @@
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: A vulnerability in the MIT Kerberos implementation allows GSSAPI-prote ...
+    Title: 'krb5: Kerberos RC4-HMAC-MD5 Checksum Vulnerability Enabling Message Spoofing via MD5 Collisions'
     Description: A vulnerability in the MIT Kerberos implementation allows GSSAPI-protected messages using RC4-HMAC-MD5 to be spoofed due to weaknesses in the MD5 checksum design. If RC4 is preferred over stronger encryption types, an attacker could exploit MD5 collisions to forge message integrity codes. This may lead to unauthorized message tampering.
     Severity: MEDIUM
     CweIDs:
     - CWE-328
     VendorSeverity:
+      redhat: 2
       ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N
+        V3Score: 5.9
     References:
     - https://access.redhat.com/security/cve/CVE-2025-3576
     - https://bugzilla.redhat.com/show_bug.cgi?id=2359465
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-3576
     - https://www.cve.org/CVERecord?id=CVE-2025-3576
     PublishedDate: '2025-04-15T06:15:44.047Z'
     LastModifiedDate: '2025-04-15T18:39:27.967Z'
@@ -1118,7 +1148,7 @@
     CweIDs:
     - CWE-922
     VendorSeverity:
-      alma: 2
+      alma: 3
       azure: 2
       oracle-oval: 2
       redhat: 2
@@ -1134,11 +1164,12 @@
     - https://access.redhat.com/errata/RHSA-2024:9941
     - https://access.redhat.com/security/cve/CVE-2024-10041
     - https://bugzilla.redhat.com/2319212
+    - https://bugzilla.redhat.com/2324291
     - https://bugzilla.redhat.com/show_bug.cgi?id=2319212
     - https://bugzilla.redhat.com/show_bug.cgi?id=2324291
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10041
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10963
-    - https://errata.almalinux.org/9/ALSA-2024-11250.html
+    - https://errata.almalinux.org/8/ALSA-2024-10379.html
     - https://errata.rockylinux.org/RLSA-2024:10379
     - https://linux.oracle.com/cve/CVE-2024-10041.html
     - https://linux.oracle.com/errata/ELSA-2024-11250.html
@@ -1187,12 +1218,13 @@
     - https://access.redhat.com/errata/RHSA-2024:10528
     - https://access.redhat.com/errata/RHSA-2024:10852
     - https://access.redhat.com/security/cve/CVE-2024-10963
+    - https://bugzilla.redhat.com/2319212
     - https://bugzilla.redhat.com/2324291
     - https://bugzilla.redhat.com/show_bug.cgi?id=2319212
     - https://bugzilla.redhat.com/show_bug.cgi?id=2324291
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10041
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10963
-    - https://errata.almalinux.org/9/ALSA-2024-10244.html
+    - https://errata.almalinux.org/8/ALSA-2024-10379.html
     - https://errata.rockylinux.org/RLSA-2024:10379
     - https://linux.oracle.com/cve/CVE-2024-10963.html
     - https://linux.oracle.com/errata/ELSA-2024-10379.html
@@ -1223,7 +1255,7 @@
     CweIDs:
     - CWE-922
     VendorSeverity:
-      alma: 2
+      alma: 3
       azure: 2
       oracle-oval: 2
       redhat: 2
@@ -1239,11 +1271,12 @@
     - https://access.redhat.com/errata/RHSA-2024:9941
     - https://access.redhat.com/security/cve/CVE-2024-10041
     - https://bugzilla.redhat.com/2319212
+    - https://bugzilla.redhat.com/2324291
     - https://bugzilla.redhat.com/show_bug.cgi?id=2319212
     - https://bugzilla.redhat.com/show_bug.cgi?id=2324291
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10041
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10963
-    - https://errata.almalinux.org/9/ALSA-2024-11250.html
+    - https://errata.almalinux.org/8/ALSA-2024-10379.html
     - https://errata.rockylinux.org/RLSA-2024:10379
     - https://linux.oracle.com/cve/CVE-2024-10041.html
     - https://linux.oracle.com/errata/ELSA-2024-11250.html
@@ -1292,12 +1325,13 @@
     - https://access.redhat.com/errata/RHSA-2024:10528
     - https://access.redhat.com/errata/RHSA-2024:10852
     - https://access.redhat.com/security/cve/CVE-2024-10963
+    - https://bugzilla.redhat.com/2319212
     - https://bugzilla.redhat.com/2324291
     - https://bugzilla.redhat.com/show_bug.cgi?id=2319212
     - https://bugzilla.redhat.com/show_bug.cgi?id=2324291
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10041
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10963
-    - https://errata.almalinux.org/9/ALSA-2024-10244.html
+    - https://errata.almalinux.org/8/ALSA-2024-10379.html
     - https://errata.rockylinux.org/RLSA-2024:10379
     - https://linux.oracle.com/cve/CVE-2024-10963.html
     - https://linux.oracle.com/errata/ELSA-2024-10379.html
@@ -1328,7 +1362,7 @@
     CweIDs:
     - CWE-922
     VendorSeverity:
-      alma: 2
+      alma: 3
       azure: 2
       oracle-oval: 2
       redhat: 2
@@ -1344,11 +1378,12 @@
     - https://access.redhat.com/errata/RHSA-2024:9941
     - https://access.redhat.com/security/cve/CVE-2024-10041
     - https://bugzilla.redhat.com/2319212
+    - https://bugzilla.redhat.com/2324291
     - https://bugzilla.redhat.com/show_bug.cgi?id=2319212
     - https://bugzilla.redhat.com/show_bug.cgi?id=2324291
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10041
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10963
-    - https://errata.almalinux.org/9/ALSA-2024-11250.html
+    - https://errata.almalinux.org/8/ALSA-2024-10379.html
     - https://errata.rockylinux.org/RLSA-2024:10379
     - https://linux.oracle.com/cve/CVE-2024-10041.html
     - https://linux.oracle.com/errata/ELSA-2024-11250.html
@@ -1397,12 +1432,13 @@
     - https://access.redhat.com/errata/RHSA-2024:10528
     - https://access.redhat.com/errata/RHSA-2024:10852
     - https://access.redhat.com/security/cve/CVE-2024-10963
+    - https://bugzilla.redhat.com/2319212
     - https://bugzilla.redhat.com/2324291
     - https://bugzilla.redhat.com/show_bug.cgi?id=2319212
     - https://bugzilla.redhat.com/show_bug.cgi?id=2324291
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10041
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10963
-    - https://errata.almalinux.org/9/ALSA-2024-10244.html
+    - https://errata.almalinux.org/8/ALSA-2024-10379.html
     - https://errata.rockylinux.org/RLSA-2024:10379
     - https://linux.oracle.com/cve/CVE-2024-10963.html
     - https://linux.oracle.com/errata/ELSA-2024-10379.html
@@ -1433,7 +1469,7 @@
     CweIDs:
     - CWE-922
     VendorSeverity:
-      alma: 2
+      alma: 3
       azure: 2
       oracle-oval: 2
       redhat: 2
@@ -1449,11 +1485,12 @@
     - https://access.redhat.com/errata/RHSA-2024:9941
     - https://access.redhat.com/security/cve/CVE-2024-10041
     - https://bugzilla.redhat.com/2319212
+    - https://bugzilla.redhat.com/2324291
     - https://bugzilla.redhat.com/show_bug.cgi?id=2319212
     - https://bugzilla.redhat.com/show_bug.cgi?id=2324291
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10041
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10963
-    - https://errata.almalinux.org/9/ALSA-2024-11250.html
+    - https://errata.almalinux.org/8/ALSA-2024-10379.html
     - https://errata.rockylinux.org/RLSA-2024:10379
     - https://linux.oracle.com/cve/CVE-2024-10041.html
     - https://linux.oracle.com/errata/ELSA-2024-11250.html
@@ -1502,12 +1539,13 @@
     - https://access.redhat.com/errata/RHSA-2024:10528
     - https://access.redhat.com/errata/RHSA-2024:10852
     - https://access.redhat.com/security/cve/CVE-2024-10963
+    - https://bugzilla.redhat.com/2319212
     - https://bugzilla.redhat.com/2324291
     - https://bugzilla.redhat.com/show_bug.cgi?id=2319212
     - https://bugzilla.redhat.com/show_bug.cgi?id=2324291
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10041
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10963
-    - https://errata.almalinux.org/9/ALSA-2024-10244.html
+    - https://errata.almalinux.org/8/ALSA-2024-10379.html
     - https://errata.rockylinux.org/RLSA-2024:10379
     - https://linux.oracle.com/cve/CVE-2024-10963.html
     - https://linux.oracle.com/errata/ELSA-2024-10379.html
@@ -1532,7 +1570,7 @@
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'sqlite: Integer Overflow in SQLite concat Function'
+    Title: 'sqlite: Integer Overflow in SQLite concat_ws Function'
     Description: In SQLite 3.44.0 through 3.49.0 before 3.49.1, the concat_ws() SQL function can cause memory to be written beyond the end of a malloc-allocated buffer. If the separator argument is attacker-controlled and has a large string (e.g., 2MB or more), an integer overflow occurs in calculating the size of the result buffer, and thus malloc may not allocate enough memory.
     Severity: MEDIUM
     CweIDs:
@@ -1574,14 +1612,20 @@
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: An integer overflow can be triggered in SQLite\u2019s `concat_ws()` fu ...
+    Title: 'SQLite: integer overflow in SQLite'
     Description: An integer overflow can be triggered in SQLite’s `concat_ws()` function. The resulting, truncated integer is then used to allocate a buffer. When SQLite then writes the resulting string to the buffer, it uses the original, untruncated size and thus a wild Heap Buffer overflow of size ~4GB can be triggered. This can result in arbitrary code execution.
     Severity: MEDIUM
     CweIDs:
     - CWE-122
     VendorSeverity:
+      redhat: 3
       ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L
+        V3Score: 7.3
     References:
+    - https://access.redhat.com/security/cve/CVE-2025-3277
     - https://github.com/sqlite/sqlite/commit/e1e67abc5cf67f931aab1e471eda23d73f51d456
     - https://nvd.nist.gov/vuln/detail/CVE-2025-3277
     - https://sqlite.org/src/info/498e3f1cf57f164f
@@ -2138,7 +2182,7 @@
     References:
     - http://www.openwall.com/lists/oss-security/2024/04/03/16
     - http://www.openwall.com/lists/oss-security/2024/04/05/4
-    - https://access.redhat.com/errata/RHSA-2024:2724
+    - https://access.redhat.com/errata/RHSA-2024:3346
     - https://access.redhat.com/security/cve/CVE-2023-45288
     - https://bugzilla.redhat.com/2268017
     - https://bugzilla.redhat.com/2268018
@@ -2152,7 +2196,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45289
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45290
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24783
-    - https://errata.almalinux.org/9/ALSA-2024-2724.html
+    - https://errata.almalinux.org/8/ALSA-2024-3346.html
     - https://errata.rockylinux.org/RLSA-2024:2724
     - https://go.dev/cl/576155
     - https://go.dev/issue/65051
@@ -2240,17 +2284,25 @@
       ID: ghsa
       Name: GitHub Security Advisory Go
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
-    Title: The tokenizer incorrectly interprets tags with unquoted attribute valu ...
+    Title: 'golang.org/x/net/html: Incorrect Neutralization of Input During Web Page Generation in x/net in golang.org/x/net'
     Description: The tokenizer incorrectly interprets tags with unquoted attribute values that end with a solidus character (/) as self-closing. When directly using Tokenizer, this can result in such tags incorrectly being marked as self-closing, and when using the Parse functions, this can result in content following such tags as being placed in the wrong scope during DOM construction, but only when tags are in foreign content (e.g. <math>, <svg>, etc contexts).
     Severity: MEDIUM
     VendorSeverity:
       ghsa: 2
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:L/I:L/A:L
+        V3Score: 6.5
     References:
+    - https://access.redhat.com/security/cve/CVE-2025-22872
+    - https://github.com/advisories/GHSA-vvgc-356p-c3xw
     - https://go.dev/cl/662715
     - https://go.dev/issue/73070
     - https://groups.google.com/g/golang-announce/c/ezSKR9vqbqA
     - https://nvd.nist.gov/vuln/detail/CVE-2025-22872
     - https://pkg.go.dev/vuln/GO-2025-3595
+    - https://www.cve.org/CVERecord?id=CVE-2025-22872
     PublishedDate: '2025-04-16T18:16:04.183Z'
     LastModifiedDate: '2025-04-17T20:22:16.24Z'
   - VulnerabilityID: CVE-2025-22871
@@ -2345,7 +2397,7 @@
     References:
     - http://www.openwall.com/lists/oss-security/2024/04/03/16
     - http://www.openwall.com/lists/oss-security/2024/04/05/4
-    - https://access.redhat.com/errata/RHSA-2024:2724
+    - https://access.redhat.com/errata/RHSA-2024:3346
     - https://access.redhat.com/security/cve/CVE-2023-45288
     - https://bugzilla.redhat.com/2268017
     - https://bugzilla.redhat.com/2268018
@@ -2359,7 +2411,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45289
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45290
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24783
-    - https://errata.almalinux.org/9/ALSA-2024-2724.html
+    - https://errata.almalinux.org/8/ALSA-2024-3346.html
     - https://errata.rockylinux.org/RLSA-2024:2724
     - https://go.dev/cl/576155
     - https://go.dev/issue/65051
@@ -2447,17 +2499,25 @@
       ID: ghsa
       Name: GitHub Security Advisory Go
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
-    Title: The tokenizer incorrectly interprets tags with unquoted attribute valu ...
+    Title: 'golang.org/x/net/html: Incorrect Neutralization of Input During Web Page Generation in x/net in golang.org/x/net'
     Description: The tokenizer incorrectly interprets tags with unquoted attribute values that end with a solidus character (/) as self-closing. When directly using Tokenizer, this can result in such tags incorrectly being marked as self-closing, and when using the Parse functions, this can result in content following such tags as being placed in the wrong scope during DOM construction, but only when tags are in foreign content (e.g. <math>, <svg>, etc contexts).
     Severity: MEDIUM
     VendorSeverity:
       ghsa: 2
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:L/I:L/A:L
+        V3Score: 6.5
     References:
+    - https://access.redhat.com/security/cve/CVE-2025-22872
+    - https://github.com/advisories/GHSA-vvgc-356p-c3xw
     - https://go.dev/cl/662715
     - https://go.dev/issue/73070
     - https://groups.google.com/g/golang-announce/c/ezSKR9vqbqA
     - https://nvd.nist.gov/vuln/detail/CVE-2025-22872
     - https://pkg.go.dev/vuln/GO-2025-3595
+    - https://www.cve.org/CVERecord?id=CVE-2025-22872
     PublishedDate: '2025-04-16T18:16:04.183Z'
     LastModifiedDate: '2025-04-17T20:22:16.24Z'
   - VulnerabilityID: CVE-2025-22871
@@ -2576,17 +2636,25 @@
       ID: ghsa
       Name: GitHub Security Advisory Go
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
-    Title: The tokenizer incorrectly interprets tags with unquoted attribute valu ...
+    Title: 'golang.org/x/net/html: Incorrect Neutralization of Input During Web Page Generation in x/net in golang.org/x/net'
     Description: The tokenizer incorrectly interprets tags with unquoted attribute values that end with a solidus character (/) as self-closing. When directly using Tokenizer, this can result in such tags incorrectly being marked as self-closing, and when using the Parse functions, this can result in content following such tags as being placed in the wrong scope during DOM construction, but only when tags are in foreign content (e.g. <math>, <svg>, etc contexts).
     Severity: MEDIUM
     VendorSeverity:
       ghsa: 2
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:L/I:L/A:L
+        V3Score: 6.5
     References:
+    - https://access.redhat.com/security/cve/CVE-2025-22872
+    - https://github.com/advisories/GHSA-vvgc-356p-c3xw
     - https://go.dev/cl/662715
     - https://go.dev/issue/73070
     - https://groups.google.com/g/golang-announce/c/ezSKR9vqbqA
     - https://nvd.nist.gov/vuln/detail/CVE-2025-22872
     - https://pkg.go.dev/vuln/GO-2025-3595
+    - https://www.cve.org/CVERecord?id=CVE-2025-22872
     PublishedDate: '2025-04-16T18:16:04.183Z'
     LastModifiedDate: '2025-04-17T20:22:16.24Z'
   - VulnerabilityID: CVE-2025-22871
@@ -2700,17 +2768,25 @@
       ID: ghsa
       Name: GitHub Security Advisory Go
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
-    Title: The tokenizer incorrectly interprets tags with unquoted attribute valu ...
+    Title: 'golang.org/x/net/html: Incorrect Neutralization of Input During Web Page Generation in x/net in golang.org/x/net'
     Description: The tokenizer incorrectly interprets tags with unquoted attribute values that end with a solidus character (/) as self-closing. When directly using Tokenizer, this can result in such tags incorrectly being marked as self-closing, and when using the Parse functions, this can result in content following such tags as being placed in the wrong scope during DOM construction, but only when tags are in foreign content (e.g. <math>, <svg>, etc contexts).
     Severity: MEDIUM
     VendorSeverity:
       ghsa: 2
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:L/I:L/A:L
+        V3Score: 6.5
     References:
+    - https://access.redhat.com/security/cve/CVE-2025-22872
+    - https://github.com/advisories/GHSA-vvgc-356p-c3xw
     - https://go.dev/cl/662715
     - https://go.dev/issue/73070
     - https://groups.google.com/g/golang-announce/c/ezSKR9vqbqA
     - https://nvd.nist.gov/vuln/detail/CVE-2025-22872
     - https://pkg.go.dev/vuln/GO-2025-3595
+    - https://www.cve.org/CVERecord?id=CVE-2025-22872
     PublishedDate: '2025-04-16T18:16:04.183Z'
     LastModifiedDate: '2025-04-17T20:22:16.24Z'
   - VulnerabilityID: CVE-2025-22871
@@ -2777,17 +2853,25 @@
       ID: ghsa
       Name: GitHub Security Advisory Go
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
-    Title: The tokenizer incorrectly interprets tags with unquoted attribute valu ...
+    Title: 'golang.org/x/net/html: Incorrect Neutralization of Input During Web Page Generation in x/net in golang.org/x/net'
     Description: The tokenizer incorrectly interprets tags with unquoted attribute values that end with a solidus character (/) as self-closing. When directly using Tokenizer, this can result in such tags incorrectly being marked as self-closing, and when using the Parse functions, this can result in content following such tags as being placed in the wrong scope during DOM construction, but only when tags are in foreign content (e.g. <math>, <svg>, etc contexts).
     Severity: MEDIUM
     VendorSeverity:
       ghsa: 2
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:L/I:L/A:L
+        V3Score: 6.5
     References:
+    - https://access.redhat.com/security/cve/CVE-2025-22872
+    - https://github.com/advisories/GHSA-vvgc-356p-c3xw
     - https://go.dev/cl/662715
     - https://go.dev/issue/73070
     - https://groups.google.com/g/golang-announce/c/ezSKR9vqbqA
     - https://nvd.nist.gov/vuln/detail/CVE-2025-22872
     - https://pkg.go.dev/vuln/GO-2025-3595
+    - https://www.cve.org/CVERecord?id=CVE-2025-22872
     PublishedDate: '2025-04-16T18:16:04.183Z'
     LastModifiedDate: '2025-04-17T20:22:16.24Z'
 - Target: usr/local/bin/k3d
@@ -3087,17 +3171,25 @@
       ID: ghsa
       Name: GitHub Security Advisory Go
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
-    Title: The tokenizer incorrectly interprets tags with unquoted attribute valu ...
+    Title: 'golang.org/x/net/html: Incorrect Neutralization of Input During Web Page Generation in x/net in golang.org/x/net'
     Description: The tokenizer incorrectly interprets tags with unquoted attribute values that end with a solidus character (/) as self-closing. When directly using Tokenizer, this can result in such tags incorrectly being marked as self-closing, and when using the Parse functions, this can result in content following such tags as being placed in the wrong scope during DOM construction, but only when tags are in foreign content (e.g. <math>, <svg>, etc contexts).
     Severity: MEDIUM
     VendorSeverity:
       ghsa: 2
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:L/I:L/A:L
+        V3Score: 6.5
     References:
+    - https://access.redhat.com/security/cve/CVE-2025-22872
+    - https://github.com/advisories/GHSA-vvgc-356p-c3xw
     - https://go.dev/cl/662715
     - https://go.dev/issue/73070
     - https://groups.google.com/g/golang-announce/c/ezSKR9vqbqA
     - https://nvd.nist.gov/vuln/detail/CVE-2025-22872
     - https://pkg.go.dev/vuln/GO-2025-3595
+    - https://www.cve.org/CVERecord?id=CVE-2025-22872
     PublishedDate: '2025-04-16T18:16:04.183Z'
     LastModifiedDate: '2025-04-17T20:22:16.24Z'
   - VulnerabilityID: GHSA-xr7q-jx4m-x55m
