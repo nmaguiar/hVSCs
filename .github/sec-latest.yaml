@@ -3650,6 +3650,7 @@
     - CWE-440
     VendorSeverity:
       azure: 2
+      cbl-mariner: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -3694,6 +3695,7 @@
     - CWE-440
     VendorSeverity:
       azure: 2
+      cbl-mariner: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -3738,6 +3740,7 @@
     - CWE-440
     VendorSeverity:
       azure: 2
+      cbl-mariner: 2
       redhat: 2
       ubuntu: 2
     CVSS:
