@@ -1701,7 +1701,55 @@
 │                        │      │                  ╰ [5]: https://www.sqlite.org/cves.html 
 │                        │      ├ PublishedDate   : 2025-04-07T20:15:20.253Z 
 │                        │      ╰ LastModifiedDate: 2025-04-15T16:16:06.233Z 
-│                        ├ [36] ╭ VulnerabilityID : CVE-2025-3277 
+│                        ├ [36] ╭ VulnerabilityID : CVE-2025-29088 
+│                        │      ├ PkgID           : libsqlite3-0@3.45.1-1ubuntu2.1 
+│                        │      ├ PkgName         : libsqlite3-0 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libsqlite3-0@3.45.1-1ubuntu2.1?arch=a
+│                        │      │                  │       md64&distro=ubuntu-24.04 
+│                        │      │                  ╰ UID : 1608f701cfe44fc2 
+│                        │      ├ InstalledVersion: 3.45.1-1ubuntu2.1 
+│                        │      ├ Status          : affected 
+│                        │      ├ Layer            ╭ Digest: sha256:d3839bd6abb9ed629ca509720138adce7e4ec3e2136
+│                        │      │                  │         9b7f1890a2c435cd65873 
+│                        │      │                  ╰ DiffID: sha256:a009607838216a815e5138402fa5f9fd6d5888f2951
+│                        │      │                            9827f8671a129ceeecff0 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-29088 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : sqlite: Denial of Service in SQLite 
+│                        │      ├ Description     : In SQLite 3.49.0 before 3.49.1, certain argument values to
+│                        │      │                   sqlite3_db_config (in the C-language API) can cause a
+│                        │      │                   denial of service (application crash). An sz*nBig
+│                        │      │                   multiplication is not cast to a 64-bit integer, and
+│                        │      │                   consequently some memory allocations may be incorrect. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ CweIDs           ╭ [0]: CWE-190 
+│                        │      │                  ╰ [1]: CWE-400 
+│                        │      ├ VendorSeverity   ╭ bitnami: 3 
+│                        │      │                  ├ photon : 3 
+│                        │      │                  ├ redhat : 2 
+│                        │      │                  ╰ ubuntu : 2 
+│                        │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                        │      │                  │         │           :N/A:H 
+│                        │      │                  │         ╰ V3Score : 7.5 
+│                        │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I
+│                        │      │                            │           :N/A:H 
+│                        │      │                            ╰ V3Score : 5.5 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-29088 
+│                        │      │                  ├ [1]: https://gist.github.com/ylwango613/d3883fb9f6ba8a7808
+│                        │      │                  │      6356779ce88248 
+│                        │      │                  ├ [2]: https://github.com/sqlite/sqlite/commit/56d2fd008b108
+│                        │      │                  │      109f489339f5fd55212bb50afd4 
+│                        │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-29088 
+│                        │      │                  ├ [4]: https://sqlite.org/forum/forumpost/48f365daec 
+│                        │      │                  ├ [5]: https://sqlite.org/releaselog/3_49_1.html 
+│                        │      │                  ├ [6]: https://www.cve.org/CVERecord?id=CVE-2025-29088 
+│                        │      │                  ╰ [7]: https://www.sqlite.org/cves.html 
+│                        │      ├ PublishedDate   : 2025-04-10T14:15:27.163Z 
+│                        │      ╰ LastModifiedDate: 2025-04-14T14:15:23.993Z 
+│                        ├ [37] ╭ VulnerabilityID : CVE-2025-3277 
 │                        │      ├ PkgID           : libsqlite3-0@3.45.1-1ubuntu2.1 
 │                        │      ├ PkgName         : libsqlite3-0 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libsqlite3-0@3.45.1-1ubuntu2.1?arch=a
@@ -1734,14 +1782,12 @@
 │                        │      │                           │           L/A:L 
 │                        │      │                           ╰ V3Score : 7.3 
 │                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-3277 
-│                        │      │                  ├ [1]: https://github.com/sqlite/sqlite/commit/e1e67abc5cf67
-│                        │      │                  │      f931aab1e471eda23d73f51d456 
-│                        │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2025-3277 
-│                        │      │                  ├ [3]: https://sqlite.org/src/info/498e3f1cf57f164f 
-│                        │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2025-3277 
+│                        │      │                  ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2025-3277 
+│                        │      │                  ├ [2]: https://sqlite.org/src/info/498e3f1cf57f164f 
+│                        │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2025-3277 
 │                        │      ├ PublishedDate   : 2025-04-14T17:15:27.297Z 
 │                        │      ╰ LastModifiedDate: 2025-04-15T18:39:27.967Z 
-│                        ├ [37] ╭ VulnerabilityID : CVE-2024-41996 
+│                        ├ [38] ╭ VulnerabilityID : CVE-2024-41996 
 │                        │      ├ PkgID           : libssl3t64@3.0.13-0ubuntu3.5 
 │                        │      ├ PkgName         : libssl3t64 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libssl3t64@3.0.13-0ubuntu3.5?arch=amd
@@ -1791,7 +1837,7 @@
 │                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-41996 
 │                        │      ├ PublishedDate   : 2024-08-26T06:15:04.603Z 
 │                        │      ╰ LastModifiedDate: 2024-08-26T16:35:11.247Z 
-│                        ├ [38] ╭ VulnerabilityID : CVE-2024-56433 
+│                        ├ [39] ╭ VulnerabilityID : CVE-2024-56433 
 │                        │      ├ PkgID           : libsubid4@1:4.13+dfsg1-4ubuntu3.2 
 │                        │      ├ PkgName         : libsubid4 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libsubid4@4.13%2Bdfsg1-4ubuntu3.2?arc
@@ -1839,7 +1885,7 @@
 │                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                        │      ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                        │      ╰ LastModifiedDate: 2024-12-26T09:15:07.267Z 
-│                        ├ [39] ╭ VulnerabilityID : CVE-2025-32414 
+│                        ├ [40] ╭ VulnerabilityID : CVE-2025-32414 
 │                        │      ├ PkgID           : libxml2@2.9.14+dfsg-1.3ubuntu3.2 
 │                        │      ├ PkgName         : libxml2 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libxml2@2.9.14%2Bdfsg-1.3ubuntu3.2?ar
@@ -1879,10 +1925,11 @@
 │                        │      │                  ├ [1]: https://gitlab.gnome.org/GNOME/libxml2/-/issues/889 
 │                        │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2025-32414 
 │                        │      │                  ├ [3]: https://ubuntu.com/security/notices/USN-7467-1 
-│                        │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2025-32414 
+│                        │      │                  ├ [4]: https://ubuntu.com/security/notices/USN-7467-2 
+│                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-32414 
 │                        │      ├ PublishedDate   : 2025-04-08T03:15:15.94Z 
 │                        │      ╰ LastModifiedDate: 2025-04-23T19:09:35.517Z 
-│                        ├ [40] ╭ VulnerabilityID : CVE-2025-32415 
+│                        ├ [41] ╭ VulnerabilityID : CVE-2025-32415 
 │                        │      ├ PkgID           : libxml2@2.9.14+dfsg-1.3ubuntu3.2 
 │                        │      ├ PkgName         : libxml2 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libxml2@2.9.14%2Bdfsg-1.3ubuntu3.2?ar
@@ -1923,10 +1970,11 @@
 │                        │      │                  ├ [1]: https://gitlab.gnome.org/GNOME/libxml2/-/issues/890 
 │                        │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2025-32415 
 │                        │      │                  ├ [3]: https://ubuntu.com/security/notices/USN-7467-1 
-│                        │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2025-32415 
+│                        │      │                  ├ [4]: https://ubuntu.com/security/notices/USN-7467-2 
+│                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-32415 
 │                        │      ├ PublishedDate   : 2025-04-17T17:15:33.733Z 
 │                        │      ╰ LastModifiedDate: 2025-04-23T18:17:52.053Z 
-│                        ├ [41] ╭ VulnerabilityID : CVE-2024-56433 
+│                        ├ [42] ╭ VulnerabilityID : CVE-2024-56433 
 │                        │      ├ PkgID           : login@1:4.13+dfsg1-4ubuntu3.2 
 │                        │      ├ PkgName         : login 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/login@4.13%2Bdfsg1-4ubuntu3.2?arch=am
@@ -1974,7 +2022,7 @@
 │                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                        │      ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                        │      ╰ LastModifiedDate: 2024-12-26T09:15:07.267Z 
-│                        ├ [42] ╭ VulnerabilityID : CVE-2024-41996 
+│                        ├ [43] ╭ VulnerabilityID : CVE-2024-41996 
 │                        │      ├ PkgID           : openssl@3.0.13-0ubuntu3.5 
 │                        │      ├ PkgName         : openssl 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl@3.0.13-0ubuntu3.5?arch=amd64&
@@ -2024,7 +2072,7 @@
 │                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-41996 
 │                        │      ├ PublishedDate   : 2024-08-26T06:15:04.603Z 
 │                        │      ╰ LastModifiedDate: 2024-08-26T16:35:11.247Z 
-│                        ├ [43] ╭ VulnerabilityID : CVE-2024-56433 
+│                        ├ [44] ╭ VulnerabilityID : CVE-2024-56433 
 │                        │      ├ PkgID           : passwd@1:4.13+dfsg1-4ubuntu3.2 
 │                        │      ├ PkgName         : passwd 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/passwd@4.13%2Bdfsg1-4ubuntu3.2?arch=a
@@ -2072,7 +2120,7 @@
 │                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                        │      ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                        │      ╰ LastModifiedDate: 2024-12-26T09:15:07.267Z 
-│                        ├ [44] ╭ VulnerabilityID : CVE-2018-6952 
+│                        ├ [45] ╭ VulnerabilityID : CVE-2018-6952 
 │                        │      ├ PkgID           : patch@2.7.6-7build3 
 │                        │      ├ PkgName         : patch 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/patch@2.7.6-7build3?arch=amd64&distro
@@ -2122,7 +2170,7 @@
 │                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2018-6952 
 │                        │      ├ PublishedDate   : 2018-02-13T19:29:00.573Z 
 │                        │      ╰ LastModifiedDate: 2024-11-21T04:11:28.42Z 
-│                        ├ [45] ╭ VulnerabilityID : CVE-2021-45261 
+│                        ├ [46] ╭ VulnerabilityID : CVE-2021-45261 
 │                        │      ├ PkgID           : patch@2.7.6-7build3 
 │                        │      ├ PkgName         : patch 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/patch@2.7.6-7build3?arch=amd64&distro
@@ -2162,7 +2210,7 @@
 │                        │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2021-45261 
 │                        │      ├ PublishedDate   : 2021-12-22T18:15:08.1Z 
 │                        │      ╰ LastModifiedDate: 2024-11-21T06:32:02.633Z 
-│                        ├ [46] ╭ VulnerabilityID : CVE-2024-56433 
+│                        ├ [47] ╭ VulnerabilityID : CVE-2024-56433 
 │                        │      ├ PkgID           : uidmap@1:4.13+dfsg1-4ubuntu3.2 
 │                        │      ├ PkgName         : uidmap 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/uidmap@4.13%2Bdfsg1-4ubuntu3.2?arch=a
@@ -2210,7 +2258,7 @@
 │                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                        │      ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                        │      ╰ LastModifiedDate: 2024-12-26T09:15:07.267Z 
-│                        ╰ [47] ╭ VulnerabilityID : CVE-2021-31879 
+│                        ╰ [48] ╭ VulnerabilityID : CVE-2021-31879 
 │                               ├ PkgID           : wget@1.21.4-1ubuntu4.1 
 │                               ├ PkgName         : wget 
 │                               ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/wget@1.21.4-1ubuntu4.1?arch=amd64&dis
