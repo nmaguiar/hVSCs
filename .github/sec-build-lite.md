@@ -1683,12 +1683,16 @@
 │                        │      │                   may not allocate enough memory. 
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-190 
-│                        │      ├ VendorSeverity   ╭ bitnami: 1 
+│                        │      ├ VendorSeverity   ╭ bitnami: 3 
+│                        │      │                  ├ nvd    : 3 
 │                        │      │                  ├ redhat : 2 
 │                        │      │                  ╰ ubuntu : 2 
-│                        │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:N/I
-│                        │      │                  │         │           :N/A:L 
-│                        │      │                  │         ╰ V3Score : 3.2 
+│                        │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                        │      │                  │         │           :N/A:H 
+│                        │      │                  │         ╰ V3Score : 7.5 
+│                        │      │                  ├ nvd     ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                        │      │                  │         │           :N/A:H 
+│                        │      │                  │         ╰ V3Score : 7.5 
 │                        │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I
 │                        │      │                            │           :N/A:H 
 │                        │      │                            ╰ V3Score : 5.5 
@@ -1700,7 +1704,7 @@
 │                        │      │                  ├ [4]: https://www.cve.org/CVERecord?id=CVE-2025-29087 
 │                        │      │                  ╰ [5]: https://www.sqlite.org/cves.html 
 │                        │      ├ PublishedDate   : 2025-04-07T20:15:20.253Z 
-│                        │      ╰ LastModifiedDate: 2025-04-15T16:16:06.233Z 
+│                        │      ╰ LastModifiedDate: 2025-04-30T12:43:22.31Z 
 │                        ├ [36] ╭ VulnerabilityID : CVE-2025-29088 
 │                        │      ├ PkgID           : libsqlite3-0@3.45.1-1ubuntu2.1 
 │                        │      ├ PkgName         : libsqlite3-0 
@@ -1748,7 +1752,7 @@
 │                        │      │                  ├ [6]: https://www.cve.org/CVERecord?id=CVE-2025-29088 
 │                        │      │                  ╰ [7]: https://www.sqlite.org/cves.html 
 │                        │      ├ PublishedDate   : 2025-04-10T14:15:27.163Z 
-│                        │      ╰ LastModifiedDate: 2025-04-14T14:15:23.993Z 
+│                        │      ╰ LastModifiedDate: 2025-04-30T16:40:41.543Z 
 │                        ├ [37] ╭ VulnerabilityID : CVE-2025-3277 
 │                        │      ├ PkgID           : libsqlite3-0@3.45.1-1ubuntu2.1 
 │                        │      ├ PkgName         : libsqlite3-0 
@@ -2494,7 +2498,8 @@
 │                        │     │                   during DOM construction, but only when tags are in foreign
 │                        │     │                   content (e.g. <math>, <svg>, etc contexts). 
 │                        │     ├ Severity        : MEDIUM 
-│                        │     ├ VendorSeverity   ╭ ghsa  : 2 
+│                        │     ├ VendorSeverity   ╭ azure : 2 
+│                        │     │                  ├ ghsa  : 2 
 │                        │     │                  ╰ redhat: 2 
 │                        │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:L/I:L
 │                        │     │                           │           /A:L 
@@ -2741,7 +2746,8 @@
 │                        │     │                   during DOM construction, but only when tags are in foreign
 │                        │     │                   content (e.g. <math>, <svg>, etc contexts). 
 │                        │     ├ Severity        : MEDIUM 
-│                        │     ├ VendorSeverity   ╭ ghsa  : 2 
+│                        │     ├ VendorSeverity   ╭ azure : 2 
+│                        │     │                  ├ ghsa  : 2 
 │                        │     │                  ╰ redhat: 2 
 │                        │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:L/I:L
 │                        │     │                           │           /A:L 
@@ -2899,7 +2905,8 @@
 │                        │     │                   during DOM construction, but only when tags are in foreign
 │                        │     │                   content (e.g. <math>, <svg>, etc contexts). 
 │                        │     ├ Severity        : MEDIUM 
-│                        │     ├ VendorSeverity   ╭ ghsa  : 2 
+│                        │     ├ VendorSeverity   ╭ azure : 2 
+│                        │     │                  ├ ghsa  : 2 
 │                        │     │                  ╰ redhat: 2 
 │                        │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:L/I:L
 │                        │     │                           │           /A:L 
@@ -3365,7 +3372,8 @@
 │                        │     │                   during DOM construction, but only when tags are in foreign
 │                        │     │                   content (e.g. <math>, <svg>, etc contexts). 
 │                        │     ├ Severity        : MEDIUM 
-│                        │     ├ VendorSeverity   ╭ ghsa  : 2 
+│                        │     ├ VendorSeverity   ╭ azure : 2 
+│                        │     │                  ├ ghsa  : 2 
 │                        │     │                  ╰ redhat: 2 
 │                        │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:L/I:L
 │                        │     │                           │           /A:L 
