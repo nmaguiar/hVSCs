@@ -4219,6 +4219,7 @@
 │                        │       ├ CweIDs           ─ [0]: CWE-440 
 │                        │       ├ VendorSeverity   ╭ azure      : 2 
 │                        │       │                  ├ cbl-mariner: 2 
+│                        │       │                  ├ photon     : 2 
 │                        │       │                  ├ redhat     : 2 
 │                        │       │                  ╰ ubuntu     : 2 
 │                        │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:N/I
@@ -4266,6 +4267,7 @@
 │                        │       ├ CweIDs           ─ [0]: CWE-440 
 │                        │       ├ VendorSeverity   ╭ azure      : 2 
 │                        │       │                  ├ cbl-mariner: 2 
+│                        │       │                  ├ photon     : 2 
 │                        │       │                  ├ redhat     : 2 
 │                        │       │                  ╰ ubuntu     : 2 
 │                        │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:N/I
@@ -4313,6 +4315,7 @@
 │                        │       ├ CweIDs           ─ [0]: CWE-440 
 │                        │       ├ VendorSeverity   ╭ azure      : 2 
 │                        │       │                  ├ cbl-mariner: 2 
+│                        │       │                  ├ photon     : 2 
 │                        │       │                  ├ redhat     : 2 
 │                        │       │                  ╰ ubuntu     : 2 
 │                        │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:N/I
