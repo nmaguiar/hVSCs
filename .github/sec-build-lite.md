@@ -753,9 +753,11 @@
 │                        │      │                   bpf_object__init_prog` function of libbpf. 
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-120 
-│                        │      ├ VendorSeverity   ╭ bitnami: 2 
-│                        │      │                  ├ redhat : 2 
-│                        │      │                  ╰ ubuntu : 2 
+│                        │      ├ VendorSeverity   ╭ azure      : 2 
+│                        │      │                  ├ bitnami    : 2 
+│                        │      │                  ├ cbl-mariner: 2 
+│                        │      │                  ├ redhat     : 2 
+│                        │      │                  ╰ ubuntu     : 2 
 │                        │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I
 │                        │      │                  │         │           :N/A:H 
 │                        │      │                  │         ╰ V3Score : 6.2 
@@ -1819,15 +1821,18 @@
 │                        │      │                   code execution. 
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-122 
-│                        │      ├ VendorSeverity   ╭ redhat: 3 
-│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ VendorSeverity   ╭ oracle-oval: 3 
+│                        │      │                  ├ redhat     : 3 
+│                        │      │                  ╰ ubuntu     : 2 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:
 │                        │      │                           │           L/A:L 
 │                        │      │                           ╰ V3Score : 7.3 
 │                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-3277 
-│                        │      │                  ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2025-3277 
-│                        │      │                  ├ [2]: https://sqlite.org/src/info/498e3f1cf57f164f 
-│                        │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2025-3277 
+│                        │      │                  ├ [1]: https://linux.oracle.com/cve/CVE-2025-3277.html 
+│                        │      │                  ├ [2]: https://linux.oracle.com/errata/ELSA-2025-4459.html 
+│                        │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-3277 
+│                        │      │                  ├ [4]: https://sqlite.org/src/info/498e3f1cf57f164f 
+│                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-3277 
 │                        │      ├ PublishedDate   : 2025-04-14T17:15:27.297Z 
 │                        │      ╰ LastModifiedDate: 2025-04-15T18:39:27.967Z 
 │                        ├ [39] ╭ VulnerabilityID : CVE-2024-41996 
@@ -2448,9 +2453,10 @@
 │                        │     │                   during DOM construction, but only when tags are in foreign
 │                        │     │                   content (e.g. <math>, <svg>, etc contexts). 
 │                        │     ├ Severity        : MEDIUM 
-│                        │     ├ VendorSeverity   ╭ azure : 2 
-│                        │     │                  ├ ghsa  : 2 
-│                        │     │                  ╰ redhat: 2 
+│                        │     ├ VendorSeverity   ╭ azure      : 2 
+│                        │     │                  ├ cbl-mariner: 2 
+│                        │     │                  ├ ghsa       : 2 
+│                        │     │                  ╰ redhat     : 2 
 │                        │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:L/I:L
 │                        │     │                           │           /A:L 
 │                        │     │                           ╰ V3Score : 6.5 
@@ -2696,9 +2702,10 @@
 │                        │     │                   during DOM construction, but only when tags are in foreign
 │                        │     │                   content (e.g. <math>, <svg>, etc contexts). 
 │                        │     ├ Severity        : MEDIUM 
-│                        │     ├ VendorSeverity   ╭ azure : 2 
-│                        │     │                  ├ ghsa  : 2 
-│                        │     │                  ╰ redhat: 2 
+│                        │     ├ VendorSeverity   ╭ azure      : 2 
+│                        │     │                  ├ cbl-mariner: 2 
+│                        │     │                  ├ ghsa       : 2 
+│                        │     │                  ╰ redhat     : 2 
 │                        │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:L/I:L
 │                        │     │                           │           /A:L 
 │                        │     │                           ╰ V3Score : 6.5 
@@ -2797,10 +2804,12 @@
 │                        │     │                   permissions to import images. 
 │                        │     ├ Severity        : MEDIUM 
 │                        │     ├ CweIDs           ─ [0]: CWE-190 
-│                        │     ├ VendorSeverity   ╭ amazon: 2 
-│                        │     │                  ├ ghsa  : 2 
-│                        │     │                  ├ redhat: 2 
-│                        │     │                  ╰ ubuntu: 2 
+│                        │     ├ VendorSeverity   ╭ amazon     : 2 
+│                        │     │                  ├ azure      : 2 
+│                        │     │                  ├ cbl-mariner: 2 
+│                        │     │                  ├ ghsa       : 2 
+│                        │     │                  ├ redhat     : 2 
+│                        │     │                  ╰ ubuntu     : 2 
 │                        │     ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:C/C:L/I:L
 │                        │     │                  │        │           /A:N 
 │                        │     │                  │        ╰ V3Score : 4.6 
@@ -2821,11 +2830,13 @@
 │                        │     │                  │       e884cfe4812a6c371b59e4ea9bc4c46e51a 
 │                        │     │                  ├ [7] : https://github.com/containerd/containerd/security/adv
 │                        │     │                  │       isories/GHSA-265r-hfxg-fhmg 
-│                        │     │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2024-40635 
-│                        │     │                  ├ [9] : https://ubuntu.com/security/notices/USN-7374-1 
-│                        │     │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2024-40635 
+│                        │     │                  ├ [8] : https://lists.debian.org/debian-lts-announce/2025/05/
+│                        │     │                  │       msg00005.html 
+│                        │     │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2024-40635 
+│                        │     │                  ├ [10]: https://ubuntu.com/security/notices/USN-7374-1 
+│                        │     │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2024-40635 
 │                        │     ├ PublishedDate   : 2025-03-17T22:15:13.15Z 
-│                        │     ╰ LastModifiedDate: 2025-03-17T22:15:13.15Z 
+│                        │     ╰ LastModifiedDate: 2025-05-04T22:15:31.84Z 
 │                        ├ [1] ╭ VulnerabilityID : CVE-2025-22872 
 │                        │     ├ PkgID           : golang.org/x/net@v0.37.0 
 │                        │     ├ PkgName         : golang.org/x/net 
@@ -2855,9 +2866,10 @@
 │                        │     │                   during DOM construction, but only when tags are in foreign
 │                        │     │                   content (e.g. <math>, <svg>, etc contexts). 
 │                        │     ├ Severity        : MEDIUM 
-│                        │     ├ VendorSeverity   ╭ azure : 2 
-│                        │     │                  ├ ghsa  : 2 
-│                        │     │                  ╰ redhat: 2 
+│                        │     ├ VendorSeverity   ╭ azure      : 2 
+│                        │     │                  ├ cbl-mariner: 2 
+│                        │     │                  ├ ghsa       : 2 
+│                        │     │                  ╰ redhat     : 2 
 │                        │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:L/I:L
 │                        │     │                           │           /A:L 
 │                        │     │                           ╰ V3Score : 6.5 
@@ -2959,10 +2971,12 @@
 │                        │     │                   permissions to import images. 
 │                        │     ├ Severity        : MEDIUM 
 │                        │     ├ CweIDs           ─ [0]: CWE-190 
-│                        │     ├ VendorSeverity   ╭ amazon: 2 
-│                        │     │                  ├ ghsa  : 2 
-│                        │     │                  ├ redhat: 2 
-│                        │     │                  ╰ ubuntu: 2 
+│                        │     ├ VendorSeverity   ╭ amazon     : 2 
+│                        │     │                  ├ azure      : 2 
+│                        │     │                  ├ cbl-mariner: 2 
+│                        │     │                  ├ ghsa       : 2 
+│                        │     │                  ├ redhat     : 2 
+│                        │     │                  ╰ ubuntu     : 2 
 │                        │     ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:C/C:L/I:L
 │                        │     │                  │        │           /A:N 
 │                        │     │                  │        ╰ V3Score : 4.6 
@@ -2983,11 +2997,13 @@
 │                        │     │                  │       e884cfe4812a6c371b59e4ea9bc4c46e51a 
 │                        │     │                  ├ [7] : https://github.com/containerd/containerd/security/adv
 │                        │     │                  │       isories/GHSA-265r-hfxg-fhmg 
-│                        │     │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2024-40635 
-│                        │     │                  ├ [9] : https://ubuntu.com/security/notices/USN-7374-1 
-│                        │     │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2024-40635 
+│                        │     │                  ├ [8] : https://lists.debian.org/debian-lts-announce/2025/05/
+│                        │     │                  │       msg00005.html 
+│                        │     │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2024-40635 
+│                        │     │                  ├ [10]: https://ubuntu.com/security/notices/USN-7374-1 
+│                        │     │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2024-40635 
 │                        │     ├ PublishedDate   : 2025-03-17T22:15:13.15Z 
-│                        │     ╰ LastModifiedDate: 2025-03-17T22:15:13.15Z 
+│                        │     ╰ LastModifiedDate: 2025-05-04T22:15:31.84Z 
 │                        ├ [1] ╭ VulnerabilityID : CVE-2024-41110 
 │                        │     ├ PkgID           : github.com/docker/docker@v27.0.3+incompatible 
 │                        │     ├ PkgName         : github.com/docker/docker 
@@ -3322,9 +3338,10 @@
 │                        │     │                   during DOM construction, but only when tags are in foreign
 │                        │     │                   content (e.g. <math>, <svg>, etc contexts). 
 │                        │     ├ Severity        : MEDIUM 
-│                        │     ├ VendorSeverity   ╭ azure : 2 
-│                        │     │                  ├ ghsa  : 2 
-│                        │     │                  ╰ redhat: 2 
+│                        │     ├ VendorSeverity   ╭ azure      : 2 
+│                        │     │                  ├ cbl-mariner: 2 
+│                        │     │                  ├ ghsa       : 2 
+│                        │     │                  ╰ redhat     : 2 
 │                        │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:L/I:L
 │                        │     │                           │           /A:L 
 │                        │     │                           ╰ V3Score : 6.5 
