@@ -716,7 +716,9 @@
     CweIDs:
     - CWE-120
     VendorSeverity:
+      azure: 2
       bitnami: 2
+      cbl-mariner: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -1708,6 +1710,7 @@
     CweIDs:
     - CWE-122
     VendorSeverity:
+      oracle-oval: 3
       redhat: 3
       ubuntu: 2
     CVSS:
@@ -1716,6 +1719,8 @@
         V3Score: 7.3
     References:
     - https://access.redhat.com/security/cve/CVE-2025-3277
+    - https://linux.oracle.com/cve/CVE-2025-3277.html
+    - https://linux.oracle.com/errata/ELSA-2025-4459.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-3277
     - https://sqlite.org/src/info/498e3f1cf57f164f
     - https://www.cve.org/CVERecord?id=CVE-2025-3277
@@ -2262,6 +2267,7 @@
     Severity: MEDIUM
     VendorSeverity:
       azure: 2
+      cbl-mariner: 2
       ghsa: 2
       redhat: 2
     CVSS:
@@ -2479,6 +2485,7 @@
     Severity: MEDIUM
     VendorSeverity:
       azure: 2
+      cbl-mariner: 2
       ghsa: 2
       redhat: 2
     CVSS:
@@ -2571,6 +2578,8 @@
     - CWE-190
     VendorSeverity:
       amazon: 2
+      azure: 2
+      cbl-mariner: 2
       ghsa: 2
       redhat: 2
       ubuntu: 2
@@ -2590,11 +2599,12 @@
     - https://github.com/containerd/containerd/commit/9639b9625554183d0c4d8d072dccb84fedd2320f (v1.6.38)
     - https://github.com/containerd/containerd/commit/cf158e884cfe4812a6c371b59e4ea9bc4c46e51a
     - https://github.com/containerd/containerd/security/advisories/GHSA-265r-hfxg-fhmg
+    - https://lists.debian.org/debian-lts-announce/2025/05/msg00005.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-40635
     - https://ubuntu.com/security/notices/USN-7374-1
     - https://www.cve.org/CVERecord?id=CVE-2024-40635
     PublishedDate: '2025-03-17T22:15:13.15Z'
-    LastModifiedDate: '2025-03-17T22:15:13.15Z'
+    LastModifiedDate: '2025-05-04T22:15:31.84Z'
   - VulnerabilityID: CVE-2025-22872
     PkgID: golang.org/x/net@v0.37.0
     PkgName: golang.org/x/net
@@ -2618,6 +2628,7 @@
     Severity: MEDIUM
     VendorSeverity:
       azure: 2
+      cbl-mariner: 2
       ghsa: 2
       redhat: 2
     CVSS:
@@ -2713,6 +2724,8 @@
     - CWE-190
     VendorSeverity:
       amazon: 2
+      azure: 2
+      cbl-mariner: 2
       ghsa: 2
       redhat: 2
       ubuntu: 2
@@ -2732,11 +2745,12 @@
     - https://github.com/containerd/containerd/commit/9639b9625554183d0c4d8d072dccb84fedd2320f (v1.6.38)
     - https://github.com/containerd/containerd/commit/cf158e884cfe4812a6c371b59e4ea9bc4c46e51a
     - https://github.com/containerd/containerd/security/advisories/GHSA-265r-hfxg-fhmg
+    - https://lists.debian.org/debian-lts-announce/2025/05/msg00005.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-40635
     - https://ubuntu.com/security/notices/USN-7374-1
     - https://www.cve.org/CVERecord?id=CVE-2024-40635
     PublishedDate: '2025-03-17T22:15:13.15Z'
-    LastModifiedDate: '2025-03-17T22:15:13.15Z'
+    LastModifiedDate: '2025-05-04T22:15:31.84Z'
   - VulnerabilityID: CVE-2024-41110
     PkgID: github.com/docker/docker@v27.0.3+incompatible
     PkgName: github.com/docker/docker
@@ -2986,6 +3000,7 @@
     Severity: MEDIUM
     VendorSeverity:
       azure: 2
+      cbl-mariner: 2
       ghsa: 2
       redhat: 2
     CVSS:
