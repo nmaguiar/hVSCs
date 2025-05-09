@@ -4232,22 +4232,24 @@
 │                        │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:N/I
 │                        │       │                           │           :L/A:N 
 │                        │       │                           ╰ V3Score : 4.3 
-│                        │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-32728 
-│                        │       │                  ├ [1]: https://ftp.openbsd.org/pub/OpenBSD/patches/7.6/comm
-│                        │       │                  │      on/013_ssh.patch.sig 
-│                        │       │                  ├ [2]: https://github.com/openssh/openssh-portable/commit/f
-│                        │       │                  │      c86875e6acb36401dfc1dfb6b628a9d1460f367 
-│                        │       │                  ├ [3]: https://lists.mindrot.org/pipermail/openssh-unix-dev
-│                        │       │                  │      /2025-April/041879.html 
-│                        │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-32728 
-│                        │       │                  ├ [5]: https://security.netapp.com/advisory/ntap-20250425-0
-│                        │       │                  │      002/ 
-│                        │       │                  ├ [6]: https://ubuntu.com/security/notices/USN-7457-1 
-│                        │       │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2025-32728 
-│                        │       │                  ├ [8]: https://www.openssh.com/txt/release-10.0 
-│                        │       │                  ╰ [9]: https://www.openssh.com/txt/release-7.4 
+│                        │       ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2025-32728 
+│                        │       │                  ├ [1] : https://ftp.openbsd.org/pub/OpenBSD/patches/7.6/com
+│                        │       │                  │       mon/013_ssh.patch.sig 
+│                        │       │                  ├ [2] : https://github.com/openssh/openssh-portable/commit/
+│                        │       │                  │       fc86875e6acb36401dfc1dfb6b628a9d1460f367 
+│                        │       │                  ├ [3] : https://lists.debian.org/debian-lts-announce/2025/0
+│                        │       │                  │       5/msg00008.html 
+│                        │       │                  ├ [4] : https://lists.mindrot.org/pipermail/openssh-unix-de
+│                        │       │                  │       v/2025-April/041879.html 
+│                        │       │                  ├ [5] : https://nvd.nist.gov/vuln/detail/CVE-2025-32728 
+│                        │       │                  ├ [6] : https://security.netapp.com/advisory/ntap-20250425-
+│                        │       │                  │       0002/ 
+│                        │       │                  ├ [7] : https://ubuntu.com/security/notices/USN-7457-1 
+│                        │       │                  ├ [8] : https://www.cve.org/CVERecord?id=CVE-2025-32728 
+│                        │       │                  ├ [9] : https://www.openssh.com/txt/release-10.0 
+│                        │       │                  ╰ [10]: https://www.openssh.com/txt/release-7.4 
 │                        │       ├ PublishedDate   : 2025-04-10T02:15:30.873Z 
-│                        │       ╰ LastModifiedDate: 2025-04-25T23:15:17.1Z 
+│                        │       ╰ LastModifiedDate: 2025-05-08T14:15:25.777Z 
 │                        ├ [83]  ╭ VulnerabilityID : CVE-2025-32728 
 │                        │       ├ PkgID           : openssh-server@1:8.9p1-3ubuntu0.11 
 │                        │       ├ PkgName         : openssh-server 
@@ -4280,22 +4282,24 @@
 │                        │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:N/I
 │                        │       │                           │           :L/A:N 
 │                        │       │                           ╰ V3Score : 4.3 
-│                        │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-32728 
-│                        │       │                  ├ [1]: https://ftp.openbsd.org/pub/OpenBSD/patches/7.6/comm
-│                        │       │                  │      on/013_ssh.patch.sig 
-│                        │       │                  ├ [2]: https://github.com/openssh/openssh-portable/commit/f
-│                        │       │                  │      c86875e6acb36401dfc1dfb6b628a9d1460f367 
-│                        │       │                  ├ [3]: https://lists.mindrot.org/pipermail/openssh-unix-dev
-│                        │       │                  │      /2025-April/041879.html 
-│                        │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-32728 
-│                        │       │                  ├ [5]: https://security.netapp.com/advisory/ntap-20250425-0
-│                        │       │                  │      002/ 
-│                        │       │                  ├ [6]: https://ubuntu.com/security/notices/USN-7457-1 
-│                        │       │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2025-32728 
-│                        │       │                  ├ [8]: https://www.openssh.com/txt/release-10.0 
-│                        │       │                  ╰ [9]: https://www.openssh.com/txt/release-7.4 
+│                        │       ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2025-32728 
+│                        │       │                  ├ [1] : https://ftp.openbsd.org/pub/OpenBSD/patches/7.6/com
+│                        │       │                  │       mon/013_ssh.patch.sig 
+│                        │       │                  ├ [2] : https://github.com/openssh/openssh-portable/commit/
+│                        │       │                  │       fc86875e6acb36401dfc1dfb6b628a9d1460f367 
+│                        │       │                  ├ [3] : https://lists.debian.org/debian-lts-announce/2025/0
+│                        │       │                  │       5/msg00008.html 
+│                        │       │                  ├ [4] : https://lists.mindrot.org/pipermail/openssh-unix-de
+│                        │       │                  │       v/2025-April/041879.html 
+│                        │       │                  ├ [5] : https://nvd.nist.gov/vuln/detail/CVE-2025-32728 
+│                        │       │                  ├ [6] : https://security.netapp.com/advisory/ntap-20250425-
+│                        │       │                  │       0002/ 
+│                        │       │                  ├ [7] : https://ubuntu.com/security/notices/USN-7457-1 
+│                        │       │                  ├ [8] : https://www.cve.org/CVERecord?id=CVE-2025-32728 
+│                        │       │                  ├ [9] : https://www.openssh.com/txt/release-10.0 
+│                        │       │                  ╰ [10]: https://www.openssh.com/txt/release-7.4 
 │                        │       ├ PublishedDate   : 2025-04-10T02:15:30.873Z 
-│                        │       ╰ LastModifiedDate: 2025-04-25T23:15:17.1Z 
+│                        │       ╰ LastModifiedDate: 2025-05-08T14:15:25.777Z 
 │                        ├ [84]  ╭ VulnerabilityID : CVE-2025-32728 
 │                        │       ├ PkgID           : openssh-sftp-server@1:8.9p1-3ubuntu0.11 
 │                        │       ├ PkgName         : openssh-sftp-server 
@@ -4328,22 +4332,24 @@
 │                        │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:N/I
 │                        │       │                           │           :L/A:N 
 │                        │       │                           ╰ V3Score : 4.3 
-│                        │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-32728 
-│                        │       │                  ├ [1]: https://ftp.openbsd.org/pub/OpenBSD/patches/7.6/comm
-│                        │       │                  │      on/013_ssh.patch.sig 
-│                        │       │                  ├ [2]: https://github.com/openssh/openssh-portable/commit/f
-│                        │       │                  │      c86875e6acb36401dfc1dfb6b628a9d1460f367 
-│                        │       │                  ├ [3]: https://lists.mindrot.org/pipermail/openssh-unix-dev
-│                        │       │                  │      /2025-April/041879.html 
-│                        │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-32728 
-│                        │       │                  ├ [5]: https://security.netapp.com/advisory/ntap-20250425-0
-│                        │       │                  │      002/ 
-│                        │       │                  ├ [6]: https://ubuntu.com/security/notices/USN-7457-1 
-│                        │       │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2025-32728 
-│                        │       │                  ├ [8]: https://www.openssh.com/txt/release-10.0 
-│                        │       │                  ╰ [9]: https://www.openssh.com/txt/release-7.4 
+│                        │       ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2025-32728 
+│                        │       │                  ├ [1] : https://ftp.openbsd.org/pub/OpenBSD/patches/7.6/com
+│                        │       │                  │       mon/013_ssh.patch.sig 
+│                        │       │                  ├ [2] : https://github.com/openssh/openssh-portable/commit/
+│                        │       │                  │       fc86875e6acb36401dfc1dfb6b628a9d1460f367 
+│                        │       │                  ├ [3] : https://lists.debian.org/debian-lts-announce/2025/0
+│                        │       │                  │       5/msg00008.html 
+│                        │       │                  ├ [4] : https://lists.mindrot.org/pipermail/openssh-unix-de
+│                        │       │                  │       v/2025-April/041879.html 
+│                        │       │                  ├ [5] : https://nvd.nist.gov/vuln/detail/CVE-2025-32728 
+│                        │       │                  ├ [6] : https://security.netapp.com/advisory/ntap-20250425-
+│                        │       │                  │       0002/ 
+│                        │       │                  ├ [7] : https://ubuntu.com/security/notices/USN-7457-1 
+│                        │       │                  ├ [8] : https://www.cve.org/CVERecord?id=CVE-2025-32728 
+│                        │       │                  ├ [9] : https://www.openssh.com/txt/release-10.0 
+│                        │       │                  ╰ [10]: https://www.openssh.com/txt/release-7.4 
 │                        │       ├ PublishedDate   : 2025-04-10T02:15:30.873Z 
-│                        │       ╰ LastModifiedDate: 2025-04-25T23:15:17.1Z 
+│                        │       ╰ LastModifiedDate: 2025-05-08T14:15:25.777Z 
 │                        ├ [85]  ╭ VulnerabilityID : CVE-2024-41996 
 │                        │       ├ PkgID           : openssl@3.0.2-0ubuntu1.19 
 │                        │       ├ PkgName         : openssl 
@@ -6045,7 +6051,7 @@
 │                        │     │                  ├ [7] : https://github.com/golang-jwt/jwt/security/advisories
 │                        │     │                  │       /GHSA-mh63-6h87-95cp 
 │                        │     │                  ├ [8] : https://linux.oracle.com/cve/CVE-2025-30204.html 
-│                        │     │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2025-3344.html 
+│                        │     │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2025-4669.html 
 │                        │     │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2025-30204 
 │                        │     │                  ├ [11]: https://security.netapp.com/advisory/ntap-20250404-0002 
 │                        │     │                  ├ [12]: https://security.netapp.com/advisory/ntap-20250404-00
@@ -6617,7 +6623,7 @@
 │                        │     │                  ├ [7] : https://github.com/golang-jwt/jwt/security/advisories
 │                        │     │                  │       /GHSA-mh63-6h87-95cp 
 │                        │     │                  ├ [8] : https://linux.oracle.com/cve/CVE-2025-30204.html 
-│                        │     │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2025-3344.html 
+│                        │     │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2025-4669.html 
 │                        │     │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2025-30204 
 │                        │     │                  ├ [11]: https://security.netapp.com/advisory/ntap-20250404-0002 
 │                        │     │                  ├ [12]: https://security.netapp.com/advisory/ntap-20250404-00
