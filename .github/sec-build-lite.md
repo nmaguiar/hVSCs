@@ -1821,18 +1821,23 @@
 │                        │      │                   code execution. 
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-122 
-│                        │      ├ VendorSeverity   ╭ oracle-oval: 3 
+│                        │      ├ VendorSeverity   ╭ alma       : 3 
+│                        │      │                  ├ oracle-oval: 3 
 │                        │      │                  ├ redhat     : 3 
 │                        │      │                  ╰ ubuntu     : 2 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:
 │                        │      │                           │           L/A:L 
 │                        │      │                           ╰ V3Score : 7.3 
-│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-3277 
-│                        │      │                  ├ [1]: https://linux.oracle.com/cve/CVE-2025-3277.html 
-│                        │      │                  ├ [2]: https://linux.oracle.com/errata/ELSA-2025-4459.html 
-│                        │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-3277 
-│                        │      │                  ├ [4]: https://sqlite.org/src/info/498e3f1cf57f164f 
-│                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-3277 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2025:4459 
+│                        │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-3277 
+│                        │      │                  ├ [2]: https://bugzilla.redhat.com/2358271 
+│                        │      │                  ├ [3]: https://bugzilla.redhat.com/2359553 
+│                        │      │                  ├ [4]: https://errata.almalinux.org/8/ALSA-2025-4459.html 
+│                        │      │                  ├ [5]: https://linux.oracle.com/cve/CVE-2025-3277.html 
+│                        │      │                  ├ [6]: https://linux.oracle.com/errata/ELSA-2025-4459.html 
+│                        │      │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2025-3277 
+│                        │      │                  ├ [8]: https://sqlite.org/src/info/498e3f1cf57f164f 
+│                        │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2025-3277 
 │                        │      ├ PublishedDate   : 2025-04-14T17:15:27.297Z 
 │                        │      ╰ LastModifiedDate: 2025-04-15T18:39:27.967Z 
 │                        ├ [39] ╭ VulnerabilityID : CVE-2024-41996 
