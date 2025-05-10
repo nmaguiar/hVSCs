@@ -152,7 +152,7 @@
 │                        │       │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                        │       │                  │       2023-34969 
 │                        │       │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2023-4569.html 
-│                        │       │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4498 
+│                        │       │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4569 
 │                        │       │                  ├ [7] : https://gitlab.freedesktop.org/dbus/dbus/-/issues/457 
 │                        │       │                  ├ [8] : https://linux.oracle.com/cve/CVE-2023-34969.html 
 │                        │       │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2023-4569.html 
@@ -220,7 +220,7 @@
 │                        │       │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                        │       │                  │       2023-34969 
 │                        │       │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2023-4569.html 
-│                        │       │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4498 
+│                        │       │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4569 
 │                        │       │                  ├ [7] : https://gitlab.freedesktop.org/dbus/dbus/-/issues/457 
 │                        │       │                  ├ [8] : https://linux.oracle.com/cve/CVE-2023-34969.html 
 │                        │       │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2023-4569.html 
@@ -1823,7 +1823,7 @@
 │                        │       │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                        │       │                  │       2023-34969 
 │                        │       │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2023-4569.html 
-│                        │       │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4498 
+│                        │       │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4569 
 │                        │       │                  ├ [7] : https://gitlab.freedesktop.org/dbus/dbus/-/issues/457 
 │                        │       │                  ├ [8] : https://linux.oracle.com/cve/CVE-2023-34969.html 
 │                        │       │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2023-4569.html 
@@ -2123,9 +2123,10 @@
 │                        │       │                  │       0009/ 
 │                        │       │                  ├ [23]: https://ubuntu.com/security/CVE-2024-8176 
 │                        │       │                  ├ [24]: https://ubuntu.com/security/notices/USN-7424-1 
-│                        │       │                  ╰ [25]: https://www.cve.org/CVERecord?id=CVE-2024-8176 
+│                        │       │                  ├ [25]: https://www.cve.org/CVERecord?id=CVE-2024-8176 
+│                        │       │                  ╰ [26]: https://www.kb.cert.org/vuls/id/760160 
 │                        │       ├ PublishedDate   : 2025-03-14T09:15:14.157Z 
-│                        │       ╰ LastModifiedDate: 2025-05-05T08:15:15.277Z 
+│                        │       ╰ LastModifiedDate: 2025-05-09T14:15:37.043Z 
 │                        ├ [43]  ╭ VulnerabilityID : CVE-2022-27943 
 │                        │       ├ PkgID           : libgcc-s1@12.3.0-1ubuntu1~22.04 
 │                        │       ├ PkgName         : libgcc-s1 
@@ -5463,7 +5464,7 @@
 │                        │     │                  ├ [15]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                        │     │                  │       24-24783 
 │                        │     │                  ├ [16]: https://errata.almalinux.org/9/ALSA-2024-2724.html 
-│                        │     │                  ├ [17]: https://errata.rockylinux.org/RLSA-2024:3346 
+│                        │     │                  ├ [17]: https://errata.rockylinux.org/RLSA-2024:2724 
 │                        │     │                  ├ [18]: https://go.dev/cl/576155 
 │                        │     │                  ├ [19]: https://go.dev/issue/65051 
 │                        │     │                  ├ [20]: https://groups.google.com/g/golang-announce/c/YgW0sx8
@@ -5537,7 +5538,8 @@
 │                        │     │                  ├ [4]: https://go.dev/issue/71984 
 │                        │     │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-22870 
 │                        │     │                  ├ [6]: https://pkg.go.dev/vuln/GO-2025-3503 
-│                        │     │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-22870 
+│                        │     │                  ├ [7]: https://security.netapp.com/advisory/ntap-20250509-0007 
+│                        │     │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2025-22870 
 │                        │     ├ PublishedDate   : 2025-03-12T19:15:38.31Z 
 │                        │     ╰ LastModifiedDate: 2025-03-18T17:15:45.467Z 
 │                        ├ [2] ╭ VulnerabilityID : CVE-2025-22872 
@@ -5712,7 +5714,7 @@
 │                        │     │                  ├ [15]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                        │     │                  │       24-24783 
 │                        │     │                  ├ [16]: https://errata.almalinux.org/9/ALSA-2024-2724.html 
-│                        │     │                  ├ [17]: https://errata.rockylinux.org/RLSA-2024:3346 
+│                        │     │                  ├ [17]: https://errata.rockylinux.org/RLSA-2024:2724 
 │                        │     │                  ├ [18]: https://go.dev/cl/576155 
 │                        │     │                  ├ [19]: https://go.dev/issue/65051 
 │                        │     │                  ├ [20]: https://groups.google.com/g/golang-announce/c/YgW0sx8
@@ -5786,7 +5788,8 @@
 │                        │     │                  ├ [4]: https://go.dev/issue/71984 
 │                        │     │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-22870 
 │                        │     │                  ├ [6]: https://pkg.go.dev/vuln/GO-2025-3503 
-│                        │     │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-22870 
+│                        │     │                  ├ [7]: https://security.netapp.com/advisory/ntap-20250509-0007 
+│                        │     │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2025-22870 
 │                        │     ├ PublishedDate   : 2025-03-12T19:15:38.31Z 
 │                        │     ╰ LastModifiedDate: 2025-03-18T17:15:45.467Z 
 │                        ├ [2] ╭ VulnerabilityID : CVE-2025-22872 
@@ -6164,7 +6167,8 @@
 │                        │     │                  ├ [4]: https://go.dev/issue/71984 
 │                        │     │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-22870 
 │                        │     │                  ├ [6]: https://pkg.go.dev/vuln/GO-2025-3503 
-│                        │     │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-22870 
+│                        │     │                  ├ [7]: https://security.netapp.com/advisory/ntap-20250509-0007 
+│                        │     │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2025-22870 
 │                        │     ├ PublishedDate   : 2025-03-12T19:15:38.31Z 
 │                        │     ╰ LastModifiedDate: 2025-03-18T17:15:45.467Z 
 │                        ├ [5] ╭ VulnerabilityID : CVE-2025-22872 
@@ -6468,7 +6472,8 @@
 │                        │     │                  ├ [4]: https://go.dev/issue/71984 
 │                        │     │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-22870 
 │                        │     │                  ├ [6]: https://pkg.go.dev/vuln/GO-2025-3503 
-│                        │     │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-22870 
+│                        │     │                  ├ [7]: https://security.netapp.com/advisory/ntap-20250509-0007 
+│                        │     │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2025-22870 
 │                        │     ├ PublishedDate   : 2025-03-12T19:15:38.31Z 
 │                        │     ╰ LastModifiedDate: 2025-03-18T17:15:45.467Z 
 │                        ├ [1] ╭ VulnerabilityID : CVE-2025-22872 
@@ -7094,7 +7099,8 @@
 │                        │     │                  ├ [4]: https://go.dev/issue/71984 
 │                        │     │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-22870 
 │                        │     │                  ├ [6]: https://pkg.go.dev/vuln/GO-2025-3503 
-│                        │     │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-22870 
+│                        │     │                  ├ [7]: https://security.netapp.com/advisory/ntap-20250509-0007 
+│                        │     │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2025-22870 
 │                        │     ├ PublishedDate   : 2025-03-12T19:15:38.31Z 
 │                        │     ╰ LastModifiedDate: 2025-03-18T17:15:45.467Z 
 │                        ├ [5] ╭ VulnerabilityID : CVE-2025-22872 
