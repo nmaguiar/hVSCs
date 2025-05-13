@@ -2352,7 +2352,7 @@
 │                        │     │                  ├ [15]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                        │     │                  │       24-24783 
 │                        │     │                  ├ [16]: https://errata.almalinux.org/9/ALSA-2024-2724.html 
-│                        │     │                  ├ [17]: https://errata.rockylinux.org/RLSA-2024:3346 
+│                        │     │                  ├ [17]: https://errata.rockylinux.org/RLSA-2024:2724 
 │                        │     │                  ├ [18]: https://go.dev/cl/576155 
 │                        │     │                  ├ [19]: https://go.dev/issue/65051 
 │                        │     │                  ├ [20]: https://groups.google.com/g/golang-announce/c/YgW0sx8
@@ -2603,7 +2603,7 @@
 │                        │     │                  ├ [15]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                        │     │                  │       24-24783 
 │                        │     │                  ├ [16]: https://errata.almalinux.org/9/ALSA-2024-2724.html 
-│                        │     │                  ├ [17]: https://errata.rockylinux.org/RLSA-2024:3346 
+│                        │     │                  ├ [17]: https://errata.rockylinux.org/RLSA-2024:2724 
 │                        │     │                  ├ [18]: https://go.dev/cl/576155 
 │                        │     │                  ├ [19]: https://go.dev/issue/65051 
 │                        │     │                  ├ [20]: https://groups.google.com/g/golang-announce/c/YgW0sx8
@@ -3402,11 +3402,13 @@
 │                        │     │                   problem. 
 │                        │     ├ Severity        : LOW 
 │                        │     ├ VendorSeverity   ─ ghsa: 1 
-│                        │     ╰ References       ╭ [0]: https://github.com/grpc/grpc-go 
-│                        │                        ├ [1]: https://github.com/grpc/grpc-go/commit/ab292411ddc0f3b
-│                        │                        │      7a7786754d1fe05264c3021eb 
-│                        │                        ╰ [2]: https://github.com/grpc/grpc-go/security/advisories/GH
-│                        │                               SA-xr7q-jx4m-x55m 
+│                        │     ├ References       ╭ [0]: https://github.com/grpc/grpc-go 
+│                        │     │                  ├ [1]: https://github.com/grpc/grpc-go/commit/ab292411ddc0f3b
+│                        │     │                  │      7a7786754d1fe05264c3021eb 
+│                        │     │                  ╰ [2]: https://github.com/grpc/grpc-go/security/advisories/GH
+│                        │     │                         SA-xr7q-jx4m-x55m 
+│                        │     ├ PublishedDate   : 2024-07-05T20:07:01Z 
+│                        │     ╰ LastModifiedDate: 2024-07-09T21:38:29Z 
 │                        ╰ [7] ╭ VulnerabilityID : CVE-2025-22871 
 │                              ├ PkgID           : stdlib@v1.22.12 
 │                              ├ PkgName         : stdlib 
