@@ -491,21 +491,25 @@
 │                        │       ├ Severity        : MEDIUM 
 │                        │       ├ CweIDs           ╭ [0]: CWE-116 
 │                        │       │                  ╰ [1]: CWE-150 
-│                        │       ├ VendorSeverity   ╭ bitnami: 3 
+│                        │       ├ VendorSeverity   ╭ alma   : 2 
+│                        │       │                  ├ bitnami: 3 
 │                        │       │                  ├ redhat : 2 
 │                        │       │                  ╰ ubuntu : 2 
 │                        │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I
 │                        │       │                           │           :H/A:H 
 │                        │       │                           ╰ V3Score : 7.5 
-│                        │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-52005 
-│                        │       │                  ├ [1]: https://github.com/git/git/security/advisories/GHSA-
+│                        │       ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2025:7409 
+│                        │       │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2024-52005 
+│                        │       │                  ├ [2]: https://bugzilla.redhat.com/2338289 
+│                        │       │                  ├ [3]: https://errata.almalinux.org/9/ALSA-2025-7409.html 
+│                        │       │                  ├ [4]: https://github.com/git/git/security/advisories/GHSA-
 │                        │       │                  │      7jjc-gg6m-3329 
-│                        │       │                  ├ [2]: https://lore.kernel.org/git/1M9FnZ-1taoNo1wwh-00ESSd
+│                        │       │                  ├ [5]: https://lore.kernel.org/git/1M9FnZ-1taoNo1wwh-00ESSd
 │                        │       │                  │      @mail.gmx.net 
-│                        │       │                  ├ [3]: https://lore.kernel.org/git/8570a129-d66a-465a-905e-
+│                        │       │                  ├ [6]: https://lore.kernel.org/git/8570a129-d66a-465a-905e-
 │                        │       │                  │      0a077c69c409@gmail.com/T/#t 
-│                        │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-52005 
-│                        │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-52005 
+│                        │       │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2024-52005 
+│                        │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-52005 
 │                        │       ├ PublishedDate   : 2025-01-15T18:15:24.13Z 
 │                        │       ╰ LastModifiedDate: 2025-01-15T18:15:24.13Z 
 │                        ├ [9]   ╭ VulnerabilityID : CVE-2024-52005 
@@ -547,21 +551,25 @@
 │                        │       ├ Severity        : MEDIUM 
 │                        │       ├ CweIDs           ╭ [0]: CWE-116 
 │                        │       │                  ╰ [1]: CWE-150 
-│                        │       ├ VendorSeverity   ╭ bitnami: 3 
+│                        │       ├ VendorSeverity   ╭ alma   : 2 
+│                        │       │                  ├ bitnami: 3 
 │                        │       │                  ├ redhat : 2 
 │                        │       │                  ╰ ubuntu : 2 
 │                        │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I
 │                        │       │                           │           :H/A:H 
 │                        │       │                           ╰ V3Score : 7.5 
-│                        │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-52005 
-│                        │       │                  ├ [1]: https://github.com/git/git/security/advisories/GHSA-
+│                        │       ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2025:7409 
+│                        │       │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2024-52005 
+│                        │       │                  ├ [2]: https://bugzilla.redhat.com/2338289 
+│                        │       │                  ├ [3]: https://errata.almalinux.org/9/ALSA-2025-7409.html 
+│                        │       │                  ├ [4]: https://github.com/git/git/security/advisories/GHSA-
 │                        │       │                  │      7jjc-gg6m-3329 
-│                        │       │                  ├ [2]: https://lore.kernel.org/git/1M9FnZ-1taoNo1wwh-00ESSd
+│                        │       │                  ├ [5]: https://lore.kernel.org/git/1M9FnZ-1taoNo1wwh-00ESSd
 │                        │       │                  │      @mail.gmx.net 
-│                        │       │                  ├ [3]: https://lore.kernel.org/git/8570a129-d66a-465a-905e-
+│                        │       │                  ├ [6]: https://lore.kernel.org/git/8570a129-d66a-465a-905e-
 │                        │       │                  │      0a077c69c409@gmail.com/T/#t 
-│                        │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-52005 
-│                        │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-52005 
+│                        │       │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2024-52005 
+│                        │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-52005 
 │                        │       ├ PublishedDate   : 2025-01-15T18:15:24.13Z 
 │                        │       ╰ LastModifiedDate: 2025-01-15T18:15:24.13Z 
 │                        ├ [10]  ╭ VulnerabilityID : CVE-2025-30258 
@@ -2112,7 +2120,7 @@
 │                        │       │                  ├ [13]: https://bugzilla.redhat.com/2310137 
 │                        │       │                  ├ [14]: https://bugzilla.redhat.com/show_bug.cgi?id=2310137 
 │                        │       │                  ├ [15]: https://bugzilla.suse.com/show_bug.cgi?id=1239618 
-│                        │       │                  ├ [16]: https://errata.almalinux.org/9/ALSA-2025-3531.html 
+│                        │       │                  ├ [16]: https://errata.almalinux.org/9/ALSA-2025-7444.html 
 │                        │       │                  ├ [17]: https://github.com/libexpat/libexpat/blob/R_2_7_0/e
 │                        │       │                  │       xpat/Changes#L40-L52 
 │                        │       │                  ├ [18]: https://github.com/libexpat/libexpat/issues/893 
@@ -6014,7 +6022,63 @@
 │                        │     │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2024-40635 
 │                        │     ├ PublishedDate   : 2025-03-17T22:15:13.15Z 
 │                        │     ╰ LastModifiedDate: 2025-05-04T22:15:31.84Z 
-│                        ├ [1] ╭ VulnerabilityID : CVE-2025-0495 
+│                        ├ [1] ╭ VulnerabilityID : CVE-2025-47291 
+│                        │     ├ PkgID           : github.com/containerd/containerd/v2@v2.0.3 
+│                        │     ├ PkgName         : github.com/containerd/containerd/v2 
+│                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/github.com/containerd/containerd/v2@v2.0.3 
+│                        │     │                  ╰ UID : f92f7aa64175281f 
+│                        │     ├ InstalledVersion: v2.0.3 
+│                        │     ├ FixedVersion    : 2.0.5 
+│                        │     ├ Status          : fixed 
+│                        │     ├ Layer            ╭ Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4
+│                        │     │                  │         a8143db4b97d428659d0 
+│                        │     │                  ╰ DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8
+│                        │     │                            d67226cb3b9e50f918f0 
+│                        │     ├ SeveritySource  : ghsa 
+│                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-47291 
+│                        │     ├ DataSource       ╭ ID  : ghsa 
+│                        │     │                  ├ Name: GitHub Security Advisory Go 
+│                        │     │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+e
+│                        │     │                          cosystem%3Ago 
+│                        │     ├ Title           : containerd CRI plugin: Incorrect cgroup hierarchy assignment
+│                        │     │                    for containers running in usernamespaced Kubernetes pods. 
+│                        │     ├ Description     : # Impact
+│                        │     │                   
+│                        │     │                   A bug was found in the containerd's CRI implementation where
+│                        │     │                    containerd doesn't put usernamespaced containers under the
+│                        │     │                   Kubernetes' cgroup hierarchy, therefore some Kubernetes
+│                        │     │                   limits are not honored. This may cause a denial of service
+│                        │     │                   of the Kubernetes node.
+│                        │     │                   # Patches
+│                        │     │                   This bug has been fixed in containerd 2.0.5+ and 2.1.0+.
+│                        │     │                   Users should update to these versions to resolve the issue.
+│                        │     │                   # Workarounds
+│                        │     │                   Disable usernamespaced pods in Kubernetes temporarily.
+│                        │     │                   # Credits
+│                        │     │                   The containerd project would like to thank Rodrigo Campos
+│                        │     │                   Catelin and Piotr Rogowski for responsibly disclosing this
+│                        │     │                   issue in accordance with the [containerd security
+│                        │     │                   policy](https://github.com/containerd/project/blob/main/SECU
+│                        │     │                   RITY.md).
+│                        │     │                   #  For more information
+│                        │     │                   If you have any questions or comments about this advisory:
+│                        │     │                   * Open an issue in
+│                        │     │                   [containerd](https://github.com/containerd/containerd/issues
+│                        │     │                   /new/choose)
+│                        │     │                   * Email us at security@containerd.io
+│                        │     │                   To report a security issue in containerd:
+│                        │     │                   * [Report a new
+│                        │     │                   vulnerability](https://github.com/containerd/containerd/secu
+│                        │     │                   rity/advisories/new)
+│                        │     │                   * Email us at
+│                        │     │                   [security@containerd.io](mailto:security@containerd.io) 
+│                        │     ├ Severity        : MEDIUM 
+│                        │     ├ VendorSeverity   ─ ghsa: 2 
+│                        │     ╰ References       ╭ [0]: https://github.com/containerd/containerd 
+│                        │                        ├ [1]: https://github.com/containerd/containerd/security/advi
+│                        │                        │      sories/GHSA-cxfp-7pvr-95ff 
+│                        │                        ╰ [2]: https://nvd.nist.gov/vuln/detail/CVE-2025-47291 
+│                        ├ [2] ╭ VulnerabilityID : CVE-2025-0495 
 │                        │     ├ PkgID           : github.com/docker/buildx@v0.21.2 
 │                        │     ├ PkgName         : github.com/docker/buildx 
 │                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/github.com/docker/buildx@v0.21.2 
@@ -6058,7 +6122,7 @@
 │                        │     │                  ╰ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-0495 
 │                        │     ├ PublishedDate   : 2025-03-17T20:15:13.737Z 
 │                        │     ╰ LastModifiedDate: 2025-03-17T20:15:13.737Z 
-│                        ├ [2] ╭ VulnerabilityID : CVE-2025-30204 
+│                        ├ [3] ╭ VulnerabilityID : CVE-2025-30204 
 │                        │     ├ PkgID           : github.com/golang-jwt/jwt@v3.2.2+incompatible 
 │                        │     ├ PkgName         : github.com/golang-jwt/jwt 
 │                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/github.com/golang-jwt/jwt@v3.2.2%2Bincompa
@@ -6103,10 +6167,10 @@
 │                        │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
 │                        │     │                           │           /A:H 
 │                        │     │                           ╰ V3Score : 7.5 
-│                        │     ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:4669 
+│                        │     ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:7404 
 │                        │     │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-30204 
 │                        │     │                  ├ [2] : https://bugzilla.redhat.com/2354195 
-│                        │     │                  ├ [3] : https://errata.almalinux.org/9/ALSA-2025-4669.html 
+│                        │     │                  ├ [3] : https://errata.almalinux.org/9/ALSA-2025-7404.html 
 │                        │     │                  ├ [4] : https://github.com/golang-jwt/jwt 
 │                        │     │                  ├ [5] : https://github.com/golang-jwt/jwt/commit/0951d184286d
 │                        │     │                  │       ece21f73c85673fd308786ffe9c3 
@@ -6115,7 +6179,7 @@
 │                        │     │                  ├ [7] : https://github.com/golang-jwt/jwt/security/advisories
 │                        │     │                  │       /GHSA-mh63-6h87-95cp 
 │                        │     │                  ├ [8] : https://linux.oracle.com/cve/CVE-2025-30204.html 
-│                        │     │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2025-4669.html 
+│                        │     │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2025-7967.html 
 │                        │     │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2025-30204 
 │                        │     │                  ├ [11]: https://security.netapp.com/advisory/ntap-20250404-0002 
 │                        │     │                  ├ [12]: https://security.netapp.com/advisory/ntap-20250404-00
@@ -6123,7 +6187,7 @@
 │                        │     │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2025-30204 
 │                        │     ├ PublishedDate   : 2025-03-21T22:15:26.42Z 
 │                        │     ╰ LastModifiedDate: 2025-04-10T13:15:52.097Z 
-│                        ├ [3] ╭ VulnerabilityID : CVE-2025-22869 
+│                        ├ [4] ╭ VulnerabilityID : CVE-2025-22869 
 │                        │     ├ PkgID           : golang.org/x/crypto@v0.32.0 
 │                        │     ├ PkgName         : golang.org/x/crypto 
 │                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/golang.org/x/crypto@v0.32.0 
@@ -6183,7 +6247,7 @@
 │                        │     │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2025-22869 
 │                        │     ├ PublishedDate   : 2025-02-26T08:14:24.997Z 
 │                        │     ╰ LastModifiedDate: 2025-05-01T19:28:20.74Z 
-│                        ├ [4] ╭ VulnerabilityID : CVE-2025-22870 
+│                        ├ [5] ╭ VulnerabilityID : CVE-2025-22870 
 │                        │     ├ PkgID           : golang.org/x/net@v0.34.0 
 │                        │     ├ PkgName         : golang.org/x/net 
 │                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/golang.org/x/net@v0.34.0 
@@ -6233,7 +6297,7 @@
 │                        │     │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2025-22870 
 │                        │     ├ PublishedDate   : 2025-03-12T19:15:38.31Z 
 │                        │     ╰ LastModifiedDate: 2025-05-09T20:15:38.727Z 
-│                        ├ [5] ╭ VulnerabilityID : CVE-2025-22872 
+│                        ├ [6] ╭ VulnerabilityID : CVE-2025-22872 
 │                        │     ├ PkgID           : golang.org/x/net@v0.34.0 
 │                        │     ├ PkgName         : golang.org/x/net 
 │                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/golang.org/x/net@v0.34.0 
@@ -6282,7 +6346,7 @@
 │                        │     │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2025-22872 
 │                        │     ├ PublishedDate   : 2025-04-16T18:16:04.183Z 
 │                        │     ╰ LastModifiedDate: 2025-05-16T23:15:19.707Z 
-│                        ╰ [6] ╭ VulnerabilityID : CVE-2025-22871 
+│                        ╰ [7] ╭ VulnerabilityID : CVE-2025-22871 
 │                              ├ PkgID           : stdlib@v1.23.6 
 │                              ├ PkgName         : stdlib 
 │                              ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.23.6 
@@ -6685,10 +6749,10 @@
 │                        │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
 │                        │     │                           │           /A:H 
 │                        │     │                           ╰ V3Score : 7.5 
-│                        │     ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:4669 
+│                        │     ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:7404 
 │                        │     │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-30204 
 │                        │     │                  ├ [2] : https://bugzilla.redhat.com/2354195 
-│                        │     │                  ├ [3] : https://errata.almalinux.org/9/ALSA-2025-4669.html 
+│                        │     │                  ├ [3] : https://errata.almalinux.org/9/ALSA-2025-7404.html 
 │                        │     │                  ├ [4] : https://github.com/golang-jwt/jwt 
 │                        │     │                  ├ [5] : https://github.com/golang-jwt/jwt/commit/0951d184286d
 │                        │     │                  │       ece21f73c85673fd308786ffe9c3 
@@ -6697,7 +6761,7 @@
 │                        │     │                  ├ [7] : https://github.com/golang-jwt/jwt/security/advisories
 │                        │     │                  │       /GHSA-mh63-6h87-95cp 
 │                        │     │                  ├ [8] : https://linux.oracle.com/cve/CVE-2025-30204.html 
-│                        │     │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2025-4669.html 
+│                        │     │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2025-7967.html 
 │                        │     │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2025-30204 
 │                        │     │                  ├ [11]: https://security.netapp.com/advisory/ntap-20250404-0002 
 │                        │     │                  ├ [12]: https://security.netapp.com/advisory/ntap-20250404-00
