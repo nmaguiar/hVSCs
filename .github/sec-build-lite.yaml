@@ -163,6 +163,7 @@
     VendorSeverity:
       alma: 2
       bitnami: 3
+      oracle-oval: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -175,6 +176,8 @@
     - https://bugzilla.redhat.com/2338289
     - https://errata.almalinux.org/9/ALSA-2025-7409.html
     - https://github.com/git/git/security/advisories/GHSA-7jjc-gg6m-3329
+    - https://linux.oracle.com/cve/CVE-2024-52005.html
+    - https://linux.oracle.com/errata/ELSA-2025-7409.html
     - https://lore.kernel.org/git/1M9FnZ-1taoNo1wwh-00ESSd@mail.gmx.net
     - https://lore.kernel.org/git/8570a129-d66a-465a-905e-0a077c69c409@gmail.com/T/#t
     - https://nvd.nist.gov/vuln/detail/CVE-2024-52005
@@ -207,6 +210,7 @@
     VendorSeverity:
       alma: 2
       bitnami: 3
+      oracle-oval: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -219,6 +223,8 @@
     - https://bugzilla.redhat.com/2338289
     - https://errata.almalinux.org/9/ALSA-2025-7409.html
     - https://github.com/git/git/security/advisories/GHSA-7jjc-gg6m-3329
+    - https://linux.oracle.com/cve/CVE-2024-52005.html
+    - https://linux.oracle.com/errata/ELSA-2025-7409.html
     - https://lore.kernel.org/git/1M9FnZ-1taoNo1wwh-00ESSd@mail.gmx.net
     - https://lore.kernel.org/git/8570a129-d66a-465a-905e-0a077c69c409@gmail.com/T/#t
     - https://nvd.nist.gov/vuln/detail/CVE-2024-52005
@@ -2985,7 +2991,7 @@
     - https://go.dev/cl/652135
     - https://go.dev/issue/71931
     - https://linux.oracle.com/cve/CVE-2025-22869.html
-    - https://linux.oracle.com/errata/ELSA-2025-3833.html
+    - https://linux.oracle.com/errata/ELSA-2025-7391.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-22869
     - https://pkg.go.dev/vuln/GO-2025-3487
     - https://security.netapp.com/advisory/ntap-20250411-0010
