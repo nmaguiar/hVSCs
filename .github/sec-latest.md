@@ -491,25 +491,28 @@
 │                        │       ├ Severity        : MEDIUM 
 │                        │       ├ CweIDs           ╭ [0]: CWE-116 
 │                        │       │                  ╰ [1]: CWE-150 
-│                        │       ├ VendorSeverity   ╭ alma   : 2 
-│                        │       │                  ├ bitnami: 3 
-│                        │       │                  ├ redhat : 2 
-│                        │       │                  ╰ ubuntu : 2 
+│                        │       ├ VendorSeverity   ╭ alma       : 2 
+│                        │       │                  ├ bitnami    : 3 
+│                        │       │                  ├ oracle-oval: 2 
+│                        │       │                  ├ redhat     : 2 
+│                        │       │                  ╰ ubuntu     : 2 
 │                        │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I
 │                        │       │                           │           :H/A:H 
 │                        │       │                           ╰ V3Score : 7.5 
-│                        │       ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2025:7409 
-│                        │       │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2024-52005 
-│                        │       │                  ├ [2]: https://bugzilla.redhat.com/2338289 
-│                        │       │                  ├ [3]: https://errata.almalinux.org/9/ALSA-2025-7409.html 
-│                        │       │                  ├ [4]: https://github.com/git/git/security/advisories/GHSA-
-│                        │       │                  │      7jjc-gg6m-3329 
-│                        │       │                  ├ [5]: https://lore.kernel.org/git/1M9FnZ-1taoNo1wwh-00ESSd
-│                        │       │                  │      @mail.gmx.net 
-│                        │       │                  ├ [6]: https://lore.kernel.org/git/8570a129-d66a-465a-905e-
-│                        │       │                  │      0a077c69c409@gmail.com/T/#t 
-│                        │       │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2024-52005 
-│                        │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-52005 
+│                        │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:7409 
+│                        │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024-52005 
+│                        │       │                  ├ [2] : https://bugzilla.redhat.com/2338289 
+│                        │       │                  ├ [3] : https://errata.almalinux.org/9/ALSA-2025-7409.html 
+│                        │       │                  ├ [4] : https://github.com/git/git/security/advisories/GHSA
+│                        │       │                  │       -7jjc-gg6m-3329 
+│                        │       │                  ├ [5] : https://linux.oracle.com/cve/CVE-2024-52005.html 
+│                        │       │                  ├ [6] : https://linux.oracle.com/errata/ELSA-2025-7409.html 
+│                        │       │                  ├ [7] : https://lore.kernel.org/git/1M9FnZ-1taoNo1wwh-00ESS
+│                        │       │                  │       d@mail.gmx.net 
+│                        │       │                  ├ [8] : https://lore.kernel.org/git/8570a129-d66a-465a-905e
+│                        │       │                  │       -0a077c69c409@gmail.com/T/#t 
+│                        │       │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2024-52005 
+│                        │       │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2024-52005 
 │                        │       ├ PublishedDate   : 2025-01-15T18:15:24.13Z 
 │                        │       ╰ LastModifiedDate: 2025-01-15T18:15:24.13Z 
 │                        ├ [9]   ╭ VulnerabilityID : CVE-2024-52005 
@@ -551,25 +554,28 @@
 │                        │       ├ Severity        : MEDIUM 
 │                        │       ├ CweIDs           ╭ [0]: CWE-116 
 │                        │       │                  ╰ [1]: CWE-150 
-│                        │       ├ VendorSeverity   ╭ alma   : 2 
-│                        │       │                  ├ bitnami: 3 
-│                        │       │                  ├ redhat : 2 
-│                        │       │                  ╰ ubuntu : 2 
+│                        │       ├ VendorSeverity   ╭ alma       : 2 
+│                        │       │                  ├ bitnami    : 3 
+│                        │       │                  ├ oracle-oval: 2 
+│                        │       │                  ├ redhat     : 2 
+│                        │       │                  ╰ ubuntu     : 2 
 │                        │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I
 │                        │       │                           │           :H/A:H 
 │                        │       │                           ╰ V3Score : 7.5 
-│                        │       ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2025:7409 
-│                        │       │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2024-52005 
-│                        │       │                  ├ [2]: https://bugzilla.redhat.com/2338289 
-│                        │       │                  ├ [3]: https://errata.almalinux.org/9/ALSA-2025-7409.html 
-│                        │       │                  ├ [4]: https://github.com/git/git/security/advisories/GHSA-
-│                        │       │                  │      7jjc-gg6m-3329 
-│                        │       │                  ├ [5]: https://lore.kernel.org/git/1M9FnZ-1taoNo1wwh-00ESSd
-│                        │       │                  │      @mail.gmx.net 
-│                        │       │                  ├ [6]: https://lore.kernel.org/git/8570a129-d66a-465a-905e-
-│                        │       │                  │      0a077c69c409@gmail.com/T/#t 
-│                        │       │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2024-52005 
-│                        │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-52005 
+│                        │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:7409 
+│                        │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024-52005 
+│                        │       │                  ├ [2] : https://bugzilla.redhat.com/2338289 
+│                        │       │                  ├ [3] : https://errata.almalinux.org/9/ALSA-2025-7409.html 
+│                        │       │                  ├ [4] : https://github.com/git/git/security/advisories/GHSA
+│                        │       │                  │       -7jjc-gg6m-3329 
+│                        │       │                  ├ [5] : https://linux.oracle.com/cve/CVE-2024-52005.html 
+│                        │       │                  ├ [6] : https://linux.oracle.com/errata/ELSA-2025-7409.html 
+│                        │       │                  ├ [7] : https://lore.kernel.org/git/1M9FnZ-1taoNo1wwh-00ESS
+│                        │       │                  │       d@mail.gmx.net 
+│                        │       │                  ├ [8] : https://lore.kernel.org/git/8570a129-d66a-465a-905e
+│                        │       │                  │       -0a077c69c409@gmail.com/T/#t 
+│                        │       │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2024-52005 
+│                        │       │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2024-52005 
 │                        │       ├ PublishedDate   : 2025-01-15T18:15:24.13Z 
 │                        │       ╰ LastModifiedDate: 2025-01-15T18:15:24.13Z 
 │                        ├ [10]  ╭ VulnerabilityID : CVE-2025-30258 
@@ -2127,7 +2133,7 @@
 │                        │       │                  ├ [19]: https://gitlab.alpinelinux.org/alpine/aports/-/comm
 │                        │       │                  │       it/d068c3ff36fc6f4789988a09c69b434db757db53 
 │                        │       │                  ├ [20]: https://linux.oracle.com/cve/CVE-2024-8176.html 
-│                        │       │                  ├ [21]: https://linux.oracle.com/errata/ELSA-2025-4048.html 
+│                        │       │                  ├ [21]: https://linux.oracle.com/errata/ELSA-2025-7444.html 
 │                        │       │                  ├ [22]: https://nvd.nist.gov/vuln/detail/CVE-2024-8176 
 │                        │       │                  ├ [23]: https://security-tracker.debian.org/tracker/CVE-202
 │                        │       │                  │       4-8176 
@@ -4290,10 +4296,14 @@
 │                        │       ├ CweIDs           ─ [0]: CWE-440 
 │                        │       ├ VendorSeverity   ╭ azure      : 2 
 │                        │       │                  ├ cbl-mariner: 2 
+│                        │       │                  ├ nvd        : 1 
 │                        │       │                  ├ photon     : 2 
 │                        │       │                  ├ redhat     : 2 
 │                        │       │                  ╰ ubuntu     : 2 
-│                        │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:N/I
+│                        │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:N/I
+│                        │       │                  │        │           :L/A:N 
+│                        │       │                  │        ╰ V3Score : 3.8 
+│                        │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:N/I
 │                        │       │                           │           :L/A:N 
 │                        │       │                           ╰ V3Score : 4.3 
 │                        │       ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2025-32728 
@@ -4313,7 +4323,7 @@
 │                        │       │                  ├ [9] : https://www.openssh.com/txt/release-10.0 
 │                        │       │                  ╰ [10]: https://www.openssh.com/txt/release-7.4 
 │                        │       ├ PublishedDate   : 2025-04-10T02:15:30.873Z 
-│                        │       ╰ LastModifiedDate: 2025-05-08T14:15:25.777Z 
+│                        │       ╰ LastModifiedDate: 2025-05-22T16:51:54.89Z 
 │                        ├ [84]  ╭ VulnerabilityID : CVE-2025-32728 
 │                        │       ├ PkgID           : openssh-server@1:8.9p1-3ubuntu0.11 
 │                        │       ├ PkgName         : openssh-server 
@@ -4340,10 +4350,14 @@
 │                        │       ├ CweIDs           ─ [0]: CWE-440 
 │                        │       ├ VendorSeverity   ╭ azure      : 2 
 │                        │       │                  ├ cbl-mariner: 2 
+│                        │       │                  ├ nvd        : 1 
 │                        │       │                  ├ photon     : 2 
 │                        │       │                  ├ redhat     : 2 
 │                        │       │                  ╰ ubuntu     : 2 
-│                        │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:N/I
+│                        │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:N/I
+│                        │       │                  │        │           :L/A:N 
+│                        │       │                  │        ╰ V3Score : 3.8 
+│                        │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:N/I
 │                        │       │                           │           :L/A:N 
 │                        │       │                           ╰ V3Score : 4.3 
 │                        │       ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2025-32728 
@@ -4363,7 +4377,7 @@
 │                        │       │                  ├ [9] : https://www.openssh.com/txt/release-10.0 
 │                        │       │                  ╰ [10]: https://www.openssh.com/txt/release-7.4 
 │                        │       ├ PublishedDate   : 2025-04-10T02:15:30.873Z 
-│                        │       ╰ LastModifiedDate: 2025-05-08T14:15:25.777Z 
+│                        │       ╰ LastModifiedDate: 2025-05-22T16:51:54.89Z 
 │                        ├ [85]  ╭ VulnerabilityID : CVE-2025-32728 
 │                        │       ├ PkgID           : openssh-sftp-server@1:8.9p1-3ubuntu0.11 
 │                        │       ├ PkgName         : openssh-sftp-server 
@@ -4390,10 +4404,14 @@
 │                        │       ├ CweIDs           ─ [0]: CWE-440 
 │                        │       ├ VendorSeverity   ╭ azure      : 2 
 │                        │       │                  ├ cbl-mariner: 2 
+│                        │       │                  ├ nvd        : 1 
 │                        │       │                  ├ photon     : 2 
 │                        │       │                  ├ redhat     : 2 
 │                        │       │                  ╰ ubuntu     : 2 
-│                        │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:N/I
+│                        │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:N/I
+│                        │       │                  │        │           :L/A:N 
+│                        │       │                  │        ╰ V3Score : 3.8 
+│                        │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:N/I
 │                        │       │                           │           :L/A:N 
 │                        │       │                           ╰ V3Score : 4.3 
 │                        │       ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2025-32728 
@@ -4413,7 +4431,7 @@
 │                        │       │                  ├ [9] : https://www.openssh.com/txt/release-10.0 
 │                        │       │                  ╰ [10]: https://www.openssh.com/txt/release-7.4 
 │                        │       ├ PublishedDate   : 2025-04-10T02:15:30.873Z 
-│                        │       ╰ LastModifiedDate: 2025-05-08T14:15:25.777Z 
+│                        │       ╰ LastModifiedDate: 2025-05-22T16:51:54.89Z 
 │                        ├ [86]  ╭ VulnerabilityID : CVE-2024-41996 
 │                        │       ├ PkgID           : openssl@3.0.2-0ubuntu1.19 
 │                        │       ├ PkgName         : openssl 
@@ -6040,44 +6058,34 @@
 │                        │     │                  ├ Name: GitHub Security Advisory Go 
 │                        │     │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+e
 │                        │     │                          cosystem%3Ago 
-│                        │     ├ Title           : containerd CRI plugin: Incorrect cgroup hierarchy assignment
-│                        │     │                    for containers running in usernamespaced Kubernetes pods. 
-│                        │     ├ Description     : # Impact
-│                        │     │                   
-│                        │     │                   A bug was found in the containerd's CRI implementation where
-│                        │     │                    containerd doesn't put usernamespaced containers under the
+│                        │     ├ Title           : containerd: containerd CRI plugin: Incorrect cgroup
+│                        │     │                   hierarchy assignment for containers running in
+│                        │     │                   usernamespaced Kubernetes pods. 
+│                        │     ├ Description     : containerd is an open-source container runtime. A bug was
+│                        │     │                   found in the containerd's CRI implementation where
+│                        │     │                   containerd, starting in version 2.0.1 and prior to version
+│                        │     │                   2.0.5, doesn't put usernamespaced containers under the
 │                        │     │                   Kubernetes' cgroup hierarchy, therefore some Kubernetes
 │                        │     │                   limits are not honored. This may cause a denial of service
-│                        │     │                   of the Kubernetes node.
-│                        │     │                   # Patches
-│                        │     │                   This bug has been fixed in containerd 2.0.5+ and 2.1.0+.
-│                        │     │                   Users should update to these versions to resolve the issue.
-│                        │     │                   # Workarounds
-│                        │     │                   Disable usernamespaced pods in Kubernetes temporarily.
-│                        │     │                   # Credits
-│                        │     │                   The containerd project would like to thank Rodrigo Campos
-│                        │     │                   Catelin and Piotr Rogowski for responsibly disclosing this
-│                        │     │                   issue in accordance with the [containerd security
-│                        │     │                   policy](https://github.com/containerd/project/blob/main/SECU
-│                        │     │                   RITY.md).
-│                        │     │                   #  For more information
-│                        │     │                   If you have any questions or comments about this advisory:
-│                        │     │                   * Open an issue in
-│                        │     │                   [containerd](https://github.com/containerd/containerd/issues
-│                        │     │                   /new/choose)
-│                        │     │                   * Email us at security@containerd.io
-│                        │     │                   To report a security issue in containerd:
-│                        │     │                   * [Report a new
-│                        │     │                   vulnerability](https://github.com/containerd/containerd/secu
-│                        │     │                   rity/advisories/new)
-│                        │     │                   * Email us at
-│                        │     │                   [security@containerd.io](mailto:security@containerd.io) 
+│                        │     │                   of the Kubernetes node. This bug has been fixed in
+│                        │     │                   containerd 2.0.5+ and 2.1.0+. Users should update to these
+│                        │     │                   versions to resolve the issue. As a workaround, disable
+│                        │     │                   usernamespaced pods in Kubernetes temporarily. 
 │                        │     ├ Severity        : MEDIUM 
-│                        │     ├ VendorSeverity   ─ ghsa: 2 
-│                        │     ╰ References       ╭ [0]: https://github.com/containerd/containerd 
-│                        │                        ├ [1]: https://github.com/containerd/containerd/security/advi
-│                        │                        │      sories/GHSA-cxfp-7pvr-95ff 
-│                        │                        ╰ [2]: https://nvd.nist.gov/vuln/detail/CVE-2025-47291 
+│                        │     ├ CweIDs           ─ [0]: CWE-266 
+│                        │     ├ VendorSeverity   ╭ ghsa  : 2 
+│                        │     │                  ╰ redhat: 2 
+│                        │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L
+│                        │     │                           │           /A:L 
+│                        │     │                           ╰ V3Score : 6.3 
+│                        │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-47291 
+│                        │     │                  ├ [1]: https://github.com/containerd/containerd 
+│                        │     │                  ├ [2]: https://github.com/containerd/containerd/security/advi
+│                        │     │                  │      sories/GHSA-cxfp-7pvr-95ff 
+│                        │     │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-47291 
+│                        │     │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2025-47291 
+│                        │     ├ PublishedDate   : 2025-05-21T18:15:52.853Z 
+│                        │     ╰ LastModifiedDate: 2025-05-21T20:24:58.133Z 
 │                        ├ [2] ╭ VulnerabilityID : CVE-2025-0495 
 │                        │     ├ PkgID           : github.com/docker/buildx@v0.21.2 
 │                        │     ├ PkgName         : github.com/docker/buildx 
@@ -6238,7 +6246,7 @@
 │                        │     │                  ├ [7] : https://go.dev/cl/652135 
 │                        │     │                  ├ [8] : https://go.dev/issue/71931 
 │                        │     │                  ├ [9] : https://linux.oracle.com/cve/CVE-2025-22869.html 
-│                        │     │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2025-3833.html 
+│                        │     │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2025-7391.html 
 │                        │     │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2025-22869 
 │                        │     │                  ├ [12]: https://pkg.go.dev/vuln/GO-2025-3487 
 │                        │     │                  ├ [13]: https://security.netapp.com/advisory/ntap-20250411-0010 
@@ -7180,7 +7188,7 @@
 │                        │     │                  ├ [7] : https://go.dev/cl/652135 
 │                        │     │                  ├ [8] : https://go.dev/issue/71931 
 │                        │     │                  ├ [9] : https://linux.oracle.com/cve/CVE-2025-22869.html 
-│                        │     │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2025-3833.html 
+│                        │     │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2025-7391.html 
 │                        │     │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2025-22869 
 │                        │     │                  ├ [12]: https://pkg.go.dev/vuln/GO-2025-3487 
 │                        │     │                  ├ [13]: https://security.netapp.com/advisory/ntap-20250411-0010 
