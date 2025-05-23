@@ -180,25 +180,28 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ╭ [0]: CWE-116 
 │                        │      │                  ╰ [1]: CWE-150 
-│                        │      ├ VendorSeverity   ╭ alma   : 2 
-│                        │      │                  ├ bitnami: 3 
-│                        │      │                  ├ redhat : 2 
-│                        │      │                  ╰ ubuntu : 2 
+│                        │      ├ VendorSeverity   ╭ alma       : 2 
+│                        │      │                  ├ bitnami    : 3 
+│                        │      │                  ├ oracle-oval: 2 
+│                        │      │                  ├ redhat     : 2 
+│                        │      │                  ╰ ubuntu     : 2 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:
 │                        │      │                           │           H/A:H 
 │                        │      │                           ╰ V3Score : 7.5 
-│                        │      ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2025:7409 
-│                        │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2024-52005 
-│                        │      │                  ├ [2]: https://bugzilla.redhat.com/2338289 
-│                        │      │                  ├ [3]: https://errata.almalinux.org/9/ALSA-2025-7409.html 
-│                        │      │                  ├ [4]: https://github.com/git/git/security/advisories/GHSA-7
-│                        │      │                  │      jjc-gg6m-3329 
-│                        │      │                  ├ [5]: https://lore.kernel.org/git/1M9FnZ-1taoNo1wwh-00ESSd@
-│                        │      │                  │      mail.gmx.net 
-│                        │      │                  ├ [6]: https://lore.kernel.org/git/8570a129-d66a-465a-905e-0
-│                        │      │                  │      a077c69c409@gmail.com/T/#t 
-│                        │      │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2024-52005 
-│                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-52005 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:7409 
+│                        │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024-52005 
+│                        │      │                  ├ [2] : https://bugzilla.redhat.com/2338289 
+│                        │      │                  ├ [3] : https://errata.almalinux.org/9/ALSA-2025-7409.html 
+│                        │      │                  ├ [4] : https://github.com/git/git/security/advisories/GHSA-
+│                        │      │                  │       7jjc-gg6m-3329 
+│                        │      │                  ├ [5] : https://linux.oracle.com/cve/CVE-2024-52005.html 
+│                        │      │                  ├ [6] : https://linux.oracle.com/errata/ELSA-2025-7409.html 
+│                        │      │                  ├ [7] : https://lore.kernel.org/git/1M9FnZ-1taoNo1wwh-00ESSd
+│                        │      │                  │       @mail.gmx.net 
+│                        │      │                  ├ [8] : https://lore.kernel.org/git/8570a129-d66a-465a-905e-
+│                        │      │                  │       0a077c69c409@gmail.com/T/#t 
+│                        │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2024-52005 
+│                        │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2024-52005 
 │                        │      ├ PublishedDate   : 2025-01-15T18:15:24.13Z 
 │                        │      ╰ LastModifiedDate: 2025-01-15T18:15:24.13Z 
 │                        ├ [4]  ╭ VulnerabilityID : CVE-2024-52005 
@@ -239,25 +242,28 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ╭ [0]: CWE-116 
 │                        │      │                  ╰ [1]: CWE-150 
-│                        │      ├ VendorSeverity   ╭ alma   : 2 
-│                        │      │                  ├ bitnami: 3 
-│                        │      │                  ├ redhat : 2 
-│                        │      │                  ╰ ubuntu : 2 
+│                        │      ├ VendorSeverity   ╭ alma       : 2 
+│                        │      │                  ├ bitnami    : 3 
+│                        │      │                  ├ oracle-oval: 2 
+│                        │      │                  ├ redhat     : 2 
+│                        │      │                  ╰ ubuntu     : 2 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:
 │                        │      │                           │           H/A:H 
 │                        │      │                           ╰ V3Score : 7.5 
-│                        │      ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2025:7409 
-│                        │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2024-52005 
-│                        │      │                  ├ [2]: https://bugzilla.redhat.com/2338289 
-│                        │      │                  ├ [3]: https://errata.almalinux.org/9/ALSA-2025-7409.html 
-│                        │      │                  ├ [4]: https://github.com/git/git/security/advisories/GHSA-7
-│                        │      │                  │      jjc-gg6m-3329 
-│                        │      │                  ├ [5]: https://lore.kernel.org/git/1M9FnZ-1taoNo1wwh-00ESSd@
-│                        │      │                  │      mail.gmx.net 
-│                        │      │                  ├ [6]: https://lore.kernel.org/git/8570a129-d66a-465a-905e-0
-│                        │      │                  │      a077c69c409@gmail.com/T/#t 
-│                        │      │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2024-52005 
-│                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-52005 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:7409 
+│                        │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024-52005 
+│                        │      │                  ├ [2] : https://bugzilla.redhat.com/2338289 
+│                        │      │                  ├ [3] : https://errata.almalinux.org/9/ALSA-2025-7409.html 
+│                        │      │                  ├ [4] : https://github.com/git/git/security/advisories/GHSA-
+│                        │      │                  │       7jjc-gg6m-3329 
+│                        │      │                  ├ [5] : https://linux.oracle.com/cve/CVE-2024-52005.html 
+│                        │      │                  ├ [6] : https://linux.oracle.com/errata/ELSA-2025-7409.html 
+│                        │      │                  ├ [7] : https://lore.kernel.org/git/1M9FnZ-1taoNo1wwh-00ESSd
+│                        │      │                  │       @mail.gmx.net 
+│                        │      │                  ├ [8] : https://lore.kernel.org/git/8570a129-d66a-465a-905e-
+│                        │      │                  │       0a077c69c409@gmail.com/T/#t 
+│                        │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2024-52005 
+│                        │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2024-52005 
 │                        │      ├ PublishedDate   : 2025-01-15T18:15:24.13Z 
 │                        │      ╰ LastModifiedDate: 2025-01-15T18:15:24.13Z 
 │                        ├ [5]  ╭ VulnerabilityID : CVE-2022-3219 
@@ -3324,7 +3330,7 @@
 │                        │     │                  ├ [7] : https://go.dev/cl/652135 
 │                        │     │                  ├ [8] : https://go.dev/issue/71931 
 │                        │     │                  ├ [9] : https://linux.oracle.com/cve/CVE-2025-22869.html 
-│                        │     │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2025-3833.html 
+│                        │     │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2025-7391.html 
 │                        │     │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2025-22869 
 │                        │     │                  ├ [12]: https://pkg.go.dev/vuln/GO-2025-3487 
 │                        │     │                  ├ [13]: https://security.netapp.com/advisory/ntap-20250411-0010 
