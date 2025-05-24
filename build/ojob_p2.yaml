@@ -19,9 +19,6 @@ ojob:
   argsFromEnvs: true
   numThreads  : 6
 
-include:
-- ojob.yaml
-
 jobs:
 - name: Report
   type: shutdown
