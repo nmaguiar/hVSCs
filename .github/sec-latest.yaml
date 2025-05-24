@@ -423,7 +423,9 @@
     - CWE-116
     - CWE-150
     VendorSeverity:
+      alma: 2
       bitnami: 3
+      oracle-oval: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -431,8 +433,13 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H
         V3Score: 7.5
     References:
+    - https://access.redhat.com/errata/RHSA-2025:7409
     - https://access.redhat.com/security/cve/CVE-2024-52005
+    - https://bugzilla.redhat.com/2338289
+    - https://errata.almalinux.org/9/ALSA-2025-7409.html
     - https://github.com/git/git/security/advisories/GHSA-7jjc-gg6m-3329
+    - https://linux.oracle.com/cve/CVE-2024-52005.html
+    - https://linux.oracle.com/errata/ELSA-2025-7409.html
     - https://lore.kernel.org/git/1M9FnZ-1taoNo1wwh-00ESSd@mail.gmx.net
     - https://lore.kernel.org/git/8570a129-d66a-465a-905e-0a077c69c409@gmail.com/T/#t
     - https://nvd.nist.gov/vuln/detail/CVE-2024-52005
@@ -463,7 +470,9 @@
     - CWE-116
     - CWE-150
     VendorSeverity:
+      alma: 2
       bitnami: 3
+      oracle-oval: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -471,8 +480,13 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H
         V3Score: 7.5
     References:
+    - https://access.redhat.com/errata/RHSA-2025:7409
     - https://access.redhat.com/security/cve/CVE-2024-52005
+    - https://bugzilla.redhat.com/2338289
+    - https://errata.almalinux.org/9/ALSA-2025-7409.html
     - https://github.com/git/git/security/advisories/GHSA-7jjc-gg6m-3329
+    - https://linux.oracle.com/cve/CVE-2024-52005.html
+    - https://linux.oracle.com/errata/ELSA-2025-7409.html
     - https://lore.kernel.org/git/1M9FnZ-1taoNo1wwh-00ESSd@mail.gmx.net
     - https://lore.kernel.org/git/8570a129-d66a-465a-905e-0a077c69c409@gmail.com/T/#t
     - https://nvd.nist.gov/vuln/detail/CVE-2024-52005
@@ -1429,6 +1443,48 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-4039
     PublishedDate: '2023-09-13T09:15:15.69Z'
     LastModifiedDate: '2025-02-13T17:17:14.717Z'
+  - VulnerabilityID: CVE-2025-29481
+    PkgID: libbpf0@1:0.5.0-1ubuntu22.04.1
+    PkgName: libbpf0
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libbpf0@0.5.0-1ubuntu22.04.1?arch=amd64&distro=ubuntu-22.04&epoch=1
+      UID: 6183ce3cab9683c9
+    InstalledVersion: 1:0.5.0-1ubuntu22.04.1
+    Status: affected
+    Layer:
+      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
+      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-29481
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'libbpf: Heap Buffer Overflow in libbpf'
+    Description: Buffer Overflow vulnerability in libbpf 1.5.0 allows a local attacker to execute arbitrary code via the bpf_object__init_prog` function of libbpf.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-120
+    VendorSeverity:
+      azure: 2
+      bitnami: 2
+      cbl-mariner: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 6.2
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:L
+        V3Score: 7.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-29481
+    - https://github.com/lmarch2/poc/blob/main/libbpf/libbpf.md
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-29481
+    - https://www.cve.org/CVERecord?id=CVE-2025-29481
+    PublishedDate: '2025-04-07T20:15:20.72Z'
+    LastModifiedDate: '2025-04-15T15:42:59.65Z'
   - VulnerabilityID: CVE-2016-20013
     PkgID: libc-bin@2.35-0ubuntu3.9
     PkgName: libc-bin
@@ -1639,49 +1695,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-34969
     PublishedDate: '2023-06-08T03:15:08.97Z'
     LastModifiedDate: '2024-11-21T08:07:44.607Z'
-  - VulnerabilityID: CVE-2025-1352
-    PkgID: libelf1@0.186-1build1
-    PkgName: libelf1
-    PkgIdentifier:
-      PURL: pkg:deb/ubuntu/libelf1@0.186-1build1?arch=amd64&distro=ubuntu-22.04
-      UID: c6eff1938e7c14c6
-    InstalledVersion: 0.186-1build1
-    Status: affected
-    Layer:
-      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
-      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-1352
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'elfutils: GNU elfutils eu-readelf libdw_alloc.c __libdw_thread_tail memory corruption'
-    Description: A vulnerability has been found in GNU elfutils 0.192 and classified as critical. This vulnerability affects the function __libdw_thread_tail in the library libdw_alloc.c of the component eu-readelf. The manipulation of the argument w leads to memory corruption. The attack can be initiated remotely. The complexity of an attack is rather high. The exploitation appears to be difficult. The exploit has been disclosed to the public and may be used. The name of the patch is 2636426a091bd6c6f7f02e49ab20d4cdc6bfc753. It is recommended to apply a patch to fix this issue.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-119
-    VendorSeverity:
-      photon: 3
-      redhat: 2
-      ubuntu: 2
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:L/A:L
-        V3Score: 5
-    References:
-    - https://access.redhat.com/security/cve/CVE-2025-1352
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-1352
-    - https://sourceware.org/bugzilla/attachment.cgi?id=15923
-    - https://sourceware.org/bugzilla/show_bug.cgi?id=32650
-    - https://sourceware.org/bugzilla/show_bug.cgi?id=32650#c2
-    - https://vuldb.com/?ctiid.295960
-    - https://vuldb.com/?id.295960
-    - https://vuldb.com/?submit.495965
-    - https://www.cve.org/CVERecord?id=CVE-2025-1352
-    - https://www.gnu.org/
-    PublishedDate: '2025-02-16T15:15:09.133Z'
-    LastModifiedDate: '2025-02-16T15:15:09.133Z'
   - VulnerabilityID: CVE-2025-1372
     PkgID: libelf1@0.186-1build1
     PkgName: libelf1
@@ -1707,6 +1720,7 @@
     - CWE-119
     - CWE-120
     VendorSeverity:
+      amazon: 2
       azure: 2
       photon: 3
       redhat: 2
@@ -1730,50 +1744,6 @@
     - https://www.gnu.org/
     PublishedDate: '2025-02-17T03:15:09.573Z'
     LastModifiedDate: '2025-02-17T03:15:09.573Z'
-  - VulnerabilityID: CVE-2025-1376
-    PkgID: libelf1@0.186-1build1
-    PkgName: libelf1
-    PkgIdentifier:
-      PURL: pkg:deb/ubuntu/libelf1@0.186-1build1?arch=amd64&distro=ubuntu-22.04
-      UID: c6eff1938e7c14c6
-    InstalledVersion: 0.186-1build1
-    Status: affected
-    Layer:
-      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
-      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-1376
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'elfutils: GNU elfutils eu-strip elf_strptr.c elf_strptr denial of service'
-    Description: A vulnerability classified as problematic was found in GNU elfutils 0.192. This vulnerability affects the function elf_strptr in the library /libelf/elf_strptr.c of the component eu-strip. The manipulation leads to denial of service. It is possible to launch the attack on the local host. The complexity of an attack is rather high. The exploitation appears to be difficult. The exploit has been disclosed to the public and may be used. The name of the patch is b16f441cca0a4841050e3215a9f120a6d8aea918. It is recommended to apply a patch to fix this issue.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-404
-    VendorSeverity:
-      azure: 1
-      photon: 2
-      redhat: 1
-      ubuntu: 2
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:L
-        V3Score: 2.5
-    References:
-    - https://access.redhat.com/security/cve/CVE-2025-1376
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-1376
-    - https://sourceware.org/bugzilla/attachment.cgi?id=15940
-    - https://sourceware.org/bugzilla/show_bug.cgi?id=32672
-    - https://sourceware.org/bugzilla/show_bug.cgi?id=32672#c3
-    - https://vuldb.com/?ctiid.295984
-    - https://vuldb.com/?id.295984
-    - https://vuldb.com/?submit.497538
-    - https://www.cve.org/CVERecord?id=CVE-2025-1376
-    - https://www.gnu.org/
-    PublishedDate: '2025-02-17T05:15:09.807Z'
-    LastModifiedDate: '2025-02-17T05:15:09.807Z'
   - VulnerabilityID: CVE-2025-1377
     PkgID: libelf1@0.186-1build1
     PkgName: libelf1
@@ -1820,6 +1790,94 @@
     - https://www.gnu.org/
     PublishedDate: '2025-02-17T05:15:10.09Z'
     LastModifiedDate: '2025-02-17T05:15:10.09Z'
+  - VulnerabilityID: CVE-2025-1352
+    PkgID: libelf1@0.186-1build1
+    PkgName: libelf1
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libelf1@0.186-1build1?arch=amd64&distro=ubuntu-22.04
+      UID: c6eff1938e7c14c6
+    InstalledVersion: 0.186-1build1
+    Status: affected
+    Layer:
+      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
+      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-1352
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'elfutils: GNU elfutils eu-readelf libdw_alloc.c __libdw_thread_tail memory corruption'
+    Description: A vulnerability has been found in GNU elfutils 0.192 and classified as critical. This vulnerability affects the function __libdw_thread_tail in the library libdw_alloc.c of the component eu-readelf. The manipulation of the argument w leads to memory corruption. The attack can be initiated remotely. The complexity of an attack is rather high. The exploitation appears to be difficult. The exploit has been disclosed to the public and may be used. The name of the patch is 2636426a091bd6c6f7f02e49ab20d4cdc6bfc753. It is recommended to apply a patch to fix this issue.
+    Severity: LOW
+    CweIDs:
+    - CWE-119
+    VendorSeverity:
+      amazon: 2
+      photon: 3
+      redhat: 2
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:L/A:L
+        V3Score: 5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-1352
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-1352
+    - https://sourceware.org/bugzilla/attachment.cgi?id=15923
+    - https://sourceware.org/bugzilla/show_bug.cgi?id=32650
+    - https://sourceware.org/bugzilla/show_bug.cgi?id=32650#c2
+    - https://vuldb.com/?ctiid.295960
+    - https://vuldb.com/?id.295960
+    - https://vuldb.com/?submit.495965
+    - https://www.cve.org/CVERecord?id=CVE-2025-1352
+    - https://www.gnu.org/
+    PublishedDate: '2025-02-16T15:15:09.133Z'
+    LastModifiedDate: '2025-02-16T15:15:09.133Z'
+  - VulnerabilityID: CVE-2025-1376
+    PkgID: libelf1@0.186-1build1
+    PkgName: libelf1
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libelf1@0.186-1build1?arch=amd64&distro=ubuntu-22.04
+      UID: c6eff1938e7c14c6
+    InstalledVersion: 0.186-1build1
+    Status: affected
+    Layer:
+      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
+      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-1376
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'elfutils: GNU elfutils eu-strip elf_strptr.c elf_strptr denial of service'
+    Description: A vulnerability classified as problematic was found in GNU elfutils 0.192. This vulnerability affects the function elf_strptr in the library /libelf/elf_strptr.c of the component eu-strip. The manipulation leads to denial of service. It is possible to launch the attack on the local host. The complexity of an attack is rather high. The exploitation appears to be difficult. The exploit has been disclosed to the public and may be used. The name of the patch is b16f441cca0a4841050e3215a9f120a6d8aea918. It is recommended to apply a patch to fix this issue.
+    Severity: LOW
+    CweIDs:
+    - CWE-404
+    VendorSeverity:
+      azure: 1
+      photon: 2
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 2.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-1376
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-1376
+    - https://sourceware.org/bugzilla/attachment.cgi?id=15940
+    - https://sourceware.org/bugzilla/show_bug.cgi?id=32672
+    - https://sourceware.org/bugzilla/show_bug.cgi?id=32672#c3
+    - https://vuldb.com/?ctiid.295984
+    - https://vuldb.com/?id.295984
+    - https://vuldb.com/?submit.497538
+    - https://www.cve.org/CVERecord?id=CVE-2025-1376
+    - https://www.gnu.org/
+    PublishedDate: '2025-02-17T05:15:09.807Z'
+    LastModifiedDate: '2025-02-17T05:15:09.807Z'
   - VulnerabilityID: CVE-2024-8176
     PkgID: libexpat1@2.4.7-1ubuntu0.5
     PkgName: libexpat1
@@ -1861,25 +1919,32 @@
     - https://access.redhat.com/errata/RHSA-2025:3734
     - https://access.redhat.com/errata/RHSA-2025:3913
     - https://access.redhat.com/errata/RHSA-2025:4048
+    - https://access.redhat.com/errata/RHSA-2025:4446
+    - https://access.redhat.com/errata/RHSA-2025:4447
+    - https://access.redhat.com/errata/RHSA-2025:4448
+    - https://access.redhat.com/errata/RHSA-2025:4449
+    - https://access.redhat.com/errata/RHSA-2025:7444
+    - https://access.redhat.com/errata/RHSA-2025:7512
     - https://access.redhat.com/security/cve/CVE-2024-8176
     - https://blog.hartwork.org/posts/expat-2-7-0-released/
     - https://bugzilla.redhat.com/2310137
     - https://bugzilla.redhat.com/show_bug.cgi?id=2310137
     - https://bugzilla.suse.com/show_bug.cgi?id=1239618
-    - https://errata.almalinux.org/9/ALSA-2025-3531.html
+    - https://errata.almalinux.org/9/ALSA-2025-7444.html
     - https://github.com/libexpat/libexpat/blob/R_2_7_0/expat/Changes#L40-L52
     - https://github.com/libexpat/libexpat/issues/893
     - https://gitlab.alpinelinux.org/alpine/aports/-/commit/d068c3ff36fc6f4789988a09c69b434db757db53
     - https://linux.oracle.com/cve/CVE-2024-8176.html
-    - https://linux.oracle.com/errata/ELSA-2025-4048.html
+    - https://linux.oracle.com/errata/ELSA-2025-7444.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-8176
     - https://security-tracker.debian.org/tracker/CVE-2024-8176
     - https://security.netapp.com/advisory/ntap-20250328-0009/
     - https://ubuntu.com/security/CVE-2024-8176
     - https://ubuntu.com/security/notices/USN-7424-1
     - https://www.cve.org/CVERecord?id=CVE-2024-8176
+    - https://www.kb.cert.org/vuls/id/760160
     PublishedDate: '2025-03-14T09:15:14.157Z'
-    LastModifiedDate: '2025-04-23T12:15:15.957Z'
+    LastModifiedDate: '2025-05-13T23:15:21.95Z'
   - VulnerabilityID: CVE-2022-27943
     PkgID: libgcc-s1@12.3.0-1ubuntu1~22.04
     PkgName: libgcc-s1
@@ -2788,6 +2853,7 @@
     VendorSeverity:
       azure: 3
       cbl-mariner: 3
+      photon: 3
       redhat: 3
       ubuntu: 2
     CVSS:
@@ -2807,7 +2873,56 @@
     - https://ubuntu.com/security/notices/USN-7434-2
     - https://www.cve.org/CVERecord?id=CVE-2024-56406
     PublishedDate: '2025-04-13T14:15:14.527Z'
-    LastModifiedDate: '2025-04-18T17:15:34.37Z'
+    LastModifiedDate: '2025-04-30T15:21:11.547Z'
+  - VulnerabilityID: CVE-2025-29088
+    PkgID: libsqlite3-0@3.37.2-2ubuntu0.3
+    PkgName: libsqlite3-0
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libsqlite3-0@3.37.2-2ubuntu0.3?arch=amd64&distro=ubuntu-22.04
+      UID: dd375683f132719b
+    InstalledVersion: 3.37.2-2ubuntu0.3
+    FixedVersion: 3.37.2-2ubuntu0.4
+    Status: fixed
+    Layer:
+      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
+      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-29088
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'sqlite: Denial of Service in SQLite'
+    Description: In SQLite 3.49.0 before 3.49.1, certain argument values to sqlite3_db_config (in the C-language API) can cause a denial of service (application crash). An sz*nBig multiplication is not cast to a 64-bit integer, and consequently some memory allocations may be incorrect.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-190
+    - CWE-400
+    VendorSeverity:
+      amazon: 2
+      bitnami: 3
+      photon: 3
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-29088
+    - https://gist.github.com/ylwango613/d3883fb9f6ba8a78086356779ce88248
+    - https://github.com/sqlite/sqlite/commit/56d2fd008b108109f489339f5fd55212bb50afd4
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-29088
+    - https://sqlite.org/forum/forumpost/48f365daec
+    - https://sqlite.org/releaselog/3_49_1.html
+    - https://ubuntu.com/security/notices/USN-7528-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-29088
+    - https://www.sqlite.org/cves.html
+    PublishedDate: '2025-04-10T14:15:27.163Z'
+    LastModifiedDate: '2025-04-30T16:40:41.543Z'
   - VulnerabilityID: CVE-2024-41996
     PkgID: libssl3@3.0.2-0ubuntu1.19
     PkgName: libssl3
@@ -3181,7 +3296,9 @@
     - CWE-393
     - CWE-252
     VendorSeverity:
+      amazon: 2
       nvd: 3
+      photon: 3
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -3196,6 +3313,7 @@
     - https://gitlab.gnome.org/GNOME/libxml2/-/issues/889
     - https://nvd.nist.gov/vuln/detail/CVE-2025-32414
     - https://ubuntu.com/security/notices/USN-7467-1
+    - https://ubuntu.com/security/notices/USN-7467-2
     - https://www.cve.org/CVERecord?id=CVE-2025-32414
     PublishedDate: '2025-04-08T03:15:15.94Z'
     LastModifiedDate: '2025-04-23T19:09:35.517Z'
@@ -3224,6 +3342,7 @@
     - CWE-1284
     - CWE-125
     VendorSeverity:
+      amazon: 2
       nvd: 3
       photon: 1
       redhat: 1
@@ -3240,6 +3359,7 @@
     - https://gitlab.gnome.org/GNOME/libxml2/-/issues/890
     - https://nvd.nist.gov/vuln/detail/CVE-2025-32415
     - https://ubuntu.com/security/notices/USN-7467-1
+    - https://ubuntu.com/security/notices/USN-7467-2
     - https://www.cve.org/CVERecord?id=CVE-2025-32415
     PublishedDate: '2025-04-17T17:15:33.733Z'
     LastModifiedDate: '2025-04-23T18:17:52.053Z'
@@ -3708,6 +3828,44 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-50495
     PublishedDate: '2023-12-12T15:15:07.867Z'
     LastModifiedDate: '2024-11-21T08:37:04.243Z'
+  - VulnerabilityID: CVE-2025-46836
+    PkgID: net-tools@1.60+git20181103.0eebece-1ubuntu5
+    PkgName: net-tools
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/net-tools@1.60%2Bgit20181103.0eebece-1ubuntu5?arch=amd64&distro=ubuntu-22.04
+      UID: d541c6d9beb728c5
+    InstalledVersion: 1.60+git20181103.0eebece-1ubuntu5
+    Status: affected
+    Layer:
+      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
+      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-46836
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'net-tools: net-tools Stack Buffer Overflow'
+    Description: net-tools is a collection of programs that form the base set of the NET-3 networking distribution for the Linux operating system. Inn versions up to and including 2.10, the Linux network utilities (like ifconfig) from the net-tools package do not properly validate the structure of /proc files when showing interfaces. `get_name()` in `interface.c` copies interface labels from `/proc/net/dev` into a fixed 16-byte stack buffer without bounds checking, leading to possible arbitrary code execution or crash. The known attack path does not require privilege but also does not provide privilege escalation in this scenario. A patch is available and expected to be part of version 2.20.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-20
+    - CWE-121
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:H
+        V3Score: 6.6
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-46836
+    - https://github.com/ecki/net-tools/commit/7a8f42fb20013a1493d8cae1c43436f85e656f2d
+    - https://github.com/ecki/net-tools/security/advisories/GHSA-pfwf-h6m3-63wf
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-46836
+    - https://www.cve.org/CVERecord?id=CVE-2025-46836
+    PublishedDate: '2025-05-14T23:15:48.073Z'
+    LastModifiedDate: '2025-05-16T14:43:26.16Z'
   - VulnerabilityID: CVE-2025-32728
     PkgID: openssh-client@1:8.9p1-3ubuntu0.11
     PkgName: openssh-client
@@ -3734,9 +3892,14 @@
     VendorSeverity:
       azure: 2
       cbl-mariner: 2
+      nvd: 1
+      photon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:N/I:L/A:N
+        V3Score: 3.8
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:N/I:L/A:N
         V3Score: 4.3
@@ -3744,6 +3907,7 @@
     - https://access.redhat.com/security/cve/CVE-2025-32728
     - https://ftp.openbsd.org/pub/OpenBSD/patches/7.6/common/013_ssh.patch.sig
     - https://github.com/openssh/openssh-portable/commit/fc86875e6acb36401dfc1dfb6b628a9d1460f367
+    - https://lists.debian.org/debian-lts-announce/2025/05/msg00008.html
     - https://lists.mindrot.org/pipermail/openssh-unix-dev/2025-April/041879.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-32728
     - https://security.netapp.com/advisory/ntap-20250425-0002/
@@ -3752,7 +3916,7 @@
     - https://www.openssh.com/txt/release-10.0
     - https://www.openssh.com/txt/release-7.4
     PublishedDate: '2025-04-10T02:15:30.873Z'
-    LastModifiedDate: '2025-04-25T23:15:17.1Z'
+    LastModifiedDate: '2025-05-22T16:51:54.89Z'
   - VulnerabilityID: CVE-2025-32728
     PkgID: openssh-server@1:8.9p1-3ubuntu0.11
     PkgName: openssh-server
@@ -3779,9 +3943,14 @@
     VendorSeverity:
       azure: 2
       cbl-mariner: 2
+      nvd: 1
+      photon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:N/I:L/A:N
+        V3Score: 3.8
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:N/I:L/A:N
         V3Score: 4.3
@@ -3789,6 +3958,7 @@
     - https://access.redhat.com/security/cve/CVE-2025-32728
     - https://ftp.openbsd.org/pub/OpenBSD/patches/7.6/common/013_ssh.patch.sig
     - https://github.com/openssh/openssh-portable/commit/fc86875e6acb36401dfc1dfb6b628a9d1460f367
+    - https://lists.debian.org/debian-lts-announce/2025/05/msg00008.html
     - https://lists.mindrot.org/pipermail/openssh-unix-dev/2025-April/041879.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-32728
     - https://security.netapp.com/advisory/ntap-20250425-0002/
@@ -3797,7 +3967,7 @@
     - https://www.openssh.com/txt/release-10.0
     - https://www.openssh.com/txt/release-7.4
     PublishedDate: '2025-04-10T02:15:30.873Z'
-    LastModifiedDate: '2025-04-25T23:15:17.1Z'
+    LastModifiedDate: '2025-05-22T16:51:54.89Z'
   - VulnerabilityID: CVE-2025-32728
     PkgID: openssh-sftp-server@1:8.9p1-3ubuntu0.11
     PkgName: openssh-sftp-server
@@ -3824,9 +3994,14 @@
     VendorSeverity:
       azure: 2
       cbl-mariner: 2
+      nvd: 1
+      photon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:N/I:L/A:N
+        V3Score: 3.8
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:N/I:L/A:N
         V3Score: 4.3
@@ -3834,6 +4009,7 @@
     - https://access.redhat.com/security/cve/CVE-2025-32728
     - https://ftp.openbsd.org/pub/OpenBSD/patches/7.6/common/013_ssh.patch.sig
     - https://github.com/openssh/openssh-portable/commit/fc86875e6acb36401dfc1dfb6b628a9d1460f367
+    - https://lists.debian.org/debian-lts-announce/2025/05/msg00008.html
     - https://lists.mindrot.org/pipermail/openssh-unix-dev/2025-April/041879.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-32728
     - https://security.netapp.com/advisory/ntap-20250425-0002/
@@ -3842,7 +4018,7 @@
     - https://www.openssh.com/txt/release-10.0
     - https://www.openssh.com/txt/release-7.4
     PublishedDate: '2025-04-10T02:15:30.873Z'
-    LastModifiedDate: '2025-04-25T23:15:17.1Z'
+    LastModifiedDate: '2025-05-22T16:51:54.89Z'
   - VulnerabilityID: CVE-2024-41996
     PkgID: openssl@3.0.2-0ubuntu1.19
     PkgName: openssl
@@ -3997,6 +4173,7 @@
     VendorSeverity:
       azure: 3
       cbl-mariner: 3
+      photon: 3
       redhat: 3
       ubuntu: 2
     CVSS:
@@ -4016,7 +4193,7 @@
     - https://ubuntu.com/security/notices/USN-7434-2
     - https://www.cve.org/CVERecord?id=CVE-2024-56406
     PublishedDate: '2025-04-13T14:15:14.527Z'
-    LastModifiedDate: '2025-04-18T17:15:34.37Z'
+    LastModifiedDate: '2025-04-30T15:21:11.547Z'
   - VulnerabilityID: CVE-2024-56406
     PkgID: perl-base@5.34.0-3ubuntu1.3
     PkgName: perl-base
@@ -4044,6 +4221,7 @@
     VendorSeverity:
       azure: 3
       cbl-mariner: 3
+      photon: 3
       redhat: 3
       ubuntu: 2
     CVSS:
@@ -4063,7 +4241,7 @@
     - https://ubuntu.com/security/notices/USN-7434-2
     - https://www.cve.org/CVERecord?id=CVE-2024-56406
     PublishedDate: '2025-04-13T14:15:14.527Z'
-    LastModifiedDate: '2025-04-18T17:15:34.37Z'
+    LastModifiedDate: '2025-04-30T15:21:11.547Z'
   - VulnerabilityID: CVE-2024-56406
     PkgID: perl-modules-5.34@5.34.0-3ubuntu1.3
     PkgName: perl-modules-5.34
@@ -4091,6 +4269,7 @@
     VendorSeverity:
       azure: 3
       cbl-mariner: 3
+      photon: 3
       redhat: 3
       ubuntu: 2
     CVSS:
@@ -4110,7 +4289,7 @@
     - https://ubuntu.com/security/notices/USN-7434-2
     - https://www.cve.org/CVERecord?id=CVE-2024-56406
     PublishedDate: '2025-04-13T14:15:14.527Z'
-    LastModifiedDate: '2025-04-18T17:15:34.37Z'
+    LastModifiedDate: '2025-04-30T15:21:11.547Z'
   - VulnerabilityID: CVE-2023-7008
     PkgID: systemd@249.11-0ubuntu3.12
     PkgName: systemd
@@ -4783,9 +4962,11 @@
     - https://go.dev/issue/71984
     - https://nvd.nist.gov/vuln/detail/CVE-2025-22870
     - https://pkg.go.dev/vuln/GO-2025-3503
+    - https://security.netapp.com/advisory/ntap-20250509-0007
+    - https://security.netapp.com/advisory/ntap-20250509-0007/
     - https://www.cve.org/CVERecord?id=CVE-2025-22870
     PublishedDate: '2025-03-12T19:15:38.31Z'
-    LastModifiedDate: '2025-03-18T17:15:45.467Z'
+    LastModifiedDate: '2025-05-09T20:15:38.727Z'
   - VulnerabilityID: CVE-2025-22872
     PkgID: golang.org/x/net@v0.19.0
     PkgName: golang.org/x/net
@@ -4808,6 +4989,8 @@
     Description: The tokenizer incorrectly interprets tags with unquoted attribute values that end with a solidus character (/) as self-closing. When directly using Tokenizer, this can result in such tags incorrectly being marked as self-closing, and when using the Parse functions, this can result in content following such tags as being placed in the wrong scope during DOM construction, but only when tags are in foreign content (e.g. <math>, <svg>, etc contexts).
     Severity: MEDIUM
     VendorSeverity:
+      azure: 2
+      cbl-mariner: 2
       ghsa: 2
       redhat: 2
     CVSS:
@@ -4822,9 +5005,11 @@
     - https://groups.google.com/g/golang-announce/c/ezSKR9vqbqA
     - https://nvd.nist.gov/vuln/detail/CVE-2025-22872
     - https://pkg.go.dev/vuln/GO-2025-3595
+    - https://security.netapp.com/advisory/ntap-20250516-0007
+    - https://security.netapp.com/advisory/ntap-20250516-0007/
     - https://www.cve.org/CVERecord?id=CVE-2025-22872
     PublishedDate: '2025-04-16T18:16:04.183Z'
-    LastModifiedDate: '2025-04-17T20:22:16.24Z'
+    LastModifiedDate: '2025-05-16T23:15:19.707Z'
   - VulnerabilityID: CVE-2025-22871
     PkgID: stdlib@v1.24.1
     PkgName: stdlib
@@ -4999,9 +5184,11 @@
     - https://go.dev/issue/71984
     - https://nvd.nist.gov/vuln/detail/CVE-2025-22870
     - https://pkg.go.dev/vuln/GO-2025-3503
+    - https://security.netapp.com/advisory/ntap-20250509-0007
+    - https://security.netapp.com/advisory/ntap-20250509-0007/
     - https://www.cve.org/CVERecord?id=CVE-2025-22870
     PublishedDate: '2025-03-12T19:15:38.31Z'
-    LastModifiedDate: '2025-03-18T17:15:45.467Z'
+    LastModifiedDate: '2025-05-09T20:15:38.727Z'
   - VulnerabilityID: CVE-2025-22872
     PkgID: golang.org/x/net@v0.19.0
     PkgName: golang.org/x/net
@@ -5024,6 +5211,8 @@
     Description: The tokenizer incorrectly interprets tags with unquoted attribute values that end with a solidus character (/) as self-closing. When directly using Tokenizer, this can result in such tags incorrectly being marked as self-closing, and when using the Parse functions, this can result in content following such tags as being placed in the wrong scope during DOM construction, but only when tags are in foreign content (e.g. <math>, <svg>, etc contexts).
     Severity: MEDIUM
     VendorSeverity:
+      azure: 2
+      cbl-mariner: 2
       ghsa: 2
       redhat: 2
     CVSS:
@@ -5038,9 +5227,11 @@
     - https://groups.google.com/g/golang-announce/c/ezSKR9vqbqA
     - https://nvd.nist.gov/vuln/detail/CVE-2025-22872
     - https://pkg.go.dev/vuln/GO-2025-3595
+    - https://security.netapp.com/advisory/ntap-20250516-0007
+    - https://security.netapp.com/advisory/ntap-20250516-0007/
     - https://www.cve.org/CVERecord?id=CVE-2025-22872
     PublishedDate: '2025-04-16T18:16:04.183Z'
-    LastModifiedDate: '2025-04-17T20:22:16.24Z'
+    LastModifiedDate: '2025-05-16T23:15:19.707Z'
   - VulnerabilityID: CVE-2025-22871
     PkgID: stdlib@v1.24.1
     PkgName: stdlib
@@ -5113,6 +5304,8 @@
     - CWE-190
     VendorSeverity:
       amazon: 2
+      azure: 2
+      cbl-mariner: 2
       ghsa: 2
       redhat: 2
       ubuntu: 2
@@ -5132,11 +5325,50 @@
     - https://github.com/containerd/containerd/commit/9639b9625554183d0c4d8d072dccb84fedd2320f (v1.6.38)
     - https://github.com/containerd/containerd/commit/cf158e884cfe4812a6c371b59e4ea9bc4c46e51a
     - https://github.com/containerd/containerd/security/advisories/GHSA-265r-hfxg-fhmg
+    - https://lists.debian.org/debian-lts-announce/2025/05/msg00005.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-40635
     - https://ubuntu.com/security/notices/USN-7374-1
     - https://www.cve.org/CVERecord?id=CVE-2024-40635
     PublishedDate: '2025-03-17T22:15:13.15Z'
-    LastModifiedDate: '2025-03-17T22:15:13.15Z'
+    LastModifiedDate: '2025-05-04T22:15:31.84Z'
+  - VulnerabilityID: CVE-2025-47291
+    PkgID: github.com/containerd/containerd/v2@v2.0.3
+    PkgName: github.com/containerd/containerd/v2
+    PkgIdentifier:
+      PURL: pkg:golang/github.com/containerd/containerd/v2@v2.0.3
+      UID: f92f7aa64175281f
+    InstalledVersion: v2.0.3
+    FixedVersion: 2.0.5
+    Status: fixed
+    Layer:
+      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
+      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
+    SeveritySource: ghsa
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-47291
+    DataSource:
+      ID: ghsa
+      Name: GitHub Security Advisory Go
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
+    Title: 'containerd: containerd CRI plugin: Incorrect cgroup hierarchy assignment for containers running in usernamespaced Kubernetes pods.'
+    Description: containerd is an open-source container runtime. A bug was found in the containerd's CRI implementation where containerd, starting in version 2.0.1 and prior to version 2.0.5, doesn't put usernamespaced containers under the Kubernetes' cgroup hierarchy, therefore some Kubernetes limits are not honored. This may cause a denial of service of the Kubernetes node. This bug has been fixed in containerd 2.0.5+ and 2.1.0+. Users should update to these versions to resolve the issue. As a workaround, disable usernamespaced pods in Kubernetes temporarily.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-266
+    VendorSeverity:
+      ghsa: 2
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L
+        V3Score: 6.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-47291
+    - https://github.com/containerd/containerd
+    - https://github.com/containerd/containerd/security/advisories/GHSA-cxfp-7pvr-95ff
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-47291
+    - https://www.cve.org/CVERecord?id=CVE-2025-47291
+    PublishedDate: '2025-05-21T18:15:52.853Z'
+    LastModifiedDate: '2025-05-21T20:24:58.133Z'
   - VulnerabilityID: CVE-2025-0495
     PkgID: github.com/docker/buildx@v0.21.2
     PkgName: github.com/docker/buildx
@@ -5193,6 +5425,7 @@
     - CWE-405
     VendorSeverity:
       alma: 3
+      amazon: 3
       azure: 3
       cbl-mariner: 3
       ghsa: 3
@@ -5206,16 +5439,16 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2025:3344
+    - https://access.redhat.com/errata/RHSA-2025:7404
     - https://access.redhat.com/security/cve/CVE-2025-30204
     - https://bugzilla.redhat.com/2354195
-    - https://errata.almalinux.org/9/ALSA-2025-3344.html
+    - https://errata.almalinux.org/9/ALSA-2025-7404.html
     - https://github.com/golang-jwt/jwt
     - https://github.com/golang-jwt/jwt/commit/0951d184286dece21f73c85673fd308786ffe9c3
     - https://github.com/golang-jwt/jwt/commit/bf316c48137a1212f8d0af9288cc9ce8e59f1afb
     - https://github.com/golang-jwt/jwt/security/advisories/GHSA-mh63-6h87-95cp
     - https://linux.oracle.com/cve/CVE-2025-30204.html
-    - https://linux.oracle.com/errata/ELSA-2025-3344.html
+    - https://linux.oracle.com/errata/ELSA-2025-7967.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-30204
     - https://security.netapp.com/advisory/ntap-20250404-0002
     - https://security.netapp.com/advisory/ntap-20250404-0002/
@@ -5271,14 +5504,14 @@
     - https://go.dev/cl/652135
     - https://go.dev/issue/71931
     - https://linux.oracle.com/cve/CVE-2025-22869.html
-    - https://linux.oracle.com/errata/ELSA-2025-3833.html
+    - https://linux.oracle.com/errata/ELSA-2025-7416.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-22869
     - https://pkg.go.dev/vuln/GO-2025-3487
     - https://security.netapp.com/advisory/ntap-20250411-0010
     - https://security.netapp.com/advisory/ntap-20250411-0010/
     - https://www.cve.org/CVERecord?id=CVE-2025-22869
     PublishedDate: '2025-02-26T08:14:24.997Z'
-    LastModifiedDate: '2025-04-11T22:15:29.837Z'
+    LastModifiedDate: '2025-05-01T19:28:20.74Z'
   - VulnerabilityID: CVE-2025-22870
     PkgID: golang.org/x/net@v0.34.0
     PkgName: golang.org/x/net
@@ -5323,9 +5556,11 @@
     - https://go.dev/issue/71984
     - https://nvd.nist.gov/vuln/detail/CVE-2025-22870
     - https://pkg.go.dev/vuln/GO-2025-3503
+    - https://security.netapp.com/advisory/ntap-20250509-0007
+    - https://security.netapp.com/advisory/ntap-20250509-0007/
     - https://www.cve.org/CVERecord?id=CVE-2025-22870
     PublishedDate: '2025-03-12T19:15:38.31Z'
-    LastModifiedDate: '2025-03-18T17:15:45.467Z'
+    LastModifiedDate: '2025-05-09T20:15:38.727Z'
   - VulnerabilityID: CVE-2025-22872
     PkgID: golang.org/x/net@v0.34.0
     PkgName: golang.org/x/net
@@ -5348,6 +5583,8 @@
     Description: The tokenizer incorrectly interprets tags with unquoted attribute values that end with a solidus character (/) as self-closing. When directly using Tokenizer, this can result in such tags incorrectly being marked as self-closing, and when using the Parse functions, this can result in content following such tags as being placed in the wrong scope during DOM construction, but only when tags are in foreign content (e.g. <math>, <svg>, etc contexts).
     Severity: MEDIUM
     VendorSeverity:
+      azure: 2
+      cbl-mariner: 2
       ghsa: 2
       redhat: 2
     CVSS:
@@ -5362,9 +5599,11 @@
     - https://groups.google.com/g/golang-announce/c/ezSKR9vqbqA
     - https://nvd.nist.gov/vuln/detail/CVE-2025-22872
     - https://pkg.go.dev/vuln/GO-2025-3595
+    - https://security.netapp.com/advisory/ntap-20250516-0007
+    - https://security.netapp.com/advisory/ntap-20250516-0007/
     - https://www.cve.org/CVERecord?id=CVE-2025-22872
     PublishedDate: '2025-04-16T18:16:04.183Z'
-    LastModifiedDate: '2025-04-17T20:22:16.24Z'
+    LastModifiedDate: '2025-05-16T23:15:19.707Z'
   - VulnerabilityID: CVE-2025-22871
     PkgID: stdlib@v1.23.6
     PkgName: stdlib
@@ -5437,6 +5676,8 @@
     - CWE-190
     VendorSeverity:
       amazon: 2
+      azure: 2
+      cbl-mariner: 2
       ghsa: 2
       redhat: 2
       ubuntu: 2
@@ -5456,11 +5697,12 @@
     - https://github.com/containerd/containerd/commit/9639b9625554183d0c4d8d072dccb84fedd2320f (v1.6.38)
     - https://github.com/containerd/containerd/commit/cf158e884cfe4812a6c371b59e4ea9bc4c46e51a
     - https://github.com/containerd/containerd/security/advisories/GHSA-265r-hfxg-fhmg
+    - https://lists.debian.org/debian-lts-announce/2025/05/msg00005.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-40635
     - https://ubuntu.com/security/notices/USN-7374-1
     - https://www.cve.org/CVERecord?id=CVE-2024-40635
     PublishedDate: '2025-03-17T22:15:13.15Z'
-    LastModifiedDate: '2025-03-17T22:15:13.15Z'
+    LastModifiedDate: '2025-05-04T22:15:31.84Z'
   - VulnerabilityID: CVE-2025-22872
     PkgID: golang.org/x/net@v0.37.0
     PkgName: golang.org/x/net
@@ -5483,6 +5725,8 @@
     Description: The tokenizer incorrectly interprets tags with unquoted attribute values that end with a solidus character (/) as self-closing. When directly using Tokenizer, this can result in such tags incorrectly being marked as self-closing, and when using the Parse functions, this can result in content following such tags as being placed in the wrong scope during DOM construction, but only when tags are in foreign content (e.g. <math>, <svg>, etc contexts).
     Severity: MEDIUM
     VendorSeverity:
+      azure: 2
+      cbl-mariner: 2
       ghsa: 2
       redhat: 2
     CVSS:
@@ -5497,9 +5741,11 @@
     - https://groups.google.com/g/golang-announce/c/ezSKR9vqbqA
     - https://nvd.nist.gov/vuln/detail/CVE-2025-22872
     - https://pkg.go.dev/vuln/GO-2025-3595
+    - https://security.netapp.com/advisory/ntap-20250516-0007
+    - https://security.netapp.com/advisory/ntap-20250516-0007/
     - https://www.cve.org/CVERecord?id=CVE-2025-22872
     PublishedDate: '2025-04-16T18:16:04.183Z'
-    LastModifiedDate: '2025-04-17T20:22:16.24Z'
+    LastModifiedDate: '2025-05-16T23:15:19.707Z'
   - VulnerabilityID: CVE-2025-22871
     PkgID: stdlib@v1.23.7
     PkgName: stdlib
@@ -5591,9 +5837,11 @@
     - https://go.dev/issue/71984
     - https://nvd.nist.gov/vuln/detail/CVE-2025-22870
     - https://pkg.go.dev/vuln/GO-2025-3503
+    - https://security.netapp.com/advisory/ntap-20250509-0007
+    - https://security.netapp.com/advisory/ntap-20250509-0007/
     - https://www.cve.org/CVERecord?id=CVE-2025-22870
     PublishedDate: '2025-03-12T19:15:38.31Z'
-    LastModifiedDate: '2025-03-18T17:15:45.467Z'
+    LastModifiedDate: '2025-05-09T20:15:38.727Z'
   - VulnerabilityID: CVE-2025-22872
     PkgID: golang.org/x/net@v0.30.0
     PkgName: golang.org/x/net
@@ -5616,6 +5864,8 @@
     Description: The tokenizer incorrectly interprets tags with unquoted attribute values that end with a solidus character (/) as self-closing. When directly using Tokenizer, this can result in such tags incorrectly being marked as self-closing, and when using the Parse functions, this can result in content following such tags as being placed in the wrong scope during DOM construction, but only when tags are in foreign content (e.g. <math>, <svg>, etc contexts).
     Severity: MEDIUM
     VendorSeverity:
+      azure: 2
+      cbl-mariner: 2
       ghsa: 2
       redhat: 2
     CVSS:
@@ -5630,9 +5880,11 @@
     - https://groups.google.com/g/golang-announce/c/ezSKR9vqbqA
     - https://nvd.nist.gov/vuln/detail/CVE-2025-22872
     - https://pkg.go.dev/vuln/GO-2025-3595
+    - https://security.netapp.com/advisory/ntap-20250516-0007
+    - https://security.netapp.com/advisory/ntap-20250516-0007/
     - https://www.cve.org/CVERecord?id=CVE-2025-22872
     PublishedDate: '2025-04-16T18:16:04.183Z'
-    LastModifiedDate: '2025-04-17T20:22:16.24Z'
+    LastModifiedDate: '2025-05-16T23:15:19.707Z'
   - VulnerabilityID: CVE-2025-22871
     PkgID: stdlib@v1.23.6
     PkgName: stdlib
@@ -5705,6 +5957,7 @@
     - CWE-405
     VendorSeverity:
       alma: 3
+      amazon: 3
       azure: 3
       cbl-mariner: 3
       ghsa: 3
@@ -5718,16 +5971,16 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2025:3344
+    - https://access.redhat.com/errata/RHSA-2025:7404
     - https://access.redhat.com/security/cve/CVE-2025-30204
     - https://bugzilla.redhat.com/2354195
-    - https://errata.almalinux.org/9/ALSA-2025-3344.html
+    - https://errata.almalinux.org/9/ALSA-2025-7404.html
     - https://github.com/golang-jwt/jwt
     - https://github.com/golang-jwt/jwt/commit/0951d184286dece21f73c85673fd308786ffe9c3
     - https://github.com/golang-jwt/jwt/commit/bf316c48137a1212f8d0af9288cc9ce8e59f1afb
     - https://github.com/golang-jwt/jwt/security/advisories/GHSA-mh63-6h87-95cp
     - https://linux.oracle.com/cve/CVE-2025-30204.html
-    - https://linux.oracle.com/errata/ELSA-2025-3344.html
+    - https://linux.oracle.com/errata/ELSA-2025-7967.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-30204
     - https://security.netapp.com/advisory/ntap-20250404-0002
     - https://security.netapp.com/advisory/ntap-20250404-0002/
@@ -5756,6 +6009,8 @@
     Description: The tokenizer incorrectly interprets tags with unquoted attribute values that end with a solidus character (/) as self-closing. When directly using Tokenizer, this can result in such tags incorrectly being marked as self-closing, and when using the Parse functions, this can result in content following such tags as being placed in the wrong scope during DOM construction, but only when tags are in foreign content (e.g. <math>, <svg>, etc contexts).
     Severity: MEDIUM
     VendorSeverity:
+      azure: 2
+      cbl-mariner: 2
       ghsa: 2
       redhat: 2
     CVSS:
@@ -5770,9 +6025,11 @@
     - https://groups.google.com/g/golang-announce/c/ezSKR9vqbqA
     - https://nvd.nist.gov/vuln/detail/CVE-2025-22872
     - https://pkg.go.dev/vuln/GO-2025-3595
+    - https://security.netapp.com/advisory/ntap-20250516-0007
+    - https://security.netapp.com/advisory/ntap-20250516-0007/
     - https://www.cve.org/CVERecord?id=CVE-2025-22872
     PublishedDate: '2025-04-16T18:16:04.183Z'
-    LastModifiedDate: '2025-04-17T20:22:16.24Z'
+    LastModifiedDate: '2025-05-16T23:15:19.707Z'
   - VulnerabilityID: CVE-2025-22871
     PkgID: stdlib@v1.24.1
     PkgName: stdlib
@@ -5845,6 +6102,8 @@
     - CWE-190
     VendorSeverity:
       amazon: 2
+      azure: 2
+      cbl-mariner: 2
       ghsa: 2
       redhat: 2
       ubuntu: 2
@@ -5864,11 +6123,12 @@
     - https://github.com/containerd/containerd/commit/9639b9625554183d0c4d8d072dccb84fedd2320f (v1.6.38)
     - https://github.com/containerd/containerd/commit/cf158e884cfe4812a6c371b59e4ea9bc4c46e51a
     - https://github.com/containerd/containerd/security/advisories/GHSA-265r-hfxg-fhmg
+    - https://lists.debian.org/debian-lts-announce/2025/05/msg00005.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-40635
     - https://ubuntu.com/security/notices/USN-7374-1
     - https://www.cve.org/CVERecord?id=CVE-2024-40635
     PublishedDate: '2025-03-17T22:15:13.15Z'
-    LastModifiedDate: '2025-03-17T22:15:13.15Z'
+    LastModifiedDate: '2025-05-04T22:15:31.84Z'
   - VulnerabilityID: CVE-2024-41110
     PkgID: github.com/docker/docker@v27.0.3+incompatible
     PkgName: github.com/docker/docker
@@ -6040,14 +6300,14 @@
     - https://go.dev/cl/652135
     - https://go.dev/issue/71931
     - https://linux.oracle.com/cve/CVE-2025-22869.html
-    - https://linux.oracle.com/errata/ELSA-2025-3833.html
+    - https://linux.oracle.com/errata/ELSA-2025-7416.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-22869
     - https://pkg.go.dev/vuln/GO-2025-3487
     - https://security.netapp.com/advisory/ntap-20250411-0010
     - https://security.netapp.com/advisory/ntap-20250411-0010/
     - https://www.cve.org/CVERecord?id=CVE-2025-22869
     PublishedDate: '2025-02-26T08:14:24.997Z'
-    LastModifiedDate: '2025-04-11T22:15:29.837Z'
+    LastModifiedDate: '2025-05-01T19:28:20.74Z'
   - VulnerabilityID: CVE-2025-22870
     PkgID: golang.org/x/net@v0.26.0
     PkgName: golang.org/x/net
@@ -6092,9 +6352,11 @@
     - https://go.dev/issue/71984
     - https://nvd.nist.gov/vuln/detail/CVE-2025-22870
     - https://pkg.go.dev/vuln/GO-2025-3503
+    - https://security.netapp.com/advisory/ntap-20250509-0007
+    - https://security.netapp.com/advisory/ntap-20250509-0007/
     - https://www.cve.org/CVERecord?id=CVE-2025-22870
     PublishedDate: '2025-03-12T19:15:38.31Z'
-    LastModifiedDate: '2025-03-18T17:15:45.467Z'
+    LastModifiedDate: '2025-05-09T20:15:38.727Z'
   - VulnerabilityID: CVE-2025-22872
     PkgID: golang.org/x/net@v0.26.0
     PkgName: golang.org/x/net
@@ -6117,6 +6379,8 @@
     Description: The tokenizer incorrectly interprets tags with unquoted attribute values that end with a solidus character (/) as self-closing. When directly using Tokenizer, this can result in such tags incorrectly being marked as self-closing, and when using the Parse functions, this can result in content following such tags as being placed in the wrong scope during DOM construction, but only when tags are in foreign content (e.g. <math>, <svg>, etc contexts).
     Severity: MEDIUM
     VendorSeverity:
+      azure: 2
+      cbl-mariner: 2
       ghsa: 2
       redhat: 2
     CVSS:
@@ -6131,9 +6395,11 @@
     - https://groups.google.com/g/golang-announce/c/ezSKR9vqbqA
     - https://nvd.nist.gov/vuln/detail/CVE-2025-22872
     - https://pkg.go.dev/vuln/GO-2025-3595
+    - https://security.netapp.com/advisory/ntap-20250516-0007
+    - https://security.netapp.com/advisory/ntap-20250516-0007/
     - https://www.cve.org/CVERecord?id=CVE-2025-22872
     PublishedDate: '2025-04-16T18:16:04.183Z'
-    LastModifiedDate: '2025-04-17T20:22:16.24Z'
+    LastModifiedDate: '2025-05-16T23:15:19.707Z'
   - VulnerabilityID: GHSA-xr7q-jx4m-x55m
     PkgID: google.golang.org/grpc@v1.64.0
     PkgName: google.golang.org/grpc
@@ -6169,6 +6435,8 @@
     - https://github.com/grpc/grpc-go
     - https://github.com/grpc/grpc-go/commit/ab292411ddc0f3b7a7786754d1fe05264c3021eb
     - https://github.com/grpc/grpc-go/security/advisories/GHSA-xr7q-jx4m-x55m
+    PublishedDate: '2024-07-05T20:07:01Z'
+    LastModifiedDate: '2024-07-09T21:38:29Z'
   - VulnerabilityID: CVE-2025-22871
     PkgID: stdlib@v1.22.12
     PkgName: stdlib
