@@ -3172,7 +3172,8 @@
 │                        │       │                  │       amd64&distro=ubuntu-22.04 
 │                        │       │                  ╰ UID : dd375683f132719b 
 │                        │       ├ InstalledVersion: 3.37.2-2ubuntu0.3 
-│                        │       ├ Status          : affected 
+│                        │       ├ FixedVersion    : 3.37.2-2ubuntu0.4 
+│                        │       ├ Status          : fixed 
 │                        │       ├ Layer            ╭ Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972c
 │                        │       │                  │         f4a8143db4b97d428659d0 
 │                        │       │                  ╰ DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96
@@ -3210,8 +3211,9 @@
 │                        │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-29088 
 │                        │       │                  ├ [4]: https://sqlite.org/forum/forumpost/48f365daec 
 │                        │       │                  ├ [5]: https://sqlite.org/releaselog/3_49_1.html 
-│                        │       │                  ├ [6]: https://www.cve.org/CVERecord?id=CVE-2025-29088 
-│                        │       │                  ╰ [7]: https://www.sqlite.org/cves.html 
+│                        │       │                  ├ [6]: https://ubuntu.com/security/notices/USN-7528-1 
+│                        │       │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2025-29088 
+│                        │       │                  ╰ [8]: https://www.sqlite.org/cves.html 
 │                        │       ├ PublishedDate   : 2025-04-10T14:15:27.163Z 
 │                        │       ╰ LastModifiedDate: 2025-04-30T16:40:41.543Z 
 │                        ├ [64]  ╭ VulnerabilityID : CVE-2024-41996 
@@ -6246,7 +6248,7 @@
 │                        │     │                  ├ [7] : https://go.dev/cl/652135 
 │                        │     │                  ├ [8] : https://go.dev/issue/71931 
 │                        │     │                  ├ [9] : https://linux.oracle.com/cve/CVE-2025-22869.html 
-│                        │     │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2025-7391.html 
+│                        │     │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2025-7416.html 
 │                        │     │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2025-22869 
 │                        │     │                  ├ [12]: https://pkg.go.dev/vuln/GO-2025-3487 
 │                        │     │                  ├ [13]: https://security.netapp.com/advisory/ntap-20250411-0010 
@@ -7188,7 +7190,7 @@
 │                        │     │                  ├ [7] : https://go.dev/cl/652135 
 │                        │     │                  ├ [8] : https://go.dev/issue/71931 
 │                        │     │                  ├ [9] : https://linux.oracle.com/cve/CVE-2025-22869.html 
-│                        │     │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2025-7391.html 
+│                        │     │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2025-7416.html 
 │                        │     │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2025-22869 
 │                        │     │                  ├ [12]: https://pkg.go.dev/vuln/GO-2025-3487 
 │                        │     │                  ├ [13]: https://security.netapp.com/advisory/ntap-20250411-0010 
