@@ -131,12 +131,12 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 6.2
     References:
-    - https://access.redhat.com/errata/RHSA-2023:4569
+    - https://access.redhat.com/errata/RHSA-2023:4498
     - https://access.redhat.com/security/cve/CVE-2023-34969
     - https://bugzilla.redhat.com/2213166
     - https://bugzilla.redhat.com/show_bug.cgi?id=2213166
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-34969
-    - https://errata.almalinux.org/9/ALSA-2023-4569.html
+    - https://errata.almalinux.org/8/ALSA-2023-4498.html
     - https://errata.rockylinux.org/RLSA-2023:4569
     - https://gitlab.freedesktop.org/dbus/dbus/-/issues/457
     - https://linux.oracle.com/cve/CVE-2023-34969.html
@@ -187,12 +187,12 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 6.2
     References:
-    - https://access.redhat.com/errata/RHSA-2023:4569
+    - https://access.redhat.com/errata/RHSA-2023:4498
     - https://access.redhat.com/security/cve/CVE-2023-34969
     - https://bugzilla.redhat.com/2213166
     - https://bugzilla.redhat.com/show_bug.cgi?id=2213166
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-34969
-    - https://errata.almalinux.org/9/ALSA-2023-4569.html
+    - https://errata.almalinux.org/8/ALSA-2023-4498.html
     - https://errata.rockylinux.org/RLSA-2023:4569
     - https://gitlab.freedesktop.org/dbus/dbus/-/issues/457
     - https://linux.oracle.com/cve/CVE-2023-34969.html
@@ -1237,12 +1237,12 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 6.2
     References:
-    - https://access.redhat.com/errata/RHSA-2023:4569
+    - https://access.redhat.com/errata/RHSA-2023:4498
     - https://access.redhat.com/security/cve/CVE-2023-34969
     - https://bugzilla.redhat.com/2213166
     - https://bugzilla.redhat.com/show_bug.cgi?id=2213166
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-34969
-    - https://errata.almalinux.org/9/ALSA-2023-4569.html
+    - https://errata.almalinux.org/8/ALSA-2023-4498.html
     - https://errata.rockylinux.org/RLSA-2023:4569
     - https://gitlab.freedesktop.org/dbus/dbus/-/issues/457
     - https://linux.oracle.com/cve/CVE-2023-34969.html
@@ -1504,6 +1504,88 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-2236
     PublishedDate: '2024-03-06T22:15:57.977Z'
     LastModifiedDate: '2025-04-02T17:15:37.79Z'
+  - VulnerabilityID: CVE-2025-4373
+    PkgID: libglib2.0-0@2.72.4-0ubuntu2.4
+    PkgName: libglib2.0-0
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libglib2.0-0@2.72.4-0ubuntu2.4?arch=amd64&distro=ubuntu-22.04
+      UID: 55d399f76a7e6835
+    InstalledVersion: 2.72.4-0ubuntu2.4
+    FixedVersion: 2.72.4-0ubuntu2.5
+    Status: fixed
+    Layer:
+      Digest: sha256:d8e13dfbf9d18560bc82f3f3226204f2eda560f812e874bac6007484f9ffbbf5
+      DiffID: sha256:dcdea51f2f7d989a8d4405e87b070791370756fa82c6adec37d5246b86d45116
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-4373
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'glib: Buffer Underflow on GLib through glib/gstring.c via function g_string_insert_unichar'
+    Description: A flaw was found in GLib, which is vulnerable to an integer overflow in the g_string_insert_unichar() function. When the position at which to insert the character is large, the position will overflow, leading to a buffer underwrite.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-124
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:L
+        V3Score: 4.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-4373
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2364265
+    - https://gitlab.gnome.org/GNOME/glib/-/issues/3677
+    - https://gitlab.gnome.org/GNOME/glib/-/merge_requests/4588
+    - https://gitlab.gnome.org/GNOME/glib/-/merge_requests/4592
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-4373
+    - https://ubuntu.com/security/notices/USN-7532-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-4373
+    PublishedDate: '2025-05-06T15:16:05.32Z'
+    LastModifiedDate: '2025-05-07T14:13:20.483Z'
+  - VulnerabilityID: CVE-2025-4373
+    PkgID: libglib2.0-data@2.72.4-0ubuntu2.4
+    PkgName: libglib2.0-data
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libglib2.0-data@2.72.4-0ubuntu2.4?arch=all&distro=ubuntu-22.04
+      UID: c91c3659ab16a69c
+    InstalledVersion: 2.72.4-0ubuntu2.4
+    FixedVersion: 2.72.4-0ubuntu2.5
+    Status: fixed
+    Layer:
+      Digest: sha256:d8e13dfbf9d18560bc82f3f3226204f2eda560f812e874bac6007484f9ffbbf5
+      DiffID: sha256:dcdea51f2f7d989a8d4405e87b070791370756fa82c6adec37d5246b86d45116
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-4373
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'glib: Buffer Underflow on GLib through glib/gstring.c via function g_string_insert_unichar'
+    Description: A flaw was found in GLib, which is vulnerable to an integer overflow in the g_string_insert_unichar() function. When the position at which to insert the character is large, the position will overflow, leading to a buffer underwrite.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-124
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:L
+        V3Score: 4.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-4373
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2364265
+    - https://gitlab.gnome.org/GNOME/glib/-/issues/3677
+    - https://gitlab.gnome.org/GNOME/glib/-/merge_requests/4588
+    - https://gitlab.gnome.org/GNOME/glib/-/merge_requests/4592
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-4373
+    - https://ubuntu.com/security/notices/USN-7532-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-4373
+    PublishedDate: '2025-05-06T15:16:05.32Z'
+    LastModifiedDate: '2025-05-07T14:13:20.483Z'
   - VulnerabilityID: CVE-2025-3576
     PkgID: libgssapi-krb5-2@1.19.2-2ubuntu0.6
     PkgName: libgssapi-krb5-2
@@ -1854,7 +1936,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222261
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222672
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-7008
-    - https://errata.almalinux.org/9/ALSA-2024-2463.html
+    - https://errata.almalinux.org/8/ALSA-2024-3203.html
     - https://errata.rockylinux.org/RLSA-2024:2463
     - https://github.com/systemd/systemd/issues/25676
     - https://linux.oracle.com/cve/CVE-2023-7008.html
@@ -1889,7 +1971,7 @@
     CweIDs:
     - CWE-922
     VendorSeverity:
-      alma: 2
+      alma: 3
       azure: 2
       cbl-mariner: 2
       oracle-oval: 2
@@ -1906,11 +1988,12 @@
     - https://access.redhat.com/errata/RHSA-2024:9941
     - https://access.redhat.com/security/cve/CVE-2024-10041
     - https://bugzilla.redhat.com/2319212
+    - https://bugzilla.redhat.com/2324291
     - https://bugzilla.redhat.com/show_bug.cgi?id=2319212
     - https://bugzilla.redhat.com/show_bug.cgi?id=2324291
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10041
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10963
-    - https://errata.almalinux.org/9/ALSA-2024-11250.html
+    - https://errata.almalinux.org/8/ALSA-2024-10379.html
     - https://errata.rockylinux.org/RLSA-2024:10379
     - https://linux.oracle.com/cve/CVE-2024-10041.html
     - https://linux.oracle.com/errata/ELSA-2024-11250.html
@@ -1941,7 +2024,7 @@
     CweIDs:
     - CWE-922
     VendorSeverity:
-      alma: 2
+      alma: 3
       azure: 2
       cbl-mariner: 2
       oracle-oval: 2
@@ -1958,11 +2041,12 @@
     - https://access.redhat.com/errata/RHSA-2024:9941
     - https://access.redhat.com/security/cve/CVE-2024-10041
     - https://bugzilla.redhat.com/2319212
+    - https://bugzilla.redhat.com/2324291
     - https://bugzilla.redhat.com/show_bug.cgi?id=2319212
     - https://bugzilla.redhat.com/show_bug.cgi?id=2324291
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10041
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10963
-    - https://errata.almalinux.org/9/ALSA-2024-11250.html
+    - https://errata.almalinux.org/8/ALSA-2024-10379.html
     - https://errata.rockylinux.org/RLSA-2024:10379
     - https://linux.oracle.com/cve/CVE-2024-10041.html
     - https://linux.oracle.com/errata/ELSA-2024-11250.html
@@ -1993,7 +2077,7 @@
     CweIDs:
     - CWE-922
     VendorSeverity:
-      alma: 2
+      alma: 3
       azure: 2
       cbl-mariner: 2
       oracle-oval: 2
@@ -2010,11 +2094,12 @@
     - https://access.redhat.com/errata/RHSA-2024:9941
     - https://access.redhat.com/security/cve/CVE-2024-10041
     - https://bugzilla.redhat.com/2319212
+    - https://bugzilla.redhat.com/2324291
     - https://bugzilla.redhat.com/show_bug.cgi?id=2319212
     - https://bugzilla.redhat.com/show_bug.cgi?id=2324291
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10041
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10963
-    - https://errata.almalinux.org/9/ALSA-2024-11250.html
+    - https://errata.almalinux.org/8/ALSA-2024-10379.html
     - https://errata.rockylinux.org/RLSA-2024:10379
     - https://linux.oracle.com/cve/CVE-2024-10041.html
     - https://linux.oracle.com/errata/ELSA-2024-11250.html
@@ -2068,7 +2153,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222261
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222672
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-7008
-    - https://errata.almalinux.org/9/ALSA-2024-2463.html
+    - https://errata.almalinux.org/8/ALSA-2024-3203.html
     - https://errata.rockylinux.org/RLSA-2024:2463
     - https://github.com/systemd/systemd/issues/25676
     - https://linux.oracle.com/cve/CVE-2023-7008.html
@@ -2103,7 +2188,7 @@
     CweIDs:
     - CWE-922
     VendorSeverity:
-      alma: 2
+      alma: 3
       azure: 2
       cbl-mariner: 2
       oracle-oval: 2
@@ -2120,11 +2205,12 @@
     - https://access.redhat.com/errata/RHSA-2024:9941
     - https://access.redhat.com/security/cve/CVE-2024-10041
     - https://bugzilla.redhat.com/2319212
+    - https://bugzilla.redhat.com/2324291
     - https://bugzilla.redhat.com/show_bug.cgi?id=2319212
     - https://bugzilla.redhat.com/show_bug.cgi?id=2324291
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10041
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10963
-    - https://errata.almalinux.org/9/ALSA-2024-11250.html
+    - https://errata.almalinux.org/8/ALSA-2024-10379.html
     - https://errata.rockylinux.org/RLSA-2024:10379
     - https://linux.oracle.com/cve/CVE-2024-10041.html
     - https://linux.oracle.com/errata/ELSA-2024-11250.html
@@ -2422,7 +2508,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222261
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222672
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-7008
-    - https://errata.almalinux.org/9/ALSA-2024-2463.html
+    - https://errata.almalinux.org/8/ALSA-2024-3203.html
     - https://errata.rockylinux.org/RLSA-2024:2463
     - https://github.com/systemd/systemd/issues/25676
     - https://linux.oracle.com/cve/CVE-2023-7008.html
@@ -2560,7 +2646,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222261
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222672
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-7008
-    - https://errata.almalinux.org/9/ALSA-2024-2463.html
+    - https://errata.almalinux.org/8/ALSA-2024-3203.html
     - https://errata.rockylinux.org/RLSA-2024:2463
     - https://github.com/systemd/systemd/issues/25676
     - https://linux.oracle.com/cve/CVE-2023-7008.html
@@ -2615,7 +2701,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2024:1141
+    - https://access.redhat.com/errata/RHSA-2024:0894
     - https://access.redhat.com/security/cve/CVE-2022-4899
     - https://bugzilla.redhat.com/2179864
     - https://bugzilla.redhat.com/2188109
@@ -2692,7 +2778,7 @@
     - https://bugzilla.redhat.com/2258792
     - https://bugzilla.redhat.com/2258793
     - https://bugzilla.redhat.com/2258794
-    - https://errata.almalinux.org/9/ALSA-2024-1141.html
+    - https://errata.almalinux.org/8/ALSA-2024-0894.html
     - https://github.com/facebook/zstd
     - https://github.com/facebook/zstd/issues/3200
     - https://github.com/facebook/zstd/pull/3220
@@ -3248,7 +3334,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222261
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222672
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-7008
-    - https://errata.almalinux.org/9/ALSA-2024-2463.html
+    - https://errata.almalinux.org/8/ALSA-2024-3203.html
     - https://errata.rockylinux.org/RLSA-2024:2463
     - https://github.com/systemd/systemd/issues/25676
     - https://linux.oracle.com/cve/CVE-2023-7008.html
@@ -3306,7 +3392,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222261
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222672
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-7008
-    - https://errata.almalinux.org/9/ALSA-2024-2463.html
+    - https://errata.almalinux.org/8/ALSA-2024-3203.html
     - https://errata.rockylinux.org/RLSA-2024:2463
     - https://github.com/systemd/systemd/issues/25676
     - https://linux.oracle.com/cve/CVE-2023-7008.html
@@ -3364,7 +3450,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222261
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222672
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-7008
-    - https://errata.almalinux.org/9/ALSA-2024-2463.html
+    - https://errata.almalinux.org/8/ALSA-2024-3203.html
     - https://errata.rockylinux.org/RLSA-2024:2463
     - https://github.com/systemd/systemd/issues/25676
     - https://linux.oracle.com/cve/CVE-2023-7008.html
@@ -3617,7 +3703,7 @@
     References:
     - http://www.openwall.com/lists/oss-security/2024/04/03/16
     - http://www.openwall.com/lists/oss-security/2024/04/05/4
-    - https://access.redhat.com/errata/RHSA-2024:2724
+    - https://access.redhat.com/errata/RHSA-2024:3346
     - https://access.redhat.com/security/cve/CVE-2023-45288
     - https://bugzilla.redhat.com/2268017
     - https://bugzilla.redhat.com/2268018
@@ -3631,7 +3717,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45289
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45290
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24783
-    - https://errata.almalinux.org/9/ALSA-2024-2724.html
+    - https://errata.almalinux.org/8/ALSA-2024-3346.html
     - https://errata.rockylinux.org/RLSA-2024:2724
     - https://go.dev/cl/576155
     - https://go.dev/issue/65051
@@ -3839,7 +3925,7 @@
     References:
     - http://www.openwall.com/lists/oss-security/2024/04/03/16
     - http://www.openwall.com/lists/oss-security/2024/04/05/4
-    - https://access.redhat.com/errata/RHSA-2024:2724
+    - https://access.redhat.com/errata/RHSA-2024:3346
     - https://access.redhat.com/security/cve/CVE-2023-45288
     - https://bugzilla.redhat.com/2268017
     - https://bugzilla.redhat.com/2268018
@@ -3853,7 +3939,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45289
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45290
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24783
-    - https://errata.almalinux.org/9/ALSA-2024-2724.html
+    - https://errata.almalinux.org/8/ALSA-2024-3346.html
     - https://errata.rockylinux.org/RLSA-2024:2724
     - https://go.dev/cl/576155
     - https://go.dev/issue/65051
