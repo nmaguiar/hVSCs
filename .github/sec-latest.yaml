@@ -2283,7 +2283,8 @@
       PURL: pkg:deb/ubuntu/libgssapi-krb5-2@1.19.2-2ubuntu0.6?arch=amd64&distro=ubuntu-22.04
       UID: f6dc12283f1322bd
     InstalledVersion: 1.19.2-2ubuntu0.6
-    Status: affected
+    FixedVersion: 1.19.2-2ubuntu0.7
+    Status: fixed
     Layer:
       Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
       DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
@@ -2308,10 +2309,12 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2025-3576
     - https://bugzilla.redhat.com/show_bug.cgi?id=2359465
+    - https://lists.debian.org/debian-lts-announce/2025/05/msg00047.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-3576
+    - https://ubuntu.com/security/notices/USN-7542-1
     - https://www.cve.org/CVERecord?id=CVE-2025-3576
     PublishedDate: '2025-04-15T06:15:44.047Z'
-    LastModifiedDate: '2025-04-15T18:39:27.967Z'
+    LastModifiedDate: '2025-05-30T17:15:28.94Z'
   - VulnerabilityID: CVE-2025-5222
     PkgID: libicu70@70.1-2
     PkgName: libicu70
@@ -2355,7 +2358,8 @@
       PURL: pkg:deb/ubuntu/libk5crypto3@1.19.2-2ubuntu0.6?arch=amd64&distro=ubuntu-22.04
       UID: 94dfcbd4eba15b0c
     InstalledVersion: 1.19.2-2ubuntu0.6
-    Status: affected
+    FixedVersion: 1.19.2-2ubuntu0.7
+    Status: fixed
     Layer:
       Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
       DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
@@ -2380,10 +2384,12 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2025-3576
     - https://bugzilla.redhat.com/show_bug.cgi?id=2359465
+    - https://lists.debian.org/debian-lts-announce/2025/05/msg00047.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-3576
+    - https://ubuntu.com/security/notices/USN-7542-1
     - https://www.cve.org/CVERecord?id=CVE-2025-3576
     PublishedDate: '2025-04-15T06:15:44.047Z'
-    LastModifiedDate: '2025-04-15T18:39:27.967Z'
+    LastModifiedDate: '2025-05-30T17:15:28.94Z'
   - VulnerabilityID: CVE-2025-3576
     PkgID: libkrb5-3@1.19.2-2ubuntu0.6
     PkgName: libkrb5-3
@@ -2391,7 +2397,8 @@
       PURL: pkg:deb/ubuntu/libkrb5-3@1.19.2-2ubuntu0.6?arch=amd64&distro=ubuntu-22.04
       UID: f4ccea1c71392c97
     InstalledVersion: 1.19.2-2ubuntu0.6
-    Status: affected
+    FixedVersion: 1.19.2-2ubuntu0.7
+    Status: fixed
     Layer:
       Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
       DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
@@ -2416,10 +2423,12 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2025-3576
     - https://bugzilla.redhat.com/show_bug.cgi?id=2359465
+    - https://lists.debian.org/debian-lts-announce/2025/05/msg00047.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-3576
+    - https://ubuntu.com/security/notices/USN-7542-1
     - https://www.cve.org/CVERecord?id=CVE-2025-3576
     PublishedDate: '2025-04-15T06:15:44.047Z'
-    LastModifiedDate: '2025-04-15T18:39:27.967Z'
+    LastModifiedDate: '2025-05-30T17:15:28.94Z'
   - VulnerabilityID: CVE-2025-3576
     PkgID: libkrb5support0@1.19.2-2ubuntu0.6
     PkgName: libkrb5support0
@@ -2427,7 +2436,8 @@
       PURL: pkg:deb/ubuntu/libkrb5support0@1.19.2-2ubuntu0.6?arch=amd64&distro=ubuntu-22.04
       UID: 60845f20bb151fff
     InstalledVersion: 1.19.2-2ubuntu0.6
-    Status: affected
+    FixedVersion: 1.19.2-2ubuntu0.7
+    Status: fixed
     Layer:
       Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
       DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
@@ -2452,10 +2462,12 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2025-3576
     - https://bugzilla.redhat.com/show_bug.cgi?id=2359465
+    - https://lists.debian.org/debian-lts-announce/2025/05/msg00047.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-3576
+    - https://ubuntu.com/security/notices/USN-7542-1
     - https://www.cve.org/CVERecord?id=CVE-2025-3576
     PublishedDate: '2025-04-15T06:15:44.047Z'
-    LastModifiedDate: '2025-04-15T18:39:27.967Z'
+    LastModifiedDate: '2025-05-30T17:15:28.94Z'
   - VulnerabilityID: CVE-2023-45918
     PkgID: libncurses6@6.3-2ubuntu0.1
     PkgName: libncurses6
@@ -3105,7 +3117,7 @@
     - CWE-190
     - CWE-400
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       bitnami: 3
       photon: 3
       redhat: 2
@@ -3781,7 +3793,7 @@
     - CWE-1188
     VendorSeverity:
       azure: 1
-      redhat: 1
+      redhat: 2
       ubuntu: 1
     CVSS:
       redhat:
@@ -4043,7 +4055,7 @@
       PURL: pkg:deb/ubuntu/net-tools@1.60%2Bgit20181103.0eebece-1ubuntu5?arch=amd64&distro=ubuntu-22.04
       UID: d541c6d9beb728c5
     InstalledVersion: 1.60+git20181103.0eebece-1ubuntu5
-    FixedVersion: 1.60+git20181103.0eebece-1ubuntu5.1
+    FixedVersion: 1.60+git20181103.0eebece-1ubuntu5.4
     Status: fixed
     Layer:
       Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
@@ -4073,6 +4085,7 @@
     - https://github.com/ecki/net-tools/security/advisories/GHSA-pfwf-h6m3-63wf
     - https://nvd.nist.gov/vuln/detail/CVE-2025-46836
     - https://ubuntu.com/security/notices/USN-7537-1
+    - https://ubuntu.com/security/notices/USN-7537-2
     - https://www.cve.org/CVERecord?id=CVE-2025-46836
     PublishedDate: '2025-05-14T23:15:48.073Z'
     LastModifiedDate: '2025-05-16T14:43:26.16Z'
@@ -4341,7 +4354,7 @@
     - CWE-1188
     VendorSeverity:
       azure: 1
-      redhat: 1
+      redhat: 2
       ubuntu: 1
     CVSS:
       redhat:
@@ -4744,7 +4757,7 @@
     - CWE-1188
     VendorSeverity:
       azure: 1
-      redhat: 1
+      redhat: 2
       ubuntu: 1
     CVSS:
       redhat:
@@ -5199,6 +5212,7 @@
     Description: The tokenizer incorrectly interprets tags with unquoted attribute values that end with a solidus character (/) as self-closing. When directly using Tokenizer, this can result in such tags incorrectly being marked as self-closing, and when using the Parse functions, this can result in content following such tags as being placed in the wrong scope during DOM construction, but only when tags are in foreign content (e.g. <math>, <svg>, etc contexts).
     Severity: MEDIUM
     VendorSeverity:
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       ghsa: 2
@@ -5421,6 +5435,7 @@
     Description: The tokenizer incorrectly interprets tags with unquoted attribute values that end with a solidus character (/) as self-closing. When directly using Tokenizer, this can result in such tags incorrectly being marked as self-closing, and when using the Parse functions, this can result in content following such tags as being placed in the wrong scope during DOM construction, but only when tags are in foreign content (e.g. <math>, <svg>, etc contexts).
     Severity: MEDIUM
     VendorSeverity:
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       ghsa: 2
@@ -5795,6 +5810,7 @@
     Description: The tokenizer incorrectly interprets tags with unquoted attribute values that end with a solidus character (/) as self-closing. When directly using Tokenizer, this can result in such tags incorrectly being marked as self-closing, and when using the Parse functions, this can result in content following such tags as being placed in the wrong scope during DOM construction, but only when tags are in foreign content (e.g. <math>, <svg>, etc contexts).
     Severity: MEDIUM
     VendorSeverity:
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       ghsa: 2
@@ -5937,6 +5953,7 @@
     Description: The tokenizer incorrectly interprets tags with unquoted attribute values that end with a solidus character (/) as self-closing. When directly using Tokenizer, this can result in such tags incorrectly being marked as self-closing, and when using the Parse functions, this can result in content following such tags as being placed in the wrong scope during DOM construction, but only when tags are in foreign content (e.g. <math>, <svg>, etc contexts).
     Severity: MEDIUM
     VendorSeverity:
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       ghsa: 2
@@ -6076,6 +6093,7 @@
     Description: The tokenizer incorrectly interprets tags with unquoted attribute values that end with a solidus character (/) as self-closing. When directly using Tokenizer, this can result in such tags incorrectly being marked as self-closing, and when using the Parse functions, this can result in content following such tags as being placed in the wrong scope during DOM construction, but only when tags are in foreign content (e.g. <math>, <svg>, etc contexts).
     Severity: MEDIUM
     VendorSeverity:
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       ghsa: 2
@@ -6221,6 +6239,7 @@
     Description: The tokenizer incorrectly interprets tags with unquoted attribute values that end with a solidus character (/) as self-closing. When directly using Tokenizer, this can result in such tags incorrectly being marked as self-closing, and when using the Parse functions, this can result in content following such tags as being placed in the wrong scope during DOM construction, but only when tags are in foreign content (e.g. <math>, <svg>, etc contexts).
     Severity: MEDIUM
     VendorSeverity:
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       ghsa: 2
@@ -6591,6 +6610,7 @@
     Description: The tokenizer incorrectly interprets tags with unquoted attribute values that end with a solidus character (/) as self-closing. When directly using Tokenizer, this can result in such tags incorrectly being marked as self-closing, and when using the Parse functions, this can result in content following such tags as being placed in the wrong scope during DOM construction, but only when tags are in foreign content (e.g. <math>, <svg>, etc contexts).
     Severity: MEDIUM
     VendorSeverity:
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       ghsa: 2
