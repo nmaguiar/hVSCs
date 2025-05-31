@@ -2525,7 +2525,8 @@
 │                        │       │                  │       rch=amd64&distro=ubuntu-22.04 
 │                        │       │                  ╰ UID : f6dc12283f1322bd 
 │                        │       ├ InstalledVersion: 1.19.2-2ubuntu0.6 
-│                        │       ├ Status          : affected 
+│                        │       ├ FixedVersion    : 1.19.2-2ubuntu0.7 
+│                        │       ├ Status          : fixed 
 │                        │       ├ Layer            ╭ Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972c
 │                        │       │                  │         f4a8143db4b97d428659d0 
 │                        │       │                  ╰ DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96
@@ -2552,10 +2553,13 @@
 │                        │       │                           ╰ V3Score : 5.9 
 │                        │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-3576 
 │                        │       │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2359465 
-│                        │       │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2025-3576 
-│                        │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2025-3576 
+│                        │       │                  ├ [2]: https://lists.debian.org/debian-lts-announce/2025/05
+│                        │       │                  │      /msg00047.html 
+│                        │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-3576 
+│                        │       │                  ├ [4]: https://ubuntu.com/security/notices/USN-7542-1 
+│                        │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-3576 
 │                        │       ├ PublishedDate   : 2025-04-15T06:15:44.047Z 
-│                        │       ╰ LastModifiedDate: 2025-04-15T18:39:27.967Z 
+│                        │       ╰ LastModifiedDate: 2025-05-30T17:15:28.94Z 
 │                        ├ [51]  ╭ VulnerabilityID : CVE-2025-5222 
 │                        │       ├ PkgID           : libicu70@70.1-2 
 │                        │       ├ PkgName         : libicu70 
@@ -2599,7 +2603,8 @@
 │                        │       │                  │       amd64&distro=ubuntu-22.04 
 │                        │       │                  ╰ UID : 94dfcbd4eba15b0c 
 │                        │       ├ InstalledVersion: 1.19.2-2ubuntu0.6 
-│                        │       ├ Status          : affected 
+│                        │       ├ FixedVersion    : 1.19.2-2ubuntu0.7 
+│                        │       ├ Status          : fixed 
 │                        │       ├ Layer            ╭ Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972c
 │                        │       │                  │         f4a8143db4b97d428659d0 
 │                        │       │                  ╰ DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96
@@ -2626,10 +2631,13 @@
 │                        │       │                           ╰ V3Score : 5.9 
 │                        │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-3576 
 │                        │       │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2359465 
-│                        │       │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2025-3576 
-│                        │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2025-3576 
+│                        │       │                  ├ [2]: https://lists.debian.org/debian-lts-announce/2025/05
+│                        │       │                  │      /msg00047.html 
+│                        │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-3576 
+│                        │       │                  ├ [4]: https://ubuntu.com/security/notices/USN-7542-1 
+│                        │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-3576 
 │                        │       ├ PublishedDate   : 2025-04-15T06:15:44.047Z 
-│                        │       ╰ LastModifiedDate: 2025-04-15T18:39:27.967Z 
+│                        │       ╰ LastModifiedDate: 2025-05-30T17:15:28.94Z 
 │                        ├ [53]  ╭ VulnerabilityID : CVE-2025-3576 
 │                        │       ├ PkgID           : libkrb5-3@1.19.2-2ubuntu0.6 
 │                        │       ├ PkgName         : libkrb5-3 
@@ -2637,7 +2645,8 @@
 │                        │       │                  │       64&distro=ubuntu-22.04 
 │                        │       │                  ╰ UID : f4ccea1c71392c97 
 │                        │       ├ InstalledVersion: 1.19.2-2ubuntu0.6 
-│                        │       ├ Status          : affected 
+│                        │       ├ FixedVersion    : 1.19.2-2ubuntu0.7 
+│                        │       ├ Status          : fixed 
 │                        │       ├ Layer            ╭ Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972c
 │                        │       │                  │         f4a8143db4b97d428659d0 
 │                        │       │                  ╰ DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96
@@ -2664,10 +2673,13 @@
 │                        │       │                           ╰ V3Score : 5.9 
 │                        │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-3576 
 │                        │       │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2359465 
-│                        │       │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2025-3576 
-│                        │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2025-3576 
+│                        │       │                  ├ [2]: https://lists.debian.org/debian-lts-announce/2025/05
+│                        │       │                  │      /msg00047.html 
+│                        │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-3576 
+│                        │       │                  ├ [4]: https://ubuntu.com/security/notices/USN-7542-1 
+│                        │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-3576 
 │                        │       ├ PublishedDate   : 2025-04-15T06:15:44.047Z 
-│                        │       ╰ LastModifiedDate: 2025-04-15T18:39:27.967Z 
+│                        │       ╰ LastModifiedDate: 2025-05-30T17:15:28.94Z 
 │                        ├ [54]  ╭ VulnerabilityID : CVE-2025-3576 
 │                        │       ├ PkgID           : libkrb5support0@1.19.2-2ubuntu0.6 
 │                        │       ├ PkgName         : libkrb5support0 
@@ -2675,7 +2687,8 @@
 │                        │       │                  │       ch=amd64&distro=ubuntu-22.04 
 │                        │       │                  ╰ UID : 60845f20bb151fff 
 │                        │       ├ InstalledVersion: 1.19.2-2ubuntu0.6 
-│                        │       ├ Status          : affected 
+│                        │       ├ FixedVersion    : 1.19.2-2ubuntu0.7 
+│                        │       ├ Status          : fixed 
 │                        │       ├ Layer            ╭ Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972c
 │                        │       │                  │         f4a8143db4b97d428659d0 
 │                        │       │                  ╰ DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96
@@ -2702,10 +2715,13 @@
 │                        │       │                           ╰ V3Score : 5.9 
 │                        │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-3576 
 │                        │       │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2359465 
-│                        │       │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2025-3576 
-│                        │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2025-3576 
+│                        │       │                  ├ [2]: https://lists.debian.org/debian-lts-announce/2025/05
+│                        │       │                  │      /msg00047.html 
+│                        │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-3576 
+│                        │       │                  ├ [4]: https://ubuntu.com/security/notices/USN-7542-1 
+│                        │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-3576 
 │                        │       ├ PublishedDate   : 2025-04-15T06:15:44.047Z 
-│                        │       ╰ LastModifiedDate: 2025-04-15T18:39:27.967Z 
+│                        │       ╰ LastModifiedDate: 2025-05-30T17:15:28.94Z 
 │                        ├ [55]  ╭ VulnerabilityID : CVE-2023-45918 
 │                        │       ├ PkgID           : libncurses6@6.3-2ubuntu0.1 
 │                        │       ├ PkgName         : libncurses6 
@@ -3420,7 +3436,7 @@
 │                        │       ├ Severity        : MEDIUM 
 │                        │       ├ CweIDs           ╭ [0]: CWE-190 
 │                        │       │                  ╰ [1]: CWE-400 
-│                        │       ├ VendorSeverity   ╭ amazon : 2 
+│                        │       ├ VendorSeverity   ╭ amazon : 3 
 │                        │       │                  ├ bitnami: 3 
 │                        │       │                  ├ photon : 3 
 │                        │       │                  ├ redhat : 2 
@@ -4180,7 +4196,7 @@
 │                        │       ├ Severity        : LOW 
 │                        │       ├ CweIDs           ─ [0]: CWE-1188 
 │                        │       ├ VendorSeverity   ╭ azure : 1 
-│                        │       │                  ├ redhat: 1 
+│                        │       │                  ├ redhat: 2 
 │                        │       │                  ╰ ubuntu: 1 
 │                        │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I
 │                        │       │                           │           :L/A:N 
@@ -4461,7 +4477,7 @@
 │                        │       │                  │       -1ubuntu5?arch=amd64&distro=ubuntu-22.04 
 │                        │       │                  ╰ UID : d541c6d9beb728c5 
 │                        │       ├ InstalledVersion: 1.60+git20181103.0eebece-1ubuntu5 
-│                        │       ├ FixedVersion    : 1.60+git20181103.0eebece-1ubuntu5.1 
+│                        │       ├ FixedVersion    : 1.60+git20181103.0eebece-1ubuntu5.4 
 │                        │       ├ Status          : fixed 
 │                        │       ├ Layer            ╭ Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972c
 │                        │       │                  │         f4a8143db4b97d428659d0 
@@ -4501,7 +4517,8 @@
 │                        │       │                  │      s/GHSA-pfwf-h6m3-63wf 
 │                        │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-46836 
 │                        │       │                  ├ [4]: https://ubuntu.com/security/notices/USN-7537-1 
-│                        │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-46836 
+│                        │       │                  ├ [5]: https://ubuntu.com/security/notices/USN-7537-2 
+│                        │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-46836 
 │                        │       ├ PublishedDate   : 2025-05-14T23:15:48.073Z 
 │                        │       ╰ LastModifiedDate: 2025-05-16T14:43:26.16Z 
 │                        ├ [88]  ╭ VulnerabilityID : CVE-2025-32728 
@@ -4809,7 +4826,7 @@
 │                        │       ├ Severity        : LOW 
 │                        │       ├ CweIDs           ─ [0]: CWE-1188 
 │                        │       ├ VendorSeverity   ╭ azure : 1 
-│                        │       │                  ├ redhat: 1 
+│                        │       │                  ├ redhat: 2 
 │                        │       │                  ╰ ubuntu: 1 
 │                        │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I
 │                        │       │                           │           :L/A:N 
@@ -5298,7 +5315,7 @@
 │                        │       ├ Severity        : LOW 
 │                        │       ├ CweIDs           ─ [0]: CWE-1188 
 │                        │       ├ VendorSeverity   ╭ azure : 1 
-│                        │       │                  ├ redhat: 1 
+│                        │       │                  ├ redhat: 2 
 │                        │       │                  ╰ ubuntu: 1 
 │                        │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I
 │                        │       │                           │           :L/A:N 
@@ -5887,7 +5904,8 @@
 │                        │     │                   during DOM construction, but only when tags are in foreign
 │                        │     │                   content (e.g. <math>, <svg>, etc contexts). 
 │                        │     ├ Severity        : MEDIUM 
-│                        │     ├ VendorSeverity   ╭ azure      : 2 
+│                        │     ├ VendorSeverity   ╭ amazon     : 3 
+│                        │     │                  ├ azure      : 2 
 │                        │     │                  ├ cbl-mariner: 2 
 │                        │     │                  ├ ghsa       : 2 
 │                        │     │                  ╰ redhat     : 2 
@@ -6140,7 +6158,8 @@
 │                        │     │                   during DOM construction, but only when tags are in foreign
 │                        │     │                   content (e.g. <math>, <svg>, etc contexts). 
 │                        │     ├ Severity        : MEDIUM 
-│                        │     ├ VendorSeverity   ╭ azure      : 2 
+│                        │     ├ VendorSeverity   ╭ amazon     : 3 
+│                        │     │                  ├ azure      : 2 
 │                        │     │                  ├ cbl-mariner: 2 
 │                        │     │                  ├ ghsa       : 2 
 │                        │     │                  ╰ redhat     : 2 
@@ -6570,7 +6589,8 @@
 │                        │     │                   during DOM construction, but only when tags are in foreign
 │                        │     │                   content (e.g. <math>, <svg>, etc contexts). 
 │                        │     ├ Severity        : MEDIUM 
-│                        │     ├ VendorSeverity   ╭ azure      : 2 
+│                        │     ├ VendorSeverity   ╭ amazon     : 3 
+│                        │     │                  ├ azure      : 2 
 │                        │     │                  ├ cbl-mariner: 2 
 │                        │     │                  ├ ghsa       : 2 
 │                        │     │                  ╰ redhat     : 2 
@@ -6733,7 +6753,8 @@
 │                        │     │                   during DOM construction, but only when tags are in foreign
 │                        │     │                   content (e.g. <math>, <svg>, etc contexts). 
 │                        │     ├ Severity        : MEDIUM 
-│                        │     ├ VendorSeverity   ╭ azure      : 2 
+│                        │     ├ VendorSeverity   ╭ amazon     : 3 
+│                        │     │                  ├ azure      : 2 
 │                        │     │                  ├ cbl-mariner: 2 
 │                        │     │                  ├ ghsa       : 2 
 │                        │     │                  ╰ redhat     : 2 
@@ -6880,7 +6901,8 @@
 │                        │     │                   during DOM construction, but only when tags are in foreign
 │                        │     │                   content (e.g. <math>, <svg>, etc contexts). 
 │                        │     ├ Severity        : MEDIUM 
-│                        │     ├ VendorSeverity   ╭ azure      : 2 
+│                        │     ├ VendorSeverity   ╭ amazon     : 3 
+│                        │     │                  ├ azure      : 2 
 │                        │     │                  ├ cbl-mariner: 2 
 │                        │     │                  ├ ghsa       : 2 
 │                        │     │                  ╰ redhat     : 2 
@@ -7042,7 +7064,8 @@
 │                        │     │                   during DOM construction, but only when tags are in foreign
 │                        │     │                   content (e.g. <math>, <svg>, etc contexts). 
 │                        │     ├ Severity        : MEDIUM 
-│                        │     ├ VendorSeverity   ╭ azure      : 2 
+│                        │     ├ VendorSeverity   ╭ amazon     : 3 
+│                        │     │                  ├ azure      : 2 
 │                        │     │                  ├ cbl-mariner: 2 
 │                        │     │                  ├ ghsa       : 2 
 │                        │     │                  ╰ redhat     : 2 
@@ -7512,7 +7535,8 @@
 │                        │     │                   during DOM construction, but only when tags are in foreign
 │                        │     │                   content (e.g. <math>, <svg>, etc contexts). 
 │                        │     ├ Severity        : MEDIUM 
-│                        │     ├ VendorSeverity   ╭ azure      : 2 
+│                        │     ├ VendorSeverity   ╭ amazon     : 3 
+│                        │     │                  ├ azure      : 2 
 │                        │     │                  ├ cbl-mariner: 2 
 │                        │     │                  ├ ghsa       : 2 
 │                        │     │                  ╰ redhat     : 2 
