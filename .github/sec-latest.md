@@ -3436,7 +3436,7 @@
 │                        │       ├ Severity        : MEDIUM 
 │                        │       ├ CweIDs           ╭ [0]: CWE-190 
 │                        │       │                  ╰ [1]: CWE-400 
-│                        │       ├ VendorSeverity   ╭ amazon : 3 
+│                        │       ├ VendorSeverity   ╭ amazon : 2 
 │                        │       │                  ├ bitnami: 3 
 │                        │       │                  ├ photon : 3 
 │                        │       │                  ├ redhat : 2 
