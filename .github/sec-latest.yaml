@@ -137,7 +137,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2213166
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-34969
     - https://errata.almalinux.org/9/ALSA-2023-4569.html
-    - https://errata.rockylinux.org/RLSA-2023:4569
+    - https://errata.rockylinux.org/RLSA-2023:4498
     - https://gitlab.freedesktop.org/dbus/dbus/-/issues/457
     - https://linux.oracle.com/cve/CVE-2023-34969.html
     - https://linux.oracle.com/errata/ELSA-2023-4569.html
@@ -193,7 +193,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2213166
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-34969
     - https://errata.almalinux.org/9/ALSA-2023-4569.html
-    - https://errata.rockylinux.org/RLSA-2023:4569
+    - https://errata.rockylinux.org/RLSA-2023:4498
     - https://gitlab.freedesktop.org/dbus/dbus/-/issues/457
     - https://linux.oracle.com/cve/CVE-2023-34969.html
     - https://linux.oracle.com/errata/ELSA-2023-4569.html
@@ -1771,7 +1771,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2213166
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-34969
     - https://errata.almalinux.org/9/ALSA-2023-4569.html
-    - https://errata.rockylinux.org/RLSA-2023:4569
+    - https://errata.rockylinux.org/RLSA-2023:4498
     - https://gitlab.freedesktop.org/dbus/dbus/-/issues/457
     - https://linux.oracle.com/cve/CVE-2023-34969.html
     - https://linux.oracle.com/errata/ELSA-2023-4569.html
@@ -2301,6 +2301,8 @@
     CweIDs:
     - CWE-328
     VendorSeverity:
+      alma: 2
+      oracle-oval: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -2308,14 +2310,19 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N
         V3Score: 5.9
     References:
+    - https://access.redhat.com/errata/RHSA-2025:8411
     - https://access.redhat.com/security/cve/CVE-2025-3576
+    - https://bugzilla.redhat.com/2359465
     - https://bugzilla.redhat.com/show_bug.cgi?id=2359465
+    - https://errata.almalinux.org/8/ALSA-2025-8411.html
+    - https://linux.oracle.com/cve/CVE-2025-3576.html
+    - https://linux.oracle.com/errata/ELSA-2025-8411.html
     - https://lists.debian.org/debian-lts-announce/2025/05/msg00047.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-3576
     - https://ubuntu.com/security/notices/USN-7542-1
     - https://www.cve.org/CVERecord?id=CVE-2025-3576
     PublishedDate: '2025-04-15T06:15:44.047Z'
-    LastModifiedDate: '2025-05-30T17:15:28.94Z'
+    LastModifiedDate: '2025-06-03T03:15:27.32Z'
   - VulnerabilityID: CVE-2025-5222
     PkgID: libicu70@70.1-2
     PkgName: libicu70
@@ -2376,6 +2383,8 @@
     CweIDs:
     - CWE-328
     VendorSeverity:
+      alma: 2
+      oracle-oval: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -2383,14 +2392,19 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N
         V3Score: 5.9
     References:
+    - https://access.redhat.com/errata/RHSA-2025:8411
     - https://access.redhat.com/security/cve/CVE-2025-3576
+    - https://bugzilla.redhat.com/2359465
     - https://bugzilla.redhat.com/show_bug.cgi?id=2359465
+    - https://errata.almalinux.org/8/ALSA-2025-8411.html
+    - https://linux.oracle.com/cve/CVE-2025-3576.html
+    - https://linux.oracle.com/errata/ELSA-2025-8411.html
     - https://lists.debian.org/debian-lts-announce/2025/05/msg00047.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-3576
     - https://ubuntu.com/security/notices/USN-7542-1
     - https://www.cve.org/CVERecord?id=CVE-2025-3576
     PublishedDate: '2025-04-15T06:15:44.047Z'
-    LastModifiedDate: '2025-05-30T17:15:28.94Z'
+    LastModifiedDate: '2025-06-03T03:15:27.32Z'
   - VulnerabilityID: CVE-2025-3576
     PkgID: libkrb5-3@1.19.2-2ubuntu0.6
     PkgName: libkrb5-3
@@ -2415,6 +2429,8 @@
     CweIDs:
     - CWE-328
     VendorSeverity:
+      alma: 2
+      oracle-oval: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -2422,14 +2438,19 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N
         V3Score: 5.9
     References:
+    - https://access.redhat.com/errata/RHSA-2025:8411
     - https://access.redhat.com/security/cve/CVE-2025-3576
+    - https://bugzilla.redhat.com/2359465
     - https://bugzilla.redhat.com/show_bug.cgi?id=2359465
+    - https://errata.almalinux.org/8/ALSA-2025-8411.html
+    - https://linux.oracle.com/cve/CVE-2025-3576.html
+    - https://linux.oracle.com/errata/ELSA-2025-8411.html
     - https://lists.debian.org/debian-lts-announce/2025/05/msg00047.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-3576
     - https://ubuntu.com/security/notices/USN-7542-1
     - https://www.cve.org/CVERecord?id=CVE-2025-3576
     PublishedDate: '2025-04-15T06:15:44.047Z'
-    LastModifiedDate: '2025-05-30T17:15:28.94Z'
+    LastModifiedDate: '2025-06-03T03:15:27.32Z'
   - VulnerabilityID: CVE-2025-3576
     PkgID: libkrb5support0@1.19.2-2ubuntu0.6
     PkgName: libkrb5support0
@@ -2454,6 +2475,8 @@
     CweIDs:
     - CWE-328
     VendorSeverity:
+      alma: 2
+      oracle-oval: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -2461,14 +2484,19 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N
         V3Score: 5.9
     References:
+    - https://access.redhat.com/errata/RHSA-2025:8411
     - https://access.redhat.com/security/cve/CVE-2025-3576
+    - https://bugzilla.redhat.com/2359465
     - https://bugzilla.redhat.com/show_bug.cgi?id=2359465
+    - https://errata.almalinux.org/8/ALSA-2025-8411.html
+    - https://linux.oracle.com/cve/CVE-2025-3576.html
+    - https://linux.oracle.com/errata/ELSA-2025-8411.html
     - https://lists.debian.org/debian-lts-announce/2025/05/msg00047.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-3576
     - https://ubuntu.com/security/notices/USN-7542-1
     - https://www.cve.org/CVERecord?id=CVE-2025-3576
     PublishedDate: '2025-04-15T06:15:44.047Z'
-    LastModifiedDate: '2025-05-30T17:15:28.94Z'
+    LastModifiedDate: '2025-06-03T03:15:27.32Z'
   - VulnerabilityID: CVE-2023-45918
     PkgID: libncurses6@6.3-2ubuntu0.1
     PkgName: libncurses6
@@ -2729,7 +2757,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222672
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-7008
     - https://errata.almalinux.org/9/ALSA-2024-2463.html
-    - https://errata.rockylinux.org/RLSA-2024:2463
+    - https://errata.rockylinux.org/RLSA-2024:3203
     - https://github.com/systemd/systemd/issues/25676
     - https://linux.oracle.com/cve/CVE-2023-7008.html
     - https://linux.oracle.com/errata/ELSA-2024-3203.html
@@ -2996,7 +3024,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222672
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-7008
     - https://errata.almalinux.org/9/ALSA-2024-2463.html
-    - https://errata.rockylinux.org/RLSA-2024:2463
+    - https://errata.rockylinux.org/RLSA-2024:3203
     - https://github.com/systemd/systemd/issues/25676
     - https://linux.oracle.com/cve/CVE-2023-7008.html
     - https://linux.oracle.com/errata/ELSA-2024-3203.html
@@ -3500,7 +3528,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222672
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-7008
     - https://errata.almalinux.org/9/ALSA-2024-2463.html
-    - https://errata.rockylinux.org/RLSA-2024:2463
+    - https://errata.rockylinux.org/RLSA-2024:3203
     - https://github.com/systemd/systemd/issues/25676
     - https://linux.oracle.com/cve/CVE-2023-7008.html
     - https://linux.oracle.com/errata/ELSA-2024-3203.html
@@ -3691,7 +3719,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222672
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-7008
     - https://errata.almalinux.org/9/ALSA-2024-2463.html
-    - https://errata.rockylinux.org/RLSA-2024:2463
+    - https://errata.rockylinux.org/RLSA-2024:3203
     - https://github.com/systemd/systemd/issues/25676
     - https://linux.oracle.com/cve/CVE-2023-7008.html
     - https://linux.oracle.com/errata/ELSA-2024-3203.html
@@ -4827,7 +4855,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222672
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-7008
     - https://errata.almalinux.org/9/ALSA-2024-2463.html
-    - https://errata.rockylinux.org/RLSA-2024:2463
+    - https://errata.rockylinux.org/RLSA-2024:3203
     - https://github.com/systemd/systemd/issues/25676
     - https://linux.oracle.com/cve/CVE-2023-7008.html
     - https://linux.oracle.com/errata/ELSA-2024-3203.html
@@ -4938,7 +4966,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222672
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-7008
     - https://errata.almalinux.org/9/ALSA-2024-2463.html
-    - https://errata.rockylinux.org/RLSA-2024:2463
+    - https://errata.rockylinux.org/RLSA-2024:3203
     - https://github.com/systemd/systemd/issues/25676
     - https://linux.oracle.com/cve/CVE-2023-7008.html
     - https://linux.oracle.com/errata/ELSA-2024-3203.html
@@ -5049,7 +5077,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222672
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-7008
     - https://errata.almalinux.org/9/ALSA-2024-2463.html
-    - https://errata.rockylinux.org/RLSA-2024:2463
+    - https://errata.rockylinux.org/RLSA-2024:3203
     - https://github.com/systemd/systemd/issues/25676
     - https://linux.oracle.com/cve/CVE-2023-7008.html
     - https://linux.oracle.com/errata/ELSA-2024-3203.html
@@ -5492,7 +5520,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45290
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24783
     - https://errata.almalinux.org/9/ALSA-2024-2724.html
-    - https://errata.rockylinux.org/RLSA-2024:2724
+    - https://errata.rockylinux.org/RLSA-2024:3346
     - https://go.dev/cl/576155
     - https://go.dev/issue/65051
     - https://groups.google.com/g/golang-announce/c/YgW0sx8mN3M
@@ -5715,7 +5743,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45290
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24783
     - https://errata.almalinux.org/9/ALSA-2024-2724.html
-    - https://errata.rockylinux.org/RLSA-2024:2724
+    - https://errata.rockylinux.org/RLSA-2024:3346
     - https://go.dev/cl/576155
     - https://go.dev/issue/65051
     - https://groups.google.com/g/golang-announce/c/YgW0sx8mN3M
