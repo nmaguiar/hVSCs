@@ -152,7 +152,7 @@
 │                        │       │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                        │       │                  │       2023-34969 
 │                        │       │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2023-4569.html 
-│                        │       │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4569 
+│                        │       │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4498 
 │                        │       │                  ├ [7] : https://gitlab.freedesktop.org/dbus/dbus/-/issues/457 
 │                        │       │                  ├ [8] : https://linux.oracle.com/cve/CVE-2023-34969.html 
 │                        │       │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2023-4569.html 
@@ -220,7 +220,7 @@
 │                        │       │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                        │       │                  │       2023-34969 
 │                        │       │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2023-4569.html 
-│                        │       │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4569 
+│                        │       │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4498 
 │                        │       │                  ├ [7] : https://gitlab.freedesktop.org/dbus/dbus/-/issues/457 
 │                        │       │                  ├ [8] : https://linux.oracle.com/cve/CVE-2023-34969.html 
 │                        │       │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2023-4569.html 
@@ -1941,7 +1941,7 @@
 │                        │       │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                        │       │                  │       2023-34969 
 │                        │       │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2023-4569.html 
-│                        │       │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4569 
+│                        │       │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4498 
 │                        │       │                  ├ [7] : https://gitlab.freedesktop.org/dbus/dbus/-/issues/457 
 │                        │       │                  ├ [8] : https://linux.oracle.com/cve/CVE-2023-34969.html 
 │                        │       │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2023-4569.html 
@@ -2547,20 +2547,27 @@
 │                        │       │                   codes. This may lead to unauthorized message tampering. 
 │                        │       ├ Severity        : MEDIUM 
 │                        │       ├ CweIDs           ─ [0]: CWE-328 
-│                        │       ├ VendorSeverity   ╭ redhat: 2 
-│                        │       │                  ╰ ubuntu: 2 
+│                        │       ├ VendorSeverity   ╭ alma       : 2 
+│                        │       │                  ├ oracle-oval: 2 
+│                        │       │                  ├ redhat     : 2 
+│                        │       │                  ╰ ubuntu     : 2 
 │                        │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I
 │                        │       │                           │           :H/A:N 
 │                        │       │                           ╰ V3Score : 5.9 
-│                        │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-3576 
-│                        │       │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2359465 
-│                        │       │                  ├ [2]: https://lists.debian.org/debian-lts-announce/2025/05
-│                        │       │                  │      /msg00047.html 
-│                        │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-3576 
-│                        │       │                  ├ [4]: https://ubuntu.com/security/notices/USN-7542-1 
-│                        │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-3576 
+│                        │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:8411 
+│                        │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-3576 
+│                        │       │                  ├ [2] : https://bugzilla.redhat.com/2359465 
+│                        │       │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2359465 
+│                        │       │                  ├ [4] : https://errata.almalinux.org/8/ALSA-2025-8411.html 
+│                        │       │                  ├ [5] : https://linux.oracle.com/cve/CVE-2025-3576.html 
+│                        │       │                  ├ [6] : https://linux.oracle.com/errata/ELSA-2025-8411.html 
+│                        │       │                  ├ [7] : https://lists.debian.org/debian-lts-announce/2025/0
+│                        │       │                  │       5/msg00047.html 
+│                        │       │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2025-3576 
+│                        │       │                  ├ [9] : https://ubuntu.com/security/notices/USN-7542-1 
+│                        │       │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2025-3576 
 │                        │       ├ PublishedDate   : 2025-04-15T06:15:44.047Z 
-│                        │       ╰ LastModifiedDate: 2025-05-30T17:15:28.94Z 
+│                        │       ╰ LastModifiedDate: 2025-06-03T03:15:27.32Z 
 │                        ├ [51]  ╭ VulnerabilityID : CVE-2025-5222 
 │                        │       ├ PkgID           : libicu70@70.1-2 
 │                        │       ├ PkgName         : libicu70 
@@ -2625,20 +2632,27 @@
 │                        │       │                   codes. This may lead to unauthorized message tampering. 
 │                        │       ├ Severity        : MEDIUM 
 │                        │       ├ CweIDs           ─ [0]: CWE-328 
-│                        │       ├ VendorSeverity   ╭ redhat: 2 
-│                        │       │                  ╰ ubuntu: 2 
+│                        │       ├ VendorSeverity   ╭ alma       : 2 
+│                        │       │                  ├ oracle-oval: 2 
+│                        │       │                  ├ redhat     : 2 
+│                        │       │                  ╰ ubuntu     : 2 
 │                        │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I
 │                        │       │                           │           :H/A:N 
 │                        │       │                           ╰ V3Score : 5.9 
-│                        │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-3576 
-│                        │       │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2359465 
-│                        │       │                  ├ [2]: https://lists.debian.org/debian-lts-announce/2025/05
-│                        │       │                  │      /msg00047.html 
-│                        │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-3576 
-│                        │       │                  ├ [4]: https://ubuntu.com/security/notices/USN-7542-1 
-│                        │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-3576 
+│                        │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:8411 
+│                        │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-3576 
+│                        │       │                  ├ [2] : https://bugzilla.redhat.com/2359465 
+│                        │       │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2359465 
+│                        │       │                  ├ [4] : https://errata.almalinux.org/8/ALSA-2025-8411.html 
+│                        │       │                  ├ [5] : https://linux.oracle.com/cve/CVE-2025-3576.html 
+│                        │       │                  ├ [6] : https://linux.oracle.com/errata/ELSA-2025-8411.html 
+│                        │       │                  ├ [7] : https://lists.debian.org/debian-lts-announce/2025/0
+│                        │       │                  │       5/msg00047.html 
+│                        │       │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2025-3576 
+│                        │       │                  ├ [9] : https://ubuntu.com/security/notices/USN-7542-1 
+│                        │       │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2025-3576 
 │                        │       ├ PublishedDate   : 2025-04-15T06:15:44.047Z 
-│                        │       ╰ LastModifiedDate: 2025-05-30T17:15:28.94Z 
+│                        │       ╰ LastModifiedDate: 2025-06-03T03:15:27.32Z 
 │                        ├ [53]  ╭ VulnerabilityID : CVE-2025-3576 
 │                        │       ├ PkgID           : libkrb5-3@1.19.2-2ubuntu0.6 
 │                        │       ├ PkgName         : libkrb5-3 
@@ -2667,20 +2681,27 @@
 │                        │       │                   codes. This may lead to unauthorized message tampering. 
 │                        │       ├ Severity        : MEDIUM 
 │                        │       ├ CweIDs           ─ [0]: CWE-328 
-│                        │       ├ VendorSeverity   ╭ redhat: 2 
-│                        │       │                  ╰ ubuntu: 2 
+│                        │       ├ VendorSeverity   ╭ alma       : 2 
+│                        │       │                  ├ oracle-oval: 2 
+│                        │       │                  ├ redhat     : 2 
+│                        │       │                  ╰ ubuntu     : 2 
 │                        │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I
 │                        │       │                           │           :H/A:N 
 │                        │       │                           ╰ V3Score : 5.9 
-│                        │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-3576 
-│                        │       │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2359465 
-│                        │       │                  ├ [2]: https://lists.debian.org/debian-lts-announce/2025/05
-│                        │       │                  │      /msg00047.html 
-│                        │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-3576 
-│                        │       │                  ├ [4]: https://ubuntu.com/security/notices/USN-7542-1 
-│                        │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-3576 
+│                        │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:8411 
+│                        │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-3576 
+│                        │       │                  ├ [2] : https://bugzilla.redhat.com/2359465 
+│                        │       │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2359465 
+│                        │       │                  ├ [4] : https://errata.almalinux.org/8/ALSA-2025-8411.html 
+│                        │       │                  ├ [5] : https://linux.oracle.com/cve/CVE-2025-3576.html 
+│                        │       │                  ├ [6] : https://linux.oracle.com/errata/ELSA-2025-8411.html 
+│                        │       │                  ├ [7] : https://lists.debian.org/debian-lts-announce/2025/0
+│                        │       │                  │       5/msg00047.html 
+│                        │       │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2025-3576 
+│                        │       │                  ├ [9] : https://ubuntu.com/security/notices/USN-7542-1 
+│                        │       │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2025-3576 
 │                        │       ├ PublishedDate   : 2025-04-15T06:15:44.047Z 
-│                        │       ╰ LastModifiedDate: 2025-05-30T17:15:28.94Z 
+│                        │       ╰ LastModifiedDate: 2025-06-03T03:15:27.32Z 
 │                        ├ [54]  ╭ VulnerabilityID : CVE-2025-3576 
 │                        │       ├ PkgID           : libkrb5support0@1.19.2-2ubuntu0.6 
 │                        │       ├ PkgName         : libkrb5support0 
@@ -2709,20 +2730,27 @@
 │                        │       │                   codes. This may lead to unauthorized message tampering. 
 │                        │       ├ Severity        : MEDIUM 
 │                        │       ├ CweIDs           ─ [0]: CWE-328 
-│                        │       ├ VendorSeverity   ╭ redhat: 2 
-│                        │       │                  ╰ ubuntu: 2 
+│                        │       ├ VendorSeverity   ╭ alma       : 2 
+│                        │       │                  ├ oracle-oval: 2 
+│                        │       │                  ├ redhat     : 2 
+│                        │       │                  ╰ ubuntu     : 2 
 │                        │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I
 │                        │       │                           │           :H/A:N 
 │                        │       │                           ╰ V3Score : 5.9 
-│                        │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-3576 
-│                        │       │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2359465 
-│                        │       │                  ├ [2]: https://lists.debian.org/debian-lts-announce/2025/05
-│                        │       │                  │      /msg00047.html 
-│                        │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-3576 
-│                        │       │                  ├ [4]: https://ubuntu.com/security/notices/USN-7542-1 
-│                        │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-3576 
+│                        │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:8411 
+│                        │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-3576 
+│                        │       │                  ├ [2] : https://bugzilla.redhat.com/2359465 
+│                        │       │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2359465 
+│                        │       │                  ├ [4] : https://errata.almalinux.org/8/ALSA-2025-8411.html 
+│                        │       │                  ├ [5] : https://linux.oracle.com/cve/CVE-2025-3576.html 
+│                        │       │                  ├ [6] : https://linux.oracle.com/errata/ELSA-2025-8411.html 
+│                        │       │                  ├ [7] : https://lists.debian.org/debian-lts-announce/2025/0
+│                        │       │                  │       5/msg00047.html 
+│                        │       │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2025-3576 
+│                        │       │                  ├ [9] : https://ubuntu.com/security/notices/USN-7542-1 
+│                        │       │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2025-3576 
 │                        │       ├ PublishedDate   : 2025-04-15T06:15:44.047Z 
-│                        │       ╰ LastModifiedDate: 2025-05-30T17:15:28.94Z 
+│                        │       ╰ LastModifiedDate: 2025-06-03T03:15:27.32Z 
 │                        ├ [55]  ╭ VulnerabilityID : CVE-2023-45918 
 │                        │       ├ PkgID           : libncurses6@6.3-2ubuntu0.1 
 │                        │       ├ PkgName         : libncurses6 
@@ -3022,7 +3050,7 @@
 │                        │       │                  ├ [6] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                        │       │                  │       2023-7008 
 │                        │       │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2024-2463.html 
-│                        │       │                  ├ [8] : https://errata.rockylinux.org/RLSA-2024:2463 
+│                        │       │                  ├ [8] : https://errata.rockylinux.org/RLSA-2024:3203 
 │                        │       │                  ├ [9] : https://github.com/systemd/systemd/issues/25676 
 │                        │       │                  ├ [10]: https://linux.oracle.com/cve/CVE-2023-7008.html 
 │                        │       │                  ├ [11]: https://linux.oracle.com/errata/ELSA-2024-3203.html 
@@ -3336,7 +3364,7 @@
 │                        │       │                  ├ [6] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                        │       │                  │       2023-7008 
 │                        │       │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2024-2463.html 
-│                        │       │                  ├ [8] : https://errata.rockylinux.org/RLSA-2024:2463 
+│                        │       │                  ├ [8] : https://errata.rockylinux.org/RLSA-2024:3203 
 │                        │       │                  ├ [9] : https://github.com/systemd/systemd/issues/25676 
 │                        │       │                  ├ [10]: https://linux.oracle.com/cve/CVE-2023-7008.html 
 │                        │       │                  ├ [11]: https://linux.oracle.com/errata/ELSA-2024-3203.html 
@@ -3923,7 +3951,7 @@
 │                        │       │                  ├ [6] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                        │       │                  │       2023-7008 
 │                        │       │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2024-2463.html 
-│                        │       │                  ├ [8] : https://errata.rockylinux.org/RLSA-2024:2463 
+│                        │       │                  ├ [8] : https://errata.rockylinux.org/RLSA-2024:3203 
 │                        │       │                  ├ [9] : https://github.com/systemd/systemd/issues/25676 
 │                        │       │                  ├ [10]: https://linux.oracle.com/cve/CVE-2023-7008.html 
 │                        │       │                  ├ [11]: https://linux.oracle.com/errata/ELSA-2024-3203.html 
@@ -4152,7 +4180,7 @@
 │                        │       │                  ├ [6] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                        │       │                  │       2023-7008 
 │                        │       │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2024-2463.html 
-│                        │       │                  ├ [8] : https://errata.rockylinux.org/RLSA-2024:2463 
+│                        │       │                  ├ [8] : https://errata.rockylinux.org/RLSA-2024:3203 
 │                        │       │                  ├ [9] : https://github.com/systemd/systemd/issues/25676 
 │                        │       │                  ├ [10]: https://linux.oracle.com/cve/CVE-2023-7008.html 
 │                        │       │                  ├ [11]: https://linux.oracle.com/errata/ELSA-2024-3203.html 
@@ -5470,7 +5498,7 @@
 │                        │       │                  ├ [6] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                        │       │                  │       2023-7008 
 │                        │       │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2024-2463.html 
-│                        │       │                  ├ [8] : https://errata.rockylinux.org/RLSA-2024:2463 
+│                        │       │                  ├ [8] : https://errata.rockylinux.org/RLSA-2024:3203 
 │                        │       │                  ├ [9] : https://github.com/systemd/systemd/issues/25676 
 │                        │       │                  ├ [10]: https://linux.oracle.com/cve/CVE-2023-7008.html 
 │                        │       │                  ├ [11]: https://linux.oracle.com/errata/ELSA-2024-3203.html 
@@ -5613,7 +5641,7 @@
 │                        │       │                  ├ [6] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                        │       │                  │       2023-7008 
 │                        │       │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2024-2463.html 
-│                        │       │                  ├ [8] : https://errata.rockylinux.org/RLSA-2024:2463 
+│                        │       │                  ├ [8] : https://errata.rockylinux.org/RLSA-2024:3203 
 │                        │       │                  ├ [9] : https://github.com/systemd/systemd/issues/25676 
 │                        │       │                  ├ [10]: https://linux.oracle.com/cve/CVE-2023-7008.html 
 │                        │       │                  ├ [11]: https://linux.oracle.com/errata/ELSA-2024-3203.html 
@@ -5756,7 +5784,7 @@
 │                        │       │                  ├ [6] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                        │       │                  │       2023-7008 
 │                        │       │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2024-2463.html 
-│                        │       │                  ├ [8] : https://errata.rockylinux.org/RLSA-2024:2463 
+│                        │       │                  ├ [8] : https://errata.rockylinux.org/RLSA-2024:3203 
 │                        │       │                  ├ [9] : https://github.com/systemd/systemd/issues/25676 
 │                        │       │                  ├ [10]: https://linux.oracle.com/cve/CVE-2023-7008.html 
 │                        │       │                  ├ [11]: https://linux.oracle.com/errata/ELSA-2024-3203.html 
@@ -6345,7 +6373,7 @@
 │                        │     │                  ├ [15]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                        │     │                  │       24-24783 
 │                        │     │                  ├ [16]: https://errata.almalinux.org/9/ALSA-2024-2724.html 
-│                        │     │                  ├ [17]: https://errata.rockylinux.org/RLSA-2024:2724 
+│                        │     │                  ├ [17]: https://errata.rockylinux.org/RLSA-2024:3346 
 │                        │     │                  ├ [18]: https://go.dev/cl/576155 
 │                        │     │                  ├ [19]: https://go.dev/issue/65051 
 │                        │     │                  ├ [20]: https://groups.google.com/g/golang-announce/c/YgW0sx8
@@ -6599,7 +6627,7 @@
 │                        │     │                  ├ [15]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                        │     │                  │       24-24783 
 │                        │     │                  ├ [16]: https://errata.almalinux.org/9/ALSA-2024-2724.html 
-│                        │     │                  ├ [17]: https://errata.rockylinux.org/RLSA-2024:2724 
+│                        │     │                  ├ [17]: https://errata.rockylinux.org/RLSA-2024:3346 
 │                        │     │                  ├ [18]: https://go.dev/cl/576155 
 │                        │     │                  ├ [19]: https://go.dev/issue/65051 
 │                        │     │                  ├ [20]: https://groups.google.com/g/golang-announce/c/YgW0sx8
