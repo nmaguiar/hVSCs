@@ -131,13 +131,13 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 6.2
     References:
-    - https://access.redhat.com/errata/RHSA-2023:4569
+    - https://access.redhat.com/errata/RHSA-2023:4498
     - https://access.redhat.com/security/cve/CVE-2023-34969
     - https://bugzilla.redhat.com/2213166
     - https://bugzilla.redhat.com/show_bug.cgi?id=2213166
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-34969
-    - https://errata.almalinux.org/9/ALSA-2023-4569.html
-    - https://errata.rockylinux.org/RLSA-2023:4498
+    - https://errata.almalinux.org/8/ALSA-2023-4498.html
+    - https://errata.rockylinux.org/RLSA-2023:4569
     - https://gitlab.freedesktop.org/dbus/dbus/-/issues/457
     - https://linux.oracle.com/cve/CVE-2023-34969.html
     - https://linux.oracle.com/errata/ELSA-2023-4569.html
@@ -187,13 +187,13 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 6.2
     References:
-    - https://access.redhat.com/errata/RHSA-2023:4569
+    - https://access.redhat.com/errata/RHSA-2023:4498
     - https://access.redhat.com/security/cve/CVE-2023-34969
     - https://bugzilla.redhat.com/2213166
     - https://bugzilla.redhat.com/show_bug.cgi?id=2213166
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-34969
-    - https://errata.almalinux.org/9/ALSA-2023-4569.html
-    - https://errata.rockylinux.org/RLSA-2023:4498
+    - https://errata.almalinux.org/8/ALSA-2023-4498.html
+    - https://errata.rockylinux.org/RLSA-2023:4569
     - https://gitlab.freedesktop.org/dbus/dbus/-/issues/457
     - https://linux.oracle.com/cve/CVE-2023-34969.html
     - https://linux.oracle.com/errata/ELSA-2023-4569.html
@@ -433,13 +433,13 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2025:7409
+    - https://access.redhat.com/errata/RHSA-2025:8414
     - https://access.redhat.com/security/cve/CVE-2024-52005
     - https://bugzilla.redhat.com/2338289
-    - https://errata.almalinux.org/9/ALSA-2025-7409.html
+    - https://errata.almalinux.org/8/ALSA-2025-8414.html
     - https://github.com/git/git/security/advisories/GHSA-7jjc-gg6m-3329
     - https://linux.oracle.com/cve/CVE-2024-52005.html
-    - https://linux.oracle.com/errata/ELSA-2025-7409.html
+    - https://linux.oracle.com/errata/ELSA-2025-8414.html
     - https://lore.kernel.org/git/1M9FnZ-1taoNo1wwh-00ESSd@mail.gmx.net
     - https://lore.kernel.org/git/8570a129-d66a-465a-905e-0a077c69c409@gmail.com/T/#t
     - https://nvd.nist.gov/vuln/detail/CVE-2024-52005
@@ -480,13 +480,13 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2025:7409
+    - https://access.redhat.com/errata/RHSA-2025:8414
     - https://access.redhat.com/security/cve/CVE-2024-52005
     - https://bugzilla.redhat.com/2338289
-    - https://errata.almalinux.org/9/ALSA-2025-7409.html
+    - https://errata.almalinux.org/8/ALSA-2025-8414.html
     - https://github.com/git/git/security/advisories/GHSA-7jjc-gg6m-3329
     - https://linux.oracle.com/cve/CVE-2024-52005.html
-    - https://linux.oracle.com/errata/ELSA-2025-7409.html
+    - https://linux.oracle.com/errata/ELSA-2025-8414.html
     - https://lore.kernel.org/git/1M9FnZ-1taoNo1wwh-00ESSd@mail.gmx.net
     - https://lore.kernel.org/git/8570a129-d66a-465a-905e-0a077c69c409@gmail.com/T/#t
     - https://nvd.nist.gov/vuln/detail/CVE-2024-52005
@@ -1765,13 +1765,13 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 6.2
     References:
-    - https://access.redhat.com/errata/RHSA-2023:4569
+    - https://access.redhat.com/errata/RHSA-2023:4498
     - https://access.redhat.com/security/cve/CVE-2023-34969
     - https://bugzilla.redhat.com/2213166
     - https://bugzilla.redhat.com/show_bug.cgi?id=2213166
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-34969
-    - https://errata.almalinux.org/9/ALSA-2023-4569.html
-    - https://errata.rockylinux.org/RLSA-2023:4498
+    - https://errata.almalinux.org/8/ALSA-2023-4498.html
+    - https://errata.rockylinux.org/RLSA-2023:4569
     - https://gitlab.freedesktop.org/dbus/dbus/-/issues/457
     - https://linux.oracle.com/cve/CVE-2023-34969.html
     - https://linux.oracle.com/errata/ELSA-2023-4569.html
@@ -2019,7 +2019,7 @@
     - https://bugzilla.redhat.com/2310137
     - https://bugzilla.redhat.com/show_bug.cgi?id=2310137
     - https://bugzilla.suse.com/show_bug.cgi?id=1239618
-    - https://errata.almalinux.org/9/ALSA-2025-7444.html
+    - https://errata.almalinux.org/8/ALSA-2025-3913.html
     - https://github.com/libexpat/libexpat/blob/R_2_7_0/expat/Changes#L40-L52
     - https://github.com/libexpat/libexpat/issues/893
     - https://gitlab.alpinelinux.org/alpine/aports/-/commit/d068c3ff36fc6f4789988a09c69b434db757db53
@@ -2691,6 +2691,8 @@
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N
         V3Score: 4.7
     References:
+    - http://www.openwall.com/lists/oss-security/2025/06/05/1
+    - http://www.openwall.com/lists/oss-security/2025/06/05/3
     - https://access.redhat.com/security/cve/CVE-2025-4598
     - https://bugzilla.redhat.com/show_bug.cgi?id=2369242
     - https://git.kernel.org/linus/b5325b2a270fcaf7b2a9a0f23d422ca8a5a8bdea
@@ -2709,7 +2711,7 @@
     - https://www.openwall.com/lists/oss-security/2025/05/29/3
     - https://www.qualys.com/2025/05/29/apport-coredump/apport-coredump.txt
     PublishedDate: '2025-05-30T14:15:23.557Z'
-    LastModifiedDate: '2025-05-30T16:31:03.107Z'
+    LastModifiedDate: '2025-06-05T07:15:23.047Z'
   - VulnerabilityID: CVE-2023-7008
     PkgID: libnss-systemd@249.11-0ubuntu3.12
     PkgName: libnss-systemd
@@ -2756,8 +2758,8 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222261
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222672
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-7008
-    - https://errata.almalinux.org/9/ALSA-2024-2463.html
-    - https://errata.rockylinux.org/RLSA-2024:3203
+    - https://errata.almalinux.org/8/ALSA-2024-3203.html
+    - https://errata.rockylinux.org/RLSA-2024:2463
     - https://github.com/systemd/systemd/issues/25676
     - https://linux.oracle.com/cve/CVE-2023-7008.html
     - https://linux.oracle.com/errata/ELSA-2024-3203.html
@@ -2791,7 +2793,7 @@
     CweIDs:
     - CWE-922
     VendorSeverity:
-      alma: 2
+      alma: 3
       azure: 2
       cbl-mariner: 2
       oracle-oval: 2
@@ -2808,11 +2810,12 @@
     - https://access.redhat.com/errata/RHSA-2024:9941
     - https://access.redhat.com/security/cve/CVE-2024-10041
     - https://bugzilla.redhat.com/2319212
+    - https://bugzilla.redhat.com/2324291
     - https://bugzilla.redhat.com/show_bug.cgi?id=2319212
     - https://bugzilla.redhat.com/show_bug.cgi?id=2324291
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10041
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10963
-    - https://errata.almalinux.org/9/ALSA-2024-11250.html
+    - https://errata.almalinux.org/8/ALSA-2024-10379.html
     - https://errata.rockylinux.org/RLSA-2024:10379
     - https://linux.oracle.com/cve/CVE-2024-10041.html
     - https://linux.oracle.com/errata/ELSA-2024-11250.html
@@ -2843,7 +2846,7 @@
     CweIDs:
     - CWE-922
     VendorSeverity:
-      alma: 2
+      alma: 3
       azure: 2
       cbl-mariner: 2
       oracle-oval: 2
@@ -2860,11 +2863,12 @@
     - https://access.redhat.com/errata/RHSA-2024:9941
     - https://access.redhat.com/security/cve/CVE-2024-10041
     - https://bugzilla.redhat.com/2319212
+    - https://bugzilla.redhat.com/2324291
     - https://bugzilla.redhat.com/show_bug.cgi?id=2319212
     - https://bugzilla.redhat.com/show_bug.cgi?id=2324291
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10041
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10963
-    - https://errata.almalinux.org/9/ALSA-2024-11250.html
+    - https://errata.almalinux.org/8/ALSA-2024-10379.html
     - https://errata.rockylinux.org/RLSA-2024:10379
     - https://linux.oracle.com/cve/CVE-2024-10041.html
     - https://linux.oracle.com/errata/ELSA-2024-11250.html
@@ -2895,7 +2899,7 @@
     CweIDs:
     - CWE-922
     VendorSeverity:
-      alma: 2
+      alma: 3
       azure: 2
       cbl-mariner: 2
       oracle-oval: 2
@@ -2912,11 +2916,12 @@
     - https://access.redhat.com/errata/RHSA-2024:9941
     - https://access.redhat.com/security/cve/CVE-2024-10041
     - https://bugzilla.redhat.com/2319212
+    - https://bugzilla.redhat.com/2324291
     - https://bugzilla.redhat.com/show_bug.cgi?id=2319212
     - https://bugzilla.redhat.com/show_bug.cgi?id=2324291
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10041
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10963
-    - https://errata.almalinux.org/9/ALSA-2024-11250.html
+    - https://errata.almalinux.org/8/ALSA-2024-10379.html
     - https://errata.rockylinux.org/RLSA-2024:10379
     - https://linux.oracle.com/cve/CVE-2024-10041.html
     - https://linux.oracle.com/errata/ELSA-2024-11250.html
@@ -2958,6 +2963,8 @@
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N
         V3Score: 4.7
     References:
+    - http://www.openwall.com/lists/oss-security/2025/06/05/1
+    - http://www.openwall.com/lists/oss-security/2025/06/05/3
     - https://access.redhat.com/security/cve/CVE-2025-4598
     - https://bugzilla.redhat.com/show_bug.cgi?id=2369242
     - https://git.kernel.org/linus/b5325b2a270fcaf7b2a9a0f23d422ca8a5a8bdea
@@ -2976,7 +2983,7 @@
     - https://www.openwall.com/lists/oss-security/2025/05/29/3
     - https://www.qualys.com/2025/05/29/apport-coredump/apport-coredump.txt
     PublishedDate: '2025-05-30T14:15:23.557Z'
-    LastModifiedDate: '2025-05-30T16:31:03.107Z'
+    LastModifiedDate: '2025-06-05T07:15:23.047Z'
   - VulnerabilityID: CVE-2023-7008
     PkgID: libpam-systemd@249.11-0ubuntu3.12
     PkgName: libpam-systemd
@@ -3023,8 +3030,8 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222261
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222672
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-7008
-    - https://errata.almalinux.org/9/ALSA-2024-2463.html
-    - https://errata.rockylinux.org/RLSA-2024:3203
+    - https://errata.almalinux.org/8/ALSA-2024-3203.html
+    - https://errata.rockylinux.org/RLSA-2024:2463
     - https://github.com/systemd/systemd/issues/25676
     - https://linux.oracle.com/cve/CVE-2023-7008.html
     - https://linux.oracle.com/errata/ELSA-2024-3203.html
@@ -3058,7 +3065,7 @@
     CweIDs:
     - CWE-922
     VendorSeverity:
-      alma: 2
+      alma: 3
       azure: 2
       cbl-mariner: 2
       oracle-oval: 2
@@ -3075,11 +3082,12 @@
     - https://access.redhat.com/errata/RHSA-2024:9941
     - https://access.redhat.com/security/cve/CVE-2024-10041
     - https://bugzilla.redhat.com/2319212
+    - https://bugzilla.redhat.com/2324291
     - https://bugzilla.redhat.com/show_bug.cgi?id=2319212
     - https://bugzilla.redhat.com/show_bug.cgi?id=2324291
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10041
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10963
-    - https://errata.almalinux.org/9/ALSA-2024-11250.html
+    - https://errata.almalinux.org/8/ALSA-2024-10379.html
     - https://errata.rockylinux.org/RLSA-2024:10379
     - https://linux.oracle.com/cve/CVE-2024-10041.html
     - https://linux.oracle.com/errata/ELSA-2024-11250.html
@@ -3462,6 +3470,8 @@
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N
         V3Score: 4.7
     References:
+    - http://www.openwall.com/lists/oss-security/2025/06/05/1
+    - http://www.openwall.com/lists/oss-security/2025/06/05/3
     - https://access.redhat.com/security/cve/CVE-2025-4598
     - https://bugzilla.redhat.com/show_bug.cgi?id=2369242
     - https://git.kernel.org/linus/b5325b2a270fcaf7b2a9a0f23d422ca8a5a8bdea
@@ -3480,7 +3490,7 @@
     - https://www.openwall.com/lists/oss-security/2025/05/29/3
     - https://www.qualys.com/2025/05/29/apport-coredump/apport-coredump.txt
     PublishedDate: '2025-05-30T14:15:23.557Z'
-    LastModifiedDate: '2025-05-30T16:31:03.107Z'
+    LastModifiedDate: '2025-06-05T07:15:23.047Z'
   - VulnerabilityID: CVE-2023-7008
     PkgID: libsystemd0@249.11-0ubuntu3.12
     PkgName: libsystemd0
@@ -3527,8 +3537,8 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222261
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222672
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-7008
-    - https://errata.almalinux.org/9/ALSA-2024-2463.html
-    - https://errata.rockylinux.org/RLSA-2024:3203
+    - https://errata.almalinux.org/8/ALSA-2024-3203.html
+    - https://errata.rockylinux.org/RLSA-2024:2463
     - https://github.com/systemd/systemd/issues/25676
     - https://linux.oracle.com/cve/CVE-2023-7008.html
     - https://linux.oracle.com/errata/ELSA-2024-3203.html
@@ -3653,6 +3663,8 @@
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N
         V3Score: 4.7
     References:
+    - http://www.openwall.com/lists/oss-security/2025/06/05/1
+    - http://www.openwall.com/lists/oss-security/2025/06/05/3
     - https://access.redhat.com/security/cve/CVE-2025-4598
     - https://bugzilla.redhat.com/show_bug.cgi?id=2369242
     - https://git.kernel.org/linus/b5325b2a270fcaf7b2a9a0f23d422ca8a5a8bdea
@@ -3671,7 +3683,7 @@
     - https://www.openwall.com/lists/oss-security/2025/05/29/3
     - https://www.qualys.com/2025/05/29/apport-coredump/apport-coredump.txt
     PublishedDate: '2025-05-30T14:15:23.557Z'
-    LastModifiedDate: '2025-05-30T16:31:03.107Z'
+    LastModifiedDate: '2025-06-05T07:15:23.047Z'
   - VulnerabilityID: CVE-2023-7008
     PkgID: libudev1@249.11-0ubuntu3.12
     PkgName: libudev1
@@ -3718,8 +3730,8 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222261
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222672
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-7008
-    - https://errata.almalinux.org/9/ALSA-2024-2463.html
-    - https://errata.rockylinux.org/RLSA-2024:3203
+    - https://errata.almalinux.org/8/ALSA-2024-3203.html
+    - https://errata.rockylinux.org/RLSA-2024:2463
     - https://github.com/systemd/systemd/issues/25676
     - https://linux.oracle.com/cve/CVE-2023-7008.html
     - https://linux.oracle.com/errata/ELSA-2024-3203.html
@@ -3867,7 +3879,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2024:1141
+    - https://access.redhat.com/errata/RHSA-2024:0894
     - https://access.redhat.com/security/cve/CVE-2022-4899
     - https://bugzilla.redhat.com/2179864
     - https://bugzilla.redhat.com/2188109
@@ -3944,7 +3956,7 @@
     - https://bugzilla.redhat.com/2258792
     - https://bugzilla.redhat.com/2258793
     - https://bugzilla.redhat.com/2258794
-    - https://errata.almalinux.org/9/ALSA-2024-1141.html
+    - https://errata.almalinux.org/8/ALSA-2024-0894.html
     - https://github.com/facebook/zstd
     - https://github.com/facebook/zstd/issues/3200
     - https://github.com/facebook/zstd/pull/3220
@@ -4789,6 +4801,8 @@
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N
         V3Score: 4.7
     References:
+    - http://www.openwall.com/lists/oss-security/2025/06/05/1
+    - http://www.openwall.com/lists/oss-security/2025/06/05/3
     - https://access.redhat.com/security/cve/CVE-2025-4598
     - https://bugzilla.redhat.com/show_bug.cgi?id=2369242
     - https://git.kernel.org/linus/b5325b2a270fcaf7b2a9a0f23d422ca8a5a8bdea
@@ -4807,7 +4821,7 @@
     - https://www.openwall.com/lists/oss-security/2025/05/29/3
     - https://www.qualys.com/2025/05/29/apport-coredump/apport-coredump.txt
     PublishedDate: '2025-05-30T14:15:23.557Z'
-    LastModifiedDate: '2025-05-30T16:31:03.107Z'
+    LastModifiedDate: '2025-06-05T07:15:23.047Z'
   - VulnerabilityID: CVE-2023-7008
     PkgID: systemd@249.11-0ubuntu3.12
     PkgName: systemd
@@ -4854,8 +4868,8 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222261
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222672
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-7008
-    - https://errata.almalinux.org/9/ALSA-2024-2463.html
-    - https://errata.rockylinux.org/RLSA-2024:3203
+    - https://errata.almalinux.org/8/ALSA-2024-3203.html
+    - https://errata.rockylinux.org/RLSA-2024:2463
     - https://github.com/systemd/systemd/issues/25676
     - https://linux.oracle.com/cve/CVE-2023-7008.html
     - https://linux.oracle.com/errata/ELSA-2024-3203.html
@@ -4900,6 +4914,8 @@
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N
         V3Score: 4.7
     References:
+    - http://www.openwall.com/lists/oss-security/2025/06/05/1
+    - http://www.openwall.com/lists/oss-security/2025/06/05/3
     - https://access.redhat.com/security/cve/CVE-2025-4598
     - https://bugzilla.redhat.com/show_bug.cgi?id=2369242
     - https://git.kernel.org/linus/b5325b2a270fcaf7b2a9a0f23d422ca8a5a8bdea
@@ -4918,7 +4934,7 @@
     - https://www.openwall.com/lists/oss-security/2025/05/29/3
     - https://www.qualys.com/2025/05/29/apport-coredump/apport-coredump.txt
     PublishedDate: '2025-05-30T14:15:23.557Z'
-    LastModifiedDate: '2025-05-30T16:31:03.107Z'
+    LastModifiedDate: '2025-06-05T07:15:23.047Z'
   - VulnerabilityID: CVE-2023-7008
     PkgID: systemd-sysv@249.11-0ubuntu3.12
     PkgName: systemd-sysv
@@ -4965,8 +4981,8 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222261
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222672
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-7008
-    - https://errata.almalinux.org/9/ALSA-2024-2463.html
-    - https://errata.rockylinux.org/RLSA-2024:3203
+    - https://errata.almalinux.org/8/ALSA-2024-3203.html
+    - https://errata.rockylinux.org/RLSA-2024:2463
     - https://github.com/systemd/systemd/issues/25676
     - https://linux.oracle.com/cve/CVE-2023-7008.html
     - https://linux.oracle.com/errata/ELSA-2024-3203.html
@@ -5011,6 +5027,8 @@
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N
         V3Score: 4.7
     References:
+    - http://www.openwall.com/lists/oss-security/2025/06/05/1
+    - http://www.openwall.com/lists/oss-security/2025/06/05/3
     - https://access.redhat.com/security/cve/CVE-2025-4598
     - https://bugzilla.redhat.com/show_bug.cgi?id=2369242
     - https://git.kernel.org/linus/b5325b2a270fcaf7b2a9a0f23d422ca8a5a8bdea
@@ -5029,7 +5047,7 @@
     - https://www.openwall.com/lists/oss-security/2025/05/29/3
     - https://www.qualys.com/2025/05/29/apport-coredump/apport-coredump.txt
     PublishedDate: '2025-05-30T14:15:23.557Z'
-    LastModifiedDate: '2025-05-30T16:31:03.107Z'
+    LastModifiedDate: '2025-06-05T07:15:23.047Z'
   - VulnerabilityID: CVE-2023-7008
     PkgID: systemd-timesyncd@249.11-0ubuntu3.12
     PkgName: systemd-timesyncd
@@ -5076,8 +5094,8 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222261
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222672
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-7008
-    - https://errata.almalinux.org/9/ALSA-2024-2463.html
-    - https://errata.rockylinux.org/RLSA-2024:3203
+    - https://errata.almalinux.org/8/ALSA-2024-3203.html
+    - https://errata.rockylinux.org/RLSA-2024:2463
     - https://github.com/systemd/systemd/issues/25676
     - https://linux.oracle.com/cve/CVE-2023-7008.html
     - https://linux.oracle.com/errata/ELSA-2024-3203.html
@@ -5505,7 +5523,7 @@
     References:
     - http://www.openwall.com/lists/oss-security/2024/04/03/16
     - http://www.openwall.com/lists/oss-security/2024/04/05/4
-    - https://access.redhat.com/errata/RHSA-2024:2724
+    - https://access.redhat.com/errata/RHSA-2024:3346
     - https://access.redhat.com/security/cve/CVE-2023-45288
     - https://bugzilla.redhat.com/2268017
     - https://bugzilla.redhat.com/2268018
@@ -5519,8 +5537,8 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45289
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45290
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24783
-    - https://errata.almalinux.org/9/ALSA-2024-2724.html
-    - https://errata.rockylinux.org/RLSA-2024:3346
+    - https://errata.almalinux.org/8/ALSA-2024-3346.html
+    - https://errata.rockylinux.org/RLSA-2024:2724
     - https://go.dev/cl/576155
     - https://go.dev/issue/65051
     - https://groups.google.com/g/golang-announce/c/YgW0sx8mN3M
@@ -5656,9 +5674,11 @@
     Description: The net/http package improperly accepts a bare LF as a line terminator in chunked data chunk-size lines. This can permit request smuggling if a net/http server is used in conjunction with a server that incorrectly accepts a bare LF as part of a chunk-ext.
     Severity: MEDIUM
     VendorSeverity:
+      alma: 2
       amazon: 3
       bitnami: 4
       cbl-mariner: 3
+      oracle-oval: 2
       redhat: 2
     CVSS:
       bitnami:
@@ -5669,10 +5689,15 @@
         V3Score: 5.4
     References:
     - http://www.openwall.com/lists/oss-security/2025/04/04/4
+    - https://access.redhat.com/errata/RHSA-2025:8478
     - https://access.redhat.com/security/cve/CVE-2025-22871
+    - https://bugzilla.redhat.com/2358493
+    - https://errata.almalinux.org/8/ALSA-2025-8478.html
     - https://go.dev/cl/652998
     - https://go.dev/issue/71988
     - https://groups.google.com/g/golang-announce/c/Y2uBTVKjBQk
+    - https://linux.oracle.com/cve/CVE-2025-22871.html
+    - https://linux.oracle.com/errata/ELSA-2025-8478.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-22871
     - https://pkg.go.dev/vuln/GO-2025-3563
     - https://www.cve.org/CVERecord?id=CVE-2025-22871
@@ -5728,7 +5753,7 @@
     References:
     - http://www.openwall.com/lists/oss-security/2024/04/03/16
     - http://www.openwall.com/lists/oss-security/2024/04/05/4
-    - https://access.redhat.com/errata/RHSA-2024:2724
+    - https://access.redhat.com/errata/RHSA-2024:3346
     - https://access.redhat.com/security/cve/CVE-2023-45288
     - https://bugzilla.redhat.com/2268017
     - https://bugzilla.redhat.com/2268018
@@ -5742,8 +5767,8 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45289
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45290
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24783
-    - https://errata.almalinux.org/9/ALSA-2024-2724.html
-    - https://errata.rockylinux.org/RLSA-2024:3346
+    - https://errata.almalinux.org/8/ALSA-2024-3346.html
+    - https://errata.rockylinux.org/RLSA-2024:2724
     - https://go.dev/cl/576155
     - https://go.dev/issue/65051
     - https://groups.google.com/g/golang-announce/c/YgW0sx8mN3M
@@ -5879,9 +5904,11 @@
     Description: The net/http package improperly accepts a bare LF as a line terminator in chunked data chunk-size lines. This can permit request smuggling if a net/http server is used in conjunction with a server that incorrectly accepts a bare LF as part of a chunk-ext.
     Severity: MEDIUM
     VendorSeverity:
+      alma: 2
       amazon: 3
       bitnami: 4
       cbl-mariner: 3
+      oracle-oval: 2
       redhat: 2
     CVSS:
       bitnami:
@@ -5892,10 +5919,15 @@
         V3Score: 5.4
     References:
     - http://www.openwall.com/lists/oss-security/2025/04/04/4
+    - https://access.redhat.com/errata/RHSA-2025:8478
     - https://access.redhat.com/security/cve/CVE-2025-22871
+    - https://bugzilla.redhat.com/2358493
+    - https://errata.almalinux.org/8/ALSA-2025-8478.html
     - https://go.dev/cl/652998
     - https://go.dev/issue/71988
     - https://groups.google.com/g/golang-announce/c/Y2uBTVKjBQk
+    - https://linux.oracle.com/cve/CVE-2025-22871.html
+    - https://linux.oracle.com/errata/ELSA-2025-8478.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-22871
     - https://pkg.go.dev/vuln/GO-2025-3563
     - https://www.cve.org/CVERecord?id=CVE-2025-22871
@@ -6067,10 +6099,10 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2025:7425
+    - https://access.redhat.com/errata/RHSA-2025:7967
     - https://access.redhat.com/security/cve/CVE-2025-30204
     - https://bugzilla.redhat.com/2354195
-    - https://errata.almalinux.org/9/ALSA-2025-7425.html
+    - https://errata.almalinux.org/8/ALSA-2025-7967.html
     - https://github.com/golang-jwt/jwt
     - https://github.com/golang-jwt/jwt/commit/0951d184286dece21f73c85673fd308786ffe9c3
     - https://github.com/golang-jwt/jwt/commit/bf316c48137a1212f8d0af9288cc9ce8e59f1afb
@@ -6254,9 +6286,11 @@
     Description: The net/http package improperly accepts a bare LF as a line terminator in chunked data chunk-size lines. This can permit request smuggling if a net/http server is used in conjunction with a server that incorrectly accepts a bare LF as part of a chunk-ext.
     Severity: MEDIUM
     VendorSeverity:
+      alma: 2
       amazon: 3
       bitnami: 4
       cbl-mariner: 3
+      oracle-oval: 2
       redhat: 2
     CVSS:
       bitnami:
@@ -6267,10 +6301,15 @@
         V3Score: 5.4
     References:
     - http://www.openwall.com/lists/oss-security/2025/04/04/4
+    - https://access.redhat.com/errata/RHSA-2025:8478
     - https://access.redhat.com/security/cve/CVE-2025-22871
+    - https://bugzilla.redhat.com/2358493
+    - https://errata.almalinux.org/8/ALSA-2025-8478.html
     - https://go.dev/cl/652998
     - https://go.dev/issue/71988
     - https://groups.google.com/g/golang-announce/c/Y2uBTVKjBQk
+    - https://linux.oracle.com/cve/CVE-2025-22871.html
+    - https://linux.oracle.com/errata/ELSA-2025-8478.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-22871
     - https://pkg.go.dev/vuln/GO-2025-3563
     - https://www.cve.org/CVERecord?id=CVE-2025-22871
@@ -6397,9 +6436,11 @@
     Description: The net/http package improperly accepts a bare LF as a line terminator in chunked data chunk-size lines. This can permit request smuggling if a net/http server is used in conjunction with a server that incorrectly accepts a bare LF as part of a chunk-ext.
     Severity: MEDIUM
     VendorSeverity:
+      alma: 2
       amazon: 3
       bitnami: 4
       cbl-mariner: 3
+      oracle-oval: 2
       redhat: 2
     CVSS:
       bitnami:
@@ -6410,10 +6451,15 @@
         V3Score: 5.4
     References:
     - http://www.openwall.com/lists/oss-security/2025/04/04/4
+    - https://access.redhat.com/errata/RHSA-2025:8478
     - https://access.redhat.com/security/cve/CVE-2025-22871
+    - https://bugzilla.redhat.com/2358493
+    - https://errata.almalinux.org/8/ALSA-2025-8478.html
     - https://go.dev/cl/652998
     - https://go.dev/issue/71988
     - https://groups.google.com/g/golang-announce/c/Y2uBTVKjBQk
+    - https://linux.oracle.com/cve/CVE-2025-22871.html
+    - https://linux.oracle.com/errata/ELSA-2025-8478.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-22871
     - https://pkg.go.dev/vuln/GO-2025-3563
     - https://www.cve.org/CVERecord?id=CVE-2025-22871
@@ -6537,9 +6583,11 @@
     Description: The net/http package improperly accepts a bare LF as a line terminator in chunked data chunk-size lines. This can permit request smuggling if a net/http server is used in conjunction with a server that incorrectly accepts a bare LF as part of a chunk-ext.
     Severity: MEDIUM
     VendorSeverity:
+      alma: 2
       amazon: 3
       bitnami: 4
       cbl-mariner: 3
+      oracle-oval: 2
       redhat: 2
     CVSS:
       bitnami:
@@ -6550,10 +6598,15 @@
         V3Score: 5.4
     References:
     - http://www.openwall.com/lists/oss-security/2025/04/04/4
+    - https://access.redhat.com/errata/RHSA-2025:8478
     - https://access.redhat.com/security/cve/CVE-2025-22871
+    - https://bugzilla.redhat.com/2358493
+    - https://errata.almalinux.org/8/ALSA-2025-8478.html
     - https://go.dev/cl/652998
     - https://go.dev/issue/71988
     - https://groups.google.com/g/golang-announce/c/Y2uBTVKjBQk
+    - https://linux.oracle.com/cve/CVE-2025-22871.html
+    - https://linux.oracle.com/errata/ELSA-2025-8478.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-22871
     - https://pkg.go.dev/vuln/GO-2025-3563
     - https://www.cve.org/CVERecord?id=CVE-2025-22871
@@ -6602,10 +6655,10 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2025:7425
+    - https://access.redhat.com/errata/RHSA-2025:7967
     - https://access.redhat.com/security/cve/CVE-2025-30204
     - https://bugzilla.redhat.com/2354195
-    - https://errata.almalinux.org/9/ALSA-2025-7425.html
+    - https://errata.almalinux.org/8/ALSA-2025-7967.html
     - https://github.com/golang-jwt/jwt
     - https://github.com/golang-jwt/jwt/commit/0951d184286dece21f73c85673fd308786ffe9c3
     - https://github.com/golang-jwt/jwt/commit/bf316c48137a1212f8d0af9288cc9ce8e59f1afb
@@ -6683,9 +6736,11 @@
     Description: The net/http package improperly accepts a bare LF as a line terminator in chunked data chunk-size lines. This can permit request smuggling if a net/http server is used in conjunction with a server that incorrectly accepts a bare LF as part of a chunk-ext.
     Severity: MEDIUM
     VendorSeverity:
+      alma: 2
       amazon: 3
       bitnami: 4
       cbl-mariner: 3
+      oracle-oval: 2
       redhat: 2
     CVSS:
       bitnami:
@@ -6696,10 +6751,15 @@
         V3Score: 5.4
     References:
     - http://www.openwall.com/lists/oss-security/2025/04/04/4
+    - https://access.redhat.com/errata/RHSA-2025:8478
     - https://access.redhat.com/security/cve/CVE-2025-22871
+    - https://bugzilla.redhat.com/2358493
+    - https://errata.almalinux.org/8/ALSA-2025-8478.html
     - https://go.dev/cl/652998
     - https://go.dev/issue/71988
     - https://groups.google.com/g/golang-announce/c/Y2uBTVKjBQk
+    - https://linux.oracle.com/cve/CVE-2025-22871.html
+    - https://linux.oracle.com/errata/ELSA-2025-8478.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-22871
     - https://pkg.go.dev/vuln/GO-2025-3563
     - https://www.cve.org/CVERecord?id=CVE-2025-22871
@@ -7091,9 +7151,11 @@
     Description: The net/http package improperly accepts a bare LF as a line terminator in chunked data chunk-size lines. This can permit request smuggling if a net/http server is used in conjunction with a server that incorrectly accepts a bare LF as part of a chunk-ext.
     Severity: MEDIUM
     VendorSeverity:
+      alma: 2
       amazon: 3
       bitnami: 4
       cbl-mariner: 3
+      oracle-oval: 2
       redhat: 2
     CVSS:
       bitnami:
@@ -7104,10 +7166,15 @@
         V3Score: 5.4
     References:
     - http://www.openwall.com/lists/oss-security/2025/04/04/4
+    - https://access.redhat.com/errata/RHSA-2025:8478
     - https://access.redhat.com/security/cve/CVE-2025-22871
+    - https://bugzilla.redhat.com/2358493
+    - https://errata.almalinux.org/8/ALSA-2025-8478.html
     - https://go.dev/cl/652998
     - https://go.dev/issue/71988
     - https://groups.google.com/g/golang-announce/c/Y2uBTVKjBQk
+    - https://linux.oracle.com/cve/CVE-2025-22871.html
+    - https://linux.oracle.com/errata/ELSA-2025-8478.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-22871
     - https://pkg.go.dev/vuln/GO-2025-3563
     - https://www.cve.org/CVERecord?id=CVE-2025-22871
