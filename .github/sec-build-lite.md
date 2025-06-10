@@ -55,7 +55,7 @@
 │                        │      │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2016-2781 
 │                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2016-2781 
 │                        │      ├ PublishedDate   : 2017-02-07T15:59:00.333Z 
-│                        │      ╰ LastModifiedDate: 2025-04-20T01:37:25.86Z 
+│                        │      ╰ LastModifiedDate: 2025-06-09T16:15:25.013Z 
 │                        ├ [1]  ╭ VulnerabilityID : CVE-2025-0167 
 │                        │      ├ PkgID           : curl@8.5.0-2ubuntu10.6 
 │                        │      ├ PkgName         : curl 
@@ -1101,7 +1101,8 @@
 │                        │      │                  │       amd64&distro=ubuntu-24.04 
 │                        │      │                  ╰ UID : a177460bd1a1eb53 
 │                        │      ├ InstalledVersion: 255.4-1ubuntu8.6 
-│                        │      ├ Status          : affected 
+│                        │      ├ FixedVersion    : 255.4-1ubuntu8.8 
+│                        │      ├ Status          : fixed 
 │                        │      ├ Layer            ╭ Digest: sha256:d0fce204c00e50d6912b14946e6ecefb6319e6cab3f
 │                        │      │                  │         50db3ef61b2a9ccf6aa26 
 │                        │      │                  ╰ DiffID: sha256:57244414b4fb4a14ab635fa0f06b84e3f72ea4b64cf
@@ -1168,10 +1169,11 @@
 │                        │      │                  ├ [13]: https://linux.oracle.com/cve/CVE-2025-4598.html 
 │                        │      │                  ├ [14]: https://linux.oracle.com/errata/ELSA-2025-20344.html 
 │                        │      │                  ├ [15]: https://nvd.nist.gov/vuln/detail/CVE-2025-4598 
-│                        │      │                  ├ [16]: https://www.cve.org/CVERecord?id=CVE-2025-4598 
-│                        │      │                  ├ [17]: https://www.openwall.com/lists/oss-security/2025/05/
+│                        │      │                  ├ [16]: https://ubuntu.com/security/notices/USN-7559-1 
+│                        │      │                  ├ [17]: https://www.cve.org/CVERecord?id=CVE-2025-4598 
+│                        │      │                  ├ [18]: https://www.openwall.com/lists/oss-security/2025/05/
 │                        │      │                  │       29/3 
-│                        │      │                  ╰ [18]: https://www.qualys.com/2025/05/29/apport-coredump/ap
+│                        │      │                  ╰ [19]: https://www.qualys.com/2025/05/29/apport-coredump/ap
 │                        │      │                          port-coredump.txt 
 │                        │      ├ PublishedDate   : 2025-05-30T14:15:23.557Z 
 │                        │      ╰ LastModifiedDate: 2025-06-05T07:15:23.047Z 
@@ -1530,7 +1532,8 @@
 │                        │      │                  │       amd64&distro=ubuntu-24.04 
 │                        │      │                  ╰ UID : ed9d7a7e0cec91b1 
 │                        │      ├ InstalledVersion: 255.4-1ubuntu8.6 
-│                        │      ├ Status          : affected 
+│                        │      ├ FixedVersion    : 255.4-1ubuntu8.8 
+│                        │      ├ Status          : fixed 
 │                        │      ├ Layer            ╭ Digest: sha256:d0fce204c00e50d6912b14946e6ecefb6319e6cab3f
 │                        │      │                  │         50db3ef61b2a9ccf6aa26 
 │                        │      │                  ╰ DiffID: sha256:57244414b4fb4a14ab635fa0f06b84e3f72ea4b64cf
@@ -1597,10 +1600,11 @@
 │                        │      │                  ├ [13]: https://linux.oracle.com/cve/CVE-2025-4598.html 
 │                        │      │                  ├ [14]: https://linux.oracle.com/errata/ELSA-2025-20344.html 
 │                        │      │                  ├ [15]: https://nvd.nist.gov/vuln/detail/CVE-2025-4598 
-│                        │      │                  ├ [16]: https://www.cve.org/CVERecord?id=CVE-2025-4598 
-│                        │      │                  ├ [17]: https://www.openwall.com/lists/oss-security/2025/05/
+│                        │      │                  ├ [16]: https://ubuntu.com/security/notices/USN-7559-1 
+│                        │      │                  ├ [17]: https://www.cve.org/CVERecord?id=CVE-2025-4598 
+│                        │      │                  ├ [18]: https://www.openwall.com/lists/oss-security/2025/05/
 │                        │      │                  │       29/3 
-│                        │      │                  ╰ [18]: https://www.qualys.com/2025/05/29/apport-coredump/ap
+│                        │      │                  ╰ [19]: https://www.qualys.com/2025/05/29/apport-coredump/ap
 │                        │      │                          port-coredump.txt 
 │                        │      ├ PublishedDate   : 2025-05-30T14:15:23.557Z 
 │                        │      ╰ LastModifiedDate: 2025-06-05T07:15:23.047Z 
@@ -1825,7 +1829,8 @@
 │                        │      │                  │       ch=amd64&distro=ubuntu-24.04 
 │                        │      │                  ╰ UID : 4bf23d9411e1ace5 
 │                        │      ├ InstalledVersion: 255.4-1ubuntu8.6 
-│                        │      ├ Status          : affected 
+│                        │      ├ FixedVersion    : 255.4-1ubuntu8.8 
+│                        │      ├ Status          : fixed 
 │                        │      ├ Layer            ╭ Digest: sha256:d0fce204c00e50d6912b14946e6ecefb6319e6cab3f
 │                        │      │                  │         50db3ef61b2a9ccf6aa26 
 │                        │      │                  ╰ DiffID: sha256:57244414b4fb4a14ab635fa0f06b84e3f72ea4b64cf
@@ -1892,10 +1897,11 @@
 │                        │      │                  ├ [13]: https://linux.oracle.com/cve/CVE-2025-4598.html 
 │                        │      │                  ├ [14]: https://linux.oracle.com/errata/ELSA-2025-20344.html 
 │                        │      │                  ├ [15]: https://nvd.nist.gov/vuln/detail/CVE-2025-4598 
-│                        │      │                  ├ [16]: https://www.cve.org/CVERecord?id=CVE-2025-4598 
-│                        │      │                  ├ [17]: https://www.openwall.com/lists/oss-security/2025/05/
+│                        │      │                  ├ [16]: https://ubuntu.com/security/notices/USN-7559-1 
+│                        │      │                  ├ [17]: https://www.cve.org/CVERecord?id=CVE-2025-4598 
+│                        │      │                  ├ [18]: https://www.openwall.com/lists/oss-security/2025/05/
 │                        │      │                  │       29/3 
-│                        │      │                  ╰ [18]: https://www.qualys.com/2025/05/29/apport-coredump/ap
+│                        │      │                  ╰ [19]: https://www.qualys.com/2025/05/29/apport-coredump/ap
 │                        │      │                          port-coredump.txt 
 │                        │      ├ PublishedDate   : 2025-05-30T14:15:23.557Z 
 │                        │      ╰ LastModifiedDate: 2025-06-05T07:15:23.047Z 
@@ -1906,7 +1912,8 @@
 │                        │      │                  │       64&distro=ubuntu-24.04 
 │                        │      │                  ╰ UID : cdaddbf748025f74 
 │                        │      ├ InstalledVersion: 255.4-1ubuntu8.6 
-│                        │      ├ Status          : affected 
+│                        │      ├ FixedVersion    : 255.4-1ubuntu8.8 
+│                        │      ├ Status          : fixed 
 │                        │      ├ Layer            ╭ Digest: sha256:d0fce204c00e50d6912b14946e6ecefb6319e6cab3f
 │                        │      │                  │         50db3ef61b2a9ccf6aa26 
 │                        │      │                  ╰ DiffID: sha256:57244414b4fb4a14ab635fa0f06b84e3f72ea4b64cf
@@ -1973,10 +1980,11 @@
 │                        │      │                  ├ [13]: https://linux.oracle.com/cve/CVE-2025-4598.html 
 │                        │      │                  ├ [14]: https://linux.oracle.com/errata/ELSA-2025-20344.html 
 │                        │      │                  ├ [15]: https://nvd.nist.gov/vuln/detail/CVE-2025-4598 
-│                        │      │                  ├ [16]: https://www.cve.org/CVERecord?id=CVE-2025-4598 
-│                        │      │                  ├ [17]: https://www.openwall.com/lists/oss-security/2025/05/
+│                        │      │                  ├ [16]: https://ubuntu.com/security/notices/USN-7559-1 
+│                        │      │                  ├ [17]: https://www.cve.org/CVERecord?id=CVE-2025-4598 
+│                        │      │                  ├ [18]: https://www.openwall.com/lists/oss-security/2025/05/
 │                        │      │                  │       29/3 
-│                        │      │                  ╰ [18]: https://www.qualys.com/2025/05/29/apport-coredump/ap
+│                        │      │                  ╰ [19]: https://www.qualys.com/2025/05/29/apport-coredump/ap
 │                        │      │                          port-coredump.txt 
 │                        │      ├ PublishedDate   : 2025-05-30T14:15:23.557Z 
 │                        │      ╰ LastModifiedDate: 2025-06-05T07:15:23.047Z 
@@ -1987,7 +1995,8 @@
 │                        │      │                  │       distro=ubuntu-24.04 
 │                        │      │                  ╰ UID : 4cb2cc3152b144a9 
 │                        │      ├ InstalledVersion: 255.4-1ubuntu8.6 
-│                        │      ├ Status          : affected 
+│                        │      ├ FixedVersion    : 255.4-1ubuntu8.8 
+│                        │      ├ Status          : fixed 
 │                        │      ├ Layer            ╭ Digest: sha256:d0fce204c00e50d6912b14946e6ecefb6319e6cab3f
 │                        │      │                  │         50db3ef61b2a9ccf6aa26 
 │                        │      │                  ╰ DiffID: sha256:57244414b4fb4a14ab635fa0f06b84e3f72ea4b64cf
@@ -2054,10 +2063,11 @@
 │                        │      │                  ├ [13]: https://linux.oracle.com/cve/CVE-2025-4598.html 
 │                        │      │                  ├ [14]: https://linux.oracle.com/errata/ELSA-2025-20344.html 
 │                        │      │                  ├ [15]: https://nvd.nist.gov/vuln/detail/CVE-2025-4598 
-│                        │      │                  ├ [16]: https://www.cve.org/CVERecord?id=CVE-2025-4598 
-│                        │      │                  ├ [17]: https://www.openwall.com/lists/oss-security/2025/05/
+│                        │      │                  ├ [16]: https://ubuntu.com/security/notices/USN-7559-1 
+│                        │      │                  ├ [17]: https://www.cve.org/CVERecord?id=CVE-2025-4598 
+│                        │      │                  ├ [18]: https://www.openwall.com/lists/oss-security/2025/05/
 │                        │      │                  │       29/3 
-│                        │      │                  ╰ [18]: https://www.qualys.com/2025/05/29/apport-coredump/ap
+│                        │      │                  ╰ [19]: https://www.qualys.com/2025/05/29/apport-coredump/ap
 │                        │      │                          port-coredump.txt 
 │                        │      ├ PublishedDate   : 2025-05-30T14:15:23.557Z 
 │                        │      ╰ LastModifiedDate: 2025-06-05T07:15:23.047Z 
@@ -2304,7 +2314,8 @@
 │                        │      │                  │       istro=ubuntu-24.04 
 │                        │      │                  ╰ UID : 44f0b636b8440816 
 │                        │      ├ InstalledVersion: 255.4-1ubuntu8.6 
-│                        │      ├ Status          : affected 
+│                        │      ├ FixedVersion    : 255.4-1ubuntu8.8 
+│                        │      ├ Status          : fixed 
 │                        │      ├ Layer            ╭ Digest: sha256:d0fce204c00e50d6912b14946e6ecefb6319e6cab3f
 │                        │      │                  │         50db3ef61b2a9ccf6aa26 
 │                        │      │                  ╰ DiffID: sha256:57244414b4fb4a14ab635fa0f06b84e3f72ea4b64cf
@@ -2371,10 +2382,11 @@
 │                        │      │                  ├ [13]: https://linux.oracle.com/cve/CVE-2025-4598.html 
 │                        │      │                  ├ [14]: https://linux.oracle.com/errata/ELSA-2025-20344.html 
 │                        │      │                  ├ [15]: https://nvd.nist.gov/vuln/detail/CVE-2025-4598 
-│                        │      │                  ├ [16]: https://www.cve.org/CVERecord?id=CVE-2025-4598 
-│                        │      │                  ├ [17]: https://www.openwall.com/lists/oss-security/2025/05/
+│                        │      │                  ├ [16]: https://ubuntu.com/security/notices/USN-7559-1 
+│                        │      │                  ├ [17]: https://www.cve.org/CVERecord?id=CVE-2025-4598 
+│                        │      │                  ├ [18]: https://www.openwall.com/lists/oss-security/2025/05/
 │                        │      │                  │       29/3 
-│                        │      │                  ╰ [18]: https://www.qualys.com/2025/05/29/apport-coredump/ap
+│                        │      │                  ╰ [19]: https://www.qualys.com/2025/05/29/apport-coredump/ap
 │                        │      │                          port-coredump.txt 
 │                        │      ├ PublishedDate   : 2025-05-30T14:15:23.557Z 
 │                        │      ╰ LastModifiedDate: 2025-06-05T07:15:23.047Z 
@@ -2385,7 +2397,8 @@
 │                        │      │                  │       &distro=ubuntu-24.04 
 │                        │      │                  ╰ UID : e971deb97d8d7883 
 │                        │      ├ InstalledVersion: 255.4-1ubuntu8.6 
-│                        │      ├ Status          : affected 
+│                        │      ├ FixedVersion    : 255.4-1ubuntu8.8 
+│                        │      ├ Status          : fixed 
 │                        │      ├ Layer            ╭ Digest: sha256:d0fce204c00e50d6912b14946e6ecefb6319e6cab3f
 │                        │      │                  │         50db3ef61b2a9ccf6aa26 
 │                        │      │                  ╰ DiffID: sha256:57244414b4fb4a14ab635fa0f06b84e3f72ea4b64cf
@@ -2452,10 +2465,11 @@
 │                        │      │                  ├ [13]: https://linux.oracle.com/cve/CVE-2025-4598.html 
 │                        │      │                  ├ [14]: https://linux.oracle.com/errata/ELSA-2025-20344.html 
 │                        │      │                  ├ [15]: https://nvd.nist.gov/vuln/detail/CVE-2025-4598 
-│                        │      │                  ├ [16]: https://www.cve.org/CVERecord?id=CVE-2025-4598 
-│                        │      │                  ├ [17]: https://www.openwall.com/lists/oss-security/2025/05/
+│                        │      │                  ├ [16]: https://ubuntu.com/security/notices/USN-7559-1 
+│                        │      │                  ├ [17]: https://www.cve.org/CVERecord?id=CVE-2025-4598 
+│                        │      │                  ├ [18]: https://www.openwall.com/lists/oss-security/2025/05/
 │                        │      │                  │       29/3 
-│                        │      │                  ╰ [18]: https://www.qualys.com/2025/05/29/apport-coredump/ap
+│                        │      │                  ╰ [19]: https://www.qualys.com/2025/05/29/apport-coredump/ap
 │                        │      │                          port-coredump.txt 
 │                        │      ├ PublishedDate   : 2025-05-30T14:15:23.557Z 
 │                        │      ╰ LastModifiedDate: 2025-06-05T07:15:23.047Z 
@@ -2466,7 +2480,8 @@
 │                        │      │                  │       h=amd64&distro=ubuntu-24.04 
 │                        │      │                  ╰ UID : a2e9aa91c1ec5945 
 │                        │      ├ InstalledVersion: 255.4-1ubuntu8.6 
-│                        │      ├ Status          : affected 
+│                        │      ├ FixedVersion    : 255.4-1ubuntu8.8 
+│                        │      ├ Status          : fixed 
 │                        │      ├ Layer            ╭ Digest: sha256:d0fce204c00e50d6912b14946e6ecefb6319e6cab3f
 │                        │      │                  │         50db3ef61b2a9ccf6aa26 
 │                        │      │                  ╰ DiffID: sha256:57244414b4fb4a14ab635fa0f06b84e3f72ea4b64cf
@@ -2533,10 +2548,11 @@
 │                        │      │                  ├ [13]: https://linux.oracle.com/cve/CVE-2025-4598.html 
 │                        │      │                  ├ [14]: https://linux.oracle.com/errata/ELSA-2025-20344.html 
 │                        │      │                  ├ [15]: https://nvd.nist.gov/vuln/detail/CVE-2025-4598 
-│                        │      │                  ├ [16]: https://www.cve.org/CVERecord?id=CVE-2025-4598 
-│                        │      │                  ├ [17]: https://www.openwall.com/lists/oss-security/2025/05/
+│                        │      │                  ├ [16]: https://ubuntu.com/security/notices/USN-7559-1 
+│                        │      │                  ├ [17]: https://www.cve.org/CVERecord?id=CVE-2025-4598 
+│                        │      │                  ├ [18]: https://www.openwall.com/lists/oss-security/2025/05/
 │                        │      │                  │       29/3 
-│                        │      │                  ╰ [18]: https://www.qualys.com/2025/05/29/apport-coredump/ap
+│                        │      │                  ╰ [19]: https://www.qualys.com/2025/05/29/apport-coredump/ap
 │                        │      │                          port-coredump.txt 
 │                        │      ├ PublishedDate   : 2025-05-30T14:15:23.557Z 
 │                        │      ╰ LastModifiedDate: 2025-06-05T07:15:23.047Z 
@@ -2547,7 +2563,8 @@
 │                        │      │                  │       d64&distro=ubuntu-24.04 
 │                        │      │                  ╰ UID : 67e3ed9c9bd9dbd7 
 │                        │      ├ InstalledVersion: 255.4-1ubuntu8.6 
-│                        │      ├ Status          : affected 
+│                        │      ├ FixedVersion    : 255.4-1ubuntu8.8 
+│                        │      ├ Status          : fixed 
 │                        │      ├ Layer            ╭ Digest: sha256:d0fce204c00e50d6912b14946e6ecefb6319e6cab3f
 │                        │      │                  │         50db3ef61b2a9ccf6aa26 
 │                        │      │                  ╰ DiffID: sha256:57244414b4fb4a14ab635fa0f06b84e3f72ea4b64cf
@@ -2614,10 +2631,11 @@
 │                        │      │                  ├ [13]: https://linux.oracle.com/cve/CVE-2025-4598.html 
 │                        │      │                  ├ [14]: https://linux.oracle.com/errata/ELSA-2025-20344.html 
 │                        │      │                  ├ [15]: https://nvd.nist.gov/vuln/detail/CVE-2025-4598 
-│                        │      │                  ├ [16]: https://www.cve.org/CVERecord?id=CVE-2025-4598 
-│                        │      │                  ├ [17]: https://www.openwall.com/lists/oss-security/2025/05/
+│                        │      │                  ├ [16]: https://ubuntu.com/security/notices/USN-7559-1 
+│                        │      │                  ├ [17]: https://www.cve.org/CVERecord?id=CVE-2025-4598 
+│                        │      │                  ├ [18]: https://www.openwall.com/lists/oss-security/2025/05/
 │                        │      │                  │       29/3 
-│                        │      │                  ╰ [18]: https://www.qualys.com/2025/05/29/apport-coredump/ap
+│                        │      │                  ╰ [19]: https://www.qualys.com/2025/05/29/apport-coredump/ap
 │                        │      │                          port-coredump.txt 
 │                        │      ├ PublishedDate   : 2025-05-30T14:15:23.557Z 
 │                        │      ╰ LastModifiedDate: 2025-06-05T07:15:23.047Z 
@@ -2628,7 +2646,8 @@
 │                        │      │                  │       ch=amd64&distro=ubuntu-24.04 
 │                        │      │                  ╰ UID : b8da43c253a5fdd0 
 │                        │      ├ InstalledVersion: 255.4-1ubuntu8.6 
-│                        │      ├ Status          : affected 
+│                        │      ├ FixedVersion    : 255.4-1ubuntu8.8 
+│                        │      ├ Status          : fixed 
 │                        │      ├ Layer            ╭ Digest: sha256:d0fce204c00e50d6912b14946e6ecefb6319e6cab3f
 │                        │      │                  │         50db3ef61b2a9ccf6aa26 
 │                        │      │                  ╰ DiffID: sha256:57244414b4fb4a14ab635fa0f06b84e3f72ea4b64cf
@@ -2695,10 +2714,11 @@
 │                        │      │                  ├ [13]: https://linux.oracle.com/cve/CVE-2025-4598.html 
 │                        │      │                  ├ [14]: https://linux.oracle.com/errata/ELSA-2025-20344.html 
 │                        │      │                  ├ [15]: https://nvd.nist.gov/vuln/detail/CVE-2025-4598 
-│                        │      │                  ├ [16]: https://www.cve.org/CVERecord?id=CVE-2025-4598 
-│                        │      │                  ├ [17]: https://www.openwall.com/lists/oss-security/2025/05/
+│                        │      │                  ├ [16]: https://ubuntu.com/security/notices/USN-7559-1 
+│                        │      │                  ├ [17]: https://www.cve.org/CVERecord?id=CVE-2025-4598 
+│                        │      │                  ├ [18]: https://www.openwall.com/lists/oss-security/2025/05/
 │                        │      │                  │       29/3 
-│                        │      │                  ╰ [18]: https://www.qualys.com/2025/05/29/apport-coredump/ap
+│                        │      │                  ╰ [19]: https://www.qualys.com/2025/05/29/apport-coredump/ap
 │                        │      │                          port-coredump.txt 
 │                        │      ├ PublishedDate   : 2025-05-30T14:15:23.557Z 
 │                        │      ╰ LastModifiedDate: 2025-06-05T07:15:23.047Z 
