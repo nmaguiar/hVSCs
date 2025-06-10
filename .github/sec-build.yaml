@@ -52,7 +52,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2016-2781
     - https://www.cve.org/CVERecord?id=CVE-2016-2781
     PublishedDate: '2017-02-07T15:59:00.333Z'
-    LastModifiedDate: '2025-04-20T01:37:25.86Z'
+    LastModifiedDate: '2025-06-09T16:15:25.013Z'
   - VulnerabilityID: CVE-2025-0167
     PkgID: curl@7.81.0-1ubuntu1.20
     PkgName: curl
@@ -113,6 +113,8 @@
     Title: 'dbus: dbus-daemon: assertion failure when a monitor is active and a message from the driver cannot be delivered'
     Description: D-Bus before 1.15.6 sometimes allows unprivileged users to crash dbus-daemon. If a privileged user with control over the dbus-daemon is using the org.freedesktop.DBus.Monitoring interface to monitor message bus traffic, then an unprivileged user with the ability to connect to the same dbus-daemon can cause a dbus-daemon crash under some circumstances via an unreplyable message. When done on the well-known system bus, this is a denial-of-service vulnerability. The fixed versions are 1.12.28, 1.14.8, and 1.15.6.
     Severity: LOW
+    CweIDs:
+    - CWE-404
     VendorSeverity:
       alma: 2
       amazon: 2
@@ -148,7 +150,7 @@
     - https://ubuntu.com/security/notices/USN-6372-1
     - https://www.cve.org/CVERecord?id=CVE-2023-34969
     PublishedDate: '2023-06-08T03:15:08.97Z'
-    LastModifiedDate: '2024-11-21T08:07:44.607Z'
+    LastModifiedDate: '2025-06-09T15:15:29.34Z'
   - VulnerabilityID: CVE-2023-34969
     PkgID: dbus-user-session@1.12.20-2ubuntu4.1
     PkgName: dbus-user-session
@@ -169,6 +171,8 @@
     Title: 'dbus: dbus-daemon: assertion failure when a monitor is active and a message from the driver cannot be delivered'
     Description: D-Bus before 1.15.6 sometimes allows unprivileged users to crash dbus-daemon. If a privileged user with control over the dbus-daemon is using the org.freedesktop.DBus.Monitoring interface to monitor message bus traffic, then an unprivileged user with the ability to connect to the same dbus-daemon can cause a dbus-daemon crash under some circumstances via an unreplyable message. When done on the well-known system bus, this is a denial-of-service vulnerability. The fixed versions are 1.12.28, 1.14.8, and 1.15.6.
     Severity: LOW
+    CweIDs:
+    - CWE-404
     VendorSeverity:
       alma: 2
       amazon: 2
@@ -204,7 +208,7 @@
     - https://ubuntu.com/security/notices/USN-6372-1
     - https://www.cve.org/CVERecord?id=CVE-2023-34969
     PublishedDate: '2023-06-08T03:15:08.97Z'
-    LastModifiedDate: '2024-11-21T08:07:44.607Z'
+    LastModifiedDate: '2025-06-09T15:15:29.34Z'
   - VulnerabilityID: CVE-2022-3219
     PkgID: dirmngr@2.2.27-3ubuntu2.3
     PkgName: dirmngr
@@ -1219,6 +1223,8 @@
     Title: 'dbus: dbus-daemon: assertion failure when a monitor is active and a message from the driver cannot be delivered'
     Description: D-Bus before 1.15.6 sometimes allows unprivileged users to crash dbus-daemon. If a privileged user with control over the dbus-daemon is using the org.freedesktop.DBus.Monitoring interface to monitor message bus traffic, then an unprivileged user with the ability to connect to the same dbus-daemon can cause a dbus-daemon crash under some circumstances via an unreplyable message. When done on the well-known system bus, this is a denial-of-service vulnerability. The fixed versions are 1.12.28, 1.14.8, and 1.15.6.
     Severity: LOW
+    CweIDs:
+    - CWE-404
     VendorSeverity:
       alma: 2
       amazon: 2
@@ -1254,7 +1260,7 @@
     - https://ubuntu.com/security/notices/USN-6372-1
     - https://www.cve.org/CVERecord?id=CVE-2023-34969
     PublishedDate: '2023-06-08T03:15:08.97Z'
-    LastModifiedDate: '2024-11-21T08:07:44.607Z'
+    LastModifiedDate: '2025-06-09T15:15:29.34Z'
   - VulnerabilityID: CVE-2025-1352
     PkgID: libelf1@0.186-1ubuntu0.1
     PkgName: libelf1
@@ -1707,7 +1713,8 @@
       PURL: pkg:deb/ubuntu/libnss-systemd@249.11-0ubuntu3.15?arch=amd64&distro=ubuntu-22.04
       UID: 2cc79e1e1c187ac3
     InstalledVersion: 249.11-0ubuntu3.15
-    Status: affected
+    FixedVersion: 249.11-0ubuntu3.16
+    Status: fixed
     Layer:
       Digest: sha256:e07182c3fe91153a4fbea2ffff699d6880ac5cfe54ee658c4bc3c1c554be2d94
       DiffID: sha256:df3bf1c18c468711fcf67f1a16aa7fd2d941f9a8de04dc59710b5d284fcb21c0
@@ -1750,6 +1757,7 @@
     - https://linux.oracle.com/cve/CVE-2025-4598.html
     - https://linux.oracle.com/errata/ELSA-2025-20344.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-4598
+    - https://ubuntu.com/security/notices/USN-7559-1
     - https://www.cve.org/CVERecord?id=CVE-2025-4598
     - https://www.openwall.com/lists/oss-security/2025/05/29/3
     - https://www.qualys.com/2025/05/29/apport-coredump/apport-coredump.txt
@@ -1976,7 +1984,8 @@
       PURL: pkg:deb/ubuntu/libpam-systemd@249.11-0ubuntu3.15?arch=amd64&distro=ubuntu-22.04
       UID: 75bc96cb3400968d
     InstalledVersion: 249.11-0ubuntu3.15
-    Status: affected
+    FixedVersion: 249.11-0ubuntu3.16
+    Status: fixed
     Layer:
       Digest: sha256:e07182c3fe91153a4fbea2ffff699d6880ac5cfe54ee658c4bc3c1c554be2d94
       DiffID: sha256:df3bf1c18c468711fcf67f1a16aa7fd2d941f9a8de04dc59710b5d284fcb21c0
@@ -2019,6 +2028,7 @@
     - https://linux.oracle.com/cve/CVE-2025-4598.html
     - https://linux.oracle.com/errata/ELSA-2025-20344.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-4598
+    - https://ubuntu.com/security/notices/USN-7559-1
     - https://www.cve.org/CVERecord?id=CVE-2025-4598
     - https://www.openwall.com/lists/oss-security/2025/05/29/3
     - https://www.qualys.com/2025/05/29/apport-coredump/apport-coredump.txt
@@ -2385,7 +2395,8 @@
       PURL: pkg:deb/ubuntu/libsystemd0@249.11-0ubuntu3.15?arch=amd64&distro=ubuntu-22.04
       UID: 17fd668920f63114
     InstalledVersion: 249.11-0ubuntu3.15
-    Status: affected
+    FixedVersion: 249.11-0ubuntu3.16
+    Status: fixed
     Layer:
       Digest: sha256:e07182c3fe91153a4fbea2ffff699d6880ac5cfe54ee658c4bc3c1c554be2d94
       DiffID: sha256:df3bf1c18c468711fcf67f1a16aa7fd2d941f9a8de04dc59710b5d284fcb21c0
@@ -2428,6 +2439,7 @@
     - https://linux.oracle.com/cve/CVE-2025-4598.html
     - https://linux.oracle.com/errata/ELSA-2025-20344.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-4598
+    - https://ubuntu.com/security/notices/USN-7559-1
     - https://www.cve.org/CVERecord?id=CVE-2025-4598
     - https://www.openwall.com/lists/oss-security/2025/05/29/3
     - https://www.qualys.com/2025/05/29/apport-coredump/apport-coredump.txt
@@ -2578,7 +2590,8 @@
       PURL: pkg:deb/ubuntu/libudev1@249.11-0ubuntu3.15?arch=amd64&distro=ubuntu-22.04
       UID: 8650894a2447b423
     InstalledVersion: 249.11-0ubuntu3.15
-    Status: affected
+    FixedVersion: 249.11-0ubuntu3.16
+    Status: fixed
     Layer:
       Digest: sha256:e07182c3fe91153a4fbea2ffff699d6880ac5cfe54ee658c4bc3c1c554be2d94
       DiffID: sha256:df3bf1c18c468711fcf67f1a16aa7fd2d941f9a8de04dc59710b5d284fcb21c0
@@ -2621,6 +2634,7 @@
     - https://linux.oracle.com/cve/CVE-2025-4598.html
     - https://linux.oracle.com/errata/ELSA-2025-20344.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-4598
+    - https://ubuntu.com/security/notices/USN-7559-1
     - https://www.cve.org/CVERecord?id=CVE-2025-4598
     - https://www.openwall.com/lists/oss-security/2025/05/29/3
     - https://www.qualys.com/2025/05/29/apport-coredump/apport-coredump.txt
@@ -3283,7 +3297,8 @@
       PURL: pkg:deb/ubuntu/systemd@249.11-0ubuntu3.15?arch=amd64&distro=ubuntu-22.04
       UID: c5237d1daefaec4d
     InstalledVersion: 249.11-0ubuntu3.15
-    Status: affected
+    FixedVersion: 249.11-0ubuntu3.16
+    Status: fixed
     Layer:
       Digest: sha256:e07182c3fe91153a4fbea2ffff699d6880ac5cfe54ee658c4bc3c1c554be2d94
       DiffID: sha256:df3bf1c18c468711fcf67f1a16aa7fd2d941f9a8de04dc59710b5d284fcb21c0
@@ -3326,6 +3341,7 @@
     - https://linux.oracle.com/cve/CVE-2025-4598.html
     - https://linux.oracle.com/errata/ELSA-2025-20344.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-4598
+    - https://ubuntu.com/security/notices/USN-7559-1
     - https://www.cve.org/CVERecord?id=CVE-2025-4598
     - https://www.openwall.com/lists/oss-security/2025/05/29/3
     - https://www.qualys.com/2025/05/29/apport-coredump/apport-coredump.txt
@@ -3396,7 +3412,8 @@
       PURL: pkg:deb/ubuntu/systemd-sysv@249.11-0ubuntu3.15?arch=amd64&distro=ubuntu-22.04
       UID: ce10a8adad5cfe0e
     InstalledVersion: 249.11-0ubuntu3.15
-    Status: affected
+    FixedVersion: 249.11-0ubuntu3.16
+    Status: fixed
     Layer:
       Digest: sha256:e07182c3fe91153a4fbea2ffff699d6880ac5cfe54ee658c4bc3c1c554be2d94
       DiffID: sha256:df3bf1c18c468711fcf67f1a16aa7fd2d941f9a8de04dc59710b5d284fcb21c0
@@ -3439,6 +3456,7 @@
     - https://linux.oracle.com/cve/CVE-2025-4598.html
     - https://linux.oracle.com/errata/ELSA-2025-20344.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-4598
+    - https://ubuntu.com/security/notices/USN-7559-1
     - https://www.cve.org/CVERecord?id=CVE-2025-4598
     - https://www.openwall.com/lists/oss-security/2025/05/29/3
     - https://www.qualys.com/2025/05/29/apport-coredump/apport-coredump.txt
@@ -3509,7 +3527,8 @@
       PURL: pkg:deb/ubuntu/systemd-timesyncd@249.11-0ubuntu3.15?arch=amd64&distro=ubuntu-22.04
       UID: c3554866865de672
     InstalledVersion: 249.11-0ubuntu3.15
-    Status: affected
+    FixedVersion: 249.11-0ubuntu3.16
+    Status: fixed
     Layer:
       Digest: sha256:e07182c3fe91153a4fbea2ffff699d6880ac5cfe54ee658c4bc3c1c554be2d94
       DiffID: sha256:df3bf1c18c468711fcf67f1a16aa7fd2d941f9a8de04dc59710b5d284fcb21c0
@@ -3552,6 +3571,7 @@
     - https://linux.oracle.com/cve/CVE-2025-4598.html
     - https://linux.oracle.com/errata/ELSA-2025-20344.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-4598
+    - https://ubuntu.com/security/notices/USN-7559-1
     - https://www.cve.org/CVERecord?id=CVE-2025-4598
     - https://www.openwall.com/lists/oss-security/2025/05/29/3
     - https://www.qualys.com/2025/05/29/apport-coredump/apport-coredump.txt
