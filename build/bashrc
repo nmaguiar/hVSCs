@@ -6,9 +6,9 @@ if ! shopt -oq posix; then
   fi
 fi
 
-source ~/.openaf_completion_zsh.sh > /dev/null 2>&1
-if [ ! -e ~/.openaf_completion_zsh.sh ] || [ $(find ~/.openaf_completion_zsh.sh -mtime +1) ]; then
-  /opt/oaf/oaf --zshcompletion all > ~/.openaf_completion_zsh.sh &!
+source ~/.openaf_completion_bash.sh > /dev/null 2>&1
+if [ ! -e ~/.openaf_completion_bash.sh ] || [ $(find ~/.openaf_completion_bash.sh -mtime +1) ]; then
+  /opt/oaf/oaf --bashcompletion all > ~/.openaf_completion_bash.sh &!
 fi
 source <(helm completion bash)
 source <(kubectl completion bash)
