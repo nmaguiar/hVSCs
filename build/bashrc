@@ -8,7 +8,7 @@ fi
 
 source ~/.openaf_completion_zsh.sh > /dev/null 2>&1
 if [ ! -e ~/.openaf_completion_zsh.sh ] || [ $(find ~/.openaf_completion_zsh.sh -mtime +1) ]; then
-  /Applications/OpenAF/oaf --zshcompletion all > ~/.openaf_completion_zsh.sh &!
+  /opt/oaf/oaf --zshcompletion all > ~/.openaf_completion_zsh.sh &!
 fi
 source <(helm completion bash)
 source <(kubectl completion bash)
