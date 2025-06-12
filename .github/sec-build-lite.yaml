@@ -11,8 +11,8 @@
     InstalledVersion: 9.4-3ubuntu6
     Status: affected
     Layer:
-      Digest: sha256:7dac0927dd624166d77b5dd5a855f93dc4b08fa00ac23545fb70b3e953eb0e37
-      DiffID: sha256:4b6e98b1498c87d4c2753254f9b7ad847eb459fb5ddb9952a1714fe0a5c1bcb7
+      Digest: sha256:f1dc3adc36d722024fc25bc03cc1902deca63ec04dd00cefa58edde60c7c339e
+      DiffID: sha256:827414596a49978e51180ab203727f937ec018aef0e17d2ab0d41b0bd1820b39
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2016-2781
     DataSource:
@@ -62,8 +62,8 @@
     InstalledVersion: 8.5.0-2ubuntu10.6
     Status: affected
     Layer:
-      Digest: sha256:7dac0927dd624166d77b5dd5a855f93dc4b08fa00ac23545fb70b3e953eb0e37
-      DiffID: sha256:4b6e98b1498c87d4c2753254f9b7ad847eb459fb5ddb9952a1714fe0a5c1bcb7
+      Digest: sha256:f1dc3adc36d722024fc25bc03cc1902deca63ec04dd00cefa58edde60c7c339e
+      DiffID: sha256:827414596a49978e51180ab203727f937ec018aef0e17d2ab0d41b0bd1820b39
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-0167
     DataSource:
@@ -102,8 +102,8 @@
     InstalledVersion: 2.4.4-2ubuntu17.2
     Status: affected
     Layer:
-      Digest: sha256:7dac0927dd624166d77b5dd5a855f93dc4b08fa00ac23545fb70b3e953eb0e37
-      DiffID: sha256:4b6e98b1498c87d4c2753254f9b7ad847eb459fb5ddb9952a1714fe0a5c1bcb7
+      Digest: sha256:f1dc3adc36d722024fc25bc03cc1902deca63ec04dd00cefa58edde60c7c339e
+      DiffID: sha256:827414596a49978e51180ab203727f937ec018aef0e17d2ab0d41b0bd1820b39
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-3219
     DataSource:
@@ -146,8 +146,8 @@
     InstalledVersion: 1:2.43.0-1ubuntu7.2
     Status: affected
     Layer:
-      Digest: sha256:7dac0927dd624166d77b5dd5a855f93dc4b08fa00ac23545fb70b3e953eb0e37
-      DiffID: sha256:4b6e98b1498c87d4c2753254f9b7ad847eb459fb5ddb9952a1714fe0a5c1bcb7
+      Digest: sha256:f1dc3adc36d722024fc25bc03cc1902deca63ec04dd00cefa58edde60c7c339e
+      DiffID: sha256:827414596a49978e51180ab203727f937ec018aef0e17d2ab0d41b0bd1820b39
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-52005
     DataSource:
@@ -162,6 +162,7 @@
     - CWE-150
     VendorSeverity:
       alma: 2
+      amazon: 2
       bitnami: 3
       oracle-oval: 2
       redhat: 2
@@ -193,8 +194,8 @@
     InstalledVersion: 1:2.43.0-1ubuntu7.2
     Status: affected
     Layer:
-      Digest: sha256:7dac0927dd624166d77b5dd5a855f93dc4b08fa00ac23545fb70b3e953eb0e37
-      DiffID: sha256:4b6e98b1498c87d4c2753254f9b7ad847eb459fb5ddb9952a1714fe0a5c1bcb7
+      Digest: sha256:f1dc3adc36d722024fc25bc03cc1902deca63ec04dd00cefa58edde60c7c339e
+      DiffID: sha256:827414596a49978e51180ab203727f937ec018aef0e17d2ab0d41b0bd1820b39
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-52005
     DataSource:
@@ -209,6 +210,7 @@
     - CWE-150
     VendorSeverity:
       alma: 2
+      amazon: 2
       bitnami: 3
       oracle-oval: 2
       redhat: 2
@@ -240,8 +242,8 @@
     InstalledVersion: 2.4.4-2ubuntu17.2
     Status: affected
     Layer:
-      Digest: sha256:7dac0927dd624166d77b5dd5a855f93dc4b08fa00ac23545fb70b3e953eb0e37
-      DiffID: sha256:4b6e98b1498c87d4c2753254f9b7ad847eb459fb5ddb9952a1714fe0a5c1bcb7
+      Digest: sha256:f1dc3adc36d722024fc25bc03cc1902deca63ec04dd00cefa58edde60c7c339e
+      DiffID: sha256:827414596a49978e51180ab203727f937ec018aef0e17d2ab0d41b0bd1820b39
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-3219
     DataSource:
@@ -284,8 +286,8 @@
     InstalledVersion: 2.4.4-2ubuntu17.2
     Status: affected
     Layer:
-      Digest: sha256:7dac0927dd624166d77b5dd5a855f93dc4b08fa00ac23545fb70b3e953eb0e37
-      DiffID: sha256:4b6e98b1498c87d4c2753254f9b7ad847eb459fb5ddb9952a1714fe0a5c1bcb7
+      Digest: sha256:f1dc3adc36d722024fc25bc03cc1902deca63ec04dd00cefa58edde60c7c339e
+      DiffID: sha256:827414596a49978e51180ab203727f937ec018aef0e17d2ab0d41b0bd1820b39
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-3219
     DataSource:
@@ -328,8 +330,8 @@
     InstalledVersion: 2.4.4-2ubuntu17.2
     Status: affected
     Layer:
-      Digest: sha256:7dac0927dd624166d77b5dd5a855f93dc4b08fa00ac23545fb70b3e953eb0e37
-      DiffID: sha256:4b6e98b1498c87d4c2753254f9b7ad847eb459fb5ddb9952a1714fe0a5c1bcb7
+      Digest: sha256:f1dc3adc36d722024fc25bc03cc1902deca63ec04dd00cefa58edde60c7c339e
+      DiffID: sha256:827414596a49978e51180ab203727f937ec018aef0e17d2ab0d41b0bd1820b39
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-3219
     DataSource:
@@ -372,8 +374,8 @@
     InstalledVersion: 2.4.4-2ubuntu17.2
     Status: affected
     Layer:
-      Digest: sha256:7dac0927dd624166d77b5dd5a855f93dc4b08fa00ac23545fb70b3e953eb0e37
-      DiffID: sha256:4b6e98b1498c87d4c2753254f9b7ad847eb459fb5ddb9952a1714fe0a5c1bcb7
+      Digest: sha256:f1dc3adc36d722024fc25bc03cc1902deca63ec04dd00cefa58edde60c7c339e
+      DiffID: sha256:827414596a49978e51180ab203727f937ec018aef0e17d2ab0d41b0bd1820b39
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-3219
     DataSource:
@@ -416,8 +418,8 @@
     InstalledVersion: 2.4.4-2ubuntu17.2
     Status: affected
     Layer:
-      Digest: sha256:7dac0927dd624166d77b5dd5a855f93dc4b08fa00ac23545fb70b3e953eb0e37
-      DiffID: sha256:4b6e98b1498c87d4c2753254f9b7ad847eb459fb5ddb9952a1714fe0a5c1bcb7
+      Digest: sha256:f1dc3adc36d722024fc25bc03cc1902deca63ec04dd00cefa58edde60c7c339e
+      DiffID: sha256:827414596a49978e51180ab203727f937ec018aef0e17d2ab0d41b0bd1820b39
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-3219
     DataSource:
@@ -460,8 +462,8 @@
     InstalledVersion: 2.4.4-2ubuntu17.2
     Status: affected
     Layer:
-      Digest: sha256:7dac0927dd624166d77b5dd5a855f93dc4b08fa00ac23545fb70b3e953eb0e37
-      DiffID: sha256:4b6e98b1498c87d4c2753254f9b7ad847eb459fb5ddb9952a1714fe0a5c1bcb7
+      Digest: sha256:f1dc3adc36d722024fc25bc03cc1902deca63ec04dd00cefa58edde60c7c339e
+      DiffID: sha256:827414596a49978e51180ab203727f937ec018aef0e17d2ab0d41b0bd1820b39
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-3219
     DataSource:
@@ -504,8 +506,8 @@
     InstalledVersion: 2.4.4-2ubuntu17.2
     Status: affected
     Layer:
-      Digest: sha256:7dac0927dd624166d77b5dd5a855f93dc4b08fa00ac23545fb70b3e953eb0e37
-      DiffID: sha256:4b6e98b1498c87d4c2753254f9b7ad847eb459fb5ddb9952a1714fe0a5c1bcb7
+      Digest: sha256:f1dc3adc36d722024fc25bc03cc1902deca63ec04dd00cefa58edde60c7c339e
+      DiffID: sha256:827414596a49978e51180ab203727f937ec018aef0e17d2ab0d41b0bd1820b39
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-3219
     DataSource:
@@ -548,8 +550,8 @@
     InstalledVersion: 2.4.4-2ubuntu17.2
     Status: affected
     Layer:
-      Digest: sha256:7dac0927dd624166d77b5dd5a855f93dc4b08fa00ac23545fb70b3e953eb0e37
-      DiffID: sha256:4b6e98b1498c87d4c2753254f9b7ad847eb459fb5ddb9952a1714fe0a5c1bcb7
+      Digest: sha256:f1dc3adc36d722024fc25bc03cc1902deca63ec04dd00cefa58edde60c7c339e
+      DiffID: sha256:827414596a49978e51180ab203727f937ec018aef0e17d2ab0d41b0bd1820b39
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-3219
     DataSource:
@@ -592,8 +594,8 @@
     InstalledVersion: 2.4.4-2ubuntu17.2
     Status: affected
     Layer:
-      Digest: sha256:7dac0927dd624166d77b5dd5a855f93dc4b08fa00ac23545fb70b3e953eb0e37
-      DiffID: sha256:4b6e98b1498c87d4c2753254f9b7ad847eb459fb5ddb9952a1714fe0a5c1bcb7
+      Digest: sha256:f1dc3adc36d722024fc25bc03cc1902deca63ec04dd00cefa58edde60c7c339e
+      DiffID: sha256:827414596a49978e51180ab203727f937ec018aef0e17d2ab0d41b0bd1820b39
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-3219
     DataSource:
@@ -636,8 +638,8 @@
     InstalledVersion: 2.4.4-2ubuntu17.2
     Status: affected
     Layer:
-      Digest: sha256:7dac0927dd624166d77b5dd5a855f93dc4b08fa00ac23545fb70b3e953eb0e37
-      DiffID: sha256:4b6e98b1498c87d4c2753254f9b7ad847eb459fb5ddb9952a1714fe0a5c1bcb7
+      Digest: sha256:f1dc3adc36d722024fc25bc03cc1902deca63ec04dd00cefa58edde60c7c339e
+      DiffID: sha256:827414596a49978e51180ab203727f937ec018aef0e17d2ab0d41b0bd1820b39
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-3219
     DataSource:
@@ -680,8 +682,8 @@
     InstalledVersion: 1:1.3.0-2build2
     Status: affected
     Layer:
-      Digest: sha256:7dac0927dd624166d77b5dd5a855f93dc4b08fa00ac23545fb70b3e953eb0e37
-      DiffID: sha256:4b6e98b1498c87d4c2753254f9b7ad847eb459fb5ddb9952a1714fe0a5c1bcb7
+      Digest: sha256:f1dc3adc36d722024fc25bc03cc1902deca63ec04dd00cefa58edde60c7c339e
+      DiffID: sha256:827414596a49978e51180ab203727f937ec018aef0e17d2ab0d41b0bd1820b39
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-29481
     DataSource:
@@ -722,8 +724,8 @@
     InstalledVersion: 2.39-0ubuntu8.4
     Status: affected
     Layer:
-      Digest: sha256:7dac0927dd624166d77b5dd5a855f93dc4b08fa00ac23545fb70b3e953eb0e37
-      DiffID: sha256:4b6e98b1498c87d4c2753254f9b7ad847eb459fb5ddb9952a1714fe0a5c1bcb7
+      Digest: sha256:f1dc3adc36d722024fc25bc03cc1902deca63ec04dd00cefa58edde60c7c339e
+      DiffID: sha256:827414596a49978e51180ab203727f937ec018aef0e17d2ab0d41b0bd1820b39
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2016-20013
     DataSource:
@@ -759,8 +761,8 @@
     InstalledVersion: 2.39-0ubuntu8.4
     Status: affected
     Layer:
-      Digest: sha256:7dac0927dd624166d77b5dd5a855f93dc4b08fa00ac23545fb70b3e953eb0e37
-      DiffID: sha256:4b6e98b1498c87d4c2753254f9b7ad847eb459fb5ddb9952a1714fe0a5c1bcb7
+      Digest: sha256:f1dc3adc36d722024fc25bc03cc1902deca63ec04dd00cefa58edde60c7c339e
+      DiffID: sha256:827414596a49978e51180ab203727f937ec018aef0e17d2ab0d41b0bd1820b39
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2016-20013
     DataSource:
@@ -796,8 +798,8 @@
     InstalledVersion: 8.5.0-2ubuntu10.6
     Status: affected
     Layer:
-      Digest: sha256:7dac0927dd624166d77b5dd5a855f93dc4b08fa00ac23545fb70b3e953eb0e37
-      DiffID: sha256:4b6e98b1498c87d4c2753254f9b7ad847eb459fb5ddb9952a1714fe0a5c1bcb7
+      Digest: sha256:f1dc3adc36d722024fc25bc03cc1902deca63ec04dd00cefa58edde60c7c339e
+      DiffID: sha256:827414596a49978e51180ab203727f937ec018aef0e17d2ab0d41b0bd1820b39
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-0167
     DataSource:
@@ -836,8 +838,8 @@
     InstalledVersion: 8.5.0-2ubuntu10.6
     Status: affected
     Layer:
-      Digest: sha256:7dac0927dd624166d77b5dd5a855f93dc4b08fa00ac23545fb70b3e953eb0e37
-      DiffID: sha256:4b6e98b1498c87d4c2753254f9b7ad847eb459fb5ddb9952a1714fe0a5c1bcb7
+      Digest: sha256:f1dc3adc36d722024fc25bc03cc1902deca63ec04dd00cefa58edde60c7c339e
+      DiffID: sha256:827414596a49978e51180ab203727f937ec018aef0e17d2ab0d41b0bd1820b39
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-0167
     DataSource:
@@ -876,8 +878,8 @@
     InstalledVersion: 0.190-1.1ubuntu0.1
     Status: affected
     Layer:
-      Digest: sha256:7dac0927dd624166d77b5dd5a855f93dc4b08fa00ac23545fb70b3e953eb0e37
-      DiffID: sha256:4b6e98b1498c87d4c2753254f9b7ad847eb459fb5ddb9952a1714fe0a5c1bcb7
+      Digest: sha256:f1dc3adc36d722024fc25bc03cc1902deca63ec04dd00cefa58edde60c7c339e
+      DiffID: sha256:827414596a49978e51180ab203727f937ec018aef0e17d2ab0d41b0bd1820b39
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-1352
     DataSource:
@@ -920,8 +922,8 @@
     InstalledVersion: 0.190-1.1ubuntu0.1
     Status: affected
     Layer:
-      Digest: sha256:7dac0927dd624166d77b5dd5a855f93dc4b08fa00ac23545fb70b3e953eb0e37
-      DiffID: sha256:4b6e98b1498c87d4c2753254f9b7ad847eb459fb5ddb9952a1714fe0a5c1bcb7
+      Digest: sha256:f1dc3adc36d722024fc25bc03cc1902deca63ec04dd00cefa58edde60c7c339e
+      DiffID: sha256:827414596a49978e51180ab203727f937ec018aef0e17d2ab0d41b0bd1820b39
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-1376
     DataSource:
@@ -964,8 +966,8 @@
     InstalledVersion: 1.10.3-2build1
     Status: affected
     Layer:
-      Digest: sha256:7dac0927dd624166d77b5dd5a855f93dc4b08fa00ac23545fb70b3e953eb0e37
-      DiffID: sha256:4b6e98b1498c87d4c2753254f9b7ad847eb459fb5ddb9952a1714fe0a5c1bcb7
+      Digest: sha256:f1dc3adc36d722024fc25bc03cc1902deca63ec04dd00cefa58edde60c7c339e
+      DiffID: sha256:827414596a49978e51180ab203727f937ec018aef0e17d2ab0d41b0bd1820b39
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-2236
     DataSource:
@@ -1015,8 +1017,8 @@
     InstalledVersion: 74.2-1ubuntu3.1
     Status: affected
     Layer:
-      Digest: sha256:7dac0927dd624166d77b5dd5a855f93dc4b08fa00ac23545fb70b3e953eb0e37
-      DiffID: sha256:4b6e98b1498c87d4c2753254f9b7ad847eb459fb5ddb9952a1714fe0a5c1bcb7
+      Digest: sha256:f1dc3adc36d722024fc25bc03cc1902deca63ec04dd00cefa58edde60c7c339e
+      DiffID: sha256:827414596a49978e51180ab203727f937ec018aef0e17d2ab0d41b0bd1820b39
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-5222
     DataSource:
@@ -1051,8 +1053,8 @@
     InstalledVersion: 1.5.3-5ubuntu5.1
     Status: affected
     Layer:
-      Digest: sha256:7dac0927dd624166d77b5dd5a855f93dc4b08fa00ac23545fb70b3e953eb0e37
-      DiffID: sha256:4b6e98b1498c87d4c2753254f9b7ad847eb459fb5ddb9952a1714fe0a5c1bcb7
+      Digest: sha256:f1dc3adc36d722024fc25bc03cc1902deca63ec04dd00cefa58edde60c7c339e
+      DiffID: sha256:827414596a49978e51180ab203727f937ec018aef0e17d2ab0d41b0bd1820b39
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-10041
     DataSource:
@@ -1103,8 +1105,8 @@
     InstalledVersion: 1.5.3-5ubuntu5.1
     Status: affected
     Layer:
-      Digest: sha256:7dac0927dd624166d77b5dd5a855f93dc4b08fa00ac23545fb70b3e953eb0e37
-      DiffID: sha256:4b6e98b1498c87d4c2753254f9b7ad847eb459fb5ddb9952a1714fe0a5c1bcb7
+      Digest: sha256:f1dc3adc36d722024fc25bc03cc1902deca63ec04dd00cefa58edde60c7c339e
+      DiffID: sha256:827414596a49978e51180ab203727f937ec018aef0e17d2ab0d41b0bd1820b39
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-10963
     DataSource:
@@ -1157,8 +1159,8 @@
     InstalledVersion: 1.5.3-5ubuntu5.1
     Status: affected
     Layer:
-      Digest: sha256:7dac0927dd624166d77b5dd5a855f93dc4b08fa00ac23545fb70b3e953eb0e37
-      DiffID: sha256:4b6e98b1498c87d4c2753254f9b7ad847eb459fb5ddb9952a1714fe0a5c1bcb7
+      Digest: sha256:f1dc3adc36d722024fc25bc03cc1902deca63ec04dd00cefa58edde60c7c339e
+      DiffID: sha256:827414596a49978e51180ab203727f937ec018aef0e17d2ab0d41b0bd1820b39
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-10041
     DataSource:
@@ -1209,8 +1211,8 @@
     InstalledVersion: 1.5.3-5ubuntu5.1
     Status: affected
     Layer:
-      Digest: sha256:7dac0927dd624166d77b5dd5a855f93dc4b08fa00ac23545fb70b3e953eb0e37
-      DiffID: sha256:4b6e98b1498c87d4c2753254f9b7ad847eb459fb5ddb9952a1714fe0a5c1bcb7
+      Digest: sha256:f1dc3adc36d722024fc25bc03cc1902deca63ec04dd00cefa58edde60c7c339e
+      DiffID: sha256:827414596a49978e51180ab203727f937ec018aef0e17d2ab0d41b0bd1820b39
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-10963
     DataSource:
@@ -1263,8 +1265,8 @@
     InstalledVersion: 1.5.3-5ubuntu5.1
     Status: affected
     Layer:
-      Digest: sha256:7dac0927dd624166d77b5dd5a855f93dc4b08fa00ac23545fb70b3e953eb0e37
-      DiffID: sha256:4b6e98b1498c87d4c2753254f9b7ad847eb459fb5ddb9952a1714fe0a5c1bcb7
+      Digest: sha256:f1dc3adc36d722024fc25bc03cc1902deca63ec04dd00cefa58edde60c7c339e
+      DiffID: sha256:827414596a49978e51180ab203727f937ec018aef0e17d2ab0d41b0bd1820b39
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-10041
     DataSource:
@@ -1315,8 +1317,8 @@
     InstalledVersion: 1.5.3-5ubuntu5.1
     Status: affected
     Layer:
-      Digest: sha256:7dac0927dd624166d77b5dd5a855f93dc4b08fa00ac23545fb70b3e953eb0e37
-      DiffID: sha256:4b6e98b1498c87d4c2753254f9b7ad847eb459fb5ddb9952a1714fe0a5c1bcb7
+      Digest: sha256:f1dc3adc36d722024fc25bc03cc1902deca63ec04dd00cefa58edde60c7c339e
+      DiffID: sha256:827414596a49978e51180ab203727f937ec018aef0e17d2ab0d41b0bd1820b39
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-10963
     DataSource:
@@ -1369,8 +1371,8 @@
     InstalledVersion: 1.5.3-5ubuntu5.1
     Status: affected
     Layer:
-      Digest: sha256:7dac0927dd624166d77b5dd5a855f93dc4b08fa00ac23545fb70b3e953eb0e37
-      DiffID: sha256:4b6e98b1498c87d4c2753254f9b7ad847eb459fb5ddb9952a1714fe0a5c1bcb7
+      Digest: sha256:f1dc3adc36d722024fc25bc03cc1902deca63ec04dd00cefa58edde60c7c339e
+      DiffID: sha256:827414596a49978e51180ab203727f937ec018aef0e17d2ab0d41b0bd1820b39
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-10041
     DataSource:
@@ -1421,8 +1423,8 @@
     InstalledVersion: 1.5.3-5ubuntu5.1
     Status: affected
     Layer:
-      Digest: sha256:7dac0927dd624166d77b5dd5a855f93dc4b08fa00ac23545fb70b3e953eb0e37
-      DiffID: sha256:4b6e98b1498c87d4c2753254f9b7ad847eb459fb5ddb9952a1714fe0a5c1bcb7
+      Digest: sha256:f1dc3adc36d722024fc25bc03cc1902deca63ec04dd00cefa58edde60c7c339e
+      DiffID: sha256:827414596a49978e51180ab203727f937ec018aef0e17d2ab0d41b0bd1820b39
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-10963
     DataSource:
@@ -1475,8 +1477,8 @@
     InstalledVersion: 3.0.13-0ubuntu3.5
     Status: affected
     Layer:
-      Digest: sha256:7dac0927dd624166d77b5dd5a855f93dc4b08fa00ac23545fb70b3e953eb0e37
-      DiffID: sha256:4b6e98b1498c87d4c2753254f9b7ad847eb459fb5ddb9952a1714fe0a5c1bcb7
+      Digest: sha256:f1dc3adc36d722024fc25bc03cc1902deca63ec04dd00cefa58edde60c7c339e
+      DiffID: sha256:827414596a49978e51180ab203727f937ec018aef0e17d2ab0d41b0bd1820b39
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-41996
     DataSource:
@@ -1517,8 +1519,8 @@
     InstalledVersion: 1:4.13+dfsg1-4ubuntu3.2
     Status: affected
     Layer:
-      Digest: sha256:7dac0927dd624166d77b5dd5a855f93dc4b08fa00ac23545fb70b3e953eb0e37
-      DiffID: sha256:4b6e98b1498c87d4c2753254f9b7ad847eb459fb5ddb9952a1714fe0a5c1bcb7
+      Digest: sha256:f1dc3adc36d722024fc25bc03cc1902deca63ec04dd00cefa58edde60c7c339e
+      DiffID: sha256:827414596a49978e51180ab203727f937ec018aef0e17d2ab0d41b0bd1820b39
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-56433
     DataSource:
@@ -1556,8 +1558,8 @@
     InstalledVersion: 1:4.13+dfsg1-4ubuntu3.2
     Status: affected
     Layer:
-      Digest: sha256:7dac0927dd624166d77b5dd5a855f93dc4b08fa00ac23545fb70b3e953eb0e37
-      DiffID: sha256:4b6e98b1498c87d4c2753254f9b7ad847eb459fb5ddb9952a1714fe0a5c1bcb7
+      Digest: sha256:f1dc3adc36d722024fc25bc03cc1902deca63ec04dd00cefa58edde60c7c339e
+      DiffID: sha256:827414596a49978e51180ab203727f937ec018aef0e17d2ab0d41b0bd1820b39
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-56433
     DataSource:
@@ -1595,8 +1597,8 @@
     InstalledVersion: 3.0.13-0ubuntu3.5
     Status: affected
     Layer:
-      Digest: sha256:7dac0927dd624166d77b5dd5a855f93dc4b08fa00ac23545fb70b3e953eb0e37
-      DiffID: sha256:4b6e98b1498c87d4c2753254f9b7ad847eb459fb5ddb9952a1714fe0a5c1bcb7
+      Digest: sha256:f1dc3adc36d722024fc25bc03cc1902deca63ec04dd00cefa58edde60c7c339e
+      DiffID: sha256:827414596a49978e51180ab203727f937ec018aef0e17d2ab0d41b0bd1820b39
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-41996
     DataSource:
@@ -1637,8 +1639,8 @@
     InstalledVersion: 1:4.13+dfsg1-4ubuntu3.2
     Status: affected
     Layer:
-      Digest: sha256:7dac0927dd624166d77b5dd5a855f93dc4b08fa00ac23545fb70b3e953eb0e37
-      DiffID: sha256:4b6e98b1498c87d4c2753254f9b7ad847eb459fb5ddb9952a1714fe0a5c1bcb7
+      Digest: sha256:f1dc3adc36d722024fc25bc03cc1902deca63ec04dd00cefa58edde60c7c339e
+      DiffID: sha256:827414596a49978e51180ab203727f937ec018aef0e17d2ab0d41b0bd1820b39
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-56433
     DataSource:
@@ -1676,8 +1678,8 @@
     InstalledVersion: 2.7.6-7build3
     Status: affected
     Layer:
-      Digest: sha256:7dac0927dd624166d77b5dd5a855f93dc4b08fa00ac23545fb70b3e953eb0e37
-      DiffID: sha256:4b6e98b1498c87d4c2753254f9b7ad847eb459fb5ddb9952a1714fe0a5c1bcb7
+      Digest: sha256:f1dc3adc36d722024fc25bc03cc1902deca63ec04dd00cefa58edde60c7c339e
+      DiffID: sha256:827414596a49978e51180ab203727f937ec018aef0e17d2ab0d41b0bd1820b39
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2018-6952
     DataSource:
@@ -1728,8 +1730,8 @@
     InstalledVersion: 2.7.6-7build3
     Status: affected
     Layer:
-      Digest: sha256:7dac0927dd624166d77b5dd5a855f93dc4b08fa00ac23545fb70b3e953eb0e37
-      DiffID: sha256:4b6e98b1498c87d4c2753254f9b7ad847eb459fb5ddb9952a1714fe0a5c1bcb7
+      Digest: sha256:f1dc3adc36d722024fc25bc03cc1902deca63ec04dd00cefa58edde60c7c339e
+      DiffID: sha256:827414596a49978e51180ab203727f937ec018aef0e17d2ab0d41b0bd1820b39
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2021-45261
     DataSource:
@@ -1770,8 +1772,8 @@
     InstalledVersion: 1:4.13+dfsg1-4ubuntu3.2
     Status: affected
     Layer:
-      Digest: sha256:7dac0927dd624166d77b5dd5a855f93dc4b08fa00ac23545fb70b3e953eb0e37
-      DiffID: sha256:4b6e98b1498c87d4c2753254f9b7ad847eb459fb5ddb9952a1714fe0a5c1bcb7
+      Digest: sha256:f1dc3adc36d722024fc25bc03cc1902deca63ec04dd00cefa58edde60c7c339e
+      DiffID: sha256:827414596a49978e51180ab203727f937ec018aef0e17d2ab0d41b0bd1820b39
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-56433
     DataSource:
@@ -1809,8 +1811,8 @@
     InstalledVersion: 1.21.4-1ubuntu4.1
     Status: affected
     Layer:
-      Digest: sha256:7dac0927dd624166d77b5dd5a855f93dc4b08fa00ac23545fb70b3e953eb0e37
-      DiffID: sha256:4b6e98b1498c87d4c2753254f9b7ad847eb459fb5ddb9952a1714fe0a5c1bcb7
+      Digest: sha256:f1dc3adc36d722024fc25bc03cc1902deca63ec04dd00cefa58edde60c7c339e
+      DiffID: sha256:827414596a49978e51180ab203727f937ec018aef0e17d2ab0d41b0bd1820b39
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2021-31879
     DataSource:
@@ -1864,8 +1866,8 @@
     FixedVersion: 0.23.0
     Status: fixed
     Layer:
-      Digest: sha256:7dac0927dd624166d77b5dd5a855f93dc4b08fa00ac23545fb70b3e953eb0e37
-      DiffID: sha256:4b6e98b1498c87d4c2753254f9b7ad847eb459fb5ddb9952a1714fe0a5c1bcb7
+      Digest: sha256:f1dc3adc36d722024fc25bc03cc1902deca63ec04dd00cefa58edde60c7c339e
+      DiffID: sha256:827414596a49978e51180ab203727f937ec018aef0e17d2ab0d41b0bd1820b39
     SeveritySource: ghsa
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-45288
     DataSource:
@@ -1947,8 +1949,8 @@
     FixedVersion: 0.36.0
     Status: fixed
     Layer:
-      Digest: sha256:7dac0927dd624166d77b5dd5a855f93dc4b08fa00ac23545fb70b3e953eb0e37
-      DiffID: sha256:4b6e98b1498c87d4c2753254f9b7ad847eb459fb5ddb9952a1714fe0a5c1bcb7
+      Digest: sha256:f1dc3adc36d722024fc25bc03cc1902deca63ec04dd00cefa58edde60c7c339e
+      DiffID: sha256:827414596a49978e51180ab203727f937ec018aef0e17d2ab0d41b0bd1820b39
     SeveritySource: ghsa
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-22870
     DataSource:
@@ -1999,8 +2001,8 @@
     FixedVersion: 0.38.0
     Status: fixed
     Layer:
-      Digest: sha256:7dac0927dd624166d77b5dd5a855f93dc4b08fa00ac23545fb70b3e953eb0e37
-      DiffID: sha256:4b6e98b1498c87d4c2753254f9b7ad847eb459fb5ddb9952a1714fe0a5c1bcb7
+      Digest: sha256:f1dc3adc36d722024fc25bc03cc1902deca63ec04dd00cefa58edde60c7c339e
+      DiffID: sha256:827414596a49978e51180ab203727f937ec018aef0e17d2ab0d41b0bd1820b39
     SeveritySource: ghsa
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-22872
     DataSource:
@@ -2043,8 +2045,8 @@
     FixedVersion: 1.23.8, 1.24.2
     Status: fixed
     Layer:
-      Digest: sha256:7dac0927dd624166d77b5dd5a855f93dc4b08fa00ac23545fb70b3e953eb0e37
-      DiffID: sha256:4b6e98b1498c87d4c2753254f9b7ad847eb459fb5ddb9952a1714fe0a5c1bcb7
+      Digest: sha256:f1dc3adc36d722024fc25bc03cc1902deca63ec04dd00cefa58edde60c7c339e
+      DiffID: sha256:827414596a49978e51180ab203727f937ec018aef0e17d2ab0d41b0bd1820b39
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-22871
     DataSource:
       ID: govulndb
@@ -2083,7 +2085,89 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-22871
     PublishedDate: '2025-04-08T20:15:20.183Z'
     LastModifiedDate: '2025-04-18T15:15:57.923Z'
-- Target: tmp/tmp.F0Pox2LQWf/krew-linux_amd64
+  - VulnerabilityID: CVE-2025-4673
+    PkgID: stdlib@v1.24.1
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@v1.24.1
+      UID: 58815a71868018bb
+    InstalledVersion: v1.24.1
+    FixedVersion: 1.23.10, 1.24.4
+    Status: fixed
+    Layer:
+      Digest: sha256:f1dc3adc36d722024fc25bc03cc1902deca63ec04dd00cefa58edde60c7c339e
+      DiffID: sha256:827414596a49978e51180ab203727f937ec018aef0e17d2ab0d41b0bd1820b39
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-4673
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: Proxy-Authorization and Proxy-Authenticate headers persisted on cross- ...
+    Description: Proxy-Authorization and Proxy-Authenticate headers persisted on cross-origin redirects potentially leaking sensitive information.
+    Severity: MEDIUM
+    VendorSeverity:
+      ubuntu: 2
+    References:
+    - https://go.dev/cl/679257
+    - https://go.dev/issue/73816
+    - https://groups.google.com/g/golang-announce/c/ufZ8WpEsA3A
+    - https://pkg.go.dev/vuln/GO-2025-3751
+    - https://www.cve.org/CVERecord?id=CVE-2025-4673
+    PublishedDate: '2025-06-11T17:15:42.993Z'
+    LastModifiedDate: '2025-06-11T17:15:42.993Z'
+  - VulnerabilityID: CVE-2025-0913
+    PkgID: stdlib@v1.24.1
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@v1.24.1
+      UID: 58815a71868018bb
+    InstalledVersion: v1.24.1
+    FixedVersion: 1.23.10, 1.24.4
+    Status: fixed
+    Layer:
+      Digest: sha256:f1dc3adc36d722024fc25bc03cc1902deca63ec04dd00cefa58edde60c7c339e
+      DiffID: sha256:827414596a49978e51180ab203727f937ec018aef0e17d2ab0d41b0bd1820b39
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-0913
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: Inconsistent handling of O_CREATE|O_EXCL on Unix and Windows in os in syscall
+    Description: os.OpenFile(path, os.O_CREATE|O_EXCL) behaved differently on Unix and Windows systems when the target path was a dangling symlink. On Unix systems, OpenFile with O_CREATE and O_EXCL flags never follows symlinks. On Windows, when the target path was a symlink to a nonexistent location, OpenFile would create a file in that location. OpenFile now always returns an error when the O_CREATE and O_EXCL flags are both set and the target path is a symlink.
+    Severity: UNKNOWN
+    References:
+    - https://go.dev/cl/672396
+    - https://go.dev/issue/73702
+    - https://groups.google.com/g/golang-announce/c/ufZ8WpEsA3A
+    - https://pkg.go.dev/vuln/GO-2025-3750
+  - VulnerabilityID: CVE-2025-22874
+    PkgID: stdlib@v1.24.1
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@v1.24.1
+      UID: 58815a71868018bb
+    InstalledVersion: v1.24.1
+    FixedVersion: 1.23.10, 1.24.4
+    Status: fixed
+    Layer:
+      Digest: sha256:f1dc3adc36d722024fc25bc03cc1902deca63ec04dd00cefa58edde60c7c339e
+      DiffID: sha256:827414596a49978e51180ab203727f937ec018aef0e17d2ab0d41b0bd1820b39
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-22874
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: Calling Verify with a VerifyOptions.KeyUsages that contains ExtKeyUsag ...
+    Description: Calling Verify with a VerifyOptions.KeyUsages that contains ExtKeyUsageAny unintentionally disabledpolicy validation. This only affected certificate chains which contain policy graphs, which are rather uncommon.
+    Severity: UNKNOWN
+    References:
+    - https://go.dev/cl/670375
+    - https://go.dev/issue/73612
+    - https://groups.google.com/g/golang-announce/c/ufZ8WpEsA3A
+    - https://pkg.go.dev/vuln/GO-2025-3749
+    PublishedDate: '2025-06-11T17:15:42.167Z'
+    LastModifiedDate: '2025-06-11T17:15:42.167Z'
+- Target: tmp/tmp.ZU0Ti2w38B/krew-linux_amd64
   Class: lang-pkgs
   Type: gobinary
   Vulnerabilities:
@@ -2092,13 +2176,13 @@
     PkgName: golang.org/x/net
     PkgIdentifier:
       PURL: pkg:golang/golang.org/x/net@v0.19.0
-      UID: 488b46f36a8d7ec4
+      UID: 51560da4e2de5717
     InstalledVersion: v0.19.0
     FixedVersion: 0.23.0
     Status: fixed
     Layer:
-      Digest: sha256:7dac0927dd624166d77b5dd5a855f93dc4b08fa00ac23545fb70b3e953eb0e37
-      DiffID: sha256:4b6e98b1498c87d4c2753254f9b7ad847eb459fb5ddb9952a1714fe0a5c1bcb7
+      Digest: sha256:f1dc3adc36d722024fc25bc03cc1902deca63ec04dd00cefa58edde60c7c339e
+      DiffID: sha256:827414596a49978e51180ab203727f937ec018aef0e17d2ab0d41b0bd1820b39
     SeveritySource: ghsa
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-45288
     DataSource:
@@ -2175,13 +2259,13 @@
     PkgName: golang.org/x/net
     PkgIdentifier:
       PURL: pkg:golang/golang.org/x/net@v0.19.0
-      UID: 488b46f36a8d7ec4
+      UID: 51560da4e2de5717
     InstalledVersion: v0.19.0
     FixedVersion: 0.36.0
     Status: fixed
     Layer:
-      Digest: sha256:7dac0927dd624166d77b5dd5a855f93dc4b08fa00ac23545fb70b3e953eb0e37
-      DiffID: sha256:4b6e98b1498c87d4c2753254f9b7ad847eb459fb5ddb9952a1714fe0a5c1bcb7
+      Digest: sha256:f1dc3adc36d722024fc25bc03cc1902deca63ec04dd00cefa58edde60c7c339e
+      DiffID: sha256:827414596a49978e51180ab203727f937ec018aef0e17d2ab0d41b0bd1820b39
     SeveritySource: ghsa
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-22870
     DataSource:
@@ -2227,13 +2311,13 @@
     PkgName: golang.org/x/net
     PkgIdentifier:
       PURL: pkg:golang/golang.org/x/net@v0.19.0
-      UID: 488b46f36a8d7ec4
+      UID: 51560da4e2de5717
     InstalledVersion: v0.19.0
     FixedVersion: 0.38.0
     Status: fixed
     Layer:
-      Digest: sha256:7dac0927dd624166d77b5dd5a855f93dc4b08fa00ac23545fb70b3e953eb0e37
-      DiffID: sha256:4b6e98b1498c87d4c2753254f9b7ad847eb459fb5ddb9952a1714fe0a5c1bcb7
+      Digest: sha256:f1dc3adc36d722024fc25bc03cc1902deca63ec04dd00cefa58edde60c7c339e
+      DiffID: sha256:827414596a49978e51180ab203727f937ec018aef0e17d2ab0d41b0bd1820b39
     SeveritySource: ghsa
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-22872
     DataSource:
@@ -2271,13 +2355,13 @@
     PkgName: stdlib
     PkgIdentifier:
       PURL: pkg:golang/stdlib@v1.24.1
-      UID: ba6d294d90e8fbe1
+      UID: 52c68874e8dec0f2
     InstalledVersion: v1.24.1
     FixedVersion: 1.23.8, 1.24.2
     Status: fixed
     Layer:
-      Digest: sha256:7dac0927dd624166d77b5dd5a855f93dc4b08fa00ac23545fb70b3e953eb0e37
-      DiffID: sha256:4b6e98b1498c87d4c2753254f9b7ad847eb459fb5ddb9952a1714fe0a5c1bcb7
+      Digest: sha256:f1dc3adc36d722024fc25bc03cc1902deca63ec04dd00cefa58edde60c7c339e
+      DiffID: sha256:827414596a49978e51180ab203727f937ec018aef0e17d2ab0d41b0bd1820b39
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-22871
     DataSource:
       ID: govulndb
@@ -2316,18 +2400,432 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-22871
     PublishedDate: '2025-04-08T20:15:20.183Z'
     LastModifiedDate: '2025-04-18T15:15:57.923Z'
+  - VulnerabilityID: CVE-2025-4673
+    PkgID: stdlib@v1.24.1
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@v1.24.1
+      UID: 52c68874e8dec0f2
+    InstalledVersion: v1.24.1
+    FixedVersion: 1.23.10, 1.24.4
+    Status: fixed
+    Layer:
+      Digest: sha256:f1dc3adc36d722024fc25bc03cc1902deca63ec04dd00cefa58edde60c7c339e
+      DiffID: sha256:827414596a49978e51180ab203727f937ec018aef0e17d2ab0d41b0bd1820b39
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-4673
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: Proxy-Authorization and Proxy-Authenticate headers persisted on cross- ...
+    Description: Proxy-Authorization and Proxy-Authenticate headers persisted on cross-origin redirects potentially leaking sensitive information.
+    Severity: MEDIUM
+    VendorSeverity:
+      ubuntu: 2
+    References:
+    - https://go.dev/cl/679257
+    - https://go.dev/issue/73816
+    - https://groups.google.com/g/golang-announce/c/ufZ8WpEsA3A
+    - https://pkg.go.dev/vuln/GO-2025-3751
+    - https://www.cve.org/CVERecord?id=CVE-2025-4673
+    PublishedDate: '2025-06-11T17:15:42.993Z'
+    LastModifiedDate: '2025-06-11T17:15:42.993Z'
+  - VulnerabilityID: CVE-2025-0913
+    PkgID: stdlib@v1.24.1
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@v1.24.1
+      UID: 52c68874e8dec0f2
+    InstalledVersion: v1.24.1
+    FixedVersion: 1.23.10, 1.24.4
+    Status: fixed
+    Layer:
+      Digest: sha256:f1dc3adc36d722024fc25bc03cc1902deca63ec04dd00cefa58edde60c7c339e
+      DiffID: sha256:827414596a49978e51180ab203727f937ec018aef0e17d2ab0d41b0bd1820b39
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-0913
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: Inconsistent handling of O_CREATE|O_EXCL on Unix and Windows in os in syscall
+    Description: os.OpenFile(path, os.O_CREATE|O_EXCL) behaved differently on Unix and Windows systems when the target path was a dangling symlink. On Unix systems, OpenFile with O_CREATE and O_EXCL flags never follows symlinks. On Windows, when the target path was a symlink to a nonexistent location, OpenFile would create a file in that location. OpenFile now always returns an error when the O_CREATE and O_EXCL flags are both set and the target path is a symlink.
+    Severity: UNKNOWN
+    References:
+    - https://go.dev/cl/672396
+    - https://go.dev/issue/73702
+    - https://groups.google.com/g/golang-announce/c/ufZ8WpEsA3A
+    - https://pkg.go.dev/vuln/GO-2025-3750
+  - VulnerabilityID: CVE-2025-22874
+    PkgID: stdlib@v1.24.1
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@v1.24.1
+      UID: 52c68874e8dec0f2
+    InstalledVersion: v1.24.1
+    FixedVersion: 1.23.10, 1.24.4
+    Status: fixed
+    Layer:
+      Digest: sha256:f1dc3adc36d722024fc25bc03cc1902deca63ec04dd00cefa58edde60c7c339e
+      DiffID: sha256:827414596a49978e51180ab203727f937ec018aef0e17d2ab0d41b0bd1820b39
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-22874
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: Calling Verify with a VerifyOptions.KeyUsages that contains ExtKeyUsag ...
+    Description: Calling Verify with a VerifyOptions.KeyUsages that contains ExtKeyUsageAny unintentionally disabledpolicy validation. This only affected certificate chains which contain policy graphs, which are rather uncommon.
+    Severity: UNKNOWN
+    References:
+    - https://go.dev/cl/670375
+    - https://go.dev/issue/73612
+    - https://groups.google.com/g/golang-announce/c/ufZ8WpEsA3A
+    - https://pkg.go.dev/vuln/GO-2025-3749
+    PublishedDate: '2025-06-11T17:15:42.167Z'
+    LastModifiedDate: '2025-06-11T17:15:42.167Z'
 - Target: usr/bin/docker-compose
   Class: lang-pkgs
   Type: gobinary
+  Vulnerabilities:
+  - VulnerabilityID: CVE-2025-4673
+    PkgID: stdlib@v1.23.8
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@v1.23.8
+      UID: fc1a388135bdfe1b
+    InstalledVersion: v1.23.8
+    FixedVersion: 1.23.10, 1.24.4
+    Status: fixed
+    Layer:
+      Digest: sha256:f1dc3adc36d722024fc25bc03cc1902deca63ec04dd00cefa58edde60c7c339e
+      DiffID: sha256:827414596a49978e51180ab203727f937ec018aef0e17d2ab0d41b0bd1820b39
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-4673
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: Proxy-Authorization and Proxy-Authenticate headers persisted on cross- ...
+    Description: Proxy-Authorization and Proxy-Authenticate headers persisted on cross-origin redirects potentially leaking sensitive information.
+    Severity: MEDIUM
+    VendorSeverity:
+      ubuntu: 2
+    References:
+    - https://go.dev/cl/679257
+    - https://go.dev/issue/73816
+    - https://groups.google.com/g/golang-announce/c/ufZ8WpEsA3A
+    - https://pkg.go.dev/vuln/GO-2025-3751
+    - https://www.cve.org/CVERecord?id=CVE-2025-4673
+    PublishedDate: '2025-06-11T17:15:42.993Z'
+    LastModifiedDate: '2025-06-11T17:15:42.993Z'
+  - VulnerabilityID: CVE-2025-0913
+    PkgID: stdlib@v1.23.8
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@v1.23.8
+      UID: fc1a388135bdfe1b
+    InstalledVersion: v1.23.8
+    FixedVersion: 1.23.10, 1.24.4
+    Status: fixed
+    Layer:
+      Digest: sha256:f1dc3adc36d722024fc25bc03cc1902deca63ec04dd00cefa58edde60c7c339e
+      DiffID: sha256:827414596a49978e51180ab203727f937ec018aef0e17d2ab0d41b0bd1820b39
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-0913
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: Inconsistent handling of O_CREATE|O_EXCL on Unix and Windows in os in syscall
+    Description: os.OpenFile(path, os.O_CREATE|O_EXCL) behaved differently on Unix and Windows systems when the target path was a dangling symlink. On Unix systems, OpenFile with O_CREATE and O_EXCL flags never follows symlinks. On Windows, when the target path was a symlink to a nonexistent location, OpenFile would create a file in that location. OpenFile now always returns an error when the O_CREATE and O_EXCL flags are both set and the target path is a symlink.
+    Severity: UNKNOWN
+    References:
+    - https://go.dev/cl/672396
+    - https://go.dev/issue/73702
+    - https://groups.google.com/g/golang-announce/c/ufZ8WpEsA3A
+    - https://pkg.go.dev/vuln/GO-2025-3750
+  - VulnerabilityID: CVE-2025-22874
+    PkgID: stdlib@v1.23.8
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@v1.23.8
+      UID: fc1a388135bdfe1b
+    InstalledVersion: v1.23.8
+    FixedVersion: 1.23.10, 1.24.4
+    Status: fixed
+    Layer:
+      Digest: sha256:f1dc3adc36d722024fc25bc03cc1902deca63ec04dd00cefa58edde60c7c339e
+      DiffID: sha256:827414596a49978e51180ab203727f937ec018aef0e17d2ab0d41b0bd1820b39
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-22874
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: Calling Verify with a VerifyOptions.KeyUsages that contains ExtKeyUsag ...
+    Description: Calling Verify with a VerifyOptions.KeyUsages that contains ExtKeyUsageAny unintentionally disabledpolicy validation. This only affected certificate chains which contain policy graphs, which are rather uncommon.
+    Severity: UNKNOWN
+    References:
+    - https://go.dev/cl/670375
+    - https://go.dev/issue/73612
+    - https://groups.google.com/g/golang-announce/c/ufZ8WpEsA3A
+    - https://pkg.go.dev/vuln/GO-2025-3749
+    PublishedDate: '2025-06-11T17:15:42.167Z'
+    LastModifiedDate: '2025-06-11T17:15:42.167Z'
 - Target: usr/bin/helm
   Class: lang-pkgs
   Type: gobinary
+  Vulnerabilities:
+  - VulnerabilityID: CVE-2025-4673
+    PkgID: stdlib@v1.24.3
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@v1.24.3
+      UID: 40ab490ef72d674d
+    InstalledVersion: v1.24.3
+    FixedVersion: 1.23.10, 1.24.4
+    Status: fixed
+    Layer:
+      Digest: sha256:f1dc3adc36d722024fc25bc03cc1902deca63ec04dd00cefa58edde60c7c339e
+      DiffID: sha256:827414596a49978e51180ab203727f937ec018aef0e17d2ab0d41b0bd1820b39
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-4673
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: Proxy-Authorization and Proxy-Authenticate headers persisted on cross- ...
+    Description: Proxy-Authorization and Proxy-Authenticate headers persisted on cross-origin redirects potentially leaking sensitive information.
+    Severity: MEDIUM
+    VendorSeverity:
+      ubuntu: 2
+    References:
+    - https://go.dev/cl/679257
+    - https://go.dev/issue/73816
+    - https://groups.google.com/g/golang-announce/c/ufZ8WpEsA3A
+    - https://pkg.go.dev/vuln/GO-2025-3751
+    - https://www.cve.org/CVERecord?id=CVE-2025-4673
+    PublishedDate: '2025-06-11T17:15:42.993Z'
+    LastModifiedDate: '2025-06-11T17:15:42.993Z'
+  - VulnerabilityID: CVE-2025-0913
+    PkgID: stdlib@v1.24.3
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@v1.24.3
+      UID: 40ab490ef72d674d
+    InstalledVersion: v1.24.3
+    FixedVersion: 1.23.10, 1.24.4
+    Status: fixed
+    Layer:
+      Digest: sha256:f1dc3adc36d722024fc25bc03cc1902deca63ec04dd00cefa58edde60c7c339e
+      DiffID: sha256:827414596a49978e51180ab203727f937ec018aef0e17d2ab0d41b0bd1820b39
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-0913
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: Inconsistent handling of O_CREATE|O_EXCL on Unix and Windows in os in syscall
+    Description: os.OpenFile(path, os.O_CREATE|O_EXCL) behaved differently on Unix and Windows systems when the target path was a dangling symlink. On Unix systems, OpenFile with O_CREATE and O_EXCL flags never follows symlinks. On Windows, when the target path was a symlink to a nonexistent location, OpenFile would create a file in that location. OpenFile now always returns an error when the O_CREATE and O_EXCL flags are both set and the target path is a symlink.
+    Severity: UNKNOWN
+    References:
+    - https://go.dev/cl/672396
+    - https://go.dev/issue/73702
+    - https://groups.google.com/g/golang-announce/c/ufZ8WpEsA3A
+    - https://pkg.go.dev/vuln/GO-2025-3750
+  - VulnerabilityID: CVE-2025-22874
+    PkgID: stdlib@v1.24.3
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@v1.24.3
+      UID: 40ab490ef72d674d
+    InstalledVersion: v1.24.3
+    FixedVersion: 1.23.10, 1.24.4
+    Status: fixed
+    Layer:
+      Digest: sha256:f1dc3adc36d722024fc25bc03cc1902deca63ec04dd00cefa58edde60c7c339e
+      DiffID: sha256:827414596a49978e51180ab203727f937ec018aef0e17d2ab0d41b0bd1820b39
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-22874
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: Calling Verify with a VerifyOptions.KeyUsages that contains ExtKeyUsag ...
+    Description: Calling Verify with a VerifyOptions.KeyUsages that contains ExtKeyUsageAny unintentionally disabledpolicy validation. This only affected certificate chains which contain policy graphs, which are rather uncommon.
+    Severity: UNKNOWN
+    References:
+    - https://go.dev/cl/670375
+    - https://go.dev/issue/73612
+    - https://groups.google.com/g/golang-announce/c/ufZ8WpEsA3A
+    - https://pkg.go.dev/vuln/GO-2025-3749
+    PublishedDate: '2025-06-11T17:15:42.167Z'
+    LastModifiedDate: '2025-06-11T17:15:42.167Z'
 - Target: usr/bin/kubectl
   Class: lang-pkgs
   Type: gobinary
+  Vulnerabilities:
+  - VulnerabilityID: CVE-2025-4673
+    PkgID: stdlib@v1.24.2
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@v1.24.2
+      UID: 5962d0efc7472c99
+    InstalledVersion: v1.24.2
+    FixedVersion: 1.23.10, 1.24.4
+    Status: fixed
+    Layer:
+      Digest: sha256:f1dc3adc36d722024fc25bc03cc1902deca63ec04dd00cefa58edde60c7c339e
+      DiffID: sha256:827414596a49978e51180ab203727f937ec018aef0e17d2ab0d41b0bd1820b39
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-4673
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: Proxy-Authorization and Proxy-Authenticate headers persisted on cross- ...
+    Description: Proxy-Authorization and Proxy-Authenticate headers persisted on cross-origin redirects potentially leaking sensitive information.
+    Severity: MEDIUM
+    VendorSeverity:
+      ubuntu: 2
+    References:
+    - https://go.dev/cl/679257
+    - https://go.dev/issue/73816
+    - https://groups.google.com/g/golang-announce/c/ufZ8WpEsA3A
+    - https://pkg.go.dev/vuln/GO-2025-3751
+    - https://www.cve.org/CVERecord?id=CVE-2025-4673
+    PublishedDate: '2025-06-11T17:15:42.993Z'
+    LastModifiedDate: '2025-06-11T17:15:42.993Z'
+  - VulnerabilityID: CVE-2025-0913
+    PkgID: stdlib@v1.24.2
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@v1.24.2
+      UID: 5962d0efc7472c99
+    InstalledVersion: v1.24.2
+    FixedVersion: 1.23.10, 1.24.4
+    Status: fixed
+    Layer:
+      Digest: sha256:f1dc3adc36d722024fc25bc03cc1902deca63ec04dd00cefa58edde60c7c339e
+      DiffID: sha256:827414596a49978e51180ab203727f937ec018aef0e17d2ab0d41b0bd1820b39
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-0913
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: Inconsistent handling of O_CREATE|O_EXCL on Unix and Windows in os in syscall
+    Description: os.OpenFile(path, os.O_CREATE|O_EXCL) behaved differently on Unix and Windows systems when the target path was a dangling symlink. On Unix systems, OpenFile with O_CREATE and O_EXCL flags never follows symlinks. On Windows, when the target path was a symlink to a nonexistent location, OpenFile would create a file in that location. OpenFile now always returns an error when the O_CREATE and O_EXCL flags are both set and the target path is a symlink.
+    Severity: UNKNOWN
+    References:
+    - https://go.dev/cl/672396
+    - https://go.dev/issue/73702
+    - https://groups.google.com/g/golang-announce/c/ufZ8WpEsA3A
+    - https://pkg.go.dev/vuln/GO-2025-3750
+  - VulnerabilityID: CVE-2025-22874
+    PkgID: stdlib@v1.24.2
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@v1.24.2
+      UID: 5962d0efc7472c99
+    InstalledVersion: v1.24.2
+    FixedVersion: 1.23.10, 1.24.4
+    Status: fixed
+    Layer:
+      Digest: sha256:f1dc3adc36d722024fc25bc03cc1902deca63ec04dd00cefa58edde60c7c339e
+      DiffID: sha256:827414596a49978e51180ab203727f937ec018aef0e17d2ab0d41b0bd1820b39
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-22874
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: Calling Verify with a VerifyOptions.KeyUsages that contains ExtKeyUsag ...
+    Description: Calling Verify with a VerifyOptions.KeyUsages that contains ExtKeyUsageAny unintentionally disabledpolicy validation. This only affected certificate chains which contain policy graphs, which are rather uncommon.
+    Severity: UNKNOWN
+    References:
+    - https://go.dev/cl/670375
+    - https://go.dev/issue/73612
+    - https://groups.google.com/g/golang-announce/c/ufZ8WpEsA3A
+    - https://pkg.go.dev/vuln/GO-2025-3749
+    PublishedDate: '2025-06-11T17:15:42.167Z'
+    LastModifiedDate: '2025-06-11T17:15:42.167Z'
 - Target: usr/bin/mc
   Class: lang-pkgs
   Type: gobinary
+  Vulnerabilities:
+  - VulnerabilityID: CVE-2025-4673
+    PkgID: stdlib@v1.24.3
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@v1.24.3
+      UID: befc50538337df46
+    InstalledVersion: v1.24.3
+    FixedVersion: 1.23.10, 1.24.4
+    Status: fixed
+    Layer:
+      Digest: sha256:f1dc3adc36d722024fc25bc03cc1902deca63ec04dd00cefa58edde60c7c339e
+      DiffID: sha256:827414596a49978e51180ab203727f937ec018aef0e17d2ab0d41b0bd1820b39
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-4673
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: Proxy-Authorization and Proxy-Authenticate headers persisted on cross- ...
+    Description: Proxy-Authorization and Proxy-Authenticate headers persisted on cross-origin redirects potentially leaking sensitive information.
+    Severity: MEDIUM
+    VendorSeverity:
+      ubuntu: 2
+    References:
+    - https://go.dev/cl/679257
+    - https://go.dev/issue/73816
+    - https://groups.google.com/g/golang-announce/c/ufZ8WpEsA3A
+    - https://pkg.go.dev/vuln/GO-2025-3751
+    - https://www.cve.org/CVERecord?id=CVE-2025-4673
+    PublishedDate: '2025-06-11T17:15:42.993Z'
+    LastModifiedDate: '2025-06-11T17:15:42.993Z'
+  - VulnerabilityID: CVE-2025-0913
+    PkgID: stdlib@v1.24.3
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@v1.24.3
+      UID: befc50538337df46
+    InstalledVersion: v1.24.3
+    FixedVersion: 1.23.10, 1.24.4
+    Status: fixed
+    Layer:
+      Digest: sha256:f1dc3adc36d722024fc25bc03cc1902deca63ec04dd00cefa58edde60c7c339e
+      DiffID: sha256:827414596a49978e51180ab203727f937ec018aef0e17d2ab0d41b0bd1820b39
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-0913
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: Inconsistent handling of O_CREATE|O_EXCL on Unix and Windows in os in syscall
+    Description: os.OpenFile(path, os.O_CREATE|O_EXCL) behaved differently on Unix and Windows systems when the target path was a dangling symlink. On Unix systems, OpenFile with O_CREATE and O_EXCL flags never follows symlinks. On Windows, when the target path was a symlink to a nonexistent location, OpenFile would create a file in that location. OpenFile now always returns an error when the O_CREATE and O_EXCL flags are both set and the target path is a symlink.
+    Severity: UNKNOWN
+    References:
+    - https://go.dev/cl/672396
+    - https://go.dev/issue/73702
+    - https://groups.google.com/g/golang-announce/c/ufZ8WpEsA3A
+    - https://pkg.go.dev/vuln/GO-2025-3750
+  - VulnerabilityID: CVE-2025-22874
+    PkgID: stdlib@v1.24.3
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@v1.24.3
+      UID: befc50538337df46
+    InstalledVersion: v1.24.3
+    FixedVersion: 1.23.10, 1.24.4
+    Status: fixed
+    Layer:
+      Digest: sha256:f1dc3adc36d722024fc25bc03cc1902deca63ec04dd00cefa58edde60c7c339e
+      DiffID: sha256:827414596a49978e51180ab203727f937ec018aef0e17d2ab0d41b0bd1820b39
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-22874
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: Calling Verify with a VerifyOptions.KeyUsages that contains ExtKeyUsag ...
+    Description: Calling Verify with a VerifyOptions.KeyUsages that contains ExtKeyUsageAny unintentionally disabledpolicy validation. This only affected certificate chains which contain policy graphs, which are rather uncommon.
+    Severity: UNKNOWN
+    References:
+    - https://go.dev/cl/670375
+    - https://go.dev/issue/73612
+    - https://groups.google.com/g/golang-announce/c/ufZ8WpEsA3A
+    - https://pkg.go.dev/vuln/GO-2025-3749
+    PublishedDate: '2025-06-11T17:15:42.167Z'
+    LastModifiedDate: '2025-06-11T17:15:42.167Z'
 - Target: usr/local/bin/k3d
   Class: lang-pkgs
   Type: gobinary
@@ -2342,8 +2840,8 @@
     FixedVersion: 1.7.27, 1.6.38
     Status: fixed
     Layer:
-      Digest: sha256:7dac0927dd624166d77b5dd5a855f93dc4b08fa00ac23545fb70b3e953eb0e37
-      DiffID: sha256:4b6e98b1498c87d4c2753254f9b7ad847eb459fb5ddb9952a1714fe0a5c1bcb7
+      Digest: sha256:f1dc3adc36d722024fc25bc03cc1902deca63ec04dd00cefa58edde60c7c339e
+      DiffID: sha256:827414596a49978e51180ab203727f937ec018aef0e17d2ab0d41b0bd1820b39
     SeveritySource: ghsa
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-40635
     DataSource:
@@ -2394,8 +2892,8 @@
     FixedVersion: 23.0.15, 26.1.5, 27.1.1, 25.0.6
     Status: fixed
     Layer:
-      Digest: sha256:7dac0927dd624166d77b5dd5a855f93dc4b08fa00ac23545fb70b3e953eb0e37
-      DiffID: sha256:4b6e98b1498c87d4c2753254f9b7ad847eb459fb5ddb9952a1714fe0a5c1bcb7
+      Digest: sha256:f1dc3adc36d722024fc25bc03cc1902deca63ec04dd00cefa58edde60c7c339e
+      DiffID: sha256:827414596a49978e51180ab203727f937ec018aef0e17d2ab0d41b0bd1820b39
     SeveritySource: ghsa
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-41110
     DataSource:
@@ -2467,8 +2965,8 @@
     FixedVersion: 0.31.0
     Status: fixed
     Layer:
-      Digest: sha256:7dac0927dd624166d77b5dd5a855f93dc4b08fa00ac23545fb70b3e953eb0e37
-      DiffID: sha256:4b6e98b1498c87d4c2753254f9b7ad847eb459fb5ddb9952a1714fe0a5c1bcb7
+      Digest: sha256:f1dc3adc36d722024fc25bc03cc1902deca63ec04dd00cefa58edde60c7c339e
+      DiffID: sha256:827414596a49978e51180ab203727f937ec018aef0e17d2ab0d41b0bd1820b39
     SeveritySource: ghsa
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-45337
     DataSource:
@@ -2516,8 +3014,8 @@
     FixedVersion: 0.35.0
     Status: fixed
     Layer:
-      Digest: sha256:7dac0927dd624166d77b5dd5a855f93dc4b08fa00ac23545fb70b3e953eb0e37
-      DiffID: sha256:4b6e98b1498c87d4c2753254f9b7ad847eb459fb5ddb9952a1714fe0a5c1bcb7
+      Digest: sha256:f1dc3adc36d722024fc25bc03cc1902deca63ec04dd00cefa58edde60c7c339e
+      DiffID: sha256:827414596a49978e51180ab203727f937ec018aef0e17d2ab0d41b0bd1820b39
     SeveritySource: ghsa
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-22869
     DataSource:
@@ -2573,8 +3071,8 @@
     FixedVersion: 0.36.0
     Status: fixed
     Layer:
-      Digest: sha256:7dac0927dd624166d77b5dd5a855f93dc4b08fa00ac23545fb70b3e953eb0e37
-      DiffID: sha256:4b6e98b1498c87d4c2753254f9b7ad847eb459fb5ddb9952a1714fe0a5c1bcb7
+      Digest: sha256:f1dc3adc36d722024fc25bc03cc1902deca63ec04dd00cefa58edde60c7c339e
+      DiffID: sha256:827414596a49978e51180ab203727f937ec018aef0e17d2ab0d41b0bd1820b39
     SeveritySource: ghsa
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-22870
     DataSource:
@@ -2625,8 +3123,8 @@
     FixedVersion: 0.38.0
     Status: fixed
     Layer:
-      Digest: sha256:7dac0927dd624166d77b5dd5a855f93dc4b08fa00ac23545fb70b3e953eb0e37
-      DiffID: sha256:4b6e98b1498c87d4c2753254f9b7ad847eb459fb5ddb9952a1714fe0a5c1bcb7
+      Digest: sha256:f1dc3adc36d722024fc25bc03cc1902deca63ec04dd00cefa58edde60c7c339e
+      DiffID: sha256:827414596a49978e51180ab203727f937ec018aef0e17d2ab0d41b0bd1820b39
     SeveritySource: ghsa
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-22872
     DataSource:
@@ -2669,8 +3167,8 @@
     FixedVersion: 1.64.1
     Status: fixed
     Layer:
-      Digest: sha256:7dac0927dd624166d77b5dd5a855f93dc4b08fa00ac23545fb70b3e953eb0e37
-      DiffID: sha256:4b6e98b1498c87d4c2753254f9b7ad847eb459fb5ddb9952a1714fe0a5c1bcb7
+      Digest: sha256:f1dc3adc36d722024fc25bc03cc1902deca63ec04dd00cefa58edde60c7c339e
+      DiffID: sha256:827414596a49978e51180ab203727f937ec018aef0e17d2ab0d41b0bd1820b39
     SeveritySource: ghsa
     PrimaryURL: https://github.com/advisories/GHSA-xr7q-jx4m-x55m
     DataSource:
@@ -2706,8 +3204,8 @@
     FixedVersion: 1.23.8, 1.24.2
     Status: fixed
     Layer:
-      Digest: sha256:7dac0927dd624166d77b5dd5a855f93dc4b08fa00ac23545fb70b3e953eb0e37
-      DiffID: sha256:4b6e98b1498c87d4c2753254f9b7ad847eb459fb5ddb9952a1714fe0a5c1bcb7
+      Digest: sha256:f1dc3adc36d722024fc25bc03cc1902deca63ec04dd00cefa58edde60c7c339e
+      DiffID: sha256:827414596a49978e51180ab203727f937ec018aef0e17d2ab0d41b0bd1820b39
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-22871
     DataSource:
       ID: govulndb
@@ -2746,6 +3244,88 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-22871
     PublishedDate: '2025-04-08T20:15:20.183Z'
     LastModifiedDate: '2025-04-18T15:15:57.923Z'
+  - VulnerabilityID: CVE-2025-4673
+    PkgID: stdlib@v1.22.12
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@v1.22.12
+      UID: 156a2e832bd2e3cc
+    InstalledVersion: v1.22.12
+    FixedVersion: 1.23.10, 1.24.4
+    Status: fixed
+    Layer:
+      Digest: sha256:f1dc3adc36d722024fc25bc03cc1902deca63ec04dd00cefa58edde60c7c339e
+      DiffID: sha256:827414596a49978e51180ab203727f937ec018aef0e17d2ab0d41b0bd1820b39
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-4673
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: Proxy-Authorization and Proxy-Authenticate headers persisted on cross- ...
+    Description: Proxy-Authorization and Proxy-Authenticate headers persisted on cross-origin redirects potentially leaking sensitive information.
+    Severity: MEDIUM
+    VendorSeverity:
+      ubuntu: 2
+    References:
+    - https://go.dev/cl/679257
+    - https://go.dev/issue/73816
+    - https://groups.google.com/g/golang-announce/c/ufZ8WpEsA3A
+    - https://pkg.go.dev/vuln/GO-2025-3751
+    - https://www.cve.org/CVERecord?id=CVE-2025-4673
+    PublishedDate: '2025-06-11T17:15:42.993Z'
+    LastModifiedDate: '2025-06-11T17:15:42.993Z'
+  - VulnerabilityID: CVE-2025-0913
+    PkgID: stdlib@v1.22.12
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@v1.22.12
+      UID: 156a2e832bd2e3cc
+    InstalledVersion: v1.22.12
+    FixedVersion: 1.23.10, 1.24.4
+    Status: fixed
+    Layer:
+      Digest: sha256:f1dc3adc36d722024fc25bc03cc1902deca63ec04dd00cefa58edde60c7c339e
+      DiffID: sha256:827414596a49978e51180ab203727f937ec018aef0e17d2ab0d41b0bd1820b39
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-0913
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: Inconsistent handling of O_CREATE|O_EXCL on Unix and Windows in os in syscall
+    Description: os.OpenFile(path, os.O_CREATE|O_EXCL) behaved differently on Unix and Windows systems when the target path was a dangling symlink. On Unix systems, OpenFile with O_CREATE and O_EXCL flags never follows symlinks. On Windows, when the target path was a symlink to a nonexistent location, OpenFile would create a file in that location. OpenFile now always returns an error when the O_CREATE and O_EXCL flags are both set and the target path is a symlink.
+    Severity: UNKNOWN
+    References:
+    - https://go.dev/cl/672396
+    - https://go.dev/issue/73702
+    - https://groups.google.com/g/golang-announce/c/ufZ8WpEsA3A
+    - https://pkg.go.dev/vuln/GO-2025-3750
+  - VulnerabilityID: CVE-2025-22874
+    PkgID: stdlib@v1.22.12
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@v1.22.12
+      UID: 156a2e832bd2e3cc
+    InstalledVersion: v1.22.12
+    FixedVersion: 1.23.10, 1.24.4
+    Status: fixed
+    Layer:
+      Digest: sha256:f1dc3adc36d722024fc25bc03cc1902deca63ec04dd00cefa58edde60c7c339e
+      DiffID: sha256:827414596a49978e51180ab203727f937ec018aef0e17d2ab0d41b0bd1820b39
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-22874
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: Calling Verify with a VerifyOptions.KeyUsages that contains ExtKeyUsag ...
+    Description: Calling Verify with a VerifyOptions.KeyUsages that contains ExtKeyUsageAny unintentionally disabledpolicy validation. This only affected certificate chains which contain policy graphs, which are rather uncommon.
+    Severity: UNKNOWN
+    References:
+    - https://go.dev/cl/670375
+    - https://go.dev/issue/73612
+    - https://groups.google.com/g/golang-announce/c/ufZ8WpEsA3A
+    - https://pkg.go.dev/vuln/GO-2025-3749
+    PublishedDate: '2025-06-11T17:15:42.167Z'
+    LastModifiedDate: '2025-06-11T17:15:42.167Z'
 - Target: /etc/ssh/ssh_host_ecdsa_key
   Class: secret
   Secrets:
@@ -2774,8 +3354,8 @@
         LastCause: false
     Match: BEGIN OPENSSH PRIVATE KEY-----************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
     Layer:
-      Digest: sha256:7dac0927dd624166d77b5dd5a855f93dc4b08fa00ac23545fb70b3e953eb0e37
-      DiffID: sha256:4b6e98b1498c87d4c2753254f9b7ad847eb459fb5ddb9952a1714fe0a5c1bcb7
+      Digest: sha256:f1dc3adc36d722024fc25bc03cc1902deca63ec04dd00cefa58edde60c7c339e
+      DiffID: sha256:827414596a49978e51180ab203727f937ec018aef0e17d2ab0d41b0bd1820b39
       CreatedBy: 'COPY / / # buildkit'
 - Target: /etc/ssh/ssh_host_ed25519_key
   Class: secret
@@ -2805,8 +3385,8 @@
         LastCause: false
     Match: BEGIN OPENSSH PRIVATE KEY-----******************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
     Layer:
-      Digest: sha256:7dac0927dd624166d77b5dd5a855f93dc4b08fa00ac23545fb70b3e953eb0e37
-      DiffID: sha256:4b6e98b1498c87d4c2753254f9b7ad847eb459fb5ddb9952a1714fe0a5c1bcb7
+      Digest: sha256:f1dc3adc36d722024fc25bc03cc1902deca63ec04dd00cefa58edde60c7c339e
+      DiffID: sha256:827414596a49978e51180ab203727f937ec018aef0e17d2ab0d41b0bd1820b39
       CreatedBy: 'COPY / / # buildkit'
 - Target: /etc/ssh/ssh_host_rsa_key
   Class: secret
@@ -2836,6 +3416,6 @@
         LastCause: false
     Match: BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
     Layer:
-      Digest: sha256:7dac0927dd624166d77b5dd5a855f93dc4b08fa00ac23545fb70b3e953eb0e37
-      DiffID: sha256:4b6e98b1498c87d4c2753254f9b7ad847eb459fb5ddb9952a1714fe0a5c1bcb7
+      Digest: sha256:f1dc3adc36d722024fc25bc03cc1902deca63ec04dd00cefa58edde60c7c339e
+      DiffID: sha256:827414596a49978e51180ab203727f937ec018aef0e17d2ab0d41b0bd1820b39
       CreatedBy: 'COPY / / # buildkit'
