@@ -52,7 +52,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2016-2781
     - https://www.cve.org/CVERecord?id=CVE-2016-2781
     PublishedDate: '2017-02-07T15:59:00.333Z'
-    LastModifiedDate: '2025-04-20T01:37:25.86Z'
+    LastModifiedDate: '2025-06-09T16:15:25.013Z'
   - VulnerabilityID: CVE-2025-0167
     PkgID: curl@7.81.0-1ubuntu1.20
     PkgName: curl
@@ -82,7 +82,7 @@
     VendorSeverity:
       azure: 1
       cbl-mariner: 1
-      photon: 2
+      photon: 1
       ubuntu: 1
     References:
     - https://curl.se/docs/CVE-2025-0167.html
@@ -113,6 +113,8 @@
     Title: 'dbus: dbus-daemon: assertion failure when a monitor is active and a message from the driver cannot be delivered'
     Description: D-Bus before 1.15.6 sometimes allows unprivileged users to crash dbus-daemon. If a privileged user with control over the dbus-daemon is using the org.freedesktop.DBus.Monitoring interface to monitor message bus traffic, then an unprivileged user with the ability to connect to the same dbus-daemon can cause a dbus-daemon crash under some circumstances via an unreplyable message. When done on the well-known system bus, this is a denial-of-service vulnerability. The fixed versions are 1.12.28, 1.14.8, and 1.15.6.
     Severity: LOW
+    CweIDs:
+    - CWE-404
     VendorSeverity:
       alma: 2
       amazon: 2
@@ -148,7 +150,7 @@
     - https://ubuntu.com/security/notices/USN-6372-1
     - https://www.cve.org/CVERecord?id=CVE-2023-34969
     PublishedDate: '2023-06-08T03:15:08.97Z'
-    LastModifiedDate: '2024-11-21T08:07:44.607Z'
+    LastModifiedDate: '2025-06-09T15:15:29.34Z'
   - VulnerabilityID: CVE-2023-34969
     PkgID: dbus-user-session@1.12.20-2ubuntu4.1
     PkgName: dbus-user-session
@@ -169,6 +171,8 @@
     Title: 'dbus: dbus-daemon: assertion failure when a monitor is active and a message from the driver cannot be delivered'
     Description: D-Bus before 1.15.6 sometimes allows unprivileged users to crash dbus-daemon. If a privileged user with control over the dbus-daemon is using the org.freedesktop.DBus.Monitoring interface to monitor message bus traffic, then an unprivileged user with the ability to connect to the same dbus-daemon can cause a dbus-daemon crash under some circumstances via an unreplyable message. When done on the well-known system bus, this is a denial-of-service vulnerability. The fixed versions are 1.12.28, 1.14.8, and 1.15.6.
     Severity: LOW
+    CweIDs:
+    - CWE-404
     VendorSeverity:
       alma: 2
       amazon: 2
@@ -204,7 +208,7 @@
     - https://ubuntu.com/security/notices/USN-6372-1
     - https://www.cve.org/CVERecord?id=CVE-2023-34969
     PublishedDate: '2023-06-08T03:15:08.97Z'
-    LastModifiedDate: '2024-11-21T08:07:44.607Z'
+    LastModifiedDate: '2025-06-09T15:15:29.34Z'
   - VulnerabilityID: CVE-2025-30258
     PkgID: dirmngr@2.2.27-3ubuntu2.1
     PkgName: dirmngr
@@ -424,6 +428,7 @@
     - CWE-150
     VendorSeverity:
       alma: 2
+      amazon: 2
       bitnami: 3
       oracle-oval: 2
       redhat: 2
@@ -439,7 +444,7 @@
     - https://errata.almalinux.org/9/ALSA-2025-7409.html
     - https://github.com/git/git/security/advisories/GHSA-7jjc-gg6m-3329
     - https://linux.oracle.com/cve/CVE-2024-52005.html
-    - https://linux.oracle.com/errata/ELSA-2025-7409.html
+    - https://linux.oracle.com/errata/ELSA-2025-8414.html
     - https://lore.kernel.org/git/1M9FnZ-1taoNo1wwh-00ESSd@mail.gmx.net
     - https://lore.kernel.org/git/8570a129-d66a-465a-905e-0a077c69c409@gmail.com/T/#t
     - https://nvd.nist.gov/vuln/detail/CVE-2024-52005
@@ -471,6 +476,7 @@
     - CWE-150
     VendorSeverity:
       alma: 2
+      amazon: 2
       bitnami: 3
       oracle-oval: 2
       redhat: 2
@@ -486,7 +492,7 @@
     - https://errata.almalinux.org/9/ALSA-2025-7409.html
     - https://github.com/git/git/security/advisories/GHSA-7jjc-gg6m-3329
     - https://linux.oracle.com/cve/CVE-2024-52005.html
-    - https://linux.oracle.com/errata/ELSA-2025-7409.html
+    - https://linux.oracle.com/errata/ELSA-2025-8414.html
     - https://lore.kernel.org/git/1M9FnZ-1taoNo1wwh-00ESSd@mail.gmx.net
     - https://lore.kernel.org/git/8570a129-d66a-465a-905e-0a077c69c409@gmail.com/T/#t
     - https://nvd.nist.gov/vuln/detail/CVE-2024-52005
@@ -1485,6 +1491,58 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-29481
     PublishedDate: '2025-04-07T20:15:20.72Z'
     LastModifiedDate: '2025-04-15T15:42:59.65Z'
+  - VulnerabilityID: CVE-2025-4802
+    PkgID: libc-bin@2.35-0ubuntu3.9
+    PkgName: libc-bin
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libc-bin@2.35-0ubuntu3.9?arch=amd64&distro=ubuntu-22.04
+      UID: c4a26ae10bc22004
+    InstalledVersion: 2.35-0ubuntu3.9
+    FixedVersion: 2.35-0ubuntu3.10
+    Status: fixed
+    Layer:
+      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
+      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-4802
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'glibc: static setuid binary dlopen may incorrectly search LD_LIBRARY_PATH'
+    Description: Untrusted LD_LIBRARY_PATH environment variable vulnerability in the GNU C Library version 2.27 to 2.38 allows attacker controlled loading of dynamically shared library in statically compiled setuid binaries that call dlopen (including internal dlopen calls after setlocale or calls to NSS functions such as getaddrinfo).
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-426
+    VendorSeverity:
+      alma: 2
+      amazon: 3
+      oracle-oval: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/05/16/7
+    - http://www.openwall.com/lists/oss-security/2025/05/17/2
+    - https://access.redhat.com/errata/RHSA-2025:8686
+    - https://access.redhat.com/security/cve/CVE-2025-4802
+    - https://bugzilla.redhat.com/2367468
+    - https://errata.almalinux.org/8/ALSA-2025-8686.html
+    - https://linux.oracle.com/cve/CVE-2025-4802.html
+    - https://linux.oracle.com/errata/ELSA-2025-8686.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-4802
+    - https://sourceware.org/bugzilla/show_bug.cgi?id=32976
+    - https://sourceware.org/cgit/glibc/commit/?id=1e18586c5820e329f741d5c710275e165581380e
+    - https://sourceware.org/cgit/glibc/commit/?id=5451fa962cd0a90a0e2ec1d8910a559ace02bba0
+    - https://ubuntu.com/security/notices/USN-7541-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-4802
+    - https://www.openwall.com/lists/oss-security/2025/05/16/7
+    - https://www.openwall.com/lists/oss-security/2025/05/17/2
+    PublishedDate: '2025-05-16T20:15:22.28Z'
+    LastModifiedDate: '2025-05-20T14:15:51.347Z'
   - VulnerabilityID: CVE-2016-20013
     PkgID: libc-bin@2.35-0ubuntu3.9
     PkgName: libc-bin
@@ -1522,6 +1580,58 @@
     - https://www.cve.org/CVERecord?id=CVE-2016-20013
     PublishedDate: '2022-02-19T05:15:09.413Z'
     LastModifiedDate: '2024-11-21T02:47:33.427Z'
+  - VulnerabilityID: CVE-2025-4802
+    PkgID: libc6@2.35-0ubuntu3.9
+    PkgName: libc6
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libc6@2.35-0ubuntu3.9?arch=amd64&distro=ubuntu-22.04
+      UID: cc220ca99795d35b
+    InstalledVersion: 2.35-0ubuntu3.9
+    FixedVersion: 2.35-0ubuntu3.10
+    Status: fixed
+    Layer:
+      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
+      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-4802
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'glibc: static setuid binary dlopen may incorrectly search LD_LIBRARY_PATH'
+    Description: Untrusted LD_LIBRARY_PATH environment variable vulnerability in the GNU C Library version 2.27 to 2.38 allows attacker controlled loading of dynamically shared library in statically compiled setuid binaries that call dlopen (including internal dlopen calls after setlocale or calls to NSS functions such as getaddrinfo).
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-426
+    VendorSeverity:
+      alma: 2
+      amazon: 3
+      oracle-oval: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/05/16/7
+    - http://www.openwall.com/lists/oss-security/2025/05/17/2
+    - https://access.redhat.com/errata/RHSA-2025:8686
+    - https://access.redhat.com/security/cve/CVE-2025-4802
+    - https://bugzilla.redhat.com/2367468
+    - https://errata.almalinux.org/8/ALSA-2025-8686.html
+    - https://linux.oracle.com/cve/CVE-2025-4802.html
+    - https://linux.oracle.com/errata/ELSA-2025-8686.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-4802
+    - https://sourceware.org/bugzilla/show_bug.cgi?id=32976
+    - https://sourceware.org/cgit/glibc/commit/?id=1e18586c5820e329f741d5c710275e165581380e
+    - https://sourceware.org/cgit/glibc/commit/?id=5451fa962cd0a90a0e2ec1d8910a559ace02bba0
+    - https://ubuntu.com/security/notices/USN-7541-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-4802
+    - https://www.openwall.com/lists/oss-security/2025/05/16/7
+    - https://www.openwall.com/lists/oss-security/2025/05/17/2
+    PublishedDate: '2025-05-16T20:15:22.28Z'
+    LastModifiedDate: '2025-05-20T14:15:51.347Z'
   - VulnerabilityID: CVE-2016-20013
     PkgID: libc6@2.35-0ubuntu3.9
     PkgName: libc6
@@ -1588,7 +1698,7 @@
     VendorSeverity:
       azure: 1
       cbl-mariner: 1
-      photon: 2
+      photon: 1
       ubuntu: 1
     References:
     - https://curl.se/docs/CVE-2025-0167.html
@@ -1628,7 +1738,7 @@
     VendorSeverity:
       azure: 1
       cbl-mariner: 1
-      photon: 2
+      photon: 1
       ubuntu: 1
     References:
     - https://curl.se/docs/CVE-2025-0167.html
@@ -1659,6 +1769,8 @@
     Title: 'dbus: dbus-daemon: assertion failure when a monitor is active and a message from the driver cannot be delivered'
     Description: D-Bus before 1.15.6 sometimes allows unprivileged users to crash dbus-daemon. If a privileged user with control over the dbus-daemon is using the org.freedesktop.DBus.Monitoring interface to monitor message bus traffic, then an unprivileged user with the ability to connect to the same dbus-daemon can cause a dbus-daemon crash under some circumstances via an unreplyable message. When done on the well-known system bus, this is a denial-of-service vulnerability. The fixed versions are 1.12.28, 1.14.8, and 1.15.6.
     Severity: LOW
+    CweIDs:
+    - CWE-404
     VendorSeverity:
       alma: 2
       amazon: 2
@@ -1694,7 +1806,7 @@
     - https://ubuntu.com/security/notices/USN-6372-1
     - https://www.cve.org/CVERecord?id=CVE-2023-34969
     PublishedDate: '2023-06-08T03:15:08.97Z'
-    LastModifiedDate: '2024-11-21T08:07:44.607Z'
+    LastModifiedDate: '2025-06-09T15:15:29.34Z'
   - VulnerabilityID: CVE-2025-1372
     PkgID: libelf1@0.186-1build1
     PkgName: libelf1
@@ -1814,7 +1926,7 @@
     - CWE-119
     VendorSeverity:
       amazon: 2
-      photon: 3
+      photon: 2
       redhat: 2
       ubuntu: 1
     CVSS:
@@ -1925,6 +2037,7 @@
     - https://access.redhat.com/errata/RHSA-2025:4449
     - https://access.redhat.com/errata/RHSA-2025:7444
     - https://access.redhat.com/errata/RHSA-2025:7512
+    - https://access.redhat.com/errata/RHSA-2025:8385
     - https://access.redhat.com/security/cve/CVE-2024-8176
     - https://blog.hartwork.org/posts/expat-2-7-0-released/
     - https://bugzilla.redhat.com/2310137
@@ -1944,7 +2057,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-8176
     - https://www.kb.cert.org/vuls/id/760160
     PublishedDate: '2025-03-14T09:15:14.157Z'
-    LastModifiedDate: '2025-05-13T23:15:21.95Z'
+    LastModifiedDate: '2025-06-02T15:15:32.773Z'
   - VulnerabilityID: CVE-2022-27943
     PkgID: libgcc-s1@12.3.0-1ubuntu1~22.04
     PkgName: libgcc-s1
@@ -2106,6 +2219,88 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-2236
     PublishedDate: '2024-03-06T22:15:57.977Z'
     LastModifiedDate: '2025-04-02T17:15:37.79Z'
+  - VulnerabilityID: CVE-2025-4373
+    PkgID: libglib2.0-0@2.72.4-0ubuntu2.4
+    PkgName: libglib2.0-0
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libglib2.0-0@2.72.4-0ubuntu2.4?arch=amd64&distro=ubuntu-22.04
+      UID: 55d399f76a7e6835
+    InstalledVersion: 2.72.4-0ubuntu2.4
+    FixedVersion: 2.72.4-0ubuntu2.5
+    Status: fixed
+    Layer:
+      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
+      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-4373
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'glib: Buffer Underflow on GLib through glib/gstring.c via function g_string_insert_unichar'
+    Description: A flaw was found in GLib, which is vulnerable to an integer overflow in the g_string_insert_unichar() function. When the position at which to insert the character is large, the position will overflow, leading to a buffer underwrite.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-124
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:L
+        V3Score: 4.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-4373
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2364265
+    - https://gitlab.gnome.org/GNOME/glib/-/issues/3677
+    - https://gitlab.gnome.org/GNOME/glib/-/merge_requests/4588
+    - https://gitlab.gnome.org/GNOME/glib/-/merge_requests/4592
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-4373
+    - https://ubuntu.com/security/notices/USN-7532-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-4373
+    PublishedDate: '2025-05-06T15:16:05.32Z'
+    LastModifiedDate: '2025-05-07T14:13:20.483Z'
+  - VulnerabilityID: CVE-2025-4373
+    PkgID: libglib2.0-data@2.72.4-0ubuntu2.4
+    PkgName: libglib2.0-data
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libglib2.0-data@2.72.4-0ubuntu2.4?arch=all&distro=ubuntu-22.04
+      UID: c91c3659ab16a69c
+    InstalledVersion: 2.72.4-0ubuntu2.4
+    FixedVersion: 2.72.4-0ubuntu2.5
+    Status: fixed
+    Layer:
+      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
+      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-4373
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'glib: Buffer Underflow on GLib through glib/gstring.c via function g_string_insert_unichar'
+    Description: A flaw was found in GLib, which is vulnerable to an integer overflow in the g_string_insert_unichar() function. When the position at which to insert the character is large, the position will overflow, leading to a buffer underwrite.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-124
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:L
+        V3Score: 4.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-4373
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2364265
+    - https://gitlab.gnome.org/GNOME/glib/-/issues/3677
+    - https://gitlab.gnome.org/GNOME/glib/-/merge_requests/4588
+    - https://gitlab.gnome.org/GNOME/glib/-/merge_requests/4592
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-4373
+    - https://ubuntu.com/security/notices/USN-7532-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-4373
+    PublishedDate: '2025-05-06T15:16:05.32Z'
+    LastModifiedDate: '2025-05-07T14:13:20.483Z'
   - VulnerabilityID: CVE-2025-3576
     PkgID: libgssapi-krb5-2@1.19.2-2ubuntu0.6
     PkgName: libgssapi-krb5-2
@@ -2113,7 +2308,8 @@
       PURL: pkg:deb/ubuntu/libgssapi-krb5-2@1.19.2-2ubuntu0.6?arch=amd64&distro=ubuntu-22.04
       UID: f6dc12283f1322bd
     InstalledVersion: 1.19.2-2ubuntu0.6
-    Status: affected
+    FixedVersion: 1.19.2-2ubuntu0.7
+    Status: fixed
     Layer:
       Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
       DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
@@ -2129,6 +2325,8 @@
     CweIDs:
     - CWE-328
     VendorSeverity:
+      alma: 2
+      oracle-oval: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -2136,12 +2334,55 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N
         V3Score: 5.9
     References:
+    - https://access.redhat.com/errata/RHSA-2025:8411
     - https://access.redhat.com/security/cve/CVE-2025-3576
+    - https://bugzilla.redhat.com/2359465
     - https://bugzilla.redhat.com/show_bug.cgi?id=2359465
+    - https://errata.almalinux.org/8/ALSA-2025-8411.html
+    - https://linux.oracle.com/cve/CVE-2025-3576.html
+    - https://linux.oracle.com/errata/ELSA-2025-8411.html
+    - https://lists.debian.org/debian-lts-announce/2025/05/msg00047.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-3576
+    - https://ubuntu.com/security/notices/USN-7542-1
     - https://www.cve.org/CVERecord?id=CVE-2025-3576
     PublishedDate: '2025-04-15T06:15:44.047Z'
-    LastModifiedDate: '2025-04-15T18:39:27.967Z'
+    LastModifiedDate: '2025-06-03T03:15:27.32Z'
+  - VulnerabilityID: CVE-2025-5222
+    PkgID: libicu70@70.1-2
+    PkgName: libicu70
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libicu70@70.1-2?arch=amd64&distro=ubuntu-22.04
+      UID: 8230834b19587314
+    InstalledVersion: 70.1-2
+    Status: affected
+    Layer:
+      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
+      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-5222
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'icu: Stack buffer overflow in the SRBRoot::addTag function'
+    Description: A stack buffer overflow was found in Internationl components for unicode (ICU ). While running the genrb binary, the 'subtag' struct overflowed at the SRBRoot::addTag function. This issue may lead to memory corruption and local arbitrary code execution.
+    Severity: LOW
+    CweIDs:
+    - CWE-120
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-5222
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2368600
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-5222
+    - https://www.cve.org/CVERecord?id=CVE-2025-5222
+    PublishedDate: '2025-05-27T21:15:23.03Z'
+    LastModifiedDate: '2025-05-28T15:01:30.72Z'
   - VulnerabilityID: CVE-2025-3576
     PkgID: libk5crypto3@1.19.2-2ubuntu0.6
     PkgName: libk5crypto3
@@ -2149,7 +2390,8 @@
       PURL: pkg:deb/ubuntu/libk5crypto3@1.19.2-2ubuntu0.6?arch=amd64&distro=ubuntu-22.04
       UID: 94dfcbd4eba15b0c
     InstalledVersion: 1.19.2-2ubuntu0.6
-    Status: affected
+    FixedVersion: 1.19.2-2ubuntu0.7
+    Status: fixed
     Layer:
       Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
       DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
@@ -2165,6 +2407,8 @@
     CweIDs:
     - CWE-328
     VendorSeverity:
+      alma: 2
+      oracle-oval: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -2172,12 +2416,19 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N
         V3Score: 5.9
     References:
+    - https://access.redhat.com/errata/RHSA-2025:8411
     - https://access.redhat.com/security/cve/CVE-2025-3576
+    - https://bugzilla.redhat.com/2359465
     - https://bugzilla.redhat.com/show_bug.cgi?id=2359465
+    - https://errata.almalinux.org/8/ALSA-2025-8411.html
+    - https://linux.oracle.com/cve/CVE-2025-3576.html
+    - https://linux.oracle.com/errata/ELSA-2025-8411.html
+    - https://lists.debian.org/debian-lts-announce/2025/05/msg00047.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-3576
+    - https://ubuntu.com/security/notices/USN-7542-1
     - https://www.cve.org/CVERecord?id=CVE-2025-3576
     PublishedDate: '2025-04-15T06:15:44.047Z'
-    LastModifiedDate: '2025-04-15T18:39:27.967Z'
+    LastModifiedDate: '2025-06-03T03:15:27.32Z'
   - VulnerabilityID: CVE-2025-3576
     PkgID: libkrb5-3@1.19.2-2ubuntu0.6
     PkgName: libkrb5-3
@@ -2185,7 +2436,8 @@
       PURL: pkg:deb/ubuntu/libkrb5-3@1.19.2-2ubuntu0.6?arch=amd64&distro=ubuntu-22.04
       UID: f4ccea1c71392c97
     InstalledVersion: 1.19.2-2ubuntu0.6
-    Status: affected
+    FixedVersion: 1.19.2-2ubuntu0.7
+    Status: fixed
     Layer:
       Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
       DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
@@ -2201,6 +2453,8 @@
     CweIDs:
     - CWE-328
     VendorSeverity:
+      alma: 2
+      oracle-oval: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -2208,12 +2462,19 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N
         V3Score: 5.9
     References:
+    - https://access.redhat.com/errata/RHSA-2025:8411
     - https://access.redhat.com/security/cve/CVE-2025-3576
+    - https://bugzilla.redhat.com/2359465
     - https://bugzilla.redhat.com/show_bug.cgi?id=2359465
+    - https://errata.almalinux.org/8/ALSA-2025-8411.html
+    - https://linux.oracle.com/cve/CVE-2025-3576.html
+    - https://linux.oracle.com/errata/ELSA-2025-8411.html
+    - https://lists.debian.org/debian-lts-announce/2025/05/msg00047.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-3576
+    - https://ubuntu.com/security/notices/USN-7542-1
     - https://www.cve.org/CVERecord?id=CVE-2025-3576
     PublishedDate: '2025-04-15T06:15:44.047Z'
-    LastModifiedDate: '2025-04-15T18:39:27.967Z'
+    LastModifiedDate: '2025-06-03T03:15:27.32Z'
   - VulnerabilityID: CVE-2025-3576
     PkgID: libkrb5support0@1.19.2-2ubuntu0.6
     PkgName: libkrb5support0
@@ -2221,7 +2482,8 @@
       PURL: pkg:deb/ubuntu/libkrb5support0@1.19.2-2ubuntu0.6?arch=amd64&distro=ubuntu-22.04
       UID: 60845f20bb151fff
     InstalledVersion: 1.19.2-2ubuntu0.6
-    Status: affected
+    FixedVersion: 1.19.2-2ubuntu0.7
+    Status: fixed
     Layer:
       Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
       DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
@@ -2237,6 +2499,8 @@
     CweIDs:
     - CWE-328
     VendorSeverity:
+      alma: 2
+      oracle-oval: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -2244,12 +2508,19 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N
         V3Score: 5.9
     References:
+    - https://access.redhat.com/errata/RHSA-2025:8411
     - https://access.redhat.com/security/cve/CVE-2025-3576
+    - https://bugzilla.redhat.com/2359465
     - https://bugzilla.redhat.com/show_bug.cgi?id=2359465
+    - https://errata.almalinux.org/8/ALSA-2025-8411.html
+    - https://linux.oracle.com/cve/CVE-2025-3576.html
+    - https://linux.oracle.com/errata/ELSA-2025-8411.html
+    - https://lists.debian.org/debian-lts-announce/2025/05/msg00047.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-3576
+    - https://ubuntu.com/security/notices/USN-7542-1
     - https://www.cve.org/CVERecord?id=CVE-2025-3576
     PublishedDate: '2025-04-15T06:15:44.047Z'
-    LastModifiedDate: '2025-04-15T18:39:27.967Z'
+    LastModifiedDate: '2025-06-03T03:15:27.32Z'
   - VulnerabilityID: CVE-2023-45918
     PkgID: libncurses6@6.3-2ubuntu0.1
     PkgName: libncurses6
@@ -2410,6 +2681,63 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-50495
     PublishedDate: '2023-12-12T15:15:07.867Z'
     LastModifiedDate: '2024-11-21T08:37:04.243Z'
+  - VulnerabilityID: CVE-2025-4598
+    PkgID: libnss-systemd@249.11-0ubuntu3.12
+    PkgName: libnss-systemd
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libnss-systemd@249.11-0ubuntu3.12?arch=amd64&distro=ubuntu-22.04
+      UID: 49494fc8671c97ce
+    InstalledVersion: 249.11-0ubuntu3.12
+    FixedVersion: 249.11-0ubuntu3.16
+    Status: fixed
+    Layer:
+      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
+      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-4598
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'systemd-coredump: race condition that allows a local attacker to crash a SUID program and gain read access to the resulting core dump'
+    Description: |-
+      A vulnerability was found in systemd-coredump. This flaw allows an attacker to force a SUID process to crash and replace it with a non-SUID binary to access the original's privileged process coredump, allowing the attacker to read sensitive data, such as /etc/shadow content, loaded by the original process.
+
+      A SUID binary or process has a special type of permission, which allows the process to run with the file owner's permissions, regardless of the user executing the binary. This allows the process to access more restricted data than unprivileged users or processes would be able to. An attacker can leverage this flaw by forcing a SUID process to crash and force the Linux kernel to recycle the process PID before systemd-coredump can analyze the /proc/pid/auxv file. If the attacker wins the race condition, they gain access to the original's SUID process coredump file. They can read sensitive content loaded into memory by the original binary, affecting data confidentiality.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-364
+    VendorSeverity:
+      oracle-oval: 3
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N
+        V3Score: 4.7
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/06/05/1
+    - http://www.openwall.com/lists/oss-security/2025/06/05/3
+    - https://access.redhat.com/security/cve/CVE-2025-4598
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2369242
+    - https://git.kernel.org/linus/b5325b2a270fcaf7b2a9a0f23d422ca8a5a8bdea
+    - https://github.com/systemd/systemd/commit/0c49e0049b7665bb7769a13ef346fef92e1ad4d6 (main)
+    - https://github.com/systemd/systemd/commit/13902e025321242b1d95c6d8b4e482b37f58cdef (main)
+    - https://github.com/systemd/systemd/commit/49f1f2d4a7612bbed5211a73d11d6a94fbe3bb69 (main)
+    - https://github.com/systemd/systemd/commit/76e0ab49c47965877c19772a2b3bf55f6417ca39 (main)
+    - https://github.com/systemd/systemd/commit/868d95577ec9f862580ad365726515459be582fc (main)
+    - https://github.com/systemd/systemd/commit/8fc7b2a211eb13ef1a94250b28e1c79cab8bdcb9 (main)
+    - https://github.com/systemd/systemd/commit/9ce8e3e449def92c75ada41b7d10c5bc3946be77 (main)
+    - https://github.com/systemd/systemd/commit/e6a8687b939ab21854f12f59a3cce703e32768cf (main)
+    - https://linux.oracle.com/cve/CVE-2025-4598.html
+    - https://linux.oracle.com/errata/ELSA-2025-20344.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-4598
+    - https://ubuntu.com/security/notices/USN-7559-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-4598
+    - https://www.openwall.com/lists/oss-security/2025/05/29/3
+    - https://www.qualys.com/2025/05/29/apport-coredump/apport-coredump.txt
+    PublishedDate: '2025-05-30T14:15:23.557Z'
+    LastModifiedDate: '2025-06-05T07:15:23.047Z'
   - VulnerabilityID: CVE-2023-7008
     PkgID: libnss-systemd@249.11-0ubuntu3.12
     PkgName: libnss-systemd
@@ -2624,6 +2952,63 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-10041
     PublishedDate: '2024-10-23T14:15:03.97Z'
     LastModifiedDate: '2024-12-18T10:15:05.85Z'
+  - VulnerabilityID: CVE-2025-4598
+    PkgID: libpam-systemd@249.11-0ubuntu3.12
+    PkgName: libpam-systemd
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libpam-systemd@249.11-0ubuntu3.12?arch=amd64&distro=ubuntu-22.04
+      UID: a16fd43cbd9530ba
+    InstalledVersion: 249.11-0ubuntu3.12
+    FixedVersion: 249.11-0ubuntu3.16
+    Status: fixed
+    Layer:
+      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
+      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-4598
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'systemd-coredump: race condition that allows a local attacker to crash a SUID program and gain read access to the resulting core dump'
+    Description: |-
+      A vulnerability was found in systemd-coredump. This flaw allows an attacker to force a SUID process to crash and replace it with a non-SUID binary to access the original's privileged process coredump, allowing the attacker to read sensitive data, such as /etc/shadow content, loaded by the original process.
+
+      A SUID binary or process has a special type of permission, which allows the process to run with the file owner's permissions, regardless of the user executing the binary. This allows the process to access more restricted data than unprivileged users or processes would be able to. An attacker can leverage this flaw by forcing a SUID process to crash and force the Linux kernel to recycle the process PID before systemd-coredump can analyze the /proc/pid/auxv file. If the attacker wins the race condition, they gain access to the original's SUID process coredump file. They can read sensitive content loaded into memory by the original binary, affecting data confidentiality.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-364
+    VendorSeverity:
+      oracle-oval: 3
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N
+        V3Score: 4.7
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/06/05/1
+    - http://www.openwall.com/lists/oss-security/2025/06/05/3
+    - https://access.redhat.com/security/cve/CVE-2025-4598
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2369242
+    - https://git.kernel.org/linus/b5325b2a270fcaf7b2a9a0f23d422ca8a5a8bdea
+    - https://github.com/systemd/systemd/commit/0c49e0049b7665bb7769a13ef346fef92e1ad4d6 (main)
+    - https://github.com/systemd/systemd/commit/13902e025321242b1d95c6d8b4e482b37f58cdef (main)
+    - https://github.com/systemd/systemd/commit/49f1f2d4a7612bbed5211a73d11d6a94fbe3bb69 (main)
+    - https://github.com/systemd/systemd/commit/76e0ab49c47965877c19772a2b3bf55f6417ca39 (main)
+    - https://github.com/systemd/systemd/commit/868d95577ec9f862580ad365726515459be582fc (main)
+    - https://github.com/systemd/systemd/commit/8fc7b2a211eb13ef1a94250b28e1c79cab8bdcb9 (main)
+    - https://github.com/systemd/systemd/commit/9ce8e3e449def92c75ada41b7d10c5bc3946be77 (main)
+    - https://github.com/systemd/systemd/commit/e6a8687b939ab21854f12f59a3cce703e32768cf (main)
+    - https://linux.oracle.com/cve/CVE-2025-4598.html
+    - https://linux.oracle.com/errata/ELSA-2025-20344.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-4598
+    - https://ubuntu.com/security/notices/USN-7559-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-4598
+    - https://www.openwall.com/lists/oss-security/2025/05/29/3
+    - https://www.qualys.com/2025/05/29/apport-coredump/apport-coredump.txt
+    PublishedDate: '2025-05-30T14:15:23.557Z'
+    LastModifiedDate: '2025-06-05T07:15:23.047Z'
   - VulnerabilityID: CVE-2023-7008
     PkgID: libpam-systemd@249.11-0ubuntu3.12
     PkgName: libpam-systemd
@@ -2899,7 +3284,7 @@
     - CWE-190
     - CWE-400
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       bitnami: 3
       photon: 3
       redhat: 2
@@ -3075,6 +3460,63 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-4039
     PublishedDate: '2023-09-13T09:15:15.69Z'
     LastModifiedDate: '2025-02-13T17:17:14.717Z'
+  - VulnerabilityID: CVE-2025-4598
+    PkgID: libsystemd0@249.11-0ubuntu3.12
+    PkgName: libsystemd0
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libsystemd0@249.11-0ubuntu3.12?arch=amd64&distro=ubuntu-22.04
+      UID: f4f79805aa463487
+    InstalledVersion: 249.11-0ubuntu3.12
+    FixedVersion: 249.11-0ubuntu3.16
+    Status: fixed
+    Layer:
+      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
+      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-4598
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'systemd-coredump: race condition that allows a local attacker to crash a SUID program and gain read access to the resulting core dump'
+    Description: |-
+      A vulnerability was found in systemd-coredump. This flaw allows an attacker to force a SUID process to crash and replace it with a non-SUID binary to access the original's privileged process coredump, allowing the attacker to read sensitive data, such as /etc/shadow content, loaded by the original process.
+
+      A SUID binary or process has a special type of permission, which allows the process to run with the file owner's permissions, regardless of the user executing the binary. This allows the process to access more restricted data than unprivileged users or processes would be able to. An attacker can leverage this flaw by forcing a SUID process to crash and force the Linux kernel to recycle the process PID before systemd-coredump can analyze the /proc/pid/auxv file. If the attacker wins the race condition, they gain access to the original's SUID process coredump file. They can read sensitive content loaded into memory by the original binary, affecting data confidentiality.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-364
+    VendorSeverity:
+      oracle-oval: 3
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N
+        V3Score: 4.7
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/06/05/1
+    - http://www.openwall.com/lists/oss-security/2025/06/05/3
+    - https://access.redhat.com/security/cve/CVE-2025-4598
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2369242
+    - https://git.kernel.org/linus/b5325b2a270fcaf7b2a9a0f23d422ca8a5a8bdea
+    - https://github.com/systemd/systemd/commit/0c49e0049b7665bb7769a13ef346fef92e1ad4d6 (main)
+    - https://github.com/systemd/systemd/commit/13902e025321242b1d95c6d8b4e482b37f58cdef (main)
+    - https://github.com/systemd/systemd/commit/49f1f2d4a7612bbed5211a73d11d6a94fbe3bb69 (main)
+    - https://github.com/systemd/systemd/commit/76e0ab49c47965877c19772a2b3bf55f6417ca39 (main)
+    - https://github.com/systemd/systemd/commit/868d95577ec9f862580ad365726515459be582fc (main)
+    - https://github.com/systemd/systemd/commit/8fc7b2a211eb13ef1a94250b28e1c79cab8bdcb9 (main)
+    - https://github.com/systemd/systemd/commit/9ce8e3e449def92c75ada41b7d10c5bc3946be77 (main)
+    - https://github.com/systemd/systemd/commit/e6a8687b939ab21854f12f59a3cce703e32768cf (main)
+    - https://linux.oracle.com/cve/CVE-2025-4598.html
+    - https://linux.oracle.com/errata/ELSA-2025-20344.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-4598
+    - https://ubuntu.com/security/notices/USN-7559-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-4598
+    - https://www.openwall.com/lists/oss-security/2025/05/29/3
+    - https://www.qualys.com/2025/05/29/apport-coredump/apport-coredump.txt
+    PublishedDate: '2025-05-30T14:15:23.557Z'
+    LastModifiedDate: '2025-06-05T07:15:23.047Z'
   - VulnerabilityID: CVE-2023-7008
     PkgID: libsystemd0@249.11-0ubuntu3.12
     PkgName: libsystemd0
@@ -3213,6 +3655,63 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-50495
     PublishedDate: '2023-12-12T15:15:07.867Z'
     LastModifiedDate: '2024-11-21T08:37:04.243Z'
+  - VulnerabilityID: CVE-2025-4598
+    PkgID: libudev1@249.11-0ubuntu3.12
+    PkgName: libudev1
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libudev1@249.11-0ubuntu3.12?arch=amd64&distro=ubuntu-22.04
+      UID: 50a557622aee491d
+    InstalledVersion: 249.11-0ubuntu3.12
+    FixedVersion: 249.11-0ubuntu3.16
+    Status: fixed
+    Layer:
+      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
+      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-4598
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'systemd-coredump: race condition that allows a local attacker to crash a SUID program and gain read access to the resulting core dump'
+    Description: |-
+      A vulnerability was found in systemd-coredump. This flaw allows an attacker to force a SUID process to crash and replace it with a non-SUID binary to access the original's privileged process coredump, allowing the attacker to read sensitive data, such as /etc/shadow content, loaded by the original process.
+
+      A SUID binary or process has a special type of permission, which allows the process to run with the file owner's permissions, regardless of the user executing the binary. This allows the process to access more restricted data than unprivileged users or processes would be able to. An attacker can leverage this flaw by forcing a SUID process to crash and force the Linux kernel to recycle the process PID before systemd-coredump can analyze the /proc/pid/auxv file. If the attacker wins the race condition, they gain access to the original's SUID process coredump file. They can read sensitive content loaded into memory by the original binary, affecting data confidentiality.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-364
+    VendorSeverity:
+      oracle-oval: 3
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N
+        V3Score: 4.7
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/06/05/1
+    - http://www.openwall.com/lists/oss-security/2025/06/05/3
+    - https://access.redhat.com/security/cve/CVE-2025-4598
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2369242
+    - https://git.kernel.org/linus/b5325b2a270fcaf7b2a9a0f23d422ca8a5a8bdea
+    - https://github.com/systemd/systemd/commit/0c49e0049b7665bb7769a13ef346fef92e1ad4d6 (main)
+    - https://github.com/systemd/systemd/commit/13902e025321242b1d95c6d8b4e482b37f58cdef (main)
+    - https://github.com/systemd/systemd/commit/49f1f2d4a7612bbed5211a73d11d6a94fbe3bb69 (main)
+    - https://github.com/systemd/systemd/commit/76e0ab49c47965877c19772a2b3bf55f6417ca39 (main)
+    - https://github.com/systemd/systemd/commit/868d95577ec9f862580ad365726515459be582fc (main)
+    - https://github.com/systemd/systemd/commit/8fc7b2a211eb13ef1a94250b28e1c79cab8bdcb9 (main)
+    - https://github.com/systemd/systemd/commit/9ce8e3e449def92c75ada41b7d10c5bc3946be77 (main)
+    - https://github.com/systemd/systemd/commit/e6a8687b939ab21854f12f59a3cce703e32768cf (main)
+    - https://linux.oracle.com/cve/CVE-2025-4598.html
+    - https://linux.oracle.com/errata/ELSA-2025-20344.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-4598
+    - https://ubuntu.com/security/notices/USN-7559-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-4598
+    - https://www.openwall.com/lists/oss-security/2025/05/29/3
+    - https://www.qualys.com/2025/05/29/apport-coredump/apport-coredump.txt
+    PublishedDate: '2025-05-30T14:15:23.557Z'
+    LastModifiedDate: '2025-06-05T07:15:23.047Z'
   - VulnerabilityID: CVE-2023-7008
     PkgID: libudev1@249.11-0ubuntu3.12
     PkgName: libudev1
@@ -3297,6 +3796,7 @@
     - CWE-252
     VendorSeverity:
       amazon: 2
+      azure: 2
       nvd: 3
       photon: 3
       redhat: 2
@@ -3343,6 +3843,7 @@
     - CWE-125
     VendorSeverity:
       amazon: 2
+      azure: 1
       nvd: 3
       photon: 1
       redhat: 1
@@ -3573,7 +4074,7 @@
     - CWE-1188
     VendorSeverity:
       azure: 1
-      redhat: 1
+      redhat: 2
       ubuntu: 1
     CVSS:
       redhat:
@@ -3835,7 +4336,8 @@
       PURL: pkg:deb/ubuntu/net-tools@1.60%2Bgit20181103.0eebece-1ubuntu5?arch=amd64&distro=ubuntu-22.04
       UID: d541c6d9beb728c5
     InstalledVersion: 1.60+git20181103.0eebece-1ubuntu5
-    Status: affected
+    FixedVersion: 1.60+git20181103.0eebece-1ubuntu5.4
+    Status: fixed
     Layer:
       Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
       DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
@@ -3862,10 +4364,13 @@
     - https://access.redhat.com/security/cve/CVE-2025-46836
     - https://github.com/ecki/net-tools/commit/7a8f42fb20013a1493d8cae1c43436f85e656f2d
     - https://github.com/ecki/net-tools/security/advisories/GHSA-pfwf-h6m3-63wf
+    - https://lists.debian.org/debian-lts-announce/2025/05/msg00053.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-46836
+    - https://ubuntu.com/security/notices/USN-7537-1
+    - https://ubuntu.com/security/notices/USN-7537-2
     - https://www.cve.org/CVERecord?id=CVE-2025-46836
     PublishedDate: '2025-05-14T23:15:48.073Z'
-    LastModifiedDate: '2025-05-16T14:43:26.16Z'
+    LastModifiedDate: '2025-05-31T23:15:20.4Z'
   - VulnerabilityID: CVE-2025-32728
     PkgID: openssh-client@1:8.9p1-3ubuntu0.11
     PkgName: openssh-client
@@ -4131,7 +4636,7 @@
     - CWE-1188
     VendorSeverity:
       azure: 1
-      redhat: 1
+      redhat: 2
       ubuntu: 1
     CVSS:
       redhat:
@@ -4290,6 +4795,63 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-56406
     PublishedDate: '2025-04-13T14:15:14.527Z'
     LastModifiedDate: '2025-04-30T15:21:11.547Z'
+  - VulnerabilityID: CVE-2025-4598
+    PkgID: systemd@249.11-0ubuntu3.12
+    PkgName: systemd
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/systemd@249.11-0ubuntu3.12?arch=amd64&distro=ubuntu-22.04
+      UID: ad2f0fb2d9e7312e
+    InstalledVersion: 249.11-0ubuntu3.12
+    FixedVersion: 249.11-0ubuntu3.16
+    Status: fixed
+    Layer:
+      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
+      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-4598
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'systemd-coredump: race condition that allows a local attacker to crash a SUID program and gain read access to the resulting core dump'
+    Description: |-
+      A vulnerability was found in systemd-coredump. This flaw allows an attacker to force a SUID process to crash and replace it with a non-SUID binary to access the original's privileged process coredump, allowing the attacker to read sensitive data, such as /etc/shadow content, loaded by the original process.
+
+      A SUID binary or process has a special type of permission, which allows the process to run with the file owner's permissions, regardless of the user executing the binary. This allows the process to access more restricted data than unprivileged users or processes would be able to. An attacker can leverage this flaw by forcing a SUID process to crash and force the Linux kernel to recycle the process PID before systemd-coredump can analyze the /proc/pid/auxv file. If the attacker wins the race condition, they gain access to the original's SUID process coredump file. They can read sensitive content loaded into memory by the original binary, affecting data confidentiality.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-364
+    VendorSeverity:
+      oracle-oval: 3
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N
+        V3Score: 4.7
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/06/05/1
+    - http://www.openwall.com/lists/oss-security/2025/06/05/3
+    - https://access.redhat.com/security/cve/CVE-2025-4598
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2369242
+    - https://git.kernel.org/linus/b5325b2a270fcaf7b2a9a0f23d422ca8a5a8bdea
+    - https://github.com/systemd/systemd/commit/0c49e0049b7665bb7769a13ef346fef92e1ad4d6 (main)
+    - https://github.com/systemd/systemd/commit/13902e025321242b1d95c6d8b4e482b37f58cdef (main)
+    - https://github.com/systemd/systemd/commit/49f1f2d4a7612bbed5211a73d11d6a94fbe3bb69 (main)
+    - https://github.com/systemd/systemd/commit/76e0ab49c47965877c19772a2b3bf55f6417ca39 (main)
+    - https://github.com/systemd/systemd/commit/868d95577ec9f862580ad365726515459be582fc (main)
+    - https://github.com/systemd/systemd/commit/8fc7b2a211eb13ef1a94250b28e1c79cab8bdcb9 (main)
+    - https://github.com/systemd/systemd/commit/9ce8e3e449def92c75ada41b7d10c5bc3946be77 (main)
+    - https://github.com/systemd/systemd/commit/e6a8687b939ab21854f12f59a3cce703e32768cf (main)
+    - https://linux.oracle.com/cve/CVE-2025-4598.html
+    - https://linux.oracle.com/errata/ELSA-2025-20344.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-4598
+    - https://ubuntu.com/security/notices/USN-7559-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-4598
+    - https://www.openwall.com/lists/oss-security/2025/05/29/3
+    - https://www.qualys.com/2025/05/29/apport-coredump/apport-coredump.txt
+    PublishedDate: '2025-05-30T14:15:23.557Z'
+    LastModifiedDate: '2025-06-05T07:15:23.047Z'
   - VulnerabilityID: CVE-2023-7008
     PkgID: systemd@249.11-0ubuntu3.12
     PkgName: systemd
@@ -4348,6 +4910,63 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-7008
     PublishedDate: '2023-12-23T13:15:07.573Z'
     LastModifiedDate: '2024-11-22T12:15:17.59Z'
+  - VulnerabilityID: CVE-2025-4598
+    PkgID: systemd-sysv@249.11-0ubuntu3.12
+    PkgName: systemd-sysv
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/systemd-sysv@249.11-0ubuntu3.12?arch=amd64&distro=ubuntu-22.04
+      UID: bf1e04b48793e4de
+    InstalledVersion: 249.11-0ubuntu3.12
+    FixedVersion: 249.11-0ubuntu3.16
+    Status: fixed
+    Layer:
+      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
+      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-4598
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'systemd-coredump: race condition that allows a local attacker to crash a SUID program and gain read access to the resulting core dump'
+    Description: |-
+      A vulnerability was found in systemd-coredump. This flaw allows an attacker to force a SUID process to crash and replace it with a non-SUID binary to access the original's privileged process coredump, allowing the attacker to read sensitive data, such as /etc/shadow content, loaded by the original process.
+
+      A SUID binary or process has a special type of permission, which allows the process to run with the file owner's permissions, regardless of the user executing the binary. This allows the process to access more restricted data than unprivileged users or processes would be able to. An attacker can leverage this flaw by forcing a SUID process to crash and force the Linux kernel to recycle the process PID before systemd-coredump can analyze the /proc/pid/auxv file. If the attacker wins the race condition, they gain access to the original's SUID process coredump file. They can read sensitive content loaded into memory by the original binary, affecting data confidentiality.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-364
+    VendorSeverity:
+      oracle-oval: 3
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N
+        V3Score: 4.7
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/06/05/1
+    - http://www.openwall.com/lists/oss-security/2025/06/05/3
+    - https://access.redhat.com/security/cve/CVE-2025-4598
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2369242
+    - https://git.kernel.org/linus/b5325b2a270fcaf7b2a9a0f23d422ca8a5a8bdea
+    - https://github.com/systemd/systemd/commit/0c49e0049b7665bb7769a13ef346fef92e1ad4d6 (main)
+    - https://github.com/systemd/systemd/commit/13902e025321242b1d95c6d8b4e482b37f58cdef (main)
+    - https://github.com/systemd/systemd/commit/49f1f2d4a7612bbed5211a73d11d6a94fbe3bb69 (main)
+    - https://github.com/systemd/systemd/commit/76e0ab49c47965877c19772a2b3bf55f6417ca39 (main)
+    - https://github.com/systemd/systemd/commit/868d95577ec9f862580ad365726515459be582fc (main)
+    - https://github.com/systemd/systemd/commit/8fc7b2a211eb13ef1a94250b28e1c79cab8bdcb9 (main)
+    - https://github.com/systemd/systemd/commit/9ce8e3e449def92c75ada41b7d10c5bc3946be77 (main)
+    - https://github.com/systemd/systemd/commit/e6a8687b939ab21854f12f59a3cce703e32768cf (main)
+    - https://linux.oracle.com/cve/CVE-2025-4598.html
+    - https://linux.oracle.com/errata/ELSA-2025-20344.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-4598
+    - https://ubuntu.com/security/notices/USN-7559-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-4598
+    - https://www.openwall.com/lists/oss-security/2025/05/29/3
+    - https://www.qualys.com/2025/05/29/apport-coredump/apport-coredump.txt
+    PublishedDate: '2025-05-30T14:15:23.557Z'
+    LastModifiedDate: '2025-06-05T07:15:23.047Z'
   - VulnerabilityID: CVE-2023-7008
     PkgID: systemd-sysv@249.11-0ubuntu3.12
     PkgName: systemd-sysv
@@ -4406,6 +5025,63 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-7008
     PublishedDate: '2023-12-23T13:15:07.573Z'
     LastModifiedDate: '2024-11-22T12:15:17.59Z'
+  - VulnerabilityID: CVE-2025-4598
+    PkgID: systemd-timesyncd@249.11-0ubuntu3.12
+    PkgName: systemd-timesyncd
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/systemd-timesyncd@249.11-0ubuntu3.12?arch=amd64&distro=ubuntu-22.04
+      UID: 3147b8574d7074f0
+    InstalledVersion: 249.11-0ubuntu3.12
+    FixedVersion: 249.11-0ubuntu3.16
+    Status: fixed
+    Layer:
+      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
+      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-4598
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'systemd-coredump: race condition that allows a local attacker to crash a SUID program and gain read access to the resulting core dump'
+    Description: |-
+      A vulnerability was found in systemd-coredump. This flaw allows an attacker to force a SUID process to crash and replace it with a non-SUID binary to access the original's privileged process coredump, allowing the attacker to read sensitive data, such as /etc/shadow content, loaded by the original process.
+
+      A SUID binary or process has a special type of permission, which allows the process to run with the file owner's permissions, regardless of the user executing the binary. This allows the process to access more restricted data than unprivileged users or processes would be able to. An attacker can leverage this flaw by forcing a SUID process to crash and force the Linux kernel to recycle the process PID before systemd-coredump can analyze the /proc/pid/auxv file. If the attacker wins the race condition, they gain access to the original's SUID process coredump file. They can read sensitive content loaded into memory by the original binary, affecting data confidentiality.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-364
+    VendorSeverity:
+      oracle-oval: 3
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N
+        V3Score: 4.7
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/06/05/1
+    - http://www.openwall.com/lists/oss-security/2025/06/05/3
+    - https://access.redhat.com/security/cve/CVE-2025-4598
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2369242
+    - https://git.kernel.org/linus/b5325b2a270fcaf7b2a9a0f23d422ca8a5a8bdea
+    - https://github.com/systemd/systemd/commit/0c49e0049b7665bb7769a13ef346fef92e1ad4d6 (main)
+    - https://github.com/systemd/systemd/commit/13902e025321242b1d95c6d8b4e482b37f58cdef (main)
+    - https://github.com/systemd/systemd/commit/49f1f2d4a7612bbed5211a73d11d6a94fbe3bb69 (main)
+    - https://github.com/systemd/systemd/commit/76e0ab49c47965877c19772a2b3bf55f6417ca39 (main)
+    - https://github.com/systemd/systemd/commit/868d95577ec9f862580ad365726515459be582fc (main)
+    - https://github.com/systemd/systemd/commit/8fc7b2a211eb13ef1a94250b28e1c79cab8bdcb9 (main)
+    - https://github.com/systemd/systemd/commit/9ce8e3e449def92c75ada41b7d10c5bc3946be77 (main)
+    - https://github.com/systemd/systemd/commit/e6a8687b939ab21854f12f59a3cce703e32768cf (main)
+    - https://linux.oracle.com/cve/CVE-2025-4598.html
+    - https://linux.oracle.com/errata/ELSA-2025-20344.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-4598
+    - https://ubuntu.com/security/notices/USN-7559-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-4598
+    - https://www.openwall.com/lists/oss-security/2025/05/29/3
+    - https://www.qualys.com/2025/05/29/apport-coredump/apport-coredump.txt
+    PublishedDate: '2025-05-30T14:15:23.557Z'
+    LastModifiedDate: '2025-06-05T07:15:23.047Z'
   - VulnerabilityID: CVE-2023-7008
     PkgID: systemd-timesyncd@249.11-0ubuntu3.12
     PkgName: systemd-timesyncd
@@ -4534,7 +5210,7 @@
     - CWE-1188
     VendorSeverity:
       azure: 1
-      redhat: 1
+      redhat: 2
       ubuntu: 1
     CVSS:
       redhat:
@@ -4576,6 +5252,7 @@
       amazon: 2
       azure: 2
       cbl-mariner: 2
+      photon: 2
       redhat: 1
       ubuntu: 2
     CVSS:
@@ -4620,6 +5297,7 @@
       amazon: 2
       azure: 2
       cbl-mariner: 2
+      photon: 2
       redhat: 1
       ubuntu: 2
     CVSS:
@@ -4664,6 +5342,7 @@
       amazon: 2
       azure: 2
       cbl-mariner: 2
+      photon: 2
       redhat: 1
       ubuntu: 2
     CVSS:
@@ -4755,6 +5434,7 @@
       amazon: 2
       azure: 2
       cbl-mariner: 2
+      photon: 2
       redhat: 1
       ubuntu: 2
     CVSS:
@@ -4947,6 +5627,7 @@
       cbl-mariner: 2
       ghsa: 2
       redhat: 2
+      ubuntu: 2
     CVSS:
       ghsa:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:L
@@ -4957,9 +5638,11 @@
     References:
     - http://www.openwall.com/lists/oss-security/2025/03/07/2
     - https://access.redhat.com/security/cve/CVE-2025-22870
+    - https://github.com/golang/go/issues/71984
     - https://go-review.googlesource.com/q/project:net
     - https://go.dev/cl/654697
     - https://go.dev/issue/71984
+    - https://groups.google.com/g/golang-announce/c/4t3lzH3I0eI/m/b42ImqrBAQAJ
     - https://nvd.nist.gov/vuln/detail/CVE-2025-22870
     - https://pkg.go.dev/vuln/GO-2025-3503
     - https://security.netapp.com/advisory/ntap-20250509-0007
@@ -4989,6 +5672,7 @@
     Description: The tokenizer incorrectly interprets tags with unquoted attribute values that end with a solidus character (/) as self-closing. When directly using Tokenizer, this can result in such tags incorrectly being marked as self-closing, and when using the Parse functions, this can result in content following such tags as being placed in the wrong scope during DOM construction, but only when tags are in foreign content (e.g. <math>, <svg>, etc contexts).
     Severity: MEDIUM
     VendorSeverity:
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       ghsa: 2
@@ -5031,9 +5715,11 @@
     Description: The net/http package improperly accepts a bare LF as a line terminator in chunked data chunk-size lines. This can permit request smuggling if a net/http server is used in conjunction with a server that incorrectly accepts a bare LF as part of a chunk-ext.
     Severity: MEDIUM
     VendorSeverity:
+      alma: 2
       amazon: 3
       bitnami: 4
       cbl-mariner: 3
+      oracle-oval: 2
       redhat: 2
     CVSS:
       bitnami:
@@ -5044,15 +5730,102 @@
         V3Score: 5.4
     References:
     - http://www.openwall.com/lists/oss-security/2025/04/04/4
+    - https://access.redhat.com/errata/RHSA-2025:8476
     - https://access.redhat.com/security/cve/CVE-2025-22871
+    - https://bugzilla.redhat.com/2358493
+    - https://errata.almalinux.org/9/ALSA-2025-8476.html
     - https://go.dev/cl/652998
     - https://go.dev/issue/71988
     - https://groups.google.com/g/golang-announce/c/Y2uBTVKjBQk
+    - https://linux.oracle.com/cve/CVE-2025-22871.html
+    - https://linux.oracle.com/errata/ELSA-2025-8682.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-22871
     - https://pkg.go.dev/vuln/GO-2025-3563
     - https://www.cve.org/CVERecord?id=CVE-2025-22871
     PublishedDate: '2025-04-08T20:15:20.183Z'
     LastModifiedDate: '2025-04-18T15:15:57.923Z'
+  - VulnerabilityID: CVE-2025-4673
+    PkgID: stdlib@v1.24.1
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@v1.24.1
+      UID: 2add7c57bc4db0d1
+    InstalledVersion: v1.24.1
+    FixedVersion: 1.23.10, 1.24.4
+    Status: fixed
+    Layer:
+      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
+      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-4673
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: Proxy-Authorization and Proxy-Authenticate headers persisted on cross- ...
+    Description: Proxy-Authorization and Proxy-Authenticate headers persisted on cross-origin redirects potentially leaking sensitive information.
+    Severity: MEDIUM
+    VendorSeverity:
+      ubuntu: 2
+    References:
+    - https://go.dev/cl/679257
+    - https://go.dev/issue/73816
+    - https://groups.google.com/g/golang-announce/c/ufZ8WpEsA3A
+    - https://pkg.go.dev/vuln/GO-2025-3751
+    - https://www.cve.org/CVERecord?id=CVE-2025-4673
+    PublishedDate: '2025-06-11T17:15:42.993Z'
+    LastModifiedDate: '2025-06-11T17:15:42.993Z'
+  - VulnerabilityID: CVE-2025-0913
+    PkgID: stdlib@v1.24.1
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@v1.24.1
+      UID: 2add7c57bc4db0d1
+    InstalledVersion: v1.24.1
+    FixedVersion: 1.23.10, 1.24.4
+    Status: fixed
+    Layer:
+      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
+      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-0913
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: Inconsistent handling of O_CREATE|O_EXCL on Unix and Windows in os in syscall
+    Description: os.OpenFile(path, os.O_CREATE|O_EXCL) behaved differently on Unix and Windows systems when the target path was a dangling symlink. On Unix systems, OpenFile with O_CREATE and O_EXCL flags never follows symlinks. On Windows, when the target path was a symlink to a nonexistent location, OpenFile would create a file in that location. OpenFile now always returns an error when the O_CREATE and O_EXCL flags are both set and the target path is a symlink.
+    Severity: UNKNOWN
+    References:
+    - https://go.dev/cl/672396
+    - https://go.dev/issue/73702
+    - https://groups.google.com/g/golang-announce/c/ufZ8WpEsA3A
+    - https://pkg.go.dev/vuln/GO-2025-3750
+  - VulnerabilityID: CVE-2025-22874
+    PkgID: stdlib@v1.24.1
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@v1.24.1
+      UID: 2add7c57bc4db0d1
+    InstalledVersion: v1.24.1
+    FixedVersion: 1.23.10, 1.24.4
+    Status: fixed
+    Layer:
+      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
+      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-22874
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: Calling Verify with a VerifyOptions.KeyUsages that contains ExtKeyUsag ...
+    Description: Calling Verify with a VerifyOptions.KeyUsages that contains ExtKeyUsageAny unintentionally disabledpolicy validation. This only affected certificate chains which contain policy graphs, which are rather uncommon.
+    Severity: UNKNOWN
+    References:
+    - https://go.dev/cl/670375
+    - https://go.dev/issue/73612
+    - https://groups.google.com/g/golang-announce/c/ufZ8WpEsA3A
+    - https://pkg.go.dev/vuln/GO-2025-3749
+    PublishedDate: '2025-06-11T17:15:42.167Z'
+    LastModifiedDate: '2025-06-11T17:15:42.167Z'
 - Target: tmp/tmp.rYlCZdukWB/krew-linux_amd64
   Class: lang-pkgs
   Type: gobinary
@@ -5169,6 +5942,7 @@
       cbl-mariner: 2
       ghsa: 2
       redhat: 2
+      ubuntu: 2
     CVSS:
       ghsa:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:L
@@ -5179,9 +5953,11 @@
     References:
     - http://www.openwall.com/lists/oss-security/2025/03/07/2
     - https://access.redhat.com/security/cve/CVE-2025-22870
+    - https://github.com/golang/go/issues/71984
     - https://go-review.googlesource.com/q/project:net
     - https://go.dev/cl/654697
     - https://go.dev/issue/71984
+    - https://groups.google.com/g/golang-announce/c/4t3lzH3I0eI/m/b42ImqrBAQAJ
     - https://nvd.nist.gov/vuln/detail/CVE-2025-22870
     - https://pkg.go.dev/vuln/GO-2025-3503
     - https://security.netapp.com/advisory/ntap-20250509-0007
@@ -5211,6 +5987,7 @@
     Description: The tokenizer incorrectly interprets tags with unquoted attribute values that end with a solidus character (/) as self-closing. When directly using Tokenizer, this can result in such tags incorrectly being marked as self-closing, and when using the Parse functions, this can result in content following such tags as being placed in the wrong scope during DOM construction, but only when tags are in foreign content (e.g. <math>, <svg>, etc contexts).
     Severity: MEDIUM
     VendorSeverity:
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       ghsa: 2
@@ -5253,9 +6030,11 @@
     Description: The net/http package improperly accepts a bare LF as a line terminator in chunked data chunk-size lines. This can permit request smuggling if a net/http server is used in conjunction with a server that incorrectly accepts a bare LF as part of a chunk-ext.
     Severity: MEDIUM
     VendorSeverity:
+      alma: 2
       amazon: 3
       bitnami: 4
       cbl-mariner: 3
+      oracle-oval: 2
       redhat: 2
     CVSS:
       bitnami:
@@ -5266,15 +6045,102 @@
         V3Score: 5.4
     References:
     - http://www.openwall.com/lists/oss-security/2025/04/04/4
+    - https://access.redhat.com/errata/RHSA-2025:8476
     - https://access.redhat.com/security/cve/CVE-2025-22871
+    - https://bugzilla.redhat.com/2358493
+    - https://errata.almalinux.org/9/ALSA-2025-8476.html
     - https://go.dev/cl/652998
     - https://go.dev/issue/71988
     - https://groups.google.com/g/golang-announce/c/Y2uBTVKjBQk
+    - https://linux.oracle.com/cve/CVE-2025-22871.html
+    - https://linux.oracle.com/errata/ELSA-2025-8682.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-22871
     - https://pkg.go.dev/vuln/GO-2025-3563
     - https://www.cve.org/CVERecord?id=CVE-2025-22871
     PublishedDate: '2025-04-08T20:15:20.183Z'
     LastModifiedDate: '2025-04-18T15:15:57.923Z'
+  - VulnerabilityID: CVE-2025-4673
+    PkgID: stdlib@v1.24.1
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@v1.24.1
+      UID: 6a2f8f56c5fff27e
+    InstalledVersion: v1.24.1
+    FixedVersion: 1.23.10, 1.24.4
+    Status: fixed
+    Layer:
+      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
+      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-4673
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: Proxy-Authorization and Proxy-Authenticate headers persisted on cross- ...
+    Description: Proxy-Authorization and Proxy-Authenticate headers persisted on cross-origin redirects potentially leaking sensitive information.
+    Severity: MEDIUM
+    VendorSeverity:
+      ubuntu: 2
+    References:
+    - https://go.dev/cl/679257
+    - https://go.dev/issue/73816
+    - https://groups.google.com/g/golang-announce/c/ufZ8WpEsA3A
+    - https://pkg.go.dev/vuln/GO-2025-3751
+    - https://www.cve.org/CVERecord?id=CVE-2025-4673
+    PublishedDate: '2025-06-11T17:15:42.993Z'
+    LastModifiedDate: '2025-06-11T17:15:42.993Z'
+  - VulnerabilityID: CVE-2025-0913
+    PkgID: stdlib@v1.24.1
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@v1.24.1
+      UID: 6a2f8f56c5fff27e
+    InstalledVersion: v1.24.1
+    FixedVersion: 1.23.10, 1.24.4
+    Status: fixed
+    Layer:
+      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
+      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-0913
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: Inconsistent handling of O_CREATE|O_EXCL on Unix and Windows in os in syscall
+    Description: os.OpenFile(path, os.O_CREATE|O_EXCL) behaved differently on Unix and Windows systems when the target path was a dangling symlink. On Unix systems, OpenFile with O_CREATE and O_EXCL flags never follows symlinks. On Windows, when the target path was a symlink to a nonexistent location, OpenFile would create a file in that location. OpenFile now always returns an error when the O_CREATE and O_EXCL flags are both set and the target path is a symlink.
+    Severity: UNKNOWN
+    References:
+    - https://go.dev/cl/672396
+    - https://go.dev/issue/73702
+    - https://groups.google.com/g/golang-announce/c/ufZ8WpEsA3A
+    - https://pkg.go.dev/vuln/GO-2025-3750
+  - VulnerabilityID: CVE-2025-22874
+    PkgID: stdlib@v1.24.1
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@v1.24.1
+      UID: 6a2f8f56c5fff27e
+    InstalledVersion: v1.24.1
+    FixedVersion: 1.23.10, 1.24.4
+    Status: fixed
+    Layer:
+      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
+      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-22874
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: Calling Verify with a VerifyOptions.KeyUsages that contains ExtKeyUsag ...
+    Description: Calling Verify with a VerifyOptions.KeyUsages that contains ExtKeyUsageAny unintentionally disabledpolicy validation. This only affected certificate chains which contain policy graphs, which are rather uncommon.
+    Severity: UNKNOWN
+    References:
+    - https://go.dev/cl/670375
+    - https://go.dev/issue/73612
+    - https://groups.google.com/g/golang-announce/c/ufZ8WpEsA3A
+    - https://pkg.go.dev/vuln/GO-2025-3749
+    PublishedDate: '2025-06-11T17:15:42.167Z'
+    LastModifiedDate: '2025-06-11T17:15:42.167Z'
 - Target: usr/bin/docker-compose
   Class: lang-pkgs
   Type: gobinary
@@ -5366,6 +6232,7 @@
     - https://github.com/containerd/containerd
     - https://github.com/containerd/containerd/security/advisories/GHSA-cxfp-7pvr-95ff
     - https://nvd.nist.gov/vuln/detail/CVE-2025-47291
+    - https://pkg.go.dev/vuln/GO-2025-3701
     - https://www.cve.org/CVERecord?id=CVE-2025-47291
     PublishedDate: '2025-05-21T18:15:52.853Z'
     LastModifiedDate: '2025-05-21T20:24:58.133Z'
@@ -5393,6 +6260,7 @@
     CweIDs:
     - CWE-532
     VendorSeverity:
+      azure: 2
       ghsa: 2
     References:
     - https://github.com/docker/buildx
@@ -5439,10 +6307,10 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2025:7404
+    - https://access.redhat.com/errata/RHSA-2025:7425
     - https://access.redhat.com/security/cve/CVE-2025-30204
     - https://bugzilla.redhat.com/2354195
-    - https://errata.almalinux.org/9/ALSA-2025-7404.html
+    - https://errata.almalinux.org/9/ALSA-2025-7425.html
     - https://github.com/golang-jwt/jwt
     - https://github.com/golang-jwt/jwt/commit/0951d184286dece21f73c85673fd308786ffe9c3
     - https://github.com/golang-jwt/jwt/commit/bf316c48137a1212f8d0af9288cc9ce8e59f1afb
@@ -5541,6 +6409,7 @@
       cbl-mariner: 2
       ghsa: 2
       redhat: 2
+      ubuntu: 2
     CVSS:
       ghsa:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:L
@@ -5551,9 +6420,11 @@
     References:
     - http://www.openwall.com/lists/oss-security/2025/03/07/2
     - https://access.redhat.com/security/cve/CVE-2025-22870
+    - https://github.com/golang/go/issues/71984
     - https://go-review.googlesource.com/q/project:net
     - https://go.dev/cl/654697
     - https://go.dev/issue/71984
+    - https://groups.google.com/g/golang-announce/c/4t3lzH3I0eI/m/b42ImqrBAQAJ
     - https://nvd.nist.gov/vuln/detail/CVE-2025-22870
     - https://pkg.go.dev/vuln/GO-2025-3503
     - https://security.netapp.com/advisory/ntap-20250509-0007
@@ -5583,6 +6454,7 @@
     Description: The tokenizer incorrectly interprets tags with unquoted attribute values that end with a solidus character (/) as self-closing. When directly using Tokenizer, this can result in such tags incorrectly being marked as self-closing, and when using the Parse functions, this can result in content following such tags as being placed in the wrong scope during DOM construction, but only when tags are in foreign content (e.g. <math>, <svg>, etc contexts).
     Severity: MEDIUM
     VendorSeverity:
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       ghsa: 2
@@ -5625,9 +6497,11 @@
     Description: The net/http package improperly accepts a bare LF as a line terminator in chunked data chunk-size lines. This can permit request smuggling if a net/http server is used in conjunction with a server that incorrectly accepts a bare LF as part of a chunk-ext.
     Severity: MEDIUM
     VendorSeverity:
+      alma: 2
       amazon: 3
       bitnami: 4
       cbl-mariner: 3
+      oracle-oval: 2
       redhat: 2
     CVSS:
       bitnami:
@@ -5638,15 +6512,102 @@
         V3Score: 5.4
     References:
     - http://www.openwall.com/lists/oss-security/2025/04/04/4
+    - https://access.redhat.com/errata/RHSA-2025:8476
     - https://access.redhat.com/security/cve/CVE-2025-22871
+    - https://bugzilla.redhat.com/2358493
+    - https://errata.almalinux.org/9/ALSA-2025-8476.html
     - https://go.dev/cl/652998
     - https://go.dev/issue/71988
     - https://groups.google.com/g/golang-announce/c/Y2uBTVKjBQk
+    - https://linux.oracle.com/cve/CVE-2025-22871.html
+    - https://linux.oracle.com/errata/ELSA-2025-8682.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-22871
     - https://pkg.go.dev/vuln/GO-2025-3563
     - https://www.cve.org/CVERecord?id=CVE-2025-22871
     PublishedDate: '2025-04-08T20:15:20.183Z'
     LastModifiedDate: '2025-04-18T15:15:57.923Z'
+  - VulnerabilityID: CVE-2025-4673
+    PkgID: stdlib@v1.23.6
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@v1.23.6
+      UID: f8f7f9e81f31bb46
+    InstalledVersion: v1.23.6
+    FixedVersion: 1.23.10, 1.24.4
+    Status: fixed
+    Layer:
+      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
+      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-4673
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: Proxy-Authorization and Proxy-Authenticate headers persisted on cross- ...
+    Description: Proxy-Authorization and Proxy-Authenticate headers persisted on cross-origin redirects potentially leaking sensitive information.
+    Severity: MEDIUM
+    VendorSeverity:
+      ubuntu: 2
+    References:
+    - https://go.dev/cl/679257
+    - https://go.dev/issue/73816
+    - https://groups.google.com/g/golang-announce/c/ufZ8WpEsA3A
+    - https://pkg.go.dev/vuln/GO-2025-3751
+    - https://www.cve.org/CVERecord?id=CVE-2025-4673
+    PublishedDate: '2025-06-11T17:15:42.993Z'
+    LastModifiedDate: '2025-06-11T17:15:42.993Z'
+  - VulnerabilityID: CVE-2025-0913
+    PkgID: stdlib@v1.23.6
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@v1.23.6
+      UID: f8f7f9e81f31bb46
+    InstalledVersion: v1.23.6
+    FixedVersion: 1.23.10, 1.24.4
+    Status: fixed
+    Layer:
+      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
+      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-0913
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: Inconsistent handling of O_CREATE|O_EXCL on Unix and Windows in os in syscall
+    Description: os.OpenFile(path, os.O_CREATE|O_EXCL) behaved differently on Unix and Windows systems when the target path was a dangling symlink. On Unix systems, OpenFile with O_CREATE and O_EXCL flags never follows symlinks. On Windows, when the target path was a symlink to a nonexistent location, OpenFile would create a file in that location. OpenFile now always returns an error when the O_CREATE and O_EXCL flags are both set and the target path is a symlink.
+    Severity: UNKNOWN
+    References:
+    - https://go.dev/cl/672396
+    - https://go.dev/issue/73702
+    - https://groups.google.com/g/golang-announce/c/ufZ8WpEsA3A
+    - https://pkg.go.dev/vuln/GO-2025-3750
+  - VulnerabilityID: CVE-2025-22874
+    PkgID: stdlib@v1.23.6
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@v1.23.6
+      UID: f8f7f9e81f31bb46
+    InstalledVersion: v1.23.6
+    FixedVersion: 1.23.10, 1.24.4
+    Status: fixed
+    Layer:
+      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
+      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-22874
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: Calling Verify with a VerifyOptions.KeyUsages that contains ExtKeyUsag ...
+    Description: Calling Verify with a VerifyOptions.KeyUsages that contains ExtKeyUsageAny unintentionally disabledpolicy validation. This only affected certificate chains which contain policy graphs, which are rather uncommon.
+    Severity: UNKNOWN
+    References:
+    - https://go.dev/cl/670375
+    - https://go.dev/issue/73612
+    - https://groups.google.com/g/golang-announce/c/ufZ8WpEsA3A
+    - https://pkg.go.dev/vuln/GO-2025-3749
+    PublishedDate: '2025-06-11T17:15:42.167Z'
+    LastModifiedDate: '2025-06-11T17:15:42.167Z'
 - Target: usr/bin/helm
   Class: lang-pkgs
   Type: gobinary
@@ -5725,6 +6686,7 @@
     Description: The tokenizer incorrectly interprets tags with unquoted attribute values that end with a solidus character (/) as self-closing. When directly using Tokenizer, this can result in such tags incorrectly being marked as self-closing, and when using the Parse functions, this can result in content following such tags as being placed in the wrong scope during DOM construction, but only when tags are in foreign content (e.g. <math>, <svg>, etc contexts).
     Severity: MEDIUM
     VendorSeverity:
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       ghsa: 2
@@ -5767,9 +6729,11 @@
     Description: The net/http package improperly accepts a bare LF as a line terminator in chunked data chunk-size lines. This can permit request smuggling if a net/http server is used in conjunction with a server that incorrectly accepts a bare LF as part of a chunk-ext.
     Severity: MEDIUM
     VendorSeverity:
+      alma: 2
       amazon: 3
       bitnami: 4
       cbl-mariner: 3
+      oracle-oval: 2
       redhat: 2
     CVSS:
       bitnami:
@@ -5780,15 +6744,102 @@
         V3Score: 5.4
     References:
     - http://www.openwall.com/lists/oss-security/2025/04/04/4
+    - https://access.redhat.com/errata/RHSA-2025:8476
     - https://access.redhat.com/security/cve/CVE-2025-22871
+    - https://bugzilla.redhat.com/2358493
+    - https://errata.almalinux.org/9/ALSA-2025-8476.html
     - https://go.dev/cl/652998
     - https://go.dev/issue/71988
     - https://groups.google.com/g/golang-announce/c/Y2uBTVKjBQk
+    - https://linux.oracle.com/cve/CVE-2025-22871.html
+    - https://linux.oracle.com/errata/ELSA-2025-8682.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-22871
     - https://pkg.go.dev/vuln/GO-2025-3563
     - https://www.cve.org/CVERecord?id=CVE-2025-22871
     PublishedDate: '2025-04-08T20:15:20.183Z'
     LastModifiedDate: '2025-04-18T15:15:57.923Z'
+  - VulnerabilityID: CVE-2025-4673
+    PkgID: stdlib@v1.23.7
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@v1.23.7
+      UID: cae2859c17dd6e50
+    InstalledVersion: v1.23.7
+    FixedVersion: 1.23.10, 1.24.4
+    Status: fixed
+    Layer:
+      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
+      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-4673
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: Proxy-Authorization and Proxy-Authenticate headers persisted on cross- ...
+    Description: Proxy-Authorization and Proxy-Authenticate headers persisted on cross-origin redirects potentially leaking sensitive information.
+    Severity: MEDIUM
+    VendorSeverity:
+      ubuntu: 2
+    References:
+    - https://go.dev/cl/679257
+    - https://go.dev/issue/73816
+    - https://groups.google.com/g/golang-announce/c/ufZ8WpEsA3A
+    - https://pkg.go.dev/vuln/GO-2025-3751
+    - https://www.cve.org/CVERecord?id=CVE-2025-4673
+    PublishedDate: '2025-06-11T17:15:42.993Z'
+    LastModifiedDate: '2025-06-11T17:15:42.993Z'
+  - VulnerabilityID: CVE-2025-0913
+    PkgID: stdlib@v1.23.7
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@v1.23.7
+      UID: cae2859c17dd6e50
+    InstalledVersion: v1.23.7
+    FixedVersion: 1.23.10, 1.24.4
+    Status: fixed
+    Layer:
+      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
+      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-0913
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: Inconsistent handling of O_CREATE|O_EXCL on Unix and Windows in os in syscall
+    Description: os.OpenFile(path, os.O_CREATE|O_EXCL) behaved differently on Unix and Windows systems when the target path was a dangling symlink. On Unix systems, OpenFile with O_CREATE and O_EXCL flags never follows symlinks. On Windows, when the target path was a symlink to a nonexistent location, OpenFile would create a file in that location. OpenFile now always returns an error when the O_CREATE and O_EXCL flags are both set and the target path is a symlink.
+    Severity: UNKNOWN
+    References:
+    - https://go.dev/cl/672396
+    - https://go.dev/issue/73702
+    - https://groups.google.com/g/golang-announce/c/ufZ8WpEsA3A
+    - https://pkg.go.dev/vuln/GO-2025-3750
+  - VulnerabilityID: CVE-2025-22874
+    PkgID: stdlib@v1.23.7
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@v1.23.7
+      UID: cae2859c17dd6e50
+    InstalledVersion: v1.23.7
+    FixedVersion: 1.23.10, 1.24.4
+    Status: fixed
+    Layer:
+      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
+      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-22874
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: Calling Verify with a VerifyOptions.KeyUsages that contains ExtKeyUsag ...
+    Description: Calling Verify with a VerifyOptions.KeyUsages that contains ExtKeyUsageAny unintentionally disabledpolicy validation. This only affected certificate chains which contain policy graphs, which are rather uncommon.
+    Severity: UNKNOWN
+    References:
+    - https://go.dev/cl/670375
+    - https://go.dev/issue/73612
+    - https://groups.google.com/g/golang-announce/c/ufZ8WpEsA3A
+    - https://pkg.go.dev/vuln/GO-2025-3749
+    PublishedDate: '2025-06-11T17:15:42.167Z'
+    LastModifiedDate: '2025-06-11T17:15:42.167Z'
 - Target: usr/bin/kubectl
   Class: lang-pkgs
   Type: gobinary
@@ -5822,6 +6873,7 @@
       cbl-mariner: 2
       ghsa: 2
       redhat: 2
+      ubuntu: 2
     CVSS:
       ghsa:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:L
@@ -5832,9 +6884,11 @@
     References:
     - http://www.openwall.com/lists/oss-security/2025/03/07/2
     - https://access.redhat.com/security/cve/CVE-2025-22870
+    - https://github.com/golang/go/issues/71984
     - https://go-review.googlesource.com/q/project:net
     - https://go.dev/cl/654697
     - https://go.dev/issue/71984
+    - https://groups.google.com/g/golang-announce/c/4t3lzH3I0eI/m/b42ImqrBAQAJ
     - https://nvd.nist.gov/vuln/detail/CVE-2025-22870
     - https://pkg.go.dev/vuln/GO-2025-3503
     - https://security.netapp.com/advisory/ntap-20250509-0007
@@ -5864,6 +6918,7 @@
     Description: The tokenizer incorrectly interprets tags with unquoted attribute values that end with a solidus character (/) as self-closing. When directly using Tokenizer, this can result in such tags incorrectly being marked as self-closing, and when using the Parse functions, this can result in content following such tags as being placed in the wrong scope during DOM construction, but only when tags are in foreign content (e.g. <math>, <svg>, etc contexts).
     Severity: MEDIUM
     VendorSeverity:
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       ghsa: 2
@@ -5906,9 +6961,11 @@
     Description: The net/http package improperly accepts a bare LF as a line terminator in chunked data chunk-size lines. This can permit request smuggling if a net/http server is used in conjunction with a server that incorrectly accepts a bare LF as part of a chunk-ext.
     Severity: MEDIUM
     VendorSeverity:
+      alma: 2
       amazon: 3
       bitnami: 4
       cbl-mariner: 3
+      oracle-oval: 2
       redhat: 2
     CVSS:
       bitnami:
@@ -5919,15 +6976,102 @@
         V3Score: 5.4
     References:
     - http://www.openwall.com/lists/oss-security/2025/04/04/4
+    - https://access.redhat.com/errata/RHSA-2025:8476
     - https://access.redhat.com/security/cve/CVE-2025-22871
+    - https://bugzilla.redhat.com/2358493
+    - https://errata.almalinux.org/9/ALSA-2025-8476.html
     - https://go.dev/cl/652998
     - https://go.dev/issue/71988
     - https://groups.google.com/g/golang-announce/c/Y2uBTVKjBQk
+    - https://linux.oracle.com/cve/CVE-2025-22871.html
+    - https://linux.oracle.com/errata/ELSA-2025-8682.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-22871
     - https://pkg.go.dev/vuln/GO-2025-3563
     - https://www.cve.org/CVERecord?id=CVE-2025-22871
     PublishedDate: '2025-04-08T20:15:20.183Z'
     LastModifiedDate: '2025-04-18T15:15:57.923Z'
+  - VulnerabilityID: CVE-2025-4673
+    PkgID: stdlib@v1.23.6
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@v1.23.6
+      UID: a200578c56ec45c2
+    InstalledVersion: v1.23.6
+    FixedVersion: 1.23.10, 1.24.4
+    Status: fixed
+    Layer:
+      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
+      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-4673
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: Proxy-Authorization and Proxy-Authenticate headers persisted on cross- ...
+    Description: Proxy-Authorization and Proxy-Authenticate headers persisted on cross-origin redirects potentially leaking sensitive information.
+    Severity: MEDIUM
+    VendorSeverity:
+      ubuntu: 2
+    References:
+    - https://go.dev/cl/679257
+    - https://go.dev/issue/73816
+    - https://groups.google.com/g/golang-announce/c/ufZ8WpEsA3A
+    - https://pkg.go.dev/vuln/GO-2025-3751
+    - https://www.cve.org/CVERecord?id=CVE-2025-4673
+    PublishedDate: '2025-06-11T17:15:42.993Z'
+    LastModifiedDate: '2025-06-11T17:15:42.993Z'
+  - VulnerabilityID: CVE-2025-0913
+    PkgID: stdlib@v1.23.6
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@v1.23.6
+      UID: a200578c56ec45c2
+    InstalledVersion: v1.23.6
+    FixedVersion: 1.23.10, 1.24.4
+    Status: fixed
+    Layer:
+      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
+      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-0913
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: Inconsistent handling of O_CREATE|O_EXCL on Unix and Windows in os in syscall
+    Description: os.OpenFile(path, os.O_CREATE|O_EXCL) behaved differently on Unix and Windows systems when the target path was a dangling symlink. On Unix systems, OpenFile with O_CREATE and O_EXCL flags never follows symlinks. On Windows, when the target path was a symlink to a nonexistent location, OpenFile would create a file in that location. OpenFile now always returns an error when the O_CREATE and O_EXCL flags are both set and the target path is a symlink.
+    Severity: UNKNOWN
+    References:
+    - https://go.dev/cl/672396
+    - https://go.dev/issue/73702
+    - https://groups.google.com/g/golang-announce/c/ufZ8WpEsA3A
+    - https://pkg.go.dev/vuln/GO-2025-3750
+  - VulnerabilityID: CVE-2025-22874
+    PkgID: stdlib@v1.23.6
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@v1.23.6
+      UID: a200578c56ec45c2
+    InstalledVersion: v1.23.6
+    FixedVersion: 1.23.10, 1.24.4
+    Status: fixed
+    Layer:
+      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
+      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-22874
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: Calling Verify with a VerifyOptions.KeyUsages that contains ExtKeyUsag ...
+    Description: Calling Verify with a VerifyOptions.KeyUsages that contains ExtKeyUsageAny unintentionally disabledpolicy validation. This only affected certificate chains which contain policy graphs, which are rather uncommon.
+    Severity: UNKNOWN
+    References:
+    - https://go.dev/cl/670375
+    - https://go.dev/issue/73612
+    - https://groups.google.com/g/golang-announce/c/ufZ8WpEsA3A
+    - https://pkg.go.dev/vuln/GO-2025-3749
+    PublishedDate: '2025-06-11T17:15:42.167Z'
+    LastModifiedDate: '2025-06-11T17:15:42.167Z'
 - Target: usr/bin/mc
   Class: lang-pkgs
   Type: gobinary
@@ -5971,10 +7115,10 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2025:7404
+    - https://access.redhat.com/errata/RHSA-2025:7425
     - https://access.redhat.com/security/cve/CVE-2025-30204
     - https://bugzilla.redhat.com/2354195
-    - https://errata.almalinux.org/9/ALSA-2025-7404.html
+    - https://errata.almalinux.org/9/ALSA-2025-7425.html
     - https://github.com/golang-jwt/jwt
     - https://github.com/golang-jwt/jwt/commit/0951d184286dece21f73c85673fd308786ffe9c3
     - https://github.com/golang-jwt/jwt/commit/bf316c48137a1212f8d0af9288cc9ce8e59f1afb
@@ -6009,6 +7153,7 @@
     Description: The tokenizer incorrectly interprets tags with unquoted attribute values that end with a solidus character (/) as self-closing. When directly using Tokenizer, this can result in such tags incorrectly being marked as self-closing, and when using the Parse functions, this can result in content following such tags as being placed in the wrong scope during DOM construction, but only when tags are in foreign content (e.g. <math>, <svg>, etc contexts).
     Severity: MEDIUM
     VendorSeverity:
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       ghsa: 2
@@ -6051,9 +7196,11 @@
     Description: The net/http package improperly accepts a bare LF as a line terminator in chunked data chunk-size lines. This can permit request smuggling if a net/http server is used in conjunction with a server that incorrectly accepts a bare LF as part of a chunk-ext.
     Severity: MEDIUM
     VendorSeverity:
+      alma: 2
       amazon: 3
       bitnami: 4
       cbl-mariner: 3
+      oracle-oval: 2
       redhat: 2
     CVSS:
       bitnami:
@@ -6064,15 +7211,102 @@
         V3Score: 5.4
     References:
     - http://www.openwall.com/lists/oss-security/2025/04/04/4
+    - https://access.redhat.com/errata/RHSA-2025:8476
     - https://access.redhat.com/security/cve/CVE-2025-22871
+    - https://bugzilla.redhat.com/2358493
+    - https://errata.almalinux.org/9/ALSA-2025-8476.html
     - https://go.dev/cl/652998
     - https://go.dev/issue/71988
     - https://groups.google.com/g/golang-announce/c/Y2uBTVKjBQk
+    - https://linux.oracle.com/cve/CVE-2025-22871.html
+    - https://linux.oracle.com/errata/ELSA-2025-8682.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-22871
     - https://pkg.go.dev/vuln/GO-2025-3563
     - https://www.cve.org/CVERecord?id=CVE-2025-22871
     PublishedDate: '2025-04-08T20:15:20.183Z'
     LastModifiedDate: '2025-04-18T15:15:57.923Z'
+  - VulnerabilityID: CVE-2025-4673
+    PkgID: stdlib@v1.24.1
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@v1.24.1
+      UID: c1deb7c604869ef9
+    InstalledVersion: v1.24.1
+    FixedVersion: 1.23.10, 1.24.4
+    Status: fixed
+    Layer:
+      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
+      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-4673
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: Proxy-Authorization and Proxy-Authenticate headers persisted on cross- ...
+    Description: Proxy-Authorization and Proxy-Authenticate headers persisted on cross-origin redirects potentially leaking sensitive information.
+    Severity: MEDIUM
+    VendorSeverity:
+      ubuntu: 2
+    References:
+    - https://go.dev/cl/679257
+    - https://go.dev/issue/73816
+    - https://groups.google.com/g/golang-announce/c/ufZ8WpEsA3A
+    - https://pkg.go.dev/vuln/GO-2025-3751
+    - https://www.cve.org/CVERecord?id=CVE-2025-4673
+    PublishedDate: '2025-06-11T17:15:42.993Z'
+    LastModifiedDate: '2025-06-11T17:15:42.993Z'
+  - VulnerabilityID: CVE-2025-0913
+    PkgID: stdlib@v1.24.1
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@v1.24.1
+      UID: c1deb7c604869ef9
+    InstalledVersion: v1.24.1
+    FixedVersion: 1.23.10, 1.24.4
+    Status: fixed
+    Layer:
+      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
+      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-0913
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: Inconsistent handling of O_CREATE|O_EXCL on Unix and Windows in os in syscall
+    Description: os.OpenFile(path, os.O_CREATE|O_EXCL) behaved differently on Unix and Windows systems when the target path was a dangling symlink. On Unix systems, OpenFile with O_CREATE and O_EXCL flags never follows symlinks. On Windows, when the target path was a symlink to a nonexistent location, OpenFile would create a file in that location. OpenFile now always returns an error when the O_CREATE and O_EXCL flags are both set and the target path is a symlink.
+    Severity: UNKNOWN
+    References:
+    - https://go.dev/cl/672396
+    - https://go.dev/issue/73702
+    - https://groups.google.com/g/golang-announce/c/ufZ8WpEsA3A
+    - https://pkg.go.dev/vuln/GO-2025-3750
+  - VulnerabilityID: CVE-2025-22874
+    PkgID: stdlib@v1.24.1
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@v1.24.1
+      UID: c1deb7c604869ef9
+    InstalledVersion: v1.24.1
+    FixedVersion: 1.23.10, 1.24.4
+    Status: fixed
+    Layer:
+      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
+      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-22874
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: Calling Verify with a VerifyOptions.KeyUsages that contains ExtKeyUsag ...
+    Description: Calling Verify with a VerifyOptions.KeyUsages that contains ExtKeyUsageAny unintentionally disabledpolicy validation. This only affected certificate chains which contain policy graphs, which are rather uncommon.
+    Severity: UNKNOWN
+    References:
+    - https://go.dev/cl/670375
+    - https://go.dev/issue/73612
+    - https://groups.google.com/g/golang-announce/c/ufZ8WpEsA3A
+    - https://pkg.go.dev/vuln/GO-2025-3749
+    PublishedDate: '2025-06-11T17:15:42.167Z'
+    LastModifiedDate: '2025-06-11T17:15:42.167Z'
 - Target: usr/local/bin/k3d
   Class: lang-pkgs
   Type: gobinary
@@ -6337,6 +7571,7 @@
       cbl-mariner: 2
       ghsa: 2
       redhat: 2
+      ubuntu: 2
     CVSS:
       ghsa:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:L
@@ -6347,9 +7582,11 @@
     References:
     - http://www.openwall.com/lists/oss-security/2025/03/07/2
     - https://access.redhat.com/security/cve/CVE-2025-22870
+    - https://github.com/golang/go/issues/71984
     - https://go-review.googlesource.com/q/project:net
     - https://go.dev/cl/654697
     - https://go.dev/issue/71984
+    - https://groups.google.com/g/golang-announce/c/4t3lzH3I0eI/m/b42ImqrBAQAJ
     - https://nvd.nist.gov/vuln/detail/CVE-2025-22870
     - https://pkg.go.dev/vuln/GO-2025-3503
     - https://security.netapp.com/advisory/ntap-20250509-0007
@@ -6379,6 +7616,7 @@
     Description: The tokenizer incorrectly interprets tags with unquoted attribute values that end with a solidus character (/) as self-closing. When directly using Tokenizer, this can result in such tags incorrectly being marked as self-closing, and when using the Parse functions, this can result in content following such tags as being placed in the wrong scope during DOM construction, but only when tags are in foreign content (e.g. <math>, <svg>, etc contexts).
     Severity: MEDIUM
     VendorSeverity:
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       ghsa: 2
@@ -6458,9 +7696,11 @@
     Description: The net/http package improperly accepts a bare LF as a line terminator in chunked data chunk-size lines. This can permit request smuggling if a net/http server is used in conjunction with a server that incorrectly accepts a bare LF as part of a chunk-ext.
     Severity: MEDIUM
     VendorSeverity:
+      alma: 2
       amazon: 3
       bitnami: 4
       cbl-mariner: 3
+      oracle-oval: 2
       redhat: 2
     CVSS:
       bitnami:
@@ -6471,15 +7711,102 @@
         V3Score: 5.4
     References:
     - http://www.openwall.com/lists/oss-security/2025/04/04/4
+    - https://access.redhat.com/errata/RHSA-2025:8476
     - https://access.redhat.com/security/cve/CVE-2025-22871
+    - https://bugzilla.redhat.com/2358493
+    - https://errata.almalinux.org/9/ALSA-2025-8476.html
     - https://go.dev/cl/652998
     - https://go.dev/issue/71988
     - https://groups.google.com/g/golang-announce/c/Y2uBTVKjBQk
+    - https://linux.oracle.com/cve/CVE-2025-22871.html
+    - https://linux.oracle.com/errata/ELSA-2025-8682.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-22871
     - https://pkg.go.dev/vuln/GO-2025-3563
     - https://www.cve.org/CVERecord?id=CVE-2025-22871
     PublishedDate: '2025-04-08T20:15:20.183Z'
     LastModifiedDate: '2025-04-18T15:15:57.923Z'
+  - VulnerabilityID: CVE-2025-4673
+    PkgID: stdlib@v1.22.12
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@v1.22.12
+      UID: 156a2e832bd2e3cc
+    InstalledVersion: v1.22.12
+    FixedVersion: 1.23.10, 1.24.4
+    Status: fixed
+    Layer:
+      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
+      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-4673
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: Proxy-Authorization and Proxy-Authenticate headers persisted on cross- ...
+    Description: Proxy-Authorization and Proxy-Authenticate headers persisted on cross-origin redirects potentially leaking sensitive information.
+    Severity: MEDIUM
+    VendorSeverity:
+      ubuntu: 2
+    References:
+    - https://go.dev/cl/679257
+    - https://go.dev/issue/73816
+    - https://groups.google.com/g/golang-announce/c/ufZ8WpEsA3A
+    - https://pkg.go.dev/vuln/GO-2025-3751
+    - https://www.cve.org/CVERecord?id=CVE-2025-4673
+    PublishedDate: '2025-06-11T17:15:42.993Z'
+    LastModifiedDate: '2025-06-11T17:15:42.993Z'
+  - VulnerabilityID: CVE-2025-0913
+    PkgID: stdlib@v1.22.12
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@v1.22.12
+      UID: 156a2e832bd2e3cc
+    InstalledVersion: v1.22.12
+    FixedVersion: 1.23.10, 1.24.4
+    Status: fixed
+    Layer:
+      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
+      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-0913
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: Inconsistent handling of O_CREATE|O_EXCL on Unix and Windows in os in syscall
+    Description: os.OpenFile(path, os.O_CREATE|O_EXCL) behaved differently on Unix and Windows systems when the target path was a dangling symlink. On Unix systems, OpenFile with O_CREATE and O_EXCL flags never follows symlinks. On Windows, when the target path was a symlink to a nonexistent location, OpenFile would create a file in that location. OpenFile now always returns an error when the O_CREATE and O_EXCL flags are both set and the target path is a symlink.
+    Severity: UNKNOWN
+    References:
+    - https://go.dev/cl/672396
+    - https://go.dev/issue/73702
+    - https://groups.google.com/g/golang-announce/c/ufZ8WpEsA3A
+    - https://pkg.go.dev/vuln/GO-2025-3750
+  - VulnerabilityID: CVE-2025-22874
+    PkgID: stdlib@v1.22.12
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@v1.22.12
+      UID: 156a2e832bd2e3cc
+    InstalledVersion: v1.22.12
+    FixedVersion: 1.23.10, 1.24.4
+    Status: fixed
+    Layer:
+      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
+      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-22874
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: Calling Verify with a VerifyOptions.KeyUsages that contains ExtKeyUsag ...
+    Description: Calling Verify with a VerifyOptions.KeyUsages that contains ExtKeyUsageAny unintentionally disabledpolicy validation. This only affected certificate chains which contain policy graphs, which are rather uncommon.
+    Severity: UNKNOWN
+    References:
+    - https://go.dev/cl/670375
+    - https://go.dev/issue/73612
+    - https://groups.google.com/g/golang-announce/c/ufZ8WpEsA3A
+    - https://pkg.go.dev/vuln/GO-2025-3749
+    PublishedDate: '2025-06-11T17:15:42.167Z'
+    LastModifiedDate: '2025-06-11T17:15:42.167Z'
 - Target: /etc/ssh/ssh_host_dsa_key
   Class: secret
   Secrets:
