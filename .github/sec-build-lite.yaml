@@ -2079,7 +2079,7 @@
     - https://go.dev/issue/71988
     - https://groups.google.com/g/golang-announce/c/Y2uBTVKjBQk
     - https://linux.oracle.com/cve/CVE-2025-22871.html
-    - https://linux.oracle.com/errata/ELSA-2025-8682.html
+    - https://linux.oracle.com/errata/ELSA-2025-8918.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-22871
     - https://pkg.go.dev/vuln/GO-2025-3563
     - https://www.cve.org/CVERecord?id=CVE-2025-22871
@@ -2114,7 +2114,7 @@
     - https://pkg.go.dev/vuln/GO-2025-3751
     - https://www.cve.org/CVERecord?id=CVE-2025-4673
     PublishedDate: '2025-06-11T17:15:42.993Z'
-    LastModifiedDate: '2025-06-11T17:15:42.993Z'
+    LastModifiedDate: '2025-06-12T16:06:20.18Z'
   - VulnerabilityID: CVE-2025-0913
     PkgID: stdlib@v1.24.1
     PkgName: stdlib
@@ -2140,6 +2140,8 @@
     - https://go.dev/issue/73702
     - https://groups.google.com/g/golang-announce/c/ufZ8WpEsA3A
     - https://pkg.go.dev/vuln/GO-2025-3750
+    PublishedDate: '2025-06-11T18:15:24.627Z'
+    LastModifiedDate: '2025-06-12T16:06:20.18Z'
   - VulnerabilityID: CVE-2025-22874
     PkgID: stdlib@v1.24.1
     PkgName: stdlib
@@ -2166,7 +2168,7 @@
     - https://groups.google.com/g/golang-announce/c/ufZ8WpEsA3A
     - https://pkg.go.dev/vuln/GO-2025-3749
     PublishedDate: '2025-06-11T17:15:42.167Z'
-    LastModifiedDate: '2025-06-11T17:15:42.167Z'
+    LastModifiedDate: '2025-06-12T16:06:20.18Z'
 - Target: tmp/tmp.ZU0Ti2w38B/krew-linux_amd64
   Class: lang-pkgs
   Type: gobinary
@@ -2394,7 +2396,7 @@
     - https://go.dev/issue/71988
     - https://groups.google.com/g/golang-announce/c/Y2uBTVKjBQk
     - https://linux.oracle.com/cve/CVE-2025-22871.html
-    - https://linux.oracle.com/errata/ELSA-2025-8682.html
+    - https://linux.oracle.com/errata/ELSA-2025-8918.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-22871
     - https://pkg.go.dev/vuln/GO-2025-3563
     - https://www.cve.org/CVERecord?id=CVE-2025-22871
@@ -2429,7 +2431,7 @@
     - https://pkg.go.dev/vuln/GO-2025-3751
     - https://www.cve.org/CVERecord?id=CVE-2025-4673
     PublishedDate: '2025-06-11T17:15:42.993Z'
-    LastModifiedDate: '2025-06-11T17:15:42.993Z'
+    LastModifiedDate: '2025-06-12T16:06:20.18Z'
   - VulnerabilityID: CVE-2025-0913
     PkgID: stdlib@v1.24.1
     PkgName: stdlib
@@ -2455,6 +2457,8 @@
     - https://go.dev/issue/73702
     - https://groups.google.com/g/golang-announce/c/ufZ8WpEsA3A
     - https://pkg.go.dev/vuln/GO-2025-3750
+    PublishedDate: '2025-06-11T18:15:24.627Z'
+    LastModifiedDate: '2025-06-12T16:06:20.18Z'
   - VulnerabilityID: CVE-2025-22874
     PkgID: stdlib@v1.24.1
     PkgName: stdlib
@@ -2481,7 +2485,7 @@
     - https://groups.google.com/g/golang-announce/c/ufZ8WpEsA3A
     - https://pkg.go.dev/vuln/GO-2025-3749
     PublishedDate: '2025-06-11T17:15:42.167Z'
-    LastModifiedDate: '2025-06-11T17:15:42.167Z'
+    LastModifiedDate: '2025-06-12T16:06:20.18Z'
 - Target: usr/bin/docker-compose
   Class: lang-pkgs
   Type: gobinary
@@ -2515,7 +2519,7 @@
     - https://pkg.go.dev/vuln/GO-2025-3751
     - https://www.cve.org/CVERecord?id=CVE-2025-4673
     PublishedDate: '2025-06-11T17:15:42.993Z'
-    LastModifiedDate: '2025-06-11T17:15:42.993Z'
+    LastModifiedDate: '2025-06-12T16:06:20.18Z'
   - VulnerabilityID: CVE-2025-0913
     PkgID: stdlib@v1.23.8
     PkgName: stdlib
@@ -2541,6 +2545,8 @@
     - https://go.dev/issue/73702
     - https://groups.google.com/g/golang-announce/c/ufZ8WpEsA3A
     - https://pkg.go.dev/vuln/GO-2025-3750
+    PublishedDate: '2025-06-11T18:15:24.627Z'
+    LastModifiedDate: '2025-06-12T16:06:20.18Z'
   - VulnerabilityID: CVE-2025-22874
     PkgID: stdlib@v1.23.8
     PkgName: stdlib
@@ -2567,7 +2573,7 @@
     - https://groups.google.com/g/golang-announce/c/ufZ8WpEsA3A
     - https://pkg.go.dev/vuln/GO-2025-3749
     PublishedDate: '2025-06-11T17:15:42.167Z'
-    LastModifiedDate: '2025-06-11T17:15:42.167Z'
+    LastModifiedDate: '2025-06-12T16:06:20.18Z'
 - Target: usr/bin/helm
   Class: lang-pkgs
   Type: gobinary
@@ -2601,7 +2607,7 @@
     - https://pkg.go.dev/vuln/GO-2025-3751
     - https://www.cve.org/CVERecord?id=CVE-2025-4673
     PublishedDate: '2025-06-11T17:15:42.993Z'
-    LastModifiedDate: '2025-06-11T17:15:42.993Z'
+    LastModifiedDate: '2025-06-12T16:06:20.18Z'
   - VulnerabilityID: CVE-2025-0913
     PkgID: stdlib@v1.24.3
     PkgName: stdlib
@@ -2627,6 +2633,8 @@
     - https://go.dev/issue/73702
     - https://groups.google.com/g/golang-announce/c/ufZ8WpEsA3A
     - https://pkg.go.dev/vuln/GO-2025-3750
+    PublishedDate: '2025-06-11T18:15:24.627Z'
+    LastModifiedDate: '2025-06-12T16:06:20.18Z'
   - VulnerabilityID: CVE-2025-22874
     PkgID: stdlib@v1.24.3
     PkgName: stdlib
@@ -2653,7 +2661,7 @@
     - https://groups.google.com/g/golang-announce/c/ufZ8WpEsA3A
     - https://pkg.go.dev/vuln/GO-2025-3749
     PublishedDate: '2025-06-11T17:15:42.167Z'
-    LastModifiedDate: '2025-06-11T17:15:42.167Z'
+    LastModifiedDate: '2025-06-12T16:06:20.18Z'
 - Target: usr/bin/kubectl
   Class: lang-pkgs
   Type: gobinary
@@ -2687,7 +2695,7 @@
     - https://pkg.go.dev/vuln/GO-2025-3751
     - https://www.cve.org/CVERecord?id=CVE-2025-4673
     PublishedDate: '2025-06-11T17:15:42.993Z'
-    LastModifiedDate: '2025-06-11T17:15:42.993Z'
+    LastModifiedDate: '2025-06-12T16:06:20.18Z'
   - VulnerabilityID: CVE-2025-0913
     PkgID: stdlib@v1.24.2
     PkgName: stdlib
@@ -2713,6 +2721,8 @@
     - https://go.dev/issue/73702
     - https://groups.google.com/g/golang-announce/c/ufZ8WpEsA3A
     - https://pkg.go.dev/vuln/GO-2025-3750
+    PublishedDate: '2025-06-11T18:15:24.627Z'
+    LastModifiedDate: '2025-06-12T16:06:20.18Z'
   - VulnerabilityID: CVE-2025-22874
     PkgID: stdlib@v1.24.2
     PkgName: stdlib
@@ -2739,7 +2749,7 @@
     - https://groups.google.com/g/golang-announce/c/ufZ8WpEsA3A
     - https://pkg.go.dev/vuln/GO-2025-3749
     PublishedDate: '2025-06-11T17:15:42.167Z'
-    LastModifiedDate: '2025-06-11T17:15:42.167Z'
+    LastModifiedDate: '2025-06-12T16:06:20.18Z'
 - Target: usr/bin/mc
   Class: lang-pkgs
   Type: gobinary
@@ -2773,7 +2783,7 @@
     - https://pkg.go.dev/vuln/GO-2025-3751
     - https://www.cve.org/CVERecord?id=CVE-2025-4673
     PublishedDate: '2025-06-11T17:15:42.993Z'
-    LastModifiedDate: '2025-06-11T17:15:42.993Z'
+    LastModifiedDate: '2025-06-12T16:06:20.18Z'
   - VulnerabilityID: CVE-2025-0913
     PkgID: stdlib@v1.24.3
     PkgName: stdlib
@@ -2799,6 +2809,8 @@
     - https://go.dev/issue/73702
     - https://groups.google.com/g/golang-announce/c/ufZ8WpEsA3A
     - https://pkg.go.dev/vuln/GO-2025-3750
+    PublishedDate: '2025-06-11T18:15:24.627Z'
+    LastModifiedDate: '2025-06-12T16:06:20.18Z'
   - VulnerabilityID: CVE-2025-22874
     PkgID: stdlib@v1.24.3
     PkgName: stdlib
@@ -2825,7 +2837,7 @@
     - https://groups.google.com/g/golang-announce/c/ufZ8WpEsA3A
     - https://pkg.go.dev/vuln/GO-2025-3749
     PublishedDate: '2025-06-11T17:15:42.167Z'
-    LastModifiedDate: '2025-06-11T17:15:42.167Z'
+    LastModifiedDate: '2025-06-12T16:06:20.18Z'
 - Target: usr/local/bin/k3d
   Class: lang-pkgs
   Type: gobinary
@@ -3238,7 +3250,7 @@
     - https://go.dev/issue/71988
     - https://groups.google.com/g/golang-announce/c/Y2uBTVKjBQk
     - https://linux.oracle.com/cve/CVE-2025-22871.html
-    - https://linux.oracle.com/errata/ELSA-2025-8682.html
+    - https://linux.oracle.com/errata/ELSA-2025-8918.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-22871
     - https://pkg.go.dev/vuln/GO-2025-3563
     - https://www.cve.org/CVERecord?id=CVE-2025-22871
@@ -3273,7 +3285,7 @@
     - https://pkg.go.dev/vuln/GO-2025-3751
     - https://www.cve.org/CVERecord?id=CVE-2025-4673
     PublishedDate: '2025-06-11T17:15:42.993Z'
-    LastModifiedDate: '2025-06-11T17:15:42.993Z'
+    LastModifiedDate: '2025-06-12T16:06:20.18Z'
   - VulnerabilityID: CVE-2025-0913
     PkgID: stdlib@v1.22.12
     PkgName: stdlib
@@ -3299,6 +3311,8 @@
     - https://go.dev/issue/73702
     - https://groups.google.com/g/golang-announce/c/ufZ8WpEsA3A
     - https://pkg.go.dev/vuln/GO-2025-3750
+    PublishedDate: '2025-06-11T18:15:24.627Z'
+    LastModifiedDate: '2025-06-12T16:06:20.18Z'
   - VulnerabilityID: CVE-2025-22874
     PkgID: stdlib@v1.22.12
     PkgName: stdlib
@@ -3325,7 +3339,7 @@
     - https://groups.google.com/g/golang-announce/c/ufZ8WpEsA3A
     - https://pkg.go.dev/vuln/GO-2025-3749
     PublishedDate: '2025-06-11T17:15:42.167Z'
-    LastModifiedDate: '2025-06-11T17:15:42.167Z'
+    LastModifiedDate: '2025-06-12T16:06:20.18Z'
 - Target: /etc/ssh/ssh_host_ecdsa_key
   Class: secret
   Secrets:
