@@ -1887,6 +1887,7 @@
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ nvd        : 2 
 │                        │      │                  ├ oracle-oval: 2 
+│                        │      │                  ├ photon     : 2 
 │                        │      │                  ├ redhat     : 2 
 │                        │      │                  ├ rocky      : 2 
 │                        │      │                  ╰ ubuntu     : 1 
@@ -2123,6 +2124,7 @@
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ nvd        : 2 
 │                        │      │                  ├ oracle-oval: 2 
+│                        │      │                  ├ photon     : 2 
 │                        │      │                  ├ redhat     : 2 
 │                        │      │                  ├ rocky      : 2 
 │                        │      │                  ╰ ubuntu     : 1 
@@ -2514,6 +2516,7 @@
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ nvd        : 2 
 │                        │      │                  ├ oracle-oval: 2 
+│                        │      │                  ├ photon     : 2 
 │                        │      │                  ├ redhat     : 2 
 │                        │      │                  ├ rocky      : 2 
 │                        │      │                  ╰ ubuntu     : 1 
@@ -2665,6 +2668,7 @@
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ nvd        : 2 
 │                        │      │                  ├ oracle-oval: 2 
+│                        │      │                  ├ photon     : 2 
 │                        │      │                  ├ redhat     : 2 
 │                        │      │                  ├ rocky      : 2 
 │                        │      │                  ╰ ubuntu     : 1 
@@ -3406,6 +3410,7 @@
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ nvd        : 2 
 │                        │      │                  ├ oracle-oval: 2 
+│                        │      │                  ├ photon     : 2 
 │                        │      │                  ├ redhat     : 2 
 │                        │      │                  ├ rocky      : 2 
 │                        │      │                  ╰ ubuntu     : 1 
@@ -3471,6 +3476,7 @@
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ nvd        : 2 
 │                        │      │                  ├ oracle-oval: 2 
+│                        │      │                  ├ photon     : 2 
 │                        │      │                  ├ redhat     : 2 
 │                        │      │                  ├ rocky      : 2 
 │                        │      │                  ╰ ubuntu     : 1 
@@ -3536,6 +3542,7 @@
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ nvd        : 2 
 │                        │      │                  ├ oracle-oval: 2 
+│                        │      │                  ├ photon     : 2 
 │                        │      │                  ├ redhat     : 2 
 │                        │      │                  ├ rocky      : 2 
 │                        │      │                  ╰ ubuntu     : 1 
@@ -4062,7 +4069,7 @@
 │                        │     │                  ├ [7] : https://groups.google.com/g/golang-announce/c/Y2uBTVK
 │                        │     │                  │       jBQk 
 │                        │     │                  ├ [8] : https://linux.oracle.com/cve/CVE-2025-22871.html 
-│                        │     │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2025-8682.html 
+│                        │     │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2025-8918.html 
 │                        │     │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2025-22871 
 │                        │     │                  ├ [11]: https://pkg.go.dev/vuln/GO-2025-3563 
 │                        │     │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2025-22871 
@@ -4098,7 +4105,7 @@
 │                        │     │                  ├ [3]: https://pkg.go.dev/vuln/GO-2025-3751 
 │                        │     │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2025-4673 
 │                        │     ├ PublishedDate   : 2025-06-11T17:15:42.993Z 
-│                        │     ╰ LastModifiedDate: 2025-06-11T17:15:42.993Z 
+│                        │     ╰ LastModifiedDate: 2025-06-12T16:06:20.18Z 
 │                        ├ [5] ╭ VulnerabilityID : CVE-2025-0913 
 │                        │     ├ PkgID           : stdlib@v1.24.1 
 │                        │     ├ PkgName         : stdlib 
@@ -4126,11 +4133,13 @@
 │                        │     │                   always returns an error when the O_CREATE and O_EXCL flags
 │                        │     │                   are both set and the target path is a symlink. 
 │                        │     ├ Severity        : UNKNOWN 
-│                        │     ╰ References       ╭ [0]: https://go.dev/cl/672396 
-│                        │                        ├ [1]: https://go.dev/issue/73702 
-│                        │                        ├ [2]: https://groups.google.com/g/golang-announce/c/ufZ8WpEs
-│                        │                        │      A3A 
-│                        │                        ╰ [3]: https://pkg.go.dev/vuln/GO-2025-3750 
+│                        │     ├ References       ╭ [0]: https://go.dev/cl/672396 
+│                        │     │                  ├ [1]: https://go.dev/issue/73702 
+│                        │     │                  ├ [2]: https://groups.google.com/g/golang-announce/c/ufZ8WpEs
+│                        │     │                  │      A3A 
+│                        │     │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2025-3750 
+│                        │     ├ PublishedDate   : 2025-06-11T18:15:24.627Z 
+│                        │     ╰ LastModifiedDate: 2025-06-12T16:06:20.18Z 
 │                        ╰ [6] ╭ VulnerabilityID : CVE-2025-22874 
 │                              ├ PkgID           : stdlib@v1.24.1 
 │                              ├ PkgName         : stdlib 
@@ -4160,7 +4169,7 @@
 │                              │                  │      A3A 
 │                              │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2025-3749 
 │                              ├ PublishedDate   : 2025-06-11T17:15:42.167Z 
-│                              ╰ LastModifiedDate: 2025-06-11T17:15:42.167Z 
+│                              ╰ LastModifiedDate: 2025-06-12T16:06:20.18Z 
 ├ [4]  ╭ Target         : tmp/tmp.644c8vIJOb/krew-linux_amd64 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : gobinary 
@@ -4421,7 +4430,7 @@
 │                        │     │                  ├ [7] : https://groups.google.com/g/golang-announce/c/Y2uBTVK
 │                        │     │                  │       jBQk 
 │                        │     │                  ├ [8] : https://linux.oracle.com/cve/CVE-2025-22871.html 
-│                        │     │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2025-8682.html 
+│                        │     │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2025-8918.html 
 │                        │     │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2025-22871 
 │                        │     │                  ├ [11]: https://pkg.go.dev/vuln/GO-2025-3563 
 │                        │     │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2025-22871 
@@ -4457,7 +4466,7 @@
 │                        │     │                  ├ [3]: https://pkg.go.dev/vuln/GO-2025-3751 
 │                        │     │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2025-4673 
 │                        │     ├ PublishedDate   : 2025-06-11T17:15:42.993Z 
-│                        │     ╰ LastModifiedDate: 2025-06-11T17:15:42.993Z 
+│                        │     ╰ LastModifiedDate: 2025-06-12T16:06:20.18Z 
 │                        ├ [5] ╭ VulnerabilityID : CVE-2025-0913 
 │                        │     ├ PkgID           : stdlib@v1.24.1 
 │                        │     ├ PkgName         : stdlib 
@@ -4485,11 +4494,13 @@
 │                        │     │                   always returns an error when the O_CREATE and O_EXCL flags
 │                        │     │                   are both set and the target path is a symlink. 
 │                        │     ├ Severity        : UNKNOWN 
-│                        │     ╰ References       ╭ [0]: https://go.dev/cl/672396 
-│                        │                        ├ [1]: https://go.dev/issue/73702 
-│                        │                        ├ [2]: https://groups.google.com/g/golang-announce/c/ufZ8WpEs
-│                        │                        │      A3A 
-│                        │                        ╰ [3]: https://pkg.go.dev/vuln/GO-2025-3750 
+│                        │     ├ References       ╭ [0]: https://go.dev/cl/672396 
+│                        │     │                  ├ [1]: https://go.dev/issue/73702 
+│                        │     │                  ├ [2]: https://groups.google.com/g/golang-announce/c/ufZ8WpEs
+│                        │     │                  │      A3A 
+│                        │     │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2025-3750 
+│                        │     ├ PublishedDate   : 2025-06-11T18:15:24.627Z 
+│                        │     ╰ LastModifiedDate: 2025-06-12T16:06:20.18Z 
 │                        ╰ [6] ╭ VulnerabilityID : CVE-2025-22874 
 │                              ├ PkgID           : stdlib@v1.24.1 
 │                              ├ PkgName         : stdlib 
@@ -4519,7 +4530,7 @@
 │                              │                  │      A3A 
 │                              │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2025-3749 
 │                              ├ PublishedDate   : 2025-06-11T17:15:42.167Z 
-│                              ╰ LastModifiedDate: 2025-06-11T17:15:42.167Z 
+│                              ╰ LastModifiedDate: 2025-06-12T16:06:20.18Z 
 ├ [5]  ╭ Target         : usr/bin/docker-compose 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : gobinary 
@@ -4553,7 +4564,7 @@
 │                        │     │                  ├ [3]: https://pkg.go.dev/vuln/GO-2025-3751 
 │                        │     │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2025-4673 
 │                        │     ├ PublishedDate   : 2025-06-11T17:15:42.993Z 
-│                        │     ╰ LastModifiedDate: 2025-06-11T17:15:42.993Z 
+│                        │     ╰ LastModifiedDate: 2025-06-12T16:06:20.18Z 
 │                        ├ [1] ╭ VulnerabilityID : CVE-2025-0913 
 │                        │     ├ PkgID           : stdlib@v1.23.8 
 │                        │     ├ PkgName         : stdlib 
@@ -4581,11 +4592,13 @@
 │                        │     │                   always returns an error when the O_CREATE and O_EXCL flags
 │                        │     │                   are both set and the target path is a symlink. 
 │                        │     ├ Severity        : UNKNOWN 
-│                        │     ╰ References       ╭ [0]: https://go.dev/cl/672396 
-│                        │                        ├ [1]: https://go.dev/issue/73702 
-│                        │                        ├ [2]: https://groups.google.com/g/golang-announce/c/ufZ8WpEs
-│                        │                        │      A3A 
-│                        │                        ╰ [3]: https://pkg.go.dev/vuln/GO-2025-3750 
+│                        │     ├ References       ╭ [0]: https://go.dev/cl/672396 
+│                        │     │                  ├ [1]: https://go.dev/issue/73702 
+│                        │     │                  ├ [2]: https://groups.google.com/g/golang-announce/c/ufZ8WpEs
+│                        │     │                  │      A3A 
+│                        │     │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2025-3750 
+│                        │     ├ PublishedDate   : 2025-06-11T18:15:24.627Z 
+│                        │     ╰ LastModifiedDate: 2025-06-12T16:06:20.18Z 
 │                        ╰ [2] ╭ VulnerabilityID : CVE-2025-22874 
 │                              ├ PkgID           : stdlib@v1.23.8 
 │                              ├ PkgName         : stdlib 
@@ -4615,7 +4628,7 @@
 │                              │                  │      A3A 
 │                              │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2025-3749 
 │                              ├ PublishedDate   : 2025-06-11T17:15:42.167Z 
-│                              ╰ LastModifiedDate: 2025-06-11T17:15:42.167Z 
+│                              ╰ LastModifiedDate: 2025-06-12T16:06:20.18Z 
 ├ [6]  ╭ Target         : usr/bin/helm 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : gobinary 
@@ -4649,7 +4662,7 @@
 │                        │     │                  ├ [3]: https://pkg.go.dev/vuln/GO-2025-3751 
 │                        │     │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2025-4673 
 │                        │     ├ PublishedDate   : 2025-06-11T17:15:42.993Z 
-│                        │     ╰ LastModifiedDate: 2025-06-11T17:15:42.993Z 
+│                        │     ╰ LastModifiedDate: 2025-06-12T16:06:20.18Z 
 │                        ├ [1] ╭ VulnerabilityID : CVE-2025-0913 
 │                        │     ├ PkgID           : stdlib@v1.24.3 
 │                        │     ├ PkgName         : stdlib 
@@ -4677,11 +4690,13 @@
 │                        │     │                   always returns an error when the O_CREATE and O_EXCL flags
 │                        │     │                   are both set and the target path is a symlink. 
 │                        │     ├ Severity        : UNKNOWN 
-│                        │     ╰ References       ╭ [0]: https://go.dev/cl/672396 
-│                        │                        ├ [1]: https://go.dev/issue/73702 
-│                        │                        ├ [2]: https://groups.google.com/g/golang-announce/c/ufZ8WpEs
-│                        │                        │      A3A 
-│                        │                        ╰ [3]: https://pkg.go.dev/vuln/GO-2025-3750 
+│                        │     ├ References       ╭ [0]: https://go.dev/cl/672396 
+│                        │     │                  ├ [1]: https://go.dev/issue/73702 
+│                        │     │                  ├ [2]: https://groups.google.com/g/golang-announce/c/ufZ8WpEs
+│                        │     │                  │      A3A 
+│                        │     │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2025-3750 
+│                        │     ├ PublishedDate   : 2025-06-11T18:15:24.627Z 
+│                        │     ╰ LastModifiedDate: 2025-06-12T16:06:20.18Z 
 │                        ╰ [2] ╭ VulnerabilityID : CVE-2025-22874 
 │                              ├ PkgID           : stdlib@v1.24.3 
 │                              ├ PkgName         : stdlib 
@@ -4711,7 +4726,7 @@
 │                              │                  │      A3A 
 │                              │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2025-3749 
 │                              ├ PublishedDate   : 2025-06-11T17:15:42.167Z 
-│                              ╰ LastModifiedDate: 2025-06-11T17:15:42.167Z 
+│                              ╰ LastModifiedDate: 2025-06-12T16:06:20.18Z 
 ├ [7]  ╭ Target         : usr/bin/kubectl 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : gobinary 
@@ -4745,7 +4760,7 @@
 │                        │     │                  ├ [3]: https://pkg.go.dev/vuln/GO-2025-3751 
 │                        │     │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2025-4673 
 │                        │     ├ PublishedDate   : 2025-06-11T17:15:42.993Z 
-│                        │     ╰ LastModifiedDate: 2025-06-11T17:15:42.993Z 
+│                        │     ╰ LastModifiedDate: 2025-06-12T16:06:20.18Z 
 │                        ├ [1] ╭ VulnerabilityID : CVE-2025-0913 
 │                        │     ├ PkgID           : stdlib@v1.24.2 
 │                        │     ├ PkgName         : stdlib 
@@ -4773,11 +4788,13 @@
 │                        │     │                   always returns an error when the O_CREATE and O_EXCL flags
 │                        │     │                   are both set and the target path is a symlink. 
 │                        │     ├ Severity        : UNKNOWN 
-│                        │     ╰ References       ╭ [0]: https://go.dev/cl/672396 
-│                        │                        ├ [1]: https://go.dev/issue/73702 
-│                        │                        ├ [2]: https://groups.google.com/g/golang-announce/c/ufZ8WpEs
-│                        │                        │      A3A 
-│                        │                        ╰ [3]: https://pkg.go.dev/vuln/GO-2025-3750 
+│                        │     ├ References       ╭ [0]: https://go.dev/cl/672396 
+│                        │     │                  ├ [1]: https://go.dev/issue/73702 
+│                        │     │                  ├ [2]: https://groups.google.com/g/golang-announce/c/ufZ8WpEs
+│                        │     │                  │      A3A 
+│                        │     │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2025-3750 
+│                        │     ├ PublishedDate   : 2025-06-11T18:15:24.627Z 
+│                        │     ╰ LastModifiedDate: 2025-06-12T16:06:20.18Z 
 │                        ╰ [2] ╭ VulnerabilityID : CVE-2025-22874 
 │                              ├ PkgID           : stdlib@v1.24.2 
 │                              ├ PkgName         : stdlib 
@@ -4807,7 +4824,7 @@
 │                              │                  │      A3A 
 │                              │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2025-3749 
 │                              ├ PublishedDate   : 2025-06-11T17:15:42.167Z 
-│                              ╰ LastModifiedDate: 2025-06-11T17:15:42.167Z 
+│                              ╰ LastModifiedDate: 2025-06-12T16:06:20.18Z 
 ├ [8]  ╭ Target         : usr/bin/mc 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : gobinary 
@@ -4841,7 +4858,7 @@
 │                        │     │                  ├ [3]: https://pkg.go.dev/vuln/GO-2025-3751 
 │                        │     │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2025-4673 
 │                        │     ├ PublishedDate   : 2025-06-11T17:15:42.993Z 
-│                        │     ╰ LastModifiedDate: 2025-06-11T17:15:42.993Z 
+│                        │     ╰ LastModifiedDate: 2025-06-12T16:06:20.18Z 
 │                        ├ [1] ╭ VulnerabilityID : CVE-2025-0913 
 │                        │     ├ PkgID           : stdlib@v1.24.3 
 │                        │     ├ PkgName         : stdlib 
@@ -4869,11 +4886,13 @@
 │                        │     │                   always returns an error when the O_CREATE and O_EXCL flags
 │                        │     │                   are both set and the target path is a symlink. 
 │                        │     ├ Severity        : UNKNOWN 
-│                        │     ╰ References       ╭ [0]: https://go.dev/cl/672396 
-│                        │                        ├ [1]: https://go.dev/issue/73702 
-│                        │                        ├ [2]: https://groups.google.com/g/golang-announce/c/ufZ8WpEs
-│                        │                        │      A3A 
-│                        │                        ╰ [3]: https://pkg.go.dev/vuln/GO-2025-3750 
+│                        │     ├ References       ╭ [0]: https://go.dev/cl/672396 
+│                        │     │                  ├ [1]: https://go.dev/issue/73702 
+│                        │     │                  ├ [2]: https://groups.google.com/g/golang-announce/c/ufZ8WpEs
+│                        │     │                  │      A3A 
+│                        │     │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2025-3750 
+│                        │     ├ PublishedDate   : 2025-06-11T18:15:24.627Z 
+│                        │     ╰ LastModifiedDate: 2025-06-12T16:06:20.18Z 
 │                        ╰ [2] ╭ VulnerabilityID : CVE-2025-22874 
 │                              ├ PkgID           : stdlib@v1.24.3 
 │                              ├ PkgName         : stdlib 
@@ -4903,7 +4922,7 @@
 │                              │                  │      A3A 
 │                              │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2025-3749 
 │                              ├ PublishedDate   : 2025-06-11T17:15:42.167Z 
-│                              ╰ LastModifiedDate: 2025-06-11T17:15:42.167Z 
+│                              ╰ LastModifiedDate: 2025-06-12T16:06:20.18Z 
 ├ [9]  ╭ Target         : usr/local/bin/k3d 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : gobinary 
@@ -5432,7 +5451,7 @@
 │                        │      │                  ├ [7] : https://groups.google.com/g/golang-announce/c/Y2uBTV
 │                        │      │                  │       KjBQk 
 │                        │      │                  ├ [8] : https://linux.oracle.com/cve/CVE-2025-22871.html 
-│                        │      │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2025-8682.html 
+│                        │      │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2025-8918.html 
 │                        │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2025-22871 
 │                        │      │                  ├ [11]: https://pkg.go.dev/vuln/GO-2025-3563 
 │                        │      │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2025-22871 
@@ -5468,7 +5487,7 @@
 │                        │      │                  ├ [3]: https://pkg.go.dev/vuln/GO-2025-3751 
 │                        │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2025-4673 
 │                        │      ├ PublishedDate   : 2025-06-11T17:15:42.993Z 
-│                        │      ╰ LastModifiedDate: 2025-06-11T17:15:42.993Z 
+│                        │      ╰ LastModifiedDate: 2025-06-12T16:06:20.18Z 
 │                        ├ [9]  ╭ VulnerabilityID : CVE-2025-0913 
 │                        │      ├ PkgID           : stdlib@v1.22.12 
 │                        │      ├ PkgName         : stdlib 
@@ -5496,11 +5515,13 @@
 │                        │      │                    always returns an error when the O_CREATE and O_EXCL flags
 │                        │      │                    are both set and the target path is a symlink. 
 │                        │      ├ Severity        : UNKNOWN 
-│                        │      ╰ References       ╭ [0]: https://go.dev/cl/672396 
-│                        │                         ├ [1]: https://go.dev/issue/73702 
-│                        │                         ├ [2]: https://groups.google.com/g/golang-announce/c/ufZ8WpE
-│                        │                         │      sA3A 
-│                        │                         ╰ [3]: https://pkg.go.dev/vuln/GO-2025-3750 
+│                        │      ├ References       ╭ [0]: https://go.dev/cl/672396 
+│                        │      │                  ├ [1]: https://go.dev/issue/73702 
+│                        │      │                  ├ [2]: https://groups.google.com/g/golang-announce/c/ufZ8WpE
+│                        │      │                  │      sA3A 
+│                        │      │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2025-3750 
+│                        │      ├ PublishedDate   : 2025-06-11T18:15:24.627Z 
+│                        │      ╰ LastModifiedDate: 2025-06-12T16:06:20.18Z 
 │                        ╰ [10] ╭ VulnerabilityID : CVE-2025-22874 
 │                               ├ PkgID           : stdlib@v1.22.12 
 │                               ├ PkgName         : stdlib 
@@ -5530,7 +5551,7 @@
 │                               │                  │      sA3A 
 │                               │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2025-3749 
 │                               ├ PublishedDate   : 2025-06-11T17:15:42.167Z 
-│                               ╰ LastModifiedDate: 2025-06-11T17:15:42.167Z 
+│                               ╰ LastModifiedDate: 2025-06-12T16:06:20.18Z 
 ├ [10] ╭ Target : /etc/ssh/ssh_host_dsa_key 
 │      ├ Class  : secret 
 │      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
