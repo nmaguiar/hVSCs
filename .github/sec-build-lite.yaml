@@ -1040,10 +1040,11 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2025-5222
     - https://bugzilla.redhat.com/show_bug.cgi?id=2368600
+    - https://lists.debian.org/debian-lts-announce/2025/06/msg00015.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-5222
     - https://www.cve.org/CVERecord?id=CVE-2025-5222
     PublishedDate: '2025-05-27T21:15:23.03Z'
-    LastModifiedDate: '2025-05-28T15:01:30.72Z'
+    LastModifiedDate: '2025-06-15T23:15:18.303Z'
   - VulnerabilityID: CVE-2024-10041
     PkgID: libpam-modules@1.5.3-5ubuntu5.1
     PkgName: libpam-modules
@@ -1468,6 +1469,282 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-10963
     PublishedDate: '2024-11-07T16:15:17.15Z'
     LastModifiedDate: '2025-02-06T06:15:29.24Z'
+  - VulnerabilityID: CVE-2025-4516
+    PkgID: libpython3.12-minimal@3.12.3-1ubuntu0.5
+    PkgName: libpython3.12-minimal
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libpython3.12-minimal@3.12.3-1ubuntu0.5?arch=amd64&distro=ubuntu-24.04
+      UID: 6a2fd265c3797f43
+    InstalledVersion: 3.12.3-1ubuntu0.5
+    FixedVersion: 3.12.3-1ubuntu0.6
+    Status: fixed
+    Layer:
+      Digest: sha256:97a53771385a824522f73e2768958adc0f1bbdee75f4a51568b2ce0a97536e01
+      DiffID: sha256:83737047cc709e723af15ae3ca4a015f7b5b82cbcdc09cff0599886446e2d6c8
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-4516
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: There is an issue in CPython when using `bytes.decode("unicode_escape" ...
+    Description: There is an issue in CPython when using `bytes.decode("unicode_escape", error="ignore|replace")`. If you are not using the "unicode_escape" encoding or an error handler your usage is not affected. To work-around this issue you may stop using the error= handler and instead wrap the bytes.decode() call in a try-except catching the DecodeError.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-416
+    VendorSeverity:
+      ubuntu: 2
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/05/16/4
+    - http://www.openwall.com/lists/oss-security/2025/05/19/1
+    - https://github.com/python/cpython/commit/4398b788ffc1f954a2c552da285477d42a571292
+    - https://github.com/python/cpython/commit/5646648678295a44aa82636c6e92826651baf33a
+    - https://github.com/python/cpython/commit/6279eb8c076d89d3739a6edb393e43c7929b429d
+    - https://github.com/python/cpython/commit/69b4387f78f413e8c47572a85b3478c47eba8142
+    - https://github.com/python/cpython/commit/73b3040f592436385007918887b7e2132aa8431f
+    - https://github.com/python/cpython/commit/8d35fd1b34935221aff23a1ab69a429dd156be77
+    - https://github.com/python/cpython/commit/9f69a58623bd01349a18ba0c7a9cb1dad6a51e8e
+    - https://github.com/python/cpython/commit/9f69a58623bd01349a18ba0c7a9cb1dad6a51e8e (main)
+    - https://github.com/python/cpython/commit/ab9893c40609935e0d40a6d2a7307ea51aec598b
+    - https://github.com/python/cpython/issues/133767
+    - https://github.com/python/cpython/pull/129648
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/L75IPBBTSCYEF56I2M4KIW353BB3AY74/
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-4516
+    - https://ubuntu.com/security/notices/USN-7570-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-4516
+    PublishedDate: '2025-05-15T14:15:31.753Z'
+    LastModifiedDate: '2025-06-03T14:15:49.697Z'
+  - VulnerabilityID: CVE-2025-1795
+    PkgID: libpython3.12-minimal@3.12.3-1ubuntu0.5
+    PkgName: libpython3.12-minimal
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libpython3.12-minimal@3.12.3-1ubuntu0.5?arch=amd64&distro=ubuntu-24.04
+      UID: 6a2fd265c3797f43
+    InstalledVersion: 3.12.3-1ubuntu0.5
+    FixedVersion: 3.12.3-1ubuntu0.6
+    Status: fixed
+    Layer:
+      Digest: sha256:97a53771385a824522f73e2768958adc0f1bbdee75f4a51568b2ce0a97536e01
+      DiffID: sha256:83737047cc709e723af15ae3ca4a015f7b5b82cbcdc09cff0599886446e2d6c8
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-1795
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'python: Mishandling of comma during folding and unicode-encoding of email headers'
+    Description: During an address list folding when a separating comma ends up on a folded line and that line is to be unicode-encoded then the separator itself is also unicode-encoded. Expected behavior is that the separating comma remains a plan comma. This can result in the address header being misinterpreted by some mail servers.
+    Severity: LOW
+    CweIDs:
+    - CWE-116
+    VendorSeverity:
+      amazon: 1
+      bitnami: 1
+      cbl-mariner: 1
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:L/I:N/A:N
+        V3Score: 3.1
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-1795
+    - https://github.com/python/cpython/commit/09fab93c3d857496c0bd162797fab816c311ee48
+    - https://github.com/python/cpython/commit/70754d21c288535e86070ca7a6e90dcb670b8593
+    - https://github.com/python/cpython/commit/9148b77e0af91cdacaa7fe3dfac09635c3fe9a74
+    - https://github.com/python/cpython/issues/100884
+    - https://github.com/python/cpython/pull/100885
+    - https://github.com/python/cpython/pull/119099
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/MB62IZMEC3UM6SGHP5LET5JX2Y7H4ZUR/
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-1795
+    - https://ubuntu.com/security/notices/USN-7570-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-1795
+    PublishedDate: '2025-02-28T19:15:36.55Z'
+    LastModifiedDate: '2025-02-28T21:15:27.57Z'
+  - VulnerabilityID: CVE-2025-4516
+    PkgID: libpython3.12-stdlib@3.12.3-1ubuntu0.5
+    PkgName: libpython3.12-stdlib
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libpython3.12-stdlib@3.12.3-1ubuntu0.5?arch=amd64&distro=ubuntu-24.04
+      UID: 15c910d50197e994
+    InstalledVersion: 3.12.3-1ubuntu0.5
+    FixedVersion: 3.12.3-1ubuntu0.6
+    Status: fixed
+    Layer:
+      Digest: sha256:97a53771385a824522f73e2768958adc0f1bbdee75f4a51568b2ce0a97536e01
+      DiffID: sha256:83737047cc709e723af15ae3ca4a015f7b5b82cbcdc09cff0599886446e2d6c8
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-4516
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: There is an issue in CPython when using `bytes.decode("unicode_escape" ...
+    Description: There is an issue in CPython when using `bytes.decode("unicode_escape", error="ignore|replace")`. If you are not using the "unicode_escape" encoding or an error handler your usage is not affected. To work-around this issue you may stop using the error= handler and instead wrap the bytes.decode() call in a try-except catching the DecodeError.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-416
+    VendorSeverity:
+      ubuntu: 2
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/05/16/4
+    - http://www.openwall.com/lists/oss-security/2025/05/19/1
+    - https://github.com/python/cpython/commit/4398b788ffc1f954a2c552da285477d42a571292
+    - https://github.com/python/cpython/commit/5646648678295a44aa82636c6e92826651baf33a
+    - https://github.com/python/cpython/commit/6279eb8c076d89d3739a6edb393e43c7929b429d
+    - https://github.com/python/cpython/commit/69b4387f78f413e8c47572a85b3478c47eba8142
+    - https://github.com/python/cpython/commit/73b3040f592436385007918887b7e2132aa8431f
+    - https://github.com/python/cpython/commit/8d35fd1b34935221aff23a1ab69a429dd156be77
+    - https://github.com/python/cpython/commit/9f69a58623bd01349a18ba0c7a9cb1dad6a51e8e
+    - https://github.com/python/cpython/commit/9f69a58623bd01349a18ba0c7a9cb1dad6a51e8e (main)
+    - https://github.com/python/cpython/commit/ab9893c40609935e0d40a6d2a7307ea51aec598b
+    - https://github.com/python/cpython/issues/133767
+    - https://github.com/python/cpython/pull/129648
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/L75IPBBTSCYEF56I2M4KIW353BB3AY74/
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-4516
+    - https://ubuntu.com/security/notices/USN-7570-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-4516
+    PublishedDate: '2025-05-15T14:15:31.753Z'
+    LastModifiedDate: '2025-06-03T14:15:49.697Z'
+  - VulnerabilityID: CVE-2025-1795
+    PkgID: libpython3.12-stdlib@3.12.3-1ubuntu0.5
+    PkgName: libpython3.12-stdlib
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libpython3.12-stdlib@3.12.3-1ubuntu0.5?arch=amd64&distro=ubuntu-24.04
+      UID: 15c910d50197e994
+    InstalledVersion: 3.12.3-1ubuntu0.5
+    FixedVersion: 3.12.3-1ubuntu0.6
+    Status: fixed
+    Layer:
+      Digest: sha256:97a53771385a824522f73e2768958adc0f1bbdee75f4a51568b2ce0a97536e01
+      DiffID: sha256:83737047cc709e723af15ae3ca4a015f7b5b82cbcdc09cff0599886446e2d6c8
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-1795
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'python: Mishandling of comma during folding and unicode-encoding of email headers'
+    Description: During an address list folding when a separating comma ends up on a folded line and that line is to be unicode-encoded then the separator itself is also unicode-encoded. Expected behavior is that the separating comma remains a plan comma. This can result in the address header being misinterpreted by some mail servers.
+    Severity: LOW
+    CweIDs:
+    - CWE-116
+    VendorSeverity:
+      amazon: 1
+      bitnami: 1
+      cbl-mariner: 1
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:L/I:N/A:N
+        V3Score: 3.1
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-1795
+    - https://github.com/python/cpython/commit/09fab93c3d857496c0bd162797fab816c311ee48
+    - https://github.com/python/cpython/commit/70754d21c288535e86070ca7a6e90dcb670b8593
+    - https://github.com/python/cpython/commit/9148b77e0af91cdacaa7fe3dfac09635c3fe9a74
+    - https://github.com/python/cpython/issues/100884
+    - https://github.com/python/cpython/pull/100885
+    - https://github.com/python/cpython/pull/119099
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/MB62IZMEC3UM6SGHP5LET5JX2Y7H4ZUR/
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-1795
+    - https://ubuntu.com/security/notices/USN-7570-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-1795
+    PublishedDate: '2025-02-28T19:15:36.55Z'
+    LastModifiedDate: '2025-02-28T21:15:27.57Z'
+  - VulnerabilityID: CVE-2025-4516
+    PkgID: libpython3.12t64@3.12.3-1ubuntu0.5
+    PkgName: libpython3.12t64
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libpython3.12t64@3.12.3-1ubuntu0.5?arch=amd64&distro=ubuntu-24.04
+      UID: a070de7f5e2977c2
+    InstalledVersion: 3.12.3-1ubuntu0.5
+    FixedVersion: 3.12.3-1ubuntu0.6
+    Status: fixed
+    Layer:
+      Digest: sha256:97a53771385a824522f73e2768958adc0f1bbdee75f4a51568b2ce0a97536e01
+      DiffID: sha256:83737047cc709e723af15ae3ca4a015f7b5b82cbcdc09cff0599886446e2d6c8
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-4516
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: There is an issue in CPython when using `bytes.decode("unicode_escape" ...
+    Description: There is an issue in CPython when using `bytes.decode("unicode_escape", error="ignore|replace")`. If you are not using the "unicode_escape" encoding or an error handler your usage is not affected. To work-around this issue you may stop using the error= handler and instead wrap the bytes.decode() call in a try-except catching the DecodeError.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-416
+    VendorSeverity:
+      ubuntu: 2
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/05/16/4
+    - http://www.openwall.com/lists/oss-security/2025/05/19/1
+    - https://github.com/python/cpython/commit/4398b788ffc1f954a2c552da285477d42a571292
+    - https://github.com/python/cpython/commit/5646648678295a44aa82636c6e92826651baf33a
+    - https://github.com/python/cpython/commit/6279eb8c076d89d3739a6edb393e43c7929b429d
+    - https://github.com/python/cpython/commit/69b4387f78f413e8c47572a85b3478c47eba8142
+    - https://github.com/python/cpython/commit/73b3040f592436385007918887b7e2132aa8431f
+    - https://github.com/python/cpython/commit/8d35fd1b34935221aff23a1ab69a429dd156be77
+    - https://github.com/python/cpython/commit/9f69a58623bd01349a18ba0c7a9cb1dad6a51e8e
+    - https://github.com/python/cpython/commit/9f69a58623bd01349a18ba0c7a9cb1dad6a51e8e (main)
+    - https://github.com/python/cpython/commit/ab9893c40609935e0d40a6d2a7307ea51aec598b
+    - https://github.com/python/cpython/issues/133767
+    - https://github.com/python/cpython/pull/129648
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/L75IPBBTSCYEF56I2M4KIW353BB3AY74/
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-4516
+    - https://ubuntu.com/security/notices/USN-7570-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-4516
+    PublishedDate: '2025-05-15T14:15:31.753Z'
+    LastModifiedDate: '2025-06-03T14:15:49.697Z'
+  - VulnerabilityID: CVE-2025-1795
+    PkgID: libpython3.12t64@3.12.3-1ubuntu0.5
+    PkgName: libpython3.12t64
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libpython3.12t64@3.12.3-1ubuntu0.5?arch=amd64&distro=ubuntu-24.04
+      UID: a070de7f5e2977c2
+    InstalledVersion: 3.12.3-1ubuntu0.5
+    FixedVersion: 3.12.3-1ubuntu0.6
+    Status: fixed
+    Layer:
+      Digest: sha256:97a53771385a824522f73e2768958adc0f1bbdee75f4a51568b2ce0a97536e01
+      DiffID: sha256:83737047cc709e723af15ae3ca4a015f7b5b82cbcdc09cff0599886446e2d6c8
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-1795
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'python: Mishandling of comma during folding and unicode-encoding of email headers'
+    Description: During an address list folding when a separating comma ends up on a folded line and that line is to be unicode-encoded then the separator itself is also unicode-encoded. Expected behavior is that the separating comma remains a plan comma. This can result in the address header being misinterpreted by some mail servers.
+    Severity: LOW
+    CweIDs:
+    - CWE-116
+    VendorSeverity:
+      amazon: 1
+      bitnami: 1
+      cbl-mariner: 1
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:L/I:N/A:N
+        V3Score: 3.1
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-1795
+    - https://github.com/python/cpython/commit/09fab93c3d857496c0bd162797fab816c311ee48
+    - https://github.com/python/cpython/commit/70754d21c288535e86070ca7a6e90dcb670b8593
+    - https://github.com/python/cpython/commit/9148b77e0af91cdacaa7fe3dfac09635c3fe9a74
+    - https://github.com/python/cpython/issues/100884
+    - https://github.com/python/cpython/pull/100885
+    - https://github.com/python/cpython/pull/119099
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/MB62IZMEC3UM6SGHP5LET5JX2Y7H4ZUR/
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-1795
+    - https://ubuntu.com/security/notices/USN-7570-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-1795
+    PublishedDate: '2025-02-28T19:15:36.55Z'
+    LastModifiedDate: '2025-02-28T21:15:27.57Z'
   - VulnerabilityID: CVE-2024-41996
     PkgID: libssl3t64@3.0.13-0ubuntu3.5
     PkgName: libssl3t64
@@ -1763,6 +2040,190 @@
     - https://www.cve.org/CVERecord?id=CVE-2021-45261
     PublishedDate: '2021-12-22T18:15:08.1Z'
     LastModifiedDate: '2024-11-21T06:32:02.633Z'
+  - VulnerabilityID: CVE-2025-4516
+    PkgID: python3.12@3.12.3-1ubuntu0.5
+    PkgName: python3.12
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/python3.12@3.12.3-1ubuntu0.5?arch=amd64&distro=ubuntu-24.04
+      UID: d3f980e512cdd1d1
+    InstalledVersion: 3.12.3-1ubuntu0.5
+    FixedVersion: 3.12.3-1ubuntu0.6
+    Status: fixed
+    Layer:
+      Digest: sha256:97a53771385a824522f73e2768958adc0f1bbdee75f4a51568b2ce0a97536e01
+      DiffID: sha256:83737047cc709e723af15ae3ca4a015f7b5b82cbcdc09cff0599886446e2d6c8
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-4516
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: There is an issue in CPython when using `bytes.decode("unicode_escape" ...
+    Description: There is an issue in CPython when using `bytes.decode("unicode_escape", error="ignore|replace")`. If you are not using the "unicode_escape" encoding or an error handler your usage is not affected. To work-around this issue you may stop using the error= handler and instead wrap the bytes.decode() call in a try-except catching the DecodeError.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-416
+    VendorSeverity:
+      ubuntu: 2
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/05/16/4
+    - http://www.openwall.com/lists/oss-security/2025/05/19/1
+    - https://github.com/python/cpython/commit/4398b788ffc1f954a2c552da285477d42a571292
+    - https://github.com/python/cpython/commit/5646648678295a44aa82636c6e92826651baf33a
+    - https://github.com/python/cpython/commit/6279eb8c076d89d3739a6edb393e43c7929b429d
+    - https://github.com/python/cpython/commit/69b4387f78f413e8c47572a85b3478c47eba8142
+    - https://github.com/python/cpython/commit/73b3040f592436385007918887b7e2132aa8431f
+    - https://github.com/python/cpython/commit/8d35fd1b34935221aff23a1ab69a429dd156be77
+    - https://github.com/python/cpython/commit/9f69a58623bd01349a18ba0c7a9cb1dad6a51e8e
+    - https://github.com/python/cpython/commit/9f69a58623bd01349a18ba0c7a9cb1dad6a51e8e (main)
+    - https://github.com/python/cpython/commit/ab9893c40609935e0d40a6d2a7307ea51aec598b
+    - https://github.com/python/cpython/issues/133767
+    - https://github.com/python/cpython/pull/129648
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/L75IPBBTSCYEF56I2M4KIW353BB3AY74/
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-4516
+    - https://ubuntu.com/security/notices/USN-7570-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-4516
+    PublishedDate: '2025-05-15T14:15:31.753Z'
+    LastModifiedDate: '2025-06-03T14:15:49.697Z'
+  - VulnerabilityID: CVE-2025-1795
+    PkgID: python3.12@3.12.3-1ubuntu0.5
+    PkgName: python3.12
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/python3.12@3.12.3-1ubuntu0.5?arch=amd64&distro=ubuntu-24.04
+      UID: d3f980e512cdd1d1
+    InstalledVersion: 3.12.3-1ubuntu0.5
+    FixedVersion: 3.12.3-1ubuntu0.6
+    Status: fixed
+    Layer:
+      Digest: sha256:97a53771385a824522f73e2768958adc0f1bbdee75f4a51568b2ce0a97536e01
+      DiffID: sha256:83737047cc709e723af15ae3ca4a015f7b5b82cbcdc09cff0599886446e2d6c8
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-1795
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'python: Mishandling of comma during folding and unicode-encoding of email headers'
+    Description: During an address list folding when a separating comma ends up on a folded line and that line is to be unicode-encoded then the separator itself is also unicode-encoded. Expected behavior is that the separating comma remains a plan comma. This can result in the address header being misinterpreted by some mail servers.
+    Severity: LOW
+    CweIDs:
+    - CWE-116
+    VendorSeverity:
+      amazon: 1
+      bitnami: 1
+      cbl-mariner: 1
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:L/I:N/A:N
+        V3Score: 3.1
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-1795
+    - https://github.com/python/cpython/commit/09fab93c3d857496c0bd162797fab816c311ee48
+    - https://github.com/python/cpython/commit/70754d21c288535e86070ca7a6e90dcb670b8593
+    - https://github.com/python/cpython/commit/9148b77e0af91cdacaa7fe3dfac09635c3fe9a74
+    - https://github.com/python/cpython/issues/100884
+    - https://github.com/python/cpython/pull/100885
+    - https://github.com/python/cpython/pull/119099
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/MB62IZMEC3UM6SGHP5LET5JX2Y7H4ZUR/
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-1795
+    - https://ubuntu.com/security/notices/USN-7570-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-1795
+    PublishedDate: '2025-02-28T19:15:36.55Z'
+    LastModifiedDate: '2025-02-28T21:15:27.57Z'
+  - VulnerabilityID: CVE-2025-4516
+    PkgID: python3.12-minimal@3.12.3-1ubuntu0.5
+    PkgName: python3.12-minimal
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/python3.12-minimal@3.12.3-1ubuntu0.5?arch=amd64&distro=ubuntu-24.04
+      UID: 7ef23d06a4f84fda
+    InstalledVersion: 3.12.3-1ubuntu0.5
+    FixedVersion: 3.12.3-1ubuntu0.6
+    Status: fixed
+    Layer:
+      Digest: sha256:97a53771385a824522f73e2768958adc0f1bbdee75f4a51568b2ce0a97536e01
+      DiffID: sha256:83737047cc709e723af15ae3ca4a015f7b5b82cbcdc09cff0599886446e2d6c8
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-4516
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: There is an issue in CPython when using `bytes.decode("unicode_escape" ...
+    Description: There is an issue in CPython when using `bytes.decode("unicode_escape", error="ignore|replace")`. If you are not using the "unicode_escape" encoding or an error handler your usage is not affected. To work-around this issue you may stop using the error= handler and instead wrap the bytes.decode() call in a try-except catching the DecodeError.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-416
+    VendorSeverity:
+      ubuntu: 2
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/05/16/4
+    - http://www.openwall.com/lists/oss-security/2025/05/19/1
+    - https://github.com/python/cpython/commit/4398b788ffc1f954a2c552da285477d42a571292
+    - https://github.com/python/cpython/commit/5646648678295a44aa82636c6e92826651baf33a
+    - https://github.com/python/cpython/commit/6279eb8c076d89d3739a6edb393e43c7929b429d
+    - https://github.com/python/cpython/commit/69b4387f78f413e8c47572a85b3478c47eba8142
+    - https://github.com/python/cpython/commit/73b3040f592436385007918887b7e2132aa8431f
+    - https://github.com/python/cpython/commit/8d35fd1b34935221aff23a1ab69a429dd156be77
+    - https://github.com/python/cpython/commit/9f69a58623bd01349a18ba0c7a9cb1dad6a51e8e
+    - https://github.com/python/cpython/commit/9f69a58623bd01349a18ba0c7a9cb1dad6a51e8e (main)
+    - https://github.com/python/cpython/commit/ab9893c40609935e0d40a6d2a7307ea51aec598b
+    - https://github.com/python/cpython/issues/133767
+    - https://github.com/python/cpython/pull/129648
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/L75IPBBTSCYEF56I2M4KIW353BB3AY74/
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-4516
+    - https://ubuntu.com/security/notices/USN-7570-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-4516
+    PublishedDate: '2025-05-15T14:15:31.753Z'
+    LastModifiedDate: '2025-06-03T14:15:49.697Z'
+  - VulnerabilityID: CVE-2025-1795
+    PkgID: python3.12-minimal@3.12.3-1ubuntu0.5
+    PkgName: python3.12-minimal
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/python3.12-minimal@3.12.3-1ubuntu0.5?arch=amd64&distro=ubuntu-24.04
+      UID: 7ef23d06a4f84fda
+    InstalledVersion: 3.12.3-1ubuntu0.5
+    FixedVersion: 3.12.3-1ubuntu0.6
+    Status: fixed
+    Layer:
+      Digest: sha256:97a53771385a824522f73e2768958adc0f1bbdee75f4a51568b2ce0a97536e01
+      DiffID: sha256:83737047cc709e723af15ae3ca4a015f7b5b82cbcdc09cff0599886446e2d6c8
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-1795
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'python: Mishandling of comma during folding and unicode-encoding of email headers'
+    Description: During an address list folding when a separating comma ends up on a folded line and that line is to be unicode-encoded then the separator itself is also unicode-encoded. Expected behavior is that the separating comma remains a plan comma. This can result in the address header being misinterpreted by some mail servers.
+    Severity: LOW
+    CweIDs:
+    - CWE-116
+    VendorSeverity:
+      amazon: 1
+      bitnami: 1
+      cbl-mariner: 1
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:L/I:N/A:N
+        V3Score: 3.1
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-1795
+    - https://github.com/python/cpython/commit/09fab93c3d857496c0bd162797fab816c311ee48
+    - https://github.com/python/cpython/commit/70754d21c288535e86070ca7a6e90dcb670b8593
+    - https://github.com/python/cpython/commit/9148b77e0af91cdacaa7fe3dfac09635c3fe9a74
+    - https://github.com/python/cpython/issues/100884
+    - https://github.com/python/cpython/pull/100885
+    - https://github.com/python/cpython/pull/119099
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/MB62IZMEC3UM6SGHP5LET5JX2Y7H4ZUR/
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-1795
+    - https://ubuntu.com/security/notices/USN-7570-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-1795
+    PublishedDate: '2025-02-28T19:15:36.55Z'
+    LastModifiedDate: '2025-02-28T21:15:27.57Z'
   - VulnerabilityID: CVE-2024-56433
     PkgID: uidmap@1:4.13+dfsg1-4ubuntu3.2
     PkgName: uidmap
@@ -2042,7 +2503,7 @@
       PURL: pkg:golang/stdlib@v1.24.1
       UID: 58815a71868018bb
     InstalledVersion: v1.24.1
-    FixedVersion: 1.23.10, 1.24.4
+    FixedVersion: 1.24.4
     Status: fixed
     Layer:
       Digest: sha256:97a53771385a824522f73e2768958adc0f1bbdee75f4a51568b2ce0a97536e01
@@ -2145,15 +2606,15 @@
         V3Score: 5.4
     References:
     - http://www.openwall.com/lists/oss-security/2025/04/04/4
-    - https://access.redhat.com/errata/RHSA-2025:8476
+    - https://access.redhat.com/errata/RHSA-2025:9147
     - https://access.redhat.com/security/cve/CVE-2025-22871
     - https://bugzilla.redhat.com/2358493
-    - https://errata.almalinux.org/9/ALSA-2025-8476.html
+    - https://errata.almalinux.org/9/ALSA-2025-9147.html
     - https://go.dev/cl/652998
     - https://go.dev/issue/71988
     - https://groups.google.com/g/golang-announce/c/Y2uBTVKjBQk
     - https://linux.oracle.com/cve/CVE-2025-22871.html
-    - https://linux.oracle.com/errata/ELSA-2025-8918.html
+    - https://linux.oracle.com/errata/ELSA-2025-9150.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-22871
     - https://pkg.go.dev/vuln/GO-2025-3563
     - https://www.cve.org/CVERecord?id=CVE-2025-22871
@@ -2385,7 +2846,7 @@
       PURL: pkg:golang/stdlib@v1.24.1
       UID: 2e1ab08aa6e26f44
     InstalledVersion: v1.24.1
-    FixedVersion: 1.23.10, 1.24.4
+    FixedVersion: 1.24.4
     Status: fixed
     Layer:
       Digest: sha256:97a53771385a824522f73e2768958adc0f1bbdee75f4a51568b2ce0a97536e01
@@ -2488,15 +2949,15 @@
         V3Score: 5.4
     References:
     - http://www.openwall.com/lists/oss-security/2025/04/04/4
-    - https://access.redhat.com/errata/RHSA-2025:8476
+    - https://access.redhat.com/errata/RHSA-2025:9147
     - https://access.redhat.com/security/cve/CVE-2025-22871
     - https://bugzilla.redhat.com/2358493
-    - https://errata.almalinux.org/9/ALSA-2025-8476.html
+    - https://errata.almalinux.org/9/ALSA-2025-9147.html
     - https://go.dev/cl/652998
     - https://go.dev/issue/71988
     - https://groups.google.com/g/golang-announce/c/Y2uBTVKjBQk
     - https://linux.oracle.com/cve/CVE-2025-22871.html
-    - https://linux.oracle.com/errata/ELSA-2025-8918.html
+    - https://linux.oracle.com/errata/ELSA-2025-9150.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-22871
     - https://pkg.go.dev/vuln/GO-2025-3563
     - https://www.cve.org/CVERecord?id=CVE-2025-22871
@@ -2542,46 +3003,6 @@
   Class: lang-pkgs
   Type: gobinary
   Vulnerabilities:
-  - VulnerabilityID: CVE-2025-22874
-    PkgID: stdlib@v1.23.8
-    PkgName: stdlib
-    PkgIdentifier:
-      PURL: pkg:golang/stdlib@v1.23.8
-      UID: fc1a388135bdfe1b
-    InstalledVersion: v1.23.8
-    FixedVersion: 1.23.10, 1.24.4
-    Status: fixed
-    Layer:
-      Digest: sha256:97a53771385a824522f73e2768958adc0f1bbdee75f4a51568b2ce0a97536e01
-      DiffID: sha256:83737047cc709e723af15ae3ca4a015f7b5b82cbcdc09cff0599886446e2d6c8
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-22874
-    DataSource:
-      ID: govulndb
-      Name: The Go Vulnerability Database
-      URL: https://pkg.go.dev/vuln/
-    Title: 'crypto/x509: Usage of ExtKeyUsageAny disables policy validation in crypto/x509'
-    Description: Calling Verify with a VerifyOptions.KeyUsages that contains ExtKeyUsageAny unintentionally disabledpolicy validation. This only affected certificate chains which contain policy graphs, which are rather uncommon.
-    Severity: HIGH
-    VendorSeverity:
-      bitnami: 3
-      redhat: 3
-    CVSS:
-      bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N
-        V3Score: 7.5
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N
-        V3Score: 7.5
-    References:
-    - https://access.redhat.com/security/cve/CVE-2025-22874
-    - https://go.dev/cl/670375
-    - https://go.dev/issue/73612
-    - https://groups.google.com/g/golang-announce/c/ufZ8WpEsA3A
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-22874
-    - https://pkg.go.dev/vuln/GO-2025-3749
-    - https://www.cve.org/CVERecord?id=CVE-2025-22874
-    PublishedDate: '2025-06-11T17:15:42.167Z'
-    LastModifiedDate: '2025-06-12T16:06:20.18Z'
   - VulnerabilityID: CVE-2025-0913
     PkgID: stdlib@v1.23.8
     PkgName: stdlib
@@ -2663,7 +3084,7 @@
       PURL: pkg:golang/stdlib@v1.24.3
       UID: 40ab490ef72d674d
     InstalledVersion: v1.24.3
-    FixedVersion: 1.23.10, 1.24.4
+    FixedVersion: 1.24.4
     Status: fixed
     Layer:
       Digest: sha256:97a53771385a824522f73e2768958adc0f1bbdee75f4a51568b2ce0a97536e01
@@ -2777,7 +3198,7 @@
       PURL: pkg:golang/stdlib@v1.24.2
       UID: 5962d0efc7472c99
     InstalledVersion: v1.24.2
-    FixedVersion: 1.23.10, 1.24.4
+    FixedVersion: 1.24.4
     Status: fixed
     Layer:
       Digest: sha256:97a53771385a824522f73e2768958adc0f1bbdee75f4a51568b2ce0a97536e01
@@ -2891,7 +3312,7 @@
       PURL: pkg:golang/stdlib@v1.24.3
       UID: befc50538337df46
     InstalledVersion: v1.24.3
-    FixedVersion: 1.23.10, 1.24.4
+    FixedVersion: 1.24.4
     Status: fixed
     Layer:
       Digest: sha256:97a53771385a824522f73e2768958adc0f1bbdee75f4a51568b2ce0a97536e01
@@ -3362,46 +3783,6 @@
     - https://github.com/grpc/grpc-go/security/advisories/GHSA-xr7q-jx4m-x55m
     PublishedDate: '2024-07-05T20:07:01Z'
     LastModifiedDate: '2024-07-09T21:38:29Z'
-  - VulnerabilityID: CVE-2025-22874
-    PkgID: stdlib@v1.22.12
-    PkgName: stdlib
-    PkgIdentifier:
-      PURL: pkg:golang/stdlib@v1.22.12
-      UID: 156a2e832bd2e3cc
-    InstalledVersion: v1.22.12
-    FixedVersion: 1.23.10, 1.24.4
-    Status: fixed
-    Layer:
-      Digest: sha256:97a53771385a824522f73e2768958adc0f1bbdee75f4a51568b2ce0a97536e01
-      DiffID: sha256:83737047cc709e723af15ae3ca4a015f7b5b82cbcdc09cff0599886446e2d6c8
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-22874
-    DataSource:
-      ID: govulndb
-      Name: The Go Vulnerability Database
-      URL: https://pkg.go.dev/vuln/
-    Title: 'crypto/x509: Usage of ExtKeyUsageAny disables policy validation in crypto/x509'
-    Description: Calling Verify with a VerifyOptions.KeyUsages that contains ExtKeyUsageAny unintentionally disabledpolicy validation. This only affected certificate chains which contain policy graphs, which are rather uncommon.
-    Severity: HIGH
-    VendorSeverity:
-      bitnami: 3
-      redhat: 3
-    CVSS:
-      bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N
-        V3Score: 7.5
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N
-        V3Score: 7.5
-    References:
-    - https://access.redhat.com/security/cve/CVE-2025-22874
-    - https://go.dev/cl/670375
-    - https://go.dev/issue/73612
-    - https://groups.google.com/g/golang-announce/c/ufZ8WpEsA3A
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-22874
-    - https://pkg.go.dev/vuln/GO-2025-3749
-    - https://www.cve.org/CVERecord?id=CVE-2025-22874
-    PublishedDate: '2025-06-11T17:15:42.167Z'
-    LastModifiedDate: '2025-06-12T16:06:20.18Z'
   - VulnerabilityID: CVE-2025-0913
     PkgID: stdlib@v1.22.12
     PkgName: stdlib
@@ -3472,15 +3853,15 @@
         V3Score: 5.4
     References:
     - http://www.openwall.com/lists/oss-security/2025/04/04/4
-    - https://access.redhat.com/errata/RHSA-2025:8476
+    - https://access.redhat.com/errata/RHSA-2025:9147
     - https://access.redhat.com/security/cve/CVE-2025-22871
     - https://bugzilla.redhat.com/2358493
-    - https://errata.almalinux.org/9/ALSA-2025-8476.html
+    - https://errata.almalinux.org/9/ALSA-2025-9147.html
     - https://go.dev/cl/652998
     - https://go.dev/issue/71988
     - https://groups.google.com/g/golang-announce/c/Y2uBTVKjBQk
     - https://linux.oracle.com/cve/CVE-2025-22871.html
-    - https://linux.oracle.com/errata/ELSA-2025-8918.html
+    - https://linux.oracle.com/errata/ELSA-2025-9150.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-22871
     - https://pkg.go.dev/vuln/GO-2025-3563
     - https://www.cve.org/CVERecord?id=CVE-2025-22871
