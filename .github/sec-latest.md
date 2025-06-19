@@ -2990,6 +2990,7 @@
 │                        │       ├ Severity        : MEDIUM 
 │                        │       ├ CweIDs           ─ [0]: CWE-364 
 │                        │       ├ VendorSeverity   ╭ oracle-oval: 3 
+│                        │       │                  ├ photon     : 2 
 │                        │       │                  ├ redhat     : 2 
 │                        │       │                  ╰ ubuntu     : 2 
 │                        │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I
@@ -3311,6 +3312,7 @@
 │                        │       ├ Severity        : MEDIUM 
 │                        │       ├ CweIDs           ─ [0]: CWE-364 
 │                        │       ├ VendorSeverity   ╭ oracle-oval: 3 
+│                        │       │                  ├ photon     : 2 
 │                        │       │                  ├ redhat     : 2 
 │                        │       │                  ╰ ubuntu     : 2 
 │                        │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I
@@ -4253,6 +4255,7 @@
 │                        │       ├ Severity        : MEDIUM 
 │                        │       ├ CweIDs           ─ [0]: CWE-364 
 │                        │       ├ VendorSeverity   ╭ oracle-oval: 3 
+│                        │       │                  ├ photon     : 2 
 │                        │       │                  ├ redhat     : 2 
 │                        │       │                  ╰ ubuntu     : 2 
 │                        │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I
@@ -4489,6 +4492,7 @@
 │                        │       ├ Severity        : MEDIUM 
 │                        │       ├ CweIDs           ─ [0]: CWE-364 
 │                        │       ├ VendorSeverity   ╭ oracle-oval: 3 
+│                        │       │                  ├ photon     : 2 
 │                        │       │                  ├ redhat     : 2 
 │                        │       │                  ╰ ubuntu     : 2 
 │                        │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I
@@ -6117,6 +6121,7 @@
 │                        │       ├ Severity        : MEDIUM 
 │                        │       ├ CweIDs           ─ [0]: CWE-364 
 │                        │       ├ VendorSeverity   ╭ oracle-oval: 3 
+│                        │       │                  ├ photon     : 2 
 │                        │       │                  ├ redhat     : 2 
 │                        │       │                  ╰ ubuntu     : 2 
 │                        │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I
@@ -6267,6 +6272,7 @@
 │                        │       ├ Severity        : MEDIUM 
 │                        │       ├ CweIDs           ─ [0]: CWE-364 
 │                        │       ├ VendorSeverity   ╭ oracle-oval: 3 
+│                        │       │                  ├ photon     : 2 
 │                        │       │                  ├ redhat     : 2 
 │                        │       │                  ╰ ubuntu     : 2 
 │                        │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I
@@ -6417,6 +6423,7 @@
 │                        │       ├ Severity        : MEDIUM 
 │                        │       ├ CweIDs           ─ [0]: CWE-364 
 │                        │       ├ VendorSeverity   ╭ oracle-oval: 3 
+│                        │       │                  ├ photon     : 2 
 │                        │       │                  ├ redhat     : 2 
 │                        │       │                  ╰ ubuntu     : 2 
 │                        │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I
@@ -8004,10 +8011,11 @@
 │                        │     │                  ├ [8] : https://linux.oracle.com/cve/CVE-2025-30204.html 
 │                        │     │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2025-7967.html 
 │                        │     │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2025-30204 
-│                        │     │                  ├ [11]: https://security.netapp.com/advisory/ntap-20250404-0002 
-│                        │     │                  ├ [12]: https://security.netapp.com/advisory/ntap-20250404-00
+│                        │     │                  ├ [11]: https://pkg.go.dev/vuln/GO-2025-3553 
+│                        │     │                  ├ [12]: https://security.netapp.com/advisory/ntap-20250404-0002 
+│                        │     │                  ├ [13]: https://security.netapp.com/advisory/ntap-20250404-00
 │                        │     │                  │       02/ 
-│                        │     │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2025-30204 
+│                        │     │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2025-30204 
 │                        │     ├ PublishedDate   : 2025-03-21T22:15:26.42Z 
 │                        │     ╰ LastModifiedDate: 2025-04-10T13:15:52.097Z 
 │                        ├ [4] ╭ VulnerabilityID : CVE-2025-22869 
@@ -8845,10 +8853,11 @@
 │                        │     │                  ├ [8] : https://linux.oracle.com/cve/CVE-2025-30204.html 
 │                        │     │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2025-7967.html 
 │                        │     │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2025-30204 
-│                        │     │                  ├ [11]: https://security.netapp.com/advisory/ntap-20250404-0002 
-│                        │     │                  ├ [12]: https://security.netapp.com/advisory/ntap-20250404-00
+│                        │     │                  ├ [11]: https://pkg.go.dev/vuln/GO-2025-3553 
+│                        │     │                  ├ [12]: https://security.netapp.com/advisory/ntap-20250404-0002 
+│                        │     │                  ├ [13]: https://security.netapp.com/advisory/ntap-20250404-00
 │                        │     │                  │       02/ 
-│                        │     │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2025-30204 
+│                        │     │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2025-30204 
 │                        │     ├ PublishedDate   : 2025-03-21T22:15:26.42Z 
 │                        │     ╰ LastModifiedDate: 2025-04-10T13:15:52.097Z 
 │                        ├ [1] ╭ VulnerabilityID : CVE-2025-22872 
