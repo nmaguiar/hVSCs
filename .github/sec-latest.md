@@ -153,7 +153,7 @@
 │                        │       │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                        │       │                  │       2023-34969 
 │                        │       │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2023-4569.html 
-│                        │       │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4498 
+│                        │       │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4569 
 │                        │       │                  ├ [7] : https://gitlab.freedesktop.org/dbus/dbus/-/issues/457 
 │                        │       │                  ├ [8] : https://linux.oracle.com/cve/CVE-2023-34969.html 
 │                        │       │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2023-4569.html 
@@ -222,7 +222,7 @@
 │                        │       │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                        │       │                  │       2023-34969 
 │                        │       │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2023-4569.html 
-│                        │       │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4498 
+│                        │       │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4569 
 │                        │       │                  ├ [7] : https://gitlab.freedesktop.org/dbus/dbus/-/issues/457 
 │                        │       │                  ├ [8] : https://linux.oracle.com/cve/CVE-2023-34969.html 
 │                        │       │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2023-4569.html 
@@ -1962,7 +1962,7 @@
 │                        │       │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                        │       │                  │       2023-34969 
 │                        │       │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2023-4569.html 
-│                        │       │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4498 
+│                        │       │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4569 
 │                        │       │                  ├ [7] : https://gitlab.freedesktop.org/dbus/dbus/-/issues/457 
 │                        │       │                  ├ [8] : https://linux.oracle.com/cve/CVE-2023-34969.html 
 │                        │       │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2023-4569.html 
@@ -3081,7 +3081,7 @@
 │                        │       │                  ├ [6] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                        │       │                  │       2023-7008 
 │                        │       │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2024-2463.html 
-│                        │       │                  ├ [8] : https://errata.rockylinux.org/RLSA-2024:3203 
+│                        │       │                  ├ [8] : https://errata.rockylinux.org/RLSA-2024:2463 
 │                        │       │                  ├ [9] : https://github.com/systemd/systemd/issues/25676 
 │                        │       │                  ├ [10]: https://linux.oracle.com/cve/CVE-2023-7008.html 
 │                        │       │                  ├ [11]: https://linux.oracle.com/errata/ELSA-2024-3203.html 
@@ -3529,7 +3529,7 @@
 │                        │       │                  ├ [6] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                        │       │                  │       2023-7008 
 │                        │       │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2024-2463.html 
-│                        │       │                  ├ [8] : https://errata.rockylinux.org/RLSA-2024:3203 
+│                        │       │                  ├ [8] : https://errata.rockylinux.org/RLSA-2024:2463 
 │                        │       │                  ├ [9] : https://github.com/systemd/systemd/issues/25676 
 │                        │       │                  ├ [10]: https://linux.oracle.com/cve/CVE-2023-7008.html 
 │                        │       │                  ├ [11]: https://linux.oracle.com/errata/ELSA-2024-3203.html 
@@ -4178,7 +4178,7 @@
 │                        │       │                  ╰ [1]: CWE-400 
 │                        │       ├ VendorSeverity   ╭ amazon : 3 
 │                        │       │                  ├ bitnami: 3 
-│                        │       │                  ├ photon : 3 
+│                        │       │                  ├ photon : 2 
 │                        │       │                  ├ redhat : 2 
 │                        │       │                  ╰ ubuntu : 2 
 │                        │       ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/
@@ -4514,7 +4514,7 @@
 │                        │       │                  ├ [6] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                        │       │                  │       2023-7008 
 │                        │       │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2024-2463.html 
-│                        │       │                  ├ [8] : https://errata.rockylinux.org/RLSA-2024:3203 
+│                        │       │                  ├ [8] : https://errata.rockylinux.org/RLSA-2024:2463 
 │                        │       │                  ├ [9] : https://github.com/systemd/systemd/issues/25676 
 │                        │       │                  ├ [10]: https://linux.oracle.com/cve/CVE-2023-7008.html 
 │                        │       │                  ├ [11]: https://linux.oracle.com/errata/ELSA-2024-3203.html 
@@ -4751,7 +4751,7 @@
 │                        │       │                  ├ [6] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                        │       │                  │       2023-7008 
 │                        │       │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2024-2463.html 
-│                        │       │                  ├ [8] : https://errata.rockylinux.org/RLSA-2024:3203 
+│                        │       │                  ├ [8] : https://errata.rockylinux.org/RLSA-2024:2463 
 │                        │       │                  ├ [9] : https://github.com/systemd/systemd/issues/25676 
 │                        │       │                  ├ [10]: https://linux.oracle.com/cve/CVE-2023-7008.html 
 │                        │       │                  ├ [11]: https://linux.oracle.com/errata/ELSA-2024-3203.html 
@@ -6380,7 +6380,7 @@
 │                        │       │                  ├ [6] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                        │       │                  │       2023-7008 
 │                        │       │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2024-2463.html 
-│                        │       │                  ├ [8] : https://errata.rockylinux.org/RLSA-2024:3203 
+│                        │       │                  ├ [8] : https://errata.rockylinux.org/RLSA-2024:2463 
 │                        │       │                  ├ [9] : https://github.com/systemd/systemd/issues/25676 
 │                        │       │                  ├ [10]: https://linux.oracle.com/cve/CVE-2023-7008.html 
 │                        │       │                  ├ [11]: https://linux.oracle.com/errata/ELSA-2024-3203.html 
@@ -6531,7 +6531,7 @@
 │                        │       │                  ├ [6] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                        │       │                  │       2023-7008 
 │                        │       │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2024-2463.html 
-│                        │       │                  ├ [8] : https://errata.rockylinux.org/RLSA-2024:3203 
+│                        │       │                  ├ [8] : https://errata.rockylinux.org/RLSA-2024:2463 
 │                        │       │                  ├ [9] : https://github.com/systemd/systemd/issues/25676 
 │                        │       │                  ├ [10]: https://linux.oracle.com/cve/CVE-2023-7008.html 
 │                        │       │                  ├ [11]: https://linux.oracle.com/errata/ELSA-2024-3203.html 
@@ -6682,7 +6682,7 @@
 │                        │       │                  ├ [6] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                        │       │                  │       2023-7008 
 │                        │       │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2024-2463.html 
-│                        │       │                  ├ [8] : https://errata.rockylinux.org/RLSA-2024:3203 
+│                        │       │                  ├ [8] : https://errata.rockylinux.org/RLSA-2024:2463 
 │                        │       │                  ├ [9] : https://github.com/systemd/systemd/issues/25676 
 │                        │       │                  ├ [10]: https://linux.oracle.com/cve/CVE-2023-7008.html 
 │                        │       │                  ├ [11]: https://linux.oracle.com/errata/ELSA-2024-3203.html 
@@ -7216,8 +7216,8 @@
 │                        │     │                  ├ Name: GitHub Security Advisory Go 
 │                        │     │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+e
 │                        │     │                          cosystem%3Ago 
-│                        │     ├ Title           : An attacker may cause an HTTP/2 endpoint to read arbitrary
-│                        │     │                   amounts of  ... 
+│                        │     ├ Title           : golang: net/http, x/net/http2: unlimited number of
+│                        │     │                   CONTINUATION frames causes DoS 
 │                        │     ├ Description     : An attacker may cause an HTTP/2 endpoint to read arbitrary
 │                        │     │                   amounts of header data by sending an excessive number of
 │                        │     │                   CONTINUATION frames. Maintaining HPACK state requires
@@ -7241,60 +7241,67 @@
 │                        │     │                  ├ ghsa       : 2 
 │                        │     │                  ├ oracle-oval: 3 
 │                        │     │                  ├ photon     : 3 
+│                        │     │                  ├ redhat     : 3 
 │                        │     │                  ├ rocky      : 3 
 │                        │     │                  ╰ ubuntu     : 2 
 │                        │     ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
 │                        │     │                  │         │           N/A:H 
 │                        │     │                  │         ╰ V3Score : 7.5 
-│                        │     │                  ╰ ghsa    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
-│                        │     │                            │           N/A:L 
-│                        │     │                            ╰ V3Score : 5.3 
+│                        │     │                  ├ ghsa    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
+│                        │     │                  │         │           N/A:L 
+│                        │     │                  │         ╰ V3Score : 5.3 
+│                        │     │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
+│                        │     │                            │           N/A:H 
+│                        │     │                            ╰ V3Score : 7.5 
 │                        │     ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2024/04/03
 │                        │     │                  │       /16 
 │                        │     │                  ├ [1] : http://www.openwall.com/lists/oss-security/2024/04/05/4 
 │                        │     │                  ├ [2] : https://access.redhat.com/errata/RHSA-2024:2724 
-│                        │     │                  ├ [3] : https://bugzilla.redhat.com/2268017 
-│                        │     │                  ├ [4] : https://bugzilla.redhat.com/2268018 
-│                        │     │                  ├ [5] : https://bugzilla.redhat.com/2268019 
-│                        │     │                  ├ [6] : https://bugzilla.redhat.com/2268273 
-│                        │     │                  ├ [7] : https://bugzilla.redhat.com/show_bug.cgi?id=2268017 
-│                        │     │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2268018 
-│                        │     │                  ├ [9] : https://bugzilla.redhat.com/show_bug.cgi?id=2268019 
-│                        │     │                  ├ [10]: https://bugzilla.redhat.com/show_bug.cgi?id=2268273 
-│                        │     │                  ├ [11]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
-│                        │     │                  │       23-45288 
+│                        │     │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2023-45288 
+│                        │     │                  ├ [4] : https://bugzilla.redhat.com/2268017 
+│                        │     │                  ├ [5] : https://bugzilla.redhat.com/2268018 
+│                        │     │                  ├ [6] : https://bugzilla.redhat.com/2268019 
+│                        │     │                  ├ [7] : https://bugzilla.redhat.com/2268273 
+│                        │     │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2268017 
+│                        │     │                  ├ [9] : https://bugzilla.redhat.com/show_bug.cgi?id=2268018 
+│                        │     │                  ├ [10]: https://bugzilla.redhat.com/show_bug.cgi?id=2268019 
+│                        │     │                  ├ [11]: https://bugzilla.redhat.com/show_bug.cgi?id=2268273 
 │                        │     │                  ├ [12]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
-│                        │     │                  │       23-45289 
+│                        │     │                  │       23-45288 
 │                        │     │                  ├ [13]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
-│                        │     │                  │       23-45290 
+│                        │     │                  │       23-45289 
 │                        │     │                  ├ [14]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                        │     │                  │       23-45290 
+│                        │     │                  ├ [15]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                        │     │                  │       24-24783 
-│                        │     │                  ├ [15]: https://errata.almalinux.org/9/ALSA-2024-2724.html 
-│                        │     │                  ├ [16]: https://errata.rockylinux.org/RLSA-2024:3346 
-│                        │     │                  ├ [17]: https://go.dev/cl/576155 
-│                        │     │                  ├ [18]: https://go.dev/issue/65051 
-│                        │     │                  ├ [19]: https://groups.google.com/g/golang-announce/c/YgW0sx8
+│                        │     │                  ├ [16]: https://errata.almalinux.org/9/ALSA-2024-2724.html 
+│                        │     │                  ├ [17]: https://errata.rockylinux.org/RLSA-2024:2724 
+│                        │     │                  ├ [18]: https://go.dev/cl/576155 
+│                        │     │                  ├ [19]: https://go.dev/issue/65051 
+│                        │     │                  ├ [20]: https://groups.google.com/g/golang-announce/c/YgW0sx8
 │                        │     │                  │       mN3M 
-│                        │     │                  ├ [20]: https://kb.cert.org/vuls/id/421644 
-│                        │     │                  ├ [21]: https://linux.oracle.com/cve/CVE-2023-45288.html 
-│                        │     │                  ├ [22]: https://linux.oracle.com/errata/ELSA-2024-3346.html 
-│                        │     │                  ├ [23]: https://lists.fedoraproject.org/archives/list/package
-│                        │     │                  │       -announce@lists.fedoraproject.org/message/QRYFHIQ6XRK
-│                        │     │                  │       RYBI2F5UESH67BJBQXUPT 
+│                        │     │                  ├ [21]: https://kb.cert.org/vuls/id/421644 
+│                        │     │                  ├ [22]: https://linux.oracle.com/cve/CVE-2023-45288.html 
+│                        │     │                  ├ [23]: https://linux.oracle.com/errata/ELSA-2024-3346.html 
 │                        │     │                  ├ [24]: https://lists.fedoraproject.org/archives/list/package
 │                        │     │                  │       -announce@lists.fedoraproject.org/message/QRYFHIQ6XRK
+│                        │     │                  │       RYBI2F5UESH67BJBQXUPT 
+│                        │     │                  ├ [25]: https://lists.fedoraproject.org/archives/list/package
+│                        │     │                  │       -announce@lists.fedoraproject.org/message/QRYFHIQ6XRK
 │                        │     │                  │       RYBI2F5UESH67BJBQXUPT/ 
-│                        │     │                  ├ [25]: https://nowotarski.info/http2-continuation-flood-tech
+│                        │     │                  ├ [26]: https://nowotarski.info/http2-continuation-flood-tech
 │                        │     │                  │       nical-details 
-│                        │     │                  ├ [26]: https://nvd.nist.gov/vuln/detail/CVE-2023-45288 
-│                        │     │                  ├ [27]: https://pkg.go.dev/vuln/GO-2024-2687 
-│                        │     │                  ├ [28]: https://security.netapp.com/advisory/ntap-20240419-0009 
-│                        │     │                  ├ [29]: https://security.netapp.com/advisory/ntap-20240419-00
+│                        │     │                  ├ [27]: https://nowotarski.info/http2-continuation-flood/ 
+│                        │     │                  ├ [28]: https://nvd.nist.gov/vuln/detail/CVE-2023-45288 
+│                        │     │                  ├ [29]: https://pkg.go.dev/vuln/GO-2024-2687 
+│                        │     │                  ├ [30]: https://security.netapp.com/advisory/ntap-20240419-0009 
+│                        │     │                  ├ [31]: https://security.netapp.com/advisory/ntap-20240419-00
 │                        │     │                  │       09/ 
-│                        │     │                  ├ [30]: https://ubuntu.com/security/notices/USN-6886-1 
-│                        │     │                  ├ [31]: https://ubuntu.com/security/notices/USN-7109-1 
-│                        │     │                  ├ [32]: https://ubuntu.com/security/notices/USN-7111-1 
-│                        │     │                  ╰ [33]: https://www.cve.org/CVERecord?id=CVE-2023-45288 
+│                        │     │                  ├ [32]: https://ubuntu.com/security/notices/USN-6886-1 
+│                        │     │                  ├ [33]: https://ubuntu.com/security/notices/USN-7109-1 
+│                        │     │                  ├ [34]: https://ubuntu.com/security/notices/USN-7111-1 
+│                        │     │                  ├ [35]: https://www.cve.org/CVERecord?id=CVE-2023-45288 
+│                        │     │                  ╰ [36]: https://www.kb.cert.org/vuls/id/421644 
 │                        │     ├ PublishedDate   : 2024-04-04T21:15:16.113Z 
 │                        │     ╰ LastModifiedDate: 2024-11-21T08:26:42.38Z 
 │                        ├ [1] ╭ VulnerabilityID : CVE-2025-22870 
@@ -7598,8 +7605,8 @@
 │                        │     │                  ├ Name: GitHub Security Advisory Go 
 │                        │     │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+e
 │                        │     │                          cosystem%3Ago 
-│                        │     ├ Title           : An attacker may cause an HTTP/2 endpoint to read arbitrary
-│                        │     │                   amounts of  ... 
+│                        │     ├ Title           : golang: net/http, x/net/http2: unlimited number of
+│                        │     │                   CONTINUATION frames causes DoS 
 │                        │     ├ Description     : An attacker may cause an HTTP/2 endpoint to read arbitrary
 │                        │     │                   amounts of header data by sending an excessive number of
 │                        │     │                   CONTINUATION frames. Maintaining HPACK state requires
@@ -7623,60 +7630,67 @@
 │                        │     │                  ├ ghsa       : 2 
 │                        │     │                  ├ oracle-oval: 3 
 │                        │     │                  ├ photon     : 3 
+│                        │     │                  ├ redhat     : 3 
 │                        │     │                  ├ rocky      : 3 
 │                        │     │                  ╰ ubuntu     : 2 
 │                        │     ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
 │                        │     │                  │         │           N/A:H 
 │                        │     │                  │         ╰ V3Score : 7.5 
-│                        │     │                  ╰ ghsa    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
-│                        │     │                            │           N/A:L 
-│                        │     │                            ╰ V3Score : 5.3 
+│                        │     │                  ├ ghsa    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
+│                        │     │                  │         │           N/A:L 
+│                        │     │                  │         ╰ V3Score : 5.3 
+│                        │     │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
+│                        │     │                            │           N/A:H 
+│                        │     │                            ╰ V3Score : 7.5 
 │                        │     ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2024/04/03
 │                        │     │                  │       /16 
 │                        │     │                  ├ [1] : http://www.openwall.com/lists/oss-security/2024/04/05/4 
 │                        │     │                  ├ [2] : https://access.redhat.com/errata/RHSA-2024:2724 
-│                        │     │                  ├ [3] : https://bugzilla.redhat.com/2268017 
-│                        │     │                  ├ [4] : https://bugzilla.redhat.com/2268018 
-│                        │     │                  ├ [5] : https://bugzilla.redhat.com/2268019 
-│                        │     │                  ├ [6] : https://bugzilla.redhat.com/2268273 
-│                        │     │                  ├ [7] : https://bugzilla.redhat.com/show_bug.cgi?id=2268017 
-│                        │     │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2268018 
-│                        │     │                  ├ [9] : https://bugzilla.redhat.com/show_bug.cgi?id=2268019 
-│                        │     │                  ├ [10]: https://bugzilla.redhat.com/show_bug.cgi?id=2268273 
-│                        │     │                  ├ [11]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
-│                        │     │                  │       23-45288 
+│                        │     │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2023-45288 
+│                        │     │                  ├ [4] : https://bugzilla.redhat.com/2268017 
+│                        │     │                  ├ [5] : https://bugzilla.redhat.com/2268018 
+│                        │     │                  ├ [6] : https://bugzilla.redhat.com/2268019 
+│                        │     │                  ├ [7] : https://bugzilla.redhat.com/2268273 
+│                        │     │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2268017 
+│                        │     │                  ├ [9] : https://bugzilla.redhat.com/show_bug.cgi?id=2268018 
+│                        │     │                  ├ [10]: https://bugzilla.redhat.com/show_bug.cgi?id=2268019 
+│                        │     │                  ├ [11]: https://bugzilla.redhat.com/show_bug.cgi?id=2268273 
 │                        │     │                  ├ [12]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
-│                        │     │                  │       23-45289 
+│                        │     │                  │       23-45288 
 │                        │     │                  ├ [13]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
-│                        │     │                  │       23-45290 
+│                        │     │                  │       23-45289 
 │                        │     │                  ├ [14]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                        │     │                  │       23-45290 
+│                        │     │                  ├ [15]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                        │     │                  │       24-24783 
-│                        │     │                  ├ [15]: https://errata.almalinux.org/9/ALSA-2024-2724.html 
-│                        │     │                  ├ [16]: https://errata.rockylinux.org/RLSA-2024:3346 
-│                        │     │                  ├ [17]: https://go.dev/cl/576155 
-│                        │     │                  ├ [18]: https://go.dev/issue/65051 
-│                        │     │                  ├ [19]: https://groups.google.com/g/golang-announce/c/YgW0sx8
+│                        │     │                  ├ [16]: https://errata.almalinux.org/9/ALSA-2024-2724.html 
+│                        │     │                  ├ [17]: https://errata.rockylinux.org/RLSA-2024:2724 
+│                        │     │                  ├ [18]: https://go.dev/cl/576155 
+│                        │     │                  ├ [19]: https://go.dev/issue/65051 
+│                        │     │                  ├ [20]: https://groups.google.com/g/golang-announce/c/YgW0sx8
 │                        │     │                  │       mN3M 
-│                        │     │                  ├ [20]: https://kb.cert.org/vuls/id/421644 
-│                        │     │                  ├ [21]: https://linux.oracle.com/cve/CVE-2023-45288.html 
-│                        │     │                  ├ [22]: https://linux.oracle.com/errata/ELSA-2024-3346.html 
-│                        │     │                  ├ [23]: https://lists.fedoraproject.org/archives/list/package
-│                        │     │                  │       -announce@lists.fedoraproject.org/message/QRYFHIQ6XRK
-│                        │     │                  │       RYBI2F5UESH67BJBQXUPT 
+│                        │     │                  ├ [21]: https://kb.cert.org/vuls/id/421644 
+│                        │     │                  ├ [22]: https://linux.oracle.com/cve/CVE-2023-45288.html 
+│                        │     │                  ├ [23]: https://linux.oracle.com/errata/ELSA-2024-3346.html 
 │                        │     │                  ├ [24]: https://lists.fedoraproject.org/archives/list/package
 │                        │     │                  │       -announce@lists.fedoraproject.org/message/QRYFHIQ6XRK
+│                        │     │                  │       RYBI2F5UESH67BJBQXUPT 
+│                        │     │                  ├ [25]: https://lists.fedoraproject.org/archives/list/package
+│                        │     │                  │       -announce@lists.fedoraproject.org/message/QRYFHIQ6XRK
 │                        │     │                  │       RYBI2F5UESH67BJBQXUPT/ 
-│                        │     │                  ├ [25]: https://nowotarski.info/http2-continuation-flood-tech
+│                        │     │                  ├ [26]: https://nowotarski.info/http2-continuation-flood-tech
 │                        │     │                  │       nical-details 
-│                        │     │                  ├ [26]: https://nvd.nist.gov/vuln/detail/CVE-2023-45288 
-│                        │     │                  ├ [27]: https://pkg.go.dev/vuln/GO-2024-2687 
-│                        │     │                  ├ [28]: https://security.netapp.com/advisory/ntap-20240419-0009 
-│                        │     │                  ├ [29]: https://security.netapp.com/advisory/ntap-20240419-00
+│                        │     │                  ├ [27]: https://nowotarski.info/http2-continuation-flood/ 
+│                        │     │                  ├ [28]: https://nvd.nist.gov/vuln/detail/CVE-2023-45288 
+│                        │     │                  ├ [29]: https://pkg.go.dev/vuln/GO-2024-2687 
+│                        │     │                  ├ [30]: https://security.netapp.com/advisory/ntap-20240419-0009 
+│                        │     │                  ├ [31]: https://security.netapp.com/advisory/ntap-20240419-00
 │                        │     │                  │       09/ 
-│                        │     │                  ├ [30]: https://ubuntu.com/security/notices/USN-6886-1 
-│                        │     │                  ├ [31]: https://ubuntu.com/security/notices/USN-7109-1 
-│                        │     │                  ├ [32]: https://ubuntu.com/security/notices/USN-7111-1 
-│                        │     │                  ╰ [33]: https://www.cve.org/CVERecord?id=CVE-2023-45288 
+│                        │     │                  ├ [32]: https://ubuntu.com/security/notices/USN-6886-1 
+│                        │     │                  ├ [33]: https://ubuntu.com/security/notices/USN-7109-1 
+│                        │     │                  ├ [34]: https://ubuntu.com/security/notices/USN-7111-1 
+│                        │     │                  ├ [35]: https://www.cve.org/CVERecord?id=CVE-2023-45288 
+│                        │     │                  ╰ [36]: https://www.kb.cert.org/vuls/id/421644 
 │                        │     ├ PublishedDate   : 2024-04-04T21:15:16.113Z 
 │                        │     ╰ LastModifiedDate: 2024-11-21T08:26:42.38Z 
 │                        ├ [1] ╭ VulnerabilityID : CVE-2025-22870 
