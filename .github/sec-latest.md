@@ -2013,7 +2013,7 @@
 │                        │       │                  ╰ [1]: CWE-120 
 │                        │       ├ VendorSeverity   ╭ amazon: 2 
 │                        │       │                  ├ azure : 2 
-│                        │       │                  ├ photon: 3 
+│                        │       │                  ├ photon: 2 
 │                        │       │                  ├ redhat: 2 
 │                        │       │                  ╰ ubuntu: 2 
 │                        │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I
