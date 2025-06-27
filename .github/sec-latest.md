@@ -3180,8 +3180,9 @@
 │                        │       │                   conditions. 
 │                        │       ├ Severity        : MEDIUM 
 │                        │       ├ CweIDs           ─ [0]: CWE-22 
-│                        │       ├ VendorSeverity   ╭ redhat: 3 
-│                        │       │                  ╰ ubuntu: 2 
+│                        │       ├ VendorSeverity   ╭ oracle-oval: 3 
+│                        │       │                  ├ redhat     : 3 
+│                        │       │                  ╰ ubuntu     : 2 
 │                        │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I
 │                        │       │                           │           :H/A:H 
 │                        │       │                           ╰ V3Score : 7.8 
@@ -3189,10 +3190,12 @@
 │                        │       │                  │      7/1 
 │                        │       │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-6020 
 │                        │       │                  ├ [2]: https://bugzilla.redhat.com/show_bug.cgi?id=2372512 
-│                        │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-6020 
-│                        │       │                  ├ [4]: https://ubuntu.com/security/notices/USN-7580-1 
-│                        │       │                  ├ [5]: https://www.cve.org/CVERecord?id=CVE-2025-6020 
-│                        │       │                  ╰ [6]: https://www.openwall.com/lists/oss-security/2025/06/
+│                        │       │                  ├ [3]: https://linux.oracle.com/cve/CVE-2025-6020.html 
+│                        │       │                  ├ [4]: https://linux.oracle.com/errata/ELSA-2025-9526.html 
+│                        │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-6020 
+│                        │       │                  ├ [6]: https://ubuntu.com/security/notices/USN-7580-1 
+│                        │       │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2025-6020 
+│                        │       │                  ╰ [8]: https://www.openwall.com/lists/oss-security/2025/06/
 │                        │       │                         17/1 
 │                        │       ├ PublishedDate   : 2025-06-17T13:15:21.66Z 
 │                        │       ╰ LastModifiedDate: 2025-06-17T20:50:23.507Z 
@@ -3279,8 +3282,9 @@
 │                        │       │                   conditions. 
 │                        │       ├ Severity        : MEDIUM 
 │                        │       ├ CweIDs           ─ [0]: CWE-22 
-│                        │       ├ VendorSeverity   ╭ redhat: 3 
-│                        │       │                  ╰ ubuntu: 2 
+│                        │       ├ VendorSeverity   ╭ oracle-oval: 3 
+│                        │       │                  ├ redhat     : 3 
+│                        │       │                  ╰ ubuntu     : 2 
 │                        │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I
 │                        │       │                           │           :H/A:H 
 │                        │       │                           ╰ V3Score : 7.8 
@@ -3288,10 +3292,12 @@
 │                        │       │                  │      7/1 
 │                        │       │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-6020 
 │                        │       │                  ├ [2]: https://bugzilla.redhat.com/show_bug.cgi?id=2372512 
-│                        │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-6020 
-│                        │       │                  ├ [4]: https://ubuntu.com/security/notices/USN-7580-1 
-│                        │       │                  ├ [5]: https://www.cve.org/CVERecord?id=CVE-2025-6020 
-│                        │       │                  ╰ [6]: https://www.openwall.com/lists/oss-security/2025/06/
+│                        │       │                  ├ [3]: https://linux.oracle.com/cve/CVE-2025-6020.html 
+│                        │       │                  ├ [4]: https://linux.oracle.com/errata/ELSA-2025-9526.html 
+│                        │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-6020 
+│                        │       │                  ├ [6]: https://ubuntu.com/security/notices/USN-7580-1 
+│                        │       │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2025-6020 
+│                        │       │                  ╰ [8]: https://www.openwall.com/lists/oss-security/2025/06/
 │                        │       │                         17/1 
 │                        │       ├ PublishedDate   : 2025-06-17T13:15:21.66Z 
 │                        │       ╰ LastModifiedDate: 2025-06-17T20:50:23.507Z 
@@ -3378,8 +3384,9 @@
 │                        │       │                   conditions. 
 │                        │       ├ Severity        : MEDIUM 
 │                        │       ├ CweIDs           ─ [0]: CWE-22 
-│                        │       ├ VendorSeverity   ╭ redhat: 3 
-│                        │       │                  ╰ ubuntu: 2 
+│                        │       ├ VendorSeverity   ╭ oracle-oval: 3 
+│                        │       │                  ├ redhat     : 3 
+│                        │       │                  ╰ ubuntu     : 2 
 │                        │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I
 │                        │       │                           │           :H/A:H 
 │                        │       │                           ╰ V3Score : 7.8 
@@ -3387,10 +3394,12 @@
 │                        │       │                  │      7/1 
 │                        │       │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-6020 
 │                        │       │                  ├ [2]: https://bugzilla.redhat.com/show_bug.cgi?id=2372512 
-│                        │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-6020 
-│                        │       │                  ├ [4]: https://ubuntu.com/security/notices/USN-7580-1 
-│                        │       │                  ├ [5]: https://www.cve.org/CVERecord?id=CVE-2025-6020 
-│                        │       │                  ╰ [6]: https://www.openwall.com/lists/oss-security/2025/06/
+│                        │       │                  ├ [3]: https://linux.oracle.com/cve/CVE-2025-6020.html 
+│                        │       │                  ├ [4]: https://linux.oracle.com/errata/ELSA-2025-9526.html 
+│                        │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-6020 
+│                        │       │                  ├ [6]: https://ubuntu.com/security/notices/USN-7580-1 
+│                        │       │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2025-6020 
+│                        │       │                  ╰ [8]: https://www.openwall.com/lists/oss-security/2025/06/
 │                        │       │                         17/1 
 │                        │       ├ PublishedDate   : 2025-06-17T13:15:21.66Z 
 │                        │       ╰ LastModifiedDate: 2025-06-17T20:50:23.507Z 
@@ -3628,8 +3637,9 @@
 │                        │       │                   conditions. 
 │                        │       ├ Severity        : MEDIUM 
 │                        │       ├ CweIDs           ─ [0]: CWE-22 
-│                        │       ├ VendorSeverity   ╭ redhat: 3 
-│                        │       │                  ╰ ubuntu: 2 
+│                        │       ├ VendorSeverity   ╭ oracle-oval: 3 
+│                        │       │                  ├ redhat     : 3 
+│                        │       │                  ╰ ubuntu     : 2 
 │                        │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I
 │                        │       │                           │           :H/A:H 
 │                        │       │                           ╰ V3Score : 7.8 
@@ -3637,10 +3647,12 @@
 │                        │       │                  │      7/1 
 │                        │       │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-6020 
 │                        │       │                  ├ [2]: https://bugzilla.redhat.com/show_bug.cgi?id=2372512 
-│                        │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-6020 
-│                        │       │                  ├ [4]: https://ubuntu.com/security/notices/USN-7580-1 
-│                        │       │                  ├ [5]: https://www.cve.org/CVERecord?id=CVE-2025-6020 
-│                        │       │                  ╰ [6]: https://www.openwall.com/lists/oss-security/2025/06/
+│                        │       │                  ├ [3]: https://linux.oracle.com/cve/CVE-2025-6020.html 
+│                        │       │                  ├ [4]: https://linux.oracle.com/errata/ELSA-2025-9526.html 
+│                        │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-6020 
+│                        │       │                  ├ [6]: https://ubuntu.com/security/notices/USN-7580-1 
+│                        │       │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2025-6020 
+│                        │       │                  ╰ [8]: https://www.openwall.com/lists/oss-security/2025/06/
 │                        │       │                         17/1 
 │                        │       ├ PublishedDate   : 2025-06-17T13:15:21.66Z 
 │                        │       ╰ LastModifiedDate: 2025-06-17T20:50:23.507Z 
@@ -4857,9 +4869,9 @@
 │                        │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
 │                        │       │                  │        │           :N/A:H 
 │                        │       │                  │        ╰ V3Score : 7.5 
-│                        │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I
-│                        │       │                           │           :N/A:L 
-│                        │       │                           ╰ V3Score : 2.9 
+│                        │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                        │       │                           │           :N/A:H 
+│                        │       │                           ╰ V3Score : 7.5 
 │                        │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-32415 
 │                        │       │                  ├ [1]: https://gitlab.gnome.org/GNOME/libxml2/-/issues/890 
 │                        │       │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2025-32415 
@@ -7542,7 +7554,7 @@
 │                        │     │                  ├ [7] : https://groups.google.com/g/golang-announce/c/Y2uBTVK
 │                        │     │                  │       jBQk 
 │                        │     │                  ├ [8] : https://linux.oracle.com/cve/CVE-2025-22871.html 
-│                        │     │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2025-9150.html 
+│                        │     │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2025-9635.html 
 │                        │     │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2025-22871 
 │                        │     │                  ├ [11]: https://pkg.go.dev/vuln/GO-2025-3563 
 │                        │     │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2025-22871 
@@ -7933,7 +7945,7 @@
 │                        │     │                  ├ [7] : https://groups.google.com/g/golang-announce/c/Y2uBTVK
 │                        │     │                  │       jBQk 
 │                        │     │                  ├ [8] : https://linux.oracle.com/cve/CVE-2025-22871.html 
-│                        │     │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2025-9150.html 
+│                        │     │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2025-9635.html 
 │                        │     │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2025-22871 
 │                        │     │                  ├ [11]: https://pkg.go.dev/vuln/GO-2025-3563 
 │                        │     │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2025-22871 
@@ -8460,7 +8472,7 @@
 │                        │     │                  ├ [7] : https://groups.google.com/g/golang-announce/c/Y2uBTVK
 │                        │     │                  │       jBQk 
 │                        │     │                  ├ [8] : https://linux.oracle.com/cve/CVE-2025-22871.html 
-│                        │     │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2025-9150.html 
+│                        │     │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2025-9635.html 
 │                        │     │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2025-22871 
 │                        │     │                  ├ [11]: https://pkg.go.dev/vuln/GO-2025-3563 
 │                        │     │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2025-22871 
@@ -8713,7 +8725,7 @@
 │                        │     │                  ├ [7] : https://groups.google.com/g/golang-announce/c/Y2uBTVK
 │                        │     │                  │       jBQk 
 │                        │     │                  ├ [8] : https://linux.oracle.com/cve/CVE-2025-22871.html 
-│                        │     │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2025-9150.html 
+│                        │     │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2025-9635.html 
 │                        │     │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2025-22871 
 │                        │     │                  ├ [11]: https://pkg.go.dev/vuln/GO-2025-3563 
 │                        │     │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2025-22871 
@@ -8956,7 +8968,7 @@
 │                        │     │                  ├ [7] : https://groups.google.com/g/golang-announce/c/Y2uBTVK
 │                        │     │                  │       jBQk 
 │                        │     │                  ├ [8] : https://linux.oracle.com/cve/CVE-2025-22871.html 
-│                        │     │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2025-9150.html 
+│                        │     │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2025-9635.html 
 │                        │     │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2025-22871 
 │                        │     │                  ├ [11]: https://pkg.go.dev/vuln/GO-2025-3563 
 │                        │     │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2025-22871 
@@ -9251,7 +9263,7 @@
 │                        │     │                  ├ [7] : https://groups.google.com/g/golang-announce/c/Y2uBTVK
 │                        │     │                  │       jBQk 
 │                        │     │                  ├ [8] : https://linux.oracle.com/cve/CVE-2025-22871.html 
-│                        │     │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2025-9150.html 
+│                        │     │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2025-9635.html 
 │                        │     │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2025-22871 
 │                        │     │                  ├ [11]: https://pkg.go.dev/vuln/GO-2025-3563 
 │                        │     │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2025-22871 
@@ -9859,7 +9871,7 @@
 │                        │     │                  ├ [7] : https://groups.google.com/g/golang-announce/c/Y2uBTVK
 │                        │     │                  │       jBQk 
 │                        │     │                  ├ [8] : https://linux.oracle.com/cve/CVE-2025-22871.html 
-│                        │     │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2025-9150.html 
+│                        │     │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2025-9635.html 
 │                        │     │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2025-22871 
 │                        │     │                  ├ [11]: https://pkg.go.dev/vuln/GO-2025-3563 
 │                        │     │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2025-22871 
