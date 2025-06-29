@@ -1527,10 +1527,10 @@
     References:
     - http://www.openwall.com/lists/oss-security/2025/05/16/7
     - http://www.openwall.com/lists/oss-security/2025/05/17/2
-    - https://access.redhat.com/errata/RHSA-2025:8686
+    - https://access.redhat.com/errata/RHSA-2025:8655
     - https://access.redhat.com/security/cve/CVE-2025-4802
     - https://bugzilla.redhat.com/2367468
-    - https://errata.almalinux.org/8/ALSA-2025-8686.html
+    - https://errata.almalinux.org/9/ALSA-2025-8655.html
     - https://linux.oracle.com/cve/CVE-2025-4802.html
     - https://linux.oracle.com/errata/ELSA-2025-8686.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-4802
@@ -1542,7 +1542,7 @@
     - https://www.openwall.com/lists/oss-security/2025/05/16/7
     - https://www.openwall.com/lists/oss-security/2025/05/17/2
     PublishedDate: '2025-05-16T20:15:22.28Z'
-    LastModifiedDate: '2025-05-20T14:15:51.347Z'
+    LastModifiedDate: '2025-06-17T14:09:23.137Z'
   - VulnerabilityID: CVE-2016-20013
     PkgID: libc-bin@2.35-0ubuntu3.9
     PkgName: libc-bin
@@ -1616,10 +1616,10 @@
     References:
     - http://www.openwall.com/lists/oss-security/2025/05/16/7
     - http://www.openwall.com/lists/oss-security/2025/05/17/2
-    - https://access.redhat.com/errata/RHSA-2025:8686
+    - https://access.redhat.com/errata/RHSA-2025:8655
     - https://access.redhat.com/security/cve/CVE-2025-4802
     - https://bugzilla.redhat.com/2367468
-    - https://errata.almalinux.org/8/ALSA-2025-8686.html
+    - https://errata.almalinux.org/9/ALSA-2025-8655.html
     - https://linux.oracle.com/cve/CVE-2025-4802.html
     - https://linux.oracle.com/errata/ELSA-2025-8686.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-4802
@@ -1631,7 +1631,7 @@
     - https://www.openwall.com/lists/oss-security/2025/05/16/7
     - https://www.openwall.com/lists/oss-security/2025/05/17/2
     PublishedDate: '2025-05-16T20:15:22.28Z'
-    LastModifiedDate: '2025-05-20T14:15:51.347Z'
+    LastModifiedDate: '2025-06-17T14:09:23.137Z'
   - VulnerabilityID: CVE-2016-20013
     PkgID: libc6@2.35-0ubuntu3.9
     PkgName: libc6
@@ -1834,7 +1834,7 @@
     VendorSeverity:
       amazon: 2
       azure: 2
-      photon: 3
+      photon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -2048,7 +2048,7 @@
     - https://github.com/libexpat/libexpat/issues/893
     - https://gitlab.alpinelinux.org/alpine/aports/-/commit/d068c3ff36fc6f4789988a09c69b434db757db53
     - https://linux.oracle.com/cve/CVE-2024-8176.html
-    - https://linux.oracle.com/errata/ELSA-2025-7444.html
+    - https://linux.oracle.com/errata/ELSA-2025-7512.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-8176
     - https://security-tracker.debian.org/tracker/CVE-2024-8176
     - https://security.netapp.com/advisory/ntap-20250328-0009/
@@ -2340,7 +2340,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2359465
     - https://errata.almalinux.org/8/ALSA-2025-8411.html
     - https://linux.oracle.com/cve/CVE-2025-3576.html
-    - https://linux.oracle.com/errata/ELSA-2025-8411.html
+    - https://linux.oracle.com/errata/ELSA-2025-9430.html
     - https://lists.debian.org/debian-lts-announce/2025/05/msg00047.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-3576
     - https://ubuntu.com/security/notices/USN-7542-1
@@ -2379,10 +2379,11 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2025-5222
     - https://bugzilla.redhat.com/show_bug.cgi?id=2368600
+    - https://lists.debian.org/debian-lts-announce/2025/06/msg00015.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-5222
     - https://www.cve.org/CVERecord?id=CVE-2025-5222
     PublishedDate: '2025-05-27T21:15:23.03Z'
-    LastModifiedDate: '2025-05-28T15:01:30.72Z'
+    LastModifiedDate: '2025-06-15T23:15:18.303Z'
   - VulnerabilityID: CVE-2025-3576
     PkgID: libk5crypto3@1.19.2-2ubuntu0.6
     PkgName: libk5crypto3
@@ -2422,7 +2423,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2359465
     - https://errata.almalinux.org/8/ALSA-2025-8411.html
     - https://linux.oracle.com/cve/CVE-2025-3576.html
-    - https://linux.oracle.com/errata/ELSA-2025-8411.html
+    - https://linux.oracle.com/errata/ELSA-2025-9430.html
     - https://lists.debian.org/debian-lts-announce/2025/05/msg00047.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-3576
     - https://ubuntu.com/security/notices/USN-7542-1
@@ -2468,7 +2469,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2359465
     - https://errata.almalinux.org/8/ALSA-2025-8411.html
     - https://linux.oracle.com/cve/CVE-2025-3576.html
-    - https://linux.oracle.com/errata/ELSA-2025-8411.html
+    - https://linux.oracle.com/errata/ELSA-2025-9430.html
     - https://lists.debian.org/debian-lts-announce/2025/05/msg00047.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-3576
     - https://ubuntu.com/security/notices/USN-7542-1
@@ -2514,7 +2515,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2359465
     - https://errata.almalinux.org/8/ALSA-2025-8411.html
     - https://linux.oracle.com/cve/CVE-2025-3576.html
-    - https://linux.oracle.com/errata/ELSA-2025-8411.html
+    - https://linux.oracle.com/errata/ELSA-2025-9430.html
     - https://lists.debian.org/debian-lts-announce/2025/05/msg00047.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-3576
     - https://ubuntu.com/security/notices/USN-7542-1
@@ -2709,6 +2710,7 @@
     - CWE-364
     VendorSeverity:
       oracle-oval: 3
+      photon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -2766,6 +2768,7 @@
       azure: 2
       nvd: 2
       oracle-oval: 2
+      photon: 2
       redhat: 2
       rocky: 2
       ubuntu: 1
@@ -2848,6 +2851,49 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-10041
     PublishedDate: '2024-10-23T14:15:03.97Z'
     LastModifiedDate: '2024-12-18T10:15:05.85Z'
+  - VulnerabilityID: CVE-2025-6020
+    PkgID: libpam-modules@1.4.0-11ubuntu2.5
+    PkgName: libpam-modules
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libpam-modules@1.4.0-11ubuntu2.5?arch=amd64&distro=ubuntu-22.04
+      UID: 2530a820f787d705
+    InstalledVersion: 1.4.0-11ubuntu2.5
+    FixedVersion: 1.4.0-11ubuntu2.6
+    Status: fixed
+    Layer:
+      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
+      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-6020
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'linux-pam: Linux-pam directory Traversal'
+    Description: A flaw was found in linux-pam. The module pam_namespace may use access user-controlled paths without proper protection, allowing local users to elevate their privileges to root via multiple symlink attacks and race conditions.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-22
+    VendorSeverity:
+      oracle-oval: 3
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/06/17/1
+    - https://access.redhat.com/security/cve/CVE-2025-6020
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2372512
+    - https://linux.oracle.com/cve/CVE-2025-6020.html
+    - https://linux.oracle.com/errata/ELSA-2025-9526.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-6020
+    - https://ubuntu.com/security/notices/USN-7580-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-6020
+    - https://www.openwall.com/lists/oss-security/2025/06/17/1
+    PublishedDate: '2025-06-17T13:15:21.66Z'
+    LastModifiedDate: '2025-06-17T20:50:23.507Z'
   - VulnerabilityID: CVE-2024-10041
     PkgID: libpam-modules-bin@1.4.0-11ubuntu2.5
     PkgName: libpam-modules-bin
@@ -2900,6 +2946,49 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-10041
     PublishedDate: '2024-10-23T14:15:03.97Z'
     LastModifiedDate: '2024-12-18T10:15:05.85Z'
+  - VulnerabilityID: CVE-2025-6020
+    PkgID: libpam-modules-bin@1.4.0-11ubuntu2.5
+    PkgName: libpam-modules-bin
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libpam-modules-bin@1.4.0-11ubuntu2.5?arch=amd64&distro=ubuntu-22.04
+      UID: 18aa487b33ed7f28
+    InstalledVersion: 1.4.0-11ubuntu2.5
+    FixedVersion: 1.4.0-11ubuntu2.6
+    Status: fixed
+    Layer:
+      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
+      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-6020
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'linux-pam: Linux-pam directory Traversal'
+    Description: A flaw was found in linux-pam. The module pam_namespace may use access user-controlled paths without proper protection, allowing local users to elevate their privileges to root via multiple symlink attacks and race conditions.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-22
+    VendorSeverity:
+      oracle-oval: 3
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/06/17/1
+    - https://access.redhat.com/security/cve/CVE-2025-6020
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2372512
+    - https://linux.oracle.com/cve/CVE-2025-6020.html
+    - https://linux.oracle.com/errata/ELSA-2025-9526.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-6020
+    - https://ubuntu.com/security/notices/USN-7580-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-6020
+    - https://www.openwall.com/lists/oss-security/2025/06/17/1
+    PublishedDate: '2025-06-17T13:15:21.66Z'
+    LastModifiedDate: '2025-06-17T20:50:23.507Z'
   - VulnerabilityID: CVE-2024-10041
     PkgID: libpam-runtime@1.4.0-11ubuntu2.5
     PkgName: libpam-runtime
@@ -2952,6 +3041,49 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-10041
     PublishedDate: '2024-10-23T14:15:03.97Z'
     LastModifiedDate: '2024-12-18T10:15:05.85Z'
+  - VulnerabilityID: CVE-2025-6020
+    PkgID: libpam-runtime@1.4.0-11ubuntu2.5
+    PkgName: libpam-runtime
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libpam-runtime@1.4.0-11ubuntu2.5?arch=all&distro=ubuntu-22.04
+      UID: de9bd8d6c59cf77
+    InstalledVersion: 1.4.0-11ubuntu2.5
+    FixedVersion: 1.4.0-11ubuntu2.6
+    Status: fixed
+    Layer:
+      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
+      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-6020
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'linux-pam: Linux-pam directory Traversal'
+    Description: A flaw was found in linux-pam. The module pam_namespace may use access user-controlled paths without proper protection, allowing local users to elevate their privileges to root via multiple symlink attacks and race conditions.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-22
+    VendorSeverity:
+      oracle-oval: 3
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/06/17/1
+    - https://access.redhat.com/security/cve/CVE-2025-6020
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2372512
+    - https://linux.oracle.com/cve/CVE-2025-6020.html
+    - https://linux.oracle.com/errata/ELSA-2025-9526.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-6020
+    - https://ubuntu.com/security/notices/USN-7580-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-6020
+    - https://www.openwall.com/lists/oss-security/2025/06/17/1
+    PublishedDate: '2025-06-17T13:15:21.66Z'
+    LastModifiedDate: '2025-06-17T20:50:23.507Z'
   - VulnerabilityID: CVE-2025-4598
     PkgID: libpam-systemd@249.11-0ubuntu3.12
     PkgName: libpam-systemd
@@ -2980,6 +3112,7 @@
     - CWE-364
     VendorSeverity:
       oracle-oval: 3
+      photon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -3037,6 +3170,7 @@
       azure: 2
       nvd: 2
       oracle-oval: 2
+      photon: 2
       redhat: 2
       rocky: 2
       ubuntu: 1
@@ -3119,6 +3253,49 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-10041
     PublishedDate: '2024-10-23T14:15:03.97Z'
     LastModifiedDate: '2024-12-18T10:15:05.85Z'
+  - VulnerabilityID: CVE-2025-6020
+    PkgID: libpam0g@1.4.0-11ubuntu2.5
+    PkgName: libpam0g
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libpam0g@1.4.0-11ubuntu2.5?arch=amd64&distro=ubuntu-22.04
+      UID: 87154ab9864fc515
+    InstalledVersion: 1.4.0-11ubuntu2.5
+    FixedVersion: 1.4.0-11ubuntu2.6
+    Status: fixed
+    Layer:
+      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
+      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-6020
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'linux-pam: Linux-pam directory Traversal'
+    Description: A flaw was found in linux-pam. The module pam_namespace may use access user-controlled paths without proper protection, allowing local users to elevate their privileges to root via multiple symlink attacks and race conditions.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-22
+    VendorSeverity:
+      oracle-oval: 3
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/06/17/1
+    - https://access.redhat.com/security/cve/CVE-2025-6020
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2372512
+    - https://linux.oracle.com/cve/CVE-2025-6020.html
+    - https://linux.oracle.com/errata/ELSA-2025-9526.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-6020
+    - https://ubuntu.com/security/notices/USN-7580-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-6020
+    - https://www.openwall.com/lists/oss-security/2025/06/17/1
+    PublishedDate: '2025-06-17T13:15:21.66Z'
+    LastModifiedDate: '2025-06-17T20:50:23.507Z'
   - VulnerabilityID: CVE-2022-41409
     PkgID: libpcre2-8-0@10.39-3ubuntu0.1
     PkgName: libpcre2-8-0
@@ -3238,6 +3415,7 @@
     VendorSeverity:
       azure: 3
       cbl-mariner: 3
+      oracle-oval: 3
       photon: 3
       redhat: 3
       ubuntu: 2
@@ -3251,6 +3429,8 @@
     - http://www.openwall.com/lists/oss-security/2025/04/13/5
     - https://access.redhat.com/security/cve/CVE-2024-56406
     - https://github.com/Perl/perl5/commit/87f42aa0e0096e9a346c9672aa3a0bd3bef8c1dd.patch
+    - https://linux.oracle.com/cve/CVE-2024-56406.html
+    - https://linux.oracle.com/errata/ELSA-2025-7500.html
     - https://metacpan.org/release/SHAY/perl-5.38.4/changes
     - https://metacpan.org/release/SHAY/perl-5.40.2/changes
     - https://nvd.nist.gov/vuln/detail/CVE-2024-56406
@@ -3259,6 +3439,285 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-56406
     PublishedDate: '2025-04-13T14:15:14.527Z'
     LastModifiedDate: '2025-04-30T15:21:11.547Z'
+  - VulnerabilityID: CVE-2025-4516
+    PkgID: libpython3.10@3.10.12-1~22.04.9
+    PkgName: libpython3.10
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libpython3.10@3.10.12-1~22.04.9?arch=amd64&distro=ubuntu-22.04
+      UID: 9a3c8ae3e770caa8
+    InstalledVersion: 3.10.12-1~22.04.9
+    FixedVersion: 3.10.12-1~22.04.10
+    Status: fixed
+    Layer:
+      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
+      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-4516
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: There is an issue in CPython when using `bytes.decode("unicode_escape" ...
+    Description: There is an issue in CPython when using `bytes.decode("unicode_escape", error="ignore|replace")`. If you are not using the "unicode_escape" encoding or an error handler your usage is not affected. To work-around this issue you may stop using the error= handler and instead wrap the bytes.decode() call in a try-except catching the DecodeError.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-416
+    VendorSeverity:
+      amazon: 3
+      ubuntu: 2
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/05/16/4
+    - http://www.openwall.com/lists/oss-security/2025/05/19/1
+    - https://github.com/python/cpython/commit/4398b788ffc1f954a2c552da285477d42a571292
+    - https://github.com/python/cpython/commit/5646648678295a44aa82636c6e92826651baf33a
+    - https://github.com/python/cpython/commit/6279eb8c076d89d3739a6edb393e43c7929b429d
+    - https://github.com/python/cpython/commit/69b4387f78f413e8c47572a85b3478c47eba8142
+    - https://github.com/python/cpython/commit/73b3040f592436385007918887b7e2132aa8431f
+    - https://github.com/python/cpython/commit/8d35fd1b34935221aff23a1ab69a429dd156be77
+    - https://github.com/python/cpython/commit/9f69a58623bd01349a18ba0c7a9cb1dad6a51e8e
+    - https://github.com/python/cpython/commit/9f69a58623bd01349a18ba0c7a9cb1dad6a51e8e (main)
+    - https://github.com/python/cpython/commit/ab9893c40609935e0d40a6d2a7307ea51aec598b
+    - https://github.com/python/cpython/issues/133767
+    - https://github.com/python/cpython/pull/129648
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/L75IPBBTSCYEF56I2M4KIW353BB3AY74/
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-4516
+    - https://ubuntu.com/security/notices/USN-7570-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-4516
+    PublishedDate: '2025-05-15T14:15:31.753Z'
+    LastModifiedDate: '2025-06-03T14:15:49.697Z'
+  - VulnerabilityID: CVE-2025-1795
+    PkgID: libpython3.10@3.10.12-1~22.04.9
+    PkgName: libpython3.10
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libpython3.10@3.10.12-1~22.04.9?arch=amd64&distro=ubuntu-22.04
+      UID: 9a3c8ae3e770caa8
+    InstalledVersion: 3.10.12-1~22.04.9
+    FixedVersion: 3.10.12-1~22.04.10
+    Status: fixed
+    Layer:
+      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
+      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-1795
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'python: Mishandling of comma during folding and unicode-encoding of email headers'
+    Description: During an address list folding when a separating comma ends up on a folded line and that line is to be unicode-encoded then the separator itself is also unicode-encoded. Expected behavior is that the separating comma remains a plan comma. This can result in the address header being misinterpreted by some mail servers.
+    Severity: LOW
+    CweIDs:
+    - CWE-116
+    VendorSeverity:
+      amazon: 1
+      bitnami: 1
+      cbl-mariner: 1
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:L/I:N/A:N
+        V3Score: 3.1
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-1795
+    - https://github.com/python/cpython/commit/09fab93c3d857496c0bd162797fab816c311ee48
+    - https://github.com/python/cpython/commit/70754d21c288535e86070ca7a6e90dcb670b8593
+    - https://github.com/python/cpython/commit/9148b77e0af91cdacaa7fe3dfac09635c3fe9a74
+    - https://github.com/python/cpython/issues/100884
+    - https://github.com/python/cpython/pull/100885
+    - https://github.com/python/cpython/pull/119099
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/MB62IZMEC3UM6SGHP5LET5JX2Y7H4ZUR/
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-1795
+    - https://ubuntu.com/security/notices/USN-7570-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-1795
+    PublishedDate: '2025-02-28T19:15:36.55Z'
+    LastModifiedDate: '2025-02-28T21:15:27.57Z'
+  - VulnerabilityID: CVE-2025-4516
+    PkgID: libpython3.10-minimal@3.10.12-1~22.04.9
+    PkgName: libpython3.10-minimal
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libpython3.10-minimal@3.10.12-1~22.04.9?arch=amd64&distro=ubuntu-22.04
+      UID: ac7e2049b6f5e129
+    InstalledVersion: 3.10.12-1~22.04.9
+    FixedVersion: 3.10.12-1~22.04.10
+    Status: fixed
+    Layer:
+      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
+      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-4516
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: There is an issue in CPython when using `bytes.decode("unicode_escape" ...
+    Description: There is an issue in CPython when using `bytes.decode("unicode_escape", error="ignore|replace")`. If you are not using the "unicode_escape" encoding or an error handler your usage is not affected. To work-around this issue you may stop using the error= handler and instead wrap the bytes.decode() call in a try-except catching the DecodeError.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-416
+    VendorSeverity:
+      amazon: 3
+      ubuntu: 2
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/05/16/4
+    - http://www.openwall.com/lists/oss-security/2025/05/19/1
+    - https://github.com/python/cpython/commit/4398b788ffc1f954a2c552da285477d42a571292
+    - https://github.com/python/cpython/commit/5646648678295a44aa82636c6e92826651baf33a
+    - https://github.com/python/cpython/commit/6279eb8c076d89d3739a6edb393e43c7929b429d
+    - https://github.com/python/cpython/commit/69b4387f78f413e8c47572a85b3478c47eba8142
+    - https://github.com/python/cpython/commit/73b3040f592436385007918887b7e2132aa8431f
+    - https://github.com/python/cpython/commit/8d35fd1b34935221aff23a1ab69a429dd156be77
+    - https://github.com/python/cpython/commit/9f69a58623bd01349a18ba0c7a9cb1dad6a51e8e
+    - https://github.com/python/cpython/commit/9f69a58623bd01349a18ba0c7a9cb1dad6a51e8e (main)
+    - https://github.com/python/cpython/commit/ab9893c40609935e0d40a6d2a7307ea51aec598b
+    - https://github.com/python/cpython/issues/133767
+    - https://github.com/python/cpython/pull/129648
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/L75IPBBTSCYEF56I2M4KIW353BB3AY74/
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-4516
+    - https://ubuntu.com/security/notices/USN-7570-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-4516
+    PublishedDate: '2025-05-15T14:15:31.753Z'
+    LastModifiedDate: '2025-06-03T14:15:49.697Z'
+  - VulnerabilityID: CVE-2025-1795
+    PkgID: libpython3.10-minimal@3.10.12-1~22.04.9
+    PkgName: libpython3.10-minimal
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libpython3.10-minimal@3.10.12-1~22.04.9?arch=amd64&distro=ubuntu-22.04
+      UID: ac7e2049b6f5e129
+    InstalledVersion: 3.10.12-1~22.04.9
+    FixedVersion: 3.10.12-1~22.04.10
+    Status: fixed
+    Layer:
+      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
+      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-1795
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'python: Mishandling of comma during folding and unicode-encoding of email headers'
+    Description: During an address list folding when a separating comma ends up on a folded line and that line is to be unicode-encoded then the separator itself is also unicode-encoded. Expected behavior is that the separating comma remains a plan comma. This can result in the address header being misinterpreted by some mail servers.
+    Severity: LOW
+    CweIDs:
+    - CWE-116
+    VendorSeverity:
+      amazon: 1
+      bitnami: 1
+      cbl-mariner: 1
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:L/I:N/A:N
+        V3Score: 3.1
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-1795
+    - https://github.com/python/cpython/commit/09fab93c3d857496c0bd162797fab816c311ee48
+    - https://github.com/python/cpython/commit/70754d21c288535e86070ca7a6e90dcb670b8593
+    - https://github.com/python/cpython/commit/9148b77e0af91cdacaa7fe3dfac09635c3fe9a74
+    - https://github.com/python/cpython/issues/100884
+    - https://github.com/python/cpython/pull/100885
+    - https://github.com/python/cpython/pull/119099
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/MB62IZMEC3UM6SGHP5LET5JX2Y7H4ZUR/
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-1795
+    - https://ubuntu.com/security/notices/USN-7570-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-1795
+    PublishedDate: '2025-02-28T19:15:36.55Z'
+    LastModifiedDate: '2025-02-28T21:15:27.57Z'
+  - VulnerabilityID: CVE-2025-4516
+    PkgID: libpython3.10-stdlib@3.10.12-1~22.04.9
+    PkgName: libpython3.10-stdlib
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libpython3.10-stdlib@3.10.12-1~22.04.9?arch=amd64&distro=ubuntu-22.04
+      UID: 5a7bfb745809d438
+    InstalledVersion: 3.10.12-1~22.04.9
+    FixedVersion: 3.10.12-1~22.04.10
+    Status: fixed
+    Layer:
+      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
+      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-4516
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: There is an issue in CPython when using `bytes.decode("unicode_escape" ...
+    Description: There is an issue in CPython when using `bytes.decode("unicode_escape", error="ignore|replace")`. If you are not using the "unicode_escape" encoding or an error handler your usage is not affected. To work-around this issue you may stop using the error= handler and instead wrap the bytes.decode() call in a try-except catching the DecodeError.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-416
+    VendorSeverity:
+      amazon: 3
+      ubuntu: 2
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/05/16/4
+    - http://www.openwall.com/lists/oss-security/2025/05/19/1
+    - https://github.com/python/cpython/commit/4398b788ffc1f954a2c552da285477d42a571292
+    - https://github.com/python/cpython/commit/5646648678295a44aa82636c6e92826651baf33a
+    - https://github.com/python/cpython/commit/6279eb8c076d89d3739a6edb393e43c7929b429d
+    - https://github.com/python/cpython/commit/69b4387f78f413e8c47572a85b3478c47eba8142
+    - https://github.com/python/cpython/commit/73b3040f592436385007918887b7e2132aa8431f
+    - https://github.com/python/cpython/commit/8d35fd1b34935221aff23a1ab69a429dd156be77
+    - https://github.com/python/cpython/commit/9f69a58623bd01349a18ba0c7a9cb1dad6a51e8e
+    - https://github.com/python/cpython/commit/9f69a58623bd01349a18ba0c7a9cb1dad6a51e8e (main)
+    - https://github.com/python/cpython/commit/ab9893c40609935e0d40a6d2a7307ea51aec598b
+    - https://github.com/python/cpython/issues/133767
+    - https://github.com/python/cpython/pull/129648
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/L75IPBBTSCYEF56I2M4KIW353BB3AY74/
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-4516
+    - https://ubuntu.com/security/notices/USN-7570-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-4516
+    PublishedDate: '2025-05-15T14:15:31.753Z'
+    LastModifiedDate: '2025-06-03T14:15:49.697Z'
+  - VulnerabilityID: CVE-2025-1795
+    PkgID: libpython3.10-stdlib@3.10.12-1~22.04.9
+    PkgName: libpython3.10-stdlib
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libpython3.10-stdlib@3.10.12-1~22.04.9?arch=amd64&distro=ubuntu-22.04
+      UID: 5a7bfb745809d438
+    InstalledVersion: 3.10.12-1~22.04.9
+    FixedVersion: 3.10.12-1~22.04.10
+    Status: fixed
+    Layer:
+      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
+      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-1795
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'python: Mishandling of comma during folding and unicode-encoding of email headers'
+    Description: During an address list folding when a separating comma ends up on a folded line and that line is to be unicode-encoded then the separator itself is also unicode-encoded. Expected behavior is that the separating comma remains a plan comma. This can result in the address header being misinterpreted by some mail servers.
+    Severity: LOW
+    CweIDs:
+    - CWE-116
+    VendorSeverity:
+      amazon: 1
+      bitnami: 1
+      cbl-mariner: 1
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:L/I:N/A:N
+        V3Score: 3.1
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-1795
+    - https://github.com/python/cpython/commit/09fab93c3d857496c0bd162797fab816c311ee48
+    - https://github.com/python/cpython/commit/70754d21c288535e86070ca7a6e90dcb670b8593
+    - https://github.com/python/cpython/commit/9148b77e0af91cdacaa7fe3dfac09635c3fe9a74
+    - https://github.com/python/cpython/issues/100884
+    - https://github.com/python/cpython/pull/100885
+    - https://github.com/python/cpython/pull/119099
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/MB62IZMEC3UM6SGHP5LET5JX2Y7H4ZUR/
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-1795
+    - https://ubuntu.com/security/notices/USN-7570-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-1795
+    PublishedDate: '2025-02-28T19:15:36.55Z'
+    LastModifiedDate: '2025-02-28T21:15:27.57Z'
   - VulnerabilityID: CVE-2025-29088
     PkgID: libsqlite3-0@3.37.2-2ubuntu0.3
     PkgName: libsqlite3-0
@@ -3286,7 +3745,7 @@
     VendorSeverity:
       amazon: 3
       bitnami: 3
-      photon: 3
+      photon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -3488,6 +3947,7 @@
     - CWE-364
     VendorSeverity:
       oracle-oval: 3
+      photon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -3545,6 +4005,7 @@
       azure: 2
       nvd: 2
       oracle-oval: 2
+      photon: 2
       redhat: 2
       rocky: 2
       ubuntu: 1
@@ -3683,6 +4144,7 @@
     - CWE-364
     VendorSeverity:
       oracle-oval: 3
+      photon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -3740,6 +4202,7 @@
       azure: 2
       nvd: 2
       oracle-oval: 2
+      photon: 2
       redhat: 2
       rocky: 2
       ubuntu: 1
@@ -3798,7 +4261,8 @@
       amazon: 2
       azure: 2
       nvd: 3
-      photon: 3
+      oracle-oval: 2
+      photon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -3811,6 +4275,8 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2025-32414
     - https://gitlab.gnome.org/GNOME/libxml2/-/issues/889
+    - https://linux.oracle.com/cve/CVE-2025-32414.html
+    - https://linux.oracle.com/errata/ELSA-2025-8958.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-32414
     - https://ubuntu.com/security/notices/USN-7467-1
     - https://ubuntu.com/security/notices/USN-7467-2
@@ -3846,15 +4312,15 @@
       azure: 1
       nvd: 3
       photon: 1
-      redhat: 1
+      redhat: 2
       ubuntu: 2
     CVSS:
       nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
       redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L
-        V3Score: 2.9
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
     References:
     - https://access.redhat.com/security/cve/CVE-2025-32415
     - https://gitlab.gnome.org/GNOME/libxml2/-/issues/890
@@ -3864,6 +4330,70 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-32415
     PublishedDate: '2025-04-17T17:15:33.733Z'
     LastModifiedDate: '2025-04-23T18:17:52.053Z'
+  - VulnerabilityID: CVE-2023-40403
+    PkgID: libxslt1.1@1.1.34-4ubuntu0.22.04.3
+    PkgName: libxslt1.1
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libxslt1.1@1.1.34-4ubuntu0.22.04.3?arch=amd64&distro=ubuntu-22.04
+      UID: 514ba48a8153ac79
+    InstalledVersion: 1.1.34-4ubuntu0.22.04.3
+    FixedVersion: 1.1.34-4ubuntu0.22.04.4
+    Status: fixed
+    Layer:
+      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
+      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-40403
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'libxslt: Processing web content may disclose sensitive information'
+    Description: The issue was addressed with improved memory handling. This issue is fixed in macOS Ventura 13.6, tvOS 17, iOS 16.7 and iPadOS 16.7, macOS Monterey 12.7, watchOS 10, iOS 17 and iPadOS 17, macOS Sonoma 14. Processing web content may disclose sensitive information.
+    Severity: MEDIUM
+    VendorSeverity:
+      alma: 2
+      amazon: 2
+      nvd: 2
+      oracle-oval: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N
+        V3Score: 6.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N
+        V3Score: 6.5
+    References:
+    - http://seclists.org/fulldisclosure/2023/Oct/10
+    - http://seclists.org/fulldisclosure/2023/Oct/3
+    - http://seclists.org/fulldisclosure/2023/Oct/4
+    - http://seclists.org/fulldisclosure/2023/Oct/5
+    - http://seclists.org/fulldisclosure/2023/Oct/6
+    - http://seclists.org/fulldisclosure/2023/Oct/8
+    - http://seclists.org/fulldisclosure/2023/Oct/9
+    - https://access.redhat.com/errata/RHSA-2025:8676
+    - https://access.redhat.com/security/cve/CVE-2023-40403
+    - https://bugs.chromium.org/p/chromium/issues/detail?id=1356211
+    - https://bugzilla.gnome.org/show_bug.cgi?id=751621
+    - https://bugzilla.redhat.com/2349766
+    - https://errata.almalinux.org/8/ALSA-2025-8676.html
+    - https://gitlab.gnome.org/GNOME/libxslt/-/issues/94
+    - https://linux.oracle.com/cve/CVE-2023-40403.html
+    - https://linux.oracle.com/errata/ELSA-2025-8676.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-40403
+    - https://support.apple.com/en-us/HT213927
+    - https://support.apple.com/en-us/HT213931
+    - https://support.apple.com/en-us/HT213932
+    - https://support.apple.com/en-us/HT213936
+    - https://support.apple.com/en-us/HT213937
+    - https://support.apple.com/en-us/HT213938
+    - https://support.apple.com/en-us/HT213940
+    - https://ubuntu.com/security/notices/USN-7600-1
+    - https://www.cve.org/CVERecord?id=CVE-2023-40403
+    PublishedDate: '2023-09-27T15:19:08.12Z'
+    LastModifiedDate: '2024-11-21T08:19:22.91Z'
   - VulnerabilityID: CVE-2022-4899
     PkgID: libzstd1@1.4.8+dfsg-3build1
     PkgName: libzstd1
@@ -4395,6 +4925,7 @@
     CweIDs:
     - CWE-440
     VendorSeverity:
+      amazon: 2
       azure: 2
       cbl-mariner: 2
       nvd: 1
@@ -4446,6 +4977,7 @@
     CweIDs:
     - CWE-440
     VendorSeverity:
+      amazon: 2
       azure: 2
       cbl-mariner: 2
       nvd: 1
@@ -4497,6 +5029,7 @@
     CweIDs:
     - CWE-440
     VendorSeverity:
+      amazon: 2
       azure: 2
       cbl-mariner: 2
       nvd: 1
@@ -4678,6 +5211,7 @@
     VendorSeverity:
       azure: 3
       cbl-mariner: 3
+      oracle-oval: 3
       photon: 3
       redhat: 3
       ubuntu: 2
@@ -4691,6 +5225,8 @@
     - http://www.openwall.com/lists/oss-security/2025/04/13/5
     - https://access.redhat.com/security/cve/CVE-2024-56406
     - https://github.com/Perl/perl5/commit/87f42aa0e0096e9a346c9672aa3a0bd3bef8c1dd.patch
+    - https://linux.oracle.com/cve/CVE-2024-56406.html
+    - https://linux.oracle.com/errata/ELSA-2025-7500.html
     - https://metacpan.org/release/SHAY/perl-5.38.4/changes
     - https://metacpan.org/release/SHAY/perl-5.40.2/changes
     - https://nvd.nist.gov/vuln/detail/CVE-2024-56406
@@ -4726,6 +5262,7 @@
     VendorSeverity:
       azure: 3
       cbl-mariner: 3
+      oracle-oval: 3
       photon: 3
       redhat: 3
       ubuntu: 2
@@ -4739,6 +5276,8 @@
     - http://www.openwall.com/lists/oss-security/2025/04/13/5
     - https://access.redhat.com/security/cve/CVE-2024-56406
     - https://github.com/Perl/perl5/commit/87f42aa0e0096e9a346c9672aa3a0bd3bef8c1dd.patch
+    - https://linux.oracle.com/cve/CVE-2024-56406.html
+    - https://linux.oracle.com/errata/ELSA-2025-7500.html
     - https://metacpan.org/release/SHAY/perl-5.38.4/changes
     - https://metacpan.org/release/SHAY/perl-5.40.2/changes
     - https://nvd.nist.gov/vuln/detail/CVE-2024-56406
@@ -4774,6 +5313,7 @@
     VendorSeverity:
       azure: 3
       cbl-mariner: 3
+      oracle-oval: 3
       photon: 3
       redhat: 3
       ubuntu: 2
@@ -4787,6 +5327,8 @@
     - http://www.openwall.com/lists/oss-security/2025/04/13/5
     - https://access.redhat.com/security/cve/CVE-2024-56406
     - https://github.com/Perl/perl5/commit/87f42aa0e0096e9a346c9672aa3a0bd3bef8c1dd.patch
+    - https://linux.oracle.com/cve/CVE-2024-56406.html
+    - https://linux.oracle.com/errata/ELSA-2025-7500.html
     - https://metacpan.org/release/SHAY/perl-5.38.4/changes
     - https://metacpan.org/release/SHAY/perl-5.40.2/changes
     - https://nvd.nist.gov/vuln/detail/CVE-2024-56406
@@ -4795,6 +5337,192 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-56406
     PublishedDate: '2025-04-13T14:15:14.527Z'
     LastModifiedDate: '2025-04-30T15:21:11.547Z'
+  - VulnerabilityID: CVE-2025-4516
+    PkgID: python3.10@3.10.12-1~22.04.9
+    PkgName: python3.10
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/python3.10@3.10.12-1~22.04.9?arch=amd64&distro=ubuntu-22.04
+      UID: bdcbaf56b203aeef
+    InstalledVersion: 3.10.12-1~22.04.9
+    FixedVersion: 3.10.12-1~22.04.10
+    Status: fixed
+    Layer:
+      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
+      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-4516
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: There is an issue in CPython when using `bytes.decode("unicode_escape" ...
+    Description: There is an issue in CPython when using `bytes.decode("unicode_escape", error="ignore|replace")`. If you are not using the "unicode_escape" encoding or an error handler your usage is not affected. To work-around this issue you may stop using the error= handler and instead wrap the bytes.decode() call in a try-except catching the DecodeError.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-416
+    VendorSeverity:
+      amazon: 3
+      ubuntu: 2
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/05/16/4
+    - http://www.openwall.com/lists/oss-security/2025/05/19/1
+    - https://github.com/python/cpython/commit/4398b788ffc1f954a2c552da285477d42a571292
+    - https://github.com/python/cpython/commit/5646648678295a44aa82636c6e92826651baf33a
+    - https://github.com/python/cpython/commit/6279eb8c076d89d3739a6edb393e43c7929b429d
+    - https://github.com/python/cpython/commit/69b4387f78f413e8c47572a85b3478c47eba8142
+    - https://github.com/python/cpython/commit/73b3040f592436385007918887b7e2132aa8431f
+    - https://github.com/python/cpython/commit/8d35fd1b34935221aff23a1ab69a429dd156be77
+    - https://github.com/python/cpython/commit/9f69a58623bd01349a18ba0c7a9cb1dad6a51e8e
+    - https://github.com/python/cpython/commit/9f69a58623bd01349a18ba0c7a9cb1dad6a51e8e (main)
+    - https://github.com/python/cpython/commit/ab9893c40609935e0d40a6d2a7307ea51aec598b
+    - https://github.com/python/cpython/issues/133767
+    - https://github.com/python/cpython/pull/129648
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/L75IPBBTSCYEF56I2M4KIW353BB3AY74/
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-4516
+    - https://ubuntu.com/security/notices/USN-7570-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-4516
+    PublishedDate: '2025-05-15T14:15:31.753Z'
+    LastModifiedDate: '2025-06-03T14:15:49.697Z'
+  - VulnerabilityID: CVE-2025-1795
+    PkgID: python3.10@3.10.12-1~22.04.9
+    PkgName: python3.10
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/python3.10@3.10.12-1~22.04.9?arch=amd64&distro=ubuntu-22.04
+      UID: bdcbaf56b203aeef
+    InstalledVersion: 3.10.12-1~22.04.9
+    FixedVersion: 3.10.12-1~22.04.10
+    Status: fixed
+    Layer:
+      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
+      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-1795
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'python: Mishandling of comma during folding and unicode-encoding of email headers'
+    Description: During an address list folding when a separating comma ends up on a folded line and that line is to be unicode-encoded then the separator itself is also unicode-encoded. Expected behavior is that the separating comma remains a plan comma. This can result in the address header being misinterpreted by some mail servers.
+    Severity: LOW
+    CweIDs:
+    - CWE-116
+    VendorSeverity:
+      amazon: 1
+      bitnami: 1
+      cbl-mariner: 1
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:L/I:N/A:N
+        V3Score: 3.1
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-1795
+    - https://github.com/python/cpython/commit/09fab93c3d857496c0bd162797fab816c311ee48
+    - https://github.com/python/cpython/commit/70754d21c288535e86070ca7a6e90dcb670b8593
+    - https://github.com/python/cpython/commit/9148b77e0af91cdacaa7fe3dfac09635c3fe9a74
+    - https://github.com/python/cpython/issues/100884
+    - https://github.com/python/cpython/pull/100885
+    - https://github.com/python/cpython/pull/119099
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/MB62IZMEC3UM6SGHP5LET5JX2Y7H4ZUR/
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-1795
+    - https://ubuntu.com/security/notices/USN-7570-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-1795
+    PublishedDate: '2025-02-28T19:15:36.55Z'
+    LastModifiedDate: '2025-02-28T21:15:27.57Z'
+  - VulnerabilityID: CVE-2025-4516
+    PkgID: python3.10-minimal@3.10.12-1~22.04.9
+    PkgName: python3.10-minimal
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/python3.10-minimal@3.10.12-1~22.04.9?arch=amd64&distro=ubuntu-22.04
+      UID: a8aa43901bc0aeed
+    InstalledVersion: 3.10.12-1~22.04.9
+    FixedVersion: 3.10.12-1~22.04.10
+    Status: fixed
+    Layer:
+      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
+      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-4516
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: There is an issue in CPython when using `bytes.decode("unicode_escape" ...
+    Description: There is an issue in CPython when using `bytes.decode("unicode_escape", error="ignore|replace")`. If you are not using the "unicode_escape" encoding or an error handler your usage is not affected. To work-around this issue you may stop using the error= handler and instead wrap the bytes.decode() call in a try-except catching the DecodeError.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-416
+    VendorSeverity:
+      amazon: 3
+      ubuntu: 2
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/05/16/4
+    - http://www.openwall.com/lists/oss-security/2025/05/19/1
+    - https://github.com/python/cpython/commit/4398b788ffc1f954a2c552da285477d42a571292
+    - https://github.com/python/cpython/commit/5646648678295a44aa82636c6e92826651baf33a
+    - https://github.com/python/cpython/commit/6279eb8c076d89d3739a6edb393e43c7929b429d
+    - https://github.com/python/cpython/commit/69b4387f78f413e8c47572a85b3478c47eba8142
+    - https://github.com/python/cpython/commit/73b3040f592436385007918887b7e2132aa8431f
+    - https://github.com/python/cpython/commit/8d35fd1b34935221aff23a1ab69a429dd156be77
+    - https://github.com/python/cpython/commit/9f69a58623bd01349a18ba0c7a9cb1dad6a51e8e
+    - https://github.com/python/cpython/commit/9f69a58623bd01349a18ba0c7a9cb1dad6a51e8e (main)
+    - https://github.com/python/cpython/commit/ab9893c40609935e0d40a6d2a7307ea51aec598b
+    - https://github.com/python/cpython/issues/133767
+    - https://github.com/python/cpython/pull/129648
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/L75IPBBTSCYEF56I2M4KIW353BB3AY74/
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-4516
+    - https://ubuntu.com/security/notices/USN-7570-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-4516
+    PublishedDate: '2025-05-15T14:15:31.753Z'
+    LastModifiedDate: '2025-06-03T14:15:49.697Z'
+  - VulnerabilityID: CVE-2025-1795
+    PkgID: python3.10-minimal@3.10.12-1~22.04.9
+    PkgName: python3.10-minimal
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/python3.10-minimal@3.10.12-1~22.04.9?arch=amd64&distro=ubuntu-22.04
+      UID: a8aa43901bc0aeed
+    InstalledVersion: 3.10.12-1~22.04.9
+    FixedVersion: 3.10.12-1~22.04.10
+    Status: fixed
+    Layer:
+      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
+      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-1795
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'python: Mishandling of comma during folding and unicode-encoding of email headers'
+    Description: During an address list folding when a separating comma ends up on a folded line and that line is to be unicode-encoded then the separator itself is also unicode-encoded. Expected behavior is that the separating comma remains a plan comma. This can result in the address header being misinterpreted by some mail servers.
+    Severity: LOW
+    CweIDs:
+    - CWE-116
+    VendorSeverity:
+      amazon: 1
+      bitnami: 1
+      cbl-mariner: 1
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:L/I:N/A:N
+        V3Score: 3.1
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-1795
+    - https://github.com/python/cpython/commit/09fab93c3d857496c0bd162797fab816c311ee48
+    - https://github.com/python/cpython/commit/70754d21c288535e86070ca7a6e90dcb670b8593
+    - https://github.com/python/cpython/commit/9148b77e0af91cdacaa7fe3dfac09635c3fe9a74
+    - https://github.com/python/cpython/issues/100884
+    - https://github.com/python/cpython/pull/100885
+    - https://github.com/python/cpython/pull/119099
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/MB62IZMEC3UM6SGHP5LET5JX2Y7H4ZUR/
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-1795
+    - https://ubuntu.com/security/notices/USN-7570-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-1795
+    PublishedDate: '2025-02-28T19:15:36.55Z'
+    LastModifiedDate: '2025-02-28T21:15:27.57Z'
   - VulnerabilityID: CVE-2025-4598
     PkgID: systemd@249.11-0ubuntu3.12
     PkgName: systemd
@@ -4823,6 +5551,7 @@
     - CWE-364
     VendorSeverity:
       oracle-oval: 3
+      photon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -4880,6 +5609,7 @@
       azure: 2
       nvd: 2
       oracle-oval: 2
+      photon: 2
       redhat: 2
       rocky: 2
       ubuntu: 1
@@ -4938,6 +5668,7 @@
     - CWE-364
     VendorSeverity:
       oracle-oval: 3
+      photon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -4995,6 +5726,7 @@
       azure: 2
       nvd: 2
       oracle-oval: 2
+      photon: 2
       redhat: 2
       rocky: 2
       ubuntu: 1
@@ -5053,6 +5785,7 @@
     - CWE-364
     VendorSeverity:
       oracle-oval: 3
+      photon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -5110,6 +5843,7 @@
       azure: 2
       nvd: 2
       oracle-oval: 2
+      photon: 2
       redhat: 2
       rocky: 2
       ubuntu: 1
@@ -5647,6 +6381,7 @@
     - https://pkg.go.dev/vuln/GO-2025-3503
     - https://security.netapp.com/advisory/ntap-20250509-0007
     - https://security.netapp.com/advisory/ntap-20250509-0007/
+    - https://ubuntu.com/security/notices/USN-7574-1
     - https://www.cve.org/CVERecord?id=CVE-2025-22870
     PublishedDate: '2025-03-12T19:15:38.31Z'
     LastModifiedDate: '2025-05-09T20:15:38.727Z'
@@ -5694,6 +6429,81 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-22872
     PublishedDate: '2025-04-16T18:16:04.183Z'
     LastModifiedDate: '2025-05-16T23:15:19.707Z'
+  - VulnerabilityID: CVE-2025-22874
+    PkgID: stdlib@v1.24.1
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@v1.24.1
+      UID: 2add7c57bc4db0d1
+    InstalledVersion: v1.24.1
+    FixedVersion: 1.24.4
+    Status: fixed
+    Layer:
+      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
+      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-22874
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: 'crypto/x509: Usage of ExtKeyUsageAny disables policy validation in crypto/x509'
+    Description: Calling Verify with a VerifyOptions.KeyUsages that contains ExtKeyUsageAny unintentionally disabledpolicy validation. This only affected certificate chains which contain policy graphs, which are rather uncommon.
+    Severity: HIGH
+    VendorSeverity:
+      amazon: 2
+      bitnami: 3
+      redhat: 3
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N
+        V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-22874
+    - https://go.dev/cl/670375
+    - https://go.dev/issue/73612
+    - https://groups.google.com/g/golang-announce/c/ufZ8WpEsA3A
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-22874
+    - https://pkg.go.dev/vuln/GO-2025-3749
+    - https://www.cve.org/CVERecord?id=CVE-2025-22874
+    PublishedDate: '2025-06-11T17:15:42.167Z'
+    LastModifiedDate: '2025-06-12T16:06:20.18Z'
+  - VulnerabilityID: CVE-2025-0913
+    PkgID: stdlib@v1.24.1
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@v1.24.1
+      UID: 2add7c57bc4db0d1
+    InstalledVersion: v1.24.1
+    FixedVersion: 1.23.10, 1.24.4
+    Status: fixed
+    Layer:
+      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
+      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-0913
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: Inconsistent handling of O_CREATE|O_EXCL on Unix and Windows in os in syscall
+    Description: os.OpenFile(path, os.O_CREATE|O_EXCL) behaved differently on Unix and Windows systems when the target path was a dangling symlink. On Unix systems, OpenFile with O_CREATE and O_EXCL flags never follows symlinks. On Windows, when the target path was a symlink to a nonexistent location, OpenFile would create a file in that location. OpenFile now always returns an error when the O_CREATE and O_EXCL flags are both set and the target path is a symlink.
+    Severity: MEDIUM
+    VendorSeverity:
+      bitnami: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N
+        V3Score: 5.5
+    References:
+    - https://go.dev/cl/672396
+    - https://go.dev/issue/73702
+    - https://groups.google.com/g/golang-announce/c/ufZ8WpEsA3A
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-0913
+    - https://pkg.go.dev/vuln/GO-2025-3750
+    PublishedDate: '2025-06-11T18:15:24.627Z'
+    LastModifiedDate: '2025-06-12T16:06:20.18Z'
   - VulnerabilityID: CVE-2025-22871
     PkgID: stdlib@v1.24.1
     PkgName: stdlib
@@ -5730,15 +6540,15 @@
         V3Score: 5.4
     References:
     - http://www.openwall.com/lists/oss-security/2025/04/04/4
-    - https://access.redhat.com/errata/RHSA-2025:8476
+    - https://access.redhat.com/errata/RHSA-2025:9150
     - https://access.redhat.com/security/cve/CVE-2025-22871
     - https://bugzilla.redhat.com/2358493
-    - https://errata.almalinux.org/9/ALSA-2025-8476.html
+    - https://errata.almalinux.org/9/ALSA-2025-9150.html
     - https://go.dev/cl/652998
     - https://go.dev/issue/71988
     - https://groups.google.com/g/golang-announce/c/Y2uBTVKjBQk
     - https://linux.oracle.com/cve/CVE-2025-22871.html
-    - https://linux.oracle.com/errata/ELSA-2025-8682.html
+    - https://linux.oracle.com/errata/ELSA-2025-9845.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-22871
     - https://pkg.go.dev/vuln/GO-2025-3563
     - https://www.cve.org/CVERecord?id=CVE-2025-22871
@@ -5761,71 +6571,32 @@
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
-    Title: Proxy-Authorization and Proxy-Authenticate headers persisted on cross- ...
+    Title: 'net/http: Sensitive headers not cleared on cross-origin redirect in net/http'
     Description: Proxy-Authorization and Proxy-Authenticate headers persisted on cross-origin redirects potentially leaking sensitive information.
     Severity: MEDIUM
     VendorSeverity:
+      amazon: 2
+      bitnami: 2
+      redhat: 2
       ubuntu: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:N/A:N
+        V3Score: 6.8
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:N/A:N
+        V3Score: 6.8
     References:
+    - https://access.redhat.com/security/cve/CVE-2025-4673
     - https://go.dev/cl/679257
     - https://go.dev/issue/73816
     - https://groups.google.com/g/golang-announce/c/ufZ8WpEsA3A
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-4673
     - https://pkg.go.dev/vuln/GO-2025-3751
+    - https://ubuntu.com/security/notices/USN-7574-1
     - https://www.cve.org/CVERecord?id=CVE-2025-4673
     PublishedDate: '2025-06-11T17:15:42.993Z'
-    LastModifiedDate: '2025-06-11T17:15:42.993Z'
-  - VulnerabilityID: CVE-2025-0913
-    PkgID: stdlib@v1.24.1
-    PkgName: stdlib
-    PkgIdentifier:
-      PURL: pkg:golang/stdlib@v1.24.1
-      UID: 2add7c57bc4db0d1
-    InstalledVersion: v1.24.1
-    FixedVersion: 1.23.10, 1.24.4
-    Status: fixed
-    Layer:
-      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
-      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-0913
-    DataSource:
-      ID: govulndb
-      Name: The Go Vulnerability Database
-      URL: https://pkg.go.dev/vuln/
-    Title: Inconsistent handling of O_CREATE|O_EXCL on Unix and Windows in os in syscall
-    Description: os.OpenFile(path, os.O_CREATE|O_EXCL) behaved differently on Unix and Windows systems when the target path was a dangling symlink. On Unix systems, OpenFile with O_CREATE and O_EXCL flags never follows symlinks. On Windows, when the target path was a symlink to a nonexistent location, OpenFile would create a file in that location. OpenFile now always returns an error when the O_CREATE and O_EXCL flags are both set and the target path is a symlink.
-    Severity: UNKNOWN
-    References:
-    - https://go.dev/cl/672396
-    - https://go.dev/issue/73702
-    - https://groups.google.com/g/golang-announce/c/ufZ8WpEsA3A
-    - https://pkg.go.dev/vuln/GO-2025-3750
-  - VulnerabilityID: CVE-2025-22874
-    PkgID: stdlib@v1.24.1
-    PkgName: stdlib
-    PkgIdentifier:
-      PURL: pkg:golang/stdlib@v1.24.1
-      UID: 2add7c57bc4db0d1
-    InstalledVersion: v1.24.1
-    FixedVersion: 1.23.10, 1.24.4
-    Status: fixed
-    Layer:
-      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
-      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-22874
-    DataSource:
-      ID: govulndb
-      Name: The Go Vulnerability Database
-      URL: https://pkg.go.dev/vuln/
-    Title: Calling Verify with a VerifyOptions.KeyUsages that contains ExtKeyUsag ...
-    Description: Calling Verify with a VerifyOptions.KeyUsages that contains ExtKeyUsageAny unintentionally disabledpolicy validation. This only affected certificate chains which contain policy graphs, which are rather uncommon.
-    Severity: UNKNOWN
-    References:
-    - https://go.dev/cl/670375
-    - https://go.dev/issue/73612
-    - https://groups.google.com/g/golang-announce/c/ufZ8WpEsA3A
-    - https://pkg.go.dev/vuln/GO-2025-3749
-    PublishedDate: '2025-06-11T17:15:42.167Z'
-    LastModifiedDate: '2025-06-11T17:15:42.167Z'
+    LastModifiedDate: '2025-06-12T16:06:20.18Z'
 - Target: tmp/tmp.rYlCZdukWB/krew-linux_amd64
   Class: lang-pkgs
   Type: gobinary
@@ -5962,6 +6733,7 @@
     - https://pkg.go.dev/vuln/GO-2025-3503
     - https://security.netapp.com/advisory/ntap-20250509-0007
     - https://security.netapp.com/advisory/ntap-20250509-0007/
+    - https://ubuntu.com/security/notices/USN-7574-1
     - https://www.cve.org/CVERecord?id=CVE-2025-22870
     PublishedDate: '2025-03-12T19:15:38.31Z'
     LastModifiedDate: '2025-05-09T20:15:38.727Z'
@@ -6009,6 +6781,81 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-22872
     PublishedDate: '2025-04-16T18:16:04.183Z'
     LastModifiedDate: '2025-05-16T23:15:19.707Z'
+  - VulnerabilityID: CVE-2025-22874
+    PkgID: stdlib@v1.24.1
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@v1.24.1
+      UID: 6a2f8f56c5fff27e
+    InstalledVersion: v1.24.1
+    FixedVersion: 1.24.4
+    Status: fixed
+    Layer:
+      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
+      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-22874
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: 'crypto/x509: Usage of ExtKeyUsageAny disables policy validation in crypto/x509'
+    Description: Calling Verify with a VerifyOptions.KeyUsages that contains ExtKeyUsageAny unintentionally disabledpolicy validation. This only affected certificate chains which contain policy graphs, which are rather uncommon.
+    Severity: HIGH
+    VendorSeverity:
+      amazon: 2
+      bitnami: 3
+      redhat: 3
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N
+        V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-22874
+    - https://go.dev/cl/670375
+    - https://go.dev/issue/73612
+    - https://groups.google.com/g/golang-announce/c/ufZ8WpEsA3A
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-22874
+    - https://pkg.go.dev/vuln/GO-2025-3749
+    - https://www.cve.org/CVERecord?id=CVE-2025-22874
+    PublishedDate: '2025-06-11T17:15:42.167Z'
+    LastModifiedDate: '2025-06-12T16:06:20.18Z'
+  - VulnerabilityID: CVE-2025-0913
+    PkgID: stdlib@v1.24.1
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@v1.24.1
+      UID: 6a2f8f56c5fff27e
+    InstalledVersion: v1.24.1
+    FixedVersion: 1.23.10, 1.24.4
+    Status: fixed
+    Layer:
+      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
+      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-0913
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: Inconsistent handling of O_CREATE|O_EXCL on Unix and Windows in os in syscall
+    Description: os.OpenFile(path, os.O_CREATE|O_EXCL) behaved differently on Unix and Windows systems when the target path was a dangling symlink. On Unix systems, OpenFile with O_CREATE and O_EXCL flags never follows symlinks. On Windows, when the target path was a symlink to a nonexistent location, OpenFile would create a file in that location. OpenFile now always returns an error when the O_CREATE and O_EXCL flags are both set and the target path is a symlink.
+    Severity: MEDIUM
+    VendorSeverity:
+      bitnami: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N
+        V3Score: 5.5
+    References:
+    - https://go.dev/cl/672396
+    - https://go.dev/issue/73702
+    - https://groups.google.com/g/golang-announce/c/ufZ8WpEsA3A
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-0913
+    - https://pkg.go.dev/vuln/GO-2025-3750
+    PublishedDate: '2025-06-11T18:15:24.627Z'
+    LastModifiedDate: '2025-06-12T16:06:20.18Z'
   - VulnerabilityID: CVE-2025-22871
     PkgID: stdlib@v1.24.1
     PkgName: stdlib
@@ -6045,15 +6892,15 @@
         V3Score: 5.4
     References:
     - http://www.openwall.com/lists/oss-security/2025/04/04/4
-    - https://access.redhat.com/errata/RHSA-2025:8476
+    - https://access.redhat.com/errata/RHSA-2025:9150
     - https://access.redhat.com/security/cve/CVE-2025-22871
     - https://bugzilla.redhat.com/2358493
-    - https://errata.almalinux.org/9/ALSA-2025-8476.html
+    - https://errata.almalinux.org/9/ALSA-2025-9150.html
     - https://go.dev/cl/652998
     - https://go.dev/issue/71988
     - https://groups.google.com/g/golang-announce/c/Y2uBTVKjBQk
     - https://linux.oracle.com/cve/CVE-2025-22871.html
-    - https://linux.oracle.com/errata/ELSA-2025-8682.html
+    - https://linux.oracle.com/errata/ELSA-2025-9845.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-22871
     - https://pkg.go.dev/vuln/GO-2025-3563
     - https://www.cve.org/CVERecord?id=CVE-2025-22871
@@ -6076,71 +6923,32 @@
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
-    Title: Proxy-Authorization and Proxy-Authenticate headers persisted on cross- ...
+    Title: 'net/http: Sensitive headers not cleared on cross-origin redirect in net/http'
     Description: Proxy-Authorization and Proxy-Authenticate headers persisted on cross-origin redirects potentially leaking sensitive information.
     Severity: MEDIUM
     VendorSeverity:
+      amazon: 2
+      bitnami: 2
+      redhat: 2
       ubuntu: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:N/A:N
+        V3Score: 6.8
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:N/A:N
+        V3Score: 6.8
     References:
+    - https://access.redhat.com/security/cve/CVE-2025-4673
     - https://go.dev/cl/679257
     - https://go.dev/issue/73816
     - https://groups.google.com/g/golang-announce/c/ufZ8WpEsA3A
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-4673
     - https://pkg.go.dev/vuln/GO-2025-3751
+    - https://ubuntu.com/security/notices/USN-7574-1
     - https://www.cve.org/CVERecord?id=CVE-2025-4673
     PublishedDate: '2025-06-11T17:15:42.993Z'
-    LastModifiedDate: '2025-06-11T17:15:42.993Z'
-  - VulnerabilityID: CVE-2025-0913
-    PkgID: stdlib@v1.24.1
-    PkgName: stdlib
-    PkgIdentifier:
-      PURL: pkg:golang/stdlib@v1.24.1
-      UID: 6a2f8f56c5fff27e
-    InstalledVersion: v1.24.1
-    FixedVersion: 1.23.10, 1.24.4
-    Status: fixed
-    Layer:
-      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
-      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-0913
-    DataSource:
-      ID: govulndb
-      Name: The Go Vulnerability Database
-      URL: https://pkg.go.dev/vuln/
-    Title: Inconsistent handling of O_CREATE|O_EXCL on Unix and Windows in os in syscall
-    Description: os.OpenFile(path, os.O_CREATE|O_EXCL) behaved differently on Unix and Windows systems when the target path was a dangling symlink. On Unix systems, OpenFile with O_CREATE and O_EXCL flags never follows symlinks. On Windows, when the target path was a symlink to a nonexistent location, OpenFile would create a file in that location. OpenFile now always returns an error when the O_CREATE and O_EXCL flags are both set and the target path is a symlink.
-    Severity: UNKNOWN
-    References:
-    - https://go.dev/cl/672396
-    - https://go.dev/issue/73702
-    - https://groups.google.com/g/golang-announce/c/ufZ8WpEsA3A
-    - https://pkg.go.dev/vuln/GO-2025-3750
-  - VulnerabilityID: CVE-2025-22874
-    PkgID: stdlib@v1.24.1
-    PkgName: stdlib
-    PkgIdentifier:
-      PURL: pkg:golang/stdlib@v1.24.1
-      UID: 6a2f8f56c5fff27e
-    InstalledVersion: v1.24.1
-    FixedVersion: 1.23.10, 1.24.4
-    Status: fixed
-    Layer:
-      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
-      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-22874
-    DataSource:
-      ID: govulndb
-      Name: The Go Vulnerability Database
-      URL: https://pkg.go.dev/vuln/
-    Title: Calling Verify with a VerifyOptions.KeyUsages that contains ExtKeyUsag ...
-    Description: Calling Verify with a VerifyOptions.KeyUsages that contains ExtKeyUsageAny unintentionally disabledpolicy validation. This only affected certificate chains which contain policy graphs, which are rather uncommon.
-    Severity: UNKNOWN
-    References:
-    - https://go.dev/cl/670375
-    - https://go.dev/issue/73612
-    - https://groups.google.com/g/golang-announce/c/ufZ8WpEsA3A
-    - https://pkg.go.dev/vuln/GO-2025-3749
-    PublishedDate: '2025-06-11T17:15:42.167Z'
-    LastModifiedDate: '2025-06-11T17:15:42.167Z'
+    LastModifiedDate: '2025-06-12T16:06:20.18Z'
 - Target: usr/bin/docker-compose
   Class: lang-pkgs
   Type: gobinary
@@ -6269,6 +7077,38 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-0495
     PublishedDate: '2025-03-17T20:15:13.737Z'
     LastModifiedDate: '2025-03-17T20:15:13.737Z'
+  - VulnerabilityID: GHSA-fv92-fjc5-jj9h
+    PkgID: github.com/go-viper/mapstructure/v2@v2.0.0
+    PkgName: github.com/go-viper/mapstructure/v2
+    PkgIdentifier:
+      PURL: pkg:golang/github.com/go-viper/mapstructure/v2@v2.0.0
+      UID: c3a5497114ab930c
+    InstalledVersion: v2.0.0
+    FixedVersion: 2.3.0
+    Status: fixed
+    Layer:
+      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
+      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
+    SeveritySource: ghsa
+    PrimaryURL: https://github.com/advisories/GHSA-fv92-fjc5-jj9h
+    DataSource:
+      ID: ghsa
+      Name: GitHub Security Advisory Go
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
+    Title: mapstructure May Leak Sensitive Information in Logs When Processing Malformed Data
+    Description: "### Summary\n\nUse of this library in a security-critical context may result in leaking sensitive information, if used to process sensitive fields.\n\n### Details\n\nOpenBao (and presumably HashiCorp Vault) have surfaced error messages from `mapstructure` as follows:\n\nhttps://github.com/openbao/openbao/blob/98c3a59c040efca724353ca46ca79bd5cdbab920/sdk/framework/field_data.go#L43-L50\n\n```go\n\t\t\t_, _, err := d.getPrimitive(field, schema)\n\t\t\tif err != nil {\n\t\t\t\treturn fmt.Errorf(\"error converting input for field %q: %w\", field, err)\n\t\t\t}\n```\n\nwhere this calls `mapstructure.WeakDecode(...)`: https://github.com/openbao/openbao/blob/98c3a59c040efca724353ca46ca79bd5cdbab920/sdk/framework/field_data.go#L181-L193\n\n```go\n\nfunc (d *FieldData) getPrimitive(k string, schema *FieldSchema) (interface{}, bool, error) {\n\traw, ok := d.Raw[k]\n\tif !ok {\n\t\treturn nil, false, nil\n\t}\n\n\tswitch t := schema.Type; t {\n\tcase TypeBool:\n\t\tvar result bool\n\t\tif err := mapstructure.WeakDecode(raw, &result); err != nil {\n\t\t\treturn nil, false, err\n\t\t}\n\t\treturn result, true, nil\n```\n\nNotably, `WeakDecode(...)` eventually calls one of the decode helpers, which surfaces the original value:\n\nhttps://github.com/go-viper/mapstructure/blob/1a66224d5e54d8757f63bd66339cf764c3292c21/mapstructure.go#L679-L686\n\nhttps://github.com/go-viper/mapstructure/blob/1a66224d5e54d8757f63bd66339cf764c3292c21/mapstructure.go#L726-L730\n\nhttps://github.com/go-viper/mapstructure/blob/1a66224d5e54d8757f63bd66339cf764c3292c21/mapstructure.go#L783-L787\n\n& more.\n\n### PoC\n\nTo reproduce with OpenBao:\n\n```\n$ podman run -p 8300:8300 openbao/openbao:latest server -dev -dev-root-token-id=root -dev-listen-address=0.0.0.0:8300\n```\n\nand in a new tab:\n\n```\n$ BAO_TOKEN=root BAO_ADDR=http://localhost:8300 bao auth enable userpass\nSuccess! Enabled userpass auth method at: userpass/\n$ curl -X PUT -H \"X-Vault-Request: true\" -H \"X-Vault-Token: root\" -d '{\"password\":{\"asdf\":\"my-sensitive-value\"}}' \"http://localhost:8300/v1/auth/userpass/users/adsf\"\n{\"errors\":[\"error converting input for field \\\"password\\\": '' expected type 'string', got unconvertible type 'map[string]interface {}', value: 'map[asdf:my-sensitive-value]'\"]}\n```\n\n### Impact\n\nThis is an information disclosure bug with little mitigation. See https://discuss.hashicorp.com/t/hcsec-2025-09-vault-may-expose-sensitive-information-in-error-logs-when-processing-malformed-data-with-the-kv-v2-plugin/74717 for a previous version. That version was fixed, but this is in the second part of that error message (starting at `'' expected a map, got 'string'` -- when the field type is `string` and a `map` is provided, we see the above information leak -- the previous example had a `map` type field with a `string` value provided).\n\nThis was rated 4.5 Medium by HashiCorp in the past iteration."
+    Severity: MEDIUM
+    VendorSeverity:
+      ghsa: 2
+    CVSS:
+      ghsa:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:N/A:N
+        V3Score: 5.3
+    References:
+    - https://github.com/go-viper/mapstructure
+    - https://github.com/go-viper/mapstructure/security/advisories/GHSA-fv92-fjc5-jj9h
+    PublishedDate: '2025-06-27T16:24:59Z'
+    LastModifiedDate: '2025-06-27T16:24:59Z'
   - VulnerabilityID: CVE-2025-30204
     PkgID: github.com/golang-jwt/jwt@v3.2.2+incompatible
     PkgName: github.com/golang-jwt/jwt
@@ -6318,6 +7158,7 @@
     - https://linux.oracle.com/cve/CVE-2025-30204.html
     - https://linux.oracle.com/errata/ELSA-2025-7967.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-30204
+    - https://pkg.go.dev/vuln/GO-2025-3553
     - https://security.netapp.com/advisory/ntap-20250404-0002
     - https://security.netapp.com/advisory/ntap-20250404-0002/
     - https://www.cve.org/CVERecord?id=CVE-2025-30204
@@ -6429,6 +7270,7 @@
     - https://pkg.go.dev/vuln/GO-2025-3503
     - https://security.netapp.com/advisory/ntap-20250509-0007
     - https://security.netapp.com/advisory/ntap-20250509-0007/
+    - https://ubuntu.com/security/notices/USN-7574-1
     - https://www.cve.org/CVERecord?id=CVE-2025-22870
     PublishedDate: '2025-03-12T19:15:38.31Z'
     LastModifiedDate: '2025-05-09T20:15:38.727Z'
@@ -6476,6 +7318,40 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-22872
     PublishedDate: '2025-04-16T18:16:04.183Z'
     LastModifiedDate: '2025-05-16T23:15:19.707Z'
+  - VulnerabilityID: CVE-2025-0913
+    PkgID: stdlib@v1.23.6
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@v1.23.6
+      UID: f8f7f9e81f31bb46
+    InstalledVersion: v1.23.6
+    FixedVersion: 1.23.10, 1.24.4
+    Status: fixed
+    Layer:
+      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
+      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-0913
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: Inconsistent handling of O_CREATE|O_EXCL on Unix and Windows in os in syscall
+    Description: os.OpenFile(path, os.O_CREATE|O_EXCL) behaved differently on Unix and Windows systems when the target path was a dangling symlink. On Unix systems, OpenFile with O_CREATE and O_EXCL flags never follows symlinks. On Windows, when the target path was a symlink to a nonexistent location, OpenFile would create a file in that location. OpenFile now always returns an error when the O_CREATE and O_EXCL flags are both set and the target path is a symlink.
+    Severity: MEDIUM
+    VendorSeverity:
+      bitnami: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N
+        V3Score: 5.5
+    References:
+    - https://go.dev/cl/672396
+    - https://go.dev/issue/73702
+    - https://groups.google.com/g/golang-announce/c/ufZ8WpEsA3A
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-0913
+    - https://pkg.go.dev/vuln/GO-2025-3750
+    PublishedDate: '2025-06-11T18:15:24.627Z'
+    LastModifiedDate: '2025-06-12T16:06:20.18Z'
   - VulnerabilityID: CVE-2025-22871
     PkgID: stdlib@v1.23.6
     PkgName: stdlib
@@ -6512,15 +7388,15 @@
         V3Score: 5.4
     References:
     - http://www.openwall.com/lists/oss-security/2025/04/04/4
-    - https://access.redhat.com/errata/RHSA-2025:8476
+    - https://access.redhat.com/errata/RHSA-2025:9150
     - https://access.redhat.com/security/cve/CVE-2025-22871
     - https://bugzilla.redhat.com/2358493
-    - https://errata.almalinux.org/9/ALSA-2025-8476.html
+    - https://errata.almalinux.org/9/ALSA-2025-9150.html
     - https://go.dev/cl/652998
     - https://go.dev/issue/71988
     - https://groups.google.com/g/golang-announce/c/Y2uBTVKjBQk
     - https://linux.oracle.com/cve/CVE-2025-22871.html
-    - https://linux.oracle.com/errata/ELSA-2025-8682.html
+    - https://linux.oracle.com/errata/ELSA-2025-9845.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-22871
     - https://pkg.go.dev/vuln/GO-2025-3563
     - https://www.cve.org/CVERecord?id=CVE-2025-22871
@@ -6543,71 +7419,32 @@
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
-    Title: Proxy-Authorization and Proxy-Authenticate headers persisted on cross- ...
+    Title: 'net/http: Sensitive headers not cleared on cross-origin redirect in net/http'
     Description: Proxy-Authorization and Proxy-Authenticate headers persisted on cross-origin redirects potentially leaking sensitive information.
     Severity: MEDIUM
     VendorSeverity:
+      amazon: 2
+      bitnami: 2
+      redhat: 2
       ubuntu: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:N/A:N
+        V3Score: 6.8
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:N/A:N
+        V3Score: 6.8
     References:
+    - https://access.redhat.com/security/cve/CVE-2025-4673
     - https://go.dev/cl/679257
     - https://go.dev/issue/73816
     - https://groups.google.com/g/golang-announce/c/ufZ8WpEsA3A
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-4673
     - https://pkg.go.dev/vuln/GO-2025-3751
+    - https://ubuntu.com/security/notices/USN-7574-1
     - https://www.cve.org/CVERecord?id=CVE-2025-4673
     PublishedDate: '2025-06-11T17:15:42.993Z'
-    LastModifiedDate: '2025-06-11T17:15:42.993Z'
-  - VulnerabilityID: CVE-2025-0913
-    PkgID: stdlib@v1.23.6
-    PkgName: stdlib
-    PkgIdentifier:
-      PURL: pkg:golang/stdlib@v1.23.6
-      UID: f8f7f9e81f31bb46
-    InstalledVersion: v1.23.6
-    FixedVersion: 1.23.10, 1.24.4
-    Status: fixed
-    Layer:
-      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
-      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-0913
-    DataSource:
-      ID: govulndb
-      Name: The Go Vulnerability Database
-      URL: https://pkg.go.dev/vuln/
-    Title: Inconsistent handling of O_CREATE|O_EXCL on Unix and Windows in os in syscall
-    Description: os.OpenFile(path, os.O_CREATE|O_EXCL) behaved differently on Unix and Windows systems when the target path was a dangling symlink. On Unix systems, OpenFile with O_CREATE and O_EXCL flags never follows symlinks. On Windows, when the target path was a symlink to a nonexistent location, OpenFile would create a file in that location. OpenFile now always returns an error when the O_CREATE and O_EXCL flags are both set and the target path is a symlink.
-    Severity: UNKNOWN
-    References:
-    - https://go.dev/cl/672396
-    - https://go.dev/issue/73702
-    - https://groups.google.com/g/golang-announce/c/ufZ8WpEsA3A
-    - https://pkg.go.dev/vuln/GO-2025-3750
-  - VulnerabilityID: CVE-2025-22874
-    PkgID: stdlib@v1.23.6
-    PkgName: stdlib
-    PkgIdentifier:
-      PURL: pkg:golang/stdlib@v1.23.6
-      UID: f8f7f9e81f31bb46
-    InstalledVersion: v1.23.6
-    FixedVersion: 1.23.10, 1.24.4
-    Status: fixed
-    Layer:
-      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
-      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-22874
-    DataSource:
-      ID: govulndb
-      Name: The Go Vulnerability Database
-      URL: https://pkg.go.dev/vuln/
-    Title: Calling Verify with a VerifyOptions.KeyUsages that contains ExtKeyUsag ...
-    Description: Calling Verify with a VerifyOptions.KeyUsages that contains ExtKeyUsageAny unintentionally disabledpolicy validation. This only affected certificate chains which contain policy graphs, which are rather uncommon.
-    Severity: UNKNOWN
-    References:
-    - https://go.dev/cl/670375
-    - https://go.dev/issue/73612
-    - https://groups.google.com/g/golang-announce/c/ufZ8WpEsA3A
-    - https://pkg.go.dev/vuln/GO-2025-3749
-    PublishedDate: '2025-06-11T17:15:42.167Z'
-    LastModifiedDate: '2025-06-11T17:15:42.167Z'
+    LastModifiedDate: '2025-06-12T16:06:20.18Z'
 - Target: usr/bin/helm
   Class: lang-pkgs
   Type: gobinary
@@ -6708,6 +7545,40 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-22872
     PublishedDate: '2025-04-16T18:16:04.183Z'
     LastModifiedDate: '2025-05-16T23:15:19.707Z'
+  - VulnerabilityID: CVE-2025-0913
+    PkgID: stdlib@v1.23.7
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@v1.23.7
+      UID: cae2859c17dd6e50
+    InstalledVersion: v1.23.7
+    FixedVersion: 1.23.10, 1.24.4
+    Status: fixed
+    Layer:
+      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
+      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-0913
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: Inconsistent handling of O_CREATE|O_EXCL on Unix and Windows in os in syscall
+    Description: os.OpenFile(path, os.O_CREATE|O_EXCL) behaved differently on Unix and Windows systems when the target path was a dangling symlink. On Unix systems, OpenFile with O_CREATE and O_EXCL flags never follows symlinks. On Windows, when the target path was a symlink to a nonexistent location, OpenFile would create a file in that location. OpenFile now always returns an error when the O_CREATE and O_EXCL flags are both set and the target path is a symlink.
+    Severity: MEDIUM
+    VendorSeverity:
+      bitnami: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N
+        V3Score: 5.5
+    References:
+    - https://go.dev/cl/672396
+    - https://go.dev/issue/73702
+    - https://groups.google.com/g/golang-announce/c/ufZ8WpEsA3A
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-0913
+    - https://pkg.go.dev/vuln/GO-2025-3750
+    PublishedDate: '2025-06-11T18:15:24.627Z'
+    LastModifiedDate: '2025-06-12T16:06:20.18Z'
   - VulnerabilityID: CVE-2025-22871
     PkgID: stdlib@v1.23.7
     PkgName: stdlib
@@ -6744,15 +7615,15 @@
         V3Score: 5.4
     References:
     - http://www.openwall.com/lists/oss-security/2025/04/04/4
-    - https://access.redhat.com/errata/RHSA-2025:8476
+    - https://access.redhat.com/errata/RHSA-2025:9150
     - https://access.redhat.com/security/cve/CVE-2025-22871
     - https://bugzilla.redhat.com/2358493
-    - https://errata.almalinux.org/9/ALSA-2025-8476.html
+    - https://errata.almalinux.org/9/ALSA-2025-9150.html
     - https://go.dev/cl/652998
     - https://go.dev/issue/71988
     - https://groups.google.com/g/golang-announce/c/Y2uBTVKjBQk
     - https://linux.oracle.com/cve/CVE-2025-22871.html
-    - https://linux.oracle.com/errata/ELSA-2025-8682.html
+    - https://linux.oracle.com/errata/ELSA-2025-9845.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-22871
     - https://pkg.go.dev/vuln/GO-2025-3563
     - https://www.cve.org/CVERecord?id=CVE-2025-22871
@@ -6775,71 +7646,32 @@
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
-    Title: Proxy-Authorization and Proxy-Authenticate headers persisted on cross- ...
+    Title: 'net/http: Sensitive headers not cleared on cross-origin redirect in net/http'
     Description: Proxy-Authorization and Proxy-Authenticate headers persisted on cross-origin redirects potentially leaking sensitive information.
     Severity: MEDIUM
     VendorSeverity:
+      amazon: 2
+      bitnami: 2
+      redhat: 2
       ubuntu: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:N/A:N
+        V3Score: 6.8
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:N/A:N
+        V3Score: 6.8
     References:
+    - https://access.redhat.com/security/cve/CVE-2025-4673
     - https://go.dev/cl/679257
     - https://go.dev/issue/73816
     - https://groups.google.com/g/golang-announce/c/ufZ8WpEsA3A
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-4673
     - https://pkg.go.dev/vuln/GO-2025-3751
+    - https://ubuntu.com/security/notices/USN-7574-1
     - https://www.cve.org/CVERecord?id=CVE-2025-4673
     PublishedDate: '2025-06-11T17:15:42.993Z'
-    LastModifiedDate: '2025-06-11T17:15:42.993Z'
-  - VulnerabilityID: CVE-2025-0913
-    PkgID: stdlib@v1.23.7
-    PkgName: stdlib
-    PkgIdentifier:
-      PURL: pkg:golang/stdlib@v1.23.7
-      UID: cae2859c17dd6e50
-    InstalledVersion: v1.23.7
-    FixedVersion: 1.23.10, 1.24.4
-    Status: fixed
-    Layer:
-      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
-      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-0913
-    DataSource:
-      ID: govulndb
-      Name: The Go Vulnerability Database
-      URL: https://pkg.go.dev/vuln/
-    Title: Inconsistent handling of O_CREATE|O_EXCL on Unix and Windows in os in syscall
-    Description: os.OpenFile(path, os.O_CREATE|O_EXCL) behaved differently on Unix and Windows systems when the target path was a dangling symlink. On Unix systems, OpenFile with O_CREATE and O_EXCL flags never follows symlinks. On Windows, when the target path was a symlink to a nonexistent location, OpenFile would create a file in that location. OpenFile now always returns an error when the O_CREATE and O_EXCL flags are both set and the target path is a symlink.
-    Severity: UNKNOWN
-    References:
-    - https://go.dev/cl/672396
-    - https://go.dev/issue/73702
-    - https://groups.google.com/g/golang-announce/c/ufZ8WpEsA3A
-    - https://pkg.go.dev/vuln/GO-2025-3750
-  - VulnerabilityID: CVE-2025-22874
-    PkgID: stdlib@v1.23.7
-    PkgName: stdlib
-    PkgIdentifier:
-      PURL: pkg:golang/stdlib@v1.23.7
-      UID: cae2859c17dd6e50
-    InstalledVersion: v1.23.7
-    FixedVersion: 1.23.10, 1.24.4
-    Status: fixed
-    Layer:
-      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
-      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-22874
-    DataSource:
-      ID: govulndb
-      Name: The Go Vulnerability Database
-      URL: https://pkg.go.dev/vuln/
-    Title: Calling Verify with a VerifyOptions.KeyUsages that contains ExtKeyUsag ...
-    Description: Calling Verify with a VerifyOptions.KeyUsages that contains ExtKeyUsageAny unintentionally disabledpolicy validation. This only affected certificate chains which contain policy graphs, which are rather uncommon.
-    Severity: UNKNOWN
-    References:
-    - https://go.dev/cl/670375
-    - https://go.dev/issue/73612
-    - https://groups.google.com/g/golang-announce/c/ufZ8WpEsA3A
-    - https://pkg.go.dev/vuln/GO-2025-3749
-    PublishedDate: '2025-06-11T17:15:42.167Z'
-    LastModifiedDate: '2025-06-11T17:15:42.167Z'
+    LastModifiedDate: '2025-06-12T16:06:20.18Z'
 - Target: usr/bin/kubectl
   Class: lang-pkgs
   Type: gobinary
@@ -6893,6 +7725,7 @@
     - https://pkg.go.dev/vuln/GO-2025-3503
     - https://security.netapp.com/advisory/ntap-20250509-0007
     - https://security.netapp.com/advisory/ntap-20250509-0007/
+    - https://ubuntu.com/security/notices/USN-7574-1
     - https://www.cve.org/CVERecord?id=CVE-2025-22870
     PublishedDate: '2025-03-12T19:15:38.31Z'
     LastModifiedDate: '2025-05-09T20:15:38.727Z'
@@ -6940,6 +7773,40 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-22872
     PublishedDate: '2025-04-16T18:16:04.183Z'
     LastModifiedDate: '2025-05-16T23:15:19.707Z'
+  - VulnerabilityID: CVE-2025-0913
+    PkgID: stdlib@v1.23.6
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@v1.23.6
+      UID: a200578c56ec45c2
+    InstalledVersion: v1.23.6
+    FixedVersion: 1.23.10, 1.24.4
+    Status: fixed
+    Layer:
+      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
+      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-0913
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: Inconsistent handling of O_CREATE|O_EXCL on Unix and Windows in os in syscall
+    Description: os.OpenFile(path, os.O_CREATE|O_EXCL) behaved differently on Unix and Windows systems when the target path was a dangling symlink. On Unix systems, OpenFile with O_CREATE and O_EXCL flags never follows symlinks. On Windows, when the target path was a symlink to a nonexistent location, OpenFile would create a file in that location. OpenFile now always returns an error when the O_CREATE and O_EXCL flags are both set and the target path is a symlink.
+    Severity: MEDIUM
+    VendorSeverity:
+      bitnami: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N
+        V3Score: 5.5
+    References:
+    - https://go.dev/cl/672396
+    - https://go.dev/issue/73702
+    - https://groups.google.com/g/golang-announce/c/ufZ8WpEsA3A
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-0913
+    - https://pkg.go.dev/vuln/GO-2025-3750
+    PublishedDate: '2025-06-11T18:15:24.627Z'
+    LastModifiedDate: '2025-06-12T16:06:20.18Z'
   - VulnerabilityID: CVE-2025-22871
     PkgID: stdlib@v1.23.6
     PkgName: stdlib
@@ -6976,15 +7843,15 @@
         V3Score: 5.4
     References:
     - http://www.openwall.com/lists/oss-security/2025/04/04/4
-    - https://access.redhat.com/errata/RHSA-2025:8476
+    - https://access.redhat.com/errata/RHSA-2025:9150
     - https://access.redhat.com/security/cve/CVE-2025-22871
     - https://bugzilla.redhat.com/2358493
-    - https://errata.almalinux.org/9/ALSA-2025-8476.html
+    - https://errata.almalinux.org/9/ALSA-2025-9150.html
     - https://go.dev/cl/652998
     - https://go.dev/issue/71988
     - https://groups.google.com/g/golang-announce/c/Y2uBTVKjBQk
     - https://linux.oracle.com/cve/CVE-2025-22871.html
-    - https://linux.oracle.com/errata/ELSA-2025-8682.html
+    - https://linux.oracle.com/errata/ELSA-2025-9845.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-22871
     - https://pkg.go.dev/vuln/GO-2025-3563
     - https://www.cve.org/CVERecord?id=CVE-2025-22871
@@ -7007,71 +7874,32 @@
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
-    Title: Proxy-Authorization and Proxy-Authenticate headers persisted on cross- ...
+    Title: 'net/http: Sensitive headers not cleared on cross-origin redirect in net/http'
     Description: Proxy-Authorization and Proxy-Authenticate headers persisted on cross-origin redirects potentially leaking sensitive information.
     Severity: MEDIUM
     VendorSeverity:
+      amazon: 2
+      bitnami: 2
+      redhat: 2
       ubuntu: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:N/A:N
+        V3Score: 6.8
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:N/A:N
+        V3Score: 6.8
     References:
+    - https://access.redhat.com/security/cve/CVE-2025-4673
     - https://go.dev/cl/679257
     - https://go.dev/issue/73816
     - https://groups.google.com/g/golang-announce/c/ufZ8WpEsA3A
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-4673
     - https://pkg.go.dev/vuln/GO-2025-3751
+    - https://ubuntu.com/security/notices/USN-7574-1
     - https://www.cve.org/CVERecord?id=CVE-2025-4673
     PublishedDate: '2025-06-11T17:15:42.993Z'
-    LastModifiedDate: '2025-06-11T17:15:42.993Z'
-  - VulnerabilityID: CVE-2025-0913
-    PkgID: stdlib@v1.23.6
-    PkgName: stdlib
-    PkgIdentifier:
-      PURL: pkg:golang/stdlib@v1.23.6
-      UID: a200578c56ec45c2
-    InstalledVersion: v1.23.6
-    FixedVersion: 1.23.10, 1.24.4
-    Status: fixed
-    Layer:
-      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
-      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-0913
-    DataSource:
-      ID: govulndb
-      Name: The Go Vulnerability Database
-      URL: https://pkg.go.dev/vuln/
-    Title: Inconsistent handling of O_CREATE|O_EXCL on Unix and Windows in os in syscall
-    Description: os.OpenFile(path, os.O_CREATE|O_EXCL) behaved differently on Unix and Windows systems when the target path was a dangling symlink. On Unix systems, OpenFile with O_CREATE and O_EXCL flags never follows symlinks. On Windows, when the target path was a symlink to a nonexistent location, OpenFile would create a file in that location. OpenFile now always returns an error when the O_CREATE and O_EXCL flags are both set and the target path is a symlink.
-    Severity: UNKNOWN
-    References:
-    - https://go.dev/cl/672396
-    - https://go.dev/issue/73702
-    - https://groups.google.com/g/golang-announce/c/ufZ8WpEsA3A
-    - https://pkg.go.dev/vuln/GO-2025-3750
-  - VulnerabilityID: CVE-2025-22874
-    PkgID: stdlib@v1.23.6
-    PkgName: stdlib
-    PkgIdentifier:
-      PURL: pkg:golang/stdlib@v1.23.6
-      UID: a200578c56ec45c2
-    InstalledVersion: v1.23.6
-    FixedVersion: 1.23.10, 1.24.4
-    Status: fixed
-    Layer:
-      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
-      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-22874
-    DataSource:
-      ID: govulndb
-      Name: The Go Vulnerability Database
-      URL: https://pkg.go.dev/vuln/
-    Title: Calling Verify with a VerifyOptions.KeyUsages that contains ExtKeyUsag ...
-    Description: Calling Verify with a VerifyOptions.KeyUsages that contains ExtKeyUsageAny unintentionally disabledpolicy validation. This only affected certificate chains which contain policy graphs, which are rather uncommon.
-    Severity: UNKNOWN
-    References:
-    - https://go.dev/cl/670375
-    - https://go.dev/issue/73612
-    - https://groups.google.com/g/golang-announce/c/ufZ8WpEsA3A
-    - https://pkg.go.dev/vuln/GO-2025-3749
-    PublishedDate: '2025-06-11T17:15:42.167Z'
-    LastModifiedDate: '2025-06-11T17:15:42.167Z'
+    LastModifiedDate: '2025-06-12T16:06:20.18Z'
 - Target: usr/bin/mc
   Class: lang-pkgs
   Type: gobinary
@@ -7126,6 +7954,7 @@
     - https://linux.oracle.com/cve/CVE-2025-30204.html
     - https://linux.oracle.com/errata/ELSA-2025-7967.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-30204
+    - https://pkg.go.dev/vuln/GO-2025-3553
     - https://security.netapp.com/advisory/ntap-20250404-0002
     - https://security.netapp.com/advisory/ntap-20250404-0002/
     - https://www.cve.org/CVERecord?id=CVE-2025-30204
@@ -7175,6 +8004,81 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-22872
     PublishedDate: '2025-04-16T18:16:04.183Z'
     LastModifiedDate: '2025-05-16T23:15:19.707Z'
+  - VulnerabilityID: CVE-2025-22874
+    PkgID: stdlib@v1.24.1
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@v1.24.1
+      UID: c1deb7c604869ef9
+    InstalledVersion: v1.24.1
+    FixedVersion: 1.24.4
+    Status: fixed
+    Layer:
+      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
+      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-22874
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: 'crypto/x509: Usage of ExtKeyUsageAny disables policy validation in crypto/x509'
+    Description: Calling Verify with a VerifyOptions.KeyUsages that contains ExtKeyUsageAny unintentionally disabledpolicy validation. This only affected certificate chains which contain policy graphs, which are rather uncommon.
+    Severity: HIGH
+    VendorSeverity:
+      amazon: 2
+      bitnami: 3
+      redhat: 3
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N
+        V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-22874
+    - https://go.dev/cl/670375
+    - https://go.dev/issue/73612
+    - https://groups.google.com/g/golang-announce/c/ufZ8WpEsA3A
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-22874
+    - https://pkg.go.dev/vuln/GO-2025-3749
+    - https://www.cve.org/CVERecord?id=CVE-2025-22874
+    PublishedDate: '2025-06-11T17:15:42.167Z'
+    LastModifiedDate: '2025-06-12T16:06:20.18Z'
+  - VulnerabilityID: CVE-2025-0913
+    PkgID: stdlib@v1.24.1
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@v1.24.1
+      UID: c1deb7c604869ef9
+    InstalledVersion: v1.24.1
+    FixedVersion: 1.23.10, 1.24.4
+    Status: fixed
+    Layer:
+      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
+      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-0913
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: Inconsistent handling of O_CREATE|O_EXCL on Unix and Windows in os in syscall
+    Description: os.OpenFile(path, os.O_CREATE|O_EXCL) behaved differently on Unix and Windows systems when the target path was a dangling symlink. On Unix systems, OpenFile with O_CREATE and O_EXCL flags never follows symlinks. On Windows, when the target path was a symlink to a nonexistent location, OpenFile would create a file in that location. OpenFile now always returns an error when the O_CREATE and O_EXCL flags are both set and the target path is a symlink.
+    Severity: MEDIUM
+    VendorSeverity:
+      bitnami: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N
+        V3Score: 5.5
+    References:
+    - https://go.dev/cl/672396
+    - https://go.dev/issue/73702
+    - https://groups.google.com/g/golang-announce/c/ufZ8WpEsA3A
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-0913
+    - https://pkg.go.dev/vuln/GO-2025-3750
+    PublishedDate: '2025-06-11T18:15:24.627Z'
+    LastModifiedDate: '2025-06-12T16:06:20.18Z'
   - VulnerabilityID: CVE-2025-22871
     PkgID: stdlib@v1.24.1
     PkgName: stdlib
@@ -7211,15 +8115,15 @@
         V3Score: 5.4
     References:
     - http://www.openwall.com/lists/oss-security/2025/04/04/4
-    - https://access.redhat.com/errata/RHSA-2025:8476
+    - https://access.redhat.com/errata/RHSA-2025:9150
     - https://access.redhat.com/security/cve/CVE-2025-22871
     - https://bugzilla.redhat.com/2358493
-    - https://errata.almalinux.org/9/ALSA-2025-8476.html
+    - https://errata.almalinux.org/9/ALSA-2025-9150.html
     - https://go.dev/cl/652998
     - https://go.dev/issue/71988
     - https://groups.google.com/g/golang-announce/c/Y2uBTVKjBQk
     - https://linux.oracle.com/cve/CVE-2025-22871.html
-    - https://linux.oracle.com/errata/ELSA-2025-8682.html
+    - https://linux.oracle.com/errata/ELSA-2025-9845.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-22871
     - https://pkg.go.dev/vuln/GO-2025-3563
     - https://www.cve.org/CVERecord?id=CVE-2025-22871
@@ -7242,71 +8146,32 @@
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
-    Title: Proxy-Authorization and Proxy-Authenticate headers persisted on cross- ...
+    Title: 'net/http: Sensitive headers not cleared on cross-origin redirect in net/http'
     Description: Proxy-Authorization and Proxy-Authenticate headers persisted on cross-origin redirects potentially leaking sensitive information.
     Severity: MEDIUM
     VendorSeverity:
+      amazon: 2
+      bitnami: 2
+      redhat: 2
       ubuntu: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:N/A:N
+        V3Score: 6.8
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:N/A:N
+        V3Score: 6.8
     References:
+    - https://access.redhat.com/security/cve/CVE-2025-4673
     - https://go.dev/cl/679257
     - https://go.dev/issue/73816
     - https://groups.google.com/g/golang-announce/c/ufZ8WpEsA3A
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-4673
     - https://pkg.go.dev/vuln/GO-2025-3751
+    - https://ubuntu.com/security/notices/USN-7574-1
     - https://www.cve.org/CVERecord?id=CVE-2025-4673
     PublishedDate: '2025-06-11T17:15:42.993Z'
-    LastModifiedDate: '2025-06-11T17:15:42.993Z'
-  - VulnerabilityID: CVE-2025-0913
-    PkgID: stdlib@v1.24.1
-    PkgName: stdlib
-    PkgIdentifier:
-      PURL: pkg:golang/stdlib@v1.24.1
-      UID: c1deb7c604869ef9
-    InstalledVersion: v1.24.1
-    FixedVersion: 1.23.10, 1.24.4
-    Status: fixed
-    Layer:
-      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
-      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-0913
-    DataSource:
-      ID: govulndb
-      Name: The Go Vulnerability Database
-      URL: https://pkg.go.dev/vuln/
-    Title: Inconsistent handling of O_CREATE|O_EXCL on Unix and Windows in os in syscall
-    Description: os.OpenFile(path, os.O_CREATE|O_EXCL) behaved differently on Unix and Windows systems when the target path was a dangling symlink. On Unix systems, OpenFile with O_CREATE and O_EXCL flags never follows symlinks. On Windows, when the target path was a symlink to a nonexistent location, OpenFile would create a file in that location. OpenFile now always returns an error when the O_CREATE and O_EXCL flags are both set and the target path is a symlink.
-    Severity: UNKNOWN
-    References:
-    - https://go.dev/cl/672396
-    - https://go.dev/issue/73702
-    - https://groups.google.com/g/golang-announce/c/ufZ8WpEsA3A
-    - https://pkg.go.dev/vuln/GO-2025-3750
-  - VulnerabilityID: CVE-2025-22874
-    PkgID: stdlib@v1.24.1
-    PkgName: stdlib
-    PkgIdentifier:
-      PURL: pkg:golang/stdlib@v1.24.1
-      UID: c1deb7c604869ef9
-    InstalledVersion: v1.24.1
-    FixedVersion: 1.23.10, 1.24.4
-    Status: fixed
-    Layer:
-      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
-      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-22874
-    DataSource:
-      ID: govulndb
-      Name: The Go Vulnerability Database
-      URL: https://pkg.go.dev/vuln/
-    Title: Calling Verify with a VerifyOptions.KeyUsages that contains ExtKeyUsag ...
-    Description: Calling Verify with a VerifyOptions.KeyUsages that contains ExtKeyUsageAny unintentionally disabledpolicy validation. This only affected certificate chains which contain policy graphs, which are rather uncommon.
-    Severity: UNKNOWN
-    References:
-    - https://go.dev/cl/670375
-    - https://go.dev/issue/73612
-    - https://groups.google.com/g/golang-announce/c/ufZ8WpEsA3A
-    - https://pkg.go.dev/vuln/GO-2025-3749
-    PublishedDate: '2025-06-11T17:15:42.167Z'
-    LastModifiedDate: '2025-06-11T17:15:42.167Z'
+    LastModifiedDate: '2025-06-12T16:06:20.18Z'
 - Target: usr/local/bin/k3d
   Class: lang-pkgs
   Type: gobinary
@@ -7591,6 +8456,7 @@
     - https://pkg.go.dev/vuln/GO-2025-3503
     - https://security.netapp.com/advisory/ntap-20250509-0007
     - https://security.netapp.com/advisory/ntap-20250509-0007/
+    - https://ubuntu.com/security/notices/USN-7574-1
     - https://www.cve.org/CVERecord?id=CVE-2025-22870
     PublishedDate: '2025-03-12T19:15:38.31Z'
     LastModifiedDate: '2025-05-09T20:15:38.727Z'
@@ -7675,6 +8541,40 @@
     - https://github.com/grpc/grpc-go/security/advisories/GHSA-xr7q-jx4m-x55m
     PublishedDate: '2024-07-05T20:07:01Z'
     LastModifiedDate: '2024-07-09T21:38:29Z'
+  - VulnerabilityID: CVE-2025-0913
+    PkgID: stdlib@v1.22.12
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@v1.22.12
+      UID: 156a2e832bd2e3cc
+    InstalledVersion: v1.22.12
+    FixedVersion: 1.23.10, 1.24.4
+    Status: fixed
+    Layer:
+      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
+      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-0913
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: Inconsistent handling of O_CREATE|O_EXCL on Unix and Windows in os in syscall
+    Description: os.OpenFile(path, os.O_CREATE|O_EXCL) behaved differently on Unix and Windows systems when the target path was a dangling symlink. On Unix systems, OpenFile with O_CREATE and O_EXCL flags never follows symlinks. On Windows, when the target path was a symlink to a nonexistent location, OpenFile would create a file in that location. OpenFile now always returns an error when the O_CREATE and O_EXCL flags are both set and the target path is a symlink.
+    Severity: MEDIUM
+    VendorSeverity:
+      bitnami: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N
+        V3Score: 5.5
+    References:
+    - https://go.dev/cl/672396
+    - https://go.dev/issue/73702
+    - https://groups.google.com/g/golang-announce/c/ufZ8WpEsA3A
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-0913
+    - https://pkg.go.dev/vuln/GO-2025-3750
+    PublishedDate: '2025-06-11T18:15:24.627Z'
+    LastModifiedDate: '2025-06-12T16:06:20.18Z'
   - VulnerabilityID: CVE-2025-22871
     PkgID: stdlib@v1.22.12
     PkgName: stdlib
@@ -7711,15 +8611,15 @@
         V3Score: 5.4
     References:
     - http://www.openwall.com/lists/oss-security/2025/04/04/4
-    - https://access.redhat.com/errata/RHSA-2025:8476
+    - https://access.redhat.com/errata/RHSA-2025:9150
     - https://access.redhat.com/security/cve/CVE-2025-22871
     - https://bugzilla.redhat.com/2358493
-    - https://errata.almalinux.org/9/ALSA-2025-8476.html
+    - https://errata.almalinux.org/9/ALSA-2025-9150.html
     - https://go.dev/cl/652998
     - https://go.dev/issue/71988
     - https://groups.google.com/g/golang-announce/c/Y2uBTVKjBQk
     - https://linux.oracle.com/cve/CVE-2025-22871.html
-    - https://linux.oracle.com/errata/ELSA-2025-8682.html
+    - https://linux.oracle.com/errata/ELSA-2025-9845.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-22871
     - https://pkg.go.dev/vuln/GO-2025-3563
     - https://www.cve.org/CVERecord?id=CVE-2025-22871
@@ -7742,71 +8642,32 @@
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
-    Title: Proxy-Authorization and Proxy-Authenticate headers persisted on cross- ...
+    Title: 'net/http: Sensitive headers not cleared on cross-origin redirect in net/http'
     Description: Proxy-Authorization and Proxy-Authenticate headers persisted on cross-origin redirects potentially leaking sensitive information.
     Severity: MEDIUM
     VendorSeverity:
+      amazon: 2
+      bitnami: 2
+      redhat: 2
       ubuntu: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:N/A:N
+        V3Score: 6.8
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:N/A:N
+        V3Score: 6.8
     References:
+    - https://access.redhat.com/security/cve/CVE-2025-4673
     - https://go.dev/cl/679257
     - https://go.dev/issue/73816
     - https://groups.google.com/g/golang-announce/c/ufZ8WpEsA3A
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-4673
     - https://pkg.go.dev/vuln/GO-2025-3751
+    - https://ubuntu.com/security/notices/USN-7574-1
     - https://www.cve.org/CVERecord?id=CVE-2025-4673
     PublishedDate: '2025-06-11T17:15:42.993Z'
-    LastModifiedDate: '2025-06-11T17:15:42.993Z'
-  - VulnerabilityID: CVE-2025-0913
-    PkgID: stdlib@v1.22.12
-    PkgName: stdlib
-    PkgIdentifier:
-      PURL: pkg:golang/stdlib@v1.22.12
-      UID: 156a2e832bd2e3cc
-    InstalledVersion: v1.22.12
-    FixedVersion: 1.23.10, 1.24.4
-    Status: fixed
-    Layer:
-      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
-      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-0913
-    DataSource:
-      ID: govulndb
-      Name: The Go Vulnerability Database
-      URL: https://pkg.go.dev/vuln/
-    Title: Inconsistent handling of O_CREATE|O_EXCL on Unix and Windows in os in syscall
-    Description: os.OpenFile(path, os.O_CREATE|O_EXCL) behaved differently on Unix and Windows systems when the target path was a dangling symlink. On Unix systems, OpenFile with O_CREATE and O_EXCL flags never follows symlinks. On Windows, when the target path was a symlink to a nonexistent location, OpenFile would create a file in that location. OpenFile now always returns an error when the O_CREATE and O_EXCL flags are both set and the target path is a symlink.
-    Severity: UNKNOWN
-    References:
-    - https://go.dev/cl/672396
-    - https://go.dev/issue/73702
-    - https://groups.google.com/g/golang-announce/c/ufZ8WpEsA3A
-    - https://pkg.go.dev/vuln/GO-2025-3750
-  - VulnerabilityID: CVE-2025-22874
-    PkgID: stdlib@v1.22.12
-    PkgName: stdlib
-    PkgIdentifier:
-      PURL: pkg:golang/stdlib@v1.22.12
-      UID: 156a2e832bd2e3cc
-    InstalledVersion: v1.22.12
-    FixedVersion: 1.23.10, 1.24.4
-    Status: fixed
-    Layer:
-      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
-      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-22874
-    DataSource:
-      ID: govulndb
-      Name: The Go Vulnerability Database
-      URL: https://pkg.go.dev/vuln/
-    Title: Calling Verify with a VerifyOptions.KeyUsages that contains ExtKeyUsag ...
-    Description: Calling Verify with a VerifyOptions.KeyUsages that contains ExtKeyUsageAny unintentionally disabledpolicy validation. This only affected certificate chains which contain policy graphs, which are rather uncommon.
-    Severity: UNKNOWN
-    References:
-    - https://go.dev/cl/670375
-    - https://go.dev/issue/73612
-    - https://groups.google.com/g/golang-announce/c/ufZ8WpEsA3A
-    - https://pkg.go.dev/vuln/GO-2025-3749
-    PublishedDate: '2025-06-11T17:15:42.167Z'
-    LastModifiedDate: '2025-06-11T17:15:42.167Z'
+    LastModifiedDate: '2025-06-12T16:06:20.18Z'
 - Target: /etc/ssh/ssh_host_dsa_key
   Class: secret
   Secrets:
