@@ -139,7 +139,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2213166
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-34969
     - https://errata.almalinux.org/9/ALSA-2023-4569.html
-    - https://errata.rockylinux.org/RLSA-2023:4498
+    - https://errata.rockylinux.org/RLSA-2023:4569
     - https://gitlab.freedesktop.org/dbus/dbus/-/issues/457
     - https://linux.oracle.com/cve/CVE-2023-34969.html
     - https://linux.oracle.com/errata/ELSA-2023-4569.html
@@ -197,7 +197,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2213166
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-34969
     - https://errata.almalinux.org/9/ALSA-2023-4569.html
-    - https://errata.rockylinux.org/RLSA-2023:4498
+    - https://errata.rockylinux.org/RLSA-2023:4569
     - https://gitlab.freedesktop.org/dbus/dbus/-/issues/457
     - https://linux.oracle.com/cve/CVE-2023-34969.html
     - https://linux.oracle.com/errata/ELSA-2023-4569.html
@@ -1795,7 +1795,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2213166
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-34969
     - https://errata.almalinux.org/9/ALSA-2023-4569.html
-    - https://errata.rockylinux.org/RLSA-2023:4498
+    - https://errata.rockylinux.org/RLSA-2023:4569
     - https://gitlab.freedesktop.org/dbus/dbus/-/issues/457
     - https://linux.oracle.com/cve/CVE-2023-34969.html
     - https://linux.oracle.com/errata/ELSA-2023-4569.html
@@ -2335,10 +2335,11 @@
         V3Score: 5.9
     References:
     - https://access.redhat.com/errata/RHSA-2025:8411
+    - https://access.redhat.com/errata/RHSA-2025:9430
     - https://access.redhat.com/security/cve/CVE-2025-3576
     - https://bugzilla.redhat.com/2359465
     - https://bugzilla.redhat.com/show_bug.cgi?id=2359465
-    - https://errata.almalinux.org/8/ALSA-2025-8411.html
+    - https://errata.almalinux.org/9/ALSA-2025-9430.html
     - https://linux.oracle.com/cve/CVE-2025-3576.html
     - https://linux.oracle.com/errata/ELSA-2025-9430.html
     - https://lists.debian.org/debian-lts-announce/2025/05/msg00047.html
@@ -2418,10 +2419,11 @@
         V3Score: 5.9
     References:
     - https://access.redhat.com/errata/RHSA-2025:8411
+    - https://access.redhat.com/errata/RHSA-2025:9430
     - https://access.redhat.com/security/cve/CVE-2025-3576
     - https://bugzilla.redhat.com/2359465
     - https://bugzilla.redhat.com/show_bug.cgi?id=2359465
-    - https://errata.almalinux.org/8/ALSA-2025-8411.html
+    - https://errata.almalinux.org/9/ALSA-2025-9430.html
     - https://linux.oracle.com/cve/CVE-2025-3576.html
     - https://linux.oracle.com/errata/ELSA-2025-9430.html
     - https://lists.debian.org/debian-lts-announce/2025/05/msg00047.html
@@ -2464,10 +2466,11 @@
         V3Score: 5.9
     References:
     - https://access.redhat.com/errata/RHSA-2025:8411
+    - https://access.redhat.com/errata/RHSA-2025:9430
     - https://access.redhat.com/security/cve/CVE-2025-3576
     - https://bugzilla.redhat.com/2359465
     - https://bugzilla.redhat.com/show_bug.cgi?id=2359465
-    - https://errata.almalinux.org/8/ALSA-2025-8411.html
+    - https://errata.almalinux.org/9/ALSA-2025-9430.html
     - https://linux.oracle.com/cve/CVE-2025-3576.html
     - https://linux.oracle.com/errata/ELSA-2025-9430.html
     - https://lists.debian.org/debian-lts-announce/2025/05/msg00047.html
@@ -2510,10 +2513,11 @@
         V3Score: 5.9
     References:
     - https://access.redhat.com/errata/RHSA-2025:8411
+    - https://access.redhat.com/errata/RHSA-2025:9430
     - https://access.redhat.com/security/cve/CVE-2025-3576
     - https://bugzilla.redhat.com/2359465
     - https://bugzilla.redhat.com/show_bug.cgi?id=2359465
-    - https://errata.almalinux.org/8/ALSA-2025-8411.html
+    - https://errata.almalinux.org/9/ALSA-2025-9430.html
     - https://linux.oracle.com/cve/CVE-2025-3576.html
     - https://linux.oracle.com/errata/ELSA-2025-9430.html
     - https://lists.debian.org/debian-lts-announce/2025/05/msg00047.html
@@ -2522,42 +2526,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-3576
     PublishedDate: '2025-04-15T06:15:44.047Z'
     LastModifiedDate: '2025-06-03T03:15:27.32Z'
-  - VulnerabilityID: CVE-2023-45918
-    PkgID: libncurses6@6.3-2ubuntu0.1
-    PkgName: libncurses6
-    PkgIdentifier:
-      PURL: pkg:deb/ubuntu/libncurses6@6.3-2ubuntu0.1?arch=amd64&distro=ubuntu-22.04
-      UID: 84b5619bafb0f63f
-    InstalledVersion: 6.3-2ubuntu0.1
-    Status: affected
-    Layer:
-      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
-      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-45918
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'ncurses: NULL pointer dereference in tgetstr in tinfo/lib_termcap.c'
-    Description: 'Rejected reason: DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that it was not a security issue. Notes: none.'
-    Severity: LOW
-    VendorSeverity:
-      amazon: 2
-      redhat: 1
-      ubuntu: 1
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:L
-        V3Score: 3.3
-    References:
-    - https://access.redhat.com/security/cve/CVE-2023-45918
-    - https://lists.gnu.org/archive/html/bug-ncurses/2023-06/msg00005.html
-    - https://nvd.nist.gov/vuln/detail/CVE-2023-45918
-    - https://security.netapp.com/advisory/ntap-20240315-0006/
-    - https://www.cve.org/CVERecord?id=CVE-2023-45918
-    PublishedDate: '2024-02-16T22:15:07.88Z'
-    LastModifiedDate: '2024-11-21T21:15:10.63Z'
   - VulnerabilityID: CVE-2023-50495
     PkgID: libncurses6@6.3-2ubuntu0.1
     PkgName: libncurses6
@@ -2602,42 +2570,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-50495
     PublishedDate: '2023-12-12T15:15:07.867Z'
     LastModifiedDate: '2024-11-21T08:37:04.243Z'
-  - VulnerabilityID: CVE-2023-45918
-    PkgID: libncursesw6@6.3-2ubuntu0.1
-    PkgName: libncursesw6
-    PkgIdentifier:
-      PURL: pkg:deb/ubuntu/libncursesw6@6.3-2ubuntu0.1?arch=amd64&distro=ubuntu-22.04
-      UID: 6656d7adc6e6118b
-    InstalledVersion: 6.3-2ubuntu0.1
-    Status: affected
-    Layer:
-      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
-      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-45918
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'ncurses: NULL pointer dereference in tgetstr in tinfo/lib_termcap.c'
-    Description: 'Rejected reason: DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that it was not a security issue. Notes: none.'
-    Severity: LOW
-    VendorSeverity:
-      amazon: 2
-      redhat: 1
-      ubuntu: 1
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:L
-        V3Score: 3.3
-    References:
-    - https://access.redhat.com/security/cve/CVE-2023-45918
-    - https://lists.gnu.org/archive/html/bug-ncurses/2023-06/msg00005.html
-    - https://nvd.nist.gov/vuln/detail/CVE-2023-45918
-    - https://security.netapp.com/advisory/ntap-20240315-0006/
-    - https://www.cve.org/CVERecord?id=CVE-2023-45918
-    PublishedDate: '2024-02-16T22:15:07.88Z'
-    LastModifiedDate: '2024-11-21T21:15:10.63Z'
   - VulnerabilityID: CVE-2023-50495
     PkgID: libncursesw6@6.3-2ubuntu0.1
     PkgName: libncursesw6
@@ -2788,7 +2720,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222672
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-7008
     - https://errata.almalinux.org/9/ALSA-2024-2463.html
-    - https://errata.rockylinux.org/RLSA-2024:3203
+    - https://errata.rockylinux.org/RLSA-2024:2463
     - https://github.com/systemd/systemd/issues/25676
     - https://linux.oracle.com/cve/CVE-2023-7008.html
     - https://linux.oracle.com/errata/ELSA-2024-3203.html
@@ -2875,6 +2807,7 @@
     CweIDs:
     - CWE-22
     VendorSeverity:
+      alma: 3
       oracle-oval: 3
       redhat: 3
       ubuntu: 2
@@ -2884,8 +2817,11 @@
         V3Score: 7.8
     References:
     - http://www.openwall.com/lists/oss-security/2025/06/17/1
+    - https://access.redhat.com/errata/RHSA-2025:9526
     - https://access.redhat.com/security/cve/CVE-2025-6020
+    - https://bugzilla.redhat.com/2372512
     - https://bugzilla.redhat.com/show_bug.cgi?id=2372512
+    - https://errata.almalinux.org/9/ALSA-2025-9526.html
     - https://linux.oracle.com/cve/CVE-2025-6020.html
     - https://linux.oracle.com/errata/ELSA-2025-9526.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-6020
@@ -2970,6 +2906,7 @@
     CweIDs:
     - CWE-22
     VendorSeverity:
+      alma: 3
       oracle-oval: 3
       redhat: 3
       ubuntu: 2
@@ -2979,8 +2916,11 @@
         V3Score: 7.8
     References:
     - http://www.openwall.com/lists/oss-security/2025/06/17/1
+    - https://access.redhat.com/errata/RHSA-2025:9526
     - https://access.redhat.com/security/cve/CVE-2025-6020
+    - https://bugzilla.redhat.com/2372512
     - https://bugzilla.redhat.com/show_bug.cgi?id=2372512
+    - https://errata.almalinux.org/9/ALSA-2025-9526.html
     - https://linux.oracle.com/cve/CVE-2025-6020.html
     - https://linux.oracle.com/errata/ELSA-2025-9526.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-6020
@@ -3065,6 +3005,7 @@
     CweIDs:
     - CWE-22
     VendorSeverity:
+      alma: 3
       oracle-oval: 3
       redhat: 3
       ubuntu: 2
@@ -3074,8 +3015,11 @@
         V3Score: 7.8
     References:
     - http://www.openwall.com/lists/oss-security/2025/06/17/1
+    - https://access.redhat.com/errata/RHSA-2025:9526
     - https://access.redhat.com/security/cve/CVE-2025-6020
+    - https://bugzilla.redhat.com/2372512
     - https://bugzilla.redhat.com/show_bug.cgi?id=2372512
+    - https://errata.almalinux.org/9/ALSA-2025-9526.html
     - https://linux.oracle.com/cve/CVE-2025-6020.html
     - https://linux.oracle.com/errata/ELSA-2025-9526.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-6020
@@ -3190,7 +3134,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222672
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-7008
     - https://errata.almalinux.org/9/ALSA-2024-2463.html
-    - https://errata.rockylinux.org/RLSA-2024:3203
+    - https://errata.rockylinux.org/RLSA-2024:2463
     - https://github.com/systemd/systemd/issues/25676
     - https://linux.oracle.com/cve/CVE-2023-7008.html
     - https://linux.oracle.com/errata/ELSA-2024-3203.html
@@ -3277,6 +3221,7 @@
     CweIDs:
     - CWE-22
     VendorSeverity:
+      alma: 3
       oracle-oval: 3
       redhat: 3
       ubuntu: 2
@@ -3286,8 +3231,11 @@
         V3Score: 7.8
     References:
     - http://www.openwall.com/lists/oss-security/2025/06/17/1
+    - https://access.redhat.com/errata/RHSA-2025:9526
     - https://access.redhat.com/security/cve/CVE-2025-6020
+    - https://bugzilla.redhat.com/2372512
     - https://bugzilla.redhat.com/show_bug.cgi?id=2372512
+    - https://errata.almalinux.org/9/ALSA-2025-9526.html
     - https://linux.oracle.com/cve/CVE-2025-6020.html
     - https://linux.oracle.com/errata/ELSA-2025-9526.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-6020
@@ -3485,6 +3433,52 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-4516
     PublishedDate: '2025-05-15T14:15:31.753Z'
     LastModifiedDate: '2025-06-03T14:15:49.697Z'
+  - VulnerabilityID: CVE-2025-6069
+    PkgID: libpython3.10@3.10.12-1~22.04.9
+    PkgName: libpython3.10
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libpython3.10@3.10.12-1~22.04.9?arch=amd64&distro=ubuntu-22.04
+      UID: 9a3c8ae3e770caa8
+    InstalledVersion: 3.10.12-1~22.04.9
+    Status: affected
+    Layer:
+      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
+      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-6069
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'cpython: Python HTMLParser quadratic complexity'
+    Description: The html.parser.HTMLParser class had worse-case quadratic complexity when processing certain crafted malformed inputs potentially leading to amplified denial-of-service.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-1333
+    VendorSeverity:
+      bitnami: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 4.3
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 4.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-6069
+    - https://github.com/python/cpython/commit/4455cbabf991e202185a25a631af206f60bbc949
+    - https://github.com/python/cpython/commit/6eb6c5dbfb528bd07d77b60fd71fd05d81d45c41
+    - https://github.com/python/cpython/commit/6eb6c5dbfb528bd07d77b60fd71fd05d81d45c41 (main)
+    - https://github.com/python/cpython/commit/d851f8e258c7328814943e923a7df81bca15df4b
+    - https://github.com/python/cpython/issues/135462
+    - https://github.com/python/cpython/pull/135464
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/K5PIYLR6EP3WR7ZOKKYQUWEDNQVUXOYM/
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-6069
+    - https://www.cve.org/CVERecord?id=CVE-2025-6069
+    PublishedDate: '2025-06-17T14:15:33.677Z'
+    LastModifiedDate: '2025-06-17T20:50:23.507Z'
   - VulnerabilityID: CVE-2025-1795
     PkgID: libpython3.10@3.10.12-1~22.04.9
     PkgName: libpython3.10
@@ -3578,6 +3572,52 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-4516
     PublishedDate: '2025-05-15T14:15:31.753Z'
     LastModifiedDate: '2025-06-03T14:15:49.697Z'
+  - VulnerabilityID: CVE-2025-6069
+    PkgID: libpython3.10-minimal@3.10.12-1~22.04.9
+    PkgName: libpython3.10-minimal
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libpython3.10-minimal@3.10.12-1~22.04.9?arch=amd64&distro=ubuntu-22.04
+      UID: ac7e2049b6f5e129
+    InstalledVersion: 3.10.12-1~22.04.9
+    Status: affected
+    Layer:
+      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
+      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-6069
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'cpython: Python HTMLParser quadratic complexity'
+    Description: The html.parser.HTMLParser class had worse-case quadratic complexity when processing certain crafted malformed inputs potentially leading to amplified denial-of-service.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-1333
+    VendorSeverity:
+      bitnami: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 4.3
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 4.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-6069
+    - https://github.com/python/cpython/commit/4455cbabf991e202185a25a631af206f60bbc949
+    - https://github.com/python/cpython/commit/6eb6c5dbfb528bd07d77b60fd71fd05d81d45c41
+    - https://github.com/python/cpython/commit/6eb6c5dbfb528bd07d77b60fd71fd05d81d45c41 (main)
+    - https://github.com/python/cpython/commit/d851f8e258c7328814943e923a7df81bca15df4b
+    - https://github.com/python/cpython/issues/135462
+    - https://github.com/python/cpython/pull/135464
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/K5PIYLR6EP3WR7ZOKKYQUWEDNQVUXOYM/
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-6069
+    - https://www.cve.org/CVERecord?id=CVE-2025-6069
+    PublishedDate: '2025-06-17T14:15:33.677Z'
+    LastModifiedDate: '2025-06-17T20:50:23.507Z'
   - VulnerabilityID: CVE-2025-1795
     PkgID: libpython3.10-minimal@3.10.12-1~22.04.9
     PkgName: libpython3.10-minimal
@@ -3671,6 +3711,52 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-4516
     PublishedDate: '2025-05-15T14:15:31.753Z'
     LastModifiedDate: '2025-06-03T14:15:49.697Z'
+  - VulnerabilityID: CVE-2025-6069
+    PkgID: libpython3.10-stdlib@3.10.12-1~22.04.9
+    PkgName: libpython3.10-stdlib
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libpython3.10-stdlib@3.10.12-1~22.04.9?arch=amd64&distro=ubuntu-22.04
+      UID: 5a7bfb745809d438
+    InstalledVersion: 3.10.12-1~22.04.9
+    Status: affected
+    Layer:
+      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
+      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-6069
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'cpython: Python HTMLParser quadratic complexity'
+    Description: The html.parser.HTMLParser class had worse-case quadratic complexity when processing certain crafted malformed inputs potentially leading to amplified denial-of-service.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-1333
+    VendorSeverity:
+      bitnami: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 4.3
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 4.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-6069
+    - https://github.com/python/cpython/commit/4455cbabf991e202185a25a631af206f60bbc949
+    - https://github.com/python/cpython/commit/6eb6c5dbfb528bd07d77b60fd71fd05d81d45c41
+    - https://github.com/python/cpython/commit/6eb6c5dbfb528bd07d77b60fd71fd05d81d45c41 (main)
+    - https://github.com/python/cpython/commit/d851f8e258c7328814943e923a7df81bca15df4b
+    - https://github.com/python/cpython/issues/135462
+    - https://github.com/python/cpython/pull/135464
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/K5PIYLR6EP3WR7ZOKKYQUWEDNQVUXOYM/
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-6069
+    - https://www.cve.org/CVERecord?id=CVE-2025-6069
+    PublishedDate: '2025-06-17T14:15:33.677Z'
+    LastModifiedDate: '2025-06-17T20:50:23.507Z'
   - VulnerabilityID: CVE-2025-1795
     PkgID: libpython3.10-stdlib@3.10.12-1~22.04.9
     PkgName: libpython3.10-stdlib
@@ -4025,7 +4111,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222672
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-7008
     - https://errata.almalinux.org/9/ALSA-2024-2463.html
-    - https://errata.rockylinux.org/RLSA-2024:3203
+    - https://errata.rockylinux.org/RLSA-2024:2463
     - https://github.com/systemd/systemd/issues/25676
     - https://linux.oracle.com/cve/CVE-2023-7008.html
     - https://linux.oracle.com/errata/ELSA-2024-3203.html
@@ -4036,42 +4122,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-7008
     PublishedDate: '2023-12-23T13:15:07.573Z'
     LastModifiedDate: '2024-11-22T12:15:17.59Z'
-  - VulnerabilityID: CVE-2023-45918
-    PkgID: libtinfo6@6.3-2ubuntu0.1
-    PkgName: libtinfo6
-    PkgIdentifier:
-      PURL: pkg:deb/ubuntu/libtinfo6@6.3-2ubuntu0.1?arch=amd64&distro=ubuntu-22.04
-      UID: b826dcc6ba5b7b22
-    InstalledVersion: 6.3-2ubuntu0.1
-    Status: affected
-    Layer:
-      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
-      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-45918
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'ncurses: NULL pointer dereference in tgetstr in tinfo/lib_termcap.c'
-    Description: 'Rejected reason: DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that it was not a security issue. Notes: none.'
-    Severity: LOW
-    VendorSeverity:
-      amazon: 2
-      redhat: 1
-      ubuntu: 1
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:L
-        V3Score: 3.3
-    References:
-    - https://access.redhat.com/security/cve/CVE-2023-45918
-    - https://lists.gnu.org/archive/html/bug-ncurses/2023-06/msg00005.html
-    - https://nvd.nist.gov/vuln/detail/CVE-2023-45918
-    - https://security.netapp.com/advisory/ntap-20240315-0006/
-    - https://www.cve.org/CVERecord?id=CVE-2023-45918
-    PublishedDate: '2024-02-16T22:15:07.88Z'
-    LastModifiedDate: '2024-11-21T21:15:10.63Z'
   - VulnerabilityID: CVE-2023-50495
     PkgID: libtinfo6@6.3-2ubuntu0.1
     PkgName: libtinfo6
@@ -4222,7 +4272,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222672
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-7008
     - https://errata.almalinux.org/9/ALSA-2024-2463.html
-    - https://errata.rockylinux.org/RLSA-2024:3203
+    - https://errata.rockylinux.org/RLSA-2024:2463
     - https://github.com/systemd/systemd/issues/25676
     - https://linux.oracle.com/cve/CVE-2023-7008.html
     - https://linux.oracle.com/errata/ELSA-2024-3203.html
@@ -4258,6 +4308,7 @@
     - CWE-393
     - CWE-252
     VendorSeverity:
+      alma: 2
       amazon: 2
       azure: 2
       nvd: 3
@@ -4273,7 +4324,10 @@
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:L/I:L/A:L
         V3Score: 5.6
     References:
+    - https://access.redhat.com/errata/RHSA-2025:8958
     - https://access.redhat.com/security/cve/CVE-2025-32414
+    - https://bugzilla.redhat.com/2358121
+    - https://errata.almalinux.org/8/ALSA-2025-8958.html
     - https://gitlab.gnome.org/GNOME/libxml2/-/issues/889
     - https://linux.oracle.com/cve/CVE-2025-32414.html
     - https://linux.oracle.com/errata/ELSA-2025-8958.html
@@ -4619,42 +4673,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-56433
     PublishedDate: '2024-12-26T09:15:07.267Z'
     LastModifiedDate: '2024-12-26T09:15:07.267Z'
-  - VulnerabilityID: CVE-2023-45918
-    PkgID: ncurses-base@6.3-2ubuntu0.1
-    PkgName: ncurses-base
-    PkgIdentifier:
-      PURL: pkg:deb/ubuntu/ncurses-base@6.3-2ubuntu0.1?arch=all&distro=ubuntu-22.04
-      UID: 97290053f00ee1f8
-    InstalledVersion: 6.3-2ubuntu0.1
-    Status: affected
-    Layer:
-      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
-      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-45918
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'ncurses: NULL pointer dereference in tgetstr in tinfo/lib_termcap.c'
-    Description: 'Rejected reason: DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that it was not a security issue. Notes: none.'
-    Severity: LOW
-    VendorSeverity:
-      amazon: 2
-      redhat: 1
-      ubuntu: 1
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:L
-        V3Score: 3.3
-    References:
-    - https://access.redhat.com/security/cve/CVE-2023-45918
-    - https://lists.gnu.org/archive/html/bug-ncurses/2023-06/msg00005.html
-    - https://nvd.nist.gov/vuln/detail/CVE-2023-45918
-    - https://security.netapp.com/advisory/ntap-20240315-0006/
-    - https://www.cve.org/CVERecord?id=CVE-2023-45918
-    PublishedDate: '2024-02-16T22:15:07.88Z'
-    LastModifiedDate: '2024-11-21T21:15:10.63Z'
   - VulnerabilityID: CVE-2023-50495
     PkgID: ncurses-base@6.3-2ubuntu0.1
     PkgName: ncurses-base
@@ -4699,42 +4717,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-50495
     PublishedDate: '2023-12-12T15:15:07.867Z'
     LastModifiedDate: '2024-11-21T08:37:04.243Z'
-  - VulnerabilityID: CVE-2023-45918
-    PkgID: ncurses-bin@6.3-2ubuntu0.1
-    PkgName: ncurses-bin
-    PkgIdentifier:
-      PURL: pkg:deb/ubuntu/ncurses-bin@6.3-2ubuntu0.1?arch=amd64&distro=ubuntu-22.04
-      UID: 6d72e540ccb8f7f0
-    InstalledVersion: 6.3-2ubuntu0.1
-    Status: affected
-    Layer:
-      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
-      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-45918
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'ncurses: NULL pointer dereference in tgetstr in tinfo/lib_termcap.c'
-    Description: 'Rejected reason: DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that it was not a security issue. Notes: none.'
-    Severity: LOW
-    VendorSeverity:
-      amazon: 2
-      redhat: 1
-      ubuntu: 1
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:L
-        V3Score: 3.3
-    References:
-    - https://access.redhat.com/security/cve/CVE-2023-45918
-    - https://lists.gnu.org/archive/html/bug-ncurses/2023-06/msg00005.html
-    - https://nvd.nist.gov/vuln/detail/CVE-2023-45918
-    - https://security.netapp.com/advisory/ntap-20240315-0006/
-    - https://www.cve.org/CVERecord?id=CVE-2023-45918
-    PublishedDate: '2024-02-16T22:15:07.88Z'
-    LastModifiedDate: '2024-11-21T21:15:10.63Z'
   - VulnerabilityID: CVE-2023-50495
     PkgID: ncurses-bin@6.3-2ubuntu0.1
     PkgName: ncurses-bin
@@ -4779,42 +4761,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-50495
     PublishedDate: '2023-12-12T15:15:07.867Z'
     LastModifiedDate: '2024-11-21T08:37:04.243Z'
-  - VulnerabilityID: CVE-2023-45918
-    PkgID: ncurses-term@6.3-2ubuntu0.1
-    PkgName: ncurses-term
-    PkgIdentifier:
-      PURL: pkg:deb/ubuntu/ncurses-term@6.3-2ubuntu0.1?arch=all&distro=ubuntu-22.04
-      UID: 24f77879d5274538
-    InstalledVersion: 6.3-2ubuntu0.1
-    Status: affected
-    Layer:
-      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
-      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-45918
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'ncurses: NULL pointer dereference in tgetstr in tinfo/lib_termcap.c'
-    Description: 'Rejected reason: DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that it was not a security issue. Notes: none.'
-    Severity: LOW
-    VendorSeverity:
-      amazon: 2
-      redhat: 1
-      ubuntu: 1
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:L
-        V3Score: 3.3
-    References:
-    - https://access.redhat.com/security/cve/CVE-2023-45918
-    - https://lists.gnu.org/archive/html/bug-ncurses/2023-06/msg00005.html
-    - https://nvd.nist.gov/vuln/detail/CVE-2023-45918
-    - https://security.netapp.com/advisory/ntap-20240315-0006/
-    - https://www.cve.org/CVERecord?id=CVE-2023-45918
-    PublishedDate: '2024-02-16T22:15:07.88Z'
-    LastModifiedDate: '2024-11-21T21:15:10.63Z'
   - VulnerabilityID: CVE-2023-50495
     PkgID: ncurses-term@6.3-2ubuntu0.1
     PkgName: ncurses-term
@@ -5383,6 +5329,52 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-4516
     PublishedDate: '2025-05-15T14:15:31.753Z'
     LastModifiedDate: '2025-06-03T14:15:49.697Z'
+  - VulnerabilityID: CVE-2025-6069
+    PkgID: python3.10@3.10.12-1~22.04.9
+    PkgName: python3.10
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/python3.10@3.10.12-1~22.04.9?arch=amd64&distro=ubuntu-22.04
+      UID: bdcbaf56b203aeef
+    InstalledVersion: 3.10.12-1~22.04.9
+    Status: affected
+    Layer:
+      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
+      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-6069
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'cpython: Python HTMLParser quadratic complexity'
+    Description: The html.parser.HTMLParser class had worse-case quadratic complexity when processing certain crafted malformed inputs potentially leading to amplified denial-of-service.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-1333
+    VendorSeverity:
+      bitnami: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 4.3
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 4.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-6069
+    - https://github.com/python/cpython/commit/4455cbabf991e202185a25a631af206f60bbc949
+    - https://github.com/python/cpython/commit/6eb6c5dbfb528bd07d77b60fd71fd05d81d45c41
+    - https://github.com/python/cpython/commit/6eb6c5dbfb528bd07d77b60fd71fd05d81d45c41 (main)
+    - https://github.com/python/cpython/commit/d851f8e258c7328814943e923a7df81bca15df4b
+    - https://github.com/python/cpython/issues/135462
+    - https://github.com/python/cpython/pull/135464
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/K5PIYLR6EP3WR7ZOKKYQUWEDNQVUXOYM/
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-6069
+    - https://www.cve.org/CVERecord?id=CVE-2025-6069
+    PublishedDate: '2025-06-17T14:15:33.677Z'
+    LastModifiedDate: '2025-06-17T20:50:23.507Z'
   - VulnerabilityID: CVE-2025-1795
     PkgID: python3.10@3.10.12-1~22.04.9
     PkgName: python3.10
@@ -5476,6 +5468,52 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-4516
     PublishedDate: '2025-05-15T14:15:31.753Z'
     LastModifiedDate: '2025-06-03T14:15:49.697Z'
+  - VulnerabilityID: CVE-2025-6069
+    PkgID: python3.10-minimal@3.10.12-1~22.04.9
+    PkgName: python3.10-minimal
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/python3.10-minimal@3.10.12-1~22.04.9?arch=amd64&distro=ubuntu-22.04
+      UID: a8aa43901bc0aeed
+    InstalledVersion: 3.10.12-1~22.04.9
+    Status: affected
+    Layer:
+      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
+      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-6069
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'cpython: Python HTMLParser quadratic complexity'
+    Description: The html.parser.HTMLParser class had worse-case quadratic complexity when processing certain crafted malformed inputs potentially leading to amplified denial-of-service.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-1333
+    VendorSeverity:
+      bitnami: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 4.3
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 4.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-6069
+    - https://github.com/python/cpython/commit/4455cbabf991e202185a25a631af206f60bbc949
+    - https://github.com/python/cpython/commit/6eb6c5dbfb528bd07d77b60fd71fd05d81d45c41
+    - https://github.com/python/cpython/commit/6eb6c5dbfb528bd07d77b60fd71fd05d81d45c41 (main)
+    - https://github.com/python/cpython/commit/d851f8e258c7328814943e923a7df81bca15df4b
+    - https://github.com/python/cpython/issues/135462
+    - https://github.com/python/cpython/pull/135464
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/K5PIYLR6EP3WR7ZOKKYQUWEDNQVUXOYM/
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-6069
+    - https://www.cve.org/CVERecord?id=CVE-2025-6069
+    PublishedDate: '2025-06-17T14:15:33.677Z'
+    LastModifiedDate: '2025-06-17T20:50:23.507Z'
   - VulnerabilityID: CVE-2025-1795
     PkgID: python3.10-minimal@3.10.12-1~22.04.9
     PkgName: python3.10-minimal
@@ -5523,6 +5561,31 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-1795
     PublishedDate: '2025-02-28T19:15:36.55Z'
     LastModifiedDate: '2025-02-28T21:15:27.57Z'
+  - VulnerabilityID: CVE-2025-32462
+    PkgID: sudo@1.9.9-1ubuntu2.4
+    PkgName: sudo
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/sudo@1.9.9-1ubuntu2.4?arch=amd64&distro=ubuntu-22.04
+      UID: 881efb85b835ce28
+    InstalledVersion: 1.9.9-1ubuntu2.4
+    Status: affected
+    Layer:
+      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
+      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-32462
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: '[Local Privilege Escalation via host option]'
+    Description: Sudo's host (`-h` or `--host`) option is intended to be used in conjunction with the list option (`-l` or `--list`) to list a user's sudo privileges on a host other than the current one.  However, due to a bug it was not restricted to listing privileges and could be used when running a command via `sudo` or editing a file with `sudoedit`.  Depending on the rules present in the sudoers file this could allow a local privilege escalation attack. Sudo versions 1.8.8 to 1.9.17 inclusive are affected.
+    Severity: HIGH
+    VendorSeverity:
+      ubuntu: 3
+    References:
+    - https://www.cve.org/CVERecord?id=CVE-2025-32462
+    - https://www.sudo.ws/security/advisories/host_any/
   - VulnerabilityID: CVE-2025-4598
     PkgID: systemd@249.11-0ubuntu3.12
     PkgName: systemd
@@ -5629,7 +5692,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222672
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-7008
     - https://errata.almalinux.org/9/ALSA-2024-2463.html
-    - https://errata.rockylinux.org/RLSA-2024:3203
+    - https://errata.rockylinux.org/RLSA-2024:2463
     - https://github.com/systemd/systemd/issues/25676
     - https://linux.oracle.com/cve/CVE-2023-7008.html
     - https://linux.oracle.com/errata/ELSA-2024-3203.html
@@ -5746,7 +5809,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222672
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-7008
     - https://errata.almalinux.org/9/ALSA-2024-2463.html
-    - https://errata.rockylinux.org/RLSA-2024:3203
+    - https://errata.rockylinux.org/RLSA-2024:2463
     - https://github.com/systemd/systemd/issues/25676
     - https://linux.oracle.com/cve/CVE-2023-7008.html
     - https://linux.oracle.com/errata/ELSA-2024-3203.html
@@ -5863,7 +5926,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222672
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-7008
     - https://errata.almalinux.org/9/ALSA-2024-2463.html
-    - https://errata.rockylinux.org/RLSA-2024:3203
+    - https://errata.rockylinux.org/RLSA-2024:2463
     - https://github.com/systemd/systemd/issues/25676
     - https://linux.oracle.com/cve/CVE-2023-7008.html
     - https://linux.oracle.com/errata/ELSA-2024-3203.html
@@ -6310,7 +6373,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45290
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24783
     - https://errata.almalinux.org/9/ALSA-2024-2724.html
-    - https://errata.rockylinux.org/RLSA-2024:3346
+    - https://errata.rockylinux.org/RLSA-2024:2724
     - https://go.dev/cl/576155
     - https://go.dev/issue/65051
     - https://groups.google.com/g/golang-announce/c/YgW0sx8mN3M
@@ -6540,10 +6603,10 @@
         V3Score: 5.4
     References:
     - http://www.openwall.com/lists/oss-security/2025/04/04/4
-    - https://access.redhat.com/errata/RHSA-2025:9150
+    - https://access.redhat.com/errata/RHSA-2025:9635
     - https://access.redhat.com/security/cve/CVE-2025-22871
     - https://bugzilla.redhat.com/2358493
-    - https://errata.almalinux.org/9/ALSA-2025-9150.html
+    - https://errata.almalinux.org/9/ALSA-2025-9635.html
     - https://go.dev/cl/652998
     - https://go.dev/issue/71988
     - https://groups.google.com/g/golang-announce/c/Y2uBTVKjBQk
@@ -6662,7 +6725,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45290
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24783
     - https://errata.almalinux.org/9/ALSA-2024-2724.html
-    - https://errata.rockylinux.org/RLSA-2024:3346
+    - https://errata.rockylinux.org/RLSA-2024:2724
     - https://go.dev/cl/576155
     - https://go.dev/issue/65051
     - https://groups.google.com/g/golang-announce/c/YgW0sx8mN3M
@@ -6892,10 +6955,10 @@
         V3Score: 5.4
     References:
     - http://www.openwall.com/lists/oss-security/2025/04/04/4
-    - https://access.redhat.com/errata/RHSA-2025:9150
+    - https://access.redhat.com/errata/RHSA-2025:9635
     - https://access.redhat.com/security/cve/CVE-2025-22871
     - https://bugzilla.redhat.com/2358493
-    - https://errata.almalinux.org/9/ALSA-2025-9150.html
+    - https://errata.almalinux.org/9/ALSA-2025-9635.html
     - https://go.dev/cl/652998
     - https://go.dev/issue/71988
     - https://groups.google.com/g/golang-announce/c/Y2uBTVKjBQk
@@ -7388,10 +7451,10 @@
         V3Score: 5.4
     References:
     - http://www.openwall.com/lists/oss-security/2025/04/04/4
-    - https://access.redhat.com/errata/RHSA-2025:9150
+    - https://access.redhat.com/errata/RHSA-2025:9635
     - https://access.redhat.com/security/cve/CVE-2025-22871
     - https://bugzilla.redhat.com/2358493
-    - https://errata.almalinux.org/9/ALSA-2025-9150.html
+    - https://errata.almalinux.org/9/ALSA-2025-9635.html
     - https://go.dev/cl/652998
     - https://go.dev/issue/71988
     - https://groups.google.com/g/golang-announce/c/Y2uBTVKjBQk
@@ -7615,10 +7678,10 @@
         V3Score: 5.4
     References:
     - http://www.openwall.com/lists/oss-security/2025/04/04/4
-    - https://access.redhat.com/errata/RHSA-2025:9150
+    - https://access.redhat.com/errata/RHSA-2025:9635
     - https://access.redhat.com/security/cve/CVE-2025-22871
     - https://bugzilla.redhat.com/2358493
-    - https://errata.almalinux.org/9/ALSA-2025-9150.html
+    - https://errata.almalinux.org/9/ALSA-2025-9635.html
     - https://go.dev/cl/652998
     - https://go.dev/issue/71988
     - https://groups.google.com/g/golang-announce/c/Y2uBTVKjBQk
@@ -7843,10 +7906,10 @@
         V3Score: 5.4
     References:
     - http://www.openwall.com/lists/oss-security/2025/04/04/4
-    - https://access.redhat.com/errata/RHSA-2025:9150
+    - https://access.redhat.com/errata/RHSA-2025:9635
     - https://access.redhat.com/security/cve/CVE-2025-22871
     - https://bugzilla.redhat.com/2358493
-    - https://errata.almalinux.org/9/ALSA-2025-9150.html
+    - https://errata.almalinux.org/9/ALSA-2025-9635.html
     - https://go.dev/cl/652998
     - https://go.dev/issue/71988
     - https://groups.google.com/g/golang-announce/c/Y2uBTVKjBQk
@@ -8115,10 +8178,10 @@
         V3Score: 5.4
     References:
     - http://www.openwall.com/lists/oss-security/2025/04/04/4
-    - https://access.redhat.com/errata/RHSA-2025:9150
+    - https://access.redhat.com/errata/RHSA-2025:9635
     - https://access.redhat.com/security/cve/CVE-2025-22871
     - https://bugzilla.redhat.com/2358493
-    - https://errata.almalinux.org/9/ALSA-2025-9150.html
+    - https://errata.almalinux.org/9/ALSA-2025-9635.html
     - https://go.dev/cl/652998
     - https://go.dev/issue/71988
     - https://groups.google.com/g/golang-announce/c/Y2uBTVKjBQk
@@ -8611,10 +8674,10 @@
         V3Score: 5.4
     References:
     - http://www.openwall.com/lists/oss-security/2025/04/04/4
-    - https://access.redhat.com/errata/RHSA-2025:9150
+    - https://access.redhat.com/errata/RHSA-2025:9635
     - https://access.redhat.com/security/cve/CVE-2025-22871
     - https://bugzilla.redhat.com/2358493
-    - https://errata.almalinux.org/9/ALSA-2025-9150.html
+    - https://errata.almalinux.org/9/ALSA-2025-9635.html
     - https://go.dev/cl/652998
     - https://go.dev/issue/71988
     - https://groups.google.com/g/golang-announce/c/Y2uBTVKjBQk
