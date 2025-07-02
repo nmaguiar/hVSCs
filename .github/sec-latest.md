@@ -3115,20 +3115,21 @@
 │                        │       │                           ╰ V3Score : 7.8 
 │                        │       ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/06/
 │                        │       │                  │       17/1 
-│                        │       │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:9526 
-│                        │       │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2025-6020 
-│                        │       │                  ├ [3] : https://bugzilla.redhat.com/2372512 
-│                        │       │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2372512 
-│                        │       │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2025-9526.html 
-│                        │       │                  ├ [6] : https://linux.oracle.com/cve/CVE-2025-6020.html 
-│                        │       │                  ├ [7] : https://linux.oracle.com/errata/ELSA-2025-9526.html 
-│                        │       │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2025-6020 
-│                        │       │                  ├ [9] : https://ubuntu.com/security/notices/USN-7580-1 
-│                        │       │                  ├ [10]: https://www.cve.org/CVERecord?id=CVE-2025-6020 
-│                        │       │                  ╰ [11]: https://www.openwall.com/lists/oss-security/2025/06
+│                        │       │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:10024 
+│                        │       │                  ├ [2] : https://access.redhat.com/errata/RHSA-2025:9526 
+│                        │       │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2025-6020 
+│                        │       │                  ├ [4] : https://bugzilla.redhat.com/2372512 
+│                        │       │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2372512 
+│                        │       │                  ├ [6] : https://errata.almalinux.org/9/ALSA-2025-9526.html 
+│                        │       │                  ├ [7] : https://linux.oracle.com/cve/CVE-2025-6020.html 
+│                        │       │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2025-9526.html 
+│                        │       │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2025-6020 
+│                        │       │                  ├ [10]: https://ubuntu.com/security/notices/USN-7580-1 
+│                        │       │                  ├ [11]: https://www.cve.org/CVERecord?id=CVE-2025-6020 
+│                        │       │                  ╰ [12]: https://www.openwall.com/lists/oss-security/2025/06
 │                        │       │                          /17/1 
 │                        │       ├ PublishedDate   : 2025-06-17T13:15:21.66Z 
-│                        │       ╰ LastModifiedDate: 2025-06-17T20:50:23.507Z 
+│                        │       ╰ LastModifiedDate: 2025-07-01T14:15:41.26Z 
 │                        ├ [61]  ╭ VulnerabilityID : CVE-2024-10041 
 │                        │       ├ PkgID           : libpam-modules-bin@1.4.0-11ubuntu2.5 
 │                        │       ├ PkgName         : libpam-modules-bin 
@@ -3221,20 +3222,21 @@
 │                        │       │                           ╰ V3Score : 7.8 
 │                        │       ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/06/
 │                        │       │                  │       17/1 
-│                        │       │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:9526 
-│                        │       │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2025-6020 
-│                        │       │                  ├ [3] : https://bugzilla.redhat.com/2372512 
-│                        │       │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2372512 
-│                        │       │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2025-9526.html 
-│                        │       │                  ├ [6] : https://linux.oracle.com/cve/CVE-2025-6020.html 
-│                        │       │                  ├ [7] : https://linux.oracle.com/errata/ELSA-2025-9526.html 
-│                        │       │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2025-6020 
-│                        │       │                  ├ [9] : https://ubuntu.com/security/notices/USN-7580-1 
-│                        │       │                  ├ [10]: https://www.cve.org/CVERecord?id=CVE-2025-6020 
-│                        │       │                  ╰ [11]: https://www.openwall.com/lists/oss-security/2025/06
+│                        │       │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:10024 
+│                        │       │                  ├ [2] : https://access.redhat.com/errata/RHSA-2025:9526 
+│                        │       │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2025-6020 
+│                        │       │                  ├ [4] : https://bugzilla.redhat.com/2372512 
+│                        │       │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2372512 
+│                        │       │                  ├ [6] : https://errata.almalinux.org/9/ALSA-2025-9526.html 
+│                        │       │                  ├ [7] : https://linux.oracle.com/cve/CVE-2025-6020.html 
+│                        │       │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2025-9526.html 
+│                        │       │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2025-6020 
+│                        │       │                  ├ [10]: https://ubuntu.com/security/notices/USN-7580-1 
+│                        │       │                  ├ [11]: https://www.cve.org/CVERecord?id=CVE-2025-6020 
+│                        │       │                  ╰ [12]: https://www.openwall.com/lists/oss-security/2025/06
 │                        │       │                          /17/1 
 │                        │       ├ PublishedDate   : 2025-06-17T13:15:21.66Z 
-│                        │       ╰ LastModifiedDate: 2025-06-17T20:50:23.507Z 
+│                        │       ╰ LastModifiedDate: 2025-07-01T14:15:41.26Z 
 │                        ├ [63]  ╭ VulnerabilityID : CVE-2024-10041 
 │                        │       ├ PkgID           : libpam-runtime@1.4.0-11ubuntu2.5 
 │                        │       ├ PkgName         : libpam-runtime 
@@ -3327,20 +3329,21 @@
 │                        │       │                           ╰ V3Score : 7.8 
 │                        │       ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/06/
 │                        │       │                  │       17/1 
-│                        │       │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:9526 
-│                        │       │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2025-6020 
-│                        │       │                  ├ [3] : https://bugzilla.redhat.com/2372512 
-│                        │       │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2372512 
-│                        │       │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2025-9526.html 
-│                        │       │                  ├ [6] : https://linux.oracle.com/cve/CVE-2025-6020.html 
-│                        │       │                  ├ [7] : https://linux.oracle.com/errata/ELSA-2025-9526.html 
-│                        │       │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2025-6020 
-│                        │       │                  ├ [9] : https://ubuntu.com/security/notices/USN-7580-1 
-│                        │       │                  ├ [10]: https://www.cve.org/CVERecord?id=CVE-2025-6020 
-│                        │       │                  ╰ [11]: https://www.openwall.com/lists/oss-security/2025/06
+│                        │       │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:10024 
+│                        │       │                  ├ [2] : https://access.redhat.com/errata/RHSA-2025:9526 
+│                        │       │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2025-6020 
+│                        │       │                  ├ [4] : https://bugzilla.redhat.com/2372512 
+│                        │       │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2372512 
+│                        │       │                  ├ [6] : https://errata.almalinux.org/9/ALSA-2025-9526.html 
+│                        │       │                  ├ [7] : https://linux.oracle.com/cve/CVE-2025-6020.html 
+│                        │       │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2025-9526.html 
+│                        │       │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2025-6020 
+│                        │       │                  ├ [10]: https://ubuntu.com/security/notices/USN-7580-1 
+│                        │       │                  ├ [11]: https://www.cve.org/CVERecord?id=CVE-2025-6020 
+│                        │       │                  ╰ [12]: https://www.openwall.com/lists/oss-security/2025/06
 │                        │       │                          /17/1 
 │                        │       ├ PublishedDate   : 2025-06-17T13:15:21.66Z 
-│                        │       ╰ LastModifiedDate: 2025-06-17T20:50:23.507Z 
+│                        │       ╰ LastModifiedDate: 2025-07-01T14:15:41.26Z 
 │                        ├ [65]  ╭ VulnerabilityID : CVE-2025-4598 
 │                        │       ├ PkgID           : libpam-systemd@249.11-0ubuntu3.12 
 │                        │       ├ PkgName         : libpam-systemd 
@@ -3584,20 +3587,21 @@
 │                        │       │                           ╰ V3Score : 7.8 
 │                        │       ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/06/
 │                        │       │                  │       17/1 
-│                        │       │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:9526 
-│                        │       │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2025-6020 
-│                        │       │                  ├ [3] : https://bugzilla.redhat.com/2372512 
-│                        │       │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2372512 
-│                        │       │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2025-9526.html 
-│                        │       │                  ├ [6] : https://linux.oracle.com/cve/CVE-2025-6020.html 
-│                        │       │                  ├ [7] : https://linux.oracle.com/errata/ELSA-2025-9526.html 
-│                        │       │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2025-6020 
-│                        │       │                  ├ [9] : https://ubuntu.com/security/notices/USN-7580-1 
-│                        │       │                  ├ [10]: https://www.cve.org/CVERecord?id=CVE-2025-6020 
-│                        │       │                  ╰ [11]: https://www.openwall.com/lists/oss-security/2025/06
+│                        │       │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:10024 
+│                        │       │                  ├ [2] : https://access.redhat.com/errata/RHSA-2025:9526 
+│                        │       │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2025-6020 
+│                        │       │                  ├ [4] : https://bugzilla.redhat.com/2372512 
+│                        │       │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2372512 
+│                        │       │                  ├ [6] : https://errata.almalinux.org/9/ALSA-2025-9526.html 
+│                        │       │                  ├ [7] : https://linux.oracle.com/cve/CVE-2025-6020.html 
+│                        │       │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2025-9526.html 
+│                        │       │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2025-6020 
+│                        │       │                  ├ [10]: https://ubuntu.com/security/notices/USN-7580-1 
+│                        │       │                  ├ [11]: https://www.cve.org/CVERecord?id=CVE-2025-6020 
+│                        │       │                  ╰ [12]: https://www.openwall.com/lists/oss-security/2025/06
 │                        │       │                          /17/1 
 │                        │       ├ PublishedDate   : 2025-06-17T13:15:21.66Z 
-│                        │       ╰ LastModifiedDate: 2025-06-17T20:50:23.507Z 
+│                        │       ╰ LastModifiedDate: 2025-07-01T14:15:41.26Z 
 │                        ├ [69]  ╭ VulnerabilityID : CVE-2022-41409 
 │                        │       ├ PkgID           : libpcre2-8-0@10.39-3ubuntu0.1 
 │                        │       ├ PkgName         : libpcre2-8-0 
@@ -6323,7 +6327,8 @@
 │                        │       │                  │       tro=ubuntu-22.04 
 │                        │       │                  ╰ UID : 881efb85b835ce28 
 │                        │       ├ InstalledVersion: 1.9.9-1ubuntu2.4 
-│                        │       ├ Status          : affected 
+│                        │       ├ FixedVersion    : 1.9.9-1ubuntu2.5 
+│                        │       ├ Status          : fixed 
 │                        │       ├ Layer            ╭ Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972c
 │                        │       │                  │         f4a8143db4b97d428659d0 
 │                        │       │                  ╰ DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96
@@ -6333,21 +6338,35 @@
 │                        │       ├ DataSource       ╭ ID  : ubuntu 
 │                        │       │                  ├ Name: Ubuntu CVE Tracker 
 │                        │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │       ├ Title           : [Local Privilege Escalation via host option] 
-│                        │       ├ Description     : Sudo's host (`-h` or `--host`) option is intended to be
-│                        │       │                   used in conjunction with the list option (`-l` or
-│                        │       │                   `--list`) to list a user's sudo privileges on a host other
-│                        │       │                    than the current one.  However, due to a bug it was not
-│                        │       │                   restricted to listing privileges and could be used when
-│                        │       │                   running a command via `sudo` or editing a file with
-│                        │       │                   `sudoedit`.  Depending on the rules present in the sudoers
-│                        │       │                    file this could allow a local privilege escalation
-│                        │       │                   attack. Sudo versions 1.8.8 to 1.9.17 inclusive are
-│                        │       │                   affected. 
+│                        │       ├ Title           : sudo: LPE via host option 
+│                        │       ├ Description     : Sudo before 1.9.17p1, when used with a sudoers file that
+│                        │       │                   specifies a host that is neither the current host nor ALL,
+│                        │       │                    allows listed users to execute commands on unintended
+│                        │       │                   machines. 
 │                        │       ├ Severity        : HIGH 
-│                        │       ├ VendorSeverity   ─ ubuntu: 3 
-│                        │       ╰ References       ╭ [0]: https://www.cve.org/CVERecord?id=CVE-2025-32462 
-│                        │                          ╰ [1]: https://www.sudo.ws/security/advisories/host_any/ 
+│                        │       ├ CweIDs           ─ [0]: CWE-863 
+│                        │       ├ VendorSeverity   ╭ oracle-oval: 3 
+│                        │       │                  ├ redhat     : 3 
+│                        │       │                  ╰ ubuntu     : 3 
+│                        │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I
+│                        │       │                           │           :H/A:H 
+│                        │       │                           ╰ V3Score : 7 
+│                        │       ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2025-32462 
+│                        │       │                  ├ [1] : https://linux.oracle.com/cve/CVE-2025-32462.html 
+│                        │       │                  ├ [2] : https://linux.oracle.com/errata/ELSA-2025-9978.html 
+│                        │       │                  ├ [3] : https://nvd.nist.gov/vuln/detail/CVE-2025-32462 
+│                        │       │                  ├ [4] : https://ubuntu.com/security/notices/USN-7604-1 
+│                        │       │                  ├ [5] : https://ubuntu.com/security/notices/USN-7604-2 
+│                        │       │                  ├ [6] : https://www.cve.org/CVERecord?id=CVE-2025-32462 
+│                        │       │                  ├ [7] : https://www.openwall.com/lists/oss-security/2025/06
+│                        │       │                  │       /30/2 
+│                        │       │                  ├ [8] : https://www.stratascale.com/vulnerability-alert-CVE
+│                        │       │                  │       -2025-32462-sudo-host 
+│                        │       │                  ├ [9] : https://www.sudo.ws/releases/changelog/ 
+│                        │       │                  ├ [10]: https://www.sudo.ws/security/advisories/ 
+│                        │       │                  ╰ [11]: https://www.sudo.ws/security/advisories/host_any/ 
+│                        │       ├ PublishedDate   : 2025-06-30T21:15:30.08Z 
+│                        │       ╰ LastModifiedDate: 2025-06-30T21:15:30.08Z 
 │                        ├ [116] ╭ VulnerabilityID : CVE-2025-4598 
 │                        │       ├ PkgID           : systemd@249.11-0ubuntu3.12 
 │                        │       ├ PkgName         : systemd 
@@ -8460,7 +8479,7 @@
 │                        │      │                  ├ [7] : https://go.dev/cl/652135 
 │                        │      │                  ├ [8] : https://go.dev/issue/71931 
 │                        │      │                  ├ [9] : https://linux.oracle.com/cve/CVE-2025-22869.html 
-│                        │      │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2025-7416.html 
+│                        │      │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2025-7484.html 
 │                        │      │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2025-22869 
 │                        │      │                  ├ [12]: https://pkg.go.dev/vuln/GO-2025-3487 
 │                        │      │                  ├ [13]: https://security.netapp.com/advisory/ntap-20250411-0
@@ -9822,7 +9841,7 @@
 │                        │     │                  ├ [7] : https://go.dev/cl/652135 
 │                        │     │                  ├ [8] : https://go.dev/issue/71931 
 │                        │     │                  ├ [9] : https://linux.oracle.com/cve/CVE-2025-22869.html 
-│                        │     │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2025-7416.html 
+│                        │     │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2025-7484.html 
 │                        │     │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2025-22869 
 │                        │     │                  ├ [12]: https://pkg.go.dev/vuln/GO-2025-3487 
 │                        │     │                  ├ [13]: https://security.netapp.com/advisory/ntap-20250411-0010 
