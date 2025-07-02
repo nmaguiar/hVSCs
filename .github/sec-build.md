@@ -3404,7 +3404,8 @@
 │                        │      │                  │       ro=ubuntu-22.04 
 │                        │      │                  ╰ UID : 1346418cc9a548ad 
 │                        │      ├ InstalledVersion: 1.9.9-1ubuntu2.4 
-│                        │      ├ Status          : affected 
+│                        │      ├ FixedVersion    : 1.9.9-1ubuntu2.5 
+│                        │      ├ Status          : fixed 
 │                        │      ├ Layer            ╭ Digest: sha256:070fdbeb7c4ecbebd5955bfa611cf2f49b01b08fa0e
 │                        │      │                  │         082be29b69e6977c6f2cc 
 │                        │      │                  ╰ DiffID: sha256:1a131b98d29aa2c9c3da834b4cca72aab20df231883
@@ -3414,20 +3415,35 @@
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
 │                        │      │                  ├ Name: Ubuntu CVE Tracker 
 │                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │      ├ Title           : [Local Privilege Escalation via host option] 
-│                        │      ├ Description     : Sudo's host (`-h` or `--host`) option is intended to be
-│                        │      │                   used in conjunction with the list option (`-l` or `--list`)
-│                        │      │                    to list a user's sudo privileges on a host other than the
-│                        │      │                   current one.  However, due to a bug it was not restricted
-│                        │      │                   to listing privileges and could be used when running a
-│                        │      │                   command via `sudo` or editing a file with `sudoedit`. 
-│                        │      │                   Depending on the rules present in the sudoers file this
-│                        │      │                   could allow a local privilege escalation attack. Sudo
-│                        │      │                   versions 1.8.8 to 1.9.17 inclusive are affected. 
+│                        │      ├ Title           : sudo: LPE via host option 
+│                        │      ├ Description     : Sudo before 1.9.17p1, when used with a sudoers file that
+│                        │      │                   specifies a host that is neither the current host nor ALL,
+│                        │      │                   allows listed users to execute commands on unintended
+│                        │      │                   machines. 
 │                        │      ├ Severity        : HIGH 
-│                        │      ├ VendorSeverity   ─ ubuntu: 3 
-│                        │      ╰ References       ╭ [0]: https://www.cve.org/CVERecord?id=CVE-2025-32462 
-│                        │                         ╰ [1]: https://www.sudo.ws/security/advisories/host_any/ 
+│                        │      ├ CweIDs           ─ [0]: CWE-863 
+│                        │      ├ VendorSeverity   ╭ oracle-oval: 3 
+│                        │      │                  ├ redhat     : 3 
+│                        │      │                  ╰ ubuntu     : 3 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:
+│                        │      │                           │           H/A:H 
+│                        │      │                           ╰ V3Score : 7 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2025-32462 
+│                        │      │                  ├ [1] : https://linux.oracle.com/cve/CVE-2025-32462.html 
+│                        │      │                  ├ [2] : https://linux.oracle.com/errata/ELSA-2025-9978.html 
+│                        │      │                  ├ [3] : https://nvd.nist.gov/vuln/detail/CVE-2025-32462 
+│                        │      │                  ├ [4] : https://ubuntu.com/security/notices/USN-7604-1 
+│                        │      │                  ├ [5] : https://ubuntu.com/security/notices/USN-7604-2 
+│                        │      │                  ├ [6] : https://www.cve.org/CVERecord?id=CVE-2025-32462 
+│                        │      │                  ├ [7] : https://www.openwall.com/lists/oss-security/2025/06/
+│                        │      │                  │       30/2 
+│                        │      │                  ├ [8] : https://www.stratascale.com/vulnerability-alert-CVE-
+│                        │      │                  │       2025-32462-sudo-host 
+│                        │      │                  ├ [9] : https://www.sudo.ws/releases/changelog/ 
+│                        │      │                  ├ [10]: https://www.sudo.ws/security/advisories/ 
+│                        │      │                  ╰ [11]: https://www.sudo.ws/security/advisories/host_any/ 
+│                        │      ├ PublishedDate   : 2025-06-30T21:15:30.08Z 
+│                        │      ╰ LastModifiedDate: 2025-06-30T21:15:30.08Z 
 │                        ├ [64] ╭ VulnerabilityID : CVE-2023-7008 
 │                        │      ├ PkgID           : systemd@249.11-0ubuntu3.16 
 │                        │      ├ PkgName         : systemd 
@@ -5273,7 +5289,7 @@
 │                        │     │                  ├ [7] : https://go.dev/cl/652135 
 │                        │     │                  ├ [8] : https://go.dev/issue/71931 
 │                        │     │                  ├ [9] : https://linux.oracle.com/cve/CVE-2025-22869.html 
-│                        │     │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2025-7416.html 
+│                        │     │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2025-7484.html 
 │                        │     │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2025-22869 
 │                        │     │                  ├ [12]: https://pkg.go.dev/vuln/GO-2025-3487 
 │                        │     │                  ├ [13]: https://security.netapp.com/advisory/ntap-20250411-0010 
