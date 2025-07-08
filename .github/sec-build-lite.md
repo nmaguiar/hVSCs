@@ -1835,7 +1835,252 @@
 │                        │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2025-6069 
 │                        │      ├ PublishedDate   : 2025-06-17T14:15:33.677Z 
 │                        │      ╰ LastModifiedDate: 2025-06-17T20:50:23.507Z 
-│                        ├ [38] ╭ VulnerabilityID : CVE-2024-41996 
+│                        ├ [38] ╭ VulnerabilityID : CVE-2025-4877 
+│                        │      ├ PkgID           : libssh-4@0.10.6-2build2 
+│                        │      ├ PkgName         : libssh-4 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libssh-4@0.10.6-2build2?arch=amd64&di
+│                        │      │                  │       stro=ubuntu-24.04 
+│                        │      │                  ╰ UID : c3ad43ec41b954e7 
+│                        │      ├ InstalledVersion: 0.10.6-2build2 
+│                        │      ├ FixedVersion    : 0.10.6-2ubuntu0.1 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:fa8f8a8aed13a85e6b0fea459f9c86cb6432a96d8cc
+│                        │      │                  │         e2efcc57a13cdce25c04c 
+│                        │      │                  ╰ DiffID: sha256:c97c70da484a348cc3e7e13a79aac8b49f3c78269dd
+│                        │      │                            7700236633f4a5d56c4bc 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-4877 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : libssh: Write beyond bounds in binary to base64 conversion
+│                        │      │                   functions 
+│                        │      ├ Description     : No description is available for this CVE. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ VendorSeverity   ╭ redhat: 2 
+│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:
+│                        │      │                           │           L/A:L 
+│                        │      │                           ╰ V3Score : 4.5 
+│                        │      ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-4877 
+│                        │                         ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2025-4877 
+│                        │                         ├ [2]: https://ubuntu.com/security/notices/USN-7619-1 
+│                        │                         ├ [3]: https://www.cve.org/CVERecord?id=CVE-2025-4877 
+│                        │                         ╰ [4]: https://www.libssh.org/security/advisories/CVE-2025-4
+│                        │                                877.txt 
+│                        ├ [39] ╭ VulnerabilityID : CVE-2025-4878 
+│                        │      ├ PkgID           : libssh-4@0.10.6-2build2 
+│                        │      ├ PkgName         : libssh-4 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libssh-4@0.10.6-2build2?arch=amd64&di
+│                        │      │                  │       stro=ubuntu-24.04 
+│                        │      │                  ╰ UID : c3ad43ec41b954e7 
+│                        │      ├ InstalledVersion: 0.10.6-2build2 
+│                        │      ├ FixedVersion    : 0.10.6-2ubuntu0.1 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:fa8f8a8aed13a85e6b0fea459f9c86cb6432a96d8cc
+│                        │      │                  │         e2efcc57a13cdce25c04c 
+│                        │      │                  ╰ DiffID: sha256:c97c70da484a348cc3e7e13a79aac8b49f3c78269dd
+│                        │      │                            7700236633f4a5d56c4bc 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-4878 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : libssh: Use of uninitialized variable in
+│                        │      │                   privatekey_from_file() 
+│                        │      ├ Description     : No description is available for this CVE. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ VendorSeverity   ╭ redhat: 1 
+│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:
+│                        │      │                           │           L/A:N 
+│                        │      │                           ╰ V3Score : 3.6 
+│                        │      ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-4878 
+│                        │                         ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2025-4878 
+│                        │                         ├ [2]: https://ubuntu.com/security/notices/USN-7619-1 
+│                        │                         ├ [3]: https://www.cve.org/CVERecord?id=CVE-2025-4878 
+│                        │                         ╰ [4]: https://www.libssh.org/security/advisories/CVE-2025-4
+│                        │                                878.txt 
+│                        ├ [40] ╭ VulnerabilityID : CVE-2025-5318 
+│                        │      ├ PkgID           : libssh-4@0.10.6-2build2 
+│                        │      ├ PkgName         : libssh-4 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libssh-4@0.10.6-2build2?arch=amd64&di
+│                        │      │                  │       stro=ubuntu-24.04 
+│                        │      │                  ╰ UID : c3ad43ec41b954e7 
+│                        │      ├ InstalledVersion: 0.10.6-2build2 
+│                        │      ├ FixedVersion    : 0.10.6-2ubuntu0.1 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:fa8f8a8aed13a85e6b0fea459f9c86cb6432a96d8cc
+│                        │      │                  │         e2efcc57a13cdce25c04c 
+│                        │      │                  ╰ DiffID: sha256:c97c70da484a348cc3e7e13a79aac8b49f3c78269dd
+│                        │      │                            7700236633f4a5d56c4bc 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-5318 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : libssh: out-of-bounds read in sftp_handle() 
+│                        │      ├ Description     : A flaw was found in the libssh library. An out-of-bounds
+│                        │      │                   read can be triggered in the sftp_handle function due to an
+│                        │      │                    incorrect comparison check that permits the function to
+│                        │      │                   access memory beyond the valid handle list and to return an
+│                        │      │                    invalid pointer, which is used in further processing. This
+│                        │      │                    vulnerability allows an authenticated remote attacker to
+│                        │      │                   potentially read unintended memory regions, exposing
+│                        │      │                   sensitive information or affect service behavior. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ CweIDs           ─ [0]: CWE-125 
+│                        │      ├ VendorSeverity   ╭ redhat: 2 
+│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:
+│                        │      │                           │           L/A:N 
+│                        │      │                           ╰ V3Score : 5.4 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-5318 
+│                        │      │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2369131 
+│                        │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2025-5318 
+│                        │      │                  ├ [3]: https://ubuntu.com/security/notices/USN-7619-1 
+│                        │      │                  ├ [4]: https://www.cve.org/CVERecord?id=CVE-2025-5318 
+│                        │      │                  ╰ [5]: https://www.libssh.org/security/advisories/CVE-2025-5
+│                        │      │                         318.txt 
+│                        │      ├ PublishedDate   : 2025-06-24T14:15:30.523Z 
+│                        │      ╰ LastModifiedDate: 2025-06-26T18:58:14.28Z 
+│                        ├ [41] ╭ VulnerabilityID : CVE-2025-5351 
+│                        │      ├ PkgID           : libssh-4@0.10.6-2build2 
+│                        │      ├ PkgName         : libssh-4 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libssh-4@0.10.6-2build2?arch=amd64&di
+│                        │      │                  │       stro=ubuntu-24.04 
+│                        │      │                  ╰ UID : c3ad43ec41b954e7 
+│                        │      ├ InstalledVersion: 0.10.6-2build2 
+│                        │      ├ FixedVersion    : 0.10.6-2ubuntu0.1 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:fa8f8a8aed13a85e6b0fea459f9c86cb6432a96d8cc
+│                        │      │                  │         e2efcc57a13cdce25c04c 
+│                        │      │                  ╰ DiffID: sha256:c97c70da484a348cc3e7e13a79aac8b49f3c78269dd
+│                        │      │                            7700236633f4a5d56c4bc 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-5351 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : libssh: Double Free Vulnerability in libssh Key Export
+│                        │      │                   Functions 
+│                        │      ├ Description     : A flaw was found in the key export functionality of libssh.
+│                        │      │                    The issue occurs in the internal function responsible for
+│                        │      │                   converting cryptographic keys into serialized formats.
+│                        │      │                   During error handling, a memory structure is freed but not
+│                        │      │                   cleared, leading to a potential double free issue if an
+│                        │      │                   additional failure occurs later in the function. This
+│                        │      │                   condition may result in heap corruption or application
+│                        │      │                   instability in low-memory scenarios, posing a risk to
+│                        │      │                   system reliability where key export operations are
+│                        │      │                   performed. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ CweIDs           ─ [0]: CWE-415 
+│                        │      ├ VendorSeverity   ╭ redhat: 2 
+│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:L/I:
+│                        │      │                           │           L/A:N 
+│                        │      │                           ╰ V3Score : 4.2 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-5351 
+│                        │      │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2369367 
+│                        │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2025-5351 
+│                        │      │                  ├ [3]: https://ubuntu.com/security/notices/USN-7619-1 
+│                        │      │                  ├ [4]: https://www.cve.org/CVERecord?id=CVE-2025-5351 
+│                        │      │                  ╰ [5]: https://www.libssh.org/security/advisories/CVE-2025-5
+│                        │      │                         351.txt 
+│                        │      ├ PublishedDate   : 2025-07-04T09:15:37.1Z 
+│                        │      ╰ LastModifiedDate: 2025-07-04T09:15:37.1Z 
+│                        ├ [42] ╭ VulnerabilityID : CVE-2025-5372 
+│                        │      ├ PkgID           : libssh-4@0.10.6-2build2 
+│                        │      ├ PkgName         : libssh-4 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libssh-4@0.10.6-2build2?arch=amd64&di
+│                        │      │                  │       stro=ubuntu-24.04 
+│                        │      │                  ╰ UID : c3ad43ec41b954e7 
+│                        │      ├ InstalledVersion: 0.10.6-2build2 
+│                        │      ├ FixedVersion    : 0.10.6-2ubuntu0.1 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:fa8f8a8aed13a85e6b0fea459f9c86cb6432a96d8cc
+│                        │      │                  │         e2efcc57a13cdce25c04c 
+│                        │      │                  ╰ DiffID: sha256:c97c70da484a348cc3e7e13a79aac8b49f3c78269dd
+│                        │      │                            7700236633f4a5d56c4bc 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-5372 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : libssh: Incorrect Return Code Handling in ssh_kdf() in libssh 
+│                        │      ├ Description     : A flaw was found in libssh versions built with OpenSSL
+│                        │      │                   versions older than 3.0, specifically in the ssh_kdf()
+│                        │      │                   function responsible for key derivation. Due to
+│                        │      │                   inconsistent interpretation of return values where OpenSSL
+│                        │      │                   uses 0 to indicate failure and libssh uses 0 for
+│                        │      │                   success—the function may mistakenly return a success status
+│                        │      │                    even when key derivation fails. This results in
+│                        │      │                   uninitialized cryptographic key buffers being used in
+│                        │      │                   subsequent communication, potentially compromising SSH
+│                        │      │                   sessions' confidentiality, integrity, and availability. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ CweIDs           ─ [0]: CWE-682 
+│                        │      ├ VendorSeverity   ╭ redhat: 2 
+│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:L/I:
+│                        │      │                           │           L/A:L 
+│                        │      │                           ╰ V3Score : 5 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-5372 
+│                        │      │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2369388 
+│                        │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2025-5372 
+│                        │      │                  ├ [3]: https://ubuntu.com/security/notices/USN-7619-1 
+│                        │      │                  ├ [4]: https://www.cve.org/CVERecord?id=CVE-2025-5372 
+│                        │      │                  ╰ [5]: https://www.libssh.org/security/advisories/CVE-2025-5
+│                        │      │                         372.txt 
+│                        │      ├ PublishedDate   : 2025-07-04T06:15:24.93Z 
+│                        │      ╰ LastModifiedDate: 2025-07-04T06:15:24.93Z 
+│                        ├ [43] ╭ VulnerabilityID : CVE-2025-5987 
+│                        │      ├ PkgID           : libssh-4@0.10.6-2build2 
+│                        │      ├ PkgName         : libssh-4 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libssh-4@0.10.6-2build2?arch=amd64&di
+│                        │      │                  │       stro=ubuntu-24.04 
+│                        │      │                  ╰ UID : c3ad43ec41b954e7 
+│                        │      ├ InstalledVersion: 0.10.6-2build2 
+│                        │      ├ FixedVersion    : 0.10.6-2ubuntu0.1 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:fa8f8a8aed13a85e6b0fea459f9c86cb6432a96d8cc
+│                        │      │                  │         e2efcc57a13cdce25c04c 
+│                        │      │                  ╰ DiffID: sha256:c97c70da484a348cc3e7e13a79aac8b49f3c78269dd
+│                        │      │                            7700236633f4a5d56c4bc 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-5987 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : libssh: Invalid return code for chacha20 poly1305 with
+│                        │      │                   OpenSSL backend 
+│                        │      ├ Description     : A flaw was found in libssh when using the ChaCha20 cipher
+│                        │      │                   with the OpenSSL library. If an attacker manages to exhaust
+│                        │      │                    the heap space, this error is not detected and may lead to
+│                        │      │                    libssh using a partially initialized cipher context. This
+│                        │      │                   occurs because the OpenSSL error code returned aliases with
+│                        │      │                    the SSH_OK code, resulting in libssh not properly
+│                        │      │                   detecting the error returned by the OpenSSL library. This
+│                        │      │                   issue can lead to undefined behavior, including compromised
+│                        │      │                    data confidentiality and integrity or crashes. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ CweIDs           ─ [0]: CWE-393 
+│                        │      ├ VendorSeverity   ╭ redhat: 2 
+│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:L/I:
+│                        │      │                           │           L/A:L 
+│                        │      │                           ╰ V3Score : 5 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-5987 
+│                        │      │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2376219 
+│                        │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2025-5987 
+│                        │      │                  ├ [3]: https://ubuntu.com/security/notices/USN-7619-1 
+│                        │      │                  ├ [4]: https://www.cve.org/CVERecord?id=CVE-2025-5987 
+│                        │      │                  ╰ [5]: https://www.libssh.org/security/advisories/CVE-2025-5
+│                        │      │                         987.txt 
+│                        │      ├ PublishedDate   : 2025-07-07T15:15:28.18Z 
+│                        │      ╰ LastModifiedDate: 2025-07-07T15:15:28.18Z 
+│                        ├ [44] ╭ VulnerabilityID : CVE-2024-41996 
 │                        │      ├ PkgID           : libssl3t64@3.0.13-0ubuntu3.5 
 │                        │      ├ PkgName         : libssl3t64 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libssl3t64@3.0.13-0ubuntu3.5?arch=amd
@@ -1885,7 +2130,7 @@
 │                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-41996 
 │                        │      ├ PublishedDate   : 2024-08-26T06:15:04.603Z 
 │                        │      ╰ LastModifiedDate: 2024-08-26T16:35:11.247Z 
-│                        ├ [39] ╭ VulnerabilityID : CVE-2024-56433 
+│                        ├ [45] ╭ VulnerabilityID : CVE-2024-56433 
 │                        │      ├ PkgID           : libsubid4@1:4.13+dfsg1-4ubuntu3.2 
 │                        │      ├ PkgName         : libsubid4 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libsubid4@4.13%2Bdfsg1-4ubuntu3.2?arc
@@ -1933,7 +2178,7 @@
 │                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                        │      ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                        │      ╰ LastModifiedDate: 2024-12-26T09:15:07.267Z 
-│                        ├ [40] ╭ VulnerabilityID : CVE-2024-56433 
+│                        ├ [46] ╭ VulnerabilityID : CVE-2024-56433 
 │                        │      ├ PkgID           : login@1:4.13+dfsg1-4ubuntu3.2 
 │                        │      ├ PkgName         : login 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/login@4.13%2Bdfsg1-4ubuntu3.2?arch=am
@@ -1981,7 +2226,7 @@
 │                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                        │      ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                        │      ╰ LastModifiedDate: 2024-12-26T09:15:07.267Z 
-│                        ├ [41] ╭ VulnerabilityID : CVE-2024-41996 
+│                        ├ [47] ╭ VulnerabilityID : CVE-2024-41996 
 │                        │      ├ PkgID           : openssl@3.0.13-0ubuntu3.5 
 │                        │      ├ PkgName         : openssl 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl@3.0.13-0ubuntu3.5?arch=amd64&
@@ -2031,7 +2276,7 @@
 │                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-41996 
 │                        │      ├ PublishedDate   : 2024-08-26T06:15:04.603Z 
 │                        │      ╰ LastModifiedDate: 2024-08-26T16:35:11.247Z 
-│                        ├ [42] ╭ VulnerabilityID : CVE-2024-56433 
+│                        ├ [48] ╭ VulnerabilityID : CVE-2024-56433 
 │                        │      ├ PkgID           : passwd@1:4.13+dfsg1-4ubuntu3.2 
 │                        │      ├ PkgName         : passwd 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/passwd@4.13%2Bdfsg1-4ubuntu3.2?arch=a
@@ -2079,7 +2324,7 @@
 │                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                        │      ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                        │      ╰ LastModifiedDate: 2024-12-26T09:15:07.267Z 
-│                        ├ [43] ╭ VulnerabilityID : CVE-2018-6952 
+│                        ├ [49] ╭ VulnerabilityID : CVE-2018-6952 
 │                        │      ├ PkgID           : patch@2.7.6-7build3 
 │                        │      ├ PkgName         : patch 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/patch@2.7.6-7build3?arch=amd64&distro
@@ -2129,7 +2374,7 @@
 │                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2018-6952 
 │                        │      ├ PublishedDate   : 2018-02-13T19:29:00.573Z 
 │                        │      ╰ LastModifiedDate: 2024-11-21T04:11:28.42Z 
-│                        ├ [44] ╭ VulnerabilityID : CVE-2021-45261 
+│                        ├ [50] ╭ VulnerabilityID : CVE-2021-45261 
 │                        │      ├ PkgID           : patch@2.7.6-7build3 
 │                        │      ├ PkgName         : patch 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/patch@2.7.6-7build3?arch=amd64&distro
@@ -2169,7 +2414,7 @@
 │                        │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2021-45261 
 │                        │      ├ PublishedDate   : 2021-12-22T18:15:08.1Z 
 │                        │      ╰ LastModifiedDate: 2024-11-21T06:32:02.633Z 
-│                        ├ [45] ╭ VulnerabilityID : CVE-2025-6069 
+│                        ├ [51] ╭ VulnerabilityID : CVE-2025-6069 
 │                        │      ├ PkgID           : python3.12@3.12.3-1ubuntu0.7 
 │                        │      ├ PkgName         : python3.12 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/python3.12@3.12.3-1ubuntu0.7?arch=amd
@@ -2219,7 +2464,7 @@
 │                        │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2025-6069 
 │                        │      ├ PublishedDate   : 2025-06-17T14:15:33.677Z 
 │                        │      ╰ LastModifiedDate: 2025-06-17T20:50:23.507Z 
-│                        ├ [46] ╭ VulnerabilityID : CVE-2025-6069 
+│                        ├ [52] ╭ VulnerabilityID : CVE-2025-6069 
 │                        │      ├ PkgID           : python3.12-minimal@3.12.3-1ubuntu0.7 
 │                        │      ├ PkgName         : python3.12-minimal 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/python3.12-minimal@3.12.3-1ubuntu0.7?
@@ -2269,7 +2514,7 @@
 │                        │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2025-6069 
 │                        │      ├ PublishedDate   : 2025-06-17T14:15:33.677Z 
 │                        │      ╰ LastModifiedDate: 2025-06-17T20:50:23.507Z 
-│                        ├ [47] ╭ VulnerabilityID : CVE-2024-56433 
+│                        ├ [53] ╭ VulnerabilityID : CVE-2024-56433 
 │                        │      ├ PkgID           : uidmap@1:4.13+dfsg1-4ubuntu3.2 
 │                        │      ├ PkgName         : uidmap 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/uidmap@4.13%2Bdfsg1-4ubuntu3.2?arch=a
@@ -2317,7 +2562,7 @@
 │                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                        │      ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                        │      ╰ LastModifiedDate: 2024-12-26T09:15:07.267Z 
-│                        ╰ [48] ╭ VulnerabilityID : CVE-2021-31879 
+│                        ╰ [54] ╭ VulnerabilityID : CVE-2021-31879 
 │                               ├ PkgID           : wget@1.21.4-1ubuntu4.1 
 │                               ├ PkgName         : wget 
 │                               ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/wget@1.21.4-1ubuntu4.1?arch=amd64&dis
@@ -2447,7 +2692,7 @@
 │                        │     │                  ├ [15]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                        │     │                  │       24-24783 
 │                        │     │                  ├ [16]: https://errata.almalinux.org/9/ALSA-2024-2724.html 
-│                        │     │                  ├ [17]: https://errata.rockylinux.org/RLSA-2024:2724 
+│                        │     │                  ├ [17]: https://errata.rockylinux.org/RLSA-2024:3346 
 │                        │     │                  ├ [18]: https://go.dev/cl/576155 
 │                        │     │                  ├ [19]: https://go.dev/issue/65051 
 │                        │     │                  ├ [20]: https://groups.google.com/g/golang-announce/c/YgW0sx8
@@ -2561,7 +2806,7 @@
 │                        │     │                   during DOM construction, but only when tags are in foreign
 │                        │     │                   content (e.g. <math>, <svg>, etc contexts). 
 │                        │     ├ Severity        : MEDIUM 
-│                        │     ├ VendorSeverity   ╭ amazon     : 3 
+│                        │     ├ VendorSeverity   ╭ amazon     : 2 
 │                        │     │                  ├ azure      : 2 
 │                        │     │                  ├ cbl-mariner: 2 
 │                        │     │                  ├ ghsa       : 2 
@@ -2838,7 +3083,7 @@
 │                        │     │                  ├ [15]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                        │     │                  │       24-24783 
 │                        │     │                  ├ [16]: https://errata.almalinux.org/9/ALSA-2024-2724.html 
-│                        │     │                  ├ [17]: https://errata.rockylinux.org/RLSA-2024:2724 
+│                        │     │                  ├ [17]: https://errata.rockylinux.org/RLSA-2024:3346 
 │                        │     │                  ├ [18]: https://go.dev/cl/576155 
 │                        │     │                  ├ [19]: https://go.dev/issue/65051 
 │                        │     │                  ├ [20]: https://groups.google.com/g/golang-announce/c/YgW0sx8
@@ -2952,7 +3197,7 @@
 │                        │     │                   during DOM construction, but only when tags are in foreign
 │                        │     │                   content (e.g. <math>, <svg>, etc contexts). 
 │                        │     ├ Severity        : MEDIUM 
-│                        │     ├ VendorSeverity   ╭ amazon     : 3 
+│                        │     ├ VendorSeverity   ╭ amazon     : 2 
 │                        │     │                  ├ azure      : 2 
 │                        │     │                  ├ cbl-mariner: 2 
 │                        │     │                  ├ ghsa       : 2 
@@ -3876,7 +4121,7 @@
 │                        │     │                   during DOM construction, but only when tags are in foreign
 │                        │     │                   content (e.g. <math>, <svg>, etc contexts). 
 │                        │     ├ Severity        : MEDIUM 
-│                        │     ├ VendorSeverity   ╭ amazon     : 3 
+│                        │     ├ VendorSeverity   ╭ amazon     : 2 
 │                        │     │                  ├ azure      : 2 
 │                        │     │                  ├ cbl-mariner: 2 
 │                        │     │                  ├ ghsa       : 2 
