@@ -1717,24 +1717,32 @@
 │                        │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I
 │                        │      │                            │           :N/A:L 
 │                        │      │                            ╰ V3Score : 4.3 
-│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-6069 
-│                        │      │                  ├ [1]: https://github.com/python/cpython/commit/4455cbabf991
-│                        │      │                  │      e202185a25a631af206f60bbc949 
-│                        │      │                  ├ [2]: https://github.com/python/cpython/commit/6eb6c5dbfb52
-│                        │      │                  │      8bd07d77b60fd71fd05d81d45c41 
-│                        │      │                  ├ [3]: https://github.com/python/cpython/commit/6eb6c5dbfb52
-│                        │      │                  │      8bd07d77b60fd71fd05d81d45c41 (main) 
-│                        │      │                  ├ [4]: https://github.com/python/cpython/commit/d851f8e258c7
-│                        │      │                  │      328814943e923a7df81bca15df4b 
-│                        │      │                  ├ [5]: https://github.com/python/cpython/issues/135462 
-│                        │      │                  ├ [6]: https://github.com/python/cpython/pull/135464 
-│                        │      │                  ├ [7]: https://mail.python.org/archives/list/security-announ
-│                        │      │                  │      ce@python.org/thread/K5PIYLR6EP3WR7ZOKKYQUWEDNQVUXOYM
-│                        │      │                  │      / 
-│                        │      │                  ├ [8]: https://nvd.nist.gov/vuln/detail/CVE-2025-6069 
-│                        │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2025-6069 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2025-6069 
+│                        │      │                  ├ [1] : https://github.com/python/cpython/commit/4455cbabf99
+│                        │      │                  │       1e202185a25a631af206f60bbc949 
+│                        │      │                  ├ [2] : https://github.com/python/cpython/commit/6eb6c5dbfb5
+│                        │      │                  │       28bd07d77b60fd71fd05d81d45c41 
+│                        │      │                  ├ [3] : https://github.com/python/cpython/commit/6eb6c5dbfb5
+│                        │      │                  │       28bd07d77b60fd71fd05d81d45c41 (main) 
+│                        │      │                  ├ [4] : https://github.com/python/cpython/commit/8d1b3dfa091
+│                        │      │                  │       35affbbf27fb8babcf3c11415df49 
+│                        │      │                  ├ [5] : https://github.com/python/cpython/commit/ab0893fd5c5
+│                        │      │                  │       79d9cea30841680e6d35fc478afb5 
+│                        │      │                  ├ [6] : https://github.com/python/cpython/commit/d851f8e258c
+│                        │      │                  │       7328814943e923a7df81bca15df4b 
+│                        │      │                  ├ [7] : https://github.com/python/cpython/commit/f3c6f882cdd
+│                        │      │                  │       c8dc30320d2e73edf019e201394fc 
+│                        │      │                  ├ [8] : https://github.com/python/cpython/commit/fdc9d214c01
+│                        │      │                  │       cb4588f540cfa03726bbf2a33fc15 
+│                        │      │                  ├ [9] : https://github.com/python/cpython/issues/135462 
+│                        │      │                  ├ [10]: https://github.com/python/cpython/pull/135464 
+│                        │      │                  ├ [11]: https://mail.python.org/archives/list/security-annou
+│                        │      │                  │       nce@python.org/thread/K5PIYLR6EP3WR7ZOKKYQUWEDNQVUXO
+│                        │      │                  │       YM/ 
+│                        │      │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2025-6069 
+│                        │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2025-6069 
 │                        │      ├ PublishedDate   : 2025-06-17T14:15:33.677Z 
-│                        │      ╰ LastModifiedDate: 2025-06-17T20:50:23.507Z 
+│                        │      ╰ LastModifiedDate: 2025-07-07T18:15:29.15Z 
 │                        ├ [36] ╭ VulnerabilityID : CVE-2025-6069 
 │                        │      ├ PkgID           : libpython3.12-stdlib@3.12.3-1ubuntu0.7 
 │                        │      ├ PkgName         : libpython3.12-stdlib 
@@ -1767,24 +1775,32 @@
 │                        │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I
 │                        │      │                            │           :N/A:L 
 │                        │      │                            ╰ V3Score : 4.3 
-│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-6069 
-│                        │      │                  ├ [1]: https://github.com/python/cpython/commit/4455cbabf991
-│                        │      │                  │      e202185a25a631af206f60bbc949 
-│                        │      │                  ├ [2]: https://github.com/python/cpython/commit/6eb6c5dbfb52
-│                        │      │                  │      8bd07d77b60fd71fd05d81d45c41 
-│                        │      │                  ├ [3]: https://github.com/python/cpython/commit/6eb6c5dbfb52
-│                        │      │                  │      8bd07d77b60fd71fd05d81d45c41 (main) 
-│                        │      │                  ├ [4]: https://github.com/python/cpython/commit/d851f8e258c7
-│                        │      │                  │      328814943e923a7df81bca15df4b 
-│                        │      │                  ├ [5]: https://github.com/python/cpython/issues/135462 
-│                        │      │                  ├ [6]: https://github.com/python/cpython/pull/135464 
-│                        │      │                  ├ [7]: https://mail.python.org/archives/list/security-announ
-│                        │      │                  │      ce@python.org/thread/K5PIYLR6EP3WR7ZOKKYQUWEDNQVUXOYM
-│                        │      │                  │      / 
-│                        │      │                  ├ [8]: https://nvd.nist.gov/vuln/detail/CVE-2025-6069 
-│                        │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2025-6069 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2025-6069 
+│                        │      │                  ├ [1] : https://github.com/python/cpython/commit/4455cbabf99
+│                        │      │                  │       1e202185a25a631af206f60bbc949 
+│                        │      │                  ├ [2] : https://github.com/python/cpython/commit/6eb6c5dbfb5
+│                        │      │                  │       28bd07d77b60fd71fd05d81d45c41 
+│                        │      │                  ├ [3] : https://github.com/python/cpython/commit/6eb6c5dbfb5
+│                        │      │                  │       28bd07d77b60fd71fd05d81d45c41 (main) 
+│                        │      │                  ├ [4] : https://github.com/python/cpython/commit/8d1b3dfa091
+│                        │      │                  │       35affbbf27fb8babcf3c11415df49 
+│                        │      │                  ├ [5] : https://github.com/python/cpython/commit/ab0893fd5c5
+│                        │      │                  │       79d9cea30841680e6d35fc478afb5 
+│                        │      │                  ├ [6] : https://github.com/python/cpython/commit/d851f8e258c
+│                        │      │                  │       7328814943e923a7df81bca15df4b 
+│                        │      │                  ├ [7] : https://github.com/python/cpython/commit/f3c6f882cdd
+│                        │      │                  │       c8dc30320d2e73edf019e201394fc 
+│                        │      │                  ├ [8] : https://github.com/python/cpython/commit/fdc9d214c01
+│                        │      │                  │       cb4588f540cfa03726bbf2a33fc15 
+│                        │      │                  ├ [9] : https://github.com/python/cpython/issues/135462 
+│                        │      │                  ├ [10]: https://github.com/python/cpython/pull/135464 
+│                        │      │                  ├ [11]: https://mail.python.org/archives/list/security-annou
+│                        │      │                  │       nce@python.org/thread/K5PIYLR6EP3WR7ZOKKYQUWEDNQVUXO
+│                        │      │                  │       YM/ 
+│                        │      │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2025-6069 
+│                        │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2025-6069 
 │                        │      ├ PublishedDate   : 2025-06-17T14:15:33.677Z 
-│                        │      ╰ LastModifiedDate: 2025-06-17T20:50:23.507Z 
+│                        │      ╰ LastModifiedDate: 2025-07-07T18:15:29.15Z 
 │                        ├ [37] ╭ VulnerabilityID : CVE-2025-6069 
 │                        │      ├ PkgID           : libpython3.12t64@3.12.3-1ubuntu0.7 
 │                        │      ├ PkgName         : libpython3.12t64 
@@ -1817,24 +1833,32 @@
 │                        │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I
 │                        │      │                            │           :N/A:L 
 │                        │      │                            ╰ V3Score : 4.3 
-│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-6069 
-│                        │      │                  ├ [1]: https://github.com/python/cpython/commit/4455cbabf991
-│                        │      │                  │      e202185a25a631af206f60bbc949 
-│                        │      │                  ├ [2]: https://github.com/python/cpython/commit/6eb6c5dbfb52
-│                        │      │                  │      8bd07d77b60fd71fd05d81d45c41 
-│                        │      │                  ├ [3]: https://github.com/python/cpython/commit/6eb6c5dbfb52
-│                        │      │                  │      8bd07d77b60fd71fd05d81d45c41 (main) 
-│                        │      │                  ├ [4]: https://github.com/python/cpython/commit/d851f8e258c7
-│                        │      │                  │      328814943e923a7df81bca15df4b 
-│                        │      │                  ├ [5]: https://github.com/python/cpython/issues/135462 
-│                        │      │                  ├ [6]: https://github.com/python/cpython/pull/135464 
-│                        │      │                  ├ [7]: https://mail.python.org/archives/list/security-announ
-│                        │      │                  │      ce@python.org/thread/K5PIYLR6EP3WR7ZOKKYQUWEDNQVUXOYM
-│                        │      │                  │      / 
-│                        │      │                  ├ [8]: https://nvd.nist.gov/vuln/detail/CVE-2025-6069 
-│                        │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2025-6069 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2025-6069 
+│                        │      │                  ├ [1] : https://github.com/python/cpython/commit/4455cbabf99
+│                        │      │                  │       1e202185a25a631af206f60bbc949 
+│                        │      │                  ├ [2] : https://github.com/python/cpython/commit/6eb6c5dbfb5
+│                        │      │                  │       28bd07d77b60fd71fd05d81d45c41 
+│                        │      │                  ├ [3] : https://github.com/python/cpython/commit/6eb6c5dbfb5
+│                        │      │                  │       28bd07d77b60fd71fd05d81d45c41 (main) 
+│                        │      │                  ├ [4] : https://github.com/python/cpython/commit/8d1b3dfa091
+│                        │      │                  │       35affbbf27fb8babcf3c11415df49 
+│                        │      │                  ├ [5] : https://github.com/python/cpython/commit/ab0893fd5c5
+│                        │      │                  │       79d9cea30841680e6d35fc478afb5 
+│                        │      │                  ├ [6] : https://github.com/python/cpython/commit/d851f8e258c
+│                        │      │                  │       7328814943e923a7df81bca15df4b 
+│                        │      │                  ├ [7] : https://github.com/python/cpython/commit/f3c6f882cdd
+│                        │      │                  │       c8dc30320d2e73edf019e201394fc 
+│                        │      │                  ├ [8] : https://github.com/python/cpython/commit/fdc9d214c01
+│                        │      │                  │       cb4588f540cfa03726bbf2a33fc15 
+│                        │      │                  ├ [9] : https://github.com/python/cpython/issues/135462 
+│                        │      │                  ├ [10]: https://github.com/python/cpython/pull/135464 
+│                        │      │                  ├ [11]: https://mail.python.org/archives/list/security-annou
+│                        │      │                  │       nce@python.org/thread/K5PIYLR6EP3WR7ZOKKYQUWEDNQVUXO
+│                        │      │                  │       YM/ 
+│                        │      │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2025-6069 
+│                        │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2025-6069 
 │                        │      ├ PublishedDate   : 2025-06-17T14:15:33.677Z 
-│                        │      ╰ LastModifiedDate: 2025-06-17T20:50:23.507Z 
+│                        │      ╰ LastModifiedDate: 2025-07-07T18:15:29.15Z 
 │                        ├ [38] ╭ VulnerabilityID : CVE-2025-4877 
 │                        │      ├ PkgID           : libssh-4@0.10.6-2build2 
 │                        │      ├ PkgName         : libssh-4 
@@ -1989,7 +2013,7 @@
 │                        │      │                  ╰ [5]: https://www.libssh.org/security/advisories/CVE-2025-5
 │                        │      │                         351.txt 
 │                        │      ├ PublishedDate   : 2025-07-04T09:15:37.1Z 
-│                        │      ╰ LastModifiedDate: 2025-07-04T09:15:37.1Z 
+│                        │      ╰ LastModifiedDate: 2025-07-08T16:18:53.607Z 
 │                        ├ [42] ╭ VulnerabilityID : CVE-2025-5372 
 │                        │      ├ PkgID           : libssh-4@0.10.6-2build2 
 │                        │      ├ PkgName         : libssh-4 
@@ -2034,7 +2058,7 @@
 │                        │      │                  ╰ [5]: https://www.libssh.org/security/advisories/CVE-2025-5
 │                        │      │                         372.txt 
 │                        │      ├ PublishedDate   : 2025-07-04T06:15:24.93Z 
-│                        │      ╰ LastModifiedDate: 2025-07-04T06:15:24.93Z 
+│                        │      ╰ LastModifiedDate: 2025-07-08T16:18:53.607Z 
 │                        ├ [43] ╭ VulnerabilityID : CVE-2025-5987 
 │                        │      ├ PkgID           : libssh-4@0.10.6-2build2 
 │                        │      ├ PkgName         : libssh-4 
@@ -2079,7 +2103,7 @@
 │                        │      │                  ╰ [5]: https://www.libssh.org/security/advisories/CVE-2025-5
 │                        │      │                         987.txt 
 │                        │      ├ PublishedDate   : 2025-07-07T15:15:28.18Z 
-│                        │      ╰ LastModifiedDate: 2025-07-07T15:15:28.18Z 
+│                        │      ╰ LastModifiedDate: 2025-07-08T16:18:34.923Z 
 │                        ├ [44] ╭ VulnerabilityID : CVE-2024-41996 
 │                        │      ├ PkgID           : libssl3t64@3.0.13-0ubuntu3.5 
 │                        │      ├ PkgName         : libssl3t64 
@@ -2446,24 +2470,32 @@
 │                        │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I
 │                        │      │                            │           :N/A:L 
 │                        │      │                            ╰ V3Score : 4.3 
-│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-6069 
-│                        │      │                  ├ [1]: https://github.com/python/cpython/commit/4455cbabf991
-│                        │      │                  │      e202185a25a631af206f60bbc949 
-│                        │      │                  ├ [2]: https://github.com/python/cpython/commit/6eb6c5dbfb52
-│                        │      │                  │      8bd07d77b60fd71fd05d81d45c41 
-│                        │      │                  ├ [3]: https://github.com/python/cpython/commit/6eb6c5dbfb52
-│                        │      │                  │      8bd07d77b60fd71fd05d81d45c41 (main) 
-│                        │      │                  ├ [4]: https://github.com/python/cpython/commit/d851f8e258c7
-│                        │      │                  │      328814943e923a7df81bca15df4b 
-│                        │      │                  ├ [5]: https://github.com/python/cpython/issues/135462 
-│                        │      │                  ├ [6]: https://github.com/python/cpython/pull/135464 
-│                        │      │                  ├ [7]: https://mail.python.org/archives/list/security-announ
-│                        │      │                  │      ce@python.org/thread/K5PIYLR6EP3WR7ZOKKYQUWEDNQVUXOYM
-│                        │      │                  │      / 
-│                        │      │                  ├ [8]: https://nvd.nist.gov/vuln/detail/CVE-2025-6069 
-│                        │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2025-6069 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2025-6069 
+│                        │      │                  ├ [1] : https://github.com/python/cpython/commit/4455cbabf99
+│                        │      │                  │       1e202185a25a631af206f60bbc949 
+│                        │      │                  ├ [2] : https://github.com/python/cpython/commit/6eb6c5dbfb5
+│                        │      │                  │       28bd07d77b60fd71fd05d81d45c41 
+│                        │      │                  ├ [3] : https://github.com/python/cpython/commit/6eb6c5dbfb5
+│                        │      │                  │       28bd07d77b60fd71fd05d81d45c41 (main) 
+│                        │      │                  ├ [4] : https://github.com/python/cpython/commit/8d1b3dfa091
+│                        │      │                  │       35affbbf27fb8babcf3c11415df49 
+│                        │      │                  ├ [5] : https://github.com/python/cpython/commit/ab0893fd5c5
+│                        │      │                  │       79d9cea30841680e6d35fc478afb5 
+│                        │      │                  ├ [6] : https://github.com/python/cpython/commit/d851f8e258c
+│                        │      │                  │       7328814943e923a7df81bca15df4b 
+│                        │      │                  ├ [7] : https://github.com/python/cpython/commit/f3c6f882cdd
+│                        │      │                  │       c8dc30320d2e73edf019e201394fc 
+│                        │      │                  ├ [8] : https://github.com/python/cpython/commit/fdc9d214c01
+│                        │      │                  │       cb4588f540cfa03726bbf2a33fc15 
+│                        │      │                  ├ [9] : https://github.com/python/cpython/issues/135462 
+│                        │      │                  ├ [10]: https://github.com/python/cpython/pull/135464 
+│                        │      │                  ├ [11]: https://mail.python.org/archives/list/security-annou
+│                        │      │                  │       nce@python.org/thread/K5PIYLR6EP3WR7ZOKKYQUWEDNQVUXO
+│                        │      │                  │       YM/ 
+│                        │      │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2025-6069 
+│                        │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2025-6069 
 │                        │      ├ PublishedDate   : 2025-06-17T14:15:33.677Z 
-│                        │      ╰ LastModifiedDate: 2025-06-17T20:50:23.507Z 
+│                        │      ╰ LastModifiedDate: 2025-07-07T18:15:29.15Z 
 │                        ├ [52] ╭ VulnerabilityID : CVE-2025-6069 
 │                        │      ├ PkgID           : python3.12-minimal@3.12.3-1ubuntu0.7 
 │                        │      ├ PkgName         : python3.12-minimal 
@@ -2496,24 +2528,32 @@
 │                        │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I
 │                        │      │                            │           :N/A:L 
 │                        │      │                            ╰ V3Score : 4.3 
-│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-6069 
-│                        │      │                  ├ [1]: https://github.com/python/cpython/commit/4455cbabf991
-│                        │      │                  │      e202185a25a631af206f60bbc949 
-│                        │      │                  ├ [2]: https://github.com/python/cpython/commit/6eb6c5dbfb52
-│                        │      │                  │      8bd07d77b60fd71fd05d81d45c41 
-│                        │      │                  ├ [3]: https://github.com/python/cpython/commit/6eb6c5dbfb52
-│                        │      │                  │      8bd07d77b60fd71fd05d81d45c41 (main) 
-│                        │      │                  ├ [4]: https://github.com/python/cpython/commit/d851f8e258c7
-│                        │      │                  │      328814943e923a7df81bca15df4b 
-│                        │      │                  ├ [5]: https://github.com/python/cpython/issues/135462 
-│                        │      │                  ├ [6]: https://github.com/python/cpython/pull/135464 
-│                        │      │                  ├ [7]: https://mail.python.org/archives/list/security-announ
-│                        │      │                  │      ce@python.org/thread/K5PIYLR6EP3WR7ZOKKYQUWEDNQVUXOYM
-│                        │      │                  │      / 
-│                        │      │                  ├ [8]: https://nvd.nist.gov/vuln/detail/CVE-2025-6069 
-│                        │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2025-6069 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2025-6069 
+│                        │      │                  ├ [1] : https://github.com/python/cpython/commit/4455cbabf99
+│                        │      │                  │       1e202185a25a631af206f60bbc949 
+│                        │      │                  ├ [2] : https://github.com/python/cpython/commit/6eb6c5dbfb5
+│                        │      │                  │       28bd07d77b60fd71fd05d81d45c41 
+│                        │      │                  ├ [3] : https://github.com/python/cpython/commit/6eb6c5dbfb5
+│                        │      │                  │       28bd07d77b60fd71fd05d81d45c41 (main) 
+│                        │      │                  ├ [4] : https://github.com/python/cpython/commit/8d1b3dfa091
+│                        │      │                  │       35affbbf27fb8babcf3c11415df49 
+│                        │      │                  ├ [5] : https://github.com/python/cpython/commit/ab0893fd5c5
+│                        │      │                  │       79d9cea30841680e6d35fc478afb5 
+│                        │      │                  ├ [6] : https://github.com/python/cpython/commit/d851f8e258c
+│                        │      │                  │       7328814943e923a7df81bca15df4b 
+│                        │      │                  ├ [7] : https://github.com/python/cpython/commit/f3c6f882cdd
+│                        │      │                  │       c8dc30320d2e73edf019e201394fc 
+│                        │      │                  ├ [8] : https://github.com/python/cpython/commit/fdc9d214c01
+│                        │      │                  │       cb4588f540cfa03726bbf2a33fc15 
+│                        │      │                  ├ [9] : https://github.com/python/cpython/issues/135462 
+│                        │      │                  ├ [10]: https://github.com/python/cpython/pull/135464 
+│                        │      │                  ├ [11]: https://mail.python.org/archives/list/security-annou
+│                        │      │                  │       nce@python.org/thread/K5PIYLR6EP3WR7ZOKKYQUWEDNQVUXO
+│                        │      │                  │       YM/ 
+│                        │      │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2025-6069 
+│                        │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2025-6069 
 │                        │      ├ PublishedDate   : 2025-06-17T14:15:33.677Z 
-│                        │      ╰ LastModifiedDate: 2025-06-17T20:50:23.507Z 
+│                        │      ╰ LastModifiedDate: 2025-07-07T18:15:29.15Z 
 │                        ├ [53] ╭ VulnerabilityID : CVE-2024-56433 
 │                        │      ├ PkgID           : uidmap@1:4.13+dfsg1-4ubuntu3.2 
 │                        │      ├ PkgName         : uidmap 
@@ -2692,7 +2732,7 @@
 │                        │     │                  ├ [15]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                        │     │                  │       24-24783 
 │                        │     │                  ├ [16]: https://errata.almalinux.org/9/ALSA-2024-2724.html 
-│                        │     │                  ├ [17]: https://errata.rockylinux.org/RLSA-2024:3346 
+│                        │     │                  ├ [17]: https://errata.rockylinux.org/RLSA-2024:2724 
 │                        │     │                  ├ [18]: https://go.dev/cl/576155 
 │                        │     │                  ├ [19]: https://go.dev/issue/65051 
 │                        │     │                  ├ [20]: https://groups.google.com/g/golang-announce/c/YgW0sx8
@@ -2806,7 +2846,7 @@
 │                        │     │                   during DOM construction, but only when tags are in foreign
 │                        │     │                   content (e.g. <math>, <svg>, etc contexts). 
 │                        │     ├ Severity        : MEDIUM 
-│                        │     ├ VendorSeverity   ╭ amazon     : 2 
+│                        │     ├ VendorSeverity   ╭ amazon     : 3 
 │                        │     │                  ├ azure      : 2 
 │                        │     │                  ├ cbl-mariner: 2 
 │                        │     │                  ├ ghsa       : 2 
@@ -3083,7 +3123,7 @@
 │                        │     │                  ├ [15]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                        │     │                  │       24-24783 
 │                        │     │                  ├ [16]: https://errata.almalinux.org/9/ALSA-2024-2724.html 
-│                        │     │                  ├ [17]: https://errata.rockylinux.org/RLSA-2024:3346 
+│                        │     │                  ├ [17]: https://errata.rockylinux.org/RLSA-2024:2724 
 │                        │     │                  ├ [18]: https://go.dev/cl/576155 
 │                        │     │                  ├ [19]: https://go.dev/issue/65051 
 │                        │     │                  ├ [20]: https://groups.google.com/g/golang-announce/c/YgW0sx8
@@ -3197,7 +3237,7 @@
 │                        │     │                   during DOM construction, but only when tags are in foreign
 │                        │     │                   content (e.g. <math>, <svg>, etc contexts). 
 │                        │     ├ Severity        : MEDIUM 
-│                        │     ├ VendorSeverity   ╭ amazon     : 2 
+│                        │     ├ VendorSeverity   ╭ amazon     : 3 
 │                        │     │                  ├ azure      : 2 
 │                        │     │                  ├ cbl-mariner: 2 
 │                        │     │                  ├ ghsa       : 2 
@@ -4121,7 +4161,7 @@
 │                        │     │                   during DOM construction, but only when tags are in foreign
 │                        │     │                   content (e.g. <math>, <svg>, etc contexts). 
 │                        │     ├ Severity        : MEDIUM 
-│                        │     ├ VendorSeverity   ╭ amazon     : 2 
+│                        │     ├ VendorSeverity   ╭ amazon     : 3 
 │                        │     │                  ├ azure      : 2 
 │                        │     │                  ├ cbl-mariner: 2 
 │                        │     │                  ├ ghsa       : 2 
