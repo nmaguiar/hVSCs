@@ -246,7 +246,255 @@
 │                        │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2024-52005 
 │                        │      ├ PublishedDate   : 2025-01-15T18:15:24.13Z 
 │                        │      ╰ LastModifiedDate: 2025-01-15T18:15:24.13Z 
-│                        ├ [5]  ╭ VulnerabilityID : CVE-2024-52005 
+│                        ├ [5]  ╭ VulnerabilityID : CVE-2025-27613 
+│                        │      ├ PkgID           : git@1:2.43.0-1ubuntu7.2 
+│                        │      ├ PkgName         : git 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/git@2.43.0-1ubuntu7.2?arch=amd64&dist
+│                        │      │                  │       ro=ubuntu-24.04&epoch=1 
+│                        │      │                  ╰ UID : 693210bb81f9e32b 
+│                        │      ├ InstalledVersion: 1:2.43.0-1ubuntu7.2 
+│                        │      ├ FixedVersion    : 1:2.43.0-1ubuntu7.3 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:fa8f8a8aed13a85e6b0fea459f9c86cb6432a96d8cc
+│                        │      │                  │         e2efcc57a13cdce25c04c 
+│                        │      │                  ╰ DiffID: sha256:c97c70da484a348cc3e7e13a79aac8b49f3c78269dd
+│                        │      │                            7700236633f4a5d56c4bc 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-27613 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Description     : When a user clones an untrusted repository and runs Gitk
+│                        │      │                   without additional command arguments, any writable file can
+│                        │      │                    be created and truncated. The option "Support per-file
+│                        │      │                   encoding" must have been enabled. The operation "Show
+│                        │      │                   origin of this line" is affected as well, regardless of the
+│                        │      │                    option being enabled or not. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ VendorSeverity   ─ ubuntu: 2 
+│                        │      ╰ References       ╭ [0]: https://ubuntu.com/security/notices/USN-7626-1 
+│                        │                         ├ [1]: https://www.cve.org/CVERecord?id=CVE-2025-27613 
+│                        │                         ╰ [2]: https://www.openwall.com/lists/oss-security/2025/07/0
+│                        │                                8/4 
+│                        ├ [6]  ╭ VulnerabilityID : CVE-2025-27614 
+│                        │      ├ PkgID           : git@1:2.43.0-1ubuntu7.2 
+│                        │      ├ PkgName         : git 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/git@2.43.0-1ubuntu7.2?arch=amd64&dist
+│                        │      │                  │       ro=ubuntu-24.04&epoch=1 
+│                        │      │                  ╰ UID : 693210bb81f9e32b 
+│                        │      ├ InstalledVersion: 1:2.43.0-1ubuntu7.2 
+│                        │      ├ FixedVersion    : 1:2.43.0-1ubuntu7.3 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:fa8f8a8aed13a85e6b0fea459f9c86cb6432a96d8cc
+│                        │      │                  │         e2efcc57a13cdce25c04c 
+│                        │      │                  ╰ DiffID: sha256:c97c70da484a348cc3e7e13a79aac8b49f3c78269dd
+│                        │      │                            7700236633f4a5d56c4bc 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-27614 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Description     : A Git repository can be crafted in such a way that a user
+│                        │      │                   who has cloned the repository can be tricked into running
+│                        │      │                   any script supplied by the attacker by invoking `gitk
+│                        │      │                   filename`, where `filename` has a particular structure. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ VendorSeverity   ─ ubuntu: 2 
+│                        │      ╰ References       ╭ [0]: https://ubuntu.com/security/notices/USN-7626-1 
+│                        │                         ├ [1]: https://www.cve.org/CVERecord?id=CVE-2025-27614 
+│                        │                         ╰ [2]: https://www.openwall.com/lists/oss-security/2025/07/0
+│                        │                                8/4 
+│                        ├ [7]  ╭ VulnerabilityID : CVE-2025-46835 
+│                        │      ├ PkgID           : git@1:2.43.0-1ubuntu7.2 
+│                        │      ├ PkgName         : git 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/git@2.43.0-1ubuntu7.2?arch=amd64&dist
+│                        │      │                  │       ro=ubuntu-24.04&epoch=1 
+│                        │      │                  ╰ UID : 693210bb81f9e32b 
+│                        │      ├ InstalledVersion: 1:2.43.0-1ubuntu7.2 
+│                        │      ├ FixedVersion    : 1:2.43.0-1ubuntu7.3 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:fa8f8a8aed13a85e6b0fea459f9c86cb6432a96d8cc
+│                        │      │                  │         e2efcc57a13cdce25c04c 
+│                        │      │                  ╰ DiffID: sha256:c97c70da484a348cc3e7e13a79aac8b49f3c78269dd
+│                        │      │                            7700236633f4a5d56c4bc 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-46835 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Description     : When a user clones an untrusted repository and is tricked
+│                        │      │                   into editing a file located in a maliciously named
+│                        │      │                   directory in the repository, then Git GUI can create and
+│                        │      │                   overwrite any writable file. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ VendorSeverity   ─ ubuntu: 2 
+│                        │      ╰ References       ╭ [0]: https://ubuntu.com/security/notices/USN-7626-1 
+│                        │                         ├ [1]: https://www.cve.org/CVERecord?id=CVE-2025-46835 
+│                        │                         ╰ [2]: https://www.openwall.com/lists/oss-security/2025/07/0
+│                        │                                8/4 
+│                        ├ [8]  ╭ VulnerabilityID : CVE-2025-48384 
+│                        │      ├ PkgID           : git@1:2.43.0-1ubuntu7.2 
+│                        │      ├ PkgName         : git 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/git@2.43.0-1ubuntu7.2?arch=amd64&dist
+│                        │      │                  │       ro=ubuntu-24.04&epoch=1 
+│                        │      │                  ╰ UID : 693210bb81f9e32b 
+│                        │      ├ InstalledVersion: 1:2.43.0-1ubuntu7.2 
+│                        │      ├ FixedVersion    : 1:2.43.0-1ubuntu7.3 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:fa8f8a8aed13a85e6b0fea459f9c86cb6432a96d8cc
+│                        │      │                  │         e2efcc57a13cdce25c04c 
+│                        │      │                  ╰ DiffID: sha256:c97c70da484a348cc3e7e13a79aac8b49f3c78269dd
+│                        │      │                            7700236633f4a5d56c4bc 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-48384 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : git: Git arbitrary code execution 
+│                        │      ├ Description     : Git is a fast, scalable, distributed revision control
+│                        │      │                   system with an unusually rich command set that provides
+│                        │      │                   both high-level operations and full access to internals.
+│                        │      │                   When reading a config value, Git strips any trailing
+│                        │      │                   carriage return and line feed (CRLF). When writing a config
+│                        │      │                    entry, values with a trailing CR are not quoted, causing
+│                        │      │                   the CR to be lost when the config is later read. When
+│                        │      │                   initializing a submodule, if the submodule path contains a
+│                        │      │                   trailing CR, the altered path is read resulting in the
+│                        │      │                   submodule being checked out to an incorrect location. If a
+│                        │      │                   symlink exists that points the altered path to the
+│                        │      │                   submodule hooks directory, and the submodule contains an
+│                        │      │                   executable post-checkout hook, the script may be
+│                        │      │                   unintentionally executed after checkout. This vulnerability
+│                        │      │                    is fixed in v2.43.7, v2.44.4, v2.45.4, v2.46.4, v2.47.3,
+│                        │      │                   v2.48.2, v2.49.1, and v2.50.1. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ CweIDs           ╭ [0]: CWE-59 
+│                        │      │                  ╰ [1]: CWE-436 
+│                        │      ├ VendorSeverity   ╭ redhat: 3 
+│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:C/C:H/I:
+│                        │      │                           │           H/A:H 
+│                        │      │                           ╰ V3Score : 8 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-48384 
+│                        │      │                  ├ [1]: https://dgl.cx/2025/07/git-clone-submodule-cve-2025-4
+│                        │      │                  │      8384 
+│                        │      │                  ├ [2]: https://github.com/git/git/commit/05e9cd64ee23bbadcea
+│                        │      │                  │      6bcffd6660ed02b8eab89 
+│                        │      │                  ├ [3]: https://github.com/git/git/security/advisories/GHSA-v
+│                        │      │                  │      wqx-4fm8-6qc9 
+│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-48384 
+│                        │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-7626-1 
+│                        │      │                  ├ [6]: https://www.cve.org/CVERecord?id=CVE-2025-48384 
+│                        │      │                  ╰ [7]: https://www.openwall.com/lists/oss-security/2025/07/0
+│                        │      │                         8/4 
+│                        │      ├ PublishedDate   : 2025-07-08T19:15:42.8Z 
+│                        │      ╰ LastModifiedDate: 2025-07-08T19:15:42.8Z 
+│                        ├ [9]  ╭ VulnerabilityID : CVE-2025-48385 
+│                        │      ├ PkgID           : git@1:2.43.0-1ubuntu7.2 
+│                        │      ├ PkgName         : git 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/git@2.43.0-1ubuntu7.2?arch=amd64&dist
+│                        │      │                  │       ro=ubuntu-24.04&epoch=1 
+│                        │      │                  ╰ UID : 693210bb81f9e32b 
+│                        │      ├ InstalledVersion: 1:2.43.0-1ubuntu7.2 
+│                        │      ├ FixedVersion    : 1:2.43.0-1ubuntu7.3 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:fa8f8a8aed13a85e6b0fea459f9c86cb6432a96d8cc
+│                        │      │                  │         e2efcc57a13cdce25c04c 
+│                        │      │                  ╰ DiffID: sha256:c97c70da484a348cc3e7e13a79aac8b49f3c78269dd
+│                        │      │                            7700236633f4a5d56c4bc 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-48385 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : git: Git arbitrary file writes 
+│                        │      ├ Description     : Git is a fast, scalable, distributed revision control
+│                        │      │                   system with an unusually rich command set that provides
+│                        │      │                   both high-level operations and full access to internals.
+│                        │      │                   When cloning a repository Git knows to optionally fetch a
+│                        │      │                   bundle advertised by the remote server, which allows the
+│                        │      │                   server-side to offload parts of the clone to a CDN. The Git
+│                        │      │                    client does not perform sufficient validation of the
+│                        │      │                   advertised bundles, which allows the remote side to perform
+│                        │      │                    protocol injection. This protocol injection can cause the
+│                        │      │                   client to write the fetched bundle to a location controlled
+│                        │      │                    by the adversary. The fetched content is fully controlled
+│                        │      │                   by the server, which can in the worst case lead to
+│                        │      │                   arbitrary code execution. The use of bundle URIs is not
+│                        │      │                   enabled by default and can be controlled by the
+│                        │      │                   bundle.heuristic config option. Some cases of the
+│                        │      │                   vulnerability require that the adversary is in control of
+│                        │      │                   where a repository will be cloned to. This either requires
+│                        │      │                   social engineering or a recursive clone with submodules.
+│                        │      │                   These cases can thus be avoided by disabling recursive
+│                        │      │                   clones. This vulnerability is fixed in v2.43.7, v2.44.4,
+│                        │      │                   v2.45.4, v2.46.4, v2.47.3, v2.48.2, v2.49.1, and v2.50.1. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ CweIDs           ╭ [0]: CWE-73 
+│                        │      │                  ╰ [1]: CWE-88 
+│                        │      ├ VendorSeverity   ╭ redhat: 3 
+│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:
+│                        │      │                           │           H/A:L 
+│                        │      │                           ╰ V3Score : 8.3 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-48385 
+│                        │      │                  ├ [1]: https://github.com/git/git/security/advisories/GHSA-m
+│                        │      │                  │      98c-vgpc-9655 
+│                        │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2025-48385 
+│                        │      │                  ├ [3]: https://ubuntu.com/security/notices/USN-7626-1 
+│                        │      │                  ├ [4]: https://www.cve.org/CVERecord?id=CVE-2025-48385 
+│                        │      │                  ╰ [5]: https://www.openwall.com/lists/oss-security/2025/07/0
+│                        │      │                         8/4 
+│                        │      ├ PublishedDate   : 2025-07-08T19:15:43.097Z 
+│                        │      ╰ LastModifiedDate: 2025-07-08T19:15:43.097Z 
+│                        ├ [10] ╭ VulnerabilityID : CVE-2025-48386 
+│                        │      ├ PkgID           : git@1:2.43.0-1ubuntu7.2 
+│                        │      ├ PkgName         : git 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/git@2.43.0-1ubuntu7.2?arch=amd64&dist
+│                        │      │                  │       ro=ubuntu-24.04&epoch=1 
+│                        │      │                  ╰ UID : 693210bb81f9e32b 
+│                        │      ├ InstalledVersion: 1:2.43.0-1ubuntu7.2 
+│                        │      ├ FixedVersion    : 1:2.43.0-1ubuntu7.3 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:fa8f8a8aed13a85e6b0fea459f9c86cb6432a96d8cc
+│                        │      │                  │         e2efcc57a13cdce25c04c 
+│                        │      │                  ╰ DiffID: sha256:c97c70da484a348cc3e7e13a79aac8b49f3c78269dd
+│                        │      │                            7700236633f4a5d56c4bc 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-48386 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : git: Git buffer overflow 
+│                        │      ├ Description     : Git is a fast, scalable, distributed revision control
+│                        │      │                   system with an unusually rich command set that provides
+│                        │      │                   both high-level operations and full access to internals.
+│                        │      │                   The wincred credential helper uses a static buffer (target)
+│                        │      │                    as a unique key for storing and comparing against internal
+│                        │      │                    storage. This credential helper does not properly bounds
+│                        │      │                   check the available space remaining in the buffer before
+│                        │      │                   appending to it with wcsncat(), leading to potential buffer
+│                        │      │                    overflows. This vulnerability is fixed in v2.43.7,
+│                        │      │                   v2.44.4, v2.45.4, v2.46.4, v2.47.3, v2.48.2, v2.49.1, and
+│                        │      │                   v2.50.1. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ CweIDs           ─ [0]: CWE-120 
+│                        │      ├ VendorSeverity   ╭ redhat: 2 
+│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:C/C:H/I:
+│                        │      │                           │           N/A:N 
+│                        │      │                           ╰ V3Score : 6.3 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-48386 
+│                        │      │                  ├ [1]: https://github.com/git/git/security/advisories/GHSA-4
+│                        │      │                  │      v56-3xvj-xvfr 
+│                        │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2025-48386 
+│                        │      │                  ├ [3]: https://ubuntu.com/security/notices/USN-7626-1 
+│                        │      │                  ├ [4]: https://www.cve.org/CVERecord?id=CVE-2025-48386 
+│                        │      │                  ╰ [5]: https://www.openwall.com/lists/oss-security/2025/07/0
+│                        │      │                         8/4 
+│                        │      ├ PublishedDate   : 2025-07-08T19:15:43.41Z 
+│                        │      ╰ LastModifiedDate: 2025-07-08T19:15:43.41Z 
+│                        ├ [11] ╭ VulnerabilityID : CVE-2024-52005 
 │                        │      ├ PkgID           : git-man@1:2.43.0-1ubuntu7.2 
 │                        │      ├ PkgName         : git-man 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/git-man@2.43.0-1ubuntu7.2?arch=all&di
@@ -309,7 +557,255 @@
 │                        │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2024-52005 
 │                        │      ├ PublishedDate   : 2025-01-15T18:15:24.13Z 
 │                        │      ╰ LastModifiedDate: 2025-01-15T18:15:24.13Z 
-│                        ├ [6]  ╭ VulnerabilityID : CVE-2022-3219 
+│                        ├ [12] ╭ VulnerabilityID : CVE-2025-27613 
+│                        │      ├ PkgID           : git-man@1:2.43.0-1ubuntu7.2 
+│                        │      ├ PkgName         : git-man 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/git-man@2.43.0-1ubuntu7.2?arch=all&di
+│                        │      │                  │       stro=ubuntu-24.04&epoch=1 
+│                        │      │                  ╰ UID : 9af0d565194dd240 
+│                        │      ├ InstalledVersion: 1:2.43.0-1ubuntu7.2 
+│                        │      ├ FixedVersion    : 1:2.43.0-1ubuntu7.3 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:fa8f8a8aed13a85e6b0fea459f9c86cb6432a96d8cc
+│                        │      │                  │         e2efcc57a13cdce25c04c 
+│                        │      │                  ╰ DiffID: sha256:c97c70da484a348cc3e7e13a79aac8b49f3c78269dd
+│                        │      │                            7700236633f4a5d56c4bc 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-27613 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Description     : When a user clones an untrusted repository and runs Gitk
+│                        │      │                   without additional command arguments, any writable file can
+│                        │      │                    be created and truncated. The option "Support per-file
+│                        │      │                   encoding" must have been enabled. The operation "Show
+│                        │      │                   origin of this line" is affected as well, regardless of the
+│                        │      │                    option being enabled or not. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ VendorSeverity   ─ ubuntu: 2 
+│                        │      ╰ References       ╭ [0]: https://ubuntu.com/security/notices/USN-7626-1 
+│                        │                         ├ [1]: https://www.cve.org/CVERecord?id=CVE-2025-27613 
+│                        │                         ╰ [2]: https://www.openwall.com/lists/oss-security/2025/07/0
+│                        │                                8/4 
+│                        ├ [13] ╭ VulnerabilityID : CVE-2025-27614 
+│                        │      ├ PkgID           : git-man@1:2.43.0-1ubuntu7.2 
+│                        │      ├ PkgName         : git-man 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/git-man@2.43.0-1ubuntu7.2?arch=all&di
+│                        │      │                  │       stro=ubuntu-24.04&epoch=1 
+│                        │      │                  ╰ UID : 9af0d565194dd240 
+│                        │      ├ InstalledVersion: 1:2.43.0-1ubuntu7.2 
+│                        │      ├ FixedVersion    : 1:2.43.0-1ubuntu7.3 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:fa8f8a8aed13a85e6b0fea459f9c86cb6432a96d8cc
+│                        │      │                  │         e2efcc57a13cdce25c04c 
+│                        │      │                  ╰ DiffID: sha256:c97c70da484a348cc3e7e13a79aac8b49f3c78269dd
+│                        │      │                            7700236633f4a5d56c4bc 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-27614 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Description     : A Git repository can be crafted in such a way that a user
+│                        │      │                   who has cloned the repository can be tricked into running
+│                        │      │                   any script supplied by the attacker by invoking `gitk
+│                        │      │                   filename`, where `filename` has a particular structure. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ VendorSeverity   ─ ubuntu: 2 
+│                        │      ╰ References       ╭ [0]: https://ubuntu.com/security/notices/USN-7626-1 
+│                        │                         ├ [1]: https://www.cve.org/CVERecord?id=CVE-2025-27614 
+│                        │                         ╰ [2]: https://www.openwall.com/lists/oss-security/2025/07/0
+│                        │                                8/4 
+│                        ├ [14] ╭ VulnerabilityID : CVE-2025-46835 
+│                        │      ├ PkgID           : git-man@1:2.43.0-1ubuntu7.2 
+│                        │      ├ PkgName         : git-man 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/git-man@2.43.0-1ubuntu7.2?arch=all&di
+│                        │      │                  │       stro=ubuntu-24.04&epoch=1 
+│                        │      │                  ╰ UID : 9af0d565194dd240 
+│                        │      ├ InstalledVersion: 1:2.43.0-1ubuntu7.2 
+│                        │      ├ FixedVersion    : 1:2.43.0-1ubuntu7.3 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:fa8f8a8aed13a85e6b0fea459f9c86cb6432a96d8cc
+│                        │      │                  │         e2efcc57a13cdce25c04c 
+│                        │      │                  ╰ DiffID: sha256:c97c70da484a348cc3e7e13a79aac8b49f3c78269dd
+│                        │      │                            7700236633f4a5d56c4bc 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-46835 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Description     : When a user clones an untrusted repository and is tricked
+│                        │      │                   into editing a file located in a maliciously named
+│                        │      │                   directory in the repository, then Git GUI can create and
+│                        │      │                   overwrite any writable file. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ VendorSeverity   ─ ubuntu: 2 
+│                        │      ╰ References       ╭ [0]: https://ubuntu.com/security/notices/USN-7626-1 
+│                        │                         ├ [1]: https://www.cve.org/CVERecord?id=CVE-2025-46835 
+│                        │                         ╰ [2]: https://www.openwall.com/lists/oss-security/2025/07/0
+│                        │                                8/4 
+│                        ├ [15] ╭ VulnerabilityID : CVE-2025-48384 
+│                        │      ├ PkgID           : git-man@1:2.43.0-1ubuntu7.2 
+│                        │      ├ PkgName         : git-man 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/git-man@2.43.0-1ubuntu7.2?arch=all&di
+│                        │      │                  │       stro=ubuntu-24.04&epoch=1 
+│                        │      │                  ╰ UID : 9af0d565194dd240 
+│                        │      ├ InstalledVersion: 1:2.43.0-1ubuntu7.2 
+│                        │      ├ FixedVersion    : 1:2.43.0-1ubuntu7.3 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:fa8f8a8aed13a85e6b0fea459f9c86cb6432a96d8cc
+│                        │      │                  │         e2efcc57a13cdce25c04c 
+│                        │      │                  ╰ DiffID: sha256:c97c70da484a348cc3e7e13a79aac8b49f3c78269dd
+│                        │      │                            7700236633f4a5d56c4bc 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-48384 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : git: Git arbitrary code execution 
+│                        │      ├ Description     : Git is a fast, scalable, distributed revision control
+│                        │      │                   system with an unusually rich command set that provides
+│                        │      │                   both high-level operations and full access to internals.
+│                        │      │                   When reading a config value, Git strips any trailing
+│                        │      │                   carriage return and line feed (CRLF). When writing a config
+│                        │      │                    entry, values with a trailing CR are not quoted, causing
+│                        │      │                   the CR to be lost when the config is later read. When
+│                        │      │                   initializing a submodule, if the submodule path contains a
+│                        │      │                   trailing CR, the altered path is read resulting in the
+│                        │      │                   submodule being checked out to an incorrect location. If a
+│                        │      │                   symlink exists that points the altered path to the
+│                        │      │                   submodule hooks directory, and the submodule contains an
+│                        │      │                   executable post-checkout hook, the script may be
+│                        │      │                   unintentionally executed after checkout. This vulnerability
+│                        │      │                    is fixed in v2.43.7, v2.44.4, v2.45.4, v2.46.4, v2.47.3,
+│                        │      │                   v2.48.2, v2.49.1, and v2.50.1. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ CweIDs           ╭ [0]: CWE-59 
+│                        │      │                  ╰ [1]: CWE-436 
+│                        │      ├ VendorSeverity   ╭ redhat: 3 
+│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:C/C:H/I:
+│                        │      │                           │           H/A:H 
+│                        │      │                           ╰ V3Score : 8 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-48384 
+│                        │      │                  ├ [1]: https://dgl.cx/2025/07/git-clone-submodule-cve-2025-4
+│                        │      │                  │      8384 
+│                        │      │                  ├ [2]: https://github.com/git/git/commit/05e9cd64ee23bbadcea
+│                        │      │                  │      6bcffd6660ed02b8eab89 
+│                        │      │                  ├ [3]: https://github.com/git/git/security/advisories/GHSA-v
+│                        │      │                  │      wqx-4fm8-6qc9 
+│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-48384 
+│                        │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-7626-1 
+│                        │      │                  ├ [6]: https://www.cve.org/CVERecord?id=CVE-2025-48384 
+│                        │      │                  ╰ [7]: https://www.openwall.com/lists/oss-security/2025/07/0
+│                        │      │                         8/4 
+│                        │      ├ PublishedDate   : 2025-07-08T19:15:42.8Z 
+│                        │      ╰ LastModifiedDate: 2025-07-08T19:15:42.8Z 
+│                        ├ [16] ╭ VulnerabilityID : CVE-2025-48385 
+│                        │      ├ PkgID           : git-man@1:2.43.0-1ubuntu7.2 
+│                        │      ├ PkgName         : git-man 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/git-man@2.43.0-1ubuntu7.2?arch=all&di
+│                        │      │                  │       stro=ubuntu-24.04&epoch=1 
+│                        │      │                  ╰ UID : 9af0d565194dd240 
+│                        │      ├ InstalledVersion: 1:2.43.0-1ubuntu7.2 
+│                        │      ├ FixedVersion    : 1:2.43.0-1ubuntu7.3 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:fa8f8a8aed13a85e6b0fea459f9c86cb6432a96d8cc
+│                        │      │                  │         e2efcc57a13cdce25c04c 
+│                        │      │                  ╰ DiffID: sha256:c97c70da484a348cc3e7e13a79aac8b49f3c78269dd
+│                        │      │                            7700236633f4a5d56c4bc 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-48385 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : git: Git arbitrary file writes 
+│                        │      ├ Description     : Git is a fast, scalable, distributed revision control
+│                        │      │                   system with an unusually rich command set that provides
+│                        │      │                   both high-level operations and full access to internals.
+│                        │      │                   When cloning a repository Git knows to optionally fetch a
+│                        │      │                   bundle advertised by the remote server, which allows the
+│                        │      │                   server-side to offload parts of the clone to a CDN. The Git
+│                        │      │                    client does not perform sufficient validation of the
+│                        │      │                   advertised bundles, which allows the remote side to perform
+│                        │      │                    protocol injection. This protocol injection can cause the
+│                        │      │                   client to write the fetched bundle to a location controlled
+│                        │      │                    by the adversary. The fetched content is fully controlled
+│                        │      │                   by the server, which can in the worst case lead to
+│                        │      │                   arbitrary code execution. The use of bundle URIs is not
+│                        │      │                   enabled by default and can be controlled by the
+│                        │      │                   bundle.heuristic config option. Some cases of the
+│                        │      │                   vulnerability require that the adversary is in control of
+│                        │      │                   where a repository will be cloned to. This either requires
+│                        │      │                   social engineering or a recursive clone with submodules.
+│                        │      │                   These cases can thus be avoided by disabling recursive
+│                        │      │                   clones. This vulnerability is fixed in v2.43.7, v2.44.4,
+│                        │      │                   v2.45.4, v2.46.4, v2.47.3, v2.48.2, v2.49.1, and v2.50.1. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ CweIDs           ╭ [0]: CWE-73 
+│                        │      │                  ╰ [1]: CWE-88 
+│                        │      ├ VendorSeverity   ╭ redhat: 3 
+│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:
+│                        │      │                           │           H/A:L 
+│                        │      │                           ╰ V3Score : 8.3 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-48385 
+│                        │      │                  ├ [1]: https://github.com/git/git/security/advisories/GHSA-m
+│                        │      │                  │      98c-vgpc-9655 
+│                        │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2025-48385 
+│                        │      │                  ├ [3]: https://ubuntu.com/security/notices/USN-7626-1 
+│                        │      │                  ├ [4]: https://www.cve.org/CVERecord?id=CVE-2025-48385 
+│                        │      │                  ╰ [5]: https://www.openwall.com/lists/oss-security/2025/07/0
+│                        │      │                         8/4 
+│                        │      ├ PublishedDate   : 2025-07-08T19:15:43.097Z 
+│                        │      ╰ LastModifiedDate: 2025-07-08T19:15:43.097Z 
+│                        ├ [17] ╭ VulnerabilityID : CVE-2025-48386 
+│                        │      ├ PkgID           : git-man@1:2.43.0-1ubuntu7.2 
+│                        │      ├ PkgName         : git-man 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/git-man@2.43.0-1ubuntu7.2?arch=all&di
+│                        │      │                  │       stro=ubuntu-24.04&epoch=1 
+│                        │      │                  ╰ UID : 9af0d565194dd240 
+│                        │      ├ InstalledVersion: 1:2.43.0-1ubuntu7.2 
+│                        │      ├ FixedVersion    : 1:2.43.0-1ubuntu7.3 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:fa8f8a8aed13a85e6b0fea459f9c86cb6432a96d8cc
+│                        │      │                  │         e2efcc57a13cdce25c04c 
+│                        │      │                  ╰ DiffID: sha256:c97c70da484a348cc3e7e13a79aac8b49f3c78269dd
+│                        │      │                            7700236633f4a5d56c4bc 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-48386 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : git: Git buffer overflow 
+│                        │      ├ Description     : Git is a fast, scalable, distributed revision control
+│                        │      │                   system with an unusually rich command set that provides
+│                        │      │                   both high-level operations and full access to internals.
+│                        │      │                   The wincred credential helper uses a static buffer (target)
+│                        │      │                    as a unique key for storing and comparing against internal
+│                        │      │                    storage. This credential helper does not properly bounds
+│                        │      │                   check the available space remaining in the buffer before
+│                        │      │                   appending to it with wcsncat(), leading to potential buffer
+│                        │      │                    overflows. This vulnerability is fixed in v2.43.7,
+│                        │      │                   v2.44.4, v2.45.4, v2.46.4, v2.47.3, v2.48.2, v2.49.1, and
+│                        │      │                   v2.50.1. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ CweIDs           ─ [0]: CWE-120 
+│                        │      ├ VendorSeverity   ╭ redhat: 2 
+│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:C/C:H/I:
+│                        │      │                           │           N/A:N 
+│                        │      │                           ╰ V3Score : 6.3 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-48386 
+│                        │      │                  ├ [1]: https://github.com/git/git/security/advisories/GHSA-4
+│                        │      │                  │      v56-3xvj-xvfr 
+│                        │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2025-48386 
+│                        │      │                  ├ [3]: https://ubuntu.com/security/notices/USN-7626-1 
+│                        │      │                  ├ [4]: https://www.cve.org/CVERecord?id=CVE-2025-48386 
+│                        │      │                  ╰ [5]: https://www.openwall.com/lists/oss-security/2025/07/0
+│                        │      │                         8/4 
+│                        │      ├ PublishedDate   : 2025-07-08T19:15:43.41Z 
+│                        │      ╰ LastModifiedDate: 2025-07-08T19:15:43.41Z 
+│                        ├ [18] ╭ VulnerabilityID : CVE-2022-3219 
 │                        │      ├ PkgID           : gnupg@2.4.4-2ubuntu17.2 
 │                        │      ├ PkgName         : gnupg 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/gnupg@2.4.4-2ubuntu17.2?arch=all&dist
@@ -353,7 +849,7 @@
 │                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2022-3219 
 │                        │      ├ PublishedDate   : 2023-02-23T20:15:12.393Z 
 │                        │      ╰ LastModifiedDate: 2025-03-12T21:15:38.207Z 
-│                        ├ [7]  ╭ VulnerabilityID : CVE-2022-3219 
+│                        ├ [19] ╭ VulnerabilityID : CVE-2022-3219 
 │                        │      ├ PkgID           : gnupg-l10n@2.4.4-2ubuntu17.2 
 │                        │      ├ PkgName         : gnupg-l10n 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/gnupg-l10n@2.4.4-2ubuntu17.2?arch=all
@@ -397,7 +893,7 @@
 │                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2022-3219 
 │                        │      ├ PublishedDate   : 2023-02-23T20:15:12.393Z 
 │                        │      ╰ LastModifiedDate: 2025-03-12T21:15:38.207Z 
-│                        ├ [8]  ╭ VulnerabilityID : CVE-2022-3219 
+│                        ├ [20] ╭ VulnerabilityID : CVE-2022-3219 
 │                        │      ├ PkgID           : gnupg-utils@2.4.4-2ubuntu17.2 
 │                        │      ├ PkgName         : gnupg-utils 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/gnupg-utils@2.4.4-2ubuntu17.2?arch=am
@@ -441,7 +937,7 @@
 │                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2022-3219 
 │                        │      ├ PublishedDate   : 2023-02-23T20:15:12.393Z 
 │                        │      ╰ LastModifiedDate: 2025-03-12T21:15:38.207Z 
-│                        ├ [9]  ╭ VulnerabilityID : CVE-2022-3219 
+│                        ├ [21] ╭ VulnerabilityID : CVE-2022-3219 
 │                        │      ├ PkgID           : gpg@2.4.4-2ubuntu17.2 
 │                        │      ├ PkgName         : gpg 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/gpg@2.4.4-2ubuntu17.2?arch=amd64&dist
@@ -485,7 +981,7 @@
 │                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2022-3219 
 │                        │      ├ PublishedDate   : 2023-02-23T20:15:12.393Z 
 │                        │      ╰ LastModifiedDate: 2025-03-12T21:15:38.207Z 
-│                        ├ [10] ╭ VulnerabilityID : CVE-2022-3219 
+│                        ├ [22] ╭ VulnerabilityID : CVE-2022-3219 
 │                        │      ├ PkgID           : gpg-agent@2.4.4-2ubuntu17.2 
 │                        │      ├ PkgName         : gpg-agent 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/gpg-agent@2.4.4-2ubuntu17.2?arch=amd6
@@ -529,7 +1025,7 @@
 │                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2022-3219 
 │                        │      ├ PublishedDate   : 2023-02-23T20:15:12.393Z 
 │                        │      ╰ LastModifiedDate: 2025-03-12T21:15:38.207Z 
-│                        ├ [11] ╭ VulnerabilityID : CVE-2022-3219 
+│                        ├ [23] ╭ VulnerabilityID : CVE-2022-3219 
 │                        │      ├ PkgID           : gpg-wks-client@2.4.4-2ubuntu17.2 
 │                        │      ├ PkgName         : gpg-wks-client 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/gpg-wks-client@2.4.4-2ubuntu17.2?arch
@@ -573,7 +1069,7 @@
 │                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2022-3219 
 │                        │      ├ PublishedDate   : 2023-02-23T20:15:12.393Z 
 │                        │      ╰ LastModifiedDate: 2025-03-12T21:15:38.207Z 
-│                        ├ [12] ╭ VulnerabilityID : CVE-2022-3219 
+│                        ├ [24] ╭ VulnerabilityID : CVE-2022-3219 
 │                        │      ├ PkgID           : gpgconf@2.4.4-2ubuntu17.2 
 │                        │      ├ PkgName         : gpgconf 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/gpgconf@2.4.4-2ubuntu17.2?arch=amd64&
@@ -617,7 +1113,7 @@
 │                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2022-3219 
 │                        │      ├ PublishedDate   : 2023-02-23T20:15:12.393Z 
 │                        │      ╰ LastModifiedDate: 2025-03-12T21:15:38.207Z 
-│                        ├ [13] ╭ VulnerabilityID : CVE-2022-3219 
+│                        ├ [25] ╭ VulnerabilityID : CVE-2022-3219 
 │                        │      ├ PkgID           : gpgsm@2.4.4-2ubuntu17.2 
 │                        │      ├ PkgName         : gpgsm 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/gpgsm@2.4.4-2ubuntu17.2?arch=amd64&di
@@ -661,7 +1157,7 @@
 │                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2022-3219 
 │                        │      ├ PublishedDate   : 2023-02-23T20:15:12.393Z 
 │                        │      ╰ LastModifiedDate: 2025-03-12T21:15:38.207Z 
-│                        ├ [14] ╭ VulnerabilityID : CVE-2022-3219 
+│                        ├ [26] ╭ VulnerabilityID : CVE-2022-3219 
 │                        │      ├ PkgID           : gpgv@2.4.4-2ubuntu17.2 
 │                        │      ├ PkgName         : gpgv 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/gpgv@2.4.4-2ubuntu17.2?arch=amd64&dis
@@ -705,7 +1201,7 @@
 │                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2022-3219 
 │                        │      ├ PublishedDate   : 2023-02-23T20:15:12.393Z 
 │                        │      ╰ LastModifiedDate: 2025-03-12T21:15:38.207Z 
-│                        ├ [15] ╭ VulnerabilityID : CVE-2022-3219 
+│                        ├ [27] ╭ VulnerabilityID : CVE-2022-3219 
 │                        │      ├ PkgID           : keyboxd@2.4.4-2ubuntu17.2 
 │                        │      ├ PkgName         : keyboxd 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/keyboxd@2.4.4-2ubuntu17.2?arch=amd64&
@@ -749,7 +1245,7 @@
 │                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2022-3219 
 │                        │      ├ PublishedDate   : 2023-02-23T20:15:12.393Z 
 │                        │      ╰ LastModifiedDate: 2025-03-12T21:15:38.207Z 
-│                        ├ [16] ╭ VulnerabilityID : CVE-2025-29481 
+│                        ├ [28] ╭ VulnerabilityID : CVE-2025-29481 
 │                        │      ├ PkgID           : libbpf1@1:1.3.0-2build2 
 │                        │      ├ PkgName         : libbpf1 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libbpf1@1.3.0-2build2?arch=amd64&dist
@@ -790,7 +1286,55 @@
 │                        │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2025-29481 
 │                        │      ├ PublishedDate   : 2025-04-07T20:15:20.72Z 
 │                        │      ╰ LastModifiedDate: 2025-04-15T15:42:59.65Z 
-│                        ├ [17] ╭ VulnerabilityID : CVE-2016-20013 
+│                        ├ [29] ╭ VulnerabilityID : CVE-2025-5702 
+│                        │      ├ PkgID           : libc-bin@2.39-0ubuntu8.4 
+│                        │      ├ PkgName         : libc-bin 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libc-bin@2.39-0ubuntu8.4?arch=amd64&d
+│                        │      │                  │       istro=ubuntu-24.04 
+│                        │      │                  ╰ UID : 939838306fc8a34c 
+│                        │      ├ InstalledVersion: 2.39-0ubuntu8.4 
+│                        │      ├ Status          : affected 
+│                        │      ├ Layer            ╭ Digest: sha256:fa8f8a8aed13a85e6b0fea459f9c86cb6432a96d8cc
+│                        │      │                  │         e2efcc57a13cdce25c04c 
+│                        │      │                  ╰ DiffID: sha256:c97c70da484a348cc3e7e13a79aac8b49f3c78269dd
+│                        │      │                            7700236633f4a5d56c4bc 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-5702 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : glibc: Vector register overwrite bug in glibc 
+│                        │      ├ Description     : The strcmp implementation optimized for the Power10
+│                        │      │                   processor in the GNU C Library version 2.39 and later
+│                        │      │                   writes to vector registers v20 to v31 without saving
+│                        │      │                   contents from the caller (those registers are defined as
+│                        │      │                   non-volatile registers by the powerpc64le ABI), resulting
+│                        │      │                   in overwriting of its contents and potentially altering
+│                        │      │                   control flow of the caller, or leaking the input strings to
+│                        │      │                    the function to other parts of the program. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ CweIDs           ─ [0]: CWE-665 
+│                        │      ├ VendorSeverity   ╭ alma       : 2 
+│                        │      │                  ├ oracle-oval: 2 
+│                        │      │                  ├ redhat     : 2 
+│                        │      │                  ╰ ubuntu     : 2 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:
+│                        │      │                           │           L/A:L 
+│                        │      │                           ╰ V3Score : 5.6 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2025:9877 
+│                        │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-5702 
+│                        │      │                  ├ [2]: https://bugzilla.redhat.com/2370472 
+│                        │      │                  ├ [3]: https://errata.almalinux.org/9/ALSA-2025-9877.html 
+│                        │      │                  ├ [4]: https://linux.oracle.com/cve/CVE-2025-5702.html 
+│                        │      │                  ├ [5]: https://linux.oracle.com/errata/ELSA-2025-9877.html 
+│                        │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2025-5702 
+│                        │      │                  ├ [7]: https://sourceware.org/bugzilla/show_bug.cgi?id=33056 
+│                        │      │                  ├ [8]: https://sourceware.org/pipermail/libc-alpha/2025-June
+│                        │      │                  │      /167381.html 
+│                        │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2025-5702 
+│                        │      ├ PublishedDate   : 2025-06-05T19:15:31.073Z 
+│                        │      ╰ LastModifiedDate: 2025-06-05T21:15:22.873Z 
+│                        ├ [30] ╭ VulnerabilityID : CVE-2016-20013 
 │                        │      ├ PkgID           : libc-bin@2.39-0ubuntu8.4 
 │                        │      ├ PkgName         : libc-bin 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libc-bin@2.39-0ubuntu8.4?arch=amd64&d
@@ -826,7 +1370,55 @@
 │                        │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2016-20013 
 │                        │      ├ PublishedDate   : 2022-02-19T05:15:09.413Z 
 │                        │      ╰ LastModifiedDate: 2024-11-21T02:47:33.427Z 
-│                        ├ [18] ╭ VulnerabilityID : CVE-2016-20013 
+│                        ├ [31] ╭ VulnerabilityID : CVE-2025-5702 
+│                        │      ├ PkgID           : libc6@2.39-0ubuntu8.4 
+│                        │      ├ PkgName         : libc6 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libc6@2.39-0ubuntu8.4?arch=amd64&dist
+│                        │      │                  │       ro=ubuntu-24.04 
+│                        │      │                  ╰ UID : 59b78719802dd37a 
+│                        │      ├ InstalledVersion: 2.39-0ubuntu8.4 
+│                        │      ├ Status          : affected 
+│                        │      ├ Layer            ╭ Digest: sha256:fa8f8a8aed13a85e6b0fea459f9c86cb6432a96d8cc
+│                        │      │                  │         e2efcc57a13cdce25c04c 
+│                        │      │                  ╰ DiffID: sha256:c97c70da484a348cc3e7e13a79aac8b49f3c78269dd
+│                        │      │                            7700236633f4a5d56c4bc 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-5702 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : glibc: Vector register overwrite bug in glibc 
+│                        │      ├ Description     : The strcmp implementation optimized for the Power10
+│                        │      │                   processor in the GNU C Library version 2.39 and later
+│                        │      │                   writes to vector registers v20 to v31 without saving
+│                        │      │                   contents from the caller (those registers are defined as
+│                        │      │                   non-volatile registers by the powerpc64le ABI), resulting
+│                        │      │                   in overwriting of its contents and potentially altering
+│                        │      │                   control flow of the caller, or leaking the input strings to
+│                        │      │                    the function to other parts of the program. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ CweIDs           ─ [0]: CWE-665 
+│                        │      ├ VendorSeverity   ╭ alma       : 2 
+│                        │      │                  ├ oracle-oval: 2 
+│                        │      │                  ├ redhat     : 2 
+│                        │      │                  ╰ ubuntu     : 2 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:
+│                        │      │                           │           L/A:L 
+│                        │      │                           ╰ V3Score : 5.6 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2025:9877 
+│                        │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-5702 
+│                        │      │                  ├ [2]: https://bugzilla.redhat.com/2370472 
+│                        │      │                  ├ [3]: https://errata.almalinux.org/9/ALSA-2025-9877.html 
+│                        │      │                  ├ [4]: https://linux.oracle.com/cve/CVE-2025-5702.html 
+│                        │      │                  ├ [5]: https://linux.oracle.com/errata/ELSA-2025-9877.html 
+│                        │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2025-5702 
+│                        │      │                  ├ [7]: https://sourceware.org/bugzilla/show_bug.cgi?id=33056 
+│                        │      │                  ├ [8]: https://sourceware.org/pipermail/libc-alpha/2025-June
+│                        │      │                  │      /167381.html 
+│                        │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2025-5702 
+│                        │      ├ PublishedDate   : 2025-06-05T19:15:31.073Z 
+│                        │      ╰ LastModifiedDate: 2025-06-05T21:15:22.873Z 
+│                        ├ [32] ╭ VulnerabilityID : CVE-2016-20013 
 │                        │      ├ PkgID           : libc6@2.39-0ubuntu8.4 
 │                        │      ├ PkgName         : libc6 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libc6@2.39-0ubuntu8.4?arch=amd64&dist
@@ -862,7 +1454,7 @@
 │                        │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2016-20013 
 │                        │      ├ PublishedDate   : 2022-02-19T05:15:09.413Z 
 │                        │      ╰ LastModifiedDate: 2024-11-21T02:47:33.427Z 
-│                        ├ [19] ╭ VulnerabilityID : CVE-2025-0167 
+│                        ├ [33] ╭ VulnerabilityID : CVE-2025-0167 
 │                        │      ├ PkgID           : libcurl3t64-gnutls@8.5.0-2ubuntu10.6 
 │                        │      ├ PkgName         : libcurl3t64-gnutls 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libcurl3t64-gnutls@8.5.0-2ubuntu10.6?
@@ -904,7 +1496,7 @@
 │                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-0167 
 │                        │      ├ PublishedDate   : 2025-02-05T10:15:22.71Z 
 │                        │      ╰ LastModifiedDate: 2025-03-07T01:15:12.11Z 
-│                        ├ [20] ╭ VulnerabilityID : CVE-2025-0167 
+│                        ├ [34] ╭ VulnerabilityID : CVE-2025-0167 
 │                        │      ├ PkgID           : libcurl4t64@8.5.0-2ubuntu10.6 
 │                        │      ├ PkgName         : libcurl4t64 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libcurl4t64@8.5.0-2ubuntu10.6?arch=am
@@ -946,7 +1538,7 @@
 │                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-0167 
 │                        │      ├ PublishedDate   : 2025-02-05T10:15:22.71Z 
 │                        │      ╰ LastModifiedDate: 2025-03-07T01:15:12.11Z 
-│                        ├ [21] ╭ VulnerabilityID : CVE-2025-1352 
+│                        ├ [35] ╭ VulnerabilityID : CVE-2025-1352 
 │                        │      ├ PkgID           : libelf1t64@0.190-1.1ubuntu0.1 
 │                        │      ├ PkgName         : libelf1t64 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libelf1t64@0.190-1.1ubuntu0.1?arch=am
@@ -997,7 +1589,7 @@
 │                        │      │                  ╰ [9]: https://www.gnu.org/ 
 │                        │      ├ PublishedDate   : 2025-02-16T15:15:09.133Z 
 │                        │      ╰ LastModifiedDate: 2025-02-16T15:15:09.133Z 
-│                        ├ [22] ╭ VulnerabilityID : CVE-2025-1376 
+│                        ├ [36] ╭ VulnerabilityID : CVE-2025-1376 
 │                        │      ├ PkgID           : libelf1t64@0.190-1.1ubuntu0.1 
 │                        │      ├ PkgName         : libelf1t64 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libelf1t64@0.190-1.1ubuntu0.1?arch=am
@@ -1048,7 +1640,7 @@
 │                        │      │                  ╰ [9]: https://www.gnu.org/ 
 │                        │      ├ PublishedDate   : 2025-02-17T05:15:09.807Z 
 │                        │      ╰ LastModifiedDate: 2025-02-17T05:15:09.807Z 
-│                        ├ [23] ╭ VulnerabilityID : CVE-2024-2236 
+│                        ├ [37] ╭ VulnerabilityID : CVE-2024-2236 
 │                        │      ├ PkgID           : libgcrypt20@1.10.3-2build1 
 │                        │      ├ PkgName         : libgcrypt20 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libgcrypt20@1.10.3-2build1?arch=amd64
@@ -1101,7 +1693,7 @@
 │                        │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2024-2236 
 │                        │      ├ PublishedDate   : 2024-03-06T22:15:57.977Z 
 │                        │      ╰ LastModifiedDate: 2025-04-02T17:15:37.79Z 
-│                        ├ [24] ╭ VulnerabilityID : CVE-2025-6052 
+│                        ├ [38] ╭ VulnerabilityID : CVE-2025-6052 
 │                        │      ├ PkgID           : libglib2.0-0t64@2.80.0-6ubuntu3.4 
 │                        │      ├ PkgName         : libglib2.0-0t64 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libglib2.0-0t64@2.80.0-6ubuntu3.4?arc
@@ -1142,7 +1734,7 @@
 │                        │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2025-6052 
 │                        │      ├ PublishedDate   : 2025-06-13T16:15:28.23Z 
 │                        │      ╰ LastModifiedDate: 2025-06-16T12:32:18.84Z 
-│                        ├ [25] ╭ VulnerabilityID : CVE-2025-6052 
+│                        ├ [39] ╭ VulnerabilityID : CVE-2025-6052 
 │                        │      ├ PkgID           : libglib2.0-data@2.80.0-6ubuntu3.4 
 │                        │      ├ PkgName         : libglib2.0-data 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libglib2.0-data@2.80.0-6ubuntu3.4?arc
@@ -1183,7 +1775,7 @@
 │                        │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2025-6052 
 │                        │      ├ PublishedDate   : 2025-06-13T16:15:28.23Z 
 │                        │      ╰ LastModifiedDate: 2025-06-16T12:32:18.84Z 
-│                        ├ [26] ╭ VulnerabilityID : CVE-2025-5222 
+│                        ├ [40] ╭ VulnerabilityID : CVE-2025-5222 
 │                        │      ├ PkgID           : libicu74@74.2-1ubuntu3.1 
 │                        │      ├ PkgName         : libicu74 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libicu74@74.2-1ubuntu3.1?arch=amd64&d
@@ -1221,7 +1813,7 @@
 │                        │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2025-5222 
 │                        │      ├ PublishedDate   : 2025-05-27T21:15:23.03Z 
 │                        │      ╰ LastModifiedDate: 2025-06-15T23:15:18.303Z 
-│                        ├ [27] ╭ VulnerabilityID : CVE-2024-10041 
+│                        ├ [41] ╭ VulnerabilityID : CVE-2024-10041 
 │                        │      ├ PkgID           : libpam-modules@1.5.3-5ubuntu5.4 
 │                        │      ├ PkgName         : libpam-modules 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpam-modules@1.5.3-5ubuntu5.4?arch=
@@ -1278,7 +1870,7 @@
 │                        │      │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2024-10041 
 │                        │      ├ PublishedDate   : 2024-10-23T14:15:03.97Z 
 │                        │      ╰ LastModifiedDate: 2024-12-18T10:15:05.85Z 
-│                        ├ [28] ╭ VulnerabilityID : CVE-2024-10963 
+│                        ├ [42] ╭ VulnerabilityID : CVE-2024-10963 
 │                        │      ├ PkgID           : libpam-modules@1.5.3-5ubuntu5.4 
 │                        │      ├ PkgName         : libpam-modules 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpam-modules@1.5.3-5ubuntu5.4?arch=
@@ -1337,7 +1929,7 @@
 │                        │      │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2024-10963 
 │                        │      ├ PublishedDate   : 2024-11-07T16:15:17.15Z 
 │                        │      ╰ LastModifiedDate: 2025-02-06T06:15:29.24Z 
-│                        ├ [29] ╭ VulnerabilityID : CVE-2024-10041 
+│                        ├ [43] ╭ VulnerabilityID : CVE-2024-10041 
 │                        │      ├ PkgID           : libpam-modules-bin@1.5.3-5ubuntu5.4 
 │                        │      ├ PkgName         : libpam-modules-bin 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpam-modules-bin@1.5.3-5ubuntu5.4?a
@@ -1394,7 +1986,7 @@
 │                        │      │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2024-10041 
 │                        │      ├ PublishedDate   : 2024-10-23T14:15:03.97Z 
 │                        │      ╰ LastModifiedDate: 2024-12-18T10:15:05.85Z 
-│                        ├ [30] ╭ VulnerabilityID : CVE-2024-10963 
+│                        ├ [44] ╭ VulnerabilityID : CVE-2024-10963 
 │                        │      ├ PkgID           : libpam-modules-bin@1.5.3-5ubuntu5.4 
 │                        │      ├ PkgName         : libpam-modules-bin 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpam-modules-bin@1.5.3-5ubuntu5.4?a
@@ -1453,7 +2045,7 @@
 │                        │      │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2024-10963 
 │                        │      ├ PublishedDate   : 2024-11-07T16:15:17.15Z 
 │                        │      ╰ LastModifiedDate: 2025-02-06T06:15:29.24Z 
-│                        ├ [31] ╭ VulnerabilityID : CVE-2024-10041 
+│                        ├ [45] ╭ VulnerabilityID : CVE-2024-10041 
 │                        │      ├ PkgID           : libpam-runtime@1.5.3-5ubuntu5.4 
 │                        │      ├ PkgName         : libpam-runtime 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpam-runtime@1.5.3-5ubuntu5.4?arch=
@@ -1510,7 +2102,7 @@
 │                        │      │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2024-10041 
 │                        │      ├ PublishedDate   : 2024-10-23T14:15:03.97Z 
 │                        │      ╰ LastModifiedDate: 2024-12-18T10:15:05.85Z 
-│                        ├ [32] ╭ VulnerabilityID : CVE-2024-10963 
+│                        ├ [46] ╭ VulnerabilityID : CVE-2024-10963 
 │                        │      ├ PkgID           : libpam-runtime@1.5.3-5ubuntu5.4 
 │                        │      ├ PkgName         : libpam-runtime 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpam-runtime@1.5.3-5ubuntu5.4?arch=
@@ -1569,7 +2161,7 @@
 │                        │      │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2024-10963 
 │                        │      ├ PublishedDate   : 2024-11-07T16:15:17.15Z 
 │                        │      ╰ LastModifiedDate: 2025-02-06T06:15:29.24Z 
-│                        ├ [33] ╭ VulnerabilityID : CVE-2024-10041 
+│                        ├ [47] ╭ VulnerabilityID : CVE-2024-10041 
 │                        │      ├ PkgID           : libpam0g@1.5.3-5ubuntu5.4 
 │                        │      ├ PkgName         : libpam0g 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpam0g@1.5.3-5ubuntu5.4?arch=amd64&
@@ -1626,7 +2218,7 @@
 │                        │      │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2024-10041 
 │                        │      ├ PublishedDate   : 2024-10-23T14:15:03.97Z 
 │                        │      ╰ LastModifiedDate: 2024-12-18T10:15:05.85Z 
-│                        ├ [34] ╭ VulnerabilityID : CVE-2024-10963 
+│                        ├ [48] ╭ VulnerabilityID : CVE-2024-10963 
 │                        │      ├ PkgID           : libpam0g@1.5.3-5ubuntu5.4 
 │                        │      ├ PkgName         : libpam0g 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpam0g@1.5.3-5ubuntu5.4?arch=amd64&
@@ -1685,7 +2277,7 @@
 │                        │      │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2024-10963 
 │                        │      ├ PublishedDate   : 2024-11-07T16:15:17.15Z 
 │                        │      ╰ LastModifiedDate: 2025-02-06T06:15:29.24Z 
-│                        ├ [35] ╭ VulnerabilityID : CVE-2025-6069 
+│                        ├ [49] ╭ VulnerabilityID : CVE-2025-6069 
 │                        │      ├ PkgID           : libpython3.12-minimal@3.12.3-1ubuntu0.7 
 │                        │      ├ PkgName         : libpython3.12-minimal 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpython3.12-minimal@3.12.3-1ubuntu0
@@ -1743,7 +2335,7 @@
 │                        │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2025-6069 
 │                        │      ├ PublishedDate   : 2025-06-17T14:15:33.677Z 
 │                        │      ╰ LastModifiedDate: 2025-07-07T18:15:29.15Z 
-│                        ├ [36] ╭ VulnerabilityID : CVE-2025-6069 
+│                        ├ [50] ╭ VulnerabilityID : CVE-2025-6069 
 │                        │      ├ PkgID           : libpython3.12-stdlib@3.12.3-1ubuntu0.7 
 │                        │      ├ PkgName         : libpython3.12-stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpython3.12-stdlib@3.12.3-1ubuntu0.
@@ -1801,7 +2393,7 @@
 │                        │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2025-6069 
 │                        │      ├ PublishedDate   : 2025-06-17T14:15:33.677Z 
 │                        │      ╰ LastModifiedDate: 2025-07-07T18:15:29.15Z 
-│                        ├ [37] ╭ VulnerabilityID : CVE-2025-6069 
+│                        ├ [51] ╭ VulnerabilityID : CVE-2025-6069 
 │                        │      ├ PkgID           : libpython3.12t64@3.12.3-1ubuntu0.7 
 │                        │      ├ PkgName         : libpython3.12t64 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpython3.12t64@3.12.3-1ubuntu0.7?ar
@@ -1859,7 +2451,7 @@
 │                        │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2025-6069 
 │                        │      ├ PublishedDate   : 2025-06-17T14:15:33.677Z 
 │                        │      ╰ LastModifiedDate: 2025-07-07T18:15:29.15Z 
-│                        ├ [38] ╭ VulnerabilityID : CVE-2025-4877 
+│                        ├ [52] ╭ VulnerabilityID : CVE-2025-4877 
 │                        │      ├ PkgID           : libssh-4@0.10.6-2build2 
 │                        │      ├ PkgName         : libssh-4 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libssh-4@0.10.6-2build2?arch=amd64&di
@@ -1892,7 +2484,7 @@
 │                        │                         ├ [3]: https://www.cve.org/CVERecord?id=CVE-2025-4877 
 │                        │                         ╰ [4]: https://www.libssh.org/security/advisories/CVE-2025-4
 │                        │                                877.txt 
-│                        ├ [39] ╭ VulnerabilityID : CVE-2025-4878 
+│                        ├ [53] ╭ VulnerabilityID : CVE-2025-4878 
 │                        │      ├ PkgID           : libssh-4@0.10.6-2build2 
 │                        │      ├ PkgName         : libssh-4 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libssh-4@0.10.6-2build2?arch=amd64&di
@@ -1925,7 +2517,7 @@
 │                        │                         ├ [3]: https://www.cve.org/CVERecord?id=CVE-2025-4878 
 │                        │                         ╰ [4]: https://www.libssh.org/security/advisories/CVE-2025-4
 │                        │                                878.txt 
-│                        ├ [40] ╭ VulnerabilityID : CVE-2025-5318 
+│                        ├ [54] ╭ VulnerabilityID : CVE-2025-5318 
 │                        │      ├ PkgID           : libssh-4@0.10.6-2build2 
 │                        │      ├ PkgName         : libssh-4 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libssh-4@0.10.6-2build2?arch=amd64&di
@@ -1968,7 +2560,7 @@
 │                        │      │                         318.txt 
 │                        │      ├ PublishedDate   : 2025-06-24T14:15:30.523Z 
 │                        │      ╰ LastModifiedDate: 2025-06-26T18:58:14.28Z 
-│                        ├ [41] ╭ VulnerabilityID : CVE-2025-5351 
+│                        ├ [55] ╭ VulnerabilityID : CVE-2025-5351 
 │                        │      ├ PkgID           : libssh-4@0.10.6-2build2 
 │                        │      ├ PkgName         : libssh-4 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libssh-4@0.10.6-2build2?arch=amd64&di
@@ -2014,7 +2606,7 @@
 │                        │      │                         351.txt 
 │                        │      ├ PublishedDate   : 2025-07-04T09:15:37.1Z 
 │                        │      ╰ LastModifiedDate: 2025-07-08T16:18:53.607Z 
-│                        ├ [42] ╭ VulnerabilityID : CVE-2025-5372 
+│                        ├ [56] ╭ VulnerabilityID : CVE-2025-5372 
 │                        │      ├ PkgID           : libssh-4@0.10.6-2build2 
 │                        │      ├ PkgName         : libssh-4 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libssh-4@0.10.6-2build2?arch=amd64&di
@@ -2059,7 +2651,7 @@
 │                        │      │                         372.txt 
 │                        │      ├ PublishedDate   : 2025-07-04T06:15:24.93Z 
 │                        │      ╰ LastModifiedDate: 2025-07-08T16:18:53.607Z 
-│                        ├ [43] ╭ VulnerabilityID : CVE-2025-5987 
+│                        ├ [57] ╭ VulnerabilityID : CVE-2025-5987 
 │                        │      ├ PkgID           : libssh-4@0.10.6-2build2 
 │                        │      ├ PkgName         : libssh-4 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libssh-4@0.10.6-2build2?arch=amd64&di
@@ -2104,7 +2696,7 @@
 │                        │      │                         987.txt 
 │                        │      ├ PublishedDate   : 2025-07-07T15:15:28.18Z 
 │                        │      ╰ LastModifiedDate: 2025-07-08T16:18:34.923Z 
-│                        ├ [44] ╭ VulnerabilityID : CVE-2024-41996 
+│                        ├ [58] ╭ VulnerabilityID : CVE-2024-41996 
 │                        │      ├ PkgID           : libssl3t64@3.0.13-0ubuntu3.5 
 │                        │      ├ PkgName         : libssl3t64 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libssl3t64@3.0.13-0ubuntu3.5?arch=amd
@@ -2154,7 +2746,7 @@
 │                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-41996 
 │                        │      ├ PublishedDate   : 2024-08-26T06:15:04.603Z 
 │                        │      ╰ LastModifiedDate: 2024-08-26T16:35:11.247Z 
-│                        ├ [45] ╭ VulnerabilityID : CVE-2024-56433 
+│                        ├ [59] ╭ VulnerabilityID : CVE-2024-56433 
 │                        │      ├ PkgID           : libsubid4@1:4.13+dfsg1-4ubuntu3.2 
 │                        │      ├ PkgName         : libsubid4 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libsubid4@4.13%2Bdfsg1-4ubuntu3.2?arc
@@ -2202,7 +2794,7 @@
 │                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                        │      ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                        │      ╰ LastModifiedDate: 2024-12-26T09:15:07.267Z 
-│                        ├ [46] ╭ VulnerabilityID : CVE-2024-56433 
+│                        ├ [60] ╭ VulnerabilityID : CVE-2024-56433 
 │                        │      ├ PkgID           : login@1:4.13+dfsg1-4ubuntu3.2 
 │                        │      ├ PkgName         : login 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/login@4.13%2Bdfsg1-4ubuntu3.2?arch=am
@@ -2250,7 +2842,7 @@
 │                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                        │      ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                        │      ╰ LastModifiedDate: 2024-12-26T09:15:07.267Z 
-│                        ├ [47] ╭ VulnerabilityID : CVE-2024-41996 
+│                        ├ [61] ╭ VulnerabilityID : CVE-2024-41996 
 │                        │      ├ PkgID           : openssl@3.0.13-0ubuntu3.5 
 │                        │      ├ PkgName         : openssl 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl@3.0.13-0ubuntu3.5?arch=amd64&
@@ -2300,7 +2892,7 @@
 │                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-41996 
 │                        │      ├ PublishedDate   : 2024-08-26T06:15:04.603Z 
 │                        │      ╰ LastModifiedDate: 2024-08-26T16:35:11.247Z 
-│                        ├ [48] ╭ VulnerabilityID : CVE-2024-56433 
+│                        ├ [62] ╭ VulnerabilityID : CVE-2024-56433 
 │                        │      ├ PkgID           : passwd@1:4.13+dfsg1-4ubuntu3.2 
 │                        │      ├ PkgName         : passwd 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/passwd@4.13%2Bdfsg1-4ubuntu3.2?arch=a
@@ -2348,7 +2940,7 @@
 │                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                        │      ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                        │      ╰ LastModifiedDate: 2024-12-26T09:15:07.267Z 
-│                        ├ [49] ╭ VulnerabilityID : CVE-2018-6952 
+│                        ├ [63] ╭ VulnerabilityID : CVE-2018-6952 
 │                        │      ├ PkgID           : patch@2.7.6-7build3 
 │                        │      ├ PkgName         : patch 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/patch@2.7.6-7build3?arch=amd64&distro
@@ -2398,7 +2990,7 @@
 │                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2018-6952 
 │                        │      ├ PublishedDate   : 2018-02-13T19:29:00.573Z 
 │                        │      ╰ LastModifiedDate: 2024-11-21T04:11:28.42Z 
-│                        ├ [50] ╭ VulnerabilityID : CVE-2021-45261 
+│                        ├ [64] ╭ VulnerabilityID : CVE-2021-45261 
 │                        │      ├ PkgID           : patch@2.7.6-7build3 
 │                        │      ├ PkgName         : patch 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/patch@2.7.6-7build3?arch=amd64&distro
@@ -2438,7 +3030,7 @@
 │                        │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2021-45261 
 │                        │      ├ PublishedDate   : 2021-12-22T18:15:08.1Z 
 │                        │      ╰ LastModifiedDate: 2024-11-21T06:32:02.633Z 
-│                        ├ [51] ╭ VulnerabilityID : CVE-2025-6069 
+│                        ├ [65] ╭ VulnerabilityID : CVE-2025-6069 
 │                        │      ├ PkgID           : python3.12@3.12.3-1ubuntu0.7 
 │                        │      ├ PkgName         : python3.12 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/python3.12@3.12.3-1ubuntu0.7?arch=amd
@@ -2496,7 +3088,7 @@
 │                        │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2025-6069 
 │                        │      ├ PublishedDate   : 2025-06-17T14:15:33.677Z 
 │                        │      ╰ LastModifiedDate: 2025-07-07T18:15:29.15Z 
-│                        ├ [52] ╭ VulnerabilityID : CVE-2025-6069 
+│                        ├ [66] ╭ VulnerabilityID : CVE-2025-6069 
 │                        │      ├ PkgID           : python3.12-minimal@3.12.3-1ubuntu0.7 
 │                        │      ├ PkgName         : python3.12-minimal 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/python3.12-minimal@3.12.3-1ubuntu0.7?
@@ -2554,7 +3146,7 @@
 │                        │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2025-6069 
 │                        │      ├ PublishedDate   : 2025-06-17T14:15:33.677Z 
 │                        │      ╰ LastModifiedDate: 2025-07-07T18:15:29.15Z 
-│                        ├ [53] ╭ VulnerabilityID : CVE-2024-56433 
+│                        ├ [67] ╭ VulnerabilityID : CVE-2024-56433 
 │                        │      ├ PkgID           : uidmap@1:4.13+dfsg1-4ubuntu3.2 
 │                        │      ├ PkgName         : uidmap 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/uidmap@4.13%2Bdfsg1-4ubuntu3.2?arch=a
@@ -2602,7 +3194,7 @@
 │                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                        │      ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                        │      ╰ LastModifiedDate: 2024-12-26T09:15:07.267Z 
-│                        ╰ [54] ╭ VulnerabilityID : CVE-2021-31879 
+│                        ╰ [68] ╭ VulnerabilityID : CVE-2021-31879 
 │                               ├ PkgID           : wget@1.21.4-1ubuntu4.1 
 │                               ├ PkgName         : wget 
 │                               ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/wget@1.21.4-1ubuntu4.1?arch=amd64&dis
@@ -3022,10 +3614,11 @@
 │                              │                    on cross-origin redirects potentially leaking sensitive
 │                              │                   information. 
 │                              ├ Severity        : MEDIUM 
-│                              ├ VendorSeverity   ╭ amazon : 2 
-│                              │                  ├ bitnami: 2 
-│                              │                  ├ redhat : 2 
-│                              │                  ╰ ubuntu : 2 
+│                              ├ VendorSeverity   ╭ amazon     : 2 
+│                              │                  ├ bitnami    : 2 
+│                              │                  ├ oracle-oval: 2 
+│                              │                  ├ redhat     : 2 
+│                              │                  ╰ ubuntu     : 2 
 │                              ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:
 │                              │                  │         │           N/A:N 
 │                              │                  │         ╰ V3Score : 6.8 
@@ -3037,10 +3630,12 @@
 │                              │                  ├ [2]: https://go.dev/issue/73816 
 │                              │                  ├ [3]: https://groups.google.com/g/golang-announce/c/ufZ8WpEs
 │                              │                  │      A3A 
-│                              │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-4673 
-│                              │                  ├ [5]: https://pkg.go.dev/vuln/GO-2025-3751 
-│                              │                  ├ [6]: https://ubuntu.com/security/notices/USN-7574-1 
-│                              │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-4673 
+│                              │                  ├ [4]: https://linux.oracle.com/cve/CVE-2025-4673.html 
+│                              │                  ├ [5]: https://linux.oracle.com/errata/ELSA-2025-10676.html 
+│                              │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2025-4673 
+│                              │                  ├ [7]: https://pkg.go.dev/vuln/GO-2025-3751 
+│                              │                  ├ [8]: https://ubuntu.com/security/notices/USN-7574-1 
+│                              │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2025-4673 
 │                              ├ PublishedDate   : 2025-06-11T17:15:42.993Z 
 │                              ╰ LastModifiedDate: 2025-06-12T16:06:20.18Z 
 ├ [3]  ╭ Target         : tmp/tmp.EU5yzyTSQD/krew-linux_amd64 
@@ -3413,10 +4008,11 @@
 │                              │                    on cross-origin redirects potentially leaking sensitive
 │                              │                   information. 
 │                              ├ Severity        : MEDIUM 
-│                              ├ VendorSeverity   ╭ amazon : 2 
-│                              │                  ├ bitnami: 2 
-│                              │                  ├ redhat : 2 
-│                              │                  ╰ ubuntu : 2 
+│                              ├ VendorSeverity   ╭ amazon     : 2 
+│                              │                  ├ bitnami    : 2 
+│                              │                  ├ oracle-oval: 2 
+│                              │                  ├ redhat     : 2 
+│                              │                  ╰ ubuntu     : 2 
 │                              ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:
 │                              │                  │         │           N/A:N 
 │                              │                  │         ╰ V3Score : 6.8 
@@ -3428,10 +4024,12 @@
 │                              │                  ├ [2]: https://go.dev/issue/73816 
 │                              │                  ├ [3]: https://groups.google.com/g/golang-announce/c/ufZ8WpEs
 │                              │                  │      A3A 
-│                              │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-4673 
-│                              │                  ├ [5]: https://pkg.go.dev/vuln/GO-2025-3751 
-│                              │                  ├ [6]: https://ubuntu.com/security/notices/USN-7574-1 
-│                              │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-4673 
+│                              │                  ├ [4]: https://linux.oracle.com/cve/CVE-2025-4673.html 
+│                              │                  ├ [5]: https://linux.oracle.com/errata/ELSA-2025-10676.html 
+│                              │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2025-4673 
+│                              │                  ├ [7]: https://pkg.go.dev/vuln/GO-2025-3751 
+│                              │                  ├ [8]: https://ubuntu.com/security/notices/USN-7574-1 
+│                              │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2025-4673 
 │                              ├ PublishedDate   : 2025-06-11T17:15:42.993Z 
 │                              ╰ LastModifiedDate: 2025-06-12T16:06:20.18Z 
 ├ [4]  ╭ Target         : usr/bin/docker-compose 
@@ -3596,10 +4194,11 @@
 │                              │                    on cross-origin redirects potentially leaking sensitive
 │                              │                   information. 
 │                              ├ Severity        : MEDIUM 
-│                              ├ VendorSeverity   ╭ amazon : 2 
-│                              │                  ├ bitnami: 2 
-│                              │                  ├ redhat : 2 
-│                              │                  ╰ ubuntu : 2 
+│                              ├ VendorSeverity   ╭ amazon     : 2 
+│                              │                  ├ bitnami    : 2 
+│                              │                  ├ oracle-oval: 2 
+│                              │                  ├ redhat     : 2 
+│                              │                  ╰ ubuntu     : 2 
 │                              ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:
 │                              │                  │         │           N/A:N 
 │                              │                  │         ╰ V3Score : 6.8 
@@ -3611,10 +4210,12 @@
 │                              │                  ├ [2]: https://go.dev/issue/73816 
 │                              │                  ├ [3]: https://groups.google.com/g/golang-announce/c/ufZ8WpEs
 │                              │                  │      A3A 
-│                              │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-4673 
-│                              │                  ├ [5]: https://pkg.go.dev/vuln/GO-2025-3751 
-│                              │                  ├ [6]: https://ubuntu.com/security/notices/USN-7574-1 
-│                              │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-4673 
+│                              │                  ├ [4]: https://linux.oracle.com/cve/CVE-2025-4673.html 
+│                              │                  ├ [5]: https://linux.oracle.com/errata/ELSA-2025-10676.html 
+│                              │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2025-4673 
+│                              │                  ├ [7]: https://pkg.go.dev/vuln/GO-2025-3751 
+│                              │                  ├ [8]: https://ubuntu.com/security/notices/USN-7574-1 
+│                              │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2025-4673 
 │                              ├ PublishedDate   : 2025-06-11T17:15:42.993Z 
 │                              ╰ LastModifiedDate: 2025-06-12T16:06:20.18Z 
 ├ [5]  ╭ Target: usr/bin/helm 
@@ -3729,10 +4330,11 @@
 │                              │                    on cross-origin redirects potentially leaking sensitive
 │                              │                   information. 
 │                              ├ Severity        : MEDIUM 
-│                              ├ VendorSeverity   ╭ amazon : 2 
-│                              │                  ├ bitnami: 2 
-│                              │                  ├ redhat : 2 
-│                              │                  ╰ ubuntu : 2 
+│                              ├ VendorSeverity   ╭ amazon     : 2 
+│                              │                  ├ bitnami    : 2 
+│                              │                  ├ oracle-oval: 2 
+│                              │                  ├ redhat     : 2 
+│                              │                  ╰ ubuntu     : 2 
 │                              ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:
 │                              │                  │         │           N/A:N 
 │                              │                  │         ╰ V3Score : 6.8 
@@ -3744,10 +4346,12 @@
 │                              │                  ├ [2]: https://go.dev/issue/73816 
 │                              │                  ├ [3]: https://groups.google.com/g/golang-announce/c/ufZ8WpEs
 │                              │                  │      A3A 
-│                              │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-4673 
-│                              │                  ├ [5]: https://pkg.go.dev/vuln/GO-2025-3751 
-│                              │                  ├ [6]: https://ubuntu.com/security/notices/USN-7574-1 
-│                              │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-4673 
+│                              │                  ├ [4]: https://linux.oracle.com/cve/CVE-2025-4673.html 
+│                              │                  ├ [5]: https://linux.oracle.com/errata/ELSA-2025-10676.html 
+│                              │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2025-4673 
+│                              │                  ├ [7]: https://pkg.go.dev/vuln/GO-2025-3751 
+│                              │                  ├ [8]: https://ubuntu.com/security/notices/USN-7574-1 
+│                              │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2025-4673 
 │                              ├ PublishedDate   : 2025-06-11T17:15:42.993Z 
 │                              ╰ LastModifiedDate: 2025-06-12T16:06:20.18Z 
 ├ [8]  ╭ Target         : usr/local/bin/k3d 
@@ -4337,10 +4941,11 @@
 │                              │                    on cross-origin redirects potentially leaking sensitive
 │                              │                   information. 
 │                              ├ Severity        : MEDIUM 
-│                              ├ VendorSeverity   ╭ amazon : 2 
-│                              │                  ├ bitnami: 2 
-│                              │                  ├ redhat : 2 
-│                              │                  ╰ ubuntu : 2 
+│                              ├ VendorSeverity   ╭ amazon     : 2 
+│                              │                  ├ bitnami    : 2 
+│                              │                  ├ oracle-oval: 2 
+│                              │                  ├ redhat     : 2 
+│                              │                  ╰ ubuntu     : 2 
 │                              ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:
 │                              │                  │         │           N/A:N 
 │                              │                  │         ╰ V3Score : 6.8 
@@ -4352,10 +4957,12 @@
 │                              │                  ├ [2]: https://go.dev/issue/73816 
 │                              │                  ├ [3]: https://groups.google.com/g/golang-announce/c/ufZ8WpEs
 │                              │                  │      A3A 
-│                              │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-4673 
-│                              │                  ├ [5]: https://pkg.go.dev/vuln/GO-2025-3751 
-│                              │                  ├ [6]: https://ubuntu.com/security/notices/USN-7574-1 
-│                              │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-4673 
+│                              │                  ├ [4]: https://linux.oracle.com/cve/CVE-2025-4673.html 
+│                              │                  ├ [5]: https://linux.oracle.com/errata/ELSA-2025-10676.html 
+│                              │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2025-4673 
+│                              │                  ├ [7]: https://pkg.go.dev/vuln/GO-2025-3751 
+│                              │                  ├ [8]: https://ubuntu.com/security/notices/USN-7574-1 
+│                              │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2025-4673 
 │                              ├ PublishedDate   : 2025-06-11T17:15:42.993Z 
 │                              ╰ LastModifiedDate: 2025-06-12T16:06:20.18Z 
 ├ [9]  ╭ Target : /etc/ssh/ssh_host_ecdsa_key 
