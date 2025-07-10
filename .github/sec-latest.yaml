@@ -451,6 +451,139 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-52005
     PublishedDate: '2025-01-15T18:15:24.13Z'
     LastModifiedDate: '2025-01-15T18:15:24.13Z'
+  - VulnerabilityID: CVE-2025-27613
+    PkgID: git@1:2.34.1-1ubuntu1.12
+    PkgName: git
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/git@2.34.1-1ubuntu1.12?arch=amd64&distro=ubuntu-22.04&epoch=1
+      UID: bc8fd3f67c055b3e
+    InstalledVersion: 1:2.34.1-1ubuntu1.12
+    FixedVersion: 1:2.34.1-1ubuntu1.13
+    Status: fixed
+    Layer:
+      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
+      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-27613
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Description: When a user clones an untrusted repository and runs Gitk without additional command arguments, any writable file can be created and truncated. The option "Support per-file encoding" must have been enabled. The operation "Show origin of this line" is affected as well, regardless of the option being enabled or not.
+    Severity: MEDIUM
+    VendorSeverity:
+      ubuntu: 2
+    References:
+    - https://ubuntu.com/security/notices/USN-7626-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-27613
+    - https://www.openwall.com/lists/oss-security/2025/07/08/4
+  - VulnerabilityID: CVE-2025-46835
+    PkgID: git@1:2.34.1-1ubuntu1.12
+    PkgName: git
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/git@2.34.1-1ubuntu1.12?arch=amd64&distro=ubuntu-22.04&epoch=1
+      UID: bc8fd3f67c055b3e
+    InstalledVersion: 1:2.34.1-1ubuntu1.12
+    FixedVersion: 1:2.34.1-1ubuntu1.13
+    Status: fixed
+    Layer:
+      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
+      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-46835
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Description: When a user clones an untrusted repository and is tricked into editing a file located in a maliciously named directory in the repository, then Git GUI can create and overwrite any writable file.
+    Severity: MEDIUM
+    VendorSeverity:
+      ubuntu: 2
+    References:
+    - https://ubuntu.com/security/notices/USN-7626-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-46835
+    - https://www.openwall.com/lists/oss-security/2025/07/08/4
+  - VulnerabilityID: CVE-2025-48384
+    PkgID: git@1:2.34.1-1ubuntu1.12
+    PkgName: git
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/git@2.34.1-1ubuntu1.12?arch=amd64&distro=ubuntu-22.04&epoch=1
+      UID: bc8fd3f67c055b3e
+    InstalledVersion: 1:2.34.1-1ubuntu1.12
+    FixedVersion: 1:2.34.1-1ubuntu1.13
+    Status: fixed
+    Layer:
+      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
+      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-48384
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'git: Git arbitrary code execution'
+    Description: Git is a fast, scalable, distributed revision control system with an unusually rich command set that provides both high-level operations and full access to internals. When reading a config value, Git strips any trailing carriage return and line feed (CRLF). When writing a config entry, values with a trailing CR are not quoted, causing the CR to be lost when the config is later read. When initializing a submodule, if the submodule path contains a trailing CR, the altered path is read resulting in the submodule being checked out to an incorrect location. If a symlink exists that points the altered path to the submodule hooks directory, and the submodule contains an executable post-checkout hook, the script may be unintentionally executed after checkout. This vulnerability is fixed in v2.43.7, v2.44.4, v2.45.4, v2.46.4, v2.47.3, v2.48.2, v2.49.1, and v2.50.1.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-59
+    - CWE-436
+    VendorSeverity:
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:C/C:H/I:H/A:H
+        V3Score: 8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-48384
+    - https://dgl.cx/2025/07/git-clone-submodule-cve-2025-48384
+    - https://github.com/git/git/commit/05e9cd64ee23bbadcea6bcffd6660ed02b8eab89
+    - https://github.com/git/git/security/advisories/GHSA-vwqx-4fm8-6qc9
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-48384
+    - https://ubuntu.com/security/notices/USN-7626-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-48384
+    - https://www.openwall.com/lists/oss-security/2025/07/08/4
+    PublishedDate: '2025-07-08T19:15:42.8Z'
+    LastModifiedDate: '2025-07-08T19:15:42.8Z'
+  - VulnerabilityID: CVE-2025-48386
+    PkgID: git@1:2.34.1-1ubuntu1.12
+    PkgName: git
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/git@2.34.1-1ubuntu1.12?arch=amd64&distro=ubuntu-22.04&epoch=1
+      UID: bc8fd3f67c055b3e
+    InstalledVersion: 1:2.34.1-1ubuntu1.12
+    FixedVersion: 1:2.34.1-1ubuntu1.13
+    Status: fixed
+    Layer:
+      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
+      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-48386
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'git: Git buffer overflow'
+    Description: Git is a fast, scalable, distributed revision control system with an unusually rich command set that provides both high-level operations and full access to internals. The wincred credential helper uses a static buffer (target) as a unique key for storing and comparing against internal storage. This credential helper does not properly bounds check the available space remaining in the buffer before appending to it with wcsncat(), leading to potential buffer overflows. This vulnerability is fixed in v2.43.7, v2.44.4, v2.45.4, v2.46.4, v2.47.3, v2.48.2, v2.49.1, and v2.50.1.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-120
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:C/C:H/I:N/A:N
+        V3Score: 6.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-48386
+    - https://github.com/git/git/security/advisories/GHSA-4v56-3xvj-xvfr
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-48386
+    - https://ubuntu.com/security/notices/USN-7626-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-48386
+    - https://www.openwall.com/lists/oss-security/2025/07/08/4
+    PublishedDate: '2025-07-08T19:15:43.41Z'
+    LastModifiedDate: '2025-07-08T19:15:43.41Z'
   - VulnerabilityID: CVE-2024-52005
     PkgID: git-man@1:2.34.1-1ubuntu1.12
     PkgName: git-man
@@ -499,6 +632,139 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-52005
     PublishedDate: '2025-01-15T18:15:24.13Z'
     LastModifiedDate: '2025-01-15T18:15:24.13Z'
+  - VulnerabilityID: CVE-2025-27613
+    PkgID: git-man@1:2.34.1-1ubuntu1.12
+    PkgName: git-man
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/git-man@2.34.1-1ubuntu1.12?arch=all&distro=ubuntu-22.04&epoch=1
+      UID: 93515fa8ea00e27a
+    InstalledVersion: 1:2.34.1-1ubuntu1.12
+    FixedVersion: 1:2.34.1-1ubuntu1.13
+    Status: fixed
+    Layer:
+      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
+      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-27613
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Description: When a user clones an untrusted repository and runs Gitk without additional command arguments, any writable file can be created and truncated. The option "Support per-file encoding" must have been enabled. The operation "Show origin of this line" is affected as well, regardless of the option being enabled or not.
+    Severity: MEDIUM
+    VendorSeverity:
+      ubuntu: 2
+    References:
+    - https://ubuntu.com/security/notices/USN-7626-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-27613
+    - https://www.openwall.com/lists/oss-security/2025/07/08/4
+  - VulnerabilityID: CVE-2025-46835
+    PkgID: git-man@1:2.34.1-1ubuntu1.12
+    PkgName: git-man
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/git-man@2.34.1-1ubuntu1.12?arch=all&distro=ubuntu-22.04&epoch=1
+      UID: 93515fa8ea00e27a
+    InstalledVersion: 1:2.34.1-1ubuntu1.12
+    FixedVersion: 1:2.34.1-1ubuntu1.13
+    Status: fixed
+    Layer:
+      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
+      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-46835
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Description: When a user clones an untrusted repository and is tricked into editing a file located in a maliciously named directory in the repository, then Git GUI can create and overwrite any writable file.
+    Severity: MEDIUM
+    VendorSeverity:
+      ubuntu: 2
+    References:
+    - https://ubuntu.com/security/notices/USN-7626-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-46835
+    - https://www.openwall.com/lists/oss-security/2025/07/08/4
+  - VulnerabilityID: CVE-2025-48384
+    PkgID: git-man@1:2.34.1-1ubuntu1.12
+    PkgName: git-man
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/git-man@2.34.1-1ubuntu1.12?arch=all&distro=ubuntu-22.04&epoch=1
+      UID: 93515fa8ea00e27a
+    InstalledVersion: 1:2.34.1-1ubuntu1.12
+    FixedVersion: 1:2.34.1-1ubuntu1.13
+    Status: fixed
+    Layer:
+      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
+      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-48384
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'git: Git arbitrary code execution'
+    Description: Git is a fast, scalable, distributed revision control system with an unusually rich command set that provides both high-level operations and full access to internals. When reading a config value, Git strips any trailing carriage return and line feed (CRLF). When writing a config entry, values with a trailing CR are not quoted, causing the CR to be lost when the config is later read. When initializing a submodule, if the submodule path contains a trailing CR, the altered path is read resulting in the submodule being checked out to an incorrect location. If a symlink exists that points the altered path to the submodule hooks directory, and the submodule contains an executable post-checkout hook, the script may be unintentionally executed after checkout. This vulnerability is fixed in v2.43.7, v2.44.4, v2.45.4, v2.46.4, v2.47.3, v2.48.2, v2.49.1, and v2.50.1.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-59
+    - CWE-436
+    VendorSeverity:
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:C/C:H/I:H/A:H
+        V3Score: 8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-48384
+    - https://dgl.cx/2025/07/git-clone-submodule-cve-2025-48384
+    - https://github.com/git/git/commit/05e9cd64ee23bbadcea6bcffd6660ed02b8eab89
+    - https://github.com/git/git/security/advisories/GHSA-vwqx-4fm8-6qc9
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-48384
+    - https://ubuntu.com/security/notices/USN-7626-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-48384
+    - https://www.openwall.com/lists/oss-security/2025/07/08/4
+    PublishedDate: '2025-07-08T19:15:42.8Z'
+    LastModifiedDate: '2025-07-08T19:15:42.8Z'
+  - VulnerabilityID: CVE-2025-48386
+    PkgID: git-man@1:2.34.1-1ubuntu1.12
+    PkgName: git-man
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/git-man@2.34.1-1ubuntu1.12?arch=all&distro=ubuntu-22.04&epoch=1
+      UID: 93515fa8ea00e27a
+    InstalledVersion: 1:2.34.1-1ubuntu1.12
+    FixedVersion: 1:2.34.1-1ubuntu1.13
+    Status: fixed
+    Layer:
+      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
+      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-48386
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'git: Git buffer overflow'
+    Description: Git is a fast, scalable, distributed revision control system with an unusually rich command set that provides both high-level operations and full access to internals. The wincred credential helper uses a static buffer (target) as a unique key for storing and comparing against internal storage. This credential helper does not properly bounds check the available space remaining in the buffer before appending to it with wcsncat(), leading to potential buffer overflows. This vulnerability is fixed in v2.43.7, v2.44.4, v2.45.4, v2.46.4, v2.47.3, v2.48.2, v2.49.1, and v2.50.1.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-120
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:C/C:H/I:N/A:N
+        V3Score: 6.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-48386
+    - https://github.com/git/git/security/advisories/GHSA-4v56-3xvj-xvfr
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-48386
+    - https://ubuntu.com/security/notices/USN-7626-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-48386
+    - https://www.openwall.com/lists/oss-security/2025/07/08/4
+    PublishedDate: '2025-07-08T19:15:43.41Z'
+    LastModifiedDate: '2025-07-08T19:15:43.41Z'
   - VulnerabilityID: CVE-2025-30258
     PkgID: gnupg@2.2.27-3ubuntu2.1
     PkgName: gnupg
@@ -6898,6 +7164,7 @@
     VendorSeverity:
       amazon: 2
       bitnami: 2
+      oracle-oval: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -6912,6 +7179,8 @@
     - https://go.dev/cl/679257
     - https://go.dev/issue/73816
     - https://groups.google.com/g/golang-announce/c/ufZ8WpEsA3A
+    - https://linux.oracle.com/cve/CVE-2025-4673.html
+    - https://linux.oracle.com/errata/ELSA-2025-10676.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-4673
     - https://pkg.go.dev/vuln/GO-2025-3751
     - https://ubuntu.com/security/notices/USN-7574-1
@@ -7250,6 +7519,7 @@
     VendorSeverity:
       amazon: 2
       bitnami: 2
+      oracle-oval: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -7264,6 +7534,8 @@
     - https://go.dev/cl/679257
     - https://go.dev/issue/73816
     - https://groups.google.com/g/golang-announce/c/ufZ8WpEsA3A
+    - https://linux.oracle.com/cve/CVE-2025-4673.html
+    - https://linux.oracle.com/errata/ELSA-2025-10676.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-4673
     - https://pkg.go.dev/vuln/GO-2025-3751
     - https://ubuntu.com/security/notices/USN-7574-1
@@ -7746,6 +8018,7 @@
     VendorSeverity:
       amazon: 2
       bitnami: 2
+      oracle-oval: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -7760,6 +8033,8 @@
     - https://go.dev/cl/679257
     - https://go.dev/issue/73816
     - https://groups.google.com/g/golang-announce/c/ufZ8WpEsA3A
+    - https://linux.oracle.com/cve/CVE-2025-4673.html
+    - https://linux.oracle.com/errata/ELSA-2025-10676.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-4673
     - https://pkg.go.dev/vuln/GO-2025-3751
     - https://ubuntu.com/security/notices/USN-7574-1
@@ -7973,6 +8248,7 @@
     VendorSeverity:
       amazon: 2
       bitnami: 2
+      oracle-oval: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -7987,6 +8263,8 @@
     - https://go.dev/cl/679257
     - https://go.dev/issue/73816
     - https://groups.google.com/g/golang-announce/c/ufZ8WpEsA3A
+    - https://linux.oracle.com/cve/CVE-2025-4673.html
+    - https://linux.oracle.com/errata/ELSA-2025-10676.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-4673
     - https://pkg.go.dev/vuln/GO-2025-3751
     - https://ubuntu.com/security/notices/USN-7574-1
@@ -8201,6 +8479,7 @@
     VendorSeverity:
       amazon: 2
       bitnami: 2
+      oracle-oval: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -8215,6 +8494,8 @@
     - https://go.dev/cl/679257
     - https://go.dev/issue/73816
     - https://groups.google.com/g/golang-announce/c/ufZ8WpEsA3A
+    - https://linux.oracle.com/cve/CVE-2025-4673.html
+    - https://linux.oracle.com/errata/ELSA-2025-10676.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-4673
     - https://pkg.go.dev/vuln/GO-2025-3751
     - https://ubuntu.com/security/notices/USN-7574-1
@@ -8473,6 +8754,7 @@
     VendorSeverity:
       amazon: 2
       bitnami: 2
+      oracle-oval: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -8487,6 +8769,8 @@
     - https://go.dev/cl/679257
     - https://go.dev/issue/73816
     - https://groups.google.com/g/golang-announce/c/ufZ8WpEsA3A
+    - https://linux.oracle.com/cve/CVE-2025-4673.html
+    - https://linux.oracle.com/errata/ELSA-2025-10676.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-4673
     - https://pkg.go.dev/vuln/GO-2025-3751
     - https://ubuntu.com/security/notices/USN-7574-1
@@ -8969,6 +9253,7 @@
     VendorSeverity:
       amazon: 2
       bitnami: 2
+      oracle-oval: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -8983,6 +9268,8 @@
     - https://go.dev/cl/679257
     - https://go.dev/issue/73816
     - https://groups.google.com/g/golang-announce/c/ufZ8WpEsA3A
+    - https://linux.oracle.com/cve/CVE-2025-4673.html
+    - https://linux.oracle.com/errata/ELSA-2025-10676.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-4673
     - https://pkg.go.dev/vuln/GO-2025-3751
     - https://ubuntu.com/security/notices/USN-7574-1
