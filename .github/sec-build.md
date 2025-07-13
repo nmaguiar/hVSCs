@@ -3974,7 +3974,113 @@
 ├ [1]  ╭ Target         : Java 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : jar 
-│      ╰ Vulnerabilities ─ [0] ╭ VulnerabilityID : CVE-2022-36033 
+│      ╰ Vulnerabilities ╭ [0] ╭ VulnerabilityID : CVE-2025-48924 
+│                        │     ├ PkgName         : org.apache.commons:commons-lang3 
+│                        │     ├ PkgPath         : opt/oaf/openaf.jar 
+│                        │     ├ PkgIdentifier    ╭ PURL: pkg:maven/org.apache.commons/commons-lang3@3.17.0 
+│                        │     │                  ╰ UID : 6fdecc45ed75c2ea 
+│                        │     ├ InstalledVersion: 3.17.0 
+│                        │     ├ FixedVersion    : 3.18.0 
+│                        │     ├ Status          : fixed 
+│                        │     ├ Layer            ╭ Digest: sha256:962eefac8f40c41ff073309292b9f81a4411d0535333
+│                        │     │                  │         a6a17db4bd8afe9b549f 
+│                        │     │                  ╰ DiffID: sha256:af0a9687f5c520e8e5292cf166b6685765e11fbbe4d7
+│                        │     │                            b33435fbcde9fafd94e5 
+│                        │     ├ SeveritySource  : ghsa 
+│                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-48924 
+│                        │     ├ DataSource       ╭ ID  : ghsa 
+│                        │     │                  ├ Name: GitHub Security Advisory Maven 
+│                        │     │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+e
+│                        │     │                          cosystem%3Amaven 
+│                        │     ├ Title           : commons-lang/commons-lang: org.apache.commons/commons-lang3:
+│                        │     │                    Uncontrolled Recursion vulnerability in Apache Commons Lang 
+│                        │     ├ Description     : Uncontrolled Recursion vulnerability in Apache Commons
+│                        │     │                   Lang.
+│                        │     │                   
+│                        │     │                   This issue affects Apache Commons Lang: Starting with
+│                        │     │                   commons-lang:commons-lang 2.0 to 2.6, and, from
+│                        │     │                   org.apache.commons:commons-lang3 3.0 before 3.18.0.
+│                        │     │                   The methods ClassUtils.getClass(...) can throw
+│                        │     │                   StackOverflowError on very long inputs. Because an Error is
+│                        │     │                   usually not handled by applications and libraries, a 
+│                        │     │                   StackOverflowError could cause an application to stop.
+│                        │     │                   Users are recommended to upgrade to version 3.18.0, which
+│                        │     │                   fixes the issue. 
+│                        │     ├ Severity        : MEDIUM 
+│                        │     ├ CweIDs           ─ [0]: CWE-674 
+│                        │     ├ VendorSeverity   ╭ ghsa  : 2 
+│                        │     │                  ╰ redhat: 1 
+│                        │     ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L
+│                        │     │                  │        │           /A:N 
+│                        │     │                  │        ╰ V3Score : 6.5 
+│                        │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N
+│                        │     │                           │           /A:L 
+│                        │     │                           ╰ V3Score : 3.7 
+│                        │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-48924 
+│                        │     │                  ├ [1]: https://github.com/apache/commons-lang 
+│                        │     │                  ├ [2]: https://github.com/apache/commons-lang/commit/b424803a
+│                        │     │                  │      bdb2bec818e4fbcb251ce031c22aca53 
+│                        │     │                  ├ [3]: https://lists.apache.org/thread/bgv0lpswokgol11tloxnjf
+│                        │     │                  │      zdl7yrc1g1 
+│                        │     │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-48924 
+│                        │     │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-48924 
+│                        │     ├ PublishedDate   : 2025-07-11T15:15:24.347Z 
+│                        │     ╰ LastModifiedDate: 2025-07-11T20:15:24.32Z 
+│                        ├ [1] ╭ VulnerabilityID : CVE-2025-48924 
+│                        │     ├ PkgName         : org.apache.commons:commons-lang3 
+│                        │     ├ PkgPath         : home/workspace/.openvscode-server/extensions/redhat.vscode-x
+│                        │     │                   ml-0.29.0-linux-x64/server/org.eclipse.lemminx-0.31.0-uber.j
+│                        │     │                   ar 
+│                        │     ├ PkgIdentifier    ╭ PURL: pkg:maven/org.apache.commons/commons-lang3@3.4 
+│                        │     │                  ╰ UID : a55acebda9947428 
+│                        │     ├ InstalledVersion: 3.4 
+│                        │     ├ FixedVersion    : 3.18.0 
+│                        │     ├ Status          : fixed 
+│                        │     ├ Layer            ╭ Digest: sha256:962eefac8f40c41ff073309292b9f81a4411d0535333
+│                        │     │                  │         a6a17db4bd8afe9b549f 
+│                        │     │                  ╰ DiffID: sha256:af0a9687f5c520e8e5292cf166b6685765e11fbbe4d7
+│                        │     │                            b33435fbcde9fafd94e5 
+│                        │     ├ SeveritySource  : ghsa 
+│                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-48924 
+│                        │     ├ DataSource       ╭ ID  : ghsa 
+│                        │     │                  ├ Name: GitHub Security Advisory Maven 
+│                        │     │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+e
+│                        │     │                          cosystem%3Amaven 
+│                        │     ├ Title           : commons-lang/commons-lang: org.apache.commons/commons-lang3:
+│                        │     │                    Uncontrolled Recursion vulnerability in Apache Commons Lang 
+│                        │     ├ Description     : Uncontrolled Recursion vulnerability in Apache Commons
+│                        │     │                   Lang.
+│                        │     │                   
+│                        │     │                   This issue affects Apache Commons Lang: Starting with
+│                        │     │                   commons-lang:commons-lang 2.0 to 2.6, and, from
+│                        │     │                   org.apache.commons:commons-lang3 3.0 before 3.18.0.
+│                        │     │                   The methods ClassUtils.getClass(...) can throw
+│                        │     │                   StackOverflowError on very long inputs. Because an Error is
+│                        │     │                   usually not handled by applications and libraries, a 
+│                        │     │                   StackOverflowError could cause an application to stop.
+│                        │     │                   Users are recommended to upgrade to version 3.18.0, which
+│                        │     │                   fixes the issue. 
+│                        │     ├ Severity        : MEDIUM 
+│                        │     ├ CweIDs           ─ [0]: CWE-674 
+│                        │     ├ VendorSeverity   ╭ ghsa  : 2 
+│                        │     │                  ╰ redhat: 1 
+│                        │     ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L
+│                        │     │                  │        │           /A:N 
+│                        │     │                  │        ╰ V3Score : 6.5 
+│                        │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N
+│                        │     │                           │           /A:L 
+│                        │     │                           ╰ V3Score : 3.7 
+│                        │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-48924 
+│                        │     │                  ├ [1]: https://github.com/apache/commons-lang 
+│                        │     │                  ├ [2]: https://github.com/apache/commons-lang/commit/b424803a
+│                        │     │                  │      bdb2bec818e4fbcb251ce031c22aca53 
+│                        │     │                  ├ [3]: https://lists.apache.org/thread/bgv0lpswokgol11tloxnjf
+│                        │     │                  │      zdl7yrc1g1 
+│                        │     │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-48924 
+│                        │     │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-48924 
+│                        │     ├ PublishedDate   : 2025-07-11T15:15:24.347Z 
+│                        │     ╰ LastModifiedDate: 2025-07-11T20:15:24.32Z 
+│                        ╰ [2] ╭ VulnerabilityID : CVE-2022-36033 
 │                              ├ PkgName         : org.jsoup:jsoup 
 │                              ├ PkgPath         : home/workspace/.openvscode-server/extensions/redhat.vscode-x
 │                              │                   ml-0.29.0-linux-x64/server/org.eclipse.lemminx-0.31.0-uber.j
@@ -4243,7 +4349,7 @@
 │                        │     │                   during DOM construction, but only when tags are in foreign
 │                        │     │                   content (e.g. <math>, <svg>, etc contexts). 
 │                        │     ├ Severity        : MEDIUM 
-│                        │     ├ VendorSeverity   ╭ amazon     : 3 
+│                        │     ├ VendorSeverity   ╭ amazon     : 2 
 │                        │     │                  ├ azure      : 2 
 │                        │     │                  ├ cbl-mariner: 2 
 │                        │     │                  ├ ghsa       : 2 
@@ -4643,7 +4749,7 @@
 │                        │     │                   during DOM construction, but only when tags are in foreign
 │                        │     │                   content (e.g. <math>, <svg>, etc contexts). 
 │                        │     ├ Severity        : MEDIUM 
-│                        │     ├ VendorSeverity   ╭ amazon     : 3 
+│                        │     ├ VendorSeverity   ╭ amazon     : 2 
 │                        │     │                  ├ azure      : 2 
 │                        │     │                  ├ cbl-mariner: 2 
 │                        │     │                  ├ ghsa       : 2 
@@ -5405,7 +5511,7 @@
 │                        │     │                   during DOM construction, but only when tags are in foreign
 │                        │     │                   content (e.g. <math>, <svg>, etc contexts). 
 │                        │     ├ Severity        : MEDIUM 
-│                        │     ├ VendorSeverity   ╭ amazon     : 3 
+│                        │     ├ VendorSeverity   ╭ amazon     : 2 
 │                        │     │                  ├ azure      : 2 
 │                        │     │                  ├ cbl-mariner: 2 
 │                        │     │                  ├ ghsa       : 2 
