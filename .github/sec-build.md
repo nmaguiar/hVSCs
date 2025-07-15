@@ -1656,7 +1656,8 @@
 │                        │      │                  │       64&distro=ubuntu-22.04 
 │                        │      │                  ╰ UID : 7fdea20ef8277aff 
 │                        │      ├ InstalledVersion: 3.7.3-4ubuntu1.6 
-│                        │      ├ Status          : affected 
+│                        │      ├ FixedVersion    : 3.7.3-4ubuntu1.7 
+│                        │      ├ Status          : fixed 
 │                        │      ├ Layer            ╭ Digest: sha256:962eefac8f40c41ff073309292b9f81a4411d053533
 │                        │      │                  │         3a6a17db4bd8afe9b549f 
 │                        │      │                  ╰ DiffID: sha256:af0a9687f5c520e8e5292cf166b6685765e11fbbe4d
@@ -1691,7 +1692,8 @@
 │                        │      │                  ├ [2]: https://lists.gnupg.org/pipermail/gnutls-help/2025-Ju
 │                        │      │                  │      ly/004883.html 
 │                        │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-32988 
-│                        │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2025-32988 
+│                        │      │                  ├ [4]: https://ubuntu.com/security/notices/USN-7635-1 
+│                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-32988 
 │                        │      ├ PublishedDate   : 2025-07-10T08:15:24.223Z 
 │                        │      ╰ LastModifiedDate: 2025-07-10T13:17:30.017Z 
 │                        ├ [33] ╭ VulnerabilityID : CVE-2025-32989 
@@ -1701,7 +1703,8 @@
 │                        │      │                  │       64&distro=ubuntu-22.04 
 │                        │      │                  ╰ UID : 7fdea20ef8277aff 
 │                        │      ├ InstalledVersion: 3.7.3-4ubuntu1.6 
-│                        │      ├ Status          : affected 
+│                        │      ├ FixedVersion    : 3.7.3-4ubuntu1.7 
+│                        │      ├ Status          : fixed 
 │                        │      ├ Layer            ╭ Digest: sha256:962eefac8f40c41ff073309292b9f81a4411d053533
 │                        │      │                  │         3a6a17db4bd8afe9b549f 
 │                        │      │                  ╰ DiffID: sha256:af0a9687f5c520e8e5292cf166b6685765e11fbbe4d
@@ -1734,7 +1737,8 @@
 │                        │      │                  ├ [2]: https://lists.gnupg.org/pipermail/gnutls-help/2025-Ju
 │                        │      │                  │      ly/004883.html 
 │                        │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-32989 
-│                        │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2025-32989 
+│                        │      │                  ├ [4]: https://ubuntu.com/security/notices/USN-7635-1 
+│                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-32989 
 │                        │      ├ PublishedDate   : 2025-07-10T08:15:24.43Z 
 │                        │      ╰ LastModifiedDate: 2025-07-10T13:17:30.017Z 
 │                        ├ [34] ╭ VulnerabilityID : CVE-2025-32990 
@@ -1744,7 +1748,8 @@
 │                        │      │                  │       64&distro=ubuntu-22.04 
 │                        │      │                  ╰ UID : 7fdea20ef8277aff 
 │                        │      ├ InstalledVersion: 3.7.3-4ubuntu1.6 
-│                        │      ├ Status          : affected 
+│                        │      ├ FixedVersion    : 3.7.3-4ubuntu1.7 
+│                        │      ├ Status          : fixed 
 │                        │      ├ Layer            ╭ Digest: sha256:962eefac8f40c41ff073309292b9f81a4411d053533
 │                        │      │                  │         3a6a17db4bd8afe9b549f 
 │                        │      │                  ╰ DiffID: sha256:af0a9687f5c520e8e5292cf166b6685765e11fbbe4d
@@ -1774,7 +1779,8 @@
 │                        │      │                  ├ [2]: https://lists.gnupg.org/pipermail/gnutls-help/2025-Ju
 │                        │      │                  │      ly/004883.html 
 │                        │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-32990 
-│                        │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2025-32990 
+│                        │      │                  ├ [4]: https://ubuntu.com/security/notices/USN-7635-1 
+│                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-32990 
 │                        │      ├ PublishedDate   : 2025-07-10T10:15:33.06Z 
 │                        │      ╰ LastModifiedDate: 2025-07-10T13:17:30.017Z 
 │                        ├ [35] ╭ VulnerabilityID : CVE-2025-6395 
@@ -1784,7 +1790,8 @@
 │                        │      │                  │       64&distro=ubuntu-22.04 
 │                        │      │                  ╰ UID : 7fdea20ef8277aff 
 │                        │      ├ InstalledVersion: 3.7.3-4ubuntu1.6 
-│                        │      ├ Status          : affected 
+│                        │      ├ FixedVersion    : 3.7.3-4ubuntu1.7 
+│                        │      ├ Status          : fixed 
 │                        │      ├ Layer            ╭ Digest: sha256:962eefac8f40c41ff073309292b9f81a4411d053533
 │                        │      │                  │         3a6a17db4bd8afe9b549f 
 │                        │      │                  ╰ DiffID: sha256:af0a9687f5c520e8e5292cf166b6685765e11fbbe4d
@@ -1814,7 +1821,8 @@
 │                        │      │                  ├ [2]: https://lists.gnupg.org/pipermail/gnutls-help/2025-Ju
 │                        │      │                  │      ly/004883.html 
 │                        │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-6395 
-│                        │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2025-6395 
+│                        │      │                  ├ [4]: https://ubuntu.com/security/notices/USN-7635-1 
+│                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-6395 
 │                        │      ├ PublishedDate   : 2025-07-10T16:15:25.11Z 
 │                        │      ╰ LastModifiedDate: 2025-07-10T16:15:25.11Z 
 │                        ├ [36] ╭ VulnerabilityID : CVE-2025-5222 
@@ -3817,7 +3825,56 @@
 │                        │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
 │                        │      ├ PublishedDate   : 2023-12-23T13:15:07.573Z 
 │                        │      ╰ LastModifiedDate: 2024-11-22T12:15:17.59Z 
-│                        ├ [70] ╭ VulnerabilityID : CVE-2023-29383 
+│                        ├ [70] ╭ VulnerabilityID : CVE-2025-45582 
+│                        │      ├ PkgID           : tar@1.34+dfsg-1ubuntu0.1.22.04.2 
+│                        │      ├ PkgName         : tar 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/tar@1.34%2Bdfsg-1ubuntu0.1.22.04.2?ar
+│                        │      │                  │       ch=amd64&distro=ubuntu-22.04 
+│                        │      │                  ╰ UID : 665ec26d6bda86be 
+│                        │      ├ InstalledVersion: 1.34+dfsg-1ubuntu0.1.22.04.2 
+│                        │      ├ Status          : affected 
+│                        │      ├ Layer            ╭ Digest: sha256:962eefac8f40c41ff073309292b9f81a4411d053533
+│                        │      │                  │         3a6a17db4bd8afe9b549f 
+│                        │      │                  ╰ DiffID: sha256:af0a9687f5c520e8e5292cf166b6685765e11fbbe4d
+│                        │      │                            7b33435fbcde9fafd94e5 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-45582 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : GNU Tar through 1.35 allows file overwrite via directory
+│                        │      │                   traversal in  ... 
+│                        │      ├ Description     : GNU Tar through 1.35 allows file overwrite via directory
+│                        │      │                   traversal in crafted TAR archives, with a certain two-step
+│                        │      │                   process. First, the victim must extract an archive that
+│                        │      │                   contains a ../ symlink to a critical directory. Second, the
+│                        │      │                    victim must extract an archive that contains a critical
+│                        │      │                   file, specified via a relative pathname that begins with
+│                        │      │                   the symlink name and ends with that critical file's name.
+│                        │      │                   Here, the extraction follows the symlink and overwrites the
+│                        │      │                    critical file. This bypasses the protection mechanism of
+│                        │      │                   "Member name contains '..'" that would occur for a single
+│                        │      │                   TAR archive that attempted to specify the critical file via
+│                        │      │                    a ../ approach. For example, the first archive can contain
+│                        │      │                    "x -> ../../../../../home/victim/.ssh" and the second
+│                        │      │                   archive can contain x/authorized_keys. This can affect
+│                        │      │                   server applications that automatically extract any number
+│                        │      │                   of user-supplied TAR archives, and were relying on the
+│                        │      │                   blocking of traversal. This can also affect software
+│                        │      │                   installation processes in which "tar xf" is run more than
+│                        │      │                   once (e.g., when installing a package can automatically
+│                        │      │                   install two dependencies that are set up as untrusted
+│                        │      │                   tarballs instead of official packages). 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ CweIDs           ─ [0]: CWE-24 
+│                        │      ├ VendorSeverity   ─ ubuntu: 2 
+│                        │      ├ References       ╭ [0]: https://github.com/i900008/vulndb/blob/main/Gnu_tar_v
+│                        │      │                  │      uln.md 
+│                        │      │                  ├ [1]: https://www.cve.org/CVERecord?id=CVE-2025-45582 
+│                        │      │                  ╰ [2]: https://www.gnu.org/software/tar/ 
+│                        │      ├ PublishedDate   : 2025-07-11T17:15:37.183Z 
+│                        │      ╰ LastModifiedDate: 2025-07-11T18:15:34.52Z 
+│                        ├ [71] ╭ VulnerabilityID : CVE-2023-29383 
 │                        │      ├ PkgID           : uidmap@1:4.8.1-2ubuntu2.2 
 │                        │      ├ PkgName         : uidmap 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/uidmap@4.8.1-2ubuntu2.2?arch=amd64&di
@@ -3876,7 +3933,7 @@
 │                        │      │                         sources/security-advisories/?fid=31797 
 │                        │      ├ PublishedDate   : 2023-04-14T22:15:07.68Z 
 │                        │      ╰ LastModifiedDate: 2025-02-06T22:15:35.057Z 
-│                        ├ [71] ╭ VulnerabilityID : CVE-2024-56433 
+│                        ├ [72] ╭ VulnerabilityID : CVE-2024-56433 
 │                        │      ├ PkgID           : uidmap@1:4.8.1-2ubuntu2.2 
 │                        │      ├ PkgName         : uidmap 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/uidmap@4.8.1-2ubuntu2.2?arch=amd64&di
@@ -3924,7 +3981,7 @@
 │                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                        │      ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                        │      ╰ LastModifiedDate: 2024-12-26T09:15:07.267Z 
-│                        ╰ [72] ╭ VulnerabilityID : CVE-2021-31879 
+│                        ╰ [73] ╭ VulnerabilityID : CVE-2021-31879 
 │                               ├ PkgID           : wget@1.21.2-2ubuntu1.1 
 │                               ├ PkgName         : wget 
 │                               ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/wget@1.21.2-2ubuntu1.1?arch=amd64&dis
@@ -4025,7 +4082,7 @@
 │                        │     │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-48924 
 │                        │     │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-48924 
 │                        │     ├ PublishedDate   : 2025-07-11T15:15:24.347Z 
-│                        │     ╰ LastModifiedDate: 2025-07-11T20:15:24.32Z 
+│                        │     ╰ LastModifiedDate: 2025-07-14T17:15:33.027Z 
 │                        ├ [1] ╭ VulnerabilityID : CVE-2025-48924 
 │                        │     ├ PkgName         : org.apache.commons:commons-lang3 
 │                        │     ├ PkgPath         : home/workspace/.openvscode-server/extensions/redhat.vscode-x
@@ -4079,7 +4136,7 @@
 │                        │     │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-48924 
 │                        │     │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-48924 
 │                        │     ├ PublishedDate   : 2025-07-11T15:15:24.347Z 
-│                        │     ╰ LastModifiedDate: 2025-07-11T20:15:24.32Z 
+│                        │     ╰ LastModifiedDate: 2025-07-14T17:15:33.027Z 
 │                        ╰ [2] ╭ VulnerabilityID : CVE-2022-36033 
 │                              ├ PkgName         : org.jsoup:jsoup 
 │                              ├ PkgPath         : home/workspace/.openvscode-server/extensions/redhat.vscode-x
