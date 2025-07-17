@@ -479,8 +479,8 @@
       ubuntu: 2
     CVSS:
       redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:L
-        V3Score: 6.3
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N
+        V3Score: 4.3
     References:
     - https://access.redhat.com/security/cve/CVE-2025-27613
     - https://github.com/j6t/gitk/compare/465f03869ae11acd04abfa1b83c67879c867410c..026c397d911cde55924d7eb1311d0fd6e2e105d5
@@ -494,7 +494,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-27613
     - https://www.openwall.com/lists/oss-security/2025/07/08/4
     PublishedDate: '2025-07-10T15:15:26.243Z'
-    LastModifiedDate: '2025-07-10T15:15:26.243Z'
+    LastModifiedDate: '2025-07-15T13:24:41.097Z'
   - VulnerabilityID: CVE-2025-46835
     PkgID: git@1:2.34.1-1ubuntu1.12
     PkgName: git
@@ -513,23 +513,30 @@
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: Git GUI allows you to use the Git source control management tools via  ...
+    Title: 'git: Git GUI can create and overwrite files for which the user has write permission'
     Description: Git GUI allows you to use the Git source control management tools via a GUI. When a user clones an untrusted repository and is tricked into editing a file located in a maliciously named directory in the repository, then Git GUI can create and overwrite files for which the user has write permission. This vulnerability is fixed in 2.43.7, 2.44.4, 2.45.4, 2.46.4, 2.47.3, 2.48.2, 2.49.1, and 2.50.1.
     Severity: MEDIUM
     CweIDs:
     - CWE-88
     VendorSeverity:
+      redhat: 1
       ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:L/A:N
+        V3Score: 3.1
     References:
+    - https://access.redhat.com/security/cve/CVE-2025-46835
     - https://github.com/j6t/git-gui/compare/dcda716dbc9c90bcac4611bd1076747671ee0906..a437f5bc93330a70b42a230e52f3bd036ca1b1da
     - https://github.com/j6t/git-gui/security/advisories/GHSA-xfx7-68v4-v8fg
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-46835
     - https://ubuntu.com/security/notices/USN-7626-1
     - https://ubuntu.com/security/notices/USN-7626-2
     - https://ubuntu.com/security/notices/USN-7626-3
     - https://www.cve.org/CVERecord?id=CVE-2025-46835
     - https://www.openwall.com/lists/oss-security/2025/07/08/4
     PublishedDate: '2025-07-10T15:15:29.503Z'
-    LastModifiedDate: '2025-07-10T15:15:29.503Z'
+    LastModifiedDate: '2025-07-15T13:24:41.097Z'
   - VulnerabilityID: CVE-2025-48384
     PkgID: git@1:2.34.1-1ubuntu1.12
     PkgName: git
@@ -696,8 +703,8 @@
       ubuntu: 2
     CVSS:
       redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:L
-        V3Score: 6.3
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N
+        V3Score: 4.3
     References:
     - https://access.redhat.com/security/cve/CVE-2025-27613
     - https://github.com/j6t/gitk/compare/465f03869ae11acd04abfa1b83c67879c867410c..026c397d911cde55924d7eb1311d0fd6e2e105d5
@@ -711,7 +718,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-27613
     - https://www.openwall.com/lists/oss-security/2025/07/08/4
     PublishedDate: '2025-07-10T15:15:26.243Z'
-    LastModifiedDate: '2025-07-10T15:15:26.243Z'
+    LastModifiedDate: '2025-07-15T13:24:41.097Z'
   - VulnerabilityID: CVE-2025-46835
     PkgID: git-man@1:2.34.1-1ubuntu1.12
     PkgName: git-man
@@ -730,23 +737,30 @@
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: Git GUI allows you to use the Git source control management tools via  ...
+    Title: 'git: Git GUI can create and overwrite files for which the user has write permission'
     Description: Git GUI allows you to use the Git source control management tools via a GUI. When a user clones an untrusted repository and is tricked into editing a file located in a maliciously named directory in the repository, then Git GUI can create and overwrite files for which the user has write permission. This vulnerability is fixed in 2.43.7, 2.44.4, 2.45.4, 2.46.4, 2.47.3, 2.48.2, 2.49.1, and 2.50.1.
     Severity: MEDIUM
     CweIDs:
     - CWE-88
     VendorSeverity:
+      redhat: 1
       ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:L/A:N
+        V3Score: 3.1
     References:
+    - https://access.redhat.com/security/cve/CVE-2025-46835
     - https://github.com/j6t/git-gui/compare/dcda716dbc9c90bcac4611bd1076747671ee0906..a437f5bc93330a70b42a230e52f3bd036ca1b1da
     - https://github.com/j6t/git-gui/security/advisories/GHSA-xfx7-68v4-v8fg
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-46835
     - https://ubuntu.com/security/notices/USN-7626-1
     - https://ubuntu.com/security/notices/USN-7626-2
     - https://ubuntu.com/security/notices/USN-7626-3
     - https://www.cve.org/CVERecord?id=CVE-2025-46835
     - https://www.openwall.com/lists/oss-security/2025/07/08/4
     PublishedDate: '2025-07-10T15:15:29.503Z'
-    LastModifiedDate: '2025-07-10T15:15:29.503Z'
+    LastModifiedDate: '2025-07-15T13:24:41.097Z'
   - VulnerabilityID: CVE-2025-48384
     PkgID: git-man@1:2.34.1-1ubuntu1.12
     PkgName: git-man
@@ -2582,6 +2596,7 @@
     CweIDs:
     - CWE-124
     VendorSeverity:
+      oracle-oval: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -2590,16 +2605,19 @@
         V3Score: 4.8
     References:
     - https://access.redhat.com/errata/RHSA-2025:10855
+    - https://access.redhat.com/errata/RHSA-2025:11140
     - https://access.redhat.com/security/cve/CVE-2025-4373
     - https://bugzilla.redhat.com/show_bug.cgi?id=2364265
     - https://gitlab.gnome.org/GNOME/glib/-/issues/3677
     - https://gitlab.gnome.org/GNOME/glib/-/merge_requests/4588
     - https://gitlab.gnome.org/GNOME/glib/-/merge_requests/4592
+    - https://linux.oracle.com/cve/CVE-2025-4373.html
+    - https://linux.oracle.com/errata/ELSA-2025-11140.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-4373
     - https://ubuntu.com/security/notices/USN-7532-1
     - https://www.cve.org/CVERecord?id=CVE-2025-4373
     PublishedDate: '2025-05-06T15:16:05.32Z'
-    LastModifiedDate: '2025-07-14T15:15:23.94Z'
+    LastModifiedDate: '2025-07-15T14:15:30.423Z'
   - VulnerabilityID: CVE-2025-4373
     PkgID: libglib2.0-data@2.72.4-0ubuntu2.4
     PkgName: libglib2.0-data
@@ -2624,6 +2642,7 @@
     CweIDs:
     - CWE-124
     VendorSeverity:
+      oracle-oval: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -2632,16 +2651,19 @@
         V3Score: 4.8
     References:
     - https://access.redhat.com/errata/RHSA-2025:10855
+    - https://access.redhat.com/errata/RHSA-2025:11140
     - https://access.redhat.com/security/cve/CVE-2025-4373
     - https://bugzilla.redhat.com/show_bug.cgi?id=2364265
     - https://gitlab.gnome.org/GNOME/glib/-/issues/3677
     - https://gitlab.gnome.org/GNOME/glib/-/merge_requests/4588
     - https://gitlab.gnome.org/GNOME/glib/-/merge_requests/4592
+    - https://linux.oracle.com/cve/CVE-2025-4373.html
+    - https://linux.oracle.com/errata/ELSA-2025-11140.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-4373
     - https://ubuntu.com/security/notices/USN-7532-1
     - https://www.cve.org/CVERecord?id=CVE-2025-4373
     PublishedDate: '2025-05-06T15:16:05.32Z'
-    LastModifiedDate: '2025-07-14T15:15:23.94Z'
+    LastModifiedDate: '2025-07-15T14:15:30.423Z'
   - VulnerabilityID: CVE-2025-32988
     PkgID: libgnutls30@3.7.3-4ubuntu1.6
     PkgName: libgnutls30
@@ -2669,6 +2691,7 @@
     CweIDs:
     - CWE-415
     VendorSeverity:
+      azure: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -2708,6 +2731,7 @@
     CweIDs:
     - CWE-295
     VendorSeverity:
+      azure: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -2747,6 +2771,7 @@
     CweIDs:
     - CWE-122
     VendorSeverity:
+      azure: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -2781,7 +2806,7 @@
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Title: 'gnutls: NULL pointer dereference in _gnutls_figure_common_ciphersuite()'
-    Description: A NULL pointer dereference flaw was found in the GnuTLS software in _gnutls_figure_common_ciphersuite(). When it reads certain settings from a template file, it can allow an attacker to cause an out-of-bounds (OOB) NULL pointer write, resulting in memory corruption and a denial of service (DoS) that could crash the system.
+    Description: A NULL pointer dereference flaw was found in the GnuTLS software in _gnutls_figure_common_ciphersuite().
     Severity: MEDIUM
     CweIDs:
     - CWE-476
@@ -2800,7 +2825,7 @@
     - https://ubuntu.com/security/notices/USN-7635-1
     - https://www.cve.org/CVERecord?id=CVE-2025-6395
     PublishedDate: '2025-07-10T16:15:25.11Z'
-    LastModifiedDate: '2025-07-10T16:15:25.11Z'
+    LastModifiedDate: '2025-07-15T13:24:41.097Z'
   - VulnerabilityID: CVE-2025-3576
     PkgID: libgssapi-krb5-2@1.19.2-2ubuntu0.6
     PkgName: libgssapi-krb5-2
@@ -3912,6 +3937,7 @@
     - CWE-122
     - CWE-787
     VendorSeverity:
+      alma: 3
       azure: 3
       cbl-mariner: 3
       oracle-oval: 3
@@ -3926,7 +3952,10 @@
     - http://www.openwall.com/lists/oss-security/2025/04/13/3
     - http://www.openwall.com/lists/oss-security/2025/04/13/4
     - http://www.openwall.com/lists/oss-security/2025/04/13/5
+    - https://access.redhat.com/errata/RHSA-2025:7500
     - https://access.redhat.com/security/cve/CVE-2024-56406
+    - https://bugzilla.redhat.com/2359290
+    - https://errata.almalinux.org/10/ALSA-2025-7500.html
     - https://github.com/Perl/perl5/commit/87f42aa0e0096e9a346c9672aa3a0bd3bef8c1dd.patch
     - https://linux.oracle.com/cve/CVE-2024-56406.html
     - https://linux.oracle.com/errata/ELSA-2025-7500.html
@@ -5147,6 +5176,7 @@
       amazon: 2
       nvd: 2
       oracle-oval: 2
+      photon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -5894,6 +5924,7 @@
     - CWE-122
     - CWE-787
     VendorSeverity:
+      alma: 3
       azure: 3
       cbl-mariner: 3
       oracle-oval: 3
@@ -5908,7 +5939,10 @@
     - http://www.openwall.com/lists/oss-security/2025/04/13/3
     - http://www.openwall.com/lists/oss-security/2025/04/13/4
     - http://www.openwall.com/lists/oss-security/2025/04/13/5
+    - https://access.redhat.com/errata/RHSA-2025:7500
     - https://access.redhat.com/security/cve/CVE-2024-56406
+    - https://bugzilla.redhat.com/2359290
+    - https://errata.almalinux.org/10/ALSA-2025-7500.html
     - https://github.com/Perl/perl5/commit/87f42aa0e0096e9a346c9672aa3a0bd3bef8c1dd.patch
     - https://linux.oracle.com/cve/CVE-2024-56406.html
     - https://linux.oracle.com/errata/ELSA-2025-7500.html
@@ -5945,6 +5979,7 @@
     - CWE-122
     - CWE-787
     VendorSeverity:
+      alma: 3
       azure: 3
       cbl-mariner: 3
       oracle-oval: 3
@@ -5959,7 +5994,10 @@
     - http://www.openwall.com/lists/oss-security/2025/04/13/3
     - http://www.openwall.com/lists/oss-security/2025/04/13/4
     - http://www.openwall.com/lists/oss-security/2025/04/13/5
+    - https://access.redhat.com/errata/RHSA-2025:7500
     - https://access.redhat.com/security/cve/CVE-2024-56406
+    - https://bugzilla.redhat.com/2359290
+    - https://errata.almalinux.org/10/ALSA-2025-7500.html
     - https://github.com/Perl/perl5/commit/87f42aa0e0096e9a346c9672aa3a0bd3bef8c1dd.patch
     - https://linux.oracle.com/cve/CVE-2024-56406.html
     - https://linux.oracle.com/errata/ELSA-2025-7500.html
@@ -5996,6 +6034,7 @@
     - CWE-122
     - CWE-787
     VendorSeverity:
+      alma: 3
       azure: 3
       cbl-mariner: 3
       oracle-oval: 3
@@ -6010,7 +6049,10 @@
     - http://www.openwall.com/lists/oss-security/2025/04/13/3
     - http://www.openwall.com/lists/oss-security/2025/04/13/4
     - http://www.openwall.com/lists/oss-security/2025/04/13/5
+    - https://access.redhat.com/errata/RHSA-2025:7500
     - https://access.redhat.com/security/cve/CVE-2024-56406
+    - https://bugzilla.redhat.com/2359290
+    - https://errata.almalinux.org/10/ALSA-2025-7500.html
     - https://github.com/Perl/perl5/commit/87f42aa0e0096e9a346c9672aa3a0bd3bef8c1dd.patch
     - https://linux.oracle.com/cve/CVE-2024-56406.html
     - https://linux.oracle.com/errata/ELSA-2025-7500.html
@@ -6750,19 +6792,27 @@
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: GNU Tar through 1.35 allows file overwrite via directory traversal in  ...
+    Title: 'tar: Tar path traversal'
     Description: GNU Tar through 1.35 allows file overwrite via directory traversal in crafted TAR archives, with a certain two-step process. First, the victim must extract an archive that contains a ../ symlink to a critical directory. Second, the victim must extract an archive that contains a critical file, specified via a relative pathname that begins with the symlink name and ends with that critical file's name. Here, the extraction follows the symlink and overwrites the critical file. This bypasses the protection mechanism of "Member name contains '..'" that would occur for a single TAR archive that attempted to specify the critical file via a ../ approach. For example, the first archive can contain "x -> ../../../../../home/victim/.ssh" and the second archive can contain x/authorized_keys. This can affect server applications that automatically extract any number of user-supplied TAR archives, and were relying on the blocking of traversal. This can also affect software installation processes in which "tar xf" is run more than once (e.g., when installing a package can automatically install two dependencies that are set up as untrusted tarballs instead of official packages).
     Severity: MEDIUM
     CweIDs:
     - CWE-24
     VendorSeverity:
+      redhat: 2
       ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L
+        V3Score: 5.6
     References:
+    - https://access.redhat.com/security/cve/CVE-2025-45582
     - https://github.com/i900008/vulndb/blob/main/Gnu_tar_vuln.md
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-45582
     - https://www.cve.org/CVERecord?id=CVE-2025-45582
     - https://www.gnu.org/software/tar/
+    - https://www.gnu.org/software/tar/manual/html_node/Integrity.html#Integrity
     PublishedDate: '2025-07-11T17:15:37.183Z'
-    LastModifiedDate: '2025-07-11T18:15:34.52Z'
+    LastModifiedDate: '2025-07-15T13:14:49.98Z'
   - VulnerabilityID: CVE-2023-29383
     PkgID: uidmap@1:4.8.1-2ubuntu2.2
     PkgName: uidmap
@@ -7120,7 +7170,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-48924
     - https://www.cve.org/CVERecord?id=CVE-2025-48924
     PublishedDate: '2025-07-11T15:15:24.347Z'
-    LastModifiedDate: '2025-07-14T17:15:33.027Z'
+    LastModifiedDate: '2025-07-15T13:14:49.98Z'
   - VulnerabilityID: CVE-2025-48924
     PkgName: org.apache.commons:commons-lang3
     PkgPath: home/workspace/.openvscode-server/extensions/redhat.vscode-xml-0.28.0-linux-x64/server/org.eclipse.lemminx-0.30.0-uber.jar
@@ -7162,7 +7212,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-48924
     - https://www.cve.org/CVERecord?id=CVE-2025-48924
     PublishedDate: '2025-07-11T15:15:24.347Z'
-    LastModifiedDate: '2025-07-14T17:15:33.027Z'
+    LastModifiedDate: '2025-07-15T13:14:49.98Z'
   - VulnerabilityID: CVE-2022-36033
     PkgName: org.jsoup:jsoup
     PkgPath: home/workspace/.openvscode-server/extensions/redhat.vscode-xml-0.28.0-linux-x64/server/org.eclipse.lemminx-0.30.0-uber.jar
