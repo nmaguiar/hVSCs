@@ -1682,7 +1682,8 @@
 │                        │      │                   corruption, depending on allocator behavior. 
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-415 
-│                        │      ├ VendorSeverity   ╭ redhat: 2 
+│                        │      ├ VendorSeverity   ╭ azure : 2 
+│                        │      │                  ├ redhat: 2 
 │                        │      │                  ╰ ubuntu: 2 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:
 │                        │      │                           │           L/A:H 
@@ -1727,7 +1728,8 @@
 │                        │      │                   correctly. 
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-295 
-│                        │      ├ VendorSeverity   ╭ redhat: 2 
+│                        │      ├ VendorSeverity   ╭ azure : 2 
+│                        │      │                  ├ redhat: 2 
 │                        │      │                  ╰ ubuntu: 2 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:
 │                        │      │                           │           N/A:N 
@@ -1769,7 +1771,8 @@
 │                        │      │                   potentially crash the system. 
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-122 
-│                        │      ├ VendorSeverity   ╭ redhat: 2 
+│                        │      ├ VendorSeverity   ╭ azure : 2 
+│                        │      │                  ├ redhat: 2 
 │                        │      │                  ╰ ubuntu: 2 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
 │                        │      │                           │           L/A:L 
@@ -1804,11 +1807,7 @@
 │                        │      ├ Title           : gnutls: NULL pointer dereference in
 │                        │      │                   _gnutls_figure_common_ciphersuite() 
 │                        │      ├ Description     : A NULL pointer dereference flaw was found in the GnuTLS
-│                        │      │                   software in _gnutls_figure_common_ciphersuite(). When it
-│                        │      │                   reads certain settings from a template file, it can allow
-│                        │      │                   an attacker to cause an out-of-bounds (OOB) NULL pointer
-│                        │      │                   write, resulting in memory corruption and a denial of
-│                        │      │                   service (DoS) that could crash the system. 
+│                        │      │                   software in _gnutls_figure_common_ciphersuite(). 
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-476 
 │                        │      ├ VendorSeverity   ╭ redhat: 2 
@@ -1824,7 +1823,7 @@
 │                        │      │                  ├ [4]: https://ubuntu.com/security/notices/USN-7635-1 
 │                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-6395 
 │                        │      ├ PublishedDate   : 2025-07-10T16:15:25.11Z 
-│                        │      ╰ LastModifiedDate: 2025-07-10T16:15:25.11Z 
+│                        │      ╰ LastModifiedDate: 2025-07-15T13:24:41.097Z 
 │                        ├ [36] ╭ VulnerabilityID : CVE-2025-5222 
 │                        │      ├ PkgID           : libicu70@70.1-2 
 │                        │      ├ PkgName         : libicu70 
@@ -3842,8 +3841,7 @@
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
 │                        │      │                  ├ Name: Ubuntu CVE Tracker 
 │                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │      ├ Title           : GNU Tar through 1.35 allows file overwrite via directory
-│                        │      │                   traversal in  ... 
+│                        │      ├ Title           : tar: Tar path traversal 
 │                        │      ├ Description     : GNU Tar through 1.35 allows file overwrite via directory
 │                        │      │                   traversal in crafted TAR archives, with a certain two-step
 │                        │      │                   process. First, the victim must extract an archive that
@@ -3867,13 +3865,21 @@
 │                        │      │                   tarballs instead of official packages). 
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-24 
-│                        │      ├ VendorSeverity   ─ ubuntu: 2 
-│                        │      ├ References       ╭ [0]: https://github.com/i900008/vulndb/blob/main/Gnu_tar_v
+│                        │      ├ VendorSeverity   ╭ redhat: 2 
+│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:
+│                        │      │                           │           L/A:L 
+│                        │      │                           ╰ V3Score : 5.6 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-45582 
+│                        │      │                  ├ [1]: https://github.com/i900008/vulndb/blob/main/Gnu_tar_v
 │                        │      │                  │      uln.md 
-│                        │      │                  ├ [1]: https://www.cve.org/CVERecord?id=CVE-2025-45582 
-│                        │      │                  ╰ [2]: https://www.gnu.org/software/tar/ 
+│                        │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2025-45582 
+│                        │      │                  ├ [3]: https://www.cve.org/CVERecord?id=CVE-2025-45582 
+│                        │      │                  ├ [4]: https://www.gnu.org/software/tar/ 
+│                        │      │                  ╰ [5]: https://www.gnu.org/software/tar/manual/html_node/Int
+│                        │      │                         egrity.html#Integrity 
 │                        │      ├ PublishedDate   : 2025-07-11T17:15:37.183Z 
-│                        │      ╰ LastModifiedDate: 2025-07-11T18:15:34.52Z 
+│                        │      ╰ LastModifiedDate: 2025-07-15T13:14:49.98Z 
 │                        ├ [71] ╭ VulnerabilityID : CVE-2023-29383 
 │                        │      ├ PkgID           : uidmap@1:4.8.1-2ubuntu2.2 
 │                        │      ├ PkgName         : uidmap 
@@ -4082,7 +4088,7 @@
 │                        │     │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-48924 
 │                        │     │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-48924 
 │                        │     ├ PublishedDate   : 2025-07-11T15:15:24.347Z 
-│                        │     ╰ LastModifiedDate: 2025-07-14T17:15:33.027Z 
+│                        │     ╰ LastModifiedDate: 2025-07-15T13:14:49.98Z 
 │                        ├ [1] ╭ VulnerabilityID : CVE-2025-48924 
 │                        │     ├ PkgName         : org.apache.commons:commons-lang3 
 │                        │     ├ PkgPath         : home/workspace/.openvscode-server/extensions/redhat.vscode-x
@@ -4136,7 +4142,7 @@
 │                        │     │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-48924 
 │                        │     │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-48924 
 │                        │     ├ PublishedDate   : 2025-07-11T15:15:24.347Z 
-│                        │     ╰ LastModifiedDate: 2025-07-14T17:15:33.027Z 
+│                        │     ╰ LastModifiedDate: 2025-07-15T13:14:49.98Z 
 │                        ╰ [2] ╭ VulnerabilityID : CVE-2022-36033 
 │                              ├ PkgName         : org.jsoup:jsoup 
 │                              ├ PkgPath         : home/workspace/.openvscode-server/extensions/redhat.vscode-x
