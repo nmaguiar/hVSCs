@@ -552,9 +552,9 @@
 │                        │       ├ CweIDs           ─ [0]: CWE-78 
 │                        │       ├ VendorSeverity   ╭ redhat: 2 
 │                        │       │                  ╰ ubuntu: 2 
-│                        │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I
-│                        │       │                           │           :L/A:L 
-│                        │       │                           ╰ V3Score : 6.3 
+│                        │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I
+│                        │       │                           │           :L/A:N 
+│                        │       │                           ╰ V3Score : 4.3 
 │                        │       ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2025-27613 
 │                        │       │                  ├ [1] : https://github.com/j6t/gitk/compare/465f03869ae11ac
 │                        │       │                  │       d04abfa1b83c67879c867410c..026c397d911cde55924d7eb1
@@ -574,7 +574,7 @@
 │                        │       │                  ╰ [10]: https://www.openwall.com/lists/oss-security/2025/07
 │                        │       │                          /08/4 
 │                        │       ├ PublishedDate   : 2025-07-10T15:15:26.243Z 
-│                        │       ╰ LastModifiedDate: 2025-07-10T15:15:26.243Z 
+│                        │       ╰ LastModifiedDate: 2025-07-15T13:24:41.097Z 
 │                        ├ [10]  ╭ VulnerabilityID : CVE-2025-46835 
 │                        │       ├ PkgID           : git@1:2.34.1-1ubuntu1.12 
 │                        │       ├ PkgName         : git 
@@ -593,8 +593,8 @@
 │                        │       ├ DataSource       ╭ ID  : ubuntu 
 │                        │       │                  ├ Name: Ubuntu CVE Tracker 
 │                        │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │       ├ Title           : Git GUI allows you to use the Git source control
-│                        │       │                   management tools via  ... 
+│                        │       ├ Title           : git: Git GUI can create and overwrite files for which the
+│                        │       │                   user has write permission 
 │                        │       ├ Description     : Git GUI allows you to use the Git source control
 │                        │       │                   management tools via a GUI. When a user clones an
 │                        │       │                   untrusted repository and is tricked into editing a file
@@ -605,20 +605,26 @@
 │                        │       │                   2.47.3, 2.48.2, 2.49.1, and 2.50.1. 
 │                        │       ├ Severity        : MEDIUM 
 │                        │       ├ CweIDs           ─ [0]: CWE-88 
-│                        │       ├ VendorSeverity   ─ ubuntu: 2 
-│                        │       ├ References       ╭ [0]: https://github.com/j6t/git-gui/compare/dcda716dbc9c9
+│                        │       ├ VendorSeverity   ╭ redhat: 1 
+│                        │       │                  ╰ ubuntu: 2 
+│                        │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I
+│                        │       │                           │           :L/A:N 
+│                        │       │                           ╰ V3Score : 3.1 
+│                        │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-46835 
+│                        │       │                  ├ [1]: https://github.com/j6t/git-gui/compare/dcda716dbc9c9
 │                        │       │                  │      0bcac4611bd1076747671ee0906..a437f5bc93330a70b42a230
 │                        │       │                  │      e52f3bd036ca1b1da 
-│                        │       │                  ├ [1]: https://github.com/j6t/git-gui/security/advisories/G
+│                        │       │                  ├ [2]: https://github.com/j6t/git-gui/security/advisories/G
 │                        │       │                  │      HSA-xfx7-68v4-v8fg 
-│                        │       │                  ├ [2]: https://ubuntu.com/security/notices/USN-7626-1 
-│                        │       │                  ├ [3]: https://ubuntu.com/security/notices/USN-7626-2 
-│                        │       │                  ├ [4]: https://ubuntu.com/security/notices/USN-7626-3 
-│                        │       │                  ├ [5]: https://www.cve.org/CVERecord?id=CVE-2025-46835 
-│                        │       │                  ╰ [6]: https://www.openwall.com/lists/oss-security/2025/07/
+│                        │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-46835 
+│                        │       │                  ├ [4]: https://ubuntu.com/security/notices/USN-7626-1 
+│                        │       │                  ├ [5]: https://ubuntu.com/security/notices/USN-7626-2 
+│                        │       │                  ├ [6]: https://ubuntu.com/security/notices/USN-7626-3 
+│                        │       │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2025-46835 
+│                        │       │                  ╰ [8]: https://www.openwall.com/lists/oss-security/2025/07/
 │                        │       │                         08/4 
 │                        │       ├ PublishedDate   : 2025-07-10T15:15:29.503Z 
-│                        │       ╰ LastModifiedDate: 2025-07-10T15:15:29.503Z 
+│                        │       ╰ LastModifiedDate: 2025-07-15T13:24:41.097Z 
 │                        ├ [11]  ╭ VulnerabilityID : CVE-2025-48384 
 │                        │       ├ PkgID           : git@1:2.34.1-1ubuntu1.12 
 │                        │       ├ PkgName         : git 
@@ -830,9 +836,9 @@
 │                        │       ├ CweIDs           ─ [0]: CWE-78 
 │                        │       ├ VendorSeverity   ╭ redhat: 2 
 │                        │       │                  ╰ ubuntu: 2 
-│                        │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I
-│                        │       │                           │           :L/A:L 
-│                        │       │                           ╰ V3Score : 6.3 
+│                        │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I
+│                        │       │                           │           :L/A:N 
+│                        │       │                           ╰ V3Score : 4.3 
 │                        │       ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2025-27613 
 │                        │       │                  ├ [1] : https://github.com/j6t/gitk/compare/465f03869ae11ac
 │                        │       │                  │       d04abfa1b83c67879c867410c..026c397d911cde55924d7eb1
@@ -852,7 +858,7 @@
 │                        │       │                  ╰ [10]: https://www.openwall.com/lists/oss-security/2025/07
 │                        │       │                          /08/4 
 │                        │       ├ PublishedDate   : 2025-07-10T15:15:26.243Z 
-│                        │       ╰ LastModifiedDate: 2025-07-10T15:15:26.243Z 
+│                        │       ╰ LastModifiedDate: 2025-07-15T13:24:41.097Z 
 │                        ├ [15]  ╭ VulnerabilityID : CVE-2025-46835 
 │                        │       ├ PkgID           : git-man@1:2.34.1-1ubuntu1.12 
 │                        │       ├ PkgName         : git-man 
@@ -871,8 +877,8 @@
 │                        │       ├ DataSource       ╭ ID  : ubuntu 
 │                        │       │                  ├ Name: Ubuntu CVE Tracker 
 │                        │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │       ├ Title           : Git GUI allows you to use the Git source control
-│                        │       │                   management tools via  ... 
+│                        │       ├ Title           : git: Git GUI can create and overwrite files for which the
+│                        │       │                   user has write permission 
 │                        │       ├ Description     : Git GUI allows you to use the Git source control
 │                        │       │                   management tools via a GUI. When a user clones an
 │                        │       │                   untrusted repository and is tricked into editing a file
@@ -883,20 +889,26 @@
 │                        │       │                   2.47.3, 2.48.2, 2.49.1, and 2.50.1. 
 │                        │       ├ Severity        : MEDIUM 
 │                        │       ├ CweIDs           ─ [0]: CWE-88 
-│                        │       ├ VendorSeverity   ─ ubuntu: 2 
-│                        │       ├ References       ╭ [0]: https://github.com/j6t/git-gui/compare/dcda716dbc9c9
+│                        │       ├ VendorSeverity   ╭ redhat: 1 
+│                        │       │                  ╰ ubuntu: 2 
+│                        │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I
+│                        │       │                           │           :L/A:N 
+│                        │       │                           ╰ V3Score : 3.1 
+│                        │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-46835 
+│                        │       │                  ├ [1]: https://github.com/j6t/git-gui/compare/dcda716dbc9c9
 │                        │       │                  │      0bcac4611bd1076747671ee0906..a437f5bc93330a70b42a230
 │                        │       │                  │      e52f3bd036ca1b1da 
-│                        │       │                  ├ [1]: https://github.com/j6t/git-gui/security/advisories/G
+│                        │       │                  ├ [2]: https://github.com/j6t/git-gui/security/advisories/G
 │                        │       │                  │      HSA-xfx7-68v4-v8fg 
-│                        │       │                  ├ [2]: https://ubuntu.com/security/notices/USN-7626-1 
-│                        │       │                  ├ [3]: https://ubuntu.com/security/notices/USN-7626-2 
-│                        │       │                  ├ [4]: https://ubuntu.com/security/notices/USN-7626-3 
-│                        │       │                  ├ [5]: https://www.cve.org/CVERecord?id=CVE-2025-46835 
-│                        │       │                  ╰ [6]: https://www.openwall.com/lists/oss-security/2025/07/
+│                        │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-46835 
+│                        │       │                  ├ [4]: https://ubuntu.com/security/notices/USN-7626-1 
+│                        │       │                  ├ [5]: https://ubuntu.com/security/notices/USN-7626-2 
+│                        │       │                  ├ [6]: https://ubuntu.com/security/notices/USN-7626-3 
+│                        │       │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2025-46835 
+│                        │       │                  ╰ [8]: https://www.openwall.com/lists/oss-security/2025/07/
 │                        │       │                         08/4 
 │                        │       ├ PublishedDate   : 2025-07-10T15:15:29.503Z 
-│                        │       ╰ LastModifiedDate: 2025-07-10T15:15:29.503Z 
+│                        │       ╰ LastModifiedDate: 2025-07-15T13:24:41.097Z 
 │                        ├ [16]  ╭ VulnerabilityID : CVE-2025-48384 
 │                        │       ├ PkgID           : git-man@1:2.34.1-1ubuntu1.12 
 │                        │       ├ PkgName         : git-man 
@@ -2908,24 +2920,28 @@
 │                        │       │                    a buffer underwrite. 
 │                        │       ├ Severity        : MEDIUM 
 │                        │       ├ CweIDs           ─ [0]: CWE-124 
-│                        │       ├ VendorSeverity   ╭ redhat: 2 
-│                        │       │                  ╰ ubuntu: 2 
+│                        │       ├ VendorSeverity   ╭ oracle-oval: 2 
+│                        │       │                  ├ redhat     : 2 
+│                        │       │                  ╰ ubuntu     : 2 
 │                        │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I
 │                        │       │                           │           :L/A:L 
 │                        │       │                           ╰ V3Score : 4.8 
-│                        │       ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2025:10855 
-│                        │       │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-4373 
-│                        │       │                  ├ [2]: https://bugzilla.redhat.com/show_bug.cgi?id=2364265 
-│                        │       │                  ├ [3]: https://gitlab.gnome.org/GNOME/glib/-/issues/3677 
-│                        │       │                  ├ [4]: https://gitlab.gnome.org/GNOME/glib/-/merge_requests
-│                        │       │                  │      /4588 
-│                        │       │                  ├ [5]: https://gitlab.gnome.org/GNOME/glib/-/merge_requests
-│                        │       │                  │      /4592 
-│                        │       │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2025-4373 
-│                        │       │                  ├ [7]: https://ubuntu.com/security/notices/USN-7532-1 
-│                        │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2025-4373 
+│                        │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:10855 
+│                        │       │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:11140 
+│                        │       │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2025-4373 
+│                        │       │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2364265 
+│                        │       │                  ├ [4] : https://gitlab.gnome.org/GNOME/glib/-/issues/3677 
+│                        │       │                  ├ [5] : https://gitlab.gnome.org/GNOME/glib/-/merge_request
+│                        │       │                  │       s/4588 
+│                        │       │                  ├ [6] : https://gitlab.gnome.org/GNOME/glib/-/merge_request
+│                        │       │                  │       s/4592 
+│                        │       │                  ├ [7] : https://linux.oracle.com/cve/CVE-2025-4373.html 
+│                        │       │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2025-11140.html 
+│                        │       │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2025-4373 
+│                        │       │                  ├ [10]: https://ubuntu.com/security/notices/USN-7532-1 
+│                        │       │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2025-4373 
 │                        │       ├ PublishedDate   : 2025-05-06T15:16:05.32Z 
-│                        │       ╰ LastModifiedDate: 2025-07-14T15:15:23.94Z 
+│                        │       ╰ LastModifiedDate: 2025-07-15T14:15:30.423Z 
 │                        ├ [57]  ╭ VulnerabilityID : CVE-2025-4373 
 │                        │       ├ PkgID           : libglib2.0-data@2.72.4-0ubuntu2.4 
 │                        │       ├ PkgName         : libglib2.0-data 
@@ -2953,24 +2969,28 @@
 │                        │       │                    a buffer underwrite. 
 │                        │       ├ Severity        : MEDIUM 
 │                        │       ├ CweIDs           ─ [0]: CWE-124 
-│                        │       ├ VendorSeverity   ╭ redhat: 2 
-│                        │       │                  ╰ ubuntu: 2 
+│                        │       ├ VendorSeverity   ╭ oracle-oval: 2 
+│                        │       │                  ├ redhat     : 2 
+│                        │       │                  ╰ ubuntu     : 2 
 │                        │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I
 │                        │       │                           │           :L/A:L 
 │                        │       │                           ╰ V3Score : 4.8 
-│                        │       ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2025:10855 
-│                        │       │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-4373 
-│                        │       │                  ├ [2]: https://bugzilla.redhat.com/show_bug.cgi?id=2364265 
-│                        │       │                  ├ [3]: https://gitlab.gnome.org/GNOME/glib/-/issues/3677 
-│                        │       │                  ├ [4]: https://gitlab.gnome.org/GNOME/glib/-/merge_requests
-│                        │       │                  │      /4588 
-│                        │       │                  ├ [5]: https://gitlab.gnome.org/GNOME/glib/-/merge_requests
-│                        │       │                  │      /4592 
-│                        │       │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2025-4373 
-│                        │       │                  ├ [7]: https://ubuntu.com/security/notices/USN-7532-1 
-│                        │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2025-4373 
+│                        │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:10855 
+│                        │       │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:11140 
+│                        │       │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2025-4373 
+│                        │       │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2364265 
+│                        │       │                  ├ [4] : https://gitlab.gnome.org/GNOME/glib/-/issues/3677 
+│                        │       │                  ├ [5] : https://gitlab.gnome.org/GNOME/glib/-/merge_request
+│                        │       │                  │       s/4588 
+│                        │       │                  ├ [6] : https://gitlab.gnome.org/GNOME/glib/-/merge_request
+│                        │       │                  │       s/4592 
+│                        │       │                  ├ [7] : https://linux.oracle.com/cve/CVE-2025-4373.html 
+│                        │       │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2025-11140.html 
+│                        │       │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2025-4373 
+│                        │       │                  ├ [10]: https://ubuntu.com/security/notices/USN-7532-1 
+│                        │       │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2025-4373 
 │                        │       ├ PublishedDate   : 2025-05-06T15:16:05.32Z 
-│                        │       ╰ LastModifiedDate: 2025-07-14T15:15:23.94Z 
+│                        │       ╰ LastModifiedDate: 2025-07-15T14:15:30.423Z 
 │                        ├ [58]  ╭ VulnerabilityID : CVE-2025-32988 
 │                        │       ├ PkgID           : libgnutls30@3.7.3-4ubuntu1.6 
 │                        │       ├ PkgName         : libgnutls30 
@@ -3004,7 +3024,8 @@
 │                        │       │                   corruption, depending on allocator behavior. 
 │                        │       ├ Severity        : MEDIUM 
 │                        │       ├ CweIDs           ─ [0]: CWE-415 
-│                        │       ├ VendorSeverity   ╭ redhat: 2 
+│                        │       ├ VendorSeverity   ╭ azure : 2 
+│                        │       │                  ├ redhat: 2 
 │                        │       │                  ╰ ubuntu: 2 
 │                        │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I
 │                        │       │                           │           :L/A:H 
@@ -3049,7 +3070,8 @@
 │                        │       │                   correctly. 
 │                        │       ├ Severity        : MEDIUM 
 │                        │       ├ CweIDs           ─ [0]: CWE-295 
-│                        │       ├ VendorSeverity   ╭ redhat: 2 
+│                        │       ├ VendorSeverity   ╭ azure : 2 
+│                        │       │                  ├ redhat: 2 
 │                        │       │                  ╰ ubuntu: 2 
 │                        │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I
 │                        │       │                           │           :N/A:N 
@@ -3091,7 +3113,8 @@
 │                        │       │                    potentially crash the system. 
 │                        │       ├ Severity        : MEDIUM 
 │                        │       ├ CweIDs           ─ [0]: CWE-122 
-│                        │       ├ VendorSeverity   ╭ redhat: 2 
+│                        │       ├ VendorSeverity   ╭ azure : 2 
+│                        │       │                  ├ redhat: 2 
 │                        │       │                  ╰ ubuntu: 2 
 │                        │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
 │                        │       │                           │           :L/A:L 
@@ -3126,11 +3149,7 @@
 │                        │       ├ Title           : gnutls: NULL pointer dereference in
 │                        │       │                   _gnutls_figure_common_ciphersuite() 
 │                        │       ├ Description     : A NULL pointer dereference flaw was found in the GnuTLS
-│                        │       │                   software in _gnutls_figure_common_ciphersuite(). When it
-│                        │       │                   reads certain settings from a template file, it can allow
-│                        │       │                   an attacker to cause an out-of-bounds (OOB) NULL pointer
-│                        │       │                   write, resulting in memory corruption and a denial of
-│                        │       │                   service (DoS) that could crash the system. 
+│                        │       │                   software in _gnutls_figure_common_ciphersuite(). 
 │                        │       ├ Severity        : MEDIUM 
 │                        │       ├ CweIDs           ─ [0]: CWE-476 
 │                        │       ├ VendorSeverity   ╭ redhat: 2 
@@ -3146,7 +3165,7 @@
 │                        │       │                  ├ [4]: https://ubuntu.com/security/notices/USN-7635-1 
 │                        │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-6395 
 │                        │       ├ PublishedDate   : 2025-07-10T16:15:25.11Z 
-│                        │       ╰ LastModifiedDate: 2025-07-10T16:15:25.11Z 
+│                        │       ╰ LastModifiedDate: 2025-07-15T13:24:41.097Z 
 │                        ├ [62]  ╭ VulnerabilityID : CVE-2025-3576 
 │                        │       ├ PkgID           : libgssapi-krb5-2@1.19.2-2ubuntu0.6 
 │                        │       ├ PkgName         : libgssapi-krb5-2 
@@ -4388,7 +4407,8 @@
 │                        │       ├ Severity        : MEDIUM 
 │                        │       ├ CweIDs           ╭ [0]: CWE-122 
 │                        │       │                  ╰ [1]: CWE-787 
-│                        │       ├ VendorSeverity   ╭ azure      : 3 
+│                        │       ├ VendorSeverity   ╭ alma       : 3 
+│                        │       │                  ├ azure      : 3 
 │                        │       │                  ├ cbl-mariner: 3 
 │                        │       │                  ├ oracle-oval: 3 
 │                        │       │                  ├ photon     : 3 
@@ -4403,17 +4423,20 @@
 │                        │       │                  │       13/4 
 │                        │       │                  ├ [2] : http://www.openwall.com/lists/oss-security/2025/04/
 │                        │       │                  │       13/5 
-│                        │       │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2024-56406 
-│                        │       │                  ├ [4] : https://github.com/Perl/perl5/commit/87f42aa0e0096e
+│                        │       │                  ├ [3] : https://access.redhat.com/errata/RHSA-2025:7500 
+│                        │       │                  ├ [4] : https://access.redhat.com/security/cve/CVE-2024-56406 
+│                        │       │                  ├ [5] : https://bugzilla.redhat.com/2359290 
+│                        │       │                  ├ [6] : https://errata.almalinux.org/10/ALSA-2025-7500.html 
+│                        │       │                  ├ [7] : https://github.com/Perl/perl5/commit/87f42aa0e0096e
 │                        │       │                  │       9a346c9672aa3a0bd3bef8c1dd.patch 
-│                        │       │                  ├ [5] : https://linux.oracle.com/cve/CVE-2024-56406.html 
-│                        │       │                  ├ [6] : https://linux.oracle.com/errata/ELSA-2025-7500.html 
-│                        │       │                  ├ [7] : https://metacpan.org/release/SHAY/perl-5.38.4/changes 
-│                        │       │                  ├ [8] : https://metacpan.org/release/SHAY/perl-5.40.2/changes 
-│                        │       │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2024-56406 
-│                        │       │                  ├ [10]: https://ubuntu.com/security/notices/USN-7434-1 
-│                        │       │                  ├ [11]: https://ubuntu.com/security/notices/USN-7434-2 
-│                        │       │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2024-56406 
+│                        │       │                  ├ [8] : https://linux.oracle.com/cve/CVE-2024-56406.html 
+│                        │       │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2025-7500.html 
+│                        │       │                  ├ [10]: https://metacpan.org/release/SHAY/perl-5.38.4/changes 
+│                        │       │                  ├ [11]: https://metacpan.org/release/SHAY/perl-5.40.2/changes 
+│                        │       │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2024-56406 
+│                        │       │                  ├ [13]: https://ubuntu.com/security/notices/USN-7434-1 
+│                        │       │                  ├ [14]: https://ubuntu.com/security/notices/USN-7434-2 
+│                        │       │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2024-56406 
 │                        │       ├ PublishedDate   : 2025-04-13T14:15:14.527Z 
 │                        │       ╰ LastModifiedDate: 2025-04-30T15:21:11.547Z 
 │                        ├ [84]  ╭ VulnerabilityID : CVE-2025-4516 
@@ -5829,6 +5852,7 @@
 │                        │       │                  ├ amazon     : 2 
 │                        │       │                  ├ nvd        : 2 
 │                        │       │                  ├ oracle-oval: 2 
+│                        │       │                  ├ photon     : 2 
 │                        │       │                  ├ redhat     : 2 
 │                        │       │                  ╰ ubuntu     : 2 
 │                        │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I
@@ -6685,7 +6709,8 @@
 │                        │       ├ Severity        : MEDIUM 
 │                        │       ├ CweIDs           ╭ [0]: CWE-122 
 │                        │       │                  ╰ [1]: CWE-787 
-│                        │       ├ VendorSeverity   ╭ azure      : 3 
+│                        │       ├ VendorSeverity   ╭ alma       : 3 
+│                        │       │                  ├ azure      : 3 
 │                        │       │                  ├ cbl-mariner: 3 
 │                        │       │                  ├ oracle-oval: 3 
 │                        │       │                  ├ photon     : 3 
@@ -6700,17 +6725,20 @@
 │                        │       │                  │       13/4 
 │                        │       │                  ├ [2] : http://www.openwall.com/lists/oss-security/2025/04/
 │                        │       │                  │       13/5 
-│                        │       │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2024-56406 
-│                        │       │                  ├ [4] : https://github.com/Perl/perl5/commit/87f42aa0e0096e
+│                        │       │                  ├ [3] : https://access.redhat.com/errata/RHSA-2025:7500 
+│                        │       │                  ├ [4] : https://access.redhat.com/security/cve/CVE-2024-56406 
+│                        │       │                  ├ [5] : https://bugzilla.redhat.com/2359290 
+│                        │       │                  ├ [6] : https://errata.almalinux.org/10/ALSA-2025-7500.html 
+│                        │       │                  ├ [7] : https://github.com/Perl/perl5/commit/87f42aa0e0096e
 │                        │       │                  │       9a346c9672aa3a0bd3bef8c1dd.patch 
-│                        │       │                  ├ [5] : https://linux.oracle.com/cve/CVE-2024-56406.html 
-│                        │       │                  ├ [6] : https://linux.oracle.com/errata/ELSA-2025-7500.html 
-│                        │       │                  ├ [7] : https://metacpan.org/release/SHAY/perl-5.38.4/changes 
-│                        │       │                  ├ [8] : https://metacpan.org/release/SHAY/perl-5.40.2/changes 
-│                        │       │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2024-56406 
-│                        │       │                  ├ [10]: https://ubuntu.com/security/notices/USN-7434-1 
-│                        │       │                  ├ [11]: https://ubuntu.com/security/notices/USN-7434-2 
-│                        │       │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2024-56406 
+│                        │       │                  ├ [8] : https://linux.oracle.com/cve/CVE-2024-56406.html 
+│                        │       │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2025-7500.html 
+│                        │       │                  ├ [10]: https://metacpan.org/release/SHAY/perl-5.38.4/changes 
+│                        │       │                  ├ [11]: https://metacpan.org/release/SHAY/perl-5.40.2/changes 
+│                        │       │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2024-56406 
+│                        │       │                  ├ [13]: https://ubuntu.com/security/notices/USN-7434-1 
+│                        │       │                  ├ [14]: https://ubuntu.com/security/notices/USN-7434-2 
+│                        │       │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2024-56406 
 │                        │       ├ PublishedDate   : 2025-04-13T14:15:14.527Z 
 │                        │       ╰ LastModifiedDate: 2025-04-30T15:21:11.547Z 
 │                        ├ [123] ╭ VulnerabilityID : CVE-2024-56406 
@@ -6750,7 +6778,8 @@
 │                        │       ├ Severity        : MEDIUM 
 │                        │       ├ CweIDs           ╭ [0]: CWE-122 
 │                        │       │                  ╰ [1]: CWE-787 
-│                        │       ├ VendorSeverity   ╭ azure      : 3 
+│                        │       ├ VendorSeverity   ╭ alma       : 3 
+│                        │       │                  ├ azure      : 3 
 │                        │       │                  ├ cbl-mariner: 3 
 │                        │       │                  ├ oracle-oval: 3 
 │                        │       │                  ├ photon     : 3 
@@ -6765,17 +6794,20 @@
 │                        │       │                  │       13/4 
 │                        │       │                  ├ [2] : http://www.openwall.com/lists/oss-security/2025/04/
 │                        │       │                  │       13/5 
-│                        │       │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2024-56406 
-│                        │       │                  ├ [4] : https://github.com/Perl/perl5/commit/87f42aa0e0096e
+│                        │       │                  ├ [3] : https://access.redhat.com/errata/RHSA-2025:7500 
+│                        │       │                  ├ [4] : https://access.redhat.com/security/cve/CVE-2024-56406 
+│                        │       │                  ├ [5] : https://bugzilla.redhat.com/2359290 
+│                        │       │                  ├ [6] : https://errata.almalinux.org/10/ALSA-2025-7500.html 
+│                        │       │                  ├ [7] : https://github.com/Perl/perl5/commit/87f42aa0e0096e
 │                        │       │                  │       9a346c9672aa3a0bd3bef8c1dd.patch 
-│                        │       │                  ├ [5] : https://linux.oracle.com/cve/CVE-2024-56406.html 
-│                        │       │                  ├ [6] : https://linux.oracle.com/errata/ELSA-2025-7500.html 
-│                        │       │                  ├ [7] : https://metacpan.org/release/SHAY/perl-5.38.4/changes 
-│                        │       │                  ├ [8] : https://metacpan.org/release/SHAY/perl-5.40.2/changes 
-│                        │       │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2024-56406 
-│                        │       │                  ├ [10]: https://ubuntu.com/security/notices/USN-7434-1 
-│                        │       │                  ├ [11]: https://ubuntu.com/security/notices/USN-7434-2 
-│                        │       │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2024-56406 
+│                        │       │                  ├ [8] : https://linux.oracle.com/cve/CVE-2024-56406.html 
+│                        │       │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2025-7500.html 
+│                        │       │                  ├ [10]: https://metacpan.org/release/SHAY/perl-5.38.4/changes 
+│                        │       │                  ├ [11]: https://metacpan.org/release/SHAY/perl-5.40.2/changes 
+│                        │       │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2024-56406 
+│                        │       │                  ├ [13]: https://ubuntu.com/security/notices/USN-7434-1 
+│                        │       │                  ├ [14]: https://ubuntu.com/security/notices/USN-7434-2 
+│                        │       │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2024-56406 
 │                        │       ├ PublishedDate   : 2025-04-13T14:15:14.527Z 
 │                        │       ╰ LastModifiedDate: 2025-04-30T15:21:11.547Z 
 │                        ├ [124] ╭ VulnerabilityID : CVE-2024-56406 
@@ -6815,7 +6847,8 @@
 │                        │       ├ Severity        : MEDIUM 
 │                        │       ├ CweIDs           ╭ [0]: CWE-122 
 │                        │       │                  ╰ [1]: CWE-787 
-│                        │       ├ VendorSeverity   ╭ azure      : 3 
+│                        │       ├ VendorSeverity   ╭ alma       : 3 
+│                        │       │                  ├ azure      : 3 
 │                        │       │                  ├ cbl-mariner: 3 
 │                        │       │                  ├ oracle-oval: 3 
 │                        │       │                  ├ photon     : 3 
@@ -6830,17 +6863,20 @@
 │                        │       │                  │       13/4 
 │                        │       │                  ├ [2] : http://www.openwall.com/lists/oss-security/2025/04/
 │                        │       │                  │       13/5 
-│                        │       │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2024-56406 
-│                        │       │                  ├ [4] : https://github.com/Perl/perl5/commit/87f42aa0e0096e
+│                        │       │                  ├ [3] : https://access.redhat.com/errata/RHSA-2025:7500 
+│                        │       │                  ├ [4] : https://access.redhat.com/security/cve/CVE-2024-56406 
+│                        │       │                  ├ [5] : https://bugzilla.redhat.com/2359290 
+│                        │       │                  ├ [6] : https://errata.almalinux.org/10/ALSA-2025-7500.html 
+│                        │       │                  ├ [7] : https://github.com/Perl/perl5/commit/87f42aa0e0096e
 │                        │       │                  │       9a346c9672aa3a0bd3bef8c1dd.patch 
-│                        │       │                  ├ [5] : https://linux.oracle.com/cve/CVE-2024-56406.html 
-│                        │       │                  ├ [6] : https://linux.oracle.com/errata/ELSA-2025-7500.html 
-│                        │       │                  ├ [7] : https://metacpan.org/release/SHAY/perl-5.38.4/changes 
-│                        │       │                  ├ [8] : https://metacpan.org/release/SHAY/perl-5.40.2/changes 
-│                        │       │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2024-56406 
-│                        │       │                  ├ [10]: https://ubuntu.com/security/notices/USN-7434-1 
-│                        │       │                  ├ [11]: https://ubuntu.com/security/notices/USN-7434-2 
-│                        │       │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2024-56406 
+│                        │       │                  ├ [8] : https://linux.oracle.com/cve/CVE-2024-56406.html 
+│                        │       │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2025-7500.html 
+│                        │       │                  ├ [10]: https://metacpan.org/release/SHAY/perl-5.38.4/changes 
+│                        │       │                  ├ [11]: https://metacpan.org/release/SHAY/perl-5.40.2/changes 
+│                        │       │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2024-56406 
+│                        │       │                  ├ [13]: https://ubuntu.com/security/notices/USN-7434-1 
+│                        │       │                  ├ [14]: https://ubuntu.com/security/notices/USN-7434-2 
+│                        │       │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2024-56406 
 │                        │       ├ PublishedDate   : 2025-04-13T14:15:14.527Z 
 │                        │       ╰ LastModifiedDate: 2025-04-30T15:21:11.547Z 
 │                        ├ [125] ╭ VulnerabilityID : CVE-2025-4516 
@@ -7736,8 +7772,7 @@
 │                        │       ├ DataSource       ╭ ID  : ubuntu 
 │                        │       │                  ├ Name: Ubuntu CVE Tracker 
 │                        │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │       ├ Title           : GNU Tar through 1.35 allows file overwrite via directory
-│                        │       │                   traversal in  ... 
+│                        │       ├ Title           : tar: Tar path traversal 
 │                        │       ├ Description     : GNU Tar through 1.35 allows file overwrite via directory
 │                        │       │                   traversal in crafted TAR archives, with a certain two-step
 │                        │       │                    process. First, the victim must extract an archive that
@@ -7761,13 +7796,21 @@
 │                        │       │                    untrusted tarballs instead of official packages). 
 │                        │       ├ Severity        : MEDIUM 
 │                        │       ├ CweIDs           ─ [0]: CWE-24 
-│                        │       ├ VendorSeverity   ─ ubuntu: 2 
-│                        │       ├ References       ╭ [0]: https://github.com/i900008/vulndb/blob/main/Gnu_tar_
+│                        │       ├ VendorSeverity   ╭ redhat: 2 
+│                        │       │                  ╰ ubuntu: 2 
+│                        │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I
+│                        │       │                           │           :L/A:L 
+│                        │       │                           ╰ V3Score : 5.6 
+│                        │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-45582 
+│                        │       │                  ├ [1]: https://github.com/i900008/vulndb/blob/main/Gnu_tar_
 │                        │       │                  │      vuln.md 
-│                        │       │                  ├ [1]: https://www.cve.org/CVERecord?id=CVE-2025-45582 
-│                        │       │                  ╰ [2]: https://www.gnu.org/software/tar/ 
+│                        │       │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2025-45582 
+│                        │       │                  ├ [3]: https://www.cve.org/CVERecord?id=CVE-2025-45582 
+│                        │       │                  ├ [4]: https://www.gnu.org/software/tar/ 
+│                        │       │                  ╰ [5]: https://www.gnu.org/software/tar/manual/html_node/In
+│                        │       │                         tegrity.html#Integrity 
 │                        │       ├ PublishedDate   : 2025-07-11T17:15:37.183Z 
-│                        │       ╰ LastModifiedDate: 2025-07-11T18:15:34.52Z 
+│                        │       ╰ LastModifiedDate: 2025-07-15T13:14:49.98Z 
 │                        ├ [139] ╭ VulnerabilityID : CVE-2023-29383 
 │                        │       ├ PkgID           : uidmap@1:4.8.1-2ubuntu2.2 
 │                        │       ├ PkgName         : uidmap 
@@ -8241,7 +8284,7 @@
 │                        │     │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-48924 
 │                        │     │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-48924 
 │                        │     ├ PublishedDate   : 2025-07-11T15:15:24.347Z 
-│                        │     ╰ LastModifiedDate: 2025-07-14T17:15:33.027Z 
+│                        │     ╰ LastModifiedDate: 2025-07-15T13:14:49.98Z 
 │                        ├ [1] ╭ VulnerabilityID : CVE-2025-48924 
 │                        │     ├ PkgName         : org.apache.commons:commons-lang3 
 │                        │     ├ PkgPath         : home/workspace/.openvscode-server/extensions/redhat.vscode-x
@@ -8295,7 +8338,7 @@
 │                        │     │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-48924 
 │                        │     │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-48924 
 │                        │     ├ PublishedDate   : 2025-07-11T15:15:24.347Z 
-│                        │     ╰ LastModifiedDate: 2025-07-14T17:15:33.027Z 
+│                        │     ╰ LastModifiedDate: 2025-07-15T13:14:49.98Z 
 │                        ╰ [2] ╭ VulnerabilityID : CVE-2022-36033 
 │                              ├ PkgName         : org.jsoup:jsoup 
 │                              ├ PkgPath         : home/workspace/.openvscode-server/extensions/redhat.vscode-x
