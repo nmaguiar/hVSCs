@@ -454,10 +454,10 @@
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:
 │                        │      │                           │           H/A:H 
 │                        │      │                           ╰ V3Score : 7.5 
-│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:7482 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:7409 
 │                        │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024-52005 
 │                        │      │                  ├ [2] : https://bugzilla.redhat.com/2338289 
-│                        │      │                  ├ [3] : https://errata.almalinux.org/10/ALSA-2025-7482.html 
+│                        │      │                  ├ [3] : https://errata.almalinux.org/9/ALSA-2025-7409.html 
 │                        │      │                  ├ [4] : https://github.com/git/git/security/advisories/GHSA-
 │                        │      │                  │       7jjc-gg6m-3329 
 │                        │      │                  ├ [5] : https://linux.oracle.com/cve/CVE-2024-52005.html 
@@ -517,10 +517,10 @@
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:
 │                        │      │                           │           H/A:H 
 │                        │      │                           ╰ V3Score : 7.5 
-│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:7482 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:7409 
 │                        │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024-52005 
 │                        │      │                  ├ [2] : https://bugzilla.redhat.com/2338289 
-│                        │      │                  ├ [3] : https://errata.almalinux.org/10/ALSA-2025-7482.html 
+│                        │      │                  ├ [3] : https://errata.almalinux.org/9/ALSA-2025-7409.html 
 │                        │      │                  ├ [4] : https://github.com/git/git/security/advisories/GHSA-
 │                        │      │                  │       7jjc-gg6m-3329 
 │                        │      │                  ├ [5] : https://linux.oracle.com/cve/CVE-2024-52005.html 
@@ -4263,50 +4263,7 @@
 │                        │     │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2025-22872 
 │                        │     ├ PublishedDate   : 2025-04-16T18:16:04.183Z 
 │                        │     ╰ LastModifiedDate: 2025-05-16T23:15:19.707Z 
-│                        ├ [3] ╭ VulnerabilityID : CVE-2025-22874 
-│                        │     ├ PkgID           : stdlib@v1.24.1 
-│                        │     ├ PkgName         : stdlib 
-│                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.24.1 
-│                        │     │                  ╰ UID : 2add7c57bc4db0d1 
-│                        │     ├ InstalledVersion: v1.24.1 
-│                        │     ├ FixedVersion    : 1.24.4 
-│                        │     ├ Status          : fixed 
-│                        │     ├ Layer            ╭ Digest: sha256:ece034a9822335d5dad19efa9c64f1380ffb60c5bab5
-│                        │     │                  │         52f926970ff75d6e4f4b 
-│                        │     │                  ╰ DiffID: sha256:bda8964142c8b96919e14e00a5468e5614417d3c6168
-│                        │     │                            ea299b6d9e894e5312d2 
-│                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-22874 
-│                        │     ├ DataSource       ╭ ID  : govulndb 
-│                        │     │                  ├ Name: The Go Vulnerability Database 
-│                        │     │                  ╰ URL : https://pkg.go.dev/vuln/ 
-│                        │     ├ Title           : crypto/x509: Usage of ExtKeyUsageAny disables policy
-│                        │     │                   validation in crypto/x509 
-│                        │     ├ Description     : Calling Verify with a VerifyOptions.KeyUsages that contains
-│                        │     │                   ExtKeyUsageAny unintentionally disabledpolicy validation.
-│                        │     │                   This only affected certificate chains which contain policy
-│                        │     │                   graphs, which are rather uncommon. 
-│                        │     ├ Severity        : HIGH 
-│                        │     ├ VendorSeverity   ╭ amazon     : 2 
-│                        │     │                  ├ bitnami    : 3 
-│                        │     │                  ├ cbl-mariner: 3 
-│                        │     │                  ╰ redhat     : 3 
-│                        │     ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
-│                        │     │                  │         │           H/A:N 
-│                        │     │                  │         ╰ V3Score : 7.5 
-│                        │     │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
-│                        │     │                            │           H/A:N 
-│                        │     │                            ╰ V3Score : 7.5 
-│                        │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-22874 
-│                        │     │                  ├ [1]: https://go.dev/cl/670375 
-│                        │     │                  ├ [2]: https://go.dev/issue/73612 
-│                        │     │                  ├ [3]: https://groups.google.com/g/golang-announce/c/ufZ8WpEs
-│                        │     │                  │      A3A 
-│                        │     │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-22874 
-│                        │     │                  ├ [5]: https://pkg.go.dev/vuln/GO-2025-3749 
-│                        │     │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-22874 
-│                        │     ├ PublishedDate   : 2025-06-11T17:15:42.167Z 
-│                        │     ╰ LastModifiedDate: 2025-06-12T16:06:20.18Z 
-│                        ├ [4] ╭ VulnerabilityID : CVE-2025-0913 
+│                        ├ [3] ╭ VulnerabilityID : CVE-2025-0913 
 │                        │     ├ PkgID           : stdlib@v1.24.1 
 │                        │     ├ PkgName         : stdlib 
 │                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.24.1 
@@ -4345,7 +4302,7 @@
 │                        │     │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2025-3750 
 │                        │     ├ PublishedDate   : 2025-06-11T18:15:24.627Z 
 │                        │     ╰ LastModifiedDate: 2025-06-12T16:06:20.18Z 
-│                        ├ [5] ╭ VulnerabilityID : CVE-2025-22871 
+│                        ├ [4] ╭ VulnerabilityID : CVE-2025-22871 
 │                        │     ├ PkgID           : stdlib@v1.24.1 
 │                        │     ├ PkgName         : stdlib 
 │                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.24.1 
@@ -4382,10 +4339,10 @@
 │                        │     │                            │           L/A:N 
 │                        │     │                            ╰ V3Score : 5.4 
 │                        │     ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/04/04/4 
-│                        │     │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:9317 
+│                        │     │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:9635 
 │                        │     │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2025-22871 
 │                        │     │                  ├ [3] : https://bugzilla.redhat.com/2358493 
-│                        │     │                  ├ [4] : https://errata.almalinux.org/10/ALSA-2025-9317.html 
+│                        │     │                  ├ [4] : https://errata.almalinux.org/9/ALSA-2025-9635.html 
 │                        │     │                  ├ [5] : https://go.dev/cl/652998 
 │                        │     │                  ├ [6] : https://go.dev/issue/71988 
 │                        │     │                  ├ [7] : https://groups.google.com/g/golang-announce/c/Y2uBTVK
@@ -4397,6 +4354,43 @@
 │                        │     │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2025-22871 
 │                        │     ├ PublishedDate   : 2025-04-08T20:15:20.183Z 
 │                        │     ╰ LastModifiedDate: 2025-04-18T15:15:57.923Z 
+│                        ├ [5] ╭ VulnerabilityID : CVE-2025-22874 
+│                        │     ├ PkgID           : stdlib@v1.24.1 
+│                        │     ├ PkgName         : stdlib 
+│                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.24.1 
+│                        │     │                  ╰ UID : 2add7c57bc4db0d1 
+│                        │     ├ InstalledVersion: v1.24.1 
+│                        │     ├ FixedVersion    : 1.24.4 
+│                        │     ├ Status          : fixed 
+│                        │     ├ Layer            ╭ Digest: sha256:ece034a9822335d5dad19efa9c64f1380ffb60c5bab5
+│                        │     │                  │         52f926970ff75d6e4f4b 
+│                        │     │                  ╰ DiffID: sha256:bda8964142c8b96919e14e00a5468e5614417d3c6168
+│                        │     │                            ea299b6d9e894e5312d2 
+│                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-22874 
+│                        │     ├ DataSource       ╭ ID  : govulndb 
+│                        │     │                  ├ Name: The Go Vulnerability Database 
+│                        │     │                  ╰ URL : https://pkg.go.dev/vuln/ 
+│                        │     ├ Title           : Calling Verify with a VerifyOptions.KeyUsages that contains
+│                        │     │                   ExtKeyUsag ... 
+│                        │     ├ Description     : Calling Verify with a VerifyOptions.KeyUsages that contains
+│                        │     │                   ExtKeyUsageAny unintentionally disabledpolicy validation.
+│                        │     │                   This only affected certificate chains which contain policy
+│                        │     │                   graphs, which are rather uncommon. 
+│                        │     ├ Severity        : MEDIUM 
+│                        │     ├ VendorSeverity   ╭ amazon     : 2 
+│                        │     │                  ├ bitnami    : 3 
+│                        │     │                  ╰ cbl-mariner: 3 
+│                        │     ├ CVSS             ─ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
+│                        │     │                            │           H/A:N 
+│                        │     │                            ╰ V3Score : 7.5 
+│                        │     ├ References       ╭ [0]: https://go.dev/cl/670375 
+│                        │     │                  ├ [1]: https://go.dev/issue/73612 
+│                        │     │                  ├ [2]: https://groups.google.com/g/golang-announce/c/ufZ8WpEs
+│                        │     │                  │      A3A 
+│                        │     │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-22874 
+│                        │     │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2025-3749 
+│                        │     ├ PublishedDate   : 2025-06-11T17:15:42.167Z 
+│                        │     ╰ LastModifiedDate: 2025-06-12T16:06:20.18Z 
 │                        ╰ [6] ╭ VulnerabilityID : CVE-2025-4673 
 │                              ├ PkgID           : stdlib@v1.24.1 
 │                              ├ PkgName         : stdlib 
@@ -4432,10 +4426,10 @@
 │                              │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:
 │                              │                            │           N/A:N 
 │                              │                            ╰ V3Score : 6.8 
-│                              ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:10677 
+│                              ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:10676 
 │                              │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-4673 
 │                              │                  ├ [2] : https://bugzilla.redhat.com/2373305 
-│                              │                  ├ [3] : https://errata.almalinux.org/10/ALSA-2025-10677.html 
+│                              │                  ├ [3] : https://errata.almalinux.org/9/ALSA-2025-10676.html 
 │                              │                  ├ [4] : https://go.dev/cl/679257 
 │                              │                  ├ [5] : https://go.dev/issue/73816 
 │                              │                  ├ [6] : https://groups.google.com/g/golang-announce/c/ufZ8WpE
@@ -4663,50 +4657,7 @@
 │                        │     │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2025-22872 
 │                        │     ├ PublishedDate   : 2025-04-16T18:16:04.183Z 
 │                        │     ╰ LastModifiedDate: 2025-05-16T23:15:19.707Z 
-│                        ├ [3] ╭ VulnerabilityID : CVE-2025-22874 
-│                        │     ├ PkgID           : stdlib@v1.24.1 
-│                        │     ├ PkgName         : stdlib 
-│                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.24.1 
-│                        │     │                  ╰ UID : b2faf82cf08da10c 
-│                        │     ├ InstalledVersion: v1.24.1 
-│                        │     ├ FixedVersion    : 1.24.4 
-│                        │     ├ Status          : fixed 
-│                        │     ├ Layer            ╭ Digest: sha256:ece034a9822335d5dad19efa9c64f1380ffb60c5bab5
-│                        │     │                  │         52f926970ff75d6e4f4b 
-│                        │     │                  ╰ DiffID: sha256:bda8964142c8b96919e14e00a5468e5614417d3c6168
-│                        │     │                            ea299b6d9e894e5312d2 
-│                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-22874 
-│                        │     ├ DataSource       ╭ ID  : govulndb 
-│                        │     │                  ├ Name: The Go Vulnerability Database 
-│                        │     │                  ╰ URL : https://pkg.go.dev/vuln/ 
-│                        │     ├ Title           : crypto/x509: Usage of ExtKeyUsageAny disables policy
-│                        │     │                   validation in crypto/x509 
-│                        │     ├ Description     : Calling Verify with a VerifyOptions.KeyUsages that contains
-│                        │     │                   ExtKeyUsageAny unintentionally disabledpolicy validation.
-│                        │     │                   This only affected certificate chains which contain policy
-│                        │     │                   graphs, which are rather uncommon. 
-│                        │     ├ Severity        : HIGH 
-│                        │     ├ VendorSeverity   ╭ amazon     : 2 
-│                        │     │                  ├ bitnami    : 3 
-│                        │     │                  ├ cbl-mariner: 3 
-│                        │     │                  ╰ redhat     : 3 
-│                        │     ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
-│                        │     │                  │         │           H/A:N 
-│                        │     │                  │         ╰ V3Score : 7.5 
-│                        │     │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
-│                        │     │                            │           H/A:N 
-│                        │     │                            ╰ V3Score : 7.5 
-│                        │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-22874 
-│                        │     │                  ├ [1]: https://go.dev/cl/670375 
-│                        │     │                  ├ [2]: https://go.dev/issue/73612 
-│                        │     │                  ├ [3]: https://groups.google.com/g/golang-announce/c/ufZ8WpEs
-│                        │     │                  │      A3A 
-│                        │     │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-22874 
-│                        │     │                  ├ [5]: https://pkg.go.dev/vuln/GO-2025-3749 
-│                        │     │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-22874 
-│                        │     ├ PublishedDate   : 2025-06-11T17:15:42.167Z 
-│                        │     ╰ LastModifiedDate: 2025-06-12T16:06:20.18Z 
-│                        ├ [4] ╭ VulnerabilityID : CVE-2025-0913 
+│                        ├ [3] ╭ VulnerabilityID : CVE-2025-0913 
 │                        │     ├ PkgID           : stdlib@v1.24.1 
 │                        │     ├ PkgName         : stdlib 
 │                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.24.1 
@@ -4745,7 +4696,7 @@
 │                        │     │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2025-3750 
 │                        │     ├ PublishedDate   : 2025-06-11T18:15:24.627Z 
 │                        │     ╰ LastModifiedDate: 2025-06-12T16:06:20.18Z 
-│                        ├ [5] ╭ VulnerabilityID : CVE-2025-22871 
+│                        ├ [4] ╭ VulnerabilityID : CVE-2025-22871 
 │                        │     ├ PkgID           : stdlib@v1.24.1 
 │                        │     ├ PkgName         : stdlib 
 │                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.24.1 
@@ -4782,10 +4733,10 @@
 │                        │     │                            │           L/A:N 
 │                        │     │                            ╰ V3Score : 5.4 
 │                        │     ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/04/04/4 
-│                        │     │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:9317 
+│                        │     │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:9635 
 │                        │     │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2025-22871 
 │                        │     │                  ├ [3] : https://bugzilla.redhat.com/2358493 
-│                        │     │                  ├ [4] : https://errata.almalinux.org/10/ALSA-2025-9317.html 
+│                        │     │                  ├ [4] : https://errata.almalinux.org/9/ALSA-2025-9635.html 
 │                        │     │                  ├ [5] : https://go.dev/cl/652998 
 │                        │     │                  ├ [6] : https://go.dev/issue/71988 
 │                        │     │                  ├ [7] : https://groups.google.com/g/golang-announce/c/Y2uBTVK
@@ -4797,6 +4748,43 @@
 │                        │     │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2025-22871 
 │                        │     ├ PublishedDate   : 2025-04-08T20:15:20.183Z 
 │                        │     ╰ LastModifiedDate: 2025-04-18T15:15:57.923Z 
+│                        ├ [5] ╭ VulnerabilityID : CVE-2025-22874 
+│                        │     ├ PkgID           : stdlib@v1.24.1 
+│                        │     ├ PkgName         : stdlib 
+│                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.24.1 
+│                        │     │                  ╰ UID : b2faf82cf08da10c 
+│                        │     ├ InstalledVersion: v1.24.1 
+│                        │     ├ FixedVersion    : 1.24.4 
+│                        │     ├ Status          : fixed 
+│                        │     ├ Layer            ╭ Digest: sha256:ece034a9822335d5dad19efa9c64f1380ffb60c5bab5
+│                        │     │                  │         52f926970ff75d6e4f4b 
+│                        │     │                  ╰ DiffID: sha256:bda8964142c8b96919e14e00a5468e5614417d3c6168
+│                        │     │                            ea299b6d9e894e5312d2 
+│                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-22874 
+│                        │     ├ DataSource       ╭ ID  : govulndb 
+│                        │     │                  ├ Name: The Go Vulnerability Database 
+│                        │     │                  ╰ URL : https://pkg.go.dev/vuln/ 
+│                        │     ├ Title           : Calling Verify with a VerifyOptions.KeyUsages that contains
+│                        │     │                   ExtKeyUsag ... 
+│                        │     ├ Description     : Calling Verify with a VerifyOptions.KeyUsages that contains
+│                        │     │                   ExtKeyUsageAny unintentionally disabledpolicy validation.
+│                        │     │                   This only affected certificate chains which contain policy
+│                        │     │                   graphs, which are rather uncommon. 
+│                        │     ├ Severity        : MEDIUM 
+│                        │     ├ VendorSeverity   ╭ amazon     : 2 
+│                        │     │                  ├ bitnami    : 3 
+│                        │     │                  ╰ cbl-mariner: 3 
+│                        │     ├ CVSS             ─ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
+│                        │     │                            │           H/A:N 
+│                        │     │                            ╰ V3Score : 7.5 
+│                        │     ├ References       ╭ [0]: https://go.dev/cl/670375 
+│                        │     │                  ├ [1]: https://go.dev/issue/73612 
+│                        │     │                  ├ [2]: https://groups.google.com/g/golang-announce/c/ufZ8WpEs
+│                        │     │                  │      A3A 
+│                        │     │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-22874 
+│                        │     │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2025-3749 
+│                        │     ├ PublishedDate   : 2025-06-11T17:15:42.167Z 
+│                        │     ╰ LastModifiedDate: 2025-06-12T16:06:20.18Z 
 │                        ╰ [6] ╭ VulnerabilityID : CVE-2025-4673 
 │                              ├ PkgID           : stdlib@v1.24.1 
 │                              ├ PkgName         : stdlib 
@@ -4832,10 +4820,10 @@
 │                              │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:
 │                              │                            │           N/A:N 
 │                              │                            ╰ V3Score : 6.8 
-│                              ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:10677 
+│                              ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:10676 
 │                              │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-4673 
 │                              │                  ├ [2] : https://bugzilla.redhat.com/2373305 
-│                              │                  ├ [3] : https://errata.almalinux.org/10/ALSA-2025-10677.html 
+│                              │                  ├ [3] : https://errata.almalinux.org/9/ALSA-2025-10676.html 
 │                              │                  ├ [4] : https://go.dev/cl/679257 
 │                              │                  ├ [5] : https://go.dev/issue/73816 
 │                              │                  ├ [6] : https://groups.google.com/g/golang-announce/c/ufZ8WpE
@@ -5329,10 +5317,10 @@
 │                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
 │                        │      │                           │           N/A:H 
 │                        │      │                           ╰ V3Score : 7.5 
-│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:7484 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:3833 
 │                        │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-22869 
 │                        │      │                  ├ [2] : https://bugzilla.redhat.com/2348367 
-│                        │      │                  ├ [3] : https://errata.almalinux.org/10/ALSA-2025-7484.html 
+│                        │      │                  ├ [3] : https://errata.almalinux.org/9/ALSA-2025-3833.html 
 │                        │      │                  ├ [4] : https://github.com/golang/crypto 
 │                        │      │                  ├ [5] : https://github.com/golang/crypto/commit/7292932d45d5
 │                        │      │                  │       5c7199324ab0027cc86e8198aa22 
@@ -5621,10 +5609,10 @@
 │                        │      │                            ╰ V3Score : 5.4 
 │                        │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/04/0
 │                        │      │                  │       4/4 
-│                        │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:9317 
+│                        │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:9635 
 │                        │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2025-22871 
 │                        │      │                  ├ [3] : https://bugzilla.redhat.com/2358493 
-│                        │      │                  ├ [4] : https://errata.almalinux.org/10/ALSA-2025-9317.html 
+│                        │      │                  ├ [4] : https://errata.almalinux.org/9/ALSA-2025-9635.html 
 │                        │      │                  ├ [5] : https://go.dev/cl/652998 
 │                        │      │                  ├ [6] : https://go.dev/issue/71988 
 │                        │      │                  ├ [7] : https://groups.google.com/g/golang-announce/c/Y2uBTV
@@ -5671,10 +5659,10 @@
 │                               │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I
 │                               │                            │           :N/A:N 
 │                               │                            ╰ V3Score : 6.8 
-│                               ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:10677 
+│                               ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:10676 
 │                               │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-4673 
 │                               │                  ├ [2] : https://bugzilla.redhat.com/2373305 
-│                               │                  ├ [3] : https://errata.almalinux.org/10/ALSA-2025-10677.html 
+│                               │                  ├ [3] : https://errata.almalinux.org/9/ALSA-2025-10676.html 
 │                               │                  ├ [4] : https://go.dev/cl/679257 
 │                               │                  ├ [5] : https://go.dev/issue/73816 
 │                               │                  ├ [6] : https://groups.google.com/g/golang-announce/c/ufZ8Wp
