@@ -3020,23 +3020,24 @@
 │                        │       │                  ├ [2] : https://access.redhat.com/errata/RHSA-2025:11327 
 │                        │       │                  ├ [3] : https://access.redhat.com/errata/RHSA-2025:11373 
 │                        │       │                  ├ [4] : https://access.redhat.com/errata/RHSA-2025:11374 
-│                        │       │                  ├ [5] : https://access.redhat.com/security/cve/CVE-2025-4373 
-│                        │       │                  ├ [6] : https://bugzilla.redhat.com/2325340 
-│                        │       │                  ├ [7] : https://bugzilla.redhat.com/2364265 
-│                        │       │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2364265 
-│                        │       │                  ├ [9] : https://errata.almalinux.org/9/ALSA-2025-11140.html 
-│                        │       │                  ├ [10]: https://gitlab.gnome.org/GNOME/glib/-/issues/3677 
-│                        │       │                  ├ [11]: https://gitlab.gnome.org/GNOME/glib/-/merge_request
-│                        │       │                  │       s/4588 
+│                        │       │                  ├ [5] : https://access.redhat.com/errata/RHSA-2025:11662 
+│                        │       │                  ├ [6] : https://access.redhat.com/security/cve/CVE-2025-4373 
+│                        │       │                  ├ [7] : https://bugzilla.redhat.com/2325340 
+│                        │       │                  ├ [8] : https://bugzilla.redhat.com/2364265 
+│                        │       │                  ├ [9] : https://bugzilla.redhat.com/show_bug.cgi?id=2364265 
+│                        │       │                  ├ [10]: https://errata.almalinux.org/9/ALSA-2025-11140.html 
+│                        │       │                  ├ [11]: https://gitlab.gnome.org/GNOME/glib/-/issues/3677 
 │                        │       │                  ├ [12]: https://gitlab.gnome.org/GNOME/glib/-/merge_request
+│                        │       │                  │       s/4588 
+│                        │       │                  ├ [13]: https://gitlab.gnome.org/GNOME/glib/-/merge_request
 │                        │       │                  │       s/4592 
-│                        │       │                  ├ [13]: https://linux.oracle.com/cve/CVE-2025-4373.html 
-│                        │       │                  ├ [14]: https://linux.oracle.com/errata/ELSA-2025-11327.html 
-│                        │       │                  ├ [15]: https://nvd.nist.gov/vuln/detail/CVE-2025-4373 
-│                        │       │                  ├ [16]: https://ubuntu.com/security/notices/USN-7532-1 
-│                        │       │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2025-4373 
+│                        │       │                  ├ [14]: https://linux.oracle.com/cve/CVE-2025-4373.html 
+│                        │       │                  ├ [15]: https://linux.oracle.com/errata/ELSA-2025-11327.html 
+│                        │       │                  ├ [16]: https://nvd.nist.gov/vuln/detail/CVE-2025-4373 
+│                        │       │                  ├ [17]: https://ubuntu.com/security/notices/USN-7532-1 
+│                        │       │                  ╰ [18]: https://www.cve.org/CVERecord?id=CVE-2025-4373 
 │                        │       ├ PublishedDate   : 2025-05-06T15:16:05.32Z 
-│                        │       ╰ LastModifiedDate: 2025-07-17T14:15:31.95Z 
+│                        │       ╰ LastModifiedDate: 2025-07-23T20:15:27.36Z 
 │                        ├ [57]  ╭ VulnerabilityID : CVE-2025-4373 
 │                        │       ├ PkgID           : libglib2.0-data@2.72.4-0ubuntu2.4 
 │                        │       ├ PkgName         : libglib2.0-data 
@@ -3076,23 +3077,24 @@
 │                        │       │                  ├ [2] : https://access.redhat.com/errata/RHSA-2025:11327 
 │                        │       │                  ├ [3] : https://access.redhat.com/errata/RHSA-2025:11373 
 │                        │       │                  ├ [4] : https://access.redhat.com/errata/RHSA-2025:11374 
-│                        │       │                  ├ [5] : https://access.redhat.com/security/cve/CVE-2025-4373 
-│                        │       │                  ├ [6] : https://bugzilla.redhat.com/2325340 
-│                        │       │                  ├ [7] : https://bugzilla.redhat.com/2364265 
-│                        │       │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2364265 
-│                        │       │                  ├ [9] : https://errata.almalinux.org/9/ALSA-2025-11140.html 
-│                        │       │                  ├ [10]: https://gitlab.gnome.org/GNOME/glib/-/issues/3677 
-│                        │       │                  ├ [11]: https://gitlab.gnome.org/GNOME/glib/-/merge_request
-│                        │       │                  │       s/4588 
+│                        │       │                  ├ [5] : https://access.redhat.com/errata/RHSA-2025:11662 
+│                        │       │                  ├ [6] : https://access.redhat.com/security/cve/CVE-2025-4373 
+│                        │       │                  ├ [7] : https://bugzilla.redhat.com/2325340 
+│                        │       │                  ├ [8] : https://bugzilla.redhat.com/2364265 
+│                        │       │                  ├ [9] : https://bugzilla.redhat.com/show_bug.cgi?id=2364265 
+│                        │       │                  ├ [10]: https://errata.almalinux.org/9/ALSA-2025-11140.html 
+│                        │       │                  ├ [11]: https://gitlab.gnome.org/GNOME/glib/-/issues/3677 
 │                        │       │                  ├ [12]: https://gitlab.gnome.org/GNOME/glib/-/merge_request
+│                        │       │                  │       s/4588 
+│                        │       │                  ├ [13]: https://gitlab.gnome.org/GNOME/glib/-/merge_request
 │                        │       │                  │       s/4592 
-│                        │       │                  ├ [13]: https://linux.oracle.com/cve/CVE-2025-4373.html 
-│                        │       │                  ├ [14]: https://linux.oracle.com/errata/ELSA-2025-11327.html 
-│                        │       │                  ├ [15]: https://nvd.nist.gov/vuln/detail/CVE-2025-4373 
-│                        │       │                  ├ [16]: https://ubuntu.com/security/notices/USN-7532-1 
-│                        │       │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2025-4373 
+│                        │       │                  ├ [14]: https://linux.oracle.com/cve/CVE-2025-4373.html 
+│                        │       │                  ├ [15]: https://linux.oracle.com/errata/ELSA-2025-11327.html 
+│                        │       │                  ├ [16]: https://nvd.nist.gov/vuln/detail/CVE-2025-4373 
+│                        │       │                  ├ [17]: https://ubuntu.com/security/notices/USN-7532-1 
+│                        │       │                  ╰ [18]: https://www.cve.org/CVERecord?id=CVE-2025-4373 
 │                        │       ├ PublishedDate   : 2025-05-06T15:16:05.32Z 
-│                        │       ╰ LastModifiedDate: 2025-07-17T14:15:31.95Z 
+│                        │       ╰ LastModifiedDate: 2025-07-23T20:15:27.36Z 
 │                        ├ [58]  ╭ VulnerabilityID : CVE-2025-32988 
 │                        │       ├ PkgID           : libgnutls30@3.7.3-4ubuntu1.6 
 │                        │       ├ PkgName         : libgnutls30 
@@ -3127,6 +3129,7 @@
 │                        │       ├ Severity        : MEDIUM 
 │                        │       ├ CweIDs           ─ [0]: CWE-415 
 │                        │       ├ VendorSeverity   ╭ azure : 2 
+│                        │       │                  ├ photon: 2 
 │                        │       │                  ├ redhat: 2 
 │                        │       │                  ╰ ubuntu: 2 
 │                        │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I
@@ -3173,6 +3176,7 @@
 │                        │       ├ Severity        : MEDIUM 
 │                        │       ├ CweIDs           ─ [0]: CWE-295 
 │                        │       ├ VendorSeverity   ╭ azure : 2 
+│                        │       │                  ├ photon: 2 
 │                        │       │                  ├ redhat: 2 
 │                        │       │                  ╰ ubuntu: 2 
 │                        │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I
@@ -3216,6 +3220,7 @@
 │                        │       ├ Severity        : MEDIUM 
 │                        │       ├ CweIDs           ─ [0]: CWE-122 
 │                        │       ├ VendorSeverity   ╭ azure : 2 
+│                        │       │                  ├ photon: 2 
 │                        │       │                  ├ redhat: 2 
 │                        │       │                  ╰ ubuntu: 2 
 │                        │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
@@ -3255,6 +3260,7 @@
 │                        │       ├ Severity        : MEDIUM 
 │                        │       ├ CweIDs           ─ [0]: CWE-476 
 │                        │       ├ VendorSeverity   ╭ azure : 2 
+│                        │       │                  ├ photon: 2 
 │                        │       │                  ├ redhat: 2 
 │                        │       │                  ╰ ubuntu: 2 
 │                        │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I
@@ -4590,7 +4596,7 @@
 │                        │       │                   catching the DecodeError. 
 │                        │       ├ Severity        : MEDIUM 
 │                        │       ├ CweIDs           ─ [0]: CWE-416 
-│                        │       ├ VendorSeverity   ╭ amazon     : 2 
+│                        │       ├ VendorSeverity   ╭ amazon     : 3 
 │                        │       │                  ├ azure      : 2 
 │                        │       │                  ├ cbl-mariner: 2 
 │                        │       │                  ├ redhat     : 2 
@@ -4773,7 +4779,7 @@
 │                        │       │                   catching the DecodeError. 
 │                        │       ├ Severity        : MEDIUM 
 │                        │       ├ CweIDs           ─ [0]: CWE-416 
-│                        │       ├ VendorSeverity   ╭ amazon     : 2 
+│                        │       ├ VendorSeverity   ╭ amazon     : 3 
 │                        │       │                  ├ azure      : 2 
 │                        │       │                  ├ cbl-mariner: 2 
 │                        │       │                  ├ redhat     : 2 
@@ -4956,7 +4962,7 @@
 │                        │       │                   catching the DecodeError. 
 │                        │       ├ Severity        : MEDIUM 
 │                        │       ├ CweIDs           ─ [0]: CWE-416 
-│                        │       ├ VendorSeverity   ╭ amazon     : 2 
+│                        │       ├ VendorSeverity   ╭ amazon     : 3 
 │                        │       │                  ├ azure      : 2 
 │                        │       │                  ├ cbl-mariner: 2 
 │                        │       │                  ├ redhat     : 2 
@@ -7049,7 +7055,7 @@
 │                        │       │                   catching the DecodeError. 
 │                        │       ├ Severity        : MEDIUM 
 │                        │       ├ CweIDs           ─ [0]: CWE-416 
-│                        │       ├ VendorSeverity   ╭ amazon     : 2 
+│                        │       ├ VendorSeverity   ╭ amazon     : 3 
 │                        │       │                  ├ azure      : 2 
 │                        │       │                  ├ cbl-mariner: 2 
 │                        │       │                  ├ redhat     : 2 
@@ -7232,7 +7238,7 @@
 │                        │       │                   catching the DecodeError. 
 │                        │       ├ Severity        : MEDIUM 
 │                        │       ├ CweIDs           ─ [0]: CWE-416 
-│                        │       ├ VendorSeverity   ╭ amazon     : 2 
+│                        │       ├ VendorSeverity   ╭ amazon     : 3 
 │                        │       │                  ├ azure      : 2 
 │                        │       │                  ├ cbl-mariner: 2 
 │                        │       │                  ├ redhat     : 2 
@@ -8758,7 +8764,7 @@
 │                        │     │                   during DOM construction, but only when tags are in foreign
 │                        │     │                   content (e.g. <math>, <svg>, etc contexts). 
 │                        │     ├ Severity        : MEDIUM 
-│                        │     ├ VendorSeverity   ╭ amazon     : 2 
+│                        │     ├ VendorSeverity   ╭ amazon     : 3 
 │                        │     │                  ├ azure      : 2 
 │                        │     │                  ├ cbl-mariner: 2 
 │                        │     │                  ├ ghsa       : 2 
@@ -9158,7 +9164,7 @@
 │                        │     │                   during DOM construction, but only when tags are in foreign
 │                        │     │                   content (e.g. <math>, <svg>, etc contexts). 
 │                        │     ├ Severity        : MEDIUM 
-│                        │     ├ VendorSeverity   ╭ amazon     : 2 
+│                        │     ├ VendorSeverity   ╭ amazon     : 3 
 │                        │     │                  ├ azure      : 2 
 │                        │     │                  ├ cbl-mariner: 2 
 │                        │     │                  ├ ghsa       : 2 
@@ -9843,7 +9849,7 @@
 │                        │      │                   the wrong scope during DOM construction, but only when tags
 │                        │      │                    are in foreign content (e.g. <math>, <svg>, etc contexts). 
 │                        │      ├ Severity        : MEDIUM 
-│                        │      ├ VendorSeverity   ╭ amazon     : 2 
+│                        │      ├ VendorSeverity   ╭ amazon     : 3 
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ ghsa       : 2 
@@ -10149,7 +10155,7 @@
 │                        │     │                   during DOM construction, but only when tags are in foreign
 │                        │     │                   content (e.g. <math>, <svg>, etc contexts). 
 │                        │     ├ Severity        : MEDIUM 
-│                        │     ├ VendorSeverity   ╭ amazon     : 2 
+│                        │     ├ VendorSeverity   ╭ amazon     : 3 
 │                        │     │                  ├ azure      : 2 
 │                        │     │                  ├ cbl-mariner: 2 
 │                        │     │                  ├ ghsa       : 2 
@@ -10443,7 +10449,7 @@
 │                        │     │                   during DOM construction, but only when tags are in foreign
 │                        │     │                   content (e.g. <math>, <svg>, etc contexts). 
 │                        │     ├ Severity        : MEDIUM 
-│                        │     ├ VendorSeverity   ╭ amazon     : 2 
+│                        │     ├ VendorSeverity   ╭ amazon     : 3 
 │                        │     │                  ├ azure      : 2 
 │                        │     │                  ├ cbl-mariner: 2 
 │                        │     │                  ├ ghsa       : 2 
@@ -10747,7 +10753,7 @@
 │                        │     │                   during DOM construction, but only when tags are in foreign
 │                        │     │                   content (e.g. <math>, <svg>, etc contexts). 
 │                        │     ├ Severity        : MEDIUM 
-│                        │     ├ VendorSeverity   ╭ amazon     : 2 
+│                        │     ├ VendorSeverity   ╭ amazon     : 3 
 │                        │     │                  ├ azure      : 2 
 │                        │     │                  ├ cbl-mariner: 2 
 │                        │     │                  ├ ghsa       : 2 
@@ -11371,7 +11377,7 @@
 │                        │      │                   the wrong scope during DOM construction, but only when tags
 │                        │      │                    are in foreign content (e.g. <math>, <svg>, etc contexts). 
 │                        │      ├ Severity        : MEDIUM 
-│                        │      ├ VendorSeverity   ╭ amazon     : 2 
+│                        │      ├ VendorSeverity   ╭ amazon     : 3 
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ ghsa       : 2 
