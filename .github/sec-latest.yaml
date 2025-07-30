@@ -1844,18 +1844,26 @@
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'iputils: iputils integer overflow'
     Description: 'ping in iputils before 20250602 allows a denial of service (application error in adaptive ping mode or incorrect data collection) via a crafted ICMP Echo Reply packet, because a zero timestamp can lead to large intermediate values that have an integer overflow when squared during statistics calculations. NOTE: this issue exists because of an incomplete fix for CVE-2025-47268 (that fix was only about timestamp calculations, and it did not account for a specific scenario where the original timestamp in the ICMP payload is zero).'
     Severity: LOW
     CweIDs:
     - CWE-190
     VendorSeverity:
+      redhat: 2
       ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
     References:
+    - https://access.redhat.com/security/cve/CVE-2025-48964
     - https://bugzilla.suse.com/show_bug.cgi?id=1243772
     - https://github.com/iputils/iputils/commit/afa36390394a6e0cceba03b52b59b6d41710608c
     - https://github.com/iputils/iputils/issues
     - https://github.com/iputils/iputils/releases/tag/20250602
     - https://github.com/iputils/iputils/security/advisories/GHSA-25fr-jw29-74f9
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-48964
     - https://ubuntu.com/security/notices/USN-7670-1
     - https://www.cve.org/CVERecord?id=CVE-2025-48964
     PublishedDate: '2025-07-22T18:15:36.02Z'
@@ -2796,7 +2804,7 @@
     - https://ubuntu.com/security/notices/USN-7532-1
     - https://www.cve.org/CVERecord?id=CVE-2025-4373
     PublishedDate: '2025-05-06T15:16:05.32Z'
-    LastModifiedDate: '2025-07-23T20:15:27.36Z'
+    LastModifiedDate: '2025-07-29T13:15:27.647Z'
   - VulnerabilityID: CVE-2025-4373
     PkgID: libglib2.0-data@2.72.4-0ubuntu2.4
     PkgName: libglib2.0-data
@@ -2850,7 +2858,7 @@
     - https://ubuntu.com/security/notices/USN-7532-1
     - https://www.cve.org/CVERecord?id=CVE-2025-4373
     PublishedDate: '2025-05-06T15:16:05.32Z'
-    LastModifiedDate: '2025-07-23T20:15:27.36Z'
+    LastModifiedDate: '2025-07-29T13:15:27.647Z'
   - VulnerabilityID: CVE-2025-32988
     PkgID: libgnutls30@3.7.3-4ubuntu1.6
     PkgName: libgnutls30
@@ -3095,7 +3103,9 @@
     CweIDs:
     - CWE-120
     VendorSeverity:
+      alma: 2
       amazon: 3
+      oracle-oval: 2
       redhat: 2
       ubuntu: 1
     CVSS:
@@ -3104,13 +3114,18 @@
         V3Score: 7
     References:
     - https://access.redhat.com/errata/RHSA-2025:11888
+    - https://access.redhat.com/errata/RHSA-2025:12083
     - https://access.redhat.com/security/cve/CVE-2025-5222
+    - https://bugzilla.redhat.com/2368600
     - https://bugzilla.redhat.com/show_bug.cgi?id=2368600
+    - https://errata.almalinux.org/10/ALSA-2025-11888.html
+    - https://linux.oracle.com/cve/CVE-2025-5222.html
+    - https://linux.oracle.com/errata/ELSA-2025-11888.html
     - https://lists.debian.org/debian-lts-announce/2025/06/msg00015.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-5222
     - https://www.cve.org/CVERecord?id=CVE-2025-5222
     PublishedDate: '2025-05-27T21:15:23.03Z'
-    LastModifiedDate: '2025-07-28T13:15:30.52Z'
+    LastModifiedDate: '2025-07-29T13:15:28.01Z'
   - VulnerabilityID: CVE-2025-3576
     PkgID: libk5crypto3@1.19.2-2ubuntu0.6
     PkgName: libk5crypto3
@@ -4188,6 +4203,67 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-56406
     PublishedDate: '2025-04-13T14:15:14.527Z'
     LastModifiedDate: '2025-04-30T15:21:11.547Z'
+  - VulnerabilityID: CVE-2025-40909
+    PkgID: libperl5.34@5.34.0-3ubuntu1.3
+    PkgName: libperl5.34
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libperl5.34@5.34.0-3ubuntu1.3?arch=amd64&distro=ubuntu-22.04
+      UID: ba2bcc76202f13a0
+    InstalledVersion: 5.34.0-3ubuntu1.3
+    FixedVersion: 5.34.0-3ubuntu1.5
+    Status: fixed
+    Layer:
+      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
+      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-40909
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'perl: Perl threads have a working directory race condition where file operations may target unintended paths'
+    Description: "Perl threads have a working directory race condition where file operations may target unintended paths.\n\nIf a directory handle is open at thread creation, the process-wide current working directory is temporarily changed in order to clone\_that handle for the new thread, which is visible from any third (or\_more) thread already running. \n\nThis may lead to unintended operations\_such as loading code or accessing files from unexpected locations,\_which a local attacker may be able to exploit.\n\nThe bug was introduced in commit\_11a11ecf4bea72b17d250cfb43c897be1341861e and released in Perl version 5.13.6"
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-362
+    - CWE-426
+    VendorSeverity:
+      alma: 2
+      amazon: 3
+      oracle-oval: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L
+        V3Score: 5.9
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/05/23/1
+    - http://www.openwall.com/lists/oss-security/2025/05/30/4
+    - http://www.openwall.com/lists/oss-security/2025/06/02/2
+    - http://www.openwall.com/lists/oss-security/2025/06/02/5
+    - http://www.openwall.com/lists/oss-security/2025/06/02/6
+    - http://www.openwall.com/lists/oss-security/2025/06/02/7
+    - http://www.openwall.com/lists/oss-security/2025/06/03/1
+    - https://access.redhat.com/errata/RHSA-2025:11805
+    - https://access.redhat.com/security/cve/CVE-2025-40909
+    - https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1098226
+    - https://bugzilla.redhat.com/2369407
+    - https://errata.almalinux.org/8/ALSA-2025-11805.html
+    - https://github.com/Perl/perl5/commit/11a11ecf4bea72b17d250cfb43c897be1341861e
+    - https://github.com/Perl/perl5/commit/918bfff86ca8d6d4e4ec5b30994451e0bd74aba9.patch
+    - https://github.com/Perl/perl5/issues/10387
+    - https://github.com/Perl/perl5/issues/23010
+    - https://linux.oracle.com/cve/CVE-2025-40909.html
+    - https://linux.oracle.com/errata/ELSA-2025-11805.html
+    - https://lists.security.metacpan.org/cve-announce/msg/30017499/
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-40909
+    - https://perldoc.perl.org/5.14.0/perl5136delta#Directory-handles-not-copied-to-threads
+    - https://ubuntu.com/security/notices/USN-7678-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-40909
+    - https://www.openwall.com/lists/oss-security/2025/05/22/2
+    PublishedDate: '2025-05-30T13:15:22.35Z'
+    LastModifiedDate: '2025-06-03T04:15:40.47Z'
   - VulnerabilityID: CVE-2025-4516
     PkgID: libpython3.10@3.10.12-1~22.04.9
     PkgName: libpython3.10
@@ -4720,8 +4796,10 @@
     CweIDs:
     - CWE-197
     VendorSeverity:
+      alma: 3
       bitnami: 3
       nvd: 4
+      oracle-oval: 3
       redhat: 3
       ubuntu: 2
     CVSS:
@@ -4732,7 +4810,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:L/I:H/A:L
         V3Score: 7.7
     References:
+    - https://access.redhat.com/errata/RHSA-2025:11803
     - https://access.redhat.com/security/cve/CVE-2025-6965
+    - https://bugzilla.redhat.com/2380149
+    - https://errata.almalinux.org/8/ALSA-2025-11803.html
+    - https://linux.oracle.com/cve/CVE-2025-6965.html
+    - https://linux.oracle.com/errata/ELSA-2025-12010.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-6965
     - https://ubuntu.com/security/notices/USN-7676-1
     - https://www.cve.org/CVERecord?id=CVE-2025-6965
@@ -4769,6 +4852,7 @@
         V3Score: 4.5
     References:
     - https://access.redhat.com/security/cve/CVE-2025-4877
+    - https://git.libssh.org/projects/libssh.git/commit/?h=stable-0.11&id=6fd9cc8ce3958092a1aae11f1f2e911b2747732d
     - https://nvd.nist.gov/vuln/detail/CVE-2025-4877
     - https://ubuntu.com/security/notices/USN-7619-1
     - https://www.cve.org/CVERecord?id=CVE-2025-4877
@@ -5704,7 +5788,7 @@
     - CWE-1188
     VendorSeverity:
       azure: 1
-      redhat: 2
+      redhat: 1
       ubuntu: 1
     CVSS:
       redhat:
@@ -6163,7 +6247,7 @@
     - CWE-1188
     VendorSeverity:
       azure: 1
-      redhat: 2
+      redhat: 1
       ubuntu: 1
     CVSS:
       redhat:
@@ -6233,6 +6317,67 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-56406
     PublishedDate: '2025-04-13T14:15:14.527Z'
     LastModifiedDate: '2025-04-30T15:21:11.547Z'
+  - VulnerabilityID: CVE-2025-40909
+    PkgID: perl@5.34.0-3ubuntu1.3
+    PkgName: perl
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/perl@5.34.0-3ubuntu1.3?arch=amd64&distro=ubuntu-22.04
+      UID: 76ff406985888589
+    InstalledVersion: 5.34.0-3ubuntu1.3
+    FixedVersion: 5.34.0-3ubuntu1.5
+    Status: fixed
+    Layer:
+      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
+      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-40909
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'perl: Perl threads have a working directory race condition where file operations may target unintended paths'
+    Description: "Perl threads have a working directory race condition where file operations may target unintended paths.\n\nIf a directory handle is open at thread creation, the process-wide current working directory is temporarily changed in order to clone\_that handle for the new thread, which is visible from any third (or\_more) thread already running. \n\nThis may lead to unintended operations\_such as loading code or accessing files from unexpected locations,\_which a local attacker may be able to exploit.\n\nThe bug was introduced in commit\_11a11ecf4bea72b17d250cfb43c897be1341861e and released in Perl version 5.13.6"
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-362
+    - CWE-426
+    VendorSeverity:
+      alma: 2
+      amazon: 3
+      oracle-oval: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L
+        V3Score: 5.9
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/05/23/1
+    - http://www.openwall.com/lists/oss-security/2025/05/30/4
+    - http://www.openwall.com/lists/oss-security/2025/06/02/2
+    - http://www.openwall.com/lists/oss-security/2025/06/02/5
+    - http://www.openwall.com/lists/oss-security/2025/06/02/6
+    - http://www.openwall.com/lists/oss-security/2025/06/02/7
+    - http://www.openwall.com/lists/oss-security/2025/06/03/1
+    - https://access.redhat.com/errata/RHSA-2025:11805
+    - https://access.redhat.com/security/cve/CVE-2025-40909
+    - https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1098226
+    - https://bugzilla.redhat.com/2369407
+    - https://errata.almalinux.org/8/ALSA-2025-11805.html
+    - https://github.com/Perl/perl5/commit/11a11ecf4bea72b17d250cfb43c897be1341861e
+    - https://github.com/Perl/perl5/commit/918bfff86ca8d6d4e4ec5b30994451e0bd74aba9.patch
+    - https://github.com/Perl/perl5/issues/10387
+    - https://github.com/Perl/perl5/issues/23010
+    - https://linux.oracle.com/cve/CVE-2025-40909.html
+    - https://linux.oracle.com/errata/ELSA-2025-11805.html
+    - https://lists.security.metacpan.org/cve-announce/msg/30017499/
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-40909
+    - https://perldoc.perl.org/5.14.0/perl5136delta#Directory-handles-not-copied-to-threads
+    - https://ubuntu.com/security/notices/USN-7678-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-40909
+    - https://www.openwall.com/lists/oss-security/2025/05/22/2
+    PublishedDate: '2025-05-30T13:15:22.35Z'
+    LastModifiedDate: '2025-06-03T04:15:40.47Z'
   - VulnerabilityID: CVE-2024-56406
     PkgID: perl-base@5.34.0-3ubuntu1.3
     PkgName: perl-base
@@ -6288,6 +6433,67 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-56406
     PublishedDate: '2025-04-13T14:15:14.527Z'
     LastModifiedDate: '2025-04-30T15:21:11.547Z'
+  - VulnerabilityID: CVE-2025-40909
+    PkgID: perl-base@5.34.0-3ubuntu1.3
+    PkgName: perl-base
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/perl-base@5.34.0-3ubuntu1.3?arch=amd64&distro=ubuntu-22.04
+      UID: 432ad0ab5c71d599
+    InstalledVersion: 5.34.0-3ubuntu1.3
+    FixedVersion: 5.34.0-3ubuntu1.5
+    Status: fixed
+    Layer:
+      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
+      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-40909
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'perl: Perl threads have a working directory race condition where file operations may target unintended paths'
+    Description: "Perl threads have a working directory race condition where file operations may target unintended paths.\n\nIf a directory handle is open at thread creation, the process-wide current working directory is temporarily changed in order to clone\_that handle for the new thread, which is visible from any third (or\_more) thread already running. \n\nThis may lead to unintended operations\_such as loading code or accessing files from unexpected locations,\_which a local attacker may be able to exploit.\n\nThe bug was introduced in commit\_11a11ecf4bea72b17d250cfb43c897be1341861e and released in Perl version 5.13.6"
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-362
+    - CWE-426
+    VendorSeverity:
+      alma: 2
+      amazon: 3
+      oracle-oval: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L
+        V3Score: 5.9
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/05/23/1
+    - http://www.openwall.com/lists/oss-security/2025/05/30/4
+    - http://www.openwall.com/lists/oss-security/2025/06/02/2
+    - http://www.openwall.com/lists/oss-security/2025/06/02/5
+    - http://www.openwall.com/lists/oss-security/2025/06/02/6
+    - http://www.openwall.com/lists/oss-security/2025/06/02/7
+    - http://www.openwall.com/lists/oss-security/2025/06/03/1
+    - https://access.redhat.com/errata/RHSA-2025:11805
+    - https://access.redhat.com/security/cve/CVE-2025-40909
+    - https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1098226
+    - https://bugzilla.redhat.com/2369407
+    - https://errata.almalinux.org/8/ALSA-2025-11805.html
+    - https://github.com/Perl/perl5/commit/11a11ecf4bea72b17d250cfb43c897be1341861e
+    - https://github.com/Perl/perl5/commit/918bfff86ca8d6d4e4ec5b30994451e0bd74aba9.patch
+    - https://github.com/Perl/perl5/issues/10387
+    - https://github.com/Perl/perl5/issues/23010
+    - https://linux.oracle.com/cve/CVE-2025-40909.html
+    - https://linux.oracle.com/errata/ELSA-2025-11805.html
+    - https://lists.security.metacpan.org/cve-announce/msg/30017499/
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-40909
+    - https://perldoc.perl.org/5.14.0/perl5136delta#Directory-handles-not-copied-to-threads
+    - https://ubuntu.com/security/notices/USN-7678-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-40909
+    - https://www.openwall.com/lists/oss-security/2025/05/22/2
+    PublishedDate: '2025-05-30T13:15:22.35Z'
+    LastModifiedDate: '2025-06-03T04:15:40.47Z'
   - VulnerabilityID: CVE-2024-56406
     PkgID: perl-modules-5.34@5.34.0-3ubuntu1.3
     PkgName: perl-modules-5.34
@@ -6343,6 +6549,67 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-56406
     PublishedDate: '2025-04-13T14:15:14.527Z'
     LastModifiedDate: '2025-04-30T15:21:11.547Z'
+  - VulnerabilityID: CVE-2025-40909
+    PkgID: perl-modules-5.34@5.34.0-3ubuntu1.3
+    PkgName: perl-modules-5.34
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/perl-modules-5.34@5.34.0-3ubuntu1.3?arch=all&distro=ubuntu-22.04
+      UID: 6be796a23b485ee0
+    InstalledVersion: 5.34.0-3ubuntu1.3
+    FixedVersion: 5.34.0-3ubuntu1.5
+    Status: fixed
+    Layer:
+      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
+      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-40909
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'perl: Perl threads have a working directory race condition where file operations may target unintended paths'
+    Description: "Perl threads have a working directory race condition where file operations may target unintended paths.\n\nIf a directory handle is open at thread creation, the process-wide current working directory is temporarily changed in order to clone\_that handle for the new thread, which is visible from any third (or\_more) thread already running. \n\nThis may lead to unintended operations\_such as loading code or accessing files from unexpected locations,\_which a local attacker may be able to exploit.\n\nThe bug was introduced in commit\_11a11ecf4bea72b17d250cfb43c897be1341861e and released in Perl version 5.13.6"
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-362
+    - CWE-426
+    VendorSeverity:
+      alma: 2
+      amazon: 3
+      oracle-oval: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L
+        V3Score: 5.9
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/05/23/1
+    - http://www.openwall.com/lists/oss-security/2025/05/30/4
+    - http://www.openwall.com/lists/oss-security/2025/06/02/2
+    - http://www.openwall.com/lists/oss-security/2025/06/02/5
+    - http://www.openwall.com/lists/oss-security/2025/06/02/6
+    - http://www.openwall.com/lists/oss-security/2025/06/02/7
+    - http://www.openwall.com/lists/oss-security/2025/06/03/1
+    - https://access.redhat.com/errata/RHSA-2025:11805
+    - https://access.redhat.com/security/cve/CVE-2025-40909
+    - https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1098226
+    - https://bugzilla.redhat.com/2369407
+    - https://errata.almalinux.org/8/ALSA-2025-11805.html
+    - https://github.com/Perl/perl5/commit/11a11ecf4bea72b17d250cfb43c897be1341861e
+    - https://github.com/Perl/perl5/commit/918bfff86ca8d6d4e4ec5b30994451e0bd74aba9.patch
+    - https://github.com/Perl/perl5/issues/10387
+    - https://github.com/Perl/perl5/issues/23010
+    - https://linux.oracle.com/cve/CVE-2025-40909.html
+    - https://linux.oracle.com/errata/ELSA-2025-11805.html
+    - https://lists.security.metacpan.org/cve-announce/msg/30017499/
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-40909
+    - https://perldoc.perl.org/5.14.0/perl5136delta#Directory-handles-not-copied-to-threads
+    - https://ubuntu.com/security/notices/USN-7678-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-40909
+    - https://www.openwall.com/lists/oss-security/2025/05/22/2
+    PublishedDate: '2025-05-30T13:15:22.35Z'
+    LastModifiedDate: '2025-06-03T04:15:40.47Z'
   - VulnerabilityID: CVE-2025-4516
     PkgID: python3.10@3.10.12-1~22.04.9
     PkgName: python3.10
@@ -7176,7 +7443,7 @@
     - CWE-1188
     VendorSeverity:
       azure: 1
-      redhat: 2
+      redhat: 1
       ubuntu: 1
     CVSS:
       redhat:
@@ -8890,6 +9157,64 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-40635
     PublishedDate: '2025-03-17T22:15:13.15Z'
     LastModifiedDate: '2025-05-04T22:15:31.84Z'
+  - VulnerabilityID: CVE-2025-54410
+    PkgID: github.com/docker/docker@v25.0.6+incompatible
+    PkgName: github.com/docker/docker
+    PkgIdentifier:
+      PURL: pkg:golang/github.com/docker/docker@v25.0.6%2Bincompatible
+      UID: b9acec2fc884ba8
+    InstalledVersion: v25.0.6+incompatible
+    Status: affected
+    Layer:
+      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
+      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
+    SeveritySource: ghsa
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-54410
+    DataSource:
+      ID: ghsa
+      Name: GitHub Security Advisory Go
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
+    Title: Moby firewalld reload removes bridge network isolation
+    Description: |-
+      Moby is an open source container framework developed by Docker Inc. that is distributed as Docker Engine, Mirantis Container Runtime, and various other downstream projects/products. The Moby daemon component (dockerd), which is developed as [moby/moby](https://github.com/moby/moby) is commonly referred to as Docker, or Docker Engine.
+
+      Firewalld is a daemon used by some Linux distributions to provide a dynamically managed firewall. When Firewalld is running, Docker uses its iptables backend to create rules, including rules to isolate containers in one bridge network from containers in other bridge networks.
+
+      ### Impact
+
+      The iptables rules created by Docker are removed when firewalld is reloaded using, for example "firewall-cmd --reload", "killall -HUP firewalld", or "systemctl reload firewalld".
+
+      When that happens, Docker must re-create the rules. However, in affected versions of Docker, the iptables rules that isolate containers in different bridge networks from each other are not re-created.
+
+      Once these rules have been removed, containers have access to any port, on any container, in any non-internal bridge network, running on the Docker host.
+
+      Containers running in networks created with `--internal` or equivalent have no access to other networks. Containers that are only connected to these networks remain isolated after a firewalld reload.
+
+      Where Docker Engine is not running in the host's network namespace, it is unaffected. Including, for example, Rootless Mode, and Docker Desktop.
+
+      ### Patches
+
+      Moby releases 28.0.0 and newer are not affected. A fix is available in moby release 25.0.13.
+
+      ### Workarounds
+      After reloading firewalld, either:
+      - Restart the docker daemon,
+      - Re-create bridge networks, or
+      - Use rootless mode.
+
+      ### References
+      https://firewalld.org/
+      https://firewalld.org/documentation/howto/reload-firewalld.html
+    Severity: LOW
+    VendorSeverity:
+      ghsa: 1
+    CVSS:
+      ghsa:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:L/A:N
+        V3Score: 3.3
+    References:
+    - https://github.com/moby/moby
+    - https://github.com/moby/moby/security/advisories/GHSA-4vq8-7jfc-9cvp
   - VulnerabilityID: CVE-2025-22872
     PkgID: golang.org/x/net@v0.37.0
     PkgName: golang.org/x/net
