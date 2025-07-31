@@ -7,7 +7,7 @@
 │                        │      ├ PkgName         : coreutils 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/coreutils@8.32-4.1ubuntu1.2?arch=amd6
 │                        │      │                  │       4&distro=ubuntu-22.04 
-│                        │      │                  ╰ UID : 4796b7f198dd0cd5 
+│                        │      │                  ╰ UID : 2ebff7b9108b56bd 
 │                        │      ├ InstalledVersion: 8.32-4.1ubuntu1.2 
 │                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:8ee149d3438e1be92c4e79fc89c4975b2a6c94f2d58
@@ -61,7 +61,7 @@
 │                        │      ├ PkgName         : curl 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/curl@7.81.0-1ubuntu1.20?arch=amd64&di
 │                        │      │                  │       stro=ubuntu-22.04 
-│                        │      │                  ╰ UID : 14a795e9b897d069 
+│                        │      │                  ╰ UID : 8995a15c03f027dd 
 │                        │      ├ InstalledVersion: 7.81.0-1ubuntu1.20 
 │                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:8ee149d3438e1be92c4e79fc89c4975b2a6c94f2d58
@@ -103,7 +103,7 @@
 │                        │      ├ PkgName         : dbus 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/dbus@1.12.20-2ubuntu4.1?arch=amd64&di
 │                        │      │                  │       stro=ubuntu-22.04 
-│                        │      │                  ╰ UID : 5fc61889e98286e8 
+│                        │      │                  ╰ UID : 476446620664ccd3 
 │                        │      ├ InstalledVersion: 1.12.20-2ubuntu4.1 
 │                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:8ee149d3438e1be92c4e79fc89c4975b2a6c94f2d58
@@ -172,7 +172,7 @@
 │                        │      ├ PkgName         : dbus-user-session 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/dbus-user-session@1.12.20-2ubuntu4.1?
 │                        │      │                  │       arch=amd64&distro=ubuntu-22.04 
-│                        │      │                  ╰ UID : 56e916b097b6a334 
+│                        │      │                  ╰ UID : 415c544c658944d2 
 │                        │      ├ InstalledVersion: 1.12.20-2ubuntu4.1 
 │                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:8ee149d3438e1be92c4e79fc89c4975b2a6c94f2d58
@@ -241,7 +241,7 @@
 │                        │      ├ PkgName         : dirmngr 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/dirmngr@2.2.27-3ubuntu2.4?arch=amd64&
 │                        │      │                  │       distro=ubuntu-22.04 
-│                        │      │                  ╰ UID : 84f937c2b017cfc7 
+│                        │      │                  ╰ UID : 85d1f65d91ec1faf 
 │                        │      ├ InstalledVersion: 2.2.27-3ubuntu2.4 
 │                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:8ee149d3438e1be92c4e79fc89c4975b2a6c94f2d58
@@ -412,7 +412,7 @@
 │                        │      ├ PkgName         : git 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/git@2.34.1-1ubuntu1.15?arch=amd64&dis
 │                        │      │                  │       tro=ubuntu-22.04&epoch=1 
-│                        │      │                  ╰ UID : a5d38f21e66a2322 
+│                        │      │                  ╰ UID : c47f4f0afc45cba6 
 │                        │      ├ InstalledVersion: 1:2.34.1-1ubuntu1.15 
 │                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:8ee149d3438e1be92c4e79fc89c4975b2a6c94f2d58
@@ -454,10 +454,10 @@
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:
 │                        │      │                           │           H/A:H 
 │                        │      │                           ╰ V3Score : 7.5 
-│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:7409 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:7482 
 │                        │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024-52005 
 │                        │      │                  ├ [2] : https://bugzilla.redhat.com/2338289 
-│                        │      │                  ├ [3] : https://errata.almalinux.org/9/ALSA-2025-7409.html 
+│                        │      │                  ├ [3] : https://errata.almalinux.org/10/ALSA-2025-7482.html 
 │                        │      │                  ├ [4] : https://github.com/git/git/security/advisories/GHSA-
 │                        │      │                  │       7jjc-gg6m-3329 
 │                        │      │                  ├ [5] : https://linux.oracle.com/cve/CVE-2024-52005.html 
@@ -517,10 +517,10 @@
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:
 │                        │      │                           │           H/A:H 
 │                        │      │                           ╰ V3Score : 7.5 
-│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:7409 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:7482 
 │                        │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024-52005 
 │                        │      │                  ├ [2] : https://bugzilla.redhat.com/2338289 
-│                        │      │                  ├ [3] : https://errata.almalinux.org/9/ALSA-2025-7409.html 
+│                        │      │                  ├ [3] : https://errata.almalinux.org/10/ALSA-2025-7482.html 
 │                        │      │                  ├ [4] : https://github.com/git/git/security/advisories/GHSA-
 │                        │      │                  │       7jjc-gg6m-3329 
 │                        │      │                  ├ [5] : https://linux.oracle.com/cve/CVE-2024-52005.html 
@@ -538,7 +538,7 @@
 │                        │      ├ PkgName         : gnupg 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/gnupg@2.2.27-3ubuntu2.4?arch=all&dist
 │                        │      │                  │       ro=ubuntu-22.04 
-│                        │      │                  ╰ UID : 77ee5457639c2255 
+│                        │      │                  ╰ UID : 5056ca2b702922a1 
 │                        │      ├ InstalledVersion: 2.2.27-3ubuntu2.4 
 │                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:8ee149d3438e1be92c4e79fc89c4975b2a6c94f2d58
@@ -670,7 +670,7 @@
 │                        │      ├ PkgName         : gpg 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/gpg@2.2.27-3ubuntu2.4?arch=amd64&dist
 │                        │      │                  │       ro=ubuntu-22.04 
-│                        │      │                  ╰ UID : 23619a575d7eeef5 
+│                        │      │                  ╰ UID : 8208fcc21345aee 
 │                        │      ├ InstalledVersion: 2.2.27-3ubuntu2.4 
 │                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:8ee149d3438e1be92c4e79fc89c4975b2a6c94f2d58
@@ -714,7 +714,7 @@
 │                        │      ├ PkgName         : gpg-agent 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/gpg-agent@2.2.27-3ubuntu2.4?arch=amd6
 │                        │      │                  │       4&distro=ubuntu-22.04 
-│                        │      │                  ╰ UID : 3c02417a99dd3b3e 
+│                        │      │                  ╰ UID : e4a2ec9d1e170687 
 │                        │      ├ InstalledVersion: 2.2.27-3ubuntu2.4 
 │                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:8ee149d3438e1be92c4e79fc89c4975b2a6c94f2d58
@@ -758,7 +758,7 @@
 │                        │      ├ PkgName         : gpg-wks-client 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/gpg-wks-client@2.2.27-3ubuntu2.4?arch
 │                        │      │                  │       =amd64&distro=ubuntu-22.04 
-│                        │      │                  ╰ UID : 10bec3e6f0d41780 
+│                        │      │                  ╰ UID : 5dfb5d5dfa439025 
 │                        │      ├ InstalledVersion: 2.2.27-3ubuntu2.4 
 │                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:8ee149d3438e1be92c4e79fc89c4975b2a6c94f2d58
@@ -802,7 +802,7 @@
 │                        │      ├ PkgName         : gpg-wks-server 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/gpg-wks-server@2.2.27-3ubuntu2.4?arch
 │                        │      │                  │       =amd64&distro=ubuntu-22.04 
-│                        │      │                  ╰ UID : 36c0e361ab2fb8a4 
+│                        │      │                  ╰ UID : b7ec55721300aaa3 
 │                        │      ├ InstalledVersion: 2.2.27-3ubuntu2.4 
 │                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:8ee149d3438e1be92c4e79fc89c4975b2a6c94f2d58
@@ -890,7 +890,7 @@
 │                        │      ├ PkgName         : gpgsm 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/gpgsm@2.2.27-3ubuntu2.4?arch=amd64&di
 │                        │      │                  │       stro=ubuntu-22.04 
-│                        │      │                  ╰ UID : 94ab91effbe0f7c8 
+│                        │      │                  ╰ UID : 84e80dfdbc1bfb20 
 │                        │      ├ InstalledVersion: 2.2.27-3ubuntu2.4 
 │                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:8ee149d3438e1be92c4e79fc89c4975b2a6c94f2d58
@@ -978,7 +978,7 @@
 │                        │      ├ PkgName         : libatomic1 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libatomic1@12.3.0-1ubuntu1~22.04?arch
 │                        │      │                  │       =amd64&distro=ubuntu-22.04 
-│                        │      │                  ╰ UID : 42e578af57630559 
+│                        │      │                  ╰ UID : be679ac7ee407739 
 │                        │      ├ InstalledVersion: 12.3.0-1ubuntu1~22.04 
 │                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:8ee149d3438e1be92c4e79fc89c4975b2a6c94f2d58
@@ -1031,7 +1031,7 @@
 │                        │      ├ PkgName         : libatomic1 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libatomic1@12.3.0-1ubuntu1~22.04?arch
 │                        │      │                  │       =amd64&distro=ubuntu-22.04 
-│                        │      │                  ╰ UID : 42e578af57630559 
+│                        │      │                  ╰ UID : be679ac7ee407739 
 │                        │      ├ InstalledVersion: 12.3.0-1ubuntu1~22.04 
 │                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:8ee149d3438e1be92c4e79fc89c4975b2a6c94f2d58
@@ -1105,7 +1105,7 @@
 │                        │      ├ PkgName         : libbpf0 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libbpf0@0.5.0-1ubuntu22.04.1?arch=amd
 │                        │      │                  │       64&distro=ubuntu-22.04&epoch=1 
-│                        │      │                  ╰ UID : a97010ee6296ac0b 
+│                        │      │                  ╰ UID : 30ec4aa3b57cae24 
 │                        │      ├ InstalledVersion: 1:0.5.0-1ubuntu22.04.1 
 │                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:8ee149d3438e1be92c4e79fc89c4975b2a6c94f2d58
@@ -1146,7 +1146,7 @@
 │                        │      ├ PkgName         : libc-bin 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libc-bin@2.35-0ubuntu3.10?arch=amd64&
 │                        │      │                  │       distro=ubuntu-22.04 
-│                        │      │                  ╰ UID : ccde75e67c4628c7 
+│                        │      │                  ╰ UID : bfcb3b7a79390cd9 
 │                        │      ├ InstalledVersion: 2.35-0ubuntu3.10 
 │                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:8ee149d3438e1be92c4e79fc89c4975b2a6c94f2d58
@@ -1182,7 +1182,7 @@
 │                        │      ├ PkgName         : libc6 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libc6@2.35-0ubuntu3.10?arch=amd64&dis
 │                        │      │                  │       tro=ubuntu-22.04 
-│                        │      │                  ╰ UID : e58e53ad40fe21b7 
+│                        │      │                  ╰ UID : f1b3fc5b96f73b57 
 │                        │      ├ InstalledVersion: 2.35-0ubuntu3.10 
 │                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:8ee149d3438e1be92c4e79fc89c4975b2a6c94f2d58
@@ -1218,7 +1218,7 @@
 │                        │      ├ PkgName         : libcurl3-gnutls 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libcurl3-gnutls@7.81.0-1ubuntu1.20?ar
 │                        │      │                  │       ch=amd64&distro=ubuntu-22.04 
-│                        │      │                  ╰ UID : 174b813f9f735cb7 
+│                        │      │                  ╰ UID : cceedcb6ff2b9838 
 │                        │      ├ InstalledVersion: 7.81.0-1ubuntu1.20 
 │                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:8ee149d3438e1be92c4e79fc89c4975b2a6c94f2d58
@@ -1260,7 +1260,7 @@
 │                        │      ├ PkgName         : libcurl4 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libcurl4@7.81.0-1ubuntu1.20?arch=amd6
 │                        │      │                  │       4&distro=ubuntu-22.04 
-│                        │      │                  ╰ UID : 535af391fd0f3108 
+│                        │      │                  ╰ UID : b03abf303cd7d250 
 │                        │      ├ InstalledVersion: 7.81.0-1ubuntu1.20 
 │                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:8ee149d3438e1be92c4e79fc89c4975b2a6c94f2d58
@@ -1302,7 +1302,7 @@
 │                        │      ├ PkgName         : libdbus-1-3 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libdbus-1-3@1.12.20-2ubuntu4.1?arch=a
 │                        │      │                  │       md64&distro=ubuntu-22.04 
-│                        │      │                  ╰ UID : c5883a229209473f 
+│                        │      │                  ╰ UID : 190f2c509622166a 
 │                        │      ├ InstalledVersion: 1.12.20-2ubuntu4.1 
 │                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:8ee149d3438e1be92c4e79fc89c4975b2a6c94f2d58
@@ -1371,7 +1371,7 @@
 │                        │      ├ PkgName         : libelf1 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libelf1@0.186-1ubuntu0.1?arch=amd64&d
 │                        │      │                  │       istro=ubuntu-22.04 
-│                        │      │                  ╰ UID : 151fba365133c3d1 
+│                        │      │                  ╰ UID : 3e2da2d53284b558 
 │                        │      ├ InstalledVersion: 0.186-1ubuntu0.1 
 │                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:8ee149d3438e1be92c4e79fc89c4975b2a6c94f2d58
@@ -1423,7 +1423,7 @@
 │                        │      ├ PkgName         : libelf1 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libelf1@0.186-1ubuntu0.1?arch=amd64&d
 │                        │      │                  │       istro=ubuntu-22.04 
-│                        │      │                  ╰ UID : 151fba365133c3d1 
+│                        │      │                  ╰ UID : 3e2da2d53284b558 
 │                        │      ├ InstalledVersion: 0.186-1ubuntu0.1 
 │                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:8ee149d3438e1be92c4e79fc89c4975b2a6c94f2d58
@@ -1474,7 +1474,7 @@
 │                        │      ├ PkgName         : libgcc-s1 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libgcc-s1@12.3.0-1ubuntu1~22.04?arch=
 │                        │      │                  │       amd64&distro=ubuntu-22.04 
-│                        │      │                  ╰ UID : b75c58acd7393b74 
+│                        │      │                  ╰ UID : 9288187e7dcc877e 
 │                        │      ├ InstalledVersion: 12.3.0-1ubuntu1~22.04 
 │                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:8ee149d3438e1be92c4e79fc89c4975b2a6c94f2d58
@@ -1527,7 +1527,7 @@
 │                        │      ├ PkgName         : libgcc-s1 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libgcc-s1@12.3.0-1ubuntu1~22.04?arch=
 │                        │      │                  │       amd64&distro=ubuntu-22.04 
-│                        │      │                  ╰ UID : b75c58acd7393b74 
+│                        │      │                  ╰ UID : 9288187e7dcc877e 
 │                        │      ├ InstalledVersion: 12.3.0-1ubuntu1~22.04 
 │                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:8ee149d3438e1be92c4e79fc89c4975b2a6c94f2d58
@@ -1601,7 +1601,7 @@
 │                        │      ├ PkgName         : libgcrypt20 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libgcrypt20@1.9.4-3ubuntu3?arch=amd64
 │                        │      │                  │       &distro=ubuntu-22.04 
-│                        │      │                  ╰ UID : a66d5dbda2c851c8 
+│                        │      │                  ╰ UID : f198a8810874ca45 
 │                        │      ├ InstalledVersion: 1.9.4-3ubuntu3 
 │                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:8ee149d3438e1be92c4e79fc89c4975b2a6c94f2d58
@@ -1654,7 +1654,7 @@
 │                        │      ├ PkgName         : libicu70 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libicu70@70.1-2?arch=amd64&distro=ubu
 │                        │      │                  │       ntu-22.04 
-│                        │      │                  ╰ UID : cffc012fe38dfa9e 
+│                        │      │                  ╰ UID : cfa05891bfe47353 
 │                        │      ├ InstalledVersion: 70.1-2 
 │                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:8ee149d3438e1be92c4e79fc89c4975b2a6c94f2d58
@@ -1689,7 +1689,7 @@
 │                        │      │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2368600 
 │                        │      │                  ├ [5] : https://errata.almalinux.org/10/ALSA-2025-11888.html 
 │                        │      │                  ├ [6] : https://linux.oracle.com/cve/CVE-2025-5222.html 
-│                        │      │                  ├ [7] : https://linux.oracle.com/errata/ELSA-2025-11888.html 
+│                        │      │                  ├ [7] : https://linux.oracle.com/errata/ELSA-2025-12083.html 
 │                        │      │                  ├ [8] : https://lists.debian.org/debian-lts-announce/2025/06
 │                        │      │                  │       /msg00015.html 
 │                        │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2025-5222 
@@ -1701,7 +1701,7 @@
 │                        │      ├ PkgName         : libncurses6 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libncurses6@6.3-2ubuntu0.1?arch=amd64
 │                        │      │                  │       &distro=ubuntu-22.04 
-│                        │      │                  ╰ UID : fa476afc80d83299 
+│                        │      │                  ╰ UID : b3fedc00c1cbe7d3 
 │                        │      ├ InstalledVersion: 6.3-2ubuntu0.1 
 │                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:8ee149d3438e1be92c4e79fc89c4975b2a6c94f2d58
@@ -1748,7 +1748,7 @@
 │                        │      ├ PkgName         : libncursesw6 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libncursesw6@6.3-2ubuntu0.1?arch=amd6
 │                        │      │                  │       4&distro=ubuntu-22.04 
-│                        │      │                  ╰ UID : f524877695fb0e9 
+│                        │      │                  ╰ UID : 33c2ff5e0339c217 
 │                        │      ├ InstalledVersion: 6.3-2ubuntu0.1 
 │                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:8ee149d3438e1be92c4e79fc89c4975b2a6c94f2d58
@@ -1795,7 +1795,7 @@
 │                        │      ├ PkgName         : libnss-systemd 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libnss-systemd@249.11-0ubuntu3.16?arc
 │                        │      │                  │       h=amd64&distro=ubuntu-22.04 
-│                        │      │                  ╰ UID : 43fa6cca18c91c38 
+│                        │      │                  ╰ UID : 6bc4904e8eba2caa 
 │                        │      ├ InstalledVersion: 249.11-0ubuntu3.16 
 │                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:8ee149d3438e1be92c4e79fc89c4975b2a6c94f2d58
@@ -1862,7 +1862,7 @@
 │                        │      ├ PkgName         : libpam-modules 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpam-modules@1.4.0-11ubuntu2.6?arch
 │                        │      │                  │       =amd64&distro=ubuntu-22.04 
-│                        │      │                  ╰ UID : 1a9fb834cdb20b9a 
+│                        │      │                  ╰ UID : e030e76a1eb27cc9 
 │                        │      ├ InstalledVersion: 1.4.0-11ubuntu2.6 
 │                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:8ee149d3438e1be92c4e79fc89c4975b2a6c94f2d58
@@ -1919,7 +1919,7 @@
 │                        │      ├ PkgName         : libpam-modules-bin 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpam-modules-bin@1.4.0-11ubuntu2.6?
 │                        │      │                  │       arch=amd64&distro=ubuntu-22.04 
-│                        │      │                  ╰ UID : 7cc34e5038c9fee2 
+│                        │      │                  ╰ UID : ff48dbb478ed32e4 
 │                        │      ├ InstalledVersion: 1.4.0-11ubuntu2.6 
 │                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:8ee149d3438e1be92c4e79fc89c4975b2a6c94f2d58
@@ -1976,7 +1976,7 @@
 │                        │      ├ PkgName         : libpam-runtime 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpam-runtime@1.4.0-11ubuntu2.6?arch
 │                        │      │                  │       =all&distro=ubuntu-22.04 
-│                        │      │                  ╰ UID : da3a919fe2ec9032 
+│                        │      │                  ╰ UID : a302da02115f312c 
 │                        │      ├ InstalledVersion: 1.4.0-11ubuntu2.6 
 │                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:8ee149d3438e1be92c4e79fc89c4975b2a6c94f2d58
@@ -2033,7 +2033,7 @@
 │                        │      ├ PkgName         : libpam-systemd 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpam-systemd@249.11-0ubuntu3.16?arc
 │                        │      │                  │       h=amd64&distro=ubuntu-22.04 
-│                        │      │                  ╰ UID : 55b7cae158c3fb97 
+│                        │      │                  ╰ UID : e24b8b5d1e1d9fbb 
 │                        │      ├ InstalledVersion: 249.11-0ubuntu3.16 
 │                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:8ee149d3438e1be92c4e79fc89c4975b2a6c94f2d58
@@ -2100,7 +2100,7 @@
 │                        │      ├ PkgName         : libpam0g 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpam0g@1.4.0-11ubuntu2.6?arch=amd64
 │                        │      │                  │       &distro=ubuntu-22.04 
-│                        │      │                  ╰ UID : 260c08aed75e39d4 
+│                        │      │                  ╰ UID : fa84989cdd4f8731 
 │                        │      ├ InstalledVersion: 1.4.0-11ubuntu2.6 
 │                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:8ee149d3438e1be92c4e79fc89c4975b2a6c94f2d58
@@ -2157,7 +2157,7 @@
 │                        │      ├ PkgName         : libpcre2-8-0 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpcre2-8-0@10.39-3ubuntu0.1?arch=am
 │                        │      │                  │       d64&distro=ubuntu-22.04 
-│                        │      │                  ╰ UID : 800428d768feb660 
+│                        │      │                  ╰ UID : e7645369d86e7768 
 │                        │      ├ InstalledVersion: 10.39-3ubuntu0.1 
 │                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:8ee149d3438e1be92c4e79fc89c4975b2a6c94f2d58
@@ -2202,7 +2202,7 @@
 │                        │      ├ PkgName         : libpcre3 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpcre3@8.39-13ubuntu0.22.04.1?arch=
 │                        │      │                  │       amd64&distro=ubuntu-22.04&epoch=2 
-│                        │      │                  ╰ UID : b145b4648640a3ce 
+│                        │      │                  ╰ UID : 345e672502021a2b 
 │                        │      ├ InstalledVersion: 2:8.39-13ubuntu0.22.04.1 
 │                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:8ee149d3438e1be92c4e79fc89c4975b2a6c94f2d58
@@ -2249,7 +2249,7 @@
 │                        │      ├ PkgName         : libperl5.34 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libperl5.34@5.34.0-3ubuntu1.4?arch=am
 │                        │      │                  │       d64&distro=ubuntu-22.04 
-│                        │      │                  ╰ UID : 182d7f3051c11fa0 
+│                        │      │                  ╰ UID : 14a09213303e33d4 
 │                        │      ├ InstalledVersion: 5.34.0-3ubuntu1.4 
 │                        │      ├ FixedVersion    : 5.34.0-3ubuntu1.5 
 │                        │      ├ Status          : fixed 
@@ -2283,6 +2283,7 @@
 │                        │      │                  ╰ [1]: CWE-426 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
 │                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ oracle-oval: 2 
 │                        │      │                  ├ redhat     : 2 
 │                        │      │                  ╰ ubuntu     : 2 
@@ -2316,7 +2317,7 @@
 │                        │      │                  ├ [14]: https://github.com/Perl/perl5/issues/10387 
 │                        │      │                  ├ [15]: https://github.com/Perl/perl5/issues/23010 
 │                        │      │                  ├ [16]: https://linux.oracle.com/cve/CVE-2025-40909.html 
-│                        │      │                  ├ [17]: https://linux.oracle.com/errata/ELSA-2025-11805.html 
+│                        │      │                  ├ [17]: https://linux.oracle.com/errata/ELSA-2025-12056.html 
 │                        │      │                  ├ [18]: https://lists.security.metacpan.org/cve-announce/msg
 │                        │      │                  │       /30017499/ 
 │                        │      │                  ├ [19]: https://nvd.nist.gov/vuln/detail/CVE-2025-40909 
@@ -2333,7 +2334,7 @@
 │                        │      ├ PkgName         : libpython3.10 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpython3.10@3.10.12-1~22.04.10?arch
 │                        │      │                  │       =amd64&distro=ubuntu-22.04 
-│                        │      │                  ╰ UID : 7880e455ddbbd658 
+│                        │      │                  ╰ UID : 27439b4350b7f468 
 │                        │      ├ InstalledVersion: 3.10.12-1~22.04.10 
 │                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:8ee149d3438e1be92c4e79fc89c4975b2a6c94f2d58
@@ -2393,7 +2394,7 @@
 │                        │      ├ PkgName         : libpython3.10-minimal 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpython3.10-minimal@3.10.12-1~22.04
 │                        │      │                  │       .10?arch=amd64&distro=ubuntu-22.04 
-│                        │      │                  ╰ UID : dca254400f85d298 
+│                        │      │                  ╰ UID : e3fd315a69bfd76 
 │                        │      ├ InstalledVersion: 3.10.12-1~22.04.10 
 │                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:8ee149d3438e1be92c4e79fc89c4975b2a6c94f2d58
@@ -2453,7 +2454,7 @@
 │                        │      ├ PkgName         : libpython3.10-stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpython3.10-stdlib@3.10.12-1~22.04.
 │                        │      │                  │       10?arch=amd64&distro=ubuntu-22.04 
-│                        │      │                  ╰ UID : 5e997a42180cfdd7 
+│                        │      │                  ╰ UID : 70e27c44e24264 
 │                        │      ├ InstalledVersion: 3.10.12-1~22.04.10 
 │                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:8ee149d3438e1be92c4e79fc89c4975b2a6c94f2d58
@@ -2513,7 +2514,7 @@
 │                        │      ├ PkgName         : libsqlite3-0 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libsqlite3-0@3.37.2-2ubuntu0.4?arch=a
 │                        │      │                  │       md64&distro=ubuntu-22.04 
-│                        │      │                  ╰ UID : 3fdf9d4cd5e216de 
+│                        │      │                  ╰ UID : 86a27bae3481f639 
 │                        │      ├ InstalledVersion: 3.37.2-2ubuntu0.4 
 │                        │      ├ FixedVersion    : 3.37.2-2ubuntu0.5 
 │                        │      ├ Status          : fixed 
@@ -2546,17 +2547,18 @@
 │                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:L/I:
 │                        │      │                           │           H/A:L 
 │                        │      │                           ╰ V3Score : 7.7 
-│                        │      ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2025:11803 
-│                        │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-6965 
-│                        │      │                  ├ [2]: https://bugzilla.redhat.com/2380149 
-│                        │      │                  ├ [3]: https://errata.almalinux.org/8/ALSA-2025-11803.html 
-│                        │      │                  ├ [4]: https://linux.oracle.com/cve/CVE-2025-6965.html 
-│                        │      │                  ├ [5]: https://linux.oracle.com/errata/ELSA-2025-12010.html 
-│                        │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2025-6965 
-│                        │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-7676-1 
-│                        │      │                  ├ [8]: https://www.cve.org/CVERecord?id=CVE-2025-6965 
-│                        │      │                  ╰ [9]: https://www.sqlite.org/src/info/5508b56fd24016c13981e
-│                        │      │                         c280ecdd833007c9d8dd595edb295b984c2b487b5c8 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:11933 
+│                        │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-6965 
+│                        │      │                  ├ [2] : https://bugzilla.redhat.com/2380149 
+│                        │      │                  ├ [3] : https://errata.almalinux.org/10/ALSA-2025-11933.html 
+│                        │      │                  ├ [4] : https://linux.oracle.com/cve/CVE-2025-6965.html 
+│                        │      │                  ├ [5] : https://linux.oracle.com/errata/ELSA-2025-12010.html 
+│                        │      │                  ├ [6] : https://nvd.nist.gov/vuln/detail/CVE-2025-6965 
+│                        │      │                  ├ [7] : https://ubuntu.com/security/notices/USN-7676-1 
+│                        │      │                  ├ [8] : https://ubuntu.com/security/notices/USN-7679-1 
+│                        │      │                  ├ [9] : https://www.cve.org/CVERecord?id=CVE-2025-6965 
+│                        │      │                  ╰ [10]: https://www.sqlite.org/src/info/5508b56fd24016c13981
+│                        │      │                          ec280ecdd833007c9d8dd595edb295b984c2b487b5c8 
 │                        │      ├ PublishedDate   : 2025-07-15T14:15:31.08Z 
 │                        │      ╰ LastModifiedDate: 2025-07-22T17:06:21.51Z 
 │                        ├ [48] ╭ VulnerabilityID : CVE-2024-41996 
@@ -2614,7 +2616,7 @@
 │                        │      ├ PkgName         : libstdc++6 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libstdc%2B%2B6@12.3.0-1ubuntu1~22.04?
 │                        │      │                  │       arch=amd64&distro=ubuntu-22.04 
-│                        │      │                  ╰ UID : b17c9519af2b29ea 
+│                        │      │                  ╰ UID : fe6f03dcb6f686e2 
 │                        │      ├ InstalledVersion: 12.3.0-1ubuntu1~22.04 
 │                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:8ee149d3438e1be92c4e79fc89c4975b2a6c94f2d58
@@ -2667,7 +2669,7 @@
 │                        │      ├ PkgName         : libstdc++6 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libstdc%2B%2B6@12.3.0-1ubuntu1~22.04?
 │                        │      │                  │       arch=amd64&distro=ubuntu-22.04 
-│                        │      │                  ╰ UID : b17c9519af2b29ea 
+│                        │      │                  ╰ UID : fe6f03dcb6f686e2 
 │                        │      ├ InstalledVersion: 12.3.0-1ubuntu1~22.04 
 │                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:8ee149d3438e1be92c4e79fc89c4975b2a6c94f2d58
@@ -2741,7 +2743,7 @@
 │                        │      ├ PkgName         : libsystemd0 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libsystemd0@249.11-0ubuntu3.16?arch=a
 │                        │      │                  │       md64&distro=ubuntu-22.04 
-│                        │      │                  ╰ UID : e9dd4f94af585bbb 
+│                        │      │                  ╰ UID : 6c309ac095d0937a 
 │                        │      ├ InstalledVersion: 249.11-0ubuntu3.16 
 │                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:8ee149d3438e1be92c4e79fc89c4975b2a6c94f2d58
@@ -2808,7 +2810,7 @@
 │                        │      ├ PkgName         : libtinfo6 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libtinfo6@6.3-2ubuntu0.1?arch=amd64&d
 │                        │      │                  │       istro=ubuntu-22.04 
-│                        │      │                  ╰ UID : b154c3ce9f517549 
+│                        │      │                  ╰ UID : 88b9c104cd01d37e 
 │                        │      ├ InstalledVersion: 6.3-2ubuntu0.1 
 │                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:8ee149d3438e1be92c4e79fc89c4975b2a6c94f2d58
@@ -2855,7 +2857,7 @@
 │                        │      ├ PkgName         : libudev1 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libudev1@249.11-0ubuntu3.16?arch=amd6
 │                        │      │                  │       4&distro=ubuntu-22.04 
-│                        │      │                  ╰ UID : 3184c3a189e2d255 
+│                        │      │                  ╰ UID : 6faff40975529b63 
 │                        │      ├ InstalledVersion: 249.11-0ubuntu3.16 
 │                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:8ee149d3438e1be92c4e79fc89c4975b2a6c94f2d58
@@ -2922,7 +2924,7 @@
 │                        │      ├ PkgName         : libzstd1 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libzstd1@1.4.8%2Bdfsg-3build1?arch=am
 │                        │      │                  │       d64&distro=ubuntu-22.04 
-│                        │      │                  ╰ UID : 10de8b0d0fa39e0a 
+│                        │      │                  ╰ UID : 24fb52b7fd91eb3 
 │                        │      ├ InstalledVersion: 1.4.8+dfsg-3build1 
 │                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:8ee149d3438e1be92c4e79fc89c4975b2a6c94f2d58
@@ -3076,7 +3078,7 @@
 │                        │      ├ PkgName         : login 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/login@4.8.1-2ubuntu2.2?arch=amd64&dis
 │                        │      │                  │       tro=ubuntu-22.04&epoch=1 
-│                        │      │                  ╰ UID : 30c6f401b0bfd862 
+│                        │      │                  ╰ UID : da92c4f375cd9ce7 
 │                        │      ├ InstalledVersion: 1:4.8.1-2ubuntu2.2 
 │                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:8ee149d3438e1be92c4e79fc89c4975b2a6c94f2d58
@@ -3135,7 +3137,7 @@
 │                        │      ├ PkgName         : login 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/login@4.8.1-2ubuntu2.2?arch=amd64&dis
 │                        │      │                  │       tro=ubuntu-22.04&epoch=1 
-│                        │      │                  ╰ UID : 30c6f401b0bfd862 
+│                        │      │                  ╰ UID : da92c4f375cd9ce7 
 │                        │      ├ InstalledVersion: 1:4.8.1-2ubuntu2.2 
 │                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:8ee149d3438e1be92c4e79fc89c4975b2a6c94f2d58
@@ -3183,7 +3185,7 @@
 │                        │      ├ PkgName         : ncurses-base 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/ncurses-base@6.3-2ubuntu0.1?arch=all&
 │                        │      │                  │       distro=ubuntu-22.04 
-│                        │      │                  ╰ UID : 97290053f00ee1f8 
+│                        │      │                  ╰ UID : 149d7e345f09988b 
 │                        │      ├ InstalledVersion: 6.3-2ubuntu0.1 
 │                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:8ee149d3438e1be92c4e79fc89c4975b2a6c94f2d58
@@ -3230,7 +3232,7 @@
 │                        │      ├ PkgName         : ncurses-bin 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/ncurses-bin@6.3-2ubuntu0.1?arch=amd64
 │                        │      │                  │       &distro=ubuntu-22.04 
-│                        │      │                  ╰ UID : 6d72e540ccb8f7f0 
+│                        │      │                  ╰ UID : 79f4bc9c5ad61b8d 
 │                        │      ├ InstalledVersion: 6.3-2ubuntu0.1 
 │                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:8ee149d3438e1be92c4e79fc89c4975b2a6c94f2d58
@@ -3277,7 +3279,7 @@
 │                        │      ├ PkgName         : ncurses-term 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/ncurses-term@6.3-2ubuntu0.1?arch=all&
 │                        │      │                  │       distro=ubuntu-22.04 
-│                        │      │                  ╰ UID : 24f77879d5274538 
+│                        │      │                  ╰ UID : 15075375b823acc4 
 │                        │      ├ InstalledVersion: 6.3-2ubuntu0.1 
 │                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:8ee149d3438e1be92c4e79fc89c4975b2a6c94f2d58
@@ -3324,7 +3326,7 @@
 │                        │      ├ PkgName         : openssl 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl@3.0.2-0ubuntu1.19?arch=amd64&
 │                        │      │                  │       distro=ubuntu-22.04 
-│                        │      │                  ╰ UID : eab5d46a811b7719 
+│                        │      │                  ╰ UID : 9d5f5561fbf3fde5 
 │                        │      ├ InstalledVersion: 3.0.2-0ubuntu1.19 
 │                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:8ee149d3438e1be92c4e79fc89c4975b2a6c94f2d58
@@ -3374,7 +3376,7 @@
 │                        │      ├ PkgName         : passwd 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/passwd@4.8.1-2ubuntu2.2?arch=amd64&di
 │                        │      │                  │       stro=ubuntu-22.04&epoch=1 
-│                        │      │                  ╰ UID : 5b3d7d92a03d2d85 
+│                        │      │                  ╰ UID : 42a721728ff164bf 
 │                        │      ├ InstalledVersion: 1:4.8.1-2ubuntu2.2 
 │                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:8ee149d3438e1be92c4e79fc89c4975b2a6c94f2d58
@@ -3433,7 +3435,7 @@
 │                        │      ├ PkgName         : passwd 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/passwd@4.8.1-2ubuntu2.2?arch=amd64&di
 │                        │      │                  │       stro=ubuntu-22.04&epoch=1 
-│                        │      │                  ╰ UID : 5b3d7d92a03d2d85 
+│                        │      │                  ╰ UID : 42a721728ff164bf 
 │                        │      ├ InstalledVersion: 1:4.8.1-2ubuntu2.2 
 │                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:8ee149d3438e1be92c4e79fc89c4975b2a6c94f2d58
@@ -3481,7 +3483,7 @@
 │                        │      ├ PkgName         : perl 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/perl@5.34.0-3ubuntu1.4?arch=amd64&dis
 │                        │      │                  │       tro=ubuntu-22.04 
-│                        │      │                  ╰ UID : d082a1b7725f2bac 
+│                        │      │                  ╰ UID : 626b1d11f64da375 
 │                        │      ├ InstalledVersion: 5.34.0-3ubuntu1.4 
 │                        │      ├ FixedVersion    : 5.34.0-3ubuntu1.5 
 │                        │      ├ Status          : fixed 
@@ -3515,6 +3517,7 @@
 │                        │      │                  ╰ [1]: CWE-426 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
 │                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ oracle-oval: 2 
 │                        │      │                  ├ redhat     : 2 
 │                        │      │                  ╰ ubuntu     : 2 
@@ -3548,7 +3551,7 @@
 │                        │      │                  ├ [14]: https://github.com/Perl/perl5/issues/10387 
 │                        │      │                  ├ [15]: https://github.com/Perl/perl5/issues/23010 
 │                        │      │                  ├ [16]: https://linux.oracle.com/cve/CVE-2025-40909.html 
-│                        │      │                  ├ [17]: https://linux.oracle.com/errata/ELSA-2025-11805.html 
+│                        │      │                  ├ [17]: https://linux.oracle.com/errata/ELSA-2025-12056.html 
 │                        │      │                  ├ [18]: https://lists.security.metacpan.org/cve-announce/msg
 │                        │      │                  │       /30017499/ 
 │                        │      │                  ├ [19]: https://nvd.nist.gov/vuln/detail/CVE-2025-40909 
@@ -3565,7 +3568,7 @@
 │                        │      ├ PkgName         : perl-base 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/perl-base@5.34.0-3ubuntu1.4?arch=amd6
 │                        │      │                  │       4&distro=ubuntu-22.04 
-│                        │      │                  ╰ UID : 9557b3bb2f262d2c 
+│                        │      │                  ╰ UID : 9e98254767c4431 
 │                        │      ├ InstalledVersion: 5.34.0-3ubuntu1.4 
 │                        │      ├ FixedVersion    : 5.34.0-3ubuntu1.5 
 │                        │      ├ Status          : fixed 
@@ -3599,6 +3602,7 @@
 │                        │      │                  ╰ [1]: CWE-426 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
 │                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ oracle-oval: 2 
 │                        │      │                  ├ redhat     : 2 
 │                        │      │                  ╰ ubuntu     : 2 
@@ -3632,7 +3636,7 @@
 │                        │      │                  ├ [14]: https://github.com/Perl/perl5/issues/10387 
 │                        │      │                  ├ [15]: https://github.com/Perl/perl5/issues/23010 
 │                        │      │                  ├ [16]: https://linux.oracle.com/cve/CVE-2025-40909.html 
-│                        │      │                  ├ [17]: https://linux.oracle.com/errata/ELSA-2025-11805.html 
+│                        │      │                  ├ [17]: https://linux.oracle.com/errata/ELSA-2025-12056.html 
 │                        │      │                  ├ [18]: https://lists.security.metacpan.org/cve-announce/msg
 │                        │      │                  │       /30017499/ 
 │                        │      │                  ├ [19]: https://nvd.nist.gov/vuln/detail/CVE-2025-40909 
@@ -3649,7 +3653,7 @@
 │                        │      ├ PkgName         : perl-modules-5.34 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/perl-modules-5.34@5.34.0-3ubuntu1.4?a
 │                        │      │                  │       rch=all&distro=ubuntu-22.04 
-│                        │      │                  ╰ UID : 2f4e8e6829b54a8a 
+│                        │      │                  ╰ UID : afd08a08b56dc905 
 │                        │      ├ InstalledVersion: 5.34.0-3ubuntu1.4 
 │                        │      ├ FixedVersion    : 5.34.0-3ubuntu1.5 
 │                        │      ├ Status          : fixed 
@@ -3683,6 +3687,7 @@
 │                        │      │                  ╰ [1]: CWE-426 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
 │                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ oracle-oval: 2 
 │                        │      │                  ├ redhat     : 2 
 │                        │      │                  ╰ ubuntu     : 2 
@@ -3716,7 +3721,7 @@
 │                        │      │                  ├ [14]: https://github.com/Perl/perl5/issues/10387 
 │                        │      │                  ├ [15]: https://github.com/Perl/perl5/issues/23010 
 │                        │      │                  ├ [16]: https://linux.oracle.com/cve/CVE-2025-40909.html 
-│                        │      │                  ├ [17]: https://linux.oracle.com/errata/ELSA-2025-11805.html 
+│                        │      │                  ├ [17]: https://linux.oracle.com/errata/ELSA-2025-12056.html 
 │                        │      │                  ├ [18]: https://lists.security.metacpan.org/cve-announce/msg
 │                        │      │                  │       /30017499/ 
 │                        │      │                  ├ [19]: https://nvd.nist.gov/vuln/detail/CVE-2025-40909 
@@ -3733,7 +3738,7 @@
 │                        │      ├ PkgName         : python3.10 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/python3.10@3.10.12-1~22.04.10?arch=am
 │                        │      │                  │       d64&distro=ubuntu-22.04 
-│                        │      │                  ╰ UID : 32b1f3ba0ae9e8b8 
+│                        │      │                  ╰ UID : 20c818d0f19fd746 
 │                        │      ├ InstalledVersion: 3.10.12-1~22.04.10 
 │                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:8ee149d3438e1be92c4e79fc89c4975b2a6c94f2d58
@@ -3793,7 +3798,7 @@
 │                        │      ├ PkgName         : python3.10-minimal 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/python3.10-minimal@3.10.12-1~22.04.10
 │                        │      │                  │       ?arch=amd64&distro=ubuntu-22.04 
-│                        │      │                  ╰ UID : f07ae87ac88358f1 
+│                        │      │                  ╰ UID : e45a9fafc6aef71c 
 │                        │      ├ InstalledVersion: 3.10.12-1~22.04.10 
 │                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:8ee149d3438e1be92c4e79fc89c4975b2a6c94f2d58
@@ -3853,7 +3858,7 @@
 │                        │      ├ PkgName         : systemd 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/systemd@249.11-0ubuntu3.16?arch=amd64
 │                        │      │                  │       &distro=ubuntu-22.04 
-│                        │      │                  ╰ UID : e876de2e01c5a9f0 
+│                        │      │                  ╰ UID : a49200de3ef426ce 
 │                        │      ├ InstalledVersion: 249.11-0ubuntu3.16 
 │                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:8ee149d3438e1be92c4e79fc89c4975b2a6c94f2d58
@@ -3920,7 +3925,7 @@
 │                        │      ├ PkgName         : systemd-sysv 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/systemd-sysv@249.11-0ubuntu3.16?arch=
 │                        │      │                  │       amd64&distro=ubuntu-22.04 
-│                        │      │                  ╰ UID : 8dd58416d51ef16d 
+│                        │      │                  ╰ UID : 11af74443d2c4780 
 │                        │      ├ InstalledVersion: 249.11-0ubuntu3.16 
 │                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:8ee149d3438e1be92c4e79fc89c4975b2a6c94f2d58
@@ -3987,7 +3992,7 @@
 │                        │      ├ PkgName         : systemd-timesyncd 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/systemd-timesyncd@249.11-0ubuntu3.16?
 │                        │      │                  │       arch=amd64&distro=ubuntu-22.04 
-│                        │      │                  ╰ UID : 52264a2d5bf4ccba 
+│                        │      │                  ╰ UID : 368f3ed24f8404de 
 │                        │      ├ InstalledVersion: 249.11-0ubuntu3.16 
 │                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:8ee149d3438e1be92c4e79fc89c4975b2a6c94f2d58
@@ -4054,7 +4059,7 @@
 │                        │      ├ PkgName         : tar 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/tar@1.34%2Bdfsg-1ubuntu0.1.22.04.2?ar
 │                        │      │                  │       ch=amd64&distro=ubuntu-22.04 
-│                        │      │                  ╰ UID : 665ec26d6bda86be 
+│                        │      │                  ╰ UID : b690e7b83bc1d80f 
 │                        │      ├ InstalledVersion: 1.34+dfsg-1ubuntu0.1.22.04.2 
 │                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:8ee149d3438e1be92c4e79fc89c4975b2a6c94f2d58
@@ -4217,7 +4222,7 @@
 │                               ├ PkgName         : wget 
 │                               ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/wget@1.21.2-2ubuntu1.1?arch=amd64&dis
 │                               │                  │       tro=ubuntu-22.04 
-│                               │                  ╰ UID : aa57093ec275966 
+│                               │                  ╰ UID : 1c5f827eff11bc97 
 │                               ├ InstalledVersion: 1.21.2-2ubuntu1.1 
 │                               ├ Status          : affected 
 │                               ├ Layer            ╭ Digest: sha256:8ee149d3438e1be92c4e79fc89c4975b2a6c94f2d58
@@ -4725,10 +4730,10 @@
 │                        │     │                            │           L/A:N 
 │                        │     │                            ╰ V3Score : 5.4 
 │                        │     ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/04/04/4 
-│                        │     │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:9635 
+│                        │     │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:9623 
 │                        │     │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2025-22871 
 │                        │     │                  ├ [3] : https://bugzilla.redhat.com/2358493 
-│                        │     │                  ├ [4] : https://errata.almalinux.org/9/ALSA-2025-9635.html 
+│                        │     │                  ├ [4] : https://errata.almalinux.org/10/ALSA-2025-9623.html 
 │                        │     │                  ├ [5] : https://go.dev/cl/652998 
 │                        │     │                  ├ [6] : https://go.dev/issue/71988 
 │                        │     │                  ├ [7] : https://groups.google.com/g/golang-announce/c/Y2uBTVK
@@ -4775,10 +4780,10 @@
 │                              │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:
 │                              │                            │           N/A:N 
 │                              │                            ╰ V3Score : 6.8 
-│                              ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:10676 
+│                              ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:10677 
 │                              │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-4673 
 │                              │                  ├ [2] : https://bugzilla.redhat.com/2373305 
-│                              │                  ├ [3] : https://errata.almalinux.org/9/ALSA-2025-10676.html 
+│                              │                  ├ [3] : https://errata.almalinux.org/10/ALSA-2025-10677.html 
 │                              │                  ├ [4] : https://go.dev/cl/679257 
 │                              │                  ├ [5] : https://go.dev/issue/73816 
 │                              │                  ├ [6] : https://groups.google.com/g/golang-announce/c/ufZ8WpE
@@ -5125,10 +5130,10 @@
 │                        │     │                            │           L/A:N 
 │                        │     │                            ╰ V3Score : 5.4 
 │                        │     ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/04/04/4 
-│                        │     │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:9635 
+│                        │     │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:9623 
 │                        │     │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2025-22871 
 │                        │     │                  ├ [3] : https://bugzilla.redhat.com/2358493 
-│                        │     │                  ├ [4] : https://errata.almalinux.org/9/ALSA-2025-9635.html 
+│                        │     │                  ├ [4] : https://errata.almalinux.org/10/ALSA-2025-9623.html 
 │                        │     │                  ├ [5] : https://go.dev/cl/652998 
 │                        │     │                  ├ [6] : https://go.dev/issue/71988 
 │                        │     │                  ├ [7] : https://groups.google.com/g/golang-announce/c/Y2uBTVK
@@ -5175,10 +5180,10 @@
 │                              │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:
 │                              │                            │           N/A:N 
 │                              │                            ╰ V3Score : 6.8 
-│                              ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:10676 
+│                              ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:10677 
 │                              │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-4673 
 │                              │                  ├ [2] : https://bugzilla.redhat.com/2373305 
-│                              │                  ├ [3] : https://errata.almalinux.org/9/ALSA-2025-10676.html 
+│                              │                  ├ [3] : https://errata.almalinux.org/10/ALSA-2025-10677.html 
 │                              │                  ├ [4] : https://go.dev/cl/679257 
 │                              │                  ├ [5] : https://go.dev/issue/73816 
 │                              │                  ├ [6] : https://groups.google.com/g/golang-announce/c/ufZ8WpE
@@ -5218,63 +5223,31 @@
 │                              ├ Description     : Moby is an open source container framework developed by
 │                              │                   Docker Inc. that is distributed as Docker Engine, Mirantis
 │                              │                   Container Runtime, and various other downstream
-│                              │                   projects/products. The Moby daemon component (dockerd),
-│                              │                   which is developed as
-│                              │                   [moby/moby](https://github.com/moby/moby) is commonly
-│                              │                   referred to as Docker, or Docker Engine.
-│                              │                   
-│                              │                   Firewalld is a daemon used by some Linux distributions to
-│                              │                   provide a dynamically managed firewall. When Firewalld is
-│                              │                   running, Docker uses its iptables backend to create rules,
-│                              │                   including rules to isolate containers in one bridge network
-│                              │                   from containers in other bridge networks.
-│                              │                   ### Impact
-│                              │                   The iptables rules created by Docker are removed when
-│                              │                   firewalld is reloaded using, for example "firewall-cmd
-│                              │                   --reload", "killall -HUP firewalld", or "systemctl reload
-│                              │                   firewalld".
-│                              │                   When that happens, Docker must re-create the rules. However,
-│                              │                    in affected versions of Docker, the iptables rules that
-│                              │                   prevent packets arriving on a host interface from reaching
-│                              │                   container addresses are not re-created.
-│                              │                   Once these rules have been removed, a remote host configured
-│                              │                    with a route to a Docker bridge network can access
-│                              │                   published ports, even when those ports were only published
-│                              │                   to a loopback address. Unpublished ports remain
-│                              │                   inaccessible.
-│                              │                   For example, following a firewalld reload on a Docker host
-│                              │                   with address `192.168.0.10` and a bridge network with subnet
-│                              │                    `172.17.0.0/16`, running the following command on another
-│                              │                   host in the local network will give it access to published
-│                              │                   ports on container addresses in that network: `ip route add
-│                              │                   172.17.0.0/16 via 192.168.0.10`.
-│                              │                   Containers running in networks created with `--internal` or
-│                              │                   equivalent have no access to other networks. Containers that
-│                              │                    are only connected to these networks remain isolated after
-│                              │                   a firewalld reload.
-│                              │                   Where Docker Engine is not running in the host's network
-│                              │                   namespace, it is unaffected. Including, for example,
-│                              │                   Rootless Mode, and Docker Desktop.
-│                              │                   ### Patches
-│                              │                   Moby releases older than 28.2.0 are not affected. A fix is
-│                              │                   available in moby release 28.3.3.
-│                              │                   ### Workarounds
-│                              │                   After reloading firewalld, either:
-│                              │                   - Restart the docker daemon,
-│                              │                   - Re-create bridge networks, or
-│                              │                   - Use rootless mode.
-│                              │                   ### References
-│                              │                   https://firewalld.org/
-│                              │                   https://firewalld.org/documentation/howto/reload-firewalld.h
-│                              │                   tml 
+│                              │                   projects/products. In versions 28.2.0 through 28.3.2, when
+│                              │                   the firewalld service is reloaded it removes all iptables
+│                              │                   rules including those created by Docker. While Docker should
+│                              │                    automatically recreate these rules, versions before 28.3.3
+│                              │                   fail to recreate the specific rules that block external
+│                              │                   access to containers. This means that after a firewalld
+│                              │                   reload, containers with ports published to localhost (like
+│                              │                   127.0.0.1:8080) become accessible from remote machines that
+│                              │                   have network routing to the Docker bridge, even though they
+│                              │                   should only be accessible from the host itself. The
+│                              │                   vulnerability only affects explicitly published ports -
+│                              │                   unpublished ports remain protected. This issue is fixed in
+│                              │                   version 28.3.3. 
 │                              ├ Severity        : MEDIUM 
+│                              ├ CweIDs           ─ [0]: CWE-909 
 │                              ├ VendorSeverity   ─ ghsa: 2 
-│                              ╰ References       ╭ [0]: https://github.com/moby/moby 
-│                                                 ├ [1]: https://github.com/moby/moby/commit/bea959c7b793b32a89
-│                                                 │      3820b97c4eadc7c87fabb0 
-│                                                 ├ [2]: https://github.com/moby/moby/pull/50506 
-│                                                 ╰ [3]: https://github.com/moby/moby/security/advisories/GHSA-
-│                                                        x4rx-4gw3-53p4 
+│                              ├ References       ╭ [0]: https://github.com/moby/moby 
+│                              │                  ├ [1]: https://github.com/moby/moby/commit/bea959c7b793b32a89
+│                              │                  │      3820b97c4eadc7c87fabb0 
+│                              │                  ├ [2]: https://github.com/moby/moby/pull/50506 
+│                              │                  ├ [3]: https://github.com/moby/moby/security/advisories/GHSA-
+│                              │                  │      x4rx-4gw3-53p4 
+│                              │                  ╰ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-54388 
+│                              ├ PublishedDate   : 2025-07-30T14:15:28.693Z 
+│                              ╰ LastModifiedDate: 2025-07-30T14:15:28.693Z 
 ├ [6]  ╭ Target         : usr/bin/helm 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : gobinary 
@@ -5366,54 +5339,32 @@
 │                        │     ├ Description     : Moby is an open source container framework developed by
 │                        │     │                   Docker Inc. that is distributed as Docker Engine, Mirantis
 │                        │     │                   Container Runtime, and various other downstream
-│                        │     │                   projects/products. The Moby daemon component (dockerd),
-│                        │     │                   which is developed as
-│                        │     │                   [moby/moby](https://github.com/moby/moby) is commonly
-│                        │     │                   referred to as Docker, or Docker Engine.
-│                        │     │                   
-│                        │     │                   Firewalld is a daemon used by some Linux distributions to
-│                        │     │                   provide a dynamically managed firewall. When Firewalld is
-│                        │     │                   running, Docker uses its iptables backend to create rules,
-│                        │     │                   including rules to isolate containers in one bridge network
-│                        │     │                   from containers in other bridge networks.
-│                        │     │                   ### Impact
-│                        │     │                   The iptables rules created by Docker are removed when
-│                        │     │                   firewalld is reloaded using, for example "firewall-cmd
-│                        │     │                   --reload", "killall -HUP firewalld", or "systemctl reload
-│                        │     │                   firewalld".
-│                        │     │                   When that happens, Docker must re-create the rules. However,
-│                        │     │                    in affected versions of Docker, the iptables rules that
-│                        │     │                   isolate containers in different bridge networks from each
-│                        │     │                   other are not re-created.
-│                        │     │                   Once these rules have been removed, containers have access
-│                        │     │                   to any port, on any container, in any non-internal bridge
-│                        │     │                   network, running on the Docker host.
-│                        │     │                   Containers running in networks created with `--internal` or
-│                        │     │                   equivalent have no access to other networks. Containers that
-│                        │     │                    are only connected to these networks remain isolated after
-│                        │     │                   a firewalld reload.
-│                        │     │                   Where Docker Engine is not running in the host's network
-│                        │     │                   namespace, it is unaffected. Including, for example,
-│                        │     │                   Rootless Mode, and Docker Desktop.
-│                        │     │                   ### Patches
-│                        │     │                   Moby releases 28.0.0 and newer are not affected. A fix is
-│                        │     │                   available in moby release 25.0.13.
-│                        │     │                   ### Workarounds
-│                        │     │                   After reloading firewalld, either:
-│                        │     │                   - Restart the docker daemon,
-│                        │     │                   - Re-create bridge networks, or
-│                        │     │                   - Use rootless mode.
-│                        │     │                   ### References
-│                        │     │                   https://firewalld.org/
-│                        │     │                   https://firewalld.org/documentation/howto/reload-firewalld.h
-│                        │     │                   tml 
+│                        │     │                   projects/products. A firewalld vulnerability affects Moby
+│                        │     │                   releases before 28.0.0. When firewalld reloads, Docker fails
+│                        │     │                    to re-create iptables rules that isolate bridge networks,
+│                        │     │                   allowing any container to access all ports on any other
+│                        │     │                   container across different bridge networks on the same host.
+│                        │     │                    This breaks network segmentation between containers that
+│                        │     │                   should be isolated, creating significant risk in
+│                        │     │                   multi-tenant environments. Only containers in --internal
+│                        │     │                   networks remain protected.
+│                        │     │                   Workarounds include reloading firewalld and either
+│                        │     │                   restarting the docker daemon, re-creating bridge networks,
+│                        │     │                   or using rootless mode. Maintainers anticipate a fix for
+│                        │     │                   this issue in version 25.0.13. 
 │                        │     ├ Severity        : LOW 
+│                        │     ├ CweIDs           ─ [0]: CWE-909 
 │                        │     ├ VendorSeverity   ─ ghsa: 1 
 │                        │     ├ CVSS             ─ ghsa ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:L/A:N 
 │                        │     │                         ╰ V3Score : 3.3 
-│                        │     ╰ References       ╭ [0]: https://github.com/moby/moby 
-│                        │                        ╰ [1]: https://github.com/moby/moby/security/advisories/GHSA-
-│                        │                               4vq8-7jfc-9cvp 
+│                        │     ├ References       ╭ [0]: https://firewalld.org/documentation/howto/reload-firew
+│                        │     │                  │      alld.html 
+│                        │     │                  ├ [1]: https://github.com/moby/moby 
+│                        │     │                  ├ [2]: https://github.com/moby/moby/security/advisories/GHSA-
+│                        │     │                  │      4vq8-7jfc-9cvp 
+│                        │     │                  ╰ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-54410 
+│                        │     ├ PublishedDate   : 2025-07-30T14:15:28.9Z 
+│                        │     ╰ LastModifiedDate: 2025-07-30T14:15:28.9Z 
 │                        ├ [2] ╭ VulnerabilityID : CVE-2025-22872 
 │                        │     ├ PkgID           : golang.org/x/net@v0.37.0 
 │                        │     ├ PkgName         : golang.org/x/net 
@@ -5823,10 +5774,10 @@
 │                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
 │                        │      │                           │           N/A:H 
 │                        │      │                           ╰ V3Score : 7.5 
-│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:3833 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:7484 
 │                        │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-22869 
 │                        │      │                  ├ [2] : https://bugzilla.redhat.com/2348367 
-│                        │      │                  ├ [3] : https://errata.almalinux.org/9/ALSA-2025-3833.html 
+│                        │      │                  ├ [3] : https://errata.almalinux.org/10/ALSA-2025-7484.html 
 │                        │      │                  ├ [4] : https://github.com/golang/crypto 
 │                        │      │                  ├ [5] : https://github.com/golang/crypto/commit/7292932d45d5
 │                        │      │                  │       5c7199324ab0027cc86e8198aa22 
@@ -6115,10 +6066,10 @@
 │                        │      │                            ╰ V3Score : 5.4 
 │                        │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/04/0
 │                        │      │                  │       4/4 
-│                        │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:9635 
+│                        │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:9623 
 │                        │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2025-22871 
 │                        │      │                  ├ [3] : https://bugzilla.redhat.com/2358493 
-│                        │      │                  ├ [4] : https://errata.almalinux.org/9/ALSA-2025-9635.html 
+│                        │      │                  ├ [4] : https://errata.almalinux.org/10/ALSA-2025-9623.html 
 │                        │      │                  ├ [5] : https://go.dev/cl/652998 
 │                        │      │                  ├ [6] : https://go.dev/issue/71988 
 │                        │      │                  ├ [7] : https://groups.google.com/g/golang-announce/c/Y2uBTV
@@ -6165,10 +6116,10 @@
 │                               │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I
 │                               │                            │           :N/A:N 
 │                               │                            ╰ V3Score : 6.8 
-│                               ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:10676 
+│                               ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:10677 
 │                               │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-4673 
 │                               │                  ├ [2] : https://bugzilla.redhat.com/2373305 
-│                               │                  ├ [3] : https://errata.almalinux.org/9/ALSA-2025-10676.html 
+│                               │                  ├ [3] : https://errata.almalinux.org/10/ALSA-2025-10677.html 
 │                               │                  ├ [4] : https://go.dev/cl/679257 
 │                               │                  ├ [5] : https://go.dev/issue/73816 
 │                               │                  ├ [6] : https://groups.google.com/g/golang-announce/c/ufZ8Wp
@@ -6187,34 +6138,213 @@
 │                      ├ Category : AsymmetricPrivateKey 
 │                      ├ Severity : HIGH 
 │                      ├ Title    : Asymmetric Private Key 
-│                      ├ StartLine: 1 
-│                      ├ EndLine  : 1 
-│                      ├ Code      ─ Lines ╭ [0] ╭ Number     : 1 
-│                      │                   │     ├ Content    : BEGIN OPENSSH PRIVATE
-│                      │                   │     │              KEY-----***************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ****************-----END OPENSSH PRI 
-│                      │                   │     ├ IsCause    : true 
-│                      │                   │     ├ Annotation :  
-│                      │                   │     ├ Truncated  : false 
-│                      │                   │     ├ Highlighted: BEGIN OPENSSH PRIVATE
-│                      │                   │     │              KEY-----***************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ****************-----END OPENSSH PRI 
-│                      │                   │     ├ FirstCause : true 
-│                      │                   │     ╰ LastCause  : true 
-│                      │                   ╰ [1] ╭ Number    : 2 
-│                      │                         ├ Content   :  
-│                      │                         ├ IsCause   : false 
-│                      │                         ├ Annotation:  
-│                      │                         ├ Truncated : false 
-│                      │                         ├ FirstCause: false 
-│                      │                         ╰ LastCause : false 
-│                      ├ Match    : BEGIN OPENSSH PRIVATE
-│                      │            KEY-----*******************************************************************
-│                      │            ***************************************************************************
-│                      │            *********************************************************-----END OPENSSH
-│                      │            PRI 
+│                      ├ StartLine: 2 
+│                      ├ EndLine  : 20 
+│                      ├ Code      ─ Lines ╭ [0]  ╭ Number     : 1 
+│                      │                   │      ├ Content    : -----BEGIN OPENSSH PRIVATE KEY----- 
+│                      │                   │      ├ IsCause    : false 
+│                      │                   │      ├ Annotation :  
+│                      │                   │      ├ Truncated  : false 
+│                      │                   │      ├ Highlighted: -----BEGIN OPENSSH PRIVATE KEY----- 
+│                      │                   │      ├ FirstCause : false 
+│                      │                   │      ╰ LastCause  : false 
+│                      │                   ├ [1]  ╭ Number     : 2 
+│                      │                   │      ├ Content    : **********************************************
+│                      │                   │      │              ************************ 
+│                      │                   │      ├ IsCause    : true 
+│                      │                   │      ├ Annotation :  
+│                      │                   │      ├ Truncated  : false 
+│                      │                   │      ├ Highlighted: **********************************************
+│                      │                   │      │              ************************ 
+│                      │                   │      ├ FirstCause : true 
+│                      │                   │      ╰ LastCause  : false 
+│                      │                   ├ [2]  ╭ Number     : 3 
+│                      │                   │      ├ Content    : **********************************************
+│                      │                   │      │              ************************ 
+│                      │                   │      ├ IsCause    : true 
+│                      │                   │      ├ Annotation :  
+│                      │                   │      ├ Truncated  : false 
+│                      │                   │      ├ Highlighted: **********************************************
+│                      │                   │      │              ************************ 
+│                      │                   │      ├ FirstCause : false 
+│                      │                   │      ╰ LastCause  : false 
+│                      │                   ├ [3]  ╭ Number     : 4 
+│                      │                   │      ├ Content    : **********************************************
+│                      │                   │      │              ************************ 
+│                      │                   │      ├ IsCause    : true 
+│                      │                   │      ├ Annotation :  
+│                      │                   │      ├ Truncated  : false 
+│                      │                   │      ├ Highlighted: **********************************************
+│                      │                   │      │              ************************ 
+│                      │                   │      ├ FirstCause : false 
+│                      │                   │      ╰ LastCause  : false 
+│                      │                   ├ [4]  ╭ Number     : 5 
+│                      │                   │      ├ Content    : **********************************************
+│                      │                   │      │              ************************ 
+│                      │                   │      ├ IsCause    : true 
+│                      │                   │      ├ Annotation :  
+│                      │                   │      ├ Truncated  : false 
+│                      │                   │      ├ Highlighted: **********************************************
+│                      │                   │      │              ************************ 
+│                      │                   │      ├ FirstCause : false 
+│                      │                   │      ╰ LastCause  : false 
+│                      │                   ├ [5]  ╭ Number     : 6 
+│                      │                   │      ├ Content    : **********************************************
+│                      │                   │      │              ************************ 
+│                      │                   │      ├ IsCause    : true 
+│                      │                   │      ├ Annotation :  
+│                      │                   │      ├ Truncated  : false 
+│                      │                   │      ├ Highlighted: **********************************************
+│                      │                   │      │              ************************ 
+│                      │                   │      ├ FirstCause : false 
+│                      │                   │      ╰ LastCause  : false 
+│                      │                   ├ [6]  ╭ Number     : 7 
+│                      │                   │      ├ Content    : **********************************************
+│                      │                   │      │              ************************ 
+│                      │                   │      ├ IsCause    : true 
+│                      │                   │      ├ Annotation :  
+│                      │                   │      ├ Truncated  : false 
+│                      │                   │      ├ Highlighted: **********************************************
+│                      │                   │      │              ************************ 
+│                      │                   │      ├ FirstCause : false 
+│                      │                   │      ╰ LastCause  : false 
+│                      │                   ├ [7]  ╭ Number     : 8 
+│                      │                   │      ├ Content    : **********************************************
+│                      │                   │      │              ************************ 
+│                      │                   │      ├ IsCause    : true 
+│                      │                   │      ├ Annotation :  
+│                      │                   │      ├ Truncated  : false 
+│                      │                   │      ├ Highlighted: **********************************************
+│                      │                   │      │              ************************ 
+│                      │                   │      ├ FirstCause : false 
+│                      │                   │      ╰ LastCause  : false 
+│                      │                   ├ [8]  ╭ Number     : 9 
+│                      │                   │      ├ Content    : **********************************************
+│                      │                   │      │              ************************ 
+│                      │                   │      ├ IsCause    : true 
+│                      │                   │      ├ Annotation :  
+│                      │                   │      ├ Truncated  : false 
+│                      │                   │      ├ Highlighted: **********************************************
+│                      │                   │      │              ************************ 
+│                      │                   │      ├ FirstCause : false 
+│                      │                   │      ╰ LastCause  : false 
+│                      │                   ├ [9]  ╭ Number     : 10 
+│                      │                   │      ├ Content    : **********************************************
+│                      │                   │      │              ************************ 
+│                      │                   │      ├ IsCause    : true 
+│                      │                   │      ├ Annotation :  
+│                      │                   │      ├ Truncated  : false 
+│                      │                   │      ├ Highlighted: **********************************************
+│                      │                   │      │              ************************ 
+│                      │                   │      ├ FirstCause : false 
+│                      │                   │      ╰ LastCause  : false 
+│                      │                   ├ [10] ╭ Number     : 11 
+│                      │                   │      ├ Content    : **********************************************
+│                      │                   │      │              ************************ 
+│                      │                   │      ├ IsCause    : true 
+│                      │                   │      ├ Annotation :  
+│                      │                   │      ├ Truncated  : false 
+│                      │                   │      ├ Highlighted: **********************************************
+│                      │                   │      │              ************************ 
+│                      │                   │      ├ FirstCause : false 
+│                      │                   │      ╰ LastCause  : false 
+│                      │                   ├ [11] ╭ Number     : 12 
+│                      │                   │      ├ Content    : **********************************************
+│                      │                   │      │              ************************ 
+│                      │                   │      ├ IsCause    : true 
+│                      │                   │      ├ Annotation :  
+│                      │                   │      ├ Truncated  : false 
+│                      │                   │      ├ Highlighted: **********************************************
+│                      │                   │      │              ************************ 
+│                      │                   │      ├ FirstCause : false 
+│                      │                   │      ╰ LastCause  : false 
+│                      │                   ├ [12] ╭ Number     : 13 
+│                      │                   │      ├ Content    : **********************************************
+│                      │                   │      │              ************************ 
+│                      │                   │      ├ IsCause    : true 
+│                      │                   │      ├ Annotation :  
+│                      │                   │      ├ Truncated  : false 
+│                      │                   │      ├ Highlighted: **********************************************
+│                      │                   │      │              ************************ 
+│                      │                   │      ├ FirstCause : false 
+│                      │                   │      ╰ LastCause  : false 
+│                      │                   ├ [13] ╭ Number     : 14 
+│                      │                   │      ├ Content    : **********************************************
+│                      │                   │      │              ************************ 
+│                      │                   │      ├ IsCause    : true 
+│                      │                   │      ├ Annotation :  
+│                      │                   │      ├ Truncated  : false 
+│                      │                   │      ├ Highlighted: **********************************************
+│                      │                   │      │              ************************ 
+│                      │                   │      ├ FirstCause : false 
+│                      │                   │      ╰ LastCause  : false 
+│                      │                   ├ [14] ╭ Number     : 15 
+│                      │                   │      ├ Content    : **********************************************
+│                      │                   │      │              ************************ 
+│                      │                   │      ├ IsCause    : true 
+│                      │                   │      ├ Annotation :  
+│                      │                   │      ├ Truncated  : false 
+│                      │                   │      ├ Highlighted: **********************************************
+│                      │                   │      │              ************************ 
+│                      │                   │      ├ FirstCause : false 
+│                      │                   │      ╰ LastCause  : false 
+│                      │                   ├ [15] ╭ Number     : 16 
+│                      │                   │      ├ Content    : **********************************************
+│                      │                   │      │              ************************ 
+│                      │                   │      ├ IsCause    : true 
+│                      │                   │      ├ Annotation :  
+│                      │                   │      ├ Truncated  : false 
+│                      │                   │      ├ Highlighted: **********************************************
+│                      │                   │      │              ************************ 
+│                      │                   │      ├ FirstCause : false 
+│                      │                   │      ╰ LastCause  : false 
+│                      │                   ├ [16] ╭ Number     : 17 
+│                      │                   │      ├ Content    : **********************************************
+│                      │                   │      │              ************************ 
+│                      │                   │      ├ IsCause    : true 
+│                      │                   │      ├ Annotation :  
+│                      │                   │      ├ Truncated  : false 
+│                      │                   │      ├ Highlighted: **********************************************
+│                      │                   │      │              ************************ 
+│                      │                   │      ├ FirstCause : false 
+│                      │                   │      ╰ LastCause  : false 
+│                      │                   ├ [17] ╭ Number     : 18 
+│                      │                   │      ├ Content    : **********************************************
+│                      │                   │      │              ************************ 
+│                      │                   │      ├ IsCause    : true 
+│                      │                   │      ├ Annotation :  
+│                      │                   │      ├ Truncated  : false 
+│                      │                   │      ├ Highlighted: **********************************************
+│                      │                   │      │              ************************ 
+│                      │                   │      ├ FirstCause : false 
+│                      │                   │      ╰ LastCause  : false 
+│                      │                   ├ [18] ╭ Number     : 19 
+│                      │                   │      ├ Content    : **********************************************
+│                      │                   │      │              ************************ 
+│                      │                   │      ├ IsCause    : true 
+│                      │                   │      ├ Annotation :  
+│                      │                   │      ├ Truncated  : false 
+│                      │                   │      ├ Highlighted: **********************************************
+│                      │                   │      │              ************************ 
+│                      │                   │      ├ FirstCause : false 
+│                      │                   │      ╰ LastCause  : false 
+│                      │                   ├ [19] ╭ Number     : 20 
+│                      │                   │      ├ Content    : ******************************************** 
+│                      │                   │      ├ IsCause    : true 
+│                      │                   │      ├ Annotation :  
+│                      │                   │      ├ Truncated  : false 
+│                      │                   │      ├ Highlighted: ******************************************** 
+│                      │                   │      ├ FirstCause : false 
+│                      │                   │      ╰ LastCause  : true 
+│                      │                   ╰ [20] ╭ Number     : 21 
+│                      │                          ├ Content    : -----END OPENSSH PRIVATE KEY----- 
+│                      │                          ├ IsCause    : false 
+│                      │                          ├ Annotation :  
+│                      │                          ├ Truncated  : false 
+│                      │                          ├ Highlighted: -----END OPENSSH PRIVATE KEY----- 
+│                      │                          ├ FirstCause : false 
+│                      │                          ╰ LastCause  : false 
+│                      ├ Match    : ********************************************************************** 
 │                      ╰ Layer     ╭ Digest   : sha256:8ee149d3438e1be92c4e79fc89c4975b2a6c94f2d58416cd83015adf
 │                                  │            da36d5f9 
 │                                  ├ DiffID   : sha256:5d6af8f33a052f9951afd975cdeccbe6d30ac426a2d33ff80ba86f5a
@@ -6226,35 +6356,93 @@
 │                      ├ Category : AsymmetricPrivateKey 
 │                      ├ Severity : HIGH 
 │                      ├ Title    : Asymmetric Private Key 
-│                      ├ StartLine: 1 
-│                      ├ EndLine  : 1 
+│                      ├ StartLine: 2 
+│                      ├ EndLine  : 8 
 │                      ├ Code      ─ Lines ╭ [0] ╭ Number     : 1 
-│                      │                   │     ├ Content    : BEGIN OPENSSH PRIVATE
-│                      │                   │     │              KEY-----***************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              *****************************-----END OPENSSH
-│                      │                   │     │              PRI 
+│                      │                   │     ├ Content    : -----BEGIN OPENSSH PRIVATE KEY----- 
+│                      │                   │     ├ IsCause    : false 
+│                      │                   │     ├ Annotation :  
+│                      │                   │     ├ Truncated  : false 
+│                      │                   │     ├ Highlighted: -----BEGIN OPENSSH PRIVATE KEY----- 
+│                      │                   │     ├ FirstCause : false 
+│                      │                   │     ╰ LastCause  : false 
+│                      │                   ├ [1] ╭ Number     : 2 
+│                      │                   │     ├ Content    : ***********************************************
+│                      │                   │     │              *********************** 
 │                      │                   │     ├ IsCause    : true 
 │                      │                   │     ├ Annotation :  
 │                      │                   │     ├ Truncated  : false 
-│                      │                   │     ├ Highlighted: BEGIN OPENSSH PRIVATE
-│                      │                   │     │              KEY-----***************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              *****************************-----END OPENSSH
-│                      │                   │     │              PRI 
+│                      │                   │     ├ Highlighted: ***********************************************
+│                      │                   │     │              *********************** 
 │                      │                   │     ├ FirstCause : true 
+│                      │                   │     ╰ LastCause  : false 
+│                      │                   ├ [2] ╭ Number     : 3 
+│                      │                   │     ├ Content    : ***********************************************
+│                      │                   │     │              *********************** 
+│                      │                   │     ├ IsCause    : true 
+│                      │                   │     ├ Annotation :  
+│                      │                   │     ├ Truncated  : false 
+│                      │                   │     ├ Highlighted: ***********************************************
+│                      │                   │     │              *********************** 
+│                      │                   │     ├ FirstCause : false 
+│                      │                   │     ╰ LastCause  : false 
+│                      │                   ├ [3] ╭ Number     : 4 
+│                      │                   │     ├ Content    : ***********************************************
+│                      │                   │     │              *********************** 
+│                      │                   │     ├ IsCause    : true 
+│                      │                   │     ├ Annotation :  
+│                      │                   │     ├ Truncated  : false 
+│                      │                   │     ├ Highlighted: ***********************************************
+│                      │                   │     │              *********************** 
+│                      │                   │     ├ FirstCause : false 
+│                      │                   │     ╰ LastCause  : false 
+│                      │                   ├ [4] ╭ Number     : 5 
+│                      │                   │     ├ Content    : ***********************************************
+│                      │                   │     │              *********************** 
+│                      │                   │     ├ IsCause    : true 
+│                      │                   │     ├ Annotation :  
+│                      │                   │     ├ Truncated  : false 
+│                      │                   │     ├ Highlighted: ***********************************************
+│                      │                   │     │              *********************** 
+│                      │                   │     ├ FirstCause : false 
+│                      │                   │     ╰ LastCause  : false 
+│                      │                   ├ [5] ╭ Number     : 6 
+│                      │                   │     ├ Content    : ***********************************************
+│                      │                   │     │              *********************** 
+│                      │                   │     ├ IsCause    : true 
+│                      │                   │     ├ Annotation :  
+│                      │                   │     ├ Truncated  : false 
+│                      │                   │     ├ Highlighted: ***********************************************
+│                      │                   │     │              *********************** 
+│                      │                   │     ├ FirstCause : false 
+│                      │                   │     ╰ LastCause  : false 
+│                      │                   ├ [6] ╭ Number     : 7 
+│                      │                   │     ├ Content    : ***********************************************
+│                      │                   │     │              *********************** 
+│                      │                   │     ├ IsCause    : true 
+│                      │                   │     ├ Annotation :  
+│                      │                   │     ├ Truncated  : false 
+│                      │                   │     ├ Highlighted: ***********************************************
+│                      │                   │     │              *********************** 
+│                      │                   │     ├ FirstCause : false 
+│                      │                   │     ╰ LastCause  : false 
+│                      │                   ├ [7] ╭ Number     : 8 
+│                      │                   │     ├ Content    : **************** 
+│                      │                   │     ├ IsCause    : true 
+│                      │                   │     ├ Annotation :  
+│                      │                   │     ├ Truncated  : false 
+│                      │                   │     ├ Highlighted: **************** 
+│                      │                   │     ├ FirstCause : false 
 │                      │                   │     ╰ LastCause  : true 
-│                      │                   ╰ [1] ╭ Number    : 2 
-│                      │                         ├ Content   :  
-│                      │                         ├ IsCause   : false 
-│                      │                         ├ Annotation:  
-│                      │                         ├ Truncated : false 
-│                      │                         ├ FirstCause: false 
-│                      │                         ╰ LastCause : false 
-│                      ├ Match    : BEGIN OPENSSH PRIVATE
-│                      │            KEY-----*******************************************************************
-│                      │            ***************************************************************************
-│                      │            **-----END OPENSSH PRI 
+│                      │                   ╰ [8] ╭ Number     : 9 
+│                      │                         ├ Content    : -----END OPENSSH PRIVATE KEY----- 
+│                      │                         ├ IsCause    : false 
+│                      │                         ├ Annotation :  
+│                      │                         ├ Truncated  : false 
+│                      │                         ├ Highlighted: -----END OPENSSH PRIVATE KEY----- 
+│                      │                         ├ FirstCause : false 
+│                      │                         ╰ LastCause  : false 
+│                      ├ Match    : ********************************************************************** 
 │                      ╰ Layer     ╭ Digest   : sha256:8ee149d3438e1be92c4e79fc89c4975b2a6c94f2d58416cd83015adf
 │                                  │            da36d5f9 
 │                                  ├ DiffID   : sha256:5d6af8f33a052f9951afd975cdeccbe6d30ac426a2d33ff80ba86f5a
@@ -6266,33 +6454,75 @@
 │                      ├ Category : AsymmetricPrivateKey 
 │                      ├ Severity : HIGH 
 │                      ├ Title    : Asymmetric Private Key 
-│                      ├ StartLine: 1 
-│                      ├ EndLine  : 1 
+│                      ├ StartLine: 2 
+│                      ├ EndLine  : 6 
 │                      ├ Code      ─ Lines ╭ [0] ╭ Number     : 1 
-│                      │                   │     ├ Content    : BEGIN OPENSSH PRIVATE
-│                      │                   │     │              KEY-----***************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              *********************-----END OPENSSH PRI 
+│                      │                   │     ├ Content    : -----BEGIN OPENSSH PRIVATE KEY----- 
+│                      │                   │     ├ IsCause    : false 
+│                      │                   │     ├ Annotation :  
+│                      │                   │     ├ Truncated  : false 
+│                      │                   │     ├ Highlighted: -----BEGIN OPENSSH PRIVATE KEY----- 
+│                      │                   │     ├ FirstCause : false 
+│                      │                   │     ╰ LastCause  : false 
+│                      │                   ├ [1] ╭ Number     : 2 
+│                      │                   │     ├ Content    : ***********************************************
+│                      │                   │     │              *********************** 
 │                      │                   │     ├ IsCause    : true 
 │                      │                   │     ├ Annotation :  
 │                      │                   │     ├ Truncated  : false 
-│                      │                   │     ├ Highlighted: BEGIN OPENSSH PRIVATE
-│                      │                   │     │              KEY-----***************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              *********************-----END OPENSSH PRI 
+│                      │                   │     ├ Highlighted: ***********************************************
+│                      │                   │     │              *********************** 
 │                      │                   │     ├ FirstCause : true 
+│                      │                   │     ╰ LastCause  : false 
+│                      │                   ├ [2] ╭ Number     : 3 
+│                      │                   │     ├ Content    : ***********************************************
+│                      │                   │     │              *********************** 
+│                      │                   │     ├ IsCause    : true 
+│                      │                   │     ├ Annotation :  
+│                      │                   │     ├ Truncated  : false 
+│                      │                   │     ├ Highlighted: ***********************************************
+│                      │                   │     │              *********************** 
+│                      │                   │     ├ FirstCause : false 
+│                      │                   │     ╰ LastCause  : false 
+│                      │                   ├ [3] ╭ Number     : 4 
+│                      │                   │     ├ Content    : ***********************************************
+│                      │                   │     │              *********************** 
+│                      │                   │     ├ IsCause    : true 
+│                      │                   │     ├ Annotation :  
+│                      │                   │     ├ Truncated  : false 
+│                      │                   │     ├ Highlighted: ***********************************************
+│                      │                   │     │              *********************** 
+│                      │                   │     ├ FirstCause : false 
+│                      │                   │     ╰ LastCause  : false 
+│                      │                   ├ [4] ╭ Number     : 5 
+│                      │                   │     ├ Content    : ***********************************************
+│                      │                   │     │              *********************** 
+│                      │                   │     ├ IsCause    : true 
+│                      │                   │     ├ Annotation :  
+│                      │                   │     ├ Truncated  : false 
+│                      │                   │     ├ Highlighted: ***********************************************
+│                      │                   │     │              *********************** 
+│                      │                   │     ├ FirstCause : false 
+│                      │                   │     ╰ LastCause  : false 
+│                      │                   ├ [5] ╭ Number     : 6 
+│                      │                   │     ├ Content    : ***********************************************
+│                      │                   │     │              ********* 
+│                      │                   │     ├ IsCause    : true 
+│                      │                   │     ├ Annotation :  
+│                      │                   │     ├ Truncated  : false 
+│                      │                   │     ├ Highlighted: ***********************************************
+│                      │                   │     │              ********* 
+│                      │                   │     ├ FirstCause : false 
 │                      │                   │     ╰ LastCause  : true 
-│                      │                   ╰ [1] ╭ Number    : 2 
-│                      │                         ├ Content   :  
-│                      │                         ├ IsCause   : false 
-│                      │                         ├ Annotation:  
-│                      │                         ├ Truncated : false 
-│                      │                         ├ FirstCause: false 
-│                      │                         ╰ LastCause : false 
-│                      ├ Match    : BEGIN OPENSSH PRIVATE
-│                      │            KEY-----*******************************************************************
-│                      │            ***************************************************************************
-│                      │            **************************************************-----END OPENSSH PRI 
+│                      │                   ╰ [6] ╭ Number     : 7 
+│                      │                         ├ Content    : -----END OPENSSH PRIVATE KEY----- 
+│                      │                         ├ IsCause    : false 
+│                      │                         ├ Annotation :  
+│                      │                         ├ Truncated  : false 
+│                      │                         ├ Highlighted: -----END OPENSSH PRIVATE KEY----- 
+│                      │                         ├ FirstCause : false 
+│                      │                         ╰ LastCause  : false 
+│                      ├ Match    : ********************************************************************** 
 │                      ╰ Layer     ╭ Digest   : sha256:8ee149d3438e1be92c4e79fc89c4975b2a6c94f2d58416cd83015adf
 │                                  │            da36d5f9 
 │                                  ├ DiffID   : sha256:5d6af8f33a052f9951afd975cdeccbe6d30ac426a2d33ff80ba86f5a
@@ -6304,34 +6534,385 @@
                        ├ Category : AsymmetricPrivateKey 
                        ├ Severity : HIGH 
                        ├ Title    : Asymmetric Private Key 
-                       ├ StartLine: 1 
-                       ├ EndLine  : 1 
-                       ├ Code      ─ Lines ╭ [0] ╭ Number     : 1 
-                       │                   │     ├ Content    : BEGIN OPENSSH PRIVATE
-                       │                   │     │              KEY-----***************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********-----END OPENSSH PRI 
-                       │                   │     ├ IsCause    : true 
-                       │                   │     ├ Annotation :  
-                       │                   │     ├ Truncated  : false 
-                       │                   │     ├ Highlighted: BEGIN OPENSSH PRIVATE
-                       │                   │     │              KEY-----***************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********-----END OPENSSH PRI 
-                       │                   │     ├ FirstCause : true 
-                       │                   │     ╰ LastCause  : true 
-                       │                   ╰ [1] ╭ Number    : 2 
-                       │                         ├ Content   :  
-                       │                         ├ IsCause   : false 
-                       │                         ├ Annotation:  
-                       │                         ├ Truncated : false 
-                       │                         ├ FirstCause: false 
-                       │                         ╰ LastCause : false 
-                       ├ Match    : BEGIN OPENSSH PRIVATE
-                       │            KEY-----*******************************************************************
-                       │            ***************************************************************************
-                       │            **************************************************************************-
-                       │            ----END OPENSSH PRI 
+                       ├ StartLine: 2 
+                       ├ EndLine  : 37 
+                       ├ Code      ─ Lines ╭ [0]  ╭ Number     : 1 
+                       │                   │      ├ Content    : -----BEGIN OPENSSH PRIVATE KEY----- 
+                       │                   │      ├ IsCause    : false 
+                       │                   │      ├ Annotation :  
+                       │                   │      ├ Truncated  : false 
+                       │                   │      ├ Highlighted: -----BEGIN OPENSSH PRIVATE KEY----- 
+                       │                   │      ├ FirstCause : false 
+                       │                   │      ╰ LastCause  : false 
+                       │                   ├ [1]  ╭ Number     : 2 
+                       │                   │      ├ Content    : **********************************************
+                       │                   │      │              ************************ 
+                       │                   │      ├ IsCause    : true 
+                       │                   │      ├ Annotation :  
+                       │                   │      ├ Truncated  : false 
+                       │                   │      ├ Highlighted: **********************************************
+                       │                   │      │              ************************ 
+                       │                   │      ├ FirstCause : true 
+                       │                   │      ╰ LastCause  : false 
+                       │                   ├ [2]  ╭ Number     : 3 
+                       │                   │      ├ Content    : **********************************************
+                       │                   │      │              ************************ 
+                       │                   │      ├ IsCause    : true 
+                       │                   │      ├ Annotation :  
+                       │                   │      ├ Truncated  : false 
+                       │                   │      ├ Highlighted: **********************************************
+                       │                   │      │              ************************ 
+                       │                   │      ├ FirstCause : false 
+                       │                   │      ╰ LastCause  : false 
+                       │                   ├ [3]  ╭ Number     : 4 
+                       │                   │      ├ Content    : **********************************************
+                       │                   │      │              ************************ 
+                       │                   │      ├ IsCause    : true 
+                       │                   │      ├ Annotation :  
+                       │                   │      ├ Truncated  : false 
+                       │                   │      ├ Highlighted: **********************************************
+                       │                   │      │              ************************ 
+                       │                   │      ├ FirstCause : false 
+                       │                   │      ╰ LastCause  : false 
+                       │                   ├ [4]  ╭ Number     : 5 
+                       │                   │      ├ Content    : **********************************************
+                       │                   │      │              ************************ 
+                       │                   │      ├ IsCause    : true 
+                       │                   │      ├ Annotation :  
+                       │                   │      ├ Truncated  : false 
+                       │                   │      ├ Highlighted: **********************************************
+                       │                   │      │              ************************ 
+                       │                   │      ├ FirstCause : false 
+                       │                   │      ╰ LastCause  : false 
+                       │                   ├ [5]  ╭ Number     : 6 
+                       │                   │      ├ Content    : **********************************************
+                       │                   │      │              ************************ 
+                       │                   │      ├ IsCause    : true 
+                       │                   │      ├ Annotation :  
+                       │                   │      ├ Truncated  : false 
+                       │                   │      ├ Highlighted: **********************************************
+                       │                   │      │              ************************ 
+                       │                   │      ├ FirstCause : false 
+                       │                   │      ╰ LastCause  : false 
+                       │                   ├ [6]  ╭ Number     : 7 
+                       │                   │      ├ Content    : **********************************************
+                       │                   │      │              ************************ 
+                       │                   │      ├ IsCause    : true 
+                       │                   │      ├ Annotation :  
+                       │                   │      ├ Truncated  : false 
+                       │                   │      ├ Highlighted: **********************************************
+                       │                   │      │              ************************ 
+                       │                   │      ├ FirstCause : false 
+                       │                   │      ╰ LastCause  : false 
+                       │                   ├ [7]  ╭ Number     : 8 
+                       │                   │      ├ Content    : **********************************************
+                       │                   │      │              ************************ 
+                       │                   │      ├ IsCause    : true 
+                       │                   │      ├ Annotation :  
+                       │                   │      ├ Truncated  : false 
+                       │                   │      ├ Highlighted: **********************************************
+                       │                   │      │              ************************ 
+                       │                   │      ├ FirstCause : false 
+                       │                   │      ╰ LastCause  : false 
+                       │                   ├ [8]  ╭ Number     : 9 
+                       │                   │      ├ Content    : **********************************************
+                       │                   │      │              ************************ 
+                       │                   │      ├ IsCause    : true 
+                       │                   │      ├ Annotation :  
+                       │                   │      ├ Truncated  : false 
+                       │                   │      ├ Highlighted: **********************************************
+                       │                   │      │              ************************ 
+                       │                   │      ├ FirstCause : false 
+                       │                   │      ╰ LastCause  : false 
+                       │                   ├ [9]  ╭ Number     : 10 
+                       │                   │      ├ Content    : **********************************************
+                       │                   │      │              ************************ 
+                       │                   │      ├ IsCause    : true 
+                       │                   │      ├ Annotation :  
+                       │                   │      ├ Truncated  : false 
+                       │                   │      ├ Highlighted: **********************************************
+                       │                   │      │              ************************ 
+                       │                   │      ├ FirstCause : false 
+                       │                   │      ╰ LastCause  : false 
+                       │                   ├ [10] ╭ Number     : 11 
+                       │                   │      ├ Content    : **********************************************
+                       │                   │      │              ************************ 
+                       │                   │      ├ IsCause    : true 
+                       │                   │      ├ Annotation :  
+                       │                   │      ├ Truncated  : false 
+                       │                   │      ├ Highlighted: **********************************************
+                       │                   │      │              ************************ 
+                       │                   │      ├ FirstCause : false 
+                       │                   │      ╰ LastCause  : false 
+                       │                   ├ [11] ╭ Number     : 12 
+                       │                   │      ├ Content    : **********************************************
+                       │                   │      │              ************************ 
+                       │                   │      ├ IsCause    : true 
+                       │                   │      ├ Annotation :  
+                       │                   │      ├ Truncated  : false 
+                       │                   │      ├ Highlighted: **********************************************
+                       │                   │      │              ************************ 
+                       │                   │      ├ FirstCause : false 
+                       │                   │      ╰ LastCause  : false 
+                       │                   ├ [12] ╭ Number     : 13 
+                       │                   │      ├ Content    : **********************************************
+                       │                   │      │              ************************ 
+                       │                   │      ├ IsCause    : true 
+                       │                   │      ├ Annotation :  
+                       │                   │      ├ Truncated  : false 
+                       │                   │      ├ Highlighted: **********************************************
+                       │                   │      │              ************************ 
+                       │                   │      ├ FirstCause : false 
+                       │                   │      ╰ LastCause  : false 
+                       │                   ├ [13] ╭ Number     : 14 
+                       │                   │      ├ Content    : **********************************************
+                       │                   │      │              ************************ 
+                       │                   │      ├ IsCause    : true 
+                       │                   │      ├ Annotation :  
+                       │                   │      ├ Truncated  : false 
+                       │                   │      ├ Highlighted: **********************************************
+                       │                   │      │              ************************ 
+                       │                   │      ├ FirstCause : false 
+                       │                   │      ╰ LastCause  : false 
+                       │                   ├ [14] ╭ Number     : 15 
+                       │                   │      ├ Content    : **********************************************
+                       │                   │      │              ************************ 
+                       │                   │      ├ IsCause    : true 
+                       │                   │      ├ Annotation :  
+                       │                   │      ├ Truncated  : false 
+                       │                   │      ├ Highlighted: **********************************************
+                       │                   │      │              ************************ 
+                       │                   │      ├ FirstCause : false 
+                       │                   │      ╰ LastCause  : false 
+                       │                   ├ [15] ╭ Number     : 16 
+                       │                   │      ├ Content    : **********************************************
+                       │                   │      │              ************************ 
+                       │                   │      ├ IsCause    : true 
+                       │                   │      ├ Annotation :  
+                       │                   │      ├ Truncated  : false 
+                       │                   │      ├ Highlighted: **********************************************
+                       │                   │      │              ************************ 
+                       │                   │      ├ FirstCause : false 
+                       │                   │      ╰ LastCause  : false 
+                       │                   ├ [16] ╭ Number     : 17 
+                       │                   │      ├ Content    : **********************************************
+                       │                   │      │              ************************ 
+                       │                   │      ├ IsCause    : true 
+                       │                   │      ├ Annotation :  
+                       │                   │      ├ Truncated  : false 
+                       │                   │      ├ Highlighted: **********************************************
+                       │                   │      │              ************************ 
+                       │                   │      ├ FirstCause : false 
+                       │                   │      ╰ LastCause  : false 
+                       │                   ├ [17] ╭ Number     : 18 
+                       │                   │      ├ Content    : **********************************************
+                       │                   │      │              ************************ 
+                       │                   │      ├ IsCause    : true 
+                       │                   │      ├ Annotation :  
+                       │                   │      ├ Truncated  : false 
+                       │                   │      ├ Highlighted: **********************************************
+                       │                   │      │              ************************ 
+                       │                   │      ├ FirstCause : false 
+                       │                   │      ╰ LastCause  : false 
+                       │                   ├ [18] ╭ Number     : 19 
+                       │                   │      ├ Content    : **********************************************
+                       │                   │      │              ************************ 
+                       │                   │      ├ IsCause    : true 
+                       │                   │      ├ Annotation :  
+                       │                   │      ├ Truncated  : false 
+                       │                   │      ├ Highlighted: **********************************************
+                       │                   │      │              ************************ 
+                       │                   │      ├ FirstCause : false 
+                       │                   │      ╰ LastCause  : false 
+                       │                   ├ [19] ╭ Number     : 20 
+                       │                   │      ├ Content    : **********************************************
+                       │                   │      │              ************************ 
+                       │                   │      ├ IsCause    : true 
+                       │                   │      ├ Annotation :  
+                       │                   │      ├ Truncated  : false 
+                       │                   │      ├ Highlighted: **********************************************
+                       │                   │      │              ************************ 
+                       │                   │      ├ FirstCause : false 
+                       │                   │      ╰ LastCause  : false 
+                       │                   ├ [20] ╭ Number     : 21 
+                       │                   │      ├ Content    : **********************************************
+                       │                   │      │              ************************ 
+                       │                   │      ├ IsCause    : true 
+                       │                   │      ├ Annotation :  
+                       │                   │      ├ Truncated  : false 
+                       │                   │      ├ Highlighted: **********************************************
+                       │                   │      │              ************************ 
+                       │                   │      ├ FirstCause : false 
+                       │                   │      ╰ LastCause  : false 
+                       │                   ├ [21] ╭ Number     : 22 
+                       │                   │      ├ Content    : **********************************************
+                       │                   │      │              ************************ 
+                       │                   │      ├ IsCause    : true 
+                       │                   │      ├ Annotation :  
+                       │                   │      ├ Truncated  : false 
+                       │                   │      ├ Highlighted: **********************************************
+                       │                   │      │              ************************ 
+                       │                   │      ├ FirstCause : false 
+                       │                   │      ╰ LastCause  : false 
+                       │                   ├ [22] ╭ Number     : 23 
+                       │                   │      ├ Content    : **********************************************
+                       │                   │      │              ************************ 
+                       │                   │      ├ IsCause    : true 
+                       │                   │      ├ Annotation :  
+                       │                   │      ├ Truncated  : false 
+                       │                   │      ├ Highlighted: **********************************************
+                       │                   │      │              ************************ 
+                       │                   │      ├ FirstCause : false 
+                       │                   │      ╰ LastCause  : false 
+                       │                   ├ [23] ╭ Number     : 24 
+                       │                   │      ├ Content    : **********************************************
+                       │                   │      │              ************************ 
+                       │                   │      ├ IsCause    : true 
+                       │                   │      ├ Annotation :  
+                       │                   │      ├ Truncated  : false 
+                       │                   │      ├ Highlighted: **********************************************
+                       │                   │      │              ************************ 
+                       │                   │      ├ FirstCause : false 
+                       │                   │      ╰ LastCause  : false 
+                       │                   ├ [24] ╭ Number     : 25 
+                       │                   │      ├ Content    : **********************************************
+                       │                   │      │              ************************ 
+                       │                   │      ├ IsCause    : true 
+                       │                   │      ├ Annotation :  
+                       │                   │      ├ Truncated  : false 
+                       │                   │      ├ Highlighted: **********************************************
+                       │                   │      │              ************************ 
+                       │                   │      ├ FirstCause : false 
+                       │                   │      ╰ LastCause  : false 
+                       │                   ├ [25] ╭ Number     : 26 
+                       │                   │      ├ Content    : **********************************************
+                       │                   │      │              ************************ 
+                       │                   │      ├ IsCause    : true 
+                       │                   │      ├ Annotation :  
+                       │                   │      ├ Truncated  : false 
+                       │                   │      ├ Highlighted: **********************************************
+                       │                   │      │              ************************ 
+                       │                   │      ├ FirstCause : false 
+                       │                   │      ╰ LastCause  : false 
+                       │                   ├ [26] ╭ Number     : 27 
+                       │                   │      ├ Content    : **********************************************
+                       │                   │      │              ************************ 
+                       │                   │      ├ IsCause    : true 
+                       │                   │      ├ Annotation :  
+                       │                   │      ├ Truncated  : false 
+                       │                   │      ├ Highlighted: **********************************************
+                       │                   │      │              ************************ 
+                       │                   │      ├ FirstCause : false 
+                       │                   │      ╰ LastCause  : false 
+                       │                   ├ [27] ╭ Number     : 28 
+                       │                   │      ├ Content    : **********************************************
+                       │                   │      │              ************************ 
+                       │                   │      ├ IsCause    : true 
+                       │                   │      ├ Annotation :  
+                       │                   │      ├ Truncated  : false 
+                       │                   │      ├ Highlighted: **********************************************
+                       │                   │      │              ************************ 
+                       │                   │      ├ FirstCause : false 
+                       │                   │      ╰ LastCause  : false 
+                       │                   ├ [28] ╭ Number     : 29 
+                       │                   │      ├ Content    : **********************************************
+                       │                   │      │              ************************ 
+                       │                   │      ├ IsCause    : true 
+                       │                   │      ├ Annotation :  
+                       │                   │      ├ Truncated  : false 
+                       │                   │      ├ Highlighted: **********************************************
+                       │                   │      │              ************************ 
+                       │                   │      ├ FirstCause : false 
+                       │                   │      ╰ LastCause  : false 
+                       │                   ├ [29] ╭ Number     : 30 
+                       │                   │      ├ Content    : **********************************************
+                       │                   │      │              ************************ 
+                       │                   │      ├ IsCause    : true 
+                       │                   │      ├ Annotation :  
+                       │                   │      ├ Truncated  : false 
+                       │                   │      ├ Highlighted: **********************************************
+                       │                   │      │              ************************ 
+                       │                   │      ├ FirstCause : false 
+                       │                   │      ╰ LastCause  : false 
+                       │                   ├ [30] ╭ Number     : 31 
+                       │                   │      ├ Content    : **********************************************
+                       │                   │      │              ************************ 
+                       │                   │      ├ IsCause    : true 
+                       │                   │      ├ Annotation :  
+                       │                   │      ├ Truncated  : false 
+                       │                   │      ├ Highlighted: **********************************************
+                       │                   │      │              ************************ 
+                       │                   │      ├ FirstCause : false 
+                       │                   │      ╰ LastCause  : false 
+                       │                   ├ [31] ╭ Number     : 32 
+                       │                   │      ├ Content    : **********************************************
+                       │                   │      │              ************************ 
+                       │                   │      ├ IsCause    : true 
+                       │                   │      ├ Annotation :  
+                       │                   │      ├ Truncated  : false 
+                       │                   │      ├ Highlighted: **********************************************
+                       │                   │      │              ************************ 
+                       │                   │      ├ FirstCause : false 
+                       │                   │      ╰ LastCause  : false 
+                       │                   ├ [32] ╭ Number     : 33 
+                       │                   │      ├ Content    : **********************************************
+                       │                   │      │              ************************ 
+                       │                   │      ├ IsCause    : true 
+                       │                   │      ├ Annotation :  
+                       │                   │      ├ Truncated  : false 
+                       │                   │      ├ Highlighted: **********************************************
+                       │                   │      │              ************************ 
+                       │                   │      ├ FirstCause : false 
+                       │                   │      ╰ LastCause  : false 
+                       │                   ├ [33] ╭ Number     : 34 
+                       │                   │      ├ Content    : **********************************************
+                       │                   │      │              ************************ 
+                       │                   │      ├ IsCause    : true 
+                       │                   │      ├ Annotation :  
+                       │                   │      ├ Truncated  : false 
+                       │                   │      ├ Highlighted: **********************************************
+                       │                   │      │              ************************ 
+                       │                   │      ├ FirstCause : false 
+                       │                   │      ╰ LastCause  : false 
+                       │                   ├ [34] ╭ Number     : 35 
+                       │                   │      ├ Content    : **********************************************
+                       │                   │      │              ************************ 
+                       │                   │      ├ IsCause    : true 
+                       │                   │      ├ Annotation :  
+                       │                   │      ├ Truncated  : false 
+                       │                   │      ├ Highlighted: **********************************************
+                       │                   │      │              ************************ 
+                       │                   │      ├ FirstCause : false 
+                       │                   │      ╰ LastCause  : false 
+                       │                   ├ [35] ╭ Number     : 36 
+                       │                   │      ├ Content    : **********************************************
+                       │                   │      │              ************************ 
+                       │                   │      ├ IsCause    : true 
+                       │                   │      ├ Annotation :  
+                       │                   │      ├ Truncated  : false 
+                       │                   │      ├ Highlighted: **********************************************
+                       │                   │      │              ************************ 
+                       │                   │      ├ FirstCause : false 
+                       │                   │      ╰ LastCause  : false 
+                       │                   ├ [36] ╭ Number     : 37 
+                       │                   │      ├ Content    : **********************************************
+                       │                   │      │              ******** 
+                       │                   │      ├ IsCause    : true 
+                       │                   │      ├ Annotation :  
+                       │                   │      ├ Truncated  : false 
+                       │                   │      ├ Highlighted: **********************************************
+                       │                   │      │              ******** 
+                       │                   │      ├ FirstCause : false 
+                       │                   │      ╰ LastCause  : true 
+                       │                   ╰ [37] ╭ Number     : 38 
+                       │                          ├ Content    : -----END OPENSSH PRIVATE KEY----- 
+                       │                          ├ IsCause    : false 
+                       │                          ├ Annotation :  
+                       │                          ├ Truncated  : false 
+                       │                          ├ Highlighted: -----END OPENSSH PRIVATE KEY----- 
+                       │                          ├ FirstCause : false 
+                       │                          ╰ LastCause  : false 
+                       ├ Match    : ********************************************************************** 
                        ╰ Layer     ╭ Digest   : sha256:8ee149d3438e1be92c4e79fc89c4975b2a6c94f2d58416cd83015adf
                                    │            da36d5f9 
                                    ├ DiffID   : sha256:5d6af8f33a052f9951afd975cdeccbe6d30ac426a2d33ff80ba86f5a
