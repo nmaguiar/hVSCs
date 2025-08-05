@@ -1204,6 +1204,7 @@
     - CWE-922
     VendorSeverity:
       alma: 2
+      amazon: 2
       azure: 2
       cbl-mariner: 2
       oracle-oval: 2
@@ -1310,6 +1311,7 @@
     - CWE-922
     VendorSeverity:
       alma: 2
+      amazon: 2
       azure: 2
       cbl-mariner: 2
       oracle-oval: 2
@@ -1416,6 +1418,7 @@
     - CWE-922
     VendorSeverity:
       alma: 2
+      amazon: 2
       azure: 2
       cbl-mariner: 2
       oracle-oval: 2
@@ -1522,6 +1525,7 @@
     - CWE-922
     VendorSeverity:
       alma: 2
+      amazon: 2
       azure: 2
       cbl-mariner: 2
       oracle-oval: 2
@@ -2351,7 +2355,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45290
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24783
     - https://errata.almalinux.org/9/ALSA-2024-2724.html
-    - https://errata.rockylinux.org/RLSA-2024:2724
+    - https://errata.rockylinux.org/RLSA-2024:3346
     - https://go.dev/cl/576155
     - https://go.dev/issue/65051
     - https://groups.google.com/g/golang-announce/c/YgW0sx8mN3M
@@ -2716,7 +2720,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45290
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24783
     - https://errata.almalinux.org/9/ALSA-2024-2724.html
-    - https://errata.rockylinux.org/RLSA-2024:2724
+    - https://errata.rockylinux.org/RLSA-2024:3346
     - https://go.dev/cl/576155
     - https://go.dev/issue/65051
     - https://groups.google.com/g/golang-announce/c/YgW0sx8mN3M
