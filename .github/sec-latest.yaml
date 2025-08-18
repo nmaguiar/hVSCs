@@ -139,7 +139,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2213166
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-34969
     - https://errata.almalinux.org/9/ALSA-2023-4569.html
-    - https://errata.rockylinux.org/RLSA-2023:4569
+    - https://errata.rockylinux.org/RLSA-2023:4498
     - https://gitlab.freedesktop.org/dbus/dbus/-/issues/457
     - https://linux.oracle.com/cve/CVE-2023-34969.html
     - https://linux.oracle.com/errata/ELSA-2023-4569.html
@@ -197,7 +197,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2213166
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-34969
     - https://errata.almalinux.org/9/ALSA-2023-4569.html
-    - https://errata.rockylinux.org/RLSA-2023:4569
+    - https://errata.rockylinux.org/RLSA-2023:4498
     - https://gitlab.freedesktop.org/dbus/dbus/-/issues/457
     - https://linux.oracle.com/cve/CVE-2023-34969.html
     - https://linux.oracle.com/errata/ELSA-2023-4569.html
@@ -676,7 +676,7 @@
     - https://github.com/git/git/commit/05e9cd64ee23bbadcea6bcffd6660ed02b8eab89
     - https://github.com/git/git/security/advisories/GHSA-vwqx-4fm8-6qc9
     - https://linux.oracle.com/cve/CVE-2025-48384.html
-    - https://linux.oracle.com/errata/ELSA-2025-11534.html
+    - https://linux.oracle.com/errata/ELSA-2025-11688.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-48384
     - https://ubuntu.com/security/notices/USN-7626-1
     - https://www.cve.org/CVERecord?id=CVE-2025-48384
@@ -998,7 +998,7 @@
     - https://github.com/git/git/commit/05e9cd64ee23bbadcea6bcffd6660ed02b8eab89
     - https://github.com/git/git/security/advisories/GHSA-vwqx-4fm8-6qc9
     - https://linux.oracle.com/cve/CVE-2025-48384.html
-    - https://linux.oracle.com/errata/ELSA-2025-11534.html
+    - https://linux.oracle.com/errata/ELSA-2025-11688.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-48384
     - https://ubuntu.com/security/notices/USN-7626-1
     - https://www.cve.org/CVERecord?id=CVE-2025-48384
@@ -2199,43 +2199,6 @@
     - https://www.openwall.com/lists/oss-security/2025/05/17/2
     PublishedDate: '2025-05-16T20:15:22.28Z'
     LastModifiedDate: '2025-06-17T14:09:23.137Z'
-  - VulnerabilityID: CVE-2016-20013
-    PkgID: libc-bin@2.35-0ubuntu3.9
-    PkgName: libc-bin
-    PkgIdentifier:
-      PURL: pkg:deb/ubuntu/libc-bin@2.35-0ubuntu3.9?arch=amd64&distro=ubuntu-22.04
-      UID: 62da847363a83eab
-    InstalledVersion: 2.35-0ubuntu3.9
-    Status: affected
-    Layer:
-      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
-      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2016-20013
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Description: sha256crypt and sha512crypt through 0.6 allow attackers to cause a denial of service (CPU consumption) because the algorithm's runtime is proportional to the square of the length of the password.
-    Severity: LOW
-    CweIDs:
-    - CWE-770
-    VendorSeverity:
-      nvd: 3
-      ubuntu: 1
-    CVSS:
-      nvd:
-        V2Vector: AV:N/AC:L/Au:N/C:N/I:N/A:P
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V2Score: 5
-        V3Score: 7.5
-    References:
-    - https://akkadia.org/drepper/SHA-crypt.txt
-    - https://pthree.org/2018/05/23/do-not-use-sha256crypt-sha512crypt-theyre-dangerous/
-    - https://twitter.com/solardiz/status/795601240151457793
-    - https://www.cve.org/CVERecord?id=CVE-2016-20013
-    PublishedDate: '2022-02-19T05:15:09.413Z'
-    LastModifiedDate: '2024-11-21T02:47:33.427Z'
   - VulnerabilityID: CVE-2025-4802
     PkgID: libc6@2.35-0ubuntu3.9
     PkgName: libc6
@@ -2293,43 +2256,6 @@
     - https://www.openwall.com/lists/oss-security/2025/05/17/2
     PublishedDate: '2025-05-16T20:15:22.28Z'
     LastModifiedDate: '2025-06-17T14:09:23.137Z'
-  - VulnerabilityID: CVE-2016-20013
-    PkgID: libc6@2.35-0ubuntu3.9
-    PkgName: libc6
-    PkgIdentifier:
-      PURL: pkg:deb/ubuntu/libc6@2.35-0ubuntu3.9?arch=amd64&distro=ubuntu-22.04
-      UID: ca7b8f48e765561c
-    InstalledVersion: 2.35-0ubuntu3.9
-    Status: affected
-    Layer:
-      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
-      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2016-20013
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Description: sha256crypt and sha512crypt through 0.6 allow attackers to cause a denial of service (CPU consumption) because the algorithm's runtime is proportional to the square of the length of the password.
-    Severity: LOW
-    CweIDs:
-    - CWE-770
-    VendorSeverity:
-      nvd: 3
-      ubuntu: 1
-    CVSS:
-      nvd:
-        V2Vector: AV:N/AC:L/Au:N/C:N/I:N/A:P
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V2Score: 5
-        V3Score: 7.5
-    References:
-    - https://akkadia.org/drepper/SHA-crypt.txt
-    - https://pthree.org/2018/05/23/do-not-use-sha256crypt-sha512crypt-theyre-dangerous/
-    - https://twitter.com/solardiz/status/795601240151457793
-    - https://www.cve.org/CVERecord?id=CVE-2016-20013
-    PublishedDate: '2022-02-19T05:15:09.413Z'
-    LastModifiedDate: '2024-11-21T02:47:33.427Z'
   - VulnerabilityID: CVE-2025-0167
     PkgID: libcurl3-gnutls@7.81.0-1ubuntu1.20
     PkgName: libcurl3-gnutls
@@ -2456,7 +2382,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2213166
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-34969
     - https://errata.almalinux.org/9/ALSA-2023-4569.html
-    - https://errata.rockylinux.org/RLSA-2023:4569
+    - https://errata.rockylinux.org/RLSA-2023:4498
     - https://gitlab.freedesktop.org/dbus/dbus/-/issues/457
     - https://linux.oracle.com/cve/CVE-2023-34969.html
     - https://linux.oracle.com/errata/ELSA-2023-4569.html
@@ -2690,6 +2616,7 @@
         V3Score: 7.5
     References:
     - http://www.openwall.com/lists/oss-security/2025/03/15/1
+    - https://access.redhat.com/errata/RHSA-2025:13681
     - https://access.redhat.com/errata/RHSA-2025:3531
     - https://access.redhat.com/errata/RHSA-2025:3734
     - https://access.redhat.com/errata/RHSA-2025:3913
@@ -2722,7 +2649,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-8176
     - https://www.kb.cert.org/vuls/id/760160
     PublishedDate: '2025-03-14T09:15:14.157Z'
-    LastModifiedDate: '2025-06-02T15:15:32.773Z'
+    LastModifiedDate: '2025-08-14T16:15:31.497Z'
   - VulnerabilityID: CVE-2022-27943
     PkgID: libgcc-s1@12.3.0-1ubuntu1~22.04
     PkgName: libgcc-s1
@@ -3096,7 +3023,7 @@
     - https://ubuntu.com/security/notices/USN-7635-1
     - https://www.cve.org/CVERecord?id=CVE-2025-32989
     PublishedDate: '2025-07-10T08:15:24.43Z'
-    LastModifiedDate: '2025-07-10T13:17:30.017Z'
+    LastModifiedDate: '2025-08-15T19:35:41.363Z'
   - VulnerabilityID: CVE-2025-32990
     PkgID: libgnutls30@3.7.3-4ubuntu1.6
     PkgName: libgnutls30
@@ -3123,10 +3050,14 @@
     VendorSeverity:
       azure: 2
       cbl-mariner: 2
+      nvd: 3
       photon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:H
+        V3Score: 8.2
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:L
         V3Score: 6.5
@@ -3138,7 +3069,7 @@
     - https://ubuntu.com/security/notices/USN-7635-1
     - https://www.cve.org/CVERecord?id=CVE-2025-32990
     PublishedDate: '2025-07-10T10:15:33.06Z'
-    LastModifiedDate: '2025-07-10T13:17:30.017Z'
+    LastModifiedDate: '2025-08-15T19:32:53.387Z'
   - VulnerabilityID: CVE-2025-6395
     PkgID: libgnutls30@3.7.3-4ubuntu1.6
     PkgName: libgnutls30
@@ -3216,6 +3147,8 @@
         V3Score: 5.9
     References:
     - https://access.redhat.com/errata/RHSA-2025:11487
+    - https://access.redhat.com/errata/RHSA-2025:13664
+    - https://access.redhat.com/errata/RHSA-2025:13777
     - https://access.redhat.com/errata/RHSA-2025:8411
     - https://access.redhat.com/errata/RHSA-2025:9418
     - https://access.redhat.com/errata/RHSA-2025:9430
@@ -3233,7 +3166,7 @@
     - https://web.mit.edu/kerberos/krb5-1.22/krb5-1.22.html
     - https://www.cve.org/CVERecord?id=CVE-2025-3576
     PublishedDate: '2025-04-15T06:15:44.047Z'
-    LastModifiedDate: '2025-07-28T14:15:27.333Z'
+    LastModifiedDate: '2025-08-13T09:15:28.707Z'
   - VulnerabilityID: CVE-2025-5222
     PkgID: libicu70@70.1-2
     PkgName: libicu70
@@ -3259,6 +3192,7 @@
     VendorSeverity:
       alma: 2
       amazon: 3
+      cbl-mariner: 3
       oracle-oval: 2
       redhat: 2
       ubuntu: 1
@@ -3318,6 +3252,8 @@
         V3Score: 5.9
     References:
     - https://access.redhat.com/errata/RHSA-2025:11487
+    - https://access.redhat.com/errata/RHSA-2025:13664
+    - https://access.redhat.com/errata/RHSA-2025:13777
     - https://access.redhat.com/errata/RHSA-2025:8411
     - https://access.redhat.com/errata/RHSA-2025:9418
     - https://access.redhat.com/errata/RHSA-2025:9430
@@ -3335,7 +3271,7 @@
     - https://web.mit.edu/kerberos/krb5-1.22/krb5-1.22.html
     - https://www.cve.org/CVERecord?id=CVE-2025-3576
     PublishedDate: '2025-04-15T06:15:44.047Z'
-    LastModifiedDate: '2025-07-28T14:15:27.333Z'
+    LastModifiedDate: '2025-08-13T09:15:28.707Z'
   - VulnerabilityID: CVE-2025-3576
     PkgID: libkrb5-3@1.19.2-2ubuntu0.6
     PkgName: libkrb5-3
@@ -3371,6 +3307,8 @@
         V3Score: 5.9
     References:
     - https://access.redhat.com/errata/RHSA-2025:11487
+    - https://access.redhat.com/errata/RHSA-2025:13664
+    - https://access.redhat.com/errata/RHSA-2025:13777
     - https://access.redhat.com/errata/RHSA-2025:8411
     - https://access.redhat.com/errata/RHSA-2025:9418
     - https://access.redhat.com/errata/RHSA-2025:9430
@@ -3388,7 +3326,7 @@
     - https://web.mit.edu/kerberos/krb5-1.22/krb5-1.22.html
     - https://www.cve.org/CVERecord?id=CVE-2025-3576
     PublishedDate: '2025-04-15T06:15:44.047Z'
-    LastModifiedDate: '2025-07-28T14:15:27.333Z'
+    LastModifiedDate: '2025-08-13T09:15:28.707Z'
   - VulnerabilityID: CVE-2025-3576
     PkgID: libkrb5support0@1.19.2-2ubuntu0.6
     PkgName: libkrb5support0
@@ -3424,6 +3362,8 @@
         V3Score: 5.9
     References:
     - https://access.redhat.com/errata/RHSA-2025:11487
+    - https://access.redhat.com/errata/RHSA-2025:13664
+    - https://access.redhat.com/errata/RHSA-2025:13777
     - https://access.redhat.com/errata/RHSA-2025:8411
     - https://access.redhat.com/errata/RHSA-2025:9418
     - https://access.redhat.com/errata/RHSA-2025:9430
@@ -3441,7 +3381,7 @@
     - https://web.mit.edu/kerberos/krb5-1.22/krb5-1.22.html
     - https://www.cve.org/CVERecord?id=CVE-2025-3576
     PublishedDate: '2025-04-15T06:15:44.047Z'
-    LastModifiedDate: '2025-07-28T14:15:27.333Z'
+    LastModifiedDate: '2025-08-13T09:15:28.707Z'
   - VulnerabilityID: CVE-2023-50495
     PkgID: libncurses6@6.3-2ubuntu0.1
     PkgName: libncurses6
@@ -3587,7 +3527,7 @@
     - https://www.openwall.com/lists/oss-security/2025/05/29/3
     - https://www.qualys.com/2025/05/29/apport-coredump/apport-coredump.txt
     PublishedDate: '2025-05-30T14:15:23.557Z'
-    LastModifiedDate: '2025-06-05T07:15:23.047Z'
+    LastModifiedDate: '2025-08-12T19:59:36.587Z'
   - VulnerabilityID: CVE-2023-7008
     PkgID: libnss-systemd@249.11-0ubuntu3.12
     PkgName: libnss-systemd
@@ -3637,7 +3577,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222672
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-7008
     - https://errata.almalinux.org/9/ALSA-2024-2463.html
-    - https://errata.rockylinux.org/RLSA-2024:2463
+    - https://errata.rockylinux.org/RLSA-2024:3203
     - https://github.com/systemd/systemd/issues/25676
     - https://linux.oracle.com/cve/CVE-2023-7008.html
     - https://linux.oracle.com/errata/ELSA-2024-3203.html
@@ -4062,7 +4002,7 @@
     - https://www.openwall.com/lists/oss-security/2025/05/29/3
     - https://www.qualys.com/2025/05/29/apport-coredump/apport-coredump.txt
     PublishedDate: '2025-05-30T14:15:23.557Z'
-    LastModifiedDate: '2025-06-05T07:15:23.047Z'
+    LastModifiedDate: '2025-08-12T19:59:36.587Z'
   - VulnerabilityID: CVE-2023-7008
     PkgID: libpam-systemd@249.11-0ubuntu3.12
     PkgName: libpam-systemd
@@ -4112,7 +4052,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222672
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-7008
     - https://errata.almalinux.org/9/ALSA-2024-2463.html
-    - https://errata.rockylinux.org/RLSA-2024:2463
+    - https://errata.rockylinux.org/RLSA-2024:3203
     - https://github.com/systemd/systemd/issues/25676
     - https://linux.oracle.com/cve/CVE-2023-7008.html
     - https://linux.oracle.com/errata/ELSA-2024-3203.html
@@ -4994,6 +4934,7 @@
       alma: 3
       amazon: 2
       bitnami: 3
+      cbl-mariner: 3
       nvd: 4
       oracle-oval: 3
       redhat: 3
@@ -5390,7 +5331,7 @@
     - https://www.openwall.com/lists/oss-security/2025/05/29/3
     - https://www.qualys.com/2025/05/29/apport-coredump/apport-coredump.txt
     PublishedDate: '2025-05-30T14:15:23.557Z'
-    LastModifiedDate: '2025-06-05T07:15:23.047Z'
+    LastModifiedDate: '2025-08-12T19:59:36.587Z'
   - VulnerabilityID: CVE-2023-7008
     PkgID: libsystemd0@249.11-0ubuntu3.12
     PkgName: libsystemd0
@@ -5440,7 +5381,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222672
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-7008
     - https://errata.almalinux.org/9/ALSA-2024-2463.html
-    - https://errata.rockylinux.org/RLSA-2024:2463
+    - https://errata.rockylinux.org/RLSA-2024:3203
     - https://github.com/systemd/systemd/issues/25676
     - https://linux.oracle.com/cve/CVE-2023-7008.html
     - https://linux.oracle.com/errata/ELSA-2024-3203.html
@@ -5595,7 +5536,7 @@
     - https://www.openwall.com/lists/oss-security/2025/05/29/3
     - https://www.qualys.com/2025/05/29/apport-coredump/apport-coredump.txt
     PublishedDate: '2025-05-30T14:15:23.557Z'
-    LastModifiedDate: '2025-06-05T07:15:23.047Z'
+    LastModifiedDate: '2025-08-12T19:59:36.587Z'
   - VulnerabilityID: CVE-2023-7008
     PkgID: libudev1@249.11-0ubuntu3.12
     PkgName: libudev1
@@ -5645,7 +5586,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222672
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-7008
     - https://errata.almalinux.org/9/ALSA-2024-2463.html
-    - https://errata.rockylinux.org/RLSA-2024:2463
+    - https://errata.rockylinux.org/RLSA-2024:3203
     - https://github.com/systemd/systemd/issues/25676
     - https://linux.oracle.com/cve/CVE-2023-7008.html
     - https://linux.oracle.com/errata/ELSA-2024-3203.html
@@ -7322,7 +7263,7 @@
     - https://www.openwall.com/lists/oss-security/2025/05/29/3
     - https://www.qualys.com/2025/05/29/apport-coredump/apport-coredump.txt
     PublishedDate: '2025-05-30T14:15:23.557Z'
-    LastModifiedDate: '2025-06-05T07:15:23.047Z'
+    LastModifiedDate: '2025-08-12T19:59:36.587Z'
   - VulnerabilityID: CVE-2023-7008
     PkgID: systemd@249.11-0ubuntu3.12
     PkgName: systemd
@@ -7372,7 +7313,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222672
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-7008
     - https://errata.almalinux.org/9/ALSA-2024-2463.html
-    - https://errata.rockylinux.org/RLSA-2024:2463
+    - https://errata.rockylinux.org/RLSA-2024:3203
     - https://github.com/systemd/systemd/issues/25676
     - https://linux.oracle.com/cve/CVE-2023-7008.html
     - https://linux.oracle.com/errata/ELSA-2024-3203.html
@@ -7440,7 +7381,7 @@
     - https://www.openwall.com/lists/oss-security/2025/05/29/3
     - https://www.qualys.com/2025/05/29/apport-coredump/apport-coredump.txt
     PublishedDate: '2025-05-30T14:15:23.557Z'
-    LastModifiedDate: '2025-06-05T07:15:23.047Z'
+    LastModifiedDate: '2025-08-12T19:59:36.587Z'
   - VulnerabilityID: CVE-2023-7008
     PkgID: systemd-sysv@249.11-0ubuntu3.12
     PkgName: systemd-sysv
@@ -7490,7 +7431,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222672
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-7008
     - https://errata.almalinux.org/9/ALSA-2024-2463.html
-    - https://errata.rockylinux.org/RLSA-2024:2463
+    - https://errata.rockylinux.org/RLSA-2024:3203
     - https://github.com/systemd/systemd/issues/25676
     - https://linux.oracle.com/cve/CVE-2023-7008.html
     - https://linux.oracle.com/errata/ELSA-2024-3203.html
@@ -7558,7 +7499,7 @@
     - https://www.openwall.com/lists/oss-security/2025/05/29/3
     - https://www.qualys.com/2025/05/29/apport-coredump/apport-coredump.txt
     PublishedDate: '2025-05-30T14:15:23.557Z'
-    LastModifiedDate: '2025-06-05T07:15:23.047Z'
+    LastModifiedDate: '2025-08-12T19:59:36.587Z'
   - VulnerabilityID: CVE-2023-7008
     PkgID: systemd-timesyncd@249.11-0ubuntu3.12
     PkgName: systemd-timesyncd
@@ -7608,7 +7549,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222672
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-7008
     - https://errata.almalinux.org/9/ALSA-2024-2463.html
-    - https://errata.rockylinux.org/RLSA-2024:2463
+    - https://errata.rockylinux.org/RLSA-2024:3203
     - https://github.com/systemd/systemd/issues/25676
     - https://linux.oracle.com/cve/CVE-2023-7008.html
     - https://linux.oracle.com/errata/ELSA-2024-3203.html
@@ -8177,7 +8118,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45290
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24783
     - https://errata.almalinux.org/9/ALSA-2024-2724.html
-    - https://errata.rockylinux.org/RLSA-2024:2724
+    - https://errata.rockylinux.org/RLSA-2024:3346
     - https://go.dev/cl/576155
     - https://go.dev/issue/65051
     - https://groups.google.com/g/golang-announce/c/YgW0sx8mN3M
@@ -8355,21 +8296,27 @@
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
-    Title: Cancelling a query (e.g. by cancelling the context passed to one of th ...
+    Title: 'database/sql: Postgres Scan Race Condition'
     Description: Cancelling a query (e.g. by cancelling the context passed to one of the query methods) during a call to the Scan method of the returned Rows can result in unexpected results if other queries are being made in parallel. This can result in a race condition that may overwrite the expected results with those of another query, causing the call to Scan to return either unexpected results from the other query or an error.
     Severity: HIGH
     VendorSeverity:
       bitnami: 3
+      redhat: 3
     CVSS:
       bitnami:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:L/A:L
         V3Score: 7
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:L/A:L
+        V3Score: 7
     References:
+    - https://access.redhat.com/security/cve/CVE-2025-47907
     - https://go.dev/cl/693735
     - https://go.dev/issue/74831
     - https://groups.google.com/g/golang-announce/c/x5MKroML2yM
     - https://nvd.nist.gov/vuln/detail/CVE-2025-47907
     - https://pkg.go.dev/vuln/GO-2025-3849
+    - https://www.cve.org/CVERecord?id=CVE-2025-47907
     PublishedDate: '2025-08-07T16:15:30.357Z'
     LastModifiedDate: '2025-08-07T21:26:37.453Z'
   - VulnerabilityID: CVE-2025-0913
@@ -8578,7 +8525,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45290
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24783
     - https://errata.almalinux.org/9/ALSA-2024-2724.html
-    - https://errata.rockylinux.org/RLSA-2024:2724
+    - https://errata.rockylinux.org/RLSA-2024:3346
     - https://go.dev/cl/576155
     - https://go.dev/issue/65051
     - https://groups.google.com/g/golang-announce/c/YgW0sx8mN3M
@@ -8756,21 +8703,27 @@
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
-    Title: Cancelling a query (e.g. by cancelling the context passed to one of th ...
+    Title: 'database/sql: Postgres Scan Race Condition'
     Description: Cancelling a query (e.g. by cancelling the context passed to one of the query methods) during a call to the Scan method of the returned Rows can result in unexpected results if other queries are being made in parallel. This can result in a race condition that may overwrite the expected results with those of another query, causing the call to Scan to return either unexpected results from the other query or an error.
     Severity: HIGH
     VendorSeverity:
       bitnami: 3
+      redhat: 3
     CVSS:
       bitnami:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:L/A:L
         V3Score: 7
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:L/A:L
+        V3Score: 7
     References:
+    - https://access.redhat.com/security/cve/CVE-2025-47907
     - https://go.dev/cl/693735
     - https://go.dev/issue/74831
     - https://groups.google.com/g/golang-announce/c/x5MKroML2yM
     - https://nvd.nist.gov/vuln/detail/CVE-2025-47907
     - https://pkg.go.dev/vuln/GO-2025-3849
+    - https://www.cve.org/CVERecord?id=CVE-2025-47907
     PublishedDate: '2025-08-07T16:15:30.357Z'
     LastModifiedDate: '2025-08-07T21:26:37.453Z'
   - VulnerabilityID: CVE-2025-0913
@@ -9348,21 +9301,27 @@
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
-    Title: Cancelling a query (e.g. by cancelling the context passed to one of th ...
+    Title: 'database/sql: Postgres Scan Race Condition'
     Description: Cancelling a query (e.g. by cancelling the context passed to one of the query methods) during a call to the Scan method of the returned Rows can result in unexpected results if other queries are being made in parallel. This can result in a race condition that may overwrite the expected results with those of another query, causing the call to Scan to return either unexpected results from the other query or an error.
     Severity: HIGH
     VendorSeverity:
       bitnami: 3
+      redhat: 3
     CVSS:
       bitnami:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:L/A:L
         V3Score: 7
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:L/A:L
+        V3Score: 7
     References:
+    - https://access.redhat.com/security/cve/CVE-2025-47907
     - https://go.dev/cl/693735
     - https://go.dev/issue/74831
     - https://groups.google.com/g/golang-announce/c/x5MKroML2yM
     - https://nvd.nist.gov/vuln/detail/CVE-2025-47907
     - https://pkg.go.dev/vuln/GO-2025-3849
+    - https://www.cve.org/CVERecord?id=CVE-2025-47907
     PublishedDate: '2025-08-07T16:15:30.357Z'
     LastModifiedDate: '2025-08-07T21:26:37.453Z'
   - VulnerabilityID: CVE-2025-0913
@@ -9569,7 +9528,8 @@
       PURL: pkg:golang/github.com/docker/docker@v25.0.6%2Bincompatible
       UID: b9acec2fc884ba8
     InstalledVersion: v25.0.6+incompatible
-    Status: affected
+    FixedVersion: 28.0.0
+    Status: fixed
     Layer:
       Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
       DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
@@ -9600,6 +9560,8 @@
     - https://access.redhat.com/security/cve/CVE-2025-54410
     - https://firewalld.org/documentation/howto/reload-firewalld.html
     - https://github.com/moby/moby
+    - https://github.com/moby/moby/pull/49443
+    - https://github.com/moby/moby/pull/49728
     - https://github.com/moby/moby/security/advisories/GHSA-4vq8-7jfc-9cvp
     - https://nvd.nist.gov/vuln/detail/CVE-2025-54410
     - https://www.cve.org/CVERecord?id=CVE-2025-54410
@@ -9711,21 +9673,27 @@
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
-    Title: Cancelling a query (e.g. by cancelling the context passed to one of th ...
+    Title: 'database/sql: Postgres Scan Race Condition'
     Description: Cancelling a query (e.g. by cancelling the context passed to one of the query methods) during a call to the Scan method of the returned Rows can result in unexpected results if other queries are being made in parallel. This can result in a race condition that may overwrite the expected results with those of another query, causing the call to Scan to return either unexpected results from the other query or an error.
     Severity: HIGH
     VendorSeverity:
       bitnami: 3
+      redhat: 3
     CVSS:
       bitnami:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:L/A:L
         V3Score: 7
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:L/A:L
+        V3Score: 7
     References:
+    - https://access.redhat.com/security/cve/CVE-2025-47907
     - https://go.dev/cl/693735
     - https://go.dev/issue/74831
     - https://groups.google.com/g/golang-announce/c/x5MKroML2yM
     - https://nvd.nist.gov/vuln/detail/CVE-2025-47907
     - https://pkg.go.dev/vuln/GO-2025-3849
+    - https://www.cve.org/CVERecord?id=CVE-2025-47907
     PublishedDate: '2025-08-07T16:15:30.357Z'
     LastModifiedDate: '2025-08-07T21:26:37.453Z'
   - VulnerabilityID: CVE-2025-0913
@@ -10032,21 +10000,27 @@
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
-    Title: Cancelling a query (e.g. by cancelling the context passed to one of th ...
+    Title: 'database/sql: Postgres Scan Race Condition'
     Description: Cancelling a query (e.g. by cancelling the context passed to one of the query methods) during a call to the Scan method of the returned Rows can result in unexpected results if other queries are being made in parallel. This can result in a race condition that may overwrite the expected results with those of another query, causing the call to Scan to return either unexpected results from the other query or an error.
     Severity: HIGH
     VendorSeverity:
       bitnami: 3
+      redhat: 3
     CVSS:
       bitnami:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:L/A:L
         V3Score: 7
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:L/A:L
+        V3Score: 7
     References:
+    - https://access.redhat.com/security/cve/CVE-2025-47907
     - https://go.dev/cl/693735
     - https://go.dev/issue/74831
     - https://groups.google.com/g/golang-announce/c/x5MKroML2yM
     - https://nvd.nist.gov/vuln/detail/CVE-2025-47907
     - https://pkg.go.dev/vuln/GO-2025-3849
+    - https://www.cve.org/CVERecord?id=CVE-2025-47907
     PublishedDate: '2025-08-07T16:15:30.357Z'
     LastModifiedDate: '2025-08-07T21:26:37.453Z'
   - VulnerabilityID: CVE-2025-0913
@@ -10353,21 +10327,27 @@
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
-    Title: Cancelling a query (e.g. by cancelling the context passed to one of th ...
+    Title: 'database/sql: Postgres Scan Race Condition'
     Description: Cancelling a query (e.g. by cancelling the context passed to one of the query methods) during a call to the Scan method of the returned Rows can result in unexpected results if other queries are being made in parallel. This can result in a race condition that may overwrite the expected results with those of another query, causing the call to Scan to return either unexpected results from the other query or an error.
     Severity: HIGH
     VendorSeverity:
       bitnami: 3
+      redhat: 3
     CVSS:
       bitnami:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:L/A:L
         V3Score: 7
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:L/A:L
+        V3Score: 7
     References:
+    - https://access.redhat.com/security/cve/CVE-2025-47907
     - https://go.dev/cl/693735
     - https://go.dev/issue/74831
     - https://groups.google.com/g/golang-announce/c/x5MKroML2yM
     - https://nvd.nist.gov/vuln/detail/CVE-2025-47907
     - https://pkg.go.dev/vuln/GO-2025-3849
+    - https://www.cve.org/CVERecord?id=CVE-2025-47907
     PublishedDate: '2025-08-07T16:15:30.357Z'
     LastModifiedDate: '2025-08-07T21:26:37.453Z'
   - VulnerabilityID: CVE-2025-0913
@@ -10640,6 +10620,52 @@
     - https://www.docker.com/blog/docker-security-advisory-docker-engine-authz-plugin/
     PublishedDate: '2024-07-24T17:15:11.053Z'
     LastModifiedDate: '2024-11-21T09:32:15.16Z'
+  - VulnerabilityID: CVE-2025-54410
+    PkgID: github.com/docker/docker@v27.0.3+incompatible
+    PkgName: github.com/docker/docker
+    PkgIdentifier:
+      PURL: pkg:golang/github.com/docker/docker@v27.0.3%2Bincompatible
+      UID: 18d926a57b74d388
+    InstalledVersion: v27.0.3+incompatible
+    FixedVersion: 28.0.0
+    Status: fixed
+    Layer:
+      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
+      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
+    SeveritySource: ghsa
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-54410
+    DataSource:
+      ID: ghsa
+      Name: GitHub Security Advisory Go
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
+    Title: 'github.com/moby/moby: Moby''s Firewalld reload removes bridge network isolation'
+    Description: |-
+      Moby is an open source container framework developed by Docker Inc. that is distributed as Docker Engine, Mirantis Container Runtime, and various other downstream projects/products. A firewalld vulnerability affects Moby releases before 28.0.0. When firewalld reloads, Docker fails to re-create iptables rules that isolate bridge networks, allowing any container to access all ports on any other container across different bridge networks on the same host. This breaks network segmentation between containers that should be isolated, creating significant risk in multi-tenant environments. Only containers in --internal networks remain protected.
+      Workarounds include reloading firewalld and either restarting the docker daemon, re-creating bridge networks, or using rootless mode. Maintainers anticipate a fix for this issue in version 25.0.13.
+    Severity: LOW
+    CweIDs:
+    - CWE-909
+    VendorSeverity:
+      ghsa: 1
+      redhat: 1
+    CVSS:
+      ghsa:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:L/A:N
+        V3Score: 3.3
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:L/A:N
+        V3Score: 3.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-54410
+    - https://firewalld.org/documentation/howto/reload-firewalld.html
+    - https://github.com/moby/moby
+    - https://github.com/moby/moby/pull/49443
+    - https://github.com/moby/moby/pull/49728
+    - https://github.com/moby/moby/security/advisories/GHSA-4vq8-7jfc-9cvp
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-54410
+    - https://www.cve.org/CVERecord?id=CVE-2025-54410
+    PublishedDate: '2025-07-30T14:15:28.9Z'
+    LastModifiedDate: '2025-07-31T18:42:37.87Z'
   - VulnerabilityID: CVE-2024-45337
     PkgID: golang.org/x/crypto@v0.24.0
     PkgName: golang.org/x/crypto
@@ -10942,21 +10968,27 @@
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
-    Title: Cancelling a query (e.g. by cancelling the context passed to one of th ...
+    Title: 'database/sql: Postgres Scan Race Condition'
     Description: Cancelling a query (e.g. by cancelling the context passed to one of the query methods) during a call to the Scan method of the returned Rows can result in unexpected results if other queries are being made in parallel. This can result in a race condition that may overwrite the expected results with those of another query, causing the call to Scan to return either unexpected results from the other query or an error.
     Severity: HIGH
     VendorSeverity:
       bitnami: 3
+      redhat: 3
     CVSS:
       bitnami:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:L/A:L
         V3Score: 7
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:L/A:L
+        V3Score: 7
     References:
+    - https://access.redhat.com/security/cve/CVE-2025-47907
     - https://go.dev/cl/693735
     - https://go.dev/issue/74831
     - https://groups.google.com/g/golang-announce/c/x5MKroML2yM
     - https://nvd.nist.gov/vuln/detail/CVE-2025-47907
     - https://pkg.go.dev/vuln/GO-2025-3849
+    - https://www.cve.org/CVERecord?id=CVE-2025-47907
     PublishedDate: '2025-08-07T16:15:30.357Z'
     LastModifiedDate: '2025-08-07T21:26:37.453Z'
   - VulnerabilityID: CVE-2025-0913
