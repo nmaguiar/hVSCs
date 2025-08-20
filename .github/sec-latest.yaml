@@ -485,6 +485,7 @@
       azure: 2
       cbl-mariner: 2
       oracle-oval: 3
+      photon: 3
       redhat: 2
       rocky: 3
       ubuntu: 2
@@ -559,6 +560,7 @@
       alma: 3
       amazon: 3
       oracle-oval: 3
+      photon: 2
       redhat: 1
       rocky: 3
       ubuntu: 2
@@ -708,6 +710,7 @@
     - CWE-120
     VendorSeverity:
       bitnami: 2
+      photon: 3
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -807,6 +810,7 @@
       azure: 2
       cbl-mariner: 2
       oracle-oval: 3
+      photon: 3
       redhat: 2
       rocky: 3
       ubuntu: 2
@@ -881,6 +885,7 @@
       alma: 3
       amazon: 3
       oracle-oval: 3
+      photon: 2
       redhat: 1
       rocky: 3
       ubuntu: 2
@@ -1030,6 +1035,7 @@
     - CWE-120
     VendorSeverity:
       bitnami: 2
+      photon: 3
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -2964,6 +2970,7 @@
     CweIDs:
     - CWE-415
     VendorSeverity:
+      amazon: 2
       azure: 2
       cbl-mariner: 2
       photon: 2
@@ -3006,6 +3013,7 @@
     CweIDs:
     - CWE-295
     VendorSeverity:
+      amazon: 2
       azure: 2
       cbl-mariner: 2
       photon: 2
@@ -3048,6 +3056,7 @@
     CweIDs:
     - CWE-122
     VendorSeverity:
+      amazon: 2
       azure: 2
       cbl-mariner: 2
       nvd: 3
@@ -3094,6 +3103,7 @@
     CweIDs:
     - CWE-476
     VendorSeverity:
+      amazon: 2
       azure: 2
       cbl-mariner: 2
       photon: 2
@@ -3194,6 +3204,7 @@
       amazon: 3
       cbl-mariner: 3
       oracle-oval: 2
+      photon: 3
       redhat: 2
       ubuntu: 1
     CVSS:
@@ -3509,7 +3520,9 @@
     - http://www.openwall.com/lists/oss-security/2025/06/05/1
     - http://www.openwall.com/lists/oss-security/2025/06/05/3
     - https://access.redhat.com/security/cve/CVE-2025-4598
+    - https://blogs.oracle.com/linux/post/analysis-of-cve-2025-4598
     - https://bugzilla.redhat.com/show_bug.cgi?id=2369242
+    - https://ciq.com/blog/the-real-danger-of-systemd-coredump-cve-2025-4598/
     - https://git.kernel.org/linus/b5325b2a270fcaf7b2a9a0f23d422ca8a5a8bdea
     - https://github.com/systemd/systemd/commit/0c49e0049b7665bb7769a13ef346fef92e1ad4d6 (main)
     - https://github.com/systemd/systemd/commit/13902e025321242b1d95c6d8b4e482b37f58cdef (main)
@@ -3525,9 +3538,10 @@
     - https://ubuntu.com/security/notices/USN-7559-1
     - https://www.cve.org/CVERecord?id=CVE-2025-4598
     - https://www.openwall.com/lists/oss-security/2025/05/29/3
+    - https://www.openwall.com/lists/oss-security/2025/08/18/3
     - https://www.qualys.com/2025/05/29/apport-coredump/apport-coredump.txt
     PublishedDate: '2025-05-30T14:15:23.557Z'
-    LastModifiedDate: '2025-08-12T19:59:36.587Z'
+    LastModifiedDate: '2025-08-18T16:15:28.447Z'
   - VulnerabilityID: CVE-2023-7008
     PkgID: libnss-systemd@249.11-0ubuntu3.12
     PkgName: libnss-systemd
@@ -3984,7 +3998,9 @@
     - http://www.openwall.com/lists/oss-security/2025/06/05/1
     - http://www.openwall.com/lists/oss-security/2025/06/05/3
     - https://access.redhat.com/security/cve/CVE-2025-4598
+    - https://blogs.oracle.com/linux/post/analysis-of-cve-2025-4598
     - https://bugzilla.redhat.com/show_bug.cgi?id=2369242
+    - https://ciq.com/blog/the-real-danger-of-systemd-coredump-cve-2025-4598/
     - https://git.kernel.org/linus/b5325b2a270fcaf7b2a9a0f23d422ca8a5a8bdea
     - https://github.com/systemd/systemd/commit/0c49e0049b7665bb7769a13ef346fef92e1ad4d6 (main)
     - https://github.com/systemd/systemd/commit/13902e025321242b1d95c6d8b4e482b37f58cdef (main)
@@ -4000,9 +4016,10 @@
     - https://ubuntu.com/security/notices/USN-7559-1
     - https://www.cve.org/CVERecord?id=CVE-2025-4598
     - https://www.openwall.com/lists/oss-security/2025/05/29/3
+    - https://www.openwall.com/lists/oss-security/2025/08/18/3
     - https://www.qualys.com/2025/05/29/apport-coredump/apport-coredump.txt
     PublishedDate: '2025-05-30T14:15:23.557Z'
-    LastModifiedDate: '2025-08-12T19:59:36.587Z'
+    LastModifiedDate: '2025-08-18T16:15:28.447Z'
   - VulnerabilityID: CVE-2023-7008
     PkgID: libpam-systemd@249.11-0ubuntu3.12
     PkgName: libpam-systemd
@@ -5313,7 +5330,9 @@
     - http://www.openwall.com/lists/oss-security/2025/06/05/1
     - http://www.openwall.com/lists/oss-security/2025/06/05/3
     - https://access.redhat.com/security/cve/CVE-2025-4598
+    - https://blogs.oracle.com/linux/post/analysis-of-cve-2025-4598
     - https://bugzilla.redhat.com/show_bug.cgi?id=2369242
+    - https://ciq.com/blog/the-real-danger-of-systemd-coredump-cve-2025-4598/
     - https://git.kernel.org/linus/b5325b2a270fcaf7b2a9a0f23d422ca8a5a8bdea
     - https://github.com/systemd/systemd/commit/0c49e0049b7665bb7769a13ef346fef92e1ad4d6 (main)
     - https://github.com/systemd/systemd/commit/13902e025321242b1d95c6d8b4e482b37f58cdef (main)
@@ -5329,9 +5348,10 @@
     - https://ubuntu.com/security/notices/USN-7559-1
     - https://www.cve.org/CVERecord?id=CVE-2025-4598
     - https://www.openwall.com/lists/oss-security/2025/05/29/3
+    - https://www.openwall.com/lists/oss-security/2025/08/18/3
     - https://www.qualys.com/2025/05/29/apport-coredump/apport-coredump.txt
     PublishedDate: '2025-05-30T14:15:23.557Z'
-    LastModifiedDate: '2025-08-12T19:59:36.587Z'
+    LastModifiedDate: '2025-08-18T16:15:28.447Z'
   - VulnerabilityID: CVE-2023-7008
     PkgID: libsystemd0@249.11-0ubuntu3.12
     PkgName: libsystemd0
@@ -5416,6 +5436,7 @@
     - CWE-119
     - CWE-416
     VendorSeverity:
+      amazon: 2
       redhat: 2
       ubuntu: 1
     CVSS:
@@ -5518,7 +5539,9 @@
     - http://www.openwall.com/lists/oss-security/2025/06/05/1
     - http://www.openwall.com/lists/oss-security/2025/06/05/3
     - https://access.redhat.com/security/cve/CVE-2025-4598
+    - https://blogs.oracle.com/linux/post/analysis-of-cve-2025-4598
     - https://bugzilla.redhat.com/show_bug.cgi?id=2369242
+    - https://ciq.com/blog/the-real-danger-of-systemd-coredump-cve-2025-4598/
     - https://git.kernel.org/linus/b5325b2a270fcaf7b2a9a0f23d422ca8a5a8bdea
     - https://github.com/systemd/systemd/commit/0c49e0049b7665bb7769a13ef346fef92e1ad4d6 (main)
     - https://github.com/systemd/systemd/commit/13902e025321242b1d95c6d8b4e482b37f58cdef (main)
@@ -5534,9 +5557,10 @@
     - https://ubuntu.com/security/notices/USN-7559-1
     - https://www.cve.org/CVERecord?id=CVE-2025-4598
     - https://www.openwall.com/lists/oss-security/2025/05/29/3
+    - https://www.openwall.com/lists/oss-security/2025/08/18/3
     - https://www.qualys.com/2025/05/29/apport-coredump/apport-coredump.txt
     PublishedDate: '2025-05-30T14:15:23.557Z'
-    LastModifiedDate: '2025-08-12T19:59:36.587Z'
+    LastModifiedDate: '2025-08-18T16:15:28.447Z'
   - VulnerabilityID: CVE-2023-7008
     PkgID: libudev1@249.11-0ubuntu3.12
     PkgName: libudev1
@@ -7245,7 +7269,9 @@
     - http://www.openwall.com/lists/oss-security/2025/06/05/1
     - http://www.openwall.com/lists/oss-security/2025/06/05/3
     - https://access.redhat.com/security/cve/CVE-2025-4598
+    - https://blogs.oracle.com/linux/post/analysis-of-cve-2025-4598
     - https://bugzilla.redhat.com/show_bug.cgi?id=2369242
+    - https://ciq.com/blog/the-real-danger-of-systemd-coredump-cve-2025-4598/
     - https://git.kernel.org/linus/b5325b2a270fcaf7b2a9a0f23d422ca8a5a8bdea
     - https://github.com/systemd/systemd/commit/0c49e0049b7665bb7769a13ef346fef92e1ad4d6 (main)
     - https://github.com/systemd/systemd/commit/13902e025321242b1d95c6d8b4e482b37f58cdef (main)
@@ -7261,9 +7287,10 @@
     - https://ubuntu.com/security/notices/USN-7559-1
     - https://www.cve.org/CVERecord?id=CVE-2025-4598
     - https://www.openwall.com/lists/oss-security/2025/05/29/3
+    - https://www.openwall.com/lists/oss-security/2025/08/18/3
     - https://www.qualys.com/2025/05/29/apport-coredump/apport-coredump.txt
     PublishedDate: '2025-05-30T14:15:23.557Z'
-    LastModifiedDate: '2025-08-12T19:59:36.587Z'
+    LastModifiedDate: '2025-08-18T16:15:28.447Z'
   - VulnerabilityID: CVE-2023-7008
     PkgID: systemd@249.11-0ubuntu3.12
     PkgName: systemd
@@ -7363,7 +7390,9 @@
     - http://www.openwall.com/lists/oss-security/2025/06/05/1
     - http://www.openwall.com/lists/oss-security/2025/06/05/3
     - https://access.redhat.com/security/cve/CVE-2025-4598
+    - https://blogs.oracle.com/linux/post/analysis-of-cve-2025-4598
     - https://bugzilla.redhat.com/show_bug.cgi?id=2369242
+    - https://ciq.com/blog/the-real-danger-of-systemd-coredump-cve-2025-4598/
     - https://git.kernel.org/linus/b5325b2a270fcaf7b2a9a0f23d422ca8a5a8bdea
     - https://github.com/systemd/systemd/commit/0c49e0049b7665bb7769a13ef346fef92e1ad4d6 (main)
     - https://github.com/systemd/systemd/commit/13902e025321242b1d95c6d8b4e482b37f58cdef (main)
@@ -7379,9 +7408,10 @@
     - https://ubuntu.com/security/notices/USN-7559-1
     - https://www.cve.org/CVERecord?id=CVE-2025-4598
     - https://www.openwall.com/lists/oss-security/2025/05/29/3
+    - https://www.openwall.com/lists/oss-security/2025/08/18/3
     - https://www.qualys.com/2025/05/29/apport-coredump/apport-coredump.txt
     PublishedDate: '2025-05-30T14:15:23.557Z'
-    LastModifiedDate: '2025-08-12T19:59:36.587Z'
+    LastModifiedDate: '2025-08-18T16:15:28.447Z'
   - VulnerabilityID: CVE-2023-7008
     PkgID: systemd-sysv@249.11-0ubuntu3.12
     PkgName: systemd-sysv
@@ -7481,7 +7511,9 @@
     - http://www.openwall.com/lists/oss-security/2025/06/05/1
     - http://www.openwall.com/lists/oss-security/2025/06/05/3
     - https://access.redhat.com/security/cve/CVE-2025-4598
+    - https://blogs.oracle.com/linux/post/analysis-of-cve-2025-4598
     - https://bugzilla.redhat.com/show_bug.cgi?id=2369242
+    - https://ciq.com/blog/the-real-danger-of-systemd-coredump-cve-2025-4598/
     - https://git.kernel.org/linus/b5325b2a270fcaf7b2a9a0f23d422ca8a5a8bdea
     - https://github.com/systemd/systemd/commit/0c49e0049b7665bb7769a13ef346fef92e1ad4d6 (main)
     - https://github.com/systemd/systemd/commit/13902e025321242b1d95c6d8b4e482b37f58cdef (main)
@@ -7497,9 +7529,10 @@
     - https://ubuntu.com/security/notices/USN-7559-1
     - https://www.cve.org/CVERecord?id=CVE-2025-4598
     - https://www.openwall.com/lists/oss-security/2025/05/29/3
+    - https://www.openwall.com/lists/oss-security/2025/08/18/3
     - https://www.qualys.com/2025/05/29/apport-coredump/apport-coredump.txt
     PublishedDate: '2025-05-30T14:15:23.557Z'
-    LastModifiedDate: '2025-08-12T19:59:36.587Z'
+    LastModifiedDate: '2025-08-18T16:15:28.447Z'
   - VulnerabilityID: CVE-2023-7008
     PkgID: systemd-timesyncd@249.11-0ubuntu3.12
     PkgName: systemd-timesyncd
@@ -7578,7 +7611,7 @@
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Title: 'tar: Tar path traversal'
-    Description: GNU Tar through 1.35 allows file overwrite via directory traversal in crafted TAR archives, with a certain two-step process. First, the victim must extract an archive that contains a ../ symlink to a critical directory. Second, the victim must extract an archive that contains a critical file, specified via a relative pathname that begins with the symlink name and ends with that critical file's name. Here, the extraction follows the symlink and overwrites the critical file. This bypasses the protection mechanism of "Member name contains '..'" that would occur for a single TAR archive that attempted to specify the critical file via a ../ approach. For example, the first archive can contain "x -> ../../../../../home/victim/.ssh" and the second archive can contain x/authorized_keys. This can affect server applications that automatically extract any number of user-supplied TAR archives, and were relying on the blocking of traversal. This can also affect software installation processes in which "tar xf" is run more than once (e.g., when installing a package can automatically install two dependencies that are set up as untrusted tarballs instead of official packages).
+    Description: 'GNU Tar through 1.35 allows file overwrite via directory traversal in crafted TAR archives, with a certain two-step process. First, the victim must extract an archive that contains a ../ symlink to a critical directory. Second, the victim must extract an archive that contains a critical file, specified via a relative pathname that begins with the symlink name and ends with that critical file''s name. Here, the extraction follows the symlink and overwrites the critical file. This bypasses the protection mechanism of "Member name contains ''..''" that would occur for a single TAR archive that attempted to specify the critical file via a ../ approach. For example, the first archive can contain "x -> ../../../../../home/victim/.ssh" and the second archive can contain x/authorized_keys. This can affect server applications that automatically extract any number of user-supplied TAR archives, and were relying on the blocking of traversal. This can also affect software installation processes in which "tar xf" is run more than once (e.g., when installing a package can automatically install two dependencies that are set up as untrusted tarballs instead of official packages). NOTE: the official GNU Tar manual has an otherwise-empty directory for each "tar xf" in its Security Rules of Thumb; however, third-party advice leads users to run "tar xf" more than once into the same directory.'
     Severity: MEDIUM
     CweIDs:
     - CWE-24
@@ -7592,12 +7625,15 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2025-45582
     - https://github.com/i900008/vulndb/blob/main/Gnu_tar_vuln.md
+    - https://lists.gnu.org/archive/html/bug-tar/2025-08/msg00012.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-45582
     - https://www.cve.org/CVERecord?id=CVE-2025-45582
     - https://www.gnu.org/software/tar/
+    - https://www.gnu.org/software/tar/manual/html_node/Integrity.html
     - https://www.gnu.org/software/tar/manual/html_node/Integrity.html#Integrity
+    - https://www.gnu.org/software/tar/manual/html_node/Security-rules-of-thumb.html
     PublishedDate: '2025-07-11T17:15:37.183Z'
-    LastModifiedDate: '2025-07-17T13:09:39.997Z'
+    LastModifiedDate: '2025-08-18T04:15:36.743Z'
   - VulnerabilityID: CVE-2023-29383
     PkgID: uidmap@1:4.8.1-2ubuntu2.2
     PkgName: uidmap
@@ -7727,7 +7763,7 @@
     - https://ubuntu.com/security/notices/USN-7419-1
     - https://www.cve.org/CVERecord?id=CVE-2025-26603
     PublishedDate: '2025-02-18T19:15:29.387Z'
-    LastModifiedDate: '2025-03-07T01:15:12.7Z'
+    LastModifiedDate: '2025-08-18T18:23:32.98Z'
   - VulnerabilityID: CVE-2025-26603
     PkgID: vim-common@2:8.2.3995-1ubuntu2.23
     PkgName: vim-common
@@ -7772,7 +7808,7 @@
     - https://ubuntu.com/security/notices/USN-7419-1
     - https://www.cve.org/CVERecord?id=CVE-2025-26603
     PublishedDate: '2025-02-18T19:15:29.387Z'
-    LastModifiedDate: '2025-03-07T01:15:12.7Z'
+    LastModifiedDate: '2025-08-18T18:23:32.98Z'
   - VulnerabilityID: CVE-2025-26603
     PkgID: vim-runtime@2:8.2.3995-1ubuntu2.23
     PkgName: vim-runtime
@@ -7817,7 +7853,7 @@
     - https://ubuntu.com/security/notices/USN-7419-1
     - https://www.cve.org/CVERecord?id=CVE-2025-26603
     PublishedDate: '2025-02-18T19:15:29.387Z'
-    LastModifiedDate: '2025-03-07T01:15:12.7Z'
+    LastModifiedDate: '2025-08-18T18:23:32.98Z'
   - VulnerabilityID: CVE-2021-31879
     PkgID: wget@1.21.2-2ubuntu1.1
     PkgName: wget
@@ -7909,7 +7945,7 @@
     - https://ubuntu.com/security/notices/USN-7419-1
     - https://www.cve.org/CVERecord?id=CVE-2025-26603
     PublishedDate: '2025-02-18T19:15:29.387Z'
-    LastModifiedDate: '2025-03-07T01:15:12.7Z'
+    LastModifiedDate: '2025-08-18T18:23:32.98Z'
 - Target: Java
   Class: lang-pkgs
   Type: jar
@@ -7938,6 +7974,7 @@
     CweIDs:
     - CWE-674
     VendorSeverity:
+      amazon: 1
       ghsa: 2
       redhat: 1
     CVSS:
@@ -7980,6 +8017,7 @@
     CweIDs:
     - CWE-674
     VendorSeverity:
+      amazon: 1
       ghsa: 2
       redhat: 1
     CVSS:
