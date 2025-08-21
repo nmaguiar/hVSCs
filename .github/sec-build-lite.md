@@ -171,9 +171,13 @@
 │                        │      ├ Severity        : LOW 
 │                        │      ├ CweIDs           ─ [0]: CWE-190 
 │                        │      ├ VendorSeverity   ╭ amazon: 3 
+│                        │      │                  ├ nvd   : 3 
 │                        │      │                  ├ redhat: 1 
 │                        │      │                  ╰ ubuntu: 1 
-│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:
+│                        │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
+│                        │      │                  │        │           N/A:H 
+│                        │      │                  │        ╰ V3Score : 7.5 
+│                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:
 │                        │      │                           │           N/A:L 
 │                        │      │                           ╰ V3Score : 3.7 
 │                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-6052 
@@ -183,7 +187,7 @@
 │                        │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-6052 
 │                        │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2025-6052 
 │                        │      ├ PublishedDate   : 2025-06-13T16:15:28.23Z 
-│                        │      ╰ LastModifiedDate: 2025-06-16T12:32:18.84Z 
+│                        │      ╰ LastModifiedDate: 2025-08-20T17:27:24.26Z 
 │                        ├ [4]  ╭ VulnerabilityID : CVE-2024-52005 
 │                        │      ├ PkgID           : git@1:2.43.0-1ubuntu7.3 
 │                        │      ├ PkgName         : git 
@@ -1070,9 +1074,13 @@
 │                        │      ├ Severity        : LOW 
 │                        │      ├ CweIDs           ─ [0]: CWE-190 
 │                        │      ├ VendorSeverity   ╭ amazon: 3 
+│                        │      │                  ├ nvd   : 3 
 │                        │      │                  ├ redhat: 1 
 │                        │      │                  ╰ ubuntu: 1 
-│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:
+│                        │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
+│                        │      │                  │        │           N/A:H 
+│                        │      │                  │        ╰ V3Score : 7.5 
+│                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:
 │                        │      │                           │           N/A:L 
 │                        │      │                           ╰ V3Score : 3.7 
 │                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-6052 
@@ -1082,7 +1090,7 @@
 │                        │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-6052 
 │                        │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2025-6052 
 │                        │      ├ PublishedDate   : 2025-06-13T16:15:28.23Z 
-│                        │      ╰ LastModifiedDate: 2025-06-16T12:32:18.84Z 
+│                        │      ╰ LastModifiedDate: 2025-08-20T17:27:24.26Z 
 │                        ├ [23] ╭ VulnerabilityID : CVE-2025-6052 
 │                        │      ├ PkgID           : libglib2.0-data@2.80.0-6ubuntu3.4 
 │                        │      ├ PkgName         : libglib2.0-data 
@@ -1112,9 +1120,13 @@
 │                        │      ├ Severity        : LOW 
 │                        │      ├ CweIDs           ─ [0]: CWE-190 
 │                        │      ├ VendorSeverity   ╭ amazon: 3 
+│                        │      │                  ├ nvd   : 3 
 │                        │      │                  ├ redhat: 1 
 │                        │      │                  ╰ ubuntu: 1 
-│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:
+│                        │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
+│                        │      │                  │        │           N/A:H 
+│                        │      │                  │        ╰ V3Score : 7.5 
+│                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:
 │                        │      │                           │           N/A:L 
 │                        │      │                           ╰ V3Score : 3.7 
 │                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-6052 
@@ -1124,7 +1136,7 @@
 │                        │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-6052 
 │                        │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2025-6052 
 │                        │      ├ PublishedDate   : 2025-06-13T16:15:28.23Z 
-│                        │      ╰ LastModifiedDate: 2025-06-16T12:32:18.84Z 
+│                        │      ╰ LastModifiedDate: 2025-08-20T17:27:24.26Z 
 │                        ├ [24] ╭ VulnerabilityID : CVE-2025-5222 
 │                        │      ├ PkgID           : libicu74@74.2-1ubuntu3.1 
 │                        │      ├ PkgName         : libicu74 
@@ -1926,7 +1938,284 @@
 │                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                        │      ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                        │      ╰ LastModifiedDate: 2024-12-26T09:15:07.267Z 
-│                        ├ [38] ╭ VulnerabilityID : CVE-2024-56433 
+│                        ├ [38] ╭ VulnerabilityID : CVE-2025-49794 
+│                        │      ├ PkgID           : libxml2@2.9.14+dfsg-1.3ubuntu3.3 
+│                        │      ├ PkgName         : libxml2 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libxml2@2.9.14%2Bdfsg-1.3ubuntu3.3?ar
+│                        │      │                  │       ch=amd64&distro=ubuntu-24.04 
+│                        │      │                  ╰ UID : 40e9d95b2782b7c4 
+│                        │      ├ InstalledVersion: 2.9.14+dfsg-1.3ubuntu3.3 
+│                        │      ├ FixedVersion    : 2.9.14+dfsg-1.3ubuntu3.4 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:b25b5c28dff7ffbb5d7c36a7a6f54aa53dd0f77ddf1
+│                        │      │                  │         1d5bd4771f6ad9168cdc5 
+│                        │      │                  ╰ DiffID: sha256:f5a8dfe2745d88d380e799a454a8728acc52a14da58
+│                        │      │                            ed4ff065e78e54b5ec643 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-49794 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : libxml: Heap use after free (UAF) leads to Denial of
+│                        │      │                   service (DoS) 
+│                        │      ├ Description     : A use-after-free vulnerability was found in libxml2. This
+│                        │      │                   issue occurs when parsing XPath elements under certain
+│                        │      │                   circumstances when the XML schematron has the <sch:name
+│                        │      │                   path="..."/> schema elements. This flaw allows a malicious
+│                        │      │                   actor to craft a malicious XML document used as input for
+│                        │      │                   libxml, resulting in the program's crash using libxml or
+│                        │      │                   other possible undefined behaviors. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ CweIDs           ─ [0]: CWE-825 
+│                        │      ├ VendorSeverity   ╭ alma       : 3 
+│                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ azure      : 4 
+│                        │      │                  ├ cbl-mariner: 4 
+│                        │      │                  ├ oracle-oval: 3 
+│                        │      │                  ├ photon     : 4 
+│                        │      │                  ├ redhat     : 3 
+│                        │      │                  ├ rocky      : 3 
+│                        │      │                  ╰ ubuntu     : 2 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
+│                        │      │                           │           H/A:H 
+│                        │      │                           ╰ V3Score : 9.1 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:10630 
+│                        │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:10698 
+│                        │      │                  ├ [2] : https://access.redhat.com/errata/RHSA-2025:10699 
+│                        │      │                  ├ [3] : https://access.redhat.com/errata/RHSA-2025:11580 
+│                        │      │                  ├ [4] : https://access.redhat.com/errata/RHSA-2025:12098 
+│                        │      │                  ├ [5] : https://access.redhat.com/errata/RHSA-2025:12099 
+│                        │      │                  ├ [6] : https://access.redhat.com/errata/RHSA-2025:12199 
+│                        │      │                  ├ [7] : https://access.redhat.com/errata/RHSA-2025:12237 
+│                        │      │                  ├ [8] : https://access.redhat.com/errata/RHSA-2025:12239 
+│                        │      │                  ├ [9] : https://access.redhat.com/errata/RHSA-2025:12240 
+│                        │      │                  ├ [10]: https://access.redhat.com/errata/RHSA-2025:12241 
+│                        │      │                  ├ [11]: https://access.redhat.com/errata/RHSA-2025:13335 
+│                        │      │                  ├ [12]: https://access.redhat.com/security/cve/CVE-2025-49794 
+│                        │      │                  ├ [13]: https://bugzilla.redhat.com/2372373 
+│                        │      │                  ├ [14]: https://bugzilla.redhat.com/2372385 
+│                        │      │                  ├ [15]: https://bugzilla.redhat.com/2372406 
+│                        │      │                  ├ [16]: https://bugzilla.redhat.com/show_bug.cgi?id=2372373 
+│                        │      │                  ├ [17]: https://bugzilla.redhat.com/show_bug.cgi?id=2372385 
+│                        │      │                  ├ [18]: https://bugzilla.redhat.com/show_bug.cgi?id=2372406 
+│                        │      │                  ├ [19]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                        │      │                  │       025-49794 
+│                        │      │                  ├ [20]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                        │      │                  │       025-49796 
+│                        │      │                  ├ [21]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                        │      │                  │       025-6021 
+│                        │      │                  ├ [22]: https://errata.almalinux.org/9/ALSA-2025-10699.html 
+│                        │      │                  ├ [23]: https://errata.rockylinux.org/RLSA-2025:10698 
+│                        │      │                  ├ [24]: https://gitlab.gnome.org/GNOME/libxml2/-/issues/931 
+│                        │      │                  ├ [25]: https://linux.oracle.com/cve/CVE-2025-49794.html 
+│                        │      │                  ├ [26]: https://linux.oracle.com/errata/ELSA-2025-12240.html 
+│                        │      │                  ├ [27]: https://nvd.nist.gov/vuln/detail/CVE-2025-49794 
+│                        │      │                  ├ [28]: https://ubuntu.com/security/notices/USN-7694-1 
+│                        │      │                  ╰ [29]: https://www.cve.org/CVERecord?id=CVE-2025-49794 
+│                        │      ├ PublishedDate   : 2025-06-16T16:15:18.997Z 
+│                        │      ╰ LastModifiedDate: 2025-08-07T09:15:27.75Z 
+│                        ├ [39] ╭ VulnerabilityID : CVE-2025-49796 
+│                        │      ├ PkgID           : libxml2@2.9.14+dfsg-1.3ubuntu3.3 
+│                        │      ├ PkgName         : libxml2 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libxml2@2.9.14%2Bdfsg-1.3ubuntu3.3?ar
+│                        │      │                  │       ch=amd64&distro=ubuntu-24.04 
+│                        │      │                  ╰ UID : 40e9d95b2782b7c4 
+│                        │      ├ InstalledVersion: 2.9.14+dfsg-1.3ubuntu3.3 
+│                        │      ├ FixedVersion    : 2.9.14+dfsg-1.3ubuntu3.4 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:b25b5c28dff7ffbb5d7c36a7a6f54aa53dd0f77ddf1
+│                        │      │                  │         1d5bd4771f6ad9168cdc5 
+│                        │      │                  ╰ DiffID: sha256:f5a8dfe2745d88d380e799a454a8728acc52a14da58
+│                        │      │                            ed4ff065e78e54b5ec643 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-49796 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : libxml: Type confusion leads to Denial of service (DoS) 
+│                        │      ├ Description     : A vulnerability was found in libxml2. Processing certain
+│                        │      │                   sch:name elements from the input XML file can trigger a
+│                        │      │                   memory corruption issue. This flaw allows an attacker to
+│                        │      │                   craft a malicious XML input file that can lead libxml to
+│                        │      │                   crash, resulting in a denial of service or other possible
+│                        │      │                   undefined behavior due to sensitive data being corrupted in
+│                        │      │                    memory. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ CweIDs           ─ [0]: CWE-125 
+│                        │      ├ VendorSeverity   ╭ alma       : 3 
+│                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ azure      : 4 
+│                        │      │                  ├ cbl-mariner: 4 
+│                        │      │                  ├ oracle-oval: 3 
+│                        │      │                  ├ photon     : 4 
+│                        │      │                  ├ redhat     : 3 
+│                        │      │                  ├ rocky      : 3 
+│                        │      │                  ╰ ubuntu     : 2 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
+│                        │      │                           │           H/A:H 
+│                        │      │                           ╰ V3Score : 9.1 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:10630 
+│                        │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:10698 
+│                        │      │                  ├ [2] : https://access.redhat.com/errata/RHSA-2025:10699 
+│                        │      │                  ├ [3] : https://access.redhat.com/errata/RHSA-2025:11580 
+│                        │      │                  ├ [4] : https://access.redhat.com/errata/RHSA-2025:12098 
+│                        │      │                  ├ [5] : https://access.redhat.com/errata/RHSA-2025:12099 
+│                        │      │                  ├ [6] : https://access.redhat.com/errata/RHSA-2025:12199 
+│                        │      │                  ├ [7] : https://access.redhat.com/errata/RHSA-2025:12237 
+│                        │      │                  ├ [8] : https://access.redhat.com/errata/RHSA-2025:12239 
+│                        │      │                  ├ [9] : https://access.redhat.com/errata/RHSA-2025:12240 
+│                        │      │                  ├ [10]: https://access.redhat.com/errata/RHSA-2025:12241 
+│                        │      │                  ├ [11]: https://access.redhat.com/errata/RHSA-2025:13267 
+│                        │      │                  ├ [12]: https://access.redhat.com/errata/RHSA-2025:13335 
+│                        │      │                  ├ [13]: https://access.redhat.com/security/cve/CVE-2025-49796 
+│                        │      │                  ├ [14]: https://bugzilla.redhat.com/2372373 
+│                        │      │                  ├ [15]: https://bugzilla.redhat.com/2372385 
+│                        │      │                  ├ [16]: https://bugzilla.redhat.com/2372406 
+│                        │      │                  ├ [17]: https://bugzilla.redhat.com/show_bug.cgi?id=2372373 
+│                        │      │                  ├ [18]: https://bugzilla.redhat.com/show_bug.cgi?id=2372385 
+│                        │      │                  ├ [19]: https://bugzilla.redhat.com/show_bug.cgi?id=2372406 
+│                        │      │                  ├ [20]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                        │      │                  │       025-49794 
+│                        │      │                  ├ [21]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                        │      │                  │       025-49796 
+│                        │      │                  ├ [22]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                        │      │                  │       025-6021 
+│                        │      │                  ├ [23]: https://errata.almalinux.org/9/ALSA-2025-10699.html 
+│                        │      │                  ├ [24]: https://errata.rockylinux.org/RLSA-2025:10698 
+│                        │      │                  ├ [25]: https://gitlab.gnome.org/GNOME/libxml2/-/issues/933 
+│                        │      │                  ├ [26]: https://linux.oracle.com/cve/CVE-2025-49796.html 
+│                        │      │                  ├ [27]: https://linux.oracle.com/errata/ELSA-2025-12240.html 
+│                        │      │                  ├ [28]: https://nvd.nist.gov/vuln/detail/CVE-2025-49796 
+│                        │      │                  ├ [29]: https://ubuntu.com/security/notices/USN-7694-1 
+│                        │      │                  ╰ [30]: https://www.cve.org/CVERecord?id=CVE-2025-49796 
+│                        │      ├ PublishedDate   : 2025-06-16T16:15:19.37Z 
+│                        │      ╰ LastModifiedDate: 2025-08-07T09:15:27.99Z 
+│                        ├ [40] ╭ VulnerabilityID : CVE-2025-6021 
+│                        │      ├ PkgID           : libxml2@2.9.14+dfsg-1.3ubuntu3.3 
+│                        │      ├ PkgName         : libxml2 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libxml2@2.9.14%2Bdfsg-1.3ubuntu3.3?ar
+│                        │      │                  │       ch=amd64&distro=ubuntu-24.04 
+│                        │      │                  ╰ UID : 40e9d95b2782b7c4 
+│                        │      ├ InstalledVersion: 2.9.14+dfsg-1.3ubuntu3.3 
+│                        │      ├ FixedVersion    : 2.9.14+dfsg-1.3ubuntu3.4 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:b25b5c28dff7ffbb5d7c36a7a6f54aa53dd0f77ddf1
+│                        │      │                  │         1d5bd4771f6ad9168cdc5 
+│                        │      │                  ╰ DiffID: sha256:f5a8dfe2745d88d380e799a454a8728acc52a14da58
+│                        │      │                            ed4ff065e78e54b5ec643 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-6021 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : libxml2: Integer Overflow in xmlBuildQName() Leads to Stack
+│                        │      │                    Buffer Overflow in libxml2 
+│                        │      ├ Description     : A flaw was found in libxml2's xmlBuildQName function, where
+│                        │      │                    integer overflows in buffer size calculations can lead to
+│                        │      │                   a stack-based buffer overflow. This issue can result in
+│                        │      │                   memory corruption or a denial of service when processing
+│                        │      │                   crafted input. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ CweIDs           ─ [0]: CWE-121 
+│                        │      ├ VendorSeverity   ╭ alma       : 3 
+│                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ azure      : 2 
+│                        │      │                  ├ cbl-mariner: 2 
+│                        │      │                  ├ oracle-oval: 3 
+│                        │      │                  ├ photon     : 3 
+│                        │      │                  ├ redhat     : 2 
+│                        │      │                  ├ rocky      : 3 
+│                        │      │                  ╰ ubuntu     : 2 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
+│                        │      │                           │           N/A:H 
+│                        │      │                           ╰ V3Score : 7.5 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:10630 
+│                        │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:10698 
+│                        │      │                  ├ [2] : https://access.redhat.com/errata/RHSA-2025:10699 
+│                        │      │                  ├ [3] : https://access.redhat.com/errata/RHSA-2025:11580 
+│                        │      │                  ├ [4] : https://access.redhat.com/errata/RHSA-2025:12098 
+│                        │      │                  ├ [5] : https://access.redhat.com/errata/RHSA-2025:12099 
+│                        │      │                  ├ [6] : https://access.redhat.com/errata/RHSA-2025:12199 
+│                        │      │                  ├ [7] : https://access.redhat.com/errata/RHSA-2025:12237 
+│                        │      │                  ├ [8] : https://access.redhat.com/errata/RHSA-2025:12239 
+│                        │      │                  ├ [9] : https://access.redhat.com/errata/RHSA-2025:12240 
+│                        │      │                  ├ [10]: https://access.redhat.com/errata/RHSA-2025:12241 
+│                        │      │                  ├ [11]: https://access.redhat.com/errata/RHSA-2025:13267 
+│                        │      │                  ├ [12]: https://access.redhat.com/errata/RHSA-2025:13289 
+│                        │      │                  ├ [13]: https://access.redhat.com/errata/RHSA-2025:13325 
+│                        │      │                  ├ [14]: https://access.redhat.com/errata/RHSA-2025:13335 
+│                        │      │                  ├ [15]: https://access.redhat.com/errata/RHSA-2025:13336 
+│                        │      │                  ├ [16]: https://access.redhat.com/security/cve/CVE-2025-6021 
+│                        │      │                  ├ [17]: https://bugzilla.redhat.com/2372373 
+│                        │      │                  ├ [18]: https://bugzilla.redhat.com/2372385 
+│                        │      │                  ├ [19]: https://bugzilla.redhat.com/2372406 
+│                        │      │                  ├ [20]: https://bugzilla.redhat.com/show_bug.cgi?id=2372373 
+│                        │      │                  ├ [21]: https://bugzilla.redhat.com/show_bug.cgi?id=2372385 
+│                        │      │                  ├ [22]: https://bugzilla.redhat.com/show_bug.cgi?id=2372406 
+│                        │      │                  ├ [23]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                        │      │                  │       025-49794 
+│                        │      │                  ├ [24]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                        │      │                  │       025-49796 
+│                        │      │                  ├ [25]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                        │      │                  │       025-6021 
+│                        │      │                  ├ [26]: https://errata.almalinux.org/9/ALSA-2025-10699.html 
+│                        │      │                  ├ [27]: https://errata.rockylinux.org/RLSA-2025:10698 
+│                        │      │                  ├ [28]: https://gitlab.gnome.org/GNOME/libxml2/-/issues/926 
+│                        │      │                  ├ [29]: https://linux.oracle.com/cve/CVE-2025-6021.html 
+│                        │      │                  ├ [30]: https://linux.oracle.com/errata/ELSA-2025-12240.html 
+│                        │      │                  ├ [31]: https://nvd.nist.gov/vuln/detail/CVE-2025-6021 
+│                        │      │                  ├ [32]: https://ubuntu.com/security/notices/USN-7694-1 
+│                        │      │                  ╰ [33]: https://www.cve.org/CVERecord?id=CVE-2025-6021 
+│                        │      ├ PublishedDate   : 2025-06-12T13:15:25.59Z 
+│                        │      ╰ LastModifiedDate: 2025-08-14T09:15:27.03Z 
+│                        ├ [41] ╭ VulnerabilityID : CVE-2025-6170 
+│                        │      ├ PkgID           : libxml2@2.9.14+dfsg-1.3ubuntu3.3 
+│                        │      ├ PkgName         : libxml2 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libxml2@2.9.14%2Bdfsg-1.3ubuntu3.3?ar
+│                        │      │                  │       ch=amd64&distro=ubuntu-24.04 
+│                        │      │                  ╰ UID : 40e9d95b2782b7c4 
+│                        │      ├ InstalledVersion: 2.9.14+dfsg-1.3ubuntu3.3 
+│                        │      ├ FixedVersion    : 2.9.14+dfsg-1.3ubuntu3.4 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:b25b5c28dff7ffbb5d7c36a7a6f54aa53dd0f77ddf1
+│                        │      │                  │         1d5bd4771f6ad9168cdc5 
+│                        │      │                  ╰ DiffID: sha256:f5a8dfe2745d88d380e799a454a8728acc52a14da58
+│                        │      │                            ed4ff065e78e54b5ec643 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-6170 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : libxml2: Stack Buffer Overflow in xmllint Interactive Shell
+│                        │      │                    Command Handling 
+│                        │      ├ Description     : A flaw was found in the interactive shell of the xmllint
+│                        │      │                   command-line tool, used for parsing XML files. When a user
+│                        │      │                   inputs an overly long command, the program does not check
+│                        │      │                   the input size properly, which can cause it to crash. This
+│                        │      │                   issue might allow attackers to run harmful code in rare
+│                        │      │                   configurations without modern protections. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ CweIDs           ─ [0]: CWE-121 
+│                        │      ├ VendorSeverity   ╭ azure      : 1 
+│                        │      │                  ├ cbl-mariner: 1 
+│                        │      │                  ├ nvd        : 1 
+│                        │      │                  ├ redhat     : 1 
+│                        │      │                  ╰ ubuntu     : 2 
+│                        │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:N/I:
+│                        │      │                  │        │           N/A:L 
+│                        │      │                  │        ╰ V3Score : 2.5 
+│                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:N/I:
+│                        │      │                           │           N/A:L 
+│                        │      │                           ╰ V3Score : 2.5 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-6170 
+│                        │      │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2372952 
+│                        │      │                  ├ [2]: https://gitlab.gnome.org/GNOME/libxml2/-/issues/941 
+│                        │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-6170 
+│                        │      │                  ├ [4]: https://ubuntu.com/security/notices/USN-7694-1 
+│                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-6170 
+│                        │      ├ PublishedDate   : 2025-06-16T16:15:20.43Z 
+│                        │      ╰ LastModifiedDate: 2025-08-12T13:04:06.117Z 
+│                        ├ [42] ╭ VulnerabilityID : CVE-2024-56433 
 │                        │      ├ PkgID           : login@1:4.13+dfsg1-4ubuntu3.2 
 │                        │      ├ PkgName         : login 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/login@4.13%2Bdfsg1-4ubuntu3.2?arch=am
@@ -1974,7 +2263,7 @@
 │                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                        │      ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                        │      ╰ LastModifiedDate: 2024-12-26T09:15:07.267Z 
-│                        ├ [39] ╭ VulnerabilityID : CVE-2024-41996 
+│                        ├ [43] ╭ VulnerabilityID : CVE-2024-41996 
 │                        │      ├ PkgID           : openssl@3.0.13-0ubuntu3.5 
 │                        │      ├ PkgName         : openssl 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl@3.0.13-0ubuntu3.5?arch=amd64&
@@ -2024,7 +2313,7 @@
 │                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-41996 
 │                        │      ├ PublishedDate   : 2024-08-26T06:15:04.603Z 
 │                        │      ╰ LastModifiedDate: 2024-08-26T16:35:11.247Z 
-│                        ├ [40] ╭ VulnerabilityID : CVE-2024-56433 
+│                        ├ [44] ╭ VulnerabilityID : CVE-2024-56433 
 │                        │      ├ PkgID           : passwd@1:4.13+dfsg1-4ubuntu3.2 
 │                        │      ├ PkgName         : passwd 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/passwd@4.13%2Bdfsg1-4ubuntu3.2?arch=a
@@ -2072,7 +2361,7 @@
 │                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                        │      ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                        │      ╰ LastModifiedDate: 2024-12-26T09:15:07.267Z 
-│                        ├ [41] ╭ VulnerabilityID : CVE-2018-6952 
+│                        ├ [45] ╭ VulnerabilityID : CVE-2018-6952 
 │                        │      ├ PkgID           : patch@2.7.6-7build3 
 │                        │      ├ PkgName         : patch 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/patch@2.7.6-7build3?arch=amd64&distro
@@ -2122,7 +2411,7 @@
 │                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2018-6952 
 │                        │      ├ PublishedDate   : 2018-02-13T19:29:00.573Z 
 │                        │      ╰ LastModifiedDate: 2024-11-21T04:11:28.42Z 
-│                        ├ [42] ╭ VulnerabilityID : CVE-2021-45261 
+│                        ├ [46] ╭ VulnerabilityID : CVE-2021-45261 
 │                        │      ├ PkgID           : patch@2.7.6-7build3 
 │                        │      ├ PkgName         : patch 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/patch@2.7.6-7build3?arch=amd64&distro
@@ -2162,7 +2451,7 @@
 │                        │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2021-45261 
 │                        │      ├ PublishedDate   : 2021-12-22T18:15:08.1Z 
 │                        │      ╰ LastModifiedDate: 2024-11-21T06:32:02.633Z 
-│                        ├ [43] ╭ VulnerabilityID : CVE-2025-6069 
+│                        ├ [47] ╭ VulnerabilityID : CVE-2025-6069 
 │                        │      ├ PkgID           : python3.12@3.12.3-1ubuntu0.7 
 │                        │      ├ PkgName         : python3.12 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/python3.12@3.12.3-1ubuntu0.7?arch=amd
@@ -2223,7 +2512,7 @@
 │                        │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2025-6069 
 │                        │      ├ PublishedDate   : 2025-06-17T14:15:33.677Z 
 │                        │      ╰ LastModifiedDate: 2025-07-07T18:15:29.15Z 
-│                        ├ [44] ╭ VulnerabilityID : CVE-2025-6069 
+│                        ├ [48] ╭ VulnerabilityID : CVE-2025-6069 
 │                        │      ├ PkgID           : python3.12-minimal@3.12.3-1ubuntu0.7 
 │                        │      ├ PkgName         : python3.12-minimal 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/python3.12-minimal@3.12.3-1ubuntu0.7?
@@ -2284,7 +2573,7 @@
 │                        │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2025-6069 
 │                        │      ├ PublishedDate   : 2025-06-17T14:15:33.677Z 
 │                        │      ╰ LastModifiedDate: 2025-07-07T18:15:29.15Z 
-│                        ├ [45] ╭ VulnerabilityID : CVE-2025-45582 
+│                        ├ [49] ╭ VulnerabilityID : CVE-2025-45582 
 │                        │      ├ PkgID           : tar@1.35+dfsg-3build1 
 │                        │      ├ PkgName         : tar 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/tar@1.35%2Bdfsg-3build1?arch=amd64&di
@@ -2350,7 +2639,7 @@
 │                        │      │                         urity-rules-of-thumb.html 
 │                        │      ├ PublishedDate   : 2025-07-11T17:15:37.183Z 
 │                        │      ╰ LastModifiedDate: 2025-08-18T04:15:36.743Z 
-│                        ├ [46] ╭ VulnerabilityID : CVE-2024-56433 
+│                        ├ [50] ╭ VulnerabilityID : CVE-2024-56433 
 │                        │      ├ PkgID           : uidmap@1:4.13+dfsg1-4ubuntu3.2 
 │                        │      ├ PkgName         : uidmap 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/uidmap@4.13%2Bdfsg1-4ubuntu3.2?arch=a
@@ -2398,7 +2687,7 @@
 │                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                        │      ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                        │      ╰ LastModifiedDate: 2024-12-26T09:15:07.267Z 
-│                        ╰ [47] ╭ VulnerabilityID : CVE-2021-31879 
+│                        ╰ [51] ╭ VulnerabilityID : CVE-2021-31879 
 │                               ├ PkgID           : wget@1.21.4-1ubuntu4.1 
 │                               ├ PkgName         : wget 
 │                               ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/wget@1.21.4-1ubuntu4.1?arch=amd64&dis
