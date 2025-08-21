@@ -4372,7 +4372,7 @@
     - CWE-426
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       cbl-mariner: 2
       oracle-oval: 2
       redhat: 2
@@ -4973,7 +4973,7 @@
     - https://errata.almalinux.org/9/ALSA-2025-11992.html
     - https://errata.rockylinux.org/RLSA-2025:12010
     - https://linux.oracle.com/cve/CVE-2025-6965.html
-    - https://linux.oracle.com/errata/ELSA-2025-12349.html
+    - https://linux.oracle.com/errata/ELSA-2025-14101.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-6965
     - https://ubuntu.com/security/notices/USN-7676-1
     - https://ubuntu.com/security/notices/USN-7679-1
@@ -5000,8 +5000,12 @@
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Title: 'libssh: Write beyond bounds in binary to base64 conversion functions'
-    Description: No description is available for this CVE.
+    Description: |-
+      There's a vulnerability in the libssh package where when a libssh consumer passes in an unexpectedly large input buffer to ssh_get_fingerprint_hash() function. In such cases the bin_to_base64() function can experience an integer overflow leading to a memory under allocation, when that happens it's possible that the program perform out of bounds write leading to a heap corruption.
+      This issue affects only 32-bits builds of libssh.
     Severity: MEDIUM
+    CweIDs:
+    - CWE-787
     VendorSeverity:
       redhat: 2
       ubuntu: 2
@@ -5011,11 +5015,15 @@
         V3Score: 4.5
     References:
     - https://access.redhat.com/security/cve/CVE-2025-4877
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2376193
     - https://git.libssh.org/projects/libssh.git/commit/?h=stable-0.11&id=6fd9cc8ce3958092a1aae11f1f2e911b2747732d
     - https://nvd.nist.gov/vuln/detail/CVE-2025-4877
     - https://ubuntu.com/security/notices/USN-7619-1
+    - https://ubuntu.com/security/notices/USN-7696-1
     - https://www.cve.org/CVERecord?id=CVE-2025-4877
     - https://www.libssh.org/security/advisories/CVE-2025-4877.txt
+    PublishedDate: '2025-08-20T13:15:28.89Z'
+    LastModifiedDate: '2025-08-20T14:39:07.86Z'
   - VulnerabilityID: CVE-2025-4878
     PkgID: libssh-4@0.9.6-2ubuntu0.22.04.3
     PkgName: libssh-4
@@ -5053,6 +5061,7 @@
     - https://git.libssh.org/projects/libssh.git/commit/?id=b35ee876adc92a208d47194772e99f9c71e0bedb
     - https://nvd.nist.gov/vuln/detail/CVE-2025-4878
     - https://ubuntu.com/security/notices/USN-7619-1
+    - https://ubuntu.com/security/notices/USN-7696-1
     - https://www.cve.org/CVERecord?id=CVE-2025-4878
     - https://www.libssh.org/security/advisories/CVE-2025-4878.txt
     PublishedDate: '2025-07-22T15:15:36.307Z'
@@ -5094,6 +5103,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2369131
     - https://nvd.nist.gov/vuln/detail/CVE-2025-5318
     - https://ubuntu.com/security/notices/USN-7619-1
+    - https://ubuntu.com/security/notices/USN-7696-1
     - https://www.cve.org/CVERecord?id=CVE-2025-5318
     - https://www.libssh.org/security/advisories/CVE-2025-5318.txt
     PublishedDate: '2025-06-24T14:15:30.523Z'
@@ -5737,6 +5747,266 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-32415
     PublishedDate: '2025-04-17T17:15:33.733Z'
     LastModifiedDate: '2025-04-23T18:17:52.053Z'
+  - VulnerabilityID: CVE-2025-49794
+    PkgID: libxml2@2.9.13+dfsg-1ubuntu0.6
+    PkgName: libxml2
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libxml2@2.9.13%2Bdfsg-1ubuntu0.6?arch=amd64&distro=ubuntu-22.04
+      UID: b5b6a3d612a1af1b
+    InstalledVersion: 2.9.13+dfsg-1ubuntu0.6
+    FixedVersion: 2.9.13+dfsg-1ubuntu0.8
+    Status: fixed
+    Layer:
+      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
+      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-49794
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'libxml: Heap use after free (UAF) leads to Denial of service (DoS)'
+    Description: A use-after-free vulnerability was found in libxml2. This issue occurs when parsing XPath elements under certain circumstances when the XML schematron has the <sch:name path="..."/> schema elements. This flaw allows a malicious actor to craft a malicious XML document used as input for libxml, resulting in the program's crash using libxml or other possible undefined behaviors.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-825
+    VendorSeverity:
+      alma: 3
+      amazon: 3
+      azure: 4
+      cbl-mariner: 4
+      oracle-oval: 3
+      photon: 4
+      redhat: 3
+      rocky: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:H
+        V3Score: 9.1
+    References:
+    - https://access.redhat.com/errata/RHSA-2025:10630
+    - https://access.redhat.com/errata/RHSA-2025:10698
+    - https://access.redhat.com/errata/RHSA-2025:10699
+    - https://access.redhat.com/errata/RHSA-2025:11580
+    - https://access.redhat.com/errata/RHSA-2025:12098
+    - https://access.redhat.com/errata/RHSA-2025:12099
+    - https://access.redhat.com/errata/RHSA-2025:12199
+    - https://access.redhat.com/errata/RHSA-2025:12237
+    - https://access.redhat.com/errata/RHSA-2025:12239
+    - https://access.redhat.com/errata/RHSA-2025:12240
+    - https://access.redhat.com/errata/RHSA-2025:12241
+    - https://access.redhat.com/errata/RHSA-2025:13335
+    - https://access.redhat.com/security/cve/CVE-2025-49794
+    - https://bugzilla.redhat.com/2372373
+    - https://bugzilla.redhat.com/2372385
+    - https://bugzilla.redhat.com/2372406
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2372373
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2372385
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2372406
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-49794
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-49796
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6021
+    - https://errata.almalinux.org/9/ALSA-2025-10699.html
+    - https://errata.rockylinux.org/RLSA-2025:10698
+    - https://gitlab.gnome.org/GNOME/libxml2/-/issues/931
+    - https://linux.oracle.com/cve/CVE-2025-49794.html
+    - https://linux.oracle.com/errata/ELSA-2025-12240.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-49794
+    - https://ubuntu.com/security/notices/USN-7694-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-49794
+    PublishedDate: '2025-06-16T16:15:18.997Z'
+    LastModifiedDate: '2025-08-07T09:15:27.75Z'
+  - VulnerabilityID: CVE-2025-49796
+    PkgID: libxml2@2.9.13+dfsg-1ubuntu0.6
+    PkgName: libxml2
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libxml2@2.9.13%2Bdfsg-1ubuntu0.6?arch=amd64&distro=ubuntu-22.04
+      UID: b5b6a3d612a1af1b
+    InstalledVersion: 2.9.13+dfsg-1ubuntu0.6
+    FixedVersion: 2.9.13+dfsg-1ubuntu0.8
+    Status: fixed
+    Layer:
+      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
+      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-49796
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'libxml: Type confusion leads to Denial of service (DoS)'
+    Description: A vulnerability was found in libxml2. Processing certain sch:name elements from the input XML file can trigger a memory corruption issue. This flaw allows an attacker to craft a malicious XML input file that can lead libxml to crash, resulting in a denial of service or other possible undefined behavior due to sensitive data being corrupted in memory.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-125
+    VendorSeverity:
+      alma: 3
+      amazon: 3
+      azure: 4
+      cbl-mariner: 4
+      oracle-oval: 3
+      photon: 4
+      redhat: 3
+      rocky: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:H
+        V3Score: 9.1
+    References:
+    - https://access.redhat.com/errata/RHSA-2025:10630
+    - https://access.redhat.com/errata/RHSA-2025:10698
+    - https://access.redhat.com/errata/RHSA-2025:10699
+    - https://access.redhat.com/errata/RHSA-2025:11580
+    - https://access.redhat.com/errata/RHSA-2025:12098
+    - https://access.redhat.com/errata/RHSA-2025:12099
+    - https://access.redhat.com/errata/RHSA-2025:12199
+    - https://access.redhat.com/errata/RHSA-2025:12237
+    - https://access.redhat.com/errata/RHSA-2025:12239
+    - https://access.redhat.com/errata/RHSA-2025:12240
+    - https://access.redhat.com/errata/RHSA-2025:12241
+    - https://access.redhat.com/errata/RHSA-2025:13267
+    - https://access.redhat.com/errata/RHSA-2025:13335
+    - https://access.redhat.com/security/cve/CVE-2025-49796
+    - https://bugzilla.redhat.com/2372373
+    - https://bugzilla.redhat.com/2372385
+    - https://bugzilla.redhat.com/2372406
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2372373
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2372385
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2372406
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-49794
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-49796
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6021
+    - https://errata.almalinux.org/9/ALSA-2025-10699.html
+    - https://errata.rockylinux.org/RLSA-2025:10698
+    - https://gitlab.gnome.org/GNOME/libxml2/-/issues/933
+    - https://linux.oracle.com/cve/CVE-2025-49796.html
+    - https://linux.oracle.com/errata/ELSA-2025-12240.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-49796
+    - https://ubuntu.com/security/notices/USN-7694-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-49796
+    PublishedDate: '2025-06-16T16:15:19.37Z'
+    LastModifiedDate: '2025-08-07T09:15:27.99Z'
+  - VulnerabilityID: CVE-2025-6021
+    PkgID: libxml2@2.9.13+dfsg-1ubuntu0.6
+    PkgName: libxml2
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libxml2@2.9.13%2Bdfsg-1ubuntu0.6?arch=amd64&distro=ubuntu-22.04
+      UID: b5b6a3d612a1af1b
+    InstalledVersion: 2.9.13+dfsg-1ubuntu0.6
+    FixedVersion: 2.9.13+dfsg-1ubuntu0.8
+    Status: fixed
+    Layer:
+      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
+      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-6021
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'libxml2: Integer Overflow in xmlBuildQName() Leads to Stack Buffer Overflow in libxml2'
+    Description: A flaw was found in libxml2's xmlBuildQName function, where integer overflows in buffer size calculations can lead to a stack-based buffer overflow. This issue can result in memory corruption or a denial of service when processing crafted input.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-121
+    VendorSeverity:
+      alma: 3
+      amazon: 3
+      azure: 2
+      cbl-mariner: 2
+      oracle-oval: 3
+      photon: 3
+      redhat: 2
+      rocky: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/errata/RHSA-2025:10630
+    - https://access.redhat.com/errata/RHSA-2025:10698
+    - https://access.redhat.com/errata/RHSA-2025:10699
+    - https://access.redhat.com/errata/RHSA-2025:11580
+    - https://access.redhat.com/errata/RHSA-2025:12098
+    - https://access.redhat.com/errata/RHSA-2025:12099
+    - https://access.redhat.com/errata/RHSA-2025:12199
+    - https://access.redhat.com/errata/RHSA-2025:12237
+    - https://access.redhat.com/errata/RHSA-2025:12239
+    - https://access.redhat.com/errata/RHSA-2025:12240
+    - https://access.redhat.com/errata/RHSA-2025:12241
+    - https://access.redhat.com/errata/RHSA-2025:13267
+    - https://access.redhat.com/errata/RHSA-2025:13289
+    - https://access.redhat.com/errata/RHSA-2025:13325
+    - https://access.redhat.com/errata/RHSA-2025:13335
+    - https://access.redhat.com/errata/RHSA-2025:13336
+    - https://access.redhat.com/security/cve/CVE-2025-6021
+    - https://bugzilla.redhat.com/2372373
+    - https://bugzilla.redhat.com/2372385
+    - https://bugzilla.redhat.com/2372406
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2372373
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2372385
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2372406
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-49794
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-49796
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6021
+    - https://errata.almalinux.org/9/ALSA-2025-10699.html
+    - https://errata.rockylinux.org/RLSA-2025:10698
+    - https://gitlab.gnome.org/GNOME/libxml2/-/issues/926
+    - https://linux.oracle.com/cve/CVE-2025-6021.html
+    - https://linux.oracle.com/errata/ELSA-2025-12240.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-6021
+    - https://ubuntu.com/security/notices/USN-7694-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-6021
+    PublishedDate: '2025-06-12T13:15:25.59Z'
+    LastModifiedDate: '2025-08-14T09:15:27.03Z'
+  - VulnerabilityID: CVE-2025-6170
+    PkgID: libxml2@2.9.13+dfsg-1ubuntu0.6
+    PkgName: libxml2
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libxml2@2.9.13%2Bdfsg-1ubuntu0.6?arch=amd64&distro=ubuntu-22.04
+      UID: b5b6a3d612a1af1b
+    InstalledVersion: 2.9.13+dfsg-1ubuntu0.6
+    FixedVersion: 2.9.13+dfsg-1ubuntu0.8
+    Status: fixed
+    Layer:
+      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
+      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-6170
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'libxml2: Stack Buffer Overflow in xmllint Interactive Shell Command Handling'
+    Description: A flaw was found in the interactive shell of the xmllint command-line tool, used for parsing XML files. When a user inputs an overly long command, the program does not check the input size properly, which can cause it to crash. This issue might allow attackers to run harmful code in rare configurations without modern protections.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-121
+    VendorSeverity:
+      azure: 1
+      cbl-mariner: 1
+      nvd: 1
+      redhat: 1
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:N/I:N/A:L
+        V3Score: 2.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:N/I:N/A:L
+        V3Score: 2.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-6170
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2372952
+    - https://gitlab.gnome.org/GNOME/libxml2/-/issues/941
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-6170
+    - https://ubuntu.com/security/notices/USN-7694-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-6170
+    PublishedDate: '2025-06-16T16:15:20.43Z'
+    LastModifiedDate: '2025-08-12T13:04:06.117Z'
   - VulnerabilityID: CVE-2023-40403
     PkgID: libxslt1.1@1.1.34-4ubuntu0.22.04.3
     PkgName: libxslt1.1
@@ -6571,7 +6841,7 @@
     - CWE-426
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       cbl-mariner: 2
       oracle-oval: 2
       redhat: 2
@@ -6692,7 +6962,7 @@
     - CWE-426
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       cbl-mariner: 2
       oracle-oval: 2
       redhat: 2
@@ -6813,7 +7083,7 @@
     - CWE-426
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       cbl-mariner: 2
       oracle-oval: 2
       redhat: 2
