@@ -350,7 +350,8 @@
       PURL: pkg:deb/ubuntu/gcc-12-base@12.3.0-1ubuntu1~22.04?arch=amd64&distro=ubuntu-22.04
       UID: 4075ab57b22d0ab2
     InstalledVersion: 12.3.0-1ubuntu1~22.04
-    Status: affected
+    FixedVersion: 12.3.0-1ubuntu1~22.04.2
+    Status: fixed
     Layer:
       Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
       DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
@@ -401,6 +402,7 @@
     - https://linux.oracle.com/errata/ELSA-2023-28766.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-4039
     - https://rtx.meta.security/mitigation/2023/09/12/CVE-2023-4039.html
+    - https://ubuntu.com/security/notices/USN-7700-1
     - https://www.cve.org/CVERecord?id=CVE-2023-4039
     PublishedDate: '2023-09-13T09:15:15.69Z'
     LastModifiedDate: '2025-02-13T17:17:14.717Z'
@@ -2052,7 +2054,8 @@
       PURL: pkg:deb/ubuntu/libatomic1@12.3.0-1ubuntu1~22.04?arch=amd64&distro=ubuntu-22.04
       UID: 67fea9c66c815665
     InstalledVersion: 12.3.0-1ubuntu1~22.04
-    Status: affected
+    FixedVersion: 12.3.0-1ubuntu1~22.04.2
+    Status: fixed
     Layer:
       Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
       DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
@@ -2103,6 +2106,7 @@
     - https://linux.oracle.com/errata/ELSA-2023-28766.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-4039
     - https://rtx.meta.security/mitigation/2023/09/12/CVE-2023-4039.html
+    - https://ubuntu.com/security/notices/USN-7700-1
     - https://www.cve.org/CVERecord?id=CVE-2023-4039
     PublishedDate: '2023-09-13T09:15:15.69Z'
     LastModifiedDate: '2025-02-13T17:17:14.717Z'
@@ -2712,7 +2716,8 @@
       PURL: pkg:deb/ubuntu/libgcc-s1@12.3.0-1ubuntu1~22.04?arch=amd64&distro=ubuntu-22.04
       UID: e3536406fb9065ee
     InstalledVersion: 12.3.0-1ubuntu1~22.04
-    Status: affected
+    FixedVersion: 12.3.0-1ubuntu1~22.04.2
+    Status: fixed
     Layer:
       Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
       DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
@@ -2763,6 +2768,7 @@
     - https://linux.oracle.com/errata/ELSA-2023-28766.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-4039
     - https://rtx.meta.security/mitigation/2023/09/12/CVE-2023-4039.html
+    - https://ubuntu.com/security/notices/USN-7700-1
     - https://www.cve.org/CVERecord?id=CVE-2023-4039
     PublishedDate: '2023-09-13T09:15:15.69Z'
     LastModifiedDate: '2025-02-13T17:17:14.717Z'
@@ -2973,10 +2979,14 @@
       amazon: 2
       azure: 2
       cbl-mariner: 2
+      nvd: 3
       photon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:H
+        V3Score: 8.2
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:H
         V3Score: 6.5
@@ -2988,7 +2998,7 @@
     - https://ubuntu.com/security/notices/USN-7635-1
     - https://www.cve.org/CVERecord?id=CVE-2025-32988
     PublishedDate: '2025-07-10T08:15:24.223Z'
-    LastModifiedDate: '2025-07-10T13:17:30.017Z'
+    LastModifiedDate: '2025-08-21T15:37:20.973Z'
   - VulnerabilityID: CVE-2025-32989
     PkgID: libgnutls30@3.7.3-4ubuntu1.6
     PkgName: libgnutls30
@@ -4372,7 +4382,7 @@
     - CWE-426
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       cbl-mariner: 2
       oracle-oval: 2
       redhat: 2
@@ -5048,6 +5058,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
+      photon: 3
       redhat: 1
       ubuntu: 2
     CVSS:
@@ -5092,9 +5103,13 @@
     VendorSeverity:
       azure: 2
       cbl-mariner: 2
+      nvd: 3
       redhat: 2
       ubuntu: 2
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H
+        V3Score: 8.1
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N
         V3Score: 5.4
@@ -5107,7 +5122,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-5318
     - https://www.libssh.org/security/advisories/CVE-2025-5318.txt
     PublishedDate: '2025-06-24T14:15:30.523Z'
-    LastModifiedDate: '2025-06-26T18:58:14.28Z'
+    LastModifiedDate: '2025-08-21T01:10:17.993Z'
   - VulnerabilityID: CVE-2025-5372
     PkgID: libssh-4@0.9.6-2ubuntu0.22.04.3
     PkgName: libssh-4
@@ -5247,7 +5262,8 @@
       PURL: pkg:deb/ubuntu/libstdc%2B%2B6@12.3.0-1ubuntu1~22.04?arch=amd64&distro=ubuntu-22.04
       UID: b2e0206859f58383
     InstalledVersion: 12.3.0-1ubuntu1~22.04
-    Status: affected
+    FixedVersion: 12.3.0-1ubuntu1~22.04.2
+    Status: fixed
     Layer:
       Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
       DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
@@ -5298,6 +5314,7 @@
     - https://linux.oracle.com/errata/ELSA-2023-28766.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-4039
     - https://rtx.meta.security/mitigation/2023/09/12/CVE-2023-4039.html
+    - https://ubuntu.com/security/notices/USN-7700-1
     - https://www.cve.org/CVERecord?id=CVE-2023-4039
     PublishedDate: '2023-09-13T09:15:15.69Z'
     LastModifiedDate: '2025-02-13T17:17:14.717Z'
@@ -5422,6 +5439,96 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-7008
     PublishedDate: '2023-12-23T13:15:07.573Z'
     LastModifiedDate: '2024-11-22T12:15:17.59Z'
+  - VulnerabilityID: CVE-2025-8534
+    PkgID: libtiff5@4.3.0-6ubuntu0.10
+    PkgName: libtiff5
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libtiff5@4.3.0-6ubuntu0.10?arch=amd64&distro=ubuntu-22.04
+      UID: e0ab3adf4f65570d
+    InstalledVersion: 4.3.0-6ubuntu0.10
+    FixedVersion: 4.3.0-6ubuntu0.11
+    Status: fixed
+    Layer:
+      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
+      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-8534
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'libtiff: Libtiff Null Pointer Dereference Vulnerability'
+    Description: A vulnerability classified as problematic was found in libtiff 4.6.0. This vulnerability affects the function PS_Lvl2page of the file tools/tiff2ps.c of the component tiff2ps. The manipulation leads to null pointer dereference. It is possible to launch the attack on the local host. The complexity of an attack is rather high. The exploitation appears to be difficult. The exploit has been disclosed to the public and may be used. The name of the patch is 6ba36f159fd396ad11bf6b7874554197736ecc8b. It is recommended to apply a patch to fix this issue. One of the maintainers explains, that "[t]his error only occurs if DEFER_STRILE_LOAD (defer-strile-load:BOOL=ON) or TIFFOpen( .. "rD") option is used."
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-404
+    - CWE-476
+    VendorSeverity:
+      redhat: 1
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 2.5
+    References:
+    - http://www.libtiff.org/
+    - https://access.redhat.com/security/cve/CVE-2025-8534
+    - https://drive.google.com/file/d/15JPA3kLYiYD-nRNJ8y8HmnYjhv9NE7k6/view?usp=drive_link
+    - https://gitlab.com/libtiff/libtiff/-/commit/6ba36f159fd396ad11bf6b7874554197736ecc8b
+    - https://gitlab.com/libtiff/libtiff/-/issues/718
+    - https://gitlab.com/libtiff/libtiff/-/merge_requests/746
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-8534
+    - https://ubuntu.com/security/notices/USN-7707-1
+    - https://vuldb.com/?ctiid.318664
+    - https://vuldb.com/?id.318664
+    - https://vuldb.com/?submit.617831
+    - https://www.cve.org/CVERecord?id=CVE-2025-8534
+    PublishedDate: '2025-08-05T00:15:56.88Z'
+    LastModifiedDate: '2025-08-05T16:15:31.33Z'
+  - VulnerabilityID: CVE-2025-8851
+    PkgID: libtiff5@4.3.0-6ubuntu0.10
+    PkgName: libtiff5
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libtiff5@4.3.0-6ubuntu0.10?arch=amd64&distro=ubuntu-22.04
+      UID: e0ab3adf4f65570d
+    InstalledVersion: 4.3.0-6ubuntu0.10
+    FixedVersion: 4.3.0-6ubuntu0.11
+    Status: fixed
+    Layer:
+      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
+      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-8851
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'libtiff: LibTIFF Stack-based buffer overflow'
+    Description: A vulnerability was determined in LibTIFF up to 4.5.1. Affected by this issue is the function readSeparateStripsetoBuffer of the file tools/tiffcrop.c of the component tiffcrop. The manipulation leads to stack-based buffer overflow. Local access is required to approach this attack. The patch is identified as 8a7a48d7a645992ca83062b3a1873c951661e2b3. It is recommended to apply a patch to fix this issue.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-119
+    - CWE-121
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L
+        V3Score: 5.3
+    References:
+    - http://www.libtiff.org/
+    - https://access.redhat.com/security/cve/CVE-2025-8851
+    - https://gitlab.com/libtiff/libtiff/-/commit/8a7a48d7a645992ca83062b3a1873c951661e2b3
+    - https://gitlab.com/libtiff/libtiff/-/commit/8a7a48d7a645992ca83062b3a1873c951661e2b3 (v4.7.0rc1)
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-8851
+    - https://ubuntu.com/security/notices/USN-7707-1
+    - https://vuldb.com/?ctiid.319382
+    - https://vuldb.com/?id.319382
+    - https://vuldb.com/?submit.624604
+    - https://www.cve.org/CVERecord?id=CVE-2025-8851
+    PublishedDate: '2025-08-11T14:15:27.597Z'
+    LastModifiedDate: '2025-08-12T14:15:30.617Z'
   - VulnerabilityID: CVE-2025-8176
     PkgID: libtiff5@4.3.0-6ubuntu0.10
     PkgName: libtiff5
@@ -5429,7 +5536,8 @@
       PURL: pkg:deb/ubuntu/libtiff5@4.3.0-6ubuntu0.10?arch=amd64&distro=ubuntu-22.04
       UID: e0ab3adf4f65570d
     InstalledVersion: 4.3.0-6ubuntu0.10
-    Status: affected
+    FixedVersion: 4.3.0-6ubuntu0.11
+    Status: fixed
     Layer:
       Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
       DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
@@ -5460,6 +5568,7 @@
     - https://gitlab.com/libtiff/libtiff/-/issues/707
     - https://gitlab.com/libtiff/libtiff/-/merge_requests/727
     - https://nvd.nist.gov/vuln/detail/CVE-2025-8176
+    - https://ubuntu.com/security/notices/USN-7707-1
     - https://vuldb.com/?ctiid.317590
     - https://vuldb.com/?id.317590
     - https://vuldb.com/?submit.621796
@@ -6841,7 +6950,7 @@
     - CWE-426
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       cbl-mariner: 2
       oracle-oval: 2
       redhat: 2
@@ -6962,7 +7071,7 @@
     - CWE-426
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       cbl-mariner: 2
       oracle-oval: 2
       redhat: 2
@@ -7083,7 +7192,7 @@
     - CWE-426
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       cbl-mariner: 2
       oracle-oval: 2
       redhat: 2
@@ -9308,6 +9417,39 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-0495
     PublishedDate: '2025-03-17T20:15:13.737Z'
     LastModifiedDate: '2025-03-17T20:15:13.737Z'
+  - VulnerabilityID: GHSA-2464-8j7c-4cjm
+    PkgID: github.com/go-viper/mapstructure/v2@v2.0.0
+    PkgName: github.com/go-viper/mapstructure/v2
+    PkgIdentifier:
+      PURL: pkg:golang/github.com/go-viper/mapstructure/v2@v2.0.0
+      UID: c3a5497114ab930c
+    InstalledVersion: v2.0.0
+    FixedVersion: 2.4.0
+    Status: fixed
+    Layer:
+      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
+      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
+    SeveritySource: ghsa
+    PrimaryURL: https://github.com/advisories/GHSA-2464-8j7c-4cjm
+    DataSource:
+      ID: ghsa
+      Name: GitHub Security Advisory Go
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
+    Title: go-viper's mapstructure May Leak Sensitive Information in Logs When Processing Malformed Data
+    Description: "### Summary\n\nUse of this library in a security-critical context may result in leaking sensitive information, if used to process sensitive fields.\n\n### Details\n\nOpenBao (and presumably HashiCorp Vault) have surfaced error messages from `mapstructure` as follows:\n\nhttps://github.com/openbao/openbao/blob/98c3a59c040efca724353ca46ca79bd5cdbab920/sdk/framework/field_data.go#L43-L50\n\n```go\n\t\t\t_, _, err := d.getPrimitive(field, schema)\n\t\t\tif err != nil {\n\t\t\t\treturn fmt.Errorf(\"error converting input for field %q: %w\", field, err)\n\t\t\t}\n```\n\nwhere this calls `mapstructure.WeakDecode(...)`: https://github.com/openbao/openbao/blob/98c3a59c040efca724353ca46ca79bd5cdbab920/sdk/framework/field_data.go#L181-L193\n\n```go\n\nfunc (d *FieldData) getPrimitive(k string, schema *FieldSchema) (interface{}, bool, error) {\n\traw, ok := d.Raw[k]\n\tif !ok {\n\t\treturn nil, false, nil\n\t}\n\n\tswitch t := schema.Type; t {\n\tcase TypeBool:\n\t\tvar result bool\n\t\tif err := mapstructure.WeakDecode(raw, &result); err != nil {\n\t\t\treturn nil, false, err\n\t\t}\n\t\treturn result, true, nil\n```\n\nNotably, `WeakDecode(...)` eventually calls one of the decode helpers, which surfaces the original value via `strconv` helpers:\n\nhttps://github.com/go-viper/mapstructure/blob/8c61ec1924fcfa522f9fc6b4618c672db61d1a38/mapstructure.go#L720-L727\n\nhttps://github.com/go-viper/mapstructure/blob/8c61ec1924fcfa522f9fc6b4618c672db61d1a38/mapstructure.go#L791-L798\n\nhttps://github.com/go-viper/mapstructure/blob/8c61ec1924fcfa522f9fc6b4618c672db61d1a38/decode_hooks.go#L180\n\n& more. These are different code paths than are fixed in the previous iteration at https://github.com/go-viper/mapstructure/security/advisories/GHSA-fv92-fjc5-jj9h.\n\n### PoC\n\nTo reproduce with OpenBao:\n\n```\n$ podman run --pull=always -p 8300:8300 openbao/openbao:latest server -dev -dev-root-token-id=root -dev-listen-address=0.0.0.0:8300\n```\n\nand in a new tab:\n\n```\n$ BAO_TOKEN=root BAO_ADDR=http://localhost:8300 bao auth enable userpass\nSuccess! Enabled userpass auth method at: userpass/\n$ curl -X PUT -H \"X-Vault-Request: true\" -H \"X-Vault-Token: root\" -d '{\"ttl\":\"asdf\"}' \"http://localhost:8200/v1/auth/userpass/users/asdf\"\n\n--> server logs:\n\n2025-06-25T21:32:25.101-0500 [ERROR] core: failed to run existence check: error=\"error converting input for field \\\"ttl\\\": time: invalid duration \\\"asdf\\\"\"\n```\n\n### Impact\n\nThis is an information disclosure bug with little mitigation. See https://discuss.hashicorp.com/t/hcsec-2025-09-vault-may-expose-sensitive-information-in-error-logs-when-processing-malformed-data-with-the-kv-v2-plugin/74717 for a previous version. That version was fixed, but this is in the second part of that error message (starting at `'' expected a map, got 'string'` -- when the field type is `string` and a `map` is provided, we see the above information leak -- the previous example had a `map` type field with a `string` value provided).\n\nThis was rated 4.5 Medium by HashiCorp in the past iteration."
+    Severity: MEDIUM
+    VendorSeverity:
+      ghsa: 2
+    CVSS:
+      ghsa:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:N/A:N
+        V3Score: 5.3
+    References:
+    - https://github.com/go-viper/mapstructure
+    - https://github.com/go-viper/mapstructure/commit/742921c9ba2854d27baa64272487fc5075d2c39c
+    - https://github.com/go-viper/mapstructure/security/advisories/GHSA-2464-8j7c-4cjm
+    PublishedDate: '2025-08-21T14:37:19Z'
+    LastModifiedDate: '2025-08-21T14:37:19Z'
   - VulnerabilityID: GHSA-fv92-fjc5-jj9h
     PkgID: github.com/go-viper/mapstructure/v2@v2.0.0
     PkgName: github.com/go-viper/mapstructure/v2
@@ -10900,6 +11042,7 @@
       azure: 4
       cbl-mariner: 4
       ghsa: 4
+      photon: 4
       redhat: 4
       ubuntu: 3
     CVSS:
