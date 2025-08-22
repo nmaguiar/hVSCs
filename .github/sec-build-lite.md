@@ -3639,9 +3639,114 @@
 │                              │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2025-4673 
 │                              ├ PublishedDate   : 2025-06-11T17:15:42.993Z 
 │                              ╰ LastModifiedDate: 2025-06-12T16:06:20.18Z 
-├ [4]  ╭ Target: usr/bin/docker-compose 
-│      ├ Class : lang-pkgs 
-│      ╰ Type  : gobinary 
+├ [4]  ╭ Target         : usr/bin/docker-compose 
+│      ├ Class          : lang-pkgs 
+│      ├ Type           : gobinary 
+│      ╰ Vulnerabilities ─ [0] ╭ VulnerabilityID : GHSA-2464-8j7c-4cjm 
+│                              ├ PkgID           : github.com/go-viper/mapstructure/v2@v2.3.0 
+│                              ├ PkgName         : github.com/go-viper/mapstructure/v2 
+│                              ├ PkgIdentifier    ╭ PURL: pkg:golang/github.com/go-viper/mapstructure/v2@v2.3.0 
+│                              │                  ╰ UID : 2706a41708b276a2 
+│                              ├ InstalledVersion: v2.3.0 
+│                              ├ FixedVersion    : 2.4.0 
+│                              ├ Status          : fixed 
+│                              ├ Layer            ╭ Digest: sha256:b25b5c28dff7ffbb5d7c36a7a6f54aa53dd0f77ddf11
+│                              │                  │         d5bd4771f6ad9168cdc5 
+│                              │                  ╰ DiffID: sha256:f5a8dfe2745d88d380e799a454a8728acc52a14da58e
+│                              │                            d4ff065e78e54b5ec643 
+│                              ├ SeveritySource  : ghsa 
+│                              ├ PrimaryURL      : https://github.com/advisories/GHSA-2464-8j7c-4cjm 
+│                              ├ DataSource       ╭ ID  : ghsa 
+│                              │                  ├ Name: GitHub Security Advisory Go 
+│                              │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+e
+│                              │                          cosystem%3Ago 
+│                              ├ Title           : go-viper's mapstructure May Leak Sensitive Information in
+│                              │                   Logs When Processing Malformed Data 
+│                              ├ Description     : ### Summary
+│                              │                   
+│                              │                   Use of this library in a security-critical context may
+│                              │                   result in leaking sensitive information, if used to process
+│                              │                   sensitive fields.
+│                              │                   ### Details
+│                              │                   OpenBao (and presumably HashiCorp Vault) have surfaced error
+│                              │                    messages from `mapstructure` as follows:
+│                              │                   https://github.com/openbao/openbao/blob/98c3a59c040efca72435
+│                              │                   3ca46ca79bd5cdbab920/sdk/framework/field_data.go#L43-L50
+│                              │                   ```go
+│                              │                   			_, _, err := d.getPrimitive(field, schema)
+│                              │                   			if err != nil {
+│                              │                   				return fmt.Errorf("error converting input for field %q:
+│                              │                   %w", field, err)
+│                              │                   			}
+│                              │                   ```
+│                              │                   where this calls `mapstructure.WeakDecode(...)`:
+│                              │                   3ca46ca79bd5cdbab920/sdk/framework/field_data.go#L181-L193
+│                              │                   func (d *FieldData) getPrimitive(k string, schema
+│                              │                   *FieldSchema) (interface{}, bool, error) {
+│                              │                   	raw, ok := d.Raw[k]
+│                              │                   	if !ok {
+│                              │                   		return nil, false, nil
+│                              │                   	}
+│                              │                   	switch t := schema.Type; t {
+│                              │                   	case TypeBool:
+│                              │                   		var result bool
+│                              │                   		if err := mapstructure.WeakDecode(raw, &result); err !=
+│                              │                   nil {
+│                              │                   			return nil, false, err
+│                              │                   		}
+│                              │                   		return result, true, nil
+│                              │                   Notably, `WeakDecode(...)` eventually calls one of the
+│                              │                   decode helpers, which surfaces the original value via
+│                              │                   `strconv` helpers:
+│                              │                   https://github.com/go-viper/mapstructure/blob/8c61ec1924fcfa
+│                              │                   522f9fc6b4618c672db61d1a38/mapstructure.go#L720-L727
+│                              │                   522f9fc6b4618c672db61d1a38/mapstructure.go#L791-L798
+│                              │                   522f9fc6b4618c672db61d1a38/decode_hooks.go#L180
+│                              │                   & more. These are different code paths than are fixed in the
+│                              │                    previous iteration at
+│                              │                   https://github.com/go-viper/mapstructure/security/advisories
+│                              │                   /GHSA-fv92-fjc5-jj9h.
+│                              │                   ### PoC
+│                              │                   To reproduce with OpenBao:
+│                              │                   $ podman run --pull=always -p 8300:8300
+│                              │                   openbao/openbao:latest server -dev -dev-root-token-id=root
+│                              │                   -dev-listen-address=0.0.0.0:8300
+│                              │                   and in a new tab:
+│                              │                   $ BAO_TOKEN=root BAO_ADDR=http://localhost:8300 bao auth
+│                              │                   enable userpass
+│                              │                   Success! Enabled userpass auth method at: userpass/
+│                              │                   $ curl -X PUT -H "X-Vault-Request: true" -H "X-Vault-Token:
+│                              │                   root" -d '{"ttl":"asdf"}'
+│                              │                   "http://localhost:8200/v1/auth/userpass/users/asdf"
+│                              │                   --> server logs:
+│                              │                   2025-06-25T21:32:25.101-0500 [ERROR] core: failed to run
+│                              │                   existence check: error="error converting input for field
+│                              │                   \"ttl\": time: invalid duration \"asdf\""
+│                              │                   ### Impact
+│                              │                   This is an information disclosure bug with little
+│                              │                   mitigation. See
+│                              │                   https://discuss.hashicorp.com/t/hcsec-2025-09-vault-may-expo
+│                              │                   se-sensitive-information-in-error-logs-when-processing-malfo
+│                              │                   rmed-data-with-the-kv-v2-plugin/74717 for a previous
+│                              │                   version. That version was fixed, but this is in the second
+│                              │                   part of that error message (starting at `'' expected a map,
+│                              │                   got 'string'` -- when the field type is `string` and a `map`
+│                              │                    is provided, we see the above information leak -- the
+│                              │                   previous example had a `map` type field with a `string`
+│                              │                   value provided).
+│                              │                   This was rated 4.5 Medium by HashiCorp in the past iteration
+│                              │                   . 
+│                              ├ Severity        : MEDIUM 
+│                              ├ VendorSeverity   ─ ghsa: 2 
+│                              ├ CVSS             ─ ghsa ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:N/A:N 
+│                              │                         ╰ V3Score : 5.3 
+│                              ├ References       ╭ [0]: https://github.com/go-viper/mapstructure 
+│                              │                  ├ [1]: https://github.com/go-viper/mapstructure/commit/742921
+│                              │                  │      c9ba2854d27baa64272487fc5075d2c39c 
+│                              │                  ╰ [2]: https://github.com/go-viper/mapstructure/security/advi
+│                              │                         sories/GHSA-2464-8j7c-4cjm 
+│                              ├ PublishedDate   : 2025-08-21T14:37:19Z 
+│                              ╰ LastModifiedDate: 2025-08-21T14:37:19Z 
 ├ [5]  ╭ Target         : usr/bin/helm 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : gobinary 
@@ -3911,6 +4016,7 @@
 │                        │      │                  ├ azure      : 4 
 │                        │      │                  ├ cbl-mariner: 4 
 │                        │      │                  ├ ghsa       : 4 
+│                        │      │                  ├ photon     : 4 
 │                        │      │                  ├ redhat     : 4 
 │                        │      │                  ╰ ubuntu     : 3 
 │                        │      ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:
