@@ -10,10 +10,10 @@
 │                        │      │                  ╰ UID : caf813025bb2596d 
 │                        │      ├ InstalledVersion: 9.4-3ubuntu6 
 │                        │      ├ Status          : affected 
-│                        │      ├ Layer            ╭ Digest: sha256:b25b5c28dff7ffbb5d7c36a7a6f54aa53dd0f77ddf1
-│                        │      │                  │         1d5bd4771f6ad9168cdc5 
-│                        │      │                  ╰ DiffID: sha256:f5a8dfe2745d88d380e799a454a8728acc52a14da58
-│                        │      │                            ed4ff065e78e54b5ec643 
+│                        │      ├ Layer            ╭ Digest: sha256:954740542862d73178282d0bac4af6e0a73bce1a2fb
+│                        │      │                  │         7b832ab033b062cc2633b 
+│                        │      │                  ╰ DiffID: sha256:e27617fcda7979a18fc96bfe9eb43b4a861301a376c
+│                        │      │                            fc1bb76571e3c49a4a4b4 
 │                        │      ├ SeveritySource  : ubuntu 
 │                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2016-2781 
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
@@ -64,10 +64,10 @@
 │                        │      │                  ╰ UID : 2492cb666d882c8d 
 │                        │      ├ InstalledVersion: 8.5.0-2ubuntu10.6 
 │                        │      ├ Status          : affected 
-│                        │      ├ Layer            ╭ Digest: sha256:b25b5c28dff7ffbb5d7c36a7a6f54aa53dd0f77ddf1
-│                        │      │                  │         1d5bd4771f6ad9168cdc5 
-│                        │      │                  ╰ DiffID: sha256:f5a8dfe2745d88d380e799a454a8728acc52a14da58
-│                        │      │                            ed4ff065e78e54b5ec643 
+│                        │      ├ Layer            ╭ Digest: sha256:954740542862d73178282d0bac4af6e0a73bce1a2fb
+│                        │      │                  │         7b832ab033b062cc2633b 
+│                        │      │                  ╰ DiffID: sha256:e27617fcda7979a18fc96bfe9eb43b4a861301a376c
+│                        │      │                            fc1bb76571e3c49a4a4b4 
 │                        │      ├ SeveritySource  : ubuntu 
 │                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-0167 
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
@@ -106,10 +106,10 @@
 │                        │      │                  ╰ UID : c5d708bfaad1e913 
 │                        │      ├ InstalledVersion: 2.4.4-2ubuntu17.3 
 │                        │      ├ Status          : affected 
-│                        │      ├ Layer            ╭ Digest: sha256:b25b5c28dff7ffbb5d7c36a7a6f54aa53dd0f77ddf1
-│                        │      │                  │         1d5bd4771f6ad9168cdc5 
-│                        │      │                  ╰ DiffID: sha256:f5a8dfe2745d88d380e799a454a8728acc52a14da58
-│                        │      │                            ed4ff065e78e54b5ec643 
+│                        │      ├ Layer            ╭ Digest: sha256:954740542862d73178282d0bac4af6e0a73bce1a2fb
+│                        │      │                  │         7b832ab033b062cc2633b 
+│                        │      │                  ╰ DiffID: sha256:e27617fcda7979a18fc96bfe9eb43b4a861301a376c
+│                        │      │                            fc1bb76571e3c49a4a4b4 
 │                        │      ├ SeveritySource  : ubuntu 
 │                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-3219 
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
@@ -150,10 +150,10 @@
 │                        │      │                  ╰ UID : 1e1630ec82b50f81 
 │                        │      ├ InstalledVersion: 2.80.0-6ubuntu3.4 
 │                        │      ├ Status          : affected 
-│                        │      ├ Layer            ╭ Digest: sha256:b25b5c28dff7ffbb5d7c36a7a6f54aa53dd0f77ddf1
-│                        │      │                  │         1d5bd4771f6ad9168cdc5 
-│                        │      │                  ╰ DiffID: sha256:f5a8dfe2745d88d380e799a454a8728acc52a14da58
-│                        │      │                            ed4ff065e78e54b5ec643 
+│                        │      ├ Layer            ╭ Digest: sha256:954740542862d73178282d0bac4af6e0a73bce1a2fb
+│                        │      │                  │         7b832ab033b062cc2633b 
+│                        │      │                  ╰ DiffID: sha256:e27617fcda7979a18fc96bfe9eb43b4a861301a376c
+│                        │      │                            fc1bb76571e3c49a4a4b4 
 │                        │      ├ SeveritySource  : ubuntu 
 │                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-6052 
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
@@ -196,10 +196,10 @@
 │                        │      │                  ╰ UID : e353710a5154ce2b 
 │                        │      ├ InstalledVersion: 1:2.43.0-1ubuntu7.3 
 │                        │      ├ Status          : affected 
-│                        │      ├ Layer            ╭ Digest: sha256:b25b5c28dff7ffbb5d7c36a7a6f54aa53dd0f77ddf1
-│                        │      │                  │         1d5bd4771f6ad9168cdc5 
-│                        │      │                  ╰ DiffID: sha256:f5a8dfe2745d88d380e799a454a8728acc52a14da58
-│                        │      │                            ed4ff065e78e54b5ec643 
+│                        │      ├ Layer            ╭ Digest: sha256:954740542862d73178282d0bac4af6e0a73bce1a2fb
+│                        │      │                  │         7b832ab033b062cc2633b 
+│                        │      │                  ╰ DiffID: sha256:e27617fcda7979a18fc96bfe9eb43b4a861301a376c
+│                        │      │                            fc1bb76571e3c49a4a4b4 
 │                        │      ├ SeveritySource  : ubuntu 
 │                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-52005 
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
@@ -236,13 +236,13 @@
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:
 │                        │      │                           │           H/A:H 
 │                        │      │                           ╰ V3Score : 7.5 
-│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:7409 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:8414 
 │                        │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024-52005 
 │                        │      │                  ├ [2] : https://bugzilla.redhat.com/2338289 
 │                        │      │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2338289 
 │                        │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                        │      │                  │       024-52005 
-│                        │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2025-7409.html 
+│                        │      │                  ├ [5] : https://errata.almalinux.org/8/ALSA-2025-8414.html 
 │                        │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2025:8414 
 │                        │      │                  ├ [7] : https://github.com/git/git/security/advisories/GHSA-
 │                        │      │                  │       7jjc-gg6m-3329 
@@ -264,10 +264,10 @@
 │                        │      │                  ╰ UID : 64e2d69881876dd2 
 │                        │      ├ InstalledVersion: 1:2.43.0-1ubuntu7.3 
 │                        │      ├ Status          : affected 
-│                        │      ├ Layer            ╭ Digest: sha256:b25b5c28dff7ffbb5d7c36a7a6f54aa53dd0f77ddf1
-│                        │      │                  │         1d5bd4771f6ad9168cdc5 
-│                        │      │                  ╰ DiffID: sha256:f5a8dfe2745d88d380e799a454a8728acc52a14da58
-│                        │      │                            ed4ff065e78e54b5ec643 
+│                        │      ├ Layer            ╭ Digest: sha256:954740542862d73178282d0bac4af6e0a73bce1a2fb
+│                        │      │                  │         7b832ab033b062cc2633b 
+│                        │      │                  ╰ DiffID: sha256:e27617fcda7979a18fc96bfe9eb43b4a861301a376c
+│                        │      │                            fc1bb76571e3c49a4a4b4 
 │                        │      ├ SeveritySource  : ubuntu 
 │                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-52005 
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
@@ -304,13 +304,13 @@
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:
 │                        │      │                           │           H/A:H 
 │                        │      │                           ╰ V3Score : 7.5 
-│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:7409 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:8414 
 │                        │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024-52005 
 │                        │      │                  ├ [2] : https://bugzilla.redhat.com/2338289 
 │                        │      │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2338289 
 │                        │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                        │      │                  │       024-52005 
-│                        │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2025-7409.html 
+│                        │      │                  ├ [5] : https://errata.almalinux.org/8/ALSA-2025-8414.html 
 │                        │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2025:8414 
 │                        │      │                  ├ [7] : https://github.com/git/git/security/advisories/GHSA-
 │                        │      │                  │       7jjc-gg6m-3329 
@@ -332,10 +332,10 @@
 │                        │      │                  ╰ UID : 7f2c7ceec91b79ab 
 │                        │      ├ InstalledVersion: 2.4.4-2ubuntu17.3 
 │                        │      ├ Status          : affected 
-│                        │      ├ Layer            ╭ Digest: sha256:b25b5c28dff7ffbb5d7c36a7a6f54aa53dd0f77ddf1
-│                        │      │                  │         1d5bd4771f6ad9168cdc5 
-│                        │      │                  ╰ DiffID: sha256:f5a8dfe2745d88d380e799a454a8728acc52a14da58
-│                        │      │                            ed4ff065e78e54b5ec643 
+│                        │      ├ Layer            ╭ Digest: sha256:954740542862d73178282d0bac4af6e0a73bce1a2fb
+│                        │      │                  │         7b832ab033b062cc2633b 
+│                        │      │                  ╰ DiffID: sha256:e27617fcda7979a18fc96bfe9eb43b4a861301a376c
+│                        │      │                            fc1bb76571e3c49a4a4b4 
 │                        │      ├ SeveritySource  : ubuntu 
 │                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-3219 
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
@@ -376,10 +376,10 @@
 │                        │      │                  ╰ UID : 5e21e2806de7a687 
 │                        │      ├ InstalledVersion: 2.4.4-2ubuntu17.3 
 │                        │      ├ Status          : affected 
-│                        │      ├ Layer            ╭ Digest: sha256:b25b5c28dff7ffbb5d7c36a7a6f54aa53dd0f77ddf1
-│                        │      │                  │         1d5bd4771f6ad9168cdc5 
-│                        │      │                  ╰ DiffID: sha256:f5a8dfe2745d88d380e799a454a8728acc52a14da58
-│                        │      │                            ed4ff065e78e54b5ec643 
+│                        │      ├ Layer            ╭ Digest: sha256:954740542862d73178282d0bac4af6e0a73bce1a2fb
+│                        │      │                  │         7b832ab033b062cc2633b 
+│                        │      │                  ╰ DiffID: sha256:e27617fcda7979a18fc96bfe9eb43b4a861301a376c
+│                        │      │                            fc1bb76571e3c49a4a4b4 
 │                        │      ├ SeveritySource  : ubuntu 
 │                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-3219 
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
@@ -420,10 +420,10 @@
 │                        │      │                  ╰ UID : f0fcd46ef1aeeb6c 
 │                        │      ├ InstalledVersion: 2.4.4-2ubuntu17.3 
 │                        │      ├ Status          : affected 
-│                        │      ├ Layer            ╭ Digest: sha256:b25b5c28dff7ffbb5d7c36a7a6f54aa53dd0f77ddf1
-│                        │      │                  │         1d5bd4771f6ad9168cdc5 
-│                        │      │                  ╰ DiffID: sha256:f5a8dfe2745d88d380e799a454a8728acc52a14da58
-│                        │      │                            ed4ff065e78e54b5ec643 
+│                        │      ├ Layer            ╭ Digest: sha256:954740542862d73178282d0bac4af6e0a73bce1a2fb
+│                        │      │                  │         7b832ab033b062cc2633b 
+│                        │      │                  ╰ DiffID: sha256:e27617fcda7979a18fc96bfe9eb43b4a861301a376c
+│                        │      │                            fc1bb76571e3c49a4a4b4 
 │                        │      ├ SeveritySource  : ubuntu 
 │                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-3219 
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
@@ -464,10 +464,10 @@
 │                        │      │                  ╰ UID : d50f77dbfed7c706 
 │                        │      ├ InstalledVersion: 2.4.4-2ubuntu17.3 
 │                        │      ├ Status          : affected 
-│                        │      ├ Layer            ╭ Digest: sha256:b25b5c28dff7ffbb5d7c36a7a6f54aa53dd0f77ddf1
-│                        │      │                  │         1d5bd4771f6ad9168cdc5 
-│                        │      │                  ╰ DiffID: sha256:f5a8dfe2745d88d380e799a454a8728acc52a14da58
-│                        │      │                            ed4ff065e78e54b5ec643 
+│                        │      ├ Layer            ╭ Digest: sha256:954740542862d73178282d0bac4af6e0a73bce1a2fb
+│                        │      │                  │         7b832ab033b062cc2633b 
+│                        │      │                  ╰ DiffID: sha256:e27617fcda7979a18fc96bfe9eb43b4a861301a376c
+│                        │      │                            fc1bb76571e3c49a4a4b4 
 │                        │      ├ SeveritySource  : ubuntu 
 │                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-3219 
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
@@ -508,10 +508,10 @@
 │                        │      │                  ╰ UID : e1fc397cf1de87fc 
 │                        │      ├ InstalledVersion: 2.4.4-2ubuntu17.3 
 │                        │      ├ Status          : affected 
-│                        │      ├ Layer            ╭ Digest: sha256:b25b5c28dff7ffbb5d7c36a7a6f54aa53dd0f77ddf1
-│                        │      │                  │         1d5bd4771f6ad9168cdc5 
-│                        │      │                  ╰ DiffID: sha256:f5a8dfe2745d88d380e799a454a8728acc52a14da58
-│                        │      │                            ed4ff065e78e54b5ec643 
+│                        │      ├ Layer            ╭ Digest: sha256:954740542862d73178282d0bac4af6e0a73bce1a2fb
+│                        │      │                  │         7b832ab033b062cc2633b 
+│                        │      │                  ╰ DiffID: sha256:e27617fcda7979a18fc96bfe9eb43b4a861301a376c
+│                        │      │                            fc1bb76571e3c49a4a4b4 
 │                        │      ├ SeveritySource  : ubuntu 
 │                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-3219 
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
@@ -552,10 +552,10 @@
 │                        │      │                  ╰ UID : 8865ed48aa0bc28f 
 │                        │      ├ InstalledVersion: 2.4.4-2ubuntu17.3 
 │                        │      ├ Status          : affected 
-│                        │      ├ Layer            ╭ Digest: sha256:b25b5c28dff7ffbb5d7c36a7a6f54aa53dd0f77ddf1
-│                        │      │                  │         1d5bd4771f6ad9168cdc5 
-│                        │      │                  ╰ DiffID: sha256:f5a8dfe2745d88d380e799a454a8728acc52a14da58
-│                        │      │                            ed4ff065e78e54b5ec643 
+│                        │      ├ Layer            ╭ Digest: sha256:954740542862d73178282d0bac4af6e0a73bce1a2fb
+│                        │      │                  │         7b832ab033b062cc2633b 
+│                        │      │                  ╰ DiffID: sha256:e27617fcda7979a18fc96bfe9eb43b4a861301a376c
+│                        │      │                            fc1bb76571e3c49a4a4b4 
 │                        │      ├ SeveritySource  : ubuntu 
 │                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-3219 
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
@@ -596,10 +596,10 @@
 │                        │      │                  ╰ UID : 6655e95a231d5a5 
 │                        │      ├ InstalledVersion: 2.4.4-2ubuntu17.3 
 │                        │      ├ Status          : affected 
-│                        │      ├ Layer            ╭ Digest: sha256:b25b5c28dff7ffbb5d7c36a7a6f54aa53dd0f77ddf1
-│                        │      │                  │         1d5bd4771f6ad9168cdc5 
-│                        │      │                  ╰ DiffID: sha256:f5a8dfe2745d88d380e799a454a8728acc52a14da58
-│                        │      │                            ed4ff065e78e54b5ec643 
+│                        │      ├ Layer            ╭ Digest: sha256:954740542862d73178282d0bac4af6e0a73bce1a2fb
+│                        │      │                  │         7b832ab033b062cc2633b 
+│                        │      │                  ╰ DiffID: sha256:e27617fcda7979a18fc96bfe9eb43b4a861301a376c
+│                        │      │                            fc1bb76571e3c49a4a4b4 
 │                        │      ├ SeveritySource  : ubuntu 
 │                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-3219 
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
@@ -640,10 +640,10 @@
 │                        │      │                  ╰ UID : 9455e91a8c151d61 
 │                        │      ├ InstalledVersion: 2.4.4-2ubuntu17.3 
 │                        │      ├ Status          : affected 
-│                        │      ├ Layer            ╭ Digest: sha256:b25b5c28dff7ffbb5d7c36a7a6f54aa53dd0f77ddf1
-│                        │      │                  │         1d5bd4771f6ad9168cdc5 
-│                        │      │                  ╰ DiffID: sha256:f5a8dfe2745d88d380e799a454a8728acc52a14da58
-│                        │      │                            ed4ff065e78e54b5ec643 
+│                        │      ├ Layer            ╭ Digest: sha256:954740542862d73178282d0bac4af6e0a73bce1a2fb
+│                        │      │                  │         7b832ab033b062cc2633b 
+│                        │      │                  ╰ DiffID: sha256:e27617fcda7979a18fc96bfe9eb43b4a861301a376c
+│                        │      │                            fc1bb76571e3c49a4a4b4 
 │                        │      ├ SeveritySource  : ubuntu 
 │                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-3219 
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
@@ -684,10 +684,10 @@
 │                        │      │                  ╰ UID : 50163c374464a27a 
 │                        │      ├ InstalledVersion: 2.4.4-2ubuntu17.3 
 │                        │      ├ Status          : affected 
-│                        │      ├ Layer            ╭ Digest: sha256:b25b5c28dff7ffbb5d7c36a7a6f54aa53dd0f77ddf1
-│                        │      │                  │         1d5bd4771f6ad9168cdc5 
-│                        │      │                  ╰ DiffID: sha256:f5a8dfe2745d88d380e799a454a8728acc52a14da58
-│                        │      │                            ed4ff065e78e54b5ec643 
+│                        │      ├ Layer            ╭ Digest: sha256:954740542862d73178282d0bac4af6e0a73bce1a2fb
+│                        │      │                  │         7b832ab033b062cc2633b 
+│                        │      │                  ╰ DiffID: sha256:e27617fcda7979a18fc96bfe9eb43b4a861301a376c
+│                        │      │                            fc1bb76571e3c49a4a4b4 
 │                        │      ├ SeveritySource  : ubuntu 
 │                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-3219 
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
@@ -728,10 +728,10 @@
 │                        │      │                  ╰ UID : 8d1766de2612ee16 
 │                        │      ├ InstalledVersion: 2.4.4-2ubuntu17.3 
 │                        │      ├ Status          : affected 
-│                        │      ├ Layer            ╭ Digest: sha256:b25b5c28dff7ffbb5d7c36a7a6f54aa53dd0f77ddf1
-│                        │      │                  │         1d5bd4771f6ad9168cdc5 
-│                        │      │                  ╰ DiffID: sha256:f5a8dfe2745d88d380e799a454a8728acc52a14da58
-│                        │      │                            ed4ff065e78e54b5ec643 
+│                        │      ├ Layer            ╭ Digest: sha256:954740542862d73178282d0bac4af6e0a73bce1a2fb
+│                        │      │                  │         7b832ab033b062cc2633b 
+│                        │      │                  ╰ DiffID: sha256:e27617fcda7979a18fc96bfe9eb43b4a861301a376c
+│                        │      │                            fc1bb76571e3c49a4a4b4 
 │                        │      ├ SeveritySource  : ubuntu 
 │                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-3219 
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
@@ -772,10 +772,10 @@
 │                        │      │                  ╰ UID : 1850974258a989ac 
 │                        │      ├ InstalledVersion: 1:1.3.0-2build2 
 │                        │      ├ Status          : affected 
-│                        │      ├ Layer            ╭ Digest: sha256:b25b5c28dff7ffbb5d7c36a7a6f54aa53dd0f77ddf1
-│                        │      │                  │         1d5bd4771f6ad9168cdc5 
-│                        │      │                  ╰ DiffID: sha256:f5a8dfe2745d88d380e799a454a8728acc52a14da58
-│                        │      │                            ed4ff065e78e54b5ec643 
+│                        │      ├ Layer            ╭ Digest: sha256:954740542862d73178282d0bac4af6e0a73bce1a2fb
+│                        │      │                  │         7b832ab033b062cc2633b 
+│                        │      │                  ╰ DiffID: sha256:e27617fcda7979a18fc96bfe9eb43b4a861301a376c
+│                        │      │                            fc1bb76571e3c49a4a4b4 
 │                        │      ├ SeveritySource  : ubuntu 
 │                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-29481 
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
@@ -813,10 +813,10 @@
 │                        │      │                  ╰ UID : a57f98878a48b8f4 
 │                        │      ├ InstalledVersion: 8.5.0-2ubuntu10.6 
 │                        │      ├ Status          : affected 
-│                        │      ├ Layer            ╭ Digest: sha256:b25b5c28dff7ffbb5d7c36a7a6f54aa53dd0f77ddf1
-│                        │      │                  │         1d5bd4771f6ad9168cdc5 
-│                        │      │                  ╰ DiffID: sha256:f5a8dfe2745d88d380e799a454a8728acc52a14da58
-│                        │      │                            ed4ff065e78e54b5ec643 
+│                        │      ├ Layer            ╭ Digest: sha256:954740542862d73178282d0bac4af6e0a73bce1a2fb
+│                        │      │                  │         7b832ab033b062cc2633b 
+│                        │      │                  ╰ DiffID: sha256:e27617fcda7979a18fc96bfe9eb43b4a861301a376c
+│                        │      │                            fc1bb76571e3c49a4a4b4 
 │                        │      ├ SeveritySource  : ubuntu 
 │                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-0167 
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
@@ -855,10 +855,10 @@
 │                        │      │                  ╰ UID : b9792f012953a35a 
 │                        │      ├ InstalledVersion: 8.5.0-2ubuntu10.6 
 │                        │      ├ Status          : affected 
-│                        │      ├ Layer            ╭ Digest: sha256:b25b5c28dff7ffbb5d7c36a7a6f54aa53dd0f77ddf1
-│                        │      │                  │         1d5bd4771f6ad9168cdc5 
-│                        │      │                  ╰ DiffID: sha256:f5a8dfe2745d88d380e799a454a8728acc52a14da58
-│                        │      │                            ed4ff065e78e54b5ec643 
+│                        │      ├ Layer            ╭ Digest: sha256:954740542862d73178282d0bac4af6e0a73bce1a2fb
+│                        │      │                  │         7b832ab033b062cc2633b 
+│                        │      │                  ╰ DiffID: sha256:e27617fcda7979a18fc96bfe9eb43b4a861301a376c
+│                        │      │                            fc1bb76571e3c49a4a4b4 
 │                        │      ├ SeveritySource  : ubuntu 
 │                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-0167 
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
@@ -897,10 +897,10 @@
 │                        │      │                  ╰ UID : 431695b0ba25d708 
 │                        │      ├ InstalledVersion: 0.190-1.1ubuntu0.1 
 │                        │      ├ Status          : affected 
-│                        │      ├ Layer            ╭ Digest: sha256:b25b5c28dff7ffbb5d7c36a7a6f54aa53dd0f77ddf1
-│                        │      │                  │         1d5bd4771f6ad9168cdc5 
-│                        │      │                  ╰ DiffID: sha256:f5a8dfe2745d88d380e799a454a8728acc52a14da58
-│                        │      │                            ed4ff065e78e54b5ec643 
+│                        │      ├ Layer            ╭ Digest: sha256:954740542862d73178282d0bac4af6e0a73bce1a2fb
+│                        │      │                  │         7b832ab033b062cc2633b 
+│                        │      │                  ╰ DiffID: sha256:e27617fcda7979a18fc96bfe9eb43b4a861301a376c
+│                        │      │                            fc1bb76571e3c49a4a4b4 
 │                        │      ├ SeveritySource  : ubuntu 
 │                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-1352 
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
@@ -949,10 +949,10 @@
 │                        │      │                  ╰ UID : 431695b0ba25d708 
 │                        │      ├ InstalledVersion: 0.190-1.1ubuntu0.1 
 │                        │      ├ Status          : affected 
-│                        │      ├ Layer            ╭ Digest: sha256:b25b5c28dff7ffbb5d7c36a7a6f54aa53dd0f77ddf1
-│                        │      │                  │         1d5bd4771f6ad9168cdc5 
-│                        │      │                  ╰ DiffID: sha256:f5a8dfe2745d88d380e799a454a8728acc52a14da58
-│                        │      │                            ed4ff065e78e54b5ec643 
+│                        │      ├ Layer            ╭ Digest: sha256:954740542862d73178282d0bac4af6e0a73bce1a2fb
+│                        │      │                  │         7b832ab033b062cc2633b 
+│                        │      │                  ╰ DiffID: sha256:e27617fcda7979a18fc96bfe9eb43b4a861301a376c
+│                        │      │                            fc1bb76571e3c49a4a4b4 
 │                        │      ├ SeveritySource  : ubuntu 
 │                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-1376 
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
@@ -1000,10 +1000,10 @@
 │                        │      │                  ╰ UID : d35ca49cbc99ca48 
 │                        │      ├ InstalledVersion: 1.10.3-2build1 
 │                        │      ├ Status          : affected 
-│                        │      ├ Layer            ╭ Digest: sha256:b25b5c28dff7ffbb5d7c36a7a6f54aa53dd0f77ddf1
-│                        │      │                  │         1d5bd4771f6ad9168cdc5 
-│                        │      │                  ╰ DiffID: sha256:f5a8dfe2745d88d380e799a454a8728acc52a14da58
-│                        │      │                            ed4ff065e78e54b5ec643 
+│                        │      ├ Layer            ╭ Digest: sha256:954740542862d73178282d0bac4af6e0a73bce1a2fb
+│                        │      │                  │         7b832ab033b062cc2633b 
+│                        │      │                  ╰ DiffID: sha256:e27617fcda7979a18fc96bfe9eb43b4a861301a376c
+│                        │      │                            fc1bb76571e3c49a4a4b4 
 │                        │      ├ SeveritySource  : ubuntu 
 │                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-2236 
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
@@ -1053,10 +1053,10 @@
 │                        │      │                  ╰ UID : f06c0299784db33a 
 │                        │      ├ InstalledVersion: 2.80.0-6ubuntu3.4 
 │                        │      ├ Status          : affected 
-│                        │      ├ Layer            ╭ Digest: sha256:b25b5c28dff7ffbb5d7c36a7a6f54aa53dd0f77ddf1
-│                        │      │                  │         1d5bd4771f6ad9168cdc5 
-│                        │      │                  ╰ DiffID: sha256:f5a8dfe2745d88d380e799a454a8728acc52a14da58
-│                        │      │                            ed4ff065e78e54b5ec643 
+│                        │      ├ Layer            ╭ Digest: sha256:954740542862d73178282d0bac4af6e0a73bce1a2fb
+│                        │      │                  │         7b832ab033b062cc2633b 
+│                        │      │                  ╰ DiffID: sha256:e27617fcda7979a18fc96bfe9eb43b4a861301a376c
+│                        │      │                            fc1bb76571e3c49a4a4b4 
 │                        │      ├ SeveritySource  : ubuntu 
 │                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-6052 
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
@@ -1099,10 +1099,10 @@
 │                        │      │                  ╰ UID : 8065efac1a14be18 
 │                        │      ├ InstalledVersion: 2.80.0-6ubuntu3.4 
 │                        │      ├ Status          : affected 
-│                        │      ├ Layer            ╭ Digest: sha256:b25b5c28dff7ffbb5d7c36a7a6f54aa53dd0f77ddf1
-│                        │      │                  │         1d5bd4771f6ad9168cdc5 
-│                        │      │                  ╰ DiffID: sha256:f5a8dfe2745d88d380e799a454a8728acc52a14da58
-│                        │      │                            ed4ff065e78e54b5ec643 
+│                        │      ├ Layer            ╭ Digest: sha256:954740542862d73178282d0bac4af6e0a73bce1a2fb
+│                        │      │                  │         7b832ab033b062cc2633b 
+│                        │      │                  ╰ DiffID: sha256:e27617fcda7979a18fc96bfe9eb43b4a861301a376c
+│                        │      │                            fc1bb76571e3c49a4a4b4 
 │                        │      ├ SeveritySource  : ubuntu 
 │                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-6052 
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
@@ -1145,10 +1145,10 @@
 │                        │      │                  ╰ UID : f6596bded87ab6a1 
 │                        │      ├ InstalledVersion: 74.2-1ubuntu3.1 
 │                        │      ├ Status          : affected 
-│                        │      ├ Layer            ╭ Digest: sha256:b25b5c28dff7ffbb5d7c36a7a6f54aa53dd0f77ddf1
-│                        │      │                  │         1d5bd4771f6ad9168cdc5 
-│                        │      │                  ╰ DiffID: sha256:f5a8dfe2745d88d380e799a454a8728acc52a14da58
-│                        │      │                            ed4ff065e78e54b5ec643 
+│                        │      ├ Layer            ╭ Digest: sha256:954740542862d73178282d0bac4af6e0a73bce1a2fb
+│                        │      │                  │         7b832ab033b062cc2633b 
+│                        │      │                  ╰ DiffID: sha256:e27617fcda7979a18fc96bfe9eb43b4a861301a376c
+│                        │      │                            fc1bb76571e3c49a4a4b4 
 │                        │      ├ SeveritySource  : ubuntu 
 │                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-5222 
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
@@ -1180,7 +1180,7 @@
 │                        │      │                  ├ [5] : https://access.redhat.com/security/cve/CVE-2025-5222 
 │                        │      │                  ├ [6] : https://bugzilla.redhat.com/2368600 
 │                        │      │                  ├ [7] : https://bugzilla.redhat.com/show_bug.cgi?id=2368600 
-│                        │      │                  ├ [8] : https://errata.almalinux.org/9/ALSA-2025-12083.html 
+│                        │      │                  ├ [8] : https://errata.almalinux.org/10/ALSA-2025-11888.html 
 │                        │      │                  ├ [9] : https://linux.oracle.com/cve/CVE-2025-5222.html 
 │                        │      │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2025-12083.html 
 │                        │      │                  ├ [11]: https://lists.debian.org/debian-lts-announce/2025/06
@@ -1197,10 +1197,10 @@
 │                        │      │                  ╰ UID : 4c00079110a919e1 
 │                        │      ├ InstalledVersion: 1.5.3-5ubuntu5.4 
 │                        │      ├ Status          : affected 
-│                        │      ├ Layer            ╭ Digest: sha256:b25b5c28dff7ffbb5d7c36a7a6f54aa53dd0f77ddf1
-│                        │      │                  │         1d5bd4771f6ad9168cdc5 
-│                        │      │                  ╰ DiffID: sha256:f5a8dfe2745d88d380e799a454a8728acc52a14da58
-│                        │      │                            ed4ff065e78e54b5ec643 
+│                        │      ├ Layer            ╭ Digest: sha256:954740542862d73178282d0bac4af6e0a73bce1a2fb
+│                        │      │                  │         7b832ab033b062cc2633b 
+│                        │      │                  ╰ DiffID: sha256:e27617fcda7979a18fc96bfe9eb43b4a861301a376c
+│                        │      │                            fc1bb76571e3c49a4a4b4 
 │                        │      ├ SeveritySource  : ubuntu 
 │                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-10041 
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
@@ -1217,7 +1217,7 @@
 │                        │      │                   authentications. 
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-922 
-│                        │      ├ VendorSeverity   ╭ alma       : 2 
+│                        │      ├ VendorSeverity   ╭ alma       : 3 
 │                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ cbl-mariner: 2 
@@ -1233,18 +1233,19 @@
 │                        │      │                  ├ [2] : https://access.redhat.com/errata/RHSA-2024:9941 
 │                        │      │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2024-10041 
 │                        │      │                  ├ [4] : https://bugzilla.redhat.com/2319212 
-│                        │      │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2319212 
-│                        │      │                  ├ [6] : https://bugzilla.redhat.com/show_bug.cgi?id=2324291 
-│                        │      │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                        │      │                  │       024-10041 
+│                        │      │                  ├ [5] : https://bugzilla.redhat.com/2324291 
+│                        │      │                  ├ [6] : https://bugzilla.redhat.com/show_bug.cgi?id=2319212 
+│                        │      │                  ├ [7] : https://bugzilla.redhat.com/show_bug.cgi?id=2324291 
 │                        │      │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                        │      │                  │       024-10041 
+│                        │      │                  ├ [9] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                        │      │                  │       024-10963 
-│                        │      │                  ├ [9] : https://errata.almalinux.org/9/ALSA-2024-11250.html 
-│                        │      │                  ├ [10]: https://errata.rockylinux.org/RLSA-2024:10379 
-│                        │      │                  ├ [11]: https://linux.oracle.com/cve/CVE-2024-10041.html 
-│                        │      │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2024-11250.html 
-│                        │      │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2024-10041 
-│                        │      │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2024-10041 
+│                        │      │                  ├ [10]: https://errata.almalinux.org/8/ALSA-2024-10379.html 
+│                        │      │                  ├ [11]: https://errata.rockylinux.org/RLSA-2024:10379 
+│                        │      │                  ├ [12]: https://linux.oracle.com/cve/CVE-2024-10041.html 
+│                        │      │                  ├ [13]: https://linux.oracle.com/errata/ELSA-2024-11250.html 
+│                        │      │                  ├ [14]: https://nvd.nist.gov/vuln/detail/CVE-2024-10041 
+│                        │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2024-10041 
 │                        │      ├ PublishedDate   : 2024-10-23T14:15:03.97Z 
 │                        │      ╰ LastModifiedDate: 2024-12-18T10:15:05.85Z 
 │                        ├ [26] ╭ VulnerabilityID : CVE-2024-10963 
@@ -1255,10 +1256,10 @@
 │                        │      │                  ╰ UID : 4c00079110a919e1 
 │                        │      ├ InstalledVersion: 1.5.3-5ubuntu5.4 
 │                        │      ├ Status          : affected 
-│                        │      ├ Layer            ╭ Digest: sha256:b25b5c28dff7ffbb5d7c36a7a6f54aa53dd0f77ddf1
-│                        │      │                  │         1d5bd4771f6ad9168cdc5 
-│                        │      │                  ╰ DiffID: sha256:f5a8dfe2745d88d380e799a454a8728acc52a14da58
-│                        │      │                            ed4ff065e78e54b5ec643 
+│                        │      ├ Layer            ╭ Digest: sha256:954740542862d73178282d0bac4af6e0a73bce1a2fb
+│                        │      │                  │         7b832ab033b062cc2633b 
+│                        │      │                  ╰ DiffID: sha256:e27617fcda7979a18fc96bfe9eb43b4a861301a376c
+│                        │      │                            fc1bb76571e3c49a4a4b4 
 │                        │      ├ SeveritySource  : ubuntu 
 │                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-10963 
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
@@ -1291,19 +1292,20 @@
 │                        │      │                  ├ [4] : https://access.redhat.com/errata/RHSA-2024:10528 
 │                        │      │                  ├ [5] : https://access.redhat.com/errata/RHSA-2024:10852 
 │                        │      │                  ├ [6] : https://access.redhat.com/security/cve/CVE-2024-10963 
-│                        │      │                  ├ [7] : https://bugzilla.redhat.com/2324291 
-│                        │      │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2319212 
-│                        │      │                  ├ [9] : https://bugzilla.redhat.com/show_bug.cgi?id=2324291 
-│                        │      │                  ├ [10]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                        │      │                  │       024-10041 
+│                        │      │                  ├ [7] : https://bugzilla.redhat.com/2319212 
+│                        │      │                  ├ [8] : https://bugzilla.redhat.com/2324291 
+│                        │      │                  ├ [9] : https://bugzilla.redhat.com/show_bug.cgi?id=2319212 
+│                        │      │                  ├ [10]: https://bugzilla.redhat.com/show_bug.cgi?id=2324291 
 │                        │      │                  ├ [11]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                        │      │                  │       024-10041 
+│                        │      │                  ├ [12]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                        │      │                  │       024-10963 
-│                        │      │                  ├ [12]: https://errata.almalinux.org/9/ALSA-2024-10244.html 
-│                        │      │                  ├ [13]: https://errata.rockylinux.org/RLSA-2024:10379 
-│                        │      │                  ├ [14]: https://linux.oracle.com/cve/CVE-2024-10963.html 
-│                        │      │                  ├ [15]: https://linux.oracle.com/errata/ELSA-2024-10379.html 
-│                        │      │                  ├ [16]: https://nvd.nist.gov/vuln/detail/CVE-2024-10963 
-│                        │      │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2024-10963 
+│                        │      │                  ├ [13]: https://errata.almalinux.org/8/ALSA-2024-10379.html 
+│                        │      │                  ├ [14]: https://errata.rockylinux.org/RLSA-2024:10379 
+│                        │      │                  ├ [15]: https://linux.oracle.com/cve/CVE-2024-10963.html 
+│                        │      │                  ├ [16]: https://linux.oracle.com/errata/ELSA-2024-10379.html 
+│                        │      │                  ├ [17]: https://nvd.nist.gov/vuln/detail/CVE-2024-10963 
+│                        │      │                  ╰ [18]: https://www.cve.org/CVERecord?id=CVE-2024-10963 
 │                        │      ├ PublishedDate   : 2024-11-07T16:15:17.15Z 
 │                        │      ╰ LastModifiedDate: 2025-02-06T06:15:29.24Z 
 │                        ├ [27] ╭ VulnerabilityID : CVE-2024-10041 
@@ -1314,10 +1316,10 @@
 │                        │      │                  ╰ UID : f464663a60e2c997 
 │                        │      ├ InstalledVersion: 1.5.3-5ubuntu5.4 
 │                        │      ├ Status          : affected 
-│                        │      ├ Layer            ╭ Digest: sha256:b25b5c28dff7ffbb5d7c36a7a6f54aa53dd0f77ddf1
-│                        │      │                  │         1d5bd4771f6ad9168cdc5 
-│                        │      │                  ╰ DiffID: sha256:f5a8dfe2745d88d380e799a454a8728acc52a14da58
-│                        │      │                            ed4ff065e78e54b5ec643 
+│                        │      ├ Layer            ╭ Digest: sha256:954740542862d73178282d0bac4af6e0a73bce1a2fb
+│                        │      │                  │         7b832ab033b062cc2633b 
+│                        │      │                  ╰ DiffID: sha256:e27617fcda7979a18fc96bfe9eb43b4a861301a376c
+│                        │      │                            fc1bb76571e3c49a4a4b4 
 │                        │      ├ SeveritySource  : ubuntu 
 │                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-10041 
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
@@ -1334,7 +1336,7 @@
 │                        │      │                   authentications. 
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-922 
-│                        │      ├ VendorSeverity   ╭ alma       : 2 
+│                        │      ├ VendorSeverity   ╭ alma       : 3 
 │                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ cbl-mariner: 2 
@@ -1350,18 +1352,19 @@
 │                        │      │                  ├ [2] : https://access.redhat.com/errata/RHSA-2024:9941 
 │                        │      │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2024-10041 
 │                        │      │                  ├ [4] : https://bugzilla.redhat.com/2319212 
-│                        │      │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2319212 
-│                        │      │                  ├ [6] : https://bugzilla.redhat.com/show_bug.cgi?id=2324291 
-│                        │      │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                        │      │                  │       024-10041 
+│                        │      │                  ├ [5] : https://bugzilla.redhat.com/2324291 
+│                        │      │                  ├ [6] : https://bugzilla.redhat.com/show_bug.cgi?id=2319212 
+│                        │      │                  ├ [7] : https://bugzilla.redhat.com/show_bug.cgi?id=2324291 
 │                        │      │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                        │      │                  │       024-10041 
+│                        │      │                  ├ [9] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                        │      │                  │       024-10963 
-│                        │      │                  ├ [9] : https://errata.almalinux.org/9/ALSA-2024-11250.html 
-│                        │      │                  ├ [10]: https://errata.rockylinux.org/RLSA-2024:10379 
-│                        │      │                  ├ [11]: https://linux.oracle.com/cve/CVE-2024-10041.html 
-│                        │      │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2024-11250.html 
-│                        │      │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2024-10041 
-│                        │      │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2024-10041 
+│                        │      │                  ├ [10]: https://errata.almalinux.org/8/ALSA-2024-10379.html 
+│                        │      │                  ├ [11]: https://errata.rockylinux.org/RLSA-2024:10379 
+│                        │      │                  ├ [12]: https://linux.oracle.com/cve/CVE-2024-10041.html 
+│                        │      │                  ├ [13]: https://linux.oracle.com/errata/ELSA-2024-11250.html 
+│                        │      │                  ├ [14]: https://nvd.nist.gov/vuln/detail/CVE-2024-10041 
+│                        │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2024-10041 
 │                        │      ├ PublishedDate   : 2024-10-23T14:15:03.97Z 
 │                        │      ╰ LastModifiedDate: 2024-12-18T10:15:05.85Z 
 │                        ├ [28] ╭ VulnerabilityID : CVE-2024-10963 
@@ -1372,10 +1375,10 @@
 │                        │      │                  ╰ UID : f464663a60e2c997 
 │                        │      ├ InstalledVersion: 1.5.3-5ubuntu5.4 
 │                        │      ├ Status          : affected 
-│                        │      ├ Layer            ╭ Digest: sha256:b25b5c28dff7ffbb5d7c36a7a6f54aa53dd0f77ddf1
-│                        │      │                  │         1d5bd4771f6ad9168cdc5 
-│                        │      │                  ╰ DiffID: sha256:f5a8dfe2745d88d380e799a454a8728acc52a14da58
-│                        │      │                            ed4ff065e78e54b5ec643 
+│                        │      ├ Layer            ╭ Digest: sha256:954740542862d73178282d0bac4af6e0a73bce1a2fb
+│                        │      │                  │         7b832ab033b062cc2633b 
+│                        │      │                  ╰ DiffID: sha256:e27617fcda7979a18fc96bfe9eb43b4a861301a376c
+│                        │      │                            fc1bb76571e3c49a4a4b4 
 │                        │      ├ SeveritySource  : ubuntu 
 │                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-10963 
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
@@ -1408,19 +1411,20 @@
 │                        │      │                  ├ [4] : https://access.redhat.com/errata/RHSA-2024:10528 
 │                        │      │                  ├ [5] : https://access.redhat.com/errata/RHSA-2024:10852 
 │                        │      │                  ├ [6] : https://access.redhat.com/security/cve/CVE-2024-10963 
-│                        │      │                  ├ [7] : https://bugzilla.redhat.com/2324291 
-│                        │      │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2319212 
-│                        │      │                  ├ [9] : https://bugzilla.redhat.com/show_bug.cgi?id=2324291 
-│                        │      │                  ├ [10]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                        │      │                  │       024-10041 
+│                        │      │                  ├ [7] : https://bugzilla.redhat.com/2319212 
+│                        │      │                  ├ [8] : https://bugzilla.redhat.com/2324291 
+│                        │      │                  ├ [9] : https://bugzilla.redhat.com/show_bug.cgi?id=2319212 
+│                        │      │                  ├ [10]: https://bugzilla.redhat.com/show_bug.cgi?id=2324291 
 │                        │      │                  ├ [11]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                        │      │                  │       024-10041 
+│                        │      │                  ├ [12]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                        │      │                  │       024-10963 
-│                        │      │                  ├ [12]: https://errata.almalinux.org/9/ALSA-2024-10244.html 
-│                        │      │                  ├ [13]: https://errata.rockylinux.org/RLSA-2024:10379 
-│                        │      │                  ├ [14]: https://linux.oracle.com/cve/CVE-2024-10963.html 
-│                        │      │                  ├ [15]: https://linux.oracle.com/errata/ELSA-2024-10379.html 
-│                        │      │                  ├ [16]: https://nvd.nist.gov/vuln/detail/CVE-2024-10963 
-│                        │      │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2024-10963 
+│                        │      │                  ├ [13]: https://errata.almalinux.org/8/ALSA-2024-10379.html 
+│                        │      │                  ├ [14]: https://errata.rockylinux.org/RLSA-2024:10379 
+│                        │      │                  ├ [15]: https://linux.oracle.com/cve/CVE-2024-10963.html 
+│                        │      │                  ├ [16]: https://linux.oracle.com/errata/ELSA-2024-10379.html 
+│                        │      │                  ├ [17]: https://nvd.nist.gov/vuln/detail/CVE-2024-10963 
+│                        │      │                  ╰ [18]: https://www.cve.org/CVERecord?id=CVE-2024-10963 
 │                        │      ├ PublishedDate   : 2024-11-07T16:15:17.15Z 
 │                        │      ╰ LastModifiedDate: 2025-02-06T06:15:29.24Z 
 │                        ├ [29] ╭ VulnerabilityID : CVE-2024-10041 
@@ -1431,10 +1435,10 @@
 │                        │      │                  ╰ UID : 16799edd9bd271eb 
 │                        │      ├ InstalledVersion: 1.5.3-5ubuntu5.4 
 │                        │      ├ Status          : affected 
-│                        │      ├ Layer            ╭ Digest: sha256:b25b5c28dff7ffbb5d7c36a7a6f54aa53dd0f77ddf1
-│                        │      │                  │         1d5bd4771f6ad9168cdc5 
-│                        │      │                  ╰ DiffID: sha256:f5a8dfe2745d88d380e799a454a8728acc52a14da58
-│                        │      │                            ed4ff065e78e54b5ec643 
+│                        │      ├ Layer            ╭ Digest: sha256:954740542862d73178282d0bac4af6e0a73bce1a2fb
+│                        │      │                  │         7b832ab033b062cc2633b 
+│                        │      │                  ╰ DiffID: sha256:e27617fcda7979a18fc96bfe9eb43b4a861301a376c
+│                        │      │                            fc1bb76571e3c49a4a4b4 
 │                        │      ├ SeveritySource  : ubuntu 
 │                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-10041 
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
@@ -1451,7 +1455,7 @@
 │                        │      │                   authentications. 
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-922 
-│                        │      ├ VendorSeverity   ╭ alma       : 2 
+│                        │      ├ VendorSeverity   ╭ alma       : 3 
 │                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ cbl-mariner: 2 
@@ -1467,18 +1471,19 @@
 │                        │      │                  ├ [2] : https://access.redhat.com/errata/RHSA-2024:9941 
 │                        │      │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2024-10041 
 │                        │      │                  ├ [4] : https://bugzilla.redhat.com/2319212 
-│                        │      │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2319212 
-│                        │      │                  ├ [6] : https://bugzilla.redhat.com/show_bug.cgi?id=2324291 
-│                        │      │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                        │      │                  │       024-10041 
+│                        │      │                  ├ [5] : https://bugzilla.redhat.com/2324291 
+│                        │      │                  ├ [6] : https://bugzilla.redhat.com/show_bug.cgi?id=2319212 
+│                        │      │                  ├ [7] : https://bugzilla.redhat.com/show_bug.cgi?id=2324291 
 │                        │      │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                        │      │                  │       024-10041 
+│                        │      │                  ├ [9] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                        │      │                  │       024-10963 
-│                        │      │                  ├ [9] : https://errata.almalinux.org/9/ALSA-2024-11250.html 
-│                        │      │                  ├ [10]: https://errata.rockylinux.org/RLSA-2024:10379 
-│                        │      │                  ├ [11]: https://linux.oracle.com/cve/CVE-2024-10041.html 
-│                        │      │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2024-11250.html 
-│                        │      │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2024-10041 
-│                        │      │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2024-10041 
+│                        │      │                  ├ [10]: https://errata.almalinux.org/8/ALSA-2024-10379.html 
+│                        │      │                  ├ [11]: https://errata.rockylinux.org/RLSA-2024:10379 
+│                        │      │                  ├ [12]: https://linux.oracle.com/cve/CVE-2024-10041.html 
+│                        │      │                  ├ [13]: https://linux.oracle.com/errata/ELSA-2024-11250.html 
+│                        │      │                  ├ [14]: https://nvd.nist.gov/vuln/detail/CVE-2024-10041 
+│                        │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2024-10041 
 │                        │      ├ PublishedDate   : 2024-10-23T14:15:03.97Z 
 │                        │      ╰ LastModifiedDate: 2024-12-18T10:15:05.85Z 
 │                        ├ [30] ╭ VulnerabilityID : CVE-2024-10963 
@@ -1489,10 +1494,10 @@
 │                        │      │                  ╰ UID : 16799edd9bd271eb 
 │                        │      ├ InstalledVersion: 1.5.3-5ubuntu5.4 
 │                        │      ├ Status          : affected 
-│                        │      ├ Layer            ╭ Digest: sha256:b25b5c28dff7ffbb5d7c36a7a6f54aa53dd0f77ddf1
-│                        │      │                  │         1d5bd4771f6ad9168cdc5 
-│                        │      │                  ╰ DiffID: sha256:f5a8dfe2745d88d380e799a454a8728acc52a14da58
-│                        │      │                            ed4ff065e78e54b5ec643 
+│                        │      ├ Layer            ╭ Digest: sha256:954740542862d73178282d0bac4af6e0a73bce1a2fb
+│                        │      │                  │         7b832ab033b062cc2633b 
+│                        │      │                  ╰ DiffID: sha256:e27617fcda7979a18fc96bfe9eb43b4a861301a376c
+│                        │      │                            fc1bb76571e3c49a4a4b4 
 │                        │      ├ SeveritySource  : ubuntu 
 │                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-10963 
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
@@ -1525,19 +1530,20 @@
 │                        │      │                  ├ [4] : https://access.redhat.com/errata/RHSA-2024:10528 
 │                        │      │                  ├ [5] : https://access.redhat.com/errata/RHSA-2024:10852 
 │                        │      │                  ├ [6] : https://access.redhat.com/security/cve/CVE-2024-10963 
-│                        │      │                  ├ [7] : https://bugzilla.redhat.com/2324291 
-│                        │      │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2319212 
-│                        │      │                  ├ [9] : https://bugzilla.redhat.com/show_bug.cgi?id=2324291 
-│                        │      │                  ├ [10]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                        │      │                  │       024-10041 
+│                        │      │                  ├ [7] : https://bugzilla.redhat.com/2319212 
+│                        │      │                  ├ [8] : https://bugzilla.redhat.com/2324291 
+│                        │      │                  ├ [9] : https://bugzilla.redhat.com/show_bug.cgi?id=2319212 
+│                        │      │                  ├ [10]: https://bugzilla.redhat.com/show_bug.cgi?id=2324291 
 │                        │      │                  ├ [11]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                        │      │                  │       024-10041 
+│                        │      │                  ├ [12]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                        │      │                  │       024-10963 
-│                        │      │                  ├ [12]: https://errata.almalinux.org/9/ALSA-2024-10244.html 
-│                        │      │                  ├ [13]: https://errata.rockylinux.org/RLSA-2024:10379 
-│                        │      │                  ├ [14]: https://linux.oracle.com/cve/CVE-2024-10963.html 
-│                        │      │                  ├ [15]: https://linux.oracle.com/errata/ELSA-2024-10379.html 
-│                        │      │                  ├ [16]: https://nvd.nist.gov/vuln/detail/CVE-2024-10963 
-│                        │      │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2024-10963 
+│                        │      │                  ├ [13]: https://errata.almalinux.org/8/ALSA-2024-10379.html 
+│                        │      │                  ├ [14]: https://errata.rockylinux.org/RLSA-2024:10379 
+│                        │      │                  ├ [15]: https://linux.oracle.com/cve/CVE-2024-10963.html 
+│                        │      │                  ├ [16]: https://linux.oracle.com/errata/ELSA-2024-10379.html 
+│                        │      │                  ├ [17]: https://nvd.nist.gov/vuln/detail/CVE-2024-10963 
+│                        │      │                  ╰ [18]: https://www.cve.org/CVERecord?id=CVE-2024-10963 
 │                        │      ├ PublishedDate   : 2024-11-07T16:15:17.15Z 
 │                        │      ╰ LastModifiedDate: 2025-02-06T06:15:29.24Z 
 │                        ├ [31] ╭ VulnerabilityID : CVE-2024-10041 
@@ -1548,10 +1554,10 @@
 │                        │      │                  ╰ UID : 2f426ba71742a496 
 │                        │      ├ InstalledVersion: 1.5.3-5ubuntu5.4 
 │                        │      ├ Status          : affected 
-│                        │      ├ Layer            ╭ Digest: sha256:b25b5c28dff7ffbb5d7c36a7a6f54aa53dd0f77ddf1
-│                        │      │                  │         1d5bd4771f6ad9168cdc5 
-│                        │      │                  ╰ DiffID: sha256:f5a8dfe2745d88d380e799a454a8728acc52a14da58
-│                        │      │                            ed4ff065e78e54b5ec643 
+│                        │      ├ Layer            ╭ Digest: sha256:954740542862d73178282d0bac4af6e0a73bce1a2fb
+│                        │      │                  │         7b832ab033b062cc2633b 
+│                        │      │                  ╰ DiffID: sha256:e27617fcda7979a18fc96bfe9eb43b4a861301a376c
+│                        │      │                            fc1bb76571e3c49a4a4b4 
 │                        │      ├ SeveritySource  : ubuntu 
 │                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-10041 
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
@@ -1568,7 +1574,7 @@
 │                        │      │                   authentications. 
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-922 
-│                        │      ├ VendorSeverity   ╭ alma       : 2 
+│                        │      ├ VendorSeverity   ╭ alma       : 3 
 │                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ cbl-mariner: 2 
@@ -1584,18 +1590,19 @@
 │                        │      │                  ├ [2] : https://access.redhat.com/errata/RHSA-2024:9941 
 │                        │      │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2024-10041 
 │                        │      │                  ├ [4] : https://bugzilla.redhat.com/2319212 
-│                        │      │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2319212 
-│                        │      │                  ├ [6] : https://bugzilla.redhat.com/show_bug.cgi?id=2324291 
-│                        │      │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                        │      │                  │       024-10041 
+│                        │      │                  ├ [5] : https://bugzilla.redhat.com/2324291 
+│                        │      │                  ├ [6] : https://bugzilla.redhat.com/show_bug.cgi?id=2319212 
+│                        │      │                  ├ [7] : https://bugzilla.redhat.com/show_bug.cgi?id=2324291 
 │                        │      │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                        │      │                  │       024-10041 
+│                        │      │                  ├ [9] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                        │      │                  │       024-10963 
-│                        │      │                  ├ [9] : https://errata.almalinux.org/9/ALSA-2024-11250.html 
-│                        │      │                  ├ [10]: https://errata.rockylinux.org/RLSA-2024:10379 
-│                        │      │                  ├ [11]: https://linux.oracle.com/cve/CVE-2024-10041.html 
-│                        │      │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2024-11250.html 
-│                        │      │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2024-10041 
-│                        │      │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2024-10041 
+│                        │      │                  ├ [10]: https://errata.almalinux.org/8/ALSA-2024-10379.html 
+│                        │      │                  ├ [11]: https://errata.rockylinux.org/RLSA-2024:10379 
+│                        │      │                  ├ [12]: https://linux.oracle.com/cve/CVE-2024-10041.html 
+│                        │      │                  ├ [13]: https://linux.oracle.com/errata/ELSA-2024-11250.html 
+│                        │      │                  ├ [14]: https://nvd.nist.gov/vuln/detail/CVE-2024-10041 
+│                        │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2024-10041 
 │                        │      ├ PublishedDate   : 2024-10-23T14:15:03.97Z 
 │                        │      ╰ LastModifiedDate: 2024-12-18T10:15:05.85Z 
 │                        ├ [32] ╭ VulnerabilityID : CVE-2024-10963 
@@ -1606,10 +1613,10 @@
 │                        │      │                  ╰ UID : 2f426ba71742a496 
 │                        │      ├ InstalledVersion: 1.5.3-5ubuntu5.4 
 │                        │      ├ Status          : affected 
-│                        │      ├ Layer            ╭ Digest: sha256:b25b5c28dff7ffbb5d7c36a7a6f54aa53dd0f77ddf1
-│                        │      │                  │         1d5bd4771f6ad9168cdc5 
-│                        │      │                  ╰ DiffID: sha256:f5a8dfe2745d88d380e799a454a8728acc52a14da58
-│                        │      │                            ed4ff065e78e54b5ec643 
+│                        │      ├ Layer            ╭ Digest: sha256:954740542862d73178282d0bac4af6e0a73bce1a2fb
+│                        │      │                  │         7b832ab033b062cc2633b 
+│                        │      │                  ╰ DiffID: sha256:e27617fcda7979a18fc96bfe9eb43b4a861301a376c
+│                        │      │                            fc1bb76571e3c49a4a4b4 
 │                        │      ├ SeveritySource  : ubuntu 
 │                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-10963 
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
@@ -1642,205 +1649,23 @@
 │                        │      │                  ├ [4] : https://access.redhat.com/errata/RHSA-2024:10528 
 │                        │      │                  ├ [5] : https://access.redhat.com/errata/RHSA-2024:10852 
 │                        │      │                  ├ [6] : https://access.redhat.com/security/cve/CVE-2024-10963 
-│                        │      │                  ├ [7] : https://bugzilla.redhat.com/2324291 
-│                        │      │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2319212 
-│                        │      │                  ├ [9] : https://bugzilla.redhat.com/show_bug.cgi?id=2324291 
-│                        │      │                  ├ [10]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                        │      │                  │       024-10041 
+│                        │      │                  ├ [7] : https://bugzilla.redhat.com/2319212 
+│                        │      │                  ├ [8] : https://bugzilla.redhat.com/2324291 
+│                        │      │                  ├ [9] : https://bugzilla.redhat.com/show_bug.cgi?id=2319212 
+│                        │      │                  ├ [10]: https://bugzilla.redhat.com/show_bug.cgi?id=2324291 
 │                        │      │                  ├ [11]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                        │      │                  │       024-10041 
+│                        │      │                  ├ [12]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                        │      │                  │       024-10963 
-│                        │      │                  ├ [12]: https://errata.almalinux.org/9/ALSA-2024-10244.html 
-│                        │      │                  ├ [13]: https://errata.rockylinux.org/RLSA-2024:10379 
-│                        │      │                  ├ [14]: https://linux.oracle.com/cve/CVE-2024-10963.html 
-│                        │      │                  ├ [15]: https://linux.oracle.com/errata/ELSA-2024-10379.html 
-│                        │      │                  ├ [16]: https://nvd.nist.gov/vuln/detail/CVE-2024-10963 
-│                        │      │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2024-10963 
+│                        │      │                  ├ [13]: https://errata.almalinux.org/8/ALSA-2024-10379.html 
+│                        │      │                  ├ [14]: https://errata.rockylinux.org/RLSA-2024:10379 
+│                        │      │                  ├ [15]: https://linux.oracle.com/cve/CVE-2024-10963.html 
+│                        │      │                  ├ [16]: https://linux.oracle.com/errata/ELSA-2024-10379.html 
+│                        │      │                  ├ [17]: https://nvd.nist.gov/vuln/detail/CVE-2024-10963 
+│                        │      │                  ╰ [18]: https://www.cve.org/CVERecord?id=CVE-2024-10963 
 │                        │      ├ PublishedDate   : 2024-11-07T16:15:17.15Z 
 │                        │      ╰ LastModifiedDate: 2025-02-06T06:15:29.24Z 
-│                        ├ [33] ╭ VulnerabilityID : CVE-2025-6069 
-│                        │      ├ PkgID           : libpython3.12-minimal@3.12.3-1ubuntu0.7 
-│                        │      ├ PkgName         : libpython3.12-minimal 
-│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpython3.12-minimal@3.12.3-1ubuntu0
-│                        │      │                  │       .7?arch=amd64&distro=ubuntu-24.04 
-│                        │      │                  ╰ UID : e22ee63b2c3239cc 
-│                        │      ├ InstalledVersion: 3.12.3-1ubuntu0.7 
-│                        │      ├ Status          : affected 
-│                        │      ├ Layer            ╭ Digest: sha256:b25b5c28dff7ffbb5d7c36a7a6f54aa53dd0f77ddf1
-│                        │      │                  │         1d5bd4771f6ad9168cdc5 
-│                        │      │                  ╰ DiffID: sha256:f5a8dfe2745d88d380e799a454a8728acc52a14da58
-│                        │      │                            ed4ff065e78e54b5ec643 
-│                        │      ├ SeveritySource  : ubuntu 
-│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-6069 
-│                        │      ├ DataSource       ╭ ID  : ubuntu 
-│                        │      │                  ├ Name: Ubuntu CVE Tracker 
-│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │      ├ Title           : cpython: Python HTMLParser quadratic complexity 
-│                        │      ├ Description     : The html.parser.HTMLParser class had worse-case quadratic
-│                        │      │                   complexity when processing certain crafted malformed inputs
-│                        │      │                    potentially leading to amplified denial-of-service. 
-│                        │      ├ Severity        : MEDIUM 
-│                        │      ├ CweIDs           ─ [0]: CWE-1333 
-│                        │      ├ VendorSeverity   ╭ amazon     : 2 
-│                        │      │                  ├ azure      : 2 
-│                        │      │                  ├ bitnami    : 2 
-│                        │      │                  ├ cbl-mariner: 2 
-│                        │      │                  ├ redhat     : 2 
-│                        │      │                  ╰ ubuntu     : 2 
-│                        │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I
-│                        │      │                  │         │           :N/A:L 
-│                        │      │                  │         ╰ V3Score : 4.3 
-│                        │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I
-│                        │      │                            │           :N/A:L 
-│                        │      │                            ╰ V3Score : 4.3 
-│                        │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2025-6069 
-│                        │      │                  ├ [1] : https://github.com/python/cpython/commit/4455cbabf99
-│                        │      │                  │       1e202185a25a631af206f60bbc949 
-│                        │      │                  ├ [2] : https://github.com/python/cpython/commit/6eb6c5dbfb5
-│                        │      │                  │       28bd07d77b60fd71fd05d81d45c41 
-│                        │      │                  ├ [3] : https://github.com/python/cpython/commit/6eb6c5dbfb5
-│                        │      │                  │       28bd07d77b60fd71fd05d81d45c41 (main) 
-│                        │      │                  ├ [4] : https://github.com/python/cpython/commit/8d1b3dfa091
-│                        │      │                  │       35affbbf27fb8babcf3c11415df49 
-│                        │      │                  ├ [5] : https://github.com/python/cpython/commit/ab0893fd5c5
-│                        │      │                  │       79d9cea30841680e6d35fc478afb5 
-│                        │      │                  ├ [6] : https://github.com/python/cpython/commit/d851f8e258c
-│                        │      │                  │       7328814943e923a7df81bca15df4b 
-│                        │      │                  ├ [7] : https://github.com/python/cpython/commit/f3c6f882cdd
-│                        │      │                  │       c8dc30320d2e73edf019e201394fc 
-│                        │      │                  ├ [8] : https://github.com/python/cpython/commit/fdc9d214c01
-│                        │      │                  │       cb4588f540cfa03726bbf2a33fc15 
-│                        │      │                  ├ [9] : https://github.com/python/cpython/issues/135462 
-│                        │      │                  ├ [10]: https://github.com/python/cpython/pull/135464 
-│                        │      │                  ├ [11]: https://mail.python.org/archives/list/security-annou
-│                        │      │                  │       nce@python.org/thread/K5PIYLR6EP3WR7ZOKKYQUWEDNQVUXO
-│                        │      │                  │       YM/ 
-│                        │      │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2025-6069 
-│                        │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2025-6069 
-│                        │      ├ PublishedDate   : 2025-06-17T14:15:33.677Z 
-│                        │      ╰ LastModifiedDate: 2025-07-07T18:15:29.15Z 
-│                        ├ [34] ╭ VulnerabilityID : CVE-2025-6069 
-│                        │      ├ PkgID           : libpython3.12-stdlib@3.12.3-1ubuntu0.7 
-│                        │      ├ PkgName         : libpython3.12-stdlib 
-│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpython3.12-stdlib@3.12.3-1ubuntu0.
-│                        │      │                  │       7?arch=amd64&distro=ubuntu-24.04 
-│                        │      │                  ╰ UID : 9eefb084643fa625 
-│                        │      ├ InstalledVersion: 3.12.3-1ubuntu0.7 
-│                        │      ├ Status          : affected 
-│                        │      ├ Layer            ╭ Digest: sha256:b25b5c28dff7ffbb5d7c36a7a6f54aa53dd0f77ddf1
-│                        │      │                  │         1d5bd4771f6ad9168cdc5 
-│                        │      │                  ╰ DiffID: sha256:f5a8dfe2745d88d380e799a454a8728acc52a14da58
-│                        │      │                            ed4ff065e78e54b5ec643 
-│                        │      ├ SeveritySource  : ubuntu 
-│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-6069 
-│                        │      ├ DataSource       ╭ ID  : ubuntu 
-│                        │      │                  ├ Name: Ubuntu CVE Tracker 
-│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │      ├ Title           : cpython: Python HTMLParser quadratic complexity 
-│                        │      ├ Description     : The html.parser.HTMLParser class had worse-case quadratic
-│                        │      │                   complexity when processing certain crafted malformed inputs
-│                        │      │                    potentially leading to amplified denial-of-service. 
-│                        │      ├ Severity        : MEDIUM 
-│                        │      ├ CweIDs           ─ [0]: CWE-1333 
-│                        │      ├ VendorSeverity   ╭ amazon     : 2 
-│                        │      │                  ├ azure      : 2 
-│                        │      │                  ├ bitnami    : 2 
-│                        │      │                  ├ cbl-mariner: 2 
-│                        │      │                  ├ redhat     : 2 
-│                        │      │                  ╰ ubuntu     : 2 
-│                        │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I
-│                        │      │                  │         │           :N/A:L 
-│                        │      │                  │         ╰ V3Score : 4.3 
-│                        │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I
-│                        │      │                            │           :N/A:L 
-│                        │      │                            ╰ V3Score : 4.3 
-│                        │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2025-6069 
-│                        │      │                  ├ [1] : https://github.com/python/cpython/commit/4455cbabf99
-│                        │      │                  │       1e202185a25a631af206f60bbc949 
-│                        │      │                  ├ [2] : https://github.com/python/cpython/commit/6eb6c5dbfb5
-│                        │      │                  │       28bd07d77b60fd71fd05d81d45c41 
-│                        │      │                  ├ [3] : https://github.com/python/cpython/commit/6eb6c5dbfb5
-│                        │      │                  │       28bd07d77b60fd71fd05d81d45c41 (main) 
-│                        │      │                  ├ [4] : https://github.com/python/cpython/commit/8d1b3dfa091
-│                        │      │                  │       35affbbf27fb8babcf3c11415df49 
-│                        │      │                  ├ [5] : https://github.com/python/cpython/commit/ab0893fd5c5
-│                        │      │                  │       79d9cea30841680e6d35fc478afb5 
-│                        │      │                  ├ [6] : https://github.com/python/cpython/commit/d851f8e258c
-│                        │      │                  │       7328814943e923a7df81bca15df4b 
-│                        │      │                  ├ [7] : https://github.com/python/cpython/commit/f3c6f882cdd
-│                        │      │                  │       c8dc30320d2e73edf019e201394fc 
-│                        │      │                  ├ [8] : https://github.com/python/cpython/commit/fdc9d214c01
-│                        │      │                  │       cb4588f540cfa03726bbf2a33fc15 
-│                        │      │                  ├ [9] : https://github.com/python/cpython/issues/135462 
-│                        │      │                  ├ [10]: https://github.com/python/cpython/pull/135464 
-│                        │      │                  ├ [11]: https://mail.python.org/archives/list/security-annou
-│                        │      │                  │       nce@python.org/thread/K5PIYLR6EP3WR7ZOKKYQUWEDNQVUXO
-│                        │      │                  │       YM/ 
-│                        │      │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2025-6069 
-│                        │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2025-6069 
-│                        │      ├ PublishedDate   : 2025-06-17T14:15:33.677Z 
-│                        │      ╰ LastModifiedDate: 2025-07-07T18:15:29.15Z 
-│                        ├ [35] ╭ VulnerabilityID : CVE-2025-6069 
-│                        │      ├ PkgID           : libpython3.12t64@3.12.3-1ubuntu0.7 
-│                        │      ├ PkgName         : libpython3.12t64 
-│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpython3.12t64@3.12.3-1ubuntu0.7?ar
-│                        │      │                  │       ch=amd64&distro=ubuntu-24.04 
-│                        │      │                  ╰ UID : 177239ea89190eac 
-│                        │      ├ InstalledVersion: 3.12.3-1ubuntu0.7 
-│                        │      ├ Status          : affected 
-│                        │      ├ Layer            ╭ Digest: sha256:b25b5c28dff7ffbb5d7c36a7a6f54aa53dd0f77ddf1
-│                        │      │                  │         1d5bd4771f6ad9168cdc5 
-│                        │      │                  ╰ DiffID: sha256:f5a8dfe2745d88d380e799a454a8728acc52a14da58
-│                        │      │                            ed4ff065e78e54b5ec643 
-│                        │      ├ SeveritySource  : ubuntu 
-│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-6069 
-│                        │      ├ DataSource       ╭ ID  : ubuntu 
-│                        │      │                  ├ Name: Ubuntu CVE Tracker 
-│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │      ├ Title           : cpython: Python HTMLParser quadratic complexity 
-│                        │      ├ Description     : The html.parser.HTMLParser class had worse-case quadratic
-│                        │      │                   complexity when processing certain crafted malformed inputs
-│                        │      │                    potentially leading to amplified denial-of-service. 
-│                        │      ├ Severity        : MEDIUM 
-│                        │      ├ CweIDs           ─ [0]: CWE-1333 
-│                        │      ├ VendorSeverity   ╭ amazon     : 2 
-│                        │      │                  ├ azure      : 2 
-│                        │      │                  ├ bitnami    : 2 
-│                        │      │                  ├ cbl-mariner: 2 
-│                        │      │                  ├ redhat     : 2 
-│                        │      │                  ╰ ubuntu     : 2 
-│                        │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I
-│                        │      │                  │         │           :N/A:L 
-│                        │      │                  │         ╰ V3Score : 4.3 
-│                        │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I
-│                        │      │                            │           :N/A:L 
-│                        │      │                            ╰ V3Score : 4.3 
-│                        │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2025-6069 
-│                        │      │                  ├ [1] : https://github.com/python/cpython/commit/4455cbabf99
-│                        │      │                  │       1e202185a25a631af206f60bbc949 
-│                        │      │                  ├ [2] : https://github.com/python/cpython/commit/6eb6c5dbfb5
-│                        │      │                  │       28bd07d77b60fd71fd05d81d45c41 
-│                        │      │                  ├ [3] : https://github.com/python/cpython/commit/6eb6c5dbfb5
-│                        │      │                  │       28bd07d77b60fd71fd05d81d45c41 (main) 
-│                        │      │                  ├ [4] : https://github.com/python/cpython/commit/8d1b3dfa091
-│                        │      │                  │       35affbbf27fb8babcf3c11415df49 
-│                        │      │                  ├ [5] : https://github.com/python/cpython/commit/ab0893fd5c5
-│                        │      │                  │       79d9cea30841680e6d35fc478afb5 
-│                        │      │                  ├ [6] : https://github.com/python/cpython/commit/d851f8e258c
-│                        │      │                  │       7328814943e923a7df81bca15df4b 
-│                        │      │                  ├ [7] : https://github.com/python/cpython/commit/f3c6f882cdd
-│                        │      │                  │       c8dc30320d2e73edf019e201394fc 
-│                        │      │                  ├ [8] : https://github.com/python/cpython/commit/fdc9d214c01
-│                        │      │                  │       cb4588f540cfa03726bbf2a33fc15 
-│                        │      │                  ├ [9] : https://github.com/python/cpython/issues/135462 
-│                        │      │                  ├ [10]: https://github.com/python/cpython/pull/135464 
-│                        │      │                  ├ [11]: https://mail.python.org/archives/list/security-annou
-│                        │      │                  │       nce@python.org/thread/K5PIYLR6EP3WR7ZOKKYQUWEDNQVUXO
-│                        │      │                  │       YM/ 
-│                        │      │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2025-6069 
-│                        │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2025-6069 
-│                        │      ├ PublishedDate   : 2025-06-17T14:15:33.677Z 
-│                        │      ╰ LastModifiedDate: 2025-07-07T18:15:29.15Z 
-│                        ├ [36] ╭ VulnerabilityID : CVE-2024-41996 
+│                        ├ [33] ╭ VulnerabilityID : CVE-2024-41996 
 │                        │      ├ PkgID           : libssl3t64@3.0.13-0ubuntu3.5 
 │                        │      ├ PkgName         : libssl3t64 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libssl3t64@3.0.13-0ubuntu3.5?arch=amd
@@ -1848,10 +1673,156 @@
 │                        │      │                  ╰ UID : 9c224326b173c6e3 
 │                        │      ├ InstalledVersion: 3.0.13-0ubuntu3.5 
 │                        │      ├ Status          : affected 
-│                        │      ├ Layer            ╭ Digest: sha256:b25b5c28dff7ffbb5d7c36a7a6f54aa53dd0f77ddf1
-│                        │      │                  │         1d5bd4771f6ad9168cdc5 
-│                        │      │                  ╰ DiffID: sha256:f5a8dfe2745d88d380e799a454a8728acc52a14da58
-│                        │      │                            ed4ff065e78e54b5ec643 
+│                        │      ├ Layer            ╭ Digest: sha256:954740542862d73178282d0bac4af6e0a73bce1a2fb
+│                        │      │                  │         7b832ab033b062cc2633b 
+│                        │      │                  ╰ DiffID: sha256:e27617fcda7979a18fc96bfe9eb43b4a861301a376c
+│                        │      │                            fc1bb76571e3c49a4a4b4 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-41996 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : openssl: remote attackers (from the client side) to trigger
+│                        │      │                    unnecessarily expensive server-side DHE
+│                        │      │                   modular-exponentiation calculations 
+│                        │      ├ Description     : Validating the order of the public keys in the
+│                        │      │                   Diffie-Hellman Key Agreement Protocol, when an approved
+│                        │      │                   safe prime is used, allows remote attackers (from the
+│                        │      │                   client side) to trigger unnecessarily expensive server-side
+│                        │      │                    DHE modular-exponentiation calculations. The client may
+│                        │      │                   cause asymmetric resource consumption. The basic attack
+│                        │      │                   scenario is that the client must claim that it can only
+│                        │      │                   communicate with DHE, and the server must be configured to
+│                        │      │                   allow DHE and validate the order of the public key. 
+│                        │      ├ Severity        : LOW 
+│                        │      ├ CweIDs           ─ [0]: CWE-295 
+│                        │      ├ VendorSeverity   ╭ amazon: 2 
+│                        │      │                  ├ redhat: 1 
+│                        │      │                  ╰ ubuntu: 1 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:
+│                        │      │                           │           N/A:H 
+│                        │      │                           ╰ V3Score : 5.9 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-41996 
+│                        │      │                  ├ [1]: https://dheatattack.gitlab.io/details/ 
+│                        │      │                  ├ [2]: https://dheatattack.gitlab.io/faq/ 
+│                        │      │                  ├ [3]: https://gist.github.com/c0r0n3r/abccc14d4d96c0442f3a7
+│                        │      │                  │      7fa5ca255d1 
+│                        │      │                  ├ [4]: https://github.com/openssl/openssl/issues/17374 
+│                        │      │                  ├ [5]: https://github.com/openssl/openssl/pull/25088 
+│                        │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2024-41996 
+│                        │      │                  ├ [7]: https://openssl-library.org/post/2022-10-21-tls-group
+│                        │      │                  │      s-configuration/ 
+│                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-41996 
+│                        │      ├ PublishedDate   : 2024-08-26T06:15:04.603Z 
+│                        │      ╰ LastModifiedDate: 2024-08-26T16:35:11.247Z 
+│                        ├ [34] ╭ VulnerabilityID : CVE-2024-56433 
+│                        │      ├ PkgID           : libsubid4@1:4.13+dfsg1-4ubuntu3.2 
+│                        │      ├ PkgName         : libsubid4 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libsubid4@4.13%2Bdfsg1-4ubuntu3.2?arc
+│                        │      │                  │       h=amd64&distro=ubuntu-24.04&epoch=1 
+│                        │      │                  ╰ UID : feed39d3da6e524e 
+│                        │      ├ InstalledVersion: 1:4.13+dfsg1-4ubuntu3.2 
+│                        │      ├ Status          : affected 
+│                        │      ├ Layer            ╭ Digest: sha256:954740542862d73178282d0bac4af6e0a73bce1a2fb
+│                        │      │                  │         7b832ab033b062cc2633b 
+│                        │      │                  ╰ DiffID: sha256:e27617fcda7979a18fc96bfe9eb43b4a861301a376c
+│                        │      │                            fc1bb76571e3c49a4a4b4 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-56433 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : shadow-utils: Default subordinate ID configuration in
+│                        │      │                   /etc/login.defs could lead to compromise 
+│                        │      ├ Description     : shadow-utils (aka shadow) 4.4 through 4.17.0 establishes a
+│                        │      │                   default /etc/subuid behavior (e.g., uid 100000 through
+│                        │      │                   165535 for the first user account) that can realistically
+│                        │      │                   conflict with the uids of users defined on locally
+│                        │      │                   administered networks, potentially leading to account
+│                        │      │                   takeover, e.g., by leveraging newuidmap for access to an
+│                        │      │                   NFS home directory (or same-host resources in the case of
+│                        │      │                   remote logins by these local network users). NOTE: it may
+│                        │      │                   also be argued that system administrators should not have
+│                        │      │                   assigned uids, within local networks, that are within the
+│                        │      │                   range that can occur in /etc/subuid. 
+│                        │      ├ Severity        : LOW 
+│                        │      ├ CweIDs           ─ [0]: CWE-1188 
+│                        │      ├ VendorSeverity   ╭ azure : 1 
+│                        │      │                  ├ redhat: 1 
+│                        │      │                  ╰ ubuntu: 1 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:
+│                        │      │                           │           L/A:N 
+│                        │      │                           ╰ V3Score : 3.6 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-56433 
+│                        │      │                  ├ [1]: https://github.com/shadow-maint/shadow/blob/e2512d574
+│                        │      │                  │      1d4a44bdd81a8c2d0029b6222728cf0/etc/login.defs#L238-L
+│                        │      │                  │      241 
+│                        │      │                  ├ [2]: https://github.com/shadow-maint/shadow/issues/1157 
+│                        │      │                  ├ [3]: https://github.com/shadow-maint/shadow/releases/tag/4.4 
+│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-56433 
+│                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
+│                        │      ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
+│                        │      ╰ LastModifiedDate: 2024-12-26T09:15:07.267Z 
+│                        ├ [35] ╭ VulnerabilityID : CVE-2024-56433 
+│                        │      ├ PkgID           : login@1:4.13+dfsg1-4ubuntu3.2 
+│                        │      ├ PkgName         : login 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/login@4.13%2Bdfsg1-4ubuntu3.2?arch=am
+│                        │      │                  │       d64&distro=ubuntu-24.04&epoch=1 
+│                        │      │                  ╰ UID : 3f512019203c1af7 
+│                        │      ├ InstalledVersion: 1:4.13+dfsg1-4ubuntu3.2 
+│                        │      ├ Status          : affected 
+│                        │      ├ Layer            ╭ Digest: sha256:954740542862d73178282d0bac4af6e0a73bce1a2fb
+│                        │      │                  │         7b832ab033b062cc2633b 
+│                        │      │                  ╰ DiffID: sha256:e27617fcda7979a18fc96bfe9eb43b4a861301a376c
+│                        │      │                            fc1bb76571e3c49a4a4b4 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-56433 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : shadow-utils: Default subordinate ID configuration in
+│                        │      │                   /etc/login.defs could lead to compromise 
+│                        │      ├ Description     : shadow-utils (aka shadow) 4.4 through 4.17.0 establishes a
+│                        │      │                   default /etc/subuid behavior (e.g., uid 100000 through
+│                        │      │                   165535 for the first user account) that can realistically
+│                        │      │                   conflict with the uids of users defined on locally
+│                        │      │                   administered networks, potentially leading to account
+│                        │      │                   takeover, e.g., by leveraging newuidmap for access to an
+│                        │      │                   NFS home directory (or same-host resources in the case of
+│                        │      │                   remote logins by these local network users). NOTE: it may
+│                        │      │                   also be argued that system administrators should not have
+│                        │      │                   assigned uids, within local networks, that are within the
+│                        │      │                   range that can occur in /etc/subuid. 
+│                        │      ├ Severity        : LOW 
+│                        │      ├ CweIDs           ─ [0]: CWE-1188 
+│                        │      ├ VendorSeverity   ╭ azure : 1 
+│                        │      │                  ├ redhat: 1 
+│                        │      │                  ╰ ubuntu: 1 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:
+│                        │      │                           │           L/A:N 
+│                        │      │                           ╰ V3Score : 3.6 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-56433 
+│                        │      │                  ├ [1]: https://github.com/shadow-maint/shadow/blob/e2512d574
+│                        │      │                  │      1d4a44bdd81a8c2d0029b6222728cf0/etc/login.defs#L238-L
+│                        │      │                  │      241 
+│                        │      │                  ├ [2]: https://github.com/shadow-maint/shadow/issues/1157 
+│                        │      │                  ├ [3]: https://github.com/shadow-maint/shadow/releases/tag/4.4 
+│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-56433 
+│                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
+│                        │      ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
+│                        │      ╰ LastModifiedDate: 2024-12-26T09:15:07.267Z 
+│                        ├ [36] ╭ VulnerabilityID : CVE-2024-41996 
+│                        │      ├ PkgID           : openssl@3.0.13-0ubuntu3.5 
+│                        │      ├ PkgName         : openssl 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl@3.0.13-0ubuntu3.5?arch=amd64&
+│                        │      │                  │       distro=ubuntu-24.04 
+│                        │      │                  ╰ UID : d811af5e0be8e599 
+│                        │      ├ InstalledVersion: 3.0.13-0ubuntu3.5 
+│                        │      ├ Status          : affected 
+│                        │      ├ Layer            ╭ Digest: sha256:954740542862d73178282d0bac4af6e0a73bce1a2fb
+│                        │      │                  │         7b832ab033b062cc2633b 
+│                        │      │                  ╰ DiffID: sha256:e27617fcda7979a18fc96bfe9eb43b4a861301a376c
+│                        │      │                            fc1bb76571e3c49a4a4b4 
 │                        │      ├ SeveritySource  : ubuntu 
 │                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-41996 
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
@@ -1891,429 +1862,6 @@
 │                        │      ├ PublishedDate   : 2024-08-26T06:15:04.603Z 
 │                        │      ╰ LastModifiedDate: 2024-08-26T16:35:11.247Z 
 │                        ├ [37] ╭ VulnerabilityID : CVE-2024-56433 
-│                        │      ├ PkgID           : libsubid4@1:4.13+dfsg1-4ubuntu3.2 
-│                        │      ├ PkgName         : libsubid4 
-│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libsubid4@4.13%2Bdfsg1-4ubuntu3.2?arc
-│                        │      │                  │       h=amd64&distro=ubuntu-24.04&epoch=1 
-│                        │      │                  ╰ UID : feed39d3da6e524e 
-│                        │      ├ InstalledVersion: 1:4.13+dfsg1-4ubuntu3.2 
-│                        │      ├ Status          : affected 
-│                        │      ├ Layer            ╭ Digest: sha256:b25b5c28dff7ffbb5d7c36a7a6f54aa53dd0f77ddf1
-│                        │      │                  │         1d5bd4771f6ad9168cdc5 
-│                        │      │                  ╰ DiffID: sha256:f5a8dfe2745d88d380e799a454a8728acc52a14da58
-│                        │      │                            ed4ff065e78e54b5ec643 
-│                        │      ├ SeveritySource  : ubuntu 
-│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-56433 
-│                        │      ├ DataSource       ╭ ID  : ubuntu 
-│                        │      │                  ├ Name: Ubuntu CVE Tracker 
-│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │      ├ Title           : shadow-utils: Default subordinate ID configuration in
-│                        │      │                   /etc/login.defs could lead to compromise 
-│                        │      ├ Description     : shadow-utils (aka shadow) 4.4 through 4.17.0 establishes a
-│                        │      │                   default /etc/subuid behavior (e.g., uid 100000 through
-│                        │      │                   165535 for the first user account) that can realistically
-│                        │      │                   conflict with the uids of users defined on locally
-│                        │      │                   administered networks, potentially leading to account
-│                        │      │                   takeover, e.g., by leveraging newuidmap for access to an
-│                        │      │                   NFS home directory (or same-host resources in the case of
-│                        │      │                   remote logins by these local network users). NOTE: it may
-│                        │      │                   also be argued that system administrators should not have
-│                        │      │                   assigned uids, within local networks, that are within the
-│                        │      │                   range that can occur in /etc/subuid. 
-│                        │      ├ Severity        : LOW 
-│                        │      ├ CweIDs           ─ [0]: CWE-1188 
-│                        │      ├ VendorSeverity   ╭ azure : 1 
-│                        │      │                  ├ redhat: 1 
-│                        │      │                  ╰ ubuntu: 1 
-│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:
-│                        │      │                           │           L/A:N 
-│                        │      │                           ╰ V3Score : 3.6 
-│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-56433 
-│                        │      │                  ├ [1]: https://github.com/shadow-maint/shadow/blob/e2512d574
-│                        │      │                  │      1d4a44bdd81a8c2d0029b6222728cf0/etc/login.defs#L238-L
-│                        │      │                  │      241 
-│                        │      │                  ├ [2]: https://github.com/shadow-maint/shadow/issues/1157 
-│                        │      │                  ├ [3]: https://github.com/shadow-maint/shadow/releases/tag/4.4 
-│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-56433 
-│                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
-│                        │      ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
-│                        │      ╰ LastModifiedDate: 2024-12-26T09:15:07.267Z 
-│                        ├ [38] ╭ VulnerabilityID : CVE-2025-49794 
-│                        │      ├ PkgID           : libxml2@2.9.14+dfsg-1.3ubuntu3.3 
-│                        │      ├ PkgName         : libxml2 
-│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libxml2@2.9.14%2Bdfsg-1.3ubuntu3.3?ar
-│                        │      │                  │       ch=amd64&distro=ubuntu-24.04 
-│                        │      │                  ╰ UID : 40e9d95b2782b7c4 
-│                        │      ├ InstalledVersion: 2.9.14+dfsg-1.3ubuntu3.3 
-│                        │      ├ FixedVersion    : 2.9.14+dfsg-1.3ubuntu3.4 
-│                        │      ├ Status          : fixed 
-│                        │      ├ Layer            ╭ Digest: sha256:b25b5c28dff7ffbb5d7c36a7a6f54aa53dd0f77ddf1
-│                        │      │                  │         1d5bd4771f6ad9168cdc5 
-│                        │      │                  ╰ DiffID: sha256:f5a8dfe2745d88d380e799a454a8728acc52a14da58
-│                        │      │                            ed4ff065e78e54b5ec643 
-│                        │      ├ SeveritySource  : ubuntu 
-│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-49794 
-│                        │      ├ DataSource       ╭ ID  : ubuntu 
-│                        │      │                  ├ Name: Ubuntu CVE Tracker 
-│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │      ├ Title           : libxml: Heap use after free (UAF) leads to Denial of
-│                        │      │                   service (DoS) 
-│                        │      ├ Description     : A use-after-free vulnerability was found in libxml2. This
-│                        │      │                   issue occurs when parsing XPath elements under certain
-│                        │      │                   circumstances when the XML schematron has the <sch:name
-│                        │      │                   path="..."/> schema elements. This flaw allows a malicious
-│                        │      │                   actor to craft a malicious XML document used as input for
-│                        │      │                   libxml, resulting in the program's crash using libxml or
-│                        │      │                   other possible undefined behaviors. 
-│                        │      ├ Severity        : MEDIUM 
-│                        │      ├ CweIDs           ─ [0]: CWE-825 
-│                        │      ├ VendorSeverity   ╭ alma       : 3 
-│                        │      │                  ├ amazon     : 3 
-│                        │      │                  ├ azure      : 4 
-│                        │      │                  ├ cbl-mariner: 4 
-│                        │      │                  ├ oracle-oval: 3 
-│                        │      │                  ├ photon     : 4 
-│                        │      │                  ├ redhat     : 3 
-│                        │      │                  ├ rocky      : 3 
-│                        │      │                  ╰ ubuntu     : 2 
-│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
-│                        │      │                           │           H/A:H 
-│                        │      │                           ╰ V3Score : 9.1 
-│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:10630 
-│                        │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:10698 
-│                        │      │                  ├ [2] : https://access.redhat.com/errata/RHSA-2025:10699 
-│                        │      │                  ├ [3] : https://access.redhat.com/errata/RHSA-2025:11580 
-│                        │      │                  ├ [4] : https://access.redhat.com/errata/RHSA-2025:12098 
-│                        │      │                  ├ [5] : https://access.redhat.com/errata/RHSA-2025:12099 
-│                        │      │                  ├ [6] : https://access.redhat.com/errata/RHSA-2025:12199 
-│                        │      │                  ├ [7] : https://access.redhat.com/errata/RHSA-2025:12237 
-│                        │      │                  ├ [8] : https://access.redhat.com/errata/RHSA-2025:12239 
-│                        │      │                  ├ [9] : https://access.redhat.com/errata/RHSA-2025:12240 
-│                        │      │                  ├ [10]: https://access.redhat.com/errata/RHSA-2025:12241 
-│                        │      │                  ├ [11]: https://access.redhat.com/errata/RHSA-2025:13335 
-│                        │      │                  ├ [12]: https://access.redhat.com/security/cve/CVE-2025-49794 
-│                        │      │                  ├ [13]: https://bugzilla.redhat.com/2372373 
-│                        │      │                  ├ [14]: https://bugzilla.redhat.com/2372385 
-│                        │      │                  ├ [15]: https://bugzilla.redhat.com/2372406 
-│                        │      │                  ├ [16]: https://bugzilla.redhat.com/show_bug.cgi?id=2372373 
-│                        │      │                  ├ [17]: https://bugzilla.redhat.com/show_bug.cgi?id=2372385 
-│                        │      │                  ├ [18]: https://bugzilla.redhat.com/show_bug.cgi?id=2372406 
-│                        │      │                  ├ [19]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                        │      │                  │       025-49794 
-│                        │      │                  ├ [20]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                        │      │                  │       025-49796 
-│                        │      │                  ├ [21]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                        │      │                  │       025-6021 
-│                        │      │                  ├ [22]: https://errata.almalinux.org/9/ALSA-2025-10699.html 
-│                        │      │                  ├ [23]: https://errata.rockylinux.org/RLSA-2025:10698 
-│                        │      │                  ├ [24]: https://gitlab.gnome.org/GNOME/libxml2/-/issues/931 
-│                        │      │                  ├ [25]: https://linux.oracle.com/cve/CVE-2025-49794.html 
-│                        │      │                  ├ [26]: https://linux.oracle.com/errata/ELSA-2025-12240.html 
-│                        │      │                  ├ [27]: https://nvd.nist.gov/vuln/detail/CVE-2025-49794 
-│                        │      │                  ├ [28]: https://ubuntu.com/security/notices/USN-7694-1 
-│                        │      │                  ╰ [29]: https://www.cve.org/CVERecord?id=CVE-2025-49794 
-│                        │      ├ PublishedDate   : 2025-06-16T16:15:18.997Z 
-│                        │      ╰ LastModifiedDate: 2025-08-07T09:15:27.75Z 
-│                        ├ [39] ╭ VulnerabilityID : CVE-2025-49796 
-│                        │      ├ PkgID           : libxml2@2.9.14+dfsg-1.3ubuntu3.3 
-│                        │      ├ PkgName         : libxml2 
-│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libxml2@2.9.14%2Bdfsg-1.3ubuntu3.3?ar
-│                        │      │                  │       ch=amd64&distro=ubuntu-24.04 
-│                        │      │                  ╰ UID : 40e9d95b2782b7c4 
-│                        │      ├ InstalledVersion: 2.9.14+dfsg-1.3ubuntu3.3 
-│                        │      ├ FixedVersion    : 2.9.14+dfsg-1.3ubuntu3.4 
-│                        │      ├ Status          : fixed 
-│                        │      ├ Layer            ╭ Digest: sha256:b25b5c28dff7ffbb5d7c36a7a6f54aa53dd0f77ddf1
-│                        │      │                  │         1d5bd4771f6ad9168cdc5 
-│                        │      │                  ╰ DiffID: sha256:f5a8dfe2745d88d380e799a454a8728acc52a14da58
-│                        │      │                            ed4ff065e78e54b5ec643 
-│                        │      ├ SeveritySource  : ubuntu 
-│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-49796 
-│                        │      ├ DataSource       ╭ ID  : ubuntu 
-│                        │      │                  ├ Name: Ubuntu CVE Tracker 
-│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │      ├ Title           : libxml: Type confusion leads to Denial of service (DoS) 
-│                        │      ├ Description     : A vulnerability was found in libxml2. Processing certain
-│                        │      │                   sch:name elements from the input XML file can trigger a
-│                        │      │                   memory corruption issue. This flaw allows an attacker to
-│                        │      │                   craft a malicious XML input file that can lead libxml to
-│                        │      │                   crash, resulting in a denial of service or other possible
-│                        │      │                   undefined behavior due to sensitive data being corrupted in
-│                        │      │                    memory. 
-│                        │      ├ Severity        : MEDIUM 
-│                        │      ├ CweIDs           ─ [0]: CWE-125 
-│                        │      ├ VendorSeverity   ╭ alma       : 3 
-│                        │      │                  ├ amazon     : 3 
-│                        │      │                  ├ azure      : 4 
-│                        │      │                  ├ cbl-mariner: 4 
-│                        │      │                  ├ oracle-oval: 3 
-│                        │      │                  ├ photon     : 4 
-│                        │      │                  ├ redhat     : 3 
-│                        │      │                  ├ rocky      : 3 
-│                        │      │                  ╰ ubuntu     : 2 
-│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
-│                        │      │                           │           H/A:H 
-│                        │      │                           ╰ V3Score : 9.1 
-│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:10630 
-│                        │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:10698 
-│                        │      │                  ├ [2] : https://access.redhat.com/errata/RHSA-2025:10699 
-│                        │      │                  ├ [3] : https://access.redhat.com/errata/RHSA-2025:11580 
-│                        │      │                  ├ [4] : https://access.redhat.com/errata/RHSA-2025:12098 
-│                        │      │                  ├ [5] : https://access.redhat.com/errata/RHSA-2025:12099 
-│                        │      │                  ├ [6] : https://access.redhat.com/errata/RHSA-2025:12199 
-│                        │      │                  ├ [7] : https://access.redhat.com/errata/RHSA-2025:12237 
-│                        │      │                  ├ [8] : https://access.redhat.com/errata/RHSA-2025:12239 
-│                        │      │                  ├ [9] : https://access.redhat.com/errata/RHSA-2025:12240 
-│                        │      │                  ├ [10]: https://access.redhat.com/errata/RHSA-2025:12241 
-│                        │      │                  ├ [11]: https://access.redhat.com/errata/RHSA-2025:13267 
-│                        │      │                  ├ [12]: https://access.redhat.com/errata/RHSA-2025:13335 
-│                        │      │                  ├ [13]: https://access.redhat.com/security/cve/CVE-2025-49796 
-│                        │      │                  ├ [14]: https://bugzilla.redhat.com/2372373 
-│                        │      │                  ├ [15]: https://bugzilla.redhat.com/2372385 
-│                        │      │                  ├ [16]: https://bugzilla.redhat.com/2372406 
-│                        │      │                  ├ [17]: https://bugzilla.redhat.com/show_bug.cgi?id=2372373 
-│                        │      │                  ├ [18]: https://bugzilla.redhat.com/show_bug.cgi?id=2372385 
-│                        │      │                  ├ [19]: https://bugzilla.redhat.com/show_bug.cgi?id=2372406 
-│                        │      │                  ├ [20]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                        │      │                  │       025-49794 
-│                        │      │                  ├ [21]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                        │      │                  │       025-49796 
-│                        │      │                  ├ [22]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                        │      │                  │       025-6021 
-│                        │      │                  ├ [23]: https://errata.almalinux.org/9/ALSA-2025-10699.html 
-│                        │      │                  ├ [24]: https://errata.rockylinux.org/RLSA-2025:10698 
-│                        │      │                  ├ [25]: https://gitlab.gnome.org/GNOME/libxml2/-/issues/933 
-│                        │      │                  ├ [26]: https://linux.oracle.com/cve/CVE-2025-49796.html 
-│                        │      │                  ├ [27]: https://linux.oracle.com/errata/ELSA-2025-12240.html 
-│                        │      │                  ├ [28]: https://nvd.nist.gov/vuln/detail/CVE-2025-49796 
-│                        │      │                  ├ [29]: https://ubuntu.com/security/notices/USN-7694-1 
-│                        │      │                  ╰ [30]: https://www.cve.org/CVERecord?id=CVE-2025-49796 
-│                        │      ├ PublishedDate   : 2025-06-16T16:15:19.37Z 
-│                        │      ╰ LastModifiedDate: 2025-08-07T09:15:27.99Z 
-│                        ├ [40] ╭ VulnerabilityID : CVE-2025-6021 
-│                        │      ├ PkgID           : libxml2@2.9.14+dfsg-1.3ubuntu3.3 
-│                        │      ├ PkgName         : libxml2 
-│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libxml2@2.9.14%2Bdfsg-1.3ubuntu3.3?ar
-│                        │      │                  │       ch=amd64&distro=ubuntu-24.04 
-│                        │      │                  ╰ UID : 40e9d95b2782b7c4 
-│                        │      ├ InstalledVersion: 2.9.14+dfsg-1.3ubuntu3.3 
-│                        │      ├ FixedVersion    : 2.9.14+dfsg-1.3ubuntu3.4 
-│                        │      ├ Status          : fixed 
-│                        │      ├ Layer            ╭ Digest: sha256:b25b5c28dff7ffbb5d7c36a7a6f54aa53dd0f77ddf1
-│                        │      │                  │         1d5bd4771f6ad9168cdc5 
-│                        │      │                  ╰ DiffID: sha256:f5a8dfe2745d88d380e799a454a8728acc52a14da58
-│                        │      │                            ed4ff065e78e54b5ec643 
-│                        │      ├ SeveritySource  : ubuntu 
-│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-6021 
-│                        │      ├ DataSource       ╭ ID  : ubuntu 
-│                        │      │                  ├ Name: Ubuntu CVE Tracker 
-│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │      ├ Title           : libxml2: Integer Overflow in xmlBuildQName() Leads to Stack
-│                        │      │                    Buffer Overflow in libxml2 
-│                        │      ├ Description     : A flaw was found in libxml2's xmlBuildQName function, where
-│                        │      │                    integer overflows in buffer size calculations can lead to
-│                        │      │                   a stack-based buffer overflow. This issue can result in
-│                        │      │                   memory corruption or a denial of service when processing
-│                        │      │                   crafted input. 
-│                        │      ├ Severity        : MEDIUM 
-│                        │      ├ CweIDs           ─ [0]: CWE-121 
-│                        │      ├ VendorSeverity   ╭ alma       : 3 
-│                        │      │                  ├ amazon     : 3 
-│                        │      │                  ├ azure      : 2 
-│                        │      │                  ├ cbl-mariner: 2 
-│                        │      │                  ├ oracle-oval: 3 
-│                        │      │                  ├ photon     : 3 
-│                        │      │                  ├ redhat     : 2 
-│                        │      │                  ├ rocky      : 3 
-│                        │      │                  ╰ ubuntu     : 2 
-│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
-│                        │      │                           │           N/A:H 
-│                        │      │                           ╰ V3Score : 7.5 
-│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:10630 
-│                        │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:10698 
-│                        │      │                  ├ [2] : https://access.redhat.com/errata/RHSA-2025:10699 
-│                        │      │                  ├ [3] : https://access.redhat.com/errata/RHSA-2025:11580 
-│                        │      │                  ├ [4] : https://access.redhat.com/errata/RHSA-2025:12098 
-│                        │      │                  ├ [5] : https://access.redhat.com/errata/RHSA-2025:12099 
-│                        │      │                  ├ [6] : https://access.redhat.com/errata/RHSA-2025:12199 
-│                        │      │                  ├ [7] : https://access.redhat.com/errata/RHSA-2025:12237 
-│                        │      │                  ├ [8] : https://access.redhat.com/errata/RHSA-2025:12239 
-│                        │      │                  ├ [9] : https://access.redhat.com/errata/RHSA-2025:12240 
-│                        │      │                  ├ [10]: https://access.redhat.com/errata/RHSA-2025:12241 
-│                        │      │                  ├ [11]: https://access.redhat.com/errata/RHSA-2025:13267 
-│                        │      │                  ├ [12]: https://access.redhat.com/errata/RHSA-2025:13289 
-│                        │      │                  ├ [13]: https://access.redhat.com/errata/RHSA-2025:13325 
-│                        │      │                  ├ [14]: https://access.redhat.com/errata/RHSA-2025:13335 
-│                        │      │                  ├ [15]: https://access.redhat.com/errata/RHSA-2025:13336 
-│                        │      │                  ├ [16]: https://access.redhat.com/security/cve/CVE-2025-6021 
-│                        │      │                  ├ [17]: https://bugzilla.redhat.com/2372373 
-│                        │      │                  ├ [18]: https://bugzilla.redhat.com/2372385 
-│                        │      │                  ├ [19]: https://bugzilla.redhat.com/2372406 
-│                        │      │                  ├ [20]: https://bugzilla.redhat.com/show_bug.cgi?id=2372373 
-│                        │      │                  ├ [21]: https://bugzilla.redhat.com/show_bug.cgi?id=2372385 
-│                        │      │                  ├ [22]: https://bugzilla.redhat.com/show_bug.cgi?id=2372406 
-│                        │      │                  ├ [23]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                        │      │                  │       025-49794 
-│                        │      │                  ├ [24]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                        │      │                  │       025-49796 
-│                        │      │                  ├ [25]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                        │      │                  │       025-6021 
-│                        │      │                  ├ [26]: https://errata.almalinux.org/9/ALSA-2025-10699.html 
-│                        │      │                  ├ [27]: https://errata.rockylinux.org/RLSA-2025:10698 
-│                        │      │                  ├ [28]: https://gitlab.gnome.org/GNOME/libxml2/-/issues/926 
-│                        │      │                  ├ [29]: https://linux.oracle.com/cve/CVE-2025-6021.html 
-│                        │      │                  ├ [30]: https://linux.oracle.com/errata/ELSA-2025-12240.html 
-│                        │      │                  ├ [31]: https://nvd.nist.gov/vuln/detail/CVE-2025-6021 
-│                        │      │                  ├ [32]: https://ubuntu.com/security/notices/USN-7694-1 
-│                        │      │                  ╰ [33]: https://www.cve.org/CVERecord?id=CVE-2025-6021 
-│                        │      ├ PublishedDate   : 2025-06-12T13:15:25.59Z 
-│                        │      ╰ LastModifiedDate: 2025-08-14T09:15:27.03Z 
-│                        ├ [41] ╭ VulnerabilityID : CVE-2025-6170 
-│                        │      ├ PkgID           : libxml2@2.9.14+dfsg-1.3ubuntu3.3 
-│                        │      ├ PkgName         : libxml2 
-│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libxml2@2.9.14%2Bdfsg-1.3ubuntu3.3?ar
-│                        │      │                  │       ch=amd64&distro=ubuntu-24.04 
-│                        │      │                  ╰ UID : 40e9d95b2782b7c4 
-│                        │      ├ InstalledVersion: 2.9.14+dfsg-1.3ubuntu3.3 
-│                        │      ├ FixedVersion    : 2.9.14+dfsg-1.3ubuntu3.4 
-│                        │      ├ Status          : fixed 
-│                        │      ├ Layer            ╭ Digest: sha256:b25b5c28dff7ffbb5d7c36a7a6f54aa53dd0f77ddf1
-│                        │      │                  │         1d5bd4771f6ad9168cdc5 
-│                        │      │                  ╰ DiffID: sha256:f5a8dfe2745d88d380e799a454a8728acc52a14da58
-│                        │      │                            ed4ff065e78e54b5ec643 
-│                        │      ├ SeveritySource  : ubuntu 
-│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-6170 
-│                        │      ├ DataSource       ╭ ID  : ubuntu 
-│                        │      │                  ├ Name: Ubuntu CVE Tracker 
-│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │      ├ Title           : libxml2: Stack Buffer Overflow in xmllint Interactive Shell
-│                        │      │                    Command Handling 
-│                        │      ├ Description     : A flaw was found in the interactive shell of the xmllint
-│                        │      │                   command-line tool, used for parsing XML files. When a user
-│                        │      │                   inputs an overly long command, the program does not check
-│                        │      │                   the input size properly, which can cause it to crash. This
-│                        │      │                   issue might allow attackers to run harmful code in rare
-│                        │      │                   configurations without modern protections. 
-│                        │      ├ Severity        : MEDIUM 
-│                        │      ├ CweIDs           ─ [0]: CWE-121 
-│                        │      ├ VendorSeverity   ╭ azure      : 1 
-│                        │      │                  ├ cbl-mariner: 1 
-│                        │      │                  ├ nvd        : 1 
-│                        │      │                  ├ redhat     : 1 
-│                        │      │                  ╰ ubuntu     : 2 
-│                        │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:N/I:
-│                        │      │                  │        │           N/A:L 
-│                        │      │                  │        ╰ V3Score : 2.5 
-│                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:N/I:
-│                        │      │                           │           N/A:L 
-│                        │      │                           ╰ V3Score : 2.5 
-│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-6170 
-│                        │      │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2372952 
-│                        │      │                  ├ [2]: https://gitlab.gnome.org/GNOME/libxml2/-/issues/941 
-│                        │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-6170 
-│                        │      │                  ├ [4]: https://ubuntu.com/security/notices/USN-7694-1 
-│                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-6170 
-│                        │      ├ PublishedDate   : 2025-06-16T16:15:20.43Z 
-│                        │      ╰ LastModifiedDate: 2025-08-12T13:04:06.117Z 
-│                        ├ [42] ╭ VulnerabilityID : CVE-2024-56433 
-│                        │      ├ PkgID           : login@1:4.13+dfsg1-4ubuntu3.2 
-│                        │      ├ PkgName         : login 
-│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/login@4.13%2Bdfsg1-4ubuntu3.2?arch=am
-│                        │      │                  │       d64&distro=ubuntu-24.04&epoch=1 
-│                        │      │                  ╰ UID : 3f512019203c1af7 
-│                        │      ├ InstalledVersion: 1:4.13+dfsg1-4ubuntu3.2 
-│                        │      ├ Status          : affected 
-│                        │      ├ Layer            ╭ Digest: sha256:b25b5c28dff7ffbb5d7c36a7a6f54aa53dd0f77ddf1
-│                        │      │                  │         1d5bd4771f6ad9168cdc5 
-│                        │      │                  ╰ DiffID: sha256:f5a8dfe2745d88d380e799a454a8728acc52a14da58
-│                        │      │                            ed4ff065e78e54b5ec643 
-│                        │      ├ SeveritySource  : ubuntu 
-│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-56433 
-│                        │      ├ DataSource       ╭ ID  : ubuntu 
-│                        │      │                  ├ Name: Ubuntu CVE Tracker 
-│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │      ├ Title           : shadow-utils: Default subordinate ID configuration in
-│                        │      │                   /etc/login.defs could lead to compromise 
-│                        │      ├ Description     : shadow-utils (aka shadow) 4.4 through 4.17.0 establishes a
-│                        │      │                   default /etc/subuid behavior (e.g., uid 100000 through
-│                        │      │                   165535 for the first user account) that can realistically
-│                        │      │                   conflict with the uids of users defined on locally
-│                        │      │                   administered networks, potentially leading to account
-│                        │      │                   takeover, e.g., by leveraging newuidmap for access to an
-│                        │      │                   NFS home directory (or same-host resources in the case of
-│                        │      │                   remote logins by these local network users). NOTE: it may
-│                        │      │                   also be argued that system administrators should not have
-│                        │      │                   assigned uids, within local networks, that are within the
-│                        │      │                   range that can occur in /etc/subuid. 
-│                        │      ├ Severity        : LOW 
-│                        │      ├ CweIDs           ─ [0]: CWE-1188 
-│                        │      ├ VendorSeverity   ╭ azure : 1 
-│                        │      │                  ├ redhat: 1 
-│                        │      │                  ╰ ubuntu: 1 
-│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:
-│                        │      │                           │           L/A:N 
-│                        │      │                           ╰ V3Score : 3.6 
-│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-56433 
-│                        │      │                  ├ [1]: https://github.com/shadow-maint/shadow/blob/e2512d574
-│                        │      │                  │      1d4a44bdd81a8c2d0029b6222728cf0/etc/login.defs#L238-L
-│                        │      │                  │      241 
-│                        │      │                  ├ [2]: https://github.com/shadow-maint/shadow/issues/1157 
-│                        │      │                  ├ [3]: https://github.com/shadow-maint/shadow/releases/tag/4.4 
-│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-56433 
-│                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
-│                        │      ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
-│                        │      ╰ LastModifiedDate: 2024-12-26T09:15:07.267Z 
-│                        ├ [43] ╭ VulnerabilityID : CVE-2024-41996 
-│                        │      ├ PkgID           : openssl@3.0.13-0ubuntu3.5 
-│                        │      ├ PkgName         : openssl 
-│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl@3.0.13-0ubuntu3.5?arch=amd64&
-│                        │      │                  │       distro=ubuntu-24.04 
-│                        │      │                  ╰ UID : d811af5e0be8e599 
-│                        │      ├ InstalledVersion: 3.0.13-0ubuntu3.5 
-│                        │      ├ Status          : affected 
-│                        │      ├ Layer            ╭ Digest: sha256:b25b5c28dff7ffbb5d7c36a7a6f54aa53dd0f77ddf1
-│                        │      │                  │         1d5bd4771f6ad9168cdc5 
-│                        │      │                  ╰ DiffID: sha256:f5a8dfe2745d88d380e799a454a8728acc52a14da58
-│                        │      │                            ed4ff065e78e54b5ec643 
-│                        │      ├ SeveritySource  : ubuntu 
-│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-41996 
-│                        │      ├ DataSource       ╭ ID  : ubuntu 
-│                        │      │                  ├ Name: Ubuntu CVE Tracker 
-│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │      ├ Title           : openssl: remote attackers (from the client side) to trigger
-│                        │      │                    unnecessarily expensive server-side DHE
-│                        │      │                   modular-exponentiation calculations 
-│                        │      ├ Description     : Validating the order of the public keys in the
-│                        │      │                   Diffie-Hellman Key Agreement Protocol, when an approved
-│                        │      │                   safe prime is used, allows remote attackers (from the
-│                        │      │                   client side) to trigger unnecessarily expensive server-side
-│                        │      │                    DHE modular-exponentiation calculations. The client may
-│                        │      │                   cause asymmetric resource consumption. The basic attack
-│                        │      │                   scenario is that the client must claim that it can only
-│                        │      │                   communicate with DHE, and the server must be configured to
-│                        │      │                   allow DHE and validate the order of the public key. 
-│                        │      ├ Severity        : LOW 
-│                        │      ├ CweIDs           ─ [0]: CWE-295 
-│                        │      ├ VendorSeverity   ╭ amazon: 2 
-│                        │      │                  ├ redhat: 1 
-│                        │      │                  ╰ ubuntu: 1 
-│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:
-│                        │      │                           │           N/A:H 
-│                        │      │                           ╰ V3Score : 5.9 
-│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-41996 
-│                        │      │                  ├ [1]: https://dheatattack.gitlab.io/details/ 
-│                        │      │                  ├ [2]: https://dheatattack.gitlab.io/faq/ 
-│                        │      │                  ├ [3]: https://gist.github.com/c0r0n3r/abccc14d4d96c0442f3a7
-│                        │      │                  │      7fa5ca255d1 
-│                        │      │                  ├ [4]: https://github.com/openssl/openssl/issues/17374 
-│                        │      │                  ├ [5]: https://github.com/openssl/openssl/pull/25088 
-│                        │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2024-41996 
-│                        │      │                  ├ [7]: https://openssl-library.org/post/2022-10-21-tls-group
-│                        │      │                  │      s-configuration/ 
-│                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-41996 
-│                        │      ├ PublishedDate   : 2024-08-26T06:15:04.603Z 
-│                        │      ╰ LastModifiedDate: 2024-08-26T16:35:11.247Z 
-│                        ├ [44] ╭ VulnerabilityID : CVE-2024-56433 
 │                        │      ├ PkgID           : passwd@1:4.13+dfsg1-4ubuntu3.2 
 │                        │      ├ PkgName         : passwd 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/passwd@4.13%2Bdfsg1-4ubuntu3.2?arch=a
@@ -2321,10 +1869,10 @@
 │                        │      │                  ╰ UID : 1186bf197348b4a7 
 │                        │      ├ InstalledVersion: 1:4.13+dfsg1-4ubuntu3.2 
 │                        │      ├ Status          : affected 
-│                        │      ├ Layer            ╭ Digest: sha256:b25b5c28dff7ffbb5d7c36a7a6f54aa53dd0f77ddf1
-│                        │      │                  │         1d5bd4771f6ad9168cdc5 
-│                        │      │                  ╰ DiffID: sha256:f5a8dfe2745d88d380e799a454a8728acc52a14da58
-│                        │      │                            ed4ff065e78e54b5ec643 
+│                        │      ├ Layer            ╭ Digest: sha256:954740542862d73178282d0bac4af6e0a73bce1a2fb
+│                        │      │                  │         7b832ab033b062cc2633b 
+│                        │      │                  ╰ DiffID: sha256:e27617fcda7979a18fc96bfe9eb43b4a861301a376c
+│                        │      │                            fc1bb76571e3c49a4a4b4 
 │                        │      ├ SeveritySource  : ubuntu 
 │                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-56433 
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
@@ -2361,7 +1909,7 @@
 │                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                        │      ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                        │      ╰ LastModifiedDate: 2024-12-26T09:15:07.267Z 
-│                        ├ [45] ╭ VulnerabilityID : CVE-2018-6952 
+│                        ├ [38] ╭ VulnerabilityID : CVE-2018-6952 
 │                        │      ├ PkgID           : patch@2.7.6-7build3 
 │                        │      ├ PkgName         : patch 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/patch@2.7.6-7build3?arch=amd64&distro
@@ -2369,10 +1917,10 @@
 │                        │      │                  ╰ UID : dec6ccf30f749f48 
 │                        │      ├ InstalledVersion: 2.7.6-7build3 
 │                        │      ├ Status          : affected 
-│                        │      ├ Layer            ╭ Digest: sha256:b25b5c28dff7ffbb5d7c36a7a6f54aa53dd0f77ddf1
-│                        │      │                  │         1d5bd4771f6ad9168cdc5 
-│                        │      │                  ╰ DiffID: sha256:f5a8dfe2745d88d380e799a454a8728acc52a14da58
-│                        │      │                            ed4ff065e78e54b5ec643 
+│                        │      ├ Layer            ╭ Digest: sha256:954740542862d73178282d0bac4af6e0a73bce1a2fb
+│                        │      │                  │         7b832ab033b062cc2633b 
+│                        │      │                  ╰ DiffID: sha256:e27617fcda7979a18fc96bfe9eb43b4a861301a376c
+│                        │      │                            fc1bb76571e3c49a4a4b4 
 │                        │      ├ SeveritySource  : ubuntu 
 │                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2018-6952 
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
@@ -2411,7 +1959,7 @@
 │                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2018-6952 
 │                        │      ├ PublishedDate   : 2018-02-13T19:29:00.573Z 
 │                        │      ╰ LastModifiedDate: 2024-11-21T04:11:28.42Z 
-│                        ├ [46] ╭ VulnerabilityID : CVE-2021-45261 
+│                        ├ [39] ╭ VulnerabilityID : CVE-2021-45261 
 │                        │      ├ PkgID           : patch@2.7.6-7build3 
 │                        │      ├ PkgName         : patch 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/patch@2.7.6-7build3?arch=amd64&distro
@@ -2419,10 +1967,10 @@
 │                        │      │                  ╰ UID : dec6ccf30f749f48 
 │                        │      ├ InstalledVersion: 2.7.6-7build3 
 │                        │      ├ Status          : affected 
-│                        │      ├ Layer            ╭ Digest: sha256:b25b5c28dff7ffbb5d7c36a7a6f54aa53dd0f77ddf1
-│                        │      │                  │         1d5bd4771f6ad9168cdc5 
-│                        │      │                  ╰ DiffID: sha256:f5a8dfe2745d88d380e799a454a8728acc52a14da58
-│                        │      │                            ed4ff065e78e54b5ec643 
+│                        │      ├ Layer            ╭ Digest: sha256:954740542862d73178282d0bac4af6e0a73bce1a2fb
+│                        │      │                  │         7b832ab033b062cc2633b 
+│                        │      │                  ╰ DiffID: sha256:e27617fcda7979a18fc96bfe9eb43b4a861301a376c
+│                        │      │                            fc1bb76571e3c49a4a4b4 
 │                        │      ├ SeveritySource  : ubuntu 
 │                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2021-45261 
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
@@ -2451,129 +1999,7 @@
 │                        │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2021-45261 
 │                        │      ├ PublishedDate   : 2021-12-22T18:15:08.1Z 
 │                        │      ╰ LastModifiedDate: 2024-11-21T06:32:02.633Z 
-│                        ├ [47] ╭ VulnerabilityID : CVE-2025-6069 
-│                        │      ├ PkgID           : python3.12@3.12.3-1ubuntu0.7 
-│                        │      ├ PkgName         : python3.12 
-│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/python3.12@3.12.3-1ubuntu0.7?arch=amd
-│                        │      │                  │       64&distro=ubuntu-24.04 
-│                        │      │                  ╰ UID : 59e199460063f1f4 
-│                        │      ├ InstalledVersion: 3.12.3-1ubuntu0.7 
-│                        │      ├ Status          : affected 
-│                        │      ├ Layer            ╭ Digest: sha256:b25b5c28dff7ffbb5d7c36a7a6f54aa53dd0f77ddf1
-│                        │      │                  │         1d5bd4771f6ad9168cdc5 
-│                        │      │                  ╰ DiffID: sha256:f5a8dfe2745d88d380e799a454a8728acc52a14da58
-│                        │      │                            ed4ff065e78e54b5ec643 
-│                        │      ├ SeveritySource  : ubuntu 
-│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-6069 
-│                        │      ├ DataSource       ╭ ID  : ubuntu 
-│                        │      │                  ├ Name: Ubuntu CVE Tracker 
-│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │      ├ Title           : cpython: Python HTMLParser quadratic complexity 
-│                        │      ├ Description     : The html.parser.HTMLParser class had worse-case quadratic
-│                        │      │                   complexity when processing certain crafted malformed inputs
-│                        │      │                    potentially leading to amplified denial-of-service. 
-│                        │      ├ Severity        : MEDIUM 
-│                        │      ├ CweIDs           ─ [0]: CWE-1333 
-│                        │      ├ VendorSeverity   ╭ amazon     : 2 
-│                        │      │                  ├ azure      : 2 
-│                        │      │                  ├ bitnami    : 2 
-│                        │      │                  ├ cbl-mariner: 2 
-│                        │      │                  ├ redhat     : 2 
-│                        │      │                  ╰ ubuntu     : 2 
-│                        │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I
-│                        │      │                  │         │           :N/A:L 
-│                        │      │                  │         ╰ V3Score : 4.3 
-│                        │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I
-│                        │      │                            │           :N/A:L 
-│                        │      │                            ╰ V3Score : 4.3 
-│                        │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2025-6069 
-│                        │      │                  ├ [1] : https://github.com/python/cpython/commit/4455cbabf99
-│                        │      │                  │       1e202185a25a631af206f60bbc949 
-│                        │      │                  ├ [2] : https://github.com/python/cpython/commit/6eb6c5dbfb5
-│                        │      │                  │       28bd07d77b60fd71fd05d81d45c41 
-│                        │      │                  ├ [3] : https://github.com/python/cpython/commit/6eb6c5dbfb5
-│                        │      │                  │       28bd07d77b60fd71fd05d81d45c41 (main) 
-│                        │      │                  ├ [4] : https://github.com/python/cpython/commit/8d1b3dfa091
-│                        │      │                  │       35affbbf27fb8babcf3c11415df49 
-│                        │      │                  ├ [5] : https://github.com/python/cpython/commit/ab0893fd5c5
-│                        │      │                  │       79d9cea30841680e6d35fc478afb5 
-│                        │      │                  ├ [6] : https://github.com/python/cpython/commit/d851f8e258c
-│                        │      │                  │       7328814943e923a7df81bca15df4b 
-│                        │      │                  ├ [7] : https://github.com/python/cpython/commit/f3c6f882cdd
-│                        │      │                  │       c8dc30320d2e73edf019e201394fc 
-│                        │      │                  ├ [8] : https://github.com/python/cpython/commit/fdc9d214c01
-│                        │      │                  │       cb4588f540cfa03726bbf2a33fc15 
-│                        │      │                  ├ [9] : https://github.com/python/cpython/issues/135462 
-│                        │      │                  ├ [10]: https://github.com/python/cpython/pull/135464 
-│                        │      │                  ├ [11]: https://mail.python.org/archives/list/security-annou
-│                        │      │                  │       nce@python.org/thread/K5PIYLR6EP3WR7ZOKKYQUWEDNQVUXO
-│                        │      │                  │       YM/ 
-│                        │      │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2025-6069 
-│                        │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2025-6069 
-│                        │      ├ PublishedDate   : 2025-06-17T14:15:33.677Z 
-│                        │      ╰ LastModifiedDate: 2025-07-07T18:15:29.15Z 
-│                        ├ [48] ╭ VulnerabilityID : CVE-2025-6069 
-│                        │      ├ PkgID           : python3.12-minimal@3.12.3-1ubuntu0.7 
-│                        │      ├ PkgName         : python3.12-minimal 
-│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/python3.12-minimal@3.12.3-1ubuntu0.7?
-│                        │      │                  │       arch=amd64&distro=ubuntu-24.04 
-│                        │      │                  ╰ UID : e5643f9e215502f1 
-│                        │      ├ InstalledVersion: 3.12.3-1ubuntu0.7 
-│                        │      ├ Status          : affected 
-│                        │      ├ Layer            ╭ Digest: sha256:b25b5c28dff7ffbb5d7c36a7a6f54aa53dd0f77ddf1
-│                        │      │                  │         1d5bd4771f6ad9168cdc5 
-│                        │      │                  ╰ DiffID: sha256:f5a8dfe2745d88d380e799a454a8728acc52a14da58
-│                        │      │                            ed4ff065e78e54b5ec643 
-│                        │      ├ SeveritySource  : ubuntu 
-│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-6069 
-│                        │      ├ DataSource       ╭ ID  : ubuntu 
-│                        │      │                  ├ Name: Ubuntu CVE Tracker 
-│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │      ├ Title           : cpython: Python HTMLParser quadratic complexity 
-│                        │      ├ Description     : The html.parser.HTMLParser class had worse-case quadratic
-│                        │      │                   complexity when processing certain crafted malformed inputs
-│                        │      │                    potentially leading to amplified denial-of-service. 
-│                        │      ├ Severity        : MEDIUM 
-│                        │      ├ CweIDs           ─ [0]: CWE-1333 
-│                        │      ├ VendorSeverity   ╭ amazon     : 2 
-│                        │      │                  ├ azure      : 2 
-│                        │      │                  ├ bitnami    : 2 
-│                        │      │                  ├ cbl-mariner: 2 
-│                        │      │                  ├ redhat     : 2 
-│                        │      │                  ╰ ubuntu     : 2 
-│                        │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I
-│                        │      │                  │         │           :N/A:L 
-│                        │      │                  │         ╰ V3Score : 4.3 
-│                        │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I
-│                        │      │                            │           :N/A:L 
-│                        │      │                            ╰ V3Score : 4.3 
-│                        │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2025-6069 
-│                        │      │                  ├ [1] : https://github.com/python/cpython/commit/4455cbabf99
-│                        │      │                  │       1e202185a25a631af206f60bbc949 
-│                        │      │                  ├ [2] : https://github.com/python/cpython/commit/6eb6c5dbfb5
-│                        │      │                  │       28bd07d77b60fd71fd05d81d45c41 
-│                        │      │                  ├ [3] : https://github.com/python/cpython/commit/6eb6c5dbfb5
-│                        │      │                  │       28bd07d77b60fd71fd05d81d45c41 (main) 
-│                        │      │                  ├ [4] : https://github.com/python/cpython/commit/8d1b3dfa091
-│                        │      │                  │       35affbbf27fb8babcf3c11415df49 
-│                        │      │                  ├ [5] : https://github.com/python/cpython/commit/ab0893fd5c5
-│                        │      │                  │       79d9cea30841680e6d35fc478afb5 
-│                        │      │                  ├ [6] : https://github.com/python/cpython/commit/d851f8e258c
-│                        │      │                  │       7328814943e923a7df81bca15df4b 
-│                        │      │                  ├ [7] : https://github.com/python/cpython/commit/f3c6f882cdd
-│                        │      │                  │       c8dc30320d2e73edf019e201394fc 
-│                        │      │                  ├ [8] : https://github.com/python/cpython/commit/fdc9d214c01
-│                        │      │                  │       cb4588f540cfa03726bbf2a33fc15 
-│                        │      │                  ├ [9] : https://github.com/python/cpython/issues/135462 
-│                        │      │                  ├ [10]: https://github.com/python/cpython/pull/135464 
-│                        │      │                  ├ [11]: https://mail.python.org/archives/list/security-annou
-│                        │      │                  │       nce@python.org/thread/K5PIYLR6EP3WR7ZOKKYQUWEDNQVUXO
-│                        │      │                  │       YM/ 
-│                        │      │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2025-6069 
-│                        │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2025-6069 
-│                        │      ├ PublishedDate   : 2025-06-17T14:15:33.677Z 
-│                        │      ╰ LastModifiedDate: 2025-07-07T18:15:29.15Z 
-│                        ├ [49] ╭ VulnerabilityID : CVE-2025-45582 
+│                        ├ [40] ╭ VulnerabilityID : CVE-2025-45582 
 │                        │      ├ PkgID           : tar@1.35+dfsg-3build1 
 │                        │      ├ PkgName         : tar 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/tar@1.35%2Bdfsg-3build1?arch=amd64&di
@@ -2581,10 +2007,10 @@
 │                        │      │                  ╰ UID : c39b01fed621c748 
 │                        │      ├ InstalledVersion: 1.35+dfsg-3build1 
 │                        │      ├ Status          : affected 
-│                        │      ├ Layer            ╭ Digest: sha256:b25b5c28dff7ffbb5d7c36a7a6f54aa53dd0f77ddf1
-│                        │      │                  │         1d5bd4771f6ad9168cdc5 
-│                        │      │                  ╰ DiffID: sha256:f5a8dfe2745d88d380e799a454a8728acc52a14da58
-│                        │      │                            ed4ff065e78e54b5ec643 
+│                        │      ├ Layer            ╭ Digest: sha256:954740542862d73178282d0bac4af6e0a73bce1a2fb
+│                        │      │                  │         7b832ab033b062cc2633b 
+│                        │      │                  ╰ DiffID: sha256:e27617fcda7979a18fc96bfe9eb43b4a861301a376c
+│                        │      │                            fc1bb76571e3c49a4a4b4 
 │                        │      ├ SeveritySource  : ubuntu 
 │                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-45582 
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
@@ -2639,7 +2065,7 @@
 │                        │      │                         urity-rules-of-thumb.html 
 │                        │      ├ PublishedDate   : 2025-07-11T17:15:37.183Z 
 │                        │      ╰ LastModifiedDate: 2025-08-18T04:15:36.743Z 
-│                        ├ [50] ╭ VulnerabilityID : CVE-2024-56433 
+│                        ├ [41] ╭ VulnerabilityID : CVE-2024-56433 
 │                        │      ├ PkgID           : uidmap@1:4.13+dfsg1-4ubuntu3.2 
 │                        │      ├ PkgName         : uidmap 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/uidmap@4.13%2Bdfsg1-4ubuntu3.2?arch=a
@@ -2647,10 +2073,10 @@
 │                        │      │                  ╰ UID : cfc42caa826d1149 
 │                        │      ├ InstalledVersion: 1:4.13+dfsg1-4ubuntu3.2 
 │                        │      ├ Status          : affected 
-│                        │      ├ Layer            ╭ Digest: sha256:b25b5c28dff7ffbb5d7c36a7a6f54aa53dd0f77ddf1
-│                        │      │                  │         1d5bd4771f6ad9168cdc5 
-│                        │      │                  ╰ DiffID: sha256:f5a8dfe2745d88d380e799a454a8728acc52a14da58
-│                        │      │                            ed4ff065e78e54b5ec643 
+│                        │      ├ Layer            ╭ Digest: sha256:954740542862d73178282d0bac4af6e0a73bce1a2fb
+│                        │      │                  │         7b832ab033b062cc2633b 
+│                        │      │                  ╰ DiffID: sha256:e27617fcda7979a18fc96bfe9eb43b4a861301a376c
+│                        │      │                            fc1bb76571e3c49a4a4b4 
 │                        │      ├ SeveritySource  : ubuntu 
 │                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-56433 
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
@@ -2687,7 +2113,7 @@
 │                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                        │      ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                        │      ╰ LastModifiedDate: 2024-12-26T09:15:07.267Z 
-│                        ╰ [51] ╭ VulnerabilityID : CVE-2021-31879 
+│                        ╰ [42] ╭ VulnerabilityID : CVE-2021-31879 
 │                               ├ PkgID           : wget@1.21.4-1ubuntu4.1 
 │                               ├ PkgName         : wget 
 │                               ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/wget@1.21.4-1ubuntu4.1?arch=amd64&dis
@@ -2695,10 +2121,10 @@
 │                               │                  ╰ UID : a9496064031a66ec 
 │                               ├ InstalledVersion: 1.21.4-1ubuntu4.1 
 │                               ├ Status          : affected 
-│                               ├ Layer            ╭ Digest: sha256:b25b5c28dff7ffbb5d7c36a7a6f54aa53dd0f77ddf1
-│                               │                  │         1d5bd4771f6ad9168cdc5 
-│                               │                  ╰ DiffID: sha256:f5a8dfe2745d88d380e799a454a8728acc52a14da58
-│                               │                            ed4ff065e78e54b5ec643 
+│                               ├ Layer            ╭ Digest: sha256:954740542862d73178282d0bac4af6e0a73bce1a2fb
+│                               │                  │         7b832ab033b062cc2633b 
+│                               │                  ╰ DiffID: sha256:e27617fcda7979a18fc96bfe9eb43b4a861301a376c
+│                               │                            fc1bb76571e3c49a4a4b4 
 │                               ├ SeveritySource  : ubuntu 
 │                               ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2021-31879 
 │                               ├ DataSource       ╭ ID  : ubuntu 
@@ -2748,10 +2174,10 @@
 │                        │     ├ InstalledVersion: v0.19.0 
 │                        │     ├ FixedVersion    : 0.23.0 
 │                        │     ├ Status          : fixed 
-│                        │     ├ Layer            ╭ Digest: sha256:b25b5c28dff7ffbb5d7c36a7a6f54aa53dd0f77ddf11
-│                        │     │                  │         d5bd4771f6ad9168cdc5 
-│                        │     │                  ╰ DiffID: sha256:f5a8dfe2745d88d380e799a454a8728acc52a14da58e
-│                        │     │                            d4ff065e78e54b5ec643 
+│                        │     ├ Layer            ╭ Digest: sha256:954740542862d73178282d0bac4af6e0a73bce1a2fb7
+│                        │     │                  │         b832ab033b062cc2633b 
+│                        │     │                  ╰ DiffID: sha256:e27617fcda7979a18fc96bfe9eb43b4a861301a376cf
+│                        │     │                            c1bb76571e3c49a4a4b4 
 │                        │     ├ SeveritySource  : ghsa 
 │                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-45288 
 │                        │     ├ DataSource       ╭ ID  : ghsa 
@@ -2798,7 +2224,7 @@
 │                        │     ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2024/04/03
 │                        │     │                  │       /16 
 │                        │     │                  ├ [1] : http://www.openwall.com/lists/oss-security/2024/04/05/4 
-│                        │     │                  ├ [2] : https://access.redhat.com/errata/RHSA-2024:2724 
+│                        │     │                  ├ [2] : https://access.redhat.com/errata/RHSA-2024:3346 
 │                        │     │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2023-45288 
 │                        │     │                  ├ [4] : https://bugzilla.redhat.com/2268017 
 │                        │     │                  ├ [5] : https://bugzilla.redhat.com/2268018 
@@ -2816,7 +2242,7 @@
 │                        │     │                  │       23-45290 
 │                        │     │                  ├ [15]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                        │     │                  │       24-24783 
-│                        │     │                  ├ [16]: https://errata.almalinux.org/9/ALSA-2024-2724.html 
+│                        │     │                  ├ [16]: https://errata.almalinux.org/8/ALSA-2024-3346.html 
 │                        │     │                  ├ [17]: https://errata.rockylinux.org/RLSA-2024:2724 
 │                        │     │                  ├ [18]: https://go.dev/cl/576155 
 │                        │     │                  ├ [19]: https://go.dev/issue/65051 
@@ -2854,10 +2280,10 @@
 │                        │     ├ InstalledVersion: v0.19.0 
 │                        │     ├ FixedVersion    : 0.36.0 
 │                        │     ├ Status          : fixed 
-│                        │     ├ Layer            ╭ Digest: sha256:b25b5c28dff7ffbb5d7c36a7a6f54aa53dd0f77ddf11
-│                        │     │                  │         d5bd4771f6ad9168cdc5 
-│                        │     │                  ╰ DiffID: sha256:f5a8dfe2745d88d380e799a454a8728acc52a14da58e
-│                        │     │                            d4ff065e78e54b5ec643 
+│                        │     ├ Layer            ╭ Digest: sha256:954740542862d73178282d0bac4af6e0a73bce1a2fb7
+│                        │     │                  │         b832ab033b062cc2633b 
+│                        │     │                  ╰ DiffID: sha256:e27617fcda7979a18fc96bfe9eb43b4a861301a376cf
+│                        │     │                            c1bb76571e3c49a4a4b4 
 │                        │     ├ SeveritySource  : ghsa 
 │                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-22870 
 │                        │     ├ DataSource       ╭ ID  : ghsa 
@@ -2910,10 +2336,10 @@
 │                        │     ├ InstalledVersion: v0.19.0 
 │                        │     ├ FixedVersion    : 0.38.0 
 │                        │     ├ Status          : fixed 
-│                        │     ├ Layer            ╭ Digest: sha256:b25b5c28dff7ffbb5d7c36a7a6f54aa53dd0f77ddf11
-│                        │     │                  │         d5bd4771f6ad9168cdc5 
-│                        │     │                  ╰ DiffID: sha256:f5a8dfe2745d88d380e799a454a8728acc52a14da58e
-│                        │     │                            d4ff065e78e54b5ec643 
+│                        │     ├ Layer            ╭ Digest: sha256:954740542862d73178282d0bac4af6e0a73bce1a2fb7
+│                        │     │                  │         b832ab033b062cc2633b 
+│                        │     │                  ╰ DiffID: sha256:e27617fcda7979a18fc96bfe9eb43b4a861301a376cf
+│                        │     │                            c1bb76571e3c49a4a4b4 
 │                        │     ├ SeveritySource  : ghsa 
 │                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-22872 
 │                        │     ├ DataSource       ╭ ID  : ghsa 
@@ -2960,10 +2386,10 @@
 │                        │     ├ InstalledVersion: v1.24.1 
 │                        │     ├ FixedVersion    : 1.24.4 
 │                        │     ├ Status          : fixed 
-│                        │     ├ Layer            ╭ Digest: sha256:b25b5c28dff7ffbb5d7c36a7a6f54aa53dd0f77ddf11
-│                        │     │                  │         d5bd4771f6ad9168cdc5 
-│                        │     │                  ╰ DiffID: sha256:f5a8dfe2745d88d380e799a454a8728acc52a14da58e
-│                        │     │                            d4ff065e78e54b5ec643 
+│                        │     ├ Layer            ╭ Digest: sha256:954740542862d73178282d0bac4af6e0a73bce1a2fb7
+│                        │     │                  │         b832ab033b062cc2633b 
+│                        │     │                  ╰ DiffID: sha256:e27617fcda7979a18fc96bfe9eb43b4a861301a376cf
+│                        │     │                            c1bb76571e3c49a4a4b4 
 │                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-22874 
 │                        │     ├ DataSource       ╭ ID  : govulndb 
 │                        │     │                  ├ Name: The Go Vulnerability Database 
@@ -3003,10 +2429,10 @@
 │                        │     ├ InstalledVersion: v1.24.1 
 │                        │     ├ FixedVersion    : 1.23.12, 1.24.6 
 │                        │     ├ Status          : fixed 
-│                        │     ├ Layer            ╭ Digest: sha256:b25b5c28dff7ffbb5d7c36a7a6f54aa53dd0f77ddf11
-│                        │     │                  │         d5bd4771f6ad9168cdc5 
-│                        │     │                  ╰ DiffID: sha256:f5a8dfe2745d88d380e799a454a8728acc52a14da58e
-│                        │     │                            d4ff065e78e54b5ec643 
+│                        │     ├ Layer            ╭ Digest: sha256:954740542862d73178282d0bac4af6e0a73bce1a2fb7
+│                        │     │                  │         b832ab033b062cc2633b 
+│                        │     │                  ╰ DiffID: sha256:e27617fcda7979a18fc96bfe9eb43b4a861301a376cf
+│                        │     │                            c1bb76571e3c49a4a4b4 
 │                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-47907 
 │                        │     ├ DataSource       ╭ ID  : govulndb 
 │                        │     │                  ├ Name: The Go Vulnerability Database 
@@ -3047,10 +2473,10 @@
 │                        │     ├ InstalledVersion: v1.24.1 
 │                        │     ├ FixedVersion    : 1.23.10, 1.24.4 
 │                        │     ├ Status          : fixed 
-│                        │     ├ Layer            ╭ Digest: sha256:b25b5c28dff7ffbb5d7c36a7a6f54aa53dd0f77ddf11
-│                        │     │                  │         d5bd4771f6ad9168cdc5 
-│                        │     │                  ╰ DiffID: sha256:f5a8dfe2745d88d380e799a454a8728acc52a14da58e
-│                        │     │                            d4ff065e78e54b5ec643 
+│                        │     ├ Layer            ╭ Digest: sha256:954740542862d73178282d0bac4af6e0a73bce1a2fb7
+│                        │     │                  │         b832ab033b062cc2633b 
+│                        │     │                  ╰ DiffID: sha256:e27617fcda7979a18fc96bfe9eb43b4a861301a376cf
+│                        │     │                            c1bb76571e3c49a4a4b4 
 │                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-0913 
 │                        │     ├ DataSource       ╭ ID  : govulndb 
 │                        │     │                  ├ Name: The Go Vulnerability Database 
@@ -3087,10 +2513,10 @@
 │                        │     ├ InstalledVersion: v1.24.1 
 │                        │     ├ FixedVersion    : 1.23.8, 1.24.2 
 │                        │     ├ Status          : fixed 
-│                        │     ├ Layer            ╭ Digest: sha256:b25b5c28dff7ffbb5d7c36a7a6f54aa53dd0f77ddf11
-│                        │     │                  │         d5bd4771f6ad9168cdc5 
-│                        │     │                  ╰ DiffID: sha256:f5a8dfe2745d88d380e799a454a8728acc52a14da58e
-│                        │     │                            d4ff065e78e54b5ec643 
+│                        │     ├ Layer            ╭ Digest: sha256:954740542862d73178282d0bac4af6e0a73bce1a2fb7
+│                        │     │                  │         b832ab033b062cc2633b 
+│                        │     │                  ╰ DiffID: sha256:e27617fcda7979a18fc96bfe9eb43b4a861301a376cf
+│                        │     │                            c1bb76571e3c49a4a4b4 
 │                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-22871 
 │                        │     ├ DataSource       ╭ ID  : govulndb 
 │                        │     │                  ├ Name: The Go Vulnerability Database 
@@ -3117,13 +2543,13 @@
 │                        │     │                            │           L/A:N 
 │                        │     │                            ╰ V3Score : 5.4 
 │                        │     ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/04/04/4 
-│                        │     │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:9635 
+│                        │     │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:9845 
 │                        │     │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2025-22871 
 │                        │     │                  ├ [3] : https://bugzilla.redhat.com/2358493 
 │                        │     │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2358493 
 │                        │     │                  ├ [5] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                        │     │                  │       25-22871 
-│                        │     │                  ├ [6] : https://errata.almalinux.org/9/ALSA-2025-9635.html 
+│                        │     │                  ├ [6] : https://errata.almalinux.org/8/ALSA-2025-9845.html 
 │                        │     │                  ├ [7] : https://errata.rockylinux.org/RLSA-2025:9845 
 │                        │     │                  ├ [8] : https://go.dev/cl/652998 
 │                        │     │                  ├ [9] : https://go.dev/issue/71988 
@@ -3144,10 +2570,10 @@
 │                              ├ InstalledVersion: v1.24.1 
 │                              ├ FixedVersion    : 1.23.10, 1.24.4 
 │                              ├ Status          : fixed 
-│                              ├ Layer            ╭ Digest: sha256:b25b5c28dff7ffbb5d7c36a7a6f54aa53dd0f77ddf11
-│                              │                  │         d5bd4771f6ad9168cdc5 
-│                              │                  ╰ DiffID: sha256:f5a8dfe2745d88d380e799a454a8728acc52a14da58e
-│                              │                            d4ff065e78e54b5ec643 
+│                              ├ Layer            ╭ Digest: sha256:954740542862d73178282d0bac4af6e0a73bce1a2fb7
+│                              │                  │         b832ab033b062cc2633b 
+│                              │                  ╰ DiffID: sha256:e27617fcda7979a18fc96bfe9eb43b4a861301a376cf
+│                              │                            c1bb76571e3c49a4a4b4 
 │                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-4673 
 │                              ├ DataSource       ╭ ID  : govulndb 
 │                              │                  ├ Name: The Go Vulnerability Database 
@@ -3172,10 +2598,10 @@
 │                              │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:
 │                              │                            │           N/A:N 
 │                              │                            ╰ V3Score : 6.8 
-│                              ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:10676 
+│                              ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:10672 
 │                              │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-4673 
 │                              │                  ├ [2] : https://bugzilla.redhat.com/2373305 
-│                              │                  ├ [3] : https://errata.almalinux.org/9/ALSA-2025-10676.html 
+│                              │                  ├ [3] : https://errata.almalinux.org/8/ALSA-2025-10672.html 
 │                              │                  ├ [4] : https://go.dev/cl/679257 
 │                              │                  ├ [5] : https://go.dev/issue/73816 
 │                              │                  ├ [6] : https://groups.google.com/g/golang-announce/c/ufZ8WpE
@@ -3188,21 +2614,21 @@
 │                              │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2025-4673 
 │                              ├ PublishedDate   : 2025-06-11T17:15:42.993Z 
 │                              ╰ LastModifiedDate: 2025-06-12T16:06:20.18Z 
-├ [3]  ╭ Target         : tmp/tmp.z85dStLVBQ/krew-linux_amd64 
+├ [3]  ╭ Target         : tmp/tmp.Lc9YMSgtJw/krew-linux_amd64 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : gobinary 
 │      ╰ Vulnerabilities ╭ [0] ╭ VulnerabilityID : CVE-2023-45288 
 │                        │     ├ PkgID           : golang.org/x/net@v0.19.0 
 │                        │     ├ PkgName         : golang.org/x/net 
 │                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/golang.org/x/net@v0.19.0 
-│                        │     │                  ╰ UID : fa437fab64d760cd 
+│                        │     │                  ╰ UID : 135bcb80258791e1 
 │                        │     ├ InstalledVersion: v0.19.0 
 │                        │     ├ FixedVersion    : 0.23.0 
 │                        │     ├ Status          : fixed 
-│                        │     ├ Layer            ╭ Digest: sha256:b25b5c28dff7ffbb5d7c36a7a6f54aa53dd0f77ddf11
-│                        │     │                  │         d5bd4771f6ad9168cdc5 
-│                        │     │                  ╰ DiffID: sha256:f5a8dfe2745d88d380e799a454a8728acc52a14da58e
-│                        │     │                            d4ff065e78e54b5ec643 
+│                        │     ├ Layer            ╭ Digest: sha256:954740542862d73178282d0bac4af6e0a73bce1a2fb7
+│                        │     │                  │         b832ab033b062cc2633b 
+│                        │     │                  ╰ DiffID: sha256:e27617fcda7979a18fc96bfe9eb43b4a861301a376cf
+│                        │     │                            c1bb76571e3c49a4a4b4 
 │                        │     ├ SeveritySource  : ghsa 
 │                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-45288 
 │                        │     ├ DataSource       ╭ ID  : ghsa 
@@ -3249,7 +2675,7 @@
 │                        │     ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2024/04/03
 │                        │     │                  │       /16 
 │                        │     │                  ├ [1] : http://www.openwall.com/lists/oss-security/2024/04/05/4 
-│                        │     │                  ├ [2] : https://access.redhat.com/errata/RHSA-2024:2724 
+│                        │     │                  ├ [2] : https://access.redhat.com/errata/RHSA-2024:3346 
 │                        │     │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2023-45288 
 │                        │     │                  ├ [4] : https://bugzilla.redhat.com/2268017 
 │                        │     │                  ├ [5] : https://bugzilla.redhat.com/2268018 
@@ -3267,7 +2693,7 @@
 │                        │     │                  │       23-45290 
 │                        │     │                  ├ [15]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                        │     │                  │       24-24783 
-│                        │     │                  ├ [16]: https://errata.almalinux.org/9/ALSA-2024-2724.html 
+│                        │     │                  ├ [16]: https://errata.almalinux.org/8/ALSA-2024-3346.html 
 │                        │     │                  ├ [17]: https://errata.rockylinux.org/RLSA-2024:2724 
 │                        │     │                  ├ [18]: https://go.dev/cl/576155 
 │                        │     │                  ├ [19]: https://go.dev/issue/65051 
@@ -3301,14 +2727,14 @@
 │                        │     ├ PkgID           : golang.org/x/net@v0.19.0 
 │                        │     ├ PkgName         : golang.org/x/net 
 │                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/golang.org/x/net@v0.19.0 
-│                        │     │                  ╰ UID : fa437fab64d760cd 
+│                        │     │                  ╰ UID : 135bcb80258791e1 
 │                        │     ├ InstalledVersion: v0.19.0 
 │                        │     ├ FixedVersion    : 0.36.0 
 │                        │     ├ Status          : fixed 
-│                        │     ├ Layer            ╭ Digest: sha256:b25b5c28dff7ffbb5d7c36a7a6f54aa53dd0f77ddf11
-│                        │     │                  │         d5bd4771f6ad9168cdc5 
-│                        │     │                  ╰ DiffID: sha256:f5a8dfe2745d88d380e799a454a8728acc52a14da58e
-│                        │     │                            d4ff065e78e54b5ec643 
+│                        │     ├ Layer            ╭ Digest: sha256:954740542862d73178282d0bac4af6e0a73bce1a2fb7
+│                        │     │                  │         b832ab033b062cc2633b 
+│                        │     │                  ╰ DiffID: sha256:e27617fcda7979a18fc96bfe9eb43b4a861301a376cf
+│                        │     │                            c1bb76571e3c49a4a4b4 
 │                        │     ├ SeveritySource  : ghsa 
 │                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-22870 
 │                        │     ├ DataSource       ╭ ID  : ghsa 
@@ -3357,14 +2783,14 @@
 │                        │     ├ PkgID           : golang.org/x/net@v0.19.0 
 │                        │     ├ PkgName         : golang.org/x/net 
 │                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/golang.org/x/net@v0.19.0 
-│                        │     │                  ╰ UID : fa437fab64d760cd 
+│                        │     │                  ╰ UID : 135bcb80258791e1 
 │                        │     ├ InstalledVersion: v0.19.0 
 │                        │     ├ FixedVersion    : 0.38.0 
 │                        │     ├ Status          : fixed 
-│                        │     ├ Layer            ╭ Digest: sha256:b25b5c28dff7ffbb5d7c36a7a6f54aa53dd0f77ddf11
-│                        │     │                  │         d5bd4771f6ad9168cdc5 
-│                        │     │                  ╰ DiffID: sha256:f5a8dfe2745d88d380e799a454a8728acc52a14da58e
-│                        │     │                            d4ff065e78e54b5ec643 
+│                        │     ├ Layer            ╭ Digest: sha256:954740542862d73178282d0bac4af6e0a73bce1a2fb7
+│                        │     │                  │         b832ab033b062cc2633b 
+│                        │     │                  ╰ DiffID: sha256:e27617fcda7979a18fc96bfe9eb43b4a861301a376cf
+│                        │     │                            c1bb76571e3c49a4a4b4 
 │                        │     ├ SeveritySource  : ghsa 
 │                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-22872 
 │                        │     ├ DataSource       ╭ ID  : ghsa 
@@ -3407,14 +2833,14 @@
 │                        │     ├ PkgID           : stdlib@v1.24.1 
 │                        │     ├ PkgName         : stdlib 
 │                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.24.1 
-│                        │     │                  ╰ UID : f7258a9af0893448 
+│                        │     │                  ╰ UID : b7cdd1106e9b62d0 
 │                        │     ├ InstalledVersion: v1.24.1 
 │                        │     ├ FixedVersion    : 1.24.4 
 │                        │     ├ Status          : fixed 
-│                        │     ├ Layer            ╭ Digest: sha256:b25b5c28dff7ffbb5d7c36a7a6f54aa53dd0f77ddf11
-│                        │     │                  │         d5bd4771f6ad9168cdc5 
-│                        │     │                  ╰ DiffID: sha256:f5a8dfe2745d88d380e799a454a8728acc52a14da58e
-│                        │     │                            d4ff065e78e54b5ec643 
+│                        │     ├ Layer            ╭ Digest: sha256:954740542862d73178282d0bac4af6e0a73bce1a2fb7
+│                        │     │                  │         b832ab033b062cc2633b 
+│                        │     │                  ╰ DiffID: sha256:e27617fcda7979a18fc96bfe9eb43b4a861301a376cf
+│                        │     │                            c1bb76571e3c49a4a4b4 
 │                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-22874 
 │                        │     ├ DataSource       ╭ ID  : govulndb 
 │                        │     │                  ├ Name: The Go Vulnerability Database 
@@ -3450,14 +2876,14 @@
 │                        │     ├ PkgID           : stdlib@v1.24.1 
 │                        │     ├ PkgName         : stdlib 
 │                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.24.1 
-│                        │     │                  ╰ UID : f7258a9af0893448 
+│                        │     │                  ╰ UID : b7cdd1106e9b62d0 
 │                        │     ├ InstalledVersion: v1.24.1 
 │                        │     ├ FixedVersion    : 1.23.12, 1.24.6 
 │                        │     ├ Status          : fixed 
-│                        │     ├ Layer            ╭ Digest: sha256:b25b5c28dff7ffbb5d7c36a7a6f54aa53dd0f77ddf11
-│                        │     │                  │         d5bd4771f6ad9168cdc5 
-│                        │     │                  ╰ DiffID: sha256:f5a8dfe2745d88d380e799a454a8728acc52a14da58e
-│                        │     │                            d4ff065e78e54b5ec643 
+│                        │     ├ Layer            ╭ Digest: sha256:954740542862d73178282d0bac4af6e0a73bce1a2fb7
+│                        │     │                  │         b832ab033b062cc2633b 
+│                        │     │                  ╰ DiffID: sha256:e27617fcda7979a18fc96bfe9eb43b4a861301a376cf
+│                        │     │                            c1bb76571e3c49a4a4b4 
 │                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-47907 
 │                        │     ├ DataSource       ╭ ID  : govulndb 
 │                        │     │                  ├ Name: The Go Vulnerability Database 
@@ -3494,14 +2920,14 @@
 │                        │     ├ PkgID           : stdlib@v1.24.1 
 │                        │     ├ PkgName         : stdlib 
 │                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.24.1 
-│                        │     │                  ╰ UID : f7258a9af0893448 
+│                        │     │                  ╰ UID : b7cdd1106e9b62d0 
 │                        │     ├ InstalledVersion: v1.24.1 
 │                        │     ├ FixedVersion    : 1.23.10, 1.24.4 
 │                        │     ├ Status          : fixed 
-│                        │     ├ Layer            ╭ Digest: sha256:b25b5c28dff7ffbb5d7c36a7a6f54aa53dd0f77ddf11
-│                        │     │                  │         d5bd4771f6ad9168cdc5 
-│                        │     │                  ╰ DiffID: sha256:f5a8dfe2745d88d380e799a454a8728acc52a14da58e
-│                        │     │                            d4ff065e78e54b5ec643 
+│                        │     ├ Layer            ╭ Digest: sha256:954740542862d73178282d0bac4af6e0a73bce1a2fb7
+│                        │     │                  │         b832ab033b062cc2633b 
+│                        │     │                  ╰ DiffID: sha256:e27617fcda7979a18fc96bfe9eb43b4a861301a376cf
+│                        │     │                            c1bb76571e3c49a4a4b4 
 │                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-0913 
 │                        │     ├ DataSource       ╭ ID  : govulndb 
 │                        │     │                  ├ Name: The Go Vulnerability Database 
@@ -3534,14 +2960,14 @@
 │                        │     ├ PkgID           : stdlib@v1.24.1 
 │                        │     ├ PkgName         : stdlib 
 │                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.24.1 
-│                        │     │                  ╰ UID : f7258a9af0893448 
+│                        │     │                  ╰ UID : b7cdd1106e9b62d0 
 │                        │     ├ InstalledVersion: v1.24.1 
 │                        │     ├ FixedVersion    : 1.23.8, 1.24.2 
 │                        │     ├ Status          : fixed 
-│                        │     ├ Layer            ╭ Digest: sha256:b25b5c28dff7ffbb5d7c36a7a6f54aa53dd0f77ddf11
-│                        │     │                  │         d5bd4771f6ad9168cdc5 
-│                        │     │                  ╰ DiffID: sha256:f5a8dfe2745d88d380e799a454a8728acc52a14da58e
-│                        │     │                            d4ff065e78e54b5ec643 
+│                        │     ├ Layer            ╭ Digest: sha256:954740542862d73178282d0bac4af6e0a73bce1a2fb7
+│                        │     │                  │         b832ab033b062cc2633b 
+│                        │     │                  ╰ DiffID: sha256:e27617fcda7979a18fc96bfe9eb43b4a861301a376cf
+│                        │     │                            c1bb76571e3c49a4a4b4 
 │                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-22871 
 │                        │     ├ DataSource       ╭ ID  : govulndb 
 │                        │     │                  ├ Name: The Go Vulnerability Database 
@@ -3568,13 +2994,13 @@
 │                        │     │                            │           L/A:N 
 │                        │     │                            ╰ V3Score : 5.4 
 │                        │     ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/04/04/4 
-│                        │     │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:9635 
+│                        │     │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:9845 
 │                        │     │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2025-22871 
 │                        │     │                  ├ [3] : https://bugzilla.redhat.com/2358493 
 │                        │     │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2358493 
 │                        │     │                  ├ [5] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                        │     │                  │       25-22871 
-│                        │     │                  ├ [6] : https://errata.almalinux.org/9/ALSA-2025-9635.html 
+│                        │     │                  ├ [6] : https://errata.almalinux.org/8/ALSA-2025-9845.html 
 │                        │     │                  ├ [7] : https://errata.rockylinux.org/RLSA-2025:9845 
 │                        │     │                  ├ [8] : https://go.dev/cl/652998 
 │                        │     │                  ├ [9] : https://go.dev/issue/71988 
@@ -3591,14 +3017,14 @@
 │                              ├ PkgID           : stdlib@v1.24.1 
 │                              ├ PkgName         : stdlib 
 │                              ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.24.1 
-│                              │                  ╰ UID : f7258a9af0893448 
+│                              │                  ╰ UID : b7cdd1106e9b62d0 
 │                              ├ InstalledVersion: v1.24.1 
 │                              ├ FixedVersion    : 1.23.10, 1.24.4 
 │                              ├ Status          : fixed 
-│                              ├ Layer            ╭ Digest: sha256:b25b5c28dff7ffbb5d7c36a7a6f54aa53dd0f77ddf11
-│                              │                  │         d5bd4771f6ad9168cdc5 
-│                              │                  ╰ DiffID: sha256:f5a8dfe2745d88d380e799a454a8728acc52a14da58e
-│                              │                            d4ff065e78e54b5ec643 
+│                              ├ Layer            ╭ Digest: sha256:954740542862d73178282d0bac4af6e0a73bce1a2fb7
+│                              │                  │         b832ab033b062cc2633b 
+│                              │                  ╰ DiffID: sha256:e27617fcda7979a18fc96bfe9eb43b4a861301a376cf
+│                              │                            c1bb76571e3c49a4a4b4 
 │                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-4673 
 │                              ├ DataSource       ╭ ID  : govulndb 
 │                              │                  ├ Name: The Go Vulnerability Database 
@@ -3623,10 +3049,10 @@
 │                              │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:
 │                              │                            │           N/A:N 
 │                              │                            ╰ V3Score : 6.8 
-│                              ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:10676 
+│                              ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:10672 
 │                              │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-4673 
 │                              │                  ├ [2] : https://bugzilla.redhat.com/2373305 
-│                              │                  ├ [3] : https://errata.almalinux.org/9/ALSA-2025-10676.html 
+│                              │                  ├ [3] : https://errata.almalinux.org/8/ALSA-2025-10672.html 
 │                              │                  ├ [4] : https://go.dev/cl/679257 
 │                              │                  ├ [5] : https://go.dev/issue/73816 
 │                              │                  ├ [6] : https://groups.google.com/g/golang-announce/c/ufZ8WpE
@@ -3650,10 +3076,10 @@
 │                              ├ InstalledVersion: v2.3.0 
 │                              ├ FixedVersion    : 2.4.0 
 │                              ├ Status          : fixed 
-│                              ├ Layer            ╭ Digest: sha256:b25b5c28dff7ffbb5d7c36a7a6f54aa53dd0f77ddf11
-│                              │                  │         d5bd4771f6ad9168cdc5 
-│                              │                  ╰ DiffID: sha256:f5a8dfe2745d88d380e799a454a8728acc52a14da58e
-│                              │                            d4ff065e78e54b5ec643 
+│                              ├ Layer            ╭ Digest: sha256:954740542862d73178282d0bac4af6e0a73bce1a2fb7
+│                              │                  │         b832ab033b062cc2633b 
+│                              │                  ╰ DiffID: sha256:e27617fcda7979a18fc96bfe9eb43b4a861301a376cf
+│                              │                            c1bb76571e3c49a4a4b4 
 │                              ├ SeveritySource  : ghsa 
 │                              ├ PrimaryURL      : https://github.com/advisories/GHSA-2464-8j7c-4cjm 
 │                              ├ DataSource       ╭ ID  : ghsa 
@@ -3747,53 +3173,9 @@
 │                              │                         sories/GHSA-2464-8j7c-4cjm 
 │                              ├ PublishedDate   : 2025-08-21T14:37:19Z 
 │                              ╰ LastModifiedDate: 2025-08-21T14:37:19Z 
-├ [5]  ╭ Target         : usr/bin/helm 
-│      ├ Class          : lang-pkgs 
-│      ├ Type           : gobinary 
-│      ╰ Vulnerabilities ─ [0] ╭ VulnerabilityID : CVE-2025-47907 
-│                              ├ PkgID           : stdlib@v1.24.5 
-│                              ├ PkgName         : stdlib 
-│                              ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.24.5 
-│                              │                  ╰ UID : 286da69d5e45e5e8 
-│                              ├ InstalledVersion: v1.24.5 
-│                              ├ FixedVersion    : 1.23.12, 1.24.6 
-│                              ├ Status          : fixed 
-│                              ├ Layer            ╭ Digest: sha256:b25b5c28dff7ffbb5d7c36a7a6f54aa53dd0f77ddf11
-│                              │                  │         d5bd4771f6ad9168cdc5 
-│                              │                  ╰ DiffID: sha256:f5a8dfe2745d88d380e799a454a8728acc52a14da58e
-│                              │                            d4ff065e78e54b5ec643 
-│                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-47907 
-│                              ├ DataSource       ╭ ID  : govulndb 
-│                              │                  ├ Name: The Go Vulnerability Database 
-│                              │                  ╰ URL : https://pkg.go.dev/vuln/ 
-│                              ├ Title           : database/sql: Postgres Scan Race Condition 
-│                              ├ Description     : Cancelling a query (e.g. by cancelling the context passed to
-│                              │                    one of the query methods) during a call to the Scan method
-│                              │                   of the returned Rows can result in unexpected results if
-│                              │                   other queries are being made in parallel. This can result in
-│                              │                    a race condition that may overwrite the expected results
-│                              │                   with those of another query, causing the call to Scan to
-│                              │                   return either unexpected results from the other query or an
-│                              │                   error. 
-│                              ├ Severity        : HIGH 
-│                              ├ VendorSeverity   ╭ bitnami: 3 
-│                              │                  ╰ redhat : 3 
-│                              ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:
-│                              │                  │         │           L/A:L 
-│                              │                  │         ╰ V3Score : 7 
-│                              │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:
-│                              │                            │           L/A:L 
-│                              │                            ╰ V3Score : 7 
-│                              ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-47907 
-│                              │                  ├ [1]: https://go.dev/cl/693735 
-│                              │                  ├ [2]: https://go.dev/issue/74831 
-│                              │                  ├ [3]: https://groups.google.com/g/golang-announce/c/x5MKroML
-│                              │                  │      2yM 
-│                              │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-47907 
-│                              │                  ├ [5]: https://pkg.go.dev/vuln/GO-2025-3849 
-│                              │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-47907 
-│                              ├ PublishedDate   : 2025-08-07T16:15:30.357Z 
-│                              ╰ LastModifiedDate: 2025-08-07T21:26:37.453Z 
+├ [5]  ╭ Target: usr/bin/helm 
+│      ├ Class : lang-pkgs 
+│      ╰ Type  : gobinary 
 ├ [6]  ╭ Target         : usr/bin/kubectl 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : gobinary 
@@ -3805,10 +3187,10 @@
 │                              ├ InstalledVersion: v1.24.5 
 │                              ├ FixedVersion    : 1.23.12, 1.24.6 
 │                              ├ Status          : fixed 
-│                              ├ Layer            ╭ Digest: sha256:b25b5c28dff7ffbb5d7c36a7a6f54aa53dd0f77ddf11
-│                              │                  │         d5bd4771f6ad9168cdc5 
-│                              │                  ╰ DiffID: sha256:f5a8dfe2745d88d380e799a454a8728acc52a14da58e
-│                              │                            d4ff065e78e54b5ec643 
+│                              ├ Layer            ╭ Digest: sha256:954740542862d73178282d0bac4af6e0a73bce1a2fb7
+│                              │                  │         b832ab033b062cc2633b 
+│                              │                  ╰ DiffID: sha256:e27617fcda7979a18fc96bfe9eb43b4a861301a376cf
+│                              │                            c1bb76571e3c49a4a4b4 
 │                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-47907 
 │                              ├ DataSource       ╭ ID  : govulndb 
 │                              │                  ├ Name: The Go Vulnerability Database 
@@ -3852,10 +3234,10 @@
 │                              ├ InstalledVersion: v1.24.5 
 │                              ├ FixedVersion    : 1.23.12, 1.24.6 
 │                              ├ Status          : fixed 
-│                              ├ Layer            ╭ Digest: sha256:b25b5c28dff7ffbb5d7c36a7a6f54aa53dd0f77ddf11
-│                              │                  │         d5bd4771f6ad9168cdc5 
-│                              │                  ╰ DiffID: sha256:f5a8dfe2745d88d380e799a454a8728acc52a14da58e
-│                              │                            d4ff065e78e54b5ec643 
+│                              ├ Layer            ╭ Digest: sha256:954740542862d73178282d0bac4af6e0a73bce1a2fb7
+│                              │                  │         b832ab033b062cc2633b 
+│                              │                  ╰ DiffID: sha256:e27617fcda7979a18fc96bfe9eb43b4a861301a376cf
+│                              │                            c1bb76571e3c49a4a4b4 
 │                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-47907 
 │                              ├ DataSource       ╭ ID  : govulndb 
 │                              │                  ├ Name: The Go Vulnerability Database 
@@ -3899,10 +3281,10 @@
 │                        │      ├ InstalledVersion: v1.7.19 
 │                        │      ├ FixedVersion    : 1.7.27, 1.6.38 
 │                        │      ├ Status          : fixed 
-│                        │      ├ Layer            ╭ Digest: sha256:b25b5c28dff7ffbb5d7c36a7a6f54aa53dd0f77ddf1
-│                        │      │                  │         1d5bd4771f6ad9168cdc5 
-│                        │      │                  ╰ DiffID: sha256:f5a8dfe2745d88d380e799a454a8728acc52a14da58
-│                        │      │                            ed4ff065e78e54b5ec643 
+│                        │      ├ Layer            ╭ Digest: sha256:954740542862d73178282d0bac4af6e0a73bce1a2fb
+│                        │      │                  │         7b832ab033b062cc2633b 
+│                        │      │                  ╰ DiffID: sha256:e27617fcda7979a18fc96bfe9eb43b4a861301a376c
+│                        │      │                            fc1bb76571e3c49a4a4b4 
 │                        │      ├ SeveritySource  : ghsa 
 │                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-40635 
 │                        │      ├ DataSource       ╭ ID  : ghsa 
@@ -3966,10 +3348,10 @@
 │                        │      ├ InstalledVersion: v27.0.3+incompatible 
 │                        │      ├ FixedVersion    : 23.0.15, 26.1.5, 27.1.1, 25.0.6 
 │                        │      ├ Status          : fixed 
-│                        │      ├ Layer            ╭ Digest: sha256:b25b5c28dff7ffbb5d7c36a7a6f54aa53dd0f77ddf1
-│                        │      │                  │         1d5bd4771f6ad9168cdc5 
-│                        │      │                  ╰ DiffID: sha256:f5a8dfe2745d88d380e799a454a8728acc52a14da58
-│                        │      │                            ed4ff065e78e54b5ec643 
+│                        │      ├ Layer            ╭ Digest: sha256:954740542862d73178282d0bac4af6e0a73bce1a2fb
+│                        │      │                  │         7b832ab033b062cc2633b 
+│                        │      │                  ╰ DiffID: sha256:e27617fcda7979a18fc96bfe9eb43b4a861301a376c
+│                        │      │                            fc1bb76571e3c49a4a4b4 
 │                        │      ├ SeveritySource  : ghsa 
 │                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-41110 
 │                        │      ├ DataSource       ╭ ID  : ghsa 
@@ -4073,10 +3455,10 @@
 │                        │      ├ InstalledVersion: v27.0.3+incompatible 
 │                        │      ├ FixedVersion    : 28.0.0 
 │                        │      ├ Status          : fixed 
-│                        │      ├ Layer            ╭ Digest: sha256:b25b5c28dff7ffbb5d7c36a7a6f54aa53dd0f77ddf1
-│                        │      │                  │         1d5bd4771f6ad9168cdc5 
-│                        │      │                  ╰ DiffID: sha256:f5a8dfe2745d88d380e799a454a8728acc52a14da58
-│                        │      │                            ed4ff065e78e54b5ec643 
+│                        │      ├ Layer            ╭ Digest: sha256:954740542862d73178282d0bac4af6e0a73bce1a2fb
+│                        │      │                  │         7b832ab033b062cc2633b 
+│                        │      │                  ╰ DiffID: sha256:e27617fcda7979a18fc96bfe9eb43b4a861301a376c
+│                        │      │                            fc1bb76571e3c49a4a4b4 
 │                        │      ├ SeveritySource  : ghsa 
 │                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-54410 
 │                        │      ├ DataSource       ╭ ID  : ghsa 
@@ -4104,10 +3486,14 @@
 │                        │      ├ Severity        : LOW 
 │                        │      ├ CweIDs           ─ [0]: CWE-909 
 │                        │      ├ VendorSeverity   ╭ ghsa  : 1 
+│                        │      │                  ├ nvd   : 2 
 │                        │      │                  ╰ redhat: 1 
 │                        │      ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:
 │                        │      │                  │        │           L/A:N 
 │                        │      │                  │        ╰ V3Score : 3.3 
+│                        │      │                  ├ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:L/I:
+│                        │      │                  │        │           L/A:N 
+│                        │      │                  │        ╰ V3Score : 5.2 
 │                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:
 │                        │      │                           │           L/A:N 
 │                        │      │                           ╰ V3Score : 3.3 
@@ -4122,7 +3508,7 @@
 │                        │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2025-54410 
 │                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-54410 
 │                        │      ├ PublishedDate   : 2025-07-30T14:15:28.9Z 
-│                        │      ╰ LastModifiedDate: 2025-07-31T18:42:37.87Z 
+│                        │      ╰ LastModifiedDate: 2025-08-22T17:27:29.677Z 
 │                        ├ [3]  ╭ VulnerabilityID : CVE-2024-45337 
 │                        │      ├ PkgID           : golang.org/x/crypto@v0.24.0 
 │                        │      ├ PkgName         : golang.org/x/crypto 
@@ -4131,10 +3517,10 @@
 │                        │      ├ InstalledVersion: v0.24.0 
 │                        │      ├ FixedVersion    : 0.31.0 
 │                        │      ├ Status          : fixed 
-│                        │      ├ Layer            ╭ Digest: sha256:b25b5c28dff7ffbb5d7c36a7a6f54aa53dd0f77ddf1
-│                        │      │                  │         1d5bd4771f6ad9168cdc5 
-│                        │      │                  ╰ DiffID: sha256:f5a8dfe2745d88d380e799a454a8728acc52a14da58
-│                        │      │                            ed4ff065e78e54b5ec643 
+│                        │      ├ Layer            ╭ Digest: sha256:954740542862d73178282d0bac4af6e0a73bce1a2fb
+│                        │      │                  │         7b832ab033b062cc2633b 
+│                        │      │                  ╰ DiffID: sha256:e27617fcda7979a18fc96bfe9eb43b4a861301a376c
+│                        │      │                            fc1bb76571e3c49a4a4b4 
 │                        │      ├ SeveritySource  : ghsa 
 │                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-45337 
 │                        │      ├ DataSource       ╭ ID  : ghsa 
@@ -4226,10 +3612,10 @@
 │                        │      ├ InstalledVersion: v0.24.0 
 │                        │      ├ FixedVersion    : 0.35.0 
 │                        │      ├ Status          : fixed 
-│                        │      ├ Layer            ╭ Digest: sha256:b25b5c28dff7ffbb5d7c36a7a6f54aa53dd0f77ddf1
-│                        │      │                  │         1d5bd4771f6ad9168cdc5 
-│                        │      │                  ╰ DiffID: sha256:f5a8dfe2745d88d380e799a454a8728acc52a14da58
-│                        │      │                            ed4ff065e78e54b5ec643 
+│                        │      ├ Layer            ╭ Digest: sha256:954740542862d73178282d0bac4af6e0a73bce1a2fb
+│                        │      │                  │         7b832ab033b062cc2633b 
+│                        │      │                  ╰ DiffID: sha256:e27617fcda7979a18fc96bfe9eb43b4a861301a376c
+│                        │      │                            fc1bb76571e3c49a4a4b4 
 │                        │      ├ SeveritySource  : ghsa 
 │                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-22869 
 │                        │      ├ DataSource       ╭ ID  : ghsa 
@@ -4258,10 +3644,10 @@
 │                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
 │                        │      │                           │           N/A:H 
 │                        │      │                           ╰ V3Score : 7.5 
-│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:3833 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:7484 
 │                        │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-22869 
 │                        │      │                  ├ [2] : https://bugzilla.redhat.com/2348367 
-│                        │      │                  ├ [3] : https://errata.almalinux.org/9/ALSA-2025-3833.html 
+│                        │      │                  ├ [3] : https://errata.almalinux.org/10/ALSA-2025-7484.html 
 │                        │      │                  ├ [4] : https://github.com/golang/crypto 
 │                        │      │                  ├ [5] : https://github.com/golang/crypto/commit/7292932d45d5
 │                        │      │                  │       5c7199324ab0027cc86e8198aa22 
@@ -4287,10 +3673,10 @@
 │                        │      ├ InstalledVersion: v0.26.0 
 │                        │      ├ FixedVersion    : 0.36.0 
 │                        │      ├ Status          : fixed 
-│                        │      ├ Layer            ╭ Digest: sha256:b25b5c28dff7ffbb5d7c36a7a6f54aa53dd0f77ddf1
-│                        │      │                  │         1d5bd4771f6ad9168cdc5 
-│                        │      │                  ╰ DiffID: sha256:f5a8dfe2745d88d380e799a454a8728acc52a14da58
-│                        │      │                            ed4ff065e78e54b5ec643 
+│                        │      ├ Layer            ╭ Digest: sha256:954740542862d73178282d0bac4af6e0a73bce1a2fb
+│                        │      │                  │         7b832ab033b062cc2633b 
+│                        │      │                  ╰ DiffID: sha256:e27617fcda7979a18fc96bfe9eb43b4a861301a376c
+│                        │      │                            fc1bb76571e3c49a4a4b4 
 │                        │      ├ SeveritySource  : ghsa 
 │                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-22870 
 │                        │      ├ DataSource       ╭ ID  : ghsa 
@@ -4345,10 +3731,10 @@
 │                        │      ├ InstalledVersion: v0.26.0 
 │                        │      ├ FixedVersion    : 0.38.0 
 │                        │      ├ Status          : fixed 
-│                        │      ├ Layer            ╭ Digest: sha256:b25b5c28dff7ffbb5d7c36a7a6f54aa53dd0f77ddf1
-│                        │      │                  │         1d5bd4771f6ad9168cdc5 
-│                        │      │                  ╰ DiffID: sha256:f5a8dfe2745d88d380e799a454a8728acc52a14da58
-│                        │      │                            ed4ff065e78e54b5ec643 
+│                        │      ├ Layer            ╭ Digest: sha256:954740542862d73178282d0bac4af6e0a73bce1a2fb
+│                        │      │                  │         7b832ab033b062cc2633b 
+│                        │      │                  ╰ DiffID: sha256:e27617fcda7979a18fc96bfe9eb43b4a861301a376c
+│                        │      │                            fc1bb76571e3c49a4a4b4 
 │                        │      ├ SeveritySource  : ghsa 
 │                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-22872 
 │                        │      ├ DataSource       ╭ ID  : ghsa 
@@ -4396,10 +3782,10 @@
 │                        │      ├ InstalledVersion: v0.20.0 
 │                        │      ├ FixedVersion    : 0.27.0 
 │                        │      ├ Status          : fixed 
-│                        │      ├ Layer            ╭ Digest: sha256:b25b5c28dff7ffbb5d7c36a7a6f54aa53dd0f77ddf1
-│                        │      │                  │         1d5bd4771f6ad9168cdc5 
-│                        │      │                  ╰ DiffID: sha256:f5a8dfe2745d88d380e799a454a8728acc52a14da58
-│                        │      │                            ed4ff065e78e54b5ec643 
+│                        │      ├ Layer            ╭ Digest: sha256:954740542862d73178282d0bac4af6e0a73bce1a2fb
+│                        │      │                  │         7b832ab033b062cc2633b 
+│                        │      │                  ╰ DiffID: sha256:e27617fcda7979a18fc96bfe9eb43b4a861301a376c
+│                        │      │                            fc1bb76571e3c49a4a4b4 
 │                        │      ├ SeveritySource  : ghsa 
 │                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-22868 
 │                        │      ├ DataSource       ╭ ID  : ghsa 
@@ -4439,10 +3825,10 @@
 │                        │      ├ InstalledVersion: v1.64.0 
 │                        │      ├ FixedVersion    : 1.64.1 
 │                        │      ├ Status          : fixed 
-│                        │      ├ Layer            ╭ Digest: sha256:b25b5c28dff7ffbb5d7c36a7a6f54aa53dd0f77ddf1
-│                        │      │                  │         1d5bd4771f6ad9168cdc5 
-│                        │      │                  ╰ DiffID: sha256:f5a8dfe2745d88d380e799a454a8728acc52a14da58
-│                        │      │                            ed4ff065e78e54b5ec643 
+│                        │      ├ Layer            ╭ Digest: sha256:954740542862d73178282d0bac4af6e0a73bce1a2fb
+│                        │      │                  │         7b832ab033b062cc2633b 
+│                        │      │                  ╰ DiffID: sha256:e27617fcda7979a18fc96bfe9eb43b4a861301a376c
+│                        │      │                            fc1bb76571e3c49a4a4b4 
 │                        │      ├ SeveritySource  : ghsa 
 │                        │      ├ PrimaryURL      : https://github.com/advisories/GHSA-xr7q-jx4m-x55m 
 │                        │      ├ DataSource       ╭ ID  : ghsa 
@@ -4481,10 +3867,10 @@
 │                        │      ├ InstalledVersion: v1.22.12 
 │                        │      ├ FixedVersion    : 1.23.12, 1.24.6 
 │                        │      ├ Status          : fixed 
-│                        │      ├ Layer            ╭ Digest: sha256:b25b5c28dff7ffbb5d7c36a7a6f54aa53dd0f77ddf1
-│                        │      │                  │         1d5bd4771f6ad9168cdc5 
-│                        │      │                  ╰ DiffID: sha256:f5a8dfe2745d88d380e799a454a8728acc52a14da58
-│                        │      │                            ed4ff065e78e54b5ec643 
+│                        │      ├ Layer            ╭ Digest: sha256:954740542862d73178282d0bac4af6e0a73bce1a2fb
+│                        │      │                  │         7b832ab033b062cc2633b 
+│                        │      │                  ╰ DiffID: sha256:e27617fcda7979a18fc96bfe9eb43b4a861301a376c
+│                        │      │                            fc1bb76571e3c49a4a4b4 
 │                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-47907 
 │                        │      ├ DataSource       ╭ ID  : govulndb 
 │                        │      │                  ├ Name: The Go Vulnerability Database 
@@ -4525,10 +3911,10 @@
 │                        │      ├ InstalledVersion: v1.22.12 
 │                        │      ├ FixedVersion    : 1.23.10, 1.24.4 
 │                        │      ├ Status          : fixed 
-│                        │      ├ Layer            ╭ Digest: sha256:b25b5c28dff7ffbb5d7c36a7a6f54aa53dd0f77ddf1
-│                        │      │                  │         1d5bd4771f6ad9168cdc5 
-│                        │      │                  ╰ DiffID: sha256:f5a8dfe2745d88d380e799a454a8728acc52a14da58
-│                        │      │                            ed4ff065e78e54b5ec643 
+│                        │      ├ Layer            ╭ Digest: sha256:954740542862d73178282d0bac4af6e0a73bce1a2fb
+│                        │      │                  │         7b832ab033b062cc2633b 
+│                        │      │                  ╰ DiffID: sha256:e27617fcda7979a18fc96bfe9eb43b4a861301a376c
+│                        │      │                            fc1bb76571e3c49a4a4b4 
 │                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-0913 
 │                        │      ├ DataSource       ╭ ID  : govulndb 
 │                        │      │                  ├ Name: The Go Vulnerability Database 
@@ -4565,10 +3951,10 @@
 │                        │      ├ InstalledVersion: v1.22.12 
 │                        │      ├ FixedVersion    : 1.23.8, 1.24.2 
 │                        │      ├ Status          : fixed 
-│                        │      ├ Layer            ╭ Digest: sha256:b25b5c28dff7ffbb5d7c36a7a6f54aa53dd0f77ddf1
-│                        │      │                  │         1d5bd4771f6ad9168cdc5 
-│                        │      │                  ╰ DiffID: sha256:f5a8dfe2745d88d380e799a454a8728acc52a14da58
-│                        │      │                            ed4ff065e78e54b5ec643 
+│                        │      ├ Layer            ╭ Digest: sha256:954740542862d73178282d0bac4af6e0a73bce1a2fb
+│                        │      │                  │         7b832ab033b062cc2633b 
+│                        │      │                  ╰ DiffID: sha256:e27617fcda7979a18fc96bfe9eb43b4a861301a376c
+│                        │      │                            fc1bb76571e3c49a4a4b4 
 │                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-22871 
 │                        │      ├ DataSource       ╭ ID  : govulndb 
 │                        │      │                  ├ Name: The Go Vulnerability Database 
@@ -4596,13 +3982,13 @@
 │                        │      │                            ╰ V3Score : 5.4 
 │                        │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/04/0
 │                        │      │                  │       4/4 
-│                        │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:9635 
+│                        │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:9845 
 │                        │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2025-22871 
 │                        │      │                  ├ [3] : https://bugzilla.redhat.com/2358493 
 │                        │      │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2358493 
 │                        │      │                  ├ [5] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                        │      │                  │       025-22871 
-│                        │      │                  ├ [6] : https://errata.almalinux.org/9/ALSA-2025-9635.html 
+│                        │      │                  ├ [6] : https://errata.almalinux.org/8/ALSA-2025-9845.html 
 │                        │      │                  ├ [7] : https://errata.rockylinux.org/RLSA-2025:9845 
 │                        │      │                  ├ [8] : https://go.dev/cl/652998 
 │                        │      │                  ├ [9] : https://go.dev/issue/71988 
@@ -4623,10 +4009,10 @@
 │                               ├ InstalledVersion: v1.22.12 
 │                               ├ FixedVersion    : 1.23.10, 1.24.4 
 │                               ├ Status          : fixed 
-│                               ├ Layer            ╭ Digest: sha256:b25b5c28dff7ffbb5d7c36a7a6f54aa53dd0f77ddf1
-│                               │                  │         1d5bd4771f6ad9168cdc5 
-│                               │                  ╰ DiffID: sha256:f5a8dfe2745d88d380e799a454a8728acc52a14da58
-│                               │                            ed4ff065e78e54b5ec643 
+│                               ├ Layer            ╭ Digest: sha256:954740542862d73178282d0bac4af6e0a73bce1a2fb
+│                               │                  │         7b832ab033b062cc2633b 
+│                               │                  ╰ DiffID: sha256:e27617fcda7979a18fc96bfe9eb43b4a861301a376c
+│                               │                            fc1bb76571e3c49a4a4b4 
 │                               ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-4673 
 │                               ├ DataSource       ╭ ID  : govulndb 
 │                               │                  ├ Name: The Go Vulnerability Database 
@@ -4651,10 +4037,10 @@
 │                               │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I
 │                               │                            │           :N/A:N 
 │                               │                            ╰ V3Score : 6.8 
-│                               ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:10676 
+│                               ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:10672 
 │                               │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-4673 
 │                               │                  ├ [2] : https://bugzilla.redhat.com/2373305 
-│                               │                  ├ [3] : https://errata.almalinux.org/9/ALSA-2025-10676.html 
+│                               │                  ├ [3] : https://errata.almalinux.org/8/ALSA-2025-10672.html 
 │                               │                  ├ [4] : https://go.dev/cl/679257 
 │                               │                  ├ [5] : https://go.dev/issue/73816 
 │                               │                  ├ [6] : https://groups.google.com/g/golang-announce/c/ufZ8Wp
@@ -4760,10 +4146,10 @@
 │                      │                         ├ FirstCause : false 
 │                      │                         ╰ LastCause  : false 
 │                      ├ Match    : ********************************************************************** 
-│                      ╰ Layer     ╭ Digest   : sha256:b25b5c28dff7ffbb5d7c36a7a6f54aa53dd0f77ddf11d5bd4771f6ad
-│                                  │            9168cdc5 
-│                                  ├ DiffID   : sha256:f5a8dfe2745d88d380e799a454a8728acc52a14da58ed4ff065e78e5
-│                                  │            4b5ec643 
+│                      ╰ Layer     ╭ Digest   : sha256:954740542862d73178282d0bac4af6e0a73bce1a2fb7b832ab033b06
+│                                  │            2cc2633b 
+│                                  ├ DiffID   : sha256:e27617fcda7979a18fc96bfe9eb43b4a861301a376cfc1bb76571e3c
+│                                  │            49a4a4b4 
 │                                  ╰ CreatedBy: COPY / / # buildkit 
 ├ [10] ╭ Target : /etc/ssh/ssh_host_ed25519_key 
 │      ├ Class  : secret 
@@ -4840,10 +4226,10 @@
 │                      │                         ├ FirstCause : false 
 │                      │                         ╰ LastCause  : false 
 │                      ├ Match    : ********************************************************************** 
-│                      ╰ Layer     ╭ Digest   : sha256:b25b5c28dff7ffbb5d7c36a7a6f54aa53dd0f77ddf11d5bd4771f6ad
-│                                  │            9168cdc5 
-│                                  ├ DiffID   : sha256:f5a8dfe2745d88d380e799a454a8728acc52a14da58ed4ff065e78e5
-│                                  │            4b5ec643 
+│                      ╰ Layer     ╭ Digest   : sha256:954740542862d73178282d0bac4af6e0a73bce1a2fb7b832ab033b06
+│                                  │            2cc2633b 
+│                                  ├ DiffID   : sha256:e27617fcda7979a18fc96bfe9eb43b4a861301a376cfc1bb76571e3c
+│                                  │            49a4a4b4 
 │                                  ╰ CreatedBy: COPY / / # buildkit 
 ╰ [11] ╭ Target : /etc/ssh/ssh_host_rsa_key 
        ├ Class  : secret 
@@ -5230,9 +4616,9 @@
                        │                          ├ FirstCause : false 
                        │                          ╰ LastCause  : false 
                        ├ Match    : ********************************************************************** 
-                       ╰ Layer     ╭ Digest   : sha256:b25b5c28dff7ffbb5d7c36a7a6f54aa53dd0f77ddf11d5bd4771f6ad
-                                   │            9168cdc5 
-                                   ├ DiffID   : sha256:f5a8dfe2745d88d380e799a454a8728acc52a14da58ed4ff065e78e5
-                                   │            4b5ec643 
+                       ╰ Layer     ╭ Digest   : sha256:954740542862d73178282d0bac4af6e0a73bce1a2fb7b832ab033b06
+                                   │            2cc2633b 
+                                   ├ DiffID   : sha256:e27617fcda7979a18fc96bfe9eb43b4a861301a376cfc1bb76571e3c
+                                   │            49a4a4b4 
                                    ╰ CreatedBy: COPY / / # buildkit 
 ````
