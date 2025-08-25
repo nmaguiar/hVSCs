@@ -139,7 +139,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2213166
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-34969
     - https://errata.almalinux.org/9/ALSA-2023-4569.html
-    - https://errata.rockylinux.org/RLSA-2023:4498
+    - https://errata.rockylinux.org/RLSA-2023:4569
     - https://gitlab.freedesktop.org/dbus/dbus/-/issues/457
     - https://linux.oracle.com/cve/CVE-2023-34969.html
     - https://linux.oracle.com/errata/ELSA-2023-4569.html
@@ -197,7 +197,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2213166
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-34969
     - https://errata.almalinux.org/9/ALSA-2023-4569.html
-    - https://errata.rockylinux.org/RLSA-2023:4498
+    - https://errata.rockylinux.org/RLSA-2023:4569
     - https://gitlab.freedesktop.org/dbus/dbus/-/issues/457
     - https://linux.oracle.com/cve/CVE-2023-34969.html
     - https://linux.oracle.com/errata/ELSA-2023-4569.html
@@ -350,7 +350,8 @@
       PURL: pkg:deb/ubuntu/gcc-12-base@12.3.0-1ubuntu1~22.04?arch=amd64&distro=ubuntu-22.04
       UID: 4075ab57b22d0ab2
     InstalledVersion: 12.3.0-1ubuntu1~22.04
-    Status: affected
+    FixedVersion: 12.3.0-1ubuntu1~22.04.2
+    Status: fixed
     Layer:
       Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
       DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
@@ -401,6 +402,7 @@
     - https://linux.oracle.com/errata/ELSA-2023-28766.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-4039
     - https://rtx.meta.security/mitigation/2023/09/12/CVE-2023-4039.html
+    - https://ubuntu.com/security/notices/USN-7700-1
     - https://www.cve.org/CVERecord?id=CVE-2023-4039
     PublishedDate: '2023-09-13T09:15:15.69Z'
     LastModifiedDate: '2025-02-13T17:17:14.717Z'
@@ -485,6 +487,7 @@
       azure: 2
       cbl-mariner: 2
       oracle-oval: 3
+      photon: 3
       redhat: 2
       rocky: 3
       ubuntu: 2
@@ -559,6 +562,7 @@
       alma: 3
       amazon: 3
       oracle-oval: 3
+      photon: 2
       redhat: 1
       rocky: 3
       ubuntu: 2
@@ -708,6 +712,7 @@
     - CWE-120
     VendorSeverity:
       bitnami: 2
+      photon: 3
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -807,6 +812,7 @@
       azure: 2
       cbl-mariner: 2
       oracle-oval: 3
+      photon: 3
       redhat: 2
       rocky: 3
       ubuntu: 2
@@ -881,6 +887,7 @@
       alma: 3
       amazon: 3
       oracle-oval: 3
+      photon: 2
       redhat: 1
       rocky: 3
       ubuntu: 2
@@ -1030,6 +1037,7 @@
     - CWE-120
     VendorSeverity:
       bitnami: 2
+      photon: 3
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -2046,7 +2054,8 @@
       PURL: pkg:deb/ubuntu/libatomic1@12.3.0-1ubuntu1~22.04?arch=amd64&distro=ubuntu-22.04
       UID: 67fea9c66c815665
     InstalledVersion: 12.3.0-1ubuntu1~22.04
-    Status: affected
+    FixedVersion: 12.3.0-1ubuntu1~22.04.2
+    Status: fixed
     Layer:
       Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
       DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
@@ -2097,6 +2106,7 @@
     - https://linux.oracle.com/errata/ELSA-2023-28766.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-4039
     - https://rtx.meta.security/mitigation/2023/09/12/CVE-2023-4039.html
+    - https://ubuntu.com/security/notices/USN-7700-1
     - https://www.cve.org/CVERecord?id=CVE-2023-4039
     PublishedDate: '2023-09-13T09:15:15.69Z'
     LastModifiedDate: '2025-02-13T17:17:14.717Z'
@@ -2382,7 +2392,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2213166
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-34969
     - https://errata.almalinux.org/9/ALSA-2023-4569.html
-    - https://errata.rockylinux.org/RLSA-2023:4498
+    - https://errata.rockylinux.org/RLSA-2023:4569
     - https://gitlab.freedesktop.org/dbus/dbus/-/issues/457
     - https://linux.oracle.com/cve/CVE-2023-34969.html
     - https://linux.oracle.com/errata/ELSA-2023-4569.html
@@ -2706,7 +2716,8 @@
       PURL: pkg:deb/ubuntu/libgcc-s1@12.3.0-1ubuntu1~22.04?arch=amd64&distro=ubuntu-22.04
       UID: e3536406fb9065ee
     InstalledVersion: 12.3.0-1ubuntu1~22.04
-    Status: affected
+    FixedVersion: 12.3.0-1ubuntu1~22.04.2
+    Status: fixed
     Layer:
       Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
       DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
@@ -2757,6 +2768,7 @@
     - https://linux.oracle.com/errata/ELSA-2023-28766.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-4039
     - https://rtx.meta.security/mitigation/2023/09/12/CVE-2023-4039.html
+    - https://ubuntu.com/security/notices/USN-7700-1
     - https://www.cve.org/CVERecord?id=CVE-2023-4039
     PublishedDate: '2023-09-13T09:15:15.69Z'
     LastModifiedDate: '2025-02-13T17:17:14.717Z'
@@ -2964,12 +2976,17 @@
     CweIDs:
     - CWE-415
     VendorSeverity:
+      amazon: 2
       azure: 2
       cbl-mariner: 2
+      nvd: 3
       photon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:H
+        V3Score: 8.2
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:H
         V3Score: 6.5
@@ -2981,7 +2998,7 @@
     - https://ubuntu.com/security/notices/USN-7635-1
     - https://www.cve.org/CVERecord?id=CVE-2025-32988
     PublishedDate: '2025-07-10T08:15:24.223Z'
-    LastModifiedDate: '2025-07-10T13:17:30.017Z'
+    LastModifiedDate: '2025-08-21T15:37:20.973Z'
   - VulnerabilityID: CVE-2025-32989
     PkgID: libgnutls30@3.7.3-4ubuntu1.6
     PkgName: libgnutls30
@@ -3006,6 +3023,7 @@
     CweIDs:
     - CWE-295
     VendorSeverity:
+      amazon: 2
       azure: 2
       cbl-mariner: 2
       photon: 2
@@ -3048,10 +3066,11 @@
     CweIDs:
     - CWE-122
     VendorSeverity:
+      amazon: 2
       azure: 2
       cbl-mariner: 2
       nvd: 3
-      photon: 2
+      photon: 3
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -3094,6 +3113,7 @@
     CweIDs:
     - CWE-476
     VendorSeverity:
+      amazon: 2
       azure: 2
       cbl-mariner: 2
       photon: 2
@@ -3194,6 +3214,7 @@
       amazon: 3
       cbl-mariner: 3
       oracle-oval: 2
+      photon: 3
       redhat: 2
       ubuntu: 1
     CVSS:
@@ -3509,7 +3530,9 @@
     - http://www.openwall.com/lists/oss-security/2025/06/05/1
     - http://www.openwall.com/lists/oss-security/2025/06/05/3
     - https://access.redhat.com/security/cve/CVE-2025-4598
+    - https://blogs.oracle.com/linux/post/analysis-of-cve-2025-4598
     - https://bugzilla.redhat.com/show_bug.cgi?id=2369242
+    - https://ciq.com/blog/the-real-danger-of-systemd-coredump-cve-2025-4598/
     - https://git.kernel.org/linus/b5325b2a270fcaf7b2a9a0f23d422ca8a5a8bdea
     - https://github.com/systemd/systemd/commit/0c49e0049b7665bb7769a13ef346fef92e1ad4d6 (main)
     - https://github.com/systemd/systemd/commit/13902e025321242b1d95c6d8b4e482b37f58cdef (main)
@@ -3525,9 +3548,10 @@
     - https://ubuntu.com/security/notices/USN-7559-1
     - https://www.cve.org/CVERecord?id=CVE-2025-4598
     - https://www.openwall.com/lists/oss-security/2025/05/29/3
+    - https://www.openwall.com/lists/oss-security/2025/08/18/3
     - https://www.qualys.com/2025/05/29/apport-coredump/apport-coredump.txt
     PublishedDate: '2025-05-30T14:15:23.557Z'
-    LastModifiedDate: '2025-08-12T19:59:36.587Z'
+    LastModifiedDate: '2025-08-18T16:15:28.447Z'
   - VulnerabilityID: CVE-2023-7008
     PkgID: libnss-systemd@249.11-0ubuntu3.12
     PkgName: libnss-systemd
@@ -3577,7 +3601,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222672
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-7008
     - https://errata.almalinux.org/9/ALSA-2024-2463.html
-    - https://errata.rockylinux.org/RLSA-2024:3203
+    - https://errata.rockylinux.org/RLSA-2024:2463
     - https://github.com/systemd/systemd/issues/25676
     - https://linux.oracle.com/cve/CVE-2023-7008.html
     - https://linux.oracle.com/errata/ELSA-2024-3203.html
@@ -3984,7 +4008,9 @@
     - http://www.openwall.com/lists/oss-security/2025/06/05/1
     - http://www.openwall.com/lists/oss-security/2025/06/05/3
     - https://access.redhat.com/security/cve/CVE-2025-4598
+    - https://blogs.oracle.com/linux/post/analysis-of-cve-2025-4598
     - https://bugzilla.redhat.com/show_bug.cgi?id=2369242
+    - https://ciq.com/blog/the-real-danger-of-systemd-coredump-cve-2025-4598/
     - https://git.kernel.org/linus/b5325b2a270fcaf7b2a9a0f23d422ca8a5a8bdea
     - https://github.com/systemd/systemd/commit/0c49e0049b7665bb7769a13ef346fef92e1ad4d6 (main)
     - https://github.com/systemd/systemd/commit/13902e025321242b1d95c6d8b4e482b37f58cdef (main)
@@ -4000,9 +4026,10 @@
     - https://ubuntu.com/security/notices/USN-7559-1
     - https://www.cve.org/CVERecord?id=CVE-2025-4598
     - https://www.openwall.com/lists/oss-security/2025/05/29/3
+    - https://www.openwall.com/lists/oss-security/2025/08/18/3
     - https://www.qualys.com/2025/05/29/apport-coredump/apport-coredump.txt
     PublishedDate: '2025-05-30T14:15:23.557Z'
-    LastModifiedDate: '2025-08-12T19:59:36.587Z'
+    LastModifiedDate: '2025-08-18T16:15:28.447Z'
   - VulnerabilityID: CVE-2023-7008
     PkgID: libpam-systemd@249.11-0ubuntu3.12
     PkgName: libpam-systemd
@@ -4052,7 +4079,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222672
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-7008
     - https://errata.almalinux.org/9/ALSA-2024-2463.html
-    - https://errata.rockylinux.org/RLSA-2024:3203
+    - https://errata.rockylinux.org/RLSA-2024:2463
     - https://github.com/systemd/systemd/issues/25676
     - https://linux.oracle.com/cve/CVE-2023-7008.html
     - https://linux.oracle.com/errata/ELSA-2024-3203.html
@@ -4355,7 +4382,7 @@
     - CWE-426
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       cbl-mariner: 2
       oracle-oval: 2
       redhat: 2
@@ -4419,7 +4446,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       redhat: 2
@@ -4456,7 +4483,8 @@
       PURL: pkg:deb/ubuntu/libpython3.10@3.10.12-1~22.04.9?arch=amd64&distro=ubuntu-22.04
       UID: 316ba9ad6ba9256c
     InstalledVersion: 3.10.12-1~22.04.9
-    Status: affected
+    FixedVersion: 3.10.12-1~22.04.11
+    Status: fixed
     Layer:
       Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
       DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
@@ -4499,9 +4527,60 @@
     - https://github.com/python/cpython/pull/135464
     - https://mail.python.org/archives/list/security-announce@python.org/thread/K5PIYLR6EP3WR7ZOKKYQUWEDNQVUXOYM/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-6069
+    - https://ubuntu.com/security/notices/USN-7710-1
     - https://www.cve.org/CVERecord?id=CVE-2025-6069
     PublishedDate: '2025-06-17T14:15:33.677Z'
     LastModifiedDate: '2025-07-07T18:15:29.15Z'
+  - VulnerabilityID: CVE-2025-8194
+    PkgID: libpython3.10@3.10.12-1~22.04.9
+    PkgName: libpython3.10
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libpython3.10@3.10.12-1~22.04.9?arch=amd64&distro=ubuntu-22.04
+      UID: 316ba9ad6ba9256c
+    InstalledVersion: 3.10.12-1~22.04.9
+    FixedVersion: 3.10.12-1~22.04.11
+    Status: fixed
+    Layer:
+      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
+      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-8194
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'cpython: Cpython infinite loop when parsing a tarfile'
+    Description: "There is a defect in the CPython “tarfile” module affecting the “TarFile” extraction and entry enumeration APIs. The tar implementation would process tar archives with negative offsets without error, resulting in an infinite loop and deadlock during the parsing of maliciously crafted tar archives. \n\nThis vulnerability can be mitigated by including the following patch after importing the “tarfile” module:\_ https://gist.github.com/sethmlarson/1716ac5b82b73dbcbf23ad2eff8b33e1"
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-835
+    VendorSeverity:
+      amazon: 3
+      bitnami: 3
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-8194
+    - https://gist.github.com/sethmlarson/1716ac5b82b73dbcbf23ad2eff8b33e1
+    - https://github.com/python/cpython/commit/7040aa54f14676938970e10c5f74ea93cd56aa38
+    - https://github.com/python/cpython/commit/c9d9f78feb1467e73fd29356c040bde1c104f29f
+    - https://github.com/python/cpython/commit/cdae923ffe187d6ef916c0f665a31249619193fe
+    - https://github.com/python/cpython/commit/fbc2a0ca9ac8aff6887f8ddf79b87b4510277227
+    - https://github.com/python/cpython/issues/130577
+    - https://github.com/python/cpython/pull/137027
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/ZULLF3IZ726XP5EY7XJ7YIN3K5MDYR2D/
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-8194
+    - https://ubuntu.com/security/notices/USN-7710-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-8194
+    PublishedDate: '2025-07-28T19:15:43.793Z'
+    LastModifiedDate: '2025-08-07T21:15:29.78Z'
   - VulnerabilityID: CVE-2025-1795
     PkgID: libpython3.10@3.10.12-1~22.04.9
     PkgName: libpython3.10
@@ -4573,7 +4652,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       redhat: 2
@@ -4610,7 +4689,8 @@
       PURL: pkg:deb/ubuntu/libpython3.10-minimal@3.10.12-1~22.04.9?arch=amd64&distro=ubuntu-22.04
       UID: 567b7148abaa0d6
     InstalledVersion: 3.10.12-1~22.04.9
-    Status: affected
+    FixedVersion: 3.10.12-1~22.04.11
+    Status: fixed
     Layer:
       Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
       DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
@@ -4653,9 +4733,60 @@
     - https://github.com/python/cpython/pull/135464
     - https://mail.python.org/archives/list/security-announce@python.org/thread/K5PIYLR6EP3WR7ZOKKYQUWEDNQVUXOYM/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-6069
+    - https://ubuntu.com/security/notices/USN-7710-1
     - https://www.cve.org/CVERecord?id=CVE-2025-6069
     PublishedDate: '2025-06-17T14:15:33.677Z'
     LastModifiedDate: '2025-07-07T18:15:29.15Z'
+  - VulnerabilityID: CVE-2025-8194
+    PkgID: libpython3.10-minimal@3.10.12-1~22.04.9
+    PkgName: libpython3.10-minimal
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libpython3.10-minimal@3.10.12-1~22.04.9?arch=amd64&distro=ubuntu-22.04
+      UID: 567b7148abaa0d6
+    InstalledVersion: 3.10.12-1~22.04.9
+    FixedVersion: 3.10.12-1~22.04.11
+    Status: fixed
+    Layer:
+      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
+      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-8194
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'cpython: Cpython infinite loop when parsing a tarfile'
+    Description: "There is a defect in the CPython “tarfile” module affecting the “TarFile” extraction and entry enumeration APIs. The tar implementation would process tar archives with negative offsets without error, resulting in an infinite loop and deadlock during the parsing of maliciously crafted tar archives. \n\nThis vulnerability can be mitigated by including the following patch after importing the “tarfile” module:\_ https://gist.github.com/sethmlarson/1716ac5b82b73dbcbf23ad2eff8b33e1"
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-835
+    VendorSeverity:
+      amazon: 3
+      bitnami: 3
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-8194
+    - https://gist.github.com/sethmlarson/1716ac5b82b73dbcbf23ad2eff8b33e1
+    - https://github.com/python/cpython/commit/7040aa54f14676938970e10c5f74ea93cd56aa38
+    - https://github.com/python/cpython/commit/c9d9f78feb1467e73fd29356c040bde1c104f29f
+    - https://github.com/python/cpython/commit/cdae923ffe187d6ef916c0f665a31249619193fe
+    - https://github.com/python/cpython/commit/fbc2a0ca9ac8aff6887f8ddf79b87b4510277227
+    - https://github.com/python/cpython/issues/130577
+    - https://github.com/python/cpython/pull/137027
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/ZULLF3IZ726XP5EY7XJ7YIN3K5MDYR2D/
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-8194
+    - https://ubuntu.com/security/notices/USN-7710-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-8194
+    PublishedDate: '2025-07-28T19:15:43.793Z'
+    LastModifiedDate: '2025-08-07T21:15:29.78Z'
   - VulnerabilityID: CVE-2025-1795
     PkgID: libpython3.10-minimal@3.10.12-1~22.04.9
     PkgName: libpython3.10-minimal
@@ -4727,7 +4858,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       redhat: 2
@@ -4764,7 +4895,8 @@
       PURL: pkg:deb/ubuntu/libpython3.10-stdlib@3.10.12-1~22.04.9?arch=amd64&distro=ubuntu-22.04
       UID: 821531d3eec942e8
     InstalledVersion: 3.10.12-1~22.04.9
-    Status: affected
+    FixedVersion: 3.10.12-1~22.04.11
+    Status: fixed
     Layer:
       Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
       DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
@@ -4807,9 +4939,60 @@
     - https://github.com/python/cpython/pull/135464
     - https://mail.python.org/archives/list/security-announce@python.org/thread/K5PIYLR6EP3WR7ZOKKYQUWEDNQVUXOYM/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-6069
+    - https://ubuntu.com/security/notices/USN-7710-1
     - https://www.cve.org/CVERecord?id=CVE-2025-6069
     PublishedDate: '2025-06-17T14:15:33.677Z'
     LastModifiedDate: '2025-07-07T18:15:29.15Z'
+  - VulnerabilityID: CVE-2025-8194
+    PkgID: libpython3.10-stdlib@3.10.12-1~22.04.9
+    PkgName: libpython3.10-stdlib
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libpython3.10-stdlib@3.10.12-1~22.04.9?arch=amd64&distro=ubuntu-22.04
+      UID: 821531d3eec942e8
+    InstalledVersion: 3.10.12-1~22.04.9
+    FixedVersion: 3.10.12-1~22.04.11
+    Status: fixed
+    Layer:
+      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
+      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-8194
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'cpython: Cpython infinite loop when parsing a tarfile'
+    Description: "There is a defect in the CPython “tarfile” module affecting the “TarFile” extraction and entry enumeration APIs. The tar implementation would process tar archives with negative offsets without error, resulting in an infinite loop and deadlock during the parsing of maliciously crafted tar archives. \n\nThis vulnerability can be mitigated by including the following patch after importing the “tarfile” module:\_ https://gist.github.com/sethmlarson/1716ac5b82b73dbcbf23ad2eff8b33e1"
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-835
+    VendorSeverity:
+      amazon: 3
+      bitnami: 3
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-8194
+    - https://gist.github.com/sethmlarson/1716ac5b82b73dbcbf23ad2eff8b33e1
+    - https://github.com/python/cpython/commit/7040aa54f14676938970e10c5f74ea93cd56aa38
+    - https://github.com/python/cpython/commit/c9d9f78feb1467e73fd29356c040bde1c104f29f
+    - https://github.com/python/cpython/commit/cdae923ffe187d6ef916c0f665a31249619193fe
+    - https://github.com/python/cpython/commit/fbc2a0ca9ac8aff6887f8ddf79b87b4510277227
+    - https://github.com/python/cpython/issues/130577
+    - https://github.com/python/cpython/pull/137027
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/ZULLF3IZ726XP5EY7XJ7YIN3K5MDYR2D/
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-8194
+    - https://ubuntu.com/security/notices/USN-7710-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-8194
+    PublishedDate: '2025-07-28T19:15:43.793Z'
+    LastModifiedDate: '2025-08-07T21:15:29.78Z'
   - VulnerabilityID: CVE-2025-1795
     PkgID: libpython3.10-stdlib@3.10.12-1~22.04.9
     PkgName: libpython3.10-stdlib
@@ -4956,7 +5139,7 @@
     - https://errata.almalinux.org/9/ALSA-2025-11992.html
     - https://errata.rockylinux.org/RLSA-2025:12010
     - https://linux.oracle.com/cve/CVE-2025-6965.html
-    - https://linux.oracle.com/errata/ELSA-2025-12349.html
+    - https://linux.oracle.com/errata/ELSA-2025-14101.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-6965
     - https://ubuntu.com/security/notices/USN-7676-1
     - https://ubuntu.com/security/notices/USN-7679-1
@@ -4983,8 +5166,12 @@
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Title: 'libssh: Write beyond bounds in binary to base64 conversion functions'
-    Description: No description is available for this CVE.
+    Description: |-
+      There's a vulnerability in the libssh package where when a libssh consumer passes in an unexpectedly large input buffer to ssh_get_fingerprint_hash() function. In such cases the bin_to_base64() function can experience an integer overflow leading to a memory under allocation, when that happens it's possible that the program perform out of bounds write leading to a heap corruption.
+      This issue affects only 32-bits builds of libssh.
     Severity: MEDIUM
+    CweIDs:
+    - CWE-787
     VendorSeverity:
       redhat: 2
       ubuntu: 2
@@ -4994,11 +5181,15 @@
         V3Score: 4.5
     References:
     - https://access.redhat.com/security/cve/CVE-2025-4877
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2376193
     - https://git.libssh.org/projects/libssh.git/commit/?h=stable-0.11&id=6fd9cc8ce3958092a1aae11f1f2e911b2747732d
     - https://nvd.nist.gov/vuln/detail/CVE-2025-4877
     - https://ubuntu.com/security/notices/USN-7619-1
+    - https://ubuntu.com/security/notices/USN-7696-1
     - https://www.cve.org/CVERecord?id=CVE-2025-4877
     - https://www.libssh.org/security/advisories/CVE-2025-4877.txt
+    PublishedDate: '2025-08-20T13:15:28.89Z'
+    LastModifiedDate: '2025-08-20T14:39:07.86Z'
   - VulnerabilityID: CVE-2025-4878
     PkgID: libssh-4@0.9.6-2ubuntu0.22.04.3
     PkgName: libssh-4
@@ -5023,6 +5214,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
+      photon: 3
       redhat: 1
       ubuntu: 2
     CVSS:
@@ -5036,6 +5228,7 @@
     - https://git.libssh.org/projects/libssh.git/commit/?id=b35ee876adc92a208d47194772e99f9c71e0bedb
     - https://nvd.nist.gov/vuln/detail/CVE-2025-4878
     - https://ubuntu.com/security/notices/USN-7619-1
+    - https://ubuntu.com/security/notices/USN-7696-1
     - https://www.cve.org/CVERecord?id=CVE-2025-4878
     - https://www.libssh.org/security/advisories/CVE-2025-4878.txt
     PublishedDate: '2025-07-22T15:15:36.307Z'
@@ -5066,9 +5259,13 @@
     VendorSeverity:
       azure: 2
       cbl-mariner: 2
+      nvd: 3
       redhat: 2
       ubuntu: 2
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H
+        V3Score: 8.1
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N
         V3Score: 5.4
@@ -5077,10 +5274,11 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2369131
     - https://nvd.nist.gov/vuln/detail/CVE-2025-5318
     - https://ubuntu.com/security/notices/USN-7619-1
+    - https://ubuntu.com/security/notices/USN-7696-1
     - https://www.cve.org/CVERecord?id=CVE-2025-5318
     - https://www.libssh.org/security/advisories/CVE-2025-5318.txt
     PublishedDate: '2025-06-24T14:15:30.523Z'
-    LastModifiedDate: '2025-06-26T18:58:14.28Z'
+    LastModifiedDate: '2025-08-21T01:10:17.993Z'
   - VulnerabilityID: CVE-2025-5372
     PkgID: libssh-4@0.9.6-2ubuntu0.22.04.3
     PkgName: libssh-4
@@ -5107,9 +5305,13 @@
     VendorSeverity:
       azure: 2
       cbl-mariner: 2
+      nvd: 3
       redhat: 2
       ubuntu: 2
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 8.8
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:L/I:L/A:L
         V3Score: 5
@@ -5121,7 +5323,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-5372
     - https://www.libssh.org/security/advisories/CVE-2025-5372.txt
     PublishedDate: '2025-07-04T06:15:24.93Z'
-    LastModifiedDate: '2025-07-08T16:18:53.607Z'
+    LastModifiedDate: '2025-08-22T14:01:21.24Z'
   - VulnerabilityID: CVE-2024-41996
     PkgID: libssl3@3.0.2-0ubuntu1.19
     PkgName: libssl3
@@ -5220,7 +5422,8 @@
       PURL: pkg:deb/ubuntu/libstdc%2B%2B6@12.3.0-1ubuntu1~22.04?arch=amd64&distro=ubuntu-22.04
       UID: b2e0206859f58383
     InstalledVersion: 12.3.0-1ubuntu1~22.04
-    Status: affected
+    FixedVersion: 12.3.0-1ubuntu1~22.04.2
+    Status: fixed
     Layer:
       Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
       DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
@@ -5271,6 +5474,7 @@
     - https://linux.oracle.com/errata/ELSA-2023-28766.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-4039
     - https://rtx.meta.security/mitigation/2023/09/12/CVE-2023-4039.html
+    - https://ubuntu.com/security/notices/USN-7700-1
     - https://www.cve.org/CVERecord?id=CVE-2023-4039
     PublishedDate: '2023-09-13T09:15:15.69Z'
     LastModifiedDate: '2025-02-13T17:17:14.717Z'
@@ -5313,7 +5517,9 @@
     - http://www.openwall.com/lists/oss-security/2025/06/05/1
     - http://www.openwall.com/lists/oss-security/2025/06/05/3
     - https://access.redhat.com/security/cve/CVE-2025-4598
+    - https://blogs.oracle.com/linux/post/analysis-of-cve-2025-4598
     - https://bugzilla.redhat.com/show_bug.cgi?id=2369242
+    - https://ciq.com/blog/the-real-danger-of-systemd-coredump-cve-2025-4598/
     - https://git.kernel.org/linus/b5325b2a270fcaf7b2a9a0f23d422ca8a5a8bdea
     - https://github.com/systemd/systemd/commit/0c49e0049b7665bb7769a13ef346fef92e1ad4d6 (main)
     - https://github.com/systemd/systemd/commit/13902e025321242b1d95c6d8b4e482b37f58cdef (main)
@@ -5329,9 +5535,10 @@
     - https://ubuntu.com/security/notices/USN-7559-1
     - https://www.cve.org/CVERecord?id=CVE-2025-4598
     - https://www.openwall.com/lists/oss-security/2025/05/29/3
+    - https://www.openwall.com/lists/oss-security/2025/08/18/3
     - https://www.qualys.com/2025/05/29/apport-coredump/apport-coredump.txt
     PublishedDate: '2025-05-30T14:15:23.557Z'
-    LastModifiedDate: '2025-08-12T19:59:36.587Z'
+    LastModifiedDate: '2025-08-18T16:15:28.447Z'
   - VulnerabilityID: CVE-2023-7008
     PkgID: libsystemd0@249.11-0ubuntu3.12
     PkgName: libsystemd0
@@ -5381,7 +5588,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222672
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-7008
     - https://errata.almalinux.org/9/ALSA-2024-2463.html
-    - https://errata.rockylinux.org/RLSA-2024:3203
+    - https://errata.rockylinux.org/RLSA-2024:2463
     - https://github.com/systemd/systemd/issues/25676
     - https://linux.oracle.com/cve/CVE-2023-7008.html
     - https://linux.oracle.com/errata/ELSA-2024-3203.html
@@ -5392,7 +5599,97 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-7008
     PublishedDate: '2023-12-23T13:15:07.573Z'
     LastModifiedDate: '2024-11-22T12:15:17.59Z'
-  - VulnerabilityID: CVE-2025-8176
+  - VulnerabilityID: CVE-2025-8534
+    PkgID: libtiff5@4.3.0-6ubuntu0.10
+    PkgName: libtiff5
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libtiff5@4.3.0-6ubuntu0.10?arch=amd64&distro=ubuntu-22.04
+      UID: e0ab3adf4f65570d
+    InstalledVersion: 4.3.0-6ubuntu0.10
+    FixedVersion: 4.3.0-6ubuntu0.11
+    Status: fixed
+    Layer:
+      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
+      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-8534
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'libtiff: Libtiff Null Pointer Dereference Vulnerability'
+    Description: A vulnerability classified as problematic was found in libtiff 4.6.0. This vulnerability affects the function PS_Lvl2page of the file tools/tiff2ps.c of the component tiff2ps. The manipulation leads to null pointer dereference. It is possible to launch the attack on the local host. The complexity of an attack is rather high. The exploitation appears to be difficult. The exploit has been disclosed to the public and may be used. The name of the patch is 6ba36f159fd396ad11bf6b7874554197736ecc8b. It is recommended to apply a patch to fix this issue. One of the maintainers explains, that "[t]his error only occurs if DEFER_STRILE_LOAD (defer-strile-load:BOOL=ON) or TIFFOpen( .. "rD") option is used."
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-404
+    - CWE-476
+    VendorSeverity:
+      redhat: 1
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 2.5
+    References:
+    - http://www.libtiff.org/
+    - https://access.redhat.com/security/cve/CVE-2025-8534
+    - https://drive.google.com/file/d/15JPA3kLYiYD-nRNJ8y8HmnYjhv9NE7k6/view?usp=drive_link
+    - https://gitlab.com/libtiff/libtiff/-/commit/6ba36f159fd396ad11bf6b7874554197736ecc8b
+    - https://gitlab.com/libtiff/libtiff/-/issues/718
+    - https://gitlab.com/libtiff/libtiff/-/merge_requests/746
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-8534
+    - https://ubuntu.com/security/notices/USN-7707-1
+    - https://vuldb.com/?ctiid.318664
+    - https://vuldb.com/?id.318664
+    - https://vuldb.com/?submit.617831
+    - https://www.cve.org/CVERecord?id=CVE-2025-8534
+    PublishedDate: '2025-08-05T00:15:56.88Z'
+    LastModifiedDate: '2025-08-05T16:15:31.33Z'
+  - VulnerabilityID: CVE-2025-8851
+    PkgID: libtiff5@4.3.0-6ubuntu0.10
+    PkgName: libtiff5
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libtiff5@4.3.0-6ubuntu0.10?arch=amd64&distro=ubuntu-22.04
+      UID: e0ab3adf4f65570d
+    InstalledVersion: 4.3.0-6ubuntu0.10
+    FixedVersion: 4.3.0-6ubuntu0.11
+    Status: fixed
+    Layer:
+      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
+      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-8851
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'libtiff: LibTIFF Stack-based buffer overflow'
+    Description: A vulnerability was determined in LibTIFF up to 4.5.1. Affected by this issue is the function readSeparateStripsetoBuffer of the file tools/tiffcrop.c of the component tiffcrop. The manipulation leads to stack-based buffer overflow. Local access is required to approach this attack. The patch is identified as 8a7a48d7a645992ca83062b3a1873c951661e2b3. It is recommended to apply a patch to fix this issue.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-119
+    - CWE-121
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L
+        V3Score: 5.3
+    References:
+    - http://www.libtiff.org/
+    - https://access.redhat.com/security/cve/CVE-2025-8851
+    - https://gitlab.com/libtiff/libtiff/-/commit/8a7a48d7a645992ca83062b3a1873c951661e2b3
+    - https://gitlab.com/libtiff/libtiff/-/commit/8a7a48d7a645992ca83062b3a1873c951661e2b3 (v4.7.0rc1)
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-8851
+    - https://ubuntu.com/security/notices/USN-7707-1
+    - https://vuldb.com/?ctiid.319382
+    - https://vuldb.com/?id.319382
+    - https://vuldb.com/?submit.624604
+    - https://www.cve.org/CVERecord?id=CVE-2025-8851
+    PublishedDate: '2025-08-11T14:15:27.597Z'
+    LastModifiedDate: '2025-08-12T14:15:30.617Z'
+  - VulnerabilityID: CVE-2025-8961
     PkgID: libtiff5@4.3.0-6ubuntu0.10
     PkgName: libtiff5
     PkgIdentifier:
@@ -5400,6 +5697,49 @@
       UID: e0ab3adf4f65570d
     InstalledVersion: 4.3.0-6ubuntu0.10
     Status: affected
+    Layer:
+      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
+      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-8961
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'libtiff: LibTIFF memory corruption'
+    Description: A weakness has been identified in LibTIFF 4.7.0. This affects the function main of the file tiffcrop.c of the component tiffcrop. Executing manipulation can lead to memory corruption. The attack can only be executed locally. The exploit has been made available to the public and could be exploited.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-119
+    VendorSeverity:
+      redhat: 1
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 3.3
+    References:
+    - http://www.libtiff.org/
+    - https://access.redhat.com/security/cve/CVE-2025-8961
+    - https://drive.google.com/file/d/15L4q2eD8GX3Aj3z6SWC3_FbqaM1ChUx2/view?usp=sharing
+    - https://gitlab.com/libtiff/libtiff/-/issues/721
+    - https://gitlab.com/libtiff/libtiff/-/issues/721#note_2670686960
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-8961
+    - https://vuldb.com/?ctiid.319955
+    - https://vuldb.com/?id.319955
+    - https://vuldb.com/?submit.627957
+    - https://www.cve.org/CVERecord?id=CVE-2025-8961
+    PublishedDate: '2025-08-14T13:15:38.037Z'
+    LastModifiedDate: '2025-08-23T16:15:34.78Z'
+  - VulnerabilityID: CVE-2025-8176
+    PkgID: libtiff5@4.3.0-6ubuntu0.10
+    PkgName: libtiff5
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libtiff5@4.3.0-6ubuntu0.10?arch=amd64&distro=ubuntu-22.04
+      UID: e0ab3adf4f65570d
+    InstalledVersion: 4.3.0-6ubuntu0.10
+    FixedVersion: 4.3.0-6ubuntu0.11
+    Status: fixed
     Layer:
       Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
       DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
@@ -5416,6 +5756,7 @@
     - CWE-119
     - CWE-416
     VendorSeverity:
+      amazon: 2
       redhat: 2
       ubuntu: 1
     CVSS:
@@ -5429,6 +5770,7 @@
     - https://gitlab.com/libtiff/libtiff/-/issues/707
     - https://gitlab.com/libtiff/libtiff/-/merge_requests/727
     - https://nvd.nist.gov/vuln/detail/CVE-2025-8176
+    - https://ubuntu.com/security/notices/USN-7707-1
     - https://vuldb.com/?ctiid.317590
     - https://vuldb.com/?id.317590
     - https://vuldb.com/?submit.621796
@@ -5518,7 +5860,9 @@
     - http://www.openwall.com/lists/oss-security/2025/06/05/1
     - http://www.openwall.com/lists/oss-security/2025/06/05/3
     - https://access.redhat.com/security/cve/CVE-2025-4598
+    - https://blogs.oracle.com/linux/post/analysis-of-cve-2025-4598
     - https://bugzilla.redhat.com/show_bug.cgi?id=2369242
+    - https://ciq.com/blog/the-real-danger-of-systemd-coredump-cve-2025-4598/
     - https://git.kernel.org/linus/b5325b2a270fcaf7b2a9a0f23d422ca8a5a8bdea
     - https://github.com/systemd/systemd/commit/0c49e0049b7665bb7769a13ef346fef92e1ad4d6 (main)
     - https://github.com/systemd/systemd/commit/13902e025321242b1d95c6d8b4e482b37f58cdef (main)
@@ -5534,9 +5878,10 @@
     - https://ubuntu.com/security/notices/USN-7559-1
     - https://www.cve.org/CVERecord?id=CVE-2025-4598
     - https://www.openwall.com/lists/oss-security/2025/05/29/3
+    - https://www.openwall.com/lists/oss-security/2025/08/18/3
     - https://www.qualys.com/2025/05/29/apport-coredump/apport-coredump.txt
     PublishedDate: '2025-05-30T14:15:23.557Z'
-    LastModifiedDate: '2025-08-12T19:59:36.587Z'
+    LastModifiedDate: '2025-08-18T16:15:28.447Z'
   - VulnerabilityID: CVE-2023-7008
     PkgID: libudev1@249.11-0ubuntu3.12
     PkgName: libudev1
@@ -5586,7 +5931,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222672
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-7008
     - https://errata.almalinux.org/9/ALSA-2024-2463.html
-    - https://errata.rockylinux.org/RLSA-2024:3203
+    - https://errata.rockylinux.org/RLSA-2024:2463
     - https://github.com/systemd/systemd/issues/25676
     - https://linux.oracle.com/cve/CVE-2023-7008.html
     - https://linux.oracle.com/errata/ELSA-2024-3203.html
@@ -5713,6 +6058,266 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-32415
     PublishedDate: '2025-04-17T17:15:33.733Z'
     LastModifiedDate: '2025-04-23T18:17:52.053Z'
+  - VulnerabilityID: CVE-2025-49794
+    PkgID: libxml2@2.9.13+dfsg-1ubuntu0.6
+    PkgName: libxml2
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libxml2@2.9.13%2Bdfsg-1ubuntu0.6?arch=amd64&distro=ubuntu-22.04
+      UID: b5b6a3d612a1af1b
+    InstalledVersion: 2.9.13+dfsg-1ubuntu0.6
+    FixedVersion: 2.9.13+dfsg-1ubuntu0.8
+    Status: fixed
+    Layer:
+      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
+      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-49794
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'libxml: Heap use after free (UAF) leads to Denial of service (DoS)'
+    Description: A use-after-free vulnerability was found in libxml2. This issue occurs when parsing XPath elements under certain circumstances when the XML schematron has the <sch:name path="..."/> schema elements. This flaw allows a malicious actor to craft a malicious XML document used as input for libxml, resulting in the program's crash using libxml or other possible undefined behaviors.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-825
+    VendorSeverity:
+      alma: 3
+      amazon: 3
+      azure: 4
+      cbl-mariner: 4
+      oracle-oval: 3
+      photon: 4
+      redhat: 3
+      rocky: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:H
+        V3Score: 9.1
+    References:
+    - https://access.redhat.com/errata/RHSA-2025:10630
+    - https://access.redhat.com/errata/RHSA-2025:10698
+    - https://access.redhat.com/errata/RHSA-2025:10699
+    - https://access.redhat.com/errata/RHSA-2025:11580
+    - https://access.redhat.com/errata/RHSA-2025:12098
+    - https://access.redhat.com/errata/RHSA-2025:12099
+    - https://access.redhat.com/errata/RHSA-2025:12199
+    - https://access.redhat.com/errata/RHSA-2025:12237
+    - https://access.redhat.com/errata/RHSA-2025:12239
+    - https://access.redhat.com/errata/RHSA-2025:12240
+    - https://access.redhat.com/errata/RHSA-2025:12241
+    - https://access.redhat.com/errata/RHSA-2025:13335
+    - https://access.redhat.com/security/cve/CVE-2025-49794
+    - https://bugzilla.redhat.com/2372373
+    - https://bugzilla.redhat.com/2372385
+    - https://bugzilla.redhat.com/2372406
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2372373
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2372385
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2372406
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-49794
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-49796
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6021
+    - https://errata.almalinux.org/9/ALSA-2025-10699.html
+    - https://errata.rockylinux.org/RLSA-2025:10698
+    - https://gitlab.gnome.org/GNOME/libxml2/-/issues/931
+    - https://linux.oracle.com/cve/CVE-2025-49794.html
+    - https://linux.oracle.com/errata/ELSA-2025-12240.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-49794
+    - https://ubuntu.com/security/notices/USN-7694-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-49794
+    PublishedDate: '2025-06-16T16:15:18.997Z'
+    LastModifiedDate: '2025-08-07T09:15:27.75Z'
+  - VulnerabilityID: CVE-2025-49796
+    PkgID: libxml2@2.9.13+dfsg-1ubuntu0.6
+    PkgName: libxml2
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libxml2@2.9.13%2Bdfsg-1ubuntu0.6?arch=amd64&distro=ubuntu-22.04
+      UID: b5b6a3d612a1af1b
+    InstalledVersion: 2.9.13+dfsg-1ubuntu0.6
+    FixedVersion: 2.9.13+dfsg-1ubuntu0.8
+    Status: fixed
+    Layer:
+      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
+      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-49796
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'libxml: Type confusion leads to Denial of service (DoS)'
+    Description: A vulnerability was found in libxml2. Processing certain sch:name elements from the input XML file can trigger a memory corruption issue. This flaw allows an attacker to craft a malicious XML input file that can lead libxml to crash, resulting in a denial of service or other possible undefined behavior due to sensitive data being corrupted in memory.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-125
+    VendorSeverity:
+      alma: 3
+      amazon: 3
+      azure: 4
+      cbl-mariner: 4
+      oracle-oval: 3
+      photon: 4
+      redhat: 3
+      rocky: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:H
+        V3Score: 9.1
+    References:
+    - https://access.redhat.com/errata/RHSA-2025:10630
+    - https://access.redhat.com/errata/RHSA-2025:10698
+    - https://access.redhat.com/errata/RHSA-2025:10699
+    - https://access.redhat.com/errata/RHSA-2025:11580
+    - https://access.redhat.com/errata/RHSA-2025:12098
+    - https://access.redhat.com/errata/RHSA-2025:12099
+    - https://access.redhat.com/errata/RHSA-2025:12199
+    - https://access.redhat.com/errata/RHSA-2025:12237
+    - https://access.redhat.com/errata/RHSA-2025:12239
+    - https://access.redhat.com/errata/RHSA-2025:12240
+    - https://access.redhat.com/errata/RHSA-2025:12241
+    - https://access.redhat.com/errata/RHSA-2025:13267
+    - https://access.redhat.com/errata/RHSA-2025:13335
+    - https://access.redhat.com/security/cve/CVE-2025-49796
+    - https://bugzilla.redhat.com/2372373
+    - https://bugzilla.redhat.com/2372385
+    - https://bugzilla.redhat.com/2372406
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2372373
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2372385
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2372406
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-49794
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-49796
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6021
+    - https://errata.almalinux.org/9/ALSA-2025-10699.html
+    - https://errata.rockylinux.org/RLSA-2025:10698
+    - https://gitlab.gnome.org/GNOME/libxml2/-/issues/933
+    - https://linux.oracle.com/cve/CVE-2025-49796.html
+    - https://linux.oracle.com/errata/ELSA-2025-12240.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-49796
+    - https://ubuntu.com/security/notices/USN-7694-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-49796
+    PublishedDate: '2025-06-16T16:15:19.37Z'
+    LastModifiedDate: '2025-08-07T09:15:27.99Z'
+  - VulnerabilityID: CVE-2025-6021
+    PkgID: libxml2@2.9.13+dfsg-1ubuntu0.6
+    PkgName: libxml2
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libxml2@2.9.13%2Bdfsg-1ubuntu0.6?arch=amd64&distro=ubuntu-22.04
+      UID: b5b6a3d612a1af1b
+    InstalledVersion: 2.9.13+dfsg-1ubuntu0.6
+    FixedVersion: 2.9.13+dfsg-1ubuntu0.8
+    Status: fixed
+    Layer:
+      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
+      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-6021
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'libxml2: Integer Overflow in xmlBuildQName() Leads to Stack Buffer Overflow in libxml2'
+    Description: A flaw was found in libxml2's xmlBuildQName function, where integer overflows in buffer size calculations can lead to a stack-based buffer overflow. This issue can result in memory corruption or a denial of service when processing crafted input.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-121
+    VendorSeverity:
+      alma: 3
+      amazon: 3
+      azure: 2
+      cbl-mariner: 2
+      oracle-oval: 3
+      photon: 3
+      redhat: 2
+      rocky: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/errata/RHSA-2025:10630
+    - https://access.redhat.com/errata/RHSA-2025:10698
+    - https://access.redhat.com/errata/RHSA-2025:10699
+    - https://access.redhat.com/errata/RHSA-2025:11580
+    - https://access.redhat.com/errata/RHSA-2025:12098
+    - https://access.redhat.com/errata/RHSA-2025:12099
+    - https://access.redhat.com/errata/RHSA-2025:12199
+    - https://access.redhat.com/errata/RHSA-2025:12237
+    - https://access.redhat.com/errata/RHSA-2025:12239
+    - https://access.redhat.com/errata/RHSA-2025:12240
+    - https://access.redhat.com/errata/RHSA-2025:12241
+    - https://access.redhat.com/errata/RHSA-2025:13267
+    - https://access.redhat.com/errata/RHSA-2025:13289
+    - https://access.redhat.com/errata/RHSA-2025:13325
+    - https://access.redhat.com/errata/RHSA-2025:13335
+    - https://access.redhat.com/errata/RHSA-2025:13336
+    - https://access.redhat.com/security/cve/CVE-2025-6021
+    - https://bugzilla.redhat.com/2372373
+    - https://bugzilla.redhat.com/2372385
+    - https://bugzilla.redhat.com/2372406
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2372373
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2372385
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2372406
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-49794
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-49796
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6021
+    - https://errata.almalinux.org/9/ALSA-2025-10699.html
+    - https://errata.rockylinux.org/RLSA-2025:10698
+    - https://gitlab.gnome.org/GNOME/libxml2/-/issues/926
+    - https://linux.oracle.com/cve/CVE-2025-6021.html
+    - https://linux.oracle.com/errata/ELSA-2025-12240.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-6021
+    - https://ubuntu.com/security/notices/USN-7694-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-6021
+    PublishedDate: '2025-06-12T13:15:25.59Z'
+    LastModifiedDate: '2025-08-14T09:15:27.03Z'
+  - VulnerabilityID: CVE-2025-6170
+    PkgID: libxml2@2.9.13+dfsg-1ubuntu0.6
+    PkgName: libxml2
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libxml2@2.9.13%2Bdfsg-1ubuntu0.6?arch=amd64&distro=ubuntu-22.04
+      UID: b5b6a3d612a1af1b
+    InstalledVersion: 2.9.13+dfsg-1ubuntu0.6
+    FixedVersion: 2.9.13+dfsg-1ubuntu0.8
+    Status: fixed
+    Layer:
+      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
+      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-6170
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'libxml2: Stack Buffer Overflow in xmllint Interactive Shell Command Handling'
+    Description: A flaw was found in the interactive shell of the xmllint command-line tool, used for parsing XML files. When a user inputs an overly long command, the program does not check the input size properly, which can cause it to crash. This issue might allow attackers to run harmful code in rare configurations without modern protections.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-121
+    VendorSeverity:
+      azure: 1
+      cbl-mariner: 1
+      nvd: 1
+      redhat: 1
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:N/I:N/A:L
+        V3Score: 2.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:N/I:N/A:L
+        V3Score: 2.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-6170
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2372952
+    - https://gitlab.gnome.org/GNOME/libxml2/-/issues/941
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-6170
+    - https://ubuntu.com/security/notices/USN-7694-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-6170
+    PublishedDate: '2025-06-16T16:15:20.43Z'
+    LastModifiedDate: '2025-08-12T13:04:06.117Z'
   - VulnerabilityID: CVE-2023-40403
     PkgID: libxslt1.1@1.1.34-4ubuntu0.22.04.3
     PkgName: libxslt1.1
@@ -6547,7 +7152,7 @@
     - CWE-426
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       cbl-mariner: 2
       oracle-oval: 2
       redhat: 2
@@ -6668,7 +7273,7 @@
     - CWE-426
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       cbl-mariner: 2
       oracle-oval: 2
       redhat: 2
@@ -6789,7 +7394,7 @@
     - CWE-426
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       cbl-mariner: 2
       oracle-oval: 2
       redhat: 2
@@ -6853,7 +7458,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       redhat: 2
@@ -6890,7 +7495,8 @@
       PURL: pkg:deb/ubuntu/python3.10@3.10.12-1~22.04.9?arch=amd64&distro=ubuntu-22.04
       UID: 99548ad84312fd03
     InstalledVersion: 3.10.12-1~22.04.9
-    Status: affected
+    FixedVersion: 3.10.12-1~22.04.11
+    Status: fixed
     Layer:
       Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
       DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
@@ -6933,9 +7539,60 @@
     - https://github.com/python/cpython/pull/135464
     - https://mail.python.org/archives/list/security-announce@python.org/thread/K5PIYLR6EP3WR7ZOKKYQUWEDNQVUXOYM/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-6069
+    - https://ubuntu.com/security/notices/USN-7710-1
     - https://www.cve.org/CVERecord?id=CVE-2025-6069
     PublishedDate: '2025-06-17T14:15:33.677Z'
     LastModifiedDate: '2025-07-07T18:15:29.15Z'
+  - VulnerabilityID: CVE-2025-8194
+    PkgID: python3.10@3.10.12-1~22.04.9
+    PkgName: python3.10
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/python3.10@3.10.12-1~22.04.9?arch=amd64&distro=ubuntu-22.04
+      UID: 99548ad84312fd03
+    InstalledVersion: 3.10.12-1~22.04.9
+    FixedVersion: 3.10.12-1~22.04.11
+    Status: fixed
+    Layer:
+      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
+      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-8194
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'cpython: Cpython infinite loop when parsing a tarfile'
+    Description: "There is a defect in the CPython “tarfile” module affecting the “TarFile” extraction and entry enumeration APIs. The tar implementation would process tar archives with negative offsets without error, resulting in an infinite loop and deadlock during the parsing of maliciously crafted tar archives. \n\nThis vulnerability can be mitigated by including the following patch after importing the “tarfile” module:\_ https://gist.github.com/sethmlarson/1716ac5b82b73dbcbf23ad2eff8b33e1"
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-835
+    VendorSeverity:
+      amazon: 3
+      bitnami: 3
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-8194
+    - https://gist.github.com/sethmlarson/1716ac5b82b73dbcbf23ad2eff8b33e1
+    - https://github.com/python/cpython/commit/7040aa54f14676938970e10c5f74ea93cd56aa38
+    - https://github.com/python/cpython/commit/c9d9f78feb1467e73fd29356c040bde1c104f29f
+    - https://github.com/python/cpython/commit/cdae923ffe187d6ef916c0f665a31249619193fe
+    - https://github.com/python/cpython/commit/fbc2a0ca9ac8aff6887f8ddf79b87b4510277227
+    - https://github.com/python/cpython/issues/130577
+    - https://github.com/python/cpython/pull/137027
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/ZULLF3IZ726XP5EY7XJ7YIN3K5MDYR2D/
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-8194
+    - https://ubuntu.com/security/notices/USN-7710-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-8194
+    PublishedDate: '2025-07-28T19:15:43.793Z'
+    LastModifiedDate: '2025-08-07T21:15:29.78Z'
   - VulnerabilityID: CVE-2025-1795
     PkgID: python3.10@3.10.12-1~22.04.9
     PkgName: python3.10
@@ -7007,7 +7664,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       redhat: 2
@@ -7044,7 +7701,8 @@
       PURL: pkg:deb/ubuntu/python3.10-minimal@3.10.12-1~22.04.9?arch=amd64&distro=ubuntu-22.04
       UID: 2ce037bab6d69347
     InstalledVersion: 3.10.12-1~22.04.9
-    Status: affected
+    FixedVersion: 3.10.12-1~22.04.11
+    Status: fixed
     Layer:
       Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
       DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
@@ -7087,9 +7745,60 @@
     - https://github.com/python/cpython/pull/135464
     - https://mail.python.org/archives/list/security-announce@python.org/thread/K5PIYLR6EP3WR7ZOKKYQUWEDNQVUXOYM/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-6069
+    - https://ubuntu.com/security/notices/USN-7710-1
     - https://www.cve.org/CVERecord?id=CVE-2025-6069
     PublishedDate: '2025-06-17T14:15:33.677Z'
     LastModifiedDate: '2025-07-07T18:15:29.15Z'
+  - VulnerabilityID: CVE-2025-8194
+    PkgID: python3.10-minimal@3.10.12-1~22.04.9
+    PkgName: python3.10-minimal
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/python3.10-minimal@3.10.12-1~22.04.9?arch=amd64&distro=ubuntu-22.04
+      UID: 2ce037bab6d69347
+    InstalledVersion: 3.10.12-1~22.04.9
+    FixedVersion: 3.10.12-1~22.04.11
+    Status: fixed
+    Layer:
+      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
+      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-8194
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'cpython: Cpython infinite loop when parsing a tarfile'
+    Description: "There is a defect in the CPython “tarfile” module affecting the “TarFile” extraction and entry enumeration APIs. The tar implementation would process tar archives with negative offsets without error, resulting in an infinite loop and deadlock during the parsing of maliciously crafted tar archives. \n\nThis vulnerability can be mitigated by including the following patch after importing the “tarfile” module:\_ https://gist.github.com/sethmlarson/1716ac5b82b73dbcbf23ad2eff8b33e1"
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-835
+    VendorSeverity:
+      amazon: 3
+      bitnami: 3
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-8194
+    - https://gist.github.com/sethmlarson/1716ac5b82b73dbcbf23ad2eff8b33e1
+    - https://github.com/python/cpython/commit/7040aa54f14676938970e10c5f74ea93cd56aa38
+    - https://github.com/python/cpython/commit/c9d9f78feb1467e73fd29356c040bde1c104f29f
+    - https://github.com/python/cpython/commit/cdae923ffe187d6ef916c0f665a31249619193fe
+    - https://github.com/python/cpython/commit/fbc2a0ca9ac8aff6887f8ddf79b87b4510277227
+    - https://github.com/python/cpython/issues/130577
+    - https://github.com/python/cpython/pull/137027
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/ZULLF3IZ726XP5EY7XJ7YIN3K5MDYR2D/
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-8194
+    - https://ubuntu.com/security/notices/USN-7710-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-8194
+    PublishedDate: '2025-07-28T19:15:43.793Z'
+    LastModifiedDate: '2025-08-07T21:15:29.78Z'
   - VulnerabilityID: CVE-2025-1795
     PkgID: python3.10-minimal@3.10.12-1~22.04.9
     PkgName: python3.10-minimal
@@ -7245,7 +7954,9 @@
     - http://www.openwall.com/lists/oss-security/2025/06/05/1
     - http://www.openwall.com/lists/oss-security/2025/06/05/3
     - https://access.redhat.com/security/cve/CVE-2025-4598
+    - https://blogs.oracle.com/linux/post/analysis-of-cve-2025-4598
     - https://bugzilla.redhat.com/show_bug.cgi?id=2369242
+    - https://ciq.com/blog/the-real-danger-of-systemd-coredump-cve-2025-4598/
     - https://git.kernel.org/linus/b5325b2a270fcaf7b2a9a0f23d422ca8a5a8bdea
     - https://github.com/systemd/systemd/commit/0c49e0049b7665bb7769a13ef346fef92e1ad4d6 (main)
     - https://github.com/systemd/systemd/commit/13902e025321242b1d95c6d8b4e482b37f58cdef (main)
@@ -7261,9 +7972,10 @@
     - https://ubuntu.com/security/notices/USN-7559-1
     - https://www.cve.org/CVERecord?id=CVE-2025-4598
     - https://www.openwall.com/lists/oss-security/2025/05/29/3
+    - https://www.openwall.com/lists/oss-security/2025/08/18/3
     - https://www.qualys.com/2025/05/29/apport-coredump/apport-coredump.txt
     PublishedDate: '2025-05-30T14:15:23.557Z'
-    LastModifiedDate: '2025-08-12T19:59:36.587Z'
+    LastModifiedDate: '2025-08-18T16:15:28.447Z'
   - VulnerabilityID: CVE-2023-7008
     PkgID: systemd@249.11-0ubuntu3.12
     PkgName: systemd
@@ -7313,7 +8025,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222672
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-7008
     - https://errata.almalinux.org/9/ALSA-2024-2463.html
-    - https://errata.rockylinux.org/RLSA-2024:3203
+    - https://errata.rockylinux.org/RLSA-2024:2463
     - https://github.com/systemd/systemd/issues/25676
     - https://linux.oracle.com/cve/CVE-2023-7008.html
     - https://linux.oracle.com/errata/ELSA-2024-3203.html
@@ -7363,7 +8075,9 @@
     - http://www.openwall.com/lists/oss-security/2025/06/05/1
     - http://www.openwall.com/lists/oss-security/2025/06/05/3
     - https://access.redhat.com/security/cve/CVE-2025-4598
+    - https://blogs.oracle.com/linux/post/analysis-of-cve-2025-4598
     - https://bugzilla.redhat.com/show_bug.cgi?id=2369242
+    - https://ciq.com/blog/the-real-danger-of-systemd-coredump-cve-2025-4598/
     - https://git.kernel.org/linus/b5325b2a270fcaf7b2a9a0f23d422ca8a5a8bdea
     - https://github.com/systemd/systemd/commit/0c49e0049b7665bb7769a13ef346fef92e1ad4d6 (main)
     - https://github.com/systemd/systemd/commit/13902e025321242b1d95c6d8b4e482b37f58cdef (main)
@@ -7379,9 +8093,10 @@
     - https://ubuntu.com/security/notices/USN-7559-1
     - https://www.cve.org/CVERecord?id=CVE-2025-4598
     - https://www.openwall.com/lists/oss-security/2025/05/29/3
+    - https://www.openwall.com/lists/oss-security/2025/08/18/3
     - https://www.qualys.com/2025/05/29/apport-coredump/apport-coredump.txt
     PublishedDate: '2025-05-30T14:15:23.557Z'
-    LastModifiedDate: '2025-08-12T19:59:36.587Z'
+    LastModifiedDate: '2025-08-18T16:15:28.447Z'
   - VulnerabilityID: CVE-2023-7008
     PkgID: systemd-sysv@249.11-0ubuntu3.12
     PkgName: systemd-sysv
@@ -7431,7 +8146,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222672
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-7008
     - https://errata.almalinux.org/9/ALSA-2024-2463.html
-    - https://errata.rockylinux.org/RLSA-2024:3203
+    - https://errata.rockylinux.org/RLSA-2024:2463
     - https://github.com/systemd/systemd/issues/25676
     - https://linux.oracle.com/cve/CVE-2023-7008.html
     - https://linux.oracle.com/errata/ELSA-2024-3203.html
@@ -7481,7 +8196,9 @@
     - http://www.openwall.com/lists/oss-security/2025/06/05/1
     - http://www.openwall.com/lists/oss-security/2025/06/05/3
     - https://access.redhat.com/security/cve/CVE-2025-4598
+    - https://blogs.oracle.com/linux/post/analysis-of-cve-2025-4598
     - https://bugzilla.redhat.com/show_bug.cgi?id=2369242
+    - https://ciq.com/blog/the-real-danger-of-systemd-coredump-cve-2025-4598/
     - https://git.kernel.org/linus/b5325b2a270fcaf7b2a9a0f23d422ca8a5a8bdea
     - https://github.com/systemd/systemd/commit/0c49e0049b7665bb7769a13ef346fef92e1ad4d6 (main)
     - https://github.com/systemd/systemd/commit/13902e025321242b1d95c6d8b4e482b37f58cdef (main)
@@ -7497,9 +8214,10 @@
     - https://ubuntu.com/security/notices/USN-7559-1
     - https://www.cve.org/CVERecord?id=CVE-2025-4598
     - https://www.openwall.com/lists/oss-security/2025/05/29/3
+    - https://www.openwall.com/lists/oss-security/2025/08/18/3
     - https://www.qualys.com/2025/05/29/apport-coredump/apport-coredump.txt
     PublishedDate: '2025-05-30T14:15:23.557Z'
-    LastModifiedDate: '2025-08-12T19:59:36.587Z'
+    LastModifiedDate: '2025-08-18T16:15:28.447Z'
   - VulnerabilityID: CVE-2023-7008
     PkgID: systemd-timesyncd@249.11-0ubuntu3.12
     PkgName: systemd-timesyncd
@@ -7549,7 +8267,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222672
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-7008
     - https://errata.almalinux.org/9/ALSA-2024-2463.html
-    - https://errata.rockylinux.org/RLSA-2024:3203
+    - https://errata.rockylinux.org/RLSA-2024:2463
     - https://github.com/systemd/systemd/issues/25676
     - https://linux.oracle.com/cve/CVE-2023-7008.html
     - https://linux.oracle.com/errata/ELSA-2024-3203.html
@@ -7578,7 +8296,7 @@
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Title: 'tar: Tar path traversal'
-    Description: GNU Tar through 1.35 allows file overwrite via directory traversal in crafted TAR archives, with a certain two-step process. First, the victim must extract an archive that contains a ../ symlink to a critical directory. Second, the victim must extract an archive that contains a critical file, specified via a relative pathname that begins with the symlink name and ends with that critical file's name. Here, the extraction follows the symlink and overwrites the critical file. This bypasses the protection mechanism of "Member name contains '..'" that would occur for a single TAR archive that attempted to specify the critical file via a ../ approach. For example, the first archive can contain "x -> ../../../../../home/victim/.ssh" and the second archive can contain x/authorized_keys. This can affect server applications that automatically extract any number of user-supplied TAR archives, and were relying on the blocking of traversal. This can also affect software installation processes in which "tar xf" is run more than once (e.g., when installing a package can automatically install two dependencies that are set up as untrusted tarballs instead of official packages).
+    Description: 'GNU Tar through 1.35 allows file overwrite via directory traversal in crafted TAR archives, with a certain two-step process. First, the victim must extract an archive that contains a ../ symlink to a critical directory. Second, the victim must extract an archive that contains a critical file, specified via a relative pathname that begins with the symlink name and ends with that critical file''s name. Here, the extraction follows the symlink and overwrites the critical file. This bypasses the protection mechanism of "Member name contains ''..''" that would occur for a single TAR archive that attempted to specify the critical file via a ../ approach. For example, the first archive can contain "x -> ../../../../../home/victim/.ssh" and the second archive can contain x/authorized_keys. This can affect server applications that automatically extract any number of user-supplied TAR archives, and were relying on the blocking of traversal. This can also affect software installation processes in which "tar xf" is run more than once (e.g., when installing a package can automatically install two dependencies that are set up as untrusted tarballs instead of official packages). NOTE: the official GNU Tar manual has an otherwise-empty directory for each "tar xf" in its Security Rules of Thumb; however, third-party advice leads users to run "tar xf" more than once into the same directory.'
     Severity: MEDIUM
     CweIDs:
     - CWE-24
@@ -7592,12 +8310,15 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2025-45582
     - https://github.com/i900008/vulndb/blob/main/Gnu_tar_vuln.md
+    - https://lists.gnu.org/archive/html/bug-tar/2025-08/msg00012.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-45582
     - https://www.cve.org/CVERecord?id=CVE-2025-45582
     - https://www.gnu.org/software/tar/
+    - https://www.gnu.org/software/tar/manual/html_node/Integrity.html
     - https://www.gnu.org/software/tar/manual/html_node/Integrity.html#Integrity
+    - https://www.gnu.org/software/tar/manual/html_node/Security-rules-of-thumb.html
     PublishedDate: '2025-07-11T17:15:37.183Z'
-    LastModifiedDate: '2025-07-17T13:09:39.997Z'
+    LastModifiedDate: '2025-08-18T04:15:36.743Z'
   - VulnerabilityID: CVE-2023-29383
     PkgID: uidmap@1:4.8.1-2ubuntu2.2
     PkgName: uidmap
@@ -7727,7 +8448,7 @@
     - https://ubuntu.com/security/notices/USN-7419-1
     - https://www.cve.org/CVERecord?id=CVE-2025-26603
     PublishedDate: '2025-02-18T19:15:29.387Z'
-    LastModifiedDate: '2025-03-07T01:15:12.7Z'
+    LastModifiedDate: '2025-08-18T18:23:32.98Z'
   - VulnerabilityID: CVE-2025-26603
     PkgID: vim-common@2:8.2.3995-1ubuntu2.23
     PkgName: vim-common
@@ -7772,7 +8493,7 @@
     - https://ubuntu.com/security/notices/USN-7419-1
     - https://www.cve.org/CVERecord?id=CVE-2025-26603
     PublishedDate: '2025-02-18T19:15:29.387Z'
-    LastModifiedDate: '2025-03-07T01:15:12.7Z'
+    LastModifiedDate: '2025-08-18T18:23:32.98Z'
   - VulnerabilityID: CVE-2025-26603
     PkgID: vim-runtime@2:8.2.3995-1ubuntu2.23
     PkgName: vim-runtime
@@ -7817,7 +8538,7 @@
     - https://ubuntu.com/security/notices/USN-7419-1
     - https://www.cve.org/CVERecord?id=CVE-2025-26603
     PublishedDate: '2025-02-18T19:15:29.387Z'
-    LastModifiedDate: '2025-03-07T01:15:12.7Z'
+    LastModifiedDate: '2025-08-18T18:23:32.98Z'
   - VulnerabilityID: CVE-2021-31879
     PkgID: wget@1.21.2-2ubuntu1.1
     PkgName: wget
@@ -7909,7 +8630,7 @@
     - https://ubuntu.com/security/notices/USN-7419-1
     - https://www.cve.org/CVERecord?id=CVE-2025-26603
     PublishedDate: '2025-02-18T19:15:29.387Z'
-    LastModifiedDate: '2025-03-07T01:15:12.7Z'
+    LastModifiedDate: '2025-08-18T18:23:32.98Z'
 - Target: Java
   Class: lang-pkgs
   Type: jar
@@ -7938,6 +8659,7 @@
     CweIDs:
     - CWE-674
     VendorSeverity:
+      amazon: 1
       ghsa: 2
       redhat: 1
     CVSS:
@@ -7980,6 +8702,7 @@
     CweIDs:
     - CWE-674
     VendorSeverity:
+      amazon: 1
       ghsa: 2
       redhat: 1
     CVSS:
@@ -8118,7 +8841,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45290
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24783
     - https://errata.almalinux.org/9/ALSA-2024-2724.html
-    - https://errata.rockylinux.org/RLSA-2024:3346
+    - https://errata.rockylinux.org/RLSA-2024:2724
     - https://go.dev/cl/576155
     - https://go.dev/issue/65051
     - https://groups.google.com/g/golang-announce/c/YgW0sx8mN3M
@@ -8215,7 +8938,7 @@
     Description: The tokenizer incorrectly interprets tags with unquoted attribute values that end with a solidus character (/) as self-closing. When directly using Tokenizer, this can result in such tags incorrectly being marked as self-closing, and when using the Parse functions, this can result in content following such tags as being placed in the wrong scope during DOM construction, but only when tags are in foreign content (e.g. <math>, <svg>, etc contexts).
     Severity: MEDIUM
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       ghsa: 2
@@ -8432,6 +9155,7 @@
     VendorSeverity:
       alma: 2
       amazon: 2
+      azure: 2
       bitnami: 2
       cbl-mariner: 2
       oracle-oval: 2
@@ -8525,7 +9249,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45290
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24783
     - https://errata.almalinux.org/9/ALSA-2024-2724.html
-    - https://errata.rockylinux.org/RLSA-2024:3346
+    - https://errata.rockylinux.org/RLSA-2024:2724
     - https://go.dev/cl/576155
     - https://go.dev/issue/65051
     - https://groups.google.com/g/golang-announce/c/YgW0sx8mN3M
@@ -8622,7 +9346,7 @@
     Description: The tokenizer incorrectly interprets tags with unquoted attribute values that end with a solidus character (/) as self-closing. When directly using Tokenizer, this can result in such tags incorrectly being marked as self-closing, and when using the Parse functions, this can result in content following such tags as being placed in the wrong scope during DOM construction, but only when tags are in foreign content (e.g. <math>, <svg>, etc contexts).
     Severity: MEDIUM
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       ghsa: 2
@@ -8839,6 +9563,7 @@
     VendorSeverity:
       alma: 2
       amazon: 2
+      azure: 2
       bitnami: 2
       cbl-mariner: 2
       oracle-oval: 2
@@ -8998,6 +9723,39 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-0495
     PublishedDate: '2025-03-17T20:15:13.737Z'
     LastModifiedDate: '2025-03-17T20:15:13.737Z'
+  - VulnerabilityID: GHSA-2464-8j7c-4cjm
+    PkgID: github.com/go-viper/mapstructure/v2@v2.0.0
+    PkgName: github.com/go-viper/mapstructure/v2
+    PkgIdentifier:
+      PURL: pkg:golang/github.com/go-viper/mapstructure/v2@v2.0.0
+      UID: c3a5497114ab930c
+    InstalledVersion: v2.0.0
+    FixedVersion: 2.4.0
+    Status: fixed
+    Layer:
+      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
+      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
+    SeveritySource: ghsa
+    PrimaryURL: https://github.com/advisories/GHSA-2464-8j7c-4cjm
+    DataSource:
+      ID: ghsa
+      Name: GitHub Security Advisory Go
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
+    Title: go-viper's mapstructure May Leak Sensitive Information in Logs When Processing Malformed Data
+    Description: "### Summary\n\nUse of this library in a security-critical context may result in leaking sensitive information, if used to process sensitive fields.\n\n### Details\n\nOpenBao (and presumably HashiCorp Vault) have surfaced error messages from `mapstructure` as follows:\n\nhttps://github.com/openbao/openbao/blob/98c3a59c040efca724353ca46ca79bd5cdbab920/sdk/framework/field_data.go#L43-L50\n\n```go\n\t\t\t_, _, err := d.getPrimitive(field, schema)\n\t\t\tif err != nil {\n\t\t\t\treturn fmt.Errorf(\"error converting input for field %q: %w\", field, err)\n\t\t\t}\n```\n\nwhere this calls `mapstructure.WeakDecode(...)`: https://github.com/openbao/openbao/blob/98c3a59c040efca724353ca46ca79bd5cdbab920/sdk/framework/field_data.go#L181-L193\n\n```go\n\nfunc (d *FieldData) getPrimitive(k string, schema *FieldSchema) (interface{}, bool, error) {\n\traw, ok := d.Raw[k]\n\tif !ok {\n\t\treturn nil, false, nil\n\t}\n\n\tswitch t := schema.Type; t {\n\tcase TypeBool:\n\t\tvar result bool\n\t\tif err := mapstructure.WeakDecode(raw, &result); err != nil {\n\t\t\treturn nil, false, err\n\t\t}\n\t\treturn result, true, nil\n```\n\nNotably, `WeakDecode(...)` eventually calls one of the decode helpers, which surfaces the original value via `strconv` helpers:\n\nhttps://github.com/go-viper/mapstructure/blob/8c61ec1924fcfa522f9fc6b4618c672db61d1a38/mapstructure.go#L720-L727\n\nhttps://github.com/go-viper/mapstructure/blob/8c61ec1924fcfa522f9fc6b4618c672db61d1a38/mapstructure.go#L791-L798\n\nhttps://github.com/go-viper/mapstructure/blob/8c61ec1924fcfa522f9fc6b4618c672db61d1a38/decode_hooks.go#L180\n\n& more. These are different code paths than are fixed in the previous iteration at https://github.com/go-viper/mapstructure/security/advisories/GHSA-fv92-fjc5-jj9h.\n\n### PoC\n\nTo reproduce with OpenBao:\n\n```\n$ podman run --pull=always -p 8300:8300 openbao/openbao:latest server -dev -dev-root-token-id=root -dev-listen-address=0.0.0.0:8300\n```\n\nand in a new tab:\n\n```\n$ BAO_TOKEN=root BAO_ADDR=http://localhost:8300 bao auth enable userpass\nSuccess! Enabled userpass auth method at: userpass/\n$ curl -X PUT -H \"X-Vault-Request: true\" -H \"X-Vault-Token: root\" -d '{\"ttl\":\"asdf\"}' \"http://localhost:8200/v1/auth/userpass/users/asdf\"\n\n--> server logs:\n\n2025-06-25T21:32:25.101-0500 [ERROR] core: failed to run existence check: error=\"error converting input for field \\\"ttl\\\": time: invalid duration \\\"asdf\\\"\"\n```\n\n### Impact\n\nThis is an information disclosure bug with little mitigation. See https://discuss.hashicorp.com/t/hcsec-2025-09-vault-may-expose-sensitive-information-in-error-logs-when-processing-malformed-data-with-the-kv-v2-plugin/74717 for a previous version. That version was fixed, but this is in the second part of that error message (starting at `'' expected a map, got 'string'` -- when the field type is `string` and a `map` is provided, we see the above information leak -- the previous example had a `map` type field with a `string` value provided).\n\nThis was rated 4.5 Medium by HashiCorp in the past iteration."
+    Severity: MEDIUM
+    VendorSeverity:
+      ghsa: 2
+    CVSS:
+      ghsa:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:N/A:N
+        V3Score: 5.3
+    References:
+    - https://github.com/go-viper/mapstructure
+    - https://github.com/go-viper/mapstructure/commit/742921c9ba2854d27baa64272487fc5075d2c39c
+    - https://github.com/go-viper/mapstructure/security/advisories/GHSA-2464-8j7c-4cjm
+    PublishedDate: '2025-08-21T14:37:19Z'
+    LastModifiedDate: '2025-08-21T14:37:19Z'
   - VulnerabilityID: GHSA-fv92-fjc5-jj9h
     PkgID: github.com/go-viper/mapstructure/v2@v2.0.0
     PkgName: github.com/go-viper/mapstructure/v2
@@ -9217,7 +9975,7 @@
     Description: The tokenizer incorrectly interprets tags with unquoted attribute values that end with a solidus character (/) as self-closing. When directly using Tokenizer, this can result in such tags incorrectly being marked as self-closing, and when using the Parse functions, this can result in content following such tags as being placed in the wrong scope during DOM construction, but only when tags are in foreign content (e.g. <math>, <svg>, etc contexts).
     Severity: MEDIUM
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       ghsa: 2
@@ -9437,6 +10195,7 @@
     VendorSeverity:
       alma: 2
       amazon: 2
+      azure: 2
       bitnami: 2
       cbl-mariner: 2
       oracle-oval: 2
@@ -9548,11 +10307,15 @@
     - CWE-909
     VendorSeverity:
       ghsa: 1
+      nvd: 2
       redhat: 1
     CVSS:
       ghsa:
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:L/A:N
         V3Score: 3.3
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N
+        V3Score: 5.2
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:L/A:N
         V3Score: 3.3
@@ -9566,7 +10329,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-54410
     - https://www.cve.org/CVERecord?id=CVE-2025-54410
     PublishedDate: '2025-07-30T14:15:28.9Z'
-    LastModifiedDate: '2025-07-31T18:42:37.87Z'
+    LastModifiedDate: '2025-08-22T17:27:29.677Z'
   - VulnerabilityID: CVE-2025-22872
     PkgID: golang.org/x/net@v0.37.0
     PkgName: golang.org/x/net
@@ -9589,7 +10352,7 @@
     Description: The tokenizer incorrectly interprets tags with unquoted attribute values that end with a solidus character (/) as self-closing. When directly using Tokenizer, this can result in such tags incorrectly being marked as self-closing, and when using the Parse functions, this can result in content following such tags as being placed in the wrong scope during DOM construction, but only when tags are in foreign content (e.g. <math>, <svg>, etc contexts).
     Severity: MEDIUM
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       ghsa: 2
@@ -9809,6 +10572,7 @@
     VendorSeverity:
       alma: 2
       amazon: 2
+      azure: 2
       bitnami: 2
       cbl-mariner: 2
       oracle-oval: 2
@@ -9916,7 +10680,7 @@
     Description: The tokenizer incorrectly interprets tags with unquoted attribute values that end with a solidus character (/) as self-closing. When directly using Tokenizer, this can result in such tags incorrectly being marked as self-closing, and when using the Parse functions, this can result in content following such tags as being placed in the wrong scope during DOM construction, but only when tags are in foreign content (e.g. <math>, <svg>, etc contexts).
     Severity: MEDIUM
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       ghsa: 2
@@ -10136,6 +10900,7 @@
     VendorSeverity:
       alma: 2
       amazon: 2
+      azure: 2
       bitnami: 2
       cbl-mariner: 2
       oracle-oval: 2
@@ -10246,7 +11011,7 @@
     Description: The tokenizer incorrectly interprets tags with unquoted attribute values that end with a solidus character (/) as self-closing. When directly using Tokenizer, this can result in such tags incorrectly being marked as self-closing, and when using the Parse functions, this can result in content following such tags as being placed in the wrong scope during DOM construction, but only when tags are in foreign content (e.g. <math>, <svg>, etc contexts).
     Severity: MEDIUM
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       ghsa: 2
@@ -10463,6 +11228,7 @@
     VendorSeverity:
       alma: 2
       amazon: 2
+      azure: 2
       bitnami: 2
       cbl-mariner: 2
       oracle-oval: 2
@@ -10586,6 +11352,7 @@
       azure: 4
       cbl-mariner: 4
       ghsa: 4
+      photon: 4
       redhat: 4
       ubuntu: 3
     CVSS:
@@ -10647,11 +11414,15 @@
     - CWE-909
     VendorSeverity:
       ghsa: 1
+      nvd: 2
       redhat: 1
     CVSS:
       ghsa:
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:L/A:N
         V3Score: 3.3
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N
+        V3Score: 5.2
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:L/A:N
         V3Score: 3.3
@@ -10665,7 +11436,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-54410
     - https://www.cve.org/CVERecord?id=CVE-2025-54410
     PublishedDate: '2025-07-30T14:15:28.9Z'
-    LastModifiedDate: '2025-07-31T18:42:37.87Z'
+    LastModifiedDate: '2025-08-22T17:27:29.677Z'
   - VulnerabilityID: CVE-2024-45337
     PkgID: golang.org/x/crypto@v0.24.0
     PkgName: golang.org/x/crypto
@@ -10847,7 +11618,7 @@
     Description: The tokenizer incorrectly interprets tags with unquoted attribute values that end with a solidus character (/) as self-closing. When directly using Tokenizer, this can result in such tags incorrectly being marked as self-closing, and when using the Parse functions, this can result in content following such tags as being placed in the wrong scope during DOM construction, but only when tags are in foreign content (e.g. <math>, <svg>, etc contexts).
     Severity: MEDIUM
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       ghsa: 2
@@ -11104,6 +11875,7 @@
     VendorSeverity:
       alma: 2
       amazon: 2
+      azure: 2
       bitnami: 2
       cbl-mariner: 2
       oracle-oval: 2
