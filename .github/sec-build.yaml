@@ -1403,6 +1403,294 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-50495
     PublishedDate: '2023-12-12T15:15:07.867Z'
     LastModifiedDate: '2024-11-21T08:37:04.243Z'
+  - VulnerabilityID: CVE-2025-53859
+    PkgID: libnginx-mod-http-geoip2@1.18.0-6ubuntu14.6
+    PkgName: libnginx-mod-http-geoip2
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libnginx-mod-http-geoip2@1.18.0-6ubuntu14.6?arch=amd64&distro=ubuntu-22.04
+      UID: a51dd0256be96ada
+    InstalledVersion: 1.18.0-6ubuntu14.6
+    FixedVersion: 1.18.0-6ubuntu14.7
+    Status: fixed
+    Layer:
+      Digest: sha256:def956a8ac7864573be66d6ff334dac937edb80f2b88a4c89c99ab735246fba5
+      DiffID: sha256:8a99435104055f0abb549611e3d83101e06e989258409b7e1fc9efc2f7597667
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-53859
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'nginx: NGINX ngx_mail_smtp_module vulnerability'
+    Description: |-
+      NGINX Open Source and NGINX Plus have a vulnerability in the ngx_mail_smtp_module that might allow an unauthenticated attacker to over-read NGINX SMTP authentication process memory; as a result, the server side may leak arbitrary bytes sent in a request to the authentication server. This issue happens during the NGINX SMTP authentication process and requires the attacker to make preparations against the target system to extract the leaked data. The issue affects NGINX only if (1) it is built with the ngx_mail_smtp_module, (2) the smtp_auth directive is configured with method "none," and (3) the authentication server returns the "Auth-Wait" response header.
+
+
+
+
+      Note: Software versions which have reached End of Technical Support (EoTS) are not evaluated.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-125
+    VendorSeverity:
+      amazon: 2
+      photon: 1
+      redhat: 1
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:N
+        V3Score: 3.7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-53859
+    - https://my.f5.com/manage/s/article/K000152786
+    - https://nginx.org/download/patch.2025.smtp.txt
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-53859
+    - https://ubuntu.com/security/notices/USN-7715-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-53859
+    - https://www.openwall.com/lists/oss-security/2025/08/13/5
+    PublishedDate: '2025-08-13T15:15:37.657Z'
+    LastModifiedDate: '2025-08-13T17:33:46.673Z'
+  - VulnerabilityID: CVE-2025-53859
+    PkgID: libnginx-mod-http-image-filter@1.18.0-6ubuntu14.6
+    PkgName: libnginx-mod-http-image-filter
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libnginx-mod-http-image-filter@1.18.0-6ubuntu14.6?arch=amd64&distro=ubuntu-22.04
+      UID: b69d3e590c2d89a9
+    InstalledVersion: 1.18.0-6ubuntu14.6
+    FixedVersion: 1.18.0-6ubuntu14.7
+    Status: fixed
+    Layer:
+      Digest: sha256:def956a8ac7864573be66d6ff334dac937edb80f2b88a4c89c99ab735246fba5
+      DiffID: sha256:8a99435104055f0abb549611e3d83101e06e989258409b7e1fc9efc2f7597667
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-53859
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'nginx: NGINX ngx_mail_smtp_module vulnerability'
+    Description: |-
+      NGINX Open Source and NGINX Plus have a vulnerability in the ngx_mail_smtp_module that might allow an unauthenticated attacker to over-read NGINX SMTP authentication process memory; as a result, the server side may leak arbitrary bytes sent in a request to the authentication server. This issue happens during the NGINX SMTP authentication process and requires the attacker to make preparations against the target system to extract the leaked data. The issue affects NGINX only if (1) it is built with the ngx_mail_smtp_module, (2) the smtp_auth directive is configured with method "none," and (3) the authentication server returns the "Auth-Wait" response header.
+
+
+
+
+      Note: Software versions which have reached End of Technical Support (EoTS) are not evaluated.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-125
+    VendorSeverity:
+      amazon: 2
+      photon: 1
+      redhat: 1
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:N
+        V3Score: 3.7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-53859
+    - https://my.f5.com/manage/s/article/K000152786
+    - https://nginx.org/download/patch.2025.smtp.txt
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-53859
+    - https://ubuntu.com/security/notices/USN-7715-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-53859
+    - https://www.openwall.com/lists/oss-security/2025/08/13/5
+    PublishedDate: '2025-08-13T15:15:37.657Z'
+    LastModifiedDate: '2025-08-13T17:33:46.673Z'
+  - VulnerabilityID: CVE-2025-53859
+    PkgID: libnginx-mod-http-xslt-filter@1.18.0-6ubuntu14.6
+    PkgName: libnginx-mod-http-xslt-filter
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libnginx-mod-http-xslt-filter@1.18.0-6ubuntu14.6?arch=amd64&distro=ubuntu-22.04
+      UID: a3178ac2c96a04c1
+    InstalledVersion: 1.18.0-6ubuntu14.6
+    FixedVersion: 1.18.0-6ubuntu14.7
+    Status: fixed
+    Layer:
+      Digest: sha256:def956a8ac7864573be66d6ff334dac937edb80f2b88a4c89c99ab735246fba5
+      DiffID: sha256:8a99435104055f0abb549611e3d83101e06e989258409b7e1fc9efc2f7597667
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-53859
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'nginx: NGINX ngx_mail_smtp_module vulnerability'
+    Description: |-
+      NGINX Open Source and NGINX Plus have a vulnerability in the ngx_mail_smtp_module that might allow an unauthenticated attacker to over-read NGINX SMTP authentication process memory; as a result, the server side may leak arbitrary bytes sent in a request to the authentication server. This issue happens during the NGINX SMTP authentication process and requires the attacker to make preparations against the target system to extract the leaked data. The issue affects NGINX only if (1) it is built with the ngx_mail_smtp_module, (2) the smtp_auth directive is configured with method "none," and (3) the authentication server returns the "Auth-Wait" response header.
+
+
+
+
+      Note: Software versions which have reached End of Technical Support (EoTS) are not evaluated.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-125
+    VendorSeverity:
+      amazon: 2
+      photon: 1
+      redhat: 1
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:N
+        V3Score: 3.7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-53859
+    - https://my.f5.com/manage/s/article/K000152786
+    - https://nginx.org/download/patch.2025.smtp.txt
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-53859
+    - https://ubuntu.com/security/notices/USN-7715-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-53859
+    - https://www.openwall.com/lists/oss-security/2025/08/13/5
+    PublishedDate: '2025-08-13T15:15:37.657Z'
+    LastModifiedDate: '2025-08-13T17:33:46.673Z'
+  - VulnerabilityID: CVE-2025-53859
+    PkgID: libnginx-mod-mail@1.18.0-6ubuntu14.6
+    PkgName: libnginx-mod-mail
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libnginx-mod-mail@1.18.0-6ubuntu14.6?arch=amd64&distro=ubuntu-22.04
+      UID: 55551675c75fad0a
+    InstalledVersion: 1.18.0-6ubuntu14.6
+    FixedVersion: 1.18.0-6ubuntu14.7
+    Status: fixed
+    Layer:
+      Digest: sha256:def956a8ac7864573be66d6ff334dac937edb80f2b88a4c89c99ab735246fba5
+      DiffID: sha256:8a99435104055f0abb549611e3d83101e06e989258409b7e1fc9efc2f7597667
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-53859
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'nginx: NGINX ngx_mail_smtp_module vulnerability'
+    Description: |-
+      NGINX Open Source and NGINX Plus have a vulnerability in the ngx_mail_smtp_module that might allow an unauthenticated attacker to over-read NGINX SMTP authentication process memory; as a result, the server side may leak arbitrary bytes sent in a request to the authentication server. This issue happens during the NGINX SMTP authentication process and requires the attacker to make preparations against the target system to extract the leaked data. The issue affects NGINX only if (1) it is built with the ngx_mail_smtp_module, (2) the smtp_auth directive is configured with method "none," and (3) the authentication server returns the "Auth-Wait" response header.
+
+
+
+
+      Note: Software versions which have reached End of Technical Support (EoTS) are not evaluated.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-125
+    VendorSeverity:
+      amazon: 2
+      photon: 1
+      redhat: 1
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:N
+        V3Score: 3.7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-53859
+    - https://my.f5.com/manage/s/article/K000152786
+    - https://nginx.org/download/patch.2025.smtp.txt
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-53859
+    - https://ubuntu.com/security/notices/USN-7715-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-53859
+    - https://www.openwall.com/lists/oss-security/2025/08/13/5
+    PublishedDate: '2025-08-13T15:15:37.657Z'
+    LastModifiedDate: '2025-08-13T17:33:46.673Z'
+  - VulnerabilityID: CVE-2025-53859
+    PkgID: libnginx-mod-stream@1.18.0-6ubuntu14.6
+    PkgName: libnginx-mod-stream
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libnginx-mod-stream@1.18.0-6ubuntu14.6?arch=amd64&distro=ubuntu-22.04
+      UID: cbc0f87d1727df7c
+    InstalledVersion: 1.18.0-6ubuntu14.6
+    FixedVersion: 1.18.0-6ubuntu14.7
+    Status: fixed
+    Layer:
+      Digest: sha256:def956a8ac7864573be66d6ff334dac937edb80f2b88a4c89c99ab735246fba5
+      DiffID: sha256:8a99435104055f0abb549611e3d83101e06e989258409b7e1fc9efc2f7597667
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-53859
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'nginx: NGINX ngx_mail_smtp_module vulnerability'
+    Description: |-
+      NGINX Open Source and NGINX Plus have a vulnerability in the ngx_mail_smtp_module that might allow an unauthenticated attacker to over-read NGINX SMTP authentication process memory; as a result, the server side may leak arbitrary bytes sent in a request to the authentication server. This issue happens during the NGINX SMTP authentication process and requires the attacker to make preparations against the target system to extract the leaked data. The issue affects NGINX only if (1) it is built with the ngx_mail_smtp_module, (2) the smtp_auth directive is configured with method "none," and (3) the authentication server returns the "Auth-Wait" response header.
+
+
+
+
+      Note: Software versions which have reached End of Technical Support (EoTS) are not evaluated.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-125
+    VendorSeverity:
+      amazon: 2
+      photon: 1
+      redhat: 1
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:N
+        V3Score: 3.7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-53859
+    - https://my.f5.com/manage/s/article/K000152786
+    - https://nginx.org/download/patch.2025.smtp.txt
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-53859
+    - https://ubuntu.com/security/notices/USN-7715-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-53859
+    - https://www.openwall.com/lists/oss-security/2025/08/13/5
+    PublishedDate: '2025-08-13T15:15:37.657Z'
+    LastModifiedDate: '2025-08-13T17:33:46.673Z'
+  - VulnerabilityID: CVE-2025-53859
+    PkgID: libnginx-mod-stream-geoip2@1.18.0-6ubuntu14.6
+    PkgName: libnginx-mod-stream-geoip2
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libnginx-mod-stream-geoip2@1.18.0-6ubuntu14.6?arch=amd64&distro=ubuntu-22.04
+      UID: 449bee75e5a5403e
+    InstalledVersion: 1.18.0-6ubuntu14.6
+    FixedVersion: 1.18.0-6ubuntu14.7
+    Status: fixed
+    Layer:
+      Digest: sha256:def956a8ac7864573be66d6ff334dac937edb80f2b88a4c89c99ab735246fba5
+      DiffID: sha256:8a99435104055f0abb549611e3d83101e06e989258409b7e1fc9efc2f7597667
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-53859
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'nginx: NGINX ngx_mail_smtp_module vulnerability'
+    Description: |-
+      NGINX Open Source and NGINX Plus have a vulnerability in the ngx_mail_smtp_module that might allow an unauthenticated attacker to over-read NGINX SMTP authentication process memory; as a result, the server side may leak arbitrary bytes sent in a request to the authentication server. This issue happens during the NGINX SMTP authentication process and requires the attacker to make preparations against the target system to extract the leaked data. The issue affects NGINX only if (1) it is built with the ngx_mail_smtp_module, (2) the smtp_auth directive is configured with method "none," and (3) the authentication server returns the "Auth-Wait" response header.
+
+
+
+
+      Note: Software versions which have reached End of Technical Support (EoTS) are not evaluated.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-125
+    VendorSeverity:
+      amazon: 2
+      photon: 1
+      redhat: 1
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:N
+        V3Score: 3.7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-53859
+    - https://my.f5.com/manage/s/article/K000152786
+    - https://nginx.org/download/patch.2025.smtp.txt
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-53859
+    - https://ubuntu.com/security/notices/USN-7715-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-53859
+    - https://www.openwall.com/lists/oss-security/2025/08/13/5
+    PublishedDate: '2025-08-13T15:15:37.657Z'
+    LastModifiedDate: '2025-08-13T17:33:46.673Z'
   - VulnerabilityID: CVE-2023-7008
     PkgID: libnss-systemd@249.11-0ubuntu3.16
     PkgName: libnss-systemd
@@ -2481,6 +2769,150 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-50495
     PublishedDate: '2023-12-12T15:15:07.867Z'
     LastModifiedDate: '2024-11-21T08:37:04.243Z'
+  - VulnerabilityID: CVE-2025-53859
+    PkgID: nginx@1.18.0-6ubuntu14.6
+    PkgName: nginx
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/nginx@1.18.0-6ubuntu14.6?arch=amd64&distro=ubuntu-22.04
+      UID: 722da46e43d8ca34
+    InstalledVersion: 1.18.0-6ubuntu14.6
+    FixedVersion: 1.18.0-6ubuntu14.7
+    Status: fixed
+    Layer:
+      Digest: sha256:def956a8ac7864573be66d6ff334dac937edb80f2b88a4c89c99ab735246fba5
+      DiffID: sha256:8a99435104055f0abb549611e3d83101e06e989258409b7e1fc9efc2f7597667
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-53859
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'nginx: NGINX ngx_mail_smtp_module vulnerability'
+    Description: |-
+      NGINX Open Source and NGINX Plus have a vulnerability in the ngx_mail_smtp_module that might allow an unauthenticated attacker to over-read NGINX SMTP authentication process memory; as a result, the server side may leak arbitrary bytes sent in a request to the authentication server. This issue happens during the NGINX SMTP authentication process and requires the attacker to make preparations against the target system to extract the leaked data. The issue affects NGINX only if (1) it is built with the ngx_mail_smtp_module, (2) the smtp_auth directive is configured with method "none," and (3) the authentication server returns the "Auth-Wait" response header.
+
+
+
+
+      Note: Software versions which have reached End of Technical Support (EoTS) are not evaluated.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-125
+    VendorSeverity:
+      amazon: 2
+      photon: 1
+      redhat: 1
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:N
+        V3Score: 3.7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-53859
+    - https://my.f5.com/manage/s/article/K000152786
+    - https://nginx.org/download/patch.2025.smtp.txt
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-53859
+    - https://ubuntu.com/security/notices/USN-7715-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-53859
+    - https://www.openwall.com/lists/oss-security/2025/08/13/5
+    PublishedDate: '2025-08-13T15:15:37.657Z'
+    LastModifiedDate: '2025-08-13T17:33:46.673Z'
+  - VulnerabilityID: CVE-2025-53859
+    PkgID: nginx-common@1.18.0-6ubuntu14.6
+    PkgName: nginx-common
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/nginx-common@1.18.0-6ubuntu14.6?arch=all&distro=ubuntu-22.04
+      UID: 48afcbf3ecf8d2e4
+    InstalledVersion: 1.18.0-6ubuntu14.6
+    FixedVersion: 1.18.0-6ubuntu14.7
+    Status: fixed
+    Layer:
+      Digest: sha256:def956a8ac7864573be66d6ff334dac937edb80f2b88a4c89c99ab735246fba5
+      DiffID: sha256:8a99435104055f0abb549611e3d83101e06e989258409b7e1fc9efc2f7597667
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-53859
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'nginx: NGINX ngx_mail_smtp_module vulnerability'
+    Description: |-
+      NGINX Open Source and NGINX Plus have a vulnerability in the ngx_mail_smtp_module that might allow an unauthenticated attacker to over-read NGINX SMTP authentication process memory; as a result, the server side may leak arbitrary bytes sent in a request to the authentication server. This issue happens during the NGINX SMTP authentication process and requires the attacker to make preparations against the target system to extract the leaked data. The issue affects NGINX only if (1) it is built with the ngx_mail_smtp_module, (2) the smtp_auth directive is configured with method "none," and (3) the authentication server returns the "Auth-Wait" response header.
+
+
+
+
+      Note: Software versions which have reached End of Technical Support (EoTS) are not evaluated.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-125
+    VendorSeverity:
+      amazon: 2
+      photon: 1
+      redhat: 1
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:N
+        V3Score: 3.7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-53859
+    - https://my.f5.com/manage/s/article/K000152786
+    - https://nginx.org/download/patch.2025.smtp.txt
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-53859
+    - https://ubuntu.com/security/notices/USN-7715-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-53859
+    - https://www.openwall.com/lists/oss-security/2025/08/13/5
+    PublishedDate: '2025-08-13T15:15:37.657Z'
+    LastModifiedDate: '2025-08-13T17:33:46.673Z'
+  - VulnerabilityID: CVE-2025-53859
+    PkgID: nginx-core@1.18.0-6ubuntu14.6
+    PkgName: nginx-core
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/nginx-core@1.18.0-6ubuntu14.6?arch=amd64&distro=ubuntu-22.04
+      UID: db444d1207313138
+    InstalledVersion: 1.18.0-6ubuntu14.6
+    FixedVersion: 1.18.0-6ubuntu14.7
+    Status: fixed
+    Layer:
+      Digest: sha256:def956a8ac7864573be66d6ff334dac937edb80f2b88a4c89c99ab735246fba5
+      DiffID: sha256:8a99435104055f0abb549611e3d83101e06e989258409b7e1fc9efc2f7597667
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-53859
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'nginx: NGINX ngx_mail_smtp_module vulnerability'
+    Description: |-
+      NGINX Open Source and NGINX Plus have a vulnerability in the ngx_mail_smtp_module that might allow an unauthenticated attacker to over-read NGINX SMTP authentication process memory; as a result, the server side may leak arbitrary bytes sent in a request to the authentication server. This issue happens during the NGINX SMTP authentication process and requires the attacker to make preparations against the target system to extract the leaked data. The issue affects NGINX only if (1) it is built with the ngx_mail_smtp_module, (2) the smtp_auth directive is configured with method "none," and (3) the authentication server returns the "Auth-Wait" response header.
+
+
+
+
+      Note: Software versions which have reached End of Technical Support (EoTS) are not evaluated.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-125
+    VendorSeverity:
+      amazon: 2
+      photon: 1
+      redhat: 1
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:N
+        V3Score: 3.7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-53859
+    - https://my.f5.com/manage/s/article/K000152786
+    - https://nginx.org/download/patch.2025.smtp.txt
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-53859
+    - https://ubuntu.com/security/notices/USN-7715-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-53859
+    - https://www.openwall.com/lists/oss-security/2025/08/13/5
+    PublishedDate: '2025-08-13T15:15:37.657Z'
+    LastModifiedDate: '2025-08-13T17:33:46.673Z'
   - VulnerabilityID: CVE-2024-41996
     PkgID: openssl@3.0.2-0ubuntu1.19
     PkgName: openssl
