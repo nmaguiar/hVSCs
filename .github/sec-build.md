@@ -1511,7 +1511,331 @@
 │                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-50495 
 │                        │      ├ PublishedDate   : 2023-12-12T15:15:07.867Z 
 │                        │      ╰ LastModifiedDate: 2024-11-21T08:37:04.243Z 
-│                        ├ [30] ╭ VulnerabilityID : CVE-2023-7008 
+│                        ├ [30] ╭ VulnerabilityID : CVE-2025-53859 
+│                        │      ├ PkgID           : libnginx-mod-http-geoip2@1.18.0-6ubuntu14.6 
+│                        │      ├ PkgName         : libnginx-mod-http-geoip2 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libnginx-mod-http-geoip2@1.18.0-6ubun
+│                        │      │                  │       tu14.6?arch=amd64&distro=ubuntu-22.04 
+│                        │      │                  ╰ UID : a51dd0256be96ada 
+│                        │      ├ InstalledVersion: 1.18.0-6ubuntu14.6 
+│                        │      ├ FixedVersion    : 1.18.0-6ubuntu14.7 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:def956a8ac7864573be66d6ff334dac937edb80f2b8
+│                        │      │                  │         8a4c89c99ab735246fba5 
+│                        │      │                  ╰ DiffID: sha256:8a99435104055f0abb549611e3d83101e06e9892584
+│                        │      │                            09b7e1fc9efc2f7597667 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-53859 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : nginx: NGINX ngx_mail_smtp_module vulnerability 
+│                        │      ├ Description     : NGINX Open Source and NGINX Plus have a vulnerability in
+│                        │      │                   the ngx_mail_smtp_module that might allow an
+│                        │      │                   unauthenticated attacker to over-read NGINX SMTP
+│                        │      │                   authentication process memory; as a result, the server side
+│                        │      │                    may leak arbitrary bytes sent in a request to the
+│                        │      │                   authentication server. This issue happens during the NGINX
+│                        │      │                   SMTP authentication process and requires the attacker to
+│                        │      │                   make preparations against the target system to extract the
+│                        │      │                   leaked data. The issue affects NGINX only if (1) it is
+│                        │      │                   built with the ngx_mail_smtp_module, (2) the smtp_auth
+│                        │      │                   directive is configured with method "none," and (3) the
+│                        │      │                   authentication server returns the "Auth-Wait" response
+│                        │      │                   header.
+│                        │      │                   
+│                        │      │                   Note: Software versions which have reached End of Technical
+│                        │      │                    Support (EoTS) are not evaluated. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ CweIDs           ─ [0]: CWE-125 
+│                        │      ├ VendorSeverity   ╭ amazon: 2 
+│                        │      │                  ├ photon: 1 
+│                        │      │                  ├ redhat: 1 
+│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:
+│                        │      │                           │           N/A:N 
+│                        │      │                           ╰ V3Score : 3.7 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-53859 
+│                        │      │                  ├ [1]: https://my.f5.com/manage/s/article/K000152786 
+│                        │      │                  ├ [2]: https://nginx.org/download/patch.2025.smtp.txt 
+│                        │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-53859 
+│                        │      │                  ├ [4]: https://ubuntu.com/security/notices/USN-7715-1 
+│                        │      │                  ├ [5]: https://www.cve.org/CVERecord?id=CVE-2025-53859 
+│                        │      │                  ╰ [6]: https://www.openwall.com/lists/oss-security/2025/08/1
+│                        │      │                         3/5 
+│                        │      ├ PublishedDate   : 2025-08-13T15:15:37.657Z 
+│                        │      ╰ LastModifiedDate: 2025-08-13T17:33:46.673Z 
+│                        ├ [31] ╭ VulnerabilityID : CVE-2025-53859 
+│                        │      ├ PkgID           : libnginx-mod-http-image-filter@1.18.0-6ubuntu14.6 
+│                        │      ├ PkgName         : libnginx-mod-http-image-filter 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libnginx-mod-http-image-filter@1.18.0
+│                        │      │                  │       -6ubuntu14.6?arch=amd64&distro=ubuntu-22.04 
+│                        │      │                  ╰ UID : b69d3e590c2d89a9 
+│                        │      ├ InstalledVersion: 1.18.0-6ubuntu14.6 
+│                        │      ├ FixedVersion    : 1.18.0-6ubuntu14.7 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:def956a8ac7864573be66d6ff334dac937edb80f2b8
+│                        │      │                  │         8a4c89c99ab735246fba5 
+│                        │      │                  ╰ DiffID: sha256:8a99435104055f0abb549611e3d83101e06e9892584
+│                        │      │                            09b7e1fc9efc2f7597667 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-53859 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : nginx: NGINX ngx_mail_smtp_module vulnerability 
+│                        │      ├ Description     : NGINX Open Source and NGINX Plus have a vulnerability in
+│                        │      │                   the ngx_mail_smtp_module that might allow an
+│                        │      │                   unauthenticated attacker to over-read NGINX SMTP
+│                        │      │                   authentication process memory; as a result, the server side
+│                        │      │                    may leak arbitrary bytes sent in a request to the
+│                        │      │                   authentication server. This issue happens during the NGINX
+│                        │      │                   SMTP authentication process and requires the attacker to
+│                        │      │                   make preparations against the target system to extract the
+│                        │      │                   leaked data. The issue affects NGINX only if (1) it is
+│                        │      │                   built with the ngx_mail_smtp_module, (2) the smtp_auth
+│                        │      │                   directive is configured with method "none," and (3) the
+│                        │      │                   authentication server returns the "Auth-Wait" response
+│                        │      │                   header.
+│                        │      │                   
+│                        │      │                   Note: Software versions which have reached End of Technical
+│                        │      │                    Support (EoTS) are not evaluated. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ CweIDs           ─ [0]: CWE-125 
+│                        │      ├ VendorSeverity   ╭ amazon: 2 
+│                        │      │                  ├ photon: 1 
+│                        │      │                  ├ redhat: 1 
+│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:
+│                        │      │                           │           N/A:N 
+│                        │      │                           ╰ V3Score : 3.7 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-53859 
+│                        │      │                  ├ [1]: https://my.f5.com/manage/s/article/K000152786 
+│                        │      │                  ├ [2]: https://nginx.org/download/patch.2025.smtp.txt 
+│                        │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-53859 
+│                        │      │                  ├ [4]: https://ubuntu.com/security/notices/USN-7715-1 
+│                        │      │                  ├ [5]: https://www.cve.org/CVERecord?id=CVE-2025-53859 
+│                        │      │                  ╰ [6]: https://www.openwall.com/lists/oss-security/2025/08/1
+│                        │      │                         3/5 
+│                        │      ├ PublishedDate   : 2025-08-13T15:15:37.657Z 
+│                        │      ╰ LastModifiedDate: 2025-08-13T17:33:46.673Z 
+│                        ├ [32] ╭ VulnerabilityID : CVE-2025-53859 
+│                        │      ├ PkgID           : libnginx-mod-http-xslt-filter@1.18.0-6ubuntu14.6 
+│                        │      ├ PkgName         : libnginx-mod-http-xslt-filter 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libnginx-mod-http-xslt-filter@1.18.0-
+│                        │      │                  │       6ubuntu14.6?arch=amd64&distro=ubuntu-22.04 
+│                        │      │                  ╰ UID : a3178ac2c96a04c1 
+│                        │      ├ InstalledVersion: 1.18.0-6ubuntu14.6 
+│                        │      ├ FixedVersion    : 1.18.0-6ubuntu14.7 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:def956a8ac7864573be66d6ff334dac937edb80f2b8
+│                        │      │                  │         8a4c89c99ab735246fba5 
+│                        │      │                  ╰ DiffID: sha256:8a99435104055f0abb549611e3d83101e06e9892584
+│                        │      │                            09b7e1fc9efc2f7597667 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-53859 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : nginx: NGINX ngx_mail_smtp_module vulnerability 
+│                        │      ├ Description     : NGINX Open Source and NGINX Plus have a vulnerability in
+│                        │      │                   the ngx_mail_smtp_module that might allow an
+│                        │      │                   unauthenticated attacker to over-read NGINX SMTP
+│                        │      │                   authentication process memory; as a result, the server side
+│                        │      │                    may leak arbitrary bytes sent in a request to the
+│                        │      │                   authentication server. This issue happens during the NGINX
+│                        │      │                   SMTP authentication process and requires the attacker to
+│                        │      │                   make preparations against the target system to extract the
+│                        │      │                   leaked data. The issue affects NGINX only if (1) it is
+│                        │      │                   built with the ngx_mail_smtp_module, (2) the smtp_auth
+│                        │      │                   directive is configured with method "none," and (3) the
+│                        │      │                   authentication server returns the "Auth-Wait" response
+│                        │      │                   header.
+│                        │      │                   
+│                        │      │                   Note: Software versions which have reached End of Technical
+│                        │      │                    Support (EoTS) are not evaluated. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ CweIDs           ─ [0]: CWE-125 
+│                        │      ├ VendorSeverity   ╭ amazon: 2 
+│                        │      │                  ├ photon: 1 
+│                        │      │                  ├ redhat: 1 
+│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:
+│                        │      │                           │           N/A:N 
+│                        │      │                           ╰ V3Score : 3.7 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-53859 
+│                        │      │                  ├ [1]: https://my.f5.com/manage/s/article/K000152786 
+│                        │      │                  ├ [2]: https://nginx.org/download/patch.2025.smtp.txt 
+│                        │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-53859 
+│                        │      │                  ├ [4]: https://ubuntu.com/security/notices/USN-7715-1 
+│                        │      │                  ├ [5]: https://www.cve.org/CVERecord?id=CVE-2025-53859 
+│                        │      │                  ╰ [6]: https://www.openwall.com/lists/oss-security/2025/08/1
+│                        │      │                         3/5 
+│                        │      ├ PublishedDate   : 2025-08-13T15:15:37.657Z 
+│                        │      ╰ LastModifiedDate: 2025-08-13T17:33:46.673Z 
+│                        ├ [33] ╭ VulnerabilityID : CVE-2025-53859 
+│                        │      ├ PkgID           : libnginx-mod-mail@1.18.0-6ubuntu14.6 
+│                        │      ├ PkgName         : libnginx-mod-mail 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libnginx-mod-mail@1.18.0-6ubuntu14.6?
+│                        │      │                  │       arch=amd64&distro=ubuntu-22.04 
+│                        │      │                  ╰ UID : 55551675c75fad0a 
+│                        │      ├ InstalledVersion: 1.18.0-6ubuntu14.6 
+│                        │      ├ FixedVersion    : 1.18.0-6ubuntu14.7 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:def956a8ac7864573be66d6ff334dac937edb80f2b8
+│                        │      │                  │         8a4c89c99ab735246fba5 
+│                        │      │                  ╰ DiffID: sha256:8a99435104055f0abb549611e3d83101e06e9892584
+│                        │      │                            09b7e1fc9efc2f7597667 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-53859 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : nginx: NGINX ngx_mail_smtp_module vulnerability 
+│                        │      ├ Description     : NGINX Open Source and NGINX Plus have a vulnerability in
+│                        │      │                   the ngx_mail_smtp_module that might allow an
+│                        │      │                   unauthenticated attacker to over-read NGINX SMTP
+│                        │      │                   authentication process memory; as a result, the server side
+│                        │      │                    may leak arbitrary bytes sent in a request to the
+│                        │      │                   authentication server. This issue happens during the NGINX
+│                        │      │                   SMTP authentication process and requires the attacker to
+│                        │      │                   make preparations against the target system to extract the
+│                        │      │                   leaked data. The issue affects NGINX only if (1) it is
+│                        │      │                   built with the ngx_mail_smtp_module, (2) the smtp_auth
+│                        │      │                   directive is configured with method "none," and (3) the
+│                        │      │                   authentication server returns the "Auth-Wait" response
+│                        │      │                   header.
+│                        │      │                   
+│                        │      │                   Note: Software versions which have reached End of Technical
+│                        │      │                    Support (EoTS) are not evaluated. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ CweIDs           ─ [0]: CWE-125 
+│                        │      ├ VendorSeverity   ╭ amazon: 2 
+│                        │      │                  ├ photon: 1 
+│                        │      │                  ├ redhat: 1 
+│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:
+│                        │      │                           │           N/A:N 
+│                        │      │                           ╰ V3Score : 3.7 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-53859 
+│                        │      │                  ├ [1]: https://my.f5.com/manage/s/article/K000152786 
+│                        │      │                  ├ [2]: https://nginx.org/download/patch.2025.smtp.txt 
+│                        │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-53859 
+│                        │      │                  ├ [4]: https://ubuntu.com/security/notices/USN-7715-1 
+│                        │      │                  ├ [5]: https://www.cve.org/CVERecord?id=CVE-2025-53859 
+│                        │      │                  ╰ [6]: https://www.openwall.com/lists/oss-security/2025/08/1
+│                        │      │                         3/5 
+│                        │      ├ PublishedDate   : 2025-08-13T15:15:37.657Z 
+│                        │      ╰ LastModifiedDate: 2025-08-13T17:33:46.673Z 
+│                        ├ [34] ╭ VulnerabilityID : CVE-2025-53859 
+│                        │      ├ PkgID           : libnginx-mod-stream@1.18.0-6ubuntu14.6 
+│                        │      ├ PkgName         : libnginx-mod-stream 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libnginx-mod-stream@1.18.0-6ubuntu14.
+│                        │      │                  │       6?arch=amd64&distro=ubuntu-22.04 
+│                        │      │                  ╰ UID : cbc0f87d1727df7c 
+│                        │      ├ InstalledVersion: 1.18.0-6ubuntu14.6 
+│                        │      ├ FixedVersion    : 1.18.0-6ubuntu14.7 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:def956a8ac7864573be66d6ff334dac937edb80f2b8
+│                        │      │                  │         8a4c89c99ab735246fba5 
+│                        │      │                  ╰ DiffID: sha256:8a99435104055f0abb549611e3d83101e06e9892584
+│                        │      │                            09b7e1fc9efc2f7597667 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-53859 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : nginx: NGINX ngx_mail_smtp_module vulnerability 
+│                        │      ├ Description     : NGINX Open Source and NGINX Plus have a vulnerability in
+│                        │      │                   the ngx_mail_smtp_module that might allow an
+│                        │      │                   unauthenticated attacker to over-read NGINX SMTP
+│                        │      │                   authentication process memory; as a result, the server side
+│                        │      │                    may leak arbitrary bytes sent in a request to the
+│                        │      │                   authentication server. This issue happens during the NGINX
+│                        │      │                   SMTP authentication process and requires the attacker to
+│                        │      │                   make preparations against the target system to extract the
+│                        │      │                   leaked data. The issue affects NGINX only if (1) it is
+│                        │      │                   built with the ngx_mail_smtp_module, (2) the smtp_auth
+│                        │      │                   directive is configured with method "none," and (3) the
+│                        │      │                   authentication server returns the "Auth-Wait" response
+│                        │      │                   header.
+│                        │      │                   
+│                        │      │                   Note: Software versions which have reached End of Technical
+│                        │      │                    Support (EoTS) are not evaluated. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ CweIDs           ─ [0]: CWE-125 
+│                        │      ├ VendorSeverity   ╭ amazon: 2 
+│                        │      │                  ├ photon: 1 
+│                        │      │                  ├ redhat: 1 
+│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:
+│                        │      │                           │           N/A:N 
+│                        │      │                           ╰ V3Score : 3.7 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-53859 
+│                        │      │                  ├ [1]: https://my.f5.com/manage/s/article/K000152786 
+│                        │      │                  ├ [2]: https://nginx.org/download/patch.2025.smtp.txt 
+│                        │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-53859 
+│                        │      │                  ├ [4]: https://ubuntu.com/security/notices/USN-7715-1 
+│                        │      │                  ├ [5]: https://www.cve.org/CVERecord?id=CVE-2025-53859 
+│                        │      │                  ╰ [6]: https://www.openwall.com/lists/oss-security/2025/08/1
+│                        │      │                         3/5 
+│                        │      ├ PublishedDate   : 2025-08-13T15:15:37.657Z 
+│                        │      ╰ LastModifiedDate: 2025-08-13T17:33:46.673Z 
+│                        ├ [35] ╭ VulnerabilityID : CVE-2025-53859 
+│                        │      ├ PkgID           : libnginx-mod-stream-geoip2@1.18.0-6ubuntu14.6 
+│                        │      ├ PkgName         : libnginx-mod-stream-geoip2 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libnginx-mod-stream-geoip2@1.18.0-6ub
+│                        │      │                  │       untu14.6?arch=amd64&distro=ubuntu-22.04 
+│                        │      │                  ╰ UID : 449bee75e5a5403e 
+│                        │      ├ InstalledVersion: 1.18.0-6ubuntu14.6 
+│                        │      ├ FixedVersion    : 1.18.0-6ubuntu14.7 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:def956a8ac7864573be66d6ff334dac937edb80f2b8
+│                        │      │                  │         8a4c89c99ab735246fba5 
+│                        │      │                  ╰ DiffID: sha256:8a99435104055f0abb549611e3d83101e06e9892584
+│                        │      │                            09b7e1fc9efc2f7597667 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-53859 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : nginx: NGINX ngx_mail_smtp_module vulnerability 
+│                        │      ├ Description     : NGINX Open Source and NGINX Plus have a vulnerability in
+│                        │      │                   the ngx_mail_smtp_module that might allow an
+│                        │      │                   unauthenticated attacker to over-read NGINX SMTP
+│                        │      │                   authentication process memory; as a result, the server side
+│                        │      │                    may leak arbitrary bytes sent in a request to the
+│                        │      │                   authentication server. This issue happens during the NGINX
+│                        │      │                   SMTP authentication process and requires the attacker to
+│                        │      │                   make preparations against the target system to extract the
+│                        │      │                   leaked data. The issue affects NGINX only if (1) it is
+│                        │      │                   built with the ngx_mail_smtp_module, (2) the smtp_auth
+│                        │      │                   directive is configured with method "none," and (3) the
+│                        │      │                   authentication server returns the "Auth-Wait" response
+│                        │      │                   header.
+│                        │      │                   
+│                        │      │                   Note: Software versions which have reached End of Technical
+│                        │      │                    Support (EoTS) are not evaluated. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ CweIDs           ─ [0]: CWE-125 
+│                        │      ├ VendorSeverity   ╭ amazon: 2 
+│                        │      │                  ├ photon: 1 
+│                        │      │                  ├ redhat: 1 
+│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:
+│                        │      │                           │           N/A:N 
+│                        │      │                           ╰ V3Score : 3.7 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-53859 
+│                        │      │                  ├ [1]: https://my.f5.com/manage/s/article/K000152786 
+│                        │      │                  ├ [2]: https://nginx.org/download/patch.2025.smtp.txt 
+│                        │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-53859 
+│                        │      │                  ├ [4]: https://ubuntu.com/security/notices/USN-7715-1 
+│                        │      │                  ├ [5]: https://www.cve.org/CVERecord?id=CVE-2025-53859 
+│                        │      │                  ╰ [6]: https://www.openwall.com/lists/oss-security/2025/08/1
+│                        │      │                         3/5 
+│                        │      ├ PublishedDate   : 2025-08-13T15:15:37.657Z 
+│                        │      ╰ LastModifiedDate: 2025-08-13T17:33:46.673Z 
+│                        ├ [36] ╭ VulnerabilityID : CVE-2023-7008 
 │                        │      ├ PkgID           : libnss-systemd@249.11-0ubuntu3.16 
 │                        │      ├ PkgName         : libnss-systemd 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libnss-systemd@249.11-0ubuntu3.16?arc
@@ -1578,7 +1902,7 @@
 │                        │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
 │                        │      ├ PublishedDate   : 2023-12-23T13:15:07.573Z 
 │                        │      ╰ LastModifiedDate: 2024-11-22T12:15:17.59Z 
-│                        ├ [31] ╭ VulnerabilityID : CVE-2024-10041 
+│                        ├ [37] ╭ VulnerabilityID : CVE-2024-10041 
 │                        │      ├ PkgID           : libpam-modules@1.4.0-11ubuntu2.6 
 │                        │      ├ PkgName         : libpam-modules 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpam-modules@1.4.0-11ubuntu2.6?arch
@@ -1636,7 +1960,7 @@
 │                        │      │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2024-10041 
 │                        │      ├ PublishedDate   : 2024-10-23T14:15:03.97Z 
 │                        │      ╰ LastModifiedDate: 2024-12-18T10:15:05.85Z 
-│                        ├ [32] ╭ VulnerabilityID : CVE-2024-10041 
+│                        ├ [38] ╭ VulnerabilityID : CVE-2024-10041 
 │                        │      ├ PkgID           : libpam-modules-bin@1.4.0-11ubuntu2.6 
 │                        │      ├ PkgName         : libpam-modules-bin 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpam-modules-bin@1.4.0-11ubuntu2.6?
@@ -1694,7 +2018,7 @@
 │                        │      │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2024-10041 
 │                        │      ├ PublishedDate   : 2024-10-23T14:15:03.97Z 
 │                        │      ╰ LastModifiedDate: 2024-12-18T10:15:05.85Z 
-│                        ├ [33] ╭ VulnerabilityID : CVE-2024-10041 
+│                        ├ [39] ╭ VulnerabilityID : CVE-2024-10041 
 │                        │      ├ PkgID           : libpam-runtime@1.4.0-11ubuntu2.6 
 │                        │      ├ PkgName         : libpam-runtime 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpam-runtime@1.4.0-11ubuntu2.6?arch
@@ -1752,7 +2076,7 @@
 │                        │      │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2024-10041 
 │                        │      ├ PublishedDate   : 2024-10-23T14:15:03.97Z 
 │                        │      ╰ LastModifiedDate: 2024-12-18T10:15:05.85Z 
-│                        ├ [34] ╭ VulnerabilityID : CVE-2023-7008 
+│                        ├ [40] ╭ VulnerabilityID : CVE-2023-7008 
 │                        │      ├ PkgID           : libpam-systemd@249.11-0ubuntu3.16 
 │                        │      ├ PkgName         : libpam-systemd 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpam-systemd@249.11-0ubuntu3.16?arc
@@ -1819,7 +2143,7 @@
 │                        │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
 │                        │      ├ PublishedDate   : 2023-12-23T13:15:07.573Z 
 │                        │      ╰ LastModifiedDate: 2024-11-22T12:15:17.59Z 
-│                        ├ [35] ╭ VulnerabilityID : CVE-2024-10041 
+│                        ├ [41] ╭ VulnerabilityID : CVE-2024-10041 
 │                        │      ├ PkgID           : libpam0g@1.4.0-11ubuntu2.6 
 │                        │      ├ PkgName         : libpam0g 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpam0g@1.4.0-11ubuntu2.6?arch=amd64
@@ -1877,7 +2201,7 @@
 │                        │      │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2024-10041 
 │                        │      ├ PublishedDate   : 2024-10-23T14:15:03.97Z 
 │                        │      ╰ LastModifiedDate: 2024-12-18T10:15:05.85Z 
-│                        ├ [36] ╭ VulnerabilityID : CVE-2022-41409 
+│                        ├ [42] ╭ VulnerabilityID : CVE-2022-41409 
 │                        │      ├ PkgID           : libpcre2-8-0@10.39-3ubuntu0.1 
 │                        │      ├ PkgName         : libpcre2-8-0 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpcre2-8-0@10.39-3ubuntu0.1?arch=am
@@ -1922,7 +2246,7 @@
 │                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2022-41409 
 │                        │      ├ PublishedDate   : 2023-07-18T14:15:12.197Z 
 │                        │      ╰ LastModifiedDate: 2024-11-21T07:23:10.577Z 
-│                        ├ [37] ╭ VulnerabilityID : CVE-2017-11164 
+│                        ├ [43] ╭ VulnerabilityID : CVE-2017-11164 
 │                        │      ├ PkgID           : libpcre3@2:8.39-13ubuntu0.22.04.1 
 │                        │      ├ PkgName         : libpcre3 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpcre3@8.39-13ubuntu0.22.04.1?arch=
@@ -1969,7 +2293,7 @@
 │                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2017-11164 
 │                        │      ├ PublishedDate   : 2017-07-11T03:29:00.277Z 
 │                        │      ╰ LastModifiedDate: 2025-04-20T01:37:25.86Z 
-│                        ├ [38] ╭ VulnerabilityID : CVE-2024-41996 
+│                        ├ [44] ╭ VulnerabilityID : CVE-2024-41996 
 │                        │      ├ PkgID           : libssl3@3.0.2-0ubuntu1.19 
 │                        │      ├ PkgName         : libssl3 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libssl3@3.0.2-0ubuntu1.19?arch=amd64&
@@ -2019,7 +2343,7 @@
 │                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-41996 
 │                        │      ├ PublishedDate   : 2024-08-26T06:15:04.603Z 
 │                        │      ╰ LastModifiedDate: 2024-08-26T16:35:11.247Z 
-│                        ├ [39] ╭ VulnerabilityID : CVE-2022-27943 
+│                        ├ [45] ╭ VulnerabilityID : CVE-2022-27943 
 │                        │      ├ PkgID           : libstdc++6@12.3.0-1ubuntu1~22.04.2 
 │                        │      ├ PkgName         : libstdc++6 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libstdc%2B%2B6@12.3.0-1ubuntu1~22.04.
@@ -2072,7 +2396,7 @@
 │                        │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2022-27943 
 │                        │      ├ PublishedDate   : 2022-03-26T13:15:07.9Z 
 │                        │      ╰ LastModifiedDate: 2024-11-21T06:56:31.04Z 
-│                        ├ [40] ╭ VulnerabilityID : CVE-2023-7008 
+│                        ├ [46] ╭ VulnerabilityID : CVE-2023-7008 
 │                        │      ├ PkgID           : libsystemd0@249.11-0ubuntu3.16 
 │                        │      ├ PkgName         : libsystemd0 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libsystemd0@249.11-0ubuntu3.16?arch=a
@@ -2139,7 +2463,7 @@
 │                        │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
 │                        │      ├ PublishedDate   : 2023-12-23T13:15:07.573Z 
 │                        │      ╰ LastModifiedDate: 2024-11-22T12:15:17.59Z 
-│                        ├ [41] ╭ VulnerabilityID : CVE-2025-8961 
+│                        ├ [47] ╭ VulnerabilityID : CVE-2025-8961 
 │                        │      ├ PkgID           : libtiff5@4.3.0-6ubuntu0.11 
 │                        │      ├ PkgName         : libtiff5 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libtiff5@4.3.0-6ubuntu0.11?arch=amd64
@@ -2184,7 +2508,7 @@
 │                        │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2025-8961 
 │                        │      ├ PublishedDate   : 2025-08-14T13:15:38.037Z 
 │                        │      ╰ LastModifiedDate: 2025-08-23T16:15:34.78Z 
-│                        ├ [42] ╭ VulnerabilityID : CVE-2023-50495 
+│                        ├ [48] ╭ VulnerabilityID : CVE-2023-50495 
 │                        │      ├ PkgID           : libtinfo6@6.3-2ubuntu0.1 
 │                        │      ├ PkgName         : libtinfo6 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libtinfo6@6.3-2ubuntu0.1?arch=amd64&d
@@ -2231,7 +2555,7 @@
 │                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-50495 
 │                        │      ├ PublishedDate   : 2023-12-12T15:15:07.867Z 
 │                        │      ╰ LastModifiedDate: 2024-11-21T08:37:04.243Z 
-│                        ├ [43] ╭ VulnerabilityID : CVE-2023-7008 
+│                        ├ [49] ╭ VulnerabilityID : CVE-2023-7008 
 │                        │      ├ PkgID           : libudev1@249.11-0ubuntu3.16 
 │                        │      ├ PkgName         : libudev1 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libudev1@249.11-0ubuntu3.16?arch=amd6
@@ -2298,7 +2622,7 @@
 │                        │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
 │                        │      ├ PublishedDate   : 2023-12-23T13:15:07.573Z 
 │                        │      ╰ LastModifiedDate: 2024-11-22T12:15:17.59Z 
-│                        ├ [44] ╭ VulnerabilityID : CVE-2022-4899 
+│                        ├ [50] ╭ VulnerabilityID : CVE-2022-4899 
 │                        │      ├ PkgID           : libzstd1@1.4.8+dfsg-3build1 
 │                        │      ├ PkgName         : libzstd1 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libzstd1@1.4.8%2Bdfsg-3build1?arch=am
@@ -2452,310 +2776,12 @@
 │                        │      │                  ╰ [94]: https://www.cve.org/CVERecord?id=CVE-2022-4899 
 │                        │      ├ PublishedDate   : 2023-03-31T20:15:07.213Z 
 │                        │      ╰ LastModifiedDate: 2025-02-18T18:15:14.023Z 
-│                        ├ [45] ╭ VulnerabilityID : CVE-2023-29383 
-│                        │      ├ PkgID           : login@1:4.8.1-2ubuntu2.2 
-│                        │      ├ PkgName         : login 
-│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/login@4.8.1-2ubuntu2.2?arch=amd64&dis
-│                        │      │                  │       tro=ubuntu-22.04&epoch=1 
-│                        │      │                  ╰ UID : da92c4f375cd9ce7 
-│                        │      ├ InstalledVersion: 1:4.8.1-2ubuntu2.2 
-│                        │      ├ Status          : affected 
-│                        │      ├ Layer            ╭ Digest: sha256:def956a8ac7864573be66d6ff334dac937edb80f2b8
-│                        │      │                  │         8a4c89c99ab735246fba5 
-│                        │      │                  ╰ DiffID: sha256:8a99435104055f0abb549611e3d83101e06e9892584
-│                        │      │                            09b7e1fc9efc2f7597667 
-│                        │      ├ SeveritySource  : ubuntu 
-│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-29383 
-│                        │      ├ DataSource       ╭ ID  : ubuntu 
-│                        │      │                  ├ Name: Ubuntu CVE Tracker 
-│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │      ├ Title           : shadow: Improper input validation in shadow-utils package
-│                        │      │                   utility chfn 
-│                        │      ├ Description     : In Shadow 4.13, it is possible to inject control characters
-│                        │      │                    into fields provided to the SUID program chfn (change
-│                        │      │                   finger). Although it is not possible to exploit this
-│                        │      │                   directly (e.g., adding a new user fails because \n is in
-│                        │      │                   the block list), it is possible to misrepresent the
-│                        │      │                   /etc/passwd file when viewed. Use of \r manipulations and
-│                        │      │                   Unicode characters to work around blocking of the :
-│                        │      │                   character make it possible to give the impression that a
-│                        │      │                   new user has been added. In other words, an adversary may
-│                        │      │                   be able to convince a system administrator to take the
-│                        │      │                   system offline (an indirect, social-engineered denial of
-│                        │      │                   service) by demonstrating that "cat /etc/passwd" shows a
-│                        │      │                   rogue user account. 
-│                        │      ├ Severity        : LOW 
-│                        │      ├ CweIDs           ╭ [0]: CWE-74 
-│                        │      │                  ╰ [1]: CWE-125 
-│                        │      ├ VendorSeverity   ╭ cbl-mariner: 1 
-│                        │      │                  ├ nvd        : 1 
-│                        │      │                  ├ photon     : 1 
-│                        │      │                  ├ redhat     : 2 
-│                        │      │                  ╰ ubuntu     : 1 
-│                        │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:
-│                        │      │                  │        │           L/A:N 
-│                        │      │                  │        ╰ V3Score : 3.3 
-│                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:
-│                        │      │                           │           N/A:H 
-│                        │      │                           ╰ V3Score : 5.5 
-│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-29383 
-│                        │      │                  ├ [1]: https://github.com/shadow-maint/shadow/commit/e5905c4
-│                        │      │                  │      b84d4fb90aefcd96ee618411ebfac663d 
-│                        │      │                  ├ [2]: https://github.com/shadow-maint/shadow/pull/687 
-│                        │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2023-29383 
-│                        │      │                  ├ [4]: https://www.cve.org/CVERecord?id=CVE-2023-29383 
-│                        │      │                  ├ [5]: https://www.trustwave.com/en-us/resources/blogs/spide
-│                        │      │                  │      rlabs-blog/cve-2023-29383-abusing-linux-chfn-to-misre
-│                        │      │                  │      present-etc-passwd/ 
-│                        │      │                  ╰ [6]: https://www.trustwave.com/en-us/resources/security-re
-│                        │      │                         sources/security-advisories/?fid=31797 
-│                        │      ├ PublishedDate   : 2023-04-14T22:15:07.68Z 
-│                        │      ╰ LastModifiedDate: 2025-02-06T22:15:35.057Z 
-│                        ├ [46] ╭ VulnerabilityID : CVE-2024-56433 
-│                        │      ├ PkgID           : login@1:4.8.1-2ubuntu2.2 
-│                        │      ├ PkgName         : login 
-│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/login@4.8.1-2ubuntu2.2?arch=amd64&dis
-│                        │      │                  │       tro=ubuntu-22.04&epoch=1 
-│                        │      │                  ╰ UID : da92c4f375cd9ce7 
-│                        │      ├ InstalledVersion: 1:4.8.1-2ubuntu2.2 
-│                        │      ├ Status          : affected 
-│                        │      ├ Layer            ╭ Digest: sha256:def956a8ac7864573be66d6ff334dac937edb80f2b8
-│                        │      │                  │         8a4c89c99ab735246fba5 
-│                        │      │                  ╰ DiffID: sha256:8a99435104055f0abb549611e3d83101e06e9892584
-│                        │      │                            09b7e1fc9efc2f7597667 
-│                        │      ├ SeveritySource  : ubuntu 
-│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-56433 
-│                        │      ├ DataSource       ╭ ID  : ubuntu 
-│                        │      │                  ├ Name: Ubuntu CVE Tracker 
-│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │      ├ Title           : shadow-utils: Default subordinate ID configuration in
-│                        │      │                   /etc/login.defs could lead to compromise 
-│                        │      ├ Description     : shadow-utils (aka shadow) 4.4 through 4.17.0 establishes a
-│                        │      │                   default /etc/subuid behavior (e.g., uid 100000 through
-│                        │      │                   165535 for the first user account) that can realistically
-│                        │      │                   conflict with the uids of users defined on locally
-│                        │      │                   administered networks, potentially leading to account
-│                        │      │                   takeover, e.g., by leveraging newuidmap for access to an
-│                        │      │                   NFS home directory (or same-host resources in the case of
-│                        │      │                   remote logins by these local network users). NOTE: it may
-│                        │      │                   also be argued that system administrators should not have
-│                        │      │                   assigned uids, within local networks, that are within the
-│                        │      │                   range that can occur in /etc/subuid. 
-│                        │      ├ Severity        : LOW 
-│                        │      ├ CweIDs           ─ [0]: CWE-1188 
-│                        │      ├ VendorSeverity   ╭ azure : 1 
-│                        │      │                  ├ redhat: 1 
-│                        │      │                  ╰ ubuntu: 1 
-│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:
-│                        │      │                           │           L/A:N 
-│                        │      │                           ╰ V3Score : 3.6 
-│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-56433 
-│                        │      │                  ├ [1]: https://github.com/shadow-maint/shadow/blob/e2512d574
-│                        │      │                  │      1d4a44bdd81a8c2d0029b6222728cf0/etc/login.defs#L238-L
-│                        │      │                  │      241 
-│                        │      │                  ├ [2]: https://github.com/shadow-maint/shadow/issues/1157 
-│                        │      │                  ├ [3]: https://github.com/shadow-maint/shadow/releases/tag/4.4 
-│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-56433 
-│                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
-│                        │      ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
-│                        │      ╰ LastModifiedDate: 2024-12-26T09:15:07.267Z 
-│                        ├ [47] ╭ VulnerabilityID : CVE-2023-50495 
-│                        │      ├ PkgID           : ncurses-base@6.3-2ubuntu0.1 
-│                        │      ├ PkgName         : ncurses-base 
-│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/ncurses-base@6.3-2ubuntu0.1?arch=all&
-│                        │      │                  │       distro=ubuntu-22.04 
-│                        │      │                  ╰ UID : 149d7e345f09988b 
-│                        │      ├ InstalledVersion: 6.3-2ubuntu0.1 
-│                        │      ├ Status          : affected 
-│                        │      ├ Layer            ╭ Digest: sha256:def956a8ac7864573be66d6ff334dac937edb80f2b8
-│                        │      │                  │         8a4c89c99ab735246fba5 
-│                        │      │                  ╰ DiffID: sha256:8a99435104055f0abb549611e3d83101e06e9892584
-│                        │      │                            09b7e1fc9efc2f7597667 
-│                        │      ├ SeveritySource  : ubuntu 
-│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-50495 
-│                        │      ├ DataSource       ╭ ID  : ubuntu 
-│                        │      │                  ├ Name: Ubuntu CVE Tracker 
-│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │      ├ Title           : ncurses: segmentation fault via _nc_wrap_entry() 
-│                        │      ├ Description     : NCurse v6.4-20230418 was discovered to contain a
-│                        │      │                   segmentation fault via the component _nc_wrap_entry(). 
-│                        │      ├ Severity        : LOW 
-│                        │      ├ VendorSeverity   ╭ amazon     : 2 
-│                        │      │                  ├ cbl-mariner: 2 
-│                        │      │                  ├ nvd        : 2 
-│                        │      │                  ├ redhat     : 1 
-│                        │      │                  ╰ ubuntu     : 1 
-│                        │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:
-│                        │      │                  │        │           N/A:H 
-│                        │      │                  │        ╰ V3Score : 6.5 
-│                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:
-│                        │      │                           │           N/A:H 
-│                        │      │                           ╰ V3Score : 6.5 
-│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-50495 
-│                        │      │                  ├ [1]: https://lists.fedoraproject.org/archives/list/package
-│                        │      │                  │      -announce%40lists.fedoraproject.org/message/LU4MYMKFE
-│                        │      │                  │      ZQ5VSCVLRIZGDQOUW3T44GT/ 
-│                        │      │                  ├ [2]: https://lists.gnu.org/archive/html/bug-ncurses/2023-0
-│                        │      │                  │      4/msg00020.html 
-│                        │      │                  ├ [3]: https://lists.gnu.org/archive/html/bug-ncurses/2023-0
-│                        │      │                  │      4/msg00029.html 
-│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2023-50495 
-│                        │      │                  ├ [5]: https://security.netapp.com/advisory/ntap-20240119-00
-│                        │      │                  │      08/ 
-│                        │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-6684-1 
-│                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-50495 
-│                        │      ├ PublishedDate   : 2023-12-12T15:15:07.867Z 
-│                        │      ╰ LastModifiedDate: 2024-11-21T08:37:04.243Z 
-│                        ├ [48] ╭ VulnerabilityID : CVE-2023-50495 
-│                        │      ├ PkgID           : ncurses-bin@6.3-2ubuntu0.1 
-│                        │      ├ PkgName         : ncurses-bin 
-│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/ncurses-bin@6.3-2ubuntu0.1?arch=amd64
-│                        │      │                  │       &distro=ubuntu-22.04 
-│                        │      │                  ╰ UID : 79f4bc9c5ad61b8d 
-│                        │      ├ InstalledVersion: 6.3-2ubuntu0.1 
-│                        │      ├ Status          : affected 
-│                        │      ├ Layer            ╭ Digest: sha256:def956a8ac7864573be66d6ff334dac937edb80f2b8
-│                        │      │                  │         8a4c89c99ab735246fba5 
-│                        │      │                  ╰ DiffID: sha256:8a99435104055f0abb549611e3d83101e06e9892584
-│                        │      │                            09b7e1fc9efc2f7597667 
-│                        │      ├ SeveritySource  : ubuntu 
-│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-50495 
-│                        │      ├ DataSource       ╭ ID  : ubuntu 
-│                        │      │                  ├ Name: Ubuntu CVE Tracker 
-│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │      ├ Title           : ncurses: segmentation fault via _nc_wrap_entry() 
-│                        │      ├ Description     : NCurse v6.4-20230418 was discovered to contain a
-│                        │      │                   segmentation fault via the component _nc_wrap_entry(). 
-│                        │      ├ Severity        : LOW 
-│                        │      ├ VendorSeverity   ╭ amazon     : 2 
-│                        │      │                  ├ cbl-mariner: 2 
-│                        │      │                  ├ nvd        : 2 
-│                        │      │                  ├ redhat     : 1 
-│                        │      │                  ╰ ubuntu     : 1 
-│                        │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:
-│                        │      │                  │        │           N/A:H 
-│                        │      │                  │        ╰ V3Score : 6.5 
-│                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:
-│                        │      │                           │           N/A:H 
-│                        │      │                           ╰ V3Score : 6.5 
-│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-50495 
-│                        │      │                  ├ [1]: https://lists.fedoraproject.org/archives/list/package
-│                        │      │                  │      -announce%40lists.fedoraproject.org/message/LU4MYMKFE
-│                        │      │                  │      ZQ5VSCVLRIZGDQOUW3T44GT/ 
-│                        │      │                  ├ [2]: https://lists.gnu.org/archive/html/bug-ncurses/2023-0
-│                        │      │                  │      4/msg00020.html 
-│                        │      │                  ├ [3]: https://lists.gnu.org/archive/html/bug-ncurses/2023-0
-│                        │      │                  │      4/msg00029.html 
-│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2023-50495 
-│                        │      │                  ├ [5]: https://security.netapp.com/advisory/ntap-20240119-00
-│                        │      │                  │      08/ 
-│                        │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-6684-1 
-│                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-50495 
-│                        │      ├ PublishedDate   : 2023-12-12T15:15:07.867Z 
-│                        │      ╰ LastModifiedDate: 2024-11-21T08:37:04.243Z 
-│                        ├ [49] ╭ VulnerabilityID : CVE-2023-50495 
-│                        │      ├ PkgID           : ncurses-term@6.3-2ubuntu0.1 
-│                        │      ├ PkgName         : ncurses-term 
-│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/ncurses-term@6.3-2ubuntu0.1?arch=all&
-│                        │      │                  │       distro=ubuntu-22.04 
-│                        │      │                  ╰ UID : 15075375b823acc4 
-│                        │      ├ InstalledVersion: 6.3-2ubuntu0.1 
-│                        │      ├ Status          : affected 
-│                        │      ├ Layer            ╭ Digest: sha256:def956a8ac7864573be66d6ff334dac937edb80f2b8
-│                        │      │                  │         8a4c89c99ab735246fba5 
-│                        │      │                  ╰ DiffID: sha256:8a99435104055f0abb549611e3d83101e06e9892584
-│                        │      │                            09b7e1fc9efc2f7597667 
-│                        │      ├ SeveritySource  : ubuntu 
-│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-50495 
-│                        │      ├ DataSource       ╭ ID  : ubuntu 
-│                        │      │                  ├ Name: Ubuntu CVE Tracker 
-│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │      ├ Title           : ncurses: segmentation fault via _nc_wrap_entry() 
-│                        │      ├ Description     : NCurse v6.4-20230418 was discovered to contain a
-│                        │      │                   segmentation fault via the component _nc_wrap_entry(). 
-│                        │      ├ Severity        : LOW 
-│                        │      ├ VendorSeverity   ╭ amazon     : 2 
-│                        │      │                  ├ cbl-mariner: 2 
-│                        │      │                  ├ nvd        : 2 
-│                        │      │                  ├ redhat     : 1 
-│                        │      │                  ╰ ubuntu     : 1 
-│                        │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:
-│                        │      │                  │        │           N/A:H 
-│                        │      │                  │        ╰ V3Score : 6.5 
-│                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:
-│                        │      │                           │           N/A:H 
-│                        │      │                           ╰ V3Score : 6.5 
-│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-50495 
-│                        │      │                  ├ [1]: https://lists.fedoraproject.org/archives/list/package
-│                        │      │                  │      -announce%40lists.fedoraproject.org/message/LU4MYMKFE
-│                        │      │                  │      ZQ5VSCVLRIZGDQOUW3T44GT/ 
-│                        │      │                  ├ [2]: https://lists.gnu.org/archive/html/bug-ncurses/2023-0
-│                        │      │                  │      4/msg00020.html 
-│                        │      │                  ├ [3]: https://lists.gnu.org/archive/html/bug-ncurses/2023-0
-│                        │      │                  │      4/msg00029.html 
-│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2023-50495 
-│                        │      │                  ├ [5]: https://security.netapp.com/advisory/ntap-20240119-00
-│                        │      │                  │      08/ 
-│                        │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-6684-1 
-│                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-50495 
-│                        │      ├ PublishedDate   : 2023-12-12T15:15:07.867Z 
-│                        │      ╰ LastModifiedDate: 2024-11-21T08:37:04.243Z 
-│                        ├ [50] ╭ VulnerabilityID : CVE-2024-41996 
-│                        │      ├ PkgID           : openssl@3.0.2-0ubuntu1.19 
-│                        │      ├ PkgName         : openssl 
-│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl@3.0.2-0ubuntu1.19?arch=amd64&
-│                        │      │                  │       distro=ubuntu-22.04 
-│                        │      │                  ╰ UID : 9d5f5561fbf3fde5 
-│                        │      ├ InstalledVersion: 3.0.2-0ubuntu1.19 
-│                        │      ├ Status          : affected 
-│                        │      ├ Layer            ╭ Digest: sha256:def956a8ac7864573be66d6ff334dac937edb80f2b8
-│                        │      │                  │         8a4c89c99ab735246fba5 
-│                        │      │                  ╰ DiffID: sha256:8a99435104055f0abb549611e3d83101e06e9892584
-│                        │      │                            09b7e1fc9efc2f7597667 
-│                        │      ├ SeveritySource  : ubuntu 
-│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-41996 
-│                        │      ├ DataSource       ╭ ID  : ubuntu 
-│                        │      │                  ├ Name: Ubuntu CVE Tracker 
-│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │      ├ Title           : openssl: remote attackers (from the client side) to trigger
-│                        │      │                    unnecessarily expensive server-side DHE
-│                        │      │                   modular-exponentiation calculations 
-│                        │      ├ Description     : Validating the order of the public keys in the
-│                        │      │                   Diffie-Hellman Key Agreement Protocol, when an approved
-│                        │      │                   safe prime is used, allows remote attackers (from the
-│                        │      │                   client side) to trigger unnecessarily expensive server-side
-│                        │      │                    DHE modular-exponentiation calculations. The client may
-│                        │      │                   cause asymmetric resource consumption. The basic attack
-│                        │      │                   scenario is that the client must claim that it can only
-│                        │      │                   communicate with DHE, and the server must be configured to
-│                        │      │                   allow DHE and validate the order of the public key. 
-│                        │      ├ Severity        : LOW 
-│                        │      ├ CweIDs           ─ [0]: CWE-295 
-│                        │      ├ VendorSeverity   ╭ amazon: 2 
-│                        │      │                  ├ redhat: 1 
-│                        │      │                  ╰ ubuntu: 1 
-│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:
-│                        │      │                           │           N/A:H 
-│                        │      │                           ╰ V3Score : 5.9 
-│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-41996 
-│                        │      │                  ├ [1]: https://dheatattack.gitlab.io/details/ 
-│                        │      │                  ├ [2]: https://dheatattack.gitlab.io/faq/ 
-│                        │      │                  ├ [3]: https://gist.github.com/c0r0n3r/abccc14d4d96c0442f3a7
-│                        │      │                  │      7fa5ca255d1 
-│                        │      │                  ├ [4]: https://github.com/openssl/openssl/issues/17374 
-│                        │      │                  ├ [5]: https://github.com/openssl/openssl/pull/25088 
-│                        │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2024-41996 
-│                        │      │                  ├ [7]: https://openssl-library.org/post/2022-10-21-tls-group
-│                        │      │                  │      s-configuration/ 
-│                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-41996 
-│                        │      ├ PublishedDate   : 2024-08-26T06:15:04.603Z 
-│                        │      ╰ LastModifiedDate: 2024-08-26T16:35:11.247Z 
 │                        ├ [51] ╭ VulnerabilityID : CVE-2023-29383 
-│                        │      ├ PkgID           : passwd@1:4.8.1-2ubuntu2.2 
-│                        │      ├ PkgName         : passwd 
-│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/passwd@4.8.1-2ubuntu2.2?arch=amd64&di
-│                        │      │                  │       stro=ubuntu-22.04&epoch=1 
-│                        │      │                  ╰ UID : 42a721728ff164bf 
+│                        │      ├ PkgID           : login@1:4.8.1-2ubuntu2.2 
+│                        │      ├ PkgName         : login 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/login@4.8.1-2ubuntu2.2?arch=amd64&dis
+│                        │      │                  │       tro=ubuntu-22.04&epoch=1 
+│                        │      │                  ╰ UID : da92c4f375cd9ce7 
 │                        │      ├ InstalledVersion: 1:4.8.1-2ubuntu2.2 
 │                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:def956a8ac7864573be66d6ff334dac937edb80f2b8
@@ -2810,6 +2836,466 @@
 │                        │      ├ PublishedDate   : 2023-04-14T22:15:07.68Z 
 │                        │      ╰ LastModifiedDate: 2025-02-06T22:15:35.057Z 
 │                        ├ [52] ╭ VulnerabilityID : CVE-2024-56433 
+│                        │      ├ PkgID           : login@1:4.8.1-2ubuntu2.2 
+│                        │      ├ PkgName         : login 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/login@4.8.1-2ubuntu2.2?arch=amd64&dis
+│                        │      │                  │       tro=ubuntu-22.04&epoch=1 
+│                        │      │                  ╰ UID : da92c4f375cd9ce7 
+│                        │      ├ InstalledVersion: 1:4.8.1-2ubuntu2.2 
+│                        │      ├ Status          : affected 
+│                        │      ├ Layer            ╭ Digest: sha256:def956a8ac7864573be66d6ff334dac937edb80f2b8
+│                        │      │                  │         8a4c89c99ab735246fba5 
+│                        │      │                  ╰ DiffID: sha256:8a99435104055f0abb549611e3d83101e06e9892584
+│                        │      │                            09b7e1fc9efc2f7597667 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-56433 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : shadow-utils: Default subordinate ID configuration in
+│                        │      │                   /etc/login.defs could lead to compromise 
+│                        │      ├ Description     : shadow-utils (aka shadow) 4.4 through 4.17.0 establishes a
+│                        │      │                   default /etc/subuid behavior (e.g., uid 100000 through
+│                        │      │                   165535 for the first user account) that can realistically
+│                        │      │                   conflict with the uids of users defined on locally
+│                        │      │                   administered networks, potentially leading to account
+│                        │      │                   takeover, e.g., by leveraging newuidmap for access to an
+│                        │      │                   NFS home directory (or same-host resources in the case of
+│                        │      │                   remote logins by these local network users). NOTE: it may
+│                        │      │                   also be argued that system administrators should not have
+│                        │      │                   assigned uids, within local networks, that are within the
+│                        │      │                   range that can occur in /etc/subuid. 
+│                        │      ├ Severity        : LOW 
+│                        │      ├ CweIDs           ─ [0]: CWE-1188 
+│                        │      ├ VendorSeverity   ╭ azure : 1 
+│                        │      │                  ├ redhat: 1 
+│                        │      │                  ╰ ubuntu: 1 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:
+│                        │      │                           │           L/A:N 
+│                        │      │                           ╰ V3Score : 3.6 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-56433 
+│                        │      │                  ├ [1]: https://github.com/shadow-maint/shadow/blob/e2512d574
+│                        │      │                  │      1d4a44bdd81a8c2d0029b6222728cf0/etc/login.defs#L238-L
+│                        │      │                  │      241 
+│                        │      │                  ├ [2]: https://github.com/shadow-maint/shadow/issues/1157 
+│                        │      │                  ├ [3]: https://github.com/shadow-maint/shadow/releases/tag/4.4 
+│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-56433 
+│                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
+│                        │      ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
+│                        │      ╰ LastModifiedDate: 2024-12-26T09:15:07.267Z 
+│                        ├ [53] ╭ VulnerabilityID : CVE-2023-50495 
+│                        │      ├ PkgID           : ncurses-base@6.3-2ubuntu0.1 
+│                        │      ├ PkgName         : ncurses-base 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/ncurses-base@6.3-2ubuntu0.1?arch=all&
+│                        │      │                  │       distro=ubuntu-22.04 
+│                        │      │                  ╰ UID : 149d7e345f09988b 
+│                        │      ├ InstalledVersion: 6.3-2ubuntu0.1 
+│                        │      ├ Status          : affected 
+│                        │      ├ Layer            ╭ Digest: sha256:def956a8ac7864573be66d6ff334dac937edb80f2b8
+│                        │      │                  │         8a4c89c99ab735246fba5 
+│                        │      │                  ╰ DiffID: sha256:8a99435104055f0abb549611e3d83101e06e9892584
+│                        │      │                            09b7e1fc9efc2f7597667 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-50495 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : ncurses: segmentation fault via _nc_wrap_entry() 
+│                        │      ├ Description     : NCurse v6.4-20230418 was discovered to contain a
+│                        │      │                   segmentation fault via the component _nc_wrap_entry(). 
+│                        │      ├ Severity        : LOW 
+│                        │      ├ VendorSeverity   ╭ amazon     : 2 
+│                        │      │                  ├ cbl-mariner: 2 
+│                        │      │                  ├ nvd        : 2 
+│                        │      │                  ├ redhat     : 1 
+│                        │      │                  ╰ ubuntu     : 1 
+│                        │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:
+│                        │      │                  │        │           N/A:H 
+│                        │      │                  │        ╰ V3Score : 6.5 
+│                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:
+│                        │      │                           │           N/A:H 
+│                        │      │                           ╰ V3Score : 6.5 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-50495 
+│                        │      │                  ├ [1]: https://lists.fedoraproject.org/archives/list/package
+│                        │      │                  │      -announce%40lists.fedoraproject.org/message/LU4MYMKFE
+│                        │      │                  │      ZQ5VSCVLRIZGDQOUW3T44GT/ 
+│                        │      │                  ├ [2]: https://lists.gnu.org/archive/html/bug-ncurses/2023-0
+│                        │      │                  │      4/msg00020.html 
+│                        │      │                  ├ [3]: https://lists.gnu.org/archive/html/bug-ncurses/2023-0
+│                        │      │                  │      4/msg00029.html 
+│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2023-50495 
+│                        │      │                  ├ [5]: https://security.netapp.com/advisory/ntap-20240119-00
+│                        │      │                  │      08/ 
+│                        │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-6684-1 
+│                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-50495 
+│                        │      ├ PublishedDate   : 2023-12-12T15:15:07.867Z 
+│                        │      ╰ LastModifiedDate: 2024-11-21T08:37:04.243Z 
+│                        ├ [54] ╭ VulnerabilityID : CVE-2023-50495 
+│                        │      ├ PkgID           : ncurses-bin@6.3-2ubuntu0.1 
+│                        │      ├ PkgName         : ncurses-bin 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/ncurses-bin@6.3-2ubuntu0.1?arch=amd64
+│                        │      │                  │       &distro=ubuntu-22.04 
+│                        │      │                  ╰ UID : 79f4bc9c5ad61b8d 
+│                        │      ├ InstalledVersion: 6.3-2ubuntu0.1 
+│                        │      ├ Status          : affected 
+│                        │      ├ Layer            ╭ Digest: sha256:def956a8ac7864573be66d6ff334dac937edb80f2b8
+│                        │      │                  │         8a4c89c99ab735246fba5 
+│                        │      │                  ╰ DiffID: sha256:8a99435104055f0abb549611e3d83101e06e9892584
+│                        │      │                            09b7e1fc9efc2f7597667 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-50495 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : ncurses: segmentation fault via _nc_wrap_entry() 
+│                        │      ├ Description     : NCurse v6.4-20230418 was discovered to contain a
+│                        │      │                   segmentation fault via the component _nc_wrap_entry(). 
+│                        │      ├ Severity        : LOW 
+│                        │      ├ VendorSeverity   ╭ amazon     : 2 
+│                        │      │                  ├ cbl-mariner: 2 
+│                        │      │                  ├ nvd        : 2 
+│                        │      │                  ├ redhat     : 1 
+│                        │      │                  ╰ ubuntu     : 1 
+│                        │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:
+│                        │      │                  │        │           N/A:H 
+│                        │      │                  │        ╰ V3Score : 6.5 
+│                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:
+│                        │      │                           │           N/A:H 
+│                        │      │                           ╰ V3Score : 6.5 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-50495 
+│                        │      │                  ├ [1]: https://lists.fedoraproject.org/archives/list/package
+│                        │      │                  │      -announce%40lists.fedoraproject.org/message/LU4MYMKFE
+│                        │      │                  │      ZQ5VSCVLRIZGDQOUW3T44GT/ 
+│                        │      │                  ├ [2]: https://lists.gnu.org/archive/html/bug-ncurses/2023-0
+│                        │      │                  │      4/msg00020.html 
+│                        │      │                  ├ [3]: https://lists.gnu.org/archive/html/bug-ncurses/2023-0
+│                        │      │                  │      4/msg00029.html 
+│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2023-50495 
+│                        │      │                  ├ [5]: https://security.netapp.com/advisory/ntap-20240119-00
+│                        │      │                  │      08/ 
+│                        │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-6684-1 
+│                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-50495 
+│                        │      ├ PublishedDate   : 2023-12-12T15:15:07.867Z 
+│                        │      ╰ LastModifiedDate: 2024-11-21T08:37:04.243Z 
+│                        ├ [55] ╭ VulnerabilityID : CVE-2023-50495 
+│                        │      ├ PkgID           : ncurses-term@6.3-2ubuntu0.1 
+│                        │      ├ PkgName         : ncurses-term 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/ncurses-term@6.3-2ubuntu0.1?arch=all&
+│                        │      │                  │       distro=ubuntu-22.04 
+│                        │      │                  ╰ UID : 15075375b823acc4 
+│                        │      ├ InstalledVersion: 6.3-2ubuntu0.1 
+│                        │      ├ Status          : affected 
+│                        │      ├ Layer            ╭ Digest: sha256:def956a8ac7864573be66d6ff334dac937edb80f2b8
+│                        │      │                  │         8a4c89c99ab735246fba5 
+│                        │      │                  ╰ DiffID: sha256:8a99435104055f0abb549611e3d83101e06e9892584
+│                        │      │                            09b7e1fc9efc2f7597667 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-50495 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : ncurses: segmentation fault via _nc_wrap_entry() 
+│                        │      ├ Description     : NCurse v6.4-20230418 was discovered to contain a
+│                        │      │                   segmentation fault via the component _nc_wrap_entry(). 
+│                        │      ├ Severity        : LOW 
+│                        │      ├ VendorSeverity   ╭ amazon     : 2 
+│                        │      │                  ├ cbl-mariner: 2 
+│                        │      │                  ├ nvd        : 2 
+│                        │      │                  ├ redhat     : 1 
+│                        │      │                  ╰ ubuntu     : 1 
+│                        │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:
+│                        │      │                  │        │           N/A:H 
+│                        │      │                  │        ╰ V3Score : 6.5 
+│                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:
+│                        │      │                           │           N/A:H 
+│                        │      │                           ╰ V3Score : 6.5 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-50495 
+│                        │      │                  ├ [1]: https://lists.fedoraproject.org/archives/list/package
+│                        │      │                  │      -announce%40lists.fedoraproject.org/message/LU4MYMKFE
+│                        │      │                  │      ZQ5VSCVLRIZGDQOUW3T44GT/ 
+│                        │      │                  ├ [2]: https://lists.gnu.org/archive/html/bug-ncurses/2023-0
+│                        │      │                  │      4/msg00020.html 
+│                        │      │                  ├ [3]: https://lists.gnu.org/archive/html/bug-ncurses/2023-0
+│                        │      │                  │      4/msg00029.html 
+│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2023-50495 
+│                        │      │                  ├ [5]: https://security.netapp.com/advisory/ntap-20240119-00
+│                        │      │                  │      08/ 
+│                        │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-6684-1 
+│                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-50495 
+│                        │      ├ PublishedDate   : 2023-12-12T15:15:07.867Z 
+│                        │      ╰ LastModifiedDate: 2024-11-21T08:37:04.243Z 
+│                        ├ [56] ╭ VulnerabilityID : CVE-2025-53859 
+│                        │      ├ PkgID           : nginx@1.18.0-6ubuntu14.6 
+│                        │      ├ PkgName         : nginx 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/nginx@1.18.0-6ubuntu14.6?arch=amd64&d
+│                        │      │                  │       istro=ubuntu-22.04 
+│                        │      │                  ╰ UID : 722da46e43d8ca34 
+│                        │      ├ InstalledVersion: 1.18.0-6ubuntu14.6 
+│                        │      ├ FixedVersion    : 1.18.0-6ubuntu14.7 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:def956a8ac7864573be66d6ff334dac937edb80f2b8
+│                        │      │                  │         8a4c89c99ab735246fba5 
+│                        │      │                  ╰ DiffID: sha256:8a99435104055f0abb549611e3d83101e06e9892584
+│                        │      │                            09b7e1fc9efc2f7597667 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-53859 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : nginx: NGINX ngx_mail_smtp_module vulnerability 
+│                        │      ├ Description     : NGINX Open Source and NGINX Plus have a vulnerability in
+│                        │      │                   the ngx_mail_smtp_module that might allow an
+│                        │      │                   unauthenticated attacker to over-read NGINX SMTP
+│                        │      │                   authentication process memory; as a result, the server side
+│                        │      │                    may leak arbitrary bytes sent in a request to the
+│                        │      │                   authentication server. This issue happens during the NGINX
+│                        │      │                   SMTP authentication process and requires the attacker to
+│                        │      │                   make preparations against the target system to extract the
+│                        │      │                   leaked data. The issue affects NGINX only if (1) it is
+│                        │      │                   built with the ngx_mail_smtp_module, (2) the smtp_auth
+│                        │      │                   directive is configured with method "none," and (3) the
+│                        │      │                   authentication server returns the "Auth-Wait" response
+│                        │      │                   header.
+│                        │      │                   
+│                        │      │                   Note: Software versions which have reached End of Technical
+│                        │      │                    Support (EoTS) are not evaluated. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ CweIDs           ─ [0]: CWE-125 
+│                        │      ├ VendorSeverity   ╭ amazon: 2 
+│                        │      │                  ├ photon: 1 
+│                        │      │                  ├ redhat: 1 
+│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:
+│                        │      │                           │           N/A:N 
+│                        │      │                           ╰ V3Score : 3.7 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-53859 
+│                        │      │                  ├ [1]: https://my.f5.com/manage/s/article/K000152786 
+│                        │      │                  ├ [2]: https://nginx.org/download/patch.2025.smtp.txt 
+│                        │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-53859 
+│                        │      │                  ├ [4]: https://ubuntu.com/security/notices/USN-7715-1 
+│                        │      │                  ├ [5]: https://www.cve.org/CVERecord?id=CVE-2025-53859 
+│                        │      │                  ╰ [6]: https://www.openwall.com/lists/oss-security/2025/08/1
+│                        │      │                         3/5 
+│                        │      ├ PublishedDate   : 2025-08-13T15:15:37.657Z 
+│                        │      ╰ LastModifiedDate: 2025-08-13T17:33:46.673Z 
+│                        ├ [57] ╭ VulnerabilityID : CVE-2025-53859 
+│                        │      ├ PkgID           : nginx-common@1.18.0-6ubuntu14.6 
+│                        │      ├ PkgName         : nginx-common 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/nginx-common@1.18.0-6ubuntu14.6?arch=
+│                        │      │                  │       all&distro=ubuntu-22.04 
+│                        │      │                  ╰ UID : 48afcbf3ecf8d2e4 
+│                        │      ├ InstalledVersion: 1.18.0-6ubuntu14.6 
+│                        │      ├ FixedVersion    : 1.18.0-6ubuntu14.7 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:def956a8ac7864573be66d6ff334dac937edb80f2b8
+│                        │      │                  │         8a4c89c99ab735246fba5 
+│                        │      │                  ╰ DiffID: sha256:8a99435104055f0abb549611e3d83101e06e9892584
+│                        │      │                            09b7e1fc9efc2f7597667 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-53859 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : nginx: NGINX ngx_mail_smtp_module vulnerability 
+│                        │      ├ Description     : NGINX Open Source and NGINX Plus have a vulnerability in
+│                        │      │                   the ngx_mail_smtp_module that might allow an
+│                        │      │                   unauthenticated attacker to over-read NGINX SMTP
+│                        │      │                   authentication process memory; as a result, the server side
+│                        │      │                    may leak arbitrary bytes sent in a request to the
+│                        │      │                   authentication server. This issue happens during the NGINX
+│                        │      │                   SMTP authentication process and requires the attacker to
+│                        │      │                   make preparations against the target system to extract the
+│                        │      │                   leaked data. The issue affects NGINX only if (1) it is
+│                        │      │                   built with the ngx_mail_smtp_module, (2) the smtp_auth
+│                        │      │                   directive is configured with method "none," and (3) the
+│                        │      │                   authentication server returns the "Auth-Wait" response
+│                        │      │                   header.
+│                        │      │                   
+│                        │      │                   Note: Software versions which have reached End of Technical
+│                        │      │                    Support (EoTS) are not evaluated. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ CweIDs           ─ [0]: CWE-125 
+│                        │      ├ VendorSeverity   ╭ amazon: 2 
+│                        │      │                  ├ photon: 1 
+│                        │      │                  ├ redhat: 1 
+│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:
+│                        │      │                           │           N/A:N 
+│                        │      │                           ╰ V3Score : 3.7 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-53859 
+│                        │      │                  ├ [1]: https://my.f5.com/manage/s/article/K000152786 
+│                        │      │                  ├ [2]: https://nginx.org/download/patch.2025.smtp.txt 
+│                        │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-53859 
+│                        │      │                  ├ [4]: https://ubuntu.com/security/notices/USN-7715-1 
+│                        │      │                  ├ [5]: https://www.cve.org/CVERecord?id=CVE-2025-53859 
+│                        │      │                  ╰ [6]: https://www.openwall.com/lists/oss-security/2025/08/1
+│                        │      │                         3/5 
+│                        │      ├ PublishedDate   : 2025-08-13T15:15:37.657Z 
+│                        │      ╰ LastModifiedDate: 2025-08-13T17:33:46.673Z 
+│                        ├ [58] ╭ VulnerabilityID : CVE-2025-53859 
+│                        │      ├ PkgID           : nginx-core@1.18.0-6ubuntu14.6 
+│                        │      ├ PkgName         : nginx-core 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/nginx-core@1.18.0-6ubuntu14.6?arch=am
+│                        │      │                  │       d64&distro=ubuntu-22.04 
+│                        │      │                  ╰ UID : db444d1207313138 
+│                        │      ├ InstalledVersion: 1.18.0-6ubuntu14.6 
+│                        │      ├ FixedVersion    : 1.18.0-6ubuntu14.7 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:def956a8ac7864573be66d6ff334dac937edb80f2b8
+│                        │      │                  │         8a4c89c99ab735246fba5 
+│                        │      │                  ╰ DiffID: sha256:8a99435104055f0abb549611e3d83101e06e9892584
+│                        │      │                            09b7e1fc9efc2f7597667 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-53859 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : nginx: NGINX ngx_mail_smtp_module vulnerability 
+│                        │      ├ Description     : NGINX Open Source and NGINX Plus have a vulnerability in
+│                        │      │                   the ngx_mail_smtp_module that might allow an
+│                        │      │                   unauthenticated attacker to over-read NGINX SMTP
+│                        │      │                   authentication process memory; as a result, the server side
+│                        │      │                    may leak arbitrary bytes sent in a request to the
+│                        │      │                   authentication server. This issue happens during the NGINX
+│                        │      │                   SMTP authentication process and requires the attacker to
+│                        │      │                   make preparations against the target system to extract the
+│                        │      │                   leaked data. The issue affects NGINX only if (1) it is
+│                        │      │                   built with the ngx_mail_smtp_module, (2) the smtp_auth
+│                        │      │                   directive is configured with method "none," and (3) the
+│                        │      │                   authentication server returns the "Auth-Wait" response
+│                        │      │                   header.
+│                        │      │                   
+│                        │      │                   Note: Software versions which have reached End of Technical
+│                        │      │                    Support (EoTS) are not evaluated. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ CweIDs           ─ [0]: CWE-125 
+│                        │      ├ VendorSeverity   ╭ amazon: 2 
+│                        │      │                  ├ photon: 1 
+│                        │      │                  ├ redhat: 1 
+│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:
+│                        │      │                           │           N/A:N 
+│                        │      │                           ╰ V3Score : 3.7 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-53859 
+│                        │      │                  ├ [1]: https://my.f5.com/manage/s/article/K000152786 
+│                        │      │                  ├ [2]: https://nginx.org/download/patch.2025.smtp.txt 
+│                        │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-53859 
+│                        │      │                  ├ [4]: https://ubuntu.com/security/notices/USN-7715-1 
+│                        │      │                  ├ [5]: https://www.cve.org/CVERecord?id=CVE-2025-53859 
+│                        │      │                  ╰ [6]: https://www.openwall.com/lists/oss-security/2025/08/1
+│                        │      │                         3/5 
+│                        │      ├ PublishedDate   : 2025-08-13T15:15:37.657Z 
+│                        │      ╰ LastModifiedDate: 2025-08-13T17:33:46.673Z 
+│                        ├ [59] ╭ VulnerabilityID : CVE-2024-41996 
+│                        │      ├ PkgID           : openssl@3.0.2-0ubuntu1.19 
+│                        │      ├ PkgName         : openssl 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl@3.0.2-0ubuntu1.19?arch=amd64&
+│                        │      │                  │       distro=ubuntu-22.04 
+│                        │      │                  ╰ UID : 9d5f5561fbf3fde5 
+│                        │      ├ InstalledVersion: 3.0.2-0ubuntu1.19 
+│                        │      ├ Status          : affected 
+│                        │      ├ Layer            ╭ Digest: sha256:def956a8ac7864573be66d6ff334dac937edb80f2b8
+│                        │      │                  │         8a4c89c99ab735246fba5 
+│                        │      │                  ╰ DiffID: sha256:8a99435104055f0abb549611e3d83101e06e9892584
+│                        │      │                            09b7e1fc9efc2f7597667 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-41996 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : openssl: remote attackers (from the client side) to trigger
+│                        │      │                    unnecessarily expensive server-side DHE
+│                        │      │                   modular-exponentiation calculations 
+│                        │      ├ Description     : Validating the order of the public keys in the
+│                        │      │                   Diffie-Hellman Key Agreement Protocol, when an approved
+│                        │      │                   safe prime is used, allows remote attackers (from the
+│                        │      │                   client side) to trigger unnecessarily expensive server-side
+│                        │      │                    DHE modular-exponentiation calculations. The client may
+│                        │      │                   cause asymmetric resource consumption. The basic attack
+│                        │      │                   scenario is that the client must claim that it can only
+│                        │      │                   communicate with DHE, and the server must be configured to
+│                        │      │                   allow DHE and validate the order of the public key. 
+│                        │      ├ Severity        : LOW 
+│                        │      ├ CweIDs           ─ [0]: CWE-295 
+│                        │      ├ VendorSeverity   ╭ amazon: 2 
+│                        │      │                  ├ redhat: 1 
+│                        │      │                  ╰ ubuntu: 1 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:
+│                        │      │                           │           N/A:H 
+│                        │      │                           ╰ V3Score : 5.9 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-41996 
+│                        │      │                  ├ [1]: https://dheatattack.gitlab.io/details/ 
+│                        │      │                  ├ [2]: https://dheatattack.gitlab.io/faq/ 
+│                        │      │                  ├ [3]: https://gist.github.com/c0r0n3r/abccc14d4d96c0442f3a7
+│                        │      │                  │      7fa5ca255d1 
+│                        │      │                  ├ [4]: https://github.com/openssl/openssl/issues/17374 
+│                        │      │                  ├ [5]: https://github.com/openssl/openssl/pull/25088 
+│                        │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2024-41996 
+│                        │      │                  ├ [7]: https://openssl-library.org/post/2022-10-21-tls-group
+│                        │      │                  │      s-configuration/ 
+│                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-41996 
+│                        │      ├ PublishedDate   : 2024-08-26T06:15:04.603Z 
+│                        │      ╰ LastModifiedDate: 2024-08-26T16:35:11.247Z 
+│                        ├ [60] ╭ VulnerabilityID : CVE-2023-29383 
+│                        │      ├ PkgID           : passwd@1:4.8.1-2ubuntu2.2 
+│                        │      ├ PkgName         : passwd 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/passwd@4.8.1-2ubuntu2.2?arch=amd64&di
+│                        │      │                  │       stro=ubuntu-22.04&epoch=1 
+│                        │      │                  ╰ UID : 42a721728ff164bf 
+│                        │      ├ InstalledVersion: 1:4.8.1-2ubuntu2.2 
+│                        │      ├ Status          : affected 
+│                        │      ├ Layer            ╭ Digest: sha256:def956a8ac7864573be66d6ff334dac937edb80f2b8
+│                        │      │                  │         8a4c89c99ab735246fba5 
+│                        │      │                  ╰ DiffID: sha256:8a99435104055f0abb549611e3d83101e06e9892584
+│                        │      │                            09b7e1fc9efc2f7597667 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-29383 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : shadow: Improper input validation in shadow-utils package
+│                        │      │                   utility chfn 
+│                        │      ├ Description     : In Shadow 4.13, it is possible to inject control characters
+│                        │      │                    into fields provided to the SUID program chfn (change
+│                        │      │                   finger). Although it is not possible to exploit this
+│                        │      │                   directly (e.g., adding a new user fails because \n is in
+│                        │      │                   the block list), it is possible to misrepresent the
+│                        │      │                   /etc/passwd file when viewed. Use of \r manipulations and
+│                        │      │                   Unicode characters to work around blocking of the :
+│                        │      │                   character make it possible to give the impression that a
+│                        │      │                   new user has been added. In other words, an adversary may
+│                        │      │                   be able to convince a system administrator to take the
+│                        │      │                   system offline (an indirect, social-engineered denial of
+│                        │      │                   service) by demonstrating that "cat /etc/passwd" shows a
+│                        │      │                   rogue user account. 
+│                        │      ├ Severity        : LOW 
+│                        │      ├ CweIDs           ╭ [0]: CWE-74 
+│                        │      │                  ╰ [1]: CWE-125 
+│                        │      ├ VendorSeverity   ╭ cbl-mariner: 1 
+│                        │      │                  ├ nvd        : 1 
+│                        │      │                  ├ photon     : 1 
+│                        │      │                  ├ redhat     : 2 
+│                        │      │                  ╰ ubuntu     : 1 
+│                        │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:
+│                        │      │                  │        │           L/A:N 
+│                        │      │                  │        ╰ V3Score : 3.3 
+│                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:
+│                        │      │                           │           N/A:H 
+│                        │      │                           ╰ V3Score : 5.5 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-29383 
+│                        │      │                  ├ [1]: https://github.com/shadow-maint/shadow/commit/e5905c4
+│                        │      │                  │      b84d4fb90aefcd96ee618411ebfac663d 
+│                        │      │                  ├ [2]: https://github.com/shadow-maint/shadow/pull/687 
+│                        │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2023-29383 
+│                        │      │                  ├ [4]: https://www.cve.org/CVERecord?id=CVE-2023-29383 
+│                        │      │                  ├ [5]: https://www.trustwave.com/en-us/resources/blogs/spide
+│                        │      │                  │      rlabs-blog/cve-2023-29383-abusing-linux-chfn-to-misre
+│                        │      │                  │      present-etc-passwd/ 
+│                        │      │                  ╰ [6]: https://www.trustwave.com/en-us/resources/security-re
+│                        │      │                         sources/security-advisories/?fid=31797 
+│                        │      ├ PublishedDate   : 2023-04-14T22:15:07.68Z 
+│                        │      ╰ LastModifiedDate: 2025-02-06T22:15:35.057Z 
+│                        ├ [61] ╭ VulnerabilityID : CVE-2024-56433 
 │                        │      ├ PkgID           : passwd@1:4.8.1-2ubuntu2.2 
 │                        │      ├ PkgName         : passwd 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/passwd@4.8.1-2ubuntu2.2?arch=amd64&di
@@ -2857,7 +3343,7 @@
 │                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                        │      ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                        │      ╰ LastModifiedDate: 2024-12-26T09:15:07.267Z 
-│                        ├ [53] ╭ VulnerabilityID : CVE-2023-7008 
+│                        ├ [62] ╭ VulnerabilityID : CVE-2023-7008 
 │                        │      ├ PkgID           : systemd@249.11-0ubuntu3.16 
 │                        │      ├ PkgName         : systemd 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/systemd@249.11-0ubuntu3.16?arch=amd64
@@ -2924,7 +3410,7 @@
 │                        │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
 │                        │      ├ PublishedDate   : 2023-12-23T13:15:07.573Z 
 │                        │      ╰ LastModifiedDate: 2024-11-22T12:15:17.59Z 
-│                        ├ [54] ╭ VulnerabilityID : CVE-2023-7008 
+│                        ├ [63] ╭ VulnerabilityID : CVE-2023-7008 
 │                        │      ├ PkgID           : systemd-sysv@249.11-0ubuntu3.16 
 │                        │      ├ PkgName         : systemd-sysv 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/systemd-sysv@249.11-0ubuntu3.16?arch=
@@ -2991,7 +3477,7 @@
 │                        │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
 │                        │      ├ PublishedDate   : 2023-12-23T13:15:07.573Z 
 │                        │      ╰ LastModifiedDate: 2024-11-22T12:15:17.59Z 
-│                        ├ [55] ╭ VulnerabilityID : CVE-2023-7008 
+│                        ├ [64] ╭ VulnerabilityID : CVE-2023-7008 
 │                        │      ├ PkgID           : systemd-timesyncd@249.11-0ubuntu3.16 
 │                        │      ├ PkgName         : systemd-timesyncd 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/systemd-timesyncd@249.11-0ubuntu3.16?
@@ -3058,7 +3544,7 @@
 │                        │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
 │                        │      ├ PublishedDate   : 2023-12-23T13:15:07.573Z 
 │                        │      ╰ LastModifiedDate: 2024-11-22T12:15:17.59Z 
-│                        ├ [56] ╭ VulnerabilityID : CVE-2025-45582 
+│                        ├ [65] ╭ VulnerabilityID : CVE-2025-45582 
 │                        │      ├ PkgID           : tar@1.34+dfsg-1ubuntu0.1.22.04.2 
 │                        │      ├ PkgName         : tar 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/tar@1.34%2Bdfsg-1ubuntu0.1.22.04.2?ar
@@ -3124,7 +3610,7 @@
 │                        │      │                         urity-rules-of-thumb.html 
 │                        │      ├ PublishedDate   : 2025-07-11T17:15:37.183Z 
 │                        │      ╰ LastModifiedDate: 2025-08-18T04:15:36.743Z 
-│                        ├ [57] ╭ VulnerabilityID : CVE-2023-29383 
+│                        ├ [66] ╭ VulnerabilityID : CVE-2023-29383 
 │                        │      ├ PkgID           : uidmap@1:4.8.1-2ubuntu2.2 
 │                        │      ├ PkgName         : uidmap 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/uidmap@4.8.1-2ubuntu2.2?arch=amd64&di
@@ -3183,7 +3669,7 @@
 │                        │      │                         sources/security-advisories/?fid=31797 
 │                        │      ├ PublishedDate   : 2023-04-14T22:15:07.68Z 
 │                        │      ╰ LastModifiedDate: 2025-02-06T22:15:35.057Z 
-│                        ├ [58] ╭ VulnerabilityID : CVE-2024-56433 
+│                        ├ [67] ╭ VulnerabilityID : CVE-2024-56433 
 │                        │      ├ PkgID           : uidmap@1:4.8.1-2ubuntu2.2 
 │                        │      ├ PkgName         : uidmap 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/uidmap@4.8.1-2ubuntu2.2?arch=amd64&di
@@ -3231,7 +3717,7 @@
 │                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                        │      ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                        │      ╰ LastModifiedDate: 2024-12-26T09:15:07.267Z 
-│                        ╰ [59] ╭ VulnerabilityID : CVE-2021-31879 
+│                        ╰ [68] ╭ VulnerabilityID : CVE-2021-31879 
 │                               ├ PkgID           : wget@1.21.2-2ubuntu1.1 
 │                               ├ PkgName         : wget 
 │                               ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/wget@1.21.2-2ubuntu1.1?arch=amd64&dis
