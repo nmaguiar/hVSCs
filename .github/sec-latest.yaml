@@ -683,10 +683,11 @@
     - https://linux.oracle.com/errata/ELSA-2025-11688.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-48384
     - https://ubuntu.com/security/notices/USN-7626-1
+    - https://www.cisa.gov/known-exploited-vulnerabilities-catalog
     - https://www.cve.org/CVERecord?id=CVE-2025-48384
     - https://www.openwall.com/lists/oss-security/2025/07/08/4
     PublishedDate: '2025-07-08T19:15:42.8Z'
-    LastModifiedDate: '2025-07-10T13:18:53.83Z'
+    LastModifiedDate: '2025-08-26T14:45:27.957Z'
   - VulnerabilityID: CVE-2025-48386
     PkgID: git@1:2.34.1-1ubuntu1.12
     PkgName: git
@@ -1008,10 +1009,11 @@
     - https://linux.oracle.com/errata/ELSA-2025-11688.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-48384
     - https://ubuntu.com/security/notices/USN-7626-1
+    - https://www.cisa.gov/known-exploited-vulnerabilities-catalog
     - https://www.cve.org/CVERecord?id=CVE-2025-48384
     - https://www.openwall.com/lists/oss-security/2025/07/08/4
     PublishedDate: '2025-07-08T19:15:42.8Z'
-    LastModifiedDate: '2025-07-10T13:18:53.83Z'
+    LastModifiedDate: '2025-08-26T14:45:27.957Z'
   - VulnerabilityID: CVE-2025-48386
     PkgID: git-man@1:2.34.1-1ubuntu1.12
     PkgName: git-man
@@ -4004,6 +4006,7 @@
     - https://access.redhat.com/errata/RHSA-2025:10823
     - https://access.redhat.com/errata/RHSA-2025:11386
     - https://access.redhat.com/errata/RHSA-2025:11487
+    - https://access.redhat.com/errata/RHSA-2025:14557
     - https://access.redhat.com/errata/RHSA-2025:9526
     - https://access.redhat.com/security/cve/CVE-2025-6020
     - https://bugzilla.redhat.com/2372512
@@ -4018,7 +4021,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-6020
     - https://www.openwall.com/lists/oss-security/2025/06/17/1
     PublishedDate: '2025-06-17T13:15:21.66Z'
-    LastModifiedDate: '2025-07-21T20:15:42.027Z'
+    LastModifiedDate: '2025-08-26T03:15:30.12Z'
   - VulnerabilityID: CVE-2024-10041
     PkgID: libpam-modules-bin@1.4.0-11ubuntu2.5
     PkgName: libpam-modules-bin
@@ -4123,6 +4126,7 @@
     - https://access.redhat.com/errata/RHSA-2025:10823
     - https://access.redhat.com/errata/RHSA-2025:11386
     - https://access.redhat.com/errata/RHSA-2025:11487
+    - https://access.redhat.com/errata/RHSA-2025:14557
     - https://access.redhat.com/errata/RHSA-2025:9526
     - https://access.redhat.com/security/cve/CVE-2025-6020
     - https://bugzilla.redhat.com/2372512
@@ -4137,7 +4141,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-6020
     - https://www.openwall.com/lists/oss-security/2025/06/17/1
     PublishedDate: '2025-06-17T13:15:21.66Z'
-    LastModifiedDate: '2025-07-21T20:15:42.027Z'
+    LastModifiedDate: '2025-08-26T03:15:30.12Z'
   - VulnerabilityID: CVE-2024-10041
     PkgID: libpam-runtime@1.4.0-11ubuntu2.5
     PkgName: libpam-runtime
@@ -4242,6 +4246,7 @@
     - https://access.redhat.com/errata/RHSA-2025:10823
     - https://access.redhat.com/errata/RHSA-2025:11386
     - https://access.redhat.com/errata/RHSA-2025:11487
+    - https://access.redhat.com/errata/RHSA-2025:14557
     - https://access.redhat.com/errata/RHSA-2025:9526
     - https://access.redhat.com/security/cve/CVE-2025-6020
     - https://bugzilla.redhat.com/2372512
@@ -4256,7 +4261,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-6020
     - https://www.openwall.com/lists/oss-security/2025/06/17/1
     PublishedDate: '2025-06-17T13:15:21.66Z'
-    LastModifiedDate: '2025-07-21T20:15:42.027Z'
+    LastModifiedDate: '2025-08-26T03:15:30.12Z'
   - VulnerabilityID: CVE-2025-4598
     PkgID: libpam-systemd@249.11-0ubuntu3.12
     PkgName: libpam-systemd
@@ -4482,6 +4487,7 @@
     - https://access.redhat.com/errata/RHSA-2025:10823
     - https://access.redhat.com/errata/RHSA-2025:11386
     - https://access.redhat.com/errata/RHSA-2025:11487
+    - https://access.redhat.com/errata/RHSA-2025:14557
     - https://access.redhat.com/errata/RHSA-2025:9526
     - https://access.redhat.com/security/cve/CVE-2025-6020
     - https://bugzilla.redhat.com/2372512
@@ -4496,7 +4502,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-6020
     - https://www.openwall.com/lists/oss-security/2025/06/17/1
     PublishedDate: '2025-06-17T13:15:21.66Z'
-    LastModifiedDate: '2025-07-21T20:15:42.027Z'
+    LastModifiedDate: '2025-08-26T03:15:30.12Z'
   - VulnerabilityID: CVE-2022-41409
     PkgID: libpcre2-8-0@10.39-3ubuntu0.1
     PkgName: libpcre2-8-0
@@ -4845,6 +4851,7 @@
     VendorSeverity:
       amazon: 3
       bitnami: 3
+      oracle-oval: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -4863,6 +4870,8 @@
     - https://github.com/python/cpython/commit/fbc2a0ca9ac8aff6887f8ddf79b87b4510277227
     - https://github.com/python/cpython/issues/130577
     - https://github.com/python/cpython/pull/137027
+    - https://linux.oracle.com/cve/CVE-2025-8194.html
+    - https://linux.oracle.com/errata/ELSA-2025-14560.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/ZULLF3IZ726XP5EY7XJ7YIN3K5MDYR2D/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-8194
     - https://ubuntu.com/security/notices/USN-7710-1
@@ -5051,6 +5060,7 @@
     VendorSeverity:
       amazon: 3
       bitnami: 3
+      oracle-oval: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -5069,6 +5079,8 @@
     - https://github.com/python/cpython/commit/fbc2a0ca9ac8aff6887f8ddf79b87b4510277227
     - https://github.com/python/cpython/issues/130577
     - https://github.com/python/cpython/pull/137027
+    - https://linux.oracle.com/cve/CVE-2025-8194.html
+    - https://linux.oracle.com/errata/ELSA-2025-14560.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/ZULLF3IZ726XP5EY7XJ7YIN3K5MDYR2D/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-8194
     - https://ubuntu.com/security/notices/USN-7710-1
@@ -5257,6 +5269,7 @@
     VendorSeverity:
       amazon: 3
       bitnami: 3
+      oracle-oval: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -5275,6 +5288,8 @@
     - https://github.com/python/cpython/commit/fbc2a0ca9ac8aff6887f8ddf79b87b4510277227
     - https://github.com/python/cpython/issues/130577
     - https://github.com/python/cpython/pull/137027
+    - https://linux.oracle.com/cve/CVE-2025-8194.html
+    - https://linux.oracle.com/errata/ELSA-2025-14560.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/ZULLF3IZ726XP5EY7XJ7YIN3K5MDYR2D/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-8194
     - https://ubuntu.com/security/notices/USN-7710-1
@@ -8001,6 +8016,7 @@
     VendorSeverity:
       amazon: 3
       bitnami: 3
+      oracle-oval: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -8019,6 +8035,8 @@
     - https://github.com/python/cpython/commit/fbc2a0ca9ac8aff6887f8ddf79b87b4510277227
     - https://github.com/python/cpython/issues/130577
     - https://github.com/python/cpython/pull/137027
+    - https://linux.oracle.com/cve/CVE-2025-8194.html
+    - https://linux.oracle.com/errata/ELSA-2025-14560.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/ZULLF3IZ726XP5EY7XJ7YIN3K5MDYR2D/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-8194
     - https://ubuntu.com/security/notices/USN-7710-1
@@ -8207,6 +8225,7 @@
     VendorSeverity:
       amazon: 3
       bitnami: 3
+      oracle-oval: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -8225,6 +8244,8 @@
     - https://github.com/python/cpython/commit/fbc2a0ca9ac8aff6887f8ddf79b87b4510277227
     - https://github.com/python/cpython/issues/130577
     - https://github.com/python/cpython/pull/137027
+    - https://linux.oracle.com/cve/CVE-2025-8194.html
+    - https://linux.oracle.com/errata/ELSA-2025-14560.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/ZULLF3IZ726XP5EY7XJ7YIN3K5MDYR2D/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-8194
     - https://ubuntu.com/security/notices/USN-7710-1
