@@ -1657,7 +1657,49 @@
 │                        │      │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2024-10963 
 │                        │      ├ PublishedDate   : 2024-11-07T16:15:17.15Z 
 │                        │      ╰ LastModifiedDate: 2025-02-06T06:15:29.24Z 
-│                        ├ [33] ╭ VulnerabilityID : CVE-2024-41996 
+│                        ├ [33] ╭ VulnerabilityID : CVE-2025-8114 
+│                        │      ├ PkgID           : libssh-4@0.10.6-2ubuntu0.1 
+│                        │      ├ PkgName         : libssh-4 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libssh-4@0.10.6-2ubuntu0.1?arch=amd64
+│                        │      │                  │       &distro=ubuntu-24.04 
+│                        │      │                  ╰ UID : e466884f2783025d 
+│                        │      ├ InstalledVersion: 0.10.6-2ubuntu0.1 
+│                        │      ├ Status          : affected 
+│                        │      ├ Layer            ╭ Digest: sha256:954740542862d73178282d0bac4af6e0a73bce1a2fb
+│                        │      │                  │         7b832ab033b062cc2633b 
+│                        │      │                  ╰ DiffID: sha256:e27617fcda7979a18fc96bfe9eb43b4a861301a376c
+│                        │      │                            fc1bb76571e3c49a4a4b4 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-8114 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : : NULL Pointer Dereference in libssh KEX Session ID
+│                        │      │                   Calculation 
+│                        │      ├ Description     : A flaw was found in libssh, a library that implements the
+│                        │      │                   SSH protocol. When calculating the session ID during the
+│                        │      │                   key exchange (KEX) process, an allocation failure in
+│                        │      │                   cryptographic functions may lead to a NULL pointer
+│                        │      │                   dereference. This issue can cause the client or server to
+│                        │      │                   crash. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ CweIDs           ─ [0]: CWE-476 
+│                        │      ├ VendorSeverity   ╭ nvd   : 2 
+│                        │      │                  ├ redhat: 2 
+│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:
+│                        │      │                  │        │           N/A:H 
+│                        │      │                  │        ╰ V3Score : 4.7 
+│                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:
+│                        │      │                           │           N/A:H 
+│                        │      │                           ╰ V3Score : 4.7 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-8114 
+│                        │      │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2383220 
+│                        │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2025-8114 
+│                        │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2025-8114 
+│                        │      ├ PublishedDate   : 2025-07-24T15:15:27.117Z 
+│                        │      ╰ LastModifiedDate: 2025-08-14T00:45:36.51Z 
+│                        ├ [34] ╭ VulnerabilityID : CVE-2024-41996 
 │                        │      ├ PkgID           : libssl3t64@3.0.13-0ubuntu3.5 
 │                        │      ├ PkgName         : libssl3t64 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libssl3t64@3.0.13-0ubuntu3.5?arch=amd
@@ -1707,7 +1749,7 @@
 │                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-41996 
 │                        │      ├ PublishedDate   : 2024-08-26T06:15:04.603Z 
 │                        │      ╰ LastModifiedDate: 2024-08-26T16:35:11.247Z 
-│                        ├ [34] ╭ VulnerabilityID : CVE-2024-56433 
+│                        ├ [35] ╭ VulnerabilityID : CVE-2024-56433 
 │                        │      ├ PkgID           : libsubid4@1:4.13+dfsg1-4ubuntu3.2 
 │                        │      ├ PkgName         : libsubid4 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libsubid4@4.13%2Bdfsg1-4ubuntu3.2?arc
@@ -1755,7 +1797,7 @@
 │                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                        │      ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                        │      ╰ LastModifiedDate: 2024-12-26T09:15:07.267Z 
-│                        ├ [35] ╭ VulnerabilityID : CVE-2024-56433 
+│                        ├ [36] ╭ VulnerabilityID : CVE-2024-56433 
 │                        │      ├ PkgID           : login@1:4.13+dfsg1-4ubuntu3.2 
 │                        │      ├ PkgName         : login 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/login@4.13%2Bdfsg1-4ubuntu3.2?arch=am
@@ -1803,7 +1845,7 @@
 │                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                        │      ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                        │      ╰ LastModifiedDate: 2024-12-26T09:15:07.267Z 
-│                        ├ [36] ╭ VulnerabilityID : CVE-2024-41996 
+│                        ├ [37] ╭ VulnerabilityID : CVE-2024-41996 
 │                        │      ├ PkgID           : openssl@3.0.13-0ubuntu3.5 
 │                        │      ├ PkgName         : openssl 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl@3.0.13-0ubuntu3.5?arch=amd64&
@@ -1853,7 +1895,7 @@
 │                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-41996 
 │                        │      ├ PublishedDate   : 2024-08-26T06:15:04.603Z 
 │                        │      ╰ LastModifiedDate: 2024-08-26T16:35:11.247Z 
-│                        ├ [37] ╭ VulnerabilityID : CVE-2024-56433 
+│                        ├ [38] ╭ VulnerabilityID : CVE-2024-56433 
 │                        │      ├ PkgID           : passwd@1:4.13+dfsg1-4ubuntu3.2 
 │                        │      ├ PkgName         : passwd 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/passwd@4.13%2Bdfsg1-4ubuntu3.2?arch=a
@@ -1901,7 +1943,7 @@
 │                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                        │      ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                        │      ╰ LastModifiedDate: 2024-12-26T09:15:07.267Z 
-│                        ├ [38] ╭ VulnerabilityID : CVE-2018-6952 
+│                        ├ [39] ╭ VulnerabilityID : CVE-2018-6952 
 │                        │      ├ PkgID           : patch@2.7.6-7build3 
 │                        │      ├ PkgName         : patch 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/patch@2.7.6-7build3?arch=amd64&distro
@@ -1951,7 +1993,7 @@
 │                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2018-6952 
 │                        │      ├ PublishedDate   : 2018-02-13T19:29:00.573Z 
 │                        │      ╰ LastModifiedDate: 2024-11-21T04:11:28.42Z 
-│                        ├ [39] ╭ VulnerabilityID : CVE-2021-45261 
+│                        ├ [40] ╭ VulnerabilityID : CVE-2021-45261 
 │                        │      ├ PkgID           : patch@2.7.6-7build3 
 │                        │      ├ PkgName         : patch 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/patch@2.7.6-7build3?arch=amd64&distro
@@ -1991,7 +2033,47 @@
 │                        │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2021-45261 
 │                        │      ├ PublishedDate   : 2021-12-22T18:15:08.1Z 
 │                        │      ╰ LastModifiedDate: 2024-11-21T06:32:02.633Z 
-│                        ├ [40] ╭ VulnerabilityID : CVE-2025-45582 
+│                        ├ [41] ╭ VulnerabilityID : CVE-2025-45768 
+│                        │      ├ PkgID           : python3-jwt@2.7.0-1 
+│                        │      ├ PkgName         : python3-jwt 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/python3-jwt@2.7.0-1?arch=all&distro=u
+│                        │      │                  │       buntu-24.04 
+│                        │      │                  ╰ UID : 57266bd23856fa65 
+│                        │      ├ InstalledVersion: 2.7.0-1 
+│                        │      ├ Status          : affected 
+│                        │      ├ Layer            ╭ Digest: sha256:954740542862d73178282d0bac4af6e0a73bce1a2fb
+│                        │      │                  │         7b832ab033b062cc2633b 
+│                        │      │                  ╰ DiffID: sha256:e27617fcda7979a18fc96bfe9eb43b4a861301a376c
+│                        │      │                            fc1bb76571e3c49a4a4b4 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-45768 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : pyjwt: pyjwt Weak Encryption Vulnerability 
+│                        │      ├ Description     : pyjwt v2.10.1 was discovered to contain weak encryption.
+│                        │      │                   NOTE: this is disputed by the Supplier because the key
+│                        │      │                   length is chosen by the application that uses the library
+│                        │      │                   (admittedly, library users may benefit from a minimum value
+│                        │      │                    and a mechanism for opting in to strict enforcement). 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ CweIDs           ─ [0]: CWE-311 
+│                        │      ├ VendorSeverity   ╭ redhat: 2 
+│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:
+│                        │      │                           │           L/A:L 
+│                        │      │                           ╰ V3Score : 5.6 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-45768 
+│                        │      │                  ├ [1]: https://gist.github.com/ZupeiNie/6f65e564f2067b876321
+│                        │      │                  │      d3dfdbb76569 
+│                        │      │                  ├ [2]: https://github.com/advisories/GHSA-xpf8-484v-j9w6 
+│                        │      │                  ├ [3]: https://github.com/jpadilla 
+│                        │      │                  ├ [4]: https://github.com/jpadilla/pyjwt 
+│                        │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-45768 
+│                        │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-45768 
+│                        │      ├ PublishedDate   : 2025-07-31T21:15:27.32Z 
+│                        │      ╰ LastModifiedDate: 2025-08-14T16:15:33.183Z 
+│                        ├ [42] ╭ VulnerabilityID : CVE-2025-45582 
 │                        │      ├ PkgID           : tar@1.35+dfsg-3build1 
 │                        │      ├ PkgName         : tar 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/tar@1.35%2Bdfsg-3build1?arch=amd64&di
@@ -2057,7 +2139,7 @@
 │                        │      │                         urity-rules-of-thumb.html 
 │                        │      ├ PublishedDate   : 2025-07-11T17:15:37.183Z 
 │                        │      ╰ LastModifiedDate: 2025-08-18T04:15:36.743Z 
-│                        ├ [41] ╭ VulnerabilityID : CVE-2024-56433 
+│                        ├ [43] ╭ VulnerabilityID : CVE-2024-56433 
 │                        │      ├ PkgID           : uidmap@1:4.13+dfsg1-4ubuntu3.2 
 │                        │      ├ PkgName         : uidmap 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/uidmap@4.13%2Bdfsg1-4ubuntu3.2?arch=a
@@ -2105,7 +2187,7 @@
 │                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                        │      ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                        │      ╰ LastModifiedDate: 2024-12-26T09:15:07.267Z 
-│                        ╰ [42] ╭ VulnerabilityID : CVE-2021-31879 
+│                        ╰ [44] ╭ VulnerabilityID : CVE-2021-31879 
 │                               ├ PkgID           : wget@1.21.4-1ubuntu4.1 
 │                               ├ PkgName         : wget 
 │                               ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/wget@1.21.4-1ubuntu4.1?arch=amd64&dis
