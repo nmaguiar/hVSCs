@@ -2115,6 +2115,46 @@
     - https://www.cve.org/CVERecord?id=CVE-2017-11164
     PublishedDate: '2017-07-11T03:29:00.277Z'
     LastModifiedDate: '2025-04-20T01:37:25.86Z'
+  - VulnerabilityID: CVE-2025-8114
+    PkgID: libssh-4@0.9.6-2ubuntu0.22.04.4
+    PkgName: libssh-4
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libssh-4@0.9.6-2ubuntu0.22.04.4?arch=amd64&distro=ubuntu-22.04
+      UID: c57f668c25abe760
+    InstalledVersion: 0.9.6-2ubuntu0.22.04.4
+    Status: affected
+    Layer:
+      Digest: sha256:def956a8ac7864573be66d6ff334dac937edb80f2b88a4c89c99ab735246fba5
+      DiffID: sha256:8a99435104055f0abb549611e3d83101e06e989258409b7e1fc9efc2f7597667
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-8114
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: ': NULL Pointer Dereference in libssh KEX Session ID Calculation'
+    Description: A flaw was found in libssh, a library that implements the SSH protocol. When calculating the session ID during the key exchange (KEX) process, an allocation failure in cryptographic functions may lead to a NULL pointer dereference. This issue can cause the client or server to crash.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-476
+    VendorSeverity:
+      nvd: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 4.7
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 4.7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-8114
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2383220
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-8114
+    - https://www.cve.org/CVERecord?id=CVE-2025-8114
+    PublishedDate: '2025-07-24T15:15:27.117Z'
+    LastModifiedDate: '2025-08-14T00:45:36.51Z'
   - VulnerabilityID: CVE-2024-41996
     PkgID: libssl3@3.0.2-0ubuntu1.19
     PkgName: libssl3
@@ -2412,6 +2452,103 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-7008
     PublishedDate: '2023-12-23T13:15:07.573Z'
     LastModifiedDate: '2024-11-22T12:15:17.59Z'
+  - VulnerabilityID: CVE-2025-7424
+    PkgID: libxslt1.1@1.1.34-4ubuntu0.22.04.4
+    PkgName: libxslt1.1
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libxslt1.1@1.1.34-4ubuntu0.22.04.4?arch=amd64&distro=ubuntu-22.04
+      UID: 4caa1a25235b3239
+    InstalledVersion: 1.1.34-4ubuntu0.22.04.4
+    Status: affected
+    Layer:
+      Digest: sha256:def956a8ac7864573be66d6ff334dac937edb80f2b88a4c89c99ab735246fba5
+      DiffID: sha256:8a99435104055f0abb549611e3d83101e06e989258409b7e1fc9efc2f7597667
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-7424
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'libxslt: Type confusion in xmlNode.psvi between stylesheet and source nodes'
+    Description: A flaw was found in the libxslt library. The same memory field, psvi, is used for both stylesheet and input data, which can lead to type confusion during XML transformations. This vulnerability allows an attacker to crash the application or corrupt memory. In some cases, it may lead to denial of service or unexpected behavior.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-843
+    VendorSeverity:
+      amazon: 3
+      nvd: 3
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:N/I:H/A:H
+        V3Score: 7.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-7424
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2379228
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-7424
+    - https://www.cve.org/CVERecord?id=CVE-2025-7424
+    PublishedDate: '2025-07-10T14:15:27.573Z'
+    LastModifiedDate: '2025-08-27T18:00:52.19Z'
+  - VulnerabilityID: CVE-2025-7425
+    PkgID: libxslt1.1@1.1.34-4ubuntu0.22.04.4
+    PkgName: libxslt1.1
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libxslt1.1@1.1.34-4ubuntu0.22.04.4?arch=amd64&distro=ubuntu-22.04
+      UID: 4caa1a25235b3239
+    InstalledVersion: 1.1.34-4ubuntu0.22.04.4
+    Status: affected
+    Layer:
+      Digest: sha256:def956a8ac7864573be66d6ff334dac937edb80f2b88a4c89c99ab735246fba5
+      DiffID: sha256:8a99435104055f0abb549611e3d83101e06e989258409b7e1fc9efc2f7597667
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-7425
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'libxslt: Heap Use-After-Free in libxslt caused by atype corruption in xmlAttrPtr'
+    Description: A flaw was found in libxslt where the attribute type, atype, flags are modified in a way that corrupts internal memory management. When XSLT functions, such as the key() process, result in tree fragments, this corruption prevents the proper cleanup of ID attributes. As a result, the system may access freed memory, causing crashes or enabling attackers to trigger heap corruption.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-416
+    VendorSeverity:
+      alma: 3
+      oracle-oval: 3
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:N/I:H/A:H
+        V3Score: 7.8
+    References:
+    - https://access.redhat.com/errata/RHSA-2025:12447
+    - https://access.redhat.com/errata/RHSA-2025:12450
+    - https://access.redhat.com/errata/RHSA-2025:13267
+    - https://access.redhat.com/errata/RHSA-2025:13308
+    - https://access.redhat.com/errata/RHSA-2025:13309
+    - https://access.redhat.com/errata/RHSA-2025:13310
+    - https://access.redhat.com/errata/RHSA-2025:13311
+    - https://access.redhat.com/errata/RHSA-2025:13312
+    - https://access.redhat.com/errata/RHSA-2025:13313
+    - https://access.redhat.com/errata/RHSA-2025:13314
+    - https://access.redhat.com/errata/RHSA-2025:13335
+    - https://access.redhat.com/errata/RHSA-2025:13464
+    - https://access.redhat.com/errata/RHSA-2025:13622
+    - https://access.redhat.com/security/cve/CVE-2025-7425
+    - https://bugzilla.redhat.com/2379274
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2379274
+    - https://errata.almalinux.org/9/ALSA-2025-12447.html
+    - https://gitlab.gnome.org/GNOME/libxslt/-/issues/140
+    - https://linux.oracle.com/cve/CVE-2025-7425.html
+    - https://linux.oracle.com/errata/ELSA-2025-13464.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-7425
+    - https://www.cve.org/CVERecord?id=CVE-2025-7425
+    PublishedDate: '2025-07-10T14:15:27.877Z'
+    LastModifiedDate: '2025-08-11T15:15:28.383Z'
   - VulnerabilityID: CVE-2022-4899
     PkgID: libzstd1@1.4.8+dfsg-3build1
     PkgName: libzstd1
