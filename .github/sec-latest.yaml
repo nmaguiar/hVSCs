@@ -2867,6 +2867,10 @@
     - https://access.redhat.com/errata/RHSA-2025:11662
     - https://access.redhat.com/errata/RHSA-2025:12275
     - https://access.redhat.com/errata/RHSA-2025:13335
+    - https://access.redhat.com/errata/RHSA-2025:14988
+    - https://access.redhat.com/errata/RHSA-2025:14989
+    - https://access.redhat.com/errata/RHSA-2025:14990
+    - https://access.redhat.com/errata/RHSA-2025:14991
     - https://access.redhat.com/security/cve/CVE-2025-4373
     - https://bugzilla.redhat.com/2325340
     - https://bugzilla.redhat.com/2364265
@@ -2887,7 +2891,7 @@
     - https://ubuntu.com/security/notices/USN-7532-1
     - https://www.cve.org/CVERecord?id=CVE-2025-4373
     PublishedDate: '2025-05-06T15:16:05.32Z'
-    LastModifiedDate: '2025-08-07T09:15:28.173Z'
+    LastModifiedDate: '2025-09-02T03:15:41.65Z'
   - VulnerabilityID: CVE-2025-4373
     PkgID: libglib2.0-data@2.72.4-0ubuntu2.4
     PkgName: libglib2.0-data
@@ -2930,6 +2934,10 @@
     - https://access.redhat.com/errata/RHSA-2025:11662
     - https://access.redhat.com/errata/RHSA-2025:12275
     - https://access.redhat.com/errata/RHSA-2025:13335
+    - https://access.redhat.com/errata/RHSA-2025:14988
+    - https://access.redhat.com/errata/RHSA-2025:14989
+    - https://access.redhat.com/errata/RHSA-2025:14990
+    - https://access.redhat.com/errata/RHSA-2025:14991
     - https://access.redhat.com/security/cve/CVE-2025-4373
     - https://bugzilla.redhat.com/2325340
     - https://bugzilla.redhat.com/2364265
@@ -2950,7 +2958,7 @@
     - https://ubuntu.com/security/notices/USN-7532-1
     - https://www.cve.org/CVERecord?id=CVE-2025-4373
     PublishedDate: '2025-05-06T15:16:05.32Z'
-    LastModifiedDate: '2025-08-07T09:15:28.173Z'
+    LastModifiedDate: '2025-09-02T03:15:41.65Z'
   - VulnerabilityID: CVE-2025-32988
     PkgID: libgnutls30@3.7.3-4ubuntu1.6
     PkgName: libgnutls30
@@ -3171,6 +3179,11 @@
     - https://access.redhat.com/errata/RHSA-2025:11487
     - https://access.redhat.com/errata/RHSA-2025:13664
     - https://access.redhat.com/errata/RHSA-2025:13777
+    - https://access.redhat.com/errata/RHSA-2025:15000
+    - https://access.redhat.com/errata/RHSA-2025:15001
+    - https://access.redhat.com/errata/RHSA-2025:15002
+    - https://access.redhat.com/errata/RHSA-2025:15003
+    - https://access.redhat.com/errata/RHSA-2025:15004
     - https://access.redhat.com/errata/RHSA-2025:8411
     - https://access.redhat.com/errata/RHSA-2025:9418
     - https://access.redhat.com/errata/RHSA-2025:9430
@@ -3188,7 +3201,7 @@
     - https://web.mit.edu/kerberos/krb5-1.22/krb5-1.22.html
     - https://www.cve.org/CVERecord?id=CVE-2025-3576
     PublishedDate: '2025-04-15T06:15:44.047Z'
-    LastModifiedDate: '2025-08-13T09:15:28.707Z'
+    LastModifiedDate: '2025-09-02T10:15:34.32Z'
   - VulnerabilityID: CVE-2025-5222
     PkgID: libicu70@70.1-2
     PkgName: libicu70
@@ -3278,6 +3291,11 @@
     - https://access.redhat.com/errata/RHSA-2025:11487
     - https://access.redhat.com/errata/RHSA-2025:13664
     - https://access.redhat.com/errata/RHSA-2025:13777
+    - https://access.redhat.com/errata/RHSA-2025:15000
+    - https://access.redhat.com/errata/RHSA-2025:15001
+    - https://access.redhat.com/errata/RHSA-2025:15002
+    - https://access.redhat.com/errata/RHSA-2025:15003
+    - https://access.redhat.com/errata/RHSA-2025:15004
     - https://access.redhat.com/errata/RHSA-2025:8411
     - https://access.redhat.com/errata/RHSA-2025:9418
     - https://access.redhat.com/errata/RHSA-2025:9430
@@ -3295,7 +3313,7 @@
     - https://web.mit.edu/kerberos/krb5-1.22/krb5-1.22.html
     - https://www.cve.org/CVERecord?id=CVE-2025-3576
     PublishedDate: '2025-04-15T06:15:44.047Z'
-    LastModifiedDate: '2025-08-13T09:15:28.707Z'
+    LastModifiedDate: '2025-09-02T10:15:34.32Z'
   - VulnerabilityID: CVE-2025-3576
     PkgID: libkrb5-3@1.19.2-2ubuntu0.6
     PkgName: libkrb5-3
@@ -3333,6 +3351,11 @@
     - https://access.redhat.com/errata/RHSA-2025:11487
     - https://access.redhat.com/errata/RHSA-2025:13664
     - https://access.redhat.com/errata/RHSA-2025:13777
+    - https://access.redhat.com/errata/RHSA-2025:15000
+    - https://access.redhat.com/errata/RHSA-2025:15001
+    - https://access.redhat.com/errata/RHSA-2025:15002
+    - https://access.redhat.com/errata/RHSA-2025:15003
+    - https://access.redhat.com/errata/RHSA-2025:15004
     - https://access.redhat.com/errata/RHSA-2025:8411
     - https://access.redhat.com/errata/RHSA-2025:9418
     - https://access.redhat.com/errata/RHSA-2025:9430
@@ -3350,7 +3373,7 @@
     - https://web.mit.edu/kerberos/krb5-1.22/krb5-1.22.html
     - https://www.cve.org/CVERecord?id=CVE-2025-3576
     PublishedDate: '2025-04-15T06:15:44.047Z'
-    LastModifiedDate: '2025-08-13T09:15:28.707Z'
+    LastModifiedDate: '2025-09-02T10:15:34.32Z'
   - VulnerabilityID: CVE-2025-3576
     PkgID: libkrb5support0@1.19.2-2ubuntu0.6
     PkgName: libkrb5support0
@@ -3388,6 +3411,11 @@
     - https://access.redhat.com/errata/RHSA-2025:11487
     - https://access.redhat.com/errata/RHSA-2025:13664
     - https://access.redhat.com/errata/RHSA-2025:13777
+    - https://access.redhat.com/errata/RHSA-2025:15000
+    - https://access.redhat.com/errata/RHSA-2025:15001
+    - https://access.redhat.com/errata/RHSA-2025:15002
+    - https://access.redhat.com/errata/RHSA-2025:15003
+    - https://access.redhat.com/errata/RHSA-2025:15004
     - https://access.redhat.com/errata/RHSA-2025:8411
     - https://access.redhat.com/errata/RHSA-2025:9418
     - https://access.redhat.com/errata/RHSA-2025:9430
@@ -3405,7 +3433,7 @@
     - https://web.mit.edu/kerberos/krb5-1.22/krb5-1.22.html
     - https://www.cve.org/CVERecord?id=CVE-2025-3576
     PublishedDate: '2025-04-15T06:15:44.047Z'
-    LastModifiedDate: '2025-08-13T09:15:28.707Z'
+    LastModifiedDate: '2025-09-02T10:15:34.32Z'
   - VulnerabilityID: CVE-2023-50495
     PkgID: libncurses6@6.3-2ubuntu0.1
     PkgName: libncurses6
@@ -4744,7 +4772,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       redhat: 2
@@ -4881,7 +4909,7 @@
     - https://github.com/python/cpython/issues/130577
     - https://github.com/python/cpython/pull/137027
     - https://linux.oracle.com/cve/CVE-2025-8194.html
-    - https://linux.oracle.com/errata/ELSA-2025-14900.html
+    - https://linux.oracle.com/errata/ELSA-2025-15010.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/ZULLF3IZ726XP5EY7XJ7YIN3K5MDYR2D/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-8194
     - https://ubuntu.com/security/notices/USN-7710-1
@@ -4960,7 +4988,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       redhat: 2
@@ -5097,7 +5125,7 @@
     - https://github.com/python/cpython/issues/130577
     - https://github.com/python/cpython/pull/137027
     - https://linux.oracle.com/cve/CVE-2025-8194.html
-    - https://linux.oracle.com/errata/ELSA-2025-14900.html
+    - https://linux.oracle.com/errata/ELSA-2025-15010.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/ZULLF3IZ726XP5EY7XJ7YIN3K5MDYR2D/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-8194
     - https://ubuntu.com/security/notices/USN-7710-1
@@ -5176,7 +5204,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       redhat: 2
@@ -5313,7 +5341,7 @@
     - https://github.com/python/cpython/issues/130577
     - https://github.com/python/cpython/pull/137027
     - https://linux.oracle.com/cve/CVE-2025-8194.html
-    - https://linux.oracle.com/errata/ELSA-2025-14900.html
+    - https://linux.oracle.com/errata/ELSA-2025-15010.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/ZULLF3IZ726XP5EY7XJ7YIN3K5MDYR2D/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-8194
     - https://ubuntu.com/security/notices/USN-7710-1
@@ -5501,6 +5529,7 @@
     CweIDs:
     - CWE-787
     VendorSeverity:
+      photon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -5588,6 +5617,7 @@
       azure: 2
       cbl-mariner: 2
       nvd: 3
+      photon: 3
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -5634,6 +5664,7 @@
       azure: 2
       cbl-mariner: 2
       nvd: 3
+      photon: 3
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -8076,7 +8107,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       redhat: 2
@@ -8213,7 +8244,7 @@
     - https://github.com/python/cpython/issues/130577
     - https://github.com/python/cpython/pull/137027
     - https://linux.oracle.com/cve/CVE-2025-8194.html
-    - https://linux.oracle.com/errata/ELSA-2025-14900.html
+    - https://linux.oracle.com/errata/ELSA-2025-15010.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/ZULLF3IZ726XP5EY7XJ7YIN3K5MDYR2D/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-8194
     - https://ubuntu.com/security/notices/USN-7710-1
@@ -8292,7 +8323,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       redhat: 2
@@ -8429,7 +8460,7 @@
     - https://github.com/python/cpython/issues/130577
     - https://github.com/python/cpython/pull/137027
     - https://linux.oracle.com/cve/CVE-2025-8194.html
-    - https://linux.oracle.com/errata/ELSA-2025-14900.html
+    - https://linux.oracle.com/errata/ELSA-2025-15010.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/ZULLF3IZ726XP5EY7XJ7YIN3K5MDYR2D/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-8194
     - https://ubuntu.com/security/notices/USN-7710-1
@@ -9579,7 +9610,7 @@
     Description: The tokenizer incorrectly interprets tags with unquoted attribute values that end with a solidus character (/) as self-closing. When directly using Tokenizer, this can result in such tags incorrectly being marked as self-closing, and when using the Parse functions, this can result in content following such tags as being placed in the wrong scope during DOM construction, but only when tags are in foreign content (e.g. <math>, <svg>, etc contexts).
     Severity: MEDIUM
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       ghsa: 2
@@ -9988,7 +10019,7 @@
     Description: The tokenizer incorrectly interprets tags with unquoted attribute values that end with a solidus character (/) as self-closing. When directly using Tokenizer, this can result in such tags incorrectly being marked as self-closing, and when using the Parse functions, this can result in content following such tags as being placed in the wrong scope during DOM construction, but only when tags are in foreign content (e.g. <math>, <svg>, etc contexts).
     Severity: MEDIUM
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       ghsa: 2
@@ -10619,7 +10650,7 @@
     Description: The tokenizer incorrectly interprets tags with unquoted attribute values that end with a solidus character (/) as self-closing. When directly using Tokenizer, this can result in such tags incorrectly being marked as self-closing, and when using the Parse functions, this can result in content following such tags as being placed in the wrong scope during DOM construction, but only when tags are in foreign content (e.g. <math>, <svg>, etc contexts).
     Severity: MEDIUM
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       ghsa: 2
@@ -10997,7 +11028,7 @@
     Description: The tokenizer incorrectly interprets tags with unquoted attribute values that end with a solidus character (/) as self-closing. When directly using Tokenizer, this can result in such tags incorrectly being marked as self-closing, and when using the Parse functions, this can result in content following such tags as being placed in the wrong scope during DOM construction, but only when tags are in foreign content (e.g. <math>, <svg>, etc contexts).
     Severity: MEDIUM
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       ghsa: 2
@@ -11326,7 +11357,7 @@
     Description: The tokenizer incorrectly interprets tags with unquoted attribute values that end with a solidus character (/) as self-closing. When directly using Tokenizer, this can result in such tags incorrectly being marked as self-closing, and when using the Parse functions, this can result in content following such tags as being placed in the wrong scope during DOM construction, but only when tags are in foreign content (e.g. <math>, <svg>, etc contexts).
     Severity: MEDIUM
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       ghsa: 2
@@ -11658,7 +11689,7 @@
     Description: The tokenizer incorrectly interprets tags with unquoted attribute values that end with a solidus character (/) as self-closing. When directly using Tokenizer, this can result in such tags incorrectly being marked as self-closing, and when using the Parse functions, this can result in content following such tags as being placed in the wrong scope during DOM construction, but only when tags are in foreign content (e.g. <math>, <svg>, etc contexts).
     Severity: MEDIUM
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       ghsa: 2
@@ -12266,7 +12297,7 @@
     Description: The tokenizer incorrectly interprets tags with unquoted attribute values that end with a solidus character (/) as self-closing. When directly using Tokenizer, this can result in such tags incorrectly being marked as self-closing, and when using the Parse functions, this can result in content following such tags as being placed in the wrong scope during DOM construction, but only when tags are in foreign content (e.g. <math>, <svg>, etc contexts).
     Severity: MEDIUM
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       ghsa: 2
@@ -12737,6 +12768,7 @@
       Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
       DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
       CreatedBy: 'COPY / / # buildkit'
+    Offset: 36
 - Target: /etc/ssh/ssh_host_ecdsa_key
   Class: secret
   Secrets:
@@ -12825,6 +12857,7 @@
       Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
       DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
       CreatedBy: 'COPY / / # buildkit'
+    Offset: 36
 - Target: /etc/ssh/ssh_host_ed25519_key
   Class: secret
   Secrets:
@@ -12897,6 +12930,7 @@
       Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
       DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
       CreatedBy: 'COPY / / # buildkit'
+    Offset: 36
 - Target: /etc/ssh/ssh_host_rsa_key
   Class: secret
   Secrets:
@@ -13217,3 +13251,4 @@
       Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
       DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
       CreatedBy: 'COPY / / # buildkit'
+    Offset: 36
