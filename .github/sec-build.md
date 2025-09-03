@@ -3752,7 +3752,7 @@
 │                        │     │                   during DOM construction, but only when tags are in foreign
 │                        │     │                   content (e.g. <math>, <svg>, etc contexts). 
 │                        │     ├ Severity        : MEDIUM 
-│                        │     ├ VendorSeverity   ╭ amazon     : 2 
+│                        │     ├ VendorSeverity   ╭ amazon     : 3 
 │                        │     │                  ├ azure      : 2 
 │                        │     │                  ├ cbl-mariner: 2 
 │                        │     │                  ├ ghsa       : 2 
@@ -4204,7 +4204,7 @@
 │                        │     │                   during DOM construction, but only when tags are in foreign
 │                        │     │                   content (e.g. <math>, <svg>, etc contexts). 
 │                        │     ├ Severity        : MEDIUM 
-│                        │     ├ VendorSeverity   ╭ amazon     : 2 
+│                        │     ├ VendorSeverity   ╭ amazon     : 3 
 │                        │     │                  ├ azure      : 2 
 │                        │     │                  ├ cbl-mariner: 2 
 │                        │     │                  ├ ghsa       : 2 
@@ -5107,7 +5107,7 @@
 │                        │      │                   the wrong scope during DOM construction, but only when tags
 │                        │      │                    are in foreign content (e.g. <math>, <svg>, etc contexts). 
 │                        │      ├ Severity        : MEDIUM 
-│                        │      ├ VendorSeverity   ╭ amazon     : 2 
+│                        │      ├ VendorSeverity   ╭ amazon     : 3 
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ ghsa       : 2 
@@ -5622,11 +5622,12 @@
 │                      │                          ├ FirstCause : false 
 │                      │                          ╰ LastCause  : false 
 │                      ├ Match    : ********************************************************************** 
-│                      ╰ Layer     ╭ Digest   : sha256:8028938f621a74578a64d6c089e5b46a35201977d80b892ff3f3780b
-│                                  │            3b565594 
-│                                  ├ DiffID   : sha256:ddbd803ff09a9fc6798e0deddc52bdcb2d480e4a07aa5f8744fd33bd
-│                                  │            d93d247f 
-│                                  ╰ CreatedBy: COPY / / # buildkit 
+│                      ├ Layer     ╭ Digest   : sha256:8028938f621a74578a64d6c089e5b46a35201977d80b892ff3f3780b
+│                      │           │            3b565594 
+│                      │           ├ DiffID   : sha256:ddbd803ff09a9fc6798e0deddc52bdcb2d480e4a07aa5f8744fd33bd
+│                      │           │            d93d247f 
+│                      │           ╰ CreatedBy: COPY / / # buildkit 
+│                      ╰ Offset   : 36 
 ├ [11] ╭ Target : /etc/ssh/ssh_host_ecdsa_key 
 │      ├ Class  : secret 
 │      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
@@ -5720,11 +5721,12 @@
 │                      │                         ├ FirstCause : false 
 │                      │                         ╰ LastCause  : false 
 │                      ├ Match    : ********************************************************************** 
-│                      ╰ Layer     ╭ Digest   : sha256:8028938f621a74578a64d6c089e5b46a35201977d80b892ff3f3780b
-│                                  │            3b565594 
-│                                  ├ DiffID   : sha256:ddbd803ff09a9fc6798e0deddc52bdcb2d480e4a07aa5f8744fd33bd
-│                                  │            d93d247f 
-│                                  ╰ CreatedBy: COPY / / # buildkit 
+│                      ├ Layer     ╭ Digest   : sha256:8028938f621a74578a64d6c089e5b46a35201977d80b892ff3f3780b
+│                      │           │            3b565594 
+│                      │           ├ DiffID   : sha256:ddbd803ff09a9fc6798e0deddc52bdcb2d480e4a07aa5f8744fd33bd
+│                      │           │            d93d247f 
+│                      │           ╰ CreatedBy: COPY / / # buildkit 
+│                      ╰ Offset   : 36 
 ├ [12] ╭ Target : /etc/ssh/ssh_host_ed25519_key 
 │      ├ Class  : secret 
 │      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
@@ -5800,11 +5802,12 @@
 │                      │                         ├ FirstCause : false 
 │                      │                         ╰ LastCause  : false 
 │                      ├ Match    : ********************************************************************** 
-│                      ╰ Layer     ╭ Digest   : sha256:8028938f621a74578a64d6c089e5b46a35201977d80b892ff3f3780b
-│                                  │            3b565594 
-│                                  ├ DiffID   : sha256:ddbd803ff09a9fc6798e0deddc52bdcb2d480e4a07aa5f8744fd33bd
-│                                  │            d93d247f 
-│                                  ╰ CreatedBy: COPY / / # buildkit 
+│                      ├ Layer     ╭ Digest   : sha256:8028938f621a74578a64d6c089e5b46a35201977d80b892ff3f3780b
+│                      │           │            3b565594 
+│                      │           ├ DiffID   : sha256:ddbd803ff09a9fc6798e0deddc52bdcb2d480e4a07aa5f8744fd33bd
+│                      │           │            d93d247f 
+│                      │           ╰ CreatedBy: COPY / / # buildkit 
+│                      ╰ Offset   : 36 
 ╰ [13] ╭ Target : /etc/ssh/ssh_host_rsa_key 
        ├ Class  : secret 
        ╰ Secrets ─ [0] ╭ RuleID   : private-key 
@@ -6190,9 +6193,10 @@
                        │                          ├ FirstCause : false 
                        │                          ╰ LastCause  : false 
                        ├ Match    : ********************************************************************** 
-                       ╰ Layer     ╭ Digest   : sha256:8028938f621a74578a64d6c089e5b46a35201977d80b892ff3f3780b
-                                   │            3b565594 
-                                   ├ DiffID   : sha256:ddbd803ff09a9fc6798e0deddc52bdcb2d480e4a07aa5f8744fd33bd
-                                   │            d93d247f 
-                                   ╰ CreatedBy: COPY / / # buildkit 
+                       ├ Layer     ╭ Digest   : sha256:8028938f621a74578a64d6c089e5b46a35201977d80b892ff3f3780b
+                       │           │            3b565594 
+                       │           ├ DiffID   : sha256:ddbd803ff09a9fc6798e0deddc52bdcb2d480e4a07aa5f8744fd33bd
+                       │           │            d93d247f 
+                       │           ╰ CreatedBy: COPY / / # buildkit 
+                       ╰ Offset   : 36 
 ````
