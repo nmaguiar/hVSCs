@@ -3365,7 +3365,7 @@
     Description: The tokenizer incorrectly interprets tags with unquoted attribute values that end with a solidus character (/) as self-closing. When directly using Tokenizer, this can result in such tags incorrectly being marked as self-closing, and when using the Parse functions, this can result in content following such tags as being placed in the wrong scope during DOM construction, but only when tags are in foreign content (e.g. <math>, <svg>, etc contexts).
     Severity: MEDIUM
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       ghsa: 2
@@ -3774,7 +3774,7 @@
     Description: The tokenizer incorrectly interprets tags with unquoted attribute values that end with a solidus character (/) as self-closing. When directly using Tokenizer, this can result in such tags incorrectly being marked as self-closing, and when using the Parse functions, this can result in content following such tags as being placed in the wrong scope during DOM construction, but only when tags are in foreign content (e.g. <math>, <svg>, etc contexts).
     Severity: MEDIUM
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       ghsa: 2
@@ -4471,7 +4471,7 @@
     Description: The tokenizer incorrectly interprets tags with unquoted attribute values that end with a solidus character (/) as self-closing. When directly using Tokenizer, this can result in such tags incorrectly being marked as self-closing, and when using the Parse functions, this can result in content following such tags as being placed in the wrong scope during DOM construction, but only when tags are in foreign content (e.g. <math>, <svg>, etc contexts).
     Severity: MEDIUM
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       ghsa: 2
@@ -4942,6 +4942,7 @@
       Digest: sha256:8028938f621a74578a64d6c089e5b46a35201977d80b892ff3f3780b3b565594
       DiffID: sha256:ddbd803ff09a9fc6798e0deddc52bdcb2d480e4a07aa5f8744fd33bdd93d247f
       CreatedBy: 'COPY / / # buildkit'
+    Offset: 36
 - Target: /etc/ssh/ssh_host_ecdsa_key
   Class: secret
   Secrets:
@@ -5030,6 +5031,7 @@
       Digest: sha256:8028938f621a74578a64d6c089e5b46a35201977d80b892ff3f3780b3b565594
       DiffID: sha256:ddbd803ff09a9fc6798e0deddc52bdcb2d480e4a07aa5f8744fd33bdd93d247f
       CreatedBy: 'COPY / / # buildkit'
+    Offset: 36
 - Target: /etc/ssh/ssh_host_ed25519_key
   Class: secret
   Secrets:
@@ -5102,6 +5104,7 @@
       Digest: sha256:8028938f621a74578a64d6c089e5b46a35201977d80b892ff3f3780b3b565594
       DiffID: sha256:ddbd803ff09a9fc6798e0deddc52bdcb2d480e4a07aa5f8744fd33bdd93d247f
       CreatedBy: 'COPY / / # buildkit'
+    Offset: 36
 - Target: /etc/ssh/ssh_host_rsa_key
   Class: secret
   Secrets:
@@ -5422,3 +5425,4 @@
       Digest: sha256:8028938f621a74578a64d6c089e5b46a35201977d80b892ff3f3780b3b565594
       DiffID: sha256:ddbd803ff09a9fc6798e0deddc52bdcb2d480e4a07aa5f8744fd33bdd93d247f
       CreatedBy: 'COPY / / # buildkit'
+    Offset: 36
