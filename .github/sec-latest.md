@@ -5553,7 +5553,7 @@
 │                        │       │                  ├ [10]: https://github.com/python/cpython/issues/130577 
 │                        │       │                  ├ [11]: https://github.com/python/cpython/pull/137027 
 │                        │       │                  ├ [12]: https://linux.oracle.com/cve/CVE-2025-8194.html 
-│                        │       │                  ├ [13]: https://linux.oracle.com/errata/ELSA-2025-15010.html 
+│                        │       │                  ├ [13]: https://linux.oracle.com/errata/ELSA-2025-15019.html 
 │                        │       │                  ├ [14]: https://mail.python.org/archives/list/security-anno
 │                        │       │                  │       unce@python.org/thread/ZULLF3IZ726XP5EY7XJ7YIN3K5MD
 │                        │       │                  │       YR2D/ 
@@ -5812,7 +5812,7 @@
 │                        │       │                  ├ [10]: https://github.com/python/cpython/issues/130577 
 │                        │       │                  ├ [11]: https://github.com/python/cpython/pull/137027 
 │                        │       │                  ├ [12]: https://linux.oracle.com/cve/CVE-2025-8194.html 
-│                        │       │                  ├ [13]: https://linux.oracle.com/errata/ELSA-2025-15010.html 
+│                        │       │                  ├ [13]: https://linux.oracle.com/errata/ELSA-2025-15019.html 
 │                        │       │                  ├ [14]: https://mail.python.org/archives/list/security-anno
 │                        │       │                  │       unce@python.org/thread/ZULLF3IZ726XP5EY7XJ7YIN3K5MD
 │                        │       │                  │       YR2D/ 
@@ -6071,7 +6071,7 @@
 │                        │       │                  ├ [10]: https://github.com/python/cpython/issues/130577 
 │                        │       │                  ├ [11]: https://github.com/python/cpython/pull/137027 
 │                        │       │                  ├ [12]: https://linux.oracle.com/cve/CVE-2025-8194.html 
-│                        │       │                  ├ [13]: https://linux.oracle.com/errata/ELSA-2025-15010.html 
+│                        │       │                  ├ [13]: https://linux.oracle.com/errata/ELSA-2025-15019.html 
 │                        │       │                  ├ [14]: https://mail.python.org/archives/list/security-anno
 │                        │       │                  │       unce@python.org/thread/ZULLF3IZ726XP5EY7XJ7YIN3K5MD
 │                        │       │                  │       YR2D/ 
@@ -9430,7 +9430,7 @@
 │                        │       │                  ├ [10]: https://github.com/python/cpython/issues/130577 
 │                        │       │                  ├ [11]: https://github.com/python/cpython/pull/137027 
 │                        │       │                  ├ [12]: https://linux.oracle.com/cve/CVE-2025-8194.html 
-│                        │       │                  ├ [13]: https://linux.oracle.com/errata/ELSA-2025-15010.html 
+│                        │       │                  ├ [13]: https://linux.oracle.com/errata/ELSA-2025-15019.html 
 │                        │       │                  ├ [14]: https://mail.python.org/archives/list/security-anno
 │                        │       │                  │       unce@python.org/thread/ZULLF3IZ726XP5EY7XJ7YIN3K5MD
 │                        │       │                  │       YR2D/ 
@@ -9689,7 +9689,7 @@
 │                        │       │                  ├ [10]: https://github.com/python/cpython/issues/130577 
 │                        │       │                  ├ [11]: https://github.com/python/cpython/pull/137027 
 │                        │       │                  ├ [12]: https://linux.oracle.com/cve/CVE-2025-8194.html 
-│                        │       │                  ├ [13]: https://linux.oracle.com/errata/ELSA-2025-15010.html 
+│                        │       │                  ├ [13]: https://linux.oracle.com/errata/ELSA-2025-15019.html 
 │                        │       │                  ├ [14]: https://mail.python.org/archives/list/security-anno
 │                        │       │                  │       unce@python.org/thread/ZULLF3IZ726XP5EY7XJ7YIN3K5MD
 │                        │       │                  │       YR2D/ 
@@ -11922,6 +11922,7 @@
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ ghsa       : 2 
+│                        │      │                  ├ photon     : 2 
 │                        │      │                  ├ redhat     : 2 
 │                        │      │                  ╰ ubuntu     : 2 
 │                        │      ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:C/C:L/I:
@@ -12769,6 +12770,7 @@
 │                        │     │                  ├ azure      : 2 
 │                        │     │                  ├ cbl-mariner: 2 
 │                        │     │                  ├ ghsa       : 2 
+│                        │     │                  ├ photon     : 2 
 │                        │     │                  ├ redhat     : 2 
 │                        │     │                  ╰ ubuntu     : 2 
 │                        │     ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:C/C:L/I:L
@@ -13890,6 +13892,7 @@
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ ghsa       : 2 
+│                        │      │                  ├ photon     : 2 
 │                        │      │                  ├ redhat     : 2 
 │                        │      │                  ╰ ubuntu     : 2 
 │                        │      ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:C/C:L/I:
