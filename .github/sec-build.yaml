@@ -4142,6 +4142,7 @@
       azure: 2
       cbl-mariner: 2
       ghsa: 2
+      photon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
