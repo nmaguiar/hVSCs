@@ -4909,7 +4909,7 @@
     - https://github.com/python/cpython/issues/130577
     - https://github.com/python/cpython/pull/137027
     - https://linux.oracle.com/cve/CVE-2025-8194.html
-    - https://linux.oracle.com/errata/ELSA-2025-15010.html
+    - https://linux.oracle.com/errata/ELSA-2025-15019.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/ZULLF3IZ726XP5EY7XJ7YIN3K5MDYR2D/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-8194
     - https://ubuntu.com/security/notices/USN-7710-1
@@ -5125,7 +5125,7 @@
     - https://github.com/python/cpython/issues/130577
     - https://github.com/python/cpython/pull/137027
     - https://linux.oracle.com/cve/CVE-2025-8194.html
-    - https://linux.oracle.com/errata/ELSA-2025-15010.html
+    - https://linux.oracle.com/errata/ELSA-2025-15019.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/ZULLF3IZ726XP5EY7XJ7YIN3K5MDYR2D/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-8194
     - https://ubuntu.com/security/notices/USN-7710-1
@@ -5341,7 +5341,7 @@
     - https://github.com/python/cpython/issues/130577
     - https://github.com/python/cpython/pull/137027
     - https://linux.oracle.com/cve/CVE-2025-8194.html
-    - https://linux.oracle.com/errata/ELSA-2025-15010.html
+    - https://linux.oracle.com/errata/ELSA-2025-15019.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/ZULLF3IZ726XP5EY7XJ7YIN3K5MDYR2D/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-8194
     - https://ubuntu.com/security/notices/USN-7710-1
@@ -8244,7 +8244,7 @@
     - https://github.com/python/cpython/issues/130577
     - https://github.com/python/cpython/pull/137027
     - https://linux.oracle.com/cve/CVE-2025-8194.html
-    - https://linux.oracle.com/errata/ELSA-2025-15010.html
+    - https://linux.oracle.com/errata/ELSA-2025-15019.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/ZULLF3IZ726XP5EY7XJ7YIN3K5MDYR2D/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-8194
     - https://ubuntu.com/security/notices/USN-7710-1
@@ -8460,7 +8460,7 @@
     - https://github.com/python/cpython/issues/130577
     - https://github.com/python/cpython/pull/137027
     - https://linux.oracle.com/cve/CVE-2025-8194.html
-    - https://linux.oracle.com/errata/ELSA-2025-15010.html
+    - https://linux.oracle.com/errata/ELSA-2025-15019.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/ZULLF3IZ726XP5EY7XJ7YIN3K5MDYR2D/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-8194
     - https://ubuntu.com/security/notices/USN-7710-1
@@ -10298,6 +10298,7 @@
       azure: 2
       cbl-mariner: 2
       ghsa: 2
+      photon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -10932,6 +10933,7 @@
       azure: 2
       cbl-mariner: 2
       ghsa: 2
+      photon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -11968,6 +11970,7 @@
       azure: 2
       cbl-mariner: 2
       ghsa: 2
+      photon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
