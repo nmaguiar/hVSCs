@@ -171,6 +171,7 @@
 │                        │      ├ Severity        : LOW 
 │                        │      ├ CweIDs           ─ [0]: CWE-190 
 │                        │      ├ VendorSeverity   ╭ amazon: 3 
+│                        │      │                  ├ azure : 1 
 │                        │      │                  ├ nvd   : 3 
 │                        │      │                  ├ redhat: 1 
 │                        │      │                  ╰ ubuntu: 1 
@@ -1074,6 +1075,7 @@
 │                        │      ├ Severity        : LOW 
 │                        │      ├ CweIDs           ─ [0]: CWE-190 
 │                        │      ├ VendorSeverity   ╭ amazon: 3 
+│                        │      │                  ├ azure : 1 
 │                        │      │                  ├ nvd   : 3 
 │                        │      │                  ├ redhat: 1 
 │                        │      │                  ╰ ubuntu: 1 
@@ -1120,6 +1122,7 @@
 │                        │      ├ Severity        : LOW 
 │                        │      ├ CweIDs           ─ [0]: CWE-190 
 │                        │      ├ VendorSeverity   ╭ amazon: 3 
+│                        │      │                  ├ azure : 1 
 │                        │      │                  ├ nvd   : 3 
 │                        │      │                  ├ redhat: 1 
 │                        │      │                  ╰ ubuntu: 1 
@@ -2522,7 +2525,8 @@
 │                        │     │                   return either unexpected results from the other query or an
 │                        │     │                   error. 
 │                        │     ├ Severity        : HIGH 
-│                        │     ├ VendorSeverity   ╭ azure  : 3 
+│                        │     ├ VendorSeverity   ╭ amazon : 3 
+│                        │     │                  ├ azure  : 3 
 │                        │     │                  ├ bitnami: 3 
 │                        │     │                  ╰ redhat : 3 
 │                        │     ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:
@@ -2974,7 +2978,8 @@
 │                        │     │                   return either unexpected results from the other query or an
 │                        │     │                   error. 
 │                        │     ├ Severity        : HIGH 
-│                        │     ├ VendorSeverity   ╭ azure  : 3 
+│                        │     ├ VendorSeverity   ╭ amazon : 3 
+│                        │     │                  ├ azure  : 3 
 │                        │     │                  ├ bitnami: 3 
 │                        │     │                  ╰ redhat : 3 
 │                        │     ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:
@@ -3286,7 +3291,8 @@
 │                              │                   return either unexpected results from the other query or an
 │                              │                   error. 
 │                              ├ Severity        : HIGH 
-│                              ├ VendorSeverity   ╭ azure  : 3 
+│                              ├ VendorSeverity   ╭ amazon : 3 
+│                              │                  ├ azure  : 3 
 │                              │                  ├ bitnami: 3 
 │                              │                  ╰ redhat : 3 
 │                              ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:
@@ -3921,7 +3927,8 @@
 │                        │      │                   call to Scan to return either unexpected results from the
 │                        │      │                   other query or an error. 
 │                        │      ├ Severity        : HIGH 
-│                        │      ├ VendorSeverity   ╭ azure  : 3 
+│                        │      ├ VendorSeverity   ╭ amazon : 3 
+│                        │      │                  ├ azure  : 3 
 │                        │      │                  ├ bitnami: 3 
 │                        │      │                  ╰ redhat : 3 
 │                        │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I
