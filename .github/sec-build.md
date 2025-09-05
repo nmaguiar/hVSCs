@@ -2413,6 +2413,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-416 
 │                        │      ├ VendorSeverity   ╭ alma       : 3 
+│                        │      │                  ├ amazon     : 3 
 │                        │      │                  ├ oracle-oval: 3 
 │                        │      │                  ├ redhat     : 3 
 │                        │      │                  ╰ ubuntu     : 2 
@@ -2434,17 +2435,18 @@
 │                        │      │                  ├ [12]: https://access.redhat.com/errata/RHSA-2025:13622 
 │                        │      │                  ├ [13]: https://access.redhat.com/errata/RHSA-2025:14059 
 │                        │      │                  ├ [14]: https://access.redhat.com/errata/RHSA-2025:14396 
-│                        │      │                  ├ [15]: https://access.redhat.com/security/cve/CVE-2025-7425 
-│                        │      │                  ├ [16]: https://bugzilla.redhat.com/2379274 
-│                        │      │                  ├ [17]: https://bugzilla.redhat.com/show_bug.cgi?id=2379274 
-│                        │      │                  ├ [18]: https://errata.almalinux.org/9/ALSA-2025-12447.html 
-│                        │      │                  ├ [19]: https://gitlab.gnome.org/GNOME/libxslt/-/issues/140 
-│                        │      │                  ├ [20]: https://linux.oracle.com/cve/CVE-2025-7425.html 
-│                        │      │                  ├ [21]: https://linux.oracle.com/errata/ELSA-2025-13464.html 
-│                        │      │                  ├ [22]: https://nvd.nist.gov/vuln/detail/CVE-2025-7425 
-│                        │      │                  ╰ [23]: https://www.cve.org/CVERecord?id=CVE-2025-7425 
+│                        │      │                  ├ [15]: https://access.redhat.com/errata/RHSA-2025:14819 
+│                        │      │                  ├ [16]: https://access.redhat.com/security/cve/CVE-2025-7425 
+│                        │      │                  ├ [17]: https://bugzilla.redhat.com/2379274 
+│                        │      │                  ├ [18]: https://bugzilla.redhat.com/show_bug.cgi?id=2379274 
+│                        │      │                  ├ [19]: https://errata.almalinux.org/9/ALSA-2025-12447.html 
+│                        │      │                  ├ [20]: https://gitlab.gnome.org/GNOME/libxslt/-/issues/140 
+│                        │      │                  ├ [21]: https://linux.oracle.com/cve/CVE-2025-7425.html 
+│                        │      │                  ├ [22]: https://linux.oracle.com/errata/ELSA-2025-13464.html 
+│                        │      │                  ├ [23]: https://nvd.nist.gov/vuln/detail/CVE-2025-7425 
+│                        │      │                  ╰ [24]: https://www.cve.org/CVERecord?id=CVE-2025-7425 
 │                        │      ├ PublishedDate   : 2025-07-10T14:15:27.877Z 
-│                        │      ╰ LastModifiedDate: 2025-08-27T22:15:58.397Z 
+│                        │      ╰ LastModifiedDate: 2025-09-02T20:15:37.66Z 
 │                        ├ [47] ╭ VulnerabilityID : CVE-2022-4899 
 │                        │      ├ PkgID           : libzstd1@1.4.8+dfsg-3build1 
 │                        │      ├ PkgName         : libzstd1 
@@ -3465,6 +3467,7 @@
 │                        │     ├ Severity        : MEDIUM 
 │                        │     ├ CweIDs           ─ [0]: CWE-674 
 │                        │     ├ VendorSeverity   ╭ amazon: 1 
+│                        │     │                  ├ azure : 2 
 │                        │     │                  ├ ghsa  : 2 
 │                        │     │                  ╰ redhat: 1 
 │                        │     ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L
@@ -3842,7 +3845,8 @@
 │                        │     │                   return either unexpected results from the other query or an
 │                        │     │                   error. 
 │                        │     ├ Severity        : HIGH 
-│                        │     ├ VendorSeverity   ╭ azure  : 3 
+│                        │     ├ VendorSeverity   ╭ amazon : 3 
+│                        │     │                  ├ azure  : 3 
 │                        │     │                  ├ bitnami: 3 
 │                        │     │                  ╰ redhat : 3 
 │                        │     ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:
@@ -4294,7 +4298,8 @@
 │                        │     │                   return either unexpected results from the other query or an
 │                        │     │                   error. 
 │                        │     ├ Severity        : HIGH 
-│                        │     ├ VendorSeverity   ╭ azure  : 3 
+│                        │     ├ VendorSeverity   ╭ amazon : 3 
+│                        │     │                  ├ azure  : 3 
 │                        │     │                  ├ bitnami: 3 
 │                        │     │                  ╰ redhat : 3 
 │                        │     ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:
@@ -4606,7 +4611,8 @@
 │                              │                   return either unexpected results from the other query or an
 │                              │                   error. 
 │                              ├ Severity        : HIGH 
-│                              ├ VendorSeverity   ╭ azure  : 3 
+│                              ├ VendorSeverity   ╭ amazon : 3 
+│                              │                  ├ azure  : 3 
 │                              │                  ├ bitnami: 3 
 │                              │                  ╰ redhat : 3 
 │                              ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:
@@ -5241,7 +5247,8 @@
 │                        │      │                   call to Scan to return either unexpected results from the
 │                        │      │                   other query or an error. 
 │                        │      ├ Severity        : HIGH 
-│                        │      ├ VendorSeverity   ╭ azure  : 3 
+│                        │      ├ VendorSeverity   ╭ amazon : 3 
+│                        │      │                  ├ azure  : 3 
 │                        │      │                  ├ bitnami: 3 
 │                        │      │                  ╰ redhat : 3 
 │                        │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I
