@@ -2192,6 +2192,7 @@
 │                        │       ├ Severity        : LOW 
 │                        │       ├ CweIDs           ─ [0]: CWE-190 
 │                        │       ├ VendorSeverity   ╭ alma       : 2 
+│                        │       │                  ├ azure      : 2 
 │                        │       │                  ├ cbl-mariner: 2 
 │                        │       │                  ├ oracle-oval: 2 
 │                        │       │                  ├ redhat     : 2 
@@ -2247,7 +2248,8 @@
 │                        │       │                   ICMP payload is zero). 
 │                        │       ├ Severity        : LOW 
 │                        │       ├ CweIDs           ─ [0]: CWE-190 
-│                        │       ├ VendorSeverity   ╭ redhat: 2 
+│                        │       ├ VendorSeverity   ╭ azure : 2 
+│                        │       │                  ├ redhat: 2 
 │                        │       │                  ╰ ubuntu: 1 
 │                        │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
 │                        │       │                           │           :N/A:L 
@@ -3232,6 +3234,7 @@
 │                        │       ├ Severity        : MEDIUM 
 │                        │       ├ CweIDs           ─ [0]: CWE-124 
 │                        │       ├ VendorSeverity   ╭ alma       : 2 
+│                        │       │                  ├ azure      : 2 
 │                        │       │                  ├ oracle-oval: 2 
 │                        │       │                  ├ redhat     : 2 
 │                        │       │                  ├ rocky      : 2 
@@ -3305,6 +3308,7 @@
 │                        │       ├ Severity        : MEDIUM 
 │                        │       ├ CweIDs           ─ [0]: CWE-124 
 │                        │       ├ VendorSeverity   ╭ alma       : 2 
+│                        │       │                  ├ azure      : 2 
 │                        │       │                  ├ oracle-oval: 2 
 │                        │       │                  ├ redhat     : 2 
 │                        │       │                  ├ rocky      : 2 
@@ -3575,6 +3579,7 @@
 │                        │       ├ Severity        : MEDIUM 
 │                        │       ├ CweIDs           ─ [0]: CWE-328 
 │                        │       ├ VendorSeverity   ╭ alma       : 2 
+│                        │       │                  ├ amazon     : 2 
 │                        │       │                  ├ oracle-oval: 2 
 │                        │       │                  ├ redhat     : 2 
 │                        │       │                  ├ rocky      : 2 
@@ -3692,6 +3697,7 @@
 │                        │       ├ Severity        : MEDIUM 
 │                        │       ├ CweIDs           ─ [0]: CWE-328 
 │                        │       ├ VendorSeverity   ╭ alma       : 2 
+│                        │       │                  ├ amazon     : 2 
 │                        │       │                  ├ oracle-oval: 2 
 │                        │       │                  ├ redhat     : 2 
 │                        │       │                  ├ rocky      : 2 
@@ -3756,6 +3762,7 @@
 │                        │       ├ Severity        : MEDIUM 
 │                        │       ├ CweIDs           ─ [0]: CWE-328 
 │                        │       ├ VendorSeverity   ╭ alma       : 2 
+│                        │       │                  ├ amazon     : 2 
 │                        │       │                  ├ oracle-oval: 2 
 │                        │       │                  ├ redhat     : 2 
 │                        │       │                  ├ rocky      : 2 
@@ -3820,6 +3827,7 @@
 │                        │       ├ Severity        : MEDIUM 
 │                        │       ├ CweIDs           ─ [0]: CWE-328 
 │                        │       ├ VendorSeverity   ╭ alma       : 2 
+│                        │       │                  ├ amazon     : 2 
 │                        │       │                  ├ oracle-oval: 2 
 │                        │       │                  ├ redhat     : 2 
 │                        │       │                  ├ rocky      : 2 
@@ -4543,23 +4551,24 @@
 │                        │       │                  ├ [12]: https://access.redhat.com/errata/RHSA-2025:11386 
 │                        │       │                  ├ [13]: https://access.redhat.com/errata/RHSA-2025:11487 
 │                        │       │                  ├ [14]: https://access.redhat.com/errata/RHSA-2025:14557 
-│                        │       │                  ├ [15]: https://access.redhat.com/errata/RHSA-2025:9526 
-│                        │       │                  ├ [16]: https://access.redhat.com/security/cve/CVE-2025-6020 
-│                        │       │                  ├ [17]: https://bugzilla.redhat.com/2372512 
-│                        │       │                  ├ [18]: https://bugzilla.redhat.com/show_bug.cgi?id=2372512 
-│                        │       │                  ├ [19]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                        │       │                  ├ [15]: https://access.redhat.com/errata/RHSA-2025:15099 
+│                        │       │                  ├ [16]: https://access.redhat.com/errata/RHSA-2025:9526 
+│                        │       │                  ├ [17]: https://access.redhat.com/security/cve/CVE-2025-6020 
+│                        │       │                  ├ [18]: https://bugzilla.redhat.com/2372512 
+│                        │       │                  ├ [19]: https://bugzilla.redhat.com/show_bug.cgi?id=2372512 
+│                        │       │                  ├ [20]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                        │       │                  │       2025-6020 
-│                        │       │                  ├ [20]: https://errata.almalinux.org/9/ALSA-2025-9526.html 
-│                        │       │                  ├ [21]: https://errata.rockylinux.org/RLSA-2025:10027 
-│                        │       │                  ├ [22]: https://linux.oracle.com/cve/CVE-2025-6020.html 
-│                        │       │                  ├ [23]: https://linux.oracle.com/errata/ELSA-2025-9526.html 
-│                        │       │                  ├ [24]: https://nvd.nist.gov/vuln/detail/CVE-2025-6020 
-│                        │       │                  ├ [25]: https://ubuntu.com/security/notices/USN-7580-1 
-│                        │       │                  ├ [26]: https://www.cve.org/CVERecord?id=CVE-2025-6020 
-│                        │       │                  ╰ [27]: https://www.openwall.com/lists/oss-security/2025/06
+│                        │       │                  ├ [21]: https://errata.almalinux.org/9/ALSA-2025-9526.html 
+│                        │       │                  ├ [22]: https://errata.rockylinux.org/RLSA-2025:10027 
+│                        │       │                  ├ [23]: https://linux.oracle.com/cve/CVE-2025-6020.html 
+│                        │       │                  ├ [24]: https://linux.oracle.com/errata/ELSA-2025-9526.html 
+│                        │       │                  ├ [25]: https://nvd.nist.gov/vuln/detail/CVE-2025-6020 
+│                        │       │                  ├ [26]: https://ubuntu.com/security/notices/USN-7580-1 
+│                        │       │                  ├ [27]: https://www.cve.org/CVERecord?id=CVE-2025-6020 
+│                        │       │                  ╰ [28]: https://www.openwall.com/lists/oss-security/2025/06
 │                        │       │                          /17/1 
 │                        │       ├ PublishedDate   : 2025-06-17T13:15:21.66Z 
-│                        │       ╰ LastModifiedDate: 2025-08-26T03:15:30.12Z 
+│                        │       ╰ LastModifiedDate: 2025-09-03T03:15:38.973Z 
 │                        ├ [79]  ╭ VulnerabilityID : CVE-2024-10041 
 │                        │       ├ PkgID           : libpam-modules-bin@1.4.0-11ubuntu2.5 
 │                        │       ├ PkgName         : libpam-modules-bin 
@@ -4671,23 +4680,24 @@
 │                        │       │                  ├ [12]: https://access.redhat.com/errata/RHSA-2025:11386 
 │                        │       │                  ├ [13]: https://access.redhat.com/errata/RHSA-2025:11487 
 │                        │       │                  ├ [14]: https://access.redhat.com/errata/RHSA-2025:14557 
-│                        │       │                  ├ [15]: https://access.redhat.com/errata/RHSA-2025:9526 
-│                        │       │                  ├ [16]: https://access.redhat.com/security/cve/CVE-2025-6020 
-│                        │       │                  ├ [17]: https://bugzilla.redhat.com/2372512 
-│                        │       │                  ├ [18]: https://bugzilla.redhat.com/show_bug.cgi?id=2372512 
-│                        │       │                  ├ [19]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                        │       │                  ├ [15]: https://access.redhat.com/errata/RHSA-2025:15099 
+│                        │       │                  ├ [16]: https://access.redhat.com/errata/RHSA-2025:9526 
+│                        │       │                  ├ [17]: https://access.redhat.com/security/cve/CVE-2025-6020 
+│                        │       │                  ├ [18]: https://bugzilla.redhat.com/2372512 
+│                        │       │                  ├ [19]: https://bugzilla.redhat.com/show_bug.cgi?id=2372512 
+│                        │       │                  ├ [20]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                        │       │                  │       2025-6020 
-│                        │       │                  ├ [20]: https://errata.almalinux.org/9/ALSA-2025-9526.html 
-│                        │       │                  ├ [21]: https://errata.rockylinux.org/RLSA-2025:10027 
-│                        │       │                  ├ [22]: https://linux.oracle.com/cve/CVE-2025-6020.html 
-│                        │       │                  ├ [23]: https://linux.oracle.com/errata/ELSA-2025-9526.html 
-│                        │       │                  ├ [24]: https://nvd.nist.gov/vuln/detail/CVE-2025-6020 
-│                        │       │                  ├ [25]: https://ubuntu.com/security/notices/USN-7580-1 
-│                        │       │                  ├ [26]: https://www.cve.org/CVERecord?id=CVE-2025-6020 
-│                        │       │                  ╰ [27]: https://www.openwall.com/lists/oss-security/2025/06
+│                        │       │                  ├ [21]: https://errata.almalinux.org/9/ALSA-2025-9526.html 
+│                        │       │                  ├ [22]: https://errata.rockylinux.org/RLSA-2025:10027 
+│                        │       │                  ├ [23]: https://linux.oracle.com/cve/CVE-2025-6020.html 
+│                        │       │                  ├ [24]: https://linux.oracle.com/errata/ELSA-2025-9526.html 
+│                        │       │                  ├ [25]: https://nvd.nist.gov/vuln/detail/CVE-2025-6020 
+│                        │       │                  ├ [26]: https://ubuntu.com/security/notices/USN-7580-1 
+│                        │       │                  ├ [27]: https://www.cve.org/CVERecord?id=CVE-2025-6020 
+│                        │       │                  ╰ [28]: https://www.openwall.com/lists/oss-security/2025/06
 │                        │       │                          /17/1 
 │                        │       ├ PublishedDate   : 2025-06-17T13:15:21.66Z 
-│                        │       ╰ LastModifiedDate: 2025-08-26T03:15:30.12Z 
+│                        │       ╰ LastModifiedDate: 2025-09-03T03:15:38.973Z 
 │                        ├ [81]  ╭ VulnerabilityID : CVE-2024-10041 
 │                        │       ├ PkgID           : libpam-runtime@1.4.0-11ubuntu2.5 
 │                        │       ├ PkgName         : libpam-runtime 
@@ -4799,23 +4809,24 @@
 │                        │       │                  ├ [12]: https://access.redhat.com/errata/RHSA-2025:11386 
 │                        │       │                  ├ [13]: https://access.redhat.com/errata/RHSA-2025:11487 
 │                        │       │                  ├ [14]: https://access.redhat.com/errata/RHSA-2025:14557 
-│                        │       │                  ├ [15]: https://access.redhat.com/errata/RHSA-2025:9526 
-│                        │       │                  ├ [16]: https://access.redhat.com/security/cve/CVE-2025-6020 
-│                        │       │                  ├ [17]: https://bugzilla.redhat.com/2372512 
-│                        │       │                  ├ [18]: https://bugzilla.redhat.com/show_bug.cgi?id=2372512 
-│                        │       │                  ├ [19]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                        │       │                  ├ [15]: https://access.redhat.com/errata/RHSA-2025:15099 
+│                        │       │                  ├ [16]: https://access.redhat.com/errata/RHSA-2025:9526 
+│                        │       │                  ├ [17]: https://access.redhat.com/security/cve/CVE-2025-6020 
+│                        │       │                  ├ [18]: https://bugzilla.redhat.com/2372512 
+│                        │       │                  ├ [19]: https://bugzilla.redhat.com/show_bug.cgi?id=2372512 
+│                        │       │                  ├ [20]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                        │       │                  │       2025-6020 
-│                        │       │                  ├ [20]: https://errata.almalinux.org/9/ALSA-2025-9526.html 
-│                        │       │                  ├ [21]: https://errata.rockylinux.org/RLSA-2025:10027 
-│                        │       │                  ├ [22]: https://linux.oracle.com/cve/CVE-2025-6020.html 
-│                        │       │                  ├ [23]: https://linux.oracle.com/errata/ELSA-2025-9526.html 
-│                        │       │                  ├ [24]: https://nvd.nist.gov/vuln/detail/CVE-2025-6020 
-│                        │       │                  ├ [25]: https://ubuntu.com/security/notices/USN-7580-1 
-│                        │       │                  ├ [26]: https://www.cve.org/CVERecord?id=CVE-2025-6020 
-│                        │       │                  ╰ [27]: https://www.openwall.com/lists/oss-security/2025/06
+│                        │       │                  ├ [21]: https://errata.almalinux.org/9/ALSA-2025-9526.html 
+│                        │       │                  ├ [22]: https://errata.rockylinux.org/RLSA-2025:10027 
+│                        │       │                  ├ [23]: https://linux.oracle.com/cve/CVE-2025-6020.html 
+│                        │       │                  ├ [24]: https://linux.oracle.com/errata/ELSA-2025-9526.html 
+│                        │       │                  ├ [25]: https://nvd.nist.gov/vuln/detail/CVE-2025-6020 
+│                        │       │                  ├ [26]: https://ubuntu.com/security/notices/USN-7580-1 
+│                        │       │                  ├ [27]: https://www.cve.org/CVERecord?id=CVE-2025-6020 
+│                        │       │                  ╰ [28]: https://www.openwall.com/lists/oss-security/2025/06
 │                        │       │                          /17/1 
 │                        │       ├ PublishedDate   : 2025-06-17T13:15:21.66Z 
-│                        │       ╰ LastModifiedDate: 2025-08-26T03:15:30.12Z 
+│                        │       ╰ LastModifiedDate: 2025-09-03T03:15:38.973Z 
 │                        ├ [83]  ╭ VulnerabilityID : CVE-2025-4598 
 │                        │       ├ PkgID           : libpam-systemd@249.11-0ubuntu3.12 
 │                        │       ├ PkgName         : libpam-systemd 
@@ -5086,23 +5097,24 @@
 │                        │       │                  ├ [12]: https://access.redhat.com/errata/RHSA-2025:11386 
 │                        │       │                  ├ [13]: https://access.redhat.com/errata/RHSA-2025:11487 
 │                        │       │                  ├ [14]: https://access.redhat.com/errata/RHSA-2025:14557 
-│                        │       │                  ├ [15]: https://access.redhat.com/errata/RHSA-2025:9526 
-│                        │       │                  ├ [16]: https://access.redhat.com/security/cve/CVE-2025-6020 
-│                        │       │                  ├ [17]: https://bugzilla.redhat.com/2372512 
-│                        │       │                  ├ [18]: https://bugzilla.redhat.com/show_bug.cgi?id=2372512 
-│                        │       │                  ├ [19]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                        │       │                  ├ [15]: https://access.redhat.com/errata/RHSA-2025:15099 
+│                        │       │                  ├ [16]: https://access.redhat.com/errata/RHSA-2025:9526 
+│                        │       │                  ├ [17]: https://access.redhat.com/security/cve/CVE-2025-6020 
+│                        │       │                  ├ [18]: https://bugzilla.redhat.com/2372512 
+│                        │       │                  ├ [19]: https://bugzilla.redhat.com/show_bug.cgi?id=2372512 
+│                        │       │                  ├ [20]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                        │       │                  │       2025-6020 
-│                        │       │                  ├ [20]: https://errata.almalinux.org/9/ALSA-2025-9526.html 
-│                        │       │                  ├ [21]: https://errata.rockylinux.org/RLSA-2025:10027 
-│                        │       │                  ├ [22]: https://linux.oracle.com/cve/CVE-2025-6020.html 
-│                        │       │                  ├ [23]: https://linux.oracle.com/errata/ELSA-2025-9526.html 
-│                        │       │                  ├ [24]: https://nvd.nist.gov/vuln/detail/CVE-2025-6020 
-│                        │       │                  ├ [25]: https://ubuntu.com/security/notices/USN-7580-1 
-│                        │       │                  ├ [26]: https://www.cve.org/CVERecord?id=CVE-2025-6020 
-│                        │       │                  ╰ [27]: https://www.openwall.com/lists/oss-security/2025/06
+│                        │       │                  ├ [21]: https://errata.almalinux.org/9/ALSA-2025-9526.html 
+│                        │       │                  ├ [22]: https://errata.rockylinux.org/RLSA-2025:10027 
+│                        │       │                  ├ [23]: https://linux.oracle.com/cve/CVE-2025-6020.html 
+│                        │       │                  ├ [24]: https://linux.oracle.com/errata/ELSA-2025-9526.html 
+│                        │       │                  ├ [25]: https://nvd.nist.gov/vuln/detail/CVE-2025-6020 
+│                        │       │                  ├ [26]: https://ubuntu.com/security/notices/USN-7580-1 
+│                        │       │                  ├ [27]: https://www.cve.org/CVERecord?id=CVE-2025-6020 
+│                        │       │                  ╰ [28]: https://www.openwall.com/lists/oss-security/2025/06
 │                        │       │                          /17/1 
 │                        │       ├ PublishedDate   : 2025-06-17T13:15:21.66Z 
-│                        │       ╰ LastModifiedDate: 2025-08-26T03:15:30.12Z 
+│                        │       ╰ LastModifiedDate: 2025-09-03T03:15:38.973Z 
 │                        ├ [87]  ╭ VulnerabilityID : CVE-2022-41409 
 │                        │       ├ PkgID           : libpcre2-8-0@10.39-3ubuntu0.1 
 │                        │       ├ PkgName         : libpcre2-8-0 
@@ -6864,7 +6876,8 @@
 │                        │       ├ Severity        : MEDIUM 
 │                        │       ├ CweIDs           ╭ [0]: CWE-404 
 │                        │       │                  ╰ [1]: CWE-476 
-│                        │       ├ VendorSeverity   ╭ redhat: 1 
+│                        │       ├ VendorSeverity   ╭ azure : 1 
+│                        │       │                  ├ redhat: 1 
 │                        │       │                  ╰ ubuntu: 2 
 │                        │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I
 │                        │       │                           │           :N/A:L 
@@ -6916,7 +6929,8 @@
 │                        │       ├ Severity        : MEDIUM 
 │                        │       ├ CweIDs           ╭ [0]: CWE-119 
 │                        │       │                  ╰ [1]: CWE-121 
-│                        │       ├ VendorSeverity   ╭ redhat: 2 
+│                        │       ├ VendorSeverity   ╭ amazon: 2 
+│                        │       │                  ├ redhat: 2 
 │                        │       │                  ╰ ubuntu: 2 
 │                        │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I
 │                        │       │                           │           :L/A:L 
@@ -7011,6 +7025,7 @@
 │                        │       ├ CweIDs           ╭ [0]: CWE-119 
 │                        │       │                  ╰ [1]: CWE-416 
 │                        │       ├ VendorSeverity   ╭ amazon: 2 
+│                        │       │                  ├ azure : 1 
 │                        │       │                  ├ redhat: 2 
 │                        │       │                  ╰ ubuntu: 1 
 │                        │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I
@@ -7586,7 +7601,7 @@
 │                        │       │                  ├ [34]: https://ubuntu.com/security/notices/USN-7694-1 
 │                        │       │                  ╰ [35]: https://www.cve.org/CVERecord?id=CVE-2025-6021 
 │                        │       ├ PublishedDate   : 2025-06-12T13:15:25.59Z 
-│                        │       ╰ LastModifiedDate: 2025-08-31T04:15:55.17Z 
+│                        │       ╰ LastModifiedDate: 2025-09-03T15:15:48.473Z 
 │                        ├ [127] ╭ VulnerabilityID : CVE-2025-6170 
 │                        │       ├ PkgID           : libxml2@2.9.13+dfsg-1ubuntu0.6 
 │                        │       ├ PkgName         : libxml2 
@@ -7779,6 +7794,7 @@
 │                        │       ├ Severity        : MEDIUM 
 │                        │       ├ CweIDs           ─ [0]: CWE-416 
 │                        │       ├ VendorSeverity   ╭ alma       : 3 
+│                        │       │                  ├ amazon     : 3 
 │                        │       │                  ├ oracle-oval: 3 
 │                        │       │                  ├ redhat     : 3 
 │                        │       │                  ╰ ubuntu     : 2 
@@ -7800,17 +7816,18 @@
 │                        │       │                  ├ [12]: https://access.redhat.com/errata/RHSA-2025:13622 
 │                        │       │                  ├ [13]: https://access.redhat.com/errata/RHSA-2025:14059 
 │                        │       │                  ├ [14]: https://access.redhat.com/errata/RHSA-2025:14396 
-│                        │       │                  ├ [15]: https://access.redhat.com/security/cve/CVE-2025-7425 
-│                        │       │                  ├ [16]: https://bugzilla.redhat.com/2379274 
-│                        │       │                  ├ [17]: https://bugzilla.redhat.com/show_bug.cgi?id=2379274 
-│                        │       │                  ├ [18]: https://errata.almalinux.org/9/ALSA-2025-12447.html 
-│                        │       │                  ├ [19]: https://gitlab.gnome.org/GNOME/libxslt/-/issues/140 
-│                        │       │                  ├ [20]: https://linux.oracle.com/cve/CVE-2025-7425.html 
-│                        │       │                  ├ [21]: https://linux.oracle.com/errata/ELSA-2025-13464.html 
-│                        │       │                  ├ [22]: https://nvd.nist.gov/vuln/detail/CVE-2025-7425 
-│                        │       │                  ╰ [23]: https://www.cve.org/CVERecord?id=CVE-2025-7425 
+│                        │       │                  ├ [15]: https://access.redhat.com/errata/RHSA-2025:14819 
+│                        │       │                  ├ [16]: https://access.redhat.com/security/cve/CVE-2025-7425 
+│                        │       │                  ├ [17]: https://bugzilla.redhat.com/2379274 
+│                        │       │                  ├ [18]: https://bugzilla.redhat.com/show_bug.cgi?id=2379274 
+│                        │       │                  ├ [19]: https://errata.almalinux.org/9/ALSA-2025-12447.html 
+│                        │       │                  ├ [20]: https://gitlab.gnome.org/GNOME/libxslt/-/issues/140 
+│                        │       │                  ├ [21]: https://linux.oracle.com/cve/CVE-2025-7425.html 
+│                        │       │                  ├ [22]: https://linux.oracle.com/errata/ELSA-2025-13464.html 
+│                        │       │                  ├ [23]: https://nvd.nist.gov/vuln/detail/CVE-2025-7425 
+│                        │       │                  ╰ [24]: https://www.cve.org/CVERecord?id=CVE-2025-7425 
 │                        │       ├ PublishedDate   : 2025-07-10T14:15:27.877Z 
-│                        │       ╰ LastModifiedDate: 2025-08-27T22:15:58.397Z 
+│                        │       ╰ LastModifiedDate: 2025-09-02T20:15:37.66Z 
 │                        ├ [131] ╭ VulnerabilityID : CVE-2022-4899 
 │                        │       ├ PkgID           : libzstd1@1.4.8+dfsg-3build1 
 │                        │       ├ PkgName         : libzstd1 
@@ -10830,6 +10847,7 @@
 │                        │     ├ Severity        : MEDIUM 
 │                        │     ├ CweIDs           ─ [0]: CWE-674 
 │                        │     ├ VendorSeverity   ╭ amazon: 1 
+│                        │     │                  ├ azure : 2 
 │                        │     │                  ├ ghsa  : 2 
 │                        │     │                  ╰ redhat: 1 
 │                        │     ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L
@@ -10885,6 +10903,7 @@
 │                        │     ├ Severity        : MEDIUM 
 │                        │     ├ CweIDs           ─ [0]: CWE-674 
 │                        │     ├ VendorSeverity   ╭ amazon: 1 
+│                        │     │                  ├ azure : 2 
 │                        │     │                  ├ ghsa  : 2 
 │                        │     │                  ╰ redhat: 1 
 │                        │     ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L
@@ -11262,7 +11281,8 @@
 │                        │     │                   return either unexpected results from the other query or an
 │                        │     │                   error. 
 │                        │     ├ Severity        : HIGH 
-│                        │     ├ VendorSeverity   ╭ azure  : 3 
+│                        │     ├ VendorSeverity   ╭ amazon : 3 
+│                        │     │                  ├ azure  : 3 
 │                        │     │                  ├ bitnami: 3 
 │                        │     │                  ╰ redhat : 3 
 │                        │     ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:
@@ -11714,7 +11734,8 @@
 │                        │     │                   return either unexpected results from the other query or an
 │                        │     │                   error. 
 │                        │     ├ Severity        : HIGH 
-│                        │     ├ VendorSeverity   ╭ azure  : 3 
+│                        │     ├ VendorSeverity   ╭ amazon : 3 
+│                        │     │                  ├ azure  : 3 
 │                        │     │                  ├ bitnami: 3 
 │                        │     │                  ╰ redhat : 3 
 │                        │     ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:
@@ -12561,7 +12582,8 @@
 │                        │      │                   call to Scan to return either unexpected results from the
 │                        │      │                   other query or an error. 
 │                        │      ├ Severity        : HIGH 
-│                        │      ├ VendorSeverity   ╭ azure  : 3 
+│                        │      ├ VendorSeverity   ╭ amazon : 3 
+│                        │      │                  ├ azure  : 3 
 │                        │      │                  ├ bitnami: 3 
 │                        │      │                  ╰ redhat : 3 
 │                        │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I
@@ -12982,7 +13004,8 @@
 │                        │     │                   return either unexpected results from the other query or an
 │                        │     │                   error. 
 │                        │     ├ Severity        : HIGH 
-│                        │     ├ VendorSeverity   ╭ azure  : 3 
+│                        │     ├ VendorSeverity   ╭ amazon : 3 
+│                        │     │                  ├ azure  : 3 
 │                        │     │                  ├ bitnami: 3 
 │                        │     │                  ╰ redhat : 3 
 │                        │     ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:
@@ -13328,7 +13351,8 @@
 │                        │     │                   return either unexpected results from the other query or an
 │                        │     │                   error. 
 │                        │     ├ Severity        : HIGH 
-│                        │     ├ VendorSeverity   ╭ azure  : 3 
+│                        │     ├ VendorSeverity   ╭ amazon : 3 
+│                        │     │                  ├ azure  : 3 
 │                        │     │                  ├ bitnami: 3 
 │                        │     │                  ╰ redhat : 3 
 │                        │     ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:
@@ -13684,7 +13708,8 @@
 │                        │     │                   return either unexpected results from the other query or an
 │                        │     │                   error. 
 │                        │     ├ Severity        : HIGH 
-│                        │     ├ VendorSeverity   ╭ azure  : 3 
+│                        │     ├ VendorSeverity   ╭ amazon : 3 
+│                        │     │                  ├ azure  : 3 
 │                        │     │                  ├ bitnami: 3 
 │                        │     │                  ╰ redhat : 3 
 │                        │     ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:
@@ -14468,7 +14493,8 @@
 │                        │      │                   call to Scan to return either unexpected results from the
 │                        │      │                   other query or an error. 
 │                        │      ├ Severity        : HIGH 
-│                        │      ├ VendorSeverity   ╭ azure  : 3 
+│                        │      ├ VendorSeverity   ╭ amazon : 3 
+│                        │      │                  ├ azure  : 3 
 │                        │      │                  ├ bitnami: 3 
 │                        │      │                  ╰ redhat : 3 
 │                        │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I
