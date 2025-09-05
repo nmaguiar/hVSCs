@@ -2230,6 +2230,7 @@
     - CWE-416
     VendorSeverity:
       alma: 3
+      amazon: 3
       oracle-oval: 3
       redhat: 3
       ubuntu: 2
@@ -2253,6 +2254,7 @@
     - https://access.redhat.com/errata/RHSA-2025:13622
     - https://access.redhat.com/errata/RHSA-2025:14059
     - https://access.redhat.com/errata/RHSA-2025:14396
+    - https://access.redhat.com/errata/RHSA-2025:14819
     - https://access.redhat.com/security/cve/CVE-2025-7425
     - https://bugzilla.redhat.com/2379274
     - https://bugzilla.redhat.com/show_bug.cgi?id=2379274
@@ -2263,7 +2265,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-7425
     - https://www.cve.org/CVERecord?id=CVE-2025-7425
     PublishedDate: '2025-07-10T14:15:27.877Z'
-    LastModifiedDate: '2025-08-27T22:15:58.397Z'
+    LastModifiedDate: '2025-09-02T20:15:37.66Z'
   - VulnerabilityID: CVE-2022-4899
     PkgID: libzstd1@1.4.8+dfsg-3build1
     PkgName: libzstd1
@@ -3130,6 +3132,7 @@
     - CWE-674
     VendorSeverity:
       amazon: 1
+      azure: 2
       ghsa: 2
       redhat: 1
     CVSS:
@@ -3450,6 +3453,7 @@
     Description: Cancelling a query (e.g. by cancelling the context passed to one of the query methods) during a call to the Scan method of the returned Rows can result in unexpected results if other queries are being made in parallel. This can result in a race condition that may overwrite the expected results with those of another query, causing the call to Scan to return either unexpected results from the other query or an error.
     Severity: HIGH
     VendorSeverity:
+      amazon: 3
       azure: 3
       bitnami: 3
       redhat: 3
@@ -3859,6 +3863,7 @@
     Description: Cancelling a query (e.g. by cancelling the context passed to one of the query methods) during a call to the Scan method of the returned Rows can result in unexpected results if other queries are being made in parallel. This can result in a race condition that may overwrite the expected results with those of another query, causing the call to Scan to return either unexpected results from the other query or an error.
     Severity: HIGH
     VendorSeverity:
+      amazon: 3
       azure: 3
       bitnami: 3
       redhat: 3
@@ -4090,6 +4095,7 @@
     Description: Cancelling a query (e.g. by cancelling the context passed to one of the query methods) during a call to the Scan method of the returned Rows can result in unexpected results if other queries are being made in parallel. This can result in a race condition that may overwrite the expected results with those of another query, causing the call to Scan to return either unexpected results from the other query or an error.
     Severity: HIGH
     VendorSeverity:
+      amazon: 3
       azure: 3
       bitnami: 3
       redhat: 3
@@ -4597,6 +4603,7 @@
     Description: Cancelling a query (e.g. by cancelling the context passed to one of the query methods) during a call to the Scan method of the returned Rows can result in unexpected results if other queries are being made in parallel. This can result in a race condition that may overwrite the expected results with those of another query, causing the call to Scan to return either unexpected results from the other query or an error.
     Severity: HIGH
     VendorSeverity:
+      amazon: 3
       azure: 3
       bitnami: 3
       redhat: 3
