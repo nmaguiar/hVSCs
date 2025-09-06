@@ -139,7 +139,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2213166
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-34969
     - https://errata.almalinux.org/9/ALSA-2023-4569.html
-    - https://errata.rockylinux.org/RLSA-2023:4569
+    - https://errata.rockylinux.org/RLSA-2023:4498
     - https://gitlab.freedesktop.org/dbus/dbus/-/issues/457
     - https://linux.oracle.com/cve/CVE-2023-34969.html
     - https://linux.oracle.com/errata/ELSA-2023-4569.html
@@ -197,7 +197,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2213166
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-34969
     - https://errata.almalinux.org/9/ALSA-2023-4569.html
-    - https://errata.rockylinux.org/RLSA-2023:4569
+    - https://errata.rockylinux.org/RLSA-2023:4498
     - https://gitlab.freedesktop.org/dbus/dbus/-/issues/457
     - https://linux.oracle.com/cve/CVE-2023-34969.html
     - https://linux.oracle.com/errata/ELSA-2023-4569.html
@@ -2396,7 +2396,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2213166
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-34969
     - https://errata.almalinux.org/9/ALSA-2023-4569.html
-    - https://errata.rockylinux.org/RLSA-2023:4569
+    - https://errata.rockylinux.org/RLSA-2023:4498
     - https://gitlab.freedesktop.org/dbus/dbus/-/issues/457
     - https://linux.oracle.com/cve/CVE-2023-34969.html
     - https://linux.oracle.com/errata/ELSA-2023-4569.html
@@ -3929,7 +3929,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222672
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-7008
     - https://errata.almalinux.org/9/ALSA-2024-2463.html
-    - https://errata.rockylinux.org/RLSA-2024:2463
+    - https://errata.rockylinux.org/RLSA-2024:3203
     - https://github.com/systemd/systemd/issues/25676
     - https://linux.oracle.com/cve/CVE-2023-7008.html
     - https://linux.oracle.com/errata/ELSA-2024-3203.html
@@ -4414,7 +4414,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222672
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-7008
     - https://errata.almalinux.org/9/ALSA-2024-2463.html
-    - https://errata.rockylinux.org/RLSA-2024:2463
+    - https://errata.rockylinux.org/RLSA-2024:3203
     - https://github.com/systemd/systemd/issues/25676
     - https://linux.oracle.com/cve/CVE-2023-7008.html
     - https://linux.oracle.com/errata/ELSA-2024-3203.html
@@ -4715,8 +4715,8 @@
     Description: "Perl threads have a working directory race condition where file operations may target unintended paths.\n\nIf a directory handle is open at thread creation, the process-wide current working directory is temporarily changed in order to clone\_that handle for the new thread, which is visible from any third (or\_more) thread already running. \n\nThis may lead to unintended operations\_such as loading code or accessing files from unexpected locations,\_which a local attacker may be able to exploit.\n\nThe bug was introduced in commit\_11a11ecf4bea72b17d250cfb43c897be1341861e and released in Perl version 5.13.6"
     Severity: MEDIUM
     CweIDs:
-    - CWE-362
     - CWE-426
+    - CWE-689
     VendorSeverity:
       alma: 2
       amazon: 2
@@ -4759,7 +4759,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-40909
     - https://www.openwall.com/lists/oss-security/2025/05/22/2
     PublishedDate: '2025-05-30T13:15:22.35Z'
-    LastModifiedDate: '2025-06-03T04:15:40.47Z'
+    LastModifiedDate: '2025-09-05T14:15:44.947Z'
   - VulnerabilityID: CVE-2025-4516
     PkgID: libpython3.10@3.10.12-1~22.04.9
     PkgName: libpython3.10
@@ -4784,7 +4784,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       azure: 2
       cbl-mariner: 2
       redhat: 2
@@ -5000,7 +5000,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       azure: 2
       cbl-mariner: 2
       redhat: 2
@@ -5216,7 +5216,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       azure: 2
       cbl-mariner: 2
       redhat: 2
@@ -6000,7 +6000,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222672
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-7008
     - https://errata.almalinux.org/9/ALSA-2024-2463.html
-    - https://errata.rockylinux.org/RLSA-2024:2463
+    - https://errata.rockylinux.org/RLSA-2024:3203
     - https://github.com/systemd/systemd/issues/25676
     - https://linux.oracle.com/cve/CVE-2023-7008.html
     - https://linux.oracle.com/errata/ELSA-2024-3203.html
@@ -6347,7 +6347,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222672
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-7008
     - https://errata.almalinux.org/9/ALSA-2024-2463.html
-    - https://errata.rockylinux.org/RLSA-2024:2463
+    - https://errata.rockylinux.org/RLSA-2024:3203
     - https://github.com/systemd/systemd/issues/25676
     - https://linux.oracle.com/cve/CVE-2023-7008.html
     - https://linux.oracle.com/errata/ELSA-2024-3203.html
@@ -6894,7 +6894,10 @@
     - https://access.redhat.com/errata/RHSA-2025:13622
     - https://access.redhat.com/errata/RHSA-2025:14059
     - https://access.redhat.com/errata/RHSA-2025:14396
+    - https://access.redhat.com/errata/RHSA-2025:14818
     - https://access.redhat.com/errata/RHSA-2025:14819
+    - https://access.redhat.com/errata/RHSA-2025:14853
+    - https://access.redhat.com/errata/RHSA-2025:14858
     - https://access.redhat.com/security/cve/CVE-2025-7425
     - https://bugzilla.redhat.com/2379274
     - https://bugzilla.redhat.com/show_bug.cgi?id=2379274
@@ -6905,7 +6908,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-7425
     - https://www.cve.org/CVERecord?id=CVE-2025-7425
     PublishedDate: '2025-07-10T14:15:27.877Z'
-    LastModifiedDate: '2025-09-02T20:15:37.66Z'
+    LastModifiedDate: '2025-09-04T21:15:37.2Z'
   - VulnerabilityID: CVE-2022-4899
     PkgID: libzstd1@1.4.8+dfsg-3build1
     PkgName: libzstd1
@@ -7811,8 +7814,8 @@
     Description: "Perl threads have a working directory race condition where file operations may target unintended paths.\n\nIf a directory handle is open at thread creation, the process-wide current working directory is temporarily changed in order to clone\_that handle for the new thread, which is visible from any third (or\_more) thread already running. \n\nThis may lead to unintended operations\_such as loading code or accessing files from unexpected locations,\_which a local attacker may be able to exploit.\n\nThe bug was introduced in commit\_11a11ecf4bea72b17d250cfb43c897be1341861e and released in Perl version 5.13.6"
     Severity: MEDIUM
     CweIDs:
-    - CWE-362
     - CWE-426
+    - CWE-689
     VendorSeverity:
       alma: 2
       amazon: 2
@@ -7855,7 +7858,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-40909
     - https://www.openwall.com/lists/oss-security/2025/05/22/2
     PublishedDate: '2025-05-30T13:15:22.35Z'
-    LastModifiedDate: '2025-06-03T04:15:40.47Z'
+    LastModifiedDate: '2025-09-05T14:15:44.947Z'
   - VulnerabilityID: CVE-2024-56406
     PkgID: perl-base@5.34.0-3ubuntu1.3
     PkgName: perl-base
@@ -7933,8 +7936,8 @@
     Description: "Perl threads have a working directory race condition where file operations may target unintended paths.\n\nIf a directory handle is open at thread creation, the process-wide current working directory is temporarily changed in order to clone\_that handle for the new thread, which is visible from any third (or\_more) thread already running. \n\nThis may lead to unintended operations\_such as loading code or accessing files from unexpected locations,\_which a local attacker may be able to exploit.\n\nThe bug was introduced in commit\_11a11ecf4bea72b17d250cfb43c897be1341861e and released in Perl version 5.13.6"
     Severity: MEDIUM
     CweIDs:
-    - CWE-362
     - CWE-426
+    - CWE-689
     VendorSeverity:
       alma: 2
       amazon: 2
@@ -7977,7 +7980,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-40909
     - https://www.openwall.com/lists/oss-security/2025/05/22/2
     PublishedDate: '2025-05-30T13:15:22.35Z'
-    LastModifiedDate: '2025-06-03T04:15:40.47Z'
+    LastModifiedDate: '2025-09-05T14:15:44.947Z'
   - VulnerabilityID: CVE-2024-56406
     PkgID: perl-modules-5.34@5.34.0-3ubuntu1.3
     PkgName: perl-modules-5.34
@@ -8055,8 +8058,8 @@
     Description: "Perl threads have a working directory race condition where file operations may target unintended paths.\n\nIf a directory handle is open at thread creation, the process-wide current working directory is temporarily changed in order to clone\_that handle for the new thread, which is visible from any third (or\_more) thread already running. \n\nThis may lead to unintended operations\_such as loading code or accessing files from unexpected locations,\_which a local attacker may be able to exploit.\n\nThe bug was introduced in commit\_11a11ecf4bea72b17d250cfb43c897be1341861e and released in Perl version 5.13.6"
     Severity: MEDIUM
     CweIDs:
-    - CWE-362
     - CWE-426
+    - CWE-689
     VendorSeverity:
       alma: 2
       amazon: 2
@@ -8099,7 +8102,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-40909
     - https://www.openwall.com/lists/oss-security/2025/05/22/2
     PublishedDate: '2025-05-30T13:15:22.35Z'
-    LastModifiedDate: '2025-06-03T04:15:40.47Z'
+    LastModifiedDate: '2025-09-05T14:15:44.947Z'
   - VulnerabilityID: CVE-2025-4516
     PkgID: python3.10@3.10.12-1~22.04.9
     PkgName: python3.10
@@ -8124,7 +8127,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       azure: 2
       cbl-mariner: 2
       redhat: 2
@@ -8340,7 +8343,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       azure: 2
       cbl-mariner: 2
       redhat: 2
@@ -8712,7 +8715,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222672
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-7008
     - https://errata.almalinux.org/9/ALSA-2024-2463.html
-    - https://errata.rockylinux.org/RLSA-2024:2463
+    - https://errata.rockylinux.org/RLSA-2024:3203
     - https://github.com/systemd/systemd/issues/25676
     - https://linux.oracle.com/cve/CVE-2023-7008.html
     - https://linux.oracle.com/errata/ELSA-2024-3203.html
@@ -8834,7 +8837,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222672
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-7008
     - https://errata.almalinux.org/9/ALSA-2024-2463.html
-    - https://errata.rockylinux.org/RLSA-2024:2463
+    - https://errata.rockylinux.org/RLSA-2024:3203
     - https://github.com/systemd/systemd/issues/25676
     - https://linux.oracle.com/cve/CVE-2023-7008.html
     - https://linux.oracle.com/errata/ELSA-2024-3203.html
@@ -8956,7 +8959,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222672
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-7008
     - https://errata.almalinux.org/9/ALSA-2024-2463.html
-    - https://errata.rockylinux.org/RLSA-2024:2463
+    - https://errata.rockylinux.org/RLSA-2024:3203
     - https://github.com/systemd/systemd/issues/25676
     - https://linux.oracle.com/cve/CVE-2023-7008.html
     - https://linux.oracle.com/errata/ELSA-2024-3203.html
@@ -9532,7 +9535,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45290
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24783
     - https://errata.almalinux.org/9/ALSA-2024-2724.html
-    - https://errata.rockylinux.org/RLSA-2024:2724
+    - https://errata.rockylinux.org/RLSA-2024:3346
     - https://go.dev/cl/576155
     - https://go.dev/issue/65051
     - https://groups.google.com/g/golang-announce/c/YgW0sx8mN3M
@@ -9629,7 +9632,7 @@
     Description: The tokenizer incorrectly interprets tags with unquoted attribute values that end with a solidus character (/) as self-closing. When directly using Tokenizer, this can result in such tags incorrectly being marked as self-closing, and when using the Parse functions, this can result in content following such tags as being placed in the wrong scope during DOM construction, but only when tags are in foreign content (e.g. <math>, <svg>, etc contexts).
     Severity: MEDIUM
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       azure: 2
       cbl-mariner: 2
       ghsa: 2
@@ -9942,7 +9945,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45290
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24783
     - https://errata.almalinux.org/9/ALSA-2024-2724.html
-    - https://errata.rockylinux.org/RLSA-2024:2724
+    - https://errata.rockylinux.org/RLSA-2024:3346
     - https://go.dev/cl/576155
     - https://go.dev/issue/65051
     - https://groups.google.com/g/golang-announce/c/YgW0sx8mN3M
@@ -10039,7 +10042,7 @@
     Description: The tokenizer incorrectly interprets tags with unquoted attribute values that end with a solidus character (/) as self-closing. When directly using Tokenizer, this can result in such tags incorrectly being marked as self-closing, and when using the Parse functions, this can result in content following such tags as being placed in the wrong scope during DOM construction, but only when tags are in foreign content (e.g. <math>, <svg>, etc contexts).
     Severity: MEDIUM
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       azure: 2
       cbl-mariner: 2
       ghsa: 2
@@ -10672,7 +10675,7 @@
     Description: The tokenizer incorrectly interprets tags with unquoted attribute values that end with a solidus character (/) as self-closing. When directly using Tokenizer, this can result in such tags incorrectly being marked as self-closing, and when using the Parse functions, this can result in content following such tags as being placed in the wrong scope during DOM construction, but only when tags are in foreign content (e.g. <math>, <svg>, etc contexts).
     Severity: MEDIUM
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       azure: 2
       cbl-mariner: 2
       ghsa: 2
@@ -11052,7 +11055,7 @@
     Description: The tokenizer incorrectly interprets tags with unquoted attribute values that end with a solidus character (/) as self-closing. When directly using Tokenizer, this can result in such tags incorrectly being marked as self-closing, and when using the Parse functions, this can result in content following such tags as being placed in the wrong scope during DOM construction, but only when tags are in foreign content (e.g. <math>, <svg>, etc contexts).
     Severity: MEDIUM
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       azure: 2
       cbl-mariner: 2
       ghsa: 2
@@ -11382,7 +11385,7 @@
     Description: The tokenizer incorrectly interprets tags with unquoted attribute values that end with a solidus character (/) as self-closing. When directly using Tokenizer, this can result in such tags incorrectly being marked as self-closing, and when using the Parse functions, this can result in content following such tags as being placed in the wrong scope during DOM construction, but only when tags are in foreign content (e.g. <math>, <svg>, etc contexts).
     Severity: MEDIUM
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       azure: 2
       cbl-mariner: 2
       ghsa: 2
@@ -11715,7 +11718,7 @@
     Description: The tokenizer incorrectly interprets tags with unquoted attribute values that end with a solidus character (/) as self-closing. When directly using Tokenizer, this can result in such tags incorrectly being marked as self-closing, and when using the Parse functions, this can result in content following such tags as being placed in the wrong scope during DOM construction, but only when tags are in foreign content (e.g. <math>, <svg>, etc contexts).
     Severity: MEDIUM
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       azure: 2
       cbl-mariner: 2
       ghsa: 2
@@ -12325,7 +12328,7 @@
     Description: The tokenizer incorrectly interprets tags with unquoted attribute values that end with a solidus character (/) as self-closing. When directly using Tokenizer, this can result in such tags incorrectly being marked as self-closing, and when using the Parse functions, this can result in content following such tags as being placed in the wrong scope during DOM construction, but only when tags are in foreign content (e.g. <math>, <svg>, etc contexts).
     Severity: MEDIUM
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       azure: 2
       cbl-mariner: 2
       ghsa: 2
