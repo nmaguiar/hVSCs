@@ -153,7 +153,7 @@
 │                        │       │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                        │       │                  │       2023-34969 
 │                        │       │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2023-4569.html 
-│                        │       │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4569 
+│                        │       │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4498 
 │                        │       │                  ├ [7] : https://gitlab.freedesktop.org/dbus/dbus/-/issues/457 
 │                        │       │                  ├ [8] : https://linux.oracle.com/cve/CVE-2023-34969.html 
 │                        │       │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2023-4569.html 
@@ -222,7 +222,7 @@
 │                        │       │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                        │       │                  │       2023-34969 
 │                        │       │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2023-4569.html 
-│                        │       │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4569 
+│                        │       │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4498 
 │                        │       │                  ├ [7] : https://gitlab.freedesktop.org/dbus/dbus/-/issues/457 
 │                        │       │                  ├ [8] : https://linux.oracle.com/cve/CVE-2023-34969.html 
 │                        │       │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2023-4569.html 
@@ -2708,7 +2708,7 @@
 │                        │       │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                        │       │                  │       2023-34969 
 │                        │       │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2023-4569.html 
-│                        │       │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4569 
+│                        │       │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4498 
 │                        │       │                  ├ [7] : https://gitlab.freedesktop.org/dbus/dbus/-/issues/457 
 │                        │       │                  ├ [8] : https://linux.oracle.com/cve/CVE-2023-34969.html 
 │                        │       │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2023-4569.html 
@@ -4424,7 +4424,7 @@
 │                        │       │                  ├ [6] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                        │       │                  │       2023-7008 
 │                        │       │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2024-2463.html 
-│                        │       │                  ├ [8] : https://errata.rockylinux.org/RLSA-2024:2463 
+│                        │       │                  ├ [8] : https://errata.rockylinux.org/RLSA-2024:3203 
 │                        │       │                  ├ [9] : https://github.com/systemd/systemd/issues/25676 
 │                        │       │                  ├ [10]: https://linux.oracle.com/cve/CVE-2023-7008.html 
 │                        │       │                  ├ [11]: https://linux.oracle.com/errata/ELSA-2024-3203.html 
@@ -4970,7 +4970,7 @@
 │                        │       │                  ├ [6] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                        │       │                  │       2023-7008 
 │                        │       │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2024-2463.html 
-│                        │       │                  ├ [8] : https://errata.rockylinux.org/RLSA-2024:2463 
+│                        │       │                  ├ [8] : https://errata.rockylinux.org/RLSA-2024:3203 
 │                        │       │                  ├ [9] : https://github.com/systemd/systemd/issues/25676 
 │                        │       │                  ├ [10]: https://linux.oracle.com/cve/CVE-2023-7008.html 
 │                        │       │                  ├ [11]: https://linux.oracle.com/errata/ELSA-2024-3203.html 
@@ -5314,8 +5314,8 @@
 │                        │       │                   11a11ecf4bea72b17d250cfb43c897be1341861e and released in
 │                        │       │                   Perl version 5.13.6 
 │                        │       ├ Severity        : MEDIUM 
-│                        │       ├ CweIDs           ╭ [0]: CWE-362 
-│                        │       │                  ╰ [1]: CWE-426 
+│                        │       ├ CweIDs           ╭ [0]: CWE-426 
+│                        │       │                  ╰ [1]: CWE-689 
 │                        │       ├ VendorSeverity   ╭ alma       : 2 
 │                        │       │                  ├ amazon     : 2 
 │                        │       │                  ├ azure      : 2 
@@ -5369,7 +5369,7 @@
 │                        │       │                  ╰ [26]: https://www.openwall.com/lists/oss-security/2025/05
 │                        │       │                          /22/2 
 │                        │       ├ PublishedDate   : 2025-05-30T13:15:22.35Z 
-│                        │       ╰ LastModifiedDate: 2025-06-03T04:15:40.47Z 
+│                        │       ╰ LastModifiedDate: 2025-09-05T14:15:44.947Z 
 │                        ├ [91]  ╭ VulnerabilityID : CVE-2025-4516 
 │                        │       ├ PkgID           : libpython3.10@3.10.12-1~22.04.9 
 │                        │       ├ PkgName         : libpython3.10 
@@ -5398,7 +5398,7 @@
 │                        │       │                   catching the DecodeError. 
 │                        │       ├ Severity        : MEDIUM 
 │                        │       ├ CweIDs           ─ [0]: CWE-416 
-│                        │       ├ VendorSeverity   ╭ amazon     : 3 
+│                        │       ├ VendorSeverity   ╭ amazon     : 2 
 │                        │       │                  ├ azure      : 2 
 │                        │       │                  ├ cbl-mariner: 2 
 │                        │       │                  ├ redhat     : 2 
@@ -5657,7 +5657,7 @@
 │                        │       │                   catching the DecodeError. 
 │                        │       ├ Severity        : MEDIUM 
 │                        │       ├ CweIDs           ─ [0]: CWE-416 
-│                        │       ├ VendorSeverity   ╭ amazon     : 3 
+│                        │       ├ VendorSeverity   ╭ amazon     : 2 
 │                        │       │                  ├ azure      : 2 
 │                        │       │                  ├ cbl-mariner: 2 
 │                        │       │                  ├ redhat     : 2 
@@ -5916,7 +5916,7 @@
 │                        │       │                   catching the DecodeError. 
 │                        │       ├ Severity        : MEDIUM 
 │                        │       ├ CweIDs           ─ [0]: CWE-416 
-│                        │       ├ VendorSeverity   ╭ amazon     : 3 
+│                        │       ├ VendorSeverity   ╭ amazon     : 2 
 │                        │       │                  ├ azure      : 2 
 │                        │       │                  ├ cbl-mariner: 2 
 │                        │       │                  ├ redhat     : 2 
@@ -6825,7 +6825,7 @@
 │                        │       │                  ├ [6] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                        │       │                  │       2023-7008 
 │                        │       │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2024-2463.html 
-│                        │       │                  ├ [8] : https://errata.rockylinux.org/RLSA-2024:2463 
+│                        │       │                  ├ [8] : https://errata.rockylinux.org/RLSA-2024:3203 
 │                        │       │                  ├ [9] : https://github.com/systemd/systemd/issues/25676 
 │                        │       │                  ├ [10]: https://linux.oracle.com/cve/CVE-2023-7008.html 
 │                        │       │                  ├ [11]: https://linux.oracle.com/errata/ELSA-2024-3203.html 
@@ -7236,7 +7236,7 @@
 │                        │       │                  ├ [6] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                        │       │                  │       2023-7008 
 │                        │       │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2024-2463.html 
-│                        │       │                  ├ [8] : https://errata.rockylinux.org/RLSA-2024:2463 
+│                        │       │                  ├ [8] : https://errata.rockylinux.org/RLSA-2024:3203 
 │                        │       │                  ├ [9] : https://github.com/systemd/systemd/issues/25676 
 │                        │       │                  ├ [10]: https://linux.oracle.com/cve/CVE-2023-7008.html 
 │                        │       │                  ├ [11]: https://linux.oracle.com/errata/ELSA-2024-3203.html 
@@ -7816,18 +7816,21 @@
 │                        │       │                  ├ [12]: https://access.redhat.com/errata/RHSA-2025:13622 
 │                        │       │                  ├ [13]: https://access.redhat.com/errata/RHSA-2025:14059 
 │                        │       │                  ├ [14]: https://access.redhat.com/errata/RHSA-2025:14396 
-│                        │       │                  ├ [15]: https://access.redhat.com/errata/RHSA-2025:14819 
-│                        │       │                  ├ [16]: https://access.redhat.com/security/cve/CVE-2025-7425 
-│                        │       │                  ├ [17]: https://bugzilla.redhat.com/2379274 
-│                        │       │                  ├ [18]: https://bugzilla.redhat.com/show_bug.cgi?id=2379274 
-│                        │       │                  ├ [19]: https://errata.almalinux.org/9/ALSA-2025-12447.html 
-│                        │       │                  ├ [20]: https://gitlab.gnome.org/GNOME/libxslt/-/issues/140 
-│                        │       │                  ├ [21]: https://linux.oracle.com/cve/CVE-2025-7425.html 
-│                        │       │                  ├ [22]: https://linux.oracle.com/errata/ELSA-2025-13464.html 
-│                        │       │                  ├ [23]: https://nvd.nist.gov/vuln/detail/CVE-2025-7425 
-│                        │       │                  ╰ [24]: https://www.cve.org/CVERecord?id=CVE-2025-7425 
+│                        │       │                  ├ [15]: https://access.redhat.com/errata/RHSA-2025:14818 
+│                        │       │                  ├ [16]: https://access.redhat.com/errata/RHSA-2025:14819 
+│                        │       │                  ├ [17]: https://access.redhat.com/errata/RHSA-2025:14853 
+│                        │       │                  ├ [18]: https://access.redhat.com/errata/RHSA-2025:14858 
+│                        │       │                  ├ [19]: https://access.redhat.com/security/cve/CVE-2025-7425 
+│                        │       │                  ├ [20]: https://bugzilla.redhat.com/2379274 
+│                        │       │                  ├ [21]: https://bugzilla.redhat.com/show_bug.cgi?id=2379274 
+│                        │       │                  ├ [22]: https://errata.almalinux.org/9/ALSA-2025-12447.html 
+│                        │       │                  ├ [23]: https://gitlab.gnome.org/GNOME/libxslt/-/issues/140 
+│                        │       │                  ├ [24]: https://linux.oracle.com/cve/CVE-2025-7425.html 
+│                        │       │                  ├ [25]: https://linux.oracle.com/errata/ELSA-2025-13464.html 
+│                        │       │                  ├ [26]: https://nvd.nist.gov/vuln/detail/CVE-2025-7425 
+│                        │       │                  ╰ [27]: https://www.cve.org/CVERecord?id=CVE-2025-7425 
 │                        │       ├ PublishedDate   : 2025-07-10T14:15:27.877Z 
-│                        │       ╰ LastModifiedDate: 2025-09-02T20:15:37.66Z 
+│                        │       ╰ LastModifiedDate: 2025-09-04T21:15:37.2Z 
 │                        ├ [131] ╭ VulnerabilityID : CVE-2022-4899 
 │                        │       ├ PkgID           : libzstd1@1.4.8+dfsg-3build1 
 │                        │       ├ PkgName         : libzstd1 
@@ -8876,8 +8879,8 @@
 │                        │       │                   11a11ecf4bea72b17d250cfb43c897be1341861e and released in
 │                        │       │                   Perl version 5.13.6 
 │                        │       ├ Severity        : MEDIUM 
-│                        │       ├ CweIDs           ╭ [0]: CWE-362 
-│                        │       │                  ╰ [1]: CWE-426 
+│                        │       ├ CweIDs           ╭ [0]: CWE-426 
+│                        │       │                  ╰ [1]: CWE-689 
 │                        │       ├ VendorSeverity   ╭ alma       : 2 
 │                        │       │                  ├ amazon     : 2 
 │                        │       │                  ├ azure      : 2 
@@ -8931,7 +8934,7 @@
 │                        │       │                  ╰ [26]: https://www.openwall.com/lists/oss-security/2025/05
 │                        │       │                          /22/2 
 │                        │       ├ PublishedDate   : 2025-05-30T13:15:22.35Z 
-│                        │       ╰ LastModifiedDate: 2025-06-03T04:15:40.47Z 
+│                        │       ╰ LastModifiedDate: 2025-09-05T14:15:44.947Z 
 │                        ├ [149] ╭ VulnerabilityID : CVE-2024-56406 
 │                        │       ├ PkgID           : perl-base@5.34.0-3ubuntu1.3 
 │                        │       ├ PkgName         : perl-base 
@@ -9036,8 +9039,8 @@
 │                        │       │                   11a11ecf4bea72b17d250cfb43c897be1341861e and released in
 │                        │       │                   Perl version 5.13.6 
 │                        │       ├ Severity        : MEDIUM 
-│                        │       ├ CweIDs           ╭ [0]: CWE-362 
-│                        │       │                  ╰ [1]: CWE-426 
+│                        │       ├ CweIDs           ╭ [0]: CWE-426 
+│                        │       │                  ╰ [1]: CWE-689 
 │                        │       ├ VendorSeverity   ╭ alma       : 2 
 │                        │       │                  ├ amazon     : 2 
 │                        │       │                  ├ azure      : 2 
@@ -9091,7 +9094,7 @@
 │                        │       │                  ╰ [26]: https://www.openwall.com/lists/oss-security/2025/05
 │                        │       │                          /22/2 
 │                        │       ├ PublishedDate   : 2025-05-30T13:15:22.35Z 
-│                        │       ╰ LastModifiedDate: 2025-06-03T04:15:40.47Z 
+│                        │       ╰ LastModifiedDate: 2025-09-05T14:15:44.947Z 
 │                        ├ [151] ╭ VulnerabilityID : CVE-2024-56406 
 │                        │       ├ PkgID           : perl-modules-5.34@5.34.0-3ubuntu1.3 
 │                        │       ├ PkgName         : perl-modules-5.34 
@@ -9196,8 +9199,8 @@
 │                        │       │                   11a11ecf4bea72b17d250cfb43c897be1341861e and released in
 │                        │       │                   Perl version 5.13.6 
 │                        │       ├ Severity        : MEDIUM 
-│                        │       ├ CweIDs           ╭ [0]: CWE-362 
-│                        │       │                  ╰ [1]: CWE-426 
+│                        │       ├ CweIDs           ╭ [0]: CWE-426 
+│                        │       │                  ╰ [1]: CWE-689 
 │                        │       ├ VendorSeverity   ╭ alma       : 2 
 │                        │       │                  ├ amazon     : 2 
 │                        │       │                  ├ azure      : 2 
@@ -9251,7 +9254,7 @@
 │                        │       │                  ╰ [26]: https://www.openwall.com/lists/oss-security/2025/05
 │                        │       │                          /22/2 
 │                        │       ├ PublishedDate   : 2025-05-30T13:15:22.35Z 
-│                        │       ╰ LastModifiedDate: 2025-06-03T04:15:40.47Z 
+│                        │       ╰ LastModifiedDate: 2025-09-05T14:15:44.947Z 
 │                        ├ [153] ╭ VulnerabilityID : CVE-2025-4516 
 │                        │       ├ PkgID           : python3.10@3.10.12-1~22.04.9 
 │                        │       ├ PkgName         : python3.10 
@@ -9280,7 +9283,7 @@
 │                        │       │                   catching the DecodeError. 
 │                        │       ├ Severity        : MEDIUM 
 │                        │       ├ CweIDs           ─ [0]: CWE-416 
-│                        │       ├ VendorSeverity   ╭ amazon     : 3 
+│                        │       ├ VendorSeverity   ╭ amazon     : 2 
 │                        │       │                  ├ azure      : 2 
 │                        │       │                  ├ cbl-mariner: 2 
 │                        │       │                  ├ redhat     : 2 
@@ -9539,7 +9542,7 @@
 │                        │       │                   catching the DecodeError. 
 │                        │       ├ Severity        : MEDIUM 
 │                        │       ├ CweIDs           ─ [0]: CWE-416 
-│                        │       ├ VendorSeverity   ╭ amazon     : 3 
+│                        │       ├ VendorSeverity   ╭ amazon     : 2 
 │                        │       │                  ├ azure      : 2 
 │                        │       │                  ├ cbl-mariner: 2 
 │                        │       │                  ├ redhat     : 2 
@@ -9990,7 +9993,7 @@
 │                        │       │                  ├ [6] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                        │       │                  │       2023-7008 
 │                        │       │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2024-2463.html 
-│                        │       │                  ├ [8] : https://errata.rockylinux.org/RLSA-2024:2463 
+│                        │       │                  ├ [8] : https://errata.rockylinux.org/RLSA-2024:3203 
 │                        │       │                  ├ [9] : https://github.com/systemd/systemd/issues/25676 
 │                        │       │                  ├ [10]: https://linux.oracle.com/cve/CVE-2023-7008.html 
 │                        │       │                  ├ [11]: https://linux.oracle.com/errata/ELSA-2024-3203.html 
@@ -10149,7 +10152,7 @@
 │                        │       │                  ├ [6] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                        │       │                  │       2023-7008 
 │                        │       │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2024-2463.html 
-│                        │       │                  ├ [8] : https://errata.rockylinux.org/RLSA-2024:2463 
+│                        │       │                  ├ [8] : https://errata.rockylinux.org/RLSA-2024:3203 
 │                        │       │                  ├ [9] : https://github.com/systemd/systemd/issues/25676 
 │                        │       │                  ├ [10]: https://linux.oracle.com/cve/CVE-2023-7008.html 
 │                        │       │                  ├ [11]: https://linux.oracle.com/errata/ELSA-2024-3203.html 
@@ -10308,7 +10311,7 @@
 │                        │       │                  ├ [6] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                        │       │                  │       2023-7008 
 │                        │       │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2024-2463.html 
-│                        │       │                  ├ [8] : https://errata.rockylinux.org/RLSA-2024:2463 
+│                        │       │                  ├ [8] : https://errata.rockylinux.org/RLSA-2024:3203 
 │                        │       │                  ├ [9] : https://github.com/systemd/systemd/issues/25676 
 │                        │       │                  ├ [10]: https://linux.oracle.com/cve/CVE-2023-7008.html 
 │                        │       │                  ├ [11]: https://linux.oracle.com/errata/ELSA-2024-3203.html 
@@ -11077,7 +11080,7 @@
 │                        │     │                  ├ [15]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                        │     │                  │       24-24783 
 │                        │     │                  ├ [16]: https://errata.almalinux.org/9/ALSA-2024-2724.html 
-│                        │     │                  ├ [17]: https://errata.rockylinux.org/RLSA-2024:2724 
+│                        │     │                  ├ [17]: https://errata.rockylinux.org/RLSA-2024:3346 
 │                        │     │                  ├ [18]: https://go.dev/cl/576155 
 │                        │     │                  ├ [19]: https://go.dev/issue/65051 
 │                        │     │                  ├ [20]: https://groups.google.com/g/golang-announce/c/YgW0sx8
@@ -11191,7 +11194,7 @@
 │                        │     │                   during DOM construction, but only when tags are in foreign
 │                        │     │                   content (e.g. <math>, <svg>, etc contexts). 
 │                        │     ├ Severity        : MEDIUM 
-│                        │     ├ VendorSeverity   ╭ amazon     : 3 
+│                        │     ├ VendorSeverity   ╭ amazon     : 2 
 │                        │     │                  ├ azure      : 2 
 │                        │     │                  ├ cbl-mariner: 2 
 │                        │     │                  ├ ghsa       : 2 
@@ -11530,7 +11533,7 @@
 │                        │     │                  ├ [15]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                        │     │                  │       24-24783 
 │                        │     │                  ├ [16]: https://errata.almalinux.org/9/ALSA-2024-2724.html 
-│                        │     │                  ├ [17]: https://errata.rockylinux.org/RLSA-2024:2724 
+│                        │     │                  ├ [17]: https://errata.rockylinux.org/RLSA-2024:3346 
 │                        │     │                  ├ [18]: https://go.dev/cl/576155 
 │                        │     │                  ├ [19]: https://go.dev/issue/65051 
 │                        │     │                  ├ [20]: https://groups.google.com/g/golang-announce/c/YgW0sx8
@@ -11644,7 +11647,7 @@
 │                        │     │                   during DOM construction, but only when tags are in foreign
 │                        │     │                   content (e.g. <math>, <svg>, etc contexts). 
 │                        │     ├ Severity        : MEDIUM 
-│                        │     ├ VendorSeverity   ╭ amazon     : 3 
+│                        │     ├ VendorSeverity   ╭ amazon     : 2 
 │                        │     │                  ├ azure      : 2 
 │                        │     │                  ├ cbl-mariner: 2 
 │                        │     │                  ├ ghsa       : 2 
@@ -12491,7 +12494,7 @@
 │                        │      │                   the wrong scope during DOM construction, but only when tags
 │                        │      │                    are in foreign content (e.g. <math>, <svg>, etc contexts). 
 │                        │      ├ Severity        : MEDIUM 
-│                        │      ├ VendorSeverity   ╭ amazon     : 3 
+│                        │      ├ VendorSeverity   ╭ amazon     : 2 
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ ghsa       : 2 
@@ -12914,7 +12917,7 @@
 │                        │     │                   during DOM construction, but only when tags are in foreign
 │                        │     │                   content (e.g. <math>, <svg>, etc contexts). 
 │                        │     ├ Severity        : MEDIUM 
-│                        │     ├ VendorSeverity   ╭ amazon     : 3 
+│                        │     ├ VendorSeverity   ╭ amazon     : 2 
 │                        │     │                  ├ azure      : 2 
 │                        │     │                  ├ cbl-mariner: 2 
 │                        │     │                  ├ ghsa       : 2 
@@ -13261,7 +13264,7 @@
 │                        │     │                   during DOM construction, but only when tags are in foreign
 │                        │     │                   content (e.g. <math>, <svg>, etc contexts). 
 │                        │     ├ Severity        : MEDIUM 
-│                        │     ├ VendorSeverity   ╭ amazon     : 3 
+│                        │     ├ VendorSeverity   ╭ amazon     : 2 
 │                        │     │                  ├ azure      : 2 
 │                        │     │                  ├ cbl-mariner: 2 
 │                        │     │                  ├ ghsa       : 2 
@@ -13618,7 +13621,7 @@
 │                        │     │                   during DOM construction, but only when tags are in foreign
 │                        │     │                   content (e.g. <math>, <svg>, etc contexts). 
 │                        │     ├ Severity        : MEDIUM 
-│                        │     ├ VendorSeverity   ╭ amazon     : 3 
+│                        │     ├ VendorSeverity   ╭ amazon     : 2 
 │                        │     │                  ├ azure      : 2 
 │                        │     │                  ├ cbl-mariner: 2 
 │                        │     │                  ├ ghsa       : 2 
@@ -14360,7 +14363,7 @@
 │                        │      │                   the wrong scope during DOM construction, but only when tags
 │                        │      │                    are in foreign content (e.g. <math>, <svg>, etc contexts). 
 │                        │      ├ Severity        : MEDIUM 
-│                        │      ├ VendorSeverity   ╭ amazon     : 3 
+│                        │      ├ VendorSeverity   ╭ amazon     : 2 
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ ghsa       : 2 
