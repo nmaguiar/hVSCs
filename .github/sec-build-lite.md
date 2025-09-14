@@ -115,8 +115,7 @@
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
 │                        │      │                  ├ Name: Ubuntu CVE Tracker 
 │                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │      ├ Title           : curl's websocket code did not update the 32 bit mask
-│                        │      │                   pattern for each  ... 
+│                        │      ├ Title           : curl: predictable WebSocket mask 
 │                        │      ├ Description     : curl's websocket code did not update the 32 bit mask
 │                        │      │                   pattern for each new
 │                        │      │                    outgoing frame as the specification says. Instead it used
@@ -133,13 +132,19 @@
 │                        │      │                   could then be
 │                        │      │                   served to all users of that proxy. 
 │                        │      ├ Severity        : LOW 
-│                        │      ├ VendorSeverity   ─ ubuntu: 1 
-│                        │      ├ References       ╭ [0]: https://curl.se/docs/CVE-2025-10148.html 
-│                        │      │                  ├ [1]: https://curl.se/docs/CVE-2025-10148.json 
-│                        │      │                  ├ [2]: https://hackerone.com/reports/3330839 
-│                        │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2025-10148 
+│                        │      ├ VendorSeverity   ╭ redhat: 1 
+│                        │      │                  ╰ ubuntu: 1 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:
+│                        │      │                           │           L/A:N 
+│                        │      │                           ╰ V3Score : 4.8 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-10148 
+│                        │      │                  ├ [1]: https://curl.se/docs/CVE-2025-10148.html 
+│                        │      │                  ├ [2]: https://curl.se/docs/CVE-2025-10148.json 
+│                        │      │                  ├ [3]: https://hackerone.com/reports/3330839 
+│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-10148 
+│                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-10148 
 │                        │      ├ PublishedDate   : 2025-09-12T06:15:40.02Z 
-│                        │      ╰ LastModifiedDate: 2025-09-12T06:15:40.02Z 
+│                        │      ╰ LastModifiedDate: 2025-09-12T18:15:33.233Z 
 │                        ├ [3]  ╭ VulnerabilityID : CVE-2025-9086 
 │                        │      ├ PkgID           : curl@8.5.0-2ubuntu10.6 
 │                        │      ├ PkgName         : curl 
@@ -157,8 +162,7 @@
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
 │                        │      │                  ├ Name: Ubuntu CVE Tracker 
 │                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │      ├ Title           : 1. A cookie is set using the `secure` keyword for
-│                        │      │                   `https://target` 2.  ... 
+│                        │      ├ Title           : curl: libcurl: Curl out of bounds read for cookie path 
 │                        │      ├ Description     : 1. A cookie is set using the `secure` keyword for
 │                        │      │                   `https://target`
 │                        │      │                   2. curl is redirected to or otherwise made to speak with
@@ -187,13 +191,21 @@
 │                        │      │                   host so overriding
 │                        │      │                   it on an insecure host should not be okay. 
 │                        │      ├ Severity        : LOW 
-│                        │      ├ VendorSeverity   ─ ubuntu: 1 
-│                        │      ├ References       ╭ [0]: https://curl.se/docs/CVE-2025-9086.html 
-│                        │      │                  ├ [1]: https://curl.se/docs/CVE-2025-9086.json 
-│                        │      │                  ├ [2]: https://hackerone.com/reports/3294999 
-│                        │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2025-9086 
+│                        │      ├ VendorSeverity   ╭ redhat: 2 
+│                        │      │                  ╰ ubuntu: 1 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
+│                        │      │                           │           N/A:L 
+│                        │      │                           ╰ V3Score : 5.3 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-9086 
+│                        │      │                  ├ [1]: https://curl.se/docs/CVE-2025-9086.html 
+│                        │      │                  ├ [2]: https://curl.se/docs/CVE-2025-9086.json 
+│                        │      │                  ├ [3]: https://github.com/curl/curl/commit/c6ae07c6a541e0e96
+│                        │      │                  │      d0040afb6 
+│                        │      │                  ├ [4]: https://hackerone.com/reports/3294999 
+│                        │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-9086 
+│                        │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-9086 
 │                        │      ├ PublishedDate   : 2025-09-12T06:15:44.1Z 
-│                        │      ╰ LastModifiedDate: 2025-09-12T06:15:44.1Z 
+│                        │      ╰ LastModifiedDate: 2025-09-12T18:15:35.167Z 
 │                        ├ [4]  ╭ VulnerabilityID : CVE-2022-3219 
 │                        │      ├ PkgID           : dirmngr@2.4.4-2ubuntu17.3 
 │                        │      ├ PkgName         : dirmngr 
@@ -1081,8 +1093,7 @@
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
 │                        │      │                  ├ Name: Ubuntu CVE Tracker 
 │                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │      ├ Title           : curl's websocket code did not update the 32 bit mask
-│                        │      │                   pattern for each  ... 
+│                        │      ├ Title           : curl: predictable WebSocket mask 
 │                        │      ├ Description     : curl's websocket code did not update the 32 bit mask
 │                        │      │                   pattern for each new
 │                        │      │                    outgoing frame as the specification says. Instead it used
@@ -1099,13 +1110,19 @@
 │                        │      │                   could then be
 │                        │      │                   served to all users of that proxy. 
 │                        │      ├ Severity        : LOW 
-│                        │      ├ VendorSeverity   ─ ubuntu: 1 
-│                        │      ├ References       ╭ [0]: https://curl.se/docs/CVE-2025-10148.html 
-│                        │      │                  ├ [1]: https://curl.se/docs/CVE-2025-10148.json 
-│                        │      │                  ├ [2]: https://hackerone.com/reports/3330839 
-│                        │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2025-10148 
+│                        │      ├ VendorSeverity   ╭ redhat: 1 
+│                        │      │                  ╰ ubuntu: 1 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:
+│                        │      │                           │           L/A:N 
+│                        │      │                           ╰ V3Score : 4.8 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-10148 
+│                        │      │                  ├ [1]: https://curl.se/docs/CVE-2025-10148.html 
+│                        │      │                  ├ [2]: https://curl.se/docs/CVE-2025-10148.json 
+│                        │      │                  ├ [3]: https://hackerone.com/reports/3330839 
+│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-10148 
+│                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-10148 
 │                        │      ├ PublishedDate   : 2025-09-12T06:15:40.02Z 
-│                        │      ╰ LastModifiedDate: 2025-09-12T06:15:40.02Z 
+│                        │      ╰ LastModifiedDate: 2025-09-12T18:15:33.233Z 
 │                        ├ [23] ╭ VulnerabilityID : CVE-2025-9086 
 │                        │      ├ PkgID           : libcurl3t64-gnutls@8.5.0-2ubuntu10.6 
 │                        │      ├ PkgName         : libcurl3t64-gnutls 
@@ -1123,8 +1140,7 @@
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
 │                        │      │                  ├ Name: Ubuntu CVE Tracker 
 │                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │      ├ Title           : 1. A cookie is set using the `secure` keyword for
-│                        │      │                   `https://target` 2.  ... 
+│                        │      ├ Title           : curl: libcurl: Curl out of bounds read for cookie path 
 │                        │      ├ Description     : 1. A cookie is set using the `secure` keyword for
 │                        │      │                   `https://target`
 │                        │      │                   2. curl is redirected to or otherwise made to speak with
@@ -1153,13 +1169,21 @@
 │                        │      │                   host so overriding
 │                        │      │                   it on an insecure host should not be okay. 
 │                        │      ├ Severity        : LOW 
-│                        │      ├ VendorSeverity   ─ ubuntu: 1 
-│                        │      ├ References       ╭ [0]: https://curl.se/docs/CVE-2025-9086.html 
-│                        │      │                  ├ [1]: https://curl.se/docs/CVE-2025-9086.json 
-│                        │      │                  ├ [2]: https://hackerone.com/reports/3294999 
-│                        │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2025-9086 
+│                        │      ├ VendorSeverity   ╭ redhat: 2 
+│                        │      │                  ╰ ubuntu: 1 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
+│                        │      │                           │           N/A:L 
+│                        │      │                           ╰ V3Score : 5.3 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-9086 
+│                        │      │                  ├ [1]: https://curl.se/docs/CVE-2025-9086.html 
+│                        │      │                  ├ [2]: https://curl.se/docs/CVE-2025-9086.json 
+│                        │      │                  ├ [3]: https://github.com/curl/curl/commit/c6ae07c6a541e0e96
+│                        │      │                  │      d0040afb6 
+│                        │      │                  ├ [4]: https://hackerone.com/reports/3294999 
+│                        │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-9086 
+│                        │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-9086 
 │                        │      ├ PublishedDate   : 2025-09-12T06:15:44.1Z 
-│                        │      ╰ LastModifiedDate: 2025-09-12T06:15:44.1Z 
+│                        │      ╰ LastModifiedDate: 2025-09-12T18:15:35.167Z 
 │                        ├ [24] ╭ VulnerabilityID : CVE-2025-0167 
 │                        │      ├ PkgID           : libcurl4t64@8.5.0-2ubuntu10.6 
 │                        │      ├ PkgName         : libcurl4t64 
@@ -1219,8 +1243,7 @@
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
 │                        │      │                  ├ Name: Ubuntu CVE Tracker 
 │                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │      ├ Title           : curl's websocket code did not update the 32 bit mask
-│                        │      │                   pattern for each  ... 
+│                        │      ├ Title           : curl: predictable WebSocket mask 
 │                        │      ├ Description     : curl's websocket code did not update the 32 bit mask
 │                        │      │                   pattern for each new
 │                        │      │                    outgoing frame as the specification says. Instead it used
@@ -1237,13 +1260,19 @@
 │                        │      │                   could then be
 │                        │      │                   served to all users of that proxy. 
 │                        │      ├ Severity        : LOW 
-│                        │      ├ VendorSeverity   ─ ubuntu: 1 
-│                        │      ├ References       ╭ [0]: https://curl.se/docs/CVE-2025-10148.html 
-│                        │      │                  ├ [1]: https://curl.se/docs/CVE-2025-10148.json 
-│                        │      │                  ├ [2]: https://hackerone.com/reports/3330839 
-│                        │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2025-10148 
+│                        │      ├ VendorSeverity   ╭ redhat: 1 
+│                        │      │                  ╰ ubuntu: 1 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:
+│                        │      │                           │           L/A:N 
+│                        │      │                           ╰ V3Score : 4.8 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-10148 
+│                        │      │                  ├ [1]: https://curl.se/docs/CVE-2025-10148.html 
+│                        │      │                  ├ [2]: https://curl.se/docs/CVE-2025-10148.json 
+│                        │      │                  ├ [3]: https://hackerone.com/reports/3330839 
+│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-10148 
+│                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-10148 
 │                        │      ├ PublishedDate   : 2025-09-12T06:15:40.02Z 
-│                        │      ╰ LastModifiedDate: 2025-09-12T06:15:40.02Z 
+│                        │      ╰ LastModifiedDate: 2025-09-12T18:15:33.233Z 
 │                        ├ [26] ╭ VulnerabilityID : CVE-2025-9086 
 │                        │      ├ PkgID           : libcurl4t64@8.5.0-2ubuntu10.6 
 │                        │      ├ PkgName         : libcurl4t64 
@@ -1261,8 +1290,7 @@
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
 │                        │      │                  ├ Name: Ubuntu CVE Tracker 
 │                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │      ├ Title           : 1. A cookie is set using the `secure` keyword for
-│                        │      │                   `https://target` 2.  ... 
+│                        │      ├ Title           : curl: libcurl: Curl out of bounds read for cookie path 
 │                        │      ├ Description     : 1. A cookie is set using the `secure` keyword for
 │                        │      │                   `https://target`
 │                        │      │                   2. curl is redirected to or otherwise made to speak with
@@ -1291,13 +1319,21 @@
 │                        │      │                   host so overriding
 │                        │      │                   it on an insecure host should not be okay. 
 │                        │      ├ Severity        : LOW 
-│                        │      ├ VendorSeverity   ─ ubuntu: 1 
-│                        │      ├ References       ╭ [0]: https://curl.se/docs/CVE-2025-9086.html 
-│                        │      │                  ├ [1]: https://curl.se/docs/CVE-2025-9086.json 
-│                        │      │                  ├ [2]: https://hackerone.com/reports/3294999 
-│                        │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2025-9086 
+│                        │      ├ VendorSeverity   ╭ redhat: 2 
+│                        │      │                  ╰ ubuntu: 1 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
+│                        │      │                           │           N/A:L 
+│                        │      │                           ╰ V3Score : 5.3 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-9086 
+│                        │      │                  ├ [1]: https://curl.se/docs/CVE-2025-9086.html 
+│                        │      │                  ├ [2]: https://curl.se/docs/CVE-2025-9086.json 
+│                        │      │                  ├ [3]: https://github.com/curl/curl/commit/c6ae07c6a541e0e96
+│                        │      │                  │      d0040afb6 
+│                        │      │                  ├ [4]: https://hackerone.com/reports/3294999 
+│                        │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-9086 
+│                        │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-9086 
 │                        │      ├ PublishedDate   : 2025-09-12T06:15:44.1Z 
-│                        │      ╰ LastModifiedDate: 2025-09-12T06:15:44.1Z 
+│                        │      ╰ LastModifiedDate: 2025-09-12T18:15:35.167Z 
 │                        ├ [27] ╭ VulnerabilityID : CVE-2025-1352 
 │                        │      ├ PkgID           : libelf1t64@0.190-1.1ubuntu0.1 
 │                        │      ├ PkgName         : libelf1t64 
@@ -2719,7 +2755,7 @@
 │                        │     │                  ├ [15]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                        │     │                  │       24-24783 
 │                        │     │                  ├ [16]: https://errata.almalinux.org/9/ALSA-2024-2724.html 
-│                        │     │                  ├ [17]: https://errata.rockylinux.org/RLSA-2024:2724 
+│                        │     │                  ├ [17]: https://errata.rockylinux.org/RLSA-2024:3346 
 │                        │     │                  ├ [18]: https://go.dev/cl/576155 
 │                        │     │                  ├ [19]: https://go.dev/issue/65051 
 │                        │     │                  ├ [20]: https://groups.google.com/g/golang-announce/c/YgW0sx8
@@ -3174,7 +3210,7 @@
 │                        │     │                  ├ [15]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                        │     │                  │       24-24783 
 │                        │     │                  ├ [16]: https://errata.almalinux.org/9/ALSA-2024-2724.html 
-│                        │     │                  ├ [17]: https://errata.rockylinux.org/RLSA-2024:2724 
+│                        │     │                  ├ [17]: https://errata.rockylinux.org/RLSA-2024:3346 
 │                        │     │                  ├ [18]: https://go.dev/cl/576155 
 │                        │     │                  ├ [19]: https://go.dev/issue/65051 
 │                        │     │                  ├ [20]: https://groups.google.com/g/golang-announce/c/YgW0sx8
