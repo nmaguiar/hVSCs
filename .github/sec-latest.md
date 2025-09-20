@@ -214,7 +214,7 @@
 │                        │       │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                        │       │                  │       2023-34969 
 │                        │       │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2023-4569.html 
-│                        │       │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4569 
+│                        │       │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4498 
 │                        │       │                  ├ [7] : https://gitlab.freedesktop.org/dbus/dbus/-/issues/457 
 │                        │       │                  ├ [8] : https://linux.oracle.com/cve/CVE-2023-34969.html 
 │                        │       │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2023-4569.html 
@@ -283,7 +283,7 @@
 │                        │       │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                        │       │                  │       2023-34969 
 │                        │       │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2023-4569.html 
-│                        │       │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4569 
+│                        │       │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4498 
 │                        │       │                  ├ [7] : https://gitlab.freedesktop.org/dbus/dbus/-/issues/457 
 │                        │       │                  ├ [8] : https://linux.oracle.com/cve/CVE-2023-34969.html 
 │                        │       │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2023-4569.html 
@@ -3013,7 +3013,7 @@
 │                        │       │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                        │       │                  │       2023-34969 
 │                        │       │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2023-4569.html 
-│                        │       │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4569 
+│                        │       │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4498 
 │                        │       │                  ├ [7] : https://gitlab.freedesktop.org/dbus/dbus/-/issues/457 
 │                        │       │                  ├ [8] : https://linux.oracle.com/cve/CVE-2023-34969.html 
 │                        │       │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2023-4569.html 
@@ -4775,7 +4775,7 @@
 │                        │       │                  ├ [6] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                        │       │                  │       2023-7008 
 │                        │       │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2024-2463.html 
-│                        │       │                  ├ [8] : https://errata.rockylinux.org/RLSA-2024:2463 
+│                        │       │                  ├ [8] : https://errata.rockylinux.org/RLSA-2024:3203 
 │                        │       │                  ├ [9] : https://github.com/systemd/systemd/issues/25676 
 │                        │       │                  ├ [10]: https://linux.oracle.com/cve/CVE-2023-7008.html 
 │                        │       │                  ├ [11]: https://linux.oracle.com/errata/ELSA-2024-3203.html 
@@ -5355,7 +5355,7 @@
 │                        │       │                  ├ [6] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                        │       │                  │       2023-7008 
 │                        │       │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2024-2463.html 
-│                        │       │                  ├ [8] : https://errata.rockylinux.org/RLSA-2024:2463 
+│                        │       │                  ├ [8] : https://errata.rockylinux.org/RLSA-2024:3203 
 │                        │       │                  ├ [9] : https://github.com/systemd/systemd/issues/25676 
 │                        │       │                  ├ [10]: https://linux.oracle.com/cve/CVE-2023-7008.html 
 │                        │       │                  ├ [11]: https://linux.oracle.com/errata/ELSA-2024-3203.html 
@@ -5794,7 +5794,7 @@
 │                        │       │                   catching the DecodeError. 
 │                        │       ├ Severity        : MEDIUM 
 │                        │       ├ CweIDs           ─ [0]: CWE-416 
-│                        │       ├ VendorSeverity   ╭ amazon     : 3 
+│                        │       ├ VendorSeverity   ╭ amazon     : 2 
 │                        │       │                  ├ azure      : 2 
 │                        │       │                  ├ cbl-mariner: 2 
 │                        │       │                  ├ redhat     : 2 
@@ -6058,7 +6058,7 @@
 │                        │       │                   catching the DecodeError. 
 │                        │       ├ Severity        : MEDIUM 
 │                        │       ├ CweIDs           ─ [0]: CWE-416 
-│                        │       ├ VendorSeverity   ╭ amazon     : 3 
+│                        │       ├ VendorSeverity   ╭ amazon     : 2 
 │                        │       │                  ├ azure      : 2 
 │                        │       │                  ├ cbl-mariner: 2 
 │                        │       │                  ├ redhat     : 2 
@@ -6322,7 +6322,7 @@
 │                        │       │                   catching the DecodeError. 
 │                        │       ├ Severity        : MEDIUM 
 │                        │       ├ CweIDs           ─ [0]: CWE-416 
-│                        │       ├ VendorSeverity   ╭ amazon     : 3 
+│                        │       ├ VendorSeverity   ╭ amazon     : 2 
 │                        │       │                  ├ azure      : 2 
 │                        │       │                  ├ cbl-mariner: 2 
 │                        │       │                  ├ redhat     : 2 
@@ -7198,7 +7198,7 @@
 │                        │       │                  ├ [6] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                        │       │                  │       2023-7008 
 │                        │       │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2024-2463.html 
-│                        │       │                  ├ [8] : https://errata.rockylinux.org/RLSA-2024:2463 
+│                        │       │                  ├ [8] : https://errata.rockylinux.org/RLSA-2024:3203 
 │                        │       │                  ├ [9] : https://github.com/systemd/systemd/issues/25676 
 │                        │       │                  ├ [10]: https://linux.oracle.com/cve/CVE-2023-7008.html 
 │                        │       │                  ├ [11]: https://linux.oracle.com/errata/ELSA-2024-3203.html 
@@ -7616,7 +7616,7 @@
 │                        │       │                  ├ [6] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                        │       │                  │       2023-7008 
 │                        │       │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2024-2463.html 
-│                        │       │                  ├ [8] : https://errata.rockylinux.org/RLSA-2024:2463 
+│                        │       │                  ├ [8] : https://errata.rockylinux.org/RLSA-2024:3203 
 │                        │       │                  ├ [9] : https://github.com/systemd/systemd/issues/25676 
 │                        │       │                  ├ [10]: https://linux.oracle.com/cve/CVE-2023-7008.html 
 │                        │       │                  ├ [11]: https://linux.oracle.com/errata/ELSA-2024-3203.html 
@@ -9733,7 +9733,7 @@
 │                        │       │                   catching the DecodeError. 
 │                        │       ├ Severity        : MEDIUM 
 │                        │       ├ CweIDs           ─ [0]: CWE-416 
-│                        │       ├ VendorSeverity   ╭ amazon     : 3 
+│                        │       ├ VendorSeverity   ╭ amazon     : 2 
 │                        │       │                  ├ azure      : 2 
 │                        │       │                  ├ cbl-mariner: 2 
 │                        │       │                  ├ redhat     : 2 
@@ -9997,7 +9997,7 @@
 │                        │       │                   catching the DecodeError. 
 │                        │       ├ Severity        : MEDIUM 
 │                        │       ├ CweIDs           ─ [0]: CWE-416 
-│                        │       ├ VendorSeverity   ╭ amazon     : 3 
+│                        │       ├ VendorSeverity   ╭ amazon     : 2 
 │                        │       │                  ├ azure      : 2 
 │                        │       │                  ├ cbl-mariner: 2 
 │                        │       │                  ├ redhat     : 2 
@@ -10454,7 +10454,7 @@
 │                        │       │                  ├ [6] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                        │       │                  │       2023-7008 
 │                        │       │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2024-2463.html 
-│                        │       │                  ├ [8] : https://errata.rockylinux.org/RLSA-2024:2463 
+│                        │       │                  ├ [8] : https://errata.rockylinux.org/RLSA-2024:3203 
 │                        │       │                  ├ [9] : https://github.com/systemd/systemd/issues/25676 
 │                        │       │                  ├ [10]: https://linux.oracle.com/cve/CVE-2023-7008.html 
 │                        │       │                  ├ [11]: https://linux.oracle.com/errata/ELSA-2024-3203.html 
@@ -10614,7 +10614,7 @@
 │                        │       │                  ├ [6] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                        │       │                  │       2023-7008 
 │                        │       │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2024-2463.html 
-│                        │       │                  ├ [8] : https://errata.rockylinux.org/RLSA-2024:2463 
+│                        │       │                  ├ [8] : https://errata.rockylinux.org/RLSA-2024:3203 
 │                        │       │                  ├ [9] : https://github.com/systemd/systemd/issues/25676 
 │                        │       │                  ├ [10]: https://linux.oracle.com/cve/CVE-2023-7008.html 
 │                        │       │                  ├ [11]: https://linux.oracle.com/errata/ELSA-2024-3203.html 
@@ -10774,7 +10774,7 @@
 │                        │       │                  ├ [6] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                        │       │                  │       2023-7008 
 │                        │       │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2024-2463.html 
-│                        │       │                  ├ [8] : https://errata.rockylinux.org/RLSA-2024:2463 
+│                        │       │                  ├ [8] : https://errata.rockylinux.org/RLSA-2024:3203 
 │                        │       │                  ├ [9] : https://github.com/systemd/systemd/issues/25676 
 │                        │       │                  ├ [10]: https://linux.oracle.com/cve/CVE-2023-7008.html 
 │                        │       │                  ├ [11]: https://linux.oracle.com/errata/ELSA-2024-3203.html 
@@ -11543,7 +11543,7 @@
 │                        │     │                  ├ [15]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                        │     │                  │       24-24783 
 │                        │     │                  ├ [16]: https://errata.almalinux.org/9/ALSA-2024-2724.html 
-│                        │     │                  ├ [17]: https://errata.rockylinux.org/RLSA-2024:2724 
+│                        │     │                  ├ [17]: https://errata.rockylinux.org/RLSA-2024:3346 
 │                        │     │                  ├ [18]: https://go.dev/cl/576155 
 │                        │     │                  ├ [19]: https://go.dev/issue/65051 
 │                        │     │                  ├ [20]: https://groups.google.com/g/golang-announce/c/YgW0sx8
@@ -11657,7 +11657,7 @@
 │                        │     │                   during DOM construction, but only when tags are in foreign
 │                        │     │                   content (e.g. <math>, <svg>, etc contexts). 
 │                        │     ├ Severity        : MEDIUM 
-│                        │     ├ VendorSeverity   ╭ amazon     : 3 
+│                        │     ├ VendorSeverity   ╭ amazon     : 2 
 │                        │     │                  ├ azure      : 2 
 │                        │     │                  ├ cbl-mariner: 2 
 │                        │     │                  ├ ghsa       : 2 
@@ -11740,31 +11740,19 @@
 │                        │     │                  ╰ URL : https://pkg.go.dev/vuln/ 
 │                        │     ├ Title           : If the PATH environment variable contains paths which are
 │                        │     │                   executables  ... 
-│                        │     ├ Description     : Package updates are available for Amazon Linux 2023 that fix
-│                        │     │                    the following vulnerabilities:
-│                        │     │                   CVE-2025-47907:
-│                        │     │                   	Cancelling a query (e.g. by cancelling the context passed
-│                        │     │                   to one of the query methods) during a call to the Scan
-│                        │     │                   method of the returned Rows can result in unexpected results
-│                        │     │                    if other queries are being made in parallel. This can
-│                        │     │                   result in a race condition that may overwrite the expected
-│                        │     │                   results with those of another query, causing the call to
-│                        │     │                   Scan to return either unexpected results from the other
-│                        │     │                   query or an error.
-│                        │     │                   
-│                        │     │                   CVE-2025-47906:
-│                        │     │                   	os/exec: LookPath may return unexpected paths. If the PATH
-│                        │     │                   environment variable contains paths which are executables
-│                        │     │                   (rather than just directories), passing certain strings to
-│                        │     │                   LookPath ("", ".", and ".."), can result in the binaries
-│                        │     │                   listed in the PATH being unexpectedly returned. 
+│                        │     ├ Description     : If the PATH environment variable contains paths which are
+│                        │     │                   executables (rather than just directories), passing certain
+│                        │     │                   strings to LookPath ("", ".", and ".."), can result in the
+│                        │     │                   binaries listed in the PATH being unexpectedly returned. 
 │                        │     ├ Severity        : HIGH 
 │                        │     ├ VendorSeverity   ─ amazon: 3 
-│                        │     ╰ References       ╭ [0]: https://go.dev/cl/691775 
-│                        │                        ├ [1]: https://go.dev/issue/74466 
-│                        │                        ├ [2]: https://groups.google.com/g/golang-announce/c/x5MKroML
-│                        │                        │      2yM 
-│                        │                        ╰ [3]: https://pkg.go.dev/vuln/GO-2025-3956 
+│                        │     ├ References       ╭ [0]: https://go.dev/cl/691775 
+│                        │     │                  ├ [1]: https://go.dev/issue/74466 
+│                        │     │                  ├ [2]: https://groups.google.com/g/golang-announce/c/x5MKroML
+│                        │     │                  │      2yM 
+│                        │     │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2025-3956 
+│                        │     ├ PublishedDate   : 2025-09-18T19:15:37.66Z 
+│                        │     ╰ LastModifiedDate: 2025-09-19T16:00:27.847Z 
 │                        ├ [5] ╭ VulnerabilityID : CVE-2025-47907 
 │                        │     ├ PkgID           : stdlib@v1.24.1 
 │                        │     ├ PkgName         : stdlib 
@@ -12041,7 +12029,7 @@
 │                        │     │                  ├ [15]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                        │     │                  │       24-24783 
 │                        │     │                  ├ [16]: https://errata.almalinux.org/9/ALSA-2024-2724.html 
-│                        │     │                  ├ [17]: https://errata.rockylinux.org/RLSA-2024:2724 
+│                        │     │                  ├ [17]: https://errata.rockylinux.org/RLSA-2024:3346 
 │                        │     │                  ├ [18]: https://go.dev/cl/576155 
 │                        │     │                  ├ [19]: https://go.dev/issue/65051 
 │                        │     │                  ├ [20]: https://groups.google.com/g/golang-announce/c/YgW0sx8
@@ -12155,7 +12143,7 @@
 │                        │     │                   during DOM construction, but only when tags are in foreign
 │                        │     │                   content (e.g. <math>, <svg>, etc contexts). 
 │                        │     ├ Severity        : MEDIUM 
-│                        │     ├ VendorSeverity   ╭ amazon     : 3 
+│                        │     ├ VendorSeverity   ╭ amazon     : 2 
 │                        │     │                  ├ azure      : 2 
 │                        │     │                  ├ cbl-mariner: 2 
 │                        │     │                  ├ ghsa       : 2 
@@ -12238,31 +12226,19 @@
 │                        │     │                  ╰ URL : https://pkg.go.dev/vuln/ 
 │                        │     ├ Title           : If the PATH environment variable contains paths which are
 │                        │     │                   executables  ... 
-│                        │     ├ Description     : Package updates are available for Amazon Linux 2023 that fix
-│                        │     │                    the following vulnerabilities:
-│                        │     │                   CVE-2025-47907:
-│                        │     │                   	Cancelling a query (e.g. by cancelling the context passed
-│                        │     │                   to one of the query methods) during a call to the Scan
-│                        │     │                   method of the returned Rows can result in unexpected results
-│                        │     │                    if other queries are being made in parallel. This can
-│                        │     │                   result in a race condition that may overwrite the expected
-│                        │     │                   results with those of another query, causing the call to
-│                        │     │                   Scan to return either unexpected results from the other
-│                        │     │                   query or an error.
-│                        │     │                   
-│                        │     │                   CVE-2025-47906:
-│                        │     │                   	os/exec: LookPath may return unexpected paths. If the PATH
-│                        │     │                   environment variable contains paths which are executables
-│                        │     │                   (rather than just directories), passing certain strings to
-│                        │     │                   LookPath ("", ".", and ".."), can result in the binaries
-│                        │     │                   listed in the PATH being unexpectedly returned. 
+│                        │     ├ Description     : If the PATH environment variable contains paths which are
+│                        │     │                   executables (rather than just directories), passing certain
+│                        │     │                   strings to LookPath ("", ".", and ".."), can result in the
+│                        │     │                   binaries listed in the PATH being unexpectedly returned. 
 │                        │     ├ Severity        : HIGH 
 │                        │     ├ VendorSeverity   ─ amazon: 3 
-│                        │     ╰ References       ╭ [0]: https://go.dev/cl/691775 
-│                        │                        ├ [1]: https://go.dev/issue/74466 
-│                        │                        ├ [2]: https://groups.google.com/g/golang-announce/c/x5MKroML
-│                        │                        │      2yM 
-│                        │                        ╰ [3]: https://pkg.go.dev/vuln/GO-2025-3956 
+│                        │     ├ References       ╭ [0]: https://go.dev/cl/691775 
+│                        │     │                  ├ [1]: https://go.dev/issue/74466 
+│                        │     │                  ├ [2]: https://groups.google.com/g/golang-announce/c/x5MKroML
+│                        │     │                  │      2yM 
+│                        │     │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2025-3956 
+│                        │     ├ PublishedDate   : 2025-09-18T19:15:37.66Z 
+│                        │     ╰ LastModifiedDate: 2025-09-19T16:00:27.847Z 
 │                        ├ [5] ╭ VulnerabilityID : CVE-2025-47907 
 │                        │     ├ PkgID           : stdlib@v1.24.1 
 │                        │     ├ PkgName         : stdlib 
@@ -12564,9 +12540,13 @@
 │                        │      ├ CweIDs           ─ [0]: CWE-266 
 │                        │      ├ VendorSeverity   ╭ azure : 2 
 │                        │      │                  ├ ghsa  : 2 
+│                        │      │                  ├ nvd   : 3 
 │                        │      │                  ├ redhat: 2 
 │                        │      │                  ╰ ubuntu: 2 
-│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:
+│                        │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
+│                        │      │                  │        │           N/A:H 
+│                        │      │                  │        ╰ V3Score : 7.5 
+│                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:
 │                        │      │                           │           L/A:L 
 │                        │      │                           ╰ V3Score : 6.3 
 │                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-47291 
@@ -12577,7 +12557,7 @@
 │                        │      │                  ├ [4]: https://pkg.go.dev/vuln/GO-2025-3701 
 │                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-47291 
 │                        │      ├ PublishedDate   : 2025-05-21T18:15:52.853Z 
-│                        │      ╰ LastModifiedDate: 2025-05-21T20:24:58.133Z 
+│                        │      ╰ LastModifiedDate: 2025-09-19T17:25:42.653Z 
 │                        ├ [2]  ╭ VulnerabilityID : CVE-2025-0495 
 │                        │      ├ PkgID           : github.com/docker/buildx@v0.21.2 
 │                        │      ├ PkgName         : github.com/docker/buildx 
@@ -13047,7 +13027,7 @@
 │                        │      │                   the wrong scope during DOM construction, but only when tags
 │                        │      │                    are in foreign content (e.g. <math>, <svg>, etc contexts). 
 │                        │      ├ Severity        : MEDIUM 
-│                        │      ├ VendorSeverity   ╭ amazon     : 3 
+│                        │      ├ VendorSeverity   ╭ amazon     : 2 
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ ghsa       : 2 
@@ -13130,31 +13110,19 @@
 │                        │      │                  ╰ URL : https://pkg.go.dev/vuln/ 
 │                        │      ├ Title           : If the PATH environment variable contains paths which are
 │                        │      │                   executables  ... 
-│                        │      ├ Description     : Package updates are available for Amazon Linux 2023 that
-│                        │      │                   fix the following vulnerabilities:
-│                        │      │                   CVE-2025-47907:
-│                        │      │                   	Cancelling a query (e.g. by cancelling the context passed
-│                        │      │                   to one of the query methods) during a call to the Scan
-│                        │      │                   method of the returned Rows can result in unexpected
-│                        │      │                   results if other queries are being made in parallel. This
-│                        │      │                   can result in a race condition that may overwrite the
-│                        │      │                   expected results with those of another query, causing the
-│                        │      │                   call to Scan to return either unexpected results from the
-│                        │      │                   other query or an error.
-│                        │      │                   
-│                        │      │                   CVE-2025-47906:
-│                        │      │                   	os/exec: LookPath may return unexpected paths. If the PATH
-│                        │      │                    environment variable contains paths which are executables
-│                        │      │                   (rather than just directories), passing certain strings to
-│                        │      │                   LookPath ("", ".", and ".."), can result in the binaries
-│                        │      │                   listed in the PATH being unexpectedly returned. 
+│                        │      ├ Description     : If the PATH environment variable contains paths which are
+│                        │      │                   executables (rather than just directories), passing certain
+│                        │      │                    strings to LookPath ("", ".", and ".."), can result in the
+│                        │      │                    binaries listed in the PATH being unexpectedly returned. 
 │                        │      ├ Severity        : HIGH 
 │                        │      ├ VendorSeverity   ─ amazon: 3 
-│                        │      ╰ References       ╭ [0]: https://go.dev/cl/691775 
-│                        │                         ├ [1]: https://go.dev/issue/74466 
-│                        │                         ├ [2]: https://groups.google.com/g/golang-announce/c/x5MKroM
-│                        │                         │      L2yM 
-│                        │                         ╰ [3]: https://pkg.go.dev/vuln/GO-2025-3956 
+│                        │      ├ References       ╭ [0]: https://go.dev/cl/691775 
+│                        │      │                  ├ [1]: https://go.dev/issue/74466 
+│                        │      │                  ├ [2]: https://groups.google.com/g/golang-announce/c/x5MKroM
+│                        │      │                  │      L2yM 
+│                        │      │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2025-3956 
+│                        │      ├ PublishedDate   : 2025-09-18T19:15:37.66Z 
+│                        │      ╰ LastModifiedDate: 2025-09-19T16:00:27.847Z 
 │                        ├ [11] ╭ VulnerabilityID : CVE-2025-47907 
 │                        │      ├ PkgID           : stdlib@v1.23.6 
 │                        │      ├ PkgName         : stdlib 
@@ -13514,7 +13482,7 @@
 │                        │     │                   during DOM construction, but only when tags are in foreign
 │                        │     │                   content (e.g. <math>, <svg>, etc contexts). 
 │                        │     ├ Severity        : MEDIUM 
-│                        │     ├ VendorSeverity   ╭ amazon     : 3 
+│                        │     ├ VendorSeverity   ╭ amazon     : 2 
 │                        │     │                  ├ azure      : 2 
 │                        │     │                  ├ cbl-mariner: 2 
 │                        │     │                  ├ ghsa       : 2 
@@ -13596,31 +13564,19 @@
 │                        │     │                  ╰ URL : https://pkg.go.dev/vuln/ 
 │                        │     ├ Title           : If the PATH environment variable contains paths which are
 │                        │     │                   executables  ... 
-│                        │     ├ Description     : Package updates are available for Amazon Linux 2023 that fix
-│                        │     │                    the following vulnerabilities:
-│                        │     │                   CVE-2025-47907:
-│                        │     │                   	Cancelling a query (e.g. by cancelling the context passed
-│                        │     │                   to one of the query methods) during a call to the Scan
-│                        │     │                   method of the returned Rows can result in unexpected results
-│                        │     │                    if other queries are being made in parallel. This can
-│                        │     │                   result in a race condition that may overwrite the expected
-│                        │     │                   results with those of another query, causing the call to
-│                        │     │                   Scan to return either unexpected results from the other
-│                        │     │                   query or an error.
-│                        │     │                   
-│                        │     │                   CVE-2025-47906:
-│                        │     │                   	os/exec: LookPath may return unexpected paths. If the PATH
-│                        │     │                   environment variable contains paths which are executables
-│                        │     │                   (rather than just directories), passing certain strings to
-│                        │     │                   LookPath ("", ".", and ".."), can result in the binaries
-│                        │     │                   listed in the PATH being unexpectedly returned. 
+│                        │     ├ Description     : If the PATH environment variable contains paths which are
+│                        │     │                   executables (rather than just directories), passing certain
+│                        │     │                   strings to LookPath ("", ".", and ".."), can result in the
+│                        │     │                   binaries listed in the PATH being unexpectedly returned. 
 │                        │     ├ Severity        : HIGH 
 │                        │     ├ VendorSeverity   ─ amazon: 3 
-│                        │     ╰ References       ╭ [0]: https://go.dev/cl/691775 
-│                        │                        ├ [1]: https://go.dev/issue/74466 
-│                        │                        ├ [2]: https://groups.google.com/g/golang-announce/c/x5MKroML
-│                        │                        │      2yM 
-│                        │                        ╰ [3]: https://pkg.go.dev/vuln/GO-2025-3956 
+│                        │     ├ References       ╭ [0]: https://go.dev/cl/691775 
+│                        │     │                  ├ [1]: https://go.dev/issue/74466 
+│                        │     │                  ├ [2]: https://groups.google.com/g/golang-announce/c/x5MKroML
+│                        │     │                  │      2yM 
+│                        │     │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2025-3956 
+│                        │     ├ PublishedDate   : 2025-09-18T19:15:37.66Z 
+│                        │     ╰ LastModifiedDate: 2025-09-19T16:00:27.847Z 
 │                        ├ [5] ╭ VulnerabilityID : CVE-2025-47907 
 │                        │     ├ PkgID           : stdlib@v1.23.7 
 │                        │     ├ PkgName         : stdlib 
@@ -13905,7 +13861,7 @@
 │                        │     │                   during DOM construction, but only when tags are in foreign
 │                        │     │                   content (e.g. <math>, <svg>, etc contexts). 
 │                        │     ├ Severity        : MEDIUM 
-│                        │     ├ VendorSeverity   ╭ amazon     : 3 
+│                        │     ├ VendorSeverity   ╭ amazon     : 2 
 │                        │     │                  ├ azure      : 2 
 │                        │     │                  ├ cbl-mariner: 2 
 │                        │     │                  ├ ghsa       : 2 
@@ -13987,31 +13943,19 @@
 │                        │     │                  ╰ URL : https://pkg.go.dev/vuln/ 
 │                        │     ├ Title           : If the PATH environment variable contains paths which are
 │                        │     │                   executables  ... 
-│                        │     ├ Description     : Package updates are available for Amazon Linux 2023 that fix
-│                        │     │                    the following vulnerabilities:
-│                        │     │                   CVE-2025-47907:
-│                        │     │                   	Cancelling a query (e.g. by cancelling the context passed
-│                        │     │                   to one of the query methods) during a call to the Scan
-│                        │     │                   method of the returned Rows can result in unexpected results
-│                        │     │                    if other queries are being made in parallel. This can
-│                        │     │                   result in a race condition that may overwrite the expected
-│                        │     │                   results with those of another query, causing the call to
-│                        │     │                   Scan to return either unexpected results from the other
-│                        │     │                   query or an error.
-│                        │     │                   
-│                        │     │                   CVE-2025-47906:
-│                        │     │                   	os/exec: LookPath may return unexpected paths. If the PATH
-│                        │     │                   environment variable contains paths which are executables
-│                        │     │                   (rather than just directories), passing certain strings to
-│                        │     │                   LookPath ("", ".", and ".."), can result in the binaries
-│                        │     │                   listed in the PATH being unexpectedly returned. 
+│                        │     ├ Description     : If the PATH environment variable contains paths which are
+│                        │     │                   executables (rather than just directories), passing certain
+│                        │     │                   strings to LookPath ("", ".", and ".."), can result in the
+│                        │     │                   binaries listed in the PATH being unexpectedly returned. 
 │                        │     ├ Severity        : HIGH 
 │                        │     ├ VendorSeverity   ─ amazon: 3 
-│                        │     ╰ References       ╭ [0]: https://go.dev/cl/691775 
-│                        │                        ├ [1]: https://go.dev/issue/74466 
-│                        │                        ├ [2]: https://groups.google.com/g/golang-announce/c/x5MKroML
-│                        │                        │      2yM 
-│                        │                        ╰ [3]: https://pkg.go.dev/vuln/GO-2025-3956 
+│                        │     ├ References       ╭ [0]: https://go.dev/cl/691775 
+│                        │     │                  ├ [1]: https://go.dev/issue/74466 
+│                        │     │                  ├ [2]: https://groups.google.com/g/golang-announce/c/x5MKroML
+│                        │     │                  │      2yM 
+│                        │     │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2025-3956 
+│                        │     ├ PublishedDate   : 2025-09-18T19:15:37.66Z 
+│                        │     ╰ LastModifiedDate: 2025-09-19T16:00:27.847Z 
 │                        ├ [4] ╭ VulnerabilityID : CVE-2025-47907 
 │                        │     ├ PkgID           : stdlib@v1.23.6 
 │                        │     ├ PkgName         : stdlib 
@@ -14306,7 +14250,7 @@
 │                        │     │                   during DOM construction, but only when tags are in foreign
 │                        │     │                   content (e.g. <math>, <svg>, etc contexts). 
 │                        │     ├ Severity        : MEDIUM 
-│                        │     ├ VendorSeverity   ╭ amazon     : 3 
+│                        │     ├ VendorSeverity   ╭ amazon     : 2 
 │                        │     │                  ├ azure      : 2 
 │                        │     │                  ├ cbl-mariner: 2 
 │                        │     │                  ├ ghsa       : 2 
@@ -14389,31 +14333,19 @@
 │                        │     │                  ╰ URL : https://pkg.go.dev/vuln/ 
 │                        │     ├ Title           : If the PATH environment variable contains paths which are
 │                        │     │                   executables  ... 
-│                        │     ├ Description     : Package updates are available for Amazon Linux 2023 that fix
-│                        │     │                    the following vulnerabilities:
-│                        │     │                   CVE-2025-47907:
-│                        │     │                   	Cancelling a query (e.g. by cancelling the context passed
-│                        │     │                   to one of the query methods) during a call to the Scan
-│                        │     │                   method of the returned Rows can result in unexpected results
-│                        │     │                    if other queries are being made in parallel. This can
-│                        │     │                   result in a race condition that may overwrite the expected
-│                        │     │                   results with those of another query, causing the call to
-│                        │     │                   Scan to return either unexpected results from the other
-│                        │     │                   query or an error.
-│                        │     │                   
-│                        │     │                   CVE-2025-47906:
-│                        │     │                   	os/exec: LookPath may return unexpected paths. If the PATH
-│                        │     │                   environment variable contains paths which are executables
-│                        │     │                   (rather than just directories), passing certain strings to
-│                        │     │                   LookPath ("", ".", and ".."), can result in the binaries
-│                        │     │                   listed in the PATH being unexpectedly returned. 
+│                        │     ├ Description     : If the PATH environment variable contains paths which are
+│                        │     │                   executables (rather than just directories), passing certain
+│                        │     │                   strings to LookPath ("", ".", and ".."), can result in the
+│                        │     │                   binaries listed in the PATH being unexpectedly returned. 
 │                        │     ├ Severity        : HIGH 
 │                        │     ├ VendorSeverity   ─ amazon: 3 
-│                        │     ╰ References       ╭ [0]: https://go.dev/cl/691775 
-│                        │                        ├ [1]: https://go.dev/issue/74466 
-│                        │                        ├ [2]: https://groups.google.com/g/golang-announce/c/x5MKroML
-│                        │                        │      2yM 
-│                        │                        ╰ [3]: https://pkg.go.dev/vuln/GO-2025-3956 
+│                        │     ├ References       ╭ [0]: https://go.dev/cl/691775 
+│                        │     │                  ├ [1]: https://go.dev/issue/74466 
+│                        │     │                  ├ [2]: https://groups.google.com/g/golang-announce/c/x5MKroML
+│                        │     │                  │      2yM 
+│                        │     │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2025-3956 
+│                        │     ├ PublishedDate   : 2025-09-18T19:15:37.66Z 
+│                        │     ╰ LastModifiedDate: 2025-09-19T16:00:27.847Z 
 │                        ├ [4] ╭ VulnerabilityID : CVE-2025-47907 
 │                        │     ├ PkgID           : stdlib@v1.24.1 
 │                        │     ├ PkgName         : stdlib 
@@ -15093,7 +15025,7 @@
 │                        │      │                   the wrong scope during DOM construction, but only when tags
 │                        │      │                    are in foreign content (e.g. <math>, <svg>, etc contexts). 
 │                        │      ├ Severity        : MEDIUM 
-│                        │      ├ VendorSeverity   ╭ amazon     : 3 
+│                        │      ├ VendorSeverity   ╭ amazon     : 2 
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ ghsa       : 2 
@@ -15218,31 +15150,19 @@
 │                        │      │                  ╰ URL : https://pkg.go.dev/vuln/ 
 │                        │      ├ Title           : If the PATH environment variable contains paths which are
 │                        │      │                   executables  ... 
-│                        │      ├ Description     : Package updates are available for Amazon Linux 2023 that
-│                        │      │                   fix the following vulnerabilities:
-│                        │      │                   CVE-2025-47907:
-│                        │      │                   	Cancelling a query (e.g. by cancelling the context passed
-│                        │      │                   to one of the query methods) during a call to the Scan
-│                        │      │                   method of the returned Rows can result in unexpected
-│                        │      │                   results if other queries are being made in parallel. This
-│                        │      │                   can result in a race condition that may overwrite the
-│                        │      │                   expected results with those of another query, causing the
-│                        │      │                   call to Scan to return either unexpected results from the
-│                        │      │                   other query or an error.
-│                        │      │                   
-│                        │      │                   CVE-2025-47906:
-│                        │      │                   	os/exec: LookPath may return unexpected paths. If the PATH
-│                        │      │                    environment variable contains paths which are executables
-│                        │      │                   (rather than just directories), passing certain strings to
-│                        │      │                   LookPath ("", ".", and ".."), can result in the binaries
-│                        │      │                   listed in the PATH being unexpectedly returned. 
+│                        │      ├ Description     : If the PATH environment variable contains paths which are
+│                        │      │                   executables (rather than just directories), passing certain
+│                        │      │                    strings to LookPath ("", ".", and ".."), can result in the
+│                        │      │                    binaries listed in the PATH being unexpectedly returned. 
 │                        │      ├ Severity        : HIGH 
 │                        │      ├ VendorSeverity   ─ amazon: 3 
-│                        │      ╰ References       ╭ [0]: https://go.dev/cl/691775 
-│                        │                         ├ [1]: https://go.dev/issue/74466 
-│                        │                         ├ [2]: https://groups.google.com/g/golang-announce/c/x5MKroM
-│                        │                         │      L2yM 
-│                        │                         ╰ [3]: https://pkg.go.dev/vuln/GO-2025-3956 
+│                        │      ├ References       ╭ [0]: https://go.dev/cl/691775 
+│                        │      │                  ├ [1]: https://go.dev/issue/74466 
+│                        │      │                  ├ [2]: https://groups.google.com/g/golang-announce/c/x5MKroM
+│                        │      │                  │      L2yM 
+│                        │      │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2025-3956 
+│                        │      ├ PublishedDate   : 2025-09-18T19:15:37.66Z 
+│                        │      ╰ LastModifiedDate: 2025-09-19T16:00:27.847Z 
 │                        ├ [10] ╭ VulnerabilityID : CVE-2025-47907 
 │                        │      ├ PkgID           : stdlib@v1.22.12 
 │                        │      ├ PkgName         : stdlib 
