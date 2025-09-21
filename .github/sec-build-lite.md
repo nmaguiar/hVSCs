@@ -2743,7 +2743,7 @@
 │                        │     │                  ├ [15]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                        │     │                  │       24-24783 
 │                        │     │                  ├ [16]: https://errata.almalinux.org/9/ALSA-2024-2724.html 
-│                        │     │                  ├ [17]: https://errata.rockylinux.org/RLSA-2024:3346 
+│                        │     │                  ├ [17]: https://errata.rockylinux.org/RLSA-2024:2724 
 │                        │     │                  ├ [18]: https://go.dev/cl/576155 
 │                        │     │                  ├ [19]: https://go.dev/issue/65051 
 │                        │     │                  ├ [20]: https://groups.google.com/g/golang-announce/c/YgW0sx8
@@ -2857,7 +2857,7 @@
 │                        │     │                   during DOM construction, but only when tags are in foreign
 │                        │     │                   content (e.g. <math>, <svg>, etc contexts). 
 │                        │     ├ Severity        : MEDIUM 
-│                        │     ├ VendorSeverity   ╭ amazon     : 2 
+│                        │     ├ VendorSeverity   ╭ amazon     : 3 
 │                        │     │                  ├ azure      : 2 
 │                        │     │                  ├ cbl-mariner: 2 
 │                        │     │                  ├ ghsa       : 2 
@@ -2945,12 +2945,17 @@
 │                        │     │                   strings to LookPath ("", ".", and ".."), can result in the
 │                        │     │                   binaries listed in the PATH being unexpectedly returned. 
 │                        │     ├ Severity        : HIGH 
-│                        │     ├ VendorSeverity   ─ amazon: 3 
+│                        │     ├ VendorSeverity   ╭ amazon : 3 
+│                        │     │                  ╰ bitnami: 2 
+│                        │     ├ CVSS             ─ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:
+│                        │     │                            │           N/A:L 
+│                        │     │                            ╰ V3Score : 6.5 
 │                        │     ├ References       ╭ [0]: https://go.dev/cl/691775 
 │                        │     │                  ├ [1]: https://go.dev/issue/74466 
 │                        │     │                  ├ [2]: https://groups.google.com/g/golang-announce/c/x5MKroML
 │                        │     │                  │      2yM 
-│                        │     │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2025-3956 
+│                        │     │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-47906 
+│                        │     │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2025-3956 
 │                        │     ├ PublishedDate   : 2025-09-18T19:15:37.66Z 
 │                        │     ╰ LastModifiedDate: 2025-09-19T16:00:27.847Z 
 │                        ├ [5] ╭ VulnerabilityID : CVE-2025-47907 
@@ -3229,7 +3234,7 @@
 │                        │     │                  ├ [15]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                        │     │                  │       24-24783 
 │                        │     │                  ├ [16]: https://errata.almalinux.org/9/ALSA-2024-2724.html 
-│                        │     │                  ├ [17]: https://errata.rockylinux.org/RLSA-2024:3346 
+│                        │     │                  ├ [17]: https://errata.rockylinux.org/RLSA-2024:2724 
 │                        │     │                  ├ [18]: https://go.dev/cl/576155 
 │                        │     │                  ├ [19]: https://go.dev/issue/65051 
 │                        │     │                  ├ [20]: https://groups.google.com/g/golang-announce/c/YgW0sx8
@@ -3343,7 +3348,7 @@
 │                        │     │                   during DOM construction, but only when tags are in foreign
 │                        │     │                   content (e.g. <math>, <svg>, etc contexts). 
 │                        │     ├ Severity        : MEDIUM 
-│                        │     ├ VendorSeverity   ╭ amazon     : 2 
+│                        │     ├ VendorSeverity   ╭ amazon     : 3 
 │                        │     │                  ├ azure      : 2 
 │                        │     │                  ├ cbl-mariner: 2 
 │                        │     │                  ├ ghsa       : 2 
@@ -3431,12 +3436,17 @@
 │                        │     │                   strings to LookPath ("", ".", and ".."), can result in the
 │                        │     │                   binaries listed in the PATH being unexpectedly returned. 
 │                        │     ├ Severity        : HIGH 
-│                        │     ├ VendorSeverity   ─ amazon: 3 
+│                        │     ├ VendorSeverity   ╭ amazon : 3 
+│                        │     │                  ╰ bitnami: 2 
+│                        │     ├ CVSS             ─ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:
+│                        │     │                            │           N/A:L 
+│                        │     │                            ╰ V3Score : 6.5 
 │                        │     ├ References       ╭ [0]: https://go.dev/cl/691775 
 │                        │     │                  ├ [1]: https://go.dev/issue/74466 
 │                        │     │                  ├ [2]: https://groups.google.com/g/golang-announce/c/x5MKroML
 │                        │     │                  │      2yM 
-│                        │     │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2025-3956 
+│                        │     │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-47906 
+│                        │     │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2025-3956 
 │                        │     ├ PublishedDate   : 2025-09-18T19:15:37.66Z 
 │                        │     ╰ LastModifiedDate: 2025-09-19T16:00:27.847Z 
 │                        ├ [5] ╭ VulnerabilityID : CVE-2025-47907 
@@ -4130,7 +4140,7 @@
 │                        │      │                   the wrong scope during DOM construction, but only when tags
 │                        │      │                    are in foreign content (e.g. <math>, <svg>, etc contexts). 
 │                        │      ├ Severity        : MEDIUM 
-│                        │      ├ VendorSeverity   ╭ amazon     : 2 
+│                        │      ├ VendorSeverity   ╭ amazon     : 3 
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ ghsa       : 2 
@@ -4260,12 +4270,17 @@
 │                        │      │                    strings to LookPath ("", ".", and ".."), can result in the
 │                        │      │                    binaries listed in the PATH being unexpectedly returned. 
 │                        │      ├ Severity        : HIGH 
-│                        │      ├ VendorSeverity   ─ amazon: 3 
+│                        │      ├ VendorSeverity   ╭ amazon : 3 
+│                        │      │                  ╰ bitnami: 2 
+│                        │      ├ CVSS             ─ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I
+│                        │      │                            │           :N/A:L 
+│                        │      │                            ╰ V3Score : 6.5 
 │                        │      ├ References       ╭ [0]: https://go.dev/cl/691775 
 │                        │      │                  ├ [1]: https://go.dev/issue/74466 
 │                        │      │                  ├ [2]: https://groups.google.com/g/golang-announce/c/x5MKroM
 │                        │      │                  │      L2yM 
-│                        │      │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2025-3956 
+│                        │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-47906 
+│                        │      │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2025-3956 
 │                        │      ├ PublishedDate   : 2025-09-18T19:15:37.66Z 
 │                        │      ╰ LastModifiedDate: 2025-09-19T16:00:27.847Z 
 │                        ├ [10] ╭ VulnerabilityID : CVE-2025-47907 
