@@ -214,7 +214,7 @@
 │                        │       │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                        │       │                  │       2023-34969 
 │                        │       │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2023-4569.html 
-│                        │       │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4498 
+│                        │       │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4569 
 │                        │       │                  ├ [7] : https://gitlab.freedesktop.org/dbus/dbus/-/issues/457 
 │                        │       │                  ├ [8] : https://linux.oracle.com/cve/CVE-2023-34969.html 
 │                        │       │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2023-4569.html 
@@ -283,7 +283,7 @@
 │                        │       │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                        │       │                  │       2023-34969 
 │                        │       │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2023-4569.html 
-│                        │       │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4498 
+│                        │       │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4569 
 │                        │       │                  ├ [7] : https://gitlab.freedesktop.org/dbus/dbus/-/issues/457 
 │                        │       │                  ├ [8] : https://linux.oracle.com/cve/CVE-2023-34969.html 
 │                        │       │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2023-4569.html 
@@ -3013,7 +3013,7 @@
 │                        │       │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                        │       │                  │       2023-34969 
 │                        │       │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2023-4569.html 
-│                        │       │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4498 
+│                        │       │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4569 
 │                        │       │                  ├ [7] : https://gitlab.freedesktop.org/dbus/dbus/-/issues/457 
 │                        │       │                  ├ [8] : https://linux.oracle.com/cve/CVE-2023-34969.html 
 │                        │       │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2023-4569.html 
@@ -3697,6 +3697,7 @@
 │                        │       │                  ├ azure      : 2 
 │                        │       │                  ├ cbl-mariner: 2 
 │                        │       │                  ├ nvd        : 3 
+│                        │       │                  ├ oracle-oval: 2 
 │                        │       │                  ├ photon     : 3 
 │                        │       │                  ├ redhat     : 2 
 │                        │       │                  ╰ ubuntu     : 2 
@@ -3715,12 +3716,14 @@
 │                        │       │                  ├ [6] : https://bugzilla.redhat.com/2376755 
 │                        │       │                  ├ [7] : https://bugzilla.redhat.com/show_bug.cgi?id=2359622 
 │                        │       │                  ├ [8] : https://errata.almalinux.org/10/ALSA-2025-16115.html 
-│                        │       │                  ├ [9] : https://lists.gnupg.org/pipermail/gnutls-help/2025-
+│                        │       │                  ├ [9] : https://linux.oracle.com/cve/CVE-2025-32988.html 
+│                        │       │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2025-20606.html 
+│                        │       │                  ├ [11]: https://lists.gnupg.org/pipermail/gnutls-help/2025-
 │                        │       │                  │       July/004883.html 
-│                        │       │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2025-32988 
-│                        │       │                  ├ [11]: https://ubuntu.com/security/notices/USN-7635-1 
-│                        │       │                  ├ [12]: https://ubuntu.com/security/notices/USN-7742-1 
-│                        │       │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2025-32988 
+│                        │       │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2025-32988 
+│                        │       │                  ├ [13]: https://ubuntu.com/security/notices/USN-7635-1 
+│                        │       │                  ├ [14]: https://ubuntu.com/security/notices/USN-7742-1 
+│                        │       │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2025-32988 
 │                        │       ├ PublishedDate   : 2025-07-10T08:15:24.223Z 
 │                        │       ╰ LastModifiedDate: 2025-09-17T21:15:37.95Z 
 │                        ├ [64]  ╭ VulnerabilityID : CVE-2025-32989 
@@ -3758,6 +3761,7 @@
 │                        │       │                  ├ amazon     : 2 
 │                        │       │                  ├ azure      : 2 
 │                        │       │                  ├ cbl-mariner: 2 
+│                        │       │                  ├ oracle-oval: 2 
 │                        │       │                  ├ photon     : 2 
 │                        │       │                  ├ redhat     : 2 
 │                        │       │                  ╰ ubuntu     : 2 
@@ -3773,11 +3777,13 @@
 │                        │       │                  ├ [6] : https://bugzilla.redhat.com/2376755 
 │                        │       │                  ├ [7] : https://bugzilla.redhat.com/show_bug.cgi?id=2359621 
 │                        │       │                  ├ [8] : https://errata.almalinux.org/10/ALSA-2025-16115.html 
-│                        │       │                  ├ [9] : https://lists.gnupg.org/pipermail/gnutls-help/2025-
+│                        │       │                  ├ [9] : https://linux.oracle.com/cve/CVE-2025-32989.html 
+│                        │       │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2025-20606.html 
+│                        │       │                  ├ [11]: https://lists.gnupg.org/pipermail/gnutls-help/2025-
 │                        │       │                  │       July/004883.html 
-│                        │       │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2025-32989 
-│                        │       │                  ├ [11]: https://ubuntu.com/security/notices/USN-7635-1 
-│                        │       │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2025-32989 
+│                        │       │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2025-32989 
+│                        │       │                  ├ [13]: https://ubuntu.com/security/notices/USN-7635-1 
+│                        │       │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2025-32989 
 │                        │       ├ PublishedDate   : 2025-07-10T08:15:24.43Z 
 │                        │       ╰ LastModifiedDate: 2025-09-17T21:15:38.08Z 
 │                        ├ [65]  ╭ VulnerabilityID : CVE-2025-32990 
@@ -3813,6 +3819,7 @@
 │                        │       │                  ├ azure      : 2 
 │                        │       │                  ├ cbl-mariner: 2 
 │                        │       │                  ├ nvd        : 3 
+│                        │       │                  ├ oracle-oval: 2 
 │                        │       │                  ├ photon     : 3 
 │                        │       │                  ├ redhat     : 2 
 │                        │       │                  ╰ ubuntu     : 2 
@@ -3831,12 +3838,14 @@
 │                        │       │                  ├ [6] : https://bugzilla.redhat.com/2376755 
 │                        │       │                  ├ [7] : https://bugzilla.redhat.com/show_bug.cgi?id=2359620 
 │                        │       │                  ├ [8] : https://errata.almalinux.org/10/ALSA-2025-16115.html 
-│                        │       │                  ├ [9] : https://lists.gnupg.org/pipermail/gnutls-help/2025-
+│                        │       │                  ├ [9] : https://linux.oracle.com/cve/CVE-2025-32990.html 
+│                        │       │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2025-20606.html 
+│                        │       │                  ├ [11]: https://lists.gnupg.org/pipermail/gnutls-help/2025-
 │                        │       │                  │       July/004883.html 
-│                        │       │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2025-32990 
-│                        │       │                  ├ [11]: https://ubuntu.com/security/notices/USN-7635-1 
-│                        │       │                  ├ [12]: https://ubuntu.com/security/notices/USN-7742-1 
-│                        │       │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2025-32990 
+│                        │       │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2025-32990 
+│                        │       │                  ├ [13]: https://ubuntu.com/security/notices/USN-7635-1 
+│                        │       │                  ├ [14]: https://ubuntu.com/security/notices/USN-7742-1 
+│                        │       │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2025-32990 
 │                        │       ├ PublishedDate   : 2025-07-10T10:15:33.06Z 
 │                        │       ╰ LastModifiedDate: 2025-09-17T21:15:38.223Z 
 │                        ├ [66]  ╭ VulnerabilityID : CVE-2025-6395 
@@ -3867,6 +3876,7 @@
 │                        │       │                  ├ amazon     : 2 
 │                        │       │                  ├ azure      : 2 
 │                        │       │                  ├ cbl-mariner: 2 
+│                        │       │                  ├ oracle-oval: 2 
 │                        │       │                  ├ photon     : 2 
 │                        │       │                  ├ redhat     : 2 
 │                        │       │                  ╰ ubuntu     : 2 
@@ -3882,12 +3892,14 @@
 │                        │       │                  ├ [6] : https://bugzilla.redhat.com/2376755 
 │                        │       │                  ├ [7] : https://bugzilla.redhat.com/show_bug.cgi?id=2376755 
 │                        │       │                  ├ [8] : https://errata.almalinux.org/10/ALSA-2025-16115.html 
-│                        │       │                  ├ [9] : https://lists.gnupg.org/pipermail/gnutls-help/2025-
+│                        │       │                  ├ [9] : https://linux.oracle.com/cve/CVE-2025-6395.html 
+│                        │       │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2025-20606.html 
+│                        │       │                  ├ [11]: https://lists.gnupg.org/pipermail/gnutls-help/2025-
 │                        │       │                  │       July/004883.html 
-│                        │       │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2025-6395 
-│                        │       │                  ├ [11]: https://ubuntu.com/security/notices/USN-7635-1 
-│                        │       │                  ├ [12]: https://ubuntu.com/security/notices/USN-7742-1 
-│                        │       │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2025-6395 
+│                        │       │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2025-6395 
+│                        │       │                  ├ [13]: https://ubuntu.com/security/notices/USN-7635-1 
+│                        │       │                  ├ [14]: https://ubuntu.com/security/notices/USN-7742-1 
+│                        │       │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2025-6395 
 │                        │       ├ PublishedDate   : 2025-07-10T16:15:25.11Z 
 │                        │       ╰ LastModifiedDate: 2025-09-17T21:15:38.51Z 
 │                        ├ [67]  ╭ VulnerabilityID : CVE-2025-3576 
@@ -4775,7 +4787,7 @@
 │                        │       │                  ├ [6] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                        │       │                  │       2023-7008 
 │                        │       │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2024-2463.html 
-│                        │       │                  ├ [8] : https://errata.rockylinux.org/RLSA-2024:3203 
+│                        │       │                  ├ [8] : https://errata.rockylinux.org/RLSA-2024:2463 
 │                        │       │                  ├ [9] : https://github.com/systemd/systemd/issues/25676 
 │                        │       │                  ├ [10]: https://linux.oracle.com/cve/CVE-2023-7008.html 
 │                        │       │                  ├ [11]: https://linux.oracle.com/errata/ELSA-2024-3203.html 
@@ -5355,7 +5367,7 @@
 │                        │       │                  ├ [6] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                        │       │                  │       2023-7008 
 │                        │       │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2024-2463.html 
-│                        │       │                  ├ [8] : https://errata.rockylinux.org/RLSA-2024:3203 
+│                        │       │                  ├ [8] : https://errata.rockylinux.org/RLSA-2024:2463 
 │                        │       │                  ├ [9] : https://github.com/systemd/systemd/issues/25676 
 │                        │       │                  ├ [10]: https://linux.oracle.com/cve/CVE-2023-7008.html 
 │                        │       │                  ├ [11]: https://linux.oracle.com/errata/ELSA-2024-3203.html 
@@ -5794,7 +5806,7 @@
 │                        │       │                   catching the DecodeError. 
 │                        │       ├ Severity        : MEDIUM 
 │                        │       ├ CweIDs           ─ [0]: CWE-416 
-│                        │       ├ VendorSeverity   ╭ amazon     : 2 
+│                        │       ├ VendorSeverity   ╭ amazon     : 3 
 │                        │       │                  ├ azure      : 2 
 │                        │       │                  ├ cbl-mariner: 2 
 │                        │       │                  ├ redhat     : 2 
@@ -6058,7 +6070,7 @@
 │                        │       │                   catching the DecodeError. 
 │                        │       ├ Severity        : MEDIUM 
 │                        │       ├ CweIDs           ─ [0]: CWE-416 
-│                        │       ├ VendorSeverity   ╭ amazon     : 2 
+│                        │       ├ VendorSeverity   ╭ amazon     : 3 
 │                        │       │                  ├ azure      : 2 
 │                        │       │                  ├ cbl-mariner: 2 
 │                        │       │                  ├ redhat     : 2 
@@ -6322,7 +6334,7 @@
 │                        │       │                   catching the DecodeError. 
 │                        │       ├ Severity        : MEDIUM 
 │                        │       ├ CweIDs           ─ [0]: CWE-416 
-│                        │       ├ VendorSeverity   ╭ amazon     : 2 
+│                        │       ├ VendorSeverity   ╭ amazon     : 3 
 │                        │       │                  ├ azure      : 2 
 │                        │       │                  ├ cbl-mariner: 2 
 │                        │       │                  ├ redhat     : 2 
@@ -6642,6 +6654,7 @@
 │                        │       │                  ├ cbl-mariner: 3 
 │                        │       │                  ├ nvd        : 4 
 │                        │       │                  ├ oracle-oval: 3 
+│                        │       │                  ├ photon     : 4 
 │                        │       │                  ├ redhat     : 3 
 │                        │       │                  ├ rocky      : 3 
 │                        │       │                  ╰ ubuntu     : 2 
@@ -7198,7 +7211,7 @@
 │                        │       │                  ├ [6] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                        │       │                  │       2023-7008 
 │                        │       │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2024-2463.html 
-│                        │       │                  ├ [8] : https://errata.rockylinux.org/RLSA-2024:3203 
+│                        │       │                  ├ [8] : https://errata.rockylinux.org/RLSA-2024:2463 
 │                        │       │                  ├ [9] : https://github.com/systemd/systemd/issues/25676 
 │                        │       │                  ├ [10]: https://linux.oracle.com/cve/CVE-2023-7008.html 
 │                        │       │                  ├ [11]: https://linux.oracle.com/errata/ELSA-2024-3203.html 
@@ -7616,7 +7629,7 @@
 │                        │       │                  ├ [6] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                        │       │                  │       2023-7008 
 │                        │       │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2024-2463.html 
-│                        │       │                  ├ [8] : https://errata.rockylinux.org/RLSA-2024:3203 
+│                        │       │                  ├ [8] : https://errata.rockylinux.org/RLSA-2024:2463 
 │                        │       │                  ├ [9] : https://github.com/systemd/systemd/issues/25676 
 │                        │       │                  ├ [10]: https://linux.oracle.com/cve/CVE-2023-7008.html 
 │                        │       │                  ├ [11]: https://linux.oracle.com/errata/ELSA-2024-3203.html 
@@ -9733,7 +9746,7 @@
 │                        │       │                   catching the DecodeError. 
 │                        │       ├ Severity        : MEDIUM 
 │                        │       ├ CweIDs           ─ [0]: CWE-416 
-│                        │       ├ VendorSeverity   ╭ amazon     : 2 
+│                        │       ├ VendorSeverity   ╭ amazon     : 3 
 │                        │       │                  ├ azure      : 2 
 │                        │       │                  ├ cbl-mariner: 2 
 │                        │       │                  ├ redhat     : 2 
@@ -9997,7 +10010,7 @@
 │                        │       │                   catching the DecodeError. 
 │                        │       ├ Severity        : MEDIUM 
 │                        │       ├ CweIDs           ─ [0]: CWE-416 
-│                        │       ├ VendorSeverity   ╭ amazon     : 2 
+│                        │       ├ VendorSeverity   ╭ amazon     : 3 
 │                        │       │                  ├ azure      : 2 
 │                        │       │                  ├ cbl-mariner: 2 
 │                        │       │                  ├ redhat     : 2 
@@ -10454,7 +10467,7 @@
 │                        │       │                  ├ [6] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                        │       │                  │       2023-7008 
 │                        │       │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2024-2463.html 
-│                        │       │                  ├ [8] : https://errata.rockylinux.org/RLSA-2024:3203 
+│                        │       │                  ├ [8] : https://errata.rockylinux.org/RLSA-2024:2463 
 │                        │       │                  ├ [9] : https://github.com/systemd/systemd/issues/25676 
 │                        │       │                  ├ [10]: https://linux.oracle.com/cve/CVE-2023-7008.html 
 │                        │       │                  ├ [11]: https://linux.oracle.com/errata/ELSA-2024-3203.html 
@@ -10614,7 +10627,7 @@
 │                        │       │                  ├ [6] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                        │       │                  │       2023-7008 
 │                        │       │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2024-2463.html 
-│                        │       │                  ├ [8] : https://errata.rockylinux.org/RLSA-2024:3203 
+│                        │       │                  ├ [8] : https://errata.rockylinux.org/RLSA-2024:2463 
 │                        │       │                  ├ [9] : https://github.com/systemd/systemd/issues/25676 
 │                        │       │                  ├ [10]: https://linux.oracle.com/cve/CVE-2023-7008.html 
 │                        │       │                  ├ [11]: https://linux.oracle.com/errata/ELSA-2024-3203.html 
@@ -10774,7 +10787,7 @@
 │                        │       │                  ├ [6] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
 │                        │       │                  │       2023-7008 
 │                        │       │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2024-2463.html 
-│                        │       │                  ├ [8] : https://errata.rockylinux.org/RLSA-2024:3203 
+│                        │       │                  ├ [8] : https://errata.rockylinux.org/RLSA-2024:2463 
 │                        │       │                  ├ [9] : https://github.com/systemd/systemd/issues/25676 
 │                        │       │                  ├ [10]: https://linux.oracle.com/cve/CVE-2023-7008.html 
 │                        │       │                  ├ [11]: https://linux.oracle.com/errata/ELSA-2024-3203.html 
@@ -11543,7 +11556,7 @@
 │                        │     │                  ├ [15]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                        │     │                  │       24-24783 
 │                        │     │                  ├ [16]: https://errata.almalinux.org/9/ALSA-2024-2724.html 
-│                        │     │                  ├ [17]: https://errata.rockylinux.org/RLSA-2024:3346 
+│                        │     │                  ├ [17]: https://errata.rockylinux.org/RLSA-2024:2724 
 │                        │     │                  ├ [18]: https://go.dev/cl/576155 
 │                        │     │                  ├ [19]: https://go.dev/issue/65051 
 │                        │     │                  ├ [20]: https://groups.google.com/g/golang-announce/c/YgW0sx8
@@ -11657,7 +11670,7 @@
 │                        │     │                   during DOM construction, but only when tags are in foreign
 │                        │     │                   content (e.g. <math>, <svg>, etc contexts). 
 │                        │     ├ Severity        : MEDIUM 
-│                        │     ├ VendorSeverity   ╭ amazon     : 2 
+│                        │     ├ VendorSeverity   ╭ amazon     : 3 
 │                        │     │                  ├ azure      : 2 
 │                        │     │                  ├ cbl-mariner: 2 
 │                        │     │                  ├ ghsa       : 2 
@@ -11745,12 +11758,17 @@
 │                        │     │                   strings to LookPath ("", ".", and ".."), can result in the
 │                        │     │                   binaries listed in the PATH being unexpectedly returned. 
 │                        │     ├ Severity        : HIGH 
-│                        │     ├ VendorSeverity   ─ amazon: 3 
+│                        │     ├ VendorSeverity   ╭ amazon : 3 
+│                        │     │                  ╰ bitnami: 2 
+│                        │     ├ CVSS             ─ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:
+│                        │     │                            │           N/A:L 
+│                        │     │                            ╰ V3Score : 6.5 
 │                        │     ├ References       ╭ [0]: https://go.dev/cl/691775 
 │                        │     │                  ├ [1]: https://go.dev/issue/74466 
 │                        │     │                  ├ [2]: https://groups.google.com/g/golang-announce/c/x5MKroML
 │                        │     │                  │      2yM 
-│                        │     │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2025-3956 
+│                        │     │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-47906 
+│                        │     │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2025-3956 
 │                        │     ├ PublishedDate   : 2025-09-18T19:15:37.66Z 
 │                        │     ╰ LastModifiedDate: 2025-09-19T16:00:27.847Z 
 │                        ├ [5] ╭ VulnerabilityID : CVE-2025-47907 
@@ -12029,7 +12047,7 @@
 │                        │     │                  ├ [15]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                        │     │                  │       24-24783 
 │                        │     │                  ├ [16]: https://errata.almalinux.org/9/ALSA-2024-2724.html 
-│                        │     │                  ├ [17]: https://errata.rockylinux.org/RLSA-2024:3346 
+│                        │     │                  ├ [17]: https://errata.rockylinux.org/RLSA-2024:2724 
 │                        │     │                  ├ [18]: https://go.dev/cl/576155 
 │                        │     │                  ├ [19]: https://go.dev/issue/65051 
 │                        │     │                  ├ [20]: https://groups.google.com/g/golang-announce/c/YgW0sx8
@@ -12143,7 +12161,7 @@
 │                        │     │                   during DOM construction, but only when tags are in foreign
 │                        │     │                   content (e.g. <math>, <svg>, etc contexts). 
 │                        │     ├ Severity        : MEDIUM 
-│                        │     ├ VendorSeverity   ╭ amazon     : 2 
+│                        │     ├ VendorSeverity   ╭ amazon     : 3 
 │                        │     │                  ├ azure      : 2 
 │                        │     │                  ├ cbl-mariner: 2 
 │                        │     │                  ├ ghsa       : 2 
@@ -12231,12 +12249,17 @@
 │                        │     │                   strings to LookPath ("", ".", and ".."), can result in the
 │                        │     │                   binaries listed in the PATH being unexpectedly returned. 
 │                        │     ├ Severity        : HIGH 
-│                        │     ├ VendorSeverity   ─ amazon: 3 
+│                        │     ├ VendorSeverity   ╭ amazon : 3 
+│                        │     │                  ╰ bitnami: 2 
+│                        │     ├ CVSS             ─ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:
+│                        │     │                            │           N/A:L 
+│                        │     │                            ╰ V3Score : 6.5 
 │                        │     ├ References       ╭ [0]: https://go.dev/cl/691775 
 │                        │     │                  ├ [1]: https://go.dev/issue/74466 
 │                        │     │                  ├ [2]: https://groups.google.com/g/golang-announce/c/x5MKroML
 │                        │     │                  │      2yM 
-│                        │     │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2025-3956 
+│                        │     │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-47906 
+│                        │     │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2025-3956 
 │                        │     ├ PublishedDate   : 2025-09-18T19:15:37.66Z 
 │                        │     ╰ LastModifiedDate: 2025-09-19T16:00:27.847Z 
 │                        ├ [5] ╭ VulnerabilityID : CVE-2025-47907 
@@ -13027,7 +13050,7 @@
 │                        │      │                   the wrong scope during DOM construction, but only when tags
 │                        │      │                    are in foreign content (e.g. <math>, <svg>, etc contexts). 
 │                        │      ├ Severity        : MEDIUM 
-│                        │      ├ VendorSeverity   ╭ amazon     : 2 
+│                        │      ├ VendorSeverity   ╭ amazon     : 3 
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ ghsa       : 2 
@@ -13115,12 +13138,17 @@
 │                        │      │                    strings to LookPath ("", ".", and ".."), can result in the
 │                        │      │                    binaries listed in the PATH being unexpectedly returned. 
 │                        │      ├ Severity        : HIGH 
-│                        │      ├ VendorSeverity   ─ amazon: 3 
+│                        │      ├ VendorSeverity   ╭ amazon : 3 
+│                        │      │                  ╰ bitnami: 2 
+│                        │      ├ CVSS             ─ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I
+│                        │      │                            │           :N/A:L 
+│                        │      │                            ╰ V3Score : 6.5 
 │                        │      ├ References       ╭ [0]: https://go.dev/cl/691775 
 │                        │      │                  ├ [1]: https://go.dev/issue/74466 
 │                        │      │                  ├ [2]: https://groups.google.com/g/golang-announce/c/x5MKroM
 │                        │      │                  │      L2yM 
-│                        │      │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2025-3956 
+│                        │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-47906 
+│                        │      │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2025-3956 
 │                        │      ├ PublishedDate   : 2025-09-18T19:15:37.66Z 
 │                        │      ╰ LastModifiedDate: 2025-09-19T16:00:27.847Z 
 │                        ├ [11] ╭ VulnerabilityID : CVE-2025-47907 
@@ -13482,7 +13510,7 @@
 │                        │     │                   during DOM construction, but only when tags are in foreign
 │                        │     │                   content (e.g. <math>, <svg>, etc contexts). 
 │                        │     ├ Severity        : MEDIUM 
-│                        │     ├ VendorSeverity   ╭ amazon     : 2 
+│                        │     ├ VendorSeverity   ╭ amazon     : 3 
 │                        │     │                  ├ azure      : 2 
 │                        │     │                  ├ cbl-mariner: 2 
 │                        │     │                  ├ ghsa       : 2 
@@ -13569,12 +13597,17 @@
 │                        │     │                   strings to LookPath ("", ".", and ".."), can result in the
 │                        │     │                   binaries listed in the PATH being unexpectedly returned. 
 │                        │     ├ Severity        : HIGH 
-│                        │     ├ VendorSeverity   ─ amazon: 3 
+│                        │     ├ VendorSeverity   ╭ amazon : 3 
+│                        │     │                  ╰ bitnami: 2 
+│                        │     ├ CVSS             ─ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:
+│                        │     │                            │           N/A:L 
+│                        │     │                            ╰ V3Score : 6.5 
 │                        │     ├ References       ╭ [0]: https://go.dev/cl/691775 
 │                        │     │                  ├ [1]: https://go.dev/issue/74466 
 │                        │     │                  ├ [2]: https://groups.google.com/g/golang-announce/c/x5MKroML
 │                        │     │                  │      2yM 
-│                        │     │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2025-3956 
+│                        │     │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-47906 
+│                        │     │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2025-3956 
 │                        │     ├ PublishedDate   : 2025-09-18T19:15:37.66Z 
 │                        │     ╰ LastModifiedDate: 2025-09-19T16:00:27.847Z 
 │                        ├ [5] ╭ VulnerabilityID : CVE-2025-47907 
@@ -13861,7 +13894,7 @@
 │                        │     │                   during DOM construction, but only when tags are in foreign
 │                        │     │                   content (e.g. <math>, <svg>, etc contexts). 
 │                        │     ├ Severity        : MEDIUM 
-│                        │     ├ VendorSeverity   ╭ amazon     : 2 
+│                        │     ├ VendorSeverity   ╭ amazon     : 3 
 │                        │     │                  ├ azure      : 2 
 │                        │     │                  ├ cbl-mariner: 2 
 │                        │     │                  ├ ghsa       : 2 
@@ -13948,12 +13981,17 @@
 │                        │     │                   strings to LookPath ("", ".", and ".."), can result in the
 │                        │     │                   binaries listed in the PATH being unexpectedly returned. 
 │                        │     ├ Severity        : HIGH 
-│                        │     ├ VendorSeverity   ─ amazon: 3 
+│                        │     ├ VendorSeverity   ╭ amazon : 3 
+│                        │     │                  ╰ bitnami: 2 
+│                        │     ├ CVSS             ─ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:
+│                        │     │                            │           N/A:L 
+│                        │     │                            ╰ V3Score : 6.5 
 │                        │     ├ References       ╭ [0]: https://go.dev/cl/691775 
 │                        │     │                  ├ [1]: https://go.dev/issue/74466 
 │                        │     │                  ├ [2]: https://groups.google.com/g/golang-announce/c/x5MKroML
 │                        │     │                  │      2yM 
-│                        │     │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2025-3956 
+│                        │     │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-47906 
+│                        │     │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2025-3956 
 │                        │     ├ PublishedDate   : 2025-09-18T19:15:37.66Z 
 │                        │     ╰ LastModifiedDate: 2025-09-19T16:00:27.847Z 
 │                        ├ [4] ╭ VulnerabilityID : CVE-2025-47907 
@@ -14250,7 +14288,7 @@
 │                        │     │                   during DOM construction, but only when tags are in foreign
 │                        │     │                   content (e.g. <math>, <svg>, etc contexts). 
 │                        │     ├ Severity        : MEDIUM 
-│                        │     ├ VendorSeverity   ╭ amazon     : 2 
+│                        │     ├ VendorSeverity   ╭ amazon     : 3 
 │                        │     │                  ├ azure      : 2 
 │                        │     │                  ├ cbl-mariner: 2 
 │                        │     │                  ├ ghsa       : 2 
@@ -14338,12 +14376,17 @@
 │                        │     │                   strings to LookPath ("", ".", and ".."), can result in the
 │                        │     │                   binaries listed in the PATH being unexpectedly returned. 
 │                        │     ├ Severity        : HIGH 
-│                        │     ├ VendorSeverity   ─ amazon: 3 
+│                        │     ├ VendorSeverity   ╭ amazon : 3 
+│                        │     │                  ╰ bitnami: 2 
+│                        │     ├ CVSS             ─ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:
+│                        │     │                            │           N/A:L 
+│                        │     │                            ╰ V3Score : 6.5 
 │                        │     ├ References       ╭ [0]: https://go.dev/cl/691775 
 │                        │     │                  ├ [1]: https://go.dev/issue/74466 
 │                        │     │                  ├ [2]: https://groups.google.com/g/golang-announce/c/x5MKroML
 │                        │     │                  │      2yM 
-│                        │     │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2025-3956 
+│                        │     │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-47906 
+│                        │     │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2025-3956 
 │                        │     ├ PublishedDate   : 2025-09-18T19:15:37.66Z 
 │                        │     ╰ LastModifiedDate: 2025-09-19T16:00:27.847Z 
 │                        ├ [4] ╭ VulnerabilityID : CVE-2025-47907 
@@ -15025,7 +15068,7 @@
 │                        │      │                   the wrong scope during DOM construction, but only when tags
 │                        │      │                    are in foreign content (e.g. <math>, <svg>, etc contexts). 
 │                        │      ├ Severity        : MEDIUM 
-│                        │      ├ VendorSeverity   ╭ amazon     : 2 
+│                        │      ├ VendorSeverity   ╭ amazon     : 3 
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ ghsa       : 2 
@@ -15155,12 +15198,17 @@
 │                        │      │                    strings to LookPath ("", ".", and ".."), can result in the
 │                        │      │                    binaries listed in the PATH being unexpectedly returned. 
 │                        │      ├ Severity        : HIGH 
-│                        │      ├ VendorSeverity   ─ amazon: 3 
+│                        │      ├ VendorSeverity   ╭ amazon : 3 
+│                        │      │                  ╰ bitnami: 2 
+│                        │      ├ CVSS             ─ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I
+│                        │      │                            │           :N/A:L 
+│                        │      │                            ╰ V3Score : 6.5 
 │                        │      ├ References       ╭ [0]: https://go.dev/cl/691775 
 │                        │      │                  ├ [1]: https://go.dev/issue/74466 
 │                        │      │                  ├ [2]: https://groups.google.com/g/golang-announce/c/x5MKroM
 │                        │      │                  │      L2yM 
-│                        │      │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2025-3956 
+│                        │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-47906 
+│                        │      │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2025-3956 
 │                        │      ├ PublishedDate   : 2025-09-18T19:15:37.66Z 
 │                        │      ╰ LastModifiedDate: 2025-09-19T16:00:27.847Z 
 │                        ├ [10] ╭ VulnerabilityID : CVE-2025-47907 
