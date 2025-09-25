@@ -212,7 +212,7 @@
 │                        │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                        │      │                  │       023-34969 
 │                        │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2023-4569.html 
-│                        │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4569 
+│                        │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4498 
 │                        │      │                  ├ [7] : https://gitlab.freedesktop.org/dbus/dbus/-/issues/457 
 │                        │      │                  ├ [8] : https://linux.oracle.com/cve/CVE-2023-34969.html 
 │                        │      │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2023-4569.html 
@@ -281,7 +281,7 @@
 │                        │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                        │      │                  │       023-34969 
 │                        │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2023-4569.html 
-│                        │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4569 
+│                        │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4498 
 │                        │      │                  ├ [7] : https://gitlab.freedesktop.org/dbus/dbus/-/issues/457 
 │                        │      │                  ├ [8] : https://linux.oracle.com/cve/CVE-2023-34969.html 
 │                        │      │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2023-4569.html 
@@ -1071,7 +1071,8 @@
 │                        │      │                  │       distro=ubuntu-22.04 
 │                        │      │                  ╰ UID : bfcb3b7a79390cd9 
 │                        │      ├ InstalledVersion: 2.35-0ubuntu3.10 
-│                        │      ├ Status          : affected 
+│                        │      ├ FixedVersion    : 2.35-0ubuntu3.11 
+│                        │      ├ Status          : fixed 
 │                        │      ├ Layer            ╭ Digest: sha256:07bac6fce0efeefd61294c76f5d746fdbdcc72b8ae4
 │                        │      │                  │         c125c905a13f2b2d03e3e 
 │                        │      │                  ╰ DiffID: sha256:c6c99ad8c76b851a63188d02d081e00e75829469bc4
@@ -1121,7 +1122,8 @@
 │                        │      │                  │       ;f=advisories/GLIBC-SA-2025-0005 
 │                        │      │                  ├ [12]: https://sourceware.org/git/?p=glibc.git;a=commit;h=3
 │                        │      │                  │       ff17af18c38727b88d9115e536c069e6b5d601f 
-│                        │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2025-8058 
+│                        │      │                  ├ [13]: https://ubuntu.com/security/notices/USN-7760-1 
+│                        │      │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2025-8058 
 │                        │      ├ PublishedDate   : 2025-07-23T20:15:27.747Z 
 │                        │      ╰ LastModifiedDate: 2025-07-25T15:29:44.523Z 
 │                        ├ [22] ╭ VulnerabilityID : CVE-2025-8058 
@@ -1131,7 +1133,8 @@
 │                        │      │                  │       tro=ubuntu-22.04 
 │                        │      │                  ╰ UID : f5a4b9156d1b454e 
 │                        │      ├ InstalledVersion: 2.35-0ubuntu3.10 
-│                        │      ├ Status          : affected 
+│                        │      ├ FixedVersion    : 2.35-0ubuntu3.11 
+│                        │      ├ Status          : fixed 
 │                        │      ├ Layer            ╭ Digest: sha256:07bac6fce0efeefd61294c76f5d746fdbdcc72b8ae4
 │                        │      │                  │         c125c905a13f2b2d03e3e 
 │                        │      │                  ╰ DiffID: sha256:c6c99ad8c76b851a63188d02d081e00e75829469bc4
@@ -1181,7 +1184,8 @@
 │                        │      │                  │       ;f=advisories/GLIBC-SA-2025-0005 
 │                        │      │                  ├ [12]: https://sourceware.org/git/?p=glibc.git;a=commit;h=3
 │                        │      │                  │       ff17af18c38727b88d9115e536c069e6b5d601f 
-│                        │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2025-8058 
+│                        │      │                  ├ [13]: https://ubuntu.com/security/notices/USN-7760-1 
+│                        │      │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2025-8058 
 │                        │      ├ PublishedDate   : 2025-07-23T20:15:27.747Z 
 │                        │      ╰ LastModifiedDate: 2025-07-25T15:29:44.523Z 
 │                        ├ [23] ╭ VulnerabilityID : CVE-2025-0167 
@@ -1443,7 +1447,7 @@
 │                        │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                        │      │                  │       023-34969 
 │                        │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2023-4569.html 
-│                        │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4569 
+│                        │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4498 
 │                        │      │                  ├ [7] : https://gitlab.freedesktop.org/dbus/dbus/-/issues/457 
 │                        │      │                  ├ [8] : https://linux.oracle.com/cve/CVE-2023-34969.html 
 │                        │      │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2023-4569.html 
@@ -1866,7 +1870,7 @@
 │                        │      │                  ├ [6] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                        │      │                  │       023-7008 
 │                        │      │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2024-2463.html 
-│                        │      │                  ├ [8] : https://errata.rockylinux.org/RLSA-2024:2463 
+│                        │      │                  ├ [8] : https://errata.rockylinux.org/RLSA-2024:3203 
 │                        │      │                  ├ [9] : https://github.com/systemd/systemd/issues/25676 
 │                        │      │                  ├ [10]: https://linux.oracle.com/cve/CVE-2023-7008.html 
 │                        │      │                  ├ [11]: https://linux.oracle.com/errata/ELSA-2024-3203.html 
@@ -1928,23 +1932,24 @@
 │                        │      │                  ├ [10]: https://access.redhat.com/errata/RHSA-2025:15709 
 │                        │      │                  ├ [11]: https://access.redhat.com/errata/RHSA-2025:15827 
 │                        │      │                  ├ [12]: https://access.redhat.com/errata/RHSA-2025:15828 
-│                        │      │                  ├ [13]: https://access.redhat.com/security/cve/CVE-2025-8941 
-│                        │      │                  ├ [14]: https://bugzilla.redhat.com/2372512 
-│                        │      │                  ├ [15]: https://bugzilla.redhat.com/2388220 
-│                        │      │                  ├ [16]: https://bugzilla.redhat.com/show_bug.cgi?id=2372512 
-│                        │      │                  ├ [17]: https://bugzilla.redhat.com/show_bug.cgi?id=2388220 
-│                        │      │                  ├ [18]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                        │      │                  │       025-6020 
+│                        │      │                  ├ [13]: https://access.redhat.com/errata/RHSA-2025:16524 
+│                        │      │                  ├ [14]: https://access.redhat.com/security/cve/CVE-2025-8941 
+│                        │      │                  ├ [15]: https://bugzilla.redhat.com/2372512 
+│                        │      │                  ├ [16]: https://bugzilla.redhat.com/2388220 
+│                        │      │                  ├ [17]: https://bugzilla.redhat.com/show_bug.cgi?id=2372512 
+│                        │      │                  ├ [18]: https://bugzilla.redhat.com/show_bug.cgi?id=2388220 
 │                        │      │                  ├ [19]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                        │      │                  │       025-6020 
+│                        │      │                  ├ [20]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                        │      │                  │       025-8941 
-│                        │      │                  ├ [20]: https://errata.almalinux.org/9/ALSA-2025-15099.html 
-│                        │      │                  ├ [21]: https://errata.rockylinux.org/RLSA-2025:14557 
-│                        │      │                  ├ [22]: https://linux.oracle.com/cve/CVE-2025-8941.html 
-│                        │      │                  ├ [23]: https://linux.oracle.com/errata/ELSA-2025-15099.html 
-│                        │      │                  ├ [24]: https://nvd.nist.gov/vuln/detail/CVE-2025-8941 
-│                        │      │                  ╰ [25]: https://www.cve.org/CVERecord?id=CVE-2025-8941 
+│                        │      │                  ├ [21]: https://errata.almalinux.org/9/ALSA-2025-15099.html 
+│                        │      │                  ├ [22]: https://errata.rockylinux.org/RLSA-2025:14557 
+│                        │      │                  ├ [23]: https://linux.oracle.com/cve/CVE-2025-8941.html 
+│                        │      │                  ├ [24]: https://linux.oracle.com/errata/ELSA-2025-15099.html 
+│                        │      │                  ├ [25]: https://nvd.nist.gov/vuln/detail/CVE-2025-8941 
+│                        │      │                  ╰ [26]: https://www.cve.org/CVERecord?id=CVE-2025-8941 
 │                        │      ├ PublishedDate   : 2025-08-13T15:15:41.873Z 
-│                        │      ╰ LastModifiedDate: 2025-09-15T18:15:40.257Z 
+│                        │      ╰ LastModifiedDate: 2025-09-23T20:15:33.927Z 
 │                        ├ [37] ╭ VulnerabilityID : CVE-2025-8941 
 │                        │      ├ PkgID           : libpam-modules-bin@1.4.0-11ubuntu2.6 
 │                        │      ├ PkgName         : libpam-modules-bin 
@@ -1991,23 +1996,24 @@
 │                        │      │                  ├ [10]: https://access.redhat.com/errata/RHSA-2025:15709 
 │                        │      │                  ├ [11]: https://access.redhat.com/errata/RHSA-2025:15827 
 │                        │      │                  ├ [12]: https://access.redhat.com/errata/RHSA-2025:15828 
-│                        │      │                  ├ [13]: https://access.redhat.com/security/cve/CVE-2025-8941 
-│                        │      │                  ├ [14]: https://bugzilla.redhat.com/2372512 
-│                        │      │                  ├ [15]: https://bugzilla.redhat.com/2388220 
-│                        │      │                  ├ [16]: https://bugzilla.redhat.com/show_bug.cgi?id=2372512 
-│                        │      │                  ├ [17]: https://bugzilla.redhat.com/show_bug.cgi?id=2388220 
-│                        │      │                  ├ [18]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                        │      │                  │       025-6020 
+│                        │      │                  ├ [13]: https://access.redhat.com/errata/RHSA-2025:16524 
+│                        │      │                  ├ [14]: https://access.redhat.com/security/cve/CVE-2025-8941 
+│                        │      │                  ├ [15]: https://bugzilla.redhat.com/2372512 
+│                        │      │                  ├ [16]: https://bugzilla.redhat.com/2388220 
+│                        │      │                  ├ [17]: https://bugzilla.redhat.com/show_bug.cgi?id=2372512 
+│                        │      │                  ├ [18]: https://bugzilla.redhat.com/show_bug.cgi?id=2388220 
 │                        │      │                  ├ [19]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                        │      │                  │       025-6020 
+│                        │      │                  ├ [20]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                        │      │                  │       025-8941 
-│                        │      │                  ├ [20]: https://errata.almalinux.org/9/ALSA-2025-15099.html 
-│                        │      │                  ├ [21]: https://errata.rockylinux.org/RLSA-2025:14557 
-│                        │      │                  ├ [22]: https://linux.oracle.com/cve/CVE-2025-8941.html 
-│                        │      │                  ├ [23]: https://linux.oracle.com/errata/ELSA-2025-15099.html 
-│                        │      │                  ├ [24]: https://nvd.nist.gov/vuln/detail/CVE-2025-8941 
-│                        │      │                  ╰ [25]: https://www.cve.org/CVERecord?id=CVE-2025-8941 
+│                        │      │                  ├ [21]: https://errata.almalinux.org/9/ALSA-2025-15099.html 
+│                        │      │                  ├ [22]: https://errata.rockylinux.org/RLSA-2025:14557 
+│                        │      │                  ├ [23]: https://linux.oracle.com/cve/CVE-2025-8941.html 
+│                        │      │                  ├ [24]: https://linux.oracle.com/errata/ELSA-2025-15099.html 
+│                        │      │                  ├ [25]: https://nvd.nist.gov/vuln/detail/CVE-2025-8941 
+│                        │      │                  ╰ [26]: https://www.cve.org/CVERecord?id=CVE-2025-8941 
 │                        │      ├ PublishedDate   : 2025-08-13T15:15:41.873Z 
-│                        │      ╰ LastModifiedDate: 2025-09-15T18:15:40.257Z 
+│                        │      ╰ LastModifiedDate: 2025-09-23T20:15:33.927Z 
 │                        ├ [38] ╭ VulnerabilityID : CVE-2025-8941 
 │                        │      ├ PkgID           : libpam-runtime@1.4.0-11ubuntu2.6 
 │                        │      ├ PkgName         : libpam-runtime 
@@ -2054,23 +2060,24 @@
 │                        │      │                  ├ [10]: https://access.redhat.com/errata/RHSA-2025:15709 
 │                        │      │                  ├ [11]: https://access.redhat.com/errata/RHSA-2025:15827 
 │                        │      │                  ├ [12]: https://access.redhat.com/errata/RHSA-2025:15828 
-│                        │      │                  ├ [13]: https://access.redhat.com/security/cve/CVE-2025-8941 
-│                        │      │                  ├ [14]: https://bugzilla.redhat.com/2372512 
-│                        │      │                  ├ [15]: https://bugzilla.redhat.com/2388220 
-│                        │      │                  ├ [16]: https://bugzilla.redhat.com/show_bug.cgi?id=2372512 
-│                        │      │                  ├ [17]: https://bugzilla.redhat.com/show_bug.cgi?id=2388220 
-│                        │      │                  ├ [18]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                        │      │                  │       025-6020 
+│                        │      │                  ├ [13]: https://access.redhat.com/errata/RHSA-2025:16524 
+│                        │      │                  ├ [14]: https://access.redhat.com/security/cve/CVE-2025-8941 
+│                        │      │                  ├ [15]: https://bugzilla.redhat.com/2372512 
+│                        │      │                  ├ [16]: https://bugzilla.redhat.com/2388220 
+│                        │      │                  ├ [17]: https://bugzilla.redhat.com/show_bug.cgi?id=2372512 
+│                        │      │                  ├ [18]: https://bugzilla.redhat.com/show_bug.cgi?id=2388220 
 │                        │      │                  ├ [19]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                        │      │                  │       025-6020 
+│                        │      │                  ├ [20]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                        │      │                  │       025-8941 
-│                        │      │                  ├ [20]: https://errata.almalinux.org/9/ALSA-2025-15099.html 
-│                        │      │                  ├ [21]: https://errata.rockylinux.org/RLSA-2025:14557 
-│                        │      │                  ├ [22]: https://linux.oracle.com/cve/CVE-2025-8941.html 
-│                        │      │                  ├ [23]: https://linux.oracle.com/errata/ELSA-2025-15099.html 
-│                        │      │                  ├ [24]: https://nvd.nist.gov/vuln/detail/CVE-2025-8941 
-│                        │      │                  ╰ [25]: https://www.cve.org/CVERecord?id=CVE-2025-8941 
+│                        │      │                  ├ [21]: https://errata.almalinux.org/9/ALSA-2025-15099.html 
+│                        │      │                  ├ [22]: https://errata.rockylinux.org/RLSA-2025:14557 
+│                        │      │                  ├ [23]: https://linux.oracle.com/cve/CVE-2025-8941.html 
+│                        │      │                  ├ [24]: https://linux.oracle.com/errata/ELSA-2025-15099.html 
+│                        │      │                  ├ [25]: https://nvd.nist.gov/vuln/detail/CVE-2025-8941 
+│                        │      │                  ╰ [26]: https://www.cve.org/CVERecord?id=CVE-2025-8941 
 │                        │      ├ PublishedDate   : 2025-08-13T15:15:41.873Z 
-│                        │      ╰ LastModifiedDate: 2025-09-15T18:15:40.257Z 
+│                        │      ╰ LastModifiedDate: 2025-09-23T20:15:33.927Z 
 │                        ├ [39] ╭ VulnerabilityID : CVE-2023-7008 
 │                        │      ├ PkgID           : libpam-systemd@249.11-0ubuntu3.16 
 │                        │      ├ PkgName         : libpam-systemd 
@@ -2122,7 +2129,7 @@
 │                        │      │                  ├ [6] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                        │      │                  │       023-7008 
 │                        │      │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2024-2463.html 
-│                        │      │                  ├ [8] : https://errata.rockylinux.org/RLSA-2024:2463 
+│                        │      │                  ├ [8] : https://errata.rockylinux.org/RLSA-2024:3203 
 │                        │      │                  ├ [9] : https://github.com/systemd/systemd/issues/25676 
 │                        │      │                  ├ [10]: https://linux.oracle.com/cve/CVE-2023-7008.html 
 │                        │      │                  ├ [11]: https://linux.oracle.com/errata/ELSA-2024-3203.html 
@@ -2184,23 +2191,24 @@
 │                        │      │                  ├ [10]: https://access.redhat.com/errata/RHSA-2025:15709 
 │                        │      │                  ├ [11]: https://access.redhat.com/errata/RHSA-2025:15827 
 │                        │      │                  ├ [12]: https://access.redhat.com/errata/RHSA-2025:15828 
-│                        │      │                  ├ [13]: https://access.redhat.com/security/cve/CVE-2025-8941 
-│                        │      │                  ├ [14]: https://bugzilla.redhat.com/2372512 
-│                        │      │                  ├ [15]: https://bugzilla.redhat.com/2388220 
-│                        │      │                  ├ [16]: https://bugzilla.redhat.com/show_bug.cgi?id=2372512 
-│                        │      │                  ├ [17]: https://bugzilla.redhat.com/show_bug.cgi?id=2388220 
-│                        │      │                  ├ [18]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                        │      │                  │       025-6020 
+│                        │      │                  ├ [13]: https://access.redhat.com/errata/RHSA-2025:16524 
+│                        │      │                  ├ [14]: https://access.redhat.com/security/cve/CVE-2025-8941 
+│                        │      │                  ├ [15]: https://bugzilla.redhat.com/2372512 
+│                        │      │                  ├ [16]: https://bugzilla.redhat.com/2388220 
+│                        │      │                  ├ [17]: https://bugzilla.redhat.com/show_bug.cgi?id=2372512 
+│                        │      │                  ├ [18]: https://bugzilla.redhat.com/show_bug.cgi?id=2388220 
 │                        │      │                  ├ [19]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                        │      │                  │       025-6020 
+│                        │      │                  ├ [20]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                        │      │                  │       025-8941 
-│                        │      │                  ├ [20]: https://errata.almalinux.org/9/ALSA-2025-15099.html 
-│                        │      │                  ├ [21]: https://errata.rockylinux.org/RLSA-2025:14557 
-│                        │      │                  ├ [22]: https://linux.oracle.com/cve/CVE-2025-8941.html 
-│                        │      │                  ├ [23]: https://linux.oracle.com/errata/ELSA-2025-15099.html 
-│                        │      │                  ├ [24]: https://nvd.nist.gov/vuln/detail/CVE-2025-8941 
-│                        │      │                  ╰ [25]: https://www.cve.org/CVERecord?id=CVE-2025-8941 
+│                        │      │                  ├ [21]: https://errata.almalinux.org/9/ALSA-2025-15099.html 
+│                        │      │                  ├ [22]: https://errata.rockylinux.org/RLSA-2025:14557 
+│                        │      │                  ├ [23]: https://linux.oracle.com/cve/CVE-2025-8941.html 
+│                        │      │                  ├ [24]: https://linux.oracle.com/errata/ELSA-2025-15099.html 
+│                        │      │                  ├ [25]: https://nvd.nist.gov/vuln/detail/CVE-2025-8941 
+│                        │      │                  ╰ [26]: https://www.cve.org/CVERecord?id=CVE-2025-8941 
 │                        │      ├ PublishedDate   : 2025-08-13T15:15:41.873Z 
-│                        │      ╰ LastModifiedDate: 2025-09-15T18:15:40.257Z 
+│                        │      ╰ LastModifiedDate: 2025-09-23T20:15:33.927Z 
 │                        ├ [41] ╭ VulnerabilityID : CVE-2022-41409 
 │                        │      ├ PkgID           : libpcre2-8-0@10.39-3ubuntu0.1 
 │                        │      ├ PkgName         : libpcre2-8-0 
@@ -2447,7 +2455,7 @@
 │                        │      │                  ├ [6] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                        │      │                  │       023-7008 
 │                        │      │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2024-2463.html 
-│                        │      │                  ├ [8] : https://errata.rockylinux.org/RLSA-2024:2463 
+│                        │      │                  ├ [8] : https://errata.rockylinux.org/RLSA-2024:3203 
 │                        │      │                  ├ [9] : https://github.com/systemd/systemd/issues/25676 
 │                        │      │                  ├ [10]: https://linux.oracle.com/cve/CVE-2023-7008.html 
 │                        │      │                  ├ [11]: https://linux.oracle.com/errata/ELSA-2024-3203.html 
@@ -2561,7 +2569,7 @@
 │                        │      │                  ├ [6] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                        │      │                  │       023-7008 
 │                        │      │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2024-2463.html 
-│                        │      │                  ├ [8] : https://errata.rockylinux.org/RLSA-2024:2463 
+│                        │      │                  ├ [8] : https://errata.rockylinux.org/RLSA-2024:3203 
 │                        │      │                  ├ [9] : https://github.com/systemd/systemd/issues/25676 
 │                        │      │                  ├ [10]: https://linux.oracle.com/cve/CVE-2023-7008.html 
 │                        │      │                  ├ [11]: https://linux.oracle.com/errata/ELSA-2024-3203.html 
@@ -3300,7 +3308,7 @@
 │                        │      │                  ├ [6] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                        │      │                  │       023-7008 
 │                        │      │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2024-2463.html 
-│                        │      │                  ├ [8] : https://errata.rockylinux.org/RLSA-2024:2463 
+│                        │      │                  ├ [8] : https://errata.rockylinux.org/RLSA-2024:3203 
 │                        │      │                  ├ [9] : https://github.com/systemd/systemd/issues/25676 
 │                        │      │                  ├ [10]: https://linux.oracle.com/cve/CVE-2023-7008.html 
 │                        │      │                  ├ [11]: https://linux.oracle.com/errata/ELSA-2024-3203.html 
@@ -3367,7 +3375,7 @@
 │                        │      │                  ├ [6] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                        │      │                  │       023-7008 
 │                        │      │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2024-2463.html 
-│                        │      │                  ├ [8] : https://errata.rockylinux.org/RLSA-2024:2463 
+│                        │      │                  ├ [8] : https://errata.rockylinux.org/RLSA-2024:3203 
 │                        │      │                  ├ [9] : https://github.com/systemd/systemd/issues/25676 
 │                        │      │                  ├ [10]: https://linux.oracle.com/cve/CVE-2023-7008.html 
 │                        │      │                  ├ [11]: https://linux.oracle.com/errata/ELSA-2024-3203.html 
@@ -3434,7 +3442,7 @@
 │                        │      │                  ├ [6] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                        │      │                  │       023-7008 
 │                        │      │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2024-2463.html 
-│                        │      │                  ├ [8] : https://errata.rockylinux.org/RLSA-2024:2463 
+│                        │      │                  ├ [8] : https://errata.rockylinux.org/RLSA-2024:3203 
 │                        │      │                  ├ [9] : https://github.com/systemd/systemd/issues/25676 
 │                        │      │                  ├ [10]: https://linux.oracle.com/cve/CVE-2023-7008.html 
 │                        │      │                  ├ [11]: https://linux.oracle.com/errata/ELSA-2024-3203.html 
@@ -3884,7 +3892,7 @@
 │                        │     │                  ├ [15]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                        │     │                  │       24-24783 
 │                        │     │                  ├ [16]: https://errata.almalinux.org/9/ALSA-2024-2724.html 
-│                        │     │                  ├ [17]: https://errata.rockylinux.org/RLSA-2024:2724 
+│                        │     │                  ├ [17]: https://errata.rockylinux.org/RLSA-2024:3346 
 │                        │     │                  ├ [18]: https://go.dev/cl/576155 
 │                        │     │                  ├ [19]: https://go.dev/issue/65051 
 │                        │     │                  ├ [20]: https://groups.google.com/g/golang-announce/c/YgW0sx8
@@ -3998,7 +4006,7 @@
 │                        │     │                   during DOM construction, but only when tags are in foreign
 │                        │     │                   content (e.g. <math>, <svg>, etc contexts). 
 │                        │     ├ Severity        : MEDIUM 
-│                        │     ├ VendorSeverity   ╭ amazon     : 3 
+│                        │     ├ VendorSeverity   ╭ amazon     : 2 
 │                        │     │                  ├ azure      : 2 
 │                        │     │                  ├ cbl-mariner: 2 
 │                        │     │                  ├ ghsa       : 2 
@@ -4375,7 +4383,7 @@
 │                        │     │                  ├ [15]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                        │     │                  │       24-24783 
 │                        │     │                  ├ [16]: https://errata.almalinux.org/9/ALSA-2024-2724.html 
-│                        │     │                  ├ [17]: https://errata.rockylinux.org/RLSA-2024:2724 
+│                        │     │                  ├ [17]: https://errata.rockylinux.org/RLSA-2024:3346 
 │                        │     │                  ├ [18]: https://go.dev/cl/576155 
 │                        │     │                  ├ [19]: https://go.dev/issue/65051 
 │                        │     │                  ├ [20]: https://groups.google.com/g/golang-announce/c/YgW0sx8
@@ -4489,7 +4497,7 @@
 │                        │     │                   during DOM construction, but only when tags are in foreign
 │                        │     │                   content (e.g. <math>, <svg>, etc contexts). 
 │                        │     ├ Severity        : MEDIUM 
-│                        │     ├ VendorSeverity   ╭ amazon     : 3 
+│                        │     ├ VendorSeverity   ╭ amazon     : 2 
 │                        │     │                  ├ azure      : 2 
 │                        │     │                  ├ cbl-mariner: 2 
 │                        │     │                  ├ ghsa       : 2 
@@ -4838,12 +4846,16 @@
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ ghsa       : 2 
+│                        │      │                  ├ nvd        : 3 
 │                        │      │                  ├ photon     : 2 
 │                        │      │                  ├ redhat     : 2 
 │                        │      │                  ╰ ubuntu     : 2 
 │                        │      ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:C/C:L/I:
 │                        │      │                  │        │           L/A:N 
 │                        │      │                  │        ╰ V3Score : 4.6 
+│                        │      │                  ├ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:
+│                        │      │                  │        │           H/A:H 
+│                        │      │                  │        ╰ V3Score : 7.8 
 │                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:C/C:L/I:
 │                        │      │                           │           L/A:N 
 │                        │      │                           ╰ V3Score : 4.6 
@@ -4867,7 +4879,7 @@
 │                        │      │                  ├ [10]: https://ubuntu.com/security/notices/USN-7374-1 
 │                        │      │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2024-40635 
 │                        │      ├ PublishedDate   : 2025-03-17T22:15:13.15Z 
-│                        │      ╰ LastModifiedDate: 2025-05-04T22:15:31.84Z 
+│                        │      ╰ LastModifiedDate: 2025-09-23T15:09:09.43Z 
 │                        ├ [1]  ╭ VulnerabilityID : CVE-2024-41110 
 │                        │      ├ PkgID           : github.com/docker/docker@v27.0.3+incompatible 
 │                        │      ├ PkgName         : github.com/docker/docker 
@@ -5281,7 +5293,7 @@
 │                        │      │                   the wrong scope during DOM construction, but only when tags
 │                        │      │                    are in foreign content (e.g. <math>, <svg>, etc contexts). 
 │                        │      ├ Severity        : MEDIUM 
-│                        │      ├ VendorSeverity   ╭ amazon     : 3 
+│                        │      ├ VendorSeverity   ╭ amazon     : 2 
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ ghsa       : 2 
