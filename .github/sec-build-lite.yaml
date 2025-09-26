@@ -235,6 +235,44 @@
     - https://www.cve.org/CVERecord?id=CVE-2022-3219
     PublishedDate: '2023-02-23T20:15:12.393Z'
     LastModifiedDate: '2025-03-12T21:15:38.207Z'
+  - VulnerabilityID: CVE-2025-6297
+    PkgID: dpkg@1.22.6ubuntu6.2
+    PkgName: dpkg
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/dpkg@1.22.6ubuntu6.2?arch=amd64&distro=ubuntu-24.04
+      UID: c1208876484ffb68
+    InstalledVersion: 1.22.6ubuntu6.2
+    FixedVersion: 1.22.6ubuntu6.5
+    Status: fixed
+    Layer:
+      Digest: sha256:9b8abd8f9e71616ec69cb4e146731188d1fdf42c2ab386520ed0739a512a3ad0
+      DiffID: sha256:dabf339ad9c29faf36df3507a6e88169b016e6c4959eaa22f79fe8435ec3ef14
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-6297
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: It was discovered that dpkg-deb does not properly sanitize directory p ...
+    Description: |-
+      It was discovered that dpkg-deb does not properly sanitize directory permissions when extracting a control member into a temporary directory, which is
+      documented as being a safe operation even on untrusted data. This may result in leaving temporary files behind on cleanup. Given automated and repeated execution of dpkg-deb commands on
+      adversarial .deb packages or with well compressible files, placed
+      inside a directory with permissions not allowing removal by a non-root
+      user, this can end up in a DoS scenario due to causing disk quota
+      exhaustion or disk full conditions.
+    Severity: LOW
+    CweIDs:
+    - CWE-400
+    - CWE-732
+    VendorSeverity:
+      ubuntu: 1
+    References:
+    - https://git.dpkg.org/cgit/dpkg/dpkg.git/commit/?id=ed6bbd445dd8800308c67236ba35d08004c98e82
+    - https://ubuntu.com/security/notices/USN-7768-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-6297
+    PublishedDate: '2025-07-01T17:15:30.177Z'
+    LastModifiedDate: '2025-08-19T17:50:38.047Z'
   - VulnerabilityID: CVE-2025-6052
     PkgID: gir1.2-glib-2.0@2.80.0-6ubuntu3.4
     PkgName: gir1.2-glib-2.0
@@ -2535,7 +2573,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45290
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24783
     - https://errata.almalinux.org/9/ALSA-2024-2724.html
-    - https://errata.rockylinux.org/RLSA-2024:3346
+    - https://errata.rockylinux.org/RLSA-2024:2724
     - https://go.dev/cl/576155
     - https://go.dev/issue/65051
     - https://groups.google.com/g/golang-announce/c/YgW0sx8mN3M
@@ -2632,7 +2670,7 @@
     Description: The tokenizer incorrectly interprets tags with unquoted attribute values that end with a solidus character (/) as self-closing. When directly using Tokenizer, this can result in such tags incorrectly being marked as self-closing, and when using the Parse functions, this can result in content following such tags as being placed in the wrong scope during DOM construction, but only when tags are in foreign content (e.g. <math>, <svg>, etc contexts).
     Severity: MEDIUM
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       ghsa: 2
@@ -2982,7 +3020,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45290
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24783
     - https://errata.almalinux.org/9/ALSA-2024-2724.html
-    - https://errata.rockylinux.org/RLSA-2024:3346
+    - https://errata.rockylinux.org/RLSA-2024:2724
     - https://go.dev/cl/576155
     - https://go.dev/issue/65051
     - https://groups.google.com/g/golang-announce/c/YgW0sx8mN3M
@@ -3079,7 +3117,7 @@
     Description: The tokenizer incorrectly interprets tags with unquoted attribute values that end with a solidus character (/) as self-closing. When directly using Tokenizer, this can result in such tags incorrectly being marked as self-closing, and when using the Parse functions, this can result in content following such tags as being placed in the wrong scope during DOM construction, but only when tags are in foreign content (e.g. <math>, <svg>, etc contexts).
     Severity: MEDIUM
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       ghsa: 2
@@ -3409,7 +3447,7 @@
       cbl-mariner: 2
       ghsa: 2
       nvd: 3
-      photon: 2
+      photon: 3
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -3742,7 +3780,7 @@
     Description: The tokenizer incorrectly interprets tags with unquoted attribute values that end with a solidus character (/) as self-closing. When directly using Tokenizer, this can result in such tags incorrectly being marked as self-closing, and when using the Parse functions, this can result in content following such tags as being placed in the wrong scope during DOM construction, but only when tags are in foreign content (e.g. <math>, <svg>, etc contexts).
     Severity: MEDIUM
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       ghsa: 2
