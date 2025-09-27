@@ -5862,7 +5862,7 @@
 │                        │       │                   catching the DecodeError. 
 │                        │       ├ Severity        : MEDIUM 
 │                        │       ├ CweIDs           ─ [0]: CWE-416 
-│                        │       ├ VendorSeverity   ╭ amazon     : 3 
+│                        │       ├ VendorSeverity   ╭ amazon     : 2 
 │                        │       │                  ├ azure      : 2 
 │                        │       │                  ├ cbl-mariner: 2 
 │                        │       │                  ├ redhat     : 2 
@@ -6132,7 +6132,7 @@
 │                        │       │                   catching the DecodeError. 
 │                        │       ├ Severity        : MEDIUM 
 │                        │       ├ CweIDs           ─ [0]: CWE-416 
-│                        │       ├ VendorSeverity   ╭ amazon     : 3 
+│                        │       ├ VendorSeverity   ╭ amazon     : 2 
 │                        │       │                  ├ azure      : 2 
 │                        │       │                  ├ cbl-mariner: 2 
 │                        │       │                  ├ redhat     : 2 
@@ -6402,7 +6402,7 @@
 │                        │       │                   catching the DecodeError. 
 │                        │       ├ Severity        : MEDIUM 
 │                        │       ├ CweIDs           ─ [0]: CWE-416 
-│                        │       ├ VendorSeverity   ╭ amazon     : 3 
+│                        │       ├ VendorSeverity   ╭ amazon     : 2 
 │                        │       │                  ├ azure      : 2 
 │                        │       │                  ├ cbl-mariner: 2 
 │                        │       │                  ├ redhat     : 2 
@@ -9776,7 +9776,7 @@
 │                        │       │                   catching the DecodeError. 
 │                        │       ├ Severity        : MEDIUM 
 │                        │       ├ CweIDs           ─ [0]: CWE-416 
-│                        │       ├ VendorSeverity   ╭ amazon     : 3 
+│                        │       ├ VendorSeverity   ╭ amazon     : 2 
 │                        │       │                  ├ azure      : 2 
 │                        │       │                  ├ cbl-mariner: 2 
 │                        │       │                  ├ redhat     : 2 
@@ -10046,7 +10046,7 @@
 │                        │       │                   catching the DecodeError. 
 │                        │       ├ Severity        : MEDIUM 
 │                        │       ├ CweIDs           ─ [0]: CWE-416 
-│                        │       ├ VendorSeverity   ╭ amazon     : 3 
+│                        │       ├ VendorSeverity   ╭ amazon     : 2 
 │                        │       │                  ├ azure      : 2 
 │                        │       │                  ├ cbl-mariner: 2 
 │                        │       │                  ├ redhat     : 2 
@@ -11712,7 +11712,7 @@
 │                        │     │                   during DOM construction, but only when tags are in foreign
 │                        │     │                   content (e.g. <math>, <svg>, etc contexts). 
 │                        │     ├ Severity        : MEDIUM 
-│                        │     ├ VendorSeverity   ╭ amazon     : 3 
+│                        │     ├ VendorSeverity   ╭ amazon     : 2 
 │                        │     │                  ├ azure      : 2 
 │                        │     │                  ├ cbl-mariner: 2 
 │                        │     │                  ├ ghsa       : 2 
@@ -11777,43 +11777,7 @@
 │                        │     │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-22874 
 │                        │     ├ PublishedDate   : 2025-06-11T17:15:42.167Z 
 │                        │     ╰ LastModifiedDate: 2025-06-12T16:06:20.18Z 
-│                        ├ [4] ╭ VulnerabilityID : CVE-2025-47906 
-│                        │     ├ PkgID           : stdlib@v1.24.1 
-│                        │     ├ PkgName         : stdlib 
-│                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.24.1 
-│                        │     │                  ╰ UID : 2add7c57bc4db0d1 
-│                        │     ├ InstalledVersion: v1.24.1 
-│                        │     ├ FixedVersion    : 1.23.12, 1.24.6 
-│                        │     ├ Status          : fixed 
-│                        │     ├ Layer            ╭ Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4
-│                        │     │                  │         a8143db4b97d428659d0 
-│                        │     │                  ╰ DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8
-│                        │     │                            d67226cb3b9e50f918f0 
-│                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-47906 
-│                        │     ├ DataSource       ╭ ID  : govulndb 
-│                        │     │                  ├ Name: The Go Vulnerability Database 
-│                        │     │                  ╰ URL : https://pkg.go.dev/vuln/ 
-│                        │     ├ Title           : If the PATH environment variable contains paths which are
-│                        │     │                   executables  ... 
-│                        │     ├ Description     : If the PATH environment variable contains paths which are
-│                        │     │                   executables (rather than just directories), passing certain
-│                        │     │                   strings to LookPath ("", ".", and ".."), can result in the
-│                        │     │                   binaries listed in the PATH being unexpectedly returned. 
-│                        │     ├ Severity        : HIGH 
-│                        │     ├ VendorSeverity   ╭ amazon : 3 
-│                        │     │                  ╰ bitnami: 2 
-│                        │     ├ CVSS             ─ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:
-│                        │     │                            │           N/A:L 
-│                        │     │                            ╰ V3Score : 6.5 
-│                        │     ├ References       ╭ [0]: https://go.dev/cl/691775 
-│                        │     │                  ├ [1]: https://go.dev/issue/74466 
-│                        │     │                  ├ [2]: https://groups.google.com/g/golang-announce/c/x5MKroML
-│                        │     │                  │      2yM 
-│                        │     │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-47906 
-│                        │     │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2025-3956 
-│                        │     ├ PublishedDate   : 2025-09-18T19:15:37.66Z 
-│                        │     ╰ LastModifiedDate: 2025-09-19T16:00:27.847Z 
-│                        ├ [5] ╭ VulnerabilityID : CVE-2025-47907 
+│                        ├ [4] ╭ VulnerabilityID : CVE-2025-47907 
 │                        │     ├ PkgID           : stdlib@v1.24.1 
 │                        │     ├ PkgName         : stdlib 
 │                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.24.1 
@@ -11860,7 +11824,7 @@
 │                        │     │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-47907 
 │                        │     ├ PublishedDate   : 2025-08-07T16:15:30.357Z 
 │                        │     ╰ LastModifiedDate: 2025-08-07T21:26:37.453Z 
-│                        ├ [6] ╭ VulnerabilityID : CVE-2025-0913 
+│                        ├ [5] ╭ VulnerabilityID : CVE-2025-0913 
 │                        │     ├ PkgID           : stdlib@v1.24.1 
 │                        │     ├ PkgName         : stdlib 
 │                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.24.1 
@@ -11900,7 +11864,7 @@
 │                        │     │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2025-3750 
 │                        │     ├ PublishedDate   : 2025-06-11T18:15:24.627Z 
 │                        │     ╰ LastModifiedDate: 2025-08-08T14:53:03.55Z 
-│                        ├ [7] ╭ VulnerabilityID : CVE-2025-22871 
+│                        ├ [6] ╭ VulnerabilityID : CVE-2025-22871 
 │                        │     ├ PkgID           : stdlib@v1.24.1 
 │                        │     ├ PkgName         : stdlib 
 │                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.24.1 
@@ -11957,58 +11921,99 @@
 │                        │     │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2025-22871 
 │                        │     ├ PublishedDate   : 2025-04-08T20:15:20.183Z 
 │                        │     ╰ LastModifiedDate: 2025-04-18T15:15:57.923Z 
-│                        ╰ [8] ╭ VulnerabilityID : CVE-2025-4673 
+│                        ├ [7] ╭ VulnerabilityID : CVE-2025-4673 
+│                        │     ├ PkgID           : stdlib@v1.24.1 
+│                        │     ├ PkgName         : stdlib 
+│                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.24.1 
+│                        │     │                  ╰ UID : 2add7c57bc4db0d1 
+│                        │     ├ InstalledVersion: v1.24.1 
+│                        │     ├ FixedVersion    : 1.23.10, 1.24.4 
+│                        │     ├ Status          : fixed 
+│                        │     ├ Layer            ╭ Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4
+│                        │     │                  │         a8143db4b97d428659d0 
+│                        │     │                  ╰ DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8
+│                        │     │                            d67226cb3b9e50f918f0 
+│                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-4673 
+│                        │     ├ DataSource       ╭ ID  : govulndb 
+│                        │     │                  ├ Name: The Go Vulnerability Database 
+│                        │     │                  ╰ URL : https://pkg.go.dev/vuln/ 
+│                        │     ├ Title           : net/http: Sensitive headers not cleared on cross-origin
+│                        │     │                   redirect in net/http 
+│                        │     ├ Description     : Proxy-Authorization and Proxy-Authenticate headers persisted
+│                        │     │                    on cross-origin redirects potentially leaking sensitive
+│                        │     │                   information. 
+│                        │     ├ Severity        : MEDIUM 
+│                        │     ├ VendorSeverity   ╭ alma       : 2 
+│                        │     │                  ├ amazon     : 2 
+│                        │     │                  ├ azure      : 2 
+│                        │     │                  ├ bitnami    : 2 
+│                        │     │                  ├ cbl-mariner: 2 
+│                        │     │                  ├ oracle-oval: 2 
+│                        │     │                  ├ redhat     : 2 
+│                        │     │                  ╰ ubuntu     : 2 
+│                        │     ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:
+│                        │     │                  │         │           N/A:N 
+│                        │     │                  │         ╰ V3Score : 6.8 
+│                        │     │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:
+│                        │     │                            │           N/A:N 
+│                        │     │                            ╰ V3Score : 6.8 
+│                        │     ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:15887 
+│                        │     │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-4673 
+│                        │     │                  ├ [2] : https://bugzilla.redhat.com/2373305 
+│                        │     │                  ├ [3] : https://errata.almalinux.org/9/ALSA-2025-15887.html 
+│                        │     │                  ├ [4] : https://go.dev/cl/679257 
+│                        │     │                  ├ [5] : https://go.dev/issue/73816 
+│                        │     │                  ├ [6] : https://groups.google.com/g/golang-announce/c/ufZ8WpE
+│                        │     │                  │       sA3A 
+│                        │     │                  ├ [7] : https://linux.oracle.com/cve/CVE-2025-4673.html 
+│                        │     │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2025-10677.html 
+│                        │     │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2025-4673 
+│                        │     │                  ├ [10]: https://pkg.go.dev/vuln/GO-2025-3751 
+│                        │     │                  ├ [11]: https://ubuntu.com/security/notices/USN-7574-1 
+│                        │     │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2025-4673 
+│                        │     ├ PublishedDate   : 2025-06-11T17:15:42.993Z 
+│                        │     ╰ LastModifiedDate: 2025-06-12T16:06:20.18Z 
+│                        ╰ [8] ╭ VulnerabilityID : CVE-2025-47906 
 │                              ├ PkgID           : stdlib@v1.24.1 
 │                              ├ PkgName         : stdlib 
 │                              ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.24.1 
 │                              │                  ╰ UID : 2add7c57bc4db0d1 
 │                              ├ InstalledVersion: v1.24.1 
-│                              ├ FixedVersion    : 1.23.10, 1.24.4 
+│                              ├ FixedVersion    : 1.23.12, 1.24.6 
 │                              ├ Status          : fixed 
 │                              ├ Layer            ╭ Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4
 │                              │                  │         a8143db4b97d428659d0 
 │                              │                  ╰ DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8
 │                              │                            d67226cb3b9e50f918f0 
-│                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-4673 
+│                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-47906 
 │                              ├ DataSource       ╭ ID  : govulndb 
 │                              │                  ├ Name: The Go Vulnerability Database 
 │                              │                  ╰ URL : https://pkg.go.dev/vuln/ 
-│                              ├ Title           : net/http: Sensitive headers not cleared on cross-origin
-│                              │                   redirect in net/http 
-│                              ├ Description     : Proxy-Authorization and Proxy-Authenticate headers persisted
-│                              │                    on cross-origin redirects potentially leaking sensitive
-│                              │                   information. 
+│                              ├ Title           : os/exec: Unexpected paths returned from LookPath in os/exec 
+│                              ├ Description     : If the PATH environment variable contains paths which are
+│                              │                   executables (rather than just directories), passing certain
+│                              │                   strings to LookPath ("", ".", and ".."), can result in the
+│                              │                   binaries listed in the PATH being unexpectedly returned. 
 │                              ├ Severity        : MEDIUM 
-│                              ├ VendorSeverity   ╭ alma       : 2 
-│                              │                  ├ amazon     : 2 
-│                              │                  ├ azure      : 2 
-│                              │                  ├ bitnami    : 2 
-│                              │                  ├ cbl-mariner: 2 
-│                              │                  ├ oracle-oval: 2 
-│                              │                  ├ redhat     : 2 
-│                              │                  ╰ ubuntu     : 2 
-│                              ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:
-│                              │                  │         │           N/A:N 
-│                              │                  │         ╰ V3Score : 6.8 
-│                              │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:
-│                              │                            │           N/A:N 
-│                              │                            ╰ V3Score : 6.8 
-│                              ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:15887 
-│                              │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-4673 
-│                              │                  ├ [2] : https://bugzilla.redhat.com/2373305 
-│                              │                  ├ [3] : https://errata.almalinux.org/9/ALSA-2025-15887.html 
-│                              │                  ├ [4] : https://go.dev/cl/679257 
-│                              │                  ├ [5] : https://go.dev/issue/73816 
-│                              │                  ├ [6] : https://groups.google.com/g/golang-announce/c/ufZ8WpE
-│                              │                  │       sA3A 
-│                              │                  ├ [7] : https://linux.oracle.com/cve/CVE-2025-4673.html 
-│                              │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2025-10677.html 
-│                              │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2025-4673 
-│                              │                  ├ [10]: https://pkg.go.dev/vuln/GO-2025-3751 
-│                              │                  ├ [11]: https://ubuntu.com/security/notices/USN-7574-1 
-│                              │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2025-4673 
-│                              ├ PublishedDate   : 2025-06-11T17:15:42.993Z 
-│                              ╰ LastModifiedDate: 2025-06-12T16:06:20.18Z 
+│                              ├ VendorSeverity   ╭ amazon : 3 
+│                              │                  ├ bitnami: 2 
+│                              │                  ╰ redhat : 2 
+│                              ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:
+│                              │                  │         │           N/A:L 
+│                              │                  │         ╰ V3Score : 6.5 
+│                              │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:
+│                              │                            │           N/A:L 
+│                              │                            ╰ V3Score : 6.5 
+│                              ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-47906 
+│                              │                  ├ [1]: https://go.dev/cl/691775 
+│                              │                  ├ [2]: https://go.dev/issue/74466 
+│                              │                  ├ [3]: https://groups.google.com/g/golang-announce/c/x5MKroML
+│                              │                  │      2yM 
+│                              │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-47906 
+│                              │                  ├ [5]: https://pkg.go.dev/vuln/GO-2025-3956 
+│                              │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-47906 
+│                              ├ PublishedDate   : 2025-09-18T19:15:37.66Z 
+│                              ╰ LastModifiedDate: 2025-09-19T16:00:27.847Z 
 ├ [4]  ╭ Target         : tmp/tmp.rYlCZdukWB/krew-linux_amd64 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : gobinary 
@@ -12203,7 +12208,7 @@
 │                        │     │                   during DOM construction, but only when tags are in foreign
 │                        │     │                   content (e.g. <math>, <svg>, etc contexts). 
 │                        │     ├ Severity        : MEDIUM 
-│                        │     ├ VendorSeverity   ╭ amazon     : 3 
+│                        │     ├ VendorSeverity   ╭ amazon     : 2 
 │                        │     │                  ├ azure      : 2 
 │                        │     │                  ├ cbl-mariner: 2 
 │                        │     │                  ├ ghsa       : 2 
@@ -12268,43 +12273,7 @@
 │                        │     │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-22874 
 │                        │     ├ PublishedDate   : 2025-06-11T17:15:42.167Z 
 │                        │     ╰ LastModifiedDate: 2025-06-12T16:06:20.18Z 
-│                        ├ [4] ╭ VulnerabilityID : CVE-2025-47906 
-│                        │     ├ PkgID           : stdlib@v1.24.1 
-│                        │     ├ PkgName         : stdlib 
-│                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.24.1 
-│                        │     │                  ╰ UID : 6a2f8f56c5fff27e 
-│                        │     ├ InstalledVersion: v1.24.1 
-│                        │     ├ FixedVersion    : 1.23.12, 1.24.6 
-│                        │     ├ Status          : fixed 
-│                        │     ├ Layer            ╭ Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4
-│                        │     │                  │         a8143db4b97d428659d0 
-│                        │     │                  ╰ DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8
-│                        │     │                            d67226cb3b9e50f918f0 
-│                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-47906 
-│                        │     ├ DataSource       ╭ ID  : govulndb 
-│                        │     │                  ├ Name: The Go Vulnerability Database 
-│                        │     │                  ╰ URL : https://pkg.go.dev/vuln/ 
-│                        │     ├ Title           : If the PATH environment variable contains paths which are
-│                        │     │                   executables  ... 
-│                        │     ├ Description     : If the PATH environment variable contains paths which are
-│                        │     │                   executables (rather than just directories), passing certain
-│                        │     │                   strings to LookPath ("", ".", and ".."), can result in the
-│                        │     │                   binaries listed in the PATH being unexpectedly returned. 
-│                        │     ├ Severity        : HIGH 
-│                        │     ├ VendorSeverity   ╭ amazon : 3 
-│                        │     │                  ╰ bitnami: 2 
-│                        │     ├ CVSS             ─ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:
-│                        │     │                            │           N/A:L 
-│                        │     │                            ╰ V3Score : 6.5 
-│                        │     ├ References       ╭ [0]: https://go.dev/cl/691775 
-│                        │     │                  ├ [1]: https://go.dev/issue/74466 
-│                        │     │                  ├ [2]: https://groups.google.com/g/golang-announce/c/x5MKroML
-│                        │     │                  │      2yM 
-│                        │     │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-47906 
-│                        │     │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2025-3956 
-│                        │     ├ PublishedDate   : 2025-09-18T19:15:37.66Z 
-│                        │     ╰ LastModifiedDate: 2025-09-19T16:00:27.847Z 
-│                        ├ [5] ╭ VulnerabilityID : CVE-2025-47907 
+│                        ├ [4] ╭ VulnerabilityID : CVE-2025-47907 
 │                        │     ├ PkgID           : stdlib@v1.24.1 
 │                        │     ├ PkgName         : stdlib 
 │                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.24.1 
@@ -12351,7 +12320,7 @@
 │                        │     │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-47907 
 │                        │     ├ PublishedDate   : 2025-08-07T16:15:30.357Z 
 │                        │     ╰ LastModifiedDate: 2025-08-07T21:26:37.453Z 
-│                        ├ [6] ╭ VulnerabilityID : CVE-2025-0913 
+│                        ├ [5] ╭ VulnerabilityID : CVE-2025-0913 
 │                        │     ├ PkgID           : stdlib@v1.24.1 
 │                        │     ├ PkgName         : stdlib 
 │                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.24.1 
@@ -12391,7 +12360,7 @@
 │                        │     │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2025-3750 
 │                        │     ├ PublishedDate   : 2025-06-11T18:15:24.627Z 
 │                        │     ╰ LastModifiedDate: 2025-08-08T14:53:03.55Z 
-│                        ├ [7] ╭ VulnerabilityID : CVE-2025-22871 
+│                        ├ [6] ╭ VulnerabilityID : CVE-2025-22871 
 │                        │     ├ PkgID           : stdlib@v1.24.1 
 │                        │     ├ PkgName         : stdlib 
 │                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.24.1 
@@ -12448,58 +12417,99 @@
 │                        │     │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2025-22871 
 │                        │     ├ PublishedDate   : 2025-04-08T20:15:20.183Z 
 │                        │     ╰ LastModifiedDate: 2025-04-18T15:15:57.923Z 
-│                        ╰ [8] ╭ VulnerabilityID : CVE-2025-4673 
+│                        ├ [7] ╭ VulnerabilityID : CVE-2025-4673 
+│                        │     ├ PkgID           : stdlib@v1.24.1 
+│                        │     ├ PkgName         : stdlib 
+│                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.24.1 
+│                        │     │                  ╰ UID : 6a2f8f56c5fff27e 
+│                        │     ├ InstalledVersion: v1.24.1 
+│                        │     ├ FixedVersion    : 1.23.10, 1.24.4 
+│                        │     ├ Status          : fixed 
+│                        │     ├ Layer            ╭ Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4
+│                        │     │                  │         a8143db4b97d428659d0 
+│                        │     │                  ╰ DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8
+│                        │     │                            d67226cb3b9e50f918f0 
+│                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-4673 
+│                        │     ├ DataSource       ╭ ID  : govulndb 
+│                        │     │                  ├ Name: The Go Vulnerability Database 
+│                        │     │                  ╰ URL : https://pkg.go.dev/vuln/ 
+│                        │     ├ Title           : net/http: Sensitive headers not cleared on cross-origin
+│                        │     │                   redirect in net/http 
+│                        │     ├ Description     : Proxy-Authorization and Proxy-Authenticate headers persisted
+│                        │     │                    on cross-origin redirects potentially leaking sensitive
+│                        │     │                   information. 
+│                        │     ├ Severity        : MEDIUM 
+│                        │     ├ VendorSeverity   ╭ alma       : 2 
+│                        │     │                  ├ amazon     : 2 
+│                        │     │                  ├ azure      : 2 
+│                        │     │                  ├ bitnami    : 2 
+│                        │     │                  ├ cbl-mariner: 2 
+│                        │     │                  ├ oracle-oval: 2 
+│                        │     │                  ├ redhat     : 2 
+│                        │     │                  ╰ ubuntu     : 2 
+│                        │     ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:
+│                        │     │                  │         │           N/A:N 
+│                        │     │                  │         ╰ V3Score : 6.8 
+│                        │     │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:
+│                        │     │                            │           N/A:N 
+│                        │     │                            ╰ V3Score : 6.8 
+│                        │     ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:15887 
+│                        │     │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-4673 
+│                        │     │                  ├ [2] : https://bugzilla.redhat.com/2373305 
+│                        │     │                  ├ [3] : https://errata.almalinux.org/9/ALSA-2025-15887.html 
+│                        │     │                  ├ [4] : https://go.dev/cl/679257 
+│                        │     │                  ├ [5] : https://go.dev/issue/73816 
+│                        │     │                  ├ [6] : https://groups.google.com/g/golang-announce/c/ufZ8WpE
+│                        │     │                  │       sA3A 
+│                        │     │                  ├ [7] : https://linux.oracle.com/cve/CVE-2025-4673.html 
+│                        │     │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2025-10677.html 
+│                        │     │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2025-4673 
+│                        │     │                  ├ [10]: https://pkg.go.dev/vuln/GO-2025-3751 
+│                        │     │                  ├ [11]: https://ubuntu.com/security/notices/USN-7574-1 
+│                        │     │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2025-4673 
+│                        │     ├ PublishedDate   : 2025-06-11T17:15:42.993Z 
+│                        │     ╰ LastModifiedDate: 2025-06-12T16:06:20.18Z 
+│                        ╰ [8] ╭ VulnerabilityID : CVE-2025-47906 
 │                              ├ PkgID           : stdlib@v1.24.1 
 │                              ├ PkgName         : stdlib 
 │                              ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.24.1 
 │                              │                  ╰ UID : 6a2f8f56c5fff27e 
 │                              ├ InstalledVersion: v1.24.1 
-│                              ├ FixedVersion    : 1.23.10, 1.24.4 
+│                              ├ FixedVersion    : 1.23.12, 1.24.6 
 │                              ├ Status          : fixed 
 │                              ├ Layer            ╭ Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4
 │                              │                  │         a8143db4b97d428659d0 
 │                              │                  ╰ DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8
 │                              │                            d67226cb3b9e50f918f0 
-│                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-4673 
+│                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-47906 
 │                              ├ DataSource       ╭ ID  : govulndb 
 │                              │                  ├ Name: The Go Vulnerability Database 
 │                              │                  ╰ URL : https://pkg.go.dev/vuln/ 
-│                              ├ Title           : net/http: Sensitive headers not cleared on cross-origin
-│                              │                   redirect in net/http 
-│                              ├ Description     : Proxy-Authorization and Proxy-Authenticate headers persisted
-│                              │                    on cross-origin redirects potentially leaking sensitive
-│                              │                   information. 
+│                              ├ Title           : os/exec: Unexpected paths returned from LookPath in os/exec 
+│                              ├ Description     : If the PATH environment variable contains paths which are
+│                              │                   executables (rather than just directories), passing certain
+│                              │                   strings to LookPath ("", ".", and ".."), can result in the
+│                              │                   binaries listed in the PATH being unexpectedly returned. 
 │                              ├ Severity        : MEDIUM 
-│                              ├ VendorSeverity   ╭ alma       : 2 
-│                              │                  ├ amazon     : 2 
-│                              │                  ├ azure      : 2 
-│                              │                  ├ bitnami    : 2 
-│                              │                  ├ cbl-mariner: 2 
-│                              │                  ├ oracle-oval: 2 
-│                              │                  ├ redhat     : 2 
-│                              │                  ╰ ubuntu     : 2 
-│                              ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:
-│                              │                  │         │           N/A:N 
-│                              │                  │         ╰ V3Score : 6.8 
-│                              │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:
-│                              │                            │           N/A:N 
-│                              │                            ╰ V3Score : 6.8 
-│                              ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:15887 
-│                              │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-4673 
-│                              │                  ├ [2] : https://bugzilla.redhat.com/2373305 
-│                              │                  ├ [3] : https://errata.almalinux.org/9/ALSA-2025-15887.html 
-│                              │                  ├ [4] : https://go.dev/cl/679257 
-│                              │                  ├ [5] : https://go.dev/issue/73816 
-│                              │                  ├ [6] : https://groups.google.com/g/golang-announce/c/ufZ8WpE
-│                              │                  │       sA3A 
-│                              │                  ├ [7] : https://linux.oracle.com/cve/CVE-2025-4673.html 
-│                              │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2025-10677.html 
-│                              │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2025-4673 
-│                              │                  ├ [10]: https://pkg.go.dev/vuln/GO-2025-3751 
-│                              │                  ├ [11]: https://ubuntu.com/security/notices/USN-7574-1 
-│                              │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2025-4673 
-│                              ├ PublishedDate   : 2025-06-11T17:15:42.993Z 
-│                              ╰ LastModifiedDate: 2025-06-12T16:06:20.18Z 
+│                              ├ VendorSeverity   ╭ amazon : 3 
+│                              │                  ├ bitnami: 2 
+│                              │                  ╰ redhat : 2 
+│                              ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:
+│                              │                  │         │           N/A:L 
+│                              │                  │         ╰ V3Score : 6.5 
+│                              │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:
+│                              │                            │           N/A:L 
+│                              │                            ╰ V3Score : 6.5 
+│                              ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-47906 
+│                              │                  ├ [1]: https://go.dev/cl/691775 
+│                              │                  ├ [2]: https://go.dev/issue/74466 
+│                              │                  ├ [3]: https://groups.google.com/g/golang-announce/c/x5MKroML
+│                              │                  │      2yM 
+│                              │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-47906 
+│                              │                  ├ [5]: https://pkg.go.dev/vuln/GO-2025-3956 
+│                              │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-47906 
+│                              ├ PublishedDate   : 2025-09-18T19:15:37.66Z 
+│                              ╰ LastModifiedDate: 2025-09-19T16:00:27.847Z 
 ├ [5]  ╭ Target         : usr/bin/docker-compose 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : gobinary 
@@ -13096,7 +13106,7 @@
 │                        │      │                   the wrong scope during DOM construction, but only when tags
 │                        │      │                    are in foreign content (e.g. <math>, <svg>, etc contexts). 
 │                        │      ├ Severity        : MEDIUM 
-│                        │      ├ VendorSeverity   ╭ amazon     : 3 
+│                        │      ├ VendorSeverity   ╭ amazon     : 2 
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ ghsa       : 2 
@@ -13161,43 +13171,7 @@
 │                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-22868 
 │                        │      ├ PublishedDate   : 2025-02-26T08:14:24.897Z 
 │                        │      ╰ LastModifiedDate: 2025-05-01T19:27:10.43Z 
-│                        ├ [10] ╭ VulnerabilityID : CVE-2025-47906 
-│                        │      ├ PkgID           : stdlib@v1.23.6 
-│                        │      ├ PkgName         : stdlib 
-│                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.23.6 
-│                        │      │                  ╰ UID : f8f7f9e81f31bb46 
-│                        │      ├ InstalledVersion: v1.23.6 
-│                        │      ├ FixedVersion    : 1.23.12, 1.24.6 
-│                        │      ├ Status          : fixed 
-│                        │      ├ Layer            ╭ Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf
-│                        │      │                  │         4a8143db4b97d428659d0 
-│                        │      │                  ╰ DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e
-│                        │      │                            8d67226cb3b9e50f918f0 
-│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-47906 
-│                        │      ├ DataSource       ╭ ID  : govulndb 
-│                        │      │                  ├ Name: The Go Vulnerability Database 
-│                        │      │                  ╰ URL : https://pkg.go.dev/vuln/ 
-│                        │      ├ Title           : If the PATH environment variable contains paths which are
-│                        │      │                   executables  ... 
-│                        │      ├ Description     : If the PATH environment variable contains paths which are
-│                        │      │                   executables (rather than just directories), passing certain
-│                        │      │                    strings to LookPath ("", ".", and ".."), can result in the
-│                        │      │                    binaries listed in the PATH being unexpectedly returned. 
-│                        │      ├ Severity        : HIGH 
-│                        │      ├ VendorSeverity   ╭ amazon : 3 
-│                        │      │                  ╰ bitnami: 2 
-│                        │      ├ CVSS             ─ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I
-│                        │      │                            │           :N/A:L 
-│                        │      │                            ╰ V3Score : 6.5 
-│                        │      ├ References       ╭ [0]: https://go.dev/cl/691775 
-│                        │      │                  ├ [1]: https://go.dev/issue/74466 
-│                        │      │                  ├ [2]: https://groups.google.com/g/golang-announce/c/x5MKroM
-│                        │      │                  │      L2yM 
-│                        │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-47906 
-│                        │      │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2025-3956 
-│                        │      ├ PublishedDate   : 2025-09-18T19:15:37.66Z 
-│                        │      ╰ LastModifiedDate: 2025-09-19T16:00:27.847Z 
-│                        ├ [11] ╭ VulnerabilityID : CVE-2025-47907 
+│                        ├ [10] ╭ VulnerabilityID : CVE-2025-47907 
 │                        │      ├ PkgID           : stdlib@v1.23.6 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.23.6 
@@ -13244,7 +13218,7 @@
 │                        │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-47907 
 │                        │      ├ PublishedDate   : 2025-08-07T16:15:30.357Z 
 │                        │      ╰ LastModifiedDate: 2025-08-07T21:26:37.453Z 
-│                        ├ [12] ╭ VulnerabilityID : CVE-2025-0913 
+│                        ├ [11] ╭ VulnerabilityID : CVE-2025-0913 
 │                        │      ├ PkgID           : stdlib@v1.23.6 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.23.6 
@@ -13284,7 +13258,7 @@
 │                        │      │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2025-3750 
 │                        │      ├ PublishedDate   : 2025-06-11T18:15:24.627Z 
 │                        │      ╰ LastModifiedDate: 2025-08-08T14:53:03.55Z 
-│                        ├ [13] ╭ VulnerabilityID : CVE-2025-22871 
+│                        ├ [12] ╭ VulnerabilityID : CVE-2025-22871 
 │                        │      ├ PkgID           : stdlib@v1.23.6 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.23.6 
@@ -13342,58 +13316,99 @@
 │                        │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2025-22871 
 │                        │      ├ PublishedDate   : 2025-04-08T20:15:20.183Z 
 │                        │      ╰ LastModifiedDate: 2025-04-18T15:15:57.923Z 
-│                        ╰ [14] ╭ VulnerabilityID : CVE-2025-4673 
+│                        ├ [13] ╭ VulnerabilityID : CVE-2025-4673 
+│                        │      ├ PkgID           : stdlib@v1.23.6 
+│                        │      ├ PkgName         : stdlib 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.23.6 
+│                        │      │                  ╰ UID : f8f7f9e81f31bb46 
+│                        │      ├ InstalledVersion: v1.23.6 
+│                        │      ├ FixedVersion    : 1.23.10, 1.24.4 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf
+│                        │      │                  │         4a8143db4b97d428659d0 
+│                        │      │                  ╰ DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e
+│                        │      │                            8d67226cb3b9e50f918f0 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-4673 
+│                        │      ├ DataSource       ╭ ID  : govulndb 
+│                        │      │                  ├ Name: The Go Vulnerability Database 
+│                        │      │                  ╰ URL : https://pkg.go.dev/vuln/ 
+│                        │      ├ Title           : net/http: Sensitive headers not cleared on cross-origin
+│                        │      │                   redirect in net/http 
+│                        │      ├ Description     : Proxy-Authorization and Proxy-Authenticate headers
+│                        │      │                   persisted on cross-origin redirects potentially leaking
+│                        │      │                   sensitive information. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ VendorSeverity   ╭ alma       : 2 
+│                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ azure      : 2 
+│                        │      │                  ├ bitnami    : 2 
+│                        │      │                  ├ cbl-mariner: 2 
+│                        │      │                  ├ oracle-oval: 2 
+│                        │      │                  ├ redhat     : 2 
+│                        │      │                  ╰ ubuntu     : 2 
+│                        │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I
+│                        │      │                  │         │           :N/A:N 
+│                        │      │                  │         ╰ V3Score : 6.8 
+│                        │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I
+│                        │      │                            │           :N/A:N 
+│                        │      │                            ╰ V3Score : 6.8 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:15887 
+│                        │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-4673 
+│                        │      │                  ├ [2] : https://bugzilla.redhat.com/2373305 
+│                        │      │                  ├ [3] : https://errata.almalinux.org/9/ALSA-2025-15887.html 
+│                        │      │                  ├ [4] : https://go.dev/cl/679257 
+│                        │      │                  ├ [5] : https://go.dev/issue/73816 
+│                        │      │                  ├ [6] : https://groups.google.com/g/golang-announce/c/ufZ8Wp
+│                        │      │                  │       EsA3A 
+│                        │      │                  ├ [7] : https://linux.oracle.com/cve/CVE-2025-4673.html 
+│                        │      │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2025-10677.html 
+│                        │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2025-4673 
+│                        │      │                  ├ [10]: https://pkg.go.dev/vuln/GO-2025-3751 
+│                        │      │                  ├ [11]: https://ubuntu.com/security/notices/USN-7574-1 
+│                        │      │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2025-4673 
+│                        │      ├ PublishedDate   : 2025-06-11T17:15:42.993Z 
+│                        │      ╰ LastModifiedDate: 2025-06-12T16:06:20.18Z 
+│                        ╰ [14] ╭ VulnerabilityID : CVE-2025-47906 
 │                               ├ PkgID           : stdlib@v1.23.6 
 │                               ├ PkgName         : stdlib 
 │                               ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.23.6 
 │                               │                  ╰ UID : f8f7f9e81f31bb46 
 │                               ├ InstalledVersion: v1.23.6 
-│                               ├ FixedVersion    : 1.23.10, 1.24.4 
+│                               ├ FixedVersion    : 1.23.12, 1.24.6 
 │                               ├ Status          : fixed 
 │                               ├ Layer            ╭ Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf
 │                               │                  │         4a8143db4b97d428659d0 
 │                               │                  ╰ DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e
 │                               │                            8d67226cb3b9e50f918f0 
-│                               ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-4673 
+│                               ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-47906 
 │                               ├ DataSource       ╭ ID  : govulndb 
 │                               │                  ├ Name: The Go Vulnerability Database 
 │                               │                  ╰ URL : https://pkg.go.dev/vuln/ 
-│                               ├ Title           : net/http: Sensitive headers not cleared on cross-origin
-│                               │                   redirect in net/http 
-│                               ├ Description     : Proxy-Authorization and Proxy-Authenticate headers
-│                               │                   persisted on cross-origin redirects potentially leaking
-│                               │                   sensitive information. 
+│                               ├ Title           : os/exec: Unexpected paths returned from LookPath in os/exec 
+│                               ├ Description     : If the PATH environment variable contains paths which are
+│                               │                   executables (rather than just directories), passing certain
+│                               │                    strings to LookPath ("", ".", and ".."), can result in the
+│                               │                    binaries listed in the PATH being unexpectedly returned. 
 │                               ├ Severity        : MEDIUM 
-│                               ├ VendorSeverity   ╭ alma       : 2 
-│                               │                  ├ amazon     : 2 
-│                               │                  ├ azure      : 2 
-│                               │                  ├ bitnami    : 2 
-│                               │                  ├ cbl-mariner: 2 
-│                               │                  ├ oracle-oval: 2 
-│                               │                  ├ redhat     : 2 
-│                               │                  ╰ ubuntu     : 2 
-│                               ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I
-│                               │                  │         │           :N/A:N 
-│                               │                  │         ╰ V3Score : 6.8 
-│                               │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I
-│                               │                            │           :N/A:N 
-│                               │                            ╰ V3Score : 6.8 
-│                               ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:15887 
-│                               │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-4673 
-│                               │                  ├ [2] : https://bugzilla.redhat.com/2373305 
-│                               │                  ├ [3] : https://errata.almalinux.org/9/ALSA-2025-15887.html 
-│                               │                  ├ [4] : https://go.dev/cl/679257 
-│                               │                  ├ [5] : https://go.dev/issue/73816 
-│                               │                  ├ [6] : https://groups.google.com/g/golang-announce/c/ufZ8Wp
-│                               │                  │       EsA3A 
-│                               │                  ├ [7] : https://linux.oracle.com/cve/CVE-2025-4673.html 
-│                               │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2025-10677.html 
-│                               │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2025-4673 
-│                               │                  ├ [10]: https://pkg.go.dev/vuln/GO-2025-3751 
-│                               │                  ├ [11]: https://ubuntu.com/security/notices/USN-7574-1 
-│                               │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2025-4673 
-│                               ├ PublishedDate   : 2025-06-11T17:15:42.993Z 
-│                               ╰ LastModifiedDate: 2025-06-12T16:06:20.18Z 
+│                               ├ VendorSeverity   ╭ amazon : 3 
+│                               │                  ├ bitnami: 2 
+│                               │                  ╰ redhat : 2 
+│                               ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I
+│                               │                  │         │           :N/A:L 
+│                               │                  │         ╰ V3Score : 6.5 
+│                               │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I
+│                               │                            │           :N/A:L 
+│                               │                            ╰ V3Score : 6.5 
+│                               ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-47906 
+│                               │                  ├ [1]: https://go.dev/cl/691775 
+│                               │                  ├ [2]: https://go.dev/issue/74466 
+│                               │                  ├ [3]: https://groups.google.com/g/golang-announce/c/x5MKroM
+│                               │                  │      L2yM 
+│                               │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-47906 
+│                               │                  ├ [5]: https://pkg.go.dev/vuln/GO-2025-3956 
+│                               │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-47906 
+│                               ├ PublishedDate   : 2025-09-18T19:15:37.66Z 
+│                               ╰ LastModifiedDate: 2025-09-19T16:00:27.847Z 
 ├ [6]  ╭ Target         : usr/bin/helm 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : gobinary 
@@ -13560,7 +13575,7 @@
 │                        │     │                   during DOM construction, but only when tags are in foreign
 │                        │     │                   content (e.g. <math>, <svg>, etc contexts). 
 │                        │     ├ Severity        : MEDIUM 
-│                        │     ├ VendorSeverity   ╭ amazon     : 3 
+│                        │     ├ VendorSeverity   ╭ amazon     : 2 
 │                        │     │                  ├ azure      : 2 
 │                        │     │                  ├ cbl-mariner: 2 
 │                        │     │                  ├ ghsa       : 2 
@@ -13624,43 +13639,7 @@
 │                        │     │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-22868 
 │                        │     ├ PublishedDate   : 2025-02-26T08:14:24.897Z 
 │                        │     ╰ LastModifiedDate: 2025-05-01T19:27:10.43Z 
-│                        ├ [4] ╭ VulnerabilityID : CVE-2025-47906 
-│                        │     ├ PkgID           : stdlib@v1.23.7 
-│                        │     ├ PkgName         : stdlib 
-│                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.23.7 
-│                        │     │                  ╰ UID : cae2859c17dd6e50 
-│                        │     ├ InstalledVersion: v1.23.7 
-│                        │     ├ FixedVersion    : 1.23.12, 1.24.6 
-│                        │     ├ Status          : fixed 
-│                        │     ├ Layer            ╭ Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4
-│                        │     │                  │         a8143db4b97d428659d0 
-│                        │     │                  ╰ DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8
-│                        │     │                            d67226cb3b9e50f918f0 
-│                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-47906 
-│                        │     ├ DataSource       ╭ ID  : govulndb 
-│                        │     │                  ├ Name: The Go Vulnerability Database 
-│                        │     │                  ╰ URL : https://pkg.go.dev/vuln/ 
-│                        │     ├ Title           : If the PATH environment variable contains paths which are
-│                        │     │                   executables  ... 
-│                        │     ├ Description     : If the PATH environment variable contains paths which are
-│                        │     │                   executables (rather than just directories), passing certain
-│                        │     │                   strings to LookPath ("", ".", and ".."), can result in the
-│                        │     │                   binaries listed in the PATH being unexpectedly returned. 
-│                        │     ├ Severity        : HIGH 
-│                        │     ├ VendorSeverity   ╭ amazon : 3 
-│                        │     │                  ╰ bitnami: 2 
-│                        │     ├ CVSS             ─ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:
-│                        │     │                            │           N/A:L 
-│                        │     │                            ╰ V3Score : 6.5 
-│                        │     ├ References       ╭ [0]: https://go.dev/cl/691775 
-│                        │     │                  ├ [1]: https://go.dev/issue/74466 
-│                        │     │                  ├ [2]: https://groups.google.com/g/golang-announce/c/x5MKroML
-│                        │     │                  │      2yM 
-│                        │     │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-47906 
-│                        │     │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2025-3956 
-│                        │     ├ PublishedDate   : 2025-09-18T19:15:37.66Z 
-│                        │     ╰ LastModifiedDate: 2025-09-19T16:00:27.847Z 
-│                        ├ [5] ╭ VulnerabilityID : CVE-2025-47907 
+│                        ├ [4] ╭ VulnerabilityID : CVE-2025-47907 
 │                        │     ├ PkgID           : stdlib@v1.23.7 
 │                        │     ├ PkgName         : stdlib 
 │                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.23.7 
@@ -13707,7 +13686,7 @@
 │                        │     │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-47907 
 │                        │     ├ PublishedDate   : 2025-08-07T16:15:30.357Z 
 │                        │     ╰ LastModifiedDate: 2025-08-07T21:26:37.453Z 
-│                        ├ [6] ╭ VulnerabilityID : CVE-2025-0913 
+│                        ├ [5] ╭ VulnerabilityID : CVE-2025-0913 
 │                        │     ├ PkgID           : stdlib@v1.23.7 
 │                        │     ├ PkgName         : stdlib 
 │                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.23.7 
@@ -13747,7 +13726,7 @@
 │                        │     │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2025-3750 
 │                        │     ├ PublishedDate   : 2025-06-11T18:15:24.627Z 
 │                        │     ╰ LastModifiedDate: 2025-08-08T14:53:03.55Z 
-│                        ├ [7] ╭ VulnerabilityID : CVE-2025-22871 
+│                        ├ [6] ╭ VulnerabilityID : CVE-2025-22871 
 │                        │     ├ PkgID           : stdlib@v1.23.7 
 │                        │     ├ PkgName         : stdlib 
 │                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.23.7 
@@ -13804,58 +13783,99 @@
 │                        │     │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2025-22871 
 │                        │     ├ PublishedDate   : 2025-04-08T20:15:20.183Z 
 │                        │     ╰ LastModifiedDate: 2025-04-18T15:15:57.923Z 
-│                        ╰ [8] ╭ VulnerabilityID : CVE-2025-4673 
+│                        ├ [7] ╭ VulnerabilityID : CVE-2025-4673 
+│                        │     ├ PkgID           : stdlib@v1.23.7 
+│                        │     ├ PkgName         : stdlib 
+│                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.23.7 
+│                        │     │                  ╰ UID : cae2859c17dd6e50 
+│                        │     ├ InstalledVersion: v1.23.7 
+│                        │     ├ FixedVersion    : 1.23.10, 1.24.4 
+│                        │     ├ Status          : fixed 
+│                        │     ├ Layer            ╭ Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4
+│                        │     │                  │         a8143db4b97d428659d0 
+│                        │     │                  ╰ DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8
+│                        │     │                            d67226cb3b9e50f918f0 
+│                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-4673 
+│                        │     ├ DataSource       ╭ ID  : govulndb 
+│                        │     │                  ├ Name: The Go Vulnerability Database 
+│                        │     │                  ╰ URL : https://pkg.go.dev/vuln/ 
+│                        │     ├ Title           : net/http: Sensitive headers not cleared on cross-origin
+│                        │     │                   redirect in net/http 
+│                        │     ├ Description     : Proxy-Authorization and Proxy-Authenticate headers persisted
+│                        │     │                    on cross-origin redirects potentially leaking sensitive
+│                        │     │                   information. 
+│                        │     ├ Severity        : MEDIUM 
+│                        │     ├ VendorSeverity   ╭ alma       : 2 
+│                        │     │                  ├ amazon     : 2 
+│                        │     │                  ├ azure      : 2 
+│                        │     │                  ├ bitnami    : 2 
+│                        │     │                  ├ cbl-mariner: 2 
+│                        │     │                  ├ oracle-oval: 2 
+│                        │     │                  ├ redhat     : 2 
+│                        │     │                  ╰ ubuntu     : 2 
+│                        │     ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:
+│                        │     │                  │         │           N/A:N 
+│                        │     │                  │         ╰ V3Score : 6.8 
+│                        │     │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:
+│                        │     │                            │           N/A:N 
+│                        │     │                            ╰ V3Score : 6.8 
+│                        │     ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:15887 
+│                        │     │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-4673 
+│                        │     │                  ├ [2] : https://bugzilla.redhat.com/2373305 
+│                        │     │                  ├ [3] : https://errata.almalinux.org/9/ALSA-2025-15887.html 
+│                        │     │                  ├ [4] : https://go.dev/cl/679257 
+│                        │     │                  ├ [5] : https://go.dev/issue/73816 
+│                        │     │                  ├ [6] : https://groups.google.com/g/golang-announce/c/ufZ8WpE
+│                        │     │                  │       sA3A 
+│                        │     │                  ├ [7] : https://linux.oracle.com/cve/CVE-2025-4673.html 
+│                        │     │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2025-10677.html 
+│                        │     │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2025-4673 
+│                        │     │                  ├ [10]: https://pkg.go.dev/vuln/GO-2025-3751 
+│                        │     │                  ├ [11]: https://ubuntu.com/security/notices/USN-7574-1 
+│                        │     │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2025-4673 
+│                        │     ├ PublishedDate   : 2025-06-11T17:15:42.993Z 
+│                        │     ╰ LastModifiedDate: 2025-06-12T16:06:20.18Z 
+│                        ╰ [8] ╭ VulnerabilityID : CVE-2025-47906 
 │                              ├ PkgID           : stdlib@v1.23.7 
 │                              ├ PkgName         : stdlib 
 │                              ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.23.7 
 │                              │                  ╰ UID : cae2859c17dd6e50 
 │                              ├ InstalledVersion: v1.23.7 
-│                              ├ FixedVersion    : 1.23.10, 1.24.4 
+│                              ├ FixedVersion    : 1.23.12, 1.24.6 
 │                              ├ Status          : fixed 
 │                              ├ Layer            ╭ Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4
 │                              │                  │         a8143db4b97d428659d0 
 │                              │                  ╰ DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8
 │                              │                            d67226cb3b9e50f918f0 
-│                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-4673 
+│                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-47906 
 │                              ├ DataSource       ╭ ID  : govulndb 
 │                              │                  ├ Name: The Go Vulnerability Database 
 │                              │                  ╰ URL : https://pkg.go.dev/vuln/ 
-│                              ├ Title           : net/http: Sensitive headers not cleared on cross-origin
-│                              │                   redirect in net/http 
-│                              ├ Description     : Proxy-Authorization and Proxy-Authenticate headers persisted
-│                              │                    on cross-origin redirects potentially leaking sensitive
-│                              │                   information. 
+│                              ├ Title           : os/exec: Unexpected paths returned from LookPath in os/exec 
+│                              ├ Description     : If the PATH environment variable contains paths which are
+│                              │                   executables (rather than just directories), passing certain
+│                              │                   strings to LookPath ("", ".", and ".."), can result in the
+│                              │                   binaries listed in the PATH being unexpectedly returned. 
 │                              ├ Severity        : MEDIUM 
-│                              ├ VendorSeverity   ╭ alma       : 2 
-│                              │                  ├ amazon     : 2 
-│                              │                  ├ azure      : 2 
-│                              │                  ├ bitnami    : 2 
-│                              │                  ├ cbl-mariner: 2 
-│                              │                  ├ oracle-oval: 2 
-│                              │                  ├ redhat     : 2 
-│                              │                  ╰ ubuntu     : 2 
-│                              ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:
-│                              │                  │         │           N/A:N 
-│                              │                  │         ╰ V3Score : 6.8 
-│                              │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:
-│                              │                            │           N/A:N 
-│                              │                            ╰ V3Score : 6.8 
-│                              ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:15887 
-│                              │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-4673 
-│                              │                  ├ [2] : https://bugzilla.redhat.com/2373305 
-│                              │                  ├ [3] : https://errata.almalinux.org/9/ALSA-2025-15887.html 
-│                              │                  ├ [4] : https://go.dev/cl/679257 
-│                              │                  ├ [5] : https://go.dev/issue/73816 
-│                              │                  ├ [6] : https://groups.google.com/g/golang-announce/c/ufZ8WpE
-│                              │                  │       sA3A 
-│                              │                  ├ [7] : https://linux.oracle.com/cve/CVE-2025-4673.html 
-│                              │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2025-10677.html 
-│                              │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2025-4673 
-│                              │                  ├ [10]: https://pkg.go.dev/vuln/GO-2025-3751 
-│                              │                  ├ [11]: https://ubuntu.com/security/notices/USN-7574-1 
-│                              │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2025-4673 
-│                              ├ PublishedDate   : 2025-06-11T17:15:42.993Z 
-│                              ╰ LastModifiedDate: 2025-06-12T16:06:20.18Z 
+│                              ├ VendorSeverity   ╭ amazon : 3 
+│                              │                  ├ bitnami: 2 
+│                              │                  ╰ redhat : 2 
+│                              ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:
+│                              │                  │         │           N/A:L 
+│                              │                  │         ╰ V3Score : 6.5 
+│                              │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:
+│                              │                            │           N/A:L 
+│                              │                            ╰ V3Score : 6.5 
+│                              ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-47906 
+│                              │                  ├ [1]: https://go.dev/cl/691775 
+│                              │                  ├ [2]: https://go.dev/issue/74466 
+│                              │                  ├ [3]: https://groups.google.com/g/golang-announce/c/x5MKroML
+│                              │                  │      2yM 
+│                              │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-47906 
+│                              │                  ├ [5]: https://pkg.go.dev/vuln/GO-2025-3956 
+│                              │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-47906 
+│                              ├ PublishedDate   : 2025-09-18T19:15:37.66Z 
+│                              ╰ LastModifiedDate: 2025-09-19T16:00:27.847Z 
 ├ [7]  ╭ Target         : usr/bin/kubectl 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : gobinary 
@@ -13944,7 +13964,7 @@
 │                        │     │                   during DOM construction, but only when tags are in foreign
 │                        │     │                   content (e.g. <math>, <svg>, etc contexts). 
 │                        │     ├ Severity        : MEDIUM 
-│                        │     ├ VendorSeverity   ╭ amazon     : 3 
+│                        │     ├ VendorSeverity   ╭ amazon     : 2 
 │                        │     │                  ├ azure      : 2 
 │                        │     │                  ├ cbl-mariner: 2 
 │                        │     │                  ├ ghsa       : 2 
@@ -14008,43 +14028,7 @@
 │                        │     │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-22868 
 │                        │     ├ PublishedDate   : 2025-02-26T08:14:24.897Z 
 │                        │     ╰ LastModifiedDate: 2025-05-01T19:27:10.43Z 
-│                        ├ [3] ╭ VulnerabilityID : CVE-2025-47906 
-│                        │     ├ PkgID           : stdlib@v1.23.6 
-│                        │     ├ PkgName         : stdlib 
-│                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.23.6 
-│                        │     │                  ╰ UID : a200578c56ec45c2 
-│                        │     ├ InstalledVersion: v1.23.6 
-│                        │     ├ FixedVersion    : 1.23.12, 1.24.6 
-│                        │     ├ Status          : fixed 
-│                        │     ├ Layer            ╭ Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4
-│                        │     │                  │         a8143db4b97d428659d0 
-│                        │     │                  ╰ DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8
-│                        │     │                            d67226cb3b9e50f918f0 
-│                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-47906 
-│                        │     ├ DataSource       ╭ ID  : govulndb 
-│                        │     │                  ├ Name: The Go Vulnerability Database 
-│                        │     │                  ╰ URL : https://pkg.go.dev/vuln/ 
-│                        │     ├ Title           : If the PATH environment variable contains paths which are
-│                        │     │                   executables  ... 
-│                        │     ├ Description     : If the PATH environment variable contains paths which are
-│                        │     │                   executables (rather than just directories), passing certain
-│                        │     │                   strings to LookPath ("", ".", and ".."), can result in the
-│                        │     │                   binaries listed in the PATH being unexpectedly returned. 
-│                        │     ├ Severity        : HIGH 
-│                        │     ├ VendorSeverity   ╭ amazon : 3 
-│                        │     │                  ╰ bitnami: 2 
-│                        │     ├ CVSS             ─ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:
-│                        │     │                            │           N/A:L 
-│                        │     │                            ╰ V3Score : 6.5 
-│                        │     ├ References       ╭ [0]: https://go.dev/cl/691775 
-│                        │     │                  ├ [1]: https://go.dev/issue/74466 
-│                        │     │                  ├ [2]: https://groups.google.com/g/golang-announce/c/x5MKroML
-│                        │     │                  │      2yM 
-│                        │     │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-47906 
-│                        │     │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2025-3956 
-│                        │     ├ PublishedDate   : 2025-09-18T19:15:37.66Z 
-│                        │     ╰ LastModifiedDate: 2025-09-19T16:00:27.847Z 
-│                        ├ [4] ╭ VulnerabilityID : CVE-2025-47907 
+│                        ├ [3] ╭ VulnerabilityID : CVE-2025-47907 
 │                        │     ├ PkgID           : stdlib@v1.23.6 
 │                        │     ├ PkgName         : stdlib 
 │                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.23.6 
@@ -14091,7 +14075,7 @@
 │                        │     │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-47907 
 │                        │     ├ PublishedDate   : 2025-08-07T16:15:30.357Z 
 │                        │     ╰ LastModifiedDate: 2025-08-07T21:26:37.453Z 
-│                        ├ [5] ╭ VulnerabilityID : CVE-2025-0913 
+│                        ├ [4] ╭ VulnerabilityID : CVE-2025-0913 
 │                        │     ├ PkgID           : stdlib@v1.23.6 
 │                        │     ├ PkgName         : stdlib 
 │                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.23.6 
@@ -14131,7 +14115,7 @@
 │                        │     │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2025-3750 
 │                        │     ├ PublishedDate   : 2025-06-11T18:15:24.627Z 
 │                        │     ╰ LastModifiedDate: 2025-08-08T14:53:03.55Z 
-│                        ├ [6] ╭ VulnerabilityID : CVE-2025-22871 
+│                        ├ [5] ╭ VulnerabilityID : CVE-2025-22871 
 │                        │     ├ PkgID           : stdlib@v1.23.6 
 │                        │     ├ PkgName         : stdlib 
 │                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.23.6 
@@ -14188,58 +14172,99 @@
 │                        │     │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2025-22871 
 │                        │     ├ PublishedDate   : 2025-04-08T20:15:20.183Z 
 │                        │     ╰ LastModifiedDate: 2025-04-18T15:15:57.923Z 
-│                        ╰ [7] ╭ VulnerabilityID : CVE-2025-4673 
+│                        ├ [6] ╭ VulnerabilityID : CVE-2025-4673 
+│                        │     ├ PkgID           : stdlib@v1.23.6 
+│                        │     ├ PkgName         : stdlib 
+│                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.23.6 
+│                        │     │                  ╰ UID : a200578c56ec45c2 
+│                        │     ├ InstalledVersion: v1.23.6 
+│                        │     ├ FixedVersion    : 1.23.10, 1.24.4 
+│                        │     ├ Status          : fixed 
+│                        │     ├ Layer            ╭ Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4
+│                        │     │                  │         a8143db4b97d428659d0 
+│                        │     │                  ╰ DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8
+│                        │     │                            d67226cb3b9e50f918f0 
+│                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-4673 
+│                        │     ├ DataSource       ╭ ID  : govulndb 
+│                        │     │                  ├ Name: The Go Vulnerability Database 
+│                        │     │                  ╰ URL : https://pkg.go.dev/vuln/ 
+│                        │     ├ Title           : net/http: Sensitive headers not cleared on cross-origin
+│                        │     │                   redirect in net/http 
+│                        │     ├ Description     : Proxy-Authorization and Proxy-Authenticate headers persisted
+│                        │     │                    on cross-origin redirects potentially leaking sensitive
+│                        │     │                   information. 
+│                        │     ├ Severity        : MEDIUM 
+│                        │     ├ VendorSeverity   ╭ alma       : 2 
+│                        │     │                  ├ amazon     : 2 
+│                        │     │                  ├ azure      : 2 
+│                        │     │                  ├ bitnami    : 2 
+│                        │     │                  ├ cbl-mariner: 2 
+│                        │     │                  ├ oracle-oval: 2 
+│                        │     │                  ├ redhat     : 2 
+│                        │     │                  ╰ ubuntu     : 2 
+│                        │     ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:
+│                        │     │                  │         │           N/A:N 
+│                        │     │                  │         ╰ V3Score : 6.8 
+│                        │     │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:
+│                        │     │                            │           N/A:N 
+│                        │     │                            ╰ V3Score : 6.8 
+│                        │     ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:15887 
+│                        │     │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-4673 
+│                        │     │                  ├ [2] : https://bugzilla.redhat.com/2373305 
+│                        │     │                  ├ [3] : https://errata.almalinux.org/9/ALSA-2025-15887.html 
+│                        │     │                  ├ [4] : https://go.dev/cl/679257 
+│                        │     │                  ├ [5] : https://go.dev/issue/73816 
+│                        │     │                  ├ [6] : https://groups.google.com/g/golang-announce/c/ufZ8WpE
+│                        │     │                  │       sA3A 
+│                        │     │                  ├ [7] : https://linux.oracle.com/cve/CVE-2025-4673.html 
+│                        │     │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2025-10677.html 
+│                        │     │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2025-4673 
+│                        │     │                  ├ [10]: https://pkg.go.dev/vuln/GO-2025-3751 
+│                        │     │                  ├ [11]: https://ubuntu.com/security/notices/USN-7574-1 
+│                        │     │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2025-4673 
+│                        │     ├ PublishedDate   : 2025-06-11T17:15:42.993Z 
+│                        │     ╰ LastModifiedDate: 2025-06-12T16:06:20.18Z 
+│                        ╰ [7] ╭ VulnerabilityID : CVE-2025-47906 
 │                              ├ PkgID           : stdlib@v1.23.6 
 │                              ├ PkgName         : stdlib 
 │                              ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.23.6 
 │                              │                  ╰ UID : a200578c56ec45c2 
 │                              ├ InstalledVersion: v1.23.6 
-│                              ├ FixedVersion    : 1.23.10, 1.24.4 
+│                              ├ FixedVersion    : 1.23.12, 1.24.6 
 │                              ├ Status          : fixed 
 │                              ├ Layer            ╭ Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4
 │                              │                  │         a8143db4b97d428659d0 
 │                              │                  ╰ DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8
 │                              │                            d67226cb3b9e50f918f0 
-│                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-4673 
+│                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-47906 
 │                              ├ DataSource       ╭ ID  : govulndb 
 │                              │                  ├ Name: The Go Vulnerability Database 
 │                              │                  ╰ URL : https://pkg.go.dev/vuln/ 
-│                              ├ Title           : net/http: Sensitive headers not cleared on cross-origin
-│                              │                   redirect in net/http 
-│                              ├ Description     : Proxy-Authorization and Proxy-Authenticate headers persisted
-│                              │                    on cross-origin redirects potentially leaking sensitive
-│                              │                   information. 
+│                              ├ Title           : os/exec: Unexpected paths returned from LookPath in os/exec 
+│                              ├ Description     : If the PATH environment variable contains paths which are
+│                              │                   executables (rather than just directories), passing certain
+│                              │                   strings to LookPath ("", ".", and ".."), can result in the
+│                              │                   binaries listed in the PATH being unexpectedly returned. 
 │                              ├ Severity        : MEDIUM 
-│                              ├ VendorSeverity   ╭ alma       : 2 
-│                              │                  ├ amazon     : 2 
-│                              │                  ├ azure      : 2 
-│                              │                  ├ bitnami    : 2 
-│                              │                  ├ cbl-mariner: 2 
-│                              │                  ├ oracle-oval: 2 
-│                              │                  ├ redhat     : 2 
-│                              │                  ╰ ubuntu     : 2 
-│                              ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:
-│                              │                  │         │           N/A:N 
-│                              │                  │         ╰ V3Score : 6.8 
-│                              │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:
-│                              │                            │           N/A:N 
-│                              │                            ╰ V3Score : 6.8 
-│                              ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:15887 
-│                              │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-4673 
-│                              │                  ├ [2] : https://bugzilla.redhat.com/2373305 
-│                              │                  ├ [3] : https://errata.almalinux.org/9/ALSA-2025-15887.html 
-│                              │                  ├ [4] : https://go.dev/cl/679257 
-│                              │                  ├ [5] : https://go.dev/issue/73816 
-│                              │                  ├ [6] : https://groups.google.com/g/golang-announce/c/ufZ8WpE
-│                              │                  │       sA3A 
-│                              │                  ├ [7] : https://linux.oracle.com/cve/CVE-2025-4673.html 
-│                              │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2025-10677.html 
-│                              │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2025-4673 
-│                              │                  ├ [10]: https://pkg.go.dev/vuln/GO-2025-3751 
-│                              │                  ├ [11]: https://ubuntu.com/security/notices/USN-7574-1 
-│                              │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2025-4673 
-│                              ├ PublishedDate   : 2025-06-11T17:15:42.993Z 
-│                              ╰ LastModifiedDate: 2025-06-12T16:06:20.18Z 
+│                              ├ VendorSeverity   ╭ amazon : 3 
+│                              │                  ├ bitnami: 2 
+│                              │                  ╰ redhat : 2 
+│                              ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:
+│                              │                  │         │           N/A:L 
+│                              │                  │         ╰ V3Score : 6.5 
+│                              │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:
+│                              │                            │           N/A:L 
+│                              │                            ╰ V3Score : 6.5 
+│                              ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-47906 
+│                              │                  ├ [1]: https://go.dev/cl/691775 
+│                              │                  ├ [2]: https://go.dev/issue/74466 
+│                              │                  ├ [3]: https://groups.google.com/g/golang-announce/c/x5MKroML
+│                              │                  │      2yM 
+│                              │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-47906 
+│                              │                  ├ [5]: https://pkg.go.dev/vuln/GO-2025-3956 
+│                              │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-47906 
+│                              ├ PublishedDate   : 2025-09-18T19:15:37.66Z 
+│                              ╰ LastModifiedDate: 2025-09-19T16:00:27.847Z 
 ├ [8]  ╭ Target         : usr/bin/mc 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : gobinary 
@@ -14338,7 +14363,7 @@
 │                        │     │                   during DOM construction, but only when tags are in foreign
 │                        │     │                   content (e.g. <math>, <svg>, etc contexts). 
 │                        │     ├ Severity        : MEDIUM 
-│                        │     ├ VendorSeverity   ╭ amazon     : 3 
+│                        │     ├ VendorSeverity   ╭ amazon     : 2 
 │                        │     │                  ├ azure      : 2 
 │                        │     │                  ├ cbl-mariner: 2 
 │                        │     │                  ├ ghsa       : 2 
@@ -14403,43 +14428,7 @@
 │                        │     │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-22874 
 │                        │     ├ PublishedDate   : 2025-06-11T17:15:42.167Z 
 │                        │     ╰ LastModifiedDate: 2025-06-12T16:06:20.18Z 
-│                        ├ [3] ╭ VulnerabilityID : CVE-2025-47906 
-│                        │     ├ PkgID           : stdlib@v1.24.1 
-│                        │     ├ PkgName         : stdlib 
-│                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.24.1 
-│                        │     │                  ╰ UID : c1deb7c604869ef9 
-│                        │     ├ InstalledVersion: v1.24.1 
-│                        │     ├ FixedVersion    : 1.23.12, 1.24.6 
-│                        │     ├ Status          : fixed 
-│                        │     ├ Layer            ╭ Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4
-│                        │     │                  │         a8143db4b97d428659d0 
-│                        │     │                  ╰ DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8
-│                        │     │                            d67226cb3b9e50f918f0 
-│                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-47906 
-│                        │     ├ DataSource       ╭ ID  : govulndb 
-│                        │     │                  ├ Name: The Go Vulnerability Database 
-│                        │     │                  ╰ URL : https://pkg.go.dev/vuln/ 
-│                        │     ├ Title           : If the PATH environment variable contains paths which are
-│                        │     │                   executables  ... 
-│                        │     ├ Description     : If the PATH environment variable contains paths which are
-│                        │     │                   executables (rather than just directories), passing certain
-│                        │     │                   strings to LookPath ("", ".", and ".."), can result in the
-│                        │     │                   binaries listed in the PATH being unexpectedly returned. 
-│                        │     ├ Severity        : HIGH 
-│                        │     ├ VendorSeverity   ╭ amazon : 3 
-│                        │     │                  ╰ bitnami: 2 
-│                        │     ├ CVSS             ─ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:
-│                        │     │                            │           N/A:L 
-│                        │     │                            ╰ V3Score : 6.5 
-│                        │     ├ References       ╭ [0]: https://go.dev/cl/691775 
-│                        │     │                  ├ [1]: https://go.dev/issue/74466 
-│                        │     │                  ├ [2]: https://groups.google.com/g/golang-announce/c/x5MKroML
-│                        │     │                  │      2yM 
-│                        │     │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-47906 
-│                        │     │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2025-3956 
-│                        │     ├ PublishedDate   : 2025-09-18T19:15:37.66Z 
-│                        │     ╰ LastModifiedDate: 2025-09-19T16:00:27.847Z 
-│                        ├ [4] ╭ VulnerabilityID : CVE-2025-47907 
+│                        ├ [3] ╭ VulnerabilityID : CVE-2025-47907 
 │                        │     ├ PkgID           : stdlib@v1.24.1 
 │                        │     ├ PkgName         : stdlib 
 │                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.24.1 
@@ -14486,7 +14475,7 @@
 │                        │     │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-47907 
 │                        │     ├ PublishedDate   : 2025-08-07T16:15:30.357Z 
 │                        │     ╰ LastModifiedDate: 2025-08-07T21:26:37.453Z 
-│                        ├ [5] ╭ VulnerabilityID : CVE-2025-0913 
+│                        ├ [4] ╭ VulnerabilityID : CVE-2025-0913 
 │                        │     ├ PkgID           : stdlib@v1.24.1 
 │                        │     ├ PkgName         : stdlib 
 │                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.24.1 
@@ -14526,7 +14515,7 @@
 │                        │     │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2025-3750 
 │                        │     ├ PublishedDate   : 2025-06-11T18:15:24.627Z 
 │                        │     ╰ LastModifiedDate: 2025-08-08T14:53:03.55Z 
-│                        ├ [6] ╭ VulnerabilityID : CVE-2025-22871 
+│                        ├ [5] ╭ VulnerabilityID : CVE-2025-22871 
 │                        │     ├ PkgID           : stdlib@v1.24.1 
 │                        │     ├ PkgName         : stdlib 
 │                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.24.1 
@@ -14583,58 +14572,99 @@
 │                        │     │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2025-22871 
 │                        │     ├ PublishedDate   : 2025-04-08T20:15:20.183Z 
 │                        │     ╰ LastModifiedDate: 2025-04-18T15:15:57.923Z 
-│                        ╰ [7] ╭ VulnerabilityID : CVE-2025-4673 
+│                        ├ [6] ╭ VulnerabilityID : CVE-2025-4673 
+│                        │     ├ PkgID           : stdlib@v1.24.1 
+│                        │     ├ PkgName         : stdlib 
+│                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.24.1 
+│                        │     │                  ╰ UID : c1deb7c604869ef9 
+│                        │     ├ InstalledVersion: v1.24.1 
+│                        │     ├ FixedVersion    : 1.23.10, 1.24.4 
+│                        │     ├ Status          : fixed 
+│                        │     ├ Layer            ╭ Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4
+│                        │     │                  │         a8143db4b97d428659d0 
+│                        │     │                  ╰ DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8
+│                        │     │                            d67226cb3b9e50f918f0 
+│                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-4673 
+│                        │     ├ DataSource       ╭ ID  : govulndb 
+│                        │     │                  ├ Name: The Go Vulnerability Database 
+│                        │     │                  ╰ URL : https://pkg.go.dev/vuln/ 
+│                        │     ├ Title           : net/http: Sensitive headers not cleared on cross-origin
+│                        │     │                   redirect in net/http 
+│                        │     ├ Description     : Proxy-Authorization and Proxy-Authenticate headers persisted
+│                        │     │                    on cross-origin redirects potentially leaking sensitive
+│                        │     │                   information. 
+│                        │     ├ Severity        : MEDIUM 
+│                        │     ├ VendorSeverity   ╭ alma       : 2 
+│                        │     │                  ├ amazon     : 2 
+│                        │     │                  ├ azure      : 2 
+│                        │     │                  ├ bitnami    : 2 
+│                        │     │                  ├ cbl-mariner: 2 
+│                        │     │                  ├ oracle-oval: 2 
+│                        │     │                  ├ redhat     : 2 
+│                        │     │                  ╰ ubuntu     : 2 
+│                        │     ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:
+│                        │     │                  │         │           N/A:N 
+│                        │     │                  │         ╰ V3Score : 6.8 
+│                        │     │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:
+│                        │     │                            │           N/A:N 
+│                        │     │                            ╰ V3Score : 6.8 
+│                        │     ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:15887 
+│                        │     │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-4673 
+│                        │     │                  ├ [2] : https://bugzilla.redhat.com/2373305 
+│                        │     │                  ├ [3] : https://errata.almalinux.org/9/ALSA-2025-15887.html 
+│                        │     │                  ├ [4] : https://go.dev/cl/679257 
+│                        │     │                  ├ [5] : https://go.dev/issue/73816 
+│                        │     │                  ├ [6] : https://groups.google.com/g/golang-announce/c/ufZ8WpE
+│                        │     │                  │       sA3A 
+│                        │     │                  ├ [7] : https://linux.oracle.com/cve/CVE-2025-4673.html 
+│                        │     │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2025-10677.html 
+│                        │     │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2025-4673 
+│                        │     │                  ├ [10]: https://pkg.go.dev/vuln/GO-2025-3751 
+│                        │     │                  ├ [11]: https://ubuntu.com/security/notices/USN-7574-1 
+│                        │     │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2025-4673 
+│                        │     ├ PublishedDate   : 2025-06-11T17:15:42.993Z 
+│                        │     ╰ LastModifiedDate: 2025-06-12T16:06:20.18Z 
+│                        ╰ [7] ╭ VulnerabilityID : CVE-2025-47906 
 │                              ├ PkgID           : stdlib@v1.24.1 
 │                              ├ PkgName         : stdlib 
 │                              ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.24.1 
 │                              │                  ╰ UID : c1deb7c604869ef9 
 │                              ├ InstalledVersion: v1.24.1 
-│                              ├ FixedVersion    : 1.23.10, 1.24.4 
+│                              ├ FixedVersion    : 1.23.12, 1.24.6 
 │                              ├ Status          : fixed 
 │                              ├ Layer            ╭ Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4
 │                              │                  │         a8143db4b97d428659d0 
 │                              │                  ╰ DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8
 │                              │                            d67226cb3b9e50f918f0 
-│                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-4673 
+│                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-47906 
 │                              ├ DataSource       ╭ ID  : govulndb 
 │                              │                  ├ Name: The Go Vulnerability Database 
 │                              │                  ╰ URL : https://pkg.go.dev/vuln/ 
-│                              ├ Title           : net/http: Sensitive headers not cleared on cross-origin
-│                              │                   redirect in net/http 
-│                              ├ Description     : Proxy-Authorization and Proxy-Authenticate headers persisted
-│                              │                    on cross-origin redirects potentially leaking sensitive
-│                              │                   information. 
+│                              ├ Title           : os/exec: Unexpected paths returned from LookPath in os/exec 
+│                              ├ Description     : If the PATH environment variable contains paths which are
+│                              │                   executables (rather than just directories), passing certain
+│                              │                   strings to LookPath ("", ".", and ".."), can result in the
+│                              │                   binaries listed in the PATH being unexpectedly returned. 
 │                              ├ Severity        : MEDIUM 
-│                              ├ VendorSeverity   ╭ alma       : 2 
-│                              │                  ├ amazon     : 2 
-│                              │                  ├ azure      : 2 
-│                              │                  ├ bitnami    : 2 
-│                              │                  ├ cbl-mariner: 2 
-│                              │                  ├ oracle-oval: 2 
-│                              │                  ├ redhat     : 2 
-│                              │                  ╰ ubuntu     : 2 
-│                              ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:
-│                              │                  │         │           N/A:N 
-│                              │                  │         ╰ V3Score : 6.8 
-│                              │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:
-│                              │                            │           N/A:N 
-│                              │                            ╰ V3Score : 6.8 
-│                              ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:15887 
-│                              │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-4673 
-│                              │                  ├ [2] : https://bugzilla.redhat.com/2373305 
-│                              │                  ├ [3] : https://errata.almalinux.org/9/ALSA-2025-15887.html 
-│                              │                  ├ [4] : https://go.dev/cl/679257 
-│                              │                  ├ [5] : https://go.dev/issue/73816 
-│                              │                  ├ [6] : https://groups.google.com/g/golang-announce/c/ufZ8WpE
-│                              │                  │       sA3A 
-│                              │                  ├ [7] : https://linux.oracle.com/cve/CVE-2025-4673.html 
-│                              │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2025-10677.html 
-│                              │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2025-4673 
-│                              │                  ├ [10]: https://pkg.go.dev/vuln/GO-2025-3751 
-│                              │                  ├ [11]: https://ubuntu.com/security/notices/USN-7574-1 
-│                              │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2025-4673 
-│                              ├ PublishedDate   : 2025-06-11T17:15:42.993Z 
-│                              ╰ LastModifiedDate: 2025-06-12T16:06:20.18Z 
+│                              ├ VendorSeverity   ╭ amazon : 3 
+│                              │                  ├ bitnami: 2 
+│                              │                  ╰ redhat : 2 
+│                              ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:
+│                              │                  │         │           N/A:L 
+│                              │                  │         ╰ V3Score : 6.5 
+│                              │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:
+│                              │                            │           N/A:L 
+│                              │                            ╰ V3Score : 6.5 
+│                              ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-47906 
+│                              │                  ├ [1]: https://go.dev/cl/691775 
+│                              │                  ├ [2]: https://go.dev/issue/74466 
+│                              │                  ├ [3]: https://groups.google.com/g/golang-announce/c/x5MKroML
+│                              │                  │      2yM 
+│                              │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-47906 
+│                              │                  ├ [5]: https://pkg.go.dev/vuln/GO-2025-3956 
+│                              │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-47906 
+│                              ├ PublishedDate   : 2025-09-18T19:15:37.66Z 
+│                              ╰ LastModifiedDate: 2025-09-19T16:00:27.847Z 
 ├ [9]  ╭ Target         : usr/local/bin/k3d 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : gobinary 
@@ -15122,7 +15152,7 @@
 │                        │      │                   the wrong scope during DOM construction, but only when tags
 │                        │      │                    are in foreign content (e.g. <math>, <svg>, etc contexts). 
 │                        │      ├ Severity        : MEDIUM 
-│                        │      ├ VendorSeverity   ╭ amazon     : 3 
+│                        │      ├ VendorSeverity   ╭ amazon     : 2 
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ ghsa       : 2 
@@ -15229,43 +15259,7 @@
 │                        │      │                         HSA-xr7q-jx4m-x55m 
 │                        │      ├ PublishedDate   : 2024-07-05T20:07:01Z 
 │                        │      ╰ LastModifiedDate: 2024-07-09T21:38:29Z 
-│                        ├ [9]  ╭ VulnerabilityID : CVE-2025-47906 
-│                        │      ├ PkgID           : stdlib@v1.22.12 
-│                        │      ├ PkgName         : stdlib 
-│                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.22.12 
-│                        │      │                  ╰ UID : 156a2e832bd2e3cc 
-│                        │      ├ InstalledVersion: v1.22.12 
-│                        │      ├ FixedVersion    : 1.23.12, 1.24.6 
-│                        │      ├ Status          : fixed 
-│                        │      ├ Layer            ╭ Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf
-│                        │      │                  │         4a8143db4b97d428659d0 
-│                        │      │                  ╰ DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e
-│                        │      │                            8d67226cb3b9e50f918f0 
-│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-47906 
-│                        │      ├ DataSource       ╭ ID  : govulndb 
-│                        │      │                  ├ Name: The Go Vulnerability Database 
-│                        │      │                  ╰ URL : https://pkg.go.dev/vuln/ 
-│                        │      ├ Title           : If the PATH environment variable contains paths which are
-│                        │      │                   executables  ... 
-│                        │      ├ Description     : If the PATH environment variable contains paths which are
-│                        │      │                   executables (rather than just directories), passing certain
-│                        │      │                    strings to LookPath ("", ".", and ".."), can result in the
-│                        │      │                    binaries listed in the PATH being unexpectedly returned. 
-│                        │      ├ Severity        : HIGH 
-│                        │      ├ VendorSeverity   ╭ amazon : 3 
-│                        │      │                  ╰ bitnami: 2 
-│                        │      ├ CVSS             ─ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I
-│                        │      │                            │           :N/A:L 
-│                        │      │                            ╰ V3Score : 6.5 
-│                        │      ├ References       ╭ [0]: https://go.dev/cl/691775 
-│                        │      │                  ├ [1]: https://go.dev/issue/74466 
-│                        │      │                  ├ [2]: https://groups.google.com/g/golang-announce/c/x5MKroM
-│                        │      │                  │      L2yM 
-│                        │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-47906 
-│                        │      │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2025-3956 
-│                        │      ├ PublishedDate   : 2025-09-18T19:15:37.66Z 
-│                        │      ╰ LastModifiedDate: 2025-09-19T16:00:27.847Z 
-│                        ├ [10] ╭ VulnerabilityID : CVE-2025-47907 
+│                        ├ [9]  ╭ VulnerabilityID : CVE-2025-47907 
 │                        │      ├ PkgID           : stdlib@v1.22.12 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.22.12 
@@ -15312,7 +15306,7 @@
 │                        │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-47907 
 │                        │      ├ PublishedDate   : 2025-08-07T16:15:30.357Z 
 │                        │      ╰ LastModifiedDate: 2025-08-07T21:26:37.453Z 
-│                        ├ [11] ╭ VulnerabilityID : CVE-2025-0913 
+│                        ├ [10] ╭ VulnerabilityID : CVE-2025-0913 
 │                        │      ├ PkgID           : stdlib@v1.22.12 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.22.12 
@@ -15352,7 +15346,7 @@
 │                        │      │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2025-3750 
 │                        │      ├ PublishedDate   : 2025-06-11T18:15:24.627Z 
 │                        │      ╰ LastModifiedDate: 2025-08-08T14:53:03.55Z 
-│                        ├ [12] ╭ VulnerabilityID : CVE-2025-22871 
+│                        ├ [11] ╭ VulnerabilityID : CVE-2025-22871 
 │                        │      ├ PkgID           : stdlib@v1.22.12 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.22.12 
@@ -15410,58 +15404,99 @@
 │                        │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2025-22871 
 │                        │      ├ PublishedDate   : 2025-04-08T20:15:20.183Z 
 │                        │      ╰ LastModifiedDate: 2025-04-18T15:15:57.923Z 
-│                        ╰ [13] ╭ VulnerabilityID : CVE-2025-4673 
+│                        ├ [12] ╭ VulnerabilityID : CVE-2025-4673 
+│                        │      ├ PkgID           : stdlib@v1.22.12 
+│                        │      ├ PkgName         : stdlib 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.22.12 
+│                        │      │                  ╰ UID : 156a2e832bd2e3cc 
+│                        │      ├ InstalledVersion: v1.22.12 
+│                        │      ├ FixedVersion    : 1.23.10, 1.24.4 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf
+│                        │      │                  │         4a8143db4b97d428659d0 
+│                        │      │                  ╰ DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e
+│                        │      │                            8d67226cb3b9e50f918f0 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-4673 
+│                        │      ├ DataSource       ╭ ID  : govulndb 
+│                        │      │                  ├ Name: The Go Vulnerability Database 
+│                        │      │                  ╰ URL : https://pkg.go.dev/vuln/ 
+│                        │      ├ Title           : net/http: Sensitive headers not cleared on cross-origin
+│                        │      │                   redirect in net/http 
+│                        │      ├ Description     : Proxy-Authorization and Proxy-Authenticate headers
+│                        │      │                   persisted on cross-origin redirects potentially leaking
+│                        │      │                   sensitive information. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ VendorSeverity   ╭ alma       : 2 
+│                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ azure      : 2 
+│                        │      │                  ├ bitnami    : 2 
+│                        │      │                  ├ cbl-mariner: 2 
+│                        │      │                  ├ oracle-oval: 2 
+│                        │      │                  ├ redhat     : 2 
+│                        │      │                  ╰ ubuntu     : 2 
+│                        │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I
+│                        │      │                  │         │           :N/A:N 
+│                        │      │                  │         ╰ V3Score : 6.8 
+│                        │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I
+│                        │      │                            │           :N/A:N 
+│                        │      │                            ╰ V3Score : 6.8 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:15887 
+│                        │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-4673 
+│                        │      │                  ├ [2] : https://bugzilla.redhat.com/2373305 
+│                        │      │                  ├ [3] : https://errata.almalinux.org/9/ALSA-2025-15887.html 
+│                        │      │                  ├ [4] : https://go.dev/cl/679257 
+│                        │      │                  ├ [5] : https://go.dev/issue/73816 
+│                        │      │                  ├ [6] : https://groups.google.com/g/golang-announce/c/ufZ8Wp
+│                        │      │                  │       EsA3A 
+│                        │      │                  ├ [7] : https://linux.oracle.com/cve/CVE-2025-4673.html 
+│                        │      │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2025-10677.html 
+│                        │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2025-4673 
+│                        │      │                  ├ [10]: https://pkg.go.dev/vuln/GO-2025-3751 
+│                        │      │                  ├ [11]: https://ubuntu.com/security/notices/USN-7574-1 
+│                        │      │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2025-4673 
+│                        │      ├ PublishedDate   : 2025-06-11T17:15:42.993Z 
+│                        │      ╰ LastModifiedDate: 2025-06-12T16:06:20.18Z 
+│                        ╰ [13] ╭ VulnerabilityID : CVE-2025-47906 
 │                               ├ PkgID           : stdlib@v1.22.12 
 │                               ├ PkgName         : stdlib 
 │                               ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.22.12 
 │                               │                  ╰ UID : 156a2e832bd2e3cc 
 │                               ├ InstalledVersion: v1.22.12 
-│                               ├ FixedVersion    : 1.23.10, 1.24.4 
+│                               ├ FixedVersion    : 1.23.12, 1.24.6 
 │                               ├ Status          : fixed 
 │                               ├ Layer            ╭ Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf
 │                               │                  │         4a8143db4b97d428659d0 
 │                               │                  ╰ DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e
 │                               │                            8d67226cb3b9e50f918f0 
-│                               ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-4673 
+│                               ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-47906 
 │                               ├ DataSource       ╭ ID  : govulndb 
 │                               │                  ├ Name: The Go Vulnerability Database 
 │                               │                  ╰ URL : https://pkg.go.dev/vuln/ 
-│                               ├ Title           : net/http: Sensitive headers not cleared on cross-origin
-│                               │                   redirect in net/http 
-│                               ├ Description     : Proxy-Authorization and Proxy-Authenticate headers
-│                               │                   persisted on cross-origin redirects potentially leaking
-│                               │                   sensitive information. 
+│                               ├ Title           : os/exec: Unexpected paths returned from LookPath in os/exec 
+│                               ├ Description     : If the PATH environment variable contains paths which are
+│                               │                   executables (rather than just directories), passing certain
+│                               │                    strings to LookPath ("", ".", and ".."), can result in the
+│                               │                    binaries listed in the PATH being unexpectedly returned. 
 │                               ├ Severity        : MEDIUM 
-│                               ├ VendorSeverity   ╭ alma       : 2 
-│                               │                  ├ amazon     : 2 
-│                               │                  ├ azure      : 2 
-│                               │                  ├ bitnami    : 2 
-│                               │                  ├ cbl-mariner: 2 
-│                               │                  ├ oracle-oval: 2 
-│                               │                  ├ redhat     : 2 
-│                               │                  ╰ ubuntu     : 2 
-│                               ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I
-│                               │                  │         │           :N/A:N 
-│                               │                  │         ╰ V3Score : 6.8 
-│                               │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I
-│                               │                            │           :N/A:N 
-│                               │                            ╰ V3Score : 6.8 
-│                               ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:15887 
-│                               │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-4673 
-│                               │                  ├ [2] : https://bugzilla.redhat.com/2373305 
-│                               │                  ├ [3] : https://errata.almalinux.org/9/ALSA-2025-15887.html 
-│                               │                  ├ [4] : https://go.dev/cl/679257 
-│                               │                  ├ [5] : https://go.dev/issue/73816 
-│                               │                  ├ [6] : https://groups.google.com/g/golang-announce/c/ufZ8Wp
-│                               │                  │       EsA3A 
-│                               │                  ├ [7] : https://linux.oracle.com/cve/CVE-2025-4673.html 
-│                               │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2025-10677.html 
-│                               │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2025-4673 
-│                               │                  ├ [10]: https://pkg.go.dev/vuln/GO-2025-3751 
-│                               │                  ├ [11]: https://ubuntu.com/security/notices/USN-7574-1 
-│                               │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2025-4673 
-│                               ├ PublishedDate   : 2025-06-11T17:15:42.993Z 
-│                               ╰ LastModifiedDate: 2025-06-12T16:06:20.18Z 
+│                               ├ VendorSeverity   ╭ amazon : 3 
+│                               │                  ├ bitnami: 2 
+│                               │                  ╰ redhat : 2 
+│                               ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I
+│                               │                  │         │           :N/A:L 
+│                               │                  │         ╰ V3Score : 6.5 
+│                               │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I
+│                               │                            │           :N/A:L 
+│                               │                            ╰ V3Score : 6.5 
+│                               ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-47906 
+│                               │                  ├ [1]: https://go.dev/cl/691775 
+│                               │                  ├ [2]: https://go.dev/issue/74466 
+│                               │                  ├ [3]: https://groups.google.com/g/golang-announce/c/x5MKroM
+│                               │                  │      L2yM 
+│                               │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-47906 
+│                               │                  ├ [5]: https://pkg.go.dev/vuln/GO-2025-3956 
+│                               │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-47906 
+│                               ├ PublishedDate   : 2025-09-18T19:15:37.66Z 
+│                               ╰ LastModifiedDate: 2025-09-19T16:00:27.847Z 
 ├ [10] ╭ Target : /etc/ssh/ssh_host_dsa_key 
 │      ├ Class  : secret 
 │      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
