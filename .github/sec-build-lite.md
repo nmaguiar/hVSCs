@@ -25193,7 +25193,82 @@
 │                        │      │                  ╰ [26]: https://www.cve.org/CVERecord?id=CVE-2025-8941 
 │                        │      ├ PublishedDate   : 2025-08-13T15:15:41.873Z 
 │                        │      ╰ LastModifiedDate: 2025-09-23T20:15:33.927Z 
-│                        ├ [35] ╭ VulnerabilityID : CVE-2024-41996 
+│                        ├ [35] ╭ VulnerabilityID : CVE-2025-9230 
+│                        │      ├ PkgID           : libssl3t64@3.0.13-0ubuntu3.5 
+│                        │      ├ PkgName         : libssl3t64 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libssl3t64@3.0.13-0ubuntu3.5?arch=amd
+│                        │      │                  │       64&distro=ubuntu-24.04 
+│                        │      │                  ╰ UID : b65e32a2c41d1d2 
+│                        │      ├ InstalledVersion: 3.0.13-0ubuntu3.5 
+│                        │      ├ FixedVersion    : 3.0.13-0ubuntu3.6 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:b8b3d0e2be97c426244a17f7b82c1c6a82ce6cad747
+│                        │      │                  │         b17104b006dfd439ceaee 
+│                        │      │                  ╰ DiffID: sha256:3d15894d1f4028893867c8905875d026387c28d74fd
+│                        │      │                            fc02e3e332ca3532958ce 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-9230 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : openssl: Out-of-bounds read & write in RFC 3211 KEK Unwrap 
+│                        │      ├ Description     : Issue summary: An application trying to decrypt CMS
+│                        │      │                   messages encrypted using
+│                        │      │                   password based encryption can trigger an out-of-bounds read
+│                        │      │                    and write.
+│                        │      │                   
+│                        │      │                   Impact summary: This out-of-bounds read may trigger a crash
+│                        │      │                    which leads to
+│                        │      │                   Denial of Service for an application. The out-of-bounds
+│                        │      │                   write can cause
+│                        │      │                   a memory corruption which can have various consequences
+│                        │      │                   including
+│                        │      │                   a Denial of Service or Execution of attacker-supplied
+│                        │      │                   code.
+│                        │      │                   Although the consequences of a successful exploit of this
+│                        │      │                   vulnerability
+│                        │      │                   could be severe, the probability that the attacker would be
+│                        │      │                    able to
+│                        │      │                   perform it is low. Besides, password based (PWRI)
+│                        │      │                   encryption support in CMS
+│                        │      │                   messages is very rarely used. For that reason the issue was
+│                        │      │                    assessed as
+│                        │      │                   Moderate severity according to our Security Policy.
+│                        │      │                   The FIPS modules in 3.5, 3.4, 3.3, 3.2, 3.1 and 3.0 are not
+│                        │      │                    affected by this
+│                        │      │                   issue, as the CMS implementation is outside the OpenSSL
+│                        │      │                   FIPS module
+│                        │      │                   boundary. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ CweIDs           ╭ [0]: CWE-125 
+│                        │      │                  ╰ [1]: CWE-787 
+│                        │      ├ VendorSeverity   ╭ redhat: 2 
+│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:
+│                        │      │                           │           L/A:L 
+│                        │      │                           ╰ V3Score : 5.6 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2025-9230 
+│                        │      │                  ├ [1] : https://github.com/openssl/openssl/commit/5965ea5dd6
+│                        │      │                  │       960f36d8b7f74f8eac67a8eb8f2b45 
+│                        │      │                  ├ [2] : https://github.com/openssl/openssl/commit/9e91358f36
+│                        │      │                  │       5dee6c446dcdcdb01c04d2743fd280 
+│                        │      │                  ├ [3] : https://github.com/openssl/openssl/commit/a79c4ce559
+│                        │      │                  │       c6a3a8fd4109e9f33c1185d5bf2def 
+│                        │      │                  ├ [4] : https://github.com/openssl/openssl/commit/b5282d6775
+│                        │      │                  │       51afda7d20e9c00e09561b547b2dfd 
+│                        │      │                  ├ [5] : https://github.com/openssl/openssl/commit/bae259a211
+│                        │      │                  │       ada6315dc50900686daaaaaa55f482 
+│                        │      │                  ├ [6] : https://github.openssl.org/openssl/extended-releases
+│                        │      │                  │       /commit/c2b96348bfa662f25f4fabf81958ae822063dae3 
+│                        │      │                  ├ [7] : https://github.openssl.org/openssl/extended-releases
+│                        │      │                  │       /commit/dfbaf161d8dafc1132dd88cd48ad990ed9b4c8ba 
+│                        │      │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2025-9230 
+│                        │      │                  ├ [9] : https://openssl-library.org/news/secadv/20250930.txt 
+│                        │      │                  ├ [10]: https://ubuntu.com/security/notices/USN-7786-1 
+│                        │      │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2025-9230 
+│                        │      ├ PublishedDate   : 2025-09-30T14:15:41.05Z 
+│                        │      ╰ LastModifiedDate: 2025-09-30T20:15:41.023Z 
+│                        ├ [36] ╭ VulnerabilityID : CVE-2024-41996 
 │                        │      ├ PkgID           : libssl3t64@3.0.13-0ubuntu3.5 
 │                        │      ├ PkgName         : libssl3t64 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libssl3t64@3.0.13-0ubuntu3.5?arch=amd
@@ -25243,7 +25318,7 @@
 │                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-41996 
 │                        │      ├ PublishedDate   : 2024-08-26T06:15:04.603Z 
 │                        │      ╰ LastModifiedDate: 2024-08-26T16:35:11.247Z 
-│                        ├ [36] ╭ VulnerabilityID : CVE-2024-56433 
+│                        ├ [37] ╭ VulnerabilityID : CVE-2024-56433 
 │                        │      ├ PkgID           : libsubid4@1:4.13+dfsg1-4ubuntu3.2 
 │                        │      ├ PkgName         : libsubid4 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libsubid4@4.13%2Bdfsg1-4ubuntu3.2?arc
@@ -25291,7 +25366,7 @@
 │                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                        │      ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                        │      ╰ LastModifiedDate: 2024-12-26T09:15:07.267Z 
-│                        ├ [37] ╭ VulnerabilityID : CVE-2024-56433 
+│                        ├ [38] ╭ VulnerabilityID : CVE-2024-56433 
 │                        │      ├ PkgID           : login@1:4.13+dfsg1-4ubuntu3.2 
 │                        │      ├ PkgName         : login 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/login@4.13%2Bdfsg1-4ubuntu3.2?arch=am
@@ -25339,7 +25414,82 @@
 │                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                        │      ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                        │      ╰ LastModifiedDate: 2024-12-26T09:15:07.267Z 
-│                        ├ [38] ╭ VulnerabilityID : CVE-2024-41996 
+│                        ├ [39] ╭ VulnerabilityID : CVE-2025-9230 
+│                        │      ├ PkgID           : openssl@3.0.13-0ubuntu3.5 
+│                        │      ├ PkgName         : openssl 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl@3.0.13-0ubuntu3.5?arch=amd64&
+│                        │      │                  │       distro=ubuntu-24.04 
+│                        │      │                  ╰ UID : dce696ecd3e34a10 
+│                        │      ├ InstalledVersion: 3.0.13-0ubuntu3.5 
+│                        │      ├ FixedVersion    : 3.0.13-0ubuntu3.6 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:b8b3d0e2be97c426244a17f7b82c1c6a82ce6cad747
+│                        │      │                  │         b17104b006dfd439ceaee 
+│                        │      │                  ╰ DiffID: sha256:3d15894d1f4028893867c8905875d026387c28d74fd
+│                        │      │                            fc02e3e332ca3532958ce 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-9230 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : openssl: Out-of-bounds read & write in RFC 3211 KEK Unwrap 
+│                        │      ├ Description     : Issue summary: An application trying to decrypt CMS
+│                        │      │                   messages encrypted using
+│                        │      │                   password based encryption can trigger an out-of-bounds read
+│                        │      │                    and write.
+│                        │      │                   
+│                        │      │                   Impact summary: This out-of-bounds read may trigger a crash
+│                        │      │                    which leads to
+│                        │      │                   Denial of Service for an application. The out-of-bounds
+│                        │      │                   write can cause
+│                        │      │                   a memory corruption which can have various consequences
+│                        │      │                   including
+│                        │      │                   a Denial of Service or Execution of attacker-supplied
+│                        │      │                   code.
+│                        │      │                   Although the consequences of a successful exploit of this
+│                        │      │                   vulnerability
+│                        │      │                   could be severe, the probability that the attacker would be
+│                        │      │                    able to
+│                        │      │                   perform it is low. Besides, password based (PWRI)
+│                        │      │                   encryption support in CMS
+│                        │      │                   messages is very rarely used. For that reason the issue was
+│                        │      │                    assessed as
+│                        │      │                   Moderate severity according to our Security Policy.
+│                        │      │                   The FIPS modules in 3.5, 3.4, 3.3, 3.2, 3.1 and 3.0 are not
+│                        │      │                    affected by this
+│                        │      │                   issue, as the CMS implementation is outside the OpenSSL
+│                        │      │                   FIPS module
+│                        │      │                   boundary. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ CweIDs           ╭ [0]: CWE-125 
+│                        │      │                  ╰ [1]: CWE-787 
+│                        │      ├ VendorSeverity   ╭ redhat: 2 
+│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:
+│                        │      │                           │           L/A:L 
+│                        │      │                           ╰ V3Score : 5.6 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2025-9230 
+│                        │      │                  ├ [1] : https://github.com/openssl/openssl/commit/5965ea5dd6
+│                        │      │                  │       960f36d8b7f74f8eac67a8eb8f2b45 
+│                        │      │                  ├ [2] : https://github.com/openssl/openssl/commit/9e91358f36
+│                        │      │                  │       5dee6c446dcdcdb01c04d2743fd280 
+│                        │      │                  ├ [3] : https://github.com/openssl/openssl/commit/a79c4ce559
+│                        │      │                  │       c6a3a8fd4109e9f33c1185d5bf2def 
+│                        │      │                  ├ [4] : https://github.com/openssl/openssl/commit/b5282d6775
+│                        │      │                  │       51afda7d20e9c00e09561b547b2dfd 
+│                        │      │                  ├ [5] : https://github.com/openssl/openssl/commit/bae259a211
+│                        │      │                  │       ada6315dc50900686daaaaaa55f482 
+│                        │      │                  ├ [6] : https://github.openssl.org/openssl/extended-releases
+│                        │      │                  │       /commit/c2b96348bfa662f25f4fabf81958ae822063dae3 
+│                        │      │                  ├ [7] : https://github.openssl.org/openssl/extended-releases
+│                        │      │                  │       /commit/dfbaf161d8dafc1132dd88cd48ad990ed9b4c8ba 
+│                        │      │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2025-9230 
+│                        │      │                  ├ [9] : https://openssl-library.org/news/secadv/20250930.txt 
+│                        │      │                  ├ [10]: https://ubuntu.com/security/notices/USN-7786-1 
+│                        │      │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2025-9230 
+│                        │      ├ PublishedDate   : 2025-09-30T14:15:41.05Z 
+│                        │      ╰ LastModifiedDate: 2025-09-30T20:15:41.023Z 
+│                        ├ [40] ╭ VulnerabilityID : CVE-2024-41996 
 │                        │      ├ PkgID           : openssl@3.0.13-0ubuntu3.5 
 │                        │      ├ PkgName         : openssl 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl@3.0.13-0ubuntu3.5?arch=amd64&
@@ -25389,7 +25539,7 @@
 │                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-41996 
 │                        │      ├ PublishedDate   : 2024-08-26T06:15:04.603Z 
 │                        │      ╰ LastModifiedDate: 2024-08-26T16:35:11.247Z 
-│                        ├ [39] ╭ VulnerabilityID : CVE-2024-56433 
+│                        ├ [41] ╭ VulnerabilityID : CVE-2024-56433 
 │                        │      ├ PkgID           : passwd@1:4.13+dfsg1-4ubuntu3.2 
 │                        │      ├ PkgName         : passwd 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/passwd@4.13%2Bdfsg1-4ubuntu3.2?arch=a
@@ -25437,7 +25587,7 @@
 │                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                        │      ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                        │      ╰ LastModifiedDate: 2024-12-26T09:15:07.267Z 
-│                        ├ [40] ╭ VulnerabilityID : CVE-2018-6952 
+│                        ├ [42] ╭ VulnerabilityID : CVE-2018-6952 
 │                        │      ├ PkgID           : patch@2.7.6-7build3 
 │                        │      ├ PkgName         : patch 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/patch@2.7.6-7build3?arch=amd64&distro
@@ -25487,7 +25637,7 @@
 │                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2018-6952 
 │                        │      ├ PublishedDate   : 2018-02-13T19:29:00.573Z 
 │                        │      ╰ LastModifiedDate: 2024-11-21T04:11:28.42Z 
-│                        ├ [41] ╭ VulnerabilityID : CVE-2021-45261 
+│                        ├ [43] ╭ VulnerabilityID : CVE-2021-45261 
 │                        │      ├ PkgID           : patch@2.7.6-7build3 
 │                        │      ├ PkgName         : patch 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/patch@2.7.6-7build3?arch=amd64&distro
@@ -25527,7 +25677,7 @@
 │                        │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2021-45261 
 │                        │      ├ PublishedDate   : 2021-12-22T18:15:08.1Z 
 │                        │      ╰ LastModifiedDate: 2024-11-21T06:32:02.633Z 
-│                        ├ [42] ╭ VulnerabilityID : CVE-2025-45768 
+│                        ├ [44] ╭ VulnerabilityID : CVE-2025-45768 
 │                        │      ├ PkgID           : python3-jwt@2.7.0-1 
 │                        │      ├ PkgName         : python3-jwt 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/python3-jwt@2.7.0-1?arch=all&distro=u
@@ -25567,7 +25717,7 @@
 │                        │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-45768 
 │                        │      ├ PublishedDate   : 2025-07-31T21:15:27.32Z 
 │                        │      ╰ LastModifiedDate: 2025-09-12T16:45:51.51Z 
-│                        ├ [43] ╭ VulnerabilityID : CVE-2025-45582 
+│                        ├ [45] ╭ VulnerabilityID : CVE-2025-45582 
 │                        │      ├ PkgID           : tar@1.35+dfsg-3build1 
 │                        │      ├ PkgName         : tar 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/tar@1.35%2Bdfsg-3build1?arch=amd64&di
@@ -25633,7 +25783,7 @@
 │                        │      │                         urity-rules-of-thumb.html 
 │                        │      ├ PublishedDate   : 2025-07-11T17:15:37.183Z 
 │                        │      ╰ LastModifiedDate: 2025-08-18T04:15:36.743Z 
-│                        ├ [44] ╭ VulnerabilityID : CVE-2024-56433 
+│                        ├ [46] ╭ VulnerabilityID : CVE-2024-56433 
 │                        │      ├ PkgID           : uidmap@1:4.13+dfsg1-4ubuntu3.2 
 │                        │      ├ PkgName         : uidmap 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/uidmap@4.13%2Bdfsg1-4ubuntu3.2?arch=a
@@ -25681,7 +25831,7 @@
 │                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                        │      ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                        │      ╰ LastModifiedDate: 2024-12-26T09:15:07.267Z 
-│                        ╰ [45] ╭ VulnerabilityID : CVE-2021-31879 
+│                        ╰ [47] ╭ VulnerabilityID : CVE-2021-31879 
 │                               ├ PkgID           : wget@1.21.4-1ubuntu4.1 
 │                               ├ PkgName         : wget 
 │                               ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/wget@1.21.4-1ubuntu4.1?arch=amd64&dis
@@ -34014,7 +34164,7 @@
 │                        │      │                  ├ [10]: https://ubuntu.com/security/notices/USN-7374-1 
 │                        │      │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2024-40635 
 │                        │      ├ PublishedDate   : 2025-03-17T22:15:13.15Z 
-│                        │      ╰ LastModifiedDate: 2025-09-23T15:09:09.43Z 
+│                        │      ╰ LastModifiedDate: 2025-10-02T01:51:43.21Z 
 │                        ├ [1]  ╭ VulnerabilityID : CVE-2024-41110 
 │                        │      ├ PkgID           : github.com/docker/docker@v27.0.3+incompatible 
 │                        │      ├ PkgName         : github.com/docker/docker 
