@@ -24279,6 +24279,7 @@
     - CWE-190
     VendorSeverity:
       azure: 2
+      cbl-mariner: 2
       redhat: 2
       ubuntu: 1
     CVSS:
@@ -26132,6 +26133,7 @@
     VendorSeverity:
       amazon: 1
       azure: 2
+      cbl-mariner: 2
       photon: 1
       redhat: 1
       ubuntu: 2
@@ -26181,6 +26183,7 @@
     VendorSeverity:
       amazon: 1
       azure: 2
+      cbl-mariner: 2
       photon: 1
       redhat: 1
       ubuntu: 2
@@ -26230,6 +26233,7 @@
     VendorSeverity:
       amazon: 1
       azure: 2
+      cbl-mariner: 2
       photon: 1
       redhat: 1
       ubuntu: 2
@@ -26279,6 +26283,7 @@
     VendorSeverity:
       amazon: 1
       azure: 2
+      cbl-mariner: 2
       photon: 1
       redhat: 1
       ubuntu: 2
@@ -26328,6 +26333,7 @@
     VendorSeverity:
       amazon: 1
       azure: 2
+      cbl-mariner: 2
       photon: 1
       redhat: 1
       ubuntu: 2
@@ -26377,6 +26383,7 @@
     VendorSeverity:
       amazon: 1
       azure: 2
+      cbl-mariner: 2
       photon: 1
       redhat: 1
       ubuntu: 2
@@ -27422,7 +27429,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       azure: 2
       cbl-mariner: 2
       redhat: 2
@@ -27644,7 +27651,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       azure: 2
       cbl-mariner: 2
       redhat: 2
@@ -27866,7 +27873,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       azure: 2
       cbl-mariner: 2
       redhat: 2
@@ -28771,6 +28778,7 @@
     - CWE-476
     VendorSeverity:
       azure: 1
+      cbl-mariner: 1
       redhat: 1
       ubuntu: 2
     CVSS:
@@ -28819,6 +28827,7 @@
     VendorSeverity:
       amazon: 2
       azure: 2
+      cbl-mariner: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -28865,6 +28874,7 @@
     VendorSeverity:
       amazon: 2
       azure: 1
+      cbl-mariner: 1
       nvd: 3
       photon: 3
       redhat: 2
@@ -28961,6 +28971,7 @@
     VendorSeverity:
       amazon: 1
       azure: 2
+      cbl-mariner: 2
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -29652,6 +29663,44 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-40403
     PublishedDate: '2023-09-27T15:19:08.12Z'
     LastModifiedDate: '2024-11-21T08:19:22.91Z'
+  - VulnerabilityID: CVE-2025-10911
+    PkgID: libxslt1.1@1.1.34-4ubuntu0.22.04.3
+    PkgName: libxslt1.1
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libxslt1.1@1.1.34-4ubuntu0.22.04.3?arch=amd64&distro=ubuntu-22.04
+      UID: e4a78eff322e32db
+    InstalledVersion: 1.1.34-4ubuntu0.22.04.3
+    Status: affected
+    Layer:
+      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
+      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-10911
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'libxslt: use-after-free with key data stored cross-RVT'
+    Description: A use-after-free vulnerability was found in libxslt while parsing xsl nodes that may lead to the dereference of expired pointers and application crash.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-825
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 5.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-10911
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2397838
+    - https://gitlab.gnome.org/GNOME/libxslt/-/issues/144
+    - https://gitlab.gnome.org/GNOME/libxslt/-/merge_requests/77
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-10911
+    - https://www.cve.org/CVERecord?id=CVE-2025-10911
+    PublishedDate: '2025-09-25T16:15:31.337Z'
+    LastModifiedDate: '2025-09-26T14:32:53.583Z'
   - VulnerabilityID: CVE-2025-7424
     PkgID: libxslt1.1@1.1.34-4ubuntu0.22.04.3
     PkgName: libxslt1.1
@@ -30193,6 +30242,7 @@
     VendorSeverity:
       amazon: 1
       azure: 2
+      cbl-mariner: 2
       photon: 1
       redhat: 1
       ubuntu: 2
@@ -30242,6 +30292,7 @@
     VendorSeverity:
       amazon: 1
       azure: 2
+      cbl-mariner: 2
       photon: 1
       redhat: 1
       ubuntu: 2
@@ -30291,6 +30342,7 @@
     VendorSeverity:
       amazon: 1
       azure: 2
+      cbl-mariner: 2
       photon: 1
       redhat: 1
       ubuntu: 2
@@ -31044,7 +31096,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       azure: 2
       cbl-mariner: 2
       redhat: 2
@@ -31266,7 +31318,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       azure: 2
       cbl-mariner: 2
       redhat: 2
@@ -32952,6 +33004,7 @@
     VendorSeverity:
       amazon: 1
       azure: 2
+      cbl-mariner: 2
       ghsa: 2
       redhat: 1
     CVSS:
@@ -32996,6 +33049,7 @@
     VendorSeverity:
       amazon: 1
       azure: 2
+      cbl-mariner: 2
       ghsa: 2
       redhat: 1
     CVSS:
@@ -33862,6 +33916,7 @@
     VendorSeverity:
       amazon: 3
       bitnami: 2
+      cbl-mariner: 3
       redhat: 2
     CVSS:
       bitnami:
@@ -34588,6 +34643,7 @@
     VendorSeverity:
       amazon: 3
       bitnami: 2
+      cbl-mariner: 3
       redhat: 2
     CVSS:
       bitnami:
@@ -37136,6 +37192,7 @@
     VendorSeverity:
       amazon: 3
       bitnami: 2
+      cbl-mariner: 3
       redhat: 2
     CVSS:
       bitnami:
@@ -38934,6 +38991,7 @@
     VendorSeverity:
       amazon: 3
       bitnami: 2
+      cbl-mariner: 3
       redhat: 2
     CVSS:
       bitnami:
@@ -40140,6 +40198,7 @@
     VendorSeverity:
       amazon: 3
       bitnami: 2
+      cbl-mariner: 3
       redhat: 2
     CVSS:
       bitnami:
@@ -41516,6 +41575,7 @@
     VendorSeverity:
       amazon: 3
       bitnami: 2
+      cbl-mariner: 3
       redhat: 2
     CVSS:
       bitnami:
@@ -43315,6 +43375,7 @@
     VendorSeverity:
       amazon: 3
       bitnami: 2
+      cbl-mariner: 3
       redhat: 2
     CVSS:
       bitnami:
