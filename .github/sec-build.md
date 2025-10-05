@@ -25513,7 +25513,44 @@
 │                        │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
 │                        │      ├ PublishedDate   : 2023-12-23T13:15:07.573Z 
 │                        │      ╰ LastModifiedDate: 2024-11-22T12:15:17.59Z 
-│                        ├ [46] ╭ VulnerabilityID : CVE-2025-7424 
+│                        ├ [46] ╭ VulnerabilityID : CVE-2025-10911 
+│                        │      ├ PkgID           : libxslt1.1@1.1.34-4ubuntu0.22.04.4 
+│                        │      ├ PkgName         : libxslt1.1 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libxslt1.1@1.1.34-4ubuntu0.22.04.4?ar
+│                        │      │                  │       ch=amd64&distro=ubuntu-22.04 
+│                        │      │                  ╰ UID : 8dfa5de9f91f4365 
+│                        │      ├ InstalledVersion: 1.1.34-4ubuntu0.22.04.4 
+│                        │      ├ Status          : affected 
+│                        │      ├ Layer            ╭ Digest: sha256:8b6b4212dccd76c04c24ceca4447f8444eaeee814ec
+│                        │      │                  │         1389039e82bb0c1aedbc9 
+│                        │      │                  ╰ DiffID: sha256:2a11e253e19c43225efe4bea189a0bfa5c7d4ac2b0b
+│                        │      │                            fce746fe1a57ad6ecb397 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-10911 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : libxslt: use-after-free with key data stored cross-RVT 
+│                        │      ├ Description     : A use-after-free vulnerability was found in libxslt while
+│                        │      │                   parsing xsl nodes that may lead to the dereference of
+│                        │      │                   expired pointers and application crash. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ CweIDs           ─ [0]: CWE-825 
+│                        │      ├ VendorSeverity   ╭ redhat: 2 
+│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:
+│                        │      │                           │           N/A:H 
+│                        │      │                           ╰ V3Score : 5.5 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-10911 
+│                        │      │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2397838 
+│                        │      │                  ├ [2]: https://gitlab.gnome.org/GNOME/libxslt/-/issues/144 
+│                        │      │                  ├ [3]: https://gitlab.gnome.org/GNOME/libxslt/-/merge_reques
+│                        │      │                  │      ts/77 
+│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-10911 
+│                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-10911 
+│                        │      ├ PublishedDate   : 2025-09-25T16:15:31.337Z 
+│                        │      ╰ LastModifiedDate: 2025-09-26T14:32:53.583Z 
+│                        ├ [47] ╭ VulnerabilityID : CVE-2025-7424 
 │                        │      ├ PkgID           : libxslt1.1@1.1.34-4ubuntu0.22.04.4 
 │                        │      ├ PkgName         : libxslt1.1 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libxslt1.1@1.1.34-4ubuntu0.22.04.4?ar
@@ -25556,7 +25593,7 @@
 │                        │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2025-7424 
 │                        │      ├ PublishedDate   : 2025-07-10T14:15:27.573Z 
 │                        │      ╰ LastModifiedDate: 2025-08-27T18:00:52.19Z 
-│                        ├ [47] ╭ VulnerabilityID : CVE-2025-7425 
+│                        ├ [48] ╭ VulnerabilityID : CVE-2025-7425 
 │                        │      ├ PkgID           : libxslt1.1@1.1.34-4ubuntu0.22.04.4 
 │                        │      ├ PkgName         : libxslt1.1 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libxslt1.1@1.1.34-4ubuntu0.22.04.4?ar
@@ -25626,7 +25663,7 @@
 │                        │      │                  ╰ [31]: https://www.cve.org/CVERecord?id=CVE-2025-7425 
 │                        │      ├ PublishedDate   : 2025-07-10T14:15:27.877Z 
 │                        │      ╰ LastModifiedDate: 2025-09-18T10:15:35.227Z 
-│                        ├ [48] ╭ VulnerabilityID : CVE-2022-4899 
+│                        ├ [49] ╭ VulnerabilityID : CVE-2022-4899 
 │                        │      ├ PkgID           : libzstd1@1.4.8+dfsg-3build1 
 │                        │      ├ PkgName         : libzstd1 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libzstd1@1.4.8%2Bdfsg-3build1?arch=am
@@ -25780,7 +25817,7 @@
 │                        │      │                  ╰ [94]: https://www.cve.org/CVERecord?id=CVE-2022-4899 
 │                        │      ├ PublishedDate   : 2023-03-31T20:15:07.213Z 
 │                        │      ╰ LastModifiedDate: 2025-02-18T18:15:14.023Z 
-│                        ├ [49] ╭ VulnerabilityID : CVE-2023-29383 
+│                        ├ [50] ╭ VulnerabilityID : CVE-2023-29383 
 │                        │      ├ PkgID           : login@1:4.8.1-2ubuntu2.2 
 │                        │      ├ PkgName         : login 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/login@4.8.1-2ubuntu2.2?arch=amd64&dis
@@ -25839,7 +25876,7 @@
 │                        │      │                         sources/security-advisories/?fid=31797 
 │                        │      ├ PublishedDate   : 2023-04-14T22:15:07.68Z 
 │                        │      ╰ LastModifiedDate: 2025-02-06T22:15:35.057Z 
-│                        ├ [50] ╭ VulnerabilityID : CVE-2024-56433 
+│                        ├ [51] ╭ VulnerabilityID : CVE-2024-56433 
 │                        │      ├ PkgID           : login@1:4.8.1-2ubuntu2.2 
 │                        │      ├ PkgName         : login 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/login@4.8.1-2ubuntu2.2?arch=amd64&dis
@@ -25887,7 +25924,7 @@
 │                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                        │      ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                        │      ╰ LastModifiedDate: 2024-12-26T09:15:07.267Z 
-│                        ├ [51] ╭ VulnerabilityID : CVE-2023-50495 
+│                        ├ [52] ╭ VulnerabilityID : CVE-2023-50495 
 │                        │      ├ PkgID           : ncurses-base@6.3-2ubuntu0.1 
 │                        │      ├ PkgName         : ncurses-base 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/ncurses-base@6.3-2ubuntu0.1?arch=all&
@@ -25934,7 +25971,7 @@
 │                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-50495 
 │                        │      ├ PublishedDate   : 2023-12-12T15:15:07.867Z 
 │                        │      ╰ LastModifiedDate: 2024-11-21T08:37:04.243Z 
-│                        ├ [52] ╭ VulnerabilityID : CVE-2023-50495 
+│                        ├ [53] ╭ VulnerabilityID : CVE-2023-50495 
 │                        │      ├ PkgID           : ncurses-bin@6.3-2ubuntu0.1 
 │                        │      ├ PkgName         : ncurses-bin 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/ncurses-bin@6.3-2ubuntu0.1?arch=amd64
@@ -25981,7 +26018,7 @@
 │                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-50495 
 │                        │      ├ PublishedDate   : 2023-12-12T15:15:07.867Z 
 │                        │      ╰ LastModifiedDate: 2024-11-21T08:37:04.243Z 
-│                        ├ [53] ╭ VulnerabilityID : CVE-2023-50495 
+│                        ├ [54] ╭ VulnerabilityID : CVE-2023-50495 
 │                        │      ├ PkgID           : ncurses-term@6.3-2ubuntu0.1 
 │                        │      ├ PkgName         : ncurses-term 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/ncurses-term@6.3-2ubuntu0.1?arch=all&
@@ -26028,7 +26065,7 @@
 │                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-50495 
 │                        │      ├ PublishedDate   : 2023-12-12T15:15:07.867Z 
 │                        │      ╰ LastModifiedDate: 2024-11-21T08:37:04.243Z 
-│                        ├ [54] ╭ VulnerabilityID : CVE-2024-41996 
+│                        ├ [55] ╭ VulnerabilityID : CVE-2024-41996 
 │                        │      ├ PkgID           : openssl@3.0.2-0ubuntu1.20 
 │                        │      ├ PkgName         : openssl 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl@3.0.2-0ubuntu1.20?arch=amd64&
@@ -26078,7 +26115,7 @@
 │                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-41996 
 │                        │      ├ PublishedDate   : 2024-08-26T06:15:04.603Z 
 │                        │      ╰ LastModifiedDate: 2024-08-26T16:35:11.247Z 
-│                        ├ [55] ╭ VulnerabilityID : CVE-2023-29383 
+│                        ├ [56] ╭ VulnerabilityID : CVE-2023-29383 
 │                        │      ├ PkgID           : passwd@1:4.8.1-2ubuntu2.2 
 │                        │      ├ PkgName         : passwd 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/passwd@4.8.1-2ubuntu2.2?arch=amd64&di
@@ -26137,7 +26174,7 @@
 │                        │      │                         sources/security-advisories/?fid=31797 
 │                        │      ├ PublishedDate   : 2023-04-14T22:15:07.68Z 
 │                        │      ╰ LastModifiedDate: 2025-02-06T22:15:35.057Z 
-│                        ├ [56] ╭ VulnerabilityID : CVE-2024-56433 
+│                        ├ [57] ╭ VulnerabilityID : CVE-2024-56433 
 │                        │      ├ PkgID           : passwd@1:4.8.1-2ubuntu2.2 
 │                        │      ├ PkgName         : passwd 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/passwd@4.8.1-2ubuntu2.2?arch=amd64&di
@@ -26185,7 +26222,7 @@
 │                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                        │      ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                        │      ╰ LastModifiedDate: 2024-12-26T09:15:07.267Z 
-│                        ├ [57] ╭ VulnerabilityID : CVE-2023-7008 
+│                        ├ [58] ╭ VulnerabilityID : CVE-2023-7008 
 │                        │      ├ PkgID           : systemd@249.11-0ubuntu3.16 
 │                        │      ├ PkgName         : systemd 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/systemd@249.11-0ubuntu3.16?arch=amd64
@@ -26252,7 +26289,7 @@
 │                        │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
 │                        │      ├ PublishedDate   : 2023-12-23T13:15:07.573Z 
 │                        │      ╰ LastModifiedDate: 2024-11-22T12:15:17.59Z 
-│                        ├ [58] ╭ VulnerabilityID : CVE-2023-7008 
+│                        ├ [59] ╭ VulnerabilityID : CVE-2023-7008 
 │                        │      ├ PkgID           : systemd-sysv@249.11-0ubuntu3.16 
 │                        │      ├ PkgName         : systemd-sysv 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/systemd-sysv@249.11-0ubuntu3.16?arch=
@@ -26319,7 +26356,7 @@
 │                        │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
 │                        │      ├ PublishedDate   : 2023-12-23T13:15:07.573Z 
 │                        │      ╰ LastModifiedDate: 2024-11-22T12:15:17.59Z 
-│                        ├ [59] ╭ VulnerabilityID : CVE-2023-7008 
+│                        ├ [60] ╭ VulnerabilityID : CVE-2023-7008 
 │                        │      ├ PkgID           : systemd-timesyncd@249.11-0ubuntu3.16 
 │                        │      ├ PkgName         : systemd-timesyncd 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/systemd-timesyncd@249.11-0ubuntu3.16?
@@ -26386,7 +26423,7 @@
 │                        │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
 │                        │      ├ PublishedDate   : 2023-12-23T13:15:07.573Z 
 │                        │      ╰ LastModifiedDate: 2024-11-22T12:15:17.59Z 
-│                        ├ [60] ╭ VulnerabilityID : CVE-2025-45582 
+│                        ├ [61] ╭ VulnerabilityID : CVE-2025-45582 
 │                        │      ├ PkgID           : tar@1.34+dfsg-1ubuntu0.1.22.04.2 
 │                        │      ├ PkgName         : tar 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/tar@1.34%2Bdfsg-1ubuntu0.1.22.04.2?ar
@@ -26452,7 +26489,7 @@
 │                        │      │                         urity-rules-of-thumb.html 
 │                        │      ├ PublishedDate   : 2025-07-11T17:15:37.183Z 
 │                        │      ╰ LastModifiedDate: 2025-08-18T04:15:36.743Z 
-│                        ├ [61] ╭ VulnerabilityID : CVE-2023-29383 
+│                        ├ [62] ╭ VulnerabilityID : CVE-2023-29383 
 │                        │      ├ PkgID           : uidmap@1:4.8.1-2ubuntu2.2 
 │                        │      ├ PkgName         : uidmap 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/uidmap@4.8.1-2ubuntu2.2?arch=amd64&di
@@ -26511,7 +26548,7 @@
 │                        │      │                         sources/security-advisories/?fid=31797 
 │                        │      ├ PublishedDate   : 2023-04-14T22:15:07.68Z 
 │                        │      ╰ LastModifiedDate: 2025-02-06T22:15:35.057Z 
-│                        ├ [62] ╭ VulnerabilityID : CVE-2024-56433 
+│                        ├ [63] ╭ VulnerabilityID : CVE-2024-56433 
 │                        │      ├ PkgID           : uidmap@1:4.8.1-2ubuntu2.2 
 │                        │      ├ PkgName         : uidmap 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/uidmap@4.8.1-2ubuntu2.2?arch=amd64&di
@@ -26559,7 +26596,7 @@
 │                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                        │      ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                        │      ╰ LastModifiedDate: 2024-12-26T09:15:07.267Z 
-│                        ╰ [63] ╭ VulnerabilityID : CVE-2021-31879 
+│                        ╰ [64] ╭ VulnerabilityID : CVE-2021-31879 
 │                               ├ PkgID           : wget@1.21.2-2ubuntu1.1 
 │                               ├ PkgName         : wget 
 │                               ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/wget@1.21.2-2ubuntu1.1?arch=amd64&dis
@@ -27327,10 +27364,11 @@
 │                        │     │                   fixes the issue. 
 │                        │     ├ Severity        : MEDIUM 
 │                        │     ├ CweIDs           ─ [0]: CWE-674 
-│                        │     ├ VendorSeverity   ╭ amazon: 1 
-│                        │     │                  ├ azure : 2 
-│                        │     │                  ├ ghsa  : 2 
-│                        │     │                  ╰ redhat: 1 
+│                        │     ├ VendorSeverity   ╭ amazon     : 1 
+│                        │     │                  ├ azure      : 2 
+│                        │     │                  ├ cbl-mariner: 2 
+│                        │     │                  ├ ghsa       : 2 
+│                        │     │                  ╰ redhat     : 1 
 │                        │     ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L
 │                        │     │                  │        │           /A:N 
 │                        │     │                  │        ╰ V3Score : 6.5 
@@ -28269,9 +28307,10 @@
 │                              │                   strings to LookPath ("", ".", and ".."), can result in the
 │                              │                   binaries listed in the PATH being unexpectedly returned. 
 │                              ├ Severity        : MEDIUM 
-│                              ├ VendorSeverity   ╭ amazon : 3 
-│                              │                  ├ bitnami: 2 
-│                              │                  ╰ redhat : 2 
+│                              ├ VendorSeverity   ╭ amazon     : 3 
+│                              │                  ├ bitnami    : 2 
+│                              │                  ├ cbl-mariner: 3 
+│                              │                  ╰ redhat     : 2 
 │                              ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:
 │                              │                  │         │           N/A:L 
 │                              │                  │         ╰ V3Score : 6.5 
@@ -29039,9 +29078,10 @@
 │                              │                   strings to LookPath ("", ".", and ".."), can result in the
 │                              │                   binaries listed in the PATH being unexpectedly returned. 
 │                              ├ Severity        : MEDIUM 
-│                              ├ VendorSeverity   ╭ amazon : 3 
-│                              │                  ├ bitnami: 2 
-│                              │                  ╰ redhat : 2 
+│                              ├ VendorSeverity   ╭ amazon     : 3 
+│                              │                  ├ bitnami    : 2 
+│                              │                  ├ cbl-mariner: 3 
+│                              │                  ╰ redhat     : 2 
 │                              ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:
 │                              │                  │         │           N/A:L 
 │                              │                  │         ╰ V3Score : 6.5 
@@ -35922,9 +35962,10 @@
 │                               │                    strings to LookPath ("", ".", and ".."), can result in the
 │                               │                    binaries listed in the PATH being unexpectedly returned. 
 │                               ├ Severity        : MEDIUM 
-│                               ├ VendorSeverity   ╭ amazon : 3 
-│                               │                  ├ bitnami: 2 
-│                               │                  ╰ redhat : 2 
+│                               ├ VendorSeverity   ╭ amazon     : 3 
+│                               │                  ├ bitnami    : 2 
+│                               │                  ├ cbl-mariner: 3 
+│                               │                  ╰ redhat     : 2 
 │                               ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I
 │                               │                  │         │           :N/A:L 
 │                               │                  │         ╰ V3Score : 6.5 
