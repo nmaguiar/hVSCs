@@ -25529,6 +25529,9 @@
     References:
     - https://access.redhat.com/errata/RHSA-2025:16115
     - https://access.redhat.com/errata/RHSA-2025:16116
+    - https://access.redhat.com/errata/RHSA-2025:17348
+    - https://access.redhat.com/errata/RHSA-2025:17361
+    - https://access.redhat.com/errata/RHSA-2025:17415
     - https://access.redhat.com/security/cve/CVE-2025-32988
     - https://bugzilla.redhat.com/2359620
     - https://bugzilla.redhat.com/2359621
@@ -25544,7 +25547,7 @@
     - https://ubuntu.com/security/notices/USN-7742-1
     - https://www.cve.org/CVERecord?id=CVE-2025-32988
     PublishedDate: '2025-07-10T08:15:24.223Z'
-    LastModifiedDate: '2025-09-17T21:15:37.95Z'
+    LastModifiedDate: '2025-10-07T12:15:43.753Z'
   - VulnerabilityID: CVE-2025-32989
     PkgID: libgnutls30@3.7.3-4ubuntu1.6
     PkgName: libgnutls30
@@ -25584,6 +25587,8 @@
     References:
     - https://access.redhat.com/errata/RHSA-2025:16115
     - https://access.redhat.com/errata/RHSA-2025:16116
+    - https://access.redhat.com/errata/RHSA-2025:17348
+    - https://access.redhat.com/errata/RHSA-2025:17361
     - https://access.redhat.com/security/cve/CVE-2025-32989
     - https://bugzilla.redhat.com/2359620
     - https://bugzilla.redhat.com/2359621
@@ -25598,7 +25603,7 @@
     - https://ubuntu.com/security/notices/USN-7635-1
     - https://www.cve.org/CVERecord?id=CVE-2025-32989
     PublishedDate: '2025-07-10T08:15:24.43Z'
-    LastModifiedDate: '2025-09-17T21:15:38.08Z'
+    LastModifiedDate: '2025-10-06T12:15:33.197Z'
   - VulnerabilityID: CVE-2025-32990
     PkgID: libgnutls30@3.7.3-4ubuntu1.6
     PkgName: libgnutls30
@@ -25642,6 +25647,9 @@
     References:
     - https://access.redhat.com/errata/RHSA-2025:16115
     - https://access.redhat.com/errata/RHSA-2025:16116
+    - https://access.redhat.com/errata/RHSA-2025:17348
+    - https://access.redhat.com/errata/RHSA-2025:17361
+    - https://access.redhat.com/errata/RHSA-2025:17415
     - https://access.redhat.com/security/cve/CVE-2025-32990
     - https://bugzilla.redhat.com/2359620
     - https://bugzilla.redhat.com/2359621
@@ -25657,7 +25665,7 @@
     - https://ubuntu.com/security/notices/USN-7742-1
     - https://www.cve.org/CVERecord?id=CVE-2025-32990
     PublishedDate: '2025-07-10T10:15:33.06Z'
-    LastModifiedDate: '2025-09-17T21:15:38.223Z'
+    LastModifiedDate: '2025-10-07T12:15:44.38Z'
   - VulnerabilityID: CVE-2025-6395
     PkgID: libgnutls30@3.7.3-4ubuntu1.6
     PkgName: libgnutls30
@@ -25697,6 +25705,9 @@
     References:
     - https://access.redhat.com/errata/RHSA-2025:16115
     - https://access.redhat.com/errata/RHSA-2025:16116
+    - https://access.redhat.com/errata/RHSA-2025:17348
+    - https://access.redhat.com/errata/RHSA-2025:17361
+    - https://access.redhat.com/errata/RHSA-2025:17415
     - https://access.redhat.com/security/cve/CVE-2025-6395
     - https://bugzilla.redhat.com/2359620
     - https://bugzilla.redhat.com/2359621
@@ -25712,7 +25723,7 @@
     - https://ubuntu.com/security/notices/USN-7742-1
     - https://www.cve.org/CVERecord?id=CVE-2025-6395
     PublishedDate: '2025-07-10T16:15:25.11Z'
-    LastModifiedDate: '2025-09-17T21:15:38.51Z'
+    LastModifiedDate: '2025-10-07T12:15:44.58Z'
   - VulnerabilityID: CVE-2025-3576
     PkgID: libgssapi-krb5-2@1.19.2-2ubuntu0.6
     PkgName: libgssapi-krb5-2
@@ -27364,7 +27375,7 @@
     - CWE-689
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       oracle-oval: 2
@@ -27429,7 +27440,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       redhat: 2
@@ -27542,6 +27553,7 @@
       amazon: 3
       azure: 3
       bitnami: 3
+      cbl-mariner: 3
       oracle-oval: 2
       redhat: 2
       rocky: 2
@@ -27651,7 +27663,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       redhat: 2
@@ -27764,6 +27776,7 @@
       amazon: 3
       azure: 3
       bitnami: 3
+      cbl-mariner: 3
       oracle-oval: 2
       redhat: 2
       rocky: 2
@@ -27873,7 +27886,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       redhat: 2
@@ -27986,6 +27999,7 @@
       amazon: 3
       azure: 3
       bitnami: 3
+      cbl-mariner: 3
       oracle-oval: 2
       redhat: 2
       rocky: 2
@@ -28734,6 +28748,7 @@
     - CWE-123
     VendorSeverity:
       azure: 3
+      cbl-mariner: 3
       redhat: 3
       ubuntu: 3
     CVSS:
@@ -30787,7 +30802,7 @@
     - CWE-689
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       oracle-oval: 2
@@ -30909,7 +30924,7 @@
     - CWE-689
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       oracle-oval: 2
@@ -31031,7 +31046,7 @@
     - CWE-689
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       oracle-oval: 2
@@ -31096,7 +31111,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       redhat: 2
@@ -31209,6 +31224,7 @@
       amazon: 3
       azure: 3
       bitnami: 3
+      cbl-mariner: 3
       oracle-oval: 2
       redhat: 2
       rocky: 2
@@ -31318,7 +31334,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       redhat: 2
@@ -31431,6 +31447,7 @@
       amazon: 3
       azure: 3
       bitnami: 3
+      cbl-mariner: 3
       oracle-oval: 2
       redhat: 2
       rocky: 2
