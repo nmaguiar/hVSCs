@@ -24632,6 +24632,7 @@
 │                        │      │                  ├ oracle-oval: 2 
 │                        │      │                  ├ photon     : 3 
 │                        │      │                  ├ redhat     : 2 
+│                        │      │                  ├ rocky      : 2 
 │                        │      │                  ╰ ubuntu     : 1 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:
 │                        │      │                           │           H/A:H 
@@ -24644,13 +24645,16 @@
 │                        │      │                  ├ [5] : https://access.redhat.com/security/cve/CVE-2025-5222 
 │                        │      │                  ├ [6] : https://bugzilla.redhat.com/2368600 
 │                        │      │                  ├ [7] : https://bugzilla.redhat.com/show_bug.cgi?id=2368600 
-│                        │      │                  ├ [8] : https://errata.almalinux.org/9/ALSA-2025-12083.html 
-│                        │      │                  ├ [9] : https://linux.oracle.com/cve/CVE-2025-5222.html 
-│                        │      │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2025-12083.html 
-│                        │      │                  ├ [11]: https://lists.debian.org/debian-lts-announce/2025/06
+│                        │      │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                        │      │                  │       025-5222 
+│                        │      │                  ├ [9] : https://errata.almalinux.org/9/ALSA-2025-12083.html 
+│                        │      │                  ├ [10]: https://errata.rockylinux.org/RLSA-2025:11888 
+│                        │      │                  ├ [11]: https://linux.oracle.com/cve/CVE-2025-5222.html 
+│                        │      │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2025-12083.html 
+│                        │      │                  ├ [13]: https://lists.debian.org/debian-lts-announce/2025/06
 │                        │      │                  │       /msg00015.html 
-│                        │      │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2025-5222 
-│                        │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2025-5222 
+│                        │      │                  ├ [14]: https://nvd.nist.gov/vuln/detail/CVE-2025-5222 
+│                        │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2025-5222 
 │                        │      ├ PublishedDate   : 2025-05-27T21:15:23.03Z 
 │                        │      ╰ LastModifiedDate: 2025-08-08T14:55:36.747Z 
 │                        ├ [31] ╭ VulnerabilityID : CVE-2023-50495 
@@ -28262,6 +28266,7 @@
 │                        │     │                  ├ cbl-mariner: 2 
 │                        │     │                  ├ oracle-oval: 2 
 │                        │     │                  ├ redhat     : 2 
+│                        │     │                  ├ rocky      : 2 
 │                        │     │                  ╰ ubuntu     : 2 
 │                        │     ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:
 │                        │     │                  │         │           N/A:N 
@@ -28272,17 +28277,21 @@
 │                        │     ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:15887 
 │                        │     │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-4673 
 │                        │     │                  ├ [2] : https://bugzilla.redhat.com/2373305 
-│                        │     │                  ├ [3] : https://errata.almalinux.org/9/ALSA-2025-15887.html 
-│                        │     │                  ├ [4] : https://go.dev/cl/679257 
-│                        │     │                  ├ [5] : https://go.dev/issue/73816 
-│                        │     │                  ├ [6] : https://groups.google.com/g/golang-announce/c/ufZ8WpE
+│                        │     │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2373305 
+│                        │     │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                        │     │                  │       25-4673 
+│                        │     │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2025-15887.html 
+│                        │     │                  ├ [6] : https://errata.rockylinux.org/RLSA-2025:16432 
+│                        │     │                  ├ [7] : https://go.dev/cl/679257 
+│                        │     │                  ├ [8] : https://go.dev/issue/73816 
+│                        │     │                  ├ [9] : https://groups.google.com/g/golang-announce/c/ufZ8WpE
 │                        │     │                  │       sA3A 
-│                        │     │                  ├ [7] : https://linux.oracle.com/cve/CVE-2025-4673.html 
-│                        │     │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2025-10677.html 
-│                        │     │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2025-4673 
-│                        │     │                  ├ [10]: https://pkg.go.dev/vuln/GO-2025-3751 
-│                        │     │                  ├ [11]: https://ubuntu.com/security/notices/USN-7574-1 
-│                        │     │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2025-4673 
+│                        │     │                  ├ [10]: https://linux.oracle.com/cve/CVE-2025-4673.html 
+│                        │     │                  ├ [11]: https://linux.oracle.com/errata/ELSA-2025-10677.html 
+│                        │     │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2025-4673 
+│                        │     │                  ├ [13]: https://pkg.go.dev/vuln/GO-2025-3751 
+│                        │     │                  ├ [14]: https://ubuntu.com/security/notices/USN-7574-1 
+│                        │     │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2025-4673 
 │                        │     ├ PublishedDate   : 2025-06-11T17:15:42.993Z 
 │                        │     ╰ LastModifiedDate: 2025-06-12T16:06:20.18Z 
 │                        ╰ [8] ╭ VulnerabilityID : CVE-2025-47906 
@@ -28309,7 +28318,7 @@
 │                              ├ Severity        : MEDIUM 
 │                              ├ VendorSeverity   ╭ amazon     : 3 
 │                              │                  ├ bitnami    : 2 
-│                              │                  ├ cbl-mariner: 3 
+│                              │                  ├ cbl-mariner: 2 
 │                              │                  ╰ redhat     : 2 
 │                              ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:
 │                              │                  │         │           N/A:L 
@@ -29033,6 +29042,7 @@
 │                        │     │                  ├ cbl-mariner: 2 
 │                        │     │                  ├ oracle-oval: 2 
 │                        │     │                  ├ redhat     : 2 
+│                        │     │                  ├ rocky      : 2 
 │                        │     │                  ╰ ubuntu     : 2 
 │                        │     ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:
 │                        │     │                  │         │           N/A:N 
@@ -29043,17 +29053,21 @@
 │                        │     ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:15887 
 │                        │     │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-4673 
 │                        │     │                  ├ [2] : https://bugzilla.redhat.com/2373305 
-│                        │     │                  ├ [3] : https://errata.almalinux.org/9/ALSA-2025-15887.html 
-│                        │     │                  ├ [4] : https://go.dev/cl/679257 
-│                        │     │                  ├ [5] : https://go.dev/issue/73816 
-│                        │     │                  ├ [6] : https://groups.google.com/g/golang-announce/c/ufZ8WpE
+│                        │     │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2373305 
+│                        │     │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                        │     │                  │       25-4673 
+│                        │     │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2025-15887.html 
+│                        │     │                  ├ [6] : https://errata.rockylinux.org/RLSA-2025:16432 
+│                        │     │                  ├ [7] : https://go.dev/cl/679257 
+│                        │     │                  ├ [8] : https://go.dev/issue/73816 
+│                        │     │                  ├ [9] : https://groups.google.com/g/golang-announce/c/ufZ8WpE
 │                        │     │                  │       sA3A 
-│                        │     │                  ├ [7] : https://linux.oracle.com/cve/CVE-2025-4673.html 
-│                        │     │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2025-10677.html 
-│                        │     │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2025-4673 
-│                        │     │                  ├ [10]: https://pkg.go.dev/vuln/GO-2025-3751 
-│                        │     │                  ├ [11]: https://ubuntu.com/security/notices/USN-7574-1 
-│                        │     │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2025-4673 
+│                        │     │                  ├ [10]: https://linux.oracle.com/cve/CVE-2025-4673.html 
+│                        │     │                  ├ [11]: https://linux.oracle.com/errata/ELSA-2025-10677.html 
+│                        │     │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2025-4673 
+│                        │     │                  ├ [13]: https://pkg.go.dev/vuln/GO-2025-3751 
+│                        │     │                  ├ [14]: https://ubuntu.com/security/notices/USN-7574-1 
+│                        │     │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2025-4673 
 │                        │     ├ PublishedDate   : 2025-06-11T17:15:42.993Z 
 │                        │     ╰ LastModifiedDate: 2025-06-12T16:06:20.18Z 
 │                        ╰ [8] ╭ VulnerabilityID : CVE-2025-47906 
@@ -29080,7 +29094,7 @@
 │                              ├ Severity        : MEDIUM 
 │                              ├ VendorSeverity   ╭ amazon     : 3 
 │                              │                  ├ bitnami    : 2 
-│                              │                  ├ cbl-mariner: 3 
+│                              │                  ├ cbl-mariner: 2 
 │                              │                  ╰ redhat     : 2 
 │                              ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:
 │                              │                  │         │           N/A:L 
@@ -35521,7 +35535,8 @@
 │                        │      │                  ├ cbl-mariner: 3 
 │                        │      │                  ├ ghsa       : 3 
 │                        │      │                  ├ oracle-oval: 3 
-│                        │      │                  ╰ redhat     : 3 
+│                        │      │                  ├ redhat     : 3 
+│                        │      │                  ╰ rocky      : 3 
 │                        │      ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
 │                        │      │                  │        │           N/A:H 
 │                        │      │                  │        ╰ V3Score : 7.5 
@@ -35531,22 +35546,26 @@
 │                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:3833 
 │                        │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-22869 
 │                        │      │                  ├ [2] : https://bugzilla.redhat.com/2348367 
-│                        │      │                  ├ [3] : https://errata.almalinux.org/9/ALSA-2025-3833.html 
-│                        │      │                  ├ [4] : https://github.com/golang/crypto 
-│                        │      │                  ├ [5] : https://github.com/golang/crypto/commit/7292932d45d5
+│                        │      │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2348367 
+│                        │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                        │      │                  │       025-22869 
+│                        │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2025-3833.html 
+│                        │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2025:7484 
+│                        │      │                  ├ [7] : https://github.com/golang/crypto 
+│                        │      │                  ├ [8] : https://github.com/golang/crypto/commit/7292932d45d5
 │                        │      │                  │       5c7199324ab0027cc86e8198aa22 
-│                        │      │                  ├ [6] : https://go-review.googlesource.com/c/crypto/+/652135 
-│                        │      │                  ├ [7] : https://go.dev/cl/652135 
-│                        │      │                  ├ [8] : https://go.dev/issue/71931 
-│                        │      │                  ├ [9] : https://linux.oracle.com/cve/CVE-2025-22869.html 
-│                        │      │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2025-7484.html 
-│                        │      │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2025-22869 
-│                        │      │                  ├ [12]: https://pkg.go.dev/vuln/GO-2025-3487 
-│                        │      │                  ├ [13]: https://security.netapp.com/advisory/ntap-20250411-0
+│                        │      │                  ├ [9] : https://go-review.googlesource.com/c/crypto/+/652135 
+│                        │      │                  ├ [10]: https://go.dev/cl/652135 
+│                        │      │                  ├ [11]: https://go.dev/issue/71931 
+│                        │      │                  ├ [12]: https://linux.oracle.com/cve/CVE-2025-22869.html 
+│                        │      │                  ├ [13]: https://linux.oracle.com/errata/ELSA-2025-7484.html 
+│                        │      │                  ├ [14]: https://nvd.nist.gov/vuln/detail/CVE-2025-22869 
+│                        │      │                  ├ [15]: https://pkg.go.dev/vuln/GO-2025-3487 
+│                        │      │                  ├ [16]: https://security.netapp.com/advisory/ntap-20250411-0
 │                        │      │                  │       010 
-│                        │      │                  ├ [14]: https://security.netapp.com/advisory/ntap-20250411-0
+│                        │      │                  ├ [17]: https://security.netapp.com/advisory/ntap-20250411-0
 │                        │      │                  │       010/ 
-│                        │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2025-22869 
+│                        │      │                  ╰ [18]: https://www.cve.org/CVERecord?id=CVE-2025-22869 
 │                        │      ├ PublishedDate   : 2025-02-26T08:14:24.997Z 
 │                        │      ╰ LastModifiedDate: 2025-05-01T19:28:20.74Z 
 │                        ├ [5]  ╭ VulnerabilityID : CVE-2025-22870 
@@ -35686,19 +35705,33 @@
 │                        │      │                  ├ azure      : 3 
 │                        │      │                  ├ cbl-mariner: 3 
 │                        │      │                  ├ ghsa       : 3 
-│                        │      │                  ╰ redhat     : 3 
+│                        │      │                  ├ redhat     : 3 
+│                        │      │                  ╰ rocky      : 3 
 │                        │      ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
 │                        │      │                  │        │           N/A:H 
 │                        │      │                  │        ╰ V3Score : 7.5 
 │                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
 │                        │      │                           │           N/A:H 
 │                        │      │                           ╰ V3Score : 7.5 
-│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-22868 
-│                        │      │                  ├ [1]: https://go.dev/cl/652155 
-│                        │      │                  ├ [2]: https://go.dev/issue/71490 
-│                        │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-22868 
-│                        │      │                  ├ [4]: https://pkg.go.dev/vuln/GO-2025-3488 
-│                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-22868 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2025-22868 
+│                        │      │                  ├ [1] : https://bugzilla.redhat.com/show_bug.cgi?id=2347423 
+│                        │      │                  ├ [2] : https://bugzilla.redhat.com/show_bug.cgi?id=2348366 
+│                        │      │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2352914 
+│                        │      │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2354195 
+│                        │      │                  ├ [5] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                        │      │                  │       025-22868 
+│                        │      │                  ├ [6] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                        │      │                  │       025-27144 
+│                        │      │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                        │      │                  │       025-29786 
+│                        │      │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                        │      │                  │       025-30204 
+│                        │      │                  ├ [9] : https://errata.rockylinux.org/RLSA-2025:7479 
+│                        │      │                  ├ [10]: https://go.dev/cl/652155 
+│                        │      │                  ├ [11]: https://go.dev/issue/71490 
+│                        │      │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2025-22868 
+│                        │      │                  ├ [13]: https://pkg.go.dev/vuln/GO-2025-3488 
+│                        │      │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2025-22868 
 │                        │      ├ PublishedDate   : 2025-02-26T08:14:24.897Z 
 │                        │      ╰ LastModifiedDate: 2025-05-01T19:27:10.43Z 
 │                        ├ [8]  ╭ VulnerabilityID : GHSA-xr7q-jx4m-x55m 
@@ -35917,6 +35950,7 @@
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ oracle-oval: 2 
 │                        │      │                  ├ redhat     : 2 
+│                        │      │                  ├ rocky      : 2 
 │                        │      │                  ╰ ubuntu     : 2 
 │                        │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I
 │                        │      │                  │         │           :N/A:N 
@@ -35927,17 +35961,21 @@
 │                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:15887 
 │                        │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-4673 
 │                        │      │                  ├ [2] : https://bugzilla.redhat.com/2373305 
-│                        │      │                  ├ [3] : https://errata.almalinux.org/9/ALSA-2025-15887.html 
-│                        │      │                  ├ [4] : https://go.dev/cl/679257 
-│                        │      │                  ├ [5] : https://go.dev/issue/73816 
-│                        │      │                  ├ [6] : https://groups.google.com/g/golang-announce/c/ufZ8Wp
+│                        │      │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2373305 
+│                        │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                        │      │                  │       025-4673 
+│                        │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2025-15887.html 
+│                        │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2025:16432 
+│                        │      │                  ├ [7] : https://go.dev/cl/679257 
+│                        │      │                  ├ [8] : https://go.dev/issue/73816 
+│                        │      │                  ├ [9] : https://groups.google.com/g/golang-announce/c/ufZ8Wp
 │                        │      │                  │       EsA3A 
-│                        │      │                  ├ [7] : https://linux.oracle.com/cve/CVE-2025-4673.html 
-│                        │      │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2025-10677.html 
-│                        │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2025-4673 
-│                        │      │                  ├ [10]: https://pkg.go.dev/vuln/GO-2025-3751 
-│                        │      │                  ├ [11]: https://ubuntu.com/security/notices/USN-7574-1 
-│                        │      │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2025-4673 
+│                        │      │                  ├ [10]: https://linux.oracle.com/cve/CVE-2025-4673.html 
+│                        │      │                  ├ [11]: https://linux.oracle.com/errata/ELSA-2025-10677.html 
+│                        │      │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2025-4673 
+│                        │      │                  ├ [13]: https://pkg.go.dev/vuln/GO-2025-3751 
+│                        │      │                  ├ [14]: https://ubuntu.com/security/notices/USN-7574-1 
+│                        │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2025-4673 
 │                        │      ├ PublishedDate   : 2025-06-11T17:15:42.993Z 
 │                        │      ╰ LastModifiedDate: 2025-06-12T16:06:20.18Z 
 │                        ╰ [13] ╭ VulnerabilityID : CVE-2025-47906 
@@ -35964,7 +36002,7 @@
 │                               ├ Severity        : MEDIUM 
 │                               ├ VendorSeverity   ╭ amazon     : 3 
 │                               │                  ├ bitnami    : 2 
-│                               │                  ├ cbl-mariner: 3 
+│                               │                  ├ cbl-mariner: 2 
 │                               │                  ╰ redhat     : 2 
 │                               ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I
 │                               │                  │         │           :N/A:L 
