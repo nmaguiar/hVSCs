@@ -23591,6 +23591,7 @@
       oracle-oval: 2
       photon: 3
       redhat: 2
+      rocky: 2
       ubuntu: 1
     CVSS:
       redhat:
@@ -23605,7 +23606,9 @@
     - https://access.redhat.com/security/cve/CVE-2025-5222
     - https://bugzilla.redhat.com/2368600
     - https://bugzilla.redhat.com/show_bug.cgi?id=2368600
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-5222
     - https://errata.almalinux.org/9/ALSA-2025-12083.html
+    - https://errata.rockylinux.org/RLSA-2025:11888
     - https://linux.oracle.com/cve/CVE-2025-5222.html
     - https://linux.oracle.com/errata/ELSA-2025-12083.html
     - https://lists.debian.org/debian-lts-announce/2025/06/msg00015.html
@@ -25590,6 +25593,7 @@
       cbl-mariner: 2
       oracle-oval: 2
       redhat: 2
+      rocky: 2
       ubuntu: 2
     CVSS:
       bitnami:
@@ -25602,7 +25606,10 @@
     - https://access.redhat.com/errata/RHSA-2025:15887
     - https://access.redhat.com/security/cve/CVE-2025-4673
     - https://bugzilla.redhat.com/2373305
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2373305
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-4673
     - https://errata.almalinux.org/9/ALSA-2025-15887.html
+    - https://errata.rockylinux.org/RLSA-2025:16432
     - https://go.dev/cl/679257
     - https://go.dev/issue/73816
     - https://groups.google.com/g/golang-announce/c/ufZ8WpEsA3A
@@ -25637,7 +25644,7 @@
     VendorSeverity:
       amazon: 3
       bitnami: 2
-      cbl-mariner: 3
+      cbl-mariner: 2
       redhat: 2
     CVSS:
       bitnami:
@@ -26317,6 +26324,7 @@
       cbl-mariner: 2
       oracle-oval: 2
       redhat: 2
+      rocky: 2
       ubuntu: 2
     CVSS:
       bitnami:
@@ -26329,7 +26337,10 @@
     - https://access.redhat.com/errata/RHSA-2025:15887
     - https://access.redhat.com/security/cve/CVE-2025-4673
     - https://bugzilla.redhat.com/2373305
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2373305
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-4673
     - https://errata.almalinux.org/9/ALSA-2025-15887.html
+    - https://errata.rockylinux.org/RLSA-2025:16432
     - https://go.dev/cl/679257
     - https://go.dev/issue/73816
     - https://groups.google.com/g/golang-announce/c/ufZ8WpEsA3A
@@ -26364,7 +26375,7 @@
     VendorSeverity:
       amazon: 3
       bitnami: 2
-      cbl-mariner: 3
+      cbl-mariner: 2
       redhat: 2
     CVSS:
       bitnami:
@@ -32555,6 +32566,7 @@
       ghsa: 3
       oracle-oval: 3
       redhat: 3
+      rocky: 3
     CVSS:
       ghsa:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
@@ -32566,7 +32578,10 @@
     - https://access.redhat.com/errata/RHSA-2025:3833
     - https://access.redhat.com/security/cve/CVE-2025-22869
     - https://bugzilla.redhat.com/2348367
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2348367
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-22869
     - https://errata.almalinux.org/9/ALSA-2025-3833.html
+    - https://errata.rockylinux.org/RLSA-2025:7484
     - https://github.com/golang/crypto
     - https://github.com/golang/crypto/commit/7292932d45d55c7199324ab0027cc86e8198aa22
     - https://go-review.googlesource.com/c/crypto/+/652135
@@ -32707,6 +32722,7 @@
       cbl-mariner: 3
       ghsa: 3
       redhat: 3
+      rocky: 3
     CVSS:
       ghsa:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
@@ -32716,6 +32732,15 @@
         V3Score: 7.5
     References:
     - https://access.redhat.com/security/cve/CVE-2025-22868
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2347423
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2348366
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2352914
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2354195
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-22868
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-27144
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-29786
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-30204
+    - https://errata.rockylinux.org/RLSA-2025:7479
     - https://go.dev/cl/652155
     - https://go.dev/issue/71490
     - https://nvd.nist.gov/vuln/detail/CVE-2025-22868
@@ -32921,6 +32946,7 @@
       cbl-mariner: 2
       oracle-oval: 2
       redhat: 2
+      rocky: 2
       ubuntu: 2
     CVSS:
       bitnami:
@@ -32933,7 +32959,10 @@
     - https://access.redhat.com/errata/RHSA-2025:15887
     - https://access.redhat.com/security/cve/CVE-2025-4673
     - https://bugzilla.redhat.com/2373305
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2373305
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-4673
     - https://errata.almalinux.org/9/ALSA-2025-15887.html
+    - https://errata.rockylinux.org/RLSA-2025:16432
     - https://go.dev/cl/679257
     - https://go.dev/issue/73816
     - https://groups.google.com/g/golang-announce/c/ufZ8WpEsA3A
@@ -32968,7 +32997,7 @@
     VendorSeverity:
       amazon: 3
       bitnami: 2
-      cbl-mariner: 3
+      cbl-mariner: 2
       redhat: 2
     CVSS:
       bitnami:
