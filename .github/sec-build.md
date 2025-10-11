@@ -25583,6 +25583,7 @@
 │                        │      ├ CweIDs           ─ [0]: CWE-843 
 │                        │      ├ VendorSeverity   ╭ amazon: 3 
 │                        │      │                  ├ nvd   : 3 
+│                        │      │                  ├ photon: 3 
 │                        │      │                  ├ redhat: 3 
 │                        │      │                  ╰ ubuntu: 2 
 │                        │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
@@ -25628,6 +25629,7 @@
 │                        │      ├ VendorSeverity   ╭ alma       : 3 
 │                        │      │                  ├ amazon     : 3 
 │                        │      │                  ├ oracle-oval: 3 
+│                        │      │                  ├ photon     : 4 
 │                        │      │                  ├ redhat     : 3 
 │                        │      │                  ╰ ubuntu     : 2 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:N/I:
