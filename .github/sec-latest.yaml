@@ -22491,9 +22491,13 @@
     - CWE-754
     VendorSeverity:
       amazon: 1
+      nvd: 2
       redhat: 1
       ubuntu: 2
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 4.7
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:C/C:N/I:N/A:L
         V3Score: 2.7
@@ -22506,7 +22510,7 @@
     - https://ubuntu.com/security/notices/USN-7412-1
     - https://www.cve.org/CVERecord?id=CVE-2025-30258
     PublishedDate: '2025-03-19T20:15:20.14Z'
-    LastModifiedDate: '2025-03-19T20:15:20.14Z'
+    LastModifiedDate: '2025-10-10T14:29:32.06Z'
   - VulnerabilityID: CVE-2022-3219
     PkgID: dirmngr@2.2.27-3ubuntu2.1
     PkgName: dirmngr
@@ -23378,9 +23382,13 @@
     - CWE-754
     VendorSeverity:
       amazon: 1
+      nvd: 2
       redhat: 1
       ubuntu: 2
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 4.7
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:C/C:N/I:N/A:L
         V3Score: 2.7
@@ -23393,7 +23401,7 @@
     - https://ubuntu.com/security/notices/USN-7412-1
     - https://www.cve.org/CVERecord?id=CVE-2025-30258
     PublishedDate: '2025-03-19T20:15:20.14Z'
-    LastModifiedDate: '2025-03-19T20:15:20.14Z'
+    LastModifiedDate: '2025-10-10T14:29:32.06Z'
   - VulnerabilityID: CVE-2022-3219
     PkgID: gnupg@2.2.27-3ubuntu2.1
     PkgName: gnupg
@@ -23463,9 +23471,13 @@
     - CWE-754
     VendorSeverity:
       amazon: 1
+      nvd: 2
       redhat: 1
       ubuntu: 2
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 4.7
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:C/C:N/I:N/A:L
         V3Score: 2.7
@@ -23478,7 +23490,7 @@
     - https://ubuntu.com/security/notices/USN-7412-1
     - https://www.cve.org/CVERecord?id=CVE-2025-30258
     PublishedDate: '2025-03-19T20:15:20.14Z'
-    LastModifiedDate: '2025-03-19T20:15:20.14Z'
+    LastModifiedDate: '2025-10-10T14:29:32.06Z'
   - VulnerabilityID: CVE-2022-3219
     PkgID: gnupg-l10n@2.2.27-3ubuntu2.1
     PkgName: gnupg-l10n
@@ -23548,9 +23560,13 @@
     - CWE-754
     VendorSeverity:
       amazon: 1
+      nvd: 2
       redhat: 1
       ubuntu: 2
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 4.7
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:C/C:N/I:N/A:L
         V3Score: 2.7
@@ -23563,7 +23579,7 @@
     - https://ubuntu.com/security/notices/USN-7412-1
     - https://www.cve.org/CVERecord?id=CVE-2025-30258
     PublishedDate: '2025-03-19T20:15:20.14Z'
-    LastModifiedDate: '2025-03-19T20:15:20.14Z'
+    LastModifiedDate: '2025-10-10T14:29:32.06Z'
   - VulnerabilityID: CVE-2022-3219
     PkgID: gnupg-utils@2.2.27-3ubuntu2.1
     PkgName: gnupg-utils
@@ -23633,9 +23649,13 @@
     - CWE-754
     VendorSeverity:
       amazon: 1
+      nvd: 2
       redhat: 1
       ubuntu: 2
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 4.7
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:C/C:N/I:N/A:L
         V3Score: 2.7
@@ -23648,7 +23668,7 @@
     - https://ubuntu.com/security/notices/USN-7412-1
     - https://www.cve.org/CVERecord?id=CVE-2025-30258
     PublishedDate: '2025-03-19T20:15:20.14Z'
-    LastModifiedDate: '2025-03-19T20:15:20.14Z'
+    LastModifiedDate: '2025-10-10T14:29:32.06Z'
   - VulnerabilityID: CVE-2022-3219
     PkgID: gpg@2.2.27-3ubuntu2.1
     PkgName: gpg
@@ -23718,9 +23738,13 @@
     - CWE-754
     VendorSeverity:
       amazon: 1
+      nvd: 2
       redhat: 1
       ubuntu: 2
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 4.7
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:C/C:N/I:N/A:L
         V3Score: 2.7
@@ -23733,7 +23757,7 @@
     - https://ubuntu.com/security/notices/USN-7412-1
     - https://www.cve.org/CVERecord?id=CVE-2025-30258
     PublishedDate: '2025-03-19T20:15:20.14Z'
-    LastModifiedDate: '2025-03-19T20:15:20.14Z'
+    LastModifiedDate: '2025-10-10T14:29:32.06Z'
   - VulnerabilityID: CVE-2022-3219
     PkgID: gpg-agent@2.2.27-3ubuntu2.1
     PkgName: gpg-agent
@@ -23803,9 +23827,13 @@
     - CWE-754
     VendorSeverity:
       amazon: 1
+      nvd: 2
       redhat: 1
       ubuntu: 2
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 4.7
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:C/C:N/I:N/A:L
         V3Score: 2.7
@@ -23818,7 +23846,7 @@
     - https://ubuntu.com/security/notices/USN-7412-1
     - https://www.cve.org/CVERecord?id=CVE-2025-30258
     PublishedDate: '2025-03-19T20:15:20.14Z'
-    LastModifiedDate: '2025-03-19T20:15:20.14Z'
+    LastModifiedDate: '2025-10-10T14:29:32.06Z'
   - VulnerabilityID: CVE-2022-3219
     PkgID: gpg-wks-client@2.2.27-3ubuntu2.1
     PkgName: gpg-wks-client
@@ -23888,9 +23916,13 @@
     - CWE-754
     VendorSeverity:
       amazon: 1
+      nvd: 2
       redhat: 1
       ubuntu: 2
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 4.7
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:C/C:N/I:N/A:L
         V3Score: 2.7
@@ -23903,7 +23935,7 @@
     - https://ubuntu.com/security/notices/USN-7412-1
     - https://www.cve.org/CVERecord?id=CVE-2025-30258
     PublishedDate: '2025-03-19T20:15:20.14Z'
-    LastModifiedDate: '2025-03-19T20:15:20.14Z'
+    LastModifiedDate: '2025-10-10T14:29:32.06Z'
   - VulnerabilityID: CVE-2022-3219
     PkgID: gpg-wks-server@2.2.27-3ubuntu2.1
     PkgName: gpg-wks-server
@@ -23973,9 +24005,13 @@
     - CWE-754
     VendorSeverity:
       amazon: 1
+      nvd: 2
       redhat: 1
       ubuntu: 2
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 4.7
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:C/C:N/I:N/A:L
         V3Score: 2.7
@@ -23988,7 +24024,7 @@
     - https://ubuntu.com/security/notices/USN-7412-1
     - https://www.cve.org/CVERecord?id=CVE-2025-30258
     PublishedDate: '2025-03-19T20:15:20.14Z'
-    LastModifiedDate: '2025-03-19T20:15:20.14Z'
+    LastModifiedDate: '2025-10-10T14:29:32.06Z'
   - VulnerabilityID: CVE-2022-3219
     PkgID: gpgconf@2.2.27-3ubuntu2.1
     PkgName: gpgconf
@@ -24058,9 +24094,13 @@
     - CWE-754
     VendorSeverity:
       amazon: 1
+      nvd: 2
       redhat: 1
       ubuntu: 2
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 4.7
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:C/C:N/I:N/A:L
         V3Score: 2.7
@@ -24073,7 +24113,7 @@
     - https://ubuntu.com/security/notices/USN-7412-1
     - https://www.cve.org/CVERecord?id=CVE-2025-30258
     PublishedDate: '2025-03-19T20:15:20.14Z'
-    LastModifiedDate: '2025-03-19T20:15:20.14Z'
+    LastModifiedDate: '2025-10-10T14:29:32.06Z'
   - VulnerabilityID: CVE-2022-3219
     PkgID: gpgsm@2.2.27-3ubuntu2.1
     PkgName: gpgsm
@@ -24143,9 +24183,13 @@
     - CWE-754
     VendorSeverity:
       amazon: 1
+      nvd: 2
       redhat: 1
       ubuntu: 2
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 4.7
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:C/C:N/I:N/A:L
         V3Score: 2.7
@@ -24158,7 +24202,7 @@
     - https://ubuntu.com/security/notices/USN-7412-1
     - https://www.cve.org/CVERecord?id=CVE-2025-30258
     PublishedDate: '2025-03-19T20:15:20.14Z'
-    LastModifiedDate: '2025-03-19T20:15:20.14Z'
+    LastModifiedDate: '2025-10-10T14:29:32.06Z'
   - VulnerabilityID: CVE-2022-3219
     PkgID: gpgv@2.2.27-3ubuntu2.1
     PkgName: gpgv
@@ -28799,6 +28843,7 @@
     VendorSeverity:
       azure: 3
       cbl-mariner: 3
+      oracle-oval: 3
       redhat: 3
       ubuntu: 3
     CVSS:
@@ -28808,17 +28853,20 @@
     References:
     - https://access.redhat.com/errata/RHSA-2025:17651
     - https://access.redhat.com/errata/RHSA-2025:17675
+    - https://access.redhat.com/errata/RHSA-2025:17710
     - https://access.redhat.com/security/cve/CVE-2025-9900
     - https://bugzilla.redhat.com/show_bug.cgi?id=2392784
     - https://github.com/SexyShoelessGodofWar/LibTiff-4.7.0-Write-What-Where?tab=readme-ov-file
     - https://gitlab.com/libtiff/libtiff/-/commit/3e0dcf0ec651638b2bd849b2e6f3124b36890d99 (v4.7.1rc1)
     - https://gitlab.com/libtiff/libtiff/-/issues/704
     - https://gitlab.com/libtiff/libtiff/-/merge_requests/732
+    - https://linux.oracle.com/cve/CVE-2025-9900.html
+    - https://linux.oracle.com/errata/ELSA-2025-17675.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-9900
     - https://ubuntu.com/security/notices/USN-7783-1
     - https://www.cve.org/CVERecord?id=CVE-2025-9900
     PublishedDate: '2025-09-23T17:15:38.357Z'
-    LastModifiedDate: '2025-10-09T12:15:36.007Z'
+    LastModifiedDate: '2025-10-09T23:15:33.057Z'
   - VulnerabilityID: CVE-2025-8534
     PkgID: libtiff5@4.3.0-6ubuntu0.10
     PkgName: libtiff5
@@ -28944,15 +28992,15 @@
       cbl-mariner: 1
       nvd: 3
       photon: 3
-      redhat: 2
+      redhat: 3
       ubuntu: 1
     CVSS:
       nvd:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
         V3Score: 7.8
       redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L
-        V3Score: 5.3
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 7.8
     References:
     - http://www.libtiff.org/
     - https://access.redhat.com/security/cve/CVE-2025-8176
@@ -29793,6 +29841,7 @@
     VendorSeverity:
       amazon: 3
       nvd: 3
+      photon: 3
       redhat: 3
       ubuntu: 2
     CVSS:
@@ -29835,6 +29884,7 @@
       alma: 3
       amazon: 3
       oracle-oval: 3
+      photon: 4
       redhat: 3
       ubuntu: 2
     CVSS:
