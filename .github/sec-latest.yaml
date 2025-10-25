@@ -22206,6 +22206,366 @@
     - /usr/share/doc/zlib1g/changelog.Debian.gz
     - /usr/share/doc/zlib1g/copyright
   Vulnerabilities:
+  - VulnerabilityID: CVE-2025-40778
+    PkgID: bind9-dnsutils@1:9.18.30-0ubuntu0.22.04.2
+    PkgName: bind9-dnsutils
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/bind9-dnsutils@9.18.30-0ubuntu0.22.04.2?arch=amd64&distro=ubuntu-22.04&epoch=1
+      UID: 32c97b1067feac0d
+    InstalledVersion: 1:9.18.30-0ubuntu0.22.04.2
+    FixedVersion: 1:9.18.39-0ubuntu0.22.04.2
+    Status: fixed
+    Layer:
+      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
+      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-40778
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'bind: Cache poisoning attacks with unsolicited RRs'
+    Description: |-
+      Under certain circumstances, BIND is too lenient when accepting records from answers, allowing an attacker to inject forged data into the cache.
+      This issue affects BIND 9 versions 9.11.0 through 9.16.50, 9.18.0 through 9.18.39, 9.20.0 through 9.20.13, 9.21.0 through 9.21.12, 9.11.3-S1 through 9.16.50-S1, 9.18.11-S1 through 9.18.39-S1, and 9.20.9-S1 through 9.20.13-S1.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-349
+    VendorSeverity:
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:N/I:H/A:N
+        V3Score: 8.6
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-40778
+    - https://kb.isc.org/docs/cve-2025-40778
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-40778
+    - https://ubuntu.com/security/notices/USN-7836-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-40778
+    PublishedDate: '2025-10-22T16:15:42.52Z'
+    LastModifiedDate: '2025-10-22T21:12:32.33Z'
+  - VulnerabilityID: CVE-2025-40780
+    PkgID: bind9-dnsutils@1:9.18.30-0ubuntu0.22.04.2
+    PkgName: bind9-dnsutils
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/bind9-dnsutils@9.18.30-0ubuntu0.22.04.2?arch=amd64&distro=ubuntu-22.04&epoch=1
+      UID: 32c97b1067feac0d
+    InstalledVersion: 1:9.18.30-0ubuntu0.22.04.2
+    FixedVersion: 1:9.18.39-0ubuntu0.22.04.2
+    Status: fixed
+    Layer:
+      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
+      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-40780
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'bind: Cache poisoning due to weak PRNG'
+    Description: |-
+      In specific circumstances, due to a weakness in the Pseudo Random Number Generator (PRNG) that is used, it is possible for an attacker to predict the source port and query ID that BIND will use.
+      This issue affects BIND 9 versions 9.16.0 through 9.16.50, 9.18.0 through 9.18.39, 9.20.0 through 9.20.13, 9.21.0 through 9.21.12, 9.16.8-S1 through 9.16.50-S1, 9.18.11-S1 through 9.18.39-S1, and 9.20.9-S1 through 9.20.13-S1.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-341
+    VendorSeverity:
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:N/I:H/A:N
+        V3Score: 8.6
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-40780
+    - https://kb.isc.org/docs/cve-2025-40780
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-40780
+    - https://ubuntu.com/security/notices/USN-7836-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-40780
+    PublishedDate: '2025-10-22T16:15:42.72Z'
+    LastModifiedDate: '2025-10-22T21:12:32.33Z'
+  - VulnerabilityID: CVE-2025-8677
+    PkgID: bind9-dnsutils@1:9.18.30-0ubuntu0.22.04.2
+    PkgName: bind9-dnsutils
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/bind9-dnsutils@9.18.30-0ubuntu0.22.04.2?arch=amd64&distro=ubuntu-22.04&epoch=1
+      UID: 32c97b1067feac0d
+    InstalledVersion: 1:9.18.30-0ubuntu0.22.04.2
+    FixedVersion: 1:9.18.39-0ubuntu0.22.04.2
+    Status: fixed
+    Layer:
+      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
+      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-8677
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'bind: Resource exhaustion via malformed DNSKEY handling'
+    Description: |-
+      Querying for records within a specially crafted zone containing certain malformed DNSKEY records can lead to CPU exhaustion.
+      This issue affects BIND 9 versions 9.18.0 through 9.18.39, 9.20.0 through 9.20.13, 9.21.0 through 9.21.12, 9.18.11-S1 through 9.18.39-S1, and 9.20.9-S1 through 9.20.13-S1.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-405
+    VendorSeverity:
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-8677
+    - https://kb.isc.org/docs/cve-2025-8677
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-8677
+    - https://ubuntu.com/security/notices/USN-7836-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-8677
+    PublishedDate: '2025-10-22T16:15:46.043Z'
+    LastModifiedDate: '2025-10-22T21:12:32.33Z'
+  - VulnerabilityID: CVE-2025-40778
+    PkgID: bind9-host@1:9.18.30-0ubuntu0.22.04.2
+    PkgName: bind9-host
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/bind9-host@9.18.30-0ubuntu0.22.04.2?arch=amd64&distro=ubuntu-22.04&epoch=1
+      UID: 7a557de66d498b7a
+    InstalledVersion: 1:9.18.30-0ubuntu0.22.04.2
+    FixedVersion: 1:9.18.39-0ubuntu0.22.04.2
+    Status: fixed
+    Layer:
+      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
+      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-40778
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'bind: Cache poisoning attacks with unsolicited RRs'
+    Description: |-
+      Under certain circumstances, BIND is too lenient when accepting records from answers, allowing an attacker to inject forged data into the cache.
+      This issue affects BIND 9 versions 9.11.0 through 9.16.50, 9.18.0 through 9.18.39, 9.20.0 through 9.20.13, 9.21.0 through 9.21.12, 9.11.3-S1 through 9.16.50-S1, 9.18.11-S1 through 9.18.39-S1, and 9.20.9-S1 through 9.20.13-S1.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-349
+    VendorSeverity:
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:N/I:H/A:N
+        V3Score: 8.6
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-40778
+    - https://kb.isc.org/docs/cve-2025-40778
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-40778
+    - https://ubuntu.com/security/notices/USN-7836-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-40778
+    PublishedDate: '2025-10-22T16:15:42.52Z'
+    LastModifiedDate: '2025-10-22T21:12:32.33Z'
+  - VulnerabilityID: CVE-2025-40780
+    PkgID: bind9-host@1:9.18.30-0ubuntu0.22.04.2
+    PkgName: bind9-host
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/bind9-host@9.18.30-0ubuntu0.22.04.2?arch=amd64&distro=ubuntu-22.04&epoch=1
+      UID: 7a557de66d498b7a
+    InstalledVersion: 1:9.18.30-0ubuntu0.22.04.2
+    FixedVersion: 1:9.18.39-0ubuntu0.22.04.2
+    Status: fixed
+    Layer:
+      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
+      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-40780
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'bind: Cache poisoning due to weak PRNG'
+    Description: |-
+      In specific circumstances, due to a weakness in the Pseudo Random Number Generator (PRNG) that is used, it is possible for an attacker to predict the source port and query ID that BIND will use.
+      This issue affects BIND 9 versions 9.16.0 through 9.16.50, 9.18.0 through 9.18.39, 9.20.0 through 9.20.13, 9.21.0 through 9.21.12, 9.16.8-S1 through 9.16.50-S1, 9.18.11-S1 through 9.18.39-S1, and 9.20.9-S1 through 9.20.13-S1.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-341
+    VendorSeverity:
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:N/I:H/A:N
+        V3Score: 8.6
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-40780
+    - https://kb.isc.org/docs/cve-2025-40780
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-40780
+    - https://ubuntu.com/security/notices/USN-7836-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-40780
+    PublishedDate: '2025-10-22T16:15:42.72Z'
+    LastModifiedDate: '2025-10-22T21:12:32.33Z'
+  - VulnerabilityID: CVE-2025-8677
+    PkgID: bind9-host@1:9.18.30-0ubuntu0.22.04.2
+    PkgName: bind9-host
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/bind9-host@9.18.30-0ubuntu0.22.04.2?arch=amd64&distro=ubuntu-22.04&epoch=1
+      UID: 7a557de66d498b7a
+    InstalledVersion: 1:9.18.30-0ubuntu0.22.04.2
+    FixedVersion: 1:9.18.39-0ubuntu0.22.04.2
+    Status: fixed
+    Layer:
+      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
+      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-8677
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'bind: Resource exhaustion via malformed DNSKEY handling'
+    Description: |-
+      Querying for records within a specially crafted zone containing certain malformed DNSKEY records can lead to CPU exhaustion.
+      This issue affects BIND 9 versions 9.18.0 through 9.18.39, 9.20.0 through 9.20.13, 9.21.0 through 9.21.12, 9.18.11-S1 through 9.18.39-S1, and 9.20.9-S1 through 9.20.13-S1.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-405
+    VendorSeverity:
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-8677
+    - https://kb.isc.org/docs/cve-2025-8677
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-8677
+    - https://ubuntu.com/security/notices/USN-7836-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-8677
+    PublishedDate: '2025-10-22T16:15:46.043Z'
+    LastModifiedDate: '2025-10-22T21:12:32.33Z'
+  - VulnerabilityID: CVE-2025-40778
+    PkgID: bind9-libs@1:9.18.30-0ubuntu0.22.04.2
+    PkgName: bind9-libs
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/bind9-libs@9.18.30-0ubuntu0.22.04.2?arch=amd64&distro=ubuntu-22.04&epoch=1
+      UID: 70f4e2d14f6bd429
+    InstalledVersion: 1:9.18.30-0ubuntu0.22.04.2
+    FixedVersion: 1:9.18.39-0ubuntu0.22.04.2
+    Status: fixed
+    Layer:
+      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
+      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-40778
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'bind: Cache poisoning attacks with unsolicited RRs'
+    Description: |-
+      Under certain circumstances, BIND is too lenient when accepting records from answers, allowing an attacker to inject forged data into the cache.
+      This issue affects BIND 9 versions 9.11.0 through 9.16.50, 9.18.0 through 9.18.39, 9.20.0 through 9.20.13, 9.21.0 through 9.21.12, 9.11.3-S1 through 9.16.50-S1, 9.18.11-S1 through 9.18.39-S1, and 9.20.9-S1 through 9.20.13-S1.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-349
+    VendorSeverity:
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:N/I:H/A:N
+        V3Score: 8.6
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-40778
+    - https://kb.isc.org/docs/cve-2025-40778
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-40778
+    - https://ubuntu.com/security/notices/USN-7836-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-40778
+    PublishedDate: '2025-10-22T16:15:42.52Z'
+    LastModifiedDate: '2025-10-22T21:12:32.33Z'
+  - VulnerabilityID: CVE-2025-40780
+    PkgID: bind9-libs@1:9.18.30-0ubuntu0.22.04.2
+    PkgName: bind9-libs
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/bind9-libs@9.18.30-0ubuntu0.22.04.2?arch=amd64&distro=ubuntu-22.04&epoch=1
+      UID: 70f4e2d14f6bd429
+    InstalledVersion: 1:9.18.30-0ubuntu0.22.04.2
+    FixedVersion: 1:9.18.39-0ubuntu0.22.04.2
+    Status: fixed
+    Layer:
+      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
+      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-40780
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'bind: Cache poisoning due to weak PRNG'
+    Description: |-
+      In specific circumstances, due to a weakness in the Pseudo Random Number Generator (PRNG) that is used, it is possible for an attacker to predict the source port and query ID that BIND will use.
+      This issue affects BIND 9 versions 9.16.0 through 9.16.50, 9.18.0 through 9.18.39, 9.20.0 through 9.20.13, 9.21.0 through 9.21.12, 9.16.8-S1 through 9.16.50-S1, 9.18.11-S1 through 9.18.39-S1, and 9.20.9-S1 through 9.20.13-S1.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-341
+    VendorSeverity:
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:N/I:H/A:N
+        V3Score: 8.6
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-40780
+    - https://kb.isc.org/docs/cve-2025-40780
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-40780
+    - https://ubuntu.com/security/notices/USN-7836-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-40780
+    PublishedDate: '2025-10-22T16:15:42.72Z'
+    LastModifiedDate: '2025-10-22T21:12:32.33Z'
+  - VulnerabilityID: CVE-2025-8677
+    PkgID: bind9-libs@1:9.18.30-0ubuntu0.22.04.2
+    PkgName: bind9-libs
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/bind9-libs@9.18.30-0ubuntu0.22.04.2?arch=amd64&distro=ubuntu-22.04&epoch=1
+      UID: 70f4e2d14f6bd429
+    InstalledVersion: 1:9.18.30-0ubuntu0.22.04.2
+    FixedVersion: 1:9.18.39-0ubuntu0.22.04.2
+    Status: fixed
+    Layer:
+      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
+      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-8677
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'bind: Resource exhaustion via malformed DNSKEY handling'
+    Description: |-
+      Querying for records within a specially crafted zone containing certain malformed DNSKEY records can lead to CPU exhaustion.
+      This issue affects BIND 9 versions 9.18.0 through 9.18.39, 9.20.0 through 9.20.13, 9.21.0 through 9.21.12, 9.18.11-S1 through 9.18.39-S1, and 9.20.9-S1 through 9.20.13-S1.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-405
+    VendorSeverity:
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-8677
+    - https://kb.isc.org/docs/cve-2025-8677
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-8677
+    - https://ubuntu.com/security/notices/USN-7836-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-8677
+    PublishedDate: '2025-10-22T16:15:46.043Z'
+    LastModifiedDate: '2025-10-22T21:12:32.33Z'
   - VulnerabilityID: CVE-2016-2781
     PkgID: coreutils@8.32-4.1ubuntu1.2
     PkgName: coreutils
@@ -22555,6 +22915,126 @@
     - https://www.cve.org/CVERecord?id=CVE-2022-3219
     PublishedDate: '2023-02-23T20:15:12.393Z'
     LastModifiedDate: '2025-03-12T21:15:38.207Z'
+  - VulnerabilityID: CVE-2025-40778
+    PkgID: dnsutils@1:9.18.30-0ubuntu0.22.04.2
+    PkgName: dnsutils
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/dnsutils@9.18.30-0ubuntu0.22.04.2?arch=all&distro=ubuntu-22.04&epoch=1
+      UID: 3aa0ebcdb444281f
+    InstalledVersion: 1:9.18.30-0ubuntu0.22.04.2
+    FixedVersion: 1:9.18.39-0ubuntu0.22.04.2
+    Status: fixed
+    Layer:
+      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
+      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-40778
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'bind: Cache poisoning attacks with unsolicited RRs'
+    Description: |-
+      Under certain circumstances, BIND is too lenient when accepting records from answers, allowing an attacker to inject forged data into the cache.
+      This issue affects BIND 9 versions 9.11.0 through 9.16.50, 9.18.0 through 9.18.39, 9.20.0 through 9.20.13, 9.21.0 through 9.21.12, 9.11.3-S1 through 9.16.50-S1, 9.18.11-S1 through 9.18.39-S1, and 9.20.9-S1 through 9.20.13-S1.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-349
+    VendorSeverity:
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:N/I:H/A:N
+        V3Score: 8.6
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-40778
+    - https://kb.isc.org/docs/cve-2025-40778
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-40778
+    - https://ubuntu.com/security/notices/USN-7836-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-40778
+    PublishedDate: '2025-10-22T16:15:42.52Z'
+    LastModifiedDate: '2025-10-22T21:12:32.33Z'
+  - VulnerabilityID: CVE-2025-40780
+    PkgID: dnsutils@1:9.18.30-0ubuntu0.22.04.2
+    PkgName: dnsutils
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/dnsutils@9.18.30-0ubuntu0.22.04.2?arch=all&distro=ubuntu-22.04&epoch=1
+      UID: 3aa0ebcdb444281f
+    InstalledVersion: 1:9.18.30-0ubuntu0.22.04.2
+    FixedVersion: 1:9.18.39-0ubuntu0.22.04.2
+    Status: fixed
+    Layer:
+      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
+      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-40780
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'bind: Cache poisoning due to weak PRNG'
+    Description: |-
+      In specific circumstances, due to a weakness in the Pseudo Random Number Generator (PRNG) that is used, it is possible for an attacker to predict the source port and query ID that BIND will use.
+      This issue affects BIND 9 versions 9.16.0 through 9.16.50, 9.18.0 through 9.18.39, 9.20.0 through 9.20.13, 9.21.0 through 9.21.12, 9.16.8-S1 through 9.16.50-S1, 9.18.11-S1 through 9.18.39-S1, and 9.20.9-S1 through 9.20.13-S1.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-341
+    VendorSeverity:
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:N/I:H/A:N
+        V3Score: 8.6
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-40780
+    - https://kb.isc.org/docs/cve-2025-40780
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-40780
+    - https://ubuntu.com/security/notices/USN-7836-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-40780
+    PublishedDate: '2025-10-22T16:15:42.72Z'
+    LastModifiedDate: '2025-10-22T21:12:32.33Z'
+  - VulnerabilityID: CVE-2025-8677
+    PkgID: dnsutils@1:9.18.30-0ubuntu0.22.04.2
+    PkgName: dnsutils
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/dnsutils@9.18.30-0ubuntu0.22.04.2?arch=all&distro=ubuntu-22.04&epoch=1
+      UID: 3aa0ebcdb444281f
+    InstalledVersion: 1:9.18.30-0ubuntu0.22.04.2
+    FixedVersion: 1:9.18.39-0ubuntu0.22.04.2
+    Status: fixed
+    Layer:
+      Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
+      DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-8677
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'bind: Resource exhaustion via malformed DNSKEY handling'
+    Description: |-
+      Querying for records within a specially crafted zone containing certain malformed DNSKEY records can lead to CPU exhaustion.
+      This issue affects BIND 9 versions 9.18.0 through 9.18.39, 9.20.0 through 9.20.13, 9.21.0 through 9.21.12, 9.18.11-S1 through 9.18.39-S1, and 9.20.9-S1 through 9.20.13-S1.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-405
+    VendorSeverity:
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-8677
+    - https://kb.isc.org/docs/cve-2025-8677
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-8677
+    - https://ubuntu.com/security/notices/USN-7836-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-8677
+    PublishedDate: '2025-10-22T16:15:46.043Z'
+    LastModifiedDate: '2025-10-22T21:12:32.33Z'
   - VulnerabilityID: CVE-2025-6297
     PkgID: dpkg@1.21.1ubuntu2.3
     PkgName: dpkg
@@ -22785,7 +23265,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-48384
     - https://www.openwall.com/lists/oss-security/2025/07/08/4
     PublishedDate: '2025-07-08T19:15:42.8Z'
-    LastModifiedDate: '2025-10-21T23:17:04.45Z'
+    LastModifiedDate: '2025-10-24T13:58:30.817Z'
   - VulnerabilityID: CVE-2024-52005
     PkgID: git@1:2.34.1-1ubuntu1.12
     PkgName: git
@@ -22828,7 +23308,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2338289
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-52005
     - https://errata.almalinux.org/9/ALSA-2025-7409.html
-    - https://errata.rockylinux.org/RLSA-2025:8414
+    - https://errata.rockylinux.org/RLSA-2025:7482
     - https://github.com/git/git/security/advisories/GHSA-7jjc-gg6m-3329
     - https://linux.oracle.com/cve/CVE-2024-52005.html
     - https://linux.oracle.com/errata/ELSA-2025-8414.html
@@ -22867,7 +23347,7 @@
       azure: 2
       cbl-mariner: 2
       oracle-oval: 3
-      photon: 3
+      photon: 1
       redhat: 2
       rocky: 3
       ubuntu: 2
@@ -22942,7 +23422,7 @@
       alma: 3
       amazon: 3
       oracle-oval: 3
-      photon: 2
+      photon: 3
       redhat: 1
       rocky: 3
       ubuntu: 2
@@ -23013,7 +23493,7 @@
     - CWE-120
     VendorSeverity:
       bitnami: 2
-      photon: 3
+      photon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -23112,7 +23592,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-48384
     - https://www.openwall.com/lists/oss-security/2025/07/08/4
     PublishedDate: '2025-07-08T19:15:42.8Z'
-    LastModifiedDate: '2025-10-21T23:17:04.45Z'
+    LastModifiedDate: '2025-10-24T13:58:30.817Z'
   - VulnerabilityID: CVE-2024-52005
     PkgID: git-man@1:2.34.1-1ubuntu1.12
     PkgName: git-man
@@ -23155,7 +23635,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2338289
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-52005
     - https://errata.almalinux.org/9/ALSA-2025-7409.html
-    - https://errata.rockylinux.org/RLSA-2025:8414
+    - https://errata.rockylinux.org/RLSA-2025:7482
     - https://github.com/git/git/security/advisories/GHSA-7jjc-gg6m-3329
     - https://linux.oracle.com/cve/CVE-2024-52005.html
     - https://linux.oracle.com/errata/ELSA-2025-8414.html
@@ -23194,7 +23674,7 @@
       azure: 2
       cbl-mariner: 2
       oracle-oval: 3
-      photon: 3
+      photon: 1
       redhat: 2
       rocky: 3
       ubuntu: 2
@@ -23269,7 +23749,7 @@
       alma: 3
       amazon: 3
       oracle-oval: 3
-      photon: 2
+      photon: 3
       redhat: 1
       rocky: 3
       ubuntu: 2
@@ -23340,7 +23820,7 @@
     - CWE-120
     VendorSeverity:
       bitnami: 2
-      photon: 3
+      photon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -24614,7 +25094,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2383146
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-8058
     - https://errata.almalinux.org/8/ALSA-2025-12980.html
-    - https://errata.rockylinux.org/RLSA-2025:12980
+    - https://errata.rockylinux.org/RLSA-2025:13240
     - https://linux.oracle.com/cve/CVE-2025-8058.html
     - https://linux.oracle.com/errata/ELSA-2025-20595.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-8058
@@ -24730,7 +25210,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2383146
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-8058
     - https://errata.almalinux.org/8/ALSA-2025-12980.html
-    - https://errata.rockylinux.org/RLSA-2025:12980
+    - https://errata.rockylinux.org/RLSA-2025:13240
     - https://linux.oracle.com/cve/CVE-2025-8058.html
     - https://linux.oracle.com/errata/ELSA-2025-20595.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-8058
@@ -25226,7 +25706,7 @@
     - https://bugzilla.suse.com/show_bug.cgi?id=1239618
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-8176
     - https://errata.almalinux.org/9/ALSA-2025-7444.html
-    - https://errata.rockylinux.org/RLSA-2025:3531
+    - https://errata.rockylinux.org/RLSA-2025:7512
     - https://github.com/libexpat/libexpat/blob/R_2_7_0/expat/Changes#L40-L52
     - https://github.com/libexpat/libexpat/issues/893
     - https://gitlab.alpinelinux.org/alpine/aports/-/commit/d068c3ff36fc6f4789988a09c69b434db757db53
@@ -25454,14 +25934,12 @@
     - https://access.redhat.com/security/cve/CVE-2025-4373
     - https://bugzilla.redhat.com/2325340
     - https://bugzilla.redhat.com/2364265
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2279632
     - https://bugzilla.redhat.com/show_bug.cgi?id=2325340
     - https://bugzilla.redhat.com/show_bug.cgi?id=2364265
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-34397
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-52533
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-4373
     - https://errata.almalinux.org/9/ALSA-2025-11140.html
-    - https://errata.rockylinux.org/RLSA-2025:11327
+    - https://errata.rockylinux.org/RLSA-2025:10855
     - https://gitlab.gnome.org/GNOME/glib/-/issues/3677
     - https://gitlab.gnome.org/GNOME/glib/-/merge_requests/4588
     - https://gitlab.gnome.org/GNOME/glib/-/merge_requests/4592
@@ -25522,14 +26000,12 @@
     - https://access.redhat.com/security/cve/CVE-2025-4373
     - https://bugzilla.redhat.com/2325340
     - https://bugzilla.redhat.com/2364265
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2279632
     - https://bugzilla.redhat.com/show_bug.cgi?id=2325340
     - https://bugzilla.redhat.com/show_bug.cgi?id=2364265
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-34397
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-52533
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-4373
     - https://errata.almalinux.org/9/ALSA-2025-11140.html
-    - https://errata.rockylinux.org/RLSA-2025:11327
+    - https://errata.rockylinux.org/RLSA-2025:10855
     - https://gitlab.gnome.org/GNOME/glib/-/issues/3677
     - https://gitlab.gnome.org/GNOME/glib/-/merge_requests/4588
     - https://gitlab.gnome.org/GNOME/glib/-/merge_requests/4592
@@ -25590,19 +26066,22 @@
     - https://access.redhat.com/errata/RHSA-2025:17348
     - https://access.redhat.com/errata/RHSA-2025:17361
     - https://access.redhat.com/errata/RHSA-2025:17415
+    - https://access.redhat.com/errata/RHSA-2025:19088
     - https://access.redhat.com/security/cve/CVE-2025-32988
     - https://bugzilla.redhat.com/2359620
     - https://bugzilla.redhat.com/2359621
     - https://bugzilla.redhat.com/2359622
     - https://bugzilla.redhat.com/2376755
     - https://bugzilla.redhat.com/show_bug.cgi?id=2359620
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2359621
     - https://bugzilla.redhat.com/show_bug.cgi?id=2359622
     - https://bugzilla.redhat.com/show_bug.cgi?id=2376755
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-32988
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-32989
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-32990
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6395
     - https://errata.almalinux.org/9/ALSA-2025-16116.html
-    - https://errata.rockylinux.org/RLSA-2025:17415
+    - https://errata.rockylinux.org/RLSA-2025:16115
     - https://linux.oracle.com/cve/CVE-2025-32988.html
     - https://linux.oracle.com/errata/ELSA-2025-20606.html
     - https://lists.gnupg.org/pipermail/gnutls-help/2025-July/004883.html
@@ -25611,7 +26090,7 @@
     - https://ubuntu.com/security/notices/USN-7742-1
     - https://www.cve.org/CVERecord?id=CVE-2025-32988
     PublishedDate: '2025-07-10T08:15:24.223Z'
-    LastModifiedDate: '2025-10-07T12:15:43.753Z'
+    LastModifiedDate: '2025-10-23T20:15:38.55Z'
   - VulnerabilityID: CVE-2025-32989
     PkgID: libgnutls30@3.7.3-4ubuntu1.6
     PkgName: libgnutls30
@@ -25654,6 +26133,7 @@
     - https://access.redhat.com/errata/RHSA-2025:16116
     - https://access.redhat.com/errata/RHSA-2025:17348
     - https://access.redhat.com/errata/RHSA-2025:17361
+    - https://access.redhat.com/errata/RHSA-2025:19088
     - https://access.redhat.com/security/cve/CVE-2025-32989
     - https://bugzilla.redhat.com/2359620
     - https://bugzilla.redhat.com/2359621
@@ -25676,7 +26156,7 @@
     - https://ubuntu.com/security/notices/USN-7635-1
     - https://www.cve.org/CVERecord?id=CVE-2025-32989
     PublishedDate: '2025-07-10T08:15:24.43Z'
-    LastModifiedDate: '2025-10-06T12:15:33.197Z'
+    LastModifiedDate: '2025-10-23T20:15:38.73Z'
   - VulnerabilityID: CVE-2025-32990
     PkgID: libgnutls30@3.7.3-4ubuntu1.6
     PkgName: libgnutls30
@@ -25724,19 +26204,22 @@
     - https://access.redhat.com/errata/RHSA-2025:17348
     - https://access.redhat.com/errata/RHSA-2025:17361
     - https://access.redhat.com/errata/RHSA-2025:17415
+    - https://access.redhat.com/errata/RHSA-2025:19088
     - https://access.redhat.com/security/cve/CVE-2025-32990
     - https://bugzilla.redhat.com/2359620
     - https://bugzilla.redhat.com/2359621
     - https://bugzilla.redhat.com/2359622
     - https://bugzilla.redhat.com/2376755
     - https://bugzilla.redhat.com/show_bug.cgi?id=2359620
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2359621
     - https://bugzilla.redhat.com/show_bug.cgi?id=2359622
     - https://bugzilla.redhat.com/show_bug.cgi?id=2376755
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-32988
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-32989
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-32990
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6395
     - https://errata.almalinux.org/9/ALSA-2025-16116.html
-    - https://errata.rockylinux.org/RLSA-2025:17415
+    - https://errata.rockylinux.org/RLSA-2025:16115
     - https://linux.oracle.com/cve/CVE-2025-32990.html
     - https://linux.oracle.com/errata/ELSA-2025-20606.html
     - https://lists.gnupg.org/pipermail/gnutls-help/2025-July/004883.html
@@ -25745,7 +26228,7 @@
     - https://ubuntu.com/security/notices/USN-7742-1
     - https://www.cve.org/CVERecord?id=CVE-2025-32990
     PublishedDate: '2025-07-10T10:15:33.06Z'
-    LastModifiedDate: '2025-10-07T12:15:44.38Z'
+    LastModifiedDate: '2025-10-23T20:15:38.863Z'
   - VulnerabilityID: CVE-2025-6395
     PkgID: libgnutls30@3.7.3-4ubuntu1.6
     PkgName: libgnutls30
@@ -25789,19 +26272,22 @@
     - https://access.redhat.com/errata/RHSA-2025:17348
     - https://access.redhat.com/errata/RHSA-2025:17361
     - https://access.redhat.com/errata/RHSA-2025:17415
+    - https://access.redhat.com/errata/RHSA-2025:19088
     - https://access.redhat.com/security/cve/CVE-2025-6395
     - https://bugzilla.redhat.com/2359620
     - https://bugzilla.redhat.com/2359621
     - https://bugzilla.redhat.com/2359622
     - https://bugzilla.redhat.com/2376755
     - https://bugzilla.redhat.com/show_bug.cgi?id=2359620
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2359621
     - https://bugzilla.redhat.com/show_bug.cgi?id=2359622
     - https://bugzilla.redhat.com/show_bug.cgi?id=2376755
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-32988
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-32989
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-32990
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6395
     - https://errata.almalinux.org/9/ALSA-2025-16116.html
-    - https://errata.rockylinux.org/RLSA-2025:17415
+    - https://errata.rockylinux.org/RLSA-2025:16115
     - https://linux.oracle.com/cve/CVE-2025-6395.html
     - https://linux.oracle.com/errata/ELSA-2025-20606.html
     - https://lists.gnupg.org/pipermail/gnutls-help/2025-July/004883.html
@@ -25810,7 +26296,7 @@
     - https://ubuntu.com/security/notices/USN-7742-1
     - https://www.cve.org/CVERecord?id=CVE-2025-6395
     PublishedDate: '2025-07-10T16:15:25.11Z'
-    LastModifiedDate: '2025-10-07T12:15:44.58Z'
+    LastModifiedDate: '2025-10-23T20:15:41.21Z'
   - VulnerabilityID: CVE-2025-3576
     PkgID: libgssapi-krb5-2@1.19.2-2ubuntu0.6
     PkgName: libgssapi-krb5-2
@@ -25863,7 +26349,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2359465
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-3576
     - https://errata.almalinux.org/9/ALSA-2025-9430.html
-    - https://errata.rockylinux.org/RLSA-2025:8411
+    - https://errata.rockylinux.org/RLSA-2025:9418
     - https://linux.oracle.com/cve/CVE-2025-3576.html
     - https://linux.oracle.com/errata/ELSA-2025-9430.html
     - https://lists.debian.org/debian-lts-announce/2025/05/msg00047.html
@@ -25980,7 +26466,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2359465
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-3576
     - https://errata.almalinux.org/9/ALSA-2025-9430.html
-    - https://errata.rockylinux.org/RLSA-2025:8411
+    - https://errata.rockylinux.org/RLSA-2025:9418
     - https://linux.oracle.com/cve/CVE-2025-3576.html
     - https://linux.oracle.com/errata/ELSA-2025-9430.html
     - https://lists.debian.org/debian-lts-announce/2025/05/msg00047.html
@@ -26042,7 +26528,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2359465
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-3576
     - https://errata.almalinux.org/9/ALSA-2025-9430.html
-    - https://errata.rockylinux.org/RLSA-2025:8411
+    - https://errata.rockylinux.org/RLSA-2025:9418
     - https://linux.oracle.com/cve/CVE-2025-3576.html
     - https://linux.oracle.com/errata/ELSA-2025-9430.html
     - https://lists.debian.org/debian-lts-announce/2025/05/msg00047.html
@@ -26104,7 +26590,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2359465
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-3576
     - https://errata.almalinux.org/9/ALSA-2025-9430.html
-    - https://errata.rockylinux.org/RLSA-2025:8411
+    - https://errata.rockylinux.org/RLSA-2025:9418
     - https://linux.oracle.com/cve/CVE-2025-3576.html
     - https://linux.oracle.com/errata/ELSA-2025-9430.html
     - https://lists.debian.org/debian-lts-announce/2025/05/msg00047.html
@@ -27477,7 +27963,7 @@
     - CWE-689
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       oracle-oval: 2
@@ -27504,7 +27990,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2369407
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-40909
     - https://errata.almalinux.org/8/ALSA-2025-11805.html
-    - https://errata.rockylinux.org/RLSA-2025:11805
+    - https://errata.rockylinux.org/RLSA-2025:12056
     - https://github.com/Perl/perl5/commit/11a11ecf4bea72b17d250cfb43c897be1341861e
     - https://github.com/Perl/perl5/commit/918bfff86ca8d6d4e4ec5b30994451e0bd74aba9.patch
     - https://github.com/Perl/perl5/issues/10387
@@ -27543,7 +28029,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       redhat: 2
@@ -27675,7 +28161,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2384043
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-8194
     - https://errata.almalinux.org/9/ALSA-2025-15019.html
-    - https://errata.rockylinux.org/RLSA-2025:14841
+    - https://errata.rockylinux.org/RLSA-2025:14984
     - https://gist.github.com/sethmlarson/1716ac5b82b73dbcbf23ad2eff8b33e1
     - https://github.com/python/cpython/commit/57f5981d6260ed21266e0c26951b8564cc252bc2
     - https://github.com/python/cpython/commit/7040aa54f14676938970e10c5f74ea93cd56aa38
@@ -27766,7 +28252,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       redhat: 2
@@ -27898,7 +28384,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2384043
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-8194
     - https://errata.almalinux.org/9/ALSA-2025-15019.html
-    - https://errata.rockylinux.org/RLSA-2025:14841
+    - https://errata.rockylinux.org/RLSA-2025:14984
     - https://gist.github.com/sethmlarson/1716ac5b82b73dbcbf23ad2eff8b33e1
     - https://github.com/python/cpython/commit/57f5981d6260ed21266e0c26951b8564cc252bc2
     - https://github.com/python/cpython/commit/7040aa54f14676938970e10c5f74ea93cd56aa38
@@ -27989,7 +28475,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       redhat: 2
@@ -28121,7 +28607,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2384043
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-8194
     - https://errata.almalinux.org/9/ALSA-2025-15019.html
-    - https://errata.rockylinux.org/RLSA-2025:14841
+    - https://errata.rockylinux.org/RLSA-2025:14984
     - https://gist.github.com/sethmlarson/1716ac5b82b73dbcbf23ad2eff8b33e1
     - https://github.com/python/cpython/commit/57f5981d6260ed21266e0c26951b8564cc252bc2
     - https://github.com/python/cpython/commit/7040aa54f14676938970e10c5f74ea93cd56aa38
@@ -28290,7 +28776,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2380149
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6965
     - https://errata.almalinux.org/9/ALSA-2025-11992.html
-    - https://errata.rockylinux.org/RLSA-2025:12010
+    - https://errata.rockylinux.org/RLSA-2025:11933
     - https://linux.oracle.com/cve/CVE-2025-6965.html
     - https://linux.oracle.com/errata/ELSA-2025-14101.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-6965
@@ -28371,7 +28857,7 @@
       amazon: 2
       azure: 1
       cbl-mariner: 1
-      photon: 3
+      photon: 1
       redhat: 1
       ubuntu: 2
     CVSS:
@@ -28434,6 +28920,7 @@
     - https://access.redhat.com/errata/RHSA-2025:18231
     - https://access.redhat.com/errata/RHSA-2025:18275
     - https://access.redhat.com/errata/RHSA-2025:18286
+    - https://access.redhat.com/errata/RHSA-2025:19012
     - https://access.redhat.com/security/cve/CVE-2025-5318
     - https://bugzilla.redhat.com/2369131
     - https://bugzilla.redhat.com/show_bug.cgi?id=2369131
@@ -28446,7 +28933,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-5318
     - https://www.libssh.org/security/advisories/CVE-2025-5318.txt
     PublishedDate: '2025-06-24T14:15:30.523Z'
-    LastModifiedDate: '2025-10-20T08:15:33.07Z'
+    LastModifiedDate: '2025-10-23T20:15:40.607Z'
   - VulnerabilityID: CVE-2025-5372
     PkgID: libssh-4@0.9.6-2ubuntu0.22.04.3
     PkgName: libssh-4
@@ -28578,6 +29065,7 @@
     VendorSeverity:
       amazon: 2
       azure: 3
+      photon: 3
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -29398,9 +29886,11 @@
     - https://bugzilla.redhat.com/2358121
     - https://bugzilla.redhat.com/2360768
     - https://bugzilla.redhat.com/show_bug.cgi?id=2358121
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2360768
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-32414
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-32415
     - https://errata.almalinux.org/9/ALSA-2025-13428.html
-    - https://errata.rockylinux.org/RLSA-2025:8958
+    - https://errata.rockylinux.org/RLSA-2025:13429
     - https://gitlab.gnome.org/GNOME/libxml2/-/issues/889
     - https://linux.oracle.com/cve/CVE-2025-32414.html
     - https://linux.oracle.com/errata/ELSA-2025-8958.html
@@ -29457,10 +29947,12 @@
     - https://access.redhat.com/security/cve/CVE-2025-32415
     - https://bugzilla.redhat.com/2358121
     - https://bugzilla.redhat.com/2360768
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2358121
     - https://bugzilla.redhat.com/show_bug.cgi?id=2360768
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-32414
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-32415
     - https://errata.almalinux.org/9/ALSA-2025-13428.html
-    - https://errata.rockylinux.org/RLSA-2025:13203
+    - https://errata.rockylinux.org/RLSA-2025:13429
     - https://gitlab.gnome.org/GNOME/libxml2/-/issues/890
     - https://linux.oracle.com/cve/CVE-2025-32415.html
     - https://linux.oracle.com/errata/ELSA-2025-13789.html
@@ -29526,18 +30018,21 @@
     - https://access.redhat.com/errata/RHSA-2025:18217
     - https://access.redhat.com/errata/RHSA-2025:18218
     - https://access.redhat.com/errata/RHSA-2025:18219
+    - https://access.redhat.com/errata/RHSA-2025:18240
     - https://access.redhat.com/security/cve/CVE-2025-49794
     - https://bugzilla.redhat.com/2372373
     - https://bugzilla.redhat.com/2372385
     - https://bugzilla.redhat.com/2372406
     - https://bugzilla.redhat.com/show_bug.cgi?id=2372373
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2372379
     - https://bugzilla.redhat.com/show_bug.cgi?id=2372385
     - https://bugzilla.redhat.com/show_bug.cgi?id=2372406
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-49794
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-49795
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-49796
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6021
     - https://errata.almalinux.org/9/ALSA-2025-10699.html
-    - https://errata.rockylinux.org/RLSA-2025:10698
+    - https://errata.rockylinux.org/RLSA-2025:10630
     - https://gitlab.gnome.org/GNOME/libxml2/-/issues/931
     - https://linux.oracle.com/cve/CVE-2025-49794.html
     - https://linux.oracle.com/errata/ELSA-2025-12240.html
@@ -29545,7 +30040,7 @@
     - https://ubuntu.com/security/notices/USN-7694-1
     - https://www.cve.org/CVERecord?id=CVE-2025-49794
     PublishedDate: '2025-06-16T16:15:18.997Z'
-    LastModifiedDate: '2025-10-22T07:15:34.16Z'
+    LastModifiedDate: '2025-10-24T00:15:40.063Z'
   - VulnerabilityID: CVE-2025-49796
     PkgID: libxml2@2.9.13+dfsg-1ubuntu0.6
     PkgName: libxml2
@@ -29603,18 +30098,21 @@
     - https://access.redhat.com/errata/RHSA-2025:18217
     - https://access.redhat.com/errata/RHSA-2025:18218
     - https://access.redhat.com/errata/RHSA-2025:18219
+    - https://access.redhat.com/errata/RHSA-2025:18240
     - https://access.redhat.com/security/cve/CVE-2025-49796
     - https://bugzilla.redhat.com/2372373
     - https://bugzilla.redhat.com/2372385
     - https://bugzilla.redhat.com/2372406
     - https://bugzilla.redhat.com/show_bug.cgi?id=2372373
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2372379
     - https://bugzilla.redhat.com/show_bug.cgi?id=2372385
     - https://bugzilla.redhat.com/show_bug.cgi?id=2372406
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-49794
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-49795
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-49796
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6021
     - https://errata.almalinux.org/9/ALSA-2025-10699.html
-    - https://errata.rockylinux.org/RLSA-2025:10698
+    - https://errata.rockylinux.org/RLSA-2025:10630
     - https://gitlab.gnome.org/GNOME/libxml2/-/issues/933
     - https://linux.oracle.com/cve/CVE-2025-49796.html
     - https://linux.oracle.com/errata/ELSA-2025-12240.html
@@ -29622,7 +30120,7 @@
     - https://ubuntu.com/security/notices/USN-7694-1
     - https://www.cve.org/CVERecord?id=CVE-2025-49796
     PublishedDate: '2025-06-16T16:15:19.37Z'
-    LastModifiedDate: '2025-10-22T07:15:34.36Z'
+    LastModifiedDate: '2025-10-24T00:15:40.243Z'
   - VulnerabilityID: CVE-2025-6021
     PkgID: libxml2@2.9.13+dfsg-1ubuntu0.6
     PkgName: libxml2
@@ -29646,6 +30144,7 @@
     Severity: MEDIUM
     CweIDs:
     - CWE-121
+    - CWE-787
     VendorSeverity:
       alma: 3
       amazon: 3
@@ -29686,13 +30185,15 @@
     - https://bugzilla.redhat.com/2372385
     - https://bugzilla.redhat.com/2372406
     - https://bugzilla.redhat.com/show_bug.cgi?id=2372373
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2372379
     - https://bugzilla.redhat.com/show_bug.cgi?id=2372385
     - https://bugzilla.redhat.com/show_bug.cgi?id=2372406
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-49794
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-49795
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-49796
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6021
     - https://errata.almalinux.org/9/ALSA-2025-10699.html
-    - https://errata.rockylinux.org/RLSA-2025:10698
+    - https://errata.rockylinux.org/RLSA-2025:10630
     - https://gitlab.gnome.org/GNOME/libxml2/-/issues/926
     - https://linux.oracle.com/cve/CVE-2025-6021.html
     - https://linux.oracle.com/errata/ELSA-2025-12240.html
@@ -29700,7 +30201,7 @@
     - https://ubuntu.com/security/notices/USN-7694-1
     - https://www.cve.org/CVERecord?id=CVE-2025-6021
     PublishedDate: '2025-06-12T13:15:25.59Z'
-    LastModifiedDate: '2025-09-18T10:15:34.863Z'
+    LastModifiedDate: '2025-10-22T13:08:44.16Z'
   - VulnerabilityID: CVE-2025-6170
     PkgID: libxml2@2.9.13+dfsg-1ubuntu0.6
     PkgName: libxml2
@@ -29965,7 +30466,7 @@
       alma: 3
       amazon: 3
       oracle-oval: 3
-      photon: 4
+      photon: 3
       redhat: 3
       ubuntu: 2
     CVSS:
@@ -30759,6 +31260,7 @@
     VendorSeverity:
       amazon: 2
       azure: 3
+      photon: 3
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -30992,7 +31494,7 @@
     - CWE-689
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       oracle-oval: 2
@@ -31019,7 +31521,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2369407
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-40909
     - https://errata.almalinux.org/8/ALSA-2025-11805.html
-    - https://errata.rockylinux.org/RLSA-2025:11805
+    - https://errata.rockylinux.org/RLSA-2025:12056
     - https://github.com/Perl/perl5/commit/11a11ecf4bea72b17d250cfb43c897be1341861e
     - https://github.com/Perl/perl5/commit/918bfff86ca8d6d4e4ec5b30994451e0bd74aba9.patch
     - https://github.com/Perl/perl5/issues/10387
@@ -31119,7 +31621,7 @@
     - CWE-689
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       oracle-oval: 2
@@ -31146,7 +31648,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2369407
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-40909
     - https://errata.almalinux.org/8/ALSA-2025-11805.html
-    - https://errata.rockylinux.org/RLSA-2025:11805
+    - https://errata.rockylinux.org/RLSA-2025:12056
     - https://github.com/Perl/perl5/commit/11a11ecf4bea72b17d250cfb43c897be1341861e
     - https://github.com/Perl/perl5/commit/918bfff86ca8d6d4e4ec5b30994451e0bd74aba9.patch
     - https://github.com/Perl/perl5/issues/10387
@@ -31246,7 +31748,7 @@
     - CWE-689
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       oracle-oval: 2
@@ -31273,7 +31775,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2369407
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-40909
     - https://errata.almalinux.org/8/ALSA-2025-11805.html
-    - https://errata.rockylinux.org/RLSA-2025:11805
+    - https://errata.rockylinux.org/RLSA-2025:12056
     - https://github.com/Perl/perl5/commit/11a11ecf4bea72b17d250cfb43c897be1341861e
     - https://github.com/Perl/perl5/commit/918bfff86ca8d6d4e4ec5b30994451e0bd74aba9.patch
     - https://github.com/Perl/perl5/issues/10387
@@ -31312,7 +31814,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       redhat: 2
@@ -31444,7 +31946,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2384043
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-8194
     - https://errata.almalinux.org/9/ALSA-2025-15019.html
-    - https://errata.rockylinux.org/RLSA-2025:14841
+    - https://errata.rockylinux.org/RLSA-2025:14984
     - https://gist.github.com/sethmlarson/1716ac5b82b73dbcbf23ad2eff8b33e1
     - https://github.com/python/cpython/commit/57f5981d6260ed21266e0c26951b8564cc252bc2
     - https://github.com/python/cpython/commit/7040aa54f14676938970e10c5f74ea93cd56aa38
@@ -31535,7 +32037,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       redhat: 2
@@ -31667,7 +32169,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2384043
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-8194
     - https://errata.almalinux.org/9/ALSA-2025-15019.html
-    - https://errata.rockylinux.org/RLSA-2025:14841
+    - https://errata.rockylinux.org/RLSA-2025:14984
     - https://gist.github.com/sethmlarson/1716ac5b82b73dbcbf23ad2eff8b33e1
     - https://github.com/python/cpython/commit/57f5981d6260ed21266e0c26951b8564cc252bc2
     - https://github.com/python/cpython/commit/7040aa54f14676938970e10c5f74ea93cd56aa38
@@ -31782,9 +32284,11 @@
     - https://bugs.gentoo.org/show_bug.cgi?id=CVE-2025-32462
     - https://bugzilla.redhat.com/2374692
     - https://bugzilla.redhat.com/show_bug.cgi?id=2374692
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2374693
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-32462
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-32463
     - https://errata.almalinux.org/9/ALSA-2025-9978.html
-    - https://errata.rockylinux.org/RLSA-2025:10110
+    - https://errata.rockylinux.org/RLSA-2025:11537
     - https://explore.alas.aws.amazon.com/CVE-2025-32462.html
     - https://linux.oracle.com/cve/CVE-2025-32462.html
     - https://linux.oracle.com/errata/ELSA-2025-9978.html
@@ -34048,7 +34552,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2358493
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-22871
     - https://errata.almalinux.org/9/ALSA-2025-9635.html
-    - https://errata.rockylinux.org/RLSA-2025:9845
+    - https://errata.rockylinux.org/RLSA-2025:9317
     - https://go.dev/cl/652998
     - https://go.dev/issue/71988
     - https://groups.google.com/g/golang-announce/c/Y2uBTVKjBQk
@@ -34779,7 +35283,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2358493
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-22871
     - https://errata.almalinux.org/9/ALSA-2025-9635.html
-    - https://errata.rockylinux.org/RLSA-2025:9845
+    - https://errata.rockylinux.org/RLSA-2025:9317
     - https://go.dev/cl/652998
     - https://go.dev/issue/71988
     - https://groups.google.com/g/golang-announce/c/Y2uBTVKjBQk
@@ -36998,10 +37502,16 @@
     - https://access.redhat.com/errata/RHSA-2025:7425
     - https://access.redhat.com/security/cve/CVE-2025-30204
     - https://bugzilla.redhat.com/2354195
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2347423
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2348366
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2352914
     - https://bugzilla.redhat.com/show_bug.cgi?id=2354195
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-22868
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-27144
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-29786
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-30204
     - https://errata.almalinux.org/9/ALSA-2025-7425.html
-    - https://errata.rockylinux.org/RLSA-2025:3344
+    - https://errata.rockylinux.org/RLSA-2025:7479
     - https://github.com/golang-jwt/jwt
     - https://github.com/golang-jwt/jwt/commit/0951d184286dece21f73c85673fd308786ffe9c3
     - https://github.com/golang-jwt/jwt/commit/bf316c48137a1212f8d0af9288cc9ce8e59f1afb
@@ -37350,7 +37860,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2358493
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-22871
     - https://errata.almalinux.org/9/ALSA-2025-9635.html
-    - https://errata.rockylinux.org/RLSA-2025:9845
+    - https://errata.rockylinux.org/RLSA-2025:9317
     - https://go.dev/cl/652998
     - https://go.dev/issue/71988
     - https://groups.google.com/g/golang-announce/c/Y2uBTVKjBQk
@@ -39164,7 +39674,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2358493
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-22871
     - https://errata.almalinux.org/9/ALSA-2025-9635.html
-    - https://errata.rockylinux.org/RLSA-2025:9845
+    - https://errata.rockylinux.org/RLSA-2025:9317
     - https://go.dev/cl/652998
     - https://go.dev/issue/71988
     - https://groups.google.com/g/golang-announce/c/Y2uBTVKjBQk
@@ -40385,7 +40895,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2358493
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-22871
     - https://errata.almalinux.org/9/ALSA-2025-9635.html
-    - https://errata.rockylinux.org/RLSA-2025:9845
+    - https://errata.rockylinux.org/RLSA-2025:9317
     - https://go.dev/cl/652998
     - https://go.dev/issue/71988
     - https://groups.google.com/g/golang-announce/c/Y2uBTVKjBQk
@@ -41544,10 +42054,16 @@
     - https://access.redhat.com/errata/RHSA-2025:7425
     - https://access.redhat.com/security/cve/CVE-2025-30204
     - https://bugzilla.redhat.com/2354195
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2347423
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2348366
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2352914
     - https://bugzilla.redhat.com/show_bug.cgi?id=2354195
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-22868
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-27144
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-29786
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-30204
     - https://errata.almalinux.org/9/ALSA-2025-7425.html
-    - https://errata.rockylinux.org/RLSA-2025:3344
+    - https://errata.rockylinux.org/RLSA-2025:7479
     - https://github.com/golang-jwt/jwt
     - https://github.com/golang-jwt/jwt/commit/0951d184286dece21f73c85673fd308786ffe9c3
     - https://github.com/golang-jwt/jwt/commit/bf316c48137a1212f8d0af9288cc9ce8e59f1afb
@@ -41770,7 +42286,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2358493
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-22871
     - https://errata.almalinux.org/9/ALSA-2025-9635.html
-    - https://errata.rockylinux.org/RLSA-2025:9845
+    - https://errata.rockylinux.org/RLSA-2025:9317
     - https://go.dev/cl/652998
     - https://go.dev/issue/71988
     - https://groups.google.com/g/golang-announce/c/Y2uBTVKjBQk
@@ -43195,6 +43711,7 @@
       cbl-mariner: 4
       ghsa: 4
       redhat: 3
+      ubuntu: 2
     CVSS:
       ghsa:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N
@@ -43207,6 +43724,7 @@
     - https://access.redhat.com/security/cve/CVE-2024-45337
     - https://github.com/golang/crypto
     - https://github.com/golang/crypto/commit/b4f1988a35dee11ec3e05d6bf3e90b695fbd8909
+    - https://go-review.googlesource.com/c/crypto/+/635315/
     - https://go.dev/cl/635315
     - https://go.dev/issue/70779
     - https://groups.google.com/g/golang-announce/c/-nPEi39gI4Q/m/cGVPJCqdAQAJ
@@ -43214,6 +43732,7 @@
     - https://pkg.go.dev/vuln/GO-2024-3321
     - https://security.netapp.com/advisory/ntap-20250131-0007
     - https://security.netapp.com/advisory/ntap-20250131-0007/
+    - https://ubuntu.com/security/notices/USN-7839-1
     - https://www.cve.org/CVERecord?id=CVE-2024-45337
     PublishedDate: '2024-12-12T02:02:07.97Z'
     LastModifiedDate: '2025-02-18T21:15:22.187Z'
@@ -43589,7 +44108,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2358493
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-22871
     - https://errata.almalinux.org/9/ALSA-2025-9635.html
-    - https://errata.rockylinux.org/RLSA-2025:9845
+    - https://errata.rockylinux.org/RLSA-2025:9317
     - https://go.dev/cl/652998
     - https://go.dev/issue/71988
     - https://groups.google.com/g/golang-announce/c/Y2uBTVKjBQk
