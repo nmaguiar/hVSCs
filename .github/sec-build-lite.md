@@ -23552,7 +23552,8 @@
 │                        │      │                   could then be
 │                        │      │                   served to all users of that proxy. 
 │                        │      ├ Severity        : LOW 
-│                        │      ├ VendorSeverity   ╭ cbl-mariner: 2 
+│                        │      ├ VendorSeverity   ╭ azure      : 2 
+│                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ redhat     : 1 
 │                        │      │                  ╰ ubuntu     : 1 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:
@@ -23773,7 +23774,7 @@
 │                        │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                        │      │                  │       024-52005 
 │                        │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2025-7409.html 
-│                        │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2025:8414 
+│                        │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2025:7482 
 │                        │      │                  ├ [7] : https://github.com/git/git/security/advisories/GHSA-
 │                        │      │                  │       7jjc-gg6m-3329 
 │                        │      │                  ├ [8] : https://linux.oracle.com/cve/CVE-2024-52005.html 
@@ -23841,7 +23842,7 @@
 │                        │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                        │      │                  │       024-52005 
 │                        │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2025-7409.html 
-│                        │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2025:8414 
+│                        │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2025:7482 
 │                        │      │                  ├ [7] : https://github.com/git/git/security/advisories/GHSA-
 │                        │      │                  │       7jjc-gg6m-3329 
 │                        │      │                  ├ [8] : https://linux.oracle.com/cve/CVE-2024-52005.html 
@@ -24411,7 +24412,8 @@
 │                        │      │                   could then be
 │                        │      │                   served to all users of that proxy. 
 │                        │      ├ Severity        : LOW 
-│                        │      ├ VendorSeverity   ╭ cbl-mariner: 2 
+│                        │      ├ VendorSeverity   ╭ azure      : 2 
+│                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ redhat     : 1 
 │                        │      │                  ╰ ubuntu     : 1 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:
@@ -24562,7 +24564,8 @@
 │                        │      │                   could then be
 │                        │      │                   served to all users of that proxy. 
 │                        │      ├ Severity        : LOW 
-│                        │      ├ VendorSeverity   ╭ cbl-mariner: 2 
+│                        │      ├ VendorSeverity   ╭ azure      : 2 
+│                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ redhat     : 1 
 │                        │      │                  ╰ ubuntu     : 1 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:
@@ -27064,7 +27067,7 @@
 │                        │     │                  ├ [5] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                        │     │                  │       25-22871 
 │                        │     │                  ├ [6] : https://errata.almalinux.org/9/ALSA-2025-9635.html 
-│                        │     │                  ├ [7] : https://errata.rockylinux.org/RLSA-2025:9845 
+│                        │     │                  ├ [7] : https://errata.rockylinux.org/RLSA-2025:9317 
 │                        │     │                  ├ [8] : https://github.com/roadrunner-server/roadrunner 
 │                        │     │                  ├ [9] : https://github.com/roadrunner-server/roadrunner/commi
 │                        │     │                  │       t/f269279ee87d0b88127741cad1042389af7605fa 
@@ -27851,7 +27854,7 @@
 │                        │     │                  ├ [5] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                        │     │                  │       25-22871 
 │                        │     │                  ├ [6] : https://errata.almalinux.org/9/ALSA-2025-9635.html 
-│                        │     │                  ├ [7] : https://errata.rockylinux.org/RLSA-2025:9845 
+│                        │     │                  ├ [7] : https://errata.rockylinux.org/RLSA-2025:9317 
 │                        │     │                  ├ [8] : https://github.com/roadrunner-server/roadrunner 
 │                        │     │                  ├ [9] : https://github.com/roadrunner-server/roadrunner/commi
 │                        │     │                  │       t/f269279ee87d0b88127741cad1042389af7605fa 
@@ -34774,7 +34777,7 @@
 │                        │      │                  ├ [5] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                        │      │                  │       025-22871 
 │                        │      │                  ├ [6] : https://errata.almalinux.org/9/ALSA-2025-9635.html 
-│                        │      │                  ├ [7] : https://errata.rockylinux.org/RLSA-2025:9845 
+│                        │      │                  ├ [7] : https://errata.rockylinux.org/RLSA-2025:9317 
 │                        │      │                  ├ [8] : https://github.com/roadrunner-server/roadrunner 
 │                        │      │                  ├ [9] : https://github.com/roadrunner-server/roadrunner/comm
 │                        │      │                  │       it/f269279ee87d0b88127741cad1042389af7605fa 
