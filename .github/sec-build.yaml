@@ -22332,6 +22332,7 @@
       it on an insecure host should not be okay.
     Severity: LOW
     VendorSeverity:
+      photon: 3
       redhat: 2
       ubuntu: 1
     CVSS:
@@ -23269,6 +23270,7 @@
       it on an insecure host should not be okay.
     Severity: LOW
     VendorSeverity:
+      photon: 3
       redhat: 2
       ubuntu: 1
     CVSS:
@@ -23362,6 +23364,7 @@
       it on an insecure host should not be okay.
     Severity: LOW
     VendorSeverity:
+      photon: 3
       redhat: 2
       ubuntu: 1
     CVSS:
