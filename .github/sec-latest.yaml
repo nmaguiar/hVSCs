@@ -22706,6 +22706,7 @@
       it on an insecure host should not be okay.
     Severity: LOW
     VendorSeverity:
+      photon: 3
       redhat: 2
       ubuntu: 1
     CVSS:
@@ -25314,6 +25315,7 @@
       it on an insecure host should not be okay.
     Severity: LOW
     VendorSeverity:
+      photon: 3
       redhat: 2
       ubuntu: 1
     CVSS:
@@ -25407,6 +25409,7 @@
       it on an insecure host should not be okay.
     Severity: LOW
     VendorSeverity:
+      photon: 3
       redhat: 2
       ubuntu: 1
     CVSS:
@@ -28958,7 +28961,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-5318
     - https://www.libssh.org/security/advisories/CVE-2025-5318.txt
     PublishedDate: '2025-06-24T14:15:30.523Z'
-    LastModifiedDate: '2025-10-27T09:15:37.97Z'
+    LastModifiedDate: '2025-10-29T14:13:54.047Z'
   - VulnerabilityID: CVE-2025-5372
     PkgID: libssh-4@0.9.6-2ubuntu0.22.04.3
     PkgName: libssh-4
@@ -29449,7 +29452,7 @@
     - https://gitlab.com/libtiff/libtiff/-/issues/704
     - https://gitlab.com/libtiff/libtiff/-/merge_requests/732
     - https://linux.oracle.com/cve/CVE-2025-9900.html
-    - https://linux.oracle.com/errata/ELSA-2025-17675.html
+    - https://linux.oracle.com/errata/ELSA-2025-19156.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-9900
     - https://ubuntu.com/security/notices/USN-7783-1
     - https://www.cve.org/CVERecord?id=CVE-2025-9900
@@ -29580,6 +29583,7 @@
       azure: 1
       cbl-mariner: 1
       nvd: 3
+      oracle-oval: 3
       photon: 3
       redhat: 3
       ubuntu: 1
@@ -29600,6 +29604,8 @@
     - https://gitlab.com/libtiff/libtiff/-/commit/fe10872e53efba9cc36c66ac4ab3b41a839d5172
     - https://gitlab.com/libtiff/libtiff/-/issues/707
     - https://gitlab.com/libtiff/libtiff/-/merge_requests/727
+    - https://linux.oracle.com/cve/CVE-2025-8176.html
+    - https://linux.oracle.com/errata/ELSA-2025-19113.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-8176
     - https://ubuntu.com/security/notices/USN-7707-1
     - https://vuldb.com/?ctiid.317590
@@ -30053,6 +30059,7 @@
     - https://access.redhat.com/errata/RHSA-2025:18219
     - https://access.redhat.com/errata/RHSA-2025:18240
     - https://access.redhat.com/errata/RHSA-2025:19020
+    - https://access.redhat.com/errata/RHSA-2025:19046
     - https://access.redhat.com/security/cve/CVE-2025-49794
     - https://bugzilla.redhat.com/2372373
     - https://bugzilla.redhat.com/2372385
@@ -30074,7 +30081,7 @@
     - https://ubuntu.com/security/notices/USN-7694-1
     - https://www.cve.org/CVERecord?id=CVE-2025-49794
     PublishedDate: '2025-06-16T16:15:18.997Z'
-    LastModifiedDate: '2025-10-27T18:15:39.17Z'
+    LastModifiedDate: '2025-10-29T13:15:35.5Z'
   - VulnerabilityID: CVE-2025-49796
     PkgID: libxml2@2.9.13+dfsg-1ubuntu0.6
     PkgName: libxml2
@@ -30134,6 +30141,7 @@
     - https://access.redhat.com/errata/RHSA-2025:18219
     - https://access.redhat.com/errata/RHSA-2025:18240
     - https://access.redhat.com/errata/RHSA-2025:19020
+    - https://access.redhat.com/errata/RHSA-2025:19046
     - https://access.redhat.com/security/cve/CVE-2025-49796
     - https://bugzilla.redhat.com/2372373
     - https://bugzilla.redhat.com/2372385
@@ -30155,7 +30163,7 @@
     - https://ubuntu.com/security/notices/USN-7694-1
     - https://www.cve.org/CVERecord?id=CVE-2025-49796
     PublishedDate: '2025-06-16T16:15:19.37Z'
-    LastModifiedDate: '2025-10-27T18:15:41.623Z'
+    LastModifiedDate: '2025-10-29T13:15:35.727Z'
   - VulnerabilityID: CVE-2025-6021
     PkgID: libxml2@2.9.13+dfsg-1ubuntu0.6
     PkgName: libxml2
