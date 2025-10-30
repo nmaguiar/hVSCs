@@ -23196,7 +23196,8 @@
 │                        │      │                   host so overriding
 │                        │      │                   it on an insecure host should not be okay. 
 │                        │      ├ Severity        : LOW 
-│                        │      ├ VendorSeverity   ╭ redhat: 2 
+│                        │      ├ VendorSeverity   ╭ photon: 3 
+│                        │      │                  ├ redhat: 2 
 │                        │      │                  ╰ ubuntu: 1 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
 │                        │      │                           │           N/A:L 
@@ -24204,7 +24205,8 @@
 │                        │      │                   host so overriding
 │                        │      │                   it on an insecure host should not be okay. 
 │                        │      ├ Severity        : LOW 
-│                        │      ├ VendorSeverity   ╭ redhat: 2 
+│                        │      ├ VendorSeverity   ╭ photon: 3 
+│                        │      │                  ├ redhat: 2 
 │                        │      │                  ╰ ubuntu: 1 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
 │                        │      │                           │           N/A:L 
@@ -24307,7 +24309,8 @@
 │                        │      │                   host so overriding
 │                        │      │                   it on an insecure host should not be okay. 
 │                        │      ├ Severity        : LOW 
-│                        │      ├ VendorSeverity   ╭ redhat: 2 
+│                        │      ├ VendorSeverity   ╭ photon: 3 
+│                        │      │                  ├ redhat: 2 
 │                        │      │                  ╰ ubuntu: 1 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
 │                        │      │                           │           N/A:L 
