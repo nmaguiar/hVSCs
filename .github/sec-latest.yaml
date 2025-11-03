@@ -28047,7 +28047,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       redhat: 2
@@ -28271,7 +28271,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       redhat: 2
@@ -28495,7 +28495,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       redhat: 2
@@ -29488,7 +29488,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2392784
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-9900
     - https://errata.almalinux.org/9/ALSA-2025-19113.html
-    - https://errata.rockylinux.org/RLSA-2025:17675
+    - https://errata.rockylinux.org/RLSA-2025:19276
     - https://github.com/SexyShoelessGodofWar/LibTiff-4.7.0-Write-What-Where?tab=readme-ov-file
     - https://gitlab.com/libtiff/libtiff/-/commit/3e0dcf0ec651638b2bd849b2e6f3124b36890d99 (v4.7.1rc1)
     - https://gitlab.com/libtiff/libtiff/-/issues/704
@@ -29680,7 +29680,7 @@
     CweIDs:
     - CWE-119
     VendorSeverity:
-      amazon: 1
+      amazon: 2
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -31965,7 +31965,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       redhat: 2
@@ -32189,7 +32189,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       redhat: 2
@@ -32857,6 +32857,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L
         V3Score: 5.6
     References:
+    - http://www.openwall.com/lists/oss-security/2025/11/01/6
     - https://access.redhat.com/security/cve/CVE-2025-45582
     - https://github.com/i900008/vulndb/blob/main/Gnu_tar_vuln.md
     - https://lists.gnu.org/archive/html/bug-tar/2025-08/msg00012.html
@@ -32867,7 +32868,7 @@
     - https://www.gnu.org/software/tar/manual/html_node/Integrity.html#Integrity
     - https://www.gnu.org/software/tar/manual/html_node/Security-rules-of-thumb.html
     PublishedDate: '2025-07-11T17:15:37.183Z'
-    LastModifiedDate: '2025-08-18T04:15:36.743Z'
+    LastModifiedDate: '2025-11-02T01:15:32.307Z'
   - VulnerabilityID: CVE-2023-29383
     PkgID: uidmap@1:4.8.1-2ubuntu2.2
     PkgName: uidmap
