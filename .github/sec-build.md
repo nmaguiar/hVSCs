@@ -26533,22 +26533,23 @@
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:
 │                        │      │                           │           L/A:L 
 │                        │      │                           ╰ V3Score : 5.6 
-│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-45582 
-│                        │      │                  ├ [1]: https://github.com/i900008/vulndb/blob/main/Gnu_tar_v
+│                        │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/11/01/6 
+│                        │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-45582 
+│                        │      │                  ├ [2]: https://github.com/i900008/vulndb/blob/main/Gnu_tar_v
 │                        │      │                  │      uln.md 
-│                        │      │                  ├ [2]: https://lists.gnu.org/archive/html/bug-tar/2025-08/ms
+│                        │      │                  ├ [3]: https://lists.gnu.org/archive/html/bug-tar/2025-08/ms
 │                        │      │                  │      g00012.html 
-│                        │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-45582 
-│                        │      │                  ├ [4]: https://www.cve.org/CVERecord?id=CVE-2025-45582 
-│                        │      │                  ├ [5]: https://www.gnu.org/software/tar/ 
-│                        │      │                  ├ [6]: https://www.gnu.org/software/tar/manual/html_node/Int
-│                        │      │                  │      egrity.html 
+│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-45582 
+│                        │      │                  ├ [5]: https://www.cve.org/CVERecord?id=CVE-2025-45582 
+│                        │      │                  ├ [6]: https://www.gnu.org/software/tar/ 
 │                        │      │                  ├ [7]: https://www.gnu.org/software/tar/manual/html_node/Int
+│                        │      │                  │      egrity.html 
+│                        │      │                  ├ [8]: https://www.gnu.org/software/tar/manual/html_node/Int
 │                        │      │                  │      egrity.html#Integrity 
-│                        │      │                  ╰ [8]: https://www.gnu.org/software/tar/manual/html_node/Sec
+│                        │      │                  ╰ [9]: https://www.gnu.org/software/tar/manual/html_node/Sec
 │                        │      │                         urity-rules-of-thumb.html 
 │                        │      ├ PublishedDate   : 2025-07-11T17:15:37.183Z 
-│                        │      ╰ LastModifiedDate: 2025-08-18T04:15:36.743Z 
+│                        │      ╰ LastModifiedDate: 2025-11-02T01:15:32.307Z 
 │                        ├ [63] ╭ VulnerabilityID : CVE-2023-29383 
 │                        │      ├ PkgID           : uidmap@1:4.8.1-2ubuntu2.2 
 │                        │      ├ PkgName         : uidmap 
