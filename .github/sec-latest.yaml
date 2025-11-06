@@ -22240,6 +22240,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:N/I:H/A:N
         V3Score: 8.6
     References:
+    - http://www.openwall.com/lists/oss-security/2025/10/22/1
     - https://access.redhat.com/security/cve/CVE-2025-40778
     - https://gist.github.com/N3mes1s/f76b4a606308937b0806a5256bc1f918
     - https://kb.isc.org/docs/cve-2025-40778
@@ -22247,7 +22248,7 @@
     - https://ubuntu.com/security/notices/USN-7836-1
     - https://www.cve.org/CVERecord?id=CVE-2025-40778
     PublishedDate: '2025-10-22T16:15:42.52Z'
-    LastModifiedDate: '2025-10-27T13:15:44.78Z'
+    LastModifiedDate: '2025-11-04T22:16:11.677Z'
   - VulnerabilityID: CVE-2025-40780
     PkgID: bind9-dnsutils@1:9.18.30-0ubuntu0.22.04.2
     PkgName: bind9-dnsutils
@@ -22282,13 +22283,14 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:N/I:H/A:N
         V3Score: 8.6
     References:
+    - http://www.openwall.com/lists/oss-security/2025/10/22/1
     - https://access.redhat.com/security/cve/CVE-2025-40780
     - https://kb.isc.org/docs/cve-2025-40780
     - https://nvd.nist.gov/vuln/detail/CVE-2025-40780
     - https://ubuntu.com/security/notices/USN-7836-1
     - https://www.cve.org/CVERecord?id=CVE-2025-40780
     PublishedDate: '2025-10-22T16:15:42.72Z'
-    LastModifiedDate: '2025-10-22T21:12:32.33Z'
+    LastModifiedDate: '2025-11-04T22:16:11.92Z'
   - VulnerabilityID: CVE-2025-8677
     PkgID: bind9-dnsutils@1:9.18.30-0ubuntu0.22.04.2
     PkgName: bind9-dnsutils
@@ -22323,13 +22325,14 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
+    - http://www.openwall.com/lists/oss-security/2025/10/22/1
     - https://access.redhat.com/security/cve/CVE-2025-8677
     - https://kb.isc.org/docs/cve-2025-8677
     - https://nvd.nist.gov/vuln/detail/CVE-2025-8677
     - https://ubuntu.com/security/notices/USN-7836-1
     - https://www.cve.org/CVERecord?id=CVE-2025-8677
     PublishedDate: '2025-10-22T16:15:46.043Z'
-    LastModifiedDate: '2025-10-22T21:12:32.33Z'
+    LastModifiedDate: '2025-11-04T22:16:44.973Z'
   - VulnerabilityID: CVE-2025-40778
     PkgID: bind9-host@1:9.18.30-0ubuntu0.22.04.2
     PkgName: bind9-host
@@ -22364,6 +22367,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:N/I:H/A:N
         V3Score: 8.6
     References:
+    - http://www.openwall.com/lists/oss-security/2025/10/22/1
     - https://access.redhat.com/security/cve/CVE-2025-40778
     - https://gist.github.com/N3mes1s/f76b4a606308937b0806a5256bc1f918
     - https://kb.isc.org/docs/cve-2025-40778
@@ -22371,7 +22375,7 @@
     - https://ubuntu.com/security/notices/USN-7836-1
     - https://www.cve.org/CVERecord?id=CVE-2025-40778
     PublishedDate: '2025-10-22T16:15:42.52Z'
-    LastModifiedDate: '2025-10-27T13:15:44.78Z'
+    LastModifiedDate: '2025-11-04T22:16:11.677Z'
   - VulnerabilityID: CVE-2025-40780
     PkgID: bind9-host@1:9.18.30-0ubuntu0.22.04.2
     PkgName: bind9-host
@@ -22406,13 +22410,14 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:N/I:H/A:N
         V3Score: 8.6
     References:
+    - http://www.openwall.com/lists/oss-security/2025/10/22/1
     - https://access.redhat.com/security/cve/CVE-2025-40780
     - https://kb.isc.org/docs/cve-2025-40780
     - https://nvd.nist.gov/vuln/detail/CVE-2025-40780
     - https://ubuntu.com/security/notices/USN-7836-1
     - https://www.cve.org/CVERecord?id=CVE-2025-40780
     PublishedDate: '2025-10-22T16:15:42.72Z'
-    LastModifiedDate: '2025-10-22T21:12:32.33Z'
+    LastModifiedDate: '2025-11-04T22:16:11.92Z'
   - VulnerabilityID: CVE-2025-8677
     PkgID: bind9-host@1:9.18.30-0ubuntu0.22.04.2
     PkgName: bind9-host
@@ -22447,13 +22452,14 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
+    - http://www.openwall.com/lists/oss-security/2025/10/22/1
     - https://access.redhat.com/security/cve/CVE-2025-8677
     - https://kb.isc.org/docs/cve-2025-8677
     - https://nvd.nist.gov/vuln/detail/CVE-2025-8677
     - https://ubuntu.com/security/notices/USN-7836-1
     - https://www.cve.org/CVERecord?id=CVE-2025-8677
     PublishedDate: '2025-10-22T16:15:46.043Z'
-    LastModifiedDate: '2025-10-22T21:12:32.33Z'
+    LastModifiedDate: '2025-11-04T22:16:44.973Z'
   - VulnerabilityID: CVE-2025-40778
     PkgID: bind9-libs@1:9.18.30-0ubuntu0.22.04.2
     PkgName: bind9-libs
@@ -22488,6 +22494,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:N/I:H/A:N
         V3Score: 8.6
     References:
+    - http://www.openwall.com/lists/oss-security/2025/10/22/1
     - https://access.redhat.com/security/cve/CVE-2025-40778
     - https://gist.github.com/N3mes1s/f76b4a606308937b0806a5256bc1f918
     - https://kb.isc.org/docs/cve-2025-40778
@@ -22495,7 +22502,7 @@
     - https://ubuntu.com/security/notices/USN-7836-1
     - https://www.cve.org/CVERecord?id=CVE-2025-40778
     PublishedDate: '2025-10-22T16:15:42.52Z'
-    LastModifiedDate: '2025-10-27T13:15:44.78Z'
+    LastModifiedDate: '2025-11-04T22:16:11.677Z'
   - VulnerabilityID: CVE-2025-40780
     PkgID: bind9-libs@1:9.18.30-0ubuntu0.22.04.2
     PkgName: bind9-libs
@@ -22530,13 +22537,14 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:N/I:H/A:N
         V3Score: 8.6
     References:
+    - http://www.openwall.com/lists/oss-security/2025/10/22/1
     - https://access.redhat.com/security/cve/CVE-2025-40780
     - https://kb.isc.org/docs/cve-2025-40780
     - https://nvd.nist.gov/vuln/detail/CVE-2025-40780
     - https://ubuntu.com/security/notices/USN-7836-1
     - https://www.cve.org/CVERecord?id=CVE-2025-40780
     PublishedDate: '2025-10-22T16:15:42.72Z'
-    LastModifiedDate: '2025-10-22T21:12:32.33Z'
+    LastModifiedDate: '2025-11-04T22:16:11.92Z'
   - VulnerabilityID: CVE-2025-8677
     PkgID: bind9-libs@1:9.18.30-0ubuntu0.22.04.2
     PkgName: bind9-libs
@@ -22571,13 +22579,14 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
+    - http://www.openwall.com/lists/oss-security/2025/10/22/1
     - https://access.redhat.com/security/cve/CVE-2025-8677
     - https://kb.isc.org/docs/cve-2025-8677
     - https://nvd.nist.gov/vuln/detail/CVE-2025-8677
     - https://ubuntu.com/security/notices/USN-7836-1
     - https://www.cve.org/CVERecord?id=CVE-2025-8677
     PublishedDate: '2025-10-22T16:15:46.043Z'
-    LastModifiedDate: '2025-10-22T21:12:32.33Z'
+    LastModifiedDate: '2025-11-04T22:16:44.973Z'
   - VulnerabilityID: CVE-2016-2781
     PkgID: coreutils@8.32-4.1ubuntu1.2
     PkgName: coreutils
@@ -22714,6 +22723,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 5.3
     References:
+    - http://www.openwall.com/lists/oss-security/2025/09/10/1
     - https://access.redhat.com/security/cve/CVE-2025-9086
     - https://curl.se/docs/CVE-2025-9086.html
     - https://curl.se/docs/CVE-2025-9086.json
@@ -22722,7 +22732,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-9086
     - https://www.cve.org/CVERecord?id=CVE-2025-9086
     PublishedDate: '2025-09-12T06:15:44.1Z'
-    LastModifiedDate: '2025-09-15T15:21:42.937Z'
+    LastModifiedDate: '2025-11-04T22:16:45.19Z'
   - VulnerabilityID: CVE-2023-34969
     PkgID: dbus@1.12.20-2ubuntu4.1
     PkgName: dbus
@@ -22962,6 +22972,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:N/I:H/A:N
         V3Score: 8.6
     References:
+    - http://www.openwall.com/lists/oss-security/2025/10/22/1
     - https://access.redhat.com/security/cve/CVE-2025-40778
     - https://gist.github.com/N3mes1s/f76b4a606308937b0806a5256bc1f918
     - https://kb.isc.org/docs/cve-2025-40778
@@ -22969,7 +22980,7 @@
     - https://ubuntu.com/security/notices/USN-7836-1
     - https://www.cve.org/CVERecord?id=CVE-2025-40778
     PublishedDate: '2025-10-22T16:15:42.52Z'
-    LastModifiedDate: '2025-10-27T13:15:44.78Z'
+    LastModifiedDate: '2025-11-04T22:16:11.677Z'
   - VulnerabilityID: CVE-2025-40780
     PkgID: dnsutils@1:9.18.30-0ubuntu0.22.04.2
     PkgName: dnsutils
@@ -23004,13 +23015,14 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:N/I:H/A:N
         V3Score: 8.6
     References:
+    - http://www.openwall.com/lists/oss-security/2025/10/22/1
     - https://access.redhat.com/security/cve/CVE-2025-40780
     - https://kb.isc.org/docs/cve-2025-40780
     - https://nvd.nist.gov/vuln/detail/CVE-2025-40780
     - https://ubuntu.com/security/notices/USN-7836-1
     - https://www.cve.org/CVERecord?id=CVE-2025-40780
     PublishedDate: '2025-10-22T16:15:42.72Z'
-    LastModifiedDate: '2025-10-22T21:12:32.33Z'
+    LastModifiedDate: '2025-11-04T22:16:11.92Z'
   - VulnerabilityID: CVE-2025-8677
     PkgID: dnsutils@1:9.18.30-0ubuntu0.22.04.2
     PkgName: dnsutils
@@ -23045,13 +23057,14 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
+    - http://www.openwall.com/lists/oss-security/2025/10/22/1
     - https://access.redhat.com/security/cve/CVE-2025-8677
     - https://kb.isc.org/docs/cve-2025-8677
     - https://nvd.nist.gov/vuln/detail/CVE-2025-8677
     - https://ubuntu.com/security/notices/USN-7836-1
     - https://www.cve.org/CVERecord?id=CVE-2025-8677
     PublishedDate: '2025-10-22T16:15:46.043Z'
-    LastModifiedDate: '2025-10-22T21:12:32.33Z'
+    LastModifiedDate: '2025-11-04T22:16:44.973Z'
   - VulnerabilityID: CVE-2025-6297
     PkgID: dpkg@1.21.1ubuntu2.3
     PkgName: dpkg
@@ -23246,7 +23259,8 @@
         V3Score: 8
     References:
     - http://seclists.org/fulldisclosure/2025/Sep/60
-    - https://access.redhat.com/errata/RHSA-2025:11533
+    - http://www.openwall.com/lists/oss-security/2025/07/08/4
+    - https://access.redhat.com/errata/RHSA-2025:11462
     - https://access.redhat.com/security/cve/CVE-2025-48384
     - https://bugzilla.redhat.com/2337824
     - https://bugzilla.redhat.com/2337956
@@ -23270,7 +23284,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-48384
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-48385
     - https://dgl.cx/2025/07/git-clone-submodule-cve-2025-48384
-    - https://errata.almalinux.org/10/ALSA-2025-11533.html
+    - https://errata.almalinux.org/9/ALSA-2025-11462.html
     - https://errata.rockylinux.org/RLSA-2025:11534
     - https://github.com/git/git/commit/05e9cd64ee23bbadcea6bcffd6660ed02b8eab89
     - https://github.com/git/git/security/advisories/GHSA-vwqx-4fm8-6qc9
@@ -23284,7 +23298,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-48384
     - https://www.openwall.com/lists/oss-security/2025/07/08/4
     PublishedDate: '2025-07-08T19:15:42.8Z'
-    LastModifiedDate: '2025-11-04T14:50:32.75Z'
+    LastModifiedDate: '2025-11-04T22:16:16.783Z'
   - VulnerabilityID: CVE-2024-52005
     PkgID: git@1:2.34.1-1ubuntu1.12
     PkgName: git
@@ -23321,12 +23335,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2025:7482
+    - https://access.redhat.com/errata/RHSA-2025:7409
     - https://access.redhat.com/security/cve/CVE-2024-52005
     - https://bugzilla.redhat.com/2338289
     - https://bugzilla.redhat.com/show_bug.cgi?id=2338289
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-52005
-    - https://errata.almalinux.org/10/ALSA-2025-7482.html
+    - https://errata.almalinux.org/9/ALSA-2025-7409.html
     - https://errata.rockylinux.org/RLSA-2025:8414
     - https://github.com/git/git/security/advisories/GHSA-7jjc-gg6m-3329
     - https://linux.oracle.com/cve/CVE-2024-52005.html
@@ -23375,7 +23389,8 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N
         V3Score: 4.3
     References:
-    - https://access.redhat.com/errata/RHSA-2025:11533
+    - http://www.openwall.com/lists/oss-security/2025/07/08/4
+    - https://access.redhat.com/errata/RHSA-2025:11462
     - https://access.redhat.com/security/cve/CVE-2025-27613
     - https://bugzilla.redhat.com/2337824
     - https://bugzilla.redhat.com/2337956
@@ -23398,7 +23413,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-46835
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-48384
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-48385
-    - https://errata.almalinux.org/10/ALSA-2025-11533.html
+    - https://errata.almalinux.org/9/ALSA-2025-11462.html
     - https://errata.rockylinux.org/RLSA-2025:11534
     - https://github.com/j6t/gitk/compare/465f03869ae11acd04abfa1b83c67879c867410c..026c397d911cde55924d7eb1311d0fd6e2e105d5
     - https://github.com/j6t/gitk/compare/7dd272eca153058da2e8d5b9960bbbf0b4f0cbaa..67a128b91e25978a15f9f7e194d81b441d603652
@@ -23414,7 +23429,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-27613
     - https://www.openwall.com/lists/oss-security/2025/07/08/4
     PublishedDate: '2025-07-10T15:15:26.243Z'
-    LastModifiedDate: '2025-11-03T18:15:52.45Z'
+    LastModifiedDate: '2025-11-04T22:16:08.857Z'
   - VulnerabilityID: CVE-2025-46835
     PkgID: git@1:2.34.1-1ubuntu1.12
     PkgName: git
@@ -23451,7 +23466,8 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:L/A:N
         V3Score: 3.1
     References:
-    - https://access.redhat.com/errata/RHSA-2025:11533
+    - http://www.openwall.com/lists/oss-security/2025/07/08/4
+    - https://access.redhat.com/errata/RHSA-2025:11462
     - https://access.redhat.com/security/cve/CVE-2025-46835
     - https://bugzilla.redhat.com/2337824
     - https://bugzilla.redhat.com/2337956
@@ -23474,7 +23490,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-46835
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-48384
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-48385
-    - https://errata.almalinux.org/10/ALSA-2025-11533.html
+    - https://errata.almalinux.org/9/ALSA-2025-11462.html
     - https://errata.rockylinux.org/RLSA-2025:11534
     - https://github.com/j6t/git-gui/compare/dcda716dbc9c90bcac4611bd1076747671ee0906..a437f5bc93330a70b42a230e52f3bd036ca1b1da
     - https://github.com/j6t/git-gui/security/advisories/GHSA-xfx7-68v4-v8fg
@@ -23488,7 +23504,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-46835
     - https://www.openwall.com/lists/oss-security/2025/07/08/4
     PublishedDate: '2025-07-10T15:15:29.503Z'
-    LastModifiedDate: '2025-11-03T18:16:54.213Z'
+    LastModifiedDate: '2025-11-04T22:16:15.913Z'
   - VulnerabilityID: CVE-2025-48386
     PkgID: git@1:2.34.1-1ubuntu1.12
     PkgName: git
@@ -23525,6 +23541,7 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:C/C:H/I:N/A:N
         V3Score: 6.3
     References:
+    - http://www.openwall.com/lists/oss-security/2025/07/08/4
     - https://access.redhat.com/security/cve/CVE-2025-48386
     - https://github.com/git/git/security/advisories/GHSA-4v56-3xvj-xvfr
     - https://nvd.nist.gov/vuln/detail/CVE-2025-48386
@@ -23532,7 +23549,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-48386
     - https://www.openwall.com/lists/oss-security/2025/07/08/4
     PublishedDate: '2025-07-08T19:15:43.41Z'
-    LastModifiedDate: '2025-07-10T13:18:53.83Z'
+    LastModifiedDate: '2025-11-04T22:16:17.05Z'
   - VulnerabilityID: CVE-2025-48384
     PkgID: git-man@1:2.34.1-1ubuntu1.12
     PkgName: git-man
@@ -23577,7 +23594,8 @@
         V3Score: 8
     References:
     - http://seclists.org/fulldisclosure/2025/Sep/60
-    - https://access.redhat.com/errata/RHSA-2025:11533
+    - http://www.openwall.com/lists/oss-security/2025/07/08/4
+    - https://access.redhat.com/errata/RHSA-2025:11462
     - https://access.redhat.com/security/cve/CVE-2025-48384
     - https://bugzilla.redhat.com/2337824
     - https://bugzilla.redhat.com/2337956
@@ -23601,7 +23619,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-48384
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-48385
     - https://dgl.cx/2025/07/git-clone-submodule-cve-2025-48384
-    - https://errata.almalinux.org/10/ALSA-2025-11533.html
+    - https://errata.almalinux.org/9/ALSA-2025-11462.html
     - https://errata.rockylinux.org/RLSA-2025:11534
     - https://github.com/git/git/commit/05e9cd64ee23bbadcea6bcffd6660ed02b8eab89
     - https://github.com/git/git/security/advisories/GHSA-vwqx-4fm8-6qc9
@@ -23615,7 +23633,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-48384
     - https://www.openwall.com/lists/oss-security/2025/07/08/4
     PublishedDate: '2025-07-08T19:15:42.8Z'
-    LastModifiedDate: '2025-11-04T14:50:32.75Z'
+    LastModifiedDate: '2025-11-04T22:16:16.783Z'
   - VulnerabilityID: CVE-2024-52005
     PkgID: git-man@1:2.34.1-1ubuntu1.12
     PkgName: git-man
@@ -23652,12 +23670,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2025:7482
+    - https://access.redhat.com/errata/RHSA-2025:7409
     - https://access.redhat.com/security/cve/CVE-2024-52005
     - https://bugzilla.redhat.com/2338289
     - https://bugzilla.redhat.com/show_bug.cgi?id=2338289
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-52005
-    - https://errata.almalinux.org/10/ALSA-2025-7482.html
+    - https://errata.almalinux.org/9/ALSA-2025-7409.html
     - https://errata.rockylinux.org/RLSA-2025:8414
     - https://github.com/git/git/security/advisories/GHSA-7jjc-gg6m-3329
     - https://linux.oracle.com/cve/CVE-2024-52005.html
@@ -23706,7 +23724,8 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N
         V3Score: 4.3
     References:
-    - https://access.redhat.com/errata/RHSA-2025:11533
+    - http://www.openwall.com/lists/oss-security/2025/07/08/4
+    - https://access.redhat.com/errata/RHSA-2025:11462
     - https://access.redhat.com/security/cve/CVE-2025-27613
     - https://bugzilla.redhat.com/2337824
     - https://bugzilla.redhat.com/2337956
@@ -23729,7 +23748,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-46835
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-48384
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-48385
-    - https://errata.almalinux.org/10/ALSA-2025-11533.html
+    - https://errata.almalinux.org/9/ALSA-2025-11462.html
     - https://errata.rockylinux.org/RLSA-2025:11534
     - https://github.com/j6t/gitk/compare/465f03869ae11acd04abfa1b83c67879c867410c..026c397d911cde55924d7eb1311d0fd6e2e105d5
     - https://github.com/j6t/gitk/compare/7dd272eca153058da2e8d5b9960bbbf0b4f0cbaa..67a128b91e25978a15f9f7e194d81b441d603652
@@ -23745,7 +23764,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-27613
     - https://www.openwall.com/lists/oss-security/2025/07/08/4
     PublishedDate: '2025-07-10T15:15:26.243Z'
-    LastModifiedDate: '2025-11-03T18:15:52.45Z'
+    LastModifiedDate: '2025-11-04T22:16:08.857Z'
   - VulnerabilityID: CVE-2025-46835
     PkgID: git-man@1:2.34.1-1ubuntu1.12
     PkgName: git-man
@@ -23782,7 +23801,8 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:L/A:N
         V3Score: 3.1
     References:
-    - https://access.redhat.com/errata/RHSA-2025:11533
+    - http://www.openwall.com/lists/oss-security/2025/07/08/4
+    - https://access.redhat.com/errata/RHSA-2025:11462
     - https://access.redhat.com/security/cve/CVE-2025-46835
     - https://bugzilla.redhat.com/2337824
     - https://bugzilla.redhat.com/2337956
@@ -23805,7 +23825,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-46835
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-48384
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-48385
-    - https://errata.almalinux.org/10/ALSA-2025-11533.html
+    - https://errata.almalinux.org/9/ALSA-2025-11462.html
     - https://errata.rockylinux.org/RLSA-2025:11534
     - https://github.com/j6t/git-gui/compare/dcda716dbc9c90bcac4611bd1076747671ee0906..a437f5bc93330a70b42a230e52f3bd036ca1b1da
     - https://github.com/j6t/git-gui/security/advisories/GHSA-xfx7-68v4-v8fg
@@ -23819,7 +23839,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-46835
     - https://www.openwall.com/lists/oss-security/2025/07/08/4
     PublishedDate: '2025-07-10T15:15:29.503Z'
-    LastModifiedDate: '2025-11-03T18:16:54.213Z'
+    LastModifiedDate: '2025-11-04T22:16:15.913Z'
   - VulnerabilityID: CVE-2025-48386
     PkgID: git-man@1:2.34.1-1ubuntu1.12
     PkgName: git-man
@@ -23856,6 +23876,7 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:C/C:H/I:N/A:N
         V3Score: 6.3
     References:
+    - http://www.openwall.com/lists/oss-security/2025/07/08/4
     - https://access.redhat.com/security/cve/CVE-2025-48386
     - https://github.com/git/git/security/advisories/GHSA-4v56-3xvj-xvfr
     - https://nvd.nist.gov/vuln/detail/CVE-2025-48386
@@ -23863,7 +23884,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-48386
     - https://www.openwall.com/lists/oss-security/2025/07/08/4
     PublishedDate: '2025-07-08T19:15:43.41Z'
-    LastModifiedDate: '2025-07-10T13:18:53.83Z'
+    LastModifiedDate: '2025-11-04T22:16:17.05Z'
   - VulnerabilityID: CVE-2025-30258
     PkgID: gnupg@2.2.27-3ubuntu2.1
     PkgName: gnupg
@@ -24782,6 +24803,7 @@
       azure: 2
       cbl-mariner: 2
       oracle-oval: 2
+      photon: 2
       redhat: 2
       rocky: 2
       ubuntu: 1
@@ -24790,13 +24812,13 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:L
         V3Score: 6.5
     References:
-    - https://access.redhat.com/errata/RHSA-2025:9421
+    - https://access.redhat.com/errata/RHSA-2025:9432
     - https://access.redhat.com/security/cve/CVE-2025-47268
     - https://bugzilla.redhat.com/2364090
     - https://bugzilla.redhat.com/show_bug.cgi?id=2364090
     - https://bugzilla.suse.com/show_bug.cgi?id=1242300
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-47268
-    - https://errata.almalinux.org/10/ALSA-2025-9421.html
+    - https://errata.almalinux.org/9/ALSA-2025-9432.html
     - https://errata.rockylinux.org/RLSA-2025:9421
     - https://github.com/Zephkek/ping-rtt-overflow/
     - https://github.com/iputils/iputils/issues/584
@@ -24837,6 +24859,7 @@
       azure: 2
       cbl-mariner: 2
       oracle-oval: 2
+      photon: 2
       redhat: 2
       ubuntu: 1
     CVSS:
@@ -25114,12 +25137,13 @@
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:L/A:L
         V3Score: 4.2
     References:
-    - https://access.redhat.com/errata/RHSA-2025:13240
+    - http://www.openwall.com/lists/oss-security/2025/07/23/1
+    - https://access.redhat.com/errata/RHSA-2025:12980
     - https://access.redhat.com/security/cve/CVE-2025-8058
     - https://bugzilla.redhat.com/2383146
     - https://bugzilla.redhat.com/show_bug.cgi?id=2383146
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-8058
-    - https://errata.almalinux.org/10/ALSA-2025-13240.html
+    - https://errata.almalinux.org/8/ALSA-2025-12980.html
     - https://errata.rockylinux.org/RLSA-2025:12980
     - https://linux.oracle.com/cve/CVE-2025-8058.html
     - https://linux.oracle.com/errata/ELSA-2025-20595.html
@@ -25130,7 +25154,7 @@
     - https://ubuntu.com/security/notices/USN-7760-1
     - https://www.cve.org/CVERecord?id=CVE-2025-8058
     PublishedDate: '2025-07-23T20:15:27.747Z'
-    LastModifiedDate: '2025-07-25T15:29:44.523Z'
+    LastModifiedDate: '2025-11-04T22:16:44.44Z'
   - VulnerabilityID: CVE-2025-4802
     PkgID: libc6@2.35-0ubuntu3.9
     PkgName: libc6
@@ -25231,12 +25255,13 @@
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:L/A:L
         V3Score: 4.2
     References:
-    - https://access.redhat.com/errata/RHSA-2025:13240
+    - http://www.openwall.com/lists/oss-security/2025/07/23/1
+    - https://access.redhat.com/errata/RHSA-2025:12980
     - https://access.redhat.com/security/cve/CVE-2025-8058
     - https://bugzilla.redhat.com/2383146
     - https://bugzilla.redhat.com/show_bug.cgi?id=2383146
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-8058
-    - https://errata.almalinux.org/10/ALSA-2025-13240.html
+    - https://errata.almalinux.org/8/ALSA-2025-12980.html
     - https://errata.rockylinux.org/RLSA-2025:12980
     - https://linux.oracle.com/cve/CVE-2025-8058.html
     - https://linux.oracle.com/errata/ELSA-2025-20595.html
@@ -25247,7 +25272,7 @@
     - https://ubuntu.com/security/notices/USN-7760-1
     - https://www.cve.org/CVERecord?id=CVE-2025-8058
     PublishedDate: '2025-07-23T20:15:27.747Z'
-    LastModifiedDate: '2025-07-25T15:29:44.523Z'
+    LastModifiedDate: '2025-11-04T22:16:44.44Z'
   - VulnerabilityID: CVE-2025-0167
     PkgID: libcurl3-gnutls@7.81.0-1ubuntu1.20
     PkgName: libcurl3-gnutls
@@ -25333,6 +25358,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 5.3
     References:
+    - http://www.openwall.com/lists/oss-security/2025/09/10/1
     - https://access.redhat.com/security/cve/CVE-2025-9086
     - https://curl.se/docs/CVE-2025-9086.html
     - https://curl.se/docs/CVE-2025-9086.json
@@ -25341,7 +25367,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-9086
     - https://www.cve.org/CVERecord?id=CVE-2025-9086
     PublishedDate: '2025-09-12T06:15:44.1Z'
-    LastModifiedDate: '2025-09-15T15:21:42.937Z'
+    LastModifiedDate: '2025-11-04T22:16:45.19Z'
   - VulnerabilityID: CVE-2025-0167
     PkgID: libcurl4@7.81.0-1ubuntu1.20
     PkgName: libcurl4
@@ -25427,6 +25453,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 5.3
     References:
+    - http://www.openwall.com/lists/oss-security/2025/09/10/1
     - https://access.redhat.com/security/cve/CVE-2025-9086
     - https://curl.se/docs/CVE-2025-9086.html
     - https://curl.se/docs/CVE-2025-9086.json
@@ -25435,7 +25462,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-9086
     - https://www.cve.org/CVERecord?id=CVE-2025-9086
     PublishedDate: '2025-09-12T06:15:44.1Z'
-    LastModifiedDate: '2025-09-15T15:21:42.937Z'
+    LastModifiedDate: '2025-11-04T22:16:45.19Z'
   - VulnerabilityID: CVE-2023-34969
     PkgID: libdbus-1-3@1.12.20-2ubuntu4.1
     PkgName: libdbus-1-3
@@ -25521,10 +25548,14 @@
     VendorSeverity:
       amazon: 2
       azure: 2
+      nvd: 3
       photon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 7.8
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L
         V3Score: 5.3
@@ -25542,7 +25573,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-1372
     - https://www.gnu.org/
     PublishedDate: '2025-02-17T03:15:09.573Z'
-    LastModifiedDate: '2025-02-17T03:15:09.573Z'
+    LastModifiedDate: '2025-11-04T20:19:09.52Z'
   - VulnerabilityID: CVE-2025-1377
     PkgID: libelf1@0.186-1build1
     PkgName: libelf1
@@ -25568,10 +25599,14 @@
     - CWE-404
     VendorSeverity:
       azure: 1
-      photon: 1
+      nvd: 2
+      photon: 2
       redhat: 1
       ubuntu: 2
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.5
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L
         V3Score: 3.3
@@ -25588,7 +25623,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-1377
     - https://www.gnu.org/
     PublishedDate: '2025-02-17T05:15:10.09Z'
-    LastModifiedDate: '2025-02-17T05:15:10.09Z'
+    LastModifiedDate: '2025-11-04T20:26:20.043Z'
   - VulnerabilityID: CVE-2025-1352
     PkgID: libelf1@0.186-1build1
     PkgName: libelf1
@@ -25615,7 +25650,7 @@
       amazon: 2
       azure: 1
       nvd: 3
-      photon: 2
+      photon: 3
       redhat: 2
       ubuntu: 1
     CVSS:
@@ -25662,10 +25697,14 @@
     - CWE-404
     VendorSeverity:
       azure: 1
-      photon: 1
+      nvd: 2
+      photon: 2
       redhat: 1
       ubuntu: 1
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 4.7
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:L
         V3Score: 2.5
@@ -25681,7 +25720,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-1376
     - https://www.gnu.org/
     PublishedDate: '2025-02-17T05:15:09.807Z'
-    LastModifiedDate: '2025-02-17T05:15:09.807Z'
+    LastModifiedDate: '2025-11-04T20:21:18.26Z'
   - VulnerabilityID: CVE-2024-8176
     PkgID: libexpat1@2.4.7-1ubuntu0.5
     PkgName: libexpat1
@@ -25727,6 +25766,7 @@
     - http://seclists.org/fulldisclosure/2025/May/7
     - http://seclists.org/fulldisclosure/2025/May/8
     - http://www.openwall.com/lists/oss-security/2025/03/15/1
+    - http://www.openwall.com/lists/oss-security/2025/09/24/11
     - https://access.redhat.com/errata/RHSA-2025:13681
     - https://access.redhat.com/errata/RHSA-2025:3531
     - https://access.redhat.com/errata/RHSA-2025:3734
@@ -25745,7 +25785,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2310137
     - https://bugzilla.suse.com/show_bug.cgi?id=1239618
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-8176
-    - https://errata.almalinux.org/10/ALSA-2025-7512.html
+    - https://errata.almalinux.org/9/ALSA-2025-7444.html
     - https://errata.rockylinux.org/RLSA-2025:3531
     - https://github.com/libexpat/libexpat/blob/R_2_7_0/expat/Changes#L40-L52
     - https://github.com/libexpat/libexpat/issues/893
@@ -25760,7 +25800,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-8176
     - https://www.kb.cert.org/vuls/id/760160
     PublishedDate: '2025-03-14T09:15:14.157Z'
-    LastModifiedDate: '2025-11-03T20:17:04.633Z'
+    LastModifiedDate: '2025-11-04T22:16:04.96Z'
   - VulnerabilityID: CVE-2022-27943
     PkgID: libgcc-s1@12.3.0-1ubuntu1~22.04
     PkgName: libgcc-s1
@@ -26105,6 +26145,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:H
         V3Score: 6.5
     References:
+    - http://www.openwall.com/lists/oss-security/2025/07/11/3
     - https://access.redhat.com/errata/RHSA-2025:16115
     - https://access.redhat.com/errata/RHSA-2025:16116
     - https://access.redhat.com/errata/RHSA-2025:17348
@@ -26122,7 +26163,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-32988
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-32990
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6395
-    - https://errata.almalinux.org/10/ALSA-2025-16115.html
+    - https://errata.almalinux.org/9/ALSA-2025-16116.html
     - https://errata.rockylinux.org/RLSA-2025:17415
     - https://linux.oracle.com/cve/CVE-2025-32988.html
     - https://linux.oracle.com/errata/ELSA-2025-20606.html
@@ -26133,7 +26174,7 @@
     - https://ubuntu.com/security/notices/USN-7742-1
     - https://www.cve.org/CVERecord?id=CVE-2025-32988
     PublishedDate: '2025-07-10T08:15:24.223Z'
-    LastModifiedDate: '2025-11-03T20:18:29.86Z'
+    LastModifiedDate: '2025-11-04T22:16:10.16Z'
   - VulnerabilityID: CVE-2025-32989
     PkgID: libgnutls30@3.7.3-4ubuntu1.6
     PkgName: libgnutls30
@@ -26172,6 +26213,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
         V3Score: 5.3
     References:
+    - http://www.openwall.com/lists/oss-security/2025/07/11/3
     - https://access.redhat.com/errata/RHSA-2025:16115
     - https://access.redhat.com/errata/RHSA-2025:16116
     - https://access.redhat.com/errata/RHSA-2025:17348
@@ -26190,7 +26232,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-32989
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-32990
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6395
-    - https://errata.almalinux.org/10/ALSA-2025-16115.html
+    - https://errata.almalinux.org/9/ALSA-2025-16116.html
     - https://errata.rockylinux.org/RLSA-2025:16115
     - https://linux.oracle.com/cve/CVE-2025-32989.html
     - https://linux.oracle.com/errata/ELSA-2025-20606.html
@@ -26199,7 +26241,7 @@
     - https://ubuntu.com/security/notices/USN-7635-1
     - https://www.cve.org/CVERecord?id=CVE-2025-32989
     PublishedDate: '2025-07-10T08:15:24.43Z'
-    LastModifiedDate: '2025-10-23T20:15:38.73Z'
+    LastModifiedDate: '2025-11-04T22:16:10.317Z'
   - VulnerabilityID: CVE-2025-32990
     PkgID: libgnutls30@3.7.3-4ubuntu1.6
     PkgName: libgnutls30
@@ -26242,6 +26284,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:L
         V3Score: 6.5
     References:
+    - http://www.openwall.com/lists/oss-security/2025/07/11/3
     - https://access.redhat.com/errata/RHSA-2025:16115
     - https://access.redhat.com/errata/RHSA-2025:16116
     - https://access.redhat.com/errata/RHSA-2025:17348
@@ -26259,7 +26302,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-32988
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-32990
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6395
-    - https://errata.almalinux.org/10/ALSA-2025-16115.html
+    - https://errata.almalinux.org/9/ALSA-2025-16116.html
     - https://errata.rockylinux.org/RLSA-2025:17415
     - https://linux.oracle.com/cve/CVE-2025-32990.html
     - https://linux.oracle.com/errata/ELSA-2025-20606.html
@@ -26270,7 +26313,7 @@
     - https://ubuntu.com/security/notices/USN-7742-1
     - https://www.cve.org/CVERecord?id=CVE-2025-32990
     PublishedDate: '2025-07-10T10:15:33.06Z'
-    LastModifiedDate: '2025-11-03T20:18:29.993Z'
+    LastModifiedDate: '2025-11-04T22:16:10.45Z'
   - VulnerabilityID: CVE-2025-6395
     PkgID: libgnutls30@3.7.3-4ubuntu1.6
     PkgName: libgnutls30
@@ -26309,6 +26352,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:H
         V3Score: 6.5
     References:
+    - http://www.openwall.com/lists/oss-security/2025/07/11/3
     - https://access.redhat.com/errata/RHSA-2025:16115
     - https://access.redhat.com/errata/RHSA-2025:16116
     - https://access.redhat.com/errata/RHSA-2025:17348
@@ -26326,7 +26370,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-32988
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-32990
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6395
-    - https://errata.almalinux.org/10/ALSA-2025-16115.html
+    - https://errata.almalinux.org/9/ALSA-2025-16116.html
     - https://errata.rockylinux.org/RLSA-2025:17415
     - https://linux.oracle.com/cve/CVE-2025-6395.html
     - https://linux.oracle.com/errata/ELSA-2025-20606.html
@@ -26337,7 +26381,7 @@
     - https://ubuntu.com/security/notices/USN-7742-1
     - https://www.cve.org/CVERecord?id=CVE-2025-6395
     PublishedDate: '2025-07-10T16:15:25.11Z'
-    LastModifiedDate: '2025-11-03T20:19:18.67Z'
+    LastModifiedDate: '2025-11-04T22:16:43.003Z'
   - VulnerabilityID: CVE-2025-3576
     PkgID: libgssapi-krb5-2@1.19.2-2ubuntu0.6
     PkgName: libgssapi-krb5-2
@@ -26389,7 +26433,7 @@
     - https://bugzilla.redhat.com/2359465
     - https://bugzilla.redhat.com/show_bug.cgi?id=2359465
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-3576
-    - https://errata.almalinux.org/10/ALSA-2025-9418.html
+    - https://errata.almalinux.org/9/ALSA-2025-9430.html
     - https://errata.rockylinux.org/RLSA-2025:8411
     - https://linux.oracle.com/cve/CVE-2025-3576.html
     - https://linux.oracle.com/errata/ELSA-2025-9430.html
@@ -26446,7 +26490,7 @@
     - https://bugzilla.redhat.com/2368600
     - https://bugzilla.redhat.com/show_bug.cgi?id=2368600
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-5222
-    - https://errata.almalinux.org/10/ALSA-2025-11888.html
+    - https://errata.almalinux.org/9/ALSA-2025-12083.html
     - https://errata.rockylinux.org/RLSA-2025:11888
     - https://linux.oracle.com/cve/CVE-2025-5222.html
     - https://linux.oracle.com/errata/ELSA-2025-12083.html
@@ -26506,7 +26550,7 @@
     - https://bugzilla.redhat.com/2359465
     - https://bugzilla.redhat.com/show_bug.cgi?id=2359465
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-3576
-    - https://errata.almalinux.org/10/ALSA-2025-9418.html
+    - https://errata.almalinux.org/9/ALSA-2025-9430.html
     - https://errata.rockylinux.org/RLSA-2025:8411
     - https://linux.oracle.com/cve/CVE-2025-3576.html
     - https://linux.oracle.com/errata/ELSA-2025-9430.html
@@ -26568,7 +26612,7 @@
     - https://bugzilla.redhat.com/2359465
     - https://bugzilla.redhat.com/show_bug.cgi?id=2359465
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-3576
-    - https://errata.almalinux.org/10/ALSA-2025-9418.html
+    - https://errata.almalinux.org/9/ALSA-2025-9430.html
     - https://errata.rockylinux.org/RLSA-2025:8411
     - https://linux.oracle.com/cve/CVE-2025-3576.html
     - https://linux.oracle.com/errata/ELSA-2025-9430.html
@@ -26630,7 +26674,7 @@
     - https://bugzilla.redhat.com/2359465
     - https://bugzilla.redhat.com/show_bug.cgi?id=2359465
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-3576
-    - https://errata.almalinux.org/10/ALSA-2025-9418.html
+    - https://errata.almalinux.org/9/ALSA-2025-9430.html
     - https://errata.rockylinux.org/RLSA-2025:8411
     - https://linux.oracle.com/cve/CVE-2025-3576.html
     - https://linux.oracle.com/errata/ELSA-2025-9430.html
@@ -26677,6 +26721,7 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2023-50495
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/LU4MYMKFEZQ5VSCVLRIZGDQOUW3T44GT/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/LU4MYMKFEZQ5VSCVLRIZGDQOUW3T44GT/
     - https://lists.gnu.org/archive/html/bug-ncurses/2023-04/msg00020.html
     - https://lists.gnu.org/archive/html/bug-ncurses/2023-04/msg00029.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-50495
@@ -26684,7 +26729,7 @@
     - https://ubuntu.com/security/notices/USN-6684-1
     - https://www.cve.org/CVERecord?id=CVE-2023-50495
     PublishedDate: '2023-12-12T15:15:07.867Z'
-    LastModifiedDate: '2024-11-21T08:37:04.243Z'
+    LastModifiedDate: '2025-11-04T19:16:14.45Z'
   - VulnerabilityID: CVE-2023-50495
     PkgID: libncursesw6@6.3-2ubuntu0.1
     PkgName: libncursesw6
@@ -26721,6 +26766,7 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2023-50495
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/LU4MYMKFEZQ5VSCVLRIZGDQOUW3T44GT/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/LU4MYMKFEZQ5VSCVLRIZGDQOUW3T44GT/
     - https://lists.gnu.org/archive/html/bug-ncurses/2023-04/msg00020.html
     - https://lists.gnu.org/archive/html/bug-ncurses/2023-04/msg00029.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-50495
@@ -26728,7 +26774,7 @@
     - https://ubuntu.com/security/notices/USN-6684-1
     - https://www.cve.org/CVERecord?id=CVE-2023-50495
     PublishedDate: '2023-12-12T15:15:07.867Z'
-    LastModifiedDate: '2024-11-21T08:37:04.243Z'
+    LastModifiedDate: '2025-11-04T19:16:14.45Z'
   - VulnerabilityID: CVE-2025-53859
     PkgID: libnginx-mod-http-geoip2@1.18.0-6ubuntu14.6
     PkgName: libnginx-mod-http-geoip2
@@ -26770,6 +26816,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:N
         V3Score: 3.7
     References:
+    - http://www.openwall.com/lists/oss-security/2025/08/13/5
     - https://access.redhat.com/security/cve/CVE-2025-53859
     - https://my.f5.com/manage/s/article/K000152786
     - https://nginx.org/download/patch.2025.smtp.txt
@@ -26778,7 +26825,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-53859
     - https://www.openwall.com/lists/oss-security/2025/08/13/5
     PublishedDate: '2025-08-13T15:15:37.657Z'
-    LastModifiedDate: '2025-10-21T18:02:48.767Z'
+    LastModifiedDate: '2025-11-04T22:16:27.033Z'
   - VulnerabilityID: CVE-2025-53859
     PkgID: libnginx-mod-http-image-filter@1.18.0-6ubuntu14.6
     PkgName: libnginx-mod-http-image-filter
@@ -26820,6 +26867,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:N
         V3Score: 3.7
     References:
+    - http://www.openwall.com/lists/oss-security/2025/08/13/5
     - https://access.redhat.com/security/cve/CVE-2025-53859
     - https://my.f5.com/manage/s/article/K000152786
     - https://nginx.org/download/patch.2025.smtp.txt
@@ -26828,7 +26876,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-53859
     - https://www.openwall.com/lists/oss-security/2025/08/13/5
     PublishedDate: '2025-08-13T15:15:37.657Z'
-    LastModifiedDate: '2025-10-21T18:02:48.767Z'
+    LastModifiedDate: '2025-11-04T22:16:27.033Z'
   - VulnerabilityID: CVE-2025-53859
     PkgID: libnginx-mod-http-xslt-filter@1.18.0-6ubuntu14.6
     PkgName: libnginx-mod-http-xslt-filter
@@ -26870,6 +26918,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:N
         V3Score: 3.7
     References:
+    - http://www.openwall.com/lists/oss-security/2025/08/13/5
     - https://access.redhat.com/security/cve/CVE-2025-53859
     - https://my.f5.com/manage/s/article/K000152786
     - https://nginx.org/download/patch.2025.smtp.txt
@@ -26878,7 +26927,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-53859
     - https://www.openwall.com/lists/oss-security/2025/08/13/5
     PublishedDate: '2025-08-13T15:15:37.657Z'
-    LastModifiedDate: '2025-10-21T18:02:48.767Z'
+    LastModifiedDate: '2025-11-04T22:16:27.033Z'
   - VulnerabilityID: CVE-2025-53859
     PkgID: libnginx-mod-mail@1.18.0-6ubuntu14.6
     PkgName: libnginx-mod-mail
@@ -26920,6 +26969,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:N
         V3Score: 3.7
     References:
+    - http://www.openwall.com/lists/oss-security/2025/08/13/5
     - https://access.redhat.com/security/cve/CVE-2025-53859
     - https://my.f5.com/manage/s/article/K000152786
     - https://nginx.org/download/patch.2025.smtp.txt
@@ -26928,7 +26978,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-53859
     - https://www.openwall.com/lists/oss-security/2025/08/13/5
     PublishedDate: '2025-08-13T15:15:37.657Z'
-    LastModifiedDate: '2025-10-21T18:02:48.767Z'
+    LastModifiedDate: '2025-11-04T22:16:27.033Z'
   - VulnerabilityID: CVE-2025-53859
     PkgID: libnginx-mod-stream@1.18.0-6ubuntu14.6
     PkgName: libnginx-mod-stream
@@ -26970,6 +27020,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:N
         V3Score: 3.7
     References:
+    - http://www.openwall.com/lists/oss-security/2025/08/13/5
     - https://access.redhat.com/security/cve/CVE-2025-53859
     - https://my.f5.com/manage/s/article/K000152786
     - https://nginx.org/download/patch.2025.smtp.txt
@@ -26978,7 +27029,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-53859
     - https://www.openwall.com/lists/oss-security/2025/08/13/5
     PublishedDate: '2025-08-13T15:15:37.657Z'
-    LastModifiedDate: '2025-10-21T18:02:48.767Z'
+    LastModifiedDate: '2025-11-04T22:16:27.033Z'
   - VulnerabilityID: CVE-2025-53859
     PkgID: libnginx-mod-stream-geoip2@1.18.0-6ubuntu14.6
     PkgName: libnginx-mod-stream-geoip2
@@ -27020,6 +27071,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:N
         V3Score: 3.7
     References:
+    - http://www.openwall.com/lists/oss-security/2025/08/13/5
     - https://access.redhat.com/security/cve/CVE-2025-53859
     - https://my.f5.com/manage/s/article/K000152786
     - https://nginx.org/download/patch.2025.smtp.txt
@@ -27028,7 +27080,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-53859
     - https://www.openwall.com/lists/oss-security/2025/08/13/5
     PublishedDate: '2025-08-13T15:15:37.657Z'
-    LastModifiedDate: '2025-10-21T18:02:48.767Z'
+    LastModifiedDate: '2025-11-04T22:16:27.033Z'
   - VulnerabilityID: CVE-2025-4598
     PkgID: libnss-systemd@249.11-0ubuntu3.12
     PkgName: libnss-systemd
@@ -27070,6 +27122,7 @@
     - http://seclists.org/fulldisclosure/2025/Jun/9
     - http://www.openwall.com/lists/oss-security/2025/06/05/1
     - http://www.openwall.com/lists/oss-security/2025/06/05/3
+    - http://www.openwall.com/lists/oss-security/2025/08/18/3
     - https://access.redhat.com/security/cve/CVE-2025-4598
     - https://blogs.oracle.com/linux/post/analysis-of-cve-2025-4598
     - https://bugzilla.redhat.com/show_bug.cgi?id=2369242
@@ -27093,7 +27146,7 @@
     - https://www.openwall.com/lists/oss-security/2025/08/18/3
     - https://www.qualys.com/2025/05/29/apport-coredump/apport-coredump.txt
     PublishedDate: '2025-05-30T14:15:23.557Z'
-    LastModifiedDate: '2025-11-03T20:19:10.997Z'
+    LastModifiedDate: '2025-11-04T22:16:19.68Z'
   - VulnerabilityID: CVE-2023-7008
     PkgID: libnss-systemd@249.11-0ubuntu3.12
     PkgName: libnss-systemd
@@ -27613,6 +27666,7 @@
     - http://seclists.org/fulldisclosure/2025/Jun/9
     - http://www.openwall.com/lists/oss-security/2025/06/05/1
     - http://www.openwall.com/lists/oss-security/2025/06/05/3
+    - http://www.openwall.com/lists/oss-security/2025/08/18/3
     - https://access.redhat.com/security/cve/CVE-2025-4598
     - https://blogs.oracle.com/linux/post/analysis-of-cve-2025-4598
     - https://bugzilla.redhat.com/show_bug.cgi?id=2369242
@@ -27636,7 +27690,7 @@
     - https://www.openwall.com/lists/oss-security/2025/08/18/3
     - https://www.qualys.com/2025/05/29/apport-coredump/apport-coredump.txt
     PublishedDate: '2025-05-30T14:15:23.557Z'
-    LastModifiedDate: '2025-11-03T20:19:10.997Z'
+    LastModifiedDate: '2025-11-04T22:16:19.68Z'
   - VulnerabilityID: CVE-2023-7008
     PkgID: libpam-systemd@249.11-0ubuntu3.12
     PkgName: libpam-systemd
@@ -28083,7 +28137,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       redhat: 2
@@ -28210,12 +28264,14 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2025:14984
+    - http://www.openwall.com/lists/oss-security/2025/07/28/1
+    - http://www.openwall.com/lists/oss-security/2025/07/28/2
+    - https://access.redhat.com/errata/RHSA-2025:15019
     - https://access.redhat.com/security/cve/CVE-2025-8194
     - https://bugzilla.redhat.com/2384043
     - https://bugzilla.redhat.com/show_bug.cgi?id=2384043
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-8194
-    - https://errata.almalinux.org/10/ALSA-2025-14984.html
+    - https://errata.almalinux.org/9/ALSA-2025-15019.html
     - https://errata.rockylinux.org/RLSA-2025:14841
     - https://gist.github.com/sethmlarson/1716ac5b82b73dbcbf23ad2eff8b33e1
     - https://github.com/python/cpython/commit/57f5981d6260ed21266e0c26951b8564cc252bc2
@@ -28235,7 +28291,7 @@
     - https://ubuntu.com/security/notices/USN-7710-2
     - https://www.cve.org/CVERecord?id=CVE-2025-8194
     PublishedDate: '2025-07-28T19:15:43.793Z'
-    LastModifiedDate: '2025-09-24T18:15:42.72Z'
+    LastModifiedDate: '2025-11-04T22:16:44.687Z'
   - VulnerabilityID: CVE-2025-1795
     PkgID: libpython3.10@3.10.12-1~22.04.9
     PkgName: libpython3.10
@@ -28310,7 +28366,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       redhat: 2
@@ -28437,12 +28493,14 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2025:14984
+    - http://www.openwall.com/lists/oss-security/2025/07/28/1
+    - http://www.openwall.com/lists/oss-security/2025/07/28/2
+    - https://access.redhat.com/errata/RHSA-2025:15019
     - https://access.redhat.com/security/cve/CVE-2025-8194
     - https://bugzilla.redhat.com/2384043
     - https://bugzilla.redhat.com/show_bug.cgi?id=2384043
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-8194
-    - https://errata.almalinux.org/10/ALSA-2025-14984.html
+    - https://errata.almalinux.org/9/ALSA-2025-15019.html
     - https://errata.rockylinux.org/RLSA-2025:14841
     - https://gist.github.com/sethmlarson/1716ac5b82b73dbcbf23ad2eff8b33e1
     - https://github.com/python/cpython/commit/57f5981d6260ed21266e0c26951b8564cc252bc2
@@ -28462,7 +28520,7 @@
     - https://ubuntu.com/security/notices/USN-7710-2
     - https://www.cve.org/CVERecord?id=CVE-2025-8194
     PublishedDate: '2025-07-28T19:15:43.793Z'
-    LastModifiedDate: '2025-09-24T18:15:42.72Z'
+    LastModifiedDate: '2025-11-04T22:16:44.687Z'
   - VulnerabilityID: CVE-2025-1795
     PkgID: libpython3.10-minimal@3.10.12-1~22.04.9
     PkgName: libpython3.10-minimal
@@ -28537,7 +28595,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       redhat: 2
@@ -28664,12 +28722,14 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2025:14984
+    - http://www.openwall.com/lists/oss-security/2025/07/28/1
+    - http://www.openwall.com/lists/oss-security/2025/07/28/2
+    - https://access.redhat.com/errata/RHSA-2025:15019
     - https://access.redhat.com/security/cve/CVE-2025-8194
     - https://bugzilla.redhat.com/2384043
     - https://bugzilla.redhat.com/show_bug.cgi?id=2384043
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-8194
-    - https://errata.almalinux.org/10/ALSA-2025-14984.html
+    - https://errata.almalinux.org/9/ALSA-2025-15019.html
     - https://errata.rockylinux.org/RLSA-2025:14841
     - https://gist.github.com/sethmlarson/1716ac5b82b73dbcbf23ad2eff8b33e1
     - https://github.com/python/cpython/commit/57f5981d6260ed21266e0c26951b8564cc252bc2
@@ -28689,7 +28749,7 @@
     - https://ubuntu.com/security/notices/USN-7710-2
     - https://www.cve.org/CVERecord?id=CVE-2025-8194
     PublishedDate: '2025-07-28T19:15:43.793Z'
-    LastModifiedDate: '2025-09-24T18:15:42.72Z'
+    LastModifiedDate: '2025-11-04T22:16:44.687Z'
   - VulnerabilityID: CVE-2025-1795
     PkgID: libpython3.10-stdlib@3.10.12-1~22.04.9
     PkgName: libpython3.10-stdlib
@@ -28884,12 +28944,13 @@
     - http://seclists.org/fulldisclosure/2025/Sep/56
     - http://seclists.org/fulldisclosure/2025/Sep/57
     - http://seclists.org/fulldisclosure/2025/Sep/58
-    - https://access.redhat.com/errata/RHSA-2025:11933
+    - http://www.openwall.com/lists/oss-security/2025/09/06/1
+    - https://access.redhat.com/errata/RHSA-2025:11992
     - https://access.redhat.com/security/cve/CVE-2025-6965
     - https://bugzilla.redhat.com/2380149
     - https://bugzilla.redhat.com/show_bug.cgi?id=2380149
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6965
-    - https://errata.almalinux.org/10/ALSA-2025-11933.html
+    - https://errata.almalinux.org/9/ALSA-2025-11992.html
     - https://errata.rockylinux.org/RLSA-2025:12010
     - https://linux.oracle.com/cve/CVE-2025-6965.html
     - https://linux.oracle.com/errata/ELSA-2025-14101.html
@@ -28899,7 +28960,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-6965
     - https://www.sqlite.org/src/info/5508b56fd24016c13981ec280ecdd833007c9d8dd595edb295b984c2b487b5c8
     PublishedDate: '2025-07-15T14:15:31.08Z'
-    LastModifiedDate: '2025-11-03T19:16:15.483Z'
+    LastModifiedDate: '2025-11-04T22:16:43.413Z'
   - VulnerabilityID: CVE-2025-4877
     PkgID: libssh-4@0.9.6-2ubuntu0.22.04.3
     PkgName: libssh-4
@@ -29038,6 +29099,8 @@
     - https://access.redhat.com/errata/RHSA-2025:19012
     - https://access.redhat.com/errata/RHSA-2025:19098
     - https://access.redhat.com/errata/RHSA-2025:19101
+    - https://access.redhat.com/errata/RHSA-2025:19295
+    - https://access.redhat.com/errata/RHSA-2025:19313
     - https://access.redhat.com/errata/RHSA-2025:19400
     - https://access.redhat.com/errata/RHSA-2025:19401
     - https://access.redhat.com/errata/RHSA-2025:19470
@@ -29046,7 +29109,7 @@
     - https://bugzilla.redhat.com/2369131
     - https://bugzilla.redhat.com/show_bug.cgi?id=2369131
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-5318
-    - https://errata.almalinux.org/10/ALSA-2025-18231.html
+    - https://errata.almalinux.org/9/ALSA-2025-18275.html
     - https://errata.rockylinux.org/RLSA-2025:18231
     - https://linux.oracle.com/cve/CVE-2025-5318.html
     - https://linux.oracle.com/errata/ELSA-2025-18286.html
@@ -29056,7 +29119,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-5318
     - https://www.libssh.org/security/advisories/CVE-2025-5318.txt
     PublishedDate: '2025-06-24T14:15:30.523Z'
-    LastModifiedDate: '2025-11-03T13:15:36.603Z'
+    LastModifiedDate: '2025-11-05T14:15:32.3Z'
   - VulnerabilityID: CVE-2025-5372
     PkgID: libssh-4@0.9.6-2ubuntu0.22.04.3
     PkgName: libssh-4
@@ -29110,7 +29173,8 @@
       PURL: pkg:deb/ubuntu/libssh-4@0.9.6-2ubuntu0.22.04.3?arch=amd64&distro=ubuntu-22.04
       UID: 7e62281eaf95bfd
     InstalledVersion: 0.9.6-2ubuntu0.22.04.3
-    Status: affected
+    FixedVersion: 0.9.6-2ubuntu0.22.04.5
+    Status: fixed
     Layer:
       Digest: sha256:63782b729071f33bec44d99cafdd016317fe9b972cf4a8143db4b97d428659d0
       DiffID: sha256:cbea4b6f84ee45189850bcf6496b4225a76d9b6e96e8d67226cb3b9e50f918f0
@@ -29140,6 +29204,7 @@
     - https://access.redhat.com/security/cve/CVE-2025-8114
     - https://bugzilla.redhat.com/show_bug.cgi?id=2383220
     - https://nvd.nist.gov/vuln/detail/CVE-2025-8114
+    - https://ubuntu.com/security/notices/USN-7849-1
     - https://www.cve.org/CVERecord?id=CVE-2025-8114
     - https://www.libssh.org/security/advisories/CVE-2025-8114.txt
     PublishedDate: '2025-07-24T15:15:27.117Z'
@@ -29196,6 +29261,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L
         V3Score: 5.6
     References:
+    - http://www.openwall.com/lists/oss-security/2025/09/30/5
     - https://access.redhat.com/security/cve/CVE-2025-9230
     - https://github.com/openssl/openssl/commit/5965ea5dd6960f36d8b7f74f8eac67a8eb8f2b45
     - https://github.com/openssl/openssl/commit/9e91358f365dee6c446dcdcdb01c04d2743fd280
@@ -29210,7 +29276,7 @@
     - https://ubuntu.com/security/notices/USN-7786-1
     - https://www.cve.org/CVERecord?id=CVE-2025-9230
     PublishedDate: '2025-09-30T14:15:41.05Z'
-    LastModifiedDate: '2025-11-03T18:17:02.893Z'
+    LastModifiedDate: '2025-11-04T22:16:45.36Z'
   - VulnerabilityID: CVE-2024-41996
     PkgID: libssl3@3.0.2-0ubuntu1.19
     PkgName: libssl3
@@ -29406,6 +29472,7 @@
     - http://seclists.org/fulldisclosure/2025/Jun/9
     - http://www.openwall.com/lists/oss-security/2025/06/05/1
     - http://www.openwall.com/lists/oss-security/2025/06/05/3
+    - http://www.openwall.com/lists/oss-security/2025/08/18/3
     - https://access.redhat.com/security/cve/CVE-2025-4598
     - https://blogs.oracle.com/linux/post/analysis-of-cve-2025-4598
     - https://bugzilla.redhat.com/show_bug.cgi?id=2369242
@@ -29429,7 +29496,7 @@
     - https://www.openwall.com/lists/oss-security/2025/08/18/3
     - https://www.qualys.com/2025/05/29/apport-coredump/apport-coredump.txt
     PublishedDate: '2025-05-30T14:15:23.557Z'
-    LastModifiedDate: '2025-11-03T20:19:10.997Z'
+    LastModifiedDate: '2025-11-04T22:16:19.68Z'
   - VulnerabilityID: CVE-2023-7008
     PkgID: libsystemd0@249.11-0ubuntu3.12
     PkgName: libsystemd0
@@ -29532,6 +29599,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
         V3Score: 8.8
     References:
+    - http://www.openwall.com/lists/oss-security/2025/09/26/3
     - https://access.redhat.com/errata/RHSA-2025:17651
     - https://access.redhat.com/errata/RHSA-2025:17675
     - https://access.redhat.com/errata/RHSA-2025:17710
@@ -29542,10 +29610,11 @@
     - https://access.redhat.com/errata/RHSA-2025:19156
     - https://access.redhat.com/errata/RHSA-2025:19276
     - https://access.redhat.com/security/cve/CVE-2025-9900
+    - https://bugzilla.redhat.com/2383598
     - https://bugzilla.redhat.com/2392784
     - https://bugzilla.redhat.com/show_bug.cgi?id=2392784
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-9900
-    - https://errata.almalinux.org/10/ALSA-2025-19156.html
+    - https://errata.almalinux.org/9/ALSA-2025-19113.html
     - https://errata.rockylinux.org/RLSA-2025:19276
     - https://github.com/SexyShoelessGodofWar/LibTiff-4.7.0-Write-What-Where?tab=readme-ov-file
     - https://gitlab.com/libtiff/libtiff/-/commit/3e0dcf0ec651638b2bd849b2e6f3124b36890d99 (v4.7.1rc1)
@@ -29558,7 +29627,7 @@
     - https://ubuntu.com/security/notices/USN-7783-1
     - https://www.cve.org/CVERecord?id=CVE-2025-9900
     PublishedDate: '2025-09-23T17:15:38.357Z'
-    LastModifiedDate: '2025-11-03T19:16:17.693Z'
+    LastModifiedDate: '2025-11-04T22:16:46.07Z'
   - VulnerabilityID: CVE-2025-8534
     PkgID: libtiff5@4.3.0-6ubuntu0.10
     PkgName: libtiff5
@@ -29739,7 +29808,7 @@
     CweIDs:
     - CWE-119
     VendorSeverity:
-      amazon: 1
+      amazon: 2
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -29847,6 +29916,7 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2023-50495
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/LU4MYMKFEZQ5VSCVLRIZGDQOUW3T44GT/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/LU4MYMKFEZQ5VSCVLRIZGDQOUW3T44GT/
     - https://lists.gnu.org/archive/html/bug-ncurses/2023-04/msg00020.html
     - https://lists.gnu.org/archive/html/bug-ncurses/2023-04/msg00029.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-50495
@@ -29854,7 +29924,7 @@
     - https://ubuntu.com/security/notices/USN-6684-1
     - https://www.cve.org/CVERecord?id=CVE-2023-50495
     PublishedDate: '2023-12-12T15:15:07.867Z'
-    LastModifiedDate: '2024-11-21T08:37:04.243Z'
+    LastModifiedDate: '2025-11-04T19:16:14.45Z'
   - VulnerabilityID: CVE-2025-4598
     PkgID: libudev1@249.11-0ubuntu3.12
     PkgName: libudev1
@@ -29896,6 +29966,7 @@
     - http://seclists.org/fulldisclosure/2025/Jun/9
     - http://www.openwall.com/lists/oss-security/2025/06/05/1
     - http://www.openwall.com/lists/oss-security/2025/06/05/3
+    - http://www.openwall.com/lists/oss-security/2025/08/18/3
     - https://access.redhat.com/security/cve/CVE-2025-4598
     - https://blogs.oracle.com/linux/post/analysis-of-cve-2025-4598
     - https://bugzilla.redhat.com/show_bug.cgi?id=2369242
@@ -29919,7 +29990,7 @@
     - https://www.openwall.com/lists/oss-security/2025/08/18/3
     - https://www.qualys.com/2025/05/29/apport-coredump/apport-coredump.txt
     PublishedDate: '2025-05-30T14:15:23.557Z'
-    LastModifiedDate: '2025-11-03T20:19:10.997Z'
+    LastModifiedDate: '2025-11-04T22:16:19.68Z'
   - VulnerabilityID: CVE-2023-7008
     PkgID: libudev1@249.11-0ubuntu3.12
     PkgName: libudev1
@@ -30024,13 +30095,13 @@
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:L/I:L/A:L
         V3Score: 5.6
     References:
-    - https://access.redhat.com/errata/RHSA-2025:13429
+    - https://access.redhat.com/errata/RHSA-2025:13428
     - https://access.redhat.com/security/cve/CVE-2025-32414
     - https://bugzilla.redhat.com/2358121
     - https://bugzilla.redhat.com/2360768
     - https://bugzilla.redhat.com/show_bug.cgi?id=2358121
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-32414
-    - https://errata.almalinux.org/10/ALSA-2025-13429.html
+    - https://errata.almalinux.org/9/ALSA-2025-13428.html
     - https://errata.rockylinux.org/RLSA-2025:8958
     - https://gitlab.gnome.org/GNOME/libxml2/-/issues/889
     - https://linux.oracle.com/cve/CVE-2025-32414.html
@@ -30085,13 +30156,13 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2025:13429
+    - https://access.redhat.com/errata/RHSA-2025:13428
     - https://access.redhat.com/security/cve/CVE-2025-32415
     - https://bugzilla.redhat.com/2358121
     - https://bugzilla.redhat.com/2360768
     - https://bugzilla.redhat.com/show_bug.cgi?id=2360768
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-32415
-    - https://errata.almalinux.org/10/ALSA-2025-13429.html
+    - https://errata.almalinux.org/9/ALSA-2025-13428.html
     - https://errata.rockylinux.org/RLSA-2025:13203
     - https://gitlab.gnome.org/GNOME/libxml2/-/issues/890
     - https://linux.oracle.com/cve/CVE-2025-32415.html
@@ -30165,7 +30236,6 @@
     - https://access.redhat.com/errata/RHSA-2025:19046
     - https://access.redhat.com/security/cve/CVE-2025-49794
     - https://bugzilla.redhat.com/2372373
-    - https://bugzilla.redhat.com/2372379
     - https://bugzilla.redhat.com/2372385
     - https://bugzilla.redhat.com/2372406
     - https://bugzilla.redhat.com/show_bug.cgi?id=2372373
@@ -30174,7 +30244,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-49794
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-49796
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6021
-    - https://errata.almalinux.org/10/ALSA-2025-10630.html
+    - https://errata.almalinux.org/9/ALSA-2025-10699.html
     - https://errata.rockylinux.org/RLSA-2025:10698
     - https://gitlab.gnome.org/GNOME/libxml2/-/issues/931
     - https://linux.oracle.com/cve/CVE-2025-49794.html
@@ -30248,7 +30318,6 @@
     - https://access.redhat.com/errata/RHSA-2025:19046
     - https://access.redhat.com/security/cve/CVE-2025-49796
     - https://bugzilla.redhat.com/2372373
-    - https://bugzilla.redhat.com/2372379
     - https://bugzilla.redhat.com/2372385
     - https://bugzilla.redhat.com/2372406
     - https://bugzilla.redhat.com/show_bug.cgi?id=2372373
@@ -30257,7 +30326,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-49794
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-49796
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6021
-    - https://errata.almalinux.org/10/ALSA-2025-10630.html
+    - https://errata.almalinux.org/9/ALSA-2025-10699.html
     - https://errata.rockylinux.org/RLSA-2025:10698
     - https://gitlab.gnome.org/GNOME/libxml2/-/issues/933
     - https://linux.oracle.com/cve/CVE-2025-49796.html
@@ -30330,7 +30399,6 @@
     - https://access.redhat.com/errata/RHSA-2025:19020
     - https://access.redhat.com/security/cve/CVE-2025-6021
     - https://bugzilla.redhat.com/2372373
-    - https://bugzilla.redhat.com/2372379
     - https://bugzilla.redhat.com/2372385
     - https://bugzilla.redhat.com/2372406
     - https://bugzilla.redhat.com/show_bug.cgi?id=2372373
@@ -30339,7 +30407,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-49794
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-49796
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6021
-    - https://errata.almalinux.org/10/ALSA-2025-10630.html
+    - https://errata.almalinux.org/9/ALSA-2025-10699.html
     - https://errata.rockylinux.org/RLSA-2025:10698
     - https://gitlab.gnome.org/GNOME/libxml2/-/issues/926
     - https://linux.oracle.com/cve/CVE-2025-6021.html
@@ -30436,6 +30504,7 @@
     - http://seclists.org/fulldisclosure/2025/Jul/32
     - http://seclists.org/fulldisclosure/2025/Jul/35
     - http://seclists.org/fulldisclosure/2025/Jul/37
+    - http://www.openwall.com/lists/oss-security/2025/07/11/2
     - https://access.redhat.com/errata/RHSA-2025:12447
     - https://access.redhat.com/errata/RHSA-2025:12450
     - https://access.redhat.com/errata/RHSA-2025:13267
@@ -30472,7 +30541,7 @@
     - https://ubuntu.com/security/notices/USN-7852-1
     - https://www.cve.org/CVERecord?id=CVE-2025-7425
     PublishedDate: '2025-07-10T14:15:27.877Z'
-    LastModifiedDate: '2025-11-03T20:19:20.74Z'
+    LastModifiedDate: '2025-11-04T22:16:43.81Z'
   - VulnerabilityID: CVE-2025-9714
     PkgID: libxml2@2.9.13+dfsg-1ubuntu0.6
     PkgName: libxml2
@@ -30584,10 +30653,16 @@
     - https://support.apple.com/en-us/HT213937
     - https://support.apple.com/en-us/HT213938
     - https://support.apple.com/en-us/HT213940
+    - https://support.apple.com/kb/HT213931
+    - https://support.apple.com/kb/HT213932
+    - https://support.apple.com/kb/HT213936
+    - https://support.apple.com/kb/HT213937
+    - https://support.apple.com/kb/HT213938
+    - https://support.apple.com/kb/HT213940
     - https://ubuntu.com/security/notices/USN-7600-1
     - https://www.cve.org/CVERecord?id=CVE-2023-40403
     PublishedDate: '2023-09-27T15:19:08.12Z'
-    LastModifiedDate: '2025-11-03T19:15:41.36Z'
+    LastModifiedDate: '2025-11-04T20:16:38.047Z'
   - VulnerabilityID: CVE-2025-10911
     PkgID: libxslt1.1@1.1.34-4ubuntu0.22.04.3
     PkgName: libxslt1.1
@@ -30669,13 +30744,14 @@
     - http://seclists.org/fulldisclosure/2025/Jul/33
     - http://seclists.org/fulldisclosure/2025/Jul/35
     - http://seclists.org/fulldisclosure/2025/Jul/37
+    - http://www.openwall.com/lists/oss-security/2025/07/11/2
     - https://access.redhat.com/security/cve/CVE-2025-7424
     - https://bugzilla.redhat.com/show_bug.cgi?id=2379228
     - https://lists.debian.org/debian-lts-announce/2025/09/msg00024.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-7424
     - https://www.cve.org/CVERecord?id=CVE-2025-7424
     PublishedDate: '2025-07-10T14:15:27.573Z'
-    LastModifiedDate: '2025-11-03T20:19:20.64Z'
+    LastModifiedDate: '2025-11-04T22:16:43.663Z'
   - VulnerabilityID: CVE-2025-7425
     PkgID: libxslt1.1@1.1.34-4ubuntu0.22.04.3
     PkgName: libxslt1.1
@@ -30715,6 +30791,7 @@
     - http://seclists.org/fulldisclosure/2025/Jul/32
     - http://seclists.org/fulldisclosure/2025/Jul/35
     - http://seclists.org/fulldisclosure/2025/Jul/37
+    - http://www.openwall.com/lists/oss-security/2025/07/11/2
     - https://access.redhat.com/errata/RHSA-2025:12447
     - https://access.redhat.com/errata/RHSA-2025:12450
     - https://access.redhat.com/errata/RHSA-2025:13267
@@ -30751,7 +30828,7 @@
     - https://ubuntu.com/security/notices/USN-7852-1
     - https://www.cve.org/CVERecord?id=CVE-2025-7425
     PublishedDate: '2025-07-10T14:15:27.877Z'
-    LastModifiedDate: '2025-11-03T20:19:20.74Z'
+    LastModifiedDate: '2025-11-04T22:16:43.81Z'
   - VulnerabilityID: CVE-2022-4899
     PkgID: libzstd1@1.4.8+dfsg-3build1
     PkgName: libzstd1
@@ -31014,6 +31091,7 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2023-50495
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/LU4MYMKFEZQ5VSCVLRIZGDQOUW3T44GT/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/LU4MYMKFEZQ5VSCVLRIZGDQOUW3T44GT/
     - https://lists.gnu.org/archive/html/bug-ncurses/2023-04/msg00020.html
     - https://lists.gnu.org/archive/html/bug-ncurses/2023-04/msg00029.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-50495
@@ -31021,7 +31099,7 @@
     - https://ubuntu.com/security/notices/USN-6684-1
     - https://www.cve.org/CVERecord?id=CVE-2023-50495
     PublishedDate: '2023-12-12T15:15:07.867Z'
-    LastModifiedDate: '2024-11-21T08:37:04.243Z'
+    LastModifiedDate: '2025-11-04T19:16:14.45Z'
   - VulnerabilityID: CVE-2023-50495
     PkgID: ncurses-bin@6.3-2ubuntu0.1
     PkgName: ncurses-bin
@@ -31058,6 +31136,7 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2023-50495
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/LU4MYMKFEZQ5VSCVLRIZGDQOUW3T44GT/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/LU4MYMKFEZQ5VSCVLRIZGDQOUW3T44GT/
     - https://lists.gnu.org/archive/html/bug-ncurses/2023-04/msg00020.html
     - https://lists.gnu.org/archive/html/bug-ncurses/2023-04/msg00029.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-50495
@@ -31065,7 +31144,7 @@
     - https://ubuntu.com/security/notices/USN-6684-1
     - https://www.cve.org/CVERecord?id=CVE-2023-50495
     PublishedDate: '2023-12-12T15:15:07.867Z'
-    LastModifiedDate: '2024-11-21T08:37:04.243Z'
+    LastModifiedDate: '2025-11-04T19:16:14.45Z'
   - VulnerabilityID: CVE-2023-50495
     PkgID: ncurses-term@6.3-2ubuntu0.1
     PkgName: ncurses-term
@@ -31102,6 +31181,7 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2023-50495
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/LU4MYMKFEZQ5VSCVLRIZGDQOUW3T44GT/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/LU4MYMKFEZQ5VSCVLRIZGDQOUW3T44GT/
     - https://lists.gnu.org/archive/html/bug-ncurses/2023-04/msg00020.html
     - https://lists.gnu.org/archive/html/bug-ncurses/2023-04/msg00029.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-50495
@@ -31109,7 +31189,7 @@
     - https://ubuntu.com/security/notices/USN-6684-1
     - https://www.cve.org/CVERecord?id=CVE-2023-50495
     PublishedDate: '2023-12-12T15:15:07.867Z'
-    LastModifiedDate: '2024-11-21T08:37:04.243Z'
+    LastModifiedDate: '2025-11-04T19:16:14.45Z'
   - VulnerabilityID: CVE-2025-46836
     PkgID: net-tools@1.60+git20181103.0eebece-1ubuntu5
     PkgName: net-tools
@@ -31195,6 +31275,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:N
         V3Score: 3.7
     References:
+    - http://www.openwall.com/lists/oss-security/2025/08/13/5
     - https://access.redhat.com/security/cve/CVE-2025-53859
     - https://my.f5.com/manage/s/article/K000152786
     - https://nginx.org/download/patch.2025.smtp.txt
@@ -31203,7 +31284,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-53859
     - https://www.openwall.com/lists/oss-security/2025/08/13/5
     PublishedDate: '2025-08-13T15:15:37.657Z'
-    LastModifiedDate: '2025-10-21T18:02:48.767Z'
+    LastModifiedDate: '2025-11-04T22:16:27.033Z'
   - VulnerabilityID: CVE-2025-53859
     PkgID: nginx-common@1.18.0-6ubuntu14.6
     PkgName: nginx-common
@@ -31245,6 +31326,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:N
         V3Score: 3.7
     References:
+    - http://www.openwall.com/lists/oss-security/2025/08/13/5
     - https://access.redhat.com/security/cve/CVE-2025-53859
     - https://my.f5.com/manage/s/article/K000152786
     - https://nginx.org/download/patch.2025.smtp.txt
@@ -31253,7 +31335,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-53859
     - https://www.openwall.com/lists/oss-security/2025/08/13/5
     PublishedDate: '2025-08-13T15:15:37.657Z'
-    LastModifiedDate: '2025-10-21T18:02:48.767Z'
+    LastModifiedDate: '2025-11-04T22:16:27.033Z'
   - VulnerabilityID: CVE-2025-53859
     PkgID: nginx-core@1.18.0-6ubuntu14.6
     PkgName: nginx-core
@@ -31295,6 +31377,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:N
         V3Score: 3.7
     References:
+    - http://www.openwall.com/lists/oss-security/2025/08/13/5
     - https://access.redhat.com/security/cve/CVE-2025-53859
     - https://my.f5.com/manage/s/article/K000152786
     - https://nginx.org/download/patch.2025.smtp.txt
@@ -31303,7 +31386,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-53859
     - https://www.openwall.com/lists/oss-security/2025/08/13/5
     PublishedDate: '2025-08-13T15:15:37.657Z'
-    LastModifiedDate: '2025-10-21T18:02:48.767Z'
+    LastModifiedDate: '2025-11-04T22:16:27.033Z'
   - VulnerabilityID: CVE-2025-32728
     PkgID: openssh-client@1:8.9p1-3ubuntu0.11
     PkgName: openssh-client
@@ -31512,6 +31595,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L
         V3Score: 5.6
     References:
+    - http://www.openwall.com/lists/oss-security/2025/09/30/5
     - https://access.redhat.com/security/cve/CVE-2025-9230
     - https://github.com/openssl/openssl/commit/5965ea5dd6960f36d8b7f74f8eac67a8eb8f2b45
     - https://github.com/openssl/openssl/commit/9e91358f365dee6c446dcdcdb01c04d2743fd280
@@ -31526,7 +31610,7 @@
     - https://ubuntu.com/security/notices/USN-7786-1
     - https://www.cve.org/CVERecord?id=CVE-2025-9230
     PublishedDate: '2025-09-30T14:15:41.05Z'
-    LastModifiedDate: '2025-11-03T18:17:02.893Z'
+    LastModifiedDate: '2025-11-04T22:16:45.36Z'
   - VulnerabilityID: CVE-2024-41996
     PkgID: openssl@3.0.2-0ubuntu1.19
     PkgName: openssl
@@ -32069,7 +32153,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       redhat: 2
@@ -32196,12 +32280,14 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2025:14984
+    - http://www.openwall.com/lists/oss-security/2025/07/28/1
+    - http://www.openwall.com/lists/oss-security/2025/07/28/2
+    - https://access.redhat.com/errata/RHSA-2025:15019
     - https://access.redhat.com/security/cve/CVE-2025-8194
     - https://bugzilla.redhat.com/2384043
     - https://bugzilla.redhat.com/show_bug.cgi?id=2384043
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-8194
-    - https://errata.almalinux.org/10/ALSA-2025-14984.html
+    - https://errata.almalinux.org/9/ALSA-2025-15019.html
     - https://errata.rockylinux.org/RLSA-2025:14841
     - https://gist.github.com/sethmlarson/1716ac5b82b73dbcbf23ad2eff8b33e1
     - https://github.com/python/cpython/commit/57f5981d6260ed21266e0c26951b8564cc252bc2
@@ -32221,7 +32307,7 @@
     - https://ubuntu.com/security/notices/USN-7710-2
     - https://www.cve.org/CVERecord?id=CVE-2025-8194
     PublishedDate: '2025-07-28T19:15:43.793Z'
-    LastModifiedDate: '2025-09-24T18:15:42.72Z'
+    LastModifiedDate: '2025-11-04T22:16:44.687Z'
   - VulnerabilityID: CVE-2025-1795
     PkgID: python3.10@3.10.12-1~22.04.9
     PkgName: python3.10
@@ -32296,7 +32382,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       redhat: 2
@@ -32423,12 +32509,14 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2025:14984
+    - http://www.openwall.com/lists/oss-security/2025/07/28/1
+    - http://www.openwall.com/lists/oss-security/2025/07/28/2
+    - https://access.redhat.com/errata/RHSA-2025:15019
     - https://access.redhat.com/security/cve/CVE-2025-8194
     - https://bugzilla.redhat.com/2384043
     - https://bugzilla.redhat.com/show_bug.cgi?id=2384043
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-8194
-    - https://errata.almalinux.org/10/ALSA-2025-14984.html
+    - https://errata.almalinux.org/9/ALSA-2025-15019.html
     - https://errata.rockylinux.org/RLSA-2025:14841
     - https://gist.github.com/sethmlarson/1716ac5b82b73dbcbf23ad2eff8b33e1
     - https://github.com/python/cpython/commit/57f5981d6260ed21266e0c26951b8564cc252bc2
@@ -32448,7 +32536,7 @@
     - https://ubuntu.com/security/notices/USN-7710-2
     - https://www.cve.org/CVERecord?id=CVE-2025-8194
     PublishedDate: '2025-07-28T19:15:43.793Z'
-    LastModifiedDate: '2025-09-24T18:15:42.72Z'
+    LastModifiedDate: '2025-11-04T22:16:44.687Z'
   - VulnerabilityID: CVE-2025-1795
     PkgID: python3.10-minimal@3.10.12-1~22.04.9
     PkgName: python3.10-minimal
@@ -32541,15 +32629,14 @@
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H
         V3Score: 7
     References:
-    - https://access.redhat.com/errata/RHSA-2025:11537
+    - https://access.redhat.com/errata/RHSA-2025:9978
     - https://access.redhat.com/security/cve/CVE-2025-32462
     - https://access.redhat.com/security/cve/cve-2025-32462
     - https://bugs.gentoo.org/show_bug.cgi?id=CVE-2025-32462
     - https://bugzilla.redhat.com/2374692
-    - https://bugzilla.redhat.com/2374693
     - https://bugzilla.redhat.com/show_bug.cgi?id=2374692
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-32462
-    - https://errata.almalinux.org/10/ALSA-2025-11537.html
+    - https://errata.almalinux.org/9/ALSA-2025-9978.html
     - https://errata.rockylinux.org/RLSA-2025:10110
     - https://explore.alas.aws.amazon.com/CVE-2025-32462.html
     - https://linux.oracle.com/cve/CVE-2025-32462.html
@@ -32611,6 +32698,7 @@
     - http://seclists.org/fulldisclosure/2025/Jun/9
     - http://www.openwall.com/lists/oss-security/2025/06/05/1
     - http://www.openwall.com/lists/oss-security/2025/06/05/3
+    - http://www.openwall.com/lists/oss-security/2025/08/18/3
     - https://access.redhat.com/security/cve/CVE-2025-4598
     - https://blogs.oracle.com/linux/post/analysis-of-cve-2025-4598
     - https://bugzilla.redhat.com/show_bug.cgi?id=2369242
@@ -32634,7 +32722,7 @@
     - https://www.openwall.com/lists/oss-security/2025/08/18/3
     - https://www.qualys.com/2025/05/29/apport-coredump/apport-coredump.txt
     PublishedDate: '2025-05-30T14:15:23.557Z'
-    LastModifiedDate: '2025-11-03T20:19:10.997Z'
+    LastModifiedDate: '2025-11-04T22:16:19.68Z'
   - VulnerabilityID: CVE-2023-7008
     PkgID: systemd@249.11-0ubuntu3.12
     PkgName: systemd
@@ -32737,6 +32825,7 @@
     - http://seclists.org/fulldisclosure/2025/Jun/9
     - http://www.openwall.com/lists/oss-security/2025/06/05/1
     - http://www.openwall.com/lists/oss-security/2025/06/05/3
+    - http://www.openwall.com/lists/oss-security/2025/08/18/3
     - https://access.redhat.com/security/cve/CVE-2025-4598
     - https://blogs.oracle.com/linux/post/analysis-of-cve-2025-4598
     - https://bugzilla.redhat.com/show_bug.cgi?id=2369242
@@ -32760,7 +32849,7 @@
     - https://www.openwall.com/lists/oss-security/2025/08/18/3
     - https://www.qualys.com/2025/05/29/apport-coredump/apport-coredump.txt
     PublishedDate: '2025-05-30T14:15:23.557Z'
-    LastModifiedDate: '2025-11-03T20:19:10.997Z'
+    LastModifiedDate: '2025-11-04T22:16:19.68Z'
   - VulnerabilityID: CVE-2023-7008
     PkgID: systemd-sysv@249.11-0ubuntu3.12
     PkgName: systemd-sysv
@@ -32863,6 +32952,7 @@
     - http://seclists.org/fulldisclosure/2025/Jun/9
     - http://www.openwall.com/lists/oss-security/2025/06/05/1
     - http://www.openwall.com/lists/oss-security/2025/06/05/3
+    - http://www.openwall.com/lists/oss-security/2025/08/18/3
     - https://access.redhat.com/security/cve/CVE-2025-4598
     - https://blogs.oracle.com/linux/post/analysis-of-cve-2025-4598
     - https://bugzilla.redhat.com/show_bug.cgi?id=2369242
@@ -32886,7 +32976,7 @@
     - https://www.openwall.com/lists/oss-security/2025/08/18/3
     - https://www.qualys.com/2025/05/29/apport-coredump/apport-coredump.txt
     PublishedDate: '2025-05-30T14:15:23.557Z'
-    LastModifiedDate: '2025-11-03T20:19:10.997Z'
+    LastModifiedDate: '2025-11-04T22:16:19.68Z'
   - VulnerabilityID: CVE-2023-7008
     PkgID: systemd-timesyncd@249.11-0ubuntu3.12
     PkgName: systemd-timesyncd
@@ -34011,6 +34101,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 3.7
     References:
+    - http://www.openwall.com/lists/oss-security/2025/07/11/1
     - https://access.redhat.com/security/cve/CVE-2025-48924
     - https://github.com/apache/commons-lang
     - https://github.com/apache/commons-lang/commit/b424803abdb2bec818e4fbcb251ce031c22aca53
@@ -34018,10 +34109,11 @@
     - https://lists.debian.org/debian-lts-announce/2025/08/msg00000.html
     - https://lists.debian.org/debian-lts-announce/2025/08/msg00026.html
     - https://lists.debian.org/debian-lts-announce/2025/09/msg00032.html
+    - https://lists.debian.org/debian-lts-announce/2025/09/msg00036.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-48924
     - https://www.cve.org/CVERecord?id=CVE-2025-48924
     PublishedDate: '2025-07-11T15:15:24.347Z'
-    LastModifiedDate: '2025-11-03T20:19:07.473Z'
+    LastModifiedDate: '2025-11-04T22:16:17.823Z'
   - VulnerabilityID: CVE-2025-48924
     PkgName: org.apache.commons:commons-lang3
     PkgPath: home/workspace/.openvscode-server/extensions/redhat.vscode-xml-0.28.0-linux-x64/server/org.eclipse.lemminx-0.30.0-uber.jar
@@ -34059,6 +34151,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 3.7
     References:
+    - http://www.openwall.com/lists/oss-security/2025/07/11/1
     - https://access.redhat.com/security/cve/CVE-2025-48924
     - https://github.com/apache/commons-lang
     - https://github.com/apache/commons-lang/commit/b424803abdb2bec818e4fbcb251ce031c22aca53
@@ -34066,10 +34159,11 @@
     - https://lists.debian.org/debian-lts-announce/2025/08/msg00000.html
     - https://lists.debian.org/debian-lts-announce/2025/08/msg00026.html
     - https://lists.debian.org/debian-lts-announce/2025/09/msg00032.html
+    - https://lists.debian.org/debian-lts-announce/2025/09/msg00036.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-48924
     - https://www.cve.org/CVERecord?id=CVE-2025-48924
     PublishedDate: '2025-07-11T15:15:24.347Z'
-    LastModifiedDate: '2025-11-03T20:19:07.473Z'
+    LastModifiedDate: '2025-11-04T22:16:17.823Z'
   - VulnerabilityID: CVE-2022-36033
     PkgName: org.jsoup:jsoup
     PkgPath: home/workspace/.openvscode-server/extensions/redhat.vscode-xml-0.28.0-linux-x64/server/org.eclipse.lemminx-0.30.0-uber.jar
@@ -34569,7 +34663,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-45288
     - https://www.kb.cert.org/vuls/id/421644
     PublishedDate: '2024-04-04T21:15:16.113Z'
-    LastModifiedDate: '2024-11-21T08:26:42.38Z'
+    LastModifiedDate: '2025-11-04T19:16:01.263Z'
   - VulnerabilityID: CVE-2025-22870
     PkgID: golang.org/x/net@v0.19.0
     PkgName: golang.org/x/net
@@ -34744,6 +34838,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:L/A:L
         V3Score: 7
     References:
+    - http://www.openwall.com/lists/oss-security/2025/08/06/1
     - https://access.redhat.com/security/cve/CVE-2025-47907
     - https://go.dev/cl/693735
     - https://go.dev/issue/74831
@@ -34752,7 +34847,7 @@
     - https://pkg.go.dev/vuln/GO-2025-3849
     - https://www.cve.org/CVERecord?id=CVE-2025-47907
     PublishedDate: '2025-08-07T16:15:30.357Z'
-    LastModifiedDate: '2025-08-07T21:26:37.453Z'
+    LastModifiedDate: '2025-11-04T22:16:16.347Z'
   - VulnerabilityID: CVE-2025-47912
     PkgID: stdlib@v1.24.1
     PkgName: stdlib
@@ -34776,12 +34871,13 @@
     VendorSeverity:
       amazon: 3
     References:
+    - http://www.openwall.com/lists/oss-security/2025/10/08/1
     - https://go.dev/cl/709857
     - https://go.dev/issue/75678
     - https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI
     - https://pkg.go.dev/vuln/GO-2025-4010
     PublishedDate: '2025-10-29T23:16:18.187Z'
-    LastModifiedDate: '2025-10-30T21:15:32.79Z'
+    LastModifiedDate: '2025-11-04T22:16:16.497Z'
   - VulnerabilityID: CVE-2025-58183
     PkgID: stdlib@v1.24.1
     PkgName: stdlib
@@ -34805,12 +34901,13 @@
     VendorSeverity:
       amazon: 3
     References:
+    - http://www.openwall.com/lists/oss-security/2025/10/08/1
     - https://go.dev/cl/709861
     - https://go.dev/issue/75677
     - https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI
     - https://pkg.go.dev/vuln/GO-2025-4014
     PublishedDate: '2025-10-29T23:16:19.357Z'
-    LastModifiedDate: '2025-11-03T20:19:15.39Z'
+    LastModifiedDate: '2025-11-04T22:16:33.2Z'
   - VulnerabilityID: CVE-2025-58186
     PkgID: stdlib@v1.24.1
     PkgName: stdlib
@@ -34834,12 +34931,13 @@
     VendorSeverity:
       amazon: 3
     References:
+    - http://www.openwall.com/lists/oss-security/2025/10/08/1
     - https://go.dev/cl/709855
     - https://go.dev/issue/75672
     - https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI
     - https://pkg.go.dev/vuln/GO-2025-4012
     PublishedDate: '2025-10-29T23:16:19.547Z'
-    LastModifiedDate: '2025-10-30T15:15:40.07Z'
+    LastModifiedDate: '2025-11-04T22:16:33.45Z'
   - VulnerabilityID: CVE-2025-58187
     PkgID: stdlib@v1.24.1
     PkgName: stdlib
@@ -34863,12 +34961,13 @@
     VendorSeverity:
       amazon: 3
     References:
+    - http://www.openwall.com/lists/oss-security/2025/10/08/1
     - https://go.dev/cl/709854
     - https://go.dev/issue/75681
     - https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI
     - https://pkg.go.dev/vuln/GO-2025-4007
     PublishedDate: '2025-10-29T23:16:19.643Z'
-    LastModifiedDate: '2025-11-03T20:19:15.52Z'
+    LastModifiedDate: '2025-11-04T22:16:33.593Z'
   - VulnerabilityID: CVE-2025-58188
     PkgID: stdlib@v1.24.1
     PkgName: stdlib
@@ -34892,12 +34991,13 @@
     VendorSeverity:
       amazon: 3
     References:
+    - http://www.openwall.com/lists/oss-security/2025/10/08/1
     - https://go.dev/cl/709853
     - https://go.dev/issue/75675
     - https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI
     - https://pkg.go.dev/vuln/GO-2025-4013
     PublishedDate: '2025-10-29T23:16:19.74Z'
-    LastModifiedDate: '2025-10-30T15:15:40.203Z'
+    LastModifiedDate: '2025-11-04T22:16:33.74Z'
   - VulnerabilityID: CVE-2025-61724
     PkgID: stdlib@v1.24.1
     PkgName: stdlib
@@ -34921,12 +35021,13 @@
     VendorSeverity:
       amazon: 3
     References:
+    - http://www.openwall.com/lists/oss-security/2025/10/08/1
     - https://go.dev/cl/709859
     - https://go.dev/issue/75716
     - https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI
     - https://pkg.go.dev/vuln/GO-2025-4015
     PublishedDate: '2025-10-29T23:16:20.02Z'
-    LastModifiedDate: '2025-10-30T15:15:41.31Z'
+    LastModifiedDate: '2025-11-04T22:16:36.567Z'
   - VulnerabilityID: CVE-2025-0913
     PkgID: stdlib@v1.24.1
     PkgName: stdlib
@@ -35004,12 +35105,12 @@
         V3Score: 5.4
     References:
     - http://www.openwall.com/lists/oss-security/2025/04/04/4
-    - https://access.redhat.com/errata/RHSA-2025:9623
+    - https://access.redhat.com/errata/RHSA-2025:9635
     - https://access.redhat.com/security/cve/CVE-2025-22871
     - https://bugzilla.redhat.com/2358493
     - https://bugzilla.redhat.com/show_bug.cgi?id=2358493
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-22871
-    - https://errata.almalinux.org/10/ALSA-2025-9623.html
+    - https://errata.almalinux.org/9/ALSA-2025-9635.html
     - https://errata.rockylinux.org/RLSA-2025:9845
     - https://github.com/roadrunner-server/roadrunner
     - https://github.com/roadrunner-server/roadrunner/commit/f269279ee87d0b88127741cad1042389af7605fa
@@ -35063,12 +35164,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:N/A:N
         V3Score: 6.8
     References:
-    - https://access.redhat.com/errata/RHSA-2025:16432
+    - https://access.redhat.com/errata/RHSA-2025:15887
     - https://access.redhat.com/security/cve/CVE-2025-4673
     - https://bugzilla.redhat.com/2373305
     - https://bugzilla.redhat.com/show_bug.cgi?id=2373305
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-4673
-    - https://errata.almalinux.org/10/ALSA-2025-16432.html
+    - https://errata.almalinux.org/9/ALSA-2025-15887.html
     - https://errata.rockylinux.org/RLSA-2025:16432
     - https://go.dev/cl/679257
     - https://go.dev/issue/73816
@@ -35114,6 +35215,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:L
         V3Score: 6.5
     References:
+    - http://www.openwall.com/lists/oss-security/2025/08/06/1
     - https://access.redhat.com/security/cve/CVE-2025-47906
     - https://go.dev/cl/691775
     - https://go.dev/issue/74466
@@ -35122,7 +35224,7 @@
     - https://pkg.go.dev/vuln/GO-2025-3956
     - https://www.cve.org/CVERecord?id=CVE-2025-47906
     PublishedDate: '2025-09-18T19:15:37.66Z'
-    LastModifiedDate: '2025-09-19T16:00:27.847Z'
+    LastModifiedDate: '2025-11-04T22:16:16.207Z'
   - VulnerabilityID: CVE-2025-58185
     PkgID: stdlib@v1.24.1
     PkgName: stdlib
@@ -35151,6 +35253,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 5.3
     References:
+    - http://www.openwall.com/lists/oss-security/2025/10/08/1
     - https://access.redhat.com/security/cve/CVE-2025-58185
     - https://github.com/golang/go/commit/8709a41d5ef7321f486a1857f189c3fee20e8edd
     - https://go.dev/cl/709856
@@ -35160,7 +35263,7 @@
     - https://pkg.go.dev/vuln/GO-2025-4011
     - https://www.cve.org/CVERecord?id=CVE-2025-58185
     PublishedDate: '2025-10-29T23:16:19.45Z'
-    LastModifiedDate: '2025-10-30T15:15:39.937Z'
+    LastModifiedDate: '2025-11-04T22:16:33.327Z'
   - VulnerabilityID: CVE-2025-58189
     PkgID: stdlib@v1.24.1
     PkgName: stdlib
@@ -35189,6 +35292,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
         V3Score: 5.3
     References:
+    - http://www.openwall.com/lists/oss-security/2025/10/08/1
     - https://access.redhat.com/security/cve/CVE-2025-58189
     - https://go.dev/cl/707776
     - https://go.dev/issue/75652
@@ -35197,7 +35301,7 @@
     - https://pkg.go.dev/vuln/GO-2025-4008
     - https://www.cve.org/CVERecord?id=CVE-2025-58189
     PublishedDate: '2025-10-29T23:16:19.833Z'
-    LastModifiedDate: '2025-10-30T21:15:34.127Z'
+    LastModifiedDate: '2025-11-04T22:16:33.877Z'
   - VulnerabilityID: CVE-2025-61723
     PkgID: stdlib@v1.24.1
     PkgName: stdlib
@@ -35226,6 +35330,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 5.3
     References:
+    - http://www.openwall.com/lists/oss-security/2025/10/08/1
     - https://access.redhat.com/security/cve/CVE-2025-61723
     - https://github.com/golang/go/commit/5ce8cd16f3859ec5ac4106ad8ec15d6236f4501b
     - https://go.dev/cl/709858
@@ -35235,7 +35340,7 @@
     - https://pkg.go.dev/vuln/GO-2025-4009
     - https://www.cve.org/CVERecord?id=CVE-2025-61723
     PublishedDate: '2025-10-29T23:16:19.927Z'
-    LastModifiedDate: '2025-11-03T15:15:36.157Z'
+    LastModifiedDate: '2025-11-04T22:16:36.42Z'
   - VulnerabilityID: CVE-2025-61725
     PkgID: stdlib@v1.24.1
     PkgName: stdlib
@@ -35264,6 +35369,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 5.3
     References:
+    - http://www.openwall.com/lists/oss-security/2025/10/08/1
     - https://access.redhat.com/security/cve/CVE-2025-61725
     - https://go.dev/cl/709860
     - https://go.dev/issue/75680
@@ -35272,7 +35378,7 @@
     - https://pkg.go.dev/vuln/GO-2025-4006
     - https://www.cve.org/CVERecord?id=CVE-2025-61725
     PublishedDate: '2025-10-29T23:16:20.113Z'
-    LastModifiedDate: '2025-11-03T20:19:17.47Z'
+    LastModifiedDate: '2025-11-04T22:16:36.693Z'
 - Target: tmp/tmp.rYlCZdukWB/krew-linux_amd64
   Class: lang-pkgs
   Type: gobinary
@@ -35632,7 +35738,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-45288
     - https://www.kb.cert.org/vuls/id/421644
     PublishedDate: '2024-04-04T21:15:16.113Z'
-    LastModifiedDate: '2024-11-21T08:26:42.38Z'
+    LastModifiedDate: '2025-11-04T19:16:01.263Z'
   - VulnerabilityID: CVE-2025-22870
     PkgID: golang.org/x/net@v0.19.0
     PkgName: golang.org/x/net
@@ -35807,6 +35913,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:L/A:L
         V3Score: 7
     References:
+    - http://www.openwall.com/lists/oss-security/2025/08/06/1
     - https://access.redhat.com/security/cve/CVE-2025-47907
     - https://go.dev/cl/693735
     - https://go.dev/issue/74831
@@ -35815,7 +35922,7 @@
     - https://pkg.go.dev/vuln/GO-2025-3849
     - https://www.cve.org/CVERecord?id=CVE-2025-47907
     PublishedDate: '2025-08-07T16:15:30.357Z'
-    LastModifiedDate: '2025-08-07T21:26:37.453Z'
+    LastModifiedDate: '2025-11-04T22:16:16.347Z'
   - VulnerabilityID: CVE-2025-47912
     PkgID: stdlib@v1.24.1
     PkgName: stdlib
@@ -35839,12 +35946,13 @@
     VendorSeverity:
       amazon: 3
     References:
+    - http://www.openwall.com/lists/oss-security/2025/10/08/1
     - https://go.dev/cl/709857
     - https://go.dev/issue/75678
     - https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI
     - https://pkg.go.dev/vuln/GO-2025-4010
     PublishedDate: '2025-10-29T23:16:18.187Z'
-    LastModifiedDate: '2025-10-30T21:15:32.79Z'
+    LastModifiedDate: '2025-11-04T22:16:16.497Z'
   - VulnerabilityID: CVE-2025-58183
     PkgID: stdlib@v1.24.1
     PkgName: stdlib
@@ -35868,12 +35976,13 @@
     VendorSeverity:
       amazon: 3
     References:
+    - http://www.openwall.com/lists/oss-security/2025/10/08/1
     - https://go.dev/cl/709861
     - https://go.dev/issue/75677
     - https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI
     - https://pkg.go.dev/vuln/GO-2025-4014
     PublishedDate: '2025-10-29T23:16:19.357Z'
-    LastModifiedDate: '2025-11-03T20:19:15.39Z'
+    LastModifiedDate: '2025-11-04T22:16:33.2Z'
   - VulnerabilityID: CVE-2025-58186
     PkgID: stdlib@v1.24.1
     PkgName: stdlib
@@ -35897,12 +36006,13 @@
     VendorSeverity:
       amazon: 3
     References:
+    - http://www.openwall.com/lists/oss-security/2025/10/08/1
     - https://go.dev/cl/709855
     - https://go.dev/issue/75672
     - https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI
     - https://pkg.go.dev/vuln/GO-2025-4012
     PublishedDate: '2025-10-29T23:16:19.547Z'
-    LastModifiedDate: '2025-10-30T15:15:40.07Z'
+    LastModifiedDate: '2025-11-04T22:16:33.45Z'
   - VulnerabilityID: CVE-2025-58187
     PkgID: stdlib@v1.24.1
     PkgName: stdlib
@@ -35926,12 +36036,13 @@
     VendorSeverity:
       amazon: 3
     References:
+    - http://www.openwall.com/lists/oss-security/2025/10/08/1
     - https://go.dev/cl/709854
     - https://go.dev/issue/75681
     - https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI
     - https://pkg.go.dev/vuln/GO-2025-4007
     PublishedDate: '2025-10-29T23:16:19.643Z'
-    LastModifiedDate: '2025-11-03T20:19:15.52Z'
+    LastModifiedDate: '2025-11-04T22:16:33.593Z'
   - VulnerabilityID: CVE-2025-58188
     PkgID: stdlib@v1.24.1
     PkgName: stdlib
@@ -35955,12 +36066,13 @@
     VendorSeverity:
       amazon: 3
     References:
+    - http://www.openwall.com/lists/oss-security/2025/10/08/1
     - https://go.dev/cl/709853
     - https://go.dev/issue/75675
     - https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI
     - https://pkg.go.dev/vuln/GO-2025-4013
     PublishedDate: '2025-10-29T23:16:19.74Z'
-    LastModifiedDate: '2025-10-30T15:15:40.203Z'
+    LastModifiedDate: '2025-11-04T22:16:33.74Z'
   - VulnerabilityID: CVE-2025-61724
     PkgID: stdlib@v1.24.1
     PkgName: stdlib
@@ -35984,12 +36096,13 @@
     VendorSeverity:
       amazon: 3
     References:
+    - http://www.openwall.com/lists/oss-security/2025/10/08/1
     - https://go.dev/cl/709859
     - https://go.dev/issue/75716
     - https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI
     - https://pkg.go.dev/vuln/GO-2025-4015
     PublishedDate: '2025-10-29T23:16:20.02Z'
-    LastModifiedDate: '2025-10-30T15:15:41.31Z'
+    LastModifiedDate: '2025-11-04T22:16:36.567Z'
   - VulnerabilityID: CVE-2025-0913
     PkgID: stdlib@v1.24.1
     PkgName: stdlib
@@ -36067,12 +36180,12 @@
         V3Score: 5.4
     References:
     - http://www.openwall.com/lists/oss-security/2025/04/04/4
-    - https://access.redhat.com/errata/RHSA-2025:9623
+    - https://access.redhat.com/errata/RHSA-2025:9635
     - https://access.redhat.com/security/cve/CVE-2025-22871
     - https://bugzilla.redhat.com/2358493
     - https://bugzilla.redhat.com/show_bug.cgi?id=2358493
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-22871
-    - https://errata.almalinux.org/10/ALSA-2025-9623.html
+    - https://errata.almalinux.org/9/ALSA-2025-9635.html
     - https://errata.rockylinux.org/RLSA-2025:9845
     - https://github.com/roadrunner-server/roadrunner
     - https://github.com/roadrunner-server/roadrunner/commit/f269279ee87d0b88127741cad1042389af7605fa
@@ -36126,12 +36239,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:N/A:N
         V3Score: 6.8
     References:
-    - https://access.redhat.com/errata/RHSA-2025:16432
+    - https://access.redhat.com/errata/RHSA-2025:15887
     - https://access.redhat.com/security/cve/CVE-2025-4673
     - https://bugzilla.redhat.com/2373305
     - https://bugzilla.redhat.com/show_bug.cgi?id=2373305
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-4673
-    - https://errata.almalinux.org/10/ALSA-2025-16432.html
+    - https://errata.almalinux.org/9/ALSA-2025-15887.html
     - https://errata.rockylinux.org/RLSA-2025:16432
     - https://go.dev/cl/679257
     - https://go.dev/issue/73816
@@ -36177,6 +36290,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:L
         V3Score: 6.5
     References:
+    - http://www.openwall.com/lists/oss-security/2025/08/06/1
     - https://access.redhat.com/security/cve/CVE-2025-47906
     - https://go.dev/cl/691775
     - https://go.dev/issue/74466
@@ -36185,7 +36299,7 @@
     - https://pkg.go.dev/vuln/GO-2025-3956
     - https://www.cve.org/CVERecord?id=CVE-2025-47906
     PublishedDate: '2025-09-18T19:15:37.66Z'
-    LastModifiedDate: '2025-09-19T16:00:27.847Z'
+    LastModifiedDate: '2025-11-04T22:16:16.207Z'
   - VulnerabilityID: CVE-2025-58185
     PkgID: stdlib@v1.24.1
     PkgName: stdlib
@@ -36214,6 +36328,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 5.3
     References:
+    - http://www.openwall.com/lists/oss-security/2025/10/08/1
     - https://access.redhat.com/security/cve/CVE-2025-58185
     - https://github.com/golang/go/commit/8709a41d5ef7321f486a1857f189c3fee20e8edd
     - https://go.dev/cl/709856
@@ -36223,7 +36338,7 @@
     - https://pkg.go.dev/vuln/GO-2025-4011
     - https://www.cve.org/CVERecord?id=CVE-2025-58185
     PublishedDate: '2025-10-29T23:16:19.45Z'
-    LastModifiedDate: '2025-10-30T15:15:39.937Z'
+    LastModifiedDate: '2025-11-04T22:16:33.327Z'
   - VulnerabilityID: CVE-2025-58189
     PkgID: stdlib@v1.24.1
     PkgName: stdlib
@@ -36252,6 +36367,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
         V3Score: 5.3
     References:
+    - http://www.openwall.com/lists/oss-security/2025/10/08/1
     - https://access.redhat.com/security/cve/CVE-2025-58189
     - https://go.dev/cl/707776
     - https://go.dev/issue/75652
@@ -36260,7 +36376,7 @@
     - https://pkg.go.dev/vuln/GO-2025-4008
     - https://www.cve.org/CVERecord?id=CVE-2025-58189
     PublishedDate: '2025-10-29T23:16:19.833Z'
-    LastModifiedDate: '2025-10-30T21:15:34.127Z'
+    LastModifiedDate: '2025-11-04T22:16:33.877Z'
   - VulnerabilityID: CVE-2025-61723
     PkgID: stdlib@v1.24.1
     PkgName: stdlib
@@ -36289,6 +36405,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 5.3
     References:
+    - http://www.openwall.com/lists/oss-security/2025/10/08/1
     - https://access.redhat.com/security/cve/CVE-2025-61723
     - https://github.com/golang/go/commit/5ce8cd16f3859ec5ac4106ad8ec15d6236f4501b
     - https://go.dev/cl/709858
@@ -36298,7 +36415,7 @@
     - https://pkg.go.dev/vuln/GO-2025-4009
     - https://www.cve.org/CVERecord?id=CVE-2025-61723
     PublishedDate: '2025-10-29T23:16:19.927Z'
-    LastModifiedDate: '2025-11-03T15:15:36.157Z'
+    LastModifiedDate: '2025-11-04T22:16:36.42Z'
   - VulnerabilityID: CVE-2025-61725
     PkgID: stdlib@v1.24.1
     PkgName: stdlib
@@ -36327,6 +36444,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 5.3
     References:
+    - http://www.openwall.com/lists/oss-security/2025/10/08/1
     - https://access.redhat.com/security/cve/CVE-2025-61725
     - https://go.dev/cl/709860
     - https://go.dev/issue/75680
@@ -36335,7 +36453,7 @@
     - https://pkg.go.dev/vuln/GO-2025-4006
     - https://www.cve.org/CVERecord?id=CVE-2025-61725
     PublishedDate: '2025-10-29T23:16:20.113Z'
-    LastModifiedDate: '2025-11-03T20:19:17.47Z'
+    LastModifiedDate: '2025-11-04T22:16:36.693Z'
 - Target: usr/bin/docker-compose
   Class: lang-pkgs
   Type: gobinary
@@ -38443,12 +38561,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2025:7475
+    - https://access.redhat.com/errata/RHSA-2025:7425
     - https://access.redhat.com/security/cve/CVE-2025-30204
     - https://bugzilla.redhat.com/2354195
     - https://bugzilla.redhat.com/show_bug.cgi?id=2354195
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-30204
-    - https://errata.almalinux.org/10/ALSA-2025-7475.html
+    - https://errata.almalinux.org/9/ALSA-2025-7425.html
     - https://errata.rockylinux.org/RLSA-2025:3344
     - https://github.com/golang-jwt/jwt
     - https://github.com/golang-jwt/jwt/commit/0951d184286dece21f73c85673fd308786ffe9c3
@@ -38503,12 +38621,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2025:7484
+    - https://access.redhat.com/errata/RHSA-2025:3833
     - https://access.redhat.com/security/cve/CVE-2025-22869
     - https://bugzilla.redhat.com/2348367
     - https://bugzilla.redhat.com/show_bug.cgi?id=2348367
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-22869
-    - https://errata.almalinux.org/10/ALSA-2025-7484.html
+    - https://errata.almalinux.org/9/ALSA-2025-3833.html
     - https://errata.rockylinux.org/RLSA-2025:7484
     - https://github.com/golang/crypto
     - https://github.com/golang/crypto/commit/7292932d45d55c7199324ab0027cc86e8198aa22
@@ -38710,6 +38828,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:L/A:L
         V3Score: 7
     References:
+    - http://www.openwall.com/lists/oss-security/2025/08/06/1
     - https://access.redhat.com/security/cve/CVE-2025-47907
     - https://go.dev/cl/693735
     - https://go.dev/issue/74831
@@ -38718,7 +38837,7 @@
     - https://pkg.go.dev/vuln/GO-2025-3849
     - https://www.cve.org/CVERecord?id=CVE-2025-47907
     PublishedDate: '2025-08-07T16:15:30.357Z'
-    LastModifiedDate: '2025-08-07T21:26:37.453Z'
+    LastModifiedDate: '2025-11-04T22:16:16.347Z'
   - VulnerabilityID: CVE-2025-47912
     PkgID: stdlib@v1.23.6
     PkgName: stdlib
@@ -38742,12 +38861,13 @@
     VendorSeverity:
       amazon: 3
     References:
+    - http://www.openwall.com/lists/oss-security/2025/10/08/1
     - https://go.dev/cl/709857
     - https://go.dev/issue/75678
     - https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI
     - https://pkg.go.dev/vuln/GO-2025-4010
     PublishedDate: '2025-10-29T23:16:18.187Z'
-    LastModifiedDate: '2025-10-30T21:15:32.79Z'
+    LastModifiedDate: '2025-11-04T22:16:16.497Z'
   - VulnerabilityID: CVE-2025-58183
     PkgID: stdlib@v1.23.6
     PkgName: stdlib
@@ -38771,12 +38891,13 @@
     VendorSeverity:
       amazon: 3
     References:
+    - http://www.openwall.com/lists/oss-security/2025/10/08/1
     - https://go.dev/cl/709861
     - https://go.dev/issue/75677
     - https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI
     - https://pkg.go.dev/vuln/GO-2025-4014
     PublishedDate: '2025-10-29T23:16:19.357Z'
-    LastModifiedDate: '2025-11-03T20:19:15.39Z'
+    LastModifiedDate: '2025-11-04T22:16:33.2Z'
   - VulnerabilityID: CVE-2025-58186
     PkgID: stdlib@v1.23.6
     PkgName: stdlib
@@ -38800,12 +38921,13 @@
     VendorSeverity:
       amazon: 3
     References:
+    - http://www.openwall.com/lists/oss-security/2025/10/08/1
     - https://go.dev/cl/709855
     - https://go.dev/issue/75672
     - https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI
     - https://pkg.go.dev/vuln/GO-2025-4012
     PublishedDate: '2025-10-29T23:16:19.547Z'
-    LastModifiedDate: '2025-10-30T15:15:40.07Z'
+    LastModifiedDate: '2025-11-04T22:16:33.45Z'
   - VulnerabilityID: CVE-2025-58187
     PkgID: stdlib@v1.23.6
     PkgName: stdlib
@@ -38829,12 +38951,13 @@
     VendorSeverity:
       amazon: 3
     References:
+    - http://www.openwall.com/lists/oss-security/2025/10/08/1
     - https://go.dev/cl/709854
     - https://go.dev/issue/75681
     - https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI
     - https://pkg.go.dev/vuln/GO-2025-4007
     PublishedDate: '2025-10-29T23:16:19.643Z'
-    LastModifiedDate: '2025-11-03T20:19:15.52Z'
+    LastModifiedDate: '2025-11-04T22:16:33.593Z'
   - VulnerabilityID: CVE-2025-58188
     PkgID: stdlib@v1.23.6
     PkgName: stdlib
@@ -38858,12 +38981,13 @@
     VendorSeverity:
       amazon: 3
     References:
+    - http://www.openwall.com/lists/oss-security/2025/10/08/1
     - https://go.dev/cl/709853
     - https://go.dev/issue/75675
     - https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI
     - https://pkg.go.dev/vuln/GO-2025-4013
     PublishedDate: '2025-10-29T23:16:19.74Z'
-    LastModifiedDate: '2025-10-30T15:15:40.203Z'
+    LastModifiedDate: '2025-11-04T22:16:33.74Z'
   - VulnerabilityID: CVE-2025-61724
     PkgID: stdlib@v1.23.6
     PkgName: stdlib
@@ -38887,12 +39011,13 @@
     VendorSeverity:
       amazon: 3
     References:
+    - http://www.openwall.com/lists/oss-security/2025/10/08/1
     - https://go.dev/cl/709859
     - https://go.dev/issue/75716
     - https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI
     - https://pkg.go.dev/vuln/GO-2025-4015
     PublishedDate: '2025-10-29T23:16:20.02Z'
-    LastModifiedDate: '2025-10-30T15:15:41.31Z'
+    LastModifiedDate: '2025-11-04T22:16:36.567Z'
   - VulnerabilityID: CVE-2025-0913
     PkgID: stdlib@v1.23.6
     PkgName: stdlib
@@ -38970,12 +39095,12 @@
         V3Score: 5.4
     References:
     - http://www.openwall.com/lists/oss-security/2025/04/04/4
-    - https://access.redhat.com/errata/RHSA-2025:9623
+    - https://access.redhat.com/errata/RHSA-2025:9635
     - https://access.redhat.com/security/cve/CVE-2025-22871
     - https://bugzilla.redhat.com/2358493
     - https://bugzilla.redhat.com/show_bug.cgi?id=2358493
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-22871
-    - https://errata.almalinux.org/10/ALSA-2025-9623.html
+    - https://errata.almalinux.org/9/ALSA-2025-9635.html
     - https://errata.rockylinux.org/RLSA-2025:9845
     - https://github.com/roadrunner-server/roadrunner
     - https://github.com/roadrunner-server/roadrunner/commit/f269279ee87d0b88127741cad1042389af7605fa
@@ -39029,12 +39154,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:N/A:N
         V3Score: 6.8
     References:
-    - https://access.redhat.com/errata/RHSA-2025:16432
+    - https://access.redhat.com/errata/RHSA-2025:15887
     - https://access.redhat.com/security/cve/CVE-2025-4673
     - https://bugzilla.redhat.com/2373305
     - https://bugzilla.redhat.com/show_bug.cgi?id=2373305
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-4673
-    - https://errata.almalinux.org/10/ALSA-2025-16432.html
+    - https://errata.almalinux.org/9/ALSA-2025-15887.html
     - https://errata.rockylinux.org/RLSA-2025:16432
     - https://go.dev/cl/679257
     - https://go.dev/issue/73816
@@ -39080,6 +39205,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:L
         V3Score: 6.5
     References:
+    - http://www.openwall.com/lists/oss-security/2025/08/06/1
     - https://access.redhat.com/security/cve/CVE-2025-47906
     - https://go.dev/cl/691775
     - https://go.dev/issue/74466
@@ -39088,7 +39214,7 @@
     - https://pkg.go.dev/vuln/GO-2025-3956
     - https://www.cve.org/CVERecord?id=CVE-2025-47906
     PublishedDate: '2025-09-18T19:15:37.66Z'
-    LastModifiedDate: '2025-09-19T16:00:27.847Z'
+    LastModifiedDate: '2025-11-04T22:16:16.207Z'
   - VulnerabilityID: CVE-2025-58185
     PkgID: stdlib@v1.23.6
     PkgName: stdlib
@@ -39117,6 +39243,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 5.3
     References:
+    - http://www.openwall.com/lists/oss-security/2025/10/08/1
     - https://access.redhat.com/security/cve/CVE-2025-58185
     - https://github.com/golang/go/commit/8709a41d5ef7321f486a1857f189c3fee20e8edd
     - https://go.dev/cl/709856
@@ -39126,7 +39253,7 @@
     - https://pkg.go.dev/vuln/GO-2025-4011
     - https://www.cve.org/CVERecord?id=CVE-2025-58185
     PublishedDate: '2025-10-29T23:16:19.45Z'
-    LastModifiedDate: '2025-10-30T15:15:39.937Z'
+    LastModifiedDate: '2025-11-04T22:16:33.327Z'
   - VulnerabilityID: CVE-2025-58189
     PkgID: stdlib@v1.23.6
     PkgName: stdlib
@@ -39155,6 +39282,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
         V3Score: 5.3
     References:
+    - http://www.openwall.com/lists/oss-security/2025/10/08/1
     - https://access.redhat.com/security/cve/CVE-2025-58189
     - https://go.dev/cl/707776
     - https://go.dev/issue/75652
@@ -39163,7 +39291,7 @@
     - https://pkg.go.dev/vuln/GO-2025-4008
     - https://www.cve.org/CVERecord?id=CVE-2025-58189
     PublishedDate: '2025-10-29T23:16:19.833Z'
-    LastModifiedDate: '2025-10-30T21:15:34.127Z'
+    LastModifiedDate: '2025-11-04T22:16:33.877Z'
   - VulnerabilityID: CVE-2025-61723
     PkgID: stdlib@v1.23.6
     PkgName: stdlib
@@ -39192,6 +39320,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 5.3
     References:
+    - http://www.openwall.com/lists/oss-security/2025/10/08/1
     - https://access.redhat.com/security/cve/CVE-2025-61723
     - https://github.com/golang/go/commit/5ce8cd16f3859ec5ac4106ad8ec15d6236f4501b
     - https://go.dev/cl/709858
@@ -39201,7 +39330,7 @@
     - https://pkg.go.dev/vuln/GO-2025-4009
     - https://www.cve.org/CVERecord?id=CVE-2025-61723
     PublishedDate: '2025-10-29T23:16:19.927Z'
-    LastModifiedDate: '2025-11-03T15:15:36.157Z'
+    LastModifiedDate: '2025-11-04T22:16:36.42Z'
   - VulnerabilityID: CVE-2025-61725
     PkgID: stdlib@v1.23.6
     PkgName: stdlib
@@ -39230,6 +39359,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 5.3
     References:
+    - http://www.openwall.com/lists/oss-security/2025/10/08/1
     - https://access.redhat.com/security/cve/CVE-2025-61725
     - https://go.dev/cl/709860
     - https://go.dev/issue/75680
@@ -39238,7 +39368,7 @@
     - https://pkg.go.dev/vuln/GO-2025-4006
     - https://www.cve.org/CVERecord?id=CVE-2025-61725
     PublishedDate: '2025-10-29T23:16:20.113Z'
-    LastModifiedDate: '2025-11-03T20:19:17.47Z'
+    LastModifiedDate: '2025-11-04T22:16:36.693Z'
 - Target: usr/bin/helm
   Class: lang-pkgs
   Type: gobinary
@@ -40856,6 +40986,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:L/A:L
         V3Score: 7
     References:
+    - http://www.openwall.com/lists/oss-security/2025/08/06/1
     - https://access.redhat.com/security/cve/CVE-2025-47907
     - https://go.dev/cl/693735
     - https://go.dev/issue/74831
@@ -40864,7 +40995,7 @@
     - https://pkg.go.dev/vuln/GO-2025-3849
     - https://www.cve.org/CVERecord?id=CVE-2025-47907
     PublishedDate: '2025-08-07T16:15:30.357Z'
-    LastModifiedDate: '2025-08-07T21:26:37.453Z'
+    LastModifiedDate: '2025-11-04T22:16:16.347Z'
   - VulnerabilityID: CVE-2025-47912
     PkgID: stdlib@v1.23.7
     PkgName: stdlib
@@ -40888,12 +41019,13 @@
     VendorSeverity:
       amazon: 3
     References:
+    - http://www.openwall.com/lists/oss-security/2025/10/08/1
     - https://go.dev/cl/709857
     - https://go.dev/issue/75678
     - https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI
     - https://pkg.go.dev/vuln/GO-2025-4010
     PublishedDate: '2025-10-29T23:16:18.187Z'
-    LastModifiedDate: '2025-10-30T21:15:32.79Z'
+    LastModifiedDate: '2025-11-04T22:16:16.497Z'
   - VulnerabilityID: CVE-2025-58183
     PkgID: stdlib@v1.23.7
     PkgName: stdlib
@@ -40917,12 +41049,13 @@
     VendorSeverity:
       amazon: 3
     References:
+    - http://www.openwall.com/lists/oss-security/2025/10/08/1
     - https://go.dev/cl/709861
     - https://go.dev/issue/75677
     - https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI
     - https://pkg.go.dev/vuln/GO-2025-4014
     PublishedDate: '2025-10-29T23:16:19.357Z'
-    LastModifiedDate: '2025-11-03T20:19:15.39Z'
+    LastModifiedDate: '2025-11-04T22:16:33.2Z'
   - VulnerabilityID: CVE-2025-58186
     PkgID: stdlib@v1.23.7
     PkgName: stdlib
@@ -40946,12 +41079,13 @@
     VendorSeverity:
       amazon: 3
     References:
+    - http://www.openwall.com/lists/oss-security/2025/10/08/1
     - https://go.dev/cl/709855
     - https://go.dev/issue/75672
     - https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI
     - https://pkg.go.dev/vuln/GO-2025-4012
     PublishedDate: '2025-10-29T23:16:19.547Z'
-    LastModifiedDate: '2025-10-30T15:15:40.07Z'
+    LastModifiedDate: '2025-11-04T22:16:33.45Z'
   - VulnerabilityID: CVE-2025-58187
     PkgID: stdlib@v1.23.7
     PkgName: stdlib
@@ -40975,12 +41109,13 @@
     VendorSeverity:
       amazon: 3
     References:
+    - http://www.openwall.com/lists/oss-security/2025/10/08/1
     - https://go.dev/cl/709854
     - https://go.dev/issue/75681
     - https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI
     - https://pkg.go.dev/vuln/GO-2025-4007
     PublishedDate: '2025-10-29T23:16:19.643Z'
-    LastModifiedDate: '2025-11-03T20:19:15.52Z'
+    LastModifiedDate: '2025-11-04T22:16:33.593Z'
   - VulnerabilityID: CVE-2025-58188
     PkgID: stdlib@v1.23.7
     PkgName: stdlib
@@ -41004,12 +41139,13 @@
     VendorSeverity:
       amazon: 3
     References:
+    - http://www.openwall.com/lists/oss-security/2025/10/08/1
     - https://go.dev/cl/709853
     - https://go.dev/issue/75675
     - https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI
     - https://pkg.go.dev/vuln/GO-2025-4013
     PublishedDate: '2025-10-29T23:16:19.74Z'
-    LastModifiedDate: '2025-10-30T15:15:40.203Z'
+    LastModifiedDate: '2025-11-04T22:16:33.74Z'
   - VulnerabilityID: CVE-2025-61724
     PkgID: stdlib@v1.23.7
     PkgName: stdlib
@@ -41033,12 +41169,13 @@
     VendorSeverity:
       amazon: 3
     References:
+    - http://www.openwall.com/lists/oss-security/2025/10/08/1
     - https://go.dev/cl/709859
     - https://go.dev/issue/75716
     - https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI
     - https://pkg.go.dev/vuln/GO-2025-4015
     PublishedDate: '2025-10-29T23:16:20.02Z'
-    LastModifiedDate: '2025-10-30T15:15:41.31Z'
+    LastModifiedDate: '2025-11-04T22:16:36.567Z'
   - VulnerabilityID: CVE-2025-0913
     PkgID: stdlib@v1.23.7
     PkgName: stdlib
@@ -41116,12 +41253,12 @@
         V3Score: 5.4
     References:
     - http://www.openwall.com/lists/oss-security/2025/04/04/4
-    - https://access.redhat.com/errata/RHSA-2025:9623
+    - https://access.redhat.com/errata/RHSA-2025:9635
     - https://access.redhat.com/security/cve/CVE-2025-22871
     - https://bugzilla.redhat.com/2358493
     - https://bugzilla.redhat.com/show_bug.cgi?id=2358493
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-22871
-    - https://errata.almalinux.org/10/ALSA-2025-9623.html
+    - https://errata.almalinux.org/9/ALSA-2025-9635.html
     - https://errata.rockylinux.org/RLSA-2025:9845
     - https://github.com/roadrunner-server/roadrunner
     - https://github.com/roadrunner-server/roadrunner/commit/f269279ee87d0b88127741cad1042389af7605fa
@@ -41175,12 +41312,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:N/A:N
         V3Score: 6.8
     References:
-    - https://access.redhat.com/errata/RHSA-2025:16432
+    - https://access.redhat.com/errata/RHSA-2025:15887
     - https://access.redhat.com/security/cve/CVE-2025-4673
     - https://bugzilla.redhat.com/2373305
     - https://bugzilla.redhat.com/show_bug.cgi?id=2373305
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-4673
-    - https://errata.almalinux.org/10/ALSA-2025-16432.html
+    - https://errata.almalinux.org/9/ALSA-2025-15887.html
     - https://errata.rockylinux.org/RLSA-2025:16432
     - https://go.dev/cl/679257
     - https://go.dev/issue/73816
@@ -41226,6 +41363,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:L
         V3Score: 6.5
     References:
+    - http://www.openwall.com/lists/oss-security/2025/08/06/1
     - https://access.redhat.com/security/cve/CVE-2025-47906
     - https://go.dev/cl/691775
     - https://go.dev/issue/74466
@@ -41234,7 +41372,7 @@
     - https://pkg.go.dev/vuln/GO-2025-3956
     - https://www.cve.org/CVERecord?id=CVE-2025-47906
     PublishedDate: '2025-09-18T19:15:37.66Z'
-    LastModifiedDate: '2025-09-19T16:00:27.847Z'
+    LastModifiedDate: '2025-11-04T22:16:16.207Z'
   - VulnerabilityID: CVE-2025-58185
     PkgID: stdlib@v1.23.7
     PkgName: stdlib
@@ -41263,6 +41401,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 5.3
     References:
+    - http://www.openwall.com/lists/oss-security/2025/10/08/1
     - https://access.redhat.com/security/cve/CVE-2025-58185
     - https://github.com/golang/go/commit/8709a41d5ef7321f486a1857f189c3fee20e8edd
     - https://go.dev/cl/709856
@@ -41272,7 +41411,7 @@
     - https://pkg.go.dev/vuln/GO-2025-4011
     - https://www.cve.org/CVERecord?id=CVE-2025-58185
     PublishedDate: '2025-10-29T23:16:19.45Z'
-    LastModifiedDate: '2025-10-30T15:15:39.937Z'
+    LastModifiedDate: '2025-11-04T22:16:33.327Z'
   - VulnerabilityID: CVE-2025-58189
     PkgID: stdlib@v1.23.7
     PkgName: stdlib
@@ -41301,6 +41440,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
         V3Score: 5.3
     References:
+    - http://www.openwall.com/lists/oss-security/2025/10/08/1
     - https://access.redhat.com/security/cve/CVE-2025-58189
     - https://go.dev/cl/707776
     - https://go.dev/issue/75652
@@ -41309,7 +41449,7 @@
     - https://pkg.go.dev/vuln/GO-2025-4008
     - https://www.cve.org/CVERecord?id=CVE-2025-58189
     PublishedDate: '2025-10-29T23:16:19.833Z'
-    LastModifiedDate: '2025-10-30T21:15:34.127Z'
+    LastModifiedDate: '2025-11-04T22:16:33.877Z'
   - VulnerabilityID: CVE-2025-61723
     PkgID: stdlib@v1.23.7
     PkgName: stdlib
@@ -41338,6 +41478,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 5.3
     References:
+    - http://www.openwall.com/lists/oss-security/2025/10/08/1
     - https://access.redhat.com/security/cve/CVE-2025-61723
     - https://github.com/golang/go/commit/5ce8cd16f3859ec5ac4106ad8ec15d6236f4501b
     - https://go.dev/cl/709858
@@ -41347,7 +41488,7 @@
     - https://pkg.go.dev/vuln/GO-2025-4009
     - https://www.cve.org/CVERecord?id=CVE-2025-61723
     PublishedDate: '2025-10-29T23:16:19.927Z'
-    LastModifiedDate: '2025-11-03T15:15:36.157Z'
+    LastModifiedDate: '2025-11-04T22:16:36.42Z'
   - VulnerabilityID: CVE-2025-61725
     PkgID: stdlib@v1.23.7
     PkgName: stdlib
@@ -41376,6 +41517,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 5.3
     References:
+    - http://www.openwall.com/lists/oss-security/2025/10/08/1
     - https://access.redhat.com/security/cve/CVE-2025-61725
     - https://go.dev/cl/709860
     - https://go.dev/issue/75680
@@ -41384,7 +41526,7 @@
     - https://pkg.go.dev/vuln/GO-2025-4006
     - https://www.cve.org/CVERecord?id=CVE-2025-61725
     PublishedDate: '2025-10-29T23:16:20.113Z'
-    LastModifiedDate: '2025-11-03T20:19:17.47Z'
+    LastModifiedDate: '2025-11-04T22:16:36.693Z'
 - Target: usr/bin/kubectl
   Class: lang-pkgs
   Type: gobinary
@@ -42409,6 +42551,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:L/A:L
         V3Score: 7
     References:
+    - http://www.openwall.com/lists/oss-security/2025/08/06/1
     - https://access.redhat.com/security/cve/CVE-2025-47907
     - https://go.dev/cl/693735
     - https://go.dev/issue/74831
@@ -42417,7 +42560,7 @@
     - https://pkg.go.dev/vuln/GO-2025-3849
     - https://www.cve.org/CVERecord?id=CVE-2025-47907
     PublishedDate: '2025-08-07T16:15:30.357Z'
-    LastModifiedDate: '2025-08-07T21:26:37.453Z'
+    LastModifiedDate: '2025-11-04T22:16:16.347Z'
   - VulnerabilityID: CVE-2025-47912
     PkgID: stdlib@v1.23.6
     PkgName: stdlib
@@ -42441,12 +42584,13 @@
     VendorSeverity:
       amazon: 3
     References:
+    - http://www.openwall.com/lists/oss-security/2025/10/08/1
     - https://go.dev/cl/709857
     - https://go.dev/issue/75678
     - https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI
     - https://pkg.go.dev/vuln/GO-2025-4010
     PublishedDate: '2025-10-29T23:16:18.187Z'
-    LastModifiedDate: '2025-10-30T21:15:32.79Z'
+    LastModifiedDate: '2025-11-04T22:16:16.497Z'
   - VulnerabilityID: CVE-2025-58183
     PkgID: stdlib@v1.23.6
     PkgName: stdlib
@@ -42470,12 +42614,13 @@
     VendorSeverity:
       amazon: 3
     References:
+    - http://www.openwall.com/lists/oss-security/2025/10/08/1
     - https://go.dev/cl/709861
     - https://go.dev/issue/75677
     - https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI
     - https://pkg.go.dev/vuln/GO-2025-4014
     PublishedDate: '2025-10-29T23:16:19.357Z'
-    LastModifiedDate: '2025-11-03T20:19:15.39Z'
+    LastModifiedDate: '2025-11-04T22:16:33.2Z'
   - VulnerabilityID: CVE-2025-58186
     PkgID: stdlib@v1.23.6
     PkgName: stdlib
@@ -42499,12 +42644,13 @@
     VendorSeverity:
       amazon: 3
     References:
+    - http://www.openwall.com/lists/oss-security/2025/10/08/1
     - https://go.dev/cl/709855
     - https://go.dev/issue/75672
     - https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI
     - https://pkg.go.dev/vuln/GO-2025-4012
     PublishedDate: '2025-10-29T23:16:19.547Z'
-    LastModifiedDate: '2025-10-30T15:15:40.07Z'
+    LastModifiedDate: '2025-11-04T22:16:33.45Z'
   - VulnerabilityID: CVE-2025-58187
     PkgID: stdlib@v1.23.6
     PkgName: stdlib
@@ -42528,12 +42674,13 @@
     VendorSeverity:
       amazon: 3
     References:
+    - http://www.openwall.com/lists/oss-security/2025/10/08/1
     - https://go.dev/cl/709854
     - https://go.dev/issue/75681
     - https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI
     - https://pkg.go.dev/vuln/GO-2025-4007
     PublishedDate: '2025-10-29T23:16:19.643Z'
-    LastModifiedDate: '2025-11-03T20:19:15.52Z'
+    LastModifiedDate: '2025-11-04T22:16:33.593Z'
   - VulnerabilityID: CVE-2025-58188
     PkgID: stdlib@v1.23.6
     PkgName: stdlib
@@ -42557,12 +42704,13 @@
     VendorSeverity:
       amazon: 3
     References:
+    - http://www.openwall.com/lists/oss-security/2025/10/08/1
     - https://go.dev/cl/709853
     - https://go.dev/issue/75675
     - https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI
     - https://pkg.go.dev/vuln/GO-2025-4013
     PublishedDate: '2025-10-29T23:16:19.74Z'
-    LastModifiedDate: '2025-10-30T15:15:40.203Z'
+    LastModifiedDate: '2025-11-04T22:16:33.74Z'
   - VulnerabilityID: CVE-2025-61724
     PkgID: stdlib@v1.23.6
     PkgName: stdlib
@@ -42586,12 +42734,13 @@
     VendorSeverity:
       amazon: 3
     References:
+    - http://www.openwall.com/lists/oss-security/2025/10/08/1
     - https://go.dev/cl/709859
     - https://go.dev/issue/75716
     - https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI
     - https://pkg.go.dev/vuln/GO-2025-4015
     PublishedDate: '2025-10-29T23:16:20.02Z'
-    LastModifiedDate: '2025-10-30T15:15:41.31Z'
+    LastModifiedDate: '2025-11-04T22:16:36.567Z'
   - VulnerabilityID: CVE-2025-0913
     PkgID: stdlib@v1.23.6
     PkgName: stdlib
@@ -42669,12 +42818,12 @@
         V3Score: 5.4
     References:
     - http://www.openwall.com/lists/oss-security/2025/04/04/4
-    - https://access.redhat.com/errata/RHSA-2025:9623
+    - https://access.redhat.com/errata/RHSA-2025:9635
     - https://access.redhat.com/security/cve/CVE-2025-22871
     - https://bugzilla.redhat.com/2358493
     - https://bugzilla.redhat.com/show_bug.cgi?id=2358493
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-22871
-    - https://errata.almalinux.org/10/ALSA-2025-9623.html
+    - https://errata.almalinux.org/9/ALSA-2025-9635.html
     - https://errata.rockylinux.org/RLSA-2025:9845
     - https://github.com/roadrunner-server/roadrunner
     - https://github.com/roadrunner-server/roadrunner/commit/f269279ee87d0b88127741cad1042389af7605fa
@@ -42728,12 +42877,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:N/A:N
         V3Score: 6.8
     References:
-    - https://access.redhat.com/errata/RHSA-2025:16432
+    - https://access.redhat.com/errata/RHSA-2025:15887
     - https://access.redhat.com/security/cve/CVE-2025-4673
     - https://bugzilla.redhat.com/2373305
     - https://bugzilla.redhat.com/show_bug.cgi?id=2373305
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-4673
-    - https://errata.almalinux.org/10/ALSA-2025-16432.html
+    - https://errata.almalinux.org/9/ALSA-2025-15887.html
     - https://errata.rockylinux.org/RLSA-2025:16432
     - https://go.dev/cl/679257
     - https://go.dev/issue/73816
@@ -42779,6 +42928,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:L
         V3Score: 6.5
     References:
+    - http://www.openwall.com/lists/oss-security/2025/08/06/1
     - https://access.redhat.com/security/cve/CVE-2025-47906
     - https://go.dev/cl/691775
     - https://go.dev/issue/74466
@@ -42787,7 +42937,7 @@
     - https://pkg.go.dev/vuln/GO-2025-3956
     - https://www.cve.org/CVERecord?id=CVE-2025-47906
     PublishedDate: '2025-09-18T19:15:37.66Z'
-    LastModifiedDate: '2025-09-19T16:00:27.847Z'
+    LastModifiedDate: '2025-11-04T22:16:16.207Z'
   - VulnerabilityID: CVE-2025-58185
     PkgID: stdlib@v1.23.6
     PkgName: stdlib
@@ -42816,6 +42966,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 5.3
     References:
+    - http://www.openwall.com/lists/oss-security/2025/10/08/1
     - https://access.redhat.com/security/cve/CVE-2025-58185
     - https://github.com/golang/go/commit/8709a41d5ef7321f486a1857f189c3fee20e8edd
     - https://go.dev/cl/709856
@@ -42825,7 +42976,7 @@
     - https://pkg.go.dev/vuln/GO-2025-4011
     - https://www.cve.org/CVERecord?id=CVE-2025-58185
     PublishedDate: '2025-10-29T23:16:19.45Z'
-    LastModifiedDate: '2025-10-30T15:15:39.937Z'
+    LastModifiedDate: '2025-11-04T22:16:33.327Z'
   - VulnerabilityID: CVE-2025-58189
     PkgID: stdlib@v1.23.6
     PkgName: stdlib
@@ -42854,6 +43005,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
         V3Score: 5.3
     References:
+    - http://www.openwall.com/lists/oss-security/2025/10/08/1
     - https://access.redhat.com/security/cve/CVE-2025-58189
     - https://go.dev/cl/707776
     - https://go.dev/issue/75652
@@ -42862,7 +43014,7 @@
     - https://pkg.go.dev/vuln/GO-2025-4008
     - https://www.cve.org/CVERecord?id=CVE-2025-58189
     PublishedDate: '2025-10-29T23:16:19.833Z'
-    LastModifiedDate: '2025-10-30T21:15:34.127Z'
+    LastModifiedDate: '2025-11-04T22:16:33.877Z'
   - VulnerabilityID: CVE-2025-61723
     PkgID: stdlib@v1.23.6
     PkgName: stdlib
@@ -42891,6 +43043,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 5.3
     References:
+    - http://www.openwall.com/lists/oss-security/2025/10/08/1
     - https://access.redhat.com/security/cve/CVE-2025-61723
     - https://github.com/golang/go/commit/5ce8cd16f3859ec5ac4106ad8ec15d6236f4501b
     - https://go.dev/cl/709858
@@ -42900,7 +43053,7 @@
     - https://pkg.go.dev/vuln/GO-2025-4009
     - https://www.cve.org/CVERecord?id=CVE-2025-61723
     PublishedDate: '2025-10-29T23:16:19.927Z'
-    LastModifiedDate: '2025-11-03T15:15:36.157Z'
+    LastModifiedDate: '2025-11-04T22:16:36.42Z'
   - VulnerabilityID: CVE-2025-61725
     PkgID: stdlib@v1.23.6
     PkgName: stdlib
@@ -42929,6 +43082,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 5.3
     References:
+    - http://www.openwall.com/lists/oss-security/2025/10/08/1
     - https://access.redhat.com/security/cve/CVE-2025-61725
     - https://go.dev/cl/709860
     - https://go.dev/issue/75680
@@ -42937,7 +43091,7 @@
     - https://pkg.go.dev/vuln/GO-2025-4006
     - https://www.cve.org/CVERecord?id=CVE-2025-61725
     PublishedDate: '2025-10-29T23:16:20.113Z'
-    LastModifiedDate: '2025-11-03T20:19:17.47Z'
+    LastModifiedDate: '2025-11-04T22:16:36.693Z'
 - Target: usr/bin/mc
   Class: lang-pkgs
   Type: gobinary
@@ -43985,12 +44139,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2025:7475
+    - https://access.redhat.com/errata/RHSA-2025:7425
     - https://access.redhat.com/security/cve/CVE-2025-30204
     - https://bugzilla.redhat.com/2354195
     - https://bugzilla.redhat.com/show_bug.cgi?id=2354195
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-30204
-    - https://errata.almalinux.org/10/ALSA-2025-7475.html
+    - https://errata.almalinux.org/9/ALSA-2025-7425.html
     - https://errata.rockylinux.org/RLSA-2025:3344
     - https://github.com/golang-jwt/jwt
     - https://github.com/golang-jwt/jwt/commit/0951d184286dece21f73c85673fd308786ffe9c3
@@ -44126,6 +44280,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:L/A:L
         V3Score: 7
     References:
+    - http://www.openwall.com/lists/oss-security/2025/08/06/1
     - https://access.redhat.com/security/cve/CVE-2025-47907
     - https://go.dev/cl/693735
     - https://go.dev/issue/74831
@@ -44134,7 +44289,7 @@
     - https://pkg.go.dev/vuln/GO-2025-3849
     - https://www.cve.org/CVERecord?id=CVE-2025-47907
     PublishedDate: '2025-08-07T16:15:30.357Z'
-    LastModifiedDate: '2025-08-07T21:26:37.453Z'
+    LastModifiedDate: '2025-11-04T22:16:16.347Z'
   - VulnerabilityID: CVE-2025-47912
     PkgID: stdlib@v1.24.1
     PkgName: stdlib
@@ -44158,12 +44313,13 @@
     VendorSeverity:
       amazon: 3
     References:
+    - http://www.openwall.com/lists/oss-security/2025/10/08/1
     - https://go.dev/cl/709857
     - https://go.dev/issue/75678
     - https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI
     - https://pkg.go.dev/vuln/GO-2025-4010
     PublishedDate: '2025-10-29T23:16:18.187Z'
-    LastModifiedDate: '2025-10-30T21:15:32.79Z'
+    LastModifiedDate: '2025-11-04T22:16:16.497Z'
   - VulnerabilityID: CVE-2025-58183
     PkgID: stdlib@v1.24.1
     PkgName: stdlib
@@ -44187,12 +44343,13 @@
     VendorSeverity:
       amazon: 3
     References:
+    - http://www.openwall.com/lists/oss-security/2025/10/08/1
     - https://go.dev/cl/709861
     - https://go.dev/issue/75677
     - https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI
     - https://pkg.go.dev/vuln/GO-2025-4014
     PublishedDate: '2025-10-29T23:16:19.357Z'
-    LastModifiedDate: '2025-11-03T20:19:15.39Z'
+    LastModifiedDate: '2025-11-04T22:16:33.2Z'
   - VulnerabilityID: CVE-2025-58186
     PkgID: stdlib@v1.24.1
     PkgName: stdlib
@@ -44216,12 +44373,13 @@
     VendorSeverity:
       amazon: 3
     References:
+    - http://www.openwall.com/lists/oss-security/2025/10/08/1
     - https://go.dev/cl/709855
     - https://go.dev/issue/75672
     - https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI
     - https://pkg.go.dev/vuln/GO-2025-4012
     PublishedDate: '2025-10-29T23:16:19.547Z'
-    LastModifiedDate: '2025-10-30T15:15:40.07Z'
+    LastModifiedDate: '2025-11-04T22:16:33.45Z'
   - VulnerabilityID: CVE-2025-58187
     PkgID: stdlib@v1.24.1
     PkgName: stdlib
@@ -44245,12 +44403,13 @@
     VendorSeverity:
       amazon: 3
     References:
+    - http://www.openwall.com/lists/oss-security/2025/10/08/1
     - https://go.dev/cl/709854
     - https://go.dev/issue/75681
     - https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI
     - https://pkg.go.dev/vuln/GO-2025-4007
     PublishedDate: '2025-10-29T23:16:19.643Z'
-    LastModifiedDate: '2025-11-03T20:19:15.52Z'
+    LastModifiedDate: '2025-11-04T22:16:33.593Z'
   - VulnerabilityID: CVE-2025-58188
     PkgID: stdlib@v1.24.1
     PkgName: stdlib
@@ -44274,12 +44433,13 @@
     VendorSeverity:
       amazon: 3
     References:
+    - http://www.openwall.com/lists/oss-security/2025/10/08/1
     - https://go.dev/cl/709853
     - https://go.dev/issue/75675
     - https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI
     - https://pkg.go.dev/vuln/GO-2025-4013
     PublishedDate: '2025-10-29T23:16:19.74Z'
-    LastModifiedDate: '2025-10-30T15:15:40.203Z'
+    LastModifiedDate: '2025-11-04T22:16:33.74Z'
   - VulnerabilityID: CVE-2025-61724
     PkgID: stdlib@v1.24.1
     PkgName: stdlib
@@ -44303,12 +44463,13 @@
     VendorSeverity:
       amazon: 3
     References:
+    - http://www.openwall.com/lists/oss-security/2025/10/08/1
     - https://go.dev/cl/709859
     - https://go.dev/issue/75716
     - https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI
     - https://pkg.go.dev/vuln/GO-2025-4015
     PublishedDate: '2025-10-29T23:16:20.02Z'
-    LastModifiedDate: '2025-10-30T15:15:41.31Z'
+    LastModifiedDate: '2025-11-04T22:16:36.567Z'
   - VulnerabilityID: CVE-2025-0913
     PkgID: stdlib@v1.24.1
     PkgName: stdlib
@@ -44386,12 +44547,12 @@
         V3Score: 5.4
     References:
     - http://www.openwall.com/lists/oss-security/2025/04/04/4
-    - https://access.redhat.com/errata/RHSA-2025:9623
+    - https://access.redhat.com/errata/RHSA-2025:9635
     - https://access.redhat.com/security/cve/CVE-2025-22871
     - https://bugzilla.redhat.com/2358493
     - https://bugzilla.redhat.com/show_bug.cgi?id=2358493
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-22871
-    - https://errata.almalinux.org/10/ALSA-2025-9623.html
+    - https://errata.almalinux.org/9/ALSA-2025-9635.html
     - https://errata.rockylinux.org/RLSA-2025:9845
     - https://github.com/roadrunner-server/roadrunner
     - https://github.com/roadrunner-server/roadrunner/commit/f269279ee87d0b88127741cad1042389af7605fa
@@ -44445,12 +44606,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:N/A:N
         V3Score: 6.8
     References:
-    - https://access.redhat.com/errata/RHSA-2025:16432
+    - https://access.redhat.com/errata/RHSA-2025:15887
     - https://access.redhat.com/security/cve/CVE-2025-4673
     - https://bugzilla.redhat.com/2373305
     - https://bugzilla.redhat.com/show_bug.cgi?id=2373305
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-4673
-    - https://errata.almalinux.org/10/ALSA-2025-16432.html
+    - https://errata.almalinux.org/9/ALSA-2025-15887.html
     - https://errata.rockylinux.org/RLSA-2025:16432
     - https://go.dev/cl/679257
     - https://go.dev/issue/73816
@@ -44496,6 +44657,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:L
         V3Score: 6.5
     References:
+    - http://www.openwall.com/lists/oss-security/2025/08/06/1
     - https://access.redhat.com/security/cve/CVE-2025-47906
     - https://go.dev/cl/691775
     - https://go.dev/issue/74466
@@ -44504,7 +44666,7 @@
     - https://pkg.go.dev/vuln/GO-2025-3956
     - https://www.cve.org/CVERecord?id=CVE-2025-47906
     PublishedDate: '2025-09-18T19:15:37.66Z'
-    LastModifiedDate: '2025-09-19T16:00:27.847Z'
+    LastModifiedDate: '2025-11-04T22:16:16.207Z'
   - VulnerabilityID: CVE-2025-58185
     PkgID: stdlib@v1.24.1
     PkgName: stdlib
@@ -44533,6 +44695,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 5.3
     References:
+    - http://www.openwall.com/lists/oss-security/2025/10/08/1
     - https://access.redhat.com/security/cve/CVE-2025-58185
     - https://github.com/golang/go/commit/8709a41d5ef7321f486a1857f189c3fee20e8edd
     - https://go.dev/cl/709856
@@ -44542,7 +44705,7 @@
     - https://pkg.go.dev/vuln/GO-2025-4011
     - https://www.cve.org/CVERecord?id=CVE-2025-58185
     PublishedDate: '2025-10-29T23:16:19.45Z'
-    LastModifiedDate: '2025-10-30T15:15:39.937Z'
+    LastModifiedDate: '2025-11-04T22:16:33.327Z'
   - VulnerabilityID: CVE-2025-58189
     PkgID: stdlib@v1.24.1
     PkgName: stdlib
@@ -44571,6 +44734,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
         V3Score: 5.3
     References:
+    - http://www.openwall.com/lists/oss-security/2025/10/08/1
     - https://access.redhat.com/security/cve/CVE-2025-58189
     - https://go.dev/cl/707776
     - https://go.dev/issue/75652
@@ -44579,7 +44743,7 @@
     - https://pkg.go.dev/vuln/GO-2025-4008
     - https://www.cve.org/CVERecord?id=CVE-2025-58189
     PublishedDate: '2025-10-29T23:16:19.833Z'
-    LastModifiedDate: '2025-10-30T21:15:34.127Z'
+    LastModifiedDate: '2025-11-04T22:16:33.877Z'
   - VulnerabilityID: CVE-2025-61723
     PkgID: stdlib@v1.24.1
     PkgName: stdlib
@@ -44608,6 +44772,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 5.3
     References:
+    - http://www.openwall.com/lists/oss-security/2025/10/08/1
     - https://access.redhat.com/security/cve/CVE-2025-61723
     - https://github.com/golang/go/commit/5ce8cd16f3859ec5ac4106ad8ec15d6236f4501b
     - https://go.dev/cl/709858
@@ -44617,7 +44782,7 @@
     - https://pkg.go.dev/vuln/GO-2025-4009
     - https://www.cve.org/CVERecord?id=CVE-2025-61723
     PublishedDate: '2025-10-29T23:16:19.927Z'
-    LastModifiedDate: '2025-11-03T15:15:36.157Z'
+    LastModifiedDate: '2025-11-04T22:16:36.42Z'
   - VulnerabilityID: CVE-2025-61725
     PkgID: stdlib@v1.24.1
     PkgName: stdlib
@@ -44646,6 +44811,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 5.3
     References:
+    - http://www.openwall.com/lists/oss-security/2025/10/08/1
     - https://access.redhat.com/security/cve/CVE-2025-61725
     - https://go.dev/cl/709860
     - https://go.dev/issue/75680
@@ -44654,7 +44820,7 @@
     - https://pkg.go.dev/vuln/GO-2025-4006
     - https://www.cve.org/CVERecord?id=CVE-2025-61725
     PublishedDate: '2025-10-29T23:16:20.113Z'
-    LastModifiedDate: '2025-11-03T20:19:17.47Z'
+    LastModifiedDate: '2025-11-04T22:16:36.693Z'
 - Target: usr/local/bin/k3d
   Class: lang-pkgs
   Type: gobinary
@@ -46037,12 +46203,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2025:7484
+    - https://access.redhat.com/errata/RHSA-2025:3833
     - https://access.redhat.com/security/cve/CVE-2025-22869
     - https://bugzilla.redhat.com/2348367
     - https://bugzilla.redhat.com/show_bug.cgi?id=2348367
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-22869
-    - https://errata.almalinux.org/10/ALSA-2025-7484.html
+    - https://errata.almalinux.org/9/ALSA-2025-3833.html
     - https://errata.rockylinux.org/RLSA-2025:7484
     - https://github.com/golang/crypto
     - https://github.com/golang/crypto/commit/7292932d45d55c7199324ab0027cc86e8198aa22
@@ -46281,6 +46447,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:L/A:L
         V3Score: 7
     References:
+    - http://www.openwall.com/lists/oss-security/2025/08/06/1
     - https://access.redhat.com/security/cve/CVE-2025-47907
     - https://go.dev/cl/693735
     - https://go.dev/issue/74831
@@ -46289,7 +46456,7 @@
     - https://pkg.go.dev/vuln/GO-2025-3849
     - https://www.cve.org/CVERecord?id=CVE-2025-47907
     PublishedDate: '2025-08-07T16:15:30.357Z'
-    LastModifiedDate: '2025-08-07T21:26:37.453Z'
+    LastModifiedDate: '2025-11-04T22:16:16.347Z'
   - VulnerabilityID: CVE-2025-47912
     PkgID: stdlib@v1.22.12
     PkgName: stdlib
@@ -46313,12 +46480,13 @@
     VendorSeverity:
       amazon: 3
     References:
+    - http://www.openwall.com/lists/oss-security/2025/10/08/1
     - https://go.dev/cl/709857
     - https://go.dev/issue/75678
     - https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI
     - https://pkg.go.dev/vuln/GO-2025-4010
     PublishedDate: '2025-10-29T23:16:18.187Z'
-    LastModifiedDate: '2025-10-30T21:15:32.79Z'
+    LastModifiedDate: '2025-11-04T22:16:16.497Z'
   - VulnerabilityID: CVE-2025-58183
     PkgID: stdlib@v1.22.12
     PkgName: stdlib
@@ -46342,12 +46510,13 @@
     VendorSeverity:
       amazon: 3
     References:
+    - http://www.openwall.com/lists/oss-security/2025/10/08/1
     - https://go.dev/cl/709861
     - https://go.dev/issue/75677
     - https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI
     - https://pkg.go.dev/vuln/GO-2025-4014
     PublishedDate: '2025-10-29T23:16:19.357Z'
-    LastModifiedDate: '2025-11-03T20:19:15.39Z'
+    LastModifiedDate: '2025-11-04T22:16:33.2Z'
   - VulnerabilityID: CVE-2025-58186
     PkgID: stdlib@v1.22.12
     PkgName: stdlib
@@ -46371,12 +46540,13 @@
     VendorSeverity:
       amazon: 3
     References:
+    - http://www.openwall.com/lists/oss-security/2025/10/08/1
     - https://go.dev/cl/709855
     - https://go.dev/issue/75672
     - https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI
     - https://pkg.go.dev/vuln/GO-2025-4012
     PublishedDate: '2025-10-29T23:16:19.547Z'
-    LastModifiedDate: '2025-10-30T15:15:40.07Z'
+    LastModifiedDate: '2025-11-04T22:16:33.45Z'
   - VulnerabilityID: CVE-2025-58187
     PkgID: stdlib@v1.22.12
     PkgName: stdlib
@@ -46400,12 +46570,13 @@
     VendorSeverity:
       amazon: 3
     References:
+    - http://www.openwall.com/lists/oss-security/2025/10/08/1
     - https://go.dev/cl/709854
     - https://go.dev/issue/75681
     - https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI
     - https://pkg.go.dev/vuln/GO-2025-4007
     PublishedDate: '2025-10-29T23:16:19.643Z'
-    LastModifiedDate: '2025-11-03T20:19:15.52Z'
+    LastModifiedDate: '2025-11-04T22:16:33.593Z'
   - VulnerabilityID: CVE-2025-58188
     PkgID: stdlib@v1.22.12
     PkgName: stdlib
@@ -46429,12 +46600,13 @@
     VendorSeverity:
       amazon: 3
     References:
+    - http://www.openwall.com/lists/oss-security/2025/10/08/1
     - https://go.dev/cl/709853
     - https://go.dev/issue/75675
     - https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI
     - https://pkg.go.dev/vuln/GO-2025-4013
     PublishedDate: '2025-10-29T23:16:19.74Z'
-    LastModifiedDate: '2025-10-30T15:15:40.203Z'
+    LastModifiedDate: '2025-11-04T22:16:33.74Z'
   - VulnerabilityID: CVE-2025-61724
     PkgID: stdlib@v1.22.12
     PkgName: stdlib
@@ -46458,12 +46630,13 @@
     VendorSeverity:
       amazon: 3
     References:
+    - http://www.openwall.com/lists/oss-security/2025/10/08/1
     - https://go.dev/cl/709859
     - https://go.dev/issue/75716
     - https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI
     - https://pkg.go.dev/vuln/GO-2025-4015
     PublishedDate: '2025-10-29T23:16:20.02Z'
-    LastModifiedDate: '2025-10-30T15:15:41.31Z'
+    LastModifiedDate: '2025-11-04T22:16:36.567Z'
   - VulnerabilityID: CVE-2025-0913
     PkgID: stdlib@v1.22.12
     PkgName: stdlib
@@ -46541,12 +46714,12 @@
         V3Score: 5.4
     References:
     - http://www.openwall.com/lists/oss-security/2025/04/04/4
-    - https://access.redhat.com/errata/RHSA-2025:9623
+    - https://access.redhat.com/errata/RHSA-2025:9635
     - https://access.redhat.com/security/cve/CVE-2025-22871
     - https://bugzilla.redhat.com/2358493
     - https://bugzilla.redhat.com/show_bug.cgi?id=2358493
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-22871
-    - https://errata.almalinux.org/10/ALSA-2025-9623.html
+    - https://errata.almalinux.org/9/ALSA-2025-9635.html
     - https://errata.rockylinux.org/RLSA-2025:9845
     - https://github.com/roadrunner-server/roadrunner
     - https://github.com/roadrunner-server/roadrunner/commit/f269279ee87d0b88127741cad1042389af7605fa
@@ -46600,12 +46773,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:N/A:N
         V3Score: 6.8
     References:
-    - https://access.redhat.com/errata/RHSA-2025:16432
+    - https://access.redhat.com/errata/RHSA-2025:15887
     - https://access.redhat.com/security/cve/CVE-2025-4673
     - https://bugzilla.redhat.com/2373305
     - https://bugzilla.redhat.com/show_bug.cgi?id=2373305
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-4673
-    - https://errata.almalinux.org/10/ALSA-2025-16432.html
+    - https://errata.almalinux.org/9/ALSA-2025-15887.html
     - https://errata.rockylinux.org/RLSA-2025:16432
     - https://go.dev/cl/679257
     - https://go.dev/issue/73816
@@ -46651,6 +46824,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:L
         V3Score: 6.5
     References:
+    - http://www.openwall.com/lists/oss-security/2025/08/06/1
     - https://access.redhat.com/security/cve/CVE-2025-47906
     - https://go.dev/cl/691775
     - https://go.dev/issue/74466
@@ -46659,7 +46833,7 @@
     - https://pkg.go.dev/vuln/GO-2025-3956
     - https://www.cve.org/CVERecord?id=CVE-2025-47906
     PublishedDate: '2025-09-18T19:15:37.66Z'
-    LastModifiedDate: '2025-09-19T16:00:27.847Z'
+    LastModifiedDate: '2025-11-04T22:16:16.207Z'
   - VulnerabilityID: CVE-2025-58185
     PkgID: stdlib@v1.22.12
     PkgName: stdlib
@@ -46688,6 +46862,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 5.3
     References:
+    - http://www.openwall.com/lists/oss-security/2025/10/08/1
     - https://access.redhat.com/security/cve/CVE-2025-58185
     - https://github.com/golang/go/commit/8709a41d5ef7321f486a1857f189c3fee20e8edd
     - https://go.dev/cl/709856
@@ -46697,7 +46872,7 @@
     - https://pkg.go.dev/vuln/GO-2025-4011
     - https://www.cve.org/CVERecord?id=CVE-2025-58185
     PublishedDate: '2025-10-29T23:16:19.45Z'
-    LastModifiedDate: '2025-10-30T15:15:39.937Z'
+    LastModifiedDate: '2025-11-04T22:16:33.327Z'
   - VulnerabilityID: CVE-2025-58189
     PkgID: stdlib@v1.22.12
     PkgName: stdlib
@@ -46726,6 +46901,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
         V3Score: 5.3
     References:
+    - http://www.openwall.com/lists/oss-security/2025/10/08/1
     - https://access.redhat.com/security/cve/CVE-2025-58189
     - https://go.dev/cl/707776
     - https://go.dev/issue/75652
@@ -46734,7 +46910,7 @@
     - https://pkg.go.dev/vuln/GO-2025-4008
     - https://www.cve.org/CVERecord?id=CVE-2025-58189
     PublishedDate: '2025-10-29T23:16:19.833Z'
-    LastModifiedDate: '2025-10-30T21:15:34.127Z'
+    LastModifiedDate: '2025-11-04T22:16:33.877Z'
   - VulnerabilityID: CVE-2025-61723
     PkgID: stdlib@v1.22.12
     PkgName: stdlib
@@ -46763,6 +46939,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 5.3
     References:
+    - http://www.openwall.com/lists/oss-security/2025/10/08/1
     - https://access.redhat.com/security/cve/CVE-2025-61723
     - https://github.com/golang/go/commit/5ce8cd16f3859ec5ac4106ad8ec15d6236f4501b
     - https://go.dev/cl/709858
@@ -46772,7 +46949,7 @@
     - https://pkg.go.dev/vuln/GO-2025-4009
     - https://www.cve.org/CVERecord?id=CVE-2025-61723
     PublishedDate: '2025-10-29T23:16:19.927Z'
-    LastModifiedDate: '2025-11-03T15:15:36.157Z'
+    LastModifiedDate: '2025-11-04T22:16:36.42Z'
   - VulnerabilityID: CVE-2025-61725
     PkgID: stdlib@v1.22.12
     PkgName: stdlib
@@ -46801,6 +46978,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 5.3
     References:
+    - http://www.openwall.com/lists/oss-security/2025/10/08/1
     - https://access.redhat.com/security/cve/CVE-2025-61725
     - https://go.dev/cl/709860
     - https://go.dev/issue/75680
@@ -46809,7 +46987,7 @@
     - https://pkg.go.dev/vuln/GO-2025-4006
     - https://www.cve.org/CVERecord?id=CVE-2025-61725
     PublishedDate: '2025-10-29T23:16:20.113Z'
-    LastModifiedDate: '2025-11-03T20:19:17.47Z'
+    LastModifiedDate: '2025-11-04T22:16:36.693Z'
 - Target: /etc/ssh/ssh_host_dsa_key
   Class: secret
   Secrets:
