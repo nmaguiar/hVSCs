@@ -26990,13 +26990,18 @@
 │                        │      │                   hostnames must not appear within square brackets. Parse did
 │                        │      │                    not enforce this requirement. 
 │                        │      ├ Severity        : HIGH 
-│                        │      ├ VendorSeverity   ─ amazon: 3 
+│                        │      ├ VendorSeverity   ╭ amazon : 3 
+│                        │      │                  ╰ bitnami: 2 
+│                        │      ├ CVSS             ─ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I
+│                        │      │                            │           :N/A:N 
+│                        │      │                            ╰ V3Score : 5.3 
 │                        │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/10/08/1 
 │                        │      │                  ├ [1]: https://go.dev/cl/709857 
 │                        │      │                  ├ [2]: https://go.dev/issue/75678 
 │                        │      │                  ├ [3]: https://groups.google.com/g/golang-announce/c/4Emdl2i
 │                        │      │                  │      Q_bI 
-│                        │      │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2025-4010 
+│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-47912 
+│                        │      │                  ╰ [5]: https://pkg.go.dev/vuln/GO-2025-4010 
 │                        │      ├ PublishedDate   : 2025-10-29T23:16:18.187Z 
 │                        │      ╰ LastModifiedDate: 2025-11-04T22:16:16.497Z 
 │                        ├ [6]  ╭ VulnerabilityID : CVE-2025-58183 
@@ -27025,13 +27030,18 @@
 │                        │      │                   from a compressed source, a small compressed input can
 │                        │      │                   result in large allocations. 
 │                        │      ├ Severity        : HIGH 
-│                        │      ├ VendorSeverity   ─ amazon: 3 
+│                        │      ├ VendorSeverity   ╭ amazon : 3 
+│                        │      │                  ╰ bitnami: 2 
+│                        │      ├ CVSS             ─ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I
+│                        │      │                            │           :N/A:L 
+│                        │      │                            ╰ V3Score : 4.3 
 │                        │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/10/08/1 
 │                        │      │                  ├ [1]: https://go.dev/cl/709861 
 │                        │      │                  ├ [2]: https://go.dev/issue/75677 
 │                        │      │                  ├ [3]: https://groups.google.com/g/golang-announce/c/4Emdl2i
 │                        │      │                  │      Q_bI 
-│                        │      │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2025-4014 
+│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-58183 
+│                        │      │                  ╰ [5]: https://pkg.go.dev/vuln/GO-2025-4014 
 │                        │      ├ PublishedDate   : 2025-10-29T23:16:19.357Z 
 │                        │      ╰ LastModifiedDate: 2025-11-04T22:16:33.2Z 
 │                        ├ [7]  ╭ VulnerabilityID : CVE-2025-58186 
@@ -27058,13 +27068,18 @@
 │                        │      │                   attacker can make an HTTP server allocate a large amount of
 │                        │      │                    structs, causing large memory consumption. 
 │                        │      ├ Severity        : HIGH 
-│                        │      ├ VendorSeverity   ─ amazon: 3 
+│                        │      ├ VendorSeverity   ╭ amazon : 3 
+│                        │      │                  ╰ bitnami: 2 
+│                        │      ├ CVSS             ─ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                        │      │                            │           :N/A:L 
+│                        │      │                            ╰ V3Score : 5.3 
 │                        │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/10/08/1 
 │                        │      │                  ├ [1]: https://go.dev/cl/709855 
 │                        │      │                  ├ [2]: https://go.dev/issue/75672 
 │                        │      │                  ├ [3]: https://groups.google.com/g/golang-announce/c/4Emdl2i
 │                        │      │                  │      Q_bI 
-│                        │      │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2025-4012 
+│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-58186 
+│                        │      │                  ╰ [5]: https://pkg.go.dev/vuln/GO-2025-4012 
 │                        │      ├ PublishedDate   : 2025-10-29T23:16:19.547Z 
 │                        │      ╰ LastModifiedDate: 2025-11-04T22:16:33.45Z 
 │                        ├ [8]  ╭ VulnerabilityID : CVE-2025-58187 
@@ -27091,13 +27106,18 @@
 │                        │      │                   This affects programs which validate arbitrary certificate
 │                        │      │                   chains. 
 │                        │      ├ Severity        : HIGH 
-│                        │      ├ VendorSeverity   ─ amazon: 3 
+│                        │      ├ VendorSeverity   ╭ amazon : 3 
+│                        │      │                  ╰ bitnami: 3 
+│                        │      ├ CVSS             ─ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                        │      │                            │           :N/A:H 
+│                        │      │                            ╰ V3Score : 7.5 
 │                        │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/10/08/1 
 │                        │      │                  ├ [1]: https://go.dev/cl/709854 
 │                        │      │                  ├ [2]: https://go.dev/issue/75681 
 │                        │      │                  ├ [3]: https://groups.google.com/g/golang-announce/c/4Emdl2i
 │                        │      │                  │      Q_bI 
-│                        │      │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2025-4007 
+│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-58187 
+│                        │      │                  ╰ [5]: https://pkg.go.dev/vuln/GO-2025-4007 
 │                        │      ├ PublishedDate   : 2025-10-29T23:16:19.643Z 
 │                        │      ╰ LastModifiedDate: 2025-11-04T22:16:33.593Z 
 │                        ├ [9]  ╭ VulnerabilityID : CVE-2025-58188 
@@ -27123,13 +27143,18 @@
 │                        │      │                   assumes they implement the Equal method. This affects
 │                        │      │                   programs which validate arbitrary certificate chains. 
 │                        │      ├ Severity        : HIGH 
-│                        │      ├ VendorSeverity   ─ amazon: 3 
+│                        │      ├ VendorSeverity   ╭ amazon : 3 
+│                        │      │                  ╰ bitnami: 3 
+│                        │      ├ CVSS             ─ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                        │      │                            │           :N/A:H 
+│                        │      │                            ╰ V3Score : 7.5 
 │                        │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/10/08/1 
 │                        │      │                  ├ [1]: https://go.dev/cl/709853 
 │                        │      │                  ├ [2]: https://go.dev/issue/75675 
 │                        │      │                  ├ [3]: https://groups.google.com/g/golang-announce/c/4Emdl2i
 │                        │      │                  │      Q_bI 
-│                        │      │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2025-4013 
+│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-58188 
+│                        │      │                  ╰ [5]: https://pkg.go.dev/vuln/GO-2025-4013 
 │                        │      ├ PublishedDate   : 2025-10-29T23:16:19.74Z 
 │                        │      ╰ LastModifiedDate: 2025-11-04T22:16:33.74Z 
 │                        ├ [10] ╭ VulnerabilityID : CVE-2025-61724 
@@ -27155,13 +27180,18 @@
 │                        │      │                    the number of lines in a response is large, this can cause
 │                        │      │                    excessive CPU consumption. 
 │                        │      ├ Severity        : HIGH 
-│                        │      ├ VendorSeverity   ─ amazon: 3 
+│                        │      ├ VendorSeverity   ╭ amazon : 3 
+│                        │      │                  ╰ bitnami: 2 
+│                        │      ├ CVSS             ─ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                        │      │                            │           :N/A:L 
+│                        │      │                            ╰ V3Score : 5.3 
 │                        │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/10/08/1 
 │                        │      │                  ├ [1]: https://go.dev/cl/709859 
 │                        │      │                  ├ [2]: https://go.dev/issue/75716 
 │                        │      │                  ├ [3]: https://groups.google.com/g/golang-announce/c/4Emdl2i
 │                        │      │                  │      Q_bI 
-│                        │      │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2025-4015 
+│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-61724 
+│                        │      │                  ╰ [5]: https://pkg.go.dev/vuln/GO-2025-4015 
 │                        │      ├ PublishedDate   : 2025-10-29T23:16:20.02Z 
 │                        │      ╰ LastModifiedDate: 2025-11-04T22:16:36.567Z 
 │                        ├ [11] ╭ VulnerabilityID : CVE-2025-0913 
@@ -27394,11 +27424,15 @@
 │                        │      ├ Description     : Parsing a maliciously crafted DER payload could allocate
 │                        │      │                   large amounts of memory, causing memory exhaustion. 
 │                        │      ├ Severity        : MEDIUM 
-│                        │      ├ VendorSeverity   ╭ amazon: 3 
-│                        │      │                  ╰ redhat: 2 
-│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
-│                        │      │                           │           N/A:L 
-│                        │      │                           ╰ V3Score : 5.3 
+│                        │      ├ VendorSeverity   ╭ amazon : 3 
+│                        │      │                  ├ bitnami: 2 
+│                        │      │                  ╰ redhat : 2 
+│                        │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                        │      │                  │         │           :N/A:L 
+│                        │      │                  │         ╰ V3Score : 5.3 
+│                        │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                        │      │                            │           :N/A:L 
+│                        │      │                            ╰ V3Score : 5.3 
 │                        │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/10/08/1 
 │                        │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-58185 
 │                        │      │                  ├ [2]: https://github.com/golang/go/commit/8709a41d5ef7321f4
@@ -27434,11 +27468,15 @@
 │                        │      │                    contains attacker controlled information (the ALPN
 │                        │      │                   protocols sent by the client) which is not escaped. 
 │                        │      ├ Severity        : MEDIUM 
-│                        │      ├ VendorSeverity   ╭ amazon: 3 
-│                        │      │                  ╰ redhat: 2 
-│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
-│                        │      │                           │           L/A:N 
-│                        │      │                           ╰ V3Score : 5.3 
+│                        │      ├ VendorSeverity   ╭ amazon : 3 
+│                        │      │                  ├ bitnami: 2 
+│                        │      │                  ╰ redhat : 2 
+│                        │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I
+│                        │      │                  │         │           :N/A:N 
+│                        │      │                  │         ╰ V3Score : 5.3 
+│                        │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                        │      │                            │           :L/A:N 
+│                        │      │                            ╰ V3Score : 5.3 
 │                        │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/10/08/1 
 │                        │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-58189 
 │                        │      │                  ├ [2]: https://go.dev/cl/707776 
@@ -27472,11 +27510,15 @@
 │                        │      │                   non-linearly with respect to the size of the input. This
 │                        │      │                   affects programs which parse untrusted PEM inputs. 
 │                        │      ├ Severity        : MEDIUM 
-│                        │      ├ VendorSeverity   ╭ amazon: 3 
-│                        │      │                  ╰ redhat: 2 
-│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
-│                        │      │                           │           N/A:L 
-│                        │      │                           ╰ V3Score : 5.3 
+│                        │      ├ VendorSeverity   ╭ amazon : 3 
+│                        │      │                  ├ bitnami: 3 
+│                        │      │                  ╰ redhat : 2 
+│                        │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                        │      │                  │         │           :N/A:H 
+│                        │      │                  │         ╰ V3Score : 7.5 
+│                        │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                        │      │                            │           :N/A:L 
+│                        │      │                            ╰ V3Score : 5.3 
 │                        │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/10/08/1 
 │                        │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-61723 
 │                        │      │                  ├ [2]: https://github.com/golang/go/commit/5ce8cd16f3859ec5a
@@ -27513,11 +27555,15 @@
 │                               │                   When parsing large domain-literal components, this can
 │                               │                   cause excessive CPU consumption. 
 │                               ├ Severity        : MEDIUM 
-│                               ├ VendorSeverity   ╭ amazon: 3 
-│                               │                  ╰ redhat: 2 
-│                               ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
-│                               │                           │           N/A:L 
-│                               │                           ╰ V3Score : 5.3 
+│                               ├ VendorSeverity   ╭ amazon : 3 
+│                               │                  ├ bitnami: 3 
+│                               │                  ╰ redhat : 2 
+│                               ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                               │                  │         │           :N/A:H 
+│                               │                  │         ╰ V3Score : 7.5 
+│                               │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                               │                            │           :N/A:L 
+│                               │                            ╰ V3Score : 5.3 
 │                               ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/10/08/1 
 │                               │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-61725 
 │                               │                  ├ [2]: https://go.dev/cl/709860 
@@ -28141,13 +28187,18 @@
 │                        │      │                   hostnames must not appear within square brackets. Parse did
 │                        │      │                    not enforce this requirement. 
 │                        │      ├ Severity        : HIGH 
-│                        │      ├ VendorSeverity   ─ amazon: 3 
+│                        │      ├ VendorSeverity   ╭ amazon : 3 
+│                        │      │                  ╰ bitnami: 2 
+│                        │      ├ CVSS             ─ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I
+│                        │      │                            │           :N/A:N 
+│                        │      │                            ╰ V3Score : 5.3 
 │                        │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/10/08/1 
 │                        │      │                  ├ [1]: https://go.dev/cl/709857 
 │                        │      │                  ├ [2]: https://go.dev/issue/75678 
 │                        │      │                  ├ [3]: https://groups.google.com/g/golang-announce/c/4Emdl2i
 │                        │      │                  │      Q_bI 
-│                        │      │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2025-4010 
+│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-47912 
+│                        │      │                  ╰ [5]: https://pkg.go.dev/vuln/GO-2025-4010 
 │                        │      ├ PublishedDate   : 2025-10-29T23:16:18.187Z 
 │                        │      ╰ LastModifiedDate: 2025-11-04T22:16:16.497Z 
 │                        ├ [6]  ╭ VulnerabilityID : CVE-2025-58183 
@@ -28176,13 +28227,18 @@
 │                        │      │                   from a compressed source, a small compressed input can
 │                        │      │                   result in large allocations. 
 │                        │      ├ Severity        : HIGH 
-│                        │      ├ VendorSeverity   ─ amazon: 3 
+│                        │      ├ VendorSeverity   ╭ amazon : 3 
+│                        │      │                  ╰ bitnami: 2 
+│                        │      ├ CVSS             ─ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I
+│                        │      │                            │           :N/A:L 
+│                        │      │                            ╰ V3Score : 4.3 
 │                        │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/10/08/1 
 │                        │      │                  ├ [1]: https://go.dev/cl/709861 
 │                        │      │                  ├ [2]: https://go.dev/issue/75677 
 │                        │      │                  ├ [3]: https://groups.google.com/g/golang-announce/c/4Emdl2i
 │                        │      │                  │      Q_bI 
-│                        │      │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2025-4014 
+│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-58183 
+│                        │      │                  ╰ [5]: https://pkg.go.dev/vuln/GO-2025-4014 
 │                        │      ├ PublishedDate   : 2025-10-29T23:16:19.357Z 
 │                        │      ╰ LastModifiedDate: 2025-11-04T22:16:33.2Z 
 │                        ├ [7]  ╭ VulnerabilityID : CVE-2025-58186 
@@ -28209,13 +28265,18 @@
 │                        │      │                   attacker can make an HTTP server allocate a large amount of
 │                        │      │                    structs, causing large memory consumption. 
 │                        │      ├ Severity        : HIGH 
-│                        │      ├ VendorSeverity   ─ amazon: 3 
+│                        │      ├ VendorSeverity   ╭ amazon : 3 
+│                        │      │                  ╰ bitnami: 2 
+│                        │      ├ CVSS             ─ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                        │      │                            │           :N/A:L 
+│                        │      │                            ╰ V3Score : 5.3 
 │                        │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/10/08/1 
 │                        │      │                  ├ [1]: https://go.dev/cl/709855 
 │                        │      │                  ├ [2]: https://go.dev/issue/75672 
 │                        │      │                  ├ [3]: https://groups.google.com/g/golang-announce/c/4Emdl2i
 │                        │      │                  │      Q_bI 
-│                        │      │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2025-4012 
+│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-58186 
+│                        │      │                  ╰ [5]: https://pkg.go.dev/vuln/GO-2025-4012 
 │                        │      ├ PublishedDate   : 2025-10-29T23:16:19.547Z 
 │                        │      ╰ LastModifiedDate: 2025-11-04T22:16:33.45Z 
 │                        ├ [8]  ╭ VulnerabilityID : CVE-2025-58187 
@@ -28242,13 +28303,18 @@
 │                        │      │                   This affects programs which validate arbitrary certificate
 │                        │      │                   chains. 
 │                        │      ├ Severity        : HIGH 
-│                        │      ├ VendorSeverity   ─ amazon: 3 
+│                        │      ├ VendorSeverity   ╭ amazon : 3 
+│                        │      │                  ╰ bitnami: 3 
+│                        │      ├ CVSS             ─ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                        │      │                            │           :N/A:H 
+│                        │      │                            ╰ V3Score : 7.5 
 │                        │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/10/08/1 
 │                        │      │                  ├ [1]: https://go.dev/cl/709854 
 │                        │      │                  ├ [2]: https://go.dev/issue/75681 
 │                        │      │                  ├ [3]: https://groups.google.com/g/golang-announce/c/4Emdl2i
 │                        │      │                  │      Q_bI 
-│                        │      │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2025-4007 
+│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-58187 
+│                        │      │                  ╰ [5]: https://pkg.go.dev/vuln/GO-2025-4007 
 │                        │      ├ PublishedDate   : 2025-10-29T23:16:19.643Z 
 │                        │      ╰ LastModifiedDate: 2025-11-04T22:16:33.593Z 
 │                        ├ [9]  ╭ VulnerabilityID : CVE-2025-58188 
@@ -28274,13 +28340,18 @@
 │                        │      │                   assumes they implement the Equal method. This affects
 │                        │      │                   programs which validate arbitrary certificate chains. 
 │                        │      ├ Severity        : HIGH 
-│                        │      ├ VendorSeverity   ─ amazon: 3 
+│                        │      ├ VendorSeverity   ╭ amazon : 3 
+│                        │      │                  ╰ bitnami: 3 
+│                        │      ├ CVSS             ─ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                        │      │                            │           :N/A:H 
+│                        │      │                            ╰ V3Score : 7.5 
 │                        │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/10/08/1 
 │                        │      │                  ├ [1]: https://go.dev/cl/709853 
 │                        │      │                  ├ [2]: https://go.dev/issue/75675 
 │                        │      │                  ├ [3]: https://groups.google.com/g/golang-announce/c/4Emdl2i
 │                        │      │                  │      Q_bI 
-│                        │      │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2025-4013 
+│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-58188 
+│                        │      │                  ╰ [5]: https://pkg.go.dev/vuln/GO-2025-4013 
 │                        │      ├ PublishedDate   : 2025-10-29T23:16:19.74Z 
 │                        │      ╰ LastModifiedDate: 2025-11-04T22:16:33.74Z 
 │                        ├ [10] ╭ VulnerabilityID : CVE-2025-61724 
@@ -28306,13 +28377,18 @@
 │                        │      │                    the number of lines in a response is large, this can cause
 │                        │      │                    excessive CPU consumption. 
 │                        │      ├ Severity        : HIGH 
-│                        │      ├ VendorSeverity   ─ amazon: 3 
+│                        │      ├ VendorSeverity   ╭ amazon : 3 
+│                        │      │                  ╰ bitnami: 2 
+│                        │      ├ CVSS             ─ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                        │      │                            │           :N/A:L 
+│                        │      │                            ╰ V3Score : 5.3 
 │                        │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/10/08/1 
 │                        │      │                  ├ [1]: https://go.dev/cl/709859 
 │                        │      │                  ├ [2]: https://go.dev/issue/75716 
 │                        │      │                  ├ [3]: https://groups.google.com/g/golang-announce/c/4Emdl2i
 │                        │      │                  │      Q_bI 
-│                        │      │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2025-4015 
+│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-61724 
+│                        │      │                  ╰ [5]: https://pkg.go.dev/vuln/GO-2025-4015 
 │                        │      ├ PublishedDate   : 2025-10-29T23:16:20.02Z 
 │                        │      ╰ LastModifiedDate: 2025-11-04T22:16:36.567Z 
 │                        ├ [11] ╭ VulnerabilityID : CVE-2025-0913 
@@ -28545,11 +28621,15 @@
 │                        │      ├ Description     : Parsing a maliciously crafted DER payload could allocate
 │                        │      │                   large amounts of memory, causing memory exhaustion. 
 │                        │      ├ Severity        : MEDIUM 
-│                        │      ├ VendorSeverity   ╭ amazon: 3 
-│                        │      │                  ╰ redhat: 2 
-│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
-│                        │      │                           │           N/A:L 
-│                        │      │                           ╰ V3Score : 5.3 
+│                        │      ├ VendorSeverity   ╭ amazon : 3 
+│                        │      │                  ├ bitnami: 2 
+│                        │      │                  ╰ redhat : 2 
+│                        │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                        │      │                  │         │           :N/A:L 
+│                        │      │                  │         ╰ V3Score : 5.3 
+│                        │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                        │      │                            │           :N/A:L 
+│                        │      │                            ╰ V3Score : 5.3 
 │                        │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/10/08/1 
 │                        │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-58185 
 │                        │      │                  ├ [2]: https://github.com/golang/go/commit/8709a41d5ef7321f4
@@ -28585,11 +28665,15 @@
 │                        │      │                    contains attacker controlled information (the ALPN
 │                        │      │                   protocols sent by the client) which is not escaped. 
 │                        │      ├ Severity        : MEDIUM 
-│                        │      ├ VendorSeverity   ╭ amazon: 3 
-│                        │      │                  ╰ redhat: 2 
-│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
-│                        │      │                           │           L/A:N 
-│                        │      │                           ╰ V3Score : 5.3 
+│                        │      ├ VendorSeverity   ╭ amazon : 3 
+│                        │      │                  ├ bitnami: 2 
+│                        │      │                  ╰ redhat : 2 
+│                        │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I
+│                        │      │                  │         │           :N/A:N 
+│                        │      │                  │         ╰ V3Score : 5.3 
+│                        │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                        │      │                            │           :L/A:N 
+│                        │      │                            ╰ V3Score : 5.3 
 │                        │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/10/08/1 
 │                        │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-58189 
 │                        │      │                  ├ [2]: https://go.dev/cl/707776 
@@ -28623,11 +28707,15 @@
 │                        │      │                   non-linearly with respect to the size of the input. This
 │                        │      │                   affects programs which parse untrusted PEM inputs. 
 │                        │      ├ Severity        : MEDIUM 
-│                        │      ├ VendorSeverity   ╭ amazon: 3 
-│                        │      │                  ╰ redhat: 2 
-│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
-│                        │      │                           │           N/A:L 
-│                        │      │                           ╰ V3Score : 5.3 
+│                        │      ├ VendorSeverity   ╭ amazon : 3 
+│                        │      │                  ├ bitnami: 3 
+│                        │      │                  ╰ redhat : 2 
+│                        │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                        │      │                  │         │           :N/A:H 
+│                        │      │                  │         ╰ V3Score : 7.5 
+│                        │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                        │      │                            │           :N/A:L 
+│                        │      │                            ╰ V3Score : 5.3 
 │                        │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/10/08/1 
 │                        │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-61723 
 │                        │      │                  ├ [2]: https://github.com/golang/go/commit/5ce8cd16f3859ec5a
@@ -28664,11 +28752,15 @@
 │                               │                   When parsing large domain-literal components, this can
 │                               │                   cause excessive CPU consumption. 
 │                               ├ Severity        : MEDIUM 
-│                               ├ VendorSeverity   ╭ amazon: 3 
-│                               │                  ╰ redhat: 2 
-│                               ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
-│                               │                           │           N/A:L 
-│                               │                           ╰ V3Score : 5.3 
+│                               ├ VendorSeverity   ╭ amazon : 3 
+│                               │                  ├ bitnami: 3 
+│                               │                  ╰ redhat : 2 
+│                               ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                               │                  │         │           :N/A:H 
+│                               │                  │         ╰ V3Score : 7.5 
+│                               │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                               │                            │           :N/A:L 
+│                               │                            ╰ V3Score : 5.3 
 │                               ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/10/08/1 
 │                               │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-61725 
 │                               │                  ├ [2]: https://go.dev/cl/709860 
@@ -28680,1881 +28772,2011 @@
 │                               │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-61725 
 │                               ├ PublishedDate   : 2025-10-29T23:16:20.113Z 
 │                               ╰ LastModifiedDate: 2025-11-04T22:16:36.693Z 
-├ [4]  ╭ Target  : usr/bin/docker-compose 
-│      ├ Class   : lang-pkgs 
-│      ├ Type    : gobinary 
-│      ╰ Packages ╭ [0]   ╭ ID          : github.com/docker/compose/v2 
-│                 │       ├ Name        : github.com/docker/compose/v2 
-│                 │       ├ Identifier   ╭ PURL: pkg:golang/github.com/docker/compose/v2 
-│                 │       │              ╰ UID : 128aefbeed8ca659 
-│                 │       ├ Relationship: root 
-│                 │       ├ DependsOn    ╭ [0]  : github.com/AlecAivazis/survey/v2@v2.3.7 
-│                 │       │              ├ [1]  : github.com/DefangLabs/secret-detector@v0.0.0-20250403165618-2
-│                 │       │              │        2662109213e 
-│                 │       │              ├ [2]  : github.com/Masterminds/semver/v3@v3.4.0 
-│                 │       │              ├ [3]  : github.com/acarl005/stripansi@v0.0.0-20180116102854-5a71ef0e0
-│                 │       │              │        47d 
-│                 │       │              ├ [4]  : github.com/apparentlymart/go-textseg/v15@v15.0.0 
-│                 │       │              ├ [5]  : github.com/aws/aws-sdk-go-v2/config@v1.27.27 
-│                 │       │              ├ [6]  : github.com/aws/aws-sdk-go-v2/credentials@v1.17.27 
-│                 │       │              ├ [7]  : github.com/aws/aws-sdk-go-v2/feature/ec2/imds@v1.16.11 
-│                 │       │              ├ [8]  : github.com/aws/aws-sdk-go-v2/internal/configsources@v1.3.15 
-│                 │       │              ├ [9]  : github.com/aws/aws-sdk-go-v2/internal/endpoints/v2@v2.6.15 
-│                 │       │              ├ [10] : github.com/aws/aws-sdk-go-v2/internal/ini@v1.8.0 
-│                 │       │              ├ [11] : github.com/aws/aws-sdk-go-v2/service/internal/accept-encoding
-│                 │       │              │        @v1.11.3 
-│                 │       │              ├ [12] : github.com/aws/aws-sdk-go-v2/service/internal/presigned-url@v
-│                 │       │              │        1.11.17 
-│                 │       │              ├ [13] : github.com/aws/aws-sdk-go-v2/service/sso@v1.22.4 
-│                 │       │              ├ [14] : github.com/aws/aws-sdk-go-v2/service/ssooidc@v1.26.4 
-│                 │       │              ├ [15] : github.com/aws/aws-sdk-go-v2/service/sts@v1.30.3 
-│                 │       │              ├ [16] : github.com/aws/aws-sdk-go-v2@v1.30.3 
-│                 │       │              ├ [17] : github.com/aws/smithy-go@v1.20.3 
-│                 │       │              ├ [18] : github.com/beorn7/perks@v1.0.1 
-│                 │       │              ├ [19] : github.com/buger/goterm@v1.0.4 
-│                 │       │              ├ [20] : github.com/cenkalti/backoff/v4@v4.3.0 
-│                 │       │              ├ [21] : github.com/cespare/xxhash/v2@v2.3.0 
-│                 │       │              ├ [22] : github.com/compose-spec/compose-go/v2@v2.9.1 
-│                 │       │              ├ [23] : github.com/containerd/console@v1.0.5 
-│                 │       │              ├ [24] : github.com/containerd/containerd/api@v1.9.0 
-│                 │       │              ├ [25] : github.com/containerd/containerd/v2@v2.1.4 
-│                 │       │              ├ [26] : github.com/containerd/continuity@v0.4.5 
-│                 │       │              ├ [27] : github.com/containerd/errdefs/pkg@v0.3.0 
-│                 │       │              ├ [28] : github.com/containerd/errdefs@v1.0.0 
-│                 │       │              ├ [29] : github.com/containerd/log@v0.1.0 
-│                 │       │              ├ [30] : github.com/containerd/platforms@v1.0.0-rc.1 
-│                 │       │              ├ [31] : github.com/containerd/ttrpc@v1.2.7 
-│                 │       │              ├ [32] : github.com/containerd/typeurl/v2@v2.2.3 
-│                 │       │              ├ [33] : github.com/davecgh/go-spew@v1.1.1 
-│                 │       │              ├ [34] : github.com/distribution/reference@v0.6.0 
-│                 │       │              ├ [35] : github.com/docker/buildx@v0.29.1 
-│                 │       │              ├ [36] : github.com/docker/cli-docs-tool@v0.10.0 
-│                 │       │              ├ [37] : github.com/docker/cli@v28.5.1+incompatible 
-│                 │       │              ├ [38] : github.com/docker/distribution@v2.8.3+incompatible 
-│                 │       │              ├ [39] : github.com/docker/docker-credential-helpers@v0.9.3 
-│                 │       │              ├ [40] : github.com/docker/docker@v28.5.1+incompatible 
-│                 │       │              ├ [41] : github.com/docker/go-connections@v0.6.0 
-│                 │       │              ├ [42] : github.com/docker/go-metrics@v0.0.1 
-│                 │       │              ├ [43] : github.com/docker/go-units@v0.5.0 
-│                 │       │              ├ [44] : github.com/docker/go@v1.5.1-1.0.20160303222718-d30aec9fd63c 
-│                 │       │              ├ [45] : github.com/eiannone/keyboard@v0.0.0-20220611211555-0d226195f203 
-│                 │       │              ├ [46] : github.com/emicklei/go-restful/v3@v3.11.0 
-│                 │       │              ├ [47] : github.com/felixge/httpsnoop@v1.0.4 
-│                 │       │              ├ [48] : github.com/fvbommel/sortorder@v1.1.0 
-│                 │       │              ├ [49] : github.com/fxamacker/cbor/v2@v2.7.0 
-│                 │       │              ├ [50] : github.com/go-logr/logr@v1.4.3 
-│                 │       │              ├ [51] : github.com/go-logr/stdr@v1.2.2 
-│                 │       │              ├ [52] : github.com/go-openapi/jsonpointer@v0.21.0 
-│                 │       │              ├ [53] : github.com/go-openapi/jsonreference@v0.20.2 
-│                 │       │              ├ [54] : github.com/go-openapi/swag@v0.23.0 
-│                 │       │              ├ [55] : github.com/go-viper/mapstructure/v2@v2.4.0 
-│                 │       │              ├ [56] : github.com/gofrs/flock@v0.12.1 
-│                 │       │              ├ [57] : github.com/gogo/protobuf@v1.3.2 
-│                 │       │              ├ [58] : github.com/golang-jwt/jwt/v5@v5.2.2 
-│                 │       │              ├ [59] : github.com/golang/protobuf@v1.5.4 
-│                 │       │              ├ [60] : github.com/google/gnostic-models@v0.6.8 
-│                 │       │              ├ [61] : github.com/google/go-cmp@v0.7.0 
-│                 │       │              ├ [62] : github.com/google/gofuzz@v1.2.0 
-│                 │       │              ├ [63] : github.com/google/shlex@v0.0.0-20191202100458-e7afc7fbc510 
-│                 │       │              ├ [64] : github.com/google/uuid@v1.6.0 
-│                 │       │              ├ [65] : github.com/gorilla/mux@v1.8.1 
-│                 │       │              ├ [66] : github.com/gorilla/websocket@v1.5.0 
-│                 │       │              ├ [67] : github.com/grpc-ecosystem/grpc-gateway/v2@v2.26.1 
-│                 │       │              ├ [68] : github.com/hashicorp/errwrap@v1.1.0 
-│                 │       │              ├ [69] : github.com/hashicorp/go-cleanhttp@v0.5.2 
-│                 │       │              ├ [70] : github.com/hashicorp/go-multierror@v1.1.1 
-│                 │       │              ├ [71] : github.com/hashicorp/go-version@v1.7.0 
-│                 │       │              ├ [72] : github.com/in-toto/in-toto-golang@v0.9.0 
-│                 │       │              ├ [73] : github.com/inhies/go-bytesize@v0.0.0-20220417184213-4913239db
-│                 │       │              │        9cf 
-│                 │       │              ├ [74] : github.com/jonboulle/clockwork@v0.5.0 
-│                 │       │              ├ [75] : github.com/josharian/intern@v1.0.0 
-│                 │       │              ├ [76] : github.com/json-iterator/go@v1.1.12 
-│                 │       │              ├ [77] : github.com/kballard/go-shellquote@v0.0.0-20180428030007-95032
-│                 │       │              │        a82bc51 
-│                 │       │              ├ [78] : github.com/klauspost/compress@v1.18.0 
-│                 │       │              ├ [79] : github.com/mailru/easyjson@v0.7.7 
-│                 │       │              ├ [80] : github.com/mattn/go-colorable@v0.1.13 
-│                 │       │              ├ [81] : github.com/mattn/go-isatty@v0.0.20 
-│                 │       │              ├ [82] : github.com/mattn/go-runewidth@v0.0.16 
-│                 │       │              ├ [83] : github.com/mattn/go-shellwords@v1.0.12 
-│                 │       │              ├ [84] : github.com/mgutz/ansi@v0.0.0-20170206155736-9520e82c474b 
-│                 │       │              ├ [85] : github.com/mitchellh/hashstructure/v2@v2.0.2 
-│                 │       │              ├ [86] : github.com/moby/buildkit@v0.25.1 
-│                 │       │              ├ [87] : github.com/moby/docker-image-spec@v1.3.1 
-│                 │       │              ├ [88] : github.com/moby/go-archive@v0.1.0 
-│                 │       │              ├ [89] : github.com/moby/locker@v1.0.1 
-│                 │       │              ├ [90] : github.com/moby/patternmatcher@v0.6.0 
-│                 │       │              ├ [91] : github.com/moby/spdystream@v0.5.0 
-│                 │       │              ├ [92] : github.com/moby/sys/atomicwriter@v0.1.0 
-│                 │       │              ├ [93] : github.com/moby/sys/capability@v0.4.0 
-│                 │       │              ├ [94] : github.com/moby/sys/mountinfo@v0.7.2 
-│                 │       │              ├ [95] : github.com/moby/sys/sequential@v0.6.0 
-│                 │       │              ├ [96] : github.com/moby/sys/signal@v0.7.1 
-│                 │       │              ├ [97] : github.com/moby/sys/symlink@v0.3.0 
-│                 │       │              ├ [98] : github.com/moby/sys/user@v0.4.0 
-│                 │       │              ├ [99] : github.com/moby/sys/userns@v0.1.0 
-│                 │       │              ├ [100]: github.com/moby/term@v0.5.2 
-│                 │       │              ├ [101]: github.com/modern-go/concurrent@v0.0.0-20180306012644-bacd9c7
-│                 │       │              │        ef1dd 
-│                 │       │              ├ [102]: github.com/modern-go/reflect2@v1.0.2 
-│                 │       │              ├ [103]: github.com/morikuni/aec@v1.0.0 
-│                 │       │              ├ [104]: github.com/munnerz/goautoneg@v0.0.0-20191010083416-a7dc8b61c822 
-│                 │       │              ├ [105]: github.com/mxk/go-flowrate@v0.0.0-20140419014527-cca7078d478f 
-│                 │       │              ├ [106]: github.com/opencontainers/go-digest@v1.0.0 
-│                 │       │              ├ [107]: github.com/opencontainers/image-spec@v1.1.1 
-│                 │       │              ├ [108]: github.com/pelletier/go-toml@v1.9.5 
-│                 │       │              ├ [109]: github.com/pkg/errors@v0.9.1 
-│                 │       │              ├ [110]: github.com/planetscale/vtprotobuf@v0.6.1-0.20240319094008-039
-│                 │       │              │        3e58bdf10 
-│                 │       │              ├ [111]: github.com/pmezard/go-difflib@v1.0.0 
-│                 │       │              ├ [112]: github.com/prometheus/client_golang@v1.22.0 
-│                 │       │              ├ [113]: github.com/prometheus/client_model@v0.6.1 
-│                 │       │              ├ [114]: github.com/prometheus/common@v0.62.0 
-│                 │       │              ├ [115]: github.com/prometheus/procfs@v0.15.1 
-│                 │       │              ├ [116]: github.com/rivo/uniseg@v0.2.0 
-│                 │       │              ├ [117]: github.com/santhosh-tekuri/jsonschema/v6@v6.0.1 
-│                 │       │              ├ [118]: github.com/secure-systems-lab/go-securesystemslib@v0.6.0 
-│                 │       │              ├ [119]: github.com/serialx/hashring@v0.0.0-20200727003509-22c0c7ab6b1b 
-│                 │       │              ├ [120]: github.com/shibumi/go-pathspec@v1.3.0 
-│                 │       │              ├ [121]: github.com/sirupsen/logrus@v1.9.3 
-│                 │       │              ├ [122]: github.com/skratchdot/open-golang@v0.0.0-20200116055534-eef84
-│                 │       │              │        2397966 
-│                 │       │              ├ [123]: github.com/spf13/cobra@v1.10.1 
-│                 │       │              ├ [124]: github.com/spf13/pflag@v1.0.10 
-│                 │       │              ├ [125]: github.com/stretchr/testify@v1.11.1 
-│                 │       │              ├ [126]: github.com/theupdateframework/notary@v0.7.0 
-│                 │       │              ├ [127]: github.com/tilt-dev/fsnotify@v1.4.8-0.20220602155310-fff9c274
-│                 │       │              │        a375 
-│                 │       │              ├ [128]: github.com/tonistiigi/dchapes-mode@v0.0.0-20250318174251-73d9
-│                 │       │              │        41a28323 
-│                 │       │              ├ [129]: github.com/tonistiigi/fsutil@v0.0.0-20250605211040-586307ad452f 
-│                 │       │              ├ [130]: github.com/tonistiigi/go-csvvalue@v0.0.0-20240814133006-030d3
-│                 │       │              │        b2625d0 
-│                 │       │              ├ [131]: github.com/tonistiigi/units@v0.0.0-20180711220420-6950e57a87ea 
-│                 │       │              ├ [132]: github.com/tonistiigi/vt100@v0.0.0-20240514184818-90bafcd6abab 
-│                 │       │              ├ [133]: github.com/x448/float16@v0.8.4 
-│                 │       │              ├ [134]: github.com/xhit/go-str2duration/v2@v2.1.0 
-│                 │       │              ├ [135]: github.com/zclconf/go-cty@v1.17.0 
-│                 │       │              ├ [136]: go.opentelemetry.io/auto/sdk@v1.1.0 
-│                 │       │              ├ [137]: go.opentelemetry.io/contrib/instrumentation/google.golang.org
-│                 │       │              │        /grpc/otelgrpc@v0.60.0 
-│                 │       │              ├ [138]: go.opentelemetry.io/contrib/instrumentation/net/http/httptrac
-│                 │       │              │        e/otelhttptrace@v0.60.0 
-│                 │       │              ├ [139]: go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp
-│                 │       │              │        @v0.60.0 
-│                 │       │              ├ [140]: go.opentelemetry.io/otel/exporters/otlp/otlpmetric/otlpmetric
-│                 │       │              │        grpc@v1.35.0 
-│                 │       │              ├ [141]: go.opentelemetry.io/otel/exporters/otlp/otlpmetric/otlpmetric
-│                 │       │              │        http@v1.35.0 
-│                 │       │              ├ [142]: go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegr
-│                 │       │              │        pc@v1.35.0 
-│                 │       │              ├ [143]: go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptraceht
-│                 │       │              │        tp@v1.35.0 
-│                 │       │              ├ [144]: go.opentelemetry.io/otel/exporters/otlp/otlptrace@v1.35.0 
-│                 │       │              ├ [145]: go.opentelemetry.io/otel/metric@v1.36.0 
-│                 │       │              ├ [146]: go.opentelemetry.io/otel/sdk/metric@v1.36.0 
-│                 │       │              ├ [147]: go.opentelemetry.io/otel/sdk@v1.36.0 
-│                 │       │              ├ [148]: go.opentelemetry.io/otel/trace@v1.36.0 
-│                 │       │              ├ [149]: go.opentelemetry.io/otel@v1.36.0 
-│                 │       │              ├ [150]: go.opentelemetry.io/proto/otlp@v1.5.0 
-│                 │       │              ├ [151]: go.uber.org/mock@v0.6.0 
-│                 │       │              ├ [152]: go.yaml.in/yaml/v3@v3.0.4 
-│                 │       │              ├ [153]: golang.org/x/crypto@v0.38.0 
-│                 │       │              ├ [154]: golang.org/x/net@v0.40.0 
-│                 │       │              ├ [155]: golang.org/x/oauth2@v0.30.0 
-│                 │       │              ├ [156]: golang.org/x/sync@v0.17.0 
-│                 │       │              ├ [157]: golang.org/x/sys@v0.37.0 
-│                 │       │              ├ [158]: golang.org/x/term@v0.32.0 
-│                 │       │              ├ [159]: golang.org/x/text@v0.25.0 
-│                 │       │              ├ [160]: golang.org/x/time@v0.11.0 
-│                 │       │              ├ [161]: google.golang.org/genproto/googleapis/api@v0.0.0-202505281742
-│                 │       │              │        36-200df99c418a 
-│                 │       │              ├ [162]: google.golang.org/genproto/googleapis/rpc@v0.0.0-202505281742
-│                 │       │              │        36-200df99c418a 
-│                 │       │              ├ [163]: google.golang.org/grpc@v1.74.2 
-│                 │       │              ├ [164]: google.golang.org/protobuf@v1.36.9 
-│                 │       │              ├ [165]: gopkg.in/evanphx/json-patch.v4@v4.12.0 
-│                 │       │              ├ [166]: gopkg.in/inf.v0@v0.9.1 
-│                 │       │              ├ [167]: gopkg.in/ini.v1@v1.67.0 
-│                 │       │              ├ [168]: gopkg.in/yaml.v3@v3.0.1 
-│                 │       │              ├ [169]: k8s.io/api@v0.32.3 
-│                 │       │              ├ [170]: k8s.io/apimachinery@v0.32.3 
-│                 │       │              ├ [171]: k8s.io/client-go@v0.32.3 
-│                 │       │              ├ [172]: k8s.io/klog/v2@v2.130.1 
-│                 │       │              ├ [173]: k8s.io/kube-openapi@v0.0.0-20241105132330-32ad38e42d3f 
-│                 │       │              ├ [174]: k8s.io/utils@v0.0.0-20241104100929-3ea5e8cea738 
-│                 │       │              ├ [175]: sigs.k8s.io/json@v0.0.0-20241010143419-9aa6b5e7a4b3 
-│                 │       │              ├ [176]: sigs.k8s.io/structured-merge-diff/v4@v4.4.2 
-│                 │       │              ├ [177]: sigs.k8s.io/yaml@v1.4.0 
-│                 │       │              ├ [178]: stdlib@v1.24.9 
-│                 │       │              ╰ [179]: tags.cncf.io/container-device-interface@v1.0.1 
-│                 │       ╰ Layer        ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2a
-│                 │                      │         acf81e5654f 
-│                 │                      ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db
-│                 │                                118f627132f 
-│                 ├ [1]   ╭ ID          : stdlib@v1.24.9 
-│                 │       ├ Name        : stdlib 
-│                 │       ├ Identifier   ╭ PURL: pkg:golang/stdlib@v1.24.9 
-│                 │       │              ╰ UID : 62b35968775d1e83 
-│                 │       ├ Version     : v1.24.9 
-│                 │       ├ Relationship: direct 
-│                 │       ╰ Layer        ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2a
-│                 │                      │         acf81e5654f 
-│                 │                      ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db
-│                 │                                118f627132f 
-│                 ├ [2]   ╭ ID        : github.com/AlecAivazis/survey/v2@v2.3.7 
-│                 │       ├ Name      : github.com/AlecAivazis/survey/v2 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/alecaivazis/survey/v2@v2.3.7 
-│                 │       │            ╰ UID : cd40f5dc9e3fb025 
-│                 │       ├ Version   : v2.3.7 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [3]   ╭ ID        : github.com/DefangLabs/secret-detector@v0.0.0-20250403165618-22662109213e 
-│                 │       ├ Name      : github.com/DefangLabs/secret-detector 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/defanglabs/secret-detector@v0.0.0-20250403
-│                 │       │            │       165618-22662109213e 
-│                 │       │            ╰ UID : dad8becee35d18e2 
-│                 │       ├ Version   : v0.0.0-20250403165618-22662109213e 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [4]   ╭ ID        : github.com/Masterminds/semver/v3@v3.4.0 
-│                 │       ├ Name      : github.com/Masterminds/semver/v3 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/masterminds/semver/v3@v3.4.0 
-│                 │       │            ╰ UID : 5cc49c320121acb1 
-│                 │       ├ Version   : v3.4.0 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [5]   ╭ ID        : github.com/acarl005/stripansi@v0.0.0-20180116102854-5a71ef0e047d 
-│                 │       ├ Name      : github.com/acarl005/stripansi 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/acarl005/stripansi@v0.0.0-20180116102854-5
-│                 │       │            │       a71ef0e047d 
-│                 │       │            ╰ UID : fb8c461fbe6c2fc1 
-│                 │       ├ Version   : v0.0.0-20180116102854-5a71ef0e047d 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [6]   ╭ ID        : github.com/apparentlymart/go-textseg/v15@v15.0.0 
-│                 │       ├ Name      : github.com/apparentlymart/go-textseg/v15 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/apparentlymart/go-textseg/v15@v15.0.0 
-│                 │       │            ╰ UID : 1d159684eff9777c 
-│                 │       ├ Version   : v15.0.0 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [7]   ╭ ID        : github.com/aws/aws-sdk-go-v2@v1.30.3 
-│                 │       ├ Name      : github.com/aws/aws-sdk-go-v2 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/aws/aws-sdk-go-v2@v1.30.3 
-│                 │       │            ╰ UID : e79eac509e1191a0 
-│                 │       ├ Version   : v1.30.3 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [8]   ╭ ID        : github.com/aws/aws-sdk-go-v2/config@v1.27.27 
-│                 │       ├ Name      : github.com/aws/aws-sdk-go-v2/config 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/aws/aws-sdk-go-v2/config@v1.27.27 
-│                 │       │            ╰ UID : 4220cbe595af026e 
-│                 │       ├ Version   : v1.27.27 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [9]   ╭ ID        : github.com/aws/aws-sdk-go-v2/credentials@v1.17.27 
-│                 │       ├ Name      : github.com/aws/aws-sdk-go-v2/credentials 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/aws/aws-sdk-go-v2/credentials@v1.17.27 
-│                 │       │            ╰ UID : 279b024303974a64 
-│                 │       ├ Version   : v1.17.27 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [10]  ╭ ID        : github.com/aws/aws-sdk-go-v2/feature/ec2/imds@v1.16.11 
-│                 │       ├ Name      : github.com/aws/aws-sdk-go-v2/feature/ec2/imds 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/aws/aws-sdk-go-v2/feature/ec2/imds@v1.16.11 
-│                 │       │            ╰ UID : 485ac30162c4ffd2 
-│                 │       ├ Version   : v1.16.11 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [11]  ╭ ID        : github.com/aws/aws-sdk-go-v2/internal/configsources@v1.3.15 
-│                 │       ├ Name      : github.com/aws/aws-sdk-go-v2/internal/configsources 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/aws/aws-sdk-go-v2/internal/configsources@v
-│                 │       │            │       1.3.15 
-│                 │       │            ╰ UID : 21059b9e5fb68c73 
-│                 │       ├ Version   : v1.3.15 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [12]  ╭ ID        : github.com/aws/aws-sdk-go-v2/internal/endpoints/v2@v2.6.15 
-│                 │       ├ Name      : github.com/aws/aws-sdk-go-v2/internal/endpoints/v2 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/aws/aws-sdk-go-v2/internal/endpoints/v2@v2
-│                 │       │            │       .6.15 
-│                 │       │            ╰ UID : e653503d4dc7f27 
-│                 │       ├ Version   : v2.6.15 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [13]  ╭ ID        : github.com/aws/aws-sdk-go-v2/internal/ini@v1.8.0 
-│                 │       ├ Name      : github.com/aws/aws-sdk-go-v2/internal/ini 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/aws/aws-sdk-go-v2/internal/ini@v1.8.0 
-│                 │       │            ╰ UID : 1d80565ac6bfdef6 
-│                 │       ├ Version   : v1.8.0 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [14]  ╭ ID        : github.com/aws/aws-sdk-go-v2/service/internal/accept-encoding@v1.11.3 
-│                 │       ├ Name      : github.com/aws/aws-sdk-go-v2/service/internal/accept-encoding 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/aws/aws-sdk-go-v2/service/internal/accept-
-│                 │       │            │       encoding@v1.11.3 
-│                 │       │            ╰ UID : b5c72928603a53a2 
-│                 │       ├ Version   : v1.11.3 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [15]  ╭ ID        : github.com/aws/aws-sdk-go-v2/service/internal/presigned-url@v1.11.17 
-│                 │       ├ Name      : github.com/aws/aws-sdk-go-v2/service/internal/presigned-url 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/aws/aws-sdk-go-v2/service/internal/presign
-│                 │       │            │       ed-url@v1.11.17 
-│                 │       │            ╰ UID : e72673cacb76567b 
-│                 │       ├ Version   : v1.11.17 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [16]  ╭ ID        : github.com/aws/aws-sdk-go-v2/service/sso@v1.22.4 
-│                 │       ├ Name      : github.com/aws/aws-sdk-go-v2/service/sso 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/aws/aws-sdk-go-v2/service/sso@v1.22.4 
-│                 │       │            ╰ UID : 43340be727d5f6df 
-│                 │       ├ Version   : v1.22.4 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [17]  ╭ ID        : github.com/aws/aws-sdk-go-v2/service/ssooidc@v1.26.4 
-│                 │       ├ Name      : github.com/aws/aws-sdk-go-v2/service/ssooidc 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/aws/aws-sdk-go-v2/service/ssooidc@v1.26.4 
-│                 │       │            ╰ UID : e893dfa010ca0ca2 
-│                 │       ├ Version   : v1.26.4 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [18]  ╭ ID        : github.com/aws/aws-sdk-go-v2/service/sts@v1.30.3 
-│                 │       ├ Name      : github.com/aws/aws-sdk-go-v2/service/sts 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/aws/aws-sdk-go-v2/service/sts@v1.30.3 
-│                 │       │            ╰ UID : e85ec93ddd86e3c5 
-│                 │       ├ Version   : v1.30.3 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [19]  ╭ ID        : github.com/aws/smithy-go@v1.20.3 
-│                 │       ├ Name      : github.com/aws/smithy-go 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/aws/smithy-go@v1.20.3 
-│                 │       │            ╰ UID : 561a405108a90527 
-│                 │       ├ Version   : v1.20.3 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [20]  ╭ ID        : github.com/beorn7/perks@v1.0.1 
-│                 │       ├ Name      : github.com/beorn7/perks 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/beorn7/perks@v1.0.1 
-│                 │       │            ╰ UID : e96a30cfa31085a0 
-│                 │       ├ Version   : v1.0.1 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [21]  ╭ ID        : github.com/buger/goterm@v1.0.4 
-│                 │       ├ Name      : github.com/buger/goterm 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/buger/goterm@v1.0.4 
-│                 │       │            ╰ UID : 9359a0f421ea9164 
-│                 │       ├ Version   : v1.0.4 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [22]  ╭ ID        : github.com/cenkalti/backoff/v4@v4.3.0 
-│                 │       ├ Name      : github.com/cenkalti/backoff/v4 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/cenkalti/backoff/v4@v4.3.0 
-│                 │       │            ╰ UID : 29649710379465d2 
-│                 │       ├ Version   : v4.3.0 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [23]  ╭ ID        : github.com/cespare/xxhash/v2@v2.3.0 
-│                 │       ├ Name      : github.com/cespare/xxhash/v2 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/cespare/xxhash/v2@v2.3.0 
-│                 │       │            ╰ UID : c7ba815baec646cc 
-│                 │       ├ Version   : v2.3.0 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [24]  ╭ ID        : github.com/compose-spec/compose-go/v2@v2.9.1 
-│                 │       ├ Name      : github.com/compose-spec/compose-go/v2 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/compose-spec/compose-go/v2@v2.9.1 
-│                 │       │            ╰ UID : 38a2214cd94d41e0 
-│                 │       ├ Version   : v2.9.1 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [25]  ╭ ID        : github.com/containerd/console@v1.0.5 
-│                 │       ├ Name      : github.com/containerd/console 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/containerd/console@v1.0.5 
-│                 │       │            ╰ UID : eb7946c01bfc2a38 
-│                 │       ├ Version   : v1.0.5 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [26]  ╭ ID        : github.com/containerd/containerd/api@v1.9.0 
-│                 │       ├ Name      : github.com/containerd/containerd/api 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/containerd/containerd/api@v1.9.0 
-│                 │       │            ╰ UID : 1c5d38e53222b5e 
-│                 │       ├ Version   : v1.9.0 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [27]  ╭ ID        : github.com/containerd/containerd/v2@v2.1.4 
-│                 │       ├ Name      : github.com/containerd/containerd/v2 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/containerd/containerd/v2@v2.1.4 
-│                 │       │            ╰ UID : d7300a1b641747b7 
-│                 │       ├ Version   : v2.1.4 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [28]  ╭ ID        : github.com/containerd/continuity@v0.4.5 
-│                 │       ├ Name      : github.com/containerd/continuity 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/containerd/continuity@v0.4.5 
-│                 │       │            ╰ UID : afb0471762f4e60 
-│                 │       ├ Version   : v0.4.5 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [29]  ╭ ID        : github.com/containerd/errdefs@v1.0.0 
-│                 │       ├ Name      : github.com/containerd/errdefs 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/containerd/errdefs@v1.0.0 
-│                 │       │            ╰ UID : d33fcb161fd8372d 
-│                 │       ├ Version   : v1.0.0 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [30]  ╭ ID        : github.com/containerd/errdefs/pkg@v0.3.0 
-│                 │       ├ Name      : github.com/containerd/errdefs/pkg 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/containerd/errdefs/pkg@v0.3.0 
-│                 │       │            ╰ UID : 72da5f7ee2a95067 
-│                 │       ├ Version   : v0.3.0 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [31]  ╭ ID        : github.com/containerd/log@v0.1.0 
-│                 │       ├ Name      : github.com/containerd/log 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/containerd/log@v0.1.0 
-│                 │       │            ╰ UID : a8698d8d1eacd71e 
-│                 │       ├ Version   : v0.1.0 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [32]  ╭ ID        : github.com/containerd/platforms@v1.0.0-rc.1 
-│                 │       ├ Name      : github.com/containerd/platforms 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/containerd/platforms@v1.0.0-rc.1 
-│                 │       │            ╰ UID : 4296b7df02e30adc 
-│                 │       ├ Version   : v1.0.0-rc.1 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [33]  ╭ ID        : github.com/containerd/ttrpc@v1.2.7 
-│                 │       ├ Name      : github.com/containerd/ttrpc 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/containerd/ttrpc@v1.2.7 
-│                 │       │            ╰ UID : 24f0a69034c14bad 
-│                 │       ├ Version   : v1.2.7 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [34]  ╭ ID        : github.com/containerd/typeurl/v2@v2.2.3 
-│                 │       ├ Name      : github.com/containerd/typeurl/v2 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/containerd/typeurl/v2@v2.2.3 
-│                 │       │            ╰ UID : 29b3f7e4c5f80058 
-│                 │       ├ Version   : v2.2.3 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [35]  ╭ ID        : github.com/davecgh/go-spew@v1.1.1 
-│                 │       ├ Name      : github.com/davecgh/go-spew 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/davecgh/go-spew@v1.1.1 
-│                 │       │            ╰ UID : 1e4726e10674c32b 
-│                 │       ├ Version   : v1.1.1 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [36]  ╭ ID        : github.com/distribution/reference@v0.6.0 
-│                 │       ├ Name      : github.com/distribution/reference 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/distribution/reference@v0.6.0 
-│                 │       │            ╰ UID : 1cb8c96024754477 
-│                 │       ├ Version   : v0.6.0 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [37]  ╭ ID        : github.com/docker/buildx@v0.29.1 
-│                 │       ├ Name      : github.com/docker/buildx 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/docker/buildx@v0.29.1 
-│                 │       │            ╰ UID : f8371c6370c6a12a 
-│                 │       ├ Version   : v0.29.1 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [38]  ╭ ID        : github.com/docker/cli@v28.5.1+incompatible 
-│                 │       ├ Name      : github.com/docker/cli 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/docker/cli@v28.5.1%2Bincompatible 
-│                 │       │            ╰ UID : 45599e1c33cffa3b 
-│                 │       ├ Version   : v28.5.1+incompatible 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [39]  ╭ ID        : github.com/docker/cli-docs-tool@v0.10.0 
-│                 │       ├ Name      : github.com/docker/cli-docs-tool 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/docker/cli-docs-tool@v0.10.0 
-│                 │       │            ╰ UID : cfb42b49a621fa92 
-│                 │       ├ Version   : v0.10.0 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [40]  ╭ ID        : github.com/docker/distribution@v2.8.3+incompatible 
-│                 │       ├ Name      : github.com/docker/distribution 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/docker/distribution@v2.8.3%2Bincompatible 
-│                 │       │            ╰ UID : f2d441a20a7f3503 
-│                 │       ├ Version   : v2.8.3+incompatible 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [41]  ╭ ID        : github.com/docker/docker@v28.5.1+incompatible 
-│                 │       ├ Name      : github.com/docker/docker 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/docker/docker@v28.5.1%2Bincompatible 
-│                 │       │            ╰ UID : 9937c670d3bb7c47 
-│                 │       ├ Version   : v28.5.1+incompatible 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [42]  ╭ ID        : github.com/docker/docker-credential-helpers@v0.9.3 
-│                 │       ├ Name      : github.com/docker/docker-credential-helpers 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/docker/docker-credential-helpers@v0.9.3 
-│                 │       │            ╰ UID : 5282d4735a6eebff 
-│                 │       ├ Version   : v0.9.3 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [43]  ╭ ID        : github.com/docker/go@v1.5.1-1.0.20160303222718-d30aec9fd63c 
-│                 │       ├ Name      : github.com/docker/go 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/docker/go@v1.5.1-1.0.20160303222718-d30aec
-│                 │       │            │       9fd63c 
-│                 │       │            ╰ UID : 7f355e1ac3df8282 
-│                 │       ├ Version   : v1.5.1-1.0.20160303222718-d30aec9fd63c 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [44]  ╭ ID        : github.com/docker/go-connections@v0.6.0 
-│                 │       ├ Name      : github.com/docker/go-connections 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/docker/go-connections@v0.6.0 
-│                 │       │            ╰ UID : ac54ced9c3f8d261 
-│                 │       ├ Version   : v0.6.0 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [45]  ╭ ID        : github.com/docker/go-metrics@v0.0.1 
-│                 │       ├ Name      : github.com/docker/go-metrics 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/docker/go-metrics@v0.0.1 
-│                 │       │            ╰ UID : 21dda4215c41a646 
-│                 │       ├ Version   : v0.0.1 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [46]  ╭ ID        : github.com/docker/go-units@v0.5.0 
-│                 │       ├ Name      : github.com/docker/go-units 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/docker/go-units@v0.5.0 
-│                 │       │            ╰ UID : adaa1476a00b1fe7 
-│                 │       ├ Version   : v0.5.0 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [47]  ╭ ID        : github.com/eiannone/keyboard@v0.0.0-20220611211555-0d226195f203 
-│                 │       ├ Name      : github.com/eiannone/keyboard 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/eiannone/keyboard@v0.0.0-20220611211555-0d
-│                 │       │            │       226195f203 
-│                 │       │            ╰ UID : 6b07f9cc8f6725ce 
-│                 │       ├ Version   : v0.0.0-20220611211555-0d226195f203 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [48]  ╭ ID        : github.com/emicklei/go-restful/v3@v3.11.0 
-│                 │       ├ Name      : github.com/emicklei/go-restful/v3 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/emicklei/go-restful/v3@v3.11.0 
-│                 │       │            ╰ UID : 449580d66a3ffa45 
-│                 │       ├ Version   : v3.11.0 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [49]  ╭ ID        : github.com/felixge/httpsnoop@v1.0.4 
-│                 │       ├ Name      : github.com/felixge/httpsnoop 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/felixge/httpsnoop@v1.0.4 
-│                 │       │            ╰ UID : e8783f8c2c59db22 
-│                 │       ├ Version   : v1.0.4 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [50]  ╭ ID        : github.com/fvbommel/sortorder@v1.1.0 
-│                 │       ├ Name      : github.com/fvbommel/sortorder 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/fvbommel/sortorder@v1.1.0 
-│                 │       │            ╰ UID : 772c28b0a951e932 
-│                 │       ├ Version   : v1.1.0 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [51]  ╭ ID        : github.com/fxamacker/cbor/v2@v2.7.0 
-│                 │       ├ Name      : github.com/fxamacker/cbor/v2 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/fxamacker/cbor/v2@v2.7.0 
-│                 │       │            ╰ UID : c747598d0ad83aca 
-│                 │       ├ Version   : v2.7.0 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [52]  ╭ ID        : github.com/go-logr/logr@v1.4.3 
-│                 │       ├ Name      : github.com/go-logr/logr 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/go-logr/logr@v1.4.3 
-│                 │       │            ╰ UID : 2c74667b6a27c740 
-│                 │       ├ Version   : v1.4.3 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [53]  ╭ ID        : github.com/go-logr/stdr@v1.2.2 
-│                 │       ├ Name      : github.com/go-logr/stdr 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/go-logr/stdr@v1.2.2 
-│                 │       │            ╰ UID : 4694bf99b6854901 
-│                 │       ├ Version   : v1.2.2 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [54]  ╭ ID        : github.com/go-openapi/jsonpointer@v0.21.0 
-│                 │       ├ Name      : github.com/go-openapi/jsonpointer 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/go-openapi/jsonpointer@v0.21.0 
-│                 │       │            ╰ UID : 26f93d76281719d7 
-│                 │       ├ Version   : v0.21.0 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [55]  ╭ ID        : github.com/go-openapi/jsonreference@v0.20.2 
-│                 │       ├ Name      : github.com/go-openapi/jsonreference 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/go-openapi/jsonreference@v0.20.2 
-│                 │       │            ╰ UID : 848c331494650260 
-│                 │       ├ Version   : v0.20.2 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [56]  ╭ ID        : github.com/go-openapi/swag@v0.23.0 
-│                 │       ├ Name      : github.com/go-openapi/swag 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/go-openapi/swag@v0.23.0 
-│                 │       │            ╰ UID : cc753c09489e48a 
-│                 │       ├ Version   : v0.23.0 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [57]  ╭ ID        : github.com/go-viper/mapstructure/v2@v2.4.0 
-│                 │       ├ Name      : github.com/go-viper/mapstructure/v2 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/go-viper/mapstructure/v2@v2.4.0 
-│                 │       │            ╰ UID : 7b1135e51f127ef3 
-│                 │       ├ Version   : v2.4.0 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [58]  ╭ ID        : github.com/gofrs/flock@v0.12.1 
-│                 │       ├ Name      : github.com/gofrs/flock 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/gofrs/flock@v0.12.1 
-│                 │       │            ╰ UID : b89e98dc4af06955 
-│                 │       ├ Version   : v0.12.1 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [59]  ╭ ID        : github.com/gogo/protobuf@v1.3.2 
-│                 │       ├ Name      : github.com/gogo/protobuf 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/gogo/protobuf@v1.3.2 
-│                 │       │            ╰ UID : 9b8fdf38b445e1b1 
-│                 │       ├ Version   : v1.3.2 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [60]  ╭ ID        : github.com/golang-jwt/jwt/v5@v5.2.2 
-│                 │       ├ Name      : github.com/golang-jwt/jwt/v5 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/golang-jwt/jwt/v5@v5.2.2 
-│                 │       │            ╰ UID : 3887a647dda04bf5 
-│                 │       ├ Version   : v5.2.2 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [61]  ╭ ID        : github.com/golang/protobuf@v1.5.4 
-│                 │       ├ Name      : github.com/golang/protobuf 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/golang/protobuf@v1.5.4 
-│                 │       │            ╰ UID : e98f4889496f44c8 
-│                 │       ├ Version   : v1.5.4 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [62]  ╭ ID        : github.com/google/gnostic-models@v0.6.8 
-│                 │       ├ Name      : github.com/google/gnostic-models 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/google/gnostic-models@v0.6.8 
-│                 │       │            ╰ UID : efcfc01d9a1df0b6 
-│                 │       ├ Version   : v0.6.8 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [63]  ╭ ID        : github.com/google/go-cmp@v0.7.0 
-│                 │       ├ Name      : github.com/google/go-cmp 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/google/go-cmp@v0.7.0 
-│                 │       │            ╰ UID : 17a255b3a3256268 
-│                 │       ├ Version   : v0.7.0 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [64]  ╭ ID        : github.com/google/gofuzz@v1.2.0 
-│                 │       ├ Name      : github.com/google/gofuzz 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/google/gofuzz@v1.2.0 
-│                 │       │            ╰ UID : bb708a1b96f1ac6f 
-│                 │       ├ Version   : v1.2.0 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [65]  ╭ ID        : github.com/google/shlex@v0.0.0-20191202100458-e7afc7fbc510 
-│                 │       ├ Name      : github.com/google/shlex 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/google/shlex@v0.0.0-20191202100458-e7afc7f
-│                 │       │            │       bc510 
-│                 │       │            ╰ UID : c6662a900b7ac5e 
-│                 │       ├ Version   : v0.0.0-20191202100458-e7afc7fbc510 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [66]  ╭ ID        : github.com/google/uuid@v1.6.0 
-│                 │       ├ Name      : github.com/google/uuid 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/google/uuid@v1.6.0 
-│                 │       │            ╰ UID : 20d82114f5535d6f 
-│                 │       ├ Version   : v1.6.0 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [67]  ╭ ID        : github.com/gorilla/mux@v1.8.1 
-│                 │       ├ Name      : github.com/gorilla/mux 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/gorilla/mux@v1.8.1 
-│                 │       │            ╰ UID : f1aad95976c0ef21 
-│                 │       ├ Version   : v1.8.1 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [68]  ╭ ID        : github.com/gorilla/websocket@v1.5.0 
-│                 │       ├ Name      : github.com/gorilla/websocket 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/gorilla/websocket@v1.5.0 
-│                 │       │            ╰ UID : 1574e92cff7b491f 
-│                 │       ├ Version   : v1.5.0 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [69]  ╭ ID        : github.com/grpc-ecosystem/grpc-gateway/v2@v2.26.1 
-│                 │       ├ Name      : github.com/grpc-ecosystem/grpc-gateway/v2 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/grpc-ecosystem/grpc-gateway/v2@v2.26.1 
-│                 │       │            ╰ UID : 7207783f3dbf1b8a 
-│                 │       ├ Version   : v2.26.1 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [70]  ╭ ID        : github.com/hashicorp/errwrap@v1.1.0 
-│                 │       ├ Name      : github.com/hashicorp/errwrap 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/hashicorp/errwrap@v1.1.0 
-│                 │       │            ╰ UID : 2be729fe15e6d4b3 
-│                 │       ├ Version   : v1.1.0 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [71]  ╭ ID        : github.com/hashicorp/go-cleanhttp@v0.5.2 
-│                 │       ├ Name      : github.com/hashicorp/go-cleanhttp 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/hashicorp/go-cleanhttp@v0.5.2 
-│                 │       │            ╰ UID : 61a80f116dd770b3 
-│                 │       ├ Version   : v0.5.2 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [72]  ╭ ID        : github.com/hashicorp/go-multierror@v1.1.1 
-│                 │       ├ Name      : github.com/hashicorp/go-multierror 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/hashicorp/go-multierror@v1.1.1 
-│                 │       │            ╰ UID : c1b2d06de040c747 
-│                 │       ├ Version   : v1.1.1 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [73]  ╭ ID        : github.com/hashicorp/go-version@v1.7.0 
-│                 │       ├ Name      : github.com/hashicorp/go-version 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/hashicorp/go-version@v1.7.0 
-│                 │       │            ╰ UID : 651b8cc513ff86f3 
-│                 │       ├ Version   : v1.7.0 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [74]  ╭ ID        : github.com/in-toto/in-toto-golang@v0.9.0 
-│                 │       ├ Name      : github.com/in-toto/in-toto-golang 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/in-toto/in-toto-golang@v0.9.0 
-│                 │       │            ╰ UID : fca47fe8d6191101 
-│                 │       ├ Version   : v0.9.0 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [75]  ╭ ID        : github.com/inhies/go-bytesize@v0.0.0-20220417184213-4913239db9cf 
-│                 │       ├ Name      : github.com/inhies/go-bytesize 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/inhies/go-bytesize@v0.0.0-20220417184213-4
-│                 │       │            │       913239db9cf 
-│                 │       │            ╰ UID : dddc32ba0f524a57 
-│                 │       ├ Version   : v0.0.0-20220417184213-4913239db9cf 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [76]  ╭ ID        : github.com/jonboulle/clockwork@v0.5.0 
-│                 │       ├ Name      : github.com/jonboulle/clockwork 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/jonboulle/clockwork@v0.5.0 
-│                 │       │            ╰ UID : 21a3ef7b9bc7b6e4 
-│                 │       ├ Version   : v0.5.0 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [77]  ╭ ID        : github.com/josharian/intern@v1.0.0 
-│                 │       ├ Name      : github.com/josharian/intern 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/josharian/intern@v1.0.0 
-│                 │       │            ╰ UID : 350097dfedf2afe5 
-│                 │       ├ Version   : v1.0.0 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [78]  ╭ ID        : github.com/json-iterator/go@v1.1.12 
-│                 │       ├ Name      : github.com/json-iterator/go 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/json-iterator/go@v1.1.12 
-│                 │       │            ╰ UID : b7f6df6e75643f62 
-│                 │       ├ Version   : v1.1.12 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [79]  ╭ ID        : github.com/kballard/go-shellquote@v0.0.0-20180428030007-95032a82bc51 
-│                 │       ├ Name      : github.com/kballard/go-shellquote 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/kballard/go-shellquote@v0.0.0-201804280300
-│                 │       │            │       07-95032a82bc51 
-│                 │       │            ╰ UID : c9d194f664fd1f17 
-│                 │       ├ Version   : v0.0.0-20180428030007-95032a82bc51 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [80]  ╭ ID        : github.com/klauspost/compress@v1.18.0 
-│                 │       ├ Name      : github.com/klauspost/compress 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/klauspost/compress@v1.18.0 
-│                 │       │            ╰ UID : f3ee94db023b872e 
-│                 │       ├ Version   : v1.18.0 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [81]  ╭ ID        : github.com/mailru/easyjson@v0.7.7 
-│                 │       ├ Name      : github.com/mailru/easyjson 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/mailru/easyjson@v0.7.7 
-│                 │       │            ╰ UID : bf798917e5d1439f 
-│                 │       ├ Version   : v0.7.7 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [82]  ╭ ID        : github.com/mattn/go-colorable@v0.1.13 
-│                 │       ├ Name      : github.com/mattn/go-colorable 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/mattn/go-colorable@v0.1.13 
-│                 │       │            ╰ UID : 8c2d4a6c0116cde6 
-│                 │       ├ Version   : v0.1.13 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [83]  ╭ ID        : github.com/mattn/go-isatty@v0.0.20 
-│                 │       ├ Name      : github.com/mattn/go-isatty 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/mattn/go-isatty@v0.0.20 
-│                 │       │            ╰ UID : d1e8bb19c93af58b 
-│                 │       ├ Version   : v0.0.20 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [84]  ╭ ID        : github.com/mattn/go-runewidth@v0.0.16 
-│                 │       ├ Name      : github.com/mattn/go-runewidth 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/mattn/go-runewidth@v0.0.16 
-│                 │       │            ╰ UID : 442357be99e4c484 
-│                 │       ├ Version   : v0.0.16 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [85]  ╭ ID        : github.com/mattn/go-shellwords@v1.0.12 
-│                 │       ├ Name      : github.com/mattn/go-shellwords 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/mattn/go-shellwords@v1.0.12 
-│                 │       │            ╰ UID : 5a5147bc1024a686 
-│                 │       ├ Version   : v1.0.12 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [86]  ╭ ID        : github.com/mgutz/ansi@v0.0.0-20170206155736-9520e82c474b 
-│                 │       ├ Name      : github.com/mgutz/ansi 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/mgutz/ansi@v0.0.0-20170206155736-9520e82c4
-│                 │       │            │       74b 
-│                 │       │            ╰ UID : 98a6e47a76ac0f91 
-│                 │       ├ Version   : v0.0.0-20170206155736-9520e82c474b 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [87]  ╭ ID        : github.com/mitchellh/hashstructure/v2@v2.0.2 
-│                 │       ├ Name      : github.com/mitchellh/hashstructure/v2 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/mitchellh/hashstructure/v2@v2.0.2 
-│                 │       │            ╰ UID : ec46c472fdc47b8d 
-│                 │       ├ Version   : v2.0.2 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [88]  ╭ ID        : github.com/moby/buildkit@v0.25.1 
-│                 │       ├ Name      : github.com/moby/buildkit 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/moby/buildkit@v0.25.1 
-│                 │       │            ╰ UID : da883043544c952a 
-│                 │       ├ Version   : v0.25.1 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [89]  ╭ ID        : github.com/moby/docker-image-spec@v1.3.1 
-│                 │       ├ Name      : github.com/moby/docker-image-spec 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/moby/docker-image-spec@v1.3.1 
-│                 │       │            ╰ UID : 9d8ab6043eec161d 
-│                 │       ├ Version   : v1.3.1 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [90]  ╭ ID        : github.com/moby/go-archive@v0.1.0 
-│                 │       ├ Name      : github.com/moby/go-archive 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/moby/go-archive@v0.1.0 
-│                 │       │            ╰ UID : c185f439eeb2e0d0 
-│                 │       ├ Version   : v0.1.0 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [91]  ╭ ID        : github.com/moby/locker@v1.0.1 
-│                 │       ├ Name      : github.com/moby/locker 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/moby/locker@v1.0.1 
-│                 │       │            ╰ UID : b0d44419b29e002e 
-│                 │       ├ Version   : v1.0.1 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [92]  ╭ ID        : github.com/moby/patternmatcher@v0.6.0 
-│                 │       ├ Name      : github.com/moby/patternmatcher 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/moby/patternmatcher@v0.6.0 
-│                 │       │            ╰ UID : 5c333d258e7f3dc6 
-│                 │       ├ Version   : v0.6.0 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [93]  ╭ ID        : github.com/moby/spdystream@v0.5.0 
-│                 │       ├ Name      : github.com/moby/spdystream 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/moby/spdystream@v0.5.0 
-│                 │       │            ╰ UID : cdda1350d601ec79 
-│                 │       ├ Version   : v0.5.0 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [94]  ╭ ID        : github.com/moby/sys/atomicwriter@v0.1.0 
-│                 │       ├ Name      : github.com/moby/sys/atomicwriter 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/moby/sys/atomicwriter@v0.1.0 
-│                 │       │            ╰ UID : f93815c15820eaaa 
-│                 │       ├ Version   : v0.1.0 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [95]  ╭ ID        : github.com/moby/sys/capability@v0.4.0 
-│                 │       ├ Name      : github.com/moby/sys/capability 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/moby/sys/capability@v0.4.0 
-│                 │       │            ╰ UID : 64258909f3976352 
-│                 │       ├ Version   : v0.4.0 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [96]  ╭ ID        : github.com/moby/sys/mountinfo@v0.7.2 
-│                 │       ├ Name      : github.com/moby/sys/mountinfo 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/moby/sys/mountinfo@v0.7.2 
-│                 │       │            ╰ UID : e0f06bc52c5886c8 
-│                 │       ├ Version   : v0.7.2 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [97]  ╭ ID        : github.com/moby/sys/sequential@v0.6.0 
-│                 │       ├ Name      : github.com/moby/sys/sequential 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/moby/sys/sequential@v0.6.0 
-│                 │       │            ╰ UID : dfdcac7fca407cbe 
-│                 │       ├ Version   : v0.6.0 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [98]  ╭ ID        : github.com/moby/sys/signal@v0.7.1 
-│                 │       ├ Name      : github.com/moby/sys/signal 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/moby/sys/signal@v0.7.1 
-│                 │       │            ╰ UID : 72d46445da9b523 
-│                 │       ├ Version   : v0.7.1 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [99]  ╭ ID        : github.com/moby/sys/symlink@v0.3.0 
-│                 │       ├ Name      : github.com/moby/sys/symlink 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/moby/sys/symlink@v0.3.0 
-│                 │       │            ╰ UID : b58690d5cc6406a1 
-│                 │       ├ Version   : v0.3.0 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [100] ╭ ID        : github.com/moby/sys/user@v0.4.0 
-│                 │       ├ Name      : github.com/moby/sys/user 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/moby/sys/user@v0.4.0 
-│                 │       │            ╰ UID : dfecd32c1c1fd7a1 
-│                 │       ├ Version   : v0.4.0 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [101] ╭ ID        : github.com/moby/sys/userns@v0.1.0 
-│                 │       ├ Name      : github.com/moby/sys/userns 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/moby/sys/userns@v0.1.0 
-│                 │       │            ╰ UID : 40d6ba06284c768d 
-│                 │       ├ Version   : v0.1.0 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [102] ╭ ID        : github.com/moby/term@v0.5.2 
-│                 │       ├ Name      : github.com/moby/term 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/moby/term@v0.5.2 
-│                 │       │            ╰ UID : c3d3929cf0ffaff1 
-│                 │       ├ Version   : v0.5.2 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [103] ╭ ID        : github.com/modern-go/concurrent@v0.0.0-20180306012644-bacd9c7ef1dd 
-│                 │       ├ Name      : github.com/modern-go/concurrent 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/modern-go/concurrent@v0.0.0-20180306012644
-│                 │       │            │       -bacd9c7ef1dd 
-│                 │       │            ╰ UID : e134ea19f57539e 
-│                 │       ├ Version   : v0.0.0-20180306012644-bacd9c7ef1dd 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [104] ╭ ID        : github.com/modern-go/reflect2@v1.0.2 
-│                 │       ├ Name      : github.com/modern-go/reflect2 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/modern-go/reflect2@v1.0.2 
-│                 │       │            ╰ UID : d08ff00347ccf3ce 
-│                 │       ├ Version   : v1.0.2 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [105] ╭ ID        : github.com/morikuni/aec@v1.0.0 
-│                 │       ├ Name      : github.com/morikuni/aec 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/morikuni/aec@v1.0.0 
-│                 │       │            ╰ UID : f9f5409972995ac4 
-│                 │       ├ Version   : v1.0.0 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [106] ╭ ID        : github.com/munnerz/goautoneg@v0.0.0-20191010083416-a7dc8b61c822 
-│                 │       ├ Name      : github.com/munnerz/goautoneg 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/munnerz/goautoneg@v0.0.0-20191010083416-a7
-│                 │       │            │       dc8b61c822 
-│                 │       │            ╰ UID : cdfd3ad2f85a953d 
-│                 │       ├ Version   : v0.0.0-20191010083416-a7dc8b61c822 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [107] ╭ ID        : github.com/mxk/go-flowrate@v0.0.0-20140419014527-cca7078d478f 
-│                 │       ├ Name      : github.com/mxk/go-flowrate 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/mxk/go-flowrate@v0.0.0-20140419014527-cca7
-│                 │       │            │       078d478f 
-│                 │       │            ╰ UID : e7882f0b31fd89ae 
-│                 │       ├ Version   : v0.0.0-20140419014527-cca7078d478f 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [108] ╭ ID        : github.com/opencontainers/go-digest@v1.0.0 
-│                 │       ├ Name      : github.com/opencontainers/go-digest 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/opencontainers/go-digest@v1.0.0 
-│                 │       │            ╰ UID : 8a42adc57293a66f 
-│                 │       ├ Version   : v1.0.0 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [109] ╭ ID        : github.com/opencontainers/image-spec@v1.1.1 
-│                 │       ├ Name      : github.com/opencontainers/image-spec 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/opencontainers/image-spec@v1.1.1 
-│                 │       │            ╰ UID : 53da56f9e093888c 
-│                 │       ├ Version   : v1.1.1 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [110] ╭ ID        : github.com/pelletier/go-toml@v1.9.5 
-│                 │       ├ Name      : github.com/pelletier/go-toml 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/pelletier/go-toml@v1.9.5 
-│                 │       │            ╰ UID : 6c1d6667e4824a45 
-│                 │       ├ Version   : v1.9.5 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [111] ╭ ID        : github.com/pkg/errors@v0.9.1 
-│                 │       ├ Name      : github.com/pkg/errors 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/pkg/errors@v0.9.1 
-│                 │       │            ╰ UID : 27c739bab19ecd93 
-│                 │       ├ Version   : v0.9.1 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [112] ╭ ID        : github.com/planetscale/vtprotobuf@v0.6.1-0.20240319094008-0393e58bdf10 
-│                 │       ├ Name      : github.com/planetscale/vtprotobuf 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/planetscale/vtprotobuf@v0.6.1-0.2024031909
-│                 │       │            │       4008-0393e58bdf10 
-│                 │       │            ╰ UID : 453988006903bdf0 
-│                 │       ├ Version   : v0.6.1-0.20240319094008-0393e58bdf10 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [113] ╭ ID        : github.com/pmezard/go-difflib@v1.0.0 
-│                 │       ├ Name      : github.com/pmezard/go-difflib 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/pmezard/go-difflib@v1.0.0 
-│                 │       │            ╰ UID : bd88d18a2af45938 
-│                 │       ├ Version   : v1.0.0 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [114] ╭ ID        : github.com/prometheus/client_golang@v1.22.0 
-│                 │       ├ Name      : github.com/prometheus/client_golang 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/prometheus/client_golang@v1.22.0 
-│                 │       │            ╰ UID : f12e510b8f5dca5e 
-│                 │       ├ Version   : v1.22.0 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [115] ╭ ID        : github.com/prometheus/client_model@v0.6.1 
-│                 │       ├ Name      : github.com/prometheus/client_model 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/prometheus/client_model@v0.6.1 
-│                 │       │            ╰ UID : 3ff068bbda293c92 
-│                 │       ├ Version   : v0.6.1 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [116] ╭ ID        : github.com/prometheus/common@v0.62.0 
-│                 │       ├ Name      : github.com/prometheus/common 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/prometheus/common@v0.62.0 
-│                 │       │            ╰ UID : a1c3258fad93153d 
-│                 │       ├ Version   : v0.62.0 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [117] ╭ ID        : github.com/prometheus/procfs@v0.15.1 
-│                 │       ├ Name      : github.com/prometheus/procfs 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/prometheus/procfs@v0.15.1 
-│                 │       │            ╰ UID : bf075b7c1d7872ba 
-│                 │       ├ Version   : v0.15.1 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [118] ╭ ID        : github.com/rivo/uniseg@v0.2.0 
-│                 │       ├ Name      : github.com/rivo/uniseg 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/rivo/uniseg@v0.2.0 
-│                 │       │            ╰ UID : 475d7dbd929778c3 
-│                 │       ├ Version   : v0.2.0 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [119] ╭ ID        : github.com/santhosh-tekuri/jsonschema/v6@v6.0.1 
-│                 │       ├ Name      : github.com/santhosh-tekuri/jsonschema/v6 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/santhosh-tekuri/jsonschema/v6@v6.0.1 
-│                 │       │            ╰ UID : bbfbc4c35699742 
-│                 │       ├ Version   : v6.0.1 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [120] ╭ ID        : github.com/secure-systems-lab/go-securesystemslib@v0.6.0 
-│                 │       ├ Name      : github.com/secure-systems-lab/go-securesystemslib 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/secure-systems-lab/go-securesystemslib@v0.
-│                 │       │            │       6.0 
-│                 │       │            ╰ UID : e71b454a98781813 
-│                 │       ├ Version   : v0.6.0 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [121] ╭ ID        : github.com/serialx/hashring@v0.0.0-20200727003509-22c0c7ab6b1b 
-│                 │       ├ Name      : github.com/serialx/hashring 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/serialx/hashring@v0.0.0-20200727003509-22c
-│                 │       │            │       0c7ab6b1b 
-│                 │       │            ╰ UID : b6e6f644cbf9933d 
-│                 │       ├ Version   : v0.0.0-20200727003509-22c0c7ab6b1b 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [122] ╭ ID        : github.com/shibumi/go-pathspec@v1.3.0 
-│                 │       ├ Name      : github.com/shibumi/go-pathspec 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/shibumi/go-pathspec@v1.3.0 
-│                 │       │            ╰ UID : 1443bc1335f49344 
-│                 │       ├ Version   : v1.3.0 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [123] ╭ ID        : github.com/sirupsen/logrus@v1.9.3 
-│                 │       ├ Name      : github.com/sirupsen/logrus 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/sirupsen/logrus@v1.9.3 
-│                 │       │            ╰ UID : 8b0f30a0b65cf11 
-│                 │       ├ Version   : v1.9.3 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [124] ╭ ID        : github.com/skratchdot/open-golang@v0.0.0-20200116055534-eef842397966 
-│                 │       ├ Name      : github.com/skratchdot/open-golang 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/skratchdot/open-golang@v0.0.0-202001160555
-│                 │       │            │       34-eef842397966 
-│                 │       │            ╰ UID : 1e2b1a6b2e720b0d 
-│                 │       ├ Version   : v0.0.0-20200116055534-eef842397966 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [125] ╭ ID        : github.com/spf13/cobra@v1.10.1 
-│                 │       ├ Name      : github.com/spf13/cobra 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/spf13/cobra@v1.10.1 
-│                 │       │            ╰ UID : 41ef00f206ec162b 
-│                 │       ├ Version   : v1.10.1 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [126] ╭ ID        : github.com/spf13/pflag@v1.0.10 
-│                 │       ├ Name      : github.com/spf13/pflag 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/spf13/pflag@v1.0.10 
-│                 │       │            ╰ UID : 5f6e289570dba819 
-│                 │       ├ Version   : v1.0.10 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [127] ╭ ID        : github.com/stretchr/testify@v1.11.1 
-│                 │       ├ Name      : github.com/stretchr/testify 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/stretchr/testify@v1.11.1 
-│                 │       │            ╰ UID : 485d96590279f0e5 
-│                 │       ├ Version   : v1.11.1 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [128] ╭ ID        : github.com/theupdateframework/notary@v0.7.0 
-│                 │       ├ Name      : github.com/theupdateframework/notary 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/theupdateframework/notary@v0.7.0 
-│                 │       │            ╰ UID : b5203d6f5a63d84d 
-│                 │       ├ Version   : v0.7.0 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [129] ╭ ID        : github.com/tilt-dev/fsnotify@v1.4.8-0.20220602155310-fff9c274a375 
-│                 │       ├ Name      : github.com/tilt-dev/fsnotify 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/tilt-dev/fsnotify@v1.4.8-0.20220602155310-
-│                 │       │            │       fff9c274a375 
-│                 │       │            ╰ UID : 6953f4a266f3884b 
-│                 │       ├ Version   : v1.4.8-0.20220602155310-fff9c274a375 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [130] ╭ ID        : github.com/tonistiigi/dchapes-mode@v0.0.0-20250318174251-73d941a28323 
-│                 │       ├ Name      : github.com/tonistiigi/dchapes-mode 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/tonistiigi/dchapes-mode@v0.0.0-20250318174
-│                 │       │            │       251-73d941a28323 
-│                 │       │            ╰ UID : aa85cea18b5a30ce 
-│                 │       ├ Version   : v0.0.0-20250318174251-73d941a28323 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [131] ╭ ID        : github.com/tonistiigi/fsutil@v0.0.0-20250605211040-586307ad452f 
-│                 │       ├ Name      : github.com/tonistiigi/fsutil 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/tonistiigi/fsutil@v0.0.0-20250605211040-58
-│                 │       │            │       6307ad452f 
-│                 │       │            ╰ UID : 5c549d17f5e7b8e9 
-│                 │       ├ Version   : v0.0.0-20250605211040-586307ad452f 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [132] ╭ ID        : github.com/tonistiigi/go-csvvalue@v0.0.0-20240814133006-030d3b2625d0 
-│                 │       ├ Name      : github.com/tonistiigi/go-csvvalue 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/tonistiigi/go-csvvalue@v0.0.0-202408141330
-│                 │       │            │       06-030d3b2625d0 
-│                 │       │            ╰ UID : 71a97080d0339691 
-│                 │       ├ Version   : v0.0.0-20240814133006-030d3b2625d0 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [133] ╭ ID        : github.com/tonistiigi/units@v0.0.0-20180711220420-6950e57a87ea 
-│                 │       ├ Name      : github.com/tonistiigi/units 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/tonistiigi/units@v0.0.0-20180711220420-695
-│                 │       │            │       0e57a87ea 
-│                 │       │            ╰ UID : eb744f79ce2a37e4 
-│                 │       ├ Version   : v0.0.0-20180711220420-6950e57a87ea 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [134] ╭ ID        : github.com/tonistiigi/vt100@v0.0.0-20240514184818-90bafcd6abab 
-│                 │       ├ Name      : github.com/tonistiigi/vt100 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/tonistiigi/vt100@v0.0.0-20240514184818-90b
-│                 │       │            │       afcd6abab 
-│                 │       │            ╰ UID : 36de7cdde98285ca 
-│                 │       ├ Version   : v0.0.0-20240514184818-90bafcd6abab 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [135] ╭ ID        : github.com/x448/float16@v0.8.4 
-│                 │       ├ Name      : github.com/x448/float16 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/x448/float16@v0.8.4 
-│                 │       │            ╰ UID : 2ee4676831b8c78c 
-│                 │       ├ Version   : v0.8.4 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [136] ╭ ID        : github.com/xhit/go-str2duration/v2@v2.1.0 
-│                 │       ├ Name      : github.com/xhit/go-str2duration/v2 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/xhit/go-str2duration/v2@v2.1.0 
-│                 │       │            ╰ UID : 8341e5325ec3b555 
-│                 │       ├ Version   : v2.1.0 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [137] ╭ ID        : github.com/zclconf/go-cty@v1.17.0 
-│                 │       ├ Name      : github.com/zclconf/go-cty 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/zclconf/go-cty@v1.17.0 
-│                 │       │            ╰ UID : c3c8722def09f261 
-│                 │       ├ Version   : v1.17.0 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [138] ╭ ID        : go.opentelemetry.io/auto/sdk@v1.1.0 
-│                 │       ├ Name      : go.opentelemetry.io/auto/sdk 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/go.opentelemetry.io/auto/sdk@v1.1.0 
-│                 │       │            ╰ UID : 696e5fa262654e6f 
-│                 │       ├ Version   : v1.1.0 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [139] ╭ ID        : go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otel
-│                 │       │             grpc@v0.60.0 
-│                 │       ├ Name      : go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otel
-│                 │       │             grpc 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/go.opentelemetry.io/contrib/instrumentation/google.go
-│                 │       │            │       lang.org/grpc/otelgrpc@v0.60.0 
-│                 │       │            ╰ UID : 24fe540337d12604 
-│                 │       ├ Version   : v0.60.0 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [140] ╭ ID        : go.opentelemetry.io/contrib/instrumentation/net/http/httptrace/otelhttp
-│                 │       │             trace@v0.60.0 
-│                 │       ├ Name      : go.opentelemetry.io/contrib/instrumentation/net/http/httptrace/otelhttp
-│                 │       │             trace 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/go.opentelemetry.io/contrib/instrumentation/net/http/
-│                 │       │            │       httptrace/otelhttptrace@v0.60.0 
-│                 │       │            ╰ UID : 9a3dc24978a62626 
-│                 │       ├ Version   : v0.60.0 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [141] ╭ ID        : go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp@v0.60.0 
-│                 │       ├ Name      : go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/go.opentelemetry.io/contrib/instrumentation/net/http/
-│                 │       │            │       otelhttp@v0.60.0 
-│                 │       │            ╰ UID : 54fef6ee8f6ac8e8 
-│                 │       ├ Version   : v0.60.0 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [142] ╭ ID        : go.opentelemetry.io/otel@v1.36.0 
-│                 │       ├ Name      : go.opentelemetry.io/otel 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/go.opentelemetry.io/otel@v1.36.0 
-│                 │       │            ╰ UID : fe6e3c6ed2551c88 
-│                 │       ├ Version   : v1.36.0 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [143] ╭ ID        : go.opentelemetry.io/otel/exporters/otlp/otlpmetric/otlpmetricgrpc@v1.35.0 
-│                 │       ├ Name      : go.opentelemetry.io/otel/exporters/otlp/otlpmetric/otlpmetricgrpc 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/go.opentelemetry.io/otel/exporters/otlp/otlpmetric/ot
-│                 │       │            │       lpmetricgrpc@v1.35.0 
-│                 │       │            ╰ UID : 5524a97de4447626 
-│                 │       ├ Version   : v1.35.0 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [144] ╭ ID        : go.opentelemetry.io/otel/exporters/otlp/otlpmetric/otlpmetrichttp@v1.35.0 
-│                 │       ├ Name      : go.opentelemetry.io/otel/exporters/otlp/otlpmetric/otlpmetrichttp 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/go.opentelemetry.io/otel/exporters/otlp/otlpmetric/ot
-│                 │       │            │       lpmetrichttp@v1.35.0 
-│                 │       │            ╰ UID : eed73902b53bd39b 
-│                 │       ├ Version   : v1.35.0 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [145] ╭ ID        : go.opentelemetry.io/otel/exporters/otlp/otlptrace@v1.35.0 
-│                 │       ├ Name      : go.opentelemetry.io/otel/exporters/otlp/otlptrace 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/go.opentelemetry.io/otel/exporters/otlp/otlptrace@v1.
-│                 │       │            │       35.0 
-│                 │       │            ╰ UID : b37e439245d6b2eb 
-│                 │       ├ Version   : v1.35.0 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [146] ╭ ID        : go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc@v1.35.0 
-│                 │       ├ Name      : go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/go.opentelemetry.io/otel/exporters/otlp/otlptrace/otl
-│                 │       │            │       ptracegrpc@v1.35.0 
-│                 │       │            ╰ UID : a438ea08250165f5 
-│                 │       ├ Version   : v1.35.0 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [147] ╭ ID        : go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracehttp@v1.35.0 
-│                 │       ├ Name      : go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracehttp 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/go.opentelemetry.io/otel/exporters/otlp/otlptrace/otl
-│                 │       │            │       ptracehttp@v1.35.0 
-│                 │       │            ╰ UID : 6c5705bededb7d52 
-│                 │       ├ Version   : v1.35.0 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [148] ╭ ID        : go.opentelemetry.io/otel/metric@v1.36.0 
-│                 │       ├ Name      : go.opentelemetry.io/otel/metric 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/go.opentelemetry.io/otel/metric@v1.36.0 
-│                 │       │            ╰ UID : 2d32cb7d102ac35 
-│                 │       ├ Version   : v1.36.0 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [149] ╭ ID        : go.opentelemetry.io/otel/sdk@v1.36.0 
-│                 │       ├ Name      : go.opentelemetry.io/otel/sdk 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/go.opentelemetry.io/otel/sdk@v1.36.0 
-│                 │       │            ╰ UID : a1573d508adc6076 
-│                 │       ├ Version   : v1.36.0 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [150] ╭ ID        : go.opentelemetry.io/otel/sdk/metric@v1.36.0 
-│                 │       ├ Name      : go.opentelemetry.io/otel/sdk/metric 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/go.opentelemetry.io/otel/sdk/metric@v1.36.0 
-│                 │       │            ╰ UID : 6441e6fc7a961e90 
-│                 │       ├ Version   : v1.36.0 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [151] ╭ ID        : go.opentelemetry.io/otel/trace@v1.36.0 
-│                 │       ├ Name      : go.opentelemetry.io/otel/trace 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/go.opentelemetry.io/otel/trace@v1.36.0 
-│                 │       │            ╰ UID : 15bdde101c499a8a 
-│                 │       ├ Version   : v1.36.0 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [152] ╭ ID        : go.opentelemetry.io/proto/otlp@v1.5.0 
-│                 │       ├ Name      : go.opentelemetry.io/proto/otlp 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/go.opentelemetry.io/proto/otlp@v1.5.0 
-│                 │       │            ╰ UID : 270bafe74945eef6 
-│                 │       ├ Version   : v1.5.0 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [153] ╭ ID        : go.uber.org/mock@v0.6.0 
-│                 │       ├ Name      : go.uber.org/mock 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/go.uber.org/mock@v0.6.0 
-│                 │       │            ╰ UID : e446fc618c905f3a 
-│                 │       ├ Version   : v0.6.0 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [154] ╭ ID        : go.yaml.in/yaml/v3@v3.0.4 
-│                 │       ├ Name      : go.yaml.in/yaml/v3 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/go.yaml.in/yaml/v3@v3.0.4 
-│                 │       │            ╰ UID : 2b0a62ef1bea0dca 
-│                 │       ├ Version   : v3.0.4 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [155] ╭ ID        : golang.org/x/crypto@v0.38.0 
-│                 │       ├ Name      : golang.org/x/crypto 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/golang.org/x/crypto@v0.38.0 
-│                 │       │            ╰ UID : 194e564864762cce 
-│                 │       ├ Version   : v0.38.0 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [156] ╭ ID        : golang.org/x/net@v0.40.0 
-│                 │       ├ Name      : golang.org/x/net 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/golang.org/x/net@v0.40.0 
-│                 │       │            ╰ UID : d9aff271c75ddc01 
-│                 │       ├ Version   : v0.40.0 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [157] ╭ ID        : golang.org/x/oauth2@v0.30.0 
-│                 │       ├ Name      : golang.org/x/oauth2 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/golang.org/x/oauth2@v0.30.0 
-│                 │       │            ╰ UID : 3bb68cede3b68559 
-│                 │       ├ Version   : v0.30.0 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [158] ╭ ID        : golang.org/x/sync@v0.17.0 
-│                 │       ├ Name      : golang.org/x/sync 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/golang.org/x/sync@v0.17.0 
-│                 │       │            ╰ UID : d3e1600872138d8e 
-│                 │       ├ Version   : v0.17.0 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [159] ╭ ID        : golang.org/x/sys@v0.37.0 
-│                 │       ├ Name      : golang.org/x/sys 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/golang.org/x/sys@v0.37.0 
-│                 │       │            ╰ UID : 218193132278438 
-│                 │       ├ Version   : v0.37.0 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [160] ╭ ID        : golang.org/x/term@v0.32.0 
-│                 │       ├ Name      : golang.org/x/term 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/golang.org/x/term@v0.32.0 
-│                 │       │            ╰ UID : 6b8c6d32c60b1820 
-│                 │       ├ Version   : v0.32.0 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [161] ╭ ID        : golang.org/x/text@v0.25.0 
-│                 │       ├ Name      : golang.org/x/text 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/golang.org/x/text@v0.25.0 
-│                 │       │            ╰ UID : d101522fcfb52ac8 
-│                 │       ├ Version   : v0.25.0 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [162] ╭ ID        : golang.org/x/time@v0.11.0 
-│                 │       ├ Name      : golang.org/x/time 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/golang.org/x/time@v0.11.0 
-│                 │       │            ╰ UID : a31f79bf9c4fa5c1 
-│                 │       ├ Version   : v0.11.0 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [163] ╭ ID        : google.golang.org/genproto/googleapis/api@v0.0.0-20250528174236-200df99
-│                 │       │             c418a 
-│                 │       ├ Name      : google.golang.org/genproto/googleapis/api 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/google.golang.org/genproto/googleapis/api@v0.0.0-2025
-│                 │       │            │       0528174236-200df99c418a 
-│                 │       │            ╰ UID : 2216882b4c28e774 
-│                 │       ├ Version   : v0.0.0-20250528174236-200df99c418a 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [164] ╭ ID        : google.golang.org/genproto/googleapis/rpc@v0.0.0-20250528174236-200df99
-│                 │       │             c418a 
-│                 │       ├ Name      : google.golang.org/genproto/googleapis/rpc 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/google.golang.org/genproto/googleapis/rpc@v0.0.0-2025
-│                 │       │            │       0528174236-200df99c418a 
-│                 │       │            ╰ UID : dbbb39aeb79c281a 
-│                 │       ├ Version   : v0.0.0-20250528174236-200df99c418a 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [165] ╭ ID        : google.golang.org/grpc@v1.74.2 
-│                 │       ├ Name      : google.golang.org/grpc 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/google.golang.org/grpc@v1.74.2 
-│                 │       │            ╰ UID : 12f331016aff1145 
-│                 │       ├ Version   : v1.74.2 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [166] ╭ ID        : google.golang.org/protobuf@v1.36.9 
-│                 │       ├ Name      : google.golang.org/protobuf 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/google.golang.org/protobuf@v1.36.9 
-│                 │       │            ╰ UID : 16615e7a454fd017 
-│                 │       ├ Version   : v1.36.9 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [167] ╭ ID        : gopkg.in/evanphx/json-patch.v4@v4.12.0 
-│                 │       ├ Name      : gopkg.in/evanphx/json-patch.v4 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/gopkg.in/evanphx/json-patch.v4@v4.12.0 
-│                 │       │            ╰ UID : 41ca8807b5992a84 
-│                 │       ├ Version   : v4.12.0 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [168] ╭ ID        : gopkg.in/inf.v0@v0.9.1 
-│                 │       ├ Name      : gopkg.in/inf.v0 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/gopkg.in/inf.v0@v0.9.1 
-│                 │       │            ╰ UID : 34e76ac33ecf750c 
-│                 │       ├ Version   : v0.9.1 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [169] ╭ ID        : gopkg.in/ini.v1@v1.67.0 
-│                 │       ├ Name      : gopkg.in/ini.v1 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/gopkg.in/ini.v1@v1.67.0 
-│                 │       │            ╰ UID : 5022e140acb1d794 
-│                 │       ├ Version   : v1.67.0 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [170] ╭ ID        : gopkg.in/yaml.v3@v3.0.1 
-│                 │       ├ Name      : gopkg.in/yaml.v3 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/gopkg.in/yaml.v3@v3.0.1 
-│                 │       │            ╰ UID : bead78b91f14bf57 
-│                 │       ├ Version   : v3.0.1 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [171] ╭ ID        : k8s.io/api@v0.32.3 
-│                 │       ├ Name      : k8s.io/api 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/k8s.io/api@v0.32.3 
-│                 │       │            ╰ UID : 612b527d02db63 
-│                 │       ├ Version   : v0.32.3 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [172] ╭ ID        : k8s.io/apimachinery@v0.32.3 
-│                 │       ├ Name      : k8s.io/apimachinery 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/k8s.io/apimachinery@v0.32.3 
-│                 │       │            ╰ UID : d57ed69a0cf39c58 
-│                 │       ├ Version   : v0.32.3 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [173] ╭ ID        : k8s.io/client-go@v0.32.3 
-│                 │       ├ Name      : k8s.io/client-go 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/k8s.io/client-go@v0.32.3 
-│                 │       │            ╰ UID : b6e1285a3b545dad 
-│                 │       ├ Version   : v0.32.3 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [174] ╭ ID        : k8s.io/klog/v2@v2.130.1 
-│                 │       ├ Name      : k8s.io/klog/v2 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/k8s.io/klog/v2@v2.130.1 
-│                 │       │            ╰ UID : a5a96008b894dd06 
-│                 │       ├ Version   : v2.130.1 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [175] ╭ ID        : k8s.io/kube-openapi@v0.0.0-20241105132330-32ad38e42d3f 
-│                 │       ├ Name      : k8s.io/kube-openapi 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/k8s.io/kube-openapi@v0.0.0-20241105132330-32ad38e42d3f 
-│                 │       │            ╰ UID : aa368a75b754e82a 
-│                 │       ├ Version   : v0.0.0-20241105132330-32ad38e42d3f 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [176] ╭ ID        : k8s.io/utils@v0.0.0-20241104100929-3ea5e8cea738 
-│                 │       ├ Name      : k8s.io/utils 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/k8s.io/utils@v0.0.0-20241104100929-3ea5e8cea738 
-│                 │       │            ╰ UID : 73bffbcccfcf1bc8 
-│                 │       ├ Version   : v0.0.0-20241104100929-3ea5e8cea738 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [177] ╭ ID        : sigs.k8s.io/json@v0.0.0-20241010143419-9aa6b5e7a4b3 
-│                 │       ├ Name      : sigs.k8s.io/json 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/sigs.k8s.io/json@v0.0.0-20241010143419-9aa6b5e7a4b3 
-│                 │       │            ╰ UID : fa44c1d741fcddcf 
-│                 │       ├ Version   : v0.0.0-20241010143419-9aa6b5e7a4b3 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [178] ╭ ID        : sigs.k8s.io/structured-merge-diff/v4@v4.4.2 
-│                 │       ├ Name      : sigs.k8s.io/structured-merge-diff/v4 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/sigs.k8s.io/structured-merge-diff/v4@v4.4.2 
-│                 │       │            ╰ UID : bc49d01bfa8a9c80 
-│                 │       ├ Version   : v4.4.2 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ├ [179] ╭ ID        : sigs.k8s.io/yaml@v1.4.0 
-│                 │       ├ Name      : sigs.k8s.io/yaml 
-│                 │       ├ Identifier ╭ PURL: pkg:golang/sigs.k8s.io/yaml@v1.4.0 
-│                 │       │            ╰ UID : 6e408d57064502b9 
-│                 │       ├ Version   : v1.4.0 
-│                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                 │                    │         f81e5654f 
-│                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                 │                              8f627132f 
-│                 ╰ [180] ╭ ID        : tags.cncf.io/container-device-interface@v1.0.1 
-│                         ├ Name      : tags.cncf.io/container-device-interface 
-│                         ├ Identifier ╭ PURL: pkg:golang/tags.cncf.io/container-device-interface@v1.0.1 
-│                         │            ╰ UID : 7af5124c947f521a 
-│                         ├ Version   : v1.0.1 
-│                         ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c8196e2aac
-│                                      │         f81e5654f 
-│                                      ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b8e4db11
-│                                                8f627132f 
+├ [4]  ╭ Target         : usr/bin/docker-compose 
+│      ├ Class          : lang-pkgs 
+│      ├ Type           : gobinary 
+│      ├ Packages        ╭ [0]   ╭ ID          : github.com/docker/compose/v2 
+│      │                 │       ├ Name        : github.com/docker/compose/v2 
+│      │                 │       ├ Identifier   ╭ PURL: pkg:golang/github.com/docker/compose/v2 
+│      │                 │       │              ╰ UID : 128aefbeed8ca659 
+│      │                 │       ├ Relationship: root 
+│      │                 │       ├ DependsOn    ╭ [0]  : github.com/AlecAivazis/survey/v2@v2.3.7 
+│      │                 │       │              ├ [1]  : github.com/DefangLabs/secret-detector@v0.0.0-202504031
+│      │                 │       │              │        65618-22662109213e 
+│      │                 │       │              ├ [2]  : github.com/Masterminds/semver/v3@v3.4.0 
+│      │                 │       │              ├ [3]  : github.com/acarl005/stripansi@v0.0.0-20180116102854-5a
+│      │                 │       │              │        71ef0e047d 
+│      │                 │       │              ├ [4]  : github.com/apparentlymart/go-textseg/v15@v15.0.0 
+│      │                 │       │              ├ [5]  : github.com/aws/aws-sdk-go-v2/config@v1.27.27 
+│      │                 │       │              ├ [6]  : github.com/aws/aws-sdk-go-v2/credentials@v1.17.27 
+│      │                 │       │              ├ [7]  : github.com/aws/aws-sdk-go-v2/feature/ec2/imds@v1.16.11 
+│      │                 │       │              ├ [8]  : github.com/aws/aws-sdk-go-v2/internal/configsources@v1
+│      │                 │       │              │        .3.15 
+│      │                 │       │              ├ [9]  : github.com/aws/aws-sdk-go-v2/internal/endpoints/v2@v2.
+│      │                 │       │              │        6.15 
+│      │                 │       │              ├ [10] : github.com/aws/aws-sdk-go-v2/internal/ini@v1.8.0 
+│      │                 │       │              ├ [11] : github.com/aws/aws-sdk-go-v2/service/internal/accept-e
+│      │                 │       │              │        ncoding@v1.11.3 
+│      │                 │       │              ├ [12] : github.com/aws/aws-sdk-go-v2/service/internal/presigne
+│      │                 │       │              │        d-url@v1.11.17 
+│      │                 │       │              ├ [13] : github.com/aws/aws-sdk-go-v2/service/sso@v1.22.4 
+│      │                 │       │              ├ [14] : github.com/aws/aws-sdk-go-v2/service/ssooidc@v1.26.4 
+│      │                 │       │              ├ [15] : github.com/aws/aws-sdk-go-v2/service/sts@v1.30.3 
+│      │                 │       │              ├ [16] : github.com/aws/aws-sdk-go-v2@v1.30.3 
+│      │                 │       │              ├ [17] : github.com/aws/smithy-go@v1.20.3 
+│      │                 │       │              ├ [18] : github.com/beorn7/perks@v1.0.1 
+│      │                 │       │              ├ [19] : github.com/buger/goterm@v1.0.4 
+│      │                 │       │              ├ [20] : github.com/cenkalti/backoff/v4@v4.3.0 
+│      │                 │       │              ├ [21] : github.com/cespare/xxhash/v2@v2.3.0 
+│      │                 │       │              ├ [22] : github.com/compose-spec/compose-go/v2@v2.9.1 
+│      │                 │       │              ├ [23] : github.com/containerd/console@v1.0.5 
+│      │                 │       │              ├ [24] : github.com/containerd/containerd/api@v1.9.0 
+│      │                 │       │              ├ [25] : github.com/containerd/containerd/v2@v2.1.4 
+│      │                 │       │              ├ [26] : github.com/containerd/continuity@v0.4.5 
+│      │                 │       │              ├ [27] : github.com/containerd/errdefs/pkg@v0.3.0 
+│      │                 │       │              ├ [28] : github.com/containerd/errdefs@v1.0.0 
+│      │                 │       │              ├ [29] : github.com/containerd/log@v0.1.0 
+│      │                 │       │              ├ [30] : github.com/containerd/platforms@v1.0.0-rc.1 
+│      │                 │       │              ├ [31] : github.com/containerd/ttrpc@v1.2.7 
+│      │                 │       │              ├ [32] : github.com/containerd/typeurl/v2@v2.2.3 
+│      │                 │       │              ├ [33] : github.com/davecgh/go-spew@v1.1.1 
+│      │                 │       │              ├ [34] : github.com/distribution/reference@v0.6.0 
+│      │                 │       │              ├ [35] : github.com/docker/buildx@v0.29.1 
+│      │                 │       │              ├ [36] : github.com/docker/cli-docs-tool@v0.10.0 
+│      │                 │       │              ├ [37] : github.com/docker/cli@v28.5.1+incompatible 
+│      │                 │       │              ├ [38] : github.com/docker/distribution@v2.8.3+incompatible 
+│      │                 │       │              ├ [39] : github.com/docker/docker-credential-helpers@v0.9.3 
+│      │                 │       │              ├ [40] : github.com/docker/docker@v28.5.1+incompatible 
+│      │                 │       │              ├ [41] : github.com/docker/go-connections@v0.6.0 
+│      │                 │       │              ├ [42] : github.com/docker/go-metrics@v0.0.1 
+│      │                 │       │              ├ [43] : github.com/docker/go-units@v0.5.0 
+│      │                 │       │              ├ [44] : github.com/docker/go@v1.5.1-1.0.20160303222718-d30aec9
+│      │                 │       │              │        fd63c 
+│      │                 │       │              ├ [45] : github.com/eiannone/keyboard@v0.0.0-20220611211555-0d2
+│      │                 │       │              │        26195f203 
+│      │                 │       │              ├ [46] : github.com/emicklei/go-restful/v3@v3.11.0 
+│      │                 │       │              ├ [47] : github.com/felixge/httpsnoop@v1.0.4 
+│      │                 │       │              ├ [48] : github.com/fvbommel/sortorder@v1.1.0 
+│      │                 │       │              ├ [49] : github.com/fxamacker/cbor/v2@v2.7.0 
+│      │                 │       │              ├ [50] : github.com/go-logr/logr@v1.4.3 
+│      │                 │       │              ├ [51] : github.com/go-logr/stdr@v1.2.2 
+│      │                 │       │              ├ [52] : github.com/go-openapi/jsonpointer@v0.21.0 
+│      │                 │       │              ├ [53] : github.com/go-openapi/jsonreference@v0.20.2 
+│      │                 │       │              ├ [54] : github.com/go-openapi/swag@v0.23.0 
+│      │                 │       │              ├ [55] : github.com/go-viper/mapstructure/v2@v2.4.0 
+│      │                 │       │              ├ [56] : github.com/gofrs/flock@v0.12.1 
+│      │                 │       │              ├ [57] : github.com/gogo/protobuf@v1.3.2 
+│      │                 │       │              ├ [58] : github.com/golang-jwt/jwt/v5@v5.2.2 
+│      │                 │       │              ├ [59] : github.com/golang/protobuf@v1.5.4 
+│      │                 │       │              ├ [60] : github.com/google/gnostic-models@v0.6.8 
+│      │                 │       │              ├ [61] : github.com/google/go-cmp@v0.7.0 
+│      │                 │       │              ├ [62] : github.com/google/gofuzz@v1.2.0 
+│      │                 │       │              ├ [63] : github.com/google/shlex@v0.0.0-20191202100458-e7afc7fb
+│      │                 │       │              │        c510 
+│      │                 │       │              ├ [64] : github.com/google/uuid@v1.6.0 
+│      │                 │       │              ├ [65] : github.com/gorilla/mux@v1.8.1 
+│      │                 │       │              ├ [66] : github.com/gorilla/websocket@v1.5.0 
+│      │                 │       │              ├ [67] : github.com/grpc-ecosystem/grpc-gateway/v2@v2.26.1 
+│      │                 │       │              ├ [68] : github.com/hashicorp/errwrap@v1.1.0 
+│      │                 │       │              ├ [69] : github.com/hashicorp/go-cleanhttp@v0.5.2 
+│      │                 │       │              ├ [70] : github.com/hashicorp/go-multierror@v1.1.1 
+│      │                 │       │              ├ [71] : github.com/hashicorp/go-version@v1.7.0 
+│      │                 │       │              ├ [72] : github.com/in-toto/in-toto-golang@v0.9.0 
+│      │                 │       │              ├ [73] : github.com/inhies/go-bytesize@v0.0.0-20220417184213-49
+│      │                 │       │              │        13239db9cf 
+│      │                 │       │              ├ [74] : github.com/jonboulle/clockwork@v0.5.0 
+│      │                 │       │              ├ [75] : github.com/josharian/intern@v1.0.0 
+│      │                 │       │              ├ [76] : github.com/json-iterator/go@v1.1.12 
+│      │                 │       │              ├ [77] : github.com/kballard/go-shellquote@v0.0.0-2018042803000
+│      │                 │       │              │        7-95032a82bc51 
+│      │                 │       │              ├ [78] : github.com/klauspost/compress@v1.18.0 
+│      │                 │       │              ├ [79] : github.com/mailru/easyjson@v0.7.7 
+│      │                 │       │              ├ [80] : github.com/mattn/go-colorable@v0.1.13 
+│      │                 │       │              ├ [81] : github.com/mattn/go-isatty@v0.0.20 
+│      │                 │       │              ├ [82] : github.com/mattn/go-runewidth@v0.0.16 
+│      │                 │       │              ├ [83] : github.com/mattn/go-shellwords@v1.0.12 
+│      │                 │       │              ├ [84] : github.com/mgutz/ansi@v0.0.0-20170206155736-9520e82c474b 
+│      │                 │       │              ├ [85] : github.com/mitchellh/hashstructure/v2@v2.0.2 
+│      │                 │       │              ├ [86] : github.com/moby/buildkit@v0.25.1 
+│      │                 │       │              ├ [87] : github.com/moby/docker-image-spec@v1.3.1 
+│      │                 │       │              ├ [88] : github.com/moby/go-archive@v0.1.0 
+│      │                 │       │              ├ [89] : github.com/moby/locker@v1.0.1 
+│      │                 │       │              ├ [90] : github.com/moby/patternmatcher@v0.6.0 
+│      │                 │       │              ├ [91] : github.com/moby/spdystream@v0.5.0 
+│      │                 │       │              ├ [92] : github.com/moby/sys/atomicwriter@v0.1.0 
+│      │                 │       │              ├ [93] : github.com/moby/sys/capability@v0.4.0 
+│      │                 │       │              ├ [94] : github.com/moby/sys/mountinfo@v0.7.2 
+│      │                 │       │              ├ [95] : github.com/moby/sys/sequential@v0.6.0 
+│      │                 │       │              ├ [96] : github.com/moby/sys/signal@v0.7.1 
+│      │                 │       │              ├ [97] : github.com/moby/sys/symlink@v0.3.0 
+│      │                 │       │              ├ [98] : github.com/moby/sys/user@v0.4.0 
+│      │                 │       │              ├ [99] : github.com/moby/sys/userns@v0.1.0 
+│      │                 │       │              ├ [100]: github.com/moby/term@v0.5.2 
+│      │                 │       │              ├ [101]: github.com/modern-go/concurrent@v0.0.0-20180306012644-
+│      │                 │       │              │        bacd9c7ef1dd 
+│      │                 │       │              ├ [102]: github.com/modern-go/reflect2@v1.0.2 
+│      │                 │       │              ├ [103]: github.com/morikuni/aec@v1.0.0 
+│      │                 │       │              ├ [104]: github.com/munnerz/goautoneg@v0.0.0-20191010083416-a7d
+│      │                 │       │              │        c8b61c822 
+│      │                 │       │              ├ [105]: github.com/mxk/go-flowrate@v0.0.0-20140419014527-cca70
+│      │                 │       │              │        78d478f 
+│      │                 │       │              ├ [106]: github.com/opencontainers/go-digest@v1.0.0 
+│      │                 │       │              ├ [107]: github.com/opencontainers/image-spec@v1.1.1 
+│      │                 │       │              ├ [108]: github.com/pelletier/go-toml@v1.9.5 
+│      │                 │       │              ├ [109]: github.com/pkg/errors@v0.9.1 
+│      │                 │       │              ├ [110]: github.com/planetscale/vtprotobuf@v0.6.1-0.20240319094
+│      │                 │       │              │        008-0393e58bdf10 
+│      │                 │       │              ├ [111]: github.com/pmezard/go-difflib@v1.0.0 
+│      │                 │       │              ├ [112]: github.com/prometheus/client_golang@v1.22.0 
+│      │                 │       │              ├ [113]: github.com/prometheus/client_model@v0.6.1 
+│      │                 │       │              ├ [114]: github.com/prometheus/common@v0.62.0 
+│      │                 │       │              ├ [115]: github.com/prometheus/procfs@v0.15.1 
+│      │                 │       │              ├ [116]: github.com/rivo/uniseg@v0.2.0 
+│      │                 │       │              ├ [117]: github.com/santhosh-tekuri/jsonschema/v6@v6.0.1 
+│      │                 │       │              ├ [118]: github.com/secure-systems-lab/go-securesystemslib@v0.6.0 
+│      │                 │       │              ├ [119]: github.com/serialx/hashring@v0.0.0-20200727003509-22c0
+│      │                 │       │              │        c7ab6b1b 
+│      │                 │       │              ├ [120]: github.com/shibumi/go-pathspec@v1.3.0 
+│      │                 │       │              ├ [121]: github.com/sirupsen/logrus@v1.9.3 
+│      │                 │       │              ├ [122]: github.com/skratchdot/open-golang@v0.0.0-2020011605553
+│      │                 │       │              │        4-eef842397966 
+│      │                 │       │              ├ [123]: github.com/spf13/cobra@v1.10.1 
+│      │                 │       │              ├ [124]: github.com/spf13/pflag@v1.0.10 
+│      │                 │       │              ├ [125]: github.com/stretchr/testify@v1.11.1 
+│      │                 │       │              ├ [126]: github.com/theupdateframework/notary@v0.7.0 
+│      │                 │       │              ├ [127]: github.com/tilt-dev/fsnotify@v1.4.8-0.20220602155310-f
+│      │                 │       │              │        ff9c274a375 
+│      │                 │       │              ├ [128]: github.com/tonistiigi/dchapes-mode@v0.0.0-202503181742
+│      │                 │       │              │        51-73d941a28323 
+│      │                 │       │              ├ [129]: github.com/tonistiigi/fsutil@v0.0.0-20250605211040-586
+│      │                 │       │              │        307ad452f 
+│      │                 │       │              ├ [130]: github.com/tonistiigi/go-csvvalue@v0.0.0-2024081413300
+│      │                 │       │              │        6-030d3b2625d0 
+│      │                 │       │              ├ [131]: github.com/tonistiigi/units@v0.0.0-20180711220420-6950
+│      │                 │       │              │        e57a87ea 
+│      │                 │       │              ├ [132]: github.com/tonistiigi/vt100@v0.0.0-20240514184818-90ba
+│      │                 │       │              │        fcd6abab 
+│      │                 │       │              ├ [133]: github.com/x448/float16@v0.8.4 
+│      │                 │       │              ├ [134]: github.com/xhit/go-str2duration/v2@v2.1.0 
+│      │                 │       │              ├ [135]: github.com/zclconf/go-cty@v1.17.0 
+│      │                 │       │              ├ [136]: go.opentelemetry.io/auto/sdk@v1.1.0 
+│      │                 │       │              ├ [137]: go.opentelemetry.io/contrib/instrumentation/google.gol
+│      │                 │       │              │        ang.org/grpc/otelgrpc@v0.60.0 
+│      │                 │       │              ├ [138]: go.opentelemetry.io/contrib/instrumentation/net/http/h
+│      │                 │       │              │        ttptrace/otelhttptrace@v0.60.0 
+│      │                 │       │              ├ [139]: go.opentelemetry.io/contrib/instrumentation/net/http/o
+│      │                 │       │              │        telhttp@v0.60.0 
+│      │                 │       │              ├ [140]: go.opentelemetry.io/otel/exporters/otlp/otlpmetric/otl
+│      │                 │       │              │        pmetricgrpc@v1.35.0 
+│      │                 │       │              ├ [141]: go.opentelemetry.io/otel/exporters/otlp/otlpmetric/otl
+│      │                 │       │              │        pmetrichttp@v1.35.0 
+│      │                 │       │              ├ [142]: go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlp
+│      │                 │       │              │        tracegrpc@v1.35.0 
+│      │                 │       │              ├ [143]: go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlp
+│      │                 │       │              │        tracehttp@v1.35.0 
+│      │                 │       │              ├ [144]: go.opentelemetry.io/otel/exporters/otlp/otlptrace@v1.3
+│      │                 │       │              │        5.0 
+│      │                 │       │              ├ [145]: go.opentelemetry.io/otel/metric@v1.36.0 
+│      │                 │       │              ├ [146]: go.opentelemetry.io/otel/sdk/metric@v1.36.0 
+│      │                 │       │              ├ [147]: go.opentelemetry.io/otel/sdk@v1.36.0 
+│      │                 │       │              ├ [148]: go.opentelemetry.io/otel/trace@v1.36.0 
+│      │                 │       │              ├ [149]: go.opentelemetry.io/otel@v1.36.0 
+│      │                 │       │              ├ [150]: go.opentelemetry.io/proto/otlp@v1.5.0 
+│      │                 │       │              ├ [151]: go.uber.org/mock@v0.6.0 
+│      │                 │       │              ├ [152]: go.yaml.in/yaml/v3@v3.0.4 
+│      │                 │       │              ├ [153]: golang.org/x/crypto@v0.38.0 
+│      │                 │       │              ├ [154]: golang.org/x/net@v0.40.0 
+│      │                 │       │              ├ [155]: golang.org/x/oauth2@v0.30.0 
+│      │                 │       │              ├ [156]: golang.org/x/sync@v0.17.0 
+│      │                 │       │              ├ [157]: golang.org/x/sys@v0.37.0 
+│      │                 │       │              ├ [158]: golang.org/x/term@v0.32.0 
+│      │                 │       │              ├ [159]: golang.org/x/text@v0.25.0 
+│      │                 │       │              ├ [160]: golang.org/x/time@v0.11.0 
+│      │                 │       │              ├ [161]: google.golang.org/genproto/googleapis/api@v0.0.0-20250
+│      │                 │       │              │        528174236-200df99c418a 
+│      │                 │       │              ├ [162]: google.golang.org/genproto/googleapis/rpc@v0.0.0-20250
+│      │                 │       │              │        528174236-200df99c418a 
+│      │                 │       │              ├ [163]: google.golang.org/grpc@v1.74.2 
+│      │                 │       │              ├ [164]: google.golang.org/protobuf@v1.36.9 
+│      │                 │       │              ├ [165]: gopkg.in/evanphx/json-patch.v4@v4.12.0 
+│      │                 │       │              ├ [166]: gopkg.in/inf.v0@v0.9.1 
+│      │                 │       │              ├ [167]: gopkg.in/ini.v1@v1.67.0 
+│      │                 │       │              ├ [168]: gopkg.in/yaml.v3@v3.0.1 
+│      │                 │       │              ├ [169]: k8s.io/api@v0.32.3 
+│      │                 │       │              ├ [170]: k8s.io/apimachinery@v0.32.3 
+│      │                 │       │              ├ [171]: k8s.io/client-go@v0.32.3 
+│      │                 │       │              ├ [172]: k8s.io/klog/v2@v2.130.1 
+│      │                 │       │              ├ [173]: k8s.io/kube-openapi@v0.0.0-20241105132330-32ad38e42d3f 
+│      │                 │       │              ├ [174]: k8s.io/utils@v0.0.0-20241104100929-3ea5e8cea738 
+│      │                 │       │              ├ [175]: sigs.k8s.io/json@v0.0.0-20241010143419-9aa6b5e7a4b3 
+│      │                 │       │              ├ [176]: sigs.k8s.io/structured-merge-diff/v4@v4.4.2 
+│      │                 │       │              ├ [177]: sigs.k8s.io/yaml@v1.4.0 
+│      │                 │       │              ├ [178]: stdlib@v1.24.9 
+│      │                 │       │              ╰ [179]: tags.cncf.io/container-device-interface@v1.0.1 
+│      │                 │       ╰ Layer        ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c
+│      │                 │                      │         8196e2aacf81e5654f 
+│      │                 │                      ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c45
+│      │                 │                                3b8e4db118f627132f 
+│      │                 ├ [1]   ╭ ID          : stdlib@v1.24.9 
+│      │                 │       ├ Name        : stdlib 
+│      │                 │       ├ Identifier   ╭ PURL: pkg:golang/stdlib@v1.24.9 
+│      │                 │       │              ╰ UID : 62b35968775d1e83 
+│      │                 │       ├ Version     : v1.24.9 
+│      │                 │       ├ Relationship: direct 
+│      │                 │       ╰ Layer        ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c
+│      │                 │                      │         8196e2aacf81e5654f 
+│      │                 │                      ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c45
+│      │                 │                                3b8e4db118f627132f 
+│      │                 ├ [2]   ╭ ID        : github.com/AlecAivazis/survey/v2@v2.3.7 
+│      │                 │       ├ Name      : github.com/AlecAivazis/survey/v2 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/alecaivazis/survey/v2@v2.3.7 
+│      │                 │       │            ╰ UID : cd40f5dc9e3fb025 
+│      │                 │       ├ Version   : v2.3.7 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [3]   ╭ ID        : github.com/DefangLabs/secret-detector@v0.0.0-20250403165618-2266
+│      │                 │       │             2109213e 
+│      │                 │       ├ Name      : github.com/DefangLabs/secret-detector 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/defanglabs/secret-detector@v0.0.0-2
+│      │                 │       │            │       0250403165618-22662109213e 
+│      │                 │       │            ╰ UID : dad8becee35d18e2 
+│      │                 │       ├ Version   : v0.0.0-20250403165618-22662109213e 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [4]   ╭ ID        : github.com/Masterminds/semver/v3@v3.4.0 
+│      │                 │       ├ Name      : github.com/Masterminds/semver/v3 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/masterminds/semver/v3@v3.4.0 
+│      │                 │       │            ╰ UID : 5cc49c320121acb1 
+│      │                 │       ├ Version   : v3.4.0 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [5]   ╭ ID        : github.com/acarl005/stripansi@v0.0.0-20180116102854-5a71ef0e047d 
+│      │                 │       ├ Name      : github.com/acarl005/stripansi 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/acarl005/stripansi@v0.0.0-201801161
+│      │                 │       │            │       02854-5a71ef0e047d 
+│      │                 │       │            ╰ UID : fb8c461fbe6c2fc1 
+│      │                 │       ├ Version   : v0.0.0-20180116102854-5a71ef0e047d 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [6]   ╭ ID        : github.com/apparentlymart/go-textseg/v15@v15.0.0 
+│      │                 │       ├ Name      : github.com/apparentlymart/go-textseg/v15 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/apparentlymart/go-textseg/v15@v15.0.0 
+│      │                 │       │            ╰ UID : 1d159684eff9777c 
+│      │                 │       ├ Version   : v15.0.0 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [7]   ╭ ID        : github.com/aws/aws-sdk-go-v2@v1.30.3 
+│      │                 │       ├ Name      : github.com/aws/aws-sdk-go-v2 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/aws/aws-sdk-go-v2@v1.30.3 
+│      │                 │       │            ╰ UID : e79eac509e1191a0 
+│      │                 │       ├ Version   : v1.30.3 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [8]   ╭ ID        : github.com/aws/aws-sdk-go-v2/config@v1.27.27 
+│      │                 │       ├ Name      : github.com/aws/aws-sdk-go-v2/config 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/aws/aws-sdk-go-v2/config@v1.27.27 
+│      │                 │       │            ╰ UID : 4220cbe595af026e 
+│      │                 │       ├ Version   : v1.27.27 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [9]   ╭ ID        : github.com/aws/aws-sdk-go-v2/credentials@v1.17.27 
+│      │                 │       ├ Name      : github.com/aws/aws-sdk-go-v2/credentials 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/aws/aws-sdk-go-v2/credentials@v1.17
+│      │                 │       │            │       .27 
+│      │                 │       │            ╰ UID : 279b024303974a64 
+│      │                 │       ├ Version   : v1.17.27 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [10]  ╭ ID        : github.com/aws/aws-sdk-go-v2/feature/ec2/imds@v1.16.11 
+│      │                 │       ├ Name      : github.com/aws/aws-sdk-go-v2/feature/ec2/imds 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/aws/aws-sdk-go-v2/feature/ec2/imds@
+│      │                 │       │            │       v1.16.11 
+│      │                 │       │            ╰ UID : 485ac30162c4ffd2 
+│      │                 │       ├ Version   : v1.16.11 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [11]  ╭ ID        : github.com/aws/aws-sdk-go-v2/internal/configsources@v1.3.15 
+│      │                 │       ├ Name      : github.com/aws/aws-sdk-go-v2/internal/configsources 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/aws/aws-sdk-go-v2/internal/configso
+│      │                 │       │            │       urces@v1.3.15 
+│      │                 │       │            ╰ UID : 21059b9e5fb68c73 
+│      │                 │       ├ Version   : v1.3.15 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [12]  ╭ ID        : github.com/aws/aws-sdk-go-v2/internal/endpoints/v2@v2.6.15 
+│      │                 │       ├ Name      : github.com/aws/aws-sdk-go-v2/internal/endpoints/v2 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/aws/aws-sdk-go-v2/internal/endpoint
+│      │                 │       │            │       s/v2@v2.6.15 
+│      │                 │       │            ╰ UID : e653503d4dc7f27 
+│      │                 │       ├ Version   : v2.6.15 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [13]  ╭ ID        : github.com/aws/aws-sdk-go-v2/internal/ini@v1.8.0 
+│      │                 │       ├ Name      : github.com/aws/aws-sdk-go-v2/internal/ini 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/aws/aws-sdk-go-v2/internal/ini@v1.8.0 
+│      │                 │       │            ╰ UID : 1d80565ac6bfdef6 
+│      │                 │       ├ Version   : v1.8.0 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [14]  ╭ ID        : github.com/aws/aws-sdk-go-v2/service/internal/accept-encoding@v1
+│      │                 │       │             .11.3 
+│      │                 │       ├ Name      : github.com/aws/aws-sdk-go-v2/service/internal/accept-encoding 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/aws/aws-sdk-go-v2/service/internal/
+│      │                 │       │            │       accept-encoding@v1.11.3 
+│      │                 │       │            ╰ UID : b5c72928603a53a2 
+│      │                 │       ├ Version   : v1.11.3 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [15]  ╭ ID        : github.com/aws/aws-sdk-go-v2/service/internal/presigned-url@v1.1
+│      │                 │       │             1.17 
+│      │                 │       ├ Name      : github.com/aws/aws-sdk-go-v2/service/internal/presigned-url 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/aws/aws-sdk-go-v2/service/internal/
+│      │                 │       │            │       presigned-url@v1.11.17 
+│      │                 │       │            ╰ UID : e72673cacb76567b 
+│      │                 │       ├ Version   : v1.11.17 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [16]  ╭ ID        : github.com/aws/aws-sdk-go-v2/service/sso@v1.22.4 
+│      │                 │       ├ Name      : github.com/aws/aws-sdk-go-v2/service/sso 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/aws/aws-sdk-go-v2/service/sso@v1.22.4 
+│      │                 │       │            ╰ UID : 43340be727d5f6df 
+│      │                 │       ├ Version   : v1.22.4 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [17]  ╭ ID        : github.com/aws/aws-sdk-go-v2/service/ssooidc@v1.26.4 
+│      │                 │       ├ Name      : github.com/aws/aws-sdk-go-v2/service/ssooidc 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/aws/aws-sdk-go-v2/service/ssooidc@v
+│      │                 │       │            │       1.26.4 
+│      │                 │       │            ╰ UID : e893dfa010ca0ca2 
+│      │                 │       ├ Version   : v1.26.4 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [18]  ╭ ID        : github.com/aws/aws-sdk-go-v2/service/sts@v1.30.3 
+│      │                 │       ├ Name      : github.com/aws/aws-sdk-go-v2/service/sts 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/aws/aws-sdk-go-v2/service/sts@v1.30.3 
+│      │                 │       │            ╰ UID : e85ec93ddd86e3c5 
+│      │                 │       ├ Version   : v1.30.3 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [19]  ╭ ID        : github.com/aws/smithy-go@v1.20.3 
+│      │                 │       ├ Name      : github.com/aws/smithy-go 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/aws/smithy-go@v1.20.3 
+│      │                 │       │            ╰ UID : 561a405108a90527 
+│      │                 │       ├ Version   : v1.20.3 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [20]  ╭ ID        : github.com/beorn7/perks@v1.0.1 
+│      │                 │       ├ Name      : github.com/beorn7/perks 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/beorn7/perks@v1.0.1 
+│      │                 │       │            ╰ UID : e96a30cfa31085a0 
+│      │                 │       ├ Version   : v1.0.1 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [21]  ╭ ID        : github.com/buger/goterm@v1.0.4 
+│      │                 │       ├ Name      : github.com/buger/goterm 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/buger/goterm@v1.0.4 
+│      │                 │       │            ╰ UID : 9359a0f421ea9164 
+│      │                 │       ├ Version   : v1.0.4 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [22]  ╭ ID        : github.com/cenkalti/backoff/v4@v4.3.0 
+│      │                 │       ├ Name      : github.com/cenkalti/backoff/v4 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/cenkalti/backoff/v4@v4.3.0 
+│      │                 │       │            ╰ UID : 29649710379465d2 
+│      │                 │       ├ Version   : v4.3.0 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [23]  ╭ ID        : github.com/cespare/xxhash/v2@v2.3.0 
+│      │                 │       ├ Name      : github.com/cespare/xxhash/v2 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/cespare/xxhash/v2@v2.3.0 
+│      │                 │       │            ╰ UID : c7ba815baec646cc 
+│      │                 │       ├ Version   : v2.3.0 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [24]  ╭ ID        : github.com/compose-spec/compose-go/v2@v2.9.1 
+│      │                 │       ├ Name      : github.com/compose-spec/compose-go/v2 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/compose-spec/compose-go/v2@v2.9.1 
+│      │                 │       │            ╰ UID : 38a2214cd94d41e0 
+│      │                 │       ├ Version   : v2.9.1 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [25]  ╭ ID        : github.com/containerd/console@v1.0.5 
+│      │                 │       ├ Name      : github.com/containerd/console 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/containerd/console@v1.0.5 
+│      │                 │       │            ╰ UID : eb7946c01bfc2a38 
+│      │                 │       ├ Version   : v1.0.5 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [26]  ╭ ID        : github.com/containerd/containerd/api@v1.9.0 
+│      │                 │       ├ Name      : github.com/containerd/containerd/api 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/containerd/containerd/api@v1.9.0 
+│      │                 │       │            ╰ UID : 1c5d38e53222b5e 
+│      │                 │       ├ Version   : v1.9.0 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [27]  ╭ ID        : github.com/containerd/containerd/v2@v2.1.4 
+│      │                 │       ├ Name      : github.com/containerd/containerd/v2 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/containerd/containerd/v2@v2.1.4 
+│      │                 │       │            ╰ UID : d7300a1b641747b7 
+│      │                 │       ├ Version   : v2.1.4 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [28]  ╭ ID        : github.com/containerd/continuity@v0.4.5 
+│      │                 │       ├ Name      : github.com/containerd/continuity 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/containerd/continuity@v0.4.5 
+│      │                 │       │            ╰ UID : afb0471762f4e60 
+│      │                 │       ├ Version   : v0.4.5 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [29]  ╭ ID        : github.com/containerd/errdefs@v1.0.0 
+│      │                 │       ├ Name      : github.com/containerd/errdefs 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/containerd/errdefs@v1.0.0 
+│      │                 │       │            ╰ UID : d33fcb161fd8372d 
+│      │                 │       ├ Version   : v1.0.0 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [30]  ╭ ID        : github.com/containerd/errdefs/pkg@v0.3.0 
+│      │                 │       ├ Name      : github.com/containerd/errdefs/pkg 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/containerd/errdefs/pkg@v0.3.0 
+│      │                 │       │            ╰ UID : 72da5f7ee2a95067 
+│      │                 │       ├ Version   : v0.3.0 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [31]  ╭ ID        : github.com/containerd/log@v0.1.0 
+│      │                 │       ├ Name      : github.com/containerd/log 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/containerd/log@v0.1.0 
+│      │                 │       │            ╰ UID : a8698d8d1eacd71e 
+│      │                 │       ├ Version   : v0.1.0 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [32]  ╭ ID        : github.com/containerd/platforms@v1.0.0-rc.1 
+│      │                 │       ├ Name      : github.com/containerd/platforms 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/containerd/platforms@v1.0.0-rc.1 
+│      │                 │       │            ╰ UID : 4296b7df02e30adc 
+│      │                 │       ├ Version   : v1.0.0-rc.1 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [33]  ╭ ID        : github.com/containerd/ttrpc@v1.2.7 
+│      │                 │       ├ Name      : github.com/containerd/ttrpc 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/containerd/ttrpc@v1.2.7 
+│      │                 │       │            ╰ UID : 24f0a69034c14bad 
+│      │                 │       ├ Version   : v1.2.7 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [34]  ╭ ID        : github.com/containerd/typeurl/v2@v2.2.3 
+│      │                 │       ├ Name      : github.com/containerd/typeurl/v2 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/containerd/typeurl/v2@v2.2.3 
+│      │                 │       │            ╰ UID : 29b3f7e4c5f80058 
+│      │                 │       ├ Version   : v2.2.3 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [35]  ╭ ID        : github.com/davecgh/go-spew@v1.1.1 
+│      │                 │       ├ Name      : github.com/davecgh/go-spew 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/davecgh/go-spew@v1.1.1 
+│      │                 │       │            ╰ UID : 1e4726e10674c32b 
+│      │                 │       ├ Version   : v1.1.1 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [36]  ╭ ID        : github.com/distribution/reference@v0.6.0 
+│      │                 │       ├ Name      : github.com/distribution/reference 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/distribution/reference@v0.6.0 
+│      │                 │       │            ╰ UID : 1cb8c96024754477 
+│      │                 │       ├ Version   : v0.6.0 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [37]  ╭ ID        : github.com/docker/buildx@v0.29.1 
+│      │                 │       ├ Name      : github.com/docker/buildx 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/docker/buildx@v0.29.1 
+│      │                 │       │            ╰ UID : f8371c6370c6a12a 
+│      │                 │       ├ Version   : v0.29.1 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [38]  ╭ ID        : github.com/docker/cli@v28.5.1+incompatible 
+│      │                 │       ├ Name      : github.com/docker/cli 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/docker/cli@v28.5.1%2Bincompatible 
+│      │                 │       │            ╰ UID : 45599e1c33cffa3b 
+│      │                 │       ├ Version   : v28.5.1+incompatible 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [39]  ╭ ID        : github.com/docker/cli-docs-tool@v0.10.0 
+│      │                 │       ├ Name      : github.com/docker/cli-docs-tool 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/docker/cli-docs-tool@v0.10.0 
+│      │                 │       │            ╰ UID : cfb42b49a621fa92 
+│      │                 │       ├ Version   : v0.10.0 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [40]  ╭ ID        : github.com/docker/distribution@v2.8.3+incompatible 
+│      │                 │       ├ Name      : github.com/docker/distribution 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/docker/distribution@v2.8.3%2Bincomp
+│      │                 │       │            │       atible 
+│      │                 │       │            ╰ UID : f2d441a20a7f3503 
+│      │                 │       ├ Version   : v2.8.3+incompatible 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [41]  ╭ ID        : github.com/docker/docker@v28.5.1+incompatible 
+│      │                 │       ├ Name      : github.com/docker/docker 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/docker/docker@v28.5.1%2Bincompatible 
+│      │                 │       │            ╰ UID : 9937c670d3bb7c47 
+│      │                 │       ├ Version   : v28.5.1+incompatible 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [42]  ╭ ID        : github.com/docker/docker-credential-helpers@v0.9.3 
+│      │                 │       ├ Name      : github.com/docker/docker-credential-helpers 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/docker/docker-credential-helpers@v0
+│      │                 │       │            │       .9.3 
+│      │                 │       │            ╰ UID : 5282d4735a6eebff 
+│      │                 │       ├ Version   : v0.9.3 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [43]  ╭ ID        : github.com/docker/go@v1.5.1-1.0.20160303222718-d30aec9fd63c 
+│      │                 │       ├ Name      : github.com/docker/go 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/docker/go@v1.5.1-1.0.20160303222718
+│      │                 │       │            │       -d30aec9fd63c 
+│      │                 │       │            ╰ UID : 7f355e1ac3df8282 
+│      │                 │       ├ Version   : v1.5.1-1.0.20160303222718-d30aec9fd63c 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [44]  ╭ ID        : github.com/docker/go-connections@v0.6.0 
+│      │                 │       ├ Name      : github.com/docker/go-connections 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/docker/go-connections@v0.6.0 
+│      │                 │       │            ╰ UID : ac54ced9c3f8d261 
+│      │                 │       ├ Version   : v0.6.0 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [45]  ╭ ID        : github.com/docker/go-metrics@v0.0.1 
+│      │                 │       ├ Name      : github.com/docker/go-metrics 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/docker/go-metrics@v0.0.1 
+│      │                 │       │            ╰ UID : 21dda4215c41a646 
+│      │                 │       ├ Version   : v0.0.1 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [46]  ╭ ID        : github.com/docker/go-units@v0.5.0 
+│      │                 │       ├ Name      : github.com/docker/go-units 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/docker/go-units@v0.5.0 
+│      │                 │       │            ╰ UID : adaa1476a00b1fe7 
+│      │                 │       ├ Version   : v0.5.0 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [47]  ╭ ID        : github.com/eiannone/keyboard@v0.0.0-20220611211555-0d226195f203 
+│      │                 │       ├ Name      : github.com/eiannone/keyboard 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/eiannone/keyboard@v0.0.0-2022061121
+│      │                 │       │            │       1555-0d226195f203 
+│      │                 │       │            ╰ UID : 6b07f9cc8f6725ce 
+│      │                 │       ├ Version   : v0.0.0-20220611211555-0d226195f203 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [48]  ╭ ID        : github.com/emicklei/go-restful/v3@v3.11.0 
+│      │                 │       ├ Name      : github.com/emicklei/go-restful/v3 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/emicklei/go-restful/v3@v3.11.0 
+│      │                 │       │            ╰ UID : 449580d66a3ffa45 
+│      │                 │       ├ Version   : v3.11.0 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [49]  ╭ ID        : github.com/felixge/httpsnoop@v1.0.4 
+│      │                 │       ├ Name      : github.com/felixge/httpsnoop 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/felixge/httpsnoop@v1.0.4 
+│      │                 │       │            ╰ UID : e8783f8c2c59db22 
+│      │                 │       ├ Version   : v1.0.4 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [50]  ╭ ID        : github.com/fvbommel/sortorder@v1.1.0 
+│      │                 │       ├ Name      : github.com/fvbommel/sortorder 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/fvbommel/sortorder@v1.1.0 
+│      │                 │       │            ╰ UID : 772c28b0a951e932 
+│      │                 │       ├ Version   : v1.1.0 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [51]  ╭ ID        : github.com/fxamacker/cbor/v2@v2.7.0 
+│      │                 │       ├ Name      : github.com/fxamacker/cbor/v2 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/fxamacker/cbor/v2@v2.7.0 
+│      │                 │       │            ╰ UID : c747598d0ad83aca 
+│      │                 │       ├ Version   : v2.7.0 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [52]  ╭ ID        : github.com/go-logr/logr@v1.4.3 
+│      │                 │       ├ Name      : github.com/go-logr/logr 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/go-logr/logr@v1.4.3 
+│      │                 │       │            ╰ UID : 2c74667b6a27c740 
+│      │                 │       ├ Version   : v1.4.3 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [53]  ╭ ID        : github.com/go-logr/stdr@v1.2.2 
+│      │                 │       ├ Name      : github.com/go-logr/stdr 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/go-logr/stdr@v1.2.2 
+│      │                 │       │            ╰ UID : 4694bf99b6854901 
+│      │                 │       ├ Version   : v1.2.2 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [54]  ╭ ID        : github.com/go-openapi/jsonpointer@v0.21.0 
+│      │                 │       ├ Name      : github.com/go-openapi/jsonpointer 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/go-openapi/jsonpointer@v0.21.0 
+│      │                 │       │            ╰ UID : 26f93d76281719d7 
+│      │                 │       ├ Version   : v0.21.0 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [55]  ╭ ID        : github.com/go-openapi/jsonreference@v0.20.2 
+│      │                 │       ├ Name      : github.com/go-openapi/jsonreference 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/go-openapi/jsonreference@v0.20.2 
+│      │                 │       │            ╰ UID : 848c331494650260 
+│      │                 │       ├ Version   : v0.20.2 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [56]  ╭ ID        : github.com/go-openapi/swag@v0.23.0 
+│      │                 │       ├ Name      : github.com/go-openapi/swag 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/go-openapi/swag@v0.23.0 
+│      │                 │       │            ╰ UID : cc753c09489e48a 
+│      │                 │       ├ Version   : v0.23.0 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [57]  ╭ ID        : github.com/go-viper/mapstructure/v2@v2.4.0 
+│      │                 │       ├ Name      : github.com/go-viper/mapstructure/v2 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/go-viper/mapstructure/v2@v2.4.0 
+│      │                 │       │            ╰ UID : 7b1135e51f127ef3 
+│      │                 │       ├ Version   : v2.4.0 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [58]  ╭ ID        : github.com/gofrs/flock@v0.12.1 
+│      │                 │       ├ Name      : github.com/gofrs/flock 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/gofrs/flock@v0.12.1 
+│      │                 │       │            ╰ UID : b89e98dc4af06955 
+│      │                 │       ├ Version   : v0.12.1 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [59]  ╭ ID        : github.com/gogo/protobuf@v1.3.2 
+│      │                 │       ├ Name      : github.com/gogo/protobuf 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/gogo/protobuf@v1.3.2 
+│      │                 │       │            ╰ UID : 9b8fdf38b445e1b1 
+│      │                 │       ├ Version   : v1.3.2 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [60]  ╭ ID        : github.com/golang-jwt/jwt/v5@v5.2.2 
+│      │                 │       ├ Name      : github.com/golang-jwt/jwt/v5 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/golang-jwt/jwt/v5@v5.2.2 
+│      │                 │       │            ╰ UID : 3887a647dda04bf5 
+│      │                 │       ├ Version   : v5.2.2 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [61]  ╭ ID        : github.com/golang/protobuf@v1.5.4 
+│      │                 │       ├ Name      : github.com/golang/protobuf 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/golang/protobuf@v1.5.4 
+│      │                 │       │            ╰ UID : e98f4889496f44c8 
+│      │                 │       ├ Version   : v1.5.4 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [62]  ╭ ID        : github.com/google/gnostic-models@v0.6.8 
+│      │                 │       ├ Name      : github.com/google/gnostic-models 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/google/gnostic-models@v0.6.8 
+│      │                 │       │            ╰ UID : efcfc01d9a1df0b6 
+│      │                 │       ├ Version   : v0.6.8 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [63]  ╭ ID        : github.com/google/go-cmp@v0.7.0 
+│      │                 │       ├ Name      : github.com/google/go-cmp 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/google/go-cmp@v0.7.0 
+│      │                 │       │            ╰ UID : 17a255b3a3256268 
+│      │                 │       ├ Version   : v0.7.0 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [64]  ╭ ID        : github.com/google/gofuzz@v1.2.0 
+│      │                 │       ├ Name      : github.com/google/gofuzz 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/google/gofuzz@v1.2.0 
+│      │                 │       │            ╰ UID : bb708a1b96f1ac6f 
+│      │                 │       ├ Version   : v1.2.0 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [65]  ╭ ID        : github.com/google/shlex@v0.0.0-20191202100458-e7afc7fbc510 
+│      │                 │       ├ Name      : github.com/google/shlex 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/google/shlex@v0.0.0-20191202100458-
+│      │                 │       │            │       e7afc7fbc510 
+│      │                 │       │            ╰ UID : c6662a900b7ac5e 
+│      │                 │       ├ Version   : v0.0.0-20191202100458-e7afc7fbc510 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [66]  ╭ ID        : github.com/google/uuid@v1.6.0 
+│      │                 │       ├ Name      : github.com/google/uuid 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/google/uuid@v1.6.0 
+│      │                 │       │            ╰ UID : 20d82114f5535d6f 
+│      │                 │       ├ Version   : v1.6.0 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [67]  ╭ ID        : github.com/gorilla/mux@v1.8.1 
+│      │                 │       ├ Name      : github.com/gorilla/mux 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/gorilla/mux@v1.8.1 
+│      │                 │       │            ╰ UID : f1aad95976c0ef21 
+│      │                 │       ├ Version   : v1.8.1 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [68]  ╭ ID        : github.com/gorilla/websocket@v1.5.0 
+│      │                 │       ├ Name      : github.com/gorilla/websocket 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/gorilla/websocket@v1.5.0 
+│      │                 │       │            ╰ UID : 1574e92cff7b491f 
+│      │                 │       ├ Version   : v1.5.0 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [69]  ╭ ID        : github.com/grpc-ecosystem/grpc-gateway/v2@v2.26.1 
+│      │                 │       ├ Name      : github.com/grpc-ecosystem/grpc-gateway/v2 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/grpc-ecosystem/grpc-gateway/v2@v2.2
+│      │                 │       │            │       6.1 
+│      │                 │       │            ╰ UID : 7207783f3dbf1b8a 
+│      │                 │       ├ Version   : v2.26.1 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [70]  ╭ ID        : github.com/hashicorp/errwrap@v1.1.0 
+│      │                 │       ├ Name      : github.com/hashicorp/errwrap 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/hashicorp/errwrap@v1.1.0 
+│      │                 │       │            ╰ UID : 2be729fe15e6d4b3 
+│      │                 │       ├ Version   : v1.1.0 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [71]  ╭ ID        : github.com/hashicorp/go-cleanhttp@v0.5.2 
+│      │                 │       ├ Name      : github.com/hashicorp/go-cleanhttp 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/hashicorp/go-cleanhttp@v0.5.2 
+│      │                 │       │            ╰ UID : 61a80f116dd770b3 
+│      │                 │       ├ Version   : v0.5.2 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [72]  ╭ ID        : github.com/hashicorp/go-multierror@v1.1.1 
+│      │                 │       ├ Name      : github.com/hashicorp/go-multierror 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/hashicorp/go-multierror@v1.1.1 
+│      │                 │       │            ╰ UID : c1b2d06de040c747 
+│      │                 │       ├ Version   : v1.1.1 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [73]  ╭ ID        : github.com/hashicorp/go-version@v1.7.0 
+│      │                 │       ├ Name      : github.com/hashicorp/go-version 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/hashicorp/go-version@v1.7.0 
+│      │                 │       │            ╰ UID : 651b8cc513ff86f3 
+│      │                 │       ├ Version   : v1.7.0 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [74]  ╭ ID        : github.com/in-toto/in-toto-golang@v0.9.0 
+│      │                 │       ├ Name      : github.com/in-toto/in-toto-golang 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/in-toto/in-toto-golang@v0.9.0 
+│      │                 │       │            ╰ UID : fca47fe8d6191101 
+│      │                 │       ├ Version   : v0.9.0 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [75]  ╭ ID        : github.com/inhies/go-bytesize@v0.0.0-20220417184213-4913239db9cf 
+│      │                 │       ├ Name      : github.com/inhies/go-bytesize 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/inhies/go-bytesize@v0.0.0-202204171
+│      │                 │       │            │       84213-4913239db9cf 
+│      │                 │       │            ╰ UID : dddc32ba0f524a57 
+│      │                 │       ├ Version   : v0.0.0-20220417184213-4913239db9cf 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [76]  ╭ ID        : github.com/jonboulle/clockwork@v0.5.0 
+│      │                 │       ├ Name      : github.com/jonboulle/clockwork 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/jonboulle/clockwork@v0.5.0 
+│      │                 │       │            ╰ UID : 21a3ef7b9bc7b6e4 
+│      │                 │       ├ Version   : v0.5.0 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [77]  ╭ ID        : github.com/josharian/intern@v1.0.0 
+│      │                 │       ├ Name      : github.com/josharian/intern 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/josharian/intern@v1.0.0 
+│      │                 │       │            ╰ UID : 350097dfedf2afe5 
+│      │                 │       ├ Version   : v1.0.0 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [78]  ╭ ID        : github.com/json-iterator/go@v1.1.12 
+│      │                 │       ├ Name      : github.com/json-iterator/go 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/json-iterator/go@v1.1.12 
+│      │                 │       │            ╰ UID : b7f6df6e75643f62 
+│      │                 │       ├ Version   : v1.1.12 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [79]  ╭ ID        : github.com/kballard/go-shellquote@v0.0.0-20180428030007-95032a82
+│      │                 │       │             bc51 
+│      │                 │       ├ Name      : github.com/kballard/go-shellquote 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/kballard/go-shellquote@v0.0.0-20180
+│      │                 │       │            │       428030007-95032a82bc51 
+│      │                 │       │            ╰ UID : c9d194f664fd1f17 
+│      │                 │       ├ Version   : v0.0.0-20180428030007-95032a82bc51 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [80]  ╭ ID        : github.com/klauspost/compress@v1.18.0 
+│      │                 │       ├ Name      : github.com/klauspost/compress 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/klauspost/compress@v1.18.0 
+│      │                 │       │            ╰ UID : f3ee94db023b872e 
+│      │                 │       ├ Version   : v1.18.0 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [81]  ╭ ID        : github.com/mailru/easyjson@v0.7.7 
+│      │                 │       ├ Name      : github.com/mailru/easyjson 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/mailru/easyjson@v0.7.7 
+│      │                 │       │            ╰ UID : bf798917e5d1439f 
+│      │                 │       ├ Version   : v0.7.7 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [82]  ╭ ID        : github.com/mattn/go-colorable@v0.1.13 
+│      │                 │       ├ Name      : github.com/mattn/go-colorable 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/mattn/go-colorable@v0.1.13 
+│      │                 │       │            ╰ UID : 8c2d4a6c0116cde6 
+│      │                 │       ├ Version   : v0.1.13 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [83]  ╭ ID        : github.com/mattn/go-isatty@v0.0.20 
+│      │                 │       ├ Name      : github.com/mattn/go-isatty 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/mattn/go-isatty@v0.0.20 
+│      │                 │       │            ╰ UID : d1e8bb19c93af58b 
+│      │                 │       ├ Version   : v0.0.20 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [84]  ╭ ID        : github.com/mattn/go-runewidth@v0.0.16 
+│      │                 │       ├ Name      : github.com/mattn/go-runewidth 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/mattn/go-runewidth@v0.0.16 
+│      │                 │       │            ╰ UID : 442357be99e4c484 
+│      │                 │       ├ Version   : v0.0.16 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [85]  ╭ ID        : github.com/mattn/go-shellwords@v1.0.12 
+│      │                 │       ├ Name      : github.com/mattn/go-shellwords 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/mattn/go-shellwords@v1.0.12 
+│      │                 │       │            ╰ UID : 5a5147bc1024a686 
+│      │                 │       ├ Version   : v1.0.12 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [86]  ╭ ID        : github.com/mgutz/ansi@v0.0.0-20170206155736-9520e82c474b 
+│      │                 │       ├ Name      : github.com/mgutz/ansi 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/mgutz/ansi@v0.0.0-20170206155736-95
+│      │                 │       │            │       20e82c474b 
+│      │                 │       │            ╰ UID : 98a6e47a76ac0f91 
+│      │                 │       ├ Version   : v0.0.0-20170206155736-9520e82c474b 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [87]  ╭ ID        : github.com/mitchellh/hashstructure/v2@v2.0.2 
+│      │                 │       ├ Name      : github.com/mitchellh/hashstructure/v2 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/mitchellh/hashstructure/v2@v2.0.2 
+│      │                 │       │            ╰ UID : ec46c472fdc47b8d 
+│      │                 │       ├ Version   : v2.0.2 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [88]  ╭ ID        : github.com/moby/buildkit@v0.25.1 
+│      │                 │       ├ Name      : github.com/moby/buildkit 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/moby/buildkit@v0.25.1 
+│      │                 │       │            ╰ UID : da883043544c952a 
+│      │                 │       ├ Version   : v0.25.1 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [89]  ╭ ID        : github.com/moby/docker-image-spec@v1.3.1 
+│      │                 │       ├ Name      : github.com/moby/docker-image-spec 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/moby/docker-image-spec@v1.3.1 
+│      │                 │       │            ╰ UID : 9d8ab6043eec161d 
+│      │                 │       ├ Version   : v1.3.1 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [90]  ╭ ID        : github.com/moby/go-archive@v0.1.0 
+│      │                 │       ├ Name      : github.com/moby/go-archive 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/moby/go-archive@v0.1.0 
+│      │                 │       │            ╰ UID : c185f439eeb2e0d0 
+│      │                 │       ├ Version   : v0.1.0 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [91]  ╭ ID        : github.com/moby/locker@v1.0.1 
+│      │                 │       ├ Name      : github.com/moby/locker 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/moby/locker@v1.0.1 
+│      │                 │       │            ╰ UID : b0d44419b29e002e 
+│      │                 │       ├ Version   : v1.0.1 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [92]  ╭ ID        : github.com/moby/patternmatcher@v0.6.0 
+│      │                 │       ├ Name      : github.com/moby/patternmatcher 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/moby/patternmatcher@v0.6.0 
+│      │                 │       │            ╰ UID : 5c333d258e7f3dc6 
+│      │                 │       ├ Version   : v0.6.0 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [93]  ╭ ID        : github.com/moby/spdystream@v0.5.0 
+│      │                 │       ├ Name      : github.com/moby/spdystream 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/moby/spdystream@v0.5.0 
+│      │                 │       │            ╰ UID : cdda1350d601ec79 
+│      │                 │       ├ Version   : v0.5.0 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [94]  ╭ ID        : github.com/moby/sys/atomicwriter@v0.1.0 
+│      │                 │       ├ Name      : github.com/moby/sys/atomicwriter 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/moby/sys/atomicwriter@v0.1.0 
+│      │                 │       │            ╰ UID : f93815c15820eaaa 
+│      │                 │       ├ Version   : v0.1.0 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [95]  ╭ ID        : github.com/moby/sys/capability@v0.4.0 
+│      │                 │       ├ Name      : github.com/moby/sys/capability 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/moby/sys/capability@v0.4.0 
+│      │                 │       │            ╰ UID : 64258909f3976352 
+│      │                 │       ├ Version   : v0.4.0 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [96]  ╭ ID        : github.com/moby/sys/mountinfo@v0.7.2 
+│      │                 │       ├ Name      : github.com/moby/sys/mountinfo 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/moby/sys/mountinfo@v0.7.2 
+│      │                 │       │            ╰ UID : e0f06bc52c5886c8 
+│      │                 │       ├ Version   : v0.7.2 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [97]  ╭ ID        : github.com/moby/sys/sequential@v0.6.0 
+│      │                 │       ├ Name      : github.com/moby/sys/sequential 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/moby/sys/sequential@v0.6.0 
+│      │                 │       │            ╰ UID : dfdcac7fca407cbe 
+│      │                 │       ├ Version   : v0.6.0 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [98]  ╭ ID        : github.com/moby/sys/signal@v0.7.1 
+│      │                 │       ├ Name      : github.com/moby/sys/signal 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/moby/sys/signal@v0.7.1 
+│      │                 │       │            ╰ UID : 72d46445da9b523 
+│      │                 │       ├ Version   : v0.7.1 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [99]  ╭ ID        : github.com/moby/sys/symlink@v0.3.0 
+│      │                 │       ├ Name      : github.com/moby/sys/symlink 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/moby/sys/symlink@v0.3.0 
+│      │                 │       │            ╰ UID : b58690d5cc6406a1 
+│      │                 │       ├ Version   : v0.3.0 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [100] ╭ ID        : github.com/moby/sys/user@v0.4.0 
+│      │                 │       ├ Name      : github.com/moby/sys/user 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/moby/sys/user@v0.4.0 
+│      │                 │       │            ╰ UID : dfecd32c1c1fd7a1 
+│      │                 │       ├ Version   : v0.4.0 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [101] ╭ ID        : github.com/moby/sys/userns@v0.1.0 
+│      │                 │       ├ Name      : github.com/moby/sys/userns 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/moby/sys/userns@v0.1.0 
+│      │                 │       │            ╰ UID : 40d6ba06284c768d 
+│      │                 │       ├ Version   : v0.1.0 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [102] ╭ ID        : github.com/moby/term@v0.5.2 
+│      │                 │       ├ Name      : github.com/moby/term 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/moby/term@v0.5.2 
+│      │                 │       │            ╰ UID : c3d3929cf0ffaff1 
+│      │                 │       ├ Version   : v0.5.2 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [103] ╭ ID        : github.com/modern-go/concurrent@v0.0.0-20180306012644-bacd9c7ef1dd 
+│      │                 │       ├ Name      : github.com/modern-go/concurrent 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/modern-go/concurrent@v0.0.0-2018030
+│      │                 │       │            │       6012644-bacd9c7ef1dd 
+│      │                 │       │            ╰ UID : e134ea19f57539e 
+│      │                 │       ├ Version   : v0.0.0-20180306012644-bacd9c7ef1dd 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [104] ╭ ID        : github.com/modern-go/reflect2@v1.0.2 
+│      │                 │       ├ Name      : github.com/modern-go/reflect2 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/modern-go/reflect2@v1.0.2 
+│      │                 │       │            ╰ UID : d08ff00347ccf3ce 
+│      │                 │       ├ Version   : v1.0.2 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [105] ╭ ID        : github.com/morikuni/aec@v1.0.0 
+│      │                 │       ├ Name      : github.com/morikuni/aec 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/morikuni/aec@v1.0.0 
+│      │                 │       │            ╰ UID : f9f5409972995ac4 
+│      │                 │       ├ Version   : v1.0.0 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [106] ╭ ID        : github.com/munnerz/goautoneg@v0.0.0-20191010083416-a7dc8b61c822 
+│      │                 │       ├ Name      : github.com/munnerz/goautoneg 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/munnerz/goautoneg@v0.0.0-2019101008
+│      │                 │       │            │       3416-a7dc8b61c822 
+│      │                 │       │            ╰ UID : cdfd3ad2f85a953d 
+│      │                 │       ├ Version   : v0.0.0-20191010083416-a7dc8b61c822 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [107] ╭ ID        : github.com/mxk/go-flowrate@v0.0.0-20140419014527-cca7078d478f 
+│      │                 │       ├ Name      : github.com/mxk/go-flowrate 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/mxk/go-flowrate@v0.0.0-201404190145
+│      │                 │       │            │       27-cca7078d478f 
+│      │                 │       │            ╰ UID : e7882f0b31fd89ae 
+│      │                 │       ├ Version   : v0.0.0-20140419014527-cca7078d478f 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [108] ╭ ID        : github.com/opencontainers/go-digest@v1.0.0 
+│      │                 │       ├ Name      : github.com/opencontainers/go-digest 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/opencontainers/go-digest@v1.0.0 
+│      │                 │       │            ╰ UID : 8a42adc57293a66f 
+│      │                 │       ├ Version   : v1.0.0 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [109] ╭ ID        : github.com/opencontainers/image-spec@v1.1.1 
+│      │                 │       ├ Name      : github.com/opencontainers/image-spec 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/opencontainers/image-spec@v1.1.1 
+│      │                 │       │            ╰ UID : 53da56f9e093888c 
+│      │                 │       ├ Version   : v1.1.1 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [110] ╭ ID        : github.com/pelletier/go-toml@v1.9.5 
+│      │                 │       ├ Name      : github.com/pelletier/go-toml 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/pelletier/go-toml@v1.9.5 
+│      │                 │       │            ╰ UID : 6c1d6667e4824a45 
+│      │                 │       ├ Version   : v1.9.5 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [111] ╭ ID        : github.com/pkg/errors@v0.9.1 
+│      │                 │       ├ Name      : github.com/pkg/errors 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/pkg/errors@v0.9.1 
+│      │                 │       │            ╰ UID : 27c739bab19ecd93 
+│      │                 │       ├ Version   : v0.9.1 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [112] ╭ ID        : github.com/planetscale/vtprotobuf@v0.6.1-0.20240319094008-0393e5
+│      │                 │       │             8bdf10 
+│      │                 │       ├ Name      : github.com/planetscale/vtprotobuf 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/planetscale/vtprotobuf@v0.6.1-0.202
+│      │                 │       │            │       40319094008-0393e58bdf10 
+│      │                 │       │            ╰ UID : 453988006903bdf0 
+│      │                 │       ├ Version   : v0.6.1-0.20240319094008-0393e58bdf10 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [113] ╭ ID        : github.com/pmezard/go-difflib@v1.0.0 
+│      │                 │       ├ Name      : github.com/pmezard/go-difflib 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/pmezard/go-difflib@v1.0.0 
+│      │                 │       │            ╰ UID : bd88d18a2af45938 
+│      │                 │       ├ Version   : v1.0.0 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [114] ╭ ID        : github.com/prometheus/client_golang@v1.22.0 
+│      │                 │       ├ Name      : github.com/prometheus/client_golang 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/prometheus/client_golang@v1.22.0 
+│      │                 │       │            ╰ UID : f12e510b8f5dca5e 
+│      │                 │       ├ Version   : v1.22.0 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [115] ╭ ID        : github.com/prometheus/client_model@v0.6.1 
+│      │                 │       ├ Name      : github.com/prometheus/client_model 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/prometheus/client_model@v0.6.1 
+│      │                 │       │            ╰ UID : 3ff068bbda293c92 
+│      │                 │       ├ Version   : v0.6.1 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [116] ╭ ID        : github.com/prometheus/common@v0.62.0 
+│      │                 │       ├ Name      : github.com/prometheus/common 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/prometheus/common@v0.62.0 
+│      │                 │       │            ╰ UID : a1c3258fad93153d 
+│      │                 │       ├ Version   : v0.62.0 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [117] ╭ ID        : github.com/prometheus/procfs@v0.15.1 
+│      │                 │       ├ Name      : github.com/prometheus/procfs 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/prometheus/procfs@v0.15.1 
+│      │                 │       │            ╰ UID : bf075b7c1d7872ba 
+│      │                 │       ├ Version   : v0.15.1 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [118] ╭ ID        : github.com/rivo/uniseg@v0.2.0 
+│      │                 │       ├ Name      : github.com/rivo/uniseg 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/rivo/uniseg@v0.2.0 
+│      │                 │       │            ╰ UID : 475d7dbd929778c3 
+│      │                 │       ├ Version   : v0.2.0 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [119] ╭ ID        : github.com/santhosh-tekuri/jsonschema/v6@v6.0.1 
+│      │                 │       ├ Name      : github.com/santhosh-tekuri/jsonschema/v6 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/santhosh-tekuri/jsonschema/v6@v6.0.1 
+│      │                 │       │            ╰ UID : bbfbc4c35699742 
+│      │                 │       ├ Version   : v6.0.1 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [120] ╭ ID        : github.com/secure-systems-lab/go-securesystemslib@v0.6.0 
+│      │                 │       ├ Name      : github.com/secure-systems-lab/go-securesystemslib 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/secure-systems-lab/go-securesystems
+│      │                 │       │            │       lib@v0.6.0 
+│      │                 │       │            ╰ UID : e71b454a98781813 
+│      │                 │       ├ Version   : v0.6.0 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [121] ╭ ID        : github.com/serialx/hashring@v0.0.0-20200727003509-22c0c7ab6b1b 
+│      │                 │       ├ Name      : github.com/serialx/hashring 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/serialx/hashring@v0.0.0-20200727003
+│      │                 │       │            │       509-22c0c7ab6b1b 
+│      │                 │       │            ╰ UID : b6e6f644cbf9933d 
+│      │                 │       ├ Version   : v0.0.0-20200727003509-22c0c7ab6b1b 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [122] ╭ ID        : github.com/shibumi/go-pathspec@v1.3.0 
+│      │                 │       ├ Name      : github.com/shibumi/go-pathspec 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/shibumi/go-pathspec@v1.3.0 
+│      │                 │       │            ╰ UID : 1443bc1335f49344 
+│      │                 │       ├ Version   : v1.3.0 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [123] ╭ ID        : github.com/sirupsen/logrus@v1.9.3 
+│      │                 │       ├ Name      : github.com/sirupsen/logrus 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/sirupsen/logrus@v1.9.3 
+│      │                 │       │            ╰ UID : 8b0f30a0b65cf11 
+│      │                 │       ├ Version   : v1.9.3 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [124] ╭ ID        : github.com/skratchdot/open-golang@v0.0.0-20200116055534-eef84239
+│      │                 │       │             7966 
+│      │                 │       ├ Name      : github.com/skratchdot/open-golang 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/skratchdot/open-golang@v0.0.0-20200
+│      │                 │       │            │       116055534-eef842397966 
+│      │                 │       │            ╰ UID : 1e2b1a6b2e720b0d 
+│      │                 │       ├ Version   : v0.0.0-20200116055534-eef842397966 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [125] ╭ ID        : github.com/spf13/cobra@v1.10.1 
+│      │                 │       ├ Name      : github.com/spf13/cobra 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/spf13/cobra@v1.10.1 
+│      │                 │       │            ╰ UID : 41ef00f206ec162b 
+│      │                 │       ├ Version   : v1.10.1 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [126] ╭ ID        : github.com/spf13/pflag@v1.0.10 
+│      │                 │       ├ Name      : github.com/spf13/pflag 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/spf13/pflag@v1.0.10 
+│      │                 │       │            ╰ UID : 5f6e289570dba819 
+│      │                 │       ├ Version   : v1.0.10 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [127] ╭ ID        : github.com/stretchr/testify@v1.11.1 
+│      │                 │       ├ Name      : github.com/stretchr/testify 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/stretchr/testify@v1.11.1 
+│      │                 │       │            ╰ UID : 485d96590279f0e5 
+│      │                 │       ├ Version   : v1.11.1 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [128] ╭ ID        : github.com/theupdateframework/notary@v0.7.0 
+│      │                 │       ├ Name      : github.com/theupdateframework/notary 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/theupdateframework/notary@v0.7.0 
+│      │                 │       │            ╰ UID : b5203d6f5a63d84d 
+│      │                 │       ├ Version   : v0.7.0 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [129] ╭ ID        : github.com/tilt-dev/fsnotify@v1.4.8-0.20220602155310-fff9c274a375 
+│      │                 │       ├ Name      : github.com/tilt-dev/fsnotify 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/tilt-dev/fsnotify@v1.4.8-0.20220602
+│      │                 │       │            │       155310-fff9c274a375 
+│      │                 │       │            ╰ UID : 6953f4a266f3884b 
+│      │                 │       ├ Version   : v1.4.8-0.20220602155310-fff9c274a375 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [130] ╭ ID        : github.com/tonistiigi/dchapes-mode@v0.0.0-20250318174251-73d941a
+│      │                 │       │             28323 
+│      │                 │       ├ Name      : github.com/tonistiigi/dchapes-mode 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/tonistiigi/dchapes-mode@v0.0.0-2025
+│      │                 │       │            │       0318174251-73d941a28323 
+│      │                 │       │            ╰ UID : aa85cea18b5a30ce 
+│      │                 │       ├ Version   : v0.0.0-20250318174251-73d941a28323 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [131] ╭ ID        : github.com/tonistiigi/fsutil@v0.0.0-20250605211040-586307ad452f 
+│      │                 │       ├ Name      : github.com/tonistiigi/fsutil 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/tonistiigi/fsutil@v0.0.0-2025060521
+│      │                 │       │            │       1040-586307ad452f 
+│      │                 │       │            ╰ UID : 5c549d17f5e7b8e9 
+│      │                 │       ├ Version   : v0.0.0-20250605211040-586307ad452f 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [132] ╭ ID        : github.com/tonistiigi/go-csvvalue@v0.0.0-20240814133006-030d3b26
+│      │                 │       │             25d0 
+│      │                 │       ├ Name      : github.com/tonistiigi/go-csvvalue 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/tonistiigi/go-csvvalue@v0.0.0-20240
+│      │                 │       │            │       814133006-030d3b2625d0 
+│      │                 │       │            ╰ UID : 71a97080d0339691 
+│      │                 │       ├ Version   : v0.0.0-20240814133006-030d3b2625d0 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [133] ╭ ID        : github.com/tonistiigi/units@v0.0.0-20180711220420-6950e57a87ea 
+│      │                 │       ├ Name      : github.com/tonistiigi/units 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/tonistiigi/units@v0.0.0-20180711220
+│      │                 │       │            │       420-6950e57a87ea 
+│      │                 │       │            ╰ UID : eb744f79ce2a37e4 
+│      │                 │       ├ Version   : v0.0.0-20180711220420-6950e57a87ea 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [134] ╭ ID        : github.com/tonistiigi/vt100@v0.0.0-20240514184818-90bafcd6abab 
+│      │                 │       ├ Name      : github.com/tonistiigi/vt100 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/tonistiigi/vt100@v0.0.0-20240514184
+│      │                 │       │            │       818-90bafcd6abab 
+│      │                 │       │            ╰ UID : 36de7cdde98285ca 
+│      │                 │       ├ Version   : v0.0.0-20240514184818-90bafcd6abab 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [135] ╭ ID        : github.com/x448/float16@v0.8.4 
+│      │                 │       ├ Name      : github.com/x448/float16 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/x448/float16@v0.8.4 
+│      │                 │       │            ╰ UID : 2ee4676831b8c78c 
+│      │                 │       ├ Version   : v0.8.4 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [136] ╭ ID        : github.com/xhit/go-str2duration/v2@v2.1.0 
+│      │                 │       ├ Name      : github.com/xhit/go-str2duration/v2 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/xhit/go-str2duration/v2@v2.1.0 
+│      │                 │       │            ╰ UID : 8341e5325ec3b555 
+│      │                 │       ├ Version   : v2.1.0 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [137] ╭ ID        : github.com/zclconf/go-cty@v1.17.0 
+│      │                 │       ├ Name      : github.com/zclconf/go-cty 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/github.com/zclconf/go-cty@v1.17.0 
+│      │                 │       │            ╰ UID : c3c8722def09f261 
+│      │                 │       ├ Version   : v1.17.0 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [138] ╭ ID        : go.opentelemetry.io/auto/sdk@v1.1.0 
+│      │                 │       ├ Name      : go.opentelemetry.io/auto/sdk 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/go.opentelemetry.io/auto/sdk@v1.1.0 
+│      │                 │       │            ╰ UID : 696e5fa262654e6f 
+│      │                 │       ├ Version   : v1.1.0 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [139] ╭ ID        : go.opentelemetry.io/contrib/instrumentation/google.golang.org/gr
+│      │                 │       │             pc/otelgrpc@v0.60.0 
+│      │                 │       ├ Name      : go.opentelemetry.io/contrib/instrumentation/google.golang.org/gr
+│      │                 │       │             pc/otelgrpc 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/go.opentelemetry.io/contrib/instrumentation/go
+│      │                 │       │            │       ogle.golang.org/grpc/otelgrpc@v0.60.0 
+│      │                 │       │            ╰ UID : 24fe540337d12604 
+│      │                 │       ├ Version   : v0.60.0 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [140] ╭ ID        : go.opentelemetry.io/contrib/instrumentation/net/http/httptrace/o
+│      │                 │       │             telhttptrace@v0.60.0 
+│      │                 │       ├ Name      : go.opentelemetry.io/contrib/instrumentation/net/http/httptrace/o
+│      │                 │       │             telhttptrace 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/go.opentelemetry.io/contrib/instrumentation/ne
+│      │                 │       │            │       t/http/httptrace/otelhttptrace@v0.60.0 
+│      │                 │       │            ╰ UID : 9a3dc24978a62626 
+│      │                 │       ├ Version   : v0.60.0 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [141] ╭ ID        : go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp@v0
+│      │                 │       │             .60.0 
+│      │                 │       ├ Name      : go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/go.opentelemetry.io/contrib/instrumentation/ne
+│      │                 │       │            │       t/http/otelhttp@v0.60.0 
+│      │                 │       │            ╰ UID : 54fef6ee8f6ac8e8 
+│      │                 │       ├ Version   : v0.60.0 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [142] ╭ ID        : go.opentelemetry.io/otel@v1.36.0 
+│      │                 │       ├ Name      : go.opentelemetry.io/otel 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/go.opentelemetry.io/otel@v1.36.0 
+│      │                 │       │            ╰ UID : fe6e3c6ed2551c88 
+│      │                 │       ├ Version   : v1.36.0 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [143] ╭ ID        : go.opentelemetry.io/otel/exporters/otlp/otlpmetric/otlpmetricgrp
+│      │                 │       │             c@v1.35.0 
+│      │                 │       ├ Name      : go.opentelemetry.io/otel/exporters/otlp/otlpmetric/otlpmetricgrpc 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/go.opentelemetry.io/otel/exporters/otlp/otlpme
+│      │                 │       │            │       tric/otlpmetricgrpc@v1.35.0 
+│      │                 │       │            ╰ UID : 5524a97de4447626 
+│      │                 │       ├ Version   : v1.35.0 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [144] ╭ ID        : go.opentelemetry.io/otel/exporters/otlp/otlpmetric/otlpmetrichtt
+│      │                 │       │             p@v1.35.0 
+│      │                 │       ├ Name      : go.opentelemetry.io/otel/exporters/otlp/otlpmetric/otlpmetrichttp 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/go.opentelemetry.io/otel/exporters/otlp/otlpme
+│      │                 │       │            │       tric/otlpmetrichttp@v1.35.0 
+│      │                 │       │            ╰ UID : eed73902b53bd39b 
+│      │                 │       ├ Version   : v1.35.0 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [145] ╭ ID        : go.opentelemetry.io/otel/exporters/otlp/otlptrace@v1.35.0 
+│      │                 │       ├ Name      : go.opentelemetry.io/otel/exporters/otlp/otlptrace 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/go.opentelemetry.io/otel/exporters/otlp/otlptr
+│      │                 │       │            │       ace@v1.35.0 
+│      │                 │       │            ╰ UID : b37e439245d6b2eb 
+│      │                 │       ├ Version   : v1.35.0 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [146] ╭ ID        : go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc@
+│      │                 │       │             v1.35.0 
+│      │                 │       ├ Name      : go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/go.opentelemetry.io/otel/exporters/otlp/otlptr
+│      │                 │       │            │       ace/otlptracegrpc@v1.35.0 
+│      │                 │       │            ╰ UID : a438ea08250165f5 
+│      │                 │       ├ Version   : v1.35.0 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [147] ╭ ID        : go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracehttp@
+│      │                 │       │             v1.35.0 
+│      │                 │       ├ Name      : go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracehttp 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/go.opentelemetry.io/otel/exporters/otlp/otlptr
+│      │                 │       │            │       ace/otlptracehttp@v1.35.0 
+│      │                 │       │            ╰ UID : 6c5705bededb7d52 
+│      │                 │       ├ Version   : v1.35.0 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [148] ╭ ID        : go.opentelemetry.io/otel/metric@v1.36.0 
+│      │                 │       ├ Name      : go.opentelemetry.io/otel/metric 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/go.opentelemetry.io/otel/metric@v1.36.0 
+│      │                 │       │            ╰ UID : 2d32cb7d102ac35 
+│      │                 │       ├ Version   : v1.36.0 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [149] ╭ ID        : go.opentelemetry.io/otel/sdk@v1.36.0 
+│      │                 │       ├ Name      : go.opentelemetry.io/otel/sdk 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/go.opentelemetry.io/otel/sdk@v1.36.0 
+│      │                 │       │            ╰ UID : a1573d508adc6076 
+│      │                 │       ├ Version   : v1.36.0 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [150] ╭ ID        : go.opentelemetry.io/otel/sdk/metric@v1.36.0 
+│      │                 │       ├ Name      : go.opentelemetry.io/otel/sdk/metric 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/go.opentelemetry.io/otel/sdk/metric@v1.36.0 
+│      │                 │       │            ╰ UID : 6441e6fc7a961e90 
+│      │                 │       ├ Version   : v1.36.0 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [151] ╭ ID        : go.opentelemetry.io/otel/trace@v1.36.0 
+│      │                 │       ├ Name      : go.opentelemetry.io/otel/trace 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/go.opentelemetry.io/otel/trace@v1.36.0 
+│      │                 │       │            ╰ UID : 15bdde101c499a8a 
+│      │                 │       ├ Version   : v1.36.0 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [152] ╭ ID        : go.opentelemetry.io/proto/otlp@v1.5.0 
+│      │                 │       ├ Name      : go.opentelemetry.io/proto/otlp 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/go.opentelemetry.io/proto/otlp@v1.5.0 
+│      │                 │       │            ╰ UID : 270bafe74945eef6 
+│      │                 │       ├ Version   : v1.5.0 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [153] ╭ ID        : go.uber.org/mock@v0.6.0 
+│      │                 │       ├ Name      : go.uber.org/mock 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/go.uber.org/mock@v0.6.0 
+│      │                 │       │            ╰ UID : e446fc618c905f3a 
+│      │                 │       ├ Version   : v0.6.0 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [154] ╭ ID        : go.yaml.in/yaml/v3@v3.0.4 
+│      │                 │       ├ Name      : go.yaml.in/yaml/v3 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/go.yaml.in/yaml/v3@v3.0.4 
+│      │                 │       │            ╰ UID : 2b0a62ef1bea0dca 
+│      │                 │       ├ Version   : v3.0.4 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [155] ╭ ID        : golang.org/x/crypto@v0.38.0 
+│      │                 │       ├ Name      : golang.org/x/crypto 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/golang.org/x/crypto@v0.38.0 
+│      │                 │       │            ╰ UID : 194e564864762cce 
+│      │                 │       ├ Version   : v0.38.0 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [156] ╭ ID        : golang.org/x/net@v0.40.0 
+│      │                 │       ├ Name      : golang.org/x/net 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/golang.org/x/net@v0.40.0 
+│      │                 │       │            ╰ UID : d9aff271c75ddc01 
+│      │                 │       ├ Version   : v0.40.0 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [157] ╭ ID        : golang.org/x/oauth2@v0.30.0 
+│      │                 │       ├ Name      : golang.org/x/oauth2 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/golang.org/x/oauth2@v0.30.0 
+│      │                 │       │            ╰ UID : 3bb68cede3b68559 
+│      │                 │       ├ Version   : v0.30.0 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [158] ╭ ID        : golang.org/x/sync@v0.17.0 
+│      │                 │       ├ Name      : golang.org/x/sync 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/golang.org/x/sync@v0.17.0 
+│      │                 │       │            ╰ UID : d3e1600872138d8e 
+│      │                 │       ├ Version   : v0.17.0 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [159] ╭ ID        : golang.org/x/sys@v0.37.0 
+│      │                 │       ├ Name      : golang.org/x/sys 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/golang.org/x/sys@v0.37.0 
+│      │                 │       │            ╰ UID : 218193132278438 
+│      │                 │       ├ Version   : v0.37.0 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [160] ╭ ID        : golang.org/x/term@v0.32.0 
+│      │                 │       ├ Name      : golang.org/x/term 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/golang.org/x/term@v0.32.0 
+│      │                 │       │            ╰ UID : 6b8c6d32c60b1820 
+│      │                 │       ├ Version   : v0.32.0 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [161] ╭ ID        : golang.org/x/text@v0.25.0 
+│      │                 │       ├ Name      : golang.org/x/text 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/golang.org/x/text@v0.25.0 
+│      │                 │       │            ╰ UID : d101522fcfb52ac8 
+│      │                 │       ├ Version   : v0.25.0 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [162] ╭ ID        : golang.org/x/time@v0.11.0 
+│      │                 │       ├ Name      : golang.org/x/time 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/golang.org/x/time@v0.11.0 
+│      │                 │       │            ╰ UID : a31f79bf9c4fa5c1 
+│      │                 │       ├ Version   : v0.11.0 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [163] ╭ ID        : google.golang.org/genproto/googleapis/api@v0.0.0-20250528174236-
+│      │                 │       │             200df99c418a 
+│      │                 │       ├ Name      : google.golang.org/genproto/googleapis/api 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/google.golang.org/genproto/googleapis/api@v0.0
+│      │                 │       │            │       .0-20250528174236-200df99c418a 
+│      │                 │       │            ╰ UID : 2216882b4c28e774 
+│      │                 │       ├ Version   : v0.0.0-20250528174236-200df99c418a 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [164] ╭ ID        : google.golang.org/genproto/googleapis/rpc@v0.0.0-20250528174236-
+│      │                 │       │             200df99c418a 
+│      │                 │       ├ Name      : google.golang.org/genproto/googleapis/rpc 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/google.golang.org/genproto/googleapis/rpc@v0.0
+│      │                 │       │            │       .0-20250528174236-200df99c418a 
+│      │                 │       │            ╰ UID : dbbb39aeb79c281a 
+│      │                 │       ├ Version   : v0.0.0-20250528174236-200df99c418a 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [165] ╭ ID        : google.golang.org/grpc@v1.74.2 
+│      │                 │       ├ Name      : google.golang.org/grpc 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/google.golang.org/grpc@v1.74.2 
+│      │                 │       │            ╰ UID : 12f331016aff1145 
+│      │                 │       ├ Version   : v1.74.2 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [166] ╭ ID        : google.golang.org/protobuf@v1.36.9 
+│      │                 │       ├ Name      : google.golang.org/protobuf 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/google.golang.org/protobuf@v1.36.9 
+│      │                 │       │            ╰ UID : 16615e7a454fd017 
+│      │                 │       ├ Version   : v1.36.9 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [167] ╭ ID        : gopkg.in/evanphx/json-patch.v4@v4.12.0 
+│      │                 │       ├ Name      : gopkg.in/evanphx/json-patch.v4 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/gopkg.in/evanphx/json-patch.v4@v4.12.0 
+│      │                 │       │            ╰ UID : 41ca8807b5992a84 
+│      │                 │       ├ Version   : v4.12.0 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [168] ╭ ID        : gopkg.in/inf.v0@v0.9.1 
+│      │                 │       ├ Name      : gopkg.in/inf.v0 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/gopkg.in/inf.v0@v0.9.1 
+│      │                 │       │            ╰ UID : 34e76ac33ecf750c 
+│      │                 │       ├ Version   : v0.9.1 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [169] ╭ ID        : gopkg.in/ini.v1@v1.67.0 
+│      │                 │       ├ Name      : gopkg.in/ini.v1 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/gopkg.in/ini.v1@v1.67.0 
+│      │                 │       │            ╰ UID : 5022e140acb1d794 
+│      │                 │       ├ Version   : v1.67.0 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [170] ╭ ID        : gopkg.in/yaml.v3@v3.0.1 
+│      │                 │       ├ Name      : gopkg.in/yaml.v3 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/gopkg.in/yaml.v3@v3.0.1 
+│      │                 │       │            ╰ UID : bead78b91f14bf57 
+│      │                 │       ├ Version   : v3.0.1 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [171] ╭ ID        : k8s.io/api@v0.32.3 
+│      │                 │       ├ Name      : k8s.io/api 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/k8s.io/api@v0.32.3 
+│      │                 │       │            ╰ UID : 612b527d02db63 
+│      │                 │       ├ Version   : v0.32.3 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [172] ╭ ID        : k8s.io/apimachinery@v0.32.3 
+│      │                 │       ├ Name      : k8s.io/apimachinery 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/k8s.io/apimachinery@v0.32.3 
+│      │                 │       │            ╰ UID : d57ed69a0cf39c58 
+│      │                 │       ├ Version   : v0.32.3 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [173] ╭ ID        : k8s.io/client-go@v0.32.3 
+│      │                 │       ├ Name      : k8s.io/client-go 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/k8s.io/client-go@v0.32.3 
+│      │                 │       │            ╰ UID : b6e1285a3b545dad 
+│      │                 │       ├ Version   : v0.32.3 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [174] ╭ ID        : k8s.io/klog/v2@v2.130.1 
+│      │                 │       ├ Name      : k8s.io/klog/v2 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/k8s.io/klog/v2@v2.130.1 
+│      │                 │       │            ╰ UID : a5a96008b894dd06 
+│      │                 │       ├ Version   : v2.130.1 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [175] ╭ ID        : k8s.io/kube-openapi@v0.0.0-20241105132330-32ad38e42d3f 
+│      │                 │       ├ Name      : k8s.io/kube-openapi 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/k8s.io/kube-openapi@v0.0.0-20241105132330-32ad
+│      │                 │       │            │       38e42d3f 
+│      │                 │       │            ╰ UID : aa368a75b754e82a 
+│      │                 │       ├ Version   : v0.0.0-20241105132330-32ad38e42d3f 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [176] ╭ ID        : k8s.io/utils@v0.0.0-20241104100929-3ea5e8cea738 
+│      │                 │       ├ Name      : k8s.io/utils 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/k8s.io/utils@v0.0.0-20241104100929-3ea5e8cea738 
+│      │                 │       │            ╰ UID : 73bffbcccfcf1bc8 
+│      │                 │       ├ Version   : v0.0.0-20241104100929-3ea5e8cea738 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [177] ╭ ID        : sigs.k8s.io/json@v0.0.0-20241010143419-9aa6b5e7a4b3 
+│      │                 │       ├ Name      : sigs.k8s.io/json 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/sigs.k8s.io/json@v0.0.0-20241010143419-9aa6b5e
+│      │                 │       │            │       7a4b3 
+│      │                 │       │            ╰ UID : fa44c1d741fcddcf 
+│      │                 │       ├ Version   : v0.0.0-20241010143419-9aa6b5e7a4b3 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [178] ╭ ID        : sigs.k8s.io/structured-merge-diff/v4@v4.4.2 
+│      │                 │       ├ Name      : sigs.k8s.io/structured-merge-diff/v4 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/sigs.k8s.io/structured-merge-diff/v4@v4.4.2 
+│      │                 │       │            ╰ UID : bc49d01bfa8a9c80 
+│      │                 │       ├ Version   : v4.4.2 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ├ [179] ╭ ID        : sigs.k8s.io/yaml@v1.4.0 
+│      │                 │       ├ Name      : sigs.k8s.io/yaml 
+│      │                 │       ├ Identifier ╭ PURL: pkg:golang/sigs.k8s.io/yaml@v1.4.0 
+│      │                 │       │            ╰ UID : 6e408d57064502b9 
+│      │                 │       ├ Version   : v1.4.0 
+│      │                 │       ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                 │                    │         96e2aacf81e5654f 
+│      │                 │                    ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                 │                              8e4db118f627132f 
+│      │                 ╰ [180] ╭ ID        : tags.cncf.io/container-device-interface@v1.0.1 
+│      │                         ├ Name      : tags.cncf.io/container-device-interface 
+│      │                         ├ Identifier ╭ PURL: pkg:golang/tags.cncf.io/container-device-interface@v1.0.1 
+│      │                         │            ╰ UID : 7af5124c947f521a 
+│      │                         ├ Version   : v1.0.1 
+│      │                         ╰ Layer      ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a2c81
+│      │                                      │         96e2aacf81e5654f 
+│      │                                      ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
+│      │                                                8e4db118f627132f 
+│      ╰ Vulnerabilities ─ [0] ╭ VulnerabilityID : CVE-2024-25621 
+│                              ├ PkgID           : github.com/containerd/containerd/v2@v2.1.4 
+│                              ├ PkgName         : github.com/containerd/containerd/v2 
+│                              ├ PkgIdentifier    ╭ PURL: pkg:golang/github.com/containerd/containerd/v2@v2.1.4 
+│                              │                  ╰ UID : d7300a1b641747b7 
+│                              ├ InstalledVersion: v2.1.4 
+│                              ├ FixedVersion    : 2.0.7, 2.1.5, 2.2.0 
+│                              ├ Status          : fixed 
+│                              ├ Layer            ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a
+│                              │                  │         2c8196e2aacf81e5654f 
+│                              │                  ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c
+│                              │                            453b8e4db118f627132f 
+│                              ├ SeveritySource  : ghsa 
+│                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-25621 
+│                              ├ DataSource       ╭ ID  : ghsa 
+│                              │                  ├ Name: GitHub Security Advisory Go 
+│                              │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+e
+│                              │                          cosystem%3Ago 
+│                              ├ Title           : containerd affected by a local privilege escalation via wide
+│                              │                    permissions on CRI directory 
+│                              ├ Description     : ### Impact
+│                              │                   
+│                              │                   An overly broad default permission vulnerability was found
+│                              │                   in containerd.
+│                              │                   - `/var/lib/containerd` was created with the permission bits
+│                              │                    0o711, while it should be created with 0o700
+│                              │                     - Allowed local users on the host to potentially access
+│                              │                   the metadata store and the content store
+│                              │                   - `/run/containerd/io.containerd.grpc.v1.cri` was created
+│                              │                   with 0o755, while it should be created with 0o700
+│                              │                   the contents of Kubernetes local volumes. The contents of
+│                              │                   volumes might include setuid binaries, which could allow a
+│                              │                   local user on the host to elevate privileges on the host.
+│                              │                   - `/run/containerd/io.containerd.sandbox.controller.v1.shim`
+│                              │                    was created with 0o711, while it should be created with
+│                              │                   0o700
+│                              │                   The directory paths may differ depending on the daemon
+│                              │                   configuration.
+│                              │                   When the `temp` directory path is specified in the daemon
+│                              │                   configuration, that directory was also created with 0o711,
+│                              │                   while it should be created with 0o700.
+│                              │                   ### Patches
+│                              │                   This bug has been fixed in the following containerd
+│                              │                   versions:
+│                              │                   * 2.2.0
+│                              │                   * 2.1.5
+│                              │                   * 2.0.7
+│                              │                   * 1.7.29
+│                              │                   Users should update to these versions to resolve the issue.
+│                              │                   These updates automatically change the permissions of the
+│                              │                   existing directories.
+│                              │                   > [!NOTE]
+│                              │                   >
+│                              │                   > `/run/containerd` and
+│                              │                   `/run/containerd/io.containerd.runtime.v2.task` are still
+│                              │                   created with 0o711.
+│                              │                   > This is an expected behavior for supporting
+│                              │                   userns-remapped containers.
+│                              │                   ### Workarounds
+│                              │                   The system administrator on the host can manually chmod the
+│                              │                   directories to not 
+│                              │                   have group or world accessible permisisons:
+│                              │                   ```
+│                              │                   chmod 700 /var/lib/containerd
+│                              │                   chmod 700 /run/containerd/io.containerd.grpc.v1.cri
+│                              │                   chmod 700
+│                              │                   /run/containerd/io.containerd.sandbox.controller.v1.shim
+│                              │                   An alternative mitigation would be to run containerd in
+│                              │                   [rootless
+│                              │                   mode](https://github.com/containerd/containerd/blob/main/doc
+│                              │                   s/rootless.md).
+│                              │                   ### Credits
+│                              │                   The containerd project would like to thank David Leadbeater
+│                              │                   for responsibly disclosing this issue in accordance with the
+│                              │                    [containerd security
+│                              │                   policy](https://github.com/containerd/project/blob/main/SECU
+│                              │                   RITY.md).
+│                              │                   ### For more information
+│                              │                   If you have any questions or comments about this advisory:
+│                              │                   * Open an issue in
+│                              │                   [containerd](https://github.com/containerd/containerd/issues
+│                              │                   /new/choose)
+│                              │                   * Email us at
+│                              │                   [security@containerd.io](mailto:security@containerd.io)
+│                              │                   To report a security issue in containerd:
+│                              │                   * [Report a new
+│                              │                   vulnerability](https://github.com/containerd/containerd/secu
+│                              │                   rity/advisories/new) 
+│                              ├ Severity        : HIGH 
+│                              ├ VendorSeverity   ─ ghsa: 3 
+│                              ├ CVSS             ─ ghsa ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H 
+│                              │                         ╰ V3Score : 7.3 
+│                              ╰ References       ╭ [0]: https://github.com/containerd/containerd 
+│                                                 ├ [1]: https://github.com/containerd/containerd/commit/7c59e8
+│                                                 │      e9e970d38061a77b586b23655c352bfec5 
+│                                                 ╰ [2]: https://github.com/containerd/containerd/security/advi
+│                                                        sories/GHSA-pwhc-rpq9-4c8w 
 ├ [5]  ╭ Target         : usr/bin/helm 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : gobinary 
@@ -31734,361 +31956,508 @@
 │      │                                      │         96e2aacf81e5654f 
 │      │                                      ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
 │      │                                                8e4db118f627132f 
-│      ╰ Vulnerabilities ╭ [0] ╭ VulnerabilityID : CVE-2025-47912 
-│                        │     ├ PkgID           : stdlib@v1.24.7 
-│                        │     ├ PkgName         : stdlib 
-│                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.24.7 
-│                        │     │                  ╰ UID : dab6465cb6be340c 
-│                        │     ├ InstalledVersion: v1.24.7 
-│                        │     ├ FixedVersion    : 1.24.8, 1.25.2 
-│                        │     ├ Status          : fixed 
-│                        │     ├ Layer            ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a
-│                        │     │                  │         2c8196e2aacf81e5654f 
-│                        │     │                  ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c
-│                        │     │                            453b8e4db118f627132f 
-│                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-47912 
-│                        │     ├ DataSource       ╭ ID  : govulndb 
-│                        │     │                  ├ Name: The Go Vulnerability Database 
-│                        │     │                  ╰ URL : https://pkg.go.dev/vuln/ 
-│                        │     ├ Title           : The Parse function permits values other than IPv6 addresses
-│                        │     │                   to be incl ... 
-│                        │     ├ Description     : The Parse function permits values other than IPv6 addresses
-│                        │     │                   to be included in square brackets within the host component
-│                        │     │                   of a URL. RFC 3986 permits IPv6 addresses to be included
-│                        │     │                   within the host component, enclosed within square brackets.
-│                        │     │                   For example: "http://[::1]/". IPv4 addresses and hostnames
-│                        │     │                   must not appear within square brackets. Parse did not
-│                        │     │                   enforce this requirement. 
-│                        │     ├ Severity        : HIGH 
-│                        │     ├ VendorSeverity   ─ amazon: 3 
-│                        │     ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/10/08/1 
-│                        │     │                  ├ [1]: https://go.dev/cl/709857 
-│                        │     │                  ├ [2]: https://go.dev/issue/75678 
-│                        │     │                  ├ [3]: https://groups.google.com/g/golang-announce/c/4Emdl2iQ
-│                        │     │                  │      _bI 
-│                        │     │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2025-4010 
-│                        │     ├ PublishedDate   : 2025-10-29T23:16:18.187Z 
-│                        │     ╰ LastModifiedDate: 2025-11-04T22:16:16.497Z 
-│                        ├ [1] ╭ VulnerabilityID : CVE-2025-58183 
-│                        │     ├ PkgID           : stdlib@v1.24.7 
-│                        │     ├ PkgName         : stdlib 
-│                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.24.7 
-│                        │     │                  ╰ UID : dab6465cb6be340c 
-│                        │     ├ InstalledVersion: v1.24.7 
-│                        │     ├ FixedVersion    : 1.24.8, 1.25.2 
-│                        │     ├ Status          : fixed 
-│                        │     ├ Layer            ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a
-│                        │     │                  │         2c8196e2aacf81e5654f 
-│                        │     │                  ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c
-│                        │     │                            453b8e4db118f627132f 
-│                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-58183 
-│                        │     ├ DataSource       ╭ ID  : govulndb 
-│                        │     │                  ├ Name: The Go Vulnerability Database 
-│                        │     │                  ╰ URL : https://pkg.go.dev/vuln/ 
-│                        │     ├ Title           : tar.Reader does not set a maximum size on the number of
-│                        │     │                   sparse region  ... 
-│                        │     ├ Description     : tar.Reader does not set a maximum size on the number of
-│                        │     │                   sparse region data blocks in GNU tar pax 1.0 sparse files. A
-│                        │     │                    maliciously-crafted archive containing a large number of
-│                        │     │                   sparse regions can cause a Reader to read an unbounded
-│                        │     │                   amount of data from the archive into memory. When reading
-│                        │     │                   from a compressed source, a small compressed input can
-│                        │     │                   result in large allocations. 
-│                        │     ├ Severity        : HIGH 
-│                        │     ├ VendorSeverity   ─ amazon: 3 
-│                        │     ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/10/08/1 
-│                        │     │                  ├ [1]: https://go.dev/cl/709861 
-│                        │     │                  ├ [2]: https://go.dev/issue/75677 
-│                        │     │                  ├ [3]: https://groups.google.com/g/golang-announce/c/4Emdl2iQ
-│                        │     │                  │      _bI 
-│                        │     │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2025-4014 
-│                        │     ├ PublishedDate   : 2025-10-29T23:16:19.357Z 
-│                        │     ╰ LastModifiedDate: 2025-11-04T22:16:33.2Z 
-│                        ├ [2] ╭ VulnerabilityID : CVE-2025-58186 
-│                        │     ├ PkgID           : stdlib@v1.24.7 
-│                        │     ├ PkgName         : stdlib 
-│                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.24.7 
-│                        │     │                  ╰ UID : dab6465cb6be340c 
-│                        │     ├ InstalledVersion: v1.24.7 
-│                        │     ├ FixedVersion    : 1.24.8, 1.25.2 
-│                        │     ├ Status          : fixed 
-│                        │     ├ Layer            ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a
-│                        │     │                  │         2c8196e2aacf81e5654f 
-│                        │     │                  ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c
-│                        │     │                            453b8e4db118f627132f 
-│                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-58186 
-│                        │     ├ DataSource       ╭ ID  : govulndb 
-│                        │     │                  ├ Name: The Go Vulnerability Database 
-│                        │     │                  ╰ URL : https://pkg.go.dev/vuln/ 
-│                        │     ├ Title           : Despite HTTP headers having a default limit of 1MB, the
-│                        │     │                   number of cook ... 
-│                        │     ├ Description     : Despite HTTP headers having a default limit of 1MB, the
-│                        │     │                   number of cookies that can be parsed does not have a limit.
-│                        │     │                   By sending a lot of very small cookies such as "a=;", an
-│                        │     │                   attacker can make an HTTP server allocate a large amount of
-│                        │     │                   structs, causing large memory consumption. 
-│                        │     ├ Severity        : HIGH 
-│                        │     ├ VendorSeverity   ─ amazon: 3 
-│                        │     ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/10/08/1 
-│                        │     │                  ├ [1]: https://go.dev/cl/709855 
-│                        │     │                  ├ [2]: https://go.dev/issue/75672 
-│                        │     │                  ├ [3]: https://groups.google.com/g/golang-announce/c/4Emdl2iQ
-│                        │     │                  │      _bI 
-│                        │     │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2025-4012 
-│                        │     ├ PublishedDate   : 2025-10-29T23:16:19.547Z 
-│                        │     ╰ LastModifiedDate: 2025-11-04T22:16:33.45Z 
-│                        ├ [3] ╭ VulnerabilityID : CVE-2025-58187 
-│                        │     ├ PkgID           : stdlib@v1.24.7 
-│                        │     ├ PkgName         : stdlib 
-│                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.24.7 
-│                        │     │                  ╰ UID : dab6465cb6be340c 
-│                        │     ├ InstalledVersion: v1.24.7 
-│                        │     ├ FixedVersion    : 1.24.9, 1.25.3 
-│                        │     ├ Status          : fixed 
-│                        │     ├ Layer            ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a
-│                        │     │                  │         2c8196e2aacf81e5654f 
-│                        │     │                  ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c
-│                        │     │                            453b8e4db118f627132f 
-│                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-58187 
-│                        │     ├ DataSource       ╭ ID  : govulndb 
-│                        │     │                  ├ Name: The Go Vulnerability Database 
-│                        │     │                  ╰ URL : https://pkg.go.dev/vuln/ 
-│                        │     ├ Title           : Due to the design of the name constraint checking algorithm,
-│                        │     │                    the proce ... 
-│                        │     ├ Description     : Due to the design of the name constraint checking algorithm,
-│                        │     │                    the processing time of some inputs scals non-linearly with
-│                        │     │                   respect to the size of the certificate. This affects
-│                        │     │                   programs which validate arbitrary certificate chains. 
-│                        │     ├ Severity        : HIGH 
-│                        │     ├ VendorSeverity   ─ amazon: 3 
-│                        │     ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/10/08/1 
-│                        │     │                  ├ [1]: https://go.dev/cl/709854 
-│                        │     │                  ├ [2]: https://go.dev/issue/75681 
-│                        │     │                  ├ [3]: https://groups.google.com/g/golang-announce/c/4Emdl2iQ
-│                        │     │                  │      _bI 
-│                        │     │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2025-4007 
-│                        │     ├ PublishedDate   : 2025-10-29T23:16:19.643Z 
-│                        │     ╰ LastModifiedDate: 2025-11-04T22:16:33.593Z 
-│                        ├ [4] ╭ VulnerabilityID : CVE-2025-58188 
-│                        │     ├ PkgID           : stdlib@v1.24.7 
-│                        │     ├ PkgName         : stdlib 
-│                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.24.7 
-│                        │     │                  ╰ UID : dab6465cb6be340c 
-│                        │     ├ InstalledVersion: v1.24.7 
-│                        │     ├ FixedVersion    : 1.24.8, 1.25.2 
-│                        │     ├ Status          : fixed 
-│                        │     ├ Layer            ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a
-│                        │     │                  │         2c8196e2aacf81e5654f 
-│                        │     │                  ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c
-│                        │     │                            453b8e4db118f627132f 
-│                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-58188 
-│                        │     ├ DataSource       ╭ ID  : govulndb 
-│                        │     │                  ├ Name: The Go Vulnerability Database 
-│                        │     │                  ╰ URL : https://pkg.go.dev/vuln/ 
-│                        │     ├ Title           : Validating certificate chains which contain DSA public keys
-│                        │     │                   can cause  ... 
-│                        │     ├ Description     : Validating certificate chains which contain DSA public keys
-│                        │     │                   can cause programs to panic, due to a interface cast that
-│                        │     │                   assumes they implement the Equal method. This affects
-│                        │     │                   programs which validate arbitrary certificate chains. 
-│                        │     ├ Severity        : HIGH 
-│                        │     ├ VendorSeverity   ─ amazon: 3 
-│                        │     ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/10/08/1 
-│                        │     │                  ├ [1]: https://go.dev/cl/709853 
-│                        │     │                  ├ [2]: https://go.dev/issue/75675 
-│                        │     │                  ├ [3]: https://groups.google.com/g/golang-announce/c/4Emdl2iQ
-│                        │     │                  │      _bI 
-│                        │     │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2025-4013 
-│                        │     ├ PublishedDate   : 2025-10-29T23:16:19.74Z 
-│                        │     ╰ LastModifiedDate: 2025-11-04T22:16:33.74Z 
-│                        ├ [5] ╭ VulnerabilityID : CVE-2025-61724 
-│                        │     ├ PkgID           : stdlib@v1.24.7 
-│                        │     ├ PkgName         : stdlib 
-│                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.24.7 
-│                        │     │                  ╰ UID : dab6465cb6be340c 
-│                        │     ├ InstalledVersion: v1.24.7 
-│                        │     ├ FixedVersion    : 1.24.8, 1.25.2 
-│                        │     ├ Status          : fixed 
-│                        │     ├ Layer            ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a
-│                        │     │                  │         2c8196e2aacf81e5654f 
-│                        │     │                  ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c
-│                        │     │                            453b8e4db118f627132f 
-│                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-61724 
-│                        │     ├ DataSource       ╭ ID  : govulndb 
-│                        │     │                  ├ Name: The Go Vulnerability Database 
-│                        │     │                  ╰ URL : https://pkg.go.dev/vuln/ 
-│                        │     ├ Title           : The Reader.ReadResponse function constructs a response
-│                        │     │                   string through  ... 
-│                        │     ├ Description     : The Reader.ReadResponse function constructs a response
-│                        │     │                   string through repeated string concatenation of lines. When
-│                        │     │                   the number of lines in a response is large, this can cause
-│                        │     │                   excessive CPU consumption. 
-│                        │     ├ Severity        : HIGH 
-│                        │     ├ VendorSeverity   ─ amazon: 3 
-│                        │     ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/10/08/1 
-│                        │     │                  ├ [1]: https://go.dev/cl/709859 
-│                        │     │                  ├ [2]: https://go.dev/issue/75716 
-│                        │     │                  ├ [3]: https://groups.google.com/g/golang-announce/c/4Emdl2iQ
-│                        │     │                  │      _bI 
-│                        │     │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2025-4015 
-│                        │     ├ PublishedDate   : 2025-10-29T23:16:20.02Z 
-│                        │     ╰ LastModifiedDate: 2025-11-04T22:16:36.567Z 
-│                        ├ [6] ╭ VulnerabilityID : CVE-2025-58185 
-│                        │     ├ PkgID           : stdlib@v1.24.7 
-│                        │     ├ PkgName         : stdlib 
-│                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.24.7 
-│                        │     │                  ╰ UID : dab6465cb6be340c 
-│                        │     ├ InstalledVersion: v1.24.7 
-│                        │     ├ FixedVersion    : 1.24.8, 1.25.2 
-│                        │     ├ Status          : fixed 
-│                        │     ├ Layer            ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a
-│                        │     │                  │         2c8196e2aacf81e5654f 
-│                        │     │                  ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c
-│                        │     │                            453b8e4db118f627132f 
-│                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-58185 
-│                        │     ├ DataSource       ╭ ID  : govulndb 
-│                        │     │                  ├ Name: The Go Vulnerability Database 
-│                        │     │                  ╰ URL : https://pkg.go.dev/vuln/ 
-│                        │     ├ Title           : encoding/asn1: Parsing DER payload can cause memory
-│                        │     │                   exhaustion in encoding/asn1 
-│                        │     ├ Description     : Parsing a maliciously crafted DER payload could allocate
-│                        │     │                   large amounts of memory, causing memory exhaustion. 
-│                        │     ├ Severity        : MEDIUM 
-│                        │     ├ VendorSeverity   ╭ amazon: 3 
-│                        │     │                  ╰ redhat: 2 
-│                        │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
-│                        │     │                           │           /A:L 
-│                        │     │                           ╰ V3Score : 5.3 
-│                        │     ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/10/08/1 
-│                        │     │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-58185 
-│                        │     │                  ├ [2]: https://github.com/golang/go/commit/8709a41d5ef7321f48
-│                        │     │                  │      6a1857f189c3fee20e8edd 
-│                        │     │                  ├ [3]: https://go.dev/cl/709856 
-│                        │     │                  ├ [4]: https://go.dev/issue/75671 
-│                        │     │                  ├ [5]: https://groups.google.com/g/golang-announce/c/4Emdl2iQ
-│                        │     │                  │      _bI 
-│                        │     │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2025-58185 
-│                        │     │                  ├ [7]: https://pkg.go.dev/vuln/GO-2025-4011 
-│                        │     │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2025-58185 
-│                        │     ├ PublishedDate   : 2025-10-29T23:16:19.45Z 
-│                        │     ╰ LastModifiedDate: 2025-11-04T22:16:33.327Z 
-│                        ├ [7] ╭ VulnerabilityID : CVE-2025-58189 
-│                        │     ├ PkgID           : stdlib@v1.24.7 
-│                        │     ├ PkgName         : stdlib 
-│                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.24.7 
-│                        │     │                  ╰ UID : dab6465cb6be340c 
-│                        │     ├ InstalledVersion: v1.24.7 
-│                        │     ├ FixedVersion    : 1.24.8, 1.25.2 
-│                        │     ├ Status          : fixed 
-│                        │     ├ Layer            ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a
-│                        │     │                  │         2c8196e2aacf81e5654f 
-│                        │     │                  ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c
-│                        │     │                            453b8e4db118f627132f 
-│                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-58189 
-│                        │     ├ DataSource       ╭ ID  : govulndb 
-│                        │     │                  ├ Name: The Go Vulnerability Database 
-│                        │     │                  ╰ URL : https://pkg.go.dev/vuln/ 
-│                        │     ├ Title           : crypto/tls: go crypto/tls ALPN negotiation error contains
-│                        │     │                   attacker controlled information 
-│                        │     ├ Description     : When Conn.Handshake fails during ALPN negotiation the error
-│                        │     │                   contains attacker controlled information (the ALPN protocols
-│                        │     │                    sent by the client) which is not escaped. 
-│                        │     ├ Severity        : MEDIUM 
-│                        │     ├ VendorSeverity   ╭ amazon: 3 
-│                        │     │                  ╰ redhat: 2 
-│                        │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L
-│                        │     │                           │           /A:N 
-│                        │     │                           ╰ V3Score : 5.3 
-│                        │     ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/10/08/1 
-│                        │     │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-58189 
-│                        │     │                  ├ [2]: https://go.dev/cl/707776 
-│                        │     │                  ├ [3]: https://go.dev/issue/75652 
-│                        │     │                  ├ [4]: https://groups.google.com/g/golang-announce/c/4Emdl2iQ
-│                        │     │                  │      _bI 
-│                        │     │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-58189 
-│                        │     │                  ├ [6]: https://pkg.go.dev/vuln/GO-2025-4008 
-│                        │     │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-58189 
-│                        │     ├ PublishedDate   : 2025-10-29T23:16:19.833Z 
-│                        │     ╰ LastModifiedDate: 2025-11-04T22:16:33.877Z 
-│                        ├ [8] ╭ VulnerabilityID : CVE-2025-61723 
-│                        │     ├ PkgID           : stdlib@v1.24.7 
-│                        │     ├ PkgName         : stdlib 
-│                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.24.7 
-│                        │     │                  ╰ UID : dab6465cb6be340c 
-│                        │     ├ InstalledVersion: v1.24.7 
-│                        │     ├ FixedVersion    : 1.24.8, 1.25.2 
-│                        │     ├ Status          : fixed 
-│                        │     ├ Layer            ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a
-│                        │     │                  │         2c8196e2aacf81e5654f 
-│                        │     │                  ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c
-│                        │     │                            453b8e4db118f627132f 
-│                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-61723 
-│                        │     ├ DataSource       ╭ ID  : govulndb 
-│                        │     │                  ├ Name: The Go Vulnerability Database 
-│                        │     │                  ╰ URL : https://pkg.go.dev/vuln/ 
-│                        │     ├ Title           : encoding/pem: Quadratic complexity when parsing some invalid
-│                        │     │                    inputs in encoding/pem 
-│                        │     ├ Description     : The processing time for parsing some invalid inputs scales
-│                        │     │                   non-linearly with respect to the size of the input. This
-│                        │     │                   affects programs which parse untrusted PEM inputs. 
-│                        │     ├ Severity        : MEDIUM 
-│                        │     ├ VendorSeverity   ╭ amazon: 3 
-│                        │     │                  ╰ redhat: 2 
-│                        │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
-│                        │     │                           │           /A:L 
-│                        │     │                           ╰ V3Score : 5.3 
-│                        │     ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/10/08/1 
-│                        │     │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-61723 
-│                        │     │                  ├ [2]: https://github.com/golang/go/commit/5ce8cd16f3859ec5ac
-│                        │     │                  │      4106ad8ec15d6236f4501b 
-│                        │     │                  ├ [3]: https://go.dev/cl/709858 
-│                        │     │                  ├ [4]: https://go.dev/issue/75676 
-│                        │     │                  ├ [5]: https://groups.google.com/g/golang-announce/c/4Emdl2iQ
-│                        │     │                  │      _bI 
-│                        │     │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2025-61723 
-│                        │     │                  ├ [7]: https://pkg.go.dev/vuln/GO-2025-4009 
-│                        │     │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2025-61723 
-│                        │     ├ PublishedDate   : 2025-10-29T23:16:19.927Z 
-│                        │     ╰ LastModifiedDate: 2025-11-04T22:16:36.42Z 
-│                        ╰ [9] ╭ VulnerabilityID : CVE-2025-61725 
-│                              ├ PkgID           : stdlib@v1.24.7 
-│                              ├ PkgName         : stdlib 
-│                              ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.24.7 
-│                              │                  ╰ UID : dab6465cb6be340c 
-│                              ├ InstalledVersion: v1.24.7 
-│                              ├ FixedVersion    : 1.24.8, 1.25.2 
-│                              ├ Status          : fixed 
-│                              ├ Layer            ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9a
-│                              │                  │         2c8196e2aacf81e5654f 
-│                              │                  ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c
-│                              │                            453b8e4db118f627132f 
-│                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-61725 
-│                              ├ DataSource       ╭ ID  : govulndb 
-│                              │                  ├ Name: The Go Vulnerability Database 
-│                              │                  ╰ URL : https://pkg.go.dev/vuln/ 
-│                              ├ Title           : net/mail: Excessive CPU consumption in ParseAddress in
-│                              │                   net/mail 
-│                              ├ Description     : The ParseAddress function constructeds domain-literal
-│                              │                   address components through repeated string concatenation.
-│                              │                   When parsing large domain-literal components, this can cause
-│                              │                    excessive CPU consumption. 
-│                              ├ Severity        : MEDIUM 
-│                              ├ VendorSeverity   ╭ amazon: 3 
-│                              │                  ╰ redhat: 2 
-│                              ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
-│                              │                           │           /A:L 
-│                              │                           ╰ V3Score : 5.3 
-│                              ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/10/08/1 
-│                              │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-61725 
-│                              │                  ├ [2]: https://go.dev/cl/709860 
-│                              │                  ├ [3]: https://go.dev/issue/75680 
-│                              │                  ├ [4]: https://groups.google.com/g/golang-announce/c/4Emdl2iQ
-│                              │                  │      _bI 
-│                              │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-61725 
-│                              │                  ├ [6]: https://pkg.go.dev/vuln/GO-2025-4006 
-│                              │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-61725 
-│                              ├ PublishedDate   : 2025-10-29T23:16:20.113Z 
-│                              ╰ LastModifiedDate: 2025-11-04T22:16:36.693Z 
+│      ╰ Vulnerabilities ╭ [0]  ╭ VulnerabilityID : CVE-2024-25621 
+│                        │      ├ PkgID           : github.com/containerd/containerd@v1.7.28 
+│                        │      ├ PkgName         : github.com/containerd/containerd 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/github.com/containerd/containerd@v1.7.28 
+│                        │      │                  ╰ UID : b31f00fc0a8ae24b 
+│                        │      ├ InstalledVersion: v1.7.28 
+│                        │      ├ FixedVersion    : 1.7.29 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9
+│                        │      │                  │         a2c8196e2aacf81e5654f 
+│                        │      │                  ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18
+│                        │      │                            c453b8e4db118f627132f 
+│                        │      ├ SeveritySource  : ghsa 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-25621 
+│                        │      ├ DataSource       ╭ ID  : ghsa 
+│                        │      │                  ├ Name: GitHub Security Advisory Go 
+│                        │      │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+
+│                        │      │                          ecosystem%3Ago 
+│                        │      ├ Title           : containerd affected by a local privilege escalation via
+│                        │      │                   wide permissions on CRI directory 
+│                        │      ├ Description     : ### Impact
+│                        │      │                   
+│                        │      │                   An overly broad default permission vulnerability was found
+│                        │      │                   in containerd.
+│                        │      │                   - `/var/lib/containerd` was created with the permission
+│                        │      │                   bits 0o711, while it should be created with 0o700
+│                        │      │                     - Allowed local users on the host to potentially access
+│                        │      │                   the metadata store and the content store
+│                        │      │                   - `/run/containerd/io.containerd.grpc.v1.cri` was created
+│                        │      │                   with 0o755, while it should be created with 0o700
+│                        │      │                   the contents of Kubernetes local volumes. The contents of
+│                        │      │                   volumes might include setuid binaries, which could allow a
+│                        │      │                   local user on the host to elevate privileges on the host.
+│                        │      │                   -
+│                        │      │                   `/run/containerd/io.containerd.sandbox.controller.v1.shim`
+│                        │      │                   was created with 0o711, while it should be created with
+│                        │      │                   0o700
+│                        │      │                   The directory paths may differ depending on the daemon
+│                        │      │                   configuration.
+│                        │      │                   When the `temp` directory path is specified in the daemon
+│                        │      │                   configuration, that directory was also created with 0o711,
+│                        │      │                   while it should be created with 0o700.
+│                        │      │                   ### Patches
+│                        │      │                   This bug has been fixed in the following containerd
+│                        │      │                   versions:
+│                        │      │                   * 2.2.0
+│                        │      │                   * 2.1.5
+│                        │      │                   * 2.0.7
+│                        │      │                   * 1.7.29
+│                        │      │                   Users should update to these versions to resolve the
+│                        │      │                   issue.
+│                        │      │                   These updates automatically change the permissions of the
+│                        │      │                   existing directories.
+│                        │      │                   > [!NOTE]
+│                        │      │                   >
+│                        │      │                   > `/run/containerd` and
+│                        │      │                   `/run/containerd/io.containerd.runtime.v2.task` are still
+│                        │      │                   created with 0o711.
+│                        │      │                   > This is an expected behavior for supporting
+│                        │      │                   userns-remapped containers.
+│                        │      │                   ### Workarounds
+│                        │      │                   The system administrator on the host can manually chmod the
+│                        │      │                    directories to not 
+│                        │      │                   have group or world accessible permisisons:
+│                        │      │                   ```
+│                        │      │                   chmod 700 /var/lib/containerd
+│                        │      │                   chmod 700 /run/containerd/io.containerd.grpc.v1.cri
+│                        │      │                   chmod 700
+│                        │      │                   /run/containerd/io.containerd.sandbox.controller.v1.shim
+│                        │      │                   An alternative mitigation would be to run containerd in
+│                        │      │                   [rootless
+│                        │      │                   mode](https://github.com/containerd/containerd/blob/main/do
+│                        │      │                   cs/rootless.md).
+│                        │      │                   ### Credits
+│                        │      │                   The containerd project would like to thank David Leadbeater
+│                        │      │                    for responsibly disclosing this issue in accordance with
+│                        │      │                   the [containerd security
+│                        │      │                   policy](https://github.com/containerd/project/blob/main/SEC
+│                        │      │                   URITY.md).
+│                        │      │                   ### For more information
+│                        │      │                   If you have any questions or comments about this advisory:
+│                        │      │                   * Open an issue in
+│                        │      │                   [containerd](https://github.com/containerd/containerd/issue
+│                        │      │                   s/new/choose)
+│                        │      │                   * Email us at
+│                        │      │                   [security@containerd.io](mailto:security@containerd.io)
+│                        │      │                   To report a security issue in containerd:
+│                        │      │                   * [Report a new
+│                        │      │                   vulnerability](https://github.com/containerd/containerd/sec
+│                        │      │                   urity/advisories/new) 
+│                        │      ├ Severity        : HIGH 
+│                        │      ├ VendorSeverity   ─ ghsa: 3 
+│                        │      ├ CVSS             ─ ghsa ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/
+│                        │      │                         │           A:H 
+│                        │      │                         ╰ V3Score : 7.3 
+│                        │      ╰ References       ╭ [0]: https://github.com/containerd/containerd 
+│                        │                         ├ [1]: https://github.com/containerd/containerd/commit/7c59e
+│                        │                         │      8e9e970d38061a77b586b23655c352bfec5 
+│                        │                         ╰ [2]: https://github.com/containerd/containerd/security/adv
+│                        │                                isories/GHSA-pwhc-rpq9-4c8w 
+│                        ├ [1]  ╭ VulnerabilityID : CVE-2025-47912 
+│                        │      ├ PkgID           : stdlib@v1.24.7 
+│                        │      ├ PkgName         : stdlib 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.24.7 
+│                        │      │                  ╰ UID : dab6465cb6be340c 
+│                        │      ├ InstalledVersion: v1.24.7 
+│                        │      ├ FixedVersion    : 1.24.8, 1.25.2 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9
+│                        │      │                  │         a2c8196e2aacf81e5654f 
+│                        │      │                  ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18
+│                        │      │                            c453b8e4db118f627132f 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-47912 
+│                        │      ├ DataSource       ╭ ID  : govulndb 
+│                        │      │                  ├ Name: The Go Vulnerability Database 
+│                        │      │                  ╰ URL : https://pkg.go.dev/vuln/ 
+│                        │      ├ Title           : The Parse function permits values other than IPv6 addresses
+│                        │      │                    to be incl ... 
+│                        │      ├ Description     : The Parse function permits values other than IPv6 addresses
+│                        │      │                    to be included in square brackets within the host
+│                        │      │                   component of a URL. RFC 3986 permits IPv6 addresses to be
+│                        │      │                   included within the host component, enclosed within square
+│                        │      │                   brackets. For example: "http://[::1]/". IPv4 addresses and
+│                        │      │                   hostnames must not appear within square brackets. Parse did
+│                        │      │                    not enforce this requirement. 
+│                        │      ├ Severity        : HIGH 
+│                        │      ├ VendorSeverity   ╭ amazon : 3 
+│                        │      │                  ╰ bitnami: 2 
+│                        │      ├ CVSS             ─ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I
+│                        │      │                            │           :N/A:N 
+│                        │      │                            ╰ V3Score : 5.3 
+│                        │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/10/08/1 
+│                        │      │                  ├ [1]: https://go.dev/cl/709857 
+│                        │      │                  ├ [2]: https://go.dev/issue/75678 
+│                        │      │                  ├ [3]: https://groups.google.com/g/golang-announce/c/4Emdl2i
+│                        │      │                  │      Q_bI 
+│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-47912 
+│                        │      │                  ╰ [5]: https://pkg.go.dev/vuln/GO-2025-4010 
+│                        │      ├ PublishedDate   : 2025-10-29T23:16:18.187Z 
+│                        │      ╰ LastModifiedDate: 2025-11-04T22:16:16.497Z 
+│                        ├ [2]  ╭ VulnerabilityID : CVE-2025-58183 
+│                        │      ├ PkgID           : stdlib@v1.24.7 
+│                        │      ├ PkgName         : stdlib 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.24.7 
+│                        │      │                  ╰ UID : dab6465cb6be340c 
+│                        │      ├ InstalledVersion: v1.24.7 
+│                        │      ├ FixedVersion    : 1.24.8, 1.25.2 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9
+│                        │      │                  │         a2c8196e2aacf81e5654f 
+│                        │      │                  ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18
+│                        │      │                            c453b8e4db118f627132f 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-58183 
+│                        │      ├ DataSource       ╭ ID  : govulndb 
+│                        │      │                  ├ Name: The Go Vulnerability Database 
+│                        │      │                  ╰ URL : https://pkg.go.dev/vuln/ 
+│                        │      ├ Title           : tar.Reader does not set a maximum size on the number of
+│                        │      │                   sparse region  ... 
+│                        │      ├ Description     : tar.Reader does not set a maximum size on the number of
+│                        │      │                   sparse region data blocks in GNU tar pax 1.0 sparse files.
+│                        │      │                   A maliciously-crafted archive containing a large number of
+│                        │      │                   sparse regions can cause a Reader to read an unbounded
+│                        │      │                   amount of data from the archive into memory. When reading
+│                        │      │                   from a compressed source, a small compressed input can
+│                        │      │                   result in large allocations. 
+│                        │      ├ Severity        : HIGH 
+│                        │      ├ VendorSeverity   ╭ amazon : 3 
+│                        │      │                  ╰ bitnami: 2 
+│                        │      ├ CVSS             ─ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I
+│                        │      │                            │           :N/A:L 
+│                        │      │                            ╰ V3Score : 4.3 
+│                        │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/10/08/1 
+│                        │      │                  ├ [1]: https://go.dev/cl/709861 
+│                        │      │                  ├ [2]: https://go.dev/issue/75677 
+│                        │      │                  ├ [3]: https://groups.google.com/g/golang-announce/c/4Emdl2i
+│                        │      │                  │      Q_bI 
+│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-58183 
+│                        │      │                  ╰ [5]: https://pkg.go.dev/vuln/GO-2025-4014 
+│                        │      ├ PublishedDate   : 2025-10-29T23:16:19.357Z 
+│                        │      ╰ LastModifiedDate: 2025-11-04T22:16:33.2Z 
+│                        ├ [3]  ╭ VulnerabilityID : CVE-2025-58186 
+│                        │      ├ PkgID           : stdlib@v1.24.7 
+│                        │      ├ PkgName         : stdlib 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.24.7 
+│                        │      │                  ╰ UID : dab6465cb6be340c 
+│                        │      ├ InstalledVersion: v1.24.7 
+│                        │      ├ FixedVersion    : 1.24.8, 1.25.2 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9
+│                        │      │                  │         a2c8196e2aacf81e5654f 
+│                        │      │                  ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18
+│                        │      │                            c453b8e4db118f627132f 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-58186 
+│                        │      ├ DataSource       ╭ ID  : govulndb 
+│                        │      │                  ├ Name: The Go Vulnerability Database 
+│                        │      │                  ╰ URL : https://pkg.go.dev/vuln/ 
+│                        │      ├ Title           : Despite HTTP headers having a default limit of 1MB, the
+│                        │      │                   number of cook ... 
+│                        │      ├ Description     : Despite HTTP headers having a default limit of 1MB, the
+│                        │      │                   number of cookies that can be parsed does not have a limit.
+│                        │      │                    By sending a lot of very small cookies such as "a=;", an
+│                        │      │                   attacker can make an HTTP server allocate a large amount of
+│                        │      │                    structs, causing large memory consumption. 
+│                        │      ├ Severity        : HIGH 
+│                        │      ├ VendorSeverity   ╭ amazon : 3 
+│                        │      │                  ╰ bitnami: 2 
+│                        │      ├ CVSS             ─ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                        │      │                            │           :N/A:L 
+│                        │      │                            ╰ V3Score : 5.3 
+│                        │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/10/08/1 
+│                        │      │                  ├ [1]: https://go.dev/cl/709855 
+│                        │      │                  ├ [2]: https://go.dev/issue/75672 
+│                        │      │                  ├ [3]: https://groups.google.com/g/golang-announce/c/4Emdl2i
+│                        │      │                  │      Q_bI 
+│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-58186 
+│                        │      │                  ╰ [5]: https://pkg.go.dev/vuln/GO-2025-4012 
+│                        │      ├ PublishedDate   : 2025-10-29T23:16:19.547Z 
+│                        │      ╰ LastModifiedDate: 2025-11-04T22:16:33.45Z 
+│                        ├ [4]  ╭ VulnerabilityID : CVE-2025-58187 
+│                        │      ├ PkgID           : stdlib@v1.24.7 
+│                        │      ├ PkgName         : stdlib 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.24.7 
+│                        │      │                  ╰ UID : dab6465cb6be340c 
+│                        │      ├ InstalledVersion: v1.24.7 
+│                        │      ├ FixedVersion    : 1.24.9, 1.25.3 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9
+│                        │      │                  │         a2c8196e2aacf81e5654f 
+│                        │      │                  ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18
+│                        │      │                            c453b8e4db118f627132f 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-58187 
+│                        │      ├ DataSource       ╭ ID  : govulndb 
+│                        │      │                  ├ Name: The Go Vulnerability Database 
+│                        │      │                  ╰ URL : https://pkg.go.dev/vuln/ 
+│                        │      ├ Title           : Due to the design of the name constraint checking
+│                        │      │                   algorithm, the proce ... 
+│                        │      ├ Description     : Due to the design of the name constraint checking
+│                        │      │                   algorithm, the processing time of some inputs scals
+│                        │      │                   non-linearly with respect to the size of the certificate.
+│                        │      │                   This affects programs which validate arbitrary certificate
+│                        │      │                   chains. 
+│                        │      ├ Severity        : HIGH 
+│                        │      ├ VendorSeverity   ╭ amazon : 3 
+│                        │      │                  ╰ bitnami: 3 
+│                        │      ├ CVSS             ─ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                        │      │                            │           :N/A:H 
+│                        │      │                            ╰ V3Score : 7.5 
+│                        │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/10/08/1 
+│                        │      │                  ├ [1]: https://go.dev/cl/709854 
+│                        │      │                  ├ [2]: https://go.dev/issue/75681 
+│                        │      │                  ├ [3]: https://groups.google.com/g/golang-announce/c/4Emdl2i
+│                        │      │                  │      Q_bI 
+│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-58187 
+│                        │      │                  ╰ [5]: https://pkg.go.dev/vuln/GO-2025-4007 
+│                        │      ├ PublishedDate   : 2025-10-29T23:16:19.643Z 
+│                        │      ╰ LastModifiedDate: 2025-11-04T22:16:33.593Z 
+│                        ├ [5]  ╭ VulnerabilityID : CVE-2025-58188 
+│                        │      ├ PkgID           : stdlib@v1.24.7 
+│                        │      ├ PkgName         : stdlib 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.24.7 
+│                        │      │                  ╰ UID : dab6465cb6be340c 
+│                        │      ├ InstalledVersion: v1.24.7 
+│                        │      ├ FixedVersion    : 1.24.8, 1.25.2 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9
+│                        │      │                  │         a2c8196e2aacf81e5654f 
+│                        │      │                  ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18
+│                        │      │                            c453b8e4db118f627132f 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-58188 
+│                        │      ├ DataSource       ╭ ID  : govulndb 
+│                        │      │                  ├ Name: The Go Vulnerability Database 
+│                        │      │                  ╰ URL : https://pkg.go.dev/vuln/ 
+│                        │      ├ Title           : Validating certificate chains which contain DSA public keys
+│                        │      │                    can cause  ... 
+│                        │      ├ Description     : Validating certificate chains which contain DSA public keys
+│                        │      │                    can cause programs to panic, due to a interface cast that
+│                        │      │                   assumes they implement the Equal method. This affects
+│                        │      │                   programs which validate arbitrary certificate chains. 
+│                        │      ├ Severity        : HIGH 
+│                        │      ├ VendorSeverity   ╭ amazon : 3 
+│                        │      │                  ╰ bitnami: 3 
+│                        │      ├ CVSS             ─ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                        │      │                            │           :N/A:H 
+│                        │      │                            ╰ V3Score : 7.5 
+│                        │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/10/08/1 
+│                        │      │                  ├ [1]: https://go.dev/cl/709853 
+│                        │      │                  ├ [2]: https://go.dev/issue/75675 
+│                        │      │                  ├ [3]: https://groups.google.com/g/golang-announce/c/4Emdl2i
+│                        │      │                  │      Q_bI 
+│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-58188 
+│                        │      │                  ╰ [5]: https://pkg.go.dev/vuln/GO-2025-4013 
+│                        │      ├ PublishedDate   : 2025-10-29T23:16:19.74Z 
+│                        │      ╰ LastModifiedDate: 2025-11-04T22:16:33.74Z 
+│                        ├ [6]  ╭ VulnerabilityID : CVE-2025-61724 
+│                        │      ├ PkgID           : stdlib@v1.24.7 
+│                        │      ├ PkgName         : stdlib 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.24.7 
+│                        │      │                  ╰ UID : dab6465cb6be340c 
+│                        │      ├ InstalledVersion: v1.24.7 
+│                        │      ├ FixedVersion    : 1.24.8, 1.25.2 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9
+│                        │      │                  │         a2c8196e2aacf81e5654f 
+│                        │      │                  ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18
+│                        │      │                            c453b8e4db118f627132f 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-61724 
+│                        │      ├ DataSource       ╭ ID  : govulndb 
+│                        │      │                  ├ Name: The Go Vulnerability Database 
+│                        │      │                  ╰ URL : https://pkg.go.dev/vuln/ 
+│                        │      ├ Title           : The Reader.ReadResponse function constructs a response
+│                        │      │                   string through  ... 
+│                        │      ├ Description     : The Reader.ReadResponse function constructs a response
+│                        │      │                   string through repeated string concatenation of lines. When
+│                        │      │                    the number of lines in a response is large, this can cause
+│                        │      │                    excessive CPU consumption. 
+│                        │      ├ Severity        : HIGH 
+│                        │      ├ VendorSeverity   ╭ amazon : 3 
+│                        │      │                  ╰ bitnami: 2 
+│                        │      ├ CVSS             ─ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                        │      │                            │           :N/A:L 
+│                        │      │                            ╰ V3Score : 5.3 
+│                        │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/10/08/1 
+│                        │      │                  ├ [1]: https://go.dev/cl/709859 
+│                        │      │                  ├ [2]: https://go.dev/issue/75716 
+│                        │      │                  ├ [3]: https://groups.google.com/g/golang-announce/c/4Emdl2i
+│                        │      │                  │      Q_bI 
+│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-61724 
+│                        │      │                  ╰ [5]: https://pkg.go.dev/vuln/GO-2025-4015 
+│                        │      ├ PublishedDate   : 2025-10-29T23:16:20.02Z 
+│                        │      ╰ LastModifiedDate: 2025-11-04T22:16:36.567Z 
+│                        ├ [7]  ╭ VulnerabilityID : CVE-2025-58185 
+│                        │      ├ PkgID           : stdlib@v1.24.7 
+│                        │      ├ PkgName         : stdlib 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.24.7 
+│                        │      │                  ╰ UID : dab6465cb6be340c 
+│                        │      ├ InstalledVersion: v1.24.7 
+│                        │      ├ FixedVersion    : 1.24.8, 1.25.2 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9
+│                        │      │                  │         a2c8196e2aacf81e5654f 
+│                        │      │                  ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18
+│                        │      │                            c453b8e4db118f627132f 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-58185 
+│                        │      ├ DataSource       ╭ ID  : govulndb 
+│                        │      │                  ├ Name: The Go Vulnerability Database 
+│                        │      │                  ╰ URL : https://pkg.go.dev/vuln/ 
+│                        │      ├ Title           : encoding/asn1: Parsing DER payload can cause memory
+│                        │      │                   exhaustion in encoding/asn1 
+│                        │      ├ Description     : Parsing a maliciously crafted DER payload could allocate
+│                        │      │                   large amounts of memory, causing memory exhaustion. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ VendorSeverity   ╭ amazon : 3 
+│                        │      │                  ├ bitnami: 2 
+│                        │      │                  ╰ redhat : 2 
+│                        │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                        │      │                  │         │           :N/A:L 
+│                        │      │                  │         ╰ V3Score : 5.3 
+│                        │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                        │      │                            │           :N/A:L 
+│                        │      │                            ╰ V3Score : 5.3 
+│                        │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/10/08/1 
+│                        │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-58185 
+│                        │      │                  ├ [2]: https://github.com/golang/go/commit/8709a41d5ef7321f4
+│                        │      │                  │      86a1857f189c3fee20e8edd 
+│                        │      │                  ├ [3]: https://go.dev/cl/709856 
+│                        │      │                  ├ [4]: https://go.dev/issue/75671 
+│                        │      │                  ├ [5]: https://groups.google.com/g/golang-announce/c/4Emdl2i
+│                        │      │                  │      Q_bI 
+│                        │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2025-58185 
+│                        │      │                  ├ [7]: https://pkg.go.dev/vuln/GO-2025-4011 
+│                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2025-58185 
+│                        │      ├ PublishedDate   : 2025-10-29T23:16:19.45Z 
+│                        │      ╰ LastModifiedDate: 2025-11-04T22:16:33.327Z 
+│                        ├ [8]  ╭ VulnerabilityID : CVE-2025-58189 
+│                        │      ├ PkgID           : stdlib@v1.24.7 
+│                        │      ├ PkgName         : stdlib 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.24.7 
+│                        │      │                  ╰ UID : dab6465cb6be340c 
+│                        │      ├ InstalledVersion: v1.24.7 
+│                        │      ├ FixedVersion    : 1.24.8, 1.25.2 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9
+│                        │      │                  │         a2c8196e2aacf81e5654f 
+│                        │      │                  ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18
+│                        │      │                            c453b8e4db118f627132f 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-58189 
+│                        │      ├ DataSource       ╭ ID  : govulndb 
+│                        │      │                  ├ Name: The Go Vulnerability Database 
+│                        │      │                  ╰ URL : https://pkg.go.dev/vuln/ 
+│                        │      ├ Title           : crypto/tls: go crypto/tls ALPN negotiation error contains
+│                        │      │                   attacker controlled information 
+│                        │      ├ Description     : When Conn.Handshake fails during ALPN negotiation the error
+│                        │      │                    contains attacker controlled information (the ALPN
+│                        │      │                   protocols sent by the client) which is not escaped. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ VendorSeverity   ╭ amazon : 3 
+│                        │      │                  ├ bitnami: 2 
+│                        │      │                  ╰ redhat : 2 
+│                        │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I
+│                        │      │                  │         │           :N/A:N 
+│                        │      │                  │         ╰ V3Score : 5.3 
+│                        │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                        │      │                            │           :L/A:N 
+│                        │      │                            ╰ V3Score : 5.3 
+│                        │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/10/08/1 
+│                        │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-58189 
+│                        │      │                  ├ [2]: https://go.dev/cl/707776 
+│                        │      │                  ├ [3]: https://go.dev/issue/75652 
+│                        │      │                  ├ [4]: https://groups.google.com/g/golang-announce/c/4Emdl2i
+│                        │      │                  │      Q_bI 
+│                        │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-58189 
+│                        │      │                  ├ [6]: https://pkg.go.dev/vuln/GO-2025-4008 
+│                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-58189 
+│                        │      ├ PublishedDate   : 2025-10-29T23:16:19.833Z 
+│                        │      ╰ LastModifiedDate: 2025-11-04T22:16:33.877Z 
+│                        ├ [9]  ╭ VulnerabilityID : CVE-2025-61723 
+│                        │      ├ PkgID           : stdlib@v1.24.7 
+│                        │      ├ PkgName         : stdlib 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.24.7 
+│                        │      │                  ╰ UID : dab6465cb6be340c 
+│                        │      ├ InstalledVersion: v1.24.7 
+│                        │      ├ FixedVersion    : 1.24.8, 1.25.2 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9
+│                        │      │                  │         a2c8196e2aacf81e5654f 
+│                        │      │                  ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18
+│                        │      │                            c453b8e4db118f627132f 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-61723 
+│                        │      ├ DataSource       ╭ ID  : govulndb 
+│                        │      │                  ├ Name: The Go Vulnerability Database 
+│                        │      │                  ╰ URL : https://pkg.go.dev/vuln/ 
+│                        │      ├ Title           : encoding/pem: Quadratic complexity when parsing some
+│                        │      │                   invalid inputs in encoding/pem 
+│                        │      ├ Description     : The processing time for parsing some invalid inputs scales
+│                        │      │                   non-linearly with respect to the size of the input. This
+│                        │      │                   affects programs which parse untrusted PEM inputs. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ VendorSeverity   ╭ amazon : 3 
+│                        │      │                  ├ bitnami: 3 
+│                        │      │                  ╰ redhat : 2 
+│                        │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                        │      │                  │         │           :N/A:H 
+│                        │      │                  │         ╰ V3Score : 7.5 
+│                        │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                        │      │                            │           :N/A:L 
+│                        │      │                            ╰ V3Score : 5.3 
+│                        │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/10/08/1 
+│                        │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-61723 
+│                        │      │                  ├ [2]: https://github.com/golang/go/commit/5ce8cd16f3859ec5a
+│                        │      │                  │      c4106ad8ec15d6236f4501b 
+│                        │      │                  ├ [3]: https://go.dev/cl/709858 
+│                        │      │                  ├ [4]: https://go.dev/issue/75676 
+│                        │      │                  ├ [5]: https://groups.google.com/g/golang-announce/c/4Emdl2i
+│                        │      │                  │      Q_bI 
+│                        │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2025-61723 
+│                        │      │                  ├ [7]: https://pkg.go.dev/vuln/GO-2025-4009 
+│                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2025-61723 
+│                        │      ├ PublishedDate   : 2025-10-29T23:16:19.927Z 
+│                        │      ╰ LastModifiedDate: 2025-11-04T22:16:36.42Z 
+│                        ╰ [10] ╭ VulnerabilityID : CVE-2025-61725 
+│                               ├ PkgID           : stdlib@v1.24.7 
+│                               ├ PkgName         : stdlib 
+│                               ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.24.7 
+│                               │                  ╰ UID : dab6465cb6be340c 
+│                               ├ InstalledVersion: v1.24.7 
+│                               ├ FixedVersion    : 1.24.8, 1.25.2 
+│                               ├ Status          : fixed 
+│                               ├ Layer            ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9
+│                               │                  │         a2c8196e2aacf81e5654f 
+│                               │                  ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18
+│                               │                            c453b8e4db118f627132f 
+│                               ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-61725 
+│                               ├ DataSource       ╭ ID  : govulndb 
+│                               │                  ├ Name: The Go Vulnerability Database 
+│                               │                  ╰ URL : https://pkg.go.dev/vuln/ 
+│                               ├ Title           : net/mail: Excessive CPU consumption in ParseAddress in
+│                               │                   net/mail 
+│                               ├ Description     : The ParseAddress function constructeds domain-literal
+│                               │                   address components through repeated string concatenation.
+│                               │                   When parsing large domain-literal components, this can
+│                               │                   cause excessive CPU consumption. 
+│                               ├ Severity        : MEDIUM 
+│                               ├ VendorSeverity   ╭ amazon : 3 
+│                               │                  ├ bitnami: 3 
+│                               │                  ╰ redhat : 2 
+│                               ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                               │                  │         │           :N/A:H 
+│                               │                  │         ╰ V3Score : 7.5 
+│                               │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                               │                            │           :N/A:L 
+│                               │                            ╰ V3Score : 5.3 
+│                               ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/10/08/1 
+│                               │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-61725 
+│                               │                  ├ [2]: https://go.dev/cl/709860 
+│                               │                  ├ [3]: https://go.dev/issue/75680 
+│                               │                  ├ [4]: https://groups.google.com/g/golang-announce/c/4Emdl2i
+│                               │                  │      Q_bI 
+│                               │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-61725 
+│                               │                  ├ [6]: https://pkg.go.dev/vuln/GO-2025-4006 
+│                               │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-61725 
+│                               ├ PublishedDate   : 2025-10-29T23:16:20.113Z 
+│                               ╰ LastModifiedDate: 2025-11-04T22:16:36.693Z 
 ├ [6]  ╭ Target         : usr/bin/kubectl 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : gobinary 
@@ -32973,13 +33342,18 @@
 │                        │     │                   must not appear within square brackets. Parse did not
 │                        │     │                   enforce this requirement. 
 │                        │     ├ Severity        : HIGH 
-│                        │     ├ VendorSeverity   ─ amazon: 3 
+│                        │     ├ VendorSeverity   ╭ amazon : 3 
+│                        │     │                  ╰ bitnami: 2 
+│                        │     ├ CVSS             ─ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:
+│                        │     │                            │           N/A:N 
+│                        │     │                            ╰ V3Score : 5.3 
 │                        │     ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/10/08/1 
 │                        │     │                  ├ [1]: https://go.dev/cl/709857 
 │                        │     │                  ├ [2]: https://go.dev/issue/75678 
 │                        │     │                  ├ [3]: https://groups.google.com/g/golang-announce/c/4Emdl2iQ
 │                        │     │                  │      _bI 
-│                        │     │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2025-4010 
+│                        │     │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-47912 
+│                        │     │                  ╰ [5]: https://pkg.go.dev/vuln/GO-2025-4010 
 │                        │     ├ PublishedDate   : 2025-10-29T23:16:18.187Z 
 │                        │     ╰ LastModifiedDate: 2025-11-04T22:16:16.497Z 
 │                        ├ [1] ╭ VulnerabilityID : CVE-2025-58183 
@@ -33008,13 +33382,18 @@
 │                        │     │                   from a compressed source, a small compressed input can
 │                        │     │                   result in large allocations. 
 │                        │     ├ Severity        : HIGH 
-│                        │     ├ VendorSeverity   ─ amazon: 3 
+│                        │     ├ VendorSeverity   ╭ amazon : 3 
+│                        │     │                  ╰ bitnami: 2 
+│                        │     ├ CVSS             ─ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:
+│                        │     │                            │           N/A:L 
+│                        │     │                            ╰ V3Score : 4.3 
 │                        │     ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/10/08/1 
 │                        │     │                  ├ [1]: https://go.dev/cl/709861 
 │                        │     │                  ├ [2]: https://go.dev/issue/75677 
 │                        │     │                  ├ [3]: https://groups.google.com/g/golang-announce/c/4Emdl2iQ
 │                        │     │                  │      _bI 
-│                        │     │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2025-4014 
+│                        │     │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-58183 
+│                        │     │                  ╰ [5]: https://pkg.go.dev/vuln/GO-2025-4014 
 │                        │     ├ PublishedDate   : 2025-10-29T23:16:19.357Z 
 │                        │     ╰ LastModifiedDate: 2025-11-04T22:16:33.2Z 
 │                        ├ [2] ╭ VulnerabilityID : CVE-2025-58186 
@@ -33041,13 +33420,18 @@
 │                        │     │                   attacker can make an HTTP server allocate a large amount of
 │                        │     │                   structs, causing large memory consumption. 
 │                        │     ├ Severity        : HIGH 
-│                        │     ├ VendorSeverity   ─ amazon: 3 
+│                        │     ├ VendorSeverity   ╭ amazon : 3 
+│                        │     │                  ╰ bitnami: 2 
+│                        │     ├ CVSS             ─ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
+│                        │     │                            │           N/A:L 
+│                        │     │                            ╰ V3Score : 5.3 
 │                        │     ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/10/08/1 
 │                        │     │                  ├ [1]: https://go.dev/cl/709855 
 │                        │     │                  ├ [2]: https://go.dev/issue/75672 
 │                        │     │                  ├ [3]: https://groups.google.com/g/golang-announce/c/4Emdl2iQ
 │                        │     │                  │      _bI 
-│                        │     │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2025-4012 
+│                        │     │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-58186 
+│                        │     │                  ╰ [5]: https://pkg.go.dev/vuln/GO-2025-4012 
 │                        │     ├ PublishedDate   : 2025-10-29T23:16:19.547Z 
 │                        │     ╰ LastModifiedDate: 2025-11-04T22:16:33.45Z 
 │                        ├ [3] ╭ VulnerabilityID : CVE-2025-58187 
@@ -33073,13 +33457,18 @@
 │                        │     │                   respect to the size of the certificate. This affects
 │                        │     │                   programs which validate arbitrary certificate chains. 
 │                        │     ├ Severity        : HIGH 
-│                        │     ├ VendorSeverity   ─ amazon: 3 
+│                        │     ├ VendorSeverity   ╭ amazon : 3 
+│                        │     │                  ╰ bitnami: 3 
+│                        │     ├ CVSS             ─ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
+│                        │     │                            │           N/A:H 
+│                        │     │                            ╰ V3Score : 7.5 
 │                        │     ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/10/08/1 
 │                        │     │                  ├ [1]: https://go.dev/cl/709854 
 │                        │     │                  ├ [2]: https://go.dev/issue/75681 
 │                        │     │                  ├ [3]: https://groups.google.com/g/golang-announce/c/4Emdl2iQ
 │                        │     │                  │      _bI 
-│                        │     │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2025-4007 
+│                        │     │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-58187 
+│                        │     │                  ╰ [5]: https://pkg.go.dev/vuln/GO-2025-4007 
 │                        │     ├ PublishedDate   : 2025-10-29T23:16:19.643Z 
 │                        │     ╰ LastModifiedDate: 2025-11-04T22:16:33.593Z 
 │                        ├ [4] ╭ VulnerabilityID : CVE-2025-58188 
@@ -33105,13 +33494,18 @@
 │                        │     │                   assumes they implement the Equal method. This affects
 │                        │     │                   programs which validate arbitrary certificate chains. 
 │                        │     ├ Severity        : HIGH 
-│                        │     ├ VendorSeverity   ─ amazon: 3 
+│                        │     ├ VendorSeverity   ╭ amazon : 3 
+│                        │     │                  ╰ bitnami: 3 
+│                        │     ├ CVSS             ─ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
+│                        │     │                            │           N/A:H 
+│                        │     │                            ╰ V3Score : 7.5 
 │                        │     ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/10/08/1 
 │                        │     │                  ├ [1]: https://go.dev/cl/709853 
 │                        │     │                  ├ [2]: https://go.dev/issue/75675 
 │                        │     │                  ├ [3]: https://groups.google.com/g/golang-announce/c/4Emdl2iQ
 │                        │     │                  │      _bI 
-│                        │     │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2025-4013 
+│                        │     │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-58188 
+│                        │     │                  ╰ [5]: https://pkg.go.dev/vuln/GO-2025-4013 
 │                        │     ├ PublishedDate   : 2025-10-29T23:16:19.74Z 
 │                        │     ╰ LastModifiedDate: 2025-11-04T22:16:33.74Z 
 │                        ├ [5] ╭ VulnerabilityID : CVE-2025-61724 
@@ -33137,13 +33531,18 @@
 │                        │     │                   the number of lines in a response is large, this can cause
 │                        │     │                   excessive CPU consumption. 
 │                        │     ├ Severity        : HIGH 
-│                        │     ├ VendorSeverity   ─ amazon: 3 
+│                        │     ├ VendorSeverity   ╭ amazon : 3 
+│                        │     │                  ╰ bitnami: 2 
+│                        │     ├ CVSS             ─ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
+│                        │     │                            │           N/A:L 
+│                        │     │                            ╰ V3Score : 5.3 
 │                        │     ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/10/08/1 
 │                        │     │                  ├ [1]: https://go.dev/cl/709859 
 │                        │     │                  ├ [2]: https://go.dev/issue/75716 
 │                        │     │                  ├ [3]: https://groups.google.com/g/golang-announce/c/4Emdl2iQ
 │                        │     │                  │      _bI 
-│                        │     │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2025-4015 
+│                        │     │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-61724 
+│                        │     │                  ╰ [5]: https://pkg.go.dev/vuln/GO-2025-4015 
 │                        │     ├ PublishedDate   : 2025-10-29T23:16:20.02Z 
 │                        │     ╰ LastModifiedDate: 2025-11-04T22:16:36.567Z 
 │                        ├ [6] ╭ VulnerabilityID : CVE-2025-58185 
@@ -33167,11 +33566,15 @@
 │                        │     ├ Description     : Parsing a maliciously crafted DER payload could allocate
 │                        │     │                   large amounts of memory, causing memory exhaustion. 
 │                        │     ├ Severity        : MEDIUM 
-│                        │     ├ VendorSeverity   ╭ amazon: 3 
-│                        │     │                  ╰ redhat: 2 
-│                        │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
-│                        │     │                           │           /A:L 
-│                        │     │                           ╰ V3Score : 5.3 
+│                        │     ├ VendorSeverity   ╭ amazon : 3 
+│                        │     │                  ├ bitnami: 2 
+│                        │     │                  ╰ redhat : 2 
+│                        │     ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
+│                        │     │                  │         │           N/A:L 
+│                        │     │                  │         ╰ V3Score : 5.3 
+│                        │     │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
+│                        │     │                            │           N/A:L 
+│                        │     │                            ╰ V3Score : 5.3 
 │                        │     ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/10/08/1 
 │                        │     │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-58185 
 │                        │     │                  ├ [2]: https://github.com/golang/go/commit/8709a41d5ef7321f48
@@ -33207,11 +33610,15 @@
 │                        │     │                   contains attacker controlled information (the ALPN protocols
 │                        │     │                    sent by the client) which is not escaped. 
 │                        │     ├ Severity        : MEDIUM 
-│                        │     ├ VendorSeverity   ╭ amazon: 3 
-│                        │     │                  ╰ redhat: 2 
-│                        │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L
-│                        │     │                           │           /A:N 
-│                        │     │                           ╰ V3Score : 5.3 
+│                        │     ├ VendorSeverity   ╭ amazon : 3 
+│                        │     │                  ├ bitnami: 2 
+│                        │     │                  ╰ redhat : 2 
+│                        │     ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:
+│                        │     │                  │         │           N/A:N 
+│                        │     │                  │         ╰ V3Score : 5.3 
+│                        │     │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
+│                        │     │                            │           L/A:N 
+│                        │     │                            ╰ V3Score : 5.3 
 │                        │     ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/10/08/1 
 │                        │     │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-58189 
 │                        │     │                  ├ [2]: https://go.dev/cl/707776 
@@ -33245,11 +33652,15 @@
 │                        │     │                   non-linearly with respect to the size of the input. This
 │                        │     │                   affects programs which parse untrusted PEM inputs. 
 │                        │     ├ Severity        : MEDIUM 
-│                        │     ├ VendorSeverity   ╭ amazon: 3 
-│                        │     │                  ╰ redhat: 2 
-│                        │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
-│                        │     │                           │           /A:L 
-│                        │     │                           ╰ V3Score : 5.3 
+│                        │     ├ VendorSeverity   ╭ amazon : 3 
+│                        │     │                  ├ bitnami: 3 
+│                        │     │                  ╰ redhat : 2 
+│                        │     ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
+│                        │     │                  │         │           N/A:H 
+│                        │     │                  │         ╰ V3Score : 7.5 
+│                        │     │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
+│                        │     │                            │           N/A:L 
+│                        │     │                            ╰ V3Score : 5.3 
 │                        │     ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/10/08/1 
 │                        │     │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-61723 
 │                        │     │                  ├ [2]: https://github.com/golang/go/commit/5ce8cd16f3859ec5ac
@@ -33286,11 +33697,15 @@
 │                              │                   When parsing large domain-literal components, this can cause
 │                              │                    excessive CPU consumption. 
 │                              ├ Severity        : MEDIUM 
-│                              ├ VendorSeverity   ╭ amazon: 3 
-│                              │                  ╰ redhat: 2 
-│                              ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
-│                              │                           │           /A:L 
-│                              │                           ╰ V3Score : 5.3 
+│                              ├ VendorSeverity   ╭ amazon : 3 
+│                              │                  ├ bitnami: 3 
+│                              │                  ╰ redhat : 2 
+│                              ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
+│                              │                  │         │           N/A:H 
+│                              │                  │         ╰ V3Score : 7.5 
+│                              │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
+│                              │                            │           N/A:L 
+│                              │                            ╰ V3Score : 5.3 
 │                              ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/10/08/1 
 │                              │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-61725 
 │                              │                  ├ [2]: https://go.dev/cl/709860 
@@ -34351,13 +34766,18 @@
 │                        │     │                   must not appear within square brackets. Parse did not
 │                        │     │                   enforce this requirement. 
 │                        │     ├ Severity        : HIGH 
-│                        │     ├ VendorSeverity   ─ amazon: 3 
+│                        │     ├ VendorSeverity   ╭ amazon : 3 
+│                        │     │                  ╰ bitnami: 2 
+│                        │     ├ CVSS             ─ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:
+│                        │     │                            │           N/A:N 
+│                        │     │                            ╰ V3Score : 5.3 
 │                        │     ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/10/08/1 
 │                        │     │                  ├ [1]: https://go.dev/cl/709857 
 │                        │     │                  ├ [2]: https://go.dev/issue/75678 
 │                        │     │                  ├ [3]: https://groups.google.com/g/golang-announce/c/4Emdl2iQ
 │                        │     │                  │      _bI 
-│                        │     │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2025-4010 
+│                        │     │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-47912 
+│                        │     │                  ╰ [5]: https://pkg.go.dev/vuln/GO-2025-4010 
 │                        │     ├ PublishedDate   : 2025-10-29T23:16:18.187Z 
 │                        │     ╰ LastModifiedDate: 2025-11-04T22:16:16.497Z 
 │                        ├ [1] ╭ VulnerabilityID : CVE-2025-58183 
@@ -34386,13 +34806,18 @@
 │                        │     │                   from a compressed source, a small compressed input can
 │                        │     │                   result in large allocations. 
 │                        │     ├ Severity        : HIGH 
-│                        │     ├ VendorSeverity   ─ amazon: 3 
+│                        │     ├ VendorSeverity   ╭ amazon : 3 
+│                        │     │                  ╰ bitnami: 2 
+│                        │     ├ CVSS             ─ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:
+│                        │     │                            │           N/A:L 
+│                        │     │                            ╰ V3Score : 4.3 
 │                        │     ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/10/08/1 
 │                        │     │                  ├ [1]: https://go.dev/cl/709861 
 │                        │     │                  ├ [2]: https://go.dev/issue/75677 
 │                        │     │                  ├ [3]: https://groups.google.com/g/golang-announce/c/4Emdl2iQ
 │                        │     │                  │      _bI 
-│                        │     │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2025-4014 
+│                        │     │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-58183 
+│                        │     │                  ╰ [5]: https://pkg.go.dev/vuln/GO-2025-4014 
 │                        │     ├ PublishedDate   : 2025-10-29T23:16:19.357Z 
 │                        │     ╰ LastModifiedDate: 2025-11-04T22:16:33.2Z 
 │                        ├ [2] ╭ VulnerabilityID : CVE-2025-58186 
@@ -34419,13 +34844,18 @@
 │                        │     │                   attacker can make an HTTP server allocate a large amount of
 │                        │     │                   structs, causing large memory consumption. 
 │                        │     ├ Severity        : HIGH 
-│                        │     ├ VendorSeverity   ─ amazon: 3 
+│                        │     ├ VendorSeverity   ╭ amazon : 3 
+│                        │     │                  ╰ bitnami: 2 
+│                        │     ├ CVSS             ─ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
+│                        │     │                            │           N/A:L 
+│                        │     │                            ╰ V3Score : 5.3 
 │                        │     ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/10/08/1 
 │                        │     │                  ├ [1]: https://go.dev/cl/709855 
 │                        │     │                  ├ [2]: https://go.dev/issue/75672 
 │                        │     │                  ├ [3]: https://groups.google.com/g/golang-announce/c/4Emdl2iQ
 │                        │     │                  │      _bI 
-│                        │     │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2025-4012 
+│                        │     │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-58186 
+│                        │     │                  ╰ [5]: https://pkg.go.dev/vuln/GO-2025-4012 
 │                        │     ├ PublishedDate   : 2025-10-29T23:16:19.547Z 
 │                        │     ╰ LastModifiedDate: 2025-11-04T22:16:33.45Z 
 │                        ├ [3] ╭ VulnerabilityID : CVE-2025-58187 
@@ -34451,13 +34881,18 @@
 │                        │     │                   respect to the size of the certificate. This affects
 │                        │     │                   programs which validate arbitrary certificate chains. 
 │                        │     ├ Severity        : HIGH 
-│                        │     ├ VendorSeverity   ─ amazon: 3 
+│                        │     ├ VendorSeverity   ╭ amazon : 3 
+│                        │     │                  ╰ bitnami: 3 
+│                        │     ├ CVSS             ─ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
+│                        │     │                            │           N/A:H 
+│                        │     │                            ╰ V3Score : 7.5 
 │                        │     ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/10/08/1 
 │                        │     │                  ├ [1]: https://go.dev/cl/709854 
 │                        │     │                  ├ [2]: https://go.dev/issue/75681 
 │                        │     │                  ├ [3]: https://groups.google.com/g/golang-announce/c/4Emdl2iQ
 │                        │     │                  │      _bI 
-│                        │     │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2025-4007 
+│                        │     │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-58187 
+│                        │     │                  ╰ [5]: https://pkg.go.dev/vuln/GO-2025-4007 
 │                        │     ├ PublishedDate   : 2025-10-29T23:16:19.643Z 
 │                        │     ╰ LastModifiedDate: 2025-11-04T22:16:33.593Z 
 │                        ├ [4] ╭ VulnerabilityID : CVE-2025-58188 
@@ -34483,13 +34918,18 @@
 │                        │     │                   assumes they implement the Equal method. This affects
 │                        │     │                   programs which validate arbitrary certificate chains. 
 │                        │     ├ Severity        : HIGH 
-│                        │     ├ VendorSeverity   ─ amazon: 3 
+│                        │     ├ VendorSeverity   ╭ amazon : 3 
+│                        │     │                  ╰ bitnami: 3 
+│                        │     ├ CVSS             ─ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
+│                        │     │                            │           N/A:H 
+│                        │     │                            ╰ V3Score : 7.5 
 │                        │     ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/10/08/1 
 │                        │     │                  ├ [1]: https://go.dev/cl/709853 
 │                        │     │                  ├ [2]: https://go.dev/issue/75675 
 │                        │     │                  ├ [3]: https://groups.google.com/g/golang-announce/c/4Emdl2iQ
 │                        │     │                  │      _bI 
-│                        │     │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2025-4013 
+│                        │     │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-58188 
+│                        │     │                  ╰ [5]: https://pkg.go.dev/vuln/GO-2025-4013 
 │                        │     ├ PublishedDate   : 2025-10-29T23:16:19.74Z 
 │                        │     ╰ LastModifiedDate: 2025-11-04T22:16:33.74Z 
 │                        ├ [5] ╭ VulnerabilityID : CVE-2025-61724 
@@ -34515,13 +34955,18 @@
 │                        │     │                   the number of lines in a response is large, this can cause
 │                        │     │                   excessive CPU consumption. 
 │                        │     ├ Severity        : HIGH 
-│                        │     ├ VendorSeverity   ─ amazon: 3 
+│                        │     ├ VendorSeverity   ╭ amazon : 3 
+│                        │     │                  ╰ bitnami: 2 
+│                        │     ├ CVSS             ─ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
+│                        │     │                            │           N/A:L 
+│                        │     │                            ╰ V3Score : 5.3 
 │                        │     ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/10/08/1 
 │                        │     │                  ├ [1]: https://go.dev/cl/709859 
 │                        │     │                  ├ [2]: https://go.dev/issue/75716 
 │                        │     │                  ├ [3]: https://groups.google.com/g/golang-announce/c/4Emdl2iQ
 │                        │     │                  │      _bI 
-│                        │     │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2025-4015 
+│                        │     │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-61724 
+│                        │     │                  ╰ [5]: https://pkg.go.dev/vuln/GO-2025-4015 
 │                        │     ├ PublishedDate   : 2025-10-29T23:16:20.02Z 
 │                        │     ╰ LastModifiedDate: 2025-11-04T22:16:36.567Z 
 │                        ├ [6] ╭ VulnerabilityID : CVE-2025-58185 
@@ -34545,11 +34990,15 @@
 │                        │     ├ Description     : Parsing a maliciously crafted DER payload could allocate
 │                        │     │                   large amounts of memory, causing memory exhaustion. 
 │                        │     ├ Severity        : MEDIUM 
-│                        │     ├ VendorSeverity   ╭ amazon: 3 
-│                        │     │                  ╰ redhat: 2 
-│                        │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
-│                        │     │                           │           /A:L 
-│                        │     │                           ╰ V3Score : 5.3 
+│                        │     ├ VendorSeverity   ╭ amazon : 3 
+│                        │     │                  ├ bitnami: 2 
+│                        │     │                  ╰ redhat : 2 
+│                        │     ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
+│                        │     │                  │         │           N/A:L 
+│                        │     │                  │         ╰ V3Score : 5.3 
+│                        │     │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
+│                        │     │                            │           N/A:L 
+│                        │     │                            ╰ V3Score : 5.3 
 │                        │     ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/10/08/1 
 │                        │     │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-58185 
 │                        │     │                  ├ [2]: https://github.com/golang/go/commit/8709a41d5ef7321f48
@@ -34585,11 +35034,15 @@
 │                        │     │                   contains attacker controlled information (the ALPN protocols
 │                        │     │                    sent by the client) which is not escaped. 
 │                        │     ├ Severity        : MEDIUM 
-│                        │     ├ VendorSeverity   ╭ amazon: 3 
-│                        │     │                  ╰ redhat: 2 
-│                        │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L
-│                        │     │                           │           /A:N 
-│                        │     │                           ╰ V3Score : 5.3 
+│                        │     ├ VendorSeverity   ╭ amazon : 3 
+│                        │     │                  ├ bitnami: 2 
+│                        │     │                  ╰ redhat : 2 
+│                        │     ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:
+│                        │     │                  │         │           N/A:N 
+│                        │     │                  │         ╰ V3Score : 5.3 
+│                        │     │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
+│                        │     │                            │           L/A:N 
+│                        │     │                            ╰ V3Score : 5.3 
 │                        │     ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/10/08/1 
 │                        │     │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-58189 
 │                        │     │                  ├ [2]: https://go.dev/cl/707776 
@@ -34623,11 +35076,15 @@
 │                        │     │                   non-linearly with respect to the size of the input. This
 │                        │     │                   affects programs which parse untrusted PEM inputs. 
 │                        │     ├ Severity        : MEDIUM 
-│                        │     ├ VendorSeverity   ╭ amazon: 3 
-│                        │     │                  ╰ redhat: 2 
-│                        │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
-│                        │     │                           │           /A:L 
-│                        │     │                           ╰ V3Score : 5.3 
+│                        │     ├ VendorSeverity   ╭ amazon : 3 
+│                        │     │                  ├ bitnami: 3 
+│                        │     │                  ╰ redhat : 2 
+│                        │     ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
+│                        │     │                  │         │           N/A:H 
+│                        │     │                  │         ╰ V3Score : 7.5 
+│                        │     │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
+│                        │     │                            │           N/A:L 
+│                        │     │                            ╰ V3Score : 5.3 
 │                        │     ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/10/08/1 
 │                        │     │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-61723 
 │                        │     │                  ├ [2]: https://github.com/golang/go/commit/5ce8cd16f3859ec5ac
@@ -34664,11 +35121,15 @@
 │                              │                   When parsing large domain-literal components, this can cause
 │                              │                    excessive CPU consumption. 
 │                              ├ Severity        : MEDIUM 
-│                              ├ VendorSeverity   ╭ amazon: 3 
-│                              │                  ╰ redhat: 2 
-│                              ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
-│                              │                           │           /A:L 
-│                              │                           ╰ V3Score : 5.3 
+│                              ├ VendorSeverity   ╭ amazon : 3 
+│                              │                  ├ bitnami: 3 
+│                              │                  ╰ redhat : 2 
+│                              ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
+│                              │                  │         │           N/A:H 
+│                              │                  │         ╰ V3Score : 7.5 
+│                              │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
+│                              │                            │           N/A:L 
+│                              │                            ╰ V3Score : 5.3 
 │                              ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/10/08/1 
 │                              │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-61725 
 │                              │                  ├ [2]: https://go.dev/cl/709860 
@@ -35825,7 +36286,107 @@
 │      │                                      │         96e2aacf81e5654f 
 │      │                                      ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18c453b
 │      │                                                8e4db118f627132f 
-│      ╰ Vulnerabilities ╭ [0]  ╭ VulnerabilityID : CVE-2024-40635 
+│      ╰ Vulnerabilities ╭ [0]  ╭ VulnerabilityID : CVE-2024-25621 
+│                        │      ├ PkgID           : github.com/containerd/containerd@v1.7.19 
+│                        │      ├ PkgName         : github.com/containerd/containerd 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/github.com/containerd/containerd@v1.7.19 
+│                        │      │                  ╰ UID : 1b5ac4bc1bc375ec 
+│                        │      ├ InstalledVersion: v1.7.19 
+│                        │      ├ FixedVersion    : 1.7.29 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:f34c35db1f1f5c111f0687de2b27ef14d499cde16e9
+│                        │      │                  │         a2c8196e2aacf81e5654f 
+│                        │      │                  ╰ DiffID: sha256:d650151e11221c8d0d9b22addc65d6a001533187f18
+│                        │      │                            c453b8e4db118f627132f 
+│                        │      ├ SeveritySource  : ghsa 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-25621 
+│                        │      ├ DataSource       ╭ ID  : ghsa 
+│                        │      │                  ├ Name: GitHub Security Advisory Go 
+│                        │      │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+
+│                        │      │                          ecosystem%3Ago 
+│                        │      ├ Title           : containerd affected by a local privilege escalation via
+│                        │      │                   wide permissions on CRI directory 
+│                        │      ├ Description     : ### Impact
+│                        │      │                   
+│                        │      │                   An overly broad default permission vulnerability was found
+│                        │      │                   in containerd.
+│                        │      │                   - `/var/lib/containerd` was created with the permission
+│                        │      │                   bits 0o711, while it should be created with 0o700
+│                        │      │                     - Allowed local users on the host to potentially access
+│                        │      │                   the metadata store and the content store
+│                        │      │                   - `/run/containerd/io.containerd.grpc.v1.cri` was created
+│                        │      │                   with 0o755, while it should be created with 0o700
+│                        │      │                   the contents of Kubernetes local volumes. The contents of
+│                        │      │                   volumes might include setuid binaries, which could allow a
+│                        │      │                   local user on the host to elevate privileges on the host.
+│                        │      │                   -
+│                        │      │                   `/run/containerd/io.containerd.sandbox.controller.v1.shim`
+│                        │      │                   was created with 0o711, while it should be created with
+│                        │      │                   0o700
+│                        │      │                   The directory paths may differ depending on the daemon
+│                        │      │                   configuration.
+│                        │      │                   When the `temp` directory path is specified in the daemon
+│                        │      │                   configuration, that directory was also created with 0o711,
+│                        │      │                   while it should be created with 0o700.
+│                        │      │                   ### Patches
+│                        │      │                   This bug has been fixed in the following containerd
+│                        │      │                   versions:
+│                        │      │                   * 2.2.0
+│                        │      │                   * 2.1.5
+│                        │      │                   * 2.0.7
+│                        │      │                   * 1.7.29
+│                        │      │                   Users should update to these versions to resolve the
+│                        │      │                   issue.
+│                        │      │                   These updates automatically change the permissions of the
+│                        │      │                   existing directories.
+│                        │      │                   > [!NOTE]
+│                        │      │                   >
+│                        │      │                   > `/run/containerd` and
+│                        │      │                   `/run/containerd/io.containerd.runtime.v2.task` are still
+│                        │      │                   created with 0o711.
+│                        │      │                   > This is an expected behavior for supporting
+│                        │      │                   userns-remapped containers.
+│                        │      │                   ### Workarounds
+│                        │      │                   The system administrator on the host can manually chmod the
+│                        │      │                    directories to not 
+│                        │      │                   have group or world accessible permisisons:
+│                        │      │                   ```
+│                        │      │                   chmod 700 /var/lib/containerd
+│                        │      │                   chmod 700 /run/containerd/io.containerd.grpc.v1.cri
+│                        │      │                   chmod 700
+│                        │      │                   /run/containerd/io.containerd.sandbox.controller.v1.shim
+│                        │      │                   An alternative mitigation would be to run containerd in
+│                        │      │                   [rootless
+│                        │      │                   mode](https://github.com/containerd/containerd/blob/main/do
+│                        │      │                   cs/rootless.md).
+│                        │      │                   ### Credits
+│                        │      │                   The containerd project would like to thank David Leadbeater
+│                        │      │                    for responsibly disclosing this issue in accordance with
+│                        │      │                   the [containerd security
+│                        │      │                   policy](https://github.com/containerd/project/blob/main/SEC
+│                        │      │                   URITY.md).
+│                        │      │                   ### For more information
+│                        │      │                   If you have any questions or comments about this advisory:
+│                        │      │                   * Open an issue in
+│                        │      │                   [containerd](https://github.com/containerd/containerd/issue
+│                        │      │                   s/new/choose)
+│                        │      │                   * Email us at
+│                        │      │                   [security@containerd.io](mailto:security@containerd.io)
+│                        │      │                   To report a security issue in containerd:
+│                        │      │                   * [Report a new
+│                        │      │                   vulnerability](https://github.com/containerd/containerd/sec
+│                        │      │                   urity/advisories/new) 
+│                        │      ├ Severity        : HIGH 
+│                        │      ├ VendorSeverity   ─ ghsa: 3 
+│                        │      ├ CVSS             ─ ghsa ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/
+│                        │      │                         │           A:H 
+│                        │      │                         ╰ V3Score : 7.3 
+│                        │      ╰ References       ╭ [0]: https://github.com/containerd/containerd 
+│                        │                         ├ [1]: https://github.com/containerd/containerd/commit/7c59e
+│                        │                         │      8e9e970d38061a77b586b23655c352bfec5 
+│                        │                         ╰ [2]: https://github.com/containerd/containerd/security/adv
+│                        │                                isories/GHSA-pwhc-rpq9-4c8w 
+│                        ├ [1]  ╭ VulnerabilityID : CVE-2024-40635 
 │                        │      ├ PkgID           : github.com/containerd/containerd@v1.7.19 
 │                        │      ├ PkgName         : github.com/containerd/containerd 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/github.com/containerd/containerd@v1.7.19 
@@ -35896,7 +36457,7 @@
 │                        │      │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2024-40635 
 │                        │      ├ PublishedDate   : 2025-03-17T22:15:13.15Z 
 │                        │      ╰ LastModifiedDate: 2025-10-02T01:51:43.21Z 
-│                        ├ [1]  ╭ VulnerabilityID : CVE-2024-41110 
+│                        ├ [2]  ╭ VulnerabilityID : CVE-2024-41110 
 │                        │      ├ PkgID           : github.com/docker/docker@v27.0.3+incompatible 
 │                        │      ├ PkgName         : github.com/docker/docker 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/github.com/docker/docker@v27.0.3%2Bincomp
@@ -36003,7 +36564,7 @@
 │                        │      │                          -docker-engine-authz-plugin/ 
 │                        │      ├ PublishedDate   : 2024-07-24T17:15:11.053Z 
 │                        │      ╰ LastModifiedDate: 2024-11-21T09:32:15.16Z 
-│                        ├ [2]  ╭ VulnerabilityID : CVE-2025-54410 
+│                        ├ [3]  ╭ VulnerabilityID : CVE-2025-54410 
 │                        │      ├ PkgID           : github.com/docker/docker@v27.0.3+incompatible 
 │                        │      ├ PkgName         : github.com/docker/docker 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/github.com/docker/docker@v27.0.3%2Bincomp
@@ -36067,7 +36628,7 @@
 │                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-54410 
 │                        │      ├ PublishedDate   : 2025-07-30T14:15:28.9Z 
 │                        │      ╰ LastModifiedDate: 2025-08-22T17:27:29.677Z 
-│                        ├ [3]  ╭ VulnerabilityID : CVE-2024-45337 
+│                        ├ [4]  ╭ VulnerabilityID : CVE-2024-45337 
 │                        │      ├ PkgID           : golang.org/x/crypto@v0.24.0 
 │                        │      ├ PkgName         : golang.org/x/crypto 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/golang.org/x/crypto@v0.24.0 
@@ -36166,7 +36727,7 @@
 │                        │      │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2024-45337 
 │                        │      ├ PublishedDate   : 2024-12-12T02:02:07.97Z 
 │                        │      ╰ LastModifiedDate: 2025-02-18T21:15:22.187Z 
-│                        ├ [4]  ╭ VulnerabilityID : CVE-2025-22869 
+│                        ├ [5]  ╭ VulnerabilityID : CVE-2025-22869 
 │                        │      ├ PkgID           : golang.org/x/crypto@v0.24.0 
 │                        │      ├ PkgName         : golang.org/x/crypto 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/golang.org/x/crypto@v0.24.0 
@@ -36232,7 +36793,7 @@
 │                        │      │                  ╰ [18]: https://www.cve.org/CVERecord?id=CVE-2025-22869 
 │                        │      ├ PublishedDate   : 2025-02-26T08:14:24.997Z 
 │                        │      ╰ LastModifiedDate: 2025-05-01T19:28:20.74Z 
-│                        ├ [5]  ╭ VulnerabilityID : CVE-2025-22870 
+│                        ├ [6]  ╭ VulnerabilityID : CVE-2025-22870 
 │                        │      ├ PkgID           : golang.org/x/net@v0.26.0 
 │                        │      ├ PkgName         : golang.org/x/net 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/golang.org/x/net@v0.26.0 
@@ -36290,7 +36851,7 @@
 │                        │      │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2025-22870 
 │                        │      ├ PublishedDate   : 2025-03-12T19:15:38.31Z 
 │                        │      ╰ LastModifiedDate: 2025-05-09T20:15:38.727Z 
-│                        ├ [6]  ╭ VulnerabilityID : CVE-2025-22872 
+│                        ├ [7]  ╭ VulnerabilityID : CVE-2025-22872 
 │                        │      ├ PkgID           : golang.org/x/net@v0.26.0 
 │                        │      ├ PkgName         : golang.org/x/net 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/golang.org/x/net@v0.26.0 
@@ -36341,7 +36902,7 @@
 │                        │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2025-22872 
 │                        │      ├ PublishedDate   : 2025-04-16T18:16:04.183Z 
 │                        │      ╰ LastModifiedDate: 2025-05-16T23:15:19.707Z 
-│                        ├ [7]  ╭ VulnerabilityID : CVE-2025-22868 
+│                        ├ [8]  ╭ VulnerabilityID : CVE-2025-22868 
 │                        │      ├ PkgID           : golang.org/x/oauth2@v0.20.0 
 │                        │      ├ PkgName         : golang.org/x/oauth2 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/golang.org/x/oauth2@v0.20.0 
@@ -36398,7 +36959,7 @@
 │                        │      │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2025-22868 
 │                        │      ├ PublishedDate   : 2025-02-26T08:14:24.897Z 
 │                        │      ╰ LastModifiedDate: 2025-05-01T19:27:10.43Z 
-│                        ├ [8]  ╭ VulnerabilityID : GHSA-xr7q-jx4m-x55m 
+│                        ├ [9]  ╭ VulnerabilityID : GHSA-xr7q-jx4m-x55m 
 │                        │      ├ PkgID           : google.golang.org/grpc@v1.64.0 
 │                        │      ├ PkgName         : google.golang.org/grpc 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/google.golang.org/grpc@v1.64.0 
@@ -36440,7 +37001,7 @@
 │                        │      │                         HSA-xr7q-jx4m-x55m 
 │                        │      ├ PublishedDate   : 2024-07-05T20:07:01Z 
 │                        │      ╰ LastModifiedDate: 2024-07-09T21:38:29Z 
-│                        ├ [9]  ╭ VulnerabilityID : CVE-2025-47907 
+│                        ├ [10] ╭ VulnerabilityID : CVE-2025-47907 
 │                        │      ├ PkgID           : stdlib@v1.22.12 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.22.12 
@@ -36488,7 +37049,7 @@
 │                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-47907 
 │                        │      ├ PublishedDate   : 2025-08-07T16:15:30.357Z 
 │                        │      ╰ LastModifiedDate: 2025-11-04T22:16:16.347Z 
-│                        ├ [10] ╭ VulnerabilityID : CVE-2025-47912 
+│                        ├ [11] ╭ VulnerabilityID : CVE-2025-47912 
 │                        │      ├ PkgID           : stdlib@v1.22.12 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.22.12 
@@ -36514,16 +37075,21 @@
 │                        │      │                   hostnames must not appear within square brackets. Parse did
 │                        │      │                    not enforce this requirement. 
 │                        │      ├ Severity        : HIGH 
-│                        │      ├ VendorSeverity   ─ amazon: 3 
+│                        │      ├ VendorSeverity   ╭ amazon : 3 
+│                        │      │                  ╰ bitnami: 2 
+│                        │      ├ CVSS             ─ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I
+│                        │      │                            │           :N/A:N 
+│                        │      │                            ╰ V3Score : 5.3 
 │                        │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/10/08/1 
 │                        │      │                  ├ [1]: https://go.dev/cl/709857 
 │                        │      │                  ├ [2]: https://go.dev/issue/75678 
 │                        │      │                  ├ [3]: https://groups.google.com/g/golang-announce/c/4Emdl2i
 │                        │      │                  │      Q_bI 
-│                        │      │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2025-4010 
+│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-47912 
+│                        │      │                  ╰ [5]: https://pkg.go.dev/vuln/GO-2025-4010 
 │                        │      ├ PublishedDate   : 2025-10-29T23:16:18.187Z 
 │                        │      ╰ LastModifiedDate: 2025-11-04T22:16:16.497Z 
-│                        ├ [11] ╭ VulnerabilityID : CVE-2025-58183 
+│                        ├ [12] ╭ VulnerabilityID : CVE-2025-58183 
 │                        │      ├ PkgID           : stdlib@v1.22.12 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.22.12 
@@ -36549,16 +37115,21 @@
 │                        │      │                   from a compressed source, a small compressed input can
 │                        │      │                   result in large allocations. 
 │                        │      ├ Severity        : HIGH 
-│                        │      ├ VendorSeverity   ─ amazon: 3 
+│                        │      ├ VendorSeverity   ╭ amazon : 3 
+│                        │      │                  ╰ bitnami: 2 
+│                        │      ├ CVSS             ─ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I
+│                        │      │                            │           :N/A:L 
+│                        │      │                            ╰ V3Score : 4.3 
 │                        │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/10/08/1 
 │                        │      │                  ├ [1]: https://go.dev/cl/709861 
 │                        │      │                  ├ [2]: https://go.dev/issue/75677 
 │                        │      │                  ├ [3]: https://groups.google.com/g/golang-announce/c/4Emdl2i
 │                        │      │                  │      Q_bI 
-│                        │      │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2025-4014 
+│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-58183 
+│                        │      │                  ╰ [5]: https://pkg.go.dev/vuln/GO-2025-4014 
 │                        │      ├ PublishedDate   : 2025-10-29T23:16:19.357Z 
 │                        │      ╰ LastModifiedDate: 2025-11-04T22:16:33.2Z 
-│                        ├ [12] ╭ VulnerabilityID : CVE-2025-58186 
+│                        ├ [13] ╭ VulnerabilityID : CVE-2025-58186 
 │                        │      ├ PkgID           : stdlib@v1.22.12 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.22.12 
@@ -36582,16 +37153,21 @@
 │                        │      │                   attacker can make an HTTP server allocate a large amount of
 │                        │      │                    structs, causing large memory consumption. 
 │                        │      ├ Severity        : HIGH 
-│                        │      ├ VendorSeverity   ─ amazon: 3 
+│                        │      ├ VendorSeverity   ╭ amazon : 3 
+│                        │      │                  ╰ bitnami: 2 
+│                        │      ├ CVSS             ─ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                        │      │                            │           :N/A:L 
+│                        │      │                            ╰ V3Score : 5.3 
 │                        │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/10/08/1 
 │                        │      │                  ├ [1]: https://go.dev/cl/709855 
 │                        │      │                  ├ [2]: https://go.dev/issue/75672 
 │                        │      │                  ├ [3]: https://groups.google.com/g/golang-announce/c/4Emdl2i
 │                        │      │                  │      Q_bI 
-│                        │      │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2025-4012 
+│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-58186 
+│                        │      │                  ╰ [5]: https://pkg.go.dev/vuln/GO-2025-4012 
 │                        │      ├ PublishedDate   : 2025-10-29T23:16:19.547Z 
 │                        │      ╰ LastModifiedDate: 2025-11-04T22:16:33.45Z 
-│                        ├ [13] ╭ VulnerabilityID : CVE-2025-58187 
+│                        ├ [14] ╭ VulnerabilityID : CVE-2025-58187 
 │                        │      ├ PkgID           : stdlib@v1.22.12 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.22.12 
@@ -36615,16 +37191,21 @@
 │                        │      │                   This affects programs which validate arbitrary certificate
 │                        │      │                   chains. 
 │                        │      ├ Severity        : HIGH 
-│                        │      ├ VendorSeverity   ─ amazon: 3 
+│                        │      ├ VendorSeverity   ╭ amazon : 3 
+│                        │      │                  ╰ bitnami: 3 
+│                        │      ├ CVSS             ─ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                        │      │                            │           :N/A:H 
+│                        │      │                            ╰ V3Score : 7.5 
 │                        │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/10/08/1 
 │                        │      │                  ├ [1]: https://go.dev/cl/709854 
 │                        │      │                  ├ [2]: https://go.dev/issue/75681 
 │                        │      │                  ├ [3]: https://groups.google.com/g/golang-announce/c/4Emdl2i
 │                        │      │                  │      Q_bI 
-│                        │      │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2025-4007 
+│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-58187 
+│                        │      │                  ╰ [5]: https://pkg.go.dev/vuln/GO-2025-4007 
 │                        │      ├ PublishedDate   : 2025-10-29T23:16:19.643Z 
 │                        │      ╰ LastModifiedDate: 2025-11-04T22:16:33.593Z 
-│                        ├ [14] ╭ VulnerabilityID : CVE-2025-58188 
+│                        ├ [15] ╭ VulnerabilityID : CVE-2025-58188 
 │                        │      ├ PkgID           : stdlib@v1.22.12 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.22.12 
@@ -36647,16 +37228,21 @@
 │                        │      │                   assumes they implement the Equal method. This affects
 │                        │      │                   programs which validate arbitrary certificate chains. 
 │                        │      ├ Severity        : HIGH 
-│                        │      ├ VendorSeverity   ─ amazon: 3 
+│                        │      ├ VendorSeverity   ╭ amazon : 3 
+│                        │      │                  ╰ bitnami: 3 
+│                        │      ├ CVSS             ─ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                        │      │                            │           :N/A:H 
+│                        │      │                            ╰ V3Score : 7.5 
 │                        │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/10/08/1 
 │                        │      │                  ├ [1]: https://go.dev/cl/709853 
 │                        │      │                  ├ [2]: https://go.dev/issue/75675 
 │                        │      │                  ├ [3]: https://groups.google.com/g/golang-announce/c/4Emdl2i
 │                        │      │                  │      Q_bI 
-│                        │      │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2025-4013 
+│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-58188 
+│                        │      │                  ╰ [5]: https://pkg.go.dev/vuln/GO-2025-4013 
 │                        │      ├ PublishedDate   : 2025-10-29T23:16:19.74Z 
 │                        │      ╰ LastModifiedDate: 2025-11-04T22:16:33.74Z 
-│                        ├ [15] ╭ VulnerabilityID : CVE-2025-61724 
+│                        ├ [16] ╭ VulnerabilityID : CVE-2025-61724 
 │                        │      ├ PkgID           : stdlib@v1.22.12 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.22.12 
@@ -36679,16 +37265,21 @@
 │                        │      │                    the number of lines in a response is large, this can cause
 │                        │      │                    excessive CPU consumption. 
 │                        │      ├ Severity        : HIGH 
-│                        │      ├ VendorSeverity   ─ amazon: 3 
+│                        │      ├ VendorSeverity   ╭ amazon : 3 
+│                        │      │                  ╰ bitnami: 2 
+│                        │      ├ CVSS             ─ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                        │      │                            │           :N/A:L 
+│                        │      │                            ╰ V3Score : 5.3 
 │                        │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/10/08/1 
 │                        │      │                  ├ [1]: https://go.dev/cl/709859 
 │                        │      │                  ├ [2]: https://go.dev/issue/75716 
 │                        │      │                  ├ [3]: https://groups.google.com/g/golang-announce/c/4Emdl2i
 │                        │      │                  │      Q_bI 
-│                        │      │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2025-4015 
+│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-61724 
+│                        │      │                  ╰ [5]: https://pkg.go.dev/vuln/GO-2025-4015 
 │                        │      ├ PublishedDate   : 2025-10-29T23:16:20.02Z 
 │                        │      ╰ LastModifiedDate: 2025-11-04T22:16:36.567Z 
-│                        ├ [16] ╭ VulnerabilityID : CVE-2025-0913 
+│                        ├ [17] ╭ VulnerabilityID : CVE-2025-0913 
 │                        │      ├ PkgID           : stdlib@v1.22.12 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.22.12 
@@ -36728,7 +37319,7 @@
 │                        │      │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2025-3750 
 │                        │      ├ PublishedDate   : 2025-06-11T18:15:24.627Z 
 │                        │      ╰ LastModifiedDate: 2025-08-08T14:53:03.55Z 
-│                        ├ [17] ╭ VulnerabilityID : CVE-2025-22871 
+│                        ├ [18] ╭ VulnerabilityID : CVE-2025-22871 
 │                        │      ├ PkgID           : stdlib@v1.22.12 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.22.12 
@@ -36797,7 +37388,7 @@
 │                        │      │                  ╰ [19]: https://www.cve.org/CVERecord?id=CVE-2025-22871 
 │                        │      ├ PublishedDate   : 2025-04-08T20:15:20.183Z 
 │                        │      ╰ LastModifiedDate: 2025-04-18T15:15:57.923Z 
-│                        ├ [18] ╭ VulnerabilityID : CVE-2025-4673 
+│                        ├ [19] ╭ VulnerabilityID : CVE-2025-4673 
 │                        │      ├ PkgID           : stdlib@v1.22.12 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.22.12 
@@ -36854,7 +37445,7 @@
 │                        │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2025-4673 
 │                        │      ├ PublishedDate   : 2025-06-11T17:15:42.993Z 
 │                        │      ╰ LastModifiedDate: 2025-06-12T16:06:20.18Z 
-│                        ├ [19] ╭ VulnerabilityID : CVE-2025-47906 
+│                        ├ [20] ╭ VulnerabilityID : CVE-2025-47906 
 │                        │      ├ PkgID           : stdlib@v1.22.12 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.22.12 
@@ -36897,7 +37488,7 @@
 │                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-47906 
 │                        │      ├ PublishedDate   : 2025-09-18T19:15:37.66Z 
 │                        │      ╰ LastModifiedDate: 2025-11-04T22:16:16.207Z 
-│                        ├ [20] ╭ VulnerabilityID : CVE-2025-58185 
+│                        ├ [21] ╭ VulnerabilityID : CVE-2025-58185 
 │                        │      ├ PkgID           : stdlib@v1.22.12 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.22.12 
@@ -36918,11 +37509,15 @@
 │                        │      ├ Description     : Parsing a maliciously crafted DER payload could allocate
 │                        │      │                   large amounts of memory, causing memory exhaustion. 
 │                        │      ├ Severity        : MEDIUM 
-│                        │      ├ VendorSeverity   ╭ amazon: 3 
-│                        │      │                  ╰ redhat: 2 
-│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
-│                        │      │                           │           N/A:L 
-│                        │      │                           ╰ V3Score : 5.3 
+│                        │      ├ VendorSeverity   ╭ amazon : 3 
+│                        │      │                  ├ bitnami: 2 
+│                        │      │                  ╰ redhat : 2 
+│                        │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                        │      │                  │         │           :N/A:L 
+│                        │      │                  │         ╰ V3Score : 5.3 
+│                        │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                        │      │                            │           :N/A:L 
+│                        │      │                            ╰ V3Score : 5.3 
 │                        │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/10/08/1 
 │                        │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-58185 
 │                        │      │                  ├ [2]: https://github.com/golang/go/commit/8709a41d5ef7321f4
@@ -36936,7 +37531,7 @@
 │                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2025-58185 
 │                        │      ├ PublishedDate   : 2025-10-29T23:16:19.45Z 
 │                        │      ╰ LastModifiedDate: 2025-11-04T22:16:33.327Z 
-│                        ├ [21] ╭ VulnerabilityID : CVE-2025-58189 
+│                        ├ [22] ╭ VulnerabilityID : CVE-2025-58189 
 │                        │      ├ PkgID           : stdlib@v1.22.12 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.22.12 
@@ -36958,11 +37553,15 @@
 │                        │      │                    contains attacker controlled information (the ALPN
 │                        │      │                   protocols sent by the client) which is not escaped. 
 │                        │      ├ Severity        : MEDIUM 
-│                        │      ├ VendorSeverity   ╭ amazon: 3 
-│                        │      │                  ╰ redhat: 2 
-│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
-│                        │      │                           │           L/A:N 
-│                        │      │                           ╰ V3Score : 5.3 
+│                        │      ├ VendorSeverity   ╭ amazon : 3 
+│                        │      │                  ├ bitnami: 2 
+│                        │      │                  ╰ redhat : 2 
+│                        │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I
+│                        │      │                  │         │           :N/A:N 
+│                        │      │                  │         ╰ V3Score : 5.3 
+│                        │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                        │      │                            │           :L/A:N 
+│                        │      │                            ╰ V3Score : 5.3 
 │                        │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/10/08/1 
 │                        │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-58189 
 │                        │      │                  ├ [2]: https://go.dev/cl/707776 
@@ -36974,7 +37573,7 @@
 │                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-58189 
 │                        │      ├ PublishedDate   : 2025-10-29T23:16:19.833Z 
 │                        │      ╰ LastModifiedDate: 2025-11-04T22:16:33.877Z 
-│                        ├ [22] ╭ VulnerabilityID : CVE-2025-61723 
+│                        ├ [23] ╭ VulnerabilityID : CVE-2025-61723 
 │                        │      ├ PkgID           : stdlib@v1.22.12 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.22.12 
@@ -36996,11 +37595,15 @@
 │                        │      │                   non-linearly with respect to the size of the input. This
 │                        │      │                   affects programs which parse untrusted PEM inputs. 
 │                        │      ├ Severity        : MEDIUM 
-│                        │      ├ VendorSeverity   ╭ amazon: 3 
-│                        │      │                  ╰ redhat: 2 
-│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
-│                        │      │                           │           N/A:L 
-│                        │      │                           ╰ V3Score : 5.3 
+│                        │      ├ VendorSeverity   ╭ amazon : 3 
+│                        │      │                  ├ bitnami: 3 
+│                        │      │                  ╰ redhat : 2 
+│                        │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                        │      │                  │         │           :N/A:H 
+│                        │      │                  │         ╰ V3Score : 7.5 
+│                        │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                        │      │                            │           :N/A:L 
+│                        │      │                            ╰ V3Score : 5.3 
 │                        │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/10/08/1 
 │                        │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-61723 
 │                        │      │                  ├ [2]: https://github.com/golang/go/commit/5ce8cd16f3859ec5a
@@ -37014,7 +37617,7 @@
 │                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2025-61723 
 │                        │      ├ PublishedDate   : 2025-10-29T23:16:19.927Z 
 │                        │      ╰ LastModifiedDate: 2025-11-04T22:16:36.42Z 
-│                        ╰ [23] ╭ VulnerabilityID : CVE-2025-61725 
+│                        ╰ [24] ╭ VulnerabilityID : CVE-2025-61725 
 │                               ├ PkgID           : stdlib@v1.22.12 
 │                               ├ PkgName         : stdlib 
 │                               ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.22.12 
@@ -37037,11 +37640,15 @@
 │                               │                   When parsing large domain-literal components, this can
 │                               │                   cause excessive CPU consumption. 
 │                               ├ Severity        : MEDIUM 
-│                               ├ VendorSeverity   ╭ amazon: 3 
-│                               │                  ╰ redhat: 2 
-│                               ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
-│                               │                           │           N/A:L 
-│                               │                           ╰ V3Score : 5.3 
+│                               ├ VendorSeverity   ╭ amazon : 3 
+│                               │                  ├ bitnami: 3 
+│                               │                  ╰ redhat : 2 
+│                               ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                               │                  │         │           :N/A:H 
+│                               │                  │         ╰ V3Score : 7.5 
+│                               │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                               │                            │           :N/A:L 
+│                               │                            ╰ V3Score : 5.3 
 │                               ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/10/08/1 
 │                               │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-61725 
 │                               │                  ├ [2]: https://go.dev/cl/709860 
