@@ -24004,6 +24004,7 @@
     - https://access.redhat.com/errata/RHSA-2025:15827
     - https://access.redhat.com/errata/RHSA-2025:15828
     - https://access.redhat.com/errata/RHSA-2025:16524
+    - https://access.redhat.com/errata/RHSA-2025:17181
     - https://access.redhat.com/errata/RHSA-2025:18219
     - https://access.redhat.com/security/cve/CVE-2025-8941
     - https://bugzilla.redhat.com/2372512
@@ -24019,7 +24020,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-8941
     - https://www.cve.org/CVERecord?id=CVE-2025-8941
     PublishedDate: '2025-08-13T15:15:41.873Z'
-    LastModifiedDate: '2025-10-16T09:15:36.56Z'
+    LastModifiedDate: '2025-11-06T22:15:44.947Z'
   - VulnerabilityID: CVE-2025-8941
     PkgID: libpam-modules-bin@1.4.0-11ubuntu2.6
     PkgName: libpam-modules-bin
@@ -24067,6 +24068,7 @@
     - https://access.redhat.com/errata/RHSA-2025:15827
     - https://access.redhat.com/errata/RHSA-2025:15828
     - https://access.redhat.com/errata/RHSA-2025:16524
+    - https://access.redhat.com/errata/RHSA-2025:17181
     - https://access.redhat.com/errata/RHSA-2025:18219
     - https://access.redhat.com/security/cve/CVE-2025-8941
     - https://bugzilla.redhat.com/2372512
@@ -24082,7 +24084,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-8941
     - https://www.cve.org/CVERecord?id=CVE-2025-8941
     PublishedDate: '2025-08-13T15:15:41.873Z'
-    LastModifiedDate: '2025-10-16T09:15:36.56Z'
+    LastModifiedDate: '2025-11-06T22:15:44.947Z'
   - VulnerabilityID: CVE-2025-8941
     PkgID: libpam-runtime@1.4.0-11ubuntu2.6
     PkgName: libpam-runtime
@@ -24130,6 +24132,7 @@
     - https://access.redhat.com/errata/RHSA-2025:15827
     - https://access.redhat.com/errata/RHSA-2025:15828
     - https://access.redhat.com/errata/RHSA-2025:16524
+    - https://access.redhat.com/errata/RHSA-2025:17181
     - https://access.redhat.com/errata/RHSA-2025:18219
     - https://access.redhat.com/security/cve/CVE-2025-8941
     - https://bugzilla.redhat.com/2372512
@@ -24145,7 +24148,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-8941
     - https://www.cve.org/CVERecord?id=CVE-2025-8941
     PublishedDate: '2025-08-13T15:15:41.873Z'
-    LastModifiedDate: '2025-10-16T09:15:36.56Z'
+    LastModifiedDate: '2025-11-06T22:15:44.947Z'
   - VulnerabilityID: CVE-2023-7008
     PkgID: libpam-systemd@249.11-0ubuntu3.17
     PkgName: libpam-systemd
@@ -24254,6 +24257,7 @@
     - https://access.redhat.com/errata/RHSA-2025:15827
     - https://access.redhat.com/errata/RHSA-2025:15828
     - https://access.redhat.com/errata/RHSA-2025:16524
+    - https://access.redhat.com/errata/RHSA-2025:17181
     - https://access.redhat.com/errata/RHSA-2025:18219
     - https://access.redhat.com/security/cve/CVE-2025-8941
     - https://bugzilla.redhat.com/2372512
@@ -24269,7 +24273,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-8941
     - https://www.cve.org/CVERecord?id=CVE-2025-8941
     PublishedDate: '2025-08-13T15:15:41.873Z'
-    LastModifiedDate: '2025-10-16T09:15:36.56Z'
+    LastModifiedDate: '2025-11-06T22:15:44.947Z'
   - VulnerabilityID: CVE-2022-41409
     PkgID: libpcre2-8-0@10.39-3ubuntu0.1
     PkgName: libpcre2-8-0
@@ -27103,23 +27107,29 @@
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
-    Title: tar.Reader does not set a maximum size on the number of sparse region  ...
+    Title: 'golang: archive/tar: Unbounded allocation when parsing GNU sparse map'
     Description: tar.Reader does not set a maximum size on the number of sparse region data blocks in GNU tar pax 1.0 sparse files. A maliciously-crafted archive containing a large number of sparse regions can cause a Reader to read an unbounded amount of data from the archive into memory. When reading from a compressed source, a small compressed input can result in large allocations.
     Severity: HIGH
     VendorSeverity:
       amazon: 3
       bitnami: 2
+      redhat: 2
     CVSS:
       bitnami:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:L
         V3Score: 4.3
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
     References:
     - http://www.openwall.com/lists/oss-security/2025/10/08/1
+    - https://access.redhat.com/security/cve/CVE-2025-58183
     - https://go.dev/cl/709861
     - https://go.dev/issue/75677
     - https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI
     - https://nvd.nist.gov/vuln/detail/CVE-2025-58183
     - https://pkg.go.dev/vuln/GO-2025-4014
+    - https://www.cve.org/CVERecord?id=CVE-2025-58183
     PublishedDate: '2025-10-29T23:16:19.357Z'
     LastModifiedDate: '2025-11-04T22:16:33.2Z'
   - VulnerabilityID: CVE-2025-58186
@@ -27230,6 +27240,78 @@
     - https://pkg.go.dev/vuln/GO-2025-4013
     PublishedDate: '2025-10-29T23:16:19.74Z'
     LastModifiedDate: '2025-11-04T22:16:33.74Z'
+  - VulnerabilityID: CVE-2025-58189
+    PkgID: stdlib@v1.24.1
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@v1.24.1
+      UID: 2add7c57bc4db0d1
+    InstalledVersion: v1.24.1
+    FixedVersion: 1.24.8, 1.25.2
+    Status: fixed
+    Layer:
+      Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f672d99cf12d59721fb5d9
+      DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7277787fa3578e3352a155
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-58189
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: When Conn.Handshake fails during ALPN negotiation the error contains a ...
+    Description: When Conn.Handshake fails during ALPN negotiation the error contains attacker controlled information (the ALPN protocols sent by the client) which is not escaped.
+    Severity: HIGH
+    VendorSeverity:
+      amazon: 3
+      bitnami: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
+        V3Score: 5.3
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/10/08/1
+    - https://go.dev/cl/707776
+    - https://go.dev/issue/75652
+    - https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-58189
+    - https://pkg.go.dev/vuln/GO-2025-4008
+    PublishedDate: '2025-10-29T23:16:19.833Z'
+    LastModifiedDate: '2025-11-04T22:16:33.877Z'
+  - VulnerabilityID: CVE-2025-61723
+    PkgID: stdlib@v1.24.1
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@v1.24.1
+      UID: 2add7c57bc4db0d1
+    InstalledVersion: v1.24.1
+    FixedVersion: 1.24.8, 1.25.2
+    Status: fixed
+    Layer:
+      Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f672d99cf12d59721fb5d9
+      DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7277787fa3578e3352a155
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-61723
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: The processing time for parsing some invalid inputs scales non-linearl ...
+    Description: The processing time for parsing some invalid inputs scales non-linearly with respect to the size of the input. This affects programs which parse untrusted PEM inputs.
+    Severity: HIGH
+    VendorSeverity:
+      amazon: 3
+      bitnami: 3
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/10/08/1
+    - https://go.dev/cl/709858
+    - https://go.dev/issue/75676
+    - https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-61723
+    - https://pkg.go.dev/vuln/GO-2025-4009
+    PublishedDate: '2025-10-29T23:16:19.927Z'
+    LastModifiedDate: '2025-11-04T22:16:36.42Z'
   - VulnerabilityID: CVE-2025-61724
     PkgID: stdlib@v1.24.1
     PkgName: stdlib
@@ -27506,91 +27588,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-58185
     PublishedDate: '2025-10-29T23:16:19.45Z'
     LastModifiedDate: '2025-11-04T22:16:33.327Z'
-  - VulnerabilityID: CVE-2025-58189
-    PkgID: stdlib@v1.24.1
-    PkgName: stdlib
-    PkgIdentifier:
-      PURL: pkg:golang/stdlib@v1.24.1
-      UID: 2add7c57bc4db0d1
-    InstalledVersion: v1.24.1
-    FixedVersion: 1.24.8, 1.25.2
-    Status: fixed
-    Layer:
-      Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f672d99cf12d59721fb5d9
-      DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7277787fa3578e3352a155
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-58189
-    DataSource:
-      ID: govulndb
-      Name: The Go Vulnerability Database
-      URL: https://pkg.go.dev/vuln/
-    Title: 'crypto/tls: go crypto/tls ALPN negotiation error contains attacker controlled information'
-    Description: When Conn.Handshake fails during ALPN negotiation the error contains attacker controlled information (the ALPN protocols sent by the client) which is not escaped.
-    Severity: MEDIUM
-    VendorSeverity:
-      amazon: 3
-      bitnami: 2
-      redhat: 2
-    CVSS:
-      bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
-        V3Score: 5.3
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
-        V3Score: 5.3
-    References:
-    - http://www.openwall.com/lists/oss-security/2025/10/08/1
-    - https://access.redhat.com/security/cve/CVE-2025-58189
-    - https://go.dev/cl/707776
-    - https://go.dev/issue/75652
-    - https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-58189
-    - https://pkg.go.dev/vuln/GO-2025-4008
-    - https://www.cve.org/CVERecord?id=CVE-2025-58189
-    PublishedDate: '2025-10-29T23:16:19.833Z'
-    LastModifiedDate: '2025-11-04T22:16:33.877Z'
-  - VulnerabilityID: CVE-2025-61723
-    PkgID: stdlib@v1.24.1
-    PkgName: stdlib
-    PkgIdentifier:
-      PURL: pkg:golang/stdlib@v1.24.1
-      UID: 2add7c57bc4db0d1
-    InstalledVersion: v1.24.1
-    FixedVersion: 1.24.8, 1.25.2
-    Status: fixed
-    Layer:
-      Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f672d99cf12d59721fb5d9
-      DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7277787fa3578e3352a155
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-61723
-    DataSource:
-      ID: govulndb
-      Name: The Go Vulnerability Database
-      URL: https://pkg.go.dev/vuln/
-    Title: 'encoding/pem: Quadratic complexity when parsing some invalid inputs in encoding/pem'
-    Description: The processing time for parsing some invalid inputs scales non-linearly with respect to the size of the input. This affects programs which parse untrusted PEM inputs.
-    Severity: MEDIUM
-    VendorSeverity:
-      amazon: 3
-      bitnami: 3
-      redhat: 2
-    CVSS:
-      bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
-        V3Score: 5.3
-    References:
-    - http://www.openwall.com/lists/oss-security/2025/10/08/1
-    - https://access.redhat.com/security/cve/CVE-2025-61723
-    - https://github.com/golang/go/commit/5ce8cd16f3859ec5ac4106ad8ec15d6236f4501b
-    - https://go.dev/cl/709858
-    - https://go.dev/issue/75676
-    - https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-61723
-    - https://pkg.go.dev/vuln/GO-2025-4009
-    - https://www.cve.org/CVERecord?id=CVE-2025-61723
-    PublishedDate: '2025-10-29T23:16:19.927Z'
-    LastModifiedDate: '2025-11-04T22:16:36.42Z'
   - VulnerabilityID: CVE-2025-61725
     PkgID: stdlib@v1.24.1
     PkgName: stdlib
@@ -28230,23 +28227,29 @@
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
-    Title: tar.Reader does not set a maximum size on the number of sparse region  ...
+    Title: 'golang: archive/tar: Unbounded allocation when parsing GNU sparse map'
     Description: tar.Reader does not set a maximum size on the number of sparse region data blocks in GNU tar pax 1.0 sparse files. A maliciously-crafted archive containing a large number of sparse regions can cause a Reader to read an unbounded amount of data from the archive into memory. When reading from a compressed source, a small compressed input can result in large allocations.
     Severity: HIGH
     VendorSeverity:
       amazon: 3
       bitnami: 2
+      redhat: 2
     CVSS:
       bitnami:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:L
         V3Score: 4.3
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
     References:
     - http://www.openwall.com/lists/oss-security/2025/10/08/1
+    - https://access.redhat.com/security/cve/CVE-2025-58183
     - https://go.dev/cl/709861
     - https://go.dev/issue/75677
     - https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI
     - https://nvd.nist.gov/vuln/detail/CVE-2025-58183
     - https://pkg.go.dev/vuln/GO-2025-4014
+    - https://www.cve.org/CVERecord?id=CVE-2025-58183
     PublishedDate: '2025-10-29T23:16:19.357Z'
     LastModifiedDate: '2025-11-04T22:16:33.2Z'
   - VulnerabilityID: CVE-2025-58186
@@ -28357,6 +28360,78 @@
     - https://pkg.go.dev/vuln/GO-2025-4013
     PublishedDate: '2025-10-29T23:16:19.74Z'
     LastModifiedDate: '2025-11-04T22:16:33.74Z'
+  - VulnerabilityID: CVE-2025-58189
+    PkgID: stdlib@v1.24.1
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@v1.24.1
+      UID: c825b3cf378963b8
+    InstalledVersion: v1.24.1
+    FixedVersion: 1.24.8, 1.25.2
+    Status: fixed
+    Layer:
+      Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f672d99cf12d59721fb5d9
+      DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7277787fa3578e3352a155
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-58189
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: When Conn.Handshake fails during ALPN negotiation the error contains a ...
+    Description: When Conn.Handshake fails during ALPN negotiation the error contains attacker controlled information (the ALPN protocols sent by the client) which is not escaped.
+    Severity: HIGH
+    VendorSeverity:
+      amazon: 3
+      bitnami: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
+        V3Score: 5.3
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/10/08/1
+    - https://go.dev/cl/707776
+    - https://go.dev/issue/75652
+    - https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-58189
+    - https://pkg.go.dev/vuln/GO-2025-4008
+    PublishedDate: '2025-10-29T23:16:19.833Z'
+    LastModifiedDate: '2025-11-04T22:16:33.877Z'
+  - VulnerabilityID: CVE-2025-61723
+    PkgID: stdlib@v1.24.1
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@v1.24.1
+      UID: c825b3cf378963b8
+    InstalledVersion: v1.24.1
+    FixedVersion: 1.24.8, 1.25.2
+    Status: fixed
+    Layer:
+      Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f672d99cf12d59721fb5d9
+      DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7277787fa3578e3352a155
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-61723
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: The processing time for parsing some invalid inputs scales non-linearl ...
+    Description: The processing time for parsing some invalid inputs scales non-linearly with respect to the size of the input. This affects programs which parse untrusted PEM inputs.
+    Severity: HIGH
+    VendorSeverity:
+      amazon: 3
+      bitnami: 3
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/10/08/1
+    - https://go.dev/cl/709858
+    - https://go.dev/issue/75676
+    - https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-61723
+    - https://pkg.go.dev/vuln/GO-2025-4009
+    PublishedDate: '2025-10-29T23:16:19.927Z'
+    LastModifiedDate: '2025-11-04T22:16:36.42Z'
   - VulnerabilityID: CVE-2025-61724
     PkgID: stdlib@v1.24.1
     PkgName: stdlib
@@ -28633,91 +28708,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-58185
     PublishedDate: '2025-10-29T23:16:19.45Z'
     LastModifiedDate: '2025-11-04T22:16:33.327Z'
-  - VulnerabilityID: CVE-2025-58189
-    PkgID: stdlib@v1.24.1
-    PkgName: stdlib
-    PkgIdentifier:
-      PURL: pkg:golang/stdlib@v1.24.1
-      UID: c825b3cf378963b8
-    InstalledVersion: v1.24.1
-    FixedVersion: 1.24.8, 1.25.2
-    Status: fixed
-    Layer:
-      Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f672d99cf12d59721fb5d9
-      DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7277787fa3578e3352a155
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-58189
-    DataSource:
-      ID: govulndb
-      Name: The Go Vulnerability Database
-      URL: https://pkg.go.dev/vuln/
-    Title: 'crypto/tls: go crypto/tls ALPN negotiation error contains attacker controlled information'
-    Description: When Conn.Handshake fails during ALPN negotiation the error contains attacker controlled information (the ALPN protocols sent by the client) which is not escaped.
-    Severity: MEDIUM
-    VendorSeverity:
-      amazon: 3
-      bitnami: 2
-      redhat: 2
-    CVSS:
-      bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
-        V3Score: 5.3
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
-        V3Score: 5.3
-    References:
-    - http://www.openwall.com/lists/oss-security/2025/10/08/1
-    - https://access.redhat.com/security/cve/CVE-2025-58189
-    - https://go.dev/cl/707776
-    - https://go.dev/issue/75652
-    - https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-58189
-    - https://pkg.go.dev/vuln/GO-2025-4008
-    - https://www.cve.org/CVERecord?id=CVE-2025-58189
-    PublishedDate: '2025-10-29T23:16:19.833Z'
-    LastModifiedDate: '2025-11-04T22:16:33.877Z'
-  - VulnerabilityID: CVE-2025-61723
-    PkgID: stdlib@v1.24.1
-    PkgName: stdlib
-    PkgIdentifier:
-      PURL: pkg:golang/stdlib@v1.24.1
-      UID: c825b3cf378963b8
-    InstalledVersion: v1.24.1
-    FixedVersion: 1.24.8, 1.25.2
-    Status: fixed
-    Layer:
-      Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f672d99cf12d59721fb5d9
-      DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7277787fa3578e3352a155
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-61723
-    DataSource:
-      ID: govulndb
-      Name: The Go Vulnerability Database
-      URL: https://pkg.go.dev/vuln/
-    Title: 'encoding/pem: Quadratic complexity when parsing some invalid inputs in encoding/pem'
-    Description: The processing time for parsing some invalid inputs scales non-linearly with respect to the size of the input. This affects programs which parse untrusted PEM inputs.
-    Severity: MEDIUM
-    VendorSeverity:
-      amazon: 3
-      bitnami: 3
-      redhat: 2
-    CVSS:
-      bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
-        V3Score: 5.3
-    References:
-    - http://www.openwall.com/lists/oss-security/2025/10/08/1
-    - https://access.redhat.com/security/cve/CVE-2025-61723
-    - https://github.com/golang/go/commit/5ce8cd16f3859ec5ac4106ad8ec15d6236f4501b
-    - https://go.dev/cl/709858
-    - https://go.dev/issue/75676
-    - https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-61723
-    - https://pkg.go.dev/vuln/GO-2025-4009
-    - https://www.cve.org/CVERecord?id=CVE-2025-61723
-    PublishedDate: '2025-10-29T23:16:19.927Z'
-    LastModifiedDate: '2025-11-04T22:16:36.42Z'
   - VulnerabilityID: CVE-2025-61725
     PkgID: stdlib@v1.24.1
     PkgName: stdlib
@@ -30594,66 +30584,11 @@
       ID: ghsa
       Name: GitHub Security Advisory Go
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
-    Title: containerd affected by a local privilege escalation via wide permissions on CRI directory
-    Description: |-
-      ### Impact
-
-      An overly broad default permission vulnerability was found in containerd.
-
-      - `/var/lib/containerd` was created with the permission bits 0o711, while it should be created with 0o700
-        - Allowed local users on the host to potentially access the metadata store and the content store
-      - `/run/containerd/io.containerd.grpc.v1.cri` was created with 0o755, while it should be created with 0o700
-        - Allowed local users on the host to potentially access the contents of Kubernetes local volumes. The contents of volumes might include setuid binaries, which could allow a local user on the host to elevate privileges on the host.
-      - `/run/containerd/io.containerd.sandbox.controller.v1.shim` was created with 0o711, while it should be created with 0o700
-
-      The directory paths may differ depending on the daemon configuration.
-      When the `temp` directory path is specified in the daemon configuration, that directory was also created with 0o711, while it should be created with 0o700.
-
-      ### Patches
-
-      This bug has been fixed in the following containerd versions:
-
-      * 2.2.0
-      * 2.1.5
-      * 2.0.7
-      * 1.7.29
-
-      Users should update to these versions to resolve the issue.
-      These updates automatically change the permissions of the existing directories.
-
-      > [!NOTE]
-      >
-      > `/run/containerd` and `/run/containerd/io.containerd.runtime.v2.task` are still created with 0o711.
-      > This is an expected behavior for supporting userns-remapped containers.
-
-      ### Workarounds
-
-      The system administrator on the host can manually chmod the directories to not 
-      have group or world accessible permisisons:
-
-      ```
-      chmod 700 /var/lib/containerd
-      chmod 700 /run/containerd/io.containerd.grpc.v1.cri
-      chmod 700 /run/containerd/io.containerd.sandbox.controller.v1.shim
-      ```
-
-      An alternative mitigation would be to run containerd in [rootless mode](https://github.com/containerd/containerd/blob/main/docs/rootless.md).
-
-      ### Credits
-
-      The containerd project would like to thank David Leadbeater for responsibly disclosing this issue in accordance with the [containerd security policy](https://github.com/containerd/project/blob/main/SECURITY.md).
-
-      ### For more information
-
-      If you have any questions or comments about this advisory:
-
-      * Open an issue in [containerd](https://github.com/containerd/containerd/issues/new/choose)
-      * Email us at [security@containerd.io](mailto:security@containerd.io)
-
-      To report a security issue in containerd:
-
-      * [Report a new vulnerability](https://github.com/containerd/containerd/security/advisories/new)
+    Title: containerd is an open-source container runtime. Versions 0.1.0 through ...
+    Description: containerd is an open-source container runtime. Versions 0.1.0 through 1.7.28, 2.0.0-beta.0 through 2.0.6, 2.1.0-beta.0 through 2.1.4 and 2.2.0-beta.0 through 2.2.0-rc.1 have an overly broad default permission vulnerability. Directory paths `/var/lib/containerd`, `/run/containerd/io.containerd.grpc.v1.cri` and `/run/containerd/io.containerd.sandbox.controller.v1.shim` were all created with incorrect permissions. This issue is fixed in versions 1.7.29, 2.0.7, 2.1.5 and 2.2.0. Workarounds include updating system administrator permissions so the host can manually chmod the directories to not have group or world accessible permissions, or to run containerd in rootless mode.
     Severity: HIGH
+    CweIDs:
+    - CWE-279
     VendorSeverity:
       ghsa: 3
     CVSS:
@@ -30662,8 +30597,44 @@
         V3Score: 7.3
     References:
     - https://github.com/containerd/containerd
+    - https://github.com/containerd/containerd/blob/main/docs/rootless.md
     - https://github.com/containerd/containerd/commit/7c59e8e9e970d38061a77b586b23655c352bfec5
     - https://github.com/containerd/containerd/security/advisories/GHSA-pwhc-rpq9-4c8w
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-25621
+    PublishedDate: '2025-11-06T19:15:40.09Z'
+    LastModifiedDate: '2025-11-06T19:45:09.883Z'
+  - VulnerabilityID: CVE-2025-64329
+    PkgID: github.com/containerd/containerd/v2@v2.1.4
+    PkgName: github.com/containerd/containerd/v2
+    PkgIdentifier:
+      PURL: pkg:golang/github.com/containerd/containerd/v2@v2.1.4
+      UID: d7300a1b641747b7
+    InstalledVersion: v2.1.4
+    FixedVersion: 2.0.7, 2.1.5, 2.2.0
+    Status: fixed
+    Layer:
+      Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f672d99cf12d59721fb5d9
+      DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7277787fa3578e3352a155
+    SeveritySource: ghsa
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-64329
+    DataSource:
+      ID: ghsa
+      Name: GitHub Security Advisory Go
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
+    Title: containerd is an open-source container runtime. Versions 1.7.28 and be ...
+    Description: containerd is an open-source container runtime. Versions 1.7.28 and below, 2.0.0-beta.0 through 2.0.6, 2.1.0-beta.0 through 2.1.4, and 2.2.0-beta.0 through 2.2.0-rc.1 contain a bug in the CRI Attach implementation where a user can exhaust memory on the host due to goroutine leaks. This issue is fixed in versions 1.7.29, 2.0.7, 2.1.5 and 2.2.0. To workaround this vulnerability, users can set up an admission controller to control accesses to pods/attach resources.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-401
+    VendorSeverity:
+      ghsa: 2
+    References:
+    - https://github.com/containerd/containerd
+    - https://github.com/containerd/containerd/commit/083b53cd6f19b5de7717b0ce92c11bdf95e612df
+    - https://github.com/containerd/containerd/security/advisories/GHSA-m6hq-p25p-ffr2
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-64329
+    PublishedDate: '2025-11-07T05:16:08.017Z'
+    LastModifiedDate: '2025-11-07T05:16:08.017Z'
 - Target: usr/bin/helm
   Class: lang-pkgs
   Type: gobinary
@@ -31828,66 +31799,11 @@
       ID: ghsa
       Name: GitHub Security Advisory Go
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
-    Title: containerd affected by a local privilege escalation via wide permissions on CRI directory
-    Description: |-
-      ### Impact
-
-      An overly broad default permission vulnerability was found in containerd.
-
-      - `/var/lib/containerd` was created with the permission bits 0o711, while it should be created with 0o700
-        - Allowed local users on the host to potentially access the metadata store and the content store
-      - `/run/containerd/io.containerd.grpc.v1.cri` was created with 0o755, while it should be created with 0o700
-        - Allowed local users on the host to potentially access the contents of Kubernetes local volumes. The contents of volumes might include setuid binaries, which could allow a local user on the host to elevate privileges on the host.
-      - `/run/containerd/io.containerd.sandbox.controller.v1.shim` was created with 0o711, while it should be created with 0o700
-
-      The directory paths may differ depending on the daemon configuration.
-      When the `temp` directory path is specified in the daemon configuration, that directory was also created with 0o711, while it should be created with 0o700.
-
-      ### Patches
-
-      This bug has been fixed in the following containerd versions:
-
-      * 2.2.0
-      * 2.1.5
-      * 2.0.7
-      * 1.7.29
-
-      Users should update to these versions to resolve the issue.
-      These updates automatically change the permissions of the existing directories.
-
-      > [!NOTE]
-      >
-      > `/run/containerd` and `/run/containerd/io.containerd.runtime.v2.task` are still created with 0o711.
-      > This is an expected behavior for supporting userns-remapped containers.
-
-      ### Workarounds
-
-      The system administrator on the host can manually chmod the directories to not 
-      have group or world accessible permisisons:
-
-      ```
-      chmod 700 /var/lib/containerd
-      chmod 700 /run/containerd/io.containerd.grpc.v1.cri
-      chmod 700 /run/containerd/io.containerd.sandbox.controller.v1.shim
-      ```
-
-      An alternative mitigation would be to run containerd in [rootless mode](https://github.com/containerd/containerd/blob/main/docs/rootless.md).
-
-      ### Credits
-
-      The containerd project would like to thank David Leadbeater for responsibly disclosing this issue in accordance with the [containerd security policy](https://github.com/containerd/project/blob/main/SECURITY.md).
-
-      ### For more information
-
-      If you have any questions or comments about this advisory:
-
-      * Open an issue in [containerd](https://github.com/containerd/containerd/issues/new/choose)
-      * Email us at [security@containerd.io](mailto:security@containerd.io)
-
-      To report a security issue in containerd:
-
-      * [Report a new vulnerability](https://github.com/containerd/containerd/security/advisories/new)
+    Title: containerd is an open-source container runtime. Versions 0.1.0 through ...
+    Description: containerd is an open-source container runtime. Versions 0.1.0 through 1.7.28, 2.0.0-beta.0 through 2.0.6, 2.1.0-beta.0 through 2.1.4 and 2.2.0-beta.0 through 2.2.0-rc.1 have an overly broad default permission vulnerability. Directory paths `/var/lib/containerd`, `/run/containerd/io.containerd.grpc.v1.cri` and `/run/containerd/io.containerd.sandbox.controller.v1.shim` were all created with incorrect permissions. This issue is fixed in versions 1.7.29, 2.0.7, 2.1.5 and 2.2.0. Workarounds include updating system administrator permissions so the host can manually chmod the directories to not have group or world accessible permissions, or to run containerd in rootless mode.
     Severity: HIGH
+    CweIDs:
+    - CWE-279
     VendorSeverity:
       ghsa: 3
     CVSS:
@@ -31896,8 +31812,44 @@
         V3Score: 7.3
     References:
     - https://github.com/containerd/containerd
+    - https://github.com/containerd/containerd/blob/main/docs/rootless.md
     - https://github.com/containerd/containerd/commit/7c59e8e9e970d38061a77b586b23655c352bfec5
     - https://github.com/containerd/containerd/security/advisories/GHSA-pwhc-rpq9-4c8w
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-25621
+    PublishedDate: '2025-11-06T19:15:40.09Z'
+    LastModifiedDate: '2025-11-06T19:45:09.883Z'
+  - VulnerabilityID: CVE-2025-64329
+    PkgID: github.com/containerd/containerd@v1.7.28
+    PkgName: github.com/containerd/containerd
+    PkgIdentifier:
+      PURL: pkg:golang/github.com/containerd/containerd@v1.7.28
+      UID: b31f00fc0a8ae24b
+    InstalledVersion: v1.7.28
+    FixedVersion: 1.7.29
+    Status: fixed
+    Layer:
+      Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f672d99cf12d59721fb5d9
+      DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7277787fa3578e3352a155
+    SeveritySource: ghsa
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-64329
+    DataSource:
+      ID: ghsa
+      Name: GitHub Security Advisory Go
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
+    Title: containerd is an open-source container runtime. Versions 1.7.28 and be ...
+    Description: containerd is an open-source container runtime. Versions 1.7.28 and below, 2.0.0-beta.0 through 2.0.6, 2.1.0-beta.0 through 2.1.4, and 2.2.0-beta.0 through 2.2.0-rc.1 contain a bug in the CRI Attach implementation where a user can exhaust memory on the host due to goroutine leaks. This issue is fixed in versions 1.7.29, 2.0.7, 2.1.5 and 2.2.0. To workaround this vulnerability, users can set up an admission controller to control accesses to pods/attach resources.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-401
+    VendorSeverity:
+      ghsa: 2
+    References:
+    - https://github.com/containerd/containerd
+    - https://github.com/containerd/containerd/commit/083b53cd6f19b5de7717b0ce92c11bdf95e612df
+    - https://github.com/containerd/containerd/security/advisories/GHSA-m6hq-p25p-ffr2
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-64329
+    PublishedDate: '2025-11-07T05:16:08.017Z'
+    LastModifiedDate: '2025-11-07T05:16:08.017Z'
   - VulnerabilityID: CVE-2025-47912
     PkgID: stdlib@v1.24.7
     PkgName: stdlib
@@ -31951,23 +31903,29 @@
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
-    Title: tar.Reader does not set a maximum size on the number of sparse region  ...
+    Title: 'golang: archive/tar: Unbounded allocation when parsing GNU sparse map'
     Description: tar.Reader does not set a maximum size on the number of sparse region data blocks in GNU tar pax 1.0 sparse files. A maliciously-crafted archive containing a large number of sparse regions can cause a Reader to read an unbounded amount of data from the archive into memory. When reading from a compressed source, a small compressed input can result in large allocations.
     Severity: HIGH
     VendorSeverity:
       amazon: 3
       bitnami: 2
+      redhat: 2
     CVSS:
       bitnami:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:L
         V3Score: 4.3
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
     References:
     - http://www.openwall.com/lists/oss-security/2025/10/08/1
+    - https://access.redhat.com/security/cve/CVE-2025-58183
     - https://go.dev/cl/709861
     - https://go.dev/issue/75677
     - https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI
     - https://nvd.nist.gov/vuln/detail/CVE-2025-58183
     - https://pkg.go.dev/vuln/GO-2025-4014
+    - https://www.cve.org/CVERecord?id=CVE-2025-58183
     PublishedDate: '2025-10-29T23:16:19.357Z'
     LastModifiedDate: '2025-11-04T22:16:33.2Z'
   - VulnerabilityID: CVE-2025-58186
@@ -32078,6 +32036,78 @@
     - https://pkg.go.dev/vuln/GO-2025-4013
     PublishedDate: '2025-10-29T23:16:19.74Z'
     LastModifiedDate: '2025-11-04T22:16:33.74Z'
+  - VulnerabilityID: CVE-2025-58189
+    PkgID: stdlib@v1.24.7
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@v1.24.7
+      UID: dab6465cb6be340c
+    InstalledVersion: v1.24.7
+    FixedVersion: 1.24.8, 1.25.2
+    Status: fixed
+    Layer:
+      Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f672d99cf12d59721fb5d9
+      DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7277787fa3578e3352a155
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-58189
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: When Conn.Handshake fails during ALPN negotiation the error contains a ...
+    Description: When Conn.Handshake fails during ALPN negotiation the error contains attacker controlled information (the ALPN protocols sent by the client) which is not escaped.
+    Severity: HIGH
+    VendorSeverity:
+      amazon: 3
+      bitnami: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
+        V3Score: 5.3
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/10/08/1
+    - https://go.dev/cl/707776
+    - https://go.dev/issue/75652
+    - https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-58189
+    - https://pkg.go.dev/vuln/GO-2025-4008
+    PublishedDate: '2025-10-29T23:16:19.833Z'
+    LastModifiedDate: '2025-11-04T22:16:33.877Z'
+  - VulnerabilityID: CVE-2025-61723
+    PkgID: stdlib@v1.24.7
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@v1.24.7
+      UID: dab6465cb6be340c
+    InstalledVersion: v1.24.7
+    FixedVersion: 1.24.8, 1.25.2
+    Status: fixed
+    Layer:
+      Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f672d99cf12d59721fb5d9
+      DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7277787fa3578e3352a155
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-61723
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: The processing time for parsing some invalid inputs scales non-linearl ...
+    Description: The processing time for parsing some invalid inputs scales non-linearly with respect to the size of the input. This affects programs which parse untrusted PEM inputs.
+    Severity: HIGH
+    VendorSeverity:
+      amazon: 3
+      bitnami: 3
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/10/08/1
+    - https://go.dev/cl/709858
+    - https://go.dev/issue/75676
+    - https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-61723
+    - https://pkg.go.dev/vuln/GO-2025-4009
+    PublishedDate: '2025-10-29T23:16:19.927Z'
+    LastModifiedDate: '2025-11-04T22:16:36.42Z'
   - VulnerabilityID: CVE-2025-61724
     PkgID: stdlib@v1.24.7
     PkgName: stdlib
@@ -32157,91 +32187,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-58185
     PublishedDate: '2025-10-29T23:16:19.45Z'
     LastModifiedDate: '2025-11-04T22:16:33.327Z'
-  - VulnerabilityID: CVE-2025-58189
-    PkgID: stdlib@v1.24.7
-    PkgName: stdlib
-    PkgIdentifier:
-      PURL: pkg:golang/stdlib@v1.24.7
-      UID: dab6465cb6be340c
-    InstalledVersion: v1.24.7
-    FixedVersion: 1.24.8, 1.25.2
-    Status: fixed
-    Layer:
-      Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f672d99cf12d59721fb5d9
-      DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7277787fa3578e3352a155
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-58189
-    DataSource:
-      ID: govulndb
-      Name: The Go Vulnerability Database
-      URL: https://pkg.go.dev/vuln/
-    Title: 'crypto/tls: go crypto/tls ALPN negotiation error contains attacker controlled information'
-    Description: When Conn.Handshake fails during ALPN negotiation the error contains attacker controlled information (the ALPN protocols sent by the client) which is not escaped.
-    Severity: MEDIUM
-    VendorSeverity:
-      amazon: 3
-      bitnami: 2
-      redhat: 2
-    CVSS:
-      bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
-        V3Score: 5.3
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
-        V3Score: 5.3
-    References:
-    - http://www.openwall.com/lists/oss-security/2025/10/08/1
-    - https://access.redhat.com/security/cve/CVE-2025-58189
-    - https://go.dev/cl/707776
-    - https://go.dev/issue/75652
-    - https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-58189
-    - https://pkg.go.dev/vuln/GO-2025-4008
-    - https://www.cve.org/CVERecord?id=CVE-2025-58189
-    PublishedDate: '2025-10-29T23:16:19.833Z'
-    LastModifiedDate: '2025-11-04T22:16:33.877Z'
-  - VulnerabilityID: CVE-2025-61723
-    PkgID: stdlib@v1.24.7
-    PkgName: stdlib
-    PkgIdentifier:
-      PURL: pkg:golang/stdlib@v1.24.7
-      UID: dab6465cb6be340c
-    InstalledVersion: v1.24.7
-    FixedVersion: 1.24.8, 1.25.2
-    Status: fixed
-    Layer:
-      Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f672d99cf12d59721fb5d9
-      DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7277787fa3578e3352a155
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-61723
-    DataSource:
-      ID: govulndb
-      Name: The Go Vulnerability Database
-      URL: https://pkg.go.dev/vuln/
-    Title: 'encoding/pem: Quadratic complexity when parsing some invalid inputs in encoding/pem'
-    Description: The processing time for parsing some invalid inputs scales non-linearly with respect to the size of the input. This affects programs which parse untrusted PEM inputs.
-    Severity: MEDIUM
-    VendorSeverity:
-      amazon: 3
-      bitnami: 3
-      redhat: 2
-    CVSS:
-      bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
-        V3Score: 5.3
-    References:
-    - http://www.openwall.com/lists/oss-security/2025/10/08/1
-    - https://access.redhat.com/security/cve/CVE-2025-61723
-    - https://github.com/golang/go/commit/5ce8cd16f3859ec5ac4106ad8ec15d6236f4501b
-    - https://go.dev/cl/709858
-    - https://go.dev/issue/75676
-    - https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-61723
-    - https://pkg.go.dev/vuln/GO-2025-4009
-    - https://www.cve.org/CVERecord?id=CVE-2025-61723
-    PublishedDate: '2025-10-29T23:16:19.927Z'
-    LastModifiedDate: '2025-11-04T22:16:36.42Z'
   - VulnerabilityID: CVE-2025-61725
     PkgID: stdlib@v1.24.7
     PkgName: stdlib
@@ -33176,23 +33121,29 @@
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
-    Title: tar.Reader does not set a maximum size on the number of sparse region  ...
+    Title: 'golang: archive/tar: Unbounded allocation when parsing GNU sparse map'
     Description: tar.Reader does not set a maximum size on the number of sparse region data blocks in GNU tar pax 1.0 sparse files. A maliciously-crafted archive containing a large number of sparse regions can cause a Reader to read an unbounded amount of data from the archive into memory. When reading from a compressed source, a small compressed input can result in large allocations.
     Severity: HIGH
     VendorSeverity:
       amazon: 3
       bitnami: 2
+      redhat: 2
     CVSS:
       bitnami:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:L
         V3Score: 4.3
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
     References:
     - http://www.openwall.com/lists/oss-security/2025/10/08/1
+    - https://access.redhat.com/security/cve/CVE-2025-58183
     - https://go.dev/cl/709861
     - https://go.dev/issue/75677
     - https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI
     - https://nvd.nist.gov/vuln/detail/CVE-2025-58183
     - https://pkg.go.dev/vuln/GO-2025-4014
+    - https://www.cve.org/CVERecord?id=CVE-2025-58183
     PublishedDate: '2025-10-29T23:16:19.357Z'
     LastModifiedDate: '2025-11-04T22:16:33.2Z'
   - VulnerabilityID: CVE-2025-58186
@@ -33303,6 +33254,78 @@
     - https://pkg.go.dev/vuln/GO-2025-4013
     PublishedDate: '2025-10-29T23:16:19.74Z'
     LastModifiedDate: '2025-11-04T22:16:33.74Z'
+  - VulnerabilityID: CVE-2025-58189
+    PkgID: stdlib@v1.24.6
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@v1.24.6
+      UID: b6f389d90ce3a5a4
+    InstalledVersion: v1.24.6
+    FixedVersion: 1.24.8, 1.25.2
+    Status: fixed
+    Layer:
+      Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f672d99cf12d59721fb5d9
+      DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7277787fa3578e3352a155
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-58189
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: When Conn.Handshake fails during ALPN negotiation the error contains a ...
+    Description: When Conn.Handshake fails during ALPN negotiation the error contains attacker controlled information (the ALPN protocols sent by the client) which is not escaped.
+    Severity: HIGH
+    VendorSeverity:
+      amazon: 3
+      bitnami: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
+        V3Score: 5.3
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/10/08/1
+    - https://go.dev/cl/707776
+    - https://go.dev/issue/75652
+    - https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-58189
+    - https://pkg.go.dev/vuln/GO-2025-4008
+    PublishedDate: '2025-10-29T23:16:19.833Z'
+    LastModifiedDate: '2025-11-04T22:16:33.877Z'
+  - VulnerabilityID: CVE-2025-61723
+    PkgID: stdlib@v1.24.6
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@v1.24.6
+      UID: b6f389d90ce3a5a4
+    InstalledVersion: v1.24.6
+    FixedVersion: 1.24.8, 1.25.2
+    Status: fixed
+    Layer:
+      Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f672d99cf12d59721fb5d9
+      DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7277787fa3578e3352a155
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-61723
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: The processing time for parsing some invalid inputs scales non-linearl ...
+    Description: The processing time for parsing some invalid inputs scales non-linearly with respect to the size of the input. This affects programs which parse untrusted PEM inputs.
+    Severity: HIGH
+    VendorSeverity:
+      amazon: 3
+      bitnami: 3
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/10/08/1
+    - https://go.dev/cl/709858
+    - https://go.dev/issue/75676
+    - https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-61723
+    - https://pkg.go.dev/vuln/GO-2025-4009
+    PublishedDate: '2025-10-29T23:16:19.927Z'
+    LastModifiedDate: '2025-11-04T22:16:36.42Z'
   - VulnerabilityID: CVE-2025-61724
     PkgID: stdlib@v1.24.6
     PkgName: stdlib
@@ -33382,91 +33405,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-58185
     PublishedDate: '2025-10-29T23:16:19.45Z'
     LastModifiedDate: '2025-11-04T22:16:33.327Z'
-  - VulnerabilityID: CVE-2025-58189
-    PkgID: stdlib@v1.24.6
-    PkgName: stdlib
-    PkgIdentifier:
-      PURL: pkg:golang/stdlib@v1.24.6
-      UID: b6f389d90ce3a5a4
-    InstalledVersion: v1.24.6
-    FixedVersion: 1.24.8, 1.25.2
-    Status: fixed
-    Layer:
-      Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f672d99cf12d59721fb5d9
-      DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7277787fa3578e3352a155
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-58189
-    DataSource:
-      ID: govulndb
-      Name: The Go Vulnerability Database
-      URL: https://pkg.go.dev/vuln/
-    Title: 'crypto/tls: go crypto/tls ALPN negotiation error contains attacker controlled information'
-    Description: When Conn.Handshake fails during ALPN negotiation the error contains attacker controlled information (the ALPN protocols sent by the client) which is not escaped.
-    Severity: MEDIUM
-    VendorSeverity:
-      amazon: 3
-      bitnami: 2
-      redhat: 2
-    CVSS:
-      bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
-        V3Score: 5.3
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
-        V3Score: 5.3
-    References:
-    - http://www.openwall.com/lists/oss-security/2025/10/08/1
-    - https://access.redhat.com/security/cve/CVE-2025-58189
-    - https://go.dev/cl/707776
-    - https://go.dev/issue/75652
-    - https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-58189
-    - https://pkg.go.dev/vuln/GO-2025-4008
-    - https://www.cve.org/CVERecord?id=CVE-2025-58189
-    PublishedDate: '2025-10-29T23:16:19.833Z'
-    LastModifiedDate: '2025-11-04T22:16:33.877Z'
-  - VulnerabilityID: CVE-2025-61723
-    PkgID: stdlib@v1.24.6
-    PkgName: stdlib
-    PkgIdentifier:
-      PURL: pkg:golang/stdlib@v1.24.6
-      UID: b6f389d90ce3a5a4
-    InstalledVersion: v1.24.6
-    FixedVersion: 1.24.8, 1.25.2
-    Status: fixed
-    Layer:
-      Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f672d99cf12d59721fb5d9
-      DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7277787fa3578e3352a155
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-61723
-    DataSource:
-      ID: govulndb
-      Name: The Go Vulnerability Database
-      URL: https://pkg.go.dev/vuln/
-    Title: 'encoding/pem: Quadratic complexity when parsing some invalid inputs in encoding/pem'
-    Description: The processing time for parsing some invalid inputs scales non-linearly with respect to the size of the input. This affects programs which parse untrusted PEM inputs.
-    Severity: MEDIUM
-    VendorSeverity:
-      amazon: 3
-      bitnami: 3
-      redhat: 2
-    CVSS:
-      bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
-        V3Score: 5.3
-    References:
-    - http://www.openwall.com/lists/oss-security/2025/10/08/1
-    - https://access.redhat.com/security/cve/CVE-2025-61723
-    - https://github.com/golang/go/commit/5ce8cd16f3859ec5ac4106ad8ec15d6236f4501b
-    - https://go.dev/cl/709858
-    - https://go.dev/issue/75676
-    - https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-61723
-    - https://pkg.go.dev/vuln/GO-2025-4009
-    - https://www.cve.org/CVERecord?id=CVE-2025-61723
-    PublishedDate: '2025-10-29T23:16:19.927Z'
-    LastModifiedDate: '2025-11-04T22:16:36.42Z'
   - VulnerabilityID: CVE-2025-61725
     PkgID: stdlib@v1.24.6
     PkgName: stdlib
@@ -34569,23 +34507,29 @@
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
-    Title: tar.Reader does not set a maximum size on the number of sparse region  ...
+    Title: 'golang: archive/tar: Unbounded allocation when parsing GNU sparse map'
     Description: tar.Reader does not set a maximum size on the number of sparse region data blocks in GNU tar pax 1.0 sparse files. A maliciously-crafted archive containing a large number of sparse regions can cause a Reader to read an unbounded amount of data from the archive into memory. When reading from a compressed source, a small compressed input can result in large allocations.
     Severity: HIGH
     VendorSeverity:
       amazon: 3
       bitnami: 2
+      redhat: 2
     CVSS:
       bitnami:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:L
         V3Score: 4.3
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
     References:
     - http://www.openwall.com/lists/oss-security/2025/10/08/1
+    - https://access.redhat.com/security/cve/CVE-2025-58183
     - https://go.dev/cl/709861
     - https://go.dev/issue/75677
     - https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI
     - https://nvd.nist.gov/vuln/detail/CVE-2025-58183
     - https://pkg.go.dev/vuln/GO-2025-4014
+    - https://www.cve.org/CVERecord?id=CVE-2025-58183
     PublishedDate: '2025-10-29T23:16:19.357Z'
     LastModifiedDate: '2025-11-04T22:16:33.2Z'
   - VulnerabilityID: CVE-2025-58186
@@ -34696,6 +34640,78 @@
     - https://pkg.go.dev/vuln/GO-2025-4013
     PublishedDate: '2025-10-29T23:16:19.74Z'
     LastModifiedDate: '2025-11-04T22:16:33.74Z'
+  - VulnerabilityID: CVE-2025-58189
+    PkgID: stdlib@v1.24.6
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@v1.24.6
+      UID: 323978e56bf8954b
+    InstalledVersion: v1.24.6
+    FixedVersion: 1.24.8, 1.25.2
+    Status: fixed
+    Layer:
+      Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f672d99cf12d59721fb5d9
+      DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7277787fa3578e3352a155
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-58189
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: When Conn.Handshake fails during ALPN negotiation the error contains a ...
+    Description: When Conn.Handshake fails during ALPN negotiation the error contains attacker controlled information (the ALPN protocols sent by the client) which is not escaped.
+    Severity: HIGH
+    VendorSeverity:
+      amazon: 3
+      bitnami: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
+        V3Score: 5.3
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/10/08/1
+    - https://go.dev/cl/707776
+    - https://go.dev/issue/75652
+    - https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-58189
+    - https://pkg.go.dev/vuln/GO-2025-4008
+    PublishedDate: '2025-10-29T23:16:19.833Z'
+    LastModifiedDate: '2025-11-04T22:16:33.877Z'
+  - VulnerabilityID: CVE-2025-61723
+    PkgID: stdlib@v1.24.6
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@v1.24.6
+      UID: 323978e56bf8954b
+    InstalledVersion: v1.24.6
+    FixedVersion: 1.24.8, 1.25.2
+    Status: fixed
+    Layer:
+      Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f672d99cf12d59721fb5d9
+      DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7277787fa3578e3352a155
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-61723
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: The processing time for parsing some invalid inputs scales non-linearl ...
+    Description: The processing time for parsing some invalid inputs scales non-linearly with respect to the size of the input. This affects programs which parse untrusted PEM inputs.
+    Severity: HIGH
+    VendorSeverity:
+      amazon: 3
+      bitnami: 3
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/10/08/1
+    - https://go.dev/cl/709858
+    - https://go.dev/issue/75676
+    - https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-61723
+    - https://pkg.go.dev/vuln/GO-2025-4009
+    PublishedDate: '2025-10-29T23:16:19.927Z'
+    LastModifiedDate: '2025-11-04T22:16:36.42Z'
   - VulnerabilityID: CVE-2025-61724
     PkgID: stdlib@v1.24.6
     PkgName: stdlib
@@ -34775,91 +34791,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-58185
     PublishedDate: '2025-10-29T23:16:19.45Z'
     LastModifiedDate: '2025-11-04T22:16:33.327Z'
-  - VulnerabilityID: CVE-2025-58189
-    PkgID: stdlib@v1.24.6
-    PkgName: stdlib
-    PkgIdentifier:
-      PURL: pkg:golang/stdlib@v1.24.6
-      UID: 323978e56bf8954b
-    InstalledVersion: v1.24.6
-    FixedVersion: 1.24.8, 1.25.2
-    Status: fixed
-    Layer:
-      Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f672d99cf12d59721fb5d9
-      DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7277787fa3578e3352a155
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-58189
-    DataSource:
-      ID: govulndb
-      Name: The Go Vulnerability Database
-      URL: https://pkg.go.dev/vuln/
-    Title: 'crypto/tls: go crypto/tls ALPN negotiation error contains attacker controlled information'
-    Description: When Conn.Handshake fails during ALPN negotiation the error contains attacker controlled information (the ALPN protocols sent by the client) which is not escaped.
-    Severity: MEDIUM
-    VendorSeverity:
-      amazon: 3
-      bitnami: 2
-      redhat: 2
-    CVSS:
-      bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
-        V3Score: 5.3
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
-        V3Score: 5.3
-    References:
-    - http://www.openwall.com/lists/oss-security/2025/10/08/1
-    - https://access.redhat.com/security/cve/CVE-2025-58189
-    - https://go.dev/cl/707776
-    - https://go.dev/issue/75652
-    - https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-58189
-    - https://pkg.go.dev/vuln/GO-2025-4008
-    - https://www.cve.org/CVERecord?id=CVE-2025-58189
-    PublishedDate: '2025-10-29T23:16:19.833Z'
-    LastModifiedDate: '2025-11-04T22:16:33.877Z'
-  - VulnerabilityID: CVE-2025-61723
-    PkgID: stdlib@v1.24.6
-    PkgName: stdlib
-    PkgIdentifier:
-      PURL: pkg:golang/stdlib@v1.24.6
-      UID: 323978e56bf8954b
-    InstalledVersion: v1.24.6
-    FixedVersion: 1.24.8, 1.25.2
-    Status: fixed
-    Layer:
-      Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f672d99cf12d59721fb5d9
-      DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7277787fa3578e3352a155
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-61723
-    DataSource:
-      ID: govulndb
-      Name: The Go Vulnerability Database
-      URL: https://pkg.go.dev/vuln/
-    Title: 'encoding/pem: Quadratic complexity when parsing some invalid inputs in encoding/pem'
-    Description: The processing time for parsing some invalid inputs scales non-linearly with respect to the size of the input. This affects programs which parse untrusted PEM inputs.
-    Severity: MEDIUM
-    VendorSeverity:
-      amazon: 3
-      bitnami: 3
-      redhat: 2
-    CVSS:
-      bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
-        V3Score: 5.3
-    References:
-    - http://www.openwall.com/lists/oss-security/2025/10/08/1
-    - https://access.redhat.com/security/cve/CVE-2025-61723
-    - https://github.com/golang/go/commit/5ce8cd16f3859ec5ac4106ad8ec15d6236f4501b
-    - https://go.dev/cl/709858
-    - https://go.dev/issue/75676
-    - https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-61723
-    - https://pkg.go.dev/vuln/GO-2025-4009
-    - https://www.cve.org/CVERecord?id=CVE-2025-61723
-    PublishedDate: '2025-10-29T23:16:19.927Z'
-    LastModifiedDate: '2025-11-04T22:16:36.42Z'
   - VulnerabilityID: CVE-2025-61725
     PkgID: stdlib@v1.24.6
     PkgName: stdlib
@@ -36027,66 +35958,11 @@
       ID: ghsa
       Name: GitHub Security Advisory Go
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
-    Title: containerd affected by a local privilege escalation via wide permissions on CRI directory
-    Description: |-
-      ### Impact
-
-      An overly broad default permission vulnerability was found in containerd.
-
-      - `/var/lib/containerd` was created with the permission bits 0o711, while it should be created with 0o700
-        - Allowed local users on the host to potentially access the metadata store and the content store
-      - `/run/containerd/io.containerd.grpc.v1.cri` was created with 0o755, while it should be created with 0o700
-        - Allowed local users on the host to potentially access the contents of Kubernetes local volumes. The contents of volumes might include setuid binaries, which could allow a local user on the host to elevate privileges on the host.
-      - `/run/containerd/io.containerd.sandbox.controller.v1.shim` was created with 0o711, while it should be created with 0o700
-
-      The directory paths may differ depending on the daemon configuration.
-      When the `temp` directory path is specified in the daemon configuration, that directory was also created with 0o711, while it should be created with 0o700.
-
-      ### Patches
-
-      This bug has been fixed in the following containerd versions:
-
-      * 2.2.0
-      * 2.1.5
-      * 2.0.7
-      * 1.7.29
-
-      Users should update to these versions to resolve the issue.
-      These updates automatically change the permissions of the existing directories.
-
-      > [!NOTE]
-      >
-      > `/run/containerd` and `/run/containerd/io.containerd.runtime.v2.task` are still created with 0o711.
-      > This is an expected behavior for supporting userns-remapped containers.
-
-      ### Workarounds
-
-      The system administrator on the host can manually chmod the directories to not 
-      have group or world accessible permisisons:
-
-      ```
-      chmod 700 /var/lib/containerd
-      chmod 700 /run/containerd/io.containerd.grpc.v1.cri
-      chmod 700 /run/containerd/io.containerd.sandbox.controller.v1.shim
-      ```
-
-      An alternative mitigation would be to run containerd in [rootless mode](https://github.com/containerd/containerd/blob/main/docs/rootless.md).
-
-      ### Credits
-
-      The containerd project would like to thank David Leadbeater for responsibly disclosing this issue in accordance with the [containerd security policy](https://github.com/containerd/project/blob/main/SECURITY.md).
-
-      ### For more information
-
-      If you have any questions or comments about this advisory:
-
-      * Open an issue in [containerd](https://github.com/containerd/containerd/issues/new/choose)
-      * Email us at [security@containerd.io](mailto:security@containerd.io)
-
-      To report a security issue in containerd:
-
-      * [Report a new vulnerability](https://github.com/containerd/containerd/security/advisories/new)
+    Title: containerd is an open-source container runtime. Versions 0.1.0 through ...
+    Description: containerd is an open-source container runtime. Versions 0.1.0 through 1.7.28, 2.0.0-beta.0 through 2.0.6, 2.1.0-beta.0 through 2.1.4 and 2.2.0-beta.0 through 2.2.0-rc.1 have an overly broad default permission vulnerability. Directory paths `/var/lib/containerd`, `/run/containerd/io.containerd.grpc.v1.cri` and `/run/containerd/io.containerd.sandbox.controller.v1.shim` were all created with incorrect permissions. This issue is fixed in versions 1.7.29, 2.0.7, 2.1.5 and 2.2.0. Workarounds include updating system administrator permissions so the host can manually chmod the directories to not have group or world accessible permissions, or to run containerd in rootless mode.
     Severity: HIGH
+    CweIDs:
+    - CWE-279
     VendorSeverity:
       ghsa: 3
     CVSS:
@@ -36095,8 +35971,12 @@
         V3Score: 7.3
     References:
     - https://github.com/containerd/containerd
+    - https://github.com/containerd/containerd/blob/main/docs/rootless.md
     - https://github.com/containerd/containerd/commit/7c59e8e9e970d38061a77b586b23655c352bfec5
     - https://github.com/containerd/containerd/security/advisories/GHSA-pwhc-rpq9-4c8w
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-25621
+    PublishedDate: '2025-11-06T19:15:40.09Z'
+    LastModifiedDate: '2025-11-06T19:45:09.883Z'
   - VulnerabilityID: CVE-2024-40635
     PkgID: github.com/containerd/containerd@v1.7.19
     PkgName: github.com/containerd/containerd
@@ -36154,6 +36034,38 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-40635
     PublishedDate: '2025-03-17T22:15:13.15Z'
     LastModifiedDate: '2025-10-02T01:51:43.21Z'
+  - VulnerabilityID: CVE-2025-64329
+    PkgID: github.com/containerd/containerd@v1.7.19
+    PkgName: github.com/containerd/containerd
+    PkgIdentifier:
+      PURL: pkg:golang/github.com/containerd/containerd@v1.7.19
+      UID: 1b5ac4bc1bc375ec
+    InstalledVersion: v1.7.19
+    FixedVersion: 1.7.29
+    Status: fixed
+    Layer:
+      Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f672d99cf12d59721fb5d9
+      DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7277787fa3578e3352a155
+    SeveritySource: ghsa
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-64329
+    DataSource:
+      ID: ghsa
+      Name: GitHub Security Advisory Go
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
+    Title: containerd is an open-source container runtime. Versions 1.7.28 and be ...
+    Description: containerd is an open-source container runtime. Versions 1.7.28 and below, 2.0.0-beta.0 through 2.0.6, 2.1.0-beta.0 through 2.1.4, and 2.2.0-beta.0 through 2.2.0-rc.1 contain a bug in the CRI Attach implementation where a user can exhaust memory on the host due to goroutine leaks. This issue is fixed in versions 1.7.29, 2.0.7, 2.1.5 and 2.2.0. To workaround this vulnerability, users can set up an admission controller to control accesses to pods/attach resources.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-401
+    VendorSeverity:
+      ghsa: 2
+    References:
+    - https://github.com/containerd/containerd
+    - https://github.com/containerd/containerd/commit/083b53cd6f19b5de7717b0ce92c11bdf95e612df
+    - https://github.com/containerd/containerd/security/advisories/GHSA-m6hq-p25p-ffr2
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-64329
+    PublishedDate: '2025-11-07T05:16:08.017Z'
+    LastModifiedDate: '2025-11-07T05:16:08.017Z'
   - VulnerabilityID: CVE-2024-41110
     PkgID: github.com/docker/docker@v27.0.3+incompatible
     PkgName: github.com/docker/docker
@@ -36679,23 +36591,29 @@
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
-    Title: tar.Reader does not set a maximum size on the number of sparse region  ...
+    Title: 'golang: archive/tar: Unbounded allocation when parsing GNU sparse map'
     Description: tar.Reader does not set a maximum size on the number of sparse region data blocks in GNU tar pax 1.0 sparse files. A maliciously-crafted archive containing a large number of sparse regions can cause a Reader to read an unbounded amount of data from the archive into memory. When reading from a compressed source, a small compressed input can result in large allocations.
     Severity: HIGH
     VendorSeverity:
       amazon: 3
       bitnami: 2
+      redhat: 2
     CVSS:
       bitnami:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:L
         V3Score: 4.3
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
     References:
     - http://www.openwall.com/lists/oss-security/2025/10/08/1
+    - https://access.redhat.com/security/cve/CVE-2025-58183
     - https://go.dev/cl/709861
     - https://go.dev/issue/75677
     - https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI
     - https://nvd.nist.gov/vuln/detail/CVE-2025-58183
     - https://pkg.go.dev/vuln/GO-2025-4014
+    - https://www.cve.org/CVERecord?id=CVE-2025-58183
     PublishedDate: '2025-10-29T23:16:19.357Z'
     LastModifiedDate: '2025-11-04T22:16:33.2Z'
   - VulnerabilityID: CVE-2025-58186
@@ -36806,6 +36724,78 @@
     - https://pkg.go.dev/vuln/GO-2025-4013
     PublishedDate: '2025-10-29T23:16:19.74Z'
     LastModifiedDate: '2025-11-04T22:16:33.74Z'
+  - VulnerabilityID: CVE-2025-58189
+    PkgID: stdlib@v1.22.12
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@v1.22.12
+      UID: 156a2e832bd2e3cc
+    InstalledVersion: v1.22.12
+    FixedVersion: 1.24.8, 1.25.2
+    Status: fixed
+    Layer:
+      Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f672d99cf12d59721fb5d9
+      DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7277787fa3578e3352a155
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-58189
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: When Conn.Handshake fails during ALPN negotiation the error contains a ...
+    Description: When Conn.Handshake fails during ALPN negotiation the error contains attacker controlled information (the ALPN protocols sent by the client) which is not escaped.
+    Severity: HIGH
+    VendorSeverity:
+      amazon: 3
+      bitnami: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
+        V3Score: 5.3
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/10/08/1
+    - https://go.dev/cl/707776
+    - https://go.dev/issue/75652
+    - https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-58189
+    - https://pkg.go.dev/vuln/GO-2025-4008
+    PublishedDate: '2025-10-29T23:16:19.833Z'
+    LastModifiedDate: '2025-11-04T22:16:33.877Z'
+  - VulnerabilityID: CVE-2025-61723
+    PkgID: stdlib@v1.22.12
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@v1.22.12
+      UID: 156a2e832bd2e3cc
+    InstalledVersion: v1.22.12
+    FixedVersion: 1.24.8, 1.25.2
+    Status: fixed
+    Layer:
+      Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f672d99cf12d59721fb5d9
+      DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7277787fa3578e3352a155
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-61723
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: The processing time for parsing some invalid inputs scales non-linearl ...
+    Description: The processing time for parsing some invalid inputs scales non-linearly with respect to the size of the input. This affects programs which parse untrusted PEM inputs.
+    Severity: HIGH
+    VendorSeverity:
+      amazon: 3
+      bitnami: 3
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/10/08/1
+    - https://go.dev/cl/709858
+    - https://go.dev/issue/75676
+    - https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-61723
+    - https://pkg.go.dev/vuln/GO-2025-4009
+    PublishedDate: '2025-10-29T23:16:19.927Z'
+    LastModifiedDate: '2025-11-04T22:16:36.42Z'
   - VulnerabilityID: CVE-2025-61724
     PkgID: stdlib@v1.22.12
     PkgName: stdlib
@@ -37082,91 +37072,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-58185
     PublishedDate: '2025-10-29T23:16:19.45Z'
     LastModifiedDate: '2025-11-04T22:16:33.327Z'
-  - VulnerabilityID: CVE-2025-58189
-    PkgID: stdlib@v1.22.12
-    PkgName: stdlib
-    PkgIdentifier:
-      PURL: pkg:golang/stdlib@v1.22.12
-      UID: 156a2e832bd2e3cc
-    InstalledVersion: v1.22.12
-    FixedVersion: 1.24.8, 1.25.2
-    Status: fixed
-    Layer:
-      Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f672d99cf12d59721fb5d9
-      DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7277787fa3578e3352a155
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-58189
-    DataSource:
-      ID: govulndb
-      Name: The Go Vulnerability Database
-      URL: https://pkg.go.dev/vuln/
-    Title: 'crypto/tls: go crypto/tls ALPN negotiation error contains attacker controlled information'
-    Description: When Conn.Handshake fails during ALPN negotiation the error contains attacker controlled information (the ALPN protocols sent by the client) which is not escaped.
-    Severity: MEDIUM
-    VendorSeverity:
-      amazon: 3
-      bitnami: 2
-      redhat: 2
-    CVSS:
-      bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
-        V3Score: 5.3
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
-        V3Score: 5.3
-    References:
-    - http://www.openwall.com/lists/oss-security/2025/10/08/1
-    - https://access.redhat.com/security/cve/CVE-2025-58189
-    - https://go.dev/cl/707776
-    - https://go.dev/issue/75652
-    - https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-58189
-    - https://pkg.go.dev/vuln/GO-2025-4008
-    - https://www.cve.org/CVERecord?id=CVE-2025-58189
-    PublishedDate: '2025-10-29T23:16:19.833Z'
-    LastModifiedDate: '2025-11-04T22:16:33.877Z'
-  - VulnerabilityID: CVE-2025-61723
-    PkgID: stdlib@v1.22.12
-    PkgName: stdlib
-    PkgIdentifier:
-      PURL: pkg:golang/stdlib@v1.22.12
-      UID: 156a2e832bd2e3cc
-    InstalledVersion: v1.22.12
-    FixedVersion: 1.24.8, 1.25.2
-    Status: fixed
-    Layer:
-      Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f672d99cf12d59721fb5d9
-      DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7277787fa3578e3352a155
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-61723
-    DataSource:
-      ID: govulndb
-      Name: The Go Vulnerability Database
-      URL: https://pkg.go.dev/vuln/
-    Title: 'encoding/pem: Quadratic complexity when parsing some invalid inputs in encoding/pem'
-    Description: The processing time for parsing some invalid inputs scales non-linearly with respect to the size of the input. This affects programs which parse untrusted PEM inputs.
-    Severity: MEDIUM
-    VendorSeverity:
-      amazon: 3
-      bitnami: 3
-      redhat: 2
-    CVSS:
-      bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
-        V3Score: 5.3
-    References:
-    - http://www.openwall.com/lists/oss-security/2025/10/08/1
-    - https://access.redhat.com/security/cve/CVE-2025-61723
-    - https://github.com/golang/go/commit/5ce8cd16f3859ec5ac4106ad8ec15d6236f4501b
-    - https://go.dev/cl/709858
-    - https://go.dev/issue/75676
-    - https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-61723
-    - https://pkg.go.dev/vuln/GO-2025-4009
-    - https://www.cve.org/CVERecord?id=CVE-2025-61723
-    PublishedDate: '2025-10-29T23:16:19.927Z'
-    LastModifiedDate: '2025-11-04T22:16:36.42Z'
   - VulnerabilityID: CVE-2025-61725
     PkgID: stdlib@v1.22.12
     PkgName: stdlib
