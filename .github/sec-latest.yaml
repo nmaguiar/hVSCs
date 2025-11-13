@@ -22444,6 +22444,7 @@
       it on an insecure host should not be okay.
     Severity: LOW
     VendorSeverity:
+      amazon: 1
       photon: 3
       redhat: 2
       ubuntu: 1
@@ -22713,7 +22714,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2338289
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-52005
     - https://errata.almalinux.org/9/ALSA-2025-7409.html
-    - https://errata.rockylinux.org/RLSA-2025:7482
+    - https://errata.rockylinux.org/RLSA-2025:8414
     - https://github.com/git/git/security/advisories/GHSA-7jjc-gg6m-3329
     - https://linux.oracle.com/cve/CVE-2024-52005.html
     - https://linux.oracle.com/errata/ELSA-2025-8414.html
@@ -22765,7 +22766,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2338289
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-52005
     - https://errata.almalinux.org/9/ALSA-2025-7409.html
-    - https://errata.rockylinux.org/RLSA-2025:7482
+    - https://errata.rockylinux.org/RLSA-2025:8414
     - https://github.com/git/git/security/advisories/GHSA-7jjc-gg6m-3329
     - https://linux.oracle.com/cve/CVE-2024-52005.html
     - https://linux.oracle.com/errata/ELSA-2025-8414.html
@@ -23383,6 +23384,7 @@
       it on an insecure host should not be okay.
     Severity: LOW
     VendorSeverity:
+      amazon: 1
       photon: 3
       redhat: 2
       ubuntu: 1
@@ -23478,6 +23480,7 @@
       it on an insecure host should not be okay.
     Severity: LOW
     VendorSeverity:
+      amazon: 1
       photon: 3
       redhat: 2
       ubuntu: 1
@@ -23981,6 +23984,7 @@
     - CWE-22
     VendorSeverity:
       alma: 3
+      amazon: 2
       oracle-oval: 3
       redhat: 3
       rocky: 3
@@ -24045,6 +24049,7 @@
     - CWE-22
     VendorSeverity:
       alma: 3
+      amazon: 2
       oracle-oval: 3
       redhat: 3
       rocky: 3
@@ -24109,6 +24114,7 @@
     - CWE-22
     VendorSeverity:
       alma: 3
+      amazon: 2
       oracle-oval: 3
       redhat: 3
       rocky: 3
@@ -24234,6 +24240,7 @@
     - CWE-22
     VendorSeverity:
       alma: 3
+      amazon: 2
       oracle-oval: 3
       redhat: 3
       rocky: 3
@@ -27054,42 +27061,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-47907
     PublishedDate: '2025-08-07T16:15:30.357Z'
     LastModifiedDate: '2025-11-04T22:16:16.347Z'
-  - VulnerabilityID: CVE-2025-47912
-    PkgID: stdlib@v1.24.1
-    PkgName: stdlib
-    PkgIdentifier:
-      PURL: pkg:golang/stdlib@v1.24.1
-      UID: 2add7c57bc4db0d1
-    InstalledVersion: v1.24.1
-    FixedVersion: 1.24.8, 1.25.2
-    Status: fixed
-    Layer:
-      Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f672d99cf12d59721fb5d9
-      DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7277787fa3578e3352a155
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-47912
-    DataSource:
-      ID: govulndb
-      Name: The Go Vulnerability Database
-      URL: https://pkg.go.dev/vuln/
-    Title: The Parse function permits values other than IPv6 addresses to be incl ...
-    Description: 'The Parse function permits values other than IPv6 addresses to be included in square brackets within the host component of a URL. RFC 3986 permits IPv6 addresses to be included within the host component, enclosed within square brackets. For example: "http://[::1]/". IPv4 addresses and hostnames must not appear within square brackets. Parse did not enforce this requirement.'
-    Severity: HIGH
-    VendorSeverity:
-      amazon: 3
-      bitnami: 2
-    CVSS:
-      bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
-        V3Score: 5.3
-    References:
-    - http://www.openwall.com/lists/oss-security/2025/10/08/1
-    - https://go.dev/cl/709857
-    - https://go.dev/issue/75678
-    - https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-47912
-    - https://pkg.go.dev/vuln/GO-2025-4010
-    PublishedDate: '2025-10-29T23:16:18.187Z'
-    LastModifiedDate: '2025-11-04T22:16:16.497Z'
   - VulnerabilityID: CVE-2025-58183
     PkgID: stdlib@v1.24.1
     PkgName: stdlib
@@ -27240,42 +27211,6 @@
     - https://pkg.go.dev/vuln/GO-2025-4013
     PublishedDate: '2025-10-29T23:16:19.74Z'
     LastModifiedDate: '2025-11-04T22:16:33.74Z'
-  - VulnerabilityID: CVE-2025-61724
-    PkgID: stdlib@v1.24.1
-    PkgName: stdlib
-    PkgIdentifier:
-      PURL: pkg:golang/stdlib@v1.24.1
-      UID: 2add7c57bc4db0d1
-    InstalledVersion: v1.24.1
-    FixedVersion: 1.24.8, 1.25.2
-    Status: fixed
-    Layer:
-      Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f672d99cf12d59721fb5d9
-      DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7277787fa3578e3352a155
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-61724
-    DataSource:
-      ID: govulndb
-      Name: The Go Vulnerability Database
-      URL: https://pkg.go.dev/vuln/
-    Title: The Reader.ReadResponse function constructs a response string through  ...
-    Description: The Reader.ReadResponse function constructs a response string through repeated string concatenation of lines. When the number of lines in a response is large, this can cause excessive CPU consumption.
-    Severity: HIGH
-    VendorSeverity:
-      amazon: 3
-      bitnami: 2
-    CVSS:
-      bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
-        V3Score: 5.3
-    References:
-    - http://www.openwall.com/lists/oss-security/2025/10/08/1
-    - https://go.dev/cl/709859
-    - https://go.dev/issue/75716
-    - https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-61724
-    - https://pkg.go.dev/vuln/GO-2025-4015
-    PublishedDate: '2025-10-29T23:16:20.02Z'
-    LastModifiedDate: '2025-11-04T22:16:36.567Z'
   - VulnerabilityID: CVE-2025-0913
     PkgID: stdlib@v1.24.1
     PkgName: stdlib
@@ -27359,7 +27294,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2358493
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-22871
     - https://errata.almalinux.org/9/ALSA-2025-9635.html
-    - https://errata.rockylinux.org/RLSA-2025:9317
+    - https://errata.rockylinux.org/RLSA-2025:9845
     - https://github.com/roadrunner-server/roadrunner
     - https://github.com/roadrunner-server/roadrunner/commit/f269279ee87d0b88127741cad1042389af7605fa
     - https://github.com/roadrunner-server/roadrunner/issues/2166
@@ -27473,6 +27408,48 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-47906
     PublishedDate: '2025-09-18T19:15:37.66Z'
     LastModifiedDate: '2025-11-04T22:16:16.207Z'
+  - VulnerabilityID: CVE-2025-47912
+    PkgID: stdlib@v1.24.1
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@v1.24.1
+      UID: 2add7c57bc4db0d1
+    InstalledVersion: v1.24.1
+    FixedVersion: 1.24.8, 1.25.2
+    Status: fixed
+    Layer:
+      Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f672d99cf12d59721fb5d9
+      DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7277787fa3578e3352a155
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-47912
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: 'net/url: Insufficient validation of bracketed IPv6 hostnames in net/url'
+    Description: 'The Parse function permits values other than IPv6 addresses to be included in square brackets within the host component of a URL. RFC 3986 permits IPv6 addresses to be included within the host component, enclosed within square brackets. For example: "http://[::1]/". IPv4 addresses and hostnames must not appear within square brackets. Parse did not enforce this requirement.'
+    Severity: MEDIUM
+    VendorSeverity:
+      amazon: 3
+      bitnami: 2
+      redhat: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
+        V3Score: 5.3
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
+        V3Score: 5.3
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/10/08/1
+    - https://access.redhat.com/security/cve/CVE-2025-47912
+    - https://go.dev/cl/709857
+    - https://go.dev/issue/75678
+    - https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-47912
+    - https://pkg.go.dev/vuln/GO-2025-4010
+    - https://www.cve.org/CVERecord?id=CVE-2025-47912
+    PublishedDate: '2025-10-29T23:16:18.187Z'
+    LastModifiedDate: '2025-11-04T22:16:16.497Z'
   - VulnerabilityID: CVE-2025-58185
     PkgID: stdlib@v1.24.1
     PkgName: stdlib
@@ -27601,6 +27578,48 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-61723
     PublishedDate: '2025-10-29T23:16:19.927Z'
     LastModifiedDate: '2025-11-04T22:16:36.42Z'
+  - VulnerabilityID: CVE-2025-61724
+    PkgID: stdlib@v1.24.1
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@v1.24.1
+      UID: 2add7c57bc4db0d1
+    InstalledVersion: v1.24.1
+    FixedVersion: 1.24.8, 1.25.2
+    Status: fixed
+    Layer:
+      Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f672d99cf12d59721fb5d9
+      DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7277787fa3578e3352a155
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-61724
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: 'net/textproto: Excessive CPU consumption in Reader.ReadResponse in net/textproto'
+    Description: The Reader.ReadResponse function constructs a response string through repeated string concatenation of lines. When the number of lines in a response is large, this can cause excessive CPU consumption.
+    Severity: MEDIUM
+    VendorSeverity:
+      amazon: 3
+      bitnami: 2
+      redhat: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/10/08/1
+    - https://access.redhat.com/security/cve/CVE-2025-61724
+    - https://go.dev/cl/709859
+    - https://go.dev/issue/75716
+    - https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-61724
+    - https://pkg.go.dev/vuln/GO-2025-4015
+    - https://www.cve.org/CVERecord?id=CVE-2025-61724
+    PublishedDate: '2025-10-29T23:16:20.02Z'
+    LastModifiedDate: '2025-11-04T22:16:36.567Z'
   - VulnerabilityID: CVE-2025-61725
     PkgID: stdlib@v1.24.1
     PkgName: stdlib
@@ -28187,42 +28206,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-47907
     PublishedDate: '2025-08-07T16:15:30.357Z'
     LastModifiedDate: '2025-11-04T22:16:16.347Z'
-  - VulnerabilityID: CVE-2025-47912
-    PkgID: stdlib@v1.24.1
-    PkgName: stdlib
-    PkgIdentifier:
-      PURL: pkg:golang/stdlib@v1.24.1
-      UID: c825b3cf378963b8
-    InstalledVersion: v1.24.1
-    FixedVersion: 1.24.8, 1.25.2
-    Status: fixed
-    Layer:
-      Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f672d99cf12d59721fb5d9
-      DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7277787fa3578e3352a155
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-47912
-    DataSource:
-      ID: govulndb
-      Name: The Go Vulnerability Database
-      URL: https://pkg.go.dev/vuln/
-    Title: The Parse function permits values other than IPv6 addresses to be incl ...
-    Description: 'The Parse function permits values other than IPv6 addresses to be included in square brackets within the host component of a URL. RFC 3986 permits IPv6 addresses to be included within the host component, enclosed within square brackets. For example: "http://[::1]/". IPv4 addresses and hostnames must not appear within square brackets. Parse did not enforce this requirement.'
-    Severity: HIGH
-    VendorSeverity:
-      amazon: 3
-      bitnami: 2
-    CVSS:
-      bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
-        V3Score: 5.3
-    References:
-    - http://www.openwall.com/lists/oss-security/2025/10/08/1
-    - https://go.dev/cl/709857
-    - https://go.dev/issue/75678
-    - https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-47912
-    - https://pkg.go.dev/vuln/GO-2025-4010
-    PublishedDate: '2025-10-29T23:16:18.187Z'
-    LastModifiedDate: '2025-11-04T22:16:16.497Z'
   - VulnerabilityID: CVE-2025-58183
     PkgID: stdlib@v1.24.1
     PkgName: stdlib
@@ -28373,42 +28356,6 @@
     - https://pkg.go.dev/vuln/GO-2025-4013
     PublishedDate: '2025-10-29T23:16:19.74Z'
     LastModifiedDate: '2025-11-04T22:16:33.74Z'
-  - VulnerabilityID: CVE-2025-61724
-    PkgID: stdlib@v1.24.1
-    PkgName: stdlib
-    PkgIdentifier:
-      PURL: pkg:golang/stdlib@v1.24.1
-      UID: c825b3cf378963b8
-    InstalledVersion: v1.24.1
-    FixedVersion: 1.24.8, 1.25.2
-    Status: fixed
-    Layer:
-      Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f672d99cf12d59721fb5d9
-      DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7277787fa3578e3352a155
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-61724
-    DataSource:
-      ID: govulndb
-      Name: The Go Vulnerability Database
-      URL: https://pkg.go.dev/vuln/
-    Title: The Reader.ReadResponse function constructs a response string through  ...
-    Description: The Reader.ReadResponse function constructs a response string through repeated string concatenation of lines. When the number of lines in a response is large, this can cause excessive CPU consumption.
-    Severity: HIGH
-    VendorSeverity:
-      amazon: 3
-      bitnami: 2
-    CVSS:
-      bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
-        V3Score: 5.3
-    References:
-    - http://www.openwall.com/lists/oss-security/2025/10/08/1
-    - https://go.dev/cl/709859
-    - https://go.dev/issue/75716
-    - https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-61724
-    - https://pkg.go.dev/vuln/GO-2025-4015
-    PublishedDate: '2025-10-29T23:16:20.02Z'
-    LastModifiedDate: '2025-11-04T22:16:36.567Z'
   - VulnerabilityID: CVE-2025-0913
     PkgID: stdlib@v1.24.1
     PkgName: stdlib
@@ -28492,7 +28439,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2358493
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-22871
     - https://errata.almalinux.org/9/ALSA-2025-9635.html
-    - https://errata.rockylinux.org/RLSA-2025:9317
+    - https://errata.rockylinux.org/RLSA-2025:9845
     - https://github.com/roadrunner-server/roadrunner
     - https://github.com/roadrunner-server/roadrunner/commit/f269279ee87d0b88127741cad1042389af7605fa
     - https://github.com/roadrunner-server/roadrunner/issues/2166
@@ -28606,6 +28553,48 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-47906
     PublishedDate: '2025-09-18T19:15:37.66Z'
     LastModifiedDate: '2025-11-04T22:16:16.207Z'
+  - VulnerabilityID: CVE-2025-47912
+    PkgID: stdlib@v1.24.1
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@v1.24.1
+      UID: c825b3cf378963b8
+    InstalledVersion: v1.24.1
+    FixedVersion: 1.24.8, 1.25.2
+    Status: fixed
+    Layer:
+      Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f672d99cf12d59721fb5d9
+      DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7277787fa3578e3352a155
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-47912
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: 'net/url: Insufficient validation of bracketed IPv6 hostnames in net/url'
+    Description: 'The Parse function permits values other than IPv6 addresses to be included in square brackets within the host component of a URL. RFC 3986 permits IPv6 addresses to be included within the host component, enclosed within square brackets. For example: "http://[::1]/". IPv4 addresses and hostnames must not appear within square brackets. Parse did not enforce this requirement.'
+    Severity: MEDIUM
+    VendorSeverity:
+      amazon: 3
+      bitnami: 2
+      redhat: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
+        V3Score: 5.3
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
+        V3Score: 5.3
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/10/08/1
+    - https://access.redhat.com/security/cve/CVE-2025-47912
+    - https://go.dev/cl/709857
+    - https://go.dev/issue/75678
+    - https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-47912
+    - https://pkg.go.dev/vuln/GO-2025-4010
+    - https://www.cve.org/CVERecord?id=CVE-2025-47912
+    PublishedDate: '2025-10-29T23:16:18.187Z'
+    LastModifiedDate: '2025-11-04T22:16:16.497Z'
   - VulnerabilityID: CVE-2025-58185
     PkgID: stdlib@v1.24.1
     PkgName: stdlib
@@ -28734,6 +28723,48 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-61723
     PublishedDate: '2025-10-29T23:16:19.927Z'
     LastModifiedDate: '2025-11-04T22:16:36.42Z'
+  - VulnerabilityID: CVE-2025-61724
+    PkgID: stdlib@v1.24.1
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@v1.24.1
+      UID: c825b3cf378963b8
+    InstalledVersion: v1.24.1
+    FixedVersion: 1.24.8, 1.25.2
+    Status: fixed
+    Layer:
+      Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f672d99cf12d59721fb5d9
+      DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7277787fa3578e3352a155
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-61724
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: 'net/textproto: Excessive CPU consumption in Reader.ReadResponse in net/textproto'
+    Description: The Reader.ReadResponse function constructs a response string through repeated string concatenation of lines. When the number of lines in a response is large, this can cause excessive CPU consumption.
+    Severity: MEDIUM
+    VendorSeverity:
+      amazon: 3
+      bitnami: 2
+      redhat: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/10/08/1
+    - https://access.redhat.com/security/cve/CVE-2025-61724
+    - https://go.dev/cl/709859
+    - https://go.dev/issue/75716
+    - https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-61724
+    - https://pkg.go.dev/vuln/GO-2025-4015
+    - https://www.cve.org/CVERecord?id=CVE-2025-61724
+    PublishedDate: '2025-10-29T23:16:20.02Z'
+    LastModifiedDate: '2025-11-04T22:16:36.567Z'
   - VulnerabilityID: CVE-2025-61725
     PkgID: stdlib@v1.24.1
     PkgName: stdlib
@@ -30660,7 +30691,7 @@
     - https://github.com/containerd/containerd/security/advisories/GHSA-m6hq-p25p-ffr2
     - https://nvd.nist.gov/vuln/detail/CVE-2025-64329
     PublishedDate: '2025-11-07T05:16:08.017Z'
-    LastModifiedDate: '2025-11-07T05:16:08.017Z'
+    LastModifiedDate: '2025-11-12T16:20:22.257Z'
 - Target: usr/bin/helm
   Class: lang-pkgs
   Type: gobinary
@@ -31875,43 +31906,7 @@
     - https://github.com/containerd/containerd/security/advisories/GHSA-m6hq-p25p-ffr2
     - https://nvd.nist.gov/vuln/detail/CVE-2025-64329
     PublishedDate: '2025-11-07T05:16:08.017Z'
-    LastModifiedDate: '2025-11-07T05:16:08.017Z'
-  - VulnerabilityID: CVE-2025-47912
-    PkgID: stdlib@v1.24.7
-    PkgName: stdlib
-    PkgIdentifier:
-      PURL: pkg:golang/stdlib@v1.24.7
-      UID: dab6465cb6be340c
-    InstalledVersion: v1.24.7
-    FixedVersion: 1.24.8, 1.25.2
-    Status: fixed
-    Layer:
-      Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f672d99cf12d59721fb5d9
-      DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7277787fa3578e3352a155
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-47912
-    DataSource:
-      ID: govulndb
-      Name: The Go Vulnerability Database
-      URL: https://pkg.go.dev/vuln/
-    Title: The Parse function permits values other than IPv6 addresses to be incl ...
-    Description: 'The Parse function permits values other than IPv6 addresses to be included in square brackets within the host component of a URL. RFC 3986 permits IPv6 addresses to be included within the host component, enclosed within square brackets. For example: "http://[::1]/". IPv4 addresses and hostnames must not appear within square brackets. Parse did not enforce this requirement.'
-    Severity: HIGH
-    VendorSeverity:
-      amazon: 3
-      bitnami: 2
-    CVSS:
-      bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
-        V3Score: 5.3
-    References:
-    - http://www.openwall.com/lists/oss-security/2025/10/08/1
-    - https://go.dev/cl/709857
-    - https://go.dev/issue/75678
-    - https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-47912
-    - https://pkg.go.dev/vuln/GO-2025-4010
-    PublishedDate: '2025-10-29T23:16:18.187Z'
-    LastModifiedDate: '2025-11-04T22:16:16.497Z'
+    LastModifiedDate: '2025-11-12T16:20:22.257Z'
   - VulnerabilityID: CVE-2025-58183
     PkgID: stdlib@v1.24.7
     PkgName: stdlib
@@ -32062,7 +32057,7 @@
     - https://pkg.go.dev/vuln/GO-2025-4013
     PublishedDate: '2025-10-29T23:16:19.74Z'
     LastModifiedDate: '2025-11-04T22:16:33.74Z'
-  - VulnerabilityID: CVE-2025-61724
+  - VulnerabilityID: CVE-2025-47912
     PkgID: stdlib@v1.24.7
     PkgName: stdlib
     PkgIdentifier:
@@ -32074,30 +32069,36 @@
     Layer:
       Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f672d99cf12d59721fb5d9
       DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7277787fa3578e3352a155
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-61724
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-47912
     DataSource:
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
-    Title: The Reader.ReadResponse function constructs a response string through  ...
-    Description: The Reader.ReadResponse function constructs a response string through repeated string concatenation of lines. When the number of lines in a response is large, this can cause excessive CPU consumption.
-    Severity: HIGH
+    Title: 'net/url: Insufficient validation of bracketed IPv6 hostnames in net/url'
+    Description: 'The Parse function permits values other than IPv6 addresses to be included in square brackets within the host component of a URL. RFC 3986 permits IPv6 addresses to be included within the host component, enclosed within square brackets. For example: "http://[::1]/". IPv4 addresses and hostnames must not appear within square brackets. Parse did not enforce this requirement.'
+    Severity: MEDIUM
     VendorSeverity:
       amazon: 3
       bitnami: 2
+      redhat: 2
     CVSS:
       bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
+        V3Score: 5.3
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
         V3Score: 5.3
     References:
     - http://www.openwall.com/lists/oss-security/2025/10/08/1
-    - https://go.dev/cl/709859
-    - https://go.dev/issue/75716
+    - https://access.redhat.com/security/cve/CVE-2025-47912
+    - https://go.dev/cl/709857
+    - https://go.dev/issue/75678
     - https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-61724
-    - https://pkg.go.dev/vuln/GO-2025-4015
-    PublishedDate: '2025-10-29T23:16:20.02Z'
-    LastModifiedDate: '2025-11-04T22:16:36.567Z'
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-47912
+    - https://pkg.go.dev/vuln/GO-2025-4010
+    - https://www.cve.org/CVERecord?id=CVE-2025-47912
+    PublishedDate: '2025-10-29T23:16:18.187Z'
+    LastModifiedDate: '2025-11-04T22:16:16.497Z'
   - VulnerabilityID: CVE-2025-58185
     PkgID: stdlib@v1.24.7
     PkgName: stdlib
@@ -32226,6 +32227,48 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-61723
     PublishedDate: '2025-10-29T23:16:19.927Z'
     LastModifiedDate: '2025-11-04T22:16:36.42Z'
+  - VulnerabilityID: CVE-2025-61724
+    PkgID: stdlib@v1.24.7
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@v1.24.7
+      UID: dab6465cb6be340c
+    InstalledVersion: v1.24.7
+    FixedVersion: 1.24.8, 1.25.2
+    Status: fixed
+    Layer:
+      Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f672d99cf12d59721fb5d9
+      DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7277787fa3578e3352a155
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-61724
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: 'net/textproto: Excessive CPU consumption in Reader.ReadResponse in net/textproto'
+    Description: The Reader.ReadResponse function constructs a response string through repeated string concatenation of lines. When the number of lines in a response is large, this can cause excessive CPU consumption.
+    Severity: MEDIUM
+    VendorSeverity:
+      amazon: 3
+      bitnami: 2
+      redhat: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/10/08/1
+    - https://access.redhat.com/security/cve/CVE-2025-61724
+    - https://go.dev/cl/709859
+    - https://go.dev/issue/75716
+    - https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-61724
+    - https://pkg.go.dev/vuln/GO-2025-4015
+    - https://www.cve.org/CVERecord?id=CVE-2025-61724
+    PublishedDate: '2025-10-29T23:16:20.02Z'
+    LastModifiedDate: '2025-11-04T22:16:36.567Z'
   - VulnerabilityID: CVE-2025-61725
     PkgID: stdlib@v1.24.7
     PkgName: stdlib
@@ -33107,42 +33150,6 @@
       Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f672d99cf12d59721fb5d9
       DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7277787fa3578e3352a155
   Vulnerabilities:
-  - VulnerabilityID: CVE-2025-47912
-    PkgID: stdlib@v1.24.6
-    PkgName: stdlib
-    PkgIdentifier:
-      PURL: pkg:golang/stdlib@v1.24.6
-      UID: b6f389d90ce3a5a4
-    InstalledVersion: v1.24.6
-    FixedVersion: 1.24.8, 1.25.2
-    Status: fixed
-    Layer:
-      Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f672d99cf12d59721fb5d9
-      DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7277787fa3578e3352a155
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-47912
-    DataSource:
-      ID: govulndb
-      Name: The Go Vulnerability Database
-      URL: https://pkg.go.dev/vuln/
-    Title: The Parse function permits values other than IPv6 addresses to be incl ...
-    Description: 'The Parse function permits values other than IPv6 addresses to be included in square brackets within the host component of a URL. RFC 3986 permits IPv6 addresses to be included within the host component, enclosed within square brackets. For example: "http://[::1]/". IPv4 addresses and hostnames must not appear within square brackets. Parse did not enforce this requirement.'
-    Severity: HIGH
-    VendorSeverity:
-      amazon: 3
-      bitnami: 2
-    CVSS:
-      bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
-        V3Score: 5.3
-    References:
-    - http://www.openwall.com/lists/oss-security/2025/10/08/1
-    - https://go.dev/cl/709857
-    - https://go.dev/issue/75678
-    - https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-47912
-    - https://pkg.go.dev/vuln/GO-2025-4010
-    PublishedDate: '2025-10-29T23:16:18.187Z'
-    LastModifiedDate: '2025-11-04T22:16:16.497Z'
   - VulnerabilityID: CVE-2025-58183
     PkgID: stdlib@v1.24.6
     PkgName: stdlib
@@ -33293,7 +33300,7 @@
     - https://pkg.go.dev/vuln/GO-2025-4013
     PublishedDate: '2025-10-29T23:16:19.74Z'
     LastModifiedDate: '2025-11-04T22:16:33.74Z'
-  - VulnerabilityID: CVE-2025-61724
+  - VulnerabilityID: CVE-2025-47912
     PkgID: stdlib@v1.24.6
     PkgName: stdlib
     PkgIdentifier:
@@ -33305,30 +33312,36 @@
     Layer:
       Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f672d99cf12d59721fb5d9
       DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7277787fa3578e3352a155
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-61724
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-47912
     DataSource:
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
-    Title: The Reader.ReadResponse function constructs a response string through  ...
-    Description: The Reader.ReadResponse function constructs a response string through repeated string concatenation of lines. When the number of lines in a response is large, this can cause excessive CPU consumption.
-    Severity: HIGH
+    Title: 'net/url: Insufficient validation of bracketed IPv6 hostnames in net/url'
+    Description: 'The Parse function permits values other than IPv6 addresses to be included in square brackets within the host component of a URL. RFC 3986 permits IPv6 addresses to be included within the host component, enclosed within square brackets. For example: "http://[::1]/". IPv4 addresses and hostnames must not appear within square brackets. Parse did not enforce this requirement.'
+    Severity: MEDIUM
     VendorSeverity:
       amazon: 3
       bitnami: 2
+      redhat: 2
     CVSS:
       bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
+        V3Score: 5.3
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
         V3Score: 5.3
     References:
     - http://www.openwall.com/lists/oss-security/2025/10/08/1
-    - https://go.dev/cl/709859
-    - https://go.dev/issue/75716
+    - https://access.redhat.com/security/cve/CVE-2025-47912
+    - https://go.dev/cl/709857
+    - https://go.dev/issue/75678
     - https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-61724
-    - https://pkg.go.dev/vuln/GO-2025-4015
-    PublishedDate: '2025-10-29T23:16:20.02Z'
-    LastModifiedDate: '2025-11-04T22:16:36.567Z'
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-47912
+    - https://pkg.go.dev/vuln/GO-2025-4010
+    - https://www.cve.org/CVERecord?id=CVE-2025-47912
+    PublishedDate: '2025-10-29T23:16:18.187Z'
+    LastModifiedDate: '2025-11-04T22:16:16.497Z'
   - VulnerabilityID: CVE-2025-58185
     PkgID: stdlib@v1.24.6
     PkgName: stdlib
@@ -33457,6 +33470,48 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-61723
     PublishedDate: '2025-10-29T23:16:19.927Z'
     LastModifiedDate: '2025-11-04T22:16:36.42Z'
+  - VulnerabilityID: CVE-2025-61724
+    PkgID: stdlib@v1.24.6
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@v1.24.6
+      UID: b6f389d90ce3a5a4
+    InstalledVersion: v1.24.6
+    FixedVersion: 1.24.8, 1.25.2
+    Status: fixed
+    Layer:
+      Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f672d99cf12d59721fb5d9
+      DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7277787fa3578e3352a155
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-61724
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: 'net/textproto: Excessive CPU consumption in Reader.ReadResponse in net/textproto'
+    Description: The Reader.ReadResponse function constructs a response string through repeated string concatenation of lines. When the number of lines in a response is large, this can cause excessive CPU consumption.
+    Severity: MEDIUM
+    VendorSeverity:
+      amazon: 3
+      bitnami: 2
+      redhat: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/10/08/1
+    - https://access.redhat.com/security/cve/CVE-2025-61724
+    - https://go.dev/cl/709859
+    - https://go.dev/issue/75716
+    - https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-61724
+    - https://pkg.go.dev/vuln/GO-2025-4015
+    - https://www.cve.org/CVERecord?id=CVE-2025-61724
+    PublishedDate: '2025-10-29T23:16:20.02Z'
+    LastModifiedDate: '2025-11-04T22:16:36.567Z'
   - VulnerabilityID: CVE-2025-61725
     PkgID: stdlib@v1.24.6
     PkgName: stdlib
@@ -34506,42 +34561,6 @@
       Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f672d99cf12d59721fb5d9
       DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7277787fa3578e3352a155
   Vulnerabilities:
-  - VulnerabilityID: CVE-2025-47912
-    PkgID: stdlib@v1.24.6
-    PkgName: stdlib
-    PkgIdentifier:
-      PURL: pkg:golang/stdlib@v1.24.6
-      UID: 323978e56bf8954b
-    InstalledVersion: v1.24.6
-    FixedVersion: 1.24.8, 1.25.2
-    Status: fixed
-    Layer:
-      Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f672d99cf12d59721fb5d9
-      DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7277787fa3578e3352a155
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-47912
-    DataSource:
-      ID: govulndb
-      Name: The Go Vulnerability Database
-      URL: https://pkg.go.dev/vuln/
-    Title: The Parse function permits values other than IPv6 addresses to be incl ...
-    Description: 'The Parse function permits values other than IPv6 addresses to be included in square brackets within the host component of a URL. RFC 3986 permits IPv6 addresses to be included within the host component, enclosed within square brackets. For example: "http://[::1]/". IPv4 addresses and hostnames must not appear within square brackets. Parse did not enforce this requirement.'
-    Severity: HIGH
-    VendorSeverity:
-      amazon: 3
-      bitnami: 2
-    CVSS:
-      bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
-        V3Score: 5.3
-    References:
-    - http://www.openwall.com/lists/oss-security/2025/10/08/1
-    - https://go.dev/cl/709857
-    - https://go.dev/issue/75678
-    - https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-47912
-    - https://pkg.go.dev/vuln/GO-2025-4010
-    PublishedDate: '2025-10-29T23:16:18.187Z'
-    LastModifiedDate: '2025-11-04T22:16:16.497Z'
   - VulnerabilityID: CVE-2025-58183
     PkgID: stdlib@v1.24.6
     PkgName: stdlib
@@ -34692,7 +34711,7 @@
     - https://pkg.go.dev/vuln/GO-2025-4013
     PublishedDate: '2025-10-29T23:16:19.74Z'
     LastModifiedDate: '2025-11-04T22:16:33.74Z'
-  - VulnerabilityID: CVE-2025-61724
+  - VulnerabilityID: CVE-2025-47912
     PkgID: stdlib@v1.24.6
     PkgName: stdlib
     PkgIdentifier:
@@ -34704,30 +34723,36 @@
     Layer:
       Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f672d99cf12d59721fb5d9
       DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7277787fa3578e3352a155
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-61724
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-47912
     DataSource:
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
-    Title: The Reader.ReadResponse function constructs a response string through  ...
-    Description: The Reader.ReadResponse function constructs a response string through repeated string concatenation of lines. When the number of lines in a response is large, this can cause excessive CPU consumption.
-    Severity: HIGH
+    Title: 'net/url: Insufficient validation of bracketed IPv6 hostnames in net/url'
+    Description: 'The Parse function permits values other than IPv6 addresses to be included in square brackets within the host component of a URL. RFC 3986 permits IPv6 addresses to be included within the host component, enclosed within square brackets. For example: "http://[::1]/". IPv4 addresses and hostnames must not appear within square brackets. Parse did not enforce this requirement.'
+    Severity: MEDIUM
     VendorSeverity:
       amazon: 3
       bitnami: 2
+      redhat: 2
     CVSS:
       bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
+        V3Score: 5.3
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
         V3Score: 5.3
     References:
     - http://www.openwall.com/lists/oss-security/2025/10/08/1
-    - https://go.dev/cl/709859
-    - https://go.dev/issue/75716
+    - https://access.redhat.com/security/cve/CVE-2025-47912
+    - https://go.dev/cl/709857
+    - https://go.dev/issue/75678
     - https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-61724
-    - https://pkg.go.dev/vuln/GO-2025-4015
-    PublishedDate: '2025-10-29T23:16:20.02Z'
-    LastModifiedDate: '2025-11-04T22:16:36.567Z'
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-47912
+    - https://pkg.go.dev/vuln/GO-2025-4010
+    - https://www.cve.org/CVERecord?id=CVE-2025-47912
+    PublishedDate: '2025-10-29T23:16:18.187Z'
+    LastModifiedDate: '2025-11-04T22:16:16.497Z'
   - VulnerabilityID: CVE-2025-58185
     PkgID: stdlib@v1.24.6
     PkgName: stdlib
@@ -34856,6 +34881,48 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-61723
     PublishedDate: '2025-10-29T23:16:19.927Z'
     LastModifiedDate: '2025-11-04T22:16:36.42Z'
+  - VulnerabilityID: CVE-2025-61724
+    PkgID: stdlib@v1.24.6
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@v1.24.6
+      UID: 323978e56bf8954b
+    InstalledVersion: v1.24.6
+    FixedVersion: 1.24.8, 1.25.2
+    Status: fixed
+    Layer:
+      Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f672d99cf12d59721fb5d9
+      DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7277787fa3578e3352a155
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-61724
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: 'net/textproto: Excessive CPU consumption in Reader.ReadResponse in net/textproto'
+    Description: The Reader.ReadResponse function constructs a response string through repeated string concatenation of lines. When the number of lines in a response is large, this can cause excessive CPU consumption.
+    Severity: MEDIUM
+    VendorSeverity:
+      amazon: 3
+      bitnami: 2
+      redhat: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/10/08/1
+    - https://access.redhat.com/security/cve/CVE-2025-61724
+    - https://go.dev/cl/709859
+    - https://go.dev/issue/75716
+    - https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-61724
+    - https://pkg.go.dev/vuln/GO-2025-4015
+    - https://www.cve.org/CVERecord?id=CVE-2025-61724
+    PublishedDate: '2025-10-29T23:16:20.02Z'
+    LastModifiedDate: '2025-11-04T22:16:36.567Z'
   - VulnerabilityID: CVE-2025-61725
     PkgID: stdlib@v1.24.6
     PkgName: stdlib
@@ -36130,7 +36197,7 @@
     - https://github.com/containerd/containerd/security/advisories/GHSA-m6hq-p25p-ffr2
     - https://nvd.nist.gov/vuln/detail/CVE-2025-64329
     PublishedDate: '2025-11-07T05:16:08.017Z'
-    LastModifiedDate: '2025-11-07T05:16:08.017Z'
+    LastModifiedDate: '2025-11-12T16:20:22.257Z'
   - VulnerabilityID: CVE-2024-41110
     PkgID: github.com/docker/docker@v27.0.3+incompatible
     PkgName: github.com/docker/docker
@@ -36603,42 +36670,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-47907
     PublishedDate: '2025-08-07T16:15:30.357Z'
     LastModifiedDate: '2025-11-04T22:16:16.347Z'
-  - VulnerabilityID: CVE-2025-47912
-    PkgID: stdlib@v1.22.12
-    PkgName: stdlib
-    PkgIdentifier:
-      PURL: pkg:golang/stdlib@v1.22.12
-      UID: 156a2e832bd2e3cc
-    InstalledVersion: v1.22.12
-    FixedVersion: 1.24.8, 1.25.2
-    Status: fixed
-    Layer:
-      Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f672d99cf12d59721fb5d9
-      DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7277787fa3578e3352a155
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-47912
-    DataSource:
-      ID: govulndb
-      Name: The Go Vulnerability Database
-      URL: https://pkg.go.dev/vuln/
-    Title: The Parse function permits values other than IPv6 addresses to be incl ...
-    Description: 'The Parse function permits values other than IPv6 addresses to be included in square brackets within the host component of a URL. RFC 3986 permits IPv6 addresses to be included within the host component, enclosed within square brackets. For example: "http://[::1]/". IPv4 addresses and hostnames must not appear within square brackets. Parse did not enforce this requirement.'
-    Severity: HIGH
-    VendorSeverity:
-      amazon: 3
-      bitnami: 2
-    CVSS:
-      bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
-        V3Score: 5.3
-    References:
-    - http://www.openwall.com/lists/oss-security/2025/10/08/1
-    - https://go.dev/cl/709857
-    - https://go.dev/issue/75678
-    - https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-47912
-    - https://pkg.go.dev/vuln/GO-2025-4010
-    PublishedDate: '2025-10-29T23:16:18.187Z'
-    LastModifiedDate: '2025-11-04T22:16:16.497Z'
   - VulnerabilityID: CVE-2025-58183
     PkgID: stdlib@v1.22.12
     PkgName: stdlib
@@ -36789,42 +36820,6 @@
     - https://pkg.go.dev/vuln/GO-2025-4013
     PublishedDate: '2025-10-29T23:16:19.74Z'
     LastModifiedDate: '2025-11-04T22:16:33.74Z'
-  - VulnerabilityID: CVE-2025-61724
-    PkgID: stdlib@v1.22.12
-    PkgName: stdlib
-    PkgIdentifier:
-      PURL: pkg:golang/stdlib@v1.22.12
-      UID: 156a2e832bd2e3cc
-    InstalledVersion: v1.22.12
-    FixedVersion: 1.24.8, 1.25.2
-    Status: fixed
-    Layer:
-      Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f672d99cf12d59721fb5d9
-      DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7277787fa3578e3352a155
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-61724
-    DataSource:
-      ID: govulndb
-      Name: The Go Vulnerability Database
-      URL: https://pkg.go.dev/vuln/
-    Title: The Reader.ReadResponse function constructs a response string through  ...
-    Description: The Reader.ReadResponse function constructs a response string through repeated string concatenation of lines. When the number of lines in a response is large, this can cause excessive CPU consumption.
-    Severity: HIGH
-    VendorSeverity:
-      amazon: 3
-      bitnami: 2
-    CVSS:
-      bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
-        V3Score: 5.3
-    References:
-    - http://www.openwall.com/lists/oss-security/2025/10/08/1
-    - https://go.dev/cl/709859
-    - https://go.dev/issue/75716
-    - https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-61724
-    - https://pkg.go.dev/vuln/GO-2025-4015
-    PublishedDate: '2025-10-29T23:16:20.02Z'
-    LastModifiedDate: '2025-11-04T22:16:36.567Z'
   - VulnerabilityID: CVE-2025-0913
     PkgID: stdlib@v1.22.12
     PkgName: stdlib
@@ -36908,7 +36903,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2358493
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-22871
     - https://errata.almalinux.org/9/ALSA-2025-9635.html
-    - https://errata.rockylinux.org/RLSA-2025:9317
+    - https://errata.rockylinux.org/RLSA-2025:9845
     - https://github.com/roadrunner-server/roadrunner
     - https://github.com/roadrunner-server/roadrunner/commit/f269279ee87d0b88127741cad1042389af7605fa
     - https://github.com/roadrunner-server/roadrunner/issues/2166
@@ -37022,6 +37017,48 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-47906
     PublishedDate: '2025-09-18T19:15:37.66Z'
     LastModifiedDate: '2025-11-04T22:16:16.207Z'
+  - VulnerabilityID: CVE-2025-47912
+    PkgID: stdlib@v1.22.12
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@v1.22.12
+      UID: 156a2e832bd2e3cc
+    InstalledVersion: v1.22.12
+    FixedVersion: 1.24.8, 1.25.2
+    Status: fixed
+    Layer:
+      Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f672d99cf12d59721fb5d9
+      DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7277787fa3578e3352a155
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-47912
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: 'net/url: Insufficient validation of bracketed IPv6 hostnames in net/url'
+    Description: 'The Parse function permits values other than IPv6 addresses to be included in square brackets within the host component of a URL. RFC 3986 permits IPv6 addresses to be included within the host component, enclosed within square brackets. For example: "http://[::1]/". IPv4 addresses and hostnames must not appear within square brackets. Parse did not enforce this requirement.'
+    Severity: MEDIUM
+    VendorSeverity:
+      amazon: 3
+      bitnami: 2
+      redhat: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
+        V3Score: 5.3
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
+        V3Score: 5.3
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/10/08/1
+    - https://access.redhat.com/security/cve/CVE-2025-47912
+    - https://go.dev/cl/709857
+    - https://go.dev/issue/75678
+    - https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-47912
+    - https://pkg.go.dev/vuln/GO-2025-4010
+    - https://www.cve.org/CVERecord?id=CVE-2025-47912
+    PublishedDate: '2025-10-29T23:16:18.187Z'
+    LastModifiedDate: '2025-11-04T22:16:16.497Z'
   - VulnerabilityID: CVE-2025-58185
     PkgID: stdlib@v1.22.12
     PkgName: stdlib
@@ -37150,6 +37187,48 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-61723
     PublishedDate: '2025-10-29T23:16:19.927Z'
     LastModifiedDate: '2025-11-04T22:16:36.42Z'
+  - VulnerabilityID: CVE-2025-61724
+    PkgID: stdlib@v1.22.12
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@v1.22.12
+      UID: 156a2e832bd2e3cc
+    InstalledVersion: v1.22.12
+    FixedVersion: 1.24.8, 1.25.2
+    Status: fixed
+    Layer:
+      Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f672d99cf12d59721fb5d9
+      DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7277787fa3578e3352a155
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-61724
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: 'net/textproto: Excessive CPU consumption in Reader.ReadResponse in net/textproto'
+    Description: The Reader.ReadResponse function constructs a response string through repeated string concatenation of lines. When the number of lines in a response is large, this can cause excessive CPU consumption.
+    Severity: MEDIUM
+    VendorSeverity:
+      amazon: 3
+      bitnami: 2
+      redhat: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/10/08/1
+    - https://access.redhat.com/security/cve/CVE-2025-61724
+    - https://go.dev/cl/709859
+    - https://go.dev/issue/75716
+    - https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-61724
+    - https://pkg.go.dev/vuln/GO-2025-4015
+    - https://www.cve.org/CVERecord?id=CVE-2025-61724
+    PublishedDate: '2025-10-29T23:16:20.02Z'
+    LastModifiedDate: '2025-11-04T22:16:36.567Z'
   - VulnerabilityID: CVE-2025-61725
     PkgID: stdlib@v1.22.12
     PkgName: stdlib
