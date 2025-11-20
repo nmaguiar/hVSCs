@@ -23552,14 +23552,15 @@
 │                        │      │                           ╰ V3Score : 4.8 
 │                        │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/09/10/2 
 │                        │      │                  ├ [1]: http://www.openwall.com/lists/oss-security/2025/09/10/3 
-│                        │      │                  ├ [2]: https://access.redhat.com/security/cve/CVE-2025-10148 
-│                        │      │                  ├ [3]: https://curl.se/docs/CVE-2025-10148.html 
-│                        │      │                  ├ [4]: https://curl.se/docs/CVE-2025-10148.json 
-│                        │      │                  ├ [5]: https://hackerone.com/reports/3330839 
-│                        │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2025-10148 
-│                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-10148 
+│                        │      │                  ├ [2]: http://www.openwall.com/lists/oss-security/2025/09/10/4 
+│                        │      │                  ├ [3]: https://access.redhat.com/security/cve/CVE-2025-10148 
+│                        │      │                  ├ [4]: https://curl.se/docs/CVE-2025-10148.html 
+│                        │      │                  ├ [5]: https://curl.se/docs/CVE-2025-10148.json 
+│                        │      │                  ├ [6]: https://hackerone.com/reports/3330839 
+│                        │      │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2025-10148 
+│                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2025-10148 
 │                        │      ├ PublishedDate   : 2025-09-12T06:15:40.02Z 
-│                        │      ╰ LastModifiedDate: 2025-11-04T22:16:05.137Z 
+│                        │      ╰ LastModifiedDate: 2025-11-18T20:15:45.423Z 
 │                        ├ [3]  ╭ VulnerabilityID : CVE-2025-9086 
 │                        │      ├ PkgID           : curl@8.5.0-2ubuntu10.6 
 │                        │      ├ PkgName         : curl 
@@ -24418,14 +24419,15 @@
 │                        │      │                           ╰ V3Score : 4.8 
 │                        │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/09/10/2 
 │                        │      │                  ├ [1]: http://www.openwall.com/lists/oss-security/2025/09/10/3 
-│                        │      │                  ├ [2]: https://access.redhat.com/security/cve/CVE-2025-10148 
-│                        │      │                  ├ [3]: https://curl.se/docs/CVE-2025-10148.html 
-│                        │      │                  ├ [4]: https://curl.se/docs/CVE-2025-10148.json 
-│                        │      │                  ├ [5]: https://hackerone.com/reports/3330839 
-│                        │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2025-10148 
-│                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-10148 
+│                        │      │                  ├ [2]: http://www.openwall.com/lists/oss-security/2025/09/10/4 
+│                        │      │                  ├ [3]: https://access.redhat.com/security/cve/CVE-2025-10148 
+│                        │      │                  ├ [4]: https://curl.se/docs/CVE-2025-10148.html 
+│                        │      │                  ├ [5]: https://curl.se/docs/CVE-2025-10148.json 
+│                        │      │                  ├ [6]: https://hackerone.com/reports/3330839 
+│                        │      │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2025-10148 
+│                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2025-10148 
 │                        │      ├ PublishedDate   : 2025-09-12T06:15:40.02Z 
-│                        │      ╰ LastModifiedDate: 2025-11-04T22:16:05.137Z 
+│                        │      ╰ LastModifiedDate: 2025-11-18T20:15:45.423Z 
 │                        ├ [21] ╭ VulnerabilityID : CVE-2025-9086 
 │                        │      ├ PkgID           : libcurl3t64-gnutls@8.5.0-2ubuntu10.6 
 │                        │      ├ PkgName         : libcurl3t64-gnutls 
@@ -24576,14 +24578,15 @@
 │                        │      │                           ╰ V3Score : 4.8 
 │                        │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/09/10/2 
 │                        │      │                  ├ [1]: http://www.openwall.com/lists/oss-security/2025/09/10/3 
-│                        │      │                  ├ [2]: https://access.redhat.com/security/cve/CVE-2025-10148 
-│                        │      │                  ├ [3]: https://curl.se/docs/CVE-2025-10148.html 
-│                        │      │                  ├ [4]: https://curl.se/docs/CVE-2025-10148.json 
-│                        │      │                  ├ [5]: https://hackerone.com/reports/3330839 
-│                        │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2025-10148 
-│                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-10148 
+│                        │      │                  ├ [2]: http://www.openwall.com/lists/oss-security/2025/09/10/4 
+│                        │      │                  ├ [3]: https://access.redhat.com/security/cve/CVE-2025-10148 
+│                        │      │                  ├ [4]: https://curl.se/docs/CVE-2025-10148.html 
+│                        │      │                  ├ [5]: https://curl.se/docs/CVE-2025-10148.json 
+│                        │      │                  ├ [6]: https://hackerone.com/reports/3330839 
+│                        │      │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2025-10148 
+│                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2025-10148 
 │                        │      ├ PublishedDate   : 2025-09-12T06:15:40.02Z 
-│                        │      ╰ LastModifiedDate: 2025-11-04T22:16:05.137Z 
+│                        │      ╰ LastModifiedDate: 2025-11-18T20:15:45.423Z 
 │                        ├ [24] ╭ VulnerabilityID : CVE-2025-9086 
 │                        │      ├ PkgID           : libcurl4t64@8.5.0-2ubuntu10.6 
 │                        │      ├ PkgName         : libcurl4t64 
