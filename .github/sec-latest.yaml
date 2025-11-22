@@ -22503,13 +22503,13 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 6.2
     References:
-    - https://access.redhat.com/errata/RHSA-2023:4498
+    - https://access.redhat.com/errata/RHSA-2023:4569
     - https://access.redhat.com/security/cve/CVE-2023-34969
     - https://bugzilla.redhat.com/2213166
     - https://bugzilla.redhat.com/show_bug.cgi?id=2213166
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-34969
-    - https://errata.almalinux.org/8/ALSA-2023-4498.html
-    - https://errata.rockylinux.org/RLSA-2023:4569
+    - https://errata.almalinux.org/9/ALSA-2023-4569.html
+    - https://errata.rockylinux.org/RLSA-2023:4498
     - https://gitlab.freedesktop.org/dbus/dbus/-/issues/457
     - https://linux.oracle.com/cve/CVE-2023-34969.html
     - https://linux.oracle.com/errata/ELSA-2023-4569.html
@@ -22561,13 +22561,13 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 6.2
     References:
-    - https://access.redhat.com/errata/RHSA-2023:4498
+    - https://access.redhat.com/errata/RHSA-2023:4569
     - https://access.redhat.com/security/cve/CVE-2023-34969
     - https://bugzilla.redhat.com/2213166
     - https://bugzilla.redhat.com/show_bug.cgi?id=2213166
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-34969
-    - https://errata.almalinux.org/8/ALSA-2023-4498.html
-    - https://errata.rockylinux.org/RLSA-2023:4569
+    - https://errata.almalinux.org/9/ALSA-2023-4569.html
+    - https://errata.rockylinux.org/RLSA-2023:4498
     - https://gitlab.freedesktop.org/dbus/dbus/-/issues/457
     - https://linux.oracle.com/cve/CVE-2023-34969.html
     - https://linux.oracle.com/errata/ELSA-2023-4569.html
@@ -22708,12 +22708,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2025:8414
+    - https://access.redhat.com/errata/RHSA-2025:7482
     - https://access.redhat.com/security/cve/CVE-2024-52005
     - https://bugzilla.redhat.com/2338289
     - https://bugzilla.redhat.com/show_bug.cgi?id=2338289
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-52005
-    - https://errata.almalinux.org/8/ALSA-2025-8414.html
+    - https://errata.almalinux.org/10/ALSA-2025-7482.html
     - https://errata.rockylinux.org/RLSA-2025:8414
     - https://github.com/git/git/security/advisories/GHSA-7jjc-gg6m-3329
     - https://linux.oracle.com/cve/CVE-2024-52005.html
@@ -22760,12 +22760,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2025:8414
+    - https://access.redhat.com/errata/RHSA-2025:7482
     - https://access.redhat.com/security/cve/CVE-2024-52005
     - https://bugzilla.redhat.com/2338289
     - https://bugzilla.redhat.com/show_bug.cgi?id=2338289
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-52005
-    - https://errata.almalinux.org/8/ALSA-2025-8414.html
+    - https://errata.almalinux.org/10/ALSA-2025-7482.html
     - https://errata.rockylinux.org/RLSA-2025:8414
     - https://github.com/git/git/security/advisories/GHSA-7jjc-gg6m-3329
     - https://linux.oracle.com/cve/CVE-2024-52005.html
@@ -23539,13 +23539,13 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 6.2
     References:
-    - https://access.redhat.com/errata/RHSA-2023:4498
+    - https://access.redhat.com/errata/RHSA-2023:4569
     - https://access.redhat.com/security/cve/CVE-2023-34969
     - https://bugzilla.redhat.com/2213166
     - https://bugzilla.redhat.com/show_bug.cgi?id=2213166
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-34969
-    - https://errata.almalinux.org/8/ALSA-2023-4498.html
-    - https://errata.rockylinux.org/RLSA-2023:4569
+    - https://errata.almalinux.org/9/ALSA-2023-4569.html
+    - https://errata.rockylinux.org/RLSA-2023:4498
     - https://gitlab.freedesktop.org/dbus/dbus/-/issues/457
     - https://linux.oracle.com/cve/CVE-2023-34969.html
     - https://linux.oracle.com/errata/ELSA-2023-4569.html
@@ -23947,8 +23947,8 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222261
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222672
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-7008
-    - https://errata.almalinux.org/8/ALSA-2024-3203.html
-    - https://errata.rockylinux.org/RLSA-2024:2463
+    - https://errata.almalinux.org/9/ALSA-2024-2463.html
+    - https://errata.rockylinux.org/RLSA-2024:3203
     - https://github.com/systemd/systemd/issues/25676
     - https://linux.oracle.com/cve/CVE-2023-7008.html
     - https://linux.oracle.com/errata/ELSA-2024-3203.html
@@ -24010,20 +24010,22 @@
     - https://access.redhat.com/errata/RHSA-2025:16524
     - https://access.redhat.com/errata/RHSA-2025:17181
     - https://access.redhat.com/errata/RHSA-2025:18219
+    - https://access.redhat.com/errata/RHSA-2025:21885
     - https://access.redhat.com/security/cve/CVE-2025-8941
     - https://bugzilla.redhat.com/2372512
+    - https://bugzilla.redhat.com/2388220
     - https://bugzilla.redhat.com/show_bug.cgi?id=2372512
     - https://bugzilla.redhat.com/show_bug.cgi?id=2388220
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6020
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-8941
-    - https://errata.almalinux.org/8/ALSA-2025-14557.html
+    - https://errata.almalinux.org/9/ALSA-2025-15099.html
     - https://errata.rockylinux.org/RLSA-2025:14557
     - https://linux.oracle.com/cve/CVE-2025-8941.html
     - https://linux.oracle.com/errata/ELSA-2025-15099.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-8941
     - https://www.cve.org/CVERecord?id=CVE-2025-8941
     PublishedDate: '2025-08-13T15:15:41.873Z'
-    LastModifiedDate: '2025-11-06T22:15:44.947Z'
+    LastModifiedDate: '2025-11-20T21:16:08.11Z'
   - VulnerabilityID: CVE-2025-8941
     PkgID: libpam-modules-bin@1.4.0-11ubuntu2.6
     PkgName: libpam-modules-bin
@@ -24074,20 +24076,22 @@
     - https://access.redhat.com/errata/RHSA-2025:16524
     - https://access.redhat.com/errata/RHSA-2025:17181
     - https://access.redhat.com/errata/RHSA-2025:18219
+    - https://access.redhat.com/errata/RHSA-2025:21885
     - https://access.redhat.com/security/cve/CVE-2025-8941
     - https://bugzilla.redhat.com/2372512
+    - https://bugzilla.redhat.com/2388220
     - https://bugzilla.redhat.com/show_bug.cgi?id=2372512
     - https://bugzilla.redhat.com/show_bug.cgi?id=2388220
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6020
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-8941
-    - https://errata.almalinux.org/8/ALSA-2025-14557.html
+    - https://errata.almalinux.org/9/ALSA-2025-15099.html
     - https://errata.rockylinux.org/RLSA-2025:14557
     - https://linux.oracle.com/cve/CVE-2025-8941.html
     - https://linux.oracle.com/errata/ELSA-2025-15099.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-8941
     - https://www.cve.org/CVERecord?id=CVE-2025-8941
     PublishedDate: '2025-08-13T15:15:41.873Z'
-    LastModifiedDate: '2025-11-06T22:15:44.947Z'
+    LastModifiedDate: '2025-11-20T21:16:08.11Z'
   - VulnerabilityID: CVE-2025-8941
     PkgID: libpam-runtime@1.4.0-11ubuntu2.6
     PkgName: libpam-runtime
@@ -24138,20 +24142,22 @@
     - https://access.redhat.com/errata/RHSA-2025:16524
     - https://access.redhat.com/errata/RHSA-2025:17181
     - https://access.redhat.com/errata/RHSA-2025:18219
+    - https://access.redhat.com/errata/RHSA-2025:21885
     - https://access.redhat.com/security/cve/CVE-2025-8941
     - https://bugzilla.redhat.com/2372512
+    - https://bugzilla.redhat.com/2388220
     - https://bugzilla.redhat.com/show_bug.cgi?id=2372512
     - https://bugzilla.redhat.com/show_bug.cgi?id=2388220
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6020
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-8941
-    - https://errata.almalinux.org/8/ALSA-2025-14557.html
+    - https://errata.almalinux.org/9/ALSA-2025-15099.html
     - https://errata.rockylinux.org/RLSA-2025:14557
     - https://linux.oracle.com/cve/CVE-2025-8941.html
     - https://linux.oracle.com/errata/ELSA-2025-15099.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-8941
     - https://www.cve.org/CVERecord?id=CVE-2025-8941
     PublishedDate: '2025-08-13T15:15:41.873Z'
-    LastModifiedDate: '2025-11-06T22:15:44.947Z'
+    LastModifiedDate: '2025-11-20T21:16:08.11Z'
   - VulnerabilityID: CVE-2023-7008
     PkgID: libpam-systemd@249.11-0ubuntu3.17
     PkgName: libpam-systemd
@@ -24200,8 +24206,8 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222261
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222672
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-7008
-    - https://errata.almalinux.org/8/ALSA-2024-3203.html
-    - https://errata.rockylinux.org/RLSA-2024:2463
+    - https://errata.almalinux.org/9/ALSA-2024-2463.html
+    - https://errata.rockylinux.org/RLSA-2024:3203
     - https://github.com/systemd/systemd/issues/25676
     - https://linux.oracle.com/cve/CVE-2023-7008.html
     - https://linux.oracle.com/errata/ELSA-2024-3203.html
@@ -24263,20 +24269,22 @@
     - https://access.redhat.com/errata/RHSA-2025:16524
     - https://access.redhat.com/errata/RHSA-2025:17181
     - https://access.redhat.com/errata/RHSA-2025:18219
+    - https://access.redhat.com/errata/RHSA-2025:21885
     - https://access.redhat.com/security/cve/CVE-2025-8941
     - https://bugzilla.redhat.com/2372512
+    - https://bugzilla.redhat.com/2388220
     - https://bugzilla.redhat.com/show_bug.cgi?id=2372512
     - https://bugzilla.redhat.com/show_bug.cgi?id=2388220
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6020
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-8941
-    - https://errata.almalinux.org/8/ALSA-2025-14557.html
+    - https://errata.almalinux.org/9/ALSA-2025-15099.html
     - https://errata.rockylinux.org/RLSA-2025:14557
     - https://linux.oracle.com/cve/CVE-2025-8941.html
     - https://linux.oracle.com/errata/ELSA-2025-15099.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-8941
     - https://www.cve.org/CVERecord?id=CVE-2025-8941
     PublishedDate: '2025-08-13T15:15:41.873Z'
-    LastModifiedDate: '2025-11-06T22:15:44.947Z'
+    LastModifiedDate: '2025-11-20T21:16:08.11Z'
   - VulnerabilityID: CVE-2022-41409
     PkgID: libpcre2-8-0@10.39-3ubuntu0.1
     PkgName: libpcre2-8-0
@@ -24508,8 +24516,8 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222261
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222672
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-7008
-    - https://errata.almalinux.org/8/ALSA-2024-3203.html
-    - https://errata.rockylinux.org/RLSA-2024:2463
+    - https://errata.almalinux.org/9/ALSA-2024-2463.html
+    - https://errata.rockylinux.org/RLSA-2024:3203
     - https://github.com/systemd/systemd/issues/25676
     - https://linux.oracle.com/cve/CVE-2023-7008.html
     - https://linux.oracle.com/errata/ELSA-2024-3203.html
@@ -24614,8 +24622,8 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222261
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222672
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-7008
-    - https://errata.almalinux.org/8/ALSA-2024-3203.html
-    - https://errata.rockylinux.org/RLSA-2024:2463
+    - https://errata.almalinux.org/9/ALSA-2024-2463.html
+    - https://errata.rockylinux.org/RLSA-2024:3203
     - https://github.com/systemd/systemd/issues/25676
     - https://linux.oracle.com/cve/CVE-2023-7008.html
     - https://linux.oracle.com/errata/ELSA-2024-3203.html
@@ -24780,10 +24788,11 @@
     - https://access.redhat.com/errata/RHSA-2025:15827
     - https://access.redhat.com/errata/RHSA-2025:15828
     - https://access.redhat.com/errata/RHSA-2025:18219
+    - https://access.redhat.com/errata/RHSA-2025:21885
     - https://access.redhat.com/security/cve/CVE-2025-7425
     - https://bugzilla.redhat.com/2379274
     - https://bugzilla.redhat.com/show_bug.cgi?id=2379274
-    - https://errata.almalinux.org/8/ALSA-2025-12450.html
+    - https://errata.almalinux.org/9/ALSA-2025-12447.html
     - https://gitlab.gnome.org/GNOME/libxslt/-/issues/140
     - https://linux.oracle.com/cve/CVE-2025-7425.html
     - https://linux.oracle.com/errata/ELSA-2025-13464.html
@@ -24792,7 +24801,7 @@
     - https://ubuntu.com/security/notices/USN-7852-1
     - https://www.cve.org/CVERecord?id=CVE-2025-7425
     PublishedDate: '2025-07-10T14:15:27.877Z'
-    LastModifiedDate: '2025-11-04T22:16:43.81Z'
+    LastModifiedDate: '2025-11-20T21:16:07.453Z'
   - VulnerabilityID: CVE-2022-4899
     PkgID: libzstd1@1.4.8+dfsg-3build1
     PkgName: libzstd1
@@ -24836,7 +24845,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2024:0894
+    - https://access.redhat.com/errata/RHSA-2024:1141
     - https://access.redhat.com/security/cve/CVE-2022-4899
     - https://bugzilla.redhat.com/2179864
     - https://bugzilla.redhat.com/2188109
@@ -24913,7 +24922,7 @@
     - https://bugzilla.redhat.com/2258792
     - https://bugzilla.redhat.com/2258793
     - https://bugzilla.redhat.com/2258794
-    - https://errata.almalinux.org/8/ALSA-2024-0894.html
+    - https://errata.almalinux.org/9/ALSA-2024-1141.html
     - https://github.com/facebook/zstd
     - https://github.com/facebook/zstd/issues/3200
     - https://github.com/facebook/zstd/pull/3220
@@ -25003,6 +25012,7 @@
     CweIDs:
     - CWE-1188
     VendorSeverity:
+      alma: 1
       azure: 1
       redhat: 1
       ubuntu: 1
@@ -25011,7 +25021,10 @@
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:L/A:N
         V3Score: 3.6
     References:
+    - https://access.redhat.com/errata/RHSA-2025:20559
     - https://access.redhat.com/security/cve/CVE-2024-56433
+    - https://bugzilla.redhat.com/2334165
+    - https://errata.almalinux.org/9/ALSA-2025-20559.html
     - https://github.com/shadow-maint/shadow/blob/e2512d5741d4a44bdd81a8c2d0029b6222728cf0/etc/login.defs#L238-L241
     - https://github.com/shadow-maint/shadow/issues/1157
     - https://github.com/shadow-maint/shadow/releases/tag/4.4
@@ -25266,6 +25279,7 @@
     CweIDs:
     - CWE-1188
     VendorSeverity:
+      alma: 1
       azure: 1
       redhat: 1
       ubuntu: 1
@@ -25274,7 +25288,10 @@
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:L/A:N
         V3Score: 3.6
     References:
+    - https://access.redhat.com/errata/RHSA-2025:20559
     - https://access.redhat.com/security/cve/CVE-2024-56433
+    - https://bugzilla.redhat.com/2334165
+    - https://errata.almalinux.org/9/ALSA-2025-20559.html
     - https://github.com/shadow-maint/shadow/blob/e2512d5741d4a44bdd81a8c2d0029b6222728cf0/etc/login.defs#L238-L241
     - https://github.com/shadow-maint/shadow/issues/1157
     - https://github.com/shadow-maint/shadow/releases/tag/4.4
@@ -25330,8 +25347,8 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222261
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222672
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-7008
-    - https://errata.almalinux.org/8/ALSA-2024-3203.html
-    - https://errata.rockylinux.org/RLSA-2024:2463
+    - https://errata.almalinux.org/9/ALSA-2024-2463.html
+    - https://errata.rockylinux.org/RLSA-2024:3203
     - https://github.com/systemd/systemd/issues/25676
     - https://linux.oracle.com/cve/CVE-2023-7008.html
     - https://linux.oracle.com/errata/ELSA-2024-3203.html
@@ -25391,8 +25408,8 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222261
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222672
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-7008
-    - https://errata.almalinux.org/8/ALSA-2024-3203.html
-    - https://errata.rockylinux.org/RLSA-2024:2463
+    - https://errata.almalinux.org/9/ALSA-2024-2463.html
+    - https://errata.rockylinux.org/RLSA-2024:3203
     - https://github.com/systemd/systemd/issues/25676
     - https://linux.oracle.com/cve/CVE-2023-7008.html
     - https://linux.oracle.com/errata/ELSA-2024-3203.html
@@ -25452,8 +25469,8 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222261
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222672
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-7008
-    - https://errata.almalinux.org/8/ALSA-2024-3203.html
-    - https://errata.rockylinux.org/RLSA-2024:2463
+    - https://errata.almalinux.org/9/ALSA-2024-2463.html
+    - https://errata.rockylinux.org/RLSA-2024:3203
     - https://github.com/systemd/systemd/issues/25676
     - https://linux.oracle.com/cve/CVE-2023-7008.html
     - https://linux.oracle.com/errata/ELSA-2024-3203.html
@@ -25577,6 +25594,7 @@
     CweIDs:
     - CWE-1188
     VendorSeverity:
+      alma: 1
       azure: 1
       redhat: 1
       ubuntu: 1
@@ -25585,7 +25603,10 @@
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:L/A:N
         V3Score: 3.6
     References:
+    - https://access.redhat.com/errata/RHSA-2025:20559
     - https://access.redhat.com/security/cve/CVE-2024-56433
+    - https://bugzilla.redhat.com/2334165
+    - https://errata.almalinux.org/9/ALSA-2025-20559.html
     - https://github.com/shadow-maint/shadow/blob/e2512d5741d4a44bdd81a8c2d0029b6222728cf0/etc/login.defs#L238-L241
     - https://github.com/shadow-maint/shadow/issues/1157
     - https://github.com/shadow-maint/shadow/releases/tag/4.4
@@ -26836,7 +26857,7 @@
     References:
     - http://www.openwall.com/lists/oss-security/2024/04/03/16
     - http://www.openwall.com/lists/oss-security/2024/04/05/4
-    - https://access.redhat.com/errata/RHSA-2024:3346
+    - https://access.redhat.com/errata/RHSA-2024:2724
     - https://access.redhat.com/security/cve/CVE-2023-45288
     - https://bugzilla.redhat.com/2268017
     - https://bugzilla.redhat.com/2268018
@@ -26850,8 +26871,8 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45289
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45290
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24783
-    - https://errata.almalinux.org/8/ALSA-2024-3346.html
-    - https://errata.rockylinux.org/RLSA-2024:2724
+    - https://errata.almalinux.org/9/ALSA-2024-2724.html
+    - https://errata.rockylinux.org/RLSA-2024:3346
     - https://go.dev/cl/576155
     - https://go.dev/issue/65051
     - https://groups.google.com/g/golang-announce/c/YgW0sx8mN3M
@@ -27078,6 +27099,7 @@
     Description: tar.Reader does not set a maximum size on the number of sparse region data blocks in GNU tar pax 1.0 sparse files. A maliciously-crafted archive containing a large number of sparse regions can cause a Reader to read an unbounded amount of data from the archive into memory. When reading from a compressed source, a small compressed input can result in large allocations.
     Severity: HIGH
     VendorSeverity:
+      alma: 2
       amazon: 3
       bitnami: 2
       redhat: 2
@@ -27090,7 +27112,10 @@
         V3Score: 7.5
     References:
     - http://www.openwall.com/lists/oss-security/2025/10/08/1
+    - https://access.redhat.com/errata/RHSA-2025:21815
     - https://access.redhat.com/security/cve/CVE-2025-58183
+    - https://bugzilla.redhat.com/2407258
+    - https://errata.almalinux.org/9/ALSA-2025-21815.html
     - https://go.dev/cl/709861
     - https://go.dev/issue/75677
     - https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI
@@ -27153,7 +27178,7 @@
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
     Title: Due to the design of the name constraint checking algorithm, the proce ...
-    Description: Due to the design of the name constraint checking algorithm, the processing time of some inputs scals non-linearly with respect to the size of the certificate. This affects programs which validate arbitrary certificate chains.
+    Description: Due to the design of the name constraint checking algorithm, the processing time of some inputs scale non-linearly with respect to the size of the certificate. This affects programs which validate arbitrary certificate chains.
     Severity: HIGH
     VendorSeverity:
       amazon: 3
@@ -27170,7 +27195,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-58187
     - https://pkg.go.dev/vuln/GO-2025-4007
     PublishedDate: '2025-10-29T23:16:19.643Z'
-    LastModifiedDate: '2025-11-04T22:16:33.593Z'
+    LastModifiedDate: '2025-11-20T23:15:52.007Z'
   - VulnerabilityID: CVE-2025-58188
     PkgID: stdlib@v1.24.1
     PkgName: stdlib
@@ -27284,12 +27309,12 @@
         V3Score: 5.4
     References:
     - http://www.openwall.com/lists/oss-security/2025/04/04/4
-    - https://access.redhat.com/errata/RHSA-2025:9845
+    - https://access.redhat.com/errata/RHSA-2025:9623
     - https://access.redhat.com/security/cve/CVE-2025-22871
     - https://bugzilla.redhat.com/2358493
     - https://bugzilla.redhat.com/show_bug.cgi?id=2358493
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-22871
-    - https://errata.almalinux.org/8/ALSA-2025-9845.html
+    - https://errata.almalinux.org/10/ALSA-2025-9623.html
     - https://errata.rockylinux.org/RLSA-2025:9845
     - https://github.com/roadrunner-server/roadrunner
     - https://github.com/roadrunner-server/roadrunner/commit/f269279ee87d0b88127741cad1042389af7605fa
@@ -27343,12 +27368,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:N/A:N
         V3Score: 6.8
     References:
-    - https://access.redhat.com/errata/RHSA-2025:10672
+    - https://access.redhat.com/errata/RHSA-2025:16432
     - https://access.redhat.com/security/cve/CVE-2025-4673
     - https://bugzilla.redhat.com/2373305
     - https://bugzilla.redhat.com/show_bug.cgi?id=2373305
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-4673
-    - https://errata.almalinux.org/8/ALSA-2025-10672.html
+    - https://errata.almalinux.org/10/ALSA-2025-16432.html
     - https://errata.rockylinux.org/RLSA-2025:16432
     - https://go.dev/cl/679257
     - https://go.dev/issue/73816
@@ -27982,7 +28007,7 @@
     References:
     - http://www.openwall.com/lists/oss-security/2024/04/03/16
     - http://www.openwall.com/lists/oss-security/2024/04/05/4
-    - https://access.redhat.com/errata/RHSA-2024:3346
+    - https://access.redhat.com/errata/RHSA-2024:2724
     - https://access.redhat.com/security/cve/CVE-2023-45288
     - https://bugzilla.redhat.com/2268017
     - https://bugzilla.redhat.com/2268018
@@ -27996,8 +28021,8 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45289
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45290
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24783
-    - https://errata.almalinux.org/8/ALSA-2024-3346.html
-    - https://errata.rockylinux.org/RLSA-2024:2724
+    - https://errata.almalinux.org/9/ALSA-2024-2724.html
+    - https://errata.rockylinux.org/RLSA-2024:3346
     - https://go.dev/cl/576155
     - https://go.dev/issue/65051
     - https://groups.google.com/g/golang-announce/c/YgW0sx8mN3M
@@ -28224,6 +28249,7 @@
     Description: tar.Reader does not set a maximum size on the number of sparse region data blocks in GNU tar pax 1.0 sparse files. A maliciously-crafted archive containing a large number of sparse regions can cause a Reader to read an unbounded amount of data from the archive into memory. When reading from a compressed source, a small compressed input can result in large allocations.
     Severity: HIGH
     VendorSeverity:
+      alma: 2
       amazon: 3
       bitnami: 2
       redhat: 2
@@ -28236,7 +28262,10 @@
         V3Score: 7.5
     References:
     - http://www.openwall.com/lists/oss-security/2025/10/08/1
+    - https://access.redhat.com/errata/RHSA-2025:21815
     - https://access.redhat.com/security/cve/CVE-2025-58183
+    - https://bugzilla.redhat.com/2407258
+    - https://errata.almalinux.org/9/ALSA-2025-21815.html
     - https://go.dev/cl/709861
     - https://go.dev/issue/75677
     - https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI
@@ -28299,7 +28328,7 @@
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
     Title: Due to the design of the name constraint checking algorithm, the proce ...
-    Description: Due to the design of the name constraint checking algorithm, the processing time of some inputs scals non-linearly with respect to the size of the certificate. This affects programs which validate arbitrary certificate chains.
+    Description: Due to the design of the name constraint checking algorithm, the processing time of some inputs scale non-linearly with respect to the size of the certificate. This affects programs which validate arbitrary certificate chains.
     Severity: HIGH
     VendorSeverity:
       amazon: 3
@@ -28316,7 +28345,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-58187
     - https://pkg.go.dev/vuln/GO-2025-4007
     PublishedDate: '2025-10-29T23:16:19.643Z'
-    LastModifiedDate: '2025-11-04T22:16:33.593Z'
+    LastModifiedDate: '2025-11-20T23:15:52.007Z'
   - VulnerabilityID: CVE-2025-58188
     PkgID: stdlib@v1.24.1
     PkgName: stdlib
@@ -28430,12 +28459,12 @@
         V3Score: 5.4
     References:
     - http://www.openwall.com/lists/oss-security/2025/04/04/4
-    - https://access.redhat.com/errata/RHSA-2025:9845
+    - https://access.redhat.com/errata/RHSA-2025:9623
     - https://access.redhat.com/security/cve/CVE-2025-22871
     - https://bugzilla.redhat.com/2358493
     - https://bugzilla.redhat.com/show_bug.cgi?id=2358493
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-22871
-    - https://errata.almalinux.org/8/ALSA-2025-9845.html
+    - https://errata.almalinux.org/10/ALSA-2025-9623.html
     - https://errata.rockylinux.org/RLSA-2025:9845
     - https://github.com/roadrunner-server/roadrunner
     - https://github.com/roadrunner-server/roadrunner/commit/f269279ee87d0b88127741cad1042389af7605fa
@@ -28489,12 +28518,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:N/A:N
         V3Score: 6.8
     References:
-    - https://access.redhat.com/errata/RHSA-2025:10672
+    - https://access.redhat.com/errata/RHSA-2025:16432
     - https://access.redhat.com/security/cve/CVE-2025-4673
     - https://bugzilla.redhat.com/2373305
     - https://bugzilla.redhat.com/show_bug.cgi?id=2373305
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-4673
-    - https://errata.almalinux.org/8/ALSA-2025-10672.html
+    - https://errata.almalinux.org/10/ALSA-2025-16432.html
     - https://errata.rockylinux.org/RLSA-2025:16432
     - https://go.dev/cl/679257
     - https://go.dev/issue/73816
@@ -30692,6 +30721,81 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-64329
     PublishedDate: '2025-11-07T05:16:08.017Z'
     LastModifiedDate: '2025-11-12T16:20:22.257Z'
+  - VulnerabilityID: CVE-2025-47914
+    PkgID: golang.org/x/crypto@v0.38.0
+    PkgName: golang.org/x/crypto
+    PkgIdentifier:
+      PURL: pkg:golang/golang.org/x/crypto@v0.38.0
+      UID: 194e564864762cce
+    InstalledVersion: v0.38.0
+    FixedVersion: 0.45.0
+    Status: fixed
+    Layer:
+      Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f672d99cf12d59721fb5d9
+      DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7277787fa3578e3352a155
+    SeveritySource: ghsa
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-47914
+    DataSource:
+      ID: ghsa
+      Name: GitHub Security Advisory Go
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
+    Title: SSH Agent servers do not validate the size of messages when processing ...
+    Description: SSH Agent servers do not validate the size of messages when processing new identity requests, which may cause the program to panic if the message is malformed due to an out of bounds read.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-125
+    VendorSeverity:
+      ghsa: 2
+    CVSS:
+      ghsa:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+    References:
+    - https://go.dev/cl/721960
+    - https://go.dev/issue/76364
+    - https://go.googlesource.com/crypto
+    - https://groups.google.com/g/golang-announce/c/w-oX3UxNcZA
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-47914
+    - https://pkg.go.dev/vuln/GO-2025-4135
+    PublishedDate: '2025-11-19T21:15:50.517Z'
+    LastModifiedDate: '2025-11-19T21:15:50.517Z'
+  - VulnerabilityID: CVE-2025-58181
+    PkgID: golang.org/x/crypto@v0.38.0
+    PkgName: golang.org/x/crypto
+    PkgIdentifier:
+      PURL: pkg:golang/golang.org/x/crypto@v0.38.0
+      UID: 194e564864762cce
+    InstalledVersion: v0.38.0
+    FixedVersion: 0.45.0
+    Status: fixed
+    Layer:
+      Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f672d99cf12d59721fb5d9
+      DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7277787fa3578e3352a155
+    SeveritySource: ghsa
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-58181
+    DataSource:
+      ID: ghsa
+      Name: GitHub Security Advisory Go
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
+    Title: SSH servers parsing GSSAPI authentication requests do not validate the ...
+    Description: SSH servers parsing GSSAPI authentication requests do not validate the number of mechanisms specified in the request, allowing an attacker to cause unbounded memory consumption.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-770
+    VendorSeverity:
+      ghsa: 2
+    CVSS:
+      ghsa:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+    References:
+    - https://go.dev/cl/721961
+    - https://go.dev/issue/76363
+    - https://groups.google.com/g/golang-announce/c/w-oX3UxNcZA
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-58181
+    - https://pkg.go.dev/vuln/GO-2025-4134
+    PublishedDate: '2025-11-19T21:15:50.85Z'
+    LastModifiedDate: '2025-11-19T21:15:50.85Z'
 - Target: usr/bin/helm
   Class: lang-pkgs
   Type: gobinary
@@ -31909,6 +32013,81 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-64329
     PublishedDate: '2025-11-07T05:16:08.017Z'
     LastModifiedDate: '2025-11-12T16:20:22.257Z'
+  - VulnerabilityID: CVE-2025-47914
+    PkgID: golang.org/x/crypto@v0.41.0
+    PkgName: golang.org/x/crypto
+    PkgIdentifier:
+      PURL: pkg:golang/golang.org/x/crypto@v0.41.0
+      UID: 20cf41dd4f8eae37
+    InstalledVersion: v0.41.0
+    FixedVersion: 0.45.0
+    Status: fixed
+    Layer:
+      Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f672d99cf12d59721fb5d9
+      DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7277787fa3578e3352a155
+    SeveritySource: ghsa
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-47914
+    DataSource:
+      ID: ghsa
+      Name: GitHub Security Advisory Go
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
+    Title: SSH Agent servers do not validate the size of messages when processing ...
+    Description: SSH Agent servers do not validate the size of messages when processing new identity requests, which may cause the program to panic if the message is malformed due to an out of bounds read.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-125
+    VendorSeverity:
+      ghsa: 2
+    CVSS:
+      ghsa:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+    References:
+    - https://go.dev/cl/721960
+    - https://go.dev/issue/76364
+    - https://go.googlesource.com/crypto
+    - https://groups.google.com/g/golang-announce/c/w-oX3UxNcZA
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-47914
+    - https://pkg.go.dev/vuln/GO-2025-4135
+    PublishedDate: '2025-11-19T21:15:50.517Z'
+    LastModifiedDate: '2025-11-19T21:15:50.517Z'
+  - VulnerabilityID: CVE-2025-58181
+    PkgID: golang.org/x/crypto@v0.41.0
+    PkgName: golang.org/x/crypto
+    PkgIdentifier:
+      PURL: pkg:golang/golang.org/x/crypto@v0.41.0
+      UID: 20cf41dd4f8eae37
+    InstalledVersion: v0.41.0
+    FixedVersion: 0.45.0
+    Status: fixed
+    Layer:
+      Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f672d99cf12d59721fb5d9
+      DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7277787fa3578e3352a155
+    SeveritySource: ghsa
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-58181
+    DataSource:
+      ID: ghsa
+      Name: GitHub Security Advisory Go
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
+    Title: SSH servers parsing GSSAPI authentication requests do not validate the ...
+    Description: SSH servers parsing GSSAPI authentication requests do not validate the number of mechanisms specified in the request, allowing an attacker to cause unbounded memory consumption.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-770
+    VendorSeverity:
+      ghsa: 2
+    CVSS:
+      ghsa:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+    References:
+    - https://go.dev/cl/721961
+    - https://go.dev/issue/76363
+    - https://groups.google.com/g/golang-announce/c/w-oX3UxNcZA
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-58181
+    - https://pkg.go.dev/vuln/GO-2025-4134
+    PublishedDate: '2025-11-19T21:15:50.85Z'
+    LastModifiedDate: '2025-11-19T21:15:50.85Z'
   - VulnerabilityID: CVE-2025-58183
     PkgID: stdlib@v1.24.7
     PkgName: stdlib
@@ -31930,6 +32109,7 @@
     Description: tar.Reader does not set a maximum size on the number of sparse region data blocks in GNU tar pax 1.0 sparse files. A maliciously-crafted archive containing a large number of sparse regions can cause a Reader to read an unbounded amount of data from the archive into memory. When reading from a compressed source, a small compressed input can result in large allocations.
     Severity: HIGH
     VendorSeverity:
+      alma: 2
       amazon: 3
       bitnami: 2
       redhat: 2
@@ -31942,7 +32122,10 @@
         V3Score: 7.5
     References:
     - http://www.openwall.com/lists/oss-security/2025/10/08/1
+    - https://access.redhat.com/errata/RHSA-2025:21815
     - https://access.redhat.com/security/cve/CVE-2025-58183
+    - https://bugzilla.redhat.com/2407258
+    - https://errata.almalinux.org/9/ALSA-2025-21815.html
     - https://go.dev/cl/709861
     - https://go.dev/issue/75677
     - https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI
@@ -32005,7 +32188,7 @@
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
     Title: Due to the design of the name constraint checking algorithm, the proce ...
-    Description: Due to the design of the name constraint checking algorithm, the processing time of some inputs scals non-linearly with respect to the size of the certificate. This affects programs which validate arbitrary certificate chains.
+    Description: Due to the design of the name constraint checking algorithm, the processing time of some inputs scale non-linearly with respect to the size of the certificate. This affects programs which validate arbitrary certificate chains.
     Severity: HIGH
     VendorSeverity:
       amazon: 3
@@ -32022,7 +32205,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-58187
     - https://pkg.go.dev/vuln/GO-2025-4007
     PublishedDate: '2025-10-29T23:16:19.643Z'
-    LastModifiedDate: '2025-11-04T22:16:33.593Z'
+    LastModifiedDate: '2025-11-20T23:15:52.007Z'
   - VulnerabilityID: CVE-2025-58188
     PkgID: stdlib@v1.24.7
     PkgName: stdlib
@@ -33173,6 +33356,7 @@
     Description: tar.Reader does not set a maximum size on the number of sparse region data blocks in GNU tar pax 1.0 sparse files. A maliciously-crafted archive containing a large number of sparse regions can cause a Reader to read an unbounded amount of data from the archive into memory. When reading from a compressed source, a small compressed input can result in large allocations.
     Severity: HIGH
     VendorSeverity:
+      alma: 2
       amazon: 3
       bitnami: 2
       redhat: 2
@@ -33185,7 +33369,10 @@
         V3Score: 7.5
     References:
     - http://www.openwall.com/lists/oss-security/2025/10/08/1
+    - https://access.redhat.com/errata/RHSA-2025:21815
     - https://access.redhat.com/security/cve/CVE-2025-58183
+    - https://bugzilla.redhat.com/2407258
+    - https://errata.almalinux.org/9/ALSA-2025-21815.html
     - https://go.dev/cl/709861
     - https://go.dev/issue/75677
     - https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI
@@ -33248,7 +33435,7 @@
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
     Title: Due to the design of the name constraint checking algorithm, the proce ...
-    Description: Due to the design of the name constraint checking algorithm, the processing time of some inputs scals non-linearly with respect to the size of the certificate. This affects programs which validate arbitrary certificate chains.
+    Description: Due to the design of the name constraint checking algorithm, the processing time of some inputs scale non-linearly with respect to the size of the certificate. This affects programs which validate arbitrary certificate chains.
     Severity: HIGH
     VendorSeverity:
       amazon: 3
@@ -33265,7 +33452,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-58187
     - https://pkg.go.dev/vuln/GO-2025-4007
     PublishedDate: '2025-10-29T23:16:19.643Z'
-    LastModifiedDate: '2025-11-04T22:16:33.593Z'
+    LastModifiedDate: '2025-11-20T23:15:52.007Z'
   - VulnerabilityID: CVE-2025-58188
     PkgID: stdlib@v1.24.6
     PkgName: stdlib
@@ -34563,6 +34750,81 @@
       Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f672d99cf12d59721fb5d9
       DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7277787fa3578e3352a155
   Vulnerabilities:
+  - VulnerabilityID: CVE-2025-47914
+    PkgID: golang.org/x/crypto@v0.40.0
+    PkgName: golang.org/x/crypto
+    PkgIdentifier:
+      PURL: pkg:golang/golang.org/x/crypto@v0.40.0
+      UID: ab0e68c68407198f
+    InstalledVersion: v0.40.0
+    FixedVersion: 0.45.0
+    Status: fixed
+    Layer:
+      Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f672d99cf12d59721fb5d9
+      DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7277787fa3578e3352a155
+    SeveritySource: ghsa
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-47914
+    DataSource:
+      ID: ghsa
+      Name: GitHub Security Advisory Go
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
+    Title: SSH Agent servers do not validate the size of messages when processing ...
+    Description: SSH Agent servers do not validate the size of messages when processing new identity requests, which may cause the program to panic if the message is malformed due to an out of bounds read.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-125
+    VendorSeverity:
+      ghsa: 2
+    CVSS:
+      ghsa:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+    References:
+    - https://go.dev/cl/721960
+    - https://go.dev/issue/76364
+    - https://go.googlesource.com/crypto
+    - https://groups.google.com/g/golang-announce/c/w-oX3UxNcZA
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-47914
+    - https://pkg.go.dev/vuln/GO-2025-4135
+    PublishedDate: '2025-11-19T21:15:50.517Z'
+    LastModifiedDate: '2025-11-19T21:15:50.517Z'
+  - VulnerabilityID: CVE-2025-58181
+    PkgID: golang.org/x/crypto@v0.40.0
+    PkgName: golang.org/x/crypto
+    PkgIdentifier:
+      PURL: pkg:golang/golang.org/x/crypto@v0.40.0
+      UID: ab0e68c68407198f
+    InstalledVersion: v0.40.0
+    FixedVersion: 0.45.0
+    Status: fixed
+    Layer:
+      Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f672d99cf12d59721fb5d9
+      DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7277787fa3578e3352a155
+    SeveritySource: ghsa
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-58181
+    DataSource:
+      ID: ghsa
+      Name: GitHub Security Advisory Go
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
+    Title: SSH servers parsing GSSAPI authentication requests do not validate the ...
+    Description: SSH servers parsing GSSAPI authentication requests do not validate the number of mechanisms specified in the request, allowing an attacker to cause unbounded memory consumption.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-770
+    VendorSeverity:
+      ghsa: 2
+    CVSS:
+      ghsa:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+    References:
+    - https://go.dev/cl/721961
+    - https://go.dev/issue/76363
+    - https://groups.google.com/g/golang-announce/c/w-oX3UxNcZA
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-58181
+    - https://pkg.go.dev/vuln/GO-2025-4134
+    PublishedDate: '2025-11-19T21:15:50.85Z'
+    LastModifiedDate: '2025-11-19T21:15:50.85Z'
   - VulnerabilityID: CVE-2025-58183
     PkgID: stdlib@v1.24.6
     PkgName: stdlib
@@ -34584,6 +34846,7 @@
     Description: tar.Reader does not set a maximum size on the number of sparse region data blocks in GNU tar pax 1.0 sparse files. A maliciously-crafted archive containing a large number of sparse regions can cause a Reader to read an unbounded amount of data from the archive into memory. When reading from a compressed source, a small compressed input can result in large allocations.
     Severity: HIGH
     VendorSeverity:
+      alma: 2
       amazon: 3
       bitnami: 2
       redhat: 2
@@ -34596,7 +34859,10 @@
         V3Score: 7.5
     References:
     - http://www.openwall.com/lists/oss-security/2025/10/08/1
+    - https://access.redhat.com/errata/RHSA-2025:21815
     - https://access.redhat.com/security/cve/CVE-2025-58183
+    - https://bugzilla.redhat.com/2407258
+    - https://errata.almalinux.org/9/ALSA-2025-21815.html
     - https://go.dev/cl/709861
     - https://go.dev/issue/75677
     - https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI
@@ -34659,7 +34925,7 @@
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
     Title: Due to the design of the name constraint checking algorithm, the proce ...
-    Description: Due to the design of the name constraint checking algorithm, the processing time of some inputs scals non-linearly with respect to the size of the certificate. This affects programs which validate arbitrary certificate chains.
+    Description: Due to the design of the name constraint checking algorithm, the processing time of some inputs scale non-linearly with respect to the size of the certificate. This affects programs which validate arbitrary certificate chains.
     Severity: HIGH
     VendorSeverity:
       amazon: 3
@@ -34676,7 +34942,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-58187
     - https://pkg.go.dev/vuln/GO-2025-4007
     PublishedDate: '2025-10-29T23:16:19.643Z'
-    LastModifiedDate: '2025-11-04T22:16:33.593Z'
+    LastModifiedDate: '2025-11-20T23:15:52.007Z'
   - VulnerabilityID: CVE-2025-58188
     PkgID: stdlib@v1.24.6
     PkgName: stdlib
@@ -36441,6 +36707,81 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-22869
     PublishedDate: '2025-02-26T08:14:24.997Z'
     LastModifiedDate: '2025-05-01T19:28:20.74Z'
+  - VulnerabilityID: CVE-2025-47914
+    PkgID: golang.org/x/crypto@v0.24.0
+    PkgName: golang.org/x/crypto
+    PkgIdentifier:
+      PURL: pkg:golang/golang.org/x/crypto@v0.24.0
+      UID: 51665884b15027a5
+    InstalledVersion: v0.24.0
+    FixedVersion: 0.45.0
+    Status: fixed
+    Layer:
+      Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f672d99cf12d59721fb5d9
+      DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7277787fa3578e3352a155
+    SeveritySource: ghsa
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-47914
+    DataSource:
+      ID: ghsa
+      Name: GitHub Security Advisory Go
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
+    Title: SSH Agent servers do not validate the size of messages when processing ...
+    Description: SSH Agent servers do not validate the size of messages when processing new identity requests, which may cause the program to panic if the message is malformed due to an out of bounds read.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-125
+    VendorSeverity:
+      ghsa: 2
+    CVSS:
+      ghsa:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+    References:
+    - https://go.dev/cl/721960
+    - https://go.dev/issue/76364
+    - https://go.googlesource.com/crypto
+    - https://groups.google.com/g/golang-announce/c/w-oX3UxNcZA
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-47914
+    - https://pkg.go.dev/vuln/GO-2025-4135
+    PublishedDate: '2025-11-19T21:15:50.517Z'
+    LastModifiedDate: '2025-11-19T21:15:50.517Z'
+  - VulnerabilityID: CVE-2025-58181
+    PkgID: golang.org/x/crypto@v0.24.0
+    PkgName: golang.org/x/crypto
+    PkgIdentifier:
+      PURL: pkg:golang/golang.org/x/crypto@v0.24.0
+      UID: 51665884b15027a5
+    InstalledVersion: v0.24.0
+    FixedVersion: 0.45.0
+    Status: fixed
+    Layer:
+      Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f672d99cf12d59721fb5d9
+      DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7277787fa3578e3352a155
+    SeveritySource: ghsa
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-58181
+    DataSource:
+      ID: ghsa
+      Name: GitHub Security Advisory Go
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
+    Title: SSH servers parsing GSSAPI authentication requests do not validate the ...
+    Description: SSH servers parsing GSSAPI authentication requests do not validate the number of mechanisms specified in the request, allowing an attacker to cause unbounded memory consumption.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-770
+    VendorSeverity:
+      ghsa: 2
+    CVSS:
+      ghsa:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+    References:
+    - https://go.dev/cl/721961
+    - https://go.dev/issue/76363
+    - https://groups.google.com/g/golang-announce/c/w-oX3UxNcZA
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-58181
+    - https://pkg.go.dev/vuln/GO-2025-4134
+    PublishedDate: '2025-11-19T21:15:50.85Z'
+    LastModifiedDate: '2025-11-19T21:15:50.85Z'
   - VulnerabilityID: CVE-2025-22870
     PkgID: golang.org/x/net@v0.26.0
     PkgName: golang.org/x/net
@@ -36695,6 +37036,7 @@
     Description: tar.Reader does not set a maximum size on the number of sparse region data blocks in GNU tar pax 1.0 sparse files. A maliciously-crafted archive containing a large number of sparse regions can cause a Reader to read an unbounded amount of data from the archive into memory. When reading from a compressed source, a small compressed input can result in large allocations.
     Severity: HIGH
     VendorSeverity:
+      alma: 2
       amazon: 3
       bitnami: 2
       redhat: 2
@@ -36707,7 +37049,10 @@
         V3Score: 7.5
     References:
     - http://www.openwall.com/lists/oss-security/2025/10/08/1
+    - https://access.redhat.com/errata/RHSA-2025:21815
     - https://access.redhat.com/security/cve/CVE-2025-58183
+    - https://bugzilla.redhat.com/2407258
+    - https://errata.almalinux.org/9/ALSA-2025-21815.html
     - https://go.dev/cl/709861
     - https://go.dev/issue/75677
     - https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI
@@ -36770,7 +37115,7 @@
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
     Title: Due to the design of the name constraint checking algorithm, the proce ...
-    Description: Due to the design of the name constraint checking algorithm, the processing time of some inputs scals non-linearly with respect to the size of the certificate. This affects programs which validate arbitrary certificate chains.
+    Description: Due to the design of the name constraint checking algorithm, the processing time of some inputs scale non-linearly with respect to the size of the certificate. This affects programs which validate arbitrary certificate chains.
     Severity: HIGH
     VendorSeverity:
       amazon: 3
@@ -36787,7 +37132,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-58187
     - https://pkg.go.dev/vuln/GO-2025-4007
     PublishedDate: '2025-10-29T23:16:19.643Z'
-    LastModifiedDate: '2025-11-04T22:16:33.593Z'
+    LastModifiedDate: '2025-11-20T23:15:52.007Z'
   - VulnerabilityID: CVE-2025-58188
     PkgID: stdlib@v1.22.12
     PkgName: stdlib
@@ -36901,12 +37246,12 @@
         V3Score: 5.4
     References:
     - http://www.openwall.com/lists/oss-security/2025/04/04/4
-    - https://access.redhat.com/errata/RHSA-2025:9845
+    - https://access.redhat.com/errata/RHSA-2025:9623
     - https://access.redhat.com/security/cve/CVE-2025-22871
     - https://bugzilla.redhat.com/2358493
     - https://bugzilla.redhat.com/show_bug.cgi?id=2358493
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-22871
-    - https://errata.almalinux.org/8/ALSA-2025-9845.html
+    - https://errata.almalinux.org/10/ALSA-2025-9623.html
     - https://errata.rockylinux.org/RLSA-2025:9845
     - https://github.com/roadrunner-server/roadrunner
     - https://github.com/roadrunner-server/roadrunner/commit/f269279ee87d0b88127741cad1042389af7605fa
@@ -36960,12 +37305,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:N/A:N
         V3Score: 6.8
     References:
-    - https://access.redhat.com/errata/RHSA-2025:10672
+    - https://access.redhat.com/errata/RHSA-2025:16432
     - https://access.redhat.com/security/cve/CVE-2025-4673
     - https://bugzilla.redhat.com/2373305
     - https://bugzilla.redhat.com/show_bug.cgi?id=2373305
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-4673
-    - https://errata.almalinux.org/8/ALSA-2025-10672.html
+    - https://errata.almalinux.org/10/ALSA-2025-16432.html
     - https://errata.rockylinux.org/RLSA-2025:16432
     - https://go.dev/cl/679257
     - https://go.dev/issue/73816
