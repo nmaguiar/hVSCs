@@ -23764,13 +23764,13 @@
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:
 │                        │      │                           │           H/A:H 
 │                        │      │                           ╰ V3Score : 7.5 
-│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:7409 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:7482 
 │                        │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024-52005 
 │                        │      │                  ├ [2] : https://bugzilla.redhat.com/2338289 
 │                        │      │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2338289 
 │                        │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                        │      │                  │       024-52005 
-│                        │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2025-7409.html 
+│                        │      │                  ├ [5] : https://errata.almalinux.org/10/ALSA-2025-7482.html 
 │                        │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2025:8414 
 │                        │      │                  ├ [7] : https://github.com/git/git/security/advisories/GHSA-
 │                        │      │                  │       7jjc-gg6m-3329 
@@ -23832,13 +23832,13 @@
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:
 │                        │      │                           │           H/A:H 
 │                        │      │                           ╰ V3Score : 7.5 
-│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:7409 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:7482 
 │                        │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024-52005 
 │                        │      │                  ├ [2] : https://bugzilla.redhat.com/2338289 
 │                        │      │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2338289 
 │                        │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                        │      │                  │       024-52005 
-│                        │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2025-7409.html 
+│                        │      │                  ├ [5] : https://errata.almalinux.org/10/ALSA-2025-7482.html 
 │                        │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2025:8414 
 │                        │      │                  ├ [7] : https://github.com/git/git/security/advisories/GHSA-
 │                        │      │                  │       7jjc-gg6m-3329 
@@ -24956,7 +24956,7 @@
 │                        │      │                  ├ [7] : https://bugzilla.redhat.com/show_bug.cgi?id=2368600 
 │                        │      │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                        │      │                  │       025-5222 
-│                        │      │                  ├ [9] : https://errata.almalinux.org/9/ALSA-2025-12083.html 
+│                        │      │                  ├ [9] : https://errata.almalinux.org/10/ALSA-2025-11888.html 
 │                        │      │                  ├ [10]: https://errata.rockylinux.org/RLSA-2025:11888 
 │                        │      │                  ├ [11]: https://linux.oracle.com/cve/CVE-2025-5222.html 
 │                        │      │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2025-12083.html 
@@ -25238,7 +25238,451 @@
 │                        │      │                  ╰ [29]: https://www.cve.org/CVERecord?id=CVE-2025-8941 
 │                        │      ├ PublishedDate   : 2025-08-13T15:15:41.873Z 
 │                        │      ╰ LastModifiedDate: 2025-11-20T21:16:08.11Z 
-│                        ├ [35] ╭ VulnerabilityID : CVE-2024-41996 
+│                        ├ [35] ╭ VulnerabilityID : CVE-2025-6075 
+│                        │      ├ PkgID           : libpython3.12-minimal@3.12.3-1ubuntu0.8 
+│                        │      ├ PkgName         : libpython3.12-minimal 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpython3.12-minimal@3.12.3-1ubuntu0
+│                        │      │                  │       .8?arch=amd64&distro=ubuntu-24.04 
+│                        │      │                  ╰ UID : 470ac9cac08f09e8 
+│                        │      ├ InstalledVersion: 3.12.3-1ubuntu0.8 
+│                        │      ├ FixedVersion    : 3.12.3-1ubuntu0.9 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:b168de4ea06a59e8df1d15b146f69df1d0ffa3865f0
+│                        │      │                  │         bbe634c085c62cb4deb5a 
+│                        │      │                  ╰ DiffID: sha256:ee00bfec096b1610735a308bc4450f752a9f638e471
+│                        │      │                            40a9228aa5dd455abd706 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-6075 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : python: Quadratic complexity in os.path.expandvars() with
+│                        │      │                   user-controlled template 
+│                        │      ├ Description     : If the value passed to os.path.expandvars() is
+│                        │      │                   user-controlled a 
+│                        │      │                   performance degradation is possible when expanding
+│                        │      │                   environment 
+│                        │      │                   variables. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ CweIDs           ─ [0]: CWE-400 
+│                        │      ├ VendorSeverity   ╭ bitnami: 1 
+│                        │      │                  ├ redhat : 1 
+│                        │      │                  ╰ ubuntu : 2 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:
+│                        │      │                           │           N/A:L 
+│                        │      │                           ╰ V3Score : 4 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2025-6075 
+│                        │      │                  ├ [1] : https://github.com/python/cpython/commit/2e6150adcca
+│                        │      │                  │       af5bd95d4c19dfd04a36e0b325d8c 
+│                        │      │                  ├ [2] : https://github.com/python/cpython/commit/2e6150adcca
+│                        │      │                  │       af5bd95d4c19dfd04a36e0b325d8c (3.9-branch) 
+│                        │      │                  ├ [3] : https://github.com/python/cpython/commit/631ba3407e3
+│                        │      │                  │       348ccd56ce5160c4fb2c5dc5f4d84 
+│                        │      │                  ├ [4] : https://github.com/python/cpython/commit/631ba3407e3
+│                        │      │                  │       348ccd56ce5160c4fb2c5dc5f4d84 (3.14-branch) 
+│                        │      │                  ├ [5] : https://github.com/python/cpython/commit/892747b4cf0
+│                        │      │                  │       f95ba8beb51c0d0658bfaa381ebca 
+│                        │      │                  ├ [6] : https://github.com/python/cpython/commit/892747b4cf0
+│                        │      │                  │       f95ba8beb51c0d0658bfaa381ebca (3.10-branch) 
+│                        │      │                  ├ [7] : https://github.com/python/cpython/commit/9ab89c026aa
+│                        │      │                  │       9611c4b0b67c288b8303a480fe742 
+│                        │      │                  ├ [8] : https://github.com/python/cpython/commit/9ab89c026aa
+│                        │      │                  │       9611c4b0b67c288b8303a480fe742 (3.13-branch) 
+│                        │      │                  ├ [9] : https://github.com/python/cpython/commit/c8a5f3435c3
+│                        │      │                  │       42964e0a432cc9fb448b7dbecd1ba 
+│                        │      │                  ├ [10]: https://github.com/python/cpython/commit/c8a5f3435c3
+│                        │      │                  │       42964e0a432cc9fb448b7dbecd1ba (3.12-branch) 
+│                        │      │                  ├ [11]: https://github.com/python/cpython/commit/f029e8db626
+│                        │      │                  │       ddc6e3a3beea4eff511a71aaceb5c 
+│                        │      │                  ├ [12]: https://github.com/python/cpython/commit/f029e8db626
+│                        │      │                  │       ddc6e3a3beea4eff511a71aaceb5c (main) 
+│                        │      │                  ├ [13]: https://github.com/python/cpython/commit/f029e8db626
+│                        │      │                  │       ddc6e3a3beea4eff511a71aaceb5c (main-branch) 
+│                        │      │                  ├ [14]: https://github.com/python/cpython/issues/136065 
+│                        │      │                  ├ [15]: https://mail.python.org/archives/list/security-annou
+│                        │      │                  │       nce@python.org/thread/IUP5QJ6D4KK6ULHOMPC7DPNKRYQTQN
+│                        │      │                  │       LA/ 
+│                        │      │                  ├ [16]: https://nvd.nist.gov/vuln/detail/CVE-2025-6075 
+│                        │      │                  ├ [17]: https://ubuntu.com/security/notices/USN-7886-1 
+│                        │      │                  ╰ [18]: https://www.cve.org/CVERecord?id=CVE-2025-6075 
+│                        │      ├ PublishedDate   : 2025-10-31T17:15:48.693Z 
+│                        │      ╰ LastModifiedDate: 2025-11-04T15:41:31.45Z 
+│                        ├ [36] ╭ VulnerabilityID : CVE-2025-8291 
+│                        │      ├ PkgID           : libpython3.12-minimal@3.12.3-1ubuntu0.8 
+│                        │      ├ PkgName         : libpython3.12-minimal 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpython3.12-minimal@3.12.3-1ubuntu0
+│                        │      │                  │       .8?arch=amd64&distro=ubuntu-24.04 
+│                        │      │                  ╰ UID : 470ac9cac08f09e8 
+│                        │      ├ InstalledVersion: 3.12.3-1ubuntu0.8 
+│                        │      ├ FixedVersion    : 3.12.3-1ubuntu0.9 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:b168de4ea06a59e8df1d15b146f69df1d0ffa3865f0
+│                        │      │                  │         bbe634c085c62cb4deb5a 
+│                        │      │                  ╰ DiffID: sha256:ee00bfec096b1610735a308bc4450f752a9f638e471
+│                        │      │                            40a9228aa5dd455abd706 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-8291 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : cpython: python: Python zipfile End of Central Directory
+│                        │      │                   (EOCD) Locator record offset not checked 
+│                        │      ├ Description     : The 'zipfile' module would not check the validity of the
+│                        │      │                   ZIP64 End of
+│                        │      │                   Central Directory (EOCD) Locator record offset value would
+│                        │      │                   not be used to
+│                        │      │                   locate the ZIP64 EOCD record, instead the ZIP64 EOCD record
+│                        │      │                    would be
+│                        │      │                   assumed to be the previous record in the ZIP archive. This
+│                        │      │                   could be abused
+│                        │      │                   to create ZIP archives that are handled differently by the
+│                        │      │                   'zipfile' module
+│                        │      │                   compared to other ZIP implementations.
+│                        │      │                   
+│                        │      │                   Remediation maintains this behavior, but checks that the
+│                        │      │                   offset specified
+│                        │      │                   in the ZIP64 EOCD Locator record matches the expected value
+│                        │      │                   . 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ CweIDs           ─ [0]: CWE-1285 
+│                        │      ├ VendorSeverity   ╭ amazon     : 2 
+│                        │      │                  ├ azure      : 2 
+│                        │      │                  ├ bitnami    : 2 
+│                        │      │                  ├ cbl-mariner: 2 
+│                        │      │                  ├ redhat     : 2 
+│                        │      │                  ╰ ubuntu     : 2 
+│                        │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I
+│                        │      │                  │         │           :L/A:N 
+│                        │      │                  │         ╰ V3Score : 4.3 
+│                        │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I
+│                        │      │                            │           :L/A:N 
+│                        │      │                            ╰ V3Score : 4.3 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2025-8291 
+│                        │      │                  ├ [1] : https://github.com/google/security-research/security
+│                        │      │                  │       /advisories/GHSA-hhv7-p4pg-wm6p 
+│                        │      │                  ├ [2] : https://github.com/psf/advisory-database/blob/main/a
+│                        │      │                  │       dvisories/python/PSF-2025-12.json 
+│                        │      │                  ├ [3] : https://github.com/python/cpython/commit/162997bb70e
+│                        │      │                  │       067668c039700141770687bc8f267 
+│                        │      │                  ├ [4] : https://github.com/python/cpython/commit/1d29afb0d62
+│                        │      │                  │       18aa8fb5e1e4a6133a4778d89bb46 
+│                        │      │                  ├ [5] : https://github.com/python/cpython/commit/333d4a6f496
+│                        │      │                  │       7d3ace91492a39ededbcf3faa76a6 
+│                        │      │                  ├ [6] : https://github.com/python/cpython/commit/76437ac248a
+│                        │      │                  │       d8ca44e9bf697b02b1e2241df2196 
+│                        │      │                  ├ [7] : https://github.com/python/cpython/commit/8392b2f0d35
+│                        │      │                  │       678407d9ce7d95655a5b77de161b4 
+│                        │      │                  ├ [8] : https://github.com/python/cpython/commit/bca11ae7d57
+│                        │      │                  │       5d87ed93f5dd6a313be6246e3e388 
+│                        │      │                  ├ [9] : https://github.com/python/cpython/commit/d11e69d6203
+│                        │      │                  │       080e3ec450446bfed0516727b85c3 
+│                        │      │                  ├ [10]: https://github.com/python/cpython/issues/139700 
+│                        │      │                  ├ [11]: https://github.com/python/cpython/pull/139702 
+│                        │      │                  ├ [12]: https://mail.python.org/archives/list/security-annou
+│                        │      │                  │       nce@python.org/thread/QECOPWMTH4VPPJAXAH2BGTA4XADOP6
+│                        │      │                  │       2G/ 
+│                        │      │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2025-8291 
+│                        │      │                  ├ [14]: https://ubuntu.com/security/notices/USN-7886-1 
+│                        │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2025-8291 
+│                        │      ├ PublishedDate   : 2025-10-07T18:16:00.317Z 
+│                        │      ╰ LastModifiedDate: 2025-10-29T16:15:35.133Z 
+│                        ├ [37] ╭ VulnerabilityID : CVE-2025-6075 
+│                        │      ├ PkgID           : libpython3.12-stdlib@3.12.3-1ubuntu0.8 
+│                        │      ├ PkgName         : libpython3.12-stdlib 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpython3.12-stdlib@3.12.3-1ubuntu0.
+│                        │      │                  │       8?arch=amd64&distro=ubuntu-24.04 
+│                        │      │                  ╰ UID : 61aea1b987636a1a 
+│                        │      ├ InstalledVersion: 3.12.3-1ubuntu0.8 
+│                        │      ├ FixedVersion    : 3.12.3-1ubuntu0.9 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:b168de4ea06a59e8df1d15b146f69df1d0ffa3865f0
+│                        │      │                  │         bbe634c085c62cb4deb5a 
+│                        │      │                  ╰ DiffID: sha256:ee00bfec096b1610735a308bc4450f752a9f638e471
+│                        │      │                            40a9228aa5dd455abd706 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-6075 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : python: Quadratic complexity in os.path.expandvars() with
+│                        │      │                   user-controlled template 
+│                        │      ├ Description     : If the value passed to os.path.expandvars() is
+│                        │      │                   user-controlled a 
+│                        │      │                   performance degradation is possible when expanding
+│                        │      │                   environment 
+│                        │      │                   variables. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ CweIDs           ─ [0]: CWE-400 
+│                        │      ├ VendorSeverity   ╭ bitnami: 1 
+│                        │      │                  ├ redhat : 1 
+│                        │      │                  ╰ ubuntu : 2 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:
+│                        │      │                           │           N/A:L 
+│                        │      │                           ╰ V3Score : 4 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2025-6075 
+│                        │      │                  ├ [1] : https://github.com/python/cpython/commit/2e6150adcca
+│                        │      │                  │       af5bd95d4c19dfd04a36e0b325d8c 
+│                        │      │                  ├ [2] : https://github.com/python/cpython/commit/2e6150adcca
+│                        │      │                  │       af5bd95d4c19dfd04a36e0b325d8c (3.9-branch) 
+│                        │      │                  ├ [3] : https://github.com/python/cpython/commit/631ba3407e3
+│                        │      │                  │       348ccd56ce5160c4fb2c5dc5f4d84 
+│                        │      │                  ├ [4] : https://github.com/python/cpython/commit/631ba3407e3
+│                        │      │                  │       348ccd56ce5160c4fb2c5dc5f4d84 (3.14-branch) 
+│                        │      │                  ├ [5] : https://github.com/python/cpython/commit/892747b4cf0
+│                        │      │                  │       f95ba8beb51c0d0658bfaa381ebca 
+│                        │      │                  ├ [6] : https://github.com/python/cpython/commit/892747b4cf0
+│                        │      │                  │       f95ba8beb51c0d0658bfaa381ebca (3.10-branch) 
+│                        │      │                  ├ [7] : https://github.com/python/cpython/commit/9ab89c026aa
+│                        │      │                  │       9611c4b0b67c288b8303a480fe742 
+│                        │      │                  ├ [8] : https://github.com/python/cpython/commit/9ab89c026aa
+│                        │      │                  │       9611c4b0b67c288b8303a480fe742 (3.13-branch) 
+│                        │      │                  ├ [9] : https://github.com/python/cpython/commit/c8a5f3435c3
+│                        │      │                  │       42964e0a432cc9fb448b7dbecd1ba 
+│                        │      │                  ├ [10]: https://github.com/python/cpython/commit/c8a5f3435c3
+│                        │      │                  │       42964e0a432cc9fb448b7dbecd1ba (3.12-branch) 
+│                        │      │                  ├ [11]: https://github.com/python/cpython/commit/f029e8db626
+│                        │      │                  │       ddc6e3a3beea4eff511a71aaceb5c 
+│                        │      │                  ├ [12]: https://github.com/python/cpython/commit/f029e8db626
+│                        │      │                  │       ddc6e3a3beea4eff511a71aaceb5c (main) 
+│                        │      │                  ├ [13]: https://github.com/python/cpython/commit/f029e8db626
+│                        │      │                  │       ddc6e3a3beea4eff511a71aaceb5c (main-branch) 
+│                        │      │                  ├ [14]: https://github.com/python/cpython/issues/136065 
+│                        │      │                  ├ [15]: https://mail.python.org/archives/list/security-annou
+│                        │      │                  │       nce@python.org/thread/IUP5QJ6D4KK6ULHOMPC7DPNKRYQTQN
+│                        │      │                  │       LA/ 
+│                        │      │                  ├ [16]: https://nvd.nist.gov/vuln/detail/CVE-2025-6075 
+│                        │      │                  ├ [17]: https://ubuntu.com/security/notices/USN-7886-1 
+│                        │      │                  ╰ [18]: https://www.cve.org/CVERecord?id=CVE-2025-6075 
+│                        │      ├ PublishedDate   : 2025-10-31T17:15:48.693Z 
+│                        │      ╰ LastModifiedDate: 2025-11-04T15:41:31.45Z 
+│                        ├ [38] ╭ VulnerabilityID : CVE-2025-8291 
+│                        │      ├ PkgID           : libpython3.12-stdlib@3.12.3-1ubuntu0.8 
+│                        │      ├ PkgName         : libpython3.12-stdlib 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpython3.12-stdlib@3.12.3-1ubuntu0.
+│                        │      │                  │       8?arch=amd64&distro=ubuntu-24.04 
+│                        │      │                  ╰ UID : 61aea1b987636a1a 
+│                        │      ├ InstalledVersion: 3.12.3-1ubuntu0.8 
+│                        │      ├ FixedVersion    : 3.12.3-1ubuntu0.9 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:b168de4ea06a59e8df1d15b146f69df1d0ffa3865f0
+│                        │      │                  │         bbe634c085c62cb4deb5a 
+│                        │      │                  ╰ DiffID: sha256:ee00bfec096b1610735a308bc4450f752a9f638e471
+│                        │      │                            40a9228aa5dd455abd706 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-8291 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : cpython: python: Python zipfile End of Central Directory
+│                        │      │                   (EOCD) Locator record offset not checked 
+│                        │      ├ Description     : The 'zipfile' module would not check the validity of the
+│                        │      │                   ZIP64 End of
+│                        │      │                   Central Directory (EOCD) Locator record offset value would
+│                        │      │                   not be used to
+│                        │      │                   locate the ZIP64 EOCD record, instead the ZIP64 EOCD record
+│                        │      │                    would be
+│                        │      │                   assumed to be the previous record in the ZIP archive. This
+│                        │      │                   could be abused
+│                        │      │                   to create ZIP archives that are handled differently by the
+│                        │      │                   'zipfile' module
+│                        │      │                   compared to other ZIP implementations.
+│                        │      │                   
+│                        │      │                   Remediation maintains this behavior, but checks that the
+│                        │      │                   offset specified
+│                        │      │                   in the ZIP64 EOCD Locator record matches the expected value
+│                        │      │                   . 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ CweIDs           ─ [0]: CWE-1285 
+│                        │      ├ VendorSeverity   ╭ amazon     : 2 
+│                        │      │                  ├ azure      : 2 
+│                        │      │                  ├ bitnami    : 2 
+│                        │      │                  ├ cbl-mariner: 2 
+│                        │      │                  ├ redhat     : 2 
+│                        │      │                  ╰ ubuntu     : 2 
+│                        │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I
+│                        │      │                  │         │           :L/A:N 
+│                        │      │                  │         ╰ V3Score : 4.3 
+│                        │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I
+│                        │      │                            │           :L/A:N 
+│                        │      │                            ╰ V3Score : 4.3 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2025-8291 
+│                        │      │                  ├ [1] : https://github.com/google/security-research/security
+│                        │      │                  │       /advisories/GHSA-hhv7-p4pg-wm6p 
+│                        │      │                  ├ [2] : https://github.com/psf/advisory-database/blob/main/a
+│                        │      │                  │       dvisories/python/PSF-2025-12.json 
+│                        │      │                  ├ [3] : https://github.com/python/cpython/commit/162997bb70e
+│                        │      │                  │       067668c039700141770687bc8f267 
+│                        │      │                  ├ [4] : https://github.com/python/cpython/commit/1d29afb0d62
+│                        │      │                  │       18aa8fb5e1e4a6133a4778d89bb46 
+│                        │      │                  ├ [5] : https://github.com/python/cpython/commit/333d4a6f496
+│                        │      │                  │       7d3ace91492a39ededbcf3faa76a6 
+│                        │      │                  ├ [6] : https://github.com/python/cpython/commit/76437ac248a
+│                        │      │                  │       d8ca44e9bf697b02b1e2241df2196 
+│                        │      │                  ├ [7] : https://github.com/python/cpython/commit/8392b2f0d35
+│                        │      │                  │       678407d9ce7d95655a5b77de161b4 
+│                        │      │                  ├ [8] : https://github.com/python/cpython/commit/bca11ae7d57
+│                        │      │                  │       5d87ed93f5dd6a313be6246e3e388 
+│                        │      │                  ├ [9] : https://github.com/python/cpython/commit/d11e69d6203
+│                        │      │                  │       080e3ec450446bfed0516727b85c3 
+│                        │      │                  ├ [10]: https://github.com/python/cpython/issues/139700 
+│                        │      │                  ├ [11]: https://github.com/python/cpython/pull/139702 
+│                        │      │                  ├ [12]: https://mail.python.org/archives/list/security-annou
+│                        │      │                  │       nce@python.org/thread/QECOPWMTH4VPPJAXAH2BGTA4XADOP6
+│                        │      │                  │       2G/ 
+│                        │      │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2025-8291 
+│                        │      │                  ├ [14]: https://ubuntu.com/security/notices/USN-7886-1 
+│                        │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2025-8291 
+│                        │      ├ PublishedDate   : 2025-10-07T18:16:00.317Z 
+│                        │      ╰ LastModifiedDate: 2025-10-29T16:15:35.133Z 
+│                        ├ [39] ╭ VulnerabilityID : CVE-2025-6075 
+│                        │      ├ PkgID           : libpython3.12t64@3.12.3-1ubuntu0.8 
+│                        │      ├ PkgName         : libpython3.12t64 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpython3.12t64@3.12.3-1ubuntu0.8?ar
+│                        │      │                  │       ch=amd64&distro=ubuntu-24.04 
+│                        │      │                  ╰ UID : 6aebd5fa9581fbbf 
+│                        │      ├ InstalledVersion: 3.12.3-1ubuntu0.8 
+│                        │      ├ FixedVersion    : 3.12.3-1ubuntu0.9 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:b168de4ea06a59e8df1d15b146f69df1d0ffa3865f0
+│                        │      │                  │         bbe634c085c62cb4deb5a 
+│                        │      │                  ╰ DiffID: sha256:ee00bfec096b1610735a308bc4450f752a9f638e471
+│                        │      │                            40a9228aa5dd455abd706 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-6075 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : python: Quadratic complexity in os.path.expandvars() with
+│                        │      │                   user-controlled template 
+│                        │      ├ Description     : If the value passed to os.path.expandvars() is
+│                        │      │                   user-controlled a 
+│                        │      │                   performance degradation is possible when expanding
+│                        │      │                   environment 
+│                        │      │                   variables. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ CweIDs           ─ [0]: CWE-400 
+│                        │      ├ VendorSeverity   ╭ bitnami: 1 
+│                        │      │                  ├ redhat : 1 
+│                        │      │                  ╰ ubuntu : 2 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:
+│                        │      │                           │           N/A:L 
+│                        │      │                           ╰ V3Score : 4 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2025-6075 
+│                        │      │                  ├ [1] : https://github.com/python/cpython/commit/2e6150adcca
+│                        │      │                  │       af5bd95d4c19dfd04a36e0b325d8c 
+│                        │      │                  ├ [2] : https://github.com/python/cpython/commit/2e6150adcca
+│                        │      │                  │       af5bd95d4c19dfd04a36e0b325d8c (3.9-branch) 
+│                        │      │                  ├ [3] : https://github.com/python/cpython/commit/631ba3407e3
+│                        │      │                  │       348ccd56ce5160c4fb2c5dc5f4d84 
+│                        │      │                  ├ [4] : https://github.com/python/cpython/commit/631ba3407e3
+│                        │      │                  │       348ccd56ce5160c4fb2c5dc5f4d84 (3.14-branch) 
+│                        │      │                  ├ [5] : https://github.com/python/cpython/commit/892747b4cf0
+│                        │      │                  │       f95ba8beb51c0d0658bfaa381ebca 
+│                        │      │                  ├ [6] : https://github.com/python/cpython/commit/892747b4cf0
+│                        │      │                  │       f95ba8beb51c0d0658bfaa381ebca (3.10-branch) 
+│                        │      │                  ├ [7] : https://github.com/python/cpython/commit/9ab89c026aa
+│                        │      │                  │       9611c4b0b67c288b8303a480fe742 
+│                        │      │                  ├ [8] : https://github.com/python/cpython/commit/9ab89c026aa
+│                        │      │                  │       9611c4b0b67c288b8303a480fe742 (3.13-branch) 
+│                        │      │                  ├ [9] : https://github.com/python/cpython/commit/c8a5f3435c3
+│                        │      │                  │       42964e0a432cc9fb448b7dbecd1ba 
+│                        │      │                  ├ [10]: https://github.com/python/cpython/commit/c8a5f3435c3
+│                        │      │                  │       42964e0a432cc9fb448b7dbecd1ba (3.12-branch) 
+│                        │      │                  ├ [11]: https://github.com/python/cpython/commit/f029e8db626
+│                        │      │                  │       ddc6e3a3beea4eff511a71aaceb5c 
+│                        │      │                  ├ [12]: https://github.com/python/cpython/commit/f029e8db626
+│                        │      │                  │       ddc6e3a3beea4eff511a71aaceb5c (main) 
+│                        │      │                  ├ [13]: https://github.com/python/cpython/commit/f029e8db626
+│                        │      │                  │       ddc6e3a3beea4eff511a71aaceb5c (main-branch) 
+│                        │      │                  ├ [14]: https://github.com/python/cpython/issues/136065 
+│                        │      │                  ├ [15]: https://mail.python.org/archives/list/security-annou
+│                        │      │                  │       nce@python.org/thread/IUP5QJ6D4KK6ULHOMPC7DPNKRYQTQN
+│                        │      │                  │       LA/ 
+│                        │      │                  ├ [16]: https://nvd.nist.gov/vuln/detail/CVE-2025-6075 
+│                        │      │                  ├ [17]: https://ubuntu.com/security/notices/USN-7886-1 
+│                        │      │                  ╰ [18]: https://www.cve.org/CVERecord?id=CVE-2025-6075 
+│                        │      ├ PublishedDate   : 2025-10-31T17:15:48.693Z 
+│                        │      ╰ LastModifiedDate: 2025-11-04T15:41:31.45Z 
+│                        ├ [40] ╭ VulnerabilityID : CVE-2025-8291 
+│                        │      ├ PkgID           : libpython3.12t64@3.12.3-1ubuntu0.8 
+│                        │      ├ PkgName         : libpython3.12t64 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpython3.12t64@3.12.3-1ubuntu0.8?ar
+│                        │      │                  │       ch=amd64&distro=ubuntu-24.04 
+│                        │      │                  ╰ UID : 6aebd5fa9581fbbf 
+│                        │      ├ InstalledVersion: 3.12.3-1ubuntu0.8 
+│                        │      ├ FixedVersion    : 3.12.3-1ubuntu0.9 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:b168de4ea06a59e8df1d15b146f69df1d0ffa3865f0
+│                        │      │                  │         bbe634c085c62cb4deb5a 
+│                        │      │                  ╰ DiffID: sha256:ee00bfec096b1610735a308bc4450f752a9f638e471
+│                        │      │                            40a9228aa5dd455abd706 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-8291 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : cpython: python: Python zipfile End of Central Directory
+│                        │      │                   (EOCD) Locator record offset not checked 
+│                        │      ├ Description     : The 'zipfile' module would not check the validity of the
+│                        │      │                   ZIP64 End of
+│                        │      │                   Central Directory (EOCD) Locator record offset value would
+│                        │      │                   not be used to
+│                        │      │                   locate the ZIP64 EOCD record, instead the ZIP64 EOCD record
+│                        │      │                    would be
+│                        │      │                   assumed to be the previous record in the ZIP archive. This
+│                        │      │                   could be abused
+│                        │      │                   to create ZIP archives that are handled differently by the
+│                        │      │                   'zipfile' module
+│                        │      │                   compared to other ZIP implementations.
+│                        │      │                   
+│                        │      │                   Remediation maintains this behavior, but checks that the
+│                        │      │                   offset specified
+│                        │      │                   in the ZIP64 EOCD Locator record matches the expected value
+│                        │      │                   . 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ CweIDs           ─ [0]: CWE-1285 
+│                        │      ├ VendorSeverity   ╭ amazon     : 2 
+│                        │      │                  ├ azure      : 2 
+│                        │      │                  ├ bitnami    : 2 
+│                        │      │                  ├ cbl-mariner: 2 
+│                        │      │                  ├ redhat     : 2 
+│                        │      │                  ╰ ubuntu     : 2 
+│                        │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I
+│                        │      │                  │         │           :L/A:N 
+│                        │      │                  │         ╰ V3Score : 4.3 
+│                        │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I
+│                        │      │                            │           :L/A:N 
+│                        │      │                            ╰ V3Score : 4.3 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2025-8291 
+│                        │      │                  ├ [1] : https://github.com/google/security-research/security
+│                        │      │                  │       /advisories/GHSA-hhv7-p4pg-wm6p 
+│                        │      │                  ├ [2] : https://github.com/psf/advisory-database/blob/main/a
+│                        │      │                  │       dvisories/python/PSF-2025-12.json 
+│                        │      │                  ├ [3] : https://github.com/python/cpython/commit/162997bb70e
+│                        │      │                  │       067668c039700141770687bc8f267 
+│                        │      │                  ├ [4] : https://github.com/python/cpython/commit/1d29afb0d62
+│                        │      │                  │       18aa8fb5e1e4a6133a4778d89bb46 
+│                        │      │                  ├ [5] : https://github.com/python/cpython/commit/333d4a6f496
+│                        │      │                  │       7d3ace91492a39ededbcf3faa76a6 
+│                        │      │                  ├ [6] : https://github.com/python/cpython/commit/76437ac248a
+│                        │      │                  │       d8ca44e9bf697b02b1e2241df2196 
+│                        │      │                  ├ [7] : https://github.com/python/cpython/commit/8392b2f0d35
+│                        │      │                  │       678407d9ce7d95655a5b77de161b4 
+│                        │      │                  ├ [8] : https://github.com/python/cpython/commit/bca11ae7d57
+│                        │      │                  │       5d87ed93f5dd6a313be6246e3e388 
+│                        │      │                  ├ [9] : https://github.com/python/cpython/commit/d11e69d6203
+│                        │      │                  │       080e3ec450446bfed0516727b85c3 
+│                        │      │                  ├ [10]: https://github.com/python/cpython/issues/139700 
+│                        │      │                  ├ [11]: https://github.com/python/cpython/pull/139702 
+│                        │      │                  ├ [12]: https://mail.python.org/archives/list/security-annou
+│                        │      │                  │       nce@python.org/thread/QECOPWMTH4VPPJAXAH2BGTA4XADOP6
+│                        │      │                  │       2G/ 
+│                        │      │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2025-8291 
+│                        │      │                  ├ [14]: https://ubuntu.com/security/notices/USN-7886-1 
+│                        │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2025-8291 
+│                        │      ├ PublishedDate   : 2025-10-07T18:16:00.317Z 
+│                        │      ╰ LastModifiedDate: 2025-10-29T16:15:35.133Z 
+│                        ├ [41] ╭ VulnerabilityID : CVE-2024-41996 
 │                        │      ├ PkgID           : libssl3t64@3.0.13-0ubuntu3.6 
 │                        │      ├ PkgName         : libssl3t64 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libssl3t64@3.0.13-0ubuntu3.6?arch=amd
@@ -25288,7 +25732,7 @@
 │                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-41996 
 │                        │      ├ PublishedDate   : 2024-08-26T06:15:04.603Z 
 │                        │      ╰ LastModifiedDate: 2024-08-26T16:35:11.247Z 
-│                        ├ [36] ╭ VulnerabilityID : CVE-2024-56433 
+│                        ├ [42] ╭ VulnerabilityID : CVE-2024-56433 
 │                        │      ├ PkgID           : libsubid4@1:4.13+dfsg1-4ubuntu3.2 
 │                        │      ├ PkgName         : libsubid4 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libsubid4@4.13%2Bdfsg1-4ubuntu3.2?arc
@@ -25320,27 +25764,31 @@
 │                        │      │                   range that can occur in /etc/subuid. 
 │                        │      ├ Severity        : LOW 
 │                        │      ├ CweIDs           ─ [0]: CWE-1188 
-│                        │      ├ VendorSeverity   ╭ alma  : 1 
-│                        │      │                  ├ azure : 1 
-│                        │      │                  ├ redhat: 1 
-│                        │      │                  ╰ ubuntu: 1 
+│                        │      ├ VendorSeverity   ╭ alma       : 1 
+│                        │      │                  ├ azure      : 1 
+│                        │      │                  ├ oracle-oval: 1 
+│                        │      │                  ├ redhat     : 1 
+│                        │      │                  ╰ ubuntu     : 1 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:
 │                        │      │                           │           L/A:N 
 │                        │      │                           ╰ V3Score : 3.6 
-│                        │      ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2025:20559 
-│                        │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2024-56433 
-│                        │      │                  ├ [2]: https://bugzilla.redhat.com/2334165 
-│                        │      │                  ├ [3]: https://errata.almalinux.org/9/ALSA-2025-20559.html 
-│                        │      │                  ├ [4]: https://github.com/shadow-maint/shadow/blob/e2512d574
-│                        │      │                  │      1d4a44bdd81a8c2d0029b6222728cf0/etc/login.defs#L238-L
-│                        │      │                  │      241 
-│                        │      │                  ├ [5]: https://github.com/shadow-maint/shadow/issues/1157 
-│                        │      │                  ├ [6]: https://github.com/shadow-maint/shadow/releases/tag/4.4 
-│                        │      │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2024-56433 
-│                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:20559 
+│                        │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024-56433 
+│                        │      │                  ├ [2] : https://bugzilla.redhat.com/2334165 
+│                        │      │                  ├ [3] : https://errata.almalinux.org/9/ALSA-2025-20559.html 
+│                        │      │                  ├ [4] : https://github.com/shadow-maint/shadow/blob/e2512d57
+│                        │      │                  │       41d4a44bdd81a8c2d0029b6222728cf0/etc/login.defs#L238
+│                        │      │                  │       -L241 
+│                        │      │                  ├ [5] : https://github.com/shadow-maint/shadow/issues/1157 
+│                        │      │                  ├ [6] : https://github.com/shadow-maint/shadow/releases/tag/
+│                        │      │                  │       4.4 
+│                        │      │                  ├ [7] : https://linux.oracle.com/cve/CVE-2024-56433.html 
+│                        │      │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2025-20559-0.html 
+│                        │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2024-56433 
+│                        │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                        │      ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                        │      ╰ LastModifiedDate: 2024-12-26T09:15:07.267Z 
-│                        ├ [37] ╭ VulnerabilityID : CVE-2024-56433 
+│                        ├ [43] ╭ VulnerabilityID : CVE-2024-56433 
 │                        │      ├ PkgID           : login@1:4.13+dfsg1-4ubuntu3.2 
 │                        │      ├ PkgName         : login 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/login@4.13%2Bdfsg1-4ubuntu3.2?arch=am
@@ -25372,27 +25820,31 @@
 │                        │      │                   range that can occur in /etc/subuid. 
 │                        │      ├ Severity        : LOW 
 │                        │      ├ CweIDs           ─ [0]: CWE-1188 
-│                        │      ├ VendorSeverity   ╭ alma  : 1 
-│                        │      │                  ├ azure : 1 
-│                        │      │                  ├ redhat: 1 
-│                        │      │                  ╰ ubuntu: 1 
+│                        │      ├ VendorSeverity   ╭ alma       : 1 
+│                        │      │                  ├ azure      : 1 
+│                        │      │                  ├ oracle-oval: 1 
+│                        │      │                  ├ redhat     : 1 
+│                        │      │                  ╰ ubuntu     : 1 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:
 │                        │      │                           │           L/A:N 
 │                        │      │                           ╰ V3Score : 3.6 
-│                        │      ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2025:20559 
-│                        │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2024-56433 
-│                        │      │                  ├ [2]: https://bugzilla.redhat.com/2334165 
-│                        │      │                  ├ [3]: https://errata.almalinux.org/9/ALSA-2025-20559.html 
-│                        │      │                  ├ [4]: https://github.com/shadow-maint/shadow/blob/e2512d574
-│                        │      │                  │      1d4a44bdd81a8c2d0029b6222728cf0/etc/login.defs#L238-L
-│                        │      │                  │      241 
-│                        │      │                  ├ [5]: https://github.com/shadow-maint/shadow/issues/1157 
-│                        │      │                  ├ [6]: https://github.com/shadow-maint/shadow/releases/tag/4.4 
-│                        │      │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2024-56433 
-│                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:20559 
+│                        │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024-56433 
+│                        │      │                  ├ [2] : https://bugzilla.redhat.com/2334165 
+│                        │      │                  ├ [3] : https://errata.almalinux.org/9/ALSA-2025-20559.html 
+│                        │      │                  ├ [4] : https://github.com/shadow-maint/shadow/blob/e2512d57
+│                        │      │                  │       41d4a44bdd81a8c2d0029b6222728cf0/etc/login.defs#L238
+│                        │      │                  │       -L241 
+│                        │      │                  ├ [5] : https://github.com/shadow-maint/shadow/issues/1157 
+│                        │      │                  ├ [6] : https://github.com/shadow-maint/shadow/releases/tag/
+│                        │      │                  │       4.4 
+│                        │      │                  ├ [7] : https://linux.oracle.com/cve/CVE-2024-56433.html 
+│                        │      │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2025-20559-0.html 
+│                        │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2024-56433 
+│                        │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                        │      ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                        │      ╰ LastModifiedDate: 2024-12-26T09:15:07.267Z 
-│                        ├ [38] ╭ VulnerabilityID : CVE-2024-41996 
+│                        ├ [44] ╭ VulnerabilityID : CVE-2024-41996 
 │                        │      ├ PkgID           : openssl@3.0.13-0ubuntu3.6 
 │                        │      ├ PkgName         : openssl 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl@3.0.13-0ubuntu3.6?arch=amd64&
@@ -25442,7 +25894,7 @@
 │                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-41996 
 │                        │      ├ PublishedDate   : 2024-08-26T06:15:04.603Z 
 │                        │      ╰ LastModifiedDate: 2024-08-26T16:35:11.247Z 
-│                        ├ [39] ╭ VulnerabilityID : CVE-2024-56433 
+│                        ├ [45] ╭ VulnerabilityID : CVE-2024-56433 
 │                        │      ├ PkgID           : passwd@1:4.13+dfsg1-4ubuntu3.2 
 │                        │      ├ PkgName         : passwd 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/passwd@4.13%2Bdfsg1-4ubuntu3.2?arch=a
@@ -25474,27 +25926,31 @@
 │                        │      │                   range that can occur in /etc/subuid. 
 │                        │      ├ Severity        : LOW 
 │                        │      ├ CweIDs           ─ [0]: CWE-1188 
-│                        │      ├ VendorSeverity   ╭ alma  : 1 
-│                        │      │                  ├ azure : 1 
-│                        │      │                  ├ redhat: 1 
-│                        │      │                  ╰ ubuntu: 1 
+│                        │      ├ VendorSeverity   ╭ alma       : 1 
+│                        │      │                  ├ azure      : 1 
+│                        │      │                  ├ oracle-oval: 1 
+│                        │      │                  ├ redhat     : 1 
+│                        │      │                  ╰ ubuntu     : 1 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:
 │                        │      │                           │           L/A:N 
 │                        │      │                           ╰ V3Score : 3.6 
-│                        │      ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2025:20559 
-│                        │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2024-56433 
-│                        │      │                  ├ [2]: https://bugzilla.redhat.com/2334165 
-│                        │      │                  ├ [3]: https://errata.almalinux.org/9/ALSA-2025-20559.html 
-│                        │      │                  ├ [4]: https://github.com/shadow-maint/shadow/blob/e2512d574
-│                        │      │                  │      1d4a44bdd81a8c2d0029b6222728cf0/etc/login.defs#L238-L
-│                        │      │                  │      241 
-│                        │      │                  ├ [5]: https://github.com/shadow-maint/shadow/issues/1157 
-│                        │      │                  ├ [6]: https://github.com/shadow-maint/shadow/releases/tag/4.4 
-│                        │      │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2024-56433 
-│                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:20559 
+│                        │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024-56433 
+│                        │      │                  ├ [2] : https://bugzilla.redhat.com/2334165 
+│                        │      │                  ├ [3] : https://errata.almalinux.org/9/ALSA-2025-20559.html 
+│                        │      │                  ├ [4] : https://github.com/shadow-maint/shadow/blob/e2512d57
+│                        │      │                  │       41d4a44bdd81a8c2d0029b6222728cf0/etc/login.defs#L238
+│                        │      │                  │       -L241 
+│                        │      │                  ├ [5] : https://github.com/shadow-maint/shadow/issues/1157 
+│                        │      │                  ├ [6] : https://github.com/shadow-maint/shadow/releases/tag/
+│                        │      │                  │       4.4 
+│                        │      │                  ├ [7] : https://linux.oracle.com/cve/CVE-2024-56433.html 
+│                        │      │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2025-20559-0.html 
+│                        │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2024-56433 
+│                        │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                        │      ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                        │      ╰ LastModifiedDate: 2024-12-26T09:15:07.267Z 
-│                        ├ [40] ╭ VulnerabilityID : CVE-2018-6952 
+│                        ├ [46] ╭ VulnerabilityID : CVE-2018-6952 
 │                        │      ├ PkgID           : patch@2.7.6-7build3 
 │                        │      ├ PkgName         : patch 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/patch@2.7.6-7build3?arch=amd64&distro
@@ -25544,7 +26000,7 @@
 │                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2018-6952 
 │                        │      ├ PublishedDate   : 2018-02-13T19:29:00.573Z 
 │                        │      ╰ LastModifiedDate: 2024-11-21T04:11:28.42Z 
-│                        ├ [41] ╭ VulnerabilityID : CVE-2021-45261 
+│                        ├ [47] ╭ VulnerabilityID : CVE-2021-45261 
 │                        │      ├ PkgID           : patch@2.7.6-7build3 
 │                        │      ├ PkgName         : patch 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/patch@2.7.6-7build3?arch=amd64&distro
@@ -25584,7 +26040,303 @@
 │                        │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2021-45261 
 │                        │      ├ PublishedDate   : 2021-12-22T18:15:08.1Z 
 │                        │      ╰ LastModifiedDate: 2024-11-21T06:32:02.633Z 
-│                        ├ [42] ╭ VulnerabilityID : CVE-2025-45582 
+│                        ├ [48] ╭ VulnerabilityID : CVE-2025-6075 
+│                        │      ├ PkgID           : python3.12@3.12.3-1ubuntu0.8 
+│                        │      ├ PkgName         : python3.12 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/python3.12@3.12.3-1ubuntu0.8?arch=amd
+│                        │      │                  │       64&distro=ubuntu-24.04 
+│                        │      │                  ╰ UID : 6ec18143407cedc6 
+│                        │      ├ InstalledVersion: 3.12.3-1ubuntu0.8 
+│                        │      ├ FixedVersion    : 3.12.3-1ubuntu0.9 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:b168de4ea06a59e8df1d15b146f69df1d0ffa3865f0
+│                        │      │                  │         bbe634c085c62cb4deb5a 
+│                        │      │                  ╰ DiffID: sha256:ee00bfec096b1610735a308bc4450f752a9f638e471
+│                        │      │                            40a9228aa5dd455abd706 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-6075 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : python: Quadratic complexity in os.path.expandvars() with
+│                        │      │                   user-controlled template 
+│                        │      ├ Description     : If the value passed to os.path.expandvars() is
+│                        │      │                   user-controlled a 
+│                        │      │                   performance degradation is possible when expanding
+│                        │      │                   environment 
+│                        │      │                   variables. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ CweIDs           ─ [0]: CWE-400 
+│                        │      ├ VendorSeverity   ╭ bitnami: 1 
+│                        │      │                  ├ redhat : 1 
+│                        │      │                  ╰ ubuntu : 2 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:
+│                        │      │                           │           N/A:L 
+│                        │      │                           ╰ V3Score : 4 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2025-6075 
+│                        │      │                  ├ [1] : https://github.com/python/cpython/commit/2e6150adcca
+│                        │      │                  │       af5bd95d4c19dfd04a36e0b325d8c 
+│                        │      │                  ├ [2] : https://github.com/python/cpython/commit/2e6150adcca
+│                        │      │                  │       af5bd95d4c19dfd04a36e0b325d8c (3.9-branch) 
+│                        │      │                  ├ [3] : https://github.com/python/cpython/commit/631ba3407e3
+│                        │      │                  │       348ccd56ce5160c4fb2c5dc5f4d84 
+│                        │      │                  ├ [4] : https://github.com/python/cpython/commit/631ba3407e3
+│                        │      │                  │       348ccd56ce5160c4fb2c5dc5f4d84 (3.14-branch) 
+│                        │      │                  ├ [5] : https://github.com/python/cpython/commit/892747b4cf0
+│                        │      │                  │       f95ba8beb51c0d0658bfaa381ebca 
+│                        │      │                  ├ [6] : https://github.com/python/cpython/commit/892747b4cf0
+│                        │      │                  │       f95ba8beb51c0d0658bfaa381ebca (3.10-branch) 
+│                        │      │                  ├ [7] : https://github.com/python/cpython/commit/9ab89c026aa
+│                        │      │                  │       9611c4b0b67c288b8303a480fe742 
+│                        │      │                  ├ [8] : https://github.com/python/cpython/commit/9ab89c026aa
+│                        │      │                  │       9611c4b0b67c288b8303a480fe742 (3.13-branch) 
+│                        │      │                  ├ [9] : https://github.com/python/cpython/commit/c8a5f3435c3
+│                        │      │                  │       42964e0a432cc9fb448b7dbecd1ba 
+│                        │      │                  ├ [10]: https://github.com/python/cpython/commit/c8a5f3435c3
+│                        │      │                  │       42964e0a432cc9fb448b7dbecd1ba (3.12-branch) 
+│                        │      │                  ├ [11]: https://github.com/python/cpython/commit/f029e8db626
+│                        │      │                  │       ddc6e3a3beea4eff511a71aaceb5c 
+│                        │      │                  ├ [12]: https://github.com/python/cpython/commit/f029e8db626
+│                        │      │                  │       ddc6e3a3beea4eff511a71aaceb5c (main) 
+│                        │      │                  ├ [13]: https://github.com/python/cpython/commit/f029e8db626
+│                        │      │                  │       ddc6e3a3beea4eff511a71aaceb5c (main-branch) 
+│                        │      │                  ├ [14]: https://github.com/python/cpython/issues/136065 
+│                        │      │                  ├ [15]: https://mail.python.org/archives/list/security-annou
+│                        │      │                  │       nce@python.org/thread/IUP5QJ6D4KK6ULHOMPC7DPNKRYQTQN
+│                        │      │                  │       LA/ 
+│                        │      │                  ├ [16]: https://nvd.nist.gov/vuln/detail/CVE-2025-6075 
+│                        │      │                  ├ [17]: https://ubuntu.com/security/notices/USN-7886-1 
+│                        │      │                  ╰ [18]: https://www.cve.org/CVERecord?id=CVE-2025-6075 
+│                        │      ├ PublishedDate   : 2025-10-31T17:15:48.693Z 
+│                        │      ╰ LastModifiedDate: 2025-11-04T15:41:31.45Z 
+│                        ├ [49] ╭ VulnerabilityID : CVE-2025-8291 
+│                        │      ├ PkgID           : python3.12@3.12.3-1ubuntu0.8 
+│                        │      ├ PkgName         : python3.12 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/python3.12@3.12.3-1ubuntu0.8?arch=amd
+│                        │      │                  │       64&distro=ubuntu-24.04 
+│                        │      │                  ╰ UID : 6ec18143407cedc6 
+│                        │      ├ InstalledVersion: 3.12.3-1ubuntu0.8 
+│                        │      ├ FixedVersion    : 3.12.3-1ubuntu0.9 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:b168de4ea06a59e8df1d15b146f69df1d0ffa3865f0
+│                        │      │                  │         bbe634c085c62cb4deb5a 
+│                        │      │                  ╰ DiffID: sha256:ee00bfec096b1610735a308bc4450f752a9f638e471
+│                        │      │                            40a9228aa5dd455abd706 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-8291 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : cpython: python: Python zipfile End of Central Directory
+│                        │      │                   (EOCD) Locator record offset not checked 
+│                        │      ├ Description     : The 'zipfile' module would not check the validity of the
+│                        │      │                   ZIP64 End of
+│                        │      │                   Central Directory (EOCD) Locator record offset value would
+│                        │      │                   not be used to
+│                        │      │                   locate the ZIP64 EOCD record, instead the ZIP64 EOCD record
+│                        │      │                    would be
+│                        │      │                   assumed to be the previous record in the ZIP archive. This
+│                        │      │                   could be abused
+│                        │      │                   to create ZIP archives that are handled differently by the
+│                        │      │                   'zipfile' module
+│                        │      │                   compared to other ZIP implementations.
+│                        │      │                   
+│                        │      │                   Remediation maintains this behavior, but checks that the
+│                        │      │                   offset specified
+│                        │      │                   in the ZIP64 EOCD Locator record matches the expected value
+│                        │      │                   . 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ CweIDs           ─ [0]: CWE-1285 
+│                        │      ├ VendorSeverity   ╭ amazon     : 2 
+│                        │      │                  ├ azure      : 2 
+│                        │      │                  ├ bitnami    : 2 
+│                        │      │                  ├ cbl-mariner: 2 
+│                        │      │                  ├ redhat     : 2 
+│                        │      │                  ╰ ubuntu     : 2 
+│                        │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I
+│                        │      │                  │         │           :L/A:N 
+│                        │      │                  │         ╰ V3Score : 4.3 
+│                        │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I
+│                        │      │                            │           :L/A:N 
+│                        │      │                            ╰ V3Score : 4.3 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2025-8291 
+│                        │      │                  ├ [1] : https://github.com/google/security-research/security
+│                        │      │                  │       /advisories/GHSA-hhv7-p4pg-wm6p 
+│                        │      │                  ├ [2] : https://github.com/psf/advisory-database/blob/main/a
+│                        │      │                  │       dvisories/python/PSF-2025-12.json 
+│                        │      │                  ├ [3] : https://github.com/python/cpython/commit/162997bb70e
+│                        │      │                  │       067668c039700141770687bc8f267 
+│                        │      │                  ├ [4] : https://github.com/python/cpython/commit/1d29afb0d62
+│                        │      │                  │       18aa8fb5e1e4a6133a4778d89bb46 
+│                        │      │                  ├ [5] : https://github.com/python/cpython/commit/333d4a6f496
+│                        │      │                  │       7d3ace91492a39ededbcf3faa76a6 
+│                        │      │                  ├ [6] : https://github.com/python/cpython/commit/76437ac248a
+│                        │      │                  │       d8ca44e9bf697b02b1e2241df2196 
+│                        │      │                  ├ [7] : https://github.com/python/cpython/commit/8392b2f0d35
+│                        │      │                  │       678407d9ce7d95655a5b77de161b4 
+│                        │      │                  ├ [8] : https://github.com/python/cpython/commit/bca11ae7d57
+│                        │      │                  │       5d87ed93f5dd6a313be6246e3e388 
+│                        │      │                  ├ [9] : https://github.com/python/cpython/commit/d11e69d6203
+│                        │      │                  │       080e3ec450446bfed0516727b85c3 
+│                        │      │                  ├ [10]: https://github.com/python/cpython/issues/139700 
+│                        │      │                  ├ [11]: https://github.com/python/cpython/pull/139702 
+│                        │      │                  ├ [12]: https://mail.python.org/archives/list/security-annou
+│                        │      │                  │       nce@python.org/thread/QECOPWMTH4VPPJAXAH2BGTA4XADOP6
+│                        │      │                  │       2G/ 
+│                        │      │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2025-8291 
+│                        │      │                  ├ [14]: https://ubuntu.com/security/notices/USN-7886-1 
+│                        │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2025-8291 
+│                        │      ├ PublishedDate   : 2025-10-07T18:16:00.317Z 
+│                        │      ╰ LastModifiedDate: 2025-10-29T16:15:35.133Z 
+│                        ├ [50] ╭ VulnerabilityID : CVE-2025-6075 
+│                        │      ├ PkgID           : python3.12-minimal@3.12.3-1ubuntu0.8 
+│                        │      ├ PkgName         : python3.12-minimal 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/python3.12-minimal@3.12.3-1ubuntu0.8?
+│                        │      │                  │       arch=amd64&distro=ubuntu-24.04 
+│                        │      │                  ╰ UID : 3f1d9162188bfdd2 
+│                        │      ├ InstalledVersion: 3.12.3-1ubuntu0.8 
+│                        │      ├ FixedVersion    : 3.12.3-1ubuntu0.9 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:b168de4ea06a59e8df1d15b146f69df1d0ffa3865f0
+│                        │      │                  │         bbe634c085c62cb4deb5a 
+│                        │      │                  ╰ DiffID: sha256:ee00bfec096b1610735a308bc4450f752a9f638e471
+│                        │      │                            40a9228aa5dd455abd706 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-6075 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : python: Quadratic complexity in os.path.expandvars() with
+│                        │      │                   user-controlled template 
+│                        │      ├ Description     : If the value passed to os.path.expandvars() is
+│                        │      │                   user-controlled a 
+│                        │      │                   performance degradation is possible when expanding
+│                        │      │                   environment 
+│                        │      │                   variables. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ CweIDs           ─ [0]: CWE-400 
+│                        │      ├ VendorSeverity   ╭ bitnami: 1 
+│                        │      │                  ├ redhat : 1 
+│                        │      │                  ╰ ubuntu : 2 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:
+│                        │      │                           │           N/A:L 
+│                        │      │                           ╰ V3Score : 4 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2025-6075 
+│                        │      │                  ├ [1] : https://github.com/python/cpython/commit/2e6150adcca
+│                        │      │                  │       af5bd95d4c19dfd04a36e0b325d8c 
+│                        │      │                  ├ [2] : https://github.com/python/cpython/commit/2e6150adcca
+│                        │      │                  │       af5bd95d4c19dfd04a36e0b325d8c (3.9-branch) 
+│                        │      │                  ├ [3] : https://github.com/python/cpython/commit/631ba3407e3
+│                        │      │                  │       348ccd56ce5160c4fb2c5dc5f4d84 
+│                        │      │                  ├ [4] : https://github.com/python/cpython/commit/631ba3407e3
+│                        │      │                  │       348ccd56ce5160c4fb2c5dc5f4d84 (3.14-branch) 
+│                        │      │                  ├ [5] : https://github.com/python/cpython/commit/892747b4cf0
+│                        │      │                  │       f95ba8beb51c0d0658bfaa381ebca 
+│                        │      │                  ├ [6] : https://github.com/python/cpython/commit/892747b4cf0
+│                        │      │                  │       f95ba8beb51c0d0658bfaa381ebca (3.10-branch) 
+│                        │      │                  ├ [7] : https://github.com/python/cpython/commit/9ab89c026aa
+│                        │      │                  │       9611c4b0b67c288b8303a480fe742 
+│                        │      │                  ├ [8] : https://github.com/python/cpython/commit/9ab89c026aa
+│                        │      │                  │       9611c4b0b67c288b8303a480fe742 (3.13-branch) 
+│                        │      │                  ├ [9] : https://github.com/python/cpython/commit/c8a5f3435c3
+│                        │      │                  │       42964e0a432cc9fb448b7dbecd1ba 
+│                        │      │                  ├ [10]: https://github.com/python/cpython/commit/c8a5f3435c3
+│                        │      │                  │       42964e0a432cc9fb448b7dbecd1ba (3.12-branch) 
+│                        │      │                  ├ [11]: https://github.com/python/cpython/commit/f029e8db626
+│                        │      │                  │       ddc6e3a3beea4eff511a71aaceb5c 
+│                        │      │                  ├ [12]: https://github.com/python/cpython/commit/f029e8db626
+│                        │      │                  │       ddc6e3a3beea4eff511a71aaceb5c (main) 
+│                        │      │                  ├ [13]: https://github.com/python/cpython/commit/f029e8db626
+│                        │      │                  │       ddc6e3a3beea4eff511a71aaceb5c (main-branch) 
+│                        │      │                  ├ [14]: https://github.com/python/cpython/issues/136065 
+│                        │      │                  ├ [15]: https://mail.python.org/archives/list/security-annou
+│                        │      │                  │       nce@python.org/thread/IUP5QJ6D4KK6ULHOMPC7DPNKRYQTQN
+│                        │      │                  │       LA/ 
+│                        │      │                  ├ [16]: https://nvd.nist.gov/vuln/detail/CVE-2025-6075 
+│                        │      │                  ├ [17]: https://ubuntu.com/security/notices/USN-7886-1 
+│                        │      │                  ╰ [18]: https://www.cve.org/CVERecord?id=CVE-2025-6075 
+│                        │      ├ PublishedDate   : 2025-10-31T17:15:48.693Z 
+│                        │      ╰ LastModifiedDate: 2025-11-04T15:41:31.45Z 
+│                        ├ [51] ╭ VulnerabilityID : CVE-2025-8291 
+│                        │      ├ PkgID           : python3.12-minimal@3.12.3-1ubuntu0.8 
+│                        │      ├ PkgName         : python3.12-minimal 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/python3.12-minimal@3.12.3-1ubuntu0.8?
+│                        │      │                  │       arch=amd64&distro=ubuntu-24.04 
+│                        │      │                  ╰ UID : 3f1d9162188bfdd2 
+│                        │      ├ InstalledVersion: 3.12.3-1ubuntu0.8 
+│                        │      ├ FixedVersion    : 3.12.3-1ubuntu0.9 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:b168de4ea06a59e8df1d15b146f69df1d0ffa3865f0
+│                        │      │                  │         bbe634c085c62cb4deb5a 
+│                        │      │                  ╰ DiffID: sha256:ee00bfec096b1610735a308bc4450f752a9f638e471
+│                        │      │                            40a9228aa5dd455abd706 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-8291 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : cpython: python: Python zipfile End of Central Directory
+│                        │      │                   (EOCD) Locator record offset not checked 
+│                        │      ├ Description     : The 'zipfile' module would not check the validity of the
+│                        │      │                   ZIP64 End of
+│                        │      │                   Central Directory (EOCD) Locator record offset value would
+│                        │      │                   not be used to
+│                        │      │                   locate the ZIP64 EOCD record, instead the ZIP64 EOCD record
+│                        │      │                    would be
+│                        │      │                   assumed to be the previous record in the ZIP archive. This
+│                        │      │                   could be abused
+│                        │      │                   to create ZIP archives that are handled differently by the
+│                        │      │                   'zipfile' module
+│                        │      │                   compared to other ZIP implementations.
+│                        │      │                   
+│                        │      │                   Remediation maintains this behavior, but checks that the
+│                        │      │                   offset specified
+│                        │      │                   in the ZIP64 EOCD Locator record matches the expected value
+│                        │      │                   . 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ CweIDs           ─ [0]: CWE-1285 
+│                        │      ├ VendorSeverity   ╭ amazon     : 2 
+│                        │      │                  ├ azure      : 2 
+│                        │      │                  ├ bitnami    : 2 
+│                        │      │                  ├ cbl-mariner: 2 
+│                        │      │                  ├ redhat     : 2 
+│                        │      │                  ╰ ubuntu     : 2 
+│                        │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I
+│                        │      │                  │         │           :L/A:N 
+│                        │      │                  │         ╰ V3Score : 4.3 
+│                        │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I
+│                        │      │                            │           :L/A:N 
+│                        │      │                            ╰ V3Score : 4.3 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2025-8291 
+│                        │      │                  ├ [1] : https://github.com/google/security-research/security
+│                        │      │                  │       /advisories/GHSA-hhv7-p4pg-wm6p 
+│                        │      │                  ├ [2] : https://github.com/psf/advisory-database/blob/main/a
+│                        │      │                  │       dvisories/python/PSF-2025-12.json 
+│                        │      │                  ├ [3] : https://github.com/python/cpython/commit/162997bb70e
+│                        │      │                  │       067668c039700141770687bc8f267 
+│                        │      │                  ├ [4] : https://github.com/python/cpython/commit/1d29afb0d62
+│                        │      │                  │       18aa8fb5e1e4a6133a4778d89bb46 
+│                        │      │                  ├ [5] : https://github.com/python/cpython/commit/333d4a6f496
+│                        │      │                  │       7d3ace91492a39ededbcf3faa76a6 
+│                        │      │                  ├ [6] : https://github.com/python/cpython/commit/76437ac248a
+│                        │      │                  │       d8ca44e9bf697b02b1e2241df2196 
+│                        │      │                  ├ [7] : https://github.com/python/cpython/commit/8392b2f0d35
+│                        │      │                  │       678407d9ce7d95655a5b77de161b4 
+│                        │      │                  ├ [8] : https://github.com/python/cpython/commit/bca11ae7d57
+│                        │      │                  │       5d87ed93f5dd6a313be6246e3e388 
+│                        │      │                  ├ [9] : https://github.com/python/cpython/commit/d11e69d6203
+│                        │      │                  │       080e3ec450446bfed0516727b85c3 
+│                        │      │                  ├ [10]: https://github.com/python/cpython/issues/139700 
+│                        │      │                  ├ [11]: https://github.com/python/cpython/pull/139702 
+│                        │      │                  ├ [12]: https://mail.python.org/archives/list/security-annou
+│                        │      │                  │       nce@python.org/thread/QECOPWMTH4VPPJAXAH2BGTA4XADOP6
+│                        │      │                  │       2G/ 
+│                        │      │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2025-8291 
+│                        │      │                  ├ [14]: https://ubuntu.com/security/notices/USN-7886-1 
+│                        │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2025-8291 
+│                        │      ├ PublishedDate   : 2025-10-07T18:16:00.317Z 
+│                        │      ╰ LastModifiedDate: 2025-10-29T16:15:35.133Z 
+│                        ├ [52] ╭ VulnerabilityID : CVE-2025-45582 
 │                        │      ├ PkgID           : tar@1.35+dfsg-3build1 
 │                        │      ├ PkgName         : tar 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/tar@1.35%2Bdfsg-3build1?arch=amd64&di
@@ -25651,7 +26403,7 @@
 │                        │      │                         urity-rules-of-thumb.html 
 │                        │      ├ PublishedDate   : 2025-07-11T17:15:37.183Z 
 │                        │      ╰ LastModifiedDate: 2025-11-02T01:15:32.307Z 
-│                        ├ [43] ╭ VulnerabilityID : CVE-2024-56433 
+│                        ├ [53] ╭ VulnerabilityID : CVE-2024-56433 
 │                        │      ├ PkgID           : uidmap@1:4.13+dfsg1-4ubuntu3.2 
 │                        │      ├ PkgName         : uidmap 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/uidmap@4.13%2Bdfsg1-4ubuntu3.2?arch=a
@@ -25683,27 +26435,31 @@
 │                        │      │                   range that can occur in /etc/subuid. 
 │                        │      ├ Severity        : LOW 
 │                        │      ├ CweIDs           ─ [0]: CWE-1188 
-│                        │      ├ VendorSeverity   ╭ alma  : 1 
-│                        │      │                  ├ azure : 1 
-│                        │      │                  ├ redhat: 1 
-│                        │      │                  ╰ ubuntu: 1 
+│                        │      ├ VendorSeverity   ╭ alma       : 1 
+│                        │      │                  ├ azure      : 1 
+│                        │      │                  ├ oracle-oval: 1 
+│                        │      │                  ├ redhat     : 1 
+│                        │      │                  ╰ ubuntu     : 1 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:
 │                        │      │                           │           L/A:N 
 │                        │      │                           ╰ V3Score : 3.6 
-│                        │      ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2025:20559 
-│                        │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2024-56433 
-│                        │      │                  ├ [2]: https://bugzilla.redhat.com/2334165 
-│                        │      │                  ├ [3]: https://errata.almalinux.org/9/ALSA-2025-20559.html 
-│                        │      │                  ├ [4]: https://github.com/shadow-maint/shadow/blob/e2512d574
-│                        │      │                  │      1d4a44bdd81a8c2d0029b6222728cf0/etc/login.defs#L238-L
-│                        │      │                  │      241 
-│                        │      │                  ├ [5]: https://github.com/shadow-maint/shadow/issues/1157 
-│                        │      │                  ├ [6]: https://github.com/shadow-maint/shadow/releases/tag/4.4 
-│                        │      │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2024-56433 
-│                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:20559 
+│                        │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024-56433 
+│                        │      │                  ├ [2] : https://bugzilla.redhat.com/2334165 
+│                        │      │                  ├ [3] : https://errata.almalinux.org/9/ALSA-2025-20559.html 
+│                        │      │                  ├ [4] : https://github.com/shadow-maint/shadow/blob/e2512d57
+│                        │      │                  │       41d4a44bdd81a8c2d0029b6222728cf0/etc/login.defs#L238
+│                        │      │                  │       -L241 
+│                        │      │                  ├ [5] : https://github.com/shadow-maint/shadow/issues/1157 
+│                        │      │                  ├ [6] : https://github.com/shadow-maint/shadow/releases/tag/
+│                        │      │                  │       4.4 
+│                        │      │                  ├ [7] : https://linux.oracle.com/cve/CVE-2024-56433.html 
+│                        │      │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2025-20559-0.html 
+│                        │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2024-56433 
+│                        │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                        │      ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                        │      ╰ LastModifiedDate: 2024-12-26T09:15:07.267Z 
-│                        ╰ [44] ╭ VulnerabilityID : CVE-2021-31879 
+│                        ╰ [54] ╭ VulnerabilityID : CVE-2021-31879 
 │                               ├ PkgID           : wget@1.21.4-1ubuntu4.1 
 │                               ├ PkgName         : wget 
 │                               ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/wget@1.21.4-1ubuntu4.1?arch=amd64&dis
@@ -27205,13 +27961,13 @@
 │                        │      │                            ╰ V3Score : 5.4 
 │                        │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/04/0
 │                        │      │                  │       4/4 
-│                        │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:9635 
+│                        │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:9623 
 │                        │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2025-22871 
 │                        │      │                  ├ [3] : https://bugzilla.redhat.com/2358493 
 │                        │      │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2358493 
 │                        │      │                  ├ [5] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                        │      │                  │       025-22871 
-│                        │      │                  ├ [6] : https://errata.almalinux.org/9/ALSA-2025-9635.html 
+│                        │      │                  ├ [6] : https://errata.almalinux.org/10/ALSA-2025-9623.html 
 │                        │      │                  ├ [7] : https://errata.rockylinux.org/RLSA-2025:9845 
 │                        │      │                  ├ [8] : https://github.com/roadrunner-server/roadrunner 
 │                        │      │                  ├ [9] : https://github.com/roadrunner-server/roadrunner/comm
@@ -27268,13 +28024,13 @@
 │                        │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I
 │                        │      │                            │           :N/A:N 
 │                        │      │                            ╰ V3Score : 6.8 
-│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:15887 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:16432 
 │                        │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-4673 
 │                        │      │                  ├ [2] : https://bugzilla.redhat.com/2373305 
 │                        │      │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2373305 
 │                        │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                        │      │                  │       025-4673 
-│                        │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2025-15887.html 
+│                        │      │                  ├ [5] : https://errata.almalinux.org/10/ALSA-2025-16432.html 
 │                        │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2025:16432 
 │                        │      │                  ├ [7] : https://go.dev/cl/679257 
 │                        │      │                  ├ [8] : https://go.dev/issue/73816 
@@ -28426,13 +29182,13 @@
 │                        │      │                            ╰ V3Score : 5.4 
 │                        │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/04/0
 │                        │      │                  │       4/4 
-│                        │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:9635 
+│                        │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:9623 
 │                        │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2025-22871 
 │                        │      │                  ├ [3] : https://bugzilla.redhat.com/2358493 
 │                        │      │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2358493 
 │                        │      │                  ├ [5] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                        │      │                  │       025-22871 
-│                        │      │                  ├ [6] : https://errata.almalinux.org/9/ALSA-2025-9635.html 
+│                        │      │                  ├ [6] : https://errata.almalinux.org/10/ALSA-2025-9623.html 
 │                        │      │                  ├ [7] : https://errata.rockylinux.org/RLSA-2025:9845 
 │                        │      │                  ├ [8] : https://github.com/roadrunner-server/roadrunner 
 │                        │      │                  ├ [9] : https://github.com/roadrunner-server/roadrunner/comm
@@ -28489,13 +29245,13 @@
 │                        │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I
 │                        │      │                            │           :N/A:N 
 │                        │      │                            ╰ V3Score : 6.8 
-│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:15887 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:16432 
 │                        │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-4673 
 │                        │      │                  ├ [2] : https://bugzilla.redhat.com/2373305 
 │                        │      │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2373305 
 │                        │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                        │      │                  │       025-4673 
-│                        │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2025-15887.html 
+│                        │      │                  ├ [5] : https://errata.almalinux.org/10/ALSA-2025-16432.html 
 │                        │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2025:16432 
 │                        │      │                  ├ [7] : https://go.dev/cl/679257 
 │                        │      │                  ├ [8] : https://go.dev/issue/73816 
@@ -30758,7 +31514,8 @@
 │                        │     ├ Severity        : HIGH 
 │                        │     ├ CweIDs           ─ [0]: CWE-279 
 │                        │     ├ VendorSeverity   ╭ cbl-mariner: 3 
-│                        │     │                  ╰ ghsa       : 3 
+│                        │     │                  ├ ghsa       : 3 
+│                        │     │                  ╰ photon     : 3 
 │                        │     ├ CVSS             ─ ghsa ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H 
 │                        │     │                         ╰ V3Score : 7.3 
 │                        │     ├ References       ╭ [0]: https://github.com/containerd/containerd 
@@ -30803,7 +31560,8 @@
 │                        │     ├ Severity        : MEDIUM 
 │                        │     ├ CweIDs           ─ [0]: CWE-401 
 │                        │     ├ VendorSeverity   ╭ cbl-mariner: 2 
-│                        │     │                  ╰ ghsa       : 2 
+│                        │     │                  ├ ghsa       : 2 
+│                        │     │                  ╰ photon     : 2 
 │                        │     ├ References       ╭ [0]: https://github.com/containerd/containerd 
 │                        │     │                  ├ [1]: https://github.com/containerd/containerd/commit/083b53
 │                        │     │                  │      cd6f19b5de7717b0ce92c11bdf95e612df 
@@ -35699,7 +36457,8 @@
 │                        │      ├ Severity        : HIGH 
 │                        │      ├ CweIDs           ─ [0]: CWE-279 
 │                        │      ├ VendorSeverity   ╭ cbl-mariner: 3 
-│                        │      │                  ╰ ghsa       : 3 
+│                        │      │                  ├ ghsa       : 3 
+│                        │      │                  ╰ photon     : 3 
 │                        │      ├ CVSS             ─ ghsa ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/
 │                        │      │                         │           A:H 
 │                        │      │                         ╰ V3Score : 7.3 
@@ -35816,7 +36575,8 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-401 
 │                        │      ├ VendorSeverity   ╭ cbl-mariner: 2 
-│                        │      │                  ╰ ghsa       : 2 
+│                        │      │                  ├ ghsa       : 2 
+│                        │      │                  ╰ photon     : 2 
 │                        │      ├ References       ╭ [0]: https://github.com/containerd/containerd 
 │                        │      │                  ├ [1]: https://github.com/containerd/containerd/commit/083b5
 │                        │      │                  │      3cd6f19b5de7717b0ce92c11bdf95e612df 
@@ -36136,13 +36896,13 @@
 │                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
 │                        │      │                           │           N/A:H 
 │                        │      │                           ╰ V3Score : 7.5 
-│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:3833 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:7484 
 │                        │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-22869 
 │                        │      │                  ├ [2] : https://bugzilla.redhat.com/2348367 
 │                        │      │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2348367 
 │                        │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                        │      │                  │       025-22869 
-│                        │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2025-3833.html 
+│                        │      │                  ├ [5] : https://errata.almalinux.org/10/ALSA-2025-7484.html 
 │                        │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2025:7484 
 │                        │      │                  ├ [7] : https://github.com/golang/crypto 
 │                        │      │                  ├ [8] : https://github.com/golang/crypto/commit/7292932d45d5
@@ -36741,13 +37501,13 @@
 │                        │      │                            ╰ V3Score : 5.4 
 │                        │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/04/0
 │                        │      │                  │       4/4 
-│                        │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:9635 
+│                        │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:9623 
 │                        │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2025-22871 
 │                        │      │                  ├ [3] : https://bugzilla.redhat.com/2358493 
 │                        │      │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2358493 
 │                        │      │                  ├ [5] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                        │      │                  │       025-22871 
-│                        │      │                  ├ [6] : https://errata.almalinux.org/9/ALSA-2025-9635.html 
+│                        │      │                  ├ [6] : https://errata.almalinux.org/10/ALSA-2025-9623.html 
 │                        │      │                  ├ [7] : https://errata.rockylinux.org/RLSA-2025:9845 
 │                        │      │                  ├ [8] : https://github.com/roadrunner-server/roadrunner 
 │                        │      │                  ├ [9] : https://github.com/roadrunner-server/roadrunner/comm
@@ -36804,13 +37564,13 @@
 │                        │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I
 │                        │      │                            │           :N/A:N 
 │                        │      │                            ╰ V3Score : 6.8 
-│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:15887 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:16432 
 │                        │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-4673 
 │                        │      │                  ├ [2] : https://bugzilla.redhat.com/2373305 
 │                        │      │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2373305 
 │                        │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                        │      │                  │       025-4673 
-│                        │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2025-15887.html 
+│                        │      │                  ├ [5] : https://errata.almalinux.org/10/ALSA-2025-16432.html 
 │                        │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2025:16432 
 │                        │      │                  ├ [7] : https://go.dev/cl/679257 
 │                        │      │                  ├ [8] : https://go.dev/issue/73816 
