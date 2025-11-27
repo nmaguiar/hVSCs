@@ -23603,14 +23603,14 @@
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:
 │                        │      │                           │           H/A:H 
 │                        │      │                           ╰ V3Score : 7.5 
-│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:7482 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:7409 
 │                        │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024-52005 
 │                        │      │                  ├ [2] : https://bugzilla.redhat.com/2338289 
 │                        │      │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2338289 
 │                        │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                        │      │                  │       024-52005 
-│                        │      │                  ├ [5] : https://errata.almalinux.org/10/ALSA-2025-7482.html 
-│                        │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2025:8414 
+│                        │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2025-7409.html 
+│                        │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2025:7482 
 │                        │      │                  ├ [7] : https://github.com/git/git/security/advisories/GHSA-
 │                        │      │                  │       7jjc-gg6m-3329 
 │                        │      │                  ├ [8] : https://linux.oracle.com/cve/CVE-2024-52005.html 
@@ -23671,14 +23671,14 @@
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:
 │                        │      │                           │           H/A:H 
 │                        │      │                           ╰ V3Score : 7.5 
-│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:7482 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:7409 
 │                        │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024-52005 
 │                        │      │                  ├ [2] : https://bugzilla.redhat.com/2338289 
 │                        │      │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2338289 
 │                        │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                        │      │                  │       024-52005 
-│                        │      │                  ├ [5] : https://errata.almalinux.org/10/ALSA-2025-7482.html 
-│                        │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2025:8414 
+│                        │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2025-7409.html 
+│                        │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2025:7482 
 │                        │      │                  ├ [7] : https://github.com/git/git/security/advisories/GHSA-
 │                        │      │                  │       7jjc-gg6m-3329 
 │                        │      │                  ├ [8] : https://linux.oracle.com/cve/CVE-2024-52005.html 
@@ -24770,7 +24770,7 @@
 │                        │      │                  ├ [7] : https://bugzilla.redhat.com/show_bug.cgi?id=2368600 
 │                        │      │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                        │      │                  │       025-5222 
-│                        │      │                  ├ [9] : https://errata.almalinux.org/10/ALSA-2025-11888.html 
+│                        │      │                  ├ [9] : https://errata.almalinux.org/9/ALSA-2025-12083.html 
 │                        │      │                  ├ [10]: https://errata.rockylinux.org/RLSA-2025:11888 
 │                        │      │                  ├ [11]: https://linux.oracle.com/cve/CVE-2025-5222.html 
 │                        │      │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2025-12083.html 
@@ -29101,7 +29101,8 @@
 │                        │      │                   call to Scan to return either unexpected results from the
 │                        │      │                   other query or an error. 
 │                        │      ├ Severity        : HIGH 
-│                        │      ├ VendorSeverity   ╭ amazon     : 3 
+│                        │      ├ VendorSeverity   ╭ alma       : 3 
+│                        │      │                  ├ amazon     : 3 
 │                        │      │                  ├ azure      : 3 
 │                        │      │                  ├ bitnami    : 3 
 │                        │      │                  ├ cbl-mariner: 3 
@@ -29112,15 +29113,20 @@
 │                        │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I
 │                        │      │                            │           :L/A:L 
 │                        │      │                            ╰ V3Score : 7 
-│                        │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/08/06/1 
-│                        │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-47907 
-│                        │      │                  ├ [2]: https://go.dev/cl/693735 
-│                        │      │                  ├ [3]: https://go.dev/issue/74831 
-│                        │      │                  ├ [4]: https://groups.google.com/g/golang-announce/c/x5MKroM
-│                        │      │                  │      L2yM 
-│                        │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-47907 
-│                        │      │                  ├ [6]: https://pkg.go.dev/vuln/GO-2025-3849 
-│                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-47907 
+│                        │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/08/0
+│                        │      │                  │       6/1 
+│                        │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:20909 
+│                        │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2025-47907 
+│                        │      │                  ├ [3] : https://bugzilla.redhat.com/2387083 
+│                        │      │                  ├ [4] : https://bugzilla.redhat.com/2393152 
+│                        │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2025-20909.html 
+│                        │      │                  ├ [6] : https://go.dev/cl/693735 
+│                        │      │                  ├ [7] : https://go.dev/issue/74831 
+│                        │      │                  ├ [8] : https://groups.google.com/g/golang-announce/c/x5MKro
+│                        │      │                  │       ML2yM 
+│                        │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2025-47907 
+│                        │      │                  ├ [10]: https://pkg.go.dev/vuln/GO-2025-3849 
+│                        │      │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2025-47907 
 │                        │      ├ PublishedDate   : 2025-08-07T16:15:30.357Z 
 │                        │      ╰ LastModifiedDate: 2025-11-04T22:16:16.347Z 
 │                        ├ [5]  ╭ VulnerabilityID : CVE-2025-58183 
@@ -29149,10 +29155,11 @@
 │                        │      │                   from a compressed source, a small compressed input can
 │                        │      │                   result in large allocations. 
 │                        │      ├ Severity        : HIGH 
-│                        │      ├ VendorSeverity   ╭ alma   : 2 
-│                        │      │                  ├ amazon : 3 
-│                        │      │                  ├ bitnami: 2 
-│                        │      │                  ╰ redhat : 2 
+│                        │      ├ VendorSeverity   ╭ alma       : 3 
+│                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ bitnami    : 2 
+│                        │      │                  ├ oracle-oval: 3 
+│                        │      │                  ╰ redhat     : 2 
 │                        │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I
 │                        │      │                  │         │           :N/A:L 
 │                        │      │                  │         ╰ V3Score : 4.3 
@@ -29161,17 +29168,20 @@
 │                        │      │                            ╰ V3Score : 7.5 
 │                        │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/10/0
 │                        │      │                  │       8/1 
-│                        │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:21815 
+│                        │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:22011 
 │                        │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2025-58183 
-│                        │      │                  ├ [3] : https://bugzilla.redhat.com/2407258 
-│                        │      │                  ├ [4] : https://errata.almalinux.org/9/ALSA-2025-21815.html 
-│                        │      │                  ├ [5] : https://go.dev/cl/709861 
-│                        │      │                  ├ [6] : https://go.dev/issue/75677 
-│                        │      │                  ├ [7] : https://groups.google.com/g/golang-announce/c/4Emdl2
+│                        │      │                  ├ [3] : https://bugzilla.redhat.com/2404715 
+│                        │      │                  ├ [4] : https://bugzilla.redhat.com/2407258 
+│                        │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2025-22011.html 
+│                        │      │                  ├ [6] : https://go.dev/cl/709861 
+│                        │      │                  ├ [7] : https://go.dev/issue/75677 
+│                        │      │                  ├ [8] : https://groups.google.com/g/golang-announce/c/4Emdl2
 │                        │      │                  │       iQ_bI 
-│                        │      │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2025-58183 
-│                        │      │                  ├ [9] : https://pkg.go.dev/vuln/GO-2025-4014 
-│                        │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2025-58183 
+│                        │      │                  ├ [9] : https://linux.oracle.com/cve/CVE-2025-58183.html 
+│                        │      │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2025-22011.html 
+│                        │      │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2025-58183 
+│                        │      │                  ├ [12]: https://pkg.go.dev/vuln/GO-2025-4014 
+│                        │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2025-58183 
 │                        │      ├ PublishedDate   : 2025-10-29T23:16:19.357Z 
 │                        │      ╰ LastModifiedDate: 2025-11-04T22:16:33.2Z 
 │                        ├ [6]  ╭ VulnerabilityID : CVE-2025-58186 
@@ -29370,14 +29380,14 @@
 │                        │      │                            ╰ V3Score : 5.4 
 │                        │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/04/0
 │                        │      │                  │       4/4 
-│                        │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:9623 
+│                        │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:9635 
 │                        │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2025-22871 
 │                        │      │                  ├ [3] : https://bugzilla.redhat.com/2358493 
 │                        │      │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2358493 
 │                        │      │                  ├ [5] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                        │      │                  │       025-22871 
-│                        │      │                  ├ [6] : https://errata.almalinux.org/10/ALSA-2025-9623.html 
-│                        │      │                  ├ [7] : https://errata.rockylinux.org/RLSA-2025:9845 
+│                        │      │                  ├ [6] : https://errata.almalinux.org/9/ALSA-2025-9635.html 
+│                        │      │                  ├ [7] : https://errata.rockylinux.org/RLSA-2025:9317 
 │                        │      │                  ├ [8] : https://github.com/roadrunner-server/roadrunner 
 │                        │      │                  ├ [9] : https://github.com/roadrunner-server/roadrunner/comm
 │                        │      │                  │       it/f269279ee87d0b88127741cad1042389af7605fa 
@@ -29433,13 +29443,13 @@
 │                        │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I
 │                        │      │                            │           :N/A:N 
 │                        │      │                            ╰ V3Score : 6.8 
-│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:16432 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:15887 
 │                        │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-4673 
 │                        │      │                  ├ [2] : https://bugzilla.redhat.com/2373305 
 │                        │      │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2373305 
 │                        │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                        │      │                  │       025-4673 
-│                        │      │                  ├ [5] : https://errata.almalinux.org/10/ALSA-2025-16432.html 
+│                        │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2025-15887.html 
 │                        │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2025:16432 
 │                        │      │                  ├ [7] : https://go.dev/cl/679257 
 │                        │      │                  ├ [8] : https://go.dev/issue/73816 
@@ -29475,10 +29485,12 @@
 │                        │      │                    strings to LookPath ("", ".", and ".."), can result in the
 │                        │      │                    binaries listed in the PATH being unexpectedly returned. 
 │                        │      ├ Severity        : MEDIUM 
-│                        │      ├ VendorSeverity   ╭ amazon     : 3 
+│                        │      ├ VendorSeverity   ╭ alma       : 2 
+│                        │      │                  ├ amazon     : 3 
 │                        │      │                  ├ azure      : 3 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
+│                        │      │                  ├ oracle-oval: 2 
 │                        │      │                  ╰ redhat     : 2 
 │                        │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I
 │                        │      │                  │         │           :N/A:L 
@@ -29486,15 +29498,21 @@
 │                        │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I
 │                        │      │                            │           :N/A:L 
 │                        │      │                            ╰ V3Score : 6.5 
-│                        │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/08/06/1 
-│                        │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-47906 
-│                        │      │                  ├ [2]: https://go.dev/cl/691775 
-│                        │      │                  ├ [3]: https://go.dev/issue/74466 
-│                        │      │                  ├ [4]: https://groups.google.com/g/golang-announce/c/x5MKroM
-│                        │      │                  │      L2yM 
-│                        │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-47906 
-│                        │      │                  ├ [6]: https://pkg.go.dev/vuln/GO-2025-3956 
-│                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-47906 
+│                        │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/08/0
+│                        │      │                  │       6/1 
+│                        │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:22005 
+│                        │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2025-47906 
+│                        │      │                  ├ [3] : https://bugzilla.redhat.com/2396546 
+│                        │      │                  ├ [4] : https://errata.almalinux.org/9/ALSA-2025-22005.html 
+│                        │      │                  ├ [5] : https://go.dev/cl/691775 
+│                        │      │                  ├ [6] : https://go.dev/issue/74466 
+│                        │      │                  ├ [7] : https://groups.google.com/g/golang-announce/c/x5MKro
+│                        │      │                  │       ML2yM 
+│                        │      │                  ├ [8] : https://linux.oracle.com/cve/CVE-2025-47906.html 
+│                        │      │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2025-22005.html 
+│                        │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2025-47906 
+│                        │      │                  ├ [11]: https://pkg.go.dev/vuln/GO-2025-3956 
+│                        │      │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2025-47906 
 │                        │      ├ PublishedDate   : 2025-09-18T19:15:37.66Z 
 │                        │      ╰ LastModifiedDate: 2025-11-04T22:16:16.207Z 
 │                        ├ [13] ╭ VulnerabilityID : CVE-2025-47912 
@@ -30322,7 +30340,8 @@
 │                        │      │                   call to Scan to return either unexpected results from the
 │                        │      │                   other query or an error. 
 │                        │      ├ Severity        : HIGH 
-│                        │      ├ VendorSeverity   ╭ amazon     : 3 
+│                        │      ├ VendorSeverity   ╭ alma       : 3 
+│                        │      │                  ├ amazon     : 3 
 │                        │      │                  ├ azure      : 3 
 │                        │      │                  ├ bitnami    : 3 
 │                        │      │                  ├ cbl-mariner: 3 
@@ -30333,15 +30352,20 @@
 │                        │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I
 │                        │      │                            │           :L/A:L 
 │                        │      │                            ╰ V3Score : 7 
-│                        │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/08/06/1 
-│                        │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-47907 
-│                        │      │                  ├ [2]: https://go.dev/cl/693735 
-│                        │      │                  ├ [3]: https://go.dev/issue/74831 
-│                        │      │                  ├ [4]: https://groups.google.com/g/golang-announce/c/x5MKroM
-│                        │      │                  │      L2yM 
-│                        │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-47907 
-│                        │      │                  ├ [6]: https://pkg.go.dev/vuln/GO-2025-3849 
-│                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-47907 
+│                        │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/08/0
+│                        │      │                  │       6/1 
+│                        │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:20909 
+│                        │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2025-47907 
+│                        │      │                  ├ [3] : https://bugzilla.redhat.com/2387083 
+│                        │      │                  ├ [4] : https://bugzilla.redhat.com/2393152 
+│                        │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2025-20909.html 
+│                        │      │                  ├ [6] : https://go.dev/cl/693735 
+│                        │      │                  ├ [7] : https://go.dev/issue/74831 
+│                        │      │                  ├ [8] : https://groups.google.com/g/golang-announce/c/x5MKro
+│                        │      │                  │       ML2yM 
+│                        │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2025-47907 
+│                        │      │                  ├ [10]: https://pkg.go.dev/vuln/GO-2025-3849 
+│                        │      │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2025-47907 
 │                        │      ├ PublishedDate   : 2025-08-07T16:15:30.357Z 
 │                        │      ╰ LastModifiedDate: 2025-11-04T22:16:16.347Z 
 │                        ├ [5]  ╭ VulnerabilityID : CVE-2025-58183 
@@ -30370,10 +30394,11 @@
 │                        │      │                   from a compressed source, a small compressed input can
 │                        │      │                   result in large allocations. 
 │                        │      ├ Severity        : HIGH 
-│                        │      ├ VendorSeverity   ╭ alma   : 2 
-│                        │      │                  ├ amazon : 3 
-│                        │      │                  ├ bitnami: 2 
-│                        │      │                  ╰ redhat : 2 
+│                        │      ├ VendorSeverity   ╭ alma       : 3 
+│                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ bitnami    : 2 
+│                        │      │                  ├ oracle-oval: 3 
+│                        │      │                  ╰ redhat     : 2 
 │                        │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I
 │                        │      │                  │         │           :N/A:L 
 │                        │      │                  │         ╰ V3Score : 4.3 
@@ -30382,17 +30407,20 @@
 │                        │      │                            ╰ V3Score : 7.5 
 │                        │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/10/0
 │                        │      │                  │       8/1 
-│                        │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:21815 
+│                        │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:22011 
 │                        │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2025-58183 
-│                        │      │                  ├ [3] : https://bugzilla.redhat.com/2407258 
-│                        │      │                  ├ [4] : https://errata.almalinux.org/9/ALSA-2025-21815.html 
-│                        │      │                  ├ [5] : https://go.dev/cl/709861 
-│                        │      │                  ├ [6] : https://go.dev/issue/75677 
-│                        │      │                  ├ [7] : https://groups.google.com/g/golang-announce/c/4Emdl2
+│                        │      │                  ├ [3] : https://bugzilla.redhat.com/2404715 
+│                        │      │                  ├ [4] : https://bugzilla.redhat.com/2407258 
+│                        │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2025-22011.html 
+│                        │      │                  ├ [6] : https://go.dev/cl/709861 
+│                        │      │                  ├ [7] : https://go.dev/issue/75677 
+│                        │      │                  ├ [8] : https://groups.google.com/g/golang-announce/c/4Emdl2
 │                        │      │                  │       iQ_bI 
-│                        │      │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2025-58183 
-│                        │      │                  ├ [9] : https://pkg.go.dev/vuln/GO-2025-4014 
-│                        │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2025-58183 
+│                        │      │                  ├ [9] : https://linux.oracle.com/cve/CVE-2025-58183.html 
+│                        │      │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2025-22011.html 
+│                        │      │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2025-58183 
+│                        │      │                  ├ [12]: https://pkg.go.dev/vuln/GO-2025-4014 
+│                        │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2025-58183 
 │                        │      ├ PublishedDate   : 2025-10-29T23:16:19.357Z 
 │                        │      ╰ LastModifiedDate: 2025-11-04T22:16:33.2Z 
 │                        ├ [6]  ╭ VulnerabilityID : CVE-2025-58186 
@@ -30591,14 +30619,14 @@
 │                        │      │                            ╰ V3Score : 5.4 
 │                        │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/04/0
 │                        │      │                  │       4/4 
-│                        │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:9623 
+│                        │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:9635 
 │                        │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2025-22871 
 │                        │      │                  ├ [3] : https://bugzilla.redhat.com/2358493 
 │                        │      │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2358493 
 │                        │      │                  ├ [5] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                        │      │                  │       025-22871 
-│                        │      │                  ├ [6] : https://errata.almalinux.org/10/ALSA-2025-9623.html 
-│                        │      │                  ├ [7] : https://errata.rockylinux.org/RLSA-2025:9845 
+│                        │      │                  ├ [6] : https://errata.almalinux.org/9/ALSA-2025-9635.html 
+│                        │      │                  ├ [7] : https://errata.rockylinux.org/RLSA-2025:9317 
 │                        │      │                  ├ [8] : https://github.com/roadrunner-server/roadrunner 
 │                        │      │                  ├ [9] : https://github.com/roadrunner-server/roadrunner/comm
 │                        │      │                  │       it/f269279ee87d0b88127741cad1042389af7605fa 
@@ -30654,13 +30682,13 @@
 │                        │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I
 │                        │      │                            │           :N/A:N 
 │                        │      │                            ╰ V3Score : 6.8 
-│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:16432 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:15887 
 │                        │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-4673 
 │                        │      │                  ├ [2] : https://bugzilla.redhat.com/2373305 
 │                        │      │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2373305 
 │                        │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                        │      │                  │       025-4673 
-│                        │      │                  ├ [5] : https://errata.almalinux.org/10/ALSA-2025-16432.html 
+│                        │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2025-15887.html 
 │                        │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2025:16432 
 │                        │      │                  ├ [7] : https://go.dev/cl/679257 
 │                        │      │                  ├ [8] : https://go.dev/issue/73816 
@@ -30696,10 +30724,12 @@
 │                        │      │                    strings to LookPath ("", ".", and ".."), can result in the
 │                        │      │                    binaries listed in the PATH being unexpectedly returned. 
 │                        │      ├ Severity        : MEDIUM 
-│                        │      ├ VendorSeverity   ╭ amazon     : 3 
+│                        │      ├ VendorSeverity   ╭ alma       : 2 
+│                        │      │                  ├ amazon     : 3 
 │                        │      │                  ├ azure      : 3 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
+│                        │      │                  ├ oracle-oval: 2 
 │                        │      │                  ╰ redhat     : 2 
 │                        │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I
 │                        │      │                  │         │           :N/A:L 
@@ -30707,15 +30737,21 @@
 │                        │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I
 │                        │      │                            │           :N/A:L 
 │                        │      │                            ╰ V3Score : 6.5 
-│                        │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/08/06/1 
-│                        │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-47906 
-│                        │      │                  ├ [2]: https://go.dev/cl/691775 
-│                        │      │                  ├ [3]: https://go.dev/issue/74466 
-│                        │      │                  ├ [4]: https://groups.google.com/g/golang-announce/c/x5MKroM
-│                        │      │                  │      L2yM 
-│                        │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-47906 
-│                        │      │                  ├ [6]: https://pkg.go.dev/vuln/GO-2025-3956 
-│                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-47906 
+│                        │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/08/0
+│                        │      │                  │       6/1 
+│                        │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:22005 
+│                        │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2025-47906 
+│                        │      │                  ├ [3] : https://bugzilla.redhat.com/2396546 
+│                        │      │                  ├ [4] : https://errata.almalinux.org/9/ALSA-2025-22005.html 
+│                        │      │                  ├ [5] : https://go.dev/cl/691775 
+│                        │      │                  ├ [6] : https://go.dev/issue/74466 
+│                        │      │                  ├ [7] : https://groups.google.com/g/golang-announce/c/x5MKro
+│                        │      │                  │       ML2yM 
+│                        │      │                  ├ [8] : https://linux.oracle.com/cve/CVE-2025-47906.html 
+│                        │      │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2025-22005.html 
+│                        │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2025-47906 
+│                        │      │                  ├ [11]: https://pkg.go.dev/vuln/GO-2025-3956 
+│                        │      │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2025-47906 
 │                        │      ├ PublishedDate   : 2025-09-18T19:15:37.66Z 
 │                        │      ╰ LastModifiedDate: 2025-11-04T22:16:16.207Z 
 │                        ├ [13] ╭ VulnerabilityID : CVE-2025-47912 
@@ -34428,10 +34464,11 @@
 │                        │      │                   from a compressed source, a small compressed input can
 │                        │      │                   result in large allocations. 
 │                        │      ├ Severity        : HIGH 
-│                        │      ├ VendorSeverity   ╭ alma   : 2 
-│                        │      │                  ├ amazon : 3 
-│                        │      │                  ├ bitnami: 2 
-│                        │      │                  ╰ redhat : 2 
+│                        │      ├ VendorSeverity   ╭ alma       : 3 
+│                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ bitnami    : 2 
+│                        │      │                  ├ oracle-oval: 3 
+│                        │      │                  ╰ redhat     : 2 
 │                        │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I
 │                        │      │                  │         │           :N/A:L 
 │                        │      │                  │         ╰ V3Score : 4.3 
@@ -34440,17 +34477,20 @@
 │                        │      │                            ╰ V3Score : 7.5 
 │                        │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/10/0
 │                        │      │                  │       8/1 
-│                        │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:21815 
+│                        │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:22011 
 │                        │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2025-58183 
-│                        │      │                  ├ [3] : https://bugzilla.redhat.com/2407258 
-│                        │      │                  ├ [4] : https://errata.almalinux.org/9/ALSA-2025-21815.html 
-│                        │      │                  ├ [5] : https://go.dev/cl/709861 
-│                        │      │                  ├ [6] : https://go.dev/issue/75677 
-│                        │      │                  ├ [7] : https://groups.google.com/g/golang-announce/c/4Emdl2
+│                        │      │                  ├ [3] : https://bugzilla.redhat.com/2404715 
+│                        │      │                  ├ [4] : https://bugzilla.redhat.com/2407258 
+│                        │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2025-22011.html 
+│                        │      │                  ├ [6] : https://go.dev/cl/709861 
+│                        │      │                  ├ [7] : https://go.dev/issue/75677 
+│                        │      │                  ├ [8] : https://groups.google.com/g/golang-announce/c/4Emdl2
 │                        │      │                  │       iQ_bI 
-│                        │      │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2025-58183 
-│                        │      │                  ├ [9] : https://pkg.go.dev/vuln/GO-2025-4014 
-│                        │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2025-58183 
+│                        │      │                  ├ [9] : https://linux.oracle.com/cve/CVE-2025-58183.html 
+│                        │      │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2025-22011.html 
+│                        │      │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2025-58183 
+│                        │      │                  ├ [12]: https://pkg.go.dev/vuln/GO-2025-4014 
+│                        │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2025-58183 
 │                        │      ├ PublishedDate   : 2025-10-29T23:16:19.357Z 
 │                        │      ╰ LastModifiedDate: 2025-11-04T22:16:33.2Z 
 │                        ├ [5]  ╭ VulnerabilityID : CVE-2025-58186 
@@ -35711,10 +35751,11 @@
 │                        │     │                   from a compressed source, a small compressed input can
 │                        │     │                   result in large allocations. 
 │                        │     ├ Severity        : HIGH 
-│                        │     ├ VendorSeverity   ╭ alma   : 2 
-│                        │     │                  ├ amazon : 3 
-│                        │     │                  ├ bitnami: 2 
-│                        │     │                  ╰ redhat : 2 
+│                        │     ├ VendorSeverity   ╭ alma       : 3 
+│                        │     │                  ├ amazon     : 3 
+│                        │     │                  ├ bitnami    : 2 
+│                        │     │                  ├ oracle-oval: 3 
+│                        │     │                  ╰ redhat     : 2 
 │                        │     ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:
 │                        │     │                  │         │           N/A:L 
 │                        │     │                  │         ╰ V3Score : 4.3 
@@ -35722,17 +35763,20 @@
 │                        │     │                            │           N/A:H 
 │                        │     │                            ╰ V3Score : 7.5 
 │                        │     ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/10/08/1 
-│                        │     │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:21815 
+│                        │     │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:22011 
 │                        │     │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2025-58183 
-│                        │     │                  ├ [3] : https://bugzilla.redhat.com/2407258 
-│                        │     │                  ├ [4] : https://errata.almalinux.org/9/ALSA-2025-21815.html 
-│                        │     │                  ├ [5] : https://go.dev/cl/709861 
-│                        │     │                  ├ [6] : https://go.dev/issue/75677 
-│                        │     │                  ├ [7] : https://groups.google.com/g/golang-announce/c/4Emdl2i
+│                        │     │                  ├ [3] : https://bugzilla.redhat.com/2404715 
+│                        │     │                  ├ [4] : https://bugzilla.redhat.com/2407258 
+│                        │     │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2025-22011.html 
+│                        │     │                  ├ [6] : https://go.dev/cl/709861 
+│                        │     │                  ├ [7] : https://go.dev/issue/75677 
+│                        │     │                  ├ [8] : https://groups.google.com/g/golang-announce/c/4Emdl2i
 │                        │     │                  │       Q_bI 
-│                        │     │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2025-58183 
-│                        │     │                  ├ [9] : https://pkg.go.dev/vuln/GO-2025-4014 
-│                        │     │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2025-58183 
+│                        │     │                  ├ [9] : https://linux.oracle.com/cve/CVE-2025-58183.html 
+│                        │     │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2025-22011.html 
+│                        │     │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2025-58183 
+│                        │     │                  ├ [12]: https://pkg.go.dev/vuln/GO-2025-4014 
+│                        │     │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2025-58183 
 │                        │     ├ PublishedDate   : 2025-10-29T23:16:19.357Z 
 │                        │     ╰ LastModifiedDate: 2025-11-04T22:16:33.2Z 
 │                        ├ [1] ╭ VulnerabilityID : CVE-2025-58186 
@@ -37234,10 +37278,11 @@
 │                        │      │                   from a compressed source, a small compressed input can
 │                        │      │                   result in large allocations. 
 │                        │      ├ Severity        : HIGH 
-│                        │      ├ VendorSeverity   ╭ alma   : 2 
-│                        │      │                  ├ amazon : 3 
-│                        │      │                  ├ bitnami: 2 
-│                        │      │                  ╰ redhat : 2 
+│                        │      ├ VendorSeverity   ╭ alma       : 3 
+│                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ bitnami    : 2 
+│                        │      │                  ├ oracle-oval: 3 
+│                        │      │                  ╰ redhat     : 2 
 │                        │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I
 │                        │      │                  │         │           :N/A:L 
 │                        │      │                  │         ╰ V3Score : 4.3 
@@ -37246,17 +37291,20 @@
 │                        │      │                            ╰ V3Score : 7.5 
 │                        │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/10/0
 │                        │      │                  │       8/1 
-│                        │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:21815 
+│                        │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:22011 
 │                        │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2025-58183 
-│                        │      │                  ├ [3] : https://bugzilla.redhat.com/2407258 
-│                        │      │                  ├ [4] : https://errata.almalinux.org/9/ALSA-2025-21815.html 
-│                        │      │                  ├ [5] : https://go.dev/cl/709861 
-│                        │      │                  ├ [6] : https://go.dev/issue/75677 
-│                        │      │                  ├ [7] : https://groups.google.com/g/golang-announce/c/4Emdl2
+│                        │      │                  ├ [3] : https://bugzilla.redhat.com/2404715 
+│                        │      │                  ├ [4] : https://bugzilla.redhat.com/2407258 
+│                        │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2025-22011.html 
+│                        │      │                  ├ [6] : https://go.dev/cl/709861 
+│                        │      │                  ├ [7] : https://go.dev/issue/75677 
+│                        │      │                  ├ [8] : https://groups.google.com/g/golang-announce/c/4Emdl2
 │                        │      │                  │       iQ_bI 
-│                        │      │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2025-58183 
-│                        │      │                  ├ [9] : https://pkg.go.dev/vuln/GO-2025-4014 
-│                        │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2025-58183 
+│                        │      │                  ├ [9] : https://linux.oracle.com/cve/CVE-2025-58183.html 
+│                        │      │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2025-22011.html 
+│                        │      │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2025-58183 
+│                        │      │                  ├ [12]: https://pkg.go.dev/vuln/GO-2025-4014 
+│                        │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2025-58183 
 │                        │      ├ PublishedDate   : 2025-10-29T23:16:19.357Z 
 │                        │      ╰ LastModifiedDate: 2025-11-04T22:16:33.2Z 
 │                        ├ [3]  ╭ VulnerabilityID : CVE-2025-58186 
@@ -39253,13 +39301,13 @@
 │                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
 │                        │      │                           │           N/A:H 
 │                        │      │                           ╰ V3Score : 7.5 
-│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:7484 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:3833 
 │                        │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-22869 
 │                        │      │                  ├ [2] : https://bugzilla.redhat.com/2348367 
 │                        │      │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2348367 
 │                        │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                        │      │                  │       025-22869 
-│                        │      │                  ├ [5] : https://errata.almalinux.org/10/ALSA-2025-7484.html 
+│                        │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2025-3833.html 
 │                        │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2025:7484 
 │                        │      │                  ├ [7] : https://github.com/golang/crypto 
 │                        │      │                  ├ [8] : https://github.com/golang/crypto/commit/7292932d45d5
@@ -39589,7 +39637,8 @@
 │                        │      │                   call to Scan to return either unexpected results from the
 │                        │      │                   other query or an error. 
 │                        │      ├ Severity        : HIGH 
-│                        │      ├ VendorSeverity   ╭ amazon     : 3 
+│                        │      ├ VendorSeverity   ╭ alma       : 3 
+│                        │      │                  ├ amazon     : 3 
 │                        │      │                  ├ azure      : 3 
 │                        │      │                  ├ bitnami    : 3 
 │                        │      │                  ├ cbl-mariner: 3 
@@ -39600,15 +39649,20 @@
 │                        │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I
 │                        │      │                            │           :L/A:L 
 │                        │      │                            ╰ V3Score : 7 
-│                        │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/08/06/1 
-│                        │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-47907 
-│                        │      │                  ├ [2]: https://go.dev/cl/693735 
-│                        │      │                  ├ [3]: https://go.dev/issue/74831 
-│                        │      │                  ├ [4]: https://groups.google.com/g/golang-announce/c/x5MKroM
-│                        │      │                  │      L2yM 
-│                        │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-47907 
-│                        │      │                  ├ [6]: https://pkg.go.dev/vuln/GO-2025-3849 
-│                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-47907 
+│                        │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/08/0
+│                        │      │                  │       6/1 
+│                        │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:20909 
+│                        │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2025-47907 
+│                        │      │                  ├ [3] : https://bugzilla.redhat.com/2387083 
+│                        │      │                  ├ [4] : https://bugzilla.redhat.com/2393152 
+│                        │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2025-20909.html 
+│                        │      │                  ├ [6] : https://go.dev/cl/693735 
+│                        │      │                  ├ [7] : https://go.dev/issue/74831 
+│                        │      │                  ├ [8] : https://groups.google.com/g/golang-announce/c/x5MKro
+│                        │      │                  │       ML2yM 
+│                        │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2025-47907 
+│                        │      │                  ├ [10]: https://pkg.go.dev/vuln/GO-2025-3849 
+│                        │      │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2025-47907 
 │                        │      ├ PublishedDate   : 2025-08-07T16:15:30.357Z 
 │                        │      ╰ LastModifiedDate: 2025-11-04T22:16:16.347Z 
 │                        ├ [14] ╭ VulnerabilityID : CVE-2025-58183 
@@ -39637,10 +39691,11 @@
 │                        │      │                   from a compressed source, a small compressed input can
 │                        │      │                   result in large allocations. 
 │                        │      ├ Severity        : HIGH 
-│                        │      ├ VendorSeverity   ╭ alma   : 2 
-│                        │      │                  ├ amazon : 3 
-│                        │      │                  ├ bitnami: 2 
-│                        │      │                  ╰ redhat : 2 
+│                        │      ├ VendorSeverity   ╭ alma       : 3 
+│                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ bitnami    : 2 
+│                        │      │                  ├ oracle-oval: 3 
+│                        │      │                  ╰ redhat     : 2 
 │                        │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I
 │                        │      │                  │         │           :N/A:L 
 │                        │      │                  │         ╰ V3Score : 4.3 
@@ -39649,17 +39704,20 @@
 │                        │      │                            ╰ V3Score : 7.5 
 │                        │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/10/0
 │                        │      │                  │       8/1 
-│                        │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:21815 
+│                        │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:22011 
 │                        │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2025-58183 
-│                        │      │                  ├ [3] : https://bugzilla.redhat.com/2407258 
-│                        │      │                  ├ [4] : https://errata.almalinux.org/9/ALSA-2025-21815.html 
-│                        │      │                  ├ [5] : https://go.dev/cl/709861 
-│                        │      │                  ├ [6] : https://go.dev/issue/75677 
-│                        │      │                  ├ [7] : https://groups.google.com/g/golang-announce/c/4Emdl2
+│                        │      │                  ├ [3] : https://bugzilla.redhat.com/2404715 
+│                        │      │                  ├ [4] : https://bugzilla.redhat.com/2407258 
+│                        │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2025-22011.html 
+│                        │      │                  ├ [6] : https://go.dev/cl/709861 
+│                        │      │                  ├ [7] : https://go.dev/issue/75677 
+│                        │      │                  ├ [8] : https://groups.google.com/g/golang-announce/c/4Emdl2
 │                        │      │                  │       iQ_bI 
-│                        │      │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2025-58183 
-│                        │      │                  ├ [9] : https://pkg.go.dev/vuln/GO-2025-4014 
-│                        │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2025-58183 
+│                        │      │                  ├ [9] : https://linux.oracle.com/cve/CVE-2025-58183.html 
+│                        │      │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2025-22011.html 
+│                        │      │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2025-58183 
+│                        │      │                  ├ [12]: https://pkg.go.dev/vuln/GO-2025-4014 
+│                        │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2025-58183 
 │                        │      ├ PublishedDate   : 2025-10-29T23:16:19.357Z 
 │                        │      ╰ LastModifiedDate: 2025-11-04T22:16:33.2Z 
 │                        ├ [15] ╭ VulnerabilityID : CVE-2025-58186 
@@ -39858,14 +39916,14 @@
 │                        │      │                            ╰ V3Score : 5.4 
 │                        │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/04/0
 │                        │      │                  │       4/4 
-│                        │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:9623 
+│                        │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:9635 
 │                        │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2025-22871 
 │                        │      │                  ├ [3] : https://bugzilla.redhat.com/2358493 
 │                        │      │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2358493 
 │                        │      │                  ├ [5] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                        │      │                  │       025-22871 
-│                        │      │                  ├ [6] : https://errata.almalinux.org/10/ALSA-2025-9623.html 
-│                        │      │                  ├ [7] : https://errata.rockylinux.org/RLSA-2025:9845 
+│                        │      │                  ├ [6] : https://errata.almalinux.org/9/ALSA-2025-9635.html 
+│                        │      │                  ├ [7] : https://errata.rockylinux.org/RLSA-2025:9317 
 │                        │      │                  ├ [8] : https://github.com/roadrunner-server/roadrunner 
 │                        │      │                  ├ [9] : https://github.com/roadrunner-server/roadrunner/comm
 │                        │      │                  │       it/f269279ee87d0b88127741cad1042389af7605fa 
@@ -39921,13 +39979,13 @@
 │                        │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I
 │                        │      │                            │           :N/A:N 
 │                        │      │                            ╰ V3Score : 6.8 
-│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:16432 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:15887 
 │                        │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-4673 
 │                        │      │                  ├ [2] : https://bugzilla.redhat.com/2373305 
 │                        │      │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2373305 
 │                        │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                        │      │                  │       025-4673 
-│                        │      │                  ├ [5] : https://errata.almalinux.org/10/ALSA-2025-16432.html 
+│                        │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2025-15887.html 
 │                        │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2025:16432 
 │                        │      │                  ├ [7] : https://go.dev/cl/679257 
 │                        │      │                  ├ [8] : https://go.dev/issue/73816 
@@ -39963,10 +40021,12 @@
 │                        │      │                    strings to LookPath ("", ".", and ".."), can result in the
 │                        │      │                    binaries listed in the PATH being unexpectedly returned. 
 │                        │      ├ Severity        : MEDIUM 
-│                        │      ├ VendorSeverity   ╭ amazon     : 3 
+│                        │      ├ VendorSeverity   ╭ alma       : 2 
+│                        │      │                  ├ amazon     : 3 
 │                        │      │                  ├ azure      : 3 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
+│                        │      │                  ├ oracle-oval: 2 
 │                        │      │                  ╰ redhat     : 2 
 │                        │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I
 │                        │      │                  │         │           :N/A:L 
@@ -39974,15 +40034,21 @@
 │                        │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I
 │                        │      │                            │           :N/A:L 
 │                        │      │                            ╰ V3Score : 6.5 
-│                        │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/08/06/1 
-│                        │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-47906 
-│                        │      │                  ├ [2]: https://go.dev/cl/691775 
-│                        │      │                  ├ [3]: https://go.dev/issue/74466 
-│                        │      │                  ├ [4]: https://groups.google.com/g/golang-announce/c/x5MKroM
-│                        │      │                  │      L2yM 
-│                        │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-47906 
-│                        │      │                  ├ [6]: https://pkg.go.dev/vuln/GO-2025-3956 
-│                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-47906 
+│                        │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/08/0
+│                        │      │                  │       6/1 
+│                        │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:22005 
+│                        │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2025-47906 
+│                        │      │                  ├ [3] : https://bugzilla.redhat.com/2396546 
+│                        │      │                  ├ [4] : https://errata.almalinux.org/9/ALSA-2025-22005.html 
+│                        │      │                  ├ [5] : https://go.dev/cl/691775 
+│                        │      │                  ├ [6] : https://go.dev/issue/74466 
+│                        │      │                  ├ [7] : https://groups.google.com/g/golang-announce/c/x5MKro
+│                        │      │                  │       ML2yM 
+│                        │      │                  ├ [8] : https://linux.oracle.com/cve/CVE-2025-47906.html 
+│                        │      │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2025-22005.html 
+│                        │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2025-47906 
+│                        │      │                  ├ [11]: https://pkg.go.dev/vuln/GO-2025-3956 
+│                        │      │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2025-47906 
 │                        │      ├ PublishedDate   : 2025-09-18T19:15:37.66Z 
 │                        │      ╰ LastModifiedDate: 2025-11-04T22:16:16.207Z 
 │                        ├ [22] ╭ VulnerabilityID : CVE-2025-47912 
