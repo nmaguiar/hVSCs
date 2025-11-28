@@ -23610,7 +23610,7 @@
 │                        │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                        │      │                  │       024-52005 
 │                        │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2025-7409.html 
-│                        │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2025:7482 
+│                        │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2025:8414 
 │                        │      │                  ├ [7] : https://github.com/git/git/security/advisories/GHSA-
 │                        │      │                  │       7jjc-gg6m-3329 
 │                        │      │                  ├ [8] : https://linux.oracle.com/cve/CVE-2024-52005.html 
@@ -23678,7 +23678,7 @@
 │                        │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                        │      │                  │       024-52005 
 │                        │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2025-7409.html 
-│                        │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2025:7482 
+│                        │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2025:8414 
 │                        │      │                  ├ [7] : https://github.com/git/git/security/advisories/GHSA-
 │                        │      │                  │       7jjc-gg6m-3329 
 │                        │      │                  ├ [8] : https://linux.oracle.com/cve/CVE-2024-52005.html 
@@ -25448,7 +25448,8 @@
 │                        │      │                  │       LA/ 
 │                        │      │                  ├ [16]: https://nvd.nist.gov/vuln/detail/CVE-2025-6075 
 │                        │      │                  ├ [17]: https://ubuntu.com/security/notices/USN-7886-1 
-│                        │      │                  ╰ [18]: https://www.cve.org/CVERecord?id=CVE-2025-6075 
+│                        │      │                  ├ [18]: https://ubuntu.com/security/notices/USN-7886-2 
+│                        │      │                  ╰ [19]: https://www.cve.org/CVERecord?id=CVE-2025-6075 
 │                        │      ├ PublishedDate   : 2025-10-31T17:15:48.693Z 
 │                        │      ╰ LastModifiedDate: 2025-11-04T15:41:31.45Z 
 │                        ├ [42] ╭ VulnerabilityID : CVE-2025-8291 
@@ -25527,7 +25528,8 @@
 │                        │      │                  │       2G/ 
 │                        │      │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2025-8291 
 │                        │      │                  ├ [14]: https://ubuntu.com/security/notices/USN-7886-1 
-│                        │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2025-8291 
+│                        │      │                  ├ [15]: https://ubuntu.com/security/notices/USN-7886-2 
+│                        │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2025-8291 
 │                        │      ├ PublishedDate   : 2025-10-07T18:16:00.317Z 
 │                        │      ╰ LastModifiedDate: 2025-10-29T16:15:35.133Z 
 │                        ├ [43] ╭ VulnerabilityID : CVE-2025-6075 
@@ -25596,7 +25598,8 @@
 │                        │      │                  │       LA/ 
 │                        │      │                  ├ [16]: https://nvd.nist.gov/vuln/detail/CVE-2025-6075 
 │                        │      │                  ├ [17]: https://ubuntu.com/security/notices/USN-7886-1 
-│                        │      │                  ╰ [18]: https://www.cve.org/CVERecord?id=CVE-2025-6075 
+│                        │      │                  ├ [18]: https://ubuntu.com/security/notices/USN-7886-2 
+│                        │      │                  ╰ [19]: https://www.cve.org/CVERecord?id=CVE-2025-6075 
 │                        │      ├ PublishedDate   : 2025-10-31T17:15:48.693Z 
 │                        │      ╰ LastModifiedDate: 2025-11-04T15:41:31.45Z 
 │                        ├ [44] ╭ VulnerabilityID : CVE-2025-8291 
@@ -25675,7 +25678,8 @@
 │                        │      │                  │       2G/ 
 │                        │      │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2025-8291 
 │                        │      │                  ├ [14]: https://ubuntu.com/security/notices/USN-7886-1 
-│                        │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2025-8291 
+│                        │      │                  ├ [15]: https://ubuntu.com/security/notices/USN-7886-2 
+│                        │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2025-8291 
 │                        │      ├ PublishedDate   : 2025-10-07T18:16:00.317Z 
 │                        │      ╰ LastModifiedDate: 2025-10-29T16:15:35.133Z 
 │                        ├ [45] ╭ VulnerabilityID : CVE-2025-6075 
@@ -25744,7 +25748,8 @@
 │                        │      │                  │       LA/ 
 │                        │      │                  ├ [16]: https://nvd.nist.gov/vuln/detail/CVE-2025-6075 
 │                        │      │                  ├ [17]: https://ubuntu.com/security/notices/USN-7886-1 
-│                        │      │                  ╰ [18]: https://www.cve.org/CVERecord?id=CVE-2025-6075 
+│                        │      │                  ├ [18]: https://ubuntu.com/security/notices/USN-7886-2 
+│                        │      │                  ╰ [19]: https://www.cve.org/CVERecord?id=CVE-2025-6075 
 │                        │      ├ PublishedDate   : 2025-10-31T17:15:48.693Z 
 │                        │      ╰ LastModifiedDate: 2025-11-04T15:41:31.45Z 
 │                        ├ [46] ╭ VulnerabilityID : CVE-2025-8291 
@@ -25823,7 +25828,8 @@
 │                        │      │                  │       2G/ 
 │                        │      │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2025-8291 
 │                        │      │                  ├ [14]: https://ubuntu.com/security/notices/USN-7886-1 
-│                        │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2025-8291 
+│                        │      │                  ├ [15]: https://ubuntu.com/security/notices/USN-7886-2 
+│                        │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2025-8291 
 │                        │      ├ PublishedDate   : 2025-10-07T18:16:00.317Z 
 │                        │      ╰ LastModifiedDate: 2025-10-29T16:15:35.133Z 
 │                        ├ [47] ╭ VulnerabilityID : CVE-2024-41996 
@@ -26947,7 +26953,8 @@
 │                        │      │                  │       LA/ 
 │                        │      │                  ├ [16]: https://nvd.nist.gov/vuln/detail/CVE-2025-6075 
 │                        │      │                  ├ [17]: https://ubuntu.com/security/notices/USN-7886-1 
-│                        │      │                  ╰ [18]: https://www.cve.org/CVERecord?id=CVE-2025-6075 
+│                        │      │                  ├ [18]: https://ubuntu.com/security/notices/USN-7886-2 
+│                        │      │                  ╰ [19]: https://www.cve.org/CVERecord?id=CVE-2025-6075 
 │                        │      ├ PublishedDate   : 2025-10-31T17:15:48.693Z 
 │                        │      ╰ LastModifiedDate: 2025-11-04T15:41:31.45Z 
 │                        ├ [65] ╭ VulnerabilityID : CVE-2025-8291 
@@ -27026,7 +27033,8 @@
 │                        │      │                  │       2G/ 
 │                        │      │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2025-8291 
 │                        │      │                  ├ [14]: https://ubuntu.com/security/notices/USN-7886-1 
-│                        │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2025-8291 
+│                        │      │                  ├ [15]: https://ubuntu.com/security/notices/USN-7886-2 
+│                        │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2025-8291 
 │                        │      ├ PublishedDate   : 2025-10-07T18:16:00.317Z 
 │                        │      ╰ LastModifiedDate: 2025-10-29T16:15:35.133Z 
 │                        ├ [66] ╭ VulnerabilityID : CVE-2025-6075 
@@ -27095,7 +27103,8 @@
 │                        │      │                  │       LA/ 
 │                        │      │                  ├ [16]: https://nvd.nist.gov/vuln/detail/CVE-2025-6075 
 │                        │      │                  ├ [17]: https://ubuntu.com/security/notices/USN-7886-1 
-│                        │      │                  ╰ [18]: https://www.cve.org/CVERecord?id=CVE-2025-6075 
+│                        │      │                  ├ [18]: https://ubuntu.com/security/notices/USN-7886-2 
+│                        │      │                  ╰ [19]: https://www.cve.org/CVERecord?id=CVE-2025-6075 
 │                        │      ├ PublishedDate   : 2025-10-31T17:15:48.693Z 
 │                        │      ╰ LastModifiedDate: 2025-11-04T15:41:31.45Z 
 │                        ├ [67] ╭ VulnerabilityID : CVE-2025-8291 
@@ -27174,7 +27183,8 @@
 │                        │      │                  │       2G/ 
 │                        │      │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2025-8291 
 │                        │      │                  ├ [14]: https://ubuntu.com/security/notices/USN-7886-1 
-│                        │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2025-8291 
+│                        │      │                  ├ [15]: https://ubuntu.com/security/notices/USN-7886-2 
+│                        │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2025-8291 
 │                        │      ├ PublishedDate   : 2025-10-07T18:16:00.317Z 
 │                        │      ╰ LastModifiedDate: 2025-10-29T16:15:35.133Z 
 │                        ├ [68] ╭ VulnerabilityID : CVE-2023-7008 
@@ -29106,6 +29116,7 @@
 │                        │      │                  ├ azure      : 3 
 │                        │      │                  ├ bitnami    : 3 
 │                        │      │                  ├ cbl-mariner: 3 
+│                        │      │                  ├ oracle-oval: 3 
 │                        │      │                  ╰ redhat     : 2 
 │                        │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I
 │                        │      │                  │         │           :L/A:L 
@@ -29124,9 +29135,11 @@
 │                        │      │                  ├ [7] : https://go.dev/issue/74831 
 │                        │      │                  ├ [8] : https://groups.google.com/g/golang-announce/c/x5MKro
 │                        │      │                  │       ML2yM 
-│                        │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2025-47907 
-│                        │      │                  ├ [10]: https://pkg.go.dev/vuln/GO-2025-3849 
-│                        │      │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2025-47907 
+│                        │      │                  ├ [9] : https://linux.oracle.com/cve/CVE-2025-47907.html 
+│                        │      │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2025-20909.html 
+│                        │      │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2025-47907 
+│                        │      │                  ├ [12]: https://pkg.go.dev/vuln/GO-2025-3849 
+│                        │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2025-47907 
 │                        │      ├ PublishedDate   : 2025-08-07T16:15:30.357Z 
 │                        │      ╰ LastModifiedDate: 2025-11-04T22:16:16.347Z 
 │                        ├ [5]  ╭ VulnerabilityID : CVE-2025-58183 
@@ -29260,44 +29273,7 @@
 │                        │      │                  ╰ [5]: https://pkg.go.dev/vuln/GO-2025-4007 
 │                        │      ├ PublishedDate   : 2025-10-29T23:16:19.643Z 
 │                        │      ╰ LastModifiedDate: 2025-11-20T23:15:52.007Z 
-│                        ├ [8]  ╭ VulnerabilityID : CVE-2025-58188 
-│                        │      ├ PkgID           : stdlib@v1.24.1 
-│                        │      ├ PkgName         : stdlib 
-│                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.24.1 
-│                        │      │                  ╰ UID : 2add7c57bc4db0d1 
-│                        │      ├ InstalledVersion: v1.24.1 
-│                        │      ├ FixedVersion    : 1.24.8, 1.25.2 
-│                        │      ├ Status          : fixed 
-│                        │      ├ Layer            ╭ Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f
-│                        │      │                  │         672d99cf12d59721fb5d9 
-│                        │      │                  ╰ DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7
-│                        │      │                            277787fa3578e3352a155 
-│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-58188 
-│                        │      ├ DataSource       ╭ ID  : govulndb 
-│                        │      │                  ├ Name: The Go Vulnerability Database 
-│                        │      │                  ╰ URL : https://pkg.go.dev/vuln/ 
-│                        │      ├ Title           : Validating certificate chains which contain DSA public keys
-│                        │      │                    can cause  ... 
-│                        │      ├ Description     : Validating certificate chains which contain DSA public keys
-│                        │      │                    can cause programs to panic, due to a interface cast that
-│                        │      │                   assumes they implement the Equal method. This affects
-│                        │      │                   programs which validate arbitrary certificate chains. 
-│                        │      ├ Severity        : HIGH 
-│                        │      ├ VendorSeverity   ╭ amazon : 3 
-│                        │      │                  ╰ bitnami: 3 
-│                        │      ├ CVSS             ─ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
-│                        │      │                            │           :N/A:H 
-│                        │      │                            ╰ V3Score : 7.5 
-│                        │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/10/08/1 
-│                        │      │                  ├ [1]: https://go.dev/cl/709853 
-│                        │      │                  ├ [2]: https://go.dev/issue/75675 
-│                        │      │                  ├ [3]: https://groups.google.com/g/golang-announce/c/4Emdl2i
-│                        │      │                  │      Q_bI 
-│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-58188 
-│                        │      │                  ╰ [5]: https://pkg.go.dev/vuln/GO-2025-4013 
-│                        │      ├ PublishedDate   : 2025-10-29T23:16:19.74Z 
-│                        │      ╰ LastModifiedDate: 2025-11-04T22:16:33.74Z 
-│                        ├ [9]  ╭ VulnerabilityID : CVE-2025-0913 
+│                        ├ [8]  ╭ VulnerabilityID : CVE-2025-0913 
 │                        │      ├ PkgID           : stdlib@v1.24.1 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.24.1 
@@ -29337,7 +29313,7 @@
 │                        │      │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2025-3750 
 │                        │      ├ PublishedDate   : 2025-06-11T18:15:24.627Z 
 │                        │      ╰ LastModifiedDate: 2025-08-08T14:53:03.55Z 
-│                        ├ [10] ╭ VulnerabilityID : CVE-2025-22871 
+│                        ├ [9]  ╭ VulnerabilityID : CVE-2025-22871 
 │                        │      ├ PkgID           : stdlib@v1.24.1 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.24.1 
@@ -29387,7 +29363,7 @@
 │                        │      │                  ├ [5] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                        │      │                  │       025-22871 
 │                        │      │                  ├ [6] : https://errata.almalinux.org/9/ALSA-2025-9635.html 
-│                        │      │                  ├ [7] : https://errata.rockylinux.org/RLSA-2025:9317 
+│                        │      │                  ├ [7] : https://errata.rockylinux.org/RLSA-2025:9845 
 │                        │      │                  ├ [8] : https://github.com/roadrunner-server/roadrunner 
 │                        │      │                  ├ [9] : https://github.com/roadrunner-server/roadrunner/comm
 │                        │      │                  │       it/f269279ee87d0b88127741cad1042389af7605fa 
@@ -29406,7 +29382,7 @@
 │                        │      │                  ╰ [19]: https://www.cve.org/CVERecord?id=CVE-2025-22871 
 │                        │      ├ PublishedDate   : 2025-04-08T20:15:20.183Z 
 │                        │      ╰ LastModifiedDate: 2025-04-18T15:15:57.923Z 
-│                        ├ [11] ╭ VulnerabilityID : CVE-2025-4673 
+│                        ├ [10] ╭ VulnerabilityID : CVE-2025-4673 
 │                        │      ├ PkgID           : stdlib@v1.24.1 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.24.1 
@@ -29463,7 +29439,7 @@
 │                        │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2025-4673 
 │                        │      ├ PublishedDate   : 2025-06-11T17:15:42.993Z 
 │                        │      ╰ LastModifiedDate: 2025-06-12T16:06:20.18Z 
-│                        ├ [12] ╭ VulnerabilityID : CVE-2025-47906 
+│                        ├ [11] ╭ VulnerabilityID : CVE-2025-47906 
 │                        │      ├ PkgID           : stdlib@v1.24.1 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.24.1 
@@ -29515,7 +29491,7 @@
 │                        │      │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2025-47906 
 │                        │      ├ PublishedDate   : 2025-09-18T19:15:37.66Z 
 │                        │      ╰ LastModifiedDate: 2025-11-04T22:16:16.207Z 
-│                        ├ [13] ╭ VulnerabilityID : CVE-2025-47912 
+│                        ├ [12] ╭ VulnerabilityID : CVE-2025-47912 
 │                        │      ├ PkgID           : stdlib@v1.24.1 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.24.1 
@@ -29561,7 +29537,7 @@
 │                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-47912 
 │                        │      ├ PublishedDate   : 2025-10-29T23:16:18.187Z 
 │                        │      ╰ LastModifiedDate: 2025-11-04T22:16:16.497Z 
-│                        ├ [14] ╭ VulnerabilityID : CVE-2025-58185 
+│                        ├ [13] ╭ VulnerabilityID : CVE-2025-58185 
 │                        │      ├ PkgID           : stdlib@v1.24.1 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.24.1 
@@ -29604,6 +29580,51 @@
 │                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2025-58185 
 │                        │      ├ PublishedDate   : 2025-10-29T23:16:19.45Z 
 │                        │      ╰ LastModifiedDate: 2025-11-04T22:16:33.327Z 
+│                        ├ [14] ╭ VulnerabilityID : CVE-2025-58188 
+│                        │      ├ PkgID           : stdlib@v1.24.1 
+│                        │      ├ PkgName         : stdlib 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.24.1 
+│                        │      │                  ╰ UID : 2add7c57bc4db0d1 
+│                        │      ├ InstalledVersion: v1.24.1 
+│                        │      ├ FixedVersion    : 1.24.8, 1.25.2 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f
+│                        │      │                  │         672d99cf12d59721fb5d9 
+│                        │      │                  ╰ DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7
+│                        │      │                            277787fa3578e3352a155 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-58188 
+│                        │      ├ DataSource       ╭ ID  : govulndb 
+│                        │      │                  ├ Name: The Go Vulnerability Database 
+│                        │      │                  ╰ URL : https://pkg.go.dev/vuln/ 
+│                        │      ├ Title           : crypto/x509: golang: Panic when validating certificates
+│                        │      │                   with DSA public keys in crypto/x509 
+│                        │      ├ Description     : Validating certificate chains which contain DSA public keys
+│                        │      │                    can cause programs to panic, due to a interface cast that
+│                        │      │                   assumes they implement the Equal method. This affects
+│                        │      │                   programs which validate arbitrary certificate chains. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ VendorSeverity   ╭ amazon : 3 
+│                        │      │                  ├ bitnami: 3 
+│                        │      │                  ╰ redhat : 2 
+│                        │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                        │      │                  │         │           :N/A:H 
+│                        │      │                  │         ╰ V3Score : 7.5 
+│                        │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                        │      │                            │           :N/A:L 
+│                        │      │                            ╰ V3Score : 5.3 
+│                        │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/10/08/1 
+│                        │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-58188 
+│                        │      │                  ├ [2]: https://github.com/golang/go/commit/6e4007e8cffbb870e
+│                        │      │                  │      6b606307ab7308236ecefb9 
+│                        │      │                  ├ [3]: https://go.dev/cl/709853 
+│                        │      │                  ├ [4]: https://go.dev/issue/75675 
+│                        │      │                  ├ [5]: https://groups.google.com/g/golang-announce/c/4Emdl2i
+│                        │      │                  │      Q_bI 
+│                        │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2025-58188 
+│                        │      │                  ├ [7]: https://pkg.go.dev/vuln/GO-2025-4013 
+│                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2025-58188 
+│                        │      ├ PublishedDate   : 2025-10-29T23:16:19.74Z 
+│                        │      ╰ LastModifiedDate: 2025-11-04T22:16:33.74Z 
 │                        ├ [15] ╭ VulnerabilityID : CVE-2025-58189 
 │                        │      ├ PkgID           : stdlib@v1.24.1 
 │                        │      ├ PkgName         : stdlib 
@@ -30345,6 +30366,7 @@
 │                        │      │                  ├ azure      : 3 
 │                        │      │                  ├ bitnami    : 3 
 │                        │      │                  ├ cbl-mariner: 3 
+│                        │      │                  ├ oracle-oval: 3 
 │                        │      │                  ╰ redhat     : 2 
 │                        │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I
 │                        │      │                  │         │           :L/A:L 
@@ -30363,9 +30385,11 @@
 │                        │      │                  ├ [7] : https://go.dev/issue/74831 
 │                        │      │                  ├ [8] : https://groups.google.com/g/golang-announce/c/x5MKro
 │                        │      │                  │       ML2yM 
-│                        │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2025-47907 
-│                        │      │                  ├ [10]: https://pkg.go.dev/vuln/GO-2025-3849 
-│                        │      │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2025-47907 
+│                        │      │                  ├ [9] : https://linux.oracle.com/cve/CVE-2025-47907.html 
+│                        │      │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2025-20909.html 
+│                        │      │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2025-47907 
+│                        │      │                  ├ [12]: https://pkg.go.dev/vuln/GO-2025-3849 
+│                        │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2025-47907 
 │                        │      ├ PublishedDate   : 2025-08-07T16:15:30.357Z 
 │                        │      ╰ LastModifiedDate: 2025-11-04T22:16:16.347Z 
 │                        ├ [5]  ╭ VulnerabilityID : CVE-2025-58183 
@@ -30499,44 +30523,7 @@
 │                        │      │                  ╰ [5]: https://pkg.go.dev/vuln/GO-2025-4007 
 │                        │      ├ PublishedDate   : 2025-10-29T23:16:19.643Z 
 │                        │      ╰ LastModifiedDate: 2025-11-20T23:15:52.007Z 
-│                        ├ [8]  ╭ VulnerabilityID : CVE-2025-58188 
-│                        │      ├ PkgID           : stdlib@v1.24.1 
-│                        │      ├ PkgName         : stdlib 
-│                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.24.1 
-│                        │      │                  ╰ UID : c825b3cf378963b8 
-│                        │      ├ InstalledVersion: v1.24.1 
-│                        │      ├ FixedVersion    : 1.24.8, 1.25.2 
-│                        │      ├ Status          : fixed 
-│                        │      ├ Layer            ╭ Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f
-│                        │      │                  │         672d99cf12d59721fb5d9 
-│                        │      │                  ╰ DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7
-│                        │      │                            277787fa3578e3352a155 
-│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-58188 
-│                        │      ├ DataSource       ╭ ID  : govulndb 
-│                        │      │                  ├ Name: The Go Vulnerability Database 
-│                        │      │                  ╰ URL : https://pkg.go.dev/vuln/ 
-│                        │      ├ Title           : Validating certificate chains which contain DSA public keys
-│                        │      │                    can cause  ... 
-│                        │      ├ Description     : Validating certificate chains which contain DSA public keys
-│                        │      │                    can cause programs to panic, due to a interface cast that
-│                        │      │                   assumes they implement the Equal method. This affects
-│                        │      │                   programs which validate arbitrary certificate chains. 
-│                        │      ├ Severity        : HIGH 
-│                        │      ├ VendorSeverity   ╭ amazon : 3 
-│                        │      │                  ╰ bitnami: 3 
-│                        │      ├ CVSS             ─ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
-│                        │      │                            │           :N/A:H 
-│                        │      │                            ╰ V3Score : 7.5 
-│                        │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/10/08/1 
-│                        │      │                  ├ [1]: https://go.dev/cl/709853 
-│                        │      │                  ├ [2]: https://go.dev/issue/75675 
-│                        │      │                  ├ [3]: https://groups.google.com/g/golang-announce/c/4Emdl2i
-│                        │      │                  │      Q_bI 
-│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-58188 
-│                        │      │                  ╰ [5]: https://pkg.go.dev/vuln/GO-2025-4013 
-│                        │      ├ PublishedDate   : 2025-10-29T23:16:19.74Z 
-│                        │      ╰ LastModifiedDate: 2025-11-04T22:16:33.74Z 
-│                        ├ [9]  ╭ VulnerabilityID : CVE-2025-0913 
+│                        ├ [8]  ╭ VulnerabilityID : CVE-2025-0913 
 │                        │      ├ PkgID           : stdlib@v1.24.1 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.24.1 
@@ -30576,7 +30563,7 @@
 │                        │      │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2025-3750 
 │                        │      ├ PublishedDate   : 2025-06-11T18:15:24.627Z 
 │                        │      ╰ LastModifiedDate: 2025-08-08T14:53:03.55Z 
-│                        ├ [10] ╭ VulnerabilityID : CVE-2025-22871 
+│                        ├ [9]  ╭ VulnerabilityID : CVE-2025-22871 
 │                        │      ├ PkgID           : stdlib@v1.24.1 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.24.1 
@@ -30626,7 +30613,7 @@
 │                        │      │                  ├ [5] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                        │      │                  │       025-22871 
 │                        │      │                  ├ [6] : https://errata.almalinux.org/9/ALSA-2025-9635.html 
-│                        │      │                  ├ [7] : https://errata.rockylinux.org/RLSA-2025:9317 
+│                        │      │                  ├ [7] : https://errata.rockylinux.org/RLSA-2025:9845 
 │                        │      │                  ├ [8] : https://github.com/roadrunner-server/roadrunner 
 │                        │      │                  ├ [9] : https://github.com/roadrunner-server/roadrunner/comm
 │                        │      │                  │       it/f269279ee87d0b88127741cad1042389af7605fa 
@@ -30645,7 +30632,7 @@
 │                        │      │                  ╰ [19]: https://www.cve.org/CVERecord?id=CVE-2025-22871 
 │                        │      ├ PublishedDate   : 2025-04-08T20:15:20.183Z 
 │                        │      ╰ LastModifiedDate: 2025-04-18T15:15:57.923Z 
-│                        ├ [11] ╭ VulnerabilityID : CVE-2025-4673 
+│                        ├ [10] ╭ VulnerabilityID : CVE-2025-4673 
 │                        │      ├ PkgID           : stdlib@v1.24.1 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.24.1 
@@ -30702,7 +30689,7 @@
 │                        │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2025-4673 
 │                        │      ├ PublishedDate   : 2025-06-11T17:15:42.993Z 
 │                        │      ╰ LastModifiedDate: 2025-06-12T16:06:20.18Z 
-│                        ├ [12] ╭ VulnerabilityID : CVE-2025-47906 
+│                        ├ [11] ╭ VulnerabilityID : CVE-2025-47906 
 │                        │      ├ PkgID           : stdlib@v1.24.1 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.24.1 
@@ -30754,7 +30741,7 @@
 │                        │      │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2025-47906 
 │                        │      ├ PublishedDate   : 2025-09-18T19:15:37.66Z 
 │                        │      ╰ LastModifiedDate: 2025-11-04T22:16:16.207Z 
-│                        ├ [13] ╭ VulnerabilityID : CVE-2025-47912 
+│                        ├ [12] ╭ VulnerabilityID : CVE-2025-47912 
 │                        │      ├ PkgID           : stdlib@v1.24.1 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.24.1 
@@ -30800,7 +30787,7 @@
 │                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-47912 
 │                        │      ├ PublishedDate   : 2025-10-29T23:16:18.187Z 
 │                        │      ╰ LastModifiedDate: 2025-11-04T22:16:16.497Z 
-│                        ├ [14] ╭ VulnerabilityID : CVE-2025-58185 
+│                        ├ [13] ╭ VulnerabilityID : CVE-2025-58185 
 │                        │      ├ PkgID           : stdlib@v1.24.1 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.24.1 
@@ -30843,6 +30830,51 @@
 │                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2025-58185 
 │                        │      ├ PublishedDate   : 2025-10-29T23:16:19.45Z 
 │                        │      ╰ LastModifiedDate: 2025-11-04T22:16:33.327Z 
+│                        ├ [14] ╭ VulnerabilityID : CVE-2025-58188 
+│                        │      ├ PkgID           : stdlib@v1.24.1 
+│                        │      ├ PkgName         : stdlib 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.24.1 
+│                        │      │                  ╰ UID : c825b3cf378963b8 
+│                        │      ├ InstalledVersion: v1.24.1 
+│                        │      ├ FixedVersion    : 1.24.8, 1.25.2 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f
+│                        │      │                  │         672d99cf12d59721fb5d9 
+│                        │      │                  ╰ DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7
+│                        │      │                            277787fa3578e3352a155 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-58188 
+│                        │      ├ DataSource       ╭ ID  : govulndb 
+│                        │      │                  ├ Name: The Go Vulnerability Database 
+│                        │      │                  ╰ URL : https://pkg.go.dev/vuln/ 
+│                        │      ├ Title           : crypto/x509: golang: Panic when validating certificates
+│                        │      │                   with DSA public keys in crypto/x509 
+│                        │      ├ Description     : Validating certificate chains which contain DSA public keys
+│                        │      │                    can cause programs to panic, due to a interface cast that
+│                        │      │                   assumes they implement the Equal method. This affects
+│                        │      │                   programs which validate arbitrary certificate chains. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ VendorSeverity   ╭ amazon : 3 
+│                        │      │                  ├ bitnami: 3 
+│                        │      │                  ╰ redhat : 2 
+│                        │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                        │      │                  │         │           :N/A:H 
+│                        │      │                  │         ╰ V3Score : 7.5 
+│                        │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                        │      │                            │           :N/A:L 
+│                        │      │                            ╰ V3Score : 5.3 
+│                        │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/10/08/1 
+│                        │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-58188 
+│                        │      │                  ├ [2]: https://github.com/golang/go/commit/6e4007e8cffbb870e
+│                        │      │                  │      6b606307ab7308236ecefb9 
+│                        │      │                  ├ [3]: https://go.dev/cl/709853 
+│                        │      │                  ├ [4]: https://go.dev/issue/75675 
+│                        │      │                  ├ [5]: https://groups.google.com/g/golang-announce/c/4Emdl2i
+│                        │      │                  │      Q_bI 
+│                        │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2025-58188 
+│                        │      │                  ├ [7]: https://pkg.go.dev/vuln/GO-2025-4013 
+│                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2025-58188 
+│                        │      ├ PublishedDate   : 2025-10-29T23:16:19.74Z 
+│                        │      ╰ LastModifiedDate: 2025-11-04T22:16:33.74Z 
 │                        ├ [15] ╭ VulnerabilityID : CVE-2025-58189 
 │                        │      ├ PkgID           : stdlib@v1.24.1 
 │                        │      ├ PkgName         : stdlib 
@@ -32958,7 +32990,8 @@
 │                        │     │                    containerd in rootless mode. 
 │                        │     ├ Severity        : HIGH 
 │                        │     ├ CweIDs           ─ [0]: CWE-279 
-│                        │     ├ VendorSeverity   ╭ cbl-mariner: 3 
+│                        │     ├ VendorSeverity   ╭ azure      : 3 
+│                        │     │                  ├ cbl-mariner: 3 
 │                        │     │                  ├ ghsa       : 3 
 │                        │     │                  ╰ photon     : 3 
 │                        │     ├ CVSS             ─ ghsa ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H 
@@ -33004,7 +33037,8 @@
 │                        │     │                   resources. 
 │                        │     ├ Severity        : MEDIUM 
 │                        │     ├ CweIDs           ─ [0]: CWE-401 
-│                        │     ├ VendorSeverity   ╭ cbl-mariner: 2 
+│                        │     ├ VendorSeverity   ╭ azure      : 2 
+│                        │     │                  ├ cbl-mariner: 2 
 │                        │     │                  ├ ghsa       : 2 
 │                        │     │                  ╰ photon     : 2 
 │                        │     ├ References       ╭ [0]: https://github.com/containerd/containerd 
@@ -34303,7 +34337,8 @@
 │                        │      │                   run containerd in rootless mode. 
 │                        │      ├ Severity        : HIGH 
 │                        │      ├ CweIDs           ─ [0]: CWE-279 
-│                        │      ├ VendorSeverity   ╭ cbl-mariner: 3 
+│                        │      ├ VendorSeverity   ╭ azure      : 3 
+│                        │      │                  ├ cbl-mariner: 3 
 │                        │      │                  ├ ghsa       : 3 
 │                        │      │                  ╰ photon     : 3 
 │                        │      ├ CVSS             ─ ghsa ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/
@@ -34350,7 +34385,8 @@
 │                        │      │                   resources. 
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-401 
-│                        │      ├ VendorSeverity   ╭ cbl-mariner: 2 
+│                        │      ├ VendorSeverity   ╭ azure      : 2 
+│                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ ghsa       : 2 
 │                        │      │                  ╰ photon     : 2 
 │                        │      ├ References       ╭ [0]: https://github.com/containerd/containerd 
@@ -34569,44 +34605,7 @@
 │                        │      │                  ╰ [5]: https://pkg.go.dev/vuln/GO-2025-4007 
 │                        │      ├ PublishedDate   : 2025-10-29T23:16:19.643Z 
 │                        │      ╰ LastModifiedDate: 2025-11-20T23:15:52.007Z 
-│                        ├ [7]  ╭ VulnerabilityID : CVE-2025-58188 
-│                        │      ├ PkgID           : stdlib@v1.24.7 
-│                        │      ├ PkgName         : stdlib 
-│                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.24.7 
-│                        │      │                  ╰ UID : dab6465cb6be340c 
-│                        │      ├ InstalledVersion: v1.24.7 
-│                        │      ├ FixedVersion    : 1.24.8, 1.25.2 
-│                        │      ├ Status          : fixed 
-│                        │      ├ Layer            ╭ Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f
-│                        │      │                  │         672d99cf12d59721fb5d9 
-│                        │      │                  ╰ DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7
-│                        │      │                            277787fa3578e3352a155 
-│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-58188 
-│                        │      ├ DataSource       ╭ ID  : govulndb 
-│                        │      │                  ├ Name: The Go Vulnerability Database 
-│                        │      │                  ╰ URL : https://pkg.go.dev/vuln/ 
-│                        │      ├ Title           : Validating certificate chains which contain DSA public keys
-│                        │      │                    can cause  ... 
-│                        │      ├ Description     : Validating certificate chains which contain DSA public keys
-│                        │      │                    can cause programs to panic, due to a interface cast that
-│                        │      │                   assumes they implement the Equal method. This affects
-│                        │      │                   programs which validate arbitrary certificate chains. 
-│                        │      ├ Severity        : HIGH 
-│                        │      ├ VendorSeverity   ╭ amazon : 3 
-│                        │      │                  ╰ bitnami: 3 
-│                        │      ├ CVSS             ─ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
-│                        │      │                            │           :N/A:H 
-│                        │      │                            ╰ V3Score : 7.5 
-│                        │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/10/08/1 
-│                        │      │                  ├ [1]: https://go.dev/cl/709853 
-│                        │      │                  ├ [2]: https://go.dev/issue/75675 
-│                        │      │                  ├ [3]: https://groups.google.com/g/golang-announce/c/4Emdl2i
-│                        │      │                  │      Q_bI 
-│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-58188 
-│                        │      │                  ╰ [5]: https://pkg.go.dev/vuln/GO-2025-4013 
-│                        │      ├ PublishedDate   : 2025-10-29T23:16:19.74Z 
-│                        │      ╰ LastModifiedDate: 2025-11-04T22:16:33.74Z 
-│                        ├ [8]  ╭ VulnerabilityID : CVE-2025-47912 
+│                        ├ [7]  ╭ VulnerabilityID : CVE-2025-47912 
 │                        │      ├ PkgID           : stdlib@v1.24.7 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.24.7 
@@ -34652,7 +34651,7 @@
 │                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-47912 
 │                        │      ├ PublishedDate   : 2025-10-29T23:16:18.187Z 
 │                        │      ╰ LastModifiedDate: 2025-11-04T22:16:16.497Z 
-│                        ├ [9]  ╭ VulnerabilityID : CVE-2025-58185 
+│                        ├ [8]  ╭ VulnerabilityID : CVE-2025-58185 
 │                        │      ├ PkgID           : stdlib@v1.24.7 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.24.7 
@@ -34695,6 +34694,51 @@
 │                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2025-58185 
 │                        │      ├ PublishedDate   : 2025-10-29T23:16:19.45Z 
 │                        │      ╰ LastModifiedDate: 2025-11-04T22:16:33.327Z 
+│                        ├ [9]  ╭ VulnerabilityID : CVE-2025-58188 
+│                        │      ├ PkgID           : stdlib@v1.24.7 
+│                        │      ├ PkgName         : stdlib 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.24.7 
+│                        │      │                  ╰ UID : dab6465cb6be340c 
+│                        │      ├ InstalledVersion: v1.24.7 
+│                        │      ├ FixedVersion    : 1.24.8, 1.25.2 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f
+│                        │      │                  │         672d99cf12d59721fb5d9 
+│                        │      │                  ╰ DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7
+│                        │      │                            277787fa3578e3352a155 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-58188 
+│                        │      ├ DataSource       ╭ ID  : govulndb 
+│                        │      │                  ├ Name: The Go Vulnerability Database 
+│                        │      │                  ╰ URL : https://pkg.go.dev/vuln/ 
+│                        │      ├ Title           : crypto/x509: golang: Panic when validating certificates
+│                        │      │                   with DSA public keys in crypto/x509 
+│                        │      ├ Description     : Validating certificate chains which contain DSA public keys
+│                        │      │                    can cause programs to panic, due to a interface cast that
+│                        │      │                   assumes they implement the Equal method. This affects
+│                        │      │                   programs which validate arbitrary certificate chains. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ VendorSeverity   ╭ amazon : 3 
+│                        │      │                  ├ bitnami: 3 
+│                        │      │                  ╰ redhat : 2 
+│                        │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                        │      │                  │         │           :N/A:H 
+│                        │      │                  │         ╰ V3Score : 7.5 
+│                        │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                        │      │                            │           :N/A:L 
+│                        │      │                            ╰ V3Score : 5.3 
+│                        │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/10/08/1 
+│                        │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-58188 
+│                        │      │                  ├ [2]: https://github.com/golang/go/commit/6e4007e8cffbb870e
+│                        │      │                  │      6b606307ab7308236ecefb9 
+│                        │      │                  ├ [3]: https://go.dev/cl/709853 
+│                        │      │                  ├ [4]: https://go.dev/issue/75675 
+│                        │      │                  ├ [5]: https://groups.google.com/g/golang-announce/c/4Emdl2i
+│                        │      │                  │      Q_bI 
+│                        │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2025-58188 
+│                        │      │                  ├ [7]: https://pkg.go.dev/vuln/GO-2025-4013 
+│                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2025-58188 
+│                        │      ├ PublishedDate   : 2025-10-29T23:16:19.74Z 
+│                        │      ╰ LastModifiedDate: 2025-11-04T22:16:33.74Z 
 │                        ├ [10] ╭ VulnerabilityID : CVE-2025-58189 
 │                        │      ├ PkgID           : stdlib@v1.24.7 
 │                        │      ├ PkgName         : stdlib 
@@ -35854,44 +35898,7 @@
 │                        │     │                  ╰ [5]: https://pkg.go.dev/vuln/GO-2025-4007 
 │                        │     ├ PublishedDate   : 2025-10-29T23:16:19.643Z 
 │                        │     ╰ LastModifiedDate: 2025-11-20T23:15:52.007Z 
-│                        ├ [3] ╭ VulnerabilityID : CVE-2025-58188 
-│                        │     ├ PkgID           : stdlib@v1.24.6 
-│                        │     ├ PkgName         : stdlib 
-│                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.24.6 
-│                        │     │                  ╰ UID : b6f389d90ce3a5a4 
-│                        │     ├ InstalledVersion: v1.24.6 
-│                        │     ├ FixedVersion    : 1.24.8, 1.25.2 
-│                        │     ├ Status          : fixed 
-│                        │     ├ Layer            ╭ Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f6
-│                        │     │                  │         72d99cf12d59721fb5d9 
-│                        │     │                  ╰ DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d72
-│                        │     │                            77787fa3578e3352a155 
-│                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-58188 
-│                        │     ├ DataSource       ╭ ID  : govulndb 
-│                        │     │                  ├ Name: The Go Vulnerability Database 
-│                        │     │                  ╰ URL : https://pkg.go.dev/vuln/ 
-│                        │     ├ Title           : Validating certificate chains which contain DSA public keys
-│                        │     │                   can cause  ... 
-│                        │     ├ Description     : Validating certificate chains which contain DSA public keys
-│                        │     │                   can cause programs to panic, due to a interface cast that
-│                        │     │                   assumes they implement the Equal method. This affects
-│                        │     │                   programs which validate arbitrary certificate chains. 
-│                        │     ├ Severity        : HIGH 
-│                        │     ├ VendorSeverity   ╭ amazon : 3 
-│                        │     │                  ╰ bitnami: 3 
-│                        │     ├ CVSS             ─ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
-│                        │     │                            │           N/A:H 
-│                        │     │                            ╰ V3Score : 7.5 
-│                        │     ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/10/08/1 
-│                        │     │                  ├ [1]: https://go.dev/cl/709853 
-│                        │     │                  ├ [2]: https://go.dev/issue/75675 
-│                        │     │                  ├ [3]: https://groups.google.com/g/golang-announce/c/4Emdl2iQ
-│                        │     │                  │      _bI 
-│                        │     │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-58188 
-│                        │     │                  ╰ [5]: https://pkg.go.dev/vuln/GO-2025-4013 
-│                        │     ├ PublishedDate   : 2025-10-29T23:16:19.74Z 
-│                        │     ╰ LastModifiedDate: 2025-11-04T22:16:33.74Z 
-│                        ├ [4] ╭ VulnerabilityID : CVE-2025-47912 
+│                        ├ [3] ╭ VulnerabilityID : CVE-2025-47912 
 │                        │     ├ PkgID           : stdlib@v1.24.6 
 │                        │     ├ PkgName         : stdlib 
 │                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.24.6 
@@ -35937,7 +35944,7 @@
 │                        │     │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-47912 
 │                        │     ├ PublishedDate   : 2025-10-29T23:16:18.187Z 
 │                        │     ╰ LastModifiedDate: 2025-11-04T22:16:16.497Z 
-│                        ├ [5] ╭ VulnerabilityID : CVE-2025-58185 
+│                        ├ [4] ╭ VulnerabilityID : CVE-2025-58185 
 │                        │     ├ PkgID           : stdlib@v1.24.6 
 │                        │     ├ PkgName         : stdlib 
 │                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.24.6 
@@ -35980,6 +35987,51 @@
 │                        │     │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2025-58185 
 │                        │     ├ PublishedDate   : 2025-10-29T23:16:19.45Z 
 │                        │     ╰ LastModifiedDate: 2025-11-04T22:16:33.327Z 
+│                        ├ [5] ╭ VulnerabilityID : CVE-2025-58188 
+│                        │     ├ PkgID           : stdlib@v1.24.6 
+│                        │     ├ PkgName         : stdlib 
+│                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.24.6 
+│                        │     │                  ╰ UID : b6f389d90ce3a5a4 
+│                        │     ├ InstalledVersion: v1.24.6 
+│                        │     ├ FixedVersion    : 1.24.8, 1.25.2 
+│                        │     ├ Status          : fixed 
+│                        │     ├ Layer            ╭ Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f6
+│                        │     │                  │         72d99cf12d59721fb5d9 
+│                        │     │                  ╰ DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d72
+│                        │     │                            77787fa3578e3352a155 
+│                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-58188 
+│                        │     ├ DataSource       ╭ ID  : govulndb 
+│                        │     │                  ├ Name: The Go Vulnerability Database 
+│                        │     │                  ╰ URL : https://pkg.go.dev/vuln/ 
+│                        │     ├ Title           : crypto/x509: golang: Panic when validating certificates with
+│                        │     │                    DSA public keys in crypto/x509 
+│                        │     ├ Description     : Validating certificate chains which contain DSA public keys
+│                        │     │                   can cause programs to panic, due to a interface cast that
+│                        │     │                   assumes they implement the Equal method. This affects
+│                        │     │                   programs which validate arbitrary certificate chains. 
+│                        │     ├ Severity        : MEDIUM 
+│                        │     ├ VendorSeverity   ╭ amazon : 3 
+│                        │     │                  ├ bitnami: 3 
+│                        │     │                  ╰ redhat : 2 
+│                        │     ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
+│                        │     │                  │         │           N/A:H 
+│                        │     │                  │         ╰ V3Score : 7.5 
+│                        │     │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
+│                        │     │                            │           N/A:L 
+│                        │     │                            ╰ V3Score : 5.3 
+│                        │     ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/10/08/1 
+│                        │     │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-58188 
+│                        │     │                  ├ [2]: https://github.com/golang/go/commit/6e4007e8cffbb870e6
+│                        │     │                  │      b606307ab7308236ecefb9 
+│                        │     │                  ├ [3]: https://go.dev/cl/709853 
+│                        │     │                  ├ [4]: https://go.dev/issue/75675 
+│                        │     │                  ├ [5]: https://groups.google.com/g/golang-announce/c/4Emdl2iQ
+│                        │     │                  │      _bI 
+│                        │     │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2025-58188 
+│                        │     │                  ├ [7]: https://pkg.go.dev/vuln/GO-2025-4013 
+│                        │     │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2025-58188 
+│                        │     ├ PublishedDate   : 2025-10-29T23:16:19.74Z 
+│                        │     ╰ LastModifiedDate: 2025-11-04T22:16:33.74Z 
 │                        ├ [6] ╭ VulnerabilityID : CVE-2025-58189 
 │                        │     ├ PkgID           : stdlib@v1.24.6 
 │                        │     ├ PkgName         : stdlib 
@@ -37383,44 +37435,7 @@
 │                        │      │                  ╰ [5]: https://pkg.go.dev/vuln/GO-2025-4007 
 │                        │      ├ PublishedDate   : 2025-10-29T23:16:19.643Z 
 │                        │      ╰ LastModifiedDate: 2025-11-20T23:15:52.007Z 
-│                        ├ [5]  ╭ VulnerabilityID : CVE-2025-58188 
-│                        │      ├ PkgID           : stdlib@v1.24.6 
-│                        │      ├ PkgName         : stdlib 
-│                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.24.6 
-│                        │      │                  ╰ UID : 323978e56bf8954b 
-│                        │      ├ InstalledVersion: v1.24.6 
-│                        │      ├ FixedVersion    : 1.24.8, 1.25.2 
-│                        │      ├ Status          : fixed 
-│                        │      ├ Layer            ╭ Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f
-│                        │      │                  │         672d99cf12d59721fb5d9 
-│                        │      │                  ╰ DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7
-│                        │      │                            277787fa3578e3352a155 
-│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-58188 
-│                        │      ├ DataSource       ╭ ID  : govulndb 
-│                        │      │                  ├ Name: The Go Vulnerability Database 
-│                        │      │                  ╰ URL : https://pkg.go.dev/vuln/ 
-│                        │      ├ Title           : Validating certificate chains which contain DSA public keys
-│                        │      │                    can cause  ... 
-│                        │      ├ Description     : Validating certificate chains which contain DSA public keys
-│                        │      │                    can cause programs to panic, due to a interface cast that
-│                        │      │                   assumes they implement the Equal method. This affects
-│                        │      │                   programs which validate arbitrary certificate chains. 
-│                        │      ├ Severity        : HIGH 
-│                        │      ├ VendorSeverity   ╭ amazon : 3 
-│                        │      │                  ╰ bitnami: 3 
-│                        │      ├ CVSS             ─ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
-│                        │      │                            │           :N/A:H 
-│                        │      │                            ╰ V3Score : 7.5 
-│                        │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/10/08/1 
-│                        │      │                  ├ [1]: https://go.dev/cl/709853 
-│                        │      │                  ├ [2]: https://go.dev/issue/75675 
-│                        │      │                  ├ [3]: https://groups.google.com/g/golang-announce/c/4Emdl2i
-│                        │      │                  │      Q_bI 
-│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-58188 
-│                        │      │                  ╰ [5]: https://pkg.go.dev/vuln/GO-2025-4013 
-│                        │      ├ PublishedDate   : 2025-10-29T23:16:19.74Z 
-│                        │      ╰ LastModifiedDate: 2025-11-04T22:16:33.74Z 
-│                        ├ [6]  ╭ VulnerabilityID : CVE-2025-47912 
+│                        ├ [5]  ╭ VulnerabilityID : CVE-2025-47912 
 │                        │      ├ PkgID           : stdlib@v1.24.6 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.24.6 
@@ -37466,7 +37481,7 @@
 │                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-47912 
 │                        │      ├ PublishedDate   : 2025-10-29T23:16:18.187Z 
 │                        │      ╰ LastModifiedDate: 2025-11-04T22:16:16.497Z 
-│                        ├ [7]  ╭ VulnerabilityID : CVE-2025-58185 
+│                        ├ [6]  ╭ VulnerabilityID : CVE-2025-58185 
 │                        │      ├ PkgID           : stdlib@v1.24.6 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.24.6 
@@ -37509,6 +37524,51 @@
 │                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2025-58185 
 │                        │      ├ PublishedDate   : 2025-10-29T23:16:19.45Z 
 │                        │      ╰ LastModifiedDate: 2025-11-04T22:16:33.327Z 
+│                        ├ [7]  ╭ VulnerabilityID : CVE-2025-58188 
+│                        │      ├ PkgID           : stdlib@v1.24.6 
+│                        │      ├ PkgName         : stdlib 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.24.6 
+│                        │      │                  ╰ UID : 323978e56bf8954b 
+│                        │      ├ InstalledVersion: v1.24.6 
+│                        │      ├ FixedVersion    : 1.24.8, 1.25.2 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f
+│                        │      │                  │         672d99cf12d59721fb5d9 
+│                        │      │                  ╰ DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7
+│                        │      │                            277787fa3578e3352a155 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-58188 
+│                        │      ├ DataSource       ╭ ID  : govulndb 
+│                        │      │                  ├ Name: The Go Vulnerability Database 
+│                        │      │                  ╰ URL : https://pkg.go.dev/vuln/ 
+│                        │      ├ Title           : crypto/x509: golang: Panic when validating certificates
+│                        │      │                   with DSA public keys in crypto/x509 
+│                        │      ├ Description     : Validating certificate chains which contain DSA public keys
+│                        │      │                    can cause programs to panic, due to a interface cast that
+│                        │      │                   assumes they implement the Equal method. This affects
+│                        │      │                   programs which validate arbitrary certificate chains. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ VendorSeverity   ╭ amazon : 3 
+│                        │      │                  ├ bitnami: 3 
+│                        │      │                  ╰ redhat : 2 
+│                        │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                        │      │                  │         │           :N/A:H 
+│                        │      │                  │         ╰ V3Score : 7.5 
+│                        │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                        │      │                            │           :N/A:L 
+│                        │      │                            ╰ V3Score : 5.3 
+│                        │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/10/08/1 
+│                        │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-58188 
+│                        │      │                  ├ [2]: https://github.com/golang/go/commit/6e4007e8cffbb870e
+│                        │      │                  │      6b606307ab7308236ecefb9 
+│                        │      │                  ├ [3]: https://go.dev/cl/709853 
+│                        │      │                  ├ [4]: https://go.dev/issue/75675 
+│                        │      │                  ├ [5]: https://groups.google.com/g/golang-announce/c/4Emdl2i
+│                        │      │                  │      Q_bI 
+│                        │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2025-58188 
+│                        │      │                  ├ [7]: https://pkg.go.dev/vuln/GO-2025-4013 
+│                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2025-58188 
+│                        │      ├ PublishedDate   : 2025-10-29T23:16:19.74Z 
+│                        │      ╰ LastModifiedDate: 2025-11-04T22:16:33.74Z 
 │                        ├ [8]  ╭ VulnerabilityID : CVE-2025-58189 
 │                        │      ├ PkgID           : stdlib@v1.24.6 
 │                        │      ├ PkgName         : stdlib 
@@ -38861,7 +38921,8 @@
 │                        │      │                   run containerd in rootless mode. 
 │                        │      ├ Severity        : HIGH 
 │                        │      ├ CweIDs           ─ [0]: CWE-279 
-│                        │      ├ VendorSeverity   ╭ cbl-mariner: 3 
+│                        │      ├ VendorSeverity   ╭ azure      : 3 
+│                        │      │                  ├ cbl-mariner: 3 
 │                        │      │                  ├ ghsa       : 3 
 │                        │      │                  ╰ photon     : 3 
 │                        │      ├ CVSS             ─ ghsa ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/
@@ -38979,7 +39040,8 @@
 │                        │      │                   resources. 
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-401 
-│                        │      ├ VendorSeverity   ╭ cbl-mariner: 2 
+│                        │      ├ VendorSeverity   ╭ azure      : 2 
+│                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ ghsa       : 2 
 │                        │      │                  ╰ photon     : 2 
 │                        │      ├ References       ╭ [0]: https://github.com/containerd/containerd 
@@ -39642,6 +39704,7 @@
 │                        │      │                  ├ azure      : 3 
 │                        │      │                  ├ bitnami    : 3 
 │                        │      │                  ├ cbl-mariner: 3 
+│                        │      │                  ├ oracle-oval: 3 
 │                        │      │                  ╰ redhat     : 2 
 │                        │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I
 │                        │      │                  │         │           :L/A:L 
@@ -39660,9 +39723,11 @@
 │                        │      │                  ├ [7] : https://go.dev/issue/74831 
 │                        │      │                  ├ [8] : https://groups.google.com/g/golang-announce/c/x5MKro
 │                        │      │                  │       ML2yM 
-│                        │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2025-47907 
-│                        │      │                  ├ [10]: https://pkg.go.dev/vuln/GO-2025-3849 
-│                        │      │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2025-47907 
+│                        │      │                  ├ [9] : https://linux.oracle.com/cve/CVE-2025-47907.html 
+│                        │      │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2025-20909.html 
+│                        │      │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2025-47907 
+│                        │      │                  ├ [12]: https://pkg.go.dev/vuln/GO-2025-3849 
+│                        │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2025-47907 
 │                        │      ├ PublishedDate   : 2025-08-07T16:15:30.357Z 
 │                        │      ╰ LastModifiedDate: 2025-11-04T22:16:16.347Z 
 │                        ├ [14] ╭ VulnerabilityID : CVE-2025-58183 
@@ -39796,44 +39861,7 @@
 │                        │      │                  ╰ [5]: https://pkg.go.dev/vuln/GO-2025-4007 
 │                        │      ├ PublishedDate   : 2025-10-29T23:16:19.643Z 
 │                        │      ╰ LastModifiedDate: 2025-11-20T23:15:52.007Z 
-│                        ├ [17] ╭ VulnerabilityID : CVE-2025-58188 
-│                        │      ├ PkgID           : stdlib@v1.22.12 
-│                        │      ├ PkgName         : stdlib 
-│                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.22.12 
-│                        │      │                  ╰ UID : 156a2e832bd2e3cc 
-│                        │      ├ InstalledVersion: v1.22.12 
-│                        │      ├ FixedVersion    : 1.24.8, 1.25.2 
-│                        │      ├ Status          : fixed 
-│                        │      ├ Layer            ╭ Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f
-│                        │      │                  │         672d99cf12d59721fb5d9 
-│                        │      │                  ╰ DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7
-│                        │      │                            277787fa3578e3352a155 
-│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-58188 
-│                        │      ├ DataSource       ╭ ID  : govulndb 
-│                        │      │                  ├ Name: The Go Vulnerability Database 
-│                        │      │                  ╰ URL : https://pkg.go.dev/vuln/ 
-│                        │      ├ Title           : Validating certificate chains which contain DSA public keys
-│                        │      │                    can cause  ... 
-│                        │      ├ Description     : Validating certificate chains which contain DSA public keys
-│                        │      │                    can cause programs to panic, due to a interface cast that
-│                        │      │                   assumes they implement the Equal method. This affects
-│                        │      │                   programs which validate arbitrary certificate chains. 
-│                        │      ├ Severity        : HIGH 
-│                        │      ├ VendorSeverity   ╭ amazon : 3 
-│                        │      │                  ╰ bitnami: 3 
-│                        │      ├ CVSS             ─ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
-│                        │      │                            │           :N/A:H 
-│                        │      │                            ╰ V3Score : 7.5 
-│                        │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/10/08/1 
-│                        │      │                  ├ [1]: https://go.dev/cl/709853 
-│                        │      │                  ├ [2]: https://go.dev/issue/75675 
-│                        │      │                  ├ [3]: https://groups.google.com/g/golang-announce/c/4Emdl2i
-│                        │      │                  │      Q_bI 
-│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-58188 
-│                        │      │                  ╰ [5]: https://pkg.go.dev/vuln/GO-2025-4013 
-│                        │      ├ PublishedDate   : 2025-10-29T23:16:19.74Z 
-│                        │      ╰ LastModifiedDate: 2025-11-04T22:16:33.74Z 
-│                        ├ [18] ╭ VulnerabilityID : CVE-2025-0913 
+│                        ├ [17] ╭ VulnerabilityID : CVE-2025-0913 
 │                        │      ├ PkgID           : stdlib@v1.22.12 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.22.12 
@@ -39873,7 +39901,7 @@
 │                        │      │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2025-3750 
 │                        │      ├ PublishedDate   : 2025-06-11T18:15:24.627Z 
 │                        │      ╰ LastModifiedDate: 2025-08-08T14:53:03.55Z 
-│                        ├ [19] ╭ VulnerabilityID : CVE-2025-22871 
+│                        ├ [18] ╭ VulnerabilityID : CVE-2025-22871 
 │                        │      ├ PkgID           : stdlib@v1.22.12 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.22.12 
@@ -39923,7 +39951,7 @@
 │                        │      │                  ├ [5] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                        │      │                  │       025-22871 
 │                        │      │                  ├ [6] : https://errata.almalinux.org/9/ALSA-2025-9635.html 
-│                        │      │                  ├ [7] : https://errata.rockylinux.org/RLSA-2025:9317 
+│                        │      │                  ├ [7] : https://errata.rockylinux.org/RLSA-2025:9845 
 │                        │      │                  ├ [8] : https://github.com/roadrunner-server/roadrunner 
 │                        │      │                  ├ [9] : https://github.com/roadrunner-server/roadrunner/comm
 │                        │      │                  │       it/f269279ee87d0b88127741cad1042389af7605fa 
@@ -39942,7 +39970,7 @@
 │                        │      │                  ╰ [19]: https://www.cve.org/CVERecord?id=CVE-2025-22871 
 │                        │      ├ PublishedDate   : 2025-04-08T20:15:20.183Z 
 │                        │      ╰ LastModifiedDate: 2025-04-18T15:15:57.923Z 
-│                        ├ [20] ╭ VulnerabilityID : CVE-2025-4673 
+│                        ├ [19] ╭ VulnerabilityID : CVE-2025-4673 
 │                        │      ├ PkgID           : stdlib@v1.22.12 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.22.12 
@@ -39999,7 +40027,7 @@
 │                        │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2025-4673 
 │                        │      ├ PublishedDate   : 2025-06-11T17:15:42.993Z 
 │                        │      ╰ LastModifiedDate: 2025-06-12T16:06:20.18Z 
-│                        ├ [21] ╭ VulnerabilityID : CVE-2025-47906 
+│                        ├ [20] ╭ VulnerabilityID : CVE-2025-47906 
 │                        │      ├ PkgID           : stdlib@v1.22.12 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.22.12 
@@ -40051,7 +40079,7 @@
 │                        │      │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2025-47906 
 │                        │      ├ PublishedDate   : 2025-09-18T19:15:37.66Z 
 │                        │      ╰ LastModifiedDate: 2025-11-04T22:16:16.207Z 
-│                        ├ [22] ╭ VulnerabilityID : CVE-2025-47912 
+│                        ├ [21] ╭ VulnerabilityID : CVE-2025-47912 
 │                        │      ├ PkgID           : stdlib@v1.22.12 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.22.12 
@@ -40097,7 +40125,7 @@
 │                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-47912 
 │                        │      ├ PublishedDate   : 2025-10-29T23:16:18.187Z 
 │                        │      ╰ LastModifiedDate: 2025-11-04T22:16:16.497Z 
-│                        ├ [23] ╭ VulnerabilityID : CVE-2025-58185 
+│                        ├ [22] ╭ VulnerabilityID : CVE-2025-58185 
 │                        │      ├ PkgID           : stdlib@v1.22.12 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.22.12 
@@ -40140,6 +40168,51 @@
 │                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2025-58185 
 │                        │      ├ PublishedDate   : 2025-10-29T23:16:19.45Z 
 │                        │      ╰ LastModifiedDate: 2025-11-04T22:16:33.327Z 
+│                        ├ [23] ╭ VulnerabilityID : CVE-2025-58188 
+│                        │      ├ PkgID           : stdlib@v1.22.12 
+│                        │      ├ PkgName         : stdlib 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.22.12 
+│                        │      │                  ╰ UID : 156a2e832bd2e3cc 
+│                        │      ├ InstalledVersion: v1.22.12 
+│                        │      ├ FixedVersion    : 1.24.8, 1.25.2 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f
+│                        │      │                  │         672d99cf12d59721fb5d9 
+│                        │      │                  ╰ DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7
+│                        │      │                            277787fa3578e3352a155 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-58188 
+│                        │      ├ DataSource       ╭ ID  : govulndb 
+│                        │      │                  ├ Name: The Go Vulnerability Database 
+│                        │      │                  ╰ URL : https://pkg.go.dev/vuln/ 
+│                        │      ├ Title           : crypto/x509: golang: Panic when validating certificates
+│                        │      │                   with DSA public keys in crypto/x509 
+│                        │      ├ Description     : Validating certificate chains which contain DSA public keys
+│                        │      │                    can cause programs to panic, due to a interface cast that
+│                        │      │                   assumes they implement the Equal method. This affects
+│                        │      │                   programs which validate arbitrary certificate chains. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ VendorSeverity   ╭ amazon : 3 
+│                        │      │                  ├ bitnami: 3 
+│                        │      │                  ╰ redhat : 2 
+│                        │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                        │      │                  │         │           :N/A:H 
+│                        │      │                  │         ╰ V3Score : 7.5 
+│                        │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                        │      │                            │           :N/A:L 
+│                        │      │                            ╰ V3Score : 5.3 
+│                        │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/10/08/1 
+│                        │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-58188 
+│                        │      │                  ├ [2]: https://github.com/golang/go/commit/6e4007e8cffbb870e
+│                        │      │                  │      6b606307ab7308236ecefb9 
+│                        │      │                  ├ [3]: https://go.dev/cl/709853 
+│                        │      │                  ├ [4]: https://go.dev/issue/75675 
+│                        │      │                  ├ [5]: https://groups.google.com/g/golang-announce/c/4Emdl2i
+│                        │      │                  │      Q_bI 
+│                        │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2025-58188 
+│                        │      │                  ├ [7]: https://pkg.go.dev/vuln/GO-2025-4013 
+│                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2025-58188 
+│                        │      ├ PublishedDate   : 2025-10-29T23:16:19.74Z 
+│                        │      ╰ LastModifiedDate: 2025-11-04T22:16:33.74Z 
 │                        ├ [24] ╭ VulnerabilityID : CVE-2025-58189 
 │                        │      ├ PkgID           : stdlib@v1.22.12 
 │                        │      ├ PkgName         : stdlib 
