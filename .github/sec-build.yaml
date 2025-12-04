@@ -22322,6 +22322,7 @@
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:43e098606b086dfe976605d873856d317e9429a326c37a80813c1eee9f052280
     Title: 'coreutils: Non-privileged session can escape to the parent session in chroot'
     Description: chroot in GNU coreutils, when used with --userspec, allows local users to escape to the parent session via a crafted TIOCSTI ioctl call, which pushes characters to the terminal's input buffer.
     Severity: LOW
@@ -22373,6 +22374,7 @@
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:ef6d985ec361d98468af3b3239a8d9e6e6c80269a7f9f929b5a3e23aa3f27230
     Title: When asked to use a `.netrc` file for credentials **and** to follow HT ...
     Description: |-
       When asked to use a `.netrc` file for credentials **and** to follow HTTP
@@ -22413,6 +22415,7 @@
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:295855d9c36c4f27603cee9564fd196b44fcde1a4cf30e3e2e5a811d374b0e9c
     Title: 'curl: libcurl: Curl out of bounds read for cookie path'
     Description: |-
       1. A cookie is set using the `secure` keyword for `https://target`
@@ -22469,6 +22472,7 @@
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:31d57409102e38ac3c98a8a9e0c2d81a72b3dc9202ab6d1e017deb66eab4f94b
     Title: 'dbus: dbus-daemon: assertion failure when a monitor is active and a message from the driver cannot be delivered'
     Description: D-Bus before 1.15.6 sometimes allows unprivileged users to crash dbus-daemon. If a privileged user with control over the dbus-daemon is using the org.freedesktop.DBus.Monitoring interface to monitor message bus traffic, then an unprivileged user with the ability to connect to the same dbus-daemon can cause a dbus-daemon crash under some circumstances via an unreplyable message. When done on the well-known system bus, this is a denial-of-service vulnerability. The fixed versions are 1.12.28, 1.14.8, and 1.15.6.
     Severity: LOW
@@ -22527,6 +22531,7 @@
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:37d32bc615bce59913cb0da9e07c475c27eb5ad906bc841188d51b660f7e844d
     Title: 'dbus: dbus-daemon: assertion failure when a monitor is active and a message from the driver cannot be delivered'
     Description: D-Bus before 1.15.6 sometimes allows unprivileged users to crash dbus-daemon. If a privileged user with control over the dbus-daemon is using the org.freedesktop.DBus.Monitoring interface to monitor message bus traffic, then an unprivileged user with the ability to connect to the same dbus-daemon can cause a dbus-daemon crash under some circumstances via an unreplyable message. When done on the well-known system bus, this is a denial-of-service vulnerability. The fixed versions are 1.12.28, 1.14.8, and 1.15.6.
     Severity: LOW
@@ -22585,6 +22590,7 @@
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:5dec0415471b8fe5a3b58512798a26df4673092e8be4117fb6b4e8f205938abb
     Title: 'gnupg: denial of service issue (resource consumption) using compressed packets'
     Description: GnuPG can be made to spin on a relatively small input by (for example) crafting a public key with thousands of signatures attached, compressed down to just a few KB.
     Severity: LOW
@@ -22629,6 +22635,7 @@
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:cf17870bafb969878be0bda1679b9f683a538ff02cff16d2ef45793e7b7bffca
     Title: 'binutils: libiberty/rust-demangle.c in GNU GCC 11.2 allows stack exhaustion in demangle_const'
     Description: libiberty/rust-demangle.c in GNU GCC 11.2 allows stack consumption in demangle_const, as demonstrated by nm-new.
     Severity: LOW
@@ -22678,6 +22685,7 @@
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:28f64e7c40e1d292067f92faf2ee14b145537a56ef6f698c2c8550d9352612cb
     Title: 'git: The sideband payload is passed unfiltered to the terminal in git'
     Description: Git is a source code management tool. When cloning from a server (or fetching, or pushing), informational or error messages are transported from the remote Git process to the client via the so-called "sideband channel". These messages will be prefixed with "remote:" and printed directly to the standard error output. Typically, this standard error output is connected to a terminal that understands ANSI escape sequences, which Git did not protect against. Most modern terminals support control sequences that can be used by a malicious actor to hide and misrepresent information, or to mislead the user into executing untrusted scripts. As requested on the git-security mailing list, the patches are under discussion on the public mailing list. Users are advised to update as soon as possible. Users unable to upgrade should avoid recursive clones unless they are from trusted sources.
     Severity: MEDIUM
@@ -22730,6 +22738,7 @@
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:0550a5a3db9bc31cc02ba9857a6a34e5d21ed4c37cc5aedaeaa61f9c49206a90
     Title: 'git: The sideband payload is passed unfiltered to the terminal in git'
     Description: Git is a source code management tool. When cloning from a server (or fetching, or pushing), informational or error messages are transported from the remote Git process to the client via the so-called "sideband channel". These messages will be prefixed with "remote:" and printed directly to the standard error output. Typically, this standard error output is connected to a terminal that understands ANSI escape sequences, which Git did not protect against. Most modern terminals support control sequences that can be used by a malicious actor to hide and misrepresent information, or to mislead the user into executing untrusted scripts. As requested on the git-security mailing list, the patches are under discussion on the public mailing list. Users are advised to update as soon as possible. Users unable to upgrade should avoid recursive clones unless they are from trusted sources.
     Severity: MEDIUM
@@ -22782,6 +22791,7 @@
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:7f53005eaaa7e650ed6e1a7be2599a4ddd26b4bd82c888140f0c2bb4644840df
     Title: 'gnupg: denial of service issue (resource consumption) using compressed packets'
     Description: GnuPG can be made to spin on a relatively small input by (for example) crafting a public key with thousands of signatures attached, compressed down to just a few KB.
     Severity: LOW
@@ -22826,6 +22836,7 @@
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:fa07daf7cb4cc713b40317a3fecc0525cce91664750dcc3ea1018e0b5ee641ac
     Title: 'gnupg: denial of service issue (resource consumption) using compressed packets'
     Description: GnuPG can be made to spin on a relatively small input by (for example) crafting a public key with thousands of signatures attached, compressed down to just a few KB.
     Severity: LOW
@@ -22870,6 +22881,7 @@
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:3dcaf5853be1e5498d44df21f5f47d5292234816e01e2aa17ff645d5b6d4701d
     Title: 'gnupg: denial of service issue (resource consumption) using compressed packets'
     Description: GnuPG can be made to spin on a relatively small input by (for example) crafting a public key with thousands of signatures attached, compressed down to just a few KB.
     Severity: LOW
@@ -22914,6 +22926,7 @@
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:85216ef933cdccf3c3d2a42021dd6f4f2156b5c23c4e889c484b4860ab466b5b
     Title: 'gnupg: denial of service issue (resource consumption) using compressed packets'
     Description: GnuPG can be made to spin on a relatively small input by (for example) crafting a public key with thousands of signatures attached, compressed down to just a few KB.
     Severity: LOW
@@ -22958,6 +22971,7 @@
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:6d76692007c6dda2bd84bc19e7da755dc2a6bba6cd89960f2f94b969713b9909
     Title: 'gnupg: denial of service issue (resource consumption) using compressed packets'
     Description: GnuPG can be made to spin on a relatively small input by (for example) crafting a public key with thousands of signatures attached, compressed down to just a few KB.
     Severity: LOW
@@ -23002,6 +23016,7 @@
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:b528c4ef181550464444d5be02cb18f4cdc2228abaf45aa46a0540ae96a9c5b7
     Title: 'gnupg: denial of service issue (resource consumption) using compressed packets'
     Description: GnuPG can be made to spin on a relatively small input by (for example) crafting a public key with thousands of signatures attached, compressed down to just a few KB.
     Severity: LOW
@@ -23046,6 +23061,7 @@
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:0ce7fbc33aae116de40e5ea0485396d65409fcb875e4241fab2ab467aac2ebbc
     Title: 'gnupg: denial of service issue (resource consumption) using compressed packets'
     Description: GnuPG can be made to spin on a relatively small input by (for example) crafting a public key with thousands of signatures attached, compressed down to just a few KB.
     Severity: LOW
@@ -23090,6 +23106,7 @@
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:d4859e3ec29661150567270d3e92456e0c3b260b986c6cf7d0faf9237d89fd07
     Title: 'gnupg: denial of service issue (resource consumption) using compressed packets'
     Description: GnuPG can be made to spin on a relatively small input by (for example) crafting a public key with thousands of signatures attached, compressed down to just a few KB.
     Severity: LOW
@@ -23134,6 +23151,7 @@
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:93c368f45debb70b9bccab67c86e603f358280e9fe5ad9e430379c4362d2bff4
     Title: 'gnupg: denial of service issue (resource consumption) using compressed packets'
     Description: GnuPG can be made to spin on a relatively small input by (for example) crafting a public key with thousands of signatures attached, compressed down to just a few KB.
     Severity: LOW
@@ -23178,6 +23196,7 @@
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:4e4d38e56739002fc4c67eb53f0b9be024eb40819955ba036a0cc9e4c0439121
     Title: 'gnupg: denial of service issue (resource consumption) using compressed packets'
     Description: GnuPG can be made to spin on a relatively small input by (for example) crafting a public key with thousands of signatures attached, compressed down to just a few KB.
     Severity: LOW
@@ -23222,6 +23241,7 @@
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:61666edb8c25a0494fd273aaf35630ea6c61ed1659551cf0c1636ec0bdb6b202
     Title: 'binutils: libiberty/rust-demangle.c in GNU GCC 11.2 allows stack exhaustion in demangle_const'
     Description: libiberty/rust-demangle.c in GNU GCC 11.2 allows stack consumption in demangle_const, as demonstrated by nm-new.
     Severity: LOW
@@ -23271,6 +23291,7 @@
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:65e76622f96c0ed78bfa16fd70400cdbfc6899f003d78700ae3f4e4240a146ef
     Title: 'libbpf: Heap Buffer Overflow in libbpf'
     Description: Buffer Overflow vulnerability in libbpf 1.5.0 allows a local attacker to execute arbitrary code via the bpf_object__init_prog` function of libbpf.
     Severity: MEDIUM
@@ -23313,6 +23334,7 @@
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:fad8a68b1727abcde12d27ae4e61ca15890b526edc498330a7154ae3bfc1dbcf
     Title: When asked to use a `.netrc` file for credentials **and** to follow HT ...
     Description: |-
       When asked to use a `.netrc` file for credentials **and** to follow HTTP
@@ -23353,6 +23375,7 @@
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:bcfc516645d7c149249ccae414d264ccd2a4a783ab2186413a0b4fb165a61ded
     Title: 'curl: libcurl: Curl out of bounds read for cookie path'
     Description: |-
       1. A cookie is set using the `secure` keyword for `https://target`
@@ -23409,6 +23432,7 @@
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:30bb96152932ad741488f9bcf8ec69a64d6a9cc3e11502859db17fc5cf13eb0a
     Title: When asked to use a `.netrc` file for credentials **and** to follow HT ...
     Description: |-
       When asked to use a `.netrc` file for credentials **and** to follow HTTP
@@ -23449,6 +23473,7 @@
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:cebbcd51e66d1354c725fdc2626cb0b1efb129d719dd7d79ce5fa469c5ab876c
     Title: 'curl: libcurl: Curl out of bounds read for cookie path'
     Description: |-
       1. A cookie is set using the `secure` keyword for `https://target`
@@ -23505,6 +23530,7 @@
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:c90af1e3e1c0444b9137413d88df72dfc38bf80c65f80ae746d464333408844e
     Title: 'dbus: dbus-daemon: assertion failure when a monitor is active and a message from the driver cannot be delivered'
     Description: D-Bus before 1.15.6 sometimes allows unprivileged users to crash dbus-daemon. If a privileged user with control over the dbus-daemon is using the org.freedesktop.DBus.Monitoring interface to monitor message bus traffic, then an unprivileged user with the ability to connect to the same dbus-daemon can cause a dbus-daemon crash under some circumstances via an unreplyable message. When done on the well-known system bus, this is a denial-of-service vulnerability. The fixed versions are 1.12.28, 1.14.8, and 1.15.6.
     Severity: LOW
@@ -23563,6 +23589,7 @@
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:890cf93429768e52263880e6407acda98d54ef892b6e4beedeaa777920b3f30e
     Title: 'elfutils: GNU elfutils eu-readelf libdw_alloc.c __libdw_thread_tail memory corruption'
     Description: A vulnerability has been found in GNU elfutils 0.192 and classified as critical. This vulnerability affects the function __libdw_thread_tail in the library libdw_alloc.c of the component eu-readelf. The manipulation of the argument w leads to memory corruption. The attack can be initiated remotely. The complexity of an attack is rather high. The exploitation appears to be difficult. The exploit has been disclosed to the public and may be used. The name of the patch is 2636426a091bd6c6f7f02e49ab20d4cdc6bfc753. It is recommended to apply a patch to fix this issue.
     Severity: LOW
@@ -23612,6 +23639,7 @@
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:7ad41dc2d8f86a746d81449933c0687b999f3571e5e6a4a3ef930376c29e1502
     Title: 'elfutils: GNU elfutils eu-strip elf_strptr.c elf_strptr denial of service'
     Description: A vulnerability classified as problematic was found in GNU elfutils 0.192. This vulnerability affects the function elf_strptr in the library /libelf/elf_strptr.c of the component eu-strip. The manipulation leads to denial of service. It is possible to launch the attack on the local host. The complexity of an attack is rather high. The exploitation appears to be difficult. The exploit has been disclosed to the public and may be used. The name of the patch is b16f441cca0a4841050e3215a9f120a6d8aea918. It is recommended to apply a patch to fix this issue.
     Severity: LOW
@@ -23660,6 +23688,7 @@
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:95bc16a7dd6b65eb440520c027f6041a7fc2525ad79dc0ea8d36ada4cf26ffd2
     Title: 'binutils: libiberty/rust-demangle.c in GNU GCC 11.2 allows stack exhaustion in demangle_const'
     Description: libiberty/rust-demangle.c in GNU GCC 11.2 allows stack consumption in demangle_const, as demonstrated by nm-new.
     Severity: LOW
@@ -23709,6 +23738,7 @@
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:d233066e35bb8f94e35932876130a8a5552a234f7c136eaa36f9689e3be2a2c4
     Title: 'libgcrypt: vulnerable to Marvin Attack'
     Description: A timing-based side-channel flaw was found in libgcrypt's RSA implementation. This issue may allow a remote attacker to initiate a Bleichenbacher-style attack, which can lead to the decryption of RSA ciphertexts.
     Severity: LOW
@@ -23760,6 +23790,7 @@
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:b2237c9c8862f9bf4a17da8662f5dcfe15bf0954faad9b10b2ecb8470128a9f9
     Title: 'icu: Stack buffer overflow in the SRBRoot::addTag function'
     Description: A stack buffer overflow was found in Internationl components for unicode (ICU ). While running the genrb binary, the 'subtag' struct overflowed at the SRBRoot::addTag function. This issue may lead to memory corruption and local arbitrary code execution.
     Severity: LOW
@@ -23815,6 +23846,7 @@
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:16e495adac910e3d44ce7e02e0258df67aba1842c0e28a3e8800aa301e751959
     Title: 'ncurses: segmentation fault via _nc_wrap_entry()'
     Description: NCurse v6.4-20230418 was discovered to contain a segmentation fault via the component _nc_wrap_entry().
     Severity: LOW
@@ -23860,6 +23892,7 @@
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:2a32842e046994919e0395ee83a432fdcf96f4c5a304357e74ea2a39e026a096
     Title: 'ncurses: segmentation fault via _nc_wrap_entry()'
     Description: NCurse v6.4-20230418 was discovered to contain a segmentation fault via the component _nc_wrap_entry().
     Severity: LOW
@@ -23905,6 +23938,7 @@
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:86fe6e501fd62ff1d6027f120798012c019d156be5a2d65cc5d25c94a15f2de5
     Title: 'systemd-resolved: Unsigned name response in signed zone is not refused when DNSSEC=yes'
     Description: A vulnerability was found in systemd-resolved. This issue may allow systemd-resolved to accept records of DNSSEC-signed domains even when they have no signature, allowing man-in-the-middles (or the upstream DNS resolver) to manipulate records.
     Severity: LOW
@@ -23966,6 +24000,7 @@
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:3eca6c795341b7470f90d197e608279dc78722afaa157ea8f5403797b7c98cfb
     Title: 'linux-pam: Incomplete fix for CVE-2025-6020'
     Description: A flaw was found in linux-pam. The pam_namespace module may improperly handle user-controlled paths, allowing local users to exploit symlink attacks and race conditions to elevate their privileges to root. This CVE provides a "complete" fix for CVE-2025-6020.
     Severity: MEDIUM
@@ -24032,6 +24067,7 @@
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:a1bceadbc79a42c49f5bfbcdc70623ea678776ba209c956c3937cadc33264a12
     Title: 'linux-pam: Incomplete fix for CVE-2025-6020'
     Description: A flaw was found in linux-pam. The pam_namespace module may improperly handle user-controlled paths, allowing local users to exploit symlink attacks and race conditions to elevate their privileges to root. This CVE provides a "complete" fix for CVE-2025-6020.
     Severity: MEDIUM
@@ -24098,6 +24134,7 @@
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:576dadb4b7d7544bbec47003b6eb317d9b4251a7956eb3c3d449de1f818272d9
     Title: 'linux-pam: Incomplete fix for CVE-2025-6020'
     Description: A flaw was found in linux-pam. The pam_namespace module may improperly handle user-controlled paths, allowing local users to exploit symlink attacks and race conditions to elevate their privileges to root. This CVE provides a "complete" fix for CVE-2025-6020.
     Severity: MEDIUM
@@ -24164,6 +24201,7 @@
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:066a4ad8c826a518dc9b0a45bc0a9dc4805bd8074189e7a37704f2906e56556e
     Title: 'systemd-resolved: Unsigned name response in signed zone is not refused when DNSSEC=yes'
     Description: A vulnerability was found in systemd-resolved. This issue may allow systemd-resolved to accept records of DNSSEC-signed domains even when they have no signature, allowing man-in-the-middles (or the upstream DNS resolver) to manipulate records.
     Severity: LOW
@@ -24225,6 +24263,7 @@
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:6725a064a86fcda1e76daa007ad1de394be02862a471ee2d9eb14e3f8ed9b665
     Title: 'linux-pam: Incomplete fix for CVE-2025-6020'
     Description: A flaw was found in linux-pam. The pam_namespace module may improperly handle user-controlled paths, allowing local users to exploit symlink attacks and race conditions to elevate their privileges to root. This CVE provides a "complete" fix for CVE-2025-6020.
     Severity: MEDIUM
@@ -24291,6 +24330,7 @@
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:039fea48b17b75bc962ca8cec4acd1d318af091afd798186268a7ab80759e83f
     Title: 'pcre2: negative repeat value in a pcre2test subject line leads to inifinite loop'
     Description: Integer overflow vulnerability in pcre2test before 10.41 allows attackers to cause a denial of service or other unspecified impacts via negative input.
     Severity: LOW
@@ -24336,6 +24376,7 @@
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:c0a1bc9c0894fb823f7945ea74b44c97b84c28a65290a36e8850db79d708825d
     Title: 'pcre: OP_KETRMAX feature in the match function in pcre_exec.c'
     Description: In PCRE 8.41, the OP_KETRMAX feature in the match function in pcre_exec.c allows stack exhaustion (uncontrolled recursion) when processing a crafted regular expression.
     Severity: LOW
@@ -24383,6 +24424,7 @@
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:6f9d9c4d2314e4a1f722759cb96aaa14fd8675cbb68fe4b049b0d8194b5a9592
     Title: 'openssl: remote attackers (from the client side) to trigger unnecessarily expensive server-side DHE modular-exponentiation calculations'
     Description: Validating the order of the public keys in the Diffie-Hellman Key Agreement Protocol, when an approved safe prime is used, allows remote attackers (from the client side) to trigger unnecessarily expensive server-side DHE modular-exponentiation calculations. The client may cause asymmetric resource consumption. The basic attack scenario is that the client must claim that it can only communicate with DHE, and the server must be configured to allow DHE and validate the order of the public key.
     Severity: LOW
@@ -24425,6 +24467,7 @@
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:d08f101527e0b0ea867eea06be9935d53f7ee791a5435bdc8641b7397a560403
     Title: 'binutils: libiberty/rust-demangle.c in GNU GCC 11.2 allows stack exhaustion in demangle_const'
     Description: libiberty/rust-demangle.c in GNU GCC 11.2 allows stack consumption in demangle_const, as demonstrated by nm-new.
     Severity: LOW
@@ -24474,6 +24517,7 @@
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:a81cb4f208e27034b118450d313131d438ef18fefb42b104b7e88b56dad560f4
     Title: 'systemd-resolved: Unsigned name response in signed zone is not refused when DNSSEC=yes'
     Description: A vulnerability was found in systemd-resolved. This issue may allow systemd-resolved to accept records of DNSSEC-signed domains even when they have no signature, allowing man-in-the-middles (or the upstream DNS resolver) to manipulate records.
     Severity: LOW
@@ -24535,6 +24579,7 @@
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:aedf8adbe683514ba557c584d5337ad5f4d95bf1af30a7db458518482fae32e1
     Title: 'ncurses: segmentation fault via _nc_wrap_entry()'
     Description: NCurse v6.4-20230418 was discovered to contain a segmentation fault via the component _nc_wrap_entry().
     Severity: LOW
@@ -24580,6 +24625,7 @@
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:4e23032c5c4425f4e961d99655dec345ee314d5854118acf0aadb611ff7abf3b
     Title: 'systemd-resolved: Unsigned name response in signed zone is not refused when DNSSEC=yes'
     Description: A vulnerability was found in systemd-resolved. This issue may allow systemd-resolved to accept records of DNSSEC-signed domains even when they have no signature, allowing man-in-the-middles (or the upstream DNS resolver) to manipulate records.
     Severity: LOW
@@ -24641,6 +24687,7 @@
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:ca51228253aa447d11f0ec0a92f1640e9b5ef32c02b9657e63c081b794541a7e
     Title: 'libxslt: use-after-free with key data stored cross-RVT'
     Description: A use-after-free vulnerability was found in libxslt while parsing xsl nodes that may lead to the dereference of expired pointers and application crash.
     Severity: MEDIUM
@@ -24680,6 +24727,7 @@
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:c3b749300d8a7b4afcfdad36c40e5bcd607c83f71867f4fcfd1d3fa86f5b7a3d
     Title: 'libxslt: Type confusion in xmlNode.psvi between stylesheet and source nodes'
     Description: A flaw was found in the libxslt library. The same memory field, psvi, is used for both stylesheet and input data, which can lead to type confusion during XML transformations. This vulnerability allows an attacker to crash the application or corrupt memory. In some cases, it may lead to denial of service or unexpected behavior.
     Severity: MEDIUM
@@ -24730,6 +24778,7 @@
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:8753fa43d7f0f3f109366baa78dca3a2be86a1ff64ec42968b3fe7bf7cc95ea2
     Title: 'libxslt: Heap Use-After-Free in libxslt caused by atype corruption in xmlAttrPtr'
     Description: A flaw was found in libxslt where the attribute type, atype, flags are modified in a way that corrupts internal memory management. When XSLT functions, such as the key() process, result in tree fragments, this corruption prevents the proper cleanup of ID attributes. As a result, the system may access freed memory, causing crashes or enabling attackers to trigger heap corruption.
     Severity: MEDIUM
@@ -24811,6 +24860,7 @@
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:9ed4210068eef11b80938b4e4f781344efd2851144eaf802549190d126c0c42b
     Title: 'zstd: mysql: buffer overrun in util.c'
     Description: A vulnerability was found in zstd v1.4.10, where an attacker can supply empty string as an argument to the command line tool to cause buffer overrun.
     Severity: LOW
@@ -24951,6 +25001,7 @@
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:720ee7816036ca6b8cd109224bbcadb40841e83a64f1e66d222bdb7a2938dc73
     Title: 'shadow: Improper input validation in shadow-utils package utility chfn'
     Description: 'In Shadow 4.13, it is possible to inject control characters into fields provided to the SUID program chfn (change finger). Although it is not possible to exploit this directly (e.g., adding a new user fails because \n is in the block list), it is possible to misrepresent the /etc/passwd file when viewed. Use of \r manipulations and Unicode characters to work around blocking of the : character make it possible to give the impression that a new user has been added. In other words, an adversary may be able to convince a system administrator to take the system offline (an indirect, social-engineered denial of service) by demonstrating that "cat /etc/passwd" shows a rogue user account.'
     Severity: LOW
@@ -24998,6 +25049,7 @@
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:cc0912d1c9aec35fd23c39c85bf75cdaa4aebe19698621378a9ac22155d362b9
     Title: 'shadow-utils: Default subordinate ID configuration in /etc/login.defs could lead to compromise'
     Description: 'shadow-utils (aka shadow) 4.4 through 4.17.0 establishes a default /etc/subuid behavior (e.g., uid 100000 through 165535 for the first user account) that can realistically conflict with the uids of users defined on locally administered networks, potentially leading to account takeover, e.g., by leveraging newuidmap for access to an NFS home directory (or same-host resources in the case of remote logins by these local network users). NOTE: it may also be argued that system administrators should not have assigned uids, within local networks, that are within the range that can occur in /etc/subuid.'
     Severity: LOW
@@ -25048,6 +25100,7 @@
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:763975a1979b5b1e2c0a9683456c99559b487586994a30e6d924488b5029add6
     Title: 'ncurses: segmentation fault via _nc_wrap_entry()'
     Description: NCurse v6.4-20230418 was discovered to contain a segmentation fault via the component _nc_wrap_entry().
     Severity: LOW
@@ -25093,6 +25146,7 @@
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:fc46bcd94689fb9d08791bf8fb9411aa1ebe99db024fa04d74245156f67b2c36
     Title: 'ncurses: segmentation fault via _nc_wrap_entry()'
     Description: NCurse v6.4-20230418 was discovered to contain a segmentation fault via the component _nc_wrap_entry().
     Severity: LOW
@@ -25138,6 +25192,7 @@
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:25260ea63952335fad184c57dd8e77ad3ced8d6e1ffbb9f81b247f157ac3f32b
     Title: 'ncurses: segmentation fault via _nc_wrap_entry()'
     Description: NCurse v6.4-20230418 was discovered to contain a segmentation fault via the component _nc_wrap_entry().
     Severity: LOW
@@ -25183,6 +25238,7 @@
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:5ee6cd59446418c7ba178504e20f9cc8bb7312a27534221efa38c8cc9adab49b
     Title: 'openssl: remote attackers (from the client side) to trigger unnecessarily expensive server-side DHE modular-exponentiation calculations'
     Description: Validating the order of the public keys in the Diffie-Hellman Key Agreement Protocol, when an approved safe prime is used, allows remote attackers (from the client side) to trigger unnecessarily expensive server-side DHE modular-exponentiation calculations. The client may cause asymmetric resource consumption. The basic attack scenario is that the client must claim that it can only communicate with DHE, and the server must be configured to allow DHE and validate the order of the public key.
     Severity: LOW
@@ -25225,6 +25281,7 @@
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:f80994480a19e36aadf3d45165351f88a4c9dc05288d15320e2437847468afb9
     Title: 'shadow: Improper input validation in shadow-utils package utility chfn'
     Description: 'In Shadow 4.13, it is possible to inject control characters into fields provided to the SUID program chfn (change finger). Although it is not possible to exploit this directly (e.g., adding a new user fails because \n is in the block list), it is possible to misrepresent the /etc/passwd file when viewed. Use of \r manipulations and Unicode characters to work around blocking of the : character make it possible to give the impression that a new user has been added. In other words, an adversary may be able to convince a system administrator to take the system offline (an indirect, social-engineered denial of service) by demonstrating that "cat /etc/passwd" shows a rogue user account.'
     Severity: LOW
@@ -25272,6 +25329,7 @@
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:1843d268be0a013fb760619af564b1e7acc51dcd3f000053356a72c7d8f81387
     Title: 'shadow-utils: Default subordinate ID configuration in /etc/login.defs could lead to compromise'
     Description: 'shadow-utils (aka shadow) 4.4 through 4.17.0 establishes a default /etc/subuid behavior (e.g., uid 100000 through 165535 for the first user account) that can realistically conflict with the uids of users defined on locally administered networks, potentially leading to account takeover, e.g., by leveraging newuidmap for access to an NFS home directory (or same-host resources in the case of remote logins by these local network users). NOTE: it may also be argued that system administrators should not have assigned uids, within local networks, that are within the range that can occur in /etc/subuid.'
     Severity: LOW
@@ -25322,6 +25380,7 @@
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:a4da91366d1295cf592e546092d4a3e8a0060649d638eb98f1e7bc7a2b626337
     Title: 'systemd-resolved: Unsigned name response in signed zone is not refused when DNSSEC=yes'
     Description: A vulnerability was found in systemd-resolved. This issue may allow systemd-resolved to accept records of DNSSEC-signed domains even when they have no signature, allowing man-in-the-middles (or the upstream DNS resolver) to manipulate records.
     Severity: LOW
@@ -25383,6 +25442,7 @@
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:c694655358796cee3ff9339264f0408864f750ebb03dac3239f2fa4f846ab790
     Title: 'systemd-resolved: Unsigned name response in signed zone is not refused when DNSSEC=yes'
     Description: A vulnerability was found in systemd-resolved. This issue may allow systemd-resolved to accept records of DNSSEC-signed domains even when they have no signature, allowing man-in-the-middles (or the upstream DNS resolver) to manipulate records.
     Severity: LOW
@@ -25444,6 +25504,7 @@
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:0edc791e4553ea49f8f3d08e10abe276bd9d1e9014006ca8319a440198b7f1ea
     Title: 'systemd-resolved: Unsigned name response in signed zone is not refused when DNSSEC=yes'
     Description: A vulnerability was found in systemd-resolved. This issue may allow systemd-resolved to accept records of DNSSEC-signed domains even when they have no signature, allowing man-in-the-middles (or the upstream DNS resolver) to manipulate records.
     Severity: LOW
@@ -25505,6 +25566,7 @@
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:7a856ffd66afd65b28ed5df5a75b9710e80821e0eb5d819eda2edc5ea7604490
     Title: 'tar: Tar path traversal'
     Description: 'GNU Tar through 1.35 allows file overwrite via directory traversal in crafted TAR archives, with a certain two-step process. First, the victim must extract an archive that contains a ../ symlink to a critical directory. Second, the victim must extract an archive that contains a critical file, specified via a relative pathname that begins with the symlink name and ends with that critical file''s name. Here, the extraction follows the symlink and overwrites the critical file. This bypasses the protection mechanism of "Member name contains ''..''" that would occur for a single TAR archive that attempted to specify the critical file via a ../ approach. For example, the first archive can contain "x -> ../../../../../home/victim/.ssh" and the second archive can contain x/authorized_keys. This can affect server applications that automatically extract any number of user-supplied TAR archives, and were relying on the blocking of traversal. This can also affect software installation processes in which "tar xf" is run more than once (e.g., when installing a package can automatically install two dependencies that are set up as untrusted tarballs instead of official packages). NOTE: the official GNU Tar manual has an otherwise-empty directory for each "tar xf" in its Security Rules of Thumb; however, third-party advice leads users to run "tar xf" more than once into the same directory.'
     Severity: MEDIUM
@@ -25547,6 +25609,7 @@
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:54a8f0a43352bc6183afced43d26f2b7228a7da7d72edb6433f5d403ae02ef5d
     Title: 'shadow: Improper input validation in shadow-utils package utility chfn'
     Description: 'In Shadow 4.13, it is possible to inject control characters into fields provided to the SUID program chfn (change finger). Although it is not possible to exploit this directly (e.g., adding a new user fails because \n is in the block list), it is possible to misrepresent the /etc/passwd file when viewed. Use of \r manipulations and Unicode characters to work around blocking of the : character make it possible to give the impression that a new user has been added. In other words, an adversary may be able to convince a system administrator to take the system offline (an indirect, social-engineered denial of service) by demonstrating that "cat /etc/passwd" shows a rogue user account.'
     Severity: LOW
@@ -25594,6 +25657,7 @@
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:ee5dcb742c3b8cc59b885c9191fc09799340a88cc736d9038737bb1cd31d55fe
     Title: 'shadow-utils: Default subordinate ID configuration in /etc/login.defs could lead to compromise'
     Description: 'shadow-utils (aka shadow) 4.4 through 4.17.0 establishes a default /etc/subuid behavior (e.g., uid 100000 through 165535 for the first user account) that can realistically conflict with the uids of users defined on locally administered networks, potentially leading to account takeover, e.g., by leveraging newuidmap for access to an NFS home directory (or same-host resources in the case of remote logins by these local network users). NOTE: it may also be argued that system administrators should not have assigned uids, within local networks, that are within the range that can occur in /etc/subuid.'
     Severity: LOW
@@ -25644,6 +25708,7 @@
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:98d6c828aae0b4c504680667a6016d08dd433b3103ac9eb826abb7ab0d27e3a4
     Title: 'wget: authorization header disclosure on redirect'
     Description: GNU Wget through 1.21.1 does not omit the Authorization header upon a redirect to a different origin, a related issue to CVE-2018-1000007.
     Severity: MEDIUM
@@ -26372,6 +26437,7 @@
       ID: ghsa
       Name: GitHub Security Advisory Maven
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven
+    Fingerprint: sha256:80a97e5720e2f5e850cf2f2394783032ea881c6f3d4c09edb526867b1f218cb8
     Title: 'commons-lang/commons-lang: org.apache.commons/commons-lang3: Uncontrolled Recursion vulnerability in Apache Commons Lang'
     Description: "Uncontrolled Recursion vulnerability in Apache Commons Lang.\n\nThis issue affects Apache Commons Lang: Starting with\_commons-lang:commons-lang\_2.0 to 2.6, and, from org.apache.commons:commons-lang3 3.0 before\_3.18.0.\n\nThe methods ClassUtils.getClass(...) can throw\_StackOverflowError on very long inputs. Because an Error is usually not handled by applications and libraries, a \nStackOverflowError could\_cause an application to stop.\n\nUsers are recommended to upgrade to version 3.18.0, which fixes the issue."
     Severity: MEDIUM
@@ -26422,6 +26488,7 @@
       ID: ghsa
       Name: GitHub Security Advisory Maven
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven
+    Fingerprint: sha256:7430913b8e9ab8a3aa5cf10df216b24833b52f7138152ca94bedcc299cc8389f
     Title: 'jsoup: The jsoup cleaner may incorrectly sanitize crafted XSS attempts if SafeList.preserveRelativeLinks is enabled'
     Description: 'jsoup is a Java HTML parser, built for HTML editing, cleaning, scraping, and cross-site scripting (XSS) safety. jsoup may incorrectly sanitize HTML including `javascript:` URL expressions, which could allow XSS attacks when a reader subsequently clicks that link. If the non-default `SafeList.preserveRelativeLinks` option is enabled, HTML including `javascript:` URLs that have been crafted with control characters will not be sanitized. If the site that this HTML is published on does not set a Content Security Policy, an XSS attack is then possible. This issue is patched in jsoup 1.15.3. Users should upgrade to this version. Additionally, as the unsanitized input may have been persisted, old content should be cleaned again using the updated version. To remediate this issue without immediately upgrading: - disable `SafeList.preserveRelativeLinks`, which will rewrite input URLs as absolute URLs - ensure an appropriate [Content Security Policy](https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP) is defined. (This should be used regardless of upgrading, as a defence-in-depth best practice.)'
     Severity: MEDIUM
@@ -26851,6 +26918,7 @@
       ID: ghsa
       Name: GitHub Security Advisory Go
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
+    Fingerprint: sha256:b041d712e5fac379b80fe474d83bdb49ffb97760a8cf7f92f2b5678f77bde0a1
     Title: 'golang: net/http, x/net/http2: unlimited number of CONTINUATION frames causes DoS'
     Description: An attacker may cause an HTTP/2 endpoint to read arbitrary amounts of header data by sending an excessive number of CONTINUATION frames. Maintaining HPACK state requires parsing and processing all HEADERS and CONTINUATION frames on a connection. When a request's headers exceed MaxHeaderBytes, no memory is allocated to store the excess headers, but they are still parsed. This permits an attacker to cause an HTTP/2 endpoint to read arbitrary amounts of header data, all associated with a request which is going to be rejected. These headers can include Huffman-encoded data which is significantly more expensive for the receiver to decode than for an attacker to send. The fix sets a limit on the amount of excess header frames we will process before closing a connection.
     Severity: MEDIUM
@@ -26934,6 +27002,7 @@
       ID: ghsa
       Name: GitHub Security Advisory Go
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
+    Fingerprint: sha256:ed2d3913e1d8a244d890eedc8f755aa06c88f6854cd16262f7c54e131f969cc3
     Title: 'golang.org/x/net/proxy: golang.org/x/net/http/httpproxy: HTTP Proxy bypass using IPv6 Zone IDs in golang.org/x/net'
     Description: Matching of hosts against proxy patterns can improperly treat an IPv6 zone ID as a hostname component. For example, when the NO_PROXY environment variable is set to "*.example.com", a request to "[::1%25.example.com]:80` will incorrectly match and not be proxied.
     Severity: MEDIUM
@@ -26987,6 +27056,7 @@
       ID: ghsa
       Name: GitHub Security Advisory Go
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
+    Fingerprint: sha256:ac9cf092b4befcaf01d650eae5c0a0de0ef2ad7eac31835e9ac57cfe3a77e540
     Title: 'golang.org/x/net/html: Incorrect Neutralization of Input During Web Page Generation in x/net in golang.org/x/net'
     Description: The tokenizer incorrectly interprets tags with unquoted attribute values that end with a solidus character (/) as self-closing. When directly using Tokenizer, this can result in such tags incorrectly being marked as self-closing, and when using the Parse functions, this can result in content following such tags as being placed in the wrong scope during DOM construction, but only when tags are in foreign content (e.g. <math>, <svg>, etc contexts).
     Severity: MEDIUM
@@ -27030,6 +27100,7 @@
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
+    Fingerprint: sha256:3346a2e6ebd9b91a1b1e39dfb348d9e6b50eb5d2c4e9f250b27cc4b70e2bf431
     Title: 'crypto/x509: Usage of ExtKeyUsageAny disables policy validation in crypto/x509'
     Description: Calling Verify with a VerifyOptions.KeyUsages that contains ExtKeyUsageAny unintentionally disabledpolicy validation. This only affected certificate chains which contain policy graphs, which are rather uncommon.
     Severity: HIGH
@@ -27073,6 +27144,7 @@
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
+    Fingerprint: sha256:c7d603a30ee3fb4f8049348dadb2d65a539d6ce4c616aeb93283de720103515f
     Title: 'database/sql: Postgres Scan Race Condition'
     Description: Cancelling a query (e.g. by cancelling the context passed to one of the query methods) during a call to the Scan method of the returned Rows can result in unexpected results if other queries are being made in parallel. This can result in a race condition that may overwrite the expected results with those of another query, causing the call to Scan to return either unexpected results from the other query or an error.
     Severity: HIGH
@@ -27125,6 +27197,7 @@
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
+    Fingerprint: sha256:03d014aeec1acec48b56570edc834cc962b6b5d5df810a77e1fcc9a46d9dbe7d
     Title: 'golang: archive/tar: Unbounded allocation when parsing GNU sparse map'
     Description: tar.Reader does not set a maximum size on the number of sparse region data blocks in GNU tar pax 1.0 sparse files. A maliciously-crafted archive containing a large number of sparse regions can cause a Reader to read an unbounded amount of data from the archive into memory. When reading from a compressed source, a small compressed input can result in large allocations.
     Severity: HIGH
@@ -27181,6 +27254,7 @@
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
+    Fingerprint: sha256:21e6640c7513dee6b91bccd028fc51de4580af67581aac9fd6a6afffcfb44b36
     Title: Despite HTTP headers having a default limit of 1MB, the number of cook ...
     Description: Despite HTTP headers having a default limit of 1MB, the number of cookies that can be parsed does not have a limit. By sending a lot of very small cookies such as "a=;", an attacker can make an HTTP server allocate a large amount of structs, causing large memory consumption.
     Severity: HIGH
@@ -27217,6 +27291,7 @@
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
+    Fingerprint: sha256:c0518082a235509f43d4c4255cd0bc9c61fd009b7c20b97ecc6991e8ebb26241
     Title: Due to the design of the name constraint checking algorithm, the proce ...
     Description: Due to the design of the name constraint checking algorithm, the processing time of some inputs scale non-linearly with respect to the size of the certificate. This affects programs which validate arbitrary certificate chains.
     Severity: HIGH
@@ -27253,6 +27328,7 @@
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
+    Fingerprint: sha256:4bb7254b0ee8d3bd34b65bbe6d6ed58f0478cb4e59b1ecaf328b8c7c59538cac
     Title: Inconsistent handling of O_CREATE|O_EXCL on Unix and Windows in os in syscall
     Description: os.OpenFile(path, os.O_CREATE|O_EXCL) behaved differently on Unix and Windows systems when the target path was a dangling symlink. On Unix systems, OpenFile with O_CREATE and O_EXCL flags never follows symlinks. On Windows, when the target path was a symlink to a nonexistent location, OpenFile would create a file in that location. OpenFile now always returns an error when the O_CREATE and O_EXCL flags are both set and the target path is a symlink.
     Severity: MEDIUM
@@ -27289,6 +27365,7 @@
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
+    Fingerprint: sha256:38b9906672ec831e1b1081a8a966ee47ae34661cbb72662b5003a2251da40d7b
     Title: 'net/http: Request smuggling due to acceptance of invalid chunked data in net/http'
     Description: The net/http package improperly accepts a bare LF as a line terminator in chunked data chunk-size lines. This can permit request smuggling if a net/http server is used in conjunction with a server that incorrectly accepts a bare LF as part of a chunk-ext.
     Severity: MEDIUM
@@ -27351,6 +27428,7 @@
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
+    Fingerprint: sha256:4ff9eef3a788d84d2da5a52b4681d27e0a9410bb87ed0e4454b60f072d860cf2
     Title: 'net/http: Sensitive headers not cleared on cross-origin redirect in net/http'
     Description: Proxy-Authorization and Proxy-Authenticate headers persisted on cross-origin redirects potentially leaking sensitive information.
     Severity: MEDIUM
@@ -27407,6 +27485,7 @@
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
+    Fingerprint: sha256:a2945f34341d0e4f7d19c3fa9b804eed8de3ba3faa2316ca638d42dafca3a871
     Title: 'os/exec: Unexpected paths returned from LookPath in os/exec'
     Description: If the PATH environment variable contains paths which are executables (rather than just directories), passing certain strings to LookPath ("", ".", and ".."), can result in the binaries listed in the PATH being unexpectedly returned.
     Severity: MEDIUM
@@ -27462,6 +27541,7 @@
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
+    Fingerprint: sha256:d71510d0a313bb0674fa38bb9de6eeaadff3ee983674dcfb95ed05b01418f061
     Title: 'net/url: Insufficient validation of bracketed IPv6 hostnames in net/url'
     Description: 'The Parse function permits values other than IPv6 addresses to be included in square brackets within the host component of a URL. RFC 3986 permits IPv6 addresses to be included within the host component, enclosed within square brackets. For example: "http://[::1]/". IPv4 addresses and hostnames must not appear within square brackets. Parse did not enforce this requirement.'
     Severity: MEDIUM
@@ -27504,6 +27584,7 @@
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
+    Fingerprint: sha256:eb65602180b843312e4eb6d7b989625914d722bed5408fd78e0f4c74dde971c6
     Title: 'encoding/asn1: Parsing DER payload can cause memory exhaustion in encoding/asn1'
     Description: Parsing a maliciously crafted DER payload could allocate large amounts of memory, causing memory exhaustion.
     Severity: MEDIUM
@@ -27547,6 +27628,7 @@
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
+    Fingerprint: sha256:63c20aacf833ca064631f35e5acc49538fab48231b14a61d351171ab7cb4b67b
     Title: 'crypto/x509: golang: Panic when validating certificates with DSA public keys in crypto/x509'
     Description: Validating certificate chains which contain DSA public keys can cause programs to panic, due to a interface cast that assumes they implement the Equal method. This affects programs which validate arbitrary certificate chains.
     Severity: MEDIUM
@@ -27590,6 +27672,7 @@
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
+    Fingerprint: sha256:fe3a6b7588fcae652d0768ead2f0d06f4dd0e75a633aa23b4651f7af3506e256
     Title: 'crypto/tls: go crypto/tls ALPN negotiation error contains attacker controlled information'
     Description: When Conn.Handshake fails during ALPN negotiation the error contains attacker controlled information (the ALPN protocols sent by the client) which is not escaped.
     Severity: MEDIUM
@@ -27632,6 +27715,7 @@
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
+    Fingerprint: sha256:89ad821881248f5ef86bebf1e0e9211a5bc85db1d40a7a90f1cd8c9ada41dc08
     Title: 'encoding/pem: Quadratic complexity when parsing some invalid inputs in encoding/pem'
     Description: The processing time for parsing some invalid inputs scales non-linearly with respect to the size of the input. This affects programs which parse untrusted PEM inputs.
     Severity: MEDIUM
@@ -27675,6 +27759,7 @@
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
+    Fingerprint: sha256:772cb989ad99bc58ca36ddfc5154f72338fd9d361053c1c3b5334d00a4794a31
     Title: 'net/textproto: Excessive CPU consumption in Reader.ReadResponse in net/textproto'
     Description: The Reader.ReadResponse function constructs a response string through repeated string concatenation of lines. When the number of lines in a response is large, this can cause excessive CPU consumption.
     Severity: MEDIUM
@@ -27717,6 +27802,7 @@
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
+    Fingerprint: sha256:af5813f1ace54e08592d1b03a886916385a636a11df409dc2f6cf3ec6d2d73f6
     Title: 'net/mail: Excessive CPU consumption in ParseAddress in net/mail'
     Description: The ParseAddress function constructeds domain-literal address components through repeated string concatenation. When parsing large domain-literal components, this can cause excessive CPU consumption.
     Severity: MEDIUM
@@ -27742,6 +27828,60 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-61725
     PublishedDate: '2025-10-29T23:16:20.113Z'
     LastModifiedDate: '2025-11-04T22:16:36.693Z'
+  - VulnerabilityID: CVE-2025-61727
+    PkgID: stdlib@v1.24.1
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@v1.24.1
+      UID: 2add7c57bc4db0d1
+    InstalledVersion: v1.24.1
+    FixedVersion: 1.24.11, 1.25.5
+    Status: fixed
+    Layer:
+      Digest: sha256:7c946d7ccb909c06261c5fef7abef387f5fc8a687dc1c6361f16d4c297ffcfff
+      DiffID: sha256:3a99397e2fb3de150f8dd3f9530b5f102210f243f10428ea9de7b65cde76dcc1
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-61727
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Fingerprint: sha256:2f6a56d7dcbf7701aecfd11c13a1ad9f18a8517ade976bb827cc73971ae04af7
+    Title: Improper application of excluded DNS name constraints when verifying wildcard names in crypto/x509
+    Description: An excluded subdomain constraint in a certificate chain does not restrict the usage of wildcard SANs in the leaf certificate. For example a constraint that excludes the subdomain test.example.com does not prevent a leaf certificate from claiming the SAN *.example.com.
+    Severity: UNKNOWN
+    References:
+    - https://go.dev/cl/723900
+    - https://go.dev/issue/76442
+    - https://groups.google.com/g/golang-announce/c/8FJoBkPddm4
+    - https://pkg.go.dev/vuln/GO-2025-4175
+  - VulnerabilityID: CVE-2025-61729
+    PkgID: stdlib@v1.24.1
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@v1.24.1
+      UID: 2add7c57bc4db0d1
+    InstalledVersion: v1.24.1
+    FixedVersion: 1.24.11, 1.25.5
+    Status: fixed
+    Layer:
+      Digest: sha256:7c946d7ccb909c06261c5fef7abef387f5fc8a687dc1c6361f16d4c297ffcfff
+      DiffID: sha256:3a99397e2fb3de150f8dd3f9530b5f102210f243f10428ea9de7b65cde76dcc1
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-61729
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Fingerprint: sha256:14de3419179f9eaca64eefdc03ef0351592a8d2b9ad400d806eab345844c88b7
+    Title: Within HostnameError.Error(), when constructing an error string, there ...
+    Description: Within HostnameError.Error(), when constructing an error string, there is no limit to the number of hosts that will be printed out. Furthermore, the error string is constructed by repeated string concatenation, leading to quadratic runtime. Therefore, a certificate provided by a malicious actor can result in excessive resource consumption.
+    Severity: UNKNOWN
+    References:
+    - https://go.dev/cl/725920
+    - https://go.dev/issue/76445
+    - https://groups.google.com/g/golang-announce/c/8FJoBkPddm4
+    - https://pkg.go.dev/vuln/GO-2025-4155
+    PublishedDate: '2025-12-02T19:15:51.447Z'
+    LastModifiedDate: '2025-12-02T22:16:08.527Z'
 - Target: tmp/tmp.U0Mn9Osi90/krew-linux_amd64
   Class: lang-pkgs
   Type: gobinary
@@ -28037,6 +28177,7 @@
       ID: ghsa
       Name: GitHub Security Advisory Go
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
+    Fingerprint: sha256:0881b7bb174b5444f92ab37bac2b93d2f0eee15baa372500f4355c7f7a1cda24
     Title: 'golang: net/http, x/net/http2: unlimited number of CONTINUATION frames causes DoS'
     Description: An attacker may cause an HTTP/2 endpoint to read arbitrary amounts of header data by sending an excessive number of CONTINUATION frames. Maintaining HPACK state requires parsing and processing all HEADERS and CONTINUATION frames on a connection. When a request's headers exceed MaxHeaderBytes, no memory is allocated to store the excess headers, but they are still parsed. This permits an attacker to cause an HTTP/2 endpoint to read arbitrary amounts of header data, all associated with a request which is going to be rejected. These headers can include Huffman-encoded data which is significantly more expensive for the receiver to decode than for an attacker to send. The fix sets a limit on the amount of excess header frames we will process before closing a connection.
     Severity: MEDIUM
@@ -28120,6 +28261,7 @@
       ID: ghsa
       Name: GitHub Security Advisory Go
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
+    Fingerprint: sha256:4af74bcd919fc6cd8cbf61d0739e1f73f04ac0499b36481c152e10f218801719
     Title: 'golang.org/x/net/proxy: golang.org/x/net/http/httpproxy: HTTP Proxy bypass using IPv6 Zone IDs in golang.org/x/net'
     Description: Matching of hosts against proxy patterns can improperly treat an IPv6 zone ID as a hostname component. For example, when the NO_PROXY environment variable is set to "*.example.com", a request to "[::1%25.example.com]:80` will incorrectly match and not be proxied.
     Severity: MEDIUM
@@ -28173,6 +28315,7 @@
       ID: ghsa
       Name: GitHub Security Advisory Go
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
+    Fingerprint: sha256:23b3f341f1915384e3539a178701c6a7706ee0997388222e7f1d19da4a33577c
     Title: 'golang.org/x/net/html: Incorrect Neutralization of Input During Web Page Generation in x/net in golang.org/x/net'
     Description: The tokenizer incorrectly interprets tags with unquoted attribute values that end with a solidus character (/) as self-closing. When directly using Tokenizer, this can result in such tags incorrectly being marked as self-closing, and when using the Parse functions, this can result in content following such tags as being placed in the wrong scope during DOM construction, but only when tags are in foreign content (e.g. <math>, <svg>, etc contexts).
     Severity: MEDIUM
@@ -28216,6 +28359,7 @@
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
+    Fingerprint: sha256:9ca47adf8b8ea98f2fad61bc8a30f7229153c7fd2d35929a07fb50145e3eade4
     Title: 'crypto/x509: Usage of ExtKeyUsageAny disables policy validation in crypto/x509'
     Description: Calling Verify with a VerifyOptions.KeyUsages that contains ExtKeyUsageAny unintentionally disabledpolicy validation. This only affected certificate chains which contain policy graphs, which are rather uncommon.
     Severity: HIGH
@@ -28259,6 +28403,7 @@
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
+    Fingerprint: sha256:2ac0ae78b4cb1d429230ac82362b9b3940d1ad42c1d491a393fa8b73832a0683
     Title: 'database/sql: Postgres Scan Race Condition'
     Description: Cancelling a query (e.g. by cancelling the context passed to one of the query methods) during a call to the Scan method of the returned Rows can result in unexpected results if other queries are being made in parallel. This can result in a race condition that may overwrite the expected results with those of another query, causing the call to Scan to return either unexpected results from the other query or an error.
     Severity: HIGH
@@ -28311,6 +28456,7 @@
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
+    Fingerprint: sha256:7d00ffa17878d5aa68fa10746974c637f09cf75b0c025d6c231ee0a7838da12c
     Title: 'golang: archive/tar: Unbounded allocation when parsing GNU sparse map'
     Description: tar.Reader does not set a maximum size on the number of sparse region data blocks in GNU tar pax 1.0 sparse files. A maliciously-crafted archive containing a large number of sparse regions can cause a Reader to read an unbounded amount of data from the archive into memory. When reading from a compressed source, a small compressed input can result in large allocations.
     Severity: HIGH
@@ -28367,6 +28513,7 @@
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
+    Fingerprint: sha256:89cd820841abdbb7873779468832102bb845a71a1a27d36d2c0618471869915a
     Title: Despite HTTP headers having a default limit of 1MB, the number of cook ...
     Description: Despite HTTP headers having a default limit of 1MB, the number of cookies that can be parsed does not have a limit. By sending a lot of very small cookies such as "a=;", an attacker can make an HTTP server allocate a large amount of structs, causing large memory consumption.
     Severity: HIGH
@@ -28403,6 +28550,7 @@
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
+    Fingerprint: sha256:cec7da0881ba952c7cb1eb5e8ed171df2f0b1d477693fc50c3a30a6f9fae1534
     Title: Due to the design of the name constraint checking algorithm, the proce ...
     Description: Due to the design of the name constraint checking algorithm, the processing time of some inputs scale non-linearly with respect to the size of the certificate. This affects programs which validate arbitrary certificate chains.
     Severity: HIGH
@@ -28439,6 +28587,7 @@
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
+    Fingerprint: sha256:8bd7ee75c34e113adfa8d72e363d84a8873933ff692b5e23380a3907c1329452
     Title: Inconsistent handling of O_CREATE|O_EXCL on Unix and Windows in os in syscall
     Description: os.OpenFile(path, os.O_CREATE|O_EXCL) behaved differently on Unix and Windows systems when the target path was a dangling symlink. On Unix systems, OpenFile with O_CREATE and O_EXCL flags never follows symlinks. On Windows, when the target path was a symlink to a nonexistent location, OpenFile would create a file in that location. OpenFile now always returns an error when the O_CREATE and O_EXCL flags are both set and the target path is a symlink.
     Severity: MEDIUM
@@ -28475,6 +28624,7 @@
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
+    Fingerprint: sha256:05bc76ed7866325ea855a940c9f162c117c0481e852f8b48a87056df615c6cd3
     Title: 'net/http: Request smuggling due to acceptance of invalid chunked data in net/http'
     Description: The net/http package improperly accepts a bare LF as a line terminator in chunked data chunk-size lines. This can permit request smuggling if a net/http server is used in conjunction with a server that incorrectly accepts a bare LF as part of a chunk-ext.
     Severity: MEDIUM
@@ -28537,6 +28687,7 @@
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
+    Fingerprint: sha256:63530f72556a0ed952a5d5907d58a4f30f1fc8adc456aac388a7c311662ade2e
     Title: 'net/http: Sensitive headers not cleared on cross-origin redirect in net/http'
     Description: Proxy-Authorization and Proxy-Authenticate headers persisted on cross-origin redirects potentially leaking sensitive information.
     Severity: MEDIUM
@@ -28593,6 +28744,7 @@
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
+    Fingerprint: sha256:9368ea517da9d66c6d55a0e5978eeef49e762f4004f8f3cb0d49948a7785c5eb
     Title: 'os/exec: Unexpected paths returned from LookPath in os/exec'
     Description: If the PATH environment variable contains paths which are executables (rather than just directories), passing certain strings to LookPath ("", ".", and ".."), can result in the binaries listed in the PATH being unexpectedly returned.
     Severity: MEDIUM
@@ -28648,6 +28800,7 @@
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
+    Fingerprint: sha256:f59b8509b12abb8c9b6ecb8a18994479d4171fafe5ce20dac415a8f41bfe977a
     Title: 'net/url: Insufficient validation of bracketed IPv6 hostnames in net/url'
     Description: 'The Parse function permits values other than IPv6 addresses to be included in square brackets within the host component of a URL. RFC 3986 permits IPv6 addresses to be included within the host component, enclosed within square brackets. For example: "http://[::1]/". IPv4 addresses and hostnames must not appear within square brackets. Parse did not enforce this requirement.'
     Severity: MEDIUM
@@ -28690,6 +28843,7 @@
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
+    Fingerprint: sha256:4a6f7c6e7f112b3428991da0142066aa8498bae35586472e83d5efd62cdbca4a
     Title: 'encoding/asn1: Parsing DER payload can cause memory exhaustion in encoding/asn1'
     Description: Parsing a maliciously crafted DER payload could allocate large amounts of memory, causing memory exhaustion.
     Severity: MEDIUM
@@ -28733,6 +28887,7 @@
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
+    Fingerprint: sha256:bf8fdb067def5d6c97203698b94b58b97d0e8ccc41082611d186e5433166d86a
     Title: 'crypto/x509: golang: Panic when validating certificates with DSA public keys in crypto/x509'
     Description: Validating certificate chains which contain DSA public keys can cause programs to panic, due to a interface cast that assumes they implement the Equal method. This affects programs which validate arbitrary certificate chains.
     Severity: MEDIUM
@@ -28776,6 +28931,7 @@
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
+    Fingerprint: sha256:527008a651d7b4935efb613f6252bed30b82d34759dd1bcde6c6ec1b8bcdd995
     Title: 'crypto/tls: go crypto/tls ALPN negotiation error contains attacker controlled information'
     Description: When Conn.Handshake fails during ALPN negotiation the error contains attacker controlled information (the ALPN protocols sent by the client) which is not escaped.
     Severity: MEDIUM
@@ -28818,6 +28974,7 @@
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
+    Fingerprint: sha256:8728d8bb66e7b73552e0eede892d5c232e5bce5b0b13ae4fffe16cd0f16776b3
     Title: 'encoding/pem: Quadratic complexity when parsing some invalid inputs in encoding/pem'
     Description: The processing time for parsing some invalid inputs scales non-linearly with respect to the size of the input. This affects programs which parse untrusted PEM inputs.
     Severity: MEDIUM
@@ -28861,6 +29018,7 @@
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
+    Fingerprint: sha256:ae499b7dc6afd3937b8c6c048245f6d4d4b0e428f8408cefdf4c50535cd5db6a
     Title: 'net/textproto: Excessive CPU consumption in Reader.ReadResponse in net/textproto'
     Description: The Reader.ReadResponse function constructs a response string through repeated string concatenation of lines. When the number of lines in a response is large, this can cause excessive CPU consumption.
     Severity: MEDIUM
@@ -28903,6 +29061,7 @@
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
+    Fingerprint: sha256:0d39dddf44f875f6a09652794848c305cfc3c5fe9557225d99f97a7c13de0d98
     Title: 'net/mail: Excessive CPU consumption in ParseAddress in net/mail'
     Description: The ParseAddress function constructeds domain-literal address components through repeated string concatenation. When parsing large domain-literal components, this can cause excessive CPU consumption.
     Severity: MEDIUM
@@ -28928,6 +29087,60 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-61725
     PublishedDate: '2025-10-29T23:16:20.113Z'
     LastModifiedDate: '2025-11-04T22:16:36.693Z'
+  - VulnerabilityID: CVE-2025-61727
+    PkgID: stdlib@v1.24.1
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@v1.24.1
+      UID: ad79af0c737a03f
+    InstalledVersion: v1.24.1
+    FixedVersion: 1.24.11, 1.25.5
+    Status: fixed
+    Layer:
+      Digest: sha256:7c946d7ccb909c06261c5fef7abef387f5fc8a687dc1c6361f16d4c297ffcfff
+      DiffID: sha256:3a99397e2fb3de150f8dd3f9530b5f102210f243f10428ea9de7b65cde76dcc1
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-61727
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Fingerprint: sha256:511c46dde5d456e7922a19bc84a3d8998ba1fe7d179eae52ebc0f855383c8cd0
+    Title: Improper application of excluded DNS name constraints when verifying wildcard names in crypto/x509
+    Description: An excluded subdomain constraint in a certificate chain does not restrict the usage of wildcard SANs in the leaf certificate. For example a constraint that excludes the subdomain test.example.com does not prevent a leaf certificate from claiming the SAN *.example.com.
+    Severity: UNKNOWN
+    References:
+    - https://go.dev/cl/723900
+    - https://go.dev/issue/76442
+    - https://groups.google.com/g/golang-announce/c/8FJoBkPddm4
+    - https://pkg.go.dev/vuln/GO-2025-4175
+  - VulnerabilityID: CVE-2025-61729
+    PkgID: stdlib@v1.24.1
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@v1.24.1
+      UID: ad79af0c737a03f
+    InstalledVersion: v1.24.1
+    FixedVersion: 1.24.11, 1.25.5
+    Status: fixed
+    Layer:
+      Digest: sha256:7c946d7ccb909c06261c5fef7abef387f5fc8a687dc1c6361f16d4c297ffcfff
+      DiffID: sha256:3a99397e2fb3de150f8dd3f9530b5f102210f243f10428ea9de7b65cde76dcc1
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-61729
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Fingerprint: sha256:7707f24eee2a7649f97bcc9ceb369e9988552a2e9f1bd5b8842054e72742f0eb
+    Title: Within HostnameError.Error(), when constructing an error string, there ...
+    Description: Within HostnameError.Error(), when constructing an error string, there is no limit to the number of hosts that will be printed out. Furthermore, the error string is constructed by repeated string concatenation, leading to quadratic runtime. Therefore, a certificate provided by a malicious actor can result in excessive resource consumption.
+    Severity: UNKNOWN
+    References:
+    - https://go.dev/cl/725920
+    - https://go.dev/issue/76445
+    - https://groups.google.com/g/golang-announce/c/8FJoBkPddm4
+    - https://pkg.go.dev/vuln/GO-2025-4155
+    PublishedDate: '2025-12-02T19:15:51.447Z'
+    LastModifiedDate: '2025-12-02T22:16:08.527Z'
 - Target: usr/bin/docker-compose
   Class: lang-pkgs
   Type: gobinary
@@ -30762,6 +30975,7 @@
       ID: ghsa
       Name: GitHub Security Advisory Go
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
+    Fingerprint: sha256:7644b9e9939cc58e709db43b09139240b20a3f4e135a31bceaaf82c141b7129f
     Title: containerd is an open-source container runtime. Versions 0.1.0 through ...
     Description: containerd is an open-source container runtime. Versions 0.1.0 through 1.7.28, 2.0.0-beta.0 through 2.0.6, 2.1.0-beta.0 through 2.1.4 and 2.2.0-beta.0 through 2.2.0-rc.1 have an overly broad default permission vulnerability. Directory paths `/var/lib/containerd`, `/run/containerd/io.containerd.grpc.v1.cri` and `/run/containerd/io.containerd.sandbox.controller.v1.shim` were all created with incorrect permissions. This issue is fixed in versions 1.7.29, 2.0.7, 2.1.5 and 2.2.0. Workarounds include updating system administrator permissions so the host can manually chmod the directories to not have group or world accessible permissions, or to run containerd in rootless mode.
     Severity: HIGH
@@ -30802,6 +31016,7 @@
       ID: ghsa
       Name: GitHub Security Advisory Go
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
+    Fingerprint: sha256:f042eb73d632031fc14b71c89c980ec4004111e42dfd9cc8eb9d0f6667c07a98
     Title: containerd is an open-source container runtime. Versions 1.7.28 and be ...
     Description: containerd is an open-source container runtime. Versions 1.7.28 and below, 2.0.0-beta.0 through 2.0.6, 2.1.0-beta.0 through 2.1.4, and 2.2.0-beta.0 through 2.2.0-rc.1 contain a bug in the CRI Attach implementation where a user can exhaust memory on the host due to goroutine leaks. This issue is fixed in versions 1.7.29, 2.0.7, 2.1.5 and 2.2.0. To workaround this vulnerability, users can set up an admission controller to control accesses to pods/attach resources.
     Severity: MEDIUM
@@ -30837,6 +31052,7 @@
       ID: ghsa
       Name: GitHub Security Advisory Go
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
+    Fingerprint: sha256:67aeacae9b96ba1227923fc2cdb1116f2b2fa108aee018bf157c61b345e245eb
     Title: SSH Agent servers do not validate the size of messages when processing ...
     Description: SSH Agent servers do not validate the size of messages when processing new identity requests, which may cause the program to panic if the message is malformed due to an out of bounds read.
     Severity: MEDIUM
@@ -30875,6 +31091,7 @@
       ID: ghsa
       Name: GitHub Security Advisory Go
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
+    Fingerprint: sha256:eb937d9d8c50198afc75e7eb47ea7a669312a8520ba7599e84040a2c11fd30e8
     Title: SSH servers parsing GSSAPI authentication requests do not validate the ...
     Description: SSH servers parsing GSSAPI authentication requests do not validate the number of mechanisms specified in the request, allowing an attacker to cause unbounded memory consumption.
     Severity: MEDIUM
@@ -30894,6 +31111,60 @@
     - https://pkg.go.dev/vuln/GO-2025-4134
     PublishedDate: '2025-11-19T21:15:50.85Z'
     LastModifiedDate: '2025-11-21T15:13:59.083Z'
+  - VulnerabilityID: CVE-2025-61727
+    PkgID: stdlib@v1.24.9
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@v1.24.9
+      UID: 62b35968775d1e83
+    InstalledVersion: v1.24.9
+    FixedVersion: 1.24.11, 1.25.5
+    Status: fixed
+    Layer:
+      Digest: sha256:7c946d7ccb909c06261c5fef7abef387f5fc8a687dc1c6361f16d4c297ffcfff
+      DiffID: sha256:3a99397e2fb3de150f8dd3f9530b5f102210f243f10428ea9de7b65cde76dcc1
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-61727
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Fingerprint: sha256:00a159f8a72685cf29cc9f24cc57f9a9e52d4b046fef68400232e2a62e42ef8a
+    Title: Improper application of excluded DNS name constraints when verifying wildcard names in crypto/x509
+    Description: An excluded subdomain constraint in a certificate chain does not restrict the usage of wildcard SANs in the leaf certificate. For example a constraint that excludes the subdomain test.example.com does not prevent a leaf certificate from claiming the SAN *.example.com.
+    Severity: UNKNOWN
+    References:
+    - https://go.dev/cl/723900
+    - https://go.dev/issue/76442
+    - https://groups.google.com/g/golang-announce/c/8FJoBkPddm4
+    - https://pkg.go.dev/vuln/GO-2025-4175
+  - VulnerabilityID: CVE-2025-61729
+    PkgID: stdlib@v1.24.9
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@v1.24.9
+      UID: 62b35968775d1e83
+    InstalledVersion: v1.24.9
+    FixedVersion: 1.24.11, 1.25.5
+    Status: fixed
+    Layer:
+      Digest: sha256:7c946d7ccb909c06261c5fef7abef387f5fc8a687dc1c6361f16d4c297ffcfff
+      DiffID: sha256:3a99397e2fb3de150f8dd3f9530b5f102210f243f10428ea9de7b65cde76dcc1
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-61729
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Fingerprint: sha256:5037374d98d02c0b01a0680b7bcdaa7ffe9c28b8ac2f45e4ab2762af121698bb
+    Title: Within HostnameError.Error(), when constructing an error string, there ...
+    Description: Within HostnameError.Error(), when constructing an error string, there is no limit to the number of hosts that will be printed out. Furthermore, the error string is constructed by repeated string concatenation, leading to quadratic runtime. Therefore, a certificate provided by a malicious actor can result in excessive resource consumption.
+    Severity: UNKNOWN
+    References:
+    - https://go.dev/cl/725920
+    - https://go.dev/issue/76445
+    - https://groups.google.com/g/golang-announce/c/8FJoBkPddm4
+    - https://pkg.go.dev/vuln/GO-2025-4155
+    PublishedDate: '2025-12-02T19:15:51.447Z'
+    LastModifiedDate: '2025-12-02T22:16:08.527Z'
 - Target: usr/bin/helm
   Class: lang-pkgs
   Type: gobinary
@@ -32059,6 +32330,7 @@
       ID: ghsa
       Name: GitHub Security Advisory Go
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
+    Fingerprint: sha256:54526df31b4eb30d889ce0993adfcc42476fdcfbfa959f35ef7939d3818ee105
     Title: SSH Agent servers do not validate the size of messages when processing ...
     Description: SSH Agent servers do not validate the size of messages when processing new identity requests, which may cause the program to panic if the message is malformed due to an out of bounds read.
     Severity: MEDIUM
@@ -32097,6 +32369,7 @@
       ID: ghsa
       Name: GitHub Security Advisory Go
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
+    Fingerprint: sha256:cbf1e5da9930a9b1cabcbafe3745acaa7878564be3583561ec8f6ebdc13253b4
     Title: SSH servers parsing GSSAPI authentication requests do not validate the ...
     Description: SSH servers parsing GSSAPI authentication requests do not validate the number of mechanisms specified in the request, allowing an attacker to cause unbounded memory consumption.
     Severity: MEDIUM
@@ -32116,6 +32389,60 @@
     - https://pkg.go.dev/vuln/GO-2025-4134
     PublishedDate: '2025-11-19T21:15:50.85Z'
     LastModifiedDate: '2025-11-21T15:13:59.083Z'
+  - VulnerabilityID: CVE-2025-61727
+    PkgID: stdlib@v1.25.4
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@v1.25.4
+      UID: e81891737e2de72b
+    InstalledVersion: v1.25.4
+    FixedVersion: 1.24.11, 1.25.5
+    Status: fixed
+    Layer:
+      Digest: sha256:7c946d7ccb909c06261c5fef7abef387f5fc8a687dc1c6361f16d4c297ffcfff
+      DiffID: sha256:3a99397e2fb3de150f8dd3f9530b5f102210f243f10428ea9de7b65cde76dcc1
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-61727
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Fingerprint: sha256:df58c15078fdb8dedcaf9e1cf4605851a801cdc3854beb5d07d2fe2795e4f1d6
+    Title: Improper application of excluded DNS name constraints when verifying wildcard names in crypto/x509
+    Description: An excluded subdomain constraint in a certificate chain does not restrict the usage of wildcard SANs in the leaf certificate. For example a constraint that excludes the subdomain test.example.com does not prevent a leaf certificate from claiming the SAN *.example.com.
+    Severity: UNKNOWN
+    References:
+    - https://go.dev/cl/723900
+    - https://go.dev/issue/76442
+    - https://groups.google.com/g/golang-announce/c/8FJoBkPddm4
+    - https://pkg.go.dev/vuln/GO-2025-4175
+  - VulnerabilityID: CVE-2025-61729
+    PkgID: stdlib@v1.25.4
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@v1.25.4
+      UID: e81891737e2de72b
+    InstalledVersion: v1.25.4
+    FixedVersion: 1.24.11, 1.25.5
+    Status: fixed
+    Layer:
+      Digest: sha256:7c946d7ccb909c06261c5fef7abef387f5fc8a687dc1c6361f16d4c297ffcfff
+      DiffID: sha256:3a99397e2fb3de150f8dd3f9530b5f102210f243f10428ea9de7b65cde76dcc1
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-61729
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Fingerprint: sha256:ecdd29d58a62d4cafec6f3c924ced592dc2e942bdf64f885a4e81c77255b0331
+    Title: Within HostnameError.Error(), when constructing an error string, there ...
+    Description: Within HostnameError.Error(), when constructing an error string, there is no limit to the number of hosts that will be printed out. Furthermore, the error string is constructed by repeated string concatenation, leading to quadratic runtime. Therefore, a certificate provided by a malicious actor can result in excessive resource consumption.
+    Severity: UNKNOWN
+    References:
+    - https://go.dev/cl/725920
+    - https://go.dev/issue/76445
+    - https://groups.google.com/g/golang-announce/c/8FJoBkPddm4
+    - https://pkg.go.dev/vuln/GO-2025-4155
+    PublishedDate: '2025-12-02T19:15:51.447Z'
+    LastModifiedDate: '2025-12-02T22:16:08.527Z'
 - Target: usr/bin/kubectl
   Class: lang-pkgs
   Type: gobinary
@@ -32954,6 +33281,61 @@
     Layer:
       Digest: sha256:7c946d7ccb909c06261c5fef7abef387f5fc8a687dc1c6361f16d4c297ffcfff
       DiffID: sha256:3a99397e2fb3de150f8dd3f9530b5f102210f243f10428ea9de7b65cde76dcc1
+  Vulnerabilities:
+  - VulnerabilityID: CVE-2025-61727
+    PkgID: stdlib@v1.24.9
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@v1.24.9
+      UID: e796ca6841271e1f
+    InstalledVersion: v1.24.9
+    FixedVersion: 1.24.11, 1.25.5
+    Status: fixed
+    Layer:
+      Digest: sha256:7c946d7ccb909c06261c5fef7abef387f5fc8a687dc1c6361f16d4c297ffcfff
+      DiffID: sha256:3a99397e2fb3de150f8dd3f9530b5f102210f243f10428ea9de7b65cde76dcc1
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-61727
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Fingerprint: sha256:6034cad4035978674e74dfa3faa4773e7a1aaca6c55fe05c2b3fd7a1ae5f1334
+    Title: Improper application of excluded DNS name constraints when verifying wildcard names in crypto/x509
+    Description: An excluded subdomain constraint in a certificate chain does not restrict the usage of wildcard SANs in the leaf certificate. For example a constraint that excludes the subdomain test.example.com does not prevent a leaf certificate from claiming the SAN *.example.com.
+    Severity: UNKNOWN
+    References:
+    - https://go.dev/cl/723900
+    - https://go.dev/issue/76442
+    - https://groups.google.com/g/golang-announce/c/8FJoBkPddm4
+    - https://pkg.go.dev/vuln/GO-2025-4175
+  - VulnerabilityID: CVE-2025-61729
+    PkgID: stdlib@v1.24.9
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@v1.24.9
+      UID: e796ca6841271e1f
+    InstalledVersion: v1.24.9
+    FixedVersion: 1.24.11, 1.25.5
+    Status: fixed
+    Layer:
+      Digest: sha256:7c946d7ccb909c06261c5fef7abef387f5fc8a687dc1c6361f16d4c297ffcfff
+      DiffID: sha256:3a99397e2fb3de150f8dd3f9530b5f102210f243f10428ea9de7b65cde76dcc1
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-61729
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Fingerprint: sha256:97dc8c9c88dc1acbfdef8f2accd4f929b72ae647bb86297f54b4ba683f704f28
+    Title: Within HostnameError.Error(), when constructing an error string, there ...
+    Description: Within HostnameError.Error(), when constructing an error string, there is no limit to the number of hosts that will be printed out. Furthermore, the error string is constructed by repeated string concatenation, leading to quadratic runtime. Therefore, a certificate provided by a malicious actor can result in excessive resource consumption.
+    Severity: UNKNOWN
+    References:
+    - https://go.dev/cl/725920
+    - https://go.dev/issue/76445
+    - https://groups.google.com/g/golang-announce/c/8FJoBkPddm4
+    - https://pkg.go.dev/vuln/GO-2025-4155
+    PublishedDate: '2025-12-02T19:15:51.447Z'
+    LastModifiedDate: '2025-12-02T22:16:08.527Z'
 - Target: usr/bin/mc
   Class: lang-pkgs
   Type: gobinary
@@ -33979,6 +34361,7 @@
       ID: ghsa
       Name: GitHub Security Advisory Go
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
+    Fingerprint: sha256:256da64f5f91faf66274b563b3cf3fde6ad351ad87e1ad2674b196b53efda054
     Title: SSH Agent servers do not validate the size of messages when processing ...
     Description: SSH Agent servers do not validate the size of messages when processing new identity requests, which may cause the program to panic if the message is malformed due to an out of bounds read.
     Severity: MEDIUM
@@ -34017,6 +34400,7 @@
       ID: ghsa
       Name: GitHub Security Advisory Go
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
+    Fingerprint: sha256:316176dbdfdd82b665fb6356b2d45cf0dde582bd936d835cd22ba95eb3eca0e8
     Title: SSH servers parsing GSSAPI authentication requests do not validate the ...
     Description: SSH servers parsing GSSAPI authentication requests do not validate the number of mechanisms specified in the request, allowing an attacker to cause unbounded memory consumption.
     Severity: MEDIUM
@@ -34053,6 +34437,7 @@
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
+    Fingerprint: sha256:d5beb635801a2639b88f492c6ff9a8fad2b5fd278ce73d57f97922cb41d572ea
     Title: 'golang: archive/tar: Unbounded allocation when parsing GNU sparse map'
     Description: tar.Reader does not set a maximum size on the number of sparse region data blocks in GNU tar pax 1.0 sparse files. A maliciously-crafted archive containing a large number of sparse regions can cause a Reader to read an unbounded amount of data from the archive into memory. When reading from a compressed source, a small compressed input can result in large allocations.
     Severity: HIGH
@@ -34109,6 +34494,7 @@
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
+    Fingerprint: sha256:ae9ca24d1c5bb75d47e858e8e88cf405e84719d5eec33c2872ba9fac13a3a08c
     Title: Despite HTTP headers having a default limit of 1MB, the number of cook ...
     Description: Despite HTTP headers having a default limit of 1MB, the number of cookies that can be parsed does not have a limit. By sending a lot of very small cookies such as "a=;", an attacker can make an HTTP server allocate a large amount of structs, causing large memory consumption.
     Severity: HIGH
@@ -34145,6 +34531,7 @@
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
+    Fingerprint: sha256:10bf1340cf04d18eb9462f6b584bbc7f2fe1ba532fe80905a32a536137b22a64
     Title: Due to the design of the name constraint checking algorithm, the proce ...
     Description: Due to the design of the name constraint checking algorithm, the processing time of some inputs scale non-linearly with respect to the size of the certificate. This affects programs which validate arbitrary certificate chains.
     Severity: HIGH
@@ -34181,6 +34568,7 @@
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
+    Fingerprint: sha256:e985e2277a2c9e7aabb35f528b1c896dcb45fcd04d90b2acb696450f53cac801
     Title: 'net/url: Insufficient validation of bracketed IPv6 hostnames in net/url'
     Description: 'The Parse function permits values other than IPv6 addresses to be included in square brackets within the host component of a URL. RFC 3986 permits IPv6 addresses to be included within the host component, enclosed within square brackets. For example: "http://[::1]/". IPv4 addresses and hostnames must not appear within square brackets. Parse did not enforce this requirement.'
     Severity: MEDIUM
@@ -34223,6 +34611,7 @@
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
+    Fingerprint: sha256:14dd841ee0ca845fec68f075a3766399c51a51651e1dd68e3187c73d8eee7929
     Title: 'encoding/asn1: Parsing DER payload can cause memory exhaustion in encoding/asn1'
     Description: Parsing a maliciously crafted DER payload could allocate large amounts of memory, causing memory exhaustion.
     Severity: MEDIUM
@@ -34266,6 +34655,7 @@
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
+    Fingerprint: sha256:de19b3c407feb424ec3ea90f618cf3f80d7af39ff6897471dd8f40a46fb31636
     Title: 'crypto/x509: golang: Panic when validating certificates with DSA public keys in crypto/x509'
     Description: Validating certificate chains which contain DSA public keys can cause programs to panic, due to a interface cast that assumes they implement the Equal method. This affects programs which validate arbitrary certificate chains.
     Severity: MEDIUM
@@ -34309,6 +34699,7 @@
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
+    Fingerprint: sha256:87dc04fd477341ccf572ba2dbb2e640c594787024e328c29f2e88b6e72d2e5c2
     Title: 'crypto/tls: go crypto/tls ALPN negotiation error contains attacker controlled information'
     Description: When Conn.Handshake fails during ALPN negotiation the error contains attacker controlled information (the ALPN protocols sent by the client) which is not escaped.
     Severity: MEDIUM
@@ -34351,6 +34742,7 @@
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
+    Fingerprint: sha256:02403fe742d77eabcef4d2536eb57ceda1bd64ca284671b21e37be1f2004fec8
     Title: 'encoding/pem: Quadratic complexity when parsing some invalid inputs in encoding/pem'
     Description: The processing time for parsing some invalid inputs scales non-linearly with respect to the size of the input. This affects programs which parse untrusted PEM inputs.
     Severity: MEDIUM
@@ -34394,6 +34786,7 @@
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
+    Fingerprint: sha256:7878585b72dbf61e78107db4e0920de7e891328115602b74be8010678291f11d
     Title: 'net/textproto: Excessive CPU consumption in Reader.ReadResponse in net/textproto'
     Description: The Reader.ReadResponse function constructs a response string through repeated string concatenation of lines. When the number of lines in a response is large, this can cause excessive CPU consumption.
     Severity: MEDIUM
@@ -34436,6 +34829,7 @@
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
+    Fingerprint: sha256:fd0fa0c78ceeebd0494202f16cfc85f04fea285fb38fd09546754719a5a9d543
     Title: 'net/mail: Excessive CPU consumption in ParseAddress in net/mail'
     Description: The ParseAddress function constructeds domain-literal address components through repeated string concatenation. When parsing large domain-literal components, this can cause excessive CPU consumption.
     Severity: MEDIUM
@@ -34461,6 +34855,60 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-61725
     PublishedDate: '2025-10-29T23:16:20.113Z'
     LastModifiedDate: '2025-11-04T22:16:36.693Z'
+  - VulnerabilityID: CVE-2025-61727
+    PkgID: stdlib@v1.24.6
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@v1.24.6
+      UID: 323978e56bf8954b
+    InstalledVersion: v1.24.6
+    FixedVersion: 1.24.11, 1.25.5
+    Status: fixed
+    Layer:
+      Digest: sha256:7c946d7ccb909c06261c5fef7abef387f5fc8a687dc1c6361f16d4c297ffcfff
+      DiffID: sha256:3a99397e2fb3de150f8dd3f9530b5f102210f243f10428ea9de7b65cde76dcc1
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-61727
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Fingerprint: sha256:dadf7ef7a8eae77f96f1f14a5363e2623d989cf84322f43b0763d92029eec4b0
+    Title: Improper application of excluded DNS name constraints when verifying wildcard names in crypto/x509
+    Description: An excluded subdomain constraint in a certificate chain does not restrict the usage of wildcard SANs in the leaf certificate. For example a constraint that excludes the subdomain test.example.com does not prevent a leaf certificate from claiming the SAN *.example.com.
+    Severity: UNKNOWN
+    References:
+    - https://go.dev/cl/723900
+    - https://go.dev/issue/76442
+    - https://groups.google.com/g/golang-announce/c/8FJoBkPddm4
+    - https://pkg.go.dev/vuln/GO-2025-4175
+  - VulnerabilityID: CVE-2025-61729
+    PkgID: stdlib@v1.24.6
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@v1.24.6
+      UID: 323978e56bf8954b
+    InstalledVersion: v1.24.6
+    FixedVersion: 1.24.11, 1.25.5
+    Status: fixed
+    Layer:
+      Digest: sha256:7c946d7ccb909c06261c5fef7abef387f5fc8a687dc1c6361f16d4c297ffcfff
+      DiffID: sha256:3a99397e2fb3de150f8dd3f9530b5f102210f243f10428ea9de7b65cde76dcc1
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-61729
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Fingerprint: sha256:655ee18abeee2e09584b845143787baaf4c9feb9d38efddf328de4653968bf7d
+    Title: Within HostnameError.Error(), when constructing an error string, there ...
+    Description: Within HostnameError.Error(), when constructing an error string, there is no limit to the number of hosts that will be printed out. Furthermore, the error string is constructed by repeated string concatenation, leading to quadratic runtime. Therefore, a certificate provided by a malicious actor can result in excessive resource consumption.
+    Severity: UNKNOWN
+    References:
+    - https://go.dev/cl/725920
+    - https://go.dev/issue/76445
+    - https://groups.google.com/g/golang-announce/c/8FJoBkPddm4
+    - https://pkg.go.dev/vuln/GO-2025-4155
+    PublishedDate: '2025-12-02T19:15:51.447Z'
+    LastModifiedDate: '2025-12-02T22:16:08.527Z'
 - Target: usr/local/bin/k3d
   Class: lang-pkgs
   Type: gobinary
@@ -35586,6 +36034,7 @@
       ID: ghsa
       Name: GitHub Security Advisory Go
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
+    Fingerprint: sha256:365a3a3a37fd1b01ea9bc303df27b6c4a858558df12bbf6552797a0fb70bb67a
     Title: containerd is an open-source container runtime. Versions 0.1.0 through ...
     Description: containerd is an open-source container runtime. Versions 0.1.0 through 1.7.28, 2.0.0-beta.0 through 2.0.6, 2.1.0-beta.0 through 2.1.4 and 2.2.0-beta.0 through 2.2.0-rc.1 have an overly broad default permission vulnerability. Directory paths `/var/lib/containerd`, `/run/containerd/io.containerd.grpc.v1.cri` and `/run/containerd/io.containerd.sandbox.controller.v1.shim` were all created with incorrect permissions. This issue is fixed in versions 1.7.29, 2.0.7, 2.1.5 and 2.2.0. Workarounds include updating system administrator permissions so the host can manually chmod the directories to not have group or world accessible permissions, or to run containerd in rootless mode.
     Severity: HIGH
@@ -35626,6 +36075,7 @@
       ID: ghsa
       Name: GitHub Security Advisory Go
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
+    Fingerprint: sha256:bc87f06a5b60a148c6c10cf731f7de8cbf7e1261daa5f28e18a326d25d339758
     Title: 'containerd: containerd has an integer overflow in User ID handling'
     Description: containerd is an open-source container runtime. A bug was found in containerd prior to versions 1.6.38, 1.7.27, and 2.0.4 where containers launched with a User set as a `UID:GID` larger than the maximum 32-bit signed integer can cause an overflow condition where the container ultimately runs as root (UID 0). This could cause unexpected behavior for environments that require containers to run as a non-root user. This bug has been fixed in containerd 1.6.38, 1.7.27, and 2.04. As a workaround, ensure that only trusted images are used and that only trusted users have permissions to import images.
     Severity: MEDIUM
@@ -35683,6 +36133,7 @@
       ID: ghsa
       Name: GitHub Security Advisory Go
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
+    Fingerprint: sha256:d6916f0e5d8dac21572d826fcc806197a4b30ff48e886177f07dcf0d65ccffd5
     Title: containerd is an open-source container runtime. Versions 1.7.28 and be ...
     Description: containerd is an open-source container runtime. Versions 1.7.28 and below, 2.0.0-beta.0 through 2.0.6, 2.1.0-beta.0 through 2.1.4, and 2.2.0-beta.0 through 2.2.0-rc.1 contain a bug in the CRI Attach implementation where a user can exhaust memory on the host due to goroutine leaks. This issue is fixed in versions 1.7.29, 2.0.7, 2.1.5 and 2.2.0. To workaround this vulnerability, users can set up an admission controller to control accesses to pods/attach resources.
     Severity: MEDIUM
@@ -35718,6 +36169,7 @@
       ID: ghsa
       Name: GitHub Security Advisory Go
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
+    Fingerprint: sha256:d7cca3c7b31854b25c3c6a821ed3d6b3253ca51eb65737565616c809058601d5
     Title: 'moby: Authz zero length regression'
     Description: |-
       Moby is an open-source project created by Docker for software containerization. A security vulnerability has been detected in certain versions of Docker Engine, which could allow an attacker to bypass authorization plugins (AuthZ) under specific circumstances. The base likelihood of this being exploited is low.
@@ -35792,6 +36244,7 @@
       ID: ghsa
       Name: GitHub Security Advisory Go
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
+    Fingerprint: sha256:cc52f5432d9c77490d496fda36e48b32a865aebb0706ec7107fe9c6a80bc8af5
     Title: 'github.com/moby/moby: Moby''s Firewalld reload removes bridge network isolation'
     Description: |-
       Moby is an open source container framework developed by Docker Inc. that is distributed as Docker Engine, Mirantis Container Runtime, and various other downstream projects/products. A firewalld vulnerability affects Moby releases before 28.0.0. When firewalld reloads, Docker fails to re-create iptables rules that isolate bridge networks, allowing any container to access all ports on any other container across different bridge networks on the same host. This breaks network segmentation between containers that should be isolated, creating significant risk in multi-tenant environments. Only containers in --internal networks remain protected.
@@ -35843,6 +36296,7 @@
       ID: ghsa
       Name: GitHub Security Advisory Go
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
+    Fingerprint: sha256:c6c803fa5e7c1f4d453854460ca5b56c93f0755511cb968a45d37c3cfa701de8
     Title: 'golang.org/x/crypto/ssh: Misuse of ServerConfig.PublicKeyCallback may cause authorization bypass in golang.org/x/crypto'
     Description: Applications and libraries which misuse connection.serverAuthenticate (via callback field ServerConfig.PublicKeyCallback) may be susceptible to an authorization bypass. The documentation for ServerConfig.PublicKeyCallback says that "A call to this function does not guarantee that the key offered is in fact used to authenticate." Specifically, the SSH protocol allows clients to inquire about whether a public key is acceptable before proving control of the corresponding private key. PublicKeyCallback may be called with multiple keys, and the order in which the keys were provided cannot be used to infer which key the client successfully authenticated with, if any. Some applications, which store the key(s) passed to PublicKeyCallback (or derived information) and make security relevant determinations based on it once the connection is established, may make incorrect assumptions. For example, an attacker may send public keys A and B, and then authenticate with A. PublicKeyCallback would be called only twice, first with A and then with B. A vulnerable application may then make authorization decisions based on key B for which the attacker does not actually control the private key. Since this API is widely misused, as a partial mitigation golang.org/x/cry...@v0.31.0 enforces the property that, when successfully authenticating via public key, the last key passed to ServerConfig.PublicKeyCallback will be the key used to authenticate the connection. PublicKeyCallback will now be called multiple times with the same key, if necessary. Note that the client may still not control the last key passed to PublicKeyCallback if the connection is then authenticated with a different method, such as PasswordCallback, KeyboardInteractiveCallback, or NoClientAuth. Users should be using the Extensions field of the Permissions return value from the various authentication callbacks to record data associated with the authentication attempt instead of referencing external state. Once the connection is established the state corresponding to the successful authentication attempt can be retrieved via the ServerConn.Permissions field. Note that some third-party libraries misuse the Permissions type by sharing it across authentication attempts; users of third-party libraries should refer to the relevant projects for guidance.
     Severity: CRITICAL
@@ -35896,6 +36350,7 @@
       ID: ghsa
       Name: GitHub Security Advisory Go
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
+    Fingerprint: sha256:a7b758459e8103b8873861aeb1eb63a8f0ddbfb29432e6d62835478b0e225465
     Title: 'golang.org/x/crypto/ssh: Denial of Service in the Key Exchange of golang.org/x/crypto/ssh'
     Description: SSH servers which implement file transfer protocols are vulnerable to a denial of service attack from clients which complete the key exchange slowly, or not at all, causing pending content to be read into memory, but never transmitted.
     Severity: HIGH
@@ -35957,6 +36412,7 @@
       ID: ghsa
       Name: GitHub Security Advisory Go
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
+    Fingerprint: sha256:3ece57cd0ba1dcb63d9b1789f35948c9365108ac5de6f13cecd2ffc5f42b192e
     Title: SSH Agent servers do not validate the size of messages when processing ...
     Description: SSH Agent servers do not validate the size of messages when processing new identity requests, which may cause the program to panic if the message is malformed due to an out of bounds read.
     Severity: MEDIUM
@@ -35995,6 +36451,7 @@
       ID: ghsa
       Name: GitHub Security Advisory Go
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
+    Fingerprint: sha256:7f371eb493d381e0ef7d86224df97193d833fb547a3b80862d29349ff498191c
     Title: SSH servers parsing GSSAPI authentication requests do not validate the ...
     Description: SSH servers parsing GSSAPI authentication requests do not validate the number of mechanisms specified in the request, allowing an attacker to cause unbounded memory consumption.
     Severity: MEDIUM
@@ -36032,6 +36489,7 @@
       ID: ghsa
       Name: GitHub Security Advisory Go
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
+    Fingerprint: sha256:077139b0f84cb399463600bdd769f96280a3b35d9ab67d7efc2a84d46380f26d
     Title: 'golang.org/x/net/proxy: golang.org/x/net/http/httpproxy: HTTP Proxy bypass using IPv6 Zone IDs in golang.org/x/net'
     Description: Matching of hosts against proxy patterns can improperly treat an IPv6 zone ID as a hostname component. For example, when the NO_PROXY environment variable is set to "*.example.com", a request to "[::1%25.example.com]:80` will incorrectly match and not be proxied.
     Severity: MEDIUM
@@ -36085,6 +36543,7 @@
       ID: ghsa
       Name: GitHub Security Advisory Go
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
+    Fingerprint: sha256:27a92713e5d5481f177f4f0193be4fc16064fbf61bf73fde4c8cf2cfd64cad04
     Title: 'golang.org/x/net/html: Incorrect Neutralization of Input During Web Page Generation in x/net in golang.org/x/net'
     Description: The tokenizer incorrectly interprets tags with unquoted attribute values that end with a solidus character (/) as self-closing. When directly using Tokenizer, this can result in such tags incorrectly being marked as self-closing, and when using the Parse functions, this can result in content following such tags as being placed in the wrong scope during DOM construction, but only when tags are in foreign content (e.g. <math>, <svg>, etc contexts).
     Severity: MEDIUM
@@ -36129,6 +36588,7 @@
       ID: ghsa
       Name: GitHub Security Advisory Go
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
+    Fingerprint: sha256:202fd57d1891e5ad21b04a1a06cc5eac1ee73515a6a8458a0ae9f43e7ae98342
     Title: 'golang.org/x/oauth2/jws: Unexpected memory consumption during token parsing in golang.org/x/oauth2/jws'
     Description: An attacker can pass a malicious malformed token which causes unexpected memory to be consumed during parsing.
     Severity: HIGH
@@ -36184,6 +36644,7 @@
       ID: ghsa
       Name: GitHub Security Advisory Go
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
+    Fingerprint: sha256:0ccf0ba9dbce123678784134fda6d5e9a2e6826e1bb0e5f9c607a00189b07bed
     Title: Private tokens could appear in logs if context containing gRPC metadata is logged in github.com/grpc/grpc-go
     Description: |
       ### Impact
@@ -36220,6 +36681,7 @@
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
+    Fingerprint: sha256:ca357ab8edeb23596b6d44ae3eaddd65ccf8b2ff27c314c8b31138040aa205c3
     Title: 'database/sql: Postgres Scan Race Condition'
     Description: Cancelling a query (e.g. by cancelling the context passed to one of the query methods) during a call to the Scan method of the returned Rows can result in unexpected results if other queries are being made in parallel. This can result in a race condition that may overwrite the expected results with those of another query, causing the call to Scan to return either unexpected results from the other query or an error.
     Severity: HIGH
@@ -36272,6 +36734,7 @@
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
+    Fingerprint: sha256:c4e8ff309d5f940b8b38b72ccdb69216ba23c34a29244b7402115711b8dc4302
     Title: 'golang: archive/tar: Unbounded allocation when parsing GNU sparse map'
     Description: tar.Reader does not set a maximum size on the number of sparse region data blocks in GNU tar pax 1.0 sparse files. A maliciously-crafted archive containing a large number of sparse regions can cause a Reader to read an unbounded amount of data from the archive into memory. When reading from a compressed source, a small compressed input can result in large allocations.
     Severity: HIGH
@@ -36328,6 +36791,7 @@
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
+    Fingerprint: sha256:1c0ece132475ac0d52860436b8f03807228906a7640224c1c13aa31098db1305
     Title: Despite HTTP headers having a default limit of 1MB, the number of cook ...
     Description: Despite HTTP headers having a default limit of 1MB, the number of cookies that can be parsed does not have a limit. By sending a lot of very small cookies such as "a=;", an attacker can make an HTTP server allocate a large amount of structs, causing large memory consumption.
     Severity: HIGH
@@ -36364,6 +36828,7 @@
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
+    Fingerprint: sha256:23d26a9b4c21e315e52bcc8a0d6c0b8ef10acc65fc8605b09903d501a5b29396
     Title: Due to the design of the name constraint checking algorithm, the proce ...
     Description: Due to the design of the name constraint checking algorithm, the processing time of some inputs scale non-linearly with respect to the size of the certificate. This affects programs which validate arbitrary certificate chains.
     Severity: HIGH
@@ -36400,6 +36865,7 @@
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
+    Fingerprint: sha256:415745d6e478970de194fb3b2a18085bd9a6fa00abe780a016b68026cb09698a
     Title: Inconsistent handling of O_CREATE|O_EXCL on Unix and Windows in os in syscall
     Description: os.OpenFile(path, os.O_CREATE|O_EXCL) behaved differently on Unix and Windows systems when the target path was a dangling symlink. On Unix systems, OpenFile with O_CREATE and O_EXCL flags never follows symlinks. On Windows, when the target path was a symlink to a nonexistent location, OpenFile would create a file in that location. OpenFile now always returns an error when the O_CREATE and O_EXCL flags are both set and the target path is a symlink.
     Severity: MEDIUM
@@ -36436,6 +36902,7 @@
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
+    Fingerprint: sha256:a39786e1e3ff86323b761c9d8f226770e3fbdfe4c35a4f58b979e79bca02bec0
     Title: 'net/http: Request smuggling due to acceptance of invalid chunked data in net/http'
     Description: The net/http package improperly accepts a bare LF as a line terminator in chunked data chunk-size lines. This can permit request smuggling if a net/http server is used in conjunction with a server that incorrectly accepts a bare LF as part of a chunk-ext.
     Severity: MEDIUM
@@ -36498,6 +36965,7 @@
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
+    Fingerprint: sha256:b70b583a54e3c4870ee74f4f657c6f2aed7314af78c84a7505d8276cd9ca8ae9
     Title: 'net/http: Sensitive headers not cleared on cross-origin redirect in net/http'
     Description: Proxy-Authorization and Proxy-Authenticate headers persisted on cross-origin redirects potentially leaking sensitive information.
     Severity: MEDIUM
@@ -36554,6 +37022,7 @@
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
+    Fingerprint: sha256:960546f1d33298a5d53b668acf10608259408194df0ddd7efc0c2b1c8da2a52f
     Title: 'os/exec: Unexpected paths returned from LookPath in os/exec'
     Description: If the PATH environment variable contains paths which are executables (rather than just directories), passing certain strings to LookPath ("", ".", and ".."), can result in the binaries listed in the PATH being unexpectedly returned.
     Severity: MEDIUM
@@ -36609,6 +37078,7 @@
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
+    Fingerprint: sha256:77b1b1ba5342a99561e8ed97ae54b7afa50b274494c7406097176f0950f199ee
     Title: 'net/url: Insufficient validation of bracketed IPv6 hostnames in net/url'
     Description: 'The Parse function permits values other than IPv6 addresses to be included in square brackets within the host component of a URL. RFC 3986 permits IPv6 addresses to be included within the host component, enclosed within square brackets. For example: "http://[::1]/". IPv4 addresses and hostnames must not appear within square brackets. Parse did not enforce this requirement.'
     Severity: MEDIUM
@@ -36651,6 +37121,7 @@
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
+    Fingerprint: sha256:a1382b9a295d0bbdf14e8c2828c9a67e7380ca55fff3d046b0d51c1af3598174
     Title: 'encoding/asn1: Parsing DER payload can cause memory exhaustion in encoding/asn1'
     Description: Parsing a maliciously crafted DER payload could allocate large amounts of memory, causing memory exhaustion.
     Severity: MEDIUM
@@ -36694,6 +37165,7 @@
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
+    Fingerprint: sha256:f505e54648570af6bf39c87aafd468ea941c68d4f0538bbc815a7aa0036df85b
     Title: 'crypto/x509: golang: Panic when validating certificates with DSA public keys in crypto/x509'
     Description: Validating certificate chains which contain DSA public keys can cause programs to panic, due to a interface cast that assumes they implement the Equal method. This affects programs which validate arbitrary certificate chains.
     Severity: MEDIUM
@@ -36737,6 +37209,7 @@
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
+    Fingerprint: sha256:190877da48314feb74379dece1f3567c74e11a873d8787ca3ca60423a65cc15d
     Title: 'crypto/tls: go crypto/tls ALPN negotiation error contains attacker controlled information'
     Description: When Conn.Handshake fails during ALPN negotiation the error contains attacker controlled information (the ALPN protocols sent by the client) which is not escaped.
     Severity: MEDIUM
@@ -36779,6 +37252,7 @@
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
+    Fingerprint: sha256:7ff50e55cd01e0df3d19878852fa30a32cbb207e0593a3f5edb04fa4df59db23
     Title: 'encoding/pem: Quadratic complexity when parsing some invalid inputs in encoding/pem'
     Description: The processing time for parsing some invalid inputs scales non-linearly with respect to the size of the input. This affects programs which parse untrusted PEM inputs.
     Severity: MEDIUM
@@ -36822,6 +37296,7 @@
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
+    Fingerprint: sha256:2b0dbba2ed40958f6175eebed670caf1a61c1ee14ff8151f37510fbb13058f91
     Title: 'net/textproto: Excessive CPU consumption in Reader.ReadResponse in net/textproto'
     Description: The Reader.ReadResponse function constructs a response string through repeated string concatenation of lines. When the number of lines in a response is large, this can cause excessive CPU consumption.
     Severity: MEDIUM
@@ -36864,6 +37339,7 @@
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
+    Fingerprint: sha256:bfd8571e8ada78bf19887328549153e0554f19639152406bb5d7dfa009575932
     Title: 'net/mail: Excessive CPU consumption in ParseAddress in net/mail'
     Description: The ParseAddress function constructeds domain-literal address components through repeated string concatenation. When parsing large domain-literal components, this can cause excessive CPU consumption.
     Severity: MEDIUM
@@ -36889,6 +37365,60 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-61725
     PublishedDate: '2025-10-29T23:16:20.113Z'
     LastModifiedDate: '2025-11-04T22:16:36.693Z'
+  - VulnerabilityID: CVE-2025-61727
+    PkgID: stdlib@v1.22.12
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@v1.22.12
+      UID: 156a2e832bd2e3cc
+    InstalledVersion: v1.22.12
+    FixedVersion: 1.24.11, 1.25.5
+    Status: fixed
+    Layer:
+      Digest: sha256:7c946d7ccb909c06261c5fef7abef387f5fc8a687dc1c6361f16d4c297ffcfff
+      DiffID: sha256:3a99397e2fb3de150f8dd3f9530b5f102210f243f10428ea9de7b65cde76dcc1
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-61727
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Fingerprint: sha256:37882334fe3c105bd0eda00a86b63d60857d1be9ef823738fde571f61c1772da
+    Title: Improper application of excluded DNS name constraints when verifying wildcard names in crypto/x509
+    Description: An excluded subdomain constraint in a certificate chain does not restrict the usage of wildcard SANs in the leaf certificate. For example a constraint that excludes the subdomain test.example.com does not prevent a leaf certificate from claiming the SAN *.example.com.
+    Severity: UNKNOWN
+    References:
+    - https://go.dev/cl/723900
+    - https://go.dev/issue/76442
+    - https://groups.google.com/g/golang-announce/c/8FJoBkPddm4
+    - https://pkg.go.dev/vuln/GO-2025-4175
+  - VulnerabilityID: CVE-2025-61729
+    PkgID: stdlib@v1.22.12
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@v1.22.12
+      UID: 156a2e832bd2e3cc
+    InstalledVersion: v1.22.12
+    FixedVersion: 1.24.11, 1.25.5
+    Status: fixed
+    Layer:
+      Digest: sha256:7c946d7ccb909c06261c5fef7abef387f5fc8a687dc1c6361f16d4c297ffcfff
+      DiffID: sha256:3a99397e2fb3de150f8dd3f9530b5f102210f243f10428ea9de7b65cde76dcc1
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-61729
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Fingerprint: sha256:ad26391338ad15010e995f8afa43fd21d83ed2df5267eba11350cbfd331a7cce
+    Title: Within HostnameError.Error(), when constructing an error string, there ...
+    Description: Within HostnameError.Error(), when constructing an error string, there is no limit to the number of hosts that will be printed out. Furthermore, the error string is constructed by repeated string concatenation, leading to quadratic runtime. Therefore, a certificate provided by a malicious actor can result in excessive resource consumption.
+    Severity: UNKNOWN
+    References:
+    - https://go.dev/cl/725920
+    - https://go.dev/issue/76445
+    - https://groups.google.com/g/golang-announce/c/8FJoBkPddm4
+    - https://pkg.go.dev/vuln/GO-2025-4155
+    PublishedDate: '2025-12-02T19:15:51.447Z'
+    LastModifiedDate: '2025-12-02T22:16:08.527Z'
 - Target: /etc/ssh/ssh_host_dsa_key
   Class: secret
   Secrets:
