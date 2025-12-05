@@ -28546,7 +28546,7 @@
 │                        │      │                  ├ [8] : https://groups.google.com/g/golang-announce/c/x5MKro
 │                        │      │                  │       ML2yM 
 │                        │      │                  ├ [9] : https://linux.oracle.com/cve/CVE-2025-47907.html 
-│                        │      │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2025-20909.html 
+│                        │      │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2025-20983.html 
 │                        │      │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2025-47907 
 │                        │      │                  ├ [12]: https://pkg.go.dev/vuln/GO-2025-3849 
 │                        │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2025-47907 
@@ -28611,7 +28611,7 @@
 │                        │      │                  ├ [13]: https://groups.google.com/g/golang-announce/c/4Emdl2
 │                        │      │                  │       iQ_bI 
 │                        │      │                  ├ [14]: https://linux.oracle.com/cve/CVE-2025-58183.html 
-│                        │      │                  ├ [15]: https://linux.oracle.com/errata/ELSA-2025-22011.html 
+│                        │      │                  ├ [15]: https://linux.oracle.com/errata/ELSA-2025-22012.html 
 │                        │      │                  ├ [16]: https://nvd.nist.gov/vuln/detail/CVE-2025-58183 
 │                        │      │                  ├ [17]: https://pkg.go.dev/vuln/GO-2025-4014 
 │                        │      │                  ╰ [18]: https://www.cve.org/CVERecord?id=CVE-2025-58183 
@@ -29266,19 +29266,21 @@
 │                        │      │                  ╰ URL : https://pkg.go.dev/vuln/ 
 │                        │      ├ Fingerprint     : sha256:2f6a56d7dcbf7701aecfd11c13a1ad9f18a8517ade976bb827cc
 │                        │      │                   73971ae04af7 
-│                        │      ├ Title           : Improper application of excluded DNS name constraints when
-│                        │      │                   verifying wildcard names in crypto/x509 
+│                        │      ├ Title           : An excluded subdomain constraint in a certificate chain
+│                        │      │                   does not restr ... 
 │                        │      ├ Description     : An excluded subdomain constraint in a certificate chain
 │                        │      │                   does not restrict the usage of wildcard SANs in the leaf
 │                        │      │                   certificate. For example a constraint that excludes the
 │                        │      │                   subdomain test.example.com does not prevent a leaf
 │                        │      │                   certificate from claiming the SAN *.example.com. 
 │                        │      ├ Severity        : UNKNOWN 
-│                        │      ╰ References       ╭ [0]: https://go.dev/cl/723900 
-│                        │                         ├ [1]: https://go.dev/issue/76442 
-│                        │                         ├ [2]: https://groups.google.com/g/golang-announce/c/8FJoBkP
-│                        │                         │      ddm4 
-│                        │                         ╰ [3]: https://pkg.go.dev/vuln/GO-2025-4175 
+│                        │      ├ References       ╭ [0]: https://go.dev/cl/723900 
+│                        │      │                  ├ [1]: https://go.dev/issue/76442 
+│                        │      │                  ├ [2]: https://groups.google.com/g/golang-announce/c/8FJoBkP
+│                        │      │                  │      ddm4 
+│                        │      │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2025-4175 
+│                        │      ├ PublishedDate   : 2025-12-03T20:16:25.607Z 
+│                        │      ╰ LastModifiedDate: 2025-12-03T22:15:51.51Z 
 │                        ╰ [20] ╭ VulnerabilityID : CVE-2025-61729 
 │                               ├ PkgID           : stdlib@v1.24.1 
 │                               ├ PkgName         : stdlib 
@@ -29913,7 +29915,7 @@
 │                        │      │                  ├ [8] : https://groups.google.com/g/golang-announce/c/x5MKro
 │                        │      │                  │       ML2yM 
 │                        │      │                  ├ [9] : https://linux.oracle.com/cve/CVE-2025-47907.html 
-│                        │      │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2025-20909.html 
+│                        │      │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2025-20983.html 
 │                        │      │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2025-47907 
 │                        │      │                  ├ [12]: https://pkg.go.dev/vuln/GO-2025-3849 
 │                        │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2025-47907 
@@ -29978,7 +29980,7 @@
 │                        │      │                  ├ [13]: https://groups.google.com/g/golang-announce/c/4Emdl2
 │                        │      │                  │       iQ_bI 
 │                        │      │                  ├ [14]: https://linux.oracle.com/cve/CVE-2025-58183.html 
-│                        │      │                  ├ [15]: https://linux.oracle.com/errata/ELSA-2025-22011.html 
+│                        │      │                  ├ [15]: https://linux.oracle.com/errata/ELSA-2025-22012.html 
 │                        │      │                  ├ [16]: https://nvd.nist.gov/vuln/detail/CVE-2025-58183 
 │                        │      │                  ├ [17]: https://pkg.go.dev/vuln/GO-2025-4014 
 │                        │      │                  ╰ [18]: https://www.cve.org/CVERecord?id=CVE-2025-58183 
@@ -30633,19 +30635,21 @@
 │                        │      │                  ╰ URL : https://pkg.go.dev/vuln/ 
 │                        │      ├ Fingerprint     : sha256:511c46dde5d456e7922a19bc84a3d8998ba1fe7d179eae52ebc0
 │                        │      │                   f855383c8cd0 
-│                        │      ├ Title           : Improper application of excluded DNS name constraints when
-│                        │      │                   verifying wildcard names in crypto/x509 
+│                        │      ├ Title           : An excluded subdomain constraint in a certificate chain
+│                        │      │                   does not restr ... 
 │                        │      ├ Description     : An excluded subdomain constraint in a certificate chain
 │                        │      │                   does not restrict the usage of wildcard SANs in the leaf
 │                        │      │                   certificate. For example a constraint that excludes the
 │                        │      │                   subdomain test.example.com does not prevent a leaf
 │                        │      │                   certificate from claiming the SAN *.example.com. 
 │                        │      ├ Severity        : UNKNOWN 
-│                        │      ╰ References       ╭ [0]: https://go.dev/cl/723900 
-│                        │                         ├ [1]: https://go.dev/issue/76442 
-│                        │                         ├ [2]: https://groups.google.com/g/golang-announce/c/8FJoBkP
-│                        │                         │      ddm4 
-│                        │                         ╰ [3]: https://pkg.go.dev/vuln/GO-2025-4175 
+│                        │      ├ References       ╭ [0]: https://go.dev/cl/723900 
+│                        │      │                  ├ [1]: https://go.dev/issue/76442 
+│                        │      │                  ├ [2]: https://groups.google.com/g/golang-announce/c/8FJoBkP
+│                        │      │                  │      ddm4 
+│                        │      │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2025-4175 
+│                        │      ├ PublishedDate   : 2025-12-03T20:16:25.607Z 
+│                        │      ╰ LastModifiedDate: 2025-12-03T22:15:51.51Z 
 │                        ╰ [20] ╭ VulnerabilityID : CVE-2025-61729 
 │                               ├ PkgID           : stdlib@v1.24.1 
 │                               ├ PkgName         : stdlib 
@@ -32783,19 +32787,21 @@
 │                        │     │                  ╰ URL : https://pkg.go.dev/vuln/ 
 │                        │     ├ Fingerprint     : sha256:00a159f8a72685cf29cc9f24cc57f9a9e52d4b046fef68400232e
 │                        │     │                   2a62e42ef8a 
-│                        │     ├ Title           : Improper application of excluded DNS name constraints when
-│                        │     │                   verifying wildcard names in crypto/x509 
+│                        │     ├ Title           : An excluded subdomain constraint in a certificate chain does
+│                        │     │                    not restr ... 
 │                        │     ├ Description     : An excluded subdomain constraint in a certificate chain does
 │                        │     │                    not restrict the usage of wildcard SANs in the leaf
 │                        │     │                   certificate. For example a constraint that excludes the
 │                        │     │                   subdomain test.example.com does not prevent a leaf
 │                        │     │                   certificate from claiming the SAN *.example.com. 
 │                        │     ├ Severity        : UNKNOWN 
-│                        │     ╰ References       ╭ [0]: https://go.dev/cl/723900 
-│                        │                        ├ [1]: https://go.dev/issue/76442 
-│                        │                        ├ [2]: https://groups.google.com/g/golang-announce/c/8FJoBkPd
-│                        │                        │      dm4 
-│                        │                        ╰ [3]: https://pkg.go.dev/vuln/GO-2025-4175 
+│                        │     ├ References       ╭ [0]: https://go.dev/cl/723900 
+│                        │     │                  ├ [1]: https://go.dev/issue/76442 
+│                        │     │                  ├ [2]: https://groups.google.com/g/golang-announce/c/8FJoBkPd
+│                        │     │                  │      dm4 
+│                        │     │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2025-4175 
+│                        │     ├ PublishedDate   : 2025-12-03T20:16:25.607Z 
+│                        │     ╰ LastModifiedDate: 2025-12-03T22:15:51.51Z 
 │                        ╰ [5] ╭ VulnerabilityID : CVE-2025-61729 
 │                              ├ PkgID           : stdlib@v1.24.9 
 │                              ├ PkgName         : stdlib 
@@ -34110,19 +34116,21 @@
 │                        │     │                  ╰ URL : https://pkg.go.dev/vuln/ 
 │                        │     ├ Fingerprint     : sha256:df58c15078fdb8dedcaf9e1cf4605851a801cdc3854beb5d07d2f
 │                        │     │                   e2795e4f1d6 
-│                        │     ├ Title           : Improper application of excluded DNS name constraints when
-│                        │     │                   verifying wildcard names in crypto/x509 
+│                        │     ├ Title           : An excluded subdomain constraint in a certificate chain does
+│                        │     │                    not restr ... 
 │                        │     ├ Description     : An excluded subdomain constraint in a certificate chain does
 │                        │     │                    not restrict the usage of wildcard SANs in the leaf
 │                        │     │                   certificate. For example a constraint that excludes the
 │                        │     │                   subdomain test.example.com does not prevent a leaf
 │                        │     │                   certificate from claiming the SAN *.example.com. 
 │                        │     ├ Severity        : UNKNOWN 
-│                        │     ╰ References       ╭ [0]: https://go.dev/cl/723900 
-│                        │                        ├ [1]: https://go.dev/issue/76442 
-│                        │                        ├ [2]: https://groups.google.com/g/golang-announce/c/8FJoBkPd
-│                        │                        │      dm4 
-│                        │                        ╰ [3]: https://pkg.go.dev/vuln/GO-2025-4175 
+│                        │     ├ References       ╭ [0]: https://go.dev/cl/723900 
+│                        │     │                  ├ [1]: https://go.dev/issue/76442 
+│                        │     │                  ├ [2]: https://groups.google.com/g/golang-announce/c/8FJoBkPd
+│                        │     │                  │      dm4 
+│                        │     │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2025-4175 
+│                        │     ├ PublishedDate   : 2025-12-03T20:16:25.607Z 
+│                        │     ╰ LastModifiedDate: 2025-12-03T22:15:51.51Z 
 │                        ╰ [3] ╭ VulnerabilityID : CVE-2025-61729 
 │                              ├ PkgID           : stdlib@v1.25.4 
 │                              ├ PkgName         : stdlib 
@@ -35033,19 +35041,21 @@
 │                        │     │                  ╰ URL : https://pkg.go.dev/vuln/ 
 │                        │     ├ Fingerprint     : sha256:6034cad4035978674e74dfa3faa4773e7a1aaca6c55fe05c2b3fd
 │                        │     │                   7a1ae5f1334 
-│                        │     ├ Title           : Improper application of excluded DNS name constraints when
-│                        │     │                   verifying wildcard names in crypto/x509 
+│                        │     ├ Title           : An excluded subdomain constraint in a certificate chain does
+│                        │     │                    not restr ... 
 │                        │     ├ Description     : An excluded subdomain constraint in a certificate chain does
 │                        │     │                    not restrict the usage of wildcard SANs in the leaf
 │                        │     │                   certificate. For example a constraint that excludes the
 │                        │     │                   subdomain test.example.com does not prevent a leaf
 │                        │     │                   certificate from claiming the SAN *.example.com. 
 │                        │     ├ Severity        : UNKNOWN 
-│                        │     ╰ References       ╭ [0]: https://go.dev/cl/723900 
-│                        │                        ├ [1]: https://go.dev/issue/76442 
-│                        │                        ├ [2]: https://groups.google.com/g/golang-announce/c/8FJoBkPd
-│                        │                        │      dm4 
-│                        │                        ╰ [3]: https://pkg.go.dev/vuln/GO-2025-4175 
+│                        │     ├ References       ╭ [0]: https://go.dev/cl/723900 
+│                        │     │                  ├ [1]: https://go.dev/issue/76442 
+│                        │     │                  ├ [2]: https://groups.google.com/g/golang-announce/c/8FJoBkPd
+│                        │     │                  │      dm4 
+│                        │     │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2025-4175 
+│                        │     ├ PublishedDate   : 2025-12-03T20:16:25.607Z 
+│                        │     ╰ LastModifiedDate: 2025-12-03T22:15:51.51Z 
 │                        ╰ [1] ╭ VulnerabilityID : CVE-2025-61729 
 │                              ├ PkgID           : stdlib@v1.24.9 
 │                              ├ PkgName         : stdlib 
@@ -36243,7 +36253,7 @@
 │                        │      │                  ├ [13]: https://groups.google.com/g/golang-announce/c/4Emdl2
 │                        │      │                  │       iQ_bI 
 │                        │      │                  ├ [14]: https://linux.oracle.com/cve/CVE-2025-58183.html 
-│                        │      │                  ├ [15]: https://linux.oracle.com/errata/ELSA-2025-22011.html 
+│                        │      │                  ├ [15]: https://linux.oracle.com/errata/ELSA-2025-22012.html 
 │                        │      │                  ├ [16]: https://nvd.nist.gov/vuln/detail/CVE-2025-58183 
 │                        │      │                  ├ [17]: https://pkg.go.dev/vuln/GO-2025-4014 
 │                        │      │                  ╰ [18]: https://www.cve.org/CVERecord?id=CVE-2025-58183 
@@ -36667,19 +36677,21 @@
 │                        │      │                  ╰ URL : https://pkg.go.dev/vuln/ 
 │                        │      ├ Fingerprint     : sha256:dadf7ef7a8eae77f96f1f14a5363e2623d989cf84322f43b0763
 │                        │      │                   d92029eec4b0 
-│                        │      ├ Title           : Improper application of excluded DNS name constraints when
-│                        │      │                   verifying wildcard names in crypto/x509 
+│                        │      ├ Title           : An excluded subdomain constraint in a certificate chain
+│                        │      │                   does not restr ... 
 │                        │      ├ Description     : An excluded subdomain constraint in a certificate chain
 │                        │      │                   does not restrict the usage of wildcard SANs in the leaf
 │                        │      │                   certificate. For example a constraint that excludes the
 │                        │      │                   subdomain test.example.com does not prevent a leaf
 │                        │      │                   certificate from claiming the SAN *.example.com. 
 │                        │      ├ Severity        : UNKNOWN 
-│                        │      ╰ References       ╭ [0]: https://go.dev/cl/723900 
-│                        │                         ├ [1]: https://go.dev/issue/76442 
-│                        │                         ├ [2]: https://groups.google.com/g/golang-announce/c/8FJoBkP
-│                        │                         │      ddm4 
-│                        │                         ╰ [3]: https://pkg.go.dev/vuln/GO-2025-4175 
+│                        │      ├ References       ╭ [0]: https://go.dev/cl/723900 
+│                        │      │                  ├ [1]: https://go.dev/issue/76442 
+│                        │      │                  ├ [2]: https://groups.google.com/g/golang-announce/c/8FJoBkP
+│                        │      │                  │      ddm4 
+│                        │      │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2025-4175 
+│                        │      ├ PublishedDate   : 2025-12-03T20:16:25.607Z 
+│                        │      ╰ LastModifiedDate: 2025-12-03T22:15:51.51Z 
 │                        ╰ [13] ╭ VulnerabilityID : CVE-2025-61729 
 │                               ├ PkgID           : stdlib@v1.24.6 
 │                               ├ PkgName         : stdlib 
@@ -38726,7 +38738,7 @@
 │                        │      │                  ├ [8] : https://groups.google.com/g/golang-announce/c/x5MKro
 │                        │      │                  │       ML2yM 
 │                        │      │                  ├ [9] : https://linux.oracle.com/cve/CVE-2025-47907.html 
-│                        │      │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2025-20909.html 
+│                        │      │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2025-20983.html 
 │                        │      │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2025-47907 
 │                        │      │                  ├ [12]: https://pkg.go.dev/vuln/GO-2025-3849 
 │                        │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2025-47907 
@@ -38791,7 +38803,7 @@
 │                        │      │                  ├ [13]: https://groups.google.com/g/golang-announce/c/4Emdl2
 │                        │      │                  │       iQ_bI 
 │                        │      │                  ├ [14]: https://linux.oracle.com/cve/CVE-2025-58183.html 
-│                        │      │                  ├ [15]: https://linux.oracle.com/errata/ELSA-2025-22011.html 
+│                        │      │                  ├ [15]: https://linux.oracle.com/errata/ELSA-2025-22012.html 
 │                        │      │                  ├ [16]: https://nvd.nist.gov/vuln/detail/CVE-2025-58183 
 │                        │      │                  ├ [17]: https://pkg.go.dev/vuln/GO-2025-4014 
 │                        │      │                  ╰ [18]: https://www.cve.org/CVERecord?id=CVE-2025-58183 
@@ -39446,19 +39458,21 @@
 │                        │      │                  ╰ URL : https://pkg.go.dev/vuln/ 
 │                        │      ├ Fingerprint     : sha256:37882334fe3c105bd0eda00a86b63d60857d1be9ef823738fde5
 │                        │      │                   71f61c1772da 
-│                        │      ├ Title           : Improper application of excluded DNS name constraints when
-│                        │      │                   verifying wildcard names in crypto/x509 
+│                        │      ├ Title           : An excluded subdomain constraint in a certificate chain
+│                        │      │                   does not restr ... 
 │                        │      ├ Description     : An excluded subdomain constraint in a certificate chain
 │                        │      │                   does not restrict the usage of wildcard SANs in the leaf
 │                        │      │                   certificate. For example a constraint that excludes the
 │                        │      │                   subdomain test.example.com does not prevent a leaf
 │                        │      │                   certificate from claiming the SAN *.example.com. 
 │                        │      ├ Severity        : UNKNOWN 
-│                        │      ╰ References       ╭ [0]: https://go.dev/cl/723900 
-│                        │                         ├ [1]: https://go.dev/issue/76442 
-│                        │                         ├ [2]: https://groups.google.com/g/golang-announce/c/8FJoBkP
-│                        │                         │      ddm4 
-│                        │                         ╰ [3]: https://pkg.go.dev/vuln/GO-2025-4175 
+│                        │      ├ References       ╭ [0]: https://go.dev/cl/723900 
+│                        │      │                  ├ [1]: https://go.dev/issue/76442 
+│                        │      │                  ├ [2]: https://groups.google.com/g/golang-announce/c/8FJoBkP
+│                        │      │                  │      ddm4 
+│                        │      │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2025-4175 
+│                        │      ├ PublishedDate   : 2025-12-03T20:16:25.607Z 
+│                        │      ╰ LastModifiedDate: 2025-12-03T22:15:51.51Z 
 │                        ╰ [29] ╭ VulnerabilityID : CVE-2025-61729 
 │                               ├ PkgID           : stdlib@v1.22.12 
 │                               ├ PkgName         : stdlib 
