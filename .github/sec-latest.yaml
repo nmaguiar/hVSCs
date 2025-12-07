@@ -25459,12 +25459,12 @@
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:L/A:N
         V3Score: 3.6
     References:
-    - https://access.redhat.com/errata/RHSA-2025:20559
+    - https://access.redhat.com/errata/RHSA-2025:20145
     - https://access.redhat.com/security/cve/CVE-2024-56433
     - https://bugzilla.redhat.com/2334165
     - https://bugzilla.redhat.com/show_bug.cgi?id=2334165
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-56433
-    - https://errata.almalinux.org/9/ALSA-2025-20559.html
+    - https://errata.almalinux.org/10/ALSA-2025-20145.html
     - https://errata.rockylinux.org/RLSA-2025:20559
     - https://github.com/shadow-maint/shadow/blob/e2512d5741d4a44bdd81a8c2d0029b6222728cf0/etc/login.defs#L238-L241
     - https://github.com/shadow-maint/shadow/issues/1157
@@ -25739,12 +25739,12 @@
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:L/A:N
         V3Score: 3.6
     References:
-    - https://access.redhat.com/errata/RHSA-2025:20559
+    - https://access.redhat.com/errata/RHSA-2025:20145
     - https://access.redhat.com/security/cve/CVE-2024-56433
     - https://bugzilla.redhat.com/2334165
     - https://bugzilla.redhat.com/show_bug.cgi?id=2334165
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-56433
-    - https://errata.almalinux.org/9/ALSA-2025-20559.html
+    - https://errata.almalinux.org/10/ALSA-2025-20145.html
     - https://errata.rockylinux.org/RLSA-2025:20559
     - https://github.com/shadow-maint/shadow/blob/e2512d5741d4a44bdd81a8c2d0029b6222728cf0/etc/login.defs#L238-L241
     - https://github.com/shadow-maint/shadow/issues/1157
@@ -26321,12 +26321,12 @@
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:L/A:N
         V3Score: 3.6
     References:
-    - https://access.redhat.com/errata/RHSA-2025:20559
+    - https://access.redhat.com/errata/RHSA-2025:20145
     - https://access.redhat.com/security/cve/CVE-2024-56433
     - https://bugzilla.redhat.com/2334165
     - https://bugzilla.redhat.com/show_bug.cgi?id=2334165
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-56433
-    - https://errata.almalinux.org/9/ALSA-2025-20559.html
+    - https://errata.almalinux.org/10/ALSA-2025-20145.html
     - https://errata.rockylinux.org/RLSA-2025:20559
     - https://github.com/shadow-maint/shadow/blob/e2512d5741d4a44bdd81a8c2d0029b6222728cf0/etc/login.defs#L238-L241
     - https://github.com/shadow-maint/shadow/issues/1157
@@ -27802,11 +27802,11 @@
         V3Score: 7
     References:
     - http://www.openwall.com/lists/oss-security/2025/08/06/1
-    - https://access.redhat.com/errata/RHSA-2025:20909
+    - https://access.redhat.com/errata/RHSA-2025:20983
     - https://access.redhat.com/security/cve/CVE-2025-47907
     - https://bugzilla.redhat.com/2387083
     - https://bugzilla.redhat.com/2393152
-    - https://errata.almalinux.org/9/ALSA-2025-20909.html
+    - https://errata.almalinux.org/10/ALSA-2025-20983.html
     - https://go.dev/cl/693735
     - https://go.dev/issue/74831
     - https://groups.google.com/g/golang-announce/c/x5MKroML2yM
@@ -27842,7 +27842,7 @@
       alma: 3
       amazon: 3
       bitnami: 2
-      oracle-oval: 3
+      oracle-oval: 2
       redhat: 2
       rocky: 3
     CVSS:
@@ -27854,7 +27854,7 @@
         V3Score: 7.5
     References:
     - http://www.openwall.com/lists/oss-security/2025/10/08/1
-    - https://access.redhat.com/errata/RHSA-2025:22011
+    - https://access.redhat.com/errata/RHSA-2025:22012
     - https://access.redhat.com/security/cve/CVE-2025-58183
     - https://bugzilla.redhat.com/2404715
     - https://bugzilla.redhat.com/2407258
@@ -27862,13 +27862,13 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2407258
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-52881
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-58183
-    - https://errata.almalinux.org/9/ALSA-2025-22011.html
+    - https://errata.almalinux.org/10/ALSA-2025-22012.html
     - https://errata.rockylinux.org/RLSA-2025:22011
     - https://go.dev/cl/709861
     - https://go.dev/issue/75677
     - https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI
     - https://linux.oracle.com/cve/CVE-2025-58183.html
-    - https://linux.oracle.com/errata/ELSA-2025-22012.html
+    - https://linux.oracle.com/errata/ELSA-2025-22668.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-58183
     - https://pkg.go.dev/vuln/GO-2025-4014
     - https://www.cve.org/CVERecord?id=CVE-2025-58183
@@ -28062,12 +28062,12 @@
         V3Score: 5.4
     References:
     - http://www.openwall.com/lists/oss-security/2025/04/04/4
-    - https://access.redhat.com/errata/RHSA-2025:9635
+    - https://access.redhat.com/errata/RHSA-2025:9146
     - https://access.redhat.com/security/cve/CVE-2025-22871
     - https://bugzilla.redhat.com/2358493
     - https://bugzilla.redhat.com/show_bug.cgi?id=2358493
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-22871
-    - https://errata.almalinux.org/9/ALSA-2025-9635.html
+    - https://errata.almalinux.org/10/ALSA-2025-9146.html
     - https://errata.rockylinux.org/RLSA-2025:9845
     - https://github.com/roadrunner-server/roadrunner
     - https://github.com/roadrunner-server/roadrunner/commit/f269279ee87d0b88127741cad1042389af7605fa
@@ -28122,12 +28122,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:N/A:N
         V3Score: 6.8
     References:
-    - https://access.redhat.com/errata/RHSA-2025:15887
+    - https://access.redhat.com/errata/RHSA-2025:10677
     - https://access.redhat.com/security/cve/CVE-2025-4673
     - https://bugzilla.redhat.com/2373305
     - https://bugzilla.redhat.com/show_bug.cgi?id=2373305
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-4673
-    - https://errata.almalinux.org/9/ALSA-2025-15887.html
+    - https://errata.almalinux.org/10/ALSA-2025-10677.html
     - https://errata.rockylinux.org/RLSA-2025:16432
     - https://go.dev/cl/679257
     - https://go.dev/issue/73816
@@ -28190,7 +28190,7 @@
     - https://go.dev/issue/74466
     - https://groups.google.com/g/golang-announce/c/x5MKroML2yM
     - https://linux.oracle.com/cve/CVE-2025-47906.html
-    - https://linux.oracle.com/errata/ELSA-2025-22005.html
+    - https://linux.oracle.com/errata/ELSA-2025-22668.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-47906
     - https://pkg.go.dev/vuln/GO-2025-3956
     - https://www.cve.org/CVERecord?id=CVE-2025-47906
@@ -29070,11 +29070,11 @@
         V3Score: 7
     References:
     - http://www.openwall.com/lists/oss-security/2025/08/06/1
-    - https://access.redhat.com/errata/RHSA-2025:20909
+    - https://access.redhat.com/errata/RHSA-2025:20983
     - https://access.redhat.com/security/cve/CVE-2025-47907
     - https://bugzilla.redhat.com/2387083
     - https://bugzilla.redhat.com/2393152
-    - https://errata.almalinux.org/9/ALSA-2025-20909.html
+    - https://errata.almalinux.org/10/ALSA-2025-20983.html
     - https://go.dev/cl/693735
     - https://go.dev/issue/74831
     - https://groups.google.com/g/golang-announce/c/x5MKroML2yM
@@ -29110,7 +29110,7 @@
       alma: 3
       amazon: 3
       bitnami: 2
-      oracle-oval: 3
+      oracle-oval: 2
       redhat: 2
       rocky: 3
     CVSS:
@@ -29122,7 +29122,7 @@
         V3Score: 7.5
     References:
     - http://www.openwall.com/lists/oss-security/2025/10/08/1
-    - https://access.redhat.com/errata/RHSA-2025:22011
+    - https://access.redhat.com/errata/RHSA-2025:22012
     - https://access.redhat.com/security/cve/CVE-2025-58183
     - https://bugzilla.redhat.com/2404715
     - https://bugzilla.redhat.com/2407258
@@ -29130,13 +29130,13 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2407258
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-52881
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-58183
-    - https://errata.almalinux.org/9/ALSA-2025-22011.html
+    - https://errata.almalinux.org/10/ALSA-2025-22012.html
     - https://errata.rockylinux.org/RLSA-2025:22011
     - https://go.dev/cl/709861
     - https://go.dev/issue/75677
     - https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI
     - https://linux.oracle.com/cve/CVE-2025-58183.html
-    - https://linux.oracle.com/errata/ELSA-2025-22012.html
+    - https://linux.oracle.com/errata/ELSA-2025-22668.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-58183
     - https://pkg.go.dev/vuln/GO-2025-4014
     - https://www.cve.org/CVERecord?id=CVE-2025-58183
@@ -29330,12 +29330,12 @@
         V3Score: 5.4
     References:
     - http://www.openwall.com/lists/oss-security/2025/04/04/4
-    - https://access.redhat.com/errata/RHSA-2025:9635
+    - https://access.redhat.com/errata/RHSA-2025:9146
     - https://access.redhat.com/security/cve/CVE-2025-22871
     - https://bugzilla.redhat.com/2358493
     - https://bugzilla.redhat.com/show_bug.cgi?id=2358493
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-22871
-    - https://errata.almalinux.org/9/ALSA-2025-9635.html
+    - https://errata.almalinux.org/10/ALSA-2025-9146.html
     - https://errata.rockylinux.org/RLSA-2025:9845
     - https://github.com/roadrunner-server/roadrunner
     - https://github.com/roadrunner-server/roadrunner/commit/f269279ee87d0b88127741cad1042389af7605fa
@@ -29390,12 +29390,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:N/A:N
         V3Score: 6.8
     References:
-    - https://access.redhat.com/errata/RHSA-2025:15887
+    - https://access.redhat.com/errata/RHSA-2025:10677
     - https://access.redhat.com/security/cve/CVE-2025-4673
     - https://bugzilla.redhat.com/2373305
     - https://bugzilla.redhat.com/show_bug.cgi?id=2373305
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-4673
-    - https://errata.almalinux.org/9/ALSA-2025-15887.html
+    - https://errata.almalinux.org/10/ALSA-2025-10677.html
     - https://errata.rockylinux.org/RLSA-2025:16432
     - https://go.dev/cl/679257
     - https://go.dev/issue/73816
@@ -29458,7 +29458,7 @@
     - https://go.dev/issue/74466
     - https://groups.google.com/g/golang-announce/c/x5MKroML2yM
     - https://linux.oracle.com/cve/CVE-2025-47906.html
-    - https://linux.oracle.com/errata/ELSA-2025-22005.html
+    - https://linux.oracle.com/errata/ELSA-2025-22668.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-47906
     - https://pkg.go.dev/vuln/GO-2025-3956
     - https://www.cve.org/CVERecord?id=CVE-2025-47906
@@ -31631,7 +31631,7 @@
       Name: GitHub Security Advisory Go
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
     Fingerprint: sha256:a40ae3f984f1262cc1e13a0f7df0d2cdf2ae2eabd22db72751cc037a64499863
-    Title: containerd is an open-source container runtime. Versions 0.1.0 through ...
+    Title: 'github.com/containerd/containerd: containerd local privilege escalation'
     Description: containerd is an open-source container runtime. Versions 0.1.0 through 1.7.28, 2.0.0-beta.0 through 2.0.6, 2.1.0-beta.0 through 2.1.4 and 2.2.0-beta.0 through 2.2.0-rc.1 have an overly broad default permission vulnerability. Directory paths `/var/lib/containerd`, `/run/containerd/io.containerd.grpc.v1.cri` and `/run/containerd/io.containerd.sandbox.controller.v1.shim` were all created with incorrect permissions. This issue is fixed in versions 1.7.29, 2.0.7, 2.1.5 and 2.2.0. Workarounds include updating system administrator permissions so the host can manually chmod the directories to not have group or world accessible permissions, or to run containerd in rootless mode.
     Severity: HIGH
     CweIDs:
@@ -31641,16 +31641,22 @@
       cbl-mariner: 3
       ghsa: 3
       photon: 3
+      redhat: 3
     CVSS:
       ghsa:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H
         V3Score: 7.3
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:L
+        V3Score: 7.7
     References:
+    - https://access.redhat.com/security/cve/CVE-2024-25621
     - https://github.com/containerd/containerd
     - https://github.com/containerd/containerd/blob/main/docs/rootless.md
     - https://github.com/containerd/containerd/commit/7c59e8e9e970d38061a77b586b23655c352bfec5
     - https://github.com/containerd/containerd/security/advisories/GHSA-pwhc-rpq9-4c8w
     - https://nvd.nist.gov/vuln/detail/CVE-2024-25621
+    - https://www.cve.org/CVERecord?id=CVE-2024-25621
     PublishedDate: '2025-11-06T19:15:40.09Z'
     LastModifiedDate: '2025-11-06T19:45:09.883Z'
   - VulnerabilityID: CVE-2025-64329
@@ -32994,7 +33000,7 @@
       Name: GitHub Security Advisory Go
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
     Fingerprint: sha256:c572f3c11f47bebb1ff661701d9379f9cee1e49c852bc713bfe54ca43db390bc
-    Title: containerd is an open-source container runtime. Versions 0.1.0 through ...
+    Title: 'github.com/containerd/containerd: containerd local privilege escalation'
     Description: containerd is an open-source container runtime. Versions 0.1.0 through 1.7.28, 2.0.0-beta.0 through 2.0.6, 2.1.0-beta.0 through 2.1.4 and 2.2.0-beta.0 through 2.2.0-rc.1 have an overly broad default permission vulnerability. Directory paths `/var/lib/containerd`, `/run/containerd/io.containerd.grpc.v1.cri` and `/run/containerd/io.containerd.sandbox.controller.v1.shim` were all created with incorrect permissions. This issue is fixed in versions 1.7.29, 2.0.7, 2.1.5 and 2.2.0. Workarounds include updating system administrator permissions so the host can manually chmod the directories to not have group or world accessible permissions, or to run containerd in rootless mode.
     Severity: HIGH
     CweIDs:
@@ -33004,16 +33010,22 @@
       cbl-mariner: 3
       ghsa: 3
       photon: 3
+      redhat: 3
     CVSS:
       ghsa:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H
         V3Score: 7.3
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:L
+        V3Score: 7.7
     References:
+    - https://access.redhat.com/security/cve/CVE-2024-25621
     - https://github.com/containerd/containerd
     - https://github.com/containerd/containerd/blob/main/docs/rootless.md
     - https://github.com/containerd/containerd/commit/7c59e8e9e970d38061a77b586b23655c352bfec5
     - https://github.com/containerd/containerd/security/advisories/GHSA-pwhc-rpq9-4c8w
     - https://nvd.nist.gov/vuln/detail/CVE-2024-25621
+    - https://www.cve.org/CVERecord?id=CVE-2024-25621
     PublishedDate: '2025-11-06T19:15:40.09Z'
     LastModifiedDate: '2025-11-06T19:45:09.883Z'
   - VulnerabilityID: CVE-2025-64329
@@ -33154,7 +33166,7 @@
       alma: 3
       amazon: 3
       bitnami: 2
-      oracle-oval: 3
+      oracle-oval: 2
       redhat: 2
       rocky: 3
     CVSS:
@@ -33166,7 +33178,7 @@
         V3Score: 7.5
     References:
     - http://www.openwall.com/lists/oss-security/2025/10/08/1
-    - https://access.redhat.com/errata/RHSA-2025:22011
+    - https://access.redhat.com/errata/RHSA-2025:22012
     - https://access.redhat.com/security/cve/CVE-2025-58183
     - https://bugzilla.redhat.com/2404715
     - https://bugzilla.redhat.com/2407258
@@ -33174,13 +33186,13 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2407258
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-52881
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-58183
-    - https://errata.almalinux.org/9/ALSA-2025-22011.html
+    - https://errata.almalinux.org/10/ALSA-2025-22012.html
     - https://errata.rockylinux.org/RLSA-2025:22011
     - https://go.dev/cl/709861
     - https://go.dev/issue/75677
     - https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI
     - https://linux.oracle.com/cve/CVE-2025-58183.html
-    - https://linux.oracle.com/errata/ELSA-2025-22012.html
+    - https://linux.oracle.com/errata/ELSA-2025-22668.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-58183
     - https://pkg.go.dev/vuln/GO-2025-4014
     - https://www.cve.org/CVERecord?id=CVE-2025-58183
@@ -34491,7 +34503,7 @@
       alma: 3
       amazon: 3
       bitnami: 2
-      oracle-oval: 3
+      oracle-oval: 2
       redhat: 2
       rocky: 3
     CVSS:
@@ -34503,7 +34515,7 @@
         V3Score: 7.5
     References:
     - http://www.openwall.com/lists/oss-security/2025/10/08/1
-    - https://access.redhat.com/errata/RHSA-2025:22011
+    - https://access.redhat.com/errata/RHSA-2025:22012
     - https://access.redhat.com/security/cve/CVE-2025-58183
     - https://bugzilla.redhat.com/2404715
     - https://bugzilla.redhat.com/2407258
@@ -34511,13 +34523,13 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2407258
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-52881
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-58183
-    - https://errata.almalinux.org/9/ALSA-2025-22011.html
+    - https://errata.almalinux.org/10/ALSA-2025-22012.html
     - https://errata.rockylinux.org/RLSA-2025:22011
     - https://go.dev/cl/709861
     - https://go.dev/issue/75677
     - https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI
     - https://linux.oracle.com/cve/CVE-2025-58183.html
-    - https://linux.oracle.com/errata/ELSA-2025-22012.html
+    - https://linux.oracle.com/errata/ELSA-2025-22668.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-58183
     - https://pkg.go.dev/vuln/GO-2025-4014
     - https://www.cve.org/CVERecord?id=CVE-2025-58183
@@ -36073,7 +36085,7 @@
       alma: 3
       amazon: 3
       bitnami: 2
-      oracle-oval: 3
+      oracle-oval: 2
       redhat: 2
       rocky: 3
     CVSS:
@@ -36085,7 +36097,7 @@
         V3Score: 7.5
     References:
     - http://www.openwall.com/lists/oss-security/2025/10/08/1
-    - https://access.redhat.com/errata/RHSA-2025:22011
+    - https://access.redhat.com/errata/RHSA-2025:22012
     - https://access.redhat.com/security/cve/CVE-2025-58183
     - https://bugzilla.redhat.com/2404715
     - https://bugzilla.redhat.com/2407258
@@ -36093,13 +36105,13 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2407258
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-52881
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-58183
-    - https://errata.almalinux.org/9/ALSA-2025-22011.html
+    - https://errata.almalinux.org/10/ALSA-2025-22012.html
     - https://errata.rockylinux.org/RLSA-2025:22011
     - https://go.dev/cl/709861
     - https://go.dev/issue/75677
     - https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI
     - https://linux.oracle.com/cve/CVE-2025-58183.html
-    - https://linux.oracle.com/errata/ELSA-2025-22012.html
+    - https://linux.oracle.com/errata/ELSA-2025-22668.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-58183
     - https://pkg.go.dev/vuln/GO-2025-4014
     - https://www.cve.org/CVERecord?id=CVE-2025-58183
@@ -37672,7 +37684,7 @@
       Name: GitHub Security Advisory Go
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
     Fingerprint: sha256:71f853751a69694a60bb7377d4ebfd0bc3580dd23bb32d0a3ba8dea0906c2d43
-    Title: containerd is an open-source container runtime. Versions 0.1.0 through ...
+    Title: 'github.com/containerd/containerd: containerd local privilege escalation'
     Description: containerd is an open-source container runtime. Versions 0.1.0 through 1.7.28, 2.0.0-beta.0 through 2.0.6, 2.1.0-beta.0 through 2.1.4 and 2.2.0-beta.0 through 2.2.0-rc.1 have an overly broad default permission vulnerability. Directory paths `/var/lib/containerd`, `/run/containerd/io.containerd.grpc.v1.cri` and `/run/containerd/io.containerd.sandbox.controller.v1.shim` were all created with incorrect permissions. This issue is fixed in versions 1.7.29, 2.0.7, 2.1.5 and 2.2.0. Workarounds include updating system administrator permissions so the host can manually chmod the directories to not have group or world accessible permissions, or to run containerd in rootless mode.
     Severity: HIGH
     CweIDs:
@@ -37682,16 +37694,22 @@
       cbl-mariner: 3
       ghsa: 3
       photon: 3
+      redhat: 3
     CVSS:
       ghsa:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H
         V3Score: 7.3
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:L
+        V3Score: 7.7
     References:
+    - https://access.redhat.com/security/cve/CVE-2024-25621
     - https://github.com/containerd/containerd
     - https://github.com/containerd/containerd/blob/main/docs/rootless.md
     - https://github.com/containerd/containerd/commit/7c59e8e9e970d38061a77b586b23655c352bfec5
     - https://github.com/containerd/containerd/security/advisories/GHSA-pwhc-rpq9-4c8w
     - https://nvd.nist.gov/vuln/detail/CVE-2024-25621
+    - https://www.cve.org/CVERecord?id=CVE-2024-25621
     PublishedDate: '2025-11-06T19:15:40.09Z'
     LastModifiedDate: '2025-11-06T19:45:09.883Z'
   - VulnerabilityID: CVE-2024-40635
@@ -38339,11 +38357,11 @@
         V3Score: 7
     References:
     - http://www.openwall.com/lists/oss-security/2025/08/06/1
-    - https://access.redhat.com/errata/RHSA-2025:20909
+    - https://access.redhat.com/errata/RHSA-2025:20983
     - https://access.redhat.com/security/cve/CVE-2025-47907
     - https://bugzilla.redhat.com/2387083
     - https://bugzilla.redhat.com/2393152
-    - https://errata.almalinux.org/9/ALSA-2025-20909.html
+    - https://errata.almalinux.org/10/ALSA-2025-20983.html
     - https://go.dev/cl/693735
     - https://go.dev/issue/74831
     - https://groups.google.com/g/golang-announce/c/x5MKroML2yM
@@ -38379,7 +38397,7 @@
       alma: 3
       amazon: 3
       bitnami: 2
-      oracle-oval: 3
+      oracle-oval: 2
       redhat: 2
       rocky: 3
     CVSS:
@@ -38391,7 +38409,7 @@
         V3Score: 7.5
     References:
     - http://www.openwall.com/lists/oss-security/2025/10/08/1
-    - https://access.redhat.com/errata/RHSA-2025:22011
+    - https://access.redhat.com/errata/RHSA-2025:22012
     - https://access.redhat.com/security/cve/CVE-2025-58183
     - https://bugzilla.redhat.com/2404715
     - https://bugzilla.redhat.com/2407258
@@ -38399,13 +38417,13 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2407258
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-52881
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-58183
-    - https://errata.almalinux.org/9/ALSA-2025-22011.html
+    - https://errata.almalinux.org/10/ALSA-2025-22012.html
     - https://errata.rockylinux.org/RLSA-2025:22011
     - https://go.dev/cl/709861
     - https://go.dev/issue/75677
     - https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI
     - https://linux.oracle.com/cve/CVE-2025-58183.html
-    - https://linux.oracle.com/errata/ELSA-2025-22012.html
+    - https://linux.oracle.com/errata/ELSA-2025-22668.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-58183
     - https://pkg.go.dev/vuln/GO-2025-4014
     - https://www.cve.org/CVERecord?id=CVE-2025-58183
@@ -38599,12 +38617,12 @@
         V3Score: 5.4
     References:
     - http://www.openwall.com/lists/oss-security/2025/04/04/4
-    - https://access.redhat.com/errata/RHSA-2025:9635
+    - https://access.redhat.com/errata/RHSA-2025:9146
     - https://access.redhat.com/security/cve/CVE-2025-22871
     - https://bugzilla.redhat.com/2358493
     - https://bugzilla.redhat.com/show_bug.cgi?id=2358493
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-22871
-    - https://errata.almalinux.org/9/ALSA-2025-9635.html
+    - https://errata.almalinux.org/10/ALSA-2025-9146.html
     - https://errata.rockylinux.org/RLSA-2025:9845
     - https://github.com/roadrunner-server/roadrunner
     - https://github.com/roadrunner-server/roadrunner/commit/f269279ee87d0b88127741cad1042389af7605fa
@@ -38659,12 +38677,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:N/A:N
         V3Score: 6.8
     References:
-    - https://access.redhat.com/errata/RHSA-2025:15887
+    - https://access.redhat.com/errata/RHSA-2025:10677
     - https://access.redhat.com/security/cve/CVE-2025-4673
     - https://bugzilla.redhat.com/2373305
     - https://bugzilla.redhat.com/show_bug.cgi?id=2373305
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-4673
-    - https://errata.almalinux.org/9/ALSA-2025-15887.html
+    - https://errata.almalinux.org/10/ALSA-2025-10677.html
     - https://errata.rockylinux.org/RLSA-2025:16432
     - https://go.dev/cl/679257
     - https://go.dev/issue/73816
@@ -38727,7 +38745,7 @@
     - https://go.dev/issue/74466
     - https://groups.google.com/g/golang-announce/c/x5MKroML2yM
     - https://linux.oracle.com/cve/CVE-2025-47906.html
-    - https://linux.oracle.com/errata/ELSA-2025-22005.html
+    - https://linux.oracle.com/errata/ELSA-2025-22668.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-47906
     - https://pkg.go.dev/vuln/GO-2025-3956
     - https://www.cve.org/CVERecord?id=CVE-2025-47906
