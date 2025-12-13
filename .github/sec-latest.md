@@ -24673,7 +24673,45 @@
 │                        │      │                  ╰ [9]: https://www.gnu.org/ 
 │                        │      ├ PublishedDate   : 2025-02-17T05:15:09.807Z 
 │                        │      ╰ LastModifiedDate: 2025-11-04T20:21:18.26Z 
-│                        ├ [28] ╭ VulnerabilityID : CVE-2022-27943 
+│                        ├ [28] ╭ VulnerabilityID : CVE-2025-66382 
+│                        │      ├ PkgID           : libexpat1@2.4.7-1ubuntu0.6 
+│                        │      ├ PkgName         : libexpat1 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libexpat1@2.4.7-1ubuntu0.6?arch=amd64
+│                        │      │                  │       &distro=ubuntu-22.04 
+│                        │      │                  ╰ UID : cf4ce09e2e4799ac 
+│                        │      ├ InstalledVersion: 2.4.7-1ubuntu0.6 
+│                        │      ├ Status          : affected 
+│                        │      ├ Layer            ╭ Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f
+│                        │      │                  │         672d99cf12d59721fb5d9 
+│                        │      │                  ╰ DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7
+│                        │      │                            277787fa3578e3352a155 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-66382 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Fingerprint     : sha256:b7461d93c692d8cde8a3d03b76d8ea3c1fa6b068c33fcfc7f1b8
+│                        │      │                   7954d7a64c1d 
+│                        │      ├ Title           : libexpat: libexpat: Denial of service via crafted file
+│                        │      │                   processing 
+│                        │      ├ Description     : In libexpat through 2.7.3, a crafted file with an
+│                        │      │                   approximate size of 2 MiB can lead to dozens of seconds of
+│                        │      │                   processing time. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ CweIDs           ─ [0]: CWE-407 
+│                        │      ├ VendorSeverity   ╭ redhat: 1 
+│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:
+│                        │      │                           │           N/A:L 
+│                        │      │                           ╰ V3Score : 2.9 
+│                        │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/12/02/1 
+│                        │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-66382 
+│                        │      │                  ├ [2]: https://github.com/libexpat/libexpat/issues/1076 
+│                        │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-66382 
+│                        │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2025-66382 
+│                        │      ├ PublishedDate   : 2025-11-28T07:15:57.9Z 
+│                        │      ╰ LastModifiedDate: 2025-12-02T03:16:20.34Z 
+│                        ├ [29] ╭ VulnerabilityID : CVE-2022-27943 
 │                        │      ├ PkgID           : libgcc-s1@12.3.0-1ubuntu1~22.04.2 
 │                        │      ├ PkgName         : libgcc-s1 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libgcc-s1@12.3.0-1ubuntu1~22.04.2?arc
@@ -24728,7 +24766,7 @@
 │                        │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2022-27943 
 │                        │      ├ PublishedDate   : 2022-03-26T13:15:07.9Z 
 │                        │      ╰ LastModifiedDate: 2024-11-21T06:56:31.04Z 
-│                        ├ [29] ╭ VulnerabilityID : CVE-2024-2236 
+│                        ├ [30] ╭ VulnerabilityID : CVE-2024-2236 
 │                        │      ├ PkgID           : libgcrypt20@1.9.4-3ubuntu3 
 │                        │      ├ PkgName         : libgcrypt20 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libgcrypt20@1.9.4-3ubuntu3?arch=amd64
@@ -24787,7 +24825,7 @@
 │                        │      │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2024-2236 
 │                        │      ├ PublishedDate   : 2024-03-06T22:15:57.977Z 
 │                        │      ╰ LastModifiedDate: 2025-04-02T17:15:37.79Z 
-│                        ├ [30] ╭ VulnerabilityID : CVE-2025-5222 
+│                        ├ [31] ╭ VulnerabilityID : CVE-2025-5222 
 │                        │      ├ PkgID           : libicu70@70.1-2 
 │                        │      ├ PkgName         : libicu70 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libicu70@70.1-2?arch=amd64&distro=ubu
@@ -24846,7 +24884,7 @@
 │                        │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2025-5222 
 │                        │      ├ PublishedDate   : 2025-05-27T21:15:23.03Z 
 │                        │      ╰ LastModifiedDate: 2025-08-08T14:55:36.747Z 
-│                        ├ [31] ╭ VulnerabilityID : CVE-2023-50495 
+│                        ├ [32] ╭ VulnerabilityID : CVE-2023-50495 
 │                        │      ├ PkgID           : libncurses6@6.3-2ubuntu0.1 
 │                        │      ├ PkgName         : libncurses6 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libncurses6@6.3-2ubuntu0.1?arch=amd64
@@ -24898,7 +24936,7 @@
 │                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2023-50495 
 │                        │      ├ PublishedDate   : 2023-12-12T15:15:07.867Z 
 │                        │      ╰ LastModifiedDate: 2025-11-04T19:16:14.45Z 
-│                        ├ [32] ╭ VulnerabilityID : CVE-2023-50495 
+│                        ├ [33] ╭ VulnerabilityID : CVE-2023-50495 
 │                        │      ├ PkgID           : libncursesw6@6.3-2ubuntu0.1 
 │                        │      ├ PkgName         : libncursesw6 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libncursesw6@6.3-2ubuntu0.1?arch=amd6
@@ -24950,7 +24988,7 @@
 │                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2023-50495 
 │                        │      ├ PublishedDate   : 2023-12-12T15:15:07.867Z 
 │                        │      ╰ LastModifiedDate: 2025-11-04T19:16:14.45Z 
-│                        ├ [33] ╭ VulnerabilityID : CVE-2023-7008 
+│                        ├ [34] ╭ VulnerabilityID : CVE-2023-7008 
 │                        │      ├ PkgID           : libnss-systemd@249.11-0ubuntu3.17 
 │                        │      ├ PkgName         : libnss-systemd 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libnss-systemd@249.11-0ubuntu3.17?arc
@@ -25021,7 +25059,7 @@
 │                        │      │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
 │                        │      ├ PublishedDate   : 2023-12-23T13:15:07.573Z 
 │                        │      ╰ LastModifiedDate: 2025-11-04T17:15:43.4Z 
-│                        ├ [34] ╭ VulnerabilityID : CVE-2025-8941 
+│                        ├ [35] ╭ VulnerabilityID : CVE-2025-8941 
 │                        │      ├ PkgID           : libpam-modules@1.4.0-11ubuntu2.6 
 │                        │      ├ PkgName         : libpam-modules 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpam-modules@1.4.0-11ubuntu2.6?arch
@@ -25091,7 +25129,7 @@
 │                        │      │                  ╰ [29]: https://www.cve.org/CVERecord?id=CVE-2025-8941 
 │                        │      ├ PublishedDate   : 2025-08-13T15:15:41.873Z 
 │                        │      ╰ LastModifiedDate: 2025-11-20T21:16:08.11Z 
-│                        ├ [35] ╭ VulnerabilityID : CVE-2025-8941 
+│                        ├ [36] ╭ VulnerabilityID : CVE-2025-8941 
 │                        │      ├ PkgID           : libpam-modules-bin@1.4.0-11ubuntu2.6 
 │                        │      ├ PkgName         : libpam-modules-bin 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpam-modules-bin@1.4.0-11ubuntu2.6?
@@ -25161,7 +25199,7 @@
 │                        │      │                  ╰ [29]: https://www.cve.org/CVERecord?id=CVE-2025-8941 
 │                        │      ├ PublishedDate   : 2025-08-13T15:15:41.873Z 
 │                        │      ╰ LastModifiedDate: 2025-11-20T21:16:08.11Z 
-│                        ├ [36] ╭ VulnerabilityID : CVE-2025-8941 
+│                        ├ [37] ╭ VulnerabilityID : CVE-2025-8941 
 │                        │      ├ PkgID           : libpam-runtime@1.4.0-11ubuntu2.6 
 │                        │      ├ PkgName         : libpam-runtime 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpam-runtime@1.4.0-11ubuntu2.6?arch
@@ -25231,7 +25269,7 @@
 │                        │      │                  ╰ [29]: https://www.cve.org/CVERecord?id=CVE-2025-8941 
 │                        │      ├ PublishedDate   : 2025-08-13T15:15:41.873Z 
 │                        │      ╰ LastModifiedDate: 2025-11-20T21:16:08.11Z 
-│                        ├ [37] ╭ VulnerabilityID : CVE-2023-7008 
+│                        ├ [38] ╭ VulnerabilityID : CVE-2023-7008 
 │                        │      ├ PkgID           : libpam-systemd@249.11-0ubuntu3.17 
 │                        │      ├ PkgName         : libpam-systemd 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpam-systemd@249.11-0ubuntu3.17?arc
@@ -25302,7 +25340,7 @@
 │                        │      │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
 │                        │      ├ PublishedDate   : 2023-12-23T13:15:07.573Z 
 │                        │      ╰ LastModifiedDate: 2025-11-04T17:15:43.4Z 
-│                        ├ [38] ╭ VulnerabilityID : CVE-2025-8941 
+│                        ├ [39] ╭ VulnerabilityID : CVE-2025-8941 
 │                        │      ├ PkgID           : libpam0g@1.4.0-11ubuntu2.6 
 │                        │      ├ PkgName         : libpam0g 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpam0g@1.4.0-11ubuntu2.6?arch=amd64
@@ -25372,7 +25410,7 @@
 │                        │      │                  ╰ [29]: https://www.cve.org/CVERecord?id=CVE-2025-8941 
 │                        │      ├ PublishedDate   : 2025-08-13T15:15:41.873Z 
 │                        │      ╰ LastModifiedDate: 2025-11-20T21:16:08.11Z 
-│                        ├ [39] ╭ VulnerabilityID : CVE-2022-41409 
+│                        ├ [40] ╭ VulnerabilityID : CVE-2022-41409 
 │                        │      ├ PkgID           : libpcre2-8-0@10.39-3ubuntu0.1 
 │                        │      ├ PkgName         : libpcre2-8-0 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpcre2-8-0@10.39-3ubuntu0.1?arch=am
@@ -25419,7 +25457,7 @@
 │                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2022-41409 
 │                        │      ├ PublishedDate   : 2023-07-18T14:15:12.197Z 
 │                        │      ╰ LastModifiedDate: 2024-11-21T07:23:10.577Z 
-│                        ├ [40] ╭ VulnerabilityID : CVE-2017-11164 
+│                        ├ [41] ╭ VulnerabilityID : CVE-2017-11164 
 │                        │      ├ PkgID           : libpcre3@2:8.39-13ubuntu0.22.04.1 
 │                        │      ├ PkgName         : libpcre3 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpcre3@8.39-13ubuntu0.22.04.1?arch=
@@ -25468,14 +25506,15 @@
 │                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2017-11164 
 │                        │      ├ PublishedDate   : 2017-07-11T03:29:00.277Z 
 │                        │      ╰ LastModifiedDate: 2025-04-20T01:37:25.86Z 
-│                        ├ [41] ╭ VulnerabilityID : CVE-2025-64505 
+│                        ├ [42] ╭ VulnerabilityID : CVE-2025-64505 
 │                        │      ├ PkgID           : libpng16-16@1.6.37-3build5 
 │                        │      ├ PkgName         : libpng16-16 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpng16-16@1.6.37-3build5?arch=amd64
 │                        │      │                  │       &distro=ubuntu-22.04 
 │                        │      │                  ╰ UID : 52c5542a346c10b0 
 │                        │      ├ InstalledVersion: 1.6.37-3build5 
-│                        │      ├ Status          : affected 
+│                        │      ├ FixedVersion    : 1.6.37-3ubuntu0.1 
+│                        │      ├ Status          : fixed 
 │                        │      ├ Layer            ╭ Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f
 │                        │      │                  │         672d99cf12d59721fb5d9 
 │                        │      │                  ╰ DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7
@@ -25520,19 +25559,21 @@
 │                        │      │                  ├ [4]: https://github.com/pnggroup/libpng/security/advisorie
 │                        │      │                  │      s/GHSA-4952-h5wq-4m42 
 │                        │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-64505 
-│                        │      │                  ├ [6]: https://www.cve.org/CVERecord?id=CVE-2025-64505 
-│                        │      │                  ╰ [7]: https://www.openwall.com/lists/oss-security/2025/11/2
+│                        │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-7924-1 
+│                        │      │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2025-64505 
+│                        │      │                  ╰ [8]: https://www.openwall.com/lists/oss-security/2025/11/2
 │                        │      │                         2/1 
 │                        │      ├ PublishedDate   : 2025-11-25T00:15:47.133Z 
 │                        │      ╰ LastModifiedDate: 2025-11-26T18:28:32.22Z 
-│                        ├ [42] ╭ VulnerabilityID : CVE-2025-64506 
+│                        ├ [43] ╭ VulnerabilityID : CVE-2025-64506 
 │                        │      ├ PkgID           : libpng16-16@1.6.37-3build5 
 │                        │      ├ PkgName         : libpng16-16 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpng16-16@1.6.37-3build5?arch=amd64
 │                        │      │                  │       &distro=ubuntu-22.04 
 │                        │      │                  ╰ UID : 52c5542a346c10b0 
 │                        │      ├ InstalledVersion: 1.6.37-3build5 
-│                        │      ├ Status          : affected 
+│                        │      ├ FixedVersion    : 1.6.37-3ubuntu0.1 
+│                        │      ├ Status          : fixed 
 │                        │      ├ Layer            ╭ Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f
 │                        │      │                  │         672d99cf12d59721fb5d9 
 │                        │      │                  ╰ DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7
@@ -25577,19 +25618,21 @@
 │                        │      │                  ├ [4]: https://github.com/pnggroup/libpng/security/advisorie
 │                        │      │                  │      s/GHSA-qpr4-xm66-hww6 
 │                        │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-64506 
-│                        │      │                  ├ [6]: https://www.cve.org/CVERecord?id=CVE-2025-64506 
-│                        │      │                  ╰ [7]: https://www.openwall.com/lists/oss-security/2025/11/2
+│                        │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-7924-1 
+│                        │      │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2025-64506 
+│                        │      │                  ╰ [8]: https://www.openwall.com/lists/oss-security/2025/11/2
 │                        │      │                         2/1 
 │                        │      ├ PublishedDate   : 2025-11-25T00:15:47.3Z 
 │                        │      ╰ LastModifiedDate: 2025-11-26T18:34:38.24Z 
-│                        ├ [43] ╭ VulnerabilityID : CVE-2025-64720 
+│                        ├ [44] ╭ VulnerabilityID : CVE-2025-64720 
 │                        │      ├ PkgID           : libpng16-16@1.6.37-3build5 
 │                        │      ├ PkgName         : libpng16-16 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpng16-16@1.6.37-3build5?arch=amd64
 │                        │      │                  │       &distro=ubuntu-22.04 
 │                        │      │                  ╰ UID : 52c5542a346c10b0 
 │                        │      ├ InstalledVersion: 1.6.37-3build5 
-│                        │      ├ Status          : affected 
+│                        │      ├ FixedVersion    : 1.6.37-3ubuntu0.1 
+│                        │      ├ Status          : fixed 
 │                        │      ├ Layer            ╭ Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f
 │                        │      │                  │         672d99cf12d59721fb5d9 
 │                        │      │                  ╰ DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7
@@ -25634,19 +25677,21 @@
 │                        │      │                  ├ [5]: https://github.com/pnggroup/libpng/security/advisorie
 │                        │      │                  │      s/GHSA-hfc7-ph9c-wcww 
 │                        │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2025-64720 
-│                        │      │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2025-64720 
-│                        │      │                  ╰ [8]: https://www.openwall.com/lists/oss-security/2025/11/2
+│                        │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-7924-1 
+│                        │      │                  ├ [8]: https://www.cve.org/CVERecord?id=CVE-2025-64720 
+│                        │      │                  ╰ [9]: https://www.openwall.com/lists/oss-security/2025/11/2
 │                        │      │                         2/1 
 │                        │      ├ PublishedDate   : 2025-11-25T00:15:47.46Z 
 │                        │      ╰ LastModifiedDate: 2025-11-26T18:35:18.253Z 
-│                        ├ [44] ╭ VulnerabilityID : CVE-2025-65018 
+│                        ├ [45] ╭ VulnerabilityID : CVE-2025-65018 
 │                        │      ├ PkgID           : libpng16-16@1.6.37-3build5 
 │                        │      ├ PkgName         : libpng16-16 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpng16-16@1.6.37-3build5?arch=amd64
 │                        │      │                  │       &distro=ubuntu-22.04 
 │                        │      │                  ╰ UID : 52c5542a346c10b0 
 │                        │      ├ InstalledVersion: 1.6.37-3build5 
-│                        │      ├ Status          : affected 
+│                        │      ├ FixedVersion    : 1.6.37-3ubuntu0.1 
+│                        │      ├ Status          : fixed 
 │                        │      ├ Layer            ╭ Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f
 │                        │      │                  │         672d99cf12d59721fb5d9 
 │                        │      │                  ╰ DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7
@@ -25694,12 +25739,13 @@
 │                        │      │                  ├ [7] : https://github.com/pnggroup/libpng/security/advisori
 │                        │      │                  │       es/GHSA-7wv6-48j4-hj3g 
 │                        │      │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2025-65018 
-│                        │      │                  ├ [9] : https://www.cve.org/CVERecord?id=CVE-2025-65018 
-│                        │      │                  ╰ [10]: https://www.openwall.com/lists/oss-security/2025/11/
+│                        │      │                  ├ [9] : https://ubuntu.com/security/notices/USN-7924-1 
+│                        │      │                  ├ [10]: https://www.cve.org/CVERecord?id=CVE-2025-65018 
+│                        │      │                  ╰ [11]: https://www.openwall.com/lists/oss-security/2025/11/
 │                        │      │                          22/1 
 │                        │      ├ PublishedDate   : 2025-11-25T00:15:47.61Z 
 │                        │      ╰ LastModifiedDate: 2025-11-26T18:34:53.65Z 
-│                        ├ [45] ╭ VulnerabilityID : CVE-2025-6075 
+│                        ├ [46] ╭ VulnerabilityID : CVE-2025-6075 
 │                        │      ├ PkgID           : libpython3.10@3.10.12-1~22.04.11 
 │                        │      ├ PkgName         : libpython3.10 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpython3.10@3.10.12-1~22.04.11?arch
@@ -25774,7 +25820,7 @@
 │                        │      │                  ╰ [20]: https://www.cve.org/CVERecord?id=CVE-2025-6075 
 │                        │      ├ PublishedDate   : 2025-10-31T17:15:48.693Z 
 │                        │      ╰ LastModifiedDate: 2025-12-01T19:15:52.55Z 
-│                        ├ [46] ╭ VulnerabilityID : CVE-2025-8291 
+│                        ├ [47] ╭ VulnerabilityID : CVE-2025-8291 
 │                        │      ├ PkgID           : libpython3.10@3.10.12-1~22.04.11 
 │                        │      ├ PkgName         : libpython3.10 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpython3.10@3.10.12-1~22.04.11?arch
@@ -25856,7 +25902,7 @@
 │                        │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2025-8291 
 │                        │      ├ PublishedDate   : 2025-10-07T18:16:00.317Z 
 │                        │      ╰ LastModifiedDate: 2025-10-29T16:15:35.133Z 
-│                        ├ [47] ╭ VulnerabilityID : CVE-2025-6075 
+│                        ├ [48] ╭ VulnerabilityID : CVE-2025-6075 
 │                        │      ├ PkgID           : libpython3.10-minimal@3.10.12-1~22.04.11 
 │                        │      ├ PkgName         : libpython3.10-minimal 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpython3.10-minimal@3.10.12-1~22.04
@@ -25931,7 +25977,7 @@
 │                        │      │                  ╰ [20]: https://www.cve.org/CVERecord?id=CVE-2025-6075 
 │                        │      ├ PublishedDate   : 2025-10-31T17:15:48.693Z 
 │                        │      ╰ LastModifiedDate: 2025-12-01T19:15:52.55Z 
-│                        ├ [48] ╭ VulnerabilityID : CVE-2025-8291 
+│                        ├ [49] ╭ VulnerabilityID : CVE-2025-8291 
 │                        │      ├ PkgID           : libpython3.10-minimal@3.10.12-1~22.04.11 
 │                        │      ├ PkgName         : libpython3.10-minimal 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpython3.10-minimal@3.10.12-1~22.04
@@ -26013,7 +26059,7 @@
 │                        │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2025-8291 
 │                        │      ├ PublishedDate   : 2025-10-07T18:16:00.317Z 
 │                        │      ╰ LastModifiedDate: 2025-10-29T16:15:35.133Z 
-│                        ├ [49] ╭ VulnerabilityID : CVE-2025-6075 
+│                        ├ [50] ╭ VulnerabilityID : CVE-2025-6075 
 │                        │      ├ PkgID           : libpython3.10-stdlib@3.10.12-1~22.04.11 
 │                        │      ├ PkgName         : libpython3.10-stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpython3.10-stdlib@3.10.12-1~22.04.
@@ -26088,7 +26134,7 @@
 │                        │      │                  ╰ [20]: https://www.cve.org/CVERecord?id=CVE-2025-6075 
 │                        │      ├ PublishedDate   : 2025-10-31T17:15:48.693Z 
 │                        │      ╰ LastModifiedDate: 2025-12-01T19:15:52.55Z 
-│                        ├ [50] ╭ VulnerabilityID : CVE-2025-8291 
+│                        ├ [51] ╭ VulnerabilityID : CVE-2025-8291 
 │                        │      ├ PkgID           : libpython3.10-stdlib@3.10.12-1~22.04.11 
 │                        │      ├ PkgName         : libpython3.10-stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpython3.10-stdlib@3.10.12-1~22.04.
@@ -26170,7 +26216,7 @@
 │                        │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2025-8291 
 │                        │      ├ PublishedDate   : 2025-10-07T18:16:00.317Z 
 │                        │      ╰ LastModifiedDate: 2025-10-29T16:15:35.133Z 
-│                        ├ [51] ╭ VulnerabilityID : CVE-2024-41996 
+│                        ├ [52] ╭ VulnerabilityID : CVE-2024-41996 
 │                        │      ├ PkgID           : libssl3@3.0.2-0ubuntu1.20 
 │                        │      ├ PkgName         : libssl3 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libssl3@3.0.2-0ubuntu1.20?arch=amd64&
@@ -26222,7 +26268,7 @@
 │                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-41996 
 │                        │      ├ PublishedDate   : 2024-08-26T06:15:04.603Z 
 │                        │      ╰ LastModifiedDate: 2024-08-26T16:35:11.247Z 
-│                        ├ [52] ╭ VulnerabilityID : CVE-2022-27943 
+│                        ├ [53] ╭ VulnerabilityID : CVE-2022-27943 
 │                        │      ├ PkgID           : libstdc++6@12.3.0-1ubuntu1~22.04.2 
 │                        │      ├ PkgName         : libstdc++6 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libstdc%2B%2B6@12.3.0-1ubuntu1~22.04.
@@ -26277,7 +26323,7 @@
 │                        │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2022-27943 
 │                        │      ├ PublishedDate   : 2022-03-26T13:15:07.9Z 
 │                        │      ╰ LastModifiedDate: 2024-11-21T06:56:31.04Z 
-│                        ├ [53] ╭ VulnerabilityID : CVE-2023-7008 
+│                        ├ [54] ╭ VulnerabilityID : CVE-2023-7008 
 │                        │      ├ PkgID           : libsystemd0@249.11-0ubuntu3.17 
 │                        │      ├ PkgName         : libsystemd0 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libsystemd0@249.11-0ubuntu3.17?arch=a
@@ -26348,7 +26394,7 @@
 │                        │      │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
 │                        │      ├ PublishedDate   : 2023-12-23T13:15:07.573Z 
 │                        │      ╰ LastModifiedDate: 2025-11-04T17:15:43.4Z 
-│                        ├ [54] ╭ VulnerabilityID : CVE-2023-50495 
+│                        ├ [55] ╭ VulnerabilityID : CVE-2023-50495 
 │                        │      ├ PkgID           : libtinfo6@6.3-2ubuntu0.1 
 │                        │      ├ PkgName         : libtinfo6 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libtinfo6@6.3-2ubuntu0.1?arch=amd64&d
@@ -26400,7 +26446,7 @@
 │                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2023-50495 
 │                        │      ├ PublishedDate   : 2023-12-12T15:15:07.867Z 
 │                        │      ╰ LastModifiedDate: 2025-11-04T19:16:14.45Z 
-│                        ├ [55] ╭ VulnerabilityID : CVE-2023-7008 
+│                        ├ [56] ╭ VulnerabilityID : CVE-2023-7008 
 │                        │      ├ PkgID           : libudev1@249.11-0ubuntu3.17 
 │                        │      ├ PkgName         : libudev1 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libudev1@249.11-0ubuntu3.17?arch=amd6
@@ -26471,7 +26517,7 @@
 │                        │      │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
 │                        │      ├ PublishedDate   : 2023-12-23T13:15:07.573Z 
 │                        │      ╰ LastModifiedDate: 2025-11-04T17:15:43.4Z 
-│                        ├ [56] ╭ VulnerabilityID : CVE-2025-10911 
+│                        ├ [57] ╭ VulnerabilityID : CVE-2025-10911 
 │                        │      ├ PkgID           : libxslt1.1@1.1.34-4ubuntu0.22.04.4 
 │                        │      ├ PkgName         : libxslt1.1 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libxslt1.1@1.1.34-4ubuntu0.22.04.4?ar
@@ -26511,7 +26557,7 @@
 │                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-10911 
 │                        │      ├ PublishedDate   : 2025-09-25T16:15:31.337Z 
 │                        │      ╰ LastModifiedDate: 2025-09-26T14:32:53.583Z 
-│                        ├ [57] ╭ VulnerabilityID : CVE-2025-7424 
+│                        ├ [58] ╭ VulnerabilityID : CVE-2025-7424 
 │                        │      ├ PkgID           : libxslt1.1@1.1.34-4ubuntu0.22.04.4 
 │                        │      ├ PkgName         : libxslt1.1 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libxslt1.1@1.1.34-4ubuntu0.22.04.4?ar
@@ -26567,7 +26613,7 @@
 │                        │      │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2025-7424 
 │                        │      ├ PublishedDate   : 2025-07-10T14:15:27.573Z 
 │                        │      ╰ LastModifiedDate: 2025-11-04T22:16:43.663Z 
-│                        ├ [58] ╭ VulnerabilityID : CVE-2025-7425 
+│                        ├ [59] ╭ VulnerabilityID : CVE-2025-7425 
 │                        │      ├ PkgID           : libxslt1.1@1.1.34-4ubuntu0.22.04.4 
 │                        │      ├ PkgName         : libxslt1.1 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libxslt1.1@1.1.34-4ubuntu0.22.04.4?ar
@@ -26659,7 +26705,7 @@
 │                        │      │                  ╰ [46]: https://www.cve.org/CVERecord?id=CVE-2025-7425 
 │                        │      ├ PublishedDate   : 2025-07-10T14:15:27.877Z 
 │                        │      ╰ LastModifiedDate: 2025-11-22T03:15:48.857Z 
-│                        ├ [59] ╭ VulnerabilityID : CVE-2022-4899 
+│                        ├ [60] ╭ VulnerabilityID : CVE-2022-4899 
 │                        │      ├ PkgID           : libzstd1@1.4.8+dfsg-3build1 
 │                        │      ├ PkgName         : libzstd1 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libzstd1@1.4.8%2Bdfsg-3build1?arch=am
@@ -26815,7 +26861,7 @@
 │                        │      │                  ╰ [94]: https://www.cve.org/CVERecord?id=CVE-2022-4899 
 │                        │      ├ PublishedDate   : 2023-03-31T20:15:07.213Z 
 │                        │      ╰ LastModifiedDate: 2025-02-18T18:15:14.023Z 
-│                        ├ [60] ╭ VulnerabilityID : CVE-2023-29383 
+│                        ├ [61] ╭ VulnerabilityID : CVE-2023-29383 
 │                        │      ├ PkgID           : login@1:4.8.1-2ubuntu2.2 
 │                        │      ├ PkgName         : login 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/login@4.8.1-2ubuntu2.2?arch=amd64&dis
@@ -26878,7 +26924,7 @@
 │                        │      │                         sources/security-advisories/?fid=31797 
 │                        │      ├ PublishedDate   : 2023-04-14T22:15:07.68Z 
 │                        │      ╰ LastModifiedDate: 2025-11-03T20:16:01.283Z 
-│                        ├ [61] ╭ VulnerabilityID : CVE-2024-56433 
+│                        ├ [62] ╭ VulnerabilityID : CVE-2024-56433 
 │                        │      ├ PkgID           : login@1:4.8.1-2ubuntu2.2 
 │                        │      ├ PkgName         : login 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/login@4.8.1-2ubuntu2.2?arch=amd64&dis
@@ -26941,7 +26987,7 @@
 │                        │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                        │      ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                        │      ╰ LastModifiedDate: 2024-12-26T09:15:07.267Z 
-│                        ├ [62] ╭ VulnerabilityID : CVE-2023-50495 
+│                        ├ [63] ╭ VulnerabilityID : CVE-2023-50495 
 │                        │      ├ PkgID           : ncurses-base@6.3-2ubuntu0.1 
 │                        │      ├ PkgName         : ncurses-base 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/ncurses-base@6.3-2ubuntu0.1?arch=all&
@@ -26993,7 +27039,7 @@
 │                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2023-50495 
 │                        │      ├ PublishedDate   : 2023-12-12T15:15:07.867Z 
 │                        │      ╰ LastModifiedDate: 2025-11-04T19:16:14.45Z 
-│                        ├ [63] ╭ VulnerabilityID : CVE-2023-50495 
+│                        ├ [64] ╭ VulnerabilityID : CVE-2023-50495 
 │                        │      ├ PkgID           : ncurses-bin@6.3-2ubuntu0.1 
 │                        │      ├ PkgName         : ncurses-bin 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/ncurses-bin@6.3-2ubuntu0.1?arch=amd64
@@ -27045,7 +27091,7 @@
 │                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2023-50495 
 │                        │      ├ PublishedDate   : 2023-12-12T15:15:07.867Z 
 │                        │      ╰ LastModifiedDate: 2025-11-04T19:16:14.45Z 
-│                        ├ [64] ╭ VulnerabilityID : CVE-2023-50495 
+│                        ├ [65] ╭ VulnerabilityID : CVE-2023-50495 
 │                        │      ├ PkgID           : ncurses-term@6.3-2ubuntu0.1 
 │                        │      ├ PkgName         : ncurses-term 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/ncurses-term@6.3-2ubuntu0.1?arch=all&
@@ -27097,7 +27143,7 @@
 │                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2023-50495 
 │                        │      ├ PublishedDate   : 2023-12-12T15:15:07.867Z 
 │                        │      ╰ LastModifiedDate: 2025-11-04T19:16:14.45Z 
-│                        ├ [65] ╭ VulnerabilityID : CVE-2024-41996 
+│                        ├ [66] ╭ VulnerabilityID : CVE-2024-41996 
 │                        │      ├ PkgID           : openssl@3.0.2-0ubuntu1.20 
 │                        │      ├ PkgName         : openssl 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl@3.0.2-0ubuntu1.20?arch=amd64&
@@ -27149,7 +27195,7 @@
 │                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-41996 
 │                        │      ├ PublishedDate   : 2024-08-26T06:15:04.603Z 
 │                        │      ╰ LastModifiedDate: 2024-08-26T16:35:11.247Z 
-│                        ├ [66] ╭ VulnerabilityID : CVE-2023-29383 
+│                        ├ [67] ╭ VulnerabilityID : CVE-2023-29383 
 │                        │      ├ PkgID           : passwd@1:4.8.1-2ubuntu2.2 
 │                        │      ├ PkgName         : passwd 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/passwd@4.8.1-2ubuntu2.2?arch=amd64&di
@@ -27212,7 +27258,7 @@
 │                        │      │                         sources/security-advisories/?fid=31797 
 │                        │      ├ PublishedDate   : 2023-04-14T22:15:07.68Z 
 │                        │      ╰ LastModifiedDate: 2025-11-03T20:16:01.283Z 
-│                        ├ [67] ╭ VulnerabilityID : CVE-2024-56433 
+│                        ├ [68] ╭ VulnerabilityID : CVE-2024-56433 
 │                        │      ├ PkgID           : passwd@1:4.8.1-2ubuntu2.2 
 │                        │      ├ PkgName         : passwd 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/passwd@4.8.1-2ubuntu2.2?arch=amd64&di
@@ -27275,7 +27321,7 @@
 │                        │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                        │      ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                        │      ╰ LastModifiedDate: 2024-12-26T09:15:07.267Z 
-│                        ├ [68] ╭ VulnerabilityID : CVE-2025-6075 
+│                        ├ [69] ╭ VulnerabilityID : CVE-2025-6075 
 │                        │      ├ PkgID           : python3.10@3.10.12-1~22.04.11 
 │                        │      ├ PkgName         : python3.10 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/python3.10@3.10.12-1~22.04.11?arch=am
@@ -27350,7 +27396,7 @@
 │                        │      │                  ╰ [20]: https://www.cve.org/CVERecord?id=CVE-2025-6075 
 │                        │      ├ PublishedDate   : 2025-10-31T17:15:48.693Z 
 │                        │      ╰ LastModifiedDate: 2025-12-01T19:15:52.55Z 
-│                        ├ [69] ╭ VulnerabilityID : CVE-2025-8291 
+│                        ├ [70] ╭ VulnerabilityID : CVE-2025-8291 
 │                        │      ├ PkgID           : python3.10@3.10.12-1~22.04.11 
 │                        │      ├ PkgName         : python3.10 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/python3.10@3.10.12-1~22.04.11?arch=am
@@ -27432,7 +27478,7 @@
 │                        │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2025-8291 
 │                        │      ├ PublishedDate   : 2025-10-07T18:16:00.317Z 
 │                        │      ╰ LastModifiedDate: 2025-10-29T16:15:35.133Z 
-│                        ├ [70] ╭ VulnerabilityID : CVE-2025-6075 
+│                        ├ [71] ╭ VulnerabilityID : CVE-2025-6075 
 │                        │      ├ PkgID           : python3.10-minimal@3.10.12-1~22.04.11 
 │                        │      ├ PkgName         : python3.10-minimal 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/python3.10-minimal@3.10.12-1~22.04.11
@@ -27507,7 +27553,7 @@
 │                        │      │                  ╰ [20]: https://www.cve.org/CVERecord?id=CVE-2025-6075 
 │                        │      ├ PublishedDate   : 2025-10-31T17:15:48.693Z 
 │                        │      ╰ LastModifiedDate: 2025-12-01T19:15:52.55Z 
-│                        ├ [71] ╭ VulnerabilityID : CVE-2025-8291 
+│                        ├ [72] ╭ VulnerabilityID : CVE-2025-8291 
 │                        │      ├ PkgID           : python3.10-minimal@3.10.12-1~22.04.11 
 │                        │      ├ PkgName         : python3.10-minimal 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/python3.10-minimal@3.10.12-1~22.04.11
@@ -27589,7 +27635,7 @@
 │                        │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2025-8291 
 │                        │      ├ PublishedDate   : 2025-10-07T18:16:00.317Z 
 │                        │      ╰ LastModifiedDate: 2025-10-29T16:15:35.133Z 
-│                        ├ [72] ╭ VulnerabilityID : CVE-2023-7008 
+│                        ├ [73] ╭ VulnerabilityID : CVE-2023-7008 
 │                        │      ├ PkgID           : systemd@249.11-0ubuntu3.17 
 │                        │      ├ PkgName         : systemd 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/systemd@249.11-0ubuntu3.17?arch=amd64
@@ -27660,7 +27706,7 @@
 │                        │      │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
 │                        │      ├ PublishedDate   : 2023-12-23T13:15:07.573Z 
 │                        │      ╰ LastModifiedDate: 2025-11-04T17:15:43.4Z 
-│                        ├ [73] ╭ VulnerabilityID : CVE-2023-7008 
+│                        ├ [74] ╭ VulnerabilityID : CVE-2023-7008 
 │                        │      ├ PkgID           : systemd-sysv@249.11-0ubuntu3.17 
 │                        │      ├ PkgName         : systemd-sysv 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/systemd-sysv@249.11-0ubuntu3.17?arch=
@@ -27731,7 +27777,7 @@
 │                        │      │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
 │                        │      ├ PublishedDate   : 2023-12-23T13:15:07.573Z 
 │                        │      ╰ LastModifiedDate: 2025-11-04T17:15:43.4Z 
-│                        ├ [74] ╭ VulnerabilityID : CVE-2023-7008 
+│                        ├ [75] ╭ VulnerabilityID : CVE-2023-7008 
 │                        │      ├ PkgID           : systemd-timesyncd@249.11-0ubuntu3.17 
 │                        │      ├ PkgName         : systemd-timesyncd 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/systemd-timesyncd@249.11-0ubuntu3.17?
@@ -27802,7 +27848,7 @@
 │                        │      │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
 │                        │      ├ PublishedDate   : 2023-12-23T13:15:07.573Z 
 │                        │      ╰ LastModifiedDate: 2025-11-04T17:15:43.4Z 
-│                        ├ [75] ╭ VulnerabilityID : CVE-2025-45582 
+│                        ├ [76] ╭ VulnerabilityID : CVE-2025-45582 
 │                        │      ├ PkgID           : tar@1.34+dfsg-1ubuntu0.1.22.04.2 
 │                        │      ├ PkgName         : tar 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/tar@1.34%2Bdfsg-1ubuntu0.1.22.04.2?ar
@@ -27871,7 +27917,7 @@
 │                        │      │                         urity-rules-of-thumb.html 
 │                        │      ├ PublishedDate   : 2025-07-11T17:15:37.183Z 
 │                        │      ╰ LastModifiedDate: 2025-11-02T01:15:32.307Z 
-│                        ├ [76] ╭ VulnerabilityID : CVE-2023-29383 
+│                        ├ [77] ╭ VulnerabilityID : CVE-2023-29383 
 │                        │      ├ PkgID           : uidmap@1:4.8.1-2ubuntu2.2 
 │                        │      ├ PkgName         : uidmap 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/uidmap@4.8.1-2ubuntu2.2?arch=amd64&di
@@ -27934,7 +27980,7 @@
 │                        │      │                         sources/security-advisories/?fid=31797 
 │                        │      ├ PublishedDate   : 2023-04-14T22:15:07.68Z 
 │                        │      ╰ LastModifiedDate: 2025-11-03T20:16:01.283Z 
-│                        ├ [77] ╭ VulnerabilityID : CVE-2024-56433 
+│                        ├ [78] ╭ VulnerabilityID : CVE-2024-56433 
 │                        │      ├ PkgID           : uidmap@1:4.8.1-2ubuntu2.2 
 │                        │      ├ PkgName         : uidmap 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/uidmap@4.8.1-2ubuntu2.2?arch=amd64&di
@@ -27997,7 +28043,7 @@
 │                        │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                        │      ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                        │      ╰ LastModifiedDate: 2024-12-26T09:15:07.267Z 
-│                        ╰ [78] ╭ VulnerabilityID : CVE-2021-31879 
+│                        ╰ [79] ╭ VulnerabilityID : CVE-2021-31879 
 │                               ├ PkgID           : wget@1.21.2-2ubuntu1.1 
 │                               ├ PkgName         : wget 
 │                               ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/wget@1.21.2-2ubuntu1.1?arch=amd64&dis
@@ -29636,7 +29682,7 @@
 │                        │      │                  ├ [13]: https://groups.google.com/g/golang-announce/c/4Emdl2
 │                        │      │                  │       iQ_bI 
 │                        │      │                  ├ [14]: https://linux.oracle.com/cve/CVE-2025-58183.html 
-│                        │      │                  ├ [15]: https://linux.oracle.com/errata/ELSA-2025-22668.html 
+│                        │      │                  ├ [15]: https://linux.oracle.com/errata/ELSA-2025-23088.html 
 │                        │      │                  ├ [16]: https://nvd.nist.gov/vuln/detail/CVE-2025-58183 
 │                        │      │                  ├ [17]: https://pkg.go.dev/vuln/GO-2025-4014 
 │                        │      │                  ╰ [18]: https://www.cve.org/CVERecord?id=CVE-2025-58183 
@@ -29740,8 +29786,8 @@
 │                        │      │                  ╰ URL : https://pkg.go.dev/vuln/ 
 │                        │      ├ Fingerprint     : sha256:be054bfd877019e188cadb0ed0506d49fc4138e142ad7d2ed7c0
 │                        │      │                   082df827d1af 
-│                        │      ├ Title           : Within HostnameError.Error(), when constructing an error
-│                        │      │                   string, there ... 
+│                        │      ├ Title           : crypto/x509: Excessive resource consumption when printing
+│                        │      │                   error string for host certificate validation in crypto/x509 
 │                        │      ├ Description     : Within HostnameError.Error(), when constructing an error
 │                        │      │                   string, there is no limit to the number of hosts that will
 │                        │      │                   be printed out. Furthermore, the error string is
@@ -29750,16 +29796,22 @@
 │                        │      │                   malicious actor can result in excessive resource
 │                        │      │                   consumption. 
 │                        │      ├ Severity        : HIGH 
-│                        │      ├ VendorSeverity   ─ bitnami: 3 
-│                        │      ├ CVSS             ─ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                        │      ├ VendorSeverity   ╭ bitnami: 3 
+│                        │      │                  ╰ redhat : 3 
+│                        │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                        │      │                  │         │           :N/A:H 
+│                        │      │                  │         ╰ V3Score : 7.5 
+│                        │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
 │                        │      │                            │           :N/A:H 
 │                        │      │                            ╰ V3Score : 7.5 
-│                        │      ├ References       ╭ [0]: https://go.dev/cl/725920 
-│                        │      │                  ├ [1]: https://go.dev/issue/76445 
-│                        │      │                  ├ [2]: https://groups.google.com/g/golang-announce/c/8FJoBkP
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-61729 
+│                        │      │                  ├ [1]: https://go.dev/cl/725920 
+│                        │      │                  ├ [2]: https://go.dev/issue/76445 
+│                        │      │                  ├ [3]: https://groups.google.com/g/golang-announce/c/8FJoBkP
 │                        │      │                  │      ddm4 
-│                        │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-61729 
-│                        │      │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2025-4155 
+│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-61729 
+│                        │      │                  ├ [5]: https://pkg.go.dev/vuln/GO-2025-4155 
+│                        │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-61729 
 │                        │      ├ PublishedDate   : 2025-12-02T19:15:51.447Z 
 │                        │      ╰ LastModifiedDate: 2025-12-04T17:15:25.86Z 
 │                        ├ [9]  ╭ VulnerabilityID : CVE-2025-0913 
@@ -31015,7 +31067,7 @@
 │                        │      │                  ├ [13]: https://groups.google.com/g/golang-announce/c/4Emdl2
 │                        │      │                  │       iQ_bI 
 │                        │      │                  ├ [14]: https://linux.oracle.com/cve/CVE-2025-58183.html 
-│                        │      │                  ├ [15]: https://linux.oracle.com/errata/ELSA-2025-22668.html 
+│                        │      │                  ├ [15]: https://linux.oracle.com/errata/ELSA-2025-23088.html 
 │                        │      │                  ├ [16]: https://nvd.nist.gov/vuln/detail/CVE-2025-58183 
 │                        │      │                  ├ [17]: https://pkg.go.dev/vuln/GO-2025-4014 
 │                        │      │                  ╰ [18]: https://www.cve.org/CVERecord?id=CVE-2025-58183 
@@ -31119,8 +31171,8 @@
 │                        │      │                  ╰ URL : https://pkg.go.dev/vuln/ 
 │                        │      ├ Fingerprint     : sha256:4acc746f4488a2721c8e2bc935c8fbd8b9d46fdbe4141363448b
 │                        │      │                   9c1d46775709 
-│                        │      ├ Title           : Within HostnameError.Error(), when constructing an error
-│                        │      │                   string, there ... 
+│                        │      ├ Title           : crypto/x509: Excessive resource consumption when printing
+│                        │      │                   error string for host certificate validation in crypto/x509 
 │                        │      ├ Description     : Within HostnameError.Error(), when constructing an error
 │                        │      │                   string, there is no limit to the number of hosts that will
 │                        │      │                   be printed out. Furthermore, the error string is
@@ -31129,16 +31181,22 @@
 │                        │      │                   malicious actor can result in excessive resource
 │                        │      │                   consumption. 
 │                        │      ├ Severity        : HIGH 
-│                        │      ├ VendorSeverity   ─ bitnami: 3 
-│                        │      ├ CVSS             ─ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                        │      ├ VendorSeverity   ╭ bitnami: 3 
+│                        │      │                  ╰ redhat : 3 
+│                        │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                        │      │                  │         │           :N/A:H 
+│                        │      │                  │         ╰ V3Score : 7.5 
+│                        │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
 │                        │      │                            │           :N/A:H 
 │                        │      │                            ╰ V3Score : 7.5 
-│                        │      ├ References       ╭ [0]: https://go.dev/cl/725920 
-│                        │      │                  ├ [1]: https://go.dev/issue/76445 
-│                        │      │                  ├ [2]: https://groups.google.com/g/golang-announce/c/8FJoBkP
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-61729 
+│                        │      │                  ├ [1]: https://go.dev/cl/725920 
+│                        │      │                  ├ [2]: https://go.dev/issue/76445 
+│                        │      │                  ├ [3]: https://groups.google.com/g/golang-announce/c/8FJoBkP
 │                        │      │                  │      ddm4 
-│                        │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-61729 
-│                        │      │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2025-4155 
+│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-61729 
+│                        │      │                  ├ [5]: https://pkg.go.dev/vuln/GO-2025-4155 
+│                        │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-61729 
 │                        │      ├ PublishedDate   : 2025-12-02T19:15:51.447Z 
 │                        │      ╰ LastModifiedDate: 2025-12-04T17:15:25.86Z 
 │                        ├ [9]  ╭ VulnerabilityID : CVE-2025-0913 
@@ -33784,7 +33842,7 @@
 │                        │     │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-47914 
 │                        │     │                  ╰ [5]: https://pkg.go.dev/vuln/GO-2025-4135 
 │                        │     ├ PublishedDate   : 2025-11-19T21:15:50.517Z 
-│                        │     ╰ LastModifiedDate: 2025-11-21T15:13:59.083Z 
+│                        │     ╰ LastModifiedDate: 2025-12-11T19:36:41.373Z 
 │                        ├ [3] ╭ VulnerabilityID : CVE-2025-58181 
 │                        │     ├ PkgID           : golang.org/x/crypto@v0.38.0 
 │                        │     ├ PkgName         : golang.org/x/crypto 
@@ -33822,7 +33880,7 @@
 │                        │     │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-58181 
 │                        │     │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2025-4134 
 │                        │     ├ PublishedDate   : 2025-11-19T21:15:50.85Z 
-│                        │     ╰ LastModifiedDate: 2025-11-21T15:13:59.083Z 
+│                        │     ╰ LastModifiedDate: 2025-12-11T19:29:24.9Z 
 │                        ├ [4] ╭ VulnerabilityID : CVE-2025-61729 
 │                        │     ├ PkgID           : stdlib@v1.24.9 
 │                        │     ├ PkgName         : stdlib 
@@ -33841,8 +33899,8 @@
 │                        │     │                  ╰ URL : https://pkg.go.dev/vuln/ 
 │                        │     ├ Fingerprint     : sha256:af80e64d5e225188eb41fa68c6f2a0ca62f1b23131b9883e91054
 │                        │     │                   c982a0fa11d 
-│                        │     ├ Title           : Within HostnameError.Error(), when constructing an error
-│                        │     │                   string, there ... 
+│                        │     ├ Title           : crypto/x509: Excessive resource consumption when printing
+│                        │     │                   error string for host certificate validation in crypto/x509 
 │                        │     ├ Description     : Within HostnameError.Error(), when constructing an error
 │                        │     │                   string, there is no limit to the number of hosts that will
 │                        │     │                   be printed out. Furthermore, the error string is constructed
@@ -33850,16 +33908,22 @@
 │                        │     │                   runtime. Therefore, a certificate provided by a malicious
 │                        │     │                   actor can result in excessive resource consumption. 
 │                        │     ├ Severity        : HIGH 
-│                        │     ├ VendorSeverity   ─ bitnami: 3 
-│                        │     ├ CVSS             ─ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
+│                        │     ├ VendorSeverity   ╭ bitnami: 3 
+│                        │     │                  ╰ redhat : 3 
+│                        │     ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
+│                        │     │                  │         │           N/A:H 
+│                        │     │                  │         ╰ V3Score : 7.5 
+│                        │     │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
 │                        │     │                            │           N/A:H 
 │                        │     │                            ╰ V3Score : 7.5 
-│                        │     ├ References       ╭ [0]: https://go.dev/cl/725920 
-│                        │     │                  ├ [1]: https://go.dev/issue/76445 
-│                        │     │                  ├ [2]: https://groups.google.com/g/golang-announce/c/8FJoBkPd
+│                        │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-61729 
+│                        │     │                  ├ [1]: https://go.dev/cl/725920 
+│                        │     │                  ├ [2]: https://go.dev/issue/76445 
+│                        │     │                  ├ [3]: https://groups.google.com/g/golang-announce/c/8FJoBkPd
 │                        │     │                  │      dm4 
-│                        │     │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-61729 
-│                        │     │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2025-4155 
+│                        │     │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-61729 
+│                        │     │                  ├ [5]: https://pkg.go.dev/vuln/GO-2025-4155 
+│                        │     │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-61729 
 │                        │     ├ PublishedDate   : 2025-12-02T19:15:51.447Z 
 │                        │     ╰ LastModifiedDate: 2025-12-04T17:15:25.86Z 
 │                        ╰ [5] ╭ VulnerabilityID : CVE-2025-61727 
@@ -35226,7 +35290,7 @@
 │                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-47914 
 │                        │      │                  ╰ [5]: https://pkg.go.dev/vuln/GO-2025-4135 
 │                        │      ├ PublishedDate   : 2025-11-19T21:15:50.517Z 
-│                        │      ╰ LastModifiedDate: 2025-11-21T15:13:59.083Z 
+│                        │      ╰ LastModifiedDate: 2025-12-11T19:36:41.373Z 
 │                        ├ [3]  ╭ VulnerabilityID : CVE-2025-58181 
 │                        │      ├ PkgID           : golang.org/x/crypto@v0.41.0 
 │                        │      ├ PkgName         : golang.org/x/crypto 
@@ -35266,7 +35330,7 @@
 │                        │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-58181 
 │                        │      │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2025-4134 
 │                        │      ├ PublishedDate   : 2025-11-19T21:15:50.85Z 
-│                        │      ╰ LastModifiedDate: 2025-11-21T15:13:59.083Z 
+│                        │      ╰ LastModifiedDate: 2025-12-11T19:29:24.9Z 
 │                        ├ [4]  ╭ VulnerabilityID : CVE-2025-58183 
 │                        │      ├ PkgID           : stdlib@v1.24.7 
 │                        │      ├ PkgName         : stdlib 
@@ -35326,7 +35390,7 @@
 │                        │      │                  ├ [13]: https://groups.google.com/g/golang-announce/c/4Emdl2
 │                        │      │                  │       iQ_bI 
 │                        │      │                  ├ [14]: https://linux.oracle.com/cve/CVE-2025-58183.html 
-│                        │      │                  ├ [15]: https://linux.oracle.com/errata/ELSA-2025-22668.html 
+│                        │      │                  ├ [15]: https://linux.oracle.com/errata/ELSA-2025-23088.html 
 │                        │      │                  ├ [16]: https://nvd.nist.gov/vuln/detail/CVE-2025-58183 
 │                        │      │                  ├ [17]: https://pkg.go.dev/vuln/GO-2025-4014 
 │                        │      │                  ╰ [18]: https://www.cve.org/CVERecord?id=CVE-2025-58183 
@@ -35430,8 +35494,8 @@
 │                        │      │                  ╰ URL : https://pkg.go.dev/vuln/ 
 │                        │      ├ Fingerprint     : sha256:7df72ef742cd9fe693adadc2308f7c0a636a34d3ebb1cb23a0a0
 │                        │      │                   05e4aac87656 
-│                        │      ├ Title           : Within HostnameError.Error(), when constructing an error
-│                        │      │                   string, there ... 
+│                        │      ├ Title           : crypto/x509: Excessive resource consumption when printing
+│                        │      │                   error string for host certificate validation in crypto/x509 
 │                        │      ├ Description     : Within HostnameError.Error(), when constructing an error
 │                        │      │                   string, there is no limit to the number of hosts that will
 │                        │      │                   be printed out. Furthermore, the error string is
@@ -35440,16 +35504,22 @@
 │                        │      │                   malicious actor can result in excessive resource
 │                        │      │                   consumption. 
 │                        │      ├ Severity        : HIGH 
-│                        │      ├ VendorSeverity   ─ bitnami: 3 
-│                        │      ├ CVSS             ─ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                        │      ├ VendorSeverity   ╭ bitnami: 3 
+│                        │      │                  ╰ redhat : 3 
+│                        │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                        │      │                  │         │           :N/A:H 
+│                        │      │                  │         ╰ V3Score : 7.5 
+│                        │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
 │                        │      │                            │           :N/A:H 
 │                        │      │                            ╰ V3Score : 7.5 
-│                        │      ├ References       ╭ [0]: https://go.dev/cl/725920 
-│                        │      │                  ├ [1]: https://go.dev/issue/76445 
-│                        │      │                  ├ [2]: https://groups.google.com/g/golang-announce/c/8FJoBkP
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-61729 
+│                        │      │                  ├ [1]: https://go.dev/cl/725920 
+│                        │      │                  ├ [2]: https://go.dev/issue/76445 
+│                        │      │                  ├ [3]: https://groups.google.com/g/golang-announce/c/8FJoBkP
 │                        │      │                  │      ddm4 
-│                        │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-61729 
-│                        │      │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2025-4155 
+│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-61729 
+│                        │      │                  ├ [5]: https://pkg.go.dev/vuln/GO-2025-4155 
+│                        │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-61729 
 │                        │      ├ PublishedDate   : 2025-12-02T19:15:51.447Z 
 │                        │      ╰ LastModifiedDate: 2025-12-04T17:15:25.86Z 
 │                        ├ [8]  ╭ VulnerabilityID : CVE-2025-47912 
@@ -36727,7 +36797,7 @@
 │                        │      │                  ├ [13]: https://groups.google.com/g/golang-announce/c/4Emdl2
 │                        │      │                  │       iQ_bI 
 │                        │      │                  ├ [14]: https://linux.oracle.com/cve/CVE-2025-58183.html 
-│                        │      │                  ├ [15]: https://linux.oracle.com/errata/ELSA-2025-22668.html 
+│                        │      │                  ├ [15]: https://linux.oracle.com/errata/ELSA-2025-23088.html 
 │                        │      │                  ├ [16]: https://nvd.nist.gov/vuln/detail/CVE-2025-58183 
 │                        │      │                  ├ [17]: https://pkg.go.dev/vuln/GO-2025-4014 
 │                        │      │                  ╰ [18]: https://www.cve.org/CVERecord?id=CVE-2025-58183 
@@ -36831,8 +36901,8 @@
 │                        │      │                  ╰ URL : https://pkg.go.dev/vuln/ 
 │                        │      ├ Fingerprint     : sha256:65ee7609c168efd8a02985f083f3e785021783a7eee382c8ab34
 │                        │      │                   fdeee2e2b78a 
-│                        │      ├ Title           : Within HostnameError.Error(), when constructing an error
-│                        │      │                   string, there ... 
+│                        │      ├ Title           : crypto/x509: Excessive resource consumption when printing
+│                        │      │                   error string for host certificate validation in crypto/x509 
 │                        │      ├ Description     : Within HostnameError.Error(), when constructing an error
 │                        │      │                   string, there is no limit to the number of hosts that will
 │                        │      │                   be printed out. Furthermore, the error string is
@@ -36841,16 +36911,22 @@
 │                        │      │                   malicious actor can result in excessive resource
 │                        │      │                   consumption. 
 │                        │      ├ Severity        : HIGH 
-│                        │      ├ VendorSeverity   ─ bitnami: 3 
-│                        │      ├ CVSS             ─ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                        │      ├ VendorSeverity   ╭ bitnami: 3 
+│                        │      │                  ╰ redhat : 3 
+│                        │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                        │      │                  │         │           :N/A:H 
+│                        │      │                  │         ╰ V3Score : 7.5 
+│                        │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
 │                        │      │                            │           :N/A:H 
 │                        │      │                            ╰ V3Score : 7.5 
-│                        │      ├ References       ╭ [0]: https://go.dev/cl/725920 
-│                        │      │                  ├ [1]: https://go.dev/issue/76445 
-│                        │      │                  ├ [2]: https://groups.google.com/g/golang-announce/c/8FJoBkP
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-61729 
+│                        │      │                  ├ [1]: https://go.dev/cl/725920 
+│                        │      │                  ├ [2]: https://go.dev/issue/76445 
+│                        │      │                  ├ [3]: https://groups.google.com/g/golang-announce/c/8FJoBkP
 │                        │      │                  │      ddm4 
-│                        │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-61729 
-│                        │      │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2025-4155 
+│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-61729 
+│                        │      │                  ├ [5]: https://pkg.go.dev/vuln/GO-2025-4155 
+│                        │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-61729 
 │                        │      ├ PublishedDate   : 2025-12-02T19:15:51.447Z 
 │                        │      ╰ LastModifiedDate: 2025-12-04T17:15:25.86Z 
 │                        ├ [4]  ╭ VulnerabilityID : CVE-2025-47912 
@@ -38274,7 +38350,7 @@
 │                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-47914 
 │                        │      │                  ╰ [5]: https://pkg.go.dev/vuln/GO-2025-4135 
 │                        │      ├ PublishedDate   : 2025-11-19T21:15:50.517Z 
-│                        │      ╰ LastModifiedDate: 2025-11-21T15:13:59.083Z 
+│                        │      ╰ LastModifiedDate: 2025-12-11T19:36:41.373Z 
 │                        ├ [1]  ╭ VulnerabilityID : CVE-2025-58181 
 │                        │      ├ PkgID           : golang.org/x/crypto@v0.40.0 
 │                        │      ├ PkgName         : golang.org/x/crypto 
@@ -38314,7 +38390,7 @@
 │                        │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-58181 
 │                        │      │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2025-4134 
 │                        │      ├ PublishedDate   : 2025-11-19T21:15:50.85Z 
-│                        │      ╰ LastModifiedDate: 2025-11-21T15:13:59.083Z 
+│                        │      ╰ LastModifiedDate: 2025-12-11T19:29:24.9Z 
 │                        ├ [2]  ╭ VulnerabilityID : CVE-2025-58183 
 │                        │      ├ PkgID           : stdlib@v1.24.6 
 │                        │      ├ PkgName         : stdlib 
@@ -38374,7 +38450,7 @@
 │                        │      │                  ├ [13]: https://groups.google.com/g/golang-announce/c/4Emdl2
 │                        │      │                  │       iQ_bI 
 │                        │      │                  ├ [14]: https://linux.oracle.com/cve/CVE-2025-58183.html 
-│                        │      │                  ├ [15]: https://linux.oracle.com/errata/ELSA-2025-22668.html 
+│                        │      │                  ├ [15]: https://linux.oracle.com/errata/ELSA-2025-23088.html 
 │                        │      │                  ├ [16]: https://nvd.nist.gov/vuln/detail/CVE-2025-58183 
 │                        │      │                  ├ [17]: https://pkg.go.dev/vuln/GO-2025-4014 
 │                        │      │                  ╰ [18]: https://www.cve.org/CVERecord?id=CVE-2025-58183 
@@ -38478,8 +38554,8 @@
 │                        │      │                  ╰ URL : https://pkg.go.dev/vuln/ 
 │                        │      ├ Fingerprint     : sha256:0c6654f6cbee40f2c2e223834faa4a436968c9da41ec136e7dca
 │                        │      │                   c7823d31621c 
-│                        │      ├ Title           : Within HostnameError.Error(), when constructing an error
-│                        │      │                   string, there ... 
+│                        │      ├ Title           : crypto/x509: Excessive resource consumption when printing
+│                        │      │                   error string for host certificate validation in crypto/x509 
 │                        │      ├ Description     : Within HostnameError.Error(), when constructing an error
 │                        │      │                   string, there is no limit to the number of hosts that will
 │                        │      │                   be printed out. Furthermore, the error string is
@@ -38488,16 +38564,22 @@
 │                        │      │                   malicious actor can result in excessive resource
 │                        │      │                   consumption. 
 │                        │      ├ Severity        : HIGH 
-│                        │      ├ VendorSeverity   ─ bitnami: 3 
-│                        │      ├ CVSS             ─ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                        │      ├ VendorSeverity   ╭ bitnami: 3 
+│                        │      │                  ╰ redhat : 3 
+│                        │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                        │      │                  │         │           :N/A:H 
+│                        │      │                  │         ╰ V3Score : 7.5 
+│                        │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
 │                        │      │                            │           :N/A:H 
 │                        │      │                            ╰ V3Score : 7.5 
-│                        │      ├ References       ╭ [0]: https://go.dev/cl/725920 
-│                        │      │                  ├ [1]: https://go.dev/issue/76445 
-│                        │      │                  ├ [2]: https://groups.google.com/g/golang-announce/c/8FJoBkP
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-61729 
+│                        │      │                  ├ [1]: https://go.dev/cl/725920 
+│                        │      │                  ├ [2]: https://go.dev/issue/76445 
+│                        │      │                  ├ [3]: https://groups.google.com/g/golang-announce/c/8FJoBkP
 │                        │      │                  │      ddm4 
-│                        │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-61729 
-│                        │      │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2025-4155 
+│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-61729 
+│                        │      │                  ├ [5]: https://pkg.go.dev/vuln/GO-2025-4155 
+│                        │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-61729 
 │                        │      ├ PublishedDate   : 2025-12-02T19:15:51.447Z 
 │                        │      ╰ LastModifiedDate: 2025-12-04T17:15:25.86Z 
 │                        ├ [6]  ╭ VulnerabilityID : CVE-2025-47912 
@@ -40567,7 +40649,7 @@
 │                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-47914 
 │                        │      │                  ╰ [5]: https://pkg.go.dev/vuln/GO-2025-4135 
 │                        │      ├ PublishedDate   : 2025-11-19T21:15:50.517Z 
-│                        │      ╰ LastModifiedDate: 2025-11-21T15:13:59.083Z 
+│                        │      ╰ LastModifiedDate: 2025-12-11T19:36:41.373Z 
 │                        ├ [8]  ╭ VulnerabilityID : CVE-2025-58181 
 │                        │      ├ PkgID           : golang.org/x/crypto@v0.24.0 
 │                        │      ├ PkgName         : golang.org/x/crypto 
@@ -40607,7 +40689,7 @@
 │                        │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-58181 
 │                        │      │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2025-4134 
 │                        │      ├ PublishedDate   : 2025-11-19T21:15:50.85Z 
-│                        │      ╰ LastModifiedDate: 2025-11-21T15:13:59.083Z 
+│                        │      ╰ LastModifiedDate: 2025-12-11T19:29:24.9Z 
 │                        ├ [9]  ╭ VulnerabilityID : CVE-2025-22870 
 │                        │      ├ PkgID           : golang.org/x/net@v0.26.0 
 │                        │      ├ PkgName         : golang.org/x/net 
@@ -40942,7 +41024,7 @@
 │                        │      │                  ├ [13]: https://groups.google.com/g/golang-announce/c/4Emdl2
 │                        │      │                  │       iQ_bI 
 │                        │      │                  ├ [14]: https://linux.oracle.com/cve/CVE-2025-58183.html 
-│                        │      │                  ├ [15]: https://linux.oracle.com/errata/ELSA-2025-22668.html 
+│                        │      │                  ├ [15]: https://linux.oracle.com/errata/ELSA-2025-23088.html 
 │                        │      │                  ├ [16]: https://nvd.nist.gov/vuln/detail/CVE-2025-58183 
 │                        │      │                  ├ [17]: https://pkg.go.dev/vuln/GO-2025-4014 
 │                        │      │                  ╰ [18]: https://www.cve.org/CVERecord?id=CVE-2025-58183 
@@ -41046,8 +41128,8 @@
 │                        │      │                  ╰ URL : https://pkg.go.dev/vuln/ 
 │                        │      ├ Fingerprint     : sha256:9d8dfed7643277231b0eaf03344f8a315bb0a41d3f32228e0999
 │                        │      │                   d75de2935199 
-│                        │      ├ Title           : Within HostnameError.Error(), when constructing an error
-│                        │      │                   string, there ... 
+│                        │      ├ Title           : crypto/x509: Excessive resource consumption when printing
+│                        │      │                   error string for host certificate validation in crypto/x509 
 │                        │      ├ Description     : Within HostnameError.Error(), when constructing an error
 │                        │      │                   string, there is no limit to the number of hosts that will
 │                        │      │                   be printed out. Furthermore, the error string is
@@ -41056,16 +41138,22 @@
 │                        │      │                   malicious actor can result in excessive resource
 │                        │      │                   consumption. 
 │                        │      ├ Severity        : HIGH 
-│                        │      ├ VendorSeverity   ─ bitnami: 3 
-│                        │      ├ CVSS             ─ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                        │      ├ VendorSeverity   ╭ bitnami: 3 
+│                        │      │                  ╰ redhat : 3 
+│                        │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                        │      │                  │         │           :N/A:H 
+│                        │      │                  │         ╰ V3Score : 7.5 
+│                        │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
 │                        │      │                            │           :N/A:H 
 │                        │      │                            ╰ V3Score : 7.5 
-│                        │      ├ References       ╭ [0]: https://go.dev/cl/725920 
-│                        │      │                  ├ [1]: https://go.dev/issue/76445 
-│                        │      │                  ├ [2]: https://groups.google.com/g/golang-announce/c/8FJoBkP
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-61729 
+│                        │      │                  ├ [1]: https://go.dev/cl/725920 
+│                        │      │                  ├ [2]: https://go.dev/issue/76445 
+│                        │      │                  ├ [3]: https://groups.google.com/g/golang-announce/c/8FJoBkP
 │                        │      │                  │      ddm4 
-│                        │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-61729 
-│                        │      │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2025-4155 
+│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-61729 
+│                        │      │                  ├ [5]: https://pkg.go.dev/vuln/GO-2025-4155 
+│                        │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-61729 
 │                        │      ├ PublishedDate   : 2025-12-02T19:15:51.447Z 
 │                        │      ╰ LastModifiedDate: 2025-12-04T17:15:25.86Z 
 │                        ├ [18] ╭ VulnerabilityID : CVE-2025-0913 
