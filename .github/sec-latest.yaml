@@ -25299,97 +25299,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-7008
     PublishedDate: '2023-12-23T13:15:07.573Z'
     LastModifiedDate: '2025-11-04T17:15:43.4Z'
-  - VulnerabilityID: CVE-2025-10911
-    PkgID: libxslt1.1@1.1.34-4ubuntu0.22.04.4
-    PkgName: libxslt1.1
-    PkgIdentifier:
-      PURL: pkg:deb/ubuntu/libxslt1.1@1.1.34-4ubuntu0.22.04.4?arch=amd64&distro=ubuntu-22.04
-      UID: 1440caddfd2b231
-    InstalledVersion: 1.1.34-4ubuntu0.22.04.4
-    Status: affected
-    Layer:
-      Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f672d99cf12d59721fb5d9
-      DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7277787fa3578e3352a155
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-10911
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Fingerprint: sha256:0fdf20ece069ef4c44304c021ea9cde6437e490756d0b68b9952f0cf106bb895
-    Title: 'libxslt: use-after-free with key data stored cross-RVT'
-    Description: A use-after-free vulnerability was found in libxslt while parsing xsl nodes that may lead to the dereference of expired pointers and application crash.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-825
-    VendorSeverity:
-      amazon: 2
-      redhat: 2
-      ubuntu: 2
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
-        V3Score: 5.5
-    References:
-    - https://access.redhat.com/security/cve/CVE-2025-10911
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2397838
-    - https://gitlab.gnome.org/GNOME/libxslt/-/issues/144
-    - https://gitlab.gnome.org/GNOME/libxslt/-/merge_requests/77
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-10911
-    - https://www.cve.org/CVERecord?id=CVE-2025-10911
-    PublishedDate: '2025-09-25T16:15:31.337Z'
-    LastModifiedDate: '2025-09-26T14:32:53.583Z'
-  - VulnerabilityID: CVE-2025-7424
-    PkgID: libxslt1.1@1.1.34-4ubuntu0.22.04.4
-    PkgName: libxslt1.1
-    PkgIdentifier:
-      PURL: pkg:deb/ubuntu/libxslt1.1@1.1.34-4ubuntu0.22.04.4?arch=amd64&distro=ubuntu-22.04
-      UID: 1440caddfd2b231
-    InstalledVersion: 1.1.34-4ubuntu0.22.04.4
-    Status: affected
-    Layer:
-      Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f672d99cf12d59721fb5d9
-      DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7277787fa3578e3352a155
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-7424
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Fingerprint: sha256:1c1e538e0740c4e7ca12a9122c912470feb222e84bc32a612cafd570c28a8f77
-    Title: 'libxslt: Type confusion in xmlNode.psvi between stylesheet and source nodes'
-    Description: A flaw was found in the libxslt library. The same memory field, psvi, is used for both stylesheet and input data, which can lead to type confusion during XML transformations. This vulnerability allows an attacker to crash the application or corrupt memory. In some cases, it may lead to denial of service or unexpected behavior.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-843
-    VendorSeverity:
-      amazon: 3
-      nvd: 3
-      photon: 3
-      redhat: 3
-      ubuntu: 2
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:N/I:H/A:H
-        V3Score: 7.8
-    References:
-    - http://seclists.org/fulldisclosure/2025/Aug/0
-    - http://seclists.org/fulldisclosure/2025/Jul/30
-    - http://seclists.org/fulldisclosure/2025/Jul/32
-    - http://seclists.org/fulldisclosure/2025/Jul/33
-    - http://seclists.org/fulldisclosure/2025/Jul/35
-    - http://seclists.org/fulldisclosure/2025/Jul/37
-    - http://www.openwall.com/lists/oss-security/2025/07/11/2
-    - https://access.redhat.com/security/cve/CVE-2025-7424
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2379228
-    - https://lists.debian.org/debian-lts-announce/2025/09/msg00024.html
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-7424
-    - https://www.cve.org/CVERecord?id=CVE-2025-7424
-    PublishedDate: '2025-07-10T14:15:27.573Z'
-    LastModifiedDate: '2025-11-04T22:16:43.663Z'
   - VulnerabilityID: CVE-2025-7425
     PkgID: libxslt1.1@1.1.34-4ubuntu0.22.04.4
     PkgName: libxslt1.1
@@ -28081,7 +27990,7 @@
     Description: tar.Reader does not set a maximum size on the number of sparse region data blocks in GNU tar pax 1.0 sparse files. A maliciously-crafted archive containing a large number of sparse regions can cause a Reader to read an unbounded amount of data from the archive into memory. When reading from a compressed source, a small compressed input can result in large allocations.
     Severity: HIGH
     VendorSeverity:
-      alma: 3
+      alma: 2
       amazon: 3
       bitnami: 2
       oracle-oval: 2
@@ -28096,13 +28005,12 @@
         V3Score: 7.5
     References:
     - http://www.openwall.com/lists/oss-security/2025/10/08/1
-    - https://access.redhat.com/errata/RHSA-2025:22011
+    - https://access.redhat.com/errata/RHSA-2025:23087
     - https://access.redhat.com/security/cve/CVE-2025-58183
-    - https://bugzilla.redhat.com/2404715
     - https://bugzilla.redhat.com/2407258
     - https://bugzilla.redhat.com/show_bug.cgi?id=2407258
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-58183
-    - https://errata.almalinux.org/9/ALSA-2025-22011.html
+    - https://errata.almalinux.org/9/ALSA-2025-23087.html
     - https://errata.rockylinux.org/RLSA-2025:23087
     - https://go.dev/cl/709861
     - https://go.dev/issue/75677
@@ -29360,7 +29268,7 @@
     Description: tar.Reader does not set a maximum size on the number of sparse region data blocks in GNU tar pax 1.0 sparse files. A maliciously-crafted archive containing a large number of sparse regions can cause a Reader to read an unbounded amount of data from the archive into memory. When reading from a compressed source, a small compressed input can result in large allocations.
     Severity: HIGH
     VendorSeverity:
-      alma: 3
+      alma: 2
       amazon: 3
       bitnami: 2
       oracle-oval: 2
@@ -29375,13 +29283,12 @@
         V3Score: 7.5
     References:
     - http://www.openwall.com/lists/oss-security/2025/10/08/1
-    - https://access.redhat.com/errata/RHSA-2025:22011
+    - https://access.redhat.com/errata/RHSA-2025:23087
     - https://access.redhat.com/security/cve/CVE-2025-58183
-    - https://bugzilla.redhat.com/2404715
     - https://bugzilla.redhat.com/2407258
     - https://bugzilla.redhat.com/show_bug.cgi?id=2407258
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-58183
-    - https://errata.almalinux.org/9/ALSA-2025-22011.html
+    - https://errata.almalinux.org/9/ALSA-2025-23087.html
     - https://errata.rockylinux.org/RLSA-2025:23087
     - https://go.dev/cl/709861
     - https://go.dev/issue/75677
@@ -33450,7 +33357,7 @@
     Description: tar.Reader does not set a maximum size on the number of sparse region data blocks in GNU tar pax 1.0 sparse files. A maliciously-crafted archive containing a large number of sparse regions can cause a Reader to read an unbounded amount of data from the archive into memory. When reading from a compressed source, a small compressed input can result in large allocations.
     Severity: HIGH
     VendorSeverity:
-      alma: 3
+      alma: 2
       amazon: 3
       bitnami: 2
       oracle-oval: 2
@@ -33465,13 +33372,12 @@
         V3Score: 7.5
     References:
     - http://www.openwall.com/lists/oss-security/2025/10/08/1
-    - https://access.redhat.com/errata/RHSA-2025:22011
+    - https://access.redhat.com/errata/RHSA-2025:23087
     - https://access.redhat.com/security/cve/CVE-2025-58183
-    - https://bugzilla.redhat.com/2404715
     - https://bugzilla.redhat.com/2407258
     - https://bugzilla.redhat.com/show_bug.cgi?id=2407258
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-58183
-    - https://errata.almalinux.org/9/ALSA-2025-22011.html
+    - https://errata.almalinux.org/9/ALSA-2025-23087.html
     - https://errata.rockylinux.org/RLSA-2025:23087
     - https://go.dev/cl/709861
     - https://go.dev/issue/75677
@@ -34776,6 +34682,53 @@
       Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f672d99cf12d59721fb5d9
       DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7277787fa3578e3352a155
   Vulnerabilities:
+  - VulnerabilityID: CVE-2025-13281
+    PkgID: k8s.io/kubernetes@v1.34.1
+    PkgName: k8s.io/kubernetes
+    PkgIdentifier:
+      PURL: pkg:golang/k8s.io/kubernetes@v1.34.1
+      UID: 9a9ec45758d5bee1
+    InstalledVersion: v1.34.1
+    FixedVersion: 1.32.10, 1.33.6, 1.34.2
+    Status: fixed
+    Layer:
+      Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f672d99cf12d59721fb5d9
+      DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7277787fa3578e3352a155
+    SeveritySource: ghsa
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-13281
+    DataSource:
+      ID: ghsa
+      Name: GitHub Security Advisory Go
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
+    Fingerprint: sha256:084a8f991fb336933c9f0d031cf306228b35d267333889bcf424c7ce1da511ef
+    Title: 'kube-controller-manager: Portworx Half-Blind SSRF in kube-controller-manager'
+    Description: A half-blind Server Side Request Forgery (SSRF) vulnerability exists in kube-controller-manager when using the in-tree Portworx StorageClass. This vulnerability allows authorized users to leak arbitrary information from unprotected endpoints in the control plane’s host network (including link-local or loopback services).
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-918
+    VendorSeverity:
+      ghsa: 2
+      redhat: 2
+    CVSS:
+      ghsa:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:C/C:H/I:N/A:N
+        V3Score: 5.8
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:C/C:H/I:N/A:N
+        V3Score: 5.8
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/12/01/4
+    - https://access.redhat.com/security/cve/CVE-2025-13281
+    - https://github.com/kubernetes/kubernetes
+    - https://github.com/kubernetes/kubernetes/commit/7506ce804c20696ba32cdb72126270ceaed06e24
+    - https://github.com/kubernetes/kubernetes/commit/97650c1c4fe15cbb7756ba95b3edc8a8665063ca
+    - https://github.com/kubernetes/kubernetes/commit/dbe17dfe7773563eac95534040f413ada6d2b421
+    - https://github.com/kubernetes/kubernetes/issues/135525
+    - https://groups.google.com/g/kubernetes-security-announce/c/EORqZg0k1l4/m/TtD-q0v7AgAJ
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-13281
+    - https://www.cve.org/CVERecord?id=CVE-2025-13281
+    PublishedDate: '2025-12-14T22:15:36.45Z'
+    LastModifiedDate: '2025-12-15T18:22:13.783Z'
   - VulnerabilityID: CVE-2025-58183
     PkgID: stdlib@v1.24.6
     PkgName: stdlib
@@ -34798,7 +34751,7 @@
     Description: tar.Reader does not set a maximum size on the number of sparse region data blocks in GNU tar pax 1.0 sparse files. A maliciously-crafted archive containing a large number of sparse regions can cause a Reader to read an unbounded amount of data from the archive into memory. When reading from a compressed source, a small compressed input can result in large allocations.
     Severity: HIGH
     VendorSeverity:
-      alma: 3
+      alma: 2
       amazon: 3
       bitnami: 2
       oracle-oval: 2
@@ -34813,13 +34766,12 @@
         V3Score: 7.5
     References:
     - http://www.openwall.com/lists/oss-security/2025/10/08/1
-    - https://access.redhat.com/errata/RHSA-2025:22011
+    - https://access.redhat.com/errata/RHSA-2025:23087
     - https://access.redhat.com/security/cve/CVE-2025-58183
-    - https://bugzilla.redhat.com/2404715
     - https://bugzilla.redhat.com/2407258
     - https://bugzilla.redhat.com/show_bug.cgi?id=2407258
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-58183
-    - https://errata.almalinux.org/9/ALSA-2025-22011.html
+    - https://errata.almalinux.org/9/ALSA-2025-23087.html
     - https://errata.rockylinux.org/RLSA-2025:23087
     - https://go.dev/cl/709861
     - https://go.dev/issue/75677
@@ -36391,7 +36343,7 @@
     Description: tar.Reader does not set a maximum size on the number of sparse region data blocks in GNU tar pax 1.0 sparse files. A maliciously-crafted archive containing a large number of sparse regions can cause a Reader to read an unbounded amount of data from the archive into memory. When reading from a compressed source, a small compressed input can result in large allocations.
     Severity: HIGH
     VendorSeverity:
-      alma: 3
+      alma: 2
       amazon: 3
       bitnami: 2
       oracle-oval: 2
@@ -36406,13 +36358,12 @@
         V3Score: 7.5
     References:
     - http://www.openwall.com/lists/oss-security/2025/10/08/1
-    - https://access.redhat.com/errata/RHSA-2025:22011
+    - https://access.redhat.com/errata/RHSA-2025:23087
     - https://access.redhat.com/security/cve/CVE-2025-58183
-    - https://bugzilla.redhat.com/2404715
     - https://bugzilla.redhat.com/2407258
     - https://bugzilla.redhat.com/show_bug.cgi?id=2407258
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-58183
-    - https://errata.almalinux.org/9/ALSA-2025-22011.html
+    - https://errata.almalinux.org/9/ALSA-2025-23087.html
     - https://errata.rockylinux.org/RLSA-2025:23087
     - https://go.dev/cl/709861
     - https://go.dev/issue/75677
@@ -38719,7 +38670,7 @@
     Description: tar.Reader does not set a maximum size on the number of sparse region data blocks in GNU tar pax 1.0 sparse files. A maliciously-crafted archive containing a large number of sparse regions can cause a Reader to read an unbounded amount of data from the archive into memory. When reading from a compressed source, a small compressed input can result in large allocations.
     Severity: HIGH
     VendorSeverity:
-      alma: 3
+      alma: 2
       amazon: 3
       bitnami: 2
       oracle-oval: 2
@@ -38734,13 +38685,12 @@
         V3Score: 7.5
     References:
     - http://www.openwall.com/lists/oss-security/2025/10/08/1
-    - https://access.redhat.com/errata/RHSA-2025:22011
+    - https://access.redhat.com/errata/RHSA-2025:23087
     - https://access.redhat.com/security/cve/CVE-2025-58183
-    - https://bugzilla.redhat.com/2404715
     - https://bugzilla.redhat.com/2407258
     - https://bugzilla.redhat.com/show_bug.cgi?id=2407258
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-58183
-    - https://errata.almalinux.org/9/ALSA-2025-22011.html
+    - https://errata.almalinux.org/9/ALSA-2025-23087.html
     - https://errata.rockylinux.org/RLSA-2025:23087
     - https://go.dev/cl/709861
     - https://go.dev/issue/75677
