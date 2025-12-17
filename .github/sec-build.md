@@ -26035,103 +26035,7 @@
 │                        │      │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
 │                        │      ├ PublishedDate   : 2023-12-23T13:15:07.573Z 
 │                        │      ╰ LastModifiedDate: 2025-11-04T17:15:43.4Z 
-│                        ├ [51] ╭ VulnerabilityID : CVE-2025-10911 
-│                        │      ├ PkgID           : libxslt1.1@1.1.34-4ubuntu0.22.04.4 
-│                        │      ├ PkgName         : libxslt1.1 
-│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libxslt1.1@1.1.34-4ubuntu0.22.04.4?ar
-│                        │      │                  │       ch=amd64&distro=ubuntu-22.04 
-│                        │      │                  ╰ UID : 1440caddfd2b231 
-│                        │      ├ InstalledVersion: 1.1.34-4ubuntu0.22.04.4 
-│                        │      ├ Status          : affected 
-│                        │      ├ Layer            ╭ Digest: sha256:7c946d7ccb909c06261c5fef7abef387f5fc8a687dc
-│                        │      │                  │         1c6361f16d4c297ffcfff 
-│                        │      │                  ╰ DiffID: sha256:3a99397e2fb3de150f8dd3f9530b5f102210f243f10
-│                        │      │                            428ea9de7b65cde76dcc1 
-│                        │      ├ SeveritySource  : ubuntu 
-│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-10911 
-│                        │      ├ DataSource       ╭ ID  : ubuntu 
-│                        │      │                  ├ Name: Ubuntu CVE Tracker 
-│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │      ├ Fingerprint     : sha256:ca51228253aa447d11f0ec0a92f1640e9b5ef32c02b9657e63c0
-│                        │      │                   81b794541a7e 
-│                        │      ├ Title           : libxslt: use-after-free with key data stored cross-RVT 
-│                        │      ├ Description     : A use-after-free vulnerability was found in libxslt while
-│                        │      │                   parsing xsl nodes that may lead to the dereference of
-│                        │      │                   expired pointers and application crash. 
-│                        │      ├ Severity        : MEDIUM 
-│                        │      ├ CweIDs           ─ [0]: CWE-825 
-│                        │      ├ VendorSeverity   ╭ amazon: 2 
-│                        │      │                  ├ redhat: 2 
-│                        │      │                  ╰ ubuntu: 2 
-│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:
-│                        │      │                           │           N/A:H 
-│                        │      │                           ╰ V3Score : 5.5 
-│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-10911 
-│                        │      │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2397838 
-│                        │      │                  ├ [2]: https://gitlab.gnome.org/GNOME/libxslt/-/issues/144 
-│                        │      │                  ├ [3]: https://gitlab.gnome.org/GNOME/libxslt/-/merge_reques
-│                        │      │                  │      ts/77 
-│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-10911 
-│                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-10911 
-│                        │      ├ PublishedDate   : 2025-09-25T16:15:31.337Z 
-│                        │      ╰ LastModifiedDate: 2025-09-26T14:32:53.583Z 
-│                        ├ [52] ╭ VulnerabilityID : CVE-2025-7424 
-│                        │      ├ PkgID           : libxslt1.1@1.1.34-4ubuntu0.22.04.4 
-│                        │      ├ PkgName         : libxslt1.1 
-│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libxslt1.1@1.1.34-4ubuntu0.22.04.4?ar
-│                        │      │                  │       ch=amd64&distro=ubuntu-22.04 
-│                        │      │                  ╰ UID : 1440caddfd2b231 
-│                        │      ├ InstalledVersion: 1.1.34-4ubuntu0.22.04.4 
-│                        │      ├ Status          : affected 
-│                        │      ├ Layer            ╭ Digest: sha256:7c946d7ccb909c06261c5fef7abef387f5fc8a687dc
-│                        │      │                  │         1c6361f16d4c297ffcfff 
-│                        │      │                  ╰ DiffID: sha256:3a99397e2fb3de150f8dd3f9530b5f102210f243f10
-│                        │      │                            428ea9de7b65cde76dcc1 
-│                        │      ├ SeveritySource  : ubuntu 
-│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-7424 
-│                        │      ├ DataSource       ╭ ID  : ubuntu 
-│                        │      │                  ├ Name: Ubuntu CVE Tracker 
-│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │      ├ Fingerprint     : sha256:c3b749300d8a7b4afcfdad36c40e5bcd607c83f71867f4fcfd1d
-│                        │      │                   3fa86f5b7a3d 
-│                        │      ├ Title           : libxslt: Type confusion in xmlNode.psvi between stylesheet
-│                        │      │                   and source nodes 
-│                        │      ├ Description     : A flaw was found in the libxslt library. The same memory
-│                        │      │                   field, psvi, is used for both stylesheet and input data,
-│                        │      │                   which can lead to type confusion during XML
-│                        │      │                   transformations. This vulnerability allows an attacker to
-│                        │      │                   crash the application or corrupt memory. In some cases, it
-│                        │      │                   may lead to denial of service or unexpected behavior. 
-│                        │      ├ Severity        : MEDIUM 
-│                        │      ├ CweIDs           ─ [0]: CWE-843 
-│                        │      ├ VendorSeverity   ╭ amazon: 3 
-│                        │      │                  ├ nvd   : 3 
-│                        │      │                  ├ photon: 3 
-│                        │      │                  ├ redhat: 3 
-│                        │      │                  ╰ ubuntu: 2 
-│                        │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
-│                        │      │                  │        │           N/A:H 
-│                        │      │                  │        ╰ V3Score : 7.5 
-│                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:N/I:
-│                        │      │                           │           H/A:H 
-│                        │      │                           ╰ V3Score : 7.8 
-│                        │      ├ References       ╭ [0] : http://seclists.org/fulldisclosure/2025/Aug/0 
-│                        │      │                  ├ [1] : http://seclists.org/fulldisclosure/2025/Jul/30 
-│                        │      │                  ├ [2] : http://seclists.org/fulldisclosure/2025/Jul/32 
-│                        │      │                  ├ [3] : http://seclists.org/fulldisclosure/2025/Jul/33 
-│                        │      │                  ├ [4] : http://seclists.org/fulldisclosure/2025/Jul/35 
-│                        │      │                  ├ [5] : http://seclists.org/fulldisclosure/2025/Jul/37 
-│                        │      │                  ├ [6] : http://www.openwall.com/lists/oss-security/2025/07/1
-│                        │      │                  │       1/2 
-│                        │      │                  ├ [7] : https://access.redhat.com/security/cve/CVE-2025-7424 
-│                        │      │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2379228 
-│                        │      │                  ├ [9] : https://lists.debian.org/debian-lts-announce/2025/09
-│                        │      │                  │       /msg00024.html 
-│                        │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2025-7424 
-│                        │      │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2025-7424 
-│                        │      ├ PublishedDate   : 2025-07-10T14:15:27.573Z 
-│                        │      ╰ LastModifiedDate: 2025-11-04T22:16:43.663Z 
-│                        ├ [53] ╭ VulnerabilityID : CVE-2025-7425 
+│                        ├ [51] ╭ VulnerabilityID : CVE-2025-7425 
 │                        │      ├ PkgID           : libxslt1.1@1.1.34-4ubuntu0.22.04.4 
 │                        │      ├ PkgName         : libxslt1.1 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libxslt1.1@1.1.34-4ubuntu0.22.04.4?ar
@@ -26223,7 +26127,7 @@
 │                        │      │                  ╰ [46]: https://www.cve.org/CVERecord?id=CVE-2025-7425 
 │                        │      ├ PublishedDate   : 2025-07-10T14:15:27.877Z 
 │                        │      ╰ LastModifiedDate: 2025-11-22T03:15:48.857Z 
-│                        ├ [54] ╭ VulnerabilityID : CVE-2022-4899 
+│                        ├ [52] ╭ VulnerabilityID : CVE-2022-4899 
 │                        │      ├ PkgID           : libzstd1@1.4.8+dfsg-3build1 
 │                        │      ├ PkgName         : libzstd1 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libzstd1@1.4.8%2Bdfsg-3build1?arch=am
@@ -26379,7 +26283,7 @@
 │                        │      │                  ╰ [94]: https://www.cve.org/CVERecord?id=CVE-2022-4899 
 │                        │      ├ PublishedDate   : 2023-03-31T20:15:07.213Z 
 │                        │      ╰ LastModifiedDate: 2025-02-18T18:15:14.023Z 
-│                        ├ [55] ╭ VulnerabilityID : CVE-2023-29383 
+│                        ├ [53] ╭ VulnerabilityID : CVE-2023-29383 
 │                        │      ├ PkgID           : login@1:4.8.1-2ubuntu2.2 
 │                        │      ├ PkgName         : login 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/login@4.8.1-2ubuntu2.2?arch=amd64&dis
@@ -26442,7 +26346,7 @@
 │                        │      │                         sources/security-advisories/?fid=31797 
 │                        │      ├ PublishedDate   : 2023-04-14T22:15:07.68Z 
 │                        │      ╰ LastModifiedDate: 2025-11-03T20:16:01.283Z 
-│                        ├ [56] ╭ VulnerabilityID : CVE-2024-56433 
+│                        ├ [54] ╭ VulnerabilityID : CVE-2024-56433 
 │                        │      ├ PkgID           : login@1:4.8.1-2ubuntu2.2 
 │                        │      ├ PkgName         : login 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/login@4.8.1-2ubuntu2.2?arch=amd64&dis
@@ -26505,7 +26409,7 @@
 │                        │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                        │      ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                        │      ╰ LastModifiedDate: 2024-12-26T09:15:07.267Z 
-│                        ├ [57] ╭ VulnerabilityID : CVE-2023-50495 
+│                        ├ [55] ╭ VulnerabilityID : CVE-2023-50495 
 │                        │      ├ PkgID           : ncurses-base@6.3-2ubuntu0.1 
 │                        │      ├ PkgName         : ncurses-base 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/ncurses-base@6.3-2ubuntu0.1?arch=all&
@@ -26557,7 +26461,7 @@
 │                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2023-50495 
 │                        │      ├ PublishedDate   : 2023-12-12T15:15:07.867Z 
 │                        │      ╰ LastModifiedDate: 2025-11-04T19:16:14.45Z 
-│                        ├ [58] ╭ VulnerabilityID : CVE-2023-50495 
+│                        ├ [56] ╭ VulnerabilityID : CVE-2023-50495 
 │                        │      ├ PkgID           : ncurses-bin@6.3-2ubuntu0.1 
 │                        │      ├ PkgName         : ncurses-bin 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/ncurses-bin@6.3-2ubuntu0.1?arch=amd64
@@ -26609,7 +26513,7 @@
 │                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2023-50495 
 │                        │      ├ PublishedDate   : 2023-12-12T15:15:07.867Z 
 │                        │      ╰ LastModifiedDate: 2025-11-04T19:16:14.45Z 
-│                        ├ [59] ╭ VulnerabilityID : CVE-2023-50495 
+│                        ├ [57] ╭ VulnerabilityID : CVE-2023-50495 
 │                        │      ├ PkgID           : ncurses-term@6.3-2ubuntu0.1 
 │                        │      ├ PkgName         : ncurses-term 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/ncurses-term@6.3-2ubuntu0.1?arch=all&
@@ -26661,7 +26565,7 @@
 │                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2023-50495 
 │                        │      ├ PublishedDate   : 2023-12-12T15:15:07.867Z 
 │                        │      ╰ LastModifiedDate: 2025-11-04T19:16:14.45Z 
-│                        ├ [60] ╭ VulnerabilityID : CVE-2024-41996 
+│                        ├ [58] ╭ VulnerabilityID : CVE-2024-41996 
 │                        │      ├ PkgID           : openssl@3.0.2-0ubuntu1.20 
 │                        │      ├ PkgName         : openssl 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl@3.0.2-0ubuntu1.20?arch=amd64&
@@ -26713,7 +26617,7 @@
 │                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-41996 
 │                        │      ├ PublishedDate   : 2024-08-26T06:15:04.603Z 
 │                        │      ╰ LastModifiedDate: 2024-08-26T16:35:11.247Z 
-│                        ├ [61] ╭ VulnerabilityID : CVE-2023-29383 
+│                        ├ [59] ╭ VulnerabilityID : CVE-2023-29383 
 │                        │      ├ PkgID           : passwd@1:4.8.1-2ubuntu2.2 
 │                        │      ├ PkgName         : passwd 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/passwd@4.8.1-2ubuntu2.2?arch=amd64&di
@@ -26776,7 +26680,7 @@
 │                        │      │                         sources/security-advisories/?fid=31797 
 │                        │      ├ PublishedDate   : 2023-04-14T22:15:07.68Z 
 │                        │      ╰ LastModifiedDate: 2025-11-03T20:16:01.283Z 
-│                        ├ [62] ╭ VulnerabilityID : CVE-2024-56433 
+│                        ├ [60] ╭ VulnerabilityID : CVE-2024-56433 
 │                        │      ├ PkgID           : passwd@1:4.8.1-2ubuntu2.2 
 │                        │      ├ PkgName         : passwd 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/passwd@4.8.1-2ubuntu2.2?arch=amd64&di
@@ -26839,7 +26743,7 @@
 │                        │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                        │      ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                        │      ╰ LastModifiedDate: 2024-12-26T09:15:07.267Z 
-│                        ├ [63] ╭ VulnerabilityID : CVE-2023-7008 
+│                        ├ [61] ╭ VulnerabilityID : CVE-2023-7008 
 │                        │      ├ PkgID           : systemd@249.11-0ubuntu3.17 
 │                        │      ├ PkgName         : systemd 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/systemd@249.11-0ubuntu3.17?arch=amd64
@@ -26910,7 +26814,7 @@
 │                        │      │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
 │                        │      ├ PublishedDate   : 2023-12-23T13:15:07.573Z 
 │                        │      ╰ LastModifiedDate: 2025-11-04T17:15:43.4Z 
-│                        ├ [64] ╭ VulnerabilityID : CVE-2023-7008 
+│                        ├ [62] ╭ VulnerabilityID : CVE-2023-7008 
 │                        │      ├ PkgID           : systemd-sysv@249.11-0ubuntu3.17 
 │                        │      ├ PkgName         : systemd-sysv 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/systemd-sysv@249.11-0ubuntu3.17?arch=
@@ -26981,7 +26885,7 @@
 │                        │      │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
 │                        │      ├ PublishedDate   : 2023-12-23T13:15:07.573Z 
 │                        │      ╰ LastModifiedDate: 2025-11-04T17:15:43.4Z 
-│                        ├ [65] ╭ VulnerabilityID : CVE-2023-7008 
+│                        ├ [63] ╭ VulnerabilityID : CVE-2023-7008 
 │                        │      ├ PkgID           : systemd-timesyncd@249.11-0ubuntu3.17 
 │                        │      ├ PkgName         : systemd-timesyncd 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/systemd-timesyncd@249.11-0ubuntu3.17?
@@ -27052,7 +26956,7 @@
 │                        │      │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
 │                        │      ├ PublishedDate   : 2023-12-23T13:15:07.573Z 
 │                        │      ╰ LastModifiedDate: 2025-11-04T17:15:43.4Z 
-│                        ├ [66] ╭ VulnerabilityID : CVE-2025-45582 
+│                        ├ [64] ╭ VulnerabilityID : CVE-2025-45582 
 │                        │      ├ PkgID           : tar@1.34+dfsg-1ubuntu0.1.22.04.2 
 │                        │      ├ PkgName         : tar 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/tar@1.34%2Bdfsg-1ubuntu0.1.22.04.2?ar
@@ -27121,7 +27025,7 @@
 │                        │      │                         urity-rules-of-thumb.html 
 │                        │      ├ PublishedDate   : 2025-07-11T17:15:37.183Z 
 │                        │      ╰ LastModifiedDate: 2025-11-02T01:15:32.307Z 
-│                        ├ [67] ╭ VulnerabilityID : CVE-2023-29383 
+│                        ├ [65] ╭ VulnerabilityID : CVE-2023-29383 
 │                        │      ├ PkgID           : uidmap@1:4.8.1-2ubuntu2.2 
 │                        │      ├ PkgName         : uidmap 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/uidmap@4.8.1-2ubuntu2.2?arch=amd64&di
@@ -27184,7 +27088,7 @@
 │                        │      │                         sources/security-advisories/?fid=31797 
 │                        │      ├ PublishedDate   : 2023-04-14T22:15:07.68Z 
 │                        │      ╰ LastModifiedDate: 2025-11-03T20:16:01.283Z 
-│                        ├ [68] ╭ VulnerabilityID : CVE-2024-56433 
+│                        ├ [66] ╭ VulnerabilityID : CVE-2024-56433 
 │                        │      ├ PkgID           : uidmap@1:4.8.1-2ubuntu2.2 
 │                        │      ├ PkgName         : uidmap 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/uidmap@4.8.1-2ubuntu2.2?arch=amd64&di
@@ -27247,7 +27151,7 @@
 │                        │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                        │      ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                        │      ╰ LastModifiedDate: 2024-12-26T09:15:07.267Z 
-│                        ╰ [69] ╭ VulnerabilityID : CVE-2021-31879 
+│                        ╰ [67] ╭ VulnerabilityID : CVE-2021-31879 
 │                               ├ PkgID           : wget@1.21.2-2ubuntu1.1 
 │                               ├ PkgName         : wget 
 │                               ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/wget@1.21.2-2ubuntu1.1?arch=amd64&dis
@@ -28865,7 +28769,7 @@
 │                        │      │                   from a compressed source, a small compressed input can
 │                        │      │                   result in large allocations. 
 │                        │      ├ Severity        : HIGH 
-│                        │      ├ VendorSeverity   ╭ alma       : 3 
+│                        │      ├ VendorSeverity   ╭ alma       : 2 
 │                        │      │                  ├ amazon     : 3 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ oracle-oval: 2 
@@ -28879,24 +28783,23 @@
 │                        │      │                            ╰ V3Score : 7.5 
 │                        │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/10/0
 │                        │      │                  │       8/1 
-│                        │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:22011 
+│                        │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:23087 
 │                        │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2025-58183 
-│                        │      │                  ├ [3] : https://bugzilla.redhat.com/2404715 
-│                        │      │                  ├ [4] : https://bugzilla.redhat.com/2407258 
-│                        │      │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2407258 
-│                        │      │                  ├ [6] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                        │      │                  ├ [3] : https://bugzilla.redhat.com/2407258 
+│                        │      │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2407258 
+│                        │      │                  ├ [5] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                        │      │                  │       025-58183 
-│                        │      │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2025-22011.html 
-│                        │      │                  ├ [8] : https://errata.rockylinux.org/RLSA-2025:23087 
-│                        │      │                  ├ [9] : https://go.dev/cl/709861 
-│                        │      │                  ├ [10]: https://go.dev/issue/75677 
-│                        │      │                  ├ [11]: https://groups.google.com/g/golang-announce/c/4Emdl2
+│                        │      │                  ├ [6] : https://errata.almalinux.org/9/ALSA-2025-23087.html 
+│                        │      │                  ├ [7] : https://errata.rockylinux.org/RLSA-2025:23087 
+│                        │      │                  ├ [8] : https://go.dev/cl/709861 
+│                        │      │                  ├ [9] : https://go.dev/issue/75677 
+│                        │      │                  ├ [10]: https://groups.google.com/g/golang-announce/c/4Emdl2
 │                        │      │                  │       iQ_bI 
-│                        │      │                  ├ [12]: https://linux.oracle.com/cve/CVE-2025-58183.html 
-│                        │      │                  ├ [13]: https://linux.oracle.com/errata/ELSA-2025-23088.html 
-│                        │      │                  ├ [14]: https://nvd.nist.gov/vuln/detail/CVE-2025-58183 
-│                        │      │                  ├ [15]: https://pkg.go.dev/vuln/GO-2025-4014 
-│                        │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2025-58183 
+│                        │      │                  ├ [11]: https://linux.oracle.com/cve/CVE-2025-58183.html 
+│                        │      │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2025-23088.html 
+│                        │      │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2025-58183 
+│                        │      │                  ├ [14]: https://pkg.go.dev/vuln/GO-2025-4014 
+│                        │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2025-58183 
 │                        │      ├ PublishedDate   : 2025-10-29T23:16:19.357Z 
 │                        │      ╰ LastModifiedDate: 2025-11-04T22:16:33.2Z 
 │                        ├ [6]  ╭ VulnerabilityID : CVE-2025-58186 
@@ -30247,7 +30150,7 @@
 │                        │      │                   from a compressed source, a small compressed input can
 │                        │      │                   result in large allocations. 
 │                        │      ├ Severity        : HIGH 
-│                        │      ├ VendorSeverity   ╭ alma       : 3 
+│                        │      ├ VendorSeverity   ╭ alma       : 2 
 │                        │      │                  ├ amazon     : 3 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ oracle-oval: 2 
@@ -30261,24 +30164,23 @@
 │                        │      │                            ╰ V3Score : 7.5 
 │                        │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/10/0
 │                        │      │                  │       8/1 
-│                        │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:22011 
+│                        │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:23087 
 │                        │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2025-58183 
-│                        │      │                  ├ [3] : https://bugzilla.redhat.com/2404715 
-│                        │      │                  ├ [4] : https://bugzilla.redhat.com/2407258 
-│                        │      │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2407258 
-│                        │      │                  ├ [6] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                        │      │                  ├ [3] : https://bugzilla.redhat.com/2407258 
+│                        │      │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2407258 
+│                        │      │                  ├ [5] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                        │      │                  │       025-58183 
-│                        │      │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2025-22011.html 
-│                        │      │                  ├ [8] : https://errata.rockylinux.org/RLSA-2025:23087 
-│                        │      │                  ├ [9] : https://go.dev/cl/709861 
-│                        │      │                  ├ [10]: https://go.dev/issue/75677 
-│                        │      │                  ├ [11]: https://groups.google.com/g/golang-announce/c/4Emdl2
+│                        │      │                  ├ [6] : https://errata.almalinux.org/9/ALSA-2025-23087.html 
+│                        │      │                  ├ [7] : https://errata.rockylinux.org/RLSA-2025:23087 
+│                        │      │                  ├ [8] : https://go.dev/cl/709861 
+│                        │      │                  ├ [9] : https://go.dev/issue/75677 
+│                        │      │                  ├ [10]: https://groups.google.com/g/golang-announce/c/4Emdl2
 │                        │      │                  │       iQ_bI 
-│                        │      │                  ├ [12]: https://linux.oracle.com/cve/CVE-2025-58183.html 
-│                        │      │                  ├ [13]: https://linux.oracle.com/errata/ELSA-2025-23088.html 
-│                        │      │                  ├ [14]: https://nvd.nist.gov/vuln/detail/CVE-2025-58183 
-│                        │      │                  ├ [15]: https://pkg.go.dev/vuln/GO-2025-4014 
-│                        │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2025-58183 
+│                        │      │                  ├ [11]: https://linux.oracle.com/cve/CVE-2025-58183.html 
+│                        │      │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2025-23088.html 
+│                        │      │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2025-58183 
+│                        │      │                  ├ [14]: https://pkg.go.dev/vuln/GO-2025-4014 
+│                        │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2025-58183 
 │                        │      ├ PublishedDate   : 2025-10-29T23:16:19.357Z 
 │                        │      ╰ LastModifiedDate: 2025-11-04T22:16:33.2Z 
 │                        ├ [6]  ╭ VulnerabilityID : CVE-2025-58186 
@@ -36593,7 +36495,7 @@
 │                        │      │                   from a compressed source, a small compressed input can
 │                        │      │                   result in large allocations. 
 │                        │      ├ Severity        : HIGH 
-│                        │      ├ VendorSeverity   ╭ alma       : 3 
+│                        │      ├ VendorSeverity   ╭ alma       : 2 
 │                        │      │                  ├ amazon     : 3 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ oracle-oval: 2 
@@ -36607,24 +36509,23 @@
 │                        │      │                            ╰ V3Score : 7.5 
 │                        │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/10/0
 │                        │      │                  │       8/1 
-│                        │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:22011 
+│                        │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:23087 
 │                        │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2025-58183 
-│                        │      │                  ├ [3] : https://bugzilla.redhat.com/2404715 
-│                        │      │                  ├ [4] : https://bugzilla.redhat.com/2407258 
-│                        │      │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2407258 
-│                        │      │                  ├ [6] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                        │      │                  ├ [3] : https://bugzilla.redhat.com/2407258 
+│                        │      │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2407258 
+│                        │      │                  ├ [5] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                        │      │                  │       025-58183 
-│                        │      │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2025-22011.html 
-│                        │      │                  ├ [8] : https://errata.rockylinux.org/RLSA-2025:23087 
-│                        │      │                  ├ [9] : https://go.dev/cl/709861 
-│                        │      │                  ├ [10]: https://go.dev/issue/75677 
-│                        │      │                  ├ [11]: https://groups.google.com/g/golang-announce/c/4Emdl2
+│                        │      │                  ├ [6] : https://errata.almalinux.org/9/ALSA-2025-23087.html 
+│                        │      │                  ├ [7] : https://errata.rockylinux.org/RLSA-2025:23087 
+│                        │      │                  ├ [8] : https://go.dev/cl/709861 
+│                        │      │                  ├ [9] : https://go.dev/issue/75677 
+│                        │      │                  ├ [10]: https://groups.google.com/g/golang-announce/c/4Emdl2
 │                        │      │                  │       iQ_bI 
-│                        │      │                  ├ [12]: https://linux.oracle.com/cve/CVE-2025-58183.html 
-│                        │      │                  ├ [13]: https://linux.oracle.com/errata/ELSA-2025-23088.html 
-│                        │      │                  ├ [14]: https://nvd.nist.gov/vuln/detail/CVE-2025-58183 
-│                        │      │                  ├ [15]: https://pkg.go.dev/vuln/GO-2025-4014 
-│                        │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2025-58183 
+│                        │      │                  ├ [11]: https://linux.oracle.com/cve/CVE-2025-58183.html 
+│                        │      │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2025-23088.html 
+│                        │      │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2025-58183 
+│                        │      │                  ├ [14]: https://pkg.go.dev/vuln/GO-2025-4014 
+│                        │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2025-58183 
 │                        │      ├ PublishedDate   : 2025-10-29T23:16:19.357Z 
 │                        │      ╰ LastModifiedDate: 2025-11-04T22:16:33.2Z 
 │                        ├ [3]  ╭ VulnerabilityID : CVE-2025-58186 
@@ -39167,7 +39068,7 @@
 │                        │      │                   from a compressed source, a small compressed input can
 │                        │      │                   result in large allocations. 
 │                        │      ├ Severity        : HIGH 
-│                        │      ├ VendorSeverity   ╭ alma       : 3 
+│                        │      ├ VendorSeverity   ╭ alma       : 2 
 │                        │      │                  ├ amazon     : 3 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ oracle-oval: 2 
@@ -39181,24 +39082,23 @@
 │                        │      │                            ╰ V3Score : 7.5 
 │                        │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/10/0
 │                        │      │                  │       8/1 
-│                        │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:22011 
+│                        │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:23087 
 │                        │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2025-58183 
-│                        │      │                  ├ [3] : https://bugzilla.redhat.com/2404715 
-│                        │      │                  ├ [4] : https://bugzilla.redhat.com/2407258 
-│                        │      │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2407258 
-│                        │      │                  ├ [6] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                        │      │                  ├ [3] : https://bugzilla.redhat.com/2407258 
+│                        │      │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2407258 
+│                        │      │                  ├ [5] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                        │      │                  │       025-58183 
-│                        │      │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2025-22011.html 
-│                        │      │                  ├ [8] : https://errata.rockylinux.org/RLSA-2025:23087 
-│                        │      │                  ├ [9] : https://go.dev/cl/709861 
-│                        │      │                  ├ [10]: https://go.dev/issue/75677 
-│                        │      │                  ├ [11]: https://groups.google.com/g/golang-announce/c/4Emdl2
+│                        │      │                  ├ [6] : https://errata.almalinux.org/9/ALSA-2025-23087.html 
+│                        │      │                  ├ [7] : https://errata.rockylinux.org/RLSA-2025:23087 
+│                        │      │                  ├ [8] : https://go.dev/cl/709861 
+│                        │      │                  ├ [9] : https://go.dev/issue/75677 
+│                        │      │                  ├ [10]: https://groups.google.com/g/golang-announce/c/4Emdl2
 │                        │      │                  │       iQ_bI 
-│                        │      │                  ├ [12]: https://linux.oracle.com/cve/CVE-2025-58183.html 
-│                        │      │                  ├ [13]: https://linux.oracle.com/errata/ELSA-2025-23088.html 
-│                        │      │                  ├ [14]: https://nvd.nist.gov/vuln/detail/CVE-2025-58183 
-│                        │      │                  ├ [15]: https://pkg.go.dev/vuln/GO-2025-4014 
-│                        │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2025-58183 
+│                        │      │                  ├ [11]: https://linux.oracle.com/cve/CVE-2025-58183.html 
+│                        │      │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2025-23088.html 
+│                        │      │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2025-58183 
+│                        │      │                  ├ [14]: https://pkg.go.dev/vuln/GO-2025-4014 
+│                        │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2025-58183 
 │                        │      ├ PublishedDate   : 2025-10-29T23:16:19.357Z 
 │                        │      ╰ LastModifiedDate: 2025-11-04T22:16:33.2Z 
 │                        ├ [15] ╭ VulnerabilityID : CVE-2025-58186 
