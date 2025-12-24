@@ -23615,7 +23615,8 @@
 │                        │      │                   host so overriding
 │                        │      │                   it on an insecure host should not be okay. 
 │                        │      ├ Severity        : LOW 
-│                        │      ├ VendorSeverity   ╭ amazon     : 1 
+│                        │      ├ VendorSeverity   ╭ alma       : 2 
+│                        │      │                  ├ amazon     : 1 
 │                        │      │                  ├ oracle-oval: 2 
 │                        │      │                  ├ photon     : 3 
 │                        │      │                  ├ redhat     : 2 
@@ -23626,20 +23627,23 @@
 │                        │      │                           ╰ V3Score : 5.3 
 │                        │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/09/1
 │                        │      │                  │       0/1 
-│                        │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-9086 
-│                        │      │                  ├ [2] : https://bugzilla.redhat.com/show_bug.cgi?id=2394750 
-│                        │      │                  ├ [3] : https://curl.se/docs/CVE-2025-9086.html 
-│                        │      │                  ├ [4] : https://curl.se/docs/CVE-2025-9086.json 
-│                        │      │                  ├ [5] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                        │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:23383 
+│                        │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2025-9086 
+│                        │      │                  ├ [3] : https://bugzilla.redhat.com/2394750 
+│                        │      │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2394750 
+│                        │      │                  ├ [5] : https://curl.se/docs/CVE-2025-9086.html 
+│                        │      │                  ├ [6] : https://curl.se/docs/CVE-2025-9086.json 
+│                        │      │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                        │      │                  │       025-9086 
-│                        │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2025:23383 
-│                        │      │                  ├ [7] : https://github.com/curl/curl/commit/c6ae07c6a541e0e9
+│                        │      │                  ├ [8] : https://errata.almalinux.org/8/ALSA-2025-23383.html 
+│                        │      │                  ├ [9] : https://errata.rockylinux.org/RLSA-2025:23383 
+│                        │      │                  ├ [10]: https://github.com/curl/curl/commit/c6ae07c6a541e0e9
 │                        │      │                  │       6d0040afb6 
-│                        │      │                  ├ [8] : https://hackerone.com/reports/3294999 
-│                        │      │                  ├ [9] : https://linux.oracle.com/cve/CVE-2025-9086.html 
-│                        │      │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2025-23383.html 
-│                        │      │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2025-9086 
-│                        │      │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2025-9086 
+│                        │      │                  ├ [11]: https://hackerone.com/reports/3294999 
+│                        │      │                  ├ [12]: https://linux.oracle.com/cve/CVE-2025-9086.html 
+│                        │      │                  ├ [13]: https://linux.oracle.com/errata/ELSA-2025-23383.html 
+│                        │      │                  ├ [14]: https://nvd.nist.gov/vuln/detail/CVE-2025-9086 
+│                        │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2025-9086 
 │                        │      ├ PublishedDate   : 2025-09-12T06:15:44.1Z 
 │                        │      ╰ LastModifiedDate: 2025-11-04T22:16:45.19Z 
 │                        ├ [4]  ╭ VulnerabilityID : CVE-2022-3219 
@@ -24535,7 +24539,8 @@
 │                        │      │                   host so overriding
 │                        │      │                   it on an insecure host should not be okay. 
 │                        │      ├ Severity        : LOW 
-│                        │      ├ VendorSeverity   ╭ amazon     : 1 
+│                        │      ├ VendorSeverity   ╭ alma       : 2 
+│                        │      │                  ├ amazon     : 1 
 │                        │      │                  ├ oracle-oval: 2 
 │                        │      │                  ├ photon     : 3 
 │                        │      │                  ├ redhat     : 2 
@@ -24546,20 +24551,23 @@
 │                        │      │                           ╰ V3Score : 5.3 
 │                        │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/09/1
 │                        │      │                  │       0/1 
-│                        │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-9086 
-│                        │      │                  ├ [2] : https://bugzilla.redhat.com/show_bug.cgi?id=2394750 
-│                        │      │                  ├ [3] : https://curl.se/docs/CVE-2025-9086.html 
-│                        │      │                  ├ [4] : https://curl.se/docs/CVE-2025-9086.json 
-│                        │      │                  ├ [5] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                        │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:23383 
+│                        │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2025-9086 
+│                        │      │                  ├ [3] : https://bugzilla.redhat.com/2394750 
+│                        │      │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2394750 
+│                        │      │                  ├ [5] : https://curl.se/docs/CVE-2025-9086.html 
+│                        │      │                  ├ [6] : https://curl.se/docs/CVE-2025-9086.json 
+│                        │      │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                        │      │                  │       025-9086 
-│                        │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2025:23383 
-│                        │      │                  ├ [7] : https://github.com/curl/curl/commit/c6ae07c6a541e0e9
+│                        │      │                  ├ [8] : https://errata.almalinux.org/8/ALSA-2025-23383.html 
+│                        │      │                  ├ [9] : https://errata.rockylinux.org/RLSA-2025:23383 
+│                        │      │                  ├ [10]: https://github.com/curl/curl/commit/c6ae07c6a541e0e9
 │                        │      │                  │       6d0040afb6 
-│                        │      │                  ├ [8] : https://hackerone.com/reports/3294999 
-│                        │      │                  ├ [9] : https://linux.oracle.com/cve/CVE-2025-9086.html 
-│                        │      │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2025-23383.html 
-│                        │      │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2025-9086 
-│                        │      │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2025-9086 
+│                        │      │                  ├ [11]: https://hackerone.com/reports/3294999 
+│                        │      │                  ├ [12]: https://linux.oracle.com/cve/CVE-2025-9086.html 
+│                        │      │                  ├ [13]: https://linux.oracle.com/errata/ELSA-2025-23383.html 
+│                        │      │                  ├ [14]: https://nvd.nist.gov/vuln/detail/CVE-2025-9086 
+│                        │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2025-9086 
 │                        │      ├ PublishedDate   : 2025-09-12T06:15:44.1Z 
 │                        │      ╰ LastModifiedDate: 2025-11-04T22:16:45.19Z 
 │                        ├ [22] ╭ VulnerabilityID : CVE-2025-0167 
@@ -24709,7 +24717,8 @@
 │                        │      │                   host so overriding
 │                        │      │                   it on an insecure host should not be okay. 
 │                        │      ├ Severity        : LOW 
-│                        │      ├ VendorSeverity   ╭ amazon     : 1 
+│                        │      ├ VendorSeverity   ╭ alma       : 2 
+│                        │      │                  ├ amazon     : 1 
 │                        │      │                  ├ oracle-oval: 2 
 │                        │      │                  ├ photon     : 3 
 │                        │      │                  ├ redhat     : 2 
@@ -24720,20 +24729,23 @@
 │                        │      │                           ╰ V3Score : 5.3 
 │                        │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/09/1
 │                        │      │                  │       0/1 
-│                        │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-9086 
-│                        │      │                  ├ [2] : https://bugzilla.redhat.com/show_bug.cgi?id=2394750 
-│                        │      │                  ├ [3] : https://curl.se/docs/CVE-2025-9086.html 
-│                        │      │                  ├ [4] : https://curl.se/docs/CVE-2025-9086.json 
-│                        │      │                  ├ [5] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                        │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:23383 
+│                        │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2025-9086 
+│                        │      │                  ├ [3] : https://bugzilla.redhat.com/2394750 
+│                        │      │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2394750 
+│                        │      │                  ├ [5] : https://curl.se/docs/CVE-2025-9086.html 
+│                        │      │                  ├ [6] : https://curl.se/docs/CVE-2025-9086.json 
+│                        │      │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                        │      │                  │       025-9086 
-│                        │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2025:23383 
-│                        │      │                  ├ [7] : https://github.com/curl/curl/commit/c6ae07c6a541e0e9
+│                        │      │                  ├ [8] : https://errata.almalinux.org/8/ALSA-2025-23383.html 
+│                        │      │                  ├ [9] : https://errata.rockylinux.org/RLSA-2025:23383 
+│                        │      │                  ├ [10]: https://github.com/curl/curl/commit/c6ae07c6a541e0e9
 │                        │      │                  │       6d0040afb6 
-│                        │      │                  ├ [8] : https://hackerone.com/reports/3294999 
-│                        │      │                  ├ [9] : https://linux.oracle.com/cve/CVE-2025-9086.html 
-│                        │      │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2025-23383.html 
-│                        │      │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2025-9086 
-│                        │      │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2025-9086 
+│                        │      │                  ├ [11]: https://hackerone.com/reports/3294999 
+│                        │      │                  ├ [12]: https://linux.oracle.com/cve/CVE-2025-9086.html 
+│                        │      │                  ├ [13]: https://linux.oracle.com/errata/ELSA-2025-23383.html 
+│                        │      │                  ├ [14]: https://nvd.nist.gov/vuln/detail/CVE-2025-9086 
+│                        │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2025-9086 
 │                        │      ├ PublishedDate   : 2025-09-12T06:15:44.1Z 
 │                        │      ╰ LastModifiedDate: 2025-11-04T22:16:45.19Z 
 │                        ├ [25] ╭ VulnerabilityID : CVE-2025-1352 
@@ -27241,7 +27253,7 @@
 │                        │      │                  ├ [10]: https://groups.google.com/g/golang-announce/c/4Emdl2
 │                        │      │                  │       iQ_bI 
 │                        │      │                  ├ [11]: https://linux.oracle.com/cve/CVE-2025-58183.html 
-│                        │      │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2025-23326.html 
+│                        │      │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2025-23374.html 
 │                        │      │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2025-58183 
 │                        │      │                  ├ [14]: https://pkg.go.dev/vuln/GO-2025-4014 
 │                        │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2025-58183 
@@ -28646,7 +28658,7 @@
 │                        │      │                  ├ [10]: https://groups.google.com/g/golang-announce/c/4Emdl2
 │                        │      │                  │       iQ_bI 
 │                        │      │                  ├ [11]: https://linux.oracle.com/cve/CVE-2025-58183.html 
-│                        │      │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2025-23326.html 
+│                        │      │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2025-23374.html 
 │                        │      │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2025-58183 
 │                        │      │                  ├ [14]: https://pkg.go.dev/vuln/GO-2025-4014 
 │                        │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2025-58183 
@@ -33967,7 +33979,7 @@
 │                        │      │                  ├ [10]: https://groups.google.com/g/golang-announce/c/4Emdl2
 │                        │      │                  │       iQ_bI 
 │                        │      │                  ├ [11]: https://linux.oracle.com/cve/CVE-2025-58183.html 
-│                        │      │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2025-23326.html 
+│                        │      │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2025-23374.html 
 │                        │      │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2025-58183 
 │                        │      │                  ├ [14]: https://pkg.go.dev/vuln/GO-2025-4014 
 │                        │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2025-58183 
@@ -36578,7 +36590,7 @@
 │                        │      │                  ├ [10]: https://groups.google.com/g/golang-announce/c/4Emdl2
 │                        │      │                  │       iQ_bI 
 │                        │      │                  ├ [11]: https://linux.oracle.com/cve/CVE-2025-58183.html 
-│                        │      │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2025-23326.html 
+│                        │      │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2025-23374.html 
 │                        │      │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2025-58183 
 │                        │      │                  ├ [14]: https://pkg.go.dev/vuln/GO-2025-4014 
 │                        │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2025-58183 
