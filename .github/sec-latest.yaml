@@ -23873,6 +23873,428 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-2236
     PublishedDate: '2024-03-06T22:15:57.977Z'
     LastModifiedDate: '2025-04-02T17:15:37.79Z'
+  - VulnerabilityID: CVE-2025-13601
+    PkgID: libglib2.0-0@2.72.4-0ubuntu2.6
+    PkgName: libglib2.0-0
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libglib2.0-0@2.72.4-0ubuntu2.6?arch=amd64&distro=ubuntu-22.04
+      UID: ad679d1e10d979d
+    InstalledVersion: 2.72.4-0ubuntu2.6
+    FixedVersion: 2.72.4-0ubuntu2.7
+    Status: fixed
+    Layer:
+      Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f672d99cf12d59721fb5d9
+      DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7277787fa3578e3352a155
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-13601
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:ed994f96bc4a7236cf65af6d25f3ce5220eff6c0ee5f9550fdf50fdad9ad29ed
+    Title: 'glib: Integer overflow in in g_escape_uri_string()'
+    Description: A heap-based buffer overflow problem was found in glib through an incorrect calculation of buffer size in the g_escape_uri_string() function. If the string to escape contains a very large number of unacceptable characters (which would need escaping), the calculation of the length of the escaped string could overflow, leading to a potential write off the end of the newly allocated string.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-190
+    VendorSeverity:
+      amazon: 3
+      azure: 3
+      cbl-mariner: 3
+      photon: 3
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:H
+        V3Score: 7.7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-13601
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2416741
+    - https://gitlab.gnome.org/GNOME/glib/-/issues/3827
+    - https://gitlab.gnome.org/GNOME/glib/-/merge_requests/4914
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-13601
+    - https://ubuntu.com/security/notices/USN-7942-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-13601
+    PublishedDate: '2025-11-26T15:15:51.723Z'
+    LastModifiedDate: '2025-12-01T15:39:53.1Z'
+  - VulnerabilityID: CVE-2025-14087
+    PkgID: libglib2.0-0@2.72.4-0ubuntu2.6
+    PkgName: libglib2.0-0
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libglib2.0-0@2.72.4-0ubuntu2.6?arch=amd64&distro=ubuntu-22.04
+      UID: ad679d1e10d979d
+    InstalledVersion: 2.72.4-0ubuntu2.6
+    FixedVersion: 2.72.4-0ubuntu2.7
+    Status: fixed
+    Layer:
+      Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f672d99cf12d59721fb5d9
+      DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7277787fa3578e3352a155
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-14087
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:850559128e40c011a9a9da459c4bbff85f1e9538e9e5a3a66495c52644f657f5
+    Title: 'glib: GLib: Buffer underflow in GVariant parser leads to heap corruption'
+    Description: A flaw was found in GLib (Gnome Lib). This vulnerability allows a remote attacker to cause heap corruption, leading to a denial of service or potential code execution via a buffer-underflow in the GVariant parser when processing maliciously crafted input strings.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-190
+    VendorSeverity:
+      amazon: 3
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L
+        V3Score: 5.6
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-14087
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2419093
+    - https://gitlab.gnome.org/GNOME/glib/-/merge_requests/4933
+    - https://gitlab.gnome.org/GNOME/glib/-/merge_requests/4934
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-14087
+    - https://ubuntu.com/security/notices/USN-7942-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-14087
+    PublishedDate: '2025-12-10T09:15:47.053Z'
+    LastModifiedDate: '2025-12-12T15:18:42.14Z'
+  - VulnerabilityID: CVE-2025-14512
+    PkgID: libglib2.0-0@2.72.4-0ubuntu2.6
+    PkgName: libglib2.0-0
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libglib2.0-0@2.72.4-0ubuntu2.6?arch=amd64&distro=ubuntu-22.04
+      UID: ad679d1e10d979d
+    InstalledVersion: 2.72.4-0ubuntu2.6
+    FixedVersion: 2.72.4-0ubuntu2.7
+    Status: fixed
+    Layer:
+      Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f672d99cf12d59721fb5d9
+      DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7277787fa3578e3352a155
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-14512
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:76a6e9a54b2c80635fe40f58217a2dd966ed4063529870bad1e9a7326ad683f6
+    Title: 'glib: Integer Overflow in GLib GIO Attribute Escaping Causes Heap Buffer Overflow'
+    Description: A flaw was found in glib. This vulnerability allows a heap buffer overflow and denial-of-service (DoS) via an integer overflow in GLib's GIO (GLib Input/Output) escape_byte_string() function when processing malicious file or remote filesystem attribute values.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-190
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 6.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-14512
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2421339
+    - https://gitlab.gnome.org/GNOME/glib/-/merge_requests/4935
+    - https://gitlab.gnome.org/GNOME/glib/-/merge_requests/4936
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-14512
+    - https://www.cve.org/CVERecord?id=CVE-2025-14512
+    PublishedDate: '2025-12-11T07:16:00.463Z'
+    LastModifiedDate: '2025-12-12T15:18:13.39Z'
+  - VulnerabilityID: CVE-2025-3360
+    PkgID: libglib2.0-0@2.72.4-0ubuntu2.6
+    PkgName: libglib2.0-0
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libglib2.0-0@2.72.4-0ubuntu2.6?arch=amd64&distro=ubuntu-22.04
+      UID: ad679d1e10d979d
+    InstalledVersion: 2.72.4-0ubuntu2.6
+    FixedVersion: 2.72.4-0ubuntu2.7
+    Status: fixed
+    Layer:
+      Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f672d99cf12d59721fb5d9
+      DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7277787fa3578e3352a155
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-3360
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:2fef0898063ed9dbbfce781582a15a68c682d1245d177da0352d6b54313af577
+    Title: 'glibc: GLib prior to 2.82.5 is vulnerable to integer  overflow and buffer under-read when parsing a very long invalid ISO  8601 timestamp with g_date_time_new_from_iso8601().'
+    Description: A flaw was found in GLib. An integer overflow and buffer under-read occur when parsing a long invalid ISO 8601 timestamp with the g_date_time_new_from_iso8601() function.
+    Severity: LOW
+    CweIDs:
+    - CWE-190
+    VendorSeverity:
+      amazon: 3
+      azure: 1
+      cbl-mariner: 1
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 3.7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-3360
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2357754
+    - https://lists.debian.org/debian-lts-announce/2025/04/msg00024.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-3360
+    - https://ubuntu.com/security/notices/USN-7942-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-3360
+    PublishedDate: '2025-04-07T13:15:43.687Z'
+    LastModifiedDate: '2025-04-14T12:15:16.087Z'
+  - VulnerabilityID: CVE-2025-7039
+    PkgID: libglib2.0-0@2.72.4-0ubuntu2.6
+    PkgName: libglib2.0-0
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libglib2.0-0@2.72.4-0ubuntu2.6?arch=amd64&distro=ubuntu-22.04
+      UID: ad679d1e10d979d
+    InstalledVersion: 2.72.4-0ubuntu2.6
+    FixedVersion: 2.72.4-0ubuntu2.7
+    Status: fixed
+    Layer:
+      Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f672d99cf12d59721fb5d9
+      DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7277787fa3578e3352a155
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-7039
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:b4d1b0344807cc72df340b6480f2a72acc85fa7dbfbca6aab742882120e54dca
+    Title: 'glib: Buffer Under-read on GLib through glib/gfileutils.c via get_tmp_file()'
+    Description: A flaw was found in glib. An integer overflow during temporary file creation leads to an out-of-bounds memory access, allowing an attacker to potentially perform path traversal or access private temporary file content by creating symbolic links. This vulnerability allows a local attacker to manipulate file paths and access unauthorized data. The core issue stems from insufficient validation of file path lengths during temporary file operations.
+    Severity: LOW
+    CweIDs:
+    - CWE-22
+    VendorSeverity:
+      azure: 1
+      cbl-mariner: 1
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N
+        V3Score: 3.7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-7039
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2392423
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-7039
+    - https://ubuntu.com/security/notices/USN-7942-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-7039
+    PublishedDate: '2025-09-03T02:15:38.12Z'
+    LastModifiedDate: '2025-09-04T15:36:56.447Z'
+  - VulnerabilityID: CVE-2025-13601
+    PkgID: libglib2.0-data@2.72.4-0ubuntu2.6
+    PkgName: libglib2.0-data
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libglib2.0-data@2.72.4-0ubuntu2.6?arch=all&distro=ubuntu-22.04
+      UID: 3cfaf4216c1b33d7
+    InstalledVersion: 2.72.4-0ubuntu2.6
+    FixedVersion: 2.72.4-0ubuntu2.7
+    Status: fixed
+    Layer:
+      Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f672d99cf12d59721fb5d9
+      DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7277787fa3578e3352a155
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-13601
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:7e760e32a54c88f082c3dc8bbe0586cc4a9759aba90d5a5e04d4bdffa7364582
+    Title: 'glib: Integer overflow in in g_escape_uri_string()'
+    Description: A heap-based buffer overflow problem was found in glib through an incorrect calculation of buffer size in the g_escape_uri_string() function. If the string to escape contains a very large number of unacceptable characters (which would need escaping), the calculation of the length of the escaped string could overflow, leading to a potential write off the end of the newly allocated string.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-190
+    VendorSeverity:
+      amazon: 3
+      azure: 3
+      cbl-mariner: 3
+      photon: 3
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:H
+        V3Score: 7.7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-13601
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2416741
+    - https://gitlab.gnome.org/GNOME/glib/-/issues/3827
+    - https://gitlab.gnome.org/GNOME/glib/-/merge_requests/4914
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-13601
+    - https://ubuntu.com/security/notices/USN-7942-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-13601
+    PublishedDate: '2025-11-26T15:15:51.723Z'
+    LastModifiedDate: '2025-12-01T15:39:53.1Z'
+  - VulnerabilityID: CVE-2025-14087
+    PkgID: libglib2.0-data@2.72.4-0ubuntu2.6
+    PkgName: libglib2.0-data
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libglib2.0-data@2.72.4-0ubuntu2.6?arch=all&distro=ubuntu-22.04
+      UID: 3cfaf4216c1b33d7
+    InstalledVersion: 2.72.4-0ubuntu2.6
+    FixedVersion: 2.72.4-0ubuntu2.7
+    Status: fixed
+    Layer:
+      Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f672d99cf12d59721fb5d9
+      DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7277787fa3578e3352a155
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-14087
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:005396a97650ae6d7289d27f3f7de9adbb4216434eaaf13ef3b7c625b268ed0a
+    Title: 'glib: GLib: Buffer underflow in GVariant parser leads to heap corruption'
+    Description: A flaw was found in GLib (Gnome Lib). This vulnerability allows a remote attacker to cause heap corruption, leading to a denial of service or potential code execution via a buffer-underflow in the GVariant parser when processing maliciously crafted input strings.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-190
+    VendorSeverity:
+      amazon: 3
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L
+        V3Score: 5.6
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-14087
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2419093
+    - https://gitlab.gnome.org/GNOME/glib/-/merge_requests/4933
+    - https://gitlab.gnome.org/GNOME/glib/-/merge_requests/4934
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-14087
+    - https://ubuntu.com/security/notices/USN-7942-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-14087
+    PublishedDate: '2025-12-10T09:15:47.053Z'
+    LastModifiedDate: '2025-12-12T15:18:42.14Z'
+  - VulnerabilityID: CVE-2025-14512
+    PkgID: libglib2.0-data@2.72.4-0ubuntu2.6
+    PkgName: libglib2.0-data
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libglib2.0-data@2.72.4-0ubuntu2.6?arch=all&distro=ubuntu-22.04
+      UID: 3cfaf4216c1b33d7
+    InstalledVersion: 2.72.4-0ubuntu2.6
+    FixedVersion: 2.72.4-0ubuntu2.7
+    Status: fixed
+    Layer:
+      Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f672d99cf12d59721fb5d9
+      DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7277787fa3578e3352a155
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-14512
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:8c0b02bd778e865053e521d1b6c63eea544f9f3747d7a9c6fffef4f523b38dff
+    Title: 'glib: Integer Overflow in GLib GIO Attribute Escaping Causes Heap Buffer Overflow'
+    Description: A flaw was found in glib. This vulnerability allows a heap buffer overflow and denial-of-service (DoS) via an integer overflow in GLib's GIO (GLib Input/Output) escape_byte_string() function when processing malicious file or remote filesystem attribute values.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-190
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 6.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-14512
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2421339
+    - https://gitlab.gnome.org/GNOME/glib/-/merge_requests/4935
+    - https://gitlab.gnome.org/GNOME/glib/-/merge_requests/4936
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-14512
+    - https://www.cve.org/CVERecord?id=CVE-2025-14512
+    PublishedDate: '2025-12-11T07:16:00.463Z'
+    LastModifiedDate: '2025-12-12T15:18:13.39Z'
+  - VulnerabilityID: CVE-2025-3360
+    PkgID: libglib2.0-data@2.72.4-0ubuntu2.6
+    PkgName: libglib2.0-data
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libglib2.0-data@2.72.4-0ubuntu2.6?arch=all&distro=ubuntu-22.04
+      UID: 3cfaf4216c1b33d7
+    InstalledVersion: 2.72.4-0ubuntu2.6
+    FixedVersion: 2.72.4-0ubuntu2.7
+    Status: fixed
+    Layer:
+      Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f672d99cf12d59721fb5d9
+      DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7277787fa3578e3352a155
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-3360
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:bdde490fb7815259928be712ad095cd39d0628cd9ca668f9787f72e6b66db47c
+    Title: 'glibc: GLib prior to 2.82.5 is vulnerable to integer  overflow and buffer under-read when parsing a very long invalid ISO  8601 timestamp with g_date_time_new_from_iso8601().'
+    Description: A flaw was found in GLib. An integer overflow and buffer under-read occur when parsing a long invalid ISO 8601 timestamp with the g_date_time_new_from_iso8601() function.
+    Severity: LOW
+    CweIDs:
+    - CWE-190
+    VendorSeverity:
+      amazon: 3
+      azure: 1
+      cbl-mariner: 1
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 3.7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-3360
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2357754
+    - https://lists.debian.org/debian-lts-announce/2025/04/msg00024.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-3360
+    - https://ubuntu.com/security/notices/USN-7942-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-3360
+    PublishedDate: '2025-04-07T13:15:43.687Z'
+    LastModifiedDate: '2025-04-14T12:15:16.087Z'
+  - VulnerabilityID: CVE-2025-7039
+    PkgID: libglib2.0-data@2.72.4-0ubuntu2.6
+    PkgName: libglib2.0-data
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libglib2.0-data@2.72.4-0ubuntu2.6?arch=all&distro=ubuntu-22.04
+      UID: 3cfaf4216c1b33d7
+    InstalledVersion: 2.72.4-0ubuntu2.6
+    FixedVersion: 2.72.4-0ubuntu2.7
+    Status: fixed
+    Layer:
+      Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f672d99cf12d59721fb5d9
+      DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7277787fa3578e3352a155
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-7039
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:478d68f5e6c6a738171f11ce7120d7953aab2bb4e8aa630dcd82f348643a3f8c
+    Title: 'glib: Buffer Under-read on GLib through glib/gfileutils.c via get_tmp_file()'
+    Description: A flaw was found in glib. An integer overflow during temporary file creation leads to an out-of-bounds memory access, allowing an attacker to potentially perform path traversal or access private temporary file content by creating symbolic links. This vulnerability allows a local attacker to manipulate file paths and access unauthorized data. The core issue stems from insufficient validation of file path lengths during temporary file operations.
+    Severity: LOW
+    CweIDs:
+    - CWE-22
+    VendorSeverity:
+      azure: 1
+      cbl-mariner: 1
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N
+        V3Score: 3.7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-7039
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2392423
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-7039
+    - https://ubuntu.com/security/notices/USN-7942-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-7039
+    PublishedDate: '2025-09-03T02:15:38.12Z'
+    LastModifiedDate: '2025-09-04T15:36:56.447Z'
   - VulnerabilityID: CVE-2025-5222
     PkgID: libicu70@70.1-2
     PkgName: libicu70
@@ -24532,7 +24954,7 @@
     CweIDs:
     - CWE-125
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       photon: 2
@@ -24626,7 +25048,7 @@
     CweIDs:
     - CWE-125
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 3
       cbl-mariner: 3
       photon: 3
@@ -24834,9 +25256,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N
         V3Score: 4.3
     References:
-    - https://access.redhat.com/errata/RHSA-2025:23940
+    - https://access.redhat.com/errata/RHSA-2025:23342
     - https://access.redhat.com/security/cve/CVE-2025-8291
+    - https://bugzilla.redhat.com/2294682
+    - https://bugzilla.redhat.com/2373234
     - https://bugzilla.redhat.com/2402342
+    - https://bugzilla.redhat.com/2408891
     - https://bugzilla.redhat.com/show_bug.cgi?id=2294682
     - https://bugzilla.redhat.com/show_bug.cgi?id=2373234
     - https://bugzilla.redhat.com/show_bug.cgi?id=2402342
@@ -24845,7 +25270,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6069
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6075
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-8291
-    - https://errata.almalinux.org/10/ALSA-2025-23940.html
+    - https://errata.almalinux.org/9/ALSA-2025-23342.html
     - https://errata.rockylinux.org/RLSA-2025:23342
     - https://github.com/google/security-research/security/advisories/GHSA-hhv7-p4pg-wm6p
     - https://github.com/psf/advisory-database/blob/main/advisories/python/PSF-2025-12.json
@@ -25001,9 +25426,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N
         V3Score: 4.3
     References:
-    - https://access.redhat.com/errata/RHSA-2025:23940
+    - https://access.redhat.com/errata/RHSA-2025:23342
     - https://access.redhat.com/security/cve/CVE-2025-8291
+    - https://bugzilla.redhat.com/2294682
+    - https://bugzilla.redhat.com/2373234
     - https://bugzilla.redhat.com/2402342
+    - https://bugzilla.redhat.com/2408891
     - https://bugzilla.redhat.com/show_bug.cgi?id=2294682
     - https://bugzilla.redhat.com/show_bug.cgi?id=2373234
     - https://bugzilla.redhat.com/show_bug.cgi?id=2402342
@@ -25012,7 +25440,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6069
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6075
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-8291
-    - https://errata.almalinux.org/10/ALSA-2025-23940.html
+    - https://errata.almalinux.org/9/ALSA-2025-23342.html
     - https://errata.rockylinux.org/RLSA-2025:23342
     - https://github.com/google/security-research/security/advisories/GHSA-hhv7-p4pg-wm6p
     - https://github.com/psf/advisory-database/blob/main/advisories/python/PSF-2025-12.json
@@ -25168,9 +25596,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N
         V3Score: 4.3
     References:
-    - https://access.redhat.com/errata/RHSA-2025:23940
+    - https://access.redhat.com/errata/RHSA-2025:23342
     - https://access.redhat.com/security/cve/CVE-2025-8291
+    - https://bugzilla.redhat.com/2294682
+    - https://bugzilla.redhat.com/2373234
     - https://bugzilla.redhat.com/2402342
+    - https://bugzilla.redhat.com/2408891
     - https://bugzilla.redhat.com/show_bug.cgi?id=2294682
     - https://bugzilla.redhat.com/show_bug.cgi?id=2373234
     - https://bugzilla.redhat.com/show_bug.cgi?id=2402342
@@ -25179,7 +25610,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6069
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6075
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-8291
-    - https://errata.almalinux.org/10/ALSA-2025-23940.html
+    - https://errata.almalinux.org/9/ALSA-2025-23342.html
     - https://errata.rockylinux.org/RLSA-2025:23342
     - https://github.com/google/security-research/security/advisories/GHSA-hhv7-p4pg-wm6p
     - https://github.com/psf/advisory-database/blob/main/advisories/python/PSF-2025-12.json
@@ -25773,12 +26204,12 @@
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:L/A:N
         V3Score: 3.6
     References:
-    - https://access.redhat.com/errata/RHSA-2025:20145
+    - https://access.redhat.com/errata/RHSA-2025:20559
     - https://access.redhat.com/security/cve/CVE-2024-56433
     - https://bugzilla.redhat.com/2334165
     - https://bugzilla.redhat.com/show_bug.cgi?id=2334165
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-56433
-    - https://errata.almalinux.org/10/ALSA-2025-20145.html
+    - https://errata.almalinux.org/9/ALSA-2025-20559.html
     - https://errata.rockylinux.org/RLSA-2025:20559
     - https://github.com/shadow-maint/shadow/blob/e2512d5741d4a44bdd81a8c2d0029b6222728cf0/etc/login.defs#L238-L241
     - https://github.com/shadow-maint/shadow/issues/1157
@@ -26053,12 +26484,12 @@
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:L/A:N
         V3Score: 3.6
     References:
-    - https://access.redhat.com/errata/RHSA-2025:20145
+    - https://access.redhat.com/errata/RHSA-2025:20559
     - https://access.redhat.com/security/cve/CVE-2024-56433
     - https://bugzilla.redhat.com/2334165
     - https://bugzilla.redhat.com/show_bug.cgi?id=2334165
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-56433
-    - https://errata.almalinux.org/10/ALSA-2025-20145.html
+    - https://errata.almalinux.org/9/ALSA-2025-20559.html
     - https://errata.rockylinux.org/RLSA-2025:20559
     - https://github.com/shadow-maint/shadow/blob/e2512d5741d4a44bdd81a8c2d0029b6222728cf0/etc/login.defs#L238-L241
     - https://github.com/shadow-maint/shadow/issues/1157
@@ -26203,9 +26634,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N
         V3Score: 4.3
     References:
-    - https://access.redhat.com/errata/RHSA-2025:23940
+    - https://access.redhat.com/errata/RHSA-2025:23342
     - https://access.redhat.com/security/cve/CVE-2025-8291
+    - https://bugzilla.redhat.com/2294682
+    - https://bugzilla.redhat.com/2373234
     - https://bugzilla.redhat.com/2402342
+    - https://bugzilla.redhat.com/2408891
     - https://bugzilla.redhat.com/show_bug.cgi?id=2294682
     - https://bugzilla.redhat.com/show_bug.cgi?id=2373234
     - https://bugzilla.redhat.com/show_bug.cgi?id=2402342
@@ -26214,7 +26648,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6069
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6075
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-8291
-    - https://errata.almalinux.org/10/ALSA-2025-23940.html
+    - https://errata.almalinux.org/9/ALSA-2025-23342.html
     - https://errata.rockylinux.org/RLSA-2025:23342
     - https://github.com/google/security-research/security/advisories/GHSA-hhv7-p4pg-wm6p
     - https://github.com/psf/advisory-database/blob/main/advisories/python/PSF-2025-12.json
@@ -26370,9 +26804,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N
         V3Score: 4.3
     References:
-    - https://access.redhat.com/errata/RHSA-2025:23940
+    - https://access.redhat.com/errata/RHSA-2025:23342
     - https://access.redhat.com/security/cve/CVE-2025-8291
+    - https://bugzilla.redhat.com/2294682
+    - https://bugzilla.redhat.com/2373234
     - https://bugzilla.redhat.com/2402342
+    - https://bugzilla.redhat.com/2408891
     - https://bugzilla.redhat.com/show_bug.cgi?id=2294682
     - https://bugzilla.redhat.com/show_bug.cgi?id=2373234
     - https://bugzilla.redhat.com/show_bug.cgi?id=2402342
@@ -26381,7 +26818,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6069
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6075
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-8291
-    - https://errata.almalinux.org/10/ALSA-2025-23940.html
+    - https://errata.almalinux.org/9/ALSA-2025-23342.html
     - https://errata.rockylinux.org/RLSA-2025:23342
     - https://github.com/google/security-research/security/advisories/GHSA-hhv7-p4pg-wm6p
     - https://github.com/psf/advisory-database/blob/main/advisories/python/PSF-2025-12.json
@@ -26722,12 +27159,12 @@
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:L/A:N
         V3Score: 3.6
     References:
-    - https://access.redhat.com/errata/RHSA-2025:20145
+    - https://access.redhat.com/errata/RHSA-2025:20559
     - https://access.redhat.com/security/cve/CVE-2024-56433
     - https://bugzilla.redhat.com/2334165
     - https://bugzilla.redhat.com/show_bug.cgi?id=2334165
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-56433
-    - https://errata.almalinux.org/10/ALSA-2025-20145.html
+    - https://errata.almalinux.org/9/ALSA-2025-20559.html
     - https://errata.rockylinux.org/RLSA-2025:20559
     - https://github.com/shadow-maint/shadow/blob/e2512d5741d4a44bdd81a8c2d0029b6222728cf0/etc/login.defs#L238-L241
     - https://github.com/shadow-maint/shadow/issues/1157
@@ -28143,7 +28580,7 @@
     Description: Calling Verify with a VerifyOptions.KeyUsages that contains ExtKeyUsageAny unintentionally disabledpolicy validation. This only affected certificate chains which contain policy graphs, which are rather uncommon.
     Severity: HIGH
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       azure: 3
       bitnami: 3
       cbl-mariner: 3
@@ -28203,11 +28640,11 @@
         V3Score: 7
     References:
     - http://www.openwall.com/lists/oss-security/2025/08/06/1
-    - https://access.redhat.com/errata/RHSA-2025:20983
+    - https://access.redhat.com/errata/RHSA-2025:20909
     - https://access.redhat.com/security/cve/CVE-2025-47907
     - https://bugzilla.redhat.com/2387083
     - https://bugzilla.redhat.com/2393152
-    - https://errata.almalinux.org/10/ALSA-2025-20983.html
+    - https://errata.almalinux.org/9/ALSA-2025-20909.html
     - https://go.dev/cl/693735
     - https://go.dev/issue/74831
     - https://groups.google.com/g/golang-announce/c/x5MKroML2yM
@@ -28257,12 +28694,12 @@
         V3Score: 7.5
     References:
     - http://www.openwall.com/lists/oss-security/2025/10/08/1
-    - https://access.redhat.com/errata/RHSA-2025:23295
+    - https://access.redhat.com/errata/RHSA-2025:23326
     - https://access.redhat.com/security/cve/CVE-2025-58183
     - https://bugzilla.redhat.com/2407258
     - https://bugzilla.redhat.com/show_bug.cgi?id=2407258
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-58183
-    - https://errata.almalinux.org/10/ALSA-2025-23295.html
+    - https://errata.almalinux.org/9/ALSA-2025-23326.html
     - https://errata.rockylinux.org/RLSA-2025:23326
     - https://go.dev/cl/709861
     - https://go.dev/issue/75677
@@ -28397,12 +28834,12 @@
         V3Score: 5.4
     References:
     - http://www.openwall.com/lists/oss-security/2025/04/04/4
-    - https://access.redhat.com/errata/RHSA-2025:9146
+    - https://access.redhat.com/errata/RHSA-2025:9635
     - https://access.redhat.com/security/cve/CVE-2025-22871
     - https://bugzilla.redhat.com/2358493
     - https://bugzilla.redhat.com/show_bug.cgi?id=2358493
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-22871
-    - https://errata.almalinux.org/10/ALSA-2025-9146.html
+    - https://errata.almalinux.org/9/ALSA-2025-9635.html
     - https://errata.rockylinux.org/RLSA-2025:9635
     - https://github.com/roadrunner-server/roadrunner
     - https://github.com/roadrunner-server/roadrunner/commit/f269279ee87d0b88127741cad1042389af7605fa
@@ -28441,7 +28878,7 @@
     Severity: MEDIUM
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -28457,12 +28894,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:N/A:N
         V3Score: 6.8
     References:
-    - https://access.redhat.com/errata/RHSA-2025:10677
+    - https://access.redhat.com/errata/RHSA-2025:15887
     - https://access.redhat.com/security/cve/CVE-2025-4673
     - https://bugzilla.redhat.com/2373305
     - https://bugzilla.redhat.com/show_bug.cgi?id=2373305
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-4673
-    - https://errata.almalinux.org/10/ALSA-2025-10677.html
+    - https://errata.almalinux.org/9/ALSA-2025-15887.html
     - https://errata.rockylinux.org/RLSA-2025:15887
     - https://go.dev/cl/679257
     - https://go.dev/issue/73816
@@ -29448,7 +29885,7 @@
     Description: Calling Verify with a VerifyOptions.KeyUsages that contains ExtKeyUsageAny unintentionally disabledpolicy validation. This only affected certificate chains which contain policy graphs, which are rather uncommon.
     Severity: HIGH
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       azure: 3
       bitnami: 3
       cbl-mariner: 3
@@ -29508,11 +29945,11 @@
         V3Score: 7
     References:
     - http://www.openwall.com/lists/oss-security/2025/08/06/1
-    - https://access.redhat.com/errata/RHSA-2025:20983
+    - https://access.redhat.com/errata/RHSA-2025:20909
     - https://access.redhat.com/security/cve/CVE-2025-47907
     - https://bugzilla.redhat.com/2387083
     - https://bugzilla.redhat.com/2393152
-    - https://errata.almalinux.org/10/ALSA-2025-20983.html
+    - https://errata.almalinux.org/9/ALSA-2025-20909.html
     - https://go.dev/cl/693735
     - https://go.dev/issue/74831
     - https://groups.google.com/g/golang-announce/c/x5MKroML2yM
@@ -29562,12 +29999,12 @@
         V3Score: 7.5
     References:
     - http://www.openwall.com/lists/oss-security/2025/10/08/1
-    - https://access.redhat.com/errata/RHSA-2025:23295
+    - https://access.redhat.com/errata/RHSA-2025:23326
     - https://access.redhat.com/security/cve/CVE-2025-58183
     - https://bugzilla.redhat.com/2407258
     - https://bugzilla.redhat.com/show_bug.cgi?id=2407258
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-58183
-    - https://errata.almalinux.org/10/ALSA-2025-23295.html
+    - https://errata.almalinux.org/9/ALSA-2025-23326.html
     - https://errata.rockylinux.org/RLSA-2025:23326
     - https://go.dev/cl/709861
     - https://go.dev/issue/75677
@@ -29702,12 +30139,12 @@
         V3Score: 5.4
     References:
     - http://www.openwall.com/lists/oss-security/2025/04/04/4
-    - https://access.redhat.com/errata/RHSA-2025:9146
+    - https://access.redhat.com/errata/RHSA-2025:9635
     - https://access.redhat.com/security/cve/CVE-2025-22871
     - https://bugzilla.redhat.com/2358493
     - https://bugzilla.redhat.com/show_bug.cgi?id=2358493
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-22871
-    - https://errata.almalinux.org/10/ALSA-2025-9146.html
+    - https://errata.almalinux.org/9/ALSA-2025-9635.html
     - https://errata.rockylinux.org/RLSA-2025:9635
     - https://github.com/roadrunner-server/roadrunner
     - https://github.com/roadrunner-server/roadrunner/commit/f269279ee87d0b88127741cad1042389af7605fa
@@ -29746,7 +30183,7 @@
     Severity: MEDIUM
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -29762,12 +30199,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:N/A:N
         V3Score: 6.8
     References:
-    - https://access.redhat.com/errata/RHSA-2025:10677
+    - https://access.redhat.com/errata/RHSA-2025:15887
     - https://access.redhat.com/security/cve/CVE-2025-4673
     - https://bugzilla.redhat.com/2373305
     - https://bugzilla.redhat.com/show_bug.cgi?id=2373305
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-4673
-    - https://errata.almalinux.org/10/ALSA-2025-10677.html
+    - https://errata.almalinux.org/9/ALSA-2025-15887.html
     - https://errata.rockylinux.org/RLSA-2025:15887
     - https://go.dev/cl/679257
     - https://go.dev/issue/73816
@@ -33742,12 +34179,12 @@
         V3Score: 7.5
     References:
     - http://www.openwall.com/lists/oss-security/2025/10/08/1
-    - https://access.redhat.com/errata/RHSA-2025:23295
+    - https://access.redhat.com/errata/RHSA-2025:23326
     - https://access.redhat.com/security/cve/CVE-2025-58183
     - https://bugzilla.redhat.com/2407258
     - https://bugzilla.redhat.com/show_bug.cgi?id=2407258
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-58183
-    - https://errata.almalinux.org/10/ALSA-2025-23295.html
+    - https://errata.almalinux.org/9/ALSA-2025-23326.html
     - https://errata.rockylinux.org/RLSA-2025:23326
     - https://go.dev/cl/709861
     - https://go.dev/issue/75677
@@ -35164,12 +35601,12 @@
         V3Score: 7.5
     References:
     - http://www.openwall.com/lists/oss-security/2025/10/08/1
-    - https://access.redhat.com/errata/RHSA-2025:23295
+    - https://access.redhat.com/errata/RHSA-2025:23326
     - https://access.redhat.com/security/cve/CVE-2025-58183
     - https://bugzilla.redhat.com/2407258
     - https://bugzilla.redhat.com/show_bug.cgi?id=2407258
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-58183
-    - https://errata.almalinux.org/10/ALSA-2025-23295.html
+    - https://errata.almalinux.org/9/ALSA-2025-23326.html
     - https://errata.rockylinux.org/RLSA-2025:23326
     - https://go.dev/cl/709861
     - https://go.dev/issue/75677
@@ -36797,12 +37234,12 @@
         V3Score: 7.5
     References:
     - http://www.openwall.com/lists/oss-security/2025/10/08/1
-    - https://access.redhat.com/errata/RHSA-2025:23295
+    - https://access.redhat.com/errata/RHSA-2025:23326
     - https://access.redhat.com/security/cve/CVE-2025-58183
     - https://bugzilla.redhat.com/2407258
     - https://bugzilla.redhat.com/show_bug.cgi?id=2407258
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-58183
-    - https://errata.almalinux.org/10/ALSA-2025-23295.html
+    - https://errata.almalinux.org/9/ALSA-2025-23326.html
     - https://errata.rockylinux.org/RLSA-2025:23326
     - https://go.dev/cl/709861
     - https://go.dev/issue/75677
@@ -39123,11 +39560,11 @@
         V3Score: 7
     References:
     - http://www.openwall.com/lists/oss-security/2025/08/06/1
-    - https://access.redhat.com/errata/RHSA-2025:20983
+    - https://access.redhat.com/errata/RHSA-2025:20909
     - https://access.redhat.com/security/cve/CVE-2025-47907
     - https://bugzilla.redhat.com/2387083
     - https://bugzilla.redhat.com/2393152
-    - https://errata.almalinux.org/10/ALSA-2025-20983.html
+    - https://errata.almalinux.org/9/ALSA-2025-20909.html
     - https://go.dev/cl/693735
     - https://go.dev/issue/74831
     - https://groups.google.com/g/golang-announce/c/x5MKroML2yM
@@ -39177,12 +39614,12 @@
         V3Score: 7.5
     References:
     - http://www.openwall.com/lists/oss-security/2025/10/08/1
-    - https://access.redhat.com/errata/RHSA-2025:23295
+    - https://access.redhat.com/errata/RHSA-2025:23326
     - https://access.redhat.com/security/cve/CVE-2025-58183
     - https://bugzilla.redhat.com/2407258
     - https://bugzilla.redhat.com/show_bug.cgi?id=2407258
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-58183
-    - https://errata.almalinux.org/10/ALSA-2025-23295.html
+    - https://errata.almalinux.org/9/ALSA-2025-23326.html
     - https://errata.rockylinux.org/RLSA-2025:23326
     - https://go.dev/cl/709861
     - https://go.dev/issue/75677
@@ -39317,12 +39754,12 @@
         V3Score: 5.4
     References:
     - http://www.openwall.com/lists/oss-security/2025/04/04/4
-    - https://access.redhat.com/errata/RHSA-2025:9146
+    - https://access.redhat.com/errata/RHSA-2025:9635
     - https://access.redhat.com/security/cve/CVE-2025-22871
     - https://bugzilla.redhat.com/2358493
     - https://bugzilla.redhat.com/show_bug.cgi?id=2358493
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-22871
-    - https://errata.almalinux.org/10/ALSA-2025-9146.html
+    - https://errata.almalinux.org/9/ALSA-2025-9635.html
     - https://errata.rockylinux.org/RLSA-2025:9635
     - https://github.com/roadrunner-server/roadrunner
     - https://github.com/roadrunner-server/roadrunner/commit/f269279ee87d0b88127741cad1042389af7605fa
@@ -39361,7 +39798,7 @@
     Severity: MEDIUM
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -39377,12 +39814,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:N/A:N
         V3Score: 6.8
     References:
-    - https://access.redhat.com/errata/RHSA-2025:10677
+    - https://access.redhat.com/errata/RHSA-2025:15887
     - https://access.redhat.com/security/cve/CVE-2025-4673
     - https://bugzilla.redhat.com/2373305
     - https://bugzilla.redhat.com/show_bug.cgi?id=2373305
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-4673
-    - https://errata.almalinux.org/10/ALSA-2025-10677.html
+    - https://errata.almalinux.org/9/ALSA-2025-15887.html
     - https://errata.rockylinux.org/RLSA-2025:15887
     - https://go.dev/cl/679257
     - https://go.dev/issue/73816
