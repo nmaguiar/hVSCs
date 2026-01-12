@@ -22444,7 +22444,7 @@
     - https://hackerone.com/reports/3459417
     - https://www.cve.org/CVERecord?id=CVE-2025-14524
     PublishedDate: '2026-01-08T10:15:46.607Z'
-    LastModifiedDate: '2026-01-08T18:08:18.457Z'
+    LastModifiedDate: '2026-01-09T20:15:51.243Z'
   - VulnerabilityID: CVE-2025-15079
     PkgID: curl@7.81.0-1ubuntu1.21
     PkgName: curl
@@ -22557,7 +22557,7 @@
     Severity: LOW
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 1
       oracle-oval: 2
       photon: 3
       redhat: 2
@@ -22762,6 +22762,49 @@
     - https://www.openwall.com/lists/oss-security/2025/12/28/5
     PublishedDate: '2025-12-28T17:16:01.5Z'
     LastModifiedDate: '2026-01-07T14:45:55.817Z'
+  - VulnerabilityID: CVE-2025-68972
+    PkgID: dirmngr@2.2.27-3ubuntu2.4
+    PkgName: dirmngr
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/dirmngr@2.2.27-3ubuntu2.4?arch=amd64&distro=ubuntu-22.04
+      UID: f001af9551daea9f
+    InstalledVersion: 2.2.27-3ubuntu2.4
+    Status: affected
+    Layer:
+      Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f672d99cf12d59721fb5d9
+      DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7277787fa3578e3352a155
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-68972
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:8a6d0039f4a11ccc4c49314992a3215bc9066395dec5397e80616eadd0287369
+    Title: 'gnupg: GnuPG: Signature bypass via form feed character in signed messages'
+    Description: In GnuPG through 2.4.8, if a signed message has \f at the end of a plaintext line, an adversary can construct a modified message that places additional text after the signed material, such that signature verification of the modified message succeeds (although an "invalid armor" message is printed during verification). This is related to use of \f as a marker to denote truncation of a long plaintext line.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-347
+    VendorSeverity:
+      nvd: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:H/A:N
+        V3Score: 4.7
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:N/I:H/A:N
+        V3Score: 5.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-68972
+    - https://gpg.fail/formfeed
+    - https://media.ccc.de/v/39c3-to-sign-or-not-to-sign-practical-vulnerabilities-i
+    - https://news.ycombinator.com/item?id=46404339
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-68972
+    - https://www.cve.org/CVERecord?id=CVE-2025-68972
+    PublishedDate: '2025-12-27T23:15:40.9Z'
+    LastModifiedDate: '2026-01-09T20:08:47.323Z'
   - VulnerabilityID: CVE-2022-3219
     PkgID: dirmngr@2.2.27-3ubuntu2.4
     PkgName: dirmngr
@@ -23028,6 +23071,49 @@
     - https://www.openwall.com/lists/oss-security/2025/12/28/5
     PublishedDate: '2025-12-28T17:16:01.5Z'
     LastModifiedDate: '2026-01-07T14:45:55.817Z'
+  - VulnerabilityID: CVE-2025-68972
+    PkgID: gnupg@2.2.27-3ubuntu2.4
+    PkgName: gnupg
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/gnupg@2.2.27-3ubuntu2.4?arch=all&distro=ubuntu-22.04
+      UID: 5056ca2b702922a1
+    InstalledVersion: 2.2.27-3ubuntu2.4
+    Status: affected
+    Layer:
+      Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f672d99cf12d59721fb5d9
+      DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7277787fa3578e3352a155
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-68972
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:7c135ee985c3f9c2c21d98ec58101a8f753b3c8c3e84209eee6f33bc63613c1e
+    Title: 'gnupg: GnuPG: Signature bypass via form feed character in signed messages'
+    Description: In GnuPG through 2.4.8, if a signed message has \f at the end of a plaintext line, an adversary can construct a modified message that places additional text after the signed material, such that signature verification of the modified message succeeds (although an "invalid armor" message is printed during verification). This is related to use of \f as a marker to denote truncation of a long plaintext line.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-347
+    VendorSeverity:
+      nvd: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:H/A:N
+        V3Score: 4.7
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:N/I:H/A:N
+        V3Score: 5.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-68972
+    - https://gpg.fail/formfeed
+    - https://media.ccc.de/v/39c3-to-sign-or-not-to-sign-practical-vulnerabilities-i
+    - https://news.ycombinator.com/item?id=46404339
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-68972
+    - https://www.cve.org/CVERecord?id=CVE-2025-68972
+    PublishedDate: '2025-12-27T23:15:40.9Z'
+    LastModifiedDate: '2026-01-09T20:08:47.323Z'
   - VulnerabilityID: CVE-2022-3219
     PkgID: gnupg@2.2.27-3ubuntu2.4
     PkgName: gnupg
@@ -23130,6 +23216,49 @@
     - https://www.openwall.com/lists/oss-security/2025/12/28/5
     PublishedDate: '2025-12-28T17:16:01.5Z'
     LastModifiedDate: '2026-01-07T14:45:55.817Z'
+  - VulnerabilityID: CVE-2025-68972
+    PkgID: gnupg-l10n@2.2.27-3ubuntu2.4
+    PkgName: gnupg-l10n
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/gnupg-l10n@2.2.27-3ubuntu2.4?arch=all&distro=ubuntu-22.04
+      UID: 957f922ca01c6763
+    InstalledVersion: 2.2.27-3ubuntu2.4
+    Status: affected
+    Layer:
+      Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f672d99cf12d59721fb5d9
+      DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7277787fa3578e3352a155
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-68972
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:f4ae41dd9c4e58ffb0533b84d27d37b270a6123dbf71ec0b1c39c38a1e3075b9
+    Title: 'gnupg: GnuPG: Signature bypass via form feed character in signed messages'
+    Description: In GnuPG through 2.4.8, if a signed message has \f at the end of a plaintext line, an adversary can construct a modified message that places additional text after the signed material, such that signature verification of the modified message succeeds (although an "invalid armor" message is printed during verification). This is related to use of \f as a marker to denote truncation of a long plaintext line.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-347
+    VendorSeverity:
+      nvd: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:H/A:N
+        V3Score: 4.7
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:N/I:H/A:N
+        V3Score: 5.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-68972
+    - https://gpg.fail/formfeed
+    - https://media.ccc.de/v/39c3-to-sign-or-not-to-sign-practical-vulnerabilities-i
+    - https://news.ycombinator.com/item?id=46404339
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-68972
+    - https://www.cve.org/CVERecord?id=CVE-2025-68972
+    PublishedDate: '2025-12-27T23:15:40.9Z'
+    LastModifiedDate: '2026-01-09T20:08:47.323Z'
   - VulnerabilityID: CVE-2022-3219
     PkgID: gnupg-l10n@2.2.27-3ubuntu2.4
     PkgName: gnupg-l10n
@@ -23232,6 +23361,49 @@
     - https://www.openwall.com/lists/oss-security/2025/12/28/5
     PublishedDate: '2025-12-28T17:16:01.5Z'
     LastModifiedDate: '2026-01-07T14:45:55.817Z'
+  - VulnerabilityID: CVE-2025-68972
+    PkgID: gnupg-utils@2.2.27-3ubuntu2.4
+    PkgName: gnupg-utils
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/gnupg-utils@2.2.27-3ubuntu2.4?arch=amd64&distro=ubuntu-22.04
+      UID: 3ad48940177dcf83
+    InstalledVersion: 2.2.27-3ubuntu2.4
+    Status: affected
+    Layer:
+      Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f672d99cf12d59721fb5d9
+      DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7277787fa3578e3352a155
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-68972
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:0ce9a5702e7cb35dfb7a2542bfb5b17333a31cc836bb443099d466a89cddff2e
+    Title: 'gnupg: GnuPG: Signature bypass via form feed character in signed messages'
+    Description: In GnuPG through 2.4.8, if a signed message has \f at the end of a plaintext line, an adversary can construct a modified message that places additional text after the signed material, such that signature verification of the modified message succeeds (although an "invalid armor" message is printed during verification). This is related to use of \f as a marker to denote truncation of a long plaintext line.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-347
+    VendorSeverity:
+      nvd: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:H/A:N
+        V3Score: 4.7
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:N/I:H/A:N
+        V3Score: 5.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-68972
+    - https://gpg.fail/formfeed
+    - https://media.ccc.de/v/39c3-to-sign-or-not-to-sign-practical-vulnerabilities-i
+    - https://news.ycombinator.com/item?id=46404339
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-68972
+    - https://www.cve.org/CVERecord?id=CVE-2025-68972
+    PublishedDate: '2025-12-27T23:15:40.9Z'
+    LastModifiedDate: '2026-01-09T20:08:47.323Z'
   - VulnerabilityID: CVE-2022-3219
     PkgID: gnupg-utils@2.2.27-3ubuntu2.4
     PkgName: gnupg-utils
@@ -23334,6 +23506,49 @@
     - https://www.openwall.com/lists/oss-security/2025/12/28/5
     PublishedDate: '2025-12-28T17:16:01.5Z'
     LastModifiedDate: '2026-01-07T14:45:55.817Z'
+  - VulnerabilityID: CVE-2025-68972
+    PkgID: gpg@2.2.27-3ubuntu2.4
+    PkgName: gpg
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/gpg@2.2.27-3ubuntu2.4?arch=amd64&distro=ubuntu-22.04
+      UID: 6c19e83a8cf00335
+    InstalledVersion: 2.2.27-3ubuntu2.4
+    Status: affected
+    Layer:
+      Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f672d99cf12d59721fb5d9
+      DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7277787fa3578e3352a155
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-68972
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:aeb5b46bb26234a34a03b4f80e9c7542b0a675d9ab57e374896a3c08b828ad12
+    Title: 'gnupg: GnuPG: Signature bypass via form feed character in signed messages'
+    Description: In GnuPG through 2.4.8, if a signed message has \f at the end of a plaintext line, an adversary can construct a modified message that places additional text after the signed material, such that signature verification of the modified message succeeds (although an "invalid armor" message is printed during verification). This is related to use of \f as a marker to denote truncation of a long plaintext line.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-347
+    VendorSeverity:
+      nvd: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:H/A:N
+        V3Score: 4.7
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:N/I:H/A:N
+        V3Score: 5.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-68972
+    - https://gpg.fail/formfeed
+    - https://media.ccc.de/v/39c3-to-sign-or-not-to-sign-practical-vulnerabilities-i
+    - https://news.ycombinator.com/item?id=46404339
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-68972
+    - https://www.cve.org/CVERecord?id=CVE-2025-68972
+    PublishedDate: '2025-12-27T23:15:40.9Z'
+    LastModifiedDate: '2026-01-09T20:08:47.323Z'
   - VulnerabilityID: CVE-2022-3219
     PkgID: gpg@2.2.27-3ubuntu2.4
     PkgName: gpg
@@ -23436,6 +23651,49 @@
     - https://www.openwall.com/lists/oss-security/2025/12/28/5
     PublishedDate: '2025-12-28T17:16:01.5Z'
     LastModifiedDate: '2026-01-07T14:45:55.817Z'
+  - VulnerabilityID: CVE-2025-68972
+    PkgID: gpg-agent@2.2.27-3ubuntu2.4
+    PkgName: gpg-agent
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/gpg-agent@2.2.27-3ubuntu2.4?arch=amd64&distro=ubuntu-22.04
+      UID: 8ecc625dcd864ba6
+    InstalledVersion: 2.2.27-3ubuntu2.4
+    Status: affected
+    Layer:
+      Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f672d99cf12d59721fb5d9
+      DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7277787fa3578e3352a155
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-68972
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:a4a2738d8c121e1284ff51b286d6b473cff6e1fefd135547c3af43b2feaaeaaf
+    Title: 'gnupg: GnuPG: Signature bypass via form feed character in signed messages'
+    Description: In GnuPG through 2.4.8, if a signed message has \f at the end of a plaintext line, an adversary can construct a modified message that places additional text after the signed material, such that signature verification of the modified message succeeds (although an "invalid armor" message is printed during verification). This is related to use of \f as a marker to denote truncation of a long plaintext line.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-347
+    VendorSeverity:
+      nvd: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:H/A:N
+        V3Score: 4.7
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:N/I:H/A:N
+        V3Score: 5.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-68972
+    - https://gpg.fail/formfeed
+    - https://media.ccc.de/v/39c3-to-sign-or-not-to-sign-practical-vulnerabilities-i
+    - https://news.ycombinator.com/item?id=46404339
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-68972
+    - https://www.cve.org/CVERecord?id=CVE-2025-68972
+    PublishedDate: '2025-12-27T23:15:40.9Z'
+    LastModifiedDate: '2026-01-09T20:08:47.323Z'
   - VulnerabilityID: CVE-2022-3219
     PkgID: gpg-agent@2.2.27-3ubuntu2.4
     PkgName: gpg-agent
@@ -23538,6 +23796,49 @@
     - https://www.openwall.com/lists/oss-security/2025/12/28/5
     PublishedDate: '2025-12-28T17:16:01.5Z'
     LastModifiedDate: '2026-01-07T14:45:55.817Z'
+  - VulnerabilityID: CVE-2025-68972
+    PkgID: gpg-wks-client@2.2.27-3ubuntu2.4
+    PkgName: gpg-wks-client
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/gpg-wks-client@2.2.27-3ubuntu2.4?arch=amd64&distro=ubuntu-22.04
+      UID: 6de113ff7a3cd2db
+    InstalledVersion: 2.2.27-3ubuntu2.4
+    Status: affected
+    Layer:
+      Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f672d99cf12d59721fb5d9
+      DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7277787fa3578e3352a155
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-68972
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:d1bc391b5d3f6efeeaac99e57dcd1919895a8c0de288346fa94dfe67d34c6ba2
+    Title: 'gnupg: GnuPG: Signature bypass via form feed character in signed messages'
+    Description: In GnuPG through 2.4.8, if a signed message has \f at the end of a plaintext line, an adversary can construct a modified message that places additional text after the signed material, such that signature verification of the modified message succeeds (although an "invalid armor" message is printed during verification). This is related to use of \f as a marker to denote truncation of a long plaintext line.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-347
+    VendorSeverity:
+      nvd: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:H/A:N
+        V3Score: 4.7
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:N/I:H/A:N
+        V3Score: 5.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-68972
+    - https://gpg.fail/formfeed
+    - https://media.ccc.de/v/39c3-to-sign-or-not-to-sign-practical-vulnerabilities-i
+    - https://news.ycombinator.com/item?id=46404339
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-68972
+    - https://www.cve.org/CVERecord?id=CVE-2025-68972
+    PublishedDate: '2025-12-27T23:15:40.9Z'
+    LastModifiedDate: '2026-01-09T20:08:47.323Z'
   - VulnerabilityID: CVE-2022-3219
     PkgID: gpg-wks-client@2.2.27-3ubuntu2.4
     PkgName: gpg-wks-client
@@ -23640,6 +23941,49 @@
     - https://www.openwall.com/lists/oss-security/2025/12/28/5
     PublishedDate: '2025-12-28T17:16:01.5Z'
     LastModifiedDate: '2026-01-07T14:45:55.817Z'
+  - VulnerabilityID: CVE-2025-68972
+    PkgID: gpg-wks-server@2.2.27-3ubuntu2.4
+    PkgName: gpg-wks-server
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/gpg-wks-server@2.2.27-3ubuntu2.4?arch=amd64&distro=ubuntu-22.04
+      UID: d343a4a452100d1c
+    InstalledVersion: 2.2.27-3ubuntu2.4
+    Status: affected
+    Layer:
+      Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f672d99cf12d59721fb5d9
+      DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7277787fa3578e3352a155
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-68972
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:47c0c525bced59bbc4f0a0a929d3a5bf58f839e63e39b51ce1d7a74551b32bd5
+    Title: 'gnupg: GnuPG: Signature bypass via form feed character in signed messages'
+    Description: In GnuPG through 2.4.8, if a signed message has \f at the end of a plaintext line, an adversary can construct a modified message that places additional text after the signed material, such that signature verification of the modified message succeeds (although an "invalid armor" message is printed during verification). This is related to use of \f as a marker to denote truncation of a long plaintext line.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-347
+    VendorSeverity:
+      nvd: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:H/A:N
+        V3Score: 4.7
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:N/I:H/A:N
+        V3Score: 5.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-68972
+    - https://gpg.fail/formfeed
+    - https://media.ccc.de/v/39c3-to-sign-or-not-to-sign-practical-vulnerabilities-i
+    - https://news.ycombinator.com/item?id=46404339
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-68972
+    - https://www.cve.org/CVERecord?id=CVE-2025-68972
+    PublishedDate: '2025-12-27T23:15:40.9Z'
+    LastModifiedDate: '2026-01-09T20:08:47.323Z'
   - VulnerabilityID: CVE-2022-3219
     PkgID: gpg-wks-server@2.2.27-3ubuntu2.4
     PkgName: gpg-wks-server
@@ -23742,6 +24086,49 @@
     - https://www.openwall.com/lists/oss-security/2025/12/28/5
     PublishedDate: '2025-12-28T17:16:01.5Z'
     LastModifiedDate: '2026-01-07T14:45:55.817Z'
+  - VulnerabilityID: CVE-2025-68972
+    PkgID: gpgconf@2.2.27-3ubuntu2.4
+    PkgName: gpgconf
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/gpgconf@2.2.27-3ubuntu2.4?arch=amd64&distro=ubuntu-22.04
+      UID: 191086301ca37bed
+    InstalledVersion: 2.2.27-3ubuntu2.4
+    Status: affected
+    Layer:
+      Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f672d99cf12d59721fb5d9
+      DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7277787fa3578e3352a155
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-68972
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:bf995283e745f35cef1855205ae533ff58fdae0b6c5bde48ceb7c69a89e9d50c
+    Title: 'gnupg: GnuPG: Signature bypass via form feed character in signed messages'
+    Description: In GnuPG through 2.4.8, if a signed message has \f at the end of a plaintext line, an adversary can construct a modified message that places additional text after the signed material, such that signature verification of the modified message succeeds (although an "invalid armor" message is printed during verification). This is related to use of \f as a marker to denote truncation of a long plaintext line.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-347
+    VendorSeverity:
+      nvd: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:H/A:N
+        V3Score: 4.7
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:N/I:H/A:N
+        V3Score: 5.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-68972
+    - https://gpg.fail/formfeed
+    - https://media.ccc.de/v/39c3-to-sign-or-not-to-sign-practical-vulnerabilities-i
+    - https://news.ycombinator.com/item?id=46404339
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-68972
+    - https://www.cve.org/CVERecord?id=CVE-2025-68972
+    PublishedDate: '2025-12-27T23:15:40.9Z'
+    LastModifiedDate: '2026-01-09T20:08:47.323Z'
   - VulnerabilityID: CVE-2022-3219
     PkgID: gpgconf@2.2.27-3ubuntu2.4
     PkgName: gpgconf
@@ -23844,6 +24231,49 @@
     - https://www.openwall.com/lists/oss-security/2025/12/28/5
     PublishedDate: '2025-12-28T17:16:01.5Z'
     LastModifiedDate: '2026-01-07T14:45:55.817Z'
+  - VulnerabilityID: CVE-2025-68972
+    PkgID: gpgsm@2.2.27-3ubuntu2.4
+    PkgName: gpgsm
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/gpgsm@2.2.27-3ubuntu2.4?arch=amd64&distro=ubuntu-22.04
+      UID: 52c6c4b5f9d56a49
+    InstalledVersion: 2.2.27-3ubuntu2.4
+    Status: affected
+    Layer:
+      Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f672d99cf12d59721fb5d9
+      DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7277787fa3578e3352a155
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-68972
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:fcb14ef29a1fb168655df682bae2e82f8abfa6640901ff8e17d2af11e1f111bf
+    Title: 'gnupg: GnuPG: Signature bypass via form feed character in signed messages'
+    Description: In GnuPG through 2.4.8, if a signed message has \f at the end of a plaintext line, an adversary can construct a modified message that places additional text after the signed material, such that signature verification of the modified message succeeds (although an "invalid armor" message is printed during verification). This is related to use of \f as a marker to denote truncation of a long plaintext line.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-347
+    VendorSeverity:
+      nvd: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:H/A:N
+        V3Score: 4.7
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:N/I:H/A:N
+        V3Score: 5.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-68972
+    - https://gpg.fail/formfeed
+    - https://media.ccc.de/v/39c3-to-sign-or-not-to-sign-practical-vulnerabilities-i
+    - https://news.ycombinator.com/item?id=46404339
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-68972
+    - https://www.cve.org/CVERecord?id=CVE-2025-68972
+    PublishedDate: '2025-12-27T23:15:40.9Z'
+    LastModifiedDate: '2026-01-09T20:08:47.323Z'
   - VulnerabilityID: CVE-2022-3219
     PkgID: gpgsm@2.2.27-3ubuntu2.4
     PkgName: gpgsm
@@ -23946,6 +24376,49 @@
     - https://www.openwall.com/lists/oss-security/2025/12/28/5
     PublishedDate: '2025-12-28T17:16:01.5Z'
     LastModifiedDate: '2026-01-07T14:45:55.817Z'
+  - VulnerabilityID: CVE-2025-68972
+    PkgID: gpgv@2.2.27-3ubuntu2.4
+    PkgName: gpgv
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/gpgv@2.2.27-3ubuntu2.4?arch=amd64&distro=ubuntu-22.04
+      UID: 58f832c3722a1878
+    InstalledVersion: 2.2.27-3ubuntu2.4
+    Status: affected
+    Layer:
+      Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f672d99cf12d59721fb5d9
+      DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7277787fa3578e3352a155
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-68972
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:6f8df4446a89c464bfffda89c0ad8e3dc8f8d7ad5df22287197cfc4b76a06ac4
+    Title: 'gnupg: GnuPG: Signature bypass via form feed character in signed messages'
+    Description: In GnuPG through 2.4.8, if a signed message has \f at the end of a plaintext line, an adversary can construct a modified message that places additional text after the signed material, such that signature verification of the modified message succeeds (although an "invalid armor" message is printed during verification). This is related to use of \f as a marker to denote truncation of a long plaintext line.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-347
+    VendorSeverity:
+      nvd: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:H/A:N
+        V3Score: 4.7
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:N/I:H/A:N
+        V3Score: 5.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-68972
+    - https://gpg.fail/formfeed
+    - https://media.ccc.de/v/39c3-to-sign-or-not-to-sign-practical-vulnerabilities-i
+    - https://news.ycombinator.com/item?id=46404339
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-68972
+    - https://www.cve.org/CVERecord?id=CVE-2025-68972
+    PublishedDate: '2025-12-27T23:15:40.9Z'
+    LastModifiedDate: '2026-01-09T20:08:47.323Z'
   - VulnerabilityID: CVE-2022-3219
     PkgID: gpgv@2.2.27-3ubuntu2.4
     PkgName: gpgv
@@ -24160,7 +24633,7 @@
     - https://hackerone.com/reports/3459417
     - https://www.cve.org/CVERecord?id=CVE-2025-14524
     PublishedDate: '2026-01-08T10:15:46.607Z'
-    LastModifiedDate: '2026-01-08T18:08:18.457Z'
+    LastModifiedDate: '2026-01-09T20:15:51.243Z'
   - VulnerabilityID: CVE-2025-15079
     PkgID: libcurl3-gnutls@7.81.0-1ubuntu1.21
     PkgName: libcurl3-gnutls
@@ -24273,7 +24746,7 @@
     Severity: LOW
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 1
       oracle-oval: 2
       photon: 3
       redhat: 2
@@ -24379,7 +24852,7 @@
     - https://hackerone.com/reports/3459417
     - https://www.cve.org/CVERecord?id=CVE-2025-14524
     PublishedDate: '2026-01-08T10:15:46.607Z'
-    LastModifiedDate: '2026-01-08T18:08:18.457Z'
+    LastModifiedDate: '2026-01-09T20:15:51.243Z'
   - VulnerabilityID: CVE-2025-15079
     PkgID: libcurl4@7.81.0-1ubuntu1.21
     PkgName: libcurl4
@@ -24492,7 +24965,7 @@
     Severity: LOW
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 1
       oracle-oval: 2
       photon: 3
       redhat: 2
@@ -25912,7 +26385,7 @@
     CweIDs:
     - CWE-125
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       azure: 2
       cbl-mariner: 2
       photon: 2
@@ -26007,12 +26480,13 @@
     - CWE-125
     VendorSeverity:
       alma: 3
-      amazon: 3
+      amazon: 2
       azure: 3
       cbl-mariner: 3
       oracle-oval: 3
       photon: 3
       redhat: 3
+      rocky: 3
       ubuntu: 2
     CVSS:
       redhat:
@@ -26024,7 +26498,14 @@
     - https://bugzilla.redhat.com/2416904
     - https://bugzilla.redhat.com/2416907
     - https://bugzilla.redhat.com/2418711
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2416904
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2416907
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2418711
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-64720
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-65018
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-66293
     - https://errata.almalinux.org/9/ALSA-2026-0238.html
+    - https://errata.rockylinux.org/RLSA-2026:0238
     - https://github.com/pnggroup/libpng/commit/08da33b4c88cfcd36e5a706558a8d7e0e4773643
     - https://github.com/pnggroup/libpng/commit/08da33b4c88cfcd36e5a706558a8d7e0e4773643 (v1.6.51)
     - https://github.com/pnggroup/libpng/issues/686
@@ -26071,6 +26552,7 @@
       oracle-oval: 3
       photon: 3
       redhat: 3
+      rocky: 3
       ubuntu: 2
     CVSS:
       redhat:
@@ -26082,7 +26564,14 @@
     - https://bugzilla.redhat.com/2416904
     - https://bugzilla.redhat.com/2416907
     - https://bugzilla.redhat.com/2418711
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2416904
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2416907
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2418711
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-64720
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-65018
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-66293
     - https://errata.almalinux.org/9/ALSA-2026-0238.html
+    - https://errata.rockylinux.org/RLSA-2026:0238
     - https://github.com/pnggroup/libpng/commit/16b5e3823918840aae65c0a6da57c78a5a496a4d
     - https://github.com/pnggroup/libpng/commit/16b5e3823918840aae65c0a6da57c78a5a496a4d (v1.6.51)
     - https://github.com/pnggroup/libpng/commit/218612ddd6b17944e21eda56caf8b4bf7779d1ea
@@ -26627,7 +27116,7 @@
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Fingerprint: sha256:396f8b18b15279b1d9d57184d1029f9a1da2465c2c1511b25d28ec3d51b382d8
-    Title: 'libsodium: libsodium: Improper validation of elliptic curve points could lead to data integrity or information disclosure.'
+    Title: 'libsodium: pynacl: libsodium: Improper validation of elliptic curve points could lead to data integrity or information disclosure.'
     Description: libsodium before ad3004e, in atypical use cases involving certain custom cryptography or untrusted data to crypto_core_ed25519_is_valid_point, mishandles checks for whether an elliptic curve point is valid because it sometimes allows points that aren't in the main cryptographic group.
     Severity: MEDIUM
     CweIDs:
