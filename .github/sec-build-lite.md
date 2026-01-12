@@ -23605,7 +23605,7 @@
 │                        │      │                  ├ [3]: https://hackerone.com/reports/3459417 
 │                        │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2025-14524 
 │                        │      ├ PublishedDate   : 2026-01-08T10:15:46.607Z 
-│                        │      ╰ LastModifiedDate: 2026-01-08T18:08:18.457Z 
+│                        │      ╰ LastModifiedDate: 2026-01-09T20:15:51.243Z 
 │                        ├ [4]  ╭ VulnerabilityID : CVE-2025-14819 
 │                        │      ├ PkgID           : curl@8.5.0-2ubuntu10.6 
 │                        │      ├ PkgName         : curl 
@@ -23769,7 +23769,7 @@
 │                        │      │                   it on an insecure host should not be okay. 
 │                        │      ├ Severity        : LOW 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ amazon     : 1 
 │                        │      │                  ├ oracle-oval: 2 
 │                        │      │                  ├ photon     : 3 
 │                        │      │                  ├ redhat     : 2 
@@ -23868,7 +23868,56 @@
 │                        │      │                          28/5 
 │                        │      ├ PublishedDate   : 2025-12-28T17:16:01.5Z 
 │                        │      ╰ LastModifiedDate: 2026-01-07T14:45:55.817Z 
-│                        ├ [9]  ╭ VulnerabilityID : CVE-2022-3219 
+│                        ├ [9]  ╭ VulnerabilityID : CVE-2025-68972 
+│                        │      ├ PkgID           : dirmngr@2.4.4-2ubuntu17.3 
+│                        │      ├ PkgName         : dirmngr 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/dirmngr@2.4.4-2ubuntu17.3?arch=amd64&
+│                        │      │                  │       distro=ubuntu-24.04 
+│                        │      │                  ╰ UID : 1892150bf980ea88 
+│                        │      ├ InstalledVersion: 2.4.4-2ubuntu17.3 
+│                        │      ├ Status          : affected 
+│                        │      ├ Layer            ╭ Digest: sha256:e1ba6c3e0594e5a62288f02edd69ab4c5dea124a859
+│                        │      │                  │         97a9b3578dacf44cb2006 
+│                        │      │                  ╰ DiffID: sha256:f261933e230bd304a9c6e9c4694642c879f0a77009a
+│                        │      │                            a73b131f9302825eca058 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-68972 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Fingerprint     : sha256:cb7e1e9f2a6351a9a4899ca3b136e831922659c9eb5faee2c7c8
+│                        │      │                   e4f5cba69d27 
+│                        │      ├ Title           : gnupg: GnuPG: Signature bypass via form feed character in
+│                        │      │                   signed messages 
+│                        │      ├ Description     : In GnuPG through 2.4.8, if a signed message has \f at the
+│                        │      │                   end of a plaintext line, an adversary can construct a
+│                        │      │                   modified message that places additional text after the
+│                        │      │                   signed material, such that signature verification of the
+│                        │      │                   modified message succeeds (although an "invalid armor"
+│                        │      │                   message is printed during verification). This is related to
+│                        │      │                    use of \f as a marker to denote truncation of a long
+│                        │      │                   plaintext line. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ CweIDs           ─ [0]: CWE-347 
+│                        │      ├ VendorSeverity   ╭ nvd   : 2 
+│                        │      │                  ├ redhat: 2 
+│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:
+│                        │      │                  │        │           H/A:N 
+│                        │      │                  │        ╰ V3Score : 4.7 
+│                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:N/I:
+│                        │      │                           │           H/A:N 
+│                        │      │                           ╰ V3Score : 5.9 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-68972 
+│                        │      │                  ├ [1]: https://gpg.fail/formfeed 
+│                        │      │                  ├ [2]: https://media.ccc.de/v/39c3-to-sign-or-not-to-sign-pr
+│                        │      │                  │      actical-vulnerabilities-i 
+│                        │      │                  ├ [3]: https://news.ycombinator.com/item?id=46404339 
+│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-68972 
+│                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-68972 
+│                        │      ├ PublishedDate   : 2025-12-27T23:15:40.9Z 
+│                        │      ╰ LastModifiedDate: 2026-01-09T20:08:47.323Z 
+│                        ├ [10] ╭ VulnerabilityID : CVE-2022-3219 
 │                        │      ├ PkgID           : dirmngr@2.4.4-2ubuntu17.3 
 │                        │      ├ PkgName         : dirmngr 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/dirmngr@2.4.4-2ubuntu17.3?arch=amd64&
@@ -23914,7 +23963,7 @@
 │                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2022-3219 
 │                        │      ├ PublishedDate   : 2023-02-23T20:15:12.393Z 
 │                        │      ╰ LastModifiedDate: 2025-03-12T21:15:38.207Z 
-│                        ├ [10] ╭ VulnerabilityID : CVE-2025-13601 
+│                        ├ [11] ╭ VulnerabilityID : CVE-2025-13601 
 │                        │      ├ PkgID           : gir1.2-glib-2.0@2.80.0-6ubuntu3.5 
 │                        │      ├ PkgName         : gir1.2-glib-2.0 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/gir1.2-glib-2.0@2.80.0-6ubuntu3.5?arc
@@ -23963,7 +24012,7 @@
 │                        │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-13601 
 │                        │      ├ PublishedDate   : 2025-11-26T15:15:51.723Z 
 │                        │      ╰ LastModifiedDate: 2025-12-01T15:39:53.1Z 
-│                        ├ [11] ╭ VulnerabilityID : CVE-2025-14087 
+│                        ├ [12] ╭ VulnerabilityID : CVE-2025-14087 
 │                        │      ├ PkgID           : gir1.2-glib-2.0@2.80.0-6ubuntu3.5 
 │                        │      ├ PkgName         : gir1.2-glib-2.0 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/gir1.2-glib-2.0@2.80.0-6ubuntu3.5?arc
@@ -24010,7 +24059,7 @@
 │                        │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-14087 
 │                        │      ├ PublishedDate   : 2025-12-10T09:15:47.053Z 
 │                        │      ╰ LastModifiedDate: 2025-12-12T15:18:42.14Z 
-│                        ├ [12] ╭ VulnerabilityID : CVE-2025-14512 
+│                        ├ [13] ╭ VulnerabilityID : CVE-2025-14512 
 │                        │      ├ PkgID           : gir1.2-glib-2.0@2.80.0-6ubuntu3.5 
 │                        │      ├ PkgName         : gir1.2-glib-2.0 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/gir1.2-glib-2.0@2.80.0-6ubuntu3.5?arc
@@ -24055,7 +24104,7 @@
 │                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-14512 
 │                        │      ├ PublishedDate   : 2025-12-11T07:16:00.463Z 
 │                        │      ╰ LastModifiedDate: 2025-12-12T15:18:13.39Z 
-│                        ├ [13] ╭ VulnerabilityID : CVE-2025-3360 
+│                        ├ [14] ╭ VulnerabilityID : CVE-2025-3360 
 │                        │      ├ PkgID           : gir1.2-glib-2.0@2.80.0-6ubuntu3.5 
 │                        │      ├ PkgName         : gir1.2-glib-2.0 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/gir1.2-glib-2.0@2.80.0-6ubuntu3.5?arc
@@ -24101,7 +24150,7 @@
 │                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-3360 
 │                        │      ├ PublishedDate   : 2025-04-07T13:15:43.687Z 
 │                        │      ╰ LastModifiedDate: 2025-04-14T12:15:16.087Z 
-│                        ├ [14] ╭ VulnerabilityID : CVE-2025-6052 
+│                        ├ [15] ╭ VulnerabilityID : CVE-2025-6052 
 │                        │      ├ PkgID           : gir1.2-glib-2.0@2.80.0-6ubuntu3.5 
 │                        │      ├ PkgName         : gir1.2-glib-2.0 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/gir1.2-glib-2.0@2.80.0-6ubuntu3.5?arc
@@ -24152,7 +24201,7 @@
 │                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-6052 
 │                        │      ├ PublishedDate   : 2025-06-13T16:15:28.23Z 
 │                        │      ╰ LastModifiedDate: 2025-08-20T17:27:24.26Z 
-│                        ├ [15] ╭ VulnerabilityID : CVE-2025-7039 
+│                        ├ [16] ╭ VulnerabilityID : CVE-2025-7039 
 │                        │      ├ PkgID           : gir1.2-glib-2.0@2.80.0-6ubuntu3.5 
 │                        │      ├ PkgName         : gir1.2-glib-2.0 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/gir1.2-glib-2.0@2.80.0-6ubuntu3.5?arc
@@ -24198,7 +24247,7 @@
 │                        │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2025-7039 
 │                        │      ├ PublishedDate   : 2025-09-03T02:15:38.12Z 
 │                        │      ╰ LastModifiedDate: 2025-09-04T15:36:56.447Z 
-│                        ├ [16] ╭ VulnerabilityID : CVE-2024-52005 
+│                        ├ [17] ╭ VulnerabilityID : CVE-2024-52005 
 │                        │      ├ PkgID           : git@1:2.43.0-1ubuntu7.3 
 │                        │      ├ PkgName         : git 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/git@2.43.0-1ubuntu7.3?arch=amd64&dist
@@ -24272,7 +24321,7 @@
 │                        │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2024-52005 
 │                        │      ├ PublishedDate   : 2025-01-15T18:15:24.13Z 
 │                        │      ╰ LastModifiedDate: 2025-12-18T16:00:17.533Z 
-│                        ├ [17] ╭ VulnerabilityID : CVE-2024-52005 
+│                        ├ [18] ╭ VulnerabilityID : CVE-2024-52005 
 │                        │      ├ PkgID           : git-man@1:2.43.0-1ubuntu7.3 
 │                        │      ├ PkgName         : git-man 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/git-man@2.43.0-1ubuntu7.3?arch=all&di
@@ -24346,7 +24395,7 @@
 │                        │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2024-52005 
 │                        │      ├ PublishedDate   : 2025-01-15T18:15:24.13Z 
 │                        │      ╰ LastModifiedDate: 2025-12-18T16:00:17.533Z 
-│                        ├ [18] ╭ VulnerabilityID : CVE-2025-68973 
+│                        ├ [19] ╭ VulnerabilityID : CVE-2025-68973 
 │                        │      ├ PkgID           : gnupg@2.4.4-2ubuntu17.3 
 │                        │      ├ PkgName         : gnupg 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/gnupg@2.4.4-2ubuntu17.3?arch=all&dist
@@ -24413,7 +24462,56 @@
 │                        │      │                          28/5 
 │                        │      ├ PublishedDate   : 2025-12-28T17:16:01.5Z 
 │                        │      ╰ LastModifiedDate: 2026-01-07T14:45:55.817Z 
-│                        ├ [19] ╭ VulnerabilityID : CVE-2022-3219 
+│                        ├ [20] ╭ VulnerabilityID : CVE-2025-68972 
+│                        │      ├ PkgID           : gnupg@2.4.4-2ubuntu17.3 
+│                        │      ├ PkgName         : gnupg 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/gnupg@2.4.4-2ubuntu17.3?arch=all&dist
+│                        │      │                  │       ro=ubuntu-24.04 
+│                        │      │                  ╰ UID : 7f2c7ceec91b79ab 
+│                        │      ├ InstalledVersion: 2.4.4-2ubuntu17.3 
+│                        │      ├ Status          : affected 
+│                        │      ├ Layer            ╭ Digest: sha256:e1ba6c3e0594e5a62288f02edd69ab4c5dea124a859
+│                        │      │                  │         97a9b3578dacf44cb2006 
+│                        │      │                  ╰ DiffID: sha256:f261933e230bd304a9c6e9c4694642c879f0a77009a
+│                        │      │                            a73b131f9302825eca058 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-68972 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Fingerprint     : sha256:2748e1cefeda91678239b775f85ab251b959bbb98c88133c4f24
+│                        │      │                   2321bdccd00c 
+│                        │      ├ Title           : gnupg: GnuPG: Signature bypass via form feed character in
+│                        │      │                   signed messages 
+│                        │      ├ Description     : In GnuPG through 2.4.8, if a signed message has \f at the
+│                        │      │                   end of a plaintext line, an adversary can construct a
+│                        │      │                   modified message that places additional text after the
+│                        │      │                   signed material, such that signature verification of the
+│                        │      │                   modified message succeeds (although an "invalid armor"
+│                        │      │                   message is printed during verification). This is related to
+│                        │      │                    use of \f as a marker to denote truncation of a long
+│                        │      │                   plaintext line. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ CweIDs           ─ [0]: CWE-347 
+│                        │      ├ VendorSeverity   ╭ nvd   : 2 
+│                        │      │                  ├ redhat: 2 
+│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:
+│                        │      │                  │        │           H/A:N 
+│                        │      │                  │        ╰ V3Score : 4.7 
+│                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:N/I:
+│                        │      │                           │           H/A:N 
+│                        │      │                           ╰ V3Score : 5.9 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-68972 
+│                        │      │                  ├ [1]: https://gpg.fail/formfeed 
+│                        │      │                  ├ [2]: https://media.ccc.de/v/39c3-to-sign-or-not-to-sign-pr
+│                        │      │                  │      actical-vulnerabilities-i 
+│                        │      │                  ├ [3]: https://news.ycombinator.com/item?id=46404339 
+│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-68972 
+│                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-68972 
+│                        │      ├ PublishedDate   : 2025-12-27T23:15:40.9Z 
+│                        │      ╰ LastModifiedDate: 2026-01-09T20:08:47.323Z 
+│                        ├ [21] ╭ VulnerabilityID : CVE-2022-3219 
 │                        │      ├ PkgID           : gnupg@2.4.4-2ubuntu17.3 
 │                        │      ├ PkgName         : gnupg 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/gnupg@2.4.4-2ubuntu17.3?arch=all&dist
@@ -24459,7 +24557,7 @@
 │                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2022-3219 
 │                        │      ├ PublishedDate   : 2023-02-23T20:15:12.393Z 
 │                        │      ╰ LastModifiedDate: 2025-03-12T21:15:38.207Z 
-│                        ├ [20] ╭ VulnerabilityID : CVE-2025-68973 
+│                        ├ [22] ╭ VulnerabilityID : CVE-2025-68973 
 │                        │      ├ PkgID           : gnupg-l10n@2.4.4-2ubuntu17.3 
 │                        │      ├ PkgName         : gnupg-l10n 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/gnupg-l10n@2.4.4-2ubuntu17.3?arch=all
@@ -24526,7 +24624,56 @@
 │                        │      │                          28/5 
 │                        │      ├ PublishedDate   : 2025-12-28T17:16:01.5Z 
 │                        │      ╰ LastModifiedDate: 2026-01-07T14:45:55.817Z 
-│                        ├ [21] ╭ VulnerabilityID : CVE-2022-3219 
+│                        ├ [23] ╭ VulnerabilityID : CVE-2025-68972 
+│                        │      ├ PkgID           : gnupg-l10n@2.4.4-2ubuntu17.3 
+│                        │      ├ PkgName         : gnupg-l10n 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/gnupg-l10n@2.4.4-2ubuntu17.3?arch=all
+│                        │      │                  │       &distro=ubuntu-24.04 
+│                        │      │                  ╰ UID : 5e21e2806de7a687 
+│                        │      ├ InstalledVersion: 2.4.4-2ubuntu17.3 
+│                        │      ├ Status          : affected 
+│                        │      ├ Layer            ╭ Digest: sha256:e1ba6c3e0594e5a62288f02edd69ab4c5dea124a859
+│                        │      │                  │         97a9b3578dacf44cb2006 
+│                        │      │                  ╰ DiffID: sha256:f261933e230bd304a9c6e9c4694642c879f0a77009a
+│                        │      │                            a73b131f9302825eca058 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-68972 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Fingerprint     : sha256:e836cffcf954f508397199794f3577dc844a5a61c6ed597585eb
+│                        │      │                   19c53258db68 
+│                        │      ├ Title           : gnupg: GnuPG: Signature bypass via form feed character in
+│                        │      │                   signed messages 
+│                        │      ├ Description     : In GnuPG through 2.4.8, if a signed message has \f at the
+│                        │      │                   end of a plaintext line, an adversary can construct a
+│                        │      │                   modified message that places additional text after the
+│                        │      │                   signed material, such that signature verification of the
+│                        │      │                   modified message succeeds (although an "invalid armor"
+│                        │      │                   message is printed during verification). This is related to
+│                        │      │                    use of \f as a marker to denote truncation of a long
+│                        │      │                   plaintext line. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ CweIDs           ─ [0]: CWE-347 
+│                        │      ├ VendorSeverity   ╭ nvd   : 2 
+│                        │      │                  ├ redhat: 2 
+│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:
+│                        │      │                  │        │           H/A:N 
+│                        │      │                  │        ╰ V3Score : 4.7 
+│                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:N/I:
+│                        │      │                           │           H/A:N 
+│                        │      │                           ╰ V3Score : 5.9 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-68972 
+│                        │      │                  ├ [1]: https://gpg.fail/formfeed 
+│                        │      │                  ├ [2]: https://media.ccc.de/v/39c3-to-sign-or-not-to-sign-pr
+│                        │      │                  │      actical-vulnerabilities-i 
+│                        │      │                  ├ [3]: https://news.ycombinator.com/item?id=46404339 
+│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-68972 
+│                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-68972 
+│                        │      ├ PublishedDate   : 2025-12-27T23:15:40.9Z 
+│                        │      ╰ LastModifiedDate: 2026-01-09T20:08:47.323Z 
+│                        ├ [24] ╭ VulnerabilityID : CVE-2022-3219 
 │                        │      ├ PkgID           : gnupg-l10n@2.4.4-2ubuntu17.3 
 │                        │      ├ PkgName         : gnupg-l10n 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/gnupg-l10n@2.4.4-2ubuntu17.3?arch=all
@@ -24572,7 +24719,7 @@
 │                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2022-3219 
 │                        │      ├ PublishedDate   : 2023-02-23T20:15:12.393Z 
 │                        │      ╰ LastModifiedDate: 2025-03-12T21:15:38.207Z 
-│                        ├ [22] ╭ VulnerabilityID : CVE-2025-68973 
+│                        ├ [25] ╭ VulnerabilityID : CVE-2025-68973 
 │                        │      ├ PkgID           : gnupg-utils@2.4.4-2ubuntu17.3 
 │                        │      ├ PkgName         : gnupg-utils 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/gnupg-utils@2.4.4-2ubuntu17.3?arch=am
@@ -24639,7 +24786,56 @@
 │                        │      │                          28/5 
 │                        │      ├ PublishedDate   : 2025-12-28T17:16:01.5Z 
 │                        │      ╰ LastModifiedDate: 2026-01-07T14:45:55.817Z 
-│                        ├ [23] ╭ VulnerabilityID : CVE-2022-3219 
+│                        ├ [26] ╭ VulnerabilityID : CVE-2025-68972 
+│                        │      ├ PkgID           : gnupg-utils@2.4.4-2ubuntu17.3 
+│                        │      ├ PkgName         : gnupg-utils 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/gnupg-utils@2.4.4-2ubuntu17.3?arch=am
+│                        │      │                  │       d64&distro=ubuntu-24.04 
+│                        │      │                  ╰ UID : e2a5d543125a8e8b 
+│                        │      ├ InstalledVersion: 2.4.4-2ubuntu17.3 
+│                        │      ├ Status          : affected 
+│                        │      ├ Layer            ╭ Digest: sha256:e1ba6c3e0594e5a62288f02edd69ab4c5dea124a859
+│                        │      │                  │         97a9b3578dacf44cb2006 
+│                        │      │                  ╰ DiffID: sha256:f261933e230bd304a9c6e9c4694642c879f0a77009a
+│                        │      │                            a73b131f9302825eca058 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-68972 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Fingerprint     : sha256:142d3a7b117949fcf4e074a66b02aa749e5d9875b4600a6d25e7
+│                        │      │                   be60c083ccb4 
+│                        │      ├ Title           : gnupg: GnuPG: Signature bypass via form feed character in
+│                        │      │                   signed messages 
+│                        │      ├ Description     : In GnuPG through 2.4.8, if a signed message has \f at the
+│                        │      │                   end of a plaintext line, an adversary can construct a
+│                        │      │                   modified message that places additional text after the
+│                        │      │                   signed material, such that signature verification of the
+│                        │      │                   modified message succeeds (although an "invalid armor"
+│                        │      │                   message is printed during verification). This is related to
+│                        │      │                    use of \f as a marker to denote truncation of a long
+│                        │      │                   plaintext line. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ CweIDs           ─ [0]: CWE-347 
+│                        │      ├ VendorSeverity   ╭ nvd   : 2 
+│                        │      │                  ├ redhat: 2 
+│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:
+│                        │      │                  │        │           H/A:N 
+│                        │      │                  │        ╰ V3Score : 4.7 
+│                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:N/I:
+│                        │      │                           │           H/A:N 
+│                        │      │                           ╰ V3Score : 5.9 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-68972 
+│                        │      │                  ├ [1]: https://gpg.fail/formfeed 
+│                        │      │                  ├ [2]: https://media.ccc.de/v/39c3-to-sign-or-not-to-sign-pr
+│                        │      │                  │      actical-vulnerabilities-i 
+│                        │      │                  ├ [3]: https://news.ycombinator.com/item?id=46404339 
+│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-68972 
+│                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-68972 
+│                        │      ├ PublishedDate   : 2025-12-27T23:15:40.9Z 
+│                        │      ╰ LastModifiedDate: 2026-01-09T20:08:47.323Z 
+│                        ├ [27] ╭ VulnerabilityID : CVE-2022-3219 
 │                        │      ├ PkgID           : gnupg-utils@2.4.4-2ubuntu17.3 
 │                        │      ├ PkgName         : gnupg-utils 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/gnupg-utils@2.4.4-2ubuntu17.3?arch=am
@@ -24685,7 +24881,7 @@
 │                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2022-3219 
 │                        │      ├ PublishedDate   : 2023-02-23T20:15:12.393Z 
 │                        │      ╰ LastModifiedDate: 2025-03-12T21:15:38.207Z 
-│                        ├ [24] ╭ VulnerabilityID : CVE-2025-68973 
+│                        ├ [28] ╭ VulnerabilityID : CVE-2025-68973 
 │                        │      ├ PkgID           : gpg@2.4.4-2ubuntu17.3 
 │                        │      ├ PkgName         : gpg 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/gpg@2.4.4-2ubuntu17.3?arch=amd64&dist
@@ -24752,7 +24948,56 @@
 │                        │      │                          28/5 
 │                        │      ├ PublishedDate   : 2025-12-28T17:16:01.5Z 
 │                        │      ╰ LastModifiedDate: 2026-01-07T14:45:55.817Z 
-│                        ├ [25] ╭ VulnerabilityID : CVE-2022-3219 
+│                        ├ [29] ╭ VulnerabilityID : CVE-2025-68972 
+│                        │      ├ PkgID           : gpg@2.4.4-2ubuntu17.3 
+│                        │      ├ PkgName         : gpg 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/gpg@2.4.4-2ubuntu17.3?arch=amd64&dist
+│                        │      │                  │       ro=ubuntu-24.04 
+│                        │      │                  ╰ UID : 6f0525c06979d6e 
+│                        │      ├ InstalledVersion: 2.4.4-2ubuntu17.3 
+│                        │      ├ Status          : affected 
+│                        │      ├ Layer            ╭ Digest: sha256:e1ba6c3e0594e5a62288f02edd69ab4c5dea124a859
+│                        │      │                  │         97a9b3578dacf44cb2006 
+│                        │      │                  ╰ DiffID: sha256:f261933e230bd304a9c6e9c4694642c879f0a77009a
+│                        │      │                            a73b131f9302825eca058 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-68972 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Fingerprint     : sha256:e7d9d95e19201bced2e8055cdf74834452305fdc58d8ab39c83a
+│                        │      │                   13e2070408ff 
+│                        │      ├ Title           : gnupg: GnuPG: Signature bypass via form feed character in
+│                        │      │                   signed messages 
+│                        │      ├ Description     : In GnuPG through 2.4.8, if a signed message has \f at the
+│                        │      │                   end of a plaintext line, an adversary can construct a
+│                        │      │                   modified message that places additional text after the
+│                        │      │                   signed material, such that signature verification of the
+│                        │      │                   modified message succeeds (although an "invalid armor"
+│                        │      │                   message is printed during verification). This is related to
+│                        │      │                    use of \f as a marker to denote truncation of a long
+│                        │      │                   plaintext line. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ CweIDs           ─ [0]: CWE-347 
+│                        │      ├ VendorSeverity   ╭ nvd   : 2 
+│                        │      │                  ├ redhat: 2 
+│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:
+│                        │      │                  │        │           H/A:N 
+│                        │      │                  │        ╰ V3Score : 4.7 
+│                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:N/I:
+│                        │      │                           │           H/A:N 
+│                        │      │                           ╰ V3Score : 5.9 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-68972 
+│                        │      │                  ├ [1]: https://gpg.fail/formfeed 
+│                        │      │                  ├ [2]: https://media.ccc.de/v/39c3-to-sign-or-not-to-sign-pr
+│                        │      │                  │      actical-vulnerabilities-i 
+│                        │      │                  ├ [3]: https://news.ycombinator.com/item?id=46404339 
+│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-68972 
+│                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-68972 
+│                        │      ├ PublishedDate   : 2025-12-27T23:15:40.9Z 
+│                        │      ╰ LastModifiedDate: 2026-01-09T20:08:47.323Z 
+│                        ├ [30] ╭ VulnerabilityID : CVE-2022-3219 
 │                        │      ├ PkgID           : gpg@2.4.4-2ubuntu17.3 
 │                        │      ├ PkgName         : gpg 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/gpg@2.4.4-2ubuntu17.3?arch=amd64&dist
@@ -24798,7 +25043,7 @@
 │                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2022-3219 
 │                        │      ├ PublishedDate   : 2023-02-23T20:15:12.393Z 
 │                        │      ╰ LastModifiedDate: 2025-03-12T21:15:38.207Z 
-│                        ├ [26] ╭ VulnerabilityID : CVE-2025-68973 
+│                        ├ [31] ╭ VulnerabilityID : CVE-2025-68973 
 │                        │      ├ PkgID           : gpg-agent@2.4.4-2ubuntu17.3 
 │                        │      ├ PkgName         : gpg-agent 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/gpg-agent@2.4.4-2ubuntu17.3?arch=amd6
@@ -24865,7 +25110,56 @@
 │                        │      │                          28/5 
 │                        │      ├ PublishedDate   : 2025-12-28T17:16:01.5Z 
 │                        │      ╰ LastModifiedDate: 2026-01-07T14:45:55.817Z 
-│                        ├ [27] ╭ VulnerabilityID : CVE-2022-3219 
+│                        ├ [32] ╭ VulnerabilityID : CVE-2025-68972 
+│                        │      ├ PkgID           : gpg-agent@2.4.4-2ubuntu17.3 
+│                        │      ├ PkgName         : gpg-agent 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/gpg-agent@2.4.4-2ubuntu17.3?arch=amd6
+│                        │      │                  │       4&distro=ubuntu-24.04 
+│                        │      │                  ╰ UID : 9a5d6807b3ab9518 
+│                        │      ├ InstalledVersion: 2.4.4-2ubuntu17.3 
+│                        │      ├ Status          : affected 
+│                        │      ├ Layer            ╭ Digest: sha256:e1ba6c3e0594e5a62288f02edd69ab4c5dea124a859
+│                        │      │                  │         97a9b3578dacf44cb2006 
+│                        │      │                  ╰ DiffID: sha256:f261933e230bd304a9c6e9c4694642c879f0a77009a
+│                        │      │                            a73b131f9302825eca058 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-68972 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Fingerprint     : sha256:f432eb7802010ddfa4c9de4c0b1d5d3d53cee10aaab874fecb73
+│                        │      │                   1a1c45f7693d 
+│                        │      ├ Title           : gnupg: GnuPG: Signature bypass via form feed character in
+│                        │      │                   signed messages 
+│                        │      ├ Description     : In GnuPG through 2.4.8, if a signed message has \f at the
+│                        │      │                   end of a plaintext line, an adversary can construct a
+│                        │      │                   modified message that places additional text after the
+│                        │      │                   signed material, such that signature verification of the
+│                        │      │                   modified message succeeds (although an "invalid armor"
+│                        │      │                   message is printed during verification). This is related to
+│                        │      │                    use of \f as a marker to denote truncation of a long
+│                        │      │                   plaintext line. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ CweIDs           ─ [0]: CWE-347 
+│                        │      ├ VendorSeverity   ╭ nvd   : 2 
+│                        │      │                  ├ redhat: 2 
+│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:
+│                        │      │                  │        │           H/A:N 
+│                        │      │                  │        ╰ V3Score : 4.7 
+│                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:N/I:
+│                        │      │                           │           H/A:N 
+│                        │      │                           ╰ V3Score : 5.9 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-68972 
+│                        │      │                  ├ [1]: https://gpg.fail/formfeed 
+│                        │      │                  ├ [2]: https://media.ccc.de/v/39c3-to-sign-or-not-to-sign-pr
+│                        │      │                  │      actical-vulnerabilities-i 
+│                        │      │                  ├ [3]: https://news.ycombinator.com/item?id=46404339 
+│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-68972 
+│                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-68972 
+│                        │      ├ PublishedDate   : 2025-12-27T23:15:40.9Z 
+│                        │      ╰ LastModifiedDate: 2026-01-09T20:08:47.323Z 
+│                        ├ [33] ╭ VulnerabilityID : CVE-2022-3219 
 │                        │      ├ PkgID           : gpg-agent@2.4.4-2ubuntu17.3 
 │                        │      ├ PkgName         : gpg-agent 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/gpg-agent@2.4.4-2ubuntu17.3?arch=amd6
@@ -24911,7 +25205,7 @@
 │                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2022-3219 
 │                        │      ├ PublishedDate   : 2023-02-23T20:15:12.393Z 
 │                        │      ╰ LastModifiedDate: 2025-03-12T21:15:38.207Z 
-│                        ├ [28] ╭ VulnerabilityID : CVE-2025-68973 
+│                        ├ [34] ╭ VulnerabilityID : CVE-2025-68973 
 │                        │      ├ PkgID           : gpg-wks-client@2.4.4-2ubuntu17.3 
 │                        │      ├ PkgName         : gpg-wks-client 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/gpg-wks-client@2.4.4-2ubuntu17.3?arch
@@ -24978,7 +25272,56 @@
 │                        │      │                          28/5 
 │                        │      ├ PublishedDate   : 2025-12-28T17:16:01.5Z 
 │                        │      ╰ LastModifiedDate: 2026-01-07T14:45:55.817Z 
-│                        ├ [29] ╭ VulnerabilityID : CVE-2022-3219 
+│                        ├ [35] ╭ VulnerabilityID : CVE-2025-68972 
+│                        │      ├ PkgID           : gpg-wks-client@2.4.4-2ubuntu17.3 
+│                        │      ├ PkgName         : gpg-wks-client 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/gpg-wks-client@2.4.4-2ubuntu17.3?arch
+│                        │      │                  │       =amd64&distro=ubuntu-24.04 
+│                        │      │                  ╰ UID : 2ddf8634db36716b 
+│                        │      ├ InstalledVersion: 2.4.4-2ubuntu17.3 
+│                        │      ├ Status          : affected 
+│                        │      ├ Layer            ╭ Digest: sha256:e1ba6c3e0594e5a62288f02edd69ab4c5dea124a859
+│                        │      │                  │         97a9b3578dacf44cb2006 
+│                        │      │                  ╰ DiffID: sha256:f261933e230bd304a9c6e9c4694642c879f0a77009a
+│                        │      │                            a73b131f9302825eca058 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-68972 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Fingerprint     : sha256:0c0a3db2424050a4196f89a4808523bfdf06ce38352b1c8bb916
+│                        │      │                   6d6734a3670f 
+│                        │      ├ Title           : gnupg: GnuPG: Signature bypass via form feed character in
+│                        │      │                   signed messages 
+│                        │      ├ Description     : In GnuPG through 2.4.8, if a signed message has \f at the
+│                        │      │                   end of a plaintext line, an adversary can construct a
+│                        │      │                   modified message that places additional text after the
+│                        │      │                   signed material, such that signature verification of the
+│                        │      │                   modified message succeeds (although an "invalid armor"
+│                        │      │                   message is printed during verification). This is related to
+│                        │      │                    use of \f as a marker to denote truncation of a long
+│                        │      │                   plaintext line. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ CweIDs           ─ [0]: CWE-347 
+│                        │      ├ VendorSeverity   ╭ nvd   : 2 
+│                        │      │                  ├ redhat: 2 
+│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:
+│                        │      │                  │        │           H/A:N 
+│                        │      │                  │        ╰ V3Score : 4.7 
+│                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:N/I:
+│                        │      │                           │           H/A:N 
+│                        │      │                           ╰ V3Score : 5.9 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-68972 
+│                        │      │                  ├ [1]: https://gpg.fail/formfeed 
+│                        │      │                  ├ [2]: https://media.ccc.de/v/39c3-to-sign-or-not-to-sign-pr
+│                        │      │                  │      actical-vulnerabilities-i 
+│                        │      │                  ├ [3]: https://news.ycombinator.com/item?id=46404339 
+│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-68972 
+│                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-68972 
+│                        │      ├ PublishedDate   : 2025-12-27T23:15:40.9Z 
+│                        │      ╰ LastModifiedDate: 2026-01-09T20:08:47.323Z 
+│                        ├ [36] ╭ VulnerabilityID : CVE-2022-3219 
 │                        │      ├ PkgID           : gpg-wks-client@2.4.4-2ubuntu17.3 
 │                        │      ├ PkgName         : gpg-wks-client 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/gpg-wks-client@2.4.4-2ubuntu17.3?arch
@@ -25024,7 +25367,7 @@
 │                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2022-3219 
 │                        │      ├ PublishedDate   : 2023-02-23T20:15:12.393Z 
 │                        │      ╰ LastModifiedDate: 2025-03-12T21:15:38.207Z 
-│                        ├ [30] ╭ VulnerabilityID : CVE-2025-68973 
+│                        ├ [37] ╭ VulnerabilityID : CVE-2025-68973 
 │                        │      ├ PkgID           : gpgconf@2.4.4-2ubuntu17.3 
 │                        │      ├ PkgName         : gpgconf 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/gpgconf@2.4.4-2ubuntu17.3?arch=amd64&
@@ -25091,7 +25434,56 @@
 │                        │      │                          28/5 
 │                        │      ├ PublishedDate   : 2025-12-28T17:16:01.5Z 
 │                        │      ╰ LastModifiedDate: 2026-01-07T14:45:55.817Z 
-│                        ├ [31] ╭ VulnerabilityID : CVE-2022-3219 
+│                        ├ [38] ╭ VulnerabilityID : CVE-2025-68972 
+│                        │      ├ PkgID           : gpgconf@2.4.4-2ubuntu17.3 
+│                        │      ├ PkgName         : gpgconf 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/gpgconf@2.4.4-2ubuntu17.3?arch=amd64&
+│                        │      │                  │       distro=ubuntu-24.04 
+│                        │      │                  ╰ UID : 82df1c4636102926 
+│                        │      ├ InstalledVersion: 2.4.4-2ubuntu17.3 
+│                        │      ├ Status          : affected 
+│                        │      ├ Layer            ╭ Digest: sha256:e1ba6c3e0594e5a62288f02edd69ab4c5dea124a859
+│                        │      │                  │         97a9b3578dacf44cb2006 
+│                        │      │                  ╰ DiffID: sha256:f261933e230bd304a9c6e9c4694642c879f0a77009a
+│                        │      │                            a73b131f9302825eca058 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-68972 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Fingerprint     : sha256:735d3b8c7d183fa89a7152e07f195063c450a912457c9f6e9ecc
+│                        │      │                   3b436be26a1b 
+│                        │      ├ Title           : gnupg: GnuPG: Signature bypass via form feed character in
+│                        │      │                   signed messages 
+│                        │      ├ Description     : In GnuPG through 2.4.8, if a signed message has \f at the
+│                        │      │                   end of a plaintext line, an adversary can construct a
+│                        │      │                   modified message that places additional text after the
+│                        │      │                   signed material, such that signature verification of the
+│                        │      │                   modified message succeeds (although an "invalid armor"
+│                        │      │                   message is printed during verification). This is related to
+│                        │      │                    use of \f as a marker to denote truncation of a long
+│                        │      │                   plaintext line. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ CweIDs           ─ [0]: CWE-347 
+│                        │      ├ VendorSeverity   ╭ nvd   : 2 
+│                        │      │                  ├ redhat: 2 
+│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:
+│                        │      │                  │        │           H/A:N 
+│                        │      │                  │        ╰ V3Score : 4.7 
+│                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:N/I:
+│                        │      │                           │           H/A:N 
+│                        │      │                           ╰ V3Score : 5.9 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-68972 
+│                        │      │                  ├ [1]: https://gpg.fail/formfeed 
+│                        │      │                  ├ [2]: https://media.ccc.de/v/39c3-to-sign-or-not-to-sign-pr
+│                        │      │                  │      actical-vulnerabilities-i 
+│                        │      │                  ├ [3]: https://news.ycombinator.com/item?id=46404339 
+│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-68972 
+│                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-68972 
+│                        │      ├ PublishedDate   : 2025-12-27T23:15:40.9Z 
+│                        │      ╰ LastModifiedDate: 2026-01-09T20:08:47.323Z 
+│                        ├ [39] ╭ VulnerabilityID : CVE-2022-3219 
 │                        │      ├ PkgID           : gpgconf@2.4.4-2ubuntu17.3 
 │                        │      ├ PkgName         : gpgconf 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/gpgconf@2.4.4-2ubuntu17.3?arch=amd64&
@@ -25137,7 +25529,7 @@
 │                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2022-3219 
 │                        │      ├ PublishedDate   : 2023-02-23T20:15:12.393Z 
 │                        │      ╰ LastModifiedDate: 2025-03-12T21:15:38.207Z 
-│                        ├ [32] ╭ VulnerabilityID : CVE-2025-68973 
+│                        ├ [40] ╭ VulnerabilityID : CVE-2025-68973 
 │                        │      ├ PkgID           : gpgsm@2.4.4-2ubuntu17.3 
 │                        │      ├ PkgName         : gpgsm 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/gpgsm@2.4.4-2ubuntu17.3?arch=amd64&di
@@ -25204,7 +25596,56 @@
 │                        │      │                          28/5 
 │                        │      ├ PublishedDate   : 2025-12-28T17:16:01.5Z 
 │                        │      ╰ LastModifiedDate: 2026-01-07T14:45:55.817Z 
-│                        ├ [33] ╭ VulnerabilityID : CVE-2022-3219 
+│                        ├ [41] ╭ VulnerabilityID : CVE-2025-68972 
+│                        │      ├ PkgID           : gpgsm@2.4.4-2ubuntu17.3 
+│                        │      ├ PkgName         : gpgsm 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/gpgsm@2.4.4-2ubuntu17.3?arch=amd64&di
+│                        │      │                  │       stro=ubuntu-24.04 
+│                        │      │                  ╰ UID : dbe2d95ea4e7e5f0 
+│                        │      ├ InstalledVersion: 2.4.4-2ubuntu17.3 
+│                        │      ├ Status          : affected 
+│                        │      ├ Layer            ╭ Digest: sha256:e1ba6c3e0594e5a62288f02edd69ab4c5dea124a859
+│                        │      │                  │         97a9b3578dacf44cb2006 
+│                        │      │                  ╰ DiffID: sha256:f261933e230bd304a9c6e9c4694642c879f0a77009a
+│                        │      │                            a73b131f9302825eca058 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-68972 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Fingerprint     : sha256:075ed2fd40ccde2ef3bef66ed275d5bbc5232552f8a2b93f9744
+│                        │      │                   a892916ec4a1 
+│                        │      ├ Title           : gnupg: GnuPG: Signature bypass via form feed character in
+│                        │      │                   signed messages 
+│                        │      ├ Description     : In GnuPG through 2.4.8, if a signed message has \f at the
+│                        │      │                   end of a plaintext line, an adversary can construct a
+│                        │      │                   modified message that places additional text after the
+│                        │      │                   signed material, such that signature verification of the
+│                        │      │                   modified message succeeds (although an "invalid armor"
+│                        │      │                   message is printed during verification). This is related to
+│                        │      │                    use of \f as a marker to denote truncation of a long
+│                        │      │                   plaintext line. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ CweIDs           ─ [0]: CWE-347 
+│                        │      ├ VendorSeverity   ╭ nvd   : 2 
+│                        │      │                  ├ redhat: 2 
+│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:
+│                        │      │                  │        │           H/A:N 
+│                        │      │                  │        ╰ V3Score : 4.7 
+│                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:N/I:
+│                        │      │                           │           H/A:N 
+│                        │      │                           ╰ V3Score : 5.9 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-68972 
+│                        │      │                  ├ [1]: https://gpg.fail/formfeed 
+│                        │      │                  ├ [2]: https://media.ccc.de/v/39c3-to-sign-or-not-to-sign-pr
+│                        │      │                  │      actical-vulnerabilities-i 
+│                        │      │                  ├ [3]: https://news.ycombinator.com/item?id=46404339 
+│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-68972 
+│                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-68972 
+│                        │      ├ PublishedDate   : 2025-12-27T23:15:40.9Z 
+│                        │      ╰ LastModifiedDate: 2026-01-09T20:08:47.323Z 
+│                        ├ [42] ╭ VulnerabilityID : CVE-2022-3219 
 │                        │      ├ PkgID           : gpgsm@2.4.4-2ubuntu17.3 
 │                        │      ├ PkgName         : gpgsm 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/gpgsm@2.4.4-2ubuntu17.3?arch=amd64&di
@@ -25250,7 +25691,7 @@
 │                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2022-3219 
 │                        │      ├ PublishedDate   : 2023-02-23T20:15:12.393Z 
 │                        │      ╰ LastModifiedDate: 2025-03-12T21:15:38.207Z 
-│                        ├ [34] ╭ VulnerabilityID : CVE-2025-68973 
+│                        ├ [43] ╭ VulnerabilityID : CVE-2025-68973 
 │                        │      ├ PkgID           : gpgv@2.4.4-2ubuntu17.3 
 │                        │      ├ PkgName         : gpgv 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/gpgv@2.4.4-2ubuntu17.3?arch=amd64&dis
@@ -25317,7 +25758,56 @@
 │                        │      │                          28/5 
 │                        │      ├ PublishedDate   : 2025-12-28T17:16:01.5Z 
 │                        │      ╰ LastModifiedDate: 2026-01-07T14:45:55.817Z 
-│                        ├ [35] ╭ VulnerabilityID : CVE-2022-3219 
+│                        ├ [44] ╭ VulnerabilityID : CVE-2025-68972 
+│                        │      ├ PkgID           : gpgv@2.4.4-2ubuntu17.3 
+│                        │      ├ PkgName         : gpgv 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/gpgv@2.4.4-2ubuntu17.3?arch=amd64&dis
+│                        │      │                  │       tro=ubuntu-24.04 
+│                        │      │                  ╰ UID : ed0171854d1d0ea1 
+│                        │      ├ InstalledVersion: 2.4.4-2ubuntu17.3 
+│                        │      ├ Status          : affected 
+│                        │      ├ Layer            ╭ Digest: sha256:e1ba6c3e0594e5a62288f02edd69ab4c5dea124a859
+│                        │      │                  │         97a9b3578dacf44cb2006 
+│                        │      │                  ╰ DiffID: sha256:f261933e230bd304a9c6e9c4694642c879f0a77009a
+│                        │      │                            a73b131f9302825eca058 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-68972 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Fingerprint     : sha256:8684db125c76ab83a39d742ac1db2b25aa9f681517e9a91d4fb2
+│                        │      │                   6cd370e70ba7 
+│                        │      ├ Title           : gnupg: GnuPG: Signature bypass via form feed character in
+│                        │      │                   signed messages 
+│                        │      ├ Description     : In GnuPG through 2.4.8, if a signed message has \f at the
+│                        │      │                   end of a plaintext line, an adversary can construct a
+│                        │      │                   modified message that places additional text after the
+│                        │      │                   signed material, such that signature verification of the
+│                        │      │                   modified message succeeds (although an "invalid armor"
+│                        │      │                   message is printed during verification). This is related to
+│                        │      │                    use of \f as a marker to denote truncation of a long
+│                        │      │                   plaintext line. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ CweIDs           ─ [0]: CWE-347 
+│                        │      ├ VendorSeverity   ╭ nvd   : 2 
+│                        │      │                  ├ redhat: 2 
+│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:
+│                        │      │                  │        │           H/A:N 
+│                        │      │                  │        ╰ V3Score : 4.7 
+│                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:N/I:
+│                        │      │                           │           H/A:N 
+│                        │      │                           ╰ V3Score : 5.9 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-68972 
+│                        │      │                  ├ [1]: https://gpg.fail/formfeed 
+│                        │      │                  ├ [2]: https://media.ccc.de/v/39c3-to-sign-or-not-to-sign-pr
+│                        │      │                  │      actical-vulnerabilities-i 
+│                        │      │                  ├ [3]: https://news.ycombinator.com/item?id=46404339 
+│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-68972 
+│                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-68972 
+│                        │      ├ PublishedDate   : 2025-12-27T23:15:40.9Z 
+│                        │      ╰ LastModifiedDate: 2026-01-09T20:08:47.323Z 
+│                        ├ [45] ╭ VulnerabilityID : CVE-2022-3219 
 │                        │      ├ PkgID           : gpgv@2.4.4-2ubuntu17.3 
 │                        │      ├ PkgName         : gpgv 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/gpgv@2.4.4-2ubuntu17.3?arch=amd64&dis
@@ -25363,7 +25853,7 @@
 │                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2022-3219 
 │                        │      ├ PublishedDate   : 2023-02-23T20:15:12.393Z 
 │                        │      ╰ LastModifiedDate: 2025-03-12T21:15:38.207Z 
-│                        ├ [36] ╭ VulnerabilityID : CVE-2025-68973 
+│                        ├ [46] ╭ VulnerabilityID : CVE-2025-68973 
 │                        │      ├ PkgID           : keyboxd@2.4.4-2ubuntu17.3 
 │                        │      ├ PkgName         : keyboxd 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/keyboxd@2.4.4-2ubuntu17.3?arch=amd64&
@@ -25430,7 +25920,56 @@
 │                        │      │                          28/5 
 │                        │      ├ PublishedDate   : 2025-12-28T17:16:01.5Z 
 │                        │      ╰ LastModifiedDate: 2026-01-07T14:45:55.817Z 
-│                        ├ [37] ╭ VulnerabilityID : CVE-2022-3219 
+│                        ├ [47] ╭ VulnerabilityID : CVE-2025-68972 
+│                        │      ├ PkgID           : keyboxd@2.4.4-2ubuntu17.3 
+│                        │      ├ PkgName         : keyboxd 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/keyboxd@2.4.4-2ubuntu17.3?arch=amd64&
+│                        │      │                  │       distro=ubuntu-24.04 
+│                        │      │                  ╰ UID : 23eb7faaf2d67ef6 
+│                        │      ├ InstalledVersion: 2.4.4-2ubuntu17.3 
+│                        │      ├ Status          : affected 
+│                        │      ├ Layer            ╭ Digest: sha256:e1ba6c3e0594e5a62288f02edd69ab4c5dea124a859
+│                        │      │                  │         97a9b3578dacf44cb2006 
+│                        │      │                  ╰ DiffID: sha256:f261933e230bd304a9c6e9c4694642c879f0a77009a
+│                        │      │                            a73b131f9302825eca058 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-68972 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Fingerprint     : sha256:b647b9f62de591763956f7c336b83adb3250764fa3f5e43e1c1e
+│                        │      │                   1a5200c13bd3 
+│                        │      ├ Title           : gnupg: GnuPG: Signature bypass via form feed character in
+│                        │      │                   signed messages 
+│                        │      ├ Description     : In GnuPG through 2.4.8, if a signed message has \f at the
+│                        │      │                   end of a plaintext line, an adversary can construct a
+│                        │      │                   modified message that places additional text after the
+│                        │      │                   signed material, such that signature verification of the
+│                        │      │                   modified message succeeds (although an "invalid armor"
+│                        │      │                   message is printed during verification). This is related to
+│                        │      │                    use of \f as a marker to denote truncation of a long
+│                        │      │                   plaintext line. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ CweIDs           ─ [0]: CWE-347 
+│                        │      ├ VendorSeverity   ╭ nvd   : 2 
+│                        │      │                  ├ redhat: 2 
+│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:
+│                        │      │                  │        │           H/A:N 
+│                        │      │                  │        ╰ V3Score : 4.7 
+│                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:N/I:
+│                        │      │                           │           H/A:N 
+│                        │      │                           ╰ V3Score : 5.9 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-68972 
+│                        │      │                  ├ [1]: https://gpg.fail/formfeed 
+│                        │      │                  ├ [2]: https://media.ccc.de/v/39c3-to-sign-or-not-to-sign-pr
+│                        │      │                  │      actical-vulnerabilities-i 
+│                        │      │                  ├ [3]: https://news.ycombinator.com/item?id=46404339 
+│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-68972 
+│                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-68972 
+│                        │      ├ PublishedDate   : 2025-12-27T23:15:40.9Z 
+│                        │      ╰ LastModifiedDate: 2026-01-09T20:08:47.323Z 
+│                        ├ [48] ╭ VulnerabilityID : CVE-2022-3219 
 │                        │      ├ PkgID           : keyboxd@2.4.4-2ubuntu17.3 
 │                        │      ├ PkgName         : keyboxd 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/keyboxd@2.4.4-2ubuntu17.3?arch=amd64&
@@ -25476,7 +26015,7 @@
 │                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2022-3219 
 │                        │      ├ PublishedDate   : 2023-02-23T20:15:12.393Z 
 │                        │      ╰ LastModifiedDate: 2025-03-12T21:15:38.207Z 
-│                        ├ [38] ╭ VulnerabilityID : CVE-2025-29481 
+│                        ├ [49] ╭ VulnerabilityID : CVE-2025-29481 
 │                        │      ├ PkgID           : libbpf1@1:1.3.0-2build2 
 │                        │      ├ PkgName         : libbpf1 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libbpf1@1.3.0-2build2?arch=amd64&dist
@@ -25519,7 +26058,7 @@
 │                        │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2025-29481 
 │                        │      ├ PublishedDate   : 2025-04-07T20:15:20.72Z 
 │                        │      ╰ LastModifiedDate: 2025-04-15T15:42:59.65Z 
-│                        ├ [39] ╭ VulnerabilityID : CVE-2025-0167 
+│                        ├ [50] ╭ VulnerabilityID : CVE-2025-0167 
 │                        │      ├ PkgID           : libcurl3t64-gnutls@8.5.0-2ubuntu10.6 
 │                        │      ├ PkgName         : libcurl3t64-gnutls 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libcurl3t64-gnutls@8.5.0-2ubuntu10.6?
@@ -25564,7 +26103,7 @@
 │                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-0167 
 │                        │      ├ PublishedDate   : 2025-02-05T10:15:22.71Z 
 │                        │      ╰ LastModifiedDate: 2025-07-30T19:41:45.08Z 
-│                        ├ [40] ╭ VulnerabilityID : CVE-2025-10148 
+│                        ├ [51] ╭ VulnerabilityID : CVE-2025-10148 
 │                        │      ├ PkgID           : libcurl3t64-gnutls@8.5.0-2ubuntu10.6 
 │                        │      ├ PkgName         : libcurl3t64-gnutls 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libcurl3t64-gnutls@8.5.0-2ubuntu10.6?
@@ -25620,7 +26159,7 @@
 │                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2025-10148 
 │                        │      ├ PublishedDate   : 2025-09-12T06:15:40.02Z 
 │                        │      ╰ LastModifiedDate: 2025-11-18T20:15:45.423Z 
-│                        ├ [41] ╭ VulnerabilityID : CVE-2025-14524 
+│                        ├ [52] ╭ VulnerabilityID : CVE-2025-14524 
 │                        │      ├ PkgID           : libcurl3t64-gnutls@8.5.0-2ubuntu10.6 
 │                        │      ├ PkgName         : libcurl3t64-gnutls 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libcurl3t64-gnutls@8.5.0-2ubuntu10.6?
@@ -25656,8 +26195,8 @@
 │                        │      │                  ├ [3]: https://hackerone.com/reports/3459417 
 │                        │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2025-14524 
 │                        │      ├ PublishedDate   : 2026-01-08T10:15:46.607Z 
-│                        │      ╰ LastModifiedDate: 2026-01-08T18:08:18.457Z 
-│                        ├ [42] ╭ VulnerabilityID : CVE-2025-14819 
+│                        │      ╰ LastModifiedDate: 2026-01-09T20:15:51.243Z 
+│                        ├ [53] ╭ VulnerabilityID : CVE-2025-14819 
 │                        │      ├ PkgID           : libcurl3t64-gnutls@8.5.0-2ubuntu10.6 
 │                        │      ├ PkgName         : libcurl3t64-gnutls 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libcurl3t64-gnutls@8.5.0-2ubuntu10.6?
@@ -25697,7 +26236,7 @@
 │                        │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2025-14819 
 │                        │      ├ PublishedDate   : 2026-01-08T10:15:46.73Z 
 │                        │      ╰ LastModifiedDate: 2026-01-08T18:08:18.457Z 
-│                        ├ [43] ╭ VulnerabilityID : CVE-2025-15079 
+│                        ├ [54] ╭ VulnerabilityID : CVE-2025-15079 
 │                        │      ├ PkgID           : libcurl3t64-gnutls@8.5.0-2ubuntu10.6 
 │                        │      ├ PkgName         : libcurl3t64-gnutls 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libcurl3t64-gnutls@8.5.0-2ubuntu10.6?
@@ -25735,7 +26274,7 @@
 │                        │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2025-15079 
 │                        │      ├ PublishedDate   : 2026-01-08T10:15:47.1Z 
 │                        │      ╰ LastModifiedDate: 2026-01-08T18:08:18.457Z 
-│                        ├ [44] ╭ VulnerabilityID : CVE-2025-15224 
+│                        ├ [55] ╭ VulnerabilityID : CVE-2025-15224 
 │                        │      ├ PkgID           : libcurl3t64-gnutls@8.5.0-2ubuntu10.6 
 │                        │      ├ PkgName         : libcurl3t64-gnutls 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libcurl3t64-gnutls@8.5.0-2ubuntu10.6?
@@ -25771,7 +26310,7 @@
 │                        │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2025-15224 
 │                        │      ├ PublishedDate   : 2026-01-08T10:15:47.207Z 
 │                        │      ╰ LastModifiedDate: 2026-01-08T18:08:18.457Z 
-│                        ├ [45] ╭ VulnerabilityID : CVE-2025-9086 
+│                        ├ [56] ╭ VulnerabilityID : CVE-2025-9086 
 │                        │      ├ PkgID           : libcurl3t64-gnutls@8.5.0-2ubuntu10.6 
 │                        │      ├ PkgName         : libcurl3t64-gnutls 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libcurl3t64-gnutls@8.5.0-2ubuntu10.6?
@@ -25820,7 +26359,7 @@
 │                        │      │                   it on an insecure host should not be okay. 
 │                        │      ├ Severity        : LOW 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ amazon     : 1 
 │                        │      │                  ├ oracle-oval: 2 
 │                        │      │                  ├ photon     : 3 
 │                        │      │                  ├ redhat     : 2 
@@ -25852,7 +26391,7 @@
 │                        │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2025-9086 
 │                        │      ├ PublishedDate   : 2025-09-12T06:15:44.1Z 
 │                        │      ╰ LastModifiedDate: 2026-01-08T10:15:54.737Z 
-│                        ├ [46] ╭ VulnerabilityID : CVE-2025-0167 
+│                        ├ [57] ╭ VulnerabilityID : CVE-2025-0167 
 │                        │      ├ PkgID           : libcurl4t64@8.5.0-2ubuntu10.6 
 │                        │      ├ PkgName         : libcurl4t64 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libcurl4t64@8.5.0-2ubuntu10.6?arch=am
@@ -25897,7 +26436,7 @@
 │                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-0167 
 │                        │      ├ PublishedDate   : 2025-02-05T10:15:22.71Z 
 │                        │      ╰ LastModifiedDate: 2025-07-30T19:41:45.08Z 
-│                        ├ [47] ╭ VulnerabilityID : CVE-2025-10148 
+│                        ├ [58] ╭ VulnerabilityID : CVE-2025-10148 
 │                        │      ├ PkgID           : libcurl4t64@8.5.0-2ubuntu10.6 
 │                        │      ├ PkgName         : libcurl4t64 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libcurl4t64@8.5.0-2ubuntu10.6?arch=am
@@ -25953,7 +26492,7 @@
 │                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2025-10148 
 │                        │      ├ PublishedDate   : 2025-09-12T06:15:40.02Z 
 │                        │      ╰ LastModifiedDate: 2025-11-18T20:15:45.423Z 
-│                        ├ [48] ╭ VulnerabilityID : CVE-2025-14524 
+│                        ├ [59] ╭ VulnerabilityID : CVE-2025-14524 
 │                        │      ├ PkgID           : libcurl4t64@8.5.0-2ubuntu10.6 
 │                        │      ├ PkgName         : libcurl4t64 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libcurl4t64@8.5.0-2ubuntu10.6?arch=am
@@ -25989,8 +26528,8 @@
 │                        │      │                  ├ [3]: https://hackerone.com/reports/3459417 
 │                        │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2025-14524 
 │                        │      ├ PublishedDate   : 2026-01-08T10:15:46.607Z 
-│                        │      ╰ LastModifiedDate: 2026-01-08T18:08:18.457Z 
-│                        ├ [49] ╭ VulnerabilityID : CVE-2025-14819 
+│                        │      ╰ LastModifiedDate: 2026-01-09T20:15:51.243Z 
+│                        ├ [60] ╭ VulnerabilityID : CVE-2025-14819 
 │                        │      ├ PkgID           : libcurl4t64@8.5.0-2ubuntu10.6 
 │                        │      ├ PkgName         : libcurl4t64 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libcurl4t64@8.5.0-2ubuntu10.6?arch=am
@@ -26030,7 +26569,7 @@
 │                        │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2025-14819 
 │                        │      ├ PublishedDate   : 2026-01-08T10:15:46.73Z 
 │                        │      ╰ LastModifiedDate: 2026-01-08T18:08:18.457Z 
-│                        ├ [50] ╭ VulnerabilityID : CVE-2025-15079 
+│                        ├ [61] ╭ VulnerabilityID : CVE-2025-15079 
 │                        │      ├ PkgID           : libcurl4t64@8.5.0-2ubuntu10.6 
 │                        │      ├ PkgName         : libcurl4t64 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libcurl4t64@8.5.0-2ubuntu10.6?arch=am
@@ -26068,7 +26607,7 @@
 │                        │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2025-15079 
 │                        │      ├ PublishedDate   : 2026-01-08T10:15:47.1Z 
 │                        │      ╰ LastModifiedDate: 2026-01-08T18:08:18.457Z 
-│                        ├ [51] ╭ VulnerabilityID : CVE-2025-15224 
+│                        ├ [62] ╭ VulnerabilityID : CVE-2025-15224 
 │                        │      ├ PkgID           : libcurl4t64@8.5.0-2ubuntu10.6 
 │                        │      ├ PkgName         : libcurl4t64 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libcurl4t64@8.5.0-2ubuntu10.6?arch=am
@@ -26104,7 +26643,7 @@
 │                        │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2025-15224 
 │                        │      ├ PublishedDate   : 2026-01-08T10:15:47.207Z 
 │                        │      ╰ LastModifiedDate: 2026-01-08T18:08:18.457Z 
-│                        ├ [52] ╭ VulnerabilityID : CVE-2025-9086 
+│                        ├ [63] ╭ VulnerabilityID : CVE-2025-9086 
 │                        │      ├ PkgID           : libcurl4t64@8.5.0-2ubuntu10.6 
 │                        │      ├ PkgName         : libcurl4t64 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libcurl4t64@8.5.0-2ubuntu10.6?arch=am
@@ -26153,7 +26692,7 @@
 │                        │      │                   it on an insecure host should not be okay. 
 │                        │      ├ Severity        : LOW 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ amazon     : 1 
 │                        │      │                  ├ oracle-oval: 2 
 │                        │      │                  ├ photon     : 3 
 │                        │      │                  ├ redhat     : 2 
@@ -26185,7 +26724,7 @@
 │                        │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2025-9086 
 │                        │      ├ PublishedDate   : 2025-09-12T06:15:44.1Z 
 │                        │      ╰ LastModifiedDate: 2026-01-08T10:15:54.737Z 
-│                        ├ [53] ╭ VulnerabilityID : CVE-2025-1352 
+│                        ├ [64] ╭ VulnerabilityID : CVE-2025-1352 
 │                        │      ├ PkgID           : libelf1t64@0.190-1.1ubuntu0.1 
 │                        │      ├ PkgName         : libelf1t64 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libelf1t64@0.190-1.1ubuntu0.1?arch=am
@@ -26243,7 +26782,7 @@
 │                        │      │                  ╰ [9]: https://www.gnu.org/ 
 │                        │      ├ PublishedDate   : 2025-02-16T15:15:09.133Z 
 │                        │      ╰ LastModifiedDate: 2025-11-03T20:34:23.89Z 
-│                        ├ [54] ╭ VulnerabilityID : CVE-2025-1376 
+│                        ├ [65] ╭ VulnerabilityID : CVE-2025-1376 
 │                        │      ├ PkgID           : libelf1t64@0.190-1.1ubuntu0.1 
 │                        │      ├ PkgName         : libelf1t64 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libelf1t64@0.190-1.1ubuntu0.1?arch=am
@@ -26300,7 +26839,7 @@
 │                        │      │                  ╰ [9]: https://www.gnu.org/ 
 │                        │      ├ PublishedDate   : 2025-02-17T05:15:09.807Z 
 │                        │      ╰ LastModifiedDate: 2025-11-04T20:21:18.26Z 
-│                        ├ [55] ╭ VulnerabilityID : CVE-2025-66382 
+│                        ├ [66] ╭ VulnerabilityID : CVE-2025-66382 
 │                        │      ├ PkgID           : libexpat1@2.6.1-2ubuntu0.3 
 │                        │      ├ PkgName         : libexpat1 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libexpat1@2.6.1-2ubuntu0.3?arch=amd64
@@ -26342,7 +26881,7 @@
 │                        │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2025-66382 
 │                        │      ├ PublishedDate   : 2025-11-28T07:15:57.9Z 
 │                        │      ╰ LastModifiedDate: 2025-12-19T16:05:03.557Z 
-│                        ├ [56] ╭ VulnerabilityID : CVE-2024-2236 
+│                        ├ [67] ╭ VulnerabilityID : CVE-2024-2236 
 │                        │      ├ PkgID           : libgcrypt20@1.10.3-2build1 
 │                        │      ├ PkgName         : libgcrypt20 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libgcrypt20@1.10.3-2build1?arch=amd64
@@ -26401,7 +26940,7 @@
 │                        │      │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2024-2236 
 │                        │      ├ PublishedDate   : 2024-03-06T22:15:57.977Z 
 │                        │      ╰ LastModifiedDate: 2025-04-02T17:15:37.79Z 
-│                        ├ [57] ╭ VulnerabilityID : CVE-2025-13601 
+│                        ├ [68] ╭ VulnerabilityID : CVE-2025-13601 
 │                        │      ├ PkgID           : libglib2.0-0t64@2.80.0-6ubuntu3.5 
 │                        │      ├ PkgName         : libglib2.0-0t64 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libglib2.0-0t64@2.80.0-6ubuntu3.5?arc
@@ -26450,7 +26989,7 @@
 │                        │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-13601 
 │                        │      ├ PublishedDate   : 2025-11-26T15:15:51.723Z 
 │                        │      ╰ LastModifiedDate: 2025-12-01T15:39:53.1Z 
-│                        ├ [58] ╭ VulnerabilityID : CVE-2025-14087 
+│                        ├ [69] ╭ VulnerabilityID : CVE-2025-14087 
 │                        │      ├ PkgID           : libglib2.0-0t64@2.80.0-6ubuntu3.5 
 │                        │      ├ PkgName         : libglib2.0-0t64 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libglib2.0-0t64@2.80.0-6ubuntu3.5?arc
@@ -26497,7 +27036,7 @@
 │                        │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-14087 
 │                        │      ├ PublishedDate   : 2025-12-10T09:15:47.053Z 
 │                        │      ╰ LastModifiedDate: 2025-12-12T15:18:42.14Z 
-│                        ├ [59] ╭ VulnerabilityID : CVE-2025-14512 
+│                        ├ [70] ╭ VulnerabilityID : CVE-2025-14512 
 │                        │      ├ PkgID           : libglib2.0-0t64@2.80.0-6ubuntu3.5 
 │                        │      ├ PkgName         : libglib2.0-0t64 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libglib2.0-0t64@2.80.0-6ubuntu3.5?arc
@@ -26542,7 +27081,7 @@
 │                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-14512 
 │                        │      ├ PublishedDate   : 2025-12-11T07:16:00.463Z 
 │                        │      ╰ LastModifiedDate: 2025-12-12T15:18:13.39Z 
-│                        ├ [60] ╭ VulnerabilityID : CVE-2025-3360 
+│                        ├ [71] ╭ VulnerabilityID : CVE-2025-3360 
 │                        │      ├ PkgID           : libglib2.0-0t64@2.80.0-6ubuntu3.5 
 │                        │      ├ PkgName         : libglib2.0-0t64 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libglib2.0-0t64@2.80.0-6ubuntu3.5?arc
@@ -26588,7 +27127,7 @@
 │                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-3360 
 │                        │      ├ PublishedDate   : 2025-04-07T13:15:43.687Z 
 │                        │      ╰ LastModifiedDate: 2025-04-14T12:15:16.087Z 
-│                        ├ [61] ╭ VulnerabilityID : CVE-2025-6052 
+│                        ├ [72] ╭ VulnerabilityID : CVE-2025-6052 
 │                        │      ├ PkgID           : libglib2.0-0t64@2.80.0-6ubuntu3.5 
 │                        │      ├ PkgName         : libglib2.0-0t64 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libglib2.0-0t64@2.80.0-6ubuntu3.5?arc
@@ -26639,7 +27178,7 @@
 │                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-6052 
 │                        │      ├ PublishedDate   : 2025-06-13T16:15:28.23Z 
 │                        │      ╰ LastModifiedDate: 2025-08-20T17:27:24.26Z 
-│                        ├ [62] ╭ VulnerabilityID : CVE-2025-7039 
+│                        ├ [73] ╭ VulnerabilityID : CVE-2025-7039 
 │                        │      ├ PkgID           : libglib2.0-0t64@2.80.0-6ubuntu3.5 
 │                        │      ├ PkgName         : libglib2.0-0t64 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libglib2.0-0t64@2.80.0-6ubuntu3.5?arc
@@ -26685,7 +27224,7 @@
 │                        │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2025-7039 
 │                        │      ├ PublishedDate   : 2025-09-03T02:15:38.12Z 
 │                        │      ╰ LastModifiedDate: 2025-09-04T15:36:56.447Z 
-│                        ├ [63] ╭ VulnerabilityID : CVE-2025-13601 
+│                        ├ [74] ╭ VulnerabilityID : CVE-2025-13601 
 │                        │      ├ PkgID           : libglib2.0-data@2.80.0-6ubuntu3.5 
 │                        │      ├ PkgName         : libglib2.0-data 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libglib2.0-data@2.80.0-6ubuntu3.5?arc
@@ -26734,7 +27273,7 @@
 │                        │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-13601 
 │                        │      ├ PublishedDate   : 2025-11-26T15:15:51.723Z 
 │                        │      ╰ LastModifiedDate: 2025-12-01T15:39:53.1Z 
-│                        ├ [64] ╭ VulnerabilityID : CVE-2025-14087 
+│                        ├ [75] ╭ VulnerabilityID : CVE-2025-14087 
 │                        │      ├ PkgID           : libglib2.0-data@2.80.0-6ubuntu3.5 
 │                        │      ├ PkgName         : libglib2.0-data 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libglib2.0-data@2.80.0-6ubuntu3.5?arc
@@ -26781,7 +27320,7 @@
 │                        │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-14087 
 │                        │      ├ PublishedDate   : 2025-12-10T09:15:47.053Z 
 │                        │      ╰ LastModifiedDate: 2025-12-12T15:18:42.14Z 
-│                        ├ [65] ╭ VulnerabilityID : CVE-2025-14512 
+│                        ├ [76] ╭ VulnerabilityID : CVE-2025-14512 
 │                        │      ├ PkgID           : libglib2.0-data@2.80.0-6ubuntu3.5 
 │                        │      ├ PkgName         : libglib2.0-data 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libglib2.0-data@2.80.0-6ubuntu3.5?arc
@@ -26826,7 +27365,7 @@
 │                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-14512 
 │                        │      ├ PublishedDate   : 2025-12-11T07:16:00.463Z 
 │                        │      ╰ LastModifiedDate: 2025-12-12T15:18:13.39Z 
-│                        ├ [66] ╭ VulnerabilityID : CVE-2025-3360 
+│                        ├ [77] ╭ VulnerabilityID : CVE-2025-3360 
 │                        │      ├ PkgID           : libglib2.0-data@2.80.0-6ubuntu3.5 
 │                        │      ├ PkgName         : libglib2.0-data 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libglib2.0-data@2.80.0-6ubuntu3.5?arc
@@ -26872,7 +27411,7 @@
 │                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-3360 
 │                        │      ├ PublishedDate   : 2025-04-07T13:15:43.687Z 
 │                        │      ╰ LastModifiedDate: 2025-04-14T12:15:16.087Z 
-│                        ├ [67] ╭ VulnerabilityID : CVE-2025-6052 
+│                        ├ [78] ╭ VulnerabilityID : CVE-2025-6052 
 │                        │      ├ PkgID           : libglib2.0-data@2.80.0-6ubuntu3.5 
 │                        │      ├ PkgName         : libglib2.0-data 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libglib2.0-data@2.80.0-6ubuntu3.5?arc
@@ -26923,7 +27462,7 @@
 │                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-6052 
 │                        │      ├ PublishedDate   : 2025-06-13T16:15:28.23Z 
 │                        │      ╰ LastModifiedDate: 2025-08-20T17:27:24.26Z 
-│                        ├ [68] ╭ VulnerabilityID : CVE-2025-7039 
+│                        ├ [79] ╭ VulnerabilityID : CVE-2025-7039 
 │                        │      ├ PkgID           : libglib2.0-data@2.80.0-6ubuntu3.5 
 │                        │      ├ PkgName         : libglib2.0-data 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libglib2.0-data@2.80.0-6ubuntu3.5?arc
@@ -26969,7 +27508,7 @@
 │                        │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2025-7039 
 │                        │      ├ PublishedDate   : 2025-09-03T02:15:38.12Z 
 │                        │      ╰ LastModifiedDate: 2025-09-04T15:36:56.447Z 
-│                        ├ [69] ╭ VulnerabilityID : CVE-2025-5222 
+│                        ├ [80] ╭ VulnerabilityID : CVE-2025-5222 
 │                        │      ├ PkgID           : libicu74@74.2-1ubuntu3.1 
 │                        │      ├ PkgName         : libicu74 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libicu74@74.2-1ubuntu3.1?arch=amd64&d
@@ -27028,7 +27567,7 @@
 │                        │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2025-5222 
 │                        │      ├ PublishedDate   : 2025-05-27T21:15:23.03Z 
 │                        │      ╰ LastModifiedDate: 2025-08-08T14:55:36.747Z 
-│                        ├ [70] ╭ VulnerabilityID : CVE-2025-8941 
+│                        ├ [81] ╭ VulnerabilityID : CVE-2025-8941 
 │                        │      ├ PkgID           : libpam-modules@1.5.3-5ubuntu5.5 
 │                        │      ├ PkgName         : libpam-modules 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpam-modules@1.5.3-5ubuntu5.5?arch=
@@ -27098,7 +27637,7 @@
 │                        │      │                  ╰ [29]: https://www.cve.org/CVERecord?id=CVE-2025-8941 
 │                        │      ├ PublishedDate   : 2025-08-13T15:15:41.873Z 
 │                        │      ╰ LastModifiedDate: 2025-11-20T21:16:08.11Z 
-│                        ├ [71] ╭ VulnerabilityID : CVE-2025-8941 
+│                        ├ [82] ╭ VulnerabilityID : CVE-2025-8941 
 │                        │      ├ PkgID           : libpam-modules-bin@1.5.3-5ubuntu5.5 
 │                        │      ├ PkgName         : libpam-modules-bin 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpam-modules-bin@1.5.3-5ubuntu5.5?a
@@ -27168,7 +27707,7 @@
 │                        │      │                  ╰ [29]: https://www.cve.org/CVERecord?id=CVE-2025-8941 
 │                        │      ├ PublishedDate   : 2025-08-13T15:15:41.873Z 
 │                        │      ╰ LastModifiedDate: 2025-11-20T21:16:08.11Z 
-│                        ├ [72] ╭ VulnerabilityID : CVE-2025-8941 
+│                        ├ [83] ╭ VulnerabilityID : CVE-2025-8941 
 │                        │      ├ PkgID           : libpam-runtime@1.5.3-5ubuntu5.5 
 │                        │      ├ PkgName         : libpam-runtime 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpam-runtime@1.5.3-5ubuntu5.5?arch=
@@ -27238,7 +27777,7 @@
 │                        │      │                  ╰ [29]: https://www.cve.org/CVERecord?id=CVE-2025-8941 
 │                        │      ├ PublishedDate   : 2025-08-13T15:15:41.873Z 
 │                        │      ╰ LastModifiedDate: 2025-11-20T21:16:08.11Z 
-│                        ├ [73] ╭ VulnerabilityID : CVE-2025-8941 
+│                        ├ [84] ╭ VulnerabilityID : CVE-2025-8941 
 │                        │      ├ PkgID           : libpam0g@1.5.3-5ubuntu5.5 
 │                        │      ├ PkgName         : libpam0g 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpam0g@1.5.3-5ubuntu5.5?arch=amd64&
@@ -27308,7 +27847,7 @@
 │                        │      │                  ╰ [29]: https://www.cve.org/CVERecord?id=CVE-2025-8941 
 │                        │      ├ PublishedDate   : 2025-08-13T15:15:41.873Z 
 │                        │      ╰ LastModifiedDate: 2025-11-20T21:16:08.11Z 
-│                        ├ [74] ╭ VulnerabilityID : CVE-2025-69277 
+│                        ├ [85] ╭ VulnerabilityID : CVE-2025-69277 
 │                        │      ├ PkgID           : libsodium23@1.0.18-1build3 
 │                        │      ├ PkgName         : libsodium23 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libsodium23@1.0.18-1build3?arch=amd64
@@ -27328,9 +27867,9 @@
 │                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
 │                        │      ├ Fingerprint     : sha256:eafa360b3129a4aee321911564ca120b985996b278c20b73dcd2
 │                        │      │                   863fb1b41461 
-│                        │      ├ Title           : libsodium: libsodium: Improper validation of elliptic curve
-│                        │      │                    points could lead to data integrity or information
-│                        │      │                   disclosure. 
+│                        │      ├ Title           : libsodium: pynacl: libsodium: Improper validation of
+│                        │      │                   elliptic curve points could lead to data integrity or
+│                        │      │                   information disclosure. 
 │                        │      ├ Description     : libsodium before ad3004e, in atypical use cases involving
 │                        │      │                   certain custom cryptography or untrusted data to
 │                        │      │                   crypto_core_ed25519_is_valid_point, mishandles checks for
@@ -27376,7 +27915,7 @@
 │                        │      │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2025-69277 
 │                        │      ├ PublishedDate   : 2025-12-31T06:15:41.513Z 
 │                        │      ╰ LastModifiedDate: 2026-01-07T17:16:02.003Z 
-│                        ├ [75] ╭ VulnerabilityID : CVE-2024-41996 
+│                        ├ [86] ╭ VulnerabilityID : CVE-2024-41996 
 │                        │      ├ PkgID           : libssl3t64@3.0.13-0ubuntu3.6 
 │                        │      ├ PkgName         : libssl3t64 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libssl3t64@3.0.13-0ubuntu3.6?arch=amd
@@ -27428,7 +27967,7 @@
 │                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-41996 
 │                        │      ├ PublishedDate   : 2024-08-26T06:15:04.603Z 
 │                        │      ╰ LastModifiedDate: 2024-08-26T16:35:11.247Z 
-│                        ├ [76] ╭ VulnerabilityID : CVE-2024-56433 
+│                        ├ [87] ╭ VulnerabilityID : CVE-2024-56433 
 │                        │      ├ PkgID           : libsubid4@1:4.13+dfsg1-4ubuntu3.2 
 │                        │      ├ PkgName         : libsubid4 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libsubid4@4.13%2Bdfsg1-4ubuntu3.2?arc
@@ -27491,7 +28030,7 @@
 │                        │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                        │      ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                        │      ╰ LastModifiedDate: 2024-12-26T09:15:07.267Z 
-│                        ├ [77] ╭ VulnerabilityID : CVE-2024-56433 
+│                        ├ [88] ╭ VulnerabilityID : CVE-2024-56433 
 │                        │      ├ PkgID           : login@1:4.13+dfsg1-4ubuntu3.2 
 │                        │      ├ PkgName         : login 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/login@4.13%2Bdfsg1-4ubuntu3.2?arch=am
@@ -27554,7 +28093,7 @@
 │                        │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                        │      ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                        │      ╰ LastModifiedDate: 2024-12-26T09:15:07.267Z 
-│                        ├ [78] ╭ VulnerabilityID : CVE-2024-41996 
+│                        ├ [89] ╭ VulnerabilityID : CVE-2024-41996 
 │                        │      ├ PkgID           : openssl@3.0.13-0ubuntu3.6 
 │                        │      ├ PkgName         : openssl 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl@3.0.13-0ubuntu3.6?arch=amd64&
@@ -27606,7 +28145,7 @@
 │                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-41996 
 │                        │      ├ PublishedDate   : 2024-08-26T06:15:04.603Z 
 │                        │      ╰ LastModifiedDate: 2024-08-26T16:35:11.247Z 
-│                        ├ [79] ╭ VulnerabilityID : CVE-2024-56433 
+│                        ├ [90] ╭ VulnerabilityID : CVE-2024-56433 
 │                        │      ├ PkgID           : passwd@1:4.13+dfsg1-4ubuntu3.2 
 │                        │      ├ PkgName         : passwd 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/passwd@4.13%2Bdfsg1-4ubuntu3.2?arch=a
@@ -27669,7 +28208,7 @@
 │                        │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                        │      ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                        │      ╰ LastModifiedDate: 2024-12-26T09:15:07.267Z 
-│                        ├ [80] ╭ VulnerabilityID : CVE-2018-6952 
+│                        ├ [91] ╭ VulnerabilityID : CVE-2018-6952 
 │                        │      ├ PkgID           : patch@2.7.6-7build3 
 │                        │      ├ PkgName         : patch 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/patch@2.7.6-7build3?arch=amd64&distro
@@ -27721,7 +28260,7 @@
 │                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2018-6952 
 │                        │      ├ PublishedDate   : 2018-02-13T19:29:00.573Z 
 │                        │      ╰ LastModifiedDate: 2024-11-21T04:11:28.42Z 
-│                        ├ [81] ╭ VulnerabilityID : CVE-2021-45261 
+│                        ├ [92] ╭ VulnerabilityID : CVE-2021-45261 
 │                        │      ├ PkgID           : patch@2.7.6-7build3 
 │                        │      ├ PkgName         : patch 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/patch@2.7.6-7build3?arch=amd64&distro
@@ -27763,7 +28302,7 @@
 │                        │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2021-45261 
 │                        │      ├ PublishedDate   : 2021-12-22T18:15:08.1Z 
 │                        │      ╰ LastModifiedDate: 2024-11-21T06:32:02.633Z 
-│                        ├ [82] ╭ VulnerabilityID : CVE-2025-45582 
+│                        ├ [93] ╭ VulnerabilityID : CVE-2025-45582 
 │                        │      ├ PkgID           : tar@1.35+dfsg-3build1 
 │                        │      ├ PkgName         : tar 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/tar@1.35%2Bdfsg-3build1?arch=amd64&di
@@ -27845,7 +28384,7 @@
 │                        │      │                          curity-rules-of-thumb.html 
 │                        │      ├ PublishedDate   : 2025-07-11T17:15:37.183Z 
 │                        │      ╰ LastModifiedDate: 2025-11-02T01:15:32.307Z 
-│                        ├ [83] ╭ VulnerabilityID : CVE-2024-56433 
+│                        ├ [94] ╭ VulnerabilityID : CVE-2024-56433 
 │                        │      ├ PkgID           : uidmap@1:4.13+dfsg1-4ubuntu3.2 
 │                        │      ├ PkgName         : uidmap 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/uidmap@4.13%2Bdfsg1-4ubuntu3.2?arch=a
@@ -27908,7 +28447,7 @@
 │                        │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                        │      ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                        │      ╰ LastModifiedDate: 2024-12-26T09:15:07.267Z 
-│                        ╰ [84] ╭ VulnerabilityID : CVE-2021-31879 
+│                        ╰ [95] ╭ VulnerabilityID : CVE-2021-31879 
 │                               ├ PkgID           : wget@1.21.4-1ubuntu4.1 
 │                               ├ PkgName         : wget 
 │                               ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/wget@1.21.4-1ubuntu4.1?arch=amd64&dis
