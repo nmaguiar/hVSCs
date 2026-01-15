@@ -23830,7 +23830,8 @@
 │                        │      ├ Severity        : HIGH 
 │                        │      ├ CweIDs           ╭ [0]: CWE-675 
 │                        │      │                  ╰ [1]: CWE-787 
-│                        │      ├ VendorSeverity   ╭ nvd   : 3 
+│                        │      ├ VendorSeverity   ╭ azure : 3 
+│                        │      │                  ├ nvd   : 3 
 │                        │      │                  ├ redhat: 3 
 │                        │      │                  ╰ ubuntu: 3 
 │                        │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:
@@ -23899,7 +23900,8 @@
 │                        │      │                   plaintext line. 
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-347 
-│                        │      ├ VendorSeverity   ╭ nvd   : 2 
+│                        │      ├ VendorSeverity   ╭ azure : 2 
+│                        │      │                  ├ nvd   : 2 
 │                        │      │                  ├ redhat: 2 
 │                        │      │                  ╰ ubuntu: 2 
 │                        │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:
@@ -24042,6 +24044,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-190 
 │                        │      ├ VendorSeverity   ╭ amazon     : 3 
+│                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ redhat     : 2 
 │                        │      │                  ╰ ubuntu     : 2 
@@ -24088,7 +24091,8 @@
 │                        │      │                   file or remote filesystem attribute values. 
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-190 
-│                        │      ├ VendorSeverity   ╭ cbl-mariner: 2 
+│                        │      ├ VendorSeverity   ╭ azure      : 2 
+│                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ redhat     : 2 
 │                        │      │                  ╰ ubuntu     : 2 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:
@@ -24424,7 +24428,8 @@
 │                        │      ├ Severity        : HIGH 
 │                        │      ├ CweIDs           ╭ [0]: CWE-675 
 │                        │      │                  ╰ [1]: CWE-787 
-│                        │      ├ VendorSeverity   ╭ nvd   : 3 
+│                        │      ├ VendorSeverity   ╭ azure : 3 
+│                        │      │                  ├ nvd   : 3 
 │                        │      │                  ├ redhat: 3 
 │                        │      │                  ╰ ubuntu: 3 
 │                        │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:
@@ -24493,7 +24498,8 @@
 │                        │      │                   plaintext line. 
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-347 
-│                        │      ├ VendorSeverity   ╭ nvd   : 2 
+│                        │      ├ VendorSeverity   ╭ azure : 2 
+│                        │      │                  ├ nvd   : 2 
 │                        │      │                  ├ redhat: 2 
 │                        │      │                  ╰ ubuntu: 2 
 │                        │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:
@@ -24586,7 +24592,8 @@
 │                        │      ├ Severity        : HIGH 
 │                        │      ├ CweIDs           ╭ [0]: CWE-675 
 │                        │      │                  ╰ [1]: CWE-787 
-│                        │      ├ VendorSeverity   ╭ nvd   : 3 
+│                        │      ├ VendorSeverity   ╭ azure : 3 
+│                        │      │                  ├ nvd   : 3 
 │                        │      │                  ├ redhat: 3 
 │                        │      │                  ╰ ubuntu: 3 
 │                        │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:
@@ -24655,7 +24662,8 @@
 │                        │      │                   plaintext line. 
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-347 
-│                        │      ├ VendorSeverity   ╭ nvd   : 2 
+│                        │      ├ VendorSeverity   ╭ azure : 2 
+│                        │      │                  ├ nvd   : 2 
 │                        │      │                  ├ redhat: 2 
 │                        │      │                  ╰ ubuntu: 2 
 │                        │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:
@@ -24748,7 +24756,8 @@
 │                        │      ├ Severity        : HIGH 
 │                        │      ├ CweIDs           ╭ [0]: CWE-675 
 │                        │      │                  ╰ [1]: CWE-787 
-│                        │      ├ VendorSeverity   ╭ nvd   : 3 
+│                        │      ├ VendorSeverity   ╭ azure : 3 
+│                        │      │                  ├ nvd   : 3 
 │                        │      │                  ├ redhat: 3 
 │                        │      │                  ╰ ubuntu: 3 
 │                        │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:
@@ -24817,7 +24826,8 @@
 │                        │      │                   plaintext line. 
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-347 
-│                        │      ├ VendorSeverity   ╭ nvd   : 2 
+│                        │      ├ VendorSeverity   ╭ azure : 2 
+│                        │      │                  ├ nvd   : 2 
 │                        │      │                  ├ redhat: 2 
 │                        │      │                  ╰ ubuntu: 2 
 │                        │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:
@@ -24910,7 +24920,8 @@
 │                        │      ├ Severity        : HIGH 
 │                        │      ├ CweIDs           ╭ [0]: CWE-675 
 │                        │      │                  ╰ [1]: CWE-787 
-│                        │      ├ VendorSeverity   ╭ nvd   : 3 
+│                        │      ├ VendorSeverity   ╭ azure : 3 
+│                        │      │                  ├ nvd   : 3 
 │                        │      │                  ├ redhat: 3 
 │                        │      │                  ╰ ubuntu: 3 
 │                        │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:
@@ -24979,7 +24990,8 @@
 │                        │      │                   plaintext line. 
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-347 
-│                        │      ├ VendorSeverity   ╭ nvd   : 2 
+│                        │      ├ VendorSeverity   ╭ azure : 2 
+│                        │      │                  ├ nvd   : 2 
 │                        │      │                  ├ redhat: 2 
 │                        │      │                  ╰ ubuntu: 2 
 │                        │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:
@@ -25072,7 +25084,8 @@
 │                        │      ├ Severity        : HIGH 
 │                        │      ├ CweIDs           ╭ [0]: CWE-675 
 │                        │      │                  ╰ [1]: CWE-787 
-│                        │      ├ VendorSeverity   ╭ nvd   : 3 
+│                        │      ├ VendorSeverity   ╭ azure : 3 
+│                        │      │                  ├ nvd   : 3 
 │                        │      │                  ├ redhat: 3 
 │                        │      │                  ╰ ubuntu: 3 
 │                        │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:
@@ -25141,7 +25154,8 @@
 │                        │      │                   plaintext line. 
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-347 
-│                        │      ├ VendorSeverity   ╭ nvd   : 2 
+│                        │      ├ VendorSeverity   ╭ azure : 2 
+│                        │      │                  ├ nvd   : 2 
 │                        │      │                  ├ redhat: 2 
 │                        │      │                  ╰ ubuntu: 2 
 │                        │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:
@@ -25234,7 +25248,8 @@
 │                        │      ├ Severity        : HIGH 
 │                        │      ├ CweIDs           ╭ [0]: CWE-675 
 │                        │      │                  ╰ [1]: CWE-787 
-│                        │      ├ VendorSeverity   ╭ nvd   : 3 
+│                        │      ├ VendorSeverity   ╭ azure : 3 
+│                        │      │                  ├ nvd   : 3 
 │                        │      │                  ├ redhat: 3 
 │                        │      │                  ╰ ubuntu: 3 
 │                        │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:
@@ -25303,7 +25318,8 @@
 │                        │      │                   plaintext line. 
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-347 
-│                        │      ├ VendorSeverity   ╭ nvd   : 2 
+│                        │      ├ VendorSeverity   ╭ azure : 2 
+│                        │      │                  ├ nvd   : 2 
 │                        │      │                  ├ redhat: 2 
 │                        │      │                  ╰ ubuntu: 2 
 │                        │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:
@@ -25396,7 +25412,8 @@
 │                        │      ├ Severity        : HIGH 
 │                        │      ├ CweIDs           ╭ [0]: CWE-675 
 │                        │      │                  ╰ [1]: CWE-787 
-│                        │      ├ VendorSeverity   ╭ nvd   : 3 
+│                        │      ├ VendorSeverity   ╭ azure : 3 
+│                        │      │                  ├ nvd   : 3 
 │                        │      │                  ├ redhat: 3 
 │                        │      │                  ╰ ubuntu: 3 
 │                        │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:
@@ -25465,7 +25482,8 @@
 │                        │      │                   plaintext line. 
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-347 
-│                        │      ├ VendorSeverity   ╭ nvd   : 2 
+│                        │      ├ VendorSeverity   ╭ azure : 2 
+│                        │      │                  ├ nvd   : 2 
 │                        │      │                  ├ redhat: 2 
 │                        │      │                  ╰ ubuntu: 2 
 │                        │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:
@@ -25558,7 +25576,8 @@
 │                        │      ├ Severity        : HIGH 
 │                        │      ├ CweIDs           ╭ [0]: CWE-675 
 │                        │      │                  ╰ [1]: CWE-787 
-│                        │      ├ VendorSeverity   ╭ nvd   : 3 
+│                        │      ├ VendorSeverity   ╭ azure : 3 
+│                        │      │                  ├ nvd   : 3 
 │                        │      │                  ├ redhat: 3 
 │                        │      │                  ╰ ubuntu: 3 
 │                        │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:
@@ -25627,7 +25646,8 @@
 │                        │      │                   plaintext line. 
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-347 
-│                        │      ├ VendorSeverity   ╭ nvd   : 2 
+│                        │      ├ VendorSeverity   ╭ azure : 2 
+│                        │      │                  ├ nvd   : 2 
 │                        │      │                  ├ redhat: 2 
 │                        │      │                  ╰ ubuntu: 2 
 │                        │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:
@@ -25720,7 +25740,8 @@
 │                        │      ├ Severity        : HIGH 
 │                        │      ├ CweIDs           ╭ [0]: CWE-675 
 │                        │      │                  ╰ [1]: CWE-787 
-│                        │      ├ VendorSeverity   ╭ nvd   : 3 
+│                        │      ├ VendorSeverity   ╭ azure : 3 
+│                        │      │                  ├ nvd   : 3 
 │                        │      │                  ├ redhat: 3 
 │                        │      │                  ╰ ubuntu: 3 
 │                        │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:
@@ -25789,7 +25810,8 @@
 │                        │      │                   plaintext line. 
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-347 
-│                        │      ├ VendorSeverity   ╭ nvd   : 2 
+│                        │      ├ VendorSeverity   ╭ azure : 2 
+│                        │      │                  ├ nvd   : 2 
 │                        │      │                  ├ redhat: 2 
 │                        │      │                  ╰ ubuntu: 2 
 │                        │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:
@@ -25882,7 +25904,8 @@
 │                        │      ├ Severity        : HIGH 
 │                        │      ├ CweIDs           ╭ [0]: CWE-675 
 │                        │      │                  ╰ [1]: CWE-787 
-│                        │      ├ VendorSeverity   ╭ nvd   : 3 
+│                        │      ├ VendorSeverity   ╭ azure : 3 
+│                        │      │                  ├ nvd   : 3 
 │                        │      │                  ├ redhat: 3 
 │                        │      │                  ╰ ubuntu: 3 
 │                        │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:
@@ -25951,7 +25974,8 @@
 │                        │      │                   plaintext line. 
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-347 
-│                        │      ├ VendorSeverity   ╭ nvd   : 2 
+│                        │      ├ VendorSeverity   ╭ azure : 2 
+│                        │      │                  ├ nvd   : 2 
 │                        │      │                  ├ redhat: 2 
 │                        │      │                  ╰ ubuntu: 2 
 │                        │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:
@@ -27019,6 +27043,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-190 
 │                        │      ├ VendorSeverity   ╭ amazon     : 3 
+│                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ redhat     : 2 
 │                        │      │                  ╰ ubuntu     : 2 
@@ -27065,7 +27090,8 @@
 │                        │      │                   file or remote filesystem attribute values. 
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-190 
-│                        │      ├ VendorSeverity   ╭ cbl-mariner: 2 
+│                        │      ├ VendorSeverity   ╭ azure      : 2 
+│                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ redhat     : 2 
 │                        │      │                  ╰ ubuntu     : 2 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:
@@ -27303,6 +27329,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-190 
 │                        │      ├ VendorSeverity   ╭ amazon     : 3 
+│                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ redhat     : 2 
 │                        │      │                  ╰ ubuntu     : 2 
@@ -27349,7 +27376,8 @@
 │                        │      │                   file or remote filesystem attribute values. 
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-190 
-│                        │      ├ VendorSeverity   ╭ cbl-mariner: 2 
+│                        │      ├ VendorSeverity   ╭ azure      : 2 
+│                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ redhat     : 2 
 │                        │      │                  ╰ ubuntu     : 2 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:
@@ -27847,7 +27875,196 @@
 │                        │      │                  ╰ [29]: https://www.cve.org/CVERecord?id=CVE-2025-8941 
 │                        │      ├ PublishedDate   : 2025-08-13T15:15:41.873Z 
 │                        │      ╰ LastModifiedDate: 2025-11-20T21:16:08.11Z 
-│                        ├ [85] ╭ VulnerabilityID : CVE-2025-69277 
+│                        ├ [85] ╭ VulnerabilityID : CVE-2025-13836 
+│                        │      ├ PkgID           : libpython3.12-minimal@3.12.3-1ubuntu0.9 
+│                        │      ├ PkgName         : libpython3.12-minimal 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpython3.12-minimal@3.12.3-1ubuntu0
+│                        │      │                  │       .9?arch=amd64&distro=ubuntu-24.04 
+│                        │      │                  ╰ UID : a53c318d8a3ef265 
+│                        │      ├ InstalledVersion: 3.12.3-1ubuntu0.9 
+│                        │      ├ FixedVersion    : 3.12.3-1ubuntu0.10 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:e1ba6c3e0594e5a62288f02edd69ab4c5dea124a859
+│                        │      │                  │         97a9b3578dacf44cb2006 
+│                        │      │                  ╰ DiffID: sha256:f261933e230bd304a9c6e9c4694642c879f0a77009a
+│                        │      │                            a73b131f9302825eca058 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-13836 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Fingerprint     : sha256:aa63c2cff45c277a2722e3f7ec3af2f4bb83759585b3c2870026
+│                        │      │                   be85400ef389 
+│                        │      ├ Title           : cpython: Excessive read buffering DoS in http.client 
+│                        │      ├ Description     : When reading an HTTP response from a server, if no read
+│                        │      │                   amount is specified, the default behavior will be to use
+│                        │      │                   Content-Length. This allows a malicious server to cause the
+│                        │      │                    client to read large amounts of data into memory,
+│                        │      │                   potentially causing OOM or other DoS. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ CweIDs           ╭ [0]: CWE-125 
+│                        │      │                  ╰ [1]: CWE-400 
+│                        │      ├ VendorSeverity   ╭ amazon: 2 
+│                        │      │                  ├ azure : 2 
+│                        │      │                  ├ nvd   : 4 
+│                        │      │                  ├ redhat: 2 
+│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:
+│                        │      │                  │        │           N/A:H 
+│                        │      │                  │        ╰ V3Score : 9.1 
+│                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:N/I:
+│                        │      │                           │           N/A:H 
+│                        │      │                           ╰ V3Score : 6.8 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2025-13836 
+│                        │      │                  ├ [1] : https://github.com/python/cpython/commit/14b1fdb0a94
+│                        │      │                  │       b96f86fc7b86671ea9582b8676628 
+│                        │      │                  ├ [2] : https://github.com/python/cpython/commit/289f29b0fe3
+│                        │      │                  │       8baf2d7cb5854f4bb573cc34a6a15 
+│                        │      │                  ├ [3] : https://github.com/python/cpython/commit/4ce27904b59
+│                        │      │                  │       7c77d74dd93f2c912676021a99155 
+│                        │      │                  ├ [4] : https://github.com/python/cpython/commit/4ce27904b59
+│                        │      │                  │       7c77d74dd93f2c912676021a99155 (3.14 branch) 
+│                        │      │                  ├ [5] : https://github.com/python/cpython/commit/5a4c4a033a4
+│                        │      │                  │       a54481be6870aa1896fad732555b5 
+│                        │      │                  ├ [6] : https://github.com/python/cpython/commit/5a4c4a033a4
+│                        │      │                  │       a54481be6870aa1896fad732555b5 (main) 
+│                        │      │                  ├ [7] : https://github.com/python/cpython/issues/119451 
+│                        │      │                  ├ [8] : https://github.com/python/cpython/pull/119454 
+│                        │      │                  ├ [9] : https://mail.python.org/archives/list/security-annou
+│                        │      │                  │       nce@python.org/thread/OQ6G7MKRQIS3OAREC3HNG3D2DPOU34
+│                        │      │                  │       XO/ 
+│                        │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2025-13836 
+│                        │      │                  ├ [11]: https://ubuntu.com/security/notices/USN-7951-1 
+│                        │      │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2025-13836 
+│                        │      ├ PublishedDate   : 2025-12-01T18:16:04.2Z 
+│                        │      ╰ LastModifiedDate: 2025-12-30T15:08:14.027Z 
+│                        ├ [86] ╭ VulnerabilityID : CVE-2025-13836 
+│                        │      ├ PkgID           : libpython3.12-stdlib@3.12.3-1ubuntu0.9 
+│                        │      ├ PkgName         : libpython3.12-stdlib 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpython3.12-stdlib@3.12.3-1ubuntu0.
+│                        │      │                  │       9?arch=amd64&distro=ubuntu-24.04 
+│                        │      │                  ╰ UID : 397fe0c78e99bf76 
+│                        │      ├ InstalledVersion: 3.12.3-1ubuntu0.9 
+│                        │      ├ FixedVersion    : 3.12.3-1ubuntu0.10 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:e1ba6c3e0594e5a62288f02edd69ab4c5dea124a859
+│                        │      │                  │         97a9b3578dacf44cb2006 
+│                        │      │                  ╰ DiffID: sha256:f261933e230bd304a9c6e9c4694642c879f0a77009a
+│                        │      │                            a73b131f9302825eca058 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-13836 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Fingerprint     : sha256:eeda75caacbdff7103eee4e656d1bd741446450a223b78526920
+│                        │      │                   08b2d91bba12 
+│                        │      ├ Title           : cpython: Excessive read buffering DoS in http.client 
+│                        │      ├ Description     : When reading an HTTP response from a server, if no read
+│                        │      │                   amount is specified, the default behavior will be to use
+│                        │      │                   Content-Length. This allows a malicious server to cause the
+│                        │      │                    client to read large amounts of data into memory,
+│                        │      │                   potentially causing OOM or other DoS. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ CweIDs           ╭ [0]: CWE-125 
+│                        │      │                  ╰ [1]: CWE-400 
+│                        │      ├ VendorSeverity   ╭ amazon: 2 
+│                        │      │                  ├ azure : 2 
+│                        │      │                  ├ nvd   : 4 
+│                        │      │                  ├ redhat: 2 
+│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:
+│                        │      │                  │        │           N/A:H 
+│                        │      │                  │        ╰ V3Score : 9.1 
+│                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:N/I:
+│                        │      │                           │           N/A:H 
+│                        │      │                           ╰ V3Score : 6.8 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2025-13836 
+│                        │      │                  ├ [1] : https://github.com/python/cpython/commit/14b1fdb0a94
+│                        │      │                  │       b96f86fc7b86671ea9582b8676628 
+│                        │      │                  ├ [2] : https://github.com/python/cpython/commit/289f29b0fe3
+│                        │      │                  │       8baf2d7cb5854f4bb573cc34a6a15 
+│                        │      │                  ├ [3] : https://github.com/python/cpython/commit/4ce27904b59
+│                        │      │                  │       7c77d74dd93f2c912676021a99155 
+│                        │      │                  ├ [4] : https://github.com/python/cpython/commit/4ce27904b59
+│                        │      │                  │       7c77d74dd93f2c912676021a99155 (3.14 branch) 
+│                        │      │                  ├ [5] : https://github.com/python/cpython/commit/5a4c4a033a4
+│                        │      │                  │       a54481be6870aa1896fad732555b5 
+│                        │      │                  ├ [6] : https://github.com/python/cpython/commit/5a4c4a033a4
+│                        │      │                  │       a54481be6870aa1896fad732555b5 (main) 
+│                        │      │                  ├ [7] : https://github.com/python/cpython/issues/119451 
+│                        │      │                  ├ [8] : https://github.com/python/cpython/pull/119454 
+│                        │      │                  ├ [9] : https://mail.python.org/archives/list/security-annou
+│                        │      │                  │       nce@python.org/thread/OQ6G7MKRQIS3OAREC3HNG3D2DPOU34
+│                        │      │                  │       XO/ 
+│                        │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2025-13836 
+│                        │      │                  ├ [11]: https://ubuntu.com/security/notices/USN-7951-1 
+│                        │      │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2025-13836 
+│                        │      ├ PublishedDate   : 2025-12-01T18:16:04.2Z 
+│                        │      ╰ LastModifiedDate: 2025-12-30T15:08:14.027Z 
+│                        ├ [87] ╭ VulnerabilityID : CVE-2025-13836 
+│                        │      ├ PkgID           : libpython3.12t64@3.12.3-1ubuntu0.9 
+│                        │      ├ PkgName         : libpython3.12t64 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpython3.12t64@3.12.3-1ubuntu0.9?ar
+│                        │      │                  │       ch=amd64&distro=ubuntu-24.04 
+│                        │      │                  ╰ UID : a5e0be6da0e51dbd 
+│                        │      ├ InstalledVersion: 3.12.3-1ubuntu0.9 
+│                        │      ├ FixedVersion    : 3.12.3-1ubuntu0.10 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:e1ba6c3e0594e5a62288f02edd69ab4c5dea124a859
+│                        │      │                  │         97a9b3578dacf44cb2006 
+│                        │      │                  ╰ DiffID: sha256:f261933e230bd304a9c6e9c4694642c879f0a77009a
+│                        │      │                            a73b131f9302825eca058 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-13836 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Fingerprint     : sha256:5081a2f217f3dd71d77dfdad77f7cf8075220a807a431a20e804
+│                        │      │                   28b9516e5f51 
+│                        │      ├ Title           : cpython: Excessive read buffering DoS in http.client 
+│                        │      ├ Description     : When reading an HTTP response from a server, if no read
+│                        │      │                   amount is specified, the default behavior will be to use
+│                        │      │                   Content-Length. This allows a malicious server to cause the
+│                        │      │                    client to read large amounts of data into memory,
+│                        │      │                   potentially causing OOM or other DoS. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ CweIDs           ╭ [0]: CWE-125 
+│                        │      │                  ╰ [1]: CWE-400 
+│                        │      ├ VendorSeverity   ╭ amazon: 2 
+│                        │      │                  ├ azure : 2 
+│                        │      │                  ├ nvd   : 4 
+│                        │      │                  ├ redhat: 2 
+│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:
+│                        │      │                  │        │           N/A:H 
+│                        │      │                  │        ╰ V3Score : 9.1 
+│                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:N/I:
+│                        │      │                           │           N/A:H 
+│                        │      │                           ╰ V3Score : 6.8 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2025-13836 
+│                        │      │                  ├ [1] : https://github.com/python/cpython/commit/14b1fdb0a94
+│                        │      │                  │       b96f86fc7b86671ea9582b8676628 
+│                        │      │                  ├ [2] : https://github.com/python/cpython/commit/289f29b0fe3
+│                        │      │                  │       8baf2d7cb5854f4bb573cc34a6a15 
+│                        │      │                  ├ [3] : https://github.com/python/cpython/commit/4ce27904b59
+│                        │      │                  │       7c77d74dd93f2c912676021a99155 
+│                        │      │                  ├ [4] : https://github.com/python/cpython/commit/4ce27904b59
+│                        │      │                  │       7c77d74dd93f2c912676021a99155 (3.14 branch) 
+│                        │      │                  ├ [5] : https://github.com/python/cpython/commit/5a4c4a033a4
+│                        │      │                  │       a54481be6870aa1896fad732555b5 
+│                        │      │                  ├ [6] : https://github.com/python/cpython/commit/5a4c4a033a4
+│                        │      │                  │       a54481be6870aa1896fad732555b5 (main) 
+│                        │      │                  ├ [7] : https://github.com/python/cpython/issues/119451 
+│                        │      │                  ├ [8] : https://github.com/python/cpython/pull/119454 
+│                        │      │                  ├ [9] : https://mail.python.org/archives/list/security-annou
+│                        │      │                  │       nce@python.org/thread/OQ6G7MKRQIS3OAREC3HNG3D2DPOU34
+│                        │      │                  │       XO/ 
+│                        │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2025-13836 
+│                        │      │                  ├ [11]: https://ubuntu.com/security/notices/USN-7951-1 
+│                        │      │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2025-13836 
+│                        │      ├ PublishedDate   : 2025-12-01T18:16:04.2Z 
+│                        │      ╰ LastModifiedDate: 2025-12-30T15:08:14.027Z 
+│                        ├ [88] ╭ VulnerabilityID : CVE-2025-69277 
 │                        │      ├ PkgID           : libsodium23@1.0.18-1build3 
 │                        │      ├ PkgName         : libsodium23 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libsodium23@1.0.18-1build3?arch=amd64
@@ -27915,59 +28132,7 @@
 │                        │      │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2025-69277 
 │                        │      ├ PublishedDate   : 2025-12-31T06:15:41.513Z 
 │                        │      ╰ LastModifiedDate: 2026-01-07T17:16:02.003Z 
-│                        ├ [86] ╭ VulnerabilityID : CVE-2024-41996 
-│                        │      ├ PkgID           : libssl3t64@3.0.13-0ubuntu3.6 
-│                        │      ├ PkgName         : libssl3t64 
-│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libssl3t64@3.0.13-0ubuntu3.6?arch=amd
-│                        │      │                  │       64&distro=ubuntu-24.04 
-│                        │      │                  ╰ UID : 37b65e9c444d27dc 
-│                        │      ├ InstalledVersion: 3.0.13-0ubuntu3.6 
-│                        │      ├ Status          : affected 
-│                        │      ├ Layer            ╭ Digest: sha256:e1ba6c3e0594e5a62288f02edd69ab4c5dea124a859
-│                        │      │                  │         97a9b3578dacf44cb2006 
-│                        │      │                  ╰ DiffID: sha256:f261933e230bd304a9c6e9c4694642c879f0a77009a
-│                        │      │                            a73b131f9302825eca058 
-│                        │      ├ SeveritySource  : ubuntu 
-│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-41996 
-│                        │      ├ DataSource       ╭ ID  : ubuntu 
-│                        │      │                  ├ Name: Ubuntu CVE Tracker 
-│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │      ├ Fingerprint     : sha256:a8284df86fc3739e99bd2ed2cc283bc30bf8e4bcb94e59c0eae1
-│                        │      │                   7251b16a8810 
-│                        │      ├ Title           : openssl: remote attackers (from the client side) to trigger
-│                        │      │                    unnecessarily expensive server-side DHE
-│                        │      │                   modular-exponentiation calculations 
-│                        │      ├ Description     : Validating the order of the public keys in the
-│                        │      │                   Diffie-Hellman Key Agreement Protocol, when an approved
-│                        │      │                   safe prime is used, allows remote attackers (from the
-│                        │      │                   client side) to trigger unnecessarily expensive server-side
-│                        │      │                    DHE modular-exponentiation calculations. The client may
-│                        │      │                   cause asymmetric resource consumption. The basic attack
-│                        │      │                   scenario is that the client must claim that it can only
-│                        │      │                   communicate with DHE, and the server must be configured to
-│                        │      │                   allow DHE and validate the order of the public key. 
-│                        │      ├ Severity        : LOW 
-│                        │      ├ CweIDs           ─ [0]: CWE-295 
-│                        │      ├ VendorSeverity   ╭ amazon: 2 
-│                        │      │                  ├ redhat: 1 
-│                        │      │                  ╰ ubuntu: 1 
-│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:
-│                        │      │                           │           N/A:H 
-│                        │      │                           ╰ V3Score : 5.9 
-│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-41996 
-│                        │      │                  ├ [1]: https://dheatattack.gitlab.io/details/ 
-│                        │      │                  ├ [2]: https://dheatattack.gitlab.io/faq/ 
-│                        │      │                  ├ [3]: https://gist.github.com/c0r0n3r/abccc14d4d96c0442f3a7
-│                        │      │                  │      7fa5ca255d1 
-│                        │      │                  ├ [4]: https://github.com/openssl/openssl/issues/17374 
-│                        │      │                  ├ [5]: https://github.com/openssl/openssl/pull/25088 
-│                        │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2024-41996 
-│                        │      │                  ├ [7]: https://openssl-library.org/post/2022-10-21-tls-group
-│                        │      │                  │      s-configuration/ 
-│                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-41996 
-│                        │      ├ PublishedDate   : 2024-08-26T06:15:04.603Z 
-│                        │      ╰ LastModifiedDate: 2024-08-26T16:35:11.247Z 
-│                        ├ [87] ╭ VulnerabilityID : CVE-2024-56433 
+│                        ├ [89] ╭ VulnerabilityID : CVE-2024-56433 
 │                        │      ├ PkgID           : libsubid4@1:4.13+dfsg1-4ubuntu3.2 
 │                        │      ├ PkgName         : libsubid4 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libsubid4@4.13%2Bdfsg1-4ubuntu3.2?arc
@@ -28030,7 +28195,47 @@
 │                        │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                        │      ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                        │      ╰ LastModifiedDate: 2024-12-26T09:15:07.267Z 
-│                        ├ [88] ╭ VulnerabilityID : CVE-2024-56433 
+│                        ├ [90] ╭ VulnerabilityID : CVE-2025-13151 
+│                        │      ├ PkgID           : libtasn1-6@4.19.0-3ubuntu0.24.04.1 
+│                        │      ├ PkgName         : libtasn1-6 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libtasn1-6@4.19.0-3ubuntu0.24.04.1?ar
+│                        │      │                  │       ch=amd64&distro=ubuntu-24.04 
+│                        │      │                  ╰ UID : 83867474be5f06d 
+│                        │      ├ InstalledVersion: 4.19.0-3ubuntu0.24.04.1 
+│                        │      ├ FixedVersion    : 4.19.0-3ubuntu0.24.04.2 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:e1ba6c3e0594e5a62288f02edd69ab4c5dea124a859
+│                        │      │                  │         97a9b3578dacf44cb2006 
+│                        │      │                  ╰ DiffID: sha256:f261933e230bd304a9c6e9c4694642c879f0a77009a
+│                        │      │                            a73b131f9302825eca058 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-13151 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Fingerprint     : sha256:aae4b922709a20ab76a354adf6089a7fbadf6ac4dc2efe19549c
+│                        │      │                   0aacc04550b8 
+│                        │      ├ Title           : libtasn1: libtasn1: Denial of Service via stack-based
+│                        │      │                   buffer overflow in asn1_expend_octet_string 
+│                        │      ├ Description     : Stack-based buffer overflow in libtasn1 version: v4.20.0.
+│                        │      │                   The function fails to validate the size of input data
+│                        │      │                   resulting in a buffer overflow in asn1_expend_octet_string. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ VendorSeverity   ╭ redhat: 1 
+│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:
+│                        │      │                           │           N/A:H 
+│                        │      │                           ╰ V3Score : 5.9 
+│                        │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2026/01/08/5 
+│                        │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-13151 
+│                        │      │                  ├ [2]: https://gitlab.com/gnutls/libtasn1 
+│                        │      │                  ├ [3]: https://gitlab.com/gnutls/libtasn1/-/merge_requests/121 
+│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-13151 
+│                        │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-7954-1 
+│                        │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-13151 
+│                        │      ├ PublishedDate   : 2026-01-07T22:15:43.2Z 
+│                        │      ╰ LastModifiedDate: 2026-01-08T19:15:55.983Z 
+│                        ├ [91] ╭ VulnerabilityID : CVE-2024-56433 
 │                        │      ├ PkgID           : login@1:4.13+dfsg1-4ubuntu3.2 
 │                        │      ├ PkgName         : login 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/login@4.13%2Bdfsg1-4ubuntu3.2?arch=am
@@ -28093,59 +28298,7 @@
 │                        │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                        │      ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                        │      ╰ LastModifiedDate: 2024-12-26T09:15:07.267Z 
-│                        ├ [89] ╭ VulnerabilityID : CVE-2024-41996 
-│                        │      ├ PkgID           : openssl@3.0.13-0ubuntu3.6 
-│                        │      ├ PkgName         : openssl 
-│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl@3.0.13-0ubuntu3.6?arch=amd64&
-│                        │      │                  │       distro=ubuntu-24.04 
-│                        │      │                  ╰ UID : e0d2a32b6dd1685e 
-│                        │      ├ InstalledVersion: 3.0.13-0ubuntu3.6 
-│                        │      ├ Status          : affected 
-│                        │      ├ Layer            ╭ Digest: sha256:e1ba6c3e0594e5a62288f02edd69ab4c5dea124a859
-│                        │      │                  │         97a9b3578dacf44cb2006 
-│                        │      │                  ╰ DiffID: sha256:f261933e230bd304a9c6e9c4694642c879f0a77009a
-│                        │      │                            a73b131f9302825eca058 
-│                        │      ├ SeveritySource  : ubuntu 
-│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-41996 
-│                        │      ├ DataSource       ╭ ID  : ubuntu 
-│                        │      │                  ├ Name: Ubuntu CVE Tracker 
-│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │      ├ Fingerprint     : sha256:ec36f22324e22063cdff2317a38588a6493bfc30893975e7d6b8
-│                        │      │                   5f25eecbd4aa 
-│                        │      ├ Title           : openssl: remote attackers (from the client side) to trigger
-│                        │      │                    unnecessarily expensive server-side DHE
-│                        │      │                   modular-exponentiation calculations 
-│                        │      ├ Description     : Validating the order of the public keys in the
-│                        │      │                   Diffie-Hellman Key Agreement Protocol, when an approved
-│                        │      │                   safe prime is used, allows remote attackers (from the
-│                        │      │                   client side) to trigger unnecessarily expensive server-side
-│                        │      │                    DHE modular-exponentiation calculations. The client may
-│                        │      │                   cause asymmetric resource consumption. The basic attack
-│                        │      │                   scenario is that the client must claim that it can only
-│                        │      │                   communicate with DHE, and the server must be configured to
-│                        │      │                   allow DHE and validate the order of the public key. 
-│                        │      ├ Severity        : LOW 
-│                        │      ├ CweIDs           ─ [0]: CWE-295 
-│                        │      ├ VendorSeverity   ╭ amazon: 2 
-│                        │      │                  ├ redhat: 1 
-│                        │      │                  ╰ ubuntu: 1 
-│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:
-│                        │      │                           │           N/A:H 
-│                        │      │                           ╰ V3Score : 5.9 
-│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-41996 
-│                        │      │                  ├ [1]: https://dheatattack.gitlab.io/details/ 
-│                        │      │                  ├ [2]: https://dheatattack.gitlab.io/faq/ 
-│                        │      │                  ├ [3]: https://gist.github.com/c0r0n3r/abccc14d4d96c0442f3a7
-│                        │      │                  │      7fa5ca255d1 
-│                        │      │                  ├ [4]: https://github.com/openssl/openssl/issues/17374 
-│                        │      │                  ├ [5]: https://github.com/openssl/openssl/pull/25088 
-│                        │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2024-41996 
-│                        │      │                  ├ [7]: https://openssl-library.org/post/2022-10-21-tls-group
-│                        │      │                  │      s-configuration/ 
-│                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-41996 
-│                        │      ├ PublishedDate   : 2024-08-26T06:15:04.603Z 
-│                        │      ╰ LastModifiedDate: 2024-08-26T16:35:11.247Z 
-│                        ├ [90] ╭ VulnerabilityID : CVE-2024-56433 
+│                        ├ [92] ╭ VulnerabilityID : CVE-2024-56433 
 │                        │      ├ PkgID           : passwd@1:4.13+dfsg1-4ubuntu3.2 
 │                        │      ├ PkgName         : passwd 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/passwd@4.13%2Bdfsg1-4ubuntu3.2?arch=a
@@ -28208,7 +28361,7 @@
 │                        │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                        │      ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                        │      ╰ LastModifiedDate: 2024-12-26T09:15:07.267Z 
-│                        ├ [91] ╭ VulnerabilityID : CVE-2018-6952 
+│                        ├ [93] ╭ VulnerabilityID : CVE-2018-6952 
 │                        │      ├ PkgID           : patch@2.7.6-7build3 
 │                        │      ├ PkgName         : patch 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/patch@2.7.6-7build3?arch=amd64&distro
@@ -28260,7 +28413,7 @@
 │                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2018-6952 
 │                        │      ├ PublishedDate   : 2018-02-13T19:29:00.573Z 
 │                        │      ╰ LastModifiedDate: 2024-11-21T04:11:28.42Z 
-│                        ├ [92] ╭ VulnerabilityID : CVE-2021-45261 
+│                        ├ [94] ╭ VulnerabilityID : CVE-2021-45261 
 │                        │      ├ PkgID           : patch@2.7.6-7build3 
 │                        │      ├ PkgName         : patch 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/patch@2.7.6-7build3?arch=amd64&distro
@@ -28302,7 +28455,133 @@
 │                        │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2021-45261 
 │                        │      ├ PublishedDate   : 2021-12-22T18:15:08.1Z 
 │                        │      ╰ LastModifiedDate: 2024-11-21T06:32:02.633Z 
-│                        ├ [93] ╭ VulnerabilityID : CVE-2025-45582 
+│                        ├ [95] ╭ VulnerabilityID : CVE-2025-13836 
+│                        │      ├ PkgID           : python3.12@3.12.3-1ubuntu0.9 
+│                        │      ├ PkgName         : python3.12 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/python3.12@3.12.3-1ubuntu0.9?arch=amd
+│                        │      │                  │       64&distro=ubuntu-24.04 
+│                        │      │                  ╰ UID : 629a380283e15a1a 
+│                        │      ├ InstalledVersion: 3.12.3-1ubuntu0.9 
+│                        │      ├ FixedVersion    : 3.12.3-1ubuntu0.10 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:e1ba6c3e0594e5a62288f02edd69ab4c5dea124a859
+│                        │      │                  │         97a9b3578dacf44cb2006 
+│                        │      │                  ╰ DiffID: sha256:f261933e230bd304a9c6e9c4694642c879f0a77009a
+│                        │      │                            a73b131f9302825eca058 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-13836 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Fingerprint     : sha256:2dbee0bfd03abcd5ef7ab270c6f37528b6a063d054de75a6b941
+│                        │      │                   fa80e60ebbbc 
+│                        │      ├ Title           : cpython: Excessive read buffering DoS in http.client 
+│                        │      ├ Description     : When reading an HTTP response from a server, if no read
+│                        │      │                   amount is specified, the default behavior will be to use
+│                        │      │                   Content-Length. This allows a malicious server to cause the
+│                        │      │                    client to read large amounts of data into memory,
+│                        │      │                   potentially causing OOM or other DoS. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ CweIDs           ╭ [0]: CWE-125 
+│                        │      │                  ╰ [1]: CWE-400 
+│                        │      ├ VendorSeverity   ╭ amazon: 2 
+│                        │      │                  ├ azure : 2 
+│                        │      │                  ├ nvd   : 4 
+│                        │      │                  ├ redhat: 2 
+│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:
+│                        │      │                  │        │           N/A:H 
+│                        │      │                  │        ╰ V3Score : 9.1 
+│                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:N/I:
+│                        │      │                           │           N/A:H 
+│                        │      │                           ╰ V3Score : 6.8 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2025-13836 
+│                        │      │                  ├ [1] : https://github.com/python/cpython/commit/14b1fdb0a94
+│                        │      │                  │       b96f86fc7b86671ea9582b8676628 
+│                        │      │                  ├ [2] : https://github.com/python/cpython/commit/289f29b0fe3
+│                        │      │                  │       8baf2d7cb5854f4bb573cc34a6a15 
+│                        │      │                  ├ [3] : https://github.com/python/cpython/commit/4ce27904b59
+│                        │      │                  │       7c77d74dd93f2c912676021a99155 
+│                        │      │                  ├ [4] : https://github.com/python/cpython/commit/4ce27904b59
+│                        │      │                  │       7c77d74dd93f2c912676021a99155 (3.14 branch) 
+│                        │      │                  ├ [5] : https://github.com/python/cpython/commit/5a4c4a033a4
+│                        │      │                  │       a54481be6870aa1896fad732555b5 
+│                        │      │                  ├ [6] : https://github.com/python/cpython/commit/5a4c4a033a4
+│                        │      │                  │       a54481be6870aa1896fad732555b5 (main) 
+│                        │      │                  ├ [7] : https://github.com/python/cpython/issues/119451 
+│                        │      │                  ├ [8] : https://github.com/python/cpython/pull/119454 
+│                        │      │                  ├ [9] : https://mail.python.org/archives/list/security-annou
+│                        │      │                  │       nce@python.org/thread/OQ6G7MKRQIS3OAREC3HNG3D2DPOU34
+│                        │      │                  │       XO/ 
+│                        │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2025-13836 
+│                        │      │                  ├ [11]: https://ubuntu.com/security/notices/USN-7951-1 
+│                        │      │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2025-13836 
+│                        │      ├ PublishedDate   : 2025-12-01T18:16:04.2Z 
+│                        │      ╰ LastModifiedDate: 2025-12-30T15:08:14.027Z 
+│                        ├ [96] ╭ VulnerabilityID : CVE-2025-13836 
+│                        │      ├ PkgID           : python3.12-minimal@3.12.3-1ubuntu0.9 
+│                        │      ├ PkgName         : python3.12-minimal 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/python3.12-minimal@3.12.3-1ubuntu0.9?
+│                        │      │                  │       arch=amd64&distro=ubuntu-24.04 
+│                        │      │                  ╰ UID : 9add321c52569461 
+│                        │      ├ InstalledVersion: 3.12.3-1ubuntu0.9 
+│                        │      ├ FixedVersion    : 3.12.3-1ubuntu0.10 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:e1ba6c3e0594e5a62288f02edd69ab4c5dea124a859
+│                        │      │                  │         97a9b3578dacf44cb2006 
+│                        │      │                  ╰ DiffID: sha256:f261933e230bd304a9c6e9c4694642c879f0a77009a
+│                        │      │                            a73b131f9302825eca058 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-13836 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Fingerprint     : sha256:9a2e498c0801d5183a2a045b8e3c2c504755f6376fff44ef6e6b
+│                        │      │                   795a34d8ab3b 
+│                        │      ├ Title           : cpython: Excessive read buffering DoS in http.client 
+│                        │      ├ Description     : When reading an HTTP response from a server, if no read
+│                        │      │                   amount is specified, the default behavior will be to use
+│                        │      │                   Content-Length. This allows a malicious server to cause the
+│                        │      │                    client to read large amounts of data into memory,
+│                        │      │                   potentially causing OOM or other DoS. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ CweIDs           ╭ [0]: CWE-125 
+│                        │      │                  ╰ [1]: CWE-400 
+│                        │      ├ VendorSeverity   ╭ amazon: 2 
+│                        │      │                  ├ azure : 2 
+│                        │      │                  ├ nvd   : 4 
+│                        │      │                  ├ redhat: 2 
+│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:
+│                        │      │                  │        │           N/A:H 
+│                        │      │                  │        ╰ V3Score : 9.1 
+│                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:N/I:
+│                        │      │                           │           N/A:H 
+│                        │      │                           ╰ V3Score : 6.8 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2025-13836 
+│                        │      │                  ├ [1] : https://github.com/python/cpython/commit/14b1fdb0a94
+│                        │      │                  │       b96f86fc7b86671ea9582b8676628 
+│                        │      │                  ├ [2] : https://github.com/python/cpython/commit/289f29b0fe3
+│                        │      │                  │       8baf2d7cb5854f4bb573cc34a6a15 
+│                        │      │                  ├ [3] : https://github.com/python/cpython/commit/4ce27904b59
+│                        │      │                  │       7c77d74dd93f2c912676021a99155 
+│                        │      │                  ├ [4] : https://github.com/python/cpython/commit/4ce27904b59
+│                        │      │                  │       7c77d74dd93f2c912676021a99155 (3.14 branch) 
+│                        │      │                  ├ [5] : https://github.com/python/cpython/commit/5a4c4a033a4
+│                        │      │                  │       a54481be6870aa1896fad732555b5 
+│                        │      │                  ├ [6] : https://github.com/python/cpython/commit/5a4c4a033a4
+│                        │      │                  │       a54481be6870aa1896fad732555b5 (main) 
+│                        │      │                  ├ [7] : https://github.com/python/cpython/issues/119451 
+│                        │      │                  ├ [8] : https://github.com/python/cpython/pull/119454 
+│                        │      │                  ├ [9] : https://mail.python.org/archives/list/security-annou
+│                        │      │                  │       nce@python.org/thread/OQ6G7MKRQIS3OAREC3HNG3D2DPOU34
+│                        │      │                  │       XO/ 
+│                        │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2025-13836 
+│                        │      │                  ├ [11]: https://ubuntu.com/security/notices/USN-7951-1 
+│                        │      │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2025-13836 
+│                        │      ├ PublishedDate   : 2025-12-01T18:16:04.2Z 
+│                        │      ╰ LastModifiedDate: 2025-12-30T15:08:14.027Z 
+│                        ├ [97] ╭ VulnerabilityID : CVE-2025-45582 
 │                        │      ├ PkgID           : tar@1.35+dfsg-3build1 
 │                        │      ├ PkgName         : tar 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/tar@1.35%2Bdfsg-3build1?arch=amd64&di
@@ -28359,13 +28638,13 @@
 │                        │      │                           ╰ V3Score : 5.6 
 │                        │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/11/0
 │                        │      │                  │       1/6 
-│                        │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:0002 
+│                        │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:0067 
 │                        │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2025-45582 
 │                        │      │                  ├ [3] : https://bugzilla.redhat.com/2379592 
 │                        │      │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2379592 
 │                        │      │                  ├ [5] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                        │      │                  │       025-45582 
-│                        │      │                  ├ [6] : https://errata.almalinux.org/10/ALSA-2026-0002.html 
+│                        │      │                  ├ [6] : https://errata.almalinux.org/9/ALSA-2026-0067.html 
 │                        │      │                  ├ [7] : https://errata.rockylinux.org/RLSA-2026:0067 
 │                        │      │                  ├ [8] : https://github.com/i900008/vulndb/blob/main/Gnu_tar_
 │                        │      │                  │       vuln.md 
@@ -28384,7 +28663,7 @@
 │                        │      │                          curity-rules-of-thumb.html 
 │                        │      ├ PublishedDate   : 2025-07-11T17:15:37.183Z 
 │                        │      ╰ LastModifiedDate: 2025-11-02T01:15:32.307Z 
-│                        ├ [94] ╭ VulnerabilityID : CVE-2024-56433 
+│                        ├ [98] ╭ VulnerabilityID : CVE-2024-56433 
 │                        │      ├ PkgID           : uidmap@1:4.13+dfsg1-4ubuntu3.2 
 │                        │      ├ PkgName         : uidmap 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/uidmap@4.13%2Bdfsg1-4ubuntu3.2?arch=a
@@ -28447,7 +28726,7 @@
 │                        │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                        │      ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                        │      ╰ LastModifiedDate: 2024-12-26T09:15:07.267Z 
-│                        ╰ [95] ╭ VulnerabilityID : CVE-2021-31879 
+│                        ╰ [99] ╭ VulnerabilityID : CVE-2021-31879 
 │                               ├ PkgID           : wget@1.21.4-1ubuntu4.1 
 │                               ├ PkgName         : wget 
 │                               ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/wget@1.21.4-1ubuntu4.1?arch=amd64&dis
@@ -29804,8 +30083,8 @@
 │                        │      │                  ╰ URL : https://pkg.go.dev/vuln/ 
 │                        │      ├ Fingerprint     : sha256:d8bd12db4ee76c52091ce5d560926636d40e4ed7bcf3fe110f0f
 │                        │      │                   115ef9632513 
-│                        │      ├ Title           : crypto/x509: Excessive resource consumption when printing
-│                        │      │                   error string for host certificate validation in crypto/x509 
+│                        │      ├ Title           : crypto/x509: golang: Denial of Service due to excessive
+│                        │      │                   resource consumption via crafted certificate 
 │                        │      ├ Description     : Within HostnameError.Error(), when constructing an error
 │                        │      │                   string, there is no limit to the number of hosts that will
 │                        │      │                   be printed out. Furthermore, the error string is
@@ -31211,8 +31490,8 @@
 │                        │      │                  ╰ URL : https://pkg.go.dev/vuln/ 
 │                        │      ├ Fingerprint     : sha256:7cac8f844a3b0d917cc94c1b320b4c9808d8a74f7fb354a7211a
 │                        │      │                   1cb6cd476ccb 
-│                        │      ├ Title           : crypto/x509: Excessive resource consumption when printing
-│                        │      │                   error string for host certificate validation in crypto/x509 
+│                        │      ├ Title           : crypto/x509: golang: Denial of Service due to excessive
+│                        │      │                   resource consumption via crafted certificate 
 │                        │      ├ Description     : Within HostnameError.Error(), when constructing an error
 │                        │      │                   string, there is no limit to the number of hosts that will
 │                        │      │                   be printed out. Furthermore, the error string is
@@ -36438,21 +36717,28 @@
 │                        │      ├ CweIDs           ─ [0]: CWE-770 
 │                        │      ├ VendorSeverity   ╭ amazon: 3 
 │                        │      │                  ├ ghsa  : 2 
-│                        │      │                  ╰ redhat: 2 
+│                        │      │                  ├ redhat: 2 
+│                        │      │                  ╰ ubuntu: 2 
 │                        │      ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
 │                        │      │                  │        │           N/A:L 
 │                        │      │                  │        ╰ V3Score : 5.3 
 │                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
 │                        │      │                           │           N/A:L 
 │                        │      │                           ╰ V3Score : 5.3 
-│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-58181 
-│                        │      │                  ├ [1]: https://go.dev/cl/721961 
-│                        │      │                  ├ [2]: https://go.dev/issue/76363 
-│                        │      │                  ├ [3]: https://groups.google.com/g/golang-announce/c/w-oX3Ux
-│                        │      │                  │      NcZA 
-│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-58181 
-│                        │      │                  ├ [5]: https://pkg.go.dev/vuln/GO-2025-4134 
-│                        │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-58181 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2025-58181 
+│                        │      │                  ├ [1] : https://github.com/golang/crypto/commit/e79546e28b85
+│                        │      │                  │       ea53dd37afe1c4102746ef553b9c 
+│                        │      │                  ├ [2] : https://github.com/golang/go/issues/76363 
+│                        │      │                  ├ [3] : https://go.dev/cl/721961 
+│                        │      │                  ├ [4] : https://go.dev/issue/76363 
+│                        │      │                  ├ [5] : https://groups.google.com/g/golang-announce/c/w-oX3U
+│                        │      │                  │       xNcZA 
+│                        │      │                  ├ [6] : https://groups.google.com/g/golang-announce/c/w-oX3U
+│                        │      │                  │       xNcZA?pli=1 
+│                        │      │                  ├ [7] : https://nvd.nist.gov/vuln/detail/CVE-2025-58181 
+│                        │      │                  ├ [8] : https://pkg.go.dev/vuln/GO-2025-4134 
+│                        │      │                  ├ [9] : https://ubuntu.com/security/notices/USN-7956-1 
+│                        │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2025-58181 
 │                        │      ├ PublishedDate   : 2025-11-19T21:15:50.85Z 
 │                        │      ╰ LastModifiedDate: 2025-12-11T19:29:24.9Z 
 │                        ├ [2]  ╭ VulnerabilityID : CVE-2025-58183 
@@ -36536,8 +36822,8 @@
 │                        │      │                  ╰ URL : https://pkg.go.dev/vuln/ 
 │                        │      ├ Fingerprint     : sha256:9e0f5c6604c6f0635f5d99adc87f3da230795e0e46133199f119
 │                        │      │                   ef36c7617a52 
-│                        │      ├ Title           : crypto/x509: Excessive resource consumption when printing
-│                        │      │                   error string for host certificate validation in crypto/x509 
+│                        │      ├ Title           : crypto/x509: golang: Denial of Service due to excessive
+│                        │      │                   resource consumption via crafted certificate 
 │                        │      ├ Description     : Within HostnameError.Error(), when constructing an error
 │                        │      │                   string, there is no limit to the number of hosts that will
 │                        │      │                   be printed out. Furthermore, the error string is
@@ -38786,21 +39072,28 @@
 │                        │      ├ CweIDs           ─ [0]: CWE-770 
 │                        │      ├ VendorSeverity   ╭ amazon: 3 
 │                        │      │                  ├ ghsa  : 2 
-│                        │      │                  ╰ redhat: 2 
+│                        │      │                  ├ redhat: 2 
+│                        │      │                  ╰ ubuntu: 2 
 │                        │      ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
 │                        │      │                  │        │           N/A:L 
 │                        │      │                  │        ╰ V3Score : 5.3 
 │                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
 │                        │      │                           │           N/A:L 
 │                        │      │                           ╰ V3Score : 5.3 
-│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-58181 
-│                        │      │                  ├ [1]: https://go.dev/cl/721961 
-│                        │      │                  ├ [2]: https://go.dev/issue/76363 
-│                        │      │                  ├ [3]: https://groups.google.com/g/golang-announce/c/w-oX3Ux
-│                        │      │                  │      NcZA 
-│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-58181 
-│                        │      │                  ├ [5]: https://pkg.go.dev/vuln/GO-2025-4134 
-│                        │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-58181 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2025-58181 
+│                        │      │                  ├ [1] : https://github.com/golang/crypto/commit/e79546e28b85
+│                        │      │                  │       ea53dd37afe1c4102746ef553b9c 
+│                        │      │                  ├ [2] : https://github.com/golang/go/issues/76363 
+│                        │      │                  ├ [3] : https://go.dev/cl/721961 
+│                        │      │                  ├ [4] : https://go.dev/issue/76363 
+│                        │      │                  ├ [5] : https://groups.google.com/g/golang-announce/c/w-oX3U
+│                        │      │                  │       xNcZA 
+│                        │      │                  ├ [6] : https://groups.google.com/g/golang-announce/c/w-oX3U
+│                        │      │                  │       xNcZA?pli=1 
+│                        │      │                  ├ [7] : https://nvd.nist.gov/vuln/detail/CVE-2025-58181 
+│                        │      │                  ├ [8] : https://pkg.go.dev/vuln/GO-2025-4134 
+│                        │      │                  ├ [9] : https://ubuntu.com/security/notices/USN-7956-1 
+│                        │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2025-58181 
 │                        │      ├ PublishedDate   : 2025-11-19T21:15:50.85Z 
 │                        │      ╰ LastModifiedDate: 2025-12-11T19:29:24.9Z 
 │                        ├ [9]  ╭ VulnerabilityID : CVE-2025-22870 
@@ -39159,8 +39452,8 @@
 │                        │      │                  ╰ URL : https://pkg.go.dev/vuln/ 
 │                        │      ├ Fingerprint     : sha256:aaa30616e72afbd2aeab3be5e91b33100c1f5af60ab7e4d50f33
 │                        │      │                   a3ff818e3a1c 
-│                        │      ├ Title           : crypto/x509: Excessive resource consumption when printing
-│                        │      │                   error string for host certificate validation in crypto/x509 
+│                        │      ├ Title           : crypto/x509: golang: Denial of Service due to excessive
+│                        │      │                   resource consumption via crafted certificate 
 │                        │      ├ Description     : Within HostnameError.Error(), when constructing an error
 │                        │      │                   string, there is no limit to the number of hosts that will
 │                        │      │                   be printed out. Furthermore, the error string is
