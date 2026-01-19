@@ -59,11 +59,13 @@ jobs:
 # ===================
 - name : Start docker
   lang : shell
-  exec : |
+  exec : | #shell
     {{#if NODOCKER}}
     echo Docker not started
     {{else}}
     sudo update-alternatives --set iptables /usr/sbin/iptables-legacy
+    # Change the docker json to change storage-driver to vfs
+    sudo /bin/sh -c "echo '{ \"storage-driver\": \"vfs\" }' > /etc/docker/daemon.json"
     echo updated
     sudo service docker start 
     {{/if}}
