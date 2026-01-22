@@ -23568,7 +23568,7 @@
 │                        │      │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2025-10148 
 │                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2025-10148 
 │                        │      ├ PublishedDate   : 2025-09-12T06:15:40.02Z 
-│                        │      ╰ LastModifiedDate: 2025-11-18T20:15:45.423Z 
+│                        │      ╰ LastModifiedDate: 2026-01-20T14:55:47.997Z 
 │                        ├ [3]  ╭ VulnerabilityID : CVE-2025-14524 
 │                        │      ├ PkgID           : curl@8.5.0-2ubuntu10.6 
 │                        │      ├ PkgName         : curl 
@@ -23598,6 +23598,7 @@
 │                        │      │                   token to the new
 │                        │      │                   target host. 
 │                        │      ├ Severity        : LOW 
+│                        │      ├ CweIDs           ─ [0]: CWE-601 
 │                        │      ├ VendorSeverity   ─ ubuntu: 1 
 │                        │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2026/01/07/4 
 │                        │      │                  ├ [1]: https://curl.se/docs/CVE-2025-14524.html 
@@ -23605,7 +23606,7 @@
 │                        │      │                  ├ [3]: https://hackerone.com/reports/3459417 
 │                        │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2025-14524 
 │                        │      ├ PublishedDate   : 2026-01-08T10:15:46.607Z 
-│                        │      ╰ LastModifiedDate: 2026-01-09T20:15:51.243Z 
+│                        │      ╰ LastModifiedDate: 2026-01-20T14:53:11.017Z 
 │                        ├ [4]  ╭ VulnerabilityID : CVE-2025-14819 
 │                        │      ├ PkgID           : curl@8.5.0-2ubuntu10.6 
 │                        │      ├ PkgName         : curl 
@@ -23645,7 +23646,7 @@
 │                        │      │                  ├ [2]: https://curl.se/docs/CVE-2025-14819.json 
 │                        │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2025-14819 
 │                        │      ├ PublishedDate   : 2026-01-08T10:15:46.73Z 
-│                        │      ╰ LastModifiedDate: 2026-01-08T18:08:18.457Z 
+│                        │      ╰ LastModifiedDate: 2026-01-20T14:51:26.263Z 
 │                        ├ [5]  ╭ VulnerabilityID : CVE-2025-15079 
 │                        │      ├ PkgID           : curl@8.5.0-2ubuntu10.6 
 │                        │      ├ PkgName         : curl 
@@ -23683,7 +23684,7 @@
 │                        │      │                  ├ [3]: https://hackerone.com/reports/3477116 
 │                        │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2025-15079 
 │                        │      ├ PublishedDate   : 2026-01-08T10:15:47.1Z 
-│                        │      ╰ LastModifiedDate: 2026-01-08T18:08:18.457Z 
+│                        │      ╰ LastModifiedDate: 2026-01-20T14:50:24.33Z 
 │                        ├ [6]  ╭ VulnerabilityID : CVE-2025-15224 
 │                        │      ├ PkgID           : curl@8.5.0-2ubuntu10.6 
 │                        │      ├ PkgName         : curl 
@@ -23719,7 +23720,7 @@
 │                        │      │                  ├ [3]: https://hackerone.com/reports/3480925 
 │                        │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2025-15224 
 │                        │      ├ PublishedDate   : 2026-01-08T10:15:47.207Z 
-│                        │      ╰ LastModifiedDate: 2026-01-08T18:08:18.457Z 
+│                        │      ╰ LastModifiedDate: 2026-01-20T14:47:52.71Z 
 │                        ├ [7]  ╭ VulnerabilityID : CVE-2025-9086 
 │                        │      ├ PkgID           : curl@8.5.0-2ubuntu10.6 
 │                        │      ├ PkgName         : curl 
@@ -23768,8 +23769,9 @@
 │                        │      │                   host so overriding
 │                        │      │                   it on an insecure host should not be okay. 
 │                        │      ├ Severity        : LOW 
+│                        │      ├ CweIDs           ─ [0]: CWE-125 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ amazon     : 1 
 │                        │      │                  ├ oracle-oval: 2 
 │                        │      │                  ├ photon     : 3 
 │                        │      │                  ├ redhat     : 2 
@@ -23800,7 +23802,7 @@
 │                        │      │                  ├ [15]: https://nvd.nist.gov/vuln/detail/CVE-2025-9086 
 │                        │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2025-9086 
 │                        │      ├ PublishedDate   : 2025-09-12T06:15:44.1Z 
-│                        │      ╰ LastModifiedDate: 2026-01-08T10:15:54.737Z 
+│                        │      ╰ LastModifiedDate: 2026-01-20T14:58:01.347Z 
 │                        ├ [8]  ╭ VulnerabilityID : CVE-2025-68972 
 │                        │      ├ PkgID           : dirmngr@2.4.4-2ubuntu17.4 
 │                        │      ├ PkgName         : dirmngr 
@@ -23958,7 +23960,7 @@
 │                        │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                        │      │                  │       024-52005 
 │                        │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2025-7409.html 
-│                        │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2025:7409 
+│                        │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2025:7482 
 │                        │      │                  ├ [7] : https://github.com/git/git/security/advisories/GHSA-
 │                        │      │                  │       7jjc-gg6m-3329 
 │                        │      │                  ├ [8] : https://linux.oracle.com/cve/CVE-2024-52005.html 
@@ -24032,7 +24034,7 @@
 │                        │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                        │      │                  │       024-52005 
 │                        │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2025-7409.html 
-│                        │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2025:7409 
+│                        │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2025:7482 
 │                        │      │                  ├ [7] : https://github.com/git/git/security/advisories/GHSA-
 │                        │      │                  │       7jjc-gg6m-3329 
 │                        │      │                  ├ [8] : https://linux.oracle.com/cve/CVE-2024-52005.html 
@@ -25148,7 +25150,7 @@
 │                        │      │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2025-10148 
 │                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2025-10148 
 │                        │      ├ PublishedDate   : 2025-09-12T06:15:40.02Z 
-│                        │      ╰ LastModifiedDate: 2025-11-18T20:15:45.423Z 
+│                        │      ╰ LastModifiedDate: 2026-01-20T14:55:47.997Z 
 │                        ├ [35] ╭ VulnerabilityID : CVE-2025-14524 
 │                        │      ├ PkgID           : libcurl3t64-gnutls@8.5.0-2ubuntu10.6 
 │                        │      ├ PkgName         : libcurl3t64-gnutls 
@@ -25178,6 +25180,7 @@
 │                        │      │                   token to the new
 │                        │      │                   target host. 
 │                        │      ├ Severity        : LOW 
+│                        │      ├ CweIDs           ─ [0]: CWE-601 
 │                        │      ├ VendorSeverity   ─ ubuntu: 1 
 │                        │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2026/01/07/4 
 │                        │      │                  ├ [1]: https://curl.se/docs/CVE-2025-14524.html 
@@ -25185,7 +25188,7 @@
 │                        │      │                  ├ [3]: https://hackerone.com/reports/3459417 
 │                        │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2025-14524 
 │                        │      ├ PublishedDate   : 2026-01-08T10:15:46.607Z 
-│                        │      ╰ LastModifiedDate: 2026-01-09T20:15:51.243Z 
+│                        │      ╰ LastModifiedDate: 2026-01-20T14:53:11.017Z 
 │                        ├ [36] ╭ VulnerabilityID : CVE-2025-14819 
 │                        │      ├ PkgID           : libcurl3t64-gnutls@8.5.0-2ubuntu10.6 
 │                        │      ├ PkgName         : libcurl3t64-gnutls 
@@ -25225,7 +25228,7 @@
 │                        │      │                  ├ [2]: https://curl.se/docs/CVE-2025-14819.json 
 │                        │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2025-14819 
 │                        │      ├ PublishedDate   : 2026-01-08T10:15:46.73Z 
-│                        │      ╰ LastModifiedDate: 2026-01-08T18:08:18.457Z 
+│                        │      ╰ LastModifiedDate: 2026-01-20T14:51:26.263Z 
 │                        ├ [37] ╭ VulnerabilityID : CVE-2025-15079 
 │                        │      ├ PkgID           : libcurl3t64-gnutls@8.5.0-2ubuntu10.6 
 │                        │      ├ PkgName         : libcurl3t64-gnutls 
@@ -25263,7 +25266,7 @@
 │                        │      │                  ├ [3]: https://hackerone.com/reports/3477116 
 │                        │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2025-15079 
 │                        │      ├ PublishedDate   : 2026-01-08T10:15:47.1Z 
-│                        │      ╰ LastModifiedDate: 2026-01-08T18:08:18.457Z 
+│                        │      ╰ LastModifiedDate: 2026-01-20T14:50:24.33Z 
 │                        ├ [38] ╭ VulnerabilityID : CVE-2025-15224 
 │                        │      ├ PkgID           : libcurl3t64-gnutls@8.5.0-2ubuntu10.6 
 │                        │      ├ PkgName         : libcurl3t64-gnutls 
@@ -25299,7 +25302,7 @@
 │                        │      │                  ├ [3]: https://hackerone.com/reports/3480925 
 │                        │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2025-15224 
 │                        │      ├ PublishedDate   : 2026-01-08T10:15:47.207Z 
-│                        │      ╰ LastModifiedDate: 2026-01-08T18:08:18.457Z 
+│                        │      ╰ LastModifiedDate: 2026-01-20T14:47:52.71Z 
 │                        ├ [39] ╭ VulnerabilityID : CVE-2025-9086 
 │                        │      ├ PkgID           : libcurl3t64-gnutls@8.5.0-2ubuntu10.6 
 │                        │      ├ PkgName         : libcurl3t64-gnutls 
@@ -25348,8 +25351,9 @@
 │                        │      │                   host so overriding
 │                        │      │                   it on an insecure host should not be okay. 
 │                        │      ├ Severity        : LOW 
+│                        │      ├ CweIDs           ─ [0]: CWE-125 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ amazon     : 1 
 │                        │      │                  ├ oracle-oval: 2 
 │                        │      │                  ├ photon     : 3 
 │                        │      │                  ├ redhat     : 2 
@@ -25380,7 +25384,7 @@
 │                        │      │                  ├ [15]: https://nvd.nist.gov/vuln/detail/CVE-2025-9086 
 │                        │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2025-9086 
 │                        │      ├ PublishedDate   : 2025-09-12T06:15:44.1Z 
-│                        │      ╰ LastModifiedDate: 2026-01-08T10:15:54.737Z 
+│                        │      ╰ LastModifiedDate: 2026-01-20T14:58:01.347Z 
 │                        ├ [40] ╭ VulnerabilityID : CVE-2025-0167 
 │                        │      ├ PkgID           : libcurl4t64@8.5.0-2ubuntu10.6 
 │                        │      ├ PkgName         : libcurl4t64 
@@ -25481,7 +25485,7 @@
 │                        │      │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2025-10148 
 │                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2025-10148 
 │                        │      ├ PublishedDate   : 2025-09-12T06:15:40.02Z 
-│                        │      ╰ LastModifiedDate: 2025-11-18T20:15:45.423Z 
+│                        │      ╰ LastModifiedDate: 2026-01-20T14:55:47.997Z 
 │                        ├ [42] ╭ VulnerabilityID : CVE-2025-14524 
 │                        │      ├ PkgID           : libcurl4t64@8.5.0-2ubuntu10.6 
 │                        │      ├ PkgName         : libcurl4t64 
@@ -25511,6 +25515,7 @@
 │                        │      │                   token to the new
 │                        │      │                   target host. 
 │                        │      ├ Severity        : LOW 
+│                        │      ├ CweIDs           ─ [0]: CWE-601 
 │                        │      ├ VendorSeverity   ─ ubuntu: 1 
 │                        │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2026/01/07/4 
 │                        │      │                  ├ [1]: https://curl.se/docs/CVE-2025-14524.html 
@@ -25518,7 +25523,7 @@
 │                        │      │                  ├ [3]: https://hackerone.com/reports/3459417 
 │                        │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2025-14524 
 │                        │      ├ PublishedDate   : 2026-01-08T10:15:46.607Z 
-│                        │      ╰ LastModifiedDate: 2026-01-09T20:15:51.243Z 
+│                        │      ╰ LastModifiedDate: 2026-01-20T14:53:11.017Z 
 │                        ├ [43] ╭ VulnerabilityID : CVE-2025-14819 
 │                        │      ├ PkgID           : libcurl4t64@8.5.0-2ubuntu10.6 
 │                        │      ├ PkgName         : libcurl4t64 
@@ -25558,7 +25563,7 @@
 │                        │      │                  ├ [2]: https://curl.se/docs/CVE-2025-14819.json 
 │                        │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2025-14819 
 │                        │      ├ PublishedDate   : 2026-01-08T10:15:46.73Z 
-│                        │      ╰ LastModifiedDate: 2026-01-08T18:08:18.457Z 
+│                        │      ╰ LastModifiedDate: 2026-01-20T14:51:26.263Z 
 │                        ├ [44] ╭ VulnerabilityID : CVE-2025-15079 
 │                        │      ├ PkgID           : libcurl4t64@8.5.0-2ubuntu10.6 
 │                        │      ├ PkgName         : libcurl4t64 
@@ -25596,7 +25601,7 @@
 │                        │      │                  ├ [3]: https://hackerone.com/reports/3477116 
 │                        │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2025-15079 
 │                        │      ├ PublishedDate   : 2026-01-08T10:15:47.1Z 
-│                        │      ╰ LastModifiedDate: 2026-01-08T18:08:18.457Z 
+│                        │      ╰ LastModifiedDate: 2026-01-20T14:50:24.33Z 
 │                        ├ [45] ╭ VulnerabilityID : CVE-2025-15224 
 │                        │      ├ PkgID           : libcurl4t64@8.5.0-2ubuntu10.6 
 │                        │      ├ PkgName         : libcurl4t64 
@@ -25632,7 +25637,7 @@
 │                        │      │                  ├ [3]: https://hackerone.com/reports/3480925 
 │                        │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2025-15224 
 │                        │      ├ PublishedDate   : 2026-01-08T10:15:47.207Z 
-│                        │      ╰ LastModifiedDate: 2026-01-08T18:08:18.457Z 
+│                        │      ╰ LastModifiedDate: 2026-01-20T14:47:52.71Z 
 │                        ├ [46] ╭ VulnerabilityID : CVE-2025-9086 
 │                        │      ├ PkgID           : libcurl4t64@8.5.0-2ubuntu10.6 
 │                        │      ├ PkgName         : libcurl4t64 
@@ -25681,8 +25686,9 @@
 │                        │      │                   host so overriding
 │                        │      │                   it on an insecure host should not be okay. 
 │                        │      ├ Severity        : LOW 
+│                        │      ├ CweIDs           ─ [0]: CWE-125 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ amazon     : 1 
 │                        │      │                  ├ oracle-oval: 2 
 │                        │      │                  ├ photon     : 3 
 │                        │      │                  ├ redhat     : 2 
@@ -25713,7 +25719,7 @@
 │                        │      │                  ├ [15]: https://nvd.nist.gov/vuln/detail/CVE-2025-9086 
 │                        │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2025-9086 
 │                        │      ├ PublishedDate   : 2025-09-12T06:15:44.1Z 
-│                        │      ╰ LastModifiedDate: 2026-01-08T10:15:54.737Z 
+│                        │      ╰ LastModifiedDate: 2026-01-20T14:58:01.347Z 
 │                        ├ [47] ╭ VulnerabilityID : CVE-2025-1352 
 │                        │      ├ PkgID           : libelf1t64@0.190-1.1ubuntu0.1 
 │                        │      ├ PkgName         : libelf1t64 
@@ -25980,7 +25986,7 @@
 │                        │      │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                        │      │                  │       025-5222 
 │                        │      │                  ├ [9] : https://errata.almalinux.org/9/ALSA-2025-12083.html 
-│                        │      │                  ├ [10]: https://errata.rockylinux.org/RLSA-2025:12083 
+│                        │      │                  ├ [10]: https://errata.rockylinux.org/RLSA-2025:11888 
 │                        │      │                  ├ [11]: https://linux.oracle.com/cve/CVE-2025-5222.html 
 │                        │      │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2025-12083.html 
 │                        │      │                  ├ [13]: https://lists.debian.org/debian-lts-announce/2025/06
@@ -26367,7 +26373,7 @@
 │                        │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                        │      │                  │       024-56433 
 │                        │      │                  ├ [5] : https://errata.almalinux.org/10/ALSA-2025-20145.html 
-│                        │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2025:20559 
+│                        │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2025:20145 
 │                        │      │                  ├ [7] : https://github.com/shadow-maint/shadow/blob/e2512d57
 │                        │      │                  │       41d4a44bdd81a8c2d0029b6222728cf0/etc/login.defs#L238
 │                        │      │                  │       -L241 
@@ -26430,7 +26436,7 @@
 │                        │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                        │      │                  │       024-56433 
 │                        │      │                  ├ [5] : https://errata.almalinux.org/10/ALSA-2025-20145.html 
-│                        │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2025:20559 
+│                        │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2025:20145 
 │                        │      │                  ├ [7] : https://github.com/shadow-maint/shadow/blob/e2512d57
 │                        │      │                  │       41d4a44bdd81a8c2d0029b6222728cf0/etc/login.defs#L238
 │                        │      │                  │       -L241 
@@ -26493,7 +26499,7 @@
 │                        │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                        │      │                  │       024-56433 
 │                        │      │                  ├ [5] : https://errata.almalinux.org/10/ALSA-2025-20145.html 
-│                        │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2025:20559 
+│                        │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2025:20145 
 │                        │      │                  ├ [7] : https://github.com/shadow-maint/shadow/blob/e2512d57
 │                        │      │                  │       41d4a44bdd81a8c2d0029b6222728cf0/etc/login.defs#L238
 │                        │      │                  │       -L241 
@@ -26664,7 +26670,7 @@
 │                        │      │                  ├ [5] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                        │      │                  │       025-45582 
 │                        │      │                  ├ [6] : https://errata.almalinux.org/10/ALSA-2026-0002.html 
-│                        │      │                  ├ [7] : https://errata.rockylinux.org/RLSA-2026:0067 
+│                        │      │                  ├ [7] : https://errata.rockylinux.org/RLSA-2026:0002 
 │                        │      │                  ├ [8] : https://github.com/i900008/vulndb/blob/main/Gnu_tar_
 │                        │      │                  │       vuln.md 
 │                        │      │                  ├ [9] : https://linux.oracle.com/cve/CVE-2025-45582.html 
@@ -26732,7 +26738,7 @@
 │                        │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                        │      │                  │       024-56433 
 │                        │      │                  ├ [5] : https://errata.almalinux.org/10/ALSA-2025-20145.html 
-│                        │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2025:20559 
+│                        │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2025:20145 
 │                        │      │                  ├ [7] : https://github.com/shadow-maint/shadow/blob/e2512d57
 │                        │      │                  │       41d4a44bdd81a8c2d0029b6222728cf0/etc/login.defs#L238
 │                        │      │                  │       -L241 
@@ -28072,7 +28078,7 @@
 │                        │      │                  ├ [5] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                        │      │                  │       025-58183 
 │                        │      │                  ├ [6] : https://errata.almalinux.org/10/ALSA-2025-23295.html 
-│                        │      │                  ├ [7] : https://errata.rockylinux.org/RLSA-2025:23326 
+│                        │      │                  ├ [7] : https://errata.rockylinux.org/RLSA-2025:23295 
 │                        │      │                  ├ [8] : https://go.dev/cl/709861 
 │                        │      │                  ├ [9] : https://go.dev/issue/75677 
 │                        │      │                  ├ [10]: https://groups.google.com/g/golang-announce/c/4Emdl2
@@ -28226,7 +28232,7 @@
 │                        │      │                  ├ [5] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                        │      │                  │       025-22871 
 │                        │      │                  ├ [6] : https://errata.almalinux.org/10/ALSA-2025-9146.html 
-│                        │      │                  ├ [7] : https://errata.rockylinux.org/RLSA-2025:9635 
+│                        │      │                  ├ [7] : https://errata.rockylinux.org/RLSA-2025:9317 
 │                        │      │                  ├ [8] : https://github.com/roadrunner-server/roadrunner 
 │                        │      │                  ├ [9] : https://github.com/roadrunner-server/roadrunner/comm
 │                        │      │                  │       it/f269279ee87d0b88127741cad1042389af7605fa 
@@ -28291,7 +28297,7 @@
 │                        │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                        │      │                  │       025-4673 
 │                        │      │                  ├ [5] : https://errata.almalinux.org/10/ALSA-2025-10677.html 
-│                        │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2025:15887 
+│                        │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2025:16432 
 │                        │      │                  ├ [7] : https://go.dev/cl/679257 
 │                        │      │                  ├ [8] : https://go.dev/issue/73816 
 │                        │      │                  ├ [9] : https://groups.google.com/g/golang-announce/c/ufZ8Wp
@@ -29479,7 +29485,7 @@
 │                        │      │                  ├ [5] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                        │      │                  │       025-58183 
 │                        │      │                  ├ [6] : https://errata.almalinux.org/10/ALSA-2025-23295.html 
-│                        │      │                  ├ [7] : https://errata.rockylinux.org/RLSA-2025:23326 
+│                        │      │                  ├ [7] : https://errata.rockylinux.org/RLSA-2025:23295 
 │                        │      │                  ├ [8] : https://go.dev/cl/709861 
 │                        │      │                  ├ [9] : https://go.dev/issue/75677 
 │                        │      │                  ├ [10]: https://groups.google.com/g/golang-announce/c/4Emdl2
@@ -29633,7 +29639,7 @@
 │                        │      │                  ├ [5] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                        │      │                  │       025-22871 
 │                        │      │                  ├ [6] : https://errata.almalinux.org/10/ALSA-2025-9146.html 
-│                        │      │                  ├ [7] : https://errata.rockylinux.org/RLSA-2025:9635 
+│                        │      │                  ├ [7] : https://errata.rockylinux.org/RLSA-2025:9317 
 │                        │      │                  ├ [8] : https://github.com/roadrunner-server/roadrunner 
 │                        │      │                  ├ [9] : https://github.com/roadrunner-server/roadrunner/comm
 │                        │      │                  │       it/f269279ee87d0b88127741cad1042389af7605fa 
@@ -29698,7 +29704,7 @@
 │                        │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                        │      │                  │       025-4673 
 │                        │      │                  ├ [5] : https://errata.almalinux.org/10/ALSA-2025-10677.html 
-│                        │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2025:15887 
+│                        │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2025:16432 
 │                        │      │                  ├ [7] : https://go.dev/cl/679257 
 │                        │      │                  ├ [8] : https://go.dev/issue/73816 
 │                        │      │                  ├ [9] : https://groups.google.com/g/golang-announce/c/ufZ8Wp
@@ -34811,7 +34817,7 @@
 │                        │      │                  ├ [5] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                        │      │                  │       025-58183 
 │                        │      │                  ├ [6] : https://errata.almalinux.org/10/ALSA-2025-23295.html 
-│                        │      │                  ├ [7] : https://errata.rockylinux.org/RLSA-2025:23326 
+│                        │      │                  ├ [7] : https://errata.rockylinux.org/RLSA-2025:23295 
 │                        │      │                  ├ [8] : https://go.dev/cl/709861 
 │                        │      │                  ├ [9] : https://go.dev/issue/75677 
 │                        │      │                  ├ [10]: https://groups.google.com/g/golang-announce/c/4Emdl2
@@ -36996,7 +37002,7 @@
 │                        │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                        │      │                  │       025-22869 
 │                        │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2025-3833.html 
-│                        │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2025:7416 
+│                        │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2025:7484 
 │                        │      │                  ├ [7] : https://github.com/golang/crypto 
 │                        │      │                  ├ [8] : https://github.com/golang/crypto/commit/7292932d45d5
 │                        │      │                  │       5c7199324ab0027cc86e8198aa22 
@@ -37441,7 +37447,7 @@
 │                        │      │                  ├ [5] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                        │      │                  │       025-58183 
 │                        │      │                  ├ [6] : https://errata.almalinux.org/10/ALSA-2025-23295.html 
-│                        │      │                  ├ [7] : https://errata.rockylinux.org/RLSA-2025:23326 
+│                        │      │                  ├ [7] : https://errata.rockylinux.org/RLSA-2025:23295 
 │                        │      │                  ├ [8] : https://go.dev/cl/709861 
 │                        │      │                  ├ [9] : https://go.dev/issue/75677 
 │                        │      │                  ├ [10]: https://groups.google.com/g/golang-announce/c/4Emdl2
@@ -37595,7 +37601,7 @@
 │                        │      │                  ├ [5] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                        │      │                  │       025-22871 
 │                        │      │                  ├ [6] : https://errata.almalinux.org/10/ALSA-2025-9146.html 
-│                        │      │                  ├ [7] : https://errata.rockylinux.org/RLSA-2025:9635 
+│                        │      │                  ├ [7] : https://errata.rockylinux.org/RLSA-2025:9317 
 │                        │      │                  ├ [8] : https://github.com/roadrunner-server/roadrunner 
 │                        │      │                  ├ [9] : https://github.com/roadrunner-server/roadrunner/comm
 │                        │      │                  │       it/f269279ee87d0b88127741cad1042389af7605fa 
@@ -37660,7 +37666,7 @@
 │                        │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                        │      │                  │       025-4673 
 │                        │      │                  ├ [5] : https://errata.almalinux.org/10/ALSA-2025-10677.html 
-│                        │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2025:15887 
+│                        │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2025:16432 
 │                        │      │                  ├ [7] : https://go.dev/cl/679257 
 │                        │      │                  ├ [8] : https://go.dev/issue/73816 
 │                        │      │                  ├ [9] : https://groups.google.com/g/golang-announce/c/ufZ8Wp
