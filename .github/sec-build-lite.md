@@ -23771,7 +23771,7 @@
 │                        │      ├ Severity        : LOW 
 │                        │      ├ CweIDs           ─ [0]: CWE-125 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 1 
+│                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ oracle-oval: 2 
 │                        │      │                  ├ photon     : 3 
 │                        │      │                  ├ redhat     : 2 
@@ -23796,7 +23796,7 @@
 │                        │      │                  │       6d0040afb6 
 │                        │      │                  ├ [11]: https://hackerone.com/reports/3294999 
 │                        │      │                  ├ [12]: https://linux.oracle.com/cve/CVE-2025-9086.html 
-│                        │      │                  ├ [13]: https://linux.oracle.com/errata/ELSA-2025-23383.html 
+│                        │      │                  ├ [13]: https://linux.oracle.com/errata/ELSA-2026-1350.html 
 │                        │      │                  ├ [14]: https://lists.debian.org/debian-lts-announce/2026/01
 │                        │      │                  │       /msg00002.html 
 │                        │      │                  ├ [15]: https://nvd.nist.gov/vuln/detail/CVE-2025-9086 
@@ -25095,18 +25095,21 @@
 │                        │      │                   pattern given typical sources of alignments. 
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-190 
-│                        │      ├ VendorSeverity   ╭ redhat: 1 
-│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ VendorSeverity   ╭ oracle-oval: 2 
+│                        │      │                  ├ redhat     : 1 
+│                        │      │                  ╰ ubuntu     : 2 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:
 │                        │      │                           │           H/A:H 
 │                        │      │                           ╰ V3Score : 8.1 
 │                        │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2026/01/16/5 
 │                        │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2026-0861 
-│                        │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2026-0861 
-│                        │      │                  ├ [3]: https://sourceware.org/bugzilla/show_bug.cgi?id=33796 
-│                        │      │                  ├ [4]: https://sourceware.org/git/?p=glibc.git;a=blob_plain;
+│                        │      │                  ├ [2]: https://linux.oracle.com/cve/CVE-2026-0861.html 
+│                        │      │                  ├ [3]: https://linux.oracle.com/errata/ELSA-2026-1334.html 
+│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2026-0861 
+│                        │      │                  ├ [5]: https://sourceware.org/bugzilla/show_bug.cgi?id=33796 
+│                        │      │                  ├ [6]: https://sourceware.org/git/?p=glibc.git;a=blob_plain;
 │                        │      │                  │      f=advisories/GLIBC-SA-2026-0001 
-│                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-0861 
+│                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-0861 
 │                        │      ├ PublishedDate   : 2026-01-14T21:15:52.617Z 
 │                        │      ╰ LastModifiedDate: 2026-01-16T18:16:09.343Z 
 │                        ├ [34] ╭ VulnerabilityID : CVE-2026-0861 
@@ -25154,18 +25157,21 @@
 │                        │      │                   pattern given typical sources of alignments. 
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-190 
-│                        │      ├ VendorSeverity   ╭ redhat: 1 
-│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ VendorSeverity   ╭ oracle-oval: 2 
+│                        │      │                  ├ redhat     : 1 
+│                        │      │                  ╰ ubuntu     : 2 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:
 │                        │      │                           │           H/A:H 
 │                        │      │                           ╰ V3Score : 8.1 
 │                        │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2026/01/16/5 
 │                        │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2026-0861 
-│                        │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2026-0861 
-│                        │      │                  ├ [3]: https://sourceware.org/bugzilla/show_bug.cgi?id=33796 
-│                        │      │                  ├ [4]: https://sourceware.org/git/?p=glibc.git;a=blob_plain;
+│                        │      │                  ├ [2]: https://linux.oracle.com/cve/CVE-2026-0861.html 
+│                        │      │                  ├ [3]: https://linux.oracle.com/errata/ELSA-2026-1334.html 
+│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2026-0861 
+│                        │      │                  ├ [5]: https://sourceware.org/bugzilla/show_bug.cgi?id=33796 
+│                        │      │                  ├ [6]: https://sourceware.org/git/?p=glibc.git;a=blob_plain;
 │                        │      │                  │      f=advisories/GLIBC-SA-2026-0001 
-│                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-0861 
+│                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-0861 
 │                        │      ├ PublishedDate   : 2026-01-14T21:15:52.617Z 
 │                        │      ╰ LastModifiedDate: 2026-01-16T18:16:09.343Z 
 │                        ├ [35] ╭ VulnerabilityID : CVE-2025-0167 
@@ -25471,7 +25477,7 @@
 │                        │      ├ Severity        : LOW 
 │                        │      ├ CweIDs           ─ [0]: CWE-125 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 1 
+│                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ oracle-oval: 2 
 │                        │      │                  ├ photon     : 3 
 │                        │      │                  ├ redhat     : 2 
@@ -25496,7 +25502,7 @@
 │                        │      │                  │       6d0040afb6 
 │                        │      │                  ├ [11]: https://hackerone.com/reports/3294999 
 │                        │      │                  ├ [12]: https://linux.oracle.com/cve/CVE-2025-9086.html 
-│                        │      │                  ├ [13]: https://linux.oracle.com/errata/ELSA-2025-23383.html 
+│                        │      │                  ├ [13]: https://linux.oracle.com/errata/ELSA-2026-1350.html 
 │                        │      │                  ├ [14]: https://lists.debian.org/debian-lts-announce/2026/01
 │                        │      │                  │       /msg00002.html 
 │                        │      │                  ├ [15]: https://nvd.nist.gov/vuln/detail/CVE-2025-9086 
@@ -25806,7 +25812,7 @@
 │                        │      ├ Severity        : LOW 
 │                        │      ├ CweIDs           ─ [0]: CWE-125 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 1 
+│                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ oracle-oval: 2 
 │                        │      │                  ├ photon     : 3 
 │                        │      │                  ├ redhat     : 2 
@@ -25831,7 +25837,7 @@
 │                        │      │                  │       6d0040afb6 
 │                        │      │                  ├ [11]: https://hackerone.com/reports/3294999 
 │                        │      │                  ├ [12]: https://linux.oracle.com/cve/CVE-2025-9086.html 
-│                        │      │                  ├ [13]: https://linux.oracle.com/errata/ELSA-2025-23383.html 
+│                        │      │                  ├ [13]: https://linux.oracle.com/errata/ELSA-2026-1350.html 
 │                        │      │                  ├ [14]: https://lists.debian.org/debian-lts-announce/2026/01
 │                        │      │                  │       /msg00002.html 
 │                        │      │                  ├ [15]: https://nvd.nist.gov/vuln/detail/CVE-2025-9086 
@@ -26441,7 +26447,683 @@
 │                        │      │                  ╰ [29]: https://www.cve.org/CVERecord?id=CVE-2025-8941 
 │                        │      ├ PublishedDate   : 2025-08-13T15:15:41.873Z 
 │                        │      ╰ LastModifiedDate: 2025-11-20T21:16:08.11Z 
-│                        ├ [59] ╭ VulnerabilityID : CVE-2024-56433 
+│                        ├ [59] ╭ VulnerabilityID : CVE-2025-15467 
+│                        │      ├ PkgID           : libssl3t64@3.0.13-0ubuntu3.6 
+│                        │      ├ PkgName         : libssl3t64 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libssl3t64@3.0.13-0ubuntu3.6?arch=amd
+│                        │      │                  │       64&distro=ubuntu-24.04 
+│                        │      │                  ╰ UID : 37b65e9c444d27dc 
+│                        │      ├ InstalledVersion: 3.0.13-0ubuntu3.6 
+│                        │      ├ FixedVersion    : 3.0.13-0ubuntu3.7 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:f1e619cd82f3403187fd9dec2bf9201cabc82520d69
+│                        │      │                  │         9cc2d17c7254627724993 
+│                        │      │                  ╰ DiffID: sha256:dbbb6288d2cfef4f9f62305539543183d31490710e5
+│                        │      │                            cd673e5a5fa8060d6e85a 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-15467 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Fingerprint     : sha256:cfa096e5520c4537a1c061d123af18fc5573d7adf64a1a58557a
+│                        │      │                   10e7e0a2a546 
+│                        │      ├ Title           : openssl: OpenSSL: Remote code execution or Denial of
+│                        │      │                   Service via oversized Initialization Vector in CMS parsing 
+│                        │      ├ Description     : Issue summary: Parsing CMS AuthEnvelopedData message with
+│                        │      │                   maliciously
+│                        │      │                   crafted AEAD parameters can trigger a stack buffer
+│                        │      │                   overflow.
+│                        │      │                   
+│                        │      │                   Impact summary: A stack buffer overflow may lead to a
+│                        │      │                   crash, causing Denial
+│                        │      │                   of Service, or potentially remote code execution.
+│                        │      │                   When parsing CMS AuthEnvelopedData structures that use AEAD
+│                        │      │                    ciphers such as
+│                        │      │                   AES-GCM, the IV (Initialization Vector) encoded in the
+│                        │      │                   ASN.1 parameters is
+│                        │      │                   copied into a fixed-size stack buffer without verifying
+│                        │      │                   that its length fits
+│                        │      │                   the destination. An attacker can supply a crafted CMS
+│                        │      │                   message with an
+│                        │      │                   oversized IV, causing a stack-based out-of-bounds write
+│                        │      │                   before any
+│                        │      │                   authentication or tag verification occurs.
+│                        │      │                   Applications and services that parse untrusted CMS or
+│                        │      │                   PKCS#7 content using
+│                        │      │                   AEAD ciphers (e.g., S/MIME AuthEnvelopedData with AES-GCM)
+│                        │      │                   are vulnerable.
+│                        │      │                   Because the overflow occurs prior to authentication, no
+│                        │      │                   valid key material
+│                        │      │                   is required to trigger it. While exploitability to remote
+│                        │      │                   code execution
+│                        │      │                   depends on platform and toolchain mitigations, the
+│                        │      │                   stack-based write
+│                        │      │                   primitive represents a severe risk.
+│                        │      │                   The FIPS modules in 3.6, 3.5, 3.4, 3.3 and 3.0 are not
+│                        │      │                   affected by this
+│                        │      │                   issue, as the CMS implementation is outside the OpenSSL
+│                        │      │                   FIPS module
+│                        │      │                   boundary.
+│                        │      │                   OpenSSL 3.6, 3.5, 3.4, 3.3 and 3.0 are vulnerable to this
+│                        │      │                   issue.
+│                        │      │                   OpenSSL 1.1.1 and 1.0.2 are not affected by this issue. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ CweIDs           ─ [0]: CWE-787 
+│                        │      ├ VendorSeverity   ╭ redhat: 3 
+│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:
+│                        │      │                           │           H/A:H 
+│                        │      │                           ╰ V3Score : 9.8 
+│                        │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2026/01/2
+│                        │      │                  │       7/10 
+│                        │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-15467 
+│                        │      │                  ├ [2] : https://github.com/openssl/openssl/commit/2c8f0e5fa9
+│                        │      │                  │       b6ee5508a0349e4572ddb74db5a703 
+│                        │      │                  ├ [3] : https://github.com/openssl/openssl/commit/5f26d4202f
+│                        │      │                  │       5b89664c5c3f3c62086276026ba9a9 
+│                        │      │                  ├ [4] : https://github.com/openssl/openssl/commit/6ced0fe6b1
+│                        │      │                  │       0faa560e410e3ee8d6c82f06c65ea3 
+│                        │      │                  ├ [5] : https://github.com/openssl/openssl/commit/ce39170276
+│                        │      │                  │       daec87f55c39dad1f629b56344429e 
+│                        │      │                  ├ [6] : https://github.com/openssl/openssl/commit/d0071a0799
+│                        │      │                  │       f20cc8101730145349ed4487c268dc 
+│                        │      │                  ├ [7] : https://nvd.nist.gov/vuln/detail/CVE-2025-15467 
+│                        │      │                  ├ [8] : https://openssl-library.org/news/secadv/20260127.txt 
+│                        │      │                  ├ [9] : https://ubuntu.com/security/notices/USN-7980-1 
+│                        │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2025-15467 
+│                        │      ├ PublishedDate   : 2026-01-27T16:16:14.257Z 
+│                        │      ╰ LastModifiedDate: 2026-01-27T22:15:51.597Z 
+│                        ├ [60] ╭ VulnerabilityID : CVE-2025-68160 
+│                        │      ├ PkgID           : libssl3t64@3.0.13-0ubuntu3.6 
+│                        │      ├ PkgName         : libssl3t64 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libssl3t64@3.0.13-0ubuntu3.6?arch=amd
+│                        │      │                  │       64&distro=ubuntu-24.04 
+│                        │      │                  ╰ UID : 37b65e9c444d27dc 
+│                        │      ├ InstalledVersion: 3.0.13-0ubuntu3.6 
+│                        │      ├ FixedVersion    : 3.0.13-0ubuntu3.7 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:f1e619cd82f3403187fd9dec2bf9201cabc82520d69
+│                        │      │                  │         9cc2d17c7254627724993 
+│                        │      │                  ╰ DiffID: sha256:dbbb6288d2cfef4f9f62305539543183d31490710e5
+│                        │      │                            cd673e5a5fa8060d6e85a 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-68160 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Fingerprint     : sha256:870ac5e4f61b682b8835d247160e272fe715f71fd451b1bddb23
+│                        │      │                   2f11a6b08299 
+│                        │      ├ Title           : openssl: OpenSSL: Denial of Service due to out-of-bounds
+│                        │      │                   write in BIO filter 
+│                        │      ├ Description     : Issue summary: Writing large, newline-free data into a BIO
+│                        │      │                   chain using the
+│                        │      │                   line-buffering filter where the next BIO performs short
+│                        │      │                   writes can trigger
+│                        │      │                   a heap-based out-of-bounds write.
+│                        │      │                   
+│                        │      │                   Impact summary: This out-of-bounds write can cause memory
+│                        │      │                   corruption which
+│                        │      │                   typically results in a crash, leading to Denial of Service
+│                        │      │                   for an application.
+│                        │      │                   The line-buffering BIO filter (BIO_f_linebuffer) is not
+│                        │      │                   used by default in
+│                        │      │                   TLS/SSL data paths. In OpenSSL command-line applications,
+│                        │      │                   it is typically
+│                        │      │                   only pushed onto stdout/stderr on VMS systems. Third-party
+│                        │      │                   applications that
+│                        │      │                   explicitly use this filter with a BIO chain that can
+│                        │      │                   short-write and that
+│                        │      │                   write large, newline-free data influenced by an attacker
+│                        │      │                   would be affected.
+│                        │      │                   However, the circumstances where this could happen are
+│                        │      │                   unlikely to be under
+│                        │      │                   attacker control, and BIO_f_linebuffer is unlikely to be
+│                        │      │                   handling non-curated
+│                        │      │                   data controlled by an attacker. For that reason the issue
+│                        │      │                   was assessed as
+│                        │      │                   Low severity.
+│                        │      │                   The FIPS modules in 3.6, 3.5, 3.4, 3.3 and 3.0 are not
+│                        │      │                   affected by this issue,
+│                        │      │                   as the BIO implementation is outside the OpenSSL FIPS
+│                        │      │                   module boundary.
+│                        │      │                   OpenSSL 3.6, 3.5, 3.4, 3.3, 3.0, 1.1.1 and 1.0.2 are
+│                        │      │                   vulnerable to this issue. 
+│                        │      ├ Severity        : LOW 
+│                        │      ├ CweIDs           ─ [0]: CWE-787 
+│                        │      ├ VendorSeverity   ╭ redhat: 1 
+│                        │      │                  ╰ ubuntu: 1 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:
+│                        │      │                           │           N/A:H 
+│                        │      │                           ╰ V3Score : 4.7 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2025-68160 
+│                        │      │                  ├ [1] : https://github.com/openssl/openssl/commit/384011202a
+│                        │      │                  │       f92605d926fafe4a0bcd6b65d162ad 
+│                        │      │                  ├ [2] : https://github.com/openssl/openssl/commit/475c466ef2
+│                        │      │                  │       fbd8fc1df6fae1c3eed9c813fc8ff6 
+│                        │      │                  ├ [3] : https://github.com/openssl/openssl/commit/4c96fbba61
+│                        │      │                  │       8e1940f038012506ee9e21d32ee12c 
+│                        │      │                  ├ [4] : https://github.com/openssl/openssl/commit/6845c3b646
+│                        │      │                  │       0a98b1ec4e463baa2ea1a63a32d7c0 
+│                        │      │                  ├ [5] : https://github.com/openssl/openssl/commit/68a7cd2e28
+│                        │      │                  │       16c3a02f4d45a2ce43fc04fac97096 
+│                        │      │                  ├ [6] : https://nvd.nist.gov/vuln/detail/CVE-2025-68160 
+│                        │      │                  ├ [7] : https://openssl-library.org/news/secadv/20260127.txt 
+│                        │      │                  ├ [8] : https://ubuntu.com/security/notices/USN-7980-1 
+│                        │      │                  ├ [9] : https://ubuntu.com/security/notices/USN-7980-2 
+│                        │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2025-68160 
+│                        │      ├ PublishedDate   : 2026-01-27T16:16:15.9Z 
+│                        │      ╰ LastModifiedDate: 2026-01-27T16:16:15.9Z 
+│                        ├ [61] ╭ VulnerabilityID : CVE-2025-69418 
+│                        │      ├ PkgID           : libssl3t64@3.0.13-0ubuntu3.6 
+│                        │      ├ PkgName         : libssl3t64 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libssl3t64@3.0.13-0ubuntu3.6?arch=amd
+│                        │      │                  │       64&distro=ubuntu-24.04 
+│                        │      │                  ╰ UID : 37b65e9c444d27dc 
+│                        │      ├ InstalledVersion: 3.0.13-0ubuntu3.6 
+│                        │      ├ FixedVersion    : 3.0.13-0ubuntu3.7 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:f1e619cd82f3403187fd9dec2bf9201cabc82520d69
+│                        │      │                  │         9cc2d17c7254627724993 
+│                        │      │                  ╰ DiffID: sha256:dbbb6288d2cfef4f9f62305539543183d31490710e5
+│                        │      │                            cd673e5a5fa8060d6e85a 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-69418 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Fingerprint     : sha256:220fcdaef40d757b1530fef1868beb560aea9140699be9e7ba0b
+│                        │      │                   83e8dfc376de 
+│                        │      ├ Title           : openssl: OpenSSL: Information disclosure and data tampering
+│                        │      │                    via specific low-level OCB encryption/decryption calls 
+│                        │      ├ Description     : Issue summary: When using the low-level OCB API directly
+│                        │      │                   with AES-NI or<br>other hardware-accelerated code paths,
+│                        │      │                   inputs whose length is not a multiple<br>of 16 bytes can
+│                        │      │                   leave the final partial block unencrypted and
+│                        │      │                   unauthenticated.<br><br>Impact summary: The trailing 1-15
+│                        │      │                   bytes of a message may be exposed in<br>cleartext on
+│                        │      │                   encryption and are not covered by the authentication
+│                        │      │                   tag,<br>allowing an attacker to read or tamper with those
+│                        │      │                   bytes without detection.<br><br>The low-level OCB encrypt
+│                        │      │                   and decrypt routines in the hardware-accelerated<br>stream
+│                        │      │                   path process full 16-byte blocks but do not advance the
+│                        │      │                   input/output<br>pointers. The subsequent tail-handling code
+│                        │      │                    then operates on the original<br>base pointers,
+│                        │      │                   effectively reprocessing the beginning of the buffer
+│                        │      │                   while<br>leaving the actual trailing bytes unprocessed. The
+│                        │      │                    authentication checksum<br>also excludes the true tail
+│                        │      │                   bytes.<br><br>However, typical OpenSSL consumers using EVP
+│                        │      │                   are not affected because the<br>higher-level EVP and
+│                        │      │                   provider OCB implementations split inputs so that
+│                        │      │                   full<br>blocks and trailing partial blocks are processed in
+│                        │      │                    separate calls, avoiding<br>the problematic code path.
+│                        │      │                   Additionally, TLS does not use OCB ciphersuites.<br>The
+│                        │      │                   vulnerability only affects applications that call the
+│                        │      │                   low-level<br>CRYPTO_ocb128_encrypt() or
+│                        │      │                   CRYPTO_ocb128_decrypt() functions directly
+│                        │      │                   with<br>non-block-aligned lengths in a single call on
+│                        │      │                   hardware-accelerated builds.<br>For these reasons the issue
+│                        │      │                    was assessed as Low severity.<br><br>The FIPS modules in
+│                        │      │                   3.6, 3.5, 3.4, 3.3, 3.2, 3.1 and 3.0 are not affected<br>by
+│                        │      │                    this issue, as OCB mode is not a FIPS-approved
+│                        │      │                   algorithm.<br><br>OpenSSL 3.6, 3.5, 3.4, 3.3, 3.0 and 1.1.1
+│                        │      │                    are vulnerable to this issue.<br><br>OpenSSL 1.0.2 is not
+│                        │      │                   affected by this issue. 
+│                        │      ├ Severity        : LOW 
+│                        │      ├ CweIDs           ─ [0]: CWE-325 
+│                        │      ├ VendorSeverity   ╭ redhat: 1 
+│                        │      │                  ╰ ubuntu: 1 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:L/I:
+│                        │      │                           │           L/A:N 
+│                        │      │                           ╰ V3Score : 4 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2025-69418 
+│                        │      │                  ├ [1] : https://github.com/openssl/openssl/commit/372fc5c775
+│                        │      │                  │       29695b05b4f5b5187691a57ef5dffc 
+│                        │      │                  ├ [2] : https://github.com/openssl/openssl/commit/4016975d44
+│                        │      │                  │       69cd6b94927c607f7c511385f928d8 
+│                        │      │                  ├ [3] : https://github.com/openssl/openssl/commit/52d23c86a5
+│                        │      │                  │       4adab5ee9f80e48b242b52c4cc2347 
+│                        │      │                  ├ [4] : https://github.com/openssl/openssl/commit/a758923035
+│                        │      │                  │       6d908c0eca4b969ec4f62106f4f5ae 
+│                        │      │                  ├ [5] : https://github.com/openssl/openssl/commit/ed40856d7d
+│                        │      │                  │       4ba6cb42779b6770666a65f19cb977 
+│                        │      │                  ├ [6] : https://nvd.nist.gov/vuln/detail/CVE-2025-69418 
+│                        │      │                  ├ [7] : https://openssl-library.org/news/secadv/20260127.txt 
+│                        │      │                  ├ [8] : https://ubuntu.com/security/notices/USN-7980-1 
+│                        │      │                  ├ [9] : https://ubuntu.com/security/notices/USN-7980-2 
+│                        │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2025-69418 
+│                        │      ├ PublishedDate   : 2026-01-27T16:16:33.253Z 
+│                        │      ╰ LastModifiedDate: 2026-01-27T16:16:33.253Z 
+│                        ├ [62] ╭ VulnerabilityID : CVE-2025-69419 
+│                        │      ├ PkgID           : libssl3t64@3.0.13-0ubuntu3.6 
+│                        │      ├ PkgName         : libssl3t64 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libssl3t64@3.0.13-0ubuntu3.6?arch=amd
+│                        │      │                  │       64&distro=ubuntu-24.04 
+│                        │      │                  ╰ UID : 37b65e9c444d27dc 
+│                        │      ├ InstalledVersion: 3.0.13-0ubuntu3.6 
+│                        │      ├ FixedVersion    : 3.0.13-0ubuntu3.7 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:f1e619cd82f3403187fd9dec2bf9201cabc82520d69
+│                        │      │                  │         9cc2d17c7254627724993 
+│                        │      │                  ╰ DiffID: sha256:dbbb6288d2cfef4f9f62305539543183d31490710e5
+│                        │      │                            cd673e5a5fa8060d6e85a 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-69419 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Fingerprint     : sha256:f2fd8d39a45bb5bda0f5a3774fe08aaf0279ca05ab919fdd61c0
+│                        │      │                   b78f9b136719 
+│                        │      ├ Title           : openssl: OpenSSL: Arbitrary code execution due to
+│                        │      │                   out-of-bounds write in PKCS#12 processing 
+│                        │      ├ Description     : Issue summary: Calling PKCS12_get_friendlyname() function
+│                        │      │                   on a maliciously
+│                        │      │                   crafted PKCS#12 file with a BMPString (UTF-16BE) friendly
+│                        │      │                   name containing
+│                        │      │                   non-ASCII BMP code point can trigger a one byte write
+│                        │      │                   before the allocated
+│                        │      │                   buffer.
+│                        │      │                   
+│                        │      │                   Impact summary: The out-of-bounds write can cause a memory
+│                        │      │                   corruption
+│                        │      │                   which can have various consequences including a Denial of
+│                        │      │                   Service.
+│                        │      │                   The OPENSSL_uni2utf8() function performs a two-pass
+│                        │      │                   conversion of a PKCS#12
+│                        │      │                   BMPString (UTF-16BE) to UTF-8. In the second pass, when
+│                        │      │                   emitting UTF-8 bytes,
+│                        │      │                   the helper function bmp_to_utf8() incorrectly forwards the
+│                        │      │                   remaining UTF-16
+│                        │      │                   source byte count as the destination buffer capacity to
+│                        │      │                   UTF8_putc(). For BMP
+│                        │      │                   code points above U+07FF, UTF-8 requires three bytes, but
+│                        │      │                   the forwarded
+│                        │      │                   capacity can be just two bytes. UTF8_putc() then returns
+│                        │      │                   -1, and this negative
+│                        │      │                   value is added to the output length without validation,
+│                        │      │                   causing the
+│                        │      │                   length to become negative. The subsequent trailing NUL byte
+│                        │      │                    is then written
+│                        │      │                   at a negative offset, causing write outside of heap
+│                        │      │                   allocated buffer.
+│                        │      │                   The vulnerability is reachable via the public
+│                        │      │                   PKCS12_get_friendlyname() API
+│                        │      │                   when parsing attacker-controlled PKCS#12 files. While
+│                        │      │                   PKCS12_parse() uses a
+│                        │      │                   different code path that avoids this issue,
+│                        │      │                   PKCS12_get_friendlyname() directly
+│                        │      │                   invokes the vulnerable function. Exploitation requires an
+│                        │      │                   attacker to provide
+│                        │      │                   a malicious PKCS#12 file to be parsed by the application
+│                        │      │                   and the attacker
+│                        │      │                   can just trigger a one zero byte write before the allocated
+│                        │      │                    buffer.
+│                        │      │                   For that reason the issue was assessed as Low severity
+│                        │      │                   according to our
+│                        │      │                   Security Policy.
+│                        │      │                   The FIPS modules in 3.6, 3.5, 3.4, 3.3 and 3.0 are not
+│                        │      │                   affected by this issue,
+│                        │      │                   as the PKCS#12 implementation is outside the OpenSSL FIPS
+│                        │      │                   module boundary.
+│                        │      │                   OpenSSL 3.6, 3.5, 3.4, 3.3, 3.0 and 1.1.1 are vulnerable to
+│                        │      │                    this issue.
+│                        │      │                   OpenSSL 1.0.2 is not affected by this issue. 
+│                        │      ├ Severity        : LOW 
+│                        │      ├ CweIDs           ─ [0]: CWE-787 
+│                        │      ├ VendorSeverity   ╭ redhat: 2 
+│                        │      │                  ╰ ubuntu: 1 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:
+│                        │      │                           │           H/A:N 
+│                        │      │                           ╰ V3Score : 7.4 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2025-69419 
+│                        │      │                  ├ [1] : https://github.com/openssl/openssl/commit/41be0f2164
+│                        │      │                  │       04f14457bbf3b9cc488dba60b49296 
+│                        │      │                  ├ [2] : https://github.com/openssl/openssl/commit/7e9cac9832
+│                        │      │                  │       e4705b91987c2474ed06a37a93cecb 
+│                        │      │                  ├ [3] : https://github.com/openssl/openssl/commit/a26a90d38e
+│                        │      │                  │       dec3748566129d824e664b54bee2e2 
+│                        │      │                  ├ [4] : https://github.com/openssl/openssl/commit/cda12de3bc
+│                        │      │                  │       0e333ea8d2c6fd15001dbdaf280015 
+│                        │      │                  ├ [5] : https://github.com/openssl/openssl/commit/ff62893375
+│                        │      │                  │       5075446bca8307e8417c14d164b535 
+│                        │      │                  ├ [6] : https://nvd.nist.gov/vuln/detail/CVE-2025-69419 
+│                        │      │                  ├ [7] : https://openssl-library.org/news/secadv/20260127.txt 
+│                        │      │                  ├ [8] : https://ubuntu.com/security/notices/USN-7980-1 
+│                        │      │                  ├ [9] : https://ubuntu.com/security/notices/USN-7980-2 
+│                        │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2025-69419 
+│                        │      ├ PublishedDate   : 2026-01-27T16:16:34.113Z 
+│                        │      ╰ LastModifiedDate: 2026-01-27T16:16:34.113Z 
+│                        ├ [63] ╭ VulnerabilityID : CVE-2025-69420 
+│                        │      ├ PkgID           : libssl3t64@3.0.13-0ubuntu3.6 
+│                        │      ├ PkgName         : libssl3t64 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libssl3t64@3.0.13-0ubuntu3.6?arch=amd
+│                        │      │                  │       64&distro=ubuntu-24.04 
+│                        │      │                  ╰ UID : 37b65e9c444d27dc 
+│                        │      ├ InstalledVersion: 3.0.13-0ubuntu3.6 
+│                        │      ├ FixedVersion    : 3.0.13-0ubuntu3.7 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:f1e619cd82f3403187fd9dec2bf9201cabc82520d69
+│                        │      │                  │         9cc2d17c7254627724993 
+│                        │      │                  ╰ DiffID: sha256:dbbb6288d2cfef4f9f62305539543183d31490710e5
+│                        │      │                            cd673e5a5fa8060d6e85a 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-69420 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Fingerprint     : sha256:7f6d7e42529a972c27273c48b82d4aa4c501905f324713218195
+│                        │      │                   fda85fcd1ea6 
+│                        │      ├ Title           : openssl: OpenSSL: Denial of Service via malformed TimeStamp
+│                        │      │                    Response 
+│                        │      ├ Description     : Issue summary: A type confusion vulnerability exists in the
+│                        │      │                    TimeStamp Response
+│                        │      │                   verification code where an ASN1_TYPE union member is
+│                        │      │                   accessed without first
+│                        │      │                   validating the type, causing an invalid or NULL pointer
+│                        │      │                   dereference when
+│                        │      │                   processing a malformed TimeStamp Response file.
+│                        │      │                   
+│                        │      │                   Impact summary: An application calling
+│                        │      │                   TS_RESP_verify_response() with a
+│                        │      │                   malformed TimeStamp Response can be caused to dereference
+│                        │      │                   an invalid or
+│                        │      │                   NULL pointer when reading, resulting in a Denial of
+│                        │      │                   Service.
+│                        │      │                   The functions ossl_ess_get_signing_cert() and
+│                        │      │                   ossl_ess_get_signing_cert_v2()
+│                        │      │                   access the signing cert attribute value without validating
+│                        │      │                   its type.
+│                        │      │                   When the type is not V_ASN1_SEQUENCE, this results in
+│                        │      │                   accessing invalid memory
+│                        │      │                   through the ASN1_TYPE union, causing a crash.
+│                        │      │                   Exploiting this vulnerability requires an attacker to
+│                        │      │                   provide a malformed
+│                        │      │                   TimeStamp Response to an application that verifies
+│                        │      │                   timestamp responses. The
+│                        │      │                   TimeStamp protocol (RFC 3161) is not widely used and the
+│                        │      │                   impact of the
+│                        │      │                   exploit is just a Denial of Service. For these reasons the
+│                        │      │                   issue was
+│                        │      │                   assessed as Low severity.
+│                        │      │                   The FIPS modules in 3.5, 3.4, 3.3 and 3.0 are not affected
+│                        │      │                   by this issue,
+│                        │      │                   as the TimeStamp Response implementation is outside the
+│                        │      │                   OpenSSL FIPS module
+│                        │      │                   boundary.
+│                        │      │                   OpenSSL 3.6, 3.5, 3.4, 3.3, 3.0 and 1.1.1 are vulnerable to
+│                        │      │                    this issue.
+│                        │      │                   OpenSSL 1.0.2 is not affected by this issue. 
+│                        │      ├ Severity        : LOW 
+│                        │      ├ CweIDs           ─ [0]: CWE-754 
+│                        │      ├ VendorSeverity   ╭ redhat: 1 
+│                        │      │                  ╰ ubuntu: 1 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:
+│                        │      │                           │           N/A:H 
+│                        │      │                           ╰ V3Score : 5.9 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2025-69420 
+│                        │      │                  ├ [1] : https://github.com/openssl/openssl/commit/27c7012c91
+│                        │      │                  │       cc986a598d7540f3079dfde2416eb9 
+│                        │      │                  ├ [2] : https://github.com/openssl/openssl/commit/4e254b48ad
+│                        │      │                  │       93cc092be3dd62d97015f33f73133a 
+│                        │      │                  ├ [3] : https://github.com/openssl/openssl/commit/564fd9c737
+│                        │      │                  │       87f25693bf9e75faf7bf6bb1305d4e 
+│                        │      │                  ├ [4] : https://github.com/openssl/openssl/commit/5eb0770ffc
+│                        │      │                  │       f11b785cf374ff3c19196245e54f1b 
+│                        │      │                  ├ [5] : https://github.com/openssl/openssl/commit/a99349ebfc
+│                        │      │                  │       519999edc50620abe24d599b9eb085 
+│                        │      │                  ├ [6] : https://nvd.nist.gov/vuln/detail/CVE-2025-69420 
+│                        │      │                  ├ [7] : https://openssl-library.org/news/secadv/20260127.txt 
+│                        │      │                  ├ [8] : https://ubuntu.com/security/notices/USN-7980-1 
+│                        │      │                  ├ [9] : https://ubuntu.com/security/notices/USN-7980-2 
+│                        │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2025-69420 
+│                        │      ├ PublishedDate   : 2026-01-27T16:16:34.317Z 
+│                        │      ╰ LastModifiedDate: 2026-01-27T16:16:34.317Z 
+│                        ├ [64] ╭ VulnerabilityID : CVE-2025-69421 
+│                        │      ├ PkgID           : libssl3t64@3.0.13-0ubuntu3.6 
+│                        │      ├ PkgName         : libssl3t64 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libssl3t64@3.0.13-0ubuntu3.6?arch=amd
+│                        │      │                  │       64&distro=ubuntu-24.04 
+│                        │      │                  ╰ UID : 37b65e9c444d27dc 
+│                        │      ├ InstalledVersion: 3.0.13-0ubuntu3.6 
+│                        │      ├ FixedVersion    : 3.0.13-0ubuntu3.7 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:f1e619cd82f3403187fd9dec2bf9201cabc82520d69
+│                        │      │                  │         9cc2d17c7254627724993 
+│                        │      │                  ╰ DiffID: sha256:dbbb6288d2cfef4f9f62305539543183d31490710e5
+│                        │      │                            cd673e5a5fa8060d6e85a 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-69421 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Fingerprint     : sha256:d4aa0712e36b0eeeda62c580adbc6e18b7d481fcac166c8d9746
+│                        │      │                   ba722c9560db 
+│                        │      ├ Title           : openssl: OpenSSL: Denial of Service via malformed PKCS#12
+│                        │      │                   file processing 
+│                        │      ├ Description     : Issue summary: Processing a malformed PKCS#12 file can
+│                        │      │                   trigger a NULL pointer
+│                        │      │                   dereference in the PKCS12_item_decrypt_d2i_ex() function.
+│                        │      │                   
+│                        │      │                   Impact summary: A NULL pointer dereference can trigger a
+│                        │      │                   crash which leads to
+│                        │      │                   Denial of Service for an application processing PKCS#12
+│                        │      │                   files.
+│                        │      │                   The PKCS12_item_decrypt_d2i_ex() function does not check
+│                        │      │                   whether the oct
+│                        │      │                   parameter is NULL before dereferencing it. When called
+│                        │      │                   from
+│                        │      │                   PKCS12_unpack_p7encdata() with a malformed PKCS#12 file,
+│                        │      │                   this parameter can
+│                        │      │                   be NULL, causing a crash. The vulnerability is limited to
+│                        │      │                   Denial of Service
+│                        │      │                   and cannot be escalated to achieve code execution or memory
+│                        │      │                    disclosure.
+│                        │      │                   Exploiting this issue requires an attacker to provide a
+│                        │      │                   malformed PKCS#12 file
+│                        │      │                   to an application that processes it. For that reason the
+│                        │      │                   issue was assessed as
+│                        │      │                   Low severity according to our Security Policy.
+│                        │      │                   The FIPS modules in 3.6, 3.5, 3.4, 3.3 and 3.0 are not
+│                        │      │                   affected by this issue,
+│                        │      │                   as the PKCS#12 implementation is outside the OpenSSL FIPS
+│                        │      │                   module boundary.
+│                        │      │                   OpenSSL 3.6, 3.5, 3.4, 3.3, 3.0, 1.1.1 and 1.0.2 are
+│                        │      │                   vulnerable to this issue. 
+│                        │      ├ Severity        : LOW 
+│                        │      ├ CweIDs           ─ [0]: CWE-476 
+│                        │      ├ VendorSeverity   ╭ redhat: 1 
+│                        │      │                  ╰ ubuntu: 1 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:
+│                        │      │                           │           N/A:H 
+│                        │      │                           ╰ V3Score : 6.5 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2025-69421 
+│                        │      │                  ├ [1] : https://github.com/openssl/openssl/commit/3524a29271
+│                        │      │                  │       f8191b8fd8a5257eb05173982a097b 
+│                        │      │                  ├ [2] : https://github.com/openssl/openssl/commit/36ecb49608
+│                        │      │                  │       72a4ce04bf6f1e1f4e78d75ec0c0c7 
+│                        │      │                  ├ [3] : https://github.com/openssl/openssl/commit/4bbc8d41a7
+│                        │      │                  │       2c842ce4077a8a3eccd1109aaf74bd 
+│                        │      │                  ├ [4] : https://github.com/openssl/openssl/commit/643986985c
+│                        │      │                  │       d1c21221f941129d76fe0c2785aeb3 
+│                        │      │                  ├ [5] : https://github.com/openssl/openssl/commit/a2dbc539f0
+│                        │      │                  │       f9cc63832709fa5aa33ad9495eb19c 
+│                        │      │                  ├ [6] : https://nvd.nist.gov/vuln/detail/CVE-2025-69421 
+│                        │      │                  ├ [7] : https://openssl-library.org/news/secadv/20260127.txt 
+│                        │      │                  ├ [8] : https://ubuntu.com/security/notices/USN-7980-1 
+│                        │      │                  ├ [9] : https://ubuntu.com/security/notices/USN-7980-2 
+│                        │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2025-69421 
+│                        │      ├ PublishedDate   : 2026-01-27T16:16:34.437Z 
+│                        │      ╰ LastModifiedDate: 2026-01-27T16:16:34.437Z 
+│                        ├ [65] ╭ VulnerabilityID : CVE-2026-22795 
+│                        │      ├ PkgID           : libssl3t64@3.0.13-0ubuntu3.6 
+│                        │      ├ PkgName         : libssl3t64 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libssl3t64@3.0.13-0ubuntu3.6?arch=amd
+│                        │      │                  │       64&distro=ubuntu-24.04 
+│                        │      │                  ╰ UID : 37b65e9c444d27dc 
+│                        │      ├ InstalledVersion: 3.0.13-0ubuntu3.6 
+│                        │      ├ FixedVersion    : 3.0.13-0ubuntu3.7 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:f1e619cd82f3403187fd9dec2bf9201cabc82520d69
+│                        │      │                  │         9cc2d17c7254627724993 
+│                        │      │                  ╰ DiffID: sha256:dbbb6288d2cfef4f9f62305539543183d31490710e5
+│                        │      │                            cd673e5a5fa8060d6e85a 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-22795 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Fingerprint     : sha256:345401d8bdb2c3aa12370cce8e05b8aa31fe9c4405a4b8e448a8
+│                        │      │                   34db806516bb 
+│                        │      ├ Title           : openssl: OpenSSL: Denial of Service due to type confusion
+│                        │      │                   in PKCS#12 file processing 
+│                        │      ├ Description     : Issue summary: An invalid or NULL pointer dereference can
+│                        │      │                   happen in
+│                        │      │                   an application processing a malformed PKCS#12 file.
+│                        │      │                   
+│                        │      │                   Impact summary: An application processing a malformed
+│                        │      │                   PKCS#12 file can be
+│                        │      │                   caused to dereference an invalid or NULL pointer on memory
+│                        │      │                   read, resulting
+│                        │      │                   in a Denial of Service.
+│                        │      │                   A type confusion vulnerability exists in PKCS#12 parsing
+│                        │      │                   code where
+│                        │      │                   an ASN1_TYPE union member is accessed without first
+│                        │      │                   validating the type,
+│                        │      │                   causing an invalid pointer read.
+│                        │      │                   The location is constrained to a 1-byte address space,
+│                        │      │                   meaning any
+│                        │      │                   attempted pointer manipulation can only target addresses
+│                        │      │                   between 0x00 and 0xFF.
+│                        │      │                   This range corresponds to the zero page, which is unmapped
+│                        │      │                   on most modern
+│                        │      │                   operating systems and will reliably result in a crash,
+│                        │      │                   leading only to a
+│                        │      │                   Denial of Service. Exploiting this issue also requires a
+│                        │      │                   user or application
+│                        │      │                   to process a maliciously crafted PKCS#12 file. It is
+│                        │      │                   uncommon to accept
+│                        │      │                   untrusted PKCS#12 files in applications as they are usually
+│                        │      │                    used to store
+│                        │      │                   private keys which are trusted by definition. For these
+│                        │      │                   reasons, the issue
+│                        │      │                   was assessed as Low severity.
+│                        │      │                   The FIPS modules in 3.5, 3.4, 3.3 and 3.0 are not affected
+│                        │      │                   by this issue,
+│                        │      │                   as the PKCS12 implementation is outside the OpenSSL FIPS
+│                        │      │                   module boundary.
+│                        │      │                   OpenSSL 3.6, 3.5, 3.4, 3.3, 3.0 and 1.1.1 are vulnerable to
+│                        │      │                    this issue.
+│                        │      │                   OpenSSL 1.0.2 is not affected by this issue. 
+│                        │      ├ Severity        : LOW 
+│                        │      ├ CweIDs           ─ [0]: CWE-754 
+│                        │      ├ VendorSeverity   ╭ redhat: 1 
+│                        │      │                  ╰ ubuntu: 1 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:
+│                        │      │                           │           N/A:H 
+│                        │      │                           ╰ V3Score : 5.5 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2026-22795 
+│                        │      │                  ├ [1] : https://github.com/openssl/openssl/commit/2502e7b7d4
+│                        │      │                  │       c0cf4f972a881641fe09edc67aeec4 
+│                        │      │                  ├ [2] : https://github.com/openssl/openssl/commit/572844beca
+│                        │      │                  │       95068394c916626a6d3a490f831a49 
+│                        │      │                  ├ [3] : https://github.com/openssl/openssl/commit/7bbca05be5
+│                        │      │                  │       5b129651d9df4bdb92becc45002c12 
+│                        │      │                  ├ [4] : https://github.com/openssl/openssl/commit/eeee3cbd4d
+│                        │      │                  │       682095ed431052f00403004596373e 
+│                        │      │                  ├ [5] : https://github.com/openssl/openssl/commit/ef2fb66ec5
+│                        │      │                  │       71564d64d1c74a12e388a2a54d05d2 
+│                        │      │                  ├ [6] : https://nvd.nist.gov/vuln/detail/CVE-2026-22795 
+│                        │      │                  ├ [7] : https://openssl-library.org/news/secadv/20260127.txt 
+│                        │      │                  ├ [8] : https://ubuntu.com/security/notices/USN-7980-1 
+│                        │      │                  ├ [9] : https://ubuntu.com/security/notices/USN-7980-2 
+│                        │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2026-22795 
+│                        │      ├ PublishedDate   : 2026-01-27T16:16:35.43Z 
+│                        │      ╰ LastModifiedDate: 2026-01-27T16:16:35.43Z 
+│                        ├ [66] ╭ VulnerabilityID : CVE-2026-22796 
+│                        │      ├ PkgID           : libssl3t64@3.0.13-0ubuntu3.6 
+│                        │      ├ PkgName         : libssl3t64 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libssl3t64@3.0.13-0ubuntu3.6?arch=amd
+│                        │      │                  │       64&distro=ubuntu-24.04 
+│                        │      │                  ╰ UID : 37b65e9c444d27dc 
+│                        │      ├ InstalledVersion: 3.0.13-0ubuntu3.6 
+│                        │      ├ FixedVersion    : 3.0.13-0ubuntu3.7 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:f1e619cd82f3403187fd9dec2bf9201cabc82520d69
+│                        │      │                  │         9cc2d17c7254627724993 
+│                        │      │                  ╰ DiffID: sha256:dbbb6288d2cfef4f9f62305539543183d31490710e5
+│                        │      │                            cd673e5a5fa8060d6e85a 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-22796 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Fingerprint     : sha256:9b6c2b4c7c67ce9191860928ac27192c4bfb4814ee268c37c37a
+│                        │      │                   3e3122a8cf12 
+│                        │      ├ Title           : openssl: OpenSSL: Denial of Service via type confusion in
+│                        │      │                   PKCS#7 signature verification 
+│                        │      ├ Description     : Issue summary: A type confusion vulnerability exists in the
+│                        │      │                    signature
+│                        │      │                   verification of signed PKCS#7 data where an ASN1_TYPE union
+│                        │      │                    member is
+│                        │      │                   accessed without first validating the type, causing an
+│                        │      │                   invalid or NULL
+│                        │      │                   pointer dereference when processing malformed PKCS#7 data.
+│                        │      │                   
+│                        │      │                   Impact summary: An application performing signature
+│                        │      │                   verification of PKCS#7
+│                        │      │                   data or calling directly the PKCS7_digest_from_attributes()
+│                        │      │                    function can be
+│                        │      │                   caused to dereference an invalid or NULL pointer when
+│                        │      │                   reading, resulting in
+│                        │      │                   a Denial of Service.
+│                        │      │                   The function PKCS7_digest_from_attributes() accesses the
+│                        │      │                   message digest attribute
+│                        │      │                   value without validating its type. When the type is not
+│                        │      │                   V_ASN1_OCTET_STRING,
+│                        │      │                   this results in accessing invalid memory through the
+│                        │      │                   ASN1_TYPE union, causing
+│                        │      │                   a crash.
+│                        │      │                   Exploiting this vulnerability requires an attacker to
+│                        │      │                   provide a malformed
+│                        │      │                   signed PKCS#7 to an application that verifies it. The
+│                        │      │                   impact of the
+│                        │      │                   exploit is just a Denial of Service, the PKCS7 API is
+│                        │      │                   legacy and applications
+│                        │      │                   should be using the CMS API instead. For these reasons the
+│                        │      │                   issue was
+│                        │      │                   assessed as Low severity.
+│                        │      │                   The FIPS modules in 3.5, 3.4, 3.3 and 3.0 are not affected
+│                        │      │                   by this issue,
+│                        │      │                   as the PKCS#7 parsing implementation is outside the OpenSSL
+│                        │      │                    FIPS module
+│                        │      │                   boundary.
+│                        │      │                   OpenSSL 3.6, 3.5, 3.4, 3.3, 3.0, 1.1.1 and 1.0.2 are
+│                        │      │                   vulnerable to this issue. 
+│                        │      ├ Severity        : LOW 
+│                        │      ├ CweIDs           ─ [0]: CWE-754 
+│                        │      ├ VendorSeverity   ╭ redhat: 1 
+│                        │      │                  ╰ ubuntu: 1 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:
+│                        │      │                           │           N/A:H 
+│                        │      │                           ╰ V3Score : 5.9 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2026-22796 
+│                        │      │                  ├ [1] : https://github.com/openssl/openssl/commit/2502e7b7d4
+│                        │      │                  │       c0cf4f972a881641fe09edc67aeec4 
+│                        │      │                  ├ [2] : https://github.com/openssl/openssl/commit/572844beca
+│                        │      │                  │       95068394c916626a6d3a490f831a49 
+│                        │      │                  ├ [3] : https://github.com/openssl/openssl/commit/7bbca05be5
+│                        │      │                  │       5b129651d9df4bdb92becc45002c12 
+│                        │      │                  ├ [4] : https://github.com/openssl/openssl/commit/eeee3cbd4d
+│                        │      │                  │       682095ed431052f00403004596373e 
+│                        │      │                  ├ [5] : https://github.com/openssl/openssl/commit/ef2fb66ec5
+│                        │      │                  │       71564d64d1c74a12e388a2a54d05d2 
+│                        │      │                  ├ [6] : https://nvd.nist.gov/vuln/detail/CVE-2026-22796 
+│                        │      │                  ├ [7] : https://openssl-library.org/news/secadv/20260127.txt 
+│                        │      │                  ├ [8] : https://ubuntu.com/security/notices/USN-7980-1 
+│                        │      │                  ├ [9] : https://ubuntu.com/security/notices/USN-7980-2 
+│                        │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2026-22796 
+│                        │      ├ PublishedDate   : 2026-01-27T16:16:35.543Z 
+│                        │      ╰ LastModifiedDate: 2026-01-27T17:16:12.553Z 
+│                        ├ [67] ╭ VulnerabilityID : CVE-2024-56433 
 │                        │      ├ PkgID           : libsubid4@1:4.13+dfsg1-4ubuntu3.2 
 │                        │      ├ PkgName         : libsubid4 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libsubid4@4.13%2Bdfsg1-4ubuntu3.2?arc
@@ -26504,7 +27186,7 @@
 │                        │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                        │      ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                        │      ╰ LastModifiedDate: 2024-12-26T09:15:07.267Z 
-│                        ├ [60] ╭ VulnerabilityID : CVE-2024-56433 
+│                        ├ [68] ╭ VulnerabilityID : CVE-2024-56433 
 │                        │      ├ PkgID           : login@1:4.13+dfsg1-4ubuntu3.2 
 │                        │      ├ PkgName         : login 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/login@4.13%2Bdfsg1-4ubuntu3.2?arch=am
@@ -26567,7 +27249,683 @@
 │                        │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                        │      ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                        │      ╰ LastModifiedDate: 2024-12-26T09:15:07.267Z 
-│                        ├ [61] ╭ VulnerabilityID : CVE-2024-56433 
+│                        ├ [69] ╭ VulnerabilityID : CVE-2025-15467 
+│                        │      ├ PkgID           : openssl@3.0.13-0ubuntu3.6 
+│                        │      ├ PkgName         : openssl 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl@3.0.13-0ubuntu3.6?arch=amd64&
+│                        │      │                  │       distro=ubuntu-24.04 
+│                        │      │                  ╰ UID : e0d2a32b6dd1685e 
+│                        │      ├ InstalledVersion: 3.0.13-0ubuntu3.6 
+│                        │      ├ FixedVersion    : 3.0.13-0ubuntu3.7 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:f1e619cd82f3403187fd9dec2bf9201cabc82520d69
+│                        │      │                  │         9cc2d17c7254627724993 
+│                        │      │                  ╰ DiffID: sha256:dbbb6288d2cfef4f9f62305539543183d31490710e5
+│                        │      │                            cd673e5a5fa8060d6e85a 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-15467 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Fingerprint     : sha256:0a0ed4b50df42e49dbdbdca046e965ec7a1c7a5d54c5132c10f0
+│                        │      │                   3a82ed7c4677 
+│                        │      ├ Title           : openssl: OpenSSL: Remote code execution or Denial of
+│                        │      │                   Service via oversized Initialization Vector in CMS parsing 
+│                        │      ├ Description     : Issue summary: Parsing CMS AuthEnvelopedData message with
+│                        │      │                   maliciously
+│                        │      │                   crafted AEAD parameters can trigger a stack buffer
+│                        │      │                   overflow.
+│                        │      │                   
+│                        │      │                   Impact summary: A stack buffer overflow may lead to a
+│                        │      │                   crash, causing Denial
+│                        │      │                   of Service, or potentially remote code execution.
+│                        │      │                   When parsing CMS AuthEnvelopedData structures that use AEAD
+│                        │      │                    ciphers such as
+│                        │      │                   AES-GCM, the IV (Initialization Vector) encoded in the
+│                        │      │                   ASN.1 parameters is
+│                        │      │                   copied into a fixed-size stack buffer without verifying
+│                        │      │                   that its length fits
+│                        │      │                   the destination. An attacker can supply a crafted CMS
+│                        │      │                   message with an
+│                        │      │                   oversized IV, causing a stack-based out-of-bounds write
+│                        │      │                   before any
+│                        │      │                   authentication or tag verification occurs.
+│                        │      │                   Applications and services that parse untrusted CMS or
+│                        │      │                   PKCS#7 content using
+│                        │      │                   AEAD ciphers (e.g., S/MIME AuthEnvelopedData with AES-GCM)
+│                        │      │                   are vulnerable.
+│                        │      │                   Because the overflow occurs prior to authentication, no
+│                        │      │                   valid key material
+│                        │      │                   is required to trigger it. While exploitability to remote
+│                        │      │                   code execution
+│                        │      │                   depends on platform and toolchain mitigations, the
+│                        │      │                   stack-based write
+│                        │      │                   primitive represents a severe risk.
+│                        │      │                   The FIPS modules in 3.6, 3.5, 3.4, 3.3 and 3.0 are not
+│                        │      │                   affected by this
+│                        │      │                   issue, as the CMS implementation is outside the OpenSSL
+│                        │      │                   FIPS module
+│                        │      │                   boundary.
+│                        │      │                   OpenSSL 3.6, 3.5, 3.4, 3.3 and 3.0 are vulnerable to this
+│                        │      │                   issue.
+│                        │      │                   OpenSSL 1.1.1 and 1.0.2 are not affected by this issue. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ CweIDs           ─ [0]: CWE-787 
+│                        │      ├ VendorSeverity   ╭ redhat: 3 
+│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:
+│                        │      │                           │           H/A:H 
+│                        │      │                           ╰ V3Score : 9.8 
+│                        │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2026/01/2
+│                        │      │                  │       7/10 
+│                        │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-15467 
+│                        │      │                  ├ [2] : https://github.com/openssl/openssl/commit/2c8f0e5fa9
+│                        │      │                  │       b6ee5508a0349e4572ddb74db5a703 
+│                        │      │                  ├ [3] : https://github.com/openssl/openssl/commit/5f26d4202f
+│                        │      │                  │       5b89664c5c3f3c62086276026ba9a9 
+│                        │      │                  ├ [4] : https://github.com/openssl/openssl/commit/6ced0fe6b1
+│                        │      │                  │       0faa560e410e3ee8d6c82f06c65ea3 
+│                        │      │                  ├ [5] : https://github.com/openssl/openssl/commit/ce39170276
+│                        │      │                  │       daec87f55c39dad1f629b56344429e 
+│                        │      │                  ├ [6] : https://github.com/openssl/openssl/commit/d0071a0799
+│                        │      │                  │       f20cc8101730145349ed4487c268dc 
+│                        │      │                  ├ [7] : https://nvd.nist.gov/vuln/detail/CVE-2025-15467 
+│                        │      │                  ├ [8] : https://openssl-library.org/news/secadv/20260127.txt 
+│                        │      │                  ├ [9] : https://ubuntu.com/security/notices/USN-7980-1 
+│                        │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2025-15467 
+│                        │      ├ PublishedDate   : 2026-01-27T16:16:14.257Z 
+│                        │      ╰ LastModifiedDate: 2026-01-27T22:15:51.597Z 
+│                        ├ [70] ╭ VulnerabilityID : CVE-2025-68160 
+│                        │      ├ PkgID           : openssl@3.0.13-0ubuntu3.6 
+│                        │      ├ PkgName         : openssl 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl@3.0.13-0ubuntu3.6?arch=amd64&
+│                        │      │                  │       distro=ubuntu-24.04 
+│                        │      │                  ╰ UID : e0d2a32b6dd1685e 
+│                        │      ├ InstalledVersion: 3.0.13-0ubuntu3.6 
+│                        │      ├ FixedVersion    : 3.0.13-0ubuntu3.7 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:f1e619cd82f3403187fd9dec2bf9201cabc82520d69
+│                        │      │                  │         9cc2d17c7254627724993 
+│                        │      │                  ╰ DiffID: sha256:dbbb6288d2cfef4f9f62305539543183d31490710e5
+│                        │      │                            cd673e5a5fa8060d6e85a 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-68160 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Fingerprint     : sha256:3d1207ffbcd42bd770a5d825f2e475ce91fdc17250bc8dbad90d
+│                        │      │                   127bf7217db9 
+│                        │      ├ Title           : openssl: OpenSSL: Denial of Service due to out-of-bounds
+│                        │      │                   write in BIO filter 
+│                        │      ├ Description     : Issue summary: Writing large, newline-free data into a BIO
+│                        │      │                   chain using the
+│                        │      │                   line-buffering filter where the next BIO performs short
+│                        │      │                   writes can trigger
+│                        │      │                   a heap-based out-of-bounds write.
+│                        │      │                   
+│                        │      │                   Impact summary: This out-of-bounds write can cause memory
+│                        │      │                   corruption which
+│                        │      │                   typically results in a crash, leading to Denial of Service
+│                        │      │                   for an application.
+│                        │      │                   The line-buffering BIO filter (BIO_f_linebuffer) is not
+│                        │      │                   used by default in
+│                        │      │                   TLS/SSL data paths. In OpenSSL command-line applications,
+│                        │      │                   it is typically
+│                        │      │                   only pushed onto stdout/stderr on VMS systems. Third-party
+│                        │      │                   applications that
+│                        │      │                   explicitly use this filter with a BIO chain that can
+│                        │      │                   short-write and that
+│                        │      │                   write large, newline-free data influenced by an attacker
+│                        │      │                   would be affected.
+│                        │      │                   However, the circumstances where this could happen are
+│                        │      │                   unlikely to be under
+│                        │      │                   attacker control, and BIO_f_linebuffer is unlikely to be
+│                        │      │                   handling non-curated
+│                        │      │                   data controlled by an attacker. For that reason the issue
+│                        │      │                   was assessed as
+│                        │      │                   Low severity.
+│                        │      │                   The FIPS modules in 3.6, 3.5, 3.4, 3.3 and 3.0 are not
+│                        │      │                   affected by this issue,
+│                        │      │                   as the BIO implementation is outside the OpenSSL FIPS
+│                        │      │                   module boundary.
+│                        │      │                   OpenSSL 3.6, 3.5, 3.4, 3.3, 3.0, 1.1.1 and 1.0.2 are
+│                        │      │                   vulnerable to this issue. 
+│                        │      ├ Severity        : LOW 
+│                        │      ├ CweIDs           ─ [0]: CWE-787 
+│                        │      ├ VendorSeverity   ╭ redhat: 1 
+│                        │      │                  ╰ ubuntu: 1 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:
+│                        │      │                           │           N/A:H 
+│                        │      │                           ╰ V3Score : 4.7 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2025-68160 
+│                        │      │                  ├ [1] : https://github.com/openssl/openssl/commit/384011202a
+│                        │      │                  │       f92605d926fafe4a0bcd6b65d162ad 
+│                        │      │                  ├ [2] : https://github.com/openssl/openssl/commit/475c466ef2
+│                        │      │                  │       fbd8fc1df6fae1c3eed9c813fc8ff6 
+│                        │      │                  ├ [3] : https://github.com/openssl/openssl/commit/4c96fbba61
+│                        │      │                  │       8e1940f038012506ee9e21d32ee12c 
+│                        │      │                  ├ [4] : https://github.com/openssl/openssl/commit/6845c3b646
+│                        │      │                  │       0a98b1ec4e463baa2ea1a63a32d7c0 
+│                        │      │                  ├ [5] : https://github.com/openssl/openssl/commit/68a7cd2e28
+│                        │      │                  │       16c3a02f4d45a2ce43fc04fac97096 
+│                        │      │                  ├ [6] : https://nvd.nist.gov/vuln/detail/CVE-2025-68160 
+│                        │      │                  ├ [7] : https://openssl-library.org/news/secadv/20260127.txt 
+│                        │      │                  ├ [8] : https://ubuntu.com/security/notices/USN-7980-1 
+│                        │      │                  ├ [9] : https://ubuntu.com/security/notices/USN-7980-2 
+│                        │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2025-68160 
+│                        │      ├ PublishedDate   : 2026-01-27T16:16:15.9Z 
+│                        │      ╰ LastModifiedDate: 2026-01-27T16:16:15.9Z 
+│                        ├ [71] ╭ VulnerabilityID : CVE-2025-69418 
+│                        │      ├ PkgID           : openssl@3.0.13-0ubuntu3.6 
+│                        │      ├ PkgName         : openssl 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl@3.0.13-0ubuntu3.6?arch=amd64&
+│                        │      │                  │       distro=ubuntu-24.04 
+│                        │      │                  ╰ UID : e0d2a32b6dd1685e 
+│                        │      ├ InstalledVersion: 3.0.13-0ubuntu3.6 
+│                        │      ├ FixedVersion    : 3.0.13-0ubuntu3.7 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:f1e619cd82f3403187fd9dec2bf9201cabc82520d69
+│                        │      │                  │         9cc2d17c7254627724993 
+│                        │      │                  ╰ DiffID: sha256:dbbb6288d2cfef4f9f62305539543183d31490710e5
+│                        │      │                            cd673e5a5fa8060d6e85a 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-69418 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Fingerprint     : sha256:6b8a369995cac2ff52a28a8f48e6d7fe9f19c68427956dc3457d
+│                        │      │                   4f798bf82b20 
+│                        │      ├ Title           : openssl: OpenSSL: Information disclosure and data tampering
+│                        │      │                    via specific low-level OCB encryption/decryption calls 
+│                        │      ├ Description     : Issue summary: When using the low-level OCB API directly
+│                        │      │                   with AES-NI or<br>other hardware-accelerated code paths,
+│                        │      │                   inputs whose length is not a multiple<br>of 16 bytes can
+│                        │      │                   leave the final partial block unencrypted and
+│                        │      │                   unauthenticated.<br><br>Impact summary: The trailing 1-15
+│                        │      │                   bytes of a message may be exposed in<br>cleartext on
+│                        │      │                   encryption and are not covered by the authentication
+│                        │      │                   tag,<br>allowing an attacker to read or tamper with those
+│                        │      │                   bytes without detection.<br><br>The low-level OCB encrypt
+│                        │      │                   and decrypt routines in the hardware-accelerated<br>stream
+│                        │      │                   path process full 16-byte blocks but do not advance the
+│                        │      │                   input/output<br>pointers. The subsequent tail-handling code
+│                        │      │                    then operates on the original<br>base pointers,
+│                        │      │                   effectively reprocessing the beginning of the buffer
+│                        │      │                   while<br>leaving the actual trailing bytes unprocessed. The
+│                        │      │                    authentication checksum<br>also excludes the true tail
+│                        │      │                   bytes.<br><br>However, typical OpenSSL consumers using EVP
+│                        │      │                   are not affected because the<br>higher-level EVP and
+│                        │      │                   provider OCB implementations split inputs so that
+│                        │      │                   full<br>blocks and trailing partial blocks are processed in
+│                        │      │                    separate calls, avoiding<br>the problematic code path.
+│                        │      │                   Additionally, TLS does not use OCB ciphersuites.<br>The
+│                        │      │                   vulnerability only affects applications that call the
+│                        │      │                   low-level<br>CRYPTO_ocb128_encrypt() or
+│                        │      │                   CRYPTO_ocb128_decrypt() functions directly
+│                        │      │                   with<br>non-block-aligned lengths in a single call on
+│                        │      │                   hardware-accelerated builds.<br>For these reasons the issue
+│                        │      │                    was assessed as Low severity.<br><br>The FIPS modules in
+│                        │      │                   3.6, 3.5, 3.4, 3.3, 3.2, 3.1 and 3.0 are not affected<br>by
+│                        │      │                    this issue, as OCB mode is not a FIPS-approved
+│                        │      │                   algorithm.<br><br>OpenSSL 3.6, 3.5, 3.4, 3.3, 3.0 and 1.1.1
+│                        │      │                    are vulnerable to this issue.<br><br>OpenSSL 1.0.2 is not
+│                        │      │                   affected by this issue. 
+│                        │      ├ Severity        : LOW 
+│                        │      ├ CweIDs           ─ [0]: CWE-325 
+│                        │      ├ VendorSeverity   ╭ redhat: 1 
+│                        │      │                  ╰ ubuntu: 1 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:L/I:
+│                        │      │                           │           L/A:N 
+│                        │      │                           ╰ V3Score : 4 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2025-69418 
+│                        │      │                  ├ [1] : https://github.com/openssl/openssl/commit/372fc5c775
+│                        │      │                  │       29695b05b4f5b5187691a57ef5dffc 
+│                        │      │                  ├ [2] : https://github.com/openssl/openssl/commit/4016975d44
+│                        │      │                  │       69cd6b94927c607f7c511385f928d8 
+│                        │      │                  ├ [3] : https://github.com/openssl/openssl/commit/52d23c86a5
+│                        │      │                  │       4adab5ee9f80e48b242b52c4cc2347 
+│                        │      │                  ├ [4] : https://github.com/openssl/openssl/commit/a758923035
+│                        │      │                  │       6d908c0eca4b969ec4f62106f4f5ae 
+│                        │      │                  ├ [5] : https://github.com/openssl/openssl/commit/ed40856d7d
+│                        │      │                  │       4ba6cb42779b6770666a65f19cb977 
+│                        │      │                  ├ [6] : https://nvd.nist.gov/vuln/detail/CVE-2025-69418 
+│                        │      │                  ├ [7] : https://openssl-library.org/news/secadv/20260127.txt 
+│                        │      │                  ├ [8] : https://ubuntu.com/security/notices/USN-7980-1 
+│                        │      │                  ├ [9] : https://ubuntu.com/security/notices/USN-7980-2 
+│                        │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2025-69418 
+│                        │      ├ PublishedDate   : 2026-01-27T16:16:33.253Z 
+│                        │      ╰ LastModifiedDate: 2026-01-27T16:16:33.253Z 
+│                        ├ [72] ╭ VulnerabilityID : CVE-2025-69419 
+│                        │      ├ PkgID           : openssl@3.0.13-0ubuntu3.6 
+│                        │      ├ PkgName         : openssl 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl@3.0.13-0ubuntu3.6?arch=amd64&
+│                        │      │                  │       distro=ubuntu-24.04 
+│                        │      │                  ╰ UID : e0d2a32b6dd1685e 
+│                        │      ├ InstalledVersion: 3.0.13-0ubuntu3.6 
+│                        │      ├ FixedVersion    : 3.0.13-0ubuntu3.7 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:f1e619cd82f3403187fd9dec2bf9201cabc82520d69
+│                        │      │                  │         9cc2d17c7254627724993 
+│                        │      │                  ╰ DiffID: sha256:dbbb6288d2cfef4f9f62305539543183d31490710e5
+│                        │      │                            cd673e5a5fa8060d6e85a 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-69419 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Fingerprint     : sha256:92456f43230f7383652e58433721efbc8285dc59f0103e521fda
+│                        │      │                   5b926701c9df 
+│                        │      ├ Title           : openssl: OpenSSL: Arbitrary code execution due to
+│                        │      │                   out-of-bounds write in PKCS#12 processing 
+│                        │      ├ Description     : Issue summary: Calling PKCS12_get_friendlyname() function
+│                        │      │                   on a maliciously
+│                        │      │                   crafted PKCS#12 file with a BMPString (UTF-16BE) friendly
+│                        │      │                   name containing
+│                        │      │                   non-ASCII BMP code point can trigger a one byte write
+│                        │      │                   before the allocated
+│                        │      │                   buffer.
+│                        │      │                   
+│                        │      │                   Impact summary: The out-of-bounds write can cause a memory
+│                        │      │                   corruption
+│                        │      │                   which can have various consequences including a Denial of
+│                        │      │                   Service.
+│                        │      │                   The OPENSSL_uni2utf8() function performs a two-pass
+│                        │      │                   conversion of a PKCS#12
+│                        │      │                   BMPString (UTF-16BE) to UTF-8. In the second pass, when
+│                        │      │                   emitting UTF-8 bytes,
+│                        │      │                   the helper function bmp_to_utf8() incorrectly forwards the
+│                        │      │                   remaining UTF-16
+│                        │      │                   source byte count as the destination buffer capacity to
+│                        │      │                   UTF8_putc(). For BMP
+│                        │      │                   code points above U+07FF, UTF-8 requires three bytes, but
+│                        │      │                   the forwarded
+│                        │      │                   capacity can be just two bytes. UTF8_putc() then returns
+│                        │      │                   -1, and this negative
+│                        │      │                   value is added to the output length without validation,
+│                        │      │                   causing the
+│                        │      │                   length to become negative. The subsequent trailing NUL byte
+│                        │      │                    is then written
+│                        │      │                   at a negative offset, causing write outside of heap
+│                        │      │                   allocated buffer.
+│                        │      │                   The vulnerability is reachable via the public
+│                        │      │                   PKCS12_get_friendlyname() API
+│                        │      │                   when parsing attacker-controlled PKCS#12 files. While
+│                        │      │                   PKCS12_parse() uses a
+│                        │      │                   different code path that avoids this issue,
+│                        │      │                   PKCS12_get_friendlyname() directly
+│                        │      │                   invokes the vulnerable function. Exploitation requires an
+│                        │      │                   attacker to provide
+│                        │      │                   a malicious PKCS#12 file to be parsed by the application
+│                        │      │                   and the attacker
+│                        │      │                   can just trigger a one zero byte write before the allocated
+│                        │      │                    buffer.
+│                        │      │                   For that reason the issue was assessed as Low severity
+│                        │      │                   according to our
+│                        │      │                   Security Policy.
+│                        │      │                   The FIPS modules in 3.6, 3.5, 3.4, 3.3 and 3.0 are not
+│                        │      │                   affected by this issue,
+│                        │      │                   as the PKCS#12 implementation is outside the OpenSSL FIPS
+│                        │      │                   module boundary.
+│                        │      │                   OpenSSL 3.6, 3.5, 3.4, 3.3, 3.0 and 1.1.1 are vulnerable to
+│                        │      │                    this issue.
+│                        │      │                   OpenSSL 1.0.2 is not affected by this issue. 
+│                        │      ├ Severity        : LOW 
+│                        │      ├ CweIDs           ─ [0]: CWE-787 
+│                        │      ├ VendorSeverity   ╭ redhat: 2 
+│                        │      │                  ╰ ubuntu: 1 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:
+│                        │      │                           │           H/A:N 
+│                        │      │                           ╰ V3Score : 7.4 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2025-69419 
+│                        │      │                  ├ [1] : https://github.com/openssl/openssl/commit/41be0f2164
+│                        │      │                  │       04f14457bbf3b9cc488dba60b49296 
+│                        │      │                  ├ [2] : https://github.com/openssl/openssl/commit/7e9cac9832
+│                        │      │                  │       e4705b91987c2474ed06a37a93cecb 
+│                        │      │                  ├ [3] : https://github.com/openssl/openssl/commit/a26a90d38e
+│                        │      │                  │       dec3748566129d824e664b54bee2e2 
+│                        │      │                  ├ [4] : https://github.com/openssl/openssl/commit/cda12de3bc
+│                        │      │                  │       0e333ea8d2c6fd15001dbdaf280015 
+│                        │      │                  ├ [5] : https://github.com/openssl/openssl/commit/ff62893375
+│                        │      │                  │       5075446bca8307e8417c14d164b535 
+│                        │      │                  ├ [6] : https://nvd.nist.gov/vuln/detail/CVE-2025-69419 
+│                        │      │                  ├ [7] : https://openssl-library.org/news/secadv/20260127.txt 
+│                        │      │                  ├ [8] : https://ubuntu.com/security/notices/USN-7980-1 
+│                        │      │                  ├ [9] : https://ubuntu.com/security/notices/USN-7980-2 
+│                        │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2025-69419 
+│                        │      ├ PublishedDate   : 2026-01-27T16:16:34.113Z 
+│                        │      ╰ LastModifiedDate: 2026-01-27T16:16:34.113Z 
+│                        ├ [73] ╭ VulnerabilityID : CVE-2025-69420 
+│                        │      ├ PkgID           : openssl@3.0.13-0ubuntu3.6 
+│                        │      ├ PkgName         : openssl 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl@3.0.13-0ubuntu3.6?arch=amd64&
+│                        │      │                  │       distro=ubuntu-24.04 
+│                        │      │                  ╰ UID : e0d2a32b6dd1685e 
+│                        │      ├ InstalledVersion: 3.0.13-0ubuntu3.6 
+│                        │      ├ FixedVersion    : 3.0.13-0ubuntu3.7 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:f1e619cd82f3403187fd9dec2bf9201cabc82520d69
+│                        │      │                  │         9cc2d17c7254627724993 
+│                        │      │                  ╰ DiffID: sha256:dbbb6288d2cfef4f9f62305539543183d31490710e5
+│                        │      │                            cd673e5a5fa8060d6e85a 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-69420 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Fingerprint     : sha256:fab845e15abe8ca683b2ebd171d85930d1c94838226adee6a306
+│                        │      │                   23e26190ecca 
+│                        │      ├ Title           : openssl: OpenSSL: Denial of Service via malformed TimeStamp
+│                        │      │                    Response 
+│                        │      ├ Description     : Issue summary: A type confusion vulnerability exists in the
+│                        │      │                    TimeStamp Response
+│                        │      │                   verification code where an ASN1_TYPE union member is
+│                        │      │                   accessed without first
+│                        │      │                   validating the type, causing an invalid or NULL pointer
+│                        │      │                   dereference when
+│                        │      │                   processing a malformed TimeStamp Response file.
+│                        │      │                   
+│                        │      │                   Impact summary: An application calling
+│                        │      │                   TS_RESP_verify_response() with a
+│                        │      │                   malformed TimeStamp Response can be caused to dereference
+│                        │      │                   an invalid or
+│                        │      │                   NULL pointer when reading, resulting in a Denial of
+│                        │      │                   Service.
+│                        │      │                   The functions ossl_ess_get_signing_cert() and
+│                        │      │                   ossl_ess_get_signing_cert_v2()
+│                        │      │                   access the signing cert attribute value without validating
+│                        │      │                   its type.
+│                        │      │                   When the type is not V_ASN1_SEQUENCE, this results in
+│                        │      │                   accessing invalid memory
+│                        │      │                   through the ASN1_TYPE union, causing a crash.
+│                        │      │                   Exploiting this vulnerability requires an attacker to
+│                        │      │                   provide a malformed
+│                        │      │                   TimeStamp Response to an application that verifies
+│                        │      │                   timestamp responses. The
+│                        │      │                   TimeStamp protocol (RFC 3161) is not widely used and the
+│                        │      │                   impact of the
+│                        │      │                   exploit is just a Denial of Service. For these reasons the
+│                        │      │                   issue was
+│                        │      │                   assessed as Low severity.
+│                        │      │                   The FIPS modules in 3.5, 3.4, 3.3 and 3.0 are not affected
+│                        │      │                   by this issue,
+│                        │      │                   as the TimeStamp Response implementation is outside the
+│                        │      │                   OpenSSL FIPS module
+│                        │      │                   boundary.
+│                        │      │                   OpenSSL 3.6, 3.5, 3.4, 3.3, 3.0 and 1.1.1 are vulnerable to
+│                        │      │                    this issue.
+│                        │      │                   OpenSSL 1.0.2 is not affected by this issue. 
+│                        │      ├ Severity        : LOW 
+│                        │      ├ CweIDs           ─ [0]: CWE-754 
+│                        │      ├ VendorSeverity   ╭ redhat: 1 
+│                        │      │                  ╰ ubuntu: 1 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:
+│                        │      │                           │           N/A:H 
+│                        │      │                           ╰ V3Score : 5.9 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2025-69420 
+│                        │      │                  ├ [1] : https://github.com/openssl/openssl/commit/27c7012c91
+│                        │      │                  │       cc986a598d7540f3079dfde2416eb9 
+│                        │      │                  ├ [2] : https://github.com/openssl/openssl/commit/4e254b48ad
+│                        │      │                  │       93cc092be3dd62d97015f33f73133a 
+│                        │      │                  ├ [3] : https://github.com/openssl/openssl/commit/564fd9c737
+│                        │      │                  │       87f25693bf9e75faf7bf6bb1305d4e 
+│                        │      │                  ├ [4] : https://github.com/openssl/openssl/commit/5eb0770ffc
+│                        │      │                  │       f11b785cf374ff3c19196245e54f1b 
+│                        │      │                  ├ [5] : https://github.com/openssl/openssl/commit/a99349ebfc
+│                        │      │                  │       519999edc50620abe24d599b9eb085 
+│                        │      │                  ├ [6] : https://nvd.nist.gov/vuln/detail/CVE-2025-69420 
+│                        │      │                  ├ [7] : https://openssl-library.org/news/secadv/20260127.txt 
+│                        │      │                  ├ [8] : https://ubuntu.com/security/notices/USN-7980-1 
+│                        │      │                  ├ [9] : https://ubuntu.com/security/notices/USN-7980-2 
+│                        │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2025-69420 
+│                        │      ├ PublishedDate   : 2026-01-27T16:16:34.317Z 
+│                        │      ╰ LastModifiedDate: 2026-01-27T16:16:34.317Z 
+│                        ├ [74] ╭ VulnerabilityID : CVE-2025-69421 
+│                        │      ├ PkgID           : openssl@3.0.13-0ubuntu3.6 
+│                        │      ├ PkgName         : openssl 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl@3.0.13-0ubuntu3.6?arch=amd64&
+│                        │      │                  │       distro=ubuntu-24.04 
+│                        │      │                  ╰ UID : e0d2a32b6dd1685e 
+│                        │      ├ InstalledVersion: 3.0.13-0ubuntu3.6 
+│                        │      ├ FixedVersion    : 3.0.13-0ubuntu3.7 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:f1e619cd82f3403187fd9dec2bf9201cabc82520d69
+│                        │      │                  │         9cc2d17c7254627724993 
+│                        │      │                  ╰ DiffID: sha256:dbbb6288d2cfef4f9f62305539543183d31490710e5
+│                        │      │                            cd673e5a5fa8060d6e85a 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-69421 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Fingerprint     : sha256:b6069c247b9468a4a8d5a26edf27cb33e3e28ed069ae62629423
+│                        │      │                   3fe13d163ba4 
+│                        │      ├ Title           : openssl: OpenSSL: Denial of Service via malformed PKCS#12
+│                        │      │                   file processing 
+│                        │      ├ Description     : Issue summary: Processing a malformed PKCS#12 file can
+│                        │      │                   trigger a NULL pointer
+│                        │      │                   dereference in the PKCS12_item_decrypt_d2i_ex() function.
+│                        │      │                   
+│                        │      │                   Impact summary: A NULL pointer dereference can trigger a
+│                        │      │                   crash which leads to
+│                        │      │                   Denial of Service for an application processing PKCS#12
+│                        │      │                   files.
+│                        │      │                   The PKCS12_item_decrypt_d2i_ex() function does not check
+│                        │      │                   whether the oct
+│                        │      │                   parameter is NULL before dereferencing it. When called
+│                        │      │                   from
+│                        │      │                   PKCS12_unpack_p7encdata() with a malformed PKCS#12 file,
+│                        │      │                   this parameter can
+│                        │      │                   be NULL, causing a crash. The vulnerability is limited to
+│                        │      │                   Denial of Service
+│                        │      │                   and cannot be escalated to achieve code execution or memory
+│                        │      │                    disclosure.
+│                        │      │                   Exploiting this issue requires an attacker to provide a
+│                        │      │                   malformed PKCS#12 file
+│                        │      │                   to an application that processes it. For that reason the
+│                        │      │                   issue was assessed as
+│                        │      │                   Low severity according to our Security Policy.
+│                        │      │                   The FIPS modules in 3.6, 3.5, 3.4, 3.3 and 3.0 are not
+│                        │      │                   affected by this issue,
+│                        │      │                   as the PKCS#12 implementation is outside the OpenSSL FIPS
+│                        │      │                   module boundary.
+│                        │      │                   OpenSSL 3.6, 3.5, 3.4, 3.3, 3.0, 1.1.1 and 1.0.2 are
+│                        │      │                   vulnerable to this issue. 
+│                        │      ├ Severity        : LOW 
+│                        │      ├ CweIDs           ─ [0]: CWE-476 
+│                        │      ├ VendorSeverity   ╭ redhat: 1 
+│                        │      │                  ╰ ubuntu: 1 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:
+│                        │      │                           │           N/A:H 
+│                        │      │                           ╰ V3Score : 6.5 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2025-69421 
+│                        │      │                  ├ [1] : https://github.com/openssl/openssl/commit/3524a29271
+│                        │      │                  │       f8191b8fd8a5257eb05173982a097b 
+│                        │      │                  ├ [2] : https://github.com/openssl/openssl/commit/36ecb49608
+│                        │      │                  │       72a4ce04bf6f1e1f4e78d75ec0c0c7 
+│                        │      │                  ├ [3] : https://github.com/openssl/openssl/commit/4bbc8d41a7
+│                        │      │                  │       2c842ce4077a8a3eccd1109aaf74bd 
+│                        │      │                  ├ [4] : https://github.com/openssl/openssl/commit/643986985c
+│                        │      │                  │       d1c21221f941129d76fe0c2785aeb3 
+│                        │      │                  ├ [5] : https://github.com/openssl/openssl/commit/a2dbc539f0
+│                        │      │                  │       f9cc63832709fa5aa33ad9495eb19c 
+│                        │      │                  ├ [6] : https://nvd.nist.gov/vuln/detail/CVE-2025-69421 
+│                        │      │                  ├ [7] : https://openssl-library.org/news/secadv/20260127.txt 
+│                        │      │                  ├ [8] : https://ubuntu.com/security/notices/USN-7980-1 
+│                        │      │                  ├ [9] : https://ubuntu.com/security/notices/USN-7980-2 
+│                        │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2025-69421 
+│                        │      ├ PublishedDate   : 2026-01-27T16:16:34.437Z 
+│                        │      ╰ LastModifiedDate: 2026-01-27T16:16:34.437Z 
+│                        ├ [75] ╭ VulnerabilityID : CVE-2026-22795 
+│                        │      ├ PkgID           : openssl@3.0.13-0ubuntu3.6 
+│                        │      ├ PkgName         : openssl 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl@3.0.13-0ubuntu3.6?arch=amd64&
+│                        │      │                  │       distro=ubuntu-24.04 
+│                        │      │                  ╰ UID : e0d2a32b6dd1685e 
+│                        │      ├ InstalledVersion: 3.0.13-0ubuntu3.6 
+│                        │      ├ FixedVersion    : 3.0.13-0ubuntu3.7 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:f1e619cd82f3403187fd9dec2bf9201cabc82520d69
+│                        │      │                  │         9cc2d17c7254627724993 
+│                        │      │                  ╰ DiffID: sha256:dbbb6288d2cfef4f9f62305539543183d31490710e5
+│                        │      │                            cd673e5a5fa8060d6e85a 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-22795 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Fingerprint     : sha256:ecb59caf74ef640ffa36fe61971791883a0d02223dbe64b825ba
+│                        │      │                   70676d68fa33 
+│                        │      ├ Title           : openssl: OpenSSL: Denial of Service due to type confusion
+│                        │      │                   in PKCS#12 file processing 
+│                        │      ├ Description     : Issue summary: An invalid or NULL pointer dereference can
+│                        │      │                   happen in
+│                        │      │                   an application processing a malformed PKCS#12 file.
+│                        │      │                   
+│                        │      │                   Impact summary: An application processing a malformed
+│                        │      │                   PKCS#12 file can be
+│                        │      │                   caused to dereference an invalid or NULL pointer on memory
+│                        │      │                   read, resulting
+│                        │      │                   in a Denial of Service.
+│                        │      │                   A type confusion vulnerability exists in PKCS#12 parsing
+│                        │      │                   code where
+│                        │      │                   an ASN1_TYPE union member is accessed without first
+│                        │      │                   validating the type,
+│                        │      │                   causing an invalid pointer read.
+│                        │      │                   The location is constrained to a 1-byte address space,
+│                        │      │                   meaning any
+│                        │      │                   attempted pointer manipulation can only target addresses
+│                        │      │                   between 0x00 and 0xFF.
+│                        │      │                   This range corresponds to the zero page, which is unmapped
+│                        │      │                   on most modern
+│                        │      │                   operating systems and will reliably result in a crash,
+│                        │      │                   leading only to a
+│                        │      │                   Denial of Service. Exploiting this issue also requires a
+│                        │      │                   user or application
+│                        │      │                   to process a maliciously crafted PKCS#12 file. It is
+│                        │      │                   uncommon to accept
+│                        │      │                   untrusted PKCS#12 files in applications as they are usually
+│                        │      │                    used to store
+│                        │      │                   private keys which are trusted by definition. For these
+│                        │      │                   reasons, the issue
+│                        │      │                   was assessed as Low severity.
+│                        │      │                   The FIPS modules in 3.5, 3.4, 3.3 and 3.0 are not affected
+│                        │      │                   by this issue,
+│                        │      │                   as the PKCS12 implementation is outside the OpenSSL FIPS
+│                        │      │                   module boundary.
+│                        │      │                   OpenSSL 3.6, 3.5, 3.4, 3.3, 3.0 and 1.1.1 are vulnerable to
+│                        │      │                    this issue.
+│                        │      │                   OpenSSL 1.0.2 is not affected by this issue. 
+│                        │      ├ Severity        : LOW 
+│                        │      ├ CweIDs           ─ [0]: CWE-754 
+│                        │      ├ VendorSeverity   ╭ redhat: 1 
+│                        │      │                  ╰ ubuntu: 1 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:
+│                        │      │                           │           N/A:H 
+│                        │      │                           ╰ V3Score : 5.5 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2026-22795 
+│                        │      │                  ├ [1] : https://github.com/openssl/openssl/commit/2502e7b7d4
+│                        │      │                  │       c0cf4f972a881641fe09edc67aeec4 
+│                        │      │                  ├ [2] : https://github.com/openssl/openssl/commit/572844beca
+│                        │      │                  │       95068394c916626a6d3a490f831a49 
+│                        │      │                  ├ [3] : https://github.com/openssl/openssl/commit/7bbca05be5
+│                        │      │                  │       5b129651d9df4bdb92becc45002c12 
+│                        │      │                  ├ [4] : https://github.com/openssl/openssl/commit/eeee3cbd4d
+│                        │      │                  │       682095ed431052f00403004596373e 
+│                        │      │                  ├ [5] : https://github.com/openssl/openssl/commit/ef2fb66ec5
+│                        │      │                  │       71564d64d1c74a12e388a2a54d05d2 
+│                        │      │                  ├ [6] : https://nvd.nist.gov/vuln/detail/CVE-2026-22795 
+│                        │      │                  ├ [7] : https://openssl-library.org/news/secadv/20260127.txt 
+│                        │      │                  ├ [8] : https://ubuntu.com/security/notices/USN-7980-1 
+│                        │      │                  ├ [9] : https://ubuntu.com/security/notices/USN-7980-2 
+│                        │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2026-22795 
+│                        │      ├ PublishedDate   : 2026-01-27T16:16:35.43Z 
+│                        │      ╰ LastModifiedDate: 2026-01-27T16:16:35.43Z 
+│                        ├ [76] ╭ VulnerabilityID : CVE-2026-22796 
+│                        │      ├ PkgID           : openssl@3.0.13-0ubuntu3.6 
+│                        │      ├ PkgName         : openssl 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl@3.0.13-0ubuntu3.6?arch=amd64&
+│                        │      │                  │       distro=ubuntu-24.04 
+│                        │      │                  ╰ UID : e0d2a32b6dd1685e 
+│                        │      ├ InstalledVersion: 3.0.13-0ubuntu3.6 
+│                        │      ├ FixedVersion    : 3.0.13-0ubuntu3.7 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:f1e619cd82f3403187fd9dec2bf9201cabc82520d69
+│                        │      │                  │         9cc2d17c7254627724993 
+│                        │      │                  ╰ DiffID: sha256:dbbb6288d2cfef4f9f62305539543183d31490710e5
+│                        │      │                            cd673e5a5fa8060d6e85a 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-22796 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Fingerprint     : sha256:928eacf2ca8adc81ea245c5a1c66859619a562edc01e1cd147d8
+│                        │      │                   dc11961e707c 
+│                        │      ├ Title           : openssl: OpenSSL: Denial of Service via type confusion in
+│                        │      │                   PKCS#7 signature verification 
+│                        │      ├ Description     : Issue summary: A type confusion vulnerability exists in the
+│                        │      │                    signature
+│                        │      │                   verification of signed PKCS#7 data where an ASN1_TYPE union
+│                        │      │                    member is
+│                        │      │                   accessed without first validating the type, causing an
+│                        │      │                   invalid or NULL
+│                        │      │                   pointer dereference when processing malformed PKCS#7 data.
+│                        │      │                   
+│                        │      │                   Impact summary: An application performing signature
+│                        │      │                   verification of PKCS#7
+│                        │      │                   data or calling directly the PKCS7_digest_from_attributes()
+│                        │      │                    function can be
+│                        │      │                   caused to dereference an invalid or NULL pointer when
+│                        │      │                   reading, resulting in
+│                        │      │                   a Denial of Service.
+│                        │      │                   The function PKCS7_digest_from_attributes() accesses the
+│                        │      │                   message digest attribute
+│                        │      │                   value without validating its type. When the type is not
+│                        │      │                   V_ASN1_OCTET_STRING,
+│                        │      │                   this results in accessing invalid memory through the
+│                        │      │                   ASN1_TYPE union, causing
+│                        │      │                   a crash.
+│                        │      │                   Exploiting this vulnerability requires an attacker to
+│                        │      │                   provide a malformed
+│                        │      │                   signed PKCS#7 to an application that verifies it. The
+│                        │      │                   impact of the
+│                        │      │                   exploit is just a Denial of Service, the PKCS7 API is
+│                        │      │                   legacy and applications
+│                        │      │                   should be using the CMS API instead. For these reasons the
+│                        │      │                   issue was
+│                        │      │                   assessed as Low severity.
+│                        │      │                   The FIPS modules in 3.5, 3.4, 3.3 and 3.0 are not affected
+│                        │      │                   by this issue,
+│                        │      │                   as the PKCS#7 parsing implementation is outside the OpenSSL
+│                        │      │                    FIPS module
+│                        │      │                   boundary.
+│                        │      │                   OpenSSL 3.6, 3.5, 3.4, 3.3, 3.0, 1.1.1 and 1.0.2 are
+│                        │      │                   vulnerable to this issue. 
+│                        │      ├ Severity        : LOW 
+│                        │      ├ CweIDs           ─ [0]: CWE-754 
+│                        │      ├ VendorSeverity   ╭ redhat: 1 
+│                        │      │                  ╰ ubuntu: 1 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:
+│                        │      │                           │           N/A:H 
+│                        │      │                           ╰ V3Score : 5.9 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2026-22796 
+│                        │      │                  ├ [1] : https://github.com/openssl/openssl/commit/2502e7b7d4
+│                        │      │                  │       c0cf4f972a881641fe09edc67aeec4 
+│                        │      │                  ├ [2] : https://github.com/openssl/openssl/commit/572844beca
+│                        │      │                  │       95068394c916626a6d3a490f831a49 
+│                        │      │                  ├ [3] : https://github.com/openssl/openssl/commit/7bbca05be5
+│                        │      │                  │       5b129651d9df4bdb92becc45002c12 
+│                        │      │                  ├ [4] : https://github.com/openssl/openssl/commit/eeee3cbd4d
+│                        │      │                  │       682095ed431052f00403004596373e 
+│                        │      │                  ├ [5] : https://github.com/openssl/openssl/commit/ef2fb66ec5
+│                        │      │                  │       71564d64d1c74a12e388a2a54d05d2 
+│                        │      │                  ├ [6] : https://nvd.nist.gov/vuln/detail/CVE-2026-22796 
+│                        │      │                  ├ [7] : https://openssl-library.org/news/secadv/20260127.txt 
+│                        │      │                  ├ [8] : https://ubuntu.com/security/notices/USN-7980-1 
+│                        │      │                  ├ [9] : https://ubuntu.com/security/notices/USN-7980-2 
+│                        │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2026-22796 
+│                        │      ├ PublishedDate   : 2026-01-27T16:16:35.543Z 
+│                        │      ╰ LastModifiedDate: 2026-01-27T17:16:12.553Z 
+│                        ├ [77] ╭ VulnerabilityID : CVE-2024-56433 
 │                        │      ├ PkgID           : passwd@1:4.13+dfsg1-4ubuntu3.2 
 │                        │      ├ PkgName         : passwd 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/passwd@4.13%2Bdfsg1-4ubuntu3.2?arch=a
@@ -26630,7 +27988,7 @@
 │                        │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                        │      ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                        │      ╰ LastModifiedDate: 2024-12-26T09:15:07.267Z 
-│                        ├ [62] ╭ VulnerabilityID : CVE-2018-6952 
+│                        ├ [78] ╭ VulnerabilityID : CVE-2018-6952 
 │                        │      ├ PkgID           : patch@2.7.6-7build3 
 │                        │      ├ PkgName         : patch 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/patch@2.7.6-7build3?arch=amd64&distro
@@ -26682,7 +28040,7 @@
 │                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2018-6952 
 │                        │      ├ PublishedDate   : 2018-02-13T19:29:00.573Z 
 │                        │      ╰ LastModifiedDate: 2024-11-21T04:11:28.42Z 
-│                        ├ [63] ╭ VulnerabilityID : CVE-2021-45261 
+│                        ├ [79] ╭ VulnerabilityID : CVE-2021-45261 
 │                        │      ├ PkgID           : patch@2.7.6-7build3 
 │                        │      ├ PkgName         : patch 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/patch@2.7.6-7build3?arch=amd64&distro
@@ -26724,7 +28082,7 @@
 │                        │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2021-45261 
 │                        │      ├ PublishedDate   : 2021-12-22T18:15:08.1Z 
 │                        │      ╰ LastModifiedDate: 2024-11-21T06:32:02.633Z 
-│                        ├ [64] ╭ VulnerabilityID : CVE-2025-45582 
+│                        ├ [80] ╭ VulnerabilityID : CVE-2025-45582 
 │                        │      ├ PkgID           : tar@1.35+dfsg-3build1 
 │                        │      ├ PkgName         : tar 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/tar@1.35%2Bdfsg-3build1?arch=amd64&di
@@ -26806,7 +28164,7 @@
 │                        │      │                          curity-rules-of-thumb.html 
 │                        │      ├ PublishedDate   : 2025-07-11T17:15:37.183Z 
 │                        │      ╰ LastModifiedDate: 2025-11-02T01:15:32.307Z 
-│                        ├ [65] ╭ VulnerabilityID : CVE-2024-56433 
+│                        ├ [81] ╭ VulnerabilityID : CVE-2024-56433 
 │                        │      ├ PkgID           : uidmap@1:4.13+dfsg1-4ubuntu3.2 
 │                        │      ├ PkgName         : uidmap 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/uidmap@4.13%2Bdfsg1-4ubuntu3.2?arch=a
@@ -26869,7 +28227,7 @@
 │                        │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                        │      ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                        │      ╰ LastModifiedDate: 2024-12-26T09:15:07.267Z 
-│                        ╰ [66] ╭ VulnerabilityID : CVE-2021-31879 
+│                        ╰ [82] ╭ VulnerabilityID : CVE-2021-31879 
 │                               ├ PkgID           : wget@1.21.4-1ubuntu4.1 
 │                               ├ PkgName         : wget 
 │                               ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/wget@1.21.4-1ubuntu4.1?arch=amd64&dis
@@ -28262,7 +29620,7 @@
 │                        │      │                  ├ [9] : https://groups.google.com/g/golang-announce/c/8FJoBk
 │                        │      │                  │       Pddm4 
 │                        │      │                  ├ [10]: https://linux.oracle.com/cve/CVE-2025-61729.html 
-│                        │      │                  ├ [11]: https://linux.oracle.com/errata/ELSA-2026-0923.html 
+│                        │      │                  ├ [11]: https://linux.oracle.com/errata/ELSA-2026-1344.html 
 │                        │      │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2025-61729 
 │                        │      │                  ├ [13]: https://pkg.go.dev/vuln/GO-2025-4155 
 │                        │      │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2025-61729 
@@ -28498,7 +29856,7 @@
 │                        │      │                  ├ [14]: https://pkg.go.dev/vuln/GO-2025-3956 
 │                        │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2025-47906 
 │                        │      ├ PublishedDate   : 2025-09-18T19:15:37.66Z 
-│                        │      ╰ LastModifiedDate: 2025-11-04T22:16:16.207Z 
+│                        │      ╰ LastModifiedDate: 2026-01-27T19:56:17.707Z 
 │                        ├ [11] ╭ VulnerabilityID : CVE-2025-47912 
 │                        │      ├ PkgID           : stdlib@v1.24.1 
 │                        │      ├ PkgName         : stdlib 
@@ -29681,7 +31039,7 @@
 │                        │      │                  ├ [9] : https://groups.google.com/g/golang-announce/c/8FJoBk
 │                        │      │                  │       Pddm4 
 │                        │      │                  ├ [10]: https://linux.oracle.com/cve/CVE-2025-61729.html 
-│                        │      │                  ├ [11]: https://linux.oracle.com/errata/ELSA-2026-0923.html 
+│                        │      │                  ├ [11]: https://linux.oracle.com/errata/ELSA-2026-1344.html 
 │                        │      │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2025-61729 
 │                        │      │                  ├ [13]: https://pkg.go.dev/vuln/GO-2025-4155 
 │                        │      │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2025-61729 
@@ -29917,7 +31275,7 @@
 │                        │      │                  ├ [14]: https://pkg.go.dev/vuln/GO-2025-3956 
 │                        │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2025-47906 
 │                        │      ├ PublishedDate   : 2025-09-18T19:15:37.66Z 
-│                        │      ╰ LastModifiedDate: 2025-11-04T22:16:16.207Z 
+│                        │      ╰ LastModifiedDate: 2026-01-27T19:56:17.707Z 
 │                        ├ [11] ╭ VulnerabilityID : CVE-2025-47912 
 │                        │      ├ PkgID           : stdlib@v1.24.1 
 │                        │      ├ PkgName         : stdlib 
@@ -34972,7 +36330,7 @@
 │                        │      │                  ├ [9] : https://groups.google.com/g/golang-announce/c/8FJoBk
 │                        │      │                  │       Pddm4 
 │                        │      │                  ├ [10]: https://linux.oracle.com/cve/CVE-2025-61729.html 
-│                        │      │                  ├ [11]: https://linux.oracle.com/errata/ELSA-2026-0923.html 
+│                        │      │                  ├ [11]: https://linux.oracle.com/errata/ELSA-2026-1344.html 
 │                        │      │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2025-61729 
 │                        │      │                  ├ [13]: https://pkg.go.dev/vuln/GO-2025-4155 
 │                        │      │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2025-61729 
@@ -37616,7 +38974,7 @@
 │                        │      │                  ├ [9] : https://groups.google.com/g/golang-announce/c/8FJoBk
 │                        │      │                  │       Pddm4 
 │                        │      │                  ├ [10]: https://linux.oracle.com/cve/CVE-2025-61729.html 
-│                        │      │                  ├ [11]: https://linux.oracle.com/errata/ELSA-2026-0923.html 
+│                        │      │                  ├ [11]: https://linux.oracle.com/errata/ELSA-2026-1344.html 
 │                        │      │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2025-61729 
 │                        │      │                  ├ [13]: https://pkg.go.dev/vuln/GO-2025-4155 
 │                        │      │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2025-61729 
@@ -37852,7 +39210,7 @@
 │                        │      │                  ├ [14]: https://pkg.go.dev/vuln/GO-2025-3956 
 │                        │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2025-47906 
 │                        │      ├ PublishedDate   : 2025-09-18T19:15:37.66Z 
-│                        │      ╰ LastModifiedDate: 2025-11-04T22:16:16.207Z 
+│                        │      ╰ LastModifiedDate: 2026-01-27T19:56:17.707Z 
 │                        ├ [20] ╭ VulnerabilityID : CVE-2025-47912 
 │                        │      ├ PkgID           : stdlib@v1.22.12 
 │                        │      ├ PkgName         : stdlib 
