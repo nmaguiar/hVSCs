@@ -23235,7 +23235,7 @@
     - https://github.com/curl/curl/commit/c6ae07c6a541e0e96d0040afb6
     - https://hackerone.com/reports/3294999
     - https://linux.oracle.com/cve/CVE-2025-9086.html
-    - https://linux.oracle.com/errata/ELSA-2026-1350.html
+    - https://linux.oracle.com/errata/ELSA-2026-1825.html
     - https://lists.debian.org/debian-lts-announce/2026/01/msg00002.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-9086
     - https://www.cve.org/CVERecord?id=CVE-2025-9086
@@ -24595,6 +24595,47 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-29481
     PublishedDate: '2025-04-07T20:15:20.72Z'
     LastModifiedDate: '2025-04-15T15:42:59.65Z'
+  - VulnerabilityID: CVE-2025-15281
+    PkgID: libc-bin@2.35-0ubuntu3.12
+    PkgName: libc-bin
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libc-bin@2.35-0ubuntu3.12?arch=amd64&distro=ubuntu-22.04
+      UID: b234d7d3136f882b
+    InstalledVersion: 2.35-0ubuntu3.12
+    FixedVersion: 2.35-0ubuntu3.13
+    Status: fixed
+    Layer:
+      Digest: sha256:04477dd38ee899e0590b32724008a4915bdb85a1f7d0822138b6846fb78aa147
+      DiffID: sha256:a49f3279ae0f4fdae16f349ff66742244f61716bb245577729fd887783176ce1
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-15281
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:a67b2231ca00735030f4cababae8865cf939e873a7b4890ce27d78571c112246
+    Title: 'glibc: wordexp with WRDE_REUSE and WRDE_APPEND may return uninitialized memory'
+    Description: Calling wordexp with WRDE_REUSE in conjunction with WRDE_APPEND in the GNU C Library version 2.0 to version 2.42 may cause the interface to return uninitialized memory in the we_wordv member, which on subsequent calls to wordfree may abort the process.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-908
+    VendorSeverity:
+      redhat: 1
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.9
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/01/20/3
+    - https://access.redhat.com/security/cve/CVE-2025-15281
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-15281
+    - https://sourceware.org/bugzilla/show_bug.cgi?id=33814
+    - https://ubuntu.com/security/notices/USN-8005-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-15281
+    - https://www.openwall.com/lists/oss-security/2026/01/20/3
+    PublishedDate: '2026-01-20T14:16:07.843Z'
+    LastModifiedDate: '2026-01-26T15:05:23.427Z'
   - VulnerabilityID: CVE-2026-0861
     PkgID: libc-bin@2.35-0ubuntu3.12
     PkgName: libc-bin
@@ -24602,7 +24643,8 @@
       PURL: pkg:deb/ubuntu/libc-bin@2.35-0ubuntu3.12?arch=amd64&distro=ubuntu-22.04
       UID: b234d7d3136f882b
     InstalledVersion: 2.35-0ubuntu3.12
-    Status: affected
+    FixedVersion: 2.35-0ubuntu3.13
+    Status: fixed
     Layer:
       Digest: sha256:04477dd38ee899e0590b32724008a4915bdb85a1f7d0822138b6846fb78aa147
       DiffID: sha256:a49f3279ae0f4fdae16f349ff66742244f61716bb245577729fd887783176ce1
@@ -24651,9 +24693,107 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-0861
     - https://sourceware.org/bugzilla/show_bug.cgi?id=33796
     - https://sourceware.org/git/?p=glibc.git;a=blob_plain;f=advisories/GLIBC-SA-2026-0001
+    - https://ubuntu.com/security/notices/USN-8005-1
     - https://www.cve.org/CVERecord?id=CVE-2026-0861
     PublishedDate: '2026-01-14T21:15:52.617Z'
-    LastModifiedDate: '2026-01-16T18:16:09.343Z'
+    LastModifiedDate: '2026-02-03T18:26:25.39Z'
+  - VulnerabilityID: CVE-2026-0915
+    PkgID: libc-bin@2.35-0ubuntu3.12
+    PkgName: libc-bin
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libc-bin@2.35-0ubuntu3.12?arch=amd64&distro=ubuntu-22.04
+      UID: b234d7d3136f882b
+    InstalledVersion: 2.35-0ubuntu3.12
+    FixedVersion: 2.35-0ubuntu3.13
+    Status: fixed
+    Layer:
+      Digest: sha256:04477dd38ee899e0590b32724008a4915bdb85a1f7d0822138b6846fb78aa147
+      DiffID: sha256:a49f3279ae0f4fdae16f349ff66742244f61716bb245577729fd887783176ce1
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-0915
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:98eab71f2ac2b5927de6a4447f5a57a19a667a2c2ae8f96faeb2d65b31773e78
+    Title: 'glibc: glibc: Information disclosure via zero-valued network query'
+    Description: Calling getnetbyaddr or getnetbyaddr_r with a configured nsswitch.conf that specifies the library's DNS backend for networks and queries for a zero-valued network in the GNU C Library version 2.0 to version 2.42 can leak stack contents to the configured DNS resolver.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-908
+    VendorSeverity:
+      alma: 2
+      oracle-oval: 2
+      photon: 3
+      redhat: 2
+      rocky: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
+        V3Score: 5.3
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/01/16/6
+    - https://access.redhat.com/errata/RHSA-2026:1334
+    - https://access.redhat.com/security/cve/CVE-2026-0915
+    - https://bugzilla.redhat.com/2429771
+    - https://bugzilla.redhat.com/2430201
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2429771
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2430201
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-0861
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-0915
+    - https://errata.almalinux.org/10/ALSA-2026-1334.html
+    - https://errata.rockylinux.org/RLSA-2026:1334
+    - https://linux.oracle.com/cve/CVE-2026-0915.html
+    - https://linux.oracle.com/errata/ELSA-2026-50078.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-0915
+    - https://sourceware.org/bugzilla/show_bug.cgi?id=33802
+    - https://ubuntu.com/security/notices/USN-8005-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-0915
+    - https://www.openwall.com/lists/oss-security/2026/01/16/6
+    PublishedDate: '2026-01-15T22:16:12.457Z'
+    LastModifiedDate: '2026-01-23T19:36:50.73Z'
+  - VulnerabilityID: CVE-2025-15281
+    PkgID: libc6@2.35-0ubuntu3.12
+    PkgName: libc6
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libc6@2.35-0ubuntu3.12?arch=amd64&distro=ubuntu-22.04
+      UID: 204c2ec93271dba2
+    InstalledVersion: 2.35-0ubuntu3.12
+    FixedVersion: 2.35-0ubuntu3.13
+    Status: fixed
+    Layer:
+      Digest: sha256:04477dd38ee899e0590b32724008a4915bdb85a1f7d0822138b6846fb78aa147
+      DiffID: sha256:a49f3279ae0f4fdae16f349ff66742244f61716bb245577729fd887783176ce1
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-15281
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:34002fe6e3af6a416146b91e9a21fe5cf9929e4a765a94bbe0db1d23f8b0ab7e
+    Title: 'glibc: wordexp with WRDE_REUSE and WRDE_APPEND may return uninitialized memory'
+    Description: Calling wordexp with WRDE_REUSE in conjunction with WRDE_APPEND in the GNU C Library version 2.0 to version 2.42 may cause the interface to return uninitialized memory in the we_wordv member, which on subsequent calls to wordfree may abort the process.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-908
+    VendorSeverity:
+      redhat: 1
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.9
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/01/20/3
+    - https://access.redhat.com/security/cve/CVE-2025-15281
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-15281
+    - https://sourceware.org/bugzilla/show_bug.cgi?id=33814
+    - https://ubuntu.com/security/notices/USN-8005-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-15281
+    - https://www.openwall.com/lists/oss-security/2026/01/20/3
+    PublishedDate: '2026-01-20T14:16:07.843Z'
+    LastModifiedDate: '2026-01-26T15:05:23.427Z'
   - VulnerabilityID: CVE-2026-0861
     PkgID: libc6@2.35-0ubuntu3.12
     PkgName: libc6
@@ -24661,7 +24801,8 @@
       PURL: pkg:deb/ubuntu/libc6@2.35-0ubuntu3.12?arch=amd64&distro=ubuntu-22.04
       UID: 204c2ec93271dba2
     InstalledVersion: 2.35-0ubuntu3.12
-    Status: affected
+    FixedVersion: 2.35-0ubuntu3.13
+    Status: fixed
     Layer:
       Digest: sha256:04477dd38ee899e0590b32724008a4915bdb85a1f7d0822138b6846fb78aa147
       DiffID: sha256:a49f3279ae0f4fdae16f349ff66742244f61716bb245577729fd887783176ce1
@@ -24710,9 +24851,66 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-0861
     - https://sourceware.org/bugzilla/show_bug.cgi?id=33796
     - https://sourceware.org/git/?p=glibc.git;a=blob_plain;f=advisories/GLIBC-SA-2026-0001
+    - https://ubuntu.com/security/notices/USN-8005-1
     - https://www.cve.org/CVERecord?id=CVE-2026-0861
     PublishedDate: '2026-01-14T21:15:52.617Z'
-    LastModifiedDate: '2026-01-16T18:16:09.343Z'
+    LastModifiedDate: '2026-02-03T18:26:25.39Z'
+  - VulnerabilityID: CVE-2026-0915
+    PkgID: libc6@2.35-0ubuntu3.12
+    PkgName: libc6
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libc6@2.35-0ubuntu3.12?arch=amd64&distro=ubuntu-22.04
+      UID: 204c2ec93271dba2
+    InstalledVersion: 2.35-0ubuntu3.12
+    FixedVersion: 2.35-0ubuntu3.13
+    Status: fixed
+    Layer:
+      Digest: sha256:04477dd38ee899e0590b32724008a4915bdb85a1f7d0822138b6846fb78aa147
+      DiffID: sha256:a49f3279ae0f4fdae16f349ff66742244f61716bb245577729fd887783176ce1
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-0915
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:26513aa9db62bec37a5c6a0436b6ca7783e162a179973dd36ffaffc4728a0311
+    Title: 'glibc: glibc: Information disclosure via zero-valued network query'
+    Description: Calling getnetbyaddr or getnetbyaddr_r with a configured nsswitch.conf that specifies the library's DNS backend for networks and queries for a zero-valued network in the GNU C Library version 2.0 to version 2.42 can leak stack contents to the configured DNS resolver.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-908
+    VendorSeverity:
+      alma: 2
+      oracle-oval: 2
+      photon: 3
+      redhat: 2
+      rocky: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
+        V3Score: 5.3
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/01/16/6
+    - https://access.redhat.com/errata/RHSA-2026:1334
+    - https://access.redhat.com/security/cve/CVE-2026-0915
+    - https://bugzilla.redhat.com/2429771
+    - https://bugzilla.redhat.com/2430201
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2429771
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2430201
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-0861
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-0915
+    - https://errata.almalinux.org/10/ALSA-2026-1334.html
+    - https://errata.rockylinux.org/RLSA-2026:1334
+    - https://linux.oracle.com/cve/CVE-2026-0915.html
+    - https://linux.oracle.com/errata/ELSA-2026-50078.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-0915
+    - https://sourceware.org/bugzilla/show_bug.cgi?id=33802
+    - https://ubuntu.com/security/notices/USN-8005-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-0915
+    - https://www.openwall.com/lists/oss-security/2026/01/16/6
+    PublishedDate: '2026-01-15T22:16:12.457Z'
+    LastModifiedDate: '2026-01-23T19:36:50.73Z'
   - VulnerabilityID: CVE-2025-0167
     PkgID: libcurl3-gnutls@7.81.0-1ubuntu1.21
     PkgName: libcurl3-gnutls
@@ -24933,7 +25131,7 @@
     - https://github.com/curl/curl/commit/c6ae07c6a541e0e96d0040afb6
     - https://hackerone.com/reports/3294999
     - https://linux.oracle.com/cve/CVE-2025-9086.html
-    - https://linux.oracle.com/errata/ELSA-2026-1350.html
+    - https://linux.oracle.com/errata/ELSA-2026-1825.html
     - https://lists.debian.org/debian-lts-announce/2026/01/msg00002.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-9086
     - https://www.cve.org/CVERecord?id=CVE-2025-9086
@@ -25159,7 +25357,7 @@
     - https://github.com/curl/curl/commit/c6ae07c6a541e0e96d0040afb6
     - https://hackerone.com/reports/3294999
     - https://linux.oracle.com/cve/CVE-2025-9086.html
-    - https://linux.oracle.com/errata/ELSA-2026-1350.html
+    - https://linux.oracle.com/errata/ELSA-2026-1825.html
     - https://lists.debian.org/debian-lts-announce/2026/01/msg00002.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-9086
     - https://www.cve.org/CVERecord?id=CVE-2025-9086
@@ -26195,6 +26393,7 @@
     - CWE-787
     VendorSeverity:
       alma: 3
+      azure: 4
       oracle-oval: 3
       photon: 4
       redhat: 3
@@ -26306,6 +26505,7 @@
     - CWE-787
     VendorSeverity:
       alma: 3
+      azure: 2
       oracle-oval: 3
       photon: 2
       redhat: 1
@@ -26396,6 +26596,7 @@
     - CWE-325
     VendorSeverity:
       alma: 3
+      azure: 2
       oracle-oval: 3
       photon: 2
       redhat: 1
@@ -26636,6 +26837,7 @@
     - CWE-754
     VendorSeverity:
       alma: 3
+      azure: 2
       oracle-oval: 3
       photon: 3
       redhat: 1
@@ -26746,6 +26948,7 @@
     - CWE-476
     VendorSeverity:
       alma: 3
+      azure: 2
       nvd: 3
       oracle-oval: 3
       photon: 3
@@ -27989,6 +28192,7 @@
     - CWE-787
     VendorSeverity:
       alma: 3
+      azure: 4
       oracle-oval: 3
       photon: 4
       redhat: 3
@@ -28100,6 +28304,7 @@
     - CWE-787
     VendorSeverity:
       alma: 3
+      azure: 2
       oracle-oval: 3
       photon: 2
       redhat: 1
@@ -28190,6 +28395,7 @@
     - CWE-325
     VendorSeverity:
       alma: 3
+      azure: 2
       oracle-oval: 3
       photon: 2
       redhat: 1
@@ -28430,6 +28636,7 @@
     - CWE-754
     VendorSeverity:
       alma: 3
+      azure: 2
       oracle-oval: 3
       photon: 3
       redhat: 1
@@ -28540,6 +28747,7 @@
     - CWE-476
     VendorSeverity:
       alma: 3
+      azure: 2
       nvd: 3
       oracle-oval: 3
       photon: 3
@@ -31823,7 +32031,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-61730
     - https://pkg.go.dev/vuln/GO-2026-4340
     PublishedDate: '2026-01-28T20:16:09.94Z'
-    LastModifiedDate: '2026-02-02T18:16:12.647Z'
+    LastModifiedDate: '2026-02-03T20:36:41.3Z'
 - Target: tmp/tmp.EGpewLzcxw/krew-linux_amd64
   Class: lang-pkgs
   Type: gobinary
@@ -33347,7 +33555,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-61730
     - https://pkg.go.dev/vuln/GO-2026-4340
     PublishedDate: '2026-01-28T20:16:09.94Z'
-    LastModifiedDate: '2026-02-02T18:16:12.647Z'
+    LastModifiedDate: '2026-02-03T20:36:41.3Z'
 - Target: usr/bin/docker
   Class: lang-pkgs
   Type: gobinary
@@ -34977,7 +35185,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-61730
     - https://pkg.go.dev/vuln/GO-2026-4340
     PublishedDate: '2026-01-28T20:16:09.94Z'
-    LastModifiedDate: '2026-02-02T18:16:12.647Z'
+    LastModifiedDate: '2026-02-03T20:36:41.3Z'
 - Target: usr/bin/docker-proxy
   Class: lang-pkgs
   Type: gobinary
@@ -39815,7 +40023,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-61730
     - https://pkg.go.dev/vuln/GO-2026-4340
     PublishedDate: '2026-01-28T20:16:09.94Z'
-    LastModifiedDate: '2026-02-02T18:16:12.647Z'
+    LastModifiedDate: '2026-02-03T20:36:41.3Z'
 - Target: usr/bin/mc
   Class: lang-pkgs
   Type: gobinary
@@ -41728,7 +41936,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-61730
     - https://pkg.go.dev/vuln/GO-2026-4340
     PublishedDate: '2026-01-28T20:16:09.94Z'
-    LastModifiedDate: '2026-02-02T18:16:12.647Z'
+    LastModifiedDate: '2026-02-03T20:36:41.3Z'
 - Target: usr/bin/rootlesskit
   Class: lang-pkgs
   Type: gobinary
@@ -44052,7 +44260,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-61730
     - https://pkg.go.dev/vuln/GO-2026-4340
     PublishedDate: '2026-01-28T20:16:09.94Z'
-    LastModifiedDate: '2026-02-02T18:16:12.647Z'
+    LastModifiedDate: '2026-02-03T20:36:41.3Z'
 - Target: usr/libexec/docker/cli-plugins/docker-compose
   Class: lang-pkgs
   Type: gobinary
@@ -45667,7 +45875,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-61730
     - https://pkg.go.dev/vuln/GO-2026-4340
     PublishedDate: '2026-01-28T20:16:09.94Z'
-    LastModifiedDate: '2026-02-02T18:16:12.647Z'
+    LastModifiedDate: '2026-02-03T20:36:41.3Z'
 - Target: usr/libexec/docker/cli-plugins/docker-model
   Class: lang-pkgs
   Type: gobinary
@@ -46974,7 +47182,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-61730
     - https://pkg.go.dev/vuln/GO-2026-4340
     PublishedDate: '2026-01-28T20:16:09.94Z'
-    LastModifiedDate: '2026-02-02T18:16:12.647Z'
+    LastModifiedDate: '2026-02-03T20:36:41.3Z'
 - Target: usr/local/bin/k3d
   Class: lang-pkgs
   Type: gobinary
@@ -49894,7 +50102,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-61730
     - https://pkg.go.dev/vuln/GO-2026-4340
     PublishedDate: '2026-01-28T20:16:09.94Z'
-    LastModifiedDate: '2026-02-02T18:16:12.647Z'
+    LastModifiedDate: '2026-02-03T20:36:41.3Z'
 - Target: /etc/ssh/ssh_host_dsa_key
   Class: secret
   Secrets:
