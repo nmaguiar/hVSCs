@@ -23178,7 +23178,7 @@
     - CWE-125
     VendorSeverity:
       alma: 2
-      amazon: 1
+      amazon: 2
       oracle-oval: 2
       photon: 3
       redhat: 2
@@ -24631,7 +24631,7 @@
     - CWE-125
     VendorSeverity:
       alma: 2
-      amazon: 1
+      amazon: 2
       oracle-oval: 2
       photon: 3
       redhat: 2
@@ -24948,7 +24948,7 @@
     - CWE-125
     VendorSeverity:
       alma: 2
-      amazon: 1
+      amazon: 2
       oracle-oval: 2
       photon: 3
       redhat: 2
@@ -25119,6 +25119,93 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-66382
     PublishedDate: '2025-11-28T07:15:57.9Z'
     LastModifiedDate: '2025-12-19T16:05:03.557Z'
+  - VulnerabilityID: CVE-2026-24515
+    PkgID: libexpat1@2.6.1-2ubuntu0.3
+    PkgName: libexpat1
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libexpat1@2.6.1-2ubuntu0.3?arch=amd64&distro=ubuntu-24.04
+      UID: 74ebf11e4ad0c46f
+    InstalledVersion: 2.6.1-2ubuntu0.3
+    Status: affected
+    Layer:
+      Digest: sha256:3fdcb0df2d7f1b82ddca9e944449be2e751eb6e8c5429ec37c5f0de1ba64655f
+      DiffID: sha256:d5c260e06df61cb76c334ed996d6f1eb2ead0d0cd20f7f56b5ea21b28e974a01
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-24515
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:3430312bff8363b3a5c0594aeae584ec16886c58a97141c837fbe535a5a51bf9
+    Title: 'libexpat: libexpat null pointer dereference'
+    Description: In libexpat before 2.7.4, XML_ExternalEntityParserCreate does not copy unknown encoding handler user data.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-476
+    VendorSeverity:
+      azure: 1
+      cbl-mariner: 1
+      nvd: 1
+      photon: 1
+      redhat: 1
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 2.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 2.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-24515
+    - https://github.com/libexpat/libexpat/pull/1131
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-24515
+    - https://ubuntu.com/security/notices/USN-8022-1
+    - https://ubuntu.com/security/notices/USN-8023-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-24515
+    PublishedDate: '2026-01-23T08:16:01.49Z'
+    LastModifiedDate: '2026-02-05T17:27:53.29Z'
+  - VulnerabilityID: CVE-2026-25210
+    PkgID: libexpat1@2.6.1-2ubuntu0.3
+    PkgName: libexpat1
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libexpat1@2.6.1-2ubuntu0.3?arch=amd64&distro=ubuntu-24.04
+      UID: 74ebf11e4ad0c46f
+    InstalledVersion: 2.6.1-2ubuntu0.3
+    Status: affected
+    Layer:
+      Digest: sha256:3fdcb0df2d7f1b82ddca9e944449be2e751eb6e8c5429ec37c5f0de1ba64655f
+      DiffID: sha256:d5c260e06df61cb76c334ed996d6f1eb2ead0d0cd20f7f56b5ea21b28e974a01
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-25210
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:8081ab83d2938ae4a1c0e082ce368f96bc5504c3a552e280bf92670c85cf4422
+    Title: 'libexpat: libexpat: Information disclosure and data integrity issues due to integer overflow in buffer reallocation'
+    Description: In libexpat before 2.7.4, the doContent function does not properly determine the buffer size bufSize because there is no integer overflow check for tag buffer reallocation.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-190
+    VendorSeverity:
+      azure: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:L
+        V3Score: 6.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-25210
+    - https://github.com/libexpat/libexpat/pull/1075
+    - https://github.com/libexpat/libexpat/pull/1075/commits/9c2d990389e6abe2e44527eeaa8b39f16fe859c7
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-25210
+    - https://ubuntu.com/security/notices/USN-8022-1
+    - https://ubuntu.com/security/notices/USN-8023-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-25210
+    PublishedDate: '2026-01-30T07:16:15.57Z'
+    LastModifiedDate: '2026-02-04T16:34:21.763Z'
   - VulnerabilityID: CVE-2024-2236
     PkgID: libgcrypt20@1.10.3-2build1
     PkgName: libgcrypt20
@@ -27488,28 +27575,34 @@
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
     Fingerprint: sha256:184d7faeb81a73871084328e941d7e3da0357948558f1e59d0be53de9fe182c1
-    Title: During session resumption in crypto/tls, if the underlying Config has  ...
+    Title: 'crypto/tls: Unexpected session resumption in crypto/tls'
     Description: During session resumption in crypto/tls, if the underlying Config has its ClientCAs or RootCAs fields mutated between the initial handshake and the resumed handshake, the resumed handshake may succeed when it should have failed. This may happen when a user calls Config.Clone and mutates the returned Config, or uses Config.GetConfigForClient. This can cause a client to resume a session with a server that it would not have resumed with during the initial handshake, or cause a server to resume a session with a client that it would not have resumed with during the initial handshake.
     Severity: CRITICAL
     CweIDs:
     - CWE-295
     VendorSeverity:
       amazon: 3
-      bitnami: 2
+      bitnami: 4
       nvd: 4
+      redhat: 2
     CVSS:
       bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N
-        V3Score: 4.8
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+        V3Score: 10
       nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
         V3Score: 10
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N
+        V3Score: 7.4
     References:
+    - https://access.redhat.com/security/cve/CVE-2025-68121
     - https://go.dev/cl/737700
     - https://go.dev/issue/77217
     - https://groups.google.com/g/golang-announce/c/K09ubi9FQFk
     - https://nvd.nist.gov/vuln/detail/CVE-2025-68121
     - https://pkg.go.dev/vuln/GO-2026-4337
+    - https://www.cve.org/CVERecord?id=CVE-2025-68121
     PublishedDate: '2026-02-05T18:16:10.857Z'
     LastModifiedDate: '2026-02-10T16:08:03.303Z'
   - VulnerabilityID: CVE-2025-22874
@@ -27988,7 +28081,7 @@
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
     Fingerprint: sha256:c4108d9cf5e2c6b982523cf595cc4d4fb22f9f6ad9d6e22b1303e0cea99280df
-    Title: It was possible to improperly access the parent directory of an os.Roo ...
+    Title: 'os: os: Information disclosure via path traversal using specially crafted filenames'
     Description: It was possible to improperly access the parent directory of an os.Root by opening a filename ending in "../". For example, Root.Open("../") would open the parent directory of the Root. This escape only permits opening the parent directory itself, not ancestors of the parent or files contained within the parent.
     Severity: MEDIUM
     CweIDs:
@@ -27996,17 +28089,23 @@
     VendorSeverity:
       amazon: 2
       bitnami: 1
+      redhat: 2
     CVSS:
       bitnami:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:L/I:N/A:N
         V3Score: 3.8
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
+        V3Score: 5.3
     References:
     - http://www.openwall.com/lists/oss-security/2025/05/06/2
+    - https://access.redhat.com/security/cve/CVE-2025-22873
     - https://go.dev/cl/670036
     - https://go.dev/issue/73555
     - https://groups.google.com/g/golang-announce/c/UZoIkUT367A/m/5WDxKizJAQAJ
     - https://nvd.nist.gov/vuln/detail/CVE-2025-22873
     - https://pkg.go.dev/vuln/GO-2026-4403
+    - https://www.cve.org/CVERecord?id=CVE-2025-22873
     PublishedDate: '2026-02-04T23:15:54.22Z'
     LastModifiedDate: '2026-02-10T15:16:40.057Z'
   - VulnerabilityID: CVE-2025-4673
@@ -29107,28 +29206,34 @@
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
     Fingerprint: sha256:54d0393cec7532d9029c47ebfa15a82712774b0190d61d19702c7e9f9757c321
-    Title: During session resumption in crypto/tls, if the underlying Config has  ...
+    Title: 'crypto/tls: Unexpected session resumption in crypto/tls'
     Description: During session resumption in crypto/tls, if the underlying Config has its ClientCAs or RootCAs fields mutated between the initial handshake and the resumed handshake, the resumed handshake may succeed when it should have failed. This may happen when a user calls Config.Clone and mutates the returned Config, or uses Config.GetConfigForClient. This can cause a client to resume a session with a server that it would not have resumed with during the initial handshake, or cause a server to resume a session with a client that it would not have resumed with during the initial handshake.
     Severity: CRITICAL
     CweIDs:
     - CWE-295
     VendorSeverity:
       amazon: 3
-      bitnami: 2
+      bitnami: 4
       nvd: 4
+      redhat: 2
     CVSS:
       bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N
-        V3Score: 4.8
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+        V3Score: 10
       nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
         V3Score: 10
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N
+        V3Score: 7.4
     References:
+    - https://access.redhat.com/security/cve/CVE-2025-68121
     - https://go.dev/cl/737700
     - https://go.dev/issue/77217
     - https://groups.google.com/g/golang-announce/c/K09ubi9FQFk
     - https://nvd.nist.gov/vuln/detail/CVE-2025-68121
     - https://pkg.go.dev/vuln/GO-2026-4337
+    - https://www.cve.org/CVERecord?id=CVE-2025-68121
     PublishedDate: '2026-02-05T18:16:10.857Z'
     LastModifiedDate: '2026-02-10T16:08:03.303Z'
   - VulnerabilityID: CVE-2025-22874
@@ -29607,7 +29712,7 @@
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
     Fingerprint: sha256:a8cb8ab4088da6edfbf756c37c8d75baf565a5f755505452f346b98e45453a5c
-    Title: It was possible to improperly access the parent directory of an os.Roo ...
+    Title: 'os: os: Information disclosure via path traversal using specially crafted filenames'
     Description: It was possible to improperly access the parent directory of an os.Root by opening a filename ending in "../". For example, Root.Open("../") would open the parent directory of the Root. This escape only permits opening the parent directory itself, not ancestors of the parent or files contained within the parent.
     Severity: MEDIUM
     CweIDs:
@@ -29615,17 +29720,23 @@
     VendorSeverity:
       amazon: 2
       bitnami: 1
+      redhat: 2
     CVSS:
       bitnami:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:L/I:N/A:N
         V3Score: 3.8
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
+        V3Score: 5.3
     References:
     - http://www.openwall.com/lists/oss-security/2025/05/06/2
+    - https://access.redhat.com/security/cve/CVE-2025-22873
     - https://go.dev/cl/670036
     - https://go.dev/issue/73555
     - https://groups.google.com/g/golang-announce/c/UZoIkUT367A/m/5WDxKizJAQAJ
     - https://nvd.nist.gov/vuln/detail/CVE-2025-22873
     - https://pkg.go.dev/vuln/GO-2026-4403
+    - https://www.cve.org/CVERecord?id=CVE-2025-22873
     PublishedDate: '2026-02-04T23:15:54.22Z'
     LastModifiedDate: '2026-02-10T15:16:40.057Z'
   - VulnerabilityID: CVE-2025-4673
@@ -30249,28 +30360,34 @@
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
     Fingerprint: sha256:a24c7f3730260d3cd9ca9539f79741057757c32eb8c3f9ee605b76f2a0645d69
-    Title: During session resumption in crypto/tls, if the underlying Config has  ...
+    Title: 'crypto/tls: Unexpected session resumption in crypto/tls'
     Description: During session resumption in crypto/tls, if the underlying Config has its ClientCAs or RootCAs fields mutated between the initial handshake and the resumed handshake, the resumed handshake may succeed when it should have failed. This may happen when a user calls Config.Clone and mutates the returned Config, or uses Config.GetConfigForClient. This can cause a client to resume a session with a server that it would not have resumed with during the initial handshake, or cause a server to resume a session with a client that it would not have resumed with during the initial handshake.
     Severity: CRITICAL
     CweIDs:
     - CWE-295
     VendorSeverity:
       amazon: 3
-      bitnami: 2
+      bitnami: 4
       nvd: 4
+      redhat: 2
     CVSS:
       bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N
-        V3Score: 4.8
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+        V3Score: 10
       nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
         V3Score: 10
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N
+        V3Score: 7.4
     References:
+    - https://access.redhat.com/security/cve/CVE-2025-68121
     - https://go.dev/cl/737700
     - https://go.dev/issue/77217
     - https://groups.google.com/g/golang-announce/c/K09ubi9FQFk
     - https://nvd.nist.gov/vuln/detail/CVE-2025-68121
     - https://pkg.go.dev/vuln/GO-2026-4337
+    - https://www.cve.org/CVERecord?id=CVE-2025-68121
     PublishedDate: '2026-02-05T18:16:10.857Z'
     LastModifiedDate: '2026-02-10T16:08:03.303Z'
 - Target: usr/bin/docker-compose
@@ -31785,28 +31902,34 @@
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
     Fingerprint: sha256:f2241bd57e463ddfe1965a1255b6ac50d03b08cb88243ddfdfa3bb4ea928c994
-    Title: During session resumption in crypto/tls, if the underlying Config has  ...
+    Title: 'crypto/tls: Unexpected session resumption in crypto/tls'
     Description: During session resumption in crypto/tls, if the underlying Config has its ClientCAs or RootCAs fields mutated between the initial handshake and the resumed handshake, the resumed handshake may succeed when it should have failed. This may happen when a user calls Config.Clone and mutates the returned Config, or uses Config.GetConfigForClient. This can cause a client to resume a session with a server that it would not have resumed with during the initial handshake, or cause a server to resume a session with a client that it would not have resumed with during the initial handshake.
     Severity: CRITICAL
     CweIDs:
     - CWE-295
     VendorSeverity:
       amazon: 3
-      bitnami: 2
+      bitnami: 4
       nvd: 4
+      redhat: 2
     CVSS:
       bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N
-        V3Score: 4.8
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+        V3Score: 10
       nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
         V3Score: 10
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N
+        V3Score: 7.4
     References:
+    - https://access.redhat.com/security/cve/CVE-2025-68121
     - https://go.dev/cl/737700
     - https://go.dev/issue/77217
     - https://groups.google.com/g/golang-announce/c/K09ubi9FQFk
     - https://nvd.nist.gov/vuln/detail/CVE-2025-68121
     - https://pkg.go.dev/vuln/GO-2026-4337
+    - https://www.cve.org/CVERecord?id=CVE-2025-68121
     PublishedDate: '2026-02-05T18:16:10.857Z'
     LastModifiedDate: '2026-02-10T16:08:03.303Z'
   - VulnerabilityID: CVE-2025-61726
@@ -32048,28 +32171,34 @@
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
     Fingerprint: sha256:e0b151615456965c3a468b19ff4992e08946438707bad898271ba3771e87206b
-    Title: During session resumption in crypto/tls, if the underlying Config has  ...
+    Title: 'crypto/tls: Unexpected session resumption in crypto/tls'
     Description: During session resumption in crypto/tls, if the underlying Config has its ClientCAs or RootCAs fields mutated between the initial handshake and the resumed handshake, the resumed handshake may succeed when it should have failed. This may happen when a user calls Config.Clone and mutates the returned Config, or uses Config.GetConfigForClient. This can cause a client to resume a session with a server that it would not have resumed with during the initial handshake, or cause a server to resume a session with a client that it would not have resumed with during the initial handshake.
     Severity: CRITICAL
     CweIDs:
     - CWE-295
     VendorSeverity:
       amazon: 3
-      bitnami: 2
+      bitnami: 4
       nvd: 4
+      redhat: 2
     CVSS:
       bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N
-        V3Score: 4.8
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+        V3Score: 10
       nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
         V3Score: 10
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N
+        V3Score: 7.4
     References:
+    - https://access.redhat.com/security/cve/CVE-2025-68121
     - https://go.dev/cl/737700
     - https://go.dev/issue/77217
     - https://groups.google.com/g/golang-announce/c/K09ubi9FQFk
     - https://nvd.nist.gov/vuln/detail/CVE-2025-68121
     - https://pkg.go.dev/vuln/GO-2026-4337
+    - https://www.cve.org/CVERecord?id=CVE-2025-68121
     PublishedDate: '2026-02-05T18:16:10.857Z'
     LastModifiedDate: '2026-02-10T16:08:03.303Z'
 - Target: usr/bin/dockerd
@@ -35125,28 +35254,34 @@
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
     Fingerprint: sha256:ea8edf7135ab718c044dca569407b81998f01aa59558633868415f6e4a48f375
-    Title: During session resumption in crypto/tls, if the underlying Config has  ...
+    Title: 'crypto/tls: Unexpected session resumption in crypto/tls'
     Description: During session resumption in crypto/tls, if the underlying Config has its ClientCAs or RootCAs fields mutated between the initial handshake and the resumed handshake, the resumed handshake may succeed when it should have failed. This may happen when a user calls Config.Clone and mutates the returned Config, or uses Config.GetConfigForClient. This can cause a client to resume a session with a server that it would not have resumed with during the initial handshake, or cause a server to resume a session with a client that it would not have resumed with during the initial handshake.
     Severity: CRITICAL
     CweIDs:
     - CWE-295
     VendorSeverity:
       amazon: 3
-      bitnami: 2
+      bitnami: 4
       nvd: 4
+      redhat: 2
     CVSS:
       bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N
-        V3Score: 4.8
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+        V3Score: 10
       nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
         V3Score: 10
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N
+        V3Score: 7.4
     References:
+    - https://access.redhat.com/security/cve/CVE-2025-68121
     - https://go.dev/cl/737700
     - https://go.dev/issue/77217
     - https://groups.google.com/g/golang-announce/c/K09ubi9FQFk
     - https://nvd.nist.gov/vuln/detail/CVE-2025-68121
     - https://pkg.go.dev/vuln/GO-2026-4337
+    - https://www.cve.org/CVERecord?id=CVE-2025-68121
     PublishedDate: '2026-02-05T18:16:10.857Z'
     LastModifiedDate: '2026-02-10T16:08:03.303Z'
 - Target: usr/bin/helm
@@ -36376,28 +36511,34 @@
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
     Fingerprint: sha256:3e0df8baad8efd321a3fa85c044bba913166dd3742efd6e21df7e07349acd655
-    Title: During session resumption in crypto/tls, if the underlying Config has  ...
+    Title: 'crypto/tls: Unexpected session resumption in crypto/tls'
     Description: During session resumption in crypto/tls, if the underlying Config has its ClientCAs or RootCAs fields mutated between the initial handshake and the resumed handshake, the resumed handshake may succeed when it should have failed. This may happen when a user calls Config.Clone and mutates the returned Config, or uses Config.GetConfigForClient. This can cause a client to resume a session with a server that it would not have resumed with during the initial handshake, or cause a server to resume a session with a client that it would not have resumed with during the initial handshake.
     Severity: CRITICAL
     CweIDs:
     - CWE-295
     VendorSeverity:
       amazon: 3
-      bitnami: 2
+      bitnami: 4
       nvd: 4
+      redhat: 2
     CVSS:
       bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N
-        V3Score: 4.8
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+        V3Score: 10
       nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
         V3Score: 10
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N
+        V3Score: 7.4
     References:
+    - https://access.redhat.com/security/cve/CVE-2025-68121
     - https://go.dev/cl/737700
     - https://go.dev/issue/77217
     - https://groups.google.com/g/golang-announce/c/K09ubi9FQFk
     - https://nvd.nist.gov/vuln/detail/CVE-2025-68121
     - https://pkg.go.dev/vuln/GO-2026-4337
+    - https://www.cve.org/CVERecord?id=CVE-2025-68121
     PublishedDate: '2026-02-05T18:16:10.857Z'
     LastModifiedDate: '2026-02-10T16:08:03.303Z'
 - Target: usr/bin/kubectl
@@ -37322,28 +37463,34 @@
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
     Fingerprint: sha256:57af9a3da7adca90a6d40d62da67b70b912ce19256a98a2e2f8a2aad043ad1ca
-    Title: During session resumption in crypto/tls, if the underlying Config has  ...
+    Title: 'crypto/tls: Unexpected session resumption in crypto/tls'
     Description: During session resumption in crypto/tls, if the underlying Config has its ClientCAs or RootCAs fields mutated between the initial handshake and the resumed handshake, the resumed handshake may succeed when it should have failed. This may happen when a user calls Config.Clone and mutates the returned Config, or uses Config.GetConfigForClient. This can cause a client to resume a session with a server that it would not have resumed with during the initial handshake, or cause a server to resume a session with a client that it would not have resumed with during the initial handshake.
     Severity: CRITICAL
     CweIDs:
     - CWE-295
     VendorSeverity:
       amazon: 3
-      bitnami: 2
+      bitnami: 4
       nvd: 4
+      redhat: 2
     CVSS:
       bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N
-        V3Score: 4.8
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+        V3Score: 10
       nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
         V3Score: 10
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N
+        V3Score: 7.4
     References:
+    - https://access.redhat.com/security/cve/CVE-2025-68121
     - https://go.dev/cl/737700
     - https://go.dev/issue/77217
     - https://groups.google.com/g/golang-announce/c/K09ubi9FQFk
     - https://nvd.nist.gov/vuln/detail/CVE-2025-68121
     - https://pkg.go.dev/vuln/GO-2026-4337
+    - https://www.cve.org/CVERecord?id=CVE-2025-68121
     PublishedDate: '2026-02-05T18:16:10.857Z'
     LastModifiedDate: '2026-02-10T16:08:03.303Z'
   - VulnerabilityID: CVE-2025-61726
@@ -38708,28 +38855,34 @@
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
     Fingerprint: sha256:9c3b201956629acb6ef65443f934dd86c728dafe7d298d03f7ebf758b80b6ea1
-    Title: During session resumption in crypto/tls, if the underlying Config has  ...
+    Title: 'crypto/tls: Unexpected session resumption in crypto/tls'
     Description: During session resumption in crypto/tls, if the underlying Config has its ClientCAs or RootCAs fields mutated between the initial handshake and the resumed handshake, the resumed handshake may succeed when it should have failed. This may happen when a user calls Config.Clone and mutates the returned Config, or uses Config.GetConfigForClient. This can cause a client to resume a session with a server that it would not have resumed with during the initial handshake, or cause a server to resume a session with a client that it would not have resumed with during the initial handshake.
     Severity: CRITICAL
     CweIDs:
     - CWE-295
     VendorSeverity:
       amazon: 3
-      bitnami: 2
+      bitnami: 4
       nvd: 4
+      redhat: 2
     CVSS:
       bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N
-        V3Score: 4.8
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+        V3Score: 10
       nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
         V3Score: 10
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N
+        V3Score: 7.4
     References:
+    - https://access.redhat.com/security/cve/CVE-2025-68121
     - https://go.dev/cl/737700
     - https://go.dev/issue/77217
     - https://groups.google.com/g/golang-announce/c/K09ubi9FQFk
     - https://nvd.nist.gov/vuln/detail/CVE-2025-68121
     - https://pkg.go.dev/vuln/GO-2026-4337
+    - https://www.cve.org/CVERecord?id=CVE-2025-68121
     PublishedDate: '2026-02-05T18:16:10.857Z'
     LastModifiedDate: '2026-02-10T16:08:03.303Z'
   - VulnerabilityID: CVE-2025-58183
@@ -39696,28 +39849,34 @@
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
     Fingerprint: sha256:40e605c8872b0b712e4fd8ad3cc59c6df169b6cf910c4c3af3c276e8aac2b093
-    Title: During session resumption in crypto/tls, if the underlying Config has  ...
+    Title: 'crypto/tls: Unexpected session resumption in crypto/tls'
     Description: During session resumption in crypto/tls, if the underlying Config has its ClientCAs or RootCAs fields mutated between the initial handshake and the resumed handshake, the resumed handshake may succeed when it should have failed. This may happen when a user calls Config.Clone and mutates the returned Config, or uses Config.GetConfigForClient. This can cause a client to resume a session with a server that it would not have resumed with during the initial handshake, or cause a server to resume a session with a client that it would not have resumed with during the initial handshake.
     Severity: CRITICAL
     CweIDs:
     - CWE-295
     VendorSeverity:
       amazon: 3
-      bitnami: 2
+      bitnami: 4
       nvd: 4
+      redhat: 2
     CVSS:
       bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N
-        V3Score: 4.8
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+        V3Score: 10
       nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
         V3Score: 10
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N
+        V3Score: 7.4
     References:
+    - https://access.redhat.com/security/cve/CVE-2025-68121
     - https://go.dev/cl/737700
     - https://go.dev/issue/77217
     - https://groups.google.com/g/golang-announce/c/K09ubi9FQFk
     - https://nvd.nist.gov/vuln/detail/CVE-2025-68121
     - https://pkg.go.dev/vuln/GO-2026-4337
+    - https://www.cve.org/CVERecord?id=CVE-2025-68121
     PublishedDate: '2026-02-05T18:16:10.857Z'
     LastModifiedDate: '2026-02-10T16:08:03.303Z'
 - Target: usr/libexec/docker/cli-plugins/docker-buildx
@@ -42466,28 +42625,34 @@
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
     Fingerprint: sha256:6195fab43d68d72643d57b6f1af29b02a1a5c40c9978fb3dd345951eb4f7fd7b
-    Title: During session resumption in crypto/tls, if the underlying Config has  ...
+    Title: 'crypto/tls: Unexpected session resumption in crypto/tls'
     Description: During session resumption in crypto/tls, if the underlying Config has its ClientCAs or RootCAs fields mutated between the initial handshake and the resumed handshake, the resumed handshake may succeed when it should have failed. This may happen when a user calls Config.Clone and mutates the returned Config, or uses Config.GetConfigForClient. This can cause a client to resume a session with a server that it would not have resumed with during the initial handshake, or cause a server to resume a session with a client that it would not have resumed with during the initial handshake.
     Severity: CRITICAL
     CweIDs:
     - CWE-295
     VendorSeverity:
       amazon: 3
-      bitnami: 2
+      bitnami: 4
       nvd: 4
+      redhat: 2
     CVSS:
       bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N
-        V3Score: 4.8
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+        V3Score: 10
       nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
         V3Score: 10
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N
+        V3Score: 7.4
     References:
+    - https://access.redhat.com/security/cve/CVE-2025-68121
     - https://go.dev/cl/737700
     - https://go.dev/issue/77217
     - https://groups.google.com/g/golang-announce/c/K09ubi9FQFk
     - https://nvd.nist.gov/vuln/detail/CVE-2025-68121
     - https://pkg.go.dev/vuln/GO-2026-4337
+    - https://www.cve.org/CVERecord?id=CVE-2025-68121
     PublishedDate: '2026-02-05T18:16:10.857Z'
     LastModifiedDate: '2026-02-10T16:08:03.303Z'
 - Target: usr/libexec/docker/cli-plugins/docker-compose
@@ -44002,28 +44167,34 @@
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
     Fingerprint: sha256:bc7cf5d133e8965852eb72337dd01296fce7f00c8e2333ed077e901c4caab483
-    Title: During session resumption in crypto/tls, if the underlying Config has  ...
+    Title: 'crypto/tls: Unexpected session resumption in crypto/tls'
     Description: During session resumption in crypto/tls, if the underlying Config has its ClientCAs or RootCAs fields mutated between the initial handshake and the resumed handshake, the resumed handshake may succeed when it should have failed. This may happen when a user calls Config.Clone and mutates the returned Config, or uses Config.GetConfigForClient. This can cause a client to resume a session with a server that it would not have resumed with during the initial handshake, or cause a server to resume a session with a client that it would not have resumed with during the initial handshake.
     Severity: CRITICAL
     CweIDs:
     - CWE-295
     VendorSeverity:
       amazon: 3
-      bitnami: 2
+      bitnami: 4
       nvd: 4
+      redhat: 2
     CVSS:
       bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N
-        V3Score: 4.8
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+        V3Score: 10
       nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
         V3Score: 10
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N
+        V3Score: 7.4
     References:
+    - https://access.redhat.com/security/cve/CVE-2025-68121
     - https://go.dev/cl/737700
     - https://go.dev/issue/77217
     - https://groups.google.com/g/golang-announce/c/K09ubi9FQFk
     - https://nvd.nist.gov/vuln/detail/CVE-2025-68121
     - https://pkg.go.dev/vuln/GO-2026-4337
+    - https://www.cve.org/CVERecord?id=CVE-2025-68121
     PublishedDate: '2026-02-05T18:16:10.857Z'
     LastModifiedDate: '2026-02-10T16:08:03.303Z'
   - VulnerabilityID: CVE-2025-61726
@@ -45364,28 +45535,34 @@
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
     Fingerprint: sha256:c3dbe1d9edcbe9b298178ad9c221262aa934083383727c63a95d79be75a6ae65
-    Title: During session resumption in crypto/tls, if the underlying Config has  ...
+    Title: 'crypto/tls: Unexpected session resumption in crypto/tls'
     Description: During session resumption in crypto/tls, if the underlying Config has its ClientCAs or RootCAs fields mutated between the initial handshake and the resumed handshake, the resumed handshake may succeed when it should have failed. This may happen when a user calls Config.Clone and mutates the returned Config, or uses Config.GetConfigForClient. This can cause a client to resume a session with a server that it would not have resumed with during the initial handshake, or cause a server to resume a session with a client that it would not have resumed with during the initial handshake.
     Severity: CRITICAL
     CweIDs:
     - CWE-295
     VendorSeverity:
       amazon: 3
-      bitnami: 2
+      bitnami: 4
       nvd: 4
+      redhat: 2
     CVSS:
       bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N
-        V3Score: 4.8
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+        V3Score: 10
       nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
         V3Score: 10
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N
+        V3Score: 7.4
     References:
+    - https://access.redhat.com/security/cve/CVE-2025-68121
     - https://go.dev/cl/737700
     - https://go.dev/issue/77217
     - https://groups.google.com/g/golang-announce/c/K09ubi9FQFk
     - https://nvd.nist.gov/vuln/detail/CVE-2025-68121
     - https://pkg.go.dev/vuln/GO-2026-4337
+    - https://www.cve.org/CVERecord?id=CVE-2025-68121
     PublishedDate: '2026-02-05T18:16:10.857Z'
     LastModifiedDate: '2026-02-10T16:08:03.303Z'
 - Target: usr/local/bin/k3d
@@ -47344,28 +47521,34 @@
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
     Fingerprint: sha256:06c5a55e80d830e093883f64d3612d23122ebca5d3939f9fb3082cd55fac1c43
-    Title: During session resumption in crypto/tls, if the underlying Config has  ...
+    Title: 'crypto/tls: Unexpected session resumption in crypto/tls'
     Description: During session resumption in crypto/tls, if the underlying Config has its ClientCAs or RootCAs fields mutated between the initial handshake and the resumed handshake, the resumed handshake may succeed when it should have failed. This may happen when a user calls Config.Clone and mutates the returned Config, or uses Config.GetConfigForClient. This can cause a client to resume a session with a server that it would not have resumed with during the initial handshake, or cause a server to resume a session with a client that it would not have resumed with during the initial handshake.
     Severity: CRITICAL
     CweIDs:
     - CWE-295
     VendorSeverity:
       amazon: 3
-      bitnami: 2
+      bitnami: 4
       nvd: 4
+      redhat: 2
     CVSS:
       bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N
-        V3Score: 4.8
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+        V3Score: 10
       nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
         V3Score: 10
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N
+        V3Score: 7.4
     References:
+    - https://access.redhat.com/security/cve/CVE-2025-68121
     - https://go.dev/cl/737700
     - https://go.dev/issue/77217
     - https://groups.google.com/g/golang-announce/c/K09ubi9FQFk
     - https://nvd.nist.gov/vuln/detail/CVE-2025-68121
     - https://pkg.go.dev/vuln/GO-2026-4337
+    - https://www.cve.org/CVERecord?id=CVE-2025-68121
     PublishedDate: '2026-02-05T18:16:10.857Z'
     LastModifiedDate: '2026-02-10T16:08:03.303Z'
   - VulnerabilityID: CVE-2025-47907
@@ -47798,7 +47981,7 @@
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
     Fingerprint: sha256:177a2831ef4803c3e627144859c824c5fada596addb0a3639c190acd4b4db272
-    Title: It was possible to improperly access the parent directory of an os.Roo ...
+    Title: 'os: os: Information disclosure via path traversal using specially crafted filenames'
     Description: It was possible to improperly access the parent directory of an os.Root by opening a filename ending in "../". For example, Root.Open("../") would open the parent directory of the Root. This escape only permits opening the parent directory itself, not ancestors of the parent or files contained within the parent.
     Severity: MEDIUM
     CweIDs:
@@ -47806,17 +47989,23 @@
     VendorSeverity:
       amazon: 2
       bitnami: 1
+      redhat: 2
     CVSS:
       bitnami:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:L/I:N/A:N
         V3Score: 3.8
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
+        V3Score: 5.3
     References:
     - http://www.openwall.com/lists/oss-security/2025/05/06/2
+    - https://access.redhat.com/security/cve/CVE-2025-22873
     - https://go.dev/cl/670036
     - https://go.dev/issue/73555
     - https://groups.google.com/g/golang-announce/c/UZoIkUT367A/m/5WDxKizJAQAJ
     - https://nvd.nist.gov/vuln/detail/CVE-2025-22873
     - https://pkg.go.dev/vuln/GO-2026-4403
+    - https://www.cve.org/CVERecord?id=CVE-2025-22873
     PublishedDate: '2026-02-04T23:15:54.22Z'
     LastModifiedDate: '2026-02-10T15:16:40.057Z'
   - VulnerabilityID: CVE-2025-4673
