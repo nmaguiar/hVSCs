@@ -23212,7 +23212,7 @@
     - CWE-125
     VendorSeverity:
       alma: 2
-      amazon: 1
+      amazon: 2
       oracle-oval: 2
       photon: 3
       redhat: 2
@@ -25413,6 +25413,7 @@
     CweIDs:
     - CWE-908
     VendorSeverity:
+      azure: 2
       redhat: 1
       ubuntu: 2
     CVSS:
@@ -25460,6 +25461,7 @@
     - CWE-190
     VendorSeverity:
       alma: 2
+      azure: 2
       cbl-mariner: 2
       oracle-oval: 2
       photon: 3
@@ -25517,6 +25519,7 @@
     - CWE-908
     VendorSeverity:
       alma: 2
+      azure: 1
       cbl-mariner: 2
       oracle-oval: 2
       photon: 3
@@ -25573,6 +25576,7 @@
     CweIDs:
     - CWE-908
     VendorSeverity:
+      azure: 2
       redhat: 1
       ubuntu: 2
     CVSS:
@@ -25620,6 +25624,7 @@
     - CWE-190
     VendorSeverity:
       alma: 2
+      azure: 2
       cbl-mariner: 2
       oracle-oval: 2
       photon: 3
@@ -25677,6 +25682,7 @@
     - CWE-908
     VendorSeverity:
       alma: 2
+      azure: 1
       cbl-mariner: 2
       oracle-oval: 2
       photon: 3
@@ -25904,7 +25910,7 @@
     - CWE-125
     VendorSeverity:
       alma: 2
-      amazon: 1
+      amazon: 2
       oracle-oval: 2
       photon: 3
       redhat: 2
@@ -26130,7 +26136,7 @@
     - CWE-125
     VendorSeverity:
       alma: 2
-      amazon: 1
+      amazon: 2
       oracle-oval: 2
       photon: 3
       redhat: 2
@@ -26360,6 +26366,95 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-66382
     PublishedDate: '2025-11-28T07:15:57.9Z'
     LastModifiedDate: '2025-12-19T16:05:03.557Z'
+  - VulnerabilityID: CVE-2026-24515
+    PkgID: libexpat1@2.4.7-1ubuntu0.6
+    PkgName: libexpat1
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libexpat1@2.4.7-1ubuntu0.6?arch=amd64&distro=ubuntu-22.04
+      UID: ad51996fa2745df8
+    InstalledVersion: 2.4.7-1ubuntu0.6
+    FixedVersion: 2.4.7-1ubuntu0.7
+    Status: fixed
+    Layer:
+      Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f672d99cf12d59721fb5d9
+      DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7277787fa3578e3352a155
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-24515
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:936ea9505dcb56bef6ec68005b0b3a24b2e068bf8992dc446fd11551a12f5f93
+    Title: 'libexpat: libexpat null pointer dereference'
+    Description: In libexpat before 2.7.4, XML_ExternalEntityParserCreate does not copy unknown encoding handler user data.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-476
+    VendorSeverity:
+      azure: 1
+      cbl-mariner: 1
+      nvd: 1
+      photon: 1
+      redhat: 1
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 2.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 2.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-24515
+    - https://github.com/libexpat/libexpat/pull/1131
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-24515
+    - https://ubuntu.com/security/notices/USN-8022-1
+    - https://ubuntu.com/security/notices/USN-8023-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-24515
+    PublishedDate: '2026-01-23T08:16:01.49Z'
+    LastModifiedDate: '2026-02-05T17:27:53.29Z'
+  - VulnerabilityID: CVE-2026-25210
+    PkgID: libexpat1@2.4.7-1ubuntu0.6
+    PkgName: libexpat1
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libexpat1@2.4.7-1ubuntu0.6?arch=amd64&distro=ubuntu-22.04
+      UID: ad51996fa2745df8
+    InstalledVersion: 2.4.7-1ubuntu0.6
+    FixedVersion: 2.4.7-1ubuntu0.7
+    Status: fixed
+    Layer:
+      Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f672d99cf12d59721fb5d9
+      DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7277787fa3578e3352a155
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-25210
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:c3dbc11885c2a3962f3f4e7a3aae44cf3937253ce7165e410c64e88b8dd3532f
+    Title: 'libexpat: libexpat: Information disclosure and data integrity issues due to integer overflow in buffer reallocation'
+    Description: In libexpat before 2.7.4, the doContent function does not properly determine the buffer size bufSize because there is no integer overflow check for tag buffer reallocation.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-190
+    VendorSeverity:
+      azure: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:L
+        V3Score: 6.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-25210
+    - https://github.com/libexpat/libexpat/pull/1075
+    - https://github.com/libexpat/libexpat/pull/1075/commits/9c2d990389e6abe2e44527eeaa8b39f16fe859c7
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-25210
+    - https://ubuntu.com/security/notices/USN-8022-1
+    - https://ubuntu.com/security/notices/USN-8023-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-25210
+    PublishedDate: '2026-01-30T07:16:15.57Z'
+    LastModifiedDate: '2026-02-04T16:34:21.763Z'
   - VulnerabilityID: CVE-2022-27943
     PkgID: libgcc-s1@12.3.0-1ubuntu1~22.04.2
     PkgName: libgcc-s1
@@ -26519,6 +26614,9 @@
     - https://access.redhat.com/errata/RHSA-2026:1627
     - https://access.redhat.com/errata/RHSA-2026:1652
     - https://access.redhat.com/errata/RHSA-2026:1736
+    - https://access.redhat.com/errata/RHSA-2026:2072
+    - https://access.redhat.com/errata/RHSA-2026:2485
+    - https://access.redhat.com/errata/RHSA-2026:2563
     - https://access.redhat.com/security/cve/CVE-2025-13601
     - https://bugzilla.redhat.com/2416741
     - https://bugzilla.redhat.com/show_bug.cgi?id=2416741
@@ -26528,13 +26626,13 @@
     - https://gitlab.gnome.org/GNOME/glib/-/issues/3827
     - https://gitlab.gnome.org/GNOME/glib/-/merge_requests/4914
     - https://linux.oracle.com/cve/CVE-2025-13601.html
-    - https://linux.oracle.com/errata/ELSA-2026-0991.html
+    - https://linux.oracle.com/errata/ELSA-2026-1608.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-13601
     - https://ubuntu.com/security/notices/USN-7942-1
     - https://ubuntu.com/security/notices/USN-7942-2
     - https://www.cve.org/CVERecord?id=CVE-2025-13601
     PublishedDate: '2025-11-26T15:15:51.723Z'
-    LastModifiedDate: '2026-02-06T19:19:25.343Z'
+    LastModifiedDate: '2026-02-11T15:16:12.64Z'
   - VulnerabilityID: CVE-2025-14087
     PkgID: libglib2.0-0@2.72.4-0ubuntu2.6
     PkgName: libglib2.0-0
@@ -26564,7 +26662,7 @@
       azure: 2
       cbl-mariner: 2
       nvd: 4
-      photon: 2
+      photon: 4
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -26692,6 +26790,7 @@
     CweIDs:
     - CWE-787
     VendorSeverity:
+      azure: 1
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -26924,6 +27023,9 @@
     - https://access.redhat.com/errata/RHSA-2026:1627
     - https://access.redhat.com/errata/RHSA-2026:1652
     - https://access.redhat.com/errata/RHSA-2026:1736
+    - https://access.redhat.com/errata/RHSA-2026:2072
+    - https://access.redhat.com/errata/RHSA-2026:2485
+    - https://access.redhat.com/errata/RHSA-2026:2563
     - https://access.redhat.com/security/cve/CVE-2025-13601
     - https://bugzilla.redhat.com/2416741
     - https://bugzilla.redhat.com/show_bug.cgi?id=2416741
@@ -26933,13 +27035,13 @@
     - https://gitlab.gnome.org/GNOME/glib/-/issues/3827
     - https://gitlab.gnome.org/GNOME/glib/-/merge_requests/4914
     - https://linux.oracle.com/cve/CVE-2025-13601.html
-    - https://linux.oracle.com/errata/ELSA-2026-0991.html
+    - https://linux.oracle.com/errata/ELSA-2026-1608.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-13601
     - https://ubuntu.com/security/notices/USN-7942-1
     - https://ubuntu.com/security/notices/USN-7942-2
     - https://www.cve.org/CVERecord?id=CVE-2025-13601
     PublishedDate: '2025-11-26T15:15:51.723Z'
-    LastModifiedDate: '2026-02-06T19:19:25.343Z'
+    LastModifiedDate: '2026-02-11T15:16:12.64Z'
   - VulnerabilityID: CVE-2025-14087
     PkgID: libglib2.0-data@2.72.4-0ubuntu2.6
     PkgName: libglib2.0-data
@@ -26969,7 +27071,7 @@
       azure: 2
       cbl-mariner: 2
       nvd: 4
-      photon: 2
+      photon: 4
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -27097,6 +27199,7 @@
     CweIDs:
     - CWE-787
     VendorSeverity:
+      azure: 1
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -27465,6 +27568,258 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-50495
     PublishedDate: '2023-12-12T15:15:07.867Z'
     LastModifiedDate: '2025-11-04T19:16:14.45Z'
+  - VulnerabilityID: CVE-2026-1642
+    PkgID: libnginx-mod-http-geoip2@1.18.0-6ubuntu14.7
+    PkgName: libnginx-mod-http-geoip2
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libnginx-mod-http-geoip2@1.18.0-6ubuntu14.7?arch=amd64&distro=ubuntu-22.04
+      UID: 19972d13b71806f2
+    InstalledVersion: 1.18.0-6ubuntu14.7
+    FixedVersion: 1.18.0-6ubuntu14.8
+    Status: fixed
+    Layer:
+      Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f672d99cf12d59721fb5d9
+      DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7277787fa3578e3352a155
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-1642
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:f649237ac9b6861c6c43a7e259719e99c875fdf43c62d4d244003c9134c25e9e
+    Title: 'nginx: NGINX: Data injection via man-in-the-middle attack on TLS proxied connections'
+    Description: "A vulnerability exists in NGINX OSS and NGINX Plus when configured to proxy to upstream Transport Layer Security (TLS) servers. An attacker with a man-in-the-middle (MITM) position on the upstream server side—along with conditions beyond the attacker's control—may be able to inject plain text data into the response from an upstream proxied server.\_\_Note: Software versions which have reached End of Technical Support (EoTS) are not evaluated."
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-349
+    VendorSeverity:
+      bitnami: 3
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N
+        V3Score: 5.9
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/02/05/1
+    - https://access.redhat.com/security/cve/CVE-2026-1642
+    - https://my.f5.com/manage/s/article/K000159824
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-1642
+    - https://ubuntu.com/security/notices/USN-8038-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-1642
+    - https://www.openwall.com/lists/oss-security/2026/02/05/1
+    PublishedDate: '2026-02-04T15:16:14.19Z'
+    LastModifiedDate: '2026-02-05T06:15:53.893Z'
+  - VulnerabilityID: CVE-2026-1642
+    PkgID: libnginx-mod-http-image-filter@1.18.0-6ubuntu14.7
+    PkgName: libnginx-mod-http-image-filter
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libnginx-mod-http-image-filter@1.18.0-6ubuntu14.7?arch=amd64&distro=ubuntu-22.04
+      UID: 81bb081f2f5fddd7
+    InstalledVersion: 1.18.0-6ubuntu14.7
+    FixedVersion: 1.18.0-6ubuntu14.8
+    Status: fixed
+    Layer:
+      Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f672d99cf12d59721fb5d9
+      DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7277787fa3578e3352a155
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-1642
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:d8393caf300b6c2d57a912579f1610e77cc0a9fd062d38dd0354a992b60b94af
+    Title: 'nginx: NGINX: Data injection via man-in-the-middle attack on TLS proxied connections'
+    Description: "A vulnerability exists in NGINX OSS and NGINX Plus when configured to proxy to upstream Transport Layer Security (TLS) servers. An attacker with a man-in-the-middle (MITM) position on the upstream server side—along with conditions beyond the attacker's control—may be able to inject plain text data into the response from an upstream proxied server.\_\_Note: Software versions which have reached End of Technical Support (EoTS) are not evaluated."
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-349
+    VendorSeverity:
+      bitnami: 3
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N
+        V3Score: 5.9
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/02/05/1
+    - https://access.redhat.com/security/cve/CVE-2026-1642
+    - https://my.f5.com/manage/s/article/K000159824
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-1642
+    - https://ubuntu.com/security/notices/USN-8038-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-1642
+    - https://www.openwall.com/lists/oss-security/2026/02/05/1
+    PublishedDate: '2026-02-04T15:16:14.19Z'
+    LastModifiedDate: '2026-02-05T06:15:53.893Z'
+  - VulnerabilityID: CVE-2026-1642
+    PkgID: libnginx-mod-http-xslt-filter@1.18.0-6ubuntu14.7
+    PkgName: libnginx-mod-http-xslt-filter
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libnginx-mod-http-xslt-filter@1.18.0-6ubuntu14.7?arch=amd64&distro=ubuntu-22.04
+      UID: 8bb06b6e9e71478a
+    InstalledVersion: 1.18.0-6ubuntu14.7
+    FixedVersion: 1.18.0-6ubuntu14.8
+    Status: fixed
+    Layer:
+      Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f672d99cf12d59721fb5d9
+      DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7277787fa3578e3352a155
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-1642
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:d2cddddd7a8632684123150c1a37c8396ff3d53939cba410db1c6f053adac2b2
+    Title: 'nginx: NGINX: Data injection via man-in-the-middle attack on TLS proxied connections'
+    Description: "A vulnerability exists in NGINX OSS and NGINX Plus when configured to proxy to upstream Transport Layer Security (TLS) servers. An attacker with a man-in-the-middle (MITM) position on the upstream server side—along with conditions beyond the attacker's control—may be able to inject plain text data into the response from an upstream proxied server.\_\_Note: Software versions which have reached End of Technical Support (EoTS) are not evaluated."
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-349
+    VendorSeverity:
+      bitnami: 3
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N
+        V3Score: 5.9
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/02/05/1
+    - https://access.redhat.com/security/cve/CVE-2026-1642
+    - https://my.f5.com/manage/s/article/K000159824
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-1642
+    - https://ubuntu.com/security/notices/USN-8038-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-1642
+    - https://www.openwall.com/lists/oss-security/2026/02/05/1
+    PublishedDate: '2026-02-04T15:16:14.19Z'
+    LastModifiedDate: '2026-02-05T06:15:53.893Z'
+  - VulnerabilityID: CVE-2026-1642
+    PkgID: libnginx-mod-mail@1.18.0-6ubuntu14.7
+    PkgName: libnginx-mod-mail
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libnginx-mod-mail@1.18.0-6ubuntu14.7?arch=amd64&distro=ubuntu-22.04
+      UID: abb7f5b3e640e20f
+    InstalledVersion: 1.18.0-6ubuntu14.7
+    FixedVersion: 1.18.0-6ubuntu14.8
+    Status: fixed
+    Layer:
+      Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f672d99cf12d59721fb5d9
+      DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7277787fa3578e3352a155
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-1642
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:1396bf7cf91452742b7c9abb74200f669b507be0254505ec98f60bd0c6770113
+    Title: 'nginx: NGINX: Data injection via man-in-the-middle attack on TLS proxied connections'
+    Description: "A vulnerability exists in NGINX OSS and NGINX Plus when configured to proxy to upstream Transport Layer Security (TLS) servers. An attacker with a man-in-the-middle (MITM) position on the upstream server side—along with conditions beyond the attacker's control—may be able to inject plain text data into the response from an upstream proxied server.\_\_Note: Software versions which have reached End of Technical Support (EoTS) are not evaluated."
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-349
+    VendorSeverity:
+      bitnami: 3
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N
+        V3Score: 5.9
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/02/05/1
+    - https://access.redhat.com/security/cve/CVE-2026-1642
+    - https://my.f5.com/manage/s/article/K000159824
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-1642
+    - https://ubuntu.com/security/notices/USN-8038-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-1642
+    - https://www.openwall.com/lists/oss-security/2026/02/05/1
+    PublishedDate: '2026-02-04T15:16:14.19Z'
+    LastModifiedDate: '2026-02-05T06:15:53.893Z'
+  - VulnerabilityID: CVE-2026-1642
+    PkgID: libnginx-mod-stream@1.18.0-6ubuntu14.7
+    PkgName: libnginx-mod-stream
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libnginx-mod-stream@1.18.0-6ubuntu14.7?arch=amd64&distro=ubuntu-22.04
+      UID: 3e7b4ff041fd5c52
+    InstalledVersion: 1.18.0-6ubuntu14.7
+    FixedVersion: 1.18.0-6ubuntu14.8
+    Status: fixed
+    Layer:
+      Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f672d99cf12d59721fb5d9
+      DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7277787fa3578e3352a155
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-1642
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:5861632fd4e11843833ca57b269a3ee8a29be6e3822cc8a67489273073ede98c
+    Title: 'nginx: NGINX: Data injection via man-in-the-middle attack on TLS proxied connections'
+    Description: "A vulnerability exists in NGINX OSS and NGINX Plus when configured to proxy to upstream Transport Layer Security (TLS) servers. An attacker with a man-in-the-middle (MITM) position on the upstream server side—along with conditions beyond the attacker's control—may be able to inject plain text data into the response from an upstream proxied server.\_\_Note: Software versions which have reached End of Technical Support (EoTS) are not evaluated."
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-349
+    VendorSeverity:
+      bitnami: 3
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N
+        V3Score: 5.9
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/02/05/1
+    - https://access.redhat.com/security/cve/CVE-2026-1642
+    - https://my.f5.com/manage/s/article/K000159824
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-1642
+    - https://ubuntu.com/security/notices/USN-8038-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-1642
+    - https://www.openwall.com/lists/oss-security/2026/02/05/1
+    PublishedDate: '2026-02-04T15:16:14.19Z'
+    LastModifiedDate: '2026-02-05T06:15:53.893Z'
+  - VulnerabilityID: CVE-2026-1642
+    PkgID: libnginx-mod-stream-geoip2@1.18.0-6ubuntu14.7
+    PkgName: libnginx-mod-stream-geoip2
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libnginx-mod-stream-geoip2@1.18.0-6ubuntu14.7?arch=amd64&distro=ubuntu-22.04
+      UID: d3dd3d03363b9af0
+    InstalledVersion: 1.18.0-6ubuntu14.7
+    FixedVersion: 1.18.0-6ubuntu14.8
+    Status: fixed
+    Layer:
+      Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f672d99cf12d59721fb5d9
+      DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7277787fa3578e3352a155
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-1642
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:40cc575d987b3a3039aaaa58243da537391a94e4280f3f8b5ee351db1e545a9c
+    Title: 'nginx: NGINX: Data injection via man-in-the-middle attack on TLS proxied connections'
+    Description: "A vulnerability exists in NGINX OSS and NGINX Plus when configured to proxy to upstream Transport Layer Security (TLS) servers. An attacker with a man-in-the-middle (MITM) position on the upstream server side—along with conditions beyond the attacker's control—may be able to inject plain text data into the response from an upstream proxied server.\_\_Note: Software versions which have reached End of Technical Support (EoTS) are not evaluated."
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-349
+    VendorSeverity:
+      bitnami: 3
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N
+        V3Score: 5.9
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/02/05/1
+    - https://access.redhat.com/security/cve/CVE-2026-1642
+    - https://my.f5.com/manage/s/article/K000159824
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-1642
+    - https://ubuntu.com/security/notices/USN-8038-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-1642
+    - https://www.openwall.com/lists/oss-security/2026/02/05/1
+    PublishedDate: '2026-02-04T15:16:14.19Z'
+    LastModifiedDate: '2026-02-05T06:15:53.893Z'
   - VulnerabilityID: CVE-2023-7008
     PkgID: libnss-systemd@249.11-0ubuntu3.17
     PkgName: libnss-systemd
@@ -27976,7 +28331,7 @@
     CweIDs:
     - CWE-125
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       photon: 2
@@ -28071,7 +28426,7 @@
     - CWE-125
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       azure: 3
       cbl-mariner: 3
       oracle-oval: 3
@@ -28235,6 +28590,7 @@
     - https://linux.oracle.com/errata/ELSA-2026-0241.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-66293
     - https://ubuntu.com/security/notices/USN-7963-1
+    - https://ubuntu.com/security/notices/USN-8035-1
     - https://www.cve.org/CVERecord?id=CVE-2025-66293
     PublishedDate: '2025-12-03T21:15:53.06Z'
     LastModifiedDate: '2025-12-16T19:12:50.35Z'
@@ -28264,6 +28620,7 @@
     - CWE-125
     VendorSeverity:
       amazon: 2
+      azure: 2
       cbl-mariner: 2
       nvd: 3
       redhat: 2
@@ -28283,6 +28640,7 @@
     - https://github.com/pnggroup/libpng/security/advisories/GHSA-mmq5-27w3-rxpp
     - https://nvd.nist.gov/vuln/detail/CVE-2026-22695
     - https://ubuntu.com/security/notices/USN-7963-1
+    - https://ubuntu.com/security/notices/USN-8035-1
     - https://www.cve.org/CVERecord?id=CVE-2026-22695
     - https://www.openwall.com/lists/oss-security/2026/01/12/7
     PublishedDate: '2026-01-12T23:15:52.597Z'
@@ -28314,6 +28672,7 @@
     - CWE-190
     VendorSeverity:
       amazon: 2
+      azure: 2
       cbl-mariner: 2
       nvd: 3
       redhat: 2
@@ -28330,10 +28689,54 @@
     - https://github.com/pnggroup/libpng/security/advisories/GHSA-vgjq-8cw5-ggw8
     - https://nvd.nist.gov/vuln/detail/CVE-2026-22801
     - https://ubuntu.com/security/notices/USN-7963-1
+    - https://ubuntu.com/security/notices/USN-8035-1
     - https://www.cve.org/CVERecord?id=CVE-2026-22801
     - https://www.openwall.com/lists/oss-security/2026/01/12/7
     PublishedDate: '2026-01-12T23:15:52.907Z'
     LastModifiedDate: '2026-01-21T18:58:18.27Z'
+  - VulnerabilityID: CVE-2026-25646
+    PkgID: libpng16-16@1.6.37-3build5
+    PkgName: libpng16-16
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libpng16-16@1.6.37-3build5?arch=amd64&distro=ubuntu-22.04
+      UID: 66330e1c8d2e7e9d
+    InstalledVersion: 1.6.37-3build5
+    FixedVersion: 1.6.37-3ubuntu0.4
+    Status: fixed
+    Layer:
+      Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f672d99cf12d59721fb5d9
+      DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7277787fa3578e3352a155
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-25646
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:b025ed552a5ef1adfacc79957e179387cfd3b824b08c0e481dde3a149a78131a
+    Title: 'libpng: LIBPNG has a heap buffer overflow in png_set_quantize'
+    Description: LIBPNG is a reference library for use in applications that read, create, and manipulate PNG (Portable Network Graphics) raster image files. Prior to 1.6.55, an out-of-bounds read vulnerability exists in the png_set_quantize() API function. When the function is called with no histogram and the number of colors in the palette is more than twice the maximum supported by the user's display, certain palettes will cause the function to enter into an infinite loop that reads past the end of an internal heap-allocated buffer. The images that trigger this vulnerability are valid per the PNG specification. This vulnerability is fixed in 1.6.55.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-122
+    - CWE-126
+    VendorSeverity:
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:H
+        V3Score: 7
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/02/09/7
+    - https://access.redhat.com/security/cve/CVE-2026-25646
+    - https://github.com/pnggroup/libpng/commit/01d03b8453eb30ade759cd45c707e5a1c7277d88
+    - https://github.com/pnggroup/libpng/security/advisories/GHSA-g8hp-mq4h-rqm3
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-25646
+    - https://ubuntu.com/security/notices/USN-8035-1
+    - https://ubuntu.com/security/notices/USN-8039-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-25646
+    PublishedDate: '2026-02-10T18:16:37.817Z'
+    LastModifiedDate: '2026-02-11T16:16:06.403Z'
   - VulnerabilityID: CVE-2025-11468
     PkgID: libpython3.10@3.10.12-1~22.04.11
     PkgName: libpython3.10
@@ -28357,6 +28760,7 @@
     Description: When folding a long comment in an email header containing exclusively unfoldable characters, the parenthesis would not be preserved. This could be used for injecting headers into email messages where addresses are user-controlled and not sanitized.
     Severity: MEDIUM
     VendorSeverity:
+      azure: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -28475,16 +28879,16 @@
       alma: 2
       amazon: 2
       azure: 2
-      nvd: 4
+      nvd: 3
       oracle-oval: 2
-      photon: 4
+      photon: 3
       redhat: 2
       rocky: 2
       ubuntu: 2
     CVSS:
       nvd:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H
-        V3Score: 9.1
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:N/I:N/A:H
         V3Score: 6.8
@@ -28510,13 +28914,13 @@
     - https://github.com/python/cpython/issues/119451
     - https://github.com/python/cpython/pull/119454
     - https://linux.oracle.com/cve/CVE-2025-13836.html
-    - https://linux.oracle.com/errata/ELSA-2026-1828.html
+    - https://linux.oracle.com/errata/ELSA-2026-2419.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/OQ6G7MKRQIS3OAREC3HNG3D2DPOU34XO/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-13836
     - https://ubuntu.com/security/notices/USN-7951-1
     - https://www.cve.org/CVERecord?id=CVE-2025-13836
     PublishedDate: '2025-12-01T18:16:04.2Z'
-    LastModifiedDate: '2026-02-09T20:24:55.277Z'
+    LastModifiedDate: '2026-02-10T19:58:12.13Z'
   - VulnerabilityID: CVE-2025-13837
     PkgID: libpython3.10@3.10.12-1~22.04.11
     PkgName: libpython3.10
@@ -28915,6 +29319,7 @@
     CweIDs:
     - CWE-93
     VendorSeverity:
+      azure: 2
       cbl-mariner: 2
       redhat: 2
       ubuntu: 2
@@ -28964,6 +29369,7 @@
     - CWE-74
     VendorSeverity:
       alma: 2
+      azure: 2
       oracle-oval: 2
       redhat: 2
       ubuntu: 2
@@ -29018,6 +29424,7 @@
     Description: When folding a long comment in an email header containing exclusively unfoldable characters, the parenthesis would not be preserved. This could be used for injecting headers into email messages where addresses are user-controlled and not sanitized.
     Severity: MEDIUM
     VendorSeverity:
+      azure: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -29136,16 +29543,16 @@
       alma: 2
       amazon: 2
       azure: 2
-      nvd: 4
+      nvd: 3
       oracle-oval: 2
-      photon: 4
+      photon: 3
       redhat: 2
       rocky: 2
       ubuntu: 2
     CVSS:
       nvd:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H
-        V3Score: 9.1
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:N/I:N/A:H
         V3Score: 6.8
@@ -29171,13 +29578,13 @@
     - https://github.com/python/cpython/issues/119451
     - https://github.com/python/cpython/pull/119454
     - https://linux.oracle.com/cve/CVE-2025-13836.html
-    - https://linux.oracle.com/errata/ELSA-2026-1828.html
+    - https://linux.oracle.com/errata/ELSA-2026-2419.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/OQ6G7MKRQIS3OAREC3HNG3D2DPOU34XO/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-13836
     - https://ubuntu.com/security/notices/USN-7951-1
     - https://www.cve.org/CVERecord?id=CVE-2025-13836
     PublishedDate: '2025-12-01T18:16:04.2Z'
-    LastModifiedDate: '2026-02-09T20:24:55.277Z'
+    LastModifiedDate: '2026-02-10T19:58:12.13Z'
   - VulnerabilityID: CVE-2025-13837
     PkgID: libpython3.10-minimal@3.10.12-1~22.04.11
     PkgName: libpython3.10-minimal
@@ -29576,6 +29983,7 @@
     CweIDs:
     - CWE-93
     VendorSeverity:
+      azure: 2
       cbl-mariner: 2
       redhat: 2
       ubuntu: 2
@@ -29625,6 +30033,7 @@
     - CWE-74
     VendorSeverity:
       alma: 2
+      azure: 2
       oracle-oval: 2
       redhat: 2
       ubuntu: 2
@@ -29679,6 +30088,7 @@
     Description: When folding a long comment in an email header containing exclusively unfoldable characters, the parenthesis would not be preserved. This could be used for injecting headers into email messages where addresses are user-controlled and not sanitized.
     Severity: MEDIUM
     VendorSeverity:
+      azure: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -29797,16 +30207,16 @@
       alma: 2
       amazon: 2
       azure: 2
-      nvd: 4
+      nvd: 3
       oracle-oval: 2
-      photon: 4
+      photon: 3
       redhat: 2
       rocky: 2
       ubuntu: 2
     CVSS:
       nvd:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H
-        V3Score: 9.1
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:N/I:N/A:H
         V3Score: 6.8
@@ -29832,13 +30242,13 @@
     - https://github.com/python/cpython/issues/119451
     - https://github.com/python/cpython/pull/119454
     - https://linux.oracle.com/cve/CVE-2025-13836.html
-    - https://linux.oracle.com/errata/ELSA-2026-1828.html
+    - https://linux.oracle.com/errata/ELSA-2026-2419.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/OQ6G7MKRQIS3OAREC3HNG3D2DPOU34XO/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-13836
     - https://ubuntu.com/security/notices/USN-7951-1
     - https://www.cve.org/CVERecord?id=CVE-2025-13836
     PublishedDate: '2025-12-01T18:16:04.2Z'
-    LastModifiedDate: '2026-02-09T20:24:55.277Z'
+    LastModifiedDate: '2026-02-10T19:58:12.13Z'
   - VulnerabilityID: CVE-2025-13837
     PkgID: libpython3.10-stdlib@3.10.12-1~22.04.11
     PkgName: libpython3.10-stdlib
@@ -30237,6 +30647,7 @@
     CweIDs:
     - CWE-93
     VendorSeverity:
+      azure: 2
       cbl-mariner: 2
       redhat: 2
       ubuntu: 2
@@ -30286,6 +30697,7 @@
     - CWE-74
     VendorSeverity:
       alma: 2
+      azure: 2
       oracle-oval: 2
       redhat: 2
       ubuntu: 2
@@ -30872,7 +31284,7 @@
     - CWE-754
     VendorSeverity:
       alma: 3
-      azure: 2
+      azure: 3
       oracle-oval: 3
       photon: 3
       redhat: 1
@@ -31425,6 +31837,7 @@
     - CWE-787
     VendorSeverity:
       amazon: 3
+      azure: 1
       cbl-mariner: 1
       photon: 3
       redhat: 1
@@ -31440,6 +31853,7 @@
     - https://gitlab.com/gnutls/libtasn1/-/merge_requests/121
     - https://nvd.nist.gov/vuln/detail/CVE-2025-13151
     - https://ubuntu.com/security/notices/USN-7954-1
+    - https://ubuntu.com/security/notices/USN-7954-2
     - https://www.cve.org/CVERecord?id=CVE-2025-13151
     - https://www.kb.cert.org/vuls/id/271649
     PublishedDate: '2026-01-07T22:15:43.2Z'
@@ -31507,6 +31921,7 @@
     - https://security.netapp.com/advisory/ntap-20221118-0006/
     - https://ubuntu.com/security/notices/USN-5707-1
     - https://ubuntu.com/security/notices/USN-7954-1
+    - https://ubuntu.com/security/notices/USN-7954-2
     - https://www.cve.org/CVERecord?id=CVE-2021-46848
     PublishedDate: '2022-10-24T14:15:49.973Z'
     LastModifiedDate: '2025-05-07T15:15:52.307Z'
@@ -32512,6 +32927,132 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-50495
     PublishedDate: '2023-12-12T15:15:07.867Z'
     LastModifiedDate: '2025-11-04T19:16:14.45Z'
+  - VulnerabilityID: CVE-2026-1642
+    PkgID: nginx@1.18.0-6ubuntu14.7
+    PkgName: nginx
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/nginx@1.18.0-6ubuntu14.7?arch=amd64&distro=ubuntu-22.04
+      UID: 3ba503c64b6d0bf
+    InstalledVersion: 1.18.0-6ubuntu14.7
+    FixedVersion: 1.18.0-6ubuntu14.8
+    Status: fixed
+    Layer:
+      Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f672d99cf12d59721fb5d9
+      DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7277787fa3578e3352a155
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-1642
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:fc017c0fc55dd7684ceb1afc18da6143f3a667b370fafb36f0cc66126774f0e4
+    Title: 'nginx: NGINX: Data injection via man-in-the-middle attack on TLS proxied connections'
+    Description: "A vulnerability exists in NGINX OSS and NGINX Plus when configured to proxy to upstream Transport Layer Security (TLS) servers. An attacker with a man-in-the-middle (MITM) position on the upstream server side—along with conditions beyond the attacker's control—may be able to inject plain text data into the response from an upstream proxied server.\_\_Note: Software versions which have reached End of Technical Support (EoTS) are not evaluated."
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-349
+    VendorSeverity:
+      bitnami: 3
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N
+        V3Score: 5.9
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/02/05/1
+    - https://access.redhat.com/security/cve/CVE-2026-1642
+    - https://my.f5.com/manage/s/article/K000159824
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-1642
+    - https://ubuntu.com/security/notices/USN-8038-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-1642
+    - https://www.openwall.com/lists/oss-security/2026/02/05/1
+    PublishedDate: '2026-02-04T15:16:14.19Z'
+    LastModifiedDate: '2026-02-05T06:15:53.893Z'
+  - VulnerabilityID: CVE-2026-1642
+    PkgID: nginx-common@1.18.0-6ubuntu14.7
+    PkgName: nginx-common
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/nginx-common@1.18.0-6ubuntu14.7?arch=all&distro=ubuntu-22.04
+      UID: 3ba1014fb0315590
+    InstalledVersion: 1.18.0-6ubuntu14.7
+    FixedVersion: 1.18.0-6ubuntu14.8
+    Status: fixed
+    Layer:
+      Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f672d99cf12d59721fb5d9
+      DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7277787fa3578e3352a155
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-1642
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:f0071b129dc30605c59b8a3e2d78ccc662ef28d753d80e854598d9c6c05d7327
+    Title: 'nginx: NGINX: Data injection via man-in-the-middle attack on TLS proxied connections'
+    Description: "A vulnerability exists in NGINX OSS and NGINX Plus when configured to proxy to upstream Transport Layer Security (TLS) servers. An attacker with a man-in-the-middle (MITM) position on the upstream server side—along with conditions beyond the attacker's control—may be able to inject plain text data into the response from an upstream proxied server.\_\_Note: Software versions which have reached End of Technical Support (EoTS) are not evaluated."
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-349
+    VendorSeverity:
+      bitnami: 3
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N
+        V3Score: 5.9
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/02/05/1
+    - https://access.redhat.com/security/cve/CVE-2026-1642
+    - https://my.f5.com/manage/s/article/K000159824
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-1642
+    - https://ubuntu.com/security/notices/USN-8038-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-1642
+    - https://www.openwall.com/lists/oss-security/2026/02/05/1
+    PublishedDate: '2026-02-04T15:16:14.19Z'
+    LastModifiedDate: '2026-02-05T06:15:53.893Z'
+  - VulnerabilityID: CVE-2026-1642
+    PkgID: nginx-core@1.18.0-6ubuntu14.7
+    PkgName: nginx-core
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/nginx-core@1.18.0-6ubuntu14.7?arch=amd64&distro=ubuntu-22.04
+      UID: e34b27fb57c15b7d
+    InstalledVersion: 1.18.0-6ubuntu14.7
+    FixedVersion: 1.18.0-6ubuntu14.8
+    Status: fixed
+    Layer:
+      Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f672d99cf12d59721fb5d9
+      DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7277787fa3578e3352a155
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-1642
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:5d5ed25af45be90d4a79d229de614f602893cdccab00e94c27928a70f3f290a9
+    Title: 'nginx: NGINX: Data injection via man-in-the-middle attack on TLS proxied connections'
+    Description: "A vulnerability exists in NGINX OSS and NGINX Plus when configured to proxy to upstream Transport Layer Security (TLS) servers. An attacker with a man-in-the-middle (MITM) position on the upstream server side—along with conditions beyond the attacker's control—may be able to inject plain text data into the response from an upstream proxied server.\_\_Note: Software versions which have reached End of Technical Support (EoTS) are not evaluated."
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-349
+    VendorSeverity:
+      bitnami: 3
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N
+        V3Score: 5.9
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/02/05/1
+    - https://access.redhat.com/security/cve/CVE-2026-1642
+    - https://my.f5.com/manage/s/article/K000159824
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-1642
+    - https://ubuntu.com/security/notices/USN-8038-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-1642
+    - https://www.openwall.com/lists/oss-security/2026/02/05/1
+    PublishedDate: '2026-02-04T15:16:14.19Z'
+    LastModifiedDate: '2026-02-05T06:15:53.893Z'
   - VulnerabilityID: CVE-2025-61984
     PkgID: openssh-client@1:8.9p1-3ubuntu0.13
     PkgName: openssh-client
@@ -33359,7 +33900,7 @@
     - CWE-754
     VendorSeverity:
       alma: 3
-      azure: 2
+      azure: 3
       oracle-oval: 3
       photon: 3
       redhat: 1
@@ -33896,6 +34437,7 @@
     Description: When folding a long comment in an email header containing exclusively unfoldable characters, the parenthesis would not be preserved. This could be used for injecting headers into email messages where addresses are user-controlled and not sanitized.
     Severity: MEDIUM
     VendorSeverity:
+      azure: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -34014,16 +34556,16 @@
       alma: 2
       amazon: 2
       azure: 2
-      nvd: 4
+      nvd: 3
       oracle-oval: 2
-      photon: 4
+      photon: 3
       redhat: 2
       rocky: 2
       ubuntu: 2
     CVSS:
       nvd:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H
-        V3Score: 9.1
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:N/I:N/A:H
         V3Score: 6.8
@@ -34049,13 +34591,13 @@
     - https://github.com/python/cpython/issues/119451
     - https://github.com/python/cpython/pull/119454
     - https://linux.oracle.com/cve/CVE-2025-13836.html
-    - https://linux.oracle.com/errata/ELSA-2026-1828.html
+    - https://linux.oracle.com/errata/ELSA-2026-2419.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/OQ6G7MKRQIS3OAREC3HNG3D2DPOU34XO/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-13836
     - https://ubuntu.com/security/notices/USN-7951-1
     - https://www.cve.org/CVERecord?id=CVE-2025-13836
     PublishedDate: '2025-12-01T18:16:04.2Z'
-    LastModifiedDate: '2026-02-09T20:24:55.277Z'
+    LastModifiedDate: '2026-02-10T19:58:12.13Z'
   - VulnerabilityID: CVE-2025-13837
     PkgID: python3.10@3.10.12-1~22.04.11
     PkgName: python3.10
@@ -34454,6 +34996,7 @@
     CweIDs:
     - CWE-93
     VendorSeverity:
+      azure: 2
       cbl-mariner: 2
       redhat: 2
       ubuntu: 2
@@ -34503,6 +35046,7 @@
     - CWE-74
     VendorSeverity:
       alma: 2
+      azure: 2
       oracle-oval: 2
       redhat: 2
       ubuntu: 2
@@ -34557,6 +35101,7 @@
     Description: When folding a long comment in an email header containing exclusively unfoldable characters, the parenthesis would not be preserved. This could be used for injecting headers into email messages where addresses are user-controlled and not sanitized.
     Severity: MEDIUM
     VendorSeverity:
+      azure: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -34675,16 +35220,16 @@
       alma: 2
       amazon: 2
       azure: 2
-      nvd: 4
+      nvd: 3
       oracle-oval: 2
-      photon: 4
+      photon: 3
       redhat: 2
       rocky: 2
       ubuntu: 2
     CVSS:
       nvd:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H
-        V3Score: 9.1
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:N/I:N/A:H
         V3Score: 6.8
@@ -34710,13 +35255,13 @@
     - https://github.com/python/cpython/issues/119451
     - https://github.com/python/cpython/pull/119454
     - https://linux.oracle.com/cve/CVE-2025-13836.html
-    - https://linux.oracle.com/errata/ELSA-2026-1828.html
+    - https://linux.oracle.com/errata/ELSA-2026-2419.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/OQ6G7MKRQIS3OAREC3HNG3D2DPOU34XO/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-13836
     - https://ubuntu.com/security/notices/USN-7951-1
     - https://www.cve.org/CVERecord?id=CVE-2025-13836
     PublishedDate: '2025-12-01T18:16:04.2Z'
-    LastModifiedDate: '2026-02-09T20:24:55.277Z'
+    LastModifiedDate: '2026-02-10T19:58:12.13Z'
   - VulnerabilityID: CVE-2025-13837
     PkgID: python3.10-minimal@3.10.12-1~22.04.11
     PkgName: python3.10-minimal
@@ -35115,6 +35660,7 @@
     CweIDs:
     - CWE-93
     VendorSeverity:
+      azure: 2
       cbl-mariner: 2
       redhat: 2
       ubuntu: 2
@@ -35164,6 +35710,7 @@
     - CWE-74
     VendorSeverity:
       alma: 2
+      azure: 2
       oracle-oval: 2
       redhat: 2
       ubuntu: 2
@@ -37059,28 +37606,34 @@
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
     Fingerprint: sha256:0004f5c9dd33e5f78153fb25c37bfa8e0672ad6436b397c73fd40f8a7dfab287
-    Title: During session resumption in crypto/tls, if the underlying Config has  ...
+    Title: 'crypto/tls: Unexpected session resumption in crypto/tls'
     Description: During session resumption in crypto/tls, if the underlying Config has its ClientCAs or RootCAs fields mutated between the initial handshake and the resumed handshake, the resumed handshake may succeed when it should have failed. This may happen when a user calls Config.Clone and mutates the returned Config, or uses Config.GetConfigForClient. This can cause a client to resume a session with a server that it would not have resumed with during the initial handshake, or cause a server to resume a session with a client that it would not have resumed with during the initial handshake.
     Severity: CRITICAL
     CweIDs:
     - CWE-295
     VendorSeverity:
       amazon: 3
-      bitnami: 2
+      bitnami: 4
       nvd: 4
+      redhat: 2
     CVSS:
       bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N
-        V3Score: 4.8
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+        V3Score: 10
       nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
         V3Score: 10
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N
+        V3Score: 7.4
     References:
+    - https://access.redhat.com/security/cve/CVE-2025-68121
     - https://go.dev/cl/737700
     - https://go.dev/issue/77217
     - https://groups.google.com/g/golang-announce/c/K09ubi9FQFk
     - https://nvd.nist.gov/vuln/detail/CVE-2025-68121
     - https://pkg.go.dev/vuln/GO-2026-4337
+    - https://www.cve.org/CVERecord?id=CVE-2025-68121
     PublishedDate: '2026-02-05T18:16:10.857Z'
     LastModifiedDate: '2026-02-10T16:08:03.303Z'
   - VulnerabilityID: CVE-2025-22874
@@ -37559,7 +38112,7 @@
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
     Fingerprint: sha256:6d8519ae90412d6c8035a0dc9f0e52f4998adbc6e773021d30f542b3d9657ca5
-    Title: It was possible to improperly access the parent directory of an os.Roo ...
+    Title: 'os: os: Information disclosure via path traversal using specially crafted filenames'
     Description: It was possible to improperly access the parent directory of an os.Root by opening a filename ending in "../". For example, Root.Open("../") would open the parent directory of the Root. This escape only permits opening the parent directory itself, not ancestors of the parent or files contained within the parent.
     Severity: MEDIUM
     CweIDs:
@@ -37567,17 +38120,23 @@
     VendorSeverity:
       amazon: 2
       bitnami: 1
+      redhat: 2
     CVSS:
       bitnami:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:L/I:N/A:N
         V3Score: 3.8
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
+        V3Score: 5.3
     References:
     - http://www.openwall.com/lists/oss-security/2025/05/06/2
+    - https://access.redhat.com/security/cve/CVE-2025-22873
     - https://go.dev/cl/670036
     - https://go.dev/issue/73555
     - https://groups.google.com/g/golang-announce/c/UZoIkUT367A/m/5WDxKizJAQAJ
     - https://nvd.nist.gov/vuln/detail/CVE-2025-22873
     - https://pkg.go.dev/vuln/GO-2026-4403
+    - https://www.cve.org/CVERecord?id=CVE-2025-22873
     PublishedDate: '2026-02-04T23:15:54.22Z'
     LastModifiedDate: '2026-02-10T15:16:40.057Z'
   - VulnerabilityID: CVE-2025-4673
@@ -38678,28 +39237,34 @@
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
     Fingerprint: sha256:1463b087629d387e5ea0faaa4675c0a9f28d68386849e936c1edd8dedb7a6fc7
-    Title: During session resumption in crypto/tls, if the underlying Config has  ...
+    Title: 'crypto/tls: Unexpected session resumption in crypto/tls'
     Description: During session resumption in crypto/tls, if the underlying Config has its ClientCAs or RootCAs fields mutated between the initial handshake and the resumed handshake, the resumed handshake may succeed when it should have failed. This may happen when a user calls Config.Clone and mutates the returned Config, or uses Config.GetConfigForClient. This can cause a client to resume a session with a server that it would not have resumed with during the initial handshake, or cause a server to resume a session with a client that it would not have resumed with during the initial handshake.
     Severity: CRITICAL
     CweIDs:
     - CWE-295
     VendorSeverity:
       amazon: 3
-      bitnami: 2
+      bitnami: 4
       nvd: 4
+      redhat: 2
     CVSS:
       bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N
-        V3Score: 4.8
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+        V3Score: 10
       nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
         V3Score: 10
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N
+        V3Score: 7.4
     References:
+    - https://access.redhat.com/security/cve/CVE-2025-68121
     - https://go.dev/cl/737700
     - https://go.dev/issue/77217
     - https://groups.google.com/g/golang-announce/c/K09ubi9FQFk
     - https://nvd.nist.gov/vuln/detail/CVE-2025-68121
     - https://pkg.go.dev/vuln/GO-2026-4337
+    - https://www.cve.org/CVERecord?id=CVE-2025-68121
     PublishedDate: '2026-02-05T18:16:10.857Z'
     LastModifiedDate: '2026-02-10T16:08:03.303Z'
   - VulnerabilityID: CVE-2025-22874
@@ -39178,7 +39743,7 @@
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
     Fingerprint: sha256:ecf1c38c054f541a66fbcc32560c7bb5dbe59e129692a85263d0459c2b15da85
-    Title: It was possible to improperly access the parent directory of an os.Roo ...
+    Title: 'os: os: Information disclosure via path traversal using specially crafted filenames'
     Description: It was possible to improperly access the parent directory of an os.Root by opening a filename ending in "../". For example, Root.Open("../") would open the parent directory of the Root. This escape only permits opening the parent directory itself, not ancestors of the parent or files contained within the parent.
     Severity: MEDIUM
     CweIDs:
@@ -39186,17 +39751,23 @@
     VendorSeverity:
       amazon: 2
       bitnami: 1
+      redhat: 2
     CVSS:
       bitnami:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:L/I:N/A:N
         V3Score: 3.8
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
+        V3Score: 5.3
     References:
     - http://www.openwall.com/lists/oss-security/2025/05/06/2
+    - https://access.redhat.com/security/cve/CVE-2025-22873
     - https://go.dev/cl/670036
     - https://go.dev/issue/73555
     - https://groups.google.com/g/golang-announce/c/UZoIkUT367A/m/5WDxKizJAQAJ
     - https://nvd.nist.gov/vuln/detail/CVE-2025-22873
     - https://pkg.go.dev/vuln/GO-2026-4403
+    - https://www.cve.org/CVERecord?id=CVE-2025-22873
     PublishedDate: '2026-02-04T23:15:54.22Z'
     LastModifiedDate: '2026-02-10T15:16:40.057Z'
   - VulnerabilityID: CVE-2025-4673
@@ -39820,28 +40391,34 @@
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
     Fingerprint: sha256:fe0d8cd1ffc455d472a3ccc9b43182236e53f1a1935e2a744dd8e1eb2bbedad7
-    Title: During session resumption in crypto/tls, if the underlying Config has  ...
+    Title: 'crypto/tls: Unexpected session resumption in crypto/tls'
     Description: During session resumption in crypto/tls, if the underlying Config has its ClientCAs or RootCAs fields mutated between the initial handshake and the resumed handshake, the resumed handshake may succeed when it should have failed. This may happen when a user calls Config.Clone and mutates the returned Config, or uses Config.GetConfigForClient. This can cause a client to resume a session with a server that it would not have resumed with during the initial handshake, or cause a server to resume a session with a client that it would not have resumed with during the initial handshake.
     Severity: CRITICAL
     CweIDs:
     - CWE-295
     VendorSeverity:
       amazon: 3
-      bitnami: 2
+      bitnami: 4
       nvd: 4
+      redhat: 2
     CVSS:
       bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N
-        V3Score: 4.8
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+        V3Score: 10
       nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
         V3Score: 10
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N
+        V3Score: 7.4
     References:
+    - https://access.redhat.com/security/cve/CVE-2025-68121
     - https://go.dev/cl/737700
     - https://go.dev/issue/77217
     - https://groups.google.com/g/golang-announce/c/K09ubi9FQFk
     - https://nvd.nist.gov/vuln/detail/CVE-2025-68121
     - https://pkg.go.dev/vuln/GO-2026-4337
+    - https://www.cve.org/CVERecord?id=CVE-2025-68121
     PublishedDate: '2026-02-05T18:16:10.857Z'
     LastModifiedDate: '2026-02-10T16:08:03.303Z'
   - VulnerabilityID: CVE-2025-61726
@@ -42307,28 +42884,34 @@
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
     Fingerprint: sha256:cdfd92e2b812a3c28894ba124c01fdcdedaa052965181876ca8f9f4a8e3aa677
-    Title: During session resumption in crypto/tls, if the underlying Config has  ...
+    Title: 'crypto/tls: Unexpected session resumption in crypto/tls'
     Description: During session resumption in crypto/tls, if the underlying Config has its ClientCAs or RootCAs fields mutated between the initial handshake and the resumed handshake, the resumed handshake may succeed when it should have failed. This may happen when a user calls Config.Clone and mutates the returned Config, or uses Config.GetConfigForClient. This can cause a client to resume a session with a server that it would not have resumed with during the initial handshake, or cause a server to resume a session with a client that it would not have resumed with during the initial handshake.
     Severity: CRITICAL
     CweIDs:
     - CWE-295
     VendorSeverity:
       amazon: 3
-      bitnami: 2
+      bitnami: 4
       nvd: 4
+      redhat: 2
     CVSS:
       bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N
-        V3Score: 4.8
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+        V3Score: 10
       nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
         V3Score: 10
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N
+        V3Score: 7.4
     References:
+    - https://access.redhat.com/security/cve/CVE-2025-68121
     - https://go.dev/cl/737700
     - https://go.dev/issue/77217
     - https://groups.google.com/g/golang-announce/c/K09ubi9FQFk
     - https://nvd.nist.gov/vuln/detail/CVE-2025-68121
     - https://pkg.go.dev/vuln/GO-2026-4337
+    - https://www.cve.org/CVERecord?id=CVE-2025-68121
     PublishedDate: '2026-02-05T18:16:10.857Z'
     LastModifiedDate: '2026-02-10T16:08:03.303Z'
   - VulnerabilityID: CVE-2025-61726
@@ -42673,28 +43256,34 @@
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
     Fingerprint: sha256:badddd719dc207183a0a389b9625df90d554faac5094b4d17425dd1ff56231f3
-    Title: During session resumption in crypto/tls, if the underlying Config has  ...
+    Title: 'crypto/tls: Unexpected session resumption in crypto/tls'
     Description: During session resumption in crypto/tls, if the underlying Config has its ClientCAs or RootCAs fields mutated between the initial handshake and the resumed handshake, the resumed handshake may succeed when it should have failed. This may happen when a user calls Config.Clone and mutates the returned Config, or uses Config.GetConfigForClient. This can cause a client to resume a session with a server that it would not have resumed with during the initial handshake, or cause a server to resume a session with a client that it would not have resumed with during the initial handshake.
     Severity: CRITICAL
     CweIDs:
     - CWE-295
     VendorSeverity:
       amazon: 3
-      bitnami: 2
+      bitnami: 4
       nvd: 4
+      redhat: 2
     CVSS:
       bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N
-        V3Score: 4.8
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+        V3Score: 10
       nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
         V3Score: 10
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N
+        V3Score: 7.4
     References:
+    - https://access.redhat.com/security/cve/CVE-2025-68121
     - https://go.dev/cl/737700
     - https://go.dev/issue/77217
     - https://groups.google.com/g/golang-announce/c/K09ubi9FQFk
     - https://nvd.nist.gov/vuln/detail/CVE-2025-68121
     - https://pkg.go.dev/vuln/GO-2026-4337
+    - https://www.cve.org/CVERecord?id=CVE-2025-68121
     PublishedDate: '2026-02-05T18:16:10.857Z'
     LastModifiedDate: '2026-02-10T16:08:03.303Z'
   - VulnerabilityID: CVE-2025-61726
@@ -45752,28 +46341,34 @@
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
     Fingerprint: sha256:07d55163bf61c78c2a4170da9d26950f761efdb89921e02a56fcb8cbb0175454
-    Title: During session resumption in crypto/tls, if the underlying Config has  ...
+    Title: 'crypto/tls: Unexpected session resumption in crypto/tls'
     Description: During session resumption in crypto/tls, if the underlying Config has its ClientCAs or RootCAs fields mutated between the initial handshake and the resumed handshake, the resumed handshake may succeed when it should have failed. This may happen when a user calls Config.Clone and mutates the returned Config, or uses Config.GetConfigForClient. This can cause a client to resume a session with a server that it would not have resumed with during the initial handshake, or cause a server to resume a session with a client that it would not have resumed with during the initial handshake.
     Severity: CRITICAL
     CweIDs:
     - CWE-295
     VendorSeverity:
       amazon: 3
-      bitnami: 2
+      bitnami: 4
       nvd: 4
+      redhat: 2
     CVSS:
       bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N
-        V3Score: 4.8
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+        V3Score: 10
       nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
         V3Score: 10
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N
+        V3Score: 7.4
     References:
+    - https://access.redhat.com/security/cve/CVE-2025-68121
     - https://go.dev/cl/737700
     - https://go.dev/issue/77217
     - https://groups.google.com/g/golang-announce/c/K09ubi9FQFk
     - https://nvd.nist.gov/vuln/detail/CVE-2025-68121
     - https://pkg.go.dev/vuln/GO-2026-4337
+    - https://www.cve.org/CVERecord?id=CVE-2025-68121
     PublishedDate: '2026-02-05T18:16:10.857Z'
     LastModifiedDate: '2026-02-10T16:08:03.303Z'
   - VulnerabilityID: CVE-2025-61726
@@ -47502,28 +48097,34 @@
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
     Fingerprint: sha256:a6ad61b3f0ef3ac1de3358cd92db08e2e7e17d9360031116b3bb9d8e5f585019
-    Title: During session resumption in crypto/tls, if the underlying Config has  ...
+    Title: 'crypto/tls: Unexpected session resumption in crypto/tls'
     Description: During session resumption in crypto/tls, if the underlying Config has its ClientCAs or RootCAs fields mutated between the initial handshake and the resumed handshake, the resumed handshake may succeed when it should have failed. This may happen when a user calls Config.Clone and mutates the returned Config, or uses Config.GetConfigForClient. This can cause a client to resume a session with a server that it would not have resumed with during the initial handshake, or cause a server to resume a session with a client that it would not have resumed with during the initial handshake.
     Severity: CRITICAL
     CweIDs:
     - CWE-295
     VendorSeverity:
       amazon: 3
-      bitnami: 2
+      bitnami: 4
       nvd: 4
+      redhat: 2
     CVSS:
       bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N
-        V3Score: 4.8
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+        V3Score: 10
       nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
         V3Score: 10
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N
+        V3Score: 7.4
     References:
+    - https://access.redhat.com/security/cve/CVE-2025-68121
     - https://go.dev/cl/737700
     - https://go.dev/issue/77217
     - https://groups.google.com/g/golang-announce/c/K09ubi9FQFk
     - https://nvd.nist.gov/vuln/detail/CVE-2025-68121
     - https://pkg.go.dev/vuln/GO-2026-4337
+    - https://www.cve.org/CVERecord?id=CVE-2025-68121
     PublishedDate: '2026-02-05T18:16:10.857Z'
     LastModifiedDate: '2026-02-10T16:08:03.303Z'
   - VulnerabilityID: CVE-2025-58183
@@ -49238,28 +49839,34 @@
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
     Fingerprint: sha256:47ff824e15fd8826a58f5ad7a2484b961e8ef93c7219c6f183badfb87658be2b
-    Title: During session resumption in crypto/tls, if the underlying Config has  ...
+    Title: 'crypto/tls: Unexpected session resumption in crypto/tls'
     Description: During session resumption in crypto/tls, if the underlying Config has its ClientCAs or RootCAs fields mutated between the initial handshake and the resumed handshake, the resumed handshake may succeed when it should have failed. This may happen when a user calls Config.Clone and mutates the returned Config, or uses Config.GetConfigForClient. This can cause a client to resume a session with a server that it would not have resumed with during the initial handshake, or cause a server to resume a session with a client that it would not have resumed with during the initial handshake.
     Severity: CRITICAL
     CweIDs:
     - CWE-295
     VendorSeverity:
       amazon: 3
-      bitnami: 2
+      bitnami: 4
       nvd: 4
+      redhat: 2
     CVSS:
       bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N
-        V3Score: 4.8
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+        V3Score: 10
       nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
         V3Score: 10
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N
+        V3Score: 7.4
     References:
+    - https://access.redhat.com/security/cve/CVE-2025-68121
     - https://go.dev/cl/737700
     - https://go.dev/issue/77217
     - https://groups.google.com/g/golang-announce/c/K09ubi9FQFk
     - https://nvd.nist.gov/vuln/detail/CVE-2025-68121
     - https://pkg.go.dev/vuln/GO-2026-4337
+    - https://www.cve.org/CVERecord?id=CVE-2025-68121
     PublishedDate: '2026-02-05T18:16:10.857Z'
     LastModifiedDate: '2026-02-10T16:08:03.303Z'
   - VulnerabilityID: CVE-2025-58183
@@ -51206,28 +51813,34 @@
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
     Fingerprint: sha256:adab81189046df85641d3a5d2eb6cdb646af48b92076710956e1109d233a3542
-    Title: During session resumption in crypto/tls, if the underlying Config has  ...
+    Title: 'crypto/tls: Unexpected session resumption in crypto/tls'
     Description: During session resumption in crypto/tls, if the underlying Config has its ClientCAs or RootCAs fields mutated between the initial handshake and the resumed handshake, the resumed handshake may succeed when it should have failed. This may happen when a user calls Config.Clone and mutates the returned Config, or uses Config.GetConfigForClient. This can cause a client to resume a session with a server that it would not have resumed with during the initial handshake, or cause a server to resume a session with a client that it would not have resumed with during the initial handshake.
     Severity: CRITICAL
     CweIDs:
     - CWE-295
     VendorSeverity:
       amazon: 3
-      bitnami: 2
+      bitnami: 4
       nvd: 4
+      redhat: 2
     CVSS:
       bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N
-        V3Score: 4.8
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+        V3Score: 10
       nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
         V3Score: 10
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N
+        V3Score: 7.4
     References:
+    - https://access.redhat.com/security/cve/CVE-2025-68121
     - https://go.dev/cl/737700
     - https://go.dev/issue/77217
     - https://groups.google.com/g/golang-announce/c/K09ubi9FQFk
     - https://nvd.nist.gov/vuln/detail/CVE-2025-68121
     - https://pkg.go.dev/vuln/GO-2026-4337
+    - https://www.cve.org/CVERecord?id=CVE-2025-68121
     PublishedDate: '2026-02-05T18:16:10.857Z'
     LastModifiedDate: '2026-02-10T16:08:03.303Z'
   - VulnerabilityID: CVE-2025-58183
@@ -52344,28 +52957,34 @@
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
     Fingerprint: sha256:2d5a3415748a7f6b7574b2b48dd4943d6e11d0b9cf3033191c7e2ac16fdff8e8
-    Title: During session resumption in crypto/tls, if the underlying Config has  ...
+    Title: 'crypto/tls: Unexpected session resumption in crypto/tls'
     Description: During session resumption in crypto/tls, if the underlying Config has its ClientCAs or RootCAs fields mutated between the initial handshake and the resumed handshake, the resumed handshake may succeed when it should have failed. This may happen when a user calls Config.Clone and mutates the returned Config, or uses Config.GetConfigForClient. This can cause a client to resume a session with a server that it would not have resumed with during the initial handshake, or cause a server to resume a session with a client that it would not have resumed with during the initial handshake.
     Severity: CRITICAL
     CweIDs:
     - CWE-295
     VendorSeverity:
       amazon: 3
-      bitnami: 2
+      bitnami: 4
       nvd: 4
+      redhat: 2
     CVSS:
       bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N
-        V3Score: 4.8
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+        V3Score: 10
       nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
         V3Score: 10
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N
+        V3Score: 7.4
     References:
+    - https://access.redhat.com/security/cve/CVE-2025-68121
     - https://go.dev/cl/737700
     - https://go.dev/issue/77217
     - https://groups.google.com/g/golang-announce/c/K09ubi9FQFk
     - https://nvd.nist.gov/vuln/detail/CVE-2025-68121
     - https://pkg.go.dev/vuln/GO-2026-4337
+    - https://www.cve.org/CVERecord?id=CVE-2025-68121
     PublishedDate: '2026-02-05T18:16:10.857Z'
     LastModifiedDate: '2026-02-10T16:08:03.303Z'
   - VulnerabilityID: CVE-2025-61726
@@ -54546,28 +55165,34 @@
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
     Fingerprint: sha256:862759f4d05f8f26b6266c1abce880764f0ce4b459722025138d5630366d6fc9
-    Title: During session resumption in crypto/tls, if the underlying Config has  ...
+    Title: 'crypto/tls: Unexpected session resumption in crypto/tls'
     Description: During session resumption in crypto/tls, if the underlying Config has its ClientCAs or RootCAs fields mutated between the initial handshake and the resumed handshake, the resumed handshake may succeed when it should have failed. This may happen when a user calls Config.Clone and mutates the returned Config, or uses Config.GetConfigForClient. This can cause a client to resume a session with a server that it would not have resumed with during the initial handshake, or cause a server to resume a session with a client that it would not have resumed with during the initial handshake.
     Severity: CRITICAL
     CweIDs:
     - CWE-295
     VendorSeverity:
       amazon: 3
-      bitnami: 2
+      bitnami: 4
       nvd: 4
+      redhat: 2
     CVSS:
       bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N
-        V3Score: 4.8
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+        V3Score: 10
       nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
         V3Score: 10
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N
+        V3Score: 7.4
     References:
+    - https://access.redhat.com/security/cve/CVE-2025-68121
     - https://go.dev/cl/737700
     - https://go.dev/issue/77217
     - https://groups.google.com/g/golang-announce/c/K09ubi9FQFk
     - https://nvd.nist.gov/vuln/detail/CVE-2025-68121
     - https://pkg.go.dev/vuln/GO-2026-4337
+    - https://www.cve.org/CVERecord?id=CVE-2025-68121
     PublishedDate: '2026-02-05T18:16:10.857Z'
     LastModifiedDate: '2026-02-10T16:08:03.303Z'
   - VulnerabilityID: CVE-2025-58183
@@ -57512,28 +58137,34 @@
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
     Fingerprint: sha256:83aeb55218bf9d20ae8f61ec4907648bcf750a810060f54dfdca43c2eafcb039
-    Title: During session resumption in crypto/tls, if the underlying Config has  ...
+    Title: 'crypto/tls: Unexpected session resumption in crypto/tls'
     Description: During session resumption in crypto/tls, if the underlying Config has its ClientCAs or RootCAs fields mutated between the initial handshake and the resumed handshake, the resumed handshake may succeed when it should have failed. This may happen when a user calls Config.Clone and mutates the returned Config, or uses Config.GetConfigForClient. This can cause a client to resume a session with a server that it would not have resumed with during the initial handshake, or cause a server to resume a session with a client that it would not have resumed with during the initial handshake.
     Severity: CRITICAL
     CweIDs:
     - CWE-295
     VendorSeverity:
       amazon: 3
-      bitnami: 2
+      bitnami: 4
       nvd: 4
+      redhat: 2
     CVSS:
       bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N
-        V3Score: 4.8
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+        V3Score: 10
       nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
         V3Score: 10
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N
+        V3Score: 7.4
     References:
+    - https://access.redhat.com/security/cve/CVE-2025-68121
     - https://go.dev/cl/737700
     - https://go.dev/issue/77217
     - https://groups.google.com/g/golang-announce/c/K09ubi9FQFk
     - https://nvd.nist.gov/vuln/detail/CVE-2025-68121
     - https://pkg.go.dev/vuln/GO-2026-4337
+    - https://www.cve.org/CVERecord?id=CVE-2025-68121
     PublishedDate: '2026-02-05T18:16:10.857Z'
     LastModifiedDate: '2026-02-10T16:08:03.303Z'
   - VulnerabilityID: CVE-2025-61726
@@ -59163,28 +59794,34 @@
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
     Fingerprint: sha256:4352988b634faea1cd39d75365303dae2af1f4bd213d6a3c93dead49d5a822fe
-    Title: During session resumption in crypto/tls, if the underlying Config has  ...
+    Title: 'crypto/tls: Unexpected session resumption in crypto/tls'
     Description: During session resumption in crypto/tls, if the underlying Config has its ClientCAs or RootCAs fields mutated between the initial handshake and the resumed handshake, the resumed handshake may succeed when it should have failed. This may happen when a user calls Config.Clone and mutates the returned Config, or uses Config.GetConfigForClient. This can cause a client to resume a session with a server that it would not have resumed with during the initial handshake, or cause a server to resume a session with a client that it would not have resumed with during the initial handshake.
     Severity: CRITICAL
     CweIDs:
     - CWE-295
     VendorSeverity:
       amazon: 3
-      bitnami: 2
+      bitnami: 4
       nvd: 4
+      redhat: 2
     CVSS:
       bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N
-        V3Score: 4.8
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+        V3Score: 10
       nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
         V3Score: 10
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N
+        V3Score: 7.4
     References:
+    - https://access.redhat.com/security/cve/CVE-2025-68121
     - https://go.dev/cl/737700
     - https://go.dev/issue/77217
     - https://groups.google.com/g/golang-announce/c/K09ubi9FQFk
     - https://nvd.nist.gov/vuln/detail/CVE-2025-68121
     - https://pkg.go.dev/vuln/GO-2026-4337
+    - https://www.cve.org/CVERecord?id=CVE-2025-68121
     PublishedDate: '2026-02-05T18:16:10.857Z'
     LastModifiedDate: '2026-02-10T16:08:03.303Z'
   - VulnerabilityID: CVE-2025-61726
@@ -61380,28 +62017,34 @@
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
     Fingerprint: sha256:07796834dfd8f278284f50b68d35c183cff6130b00749e9e4b452dbf6f3a8b2e
-    Title: During session resumption in crypto/tls, if the underlying Config has  ...
+    Title: 'crypto/tls: Unexpected session resumption in crypto/tls'
     Description: During session resumption in crypto/tls, if the underlying Config has its ClientCAs or RootCAs fields mutated between the initial handshake and the resumed handshake, the resumed handshake may succeed when it should have failed. This may happen when a user calls Config.Clone and mutates the returned Config, or uses Config.GetConfigForClient. This can cause a client to resume a session with a server that it would not have resumed with during the initial handshake, or cause a server to resume a session with a client that it would not have resumed with during the initial handshake.
     Severity: CRITICAL
     CweIDs:
     - CWE-295
     VendorSeverity:
       amazon: 3
-      bitnami: 2
+      bitnami: 4
       nvd: 4
+      redhat: 2
     CVSS:
       bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N
-        V3Score: 4.8
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+        V3Score: 10
       nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
         V3Score: 10
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N
+        V3Score: 7.4
     References:
+    - https://access.redhat.com/security/cve/CVE-2025-68121
     - https://go.dev/cl/737700
     - https://go.dev/issue/77217
     - https://groups.google.com/g/golang-announce/c/K09ubi9FQFk
     - https://nvd.nist.gov/vuln/detail/CVE-2025-68121
     - https://pkg.go.dev/vuln/GO-2026-4337
+    - https://www.cve.org/CVERecord?id=CVE-2025-68121
     PublishedDate: '2026-02-05T18:16:10.857Z'
     LastModifiedDate: '2026-02-10T16:08:03.303Z'
   - VulnerabilityID: CVE-2025-47907
@@ -61834,7 +62477,7 @@
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
     Fingerprint: sha256:b0a0690bf3a26f12f376daf6acace3f2978d499b357af741c817a96f364ba750
-    Title: It was possible to improperly access the parent directory of an os.Roo ...
+    Title: 'os: os: Information disclosure via path traversal using specially crafted filenames'
     Description: It was possible to improperly access the parent directory of an os.Root by opening a filename ending in "../". For example, Root.Open("../") would open the parent directory of the Root. This escape only permits opening the parent directory itself, not ancestors of the parent or files contained within the parent.
     Severity: MEDIUM
     CweIDs:
@@ -61842,17 +62485,23 @@
     VendorSeverity:
       amazon: 2
       bitnami: 1
+      redhat: 2
     CVSS:
       bitnami:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:L/I:N/A:N
         V3Score: 3.8
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
+        V3Score: 5.3
     References:
     - http://www.openwall.com/lists/oss-security/2025/05/06/2
+    - https://access.redhat.com/security/cve/CVE-2025-22873
     - https://go.dev/cl/670036
     - https://go.dev/issue/73555
     - https://groups.google.com/g/golang-announce/c/UZoIkUT367A/m/5WDxKizJAQAJ
     - https://nvd.nist.gov/vuln/detail/CVE-2025-22873
     - https://pkg.go.dev/vuln/GO-2026-4403
+    - https://www.cve.org/CVERecord?id=CVE-2025-22873
     PublishedDate: '2026-02-04T23:15:54.22Z'
     LastModifiedDate: '2026-02-10T15:16:40.057Z'
   - VulnerabilityID: CVE-2025-4673
