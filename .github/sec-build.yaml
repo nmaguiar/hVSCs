@@ -23015,6 +23015,55 @@
     - https://www.cve.org/CVERecord?id=CVE-2016-2781
     PublishedDate: '2017-02-07T15:59:00.333Z'
     LastModifiedDate: '2025-06-09T16:15:25.013Z'
+  - VulnerabilityID: CVE-2025-14017
+    PkgID: curl@7.81.0-1ubuntu1.21
+    PkgName: curl
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/curl@7.81.0-1ubuntu1.21?arch=amd64&distro=ubuntu-22.04
+      UID: 7d5ef1ec87d91e9d
+    InstalledVersion: 7.81.0-1ubuntu1.21
+    FixedVersion: 7.81.0-1ubuntu1.22
+    Status: fixed
+    Layer:
+      Digest: sha256:a650774ac6f067ec1766eb0d82ba9800ca4890e3bcfe6271ef4701ca37a271a1
+      DiffID: sha256:549e3a16ea514f678bb414318cdf34a7a9a12b751d14bdb81fb63b9ccebb35f8
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-14017
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:2f3f4d64c1a583b59e9eee76b400fcb870f0645b85b3305fc59bcb915fb1f34f
+    Title: 'curl: curl: Security bypass due to global TLS option changes in multi-threaded LDAPS transfers'
+    Description: |-
+      When doing multi-threaded LDAPS transfers (LDAP over TLS) with libcurl,
+      changing TLS options in one thread would inadvertently change them globally
+      and therefore possibly also affect other concurrently setup transfers.
+
+      Disabling certificate verification for a specific transfer could
+      unintentionally disable the feature for other threads as well.
+    Severity: MEDIUM
+    VendorSeverity:
+      amazon: 2
+      azure: 2
+      cbl-mariner: 2
+      photon: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N
+        V3Score: 4.8
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/01/07/3
+    - https://access.redhat.com/security/cve/CVE-2025-14017
+    - https://curl.se/docs/CVE-2025-14017.html
+    - https://curl.se/docs/CVE-2025-14017.json
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-14017
+    - https://ubuntu.com/security/notices/USN-8062-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-14017
+    PublishedDate: '2026-01-08T10:15:45.667Z'
+    LastModifiedDate: '2026-01-27T21:29:39.953Z'
   - VulnerabilityID: CVE-2025-0167
     PkgID: curl@7.81.0-1ubuntu1.21
     PkgName: curl
@@ -23064,7 +23113,8 @@
       PURL: pkg:deb/ubuntu/curl@7.81.0-1ubuntu1.21?arch=amd64&distro=ubuntu-22.04
       UID: 7d5ef1ec87d91e9d
     InstalledVersion: 7.81.0-1ubuntu1.21
-    Status: affected
+    FixedVersion: 7.81.0-1ubuntu1.22
+    Status: fixed
     Layer:
       Digest: sha256:a650774ac6f067ec1766eb0d82ba9800ca4890e3bcfe6271ef4701ca37a271a1
       DiffID: sha256:549e3a16ea514f678bb414318cdf34a7a9a12b751d14bdb81fb63b9ccebb35f8
@@ -23093,6 +23143,7 @@
     - https://curl.se/docs/CVE-2025-14524.html
     - https://curl.se/docs/CVE-2025-14524.json
     - https://hackerone.com/reports/3459417
+    - https://ubuntu.com/security/notices/USN-8062-1
     - https://www.cve.org/CVERecord?id=CVE-2025-14524
     PublishedDate: '2026-01-08T10:15:46.607Z'
     LastModifiedDate: '2026-01-20T14:53:11.017Z'
@@ -23103,7 +23154,8 @@
       PURL: pkg:deb/ubuntu/curl@7.81.0-1ubuntu1.21?arch=amd64&distro=ubuntu-22.04
       UID: 7d5ef1ec87d91e9d
     InstalledVersion: 7.81.0-1ubuntu1.21
-    Status: affected
+    FixedVersion: 7.81.0-1ubuntu1.22
+    Status: fixed
     Layer:
       Digest: sha256:a650774ac6f067ec1766eb0d82ba9800ca4890e3bcfe6271ef4701ca37a271a1
       DiffID: sha256:549e3a16ea514f678bb414318cdf34a7a9a12b751d14bdb81fb63b9ccebb35f8
@@ -23132,6 +23184,7 @@
     - https://curl.se/docs/CVE-2025-15079.html
     - https://curl.se/docs/CVE-2025-15079.json
     - https://hackerone.com/reports/3477116
+    - https://ubuntu.com/security/notices/USN-8062-1
     - https://www.cve.org/CVERecord?id=CVE-2025-15079
     PublishedDate: '2026-01-08T10:15:47.1Z'
     LastModifiedDate: '2026-01-20T14:50:24.33Z'
@@ -23142,7 +23195,8 @@
       PURL: pkg:deb/ubuntu/curl@7.81.0-1ubuntu1.21?arch=amd64&distro=ubuntu-22.04
       UID: 7d5ef1ec87d91e9d
     InstalledVersion: 7.81.0-1ubuntu1.21
-    Status: affected
+    FixedVersion: 7.81.0-1ubuntu1.22
+    Status: fixed
     Layer:
       Digest: sha256:a650774ac6f067ec1766eb0d82ba9800ca4890e3bcfe6271ef4701ca37a271a1
       DiffID: sha256:549e3a16ea514f678bb414318cdf34a7a9a12b751d14bdb81fb63b9ccebb35f8
@@ -23170,80 +23224,10 @@
     - https://curl.se/docs/CVE-2025-15224.html
     - https://curl.se/docs/CVE-2025-15224.json
     - https://hackerone.com/reports/3480925
+    - https://ubuntu.com/security/notices/USN-8062-1
     - https://www.cve.org/CVERecord?id=CVE-2025-15224
     PublishedDate: '2026-01-08T10:15:47.207Z'
     LastModifiedDate: '2026-01-20T14:47:52.71Z'
-  - VulnerabilityID: CVE-2025-9086
-    PkgID: curl@7.81.0-1ubuntu1.21
-    PkgName: curl
-    PkgIdentifier:
-      PURL: pkg:deb/ubuntu/curl@7.81.0-1ubuntu1.21?arch=amd64&distro=ubuntu-22.04
-      UID: 7d5ef1ec87d91e9d
-    InstalledVersion: 7.81.0-1ubuntu1.21
-    Status: affected
-    Layer:
-      Digest: sha256:a650774ac6f067ec1766eb0d82ba9800ca4890e3bcfe6271ef4701ca37a271a1
-      DiffID: sha256:549e3a16ea514f678bb414318cdf34a7a9a12b751d14bdb81fb63b9ccebb35f8
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-9086
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Fingerprint: sha256:a9d64f9c238b94d8e88878a917b176c7ad8339f2f4d15e3cdda47b9821e4441c
-    Title: 'curl: libcurl: Curl out of bounds read for cookie path'
-    Description: |-
-      1. A cookie is set using the `secure` keyword for `https://target` 
-       2. curl is redirected to or otherwise made to speak with `http://target` (same 
-         hostname, but using clear text HTTP) using the same cookie set 
-       3. The same cookie name is set - but with just a slash as path (`path=\"/\",`).
-         Since this site is not secure, the cookie *should* just be ignored.
-      4. A bug in the path comparison logic makes curl read outside a heap buffer
-         boundary
-
-      The bug either causes a crash or it potentially makes the comparison come to
-      the wrong conclusion and lets the clear-text site override the contents of the
-      secure cookie, contrary to expectations and depending on the memory contents
-      immediately following the single-byte allocation that holds the path.
-
-      The presumed and correct behavior would be to plainly ignore the second set of
-      the cookie since it was already set as secure on a secure host so overriding
-      it on an insecure host should not be okay.
-    Severity: LOW
-    CweIDs:
-    - CWE-125
-    VendorSeverity:
-      alma: 2
-      amazon: 1
-      oracle-oval: 2
-      photon: 3
-      redhat: 2
-      rocky: 2
-      ubuntu: 1
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
-        V3Score: 5.3
-    References:
-    - http://www.openwall.com/lists/oss-security/2025/09/10/1
-    - https://access.redhat.com/errata/RHSA-2026:1350
-    - https://access.redhat.com/security/cve/CVE-2025-9086
-    - https://bugzilla.redhat.com/2394750
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2394750
-    - https://curl.se/docs/CVE-2025-9086.html
-    - https://curl.se/docs/CVE-2025-9086.json
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-9086
-    - https://errata.almalinux.org/9/ALSA-2026-1350.html
-    - https://errata.rockylinux.org/RLSA-2026:1350
-    - https://github.com/curl/curl/commit/c6ae07c6a541e0e96d0040afb6
-    - https://hackerone.com/reports/3294999
-    - https://linux.oracle.com/cve/CVE-2025-9086.html
-    - https://linux.oracle.com/errata/ELSA-2026-1825.html
-    - https://lists.debian.org/debian-lts-announce/2026/01/msg00002.html
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-9086
-    - https://www.cve.org/CVERecord?id=CVE-2025-9086
-    PublishedDate: '2025-09-12T06:15:44.1Z'
-    LastModifiedDate: '2026-01-20T14:58:01.347Z'
   - VulnerabilityID: CVE-2023-34969
     PkgID: dbus@1.12.20-2ubuntu4.1
     PkgName: dbus
@@ -24580,7 +24564,7 @@
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Fingerprint: sha256:fda4d2dbdd31ebb23f134784f0d0897041cb3892008ad4455bf70dcad5666ce9
     Title: 'libbpf: Heap Buffer Overflow in libbpf'
-    Description: Buffer Overflow vulnerability in libbpf 1.5.0 allows a local attacker to execute arbitrary code via the bpf_object__init_prog` function of libbpf.
+    Description: Buffer Overflow vulnerability in libbpf 1.5.0 allows a local attacker to execute arbitrary code via the bpf_object__init_prog` function of libbpf. This has been disputed by third parties who assert that "no one in their sane mind should be passing untrusted ELF files into libbpf while running under root."
     Severity: LOW
     CweIDs:
     - CWE-120
@@ -24603,7 +24587,56 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-29481
     - https://www.cve.org/CVERecord?id=CVE-2025-29481
     PublishedDate: '2025-04-07T20:15:20.72Z'
-    LastModifiedDate: '2025-04-15T15:42:59.65Z'
+    LastModifiedDate: '2026-02-25T08:16:18.86Z'
+  - VulnerabilityID: CVE-2025-14017
+    PkgID: libcurl3-gnutls@7.81.0-1ubuntu1.21
+    PkgName: libcurl3-gnutls
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libcurl3-gnutls@7.81.0-1ubuntu1.21?arch=amd64&distro=ubuntu-22.04
+      UID: bccaa6de13b6a7e9
+    InstalledVersion: 7.81.0-1ubuntu1.21
+    FixedVersion: 7.81.0-1ubuntu1.22
+    Status: fixed
+    Layer:
+      Digest: sha256:a650774ac6f067ec1766eb0d82ba9800ca4890e3bcfe6271ef4701ca37a271a1
+      DiffID: sha256:549e3a16ea514f678bb414318cdf34a7a9a12b751d14bdb81fb63b9ccebb35f8
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-14017
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:51dc9e2ab1e4cdf8e233dcaaeb0810bf283587ebd81f491d5a40f2fbe3290b77
+    Title: 'curl: curl: Security bypass due to global TLS option changes in multi-threaded LDAPS transfers'
+    Description: |-
+      When doing multi-threaded LDAPS transfers (LDAP over TLS) with libcurl,
+      changing TLS options in one thread would inadvertently change them globally
+      and therefore possibly also affect other concurrently setup transfers.
+
+      Disabling certificate verification for a specific transfer could
+      unintentionally disable the feature for other threads as well.
+    Severity: MEDIUM
+    VendorSeverity:
+      amazon: 2
+      azure: 2
+      cbl-mariner: 2
+      photon: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N
+        V3Score: 4.8
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/01/07/3
+    - https://access.redhat.com/security/cve/CVE-2025-14017
+    - https://curl.se/docs/CVE-2025-14017.html
+    - https://curl.se/docs/CVE-2025-14017.json
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-14017
+    - https://ubuntu.com/security/notices/USN-8062-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-14017
+    PublishedDate: '2026-01-08T10:15:45.667Z'
+    LastModifiedDate: '2026-01-27T21:29:39.953Z'
   - VulnerabilityID: CVE-2025-0167
     PkgID: libcurl3-gnutls@7.81.0-1ubuntu1.21
     PkgName: libcurl3-gnutls
@@ -24653,7 +24686,8 @@
       PURL: pkg:deb/ubuntu/libcurl3-gnutls@7.81.0-1ubuntu1.21?arch=amd64&distro=ubuntu-22.04
       UID: bccaa6de13b6a7e9
     InstalledVersion: 7.81.0-1ubuntu1.21
-    Status: affected
+    FixedVersion: 7.81.0-1ubuntu1.22
+    Status: fixed
     Layer:
       Digest: sha256:a650774ac6f067ec1766eb0d82ba9800ca4890e3bcfe6271ef4701ca37a271a1
       DiffID: sha256:549e3a16ea514f678bb414318cdf34a7a9a12b751d14bdb81fb63b9ccebb35f8
@@ -24682,6 +24716,7 @@
     - https://curl.se/docs/CVE-2025-14524.html
     - https://curl.se/docs/CVE-2025-14524.json
     - https://hackerone.com/reports/3459417
+    - https://ubuntu.com/security/notices/USN-8062-1
     - https://www.cve.org/CVERecord?id=CVE-2025-14524
     PublishedDate: '2026-01-08T10:15:46.607Z'
     LastModifiedDate: '2026-01-20T14:53:11.017Z'
@@ -24692,7 +24727,8 @@
       PURL: pkg:deb/ubuntu/libcurl3-gnutls@7.81.0-1ubuntu1.21?arch=amd64&distro=ubuntu-22.04
       UID: bccaa6de13b6a7e9
     InstalledVersion: 7.81.0-1ubuntu1.21
-    Status: affected
+    FixedVersion: 7.81.0-1ubuntu1.22
+    Status: fixed
     Layer:
       Digest: sha256:a650774ac6f067ec1766eb0d82ba9800ca4890e3bcfe6271ef4701ca37a271a1
       DiffID: sha256:549e3a16ea514f678bb414318cdf34a7a9a12b751d14bdb81fb63b9ccebb35f8
@@ -24721,6 +24757,7 @@
     - https://curl.se/docs/CVE-2025-15079.html
     - https://curl.se/docs/CVE-2025-15079.json
     - https://hackerone.com/reports/3477116
+    - https://ubuntu.com/security/notices/USN-8062-1
     - https://www.cve.org/CVERecord?id=CVE-2025-15079
     PublishedDate: '2026-01-08T10:15:47.1Z'
     LastModifiedDate: '2026-01-20T14:50:24.33Z'
@@ -24731,7 +24768,8 @@
       PURL: pkg:deb/ubuntu/libcurl3-gnutls@7.81.0-1ubuntu1.21?arch=amd64&distro=ubuntu-22.04
       UID: bccaa6de13b6a7e9
     InstalledVersion: 7.81.0-1ubuntu1.21
-    Status: affected
+    FixedVersion: 7.81.0-1ubuntu1.22
+    Status: fixed
     Layer:
       Digest: sha256:a650774ac6f067ec1766eb0d82ba9800ca4890e3bcfe6271ef4701ca37a271a1
       DiffID: sha256:549e3a16ea514f678bb414318cdf34a7a9a12b751d14bdb81fb63b9ccebb35f8
@@ -24759,80 +24797,59 @@
     - https://curl.se/docs/CVE-2025-15224.html
     - https://curl.se/docs/CVE-2025-15224.json
     - https://hackerone.com/reports/3480925
+    - https://ubuntu.com/security/notices/USN-8062-1
     - https://www.cve.org/CVERecord?id=CVE-2025-15224
     PublishedDate: '2026-01-08T10:15:47.207Z'
     LastModifiedDate: '2026-01-20T14:47:52.71Z'
-  - VulnerabilityID: CVE-2025-9086
-    PkgID: libcurl3-gnutls@7.81.0-1ubuntu1.21
-    PkgName: libcurl3-gnutls
+  - VulnerabilityID: CVE-2025-14017
+    PkgID: libcurl4@7.81.0-1ubuntu1.21
+    PkgName: libcurl4
     PkgIdentifier:
-      PURL: pkg:deb/ubuntu/libcurl3-gnutls@7.81.0-1ubuntu1.21?arch=amd64&distro=ubuntu-22.04
-      UID: bccaa6de13b6a7e9
+      PURL: pkg:deb/ubuntu/libcurl4@7.81.0-1ubuntu1.21?arch=amd64&distro=ubuntu-22.04
+      UID: 3c61c281f962c00e
     InstalledVersion: 7.81.0-1ubuntu1.21
-    Status: affected
+    FixedVersion: 7.81.0-1ubuntu1.22
+    Status: fixed
     Layer:
       Digest: sha256:a650774ac6f067ec1766eb0d82ba9800ca4890e3bcfe6271ef4701ca37a271a1
       DiffID: sha256:549e3a16ea514f678bb414318cdf34a7a9a12b751d14bdb81fb63b9ccebb35f8
     SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-9086
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-14017
     DataSource:
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Fingerprint: sha256:03bd4f0d7863ebab80ae424f7e03b54317b9efaca65797e3c2912240f7afeaa1
-    Title: 'curl: libcurl: Curl out of bounds read for cookie path'
+    Fingerprint: sha256:73aac0bb277f405b9eb395635ab96323e47ff40978566ca412a893dd779f0d5f
+    Title: 'curl: curl: Security bypass due to global TLS option changes in multi-threaded LDAPS transfers'
     Description: |-
-      1. A cookie is set using the `secure` keyword for `https://target` 
-       2. curl is redirected to or otherwise made to speak with `http://target` (same 
-         hostname, but using clear text HTTP) using the same cookie set 
-       3. The same cookie name is set - but with just a slash as path (`path=\"/\",`).
-         Since this site is not secure, the cookie *should* just be ignored.
-      4. A bug in the path comparison logic makes curl read outside a heap buffer
-         boundary
+      When doing multi-threaded LDAPS transfers (LDAP over TLS) with libcurl,
+      changing TLS options in one thread would inadvertently change them globally
+      and therefore possibly also affect other concurrently setup transfers.
 
-      The bug either causes a crash or it potentially makes the comparison come to
-      the wrong conclusion and lets the clear-text site override the contents of the
-      secure cookie, contrary to expectations and depending on the memory contents
-      immediately following the single-byte allocation that holds the path.
-
-      The presumed and correct behavior would be to plainly ignore the second set of
-      the cookie since it was already set as secure on a secure host so overriding
-      it on an insecure host should not be okay.
-    Severity: LOW
-    CweIDs:
-    - CWE-125
+      Disabling certificate verification for a specific transfer could
+      unintentionally disable the feature for other threads as well.
+    Severity: MEDIUM
     VendorSeverity:
-      alma: 2
-      amazon: 1
-      oracle-oval: 2
-      photon: 3
+      amazon: 2
+      azure: 2
+      cbl-mariner: 2
+      photon: 2
       redhat: 2
-      rocky: 2
-      ubuntu: 1
+      ubuntu: 2
     CVSS:
       redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
-        V3Score: 5.3
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N
+        V3Score: 4.8
     References:
-    - http://www.openwall.com/lists/oss-security/2025/09/10/1
-    - https://access.redhat.com/errata/RHSA-2026:1350
-    - https://access.redhat.com/security/cve/CVE-2025-9086
-    - https://bugzilla.redhat.com/2394750
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2394750
-    - https://curl.se/docs/CVE-2025-9086.html
-    - https://curl.se/docs/CVE-2025-9086.json
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-9086
-    - https://errata.almalinux.org/9/ALSA-2026-1350.html
-    - https://errata.rockylinux.org/RLSA-2026:1350
-    - https://github.com/curl/curl/commit/c6ae07c6a541e0e96d0040afb6
-    - https://hackerone.com/reports/3294999
-    - https://linux.oracle.com/cve/CVE-2025-9086.html
-    - https://linux.oracle.com/errata/ELSA-2026-1825.html
-    - https://lists.debian.org/debian-lts-announce/2026/01/msg00002.html
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-9086
-    - https://www.cve.org/CVERecord?id=CVE-2025-9086
-    PublishedDate: '2025-09-12T06:15:44.1Z'
-    LastModifiedDate: '2026-01-20T14:58:01.347Z'
+    - http://www.openwall.com/lists/oss-security/2026/01/07/3
+    - https://access.redhat.com/security/cve/CVE-2025-14017
+    - https://curl.se/docs/CVE-2025-14017.html
+    - https://curl.se/docs/CVE-2025-14017.json
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-14017
+    - https://ubuntu.com/security/notices/USN-8062-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-14017
+    PublishedDate: '2026-01-08T10:15:45.667Z'
+    LastModifiedDate: '2026-01-27T21:29:39.953Z'
   - VulnerabilityID: CVE-2025-0167
     PkgID: libcurl4@7.81.0-1ubuntu1.21
     PkgName: libcurl4
@@ -24882,7 +24899,8 @@
       PURL: pkg:deb/ubuntu/libcurl4@7.81.0-1ubuntu1.21?arch=amd64&distro=ubuntu-22.04
       UID: 3c61c281f962c00e
     InstalledVersion: 7.81.0-1ubuntu1.21
-    Status: affected
+    FixedVersion: 7.81.0-1ubuntu1.22
+    Status: fixed
     Layer:
       Digest: sha256:a650774ac6f067ec1766eb0d82ba9800ca4890e3bcfe6271ef4701ca37a271a1
       DiffID: sha256:549e3a16ea514f678bb414318cdf34a7a9a12b751d14bdb81fb63b9ccebb35f8
@@ -24911,6 +24929,7 @@
     - https://curl.se/docs/CVE-2025-14524.html
     - https://curl.se/docs/CVE-2025-14524.json
     - https://hackerone.com/reports/3459417
+    - https://ubuntu.com/security/notices/USN-8062-1
     - https://www.cve.org/CVERecord?id=CVE-2025-14524
     PublishedDate: '2026-01-08T10:15:46.607Z'
     LastModifiedDate: '2026-01-20T14:53:11.017Z'
@@ -24921,7 +24940,8 @@
       PURL: pkg:deb/ubuntu/libcurl4@7.81.0-1ubuntu1.21?arch=amd64&distro=ubuntu-22.04
       UID: 3c61c281f962c00e
     InstalledVersion: 7.81.0-1ubuntu1.21
-    Status: affected
+    FixedVersion: 7.81.0-1ubuntu1.22
+    Status: fixed
     Layer:
       Digest: sha256:a650774ac6f067ec1766eb0d82ba9800ca4890e3bcfe6271ef4701ca37a271a1
       DiffID: sha256:549e3a16ea514f678bb414318cdf34a7a9a12b751d14bdb81fb63b9ccebb35f8
@@ -24950,6 +24970,7 @@
     - https://curl.se/docs/CVE-2025-15079.html
     - https://curl.se/docs/CVE-2025-15079.json
     - https://hackerone.com/reports/3477116
+    - https://ubuntu.com/security/notices/USN-8062-1
     - https://www.cve.org/CVERecord?id=CVE-2025-15079
     PublishedDate: '2026-01-08T10:15:47.1Z'
     LastModifiedDate: '2026-01-20T14:50:24.33Z'
@@ -24960,7 +24981,8 @@
       PURL: pkg:deb/ubuntu/libcurl4@7.81.0-1ubuntu1.21?arch=amd64&distro=ubuntu-22.04
       UID: 3c61c281f962c00e
     InstalledVersion: 7.81.0-1ubuntu1.21
-    Status: affected
+    FixedVersion: 7.81.0-1ubuntu1.22
+    Status: fixed
     Layer:
       Digest: sha256:a650774ac6f067ec1766eb0d82ba9800ca4890e3bcfe6271ef4701ca37a271a1
       DiffID: sha256:549e3a16ea514f678bb414318cdf34a7a9a12b751d14bdb81fb63b9ccebb35f8
@@ -24988,80 +25010,10 @@
     - https://curl.se/docs/CVE-2025-15224.html
     - https://curl.se/docs/CVE-2025-15224.json
     - https://hackerone.com/reports/3480925
+    - https://ubuntu.com/security/notices/USN-8062-1
     - https://www.cve.org/CVERecord?id=CVE-2025-15224
     PublishedDate: '2026-01-08T10:15:47.207Z'
     LastModifiedDate: '2026-01-20T14:47:52.71Z'
-  - VulnerabilityID: CVE-2025-9086
-    PkgID: libcurl4@7.81.0-1ubuntu1.21
-    PkgName: libcurl4
-    PkgIdentifier:
-      PURL: pkg:deb/ubuntu/libcurl4@7.81.0-1ubuntu1.21?arch=amd64&distro=ubuntu-22.04
-      UID: 3c61c281f962c00e
-    InstalledVersion: 7.81.0-1ubuntu1.21
-    Status: affected
-    Layer:
-      Digest: sha256:a650774ac6f067ec1766eb0d82ba9800ca4890e3bcfe6271ef4701ca37a271a1
-      DiffID: sha256:549e3a16ea514f678bb414318cdf34a7a9a12b751d14bdb81fb63b9ccebb35f8
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-9086
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Fingerprint: sha256:82d1615ef5d67d0f9fd3b9f9813a3d2b74bd1e1faead22d7a69c172989e94260
-    Title: 'curl: libcurl: Curl out of bounds read for cookie path'
-    Description: |-
-      1. A cookie is set using the `secure` keyword for `https://target` 
-       2. curl is redirected to or otherwise made to speak with `http://target` (same 
-         hostname, but using clear text HTTP) using the same cookie set 
-       3. The same cookie name is set - but with just a slash as path (`path=\"/\",`).
-         Since this site is not secure, the cookie *should* just be ignored.
-      4. A bug in the path comparison logic makes curl read outside a heap buffer
-         boundary
-
-      The bug either causes a crash or it potentially makes the comparison come to
-      the wrong conclusion and lets the clear-text site override the contents of the
-      secure cookie, contrary to expectations and depending on the memory contents
-      immediately following the single-byte allocation that holds the path.
-
-      The presumed and correct behavior would be to plainly ignore the second set of
-      the cookie since it was already set as secure on a secure host so overriding
-      it on an insecure host should not be okay.
-    Severity: LOW
-    CweIDs:
-    - CWE-125
-    VendorSeverity:
-      alma: 2
-      amazon: 1
-      oracle-oval: 2
-      photon: 3
-      redhat: 2
-      rocky: 2
-      ubuntu: 1
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
-        V3Score: 5.3
-    References:
-    - http://www.openwall.com/lists/oss-security/2025/09/10/1
-    - https://access.redhat.com/errata/RHSA-2026:1350
-    - https://access.redhat.com/security/cve/CVE-2025-9086
-    - https://bugzilla.redhat.com/2394750
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2394750
-    - https://curl.se/docs/CVE-2025-9086.html
-    - https://curl.se/docs/CVE-2025-9086.json
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-9086
-    - https://errata.almalinux.org/9/ALSA-2026-1350.html
-    - https://errata.rockylinux.org/RLSA-2026:1350
-    - https://github.com/curl/curl/commit/c6ae07c6a541e0e96d0040afb6
-    - https://hackerone.com/reports/3294999
-    - https://linux.oracle.com/cve/CVE-2025-9086.html
-    - https://linux.oracle.com/errata/ELSA-2026-1825.html
-    - https://lists.debian.org/debian-lts-announce/2026/01/msg00002.html
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-9086
-    - https://www.cve.org/CVERecord?id=CVE-2025-9086
-    PublishedDate: '2025-09-12T06:15:44.1Z'
-    LastModifiedDate: '2026-01-20T14:58:01.347Z'
   - VulnerabilityID: CVE-2023-34969
     PkgID: libdbus-1-3@1.12.20-2ubuntu4.1
     PkgName: libdbus-1-3
@@ -25334,7 +25286,7 @@
     Description: A timing-based side-channel flaw was found in libgcrypt's RSA implementation. This issue may allow a remote attacker to initiate a Bleichenbacher-style attack, which can lead to the decryption of RSA ciphertexts.
     Severity: LOW
     CweIDs:
-    - CWE-208
+    - CWE-385
     VendorSeverity:
       alma: 2
       amazon: 2
@@ -25366,7 +25318,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2024-2236
     - https://www.cve.org/CVERecord?id=CVE-2024-2236
     PublishedDate: '2024-03-06T22:15:57.977Z'
-    LastModifiedDate: '2025-04-02T17:15:37.79Z'
+    LastModifiedDate: '2026-02-25T20:17:20.547Z'
   - VulnerabilityID: CVE-2025-5222
     PkgID: libicu70@70.1-2
     PkgName: libicu70
@@ -26958,7 +26910,7 @@
     - CWE-159
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 1
       azure: 1
       oracle-oval: 2
       photon: 1
@@ -27076,7 +27028,7 @@
     - CWE-159
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 1
       azure: 1
       oracle-oval: 2
       photon: 1
@@ -27194,7 +27146,7 @@
     - CWE-159
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 1
       azure: 1
       oracle-oval: 2
       photon: 1
@@ -27725,6 +27677,258 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-56433
     PublishedDate: '2024-12-26T09:15:07.267Z'
     LastModifiedDate: '2024-12-26T09:15:07.267Z'
+  - VulnerabilityID: CVE-2026-25749
+    PkgID: vim@2:8.2.3995-1ubuntu2.24
+    PkgName: vim
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/vim@8.2.3995-1ubuntu2.24?arch=amd64&distro=ubuntu-22.04&epoch=2
+      UID: 9b1bb5eaf4e19512
+    InstalledVersion: 2:8.2.3995-1ubuntu2.24
+    Status: affected
+    Layer:
+      Digest: sha256:a650774ac6f067ec1766eb0d82ba9800ca4890e3bcfe6271ef4701ca37a271a1
+      DiffID: sha256:549e3a16ea514f678bb414318cdf34a7a9a12b751d14bdb81fb63b9ccebb35f8
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-25749
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:355dfaa1d6920754767b0196e83aadf45425f46b226fae7faf80dbfd65a342ce
+    Title: 'vim: Vim: Arbitrary code execution via ''helpfile'' option processing'
+    Description: Vim is an open source, command line text editor. Prior to version 9.1.2132, a heap buffer overflow vulnerability exists in Vim's tag file resolution logic when processing the 'helpfile' option. The vulnerability is located in the get_tagfname() function in src/tag.c. When processing help file tags, Vim copies the user-controlled 'helpfile' option value into a fixed-size heap buffer of MAXPATHL + 1 bytes (typically 4097 bytes) using an unsafe STRCPY() operation without any bounds checking. This issue has been patched in version 9.1.2132.
+    Severity: LOW
+    CweIDs:
+    - CWE-122
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-25749
+    - https://github.com/vim/vim/commit/0714b15940b245108e6e9d7aa2260dd849a26fa9
+    - https://github.com/vim/vim/releases/tag/v9.1.2132
+    - https://github.com/vim/vim/security/advisories/GHSA-5w93-4g67-mm43
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-25749
+    - https://www.cve.org/CVERecord?id=CVE-2026-25749
+    PublishedDate: '2026-02-06T23:15:54.23Z'
+    LastModifiedDate: '2026-02-20T15:45:19.21Z'
+  - VulnerabilityID: CVE-2026-26269
+    PkgID: vim@2:8.2.3995-1ubuntu2.24
+    PkgName: vim
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/vim@8.2.3995-1ubuntu2.24?arch=amd64&distro=ubuntu-22.04&epoch=2
+      UID: 9b1bb5eaf4e19512
+    InstalledVersion: 2:8.2.3995-1ubuntu2.24
+    Status: affected
+    Layer:
+      Digest: sha256:a650774ac6f067ec1766eb0d82ba9800ca4890e3bcfe6271ef4701ca37a271a1
+      DiffID: sha256:549e3a16ea514f678bb414318cdf34a7a9a12b751d14bdb81fb63b9ccebb35f8
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-26269
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:dd65da38ca2398fdff0877a64504addbcfa4bf8ce21de719ffbd4db94279bcf5
+    Title: 'vim: Netbeans specialKeys stack buffer overflow'
+    Description: Vim is an open source, command line text editor. Prior to 9.1.2148, a stack buffer overflow vulnerability exists in Vim's NetBeans integration when processing the specialKeys command, affecting Vim builds that enable and use the NetBeans feature. The Stack buffer overflow exists in special_keys() (in src/netbeans.c). The while (*tok) loop writes two bytes per iteration into a 64-byte stack buffer (keybuf) with no bounds check. A malicious NetBeans server can overflow keybuf with a single specialKeys command. The issue has been fixed as of Vim patch v9.1.2148.
+    Severity: LOW
+    CweIDs:
+    - CWE-121
+    VendorSeverity:
+      nvd: 3
+      photon: 3
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/02/13/2
+    - https://access.redhat.com/security/cve/CVE-2026-26269
+    - https://github.com/vim/vim/commit/c5f312aad8e4179e437f81ad39a860cd0ef11970
+    - https://github.com/vim/vim/releases/tag/v9.1.2148
+    - https://github.com/vim/vim/security/advisories/GHSA-9w5c-hwr9-hc68
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-26269
+    - https://www.cve.org/CVERecord?id=CVE-2026-26269
+    PublishedDate: '2026-02-13T20:17:41.377Z'
+    LastModifiedDate: '2026-02-18T21:29:03.767Z'
+  - VulnerabilityID: CVE-2026-25749
+    PkgID: vim-common@2:8.2.3995-1ubuntu2.24
+    PkgName: vim-common
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/vim-common@8.2.3995-1ubuntu2.24?arch=all&distro=ubuntu-22.04&epoch=2
+      UID: 28fd6bcaf0967379
+    InstalledVersion: 2:8.2.3995-1ubuntu2.24
+    Status: affected
+    Layer:
+      Digest: sha256:a650774ac6f067ec1766eb0d82ba9800ca4890e3bcfe6271ef4701ca37a271a1
+      DiffID: sha256:549e3a16ea514f678bb414318cdf34a7a9a12b751d14bdb81fb63b9ccebb35f8
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-25749
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:555cac275b8ce22fbe1ca724e941d60bc9eb916f4d73e2e07abe110291437fb1
+    Title: 'vim: Vim: Arbitrary code execution via ''helpfile'' option processing'
+    Description: Vim is an open source, command line text editor. Prior to version 9.1.2132, a heap buffer overflow vulnerability exists in Vim's tag file resolution logic when processing the 'helpfile' option. The vulnerability is located in the get_tagfname() function in src/tag.c. When processing help file tags, Vim copies the user-controlled 'helpfile' option value into a fixed-size heap buffer of MAXPATHL + 1 bytes (typically 4097 bytes) using an unsafe STRCPY() operation without any bounds checking. This issue has been patched in version 9.1.2132.
+    Severity: LOW
+    CweIDs:
+    - CWE-122
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-25749
+    - https://github.com/vim/vim/commit/0714b15940b245108e6e9d7aa2260dd849a26fa9
+    - https://github.com/vim/vim/releases/tag/v9.1.2132
+    - https://github.com/vim/vim/security/advisories/GHSA-5w93-4g67-mm43
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-25749
+    - https://www.cve.org/CVERecord?id=CVE-2026-25749
+    PublishedDate: '2026-02-06T23:15:54.23Z'
+    LastModifiedDate: '2026-02-20T15:45:19.21Z'
+  - VulnerabilityID: CVE-2026-26269
+    PkgID: vim-common@2:8.2.3995-1ubuntu2.24
+    PkgName: vim-common
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/vim-common@8.2.3995-1ubuntu2.24?arch=all&distro=ubuntu-22.04&epoch=2
+      UID: 28fd6bcaf0967379
+    InstalledVersion: 2:8.2.3995-1ubuntu2.24
+    Status: affected
+    Layer:
+      Digest: sha256:a650774ac6f067ec1766eb0d82ba9800ca4890e3bcfe6271ef4701ca37a271a1
+      DiffID: sha256:549e3a16ea514f678bb414318cdf34a7a9a12b751d14bdb81fb63b9ccebb35f8
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-26269
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:55c2b094cf106a83d476604c131ce30d104dfef11fa925d62a984d1d3f2939e3
+    Title: 'vim: Netbeans specialKeys stack buffer overflow'
+    Description: Vim is an open source, command line text editor. Prior to 9.1.2148, a stack buffer overflow vulnerability exists in Vim's NetBeans integration when processing the specialKeys command, affecting Vim builds that enable and use the NetBeans feature. The Stack buffer overflow exists in special_keys() (in src/netbeans.c). The while (*tok) loop writes two bytes per iteration into a 64-byte stack buffer (keybuf) with no bounds check. A malicious NetBeans server can overflow keybuf with a single specialKeys command. The issue has been fixed as of Vim patch v9.1.2148.
+    Severity: LOW
+    CweIDs:
+    - CWE-121
+    VendorSeverity:
+      nvd: 3
+      photon: 3
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/02/13/2
+    - https://access.redhat.com/security/cve/CVE-2026-26269
+    - https://github.com/vim/vim/commit/c5f312aad8e4179e437f81ad39a860cd0ef11970
+    - https://github.com/vim/vim/releases/tag/v9.1.2148
+    - https://github.com/vim/vim/security/advisories/GHSA-9w5c-hwr9-hc68
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-26269
+    - https://www.cve.org/CVERecord?id=CVE-2026-26269
+    PublishedDate: '2026-02-13T20:17:41.377Z'
+    LastModifiedDate: '2026-02-18T21:29:03.767Z'
+  - VulnerabilityID: CVE-2026-25749
+    PkgID: vim-runtime@2:8.2.3995-1ubuntu2.24
+    PkgName: vim-runtime
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/vim-runtime@8.2.3995-1ubuntu2.24?arch=all&distro=ubuntu-22.04&epoch=2
+      UID: fd7bb60d2fb3aae9
+    InstalledVersion: 2:8.2.3995-1ubuntu2.24
+    Status: affected
+    Layer:
+      Digest: sha256:a650774ac6f067ec1766eb0d82ba9800ca4890e3bcfe6271ef4701ca37a271a1
+      DiffID: sha256:549e3a16ea514f678bb414318cdf34a7a9a12b751d14bdb81fb63b9ccebb35f8
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-25749
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:0e849758947e3b1213a1e82883aea71253c9e81408ab1bea0f312102b7086b52
+    Title: 'vim: Vim: Arbitrary code execution via ''helpfile'' option processing'
+    Description: Vim is an open source, command line text editor. Prior to version 9.1.2132, a heap buffer overflow vulnerability exists in Vim's tag file resolution logic when processing the 'helpfile' option. The vulnerability is located in the get_tagfname() function in src/tag.c. When processing help file tags, Vim copies the user-controlled 'helpfile' option value into a fixed-size heap buffer of MAXPATHL + 1 bytes (typically 4097 bytes) using an unsafe STRCPY() operation without any bounds checking. This issue has been patched in version 9.1.2132.
+    Severity: LOW
+    CweIDs:
+    - CWE-122
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-25749
+    - https://github.com/vim/vim/commit/0714b15940b245108e6e9d7aa2260dd849a26fa9
+    - https://github.com/vim/vim/releases/tag/v9.1.2132
+    - https://github.com/vim/vim/security/advisories/GHSA-5w93-4g67-mm43
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-25749
+    - https://www.cve.org/CVERecord?id=CVE-2026-25749
+    PublishedDate: '2026-02-06T23:15:54.23Z'
+    LastModifiedDate: '2026-02-20T15:45:19.21Z'
+  - VulnerabilityID: CVE-2026-26269
+    PkgID: vim-runtime@2:8.2.3995-1ubuntu2.24
+    PkgName: vim-runtime
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/vim-runtime@8.2.3995-1ubuntu2.24?arch=all&distro=ubuntu-22.04&epoch=2
+      UID: fd7bb60d2fb3aae9
+    InstalledVersion: 2:8.2.3995-1ubuntu2.24
+    Status: affected
+    Layer:
+      Digest: sha256:a650774ac6f067ec1766eb0d82ba9800ca4890e3bcfe6271ef4701ca37a271a1
+      DiffID: sha256:549e3a16ea514f678bb414318cdf34a7a9a12b751d14bdb81fb63b9ccebb35f8
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-26269
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:96ba457603b6bb87b5bb524a23024ca757ea335a5861d5a35bf358c0ee46a376
+    Title: 'vim: Netbeans specialKeys stack buffer overflow'
+    Description: Vim is an open source, command line text editor. Prior to 9.1.2148, a stack buffer overflow vulnerability exists in Vim's NetBeans integration when processing the specialKeys command, affecting Vim builds that enable and use the NetBeans feature. The Stack buffer overflow exists in special_keys() (in src/netbeans.c). The while (*tok) loop writes two bytes per iteration into a 64-byte stack buffer (keybuf) with no bounds check. A malicious NetBeans server can overflow keybuf with a single specialKeys command. The issue has been fixed as of Vim patch v9.1.2148.
+    Severity: LOW
+    CweIDs:
+    - CWE-121
+    VendorSeverity:
+      nvd: 3
+      photon: 3
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/02/13/2
+    - https://access.redhat.com/security/cve/CVE-2026-26269
+    - https://github.com/vim/vim/commit/c5f312aad8e4179e437f81ad39a860cd0ef11970
+    - https://github.com/vim/vim/releases/tag/v9.1.2148
+    - https://github.com/vim/vim/security/advisories/GHSA-9w5c-hwr9-hc68
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-26269
+    - https://www.cve.org/CVERecord?id=CVE-2026-26269
+    PublishedDate: '2026-02-13T20:17:41.377Z'
+    LastModifiedDate: '2026-02-18T21:29:03.767Z'
   - VulnerabilityID: CVE-2021-31879
     PkgID: wget@1.21.2-2ubuntu1.1
     PkgName: wget
@@ -27773,6 +27977,90 @@
     - https://www.cve.org/CVERecord?id=CVE-2021-31879
     PublishedDate: '2021-04-29T05:15:08.707Z'
     LastModifiedDate: '2024-11-21T06:06:25.02Z'
+  - VulnerabilityID: CVE-2026-25749
+    PkgID: xxd@2:8.2.3995-1ubuntu2.24
+    PkgName: xxd
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/xxd@8.2.3995-1ubuntu2.24?arch=amd64&distro=ubuntu-22.04&epoch=2
+      UID: 896e83e96978132d
+    InstalledVersion: 2:8.2.3995-1ubuntu2.24
+    Status: affected
+    Layer:
+      Digest: sha256:a650774ac6f067ec1766eb0d82ba9800ca4890e3bcfe6271ef4701ca37a271a1
+      DiffID: sha256:549e3a16ea514f678bb414318cdf34a7a9a12b751d14bdb81fb63b9ccebb35f8
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-25749
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:3d920e3dd95f2d817ab6a841054b608c2292884aa3ac2dcff3f17d059edb2b1a
+    Title: 'vim: Vim: Arbitrary code execution via ''helpfile'' option processing'
+    Description: Vim is an open source, command line text editor. Prior to version 9.1.2132, a heap buffer overflow vulnerability exists in Vim's tag file resolution logic when processing the 'helpfile' option. The vulnerability is located in the get_tagfname() function in src/tag.c. When processing help file tags, Vim copies the user-controlled 'helpfile' option value into a fixed-size heap buffer of MAXPATHL + 1 bytes (typically 4097 bytes) using an unsafe STRCPY() operation without any bounds checking. This issue has been patched in version 9.1.2132.
+    Severity: LOW
+    CweIDs:
+    - CWE-122
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-25749
+    - https://github.com/vim/vim/commit/0714b15940b245108e6e9d7aa2260dd849a26fa9
+    - https://github.com/vim/vim/releases/tag/v9.1.2132
+    - https://github.com/vim/vim/security/advisories/GHSA-5w93-4g67-mm43
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-25749
+    - https://www.cve.org/CVERecord?id=CVE-2026-25749
+    PublishedDate: '2026-02-06T23:15:54.23Z'
+    LastModifiedDate: '2026-02-20T15:45:19.21Z'
+  - VulnerabilityID: CVE-2026-26269
+    PkgID: xxd@2:8.2.3995-1ubuntu2.24
+    PkgName: xxd
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/xxd@8.2.3995-1ubuntu2.24?arch=amd64&distro=ubuntu-22.04&epoch=2
+      UID: 896e83e96978132d
+    InstalledVersion: 2:8.2.3995-1ubuntu2.24
+    Status: affected
+    Layer:
+      Digest: sha256:a650774ac6f067ec1766eb0d82ba9800ca4890e3bcfe6271ef4701ca37a271a1
+      DiffID: sha256:549e3a16ea514f678bb414318cdf34a7a9a12b751d14bdb81fb63b9ccebb35f8
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-26269
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:6de4e7e1fb545e88b9b576e6cf391e37ab0c8dbbd48c5531f67537356b81d737
+    Title: 'vim: Netbeans specialKeys stack buffer overflow'
+    Description: Vim is an open source, command line text editor. Prior to 9.1.2148, a stack buffer overflow vulnerability exists in Vim's NetBeans integration when processing the specialKeys command, affecting Vim builds that enable and use the NetBeans feature. The Stack buffer overflow exists in special_keys() (in src/netbeans.c). The while (*tok) loop writes two bytes per iteration into a 64-byte stack buffer (keybuf) with no bounds check. A malicious NetBeans server can overflow keybuf with a single specialKeys command. The issue has been fixed as of Vim patch v9.1.2148.
+    Severity: LOW
+    CweIDs:
+    - CWE-121
+    VendorSeverity:
+      nvd: 3
+      photon: 3
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/02/13/2
+    - https://access.redhat.com/security/cve/CVE-2026-26269
+    - https://github.com/vim/vim/commit/c5f312aad8e4179e437f81ad39a860cd0ef11970
+    - https://github.com/vim/vim/releases/tag/v9.1.2148
+    - https://github.com/vim/vim/security/advisories/GHSA-9w5c-hwr9-hc68
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-26269
+    - https://www.cve.org/CVERecord?id=CVE-2026-26269
+    PublishedDate: '2026-02-13T20:17:41.377Z'
+    LastModifiedDate: '2026-02-18T21:29:03.767Z'
 - Target: Java
   Class: lang-pkgs
   Type: jar
@@ -29288,28 +29576,25 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N
         V3Score: 7.4
     References:
-    - https://access.redhat.com/errata/RHSA-2026:2920
+    - https://access.redhat.com/errata/RHSA-2026:3337
     - https://access.redhat.com/security/cve/CVE-2025-68121
     - https://bugzilla.redhat.com/2418462
-    - https://bugzilla.redhat.com/2433242
     - https://bugzilla.redhat.com/2434431
     - https://bugzilla.redhat.com/2434432
     - https://bugzilla.redhat.com/2437111
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2434431
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2418462
     - https://bugzilla.redhat.com/show_bug.cgi?id=2434432
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2437016
     - https://bugzilla.redhat.com/show_bug.cgi?id=2437111
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-61726
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-61728
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-61732
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-61729
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-68121
-    - https://errata.almalinux.org/9/ALSA-2026-2920.html
-    - https://errata.rockylinux.org/RLSA-2026:2709
+    - https://errata.almalinux.org/9/ALSA-2026-3337.html
+    - https://errata.rockylinux.org/RLSA-2026:3040
     - https://go.dev/cl/737700
     - https://go.dev/issue/77217
     - https://groups.google.com/g/golang-announce/c/K09ubi9FQFk
     - https://linux.oracle.com/cve/CVE-2025-68121.html
-    - https://linux.oracle.com/errata/ELSA-2026-3092.html
+    - https://linux.oracle.com/errata/ELSA-2026-3343.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-68121
     - https://pkg.go.dev/vuln/GO-2026-4337
     - https://www.cve.org/CVERecord?id=CVE-2025-68121
@@ -29521,28 +29806,25 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2026:2920
+    - https://access.redhat.com/errata/RHSA-2026:3337
     - https://access.redhat.com/security/cve/CVE-2025-61726
     - https://bugzilla.redhat.com/2418462
-    - https://bugzilla.redhat.com/2433242
     - https://bugzilla.redhat.com/2434431
     - https://bugzilla.redhat.com/2434432
     - https://bugzilla.redhat.com/2437111
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2434431
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2418462
     - https://bugzilla.redhat.com/show_bug.cgi?id=2434432
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2437016
     - https://bugzilla.redhat.com/show_bug.cgi?id=2437111
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-61726
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-61728
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-61732
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-61729
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-68121
-    - https://errata.almalinux.org/9/ALSA-2026-2920.html
-    - https://errata.rockylinux.org/RLSA-2026:2709
+    - https://errata.almalinux.org/9/ALSA-2026-3337.html
+    - https://errata.rockylinux.org/RLSA-2026:3040
     - https://go.dev/cl/736712
     - https://go.dev/issue/77101
     - https://groups.google.com/g/golang-announce/c/Vd2tYVM8eUc
     - https://linux.oracle.com/cve/CVE-2025-61726.html
-    - https://linux.oracle.com/errata/ELSA-2026-3092.html
+    - https://linux.oracle.com/errata/ELSA-2026-3343.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-61726
     - https://pkg.go.dev/vuln/GO-2026-4341
     - https://www.cve.org/CVERecord?id=CVE-2025-61726
@@ -29591,28 +29873,29 @@
         V3Score: 7.5
     References:
     - http://www.openwall.com/lists/oss-security/2026/01/15/4
-    - https://access.redhat.com/errata/RHSA-2026:2920
+    - https://access.redhat.com/errata/RHSA-2026:3337
     - https://access.redhat.com/security/cve/CVE-2025-61728
     - https://bugzilla.redhat.com/2418462
-    - https://bugzilla.redhat.com/2433242
     - https://bugzilla.redhat.com/2434431
     - https://bugzilla.redhat.com/2434432
     - https://bugzilla.redhat.com/2437111
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2418462
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2433242
     - https://bugzilla.redhat.com/show_bug.cgi?id=2434431
     - https://bugzilla.redhat.com/show_bug.cgi?id=2434432
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2437016
     - https://bugzilla.redhat.com/show_bug.cgi?id=2437111
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-61726
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-61728
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-61732
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-61729
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-68121
-    - https://errata.almalinux.org/9/ALSA-2026-2920.html
-    - https://errata.rockylinux.org/RLSA-2026:2709
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-21721
+    - https://errata.almalinux.org/9/ALSA-2026-3337.html
+    - https://errata.rockylinux.org/RLSA-2026:2920
     - https://go.dev/cl/736713
     - https://go.dev/issue/77102
     - https://groups.google.com/g/golang-announce/c/Vd2tYVM8eUc
     - https://linux.oracle.com/cve/CVE-2025-61728.html
-    - https://linux.oracle.com/errata/ELSA-2026-2920.html
+    - https://linux.oracle.com/errata/ELSA-2026-3337.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-61728
     - https://pkg.go.dev/vuln/GO-2026-4342
     - https://www.cve.org/CVERecord?id=CVE-2025-61728
@@ -29659,22 +29942,25 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2026:2920
+    - https://access.redhat.com/errata/RHSA-2026:3337
     - https://access.redhat.com/security/cve/CVE-2025-61729
     - https://bugzilla.redhat.com/2418462
-    - https://bugzilla.redhat.com/2433242
     - https://bugzilla.redhat.com/2434431
     - https://bugzilla.redhat.com/2434432
     - https://bugzilla.redhat.com/2437111
     - https://bugzilla.redhat.com/show_bug.cgi?id=2418462
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2434432
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2437111
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-61726
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-61729
-    - https://errata.almalinux.org/9/ALSA-2026-2920.html
-    - https://errata.rockylinux.org/RLSA-2026:1908
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-68121
+    - https://errata.almalinux.org/9/ALSA-2026-3337.html
+    - https://errata.rockylinux.org/RLSA-2026:3040
     - https://go.dev/cl/725920
     - https://go.dev/issue/76445
     - https://groups.google.com/g/golang-announce/c/8FJoBkPddm4
     - https://linux.oracle.com/cve/CVE-2025-61729.html
-    - https://linux.oracle.com/errata/ELSA-2026-3040.html
+    - https://linux.oracle.com/errata/ELSA-2026-3343.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-61729
     - https://pkg.go.dev/vuln/GO-2025-4155
     - https://www.cve.org/CVERecord?id=CVE-2025-61729
@@ -29788,6 +30074,7 @@
       cbl-mariner: 3
       ghsa: 4
       oracle-oval: 2
+      photon: 4
       redhat: 2
       rocky: 2
     CVSS:
@@ -31007,28 +31294,25 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N
         V3Score: 7.4
     References:
-    - https://access.redhat.com/errata/RHSA-2026:2920
+    - https://access.redhat.com/errata/RHSA-2026:3337
     - https://access.redhat.com/security/cve/CVE-2025-68121
     - https://bugzilla.redhat.com/2418462
-    - https://bugzilla.redhat.com/2433242
     - https://bugzilla.redhat.com/2434431
     - https://bugzilla.redhat.com/2434432
     - https://bugzilla.redhat.com/2437111
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2434431
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2418462
     - https://bugzilla.redhat.com/show_bug.cgi?id=2434432
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2437016
     - https://bugzilla.redhat.com/show_bug.cgi?id=2437111
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-61726
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-61728
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-61732
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-61729
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-68121
-    - https://errata.almalinux.org/9/ALSA-2026-2920.html
-    - https://errata.rockylinux.org/RLSA-2026:2709
+    - https://errata.almalinux.org/9/ALSA-2026-3337.html
+    - https://errata.rockylinux.org/RLSA-2026:3040
     - https://go.dev/cl/737700
     - https://go.dev/issue/77217
     - https://groups.google.com/g/golang-announce/c/K09ubi9FQFk
     - https://linux.oracle.com/cve/CVE-2025-68121.html
-    - https://linux.oracle.com/errata/ELSA-2026-3092.html
+    - https://linux.oracle.com/errata/ELSA-2026-3343.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-68121
     - https://pkg.go.dev/vuln/GO-2026-4337
     - https://www.cve.org/CVERecord?id=CVE-2025-68121
@@ -31240,28 +31524,25 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2026:2920
+    - https://access.redhat.com/errata/RHSA-2026:3337
     - https://access.redhat.com/security/cve/CVE-2025-61726
     - https://bugzilla.redhat.com/2418462
-    - https://bugzilla.redhat.com/2433242
     - https://bugzilla.redhat.com/2434431
     - https://bugzilla.redhat.com/2434432
     - https://bugzilla.redhat.com/2437111
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2434431
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2418462
     - https://bugzilla.redhat.com/show_bug.cgi?id=2434432
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2437016
     - https://bugzilla.redhat.com/show_bug.cgi?id=2437111
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-61726
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-61728
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-61732
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-61729
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-68121
-    - https://errata.almalinux.org/9/ALSA-2026-2920.html
-    - https://errata.rockylinux.org/RLSA-2026:2709
+    - https://errata.almalinux.org/9/ALSA-2026-3337.html
+    - https://errata.rockylinux.org/RLSA-2026:3040
     - https://go.dev/cl/736712
     - https://go.dev/issue/77101
     - https://groups.google.com/g/golang-announce/c/Vd2tYVM8eUc
     - https://linux.oracle.com/cve/CVE-2025-61726.html
-    - https://linux.oracle.com/errata/ELSA-2026-3092.html
+    - https://linux.oracle.com/errata/ELSA-2026-3343.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-61726
     - https://pkg.go.dev/vuln/GO-2026-4341
     - https://www.cve.org/CVERecord?id=CVE-2025-61726
@@ -31310,28 +31591,29 @@
         V3Score: 7.5
     References:
     - http://www.openwall.com/lists/oss-security/2026/01/15/4
-    - https://access.redhat.com/errata/RHSA-2026:2920
+    - https://access.redhat.com/errata/RHSA-2026:3337
     - https://access.redhat.com/security/cve/CVE-2025-61728
     - https://bugzilla.redhat.com/2418462
-    - https://bugzilla.redhat.com/2433242
     - https://bugzilla.redhat.com/2434431
     - https://bugzilla.redhat.com/2434432
     - https://bugzilla.redhat.com/2437111
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2418462
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2433242
     - https://bugzilla.redhat.com/show_bug.cgi?id=2434431
     - https://bugzilla.redhat.com/show_bug.cgi?id=2434432
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2437016
     - https://bugzilla.redhat.com/show_bug.cgi?id=2437111
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-61726
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-61728
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-61732
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-61729
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-68121
-    - https://errata.almalinux.org/9/ALSA-2026-2920.html
-    - https://errata.rockylinux.org/RLSA-2026:2709
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-21721
+    - https://errata.almalinux.org/9/ALSA-2026-3337.html
+    - https://errata.rockylinux.org/RLSA-2026:2920
     - https://go.dev/cl/736713
     - https://go.dev/issue/77102
     - https://groups.google.com/g/golang-announce/c/Vd2tYVM8eUc
     - https://linux.oracle.com/cve/CVE-2025-61728.html
-    - https://linux.oracle.com/errata/ELSA-2026-2920.html
+    - https://linux.oracle.com/errata/ELSA-2026-3337.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-61728
     - https://pkg.go.dev/vuln/GO-2026-4342
     - https://www.cve.org/CVERecord?id=CVE-2025-61728
@@ -31378,22 +31660,25 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2026:2920
+    - https://access.redhat.com/errata/RHSA-2026:3337
     - https://access.redhat.com/security/cve/CVE-2025-61729
     - https://bugzilla.redhat.com/2418462
-    - https://bugzilla.redhat.com/2433242
     - https://bugzilla.redhat.com/2434431
     - https://bugzilla.redhat.com/2434432
     - https://bugzilla.redhat.com/2437111
     - https://bugzilla.redhat.com/show_bug.cgi?id=2418462
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2434432
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2437111
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-61726
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-61729
-    - https://errata.almalinux.org/9/ALSA-2026-2920.html
-    - https://errata.rockylinux.org/RLSA-2026:1908
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-68121
+    - https://errata.almalinux.org/9/ALSA-2026-3337.html
+    - https://errata.rockylinux.org/RLSA-2026:3040
     - https://go.dev/cl/725920
     - https://go.dev/issue/76445
     - https://groups.google.com/g/golang-announce/c/8FJoBkPddm4
     - https://linux.oracle.com/cve/CVE-2025-61729.html
-    - https://linux.oracle.com/errata/ELSA-2026-3040.html
+    - https://linux.oracle.com/errata/ELSA-2026-3343.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-61729
     - https://pkg.go.dev/vuln/GO-2025-4155
     - https://www.cve.org/CVERecord?id=CVE-2025-61729
@@ -31507,6 +31792,7 @@
       cbl-mariner: 3
       ghsa: 4
       oracle-oval: 2
+      photon: 4
       redhat: 2
       rocky: 2
     CVSS:
@@ -32246,28 +32532,25 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N
         V3Score: 7.4
     References:
-    - https://access.redhat.com/errata/RHSA-2026:2920
+    - https://access.redhat.com/errata/RHSA-2026:3337
     - https://access.redhat.com/security/cve/CVE-2025-68121
     - https://bugzilla.redhat.com/2418462
-    - https://bugzilla.redhat.com/2433242
     - https://bugzilla.redhat.com/2434431
     - https://bugzilla.redhat.com/2434432
     - https://bugzilla.redhat.com/2437111
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2434431
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2418462
     - https://bugzilla.redhat.com/show_bug.cgi?id=2434432
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2437016
     - https://bugzilla.redhat.com/show_bug.cgi?id=2437111
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-61726
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-61728
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-61732
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-61729
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-68121
-    - https://errata.almalinux.org/9/ALSA-2026-2920.html
-    - https://errata.rockylinux.org/RLSA-2026:2709
+    - https://errata.almalinux.org/9/ALSA-2026-3337.html
+    - https://errata.rockylinux.org/RLSA-2026:3040
     - https://go.dev/cl/737700
     - https://go.dev/issue/77217
     - https://groups.google.com/g/golang-announce/c/K09ubi9FQFk
     - https://linux.oracle.com/cve/CVE-2025-68121.html
-    - https://linux.oracle.com/errata/ELSA-2026-3092.html
+    - https://linux.oracle.com/errata/ELSA-2026-3343.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-68121
     - https://pkg.go.dev/vuln/GO-2026-4337
     - https://www.cve.org/CVERecord?id=CVE-2025-68121
@@ -33810,28 +34093,25 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N
         V3Score: 7.4
     References:
-    - https://access.redhat.com/errata/RHSA-2026:2920
+    - https://access.redhat.com/errata/RHSA-2026:3337
     - https://access.redhat.com/security/cve/CVE-2025-68121
     - https://bugzilla.redhat.com/2418462
-    - https://bugzilla.redhat.com/2433242
     - https://bugzilla.redhat.com/2434431
     - https://bugzilla.redhat.com/2434432
     - https://bugzilla.redhat.com/2437111
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2434431
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2418462
     - https://bugzilla.redhat.com/show_bug.cgi?id=2434432
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2437016
     - https://bugzilla.redhat.com/show_bug.cgi?id=2437111
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-61726
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-61728
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-61732
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-61729
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-68121
-    - https://errata.almalinux.org/9/ALSA-2026-2920.html
-    - https://errata.rockylinux.org/RLSA-2026:2709
+    - https://errata.almalinux.org/9/ALSA-2026-3337.html
+    - https://errata.rockylinux.org/RLSA-2026:3040
     - https://go.dev/cl/737700
     - https://go.dev/issue/77217
     - https://groups.google.com/g/golang-announce/c/K09ubi9FQFk
     - https://linux.oracle.com/cve/CVE-2025-68121.html
-    - https://linux.oracle.com/errata/ELSA-2026-3092.html
+    - https://linux.oracle.com/errata/ELSA-2026-3343.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-68121
     - https://pkg.go.dev/vuln/GO-2026-4337
     - https://www.cve.org/CVERecord?id=CVE-2025-68121
@@ -33880,28 +34160,25 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2026:2920
+    - https://access.redhat.com/errata/RHSA-2026:3337
     - https://access.redhat.com/security/cve/CVE-2025-61726
     - https://bugzilla.redhat.com/2418462
-    - https://bugzilla.redhat.com/2433242
     - https://bugzilla.redhat.com/2434431
     - https://bugzilla.redhat.com/2434432
     - https://bugzilla.redhat.com/2437111
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2434431
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2418462
     - https://bugzilla.redhat.com/show_bug.cgi?id=2434432
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2437016
     - https://bugzilla.redhat.com/show_bug.cgi?id=2437111
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-61726
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-61728
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-61732
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-61729
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-68121
-    - https://errata.almalinux.org/9/ALSA-2026-2920.html
-    - https://errata.rockylinux.org/RLSA-2026:2709
+    - https://errata.almalinux.org/9/ALSA-2026-3337.html
+    - https://errata.rockylinux.org/RLSA-2026:3040
     - https://go.dev/cl/736712
     - https://go.dev/issue/77101
     - https://groups.google.com/g/golang-announce/c/Vd2tYVM8eUc
     - https://linux.oracle.com/cve/CVE-2025-61726.html
-    - https://linux.oracle.com/errata/ELSA-2026-3092.html
+    - https://linux.oracle.com/errata/ELSA-2026-3343.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-61726
     - https://pkg.go.dev/vuln/GO-2026-4341
     - https://www.cve.org/CVERecord?id=CVE-2025-61726
@@ -33950,28 +34227,29 @@
         V3Score: 7.5
     References:
     - http://www.openwall.com/lists/oss-security/2026/01/15/4
-    - https://access.redhat.com/errata/RHSA-2026:2920
+    - https://access.redhat.com/errata/RHSA-2026:3337
     - https://access.redhat.com/security/cve/CVE-2025-61728
     - https://bugzilla.redhat.com/2418462
-    - https://bugzilla.redhat.com/2433242
     - https://bugzilla.redhat.com/2434431
     - https://bugzilla.redhat.com/2434432
     - https://bugzilla.redhat.com/2437111
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2418462
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2433242
     - https://bugzilla.redhat.com/show_bug.cgi?id=2434431
     - https://bugzilla.redhat.com/show_bug.cgi?id=2434432
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2437016
     - https://bugzilla.redhat.com/show_bug.cgi?id=2437111
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-61726
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-61728
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-61732
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-61729
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-68121
-    - https://errata.almalinux.org/9/ALSA-2026-2920.html
-    - https://errata.rockylinux.org/RLSA-2026:2709
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-21721
+    - https://errata.almalinux.org/9/ALSA-2026-3337.html
+    - https://errata.rockylinux.org/RLSA-2026:2920
     - https://go.dev/cl/736713
     - https://go.dev/issue/77102
     - https://groups.google.com/g/golang-announce/c/Vd2tYVM8eUc
     - https://linux.oracle.com/cve/CVE-2025-61728.html
-    - https://linux.oracle.com/errata/ELSA-2026-2920.html
+    - https://linux.oracle.com/errata/ELSA-2026-3337.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-61728
     - https://pkg.go.dev/vuln/GO-2026-4342
     - https://www.cve.org/CVERecord?id=CVE-2025-61728
@@ -34146,28 +34424,25 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N
         V3Score: 7.4
     References:
-    - https://access.redhat.com/errata/RHSA-2026:2920
+    - https://access.redhat.com/errata/RHSA-2026:3337
     - https://access.redhat.com/security/cve/CVE-2025-68121
     - https://bugzilla.redhat.com/2418462
-    - https://bugzilla.redhat.com/2433242
     - https://bugzilla.redhat.com/2434431
     - https://bugzilla.redhat.com/2434432
     - https://bugzilla.redhat.com/2437111
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2434431
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2418462
     - https://bugzilla.redhat.com/show_bug.cgi?id=2434432
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2437016
     - https://bugzilla.redhat.com/show_bug.cgi?id=2437111
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-61726
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-61728
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-61732
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-61729
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-68121
-    - https://errata.almalinux.org/9/ALSA-2026-2920.html
-    - https://errata.rockylinux.org/RLSA-2026:2709
+    - https://errata.almalinux.org/9/ALSA-2026-3337.html
+    - https://errata.rockylinux.org/RLSA-2026:3040
     - https://go.dev/cl/737700
     - https://go.dev/issue/77217
     - https://groups.google.com/g/golang-announce/c/K09ubi9FQFk
     - https://linux.oracle.com/cve/CVE-2025-68121.html
-    - https://linux.oracle.com/errata/ELSA-2026-3092.html
+    - https://linux.oracle.com/errata/ELSA-2026-3343.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-68121
     - https://pkg.go.dev/vuln/GO-2026-4337
     - https://www.cve.org/CVERecord?id=CVE-2025-68121
@@ -37205,6 +37480,50 @@
       DiffID: sha256:549e3a16ea514f678bb414318cdf34a7a9a12b751d14bdb81fb63b9ccebb35f8
     AnalyzedBy: gobinary
   Vulnerabilities:
+  - VulnerabilityID: CVE-2026-1229
+    VendorIDs:
+    - GHSA-q9hv-hpm4-hj6x
+    PkgID: github.com/cloudflare/circl@v1.6.1
+    PkgName: github.com/cloudflare/circl
+    PkgIdentifier:
+      PURL: pkg:golang/github.com/cloudflare/circl@v1.6.1
+      UID: be1baf2862a2f42a
+    InstalledVersion: v1.6.1
+    FixedVersion: 1.6.3
+    Status: fixed
+    Layer:
+      Digest: sha256:a650774ac6f067ec1766eb0d82ba9800ca4890e3bcfe6271ef4701ca37a271a1
+      DiffID: sha256:549e3a16ea514f678bb414318cdf34a7a9a12b751d14bdb81fb63b9ccebb35f8
+    SeveritySource: ghsa
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-1229
+    DataSource:
+      ID: ghsa
+      Name: GitHub Security Advisory Go
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
+    Fingerprint: sha256:6f3e5b73cb792fea4521cb084289d91a79499dcd00d0d166d24ab12033788d12
+    Title: CIRCL has an incorrect calculation in secp384r1 CombinedMult
+    Description: |-
+      The CombinedMult function in the CIRCL ecc/p384 package (secp384r1 curve) produces an incorrect value for specific inputs. The issue is fixed by using complete addition formulas.
+      ECDH and ECDSA signing relying on this curve are not affected.
+
+      The bug was fixed in  v1.6.3 https://github.com/cloudflare/circl/releases/tag/v1.6.3 .
+    Severity: LOW
+    CweIDs:
+    - CWE-682
+    VendorSeverity:
+      ghsa: 1
+    CVSS:
+      ghsa:
+        V40Vector: CVSS:4.0/AV:N/AC:H/AT:N/PR:N/UI:N/VC:L/VI:L/VA:L/SC:L/SI:L/SA:L/E:P/S:N/AU:Y/U:Amber
+        V40Score: 2.9
+    References:
+    - https://github.com/cloudflare/circl
+    - https://github.com/cloudflare/circl/pull/583
+    - https://github.com/cloudflare/circl/releases/tag/v1.6.3
+    - https://github.com/cloudflare/circl/security/advisories/GHSA-q9hv-hpm4-hj6x
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-1229
+    PublishedDate: '2026-02-24T08:16:28.407Z'
+    LastModifiedDate: '2026-02-24T14:13:49.32Z'
   - VulnerabilityID: CVE-2025-68121
     VendorIDs:
     - GO-2026-4337
@@ -37251,28 +37570,25 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N
         V3Score: 7.4
     References:
-    - https://access.redhat.com/errata/RHSA-2026:2920
+    - https://access.redhat.com/errata/RHSA-2026:3337
     - https://access.redhat.com/security/cve/CVE-2025-68121
     - https://bugzilla.redhat.com/2418462
-    - https://bugzilla.redhat.com/2433242
     - https://bugzilla.redhat.com/2434431
     - https://bugzilla.redhat.com/2434432
     - https://bugzilla.redhat.com/2437111
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2434431
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2418462
     - https://bugzilla.redhat.com/show_bug.cgi?id=2434432
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2437016
     - https://bugzilla.redhat.com/show_bug.cgi?id=2437111
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-61726
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-61728
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-61732
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-61729
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-68121
-    - https://errata.almalinux.org/9/ALSA-2026-2920.html
-    - https://errata.rockylinux.org/RLSA-2026:2709
+    - https://errata.almalinux.org/9/ALSA-2026-3337.html
+    - https://errata.rockylinux.org/RLSA-2026:3040
     - https://go.dev/cl/737700
     - https://go.dev/issue/77217
     - https://groups.google.com/g/golang-announce/c/K09ubi9FQFk
     - https://linux.oracle.com/cve/CVE-2025-68121.html
-    - https://linux.oracle.com/errata/ELSA-2026-3092.html
+    - https://linux.oracle.com/errata/ELSA-2026-3343.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-68121
     - https://pkg.go.dev/vuln/GO-2026-4337
     - https://www.cve.org/CVERecord?id=CVE-2025-68121
@@ -38483,6 +38799,51 @@
       Digest: sha256:a650774ac6f067ec1766eb0d82ba9800ca4890e3bcfe6271ef4701ca37a271a1
       DiffID: sha256:549e3a16ea514f678bb414318cdf34a7a9a12b751d14bdb81fb63b9ccebb35f8
     AnalyzedBy: gobinary
+  Vulnerabilities:
+  - VulnerabilityID: CVE-2026-1229
+    VendorIDs:
+    - GHSA-q9hv-hpm4-hj6x
+    PkgID: github.com/cloudflare/circl@v1.6.1
+    PkgName: github.com/cloudflare/circl
+    PkgIdentifier:
+      PURL: pkg:golang/github.com/cloudflare/circl@v1.6.1
+      UID: dd6723e821e2005c
+    InstalledVersion: v1.6.1
+    FixedVersion: 1.6.3
+    Status: fixed
+    Layer:
+      Digest: sha256:a650774ac6f067ec1766eb0d82ba9800ca4890e3bcfe6271ef4701ca37a271a1
+      DiffID: sha256:549e3a16ea514f678bb414318cdf34a7a9a12b751d14bdb81fb63b9ccebb35f8
+    SeveritySource: ghsa
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-1229
+    DataSource:
+      ID: ghsa
+      Name: GitHub Security Advisory Go
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
+    Fingerprint: sha256:e08b15d2558f753910b9cb6b74066116aa7ad3cc68f63bc4326fbfce6359c291
+    Title: CIRCL has an incorrect calculation in secp384r1 CombinedMult
+    Description: |-
+      The CombinedMult function in the CIRCL ecc/p384 package (secp384r1 curve) produces an incorrect value for specific inputs. The issue is fixed by using complete addition formulas.
+      ECDH and ECDSA signing relying on this curve are not affected.
+
+      The bug was fixed in  v1.6.3 https://github.com/cloudflare/circl/releases/tag/v1.6.3 .
+    Severity: LOW
+    CweIDs:
+    - CWE-682
+    VendorSeverity:
+      ghsa: 1
+    CVSS:
+      ghsa:
+        V40Vector: CVSS:4.0/AV:N/AC:H/AT:N/PR:N/UI:N/VC:L/VI:L/VA:L/SC:L/SI:L/SA:L/E:P/S:N/AU:Y/U:Amber
+        V40Score: 2.9
+    References:
+    - https://github.com/cloudflare/circl
+    - https://github.com/cloudflare/circl/pull/583
+    - https://github.com/cloudflare/circl/releases/tag/v1.6.3
+    - https://github.com/cloudflare/circl/security/advisories/GHSA-q9hv-hpm4-hj6x
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-1229
+    PublishedDate: '2026-02-24T08:16:28.407Z'
+    LastModifiedDate: '2026-02-24T14:13:49.32Z'
 - Target: usr/bin/kubectl
   Class: lang-pkgs
   Type: gobinary
@@ -39430,28 +39791,25 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N
         V3Score: 7.4
     References:
-    - https://access.redhat.com/errata/RHSA-2026:2920
+    - https://access.redhat.com/errata/RHSA-2026:3337
     - https://access.redhat.com/security/cve/CVE-2025-68121
     - https://bugzilla.redhat.com/2418462
-    - https://bugzilla.redhat.com/2433242
     - https://bugzilla.redhat.com/2434431
     - https://bugzilla.redhat.com/2434432
     - https://bugzilla.redhat.com/2437111
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2434431
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2418462
     - https://bugzilla.redhat.com/show_bug.cgi?id=2434432
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2437016
     - https://bugzilla.redhat.com/show_bug.cgi?id=2437111
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-61726
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-61728
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-61732
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-61729
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-68121
-    - https://errata.almalinux.org/9/ALSA-2026-2920.html
-    - https://errata.rockylinux.org/RLSA-2026:2709
+    - https://errata.almalinux.org/9/ALSA-2026-3337.html
+    - https://errata.rockylinux.org/RLSA-2026:3040
     - https://go.dev/cl/737700
     - https://go.dev/issue/77217
     - https://groups.google.com/g/golang-announce/c/K09ubi9FQFk
     - https://linux.oracle.com/cve/CVE-2025-68121.html
-    - https://linux.oracle.com/errata/ELSA-2026-3092.html
+    - https://linux.oracle.com/errata/ELSA-2026-3343.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-68121
     - https://pkg.go.dev/vuln/GO-2026-4337
     - https://www.cve.org/CVERecord?id=CVE-2025-68121
@@ -40710,28 +41068,25 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N
         V3Score: 7.4
     References:
-    - https://access.redhat.com/errata/RHSA-2026:2920
+    - https://access.redhat.com/errata/RHSA-2026:3337
     - https://access.redhat.com/security/cve/CVE-2025-68121
     - https://bugzilla.redhat.com/2418462
-    - https://bugzilla.redhat.com/2433242
     - https://bugzilla.redhat.com/2434431
     - https://bugzilla.redhat.com/2434432
     - https://bugzilla.redhat.com/2437111
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2434431
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2418462
     - https://bugzilla.redhat.com/show_bug.cgi?id=2434432
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2437016
     - https://bugzilla.redhat.com/show_bug.cgi?id=2437111
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-61726
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-61728
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-61732
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-61729
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-68121
-    - https://errata.almalinux.org/9/ALSA-2026-2920.html
-    - https://errata.rockylinux.org/RLSA-2026:2709
+    - https://errata.almalinux.org/9/ALSA-2026-3337.html
+    - https://errata.rockylinux.org/RLSA-2026:3040
     - https://go.dev/cl/737700
     - https://go.dev/issue/77217
     - https://groups.google.com/g/golang-announce/c/K09ubi9FQFk
     - https://linux.oracle.com/cve/CVE-2025-68121.html
-    - https://linux.oracle.com/errata/ELSA-2026-3092.html
+    - https://linux.oracle.com/errata/ELSA-2026-3343.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-68121
     - https://pkg.go.dev/vuln/GO-2026-4337
     - https://www.cve.org/CVERecord?id=CVE-2025-68121
@@ -40839,28 +41194,25 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2026:2920
+    - https://access.redhat.com/errata/RHSA-2026:3337
     - https://access.redhat.com/security/cve/CVE-2025-61726
     - https://bugzilla.redhat.com/2418462
-    - https://bugzilla.redhat.com/2433242
     - https://bugzilla.redhat.com/2434431
     - https://bugzilla.redhat.com/2434432
     - https://bugzilla.redhat.com/2437111
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2434431
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2418462
     - https://bugzilla.redhat.com/show_bug.cgi?id=2434432
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2437016
     - https://bugzilla.redhat.com/show_bug.cgi?id=2437111
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-61726
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-61728
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-61732
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-61729
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-68121
-    - https://errata.almalinux.org/9/ALSA-2026-2920.html
-    - https://errata.rockylinux.org/RLSA-2026:2709
+    - https://errata.almalinux.org/9/ALSA-2026-3337.html
+    - https://errata.rockylinux.org/RLSA-2026:3040
     - https://go.dev/cl/736712
     - https://go.dev/issue/77101
     - https://groups.google.com/g/golang-announce/c/Vd2tYVM8eUc
     - https://linux.oracle.com/cve/CVE-2025-61726.html
-    - https://linux.oracle.com/errata/ELSA-2026-3092.html
+    - https://linux.oracle.com/errata/ELSA-2026-3343.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-61726
     - https://pkg.go.dev/vuln/GO-2026-4341
     - https://www.cve.org/CVERecord?id=CVE-2025-61726
@@ -40909,28 +41261,29 @@
         V3Score: 7.5
     References:
     - http://www.openwall.com/lists/oss-security/2026/01/15/4
-    - https://access.redhat.com/errata/RHSA-2026:2920
+    - https://access.redhat.com/errata/RHSA-2026:3337
     - https://access.redhat.com/security/cve/CVE-2025-61728
     - https://bugzilla.redhat.com/2418462
-    - https://bugzilla.redhat.com/2433242
     - https://bugzilla.redhat.com/2434431
     - https://bugzilla.redhat.com/2434432
     - https://bugzilla.redhat.com/2437111
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2418462
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2433242
     - https://bugzilla.redhat.com/show_bug.cgi?id=2434431
     - https://bugzilla.redhat.com/show_bug.cgi?id=2434432
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2437016
     - https://bugzilla.redhat.com/show_bug.cgi?id=2437111
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-61726
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-61728
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-61732
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-61729
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-68121
-    - https://errata.almalinux.org/9/ALSA-2026-2920.html
-    - https://errata.rockylinux.org/RLSA-2026:2709
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-21721
+    - https://errata.almalinux.org/9/ALSA-2026-3337.html
+    - https://errata.rockylinux.org/RLSA-2026:2920
     - https://go.dev/cl/736713
     - https://go.dev/issue/77102
     - https://groups.google.com/g/golang-announce/c/Vd2tYVM8eUc
     - https://linux.oracle.com/cve/CVE-2025-61728.html
-    - https://linux.oracle.com/errata/ELSA-2026-2920.html
+    - https://linux.oracle.com/errata/ELSA-2026-3337.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-61728
     - https://pkg.go.dev/vuln/GO-2026-4342
     - https://www.cve.org/CVERecord?id=CVE-2025-61728
@@ -40977,22 +41330,25 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2026:2920
+    - https://access.redhat.com/errata/RHSA-2026:3337
     - https://access.redhat.com/security/cve/CVE-2025-61729
     - https://bugzilla.redhat.com/2418462
-    - https://bugzilla.redhat.com/2433242
     - https://bugzilla.redhat.com/2434431
     - https://bugzilla.redhat.com/2434432
     - https://bugzilla.redhat.com/2437111
     - https://bugzilla.redhat.com/show_bug.cgi?id=2418462
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2434432
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2437111
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-61726
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-61729
-    - https://errata.almalinux.org/9/ALSA-2026-2920.html
-    - https://errata.rockylinux.org/RLSA-2026:1908
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-68121
+    - https://errata.almalinux.org/9/ALSA-2026-3337.html
+    - https://errata.rockylinux.org/RLSA-2026:3040
     - https://go.dev/cl/725920
     - https://go.dev/issue/76445
     - https://groups.google.com/g/golang-announce/c/8FJoBkPddm4
     - https://linux.oracle.com/cve/CVE-2025-61729.html
-    - https://linux.oracle.com/errata/ELSA-2026-3040.html
+    - https://linux.oracle.com/errata/ELSA-2026-3343.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-61729
     - https://pkg.go.dev/vuln/GO-2025-4155
     - https://www.cve.org/CVERecord?id=CVE-2025-61729
@@ -41787,28 +42143,25 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N
         V3Score: 7.4
     References:
-    - https://access.redhat.com/errata/RHSA-2026:2920
+    - https://access.redhat.com/errata/RHSA-2026:3337
     - https://access.redhat.com/security/cve/CVE-2025-68121
     - https://bugzilla.redhat.com/2418462
-    - https://bugzilla.redhat.com/2433242
     - https://bugzilla.redhat.com/2434431
     - https://bugzilla.redhat.com/2434432
     - https://bugzilla.redhat.com/2437111
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2434431
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2418462
     - https://bugzilla.redhat.com/show_bug.cgi?id=2434432
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2437016
     - https://bugzilla.redhat.com/show_bug.cgi?id=2437111
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-61726
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-61728
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-61732
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-61729
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-68121
-    - https://errata.almalinux.org/9/ALSA-2026-2920.html
-    - https://errata.rockylinux.org/RLSA-2026:2709
+    - https://errata.almalinux.org/9/ALSA-2026-3337.html
+    - https://errata.rockylinux.org/RLSA-2026:3040
     - https://go.dev/cl/737700
     - https://go.dev/issue/77217
     - https://groups.google.com/g/golang-announce/c/K09ubi9FQFk
     - https://linux.oracle.com/cve/CVE-2025-68121.html
-    - https://linux.oracle.com/errata/ELSA-2026-3092.html
+    - https://linux.oracle.com/errata/ELSA-2026-3343.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-68121
     - https://pkg.go.dev/vuln/GO-2026-4337
     - https://www.cve.org/CVERecord?id=CVE-2025-68121
@@ -44263,6 +44616,50 @@
       DiffID: sha256:549e3a16ea514f678bb414318cdf34a7a9a12b751d14bdb81fb63b9ccebb35f8
     AnalyzedBy: gobinary
   Vulnerabilities:
+  - VulnerabilityID: CVE-2026-1229
+    VendorIDs:
+    - GHSA-q9hv-hpm4-hj6x
+    PkgID: github.com/cloudflare/circl@v1.6.1
+    PkgName: github.com/cloudflare/circl
+    PkgIdentifier:
+      PURL: pkg:golang/github.com/cloudflare/circl@v1.6.1
+      UID: bf4f1fabec8769a8
+    InstalledVersion: v1.6.1
+    FixedVersion: 1.6.3
+    Status: fixed
+    Layer:
+      Digest: sha256:a650774ac6f067ec1766eb0d82ba9800ca4890e3bcfe6271ef4701ca37a271a1
+      DiffID: sha256:549e3a16ea514f678bb414318cdf34a7a9a12b751d14bdb81fb63b9ccebb35f8
+    SeveritySource: ghsa
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-1229
+    DataSource:
+      ID: ghsa
+      Name: GitHub Security Advisory Go
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
+    Fingerprint: sha256:2813f0f34edb0640bd25d45a86e5c791cd9048e5b3b731935ab5f44a53f4ee33
+    Title: CIRCL has an incorrect calculation in secp384r1 CombinedMult
+    Description: |-
+      The CombinedMult function in the CIRCL ecc/p384 package (secp384r1 curve) produces an incorrect value for specific inputs. The issue is fixed by using complete addition formulas.
+      ECDH and ECDSA signing relying on this curve are not affected.
+
+      The bug was fixed in  v1.6.3 https://github.com/cloudflare/circl/releases/tag/v1.6.3 .
+    Severity: LOW
+    CweIDs:
+    - CWE-682
+    VendorSeverity:
+      ghsa: 1
+    CVSS:
+      ghsa:
+        V40Vector: CVSS:4.0/AV:N/AC:H/AT:N/PR:N/UI:N/VC:L/VI:L/VA:L/SC:L/SI:L/SA:L/E:P/S:N/AU:Y/U:Amber
+        V40Score: 2.9
+    References:
+    - https://github.com/cloudflare/circl
+    - https://github.com/cloudflare/circl/pull/583
+    - https://github.com/cloudflare/circl/releases/tag/v1.6.3
+    - https://github.com/cloudflare/circl/security/advisories/GHSA-q9hv-hpm4-hj6x
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-1229
+    PublishedDate: '2026-02-24T08:16:28.407Z'
+    LastModifiedDate: '2026-02-24T14:13:49.32Z'
   - VulnerabilityID: CVE-2026-23831
     VendorIDs:
     - GHSA-273p-m2cw-6833
@@ -44530,9 +44927,13 @@
     - CWE-22
     VendorSeverity:
       ghsa: 2
+      nvd: 2
       redhat: 2
     CVSS:
       ghsa:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:H/A:N
+        V3Score: 4.7
+      nvd:
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:H/A:N
         V3Score: 4.7
       redhat:
@@ -44546,7 +44947,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-24686
     - https://www.cve.org/CVERecord?id=CVE-2026-24686
     PublishedDate: '2026-01-27T01:16:02.79Z'
-    LastModifiedDate: '2026-01-27T14:59:34.073Z'
+    LastModifiedDate: '2026-02-24T19:08:46.017Z'
   - VulnerabilityID: CVE-2025-68121
     VendorIDs:
     - GO-2026-4337
@@ -44593,28 +44994,25 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N
         V3Score: 7.4
     References:
-    - https://access.redhat.com/errata/RHSA-2026:2920
+    - https://access.redhat.com/errata/RHSA-2026:3337
     - https://access.redhat.com/security/cve/CVE-2025-68121
     - https://bugzilla.redhat.com/2418462
-    - https://bugzilla.redhat.com/2433242
     - https://bugzilla.redhat.com/2434431
     - https://bugzilla.redhat.com/2434432
     - https://bugzilla.redhat.com/2437111
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2434431
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2418462
     - https://bugzilla.redhat.com/show_bug.cgi?id=2434432
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2437016
     - https://bugzilla.redhat.com/show_bug.cgi?id=2437111
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-61726
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-61728
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-61732
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-61729
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-68121
-    - https://errata.almalinux.org/9/ALSA-2026-2920.html
-    - https://errata.rockylinux.org/RLSA-2026:2709
+    - https://errata.almalinux.org/9/ALSA-2026-3337.html
+    - https://errata.rockylinux.org/RLSA-2026:3040
     - https://go.dev/cl/737700
     - https://go.dev/issue/77217
     - https://groups.google.com/g/golang-announce/c/K09ubi9FQFk
     - https://linux.oracle.com/cve/CVE-2025-68121.html
-    - https://linux.oracle.com/errata/ELSA-2026-3092.html
+    - https://linux.oracle.com/errata/ELSA-2026-3343.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-68121
     - https://pkg.go.dev/vuln/GO-2026-4337
     - https://www.cve.org/CVERecord?id=CVE-2025-68121
@@ -46157,28 +46555,25 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N
         V3Score: 7.4
     References:
-    - https://access.redhat.com/errata/RHSA-2026:2920
+    - https://access.redhat.com/errata/RHSA-2026:3337
     - https://access.redhat.com/security/cve/CVE-2025-68121
     - https://bugzilla.redhat.com/2418462
-    - https://bugzilla.redhat.com/2433242
     - https://bugzilla.redhat.com/2434431
     - https://bugzilla.redhat.com/2434432
     - https://bugzilla.redhat.com/2437111
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2434431
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2418462
     - https://bugzilla.redhat.com/show_bug.cgi?id=2434432
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2437016
     - https://bugzilla.redhat.com/show_bug.cgi?id=2437111
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-61726
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-61728
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-61732
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-61729
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-68121
-    - https://errata.almalinux.org/9/ALSA-2026-2920.html
-    - https://errata.rockylinux.org/RLSA-2026:2709
+    - https://errata.almalinux.org/9/ALSA-2026-3337.html
+    - https://errata.rockylinux.org/RLSA-2026:3040
     - https://go.dev/cl/737700
     - https://go.dev/issue/77217
     - https://groups.google.com/g/golang-announce/c/K09ubi9FQFk
     - https://linux.oracle.com/cve/CVE-2025-68121.html
-    - https://linux.oracle.com/errata/ELSA-2026-3092.html
+    - https://linux.oracle.com/errata/ELSA-2026-3343.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-68121
     - https://pkg.go.dev/vuln/GO-2026-4337
     - https://www.cve.org/CVERecord?id=CVE-2025-68121
@@ -46227,28 +46622,25 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2026:2920
+    - https://access.redhat.com/errata/RHSA-2026:3337
     - https://access.redhat.com/security/cve/CVE-2025-61726
     - https://bugzilla.redhat.com/2418462
-    - https://bugzilla.redhat.com/2433242
     - https://bugzilla.redhat.com/2434431
     - https://bugzilla.redhat.com/2434432
     - https://bugzilla.redhat.com/2437111
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2434431
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2418462
     - https://bugzilla.redhat.com/show_bug.cgi?id=2434432
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2437016
     - https://bugzilla.redhat.com/show_bug.cgi?id=2437111
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-61726
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-61728
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-61732
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-61729
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-68121
-    - https://errata.almalinux.org/9/ALSA-2026-2920.html
-    - https://errata.rockylinux.org/RLSA-2026:2709
+    - https://errata.almalinux.org/9/ALSA-2026-3337.html
+    - https://errata.rockylinux.org/RLSA-2026:3040
     - https://go.dev/cl/736712
     - https://go.dev/issue/77101
     - https://groups.google.com/g/golang-announce/c/Vd2tYVM8eUc
     - https://linux.oracle.com/cve/CVE-2025-61726.html
-    - https://linux.oracle.com/errata/ELSA-2026-3092.html
+    - https://linux.oracle.com/errata/ELSA-2026-3343.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-61726
     - https://pkg.go.dev/vuln/GO-2026-4341
     - https://www.cve.org/CVERecord?id=CVE-2025-61726
@@ -46297,28 +46689,29 @@
         V3Score: 7.5
     References:
     - http://www.openwall.com/lists/oss-security/2026/01/15/4
-    - https://access.redhat.com/errata/RHSA-2026:2920
+    - https://access.redhat.com/errata/RHSA-2026:3337
     - https://access.redhat.com/security/cve/CVE-2025-61728
     - https://bugzilla.redhat.com/2418462
-    - https://bugzilla.redhat.com/2433242
     - https://bugzilla.redhat.com/2434431
     - https://bugzilla.redhat.com/2434432
     - https://bugzilla.redhat.com/2437111
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2418462
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2433242
     - https://bugzilla.redhat.com/show_bug.cgi?id=2434431
     - https://bugzilla.redhat.com/show_bug.cgi?id=2434432
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2437016
     - https://bugzilla.redhat.com/show_bug.cgi?id=2437111
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-61726
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-61728
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-61732
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-61729
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-68121
-    - https://errata.almalinux.org/9/ALSA-2026-2920.html
-    - https://errata.rockylinux.org/RLSA-2026:2709
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-21721
+    - https://errata.almalinux.org/9/ALSA-2026-3337.html
+    - https://errata.rockylinux.org/RLSA-2026:2920
     - https://go.dev/cl/736713
     - https://go.dev/issue/77102
     - https://groups.google.com/g/golang-announce/c/Vd2tYVM8eUc
     - https://linux.oracle.com/cve/CVE-2025-61728.html
-    - https://linux.oracle.com/errata/ELSA-2026-2920.html
+    - https://linux.oracle.com/errata/ELSA-2026-3337.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-61728
     - https://pkg.go.dev/vuln/GO-2026-4342
     - https://www.cve.org/CVERecord?id=CVE-2025-61728
@@ -49524,28 +49917,25 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N
         V3Score: 7.4
     References:
-    - https://access.redhat.com/errata/RHSA-2026:2920
+    - https://access.redhat.com/errata/RHSA-2026:3337
     - https://access.redhat.com/security/cve/CVE-2025-68121
     - https://bugzilla.redhat.com/2418462
-    - https://bugzilla.redhat.com/2433242
     - https://bugzilla.redhat.com/2434431
     - https://bugzilla.redhat.com/2434432
     - https://bugzilla.redhat.com/2437111
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2434431
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2418462
     - https://bugzilla.redhat.com/show_bug.cgi?id=2434432
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2437016
     - https://bugzilla.redhat.com/show_bug.cgi?id=2437111
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-61726
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-61728
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-61732
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-61729
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-68121
-    - https://errata.almalinux.org/9/ALSA-2026-2920.html
-    - https://errata.rockylinux.org/RLSA-2026:2709
+    - https://errata.almalinux.org/9/ALSA-2026-3337.html
+    - https://errata.rockylinux.org/RLSA-2026:3040
     - https://go.dev/cl/737700
     - https://go.dev/issue/77217
     - https://groups.google.com/g/golang-announce/c/K09ubi9FQFk
     - https://linux.oracle.com/cve/CVE-2025-68121.html
-    - https://linux.oracle.com/errata/ELSA-2026-3092.html
+    - https://linux.oracle.com/errata/ELSA-2026-3343.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-68121
     - https://pkg.go.dev/vuln/GO-2026-4337
     - https://www.cve.org/CVERecord?id=CVE-2025-68121
@@ -49711,28 +50101,25 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2026:2920
+    - https://access.redhat.com/errata/RHSA-2026:3337
     - https://access.redhat.com/security/cve/CVE-2025-61726
     - https://bugzilla.redhat.com/2418462
-    - https://bugzilla.redhat.com/2433242
     - https://bugzilla.redhat.com/2434431
     - https://bugzilla.redhat.com/2434432
     - https://bugzilla.redhat.com/2437111
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2434431
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2418462
     - https://bugzilla.redhat.com/show_bug.cgi?id=2434432
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2437016
     - https://bugzilla.redhat.com/show_bug.cgi?id=2437111
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-61726
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-61728
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-61732
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-61729
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-68121
-    - https://errata.almalinux.org/9/ALSA-2026-2920.html
-    - https://errata.rockylinux.org/RLSA-2026:2709
+    - https://errata.almalinux.org/9/ALSA-2026-3337.html
+    - https://errata.rockylinux.org/RLSA-2026:3040
     - https://go.dev/cl/736712
     - https://go.dev/issue/77101
     - https://groups.google.com/g/golang-announce/c/Vd2tYVM8eUc
     - https://linux.oracle.com/cve/CVE-2025-61726.html
-    - https://linux.oracle.com/errata/ELSA-2026-3092.html
+    - https://linux.oracle.com/errata/ELSA-2026-3343.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-61726
     - https://pkg.go.dev/vuln/GO-2026-4341
     - https://www.cve.org/CVERecord?id=CVE-2025-61726
@@ -49781,28 +50168,29 @@
         V3Score: 7.5
     References:
     - http://www.openwall.com/lists/oss-security/2026/01/15/4
-    - https://access.redhat.com/errata/RHSA-2026:2920
+    - https://access.redhat.com/errata/RHSA-2026:3337
     - https://access.redhat.com/security/cve/CVE-2025-61728
     - https://bugzilla.redhat.com/2418462
-    - https://bugzilla.redhat.com/2433242
     - https://bugzilla.redhat.com/2434431
     - https://bugzilla.redhat.com/2434432
     - https://bugzilla.redhat.com/2437111
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2418462
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2433242
     - https://bugzilla.redhat.com/show_bug.cgi?id=2434431
     - https://bugzilla.redhat.com/show_bug.cgi?id=2434432
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2437016
     - https://bugzilla.redhat.com/show_bug.cgi?id=2437111
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-61726
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-61728
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-61732
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-61729
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-68121
-    - https://errata.almalinux.org/9/ALSA-2026-2920.html
-    - https://errata.rockylinux.org/RLSA-2026:2709
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-21721
+    - https://errata.almalinux.org/9/ALSA-2026-3337.html
+    - https://errata.rockylinux.org/RLSA-2026:2920
     - https://go.dev/cl/736713
     - https://go.dev/issue/77102
     - https://groups.google.com/g/golang-announce/c/Vd2tYVM8eUc
     - https://linux.oracle.com/cve/CVE-2025-61728.html
-    - https://linux.oracle.com/errata/ELSA-2026-2920.html
+    - https://linux.oracle.com/errata/ELSA-2026-3337.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-61728
     - https://pkg.go.dev/vuln/GO-2026-4342
     - https://www.cve.org/CVERecord?id=CVE-2025-61728
@@ -49849,22 +50237,25 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2026:2920
+    - https://access.redhat.com/errata/RHSA-2026:3337
     - https://access.redhat.com/security/cve/CVE-2025-61729
     - https://bugzilla.redhat.com/2418462
-    - https://bugzilla.redhat.com/2433242
     - https://bugzilla.redhat.com/2434431
     - https://bugzilla.redhat.com/2434432
     - https://bugzilla.redhat.com/2437111
     - https://bugzilla.redhat.com/show_bug.cgi?id=2418462
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2434432
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2437111
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-61726
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-61729
-    - https://errata.almalinux.org/9/ALSA-2026-2920.html
-    - https://errata.rockylinux.org/RLSA-2026:1908
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-68121
+    - https://errata.almalinux.org/9/ALSA-2026-3337.html
+    - https://errata.rockylinux.org/RLSA-2026:3040
     - https://go.dev/cl/725920
     - https://go.dev/issue/76445
     - https://groups.google.com/g/golang-announce/c/8FJoBkPddm4
     - https://linux.oracle.com/cve/CVE-2025-61729.html
-    - https://linux.oracle.com/errata/ELSA-2026-3040.html
+    - https://linux.oracle.com/errata/ELSA-2026-3343.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-61729
     - https://pkg.go.dev/vuln/GO-2025-4155
     - https://www.cve.org/CVERecord?id=CVE-2025-61729
@@ -49978,6 +50369,7 @@
       cbl-mariner: 3
       ghsa: 4
       oracle-oval: 2
+      photon: 4
       redhat: 2
       rocky: 2
     CVSS:
