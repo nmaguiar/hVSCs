@@ -26661,6 +26661,7 @@
     - https://access.redhat.com/errata/RHSA-2026:2659
     - https://access.redhat.com/errata/RHSA-2026:2671
     - https://access.redhat.com/errata/RHSA-2026:2974
+    - https://access.redhat.com/errata/RHSA-2026:3415
     - https://access.redhat.com/security/cve/CVE-2025-13601
     - https://bugzilla.redhat.com/2416741
     - https://bugzilla.redhat.com/show_bug.cgi?id=2416741
@@ -26676,7 +26677,7 @@
     - https://ubuntu.com/security/notices/USN-7942-2
     - https://www.cve.org/CVERecord?id=CVE-2025-13601
     PublishedDate: '2025-11-26T15:15:51.723Z'
-    LastModifiedDate: '2026-02-26T16:23:11.403Z'
+    LastModifiedDate: '2026-03-05T12:16:10.373Z'
   - VulnerabilityID: CVE-2025-14087
     PkgID: libglib2.0-0@2.72.4-0ubuntu2.6
     PkgName: libglib2.0-0
@@ -27077,6 +27078,7 @@
     - https://access.redhat.com/errata/RHSA-2026:2659
     - https://access.redhat.com/errata/RHSA-2026:2671
     - https://access.redhat.com/errata/RHSA-2026:2974
+    - https://access.redhat.com/errata/RHSA-2026:3415
     - https://access.redhat.com/security/cve/CVE-2025-13601
     - https://bugzilla.redhat.com/2416741
     - https://bugzilla.redhat.com/show_bug.cgi?id=2416741
@@ -27092,7 +27094,7 @@
     - https://ubuntu.com/security/notices/USN-7942-2
     - https://www.cve.org/CVERecord?id=CVE-2025-13601
     PublishedDate: '2025-11-26T15:15:51.723Z'
-    LastModifiedDate: '2026-02-26T16:23:11.403Z'
+    LastModifiedDate: '2026-03-05T12:16:10.373Z'
   - VulnerabilityID: CVE-2025-14087
     PkgID: libglib2.0-data@2.72.4-0ubuntu2.6
     PkgName: libglib2.0-data
@@ -27752,6 +27754,7 @@
       azure: 3
       bitnami: 3
       cbl-mariner: 3
+      oracle-oval: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -27767,6 +27770,8 @@
     - https://access.redhat.com/security/cve/CVE-2026-1642
     - https://bugzilla.redhat.com/2436738
     - https://errata.almalinux.org/9/ALSA-2026-3638.html
+    - https://linux.oracle.com/cve/CVE-2026-1642.html
+    - https://linux.oracle.com/errata/ELSA-2026-3638.html
     - https://my.f5.com/manage/s/article/K000159824
     - https://nvd.nist.gov/vuln/detail/CVE-2026-1642
     - https://ubuntu.com/security/notices/USN-8038-1
@@ -27805,6 +27810,7 @@
       azure: 3
       bitnami: 3
       cbl-mariner: 3
+      oracle-oval: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -27820,6 +27826,8 @@
     - https://access.redhat.com/security/cve/CVE-2026-1642
     - https://bugzilla.redhat.com/2436738
     - https://errata.almalinux.org/9/ALSA-2026-3638.html
+    - https://linux.oracle.com/cve/CVE-2026-1642.html
+    - https://linux.oracle.com/errata/ELSA-2026-3638.html
     - https://my.f5.com/manage/s/article/K000159824
     - https://nvd.nist.gov/vuln/detail/CVE-2026-1642
     - https://ubuntu.com/security/notices/USN-8038-1
@@ -27858,6 +27866,7 @@
       azure: 3
       bitnami: 3
       cbl-mariner: 3
+      oracle-oval: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -27873,6 +27882,8 @@
     - https://access.redhat.com/security/cve/CVE-2026-1642
     - https://bugzilla.redhat.com/2436738
     - https://errata.almalinux.org/9/ALSA-2026-3638.html
+    - https://linux.oracle.com/cve/CVE-2026-1642.html
+    - https://linux.oracle.com/errata/ELSA-2026-3638.html
     - https://my.f5.com/manage/s/article/K000159824
     - https://nvd.nist.gov/vuln/detail/CVE-2026-1642
     - https://ubuntu.com/security/notices/USN-8038-1
@@ -27911,6 +27922,7 @@
       azure: 3
       bitnami: 3
       cbl-mariner: 3
+      oracle-oval: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -27926,6 +27938,8 @@
     - https://access.redhat.com/security/cve/CVE-2026-1642
     - https://bugzilla.redhat.com/2436738
     - https://errata.almalinux.org/9/ALSA-2026-3638.html
+    - https://linux.oracle.com/cve/CVE-2026-1642.html
+    - https://linux.oracle.com/errata/ELSA-2026-3638.html
     - https://my.f5.com/manage/s/article/K000159824
     - https://nvd.nist.gov/vuln/detail/CVE-2026-1642
     - https://ubuntu.com/security/notices/USN-8038-1
@@ -27964,6 +27978,7 @@
       azure: 3
       bitnami: 3
       cbl-mariner: 3
+      oracle-oval: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -27979,6 +27994,8 @@
     - https://access.redhat.com/security/cve/CVE-2026-1642
     - https://bugzilla.redhat.com/2436738
     - https://errata.almalinux.org/9/ALSA-2026-3638.html
+    - https://linux.oracle.com/cve/CVE-2026-1642.html
+    - https://linux.oracle.com/errata/ELSA-2026-3638.html
     - https://my.f5.com/manage/s/article/K000159824
     - https://nvd.nist.gov/vuln/detail/CVE-2026-1642
     - https://ubuntu.com/security/notices/USN-8038-1
@@ -28017,6 +28034,7 @@
       azure: 3
       bitnami: 3
       cbl-mariner: 3
+      oracle-oval: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -28032,6 +28050,8 @@
     - https://access.redhat.com/security/cve/CVE-2026-1642
     - https://bugzilla.redhat.com/2436738
     - https://errata.almalinux.org/9/ALSA-2026-3638.html
+    - https://linux.oracle.com/cve/CVE-2026-1642.html
+    - https://linux.oracle.com/errata/ELSA-2026-3638.html
     - https://my.f5.com/manage/s/article/K000159824
     - https://nvd.nist.gov/vuln/detail/CVE-2026-1642
     - https://ubuntu.com/security/notices/USN-8038-1
@@ -33524,6 +33544,7 @@
       azure: 3
       bitnami: 3
       cbl-mariner: 3
+      oracle-oval: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -33539,6 +33560,8 @@
     - https://access.redhat.com/security/cve/CVE-2026-1642
     - https://bugzilla.redhat.com/2436738
     - https://errata.almalinux.org/9/ALSA-2026-3638.html
+    - https://linux.oracle.com/cve/CVE-2026-1642.html
+    - https://linux.oracle.com/errata/ELSA-2026-3638.html
     - https://my.f5.com/manage/s/article/K000159824
     - https://nvd.nist.gov/vuln/detail/CVE-2026-1642
     - https://ubuntu.com/security/notices/USN-8038-1
@@ -33577,6 +33600,7 @@
       azure: 3
       bitnami: 3
       cbl-mariner: 3
+      oracle-oval: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -33592,6 +33616,8 @@
     - https://access.redhat.com/security/cve/CVE-2026-1642
     - https://bugzilla.redhat.com/2436738
     - https://errata.almalinux.org/9/ALSA-2026-3638.html
+    - https://linux.oracle.com/cve/CVE-2026-1642.html
+    - https://linux.oracle.com/errata/ELSA-2026-3638.html
     - https://my.f5.com/manage/s/article/K000159824
     - https://nvd.nist.gov/vuln/detail/CVE-2026-1642
     - https://ubuntu.com/security/notices/USN-8038-1
@@ -33630,6 +33656,7 @@
       azure: 3
       bitnami: 3
       cbl-mariner: 3
+      oracle-oval: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -33645,6 +33672,8 @@
     - https://access.redhat.com/security/cve/CVE-2026-1642
     - https://bugzilla.redhat.com/2436738
     - https://errata.almalinux.org/9/ALSA-2026-3638.html
+    - https://linux.oracle.com/cve/CVE-2026-1642.html
+    - https://linux.oracle.com/errata/ELSA-2026-3638.html
     - https://my.f5.com/manage/s/article/K000159824
     - https://nvd.nist.gov/vuln/detail/CVE-2026-1642
     - https://ubuntu.com/security/notices/USN-8038-1
@@ -38930,7 +38959,7 @@
     VendorSeverity:
       alma: 3
       amazon: 3
-      azure: 2
+      azure: 3
       bitnami: 3
       cbl-mariner: 2
       oracle-oval: 3
@@ -38960,7 +38989,7 @@
     - https://go.dev/issue/77101
     - https://groups.google.com/g/golang-announce/c/Vd2tYVM8eUc
     - https://linux.oracle.com/cve/CVE-2025-61726.html
-    - https://linux.oracle.com/errata/ELSA-2026-3668.html
+    - https://linux.oracle.com/errata/ELSA-2026-3669.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-61726
     - https://pkg.go.dev/vuln/GO-2026-4341
     - https://www.cve.org/CVERecord?id=CVE-2025-61726
@@ -39063,6 +39092,7 @@
     VendorSeverity:
       alma: 3
       amazon: 3
+      azure: 3
       bitnami: 3
       oracle-oval: 3
       photon: 3
@@ -39124,7 +39154,7 @@
     Severity: HIGH
     VendorSeverity:
       amazon: 3
-      azure: 1
+      azure: 2
       bitnami: 2
       cbl-mariner: 1
       photon: 2
@@ -40645,7 +40675,7 @@
     VendorSeverity:
       alma: 3
       amazon: 3
-      azure: 2
+      azure: 3
       bitnami: 3
       cbl-mariner: 2
       oracle-oval: 3
@@ -40675,7 +40705,7 @@
     - https://go.dev/issue/77101
     - https://groups.google.com/g/golang-announce/c/Vd2tYVM8eUc
     - https://linux.oracle.com/cve/CVE-2025-61726.html
-    - https://linux.oracle.com/errata/ELSA-2026-3668.html
+    - https://linux.oracle.com/errata/ELSA-2026-3669.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-61726
     - https://pkg.go.dev/vuln/GO-2026-4341
     - https://www.cve.org/CVERecord?id=CVE-2025-61726
@@ -40778,6 +40808,7 @@
     VendorSeverity:
       alma: 3
       amazon: 3
+      azure: 3
       bitnami: 3
       oracle-oval: 3
       photon: 3
@@ -40839,7 +40870,7 @@
     Severity: HIGH
     VendorSeverity:
       amazon: 3
-      azure: 1
+      azure: 2
       bitnami: 2
       cbl-mariner: 1
       photon: 2
@@ -41717,7 +41748,7 @@
     VendorSeverity:
       alma: 3
       amazon: 3
-      azure: 2
+      azure: 3
       bitnami: 3
       cbl-mariner: 2
       oracle-oval: 3
@@ -41747,7 +41778,7 @@
     - https://go.dev/issue/77101
     - https://groups.google.com/g/golang-announce/c/Vd2tYVM8eUc
     - https://linux.oracle.com/cve/CVE-2025-61726.html
-    - https://linux.oracle.com/errata/ELSA-2026-3668.html
+    - https://linux.oracle.com/errata/ELSA-2026-3669.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-61726
     - https://pkg.go.dev/vuln/GO-2026-4341
     - https://www.cve.org/CVERecord?id=CVE-2025-61726
@@ -41850,6 +41881,7 @@
     VendorSeverity:
       alma: 3
       amazon: 3
+      azure: 3
       bitnami: 3
       oracle-oval: 3
       photon: 3
@@ -41911,7 +41943,7 @@
     Severity: HIGH
     VendorSeverity:
       amazon: 3
-      azure: 1
+      azure: 2
       bitnami: 2
       cbl-mariner: 1
       photon: 2
@@ -44082,6 +44114,57 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-64329
     PublishedDate: '2025-11-07T05:16:08.017Z'
     LastModifiedDate: '2025-12-31T18:34:48.06Z'
+  - VulnerabilityID: CVE-2025-15558
+    VendorIDs:
+    - GHSA-p436-gjf2-799p
+    PkgID: github.com/docker/cli@v28.5.1+incompatible
+    PkgName: github.com/docker/cli
+    PkgIdentifier:
+      PURL: pkg:golang/github.com/docker/cli@v28.5.1%2Bincompatible
+      UID: 694780ffbf3e590b
+    InstalledVersion: v28.5.1+incompatible
+    FixedVersion: 29.2.0
+    Status: fixed
+    Layer:
+      Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f672d99cf12d59721fb5d9
+      DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7277787fa3578e3352a155
+    SeveritySource: ghsa
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-15558
+    DataSource:
+      ID: ghsa
+      Name: GitHub Security Advisory Go
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
+    Fingerprint: sha256:d6fa0c377ae9da3a434ae8f3750f0d4c051ba334f6fee54b77d4591f403e9e8e
+    Title: 'docker/cli: Docker CLI for Windows: Privilege escalation via malicious plugin binaries'
+    Description: "Docker CLI for Windows searches for plugin binaries in C:\\ProgramData\\Docker\\cli-plugins, a directory that does not exist by default. A low-privileged attacker can create this directory and place malicious CLI plugin binaries (docker-compose.exe, docker-buildx.exe, etc.) that are executed when a victim user opens Docker Desktop or invokes Docker CLI plugin features, and allow privilege-escalation if the docker\_CLI is executed as a privileged user.\n\nThis issue affects Docker CLI: through 29.1.5 and Windows binaries acting as a CLI-plugin manager using the  github.com/docker/cli/cli-plugins/manager https://pkg.go.dev/github.com/docker/cli@v29.1.5+incompatible/cli-plugins/manager \_package, such as Docker Compose.\n\nThis issue does not impact non-Windows binaries, and projects not using the plugin-manager code."
+    Severity: HIGH
+    CweIDs:
+    - CWE-427
+    VendorSeverity:
+      ghsa: 3
+      redhat: 3
+    CVSS:
+      ghsa:
+        V40Vector: CVSS:4.0/AV:L/AC:L/AT:N/PR:L/UI:P/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N
+        V40Score: 7
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-15558
+    - https://docs.docker.com/desktop/release-notes
+    - https://docs.docker.com/desktop/release-notes/
+    - https://github.com/docker/cli
+    - https://github.com/docker/cli/commit/13759330b1f7e7cb0d67047ea42c5482548ba7fa
+    - https://github.com/docker/cli/pull/6713
+    - https://github.com/docker/cli/security/advisories/GHSA-p436-gjf2-799p
+    - https://github.com/docker/compose/pull/12300
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-15558
+    - https://www.cve.org/CVERecord?id=CVE-2025-15558
+    - https://www.zerodayinitiative.com/advisories/ZDI-CAN-28304
+    - https://www.zerodayinitiative.com/advisories/ZDI-CAN-28304/
+    PublishedDate: '2026-03-04T17:16:14.763Z'
+    LastModifiedDate: '2026-03-04T18:08:05.73Z'
   - VulnerabilityID: CVE-2026-24051
     VendorIDs:
     - GHSA-9h8m-3fm2-qjrq
@@ -44321,7 +44404,7 @@
     VendorSeverity:
       alma: 3
       amazon: 3
-      azure: 2
+      azure: 3
       bitnami: 3
       cbl-mariner: 2
       oracle-oval: 3
@@ -44351,7 +44434,7 @@
     - https://go.dev/issue/77101
     - https://groups.google.com/g/golang-announce/c/Vd2tYVM8eUc
     - https://linux.oracle.com/cve/CVE-2025-61726.html
-    - https://linux.oracle.com/errata/ELSA-2026-3668.html
+    - https://linux.oracle.com/errata/ELSA-2026-3669.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-61726
     - https://pkg.go.dev/vuln/GO-2026-4341
     - https://www.cve.org/CVERecord?id=CVE-2025-61726
@@ -44454,6 +44537,7 @@
     VendorSeverity:
       alma: 3
       amazon: 3
+      azure: 3
       bitnami: 3
       oracle-oval: 3
       photon: 3
@@ -44515,7 +44599,7 @@
     Severity: HIGH
     VendorSeverity:
       amazon: 3
-      azure: 1
+      azure: 2
       bitnami: 2
       cbl-mariner: 1
       photon: 2
@@ -44761,7 +44845,7 @@
     VendorSeverity:
       alma: 3
       amazon: 3
-      azure: 2
+      azure: 3
       bitnami: 3
       cbl-mariner: 2
       oracle-oval: 3
@@ -44791,7 +44875,7 @@
     - https://go.dev/issue/77101
     - https://groups.google.com/g/golang-announce/c/Vd2tYVM8eUc
     - https://linux.oracle.com/cve/CVE-2025-61726.html
-    - https://linux.oracle.com/errata/ELSA-2026-3668.html
+    - https://linux.oracle.com/errata/ELSA-2026-3669.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-61726
     - https://pkg.go.dev/vuln/GO-2026-4341
     - https://www.cve.org/CVERecord?id=CVE-2025-61726
@@ -44894,6 +44978,7 @@
     VendorSeverity:
       alma: 3
       amazon: 3
+      azure: 3
       bitnami: 3
       oracle-oval: 3
       photon: 3
@@ -44955,7 +45040,7 @@
     Severity: HIGH
     VendorSeverity:
       amazon: 3
-      azure: 1
+      azure: 2
       bitnami: 2
       cbl-mariner: 1
       photon: 2
@@ -47960,7 +48045,7 @@
     VendorSeverity:
       alma: 3
       amazon: 3
-      azure: 2
+      azure: 3
       bitnami: 3
       cbl-mariner: 2
       oracle-oval: 3
@@ -47990,7 +48075,7 @@
     - https://go.dev/issue/77101
     - https://groups.google.com/g/golang-announce/c/Vd2tYVM8eUc
     - https://linux.oracle.com/cve/CVE-2025-61726.html
-    - https://linux.oracle.com/errata/ELSA-2026-3668.html
+    - https://linux.oracle.com/errata/ELSA-2026-3669.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-61726
     - https://pkg.go.dev/vuln/GO-2026-4341
     - https://www.cve.org/CVERecord?id=CVE-2025-61726
@@ -48093,6 +48178,7 @@
     VendorSeverity:
       alma: 3
       amazon: 3
+      azure: 3
       bitnami: 3
       oracle-oval: 3
       photon: 3
@@ -48154,7 +48240,7 @@
     Severity: HIGH
     VendorSeverity:
       amazon: 3
-      azure: 1
+      azure: 2
       bitnami: 2
       cbl-mariner: 1
       photon: 2
@@ -49846,7 +49932,7 @@
     VendorSeverity:
       alma: 3
       amazon: 3
-      azure: 2
+      azure: 3
       bitnami: 3
       cbl-mariner: 2
       oracle-oval: 3
@@ -49876,7 +49962,7 @@
     - https://go.dev/issue/77101
     - https://groups.google.com/g/golang-announce/c/Vd2tYVM8eUc
     - https://linux.oracle.com/cve/CVE-2025-61726.html
-    - https://linux.oracle.com/errata/ELSA-2026-3668.html
+    - https://linux.oracle.com/errata/ELSA-2026-3669.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-61726
     - https://pkg.go.dev/vuln/GO-2026-4341
     - https://www.cve.org/CVERecord?id=CVE-2025-61726
@@ -49979,6 +50065,7 @@
     VendorSeverity:
       alma: 3
       amazon: 3
+      azure: 3
       bitnami: 3
       oracle-oval: 3
       photon: 3
@@ -50040,7 +50127,7 @@
     Severity: HIGH
     VendorSeverity:
       amazon: 3
-      azure: 1
+      azure: 2
       bitnami: 2
       cbl-mariner: 1
       photon: 2
@@ -51666,7 +51753,7 @@
     VendorSeverity:
       alma: 3
       amazon: 3
-      azure: 2
+      azure: 3
       bitnami: 3
       cbl-mariner: 2
       oracle-oval: 3
@@ -51696,7 +51783,7 @@
     - https://go.dev/issue/77101
     - https://groups.google.com/g/golang-announce/c/Vd2tYVM8eUc
     - https://linux.oracle.com/cve/CVE-2025-61726.html
-    - https://linux.oracle.com/errata/ELSA-2026-3668.html
+    - https://linux.oracle.com/errata/ELSA-2026-3669.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-61726
     - https://pkg.go.dev/vuln/GO-2026-4341
     - https://www.cve.org/CVERecord?id=CVE-2025-61726
@@ -51799,6 +51886,7 @@
     VendorSeverity:
       alma: 3
       amazon: 3
+      azure: 3
       bitnami: 3
       oracle-oval: 3
       photon: 3
@@ -51860,7 +51948,7 @@
     Severity: HIGH
     VendorSeverity:
       amazon: 3
-      azure: 1
+      azure: 2
       bitnami: 2
       cbl-mariner: 1
       photon: 2
@@ -53718,7 +53806,7 @@
     VendorSeverity:
       alma: 3
       amazon: 3
-      azure: 2
+      azure: 3
       bitnami: 3
       cbl-mariner: 2
       oracle-oval: 3
@@ -53748,7 +53836,7 @@
     - https://go.dev/issue/77101
     - https://groups.google.com/g/golang-announce/c/Vd2tYVM8eUc
     - https://linux.oracle.com/cve/CVE-2025-61726.html
-    - https://linux.oracle.com/errata/ELSA-2026-3668.html
+    - https://linux.oracle.com/errata/ELSA-2026-3669.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-61726
     - https://pkg.go.dev/vuln/GO-2026-4341
     - https://www.cve.org/CVERecord?id=CVE-2025-61726
@@ -53851,6 +53939,7 @@
     VendorSeverity:
       alma: 3
       amazon: 3
+      azure: 3
       bitnami: 3
       oracle-oval: 3
       photon: 3
@@ -53912,7 +54001,7 @@
     Severity: HIGH
     VendorSeverity:
       amazon: 3
-      azure: 1
+      azure: 2
       bitnami: 2
       cbl-mariner: 1
       photon: 2
@@ -54884,7 +54973,7 @@
     VendorSeverity:
       alma: 3
       amazon: 3
-      azure: 2
+      azure: 3
       bitnami: 3
       cbl-mariner: 2
       oracle-oval: 3
@@ -54914,7 +55003,7 @@
     - https://go.dev/issue/77101
     - https://groups.google.com/g/golang-announce/c/Vd2tYVM8eUc
     - https://linux.oracle.com/cve/CVE-2025-61726.html
-    - https://linux.oracle.com/errata/ELSA-2026-3668.html
+    - https://linux.oracle.com/errata/ELSA-2026-3669.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-61726
     - https://pkg.go.dev/vuln/GO-2026-4341
     - https://www.cve.org/CVERecord?id=CVE-2025-61726
@@ -55017,6 +55106,7 @@
     VendorSeverity:
       alma: 3
       amazon: 3
+      azure: 3
       bitnami: 3
       oracle-oval: 3
       photon: 3
@@ -55078,7 +55168,7 @@
     Severity: HIGH
     VendorSeverity:
       amazon: 3
-      azure: 1
+      azure: 2
       bitnami: 2
       cbl-mariner: 1
       photon: 2
@@ -56964,6 +57054,57 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-64329
     PublishedDate: '2025-11-07T05:16:08.017Z'
     LastModifiedDate: '2025-12-31T18:34:48.06Z'
+  - VulnerabilityID: CVE-2025-15558
+    VendorIDs:
+    - GHSA-p436-gjf2-799p
+    PkgID: github.com/docker/cli@v28.4.0+incompatible
+    PkgName: github.com/docker/cli
+    PkgIdentifier:
+      PURL: pkg:golang/github.com/docker/cli@v28.4.0%2Bincompatible
+      UID: 28d6d853f527ceb4
+    InstalledVersion: v28.4.0+incompatible
+    FixedVersion: 29.2.0
+    Status: fixed
+    Layer:
+      Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f672d99cf12d59721fb5d9
+      DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7277787fa3578e3352a155
+    SeveritySource: ghsa
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-15558
+    DataSource:
+      ID: ghsa
+      Name: GitHub Security Advisory Go
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
+    Fingerprint: sha256:417f51bc2125af10d84fd7bf92d5a264f361f364046d2d68019008b3e9712cc8
+    Title: 'docker/cli: Docker CLI for Windows: Privilege escalation via malicious plugin binaries'
+    Description: "Docker CLI for Windows searches for plugin binaries in C:\\ProgramData\\Docker\\cli-plugins, a directory that does not exist by default. A low-privileged attacker can create this directory and place malicious CLI plugin binaries (docker-compose.exe, docker-buildx.exe, etc.) that are executed when a victim user opens Docker Desktop or invokes Docker CLI plugin features, and allow privilege-escalation if the docker\_CLI is executed as a privileged user.\n\nThis issue affects Docker CLI: through 29.1.5 and Windows binaries acting as a CLI-plugin manager using the  github.com/docker/cli/cli-plugins/manager https://pkg.go.dev/github.com/docker/cli@v29.1.5+incompatible/cli-plugins/manager \_package, such as Docker Compose.\n\nThis issue does not impact non-Windows binaries, and projects not using the plugin-manager code."
+    Severity: HIGH
+    CweIDs:
+    - CWE-427
+    VendorSeverity:
+      ghsa: 3
+      redhat: 3
+    CVSS:
+      ghsa:
+        V40Vector: CVSS:4.0/AV:L/AC:L/AT:N/PR:L/UI:P/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N
+        V40Score: 7
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-15558
+    - https://docs.docker.com/desktop/release-notes
+    - https://docs.docker.com/desktop/release-notes/
+    - https://github.com/docker/cli
+    - https://github.com/docker/cli/commit/13759330b1f7e7cb0d67047ea42c5482548ba7fa
+    - https://github.com/docker/cli/pull/6713
+    - https://github.com/docker/cli/security/advisories/GHSA-p436-gjf2-799p
+    - https://github.com/docker/compose/pull/12300
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-15558
+    - https://www.cve.org/CVERecord?id=CVE-2025-15558
+    - https://www.zerodayinitiative.com/advisories/ZDI-CAN-28304
+    - https://www.zerodayinitiative.com/advisories/ZDI-CAN-28304/
+    PublishedDate: '2026-03-04T17:16:14.763Z'
+    LastModifiedDate: '2026-03-04T18:08:05.73Z'
   - VulnerabilityID: CVE-2026-24051
     VendorIDs:
     - GHSA-9h8m-3fm2-qjrq
@@ -57262,7 +57403,7 @@
     VendorSeverity:
       alma: 3
       amazon: 3
-      azure: 2
+      azure: 3
       bitnami: 3
       cbl-mariner: 2
       oracle-oval: 3
@@ -57292,7 +57433,7 @@
     - https://go.dev/issue/77101
     - https://groups.google.com/g/golang-announce/c/Vd2tYVM8eUc
     - https://linux.oracle.com/cve/CVE-2025-61726.html
-    - https://linux.oracle.com/errata/ELSA-2026-3668.html
+    - https://linux.oracle.com/errata/ELSA-2026-3669.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-61726
     - https://pkg.go.dev/vuln/GO-2026-4341
     - https://www.cve.org/CVERecord?id=CVE-2025-61726
@@ -57395,6 +57536,7 @@
     VendorSeverity:
       alma: 3
       amazon: 3
+      azure: 3
       bitnami: 3
       oracle-oval: 3
       photon: 3
@@ -57456,7 +57598,7 @@
     Severity: HIGH
     VendorSeverity:
       amazon: 3
-      azure: 1
+      azure: 2
       bitnami: 2
       cbl-mariner: 1
       photon: 2
@@ -60057,6 +60199,57 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-64329
     PublishedDate: '2025-11-07T05:16:08.017Z'
     LastModifiedDate: '2025-12-31T18:34:48.06Z'
+  - VulnerabilityID: CVE-2025-15558
+    VendorIDs:
+    - GHSA-p436-gjf2-799p
+    PkgID: github.com/docker/cli@v28.5.1+incompatible
+    PkgName: github.com/docker/cli
+    PkgIdentifier:
+      PURL: pkg:golang/github.com/docker/cli@v28.5.1%2Bincompatible
+      UID: 9ff4988a95689e42
+    InstalledVersion: v28.5.1+incompatible
+    FixedVersion: 29.2.0
+    Status: fixed
+    Layer:
+      Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f672d99cf12d59721fb5d9
+      DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7277787fa3578e3352a155
+    SeveritySource: ghsa
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-15558
+    DataSource:
+      ID: ghsa
+      Name: GitHub Security Advisory Go
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
+    Fingerprint: sha256:c5c07c98256838d7c298cf4ad24c4d22c78117a9878985d38ddbbcdd0afaaa2d
+    Title: 'docker/cli: Docker CLI for Windows: Privilege escalation via malicious plugin binaries'
+    Description: "Docker CLI for Windows searches for plugin binaries in C:\\ProgramData\\Docker\\cli-plugins, a directory that does not exist by default. A low-privileged attacker can create this directory and place malicious CLI plugin binaries (docker-compose.exe, docker-buildx.exe, etc.) that are executed when a victim user opens Docker Desktop or invokes Docker CLI plugin features, and allow privilege-escalation if the docker\_CLI is executed as a privileged user.\n\nThis issue affects Docker CLI: through 29.1.5 and Windows binaries acting as a CLI-plugin manager using the  github.com/docker/cli/cli-plugins/manager https://pkg.go.dev/github.com/docker/cli@v29.1.5+incompatible/cli-plugins/manager \_package, such as Docker Compose.\n\nThis issue does not impact non-Windows binaries, and projects not using the plugin-manager code."
+    Severity: HIGH
+    CweIDs:
+    - CWE-427
+    VendorSeverity:
+      ghsa: 3
+      redhat: 3
+    CVSS:
+      ghsa:
+        V40Vector: CVSS:4.0/AV:L/AC:L/AT:N/PR:L/UI:P/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N
+        V40Score: 7
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-15558
+    - https://docs.docker.com/desktop/release-notes
+    - https://docs.docker.com/desktop/release-notes/
+    - https://github.com/docker/cli
+    - https://github.com/docker/cli/commit/13759330b1f7e7cb0d67047ea42c5482548ba7fa
+    - https://github.com/docker/cli/pull/6713
+    - https://github.com/docker/cli/security/advisories/GHSA-p436-gjf2-799p
+    - https://github.com/docker/compose/pull/12300
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-15558
+    - https://www.cve.org/CVERecord?id=CVE-2025-15558
+    - https://www.zerodayinitiative.com/advisories/ZDI-CAN-28304
+    - https://www.zerodayinitiative.com/advisories/ZDI-CAN-28304/
+    PublishedDate: '2026-03-04T17:16:14.763Z'
+    LastModifiedDate: '2026-03-04T18:08:05.73Z'
   - VulnerabilityID: CVE-2026-24051
     VendorIDs:
     - GHSA-9h8m-3fm2-qjrq
@@ -60296,7 +60489,7 @@
     VendorSeverity:
       alma: 3
       amazon: 3
-      azure: 2
+      azure: 3
       bitnami: 3
       cbl-mariner: 2
       oracle-oval: 3
@@ -60326,7 +60519,7 @@
     - https://go.dev/issue/77101
     - https://groups.google.com/g/golang-announce/c/Vd2tYVM8eUc
     - https://linux.oracle.com/cve/CVE-2025-61726.html
-    - https://linux.oracle.com/errata/ELSA-2026-3668.html
+    - https://linux.oracle.com/errata/ELSA-2026-3669.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-61726
     - https://pkg.go.dev/vuln/GO-2026-4341
     - https://www.cve.org/CVERecord?id=CVE-2025-61726
@@ -60429,6 +60622,7 @@
     VendorSeverity:
       alma: 3
       amazon: 3
+      azure: 3
       bitnami: 3
       oracle-oval: 3
       photon: 3
@@ -60490,7 +60684,7 @@
     Severity: HIGH
     VendorSeverity:
       amazon: 3
-      azure: 1
+      azure: 2
       bitnami: 2
       cbl-mariner: 1
       photon: 2
@@ -61825,6 +62019,57 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-64329
     PublishedDate: '2025-11-07T05:16:08.017Z'
     LastModifiedDate: '2025-12-31T18:34:48.06Z'
+  - VulnerabilityID: CVE-2025-15558
+    VendorIDs:
+    - GHSA-p436-gjf2-799p
+    PkgID: github.com/docker/cli@v28.3.0+incompatible
+    PkgName: github.com/docker/cli
+    PkgIdentifier:
+      PURL: pkg:golang/github.com/docker/cli@v28.3.0%2Bincompatible
+      UID: ce9849c0ac19318f
+    InstalledVersion: v28.3.0+incompatible
+    FixedVersion: 29.2.0
+    Status: fixed
+    Layer:
+      Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f672d99cf12d59721fb5d9
+      DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7277787fa3578e3352a155
+    SeveritySource: ghsa
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-15558
+    DataSource:
+      ID: ghsa
+      Name: GitHub Security Advisory Go
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
+    Fingerprint: sha256:c9e0addb24447aef8b2359e51f0a577ad86b25003dbe8fd4fa53f486b0cf48cb
+    Title: 'docker/cli: Docker CLI for Windows: Privilege escalation via malicious plugin binaries'
+    Description: "Docker CLI for Windows searches for plugin binaries in C:\\ProgramData\\Docker\\cli-plugins, a directory that does not exist by default. A low-privileged attacker can create this directory and place malicious CLI plugin binaries (docker-compose.exe, docker-buildx.exe, etc.) that are executed when a victim user opens Docker Desktop or invokes Docker CLI plugin features, and allow privilege-escalation if the docker\_CLI is executed as a privileged user.\n\nThis issue affects Docker CLI: through 29.1.5 and Windows binaries acting as a CLI-plugin manager using the  github.com/docker/cli/cli-plugins/manager https://pkg.go.dev/github.com/docker/cli@v29.1.5+incompatible/cli-plugins/manager \_package, such as Docker Compose.\n\nThis issue does not impact non-Windows binaries, and projects not using the plugin-manager code."
+    Severity: HIGH
+    CweIDs:
+    - CWE-427
+    VendorSeverity:
+      ghsa: 3
+      redhat: 3
+    CVSS:
+      ghsa:
+        V40Vector: CVSS:4.0/AV:L/AC:L/AT:N/PR:L/UI:P/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N
+        V40Score: 7
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-15558
+    - https://docs.docker.com/desktop/release-notes
+    - https://docs.docker.com/desktop/release-notes/
+    - https://github.com/docker/cli
+    - https://github.com/docker/cli/commit/13759330b1f7e7cb0d67047ea42c5482548ba7fa
+    - https://github.com/docker/cli/pull/6713
+    - https://github.com/docker/cli/security/advisories/GHSA-p436-gjf2-799p
+    - https://github.com/docker/compose/pull/12300
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-15558
+    - https://www.cve.org/CVERecord?id=CVE-2025-15558
+    - https://www.zerodayinitiative.com/advisories/ZDI-CAN-28304
+    - https://www.zerodayinitiative.com/advisories/ZDI-CAN-28304/
+    PublishedDate: '2026-03-04T17:16:14.763Z'
+    LastModifiedDate: '2026-03-04T18:08:05.73Z'
   - VulnerabilityID: CVE-2026-24051
     VendorIDs:
     - GHSA-9h8m-3fm2-qjrq
@@ -62064,7 +62309,7 @@
     VendorSeverity:
       alma: 3
       amazon: 3
-      azure: 2
+      azure: 3
       bitnami: 3
       cbl-mariner: 2
       oracle-oval: 3
@@ -62094,7 +62339,7 @@
     - https://go.dev/issue/77101
     - https://groups.google.com/g/golang-announce/c/Vd2tYVM8eUc
     - https://linux.oracle.com/cve/CVE-2025-61726.html
-    - https://linux.oracle.com/errata/ELSA-2026-3668.html
+    - https://linux.oracle.com/errata/ELSA-2026-3669.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-61726
     - https://pkg.go.dev/vuln/GO-2026-4341
     - https://www.cve.org/CVERecord?id=CVE-2025-61726
@@ -62197,6 +62442,7 @@
     VendorSeverity:
       alma: 3
       amazon: 3
+      azure: 3
       bitnami: 3
       oracle-oval: 3
       photon: 3
@@ -62258,7 +62504,7 @@
     Severity: HIGH
     VendorSeverity:
       amazon: 3
-      azure: 1
+      azure: 2
       bitnami: 2
       cbl-mariner: 1
       photon: 2
@@ -63709,6 +63955,57 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-64329
     PublishedDate: '2025-11-07T05:16:08.017Z'
     LastModifiedDate: '2025-12-31T18:34:48.06Z'
+  - VulnerabilityID: CVE-2025-15558
+    VendorIDs:
+    - GHSA-p436-gjf2-799p
+    PkgID: github.com/docker/cli@v27.0.3+incompatible
+    PkgName: github.com/docker/cli
+    PkgIdentifier:
+      PURL: pkg:golang/github.com/docker/cli@v27.0.3%2Bincompatible
+      UID: d6622f997413662c
+    InstalledVersion: v27.0.3+incompatible
+    FixedVersion: 29.2.0
+    Status: fixed
+    Layer:
+      Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f672d99cf12d59721fb5d9
+      DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7277787fa3578e3352a155
+    SeveritySource: ghsa
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-15558
+    DataSource:
+      ID: ghsa
+      Name: GitHub Security Advisory Go
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
+    Fingerprint: sha256:ccaad6e0932cceddd90b4056698c371ff606b00a3b08a9a796c5cbe20d3e28ed
+    Title: 'docker/cli: Docker CLI for Windows: Privilege escalation via malicious plugin binaries'
+    Description: "Docker CLI for Windows searches for plugin binaries in C:\\ProgramData\\Docker\\cli-plugins, a directory that does not exist by default. A low-privileged attacker can create this directory and place malicious CLI plugin binaries (docker-compose.exe, docker-buildx.exe, etc.) that are executed when a victim user opens Docker Desktop or invokes Docker CLI plugin features, and allow privilege-escalation if the docker\_CLI is executed as a privileged user.\n\nThis issue affects Docker CLI: through 29.1.5 and Windows binaries acting as a CLI-plugin manager using the  github.com/docker/cli/cli-plugins/manager https://pkg.go.dev/github.com/docker/cli@v29.1.5+incompatible/cli-plugins/manager \_package, such as Docker Compose.\n\nThis issue does not impact non-Windows binaries, and projects not using the plugin-manager code."
+    Severity: HIGH
+    CweIDs:
+    - CWE-427
+    VendorSeverity:
+      ghsa: 3
+      redhat: 3
+    CVSS:
+      ghsa:
+        V40Vector: CVSS:4.0/AV:L/AC:L/AT:N/PR:L/UI:P/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N
+        V40Score: 7
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-15558
+    - https://docs.docker.com/desktop/release-notes
+    - https://docs.docker.com/desktop/release-notes/
+    - https://github.com/docker/cli
+    - https://github.com/docker/cli/commit/13759330b1f7e7cb0d67047ea42c5482548ba7fa
+    - https://github.com/docker/cli/pull/6713
+    - https://github.com/docker/cli/security/advisories/GHSA-p436-gjf2-799p
+    - https://github.com/docker/compose/pull/12300
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-15558
+    - https://www.cve.org/CVERecord?id=CVE-2025-15558
+    - https://www.zerodayinitiative.com/advisories/ZDI-CAN-28304
+    - https://www.zerodayinitiative.com/advisories/ZDI-CAN-28304/
+    PublishedDate: '2026-03-04T17:16:14.763Z'
+    LastModifiedDate: '2026-03-04T18:08:05.73Z'
   - VulnerabilityID: CVE-2024-41110
     VendorIDs:
     - GHSA-v23v-6jw2-98fq
@@ -64520,7 +64817,7 @@
     VendorSeverity:
       alma: 3
       amazon: 3
-      azure: 2
+      azure: 3
       bitnami: 3
       cbl-mariner: 2
       oracle-oval: 3
@@ -64550,7 +64847,7 @@
     - https://go.dev/issue/77101
     - https://groups.google.com/g/golang-announce/c/Vd2tYVM8eUc
     - https://linux.oracle.com/cve/CVE-2025-61726.html
-    - https://linux.oracle.com/errata/ELSA-2026-3668.html
+    - https://linux.oracle.com/errata/ELSA-2026-3669.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-61726
     - https://pkg.go.dev/vuln/GO-2026-4341
     - https://www.cve.org/CVERecord?id=CVE-2025-61726
@@ -64653,6 +64950,7 @@
     VendorSeverity:
       alma: 3
       amazon: 3
+      azure: 3
       bitnami: 3
       oracle-oval: 3
       photon: 3
@@ -64714,7 +65012,7 @@
     Severity: HIGH
     VendorSeverity:
       amazon: 3
-      azure: 1
+      azure: 2
       bitnami: 2
       cbl-mariner: 1
       photon: 2
