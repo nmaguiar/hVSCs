@@ -37561,7 +37561,7 @@
     VendorSeverity:
       alma: 3
       amazon: 3
-      azure: 2
+      azure: 3
       bitnami: 3
       cbl-mariner: 2
       oracle-oval: 3
@@ -37591,7 +37591,7 @@
     - https://go.dev/issue/77101
     - https://groups.google.com/g/golang-announce/c/Vd2tYVM8eUc
     - https://linux.oracle.com/cve/CVE-2025-61726.html
-    - https://linux.oracle.com/errata/ELSA-2026-3668.html
+    - https://linux.oracle.com/errata/ELSA-2026-3669.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-61726
     - https://pkg.go.dev/vuln/GO-2026-4341
     - https://www.cve.org/CVERecord?id=CVE-2025-61726
@@ -37694,6 +37694,7 @@
     VendorSeverity:
       alma: 3
       amazon: 3
+      azure: 3
       bitnami: 3
       oracle-oval: 3
       photon: 3
@@ -37755,7 +37756,7 @@
     Severity: HIGH
     VendorSeverity:
       amazon: 3
-      azure: 1
+      azure: 2
       bitnami: 2
       cbl-mariner: 1
       photon: 2
@@ -41043,6 +41044,57 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-1229
     PublishedDate: '2026-02-24T08:16:28.407Z'
     LastModifiedDate: '2026-03-03T00:29:54.16Z'
+  - VulnerabilityID: CVE-2025-15558
+    VendorIDs:
+    - GHSA-p436-gjf2-799p
+    PkgID: github.com/docker/cli@v29.1.5+incompatible
+    PkgName: github.com/docker/cli
+    PkgIdentifier:
+      PURL: pkg:golang/github.com/docker/cli@v29.1.5%2Bincompatible
+      UID: e7a72bef99c6400f
+    InstalledVersion: v29.1.5+incompatible
+    FixedVersion: 29.2.0
+    Status: fixed
+    Layer:
+      Digest: sha256:64847e52c44081e303ef5b503e19b6e574ab3812144c48c7e48a0d966b67356a
+      DiffID: sha256:542c6413a265199c869b93c5a89a143dccca4a6f252165884cbcaeb08546390c
+    SeveritySource: ghsa
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-15558
+    DataSource:
+      ID: ghsa
+      Name: GitHub Security Advisory Go
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
+    Fingerprint: sha256:22bb465169849ba6b910d3bfba7e573a50c4ade2ccdbaba8056b0648837874c2
+    Title: 'docker/cli: Docker CLI for Windows: Privilege escalation via malicious plugin binaries'
+    Description: "Docker CLI for Windows searches for plugin binaries in C:\\ProgramData\\Docker\\cli-plugins, a directory that does not exist by default. A low-privileged attacker can create this directory and place malicious CLI plugin binaries (docker-compose.exe, docker-buildx.exe, etc.) that are executed when a victim user opens Docker Desktop or invokes Docker CLI plugin features, and allow privilege-escalation if the docker\_CLI is executed as a privileged user.\n\nThis issue affects Docker CLI: through 29.1.5 and Windows binaries acting as a CLI-plugin manager using the  github.com/docker/cli/cli-plugins/manager https://pkg.go.dev/github.com/docker/cli@v29.1.5+incompatible/cli-plugins/manager \_package, such as Docker Compose.\n\nThis issue does not impact non-Windows binaries, and projects not using the plugin-manager code."
+    Severity: HIGH
+    CweIDs:
+    - CWE-427
+    VendorSeverity:
+      ghsa: 3
+      redhat: 3
+    CVSS:
+      ghsa:
+        V40Vector: CVSS:4.0/AV:L/AC:L/AT:N/PR:L/UI:P/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N
+        V40Score: 7
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-15558
+    - https://docs.docker.com/desktop/release-notes
+    - https://docs.docker.com/desktop/release-notes/
+    - https://github.com/docker/cli
+    - https://github.com/docker/cli/commit/13759330b1f7e7cb0d67047ea42c5482548ba7fa
+    - https://github.com/docker/cli/pull/6713
+    - https://github.com/docker/cli/security/advisories/GHSA-p436-gjf2-799p
+    - https://github.com/docker/compose/pull/12300
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-15558
+    - https://www.cve.org/CVERecord?id=CVE-2025-15558
+    - https://www.zerodayinitiative.com/advisories/ZDI-CAN-28304
+    - https://www.zerodayinitiative.com/advisories/ZDI-CAN-28304/
+    PublishedDate: '2026-03-04T17:16:14.763Z'
+    LastModifiedDate: '2026-03-04T18:08:05.73Z'
   - VulnerabilityID: CVE-2026-23831
     VendorIDs:
     - GHSA-273p-m2cw-6833
@@ -45472,6 +45524,57 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-64329
     PublishedDate: '2025-11-07T05:16:08.017Z'
     LastModifiedDate: '2025-12-31T18:34:48.06Z'
+  - VulnerabilityID: CVE-2025-15558
+    VendorIDs:
+    - GHSA-p436-gjf2-799p
+    PkgID: github.com/docker/cli@v27.0.3+incompatible
+    PkgName: github.com/docker/cli
+    PkgIdentifier:
+      PURL: pkg:golang/github.com/docker/cli@v27.0.3%2Bincompatible
+      UID: d6622f997413662c
+    InstalledVersion: v27.0.3+incompatible
+    FixedVersion: 29.2.0
+    Status: fixed
+    Layer:
+      Digest: sha256:64847e52c44081e303ef5b503e19b6e574ab3812144c48c7e48a0d966b67356a
+      DiffID: sha256:542c6413a265199c869b93c5a89a143dccca4a6f252165884cbcaeb08546390c
+    SeveritySource: ghsa
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-15558
+    DataSource:
+      ID: ghsa
+      Name: GitHub Security Advisory Go
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
+    Fingerprint: sha256:1f755e51443ef24b1e6945873b69ae1c5cd94599cfb217291f5098d0a96370e2
+    Title: 'docker/cli: Docker CLI for Windows: Privilege escalation via malicious plugin binaries'
+    Description: "Docker CLI for Windows searches for plugin binaries in C:\\ProgramData\\Docker\\cli-plugins, a directory that does not exist by default. A low-privileged attacker can create this directory and place malicious CLI plugin binaries (docker-compose.exe, docker-buildx.exe, etc.) that are executed when a victim user opens Docker Desktop or invokes Docker CLI plugin features, and allow privilege-escalation if the docker\_CLI is executed as a privileged user.\n\nThis issue affects Docker CLI: through 29.1.5 and Windows binaries acting as a CLI-plugin manager using the  github.com/docker/cli/cli-plugins/manager https://pkg.go.dev/github.com/docker/cli@v29.1.5+incompatible/cli-plugins/manager \_package, such as Docker Compose.\n\nThis issue does not impact non-Windows binaries, and projects not using the plugin-manager code."
+    Severity: HIGH
+    CweIDs:
+    - CWE-427
+    VendorSeverity:
+      ghsa: 3
+      redhat: 3
+    CVSS:
+      ghsa:
+        V40Vector: CVSS:4.0/AV:L/AC:L/AT:N/PR:L/UI:P/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N
+        V40Score: 7
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-15558
+    - https://docs.docker.com/desktop/release-notes
+    - https://docs.docker.com/desktop/release-notes/
+    - https://github.com/docker/cli
+    - https://github.com/docker/cli/commit/13759330b1f7e7cb0d67047ea42c5482548ba7fa
+    - https://github.com/docker/cli/pull/6713
+    - https://github.com/docker/cli/security/advisories/GHSA-p436-gjf2-799p
+    - https://github.com/docker/compose/pull/12300
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-15558
+    - https://www.cve.org/CVERecord?id=CVE-2025-15558
+    - https://www.zerodayinitiative.com/advisories/ZDI-CAN-28304
+    - https://www.zerodayinitiative.com/advisories/ZDI-CAN-28304/
+    PublishedDate: '2026-03-04T17:16:14.763Z'
+    LastModifiedDate: '2026-03-04T18:08:05.73Z'
   - VulnerabilityID: CVE-2024-41110
     VendorIDs:
     - GHSA-v23v-6jw2-98fq
@@ -46283,7 +46386,7 @@
     VendorSeverity:
       alma: 3
       amazon: 3
-      azure: 2
+      azure: 3
       bitnami: 3
       cbl-mariner: 2
       oracle-oval: 3
@@ -46313,7 +46416,7 @@
     - https://go.dev/issue/77101
     - https://groups.google.com/g/golang-announce/c/Vd2tYVM8eUc
     - https://linux.oracle.com/cve/CVE-2025-61726.html
-    - https://linux.oracle.com/errata/ELSA-2026-3668.html
+    - https://linux.oracle.com/errata/ELSA-2026-3669.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-61726
     - https://pkg.go.dev/vuln/GO-2026-4341
     - https://www.cve.org/CVERecord?id=CVE-2025-61726
@@ -46416,6 +46519,7 @@
     VendorSeverity:
       alma: 3
       amazon: 3
+      azure: 3
       bitnami: 3
       oracle-oval: 3
       photon: 3
@@ -46477,7 +46581,7 @@
     Severity: HIGH
     VendorSeverity:
       amazon: 3
-      azure: 1
+      azure: 2
       bitnami: 2
       cbl-mariner: 1
       photon: 2
