@@ -23120,6 +23120,7 @@
     CweIDs:
     - CWE-305
     VendorSeverity:
+      photon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -23132,6 +23133,7 @@
     - https://curl.se/docs/CVE-2026-1965.json
     - https://nvd.nist.gov/vuln/detail/CVE-2026-1965
     - https://ubuntu.com/security/notices/USN-8084-1
+    - https://ubuntu.com/security/notices/USN-8099-1
     - https://www.cve.org/CVERecord?id=CVE-2026-1965
     PublishedDate: '2026-03-11T11:15:59.177Z'
     LastModifiedDate: '2026-03-12T14:11:19.07Z'
@@ -23167,6 +23169,7 @@
     CweIDs:
     - CWE-522
     VendorSeverity:
+      photon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -23181,6 +23184,7 @@
     - https://hackerone.com/reports/3583983
     - https://nvd.nist.gov/vuln/detail/CVE-2026-3783
     - https://ubuntu.com/security/notices/USN-8084-1
+    - https://ubuntu.com/security/notices/USN-8099-1
     - https://www.cve.org/CVERecord?id=CVE-2026-3783
     PublishedDate: '2026-03-11T11:16:00.08Z'
     LastModifiedDate: '2026-03-12T14:10:37.3Z'
@@ -23382,6 +23386,7 @@
     CweIDs:
     - CWE-305
     VendorSeverity:
+      photon: 2
       redhat: 2
       ubuntu: 1
     CVSS:
@@ -23396,6 +23401,7 @@
     - https://hackerone.com/reports/3584903
     - https://nvd.nist.gov/vuln/detail/CVE-2026-3784
     - https://ubuntu.com/security/notices/USN-8084-1
+    - https://ubuntu.com/security/notices/USN-8099-1
     - https://www.cve.org/CVERecord?id=CVE-2026-3784
     PublishedDate: '2026-03-11T11:16:00.437Z'
     LastModifiedDate: '2026-03-12T14:09:50.47Z'
@@ -26042,6 +26048,7 @@
     CweIDs:
     - CWE-305
     VendorSeverity:
+      photon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -26054,6 +26061,7 @@
     - https://curl.se/docs/CVE-2026-1965.json
     - https://nvd.nist.gov/vuln/detail/CVE-2026-1965
     - https://ubuntu.com/security/notices/USN-8084-1
+    - https://ubuntu.com/security/notices/USN-8099-1
     - https://www.cve.org/CVERecord?id=CVE-2026-1965
     PublishedDate: '2026-03-11T11:15:59.177Z'
     LastModifiedDate: '2026-03-12T14:11:19.07Z'
@@ -26089,6 +26097,7 @@
     CweIDs:
     - CWE-522
     VendorSeverity:
+      photon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -26103,6 +26112,7 @@
     - https://hackerone.com/reports/3583983
     - https://nvd.nist.gov/vuln/detail/CVE-2026-3783
     - https://ubuntu.com/security/notices/USN-8084-1
+    - https://ubuntu.com/security/notices/USN-8099-1
     - https://www.cve.org/CVERecord?id=CVE-2026-3783
     PublishedDate: '2026-03-11T11:16:00.08Z'
     LastModifiedDate: '2026-03-12T14:10:37.3Z'
@@ -26304,6 +26314,7 @@
     CweIDs:
     - CWE-305
     VendorSeverity:
+      photon: 2
       redhat: 2
       ubuntu: 1
     CVSS:
@@ -26318,6 +26329,7 @@
     - https://hackerone.com/reports/3584903
     - https://nvd.nist.gov/vuln/detail/CVE-2026-3784
     - https://ubuntu.com/security/notices/USN-8084-1
+    - https://ubuntu.com/security/notices/USN-8099-1
     - https://www.cve.org/CVERecord?id=CVE-2026-3784
     PublishedDate: '2026-03-11T11:16:00.437Z'
     LastModifiedDate: '2026-03-12T14:09:50.47Z'
@@ -26425,6 +26437,7 @@
     CweIDs:
     - CWE-305
     VendorSeverity:
+      photon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -26437,6 +26450,7 @@
     - https://curl.se/docs/CVE-2026-1965.json
     - https://nvd.nist.gov/vuln/detail/CVE-2026-1965
     - https://ubuntu.com/security/notices/USN-8084-1
+    - https://ubuntu.com/security/notices/USN-8099-1
     - https://www.cve.org/CVERecord?id=CVE-2026-1965
     PublishedDate: '2026-03-11T11:15:59.177Z'
     LastModifiedDate: '2026-03-12T14:11:19.07Z'
@@ -26472,6 +26486,7 @@
     CweIDs:
     - CWE-522
     VendorSeverity:
+      photon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -26486,6 +26501,7 @@
     - https://hackerone.com/reports/3583983
     - https://nvd.nist.gov/vuln/detail/CVE-2026-3783
     - https://ubuntu.com/security/notices/USN-8084-1
+    - https://ubuntu.com/security/notices/USN-8099-1
     - https://www.cve.org/CVERecord?id=CVE-2026-3783
     PublishedDate: '2026-03-11T11:16:00.08Z'
     LastModifiedDate: '2026-03-12T14:10:37.3Z'
@@ -26687,6 +26703,7 @@
     CweIDs:
     - CWE-305
     VendorSeverity:
+      photon: 2
       redhat: 2
       ubuntu: 1
     CVSS:
@@ -26701,6 +26718,7 @@
     - https://hackerone.com/reports/3584903
     - https://nvd.nist.gov/vuln/detail/CVE-2026-3784
     - https://ubuntu.com/security/notices/USN-8084-1
+    - https://ubuntu.com/security/notices/USN-8099-1
     - https://www.cve.org/CVERecord?id=CVE-2026-3784
     PublishedDate: '2026-03-11T11:16:00.437Z'
     LastModifiedDate: '2026-03-12T14:09:50.47Z'
@@ -27980,6 +27998,7 @@
     References:
     - https://access.redhat.com/errata/RHSA-2026:3477
     - https://access.redhat.com/errata/RHSA-2026:4188
+    - https://access.redhat.com/errata/RHSA-2026:4655
     - https://access.redhat.com/security/cve/CVE-2025-14831
     - https://bugzilla.redhat.com/2392528
     - https://bugzilla.redhat.com/2423177
@@ -27996,7 +28015,7 @@
     - https://ubuntu.com/security/notices/USN-8043-1
     - https://www.cve.org/CVERecord?id=CVE-2025-14831
     PublishedDate: '2026-02-09T15:16:09.937Z'
-    LastModifiedDate: '2026-03-12T18:16:21.56Z'
+    LastModifiedDate: '2026-03-16T20:16:14.293Z'
   - VulnerabilityID: CVE-2025-9820
     PkgID: libgnutls30@3.7.3-4ubuntu1.7
     PkgName: libgnutls30
@@ -28037,6 +28056,7 @@
     - http://www.openwall.com/lists/oss-security/2025/11/20/2
     - https://access.redhat.com/errata/RHSA-2026:3477
     - https://access.redhat.com/errata/RHSA-2026:4188
+    - https://access.redhat.com/errata/RHSA-2026:4655
     - https://access.redhat.com/security/cve/CVE-2025-9820
     - https://bugzilla.redhat.com/2392528
     - https://bugzilla.redhat.com/2423177
@@ -28055,7 +28075,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-9820
     - https://www.gnutls.org/security-new.html#GNUTLS-SA-2025-11-18
     PublishedDate: '2026-01-26T20:16:09.37Z'
-    LastModifiedDate: '2026-03-11T10:16:12.573Z'
+    LastModifiedDate: '2026-03-16T20:16:17.407Z'
   - VulnerabilityID: CVE-2025-5222
     PkgID: libicu70@70.1-2
     PkgName: libicu70
@@ -29896,131 +29916,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-15282
     PublishedDate: '2026-01-20T22:15:50.883Z'
     LastModifiedDate: '2026-01-26T15:16:06.62Z'
-  - VulnerabilityID: CVE-2025-15366
-    PkgID: libpython3.10@3.10.12-1~22.04.11
-    PkgName: libpython3.10
-    PkgIdentifier:
-      PURL: pkg:deb/ubuntu/libpython3.10@3.10.12-1~22.04.11?arch=amd64&distro=ubuntu-22.04
-      UID: bae7c37f6ef93a36
-    InstalledVersion: 3.10.12-1~22.04.11
-    FixedVersion: 3.10.12-1~22.04.14
-    Status: fixed
-    Layer:
-      Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f672d99cf12d59721fb5d9
-      DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7277787fa3578e3352a155
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-15366
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Fingerprint: sha256:383710dab2fa45cca923eb845b3be0298d03caed79b56ef3e4770f65c2291ba6
-    Title: 'cpython: IMAP command injection in user-controlled commands'
-    Description: The imaplib module, when passed a user-controlled command, can have additional commands injected using newlines. Mitigation rejects commands containing control characters.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-77
-    VendorSeverity:
-      alma: 2
-      oracle-oval: 2
-      redhat: 2
-      rocky: 2
-      ubuntu: 2
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:H/A:N
-        V3Score: 7.1
-    References:
-    - https://access.redhat.com/errata/RHSA-2026:4216
-    - https://access.redhat.com/security/cve/CVE-2025-15366
-    - https://bugzilla.redhat.com/2431368
-    - https://bugzilla.redhat.com/2431373
-    - https://bugzilla.redhat.com/2432437
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2431367
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2431368
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2431373
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2432437
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-15366
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-15367
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-0865
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-1299
-    - https://errata.almalinux.org/9/ALSA-2026-4216.html
-    - https://errata.rockylinux.org/RLSA-2026:4168
-    - https://github.com/python/cpython/commit/6262704b134db2a4ba12e85ecfbd968534f28b45
-    - https://github.com/python/cpython/issues/143921
-    - https://github.com/python/cpython/pull/143922
-    - https://linux.oracle.com/cve/CVE-2025-15366.html
-    - https://linux.oracle.com/errata/ELSA-2026-4473.html
-    - https://mail.python.org/archives/list/security-announce@python.org/thread/DD7C7JZJYTBXMDOWKCEIEBJLBRU64OMR/
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-15366
-    - https://ubuntu.com/security/notices/USN-8018-1
-    - https://www.cve.org/CVERecord?id=CVE-2025-15366
-    PublishedDate: '2026-01-20T22:15:51.023Z'
-    LastModifiedDate: '2026-01-26T15:05:23.427Z'
-  - VulnerabilityID: CVE-2025-15367
-    PkgID: libpython3.10@3.10.12-1~22.04.11
-    PkgName: libpython3.10
-    PkgIdentifier:
-      PURL: pkg:deb/ubuntu/libpython3.10@3.10.12-1~22.04.11?arch=amd64&distro=ubuntu-22.04
-      UID: bae7c37f6ef93a36
-    InstalledVersion: 3.10.12-1~22.04.11
-    FixedVersion: 3.10.12-1~22.04.14
-    Status: fixed
-    Layer:
-      Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f672d99cf12d59721fb5d9
-      DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7277787fa3578e3352a155
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-15367
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Fingerprint: sha256:0d1e7a3c5f86d09f7243874ff84062f7c02745c9d88143b440f64731233125fd
-    Title: 'cpython: POP3 command injection in user-controlled commands'
-    Description: |-
-      The poplib module, when passed a user-controlled command, can have
-      additional commands injected using newlines. Mitigation rejects commands
-      containing control characters.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-77
-    VendorSeverity:
-      alma: 2
-      oracle-oval: 2
-      redhat: 2
-      rocky: 2
-      ubuntu: 2
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:H/A:N
-        V3Score: 7.1
-    References:
-    - https://access.redhat.com/errata/RHSA-2026:4216
-    - https://access.redhat.com/security/cve/CVE-2025-15367
-    - https://bugzilla.redhat.com/2431368
-    - https://bugzilla.redhat.com/2431373
-    - https://bugzilla.redhat.com/2432437
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2431367
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2431368
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2431373
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2432437
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-15366
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-15367
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-0865
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-1299
-    - https://errata.almalinux.org/9/ALSA-2026-4216.html
-    - https://errata.rockylinux.org/RLSA-2026:4168
-    - https://github.com/python/cpython/commit/b234a2b67539f787e191d2ef19a7cbdce32874e7
-    - https://github.com/python/cpython/issues/143923
-    - https://github.com/python/cpython/pull/143924
-    - https://linux.oracle.com/cve/CVE-2025-15367.html
-    - https://linux.oracle.com/errata/ELSA-2026-4473.html
-    - https://mail.python.org/archives/list/security-announce@python.org/thread/CBFBOWVGGUJFSGITQCCBZS4GEYYZ7ZNE/
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-15367
-    - https://ubuntu.com/security/notices/USN-8018-1
-    - https://www.cve.org/CVERecord?id=CVE-2025-15367
-    PublishedDate: '2026-01-20T22:15:51.153Z'
-    LastModifiedDate: '2026-01-26T15:05:23.427Z'
   - VulnerabilityID: CVE-2025-6075
     PkgID: libpython3.10@3.10.12-1~22.04.11
     PkgName: libpython3.10
@@ -30634,131 +30529,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-15282
     PublishedDate: '2026-01-20T22:15:50.883Z'
     LastModifiedDate: '2026-01-26T15:16:06.62Z'
-  - VulnerabilityID: CVE-2025-15366
-    PkgID: libpython3.10-minimal@3.10.12-1~22.04.11
-    PkgName: libpython3.10-minimal
-    PkgIdentifier:
-      PURL: pkg:deb/ubuntu/libpython3.10-minimal@3.10.12-1~22.04.11?arch=amd64&distro=ubuntu-22.04
-      UID: e0a185a217d7d0c
-    InstalledVersion: 3.10.12-1~22.04.11
-    FixedVersion: 3.10.12-1~22.04.14
-    Status: fixed
-    Layer:
-      Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f672d99cf12d59721fb5d9
-      DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7277787fa3578e3352a155
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-15366
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Fingerprint: sha256:210ce98953e4adc9eda2b5cd6d608a7ee07c9d7b52da15e3ac6816264eef5b3f
-    Title: 'cpython: IMAP command injection in user-controlled commands'
-    Description: The imaplib module, when passed a user-controlled command, can have additional commands injected using newlines. Mitigation rejects commands containing control characters.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-77
-    VendorSeverity:
-      alma: 2
-      oracle-oval: 2
-      redhat: 2
-      rocky: 2
-      ubuntu: 2
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:H/A:N
-        V3Score: 7.1
-    References:
-    - https://access.redhat.com/errata/RHSA-2026:4216
-    - https://access.redhat.com/security/cve/CVE-2025-15366
-    - https://bugzilla.redhat.com/2431368
-    - https://bugzilla.redhat.com/2431373
-    - https://bugzilla.redhat.com/2432437
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2431367
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2431368
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2431373
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2432437
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-15366
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-15367
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-0865
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-1299
-    - https://errata.almalinux.org/9/ALSA-2026-4216.html
-    - https://errata.rockylinux.org/RLSA-2026:4168
-    - https://github.com/python/cpython/commit/6262704b134db2a4ba12e85ecfbd968534f28b45
-    - https://github.com/python/cpython/issues/143921
-    - https://github.com/python/cpython/pull/143922
-    - https://linux.oracle.com/cve/CVE-2025-15366.html
-    - https://linux.oracle.com/errata/ELSA-2026-4473.html
-    - https://mail.python.org/archives/list/security-announce@python.org/thread/DD7C7JZJYTBXMDOWKCEIEBJLBRU64OMR/
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-15366
-    - https://ubuntu.com/security/notices/USN-8018-1
-    - https://www.cve.org/CVERecord?id=CVE-2025-15366
-    PublishedDate: '2026-01-20T22:15:51.023Z'
-    LastModifiedDate: '2026-01-26T15:05:23.427Z'
-  - VulnerabilityID: CVE-2025-15367
-    PkgID: libpython3.10-minimal@3.10.12-1~22.04.11
-    PkgName: libpython3.10-minimal
-    PkgIdentifier:
-      PURL: pkg:deb/ubuntu/libpython3.10-minimal@3.10.12-1~22.04.11?arch=amd64&distro=ubuntu-22.04
-      UID: e0a185a217d7d0c
-    InstalledVersion: 3.10.12-1~22.04.11
-    FixedVersion: 3.10.12-1~22.04.14
-    Status: fixed
-    Layer:
-      Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f672d99cf12d59721fb5d9
-      DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7277787fa3578e3352a155
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-15367
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Fingerprint: sha256:675374d4d73aecd4c3ca4292a40bbe02f38776f1e8b8c6f8626ab8fb6e53aae2
-    Title: 'cpython: POP3 command injection in user-controlled commands'
-    Description: |-
-      The poplib module, when passed a user-controlled command, can have
-      additional commands injected using newlines. Mitigation rejects commands
-      containing control characters.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-77
-    VendorSeverity:
-      alma: 2
-      oracle-oval: 2
-      redhat: 2
-      rocky: 2
-      ubuntu: 2
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:H/A:N
-        V3Score: 7.1
-    References:
-    - https://access.redhat.com/errata/RHSA-2026:4216
-    - https://access.redhat.com/security/cve/CVE-2025-15367
-    - https://bugzilla.redhat.com/2431368
-    - https://bugzilla.redhat.com/2431373
-    - https://bugzilla.redhat.com/2432437
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2431367
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2431368
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2431373
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2432437
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-15366
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-15367
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-0865
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-1299
-    - https://errata.almalinux.org/9/ALSA-2026-4216.html
-    - https://errata.rockylinux.org/RLSA-2026:4168
-    - https://github.com/python/cpython/commit/b234a2b67539f787e191d2ef19a7cbdce32874e7
-    - https://github.com/python/cpython/issues/143923
-    - https://github.com/python/cpython/pull/143924
-    - https://linux.oracle.com/cve/CVE-2025-15367.html
-    - https://linux.oracle.com/errata/ELSA-2026-4473.html
-    - https://mail.python.org/archives/list/security-announce@python.org/thread/CBFBOWVGGUJFSGITQCCBZS4GEYYZ7ZNE/
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-15367
-    - https://ubuntu.com/security/notices/USN-8018-1
-    - https://www.cve.org/CVERecord?id=CVE-2025-15367
-    PublishedDate: '2026-01-20T22:15:51.153Z'
-    LastModifiedDate: '2026-01-26T15:05:23.427Z'
   - VulnerabilityID: CVE-2025-6075
     PkgID: libpython3.10-minimal@3.10.12-1~22.04.11
     PkgName: libpython3.10-minimal
@@ -31372,131 +31142,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-15282
     PublishedDate: '2026-01-20T22:15:50.883Z'
     LastModifiedDate: '2026-01-26T15:16:06.62Z'
-  - VulnerabilityID: CVE-2025-15366
-    PkgID: libpython3.10-stdlib@3.10.12-1~22.04.11
-    PkgName: libpython3.10-stdlib
-    PkgIdentifier:
-      PURL: pkg:deb/ubuntu/libpython3.10-stdlib@3.10.12-1~22.04.11?arch=amd64&distro=ubuntu-22.04
-      UID: b22b4347d21e0be6
-    InstalledVersion: 3.10.12-1~22.04.11
-    FixedVersion: 3.10.12-1~22.04.14
-    Status: fixed
-    Layer:
-      Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f672d99cf12d59721fb5d9
-      DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7277787fa3578e3352a155
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-15366
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Fingerprint: sha256:de17a58cda14e78c2dd3bf4e374e677fcfb18a5970a2ab784611018820db0177
-    Title: 'cpython: IMAP command injection in user-controlled commands'
-    Description: The imaplib module, when passed a user-controlled command, can have additional commands injected using newlines. Mitigation rejects commands containing control characters.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-77
-    VendorSeverity:
-      alma: 2
-      oracle-oval: 2
-      redhat: 2
-      rocky: 2
-      ubuntu: 2
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:H/A:N
-        V3Score: 7.1
-    References:
-    - https://access.redhat.com/errata/RHSA-2026:4216
-    - https://access.redhat.com/security/cve/CVE-2025-15366
-    - https://bugzilla.redhat.com/2431368
-    - https://bugzilla.redhat.com/2431373
-    - https://bugzilla.redhat.com/2432437
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2431367
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2431368
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2431373
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2432437
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-15366
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-15367
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-0865
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-1299
-    - https://errata.almalinux.org/9/ALSA-2026-4216.html
-    - https://errata.rockylinux.org/RLSA-2026:4168
-    - https://github.com/python/cpython/commit/6262704b134db2a4ba12e85ecfbd968534f28b45
-    - https://github.com/python/cpython/issues/143921
-    - https://github.com/python/cpython/pull/143922
-    - https://linux.oracle.com/cve/CVE-2025-15366.html
-    - https://linux.oracle.com/errata/ELSA-2026-4473.html
-    - https://mail.python.org/archives/list/security-announce@python.org/thread/DD7C7JZJYTBXMDOWKCEIEBJLBRU64OMR/
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-15366
-    - https://ubuntu.com/security/notices/USN-8018-1
-    - https://www.cve.org/CVERecord?id=CVE-2025-15366
-    PublishedDate: '2026-01-20T22:15:51.023Z'
-    LastModifiedDate: '2026-01-26T15:05:23.427Z'
-  - VulnerabilityID: CVE-2025-15367
-    PkgID: libpython3.10-stdlib@3.10.12-1~22.04.11
-    PkgName: libpython3.10-stdlib
-    PkgIdentifier:
-      PURL: pkg:deb/ubuntu/libpython3.10-stdlib@3.10.12-1~22.04.11?arch=amd64&distro=ubuntu-22.04
-      UID: b22b4347d21e0be6
-    InstalledVersion: 3.10.12-1~22.04.11
-    FixedVersion: 3.10.12-1~22.04.14
-    Status: fixed
-    Layer:
-      Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f672d99cf12d59721fb5d9
-      DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7277787fa3578e3352a155
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-15367
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Fingerprint: sha256:684e05f8628de84f2fda8359247963d7ec425cc5154cda1b856b8a553324f0b0
-    Title: 'cpython: POP3 command injection in user-controlled commands'
-    Description: |-
-      The poplib module, when passed a user-controlled command, can have
-      additional commands injected using newlines. Mitigation rejects commands
-      containing control characters.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-77
-    VendorSeverity:
-      alma: 2
-      oracle-oval: 2
-      redhat: 2
-      rocky: 2
-      ubuntu: 2
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:H/A:N
-        V3Score: 7.1
-    References:
-    - https://access.redhat.com/errata/RHSA-2026:4216
-    - https://access.redhat.com/security/cve/CVE-2025-15367
-    - https://bugzilla.redhat.com/2431368
-    - https://bugzilla.redhat.com/2431373
-    - https://bugzilla.redhat.com/2432437
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2431367
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2431368
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2431373
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2432437
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-15366
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-15367
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-0865
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-1299
-    - https://errata.almalinux.org/9/ALSA-2026-4216.html
-    - https://errata.rockylinux.org/RLSA-2026:4168
-    - https://github.com/python/cpython/commit/b234a2b67539f787e191d2ef19a7cbdce32874e7
-    - https://github.com/python/cpython/issues/143923
-    - https://github.com/python/cpython/pull/143924
-    - https://linux.oracle.com/cve/CVE-2025-15367.html
-    - https://linux.oracle.com/errata/ELSA-2026-4473.html
-    - https://mail.python.org/archives/list/security-announce@python.org/thread/CBFBOWVGGUJFSGITQCCBZS4GEYYZ7ZNE/
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-15367
-    - https://ubuntu.com/security/notices/USN-8018-1
-    - https://www.cve.org/CVERecord?id=CVE-2025-15367
-    PublishedDate: '2026-01-20T22:15:51.153Z'
-    LastModifiedDate: '2026-01-26T15:05:23.427Z'
   - VulnerabilityID: CVE-2025-6075
     PkgID: libpython3.10-stdlib@3.10.12-1~22.04.11
     PkgName: libpython3.10-stdlib
@@ -36240,131 +35885,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-15282
     PublishedDate: '2026-01-20T22:15:50.883Z'
     LastModifiedDate: '2026-01-26T15:16:06.62Z'
-  - VulnerabilityID: CVE-2025-15366
-    PkgID: python3.10@3.10.12-1~22.04.11
-    PkgName: python3.10
-    PkgIdentifier:
-      PURL: pkg:deb/ubuntu/python3.10@3.10.12-1~22.04.11?arch=amd64&distro=ubuntu-22.04
-      UID: 7f2aee9c044a0dcb
-    InstalledVersion: 3.10.12-1~22.04.11
-    FixedVersion: 3.10.12-1~22.04.14
-    Status: fixed
-    Layer:
-      Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f672d99cf12d59721fb5d9
-      DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7277787fa3578e3352a155
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-15366
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Fingerprint: sha256:8951370382b8aa59f3681c2479e16be6c735964ce582c70ff63ad7264447b204
-    Title: 'cpython: IMAP command injection in user-controlled commands'
-    Description: The imaplib module, when passed a user-controlled command, can have additional commands injected using newlines. Mitigation rejects commands containing control characters.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-77
-    VendorSeverity:
-      alma: 2
-      oracle-oval: 2
-      redhat: 2
-      rocky: 2
-      ubuntu: 2
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:H/A:N
-        V3Score: 7.1
-    References:
-    - https://access.redhat.com/errata/RHSA-2026:4216
-    - https://access.redhat.com/security/cve/CVE-2025-15366
-    - https://bugzilla.redhat.com/2431368
-    - https://bugzilla.redhat.com/2431373
-    - https://bugzilla.redhat.com/2432437
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2431367
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2431368
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2431373
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2432437
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-15366
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-15367
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-0865
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-1299
-    - https://errata.almalinux.org/9/ALSA-2026-4216.html
-    - https://errata.rockylinux.org/RLSA-2026:4168
-    - https://github.com/python/cpython/commit/6262704b134db2a4ba12e85ecfbd968534f28b45
-    - https://github.com/python/cpython/issues/143921
-    - https://github.com/python/cpython/pull/143922
-    - https://linux.oracle.com/cve/CVE-2025-15366.html
-    - https://linux.oracle.com/errata/ELSA-2026-4473.html
-    - https://mail.python.org/archives/list/security-announce@python.org/thread/DD7C7JZJYTBXMDOWKCEIEBJLBRU64OMR/
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-15366
-    - https://ubuntu.com/security/notices/USN-8018-1
-    - https://www.cve.org/CVERecord?id=CVE-2025-15366
-    PublishedDate: '2026-01-20T22:15:51.023Z'
-    LastModifiedDate: '2026-01-26T15:05:23.427Z'
-  - VulnerabilityID: CVE-2025-15367
-    PkgID: python3.10@3.10.12-1~22.04.11
-    PkgName: python3.10
-    PkgIdentifier:
-      PURL: pkg:deb/ubuntu/python3.10@3.10.12-1~22.04.11?arch=amd64&distro=ubuntu-22.04
-      UID: 7f2aee9c044a0dcb
-    InstalledVersion: 3.10.12-1~22.04.11
-    FixedVersion: 3.10.12-1~22.04.14
-    Status: fixed
-    Layer:
-      Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f672d99cf12d59721fb5d9
-      DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7277787fa3578e3352a155
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-15367
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Fingerprint: sha256:e020a307cd1df711001c0ee39a4e83acea7f8aac85ab301f7755ff10156c59fa
-    Title: 'cpython: POP3 command injection in user-controlled commands'
-    Description: |-
-      The poplib module, when passed a user-controlled command, can have
-      additional commands injected using newlines. Mitigation rejects commands
-      containing control characters.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-77
-    VendorSeverity:
-      alma: 2
-      oracle-oval: 2
-      redhat: 2
-      rocky: 2
-      ubuntu: 2
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:H/A:N
-        V3Score: 7.1
-    References:
-    - https://access.redhat.com/errata/RHSA-2026:4216
-    - https://access.redhat.com/security/cve/CVE-2025-15367
-    - https://bugzilla.redhat.com/2431368
-    - https://bugzilla.redhat.com/2431373
-    - https://bugzilla.redhat.com/2432437
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2431367
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2431368
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2431373
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2432437
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-15366
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-15367
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-0865
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-1299
-    - https://errata.almalinux.org/9/ALSA-2026-4216.html
-    - https://errata.rockylinux.org/RLSA-2026:4168
-    - https://github.com/python/cpython/commit/b234a2b67539f787e191d2ef19a7cbdce32874e7
-    - https://github.com/python/cpython/issues/143923
-    - https://github.com/python/cpython/pull/143924
-    - https://linux.oracle.com/cve/CVE-2025-15367.html
-    - https://linux.oracle.com/errata/ELSA-2026-4473.html
-    - https://mail.python.org/archives/list/security-announce@python.org/thread/CBFBOWVGGUJFSGITQCCBZS4GEYYZ7ZNE/
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-15367
-    - https://ubuntu.com/security/notices/USN-8018-1
-    - https://www.cve.org/CVERecord?id=CVE-2025-15367
-    PublishedDate: '2026-01-20T22:15:51.153Z'
-    LastModifiedDate: '2026-01-26T15:05:23.427Z'
   - VulnerabilityID: CVE-2025-6075
     PkgID: python3.10@3.10.12-1~22.04.11
     PkgName: python3.10
@@ -36978,131 +36498,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-15282
     PublishedDate: '2026-01-20T22:15:50.883Z'
     LastModifiedDate: '2026-01-26T15:16:06.62Z'
-  - VulnerabilityID: CVE-2025-15366
-    PkgID: python3.10-minimal@3.10.12-1~22.04.11
-    PkgName: python3.10-minimal
-    PkgIdentifier:
-      PURL: pkg:deb/ubuntu/python3.10-minimal@3.10.12-1~22.04.11?arch=amd64&distro=ubuntu-22.04
-      UID: 75720340f7631f37
-    InstalledVersion: 3.10.12-1~22.04.11
-    FixedVersion: 3.10.12-1~22.04.14
-    Status: fixed
-    Layer:
-      Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f672d99cf12d59721fb5d9
-      DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7277787fa3578e3352a155
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-15366
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Fingerprint: sha256:dc724e4e9597e7809995ff17aa5c4b8ce6619d292e729f769c8529f5465a551b
-    Title: 'cpython: IMAP command injection in user-controlled commands'
-    Description: The imaplib module, when passed a user-controlled command, can have additional commands injected using newlines. Mitigation rejects commands containing control characters.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-77
-    VendorSeverity:
-      alma: 2
-      oracle-oval: 2
-      redhat: 2
-      rocky: 2
-      ubuntu: 2
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:H/A:N
-        V3Score: 7.1
-    References:
-    - https://access.redhat.com/errata/RHSA-2026:4216
-    - https://access.redhat.com/security/cve/CVE-2025-15366
-    - https://bugzilla.redhat.com/2431368
-    - https://bugzilla.redhat.com/2431373
-    - https://bugzilla.redhat.com/2432437
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2431367
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2431368
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2431373
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2432437
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-15366
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-15367
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-0865
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-1299
-    - https://errata.almalinux.org/9/ALSA-2026-4216.html
-    - https://errata.rockylinux.org/RLSA-2026:4168
-    - https://github.com/python/cpython/commit/6262704b134db2a4ba12e85ecfbd968534f28b45
-    - https://github.com/python/cpython/issues/143921
-    - https://github.com/python/cpython/pull/143922
-    - https://linux.oracle.com/cve/CVE-2025-15366.html
-    - https://linux.oracle.com/errata/ELSA-2026-4473.html
-    - https://mail.python.org/archives/list/security-announce@python.org/thread/DD7C7JZJYTBXMDOWKCEIEBJLBRU64OMR/
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-15366
-    - https://ubuntu.com/security/notices/USN-8018-1
-    - https://www.cve.org/CVERecord?id=CVE-2025-15366
-    PublishedDate: '2026-01-20T22:15:51.023Z'
-    LastModifiedDate: '2026-01-26T15:05:23.427Z'
-  - VulnerabilityID: CVE-2025-15367
-    PkgID: python3.10-minimal@3.10.12-1~22.04.11
-    PkgName: python3.10-minimal
-    PkgIdentifier:
-      PURL: pkg:deb/ubuntu/python3.10-minimal@3.10.12-1~22.04.11?arch=amd64&distro=ubuntu-22.04
-      UID: 75720340f7631f37
-    InstalledVersion: 3.10.12-1~22.04.11
-    FixedVersion: 3.10.12-1~22.04.14
-    Status: fixed
-    Layer:
-      Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f672d99cf12d59721fb5d9
-      DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7277787fa3578e3352a155
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-15367
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Fingerprint: sha256:06213efa56b69b0b711012a509651161a12e19dacc8e3137ecd5641dd12a94cf
-    Title: 'cpython: POP3 command injection in user-controlled commands'
-    Description: |-
-      The poplib module, when passed a user-controlled command, can have
-      additional commands injected using newlines. Mitigation rejects commands
-      containing control characters.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-77
-    VendorSeverity:
-      alma: 2
-      oracle-oval: 2
-      redhat: 2
-      rocky: 2
-      ubuntu: 2
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:H/A:N
-        V3Score: 7.1
-    References:
-    - https://access.redhat.com/errata/RHSA-2026:4216
-    - https://access.redhat.com/security/cve/CVE-2025-15367
-    - https://bugzilla.redhat.com/2431368
-    - https://bugzilla.redhat.com/2431373
-    - https://bugzilla.redhat.com/2432437
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2431367
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2431368
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2431373
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2432437
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-15366
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-15367
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-0865
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-1299
-    - https://errata.almalinux.org/9/ALSA-2026-4216.html
-    - https://errata.rockylinux.org/RLSA-2026:4168
-    - https://github.com/python/cpython/commit/b234a2b67539f787e191d2ef19a7cbdce32874e7
-    - https://github.com/python/cpython/issues/143923
-    - https://github.com/python/cpython/pull/143924
-    - https://linux.oracle.com/cve/CVE-2025-15367.html
-    - https://linux.oracle.com/errata/ELSA-2026-4473.html
-    - https://mail.python.org/archives/list/security-announce@python.org/thread/CBFBOWVGGUJFSGITQCCBZS4GEYYZ7ZNE/
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-15367
-    - https://ubuntu.com/security/notices/USN-8018-1
-    - https://www.cve.org/CVERecord?id=CVE-2025-15367
-    PublishedDate: '2026-01-20T22:15:51.153Z'
-    LastModifiedDate: '2026-01-26T15:05:23.427Z'
   - VulnerabilityID: CVE-2025-6075
     PkgID: python3.10-minimal@3.10.12-1~22.04.11
     PkgName: python3.10-minimal
@@ -37773,6 +37168,7 @@
       azure: 2
       cbl-mariner: 2
       oracle-oval: 2
+      photon: 2
       redhat: 2
       ubuntu: 1
     CVSS:
@@ -37868,6 +37264,7 @@
       azure: 2
       cbl-mariner: 2
       oracle-oval: 2
+      photon: 2
       redhat: 2
       ubuntu: 1
     CVSS:
@@ -37963,6 +37360,7 @@
       azure: 2
       cbl-mariner: 2
       oracle-oval: 2
+      photon: 2
       redhat: 2
       ubuntu: 1
     CVSS:
@@ -38106,6 +37504,7 @@
       azure: 2
       cbl-mariner: 2
       oracle-oval: 2
+      photon: 2
       redhat: 2
       ubuntu: 1
     CVSS:
@@ -41005,12 +40404,12 @@
     Description: Actions which insert URLs into the content attribute of HTML meta tags are not escaped. This can allow XSS if the meta tag also has an http-equiv attribute with the value "refresh". A new GODEBUG setting has been added, htmlmetacontenturlescape, which can be used to disable escaping URLs in actions in the meta content attribute which follow "url=" by setting htmlmetacontenturlescape=0.
     Severity: MEDIUM
     VendorSeverity:
-      bitnami: 3
+      bitnami: 2
       redhat: 2
     CVSS:
       bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
+        V3Score: 6.1
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N
         V3Score: 5.4
@@ -42849,12 +42248,12 @@
     Description: Actions which insert URLs into the content attribute of HTML meta tags are not escaped. This can allow XSS if the meta tag also has an http-equiv attribute with the value "refresh". A new GODEBUG setting has been added, htmlmetacontenturlescape, which can be used to disable escaping URLs in actions in the meta content attribute which follow "url=" by setting htmlmetacontenturlescape=0.
     Severity: MEDIUM
     VendorSeverity:
-      bitnami: 3
+      bitnami: 2
       redhat: 2
     CVSS:
       bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
+        V3Score: 6.1
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N
         V3Score: 5.4
@@ -43347,12 +42746,12 @@
     Description: Actions which insert URLs into the content attribute of HTML meta tags are not escaped. This can allow XSS if the meta tag also has an http-equiv attribute with the value "refresh". A new GODEBUG setting has been added, htmlmetacontenturlescape, which can be used to disable escaping URLs in actions in the meta content attribute which follow "url=" by setting htmlmetacontenturlescape=0.
     Severity: MEDIUM
     VendorSeverity:
-      bitnami: 3
+      bitnami: 2
       redhat: 2
     CVSS:
       bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
+        V3Score: 6.1
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N
         V3Score: 5.4
@@ -46136,12 +45535,12 @@
     Description: Actions which insert URLs into the content attribute of HTML meta tags are not escaped. This can allow XSS if the meta tag also has an http-equiv attribute with the value "refresh". A new GODEBUG setting has been added, htmlmetacontenturlescape, which can be used to disable escaping URLs in actions in the meta content attribute which follow "url=" by setting htmlmetacontenturlescape=0.
     Severity: MEDIUM
     VendorSeverity:
-      bitnami: 3
+      bitnami: 2
       redhat: 2
     CVSS:
       bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
+        V3Score: 6.1
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N
         V3Score: 5.4
@@ -46702,12 +46101,12 @@
     Description: Actions which insert URLs into the content attribute of HTML meta tags are not escaped. This can allow XSS if the meta tag also has an http-equiv attribute with the value "refresh". A new GODEBUG setting has been added, htmlmetacontenturlescape, which can be used to disable escaping URLs in actions in the meta content attribute which follow "url=" by setting htmlmetacontenturlescape=0.
     Severity: MEDIUM
     VendorSeverity:
-      bitnami: 3
+      bitnami: 2
       redhat: 2
     CVSS:
       bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
+        V3Score: 6.1
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N
         V3Score: 5.4
@@ -50027,12 +49426,12 @@
     Description: Actions which insert URLs into the content attribute of HTML meta tags are not escaped. This can allow XSS if the meta tag also has an http-equiv attribute with the value "refresh". A new GODEBUG setting has been added, htmlmetacontenturlescape, which can be used to disable escaping URLs in actions in the meta content attribute which follow "url=" by setting htmlmetacontenturlescape=0.
     Severity: MEDIUM
     VendorSeverity:
-      bitnami: 3
+      bitnami: 2
       redhat: 2
     CVSS:
       bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
+        V3Score: 6.1
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N
         V3Score: 5.4
@@ -52469,12 +51868,12 @@
     Description: Actions which insert URLs into the content attribute of HTML meta tags are not escaped. This can allow XSS if the meta tag also has an http-equiv attribute with the value "refresh". A new GODEBUG setting has been added, htmlmetacontenturlescape, which can be used to disable escaping URLs in actions in the meta content attribute which follow "url=" by setting htmlmetacontenturlescape=0.
     Severity: MEDIUM
     VendorSeverity:
-      bitnami: 3
+      bitnami: 2
       redhat: 2
     CVSS:
       bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
+        V3Score: 6.1
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N
         V3Score: 5.4
@@ -54415,12 +53814,12 @@
     Description: Actions which insert URLs into the content attribute of HTML meta tags are not escaped. This can allow XSS if the meta tag also has an http-equiv attribute with the value "refresh". A new GODEBUG setting has been added, htmlmetacontenturlescape, which can be used to disable escaping URLs in actions in the meta content attribute which follow "url=" by setting htmlmetacontenturlescape=0.
     Severity: MEDIUM
     VendorSeverity:
-      bitnami: 3
+      bitnami: 2
       redhat: 2
     CVSS:
       bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
+        V3Score: 6.1
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N
         V3Score: 5.4
@@ -56593,12 +55992,12 @@
     Description: Actions which insert URLs into the content attribute of HTML meta tags are not escaped. This can allow XSS if the meta tag also has an http-equiv attribute with the value "refresh". A new GODEBUG setting has been added, htmlmetacontenturlescape, which can be used to disable escaping URLs in actions in the meta content attribute which follow "url=" by setting htmlmetacontenturlescape=0.
     Severity: MEDIUM
     VendorSeverity:
-      bitnami: 3
+      bitnami: 2
       redhat: 2
     CVSS:
       bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
+        V3Score: 6.1
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N
         V3Score: 5.4
@@ -57458,12 +56857,12 @@
     Description: Actions which insert URLs into the content attribute of HTML meta tags are not escaped. This can allow XSS if the meta tag also has an http-equiv attribute with the value "refresh". A new GODEBUG setting has been added, htmlmetacontenturlescape, which can be used to disable escaping URLs in actions in the meta content attribute which follow "url=" by setting htmlmetacontenturlescape=0.
     Severity: MEDIUM
     VendorSeverity:
-      bitnami: 3
+      bitnami: 2
       redhat: 2
     CVSS:
       bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
+        V3Score: 6.1
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N
         V3Score: 5.4
@@ -60451,12 +59850,12 @@
     Description: Actions which insert URLs into the content attribute of HTML meta tags are not escaped. This can allow XSS if the meta tag also has an http-equiv attribute with the value "refresh". A new GODEBUG setting has been added, htmlmetacontenturlescape, which can be used to disable escaping URLs in actions in the meta content attribute which follow "url=" by setting htmlmetacontenturlescape=0.
     Severity: MEDIUM
     VendorSeverity:
-      bitnami: 3
+      bitnami: 2
       redhat: 2
     CVSS:
       bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
+        V3Score: 6.1
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N
         V3Score: 5.4
@@ -63240,12 +62639,12 @@
     Description: Actions which insert URLs into the content attribute of HTML meta tags are not escaped. This can allow XSS if the meta tag also has an http-equiv attribute with the value "refresh". A new GODEBUG setting has been added, htmlmetacontenturlescape, which can be used to disable escaping URLs in actions in the meta content attribute which follow "url=" by setting htmlmetacontenturlescape=0.
     Severity: MEDIUM
     VendorSeverity:
-      bitnami: 3
+      bitnami: 2
       redhat: 2
     CVSS:
       bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
+        V3Score: 6.1
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N
         V3Score: 5.4
@@ -65193,12 +64592,12 @@
     Description: Actions which insert URLs into the content attribute of HTML meta tags are not escaped. This can allow XSS if the meta tag also has an http-equiv attribute with the value "refresh". A new GODEBUG setting has been added, htmlmetacontenturlescape, which can be used to disable escaping URLs in actions in the meta content attribute which follow "url=" by setting htmlmetacontenturlescape=0.
     Severity: MEDIUM
     VendorSeverity:
-      bitnami: 3
+      bitnami: 2
       redhat: 2
     CVSS:
       bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
+        V3Score: 6.1
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N
         V3Score: 5.4
@@ -68537,12 +67936,12 @@
     Description: Actions which insert URLs into the content attribute of HTML meta tags are not escaped. This can allow XSS if the meta tag also has an http-equiv attribute with the value "refresh". A new GODEBUG setting has been added, htmlmetacontenturlescape, which can be used to disable escaping URLs in actions in the meta content attribute which follow "url=" by setting htmlmetacontenturlescape=0.
     Severity: MEDIUM
     VendorSeverity:
-      bitnami: 3
+      bitnami: 2
       redhat: 2
     CVSS:
       bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
+        V3Score: 6.1
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N
         V3Score: 5.4
