@@ -26671,6 +26671,7 @@
       azure: 2
       cbl-mariner: 2
       oracle-oval: 2
+      photon: 2
       redhat: 2
       ubuntu: 1
     CVSS:
@@ -26766,6 +26767,7 @@
       azure: 2
       cbl-mariner: 2
       oracle-oval: 2
+      photon: 2
       redhat: 2
       ubuntu: 1
     CVSS:
@@ -26861,6 +26863,7 @@
       azure: 2
       cbl-mariner: 2
       oracle-oval: 2
+      photon: 2
       redhat: 2
       ubuntu: 1
     CVSS:
@@ -27004,6 +27007,7 @@
       azure: 2
       cbl-mariner: 2
       oracle-oval: 2
+      photon: 2
       redhat: 2
       ubuntu: 1
     CVSS:
@@ -28448,12 +28452,12 @@
     Description: Actions which insert URLs into the content attribute of HTML meta tags are not escaped. This can allow XSS if the meta tag also has an http-equiv attribute with the value "refresh". A new GODEBUG setting has been added, htmlmetacontenturlescape, which can be used to disable escaping URLs in actions in the meta content attribute which follow "url=" by setting htmlmetacontenturlescape=0.
     Severity: MEDIUM
     VendorSeverity:
-      bitnami: 3
+      bitnami: 2
       redhat: 2
     CVSS:
       bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
+        V3Score: 6.1
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N
         V3Score: 5.4
@@ -28914,12 +28918,12 @@
     Description: Actions which insert URLs into the content attribute of HTML meta tags are not escaped. This can allow XSS if the meta tag also has an http-equiv attribute with the value "refresh". A new GODEBUG setting has been added, htmlmetacontenturlescape, which can be used to disable escaping URLs in actions in the meta content attribute which follow "url=" by setting htmlmetacontenturlescape=0.
     Severity: MEDIUM
     VendorSeverity:
-      bitnami: 3
+      bitnami: 2
       redhat: 2
     CVSS:
       bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
+        V3Score: 6.1
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N
         V3Score: 5.4
@@ -29059,12 +29063,12 @@
     Description: Actions which insert URLs into the content attribute of HTML meta tags are not escaped. This can allow XSS if the meta tag also has an http-equiv attribute with the value "refresh". A new GODEBUG setting has been added, htmlmetacontenturlescape, which can be used to disable escaping URLs in actions in the meta content attribute which follow "url=" by setting htmlmetacontenturlescape=0.
     Severity: MEDIUM
     VendorSeverity:
-      bitnami: 3
+      bitnami: 2
       redhat: 2
     CVSS:
       bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
+        V3Score: 6.1
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N
         V3Score: 5.4
@@ -30657,12 +30661,12 @@
     Description: Actions which insert URLs into the content attribute of HTML meta tags are not escaped. This can allow XSS if the meta tag also has an http-equiv attribute with the value "refresh". A new GODEBUG setting has been added, htmlmetacontenturlescape, which can be used to disable escaping URLs in actions in the meta content attribute which follow "url=" by setting htmlmetacontenturlescape=0.
     Severity: MEDIUM
     VendorSeverity:
-      bitnami: 3
+      bitnami: 2
       redhat: 2
     CVSS:
       bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
+        V3Score: 6.1
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N
         V3Score: 5.4
@@ -30870,12 +30874,12 @@
     Description: Actions which insert URLs into the content attribute of HTML meta tags are not escaped. This can allow XSS if the meta tag also has an http-equiv attribute with the value "refresh". A new GODEBUG setting has been added, htmlmetacontenturlescape, which can be used to disable escaping URLs in actions in the meta content attribute which follow "url=" by setting htmlmetacontenturlescape=0.
     Severity: MEDIUM
     VendorSeverity:
-      bitnami: 3
+      bitnami: 2
       redhat: 2
     CVSS:
       bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
+        V3Score: 6.1
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N
         V3Score: 5.4
@@ -34031,12 +34035,12 @@
     Description: Actions which insert URLs into the content attribute of HTML meta tags are not escaped. This can allow XSS if the meta tag also has an http-equiv attribute with the value "refresh". A new GODEBUG setting has been added, htmlmetacontenturlescape, which can be used to disable escaping URLs in actions in the meta content attribute which follow "url=" by setting htmlmetacontenturlescape=0.
     Severity: MEDIUM
     VendorSeverity:
-      bitnami: 3
+      bitnami: 2
       redhat: 2
     CVSS:
       bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
+        V3Score: 6.1
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N
         V3Score: 5.4
@@ -36266,12 +36270,12 @@
     Description: Actions which insert URLs into the content attribute of HTML meta tags are not escaped. This can allow XSS if the meta tag also has an http-equiv attribute with the value "refresh". A new GODEBUG setting has been added, htmlmetacontenturlescape, which can be used to disable escaping URLs in actions in the meta content attribute which follow "url=" by setting htmlmetacontenturlescape=0.
     Severity: MEDIUM
     VendorSeverity:
-      bitnami: 3
+      bitnami: 2
       redhat: 2
     CVSS:
       bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
+        V3Score: 6.1
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N
         V3Score: 5.4
@@ -38444,12 +38448,12 @@
     Description: Actions which insert URLs into the content attribute of HTML meta tags are not escaped. This can allow XSS if the meta tag also has an http-equiv attribute with the value "refresh". A new GODEBUG setting has been added, htmlmetacontenturlescape, which can be used to disable escaping URLs in actions in the meta content attribute which follow "url=" by setting htmlmetacontenturlescape=0.
     Severity: MEDIUM
     VendorSeverity:
-      bitnami: 3
+      bitnami: 2
       redhat: 2
     CVSS:
       bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
+        V3Score: 6.1
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N
         V3Score: 5.4
@@ -38800,12 +38804,12 @@
     Description: Actions which insert URLs into the content attribute of HTML meta tags are not escaped. This can allow XSS if the meta tag also has an http-equiv attribute with the value "refresh". A new GODEBUG setting has been added, htmlmetacontenturlescape, which can be used to disable escaping URLs in actions in the meta content attribute which follow "url=" by setting htmlmetacontenturlescape=0.
     Severity: MEDIUM
     VendorSeverity:
-      bitnami: 3
+      bitnami: 2
       redhat: 2
     CVSS:
       bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
+        V3Score: 6.1
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N
         V3Score: 5.4
@@ -41885,12 +41889,12 @@
     Description: Actions which insert URLs into the content attribute of HTML meta tags are not escaped. This can allow XSS if the meta tag also has an http-equiv attribute with the value "refresh". A new GODEBUG setting has been added, htmlmetacontenturlescape, which can be used to disable escaping URLs in actions in the meta content attribute which follow "url=" by setting htmlmetacontenturlescape=0.
     Severity: MEDIUM
     VendorSeverity:
-      bitnami: 3
+      bitnami: 2
       redhat: 2
     CVSS:
       bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
+        V3Score: 6.1
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N
         V3Score: 5.4
@@ -43483,12 +43487,12 @@
     Description: Actions which insert URLs into the content attribute of HTML meta tags are not escaped. This can allow XSS if the meta tag also has an http-equiv attribute with the value "refresh". A new GODEBUG setting has been added, htmlmetacontenturlescape, which can be used to disable escaping URLs in actions in the meta content attribute which follow "url=" by setting htmlmetacontenturlescape=0.
     Severity: MEDIUM
     VendorSeverity:
-      bitnami: 3
+      bitnami: 2
       redhat: 2
     CVSS:
       bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
+        V3Score: 6.1
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N
         V3Score: 5.4
@@ -44785,12 +44789,12 @@
     Description: Actions which insert URLs into the content attribute of HTML meta tags are not escaped. This can allow XSS if the meta tag also has an http-equiv attribute with the value "refresh". A new GODEBUG setting has been added, htmlmetacontenturlescape, which can be used to disable escaping URLs in actions in the meta content attribute which follow "url=" by setting htmlmetacontenturlescape=0.
     Severity: MEDIUM
     VendorSeverity:
-      bitnami: 3
+      bitnami: 2
       redhat: 2
     CVSS:
       bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
+        V3Score: 6.1
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N
         V3Score: 5.4
@@ -48129,12 +48133,12 @@
     Description: Actions which insert URLs into the content attribute of HTML meta tags are not escaped. This can allow XSS if the meta tag also has an http-equiv attribute with the value "refresh". A new GODEBUG setting has been added, htmlmetacontenturlescape, which can be used to disable escaping URLs in actions in the meta content attribute which follow "url=" by setting htmlmetacontenturlescape=0.
     Severity: MEDIUM
     VendorSeverity:
-      bitnami: 3
+      bitnami: 2
       redhat: 2
     CVSS:
       bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
+        V3Score: 6.1
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N
         V3Score: 5.4
