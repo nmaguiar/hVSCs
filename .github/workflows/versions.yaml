@@ -16,20 +16,20 @@ jobs:
     steps  :
     # --------------------------
     - name: Cache OpenAF runtime
-      uses: actions/cache@v3
+      uses: actions/cache@v5
       with:
         key : oaf
         path: /tmp/oaf
 
     # --------------
     - name: Checkout
-      uses: actions/checkout@v3
+      uses: actions/checkout@v6
 
     ## Add here other steps
 
     # ---------------------
     - name: Generate badges
-      uses: openaf/ojob-action@v4
+      uses: openaf/ojob-action@v7
       with:
         def : |
           todo:
@@ -69,7 +69,7 @@ jobs:
 
     # -------------
     - name: Checkin
-      uses: openaf/ojob-action@v4
+      uses: openaf/ojob-action@v7
       env :
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
