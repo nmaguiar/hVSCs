@@ -1042,7 +1042,9 @@
 │                        │      │                  ├ photon: 2 
 │                        │      │                  ├ redhat: 1 
 │                        │      │                  ╰ ubuntu: 1 
-│                        │      ├ CVSS             
+│                        │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:
+│                        │      │                  │        │           N/A:H 
+│                        │      │                  │        ╰ V3Score : 4.7 
 │                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:
 │                        │      │                           │           N/A:L 
 │                        │      │                           ╰ V3Score : 2.5 
@@ -1096,11 +1098,13 @@
 │                        │      │                           ╰ V3Score : 2.9 
 │                        │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/12/02/1 
 │                        │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-66382 
-│                        │      │                  ├ [2]: https://github.com/libexpat/libexpat/issues/1076 
-│                        │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-66382 
-│                        │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2025-66382 
+│                        │      │                  ├ [2]: https://cert-portal.siemens.com/productcert/html/ssa-
+│                        │      │                  │      082556.html 
+│                        │      │                  ├ [3]: https://github.com/libexpat/libexpat/issues/1076 
+│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-66382 
+│                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-66382 
 │                        │      ├ PublishedDate   : 2025-11-28T07:15:57.9Z 
-│                        │      ╰ LastModifiedDate: 2025-12-19T16:05:03.557Z 
+│                        │      ╰ LastModifiedDate: 2026-05-12T13:17:23.933Z 
 │                        ├ [19] ╭ VulnerabilityID : CVE-2022-27943 
 │                        │      ├ PkgID           : libgcc-s1@12.3.0-1ubuntu1~22.04.3 
 │                        │      ├ PkgName         : libgcc-s1 
@@ -4364,7 +4368,7 @@
 │                        │      ├ Severity        : HIGH 
 │                        │      ├ CweIDs           ─ [0]: CWE-425 
 │                        │      ├ VendorSeverity   ╭ alma       : 3 
-│                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ amazon     : 3 
 │                        │      │                  ├ azure      : 3 
 │                        │      │                  ├ bitnami    : 3 
 │                        │      │                  ├ oracle-oval: 3 
@@ -4607,6 +4611,7 @@
 │                        │      │                  │         0deec30060d01fa588f70 
 │                        │      │                  ╰ DiffID: sha256:04937fe57ec29d1e28c37b08c88f1aa7fa83c797dc5
 │                        │      │                            4e18a80e72579d87bc3b8 
+│                        │      ├ SeveritySource  : nvd 
 │                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-33811 
 │                        │      ├ DataSource       ╭ ID  : govulndb 
 │                        │      │                  ├ Name: The Go Vulnerability Database 
@@ -4619,8 +4624,13 @@
 │                        │      │                   long CNAME response can trigger a double-free of C memory
 │                        │      │                   and a crash. 
 │                        │      ├ Severity        : HIGH 
-│                        │      ├ VendorSeverity   ─ bitnami: 3 
-│                        │      ├ CVSS             ─ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                        │      ├ CweIDs           ─ [0]: CWE-415 
+│                        │      ├ VendorSeverity   ╭ bitnami: 3 
+│                        │      │                  ╰ nvd    : 3 
+│                        │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                        │      │                  │         │           :N/A:H 
+│                        │      │                  │         ╰ V3Score : 7.5 
+│                        │      │                  ╰ nvd     ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
 │                        │      │                            │           :N/A:H 
 │                        │      │                            ╰ V3Score : 7.5 
 │                        │      ├ References       ╭ [0]: https://go.dev/cl/767860 
@@ -4630,7 +4640,7 @@
 │                        │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2026-33811 
 │                        │      │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2026-4981 
 │                        │      ├ PublishedDate   : 2026-05-07T20:16:42.77Z 
-│                        │      ╰ LastModifiedDate: 2026-05-08T15:16:36.64Z 
+│                        │      ╰ LastModifiedDate: 2026-05-12T20:23:02.333Z 
 │                        ├ [5]  ╭ VulnerabilityID : CVE-2026-33814 
 │                        │      ├ VendorIDs        ─ [0]: GO-2026-4918 
 │                        │      ├ PkgID           : stdlib@v1.25.7 
@@ -4809,7 +4819,7 @@
 │                        │      │                   htmlmetacontenturlescape=0. 
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
-│                        │      ├ VendorSeverity   ╭ amazon : 2 
+│                        │      ├ VendorSeverity   ╭ amazon : 3 
 │                        │      │                  ├ bitnami: 2 
 │                        │      │                  ╰ redhat : 2 
 │                        │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I
@@ -5167,7 +5177,7 @@
 │                               │                   files outside the root. 
 │                               ├ Severity        : LOW 
 │                               ├ CweIDs           ─ [0]: CWE-22 
-│                               ├ VendorSeverity   ╭ amazon : 2 
+│                               ├ VendorSeverity   ╭ amazon : 3 
 │                               │                  ├ azure  : 1 
 │                               │                  ├ bitnami: 1 
 │                               │                  ╰ redhat : 1 
@@ -5216,7 +5226,7 @@
 │                        │      ├ Severity        : HIGH 
 │                        │      ├ CweIDs           ─ [0]: CWE-425 
 │                        │      ├ VendorSeverity   ╭ alma       : 3 
-│                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ amazon     : 3 
 │                        │      │                  ├ azure      : 3 
 │                        │      │                  ├ bitnami    : 3 
 │                        │      │                  ├ oracle-oval: 3 
@@ -5459,6 +5469,7 @@
 │                        │      │                  │         0deec30060d01fa588f70 
 │                        │      │                  ╰ DiffID: sha256:04937fe57ec29d1e28c37b08c88f1aa7fa83c797dc5
 │                        │      │                            4e18a80e72579d87bc3b8 
+│                        │      ├ SeveritySource  : nvd 
 │                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-33811 
 │                        │      ├ DataSource       ╭ ID  : govulndb 
 │                        │      │                  ├ Name: The Go Vulnerability Database 
@@ -5471,8 +5482,13 @@
 │                        │      │                   long CNAME response can trigger a double-free of C memory
 │                        │      │                   and a crash. 
 │                        │      ├ Severity        : HIGH 
-│                        │      ├ VendorSeverity   ─ bitnami: 3 
-│                        │      ├ CVSS             ─ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                        │      ├ CweIDs           ─ [0]: CWE-415 
+│                        │      ├ VendorSeverity   ╭ bitnami: 3 
+│                        │      │                  ╰ nvd    : 3 
+│                        │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                        │      │                  │         │           :N/A:H 
+│                        │      │                  │         ╰ V3Score : 7.5 
+│                        │      │                  ╰ nvd     ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
 │                        │      │                            │           :N/A:H 
 │                        │      │                            ╰ V3Score : 7.5 
 │                        │      ├ References       ╭ [0]: https://go.dev/cl/767860 
@@ -5482,7 +5498,7 @@
 │                        │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2026-33811 
 │                        │      │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2026-4981 
 │                        │      ├ PublishedDate   : 2026-05-07T20:16:42.77Z 
-│                        │      ╰ LastModifiedDate: 2026-05-08T15:16:36.64Z 
+│                        │      ╰ LastModifiedDate: 2026-05-12T20:23:02.333Z 
 │                        ├ [5]  ╭ VulnerabilityID : CVE-2026-33814 
 │                        │      ├ VendorIDs        ─ [0]: GO-2026-4918 
 │                        │      ├ PkgID           : stdlib@v1.25.7 
@@ -5661,7 +5677,7 @@
 │                        │      │                   htmlmetacontenturlescape=0. 
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
-│                        │      ├ VendorSeverity   ╭ amazon : 2 
+│                        │      ├ VendorSeverity   ╭ amazon : 3 
 │                        │      │                  ├ bitnami: 2 
 │                        │      │                  ╰ redhat : 2 
 │                        │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I
@@ -6019,7 +6035,7 @@
 │                               │                   files outside the root. 
 │                               ├ Severity        : LOW 
 │                               ├ CweIDs           ─ [0]: CWE-22 
-│                               ├ VendorSeverity   ╭ amazon : 2 
+│                               ├ VendorSeverity   ╭ amazon : 3 
 │                               │                  ├ azure  : 1 
 │                               │                  ├ bitnami: 1 
 │                               │                  ╰ redhat : 1 
@@ -6056,6 +6072,7 @@
 │                        │     │                  │         deec30060d01fa588f70 
 │                        │     │                  ╰ DiffID: sha256:04937fe57ec29d1e28c37b08c88f1aa7fa83c797dc54
 │                        │     │                            e18a80e72579d87bc3b8 
+│                        │     ├ SeveritySource  : nvd 
 │                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-33811 
 │                        │     ├ DataSource       ╭ ID  : govulndb 
 │                        │     │                  ├ Name: The Go Vulnerability Database 
@@ -6068,8 +6085,13 @@
 │                        │     │                   long CNAME response can trigger a double-free of C memory
 │                        │     │                   and a crash. 
 │                        │     ├ Severity        : HIGH 
-│                        │     ├ VendorSeverity   ─ bitnami: 3 
-│                        │     ├ CVSS             ─ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
+│                        │     ├ CweIDs           ─ [0]: CWE-415 
+│                        │     ├ VendorSeverity   ╭ bitnami: 3 
+│                        │     │                  ╰ nvd    : 3 
+│                        │     ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
+│                        │     │                  │         │           N/A:H 
+│                        │     │                  │         ╰ V3Score : 7.5 
+│                        │     │                  ╰ nvd     ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
 │                        │     │                            │           N/A:H 
 │                        │     │                            ╰ V3Score : 7.5 
 │                        │     ├ References       ╭ [0]: https://go.dev/cl/767860 
@@ -6079,7 +6101,7 @@
 │                        │     │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2026-33811 
 │                        │     │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2026-4981 
 │                        │     ├ PublishedDate   : 2026-05-07T20:16:42.77Z 
-│                        │     ╰ LastModifiedDate: 2026-05-08T15:16:36.64Z 
+│                        │     ╰ LastModifiedDate: 2026-05-12T20:23:02.333Z 
 │                        ├ [1] ╭ VulnerabilityID : CVE-2026-33814 
 │                        │     ├ VendorIDs        ─ [0]: GO-2026-4918 
 │                        │     ├ PkgID           : stdlib@v1.26.2 
@@ -6901,6 +6923,7 @@
 │                        │      │                  │         0deec30060d01fa588f70 
 │                        │      │                  ╰ DiffID: sha256:04937fe57ec29d1e28c37b08c88f1aa7fa83c797dc5
 │                        │      │                            4e18a80e72579d87bc3b8 
+│                        │      ├ SeveritySource  : nvd 
 │                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-33811 
 │                        │      ├ DataSource       ╭ ID  : govulndb 
 │                        │      │                  ├ Name: The Go Vulnerability Database 
@@ -6913,8 +6936,13 @@
 │                        │      │                   long CNAME response can trigger a double-free of C memory
 │                        │      │                   and a crash. 
 │                        │      ├ Severity        : HIGH 
-│                        │      ├ VendorSeverity   ─ bitnami: 3 
-│                        │      ├ CVSS             ─ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                        │      ├ CweIDs           ─ [0]: CWE-415 
+│                        │      ├ VendorSeverity   ╭ bitnami: 3 
+│                        │      │                  ╰ nvd    : 3 
+│                        │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                        │      │                  │         │           :N/A:H 
+│                        │      │                  │         ╰ V3Score : 7.5 
+│                        │      │                  ╰ nvd     ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
 │                        │      │                            │           :N/A:H 
 │                        │      │                            ╰ V3Score : 7.5 
 │                        │      ├ References       ╭ [0]: https://go.dev/cl/767860 
@@ -6924,7 +6952,7 @@
 │                        │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2026-33811 
 │                        │      │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2026-4981 
 │                        │      ├ PublishedDate   : 2026-05-07T20:16:42.77Z 
-│                        │      ╰ LastModifiedDate: 2026-05-08T15:16:36.64Z 
+│                        │      ╰ LastModifiedDate: 2026-05-12T20:23:02.333Z 
 │                        ├ [10] ╭ VulnerabilityID : CVE-2026-33814 
 │                        │      ├ VendorIDs        ─ [0]: GO-2026-4918 
 │                        │      ├ PkgID           : stdlib@v1.25.8 
@@ -7399,6 +7427,7 @@
 │                        │     │                  │         deec30060d01fa588f70 
 │                        │     │                  ╰ DiffID: sha256:04937fe57ec29d1e28c37b08c88f1aa7fa83c797dc54
 │                        │     │                            e18a80e72579d87bc3b8 
+│                        │     ├ SeveritySource  : nvd 
 │                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-33811 
 │                        │     ├ DataSource       ╭ ID  : govulndb 
 │                        │     │                  ├ Name: The Go Vulnerability Database 
@@ -7411,8 +7440,13 @@
 │                        │     │                   long CNAME response can trigger a double-free of C memory
 │                        │     │                   and a crash. 
 │                        │     ├ Severity        : HIGH 
-│                        │     ├ VendorSeverity   ─ bitnami: 3 
-│                        │     ├ CVSS             ─ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
+│                        │     ├ CweIDs           ─ [0]: CWE-415 
+│                        │     ├ VendorSeverity   ╭ bitnami: 3 
+│                        │     │                  ╰ nvd    : 3 
+│                        │     ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
+│                        │     │                  │         │           N/A:H 
+│                        │     │                  │         ╰ V3Score : 7.5 
+│                        │     │                  ╰ nvd     ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
 │                        │     │                            │           N/A:H 
 │                        │     │                            ╰ V3Score : 7.5 
 │                        │     ├ References       ╭ [0]: https://go.dev/cl/767860 
@@ -7422,7 +7456,7 @@
 │                        │     │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2026-33811 
 │                        │     │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2026-4981 
 │                        │     ├ PublishedDate   : 2026-05-07T20:16:42.77Z 
-│                        │     ╰ LastModifiedDate: 2026-05-08T15:16:36.64Z 
+│                        │     ╰ LastModifiedDate: 2026-05-12T20:23:02.333Z 
 │                        ├ [1] ╭ VulnerabilityID : CVE-2026-33814 
 │                        │     ├ VendorIDs        ─ [0]: GO-2026-4918 
 │                        │     ├ PkgID           : stdlib@v1.26.2 
@@ -7772,6 +7806,7 @@
 │                        │     │                  │         deec30060d01fa588f70 
 │                        │     │                  ╰ DiffID: sha256:04937fe57ec29d1e28c37b08c88f1aa7fa83c797dc54
 │                        │     │                            e18a80e72579d87bc3b8 
+│                        │     ├ SeveritySource  : nvd 
 │                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-33811 
 │                        │     ├ DataSource       ╭ ID  : govulndb 
 │                        │     │                  ├ Name: The Go Vulnerability Database 
@@ -7784,8 +7819,13 @@
 │                        │     │                   long CNAME response can trigger a double-free of C memory
 │                        │     │                   and a crash. 
 │                        │     ├ Severity        : HIGH 
-│                        │     ├ VendorSeverity   ─ bitnami: 3 
-│                        │     ├ CVSS             ─ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
+│                        │     ├ CweIDs           ─ [0]: CWE-415 
+│                        │     ├ VendorSeverity   ╭ bitnami: 3 
+│                        │     │                  ╰ nvd    : 3 
+│                        │     ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
+│                        │     │                  │         │           N/A:H 
+│                        │     │                  │         ╰ V3Score : 7.5 
+│                        │     │                  ╰ nvd     ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
 │                        │     │                            │           N/A:H 
 │                        │     │                            ╰ V3Score : 7.5 
 │                        │     ├ References       ╭ [0]: https://go.dev/cl/767860 
@@ -7795,7 +7835,7 @@
 │                        │     │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2026-33811 
 │                        │     │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2026-4981 
 │                        │     ├ PublishedDate   : 2026-05-07T20:16:42.77Z 
-│                        │     ╰ LastModifiedDate: 2026-05-08T15:16:36.64Z 
+│                        │     ╰ LastModifiedDate: 2026-05-12T20:23:02.333Z 
 │                        ├ [2] ╭ VulnerabilityID : CVE-2026-33814 
 │                        │     ├ VendorIDs        ─ [0]: GO-2026-4918 
 │                        │     ├ PkgID           : stdlib@v1.26.2 
@@ -8086,6 +8126,7 @@
 │                        │     │                  │         deec30060d01fa588f70 
 │                        │     │                  ╰ DiffID: sha256:04937fe57ec29d1e28c37b08c88f1aa7fa83c797dc54
 │                        │     │                            e18a80e72579d87bc3b8 
+│                        │     ├ SeveritySource  : nvd 
 │                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-33811 
 │                        │     ├ DataSource       ╭ ID  : govulndb 
 │                        │     │                  ├ Name: The Go Vulnerability Database 
@@ -8098,8 +8139,13 @@
 │                        │     │                   long CNAME response can trigger a double-free of C memory
 │                        │     │                   and a crash. 
 │                        │     ├ Severity        : HIGH 
-│                        │     ├ VendorSeverity   ─ bitnami: 3 
-│                        │     ├ CVSS             ─ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
+│                        │     ├ CweIDs           ─ [0]: CWE-415 
+│                        │     ├ VendorSeverity   ╭ bitnami: 3 
+│                        │     │                  ╰ nvd    : 3 
+│                        │     ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
+│                        │     │                  │         │           N/A:H 
+│                        │     │                  │         ╰ V3Score : 7.5 
+│                        │     │                  ╰ nvd     ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
 │                        │     │                            │           N/A:H 
 │                        │     │                            ╰ V3Score : 7.5 
 │                        │     ├ References       ╭ [0]: https://go.dev/cl/767860 
@@ -8109,7 +8155,7 @@
 │                        │     │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2026-33811 
 │                        │     │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2026-4981 
 │                        │     ├ PublishedDate   : 2026-05-07T20:16:42.77Z 
-│                        │     ╰ LastModifiedDate: 2026-05-08T15:16:36.64Z 
+│                        │     ╰ LastModifiedDate: 2026-05-12T20:23:02.333Z 
 │                        ├ [1] ╭ VulnerabilityID : CVE-2026-33814 
 │                        │     ├ VendorIDs        ─ [0]: GO-2026-4918 
 │                        │     ├ PkgID           : stdlib@v1.25.9 
@@ -8400,6 +8446,7 @@
 │                        │     │                  │         deec30060d01fa588f70 
 │                        │     │                  ╰ DiffID: sha256:04937fe57ec29d1e28c37b08c88f1aa7fa83c797dc54
 │                        │     │                            e18a80e72579d87bc3b8 
+│                        │     ├ SeveritySource  : nvd 
 │                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-33811 
 │                        │     ├ DataSource       ╭ ID  : govulndb 
 │                        │     │                  ├ Name: The Go Vulnerability Database 
@@ -8412,8 +8459,13 @@
 │                        │     │                   long CNAME response can trigger a double-free of C memory
 │                        │     │                   and a crash. 
 │                        │     ├ Severity        : HIGH 
-│                        │     ├ VendorSeverity   ─ bitnami: 3 
-│                        │     ├ CVSS             ─ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
+│                        │     ├ CweIDs           ─ [0]: CWE-415 
+│                        │     ├ VendorSeverity   ╭ bitnami: 3 
+│                        │     │                  ╰ nvd    : 3 
+│                        │     ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
+│                        │     │                  │         │           N/A:H 
+│                        │     │                  │         ╰ V3Score : 7.5 
+│                        │     │                  ╰ nvd     ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
 │                        │     │                            │           N/A:H 
 │                        │     │                            ╰ V3Score : 7.5 
 │                        │     ├ References       ╭ [0]: https://go.dev/cl/767860 
@@ -8423,7 +8475,7 @@
 │                        │     │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2026-33811 
 │                        │     │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2026-4981 
 │                        │     ├ PublishedDate   : 2026-05-07T20:16:42.77Z 
-│                        │     ╰ LastModifiedDate: 2026-05-08T15:16:36.64Z 
+│                        │     ╰ LastModifiedDate: 2026-05-12T20:23:02.333Z 
 │                        ├ [1] ╭ VulnerabilityID : CVE-2026-33814 
 │                        │     ├ VendorIDs        ─ [0]: GO-2026-4918 
 │                        │     ├ PkgID           : stdlib@v1.26.2 
@@ -9543,7 +9595,7 @@
 │                        │      ├ Severity        : HIGH 
 │                        │      ├ CweIDs           ─ [0]: CWE-425 
 │                        │      ├ VendorSeverity   ╭ alma       : 3 
-│                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ amazon     : 3 
 │                        │      │                  ├ azure      : 3 
 │                        │      │                  ├ bitnami    : 3 
 │                        │      │                  ├ oracle-oval: 3 
@@ -9786,6 +9838,7 @@
 │                        │      │                  │         0deec30060d01fa588f70 
 │                        │      │                  ╰ DiffID: sha256:04937fe57ec29d1e28c37b08c88f1aa7fa83c797dc5
 │                        │      │                            4e18a80e72579d87bc3b8 
+│                        │      ├ SeveritySource  : nvd 
 │                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-33811 
 │                        │      ├ DataSource       ╭ ID  : govulndb 
 │                        │      │                  ├ Name: The Go Vulnerability Database 
@@ -9798,8 +9851,13 @@
 │                        │      │                   long CNAME response can trigger a double-free of C memory
 │                        │      │                   and a crash. 
 │                        │      ├ Severity        : HIGH 
-│                        │      ├ VendorSeverity   ─ bitnami: 3 
-│                        │      ├ CVSS             ─ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                        │      ├ CweIDs           ─ [0]: CWE-415 
+│                        │      ├ VendorSeverity   ╭ bitnami: 3 
+│                        │      │                  ╰ nvd    : 3 
+│                        │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                        │      │                  │         │           :N/A:H 
+│                        │      │                  │         ╰ V3Score : 7.5 
+│                        │      │                  ╰ nvd     ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
 │                        │      │                            │           :N/A:H 
 │                        │      │                            ╰ V3Score : 7.5 
 │                        │      ├ References       ╭ [0]: https://go.dev/cl/767860 
@@ -9809,7 +9867,7 @@
 │                        │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2026-33811 
 │                        │      │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2026-4981 
 │                        │      ├ PublishedDate   : 2026-05-07T20:16:42.77Z 
-│                        │      ╰ LastModifiedDate: 2026-05-08T15:16:36.64Z 
+│                        │      ╰ LastModifiedDate: 2026-05-12T20:23:02.333Z 
 │                        ├ [17] ╭ VulnerabilityID : CVE-2026-33814 
 │                        │      ├ VendorIDs        ─ [0]: GO-2026-4918 
 │                        │      ├ PkgID           : stdlib@v1.24.6 
@@ -10519,7 +10577,7 @@
 │                        │      │                   htmlmetacontenturlescape=0. 
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
-│                        │      ├ VendorSeverity   ╭ amazon : 2 
+│                        │      ├ VendorSeverity   ╭ amazon : 3 
 │                        │      │                  ├ bitnami: 2 
 │                        │      │                  ╰ redhat : 2 
 │                        │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I
@@ -10877,7 +10935,7 @@
 │                               │                   files outside the root. 
 │                               ├ Severity        : LOW 
 │                               ├ CweIDs           ─ [0]: CWE-22 
-│                               ├ VendorSeverity   ╭ amazon : 2 
+│                               ├ VendorSeverity   ╭ amazon : 3 
 │                               │                  ├ azure  : 1 
 │                               │                  ├ bitnami: 1 
 │                               │                  ╰ redhat : 1 
@@ -10914,6 +10972,7 @@
 │                        │     │                  │         deec30060d01fa588f70 
 │                        │     │                  ╰ DiffID: sha256:04937fe57ec29d1e28c37b08c88f1aa7fa83c797dc54
 │                        │     │                            e18a80e72579d87bc3b8 
+│                        │     ├ SeveritySource  : nvd 
 │                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-33811 
 │                        │     ├ DataSource       ╭ ID  : govulndb 
 │                        │     │                  ├ Name: The Go Vulnerability Database 
@@ -10926,8 +10985,13 @@
 │                        │     │                   long CNAME response can trigger a double-free of C memory
 │                        │     │                   and a crash. 
 │                        │     ├ Severity        : HIGH 
-│                        │     ├ VendorSeverity   ─ bitnami: 3 
-│                        │     ├ CVSS             ─ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
+│                        │     ├ CweIDs           ─ [0]: CWE-415 
+│                        │     ├ VendorSeverity   ╭ bitnami: 3 
+│                        │     │                  ╰ nvd    : 3 
+│                        │     ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
+│                        │     │                  │         │           N/A:H 
+│                        │     │                  │         ╰ V3Score : 7.5 
+│                        │     │                  ╰ nvd     ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
 │                        │     │                            │           N/A:H 
 │                        │     │                            ╰ V3Score : 7.5 
 │                        │     ├ References       ╭ [0]: https://go.dev/cl/767860 
@@ -10937,7 +11001,7 @@
 │                        │     │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2026-33811 
 │                        │     │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2026-4981 
 │                        │     ├ PublishedDate   : 2026-05-07T20:16:42.77Z 
-│                        │     ╰ LastModifiedDate: 2026-05-08T15:16:36.64Z 
+│                        │     ╰ LastModifiedDate: 2026-05-12T20:23:02.333Z 
 │                        ├ [1] ╭ VulnerabilityID : CVE-2026-33814 
 │                        │     ├ VendorIDs        ─ [0]: GO-2026-4918 
 │                        │     ├ PkgID           : stdlib@v1.26.2 
@@ -11929,6 +11993,7 @@
 │                        │      │                  │         0deec30060d01fa588f70 
 │                        │      │                  ╰ DiffID: sha256:04937fe57ec29d1e28c37b08c88f1aa7fa83c797dc5
 │                        │      │                            4e18a80e72579d87bc3b8 
+│                        │      ├ SeveritySource  : nvd 
 │                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-33811 
 │                        │      ├ DataSource       ╭ ID  : govulndb 
 │                        │      │                  ├ Name: The Go Vulnerability Database 
@@ -11941,8 +12006,13 @@
 │                        │      │                   long CNAME response can trigger a double-free of C memory
 │                        │      │                   and a crash. 
 │                        │      ├ Severity        : HIGH 
-│                        │      ├ VendorSeverity   ─ bitnami: 3 
-│                        │      ├ CVSS             ─ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                        │      ├ CweIDs           ─ [0]: CWE-415 
+│                        │      ├ VendorSeverity   ╭ bitnami: 3 
+│                        │      │                  ╰ nvd    : 3 
+│                        │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                        │      │                  │         │           :N/A:H 
+│                        │      │                  │         ╰ V3Score : 7.5 
+│                        │      │                  ╰ nvd     ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
 │                        │      │                            │           :N/A:H 
 │                        │      │                            ╰ V3Score : 7.5 
 │                        │      ├ References       ╭ [0]: https://go.dev/cl/767860 
@@ -11952,7 +12022,7 @@
 │                        │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2026-33811 
 │                        │      │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2026-4981 
 │                        │      ├ PublishedDate   : 2026-05-07T20:16:42.77Z 
-│                        │      ╰ LastModifiedDate: 2026-05-08T15:16:36.64Z 
+│                        │      ╰ LastModifiedDate: 2026-05-12T20:23:02.333Z 
 │                        ├ [13] ╭ VulnerabilityID : CVE-2026-33814 
 │                        │      ├ VendorIDs        ─ [0]: GO-2026-4918 
 │                        │      ├ PkgID           : stdlib@v1.25.8 
@@ -12958,6 +13028,7 @@
 │                        │      │                  │         0deec30060d01fa588f70 
 │                        │      │                  ╰ DiffID: sha256:04937fe57ec29d1e28c37b08c88f1aa7fa83c797dc5
 │                        │      │                            4e18a80e72579d87bc3b8 
+│                        │      ├ SeveritySource  : nvd 
 │                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-33811 
 │                        │      ├ DataSource       ╭ ID  : govulndb 
 │                        │      │                  ├ Name: The Go Vulnerability Database 
@@ -12970,8 +13041,13 @@
 │                        │      │                   long CNAME response can trigger a double-free of C memory
 │                        │      │                   and a crash. 
 │                        │      ├ Severity        : HIGH 
-│                        │      ├ VendorSeverity   ─ bitnami: 3 
-│                        │      ├ CVSS             ─ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                        │      ├ CweIDs           ─ [0]: CWE-415 
+│                        │      ├ VendorSeverity   ╭ bitnami: 3 
+│                        │      │                  ╰ nvd    : 3 
+│                        │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                        │      │                  │         │           :N/A:H 
+│                        │      │                  │         ╰ V3Score : 7.5 
+│                        │      │                  ╰ nvd     ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
 │                        │      │                            │           :N/A:H 
 │                        │      │                            ╰ V3Score : 7.5 
 │                        │      ├ References       ╭ [0]: https://go.dev/cl/767860 
@@ -12981,7 +13057,7 @@
 │                        │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2026-33811 
 │                        │      │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2026-4981 
 │                        │      ├ PublishedDate   : 2026-05-07T20:16:42.77Z 
-│                        │      ╰ LastModifiedDate: 2026-05-08T15:16:36.64Z 
+│                        │      ╰ LastModifiedDate: 2026-05-12T20:23:02.333Z 
 │                        ├ [10] ╭ VulnerabilityID : CVE-2026-33814 
 │                        │      ├ VendorIDs        ─ [0]: GO-2026-4918 
 │                        │      ├ PkgID           : stdlib@v1.25.8 
@@ -13502,6 +13578,7 @@
 │                        │     │                  │         deec30060d01fa588f70 
 │                        │     │                  ╰ DiffID: sha256:04937fe57ec29d1e28c37b08c88f1aa7fa83c797dc54
 │                        │     │                            e18a80e72579d87bc3b8 
+│                        │     ├ SeveritySource  : nvd 
 │                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-33811 
 │                        │     ├ DataSource       ╭ ID  : govulndb 
 │                        │     │                  ├ Name: The Go Vulnerability Database 
@@ -13514,8 +13591,13 @@
 │                        │     │                   long CNAME response can trigger a double-free of C memory
 │                        │     │                   and a crash. 
 │                        │     ├ Severity        : HIGH 
-│                        │     ├ VendorSeverity   ─ bitnami: 3 
-│                        │     ├ CVSS             ─ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
+│                        │     ├ CweIDs           ─ [0]: CWE-415 
+│                        │     ├ VendorSeverity   ╭ bitnami: 3 
+│                        │     │                  ╰ nvd    : 3 
+│                        │     ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
+│                        │     │                  │         │           N/A:H 
+│                        │     │                  │         ╰ V3Score : 7.5 
+│                        │     │                  ╰ nvd     ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
 │                        │     │                            │           N/A:H 
 │                        │     │                            ╰ V3Score : 7.5 
 │                        │     ├ References       ╭ [0]: https://go.dev/cl/767860 
@@ -13525,7 +13607,7 @@
 │                        │     │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2026-33811 
 │                        │     │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2026-4981 
 │                        │     ├ PublishedDate   : 2026-05-07T20:16:42.77Z 
-│                        │     ╰ LastModifiedDate: 2026-05-08T15:16:36.64Z 
+│                        │     ╰ LastModifiedDate: 2026-05-12T20:23:02.333Z 
 │                        ├ [2] ╭ VulnerabilityID : CVE-2026-33814 
 │                        │     ├ VendorIDs        ─ [0]: GO-2026-4918 
 │                        │     ├ PkgID           : stdlib@v1.25.9 
@@ -15512,7 +15594,7 @@
 │                        │      ├ Severity        : HIGH 
 │                        │      ├ CweIDs           ─ [0]: CWE-425 
 │                        │      ├ VendorSeverity   ╭ alma       : 3 
-│                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ amazon     : 3 
 │                        │      │                  ├ azure      : 3 
 │                        │      │                  ├ bitnami    : 3 
 │                        │      │                  ├ oracle-oval: 3 
@@ -15755,6 +15837,7 @@
 │                        │      │                  │         0deec30060d01fa588f70 
 │                        │      │                  ╰ DiffID: sha256:04937fe57ec29d1e28c37b08c88f1aa7fa83c797dc5
 │                        │      │                            4e18a80e72579d87bc3b8 
+│                        │      ├ SeveritySource  : nvd 
 │                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-33811 
 │                        │      ├ DataSource       ╭ ID  : govulndb 
 │                        │      │                  ├ Name: The Go Vulnerability Database 
@@ -15767,8 +15850,13 @@
 │                        │      │                   long CNAME response can trigger a double-free of C memory
 │                        │      │                   and a crash. 
 │                        │      ├ Severity        : HIGH 
-│                        │      ├ VendorSeverity   ─ bitnami: 3 
-│                        │      ├ CVSS             ─ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                        │      ├ CweIDs           ─ [0]: CWE-415 
+│                        │      ├ VendorSeverity   ╭ bitnami: 3 
+│                        │      │                  ╰ nvd    : 3 
+│                        │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                        │      │                  │         │           :N/A:H 
+│                        │      │                  │         ╰ V3Score : 7.5 
+│                        │      │                  ╰ nvd     ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
 │                        │      │                            │           :N/A:H 
 │                        │      │                            ╰ V3Score : 7.5 
 │                        │      ├ References       ╭ [0]: https://go.dev/cl/767860 
@@ -15778,7 +15866,7 @@
 │                        │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2026-33811 
 │                        │      │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2026-4981 
 │                        │      ├ PublishedDate   : 2026-05-07T20:16:42.77Z 
-│                        │      ╰ LastModifiedDate: 2026-05-08T15:16:36.64Z 
+│                        │      ╰ LastModifiedDate: 2026-05-12T20:23:02.333Z 
 │                        ├ [30] ╭ VulnerabilityID : CVE-2026-33814 
 │                        │      ├ VendorIDs        ─ [0]: GO-2026-4918 
 │                        │      ├ PkgID           : stdlib@v1.22.12 
@@ -16081,28 +16169,30 @@
 │                        │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2025-22871 
 │                        │      │                  ├ [3] : https://bugzilla.redhat.com/2358493 
 │                        │      │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2358493 
-│                        │      │                  ├ [5] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                        │      │                  ├ [5] : https://cert-portal.siemens.com/productcert/html/ssa
+│                        │      │                  │       -783943.html 
+│                        │      │                  ├ [6] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                        │      │                  │       025-22871 
-│                        │      │                  ├ [6] : https://errata.almalinux.org/9/ALSA-2025-9635.html 
-│                        │      │                  ├ [7] : https://errata.rockylinux.org/RLSA-2025:9635 
-│                        │      │                  ├ [8] : https://github.com/roadrunner-server/roadrunner 
-│                        │      │                  ├ [9] : https://github.com/roadrunner-server/roadrunner/comm
+│                        │      │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2025-9635.html 
+│                        │      │                  ├ [8] : https://errata.rockylinux.org/RLSA-2025:9635 
+│                        │      │                  ├ [9] : https://github.com/roadrunner-server/roadrunner 
+│                        │      │                  ├ [10]: https://github.com/roadrunner-server/roadrunner/comm
 │                        │      │                  │       it/f269279ee87d0b88127741cad1042389af7605fa 
-│                        │      │                  ├ [10]: https://github.com/roadrunner-server/roadrunner/issu
+│                        │      │                  ├ [11]: https://github.com/roadrunner-server/roadrunner/issu
 │                        │      │                  │       es/2166 
-│                        │      │                  ├ [11]: https://github.com/roadrunner-server/roadrunner/rele
+│                        │      │                  ├ [12]: https://github.com/roadrunner-server/roadrunner/rele
 │                        │      │                  │       ases/tag/v2025.1.0 
-│                        │      │                  ├ [12]: https://go.dev/cl/652998 
-│                        │      │                  ├ [13]: https://go.dev/issue/71988 
-│                        │      │                  ├ [14]: https://groups.google.com/g/golang-announce/c/Y2uBTV
+│                        │      │                  ├ [13]: https://go.dev/cl/652998 
+│                        │      │                  ├ [14]: https://go.dev/issue/71988 
+│                        │      │                  ├ [15]: https://groups.google.com/g/golang-announce/c/Y2uBTV
 │                        │      │                  │       KjBQk 
-│                        │      │                  ├ [15]: https://linux.oracle.com/cve/CVE-2025-22871.html 
-│                        │      │                  ├ [16]: https://linux.oracle.com/errata/ELSA-2025-9845.html 
-│                        │      │                  ├ [17]: https://nvd.nist.gov/vuln/detail/CVE-2025-22871 
-│                        │      │                  ├ [18]: https://pkg.go.dev/vuln/GO-2025-3563 
-│                        │      │                  ╰ [19]: https://www.cve.org/CVERecord?id=CVE-2025-22871 
+│                        │      │                  ├ [16]: https://linux.oracle.com/cve/CVE-2025-22871.html 
+│                        │      │                  ├ [17]: https://linux.oracle.com/errata/ELSA-2025-9845.html 
+│                        │      │                  ├ [18]: https://nvd.nist.gov/vuln/detail/CVE-2025-22871 
+│                        │      │                  ├ [19]: https://pkg.go.dev/vuln/GO-2025-3563 
+│                        │      │                  ╰ [20]: https://www.cve.org/CVERecord?id=CVE-2025-22871 
 │                        │      ├ PublishedDate   : 2025-04-08T20:15:20.183Z 
-│                        │      ╰ LastModifiedDate: 2026-04-15T00:35:42.02Z 
+│                        │      ╰ LastModifiedDate: 2026-05-12T13:16:39.897Z 
 │                        ├ [37] ╭ VulnerabilityID : CVE-2025-22873 
 │                        │      ├ VendorIDs        ─ [0]: GO-2026-4403 
 │                        │      ├ PkgID           : stdlib@v1.22.12 
@@ -16836,7 +16926,7 @@
 │                        │      │                   htmlmetacontenturlescape=0. 
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
-│                        │      ├ VendorSeverity   ╭ amazon : 2 
+│                        │      ├ VendorSeverity   ╭ amazon : 3 
 │                        │      │                  ├ bitnami: 2 
 │                        │      │                  ╰ redhat : 2 
 │                        │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I
@@ -17194,7 +17284,7 @@
 │                               │                   files outside the root. 
 │                               ├ Severity        : LOW 
 │                               ├ CweIDs           ─ [0]: CWE-22 
-│                               ├ VendorSeverity   ╭ amazon : 2 
+│                               ├ VendorSeverity   ╭ amazon : 3 
 │                               │                  ├ azure  : 1 
 │                               │                  ├ bitnami: 1 
 │                               │                  ╰ redhat : 1 
