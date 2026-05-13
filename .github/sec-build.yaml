@@ -929,11 +929,12 @@
     References:
     - http://www.openwall.com/lists/oss-security/2025/12/02/1
     - https://access.redhat.com/security/cve/CVE-2025-66382
+    - https://cert-portal.siemens.com/productcert/html/ssa-082556.html
     - https://github.com/libexpat/libexpat/issues/1076
     - https://nvd.nist.gov/vuln/detail/CVE-2025-66382
     - https://www.cve.org/CVERecord?id=CVE-2025-66382
     PublishedDate: '2025-11-28T07:15:57.9Z'
-    LastModifiedDate: '2025-12-19T16:05:03.557Z'
+    LastModifiedDate: '2026-05-12T13:17:23.933Z'
   - VulnerabilityID: CVE-2022-27943
     PkgID: libgcc-s1@12.3.0-1ubuntu1~22.04.3
     PkgName: libgcc-s1
@@ -3620,7 +3621,7 @@
     - CWE-425
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       azure: 3
       bitnami: 3
       oracle-oval: 3
@@ -3851,6 +3852,7 @@
     Layer:
       Digest: sha256:5444e5e5ceb7df9a71a05d88474c85bb00eb54ff60a0deec30060d01fa588f70
       DiffID: sha256:04937fe57ec29d1e28c37b08c88f1aa7fa83c797dc54e18a80e72579d87bc3b8
+    SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-33811
     DataSource:
       ID: govulndb
@@ -3860,10 +3862,16 @@
     Title: When using LookupCNAME with the cgo DNS resolver, a very long CNAME re ...
     Description: When using LookupCNAME with the cgo DNS resolver, a very long CNAME response can trigger a double-free of C memory and a crash.
     Severity: HIGH
+    CweIDs:
+    - CWE-415
     VendorSeverity:
       bitnami: 3
+      nvd: 3
     CVSS:
       bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
@@ -3873,7 +3881,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-33811
     - https://pkg.go.dev/vuln/GO-2026-4981
     PublishedDate: '2026-05-07T20:16:42.77Z'
-    LastModifiedDate: '2026-05-08T15:16:36.64Z'
+    LastModifiedDate: '2026-05-12T20:23:02.333Z'
   - VulnerabilityID: CVE-2026-33814
     VendorIDs:
     - GO-2026-4918
@@ -4049,7 +4057,7 @@
     CweIDs:
     - CWE-79
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       bitnami: 2
       redhat: 2
     CVSS:
@@ -4377,7 +4385,7 @@
     CweIDs:
     - CWE-22
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 1
       bitnami: 1
       redhat: 1
@@ -4430,7 +4438,7 @@
     - CWE-425
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       azure: 3
       bitnami: 3
       oracle-oval: 3
@@ -4661,6 +4669,7 @@
     Layer:
       Digest: sha256:5444e5e5ceb7df9a71a05d88474c85bb00eb54ff60a0deec30060d01fa588f70
       DiffID: sha256:04937fe57ec29d1e28c37b08c88f1aa7fa83c797dc54e18a80e72579d87bc3b8
+    SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-33811
     DataSource:
       ID: govulndb
@@ -4670,10 +4679,16 @@
     Title: When using LookupCNAME with the cgo DNS resolver, a very long CNAME re ...
     Description: When using LookupCNAME with the cgo DNS resolver, a very long CNAME response can trigger a double-free of C memory and a crash.
     Severity: HIGH
+    CweIDs:
+    - CWE-415
     VendorSeverity:
       bitnami: 3
+      nvd: 3
     CVSS:
       bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
@@ -4683,7 +4698,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-33811
     - https://pkg.go.dev/vuln/GO-2026-4981
     PublishedDate: '2026-05-07T20:16:42.77Z'
-    LastModifiedDate: '2026-05-08T15:16:36.64Z'
+    LastModifiedDate: '2026-05-12T20:23:02.333Z'
   - VulnerabilityID: CVE-2026-33814
     VendorIDs:
     - GO-2026-4918
@@ -4859,7 +4874,7 @@
     CweIDs:
     - CWE-79
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       bitnami: 2
       redhat: 2
     CVSS:
@@ -5187,7 +5202,7 @@
     CweIDs:
     - CWE-22
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 1
       bitnami: 1
       redhat: 1
@@ -5227,6 +5242,7 @@
     Layer:
       Digest: sha256:5444e5e5ceb7df9a71a05d88474c85bb00eb54ff60a0deec30060d01fa588f70
       DiffID: sha256:04937fe57ec29d1e28c37b08c88f1aa7fa83c797dc54e18a80e72579d87bc3b8
+    SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-33811
     DataSource:
       ID: govulndb
@@ -5236,10 +5252,16 @@
     Title: When using LookupCNAME with the cgo DNS resolver, a very long CNAME re ...
     Description: When using LookupCNAME with the cgo DNS resolver, a very long CNAME response can trigger a double-free of C memory and a crash.
     Severity: HIGH
+    CweIDs:
+    - CWE-415
     VendorSeverity:
       bitnami: 3
+      nvd: 3
     CVSS:
       bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
@@ -5249,7 +5271,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-33811
     - https://pkg.go.dev/vuln/GO-2026-4981
     PublishedDate: '2026-05-07T20:16:42.77Z'
-    LastModifiedDate: '2026-05-08T15:16:36.64Z'
+    LastModifiedDate: '2026-05-12T20:23:02.333Z'
   - VulnerabilityID: CVE-2026-33814
     VendorIDs:
     - GO-2026-4918
@@ -5993,6 +6015,7 @@
     Layer:
       Digest: sha256:5444e5e5ceb7df9a71a05d88474c85bb00eb54ff60a0deec30060d01fa588f70
       DiffID: sha256:04937fe57ec29d1e28c37b08c88f1aa7fa83c797dc54e18a80e72579d87bc3b8
+    SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-33811
     DataSource:
       ID: govulndb
@@ -6002,10 +6025,16 @@
     Title: When using LookupCNAME with the cgo DNS resolver, a very long CNAME re ...
     Description: When using LookupCNAME with the cgo DNS resolver, a very long CNAME response can trigger a double-free of C memory and a crash.
     Severity: HIGH
+    CweIDs:
+    - CWE-415
     VendorSeverity:
       bitnami: 3
+      nvd: 3
     CVSS:
       bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
@@ -6015,7 +6044,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-33811
     - https://pkg.go.dev/vuln/GO-2026-4981
     PublishedDate: '2026-05-07T20:16:42.77Z'
-    LastModifiedDate: '2026-05-08T15:16:36.64Z'
+    LastModifiedDate: '2026-05-12T20:23:02.333Z'
   - VulnerabilityID: CVE-2026-33814
     VendorIDs:
     - GO-2026-4918
@@ -6466,6 +6495,7 @@
     Layer:
       Digest: sha256:5444e5e5ceb7df9a71a05d88474c85bb00eb54ff60a0deec30060d01fa588f70
       DiffID: sha256:04937fe57ec29d1e28c37b08c88f1aa7fa83c797dc54e18a80e72579d87bc3b8
+    SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-33811
     DataSource:
       ID: govulndb
@@ -6475,10 +6505,16 @@
     Title: When using LookupCNAME with the cgo DNS resolver, a very long CNAME re ...
     Description: When using LookupCNAME with the cgo DNS resolver, a very long CNAME response can trigger a double-free of C memory and a crash.
     Severity: HIGH
+    CweIDs:
+    - CWE-415
     VendorSeverity:
       bitnami: 3
+      nvd: 3
     CVSS:
       bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
@@ -6488,7 +6524,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-33811
     - https://pkg.go.dev/vuln/GO-2026-4981
     PublishedDate: '2026-05-07T20:16:42.77Z'
-    LastModifiedDate: '2026-05-08T15:16:36.64Z'
+    LastModifiedDate: '2026-05-12T20:23:02.333Z'
   - VulnerabilityID: CVE-2026-33814
     VendorIDs:
     - GO-2026-4918
@@ -6814,6 +6850,7 @@
     Layer:
       Digest: sha256:5444e5e5ceb7df9a71a05d88474c85bb00eb54ff60a0deec30060d01fa588f70
       DiffID: sha256:04937fe57ec29d1e28c37b08c88f1aa7fa83c797dc54e18a80e72579d87bc3b8
+    SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-33811
     DataSource:
       ID: govulndb
@@ -6823,10 +6860,16 @@
     Title: When using LookupCNAME with the cgo DNS resolver, a very long CNAME re ...
     Description: When using LookupCNAME with the cgo DNS resolver, a very long CNAME response can trigger a double-free of C memory and a crash.
     Severity: HIGH
+    CweIDs:
+    - CWE-415
     VendorSeverity:
       bitnami: 3
+      nvd: 3
     CVSS:
       bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
@@ -6836,7 +6879,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-33811
     - https://pkg.go.dev/vuln/GO-2026-4981
     PublishedDate: '2026-05-07T20:16:42.77Z'
-    LastModifiedDate: '2026-05-08T15:16:36.64Z'
+    LastModifiedDate: '2026-05-12T20:23:02.333Z'
   - VulnerabilityID: CVE-2026-33814
     VendorIDs:
     - GO-2026-4918
@@ -7116,6 +7159,7 @@
     Layer:
       Digest: sha256:5444e5e5ceb7df9a71a05d88474c85bb00eb54ff60a0deec30060d01fa588f70
       DiffID: sha256:04937fe57ec29d1e28c37b08c88f1aa7fa83c797dc54e18a80e72579d87bc3b8
+    SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-33811
     DataSource:
       ID: govulndb
@@ -7125,10 +7169,16 @@
     Title: When using LookupCNAME with the cgo DNS resolver, a very long CNAME re ...
     Description: When using LookupCNAME with the cgo DNS resolver, a very long CNAME response can trigger a double-free of C memory and a crash.
     Severity: HIGH
+    CweIDs:
+    - CWE-415
     VendorSeverity:
       bitnami: 3
+      nvd: 3
     CVSS:
       bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
@@ -7138,7 +7188,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-33811
     - https://pkg.go.dev/vuln/GO-2026-4981
     PublishedDate: '2026-05-07T20:16:42.77Z'
-    LastModifiedDate: '2026-05-08T15:16:36.64Z'
+    LastModifiedDate: '2026-05-12T20:23:02.333Z'
   - VulnerabilityID: CVE-2026-33814
     VendorIDs:
     - GO-2026-4918
@@ -7418,6 +7468,7 @@
     Layer:
       Digest: sha256:5444e5e5ceb7df9a71a05d88474c85bb00eb54ff60a0deec30060d01fa588f70
       DiffID: sha256:04937fe57ec29d1e28c37b08c88f1aa7fa83c797dc54e18a80e72579d87bc3b8
+    SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-33811
     DataSource:
       ID: govulndb
@@ -7427,10 +7478,16 @@
     Title: When using LookupCNAME with the cgo DNS resolver, a very long CNAME re ...
     Description: When using LookupCNAME with the cgo DNS resolver, a very long CNAME response can trigger a double-free of C memory and a crash.
     Severity: HIGH
+    CweIDs:
+    - CWE-415
     VendorSeverity:
       bitnami: 3
+      nvd: 3
     CVSS:
       bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
@@ -7440,7 +7497,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-33811
     - https://pkg.go.dev/vuln/GO-2026-4981
     PublishedDate: '2026-05-07T20:16:42.77Z'
-    LastModifiedDate: '2026-05-08T15:16:36.64Z'
+    LastModifiedDate: '2026-05-12T20:23:02.333Z'
   - VulnerabilityID: CVE-2026-33814
     VendorIDs:
     - GO-2026-4918
@@ -8414,7 +8471,7 @@
     - CWE-425
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       azure: 3
       bitnami: 3
       oracle-oval: 3
@@ -8645,6 +8702,7 @@
     Layer:
       Digest: sha256:5444e5e5ceb7df9a71a05d88474c85bb00eb54ff60a0deec30060d01fa588f70
       DiffID: sha256:04937fe57ec29d1e28c37b08c88f1aa7fa83c797dc54e18a80e72579d87bc3b8
+    SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-33811
     DataSource:
       ID: govulndb
@@ -8654,10 +8712,16 @@
     Title: When using LookupCNAME with the cgo DNS resolver, a very long CNAME re ...
     Description: When using LookupCNAME with the cgo DNS resolver, a very long CNAME response can trigger a double-free of C memory and a crash.
     Severity: HIGH
+    CweIDs:
+    - CWE-415
     VendorSeverity:
       bitnami: 3
+      nvd: 3
     CVSS:
       bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
@@ -8667,7 +8731,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-33811
     - https://pkg.go.dev/vuln/GO-2026-4981
     PublishedDate: '2026-05-07T20:16:42.77Z'
-    LastModifiedDate: '2026-05-08T15:16:36.64Z'
+    LastModifiedDate: '2026-05-12T20:23:02.333Z'
   - VulnerabilityID: CVE-2026-33814
     VendorIDs:
     - GO-2026-4918
@@ -9361,7 +9425,7 @@
     CweIDs:
     - CWE-79
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       bitnami: 2
       redhat: 2
     CVSS:
@@ -9689,7 +9753,7 @@
     CweIDs:
     - CWE-22
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 1
       bitnami: 1
       redhat: 1
@@ -9729,6 +9793,7 @@
     Layer:
       Digest: sha256:5444e5e5ceb7df9a71a05d88474c85bb00eb54ff60a0deec30060d01fa588f70
       DiffID: sha256:04937fe57ec29d1e28c37b08c88f1aa7fa83c797dc54e18a80e72579d87bc3b8
+    SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-33811
     DataSource:
       ID: govulndb
@@ -9738,10 +9803,16 @@
     Title: When using LookupCNAME with the cgo DNS resolver, a very long CNAME re ...
     Description: When using LookupCNAME with the cgo DNS resolver, a very long CNAME response can trigger a double-free of C memory and a crash.
     Severity: HIGH
+    CweIDs:
+    - CWE-415
     VendorSeverity:
       bitnami: 3
+      nvd: 3
     CVSS:
       bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
@@ -9751,7 +9822,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-33811
     - https://pkg.go.dev/vuln/GO-2026-4981
     PublishedDate: '2026-05-07T20:16:42.77Z'
-    LastModifiedDate: '2026-05-08T15:16:36.64Z'
+    LastModifiedDate: '2026-05-12T20:23:02.333Z'
   - VulnerabilityID: CVE-2026-33814
     VendorIDs:
     - GO-2026-4918
@@ -10628,6 +10699,7 @@
     Layer:
       Digest: sha256:5444e5e5ceb7df9a71a05d88474c85bb00eb54ff60a0deec30060d01fa588f70
       DiffID: sha256:04937fe57ec29d1e28c37b08c88f1aa7fa83c797dc54e18a80e72579d87bc3b8
+    SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-33811
     DataSource:
       ID: govulndb
@@ -10637,10 +10709,16 @@
     Title: When using LookupCNAME with the cgo DNS resolver, a very long CNAME re ...
     Description: When using LookupCNAME with the cgo DNS resolver, a very long CNAME response can trigger a double-free of C memory and a crash.
     Severity: HIGH
+    CweIDs:
+    - CWE-415
     VendorSeverity:
       bitnami: 3
+      nvd: 3
     CVSS:
       bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
@@ -10650,7 +10728,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-33811
     - https://pkg.go.dev/vuln/GO-2026-4981
     PublishedDate: '2026-05-07T20:16:42.77Z'
-    LastModifiedDate: '2026-05-08T15:16:36.64Z'
+    LastModifiedDate: '2026-05-12T20:23:02.333Z'
   - VulnerabilityID: CVE-2026-33814
     VendorIDs:
     - GO-2026-4918
@@ -11565,6 +11643,7 @@
     Layer:
       Digest: sha256:5444e5e5ceb7df9a71a05d88474c85bb00eb54ff60a0deec30060d01fa588f70
       DiffID: sha256:04937fe57ec29d1e28c37b08c88f1aa7fa83c797dc54e18a80e72579d87bc3b8
+    SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-33811
     DataSource:
       ID: govulndb
@@ -11574,10 +11653,16 @@
     Title: When using LookupCNAME with the cgo DNS resolver, a very long CNAME re ...
     Description: When using LookupCNAME with the cgo DNS resolver, a very long CNAME response can trigger a double-free of C memory and a crash.
     Severity: HIGH
+    CweIDs:
+    - CWE-415
     VendorSeverity:
       bitnami: 3
+      nvd: 3
     CVSS:
       bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
@@ -11587,7 +11672,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-33811
     - https://pkg.go.dev/vuln/GO-2026-4981
     PublishedDate: '2026-05-07T20:16:42.77Z'
-    LastModifiedDate: '2026-05-08T15:16:36.64Z'
+    LastModifiedDate: '2026-05-12T20:23:02.333Z'
   - VulnerabilityID: CVE-2026-33814
     VendorIDs:
     - GO-2026-4918
@@ -12081,6 +12166,7 @@
     Layer:
       Digest: sha256:5444e5e5ceb7df9a71a05d88474c85bb00eb54ff60a0deec30060d01fa588f70
       DiffID: sha256:04937fe57ec29d1e28c37b08c88f1aa7fa83c797dc54e18a80e72579d87bc3b8
+    SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-33811
     DataSource:
       ID: govulndb
@@ -12090,10 +12176,16 @@
     Title: When using LookupCNAME with the cgo DNS resolver, a very long CNAME re ...
     Description: When using LookupCNAME with the cgo DNS resolver, a very long CNAME response can trigger a double-free of C memory and a crash.
     Severity: HIGH
+    CweIDs:
+    - CWE-415
     VendorSeverity:
       bitnami: 3
+      nvd: 3
     CVSS:
       bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
@@ -12103,7 +12195,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-33811
     - https://pkg.go.dev/vuln/GO-2026-4981
     PublishedDate: '2026-05-07T20:16:42.77Z'
-    LastModifiedDate: '2026-05-08T15:16:36.64Z'
+    LastModifiedDate: '2026-05-12T20:23:02.333Z'
   - VulnerabilityID: CVE-2026-33814
     VendorIDs:
     - GO-2026-4918
@@ -13808,7 +13900,7 @@
     - CWE-425
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       azure: 3
       bitnami: 3
       oracle-oval: 3
@@ -14039,6 +14131,7 @@
     Layer:
       Digest: sha256:5444e5e5ceb7df9a71a05d88474c85bb00eb54ff60a0deec30060d01fa588f70
       DiffID: sha256:04937fe57ec29d1e28c37b08c88f1aa7fa83c797dc54e18a80e72579d87bc3b8
+    SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-33811
     DataSource:
       ID: govulndb
@@ -14048,10 +14141,16 @@
     Title: When using LookupCNAME with the cgo DNS resolver, a very long CNAME re ...
     Description: When using LookupCNAME with the cgo DNS resolver, a very long CNAME response can trigger a double-free of C memory and a crash.
     Severity: HIGH
+    CweIDs:
+    - CWE-415
     VendorSeverity:
       bitnami: 3
+      nvd: 3
     CVSS:
       bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
@@ -14061,7 +14160,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-33811
     - https://pkg.go.dev/vuln/GO-2026-4981
     PublishedDate: '2026-05-07T20:16:42.77Z'
-    LastModifiedDate: '2026-05-08T15:16:36.64Z'
+    LastModifiedDate: '2026-05-12T20:23:02.333Z'
   - VulnerabilityID: CVE-2026-33814
     VendorIDs:
     - GO-2026-4918
@@ -14355,6 +14454,7 @@
     - https://access.redhat.com/security/cve/CVE-2025-22871
     - https://bugzilla.redhat.com/2358493
     - https://bugzilla.redhat.com/show_bug.cgi?id=2358493
+    - https://cert-portal.siemens.com/productcert/html/ssa-783943.html
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-22871
     - https://errata.almalinux.org/9/ALSA-2025-9635.html
     - https://errata.rockylinux.org/RLSA-2025:9635
@@ -14371,7 +14471,7 @@
     - https://pkg.go.dev/vuln/GO-2025-3563
     - https://www.cve.org/CVERecord?id=CVE-2025-22871
     PublishedDate: '2025-04-08T20:15:20.183Z'
-    LastModifiedDate: '2026-04-15T00:35:42.02Z'
+    LastModifiedDate: '2026-05-12T13:16:39.897Z'
   - VulnerabilityID: CVE-2025-22873
     VendorIDs:
     - GO-2026-4403
@@ -15081,7 +15181,7 @@
     CweIDs:
     - CWE-79
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       bitnami: 2
       redhat: 2
     CVSS:
@@ -15409,7 +15509,7 @@
     CweIDs:
     - CWE-22
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 1
       bitnami: 1
       redhat: 1
