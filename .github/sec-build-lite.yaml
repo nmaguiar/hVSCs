@@ -3202,7 +3202,7 @@
     - CWE-425
     VendorSeverity:
       alma: 3
-      amazon: 3
+      amazon: 2
       azure: 3
       bitnami: 3
       oracle-oval: 3
@@ -3296,7 +3296,7 @@
     - https://go.dev/issue/78282
     - https://groups.google.com/g/golang-announce/c/0uYbvbPZRWU
     - https://linux.oracle.com/cve/CVE-2026-32280.html
-    - https://linux.oracle.com/errata/ELSA-2026-14200.html
+    - https://linux.oracle.com/errata/ELSA-2026-16875.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-32280
     - https://pkg.go.dev/vuln/GO-2026-4947
     - https://www.cve.org/CVERecord?id=CVE-2026-32280
@@ -3413,7 +3413,7 @@
     - https://go.dev/issue/78334
     - https://groups.google.com/g/golang-announce/c/0uYbvbPZRWU
     - https://linux.oracle.com/cve/CVE-2026-32283.html
-    - https://linux.oracle.com/errata/ELSA-2026-14200.html
+    - https://linux.oracle.com/errata/ELSA-2026-17075.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-32283
     - https://pkg.go.dev/vuln/GO-2026-4870
     - https://www.cve.org/CVERecord?id=CVE-2026-32283
@@ -3477,6 +3477,7 @@
     Layer:
       Digest: sha256:b938cbcbf2edf099ccc05c7b1d181961e12b8437675a2ba4f5ee27ef3d707eae
       DiffID: sha256:d9555122eea009eb32f94ce1679e6ef6c342162033bde7052977e9c6476e11aa
+    SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-33814
     DataSource:
       ID: govulndb
@@ -3486,10 +3487,16 @@
     Title: When processing HTTP/2 SETTINGS frames, transport will enter an infini ...
     Description: When processing HTTP/2 SETTINGS frames, transport will enter an infinite loop of writing CONTINUATION frames if it receives a SETTINGS_MAX_FRAME_SIZE with a value of 0.
     Severity: HIGH
+    CweIDs:
+    - CWE-835
     VendorSeverity:
       bitnami: 3
+      nvd: 3
     CVSS:
       bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
@@ -3500,7 +3507,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-33814
     - https://pkg.go.dev/vuln/GO-2026-4918
     PublishedDate: '2026-05-07T20:16:42.88Z'
-    LastModifiedDate: '2026-05-08T19:16:30.567Z'
+    LastModifiedDate: '2026-05-13T14:41:59.52Z'
   - VulnerabilityID: CVE-2026-39820
     VendorIDs:
     - GO-2026-4986
@@ -3515,6 +3522,7 @@
     Layer:
       Digest: sha256:b938cbcbf2edf099ccc05c7b1d181961e12b8437675a2ba4f5ee27ef3d707eae
       DiffID: sha256:d9555122eea009eb32f94ce1679e6ef6c342162033bde7052977e9c6476e11aa
+    SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-39820
     DataSource:
       ID: govulndb
@@ -3524,10 +3532,16 @@
     Title: Well-crafted inputs reaching ParseAddress, ParseAddressList, and Parse ...
     Description: Well-crafted inputs reaching ParseAddress, ParseAddressList, and ParseDate were able to trigger excessive CPU exhaustion and memory allocations.
     Severity: HIGH
+    CweIDs:
+    - CWE-770
     VendorSeverity:
       bitnami: 3
+      nvd: 3
     CVSS:
       bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
@@ -3537,7 +3551,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-39820
     - https://pkg.go.dev/vuln/GO-2026-4986
     PublishedDate: '2026-05-07T20:16:43.187Z'
-    LastModifiedDate: '2026-05-08T15:16:37.323Z'
+    LastModifiedDate: '2026-05-13T15:10:58.65Z'
   - VulnerabilityID: CVE-2026-39836
     VendorIDs:
     - GO-2026-4971
@@ -3552,6 +3566,7 @@
     Layer:
       Digest: sha256:b938cbcbf2edf099ccc05c7b1d181961e12b8437675a2ba4f5ee27ef3d707eae
       DiffID: sha256:d9555122eea009eb32f94ce1679e6ef6c342162033bde7052977e9c6476e11aa
+    SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-39836
     DataSource:
       ID: govulndb
@@ -3561,10 +3576,16 @@
     Title: Panic in Dial and LookupPort when handling NUL byte on Windows in net
     Description: The Dial and LookupPort functions panic on Windows when provided with an input containing a NUL (0).
     Severity: HIGH
+    CweIDs:
+    - CWE-476
     VendorSeverity:
       bitnami: 3
+      nvd: 3
     CVSS:
       bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
@@ -3574,7 +3595,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-39836
     - https://pkg.go.dev/vuln/GO-2026-4971
     PublishedDate: '2026-05-07T20:16:43.593Z'
-    LastModifiedDate: '2026-05-08T22:16:29.723Z'
+    LastModifiedDate: '2026-05-13T15:11:10.31Z'
   - VulnerabilityID: CVE-2026-42499
     VendorIDs:
     - GO-2026-4977
@@ -3611,7 +3632,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-42499
     - https://pkg.go.dev/vuln/GO-2026-4977
     PublishedDate: '2026-05-07T20:16:44.54Z'
-    LastModifiedDate: '2026-05-08T22:16:33.183Z'
+    LastModifiedDate: '2026-05-13T16:59:17.563Z'
   - VulnerabilityID: CVE-2026-27142
     VendorIDs:
     - GO-2026-4603
@@ -3638,7 +3659,7 @@
     CweIDs:
     - CWE-79
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       bitnami: 2
       redhat: 2
     CVSS:
@@ -3718,7 +3739,7 @@
     - https://go.dev/issue/78293
     - https://groups.google.com/g/golang-announce/c/0uYbvbPZRWU
     - https://linux.oracle.com/cve/CVE-2026-32282.html
-    - https://linux.oracle.com/errata/ELSA-2026-14200.html
+    - https://linux.oracle.com/errata/ELSA-2026-17075.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-32282
     - https://pkg.go.dev/vuln/GO-2026-4864
     - https://www.cve.org/CVERecord?id=CVE-2026-32282
@@ -3852,6 +3873,8 @@
     Title: CVE-2026-27142 fixed a vulnerability in which URLs were not correctly  ...
     Description: CVE-2026-27142 fixed a vulnerability in which URLs were not correctly escaped inside of a <meta> tag's <content> attribute. If the URL content were to insert ASCII whitespaces around the '=' rune inside of the <content> attribute, the escaper would fail to similarly escape it, leading to XSS.
     Severity: MEDIUM
+    CweIDs:
+    - CWE-79
     VendorSeverity:
       bitnami: 2
     CVSS:
@@ -3865,7 +3888,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-39823
     - https://pkg.go.dev/vuln/GO-2026-4982
     PublishedDate: '2026-05-07T20:16:43.29Z'
-    LastModifiedDate: '2026-05-08T15:16:37.5Z'
+    LastModifiedDate: '2026-05-13T16:58:45.697Z'
   - VulnerabilityID: CVE-2026-39825
     VendorIDs:
     - GO-2026-4976
@@ -3902,7 +3925,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-39825
     - https://pkg.go.dev/vuln/GO-2026-4976
     PublishedDate: '2026-05-07T20:16:43.39Z'
-    LastModifiedDate: '2026-05-08T22:16:29.547Z'
+    LastModifiedDate: '2026-05-13T16:58:56.39Z'
   - VulnerabilityID: CVE-2026-39826
     VendorIDs:
     - GO-2026-4980
@@ -3926,6 +3949,8 @@
     Title: If a trusted template author were to write a <script> tag containing a ...
     Description: If a trusted template author were to write a <script> tag containing an empty 'type' attribute or a 'type' attribute with an ASCII whitespace, the execution of the template would incorrectly escape any data passed into the <script> block.
     Severity: MEDIUM
+    CweIDs:
+    - CWE-116
     VendorSeverity:
       bitnami: 2
     CVSS:
@@ -3939,7 +3964,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-39826
     - https://pkg.go.dev/vuln/GO-2026-4980
     PublishedDate: '2026-05-07T20:16:43.49Z'
-    LastModifiedDate: '2026-05-08T15:16:37.68Z'
+    LastModifiedDate: '2026-05-13T16:59:07.48Z'
   - VulnerabilityID: CVE-2026-27139
     VendorIDs:
     - GO-2026-4602
@@ -3966,7 +3991,7 @@
     CweIDs:
     - CWE-22
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       azure: 1
       bitnami: 1
       redhat: 1
@@ -4019,7 +4044,7 @@
     - CWE-425
     VendorSeverity:
       alma: 3
-      amazon: 3
+      amazon: 2
       azure: 3
       bitnami: 3
       oracle-oval: 3
@@ -4113,7 +4138,7 @@
     - https://go.dev/issue/78282
     - https://groups.google.com/g/golang-announce/c/0uYbvbPZRWU
     - https://linux.oracle.com/cve/CVE-2026-32280.html
-    - https://linux.oracle.com/errata/ELSA-2026-14200.html
+    - https://linux.oracle.com/errata/ELSA-2026-16875.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-32280
     - https://pkg.go.dev/vuln/GO-2026-4947
     - https://www.cve.org/CVERecord?id=CVE-2026-32280
@@ -4230,7 +4255,7 @@
     - https://go.dev/issue/78334
     - https://groups.google.com/g/golang-announce/c/0uYbvbPZRWU
     - https://linux.oracle.com/cve/CVE-2026-32283.html
-    - https://linux.oracle.com/errata/ELSA-2026-14200.html
+    - https://linux.oracle.com/errata/ELSA-2026-17075.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-32283
     - https://pkg.go.dev/vuln/GO-2026-4870
     - https://www.cve.org/CVERecord?id=CVE-2026-32283
@@ -4294,6 +4319,7 @@
     Layer:
       Digest: sha256:b938cbcbf2edf099ccc05c7b1d181961e12b8437675a2ba4f5ee27ef3d707eae
       DiffID: sha256:d9555122eea009eb32f94ce1679e6ef6c342162033bde7052977e9c6476e11aa
+    SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-33814
     DataSource:
       ID: govulndb
@@ -4303,10 +4329,16 @@
     Title: When processing HTTP/2 SETTINGS frames, transport will enter an infini ...
     Description: When processing HTTP/2 SETTINGS frames, transport will enter an infinite loop of writing CONTINUATION frames if it receives a SETTINGS_MAX_FRAME_SIZE with a value of 0.
     Severity: HIGH
+    CweIDs:
+    - CWE-835
     VendorSeverity:
       bitnami: 3
+      nvd: 3
     CVSS:
       bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
@@ -4317,7 +4349,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-33814
     - https://pkg.go.dev/vuln/GO-2026-4918
     PublishedDate: '2026-05-07T20:16:42.88Z'
-    LastModifiedDate: '2026-05-08T19:16:30.567Z'
+    LastModifiedDate: '2026-05-13T14:41:59.52Z'
   - VulnerabilityID: CVE-2026-39820
     VendorIDs:
     - GO-2026-4986
@@ -4332,6 +4364,7 @@
     Layer:
       Digest: sha256:b938cbcbf2edf099ccc05c7b1d181961e12b8437675a2ba4f5ee27ef3d707eae
       DiffID: sha256:d9555122eea009eb32f94ce1679e6ef6c342162033bde7052977e9c6476e11aa
+    SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-39820
     DataSource:
       ID: govulndb
@@ -4341,10 +4374,16 @@
     Title: Well-crafted inputs reaching ParseAddress, ParseAddressList, and Parse ...
     Description: Well-crafted inputs reaching ParseAddress, ParseAddressList, and ParseDate were able to trigger excessive CPU exhaustion and memory allocations.
     Severity: HIGH
+    CweIDs:
+    - CWE-770
     VendorSeverity:
       bitnami: 3
+      nvd: 3
     CVSS:
       bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
@@ -4354,7 +4393,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-39820
     - https://pkg.go.dev/vuln/GO-2026-4986
     PublishedDate: '2026-05-07T20:16:43.187Z'
-    LastModifiedDate: '2026-05-08T15:16:37.323Z'
+    LastModifiedDate: '2026-05-13T15:10:58.65Z'
   - VulnerabilityID: CVE-2026-39836
     VendorIDs:
     - GO-2026-4971
@@ -4369,6 +4408,7 @@
     Layer:
       Digest: sha256:b938cbcbf2edf099ccc05c7b1d181961e12b8437675a2ba4f5ee27ef3d707eae
       DiffID: sha256:d9555122eea009eb32f94ce1679e6ef6c342162033bde7052977e9c6476e11aa
+    SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-39836
     DataSource:
       ID: govulndb
@@ -4378,10 +4418,16 @@
     Title: Panic in Dial and LookupPort when handling NUL byte on Windows in net
     Description: The Dial and LookupPort functions panic on Windows when provided with an input containing a NUL (0).
     Severity: HIGH
+    CweIDs:
+    - CWE-476
     VendorSeverity:
       bitnami: 3
+      nvd: 3
     CVSS:
       bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
@@ -4391,7 +4437,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-39836
     - https://pkg.go.dev/vuln/GO-2026-4971
     PublishedDate: '2026-05-07T20:16:43.593Z'
-    LastModifiedDate: '2026-05-08T22:16:29.723Z'
+    LastModifiedDate: '2026-05-13T15:11:10.31Z'
   - VulnerabilityID: CVE-2026-42499
     VendorIDs:
     - GO-2026-4977
@@ -4428,7 +4474,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-42499
     - https://pkg.go.dev/vuln/GO-2026-4977
     PublishedDate: '2026-05-07T20:16:44.54Z'
-    LastModifiedDate: '2026-05-08T22:16:33.183Z'
+    LastModifiedDate: '2026-05-13T16:59:17.563Z'
   - VulnerabilityID: CVE-2026-27142
     VendorIDs:
     - GO-2026-4603
@@ -4455,7 +4501,7 @@
     CweIDs:
     - CWE-79
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       bitnami: 2
       redhat: 2
     CVSS:
@@ -4535,7 +4581,7 @@
     - https://go.dev/issue/78293
     - https://groups.google.com/g/golang-announce/c/0uYbvbPZRWU
     - https://linux.oracle.com/cve/CVE-2026-32282.html
-    - https://linux.oracle.com/errata/ELSA-2026-14200.html
+    - https://linux.oracle.com/errata/ELSA-2026-17075.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-32282
     - https://pkg.go.dev/vuln/GO-2026-4864
     - https://www.cve.org/CVERecord?id=CVE-2026-32282
@@ -4669,6 +4715,8 @@
     Title: CVE-2026-27142 fixed a vulnerability in which URLs were not correctly  ...
     Description: CVE-2026-27142 fixed a vulnerability in which URLs were not correctly escaped inside of a <meta> tag's <content> attribute. If the URL content were to insert ASCII whitespaces around the '=' rune inside of the <content> attribute, the escaper would fail to similarly escape it, leading to XSS.
     Severity: MEDIUM
+    CweIDs:
+    - CWE-79
     VendorSeverity:
       bitnami: 2
     CVSS:
@@ -4682,7 +4730,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-39823
     - https://pkg.go.dev/vuln/GO-2026-4982
     PublishedDate: '2026-05-07T20:16:43.29Z'
-    LastModifiedDate: '2026-05-08T15:16:37.5Z'
+    LastModifiedDate: '2026-05-13T16:58:45.697Z'
   - VulnerabilityID: CVE-2026-39825
     VendorIDs:
     - GO-2026-4976
@@ -4719,7 +4767,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-39825
     - https://pkg.go.dev/vuln/GO-2026-4976
     PublishedDate: '2026-05-07T20:16:43.39Z'
-    LastModifiedDate: '2026-05-08T22:16:29.547Z'
+    LastModifiedDate: '2026-05-13T16:58:56.39Z'
   - VulnerabilityID: CVE-2026-39826
     VendorIDs:
     - GO-2026-4980
@@ -4743,6 +4791,8 @@
     Title: If a trusted template author were to write a <script> tag containing a ...
     Description: If a trusted template author were to write a <script> tag containing an empty 'type' attribute or a 'type' attribute with an ASCII whitespace, the execution of the template would incorrectly escape any data passed into the <script> block.
     Severity: MEDIUM
+    CweIDs:
+    - CWE-116
     VendorSeverity:
       bitnami: 2
     CVSS:
@@ -4756,7 +4806,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-39826
     - https://pkg.go.dev/vuln/GO-2026-4980
     PublishedDate: '2026-05-07T20:16:43.49Z'
-    LastModifiedDate: '2026-05-08T15:16:37.68Z'
+    LastModifiedDate: '2026-05-13T16:59:07.48Z'
   - VulnerabilityID: CVE-2026-27139
     VendorIDs:
     - GO-2026-4602
@@ -4783,7 +4833,7 @@
     CweIDs:
     - CWE-22
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       azure: 1
       bitnami: 1
       redhat: 1
@@ -4867,6 +4917,7 @@
     Layer:
       Digest: sha256:b938cbcbf2edf099ccc05c7b1d181961e12b8437675a2ba4f5ee27ef3d707eae
       DiffID: sha256:d9555122eea009eb32f94ce1679e6ef6c342162033bde7052977e9c6476e11aa
+    SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-33814
     DataSource:
       ID: govulndb
@@ -4876,10 +4927,16 @@
     Title: When processing HTTP/2 SETTINGS frames, transport will enter an infini ...
     Description: When processing HTTP/2 SETTINGS frames, transport will enter an infinite loop of writing CONTINUATION frames if it receives a SETTINGS_MAX_FRAME_SIZE with a value of 0.
     Severity: HIGH
+    CweIDs:
+    - CWE-835
     VendorSeverity:
       bitnami: 3
+      nvd: 3
     CVSS:
       bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
@@ -4890,7 +4947,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-33814
     - https://pkg.go.dev/vuln/GO-2026-4918
     PublishedDate: '2026-05-07T20:16:42.88Z'
-    LastModifiedDate: '2026-05-08T19:16:30.567Z'
+    LastModifiedDate: '2026-05-13T14:41:59.52Z'
   - VulnerabilityID: CVE-2026-39820
     VendorIDs:
     - GO-2026-4986
@@ -4905,6 +4962,7 @@
     Layer:
       Digest: sha256:b938cbcbf2edf099ccc05c7b1d181961e12b8437675a2ba4f5ee27ef3d707eae
       DiffID: sha256:d9555122eea009eb32f94ce1679e6ef6c342162033bde7052977e9c6476e11aa
+    SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-39820
     DataSource:
       ID: govulndb
@@ -4914,10 +4972,16 @@
     Title: Well-crafted inputs reaching ParseAddress, ParseAddressList, and Parse ...
     Description: Well-crafted inputs reaching ParseAddress, ParseAddressList, and ParseDate were able to trigger excessive CPU exhaustion and memory allocations.
     Severity: HIGH
+    CweIDs:
+    - CWE-770
     VendorSeverity:
       bitnami: 3
+      nvd: 3
     CVSS:
       bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
@@ -4927,7 +4991,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-39820
     - https://pkg.go.dev/vuln/GO-2026-4986
     PublishedDate: '2026-05-07T20:16:43.187Z'
-    LastModifiedDate: '2026-05-08T15:16:37.323Z'
+    LastModifiedDate: '2026-05-13T15:10:58.65Z'
   - VulnerabilityID: CVE-2026-39836
     VendorIDs:
     - GO-2026-4971
@@ -4942,6 +5006,7 @@
     Layer:
       Digest: sha256:b938cbcbf2edf099ccc05c7b1d181961e12b8437675a2ba4f5ee27ef3d707eae
       DiffID: sha256:d9555122eea009eb32f94ce1679e6ef6c342162033bde7052977e9c6476e11aa
+    SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-39836
     DataSource:
       ID: govulndb
@@ -4951,10 +5016,16 @@
     Title: Panic in Dial and LookupPort when handling NUL byte on Windows in net
     Description: The Dial and LookupPort functions panic on Windows when provided with an input containing a NUL (0).
     Severity: HIGH
+    CweIDs:
+    - CWE-476
     VendorSeverity:
       bitnami: 3
+      nvd: 3
     CVSS:
       bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
@@ -4964,7 +5035,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-39836
     - https://pkg.go.dev/vuln/GO-2026-4971
     PublishedDate: '2026-05-07T20:16:43.593Z'
-    LastModifiedDate: '2026-05-08T22:16:29.723Z'
+    LastModifiedDate: '2026-05-13T15:11:10.31Z'
   - VulnerabilityID: CVE-2026-42499
     VendorIDs:
     - GO-2026-4977
@@ -5001,7 +5072,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-42499
     - https://pkg.go.dev/vuln/GO-2026-4977
     PublishedDate: '2026-05-07T20:16:44.54Z'
-    LastModifiedDate: '2026-05-08T22:16:33.183Z'
+    LastModifiedDate: '2026-05-13T16:59:17.563Z'
   - VulnerabilityID: CVE-2026-39823
     VendorIDs:
     - GO-2026-4982
@@ -5025,6 +5096,8 @@
     Title: CVE-2026-27142 fixed a vulnerability in which URLs were not correctly  ...
     Description: CVE-2026-27142 fixed a vulnerability in which URLs were not correctly escaped inside of a <meta> tag's <content> attribute. If the URL content were to insert ASCII whitespaces around the '=' rune inside of the <content> attribute, the escaper would fail to similarly escape it, leading to XSS.
     Severity: MEDIUM
+    CweIDs:
+    - CWE-79
     VendorSeverity:
       bitnami: 2
     CVSS:
@@ -5038,7 +5111,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-39823
     - https://pkg.go.dev/vuln/GO-2026-4982
     PublishedDate: '2026-05-07T20:16:43.29Z'
-    LastModifiedDate: '2026-05-08T15:16:37.5Z'
+    LastModifiedDate: '2026-05-13T16:58:45.697Z'
   - VulnerabilityID: CVE-2026-39825
     VendorIDs:
     - GO-2026-4976
@@ -5075,7 +5148,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-39825
     - https://pkg.go.dev/vuln/GO-2026-4976
     PublishedDate: '2026-05-07T20:16:43.39Z'
-    LastModifiedDate: '2026-05-08T22:16:29.547Z'
+    LastModifiedDate: '2026-05-13T16:58:56.39Z'
   - VulnerabilityID: CVE-2026-39826
     VendorIDs:
     - GO-2026-4980
@@ -5099,6 +5172,8 @@
     Title: If a trusted template author were to write a <script> tag containing a ...
     Description: If a trusted template author were to write a <script> tag containing an empty 'type' attribute or a 'type' attribute with an ASCII whitespace, the execution of the template would incorrectly escape any data passed into the <script> block.
     Severity: MEDIUM
+    CweIDs:
+    - CWE-116
     VendorSeverity:
       bitnami: 2
     CVSS:
@@ -5112,7 +5187,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-39826
     - https://pkg.go.dev/vuln/GO-2026-4980
     PublishedDate: '2026-05-07T20:16:43.49Z'
-    LastModifiedDate: '2026-05-08T15:16:37.68Z'
+    LastModifiedDate: '2026-05-13T16:59:07.48Z'
 - Target: usr/bin/docker-compose
   Class: lang-pkgs
   Type: gobinary
@@ -5459,7 +5534,7 @@
     - https://go.dev/issue/78282
     - https://groups.google.com/g/golang-announce/c/0uYbvbPZRWU
     - https://linux.oracle.com/cve/CVE-2026-32280.html
-    - https://linux.oracle.com/errata/ELSA-2026-14200.html
+    - https://linux.oracle.com/errata/ELSA-2026-16875.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-32280
     - https://pkg.go.dev/vuln/GO-2026-4947
     - https://www.cve.org/CVERecord?id=CVE-2026-32280
@@ -5576,7 +5651,7 @@
     - https://go.dev/issue/78334
     - https://groups.google.com/g/golang-announce/c/0uYbvbPZRWU
     - https://linux.oracle.com/cve/CVE-2026-32283.html
-    - https://linux.oracle.com/errata/ELSA-2026-14200.html
+    - https://linux.oracle.com/errata/ELSA-2026-17075.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-32283
     - https://pkg.go.dev/vuln/GO-2026-4870
     - https://www.cve.org/CVERecord?id=CVE-2026-32283
@@ -5640,6 +5715,7 @@
     Layer:
       Digest: sha256:b938cbcbf2edf099ccc05c7b1d181961e12b8437675a2ba4f5ee27ef3d707eae
       DiffID: sha256:d9555122eea009eb32f94ce1679e6ef6c342162033bde7052977e9c6476e11aa
+    SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-33814
     DataSource:
       ID: govulndb
@@ -5649,10 +5725,16 @@
     Title: When processing HTTP/2 SETTINGS frames, transport will enter an infini ...
     Description: When processing HTTP/2 SETTINGS frames, transport will enter an infinite loop of writing CONTINUATION frames if it receives a SETTINGS_MAX_FRAME_SIZE with a value of 0.
     Severity: HIGH
+    CweIDs:
+    - CWE-835
     VendorSeverity:
       bitnami: 3
+      nvd: 3
     CVSS:
       bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
@@ -5663,7 +5745,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-33814
     - https://pkg.go.dev/vuln/GO-2026-4918
     PublishedDate: '2026-05-07T20:16:42.88Z'
-    LastModifiedDate: '2026-05-08T19:16:30.567Z'
+    LastModifiedDate: '2026-05-13T14:41:59.52Z'
   - VulnerabilityID: CVE-2026-39820
     VendorIDs:
     - GO-2026-4986
@@ -5678,6 +5760,7 @@
     Layer:
       Digest: sha256:b938cbcbf2edf099ccc05c7b1d181961e12b8437675a2ba4f5ee27ef3d707eae
       DiffID: sha256:d9555122eea009eb32f94ce1679e6ef6c342162033bde7052977e9c6476e11aa
+    SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-39820
     DataSource:
       ID: govulndb
@@ -5687,10 +5770,16 @@
     Title: Well-crafted inputs reaching ParseAddress, ParseAddressList, and Parse ...
     Description: Well-crafted inputs reaching ParseAddress, ParseAddressList, and ParseDate were able to trigger excessive CPU exhaustion and memory allocations.
     Severity: HIGH
+    CweIDs:
+    - CWE-770
     VendorSeverity:
       bitnami: 3
+      nvd: 3
     CVSS:
       bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
@@ -5700,7 +5789,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-39820
     - https://pkg.go.dev/vuln/GO-2026-4986
     PublishedDate: '2026-05-07T20:16:43.187Z'
-    LastModifiedDate: '2026-05-08T15:16:37.323Z'
+    LastModifiedDate: '2026-05-13T15:10:58.65Z'
   - VulnerabilityID: CVE-2026-39836
     VendorIDs:
     - GO-2026-4971
@@ -5715,6 +5804,7 @@
     Layer:
       Digest: sha256:b938cbcbf2edf099ccc05c7b1d181961e12b8437675a2ba4f5ee27ef3d707eae
       DiffID: sha256:d9555122eea009eb32f94ce1679e6ef6c342162033bde7052977e9c6476e11aa
+    SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-39836
     DataSource:
       ID: govulndb
@@ -5724,10 +5814,16 @@
     Title: Panic in Dial and LookupPort when handling NUL byte on Windows in net
     Description: The Dial and LookupPort functions panic on Windows when provided with an input containing a NUL (0).
     Severity: HIGH
+    CweIDs:
+    - CWE-476
     VendorSeverity:
       bitnami: 3
+      nvd: 3
     CVSS:
       bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
@@ -5737,7 +5833,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-39836
     - https://pkg.go.dev/vuln/GO-2026-4971
     PublishedDate: '2026-05-07T20:16:43.593Z'
-    LastModifiedDate: '2026-05-08T22:16:29.723Z'
+    LastModifiedDate: '2026-05-13T15:11:10.31Z'
   - VulnerabilityID: CVE-2026-42499
     VendorIDs:
     - GO-2026-4977
@@ -5774,7 +5870,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-42499
     - https://pkg.go.dev/vuln/GO-2026-4977
     PublishedDate: '2026-05-07T20:16:44.54Z'
-    LastModifiedDate: '2026-05-08T22:16:33.183Z'
+    LastModifiedDate: '2026-05-13T16:59:17.563Z'
   - VulnerabilityID: CVE-2026-32282
     VendorIDs:
     - GO-2026-4864
@@ -5835,7 +5931,7 @@
     - https://go.dev/issue/78293
     - https://groups.google.com/g/golang-announce/c/0uYbvbPZRWU
     - https://linux.oracle.com/cve/CVE-2026-32282.html
-    - https://linux.oracle.com/errata/ELSA-2026-14200.html
+    - https://linux.oracle.com/errata/ELSA-2026-17075.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-32282
     - https://pkg.go.dev/vuln/GO-2026-4864
     - https://www.cve.org/CVERecord?id=CVE-2026-32282
@@ -5969,6 +6065,8 @@
     Title: CVE-2026-27142 fixed a vulnerability in which URLs were not correctly  ...
     Description: CVE-2026-27142 fixed a vulnerability in which URLs were not correctly escaped inside of a <meta> tag's <content> attribute. If the URL content were to insert ASCII whitespaces around the '=' rune inside of the <content> attribute, the escaper would fail to similarly escape it, leading to XSS.
     Severity: MEDIUM
+    CweIDs:
+    - CWE-79
     VendorSeverity:
       bitnami: 2
     CVSS:
@@ -5982,7 +6080,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-39823
     - https://pkg.go.dev/vuln/GO-2026-4982
     PublishedDate: '2026-05-07T20:16:43.29Z'
-    LastModifiedDate: '2026-05-08T15:16:37.5Z'
+    LastModifiedDate: '2026-05-13T16:58:45.697Z'
   - VulnerabilityID: CVE-2026-39825
     VendorIDs:
     - GO-2026-4976
@@ -6019,7 +6117,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-39825
     - https://pkg.go.dev/vuln/GO-2026-4976
     PublishedDate: '2026-05-07T20:16:43.39Z'
-    LastModifiedDate: '2026-05-08T22:16:29.547Z'
+    LastModifiedDate: '2026-05-13T16:58:56.39Z'
   - VulnerabilityID: CVE-2026-39826
     VendorIDs:
     - GO-2026-4980
@@ -6043,6 +6141,8 @@
     Title: If a trusted template author were to write a <script> tag containing a ...
     Description: If a trusted template author were to write a <script> tag containing an empty 'type' attribute or a 'type' attribute with an ASCII whitespace, the execution of the template would incorrectly escape any data passed into the <script> block.
     Severity: MEDIUM
+    CweIDs:
+    - CWE-116
     VendorSeverity:
       bitnami: 2
     CVSS:
@@ -6056,7 +6156,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-39826
     - https://pkg.go.dev/vuln/GO-2026-4980
     PublishedDate: '2026-05-07T20:16:43.49Z'
-    LastModifiedDate: '2026-05-08T15:16:37.68Z'
+    LastModifiedDate: '2026-05-13T16:59:07.48Z'
 - Target: usr/bin/docker-proxy
   Class: lang-pkgs
   Type: gobinary
@@ -6120,6 +6220,7 @@
     Layer:
       Digest: sha256:b938cbcbf2edf099ccc05c7b1d181961e12b8437675a2ba4f5ee27ef3d707eae
       DiffID: sha256:d9555122eea009eb32f94ce1679e6ef6c342162033bde7052977e9c6476e11aa
+    SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-33814
     DataSource:
       ID: govulndb
@@ -6129,10 +6230,16 @@
     Title: When processing HTTP/2 SETTINGS frames, transport will enter an infini ...
     Description: When processing HTTP/2 SETTINGS frames, transport will enter an infinite loop of writing CONTINUATION frames if it receives a SETTINGS_MAX_FRAME_SIZE with a value of 0.
     Severity: HIGH
+    CweIDs:
+    - CWE-835
     VendorSeverity:
       bitnami: 3
+      nvd: 3
     CVSS:
       bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
@@ -6143,7 +6250,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-33814
     - https://pkg.go.dev/vuln/GO-2026-4918
     PublishedDate: '2026-05-07T20:16:42.88Z'
-    LastModifiedDate: '2026-05-08T19:16:30.567Z'
+    LastModifiedDate: '2026-05-13T14:41:59.52Z'
   - VulnerabilityID: CVE-2026-39820
     VendorIDs:
     - GO-2026-4986
@@ -6158,6 +6265,7 @@
     Layer:
       Digest: sha256:b938cbcbf2edf099ccc05c7b1d181961e12b8437675a2ba4f5ee27ef3d707eae
       DiffID: sha256:d9555122eea009eb32f94ce1679e6ef6c342162033bde7052977e9c6476e11aa
+    SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-39820
     DataSource:
       ID: govulndb
@@ -6167,10 +6275,16 @@
     Title: Well-crafted inputs reaching ParseAddress, ParseAddressList, and Parse ...
     Description: Well-crafted inputs reaching ParseAddress, ParseAddressList, and ParseDate were able to trigger excessive CPU exhaustion and memory allocations.
     Severity: HIGH
+    CweIDs:
+    - CWE-770
     VendorSeverity:
       bitnami: 3
+      nvd: 3
     CVSS:
       bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
@@ -6180,7 +6294,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-39820
     - https://pkg.go.dev/vuln/GO-2026-4986
     PublishedDate: '2026-05-07T20:16:43.187Z'
-    LastModifiedDate: '2026-05-08T15:16:37.323Z'
+    LastModifiedDate: '2026-05-13T15:10:58.65Z'
   - VulnerabilityID: CVE-2026-39836
     VendorIDs:
     - GO-2026-4971
@@ -6195,6 +6309,7 @@
     Layer:
       Digest: sha256:b938cbcbf2edf099ccc05c7b1d181961e12b8437675a2ba4f5ee27ef3d707eae
       DiffID: sha256:d9555122eea009eb32f94ce1679e6ef6c342162033bde7052977e9c6476e11aa
+    SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-39836
     DataSource:
       ID: govulndb
@@ -6204,10 +6319,16 @@
     Title: Panic in Dial and LookupPort when handling NUL byte on Windows in net
     Description: The Dial and LookupPort functions panic on Windows when provided with an input containing a NUL (0).
     Severity: HIGH
+    CweIDs:
+    - CWE-476
     VendorSeverity:
       bitnami: 3
+      nvd: 3
     CVSS:
       bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
@@ -6217,7 +6338,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-39836
     - https://pkg.go.dev/vuln/GO-2026-4971
     PublishedDate: '2026-05-07T20:16:43.593Z'
-    LastModifiedDate: '2026-05-08T22:16:29.723Z'
+    LastModifiedDate: '2026-05-13T15:11:10.31Z'
   - VulnerabilityID: CVE-2026-42499
     VendorIDs:
     - GO-2026-4977
@@ -6254,7 +6375,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-42499
     - https://pkg.go.dev/vuln/GO-2026-4977
     PublishedDate: '2026-05-07T20:16:44.54Z'
-    LastModifiedDate: '2026-05-08T22:16:33.183Z'
+    LastModifiedDate: '2026-05-13T16:59:17.563Z'
   - VulnerabilityID: CVE-2026-39823
     VendorIDs:
     - GO-2026-4982
@@ -6278,6 +6399,8 @@
     Title: CVE-2026-27142 fixed a vulnerability in which URLs were not correctly  ...
     Description: CVE-2026-27142 fixed a vulnerability in which URLs were not correctly escaped inside of a <meta> tag's <content> attribute. If the URL content were to insert ASCII whitespaces around the '=' rune inside of the <content> attribute, the escaper would fail to similarly escape it, leading to XSS.
     Severity: MEDIUM
+    CweIDs:
+    - CWE-79
     VendorSeverity:
       bitnami: 2
     CVSS:
@@ -6291,7 +6414,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-39823
     - https://pkg.go.dev/vuln/GO-2026-4982
     PublishedDate: '2026-05-07T20:16:43.29Z'
-    LastModifiedDate: '2026-05-08T15:16:37.5Z'
+    LastModifiedDate: '2026-05-13T16:58:45.697Z'
   - VulnerabilityID: CVE-2026-39825
     VendorIDs:
     - GO-2026-4976
@@ -6328,7 +6451,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-39825
     - https://pkg.go.dev/vuln/GO-2026-4976
     PublishedDate: '2026-05-07T20:16:43.39Z'
-    LastModifiedDate: '2026-05-08T22:16:29.547Z'
+    LastModifiedDate: '2026-05-13T16:58:56.39Z'
   - VulnerabilityID: CVE-2026-39826
     VendorIDs:
     - GO-2026-4980
@@ -6352,6 +6475,8 @@
     Title: If a trusted template author were to write a <script> tag containing a ...
     Description: If a trusted template author were to write a <script> tag containing an empty 'type' attribute or a 'type' attribute with an ASCII whitespace, the execution of the template would incorrectly escape any data passed into the <script> block.
     Severity: MEDIUM
+    CweIDs:
+    - CWE-116
     VendorSeverity:
       bitnami: 2
     CVSS:
@@ -6365,7 +6490,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-39826
     - https://pkg.go.dev/vuln/GO-2026-4980
     PublishedDate: '2026-05-07T20:16:43.49Z'
-    LastModifiedDate: '2026-05-08T15:16:37.68Z'
+    LastModifiedDate: '2026-05-13T16:59:07.48Z'
 - Target: usr/bin/dockerd
   Class: lang-pkgs
   Type: gobinary
@@ -6475,6 +6600,7 @@
     Layer:
       Digest: sha256:b938cbcbf2edf099ccc05c7b1d181961e12b8437675a2ba4f5ee27ef3d707eae
       DiffID: sha256:d9555122eea009eb32f94ce1679e6ef6c342162033bde7052977e9c6476e11aa
+    SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-33814
     DataSource:
       ID: govulndb
@@ -6484,10 +6610,16 @@
     Title: When processing HTTP/2 SETTINGS frames, transport will enter an infini ...
     Description: When processing HTTP/2 SETTINGS frames, transport will enter an infinite loop of writing CONTINUATION frames if it receives a SETTINGS_MAX_FRAME_SIZE with a value of 0.
     Severity: HIGH
+    CweIDs:
+    - CWE-835
     VendorSeverity:
       bitnami: 3
+      nvd: 3
     CVSS:
       bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
@@ -6498,7 +6630,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-33814
     - https://pkg.go.dev/vuln/GO-2026-4918
     PublishedDate: '2026-05-07T20:16:42.88Z'
-    LastModifiedDate: '2026-05-08T19:16:30.567Z'
+    LastModifiedDate: '2026-05-13T14:41:59.52Z'
   - VulnerabilityID: CVE-2026-39820
     VendorIDs:
     - GO-2026-4986
@@ -6513,6 +6645,7 @@
     Layer:
       Digest: sha256:b938cbcbf2edf099ccc05c7b1d181961e12b8437675a2ba4f5ee27ef3d707eae
       DiffID: sha256:d9555122eea009eb32f94ce1679e6ef6c342162033bde7052977e9c6476e11aa
+    SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-39820
     DataSource:
       ID: govulndb
@@ -6522,10 +6655,16 @@
     Title: Well-crafted inputs reaching ParseAddress, ParseAddressList, and Parse ...
     Description: Well-crafted inputs reaching ParseAddress, ParseAddressList, and ParseDate were able to trigger excessive CPU exhaustion and memory allocations.
     Severity: HIGH
+    CweIDs:
+    - CWE-770
     VendorSeverity:
       bitnami: 3
+      nvd: 3
     CVSS:
       bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
@@ -6535,7 +6674,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-39820
     - https://pkg.go.dev/vuln/GO-2026-4986
     PublishedDate: '2026-05-07T20:16:43.187Z'
-    LastModifiedDate: '2026-05-08T15:16:37.323Z'
+    LastModifiedDate: '2026-05-13T15:10:58.65Z'
   - VulnerabilityID: CVE-2026-39836
     VendorIDs:
     - GO-2026-4971
@@ -6550,6 +6689,7 @@
     Layer:
       Digest: sha256:b938cbcbf2edf099ccc05c7b1d181961e12b8437675a2ba4f5ee27ef3d707eae
       DiffID: sha256:d9555122eea009eb32f94ce1679e6ef6c342162033bde7052977e9c6476e11aa
+    SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-39836
     DataSource:
       ID: govulndb
@@ -6559,10 +6699,16 @@
     Title: Panic in Dial and LookupPort when handling NUL byte on Windows in net
     Description: The Dial and LookupPort functions panic on Windows when provided with an input containing a NUL (0).
     Severity: HIGH
+    CweIDs:
+    - CWE-476
     VendorSeverity:
       bitnami: 3
+      nvd: 3
     CVSS:
       bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
@@ -6572,7 +6718,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-39836
     - https://pkg.go.dev/vuln/GO-2026-4971
     PublishedDate: '2026-05-07T20:16:43.593Z'
-    LastModifiedDate: '2026-05-08T22:16:29.723Z'
+    LastModifiedDate: '2026-05-13T15:11:10.31Z'
   - VulnerabilityID: CVE-2026-42499
     VendorIDs:
     - GO-2026-4977
@@ -6609,7 +6755,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-42499
     - https://pkg.go.dev/vuln/GO-2026-4977
     PublishedDate: '2026-05-07T20:16:44.54Z'
-    LastModifiedDate: '2026-05-08T22:16:33.183Z'
+    LastModifiedDate: '2026-05-13T16:59:17.563Z'
   - VulnerabilityID: CVE-2026-39823
     VendorIDs:
     - GO-2026-4982
@@ -6633,6 +6779,8 @@
     Title: CVE-2026-27142 fixed a vulnerability in which URLs were not correctly  ...
     Description: CVE-2026-27142 fixed a vulnerability in which URLs were not correctly escaped inside of a <meta> tag's <content> attribute. If the URL content were to insert ASCII whitespaces around the '=' rune inside of the <content> attribute, the escaper would fail to similarly escape it, leading to XSS.
     Severity: MEDIUM
+    CweIDs:
+    - CWE-79
     VendorSeverity:
       bitnami: 2
     CVSS:
@@ -6646,7 +6794,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-39823
     - https://pkg.go.dev/vuln/GO-2026-4982
     PublishedDate: '2026-05-07T20:16:43.29Z'
-    LastModifiedDate: '2026-05-08T15:16:37.5Z'
+    LastModifiedDate: '2026-05-13T16:58:45.697Z'
   - VulnerabilityID: CVE-2026-39825
     VendorIDs:
     - GO-2026-4976
@@ -6683,7 +6831,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-39825
     - https://pkg.go.dev/vuln/GO-2026-4976
     PublishedDate: '2026-05-07T20:16:43.39Z'
-    LastModifiedDate: '2026-05-08T22:16:29.547Z'
+    LastModifiedDate: '2026-05-13T16:58:56.39Z'
   - VulnerabilityID: CVE-2026-39826
     VendorIDs:
     - GO-2026-4980
@@ -6707,6 +6855,8 @@
     Title: If a trusted template author were to write a <script> tag containing a ...
     Description: If a trusted template author were to write a <script> tag containing an empty 'type' attribute or a 'type' attribute with an ASCII whitespace, the execution of the template would incorrectly escape any data passed into the <script> block.
     Severity: MEDIUM
+    CweIDs:
+    - CWE-116
     VendorSeverity:
       bitnami: 2
     CVSS:
@@ -6720,7 +6870,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-39826
     - https://pkg.go.dev/vuln/GO-2026-4980
     PublishedDate: '2026-05-07T20:16:43.49Z'
-    LastModifiedDate: '2026-05-08T15:16:37.68Z'
+    LastModifiedDate: '2026-05-13T16:59:07.48Z'
 - Target: usr/bin/helm
   Class: lang-pkgs
   Type: gobinary
@@ -6784,6 +6934,7 @@
     Layer:
       Digest: sha256:b938cbcbf2edf099ccc05c7b1d181961e12b8437675a2ba4f5ee27ef3d707eae
       DiffID: sha256:d9555122eea009eb32f94ce1679e6ef6c342162033bde7052977e9c6476e11aa
+    SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-33814
     DataSource:
       ID: govulndb
@@ -6793,10 +6944,16 @@
     Title: When processing HTTP/2 SETTINGS frames, transport will enter an infini ...
     Description: When processing HTTP/2 SETTINGS frames, transport will enter an infinite loop of writing CONTINUATION frames if it receives a SETTINGS_MAX_FRAME_SIZE with a value of 0.
     Severity: HIGH
+    CweIDs:
+    - CWE-835
     VendorSeverity:
       bitnami: 3
+      nvd: 3
     CVSS:
       bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
@@ -6807,7 +6964,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-33814
     - https://pkg.go.dev/vuln/GO-2026-4918
     PublishedDate: '2026-05-07T20:16:42.88Z'
-    LastModifiedDate: '2026-05-08T19:16:30.567Z'
+    LastModifiedDate: '2026-05-13T14:41:59.52Z'
   - VulnerabilityID: CVE-2026-39820
     VendorIDs:
     - GO-2026-4986
@@ -6822,6 +6979,7 @@
     Layer:
       Digest: sha256:b938cbcbf2edf099ccc05c7b1d181961e12b8437675a2ba4f5ee27ef3d707eae
       DiffID: sha256:d9555122eea009eb32f94ce1679e6ef6c342162033bde7052977e9c6476e11aa
+    SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-39820
     DataSource:
       ID: govulndb
@@ -6831,10 +6989,16 @@
     Title: Well-crafted inputs reaching ParseAddress, ParseAddressList, and Parse ...
     Description: Well-crafted inputs reaching ParseAddress, ParseAddressList, and ParseDate were able to trigger excessive CPU exhaustion and memory allocations.
     Severity: HIGH
+    CweIDs:
+    - CWE-770
     VendorSeverity:
       bitnami: 3
+      nvd: 3
     CVSS:
       bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
@@ -6844,7 +7008,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-39820
     - https://pkg.go.dev/vuln/GO-2026-4986
     PublishedDate: '2026-05-07T20:16:43.187Z'
-    LastModifiedDate: '2026-05-08T15:16:37.323Z'
+    LastModifiedDate: '2026-05-13T15:10:58.65Z'
   - VulnerabilityID: CVE-2026-39836
     VendorIDs:
     - GO-2026-4971
@@ -6859,6 +7023,7 @@
     Layer:
       Digest: sha256:b938cbcbf2edf099ccc05c7b1d181961e12b8437675a2ba4f5ee27ef3d707eae
       DiffID: sha256:d9555122eea009eb32f94ce1679e6ef6c342162033bde7052977e9c6476e11aa
+    SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-39836
     DataSource:
       ID: govulndb
@@ -6868,10 +7033,16 @@
     Title: Panic in Dial and LookupPort when handling NUL byte on Windows in net
     Description: The Dial and LookupPort functions panic on Windows when provided with an input containing a NUL (0).
     Severity: HIGH
+    CweIDs:
+    - CWE-476
     VendorSeverity:
       bitnami: 3
+      nvd: 3
     CVSS:
       bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
@@ -6881,7 +7052,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-39836
     - https://pkg.go.dev/vuln/GO-2026-4971
     PublishedDate: '2026-05-07T20:16:43.593Z'
-    LastModifiedDate: '2026-05-08T22:16:29.723Z'
+    LastModifiedDate: '2026-05-13T15:11:10.31Z'
   - VulnerabilityID: CVE-2026-42499
     VendorIDs:
     - GO-2026-4977
@@ -6918,7 +7089,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-42499
     - https://pkg.go.dev/vuln/GO-2026-4977
     PublishedDate: '2026-05-07T20:16:44.54Z'
-    LastModifiedDate: '2026-05-08T22:16:33.183Z'
+    LastModifiedDate: '2026-05-13T16:59:17.563Z'
   - VulnerabilityID: CVE-2026-39823
     VendorIDs:
     - GO-2026-4982
@@ -6942,6 +7113,8 @@
     Title: CVE-2026-27142 fixed a vulnerability in which URLs were not correctly  ...
     Description: CVE-2026-27142 fixed a vulnerability in which URLs were not correctly escaped inside of a <meta> tag's <content> attribute. If the URL content were to insert ASCII whitespaces around the '=' rune inside of the <content> attribute, the escaper would fail to similarly escape it, leading to XSS.
     Severity: MEDIUM
+    CweIDs:
+    - CWE-79
     VendorSeverity:
       bitnami: 2
     CVSS:
@@ -6955,7 +7128,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-39823
     - https://pkg.go.dev/vuln/GO-2026-4982
     PublishedDate: '2026-05-07T20:16:43.29Z'
-    LastModifiedDate: '2026-05-08T15:16:37.5Z'
+    LastModifiedDate: '2026-05-13T16:58:45.697Z'
   - VulnerabilityID: CVE-2026-39825
     VendorIDs:
     - GO-2026-4976
@@ -6992,7 +7165,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-39825
     - https://pkg.go.dev/vuln/GO-2026-4976
     PublishedDate: '2026-05-07T20:16:43.39Z'
-    LastModifiedDate: '2026-05-08T22:16:29.547Z'
+    LastModifiedDate: '2026-05-13T16:58:56.39Z'
   - VulnerabilityID: CVE-2026-39826
     VendorIDs:
     - GO-2026-4980
@@ -7016,6 +7189,8 @@
     Title: If a trusted template author were to write a <script> tag containing a ...
     Description: If a trusted template author were to write a <script> tag containing an empty 'type' attribute or a 'type' attribute with an ASCII whitespace, the execution of the template would incorrectly escape any data passed into the <script> block.
     Severity: MEDIUM
+    CweIDs:
+    - CWE-116
     VendorSeverity:
       bitnami: 2
     CVSS:
@@ -7029,7 +7204,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-39826
     - https://pkg.go.dev/vuln/GO-2026-4980
     PublishedDate: '2026-05-07T20:16:43.49Z'
-    LastModifiedDate: '2026-05-08T15:16:37.68Z'
+    LastModifiedDate: '2026-05-13T16:59:07.48Z'
 - Target: usr/bin/kubectl
   Class: lang-pkgs
   Type: gobinary
@@ -7093,6 +7268,7 @@
     Layer:
       Digest: sha256:b938cbcbf2edf099ccc05c7b1d181961e12b8437675a2ba4f5ee27ef3d707eae
       DiffID: sha256:d9555122eea009eb32f94ce1679e6ef6c342162033bde7052977e9c6476e11aa
+    SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-33814
     DataSource:
       ID: govulndb
@@ -7102,10 +7278,16 @@
     Title: When processing HTTP/2 SETTINGS frames, transport will enter an infini ...
     Description: When processing HTTP/2 SETTINGS frames, transport will enter an infinite loop of writing CONTINUATION frames if it receives a SETTINGS_MAX_FRAME_SIZE with a value of 0.
     Severity: HIGH
+    CweIDs:
+    - CWE-835
     VendorSeverity:
       bitnami: 3
+      nvd: 3
     CVSS:
       bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
@@ -7116,7 +7298,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-33814
     - https://pkg.go.dev/vuln/GO-2026-4918
     PublishedDate: '2026-05-07T20:16:42.88Z'
-    LastModifiedDate: '2026-05-08T19:16:30.567Z'
+    LastModifiedDate: '2026-05-13T14:41:59.52Z'
   - VulnerabilityID: CVE-2026-39820
     VendorIDs:
     - GO-2026-4986
@@ -7131,6 +7313,7 @@
     Layer:
       Digest: sha256:b938cbcbf2edf099ccc05c7b1d181961e12b8437675a2ba4f5ee27ef3d707eae
       DiffID: sha256:d9555122eea009eb32f94ce1679e6ef6c342162033bde7052977e9c6476e11aa
+    SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-39820
     DataSource:
       ID: govulndb
@@ -7140,10 +7323,16 @@
     Title: Well-crafted inputs reaching ParseAddress, ParseAddressList, and Parse ...
     Description: Well-crafted inputs reaching ParseAddress, ParseAddressList, and ParseDate were able to trigger excessive CPU exhaustion and memory allocations.
     Severity: HIGH
+    CweIDs:
+    - CWE-770
     VendorSeverity:
       bitnami: 3
+      nvd: 3
     CVSS:
       bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
@@ -7153,7 +7342,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-39820
     - https://pkg.go.dev/vuln/GO-2026-4986
     PublishedDate: '2026-05-07T20:16:43.187Z'
-    LastModifiedDate: '2026-05-08T15:16:37.323Z'
+    LastModifiedDate: '2026-05-13T15:10:58.65Z'
   - VulnerabilityID: CVE-2026-39836
     VendorIDs:
     - GO-2026-4971
@@ -7168,6 +7357,7 @@
     Layer:
       Digest: sha256:b938cbcbf2edf099ccc05c7b1d181961e12b8437675a2ba4f5ee27ef3d707eae
       DiffID: sha256:d9555122eea009eb32f94ce1679e6ef6c342162033bde7052977e9c6476e11aa
+    SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-39836
     DataSource:
       ID: govulndb
@@ -7177,10 +7367,16 @@
     Title: Panic in Dial and LookupPort when handling NUL byte on Windows in net
     Description: The Dial and LookupPort functions panic on Windows when provided with an input containing a NUL (0).
     Severity: HIGH
+    CweIDs:
+    - CWE-476
     VendorSeverity:
       bitnami: 3
+      nvd: 3
     CVSS:
       bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
@@ -7190,7 +7386,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-39836
     - https://pkg.go.dev/vuln/GO-2026-4971
     PublishedDate: '2026-05-07T20:16:43.593Z'
-    LastModifiedDate: '2026-05-08T22:16:29.723Z'
+    LastModifiedDate: '2026-05-13T15:11:10.31Z'
   - VulnerabilityID: CVE-2026-42499
     VendorIDs:
     - GO-2026-4977
@@ -7227,7 +7423,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-42499
     - https://pkg.go.dev/vuln/GO-2026-4977
     PublishedDate: '2026-05-07T20:16:44.54Z'
-    LastModifiedDate: '2026-05-08T22:16:33.183Z'
+    LastModifiedDate: '2026-05-13T16:59:17.563Z'
   - VulnerabilityID: CVE-2026-39823
     VendorIDs:
     - GO-2026-4982
@@ -7251,6 +7447,8 @@
     Title: CVE-2026-27142 fixed a vulnerability in which URLs were not correctly  ...
     Description: CVE-2026-27142 fixed a vulnerability in which URLs were not correctly escaped inside of a <meta> tag's <content> attribute. If the URL content were to insert ASCII whitespaces around the '=' rune inside of the <content> attribute, the escaper would fail to similarly escape it, leading to XSS.
     Severity: MEDIUM
+    CweIDs:
+    - CWE-79
     VendorSeverity:
       bitnami: 2
     CVSS:
@@ -7264,7 +7462,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-39823
     - https://pkg.go.dev/vuln/GO-2026-4982
     PublishedDate: '2026-05-07T20:16:43.29Z'
-    LastModifiedDate: '2026-05-08T15:16:37.5Z'
+    LastModifiedDate: '2026-05-13T16:58:45.697Z'
   - VulnerabilityID: CVE-2026-39825
     VendorIDs:
     - GO-2026-4976
@@ -7301,7 +7499,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-39825
     - https://pkg.go.dev/vuln/GO-2026-4976
     PublishedDate: '2026-05-07T20:16:43.39Z'
-    LastModifiedDate: '2026-05-08T22:16:29.547Z'
+    LastModifiedDate: '2026-05-13T16:58:56.39Z'
   - VulnerabilityID: CVE-2026-39826
     VendorIDs:
     - GO-2026-4980
@@ -7325,6 +7523,8 @@
     Title: If a trusted template author were to write a <script> tag containing a ...
     Description: If a trusted template author were to write a <script> tag containing an empty 'type' attribute or a 'type' attribute with an ASCII whitespace, the execution of the template would incorrectly escape any data passed into the <script> block.
     Severity: MEDIUM
+    CweIDs:
+    - CWE-116
     VendorSeverity:
       bitnami: 2
     CVSS:
@@ -7338,7 +7538,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-39826
     - https://pkg.go.dev/vuln/GO-2026-4980
     PublishedDate: '2026-05-07T20:16:43.49Z'
-    LastModifiedDate: '2026-05-08T15:16:37.68Z'
+    LastModifiedDate: '2026-05-13T16:59:07.48Z'
 - Target: usr/bin/mc
   Class: lang-pkgs
   Type: gobinary
@@ -7488,7 +7688,9 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-40179
     PublishedDate: '2026-04-15T23:16:09.87Z'
     LastModifiedDate: '2026-04-22T20:04:15.1Z'
-  - VulnerabilityID: GHSA-fw8g-cg8f-9j28
+  - VulnerabilityID: CVE-2026-44903
+    VendorIDs:
+    - GHSA-fw8g-cg8f-9j28
     PkgID: github.com/prometheus/prometheus@v0.303.0
     PkgName: github.com/prometheus/prometheus
     PkgIdentifier:
@@ -7501,12 +7703,12 @@
       Digest: sha256:b938cbcbf2edf099ccc05c7b1d181961e12b8437675a2ba4f5ee27ef3d707eae
       DiffID: sha256:d9555122eea009eb32f94ce1679e6ef6c342162033bde7052977e9c6476e11aa
     SeveritySource: ghsa
-    PrimaryURL: https://github.com/advisories/GHSA-fw8g-cg8f-9j28
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-44903
     DataSource:
       ID: ghsa
       Name: GitHub Security Advisory Go
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
-    Fingerprint: sha256:8a74b2cc0ce5dd7f03a8a1e07c080177e47e9d0f69fcbebc0c68876f9adf43f6
+    Fingerprint: sha256:3f091746f8dd3a6ae479844158864df5b2529d7c548144fe7c2c74ea7fe3d60f
     Title: Prometheus vulnerable to stored XSS via crafted histogram bucket label values in the old web UI heatmap display
     Description: |-
       ### Impact
@@ -7549,8 +7751,6 @@
     - https://github.com/prometheus/prometheus
     - https://github.com/prometheus/prometheus/commit/38f23b9075ced1de2b82d2dad8b2bebb1ecd5b7d
     - https://github.com/prometheus/prometheus/security/advisories/GHSA-fw8g-cg8f-9j28
-    PublishedDate: '2026-05-05T21:53:18Z'
-    LastModifiedDate: '2026-05-08T16:52:53Z'
   - VulnerabilityID: CVE-2025-47914
     VendorIDs:
     - GHSA-f6x5-jh6r-wrfv
@@ -8052,7 +8252,7 @@
     - CWE-425
     VendorSeverity:
       alma: 3
-      amazon: 3
+      amazon: 2
       azure: 3
       bitnami: 3
       oracle-oval: 3
@@ -8146,7 +8346,7 @@
     - https://go.dev/issue/78282
     - https://groups.google.com/g/golang-announce/c/0uYbvbPZRWU
     - https://linux.oracle.com/cve/CVE-2026-32280.html
-    - https://linux.oracle.com/errata/ELSA-2026-14200.html
+    - https://linux.oracle.com/errata/ELSA-2026-16875.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-32280
     - https://pkg.go.dev/vuln/GO-2026-4947
     - https://www.cve.org/CVERecord?id=CVE-2026-32280
@@ -8263,7 +8463,7 @@
     - https://go.dev/issue/78334
     - https://groups.google.com/g/golang-announce/c/0uYbvbPZRWU
     - https://linux.oracle.com/cve/CVE-2026-32283.html
-    - https://linux.oracle.com/errata/ELSA-2026-14200.html
+    - https://linux.oracle.com/errata/ELSA-2026-17075.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-32283
     - https://pkg.go.dev/vuln/GO-2026-4870
     - https://www.cve.org/CVERecord?id=CVE-2026-32283
@@ -8327,6 +8527,7 @@
     Layer:
       Digest: sha256:b938cbcbf2edf099ccc05c7b1d181961e12b8437675a2ba4f5ee27ef3d707eae
       DiffID: sha256:d9555122eea009eb32f94ce1679e6ef6c342162033bde7052977e9c6476e11aa
+    SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-33814
     DataSource:
       ID: govulndb
@@ -8336,10 +8537,16 @@
     Title: When processing HTTP/2 SETTINGS frames, transport will enter an infini ...
     Description: When processing HTTP/2 SETTINGS frames, transport will enter an infinite loop of writing CONTINUATION frames if it receives a SETTINGS_MAX_FRAME_SIZE with a value of 0.
     Severity: HIGH
+    CweIDs:
+    - CWE-835
     VendorSeverity:
       bitnami: 3
+      nvd: 3
     CVSS:
       bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
@@ -8350,7 +8557,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-33814
     - https://pkg.go.dev/vuln/GO-2026-4918
     PublishedDate: '2026-05-07T20:16:42.88Z'
-    LastModifiedDate: '2026-05-08T19:16:30.567Z'
+    LastModifiedDate: '2026-05-13T14:41:59.52Z'
   - VulnerabilityID: CVE-2026-39820
     VendorIDs:
     - GO-2026-4986
@@ -8365,6 +8572,7 @@
     Layer:
       Digest: sha256:b938cbcbf2edf099ccc05c7b1d181961e12b8437675a2ba4f5ee27ef3d707eae
       DiffID: sha256:d9555122eea009eb32f94ce1679e6ef6c342162033bde7052977e9c6476e11aa
+    SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-39820
     DataSource:
       ID: govulndb
@@ -8374,10 +8582,16 @@
     Title: Well-crafted inputs reaching ParseAddress, ParseAddressList, and Parse ...
     Description: Well-crafted inputs reaching ParseAddress, ParseAddressList, and ParseDate were able to trigger excessive CPU exhaustion and memory allocations.
     Severity: HIGH
+    CweIDs:
+    - CWE-770
     VendorSeverity:
       bitnami: 3
+      nvd: 3
     CVSS:
       bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
@@ -8387,7 +8601,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-39820
     - https://pkg.go.dev/vuln/GO-2026-4986
     PublishedDate: '2026-05-07T20:16:43.187Z'
-    LastModifiedDate: '2026-05-08T15:16:37.323Z'
+    LastModifiedDate: '2026-05-13T15:10:58.65Z'
   - VulnerabilityID: CVE-2026-39836
     VendorIDs:
     - GO-2026-4971
@@ -8402,6 +8616,7 @@
     Layer:
       Digest: sha256:b938cbcbf2edf099ccc05c7b1d181961e12b8437675a2ba4f5ee27ef3d707eae
       DiffID: sha256:d9555122eea009eb32f94ce1679e6ef6c342162033bde7052977e9c6476e11aa
+    SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-39836
     DataSource:
       ID: govulndb
@@ -8411,10 +8626,16 @@
     Title: Panic in Dial and LookupPort when handling NUL byte on Windows in net
     Description: The Dial and LookupPort functions panic on Windows when provided with an input containing a NUL (0).
     Severity: HIGH
+    CweIDs:
+    - CWE-476
     VendorSeverity:
       bitnami: 3
+      nvd: 3
     CVSS:
       bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
@@ -8424,7 +8645,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-39836
     - https://pkg.go.dev/vuln/GO-2026-4971
     PublishedDate: '2026-05-07T20:16:43.593Z'
-    LastModifiedDate: '2026-05-08T22:16:29.723Z'
+    LastModifiedDate: '2026-05-13T15:11:10.31Z'
   - VulnerabilityID: CVE-2026-42499
     VendorIDs:
     - GO-2026-4977
@@ -8461,7 +8682,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-42499
     - https://pkg.go.dev/vuln/GO-2026-4977
     PublishedDate: '2026-05-07T20:16:44.54Z'
-    LastModifiedDate: '2026-05-08T22:16:33.183Z'
+    LastModifiedDate: '2026-05-13T16:59:17.563Z'
   - VulnerabilityID: CVE-2025-47912
     VendorIDs:
     - GO-2025-4010
@@ -9006,7 +9227,7 @@
     CweIDs:
     - CWE-79
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       bitnami: 2
       redhat: 2
     CVSS:
@@ -9086,7 +9307,7 @@
     - https://go.dev/issue/78293
     - https://groups.google.com/g/golang-announce/c/0uYbvbPZRWU
     - https://linux.oracle.com/cve/CVE-2026-32282.html
-    - https://linux.oracle.com/errata/ELSA-2026-14200.html
+    - https://linux.oracle.com/errata/ELSA-2026-17075.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-32282
     - https://pkg.go.dev/vuln/GO-2026-4864
     - https://www.cve.org/CVERecord?id=CVE-2026-32282
@@ -9220,6 +9441,8 @@
     Title: CVE-2026-27142 fixed a vulnerability in which URLs were not correctly  ...
     Description: CVE-2026-27142 fixed a vulnerability in which URLs were not correctly escaped inside of a <meta> tag's <content> attribute. If the URL content were to insert ASCII whitespaces around the '=' rune inside of the <content> attribute, the escaper would fail to similarly escape it, leading to XSS.
     Severity: MEDIUM
+    CweIDs:
+    - CWE-79
     VendorSeverity:
       bitnami: 2
     CVSS:
@@ -9233,7 +9456,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-39823
     - https://pkg.go.dev/vuln/GO-2026-4982
     PublishedDate: '2026-05-07T20:16:43.29Z'
-    LastModifiedDate: '2026-05-08T15:16:37.5Z'
+    LastModifiedDate: '2026-05-13T16:58:45.697Z'
   - VulnerabilityID: CVE-2026-39825
     VendorIDs:
     - GO-2026-4976
@@ -9270,7 +9493,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-39825
     - https://pkg.go.dev/vuln/GO-2026-4976
     PublishedDate: '2026-05-07T20:16:43.39Z'
-    LastModifiedDate: '2026-05-08T22:16:29.547Z'
+    LastModifiedDate: '2026-05-13T16:58:56.39Z'
   - VulnerabilityID: CVE-2026-39826
     VendorIDs:
     - GO-2026-4980
@@ -9294,6 +9517,8 @@
     Title: If a trusted template author were to write a <script> tag containing a ...
     Description: If a trusted template author were to write a <script> tag containing an empty 'type' attribute or a 'type' attribute with an ASCII whitespace, the execution of the template would incorrectly escape any data passed into the <script> block.
     Severity: MEDIUM
+    CweIDs:
+    - CWE-116
     VendorSeverity:
       bitnami: 2
     CVSS:
@@ -9307,7 +9532,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-39826
     - https://pkg.go.dev/vuln/GO-2026-4980
     PublishedDate: '2026-05-07T20:16:43.49Z'
-    LastModifiedDate: '2026-05-08T15:16:37.68Z'
+    LastModifiedDate: '2026-05-13T16:59:07.48Z'
   - VulnerabilityID: CVE-2026-27139
     VendorIDs:
     - GO-2026-4602
@@ -9334,7 +9559,7 @@
     CweIDs:
     - CWE-22
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       azure: 1
       bitnami: 1
       redhat: 1
@@ -9418,6 +9643,7 @@
     Layer:
       Digest: sha256:b938cbcbf2edf099ccc05c7b1d181961e12b8437675a2ba4f5ee27ef3d707eae
       DiffID: sha256:d9555122eea009eb32f94ce1679e6ef6c342162033bde7052977e9c6476e11aa
+    SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-33814
     DataSource:
       ID: govulndb
@@ -9427,10 +9653,16 @@
     Title: When processing HTTP/2 SETTINGS frames, transport will enter an infini ...
     Description: When processing HTTP/2 SETTINGS frames, transport will enter an infinite loop of writing CONTINUATION frames if it receives a SETTINGS_MAX_FRAME_SIZE with a value of 0.
     Severity: HIGH
+    CweIDs:
+    - CWE-835
     VendorSeverity:
       bitnami: 3
+      nvd: 3
     CVSS:
       bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
@@ -9441,7 +9673,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-33814
     - https://pkg.go.dev/vuln/GO-2026-4918
     PublishedDate: '2026-05-07T20:16:42.88Z'
-    LastModifiedDate: '2026-05-08T19:16:30.567Z'
+    LastModifiedDate: '2026-05-13T14:41:59.52Z'
   - VulnerabilityID: CVE-2026-39820
     VendorIDs:
     - GO-2026-4986
@@ -9456,6 +9688,7 @@
     Layer:
       Digest: sha256:b938cbcbf2edf099ccc05c7b1d181961e12b8437675a2ba4f5ee27ef3d707eae
       DiffID: sha256:d9555122eea009eb32f94ce1679e6ef6c342162033bde7052977e9c6476e11aa
+    SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-39820
     DataSource:
       ID: govulndb
@@ -9465,10 +9698,16 @@
     Title: Well-crafted inputs reaching ParseAddress, ParseAddressList, and Parse ...
     Description: Well-crafted inputs reaching ParseAddress, ParseAddressList, and ParseDate were able to trigger excessive CPU exhaustion and memory allocations.
     Severity: HIGH
+    CweIDs:
+    - CWE-770
     VendorSeverity:
       bitnami: 3
+      nvd: 3
     CVSS:
       bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
@@ -9478,7 +9717,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-39820
     - https://pkg.go.dev/vuln/GO-2026-4986
     PublishedDate: '2026-05-07T20:16:43.187Z'
-    LastModifiedDate: '2026-05-08T15:16:37.323Z'
+    LastModifiedDate: '2026-05-13T15:10:58.65Z'
   - VulnerabilityID: CVE-2026-39836
     VendorIDs:
     - GO-2026-4971
@@ -9493,6 +9732,7 @@
     Layer:
       Digest: sha256:b938cbcbf2edf099ccc05c7b1d181961e12b8437675a2ba4f5ee27ef3d707eae
       DiffID: sha256:d9555122eea009eb32f94ce1679e6ef6c342162033bde7052977e9c6476e11aa
+    SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-39836
     DataSource:
       ID: govulndb
@@ -9502,10 +9742,16 @@
     Title: Panic in Dial and LookupPort when handling NUL byte on Windows in net
     Description: The Dial and LookupPort functions panic on Windows when provided with an input containing a NUL (0).
     Severity: HIGH
+    CweIDs:
+    - CWE-476
     VendorSeverity:
       bitnami: 3
+      nvd: 3
     CVSS:
       bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
@@ -9515,7 +9761,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-39836
     - https://pkg.go.dev/vuln/GO-2026-4971
     PublishedDate: '2026-05-07T20:16:43.593Z'
-    LastModifiedDate: '2026-05-08T22:16:29.723Z'
+    LastModifiedDate: '2026-05-13T15:11:10.31Z'
   - VulnerabilityID: CVE-2026-42499
     VendorIDs:
     - GO-2026-4977
@@ -9552,7 +9798,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-42499
     - https://pkg.go.dev/vuln/GO-2026-4977
     PublishedDate: '2026-05-07T20:16:44.54Z'
-    LastModifiedDate: '2026-05-08T22:16:33.183Z'
+    LastModifiedDate: '2026-05-13T16:59:17.563Z'
   - VulnerabilityID: CVE-2026-39823
     VendorIDs:
     - GO-2026-4982
@@ -9576,6 +9822,8 @@
     Title: CVE-2026-27142 fixed a vulnerability in which URLs were not correctly  ...
     Description: CVE-2026-27142 fixed a vulnerability in which URLs were not correctly escaped inside of a <meta> tag's <content> attribute. If the URL content were to insert ASCII whitespaces around the '=' rune inside of the <content> attribute, the escaper would fail to similarly escape it, leading to XSS.
     Severity: MEDIUM
+    CweIDs:
+    - CWE-79
     VendorSeverity:
       bitnami: 2
     CVSS:
@@ -9589,7 +9837,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-39823
     - https://pkg.go.dev/vuln/GO-2026-4982
     PublishedDate: '2026-05-07T20:16:43.29Z'
-    LastModifiedDate: '2026-05-08T15:16:37.5Z'
+    LastModifiedDate: '2026-05-13T16:58:45.697Z'
   - VulnerabilityID: CVE-2026-39825
     VendorIDs:
     - GO-2026-4976
@@ -9626,7 +9874,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-39825
     - https://pkg.go.dev/vuln/GO-2026-4976
     PublishedDate: '2026-05-07T20:16:43.39Z'
-    LastModifiedDate: '2026-05-08T22:16:29.547Z'
+    LastModifiedDate: '2026-05-13T16:58:56.39Z'
   - VulnerabilityID: CVE-2026-39826
     VendorIDs:
     - GO-2026-4980
@@ -9650,6 +9898,8 @@
     Title: If a trusted template author were to write a <script> tag containing a ...
     Description: If a trusted template author were to write a <script> tag containing an empty 'type' attribute or a 'type' attribute with an ASCII whitespace, the execution of the template would incorrectly escape any data passed into the <script> block.
     Severity: MEDIUM
+    CweIDs:
+    - CWE-116
     VendorSeverity:
       bitnami: 2
     CVSS:
@@ -9663,7 +9913,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-39826
     - https://pkg.go.dev/vuln/GO-2026-4980
     PublishedDate: '2026-05-07T20:16:43.49Z'
-    LastModifiedDate: '2026-05-08T15:16:37.68Z'
+    LastModifiedDate: '2026-05-13T16:59:07.48Z'
 - Target: usr/bin/rootlesskit
   Class: lang-pkgs
   Type: gobinary
@@ -9727,6 +9977,7 @@
     Layer:
       Digest: sha256:b938cbcbf2edf099ccc05c7b1d181961e12b8437675a2ba4f5ee27ef3d707eae
       DiffID: sha256:d9555122eea009eb32f94ce1679e6ef6c342162033bde7052977e9c6476e11aa
+    SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-33814
     DataSource:
       ID: govulndb
@@ -9736,10 +9987,16 @@
     Title: When processing HTTP/2 SETTINGS frames, transport will enter an infini ...
     Description: When processing HTTP/2 SETTINGS frames, transport will enter an infinite loop of writing CONTINUATION frames if it receives a SETTINGS_MAX_FRAME_SIZE with a value of 0.
     Severity: HIGH
+    CweIDs:
+    - CWE-835
     VendorSeverity:
       bitnami: 3
+      nvd: 3
     CVSS:
       bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
@@ -9750,7 +10007,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-33814
     - https://pkg.go.dev/vuln/GO-2026-4918
     PublishedDate: '2026-05-07T20:16:42.88Z'
-    LastModifiedDate: '2026-05-08T19:16:30.567Z'
+    LastModifiedDate: '2026-05-13T14:41:59.52Z'
   - VulnerabilityID: CVE-2026-39820
     VendorIDs:
     - GO-2026-4986
@@ -9765,6 +10022,7 @@
     Layer:
       Digest: sha256:b938cbcbf2edf099ccc05c7b1d181961e12b8437675a2ba4f5ee27ef3d707eae
       DiffID: sha256:d9555122eea009eb32f94ce1679e6ef6c342162033bde7052977e9c6476e11aa
+    SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-39820
     DataSource:
       ID: govulndb
@@ -9774,10 +10032,16 @@
     Title: Well-crafted inputs reaching ParseAddress, ParseAddressList, and Parse ...
     Description: Well-crafted inputs reaching ParseAddress, ParseAddressList, and ParseDate were able to trigger excessive CPU exhaustion and memory allocations.
     Severity: HIGH
+    CweIDs:
+    - CWE-770
     VendorSeverity:
       bitnami: 3
+      nvd: 3
     CVSS:
       bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
@@ -9787,7 +10051,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-39820
     - https://pkg.go.dev/vuln/GO-2026-4986
     PublishedDate: '2026-05-07T20:16:43.187Z'
-    LastModifiedDate: '2026-05-08T15:16:37.323Z'
+    LastModifiedDate: '2026-05-13T15:10:58.65Z'
   - VulnerabilityID: CVE-2026-39836
     VendorIDs:
     - GO-2026-4971
@@ -9802,6 +10066,7 @@
     Layer:
       Digest: sha256:b938cbcbf2edf099ccc05c7b1d181961e12b8437675a2ba4f5ee27ef3d707eae
       DiffID: sha256:d9555122eea009eb32f94ce1679e6ef6c342162033bde7052977e9c6476e11aa
+    SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-39836
     DataSource:
       ID: govulndb
@@ -9811,10 +10076,16 @@
     Title: Panic in Dial and LookupPort when handling NUL byte on Windows in net
     Description: The Dial and LookupPort functions panic on Windows when provided with an input containing a NUL (0).
     Severity: HIGH
+    CweIDs:
+    - CWE-476
     VendorSeverity:
       bitnami: 3
+      nvd: 3
     CVSS:
       bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
@@ -9824,7 +10095,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-39836
     - https://pkg.go.dev/vuln/GO-2026-4971
     PublishedDate: '2026-05-07T20:16:43.593Z'
-    LastModifiedDate: '2026-05-08T22:16:29.723Z'
+    LastModifiedDate: '2026-05-13T15:11:10.31Z'
   - VulnerabilityID: CVE-2026-42499
     VendorIDs:
     - GO-2026-4977
@@ -9861,7 +10132,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-42499
     - https://pkg.go.dev/vuln/GO-2026-4977
     PublishedDate: '2026-05-07T20:16:44.54Z'
-    LastModifiedDate: '2026-05-08T22:16:33.183Z'
+    LastModifiedDate: '2026-05-13T16:59:17.563Z'
   - VulnerabilityID: CVE-2026-39823
     VendorIDs:
     - GO-2026-4982
@@ -9885,6 +10156,8 @@
     Title: CVE-2026-27142 fixed a vulnerability in which URLs were not correctly  ...
     Description: CVE-2026-27142 fixed a vulnerability in which URLs were not correctly escaped inside of a <meta> tag's <content> attribute. If the URL content were to insert ASCII whitespaces around the '=' rune inside of the <content> attribute, the escaper would fail to similarly escape it, leading to XSS.
     Severity: MEDIUM
+    CweIDs:
+    - CWE-79
     VendorSeverity:
       bitnami: 2
     CVSS:
@@ -9898,7 +10171,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-39823
     - https://pkg.go.dev/vuln/GO-2026-4982
     PublishedDate: '2026-05-07T20:16:43.29Z'
-    LastModifiedDate: '2026-05-08T15:16:37.5Z'
+    LastModifiedDate: '2026-05-13T16:58:45.697Z'
   - VulnerabilityID: CVE-2026-39825
     VendorIDs:
     - GO-2026-4976
@@ -9935,7 +10208,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-39825
     - https://pkg.go.dev/vuln/GO-2026-4976
     PublishedDate: '2026-05-07T20:16:43.39Z'
-    LastModifiedDate: '2026-05-08T22:16:29.547Z'
+    LastModifiedDate: '2026-05-13T16:58:56.39Z'
   - VulnerabilityID: CVE-2026-39826
     VendorIDs:
     - GO-2026-4980
@@ -9959,6 +10232,8 @@
     Title: If a trusted template author were to write a <script> tag containing a ...
     Description: If a trusted template author were to write a <script> tag containing an empty 'type' attribute or a 'type' attribute with an ASCII whitespace, the execution of the template would incorrectly escape any data passed into the <script> block.
     Severity: MEDIUM
+    CweIDs:
+    - CWE-116
     VendorSeverity:
       bitnami: 2
     CVSS:
@@ -9972,7 +10247,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-39826
     - https://pkg.go.dev/vuln/GO-2026-4980
     PublishedDate: '2026-05-07T20:16:43.49Z'
-    LastModifiedDate: '2026-05-08T15:16:37.68Z'
+    LastModifiedDate: '2026-05-13T16:59:07.48Z'
 - Target: usr/libexec/docker/cli-plugins/docker-buildx
   Class: lang-pkgs
   Type: gobinary
@@ -10452,7 +10727,7 @@
     - https://go.dev/issue/78282
     - https://groups.google.com/g/golang-announce/c/0uYbvbPZRWU
     - https://linux.oracle.com/cve/CVE-2026-32280.html
-    - https://linux.oracle.com/errata/ELSA-2026-14200.html
+    - https://linux.oracle.com/errata/ELSA-2026-16875.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-32280
     - https://pkg.go.dev/vuln/GO-2026-4947
     - https://www.cve.org/CVERecord?id=CVE-2026-32280
@@ -10569,7 +10844,7 @@
     - https://go.dev/issue/78334
     - https://groups.google.com/g/golang-announce/c/0uYbvbPZRWU
     - https://linux.oracle.com/cve/CVE-2026-32283.html
-    - https://linux.oracle.com/errata/ELSA-2026-14200.html
+    - https://linux.oracle.com/errata/ELSA-2026-17075.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-32283
     - https://pkg.go.dev/vuln/GO-2026-4870
     - https://www.cve.org/CVERecord?id=CVE-2026-32283
@@ -10633,6 +10908,7 @@
     Layer:
       Digest: sha256:b938cbcbf2edf099ccc05c7b1d181961e12b8437675a2ba4f5ee27ef3d707eae
       DiffID: sha256:d9555122eea009eb32f94ce1679e6ef6c342162033bde7052977e9c6476e11aa
+    SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-33814
     DataSource:
       ID: govulndb
@@ -10642,10 +10918,16 @@
     Title: When processing HTTP/2 SETTINGS frames, transport will enter an infini ...
     Description: When processing HTTP/2 SETTINGS frames, transport will enter an infinite loop of writing CONTINUATION frames if it receives a SETTINGS_MAX_FRAME_SIZE with a value of 0.
     Severity: HIGH
+    CweIDs:
+    - CWE-835
     VendorSeverity:
       bitnami: 3
+      nvd: 3
     CVSS:
       bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
@@ -10656,7 +10938,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-33814
     - https://pkg.go.dev/vuln/GO-2026-4918
     PublishedDate: '2026-05-07T20:16:42.88Z'
-    LastModifiedDate: '2026-05-08T19:16:30.567Z'
+    LastModifiedDate: '2026-05-13T14:41:59.52Z'
   - VulnerabilityID: CVE-2026-39820
     VendorIDs:
     - GO-2026-4986
@@ -10671,6 +10953,7 @@
     Layer:
       Digest: sha256:b938cbcbf2edf099ccc05c7b1d181961e12b8437675a2ba4f5ee27ef3d707eae
       DiffID: sha256:d9555122eea009eb32f94ce1679e6ef6c342162033bde7052977e9c6476e11aa
+    SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-39820
     DataSource:
       ID: govulndb
@@ -10680,10 +10963,16 @@
     Title: Well-crafted inputs reaching ParseAddress, ParseAddressList, and Parse ...
     Description: Well-crafted inputs reaching ParseAddress, ParseAddressList, and ParseDate were able to trigger excessive CPU exhaustion and memory allocations.
     Severity: HIGH
+    CweIDs:
+    - CWE-770
     VendorSeverity:
       bitnami: 3
+      nvd: 3
     CVSS:
       bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
@@ -10693,7 +10982,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-39820
     - https://pkg.go.dev/vuln/GO-2026-4986
     PublishedDate: '2026-05-07T20:16:43.187Z'
-    LastModifiedDate: '2026-05-08T15:16:37.323Z'
+    LastModifiedDate: '2026-05-13T15:10:58.65Z'
   - VulnerabilityID: CVE-2026-39836
     VendorIDs:
     - GO-2026-4971
@@ -10708,6 +10997,7 @@
     Layer:
       Digest: sha256:b938cbcbf2edf099ccc05c7b1d181961e12b8437675a2ba4f5ee27ef3d707eae
       DiffID: sha256:d9555122eea009eb32f94ce1679e6ef6c342162033bde7052977e9c6476e11aa
+    SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-39836
     DataSource:
       ID: govulndb
@@ -10717,10 +11007,16 @@
     Title: Panic in Dial and LookupPort when handling NUL byte on Windows in net
     Description: The Dial and LookupPort functions panic on Windows when provided with an input containing a NUL (0).
     Severity: HIGH
+    CweIDs:
+    - CWE-476
     VendorSeverity:
       bitnami: 3
+      nvd: 3
     CVSS:
       bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
@@ -10730,7 +11026,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-39836
     - https://pkg.go.dev/vuln/GO-2026-4971
     PublishedDate: '2026-05-07T20:16:43.593Z'
-    LastModifiedDate: '2026-05-08T22:16:29.723Z'
+    LastModifiedDate: '2026-05-13T15:11:10.31Z'
   - VulnerabilityID: CVE-2026-42499
     VendorIDs:
     - GO-2026-4977
@@ -10767,7 +11063,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-42499
     - https://pkg.go.dev/vuln/GO-2026-4977
     PublishedDate: '2026-05-07T20:16:44.54Z'
-    LastModifiedDate: '2026-05-08T22:16:33.183Z'
+    LastModifiedDate: '2026-05-13T16:59:17.563Z'
   - VulnerabilityID: CVE-2026-32282
     VendorIDs:
     - GO-2026-4864
@@ -10828,7 +11124,7 @@
     - https://go.dev/issue/78293
     - https://groups.google.com/g/golang-announce/c/0uYbvbPZRWU
     - https://linux.oracle.com/cve/CVE-2026-32282.html
-    - https://linux.oracle.com/errata/ELSA-2026-14200.html
+    - https://linux.oracle.com/errata/ELSA-2026-17075.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-32282
     - https://pkg.go.dev/vuln/GO-2026-4864
     - https://www.cve.org/CVERecord?id=CVE-2026-32282
@@ -10962,6 +11258,8 @@
     Title: CVE-2026-27142 fixed a vulnerability in which URLs were not correctly  ...
     Description: CVE-2026-27142 fixed a vulnerability in which URLs were not correctly escaped inside of a <meta> tag's <content> attribute. If the URL content were to insert ASCII whitespaces around the '=' rune inside of the <content> attribute, the escaper would fail to similarly escape it, leading to XSS.
     Severity: MEDIUM
+    CweIDs:
+    - CWE-79
     VendorSeverity:
       bitnami: 2
     CVSS:
@@ -10975,7 +11273,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-39823
     - https://pkg.go.dev/vuln/GO-2026-4982
     PublishedDate: '2026-05-07T20:16:43.29Z'
-    LastModifiedDate: '2026-05-08T15:16:37.5Z'
+    LastModifiedDate: '2026-05-13T16:58:45.697Z'
   - VulnerabilityID: CVE-2026-39825
     VendorIDs:
     - GO-2026-4976
@@ -11012,7 +11310,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-39825
     - https://pkg.go.dev/vuln/GO-2026-4976
     PublishedDate: '2026-05-07T20:16:43.39Z'
-    LastModifiedDate: '2026-05-08T22:16:29.547Z'
+    LastModifiedDate: '2026-05-13T16:58:56.39Z'
   - VulnerabilityID: CVE-2026-39826
     VendorIDs:
     - GO-2026-4980
@@ -11036,6 +11334,8 @@
     Title: If a trusted template author were to write a <script> tag containing a ...
     Description: If a trusted template author were to write a <script> tag containing an empty 'type' attribute or a 'type' attribute with an ASCII whitespace, the execution of the template would incorrectly escape any data passed into the <script> block.
     Severity: MEDIUM
+    CweIDs:
+    - CWE-116
     VendorSeverity:
       bitnami: 2
     CVSS:
@@ -11049,7 +11349,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-39826
     - https://pkg.go.dev/vuln/GO-2026-4980
     PublishedDate: '2026-05-07T20:16:43.49Z'
-    LastModifiedDate: '2026-05-08T15:16:37.68Z'
+    LastModifiedDate: '2026-05-13T16:59:07.48Z'
 - Target: usr/libexec/docker/cli-plugins/docker-compose
   Class: lang-pkgs
   Type: gobinary
@@ -11396,7 +11696,7 @@
     - https://go.dev/issue/78282
     - https://groups.google.com/g/golang-announce/c/0uYbvbPZRWU
     - https://linux.oracle.com/cve/CVE-2026-32280.html
-    - https://linux.oracle.com/errata/ELSA-2026-14200.html
+    - https://linux.oracle.com/errata/ELSA-2026-16875.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-32280
     - https://pkg.go.dev/vuln/GO-2026-4947
     - https://www.cve.org/CVERecord?id=CVE-2026-32280
@@ -11513,7 +11813,7 @@
     - https://go.dev/issue/78334
     - https://groups.google.com/g/golang-announce/c/0uYbvbPZRWU
     - https://linux.oracle.com/cve/CVE-2026-32283.html
-    - https://linux.oracle.com/errata/ELSA-2026-14200.html
+    - https://linux.oracle.com/errata/ELSA-2026-17075.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-32283
     - https://pkg.go.dev/vuln/GO-2026-4870
     - https://www.cve.org/CVERecord?id=CVE-2026-32283
@@ -11577,6 +11877,7 @@
     Layer:
       Digest: sha256:b938cbcbf2edf099ccc05c7b1d181961e12b8437675a2ba4f5ee27ef3d707eae
       DiffID: sha256:d9555122eea009eb32f94ce1679e6ef6c342162033bde7052977e9c6476e11aa
+    SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-33814
     DataSource:
       ID: govulndb
@@ -11586,10 +11887,16 @@
     Title: When processing HTTP/2 SETTINGS frames, transport will enter an infini ...
     Description: When processing HTTP/2 SETTINGS frames, transport will enter an infinite loop of writing CONTINUATION frames if it receives a SETTINGS_MAX_FRAME_SIZE with a value of 0.
     Severity: HIGH
+    CweIDs:
+    - CWE-835
     VendorSeverity:
       bitnami: 3
+      nvd: 3
     CVSS:
       bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
@@ -11600,7 +11907,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-33814
     - https://pkg.go.dev/vuln/GO-2026-4918
     PublishedDate: '2026-05-07T20:16:42.88Z'
-    LastModifiedDate: '2026-05-08T19:16:30.567Z'
+    LastModifiedDate: '2026-05-13T14:41:59.52Z'
   - VulnerabilityID: CVE-2026-39820
     VendorIDs:
     - GO-2026-4986
@@ -11615,6 +11922,7 @@
     Layer:
       Digest: sha256:b938cbcbf2edf099ccc05c7b1d181961e12b8437675a2ba4f5ee27ef3d707eae
       DiffID: sha256:d9555122eea009eb32f94ce1679e6ef6c342162033bde7052977e9c6476e11aa
+    SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-39820
     DataSource:
       ID: govulndb
@@ -11624,10 +11932,16 @@
     Title: Well-crafted inputs reaching ParseAddress, ParseAddressList, and Parse ...
     Description: Well-crafted inputs reaching ParseAddress, ParseAddressList, and ParseDate were able to trigger excessive CPU exhaustion and memory allocations.
     Severity: HIGH
+    CweIDs:
+    - CWE-770
     VendorSeverity:
       bitnami: 3
+      nvd: 3
     CVSS:
       bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
@@ -11637,7 +11951,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-39820
     - https://pkg.go.dev/vuln/GO-2026-4986
     PublishedDate: '2026-05-07T20:16:43.187Z'
-    LastModifiedDate: '2026-05-08T15:16:37.323Z'
+    LastModifiedDate: '2026-05-13T15:10:58.65Z'
   - VulnerabilityID: CVE-2026-39836
     VendorIDs:
     - GO-2026-4971
@@ -11652,6 +11966,7 @@
     Layer:
       Digest: sha256:b938cbcbf2edf099ccc05c7b1d181961e12b8437675a2ba4f5ee27ef3d707eae
       DiffID: sha256:d9555122eea009eb32f94ce1679e6ef6c342162033bde7052977e9c6476e11aa
+    SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-39836
     DataSource:
       ID: govulndb
@@ -11661,10 +11976,16 @@
     Title: Panic in Dial and LookupPort when handling NUL byte on Windows in net
     Description: The Dial and LookupPort functions panic on Windows when provided with an input containing a NUL (0).
     Severity: HIGH
+    CweIDs:
+    - CWE-476
     VendorSeverity:
       bitnami: 3
+      nvd: 3
     CVSS:
       bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
@@ -11674,7 +11995,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-39836
     - https://pkg.go.dev/vuln/GO-2026-4971
     PublishedDate: '2026-05-07T20:16:43.593Z'
-    LastModifiedDate: '2026-05-08T22:16:29.723Z'
+    LastModifiedDate: '2026-05-13T15:11:10.31Z'
   - VulnerabilityID: CVE-2026-42499
     VendorIDs:
     - GO-2026-4977
@@ -11711,7 +12032,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-42499
     - https://pkg.go.dev/vuln/GO-2026-4977
     PublishedDate: '2026-05-07T20:16:44.54Z'
-    LastModifiedDate: '2026-05-08T22:16:33.183Z'
+    LastModifiedDate: '2026-05-13T16:59:17.563Z'
   - VulnerabilityID: CVE-2026-32282
     VendorIDs:
     - GO-2026-4864
@@ -11772,7 +12093,7 @@
     - https://go.dev/issue/78293
     - https://groups.google.com/g/golang-announce/c/0uYbvbPZRWU
     - https://linux.oracle.com/cve/CVE-2026-32282.html
-    - https://linux.oracle.com/errata/ELSA-2026-14200.html
+    - https://linux.oracle.com/errata/ELSA-2026-17075.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-32282
     - https://pkg.go.dev/vuln/GO-2026-4864
     - https://www.cve.org/CVERecord?id=CVE-2026-32282
@@ -11906,6 +12227,8 @@
     Title: CVE-2026-27142 fixed a vulnerability in which URLs were not correctly  ...
     Description: CVE-2026-27142 fixed a vulnerability in which URLs were not correctly escaped inside of a <meta> tag's <content> attribute. If the URL content were to insert ASCII whitespaces around the '=' rune inside of the <content> attribute, the escaper would fail to similarly escape it, leading to XSS.
     Severity: MEDIUM
+    CweIDs:
+    - CWE-79
     VendorSeverity:
       bitnami: 2
     CVSS:
@@ -11919,7 +12242,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-39823
     - https://pkg.go.dev/vuln/GO-2026-4982
     PublishedDate: '2026-05-07T20:16:43.29Z'
-    LastModifiedDate: '2026-05-08T15:16:37.5Z'
+    LastModifiedDate: '2026-05-13T16:58:45.697Z'
   - VulnerabilityID: CVE-2026-39825
     VendorIDs:
     - GO-2026-4976
@@ -11956,7 +12279,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-39825
     - https://pkg.go.dev/vuln/GO-2026-4976
     PublishedDate: '2026-05-07T20:16:43.39Z'
-    LastModifiedDate: '2026-05-08T22:16:29.547Z'
+    LastModifiedDate: '2026-05-13T16:58:56.39Z'
   - VulnerabilityID: CVE-2026-39826
     VendorIDs:
     - GO-2026-4980
@@ -11980,6 +12303,8 @@
     Title: If a trusted template author were to write a <script> tag containing a ...
     Description: If a trusted template author were to write a <script> tag containing an empty 'type' attribute or a 'type' attribute with an ASCII whitespace, the execution of the template would incorrectly escape any data passed into the <script> block.
     Severity: MEDIUM
+    CweIDs:
+    - CWE-116
     VendorSeverity:
       bitnami: 2
     CVSS:
@@ -11993,7 +12318,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-39826
     - https://pkg.go.dev/vuln/GO-2026-4980
     PublishedDate: '2026-05-07T20:16:43.49Z'
-    LastModifiedDate: '2026-05-08T15:16:37.68Z'
+    LastModifiedDate: '2026-05-13T16:59:07.48Z'
 - Target: usr/libexec/docker/cli-plugins/docker-model
   Class: lang-pkgs
   Type: gobinary
@@ -12100,6 +12425,7 @@
     Layer:
       Digest: sha256:b938cbcbf2edf099ccc05c7b1d181961e12b8437675a2ba4f5ee27ef3d707eae
       DiffID: sha256:d9555122eea009eb32f94ce1679e6ef6c342162033bde7052977e9c6476e11aa
+    SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-33814
     DataSource:
       ID: govulndb
@@ -12109,10 +12435,16 @@
     Title: When processing HTTP/2 SETTINGS frames, transport will enter an infini ...
     Description: When processing HTTP/2 SETTINGS frames, transport will enter an infinite loop of writing CONTINUATION frames if it receives a SETTINGS_MAX_FRAME_SIZE with a value of 0.
     Severity: HIGH
+    CweIDs:
+    - CWE-835
     VendorSeverity:
       bitnami: 3
+      nvd: 3
     CVSS:
       bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
@@ -12123,7 +12455,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-33814
     - https://pkg.go.dev/vuln/GO-2026-4918
     PublishedDate: '2026-05-07T20:16:42.88Z'
-    LastModifiedDate: '2026-05-08T19:16:30.567Z'
+    LastModifiedDate: '2026-05-13T14:41:59.52Z'
   - VulnerabilityID: CVE-2026-39820
     VendorIDs:
     - GO-2026-4986
@@ -12138,6 +12470,7 @@
     Layer:
       Digest: sha256:b938cbcbf2edf099ccc05c7b1d181961e12b8437675a2ba4f5ee27ef3d707eae
       DiffID: sha256:d9555122eea009eb32f94ce1679e6ef6c342162033bde7052977e9c6476e11aa
+    SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-39820
     DataSource:
       ID: govulndb
@@ -12147,10 +12480,16 @@
     Title: Well-crafted inputs reaching ParseAddress, ParseAddressList, and Parse ...
     Description: Well-crafted inputs reaching ParseAddress, ParseAddressList, and ParseDate were able to trigger excessive CPU exhaustion and memory allocations.
     Severity: HIGH
+    CweIDs:
+    - CWE-770
     VendorSeverity:
       bitnami: 3
+      nvd: 3
     CVSS:
       bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
@@ -12160,7 +12499,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-39820
     - https://pkg.go.dev/vuln/GO-2026-4986
     PublishedDate: '2026-05-07T20:16:43.187Z'
-    LastModifiedDate: '2026-05-08T15:16:37.323Z'
+    LastModifiedDate: '2026-05-13T15:10:58.65Z'
   - VulnerabilityID: CVE-2026-39836
     VendorIDs:
     - GO-2026-4971
@@ -12175,6 +12514,7 @@
     Layer:
       Digest: sha256:b938cbcbf2edf099ccc05c7b1d181961e12b8437675a2ba4f5ee27ef3d707eae
       DiffID: sha256:d9555122eea009eb32f94ce1679e6ef6c342162033bde7052977e9c6476e11aa
+    SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-39836
     DataSource:
       ID: govulndb
@@ -12184,10 +12524,16 @@
     Title: Panic in Dial and LookupPort when handling NUL byte on Windows in net
     Description: The Dial and LookupPort functions panic on Windows when provided with an input containing a NUL (0).
     Severity: HIGH
+    CweIDs:
+    - CWE-476
     VendorSeverity:
       bitnami: 3
+      nvd: 3
     CVSS:
       bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
@@ -12197,7 +12543,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-39836
     - https://pkg.go.dev/vuln/GO-2026-4971
     PublishedDate: '2026-05-07T20:16:43.593Z'
-    LastModifiedDate: '2026-05-08T22:16:29.723Z'
+    LastModifiedDate: '2026-05-13T15:11:10.31Z'
   - VulnerabilityID: CVE-2026-42499
     VendorIDs:
     - GO-2026-4977
@@ -12234,7 +12580,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-42499
     - https://pkg.go.dev/vuln/GO-2026-4977
     PublishedDate: '2026-05-07T20:16:44.54Z'
-    LastModifiedDate: '2026-05-08T22:16:33.183Z'
+    LastModifiedDate: '2026-05-13T16:59:17.563Z'
   - VulnerabilityID: CVE-2026-39823
     VendorIDs:
     - GO-2026-4982
@@ -12258,6 +12604,8 @@
     Title: CVE-2026-27142 fixed a vulnerability in which URLs were not correctly  ...
     Description: CVE-2026-27142 fixed a vulnerability in which URLs were not correctly escaped inside of a <meta> tag's <content> attribute. If the URL content were to insert ASCII whitespaces around the '=' rune inside of the <content> attribute, the escaper would fail to similarly escape it, leading to XSS.
     Severity: MEDIUM
+    CweIDs:
+    - CWE-79
     VendorSeverity:
       bitnami: 2
     CVSS:
@@ -12271,7 +12619,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-39823
     - https://pkg.go.dev/vuln/GO-2026-4982
     PublishedDate: '2026-05-07T20:16:43.29Z'
-    LastModifiedDate: '2026-05-08T15:16:37.5Z'
+    LastModifiedDate: '2026-05-13T16:58:45.697Z'
   - VulnerabilityID: CVE-2026-39825
     VendorIDs:
     - GO-2026-4976
@@ -12308,7 +12656,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-39825
     - https://pkg.go.dev/vuln/GO-2026-4976
     PublishedDate: '2026-05-07T20:16:43.39Z'
-    LastModifiedDate: '2026-05-08T22:16:29.547Z'
+    LastModifiedDate: '2026-05-13T16:58:56.39Z'
   - VulnerabilityID: CVE-2026-39826
     VendorIDs:
     - GO-2026-4980
@@ -12332,6 +12680,8 @@
     Title: If a trusted template author were to write a <script> tag containing a ...
     Description: If a trusted template author were to write a <script> tag containing an empty 'type' attribute or a 'type' attribute with an ASCII whitespace, the execution of the template would incorrectly escape any data passed into the <script> block.
     Severity: MEDIUM
+    CweIDs:
+    - CWE-116
     VendorSeverity:
       bitnami: 2
     CVSS:
@@ -12345,7 +12695,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-39826
     - https://pkg.go.dev/vuln/GO-2026-4980
     PublishedDate: '2026-05-07T20:16:43.49Z'
-    LastModifiedDate: '2026-05-08T15:16:37.68Z'
+    LastModifiedDate: '2026-05-13T16:59:07.48Z'
 - Target: usr/local/bin/k3d
   Class: lang-pkgs
   Type: gobinary
@@ -13790,7 +14140,7 @@
     - CWE-425
     VendorSeverity:
       alma: 3
-      amazon: 3
+      amazon: 2
       azure: 3
       bitnami: 3
       oracle-oval: 3
@@ -13884,7 +14234,7 @@
     - https://go.dev/issue/78282
     - https://groups.google.com/g/golang-announce/c/0uYbvbPZRWU
     - https://linux.oracle.com/cve/CVE-2026-32280.html
-    - https://linux.oracle.com/errata/ELSA-2026-14200.html
+    - https://linux.oracle.com/errata/ELSA-2026-16875.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-32280
     - https://pkg.go.dev/vuln/GO-2026-4947
     - https://www.cve.org/CVERecord?id=CVE-2026-32280
@@ -14001,7 +14351,7 @@
     - https://go.dev/issue/78334
     - https://groups.google.com/g/golang-announce/c/0uYbvbPZRWU
     - https://linux.oracle.com/cve/CVE-2026-32283.html
-    - https://linux.oracle.com/errata/ELSA-2026-14200.html
+    - https://linux.oracle.com/errata/ELSA-2026-17075.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-32283
     - https://pkg.go.dev/vuln/GO-2026-4870
     - https://www.cve.org/CVERecord?id=CVE-2026-32283
@@ -14065,6 +14415,7 @@
     Layer:
       Digest: sha256:b938cbcbf2edf099ccc05c7b1d181961e12b8437675a2ba4f5ee27ef3d707eae
       DiffID: sha256:d9555122eea009eb32f94ce1679e6ef6c342162033bde7052977e9c6476e11aa
+    SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-33814
     DataSource:
       ID: govulndb
@@ -14074,10 +14425,16 @@
     Title: When processing HTTP/2 SETTINGS frames, transport will enter an infini ...
     Description: When processing HTTP/2 SETTINGS frames, transport will enter an infinite loop of writing CONTINUATION frames if it receives a SETTINGS_MAX_FRAME_SIZE with a value of 0.
     Severity: HIGH
+    CweIDs:
+    - CWE-835
     VendorSeverity:
       bitnami: 3
+      nvd: 3
     CVSS:
       bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
@@ -14088,7 +14445,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-33814
     - https://pkg.go.dev/vuln/GO-2026-4918
     PublishedDate: '2026-05-07T20:16:42.88Z'
-    LastModifiedDate: '2026-05-08T19:16:30.567Z'
+    LastModifiedDate: '2026-05-13T14:41:59.52Z'
   - VulnerabilityID: CVE-2026-39820
     VendorIDs:
     - GO-2026-4986
@@ -14103,6 +14460,7 @@
     Layer:
       Digest: sha256:b938cbcbf2edf099ccc05c7b1d181961e12b8437675a2ba4f5ee27ef3d707eae
       DiffID: sha256:d9555122eea009eb32f94ce1679e6ef6c342162033bde7052977e9c6476e11aa
+    SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-39820
     DataSource:
       ID: govulndb
@@ -14112,10 +14470,16 @@
     Title: Well-crafted inputs reaching ParseAddress, ParseAddressList, and Parse ...
     Description: Well-crafted inputs reaching ParseAddress, ParseAddressList, and ParseDate were able to trigger excessive CPU exhaustion and memory allocations.
     Severity: HIGH
+    CweIDs:
+    - CWE-770
     VendorSeverity:
       bitnami: 3
+      nvd: 3
     CVSS:
       bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
@@ -14125,7 +14489,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-39820
     - https://pkg.go.dev/vuln/GO-2026-4986
     PublishedDate: '2026-05-07T20:16:43.187Z'
-    LastModifiedDate: '2026-05-08T15:16:37.323Z'
+    LastModifiedDate: '2026-05-13T15:10:58.65Z'
   - VulnerabilityID: CVE-2026-39836
     VendorIDs:
     - GO-2026-4971
@@ -14140,6 +14504,7 @@
     Layer:
       Digest: sha256:b938cbcbf2edf099ccc05c7b1d181961e12b8437675a2ba4f5ee27ef3d707eae
       DiffID: sha256:d9555122eea009eb32f94ce1679e6ef6c342162033bde7052977e9c6476e11aa
+    SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-39836
     DataSource:
       ID: govulndb
@@ -14149,10 +14514,16 @@
     Title: Panic in Dial and LookupPort when handling NUL byte on Windows in net
     Description: The Dial and LookupPort functions panic on Windows when provided with an input containing a NUL (0).
     Severity: HIGH
+    CweIDs:
+    - CWE-476
     VendorSeverity:
       bitnami: 3
+      nvd: 3
     CVSS:
       bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
@@ -14162,7 +14533,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-39836
     - https://pkg.go.dev/vuln/GO-2026-4971
     PublishedDate: '2026-05-07T20:16:43.593Z'
-    LastModifiedDate: '2026-05-08T22:16:29.723Z'
+    LastModifiedDate: '2026-05-13T15:11:10.31Z'
   - VulnerabilityID: CVE-2026-42499
     VendorIDs:
     - GO-2026-4977
@@ -14199,7 +14570,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-42499
     - https://pkg.go.dev/vuln/GO-2026-4977
     PublishedDate: '2026-05-07T20:16:44.54Z'
-    LastModifiedDate: '2026-05-08T22:16:33.183Z'
+    LastModifiedDate: '2026-05-13T16:59:17.563Z'
   - VulnerabilityID: CVE-2025-0913
     VendorIDs:
     - GO-2025-3750
@@ -15071,7 +15442,7 @@
     CweIDs:
     - CWE-79
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       bitnami: 2
       redhat: 2
     CVSS:
@@ -15151,7 +15522,7 @@
     - https://go.dev/issue/78293
     - https://groups.google.com/g/golang-announce/c/0uYbvbPZRWU
     - https://linux.oracle.com/cve/CVE-2026-32282.html
-    - https://linux.oracle.com/errata/ELSA-2026-14200.html
+    - https://linux.oracle.com/errata/ELSA-2026-17075.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-32282
     - https://pkg.go.dev/vuln/GO-2026-4864
     - https://www.cve.org/CVERecord?id=CVE-2026-32282
@@ -15285,6 +15656,8 @@
     Title: CVE-2026-27142 fixed a vulnerability in which URLs were not correctly  ...
     Description: CVE-2026-27142 fixed a vulnerability in which URLs were not correctly escaped inside of a <meta> tag's <content> attribute. If the URL content were to insert ASCII whitespaces around the '=' rune inside of the <content> attribute, the escaper would fail to similarly escape it, leading to XSS.
     Severity: MEDIUM
+    CweIDs:
+    - CWE-79
     VendorSeverity:
       bitnami: 2
     CVSS:
@@ -15298,7 +15671,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-39823
     - https://pkg.go.dev/vuln/GO-2026-4982
     PublishedDate: '2026-05-07T20:16:43.29Z'
-    LastModifiedDate: '2026-05-08T15:16:37.5Z'
+    LastModifiedDate: '2026-05-13T16:58:45.697Z'
   - VulnerabilityID: CVE-2026-39825
     VendorIDs:
     - GO-2026-4976
@@ -15335,7 +15708,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-39825
     - https://pkg.go.dev/vuln/GO-2026-4976
     PublishedDate: '2026-05-07T20:16:43.39Z'
-    LastModifiedDate: '2026-05-08T22:16:29.547Z'
+    LastModifiedDate: '2026-05-13T16:58:56.39Z'
   - VulnerabilityID: CVE-2026-39826
     VendorIDs:
     - GO-2026-4980
@@ -15359,6 +15732,8 @@
     Title: If a trusted template author were to write a <script> tag containing a ...
     Description: If a trusted template author were to write a <script> tag containing an empty 'type' attribute or a 'type' attribute with an ASCII whitespace, the execution of the template would incorrectly escape any data passed into the <script> block.
     Severity: MEDIUM
+    CweIDs:
+    - CWE-116
     VendorSeverity:
       bitnami: 2
     CVSS:
@@ -15372,7 +15747,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-39826
     - https://pkg.go.dev/vuln/GO-2026-4980
     PublishedDate: '2026-05-07T20:16:43.49Z'
-    LastModifiedDate: '2026-05-08T15:16:37.68Z'
+    LastModifiedDate: '2026-05-13T16:59:07.48Z'
   - VulnerabilityID: CVE-2026-27139
     VendorIDs:
     - GO-2026-4602
@@ -15399,7 +15774,7 @@
     CweIDs:
     - CWE-22
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       azure: 1
       bitnami: 1
       redhat: 1
