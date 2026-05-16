@@ -8,6 +8,6 @@ if [ ! -z $NOVSCODE ]; then
     echo Not starting VSCode
     exec tail -f /dev/null
 else
-    cd /home/workspace
-    exec ${OPENVSCODE_SERVER_ROOT}/bin/openvscode-server --host 0.0.0.0 --without-connection-token -- $*
+    cd /workspace
+    exec /usr/bin/code-server --bind-addr 0.0.0.0:3000 --auth none --user-data-dir /home/openvscode-server/.local/share/code-server --extensions-dir /home/openvscode-server/.local/share/code-server/extensions /workspace -- $*
 fi
