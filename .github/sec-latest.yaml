@@ -6563,9 +6563,13 @@
     CweIDs:
     - CWE-122
     VendorSeverity:
+      bitnami: 4
       redhat: 4
       ubuntu: 3
     CVSS:
+      bitnami:
+        V40Vector: CVSS:4.0/AV:N/AC:H/AT:N/PR:N/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N
+        V40Score: 9.2
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H
         V3Score: 8.1
@@ -6994,9 +6998,13 @@
     CweIDs:
     - CWE-122
     VendorSeverity:
+      bitnami: 4
       redhat: 4
       ubuntu: 3
     CVSS:
+      bitnami:
+        V40Vector: CVSS:4.0/AV:N/AC:H/AT:N/PR:N/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N
+        V40Score: 9.2
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H
         V3Score: 8.1
@@ -7425,9 +7433,13 @@
     CweIDs:
     - CWE-122
     VendorSeverity:
+      bitnami: 4
       redhat: 4
       ubuntu: 3
     CVSS:
+      bitnami:
+        V40Vector: CVSS:4.0/AV:N/AC:H/AT:N/PR:N/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N
+        V40Score: 9.2
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H
         V3Score: 8.1
@@ -7856,9 +7868,13 @@
     CweIDs:
     - CWE-122
     VendorSeverity:
+      bitnami: 4
       redhat: 4
       ubuntu: 3
     CVSS:
+      bitnami:
+        V40Vector: CVSS:4.0/AV:N/AC:H/AT:N/PR:N/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N
+        V40Score: 9.2
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H
         V3Score: 8.1
@@ -8287,9 +8303,13 @@
     CweIDs:
     - CWE-122
     VendorSeverity:
+      bitnami: 4
       redhat: 4
       ubuntu: 3
     CVSS:
+      bitnami:
+        V40Vector: CVSS:4.0/AV:N/AC:H/AT:N/PR:N/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N
+        V40Score: 9.2
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H
         V3Score: 8.1
@@ -8718,9 +8738,13 @@
     CweIDs:
     - CWE-122
     VendorSeverity:
+      bitnami: 4
       redhat: 4
       ubuntu: 3
     CVSS:
+      bitnami:
+        V40Vector: CVSS:4.0/AV:N/AC:H/AT:N/PR:N/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N
+        V40Score: 9.2
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H
         V3Score: 8.1
@@ -16083,9 +16107,13 @@
     CweIDs:
     - CWE-122
     VendorSeverity:
+      bitnami: 4
       redhat: 4
       ubuntu: 3
     CVSS:
+      bitnami:
+        V40Vector: CVSS:4.0/AV:N/AC:H/AT:N/PR:N/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N
+        V40Score: 9.2
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H
         V3Score: 8.1
@@ -16514,9 +16542,13 @@
     CweIDs:
     - CWE-122
     VendorSeverity:
+      bitnami: 4
       redhat: 4
       ubuntu: 3
     CVSS:
+      bitnami:
+        V40Vector: CVSS:4.0/AV:N/AC:H/AT:N/PR:N/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N
+        V40Score: 9.2
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H
         V3Score: 8.1
@@ -16945,9 +16977,13 @@
     CweIDs:
     - CWE-122
     VendorSeverity:
+      bitnami: 4
       redhat: 4
       ubuntu: 3
     CVSS:
+      bitnami:
+        V40Vector: CVSS:4.0/AV:N/AC:H/AT:N/PR:N/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N
+        V40Score: 9.2
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H
         V3Score: 8.1
@@ -23524,7 +23560,7 @@
       amazon: 3
       azure: 2
       cbl-mariner: 2
-      oracle-oval: 2
+      oracle-oval: 3
       photon: 2
       redhat: 2
       rocky: 2
@@ -23545,7 +23581,7 @@
     - https://github.com/vim/vim/releases/tag/v9.1.2132
     - https://github.com/vim/vim/security/advisories/GHSA-5w93-4g67-mm43
     - https://linux.oracle.com/cve/CVE-2026-25749.html
-    - https://linux.oracle.com/errata/ELSA-2026-5602.html
+    - https://linux.oracle.com/errata/ELSA-2026-6617.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-25749
     - https://ubuntu.com/security/notices/USN-8101-1
     - https://www.cve.org/CVERecord?id=CVE-2026-25749
@@ -24179,7 +24215,7 @@
       amazon: 3
       azure: 2
       cbl-mariner: 2
-      oracle-oval: 2
+      oracle-oval: 3
       photon: 2
       redhat: 2
       rocky: 2
@@ -24200,7 +24236,7 @@
     - https://github.com/vim/vim/releases/tag/v9.1.2132
     - https://github.com/vim/vim/security/advisories/GHSA-5w93-4g67-mm43
     - https://linux.oracle.com/cve/CVE-2026-25749.html
-    - https://linux.oracle.com/errata/ELSA-2026-5602.html
+    - https://linux.oracle.com/errata/ELSA-2026-6617.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-25749
     - https://ubuntu.com/security/notices/USN-8101-1
     - https://www.cve.org/CVERecord?id=CVE-2026-25749
@@ -24834,7 +24870,7 @@
       amazon: 3
       azure: 2
       cbl-mariner: 2
-      oracle-oval: 2
+      oracle-oval: 3
       photon: 2
       redhat: 2
       rocky: 2
@@ -24855,7 +24891,7 @@
     - https://github.com/vim/vim/releases/tag/v9.1.2132
     - https://github.com/vim/vim/security/advisories/GHSA-5w93-4g67-mm43
     - https://linux.oracle.com/cve/CVE-2026-25749.html
-    - https://linux.oracle.com/errata/ELSA-2026-5602.html
+    - https://linux.oracle.com/errata/ELSA-2026-6617.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-25749
     - https://ubuntu.com/security/notices/USN-8101-1
     - https://www.cve.org/CVERecord?id=CVE-2026-25749
@@ -25537,7 +25573,7 @@
       amazon: 3
       azure: 2
       cbl-mariner: 2
-      oracle-oval: 2
+      oracle-oval: 3
       photon: 2
       redhat: 2
       rocky: 2
@@ -25558,7 +25594,7 @@
     - https://github.com/vim/vim/releases/tag/v9.1.2132
     - https://github.com/vim/vim/security/advisories/GHSA-5w93-4g67-mm43
     - https://linux.oracle.com/cve/CVE-2026-25749.html
-    - https://linux.oracle.com/errata/ELSA-2026-5602.html
+    - https://linux.oracle.com/errata/ELSA-2026-6617.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-25749
     - https://ubuntu.com/security/notices/USN-8101-1
     - https://www.cve.org/CVERecord?id=CVE-2026-25749
