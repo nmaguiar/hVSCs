@@ -70,37 +70,12 @@ jobs:
     sudo service docker start 
     {{/if}}
 
-# -----------------------------------
-- name : Wait for VSCode remote agent
-  exec : |
-    if (isDef(getEnv("NOVSCODE"))) return 
-
-    log("Waiting for VSCode IPC...")
-    while( $from(io.listFiles("/tmp").files)
-           .starts("filename", "vscode-ipc-")
-           .count() == 0 ) {
-      sleep(1000, true)
-    }
-
-    log("Waiting for remote agent start...")
-    if (isUnDef(global.envs)) global.envs = {}
-    global.envs["VSCODE_IPC_HOOK_CLI"] = $from(io.listFiles("/tmp").files).starts("filename", "vscode-ipc-").last().canonicalPath
-
-    while( $from(listFilesRecursive("/home/workspace/.openvscode-server/data/logs"))
-           .starts("filename", "remoteagent.log")
-           .count() == 0 || io.readFileString($from(listFilesRecursive("/home/workspace/.openvscode-server/data/logs"))
-                                              .starts("filename", "remoteagent.log")
-                                              .at(0)
-                                              .canonicalPath).indexOf("Extension host agent started.") < 0 ) {
-      sleep(1000, true)
-    }
-
 # ================================
 - name : Install VSCode extensions
-  from : Wait for VSCode remote agent
-  each : Install VSCode extension
   catch: sprintErr(exception)
   exec : |
+    if (isDef(getEnv("NOVSCODE"))) return
+
     var lst2 = io.readFileYAML("/tmp/.extensions/extensions.yaml").extensions
 
     var lst = $from(lst2.map(r => ({ n: r })))
@@ -113,9 +88,9 @@ jobs:
       if (isDef(args.NOK8S) && f.f.filename.indexOf("-kubernetes-") >= 0) return
       if (isDef(args.NODOCKER) && f.f.filename.indexOf("-docker-") >= 0) return
       log("installing extension " + f.f.filename + "...")
-      $sh("/home/.openvscode-server/bin/remote-cli/openvscode-server --install-extension " + f.f.canonicalPath)
-      .envs(global.envs, true)
-      .exec(0) 
+      $sh("code-server --install-extension " + f.f.canonicalPath + " --force")
+      .prefix("code-server")
+      .exec(0)
     })
 
 # ===========================
@@ -123,11 +98,7 @@ jobs:
   exec : |
     if (isDef(getEnv("NOVSCODE"))) return 
 
-    io.writeFileJSON("/home/workspace/.openvscode-server/data/User/settings.json", {
-      "workbench.startupEditor": "readme", 
-      "workbench.colorTheme"   : "GitHub Light Default"
-    })
-    io.writeFileJSON("/home/workspace/.openvscode-server/data/Machine/settings.json", {
+    io.writeFileJSON("/home/openvscode-server/.local/share/code-server/User/settings.json", {
       "workbench.startupEditor": "readme",
       "workbench.colorTheme"   : "GitHub Light Default"
     })
