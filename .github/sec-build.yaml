@@ -90,12 +90,12 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 6.2
     References:
-    - https://access.redhat.com/errata/RHSA-2023:4569
+    - https://access.redhat.com/errata/RHSA-2023:4498
     - https://access.redhat.com/security/cve/CVE-2023-34969
     - https://bugzilla.redhat.com/2213166
     - https://bugzilla.redhat.com/show_bug.cgi?id=2213166
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-34969
-    - https://errata.almalinux.org/9/ALSA-2023-4569.html
+    - https://errata.almalinux.org/8/ALSA-2023-4498.html
     - https://errata.rockylinux.org/RLSA-2023:4569
     - https://gitlab.freedesktop.org/dbus/dbus/-/issues/457
     - https://linux.oracle.com/cve/CVE-2023-34969.html
@@ -149,12 +149,12 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 6.2
     References:
-    - https://access.redhat.com/errata/RHSA-2023:4569
+    - https://access.redhat.com/errata/RHSA-2023:4498
     - https://access.redhat.com/security/cve/CVE-2023-34969
     - https://bugzilla.redhat.com/2213166
     - https://bugzilla.redhat.com/show_bug.cgi?id=2213166
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-34969
-    - https://errata.almalinux.org/9/ALSA-2023-4569.html
+    - https://errata.almalinux.org/8/ALSA-2023-4498.html
     - https://errata.rockylinux.org/RLSA-2023:4569
     - https://gitlab.freedesktop.org/dbus/dbus/-/issues/457
     - https://linux.oracle.com/cve/CVE-2023-34969.html
@@ -261,12 +261,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2025:7409
+    - https://access.redhat.com/errata/RHSA-2025:8414
     - https://access.redhat.com/security/cve/CVE-2024-52005
     - https://bugzilla.redhat.com/2338289
     - https://bugzilla.redhat.com/show_bug.cgi?id=2338289
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-52005
-    - https://errata.almalinux.org/9/ALSA-2025-7409.html
+    - https://errata.almalinux.org/8/ALSA-2025-8414.html
     - https://errata.rockylinux.org/RLSA-2025:7409
     - https://github.com/git/git/security/advisories/GHSA-7jjc-gg6m-3329
     - https://linux.oracle.com/cve/CVE-2024-52005.html
@@ -321,12 +321,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2025:7409
+    - https://access.redhat.com/errata/RHSA-2025:8414
     - https://access.redhat.com/security/cve/CVE-2024-52005
     - https://bugzilla.redhat.com/2338289
     - https://bugzilla.redhat.com/show_bug.cgi?id=2338289
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-52005
-    - https://errata.almalinux.org/9/ALSA-2025-7409.html
+    - https://errata.almalinux.org/8/ALSA-2025-8414.html
     - https://errata.rockylinux.org/RLSA-2025:7409
     - https://github.com/git/git/security/advisories/GHSA-7jjc-gg6m-3329
     - https://linux.oracle.com/cve/CVE-2024-52005.html
@@ -811,12 +811,12 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 6.2
     References:
-    - https://access.redhat.com/errata/RHSA-2023:4569
+    - https://access.redhat.com/errata/RHSA-2023:4498
     - https://access.redhat.com/security/cve/CVE-2023-34969
     - https://bugzilla.redhat.com/2213166
     - https://bugzilla.redhat.com/show_bug.cgi?id=2213166
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-34969
-    - https://errata.almalinux.org/9/ALSA-2023-4569.html
+    - https://errata.almalinux.org/8/ALSA-2023-4498.html
     - https://errata.rockylinux.org/RLSA-2023:4569
     - https://gitlab.freedesktop.org/dbus/dbus/-/issues/457
     - https://linux.oracle.com/cve/CVE-2023-34969.html
@@ -1316,6 +1316,341 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-50495
     PublishedDate: '2023-12-12T15:15:07.867Z'
     LastModifiedDate: '2025-11-04T19:16:14.45Z'
+  - VulnerabilityID: CVE-2026-49975
+    PkgID: libnginx-mod-http-geoip2@1.18.0-6ubuntu14.12
+    PkgName: libnginx-mod-http-geoip2
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libnginx-mod-http-geoip2@1.18.0-6ubuntu14.12?arch=amd64&distro=ubuntu-22.04
+      UID: 6f983cd49f004225
+    InstalledVersion: 1.18.0-6ubuntu14.12
+    Status: affected
+    Layer:
+      Digest: sha256:c8b838c25d2c79a1d420877453f6e3656ea3598e7867b49400cbc84e54cbc5ff
+      DiffID: sha256:2b913644fb7fad03c1a0518c38e28c02f6e8cd324758e7823e7fe9990899e091
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-49975
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:8a1c447bc5801c59dcc525e5576b4d08066e0197f393a83a0defe56cd0077f83
+    Title: 'httpd: HTTP/2: Remote Denial of Service via compression bomb and Slowloris-style attack'
+    Description: |-
+      Memory Allocation with Excessive Size Value vulnerability in Apache HTTP Server's mod_http leads to denial of service via malicious HTTP requests.
+
+      This issue affects Apache HTTP Server: from 2.4.17 through 2.4.67.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-789
+    VendorSeverity:
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/06/03/3
+    - http://www.openwall.com/lists/oss-security/2026/06/08/16
+    - https://access.redhat.com/security/cve/CVE-2026-49975
+    - https://access.redhat.com/security/vulnerabilities/RHSB-2026-007
+    - https://blog.calif.io/p/codex-discovered-a-hidden-http2-bomb
+    - https://github.com/icing/mod_h2/pull/324
+    - https://httpd.apache.org/security/vulnerabilities_24.html
+    - https://lists.debian.org/debian-lts-announce/2026/06/msg00009.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-49975
+    - https://ubuntu.com/security/notices/USN-8384-1
+    - https://ubuntu.com/security/notices/USN-8398-1
+    - https://ubuntu.com/security/notices/USN-8398-2
+    - https://www.cve.org/CVERecord?id=CVE-2026-49975
+    PublishedDate: '2026-06-08T16:16:44.223Z'
+    LastModifiedDate: '2026-06-09T17:17:49.52Z'
+  - VulnerabilityID: CVE-2026-49975
+    PkgID: libnginx-mod-http-image-filter@1.18.0-6ubuntu14.12
+    PkgName: libnginx-mod-http-image-filter
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libnginx-mod-http-image-filter@1.18.0-6ubuntu14.12?arch=amd64&distro=ubuntu-22.04
+      UID: 30f611e35f93a5c
+    InstalledVersion: 1.18.0-6ubuntu14.12
+    Status: affected
+    Layer:
+      Digest: sha256:c8b838c25d2c79a1d420877453f6e3656ea3598e7867b49400cbc84e54cbc5ff
+      DiffID: sha256:2b913644fb7fad03c1a0518c38e28c02f6e8cd324758e7823e7fe9990899e091
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-49975
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:f8145c8a2164059354b1984a8a957013fe69c62cb35aab52497e323830c3b88f
+    Title: 'httpd: HTTP/2: Remote Denial of Service via compression bomb and Slowloris-style attack'
+    Description: |-
+      Memory Allocation with Excessive Size Value vulnerability in Apache HTTP Server's mod_http leads to denial of service via malicious HTTP requests.
+
+      This issue affects Apache HTTP Server: from 2.4.17 through 2.4.67.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-789
+    VendorSeverity:
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/06/03/3
+    - http://www.openwall.com/lists/oss-security/2026/06/08/16
+    - https://access.redhat.com/security/cve/CVE-2026-49975
+    - https://access.redhat.com/security/vulnerabilities/RHSB-2026-007
+    - https://blog.calif.io/p/codex-discovered-a-hidden-http2-bomb
+    - https://github.com/icing/mod_h2/pull/324
+    - https://httpd.apache.org/security/vulnerabilities_24.html
+    - https://lists.debian.org/debian-lts-announce/2026/06/msg00009.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-49975
+    - https://ubuntu.com/security/notices/USN-8384-1
+    - https://ubuntu.com/security/notices/USN-8398-1
+    - https://ubuntu.com/security/notices/USN-8398-2
+    - https://www.cve.org/CVERecord?id=CVE-2026-49975
+    PublishedDate: '2026-06-08T16:16:44.223Z'
+    LastModifiedDate: '2026-06-09T17:17:49.52Z'
+  - VulnerabilityID: CVE-2026-49975
+    PkgID: libnginx-mod-http-xslt-filter@1.18.0-6ubuntu14.12
+    PkgName: libnginx-mod-http-xslt-filter
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libnginx-mod-http-xslt-filter@1.18.0-6ubuntu14.12?arch=amd64&distro=ubuntu-22.04
+      UID: 7a364fe1eb23f248
+    InstalledVersion: 1.18.0-6ubuntu14.12
+    Status: affected
+    Layer:
+      Digest: sha256:c8b838c25d2c79a1d420877453f6e3656ea3598e7867b49400cbc84e54cbc5ff
+      DiffID: sha256:2b913644fb7fad03c1a0518c38e28c02f6e8cd324758e7823e7fe9990899e091
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-49975
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:1544ac4722d78999cfbc6e39431fecb53e6028d6cc99464e3b263fad0700b606
+    Title: 'httpd: HTTP/2: Remote Denial of Service via compression bomb and Slowloris-style attack'
+    Description: |-
+      Memory Allocation with Excessive Size Value vulnerability in Apache HTTP Server's mod_http leads to denial of service via malicious HTTP requests.
+
+      This issue affects Apache HTTP Server: from 2.4.17 through 2.4.67.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-789
+    VendorSeverity:
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/06/03/3
+    - http://www.openwall.com/lists/oss-security/2026/06/08/16
+    - https://access.redhat.com/security/cve/CVE-2026-49975
+    - https://access.redhat.com/security/vulnerabilities/RHSB-2026-007
+    - https://blog.calif.io/p/codex-discovered-a-hidden-http2-bomb
+    - https://github.com/icing/mod_h2/pull/324
+    - https://httpd.apache.org/security/vulnerabilities_24.html
+    - https://lists.debian.org/debian-lts-announce/2026/06/msg00009.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-49975
+    - https://ubuntu.com/security/notices/USN-8384-1
+    - https://ubuntu.com/security/notices/USN-8398-1
+    - https://ubuntu.com/security/notices/USN-8398-2
+    - https://www.cve.org/CVERecord?id=CVE-2026-49975
+    PublishedDate: '2026-06-08T16:16:44.223Z'
+    LastModifiedDate: '2026-06-09T17:17:49.52Z'
+  - VulnerabilityID: CVE-2026-49975
+    PkgID: libnginx-mod-mail@1.18.0-6ubuntu14.12
+    PkgName: libnginx-mod-mail
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libnginx-mod-mail@1.18.0-6ubuntu14.12?arch=amd64&distro=ubuntu-22.04
+      UID: c471528f05272bd4
+    InstalledVersion: 1.18.0-6ubuntu14.12
+    Status: affected
+    Layer:
+      Digest: sha256:c8b838c25d2c79a1d420877453f6e3656ea3598e7867b49400cbc84e54cbc5ff
+      DiffID: sha256:2b913644fb7fad03c1a0518c38e28c02f6e8cd324758e7823e7fe9990899e091
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-49975
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:e7c11a190e48ee4fa419d4a0eefa9b2fcae8f9b1243b92164aeefdd97c099f52
+    Title: 'httpd: HTTP/2: Remote Denial of Service via compression bomb and Slowloris-style attack'
+    Description: |-
+      Memory Allocation with Excessive Size Value vulnerability in Apache HTTP Server's mod_http leads to denial of service via malicious HTTP requests.
+
+      This issue affects Apache HTTP Server: from 2.4.17 through 2.4.67.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-789
+    VendorSeverity:
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/06/03/3
+    - http://www.openwall.com/lists/oss-security/2026/06/08/16
+    - https://access.redhat.com/security/cve/CVE-2026-49975
+    - https://access.redhat.com/security/vulnerabilities/RHSB-2026-007
+    - https://blog.calif.io/p/codex-discovered-a-hidden-http2-bomb
+    - https://github.com/icing/mod_h2/pull/324
+    - https://httpd.apache.org/security/vulnerabilities_24.html
+    - https://lists.debian.org/debian-lts-announce/2026/06/msg00009.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-49975
+    - https://ubuntu.com/security/notices/USN-8384-1
+    - https://ubuntu.com/security/notices/USN-8398-1
+    - https://ubuntu.com/security/notices/USN-8398-2
+    - https://www.cve.org/CVERecord?id=CVE-2026-49975
+    PublishedDate: '2026-06-08T16:16:44.223Z'
+    LastModifiedDate: '2026-06-09T17:17:49.52Z'
+  - VulnerabilityID: CVE-2026-49975
+    PkgID: libnginx-mod-stream@1.18.0-6ubuntu14.12
+    PkgName: libnginx-mod-stream
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libnginx-mod-stream@1.18.0-6ubuntu14.12?arch=amd64&distro=ubuntu-22.04
+      UID: 3073a6988ab934ac
+    InstalledVersion: 1.18.0-6ubuntu14.12
+    Status: affected
+    Layer:
+      Digest: sha256:c8b838c25d2c79a1d420877453f6e3656ea3598e7867b49400cbc84e54cbc5ff
+      DiffID: sha256:2b913644fb7fad03c1a0518c38e28c02f6e8cd324758e7823e7fe9990899e091
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-49975
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:b15a4b42b2fd436b90f5470260a686e3e6eb328df8b44ed4de149448a2228749
+    Title: 'httpd: HTTP/2: Remote Denial of Service via compression bomb and Slowloris-style attack'
+    Description: |-
+      Memory Allocation with Excessive Size Value vulnerability in Apache HTTP Server's mod_http leads to denial of service via malicious HTTP requests.
+
+      This issue affects Apache HTTP Server: from 2.4.17 through 2.4.67.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-789
+    VendorSeverity:
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/06/03/3
+    - http://www.openwall.com/lists/oss-security/2026/06/08/16
+    - https://access.redhat.com/security/cve/CVE-2026-49975
+    - https://access.redhat.com/security/vulnerabilities/RHSB-2026-007
+    - https://blog.calif.io/p/codex-discovered-a-hidden-http2-bomb
+    - https://github.com/icing/mod_h2/pull/324
+    - https://httpd.apache.org/security/vulnerabilities_24.html
+    - https://lists.debian.org/debian-lts-announce/2026/06/msg00009.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-49975
+    - https://ubuntu.com/security/notices/USN-8384-1
+    - https://ubuntu.com/security/notices/USN-8398-1
+    - https://ubuntu.com/security/notices/USN-8398-2
+    - https://www.cve.org/CVERecord?id=CVE-2026-49975
+    PublishedDate: '2026-06-08T16:16:44.223Z'
+    LastModifiedDate: '2026-06-09T17:17:49.52Z'
+  - VulnerabilityID: CVE-2026-49975
+    PkgID: libnginx-mod-stream-geoip2@1.18.0-6ubuntu14.12
+    PkgName: libnginx-mod-stream-geoip2
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libnginx-mod-stream-geoip2@1.18.0-6ubuntu14.12?arch=amd64&distro=ubuntu-22.04
+      UID: 573b200f9c132835
+    InstalledVersion: 1.18.0-6ubuntu14.12
+    Status: affected
+    Layer:
+      Digest: sha256:c8b838c25d2c79a1d420877453f6e3656ea3598e7867b49400cbc84e54cbc5ff
+      DiffID: sha256:2b913644fb7fad03c1a0518c38e28c02f6e8cd324758e7823e7fe9990899e091
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-49975
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:c89b031fe90db3325fb86c2faffda5e2d877dc3c6ca71349780056d1889e798b
+    Title: 'httpd: HTTP/2: Remote Denial of Service via compression bomb and Slowloris-style attack'
+    Description: |-
+      Memory Allocation with Excessive Size Value vulnerability in Apache HTTP Server's mod_http leads to denial of service via malicious HTTP requests.
+
+      This issue affects Apache HTTP Server: from 2.4.17 through 2.4.67.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-789
+    VendorSeverity:
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/06/03/3
+    - http://www.openwall.com/lists/oss-security/2026/06/08/16
+    - https://access.redhat.com/security/cve/CVE-2026-49975
+    - https://access.redhat.com/security/vulnerabilities/RHSB-2026-007
+    - https://blog.calif.io/p/codex-discovered-a-hidden-http2-bomb
+    - https://github.com/icing/mod_h2/pull/324
+    - https://httpd.apache.org/security/vulnerabilities_24.html
+    - https://lists.debian.org/debian-lts-announce/2026/06/msg00009.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-49975
+    - https://ubuntu.com/security/notices/USN-8384-1
+    - https://ubuntu.com/security/notices/USN-8398-1
+    - https://ubuntu.com/security/notices/USN-8398-2
+    - https://www.cve.org/CVERecord?id=CVE-2026-49975
+    PublishedDate: '2026-06-08T16:16:44.223Z'
+    LastModifiedDate: '2026-06-09T17:17:49.52Z'
+  - VulnerabilityID: CVE-2026-40226
+    PkgID: libnss-systemd@249.11-0ubuntu3.20
+    PkgName: libnss-systemd
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libnss-systemd@249.11-0ubuntu3.20?arch=amd64&distro=ubuntu-22.04
+      UID: a30bd181f286d734
+    InstalledVersion: 249.11-0ubuntu3.20
+    FixedVersion: 249.11-0ubuntu3.21
+    Status: fixed
+    Layer:
+      Digest: sha256:c8b838c25d2c79a1d420877453f6e3656ea3598e7867b49400cbc84e54cbc5ff
+      DiffID: sha256:2b913644fb7fad03c1a0518c38e28c02f6e8cd324758e7823e7fe9990899e091
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-40226
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:a08a3badabcad95c8d3f8e8666f4ea67e0dd0c04699db063ac1a03eac884d8a7
+    Title: 'systemd: systemd nspawn: Escape-to-host action via crafted config file'
+    Description: In nspawn in systemd 233 through 259 before 260, an escape-to-host action can occur via a crafted optional config file.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-348
+    VendorSeverity:
+      azure: 2
+      photon: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 6.4
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-40226
+    - https://github.com/systemd/systemd/security/advisories/GHSA-9mj4-rrc3-gjcx
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-40226
+    - https://ubuntu.com/security/notices/USN-8402-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-40226
+    PublishedDate: '2026-04-10T16:16:33.447Z'
+    LastModifiedDate: '2026-04-17T22:02:15.393Z'
   - VulnerabilityID: CVE-2023-7008
     PkgID: libnss-systemd@249.11-0ubuntu3.20
     PkgName: libnss-systemd
@@ -1323,7 +1658,8 @@
       PURL: pkg:deb/ubuntu/libnss-systemd@249.11-0ubuntu3.20?arch=amd64&distro=ubuntu-22.04
       UID: a30bd181f286d734
     InstalledVersion: 249.11-0ubuntu3.20
-    Status: affected
+    FixedVersion: 249.11-0ubuntu3.21
+    Status: fixed
     Layer:
       Digest: sha256:c8b838c25d2c79a1d420877453f6e3656ea3598e7867b49400cbc84e54cbc5ff
       DiffID: sha256:2b913644fb7fad03c1a0518c38e28c02f6e8cd324758e7823e7fe9990899e091
@@ -1365,7 +1701,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222261
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222672
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-7008
-    - https://errata.almalinux.org/9/ALSA-2024-2463.html
+    - https://errata.almalinux.org/8/ALSA-2024-3203.html
     - https://errata.rockylinux.org/RLSA-2024:2463
     - https://github.com/systemd/systemd/issues/25676
     - https://linux.oracle.com/cve/CVE-2023-7008.html
@@ -1375,6 +1711,7 @@
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QHNBXGKJWISJETTTDTZKTBFIBJUOSLKL/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-7008
     - https://security.netapp.com/advisory/ntap-20241122-0004/
+    - https://ubuntu.com/security/notices/USN-8402-1
     - https://www.cve.org/CVERecord?id=CVE-2023-7008
     PublishedDate: '2023-12-23T13:15:07.573Z'
     LastModifiedDate: '2025-11-04T17:15:43.4Z'
@@ -1420,6 +1757,47 @@
     - https://www.openwall.com/lists/oss-security/2026/04/08/1
     PublishedDate: '2026-04-10T16:16:33.753Z'
     LastModifiedDate: '2026-05-05T02:16:04.82Z'
+  - VulnerabilityID: CVE-2026-40226
+    PkgID: libpam-systemd@249.11-0ubuntu3.20
+    PkgName: libpam-systemd
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libpam-systemd@249.11-0ubuntu3.20?arch=amd64&distro=ubuntu-22.04
+      UID: 16de13474475f889
+    InstalledVersion: 249.11-0ubuntu3.20
+    FixedVersion: 249.11-0ubuntu3.21
+    Status: fixed
+    Layer:
+      Digest: sha256:c8b838c25d2c79a1d420877453f6e3656ea3598e7867b49400cbc84e54cbc5ff
+      DiffID: sha256:2b913644fb7fad03c1a0518c38e28c02f6e8cd324758e7823e7fe9990899e091
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-40226
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:9b78edaadc69627f9ca4e26d8e07f13e2225f44a13dfa83dd65fa36226d8cb54
+    Title: 'systemd: systemd nspawn: Escape-to-host action via crafted config file'
+    Description: In nspawn in systemd 233 through 259 before 260, an escape-to-host action can occur via a crafted optional config file.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-348
+    VendorSeverity:
+      azure: 2
+      photon: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 6.4
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-40226
+    - https://github.com/systemd/systemd/security/advisories/GHSA-9mj4-rrc3-gjcx
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-40226
+    - https://ubuntu.com/security/notices/USN-8402-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-40226
+    PublishedDate: '2026-04-10T16:16:33.447Z'
+    LastModifiedDate: '2026-04-17T22:02:15.393Z'
   - VulnerabilityID: CVE-2023-7008
     PkgID: libpam-systemd@249.11-0ubuntu3.20
     PkgName: libpam-systemd
@@ -1427,7 +1805,8 @@
       PURL: pkg:deb/ubuntu/libpam-systemd@249.11-0ubuntu3.20?arch=amd64&distro=ubuntu-22.04
       UID: 16de13474475f889
     InstalledVersion: 249.11-0ubuntu3.20
-    Status: affected
+    FixedVersion: 249.11-0ubuntu3.21
+    Status: fixed
     Layer:
       Digest: sha256:c8b838c25d2c79a1d420877453f6e3656ea3598e7867b49400cbc84e54cbc5ff
       DiffID: sha256:2b913644fb7fad03c1a0518c38e28c02f6e8cd324758e7823e7fe9990899e091
@@ -1469,7 +1848,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222261
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222672
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-7008
-    - https://errata.almalinux.org/9/ALSA-2024-2463.html
+    - https://errata.almalinux.org/8/ALSA-2024-3203.html
     - https://errata.rockylinux.org/RLSA-2024:2463
     - https://github.com/systemd/systemd/issues/25676
     - https://linux.oracle.com/cve/CVE-2023-7008.html
@@ -1479,6 +1858,7 @@
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QHNBXGKJWISJETTTDTZKTBFIBJUOSLKL/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-7008
     - https://security.netapp.com/advisory/ntap-20241122-0004/
+    - https://ubuntu.com/security/notices/USN-8402-1
     - https://www.cve.org/CVERecord?id=CVE-2023-7008
     PublishedDate: '2023-12-23T13:15:07.573Z'
     LastModifiedDate: '2025-11-04T17:15:43.4Z'
@@ -1642,6 +2022,7 @@
     CweIDs:
     - CWE-436
     VendorSeverity:
+      amazon: 3
       ubuntu: 2
     References:
     - http://www.openwall.com/lists/oss-security/2026/05/15/21
@@ -1675,7 +2056,7 @@
     - CWE-668
     VendorSeverity:
       alma: 3
-      amazon: 1
+      amazon: 2
       oracle-oval: 3
       redhat: 1
       rocky: 3
@@ -1686,7 +2067,7 @@
         V3Score: 3.3
     References:
     - http://www.openwall.com/lists/oss-security/2026/03/05/6
-    - https://access.redhat.com/errata/RHSA-2026:19177
+    - https://access.redhat.com/errata/RHSA-2026:10950
     - https://access.redhat.com/security/cve/CVE-2026-2297
     - https://bugzilla.redhat.com/2395108
     - https://bugzilla.redhat.com/2408891
@@ -1696,7 +2077,6 @@
     - https://bugzilla.redhat.com/2444691
     - https://bugzilla.redhat.com/2448168
     - https://bugzilla.redhat.com/2448181
-    - https://bugzilla.redhat.com/2449649
     - https://bugzilla.redhat.com/2457409
     - https://bugzilla.redhat.com/2457932
     - https://bugzilla.redhat.com/2458049
@@ -1724,7 +2104,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4519
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
-    - https://errata.almalinux.org/9/ALSA-2026-19177.html
+    - https://errata.almalinux.org/8/ALSA-2026-10950.html
     - https://errata.rockylinux.org/RLSA-2026:19177
     - https://github.com/python/cpython/commit/482d6f8bdba9da3725d272e8bb4a2d25fb6a603e
     - https://github.com/python/cpython/commit/69ddd9bb2cc4bd69b1565647c18659c6a789ccd9
@@ -1764,7 +2144,7 @@
     - CWE-668
     VendorSeverity:
       alma: 3
-      amazon: 1
+      amazon: 2
       oracle-oval: 3
       redhat: 1
       rocky: 3
@@ -1775,7 +2155,7 @@
         V3Score: 3.3
     References:
     - http://www.openwall.com/lists/oss-security/2026/03/05/6
-    - https://access.redhat.com/errata/RHSA-2026:19177
+    - https://access.redhat.com/errata/RHSA-2026:10950
     - https://access.redhat.com/security/cve/CVE-2026-2297
     - https://bugzilla.redhat.com/2395108
     - https://bugzilla.redhat.com/2408891
@@ -1785,7 +2165,6 @@
     - https://bugzilla.redhat.com/2444691
     - https://bugzilla.redhat.com/2448168
     - https://bugzilla.redhat.com/2448181
-    - https://bugzilla.redhat.com/2449649
     - https://bugzilla.redhat.com/2457409
     - https://bugzilla.redhat.com/2457932
     - https://bugzilla.redhat.com/2458049
@@ -1813,7 +2192,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4519
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
-    - https://errata.almalinux.org/9/ALSA-2026-19177.html
+    - https://errata.almalinux.org/8/ALSA-2026-10950.html
     - https://errata.rockylinux.org/RLSA-2026:19177
     - https://github.com/python/cpython/commit/482d6f8bdba9da3725d272e8bb4a2d25fb6a603e
     - https://github.com/python/cpython/commit/69ddd9bb2cc4bd69b1565647c18659c6a789ccd9
@@ -1853,7 +2232,7 @@
     - CWE-668
     VendorSeverity:
       alma: 3
-      amazon: 1
+      amazon: 2
       oracle-oval: 3
       redhat: 1
       rocky: 3
@@ -1864,7 +2243,7 @@
         V3Score: 3.3
     References:
     - http://www.openwall.com/lists/oss-security/2026/03/05/6
-    - https://access.redhat.com/errata/RHSA-2026:19177
+    - https://access.redhat.com/errata/RHSA-2026:10950
     - https://access.redhat.com/security/cve/CVE-2026-2297
     - https://bugzilla.redhat.com/2395108
     - https://bugzilla.redhat.com/2408891
@@ -1874,7 +2253,6 @@
     - https://bugzilla.redhat.com/2444691
     - https://bugzilla.redhat.com/2448168
     - https://bugzilla.redhat.com/2448181
-    - https://bugzilla.redhat.com/2449649
     - https://bugzilla.redhat.com/2457409
     - https://bugzilla.redhat.com/2457932
     - https://bugzilla.redhat.com/2458049
@@ -1902,7 +2280,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4519
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
-    - https://errata.almalinux.org/9/ALSA-2026-19177.html
+    - https://errata.almalinux.org/8/ALSA-2026-10950.html
     - https://errata.rockylinux.org/RLSA-2026:19177
     - https://github.com/python/cpython/commit/482d6f8bdba9da3725d272e8bb4a2d25fb6a603e
     - https://github.com/python/cpython/commit/69ddd9bb2cc4bd69b1565647c18659c6a789ccd9
@@ -2013,6 +2391,47 @@
     - https://www.cve.org/CVERecord?id=CVE-2022-27943
     PublishedDate: '2022-03-26T13:15:07.9Z'
     LastModifiedDate: '2024-11-21T06:56:31.04Z'
+  - VulnerabilityID: CVE-2026-40226
+    PkgID: libsystemd0@249.11-0ubuntu3.20
+    PkgName: libsystemd0
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libsystemd0@249.11-0ubuntu3.20?arch=amd64&distro=ubuntu-22.04
+      UID: 229f5d9a9eaac2ed
+    InstalledVersion: 249.11-0ubuntu3.20
+    FixedVersion: 249.11-0ubuntu3.21
+    Status: fixed
+    Layer:
+      Digest: sha256:c8b838c25d2c79a1d420877453f6e3656ea3598e7867b49400cbc84e54cbc5ff
+      DiffID: sha256:2b913644fb7fad03c1a0518c38e28c02f6e8cd324758e7823e7fe9990899e091
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-40226
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:81e7ac5f7735cb21e08d046de3c13ec8115f47a9478d8533f1c6a3d2a770e55c
+    Title: 'systemd: systemd nspawn: Escape-to-host action via crafted config file'
+    Description: In nspawn in systemd 233 through 259 before 260, an escape-to-host action can occur via a crafted optional config file.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-348
+    VendorSeverity:
+      azure: 2
+      photon: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 6.4
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-40226
+    - https://github.com/systemd/systemd/security/advisories/GHSA-9mj4-rrc3-gjcx
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-40226
+    - https://ubuntu.com/security/notices/USN-8402-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-40226
+    PublishedDate: '2026-04-10T16:16:33.447Z'
+    LastModifiedDate: '2026-04-17T22:02:15.393Z'
   - VulnerabilityID: CVE-2023-7008
     PkgID: libsystemd0@249.11-0ubuntu3.20
     PkgName: libsystemd0
@@ -2020,7 +2439,8 @@
       PURL: pkg:deb/ubuntu/libsystemd0@249.11-0ubuntu3.20?arch=amd64&distro=ubuntu-22.04
       UID: 229f5d9a9eaac2ed
     InstalledVersion: 249.11-0ubuntu3.20
-    Status: affected
+    FixedVersion: 249.11-0ubuntu3.21
+    Status: fixed
     Layer:
       Digest: sha256:c8b838c25d2c79a1d420877453f6e3656ea3598e7867b49400cbc84e54cbc5ff
       DiffID: sha256:2b913644fb7fad03c1a0518c38e28c02f6e8cd324758e7823e7fe9990899e091
@@ -2062,7 +2482,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222261
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222672
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-7008
-    - https://errata.almalinux.org/9/ALSA-2024-2463.html
+    - https://errata.almalinux.org/8/ALSA-2024-3203.html
     - https://errata.rockylinux.org/RLSA-2024:2463
     - https://github.com/systemd/systemd/issues/25676
     - https://linux.oracle.com/cve/CVE-2023-7008.html
@@ -2072,6 +2492,7 @@
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QHNBXGKJWISJETTTDTZKTBFIBJUOSLKL/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-7008
     - https://security.netapp.com/advisory/ntap-20241122-0004/
+    - https://ubuntu.com/security/notices/USN-8402-1
     - https://www.cve.org/CVERecord?id=CVE-2023-7008
     PublishedDate: '2023-12-23T13:15:07.573Z'
     LastModifiedDate: '2025-11-04T17:15:43.4Z'
@@ -2163,6 +2584,47 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-50495
     PublishedDate: '2023-12-12T15:15:07.867Z'
     LastModifiedDate: '2025-11-04T19:16:14.45Z'
+  - VulnerabilityID: CVE-2026-40226
+    PkgID: libudev1@249.11-0ubuntu3.20
+    PkgName: libudev1
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libudev1@249.11-0ubuntu3.20?arch=amd64&distro=ubuntu-22.04
+      UID: 2e66cc320105eef6
+    InstalledVersion: 249.11-0ubuntu3.20
+    FixedVersion: 249.11-0ubuntu3.21
+    Status: fixed
+    Layer:
+      Digest: sha256:c8b838c25d2c79a1d420877453f6e3656ea3598e7867b49400cbc84e54cbc5ff
+      DiffID: sha256:2b913644fb7fad03c1a0518c38e28c02f6e8cd324758e7823e7fe9990899e091
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-40226
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:6496c24e4837f911dff0ba440101de34519a8f9a7bbb2d441e0d96a0c879d81b
+    Title: 'systemd: systemd nspawn: Escape-to-host action via crafted config file'
+    Description: In nspawn in systemd 233 through 259 before 260, an escape-to-host action can occur via a crafted optional config file.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-348
+    VendorSeverity:
+      azure: 2
+      photon: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 6.4
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-40226
+    - https://github.com/systemd/systemd/security/advisories/GHSA-9mj4-rrc3-gjcx
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-40226
+    - https://ubuntu.com/security/notices/USN-8402-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-40226
+    PublishedDate: '2026-04-10T16:16:33.447Z'
+    LastModifiedDate: '2026-04-17T22:02:15.393Z'
   - VulnerabilityID: CVE-2023-7008
     PkgID: libudev1@249.11-0ubuntu3.20
     PkgName: libudev1
@@ -2170,7 +2632,8 @@
       PURL: pkg:deb/ubuntu/libudev1@249.11-0ubuntu3.20?arch=amd64&distro=ubuntu-22.04
       UID: 2e66cc320105eef6
     InstalledVersion: 249.11-0ubuntu3.20
-    Status: affected
+    FixedVersion: 249.11-0ubuntu3.21
+    Status: fixed
     Layer:
       Digest: sha256:c8b838c25d2c79a1d420877453f6e3656ea3598e7867b49400cbc84e54cbc5ff
       DiffID: sha256:2b913644fb7fad03c1a0518c38e28c02f6e8cd324758e7823e7fe9990899e091
@@ -2212,7 +2675,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222261
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222672
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-7008
-    - https://errata.almalinux.org/9/ALSA-2024-2463.html
+    - https://errata.almalinux.org/8/ALSA-2024-3203.html
     - https://errata.rockylinux.org/RLSA-2024:2463
     - https://github.com/systemd/systemd/issues/25676
     - https://linux.oracle.com/cve/CVE-2023-7008.html
@@ -2222,6 +2685,7 @@
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QHNBXGKJWISJETTTDTZKTBFIBJUOSLKL/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-7008
     - https://security.netapp.com/advisory/ntap-20241122-0004/
+    - https://ubuntu.com/security/notices/USN-8402-1
     - https://www.cve.org/CVERecord?id=CVE-2023-7008
     PublishedDate: '2023-12-23T13:15:07.573Z'
     LastModifiedDate: '2025-11-04T17:15:43.4Z'
@@ -2428,7 +2892,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2024:1141
+    - https://access.redhat.com/errata/RHSA-2024:0894
     - https://access.redhat.com/security/cve/CVE-2022-4899
     - https://bugzilla.redhat.com/2179864
     - https://bugzilla.redhat.com/2188109
@@ -2667,7 +3131,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21061
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21137
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21200
-    - https://errata.almalinux.org/9/ALSA-2024-1141.html
+    - https://errata.almalinux.org/8/ALSA-2024-0894.html
     - https://errata.rockylinux.org/RLSA-2024:0894
     - https://github.com/facebook/zstd
     - https://github.com/facebook/zstd/issues/3200
@@ -2971,6 +3435,153 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-50495
     PublishedDate: '2023-12-12T15:15:07.867Z'
     LastModifiedDate: '2025-11-04T19:16:14.45Z'
+  - VulnerabilityID: CVE-2026-49975
+    PkgID: nginx@1.18.0-6ubuntu14.12
+    PkgName: nginx
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/nginx@1.18.0-6ubuntu14.12?arch=amd64&distro=ubuntu-22.04
+      UID: ee2b2b9bdbee161d
+    InstalledVersion: 1.18.0-6ubuntu14.12
+    Status: affected
+    Layer:
+      Digest: sha256:c8b838c25d2c79a1d420877453f6e3656ea3598e7867b49400cbc84e54cbc5ff
+      DiffID: sha256:2b913644fb7fad03c1a0518c38e28c02f6e8cd324758e7823e7fe9990899e091
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-49975
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:88ee081a02b7943dab028ff0e16c2ae3fb918fefe00f63ac9eca9d3d6658fc55
+    Title: 'httpd: HTTP/2: Remote Denial of Service via compression bomb and Slowloris-style attack'
+    Description: |-
+      Memory Allocation with Excessive Size Value vulnerability in Apache HTTP Server's mod_http leads to denial of service via malicious HTTP requests.
+
+      This issue affects Apache HTTP Server: from 2.4.17 through 2.4.67.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-789
+    VendorSeverity:
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/06/03/3
+    - http://www.openwall.com/lists/oss-security/2026/06/08/16
+    - https://access.redhat.com/security/cve/CVE-2026-49975
+    - https://access.redhat.com/security/vulnerabilities/RHSB-2026-007
+    - https://blog.calif.io/p/codex-discovered-a-hidden-http2-bomb
+    - https://github.com/icing/mod_h2/pull/324
+    - https://httpd.apache.org/security/vulnerabilities_24.html
+    - https://lists.debian.org/debian-lts-announce/2026/06/msg00009.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-49975
+    - https://ubuntu.com/security/notices/USN-8384-1
+    - https://ubuntu.com/security/notices/USN-8398-1
+    - https://ubuntu.com/security/notices/USN-8398-2
+    - https://www.cve.org/CVERecord?id=CVE-2026-49975
+    PublishedDate: '2026-06-08T16:16:44.223Z'
+    LastModifiedDate: '2026-06-09T17:17:49.52Z'
+  - VulnerabilityID: CVE-2026-49975
+    PkgID: nginx-common@1.18.0-6ubuntu14.12
+    PkgName: nginx-common
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/nginx-common@1.18.0-6ubuntu14.12?arch=all&distro=ubuntu-22.04
+      UID: 49f299750a9bde4f
+    InstalledVersion: 1.18.0-6ubuntu14.12
+    Status: affected
+    Layer:
+      Digest: sha256:c8b838c25d2c79a1d420877453f6e3656ea3598e7867b49400cbc84e54cbc5ff
+      DiffID: sha256:2b913644fb7fad03c1a0518c38e28c02f6e8cd324758e7823e7fe9990899e091
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-49975
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:85b3d1e681412dc06c15667d42e61326f571f54d2d97a5cdb6f78691d2b707b4
+    Title: 'httpd: HTTP/2: Remote Denial of Service via compression bomb and Slowloris-style attack'
+    Description: |-
+      Memory Allocation with Excessive Size Value vulnerability in Apache HTTP Server's mod_http leads to denial of service via malicious HTTP requests.
+
+      This issue affects Apache HTTP Server: from 2.4.17 through 2.4.67.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-789
+    VendorSeverity:
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/06/03/3
+    - http://www.openwall.com/lists/oss-security/2026/06/08/16
+    - https://access.redhat.com/security/cve/CVE-2026-49975
+    - https://access.redhat.com/security/vulnerabilities/RHSB-2026-007
+    - https://blog.calif.io/p/codex-discovered-a-hidden-http2-bomb
+    - https://github.com/icing/mod_h2/pull/324
+    - https://httpd.apache.org/security/vulnerabilities_24.html
+    - https://lists.debian.org/debian-lts-announce/2026/06/msg00009.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-49975
+    - https://ubuntu.com/security/notices/USN-8384-1
+    - https://ubuntu.com/security/notices/USN-8398-1
+    - https://ubuntu.com/security/notices/USN-8398-2
+    - https://www.cve.org/CVERecord?id=CVE-2026-49975
+    PublishedDate: '2026-06-08T16:16:44.223Z'
+    LastModifiedDate: '2026-06-09T17:17:49.52Z'
+  - VulnerabilityID: CVE-2026-49975
+    PkgID: nginx-core@1.18.0-6ubuntu14.12
+    PkgName: nginx-core
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/nginx-core@1.18.0-6ubuntu14.12?arch=amd64&distro=ubuntu-22.04
+      UID: 4d690fbe86561149
+    InstalledVersion: 1.18.0-6ubuntu14.12
+    Status: affected
+    Layer:
+      Digest: sha256:c8b838c25d2c79a1d420877453f6e3656ea3598e7867b49400cbc84e54cbc5ff
+      DiffID: sha256:2b913644fb7fad03c1a0518c38e28c02f6e8cd324758e7823e7fe9990899e091
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-49975
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:fc89b45171d519253ee0474fa3fc7b2aea65c4c4ca81445a05854244a60de7bf
+    Title: 'httpd: HTTP/2: Remote Denial of Service via compression bomb and Slowloris-style attack'
+    Description: |-
+      Memory Allocation with Excessive Size Value vulnerability in Apache HTTP Server's mod_http leads to denial of service via malicious HTTP requests.
+
+      This issue affects Apache HTTP Server: from 2.4.17 through 2.4.67.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-789
+    VendorSeverity:
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/06/03/3
+    - http://www.openwall.com/lists/oss-security/2026/06/08/16
+    - https://access.redhat.com/security/cve/CVE-2026-49975
+    - https://access.redhat.com/security/vulnerabilities/RHSB-2026-007
+    - https://blog.calif.io/p/codex-discovered-a-hidden-http2-bomb
+    - https://github.com/icing/mod_h2/pull/324
+    - https://httpd.apache.org/security/vulnerabilities_24.html
+    - https://lists.debian.org/debian-lts-announce/2026/06/msg00009.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-49975
+    - https://ubuntu.com/security/notices/USN-8384-1
+    - https://ubuntu.com/security/notices/USN-8398-1
+    - https://ubuntu.com/security/notices/USN-8398-2
+    - https://www.cve.org/CVERecord?id=CVE-2026-49975
+    PublishedDate: '2026-06-08T16:16:44.223Z'
+    LastModifiedDate: '2026-06-09T17:17:49.52Z'
   - VulnerabilityID: CVE-2023-29383
     PkgID: passwd@1:4.8.1-2ubuntu2.2
     PkgName: passwd
@@ -3095,7 +3706,7 @@
     - CWE-668
     VendorSeverity:
       alma: 3
-      amazon: 1
+      amazon: 2
       oracle-oval: 3
       redhat: 1
       rocky: 3
@@ -3106,7 +3717,7 @@
         V3Score: 3.3
     References:
     - http://www.openwall.com/lists/oss-security/2026/03/05/6
-    - https://access.redhat.com/errata/RHSA-2026:19177
+    - https://access.redhat.com/errata/RHSA-2026:10950
     - https://access.redhat.com/security/cve/CVE-2026-2297
     - https://bugzilla.redhat.com/2395108
     - https://bugzilla.redhat.com/2408891
@@ -3116,7 +3727,6 @@
     - https://bugzilla.redhat.com/2444691
     - https://bugzilla.redhat.com/2448168
     - https://bugzilla.redhat.com/2448181
-    - https://bugzilla.redhat.com/2449649
     - https://bugzilla.redhat.com/2457409
     - https://bugzilla.redhat.com/2457932
     - https://bugzilla.redhat.com/2458049
@@ -3144,7 +3754,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4519
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
-    - https://errata.almalinux.org/9/ALSA-2026-19177.html
+    - https://errata.almalinux.org/8/ALSA-2026-10950.html
     - https://errata.rockylinux.org/RLSA-2026:19177
     - https://github.com/python/cpython/commit/482d6f8bdba9da3725d272e8bb4a2d25fb6a603e
     - https://github.com/python/cpython/commit/69ddd9bb2cc4bd69b1565647c18659c6a789ccd9
@@ -3184,7 +3794,7 @@
     - CWE-668
     VendorSeverity:
       alma: 3
-      amazon: 1
+      amazon: 2
       oracle-oval: 3
       redhat: 1
       rocky: 3
@@ -3195,7 +3805,7 @@
         V3Score: 3.3
     References:
     - http://www.openwall.com/lists/oss-security/2026/03/05/6
-    - https://access.redhat.com/errata/RHSA-2026:19177
+    - https://access.redhat.com/errata/RHSA-2026:10950
     - https://access.redhat.com/security/cve/CVE-2026-2297
     - https://bugzilla.redhat.com/2395108
     - https://bugzilla.redhat.com/2408891
@@ -3205,7 +3815,6 @@
     - https://bugzilla.redhat.com/2444691
     - https://bugzilla.redhat.com/2448168
     - https://bugzilla.redhat.com/2448181
-    - https://bugzilla.redhat.com/2449649
     - https://bugzilla.redhat.com/2457409
     - https://bugzilla.redhat.com/2457932
     - https://bugzilla.redhat.com/2458049
@@ -3233,7 +3842,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4519
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
-    - https://errata.almalinux.org/9/ALSA-2026-19177.html
+    - https://errata.almalinux.org/8/ALSA-2026-10950.html
     - https://errata.rockylinux.org/RLSA-2026:19177
     - https://github.com/python/cpython/commit/482d6f8bdba9da3725d272e8bb4a2d25fb6a603e
     - https://github.com/python/cpython/commit/69ddd9bb2cc4bd69b1565647c18659c6a789ccd9
@@ -3248,6 +3857,47 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-2297
     PublishedDate: '2026-03-04T23:16:10.757Z'
     LastModifiedDate: '2026-05-01T16:16:30.11Z'
+  - VulnerabilityID: CVE-2026-40226
+    PkgID: systemd@249.11-0ubuntu3.20
+    PkgName: systemd
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/systemd@249.11-0ubuntu3.20?arch=amd64&distro=ubuntu-22.04
+      UID: 770d0621e664d221
+    InstalledVersion: 249.11-0ubuntu3.20
+    FixedVersion: 249.11-0ubuntu3.21
+    Status: fixed
+    Layer:
+      Digest: sha256:c8b838c25d2c79a1d420877453f6e3656ea3598e7867b49400cbc84e54cbc5ff
+      DiffID: sha256:2b913644fb7fad03c1a0518c38e28c02f6e8cd324758e7823e7fe9990899e091
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-40226
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:21b29286332f212ff764612976a7d2d981eb0589d7f7240391e4f2889ba5eaf8
+    Title: 'systemd: systemd nspawn: Escape-to-host action via crafted config file'
+    Description: In nspawn in systemd 233 through 259 before 260, an escape-to-host action can occur via a crafted optional config file.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-348
+    VendorSeverity:
+      azure: 2
+      photon: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 6.4
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-40226
+    - https://github.com/systemd/systemd/security/advisories/GHSA-9mj4-rrc3-gjcx
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-40226
+    - https://ubuntu.com/security/notices/USN-8402-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-40226
+    PublishedDate: '2026-04-10T16:16:33.447Z'
+    LastModifiedDate: '2026-04-17T22:02:15.393Z'
   - VulnerabilityID: CVE-2023-7008
     PkgID: systemd@249.11-0ubuntu3.20
     PkgName: systemd
@@ -3255,7 +3905,8 @@
       PURL: pkg:deb/ubuntu/systemd@249.11-0ubuntu3.20?arch=amd64&distro=ubuntu-22.04
       UID: 770d0621e664d221
     InstalledVersion: 249.11-0ubuntu3.20
-    Status: affected
+    FixedVersion: 249.11-0ubuntu3.21
+    Status: fixed
     Layer:
       Digest: sha256:c8b838c25d2c79a1d420877453f6e3656ea3598e7867b49400cbc84e54cbc5ff
       DiffID: sha256:2b913644fb7fad03c1a0518c38e28c02f6e8cd324758e7823e7fe9990899e091
@@ -3297,7 +3948,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222261
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222672
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-7008
-    - https://errata.almalinux.org/9/ALSA-2024-2463.html
+    - https://errata.almalinux.org/8/ALSA-2024-3203.html
     - https://errata.rockylinux.org/RLSA-2024:2463
     - https://github.com/systemd/systemd/issues/25676
     - https://linux.oracle.com/cve/CVE-2023-7008.html
@@ -3307,6 +3958,7 @@
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QHNBXGKJWISJETTTDTZKTBFIBJUOSLKL/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-7008
     - https://security.netapp.com/advisory/ntap-20241122-0004/
+    - https://ubuntu.com/security/notices/USN-8402-1
     - https://www.cve.org/CVERecord?id=CVE-2023-7008
     PublishedDate: '2023-12-23T13:15:07.573Z'
     LastModifiedDate: '2025-11-04T17:15:43.4Z'
@@ -3352,6 +4004,47 @@
     - https://www.openwall.com/lists/oss-security/2026/04/08/1
     PublishedDate: '2026-04-10T16:16:33.753Z'
     LastModifiedDate: '2026-05-05T02:16:04.82Z'
+  - VulnerabilityID: CVE-2026-40226
+    PkgID: systemd-sysv@249.11-0ubuntu3.20
+    PkgName: systemd-sysv
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/systemd-sysv@249.11-0ubuntu3.20?arch=amd64&distro=ubuntu-22.04
+      UID: ba19fca351dcdf02
+    InstalledVersion: 249.11-0ubuntu3.20
+    FixedVersion: 249.11-0ubuntu3.21
+    Status: fixed
+    Layer:
+      Digest: sha256:c8b838c25d2c79a1d420877453f6e3656ea3598e7867b49400cbc84e54cbc5ff
+      DiffID: sha256:2b913644fb7fad03c1a0518c38e28c02f6e8cd324758e7823e7fe9990899e091
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-40226
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:d7cc57107f4396e13616271f67d50836e85b27de63d7c2a44d40fb640fdc7136
+    Title: 'systemd: systemd nspawn: Escape-to-host action via crafted config file'
+    Description: In nspawn in systemd 233 through 259 before 260, an escape-to-host action can occur via a crafted optional config file.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-348
+    VendorSeverity:
+      azure: 2
+      photon: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 6.4
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-40226
+    - https://github.com/systemd/systemd/security/advisories/GHSA-9mj4-rrc3-gjcx
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-40226
+    - https://ubuntu.com/security/notices/USN-8402-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-40226
+    PublishedDate: '2026-04-10T16:16:33.447Z'
+    LastModifiedDate: '2026-04-17T22:02:15.393Z'
   - VulnerabilityID: CVE-2023-7008
     PkgID: systemd-sysv@249.11-0ubuntu3.20
     PkgName: systemd-sysv
@@ -3359,7 +4052,8 @@
       PURL: pkg:deb/ubuntu/systemd-sysv@249.11-0ubuntu3.20?arch=amd64&distro=ubuntu-22.04
       UID: ba19fca351dcdf02
     InstalledVersion: 249.11-0ubuntu3.20
-    Status: affected
+    FixedVersion: 249.11-0ubuntu3.21
+    Status: fixed
     Layer:
       Digest: sha256:c8b838c25d2c79a1d420877453f6e3656ea3598e7867b49400cbc84e54cbc5ff
       DiffID: sha256:2b913644fb7fad03c1a0518c38e28c02f6e8cd324758e7823e7fe9990899e091
@@ -3401,7 +4095,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222261
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222672
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-7008
-    - https://errata.almalinux.org/9/ALSA-2024-2463.html
+    - https://errata.almalinux.org/8/ALSA-2024-3203.html
     - https://errata.rockylinux.org/RLSA-2024:2463
     - https://github.com/systemd/systemd/issues/25676
     - https://linux.oracle.com/cve/CVE-2023-7008.html
@@ -3411,6 +4105,7 @@
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QHNBXGKJWISJETTTDTZKTBFIBJUOSLKL/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-7008
     - https://security.netapp.com/advisory/ntap-20241122-0004/
+    - https://ubuntu.com/security/notices/USN-8402-1
     - https://www.cve.org/CVERecord?id=CVE-2023-7008
     PublishedDate: '2023-12-23T13:15:07.573Z'
     LastModifiedDate: '2025-11-04T17:15:43.4Z'
@@ -3456,6 +4151,47 @@
     - https://www.openwall.com/lists/oss-security/2026/04/08/1
     PublishedDate: '2026-04-10T16:16:33.753Z'
     LastModifiedDate: '2026-05-05T02:16:04.82Z'
+  - VulnerabilityID: CVE-2026-40226
+    PkgID: systemd-timesyncd@249.11-0ubuntu3.20
+    PkgName: systemd-timesyncd
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/systemd-timesyncd@249.11-0ubuntu3.20?arch=amd64&distro=ubuntu-22.04
+      UID: 1753ef93e2abc908
+    InstalledVersion: 249.11-0ubuntu3.20
+    FixedVersion: 249.11-0ubuntu3.21
+    Status: fixed
+    Layer:
+      Digest: sha256:c8b838c25d2c79a1d420877453f6e3656ea3598e7867b49400cbc84e54cbc5ff
+      DiffID: sha256:2b913644fb7fad03c1a0518c38e28c02f6e8cd324758e7823e7fe9990899e091
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-40226
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:cd693b9bfee24a60301dcb75d17c8c763329785f55dbe94612c2bd1edf0622f7
+    Title: 'systemd: systemd nspawn: Escape-to-host action via crafted config file'
+    Description: In nspawn in systemd 233 through 259 before 260, an escape-to-host action can occur via a crafted optional config file.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-348
+    VendorSeverity:
+      azure: 2
+      photon: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 6.4
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-40226
+    - https://github.com/systemd/systemd/security/advisories/GHSA-9mj4-rrc3-gjcx
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-40226
+    - https://ubuntu.com/security/notices/USN-8402-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-40226
+    PublishedDate: '2026-04-10T16:16:33.447Z'
+    LastModifiedDate: '2026-04-17T22:02:15.393Z'
   - VulnerabilityID: CVE-2023-7008
     PkgID: systemd-timesyncd@249.11-0ubuntu3.20
     PkgName: systemd-timesyncd
@@ -3463,7 +4199,8 @@
       PURL: pkg:deb/ubuntu/systemd-timesyncd@249.11-0ubuntu3.20?arch=amd64&distro=ubuntu-22.04
       UID: 1753ef93e2abc908
     InstalledVersion: 249.11-0ubuntu3.20
-    Status: affected
+    FixedVersion: 249.11-0ubuntu3.21
+    Status: fixed
     Layer:
       Digest: sha256:c8b838c25d2c79a1d420877453f6e3656ea3598e7867b49400cbc84e54cbc5ff
       DiffID: sha256:2b913644fb7fad03c1a0518c38e28c02f6e8cd324758e7823e7fe9990899e091
@@ -3505,7 +4242,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222261
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222672
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-7008
-    - https://errata.almalinux.org/9/ALSA-2024-2463.html
+    - https://errata.almalinux.org/8/ALSA-2024-3203.html
     - https://errata.rockylinux.org/RLSA-2024:2463
     - https://github.com/systemd/systemd/issues/25676
     - https://linux.oracle.com/cve/CVE-2023-7008.html
@@ -3515,6 +4252,7 @@
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QHNBXGKJWISJETTTDTZKTBFIBJUOSLKL/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-7008
     - https://security.netapp.com/advisory/ntap-20241122-0004/
+    - https://ubuntu.com/security/notices/USN-8402-1
     - https://www.cve.org/CVERecord?id=CVE-2023-7008
     PublishedDate: '2023-12-23T13:15:07.573Z'
     LastModifiedDate: '2025-11-04T17:15:43.4Z'
@@ -4299,7 +5037,7 @@
     - CWE-425
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       azure: 3
       bitnami: 3
       oracle-oval: 3
@@ -4313,12 +5051,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2026:9044
+    - https://access.redhat.com/errata/RHSA-2026:8456
     - https://access.redhat.com/security/cve/CVE-2026-25679
     - https://bugzilla.redhat.com/2445356
     - https://bugzilla.redhat.com/show_bug.cgi?id=2445356
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-25679
-    - https://errata.almalinux.org/9/ALSA-2026-9044.html
+    - https://errata.almalinux.org/8/ALSA-2026-8456.html
     - https://errata.rockylinux.org/RLSA-2026:9044
     - https://go.dev/cl/752180
     - https://go.dev/issue/77578
@@ -4371,13 +5109,9 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2026:19353
+    - https://access.redhat.com/errata/RHSA-2026:16875
     - https://access.redhat.com/security/cve/CVE-2026-32280
     - https://bugzilla.redhat.com/2445356
-    - https://bugzilla.redhat.com/2449833
-    - https://bugzilla.redhat.com/2455470
-    - https://bugzilla.redhat.com/2456333
-    - https://bugzilla.redhat.com/2456335
     - https://bugzilla.redhat.com/2456336
     - https://bugzilla.redhat.com/2456338
     - https://bugzilla.redhat.com/2456339
@@ -4397,7 +5131,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-33186
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-33810
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-34986
-    - https://errata.almalinux.org/9/ALSA-2026-19353.html
+    - https://errata.almalinux.org/8/ALSA-2026-16875.html
     - https://errata.rockylinux.org/RLSA-2026:19353
     - https://go.dev/cl/758320
     - https://go.dev/issue/78282
@@ -4453,14 +5187,9 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
     References:
-    - https://access.redhat.com/errata/RHSA-2026:19353
+    - https://access.redhat.com/errata/RHSA-2026:23102
     - https://access.redhat.com/security/cve/CVE-2026-32281
-    - https://bugzilla.redhat.com/2445356
-    - https://bugzilla.redhat.com/2449833
-    - https://bugzilla.redhat.com/2455470
     - https://bugzilla.redhat.com/2456333
-    - https://bugzilla.redhat.com/2456335
-    - https://bugzilla.redhat.com/2456336
     - https://bugzilla.redhat.com/2456338
     - https://bugzilla.redhat.com/2456339
     - https://bugzilla.redhat.com/show_bug.cgi?id=2445356
@@ -4479,7 +5208,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-33186
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-33810
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-34986
-    - https://errata.almalinux.org/9/ALSA-2026-19353.html
+    - https://errata.almalinux.org/10/ALSA-2026-23102.html
     - https://errata.rockylinux.org/RLSA-2026:19353
     - https://go.dev/cl/758061
     - https://go.dev/issue/78281
@@ -4534,13 +5263,9 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2026:19353
+    - https://access.redhat.com/errata/RHSA-2026:16875
     - https://access.redhat.com/security/cve/CVE-2026-32283
     - https://bugzilla.redhat.com/2445356
-    - https://bugzilla.redhat.com/2449833
-    - https://bugzilla.redhat.com/2455470
-    - https://bugzilla.redhat.com/2456333
-    - https://bugzilla.redhat.com/2456335
     - https://bugzilla.redhat.com/2456336
     - https://bugzilla.redhat.com/2456338
     - https://bugzilla.redhat.com/2456339
@@ -4560,7 +5285,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-33186
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-33810
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-34986
-    - https://errata.almalinux.org/9/ALSA-2026-19353.html
+    - https://errata.almalinux.org/8/ALSA-2026-16875.html
     - https://errata.rockylinux.org/RLSA-2026:19353
     - https://go.dev/cl/763767
     - https://go.dev/issue/78334
@@ -4813,49 +5538,6 @@
     - https://pkg.go.dev/vuln/GO-2026-4976
     PublishedDate: '2026-05-07T20:16:43.39Z'
     LastModifiedDate: '2026-05-13T16:58:56.39Z'
-  - VulnerabilityID: CVE-2026-39826
-    VendorIDs:
-    - GO-2026-4980
-    PkgID: stdlib@v1.25.7
-    PkgName: stdlib
-    PkgIdentifier:
-      PURL: pkg:golang/stdlib@v1.25.7
-      UID: dc06a6ee548f1d42
-    InstalledVersion: v1.25.7
-    FixedVersion: 1.25.10, 1.26.3
-    Status: fixed
-    Layer:
-      Digest: sha256:c8b838c25d2c79a1d420877453f6e3656ea3598e7867b49400cbc84e54cbc5ff
-      DiffID: sha256:2b913644fb7fad03c1a0518c38e28c02f6e8cd324758e7823e7fe9990899e091
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-39826
-    DataSource:
-      ID: govulndb
-      Name: The Go Vulnerability Database
-      URL: https://pkg.go.dev/vuln/
-    Fingerprint: sha256:6aec73640c58ecc69852e05aaba433c7a796501c429351a1f28a368ab226adec
-    Title: If a trusted template author were to write a <script> tag containing a ...
-    Description: If a trusted template author were to write a <script> tag containing an empty 'type' attribute or a 'type' attribute with an ASCII whitespace, the execution of the template would incorrectly escape any data passed into the <script> block.
-    Severity: HIGH
-    CweIDs:
-    - CWE-116
-    VendorSeverity:
-      amazon: 3
-      bitnami: 2
-      oracle-oval: 3
-    CVSS:
-      bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
-        V3Score: 6.1
-    References:
-    - https://go.dev/cl/771180
-    - https://go.dev/issue/78981
-    - https://groups.google.com/g/golang-announce/c/qcCIEXso47M
-    - https://linux.oracle.com/cve/CVE-2026-39826.html
-    - https://linux.oracle.com/errata/ELSA-2026-22112.html
-    - https://nvd.nist.gov/vuln/detail/CVE-2026-39826
-    - https://pkg.go.dev/vuln/GO-2026-4980
-    PublishedDate: '2026-05-07T20:16:43.49Z'
-    LastModifiedDate: '2026-05-13T16:59:07.48Z'
   - VulnerabilityID: CVE-2026-39836
     VendorIDs:
     - GO-2026-4971
@@ -5111,13 +5793,9 @@
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H
         V3Score: 7.8
     References:
-    - https://access.redhat.com/errata/RHSA-2026:19353
+    - https://access.redhat.com/errata/RHSA-2026:16875
     - https://access.redhat.com/security/cve/CVE-2026-32282
     - https://bugzilla.redhat.com/2445356
-    - https://bugzilla.redhat.com/2449833
-    - https://bugzilla.redhat.com/2455470
-    - https://bugzilla.redhat.com/2456333
-    - https://bugzilla.redhat.com/2456335
     - https://bugzilla.redhat.com/2456336
     - https://bugzilla.redhat.com/2456338
     - https://bugzilla.redhat.com/2456339
@@ -5137,7 +5815,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-33186
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-33810
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-34986
-    - https://errata.almalinux.org/9/ALSA-2026-19353.html
+    - https://errata.almalinux.org/8/ALSA-2026-16875.html
     - https://errata.rockylinux.org/RLSA-2026:19353
     - https://go.dev/cl/763761
     - https://go.dev/issue/78293
@@ -5255,6 +5933,55 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-32289
     PublishedDate: '2026-04-08T02:16:03.82Z'
     LastModifiedDate: '2026-04-16T19:06:57.367Z'
+  - VulnerabilityID: CVE-2026-39826
+    VendorIDs:
+    - GO-2026-4980
+    PkgID: stdlib@v1.25.7
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@v1.25.7
+      UID: dc06a6ee548f1d42
+    InstalledVersion: v1.25.7
+    FixedVersion: 1.25.10, 1.26.3
+    Status: fixed
+    Layer:
+      Digest: sha256:c8b838c25d2c79a1d420877453f6e3656ea3598e7867b49400cbc84e54cbc5ff
+      DiffID: sha256:2b913644fb7fad03c1a0518c38e28c02f6e8cd324758e7823e7fe9990899e091
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-39826
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Fingerprint: sha256:6aec73640c58ecc69852e05aaba433c7a796501c429351a1f28a368ab226adec
+    Title: 'html/template: golang: html/template: Cross-site scripting due to incorrect script tag escaping'
+    Description: If a trusted template author were to write a <script> tag containing an empty 'type' attribute or a 'type' attribute with an ASCII whitespace, the execution of the template would incorrectly escape any data passed into the <script> block.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-116
+    VendorSeverity:
+      amazon: 3
+      bitnami: 2
+      oracle-oval: 3
+      redhat: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
+        V3Score: 6.1
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N
+        V3Score: 5.4
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-39826
+    - https://go.dev/cl/771180
+    - https://go.dev/issue/78981
+    - https://groups.google.com/g/golang-announce/c/qcCIEXso47M
+    - https://linux.oracle.com/cve/CVE-2026-39826.html
+    - https://linux.oracle.com/errata/ELSA-2026-22112.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-39826
+    - https://pkg.go.dev/vuln/GO-2026-4980
+    - https://www.cve.org/CVERecord?id=CVE-2026-39826
+    PublishedDate: '2026-05-07T20:16:43.49Z'
+    LastModifiedDate: '2026-05-13T16:59:07.48Z'
   - VulnerabilityID: CVE-2026-42507
     VendorIDs:
     - GO-2026-5039
@@ -5371,7 +6098,7 @@
     - CWE-425
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       azure: 3
       bitnami: 3
       oracle-oval: 3
@@ -5385,12 +6112,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2026:9044
+    - https://access.redhat.com/errata/RHSA-2026:8456
     - https://access.redhat.com/security/cve/CVE-2026-25679
     - https://bugzilla.redhat.com/2445356
     - https://bugzilla.redhat.com/show_bug.cgi?id=2445356
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-25679
-    - https://errata.almalinux.org/9/ALSA-2026-9044.html
+    - https://errata.almalinux.org/8/ALSA-2026-8456.html
     - https://errata.rockylinux.org/RLSA-2026:9044
     - https://go.dev/cl/752180
     - https://go.dev/issue/77578
@@ -5443,13 +6170,9 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2026:19353
+    - https://access.redhat.com/errata/RHSA-2026:16875
     - https://access.redhat.com/security/cve/CVE-2026-32280
     - https://bugzilla.redhat.com/2445356
-    - https://bugzilla.redhat.com/2449833
-    - https://bugzilla.redhat.com/2455470
-    - https://bugzilla.redhat.com/2456333
-    - https://bugzilla.redhat.com/2456335
     - https://bugzilla.redhat.com/2456336
     - https://bugzilla.redhat.com/2456338
     - https://bugzilla.redhat.com/2456339
@@ -5469,7 +6192,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-33186
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-33810
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-34986
-    - https://errata.almalinux.org/9/ALSA-2026-19353.html
+    - https://errata.almalinux.org/8/ALSA-2026-16875.html
     - https://errata.rockylinux.org/RLSA-2026:19353
     - https://go.dev/cl/758320
     - https://go.dev/issue/78282
@@ -5525,14 +6248,9 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
     References:
-    - https://access.redhat.com/errata/RHSA-2026:19353
+    - https://access.redhat.com/errata/RHSA-2026:23102
     - https://access.redhat.com/security/cve/CVE-2026-32281
-    - https://bugzilla.redhat.com/2445356
-    - https://bugzilla.redhat.com/2449833
-    - https://bugzilla.redhat.com/2455470
     - https://bugzilla.redhat.com/2456333
-    - https://bugzilla.redhat.com/2456335
-    - https://bugzilla.redhat.com/2456336
     - https://bugzilla.redhat.com/2456338
     - https://bugzilla.redhat.com/2456339
     - https://bugzilla.redhat.com/show_bug.cgi?id=2445356
@@ -5551,7 +6269,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-33186
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-33810
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-34986
-    - https://errata.almalinux.org/9/ALSA-2026-19353.html
+    - https://errata.almalinux.org/10/ALSA-2026-23102.html
     - https://errata.rockylinux.org/RLSA-2026:19353
     - https://go.dev/cl/758061
     - https://go.dev/issue/78281
@@ -5606,13 +6324,9 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2026:19353
+    - https://access.redhat.com/errata/RHSA-2026:16875
     - https://access.redhat.com/security/cve/CVE-2026-32283
     - https://bugzilla.redhat.com/2445356
-    - https://bugzilla.redhat.com/2449833
-    - https://bugzilla.redhat.com/2455470
-    - https://bugzilla.redhat.com/2456333
-    - https://bugzilla.redhat.com/2456335
     - https://bugzilla.redhat.com/2456336
     - https://bugzilla.redhat.com/2456338
     - https://bugzilla.redhat.com/2456339
@@ -5632,7 +6346,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-33186
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-33810
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-34986
-    - https://errata.almalinux.org/9/ALSA-2026-19353.html
+    - https://errata.almalinux.org/8/ALSA-2026-16875.html
     - https://errata.rockylinux.org/RLSA-2026:19353
     - https://go.dev/cl/763767
     - https://go.dev/issue/78334
@@ -5885,49 +6599,6 @@
     - https://pkg.go.dev/vuln/GO-2026-4976
     PublishedDate: '2026-05-07T20:16:43.39Z'
     LastModifiedDate: '2026-05-13T16:58:56.39Z'
-  - VulnerabilityID: CVE-2026-39826
-    VendorIDs:
-    - GO-2026-4980
-    PkgID: stdlib@v1.25.7
-    PkgName: stdlib
-    PkgIdentifier:
-      PURL: pkg:golang/stdlib@v1.25.7
-      UID: d26306d74c782e
-    InstalledVersion: v1.25.7
-    FixedVersion: 1.25.10, 1.26.3
-    Status: fixed
-    Layer:
-      Digest: sha256:c8b838c25d2c79a1d420877453f6e3656ea3598e7867b49400cbc84e54cbc5ff
-      DiffID: sha256:2b913644fb7fad03c1a0518c38e28c02f6e8cd324758e7823e7fe9990899e091
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-39826
-    DataSource:
-      ID: govulndb
-      Name: The Go Vulnerability Database
-      URL: https://pkg.go.dev/vuln/
-    Fingerprint: sha256:637381bc4d7d296c3d664df5f2d6f7b5cee679491ffb6f1728b5121a70e31458
-    Title: If a trusted template author were to write a <script> tag containing a ...
-    Description: If a trusted template author were to write a <script> tag containing an empty 'type' attribute or a 'type' attribute with an ASCII whitespace, the execution of the template would incorrectly escape any data passed into the <script> block.
-    Severity: HIGH
-    CweIDs:
-    - CWE-116
-    VendorSeverity:
-      amazon: 3
-      bitnami: 2
-      oracle-oval: 3
-    CVSS:
-      bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
-        V3Score: 6.1
-    References:
-    - https://go.dev/cl/771180
-    - https://go.dev/issue/78981
-    - https://groups.google.com/g/golang-announce/c/qcCIEXso47M
-    - https://linux.oracle.com/cve/CVE-2026-39826.html
-    - https://linux.oracle.com/errata/ELSA-2026-22112.html
-    - https://nvd.nist.gov/vuln/detail/CVE-2026-39826
-    - https://pkg.go.dev/vuln/GO-2026-4980
-    PublishedDate: '2026-05-07T20:16:43.49Z'
-    LastModifiedDate: '2026-05-13T16:59:07.48Z'
   - VulnerabilityID: CVE-2026-39836
     VendorIDs:
     - GO-2026-4971
@@ -6183,13 +6854,9 @@
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H
         V3Score: 7.8
     References:
-    - https://access.redhat.com/errata/RHSA-2026:19353
+    - https://access.redhat.com/errata/RHSA-2026:16875
     - https://access.redhat.com/security/cve/CVE-2026-32282
     - https://bugzilla.redhat.com/2445356
-    - https://bugzilla.redhat.com/2449833
-    - https://bugzilla.redhat.com/2455470
-    - https://bugzilla.redhat.com/2456333
-    - https://bugzilla.redhat.com/2456335
     - https://bugzilla.redhat.com/2456336
     - https://bugzilla.redhat.com/2456338
     - https://bugzilla.redhat.com/2456339
@@ -6209,7 +6876,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-33186
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-33810
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-34986
-    - https://errata.almalinux.org/9/ALSA-2026-19353.html
+    - https://errata.almalinux.org/8/ALSA-2026-16875.html
     - https://errata.rockylinux.org/RLSA-2026:19353
     - https://go.dev/cl/763761
     - https://go.dev/issue/78293
@@ -6327,6 +6994,55 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-32289
     PublishedDate: '2026-04-08T02:16:03.82Z'
     LastModifiedDate: '2026-04-16T19:06:57.367Z'
+  - VulnerabilityID: CVE-2026-39826
+    VendorIDs:
+    - GO-2026-4980
+    PkgID: stdlib@v1.25.7
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@v1.25.7
+      UID: d26306d74c782e
+    InstalledVersion: v1.25.7
+    FixedVersion: 1.25.10, 1.26.3
+    Status: fixed
+    Layer:
+      Digest: sha256:c8b838c25d2c79a1d420877453f6e3656ea3598e7867b49400cbc84e54cbc5ff
+      DiffID: sha256:2b913644fb7fad03c1a0518c38e28c02f6e8cd324758e7823e7fe9990899e091
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-39826
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Fingerprint: sha256:637381bc4d7d296c3d664df5f2d6f7b5cee679491ffb6f1728b5121a70e31458
+    Title: 'html/template: golang: html/template: Cross-site scripting due to incorrect script tag escaping'
+    Description: If a trusted template author were to write a <script> tag containing an empty 'type' attribute or a 'type' attribute with an ASCII whitespace, the execution of the template would incorrectly escape any data passed into the <script> block.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-116
+    VendorSeverity:
+      amazon: 3
+      bitnami: 2
+      oracle-oval: 3
+      redhat: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
+        V3Score: 6.1
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N
+        V3Score: 5.4
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-39826
+    - https://go.dev/cl/771180
+    - https://go.dev/issue/78981
+    - https://groups.google.com/g/golang-announce/c/qcCIEXso47M
+    - https://linux.oracle.com/cve/CVE-2026-39826.html
+    - https://linux.oracle.com/errata/ELSA-2026-22112.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-39826
+    - https://pkg.go.dev/vuln/GO-2026-4980
+    - https://www.cve.org/CVERecord?id=CVE-2026-39826
+    PublishedDate: '2026-05-07T20:16:43.49Z'
+    LastModifiedDate: '2026-05-13T16:59:07.48Z'
   - VulnerabilityID: CVE-2026-42507
     VendorIDs:
     - GO-2026-5039
@@ -6575,6 +7291,7 @@
     References:
     - https://github.com/moby/moby
     - https://github.com/moby/moby/security/advisories/GHSA-x86f-5xw2-fm2r
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-41567
     PublishedDate: '2026-06-05T02:17:13.817Z'
     LastModifiedDate: '2026-06-05T16:01:30.983Z'
   - VulnerabilityID: CVE-2026-42306
@@ -6598,42 +7315,10 @@
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
     Fingerprint: sha256:750b3cc41b13baad7656a6b2a2f5d6c0c2c9038745bb125236118548811f72c6
     Title: 'Docker: Race condition in docker cp allows bind mount redirection to host path'
-    Description: |-
-      ## Summary
-
-      A race condition during `docker cp` mount setup allows a malicious container to redirect a bind mount target to an arbitrary host path, potentially overwriting host files or causing denial of service.
-
-      ## Details
-
-      When copying files into a container, the daemon sets up a temporary filesystem view by bind-mounting volumes into a private mount namespace. During this setup, the mount destination is created inside the container root and then a bind mount is attached using the container-relative path resolved to an absolute host path.
-
-      Between mountpoint creation and the `mount()` syscall, a process running inside the container can replace the destination (or a parent path component) with a symlink pointing to an arbitrary location on the host. The `mount()` syscall follows the symlink, causing the volume to be bind-mounted onto an arbitrary host path instead of the intended container path.
-
-      ## Impact
-
-      A malicious container can redirect a volume bind mount to an arbitrary host path. The impact depends on the volume content and mount options:
-
-      - If the volume is writable, arbitrary host files at the redirected path could be overwritten with the volume's contents.
-      - If the volume is read-only, the host path is masked by the mount for the duration of the operation, causing denial of service.
-      - In all cases the mount is temporary (torn down after the `docker cp` completes), but the effects of any writes persist.
-
-      ### Conditions for exploitation
-
-      - A container must have at least one volume mount.
-      - A process inside the container must be able to rapidly create and swap symlinks at the volume mount destination path.
-      - An operator must initiate a `docker cp` into that container, or call the `PUT /containers/{id}/archive` or `HEAD /containers/{id}/archive` API endpoints.
-
-      ### Not affected
-
-      - Containers that do not have volume mounts are not affected, as the race occurs during volume bind-mount setup.
-
-      ## Workarounds
-
-      - Only run containers from trusted images.
-      - Avoid using `docker cp` with untrusted running containers.
-      - Use authorization plugins to restrict access to the archive API endpoints (`PUT /containers/{id}/archive`, `HEAD /containers/{id}/archive`).
+    Description: "Package updates are available for Amazon Linux 2023 that fix the following vulnerabilities:\nCVE-2026-46595:\n\tPreviously, CVE-2024-45337 fixed an authorization bypass for misused ssh server configurations; if any other type of callback is passed other than public key, then the source-address validation would be skipped.\n\nCVE-2026-42508:\n\tPreviously, a revoked 'SignatureKey' belonging to a CA was not correctly checked for revocation. Now, both the 'key' and 'key.SignatureKey' are checked for @revoked.\n\nCVE-2026-42306:\n\tDocker: Race condition in docker cp allows bind mount redirection to host path\n\nCVE-2026-39833:\n\tThe in-memory keyring returned by NewKeyring() silently accepted keys with the ConfirmBeforeUse constraint but never enforced it. The key would sign without any confirmation prompt, with no indication to the caller that the constraint was not in effect. NewKeyring() now returns an error when unsupported constraints are requested.\n\nCVE-2026-39831:\n\tThe Verify() method for FIDO/U2F security key types (sk-ecdsa-sha2-nistp256@openssh.com, sk-ssh-ed25519@openssh.com) did not check the User Presence flag. Signatures generated without physical touch were accepted, allowing unattended use of a hardware security key. To restore the previous behavior, return a \"no-touch-required\" extension in Permissions.Extensions from PublicKeyCallback.\n\nCVE-2026-39830:\n\tA malicious SSH peer could send unsolicited global request responses to fill an internal buffer, blocking the connection's read loop. The blocked goroutine could not be released by calling Close(), resulting in a resource leak per connection. Unsolicited global responses are now discarded.\n\nCVE-2026-39829:\n\tThe RSA and DSA public key parsers did not enforce size limits on key parameters. A crafted public key with an excessively large modulus or DSA parameter could cause several minutes of CPU consumption during signature verification. This could be triggered by unauthenticated clients during public key authentication. RSA moduli are now limited to 8192 bits, and DSA parameters are validated per FIPS 186-2.\n"
     Severity: HIGH
     VendorSeverity:
+      amazon: 3
       ghsa: 3
     CVSS:
       ghsa:
@@ -7382,49 +8067,6 @@
     - https://pkg.go.dev/vuln/GO-2026-4976
     PublishedDate: '2026-05-07T20:16:43.39Z'
     LastModifiedDate: '2026-05-13T16:58:56.39Z'
-  - VulnerabilityID: CVE-2026-39826
-    VendorIDs:
-    - GO-2026-4980
-    PkgID: stdlib@v1.26.2
-    PkgName: stdlib
-    PkgIdentifier:
-      PURL: pkg:golang/stdlib@v1.26.2
-      UID: 11ef8a1a3b61856
-    InstalledVersion: v1.26.2
-    FixedVersion: 1.25.10, 1.26.3
-    Status: fixed
-    Layer:
-      Digest: sha256:c8b838c25d2c79a1d420877453f6e3656ea3598e7867b49400cbc84e54cbc5ff
-      DiffID: sha256:2b913644fb7fad03c1a0518c38e28c02f6e8cd324758e7823e7fe9990899e091
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-39826
-    DataSource:
-      ID: govulndb
-      Name: The Go Vulnerability Database
-      URL: https://pkg.go.dev/vuln/
-    Fingerprint: sha256:006ec5fb423df818a634ab5d3615b70b4215268a98dece171f6766f9cade1c85
-    Title: If a trusted template author were to write a <script> tag containing a ...
-    Description: If a trusted template author were to write a <script> tag containing an empty 'type' attribute or a 'type' attribute with an ASCII whitespace, the execution of the template would incorrectly escape any data passed into the <script> block.
-    Severity: HIGH
-    CweIDs:
-    - CWE-116
-    VendorSeverity:
-      amazon: 3
-      bitnami: 2
-      oracle-oval: 3
-    CVSS:
-      bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
-        V3Score: 6.1
-    References:
-    - https://go.dev/cl/771180
-    - https://go.dev/issue/78981
-    - https://groups.google.com/g/golang-announce/c/qcCIEXso47M
-    - https://linux.oracle.com/cve/CVE-2026-39826.html
-    - https://linux.oracle.com/errata/ELSA-2026-22112.html
-    - https://nvd.nist.gov/vuln/detail/CVE-2026-39826
-    - https://pkg.go.dev/vuln/GO-2026-4980
-    PublishedDate: '2026-05-07T20:16:43.49Z'
-    LastModifiedDate: '2026-05-13T16:59:07.48Z'
   - VulnerabilityID: CVE-2026-39836
     VendorIDs:
     - GO-2026-4971
@@ -7589,6 +8231,55 @@
     - https://pkg.go.dev/vuln/GO-2026-5037
     PublishedDate: '2026-06-02T23:16:35.57Z'
     LastModifiedDate: '2026-06-04T16:15:50.143Z'
+  - VulnerabilityID: CVE-2026-39826
+    VendorIDs:
+    - GO-2026-4980
+    PkgID: stdlib@v1.26.2
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@v1.26.2
+      UID: 11ef8a1a3b61856
+    InstalledVersion: v1.26.2
+    FixedVersion: 1.25.10, 1.26.3
+    Status: fixed
+    Layer:
+      Digest: sha256:c8b838c25d2c79a1d420877453f6e3656ea3598e7867b49400cbc84e54cbc5ff
+      DiffID: sha256:2b913644fb7fad03c1a0518c38e28c02f6e8cd324758e7823e7fe9990899e091
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-39826
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Fingerprint: sha256:006ec5fb423df818a634ab5d3615b70b4215268a98dece171f6766f9cade1c85
+    Title: 'html/template: golang: html/template: Cross-site scripting due to incorrect script tag escaping'
+    Description: If a trusted template author were to write a <script> tag containing an empty 'type' attribute or a 'type' attribute with an ASCII whitespace, the execution of the template would incorrectly escape any data passed into the <script> block.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-116
+    VendorSeverity:
+      amazon: 3
+      bitnami: 2
+      oracle-oval: 3
+      redhat: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
+        V3Score: 6.1
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N
+        V3Score: 5.4
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-39826
+    - https://go.dev/cl/771180
+    - https://go.dev/issue/78981
+    - https://groups.google.com/g/golang-announce/c/qcCIEXso47M
+    - https://linux.oracle.com/cve/CVE-2026-39826.html
+    - https://linux.oracle.com/errata/ELSA-2026-22112.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-39826
+    - https://pkg.go.dev/vuln/GO-2026-4980
+    - https://www.cve.org/CVERecord?id=CVE-2026-39826
+    PublishedDate: '2026-05-07T20:16:43.49Z'
+    LastModifiedDate: '2026-05-13T16:59:07.48Z'
   - VulnerabilityID: CVE-2026-42507
     VendorIDs:
     - GO-2026-5039
@@ -7694,7 +8385,7 @@
       PURL: pkg:golang/github.com/prometheus/prometheus@v0.303.0
       UID: 8899d6a8d076bd15
     InstalledVersion: v0.303.0
-    FixedVersion: 0.311.3
+    FixedVersion: 0.311.3, 0.305.2
     Status: fixed
     Layer:
       Digest: sha256:c8b838c25d2c79a1d420877453f6e3656ea3598e7867b49400cbc84e54cbc5ff
@@ -7822,6 +8513,11 @@
     CVSS:
       bitnami:
         V40Vector: CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:P/VC:N/VI:N/VA:N/SC:L/SI:L/SA:N
+        V40Score: 5.1
+      ghsa:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
+        V40Vector: CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:P/VC:N/VI:N/VA:N/SC:L/SI:L/SA:N
+        V3Score: 6.1
         V40Score: 5.1
       nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
@@ -7974,7 +8670,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N
         V3Score: 9.1
     References:
-    - https://access.redhat.com/errata/RHSA-2026:19353
+    - https://access.redhat.com/errata/RHSA-2026:19135
     - https://access.redhat.com/security/cve/CVE-2026-33186
     - https://bugzilla.redhat.com/2445356
     - https://bugzilla.redhat.com/2449833
@@ -8000,7 +8696,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-33186
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-33810
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-34986
-    - https://errata.almalinux.org/9/ALSA-2026-19353.html
+    - https://errata.almalinux.org/10/ALSA-2026-19135.html
     - https://errata.rockylinux.org/RLSA-2026:19353
     - https://github.com/grpc/grpc-go
     - https://github.com/grpc/grpc-go/security/advisories/GHSA-p77j-4mvh-x3m3
@@ -8057,15 +8753,16 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N
         V3Score: 7.4
     References:
-    - https://access.redhat.com/errata/RHSA-2026:4177
+    - https://access.redhat.com/errata/RHSA-2026:4672
     - https://access.redhat.com/security/cve/CVE-2025-68121
+    - https://bugzilla.redhat.com/2434431
     - https://bugzilla.redhat.com/2434432
     - https://bugzilla.redhat.com/2437111
     - https://bugzilla.redhat.com/show_bug.cgi?id=2434432
     - https://bugzilla.redhat.com/show_bug.cgi?id=2437111
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-61726
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-68121
-    - https://errata.almalinux.org/9/ALSA-2026-4177.html
+    - https://errata.almalinux.org/8/ALSA-2026-4672.html
     - https://errata.rockylinux.org/RLSA-2026:4177
     - https://github.com/golang/go/issues/77113
     - https://go.dev/cl/737700
@@ -8106,7 +8803,7 @@
     - CWE-770
     VendorSeverity:
       alma: 3
-      amazon: 3
+      amazon: 2
       azure: 2
       bitnami: 3
       cbl-mariner: 2
@@ -8122,15 +8819,16 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2026:4177
+    - https://access.redhat.com/errata/RHSA-2026:4672
     - https://access.redhat.com/security/cve/CVE-2025-61726
+    - https://bugzilla.redhat.com/2434431
     - https://bugzilla.redhat.com/2434432
     - https://bugzilla.redhat.com/2437111
     - https://bugzilla.redhat.com/show_bug.cgi?id=2434432
     - https://bugzilla.redhat.com/show_bug.cgi?id=2437111
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-61726
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-68121
-    - https://errata.almalinux.org/9/ALSA-2026-4177.html
+    - https://errata.almalinux.org/8/ALSA-2026-4672.html
     - https://errata.rockylinux.org/RLSA-2026:4177
     - https://go.dev/cl/736712
     - https://go.dev/issue/77101
@@ -8185,18 +8883,18 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2026:3928
+    - https://access.redhat.com/errata/RHSA-2026:3428
     - https://access.redhat.com/security/cve/CVE-2025-61729
+    - https://bugzilla.redhat.com/2268022
     - https://bugzilla.redhat.com/2418462
-    - https://bugzilla.redhat.com/2434432
-    - https://bugzilla.redhat.com/2437111
+    - https://bugzilla.redhat.com/2418900
     - https://bugzilla.redhat.com/show_bug.cgi?id=2418462
     - https://bugzilla.redhat.com/show_bug.cgi?id=2434432
     - https://bugzilla.redhat.com/show_bug.cgi?id=2437111
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-61726
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-61729
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-68121
-    - https://errata.almalinux.org/9/ALSA-2026-3928.html
+    - https://errata.almalinux.org/8/ALSA-2026-3428.html
     - https://errata.rockylinux.org/RLSA-2026:3928
     - https://go.dev/cl/725920
     - https://go.dev/issue/76445
@@ -8235,7 +8933,7 @@
     - CWE-425
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       azure: 3
       bitnami: 3
       oracle-oval: 3
@@ -8249,12 +8947,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2026:9044
+    - https://access.redhat.com/errata/RHSA-2026:8456
     - https://access.redhat.com/security/cve/CVE-2026-25679
     - https://bugzilla.redhat.com/2445356
     - https://bugzilla.redhat.com/show_bug.cgi?id=2445356
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-25679
-    - https://errata.almalinux.org/9/ALSA-2026-9044.html
+    - https://errata.almalinux.org/8/ALSA-2026-8456.html
     - https://errata.rockylinux.org/RLSA-2026:9044
     - https://go.dev/cl/752180
     - https://go.dev/issue/77578
@@ -8307,13 +9005,9 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2026:19353
+    - https://access.redhat.com/errata/RHSA-2026:16875
     - https://access.redhat.com/security/cve/CVE-2026-32280
     - https://bugzilla.redhat.com/2445356
-    - https://bugzilla.redhat.com/2449833
-    - https://bugzilla.redhat.com/2455470
-    - https://bugzilla.redhat.com/2456333
-    - https://bugzilla.redhat.com/2456335
     - https://bugzilla.redhat.com/2456336
     - https://bugzilla.redhat.com/2456338
     - https://bugzilla.redhat.com/2456339
@@ -8333,7 +9027,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-33186
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-33810
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-34986
-    - https://errata.almalinux.org/9/ALSA-2026-19353.html
+    - https://errata.almalinux.org/8/ALSA-2026-16875.html
     - https://errata.rockylinux.org/RLSA-2026:19353
     - https://go.dev/cl/758320
     - https://go.dev/issue/78282
@@ -8389,14 +9083,9 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
     References:
-    - https://access.redhat.com/errata/RHSA-2026:19353
+    - https://access.redhat.com/errata/RHSA-2026:23102
     - https://access.redhat.com/security/cve/CVE-2026-32281
-    - https://bugzilla.redhat.com/2445356
-    - https://bugzilla.redhat.com/2449833
-    - https://bugzilla.redhat.com/2455470
     - https://bugzilla.redhat.com/2456333
-    - https://bugzilla.redhat.com/2456335
-    - https://bugzilla.redhat.com/2456336
     - https://bugzilla.redhat.com/2456338
     - https://bugzilla.redhat.com/2456339
     - https://bugzilla.redhat.com/show_bug.cgi?id=2445356
@@ -8415,7 +9104,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-33186
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-33810
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-34986
-    - https://errata.almalinux.org/9/ALSA-2026-19353.html
+    - https://errata.almalinux.org/10/ALSA-2026-23102.html
     - https://errata.rockylinux.org/RLSA-2026:19353
     - https://go.dev/cl/758061
     - https://go.dev/issue/78281
@@ -8470,13 +9159,9 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2026:19353
+    - https://access.redhat.com/errata/RHSA-2026:16875
     - https://access.redhat.com/security/cve/CVE-2026-32283
     - https://bugzilla.redhat.com/2445356
-    - https://bugzilla.redhat.com/2449833
-    - https://bugzilla.redhat.com/2455470
-    - https://bugzilla.redhat.com/2456333
-    - https://bugzilla.redhat.com/2456335
     - https://bugzilla.redhat.com/2456336
     - https://bugzilla.redhat.com/2456338
     - https://bugzilla.redhat.com/2456339
@@ -8496,7 +9181,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-33186
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-33810
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-34986
-    - https://errata.almalinux.org/9/ALSA-2026-19353.html
+    - https://errata.almalinux.org/8/ALSA-2026-16875.html
     - https://errata.rockylinux.org/RLSA-2026:19353
     - https://go.dev/cl/763767
     - https://go.dev/issue/78334
@@ -8749,49 +9434,6 @@
     - https://pkg.go.dev/vuln/GO-2026-4976
     PublishedDate: '2026-05-07T20:16:43.39Z'
     LastModifiedDate: '2026-05-13T16:58:56.39Z'
-  - VulnerabilityID: CVE-2026-39826
-    VendorIDs:
-    - GO-2026-4980
-    PkgID: stdlib@v1.24.6
-    PkgName: stdlib
-    PkgIdentifier:
-      PURL: pkg:golang/stdlib@v1.24.6
-      UID: 9c62173fe821c434
-    InstalledVersion: v1.24.6
-    FixedVersion: 1.25.10, 1.26.3
-    Status: fixed
-    Layer:
-      Digest: sha256:c8b838c25d2c79a1d420877453f6e3656ea3598e7867b49400cbc84e54cbc5ff
-      DiffID: sha256:2b913644fb7fad03c1a0518c38e28c02f6e8cd324758e7823e7fe9990899e091
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-39826
-    DataSource:
-      ID: govulndb
-      Name: The Go Vulnerability Database
-      URL: https://pkg.go.dev/vuln/
-    Fingerprint: sha256:91a3256324e13048f3148e44fc02555f475af9914ddbd4d271753d184445bc43
-    Title: If a trusted template author were to write a <script> tag containing a ...
-    Description: If a trusted template author were to write a <script> tag containing an empty 'type' attribute or a 'type' attribute with an ASCII whitespace, the execution of the template would incorrectly escape any data passed into the <script> block.
-    Severity: HIGH
-    CweIDs:
-    - CWE-116
-    VendorSeverity:
-      amazon: 3
-      bitnami: 2
-      oracle-oval: 3
-    CVSS:
-      bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
-        V3Score: 6.1
-    References:
-    - https://go.dev/cl/771180
-    - https://go.dev/issue/78981
-    - https://groups.google.com/g/golang-announce/c/qcCIEXso47M
-    - https://linux.oracle.com/cve/CVE-2026-39826.html
-    - https://linux.oracle.com/errata/ELSA-2026-22112.html
-    - https://nvd.nist.gov/vuln/detail/CVE-2026-39826
-    - https://pkg.go.dev/vuln/GO-2026-4980
-    PublishedDate: '2026-05-07T20:16:43.49Z'
-    LastModifiedDate: '2026-05-13T16:59:07.48Z'
   - VulnerabilityID: CVE-2026-39836
     VendorIDs:
     - GO-2026-4971
@@ -9007,12 +9649,12 @@
         V3Score: 7.5
     References:
     - http://www.openwall.com/lists/oss-security/2025/10/08/1
-    - https://access.redhat.com/errata/RHSA-2026:1381
+    - https://access.redhat.com/errata/RHSA-2026:1380
     - https://access.redhat.com/security/cve/CVE-2025-58183
     - https://bugzilla.redhat.com/2407258
     - https://bugzilla.redhat.com/show_bug.cgi?id=2407258
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-58183
-    - https://errata.almalinux.org/9/ALSA-2026-1381.html
+    - https://errata.almalinux.org/8/ALSA-2026-1380.html
     - https://errata.rockylinux.org/RLSA-2026:1381
     - https://go.dev/cl/709861
     - https://go.dev/issue/75677
@@ -9436,7 +10078,7 @@
     - CWE-770
     VendorSeverity:
       alma: 3
-      amazon: 3
+      amazon: 2
       azure: 2
       bitnami: 2
       oracle-oval: 3
@@ -9452,9 +10094,8 @@
         V3Score: 7.5
     References:
     - http://www.openwall.com/lists/oss-security/2026/01/15/4
-    - https://access.redhat.com/errata/RHSA-2026:3753
+    - https://access.redhat.com/errata/RHSA-2026:4672
     - https://access.redhat.com/security/cve/CVE-2025-61728
-    - https://bugzilla.redhat.com/2418462
     - https://bugzilla.redhat.com/2434431
     - https://bugzilla.redhat.com/2434432
     - https://bugzilla.redhat.com/2437111
@@ -9466,7 +10107,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-61728
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-61729
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-68121
-    - https://errata.almalinux.org/9/ALSA-2026-3753.html
+    - https://errata.almalinux.org/8/ALSA-2026-4672.html
     - https://errata.rockylinux.org/RLSA-2026:3753
     - https://go.dev/cl/736713
     - https://go.dev/issue/77102
@@ -9502,7 +10143,7 @@
     Description: During the TLS 1.3 handshake if multiple messages are sent in records that span encryption level boundaries (for instance the Client Hello and Encrypted Extensions messages), the subsequent messages may be processed before the encryption level changes. This can cause some minor information disclosure if a network-local attacker can inject messages during the handshake.
     Severity: MEDIUM
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       azure: 1
       bitnami: 2
       cbl-mariner: 1
@@ -9653,13 +10294,9 @@
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H
         V3Score: 7.8
     References:
-    - https://access.redhat.com/errata/RHSA-2026:19353
+    - https://access.redhat.com/errata/RHSA-2026:16875
     - https://access.redhat.com/security/cve/CVE-2026-32282
     - https://bugzilla.redhat.com/2445356
-    - https://bugzilla.redhat.com/2449833
-    - https://bugzilla.redhat.com/2455470
-    - https://bugzilla.redhat.com/2456333
-    - https://bugzilla.redhat.com/2456335
     - https://bugzilla.redhat.com/2456336
     - https://bugzilla.redhat.com/2456338
     - https://bugzilla.redhat.com/2456339
@@ -9679,7 +10316,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-33186
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-33810
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-34986
-    - https://errata.almalinux.org/9/ALSA-2026-19353.html
+    - https://errata.almalinux.org/8/ALSA-2026-16875.html
     - https://errata.rockylinux.org/RLSA-2026:19353
     - https://go.dev/cl/763761
     - https://go.dev/issue/78293
@@ -9797,6 +10434,55 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-32289
     PublishedDate: '2026-04-08T02:16:03.82Z'
     LastModifiedDate: '2026-04-16T19:06:57.367Z'
+  - VulnerabilityID: CVE-2026-39826
+    VendorIDs:
+    - GO-2026-4980
+    PkgID: stdlib@v1.24.6
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@v1.24.6
+      UID: 9c62173fe821c434
+    InstalledVersion: v1.24.6
+    FixedVersion: 1.25.10, 1.26.3
+    Status: fixed
+    Layer:
+      Digest: sha256:c8b838c25d2c79a1d420877453f6e3656ea3598e7867b49400cbc84e54cbc5ff
+      DiffID: sha256:2b913644fb7fad03c1a0518c38e28c02f6e8cd324758e7823e7fe9990899e091
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-39826
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Fingerprint: sha256:91a3256324e13048f3148e44fc02555f475af9914ddbd4d271753d184445bc43
+    Title: 'html/template: golang: html/template: Cross-site scripting due to incorrect script tag escaping'
+    Description: If a trusted template author were to write a <script> tag containing an empty 'type' attribute or a 'type' attribute with an ASCII whitespace, the execution of the template would incorrectly escape any data passed into the <script> block.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-116
+    VendorSeverity:
+      amazon: 3
+      bitnami: 2
+      oracle-oval: 3
+      redhat: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
+        V3Score: 6.1
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N
+        V3Score: 5.4
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-39826
+    - https://go.dev/cl/771180
+    - https://go.dev/issue/78981
+    - https://groups.google.com/g/golang-announce/c/qcCIEXso47M
+    - https://linux.oracle.com/cve/CVE-2026-39826.html
+    - https://linux.oracle.com/errata/ELSA-2026-22112.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-39826
+    - https://pkg.go.dev/vuln/GO-2026-4980
+    - https://www.cve.org/CVERecord?id=CVE-2026-39826
+    PublishedDate: '2026-05-07T20:16:43.49Z'
+    LastModifiedDate: '2026-05-13T16:59:07.48Z'
   - VulnerabilityID: CVE-2026-42507
     VendorIDs:
     - GO-2026-5039
@@ -10091,6 +10777,7 @@
     References:
     - https://github.com/moby/moby
     - https://github.com/moby/moby/security/advisories/GHSA-x86f-5xw2-fm2r
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-41567
     PublishedDate: '2026-06-05T02:17:13.817Z'
     LastModifiedDate: '2026-06-05T16:01:30.983Z'
   - VulnerabilityID: CVE-2026-42306
@@ -10114,42 +10801,10 @@
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
     Fingerprint: sha256:113c912396dc107c2c178761d73883b5769be5fc1f266781b74bb3b664fc89ba
     Title: 'Docker: Race condition in docker cp allows bind mount redirection to host path'
-    Description: |-
-      ## Summary
-
-      A race condition during `docker cp` mount setup allows a malicious container to redirect a bind mount target to an arbitrary host path, potentially overwriting host files or causing denial of service.
-
-      ## Details
-
-      When copying files into a container, the daemon sets up a temporary filesystem view by bind-mounting volumes into a private mount namespace. During this setup, the mount destination is created inside the container root and then a bind mount is attached using the container-relative path resolved to an absolute host path.
-
-      Between mountpoint creation and the `mount()` syscall, a process running inside the container can replace the destination (or a parent path component) with a symlink pointing to an arbitrary location on the host. The `mount()` syscall follows the symlink, causing the volume to be bind-mounted onto an arbitrary host path instead of the intended container path.
-
-      ## Impact
-
-      A malicious container can redirect a volume bind mount to an arbitrary host path. The impact depends on the volume content and mount options:
-
-      - If the volume is writable, arbitrary host files at the redirected path could be overwritten with the volume's contents.
-      - If the volume is read-only, the host path is masked by the mount for the duration of the operation, causing denial of service.
-      - In all cases the mount is temporary (torn down after the `docker cp` completes), but the effects of any writes persist.
-
-      ### Conditions for exploitation
-
-      - A container must have at least one volume mount.
-      - A process inside the container must be able to rapidly create and swap symlinks at the volume mount destination path.
-      - An operator must initiate a `docker cp` into that container, or call the `PUT /containers/{id}/archive` or `HEAD /containers/{id}/archive` API endpoints.
-
-      ### Not affected
-
-      - Containers that do not have volume mounts are not affected, as the race occurs during volume bind-mount setup.
-
-      ## Workarounds
-
-      - Only run containers from trusted images.
-      - Avoid using `docker cp` with untrusted running containers.
-      - Use authorization plugins to restrict access to the archive API endpoints (`PUT /containers/{id}/archive`, `HEAD /containers/{id}/archive`).
+    Description: "Package updates are available for Amazon Linux 2023 that fix the following vulnerabilities:\nCVE-2026-46595:\n\tPreviously, CVE-2024-45337 fixed an authorization bypass for misused ssh server configurations; if any other type of callback is passed other than public key, then the source-address validation would be skipped.\n\nCVE-2026-42508:\n\tPreviously, a revoked 'SignatureKey' belonging to a CA was not correctly checked for revocation. Now, both the 'key' and 'key.SignatureKey' are checked for @revoked.\n\nCVE-2026-42306:\n\tDocker: Race condition in docker cp allows bind mount redirection to host path\n\nCVE-2026-39833:\n\tThe in-memory keyring returned by NewKeyring() silently accepted keys with the ConfirmBeforeUse constraint but never enforced it. The key would sign without any confirmation prompt, with no indication to the caller that the constraint was not in effect. NewKeyring() now returns an error when unsupported constraints are requested.\n\nCVE-2026-39831:\n\tThe Verify() method for FIDO/U2F security key types (sk-ecdsa-sha2-nistp256@openssh.com, sk-ssh-ed25519@openssh.com) did not check the User Presence flag. Signatures generated without physical touch were accepted, allowing unattended use of a hardware security key. To restore the previous behavior, return a \"no-touch-required\" extension in Permissions.Extensions from PublicKeyCallback.\n\nCVE-2026-39830:\n\tA malicious SSH peer could send unsolicited global request responses to fill an internal buffer, blocking the connection's read loop. The blocked goroutine could not be released by calling Close(), resulting in a resource leak per connection. Unsolicited global responses are now discarded.\n\nCVE-2026-39829:\n\tThe RSA and DSA public key parsers did not enforce size limits on key parameters. A crafted public key with an excessively large modulus or DSA parameter could cause several minutes of CPU consumption during signature verification. This could be triggered by unauthenticated clients during public key authentication. RSA moduli are now limited to 8192 bits, and DSA parameters are validated per FIPS 186-2.\n"
     Severity: HIGH
     VendorSeverity:
+      amazon: 3
       ghsa: 3
     CVSS:
       ghsa:
@@ -10556,6 +11211,7 @@
     References:
     - https://github.com/moby/moby
     - https://github.com/moby/moby/security/advisories/GHSA-x86f-5xw2-fm2r
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-41567
     PublishedDate: '2026-06-05T02:17:13.817Z'
     LastModifiedDate: '2026-06-05T16:01:30.983Z'
   - VulnerabilityID: CVE-2026-42306
@@ -10579,42 +11235,10 @@
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
     Fingerprint: sha256:fd7c864080e8b75df1256c32ca82c0d7c728a106f082ea6bf87d3fe4eb4876b9
     Title: 'Docker: Race condition in docker cp allows bind mount redirection to host path'
-    Description: |-
-      ## Summary
-
-      A race condition during `docker cp` mount setup allows a malicious container to redirect a bind mount target to an arbitrary host path, potentially overwriting host files or causing denial of service.
-
-      ## Details
-
-      When copying files into a container, the daemon sets up a temporary filesystem view by bind-mounting volumes into a private mount namespace. During this setup, the mount destination is created inside the container root and then a bind mount is attached using the container-relative path resolved to an absolute host path.
-
-      Between mountpoint creation and the `mount()` syscall, a process running inside the container can replace the destination (or a parent path component) with a symlink pointing to an arbitrary location on the host. The `mount()` syscall follows the symlink, causing the volume to be bind-mounted onto an arbitrary host path instead of the intended container path.
-
-      ## Impact
-
-      A malicious container can redirect a volume bind mount to an arbitrary host path. The impact depends on the volume content and mount options:
-
-      - If the volume is writable, arbitrary host files at the redirected path could be overwritten with the volume's contents.
-      - If the volume is read-only, the host path is masked by the mount for the duration of the operation, causing denial of service.
-      - In all cases the mount is temporary (torn down after the `docker cp` completes), but the effects of any writes persist.
-
-      ### Conditions for exploitation
-
-      - A container must have at least one volume mount.
-      - A process inside the container must be able to rapidly create and swap symlinks at the volume mount destination path.
-      - An operator must initiate a `docker cp` into that container, or call the `PUT /containers/{id}/archive` or `HEAD /containers/{id}/archive` API endpoints.
-
-      ### Not affected
-
-      - Containers that do not have volume mounts are not affected, as the race occurs during volume bind-mount setup.
-
-      ## Workarounds
-
-      - Only run containers from trusted images.
-      - Avoid using `docker cp` with untrusted running containers.
-      - Use authorization plugins to restrict access to the archive API endpoints (`PUT /containers/{id}/archive`, `HEAD /containers/{id}/archive`).
+    Description: "Package updates are available for Amazon Linux 2023 that fix the following vulnerabilities:\nCVE-2026-46595:\n\tPreviously, CVE-2024-45337 fixed an authorization bypass for misused ssh server configurations; if any other type of callback is passed other than public key, then the source-address validation would be skipped.\n\nCVE-2026-42508:\n\tPreviously, a revoked 'SignatureKey' belonging to a CA was not correctly checked for revocation. Now, both the 'key' and 'key.SignatureKey' are checked for @revoked.\n\nCVE-2026-42306:\n\tDocker: Race condition in docker cp allows bind mount redirection to host path\n\nCVE-2026-39833:\n\tThe in-memory keyring returned by NewKeyring() silently accepted keys with the ConfirmBeforeUse constraint but never enforced it. The key would sign without any confirmation prompt, with no indication to the caller that the constraint was not in effect. NewKeyring() now returns an error when unsupported constraints are requested.\n\nCVE-2026-39831:\n\tThe Verify() method for FIDO/U2F security key types (sk-ecdsa-sha2-nistp256@openssh.com, sk-ssh-ed25519@openssh.com) did not check the User Presence flag. Signatures generated without physical touch were accepted, allowing unattended use of a hardware security key. To restore the previous behavior, return a \"no-touch-required\" extension in Permissions.Extensions from PublicKeyCallback.\n\nCVE-2026-39830:\n\tA malicious SSH peer could send unsolicited global request responses to fill an internal buffer, blocking the connection's read loop. The blocked goroutine could not be released by calling Close(), resulting in a resource leak per connection. Unsolicited global responses are now discarded.\n\nCVE-2026-39829:\n\tThe RSA and DSA public key parsers did not enforce size limits on key parameters. A crafted public key with an excessively large modulus or DSA parameter could cause several minutes of CPU consumption during signature verification. This could be triggered by unauthenticated clients during public key authentication. RSA moduli are now limited to 8192 bits, and DSA parameters are validated per FIPS 186-2.\n"
     Severity: HIGH
     VendorSeverity:
+      amazon: 3
       ghsa: 3
     CVSS:
       ghsa:
@@ -11371,6 +11995,7 @@
     References:
     - https://github.com/moby/moby
     - https://github.com/moby/moby/security/advisories/GHSA-x86f-5xw2-fm2r
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-41567
     PublishedDate: '2026-06-05T02:17:13.817Z'
     LastModifiedDate: '2026-06-05T16:01:30.983Z'
   - VulnerabilityID: CVE-2026-42306
@@ -11394,42 +12019,10 @@
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
     Fingerprint: sha256:1374e2ce9d2ec9eb64d54c164c69543ec9545ee7c0b16fb4d842c7a793f3541d
     Title: 'Docker: Race condition in docker cp allows bind mount redirection to host path'
-    Description: |-
-      ## Summary
-
-      A race condition during `docker cp` mount setup allows a malicious container to redirect a bind mount target to an arbitrary host path, potentially overwriting host files or causing denial of service.
-
-      ## Details
-
-      When copying files into a container, the daemon sets up a temporary filesystem view by bind-mounting volumes into a private mount namespace. During this setup, the mount destination is created inside the container root and then a bind mount is attached using the container-relative path resolved to an absolute host path.
-
-      Between mountpoint creation and the `mount()` syscall, a process running inside the container can replace the destination (or a parent path component) with a symlink pointing to an arbitrary location on the host. The `mount()` syscall follows the symlink, causing the volume to be bind-mounted onto an arbitrary host path instead of the intended container path.
-
-      ## Impact
-
-      A malicious container can redirect a volume bind mount to an arbitrary host path. The impact depends on the volume content and mount options:
-
-      - If the volume is writable, arbitrary host files at the redirected path could be overwritten with the volume's contents.
-      - If the volume is read-only, the host path is masked by the mount for the duration of the operation, causing denial of service.
-      - In all cases the mount is temporary (torn down after the `docker cp` completes), but the effects of any writes persist.
-
-      ### Conditions for exploitation
-
-      - A container must have at least one volume mount.
-      - A process inside the container must be able to rapidly create and swap symlinks at the volume mount destination path.
-      - An operator must initiate a `docker cp` into that container, or call the `PUT /containers/{id}/archive` or `HEAD /containers/{id}/archive` API endpoints.
-
-      ### Not affected
-
-      - Containers that do not have volume mounts are not affected, as the race occurs during volume bind-mount setup.
-
-      ## Workarounds
-
-      - Only run containers from trusted images.
-      - Avoid using `docker cp` with untrusted running containers.
-      - Use authorization plugins to restrict access to the archive API endpoints (`PUT /containers/{id}/archive`, `HEAD /containers/{id}/archive`).
+    Description: "Package updates are available for Amazon Linux 2023 that fix the following vulnerabilities:\nCVE-2026-46595:\n\tPreviously, CVE-2024-45337 fixed an authorization bypass for misused ssh server configurations; if any other type of callback is passed other than public key, then the source-address validation would be skipped.\n\nCVE-2026-42508:\n\tPreviously, a revoked 'SignatureKey' belonging to a CA was not correctly checked for revocation. Now, both the 'key' and 'key.SignatureKey' are checked for @revoked.\n\nCVE-2026-42306:\n\tDocker: Race condition in docker cp allows bind mount redirection to host path\n\nCVE-2026-39833:\n\tThe in-memory keyring returned by NewKeyring() silently accepted keys with the ConfirmBeforeUse constraint but never enforced it. The key would sign without any confirmation prompt, with no indication to the caller that the constraint was not in effect. NewKeyring() now returns an error when unsupported constraints are requested.\n\nCVE-2026-39831:\n\tThe Verify() method for FIDO/U2F security key types (sk-ecdsa-sha2-nistp256@openssh.com, sk-ssh-ed25519@openssh.com) did not check the User Presence flag. Signatures generated without physical touch were accepted, allowing unattended use of a hardware security key. To restore the previous behavior, return a \"no-touch-required\" extension in Permissions.Extensions from PublicKeyCallback.\n\nCVE-2026-39830:\n\tA malicious SSH peer could send unsolicited global request responses to fill an internal buffer, blocking the connection's read loop. The blocked goroutine could not be released by calling Close(), resulting in a resource leak per connection. Unsolicited global responses are now discarded.\n\nCVE-2026-39829:\n\tThe RSA and DSA public key parsers did not enforce size limits on key parameters. A crafted public key with an excessively large modulus or DSA parameter could cause several minutes of CPU consumption during signature verification. This could be triggered by unauthenticated clients during public key authentication. RSA moduli are now limited to 8192 bits, and DSA parameters are validated per FIPS 186-2.\n"
     Severity: HIGH
     VendorSeverity:
+      amazon: 3
       ghsa: 3
     CVSS:
       ghsa:
