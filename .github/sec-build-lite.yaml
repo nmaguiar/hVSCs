@@ -215,12 +215,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2025:8414
+    - https://access.redhat.com/errata/RHSA-2025:7409
     - https://access.redhat.com/security/cve/CVE-2024-52005
     - https://bugzilla.redhat.com/2338289
     - https://bugzilla.redhat.com/show_bug.cgi?id=2338289
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-52005
-    - https://errata.almalinux.org/8/ALSA-2025-8414.html
+    - https://errata.almalinux.org/9/ALSA-2025-7409.html
     - https://errata.rockylinux.org/RLSA-2025:7409
     - https://github.com/git/git/security/advisories/GHSA-7jjc-gg6m-3329
     - https://linux.oracle.com/cve/CVE-2024-52005.html
@@ -275,12 +275,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2025:8414
+    - https://access.redhat.com/errata/RHSA-2025:7409
     - https://access.redhat.com/security/cve/CVE-2024-52005
     - https://bugzilla.redhat.com/2338289
     - https://bugzilla.redhat.com/show_bug.cgi?id=2338289
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-52005
-    - https://errata.almalinux.org/8/ALSA-2025-8414.html
+    - https://errata.almalinux.org/9/ALSA-2025-7409.html
     - https://errata.rockylinux.org/RLSA-2025:7409
     - https://github.com/git/git/security/advisories/GHSA-7jjc-gg6m-3329
     - https://linux.oracle.com/cve/CVE-2024-52005.html
@@ -2001,7 +2001,8 @@
       PURL: pkg:deb/ubuntu/libxml2-16@2.15.2%2Bdfsg-0.1?arch=amd64&distro=ubuntu-26.04
       UID: 9bfe0fc72832625d
     InstalledVersion: 2.15.2+dfsg-0.1
-    Status: affected
+    FixedVersion: 2.15.2+dfsg-0.1ubuntu0.1
+    Status: fixed
     Layer:
       Digest: sha256:34821d758ce2d40cf273a0c5e440bbeeecf96700453b4a31e1b8c3883a204cc2
       DiffID: sha256:38c36f25542c817683d2173d41d79ac13e4c14aad2f52d13d77d0a35c552aa2a
@@ -2019,6 +2020,7 @@
     - CWE-843
     VendorSeverity:
       nvd: 3
+      photon: 3
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -2035,6 +2037,7 @@
     - https://gitlab.gnome.org/GNOME/libxml2/-/issues/1097
     - https://gitlab.gnome.org/GNOME/libxml2/-/merge_requests/411
     - https://nvd.nist.gov/vuln/detail/CVE-2026-6732
+    - https://ubuntu.com/security/notices/USN-8460-1
     - https://www.cve.org/CVERecord?id=CVE-2026-6732
     PublishedDate: '2026-04-23T23:16:16.443Z'
     LastModifiedDate: '2026-06-17T11:01:13.44Z'
@@ -3623,6 +3626,291 @@
   Class: lang-pkgs
   Type: jar
   Packages: []
+  Vulnerabilities:
+  - VulnerabilityID: CVE-2026-54512
+    VendorIDs:
+    - GHSA-j3rv-43j4-c7qm
+    PkgName: com.fasterxml.jackson.core:jackson-databind
+    PkgPath: opt/oaf/openaf.jar
+    PkgIdentifier:
+      PURL: pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.21.1
+      UID: 6e5532671546626e
+    InstalledVersion: 2.21.1
+    FixedVersion: 2.18.8, 3.1.4, 2.21.4
+    Status: fixed
+    Layer:
+      Digest: sha256:34821d758ce2d40cf273a0c5e440bbeeecf96700453b4a31e1b8c3883a204cc2
+      DiffID: sha256:38c36f25542c817683d2173d41d79ac13e4c14aad2f52d13d77d0a35c552aa2a
+    SeveritySource: ghsa
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-54512
+    DataSource:
+      ID: ghsa
+      Name: GitHub Security Advisory Maven
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven
+    Fingerprint: sha256:02b2ac56ce14c3e3516737c4bfe41e114bf573e3a11359f2832b018317b6974e
+    Title: jackson-databind has a PolymorphicTypeValidator bypass via generic type parameters that allows arbitrary class instantiation
+    Description: jackson-databind contains the general-purpose data-binding functionality and tree-model for Jackson Data Processor. From 2.10.0 until 2.18.8, 2.21.4, and 3.1.4, jackson-databind's PolymorphicTypeValidator (PTV) is the primary safety mechanism guarding polymorphic deserialization. When polymorphic typing is enabled and a type identifier contains generic parameters (i.e. the type ID string contains <), DatabindContext._resolveAndValidateGeneric() validates only the raw container class name (the substring before <) against the configured PTV. If the container type is approved, the method parses the full canonical type string via TypeFactory.constructFromCanonical() and returns the fully parameterized type without ever validating the nested type arguments against the PTV. The nested type arguments are then resolved, instantiated, and populated as beans during deserialization. An attacker who controls the type ID can therefore place a denied class as a generic type parameter of an allowed container — for example java.util.ArrayList<com.evil.Gadget> when only java.util.ArrayList is allow-listed. The container passes the PTV check; com.evil.Gadget is loaded via Class.forName(name, true, loader), instantiated, and its properties are set from attacker-controlled JSON. This completely bypasses an explicitly configured PTV allow-list. This vulnerability is fixed in 2.18.8, 2.21.4, and 3.1.4.
+    Severity: HIGH
+    CweIDs:
+    - CWE-184
+    - CWE-502
+    VendorSeverity:
+      ghsa: 3
+    CVSS:
+      ghsa:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 8.1
+    References:
+    - https://github.com/FasterXML/jackson-databind
+    - https://github.com/FasterXML/jackson-databind/commit/434d6c511de7fdd9872f29157aafb6162d12d8d5
+    - https://github.com/FasterXML/jackson-databind/issues/5988
+    - https://github.com/FasterXML/jackson-databind/security/advisories/GHSA-j3rv-43j4-c7qm
+    PublishedDate: '2026-06-23T21:17:02.203Z'
+    LastModifiedDate: '2026-06-23T21:17:02.203Z'
+  - VulnerabilityID: CVE-2026-54513
+    VendorIDs:
+    - GHSA-rmj7-2vxq-3g9f
+    PkgName: com.fasterxml.jackson.core:jackson-databind
+    PkgPath: opt/oaf/openaf.jar
+    PkgIdentifier:
+      PURL: pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.21.1
+      UID: 6e5532671546626e
+    InstalledVersion: 2.21.1
+    FixedVersion: 2.18.8, 2.21.4, 3.1.4
+    Status: fixed
+    Layer:
+      Digest: sha256:34821d758ce2d40cf273a0c5e440bbeeecf96700453b4a31e1b8c3883a204cc2
+      DiffID: sha256:38c36f25542c817683d2173d41d79ac13e4c14aad2f52d13d77d0a35c552aa2a
+    SeveritySource: ghsa
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-54513
+    DataSource:
+      ID: ghsa
+      Name: GitHub Security Advisory Maven
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven
+    Fingerprint: sha256:9f724d0066d3336c284b7459e286fc5554ca393794c9597c92fe06defd14a838
+    Title: jackson-databind has an array subtype allowlist bypass in BasicPolymorphicTypeValidator (allowIfSubTypeIsArray)
+    Description: jackson-databind contains the general-purpose data-binding functionality and tree-model for Jackson Data Processor. From 2.10.0 until 2.18.8, 2.21.4, and 3.1.4, BasicPolymorphicTypeValidator.Builder.allowIfSubTypeIsArray() allowlists any array type based only on clazz.isArray(), without validating the array's component (element) type against the configured allowlist. A PTV built with allowIfSubTypeIsArray() plus an explicit concrete-type allowlist therefore still permits EvilType[] even though EvilType is not allowlisted. When Jackson deserializes the elements and no per-element type IDs are present, it instantiates the component type directly with no further PTV check, bypassing the allowlist. This vulnerability is fixed in 2.18.8, 2.21.4, and 3.1.4.
+    Severity: HIGH
+    CweIDs:
+    - CWE-184
+    VendorSeverity:
+      ghsa: 3
+    CVSS:
+      ghsa:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 8.1
+    References:
+    - https://github.com/FasterXML/jackson-databind
+    - https://github.com/FasterXML/jackson-databind/commit/01d1692c8d0ed03e51a0e3c4f8a9e6908e4931e5
+    - https://github.com/FasterXML/jackson-databind/commit/24529da29fdf46ff94ca38de9ebf31cd188f5e8e
+    - https://github.com/FasterXML/jackson-databind/issues/5981
+    - https://github.com/FasterXML/jackson-databind/issues/5983
+    - https://github.com/FasterXML/jackson-databind/pull/5984
+    - https://github.com/FasterXML/jackson-databind/security/advisories/GHSA-rmj7-2vxq-3g9f
+    PublishedDate: '2026-06-23T21:17:02.333Z'
+    LastModifiedDate: '2026-06-23T21:17:02.333Z'
+  - VulnerabilityID: CVE-2026-54514
+    VendorIDs:
+    - GHSA-hgj6-7826-r7m5
+    PkgName: com.fasterxml.jackson.core:jackson-databind
+    PkgPath: opt/oaf/openaf.jar
+    PkgIdentifier:
+      PURL: pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.21.1
+      UID: 6e5532671546626e
+    InstalledVersion: 2.21.1
+    FixedVersion: 2.18.8, 2.21.4, 3.1.4
+    Status: fixed
+    Layer:
+      Digest: sha256:34821d758ce2d40cf273a0c5e440bbeeecf96700453b4a31e1b8c3883a204cc2
+      DiffID: sha256:38c36f25542c817683d2173d41d79ac13e4c14aad2f52d13d77d0a35c552aa2a
+    SeveritySource: ghsa
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-54514
+    DataSource:
+      ID: ghsa
+      Name: GitHub Security Advisory Maven
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven
+    Fingerprint: sha256:7a9d649345c327ac085b4266cc91aece4ec955d53b69987dcefeed3c22d729a6
+    Title: 'jackson-databind: InetSocketAddress deserialization triggers eager DNS resolution (SSRF)'
+    Description: jackson-databind contains the general-purpose data-binding functionality and tree-model for Jackson Data Processor. From 2.0.0 until 2.18.8, 2.21.4, and 3.1.4, JDKFromStringDeserializer constructed InetSocketAddress with new InetSocketAddress(host, port), which performs eager DNS name resolution for hostname inputs at deserialization time. An application that binds untrusted JSON into a type containing an InetSocketAddress field issues an attacker-chosen DNS query during readValue, before any application-level validation or connect logic. The fix uses InetSocketAddress.createUnresolved(host, port), deferring DNS to an explicit connect. This vulnerability is fixed in 2.18.8, 2.21.4, and 3.1.4.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-918
+    VendorSeverity:
+      ghsa: 2
+    CVSS:
+      ghsa:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
+        V3Score: 5.3
+    References:
+    - https://github.com/FasterXML/jackson-databind
+    - https://github.com/FasterXML/jackson-databind/commit/1f5a1037b1e9e05920e755cb35f198bcd46667e4
+    - https://github.com/FasterXML/jackson-databind/pull/5951
+    - https://github.com/FasterXML/jackson-databind/security/advisories/GHSA-hgj6-7826-r7m5
+    PublishedDate: '2026-06-23T21:17:02.467Z'
+    LastModifiedDate: '2026-06-23T21:17:02.467Z'
+  - VulnerabilityID: CVE-2026-54515
+    VendorIDs:
+    - GHSA-5jmj-h7xm-6q6v
+    PkgName: com.fasterxml.jackson.core:jackson-databind
+    PkgPath: opt/oaf/openaf.jar
+    PkgIdentifier:
+      PURL: pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.21.1
+      UID: 6e5532671546626e
+    InstalledVersion: 2.21.1
+    FixedVersion: 3.1.4, 2.18.9, 2.21.5
+    Status: fixed
+    Layer:
+      Digest: sha256:34821d758ce2d40cf273a0c5e440bbeeecf96700453b4a31e1b8c3883a204cc2
+      DiffID: sha256:38c36f25542c817683d2173d41d79ac13e4c14aad2f52d13d77d0a35c552aa2a
+    SeveritySource: ghsa
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-54515
+    DataSource:
+      ID: ghsa
+      Name: GitHub Security Advisory Maven
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven
+    Fingerprint: sha256:79d7e0bb65a75b0c2250ac9e9cd5bafdc5645231ee4edb1b5d7813d223925149
+    Title: jackson-databind has case-insensitive deserialization bypasses per-property @JsonIgnoreProperties
+    Description: jackson-databind contains the general-purpose data-binding functionality and tree-model for Jackson Data Processor. From 2.8.0 until 2.18.9, 2.21.5, and 3.1.4, in BeanDeserializerBase.createContextual(), per-property @JsonIgnoreProperties exclusions are applied by _handleByNameInclusion(), producing a contextual deserializer whose BeanPropertyMap has the ignored properties removed. The subsequent per-property case-insensitivity block (triggered by @JsonFormat(ACCEPT_CASE_INSENSITIVE_PROPERTIES)) rebuilds from this._beanProperties (the original, unfiltered map) instead of contextual._beanProperties, then overwrites the filtered map — restoring every property _handleByNameInclusion had just removed. The ignored property becomes writable again. This vulnerability is fixed in 2.18.9, 2.21.5, and 3.1.4.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-915
+    VendorSeverity:
+      ghsa: 2
+    CVSS:
+      ghsa:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
+        V3Score: 5.3
+    References:
+    - https://github.com/FasterXML/jackson-databind
+    - https://github.com/FasterXML/jackson-databind/commit/0e1b0b211f7a53baa62ba2f4c9bd006c7bf4d5fa
+    - https://github.com/FasterXML/jackson-databind/issues/5962
+    - https://github.com/FasterXML/jackson-databind/issues/5964
+    - https://github.com/FasterXML/jackson-databind/security/advisories/GHSA-5jmj-h7xm-6q6v
+    PublishedDate: '2026-06-23T21:17:02.597Z'
+    LastModifiedDate: '2026-06-23T21:17:02.597Z'
+  - VulnerabilityID: CVE-2026-54516
+    VendorIDs:
+    - GHSA-9fxm-vc8v-hj55
+    PkgName: com.fasterxml.jackson.core:jackson-databind
+    PkgPath: opt/oaf/openaf.jar
+    PkgIdentifier:
+      PURL: pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.21.1
+      UID: 6e5532671546626e
+    InstalledVersion: 2.21.1
+    FixedVersion: 2.21.4, 3.1.4
+    Status: fixed
+    Layer:
+      Digest: sha256:34821d758ce2d40cf273a0c5e440bbeeecf96700453b4a31e1b8c3883a204cc2
+      DiffID: sha256:38c36f25542c817683d2173d41d79ac13e4c14aad2f52d13d77d0a35c552aa2a
+    SeveritySource: ghsa
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-54516
+    DataSource:
+      ID: ghsa
+      Name: GitHub Security Advisory Maven
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven
+    Fingerprint: sha256:8c7b57dffc53529860a002b23830cb6749051e10fb8f9dac71129ad9e3397f82
+    Title: jackson-databind's renamed @JsonIgnore'd setters can deserialize via private fields
+    Description: jackson-databind contains the general-purpose data-binding functionality and tree-model for Jackson Data Processor. From 2.21.0 until 2.21.4 and 3.1.4, POJOPropertiesCollector._renameProperties() allows a property with @JsonProperty("renamed") on the getter and @JsonIgnore on the setter to be renamed rather than dropped. With MapperFeature.INFER_PROPERTY_MUTATORS enabled (default), the private backing field is retained; during deserialization BeanDeserializerFactory.addBeanProps() sees hasField()==true, builds a FieldProperty, and makes the backing field writable. An attacker supplying the renamed JSON key writes the backing field directly, bypassing the @JsonIgnore on the setter. This vulnerability is fixed in 3.1.4.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-915
+    VendorSeverity:
+      ghsa: 2
+    CVSS:
+      ghsa:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
+        V3Score: 5.3
+    References:
+    - https://github.com/FasterXML/jackson-databind
+    - https://github.com/FasterXML/jackson-databind/commit/c3d56dd25d52319828147c5b9aeabf2d485c250a
+    - https://github.com/FasterXML/jackson-databind/commit/e88cb17006b6af4883b973058f0bb6486e5074af
+    - https://github.com/FasterXML/jackson-databind/pull/5967
+    - https://github.com/FasterXML/jackson-databind/pull/5968
+    - https://github.com/FasterXML/jackson-databind/security/advisories/GHSA-9fxm-vc8v-hj55
+    PublishedDate: '2026-06-23T21:17:02.723Z'
+    LastModifiedDate: '2026-06-23T21:17:02.723Z'
+  - VulnerabilityID: CVE-2026-54517
+    VendorIDs:
+    - GHSA-5hh8-q8hv-fr38
+    PkgName: com.fasterxml.jackson.core:jackson-databind
+    PkgPath: opt/oaf/openaf.jar
+    PkgIdentifier:
+      PURL: pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.21.1
+      UID: 6e5532671546626e
+    InstalledVersion: 2.21.1
+    FixedVersion: 2.21.4, 3.1.4
+    Status: fixed
+    Layer:
+      Digest: sha256:34821d758ce2d40cf273a0c5e440bbeeecf96700453b4a31e1b8c3883a204cc2
+      DiffID: sha256:38c36f25542c817683d2173d41d79ac13e4c14aad2f52d13d77d0a35c552aa2a
+    SeveritySource: ghsa
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-54517
+    DataSource:
+      ID: ghsa
+      Name: GitHub Security Advisory Maven
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven
+    Fingerprint: sha256:61041d3d0af07e1b1add5039920f5aa230172746c527cd676f9a64fee35d0e8f
+    Title: jackson-databind has @JsonView bypass for setterless creator properties
+    Description: jackson-databind contains the general-purpose data-binding functionality and tree-model for Jackson Data Processor. From 2.21.0 until 2.21.4 and 3.1.4, in BeanDeserializer._deserializeUsingPropertyBased, the active-view (@JsonView) filter was applied only to creator properties; the regular property-buffering branch performed no prop.visibleInView(activeView) check. A change making SetterlessProperty.isMerging() return true routed setterless Collection/Map properties through this unguarded path, so a setterless collection annotated with a restricted @JsonView is populated from attacker JSON even when the active view excludes it. This vulnerability is fixed in 2.21.4 and 3.1.4.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-863
+    VendorSeverity:
+      ghsa: 2
+    CVSS:
+      ghsa:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
+        V3Score: 5.3
+    References:
+    - https://github.com/FasterXML/jackson-databind
+    - https://github.com/FasterXML/jackson-databind/commit/5bf23edb4221f7dd2ec8e71ff6d26c61640f261d
+    - https://github.com/FasterXML/jackson-databind/commit/94c5d215b3af1505098c686405d9641f041a9962
+    - https://github.com/FasterXML/jackson-databind/pull/5969
+    - https://github.com/FasterXML/jackson-databind/pull/5970
+    - https://github.com/FasterXML/jackson-databind/security/advisories/GHSA-5hh8-q8hv-fr38
+    PublishedDate: '2026-06-23T21:17:02.853Z'
+    LastModifiedDate: '2026-06-23T21:17:02.853Z'
+  - VulnerabilityID: CVE-2026-54518
+    VendorIDs:
+    - GHSA-rcqc-6cw3-h962
+    PkgName: com.fasterxml.jackson.core:jackson-databind
+    PkgPath: opt/oaf/openaf.jar
+    PkgIdentifier:
+      PURL: pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.21.1
+      UID: 6e5532671546626e
+    InstalledVersion: 2.21.1
+    FixedVersion: 2.21.4
+    Status: fixed
+    Layer:
+      Digest: sha256:34821d758ce2d40cf273a0c5e440bbeeecf96700453b4a31e1b8c3883a204cc2
+      DiffID: sha256:38c36f25542c817683d2173d41d79ac13e4c14aad2f52d13d77d0a35c552aa2a
+    SeveritySource: ghsa
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-54518
+    DataSource:
+      ID: ghsa
+      Name: GitHub Security Advisory Maven
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven
+    Fingerprint: sha256:1b72539e9c21dc9c83be11a5817d865861e25c32ab4b4ccef41bad22ef3a4177
+    Title: jackson-databind has a @JsonView bypass for unwrapped creator parameters
+    Description: jackson-databind contains the general-purpose data-binding functionality and tree-model for Jackson Data Processor. From 2.21.0 until 2.21.4 and 3.1.4, UnwrappedPropertyHandler.processUnwrappedCreatorProperties() replays buffered JSON into creator parameters but never consults prop.visibleInView(activeView). The normal property-based creator path gates creator properties on the active view, but this unwrapped-creator replay path bypasses that check, so a constructor parameter annotated with both @JsonView(AdminView.class) and @JsonUnwrapped is populated from attacker JSON even when a more restrictive view is active. This vulnerability is fixed in 2.21.4 and 3.1.4.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-863
+    VendorSeverity:
+      ghsa: 2
+    CVSS:
+      ghsa:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N
+        V3Score: 6.5
+    References:
+    - https://github.com/FasterXML/jackson-databind
+    - https://github.com/FasterXML/jackson-databind/commit/721fa07ebbd4aab4a659a1a68940878315c3e341
+    - https://github.com/FasterXML/jackson-databind/commit/d633bc038f200c1397c07f1a2b46f58e72c91eea
+    - https://github.com/FasterXML/jackson-databind/pull/5971
+    - https://github.com/FasterXML/jackson-databind/pull/5973
+    - https://github.com/FasterXML/jackson-databind/security/advisories/GHSA-rcqc-6cw3-h962
+    PublishedDate: '2026-06-23T22:16:32.073Z'
+    LastModifiedDate: '2026-06-23T22:16:32.073Z'
 - Target: home/user/.krew/store/krew/v0.5.0/krew
   Class: lang-pkgs
   Type: gobinary
@@ -4091,12 +4379,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2026:8456
+    - https://access.redhat.com/errata/RHSA-2026:9044
     - https://access.redhat.com/security/cve/CVE-2026-25679
     - https://bugzilla.redhat.com/2445356
     - https://bugzilla.redhat.com/show_bug.cgi?id=2445356
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-25679
-    - https://errata.almalinux.org/8/ALSA-2026-8456.html
+    - https://errata.almalinux.org/9/ALSA-2026-9044.html
     - https://errata.rockylinux.org/RLSA-2026:9044
     - https://go.dev/cl/752180
     - https://go.dev/issue/77578
@@ -4188,10 +4476,9 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2026:16875
+    - https://access.redhat.com/errata/RHSA-2026:28074
     - https://access.redhat.com/security/cve/CVE-2026-32280
-    - https://bugzilla.redhat.com/2445356
-    - https://bugzilla.redhat.com/2456336
+    - https://bugzilla.redhat.com/2456333
     - https://bugzilla.redhat.com/2456338
     - https://bugzilla.redhat.com/2456339
     - https://bugzilla.redhat.com/show_bug.cgi?id=2456333
@@ -4200,7 +4487,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-32280
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-32281
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-32283
-    - https://errata.almalinux.org/8/ALSA-2026-16875.html
+    - https://errata.almalinux.org/9/ALSA-2026-28074.html
     - https://errata.rockylinux.org/RLSA-2026:26447
     - https://go.dev/cl/758320
     - https://go.dev/issue/78282
@@ -4257,7 +4544,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
     References:
-    - https://access.redhat.com/errata/RHSA-2026:24470
+    - https://access.redhat.com/errata/RHSA-2026:28074
     - https://access.redhat.com/security/cve/CVE-2026-32281
     - https://bugzilla.redhat.com/2456333
     - https://bugzilla.redhat.com/2456338
@@ -4268,7 +4555,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-32280
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-32281
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-32283
-    - https://errata.almalinux.org/10/ALSA-2026-24470.html
+    - https://errata.almalinux.org/9/ALSA-2026-28074.html
     - https://errata.rockylinux.org/RLSA-2026:26447
     - https://go.dev/cl/758061
     - https://go.dev/issue/78281
@@ -4324,10 +4611,9 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2026:16875
+    - https://access.redhat.com/errata/RHSA-2026:28074
     - https://access.redhat.com/security/cve/CVE-2026-32283
-    - https://bugzilla.redhat.com/2445356
-    - https://bugzilla.redhat.com/2456336
+    - https://bugzilla.redhat.com/2456333
     - https://bugzilla.redhat.com/2456338
     - https://bugzilla.redhat.com/2456339
     - https://bugzilla.redhat.com/show_bug.cgi?id=2456333
@@ -4336,7 +4622,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-32280
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-32281
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-32283
-    - https://errata.almalinux.org/8/ALSA-2026-16875.html
+    - https://errata.almalinux.org/9/ALSA-2026-28074.html
     - https://errata.rockylinux.org/RLSA-2026:26447
     - https://go.dev/cl/763767
     - https://go.dev/issue/78334
@@ -4818,9 +5104,13 @@
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H
         V3Score: 7.8
     References:
-    - https://access.redhat.com/errata/RHSA-2026:16875
+    - https://access.redhat.com/errata/RHSA-2026:19353
     - https://access.redhat.com/security/cve/CVE-2026-32282
     - https://bugzilla.redhat.com/2445356
+    - https://bugzilla.redhat.com/2449833
+    - https://bugzilla.redhat.com/2455470
+    - https://bugzilla.redhat.com/2456333
+    - https://bugzilla.redhat.com/2456335
     - https://bugzilla.redhat.com/2456336
     - https://bugzilla.redhat.com/2456338
     - https://bugzilla.redhat.com/2456339
@@ -4840,7 +5130,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-32283
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-33186
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-34986
-    - https://errata.almalinux.org/8/ALSA-2026-16875.html
+    - https://errata.almalinux.org/9/ALSA-2026-19353.html
     - https://errata.rockylinux.org/RLSA-2026:23228
     - https://go.dev/cl/763761
     - https://go.dev/issue/78293
@@ -5568,12 +5858,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2026:8456
+    - https://access.redhat.com/errata/RHSA-2026:9044
     - https://access.redhat.com/security/cve/CVE-2026-25679
     - https://bugzilla.redhat.com/2445356
     - https://bugzilla.redhat.com/show_bug.cgi?id=2445356
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-25679
-    - https://errata.almalinux.org/8/ALSA-2026-8456.html
+    - https://errata.almalinux.org/9/ALSA-2026-9044.html
     - https://errata.rockylinux.org/RLSA-2026:9044
     - https://go.dev/cl/752180
     - https://go.dev/issue/77578
@@ -5665,10 +5955,9 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2026:16875
+    - https://access.redhat.com/errata/RHSA-2026:28074
     - https://access.redhat.com/security/cve/CVE-2026-32280
-    - https://bugzilla.redhat.com/2445356
-    - https://bugzilla.redhat.com/2456336
+    - https://bugzilla.redhat.com/2456333
     - https://bugzilla.redhat.com/2456338
     - https://bugzilla.redhat.com/2456339
     - https://bugzilla.redhat.com/show_bug.cgi?id=2456333
@@ -5677,7 +5966,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-32280
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-32281
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-32283
-    - https://errata.almalinux.org/8/ALSA-2026-16875.html
+    - https://errata.almalinux.org/9/ALSA-2026-28074.html
     - https://errata.rockylinux.org/RLSA-2026:26447
     - https://go.dev/cl/758320
     - https://go.dev/issue/78282
@@ -5734,7 +6023,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
     References:
-    - https://access.redhat.com/errata/RHSA-2026:24470
+    - https://access.redhat.com/errata/RHSA-2026:28074
     - https://access.redhat.com/security/cve/CVE-2026-32281
     - https://bugzilla.redhat.com/2456333
     - https://bugzilla.redhat.com/2456338
@@ -5745,7 +6034,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-32280
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-32281
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-32283
-    - https://errata.almalinux.org/10/ALSA-2026-24470.html
+    - https://errata.almalinux.org/9/ALSA-2026-28074.html
     - https://errata.rockylinux.org/RLSA-2026:26447
     - https://go.dev/cl/758061
     - https://go.dev/issue/78281
@@ -5801,10 +6090,9 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2026:16875
+    - https://access.redhat.com/errata/RHSA-2026:28074
     - https://access.redhat.com/security/cve/CVE-2026-32283
-    - https://bugzilla.redhat.com/2445356
-    - https://bugzilla.redhat.com/2456336
+    - https://bugzilla.redhat.com/2456333
     - https://bugzilla.redhat.com/2456338
     - https://bugzilla.redhat.com/2456339
     - https://bugzilla.redhat.com/show_bug.cgi?id=2456333
@@ -5813,7 +6101,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-32280
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-32281
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-32283
-    - https://errata.almalinux.org/8/ALSA-2026-16875.html
+    - https://errata.almalinux.org/9/ALSA-2026-28074.html
     - https://errata.rockylinux.org/RLSA-2026:26447
     - https://go.dev/cl/763767
     - https://go.dev/issue/78334
@@ -6295,9 +6583,13 @@
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H
         V3Score: 7.8
     References:
-    - https://access.redhat.com/errata/RHSA-2026:16875
+    - https://access.redhat.com/errata/RHSA-2026:19353
     - https://access.redhat.com/security/cve/CVE-2026-32282
     - https://bugzilla.redhat.com/2445356
+    - https://bugzilla.redhat.com/2449833
+    - https://bugzilla.redhat.com/2455470
+    - https://bugzilla.redhat.com/2456333
+    - https://bugzilla.redhat.com/2456335
     - https://bugzilla.redhat.com/2456336
     - https://bugzilla.redhat.com/2456338
     - https://bugzilla.redhat.com/2456339
@@ -6317,7 +6609,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-32283
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-33186
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-34986
-    - https://errata.almalinux.org/8/ALSA-2026-16875.html
+    - https://errata.almalinux.org/9/ALSA-2026-19353.html
     - https://errata.rockylinux.org/RLSA-2026:23228
     - https://go.dev/cl/763761
     - https://go.dev/issue/78293
@@ -8915,12 +9207,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2026:0753
+    - https://access.redhat.com/errata/RHSA-2026:0470
     - https://access.redhat.com/security/cve/CVE-2025-47913
     - https://bugzilla.redhat.com/2414943
     - https://bugzilla.redhat.com/show_bug.cgi?id=2414943
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-47913
-    - https://errata.almalinux.org/8/ALSA-2026-0753.html
+    - https://errata.almalinux.org/9/ALSA-2026-0470.html
     - https://errata.rockylinux.org/RLSA-2026:0470
     - https://github.com/advisories/GHSA-56w8-48fp-6mgv
     - https://github.com/advisories/GHSA-hcg3-q754-cr77
@@ -10029,7 +10321,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N
         V3Score: 9.1
     References:
-    - https://access.redhat.com/errata/RHSA-2026:19135
+    - https://access.redhat.com/errata/RHSA-2026:19353
     - https://access.redhat.com/security/cve/CVE-2026-33186
     - https://bugzilla.redhat.com/2445356
     - https://bugzilla.redhat.com/2449833
@@ -10055,7 +10347,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-32283
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-33186
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-34986
-    - https://errata.almalinux.org/10/ALSA-2026-19135.html
+    - https://errata.almalinux.org/9/ALSA-2026-19353.html
     - https://errata.rockylinux.org/RLSA-2026:23228
     - https://github.com/grpc/grpc-go
     - https://github.com/grpc/grpc-go/security/advisories/GHSA-p77j-4mvh-x3m3
@@ -10112,16 +10404,15 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N
         V3Score: 7.4
     References:
-    - https://access.redhat.com/errata/RHSA-2026:4672
+    - https://access.redhat.com/errata/RHSA-2026:4177
     - https://access.redhat.com/security/cve/CVE-2025-68121
-    - https://bugzilla.redhat.com/2434431
     - https://bugzilla.redhat.com/2434432
     - https://bugzilla.redhat.com/2437111
     - https://bugzilla.redhat.com/show_bug.cgi?id=2434432
     - https://bugzilla.redhat.com/show_bug.cgi?id=2437111
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-61726
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-68121
-    - https://errata.almalinux.org/8/ALSA-2026-4672.html
+    - https://errata.almalinux.org/9/ALSA-2026-4177.html
     - https://errata.rockylinux.org/RLSA-2026:4177
     - https://github.com/golang/go/issues/77113
     - https://go.dev/cl/737700
@@ -10178,16 +10469,15 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2026:4672
+    - https://access.redhat.com/errata/RHSA-2026:4177
     - https://access.redhat.com/security/cve/CVE-2025-61726
-    - https://bugzilla.redhat.com/2434431
     - https://bugzilla.redhat.com/2434432
     - https://bugzilla.redhat.com/2437111
     - https://bugzilla.redhat.com/show_bug.cgi?id=2434432
     - https://bugzilla.redhat.com/show_bug.cgi?id=2437111
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-61726
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-68121
-    - https://errata.almalinux.org/8/ALSA-2026-4672.html
+    - https://errata.almalinux.org/9/ALSA-2026-4177.html
     - https://errata.rockylinux.org/RLSA-2026:4177
     - https://go.dev/cl/736712
     - https://go.dev/issue/77101
@@ -10242,18 +10532,18 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2026:3428
+    - https://access.redhat.com/errata/RHSA-2026:3928
     - https://access.redhat.com/security/cve/CVE-2025-61729
-    - https://bugzilla.redhat.com/2268022
     - https://bugzilla.redhat.com/2418462
-    - https://bugzilla.redhat.com/2418900
+    - https://bugzilla.redhat.com/2434432
+    - https://bugzilla.redhat.com/2437111
     - https://bugzilla.redhat.com/show_bug.cgi?id=2418462
     - https://bugzilla.redhat.com/show_bug.cgi?id=2434432
     - https://bugzilla.redhat.com/show_bug.cgi?id=2437111
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-61726
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-61729
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-68121
-    - https://errata.almalinux.org/8/ALSA-2026-3428.html
+    - https://errata.almalinux.org/9/ALSA-2026-3928.html
     - https://errata.rockylinux.org/RLSA-2026:3928
     - https://go.dev/cl/725920
     - https://go.dev/issue/76445
@@ -10307,12 +10597,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2026:8456
+    - https://access.redhat.com/errata/RHSA-2026:9044
     - https://access.redhat.com/security/cve/CVE-2026-25679
     - https://bugzilla.redhat.com/2445356
     - https://bugzilla.redhat.com/show_bug.cgi?id=2445356
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-25679
-    - https://errata.almalinux.org/8/ALSA-2026-8456.html
+    - https://errata.almalinux.org/9/ALSA-2026-9044.html
     - https://errata.rockylinux.org/RLSA-2026:9044
     - https://go.dev/cl/752180
     - https://go.dev/issue/77578
@@ -10404,10 +10694,9 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2026:16875
+    - https://access.redhat.com/errata/RHSA-2026:28074
     - https://access.redhat.com/security/cve/CVE-2026-32280
-    - https://bugzilla.redhat.com/2445356
-    - https://bugzilla.redhat.com/2456336
+    - https://bugzilla.redhat.com/2456333
     - https://bugzilla.redhat.com/2456338
     - https://bugzilla.redhat.com/2456339
     - https://bugzilla.redhat.com/show_bug.cgi?id=2456333
@@ -10416,7 +10705,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-32280
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-32281
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-32283
-    - https://errata.almalinux.org/8/ALSA-2026-16875.html
+    - https://errata.almalinux.org/9/ALSA-2026-28074.html
     - https://errata.rockylinux.org/RLSA-2026:26447
     - https://go.dev/cl/758320
     - https://go.dev/issue/78282
@@ -10473,7 +10762,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
     References:
-    - https://access.redhat.com/errata/RHSA-2026:24470
+    - https://access.redhat.com/errata/RHSA-2026:28074
     - https://access.redhat.com/security/cve/CVE-2026-32281
     - https://bugzilla.redhat.com/2456333
     - https://bugzilla.redhat.com/2456338
@@ -10484,7 +10773,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-32280
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-32281
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-32283
-    - https://errata.almalinux.org/10/ALSA-2026-24470.html
+    - https://errata.almalinux.org/9/ALSA-2026-28074.html
     - https://errata.rockylinux.org/RLSA-2026:26447
     - https://go.dev/cl/758061
     - https://go.dev/issue/78281
@@ -10540,10 +10829,9 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2026:16875
+    - https://access.redhat.com/errata/RHSA-2026:28074
     - https://access.redhat.com/security/cve/CVE-2026-32283
-    - https://bugzilla.redhat.com/2445356
-    - https://bugzilla.redhat.com/2456336
+    - https://bugzilla.redhat.com/2456333
     - https://bugzilla.redhat.com/2456338
     - https://bugzilla.redhat.com/2456339
     - https://bugzilla.redhat.com/show_bug.cgi?id=2456333
@@ -10552,7 +10840,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-32280
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-32281
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-32283
-    - https://errata.almalinux.org/8/ALSA-2026-16875.html
+    - https://errata.almalinux.org/9/ALSA-2026-28074.html
     - https://errata.rockylinux.org/RLSA-2026:26447
     - https://go.dev/cl/763767
     - https://go.dev/issue/78334
@@ -11029,12 +11317,12 @@
         V3Score: 7.5
     References:
     - http://www.openwall.com/lists/oss-security/2025/10/08/1
-    - https://access.redhat.com/errata/RHSA-2026:1380
+    - https://access.redhat.com/errata/RHSA-2026:1381
     - https://access.redhat.com/security/cve/CVE-2025-58183
     - https://bugzilla.redhat.com/2407258
     - https://bugzilla.redhat.com/show_bug.cgi?id=2407258
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-58183
-    - https://errata.almalinux.org/8/ALSA-2026-1380.html
+    - https://errata.almalinux.org/9/ALSA-2026-1381.html
     - https://errata.rockylinux.org/RLSA-2026:1381
     - https://go.dev/cl/709861
     - https://go.dev/issue/75677
@@ -11474,8 +11762,9 @@
         V3Score: 7.5
     References:
     - http://www.openwall.com/lists/oss-security/2026/01/15/4
-    - https://access.redhat.com/errata/RHSA-2026:4672
+    - https://access.redhat.com/errata/RHSA-2026:3753
     - https://access.redhat.com/security/cve/CVE-2025-61728
+    - https://bugzilla.redhat.com/2418462
     - https://bugzilla.redhat.com/2434431
     - https://bugzilla.redhat.com/2434432
     - https://bugzilla.redhat.com/2437111
@@ -11487,7 +11776,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-61728
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-61729
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-68121
-    - https://errata.almalinux.org/8/ALSA-2026-4672.html
+    - https://errata.almalinux.org/9/ALSA-2026-3753.html
     - https://errata.rockylinux.org/RLSA-2026:3753
     - https://go.dev/cl/736713
     - https://go.dev/issue/77102
@@ -11639,9 +11928,13 @@
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H
         V3Score: 7.8
     References:
-    - https://access.redhat.com/errata/RHSA-2026:16875
+    - https://access.redhat.com/errata/RHSA-2026:19353
     - https://access.redhat.com/security/cve/CVE-2026-32282
     - https://bugzilla.redhat.com/2445356
+    - https://bugzilla.redhat.com/2449833
+    - https://bugzilla.redhat.com/2455470
+    - https://bugzilla.redhat.com/2456333
+    - https://bugzilla.redhat.com/2456335
     - https://bugzilla.redhat.com/2456336
     - https://bugzilla.redhat.com/2456338
     - https://bugzilla.redhat.com/2456339
@@ -11661,7 +11954,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-32283
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-33186
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-34986
-    - https://errata.almalinux.org/8/ALSA-2026-16875.html
+    - https://errata.almalinux.org/9/ALSA-2026-19353.html
     - https://errata.rockylinux.org/RLSA-2026:23228
     - https://go.dev/cl/763761
     - https://go.dev/issue/78293
