@@ -31,21 +31,21 @@ jobs:
       name: Check latest
       with:
         ojob: 'ojob.io/sec/genSecBadge'
-        args: 'image=nmaguiar/hvscs:latest file=.github/sec-latest.svg reportFile=.github/sec-latest.yaml scanOptions="--skip-dirs\ /home/.openvscode-server/**"'
+        args: 'image=nmaguiar/hvscs:latest file=.github/sec-latest.svg reportFile=.github/sec-latest.yaml scanOptions="--skip-dirs\ /home/openvscode-server/.local/share/code-server/**"'
         dist: 't8'
 
     - uses: openaf/ojob-action@v7
       name: Check build
       with:
         ojob: 'ojob.io/sec/genSecBadge'
-        args: 'image=nmaguiar/hvscs:build file=.github/sec-build.svg reportFile=.github/sec-build.yaml scanOptions="--skip-dirs\ /home/.openvscode-server/**"'
+        args: 'image=nmaguiar/hvscs:build file=.github/sec-build.svg reportFile=.github/sec-build.yaml scanOptions="--skip-dirs\ /home/openvscode-server/.local/share/code-server/**"'
         dist: 't8'
 
     - uses: openaf/ojob-action@v7
       name: Check build lite
       with:
         ojob: 'ojob.io/sec/genSecBadge'
-        args: 'image=nmaguiar/hvscs:build-lite file=.github/sec-build-lite.svg reportFile=.github/sec-build-lite.yaml scanOptions="--skip-dirs\ /home/.openvscode-server/**"'
+        args: 'image=nmaguiar/hvscs:build-lite file=.github/sec-build-lite.svg reportFile=.github/sec-build-lite.yaml scanOptions="--skip-dirs\ /home/openvscode-server/.local/share/code-server/**"'
         dist: 't8'
 
     - uses: openaf/ojob-action@v7
