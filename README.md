@@ -11,6 +11,8 @@ A personal _"home VSCode space"_ base image to quickly deploy on wherever there 
 * VSCode extensions for Docker, Kubernetes, YAML and XML
 * Kubernetes SOCKS proxy server
 
+The image web editor runtime is based on `codercom/code-server`.
+
 The idea is to quickly have your own Docker & Kubernetes clean environment to test or learn. Since it uses K3D it's also possible to test in a simulated multi-node Kubernetes cluster. Your main Docker (and Kubernetes) won't be _"harmed"_ in the process. If something goes _"south"_ you just destroy the container and start another clean one.
 
 ![Screenshot](images/screenshot.png)
