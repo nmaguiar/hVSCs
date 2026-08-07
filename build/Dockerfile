@@ -4,7 +4,7 @@ USER root
 
 RUN apt-get update\
  && apt-get upgrade -y\
- && apt-get install -y apt-utils sudo curl wget vim less tmux iproute2 net-tools uidmap iputils-ping openssh-server fuse-overlayfs dnsutils zip skopeo htop nginx bash-completion\
+ && apt-get install -y apt-utils sudo curl wget vim less tmux iproute2 net-tools uidmap iputils-ping openssh-server fuse-overlayfs dnsutils zip skopeo htop bash-completion\
  && apt-get clean\
  && if id -u coder > /dev/null 2>&1; then usermod -l openvscode-server coder; groupmod -n openvscode-server coder; usermod -d /home/openvscode-server -m openvscode-server; fi\
  && curl https://openaf.io/install.sh | sh\
@@ -21,6 +21,7 @@ RUN apt-get update\
  && ojob ojob.io/util/vscTunnel path=/usr/bin\
  && su - openvscode-server ojob ojob.io/kube/getKrew\
  && mkdir -p /home/workspace\
+ && chown openvscode-server:openvscode-server /home/workspace\
  && ln -sf /home/openvscode-server/.profile /home/workspace/.profile\
  && ln -sf /home/openvscode-server/.bashrc /home/workspace/.bashrc\
  && ln -sf /home/openvscode-server/.krew /home/workspace/.krew\
@@ -37,7 +38,6 @@ RUN apt-get update\
 
 COPY ojob_p2.yaml /tmp/.p2.yaml
 COPY ojob_p1.sh /tmp/.p1.sh
-COPY ojob_rp.yaml /tmp/.rp.yaml
 COPY status.js /usr/bin/status.js
 COPY --chown=1000:1000 extensions /tmp/.extensions
 COPY bashrc /tmp/bashrc
@@ -52,18 +52,27 @@ RUN chsh --shell /bin/bash openvscode-server\
  && cd /home/openvscode-server\
  && mv /tmp/.p1.sh .p1.sh\
  && mv /tmp/.p2.yaml .p2.yaml\
- && mv /tmp/.rp.yaml .rp.yaml\
  && chmod a+x .p1.sh\
  && chown openvscode-server: .p1.sh\
  && chown openvscode-server: .p2.yaml\
- && chown openvscode-server: .rp.yaml\
  && mkdir -p /workspace/.vscode\
  && mkdir -p /home/openvscode-server/.local/share/code-server/User\
+ && chown -R openvscode-server: /home/openvscode-server/.local\
  && chown -R openvscode-server: /workspace\
  && chmod a+x /usr/bin/status.js
 
 COPY --chown=1000:1000 settings.json /workspace/.vscode/settings.json
 COPY --chown=1000:1000 README.md /workspace/README.md
+
+RUN stub='"use strict";Object.defineProperty(exports,"__esModule",{value:true});exports.activate=function(){};exports.deactivate=function(){};' \
+ && mkdir -p /usr/lib/code-server/lib/vscode/extensions/github-authentication/dist/browser \
+ && echo "$stub" > /usr/lib/code-server/lib/vscode/extensions/github-authentication/dist/browser/extension.js \
+ && mkdir -p /usr/lib/code-server/lib/vscode/extensions/emmet/dist/browser \
+ && echo "$stub" > /usr/lib/code-server/lib/vscode/extensions/emmet/dist/browser/emmetBrowserMain.js \
+ && mkdir -p /usr/lib/code-server/lib/vscode/extensions/git-base/dist/browser \
+ && echo "$stub" > /usr/lib/code-server/lib/vscode/extensions/git-base/dist/browser/extension.js \
+ && mkdir -p /usr/lib/code-server/lib/vscode/extensions/merge-conflict/dist/browser \
+ && echo "$stub" > /usr/lib/code-server/lib/vscode/extensions/merge-conflict/dist/browser/mergeConflictMain.js
 
 # -------------------
 FROM scratch as final
@@ -81,7 +90,6 @@ ENV LANG=C.UTF-8 \
     EDITOR=code \
     VISUAL=code \
     GIT_EDITOR="code --wait"
-EXPOSE 3000  
 EXPOSE 8443
 
 ENTRYPOINT ["/home/openvscode-server/.p1.sh"]

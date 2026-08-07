@@ -1,6 +1,5 @@
 # Author: Nuno Aguiar
 todo:
-- Setup reverse proxy
 - Start SSH daemon
 - Start docker
 #- Install VSCode extensions
@@ -23,16 +22,6 @@ jobs:
 - name: Report
   type: shutdown
   to  : ojob report
-
-# ==========================
-- name : Setup reverse proxy
-  lang : shell
-  exec : |
-    {{#if NOHTTPS}}
-    echo no HTTPS reverse proxy started
-    {{else}}
-    ojob /home/openvscode-server/.rp.yaml url=http://127.0.0.1:3000 port=8443 websocket=true ssl=hvscs sslvalid=525600 {{#if WEB_AUTH}}auth={{WEB_AUTH}}{{/if}}
-    {{/if}}
 
 # ============================
 - name : Set SSH user password
@@ -66,8 +55,13 @@ jobs:
     sudo update-alternatives --set iptables /usr/sbin/iptables-legacy
     # Change the docker json to change storage-driver to vfs
     sudo /bin/sh -c "echo '{ \"storage-driver\": \"vfs\" }' > /etc/docker/daemon.json"
+    sudo sed -i 's/^\(\s*\)ulimit -Hn 524288/\1# ulimit -Hn 524288/' /etc/init.d/docker
     echo updated
-    sudo service docker start 
+    if ! sudo service docker start; then
+      echo "service docker start failed, trying dockerd fallback..."
+      sudo mkdir -p /var/log
+      sudo /bin/sh -c "nohup dockerd --storage-driver=vfs >/var/log/dockerd.log 2>&1 &"
+    fi
     {{/if}}
 
 # ================================

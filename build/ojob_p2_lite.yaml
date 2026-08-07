@@ -54,8 +54,13 @@ jobs:
     echo Docker not started
     {{else}}
     sudo update-alternatives --set iptables /usr/sbin/iptables-legacy
+    sudo sed -i 's/^\(\s*\)ulimit -Hn 524288/\1# ulimit -Hn 524288/' /etc/init.d/docker
     echo updated
-    sudo service docker start 
+    if ! sudo service docker start; then
+      echo "service docker start failed, trying dockerd fallback..."
+      sudo mkdir -p /var/log
+      sudo /bin/sh -c "nohup dockerd --storage-driver=vfs >/var/log/dockerd.log 2>&1 &"
+    fi
     {{/if}}
 
 # -------------------------------
