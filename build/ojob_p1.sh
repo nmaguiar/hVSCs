@@ -8,6 +8,22 @@ if [ ! -z $NOVSCODE ]; then
     echo Not starting VSCode
     exec tail -f /dev/null
 else
-    cd /home/workspace
-    exec ${OPENVSCODE_SERVER_ROOT}/bin/openvscode-server --host 0.0.0.0 --without-connection-token -- $*
+    cd /workspace
+
+    ARGS=("--bind-addr" "0.0.0.0:8443")
+
+    if [ -z $NOHTTPS ]; then
+        ARGS+=("--cert")
+    fi
+
+    if [ ! -z $WEB_AUTH ]; then
+        export PASSWORD=$(echo $WEB_AUTH | cut -d: -f2)
+        ARGS+=("--auth" "password")
+    else
+        ARGS+=("--auth" "none")
+    fi
+
+    ARGS+=("--user-data-dir" "/home/openvscode-server/.local/share/code-server" "--extensions-dir" "/home/openvscode-server/.local/share/code-server/extensions" "/workspace")
+
+    exec /usr/bin/code-server "${ARGS[@]}" -- $*
 fi
