@@ -178,7 +178,7 @@
       URL: https://salsa.debian.org/security-tracker-team/security-tracker
     Fingerprint: sha256:4443be124a32b84f26d73b41d693098fad91c9eab9ba25153e9091fbb4e20915
     Title: '[Integer Overflow or Wraparound in libblkid/src/partitions/dos.c]'
-    Description: "Package updates are available for Amazon Linux 2023 that fix the following vulnerabilities:\nCVE-2026-53615:\n\tInteger Overflow or Wraparound in libblkid/src/partitions/dos.c\n"
+    Description: "Package updates are available for Amazon Linux 2 that fix the following vulnerabilities:\nCVE-2026-53615:\n\tInteger Overflow or Wraparound in libblkid/src/partitions/dos.c\n"
     Severity: HIGH
     VendorSeverity:
       amazon: 3
@@ -507,7 +507,7 @@
       URL: https://salsa.debian.org/security-tracker-team/security-tracker
     Fingerprint: sha256:5d72079ea1c5636a54876f1ac8136c3013b15cb7ccc8232a96a98f93e126b43e
     Title: '[Integer Overflow or Wraparound in libblkid/src/partitions/dos.c]'
-    Description: "Package updates are available for Amazon Linux 2023 that fix the following vulnerabilities:\nCVE-2026-53615:\n\tInteger Overflow or Wraparound in libblkid/src/partitions/dos.c\n"
+    Description: "Package updates are available for Amazon Linux 2 that fix the following vulnerabilities:\nCVE-2026-53615:\n\tInteger Overflow or Wraparound in libblkid/src/partitions/dos.c\n"
     Severity: HIGH
     VendorSeverity:
       amazon: 3
@@ -924,7 +924,7 @@
     - https://security-tracker.debian.org/tracker/CVE-2025-5278
     - https://www.cve.org/CVERecord?id=CVE-2025-5278
     PublishedDate: '2025-05-27T21:15:23.197Z'
-    LastModifiedDate: '2026-08-08T18:16:52.383Z'
+    LastModifiedDate: '2026-08-09T18:16:42.113Z'
   - VulnerabilityID: CVE-2026-56391
     PkgID: coreutils@9.7-3
     PkgName: coreutils
@@ -4715,6 +4715,7 @@
     - https://access.redhat.com/errata/RHSA-2026:44481
     - https://access.redhat.com/errata/RHSA-2026:46836
     - https://access.redhat.com/errata/RHSA-2026:50205
+    - https://access.redhat.com/errata/RHSA-2026:53371
     - https://access.redhat.com/security/cve/CVE-2026-54369
     - https://bugzilla.redhat.com/2490277
     - https://bugzilla.redhat.com/2490279
@@ -4733,7 +4734,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-54369
     - https://www.vulncheck.com/advisories/acl-symlink-traversal-privilege-escalation-via-libacl-functions
     PublishedDate: '2026-06-29T14:16:57.487Z'
-    LastModifiedDate: '2026-08-05T13:24:00.967Z'
+    LastModifiedDate: '2026-08-11T13:18:59.133Z'
   - VulnerabilityID: CVE-2026-54370
     PkgID: libacl1@2.3.2-2+b1
     PkgName: libacl1
@@ -4888,7 +4889,7 @@
       URL: https://salsa.debian.org/security-tracker-team/security-tracker
     Fingerprint: sha256:41f17d6d7ec0a8fc79401c466d2ec98f992b4fb1f229c2a37e68e302eab3e923
     Title: '[Integer Overflow or Wraparound in libblkid/src/partitions/dos.c]'
-    Description: "Package updates are available for Amazon Linux 2023 that fix the following vulnerabilities:\nCVE-2026-53615:\n\tInteger Overflow or Wraparound in libblkid/src/partitions/dos.c\n"
+    Description: "Package updates are available for Amazon Linux 2 that fix the following vulnerabilities:\nCVE-2026-53615:\n\tInteger Overflow or Wraparound in libblkid/src/partitions/dos.c\n"
     Severity: HIGH
     VendorSeverity:
       amazon: 3
@@ -5792,6 +5793,59 @@
     - https://www.cve.org/CVERecord?id=CVE-2019-9192
     PublishedDate: '2019-02-26T18:29:00.34Z'
     LastModifiedDate: '2026-06-17T02:43:19.643Z'
+  - VulnerabilityID: CVE-2026-6368
+    PkgID: libc-bin@2.41-12+deb13u3
+    PkgName: libc-bin
+    PkgIdentifier:
+      PURL: pkg:deb/debian/libc-bin@2.41-12%2Bdeb13u3?arch=amd64&distro=debian-13.6
+      UID: e238490a15378300
+    InstalledVersion: 2.41-12+deb13u3
+    Status: affected
+    Layer:
+      Digest: sha256:5a8d1b467518ec9152d1c32d788ccc4e34f78acacdef7006d5b4f76a9d051e71
+      DiffID: sha256:e8dca12f88fd0e132c78f479fff2264b985e681ab2b151b4ac4a3c8b87b04a50
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-6368
+    DataSource:
+      ID: debian
+      Name: Debian Security Tracker
+      URL: https://salsa.debian.org/security-tracker-team/security-tracker
+    Fingerprint: sha256:a8bcb8e6ee3e765ae146cfb27edca83d91990d713ed376fd482b8d388c1a1fc9
+    Title: Calling wordexp with WRDE_APPEND in the GNU C Library version 2.0 to v ...
+    Description: "Calling wordexp with WRDE_APPEND in the GNU C Library version 2.0 to version 2.43\_can cause the interface to return invalid memory in the we_wordv member, which on subsequent calls to wordfree may abort the process."
+    Severity: UNKNOWN
+    CweIDs:
+    - CWE-908
+    References:
+    - https://sourceware.org/bugzilla/show_bug.cgi?id=34090
+    - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2026-0014;h=1e9a0039f07471ddfe6816e5df04875bec409f92;hb=HEAD
+    PublishedDate: '2026-08-10T19:17:30.713Z'
+    LastModifiedDate: '2026-08-10T19:17:30.713Z'
+  - VulnerabilityID: CVE-2026-6791
+    PkgID: libc-bin@2.41-12+deb13u3
+    PkgName: libc-bin
+    PkgIdentifier:
+      PURL: pkg:deb/debian/libc-bin@2.41-12%2Bdeb13u3?arch=amd64&distro=debian-13.6
+      UID: e238490a15378300
+    InstalledVersion: 2.41-12+deb13u3
+    Status: affected
+    Layer:
+      Digest: sha256:5a8d1b467518ec9152d1c32d788ccc4e34f78acacdef7006d5b4f76a9d051e71
+      DiffID: sha256:e8dca12f88fd0e132c78f479fff2264b985e681ab2b151b4ac4a3c8b87b04a50
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-6791
+    DataSource:
+      ID: debian
+      Name: Debian Security Tracker
+      URL: https://salsa.debian.org/security-tracker-team/security-tracker
+    Fingerprint: sha256:22d879ddd9758db53bf0170d864e37a20206f1f6ecc5738a341d1d267dd2fbf8
+    Title: When expanding paths that begin with a tilde (~) followed by a usernam ...
+    Description: When expanding paths that begin with a tilde (~) followed by a username, the internal parse_tilde function extracts the username to determine the user's home directory.  The implementation allocates memory for this username directly on the stack using the strndupa macro. Because the size of this allocation was determined by the length of the user-supplied input without any bounds checks, passing an excessively long username e.g. thousands of characters, forces the thread to exhaust its stack space. Thus if an application passes untrusted, attacker-controlled input to the wordexp function, an attacker can trigger a stack clash.
+    Severity: UNKNOWN
+    CweIDs:
+    - CWE-121
+    References:
+    - https://sourceware.org/bugzilla/show_bug.cgi?id=34091
+    PublishedDate: '2026-08-10T19:17:30.877Z'
+    LastModifiedDate: '2026-08-10T19:17:30.877Z'
   - VulnerabilityID: CVE-2026-5435
     PkgID: libc-l10n@2.41-12+deb13u3
     PkgName: libc-l10n
@@ -6346,6 +6400,59 @@
     - https://www.cve.org/CVERecord?id=CVE-2019-9192
     PublishedDate: '2019-02-26T18:29:00.34Z'
     LastModifiedDate: '2026-06-17T02:43:19.643Z'
+  - VulnerabilityID: CVE-2026-6368
+    PkgID: libc-l10n@2.41-12+deb13u3
+    PkgName: libc-l10n
+    PkgIdentifier:
+      PURL: pkg:deb/debian/libc-l10n@2.41-12%2Bdeb13u3?arch=all&distro=debian-13.6
+      UID: 6fe62c2149852a58
+    InstalledVersion: 2.41-12+deb13u3
+    Status: affected
+    Layer:
+      Digest: sha256:5a8d1b467518ec9152d1c32d788ccc4e34f78acacdef7006d5b4f76a9d051e71
+      DiffID: sha256:e8dca12f88fd0e132c78f479fff2264b985e681ab2b151b4ac4a3c8b87b04a50
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-6368
+    DataSource:
+      ID: debian
+      Name: Debian Security Tracker
+      URL: https://salsa.debian.org/security-tracker-team/security-tracker
+    Fingerprint: sha256:62032c992b7c0c881ec0fa8585d8bbd7a6c1f5bb39ee1b6f1a33da0ce1f36272
+    Title: Calling wordexp with WRDE_APPEND in the GNU C Library version 2.0 to v ...
+    Description: "Calling wordexp with WRDE_APPEND in the GNU C Library version 2.0 to version 2.43\_can cause the interface to return invalid memory in the we_wordv member, which on subsequent calls to wordfree may abort the process."
+    Severity: UNKNOWN
+    CweIDs:
+    - CWE-908
+    References:
+    - https://sourceware.org/bugzilla/show_bug.cgi?id=34090
+    - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2026-0014;h=1e9a0039f07471ddfe6816e5df04875bec409f92;hb=HEAD
+    PublishedDate: '2026-08-10T19:17:30.713Z'
+    LastModifiedDate: '2026-08-10T19:17:30.713Z'
+  - VulnerabilityID: CVE-2026-6791
+    PkgID: libc-l10n@2.41-12+deb13u3
+    PkgName: libc-l10n
+    PkgIdentifier:
+      PURL: pkg:deb/debian/libc-l10n@2.41-12%2Bdeb13u3?arch=all&distro=debian-13.6
+      UID: 6fe62c2149852a58
+    InstalledVersion: 2.41-12+deb13u3
+    Status: affected
+    Layer:
+      Digest: sha256:5a8d1b467518ec9152d1c32d788ccc4e34f78acacdef7006d5b4f76a9d051e71
+      DiffID: sha256:e8dca12f88fd0e132c78f479fff2264b985e681ab2b151b4ac4a3c8b87b04a50
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-6791
+    DataSource:
+      ID: debian
+      Name: Debian Security Tracker
+      URL: https://salsa.debian.org/security-tracker-team/security-tracker
+    Fingerprint: sha256:7850e360d4d7c50d041d1440602b19e6e174a6658e95429c978d541c78d5d184
+    Title: When expanding paths that begin with a tilde (~) followed by a usernam ...
+    Description: When expanding paths that begin with a tilde (~) followed by a username, the internal parse_tilde function extracts the username to determine the user's home directory.  The implementation allocates memory for this username directly on the stack using the strndupa macro. Because the size of this allocation was determined by the length of the user-supplied input without any bounds checks, passing an excessively long username e.g. thousands of characters, forces the thread to exhaust its stack space. Thus if an application passes untrusted, attacker-controlled input to the wordexp function, an attacker can trigger a stack clash.
+    Severity: UNKNOWN
+    CweIDs:
+    - CWE-121
+    References:
+    - https://sourceware.org/bugzilla/show_bug.cgi?id=34091
+    PublishedDate: '2026-08-10T19:17:30.877Z'
+    LastModifiedDate: '2026-08-10T19:17:30.877Z'
   - VulnerabilityID: CVE-2026-5435
     PkgID: libc6@2.41-12+deb13u3
     PkgName: libc6
@@ -6900,6 +7007,59 @@
     - https://www.cve.org/CVERecord?id=CVE-2019-9192
     PublishedDate: '2019-02-26T18:29:00.34Z'
     LastModifiedDate: '2026-06-17T02:43:19.643Z'
+  - VulnerabilityID: CVE-2026-6368
+    PkgID: libc6@2.41-12+deb13u3
+    PkgName: libc6
+    PkgIdentifier:
+      PURL: pkg:deb/debian/libc6@2.41-12%2Bdeb13u3?arch=amd64&distro=debian-13.6
+      UID: a1486075e9c92374
+    InstalledVersion: 2.41-12+deb13u3
+    Status: affected
+    Layer:
+      Digest: sha256:5a8d1b467518ec9152d1c32d788ccc4e34f78acacdef7006d5b4f76a9d051e71
+      DiffID: sha256:e8dca12f88fd0e132c78f479fff2264b985e681ab2b151b4ac4a3c8b87b04a50
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-6368
+    DataSource:
+      ID: debian
+      Name: Debian Security Tracker
+      URL: https://salsa.debian.org/security-tracker-team/security-tracker
+    Fingerprint: sha256:a6f929369ed5a0d7b77cd7c1d3da9cbe208d32c5c38a17ac3baf323616fb34e0
+    Title: Calling wordexp with WRDE_APPEND in the GNU C Library version 2.0 to v ...
+    Description: "Calling wordexp with WRDE_APPEND in the GNU C Library version 2.0 to version 2.43\_can cause the interface to return invalid memory in the we_wordv member, which on subsequent calls to wordfree may abort the process."
+    Severity: UNKNOWN
+    CweIDs:
+    - CWE-908
+    References:
+    - https://sourceware.org/bugzilla/show_bug.cgi?id=34090
+    - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2026-0014;h=1e9a0039f07471ddfe6816e5df04875bec409f92;hb=HEAD
+    PublishedDate: '2026-08-10T19:17:30.713Z'
+    LastModifiedDate: '2026-08-10T19:17:30.713Z'
+  - VulnerabilityID: CVE-2026-6791
+    PkgID: libc6@2.41-12+deb13u3
+    PkgName: libc6
+    PkgIdentifier:
+      PURL: pkg:deb/debian/libc6@2.41-12%2Bdeb13u3?arch=amd64&distro=debian-13.6
+      UID: a1486075e9c92374
+    InstalledVersion: 2.41-12+deb13u3
+    Status: affected
+    Layer:
+      Digest: sha256:5a8d1b467518ec9152d1c32d788ccc4e34f78acacdef7006d5b4f76a9d051e71
+      DiffID: sha256:e8dca12f88fd0e132c78f479fff2264b985e681ab2b151b4ac4a3c8b87b04a50
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-6791
+    DataSource:
+      ID: debian
+      Name: Debian Security Tracker
+      URL: https://salsa.debian.org/security-tracker-team/security-tracker
+    Fingerprint: sha256:a4c2803ec128e696c03524d1900efd3542fb60e5672c077be1cdf03c9ebe3d75
+    Title: When expanding paths that begin with a tilde (~) followed by a usernam ...
+    Description: When expanding paths that begin with a tilde (~) followed by a username, the internal parse_tilde function extracts the username to determine the user's home directory.  The implementation allocates memory for this username directly on the stack using the strndupa macro. Because the size of this allocation was determined by the length of the user-supplied input without any bounds checks, passing an excessively long username e.g. thousands of characters, forces the thread to exhaust its stack space. Thus if an application passes untrusted, attacker-controlled input to the wordexp function, an attacker can trigger a stack clash.
+    Severity: UNKNOWN
+    CweIDs:
+    - CWE-121
+    References:
+    - https://sourceware.org/bugzilla/show_bug.cgi?id=34091
+    PublishedDate: '2026-08-10T19:17:30.877Z'
+    LastModifiedDate: '2026-08-10T19:17:30.877Z'
   - VulnerabilityID: CVE-2026-12064
     PkgID: libcurl3t64-gnutls@8.14.1-2+deb13u4
     PkgName: libcurl3t64-gnutls
@@ -9075,6 +9235,34 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-66382
     PublishedDate: '2025-11-28T07:15:57.9Z'
     LastModifiedDate: '2026-06-17T09:56:45.24Z'
+  - VulnerabilityID: CVE-2026-72522
+    PkgID: libexpat1@2.8.2-1~deb13u1
+    PkgName: libexpat1
+    PkgIdentifier:
+      PURL: pkg:deb/debian/libexpat1@2.8.2-1~deb13u1?arch=amd64&distro=debian-13.6
+      UID: ee4c097ddd93df0
+    InstalledVersion: 2.8.2-1~deb13u1
+    Status: affected
+    Layer:
+      Digest: sha256:5a8d1b467518ec9152d1c32d788ccc4e34f78acacdef7006d5b4f76a9d051e71
+      DiffID: sha256:e8dca12f88fd0e132c78f479fff2264b985e681ab2b151b4ac4a3c8b87b04a50
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-72522
+    DataSource:
+      ID: debian
+      Name: Debian Security Tracker
+      URL: https://salsa.debian.org/security-tracker-team/security-tracker
+    Fingerprint: sha256:d7754d7d759634ec0b075c54ba4d82a415362c978badf1f5d31fad1817eb8408
+    Title: libexpat before 2.8.3 has an out-of-bounds read and resultant infinite ...
+    Description: libexpat before 2.8.3 has an out-of-bounds read and resultant infinite loop because low surrogates are treated the same as high surrogates during Unicode processing in the *_toUtf16 functions.
+    Severity: UNKNOWN
+    CweIDs:
+    - CWE-125
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/08/11/5
+    - https://bugzilla.mozilla.org/show_bug.cgi?id=2053153
+    - https://github.com/libexpat/libexpat/pull/1296
+    PublishedDate: '2026-08-10T04:16:50.91Z'
+    LastModifiedDate: '2026-08-11T18:18:23.28Z'
   - VulnerabilityID: CVE-2018-6829
     PkgID: libgcrypt20@1.11.0-7+deb13u1
     PkgName: libgcrypt20
@@ -10243,7 +10431,7 @@
       URL: https://salsa.debian.org/security-tracker-team/security-tracker
     Fingerprint: sha256:7eb09870b31e860351023dbc7a5a2db83ac98496df2f7fcf3909171a813c004a
     Title: '[Integer Overflow or Wraparound in libblkid/src/partitions/dos.c]'
-    Description: "Package updates are available for Amazon Linux 2023 that fix the following vulnerabilities:\nCVE-2026-53615:\n\tInteger Overflow or Wraparound in libblkid/src/partitions/dos.c\n"
+    Description: "Package updates are available for Amazon Linux 2 that fix the following vulnerabilities:\nCVE-2026-53615:\n\tInteger Overflow or Wraparound in libblkid/src/partitions/dos.c\n"
     Severity: HIGH
     VendorSeverity:
       amazon: 3
@@ -11312,7 +11500,7 @@
       URL: https://salsa.debian.org/security-tracker-team/security-tracker
     Fingerprint: sha256:b51270d429962eae2a51923ad86f7ec6e06601916cdfb4c5c1e4f8208a8bb8ae
     Title: '[Integer Overflow or Wraparound in libblkid/src/partitions/dos.c]'
-    Description: "Package updates are available for Amazon Linux 2023 that fix the following vulnerabilities:\nCVE-2026-53615:\n\tInteger Overflow or Wraparound in libblkid/src/partitions/dos.c\n"
+    Description: "Package updates are available for Amazon Linux 2 that fix the following vulnerabilities:\nCVE-2026-53615:\n\tInteger Overflow or Wraparound in libblkid/src/partitions/dos.c\n"
     Severity: HIGH
     VendorSeverity:
       amazon: 3
@@ -11651,6 +11839,7 @@
       alma: 2
       azure: 4
       cbl-mariner: 4
+      julia: 3
       nvd: 3
       oracle-oval: 2
       photon: 3
@@ -11658,6 +11847,9 @@
       rocky: 2
       ubuntu: 1
     CVSS:
+      julia:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
       nvd:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
         V3Score: 7.8
@@ -11674,7 +11866,10 @@
     - https://errata.almalinux.org/10/ALSA-2026-5913.html
     - https://errata.rockylinux.org/RLSA-2026:5913
     - https://github.com/Cao-Wuhui/CVE-2025-69720
+    - https://github.com/advisories/GHSA-9952-mrqj-h4jh
+    - https://invisible-island.net/archives/ncurses/6.5
     - https://invisible-island.net/archives/ncurses/6.5/
+    - https://invisible-island.net/ncurses
     - https://invisible-island.net/ncurses/
     - https://linux.oracle.com/cve/CVE-2025-69720.html
     - https://linux.oracle.com/errata/ELSA-2026-5913.html
@@ -12024,6 +12219,7 @@
     - https://access.redhat.com/errata/RHSA-2026:38342
     - https://access.redhat.com/errata/RHSA-2026:49667
     - https://access.redhat.com/errata/RHSA-2026:49668
+    - https://access.redhat.com/errata/RHSA-2026:53371
     - https://access.redhat.com/security/cve/CVE-2026-13757
     - https://bugzilla.redhat.com/2494556
     - https://bugzilla.redhat.com/show_bug.cgi?id=2494556
@@ -12036,7 +12232,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-13757
     - https://www.cve.org/CVERecord?id=CVE-2026-13757
     PublishedDate: '2026-06-29T19:16:40.907Z'
-    LastModifiedDate: '2026-08-03T22:16:48.113Z'
+    LastModifiedDate: '2026-08-11T10:17:11.68Z'
   - VulnerabilityID: CVE-2026-18938
     PkgID: libp11-kit0@0.25.5-3
     PkgName: libp11-kit0
@@ -12090,7 +12286,7 @@
       URL: https://salsa.debian.org/security-tracker-team/security-tracker
     Fingerprint: sha256:3ffde640de4bb178b91295fc8eb3b512fa6c00787e4559d7971b37b22f256dcc
     Title: 'linux-pam: Plaintext password recovery via timing discrepancy in pam_userdb module'
-    Description: Linux-PAM through 1.7.2 contains an observable timing discrepancy (CWE-208) in the pam_userdb module's plaintext-password comparison path in modules/pam_userdb/pam_userdb.c that allows a local or network-adjacent attacker able to repeatedly drive authentication through a calling service to recover the plaintext password of a target account by measuring response-timing differences. The comparison uses strncmp() (or strncasecmp() when PAM_ICASE_ARG is set) preceded by a length-equality check, so the time to reject a candidate depends on the index of the first differing byte and on whether the candidate's length matches the stored password, leaking the password length and individual prefix bytes. The vulnerable path is reached when the administrator configures pam_userdb with crypt=none, with an unrecognized crypt method, or without a crypt= argument, causing the module to store and compare credentials in plaintext.
+    Description: Linux-PAM through 1.7.2 contains an observable timing discrepancy (CWE-208) in the pam_userdb module's plaintext-password comparison path in modules/pam_userdb/pam_userdb.c that allows a local or network-adjacent attacker able to repeatedly drive authentication through a calling service to recover the plaintext password of a target account by measuring response-timing differences.
     Severity: MEDIUM
     CweIDs:
     - CWE-208
@@ -12112,7 +12308,7 @@
     - https://ubuntu.com/security/notices/USN-8601-1
     - https://www.cve.org/CVERecord?id=CVE-2026-54411
     PublishedDate: '2026-06-14T18:17:20.587Z'
-    LastModifiedDate: '2026-07-24T12:10:00.21Z'
+    LastModifiedDate: '2026-08-10T12:17:17.103Z'
   - VulnerabilityID: CVE-2026-54411
     PkgID: libpam-modules-bin@1.7.0-5
     PkgName: libpam-modules-bin
@@ -12131,7 +12327,7 @@
       URL: https://salsa.debian.org/security-tracker-team/security-tracker
     Fingerprint: sha256:a42f31ee1cf5033bcfa28f5289fe343d72502e4c5d8f829797e8e4eb51b4f820
     Title: 'linux-pam: Plaintext password recovery via timing discrepancy in pam_userdb module'
-    Description: Linux-PAM through 1.7.2 contains an observable timing discrepancy (CWE-208) in the pam_userdb module's plaintext-password comparison path in modules/pam_userdb/pam_userdb.c that allows a local or network-adjacent attacker able to repeatedly drive authentication through a calling service to recover the plaintext password of a target account by measuring response-timing differences. The comparison uses strncmp() (or strncasecmp() when PAM_ICASE_ARG is set) preceded by a length-equality check, so the time to reject a candidate depends on the index of the first differing byte and on whether the candidate's length matches the stored password, leaking the password length and individual prefix bytes. The vulnerable path is reached when the administrator configures pam_userdb with crypt=none, with an unrecognized crypt method, or without a crypt= argument, causing the module to store and compare credentials in plaintext.
+    Description: Linux-PAM through 1.7.2 contains an observable timing discrepancy (CWE-208) in the pam_userdb module's plaintext-password comparison path in modules/pam_userdb/pam_userdb.c that allows a local or network-adjacent attacker able to repeatedly drive authentication through a calling service to recover the plaintext password of a target account by measuring response-timing differences.
     Severity: MEDIUM
     CweIDs:
     - CWE-208
@@ -12153,7 +12349,7 @@
     - https://ubuntu.com/security/notices/USN-8601-1
     - https://www.cve.org/CVERecord?id=CVE-2026-54411
     PublishedDate: '2026-06-14T18:17:20.587Z'
-    LastModifiedDate: '2026-07-24T12:10:00.21Z'
+    LastModifiedDate: '2026-08-10T12:17:17.103Z'
   - VulnerabilityID: CVE-2026-54411
     PkgID: libpam-runtime@1.7.0-5
     PkgName: libpam-runtime
@@ -12172,7 +12368,7 @@
       URL: https://salsa.debian.org/security-tracker-team/security-tracker
     Fingerprint: sha256:6aad6c640281a93dfe3fc1267e8466a9f79ceee4df1d6f23825726a0a5346537
     Title: 'linux-pam: Plaintext password recovery via timing discrepancy in pam_userdb module'
-    Description: Linux-PAM through 1.7.2 contains an observable timing discrepancy (CWE-208) in the pam_userdb module's plaintext-password comparison path in modules/pam_userdb/pam_userdb.c that allows a local or network-adjacent attacker able to repeatedly drive authentication through a calling service to recover the plaintext password of a target account by measuring response-timing differences. The comparison uses strncmp() (or strncasecmp() when PAM_ICASE_ARG is set) preceded by a length-equality check, so the time to reject a candidate depends on the index of the first differing byte and on whether the candidate's length matches the stored password, leaking the password length and individual prefix bytes. The vulnerable path is reached when the administrator configures pam_userdb with crypt=none, with an unrecognized crypt method, or without a crypt= argument, causing the module to store and compare credentials in plaintext.
+    Description: Linux-PAM through 1.7.2 contains an observable timing discrepancy (CWE-208) in the pam_userdb module's plaintext-password comparison path in modules/pam_userdb/pam_userdb.c that allows a local or network-adjacent attacker able to repeatedly drive authentication through a calling service to recover the plaintext password of a target account by measuring response-timing differences.
     Severity: MEDIUM
     CweIDs:
     - CWE-208
@@ -12194,7 +12390,7 @@
     - https://ubuntu.com/security/notices/USN-8601-1
     - https://www.cve.org/CVERecord?id=CVE-2026-54411
     PublishedDate: '2026-06-14T18:17:20.587Z'
-    LastModifiedDate: '2026-07-24T12:10:00.21Z'
+    LastModifiedDate: '2026-08-10T12:17:17.103Z'
   - VulnerabilityID: CVE-2013-4392
     PkgID: libpam-systemd@257.13-1~deb13u1
     PkgName: libpam-systemd
@@ -12412,7 +12608,7 @@
       URL: https://salsa.debian.org/security-tracker-team/security-tracker
     Fingerprint: sha256:52bfe7d25045a552da96a682a6f18bc3787e20c5daf6050feed053109fc7ac49
     Title: 'linux-pam: Plaintext password recovery via timing discrepancy in pam_userdb module'
-    Description: Linux-PAM through 1.7.2 contains an observable timing discrepancy (CWE-208) in the pam_userdb module's plaintext-password comparison path in modules/pam_userdb/pam_userdb.c that allows a local or network-adjacent attacker able to repeatedly drive authentication through a calling service to recover the plaintext password of a target account by measuring response-timing differences. The comparison uses strncmp() (or strncasecmp() when PAM_ICASE_ARG is set) preceded by a length-equality check, so the time to reject a candidate depends on the index of the first differing byte and on whether the candidate's length matches the stored password, leaking the password length and individual prefix bytes. The vulnerable path is reached when the administrator configures pam_userdb with crypt=none, with an unrecognized crypt method, or without a crypt= argument, causing the module to store and compare credentials in plaintext.
+    Description: Linux-PAM through 1.7.2 contains an observable timing discrepancy (CWE-208) in the pam_userdb module's plaintext-password comparison path in modules/pam_userdb/pam_userdb.c that allows a local or network-adjacent attacker able to repeatedly drive authentication through a calling service to recover the plaintext password of a target account by measuring response-timing differences.
     Severity: MEDIUM
     CweIDs:
     - CWE-208
@@ -12434,7 +12630,7 @@
     - https://ubuntu.com/security/notices/USN-8601-1
     - https://www.cve.org/CVERecord?id=CVE-2026-54411
     PublishedDate: '2026-06-14T18:17:20.587Z'
-    LastModifiedDate: '2026-07-24T12:10:00.21Z'
+    LastModifiedDate: '2026-08-10T12:17:17.103Z'
   - VulnerabilityID: CVE-2026-13221
     PkgID: libperl5.40@5.40.1-6
     PkgName: libperl5.40
@@ -13118,6 +13314,42 @@
     - https://www.cve.org/CVERecord?id=CVE-2011-4116
     PublishedDate: '2020-01-31T18:15:11.343Z'
     LastModifiedDate: '2025-08-04T19:04:38.29Z'
+  - VulnerabilityID: CVE-2026-15534
+    PkgID: libperl5.40@5.40.1-6
+    PkgName: libperl5.40
+    PkgIdentifier:
+      PURL: pkg:deb/debian/libperl5.40@5.40.1-6?arch=amd64&distro=debian-13.6
+      UID: 921c03a92445e6ec
+    InstalledVersion: 5.40.1-6
+    Status: fix_deferred
+    Layer:
+      Digest: sha256:5a8d1b467518ec9152d1c32d788ccc4e34f78acacdef7006d5b4f76a9d051e71
+      DiffID: sha256:e8dca12f88fd0e132c78f479fff2264b985e681ab2b151b4ac4a3c8b87b04a50
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-15534
+    DataSource:
+      ID: debian
+      Name: Debian Security Tracker
+      URL: https://salsa.debian.org/security-tracker-team/security-tracker
+    Fingerprint: sha256:b298605093e7f05becd60b7d0072854980ddf8eefc4b41f0132db36793b7d63c
+    Title: Perl versions through 5.45.1 have out-of-bounds heap reads and writes  ...
+    Description: |-
+      Perl versions through 5.45.1 have out-of-bounds heap reads and writes during regular expression matching via an undersized superlinear cache in S_regmatch.
+
+      The regex engine's superlinear cache holds one bit per subject position for each participating WHILEM node, so the bit count is the subject length plus one times the number of nodes. Nothing checks that product for positive overflow of the signed 32-bit count: a 286331153 byte subject matched against a pattern with 15 participating nodes stores the count as 14, leaving a two byte cache. The cache is then indexed from the real match position and node number, so reads go past the end of the allocation, and on failure CACHEsayNO sets a bit past it.
+
+      A caller that matches an attacker controlled subject of this size against a pattern of this shape can crash the process or corrupt heap memory.
+    Severity: UNKNOWN
+    CweIDs:
+    - CWE-125
+    - CWE-190
+    - CWE-787
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/08/09/12
+    - http://www.openwall.com/lists/oss-security/2026/08/09/13
+    - https://github.com/Perl/perl5/commit/54cf3d44cbbedd17d774e9a37921963e8fd5d0cb.patch
+    - https://github.com/Perl/perl5/commit/568e6fd238867bb9e99fa3f47cba3169009239e0.patch
+    PublishedDate: '2026-08-09T18:16:42.8Z'
+    LastModifiedDate: '2026-08-09T22:16:30.373Z'
   - VulnerabilityID: CVE-2026-7017
     PkgID: libperl5.40@5.40.1-6
     PkgName: libperl5.40
@@ -13172,7 +13404,7 @@
       URL: https://salsa.debian.org/security-tracker-team/security-tracker
     Fingerprint: sha256:a35780471f763b44239431e82a88d8cfacbc1fed2a883dbb9852f9d770190af0
     Title: '[Integer Overflow or Wraparound in libblkid/src/partitions/dos.c]'
-    Description: "Package updates are available for Amazon Linux 2023 that fix the following vulnerabilities:\nCVE-2026-53615:\n\tInteger Overflow or Wraparound in libblkid/src/partitions/dos.c\n"
+    Description: "Package updates are available for Amazon Linux 2 that fix the following vulnerabilities:\nCVE-2026-53615:\n\tInteger Overflow or Wraparound in libblkid/src/partitions/dos.c\n"
     Severity: HIGH
     VendorSeverity:
       amazon: 3
@@ -13727,6 +13959,107 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-70873
     PublishedDate: '2026-03-12T19:16:15.933Z'
     LastModifiedDate: '2026-06-17T10:03:26.283Z'
+  - VulnerabilityID: CVE-2026-58050
+    PkgID: libssh2-1t64@1.11.1-1+deb13u1
+    PkgName: libssh2-1t64
+    PkgIdentifier:
+      PURL: pkg:deb/debian/libssh2-1t64@1.11.1-1%2Bdeb13u1?arch=amd64&distro=debian-13.6
+      UID: 2075d4d5805ceee3
+    InstalledVersion: 1.11.1-1+deb13u1
+    Status: affected
+    Layer:
+      Digest: sha256:5a8d1b467518ec9152d1c32d788ccc4e34f78acacdef7006d5b4f76a9d051e71
+      DiffID: sha256:e8dca12f88fd0e132c78f479fff2264b985e681ab2b151b4ac4a3c8b87b04a50
+    SeveritySource: nvd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-58050
+    DataSource:
+      ID: debian
+      Name: Debian Security Tracker
+      URL: https://salsa.debian.org/security-tracker-team/security-tracker
+    Fingerprint: sha256:c92f9d583b799f3e1008826a6c4595be6ed53591245b8ec171160ef202d0b006
+    Title: 'libssh2: libssh2: Heap buffer overflow via integer overflow in publickey attribute allocation'
+    Description: libssh2 through 1.11.1 reads an attacker-controlled 32-bit attribute count from a publickey-subsystem response and uses it in the allocation num_attrs * sizeof(libssh2_publickey_attribute) without bounds checking, so on 32-bit platforms the multiplication overflows to an undersized buffer. A malicious SSH server can then drive the attribute-parsing loop to write past the allocation, causing a heap buffer overflow in a connecting libssh2 client.
+    Severity: HIGH
+    CweIDs:
+    - CWE-190
+    VendorSeverity:
+      amazon: 3
+      julia: 3
+      nvd: 3
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      julia:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V40Vector: CVSS:4.0/AV:N/AC:H/AT:N/PR:N/UI:N/VC:L/VI:L/VA:H/SC:N/SI:N/SA:N
+        V3Score: 7.5
+        V40Score: 8.3
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:H
+        V3Score: 7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-58050
+    - https://github.com/advisories/GHSA-mf77-5hj2-98w9
+    - https://github.com/bikini/exploitarium/tree/main/libssh2-publickey-list-calc-poc
+    - https://github.com/libssh2/libssh2/blob/master/src/publickey.c
+    - https://github.com/libssh2/libssh2/pull/2205#discussion_r3523193089
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-58050
+    - https://ubuntu.com/security/notices/USN-8532-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-58050
+    - https://www.vulncheck.com/advisories/libssh2-integer-overflow-in-publickey-subsystem-attribute-allocation
+    PublishedDate: '2026-06-28T02:16:32.017Z'
+    LastModifiedDate: '2026-06-30T20:27:36.86Z'
+  - VulnerabilityID: CVE-2026-58051
+    PkgID: libssh2-1t64@1.11.1-1+deb13u1
+    PkgName: libssh2-1t64
+    PkgIdentifier:
+      PURL: pkg:deb/debian/libssh2-1t64@1.11.1-1%2Bdeb13u1?arch=amd64&distro=debian-13.6
+      UID: 2075d4d5805ceee3
+    InstalledVersion: 1.11.1-1+deb13u1
+    Status: affected
+    Layer:
+      Digest: sha256:5a8d1b467518ec9152d1c32d788ccc4e34f78acacdef7006d5b4f76a9d051e71
+      DiffID: sha256:e8dca12f88fd0e132c78f479fff2264b985e681ab2b151b4ac4a3c8b87b04a50
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-58051
+    DataSource:
+      ID: debian
+      Name: Debian Security Tracker
+      URL: https://salsa.debian.org/security-tracker-team/security-tracker
+    Fingerprint: sha256:44be59a73d29a577ef389e0c23b0669bd547ed854cf1374d7a5fdeaff0620e46
+    Title: 'libssh2: libssh2: Denial of service or information disclosure via malformed SSH publickey response'
+    Description: libssh2 through 1.11.1 grows its publickey list with SSH2_REALLOC but does not zero-initialize new entries before parsing populates them, so a parse failure reaching the cleanup path leaves libssh2_publickey_list_free operating on an uninitialized entry. A malicious SSH server offering the publickey subsystem can use a malformed response to make cleanup free an uninitialized, attacker-influenceable attrs pointer in a connecting libssh2 client.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-908
+    VendorSeverity:
+      amazon: 3
+      julia: 3
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      julia:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:H
+        V40Vector: CVSS:4.0/AV:N/AC:H/AT:N/PR:N/UI:N/VC:N/VI:L/VA:H/SC:N/SI:N/SA:N
+        V3Score: 6.5
+        V40Score: 8.3
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:H
+        V3Score: 6.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-58051
+    - https://github.com/advisories/GHSA-c5f3-hwj2-xp5p
+    - https://github.com/bikini/exploitarium/tree/main/libssh2-publickey-list-calc-poc
+    - https://github.com/libssh2/libssh2/blob/master/src/publickey.c
+    - https://github.com/libssh2/libssh2/pull/2202
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-58051
+    - https://ubuntu.com/security/notices/USN-8532-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-58051
+    - https://www.vulncheck.com/advisories/libssh2-free-of-uninitialized-pointer-in-publickey-list-cleanup
+    PublishedDate: '2026-06-28T02:16:32.153Z'
+    LastModifiedDate: '2026-06-30T17:42:04.473Z'
   - VulnerabilityID: CVE-2026-66032
     PkgID: libssh2-1t64@1.11.1-1+deb13u1
     PkgName: libssh2-1t64
@@ -14446,6 +14779,7 @@
       alma: 2
       azure: 4
       cbl-mariner: 4
+      julia: 3
       nvd: 3
       oracle-oval: 2
       photon: 3
@@ -14453,6 +14787,9 @@
       rocky: 2
       ubuntu: 1
     CVSS:
+      julia:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
       nvd:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
         V3Score: 7.8
@@ -14469,7 +14806,10 @@
     - https://errata.almalinux.org/10/ALSA-2026-5913.html
     - https://errata.rockylinux.org/RLSA-2026:5913
     - https://github.com/Cao-Wuhui/CVE-2025-69720
+    - https://github.com/advisories/GHSA-9952-mrqj-h4jh
+    - https://invisible-island.net/archives/ncurses/6.5
     - https://invisible-island.net/archives/ncurses/6.5/
+    - https://invisible-island.net/ncurses
     - https://invisible-island.net/ncurses/
     - https://linux.oracle.com/cve/CVE-2025-69720.html
     - https://linux.oracle.com/errata/ELSA-2026-5913.html
@@ -14753,7 +15093,7 @@
       URL: https://salsa.debian.org/security-tracker-team/security-tracker
     Fingerprint: sha256:b45bb70a7c0845de47c41c8aa6ae23a550da244033fe9128e6dddc1d9f7ee154
     Title: '[Integer Overflow or Wraparound in libblkid/src/partitions/dos.c]'
-    Description: "Package updates are available for Amazon Linux 2023 that fix the following vulnerabilities:\nCVE-2026-53615:\n\tInteger Overflow or Wraparound in libblkid/src/partitions/dos.c\n"
+    Description: "Package updates are available for Amazon Linux 2 that fix the following vulnerabilities:\nCVE-2026-53615:\n\tInteger Overflow or Wraparound in libblkid/src/partitions/dos.c\n"
     Severity: HIGH
     VendorSeverity:
       amazon: 3
@@ -15090,10 +15430,16 @@
     - CWE-611
     VendorSeverity:
       amazon: 2
+      julia: 3
       nvd: 4
       redhat: 2
       ubuntu: 2
     CVSS:
+      julia:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+        V40Vector: CVSS:4.0/AV:N/AC:H/AT:N/PR:N/UI:N/VC:H/VI:L/VA:L/SC:N/SI:N/SA:N/E:P
+        V3Score: 9.8
+        V40Score: 7
       nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
         V3Score: 9.8
@@ -15754,6 +16100,59 @@
     - https://www.cve.org/CVERecord?id=CVE-2019-9192
     PublishedDate: '2019-02-26T18:29:00.34Z'
     LastModifiedDate: '2026-06-17T02:43:19.643Z'
+  - VulnerabilityID: CVE-2026-6368
+    PkgID: locales@2.41-12+deb13u3
+    PkgName: locales
+    PkgIdentifier:
+      PURL: pkg:deb/debian/locales@2.41-12%2Bdeb13u3?arch=all&distro=debian-13.6
+      UID: 6874c8fef0228929
+    InstalledVersion: 2.41-12+deb13u3
+    Status: affected
+    Layer:
+      Digest: sha256:5a8d1b467518ec9152d1c32d788ccc4e34f78acacdef7006d5b4f76a9d051e71
+      DiffID: sha256:e8dca12f88fd0e132c78f479fff2264b985e681ab2b151b4ac4a3c8b87b04a50
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-6368
+    DataSource:
+      ID: debian
+      Name: Debian Security Tracker
+      URL: https://salsa.debian.org/security-tracker-team/security-tracker
+    Fingerprint: sha256:6a44aaac93bee15f2cbd4bc93b35691e92449baae1ca0a2261327d0f3d7791d8
+    Title: Calling wordexp with WRDE_APPEND in the GNU C Library version 2.0 to v ...
+    Description: "Calling wordexp with WRDE_APPEND in the GNU C Library version 2.0 to version 2.43\_can cause the interface to return invalid memory in the we_wordv member, which on subsequent calls to wordfree may abort the process."
+    Severity: UNKNOWN
+    CweIDs:
+    - CWE-908
+    References:
+    - https://sourceware.org/bugzilla/show_bug.cgi?id=34090
+    - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2026-0014;h=1e9a0039f07471ddfe6816e5df04875bec409f92;hb=HEAD
+    PublishedDate: '2026-08-10T19:17:30.713Z'
+    LastModifiedDate: '2026-08-10T19:17:30.713Z'
+  - VulnerabilityID: CVE-2026-6791
+    PkgID: locales@2.41-12+deb13u3
+    PkgName: locales
+    PkgIdentifier:
+      PURL: pkg:deb/debian/locales@2.41-12%2Bdeb13u3?arch=all&distro=debian-13.6
+      UID: 6874c8fef0228929
+    InstalledVersion: 2.41-12+deb13u3
+    Status: affected
+    Layer:
+      Digest: sha256:5a8d1b467518ec9152d1c32d788ccc4e34f78acacdef7006d5b4f76a9d051e71
+      DiffID: sha256:e8dca12f88fd0e132c78f479fff2264b985e681ab2b151b4ac4a3c8b87b04a50
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-6791
+    DataSource:
+      ID: debian
+      Name: Debian Security Tracker
+      URL: https://salsa.debian.org/security-tracker-team/security-tracker
+    Fingerprint: sha256:48bcd5993d63f8202534052fbfed74b040ea0100af12c5496c86836359bfe08f
+    Title: When expanding paths that begin with a tilde (~) followed by a usernam ...
+    Description: When expanding paths that begin with a tilde (~) followed by a username, the internal parse_tilde function extracts the username to determine the user's home directory.  The implementation allocates memory for this username directly on the stack using the strndupa macro. Because the size of this allocation was determined by the length of the user-supplied input without any bounds checks, passing an excessively long username e.g. thousands of characters, forces the thread to exhaust its stack space. Thus if an application passes untrusted, attacker-controlled input to the wordexp function, an attacker can trigger a stack clash.
+    Severity: UNKNOWN
+    CweIDs:
+    - CWE-121
+    References:
+    - https://sourceware.org/bugzilla/show_bug.cgi?id=34091
+    PublishedDate: '2026-08-10T19:17:30.877Z'
+    LastModifiedDate: '2026-08-10T19:17:30.877Z'
   - VulnerabilityID: CVE-2026-53615
     PkgID: login@1:4.16.0-2+really2.41-5
     PkgName: login
@@ -15772,7 +16171,7 @@
       URL: https://salsa.debian.org/security-tracker-team/security-tracker
     Fingerprint: sha256:212d6543019b442f9d3cc65f9a713a654b6269e5ac6b0fdd63f87f41dcd47e35
     Title: '[Integer Overflow or Wraparound in libblkid/src/partitions/dos.c]'
-    Description: "Package updates are available for Amazon Linux 2023 that fix the following vulnerabilities:\nCVE-2026-53615:\n\tInteger Overflow or Wraparound in libblkid/src/partitions/dos.c\n"
+    Description: "Package updates are available for Amazon Linux 2 that fix the following vulnerabilities:\nCVE-2026-53615:\n\tInteger Overflow or Wraparound in libblkid/src/partitions/dos.c\n"
     Severity: HIGH
     VendorSeverity:
       amazon: 3
@@ -16212,7 +16611,7 @@
       URL: https://salsa.debian.org/security-tracker-team/security-tracker
     Fingerprint: sha256:8e2b29a5e6f4e3cb03bd9fc961fc3d0e7f4a02ade9808a68d9b0ae1e5110f1fa
     Title: '[Integer Overflow or Wraparound in libblkid/src/partitions/dos.c]'
-    Description: "Package updates are available for Amazon Linux 2023 that fix the following vulnerabilities:\nCVE-2026-53615:\n\tInteger Overflow or Wraparound in libblkid/src/partitions/dos.c\n"
+    Description: "Package updates are available for Amazon Linux 2 that fix the following vulnerabilities:\nCVE-2026-53615:\n\tInteger Overflow or Wraparound in libblkid/src/partitions/dos.c\n"
     Severity: HIGH
     VendorSeverity:
       amazon: 3
@@ -16587,6 +16986,7 @@
       alma: 2
       azure: 4
       cbl-mariner: 4
+      julia: 3
       nvd: 3
       oracle-oval: 2
       photon: 3
@@ -16594,6 +16994,9 @@
       rocky: 2
       ubuntu: 1
     CVSS:
+      julia:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
       nvd:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
         V3Score: 7.8
@@ -16610,7 +17013,10 @@
     - https://errata.almalinux.org/10/ALSA-2026-5913.html
     - https://errata.rockylinux.org/RLSA-2026:5913
     - https://github.com/Cao-Wuhui/CVE-2025-69720
+    - https://github.com/advisories/GHSA-9952-mrqj-h4jh
+    - https://invisible-island.net/archives/ncurses/6.5
     - https://invisible-island.net/archives/ncurses/6.5/
+    - https://invisible-island.net/ncurses
     - https://invisible-island.net/ncurses/
     - https://linux.oracle.com/cve/CVE-2025-69720.html
     - https://linux.oracle.com/errata/ELSA-2026-5913.html
@@ -16705,6 +17111,7 @@
       alma: 2
       azure: 4
       cbl-mariner: 4
+      julia: 3
       nvd: 3
       oracle-oval: 2
       photon: 3
@@ -16712,6 +17119,9 @@
       rocky: 2
       ubuntu: 1
     CVSS:
+      julia:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
       nvd:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
         V3Score: 7.8
@@ -16728,7 +17138,10 @@
     - https://errata.almalinux.org/10/ALSA-2026-5913.html
     - https://errata.rockylinux.org/RLSA-2026:5913
     - https://github.com/Cao-Wuhui/CVE-2025-69720
+    - https://github.com/advisories/GHSA-9952-mrqj-h4jh
+    - https://invisible-island.net/archives/ncurses/6.5
     - https://invisible-island.net/archives/ncurses/6.5/
+    - https://invisible-island.net/ncurses
     - https://invisible-island.net/ncurses/
     - https://linux.oracle.com/cve/CVE-2025-69720.html
     - https://linux.oracle.com/errata/ELSA-2026-5913.html
@@ -16823,6 +17236,7 @@
       alma: 2
       azure: 4
       cbl-mariner: 4
+      julia: 3
       nvd: 3
       oracle-oval: 2
       photon: 3
@@ -16830,6 +17244,9 @@
       rocky: 2
       ubuntu: 1
     CVSS:
+      julia:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
       nvd:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
         V3Score: 7.8
@@ -16846,7 +17263,10 @@
     - https://errata.almalinux.org/10/ALSA-2026-5913.html
     - https://errata.rockylinux.org/RLSA-2026:5913
     - https://github.com/Cao-Wuhui/CVE-2025-69720
+    - https://github.com/advisories/GHSA-9952-mrqj-h4jh
+    - https://invisible-island.net/archives/ncurses/6.5
     - https://invisible-island.net/archives/ncurses/6.5/
+    - https://invisible-island.net/ncurses
     - https://invisible-island.net/ncurses/
     - https://linux.oracle.com/cve/CVE-2025-69720.html
     - https://linux.oracle.com/errata/ELSA-2026-5913.html
@@ -20842,6 +21262,42 @@
     - https://www.cve.org/CVERecord?id=CVE-2011-4116
     PublishedDate: '2020-01-31T18:15:11.343Z'
     LastModifiedDate: '2025-08-04T19:04:38.29Z'
+  - VulnerabilityID: CVE-2026-15534
+    PkgID: perl@5.40.1-6
+    PkgName: perl
+    PkgIdentifier:
+      PURL: pkg:deb/debian/perl@5.40.1-6?arch=amd64&distro=debian-13.6
+      UID: 557491d5d25d44f8
+    InstalledVersion: 5.40.1-6
+    Status: fix_deferred
+    Layer:
+      Digest: sha256:5a8d1b467518ec9152d1c32d788ccc4e34f78acacdef7006d5b4f76a9d051e71
+      DiffID: sha256:e8dca12f88fd0e132c78f479fff2264b985e681ab2b151b4ac4a3c8b87b04a50
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-15534
+    DataSource:
+      ID: debian
+      Name: Debian Security Tracker
+      URL: https://salsa.debian.org/security-tracker-team/security-tracker
+    Fingerprint: sha256:c46e854605ab021f969b774ecd57dc654d29eb128958984fb0a664268e597b3f
+    Title: Perl versions through 5.45.1 have out-of-bounds heap reads and writes  ...
+    Description: |-
+      Perl versions through 5.45.1 have out-of-bounds heap reads and writes during regular expression matching via an undersized superlinear cache in S_regmatch.
+
+      The regex engine's superlinear cache holds one bit per subject position for each participating WHILEM node, so the bit count is the subject length plus one times the number of nodes. Nothing checks that product for positive overflow of the signed 32-bit count: a 286331153 byte subject matched against a pattern with 15 participating nodes stores the count as 14, leaving a two byte cache. The cache is then indexed from the real match position and node number, so reads go past the end of the allocation, and on failure CACHEsayNO sets a bit past it.
+
+      A caller that matches an attacker controlled subject of this size against a pattern of this shape can crash the process or corrupt heap memory.
+    Severity: UNKNOWN
+    CweIDs:
+    - CWE-125
+    - CWE-190
+    - CWE-787
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/08/09/12
+    - http://www.openwall.com/lists/oss-security/2026/08/09/13
+    - https://github.com/Perl/perl5/commit/54cf3d44cbbedd17d774e9a37921963e8fd5d0cb.patch
+    - https://github.com/Perl/perl5/commit/568e6fd238867bb9e99fa3f47cba3169009239e0.patch
+    PublishedDate: '2026-08-09T18:16:42.8Z'
+    LastModifiedDate: '2026-08-09T22:16:30.373Z'
   - VulnerabilityID: CVE-2026-7017
     PkgID: perl@5.40.1-6
     PkgName: perl
@@ -21561,6 +22017,42 @@
     - https://www.cve.org/CVERecord?id=CVE-2011-4116
     PublishedDate: '2020-01-31T18:15:11.343Z'
     LastModifiedDate: '2025-08-04T19:04:38.29Z'
+  - VulnerabilityID: CVE-2026-15534
+    PkgID: perl-base@5.40.1-6
+    PkgName: perl-base
+    PkgIdentifier:
+      PURL: pkg:deb/debian/perl-base@5.40.1-6?arch=amd64&distro=debian-13.6
+      UID: 99e310eaf1c93ec7
+    InstalledVersion: 5.40.1-6
+    Status: fix_deferred
+    Layer:
+      Digest: sha256:5a8d1b467518ec9152d1c32d788ccc4e34f78acacdef7006d5b4f76a9d051e71
+      DiffID: sha256:e8dca12f88fd0e132c78f479fff2264b985e681ab2b151b4ac4a3c8b87b04a50
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-15534
+    DataSource:
+      ID: debian
+      Name: Debian Security Tracker
+      URL: https://salsa.debian.org/security-tracker-team/security-tracker
+    Fingerprint: sha256:0bf5053ed88fca0a7415e0b3e919d44d81bd60e7dd2da7aaee384836e3201dcd
+    Title: Perl versions through 5.45.1 have out-of-bounds heap reads and writes  ...
+    Description: |-
+      Perl versions through 5.45.1 have out-of-bounds heap reads and writes during regular expression matching via an undersized superlinear cache in S_regmatch.
+
+      The regex engine's superlinear cache holds one bit per subject position for each participating WHILEM node, so the bit count is the subject length plus one times the number of nodes. Nothing checks that product for positive overflow of the signed 32-bit count: a 286331153 byte subject matched against a pattern with 15 participating nodes stores the count as 14, leaving a two byte cache. The cache is then indexed from the real match position and node number, so reads go past the end of the allocation, and on failure CACHEsayNO sets a bit past it.
+
+      A caller that matches an attacker controlled subject of this size against a pattern of this shape can crash the process or corrupt heap memory.
+    Severity: UNKNOWN
+    CweIDs:
+    - CWE-125
+    - CWE-190
+    - CWE-787
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/08/09/12
+    - http://www.openwall.com/lists/oss-security/2026/08/09/13
+    - https://github.com/Perl/perl5/commit/54cf3d44cbbedd17d774e9a37921963e8fd5d0cb.patch
+    - https://github.com/Perl/perl5/commit/568e6fd238867bb9e99fa3f47cba3169009239e0.patch
+    PublishedDate: '2026-08-09T18:16:42.8Z'
+    LastModifiedDate: '2026-08-09T22:16:30.373Z'
   - VulnerabilityID: CVE-2026-7017
     PkgID: perl-base@5.40.1-6
     PkgName: perl-base
@@ -22280,6 +22772,42 @@
     - https://www.cve.org/CVERecord?id=CVE-2011-4116
     PublishedDate: '2020-01-31T18:15:11.343Z'
     LastModifiedDate: '2025-08-04T19:04:38.29Z'
+  - VulnerabilityID: CVE-2026-15534
+    PkgID: perl-modules-5.40@5.40.1-6
+    PkgName: perl-modules-5.40
+    PkgIdentifier:
+      PURL: pkg:deb/debian/perl-modules-5.40@5.40.1-6?arch=all&distro=debian-13.6
+      UID: 9bd83fa4dd131a41
+    InstalledVersion: 5.40.1-6
+    Status: fix_deferred
+    Layer:
+      Digest: sha256:5a8d1b467518ec9152d1c32d788ccc4e34f78acacdef7006d5b4f76a9d051e71
+      DiffID: sha256:e8dca12f88fd0e132c78f479fff2264b985e681ab2b151b4ac4a3c8b87b04a50
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-15534
+    DataSource:
+      ID: debian
+      Name: Debian Security Tracker
+      URL: https://salsa.debian.org/security-tracker-team/security-tracker
+    Fingerprint: sha256:dd44d88abb63a05947b596908387a88ce166b913078cb1d6d75658908174255d
+    Title: Perl versions through 5.45.1 have out-of-bounds heap reads and writes  ...
+    Description: |-
+      Perl versions through 5.45.1 have out-of-bounds heap reads and writes during regular expression matching via an undersized superlinear cache in S_regmatch.
+
+      The regex engine's superlinear cache holds one bit per subject position for each participating WHILEM node, so the bit count is the subject length plus one times the number of nodes. Nothing checks that product for positive overflow of the signed 32-bit count: a 286331153 byte subject matched against a pattern with 15 participating nodes stores the count as 14, leaving a two byte cache. The cache is then indexed from the real match position and node number, so reads go past the end of the allocation, and on failure CACHEsayNO sets a bit past it.
+
+      A caller that matches an attacker controlled subject of this size against a pattern of this shape can crash the process or corrupt heap memory.
+    Severity: UNKNOWN
+    CweIDs:
+    - CWE-125
+    - CWE-190
+    - CWE-787
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/08/09/12
+    - http://www.openwall.com/lists/oss-security/2026/08/09/13
+    - https://github.com/Perl/perl5/commit/54cf3d44cbbedd17d774e9a37921963e8fd5d0cb.patch
+    - https://github.com/Perl/perl5/commit/568e6fd238867bb9e99fa3f47cba3169009239e0.patch
+    PublishedDate: '2026-08-09T18:16:42.8Z'
+    LastModifiedDate: '2026-08-09T22:16:30.373Z'
   - VulnerabilityID: CVE-2026-7017
     PkgID: perl-modules-5.40@5.40.1-6
     PkgName: perl-modules-5.40
@@ -23518,6 +24046,7 @@
     Layer:
       Digest: sha256:5a8d1b467518ec9152d1c32d788ccc4e34f78acacdef7006d5b4f76a9d051e71
       DiffID: sha256:e8dca12f88fd0e132c78f479fff2264b985e681ab2b151b4ac4a3c8b87b04a50
+    SeveritySource: debian
     PrimaryURL: https://security-tracker.debian.org/tracker/TEMP-1142904-117334
     DataSource:
       ID: debian
@@ -23525,7 +24054,9 @@
       URL: https://salsa.debian.org/security-tracker-team/security-tracker
     Fingerprint: sha256:122f75bab77a7b9c12cabb0b06379dee04660c0d588cbbbeda9202fb5500868f
     Title: '[heap OOB read in EF_IZUNIX3 extra field handler]'
-    Severity: UNKNOWN
+    Severity: LOW
+    VendorSeverity:
+      debian: 1
   - VulnerabilityID: TEMP-1142905-081994
     PkgID: unzip@6.0-29
     PkgName: unzip
@@ -23537,6 +24068,7 @@
     Layer:
       Digest: sha256:5a8d1b467518ec9152d1c32d788ccc4e34f78acacdef7006d5b4f76a9d051e71
       DiffID: sha256:e8dca12f88fd0e132c78f479fff2264b985e681ab2b151b4ac4a3c8b87b04a50
+    SeveritySource: debian
     PrimaryURL: https://security-tracker.debian.org/tracker/TEMP-1142905-081994
     DataSource:
       ID: debian
@@ -23544,7 +24076,9 @@
       URL: https://salsa.debian.org/security-tracker-team/security-tracker
     Fingerprint: sha256:7acd6acad7d29b33d2eb29573aba9bd7416ed2b5ac458b7656fb7ececc3bd121
     Title: '[stack out-of-bounds NUL write in EF_SMARTZIP handler]'
-    Severity: UNKNOWN
+    Severity: LOW
+    VendorSeverity:
+      debian: 1
   - VulnerabilityID: TEMP-1142906-2C6C79
     PkgID: unzip@6.0-29
     PkgName: unzip
@@ -23582,7 +24116,7 @@
       URL: https://salsa.debian.org/security-tracker-team/security-tracker
     Fingerprint: sha256:01dcae0e01ac4eb347a8d233eccb7d3a9348b702811a8ef889b044d97734c938
     Title: '[Integer Overflow or Wraparound in libblkid/src/partitions/dos.c]'
-    Description: "Package updates are available for Amazon Linux 2023 that fix the following vulnerabilities:\nCVE-2026-53615:\n\tInteger Overflow or Wraparound in libblkid/src/partitions/dos.c\n"
+    Description: "Package updates are available for Amazon Linux 2 that fix the following vulnerabilities:\nCVE-2026-53615:\n\tInteger Overflow or Wraparound in libblkid/src/partitions/dos.c\n"
     Severity: HIGH
     VendorSeverity:
       amazon: 3
@@ -24447,6 +24981,10 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H
         V3Score: 7.3
     References:
+    - https://access.redhat.com/errata/RHSA-2026:38509
+    - https://access.redhat.com/errata/RHSA-2026:38510
+    - https://access.redhat.com/errata/RHSA-2026:38511
+    - https://access.redhat.com/errata/RHSA-2026:53371
     - https://access.redhat.com/security/cve/CVE-2026-47162
     - https://bugzilla.redhat.com/show_bug.cgi?id=2487964
     - https://github.com/vim/vim/commit/f08ab2f4d7d2947c8dd6c179ae08ee6146a2694b
@@ -24459,7 +24997,7 @@
     - https://ubuntu.com/security/notices/USN-8451-1
     - https://www.cve.org/CVERecord?id=CVE-2026-47162
     PublishedDate: '2026-06-11T19:16:44.16Z'
-    LastModifiedDate: '2026-07-15T02:22:19.393Z'
+    LastModifiedDate: '2026-08-11T13:18:56Z'
   - VulnerabilityID: CVE-2026-52858
     PkgID: vim@2:9.1.1230-2
     PkgName: vim
@@ -25461,7 +25999,7 @@
       Name: Debian Security Tracker
       URL: https://salsa.debian.org/security-tracker-team/security-tracker
     Fingerprint: sha256:7eb82089eb08163c2b2297cfeee57f3802a784c0773c9390a7668d1f175d521f
-    Title: Vim is an open source, command line text editor. Prior to version 9.2. ...
+    Title: 'vim: Vim: Arbitrary code execution via crafted step-definition patterns'
     Description: Vim is an open source, command line text editor. Prior to version 9.2.0496, a code injection vulnerability exists in s:stepmatch() in the cucumber filetype plugin (runtime/ftplugin/cucumber.vim) on Vim builds with +ruby support. Step-definition patterns read from .rb files under the repository's features/*/ or stories/*/ directories are embedded into a Ruby Kernel.eval argument without sufficient escaping, allowing a crafted pattern in an attacker-controlled repository to execute arbitrary Ruby (and through it arbitrary shell commands) when the user invokes a step-jump mapping ([d, ]d). This issue has been patched in version 9.2.0496.
     Severity: MEDIUM
     CweIDs:
@@ -25473,12 +26011,17 @@
       nvd: 2
       oracle-oval: 3
       photon: 2
+      redhat: 3
       ubuntu: 2
     CVSS:
       nvd:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:L
         V3Score: 5.3
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.3
     References:
+    - https://access.redhat.com/security/cve/CVE-2026-47167
     - https://github.com/vim/vim/commit/a65a52d684bc58535ad28a4ae824d22e76399934
     - https://github.com/vim/vim/releases/tag/v9.2.0496
     - https://github.com/vim/vim/security/advisories/GHSA-4473-94jm-w5x9
@@ -25909,6 +26452,173 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-52859
     PublishedDate: '2026-06-11T19:16:47.627Z'
     LastModifiedDate: '2026-06-17T10:57:53.623Z'
+  - VulnerabilityID: CVE-2026-73070
+    PkgID: vim@2:9.1.1230-2
+    PkgName: vim
+    PkgIdentifier:
+      PURL: pkg:deb/debian/vim@9.1.1230-2?arch=amd64&distro=debian-13.6&epoch=2
+      UID: af7f6a1370cdd0dc
+    InstalledVersion: 2:9.1.1230-2
+    Status: affected
+    Layer:
+      Digest: sha256:5a8d1b467518ec9152d1c32d788ccc4e34f78acacdef7006d5b4f76a9d051e71
+      DiffID: sha256:e8dca12f88fd0e132c78f479fff2264b985e681ab2b151b4ac4a3c8b87b04a50
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-73070
+    DataSource:
+      ID: debian
+      Name: Debian Security Tracker
+      URL: https://salsa.debian.org/security-tracker-team/security-tracker
+    Fingerprint: sha256:e68170452264bb954926bc5376dc33174138ce7c408528b9950d1faa80405d85
+    Title: Vim is an open source, command line text editor. Prior to 9.2.0842, th ...
+    Description: Vim is an open source, command line text editor. Prior to 9.2.0842, the socket server backend in src/socketserver.c accepts unbounded client connections in socketserver_accept(), causing descriptors to overflow fd_set structures in src/channel.c and fixed-size struct pollfd arrays in src/os_unix.c, which allows a local process that can connect to the server socket to corrupt stack memory or terminate the Vim server. This issue is fixed in version 9.2.0842.
+    Severity: UNKNOWN
+    CweIDs:
+    - CWE-121
+    References:
+    - https://github.com/vim/vim/commit/5598618b2daf8e36b3bf0251caaefcf0bf8e85e4
+    - https://github.com/vim/vim/releases/tag/v9.2.0842
+    - https://github.com/vim/vim/security/advisories/GHSA-49m8-wwxj-mr69
+    PublishedDate: '2026-08-11T16:17:38.257Z'
+    LastModifiedDate: '2026-08-11T16:17:38.257Z'
+  - VulnerabilityID: CVE-2026-73072
+    PkgID: vim@2:9.1.1230-2
+    PkgName: vim
+    PkgIdentifier:
+      PURL: pkg:deb/debian/vim@9.1.1230-2?arch=amd64&distro=debian-13.6&epoch=2
+      UID: af7f6a1370cdd0dc
+    InstalledVersion: 2:9.1.1230-2
+    Status: affected
+    Layer:
+      Digest: sha256:5a8d1b467518ec9152d1c32d788ccc4e34f78acacdef7006d5b4f76a9d051e71
+      DiffID: sha256:e8dca12f88fd0e132c78f479fff2264b985e681ab2b151b4ac4a3c8b87b04a50
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-73072
+    DataSource:
+      ID: debian
+      Name: Debian Security Tracker
+      URL: https://salsa.debian.org/security-tracker-team/security-tracker
+    Fingerprint: sha256:418ecc0b741f558809bbc2b026f3609f6a239981090d95eec2069dc9f41ce8c7
+    Title: Vim is an open source, command line text editor. Prior to 9.2.0846, se ...
+    Description: Vim is an open source, command line text editor. Prior to 9.2.0846, set_sofo() in src/spellfile.c reuses sl_sal_first[] without resetting values left by set_sal_first(), so a crafted spell file containing an SN_SAL section before an SN_SOFO section causes under-counted mapping lists and attacker-influenced writes beyond a heap allocation. This issue is fixed in version 9.2.0846.
+    Severity: UNKNOWN
+    CweIDs:
+    - CWE-122
+    - CWE-787
+    References:
+    - https://github.com/vim/vim/commit/05c41c922309c7a11b6ec2f124be66551c90d66a
+    - https://github.com/vim/vim/releases/tag/v9.2.0846
+    - https://github.com/vim/vim/security/advisories/GHSA-9jqx-hgpr-6v64
+    PublishedDate: '2026-08-11T16:17:38.553Z'
+    LastModifiedDate: '2026-08-11T16:17:38.553Z'
+  - VulnerabilityID: CVE-2026-73074
+    PkgID: vim@2:9.1.1230-2
+    PkgName: vim
+    PkgIdentifier:
+      PURL: pkg:deb/debian/vim@9.1.1230-2?arch=amd64&distro=debian-13.6&epoch=2
+      UID: af7f6a1370cdd0dc
+    InstalledVersion: 2:9.1.1230-2
+    Status: affected
+    Layer:
+      Digest: sha256:5a8d1b467518ec9152d1c32d788ccc4e34f78acacdef7006d5b4f76a9d051e71
+      DiffID: sha256:e8dca12f88fd0e132c78f479fff2264b985e681ab2b151b4ac4a3c8b87b04a50
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-73074
+    DataSource:
+      ID: debian
+      Name: Debian Security Tracker
+      URL: https://salsa.debian.org/security-tracker-team/security-tracker
+    Fingerprint: sha256:c9e325cd2dfdd3e89ab4c3b9461db9705472738c5f66af99c3b68cca9af8e08f
+    Title: Vim is an open source, command line text editor. Prior to 9.2.0841, pr ...
+    Description: Vim is an open source, command line text editor. Prior to 9.2.0841, prop_add_one() in src/textprop.c uses the proplen value from get_text_props() to increment a uint16_t property count beyond 0xffff, wrapping the count to zero and copying existing text-property records into a heap allocation sized for none of them. This issue is fixed in version 9.2.0841.
+    Severity: UNKNOWN
+    CweIDs:
+    - CWE-190
+    References:
+    - https://github.com/vim/vim/commit/a9336b476fd1a182e3f79b5f83c0ffb04f8a922b
+    - https://github.com/vim/vim/security/advisories/GHSA-hm4g-pjfx-m27j
+    PublishedDate: '2026-08-11T16:17:38.697Z'
+    LastModifiedDate: '2026-08-11T16:17:38.697Z'
+  - VulnerabilityID: CVE-2026-73076
+    PkgID: vim@2:9.1.1230-2
+    PkgName: vim
+    PkgIdentifier:
+      PURL: pkg:deb/debian/vim@9.1.1230-2?arch=amd64&distro=debian-13.6&epoch=2
+      UID: af7f6a1370cdd0dc
+    InstalledVersion: 2:9.1.1230-2
+    Status: affected
+    Layer:
+      Digest: sha256:5a8d1b467518ec9152d1c32d788ccc4e34f78acacdef7006d5b4f76a9d051e71
+      DiffID: sha256:e8dca12f88fd0e132c78f479fff2264b985e681ab2b151b4ac4a3c8b87b04a50
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-73076
+    DataSource:
+      ID: debian
+      Name: Debian Security Tracker
+      URL: https://salsa.debian.org/security-tracker-team/security-tracker
+    Fingerprint: sha256:81c4583f7f8dd868c6664c51a58c41dd4dcc0ce73c334b3acef6c1d327d4c110
+    Title: Vim is an open source, command line text editor. Prior to 9.2.0847, ru ...
+    Description: Vim is an open source, command line text editor. Prior to 9.2.0847, runtime/autoload/vimball.vim allows a crafted vimball member named .VimballRecord to overwrite the installation record with attacker-chosen commands. When vimball#RmVimball() later processes the matching record entry, the stored Ex commands, including operating-system commands invoked through :!, execute with the privileges of the user running Vim. This issue is fixed in version 9.2.0847.
+    Severity: UNKNOWN
+    CweIDs:
+    - CWE-94
+    - CWE-829
+    References:
+    - https://github.com/vim/vim/commit/581a2f3ac9c6f96a26324f6b2c8c11415fd0d452
+    - https://github.com/vim/vim/security/advisories/GHSA-r22p-fhw4-84p2
+    PublishedDate: '2026-08-11T16:17:38.98Z'
+    LastModifiedDate: '2026-08-11T16:17:38.98Z'
+  - VulnerabilityID: CVE-2026-73077
+    PkgID: vim@2:9.1.1230-2
+    PkgName: vim
+    PkgIdentifier:
+      PURL: pkg:deb/debian/vim@9.1.1230-2?arch=amd64&distro=debian-13.6&epoch=2
+      UID: af7f6a1370cdd0dc
+    InstalledVersion: 2:9.1.1230-2
+    Status: affected
+    Layer:
+      Digest: sha256:5a8d1b467518ec9152d1c32d788ccc4e34f78acacdef7006d5b4f76a9d051e71
+      DiffID: sha256:e8dca12f88fd0e132c78f479fff2264b985e681ab2b151b4ac4a3c8b87b04a50
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-73077
+    DataSource:
+      ID: debian
+      Name: Debian Security Tracker
+      URL: https://salsa.debian.org/security-tracker-team/security-tracker
+    Fingerprint: sha256:9cc4ab752f0eb1cc538eaa0071ec4cb56789143b7644eb050eeaf0a308b834dd
+    Title: Vim is an open source, command line text editor. Prior to 9.2.0839, th ...
+    Description: Vim is an open source, command line text editor. Prior to 9.2.0839, the runtime/ftplugin/sh.vim, runtime/ftplugin/zsh.vim, and runtime/ftplugin/ps1.vim filetype plugins pass attacker-controlled Visual-mode selections from K through keywordprg commands without safely separating shell arguments. fnameescape() and PATH_ESC_CHARS do not neutralize shell metacharacters before ShKeywordPrg, ZshKeywordPrg, or GetHelp invokes bash, zsh, or PowerShell, allowing arbitrary operating-system commands to execute with the privileges of the user running Vim. This issue is fixed in version 9.2.0839.
+    Severity: UNKNOWN
+    CweIDs:
+    - CWE-78
+    References:
+    - https://github.com/vim/vim/commit/c5a82fe013e73c98004ad7cd4f906b1ad1ed610e
+    - https://github.com/vim/vim/security/advisories/GHSA-r5v6-q6j8-8qw2
+    PublishedDate: '2026-08-11T16:17:39.43Z'
+    LastModifiedDate: '2026-08-11T19:18:50.743Z'
+  - VulnerabilityID: CVE-2026-73078
+    PkgID: vim@2:9.1.1230-2
+    PkgName: vim
+    PkgIdentifier:
+      PURL: pkg:deb/debian/vim@9.1.1230-2?arch=amd64&distro=debian-13.6&epoch=2
+      UID: af7f6a1370cdd0dc
+    InstalledVersion: 2:9.1.1230-2
+    Status: affected
+    Layer:
+      Digest: sha256:5a8d1b467518ec9152d1c32d788ccc4e34f78acacdef7006d5b4f76a9d051e71
+      DiffID: sha256:e8dca12f88fd0e132c78f479fff2264b985e681ab2b151b4ac4a3c8b87b04a50
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-73078
+    DataSource:
+      ID: debian
+      Name: Debian Security Tracker
+      URL: https://salsa.debian.org/security-tracker-team/security-tracker
+    Fingerprint: sha256:dd3f5eeb338d4807b4bcae5170e935609efb2ace83eb3bffcab9a5d81a189056
+    Title: Vim is an open source, command line text editor. Prior to 9.2.0840, ru ...
+    Description: Vim is an open source, command line text editor. Prior to 9.2.0840, runtime/plugin/netrwPlugin.vim loads netrw and runtime/pack/dist/opt/netrw/autoload/netrw.vim constructs Bookmarks, History, and Targets menu entries by interpolating attacker-controlled directory paths into executed :menu commands. s:NetrwBookmarkMenu(), s:NetrwTgtMenu(), g:netrw_menu_escape, EX_TRLBAR, and netrw#MakeTgt() fail to neutralize the | command separator or single quotes at five construction sites, allowing a crafted path browsed or bookmarked in GUI Vim to execute arbitrary Ex and operating-system commands. This issue is fixed in version 9.2.0840.
+    Severity: UNKNOWN
+    CweIDs:
+    - CWE-77
+    - CWE-184
+    References:
+    - https://github.com/vim/vim/commit/29c6fd090d4520592f8be7d9ec81190edf25ef69
+    - https://github.com/vim/vim/security/advisories/GHSA-rcr7-f3wr-22r2
+    PublishedDate: '2026-08-11T16:17:39.573Z'
+    LastModifiedDate: '2026-08-11T17:19:15.6Z'
   - VulnerabilityID: CVE-2026-26269
     PkgID: vim-common@2:9.1.1230-2
     PkgName: vim-common
@@ -26463,6 +27173,10 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H
         V3Score: 7.3
     References:
+    - https://access.redhat.com/errata/RHSA-2026:38509
+    - https://access.redhat.com/errata/RHSA-2026:38510
+    - https://access.redhat.com/errata/RHSA-2026:38511
+    - https://access.redhat.com/errata/RHSA-2026:53371
     - https://access.redhat.com/security/cve/CVE-2026-47162
     - https://bugzilla.redhat.com/show_bug.cgi?id=2487964
     - https://github.com/vim/vim/commit/f08ab2f4d7d2947c8dd6c179ae08ee6146a2694b
@@ -26475,7 +27189,7 @@
     - https://ubuntu.com/security/notices/USN-8451-1
     - https://www.cve.org/CVERecord?id=CVE-2026-47162
     PublishedDate: '2026-06-11T19:16:44.16Z'
-    LastModifiedDate: '2026-07-15T02:22:19.393Z'
+    LastModifiedDate: '2026-08-11T13:18:56Z'
   - VulnerabilityID: CVE-2026-52858
     PkgID: vim-common@2:9.1.1230-2
     PkgName: vim-common
@@ -27477,7 +28191,7 @@
       Name: Debian Security Tracker
       URL: https://salsa.debian.org/security-tracker-team/security-tracker
     Fingerprint: sha256:b7e5bf2a745978041d26b92611163aefec42a95e8acf2f9750586453358e0581
-    Title: Vim is an open source, command line text editor. Prior to version 9.2. ...
+    Title: 'vim: Vim: Arbitrary code execution via crafted step-definition patterns'
     Description: Vim is an open source, command line text editor. Prior to version 9.2.0496, a code injection vulnerability exists in s:stepmatch() in the cucumber filetype plugin (runtime/ftplugin/cucumber.vim) on Vim builds with +ruby support. Step-definition patterns read from .rb files under the repository's features/*/ or stories/*/ directories are embedded into a Ruby Kernel.eval argument without sufficient escaping, allowing a crafted pattern in an attacker-controlled repository to execute arbitrary Ruby (and through it arbitrary shell commands) when the user invokes a step-jump mapping ([d, ]d). This issue has been patched in version 9.2.0496.
     Severity: MEDIUM
     CweIDs:
@@ -27489,12 +28203,17 @@
       nvd: 2
       oracle-oval: 3
       photon: 2
+      redhat: 3
       ubuntu: 2
     CVSS:
       nvd:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:L
         V3Score: 5.3
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.3
     References:
+    - https://access.redhat.com/security/cve/CVE-2026-47167
     - https://github.com/vim/vim/commit/a65a52d684bc58535ad28a4ae824d22e76399934
     - https://github.com/vim/vim/releases/tag/v9.2.0496
     - https://github.com/vim/vim/security/advisories/GHSA-4473-94jm-w5x9
@@ -27925,6 +28644,173 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-52859
     PublishedDate: '2026-06-11T19:16:47.627Z'
     LastModifiedDate: '2026-06-17T10:57:53.623Z'
+  - VulnerabilityID: CVE-2026-73070
+    PkgID: vim-common@2:9.1.1230-2
+    PkgName: vim-common
+    PkgIdentifier:
+      PURL: pkg:deb/debian/vim-common@9.1.1230-2?arch=all&distro=debian-13.6&epoch=2
+      UID: e8f06e7c2f75499
+    InstalledVersion: 2:9.1.1230-2
+    Status: affected
+    Layer:
+      Digest: sha256:5a8d1b467518ec9152d1c32d788ccc4e34f78acacdef7006d5b4f76a9d051e71
+      DiffID: sha256:e8dca12f88fd0e132c78f479fff2264b985e681ab2b151b4ac4a3c8b87b04a50
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-73070
+    DataSource:
+      ID: debian
+      Name: Debian Security Tracker
+      URL: https://salsa.debian.org/security-tracker-team/security-tracker
+    Fingerprint: sha256:7d4b839a9e13d83ddc8b6282ddb9bb675f84312e073b0a623ee69c475a3e551a
+    Title: Vim is an open source, command line text editor. Prior to 9.2.0842, th ...
+    Description: Vim is an open source, command line text editor. Prior to 9.2.0842, the socket server backend in src/socketserver.c accepts unbounded client connections in socketserver_accept(), causing descriptors to overflow fd_set structures in src/channel.c and fixed-size struct pollfd arrays in src/os_unix.c, which allows a local process that can connect to the server socket to corrupt stack memory or terminate the Vim server. This issue is fixed in version 9.2.0842.
+    Severity: UNKNOWN
+    CweIDs:
+    - CWE-121
+    References:
+    - https://github.com/vim/vim/commit/5598618b2daf8e36b3bf0251caaefcf0bf8e85e4
+    - https://github.com/vim/vim/releases/tag/v9.2.0842
+    - https://github.com/vim/vim/security/advisories/GHSA-49m8-wwxj-mr69
+    PublishedDate: '2026-08-11T16:17:38.257Z'
+    LastModifiedDate: '2026-08-11T16:17:38.257Z'
+  - VulnerabilityID: CVE-2026-73072
+    PkgID: vim-common@2:9.1.1230-2
+    PkgName: vim-common
+    PkgIdentifier:
+      PURL: pkg:deb/debian/vim-common@9.1.1230-2?arch=all&distro=debian-13.6&epoch=2
+      UID: e8f06e7c2f75499
+    InstalledVersion: 2:9.1.1230-2
+    Status: affected
+    Layer:
+      Digest: sha256:5a8d1b467518ec9152d1c32d788ccc4e34f78acacdef7006d5b4f76a9d051e71
+      DiffID: sha256:e8dca12f88fd0e132c78f479fff2264b985e681ab2b151b4ac4a3c8b87b04a50
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-73072
+    DataSource:
+      ID: debian
+      Name: Debian Security Tracker
+      URL: https://salsa.debian.org/security-tracker-team/security-tracker
+    Fingerprint: sha256:1ab2845857ecfce3df54c984a72086c78a25ec4ee56e508420395da46d522829
+    Title: Vim is an open source, command line text editor. Prior to 9.2.0846, se ...
+    Description: Vim is an open source, command line text editor. Prior to 9.2.0846, set_sofo() in src/spellfile.c reuses sl_sal_first[] without resetting values left by set_sal_first(), so a crafted spell file containing an SN_SAL section before an SN_SOFO section causes under-counted mapping lists and attacker-influenced writes beyond a heap allocation. This issue is fixed in version 9.2.0846.
+    Severity: UNKNOWN
+    CweIDs:
+    - CWE-122
+    - CWE-787
+    References:
+    - https://github.com/vim/vim/commit/05c41c922309c7a11b6ec2f124be66551c90d66a
+    - https://github.com/vim/vim/releases/tag/v9.2.0846
+    - https://github.com/vim/vim/security/advisories/GHSA-9jqx-hgpr-6v64
+    PublishedDate: '2026-08-11T16:17:38.553Z'
+    LastModifiedDate: '2026-08-11T16:17:38.553Z'
+  - VulnerabilityID: CVE-2026-73074
+    PkgID: vim-common@2:9.1.1230-2
+    PkgName: vim-common
+    PkgIdentifier:
+      PURL: pkg:deb/debian/vim-common@9.1.1230-2?arch=all&distro=debian-13.6&epoch=2
+      UID: e8f06e7c2f75499
+    InstalledVersion: 2:9.1.1230-2
+    Status: affected
+    Layer:
+      Digest: sha256:5a8d1b467518ec9152d1c32d788ccc4e34f78acacdef7006d5b4f76a9d051e71
+      DiffID: sha256:e8dca12f88fd0e132c78f479fff2264b985e681ab2b151b4ac4a3c8b87b04a50
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-73074
+    DataSource:
+      ID: debian
+      Name: Debian Security Tracker
+      URL: https://salsa.debian.org/security-tracker-team/security-tracker
+    Fingerprint: sha256:94fa1770dc0606abdae1edbf2e9d8426e834537a77af563acb584909248aa49c
+    Title: Vim is an open source, command line text editor. Prior to 9.2.0841, pr ...
+    Description: Vim is an open source, command line text editor. Prior to 9.2.0841, prop_add_one() in src/textprop.c uses the proplen value from get_text_props() to increment a uint16_t property count beyond 0xffff, wrapping the count to zero and copying existing text-property records into a heap allocation sized for none of them. This issue is fixed in version 9.2.0841.
+    Severity: UNKNOWN
+    CweIDs:
+    - CWE-190
+    References:
+    - https://github.com/vim/vim/commit/a9336b476fd1a182e3f79b5f83c0ffb04f8a922b
+    - https://github.com/vim/vim/security/advisories/GHSA-hm4g-pjfx-m27j
+    PublishedDate: '2026-08-11T16:17:38.697Z'
+    LastModifiedDate: '2026-08-11T16:17:38.697Z'
+  - VulnerabilityID: CVE-2026-73076
+    PkgID: vim-common@2:9.1.1230-2
+    PkgName: vim-common
+    PkgIdentifier:
+      PURL: pkg:deb/debian/vim-common@9.1.1230-2?arch=all&distro=debian-13.6&epoch=2
+      UID: e8f06e7c2f75499
+    InstalledVersion: 2:9.1.1230-2
+    Status: affected
+    Layer:
+      Digest: sha256:5a8d1b467518ec9152d1c32d788ccc4e34f78acacdef7006d5b4f76a9d051e71
+      DiffID: sha256:e8dca12f88fd0e132c78f479fff2264b985e681ab2b151b4ac4a3c8b87b04a50
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-73076
+    DataSource:
+      ID: debian
+      Name: Debian Security Tracker
+      URL: https://salsa.debian.org/security-tracker-team/security-tracker
+    Fingerprint: sha256:626a44bfc3d463d89e90b1d7993ca2a7fa4f67cd4a767fa525d30b65bea011ab
+    Title: Vim is an open source, command line text editor. Prior to 9.2.0847, ru ...
+    Description: Vim is an open source, command line text editor. Prior to 9.2.0847, runtime/autoload/vimball.vim allows a crafted vimball member named .VimballRecord to overwrite the installation record with attacker-chosen commands. When vimball#RmVimball() later processes the matching record entry, the stored Ex commands, including operating-system commands invoked through :!, execute with the privileges of the user running Vim. This issue is fixed in version 9.2.0847.
+    Severity: UNKNOWN
+    CweIDs:
+    - CWE-94
+    - CWE-829
+    References:
+    - https://github.com/vim/vim/commit/581a2f3ac9c6f96a26324f6b2c8c11415fd0d452
+    - https://github.com/vim/vim/security/advisories/GHSA-r22p-fhw4-84p2
+    PublishedDate: '2026-08-11T16:17:38.98Z'
+    LastModifiedDate: '2026-08-11T16:17:38.98Z'
+  - VulnerabilityID: CVE-2026-73077
+    PkgID: vim-common@2:9.1.1230-2
+    PkgName: vim-common
+    PkgIdentifier:
+      PURL: pkg:deb/debian/vim-common@9.1.1230-2?arch=all&distro=debian-13.6&epoch=2
+      UID: e8f06e7c2f75499
+    InstalledVersion: 2:9.1.1230-2
+    Status: affected
+    Layer:
+      Digest: sha256:5a8d1b467518ec9152d1c32d788ccc4e34f78acacdef7006d5b4f76a9d051e71
+      DiffID: sha256:e8dca12f88fd0e132c78f479fff2264b985e681ab2b151b4ac4a3c8b87b04a50
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-73077
+    DataSource:
+      ID: debian
+      Name: Debian Security Tracker
+      URL: https://salsa.debian.org/security-tracker-team/security-tracker
+    Fingerprint: sha256:2f87d2472d45248aca96dff31ea1ed4da48d1c4a252e33fbc5060077c1f3b19b
+    Title: Vim is an open source, command line text editor. Prior to 9.2.0839, th ...
+    Description: Vim is an open source, command line text editor. Prior to 9.2.0839, the runtime/ftplugin/sh.vim, runtime/ftplugin/zsh.vim, and runtime/ftplugin/ps1.vim filetype plugins pass attacker-controlled Visual-mode selections from K through keywordprg commands without safely separating shell arguments. fnameescape() and PATH_ESC_CHARS do not neutralize shell metacharacters before ShKeywordPrg, ZshKeywordPrg, or GetHelp invokes bash, zsh, or PowerShell, allowing arbitrary operating-system commands to execute with the privileges of the user running Vim. This issue is fixed in version 9.2.0839.
+    Severity: UNKNOWN
+    CweIDs:
+    - CWE-78
+    References:
+    - https://github.com/vim/vim/commit/c5a82fe013e73c98004ad7cd4f906b1ad1ed610e
+    - https://github.com/vim/vim/security/advisories/GHSA-r5v6-q6j8-8qw2
+    PublishedDate: '2026-08-11T16:17:39.43Z'
+    LastModifiedDate: '2026-08-11T19:18:50.743Z'
+  - VulnerabilityID: CVE-2026-73078
+    PkgID: vim-common@2:9.1.1230-2
+    PkgName: vim-common
+    PkgIdentifier:
+      PURL: pkg:deb/debian/vim-common@9.1.1230-2?arch=all&distro=debian-13.6&epoch=2
+      UID: e8f06e7c2f75499
+    InstalledVersion: 2:9.1.1230-2
+    Status: affected
+    Layer:
+      Digest: sha256:5a8d1b467518ec9152d1c32d788ccc4e34f78acacdef7006d5b4f76a9d051e71
+      DiffID: sha256:e8dca12f88fd0e132c78f479fff2264b985e681ab2b151b4ac4a3c8b87b04a50
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-73078
+    DataSource:
+      ID: debian
+      Name: Debian Security Tracker
+      URL: https://salsa.debian.org/security-tracker-team/security-tracker
+    Fingerprint: sha256:1969ed1abfefdfda3ca1c89f38ce38ed19b356a7b1581cf9a190b771623768ea
+    Title: Vim is an open source, command line text editor. Prior to 9.2.0840, ru ...
+    Description: Vim is an open source, command line text editor. Prior to 9.2.0840, runtime/plugin/netrwPlugin.vim loads netrw and runtime/pack/dist/opt/netrw/autoload/netrw.vim constructs Bookmarks, History, and Targets menu entries by interpolating attacker-controlled directory paths into executed :menu commands. s:NetrwBookmarkMenu(), s:NetrwTgtMenu(), g:netrw_menu_escape, EX_TRLBAR, and netrw#MakeTgt() fail to neutralize the | command separator or single quotes at five construction sites, allowing a crafted path browsed or bookmarked in GUI Vim to execute arbitrary Ex and operating-system commands. This issue is fixed in version 9.2.0840.
+    Severity: UNKNOWN
+    CweIDs:
+    - CWE-77
+    - CWE-184
+    References:
+    - https://github.com/vim/vim/commit/29c6fd090d4520592f8be7d9ec81190edf25ef69
+    - https://github.com/vim/vim/security/advisories/GHSA-rcr7-f3wr-22r2
+    PublishedDate: '2026-08-11T16:17:39.573Z'
+    LastModifiedDate: '2026-08-11T17:19:15.6Z'
   - VulnerabilityID: CVE-2026-26269
     PkgID: vim-runtime@2:9.1.1230-2
     PkgName: vim-runtime
@@ -28479,6 +29365,10 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H
         V3Score: 7.3
     References:
+    - https://access.redhat.com/errata/RHSA-2026:38509
+    - https://access.redhat.com/errata/RHSA-2026:38510
+    - https://access.redhat.com/errata/RHSA-2026:38511
+    - https://access.redhat.com/errata/RHSA-2026:53371
     - https://access.redhat.com/security/cve/CVE-2026-47162
     - https://bugzilla.redhat.com/show_bug.cgi?id=2487964
     - https://github.com/vim/vim/commit/f08ab2f4d7d2947c8dd6c179ae08ee6146a2694b
@@ -28491,7 +29381,7 @@
     - https://ubuntu.com/security/notices/USN-8451-1
     - https://www.cve.org/CVERecord?id=CVE-2026-47162
     PublishedDate: '2026-06-11T19:16:44.16Z'
-    LastModifiedDate: '2026-07-15T02:22:19.393Z'
+    LastModifiedDate: '2026-08-11T13:18:56Z'
   - VulnerabilityID: CVE-2026-52858
     PkgID: vim-runtime@2:9.1.1230-2
     PkgName: vim-runtime
@@ -29493,7 +30383,7 @@
       Name: Debian Security Tracker
       URL: https://salsa.debian.org/security-tracker-team/security-tracker
     Fingerprint: sha256:7d3133f0490898601984bbac34ca7613a9cb99c672656f02d5736e51e3cdfc56
-    Title: Vim is an open source, command line text editor. Prior to version 9.2. ...
+    Title: 'vim: Vim: Arbitrary code execution via crafted step-definition patterns'
     Description: Vim is an open source, command line text editor. Prior to version 9.2.0496, a code injection vulnerability exists in s:stepmatch() in the cucumber filetype plugin (runtime/ftplugin/cucumber.vim) on Vim builds with +ruby support. Step-definition patterns read from .rb files under the repository's features/*/ or stories/*/ directories are embedded into a Ruby Kernel.eval argument without sufficient escaping, allowing a crafted pattern in an attacker-controlled repository to execute arbitrary Ruby (and through it arbitrary shell commands) when the user invokes a step-jump mapping ([d, ]d). This issue has been patched in version 9.2.0496.
     Severity: MEDIUM
     CweIDs:
@@ -29505,12 +30395,17 @@
       nvd: 2
       oracle-oval: 3
       photon: 2
+      redhat: 3
       ubuntu: 2
     CVSS:
       nvd:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:L
         V3Score: 5.3
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.3
     References:
+    - https://access.redhat.com/security/cve/CVE-2026-47167
     - https://github.com/vim/vim/commit/a65a52d684bc58535ad28a4ae824d22e76399934
     - https://github.com/vim/vim/releases/tag/v9.2.0496
     - https://github.com/vim/vim/security/advisories/GHSA-4473-94jm-w5x9
@@ -29941,6 +30836,173 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-52859
     PublishedDate: '2026-06-11T19:16:47.627Z'
     LastModifiedDate: '2026-06-17T10:57:53.623Z'
+  - VulnerabilityID: CVE-2026-73070
+    PkgID: vim-runtime@2:9.1.1230-2
+    PkgName: vim-runtime
+    PkgIdentifier:
+      PURL: pkg:deb/debian/vim-runtime@9.1.1230-2?arch=all&distro=debian-13.6&epoch=2
+      UID: d50872152efe3e7b
+    InstalledVersion: 2:9.1.1230-2
+    Status: affected
+    Layer:
+      Digest: sha256:5a8d1b467518ec9152d1c32d788ccc4e34f78acacdef7006d5b4f76a9d051e71
+      DiffID: sha256:e8dca12f88fd0e132c78f479fff2264b985e681ab2b151b4ac4a3c8b87b04a50
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-73070
+    DataSource:
+      ID: debian
+      Name: Debian Security Tracker
+      URL: https://salsa.debian.org/security-tracker-team/security-tracker
+    Fingerprint: sha256:bae5b30220b50acb03030af7db3d2771483a92d0b2cd8bac5d55a0aa4761990b
+    Title: Vim is an open source, command line text editor. Prior to 9.2.0842, th ...
+    Description: Vim is an open source, command line text editor. Prior to 9.2.0842, the socket server backend in src/socketserver.c accepts unbounded client connections in socketserver_accept(), causing descriptors to overflow fd_set structures in src/channel.c and fixed-size struct pollfd arrays in src/os_unix.c, which allows a local process that can connect to the server socket to corrupt stack memory or terminate the Vim server. This issue is fixed in version 9.2.0842.
+    Severity: UNKNOWN
+    CweIDs:
+    - CWE-121
+    References:
+    - https://github.com/vim/vim/commit/5598618b2daf8e36b3bf0251caaefcf0bf8e85e4
+    - https://github.com/vim/vim/releases/tag/v9.2.0842
+    - https://github.com/vim/vim/security/advisories/GHSA-49m8-wwxj-mr69
+    PublishedDate: '2026-08-11T16:17:38.257Z'
+    LastModifiedDate: '2026-08-11T16:17:38.257Z'
+  - VulnerabilityID: CVE-2026-73072
+    PkgID: vim-runtime@2:9.1.1230-2
+    PkgName: vim-runtime
+    PkgIdentifier:
+      PURL: pkg:deb/debian/vim-runtime@9.1.1230-2?arch=all&distro=debian-13.6&epoch=2
+      UID: d50872152efe3e7b
+    InstalledVersion: 2:9.1.1230-2
+    Status: affected
+    Layer:
+      Digest: sha256:5a8d1b467518ec9152d1c32d788ccc4e34f78acacdef7006d5b4f76a9d051e71
+      DiffID: sha256:e8dca12f88fd0e132c78f479fff2264b985e681ab2b151b4ac4a3c8b87b04a50
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-73072
+    DataSource:
+      ID: debian
+      Name: Debian Security Tracker
+      URL: https://salsa.debian.org/security-tracker-team/security-tracker
+    Fingerprint: sha256:eb2f077c7e3940e0f0463baaaa99f6f48e7792ed4ca10bcec0a8fa9160390394
+    Title: Vim is an open source, command line text editor. Prior to 9.2.0846, se ...
+    Description: Vim is an open source, command line text editor. Prior to 9.2.0846, set_sofo() in src/spellfile.c reuses sl_sal_first[] without resetting values left by set_sal_first(), so a crafted spell file containing an SN_SAL section before an SN_SOFO section causes under-counted mapping lists and attacker-influenced writes beyond a heap allocation. This issue is fixed in version 9.2.0846.
+    Severity: UNKNOWN
+    CweIDs:
+    - CWE-122
+    - CWE-787
+    References:
+    - https://github.com/vim/vim/commit/05c41c922309c7a11b6ec2f124be66551c90d66a
+    - https://github.com/vim/vim/releases/tag/v9.2.0846
+    - https://github.com/vim/vim/security/advisories/GHSA-9jqx-hgpr-6v64
+    PublishedDate: '2026-08-11T16:17:38.553Z'
+    LastModifiedDate: '2026-08-11T16:17:38.553Z'
+  - VulnerabilityID: CVE-2026-73074
+    PkgID: vim-runtime@2:9.1.1230-2
+    PkgName: vim-runtime
+    PkgIdentifier:
+      PURL: pkg:deb/debian/vim-runtime@9.1.1230-2?arch=all&distro=debian-13.6&epoch=2
+      UID: d50872152efe3e7b
+    InstalledVersion: 2:9.1.1230-2
+    Status: affected
+    Layer:
+      Digest: sha256:5a8d1b467518ec9152d1c32d788ccc4e34f78acacdef7006d5b4f76a9d051e71
+      DiffID: sha256:e8dca12f88fd0e132c78f479fff2264b985e681ab2b151b4ac4a3c8b87b04a50
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-73074
+    DataSource:
+      ID: debian
+      Name: Debian Security Tracker
+      URL: https://salsa.debian.org/security-tracker-team/security-tracker
+    Fingerprint: sha256:b06c05048bc76491199cb2cd0dfcdcf199480f390fb7a5bdb31e17c67ebce2db
+    Title: Vim is an open source, command line text editor. Prior to 9.2.0841, pr ...
+    Description: Vim is an open source, command line text editor. Prior to 9.2.0841, prop_add_one() in src/textprop.c uses the proplen value from get_text_props() to increment a uint16_t property count beyond 0xffff, wrapping the count to zero and copying existing text-property records into a heap allocation sized for none of them. This issue is fixed in version 9.2.0841.
+    Severity: UNKNOWN
+    CweIDs:
+    - CWE-190
+    References:
+    - https://github.com/vim/vim/commit/a9336b476fd1a182e3f79b5f83c0ffb04f8a922b
+    - https://github.com/vim/vim/security/advisories/GHSA-hm4g-pjfx-m27j
+    PublishedDate: '2026-08-11T16:17:38.697Z'
+    LastModifiedDate: '2026-08-11T16:17:38.697Z'
+  - VulnerabilityID: CVE-2026-73076
+    PkgID: vim-runtime@2:9.1.1230-2
+    PkgName: vim-runtime
+    PkgIdentifier:
+      PURL: pkg:deb/debian/vim-runtime@9.1.1230-2?arch=all&distro=debian-13.6&epoch=2
+      UID: d50872152efe3e7b
+    InstalledVersion: 2:9.1.1230-2
+    Status: affected
+    Layer:
+      Digest: sha256:5a8d1b467518ec9152d1c32d788ccc4e34f78acacdef7006d5b4f76a9d051e71
+      DiffID: sha256:e8dca12f88fd0e132c78f479fff2264b985e681ab2b151b4ac4a3c8b87b04a50
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-73076
+    DataSource:
+      ID: debian
+      Name: Debian Security Tracker
+      URL: https://salsa.debian.org/security-tracker-team/security-tracker
+    Fingerprint: sha256:6167704349a1d643c10b690568d3f43e205efdf13830678135d774bbc295d94b
+    Title: Vim is an open source, command line text editor. Prior to 9.2.0847, ru ...
+    Description: Vim is an open source, command line text editor. Prior to 9.2.0847, runtime/autoload/vimball.vim allows a crafted vimball member named .VimballRecord to overwrite the installation record with attacker-chosen commands. When vimball#RmVimball() later processes the matching record entry, the stored Ex commands, including operating-system commands invoked through :!, execute with the privileges of the user running Vim. This issue is fixed in version 9.2.0847.
+    Severity: UNKNOWN
+    CweIDs:
+    - CWE-94
+    - CWE-829
+    References:
+    - https://github.com/vim/vim/commit/581a2f3ac9c6f96a26324f6b2c8c11415fd0d452
+    - https://github.com/vim/vim/security/advisories/GHSA-r22p-fhw4-84p2
+    PublishedDate: '2026-08-11T16:17:38.98Z'
+    LastModifiedDate: '2026-08-11T16:17:38.98Z'
+  - VulnerabilityID: CVE-2026-73077
+    PkgID: vim-runtime@2:9.1.1230-2
+    PkgName: vim-runtime
+    PkgIdentifier:
+      PURL: pkg:deb/debian/vim-runtime@9.1.1230-2?arch=all&distro=debian-13.6&epoch=2
+      UID: d50872152efe3e7b
+    InstalledVersion: 2:9.1.1230-2
+    Status: affected
+    Layer:
+      Digest: sha256:5a8d1b467518ec9152d1c32d788ccc4e34f78acacdef7006d5b4f76a9d051e71
+      DiffID: sha256:e8dca12f88fd0e132c78f479fff2264b985e681ab2b151b4ac4a3c8b87b04a50
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-73077
+    DataSource:
+      ID: debian
+      Name: Debian Security Tracker
+      URL: https://salsa.debian.org/security-tracker-team/security-tracker
+    Fingerprint: sha256:a850b26b74f5a6485d0aa3bace50aa78adb1f99ecd0dba4a1eb0f621993deee0
+    Title: Vim is an open source, command line text editor. Prior to 9.2.0839, th ...
+    Description: Vim is an open source, command line text editor. Prior to 9.2.0839, the runtime/ftplugin/sh.vim, runtime/ftplugin/zsh.vim, and runtime/ftplugin/ps1.vim filetype plugins pass attacker-controlled Visual-mode selections from K through keywordprg commands without safely separating shell arguments. fnameescape() and PATH_ESC_CHARS do not neutralize shell metacharacters before ShKeywordPrg, ZshKeywordPrg, or GetHelp invokes bash, zsh, or PowerShell, allowing arbitrary operating-system commands to execute with the privileges of the user running Vim. This issue is fixed in version 9.2.0839.
+    Severity: UNKNOWN
+    CweIDs:
+    - CWE-78
+    References:
+    - https://github.com/vim/vim/commit/c5a82fe013e73c98004ad7cd4f906b1ad1ed610e
+    - https://github.com/vim/vim/security/advisories/GHSA-r5v6-q6j8-8qw2
+    PublishedDate: '2026-08-11T16:17:39.43Z'
+    LastModifiedDate: '2026-08-11T19:18:50.743Z'
+  - VulnerabilityID: CVE-2026-73078
+    PkgID: vim-runtime@2:9.1.1230-2
+    PkgName: vim-runtime
+    PkgIdentifier:
+      PURL: pkg:deb/debian/vim-runtime@9.1.1230-2?arch=all&distro=debian-13.6&epoch=2
+      UID: d50872152efe3e7b
+    InstalledVersion: 2:9.1.1230-2
+    Status: affected
+    Layer:
+      Digest: sha256:5a8d1b467518ec9152d1c32d788ccc4e34f78acacdef7006d5b4f76a9d051e71
+      DiffID: sha256:e8dca12f88fd0e132c78f479fff2264b985e681ab2b151b4ac4a3c8b87b04a50
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-73078
+    DataSource:
+      ID: debian
+      Name: Debian Security Tracker
+      URL: https://salsa.debian.org/security-tracker-team/security-tracker
+    Fingerprint: sha256:094531a22c02d2ee02a795927cc3bfc7c526f39970a637e628262b306d90420c
+    Title: Vim is an open source, command line text editor. Prior to 9.2.0840, ru ...
+    Description: Vim is an open source, command line text editor. Prior to 9.2.0840, runtime/plugin/netrwPlugin.vim loads netrw and runtime/pack/dist/opt/netrw/autoload/netrw.vim constructs Bookmarks, History, and Targets menu entries by interpolating attacker-controlled directory paths into executed :menu commands. s:NetrwBookmarkMenu(), s:NetrwTgtMenu(), g:netrw_menu_escape, EX_TRLBAR, and netrw#MakeTgt() fail to neutralize the | command separator or single quotes at five construction sites, allowing a crafted path browsed or bookmarked in GUI Vim to execute arbitrary Ex and operating-system commands. This issue is fixed in version 9.2.0840.
+    Severity: UNKNOWN
+    CweIDs:
+    - CWE-77
+    - CWE-184
+    References:
+    - https://github.com/vim/vim/commit/29c6fd090d4520592f8be7d9ec81190edf25ef69
+    - https://github.com/vim/vim/security/advisories/GHSA-rcr7-f3wr-22r2
+    PublishedDate: '2026-08-11T16:17:39.573Z'
+    LastModifiedDate: '2026-08-11T17:19:15.6Z'
   - VulnerabilityID: CVE-2026-26269
     PkgID: vim-tiny@2:9.1.1230-2
     PkgName: vim-tiny
@@ -30495,6 +31557,10 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H
         V3Score: 7.3
     References:
+    - https://access.redhat.com/errata/RHSA-2026:38509
+    - https://access.redhat.com/errata/RHSA-2026:38510
+    - https://access.redhat.com/errata/RHSA-2026:38511
+    - https://access.redhat.com/errata/RHSA-2026:53371
     - https://access.redhat.com/security/cve/CVE-2026-47162
     - https://bugzilla.redhat.com/show_bug.cgi?id=2487964
     - https://github.com/vim/vim/commit/f08ab2f4d7d2947c8dd6c179ae08ee6146a2694b
@@ -30507,7 +31573,7 @@
     - https://ubuntu.com/security/notices/USN-8451-1
     - https://www.cve.org/CVERecord?id=CVE-2026-47162
     PublishedDate: '2026-06-11T19:16:44.16Z'
-    LastModifiedDate: '2026-07-15T02:22:19.393Z'
+    LastModifiedDate: '2026-08-11T13:18:56Z'
   - VulnerabilityID: CVE-2026-52858
     PkgID: vim-tiny@2:9.1.1230-2
     PkgName: vim-tiny
@@ -31509,7 +32575,7 @@
       Name: Debian Security Tracker
       URL: https://salsa.debian.org/security-tracker-team/security-tracker
     Fingerprint: sha256:62fd624d7db8e0bf41049079d8d62db64cda3d7ffb26ebfd10b08b25f740a30d
-    Title: Vim is an open source, command line text editor. Prior to version 9.2. ...
+    Title: 'vim: Vim: Arbitrary code execution via crafted step-definition patterns'
     Description: Vim is an open source, command line text editor. Prior to version 9.2.0496, a code injection vulnerability exists in s:stepmatch() in the cucumber filetype plugin (runtime/ftplugin/cucumber.vim) on Vim builds with +ruby support. Step-definition patterns read from .rb files under the repository's features/*/ or stories/*/ directories are embedded into a Ruby Kernel.eval argument without sufficient escaping, allowing a crafted pattern in an attacker-controlled repository to execute arbitrary Ruby (and through it arbitrary shell commands) when the user invokes a step-jump mapping ([d, ]d). This issue has been patched in version 9.2.0496.
     Severity: MEDIUM
     CweIDs:
@@ -31521,12 +32587,17 @@
       nvd: 2
       oracle-oval: 3
       photon: 2
+      redhat: 3
       ubuntu: 2
     CVSS:
       nvd:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:L
         V3Score: 5.3
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.3
     References:
+    - https://access.redhat.com/security/cve/CVE-2026-47167
     - https://github.com/vim/vim/commit/a65a52d684bc58535ad28a4ae824d22e76399934
     - https://github.com/vim/vim/releases/tag/v9.2.0496
     - https://github.com/vim/vim/security/advisories/GHSA-4473-94jm-w5x9
@@ -31957,6 +33028,173 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-52859
     PublishedDate: '2026-06-11T19:16:47.627Z'
     LastModifiedDate: '2026-06-17T10:57:53.623Z'
+  - VulnerabilityID: CVE-2026-73070
+    PkgID: vim-tiny@2:9.1.1230-2
+    PkgName: vim-tiny
+    PkgIdentifier:
+      PURL: pkg:deb/debian/vim-tiny@9.1.1230-2?arch=amd64&distro=debian-13.6&epoch=2
+      UID: 8771a59cda1f01cd
+    InstalledVersion: 2:9.1.1230-2
+    Status: affected
+    Layer:
+      Digest: sha256:5a8d1b467518ec9152d1c32d788ccc4e34f78acacdef7006d5b4f76a9d051e71
+      DiffID: sha256:e8dca12f88fd0e132c78f479fff2264b985e681ab2b151b4ac4a3c8b87b04a50
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-73070
+    DataSource:
+      ID: debian
+      Name: Debian Security Tracker
+      URL: https://salsa.debian.org/security-tracker-team/security-tracker
+    Fingerprint: sha256:d960cb942077f0b9b052595cf31a2ea9fde1a028b7b41a38c21e4a07302ea139
+    Title: Vim is an open source, command line text editor. Prior to 9.2.0842, th ...
+    Description: Vim is an open source, command line text editor. Prior to 9.2.0842, the socket server backend in src/socketserver.c accepts unbounded client connections in socketserver_accept(), causing descriptors to overflow fd_set structures in src/channel.c and fixed-size struct pollfd arrays in src/os_unix.c, which allows a local process that can connect to the server socket to corrupt stack memory or terminate the Vim server. This issue is fixed in version 9.2.0842.
+    Severity: UNKNOWN
+    CweIDs:
+    - CWE-121
+    References:
+    - https://github.com/vim/vim/commit/5598618b2daf8e36b3bf0251caaefcf0bf8e85e4
+    - https://github.com/vim/vim/releases/tag/v9.2.0842
+    - https://github.com/vim/vim/security/advisories/GHSA-49m8-wwxj-mr69
+    PublishedDate: '2026-08-11T16:17:38.257Z'
+    LastModifiedDate: '2026-08-11T16:17:38.257Z'
+  - VulnerabilityID: CVE-2026-73072
+    PkgID: vim-tiny@2:9.1.1230-2
+    PkgName: vim-tiny
+    PkgIdentifier:
+      PURL: pkg:deb/debian/vim-tiny@9.1.1230-2?arch=amd64&distro=debian-13.6&epoch=2
+      UID: 8771a59cda1f01cd
+    InstalledVersion: 2:9.1.1230-2
+    Status: affected
+    Layer:
+      Digest: sha256:5a8d1b467518ec9152d1c32d788ccc4e34f78acacdef7006d5b4f76a9d051e71
+      DiffID: sha256:e8dca12f88fd0e132c78f479fff2264b985e681ab2b151b4ac4a3c8b87b04a50
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-73072
+    DataSource:
+      ID: debian
+      Name: Debian Security Tracker
+      URL: https://salsa.debian.org/security-tracker-team/security-tracker
+    Fingerprint: sha256:5fa54f5c26553c89bab6f2ef3d7ca91787586f438c4caecb7058d3f16e6a966a
+    Title: Vim is an open source, command line text editor. Prior to 9.2.0846, se ...
+    Description: Vim is an open source, command line text editor. Prior to 9.2.0846, set_sofo() in src/spellfile.c reuses sl_sal_first[] without resetting values left by set_sal_first(), so a crafted spell file containing an SN_SAL section before an SN_SOFO section causes under-counted mapping lists and attacker-influenced writes beyond a heap allocation. This issue is fixed in version 9.2.0846.
+    Severity: UNKNOWN
+    CweIDs:
+    - CWE-122
+    - CWE-787
+    References:
+    - https://github.com/vim/vim/commit/05c41c922309c7a11b6ec2f124be66551c90d66a
+    - https://github.com/vim/vim/releases/tag/v9.2.0846
+    - https://github.com/vim/vim/security/advisories/GHSA-9jqx-hgpr-6v64
+    PublishedDate: '2026-08-11T16:17:38.553Z'
+    LastModifiedDate: '2026-08-11T16:17:38.553Z'
+  - VulnerabilityID: CVE-2026-73074
+    PkgID: vim-tiny@2:9.1.1230-2
+    PkgName: vim-tiny
+    PkgIdentifier:
+      PURL: pkg:deb/debian/vim-tiny@9.1.1230-2?arch=amd64&distro=debian-13.6&epoch=2
+      UID: 8771a59cda1f01cd
+    InstalledVersion: 2:9.1.1230-2
+    Status: affected
+    Layer:
+      Digest: sha256:5a8d1b467518ec9152d1c32d788ccc4e34f78acacdef7006d5b4f76a9d051e71
+      DiffID: sha256:e8dca12f88fd0e132c78f479fff2264b985e681ab2b151b4ac4a3c8b87b04a50
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-73074
+    DataSource:
+      ID: debian
+      Name: Debian Security Tracker
+      URL: https://salsa.debian.org/security-tracker-team/security-tracker
+    Fingerprint: sha256:ce4fbb1c100db239836789c3f4b3ce764a26c5f9bd11287a6da03e37ded5c477
+    Title: Vim is an open source, command line text editor. Prior to 9.2.0841, pr ...
+    Description: Vim is an open source, command line text editor. Prior to 9.2.0841, prop_add_one() in src/textprop.c uses the proplen value from get_text_props() to increment a uint16_t property count beyond 0xffff, wrapping the count to zero and copying existing text-property records into a heap allocation sized for none of them. This issue is fixed in version 9.2.0841.
+    Severity: UNKNOWN
+    CweIDs:
+    - CWE-190
+    References:
+    - https://github.com/vim/vim/commit/a9336b476fd1a182e3f79b5f83c0ffb04f8a922b
+    - https://github.com/vim/vim/security/advisories/GHSA-hm4g-pjfx-m27j
+    PublishedDate: '2026-08-11T16:17:38.697Z'
+    LastModifiedDate: '2026-08-11T16:17:38.697Z'
+  - VulnerabilityID: CVE-2026-73076
+    PkgID: vim-tiny@2:9.1.1230-2
+    PkgName: vim-tiny
+    PkgIdentifier:
+      PURL: pkg:deb/debian/vim-tiny@9.1.1230-2?arch=amd64&distro=debian-13.6&epoch=2
+      UID: 8771a59cda1f01cd
+    InstalledVersion: 2:9.1.1230-2
+    Status: affected
+    Layer:
+      Digest: sha256:5a8d1b467518ec9152d1c32d788ccc4e34f78acacdef7006d5b4f76a9d051e71
+      DiffID: sha256:e8dca12f88fd0e132c78f479fff2264b985e681ab2b151b4ac4a3c8b87b04a50
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-73076
+    DataSource:
+      ID: debian
+      Name: Debian Security Tracker
+      URL: https://salsa.debian.org/security-tracker-team/security-tracker
+    Fingerprint: sha256:ec2c3ad256197e6bfb30d648fc64aa4db1707df0aae0f37c2d9457649725db48
+    Title: Vim is an open source, command line text editor. Prior to 9.2.0847, ru ...
+    Description: Vim is an open source, command line text editor. Prior to 9.2.0847, runtime/autoload/vimball.vim allows a crafted vimball member named .VimballRecord to overwrite the installation record with attacker-chosen commands. When vimball#RmVimball() later processes the matching record entry, the stored Ex commands, including operating-system commands invoked through :!, execute with the privileges of the user running Vim. This issue is fixed in version 9.2.0847.
+    Severity: UNKNOWN
+    CweIDs:
+    - CWE-94
+    - CWE-829
+    References:
+    - https://github.com/vim/vim/commit/581a2f3ac9c6f96a26324f6b2c8c11415fd0d452
+    - https://github.com/vim/vim/security/advisories/GHSA-r22p-fhw4-84p2
+    PublishedDate: '2026-08-11T16:17:38.98Z'
+    LastModifiedDate: '2026-08-11T16:17:38.98Z'
+  - VulnerabilityID: CVE-2026-73077
+    PkgID: vim-tiny@2:9.1.1230-2
+    PkgName: vim-tiny
+    PkgIdentifier:
+      PURL: pkg:deb/debian/vim-tiny@9.1.1230-2?arch=amd64&distro=debian-13.6&epoch=2
+      UID: 8771a59cda1f01cd
+    InstalledVersion: 2:9.1.1230-2
+    Status: affected
+    Layer:
+      Digest: sha256:5a8d1b467518ec9152d1c32d788ccc4e34f78acacdef7006d5b4f76a9d051e71
+      DiffID: sha256:e8dca12f88fd0e132c78f479fff2264b985e681ab2b151b4ac4a3c8b87b04a50
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-73077
+    DataSource:
+      ID: debian
+      Name: Debian Security Tracker
+      URL: https://salsa.debian.org/security-tracker-team/security-tracker
+    Fingerprint: sha256:e32cc168418eeb31d10bdfa55c9254f75ad9516ae620ad3d6baa10c3c52339d3
+    Title: Vim is an open source, command line text editor. Prior to 9.2.0839, th ...
+    Description: Vim is an open source, command line text editor. Prior to 9.2.0839, the runtime/ftplugin/sh.vim, runtime/ftplugin/zsh.vim, and runtime/ftplugin/ps1.vim filetype plugins pass attacker-controlled Visual-mode selections from K through keywordprg commands without safely separating shell arguments. fnameescape() and PATH_ESC_CHARS do not neutralize shell metacharacters before ShKeywordPrg, ZshKeywordPrg, or GetHelp invokes bash, zsh, or PowerShell, allowing arbitrary operating-system commands to execute with the privileges of the user running Vim. This issue is fixed in version 9.2.0839.
+    Severity: UNKNOWN
+    CweIDs:
+    - CWE-78
+    References:
+    - https://github.com/vim/vim/commit/c5a82fe013e73c98004ad7cd4f906b1ad1ed610e
+    - https://github.com/vim/vim/security/advisories/GHSA-r5v6-q6j8-8qw2
+    PublishedDate: '2026-08-11T16:17:39.43Z'
+    LastModifiedDate: '2026-08-11T19:18:50.743Z'
+  - VulnerabilityID: CVE-2026-73078
+    PkgID: vim-tiny@2:9.1.1230-2
+    PkgName: vim-tiny
+    PkgIdentifier:
+      PURL: pkg:deb/debian/vim-tiny@9.1.1230-2?arch=amd64&distro=debian-13.6&epoch=2
+      UID: 8771a59cda1f01cd
+    InstalledVersion: 2:9.1.1230-2
+    Status: affected
+    Layer:
+      Digest: sha256:5a8d1b467518ec9152d1c32d788ccc4e34f78acacdef7006d5b4f76a9d051e71
+      DiffID: sha256:e8dca12f88fd0e132c78f479fff2264b985e681ab2b151b4ac4a3c8b87b04a50
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-73078
+    DataSource:
+      ID: debian
+      Name: Debian Security Tracker
+      URL: https://salsa.debian.org/security-tracker-team/security-tracker
+    Fingerprint: sha256:c39e16931f3a35ead043d84b507b4700f6078befebc1fd017e9b351dfbbc335b
+    Title: Vim is an open source, command line text editor. Prior to 9.2.0840, ru ...
+    Description: Vim is an open source, command line text editor. Prior to 9.2.0840, runtime/plugin/netrwPlugin.vim loads netrw and runtime/pack/dist/opt/netrw/autoload/netrw.vim constructs Bookmarks, History, and Targets menu entries by interpolating attacker-controlled directory paths into executed :menu commands. s:NetrwBookmarkMenu(), s:NetrwTgtMenu(), g:netrw_menu_escape, EX_TRLBAR, and netrw#MakeTgt() fail to neutralize the | command separator or single quotes at five construction sites, allowing a crafted path browsed or bookmarked in GUI Vim to execute arbitrary Ex and operating-system commands. This issue is fixed in version 9.2.0840.
+    Severity: UNKNOWN
+    CweIDs:
+    - CWE-77
+    - CWE-184
+    References:
+    - https://github.com/vim/vim/commit/29c6fd090d4520592f8be7d9ec81190edf25ef69
+    - https://github.com/vim/vim/security/advisories/GHSA-rcr7-f3wr-22r2
+    PublishedDate: '2026-08-11T16:17:39.573Z'
+    LastModifiedDate: '2026-08-11T17:19:15.6Z'
   - VulnerabilityID: CVE-2026-58471
     PkgID: wget@1.25.0-2
     PkgName: wget
@@ -32790,6 +34028,10 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H
         V3Score: 7.3
     References:
+    - https://access.redhat.com/errata/RHSA-2026:38509
+    - https://access.redhat.com/errata/RHSA-2026:38510
+    - https://access.redhat.com/errata/RHSA-2026:38511
+    - https://access.redhat.com/errata/RHSA-2026:53371
     - https://access.redhat.com/security/cve/CVE-2026-47162
     - https://bugzilla.redhat.com/show_bug.cgi?id=2487964
     - https://github.com/vim/vim/commit/f08ab2f4d7d2947c8dd6c179ae08ee6146a2694b
@@ -32802,7 +34044,7 @@
     - https://ubuntu.com/security/notices/USN-8451-1
     - https://www.cve.org/CVERecord?id=CVE-2026-47162
     PublishedDate: '2026-06-11T19:16:44.16Z'
-    LastModifiedDate: '2026-07-15T02:22:19.393Z'
+    LastModifiedDate: '2026-08-11T13:18:56Z'
   - VulnerabilityID: CVE-2026-52858
     PkgID: xxd@2:9.1.1230-2
     PkgName: xxd
@@ -33804,7 +35046,7 @@
       Name: Debian Security Tracker
       URL: https://salsa.debian.org/security-tracker-team/security-tracker
     Fingerprint: sha256:aabe32b7490c084f8095e62e2f20381aa8ca5549a2f9fa22d16feb141890a7a1
-    Title: Vim is an open source, command line text editor. Prior to version 9.2. ...
+    Title: 'vim: Vim: Arbitrary code execution via crafted step-definition patterns'
     Description: Vim is an open source, command line text editor. Prior to version 9.2.0496, a code injection vulnerability exists in s:stepmatch() in the cucumber filetype plugin (runtime/ftplugin/cucumber.vim) on Vim builds with +ruby support. Step-definition patterns read from .rb files under the repository's features/*/ or stories/*/ directories are embedded into a Ruby Kernel.eval argument without sufficient escaping, allowing a crafted pattern in an attacker-controlled repository to execute arbitrary Ruby (and through it arbitrary shell commands) when the user invokes a step-jump mapping ([d, ]d). This issue has been patched in version 9.2.0496.
     Severity: MEDIUM
     CweIDs:
@@ -33816,12 +35058,17 @@
       nvd: 2
       oracle-oval: 3
       photon: 2
+      redhat: 3
       ubuntu: 2
     CVSS:
       nvd:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:L
         V3Score: 5.3
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.3
     References:
+    - https://access.redhat.com/security/cve/CVE-2026-47167
     - https://github.com/vim/vim/commit/a65a52d684bc58535ad28a4ae824d22e76399934
     - https://github.com/vim/vim/releases/tag/v9.2.0496
     - https://github.com/vim/vim/security/advisories/GHSA-4473-94jm-w5x9
@@ -34252,6 +35499,173 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-52859
     PublishedDate: '2026-06-11T19:16:47.627Z'
     LastModifiedDate: '2026-06-17T10:57:53.623Z'
+  - VulnerabilityID: CVE-2026-73070
+    PkgID: xxd@2:9.1.1230-2
+    PkgName: xxd
+    PkgIdentifier:
+      PURL: pkg:deb/debian/xxd@9.1.1230-2?arch=amd64&distro=debian-13.6&epoch=2
+      UID: 742b3b180440c532
+    InstalledVersion: 2:9.1.1230-2
+    Status: affected
+    Layer:
+      Digest: sha256:5a8d1b467518ec9152d1c32d788ccc4e34f78acacdef7006d5b4f76a9d051e71
+      DiffID: sha256:e8dca12f88fd0e132c78f479fff2264b985e681ab2b151b4ac4a3c8b87b04a50
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-73070
+    DataSource:
+      ID: debian
+      Name: Debian Security Tracker
+      URL: https://salsa.debian.org/security-tracker-team/security-tracker
+    Fingerprint: sha256:8e6753e64c20169484911e3426d07b2cd47ee43650d262c70c6d9fe7502d3f43
+    Title: Vim is an open source, command line text editor. Prior to 9.2.0842, th ...
+    Description: Vim is an open source, command line text editor. Prior to 9.2.0842, the socket server backend in src/socketserver.c accepts unbounded client connections in socketserver_accept(), causing descriptors to overflow fd_set structures in src/channel.c and fixed-size struct pollfd arrays in src/os_unix.c, which allows a local process that can connect to the server socket to corrupt stack memory or terminate the Vim server. This issue is fixed in version 9.2.0842.
+    Severity: UNKNOWN
+    CweIDs:
+    - CWE-121
+    References:
+    - https://github.com/vim/vim/commit/5598618b2daf8e36b3bf0251caaefcf0bf8e85e4
+    - https://github.com/vim/vim/releases/tag/v9.2.0842
+    - https://github.com/vim/vim/security/advisories/GHSA-49m8-wwxj-mr69
+    PublishedDate: '2026-08-11T16:17:38.257Z'
+    LastModifiedDate: '2026-08-11T16:17:38.257Z'
+  - VulnerabilityID: CVE-2026-73072
+    PkgID: xxd@2:9.1.1230-2
+    PkgName: xxd
+    PkgIdentifier:
+      PURL: pkg:deb/debian/xxd@9.1.1230-2?arch=amd64&distro=debian-13.6&epoch=2
+      UID: 742b3b180440c532
+    InstalledVersion: 2:9.1.1230-2
+    Status: affected
+    Layer:
+      Digest: sha256:5a8d1b467518ec9152d1c32d788ccc4e34f78acacdef7006d5b4f76a9d051e71
+      DiffID: sha256:e8dca12f88fd0e132c78f479fff2264b985e681ab2b151b4ac4a3c8b87b04a50
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-73072
+    DataSource:
+      ID: debian
+      Name: Debian Security Tracker
+      URL: https://salsa.debian.org/security-tracker-team/security-tracker
+    Fingerprint: sha256:907ffaade5ccb637180a8424c68c53c1308ae63411db67deca31d11c59db7660
+    Title: Vim is an open source, command line text editor. Prior to 9.2.0846, se ...
+    Description: Vim is an open source, command line text editor. Prior to 9.2.0846, set_sofo() in src/spellfile.c reuses sl_sal_first[] without resetting values left by set_sal_first(), so a crafted spell file containing an SN_SAL section before an SN_SOFO section causes under-counted mapping lists and attacker-influenced writes beyond a heap allocation. This issue is fixed in version 9.2.0846.
+    Severity: UNKNOWN
+    CweIDs:
+    - CWE-122
+    - CWE-787
+    References:
+    - https://github.com/vim/vim/commit/05c41c922309c7a11b6ec2f124be66551c90d66a
+    - https://github.com/vim/vim/releases/tag/v9.2.0846
+    - https://github.com/vim/vim/security/advisories/GHSA-9jqx-hgpr-6v64
+    PublishedDate: '2026-08-11T16:17:38.553Z'
+    LastModifiedDate: '2026-08-11T16:17:38.553Z'
+  - VulnerabilityID: CVE-2026-73074
+    PkgID: xxd@2:9.1.1230-2
+    PkgName: xxd
+    PkgIdentifier:
+      PURL: pkg:deb/debian/xxd@9.1.1230-2?arch=amd64&distro=debian-13.6&epoch=2
+      UID: 742b3b180440c532
+    InstalledVersion: 2:9.1.1230-2
+    Status: affected
+    Layer:
+      Digest: sha256:5a8d1b467518ec9152d1c32d788ccc4e34f78acacdef7006d5b4f76a9d051e71
+      DiffID: sha256:e8dca12f88fd0e132c78f479fff2264b985e681ab2b151b4ac4a3c8b87b04a50
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-73074
+    DataSource:
+      ID: debian
+      Name: Debian Security Tracker
+      URL: https://salsa.debian.org/security-tracker-team/security-tracker
+    Fingerprint: sha256:74fab6f6434e6ae76421d924eee959822c5d799639d6f60d7f0537d749e0535a
+    Title: Vim is an open source, command line text editor. Prior to 9.2.0841, pr ...
+    Description: Vim is an open source, command line text editor. Prior to 9.2.0841, prop_add_one() in src/textprop.c uses the proplen value from get_text_props() to increment a uint16_t property count beyond 0xffff, wrapping the count to zero and copying existing text-property records into a heap allocation sized for none of them. This issue is fixed in version 9.2.0841.
+    Severity: UNKNOWN
+    CweIDs:
+    - CWE-190
+    References:
+    - https://github.com/vim/vim/commit/a9336b476fd1a182e3f79b5f83c0ffb04f8a922b
+    - https://github.com/vim/vim/security/advisories/GHSA-hm4g-pjfx-m27j
+    PublishedDate: '2026-08-11T16:17:38.697Z'
+    LastModifiedDate: '2026-08-11T16:17:38.697Z'
+  - VulnerabilityID: CVE-2026-73076
+    PkgID: xxd@2:9.1.1230-2
+    PkgName: xxd
+    PkgIdentifier:
+      PURL: pkg:deb/debian/xxd@9.1.1230-2?arch=amd64&distro=debian-13.6&epoch=2
+      UID: 742b3b180440c532
+    InstalledVersion: 2:9.1.1230-2
+    Status: affected
+    Layer:
+      Digest: sha256:5a8d1b467518ec9152d1c32d788ccc4e34f78acacdef7006d5b4f76a9d051e71
+      DiffID: sha256:e8dca12f88fd0e132c78f479fff2264b985e681ab2b151b4ac4a3c8b87b04a50
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-73076
+    DataSource:
+      ID: debian
+      Name: Debian Security Tracker
+      URL: https://salsa.debian.org/security-tracker-team/security-tracker
+    Fingerprint: sha256:55e5423c38c3c5f22ed11491e2d5ff9348f0640d29650bb6699c248b5a1a966e
+    Title: Vim is an open source, command line text editor. Prior to 9.2.0847, ru ...
+    Description: Vim is an open source, command line text editor. Prior to 9.2.0847, runtime/autoload/vimball.vim allows a crafted vimball member named .VimballRecord to overwrite the installation record with attacker-chosen commands. When vimball#RmVimball() later processes the matching record entry, the stored Ex commands, including operating-system commands invoked through :!, execute with the privileges of the user running Vim. This issue is fixed in version 9.2.0847.
+    Severity: UNKNOWN
+    CweIDs:
+    - CWE-94
+    - CWE-829
+    References:
+    - https://github.com/vim/vim/commit/581a2f3ac9c6f96a26324f6b2c8c11415fd0d452
+    - https://github.com/vim/vim/security/advisories/GHSA-r22p-fhw4-84p2
+    PublishedDate: '2026-08-11T16:17:38.98Z'
+    LastModifiedDate: '2026-08-11T16:17:38.98Z'
+  - VulnerabilityID: CVE-2026-73077
+    PkgID: xxd@2:9.1.1230-2
+    PkgName: xxd
+    PkgIdentifier:
+      PURL: pkg:deb/debian/xxd@9.1.1230-2?arch=amd64&distro=debian-13.6&epoch=2
+      UID: 742b3b180440c532
+    InstalledVersion: 2:9.1.1230-2
+    Status: affected
+    Layer:
+      Digest: sha256:5a8d1b467518ec9152d1c32d788ccc4e34f78acacdef7006d5b4f76a9d051e71
+      DiffID: sha256:e8dca12f88fd0e132c78f479fff2264b985e681ab2b151b4ac4a3c8b87b04a50
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-73077
+    DataSource:
+      ID: debian
+      Name: Debian Security Tracker
+      URL: https://salsa.debian.org/security-tracker-team/security-tracker
+    Fingerprint: sha256:e6e4474a9a551e581732ccc80b39a3e325d9c50dbcde9aa1d305cc92b584ca0b
+    Title: Vim is an open source, command line text editor. Prior to 9.2.0839, th ...
+    Description: Vim is an open source, command line text editor. Prior to 9.2.0839, the runtime/ftplugin/sh.vim, runtime/ftplugin/zsh.vim, and runtime/ftplugin/ps1.vim filetype plugins pass attacker-controlled Visual-mode selections from K through keywordprg commands without safely separating shell arguments. fnameescape() and PATH_ESC_CHARS do not neutralize shell metacharacters before ShKeywordPrg, ZshKeywordPrg, or GetHelp invokes bash, zsh, or PowerShell, allowing arbitrary operating-system commands to execute with the privileges of the user running Vim. This issue is fixed in version 9.2.0839.
+    Severity: UNKNOWN
+    CweIDs:
+    - CWE-78
+    References:
+    - https://github.com/vim/vim/commit/c5a82fe013e73c98004ad7cd4f906b1ad1ed610e
+    - https://github.com/vim/vim/security/advisories/GHSA-r5v6-q6j8-8qw2
+    PublishedDate: '2026-08-11T16:17:39.43Z'
+    LastModifiedDate: '2026-08-11T19:18:50.743Z'
+  - VulnerabilityID: CVE-2026-73078
+    PkgID: xxd@2:9.1.1230-2
+    PkgName: xxd
+    PkgIdentifier:
+      PURL: pkg:deb/debian/xxd@9.1.1230-2?arch=amd64&distro=debian-13.6&epoch=2
+      UID: 742b3b180440c532
+    InstalledVersion: 2:9.1.1230-2
+    Status: affected
+    Layer:
+      Digest: sha256:5a8d1b467518ec9152d1c32d788ccc4e34f78acacdef7006d5b4f76a9d051e71
+      DiffID: sha256:e8dca12f88fd0e132c78f479fff2264b985e681ab2b151b4ac4a3c8b87b04a50
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-73078
+    DataSource:
+      ID: debian
+      Name: Debian Security Tracker
+      URL: https://salsa.debian.org/security-tracker-team/security-tracker
+    Fingerprint: sha256:1fc58bc22c0f2b25f8d1cddec041d104a4d3e866327a0ca8d1b9c87152482b9f
+    Title: Vim is an open source, command line text editor. Prior to 9.2.0840, ru ...
+    Description: Vim is an open source, command line text editor. Prior to 9.2.0840, runtime/plugin/netrwPlugin.vim loads netrw and runtime/pack/dist/opt/netrw/autoload/netrw.vim constructs Bookmarks, History, and Targets menu entries by interpolating attacker-controlled directory paths into executed :menu commands. s:NetrwBookmarkMenu(), s:NetrwTgtMenu(), g:netrw_menu_escape, EX_TRLBAR, and netrw#MakeTgt() fail to neutralize the | command separator or single quotes at five construction sites, allowing a crafted path browsed or bookmarked in GUI Vim to execute arbitrary Ex and operating-system commands. This issue is fixed in version 9.2.0840.
+    Severity: UNKNOWN
+    CweIDs:
+    - CWE-77
+    - CWE-184
+    References:
+    - https://github.com/vim/vim/commit/29c6fd090d4520592f8be7d9ec81190edf25ef69
+    - https://github.com/vim/vim/security/advisories/GHSA-rcr7-f3wr-22r2
+    PublishedDate: '2026-08-11T16:17:39.573Z'
+    LastModifiedDate: '2026-08-11T17:19:15.6Z'
   - VulnerabilityID: TEMP-1143866-6DBA82
     PkgID: zip@3.0-15
     PkgName: zip
@@ -35520,7 +36934,7 @@
     - https://ubuntu.com/security/notices/USN-8473-1
     - https://www.cve.org/CVERecord?id=CVE-2026-33814
     PublishedDate: '2026-05-07T20:16:42.88Z'
-    LastModifiedDate: '2026-08-05T13:21:53.75Z'
+    LastModifiedDate: '2026-08-11T13:18:26.35Z'
   - VulnerabilityID: CVE-2026-39821
     VendorIDs:
     - GO-2026-5026
@@ -35652,6 +37066,8 @@
     - https://access.redhat.com/errata/RHSA-2026:51187
     - https://access.redhat.com/errata/RHSA-2026:51194
     - https://access.redhat.com/errata/RHSA-2026:51341
+    - https://access.redhat.com/errata/RHSA-2026:52826
+    - https://access.redhat.com/errata/RHSA-2026:53374
     - https://access.redhat.com/security/cve/CVE-2026-39821
     - https://bugzilla.redhat.com/2480756
     - https://bugzilla.redhat.com/show_bug.cgi?id=2480756
@@ -35672,7 +37088,7 @@
     - https://ubuntu.com/security/notices/USN-8416-1
     - https://www.cve.org/CVERecord?id=CVE-2026-39821
     PublishedDate: '2026-05-22T16:16:20.41Z'
-    LastModifiedDate: '2026-08-07T12:17:45.443Z'
+    LastModifiedDate: '2026-08-11T13:18:37.553Z'
   - VulnerabilityID: CVE-2025-47911
     VendorIDs:
     - GO-2026-4440
@@ -36040,7 +37456,7 @@
     - CWE-1286
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       azure: 3
       bitnami: 3
       oracle-oval: 3
@@ -36205,6 +37621,9 @@
     - https://access.redhat.com/errata/RHSA-2026:49944
     - https://access.redhat.com/errata/RHSA-2026:5110
     - https://access.redhat.com/errata/RHSA-2026:51288
+    - https://access.redhat.com/errata/RHSA-2026:52389
+    - https://access.redhat.com/errata/RHSA-2026:52390
+    - https://access.redhat.com/errata/RHSA-2026:52391
     - https://access.redhat.com/errata/RHSA-2026:5549
     - https://access.redhat.com/errata/RHSA-2026:5941
     - https://access.redhat.com/errata/RHSA-2026:5942
@@ -36312,7 +37731,7 @@
     - https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-25679.json
     - https://www.cve.org/CVERecord?id=CVE-2026-25679
     PublishedDate: '2026-03-06T22:16:00.72Z'
-    LastModifiedDate: '2026-08-07T12:17:21.57Z'
+    LastModifiedDate: '2026-08-11T13:18:00.37Z'
   - VulnerabilityID: CVE-2026-27145
     VendorIDs:
     - GO-2026-5037
@@ -36402,6 +37821,8 @@
     - https://access.redhat.com/errata/RHSA-2026:50319
     - https://access.redhat.com/errata/RHSA-2026:51057
     - https://access.redhat.com/errata/RHSA-2026:51187
+    - https://access.redhat.com/errata/RHSA-2026:52946
+    - https://access.redhat.com/errata/RHSA-2026:53374
     - https://access.redhat.com/security/cve/CVE-2026-27145
     - https://bugzilla.redhat.com/2445356
     - https://bugzilla.redhat.com/2484207
@@ -36421,7 +37842,7 @@
     - https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-27145.json
     - https://www.cve.org/CVERecord?id=CVE-2026-27145
     PublishedDate: '2026-06-02T23:16:35.57Z'
-    LastModifiedDate: '2026-08-07T12:17:31.407Z'
+    LastModifiedDate: '2026-08-11T13:18:11.657Z'
   - VulnerabilityID: CVE-2026-32280
     VendorIDs:
     - GO-2026-4947
@@ -36643,7 +38064,7 @@
     - https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-32280.json
     - https://www.cve.org/CVERecord?id=CVE-2026-32280
     PublishedDate: '2026-04-08T02:16:03.247Z'
-    LastModifiedDate: '2026-08-07T12:17:32.76Z'
+    LastModifiedDate: '2026-08-11T13:18:15.103Z'
   - VulnerabilityID: CVE-2026-32281
     VendorIDs:
     - GO-2026-4946
@@ -36894,7 +38315,7 @@
     - https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-32283.json
     - https://www.cve.org/CVERecord?id=CVE-2026-32283
     PublishedDate: '2026-04-08T02:16:03.58Z'
-    LastModifiedDate: '2026-08-07T12:17:34.52Z'
+    LastModifiedDate: '2026-08-10T13:18:43.89Z'
   - VulnerabilityID: CVE-2026-33811
     VendorIDs:
     - GO-2026-4981
@@ -37029,7 +38450,7 @@
     - https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-33811.json
     - https://www.cve.org/CVERecord?id=CVE-2026-33811
     PublishedDate: '2026-05-07T20:16:42.77Z'
-    LastModifiedDate: '2026-08-07T12:17:40.737Z'
+    LastModifiedDate: '2026-08-11T13:18:23.8Z'
   - VulnerabilityID: CVE-2026-33814
     VendorIDs:
     - GO-2026-4918
@@ -37108,7 +38529,7 @@
     - https://ubuntu.com/security/notices/USN-8473-1
     - https://www.cve.org/CVERecord?id=CVE-2026-33814
     PublishedDate: '2026-05-07T20:16:42.88Z'
-    LastModifiedDate: '2026-08-05T13:21:53.75Z'
+    LastModifiedDate: '2026-08-11T13:18:26.35Z'
   - VulnerabilityID: CVE-2026-39820
     VendorIDs:
     - GO-2026-4986
@@ -37193,7 +38614,7 @@
     - https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-39820.json
     - https://www.cve.org/CVERecord?id=CVE-2026-39820
     PublishedDate: '2026-05-07T20:16:43.187Z'
-    LastModifiedDate: '2026-08-06T13:17:58.313Z'
+    LastModifiedDate: '2026-08-11T13:18:36.593Z'
   - VulnerabilityID: CVE-2026-39822
     VendorIDs:
     - GO-2026-4970
@@ -37383,7 +38804,7 @@
     - https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-42499.json
     - https://www.cve.org/CVERecord?id=CVE-2026-42499
     PublishedDate: '2026-05-07T20:16:44.54Z'
-    LastModifiedDate: '2026-08-06T13:18:11.527Z'
+    LastModifiedDate: '2026-08-11T13:18:51.113Z'
   - VulnerabilityID: CVE-2026-42504
     VendorIDs:
     - GO-2026-5038
@@ -38200,7 +39621,7 @@
     - https://ubuntu.com/security/notices/USN-8473-1
     - https://www.cve.org/CVERecord?id=CVE-2026-33814
     PublishedDate: '2026-05-07T20:16:42.88Z'
-    LastModifiedDate: '2026-08-05T13:21:53.75Z'
+    LastModifiedDate: '2026-08-11T13:18:26.35Z'
   - VulnerabilityID: CVE-2026-39821
     VendorIDs:
     - GO-2026-5026
@@ -38332,6 +39753,8 @@
     - https://access.redhat.com/errata/RHSA-2026:51187
     - https://access.redhat.com/errata/RHSA-2026:51194
     - https://access.redhat.com/errata/RHSA-2026:51341
+    - https://access.redhat.com/errata/RHSA-2026:52826
+    - https://access.redhat.com/errata/RHSA-2026:53374
     - https://access.redhat.com/security/cve/CVE-2026-39821
     - https://bugzilla.redhat.com/2480756
     - https://bugzilla.redhat.com/show_bug.cgi?id=2480756
@@ -38352,7 +39775,7 @@
     - https://ubuntu.com/security/notices/USN-8416-1
     - https://www.cve.org/CVERecord?id=CVE-2026-39821
     PublishedDate: '2026-05-22T16:16:20.41Z'
-    LastModifiedDate: '2026-08-07T12:17:45.443Z'
+    LastModifiedDate: '2026-08-11T13:18:37.553Z'
   - VulnerabilityID: CVE-2025-47911
     VendorIDs:
     - GO-2026-4440
@@ -38720,7 +40143,7 @@
     - CWE-1286
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       azure: 3
       bitnami: 3
       oracle-oval: 3
@@ -38885,6 +40308,9 @@
     - https://access.redhat.com/errata/RHSA-2026:49944
     - https://access.redhat.com/errata/RHSA-2026:5110
     - https://access.redhat.com/errata/RHSA-2026:51288
+    - https://access.redhat.com/errata/RHSA-2026:52389
+    - https://access.redhat.com/errata/RHSA-2026:52390
+    - https://access.redhat.com/errata/RHSA-2026:52391
     - https://access.redhat.com/errata/RHSA-2026:5549
     - https://access.redhat.com/errata/RHSA-2026:5941
     - https://access.redhat.com/errata/RHSA-2026:5942
@@ -38992,7 +40418,7 @@
     - https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-25679.json
     - https://www.cve.org/CVERecord?id=CVE-2026-25679
     PublishedDate: '2026-03-06T22:16:00.72Z'
-    LastModifiedDate: '2026-08-07T12:17:21.57Z'
+    LastModifiedDate: '2026-08-11T13:18:00.37Z'
   - VulnerabilityID: CVE-2026-27145
     VendorIDs:
     - GO-2026-5037
@@ -39082,6 +40508,8 @@
     - https://access.redhat.com/errata/RHSA-2026:50319
     - https://access.redhat.com/errata/RHSA-2026:51057
     - https://access.redhat.com/errata/RHSA-2026:51187
+    - https://access.redhat.com/errata/RHSA-2026:52946
+    - https://access.redhat.com/errata/RHSA-2026:53374
     - https://access.redhat.com/security/cve/CVE-2026-27145
     - https://bugzilla.redhat.com/2445356
     - https://bugzilla.redhat.com/2484207
@@ -39101,7 +40529,7 @@
     - https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-27145.json
     - https://www.cve.org/CVERecord?id=CVE-2026-27145
     PublishedDate: '2026-06-02T23:16:35.57Z'
-    LastModifiedDate: '2026-08-07T12:17:31.407Z'
+    LastModifiedDate: '2026-08-11T13:18:11.657Z'
   - VulnerabilityID: CVE-2026-32280
     VendorIDs:
     - GO-2026-4947
@@ -39323,7 +40751,7 @@
     - https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-32280.json
     - https://www.cve.org/CVERecord?id=CVE-2026-32280
     PublishedDate: '2026-04-08T02:16:03.247Z'
-    LastModifiedDate: '2026-08-07T12:17:32.76Z'
+    LastModifiedDate: '2026-08-11T13:18:15.103Z'
   - VulnerabilityID: CVE-2026-32281
     VendorIDs:
     - GO-2026-4946
@@ -39574,7 +41002,7 @@
     - https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-32283.json
     - https://www.cve.org/CVERecord?id=CVE-2026-32283
     PublishedDate: '2026-04-08T02:16:03.58Z'
-    LastModifiedDate: '2026-08-07T12:17:34.52Z'
+    LastModifiedDate: '2026-08-10T13:18:43.89Z'
   - VulnerabilityID: CVE-2026-33811
     VendorIDs:
     - GO-2026-4981
@@ -39709,7 +41137,7 @@
     - https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-33811.json
     - https://www.cve.org/CVERecord?id=CVE-2026-33811
     PublishedDate: '2026-05-07T20:16:42.77Z'
-    LastModifiedDate: '2026-08-07T12:17:40.737Z'
+    LastModifiedDate: '2026-08-11T13:18:23.8Z'
   - VulnerabilityID: CVE-2026-33814
     VendorIDs:
     - GO-2026-4918
@@ -39788,7 +41216,7 @@
     - https://ubuntu.com/security/notices/USN-8473-1
     - https://www.cve.org/CVERecord?id=CVE-2026-33814
     PublishedDate: '2026-05-07T20:16:42.88Z'
-    LastModifiedDate: '2026-08-05T13:21:53.75Z'
+    LastModifiedDate: '2026-08-11T13:18:26.35Z'
   - VulnerabilityID: CVE-2026-39820
     VendorIDs:
     - GO-2026-4986
@@ -39873,7 +41301,7 @@
     - https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-39820.json
     - https://www.cve.org/CVERecord?id=CVE-2026-39820
     PublishedDate: '2026-05-07T20:16:43.187Z'
-    LastModifiedDate: '2026-08-06T13:17:58.313Z'
+    LastModifiedDate: '2026-08-11T13:18:36.593Z'
   - VulnerabilityID: CVE-2026-39822
     VendorIDs:
     - GO-2026-4970
@@ -40063,7 +41491,7 @@
     - https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-42499.json
     - https://www.cve.org/CVERecord?id=CVE-2026-42499
     PublishedDate: '2026-05-07T20:16:44.54Z'
-    LastModifiedDate: '2026-08-06T13:18:11.527Z'
+    LastModifiedDate: '2026-08-11T13:18:51.113Z'
   - VulnerabilityID: CVE-2026-42504
     VendorIDs:
     - GO-2026-5038
@@ -40767,7 +42195,7 @@
     - https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-41567.json
     - https://www.cve.org/CVERecord?id=CVE-2026-41567
     PublishedDate: '2026-06-05T02:17:13.817Z'
-    LastModifiedDate: '2026-08-06T13:18:09.417Z'
+    LastModifiedDate: '2026-08-10T13:19:21.29Z'
   - VulnerabilityID: CVE-2026-42306
     VendorIDs:
     - GHSA-rg2x-37c3-w2rh
@@ -40876,7 +42304,7 @@
     - https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-33997.json
     - https://www.cve.org/CVERecord?id=CVE-2026-33997
     PublishedDate: '2026-03-31T03:15:57.523Z'
-    LastModifiedDate: '2026-08-03T13:18:01.6Z'
+    LastModifiedDate: '2026-08-10T13:19:04.067Z'
   - VulnerabilityID: CVE-2026-41568
     VendorIDs:
     - GHSA-vp62-88p7-qqf5
@@ -41286,7 +42714,7 @@
     - https://ubuntu.com/security/notices/USN-8473-1
     - https://www.cve.org/CVERecord?id=CVE-2026-33814
     PublishedDate: '2026-05-07T20:16:42.88Z'
-    LastModifiedDate: '2026-08-05T13:21:53.75Z'
+    LastModifiedDate: '2026-08-11T13:18:26.35Z'
   - VulnerabilityID: CVE-2026-39821
     VendorIDs:
     - GO-2026-5026
@@ -41418,6 +42846,8 @@
     - https://access.redhat.com/errata/RHSA-2026:51187
     - https://access.redhat.com/errata/RHSA-2026:51194
     - https://access.redhat.com/errata/RHSA-2026:51341
+    - https://access.redhat.com/errata/RHSA-2026:52826
+    - https://access.redhat.com/errata/RHSA-2026:53374
     - https://access.redhat.com/security/cve/CVE-2026-39821
     - https://bugzilla.redhat.com/2480756
     - https://bugzilla.redhat.com/show_bug.cgi?id=2480756
@@ -41438,7 +42868,7 @@
     - https://ubuntu.com/security/notices/USN-8416-1
     - https://www.cve.org/CVERecord?id=CVE-2026-39821
     PublishedDate: '2026-05-22T16:16:20.41Z'
-    LastModifiedDate: '2026-08-07T12:17:45.443Z'
+    LastModifiedDate: '2026-08-11T13:18:37.553Z'
   - VulnerabilityID: CVE-2026-25680
     VendorIDs:
     - GO-2026-5028
@@ -41785,7 +43215,7 @@
     - https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-42151.json
     - https://www.cve.org/CVERecord?id=CVE-2026-42151
     PublishedDate: '2026-05-04T19:16:04.22Z'
-    LastModifiedDate: '2026-08-06T13:18:09.95Z'
+    LastModifiedDate: '2026-08-10T13:19:26.88Z'
   - VulnerabilityID: CVE-2026-42154
     VendorIDs:
     - GHSA-8rm2-7qqf-34qm
@@ -41897,7 +43327,7 @@
     - https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-42154.json
     - https://www.cve.org/CVERecord?id=CVE-2026-42154
     PublishedDate: '2026-05-04T19:16:04.397Z'
-    LastModifiedDate: '2026-08-06T13:18:10.76Z'
+    LastModifiedDate: '2026-08-11T13:18:50.057Z'
   - VulnerabilityID: CVE-2026-40179
     VendorIDs:
     - GHSA-vffh-x6r8-xx99
@@ -42130,6 +43560,9 @@
     - https://access.redhat.com/errata/RHSA-2026:47735
     - https://access.redhat.com/errata/RHSA-2026:48151
     - https://access.redhat.com/errata/RHSA-2026:51033
+    - https://access.redhat.com/errata/RHSA-2026:51038
+    - https://access.redhat.com/errata/RHSA-2026:52857
+    - https://access.redhat.com/errata/RHSA-2026:52910
     - https://access.redhat.com/security/cve/CVE-2026-39828
     - https://bugzilla.redhat.com/show_bug.cgi?id=2480687
     - https://go.dev/cl/781621
@@ -42140,7 +43573,7 @@
     - https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-39828.json
     - https://www.cve.org/CVERecord?id=CVE-2026-39828
     PublishedDate: '2026-05-22T04:16:22.19Z'
-    LastModifiedDate: '2026-08-07T12:17:47.15Z'
+    LastModifiedDate: '2026-08-11T13:18:39.89Z'
   - VulnerabilityID: CVE-2026-39829
     VendorIDs:
     - GO-2026-5018
@@ -42226,6 +43659,8 @@
     - https://access.redhat.com/errata/RHSA-2026:48693
     - https://access.redhat.com/errata/RHSA-2026:49944
     - https://access.redhat.com/errata/RHSA-2026:51033
+    - https://access.redhat.com/errata/RHSA-2026:52857
+    - https://access.redhat.com/errata/RHSA-2026:52910
     - https://access.redhat.com/security/cve/CVE-2026-39829
     - https://bugzilla.redhat.com/2480680
     - https://bugzilla.redhat.com/2480681
@@ -42261,7 +43696,7 @@
     - https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-39829.json
     - https://www.cve.org/CVERecord?id=CVE-2026-39829
     PublishedDate: '2026-05-22T04:16:22.31Z'
-    LastModifiedDate: '2026-08-06T13:18:02.357Z'
+    LastModifiedDate: '2026-08-11T13:18:41.513Z'
   - VulnerabilityID: CVE-2026-39830
     VendorIDs:
     - GO-2026-5017
@@ -42340,6 +43775,8 @@
     - https://access.redhat.com/errata/RHSA-2026:48151
     - https://access.redhat.com/errata/RHSA-2026:49944
     - https://access.redhat.com/errata/RHSA-2026:51033
+    - https://access.redhat.com/errata/RHSA-2026:52857
+    - https://access.redhat.com/errata/RHSA-2026:52910
     - https://access.redhat.com/security/cve/CVE-2026-39830
     - https://bugzilla.redhat.com/2445356
     - https://bugzilla.redhat.com/2456333
@@ -42376,7 +43813,7 @@
     - https://ubuntu.com/security/notices/USN-8447-3
     - https://www.cve.org/CVERecord?id=CVE-2026-39830
     PublishedDate: '2026-05-22T04:16:22.44Z'
-    LastModifiedDate: '2026-08-06T13:18:03.8Z'
+    LastModifiedDate: '2026-08-11T13:18:43.223Z'
   - VulnerabilityID: CVE-2026-39831
     VendorIDs:
     - GO-2026-5019
@@ -42425,6 +43862,7 @@
     LastModifiedDate: '2026-07-23T16:10:00.137Z'
   - VulnerabilityID: CVE-2026-39832
     VendorIDs:
+    - GHSA-f5wc-c3c7-36mc
     - GO-2026-5006
     PkgID: golang.org/x/crypto@v0.40.0
     PkgName: golang.org/x/crypto
@@ -42488,6 +43926,8 @@
     - https://access.redhat.com/errata/RHSA-2026:43052
     - https://access.redhat.com/errata/RHSA-2026:43692
     - https://access.redhat.com/errata/RHSA-2026:49944
+    - https://access.redhat.com/errata/RHSA-2026:52857
+    - https://access.redhat.com/errata/RHSA-2026:52910
     - https://access.redhat.com/security/cve/CVE-2026-39832
     - https://bugzilla.redhat.com/2480680
     - https://bugzilla.redhat.com/2480685
@@ -42498,6 +43938,8 @@
     - https://errata.almalinux.org/9/ALSA-2026-37410.html
     - https://errata.rockylinux.org/RLSA-2026:37410
     - https://github.com/golang/crypto/commit/e3d1254f1e7e60baa086142c46174bf6d8d0fe50
+    - https://go.dev/cl/778640
+    - https://go.dev/cl/778641
     - https://go.dev/cl/778642
     - https://go.dev/issue/79435
     - https://groups.google.com/g/golang-announce/c/a082jnz-LvI
@@ -42509,7 +43951,7 @@
     - https://ubuntu.com/security/notices/USN-8447-1
     - https://www.cve.org/CVERecord?id=CVE-2026-39832
     PublishedDate: '2026-05-22T04:16:22.663Z'
-    LastModifiedDate: '2026-08-07T12:17:50.05Z'
+    LastModifiedDate: '2026-08-11T22:17:24.157Z'
   - VulnerabilityID: CVE-2026-39835
     VendorIDs:
     - GO-2026-5015
@@ -42587,6 +44029,9 @@
     - https://access.redhat.com/errata/RHSA-2026:47949
     - https://access.redhat.com/errata/RHSA-2026:48151
     - https://access.redhat.com/errata/RHSA-2026:51033
+    - https://access.redhat.com/errata/RHSA-2026:51038
+    - https://access.redhat.com/errata/RHSA-2026:52857
+    - https://access.redhat.com/errata/RHSA-2026:52910
     - https://access.redhat.com/security/cve/CVE-2026-39835
     - https://bugzilla.redhat.com/2480680
     - https://bugzilla.redhat.com/2480685
@@ -42606,7 +44051,7 @@
     - https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-39835.json
     - https://www.cve.org/CVERecord?id=CVE-2026-39835
     PublishedDate: '2026-05-22T04:16:24.53Z'
-    LastModifiedDate: '2026-08-06T13:18:05.91Z'
+    LastModifiedDate: '2026-08-11T13:18:45.42Z'
   - VulnerabilityID: CVE-2026-42508
     VendorIDs:
     - GO-2026-5021
@@ -42676,6 +44121,8 @@
     - https://access.redhat.com/errata/RHSA-2026:49944
     - https://access.redhat.com/errata/RHSA-2026:51033
     - https://access.redhat.com/errata/RHSA-2026:51288
+    - https://access.redhat.com/errata/RHSA-2026:52857
+    - https://access.redhat.com/errata/RHSA-2026:52910
     - https://access.redhat.com/security/cve/CVE-2026-42508
     - https://bugzilla.redhat.com/2480680
     - https://bugzilla.redhat.com/2480681
@@ -42713,7 +44160,7 @@
     - https://ubuntu.com/security/notices/USN-8447-2
     - https://www.cve.org/CVERecord?id=CVE-2026-42508
     PublishedDate: '2026-05-22T04:16:25.44Z'
-    LastModifiedDate: '2026-08-07T12:17:52.777Z'
+    LastModifiedDate: '2026-08-11T13:18:51.997Z'
   - VulnerabilityID: CVE-2026-46595
     VendorIDs:
     - GO-2026-5023
@@ -42968,6 +44415,7 @@
     LastModifiedDate: '2026-07-23T16:10:00.137Z'
   - VulnerabilityID: CVE-2026-39833
     VendorIDs:
+    - GHSA-jppx-rxg9-jmrx
     - GO-2026-5005
     PkgID: golang.org/x/crypto@v0.40.0
     PkgName: golang.org/x/crypto
@@ -43005,6 +44453,7 @@
     - https://github.com/golang/crypto/commit/0fb843a472225645e917c84f1f9744757f0bab14
     - https://go.dev/cl/778640
     - https://go.dev/cl/778641
+    - https://go.dev/cl/778642
     - https://go.dev/issue/79436
     - https://groups.google.com/g/golang-announce/c/a082jnz-LvI
     - https://nvd.nist.gov/vuln/detail/CVE-2026-39833
@@ -43013,7 +44462,7 @@
     - https://ubuntu.com/security/notices/USN-8447-2
     - https://www.cve.org/CVERecord?id=CVE-2026-39833
     PublishedDate: '2026-05-22T04:16:22.773Z'
-    LastModifiedDate: '2026-07-23T16:10:00.137Z'
+    LastModifiedDate: '2026-08-11T22:17:25.25Z'
   - VulnerabilityID: CVE-2026-39834
     VendorIDs:
     - GO-2026-5020
@@ -43352,7 +44801,7 @@
     - https://ubuntu.com/security/notices/USN-8473-1
     - https://www.cve.org/CVERecord?id=CVE-2026-33814
     PublishedDate: '2026-05-07T20:16:42.88Z'
-    LastModifiedDate: '2026-08-05T13:21:53.75Z'
+    LastModifiedDate: '2026-08-11T13:18:26.35Z'
   - VulnerabilityID: CVE-2026-39821
     VendorIDs:
     - GO-2026-5026
@@ -43484,6 +44933,8 @@
     - https://access.redhat.com/errata/RHSA-2026:51187
     - https://access.redhat.com/errata/RHSA-2026:51194
     - https://access.redhat.com/errata/RHSA-2026:51341
+    - https://access.redhat.com/errata/RHSA-2026:52826
+    - https://access.redhat.com/errata/RHSA-2026:53374
     - https://access.redhat.com/security/cve/CVE-2026-39821
     - https://bugzilla.redhat.com/2480756
     - https://bugzilla.redhat.com/show_bug.cgi?id=2480756
@@ -43504,7 +44955,7 @@
     - https://ubuntu.com/security/notices/USN-8416-1
     - https://www.cve.org/CVERecord?id=CVE-2026-39821
     PublishedDate: '2026-05-22T16:16:20.41Z'
-    LastModifiedDate: '2026-08-07T12:17:45.443Z'
+    LastModifiedDate: '2026-08-11T13:18:37.553Z'
   - VulnerabilityID: CVE-2025-47911
     VendorIDs:
     - GO-2026-4440
@@ -44129,7 +45580,7 @@
     - https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-33186.json
     - https://www.cve.org/CVERecord?id=CVE-2026-33186
     PublishedDate: '2026-03-20T23:16:45.18Z'
-    LastModifiedDate: '2026-08-06T13:17:43.51Z'
+    LastModifiedDate: '2026-08-11T13:18:17.42Z'
   - VulnerabilityID: GHSA-hrxh-6v49-42gf
     PkgID: google.golang.org/grpc@v1.71.0
     PkgName: google.golang.org/grpc
@@ -44317,7 +45768,7 @@
     - CWE-770
     VendorSeverity:
       alma: 3
-      amazon: 3
+      amazon: 2
       azure: 2
       bitnami: 3
       cbl-mariner: 2
@@ -44628,7 +46079,7 @@
     - https://security.access.redhat.com/data/csaf/v2/vex/2025/cve-2025-61726.json
     - https://www.cve.org/CVERecord?id=CVE-2025-61726
     PublishedDate: '2026-01-28T20:16:09.713Z'
-    LastModifiedDate: '2026-08-07T12:17:02.35Z'
+    LastModifiedDate: '2026-08-11T13:17:34.403Z'
   - VulnerabilityID: CVE-2025-61729
     VendorIDs:
     - GO-2025-4155
@@ -44723,7 +46174,7 @@
     - CWE-1286
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       azure: 3
       bitnami: 3
       oracle-oval: 3
@@ -44888,6 +46339,9 @@
     - https://access.redhat.com/errata/RHSA-2026:49944
     - https://access.redhat.com/errata/RHSA-2026:5110
     - https://access.redhat.com/errata/RHSA-2026:51288
+    - https://access.redhat.com/errata/RHSA-2026:52389
+    - https://access.redhat.com/errata/RHSA-2026:52390
+    - https://access.redhat.com/errata/RHSA-2026:52391
     - https://access.redhat.com/errata/RHSA-2026:5549
     - https://access.redhat.com/errata/RHSA-2026:5941
     - https://access.redhat.com/errata/RHSA-2026:5942
@@ -44995,7 +46449,7 @@
     - https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-25679.json
     - https://www.cve.org/CVERecord?id=CVE-2026-25679
     PublishedDate: '2026-03-06T22:16:00.72Z'
-    LastModifiedDate: '2026-08-07T12:17:21.57Z'
+    LastModifiedDate: '2026-08-11T13:18:00.37Z'
   - VulnerabilityID: CVE-2026-27145
     VendorIDs:
     - GO-2026-5037
@@ -45085,6 +46539,8 @@
     - https://access.redhat.com/errata/RHSA-2026:50319
     - https://access.redhat.com/errata/RHSA-2026:51057
     - https://access.redhat.com/errata/RHSA-2026:51187
+    - https://access.redhat.com/errata/RHSA-2026:52946
+    - https://access.redhat.com/errata/RHSA-2026:53374
     - https://access.redhat.com/security/cve/CVE-2026-27145
     - https://bugzilla.redhat.com/2445356
     - https://bugzilla.redhat.com/2484207
@@ -45104,7 +46560,7 @@
     - https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-27145.json
     - https://www.cve.org/CVERecord?id=CVE-2026-27145
     PublishedDate: '2026-06-02T23:16:35.57Z'
-    LastModifiedDate: '2026-08-07T12:17:31.407Z'
+    LastModifiedDate: '2026-08-11T13:18:11.657Z'
   - VulnerabilityID: CVE-2026-32280
     VendorIDs:
     - GO-2026-4947
@@ -45326,7 +46782,7 @@
     - https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-32280.json
     - https://www.cve.org/CVERecord?id=CVE-2026-32280
     PublishedDate: '2026-04-08T02:16:03.247Z'
-    LastModifiedDate: '2026-08-07T12:17:32.76Z'
+    LastModifiedDate: '2026-08-11T13:18:15.103Z'
   - VulnerabilityID: CVE-2026-32281
     VendorIDs:
     - GO-2026-4946
@@ -45577,7 +47033,7 @@
     - https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-32283.json
     - https://www.cve.org/CVERecord?id=CVE-2026-32283
     PublishedDate: '2026-04-08T02:16:03.58Z'
-    LastModifiedDate: '2026-08-07T12:17:34.52Z'
+    LastModifiedDate: '2026-08-10T13:18:43.89Z'
   - VulnerabilityID: CVE-2026-33811
     VendorIDs:
     - GO-2026-4981
@@ -45712,7 +47168,7 @@
     - https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-33811.json
     - https://www.cve.org/CVERecord?id=CVE-2026-33811
     PublishedDate: '2026-05-07T20:16:42.77Z'
-    LastModifiedDate: '2026-08-07T12:17:40.737Z'
+    LastModifiedDate: '2026-08-11T13:18:23.8Z'
   - VulnerabilityID: CVE-2026-33814
     VendorIDs:
     - GO-2026-4918
@@ -45791,7 +47247,7 @@
     - https://ubuntu.com/security/notices/USN-8473-1
     - https://www.cve.org/CVERecord?id=CVE-2026-33814
     PublishedDate: '2026-05-07T20:16:42.88Z'
-    LastModifiedDate: '2026-08-05T13:21:53.75Z'
+    LastModifiedDate: '2026-08-11T13:18:26.35Z'
   - VulnerabilityID: CVE-2026-39820
     VendorIDs:
     - GO-2026-4986
@@ -45876,7 +47332,7 @@
     - https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-39820.json
     - https://www.cve.org/CVERecord?id=CVE-2026-39820
     PublishedDate: '2026-05-07T20:16:43.187Z'
-    LastModifiedDate: '2026-08-06T13:17:58.313Z'
+    LastModifiedDate: '2026-08-11T13:18:36.593Z'
   - VulnerabilityID: CVE-2026-39822
     VendorIDs:
     - GO-2026-4970
@@ -46066,7 +47522,7 @@
     - https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-42499.json
     - https://www.cve.org/CVERecord?id=CVE-2026-42499
     PublishedDate: '2026-05-07T20:16:44.54Z'
-    LastModifiedDate: '2026-08-06T13:18:11.527Z'
+    LastModifiedDate: '2026-08-11T13:18:51.113Z'
   - VulnerabilityID: CVE-2026-42504
     VendorIDs:
     - GO-2026-5038
@@ -46627,7 +48083,7 @@
     - CWE-770
     VendorSeverity:
       alma: 3
-      amazon: 3
+      amazon: 2
       azure: 2
       bitnami: 2
       oracle-oval: 3
@@ -46693,7 +48149,7 @@
     Description: During the TLS 1.3 handshake if multiple messages are sent in records that span encryption level boundaries (for instance the Client Hello and Encrypted Extensions messages), the subsequent messages may be processed before the encryption level changes. This can cause some minor information disclosure if a network-local attacker can inject messages during the handshake.
     Severity: MEDIUM
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       azure: 1
       bitnami: 2
       cbl-mariner: 1
@@ -47475,7 +48931,7 @@
     - https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-41567.json
     - https://www.cve.org/CVERecord?id=CVE-2026-41567
     PublishedDate: '2026-06-05T02:17:13.817Z'
-    LastModifiedDate: '2026-08-06T13:18:09.417Z'
+    LastModifiedDate: '2026-08-10T13:19:21.29Z'
   - VulnerabilityID: CVE-2026-42306
     VendorIDs:
     - GHSA-rg2x-37c3-w2rh
@@ -47584,7 +49040,7 @@
     - https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-33997.json
     - https://www.cve.org/CVERecord?id=CVE-2026-33997
     PublishedDate: '2026-03-31T03:15:57.523Z'
-    LastModifiedDate: '2026-08-03T13:18:01.6Z'
+    LastModifiedDate: '2026-08-10T13:19:04.067Z'
   - VulnerabilityID: CVE-2026-41568
     VendorIDs:
     - GHSA-vp62-88p7-qqf5
@@ -47764,7 +49220,7 @@
     - https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-41567.json
     - https://www.cve.org/CVERecord?id=CVE-2026-41567
     PublishedDate: '2026-06-05T02:17:13.817Z'
-    LastModifiedDate: '2026-08-06T13:18:09.417Z'
+    LastModifiedDate: '2026-08-10T13:19:21.29Z'
   - VulnerabilityID: CVE-2026-42306
     VendorIDs:
     - GHSA-rg2x-37c3-w2rh
@@ -47873,7 +49329,7 @@
     - https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-33997.json
     - https://www.cve.org/CVERecord?id=CVE-2026-33997
     PublishedDate: '2026-03-31T03:15:57.523Z'
-    LastModifiedDate: '2026-08-03T13:18:01.6Z'
+    LastModifiedDate: '2026-08-10T13:19:04.067Z'
   - VulnerabilityID: CVE-2026-41568
     VendorIDs:
     - GHSA-vp62-88p7-qqf5
@@ -48759,7 +50215,7 @@
     - CWE-770
     VendorSeverity:
       alma: 3
-      amazon: 3
+      amazon: 2
       azure: 2
       bitnami: 3
       cbl-mariner: 2
@@ -49070,7 +50526,7 @@
     - https://security.access.redhat.com/data/csaf/v2/vex/2025/cve-2025-61726.json
     - https://www.cve.org/CVERecord?id=CVE-2025-61726
     PublishedDate: '2026-01-28T20:16:09.713Z'
-    LastModifiedDate: '2026-08-07T12:17:02.35Z'
+    LastModifiedDate: '2026-08-11T13:17:34.403Z'
   - VulnerabilityID: CVE-2025-61729
     VendorIDs:
     - GO-2025-4155
@@ -49165,7 +50621,7 @@
     - CWE-1286
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       azure: 3
       bitnami: 3
       oracle-oval: 3
@@ -49330,6 +50786,9 @@
     - https://access.redhat.com/errata/RHSA-2026:49944
     - https://access.redhat.com/errata/RHSA-2026:5110
     - https://access.redhat.com/errata/RHSA-2026:51288
+    - https://access.redhat.com/errata/RHSA-2026:52389
+    - https://access.redhat.com/errata/RHSA-2026:52390
+    - https://access.redhat.com/errata/RHSA-2026:52391
     - https://access.redhat.com/errata/RHSA-2026:5549
     - https://access.redhat.com/errata/RHSA-2026:5941
     - https://access.redhat.com/errata/RHSA-2026:5942
@@ -49437,7 +50896,7 @@
     - https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-25679.json
     - https://www.cve.org/CVERecord?id=CVE-2026-25679
     PublishedDate: '2026-03-06T22:16:00.72Z'
-    LastModifiedDate: '2026-08-07T12:17:21.57Z'
+    LastModifiedDate: '2026-08-11T13:18:00.37Z'
   - VulnerabilityID: CVE-2026-27145
     VendorIDs:
     - GO-2026-5037
@@ -49527,6 +50986,8 @@
     - https://access.redhat.com/errata/RHSA-2026:50319
     - https://access.redhat.com/errata/RHSA-2026:51057
     - https://access.redhat.com/errata/RHSA-2026:51187
+    - https://access.redhat.com/errata/RHSA-2026:52946
+    - https://access.redhat.com/errata/RHSA-2026:53374
     - https://access.redhat.com/security/cve/CVE-2026-27145
     - https://bugzilla.redhat.com/2445356
     - https://bugzilla.redhat.com/2484207
@@ -49546,7 +51007,7 @@
     - https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-27145.json
     - https://www.cve.org/CVERecord?id=CVE-2026-27145
     PublishedDate: '2026-06-02T23:16:35.57Z'
-    LastModifiedDate: '2026-08-07T12:17:31.407Z'
+    LastModifiedDate: '2026-08-11T13:18:11.657Z'
   - VulnerabilityID: CVE-2026-32280
     VendorIDs:
     - GO-2026-4947
@@ -49768,7 +51229,7 @@
     - https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-32280.json
     - https://www.cve.org/CVERecord?id=CVE-2026-32280
     PublishedDate: '2026-04-08T02:16:03.247Z'
-    LastModifiedDate: '2026-08-07T12:17:32.76Z'
+    LastModifiedDate: '2026-08-11T13:18:15.103Z'
   - VulnerabilityID: CVE-2026-32281
     VendorIDs:
     - GO-2026-4946
@@ -50019,7 +51480,7 @@
     - https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-32283.json
     - https://www.cve.org/CVERecord?id=CVE-2026-32283
     PublishedDate: '2026-04-08T02:16:03.58Z'
-    LastModifiedDate: '2026-08-07T12:17:34.52Z'
+    LastModifiedDate: '2026-08-10T13:18:43.89Z'
   - VulnerabilityID: CVE-2026-33811
     VendorIDs:
     - GO-2026-4981
@@ -50154,7 +51615,7 @@
     - https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-33811.json
     - https://www.cve.org/CVERecord?id=CVE-2026-33811
     PublishedDate: '2026-05-07T20:16:42.77Z'
-    LastModifiedDate: '2026-08-07T12:17:40.737Z'
+    LastModifiedDate: '2026-08-11T13:18:23.8Z'
   - VulnerabilityID: CVE-2026-33814
     VendorIDs:
     - GO-2026-4918
@@ -50233,7 +51694,7 @@
     - https://ubuntu.com/security/notices/USN-8473-1
     - https://www.cve.org/CVERecord?id=CVE-2026-33814
     PublishedDate: '2026-05-07T20:16:42.88Z'
-    LastModifiedDate: '2026-08-05T13:21:53.75Z'
+    LastModifiedDate: '2026-08-11T13:18:26.35Z'
   - VulnerabilityID: CVE-2026-39820
     VendorIDs:
     - GO-2026-4986
@@ -50318,7 +51779,7 @@
     - https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-39820.json
     - https://www.cve.org/CVERecord?id=CVE-2026-39820
     PublishedDate: '2026-05-07T20:16:43.187Z'
-    LastModifiedDate: '2026-08-06T13:17:58.313Z'
+    LastModifiedDate: '2026-08-11T13:18:36.593Z'
   - VulnerabilityID: CVE-2026-39822
     VendorIDs:
     - GO-2026-4970
@@ -50508,7 +51969,7 @@
     - https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-42499.json
     - https://www.cve.org/CVERecord?id=CVE-2026-42499
     PublishedDate: '2026-05-07T20:16:44.54Z'
-    LastModifiedDate: '2026-08-06T13:18:11.527Z'
+    LastModifiedDate: '2026-08-11T13:18:51.113Z'
   - VulnerabilityID: CVE-2026-42504
     VendorIDs:
     - GO-2026-5038
@@ -50584,7 +52045,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -50691,7 +52152,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -52654,7 +54115,7 @@
     - CWE-770
     VendorSeverity:
       alma: 3
-      amazon: 3
+      amazon: 2
       azure: 2
       bitnami: 2
       oracle-oval: 3
@@ -52720,7 +54181,7 @@
     Description: During the TLS 1.3 handshake if multiple messages are sent in records that span encryption level boundaries (for instance the Client Hello and Encrypted Extensions messages), the subsequent messages may be processed before the encryption level changes. This can cause some minor information disclosure if a network-local attacker can inject messages during the handshake.
     Severity: MEDIUM
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       azure: 1
       bitnami: 2
       cbl-mariner: 1
@@ -53573,7 +55034,7 @@
     - https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-41567.json
     - https://www.cve.org/CVERecord?id=CVE-2026-41567
     PublishedDate: '2026-06-05T02:17:13.817Z'
-    LastModifiedDate: '2026-08-06T13:18:09.417Z'
+    LastModifiedDate: '2026-08-10T13:19:21.29Z'
   - VulnerabilityID: CVE-2026-42306
     VendorIDs:
     - GHSA-rg2x-37c3-w2rh
@@ -53682,7 +55143,7 @@
     - https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-33997.json
     - https://www.cve.org/CVERecord?id=CVE-2026-33997
     PublishedDate: '2026-03-31T03:15:57.523Z'
-    LastModifiedDate: '2026-08-03T13:18:01.6Z'
+    LastModifiedDate: '2026-08-10T13:19:04.067Z'
   - VulnerabilityID: CVE-2026-41568
     VendorIDs:
     - GHSA-vp62-88p7-qqf5
@@ -53977,6 +55438,8 @@
     - https://access.redhat.com/errata/RHSA-2026:50319
     - https://access.redhat.com/errata/RHSA-2026:51057
     - https://access.redhat.com/errata/RHSA-2026:51187
+    - https://access.redhat.com/errata/RHSA-2026:52946
+    - https://access.redhat.com/errata/RHSA-2026:53374
     - https://access.redhat.com/security/cve/CVE-2026-27145
     - https://bugzilla.redhat.com/2445356
     - https://bugzilla.redhat.com/2484207
@@ -53996,7 +55459,7 @@
     - https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-27145.json
     - https://www.cve.org/CVERecord?id=CVE-2026-27145
     PublishedDate: '2026-06-02T23:16:35.57Z'
-    LastModifiedDate: '2026-08-07T12:17:31.407Z'
+    LastModifiedDate: '2026-08-11T13:18:11.657Z'
   - VulnerabilityID: CVE-2026-39822
     VendorIDs:
     - GO-2026-4970
