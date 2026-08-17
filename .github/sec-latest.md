@@ -5754,7 +5754,7 @@
 │                        │       │                  ├ [53]: https://ubuntu.com/security/notices/USN-8193-2 
 │                        │       │                  ╰ [54]: https://www.cve.org/CVERecord?id=CVE-2026-4878 
 │                        │       ├ PublishedDate   : 2026-04-09T16:16:31.987Z 
-│                        │       ╰ LastModifiedDate: 2026-08-15T21:16:23.77Z 
+│                        │       ╰ LastModifiedDate: 2026-08-16T13:16:56.47Z 
 │                        ├ [80]  ╭ VulnerabilityID : CVE-2026-4878 
 │                        │       ├ PkgID           : libcap2-bin@1:2.44-1ubuntu0.22.04.2 
 │                        │       ├ PkgName         : libcap2-bin 
@@ -5869,7 +5869,7 @@
 │                        │       │                  ├ [53]: https://ubuntu.com/security/notices/USN-8193-2 
 │                        │       │                  ╰ [54]: https://www.cve.org/CVERecord?id=CVE-2026-4878 
 │                        │       ├ PublishedDate   : 2026-04-09T16:16:31.987Z 
-│                        │       ╰ LastModifiedDate: 2026-08-15T21:16:23.77Z 
+│                        │       ╰ LastModifiedDate: 2026-08-16T13:16:56.47Z 
 │                        ├ [81]  ╭ VulnerabilityID : CVE-2025-14017 
 │                        │       ├ PkgID           : libcurl3-gnutls@7.81.0-1ubuntu1.21 
 │                        │       ├ PkgName         : libcurl3-gnutls 
@@ -13182,6 +13182,7 @@
 │                        │       │                  ├ julia      : 2 
 │                        │       │                  ├ oracle-oval: 2 
 │                        │       │                  ├ redhat     : 2 
+│                        │       │                  ├ rocky      : 2 
 │                        │       │                  ╰ ubuntu     : 2 
 │                        │       ├ CVSS             ╭ julia  ╭ V3Vector : CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:L/
 │                        │       │                  │        │            I:L/A:N 
@@ -13195,18 +13196,23 @@
 │                        │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:54662 
 │                        │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-58055 
 │                        │       │                  ├ [2] : https://bugzilla.redhat.com/2493954 
-│                        │       │                  ├ [3] : https://errata.almalinux.org/9/ALSA-2026-54662.html 
-│                        │       │                  ├ [4] : https://github.com/advisories/GHSA-xrr7-82jr-v58x 
-│                        │       │                  ├ [5] : https://github.com/bikini/exploitarium/tree/main/ng
+│                        │       │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2493954 
+│                        │       │                  ├ [4] : https://creativecommons.org/licenses/by/4.0/ 
+│                        │       │                  ├ [5] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-
+│                        │       │                  │       2026-58055 
+│                        │       │                  ├ [6] : https://errata.almalinux.org/9/ALSA-2026-54662.html 
+│                        │       │                  ├ [7] : https://errata.rockylinux.org/RLSA-2026:54662 
+│                        │       │                  ├ [8] : https://github.com/advisories/GHSA-xrr7-82jr-v58x 
+│                        │       │                  ├ [9] : https://github.com/bikini/exploitarium/tree/main/ng
 │                        │       │                  │       http2-nghttpx-upgrade-queue-poison-poc 
-│                        │       │                  ├ [6] : https://github.com/nghttp2/nghttp2/commit/ab28105c4
+│                        │       │                  ├ [10]: https://github.com/nghttp2/nghttp2/commit/ab28105c4
 │                        │       │                  │       a0197da24f8bfc414bc116055249e1e 
-│                        │       │                  ├ [7] : https://linux.oracle.com/cve/CVE-2026-58055.html 
-│                        │       │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2026-54662.html 
-│                        │       │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2026-58055 
-│                        │       │                  ├ [10]: https://ubuntu.com/security/notices/USN-8495-1 
-│                        │       │                  ├ [11]: https://www.cve.org/CVERecord?id=CVE-2026-58055 
-│                        │       │                  ╰ [12]: https://www.vulncheck.com/advisories/nghttp2-nghttp
+│                        │       │                  ├ [11]: https://linux.oracle.com/cve/CVE-2026-58055.html 
+│                        │       │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2026-54662.html 
+│                        │       │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2026-58055 
+│                        │       │                  ├ [14]: https://ubuntu.com/security/notices/USN-8495-1 
+│                        │       │                  ├ [15]: https://www.cve.org/CVERecord?id=CVE-2026-58055 
+│                        │       │                  ╰ [16]: https://www.vulncheck.com/advisories/nghttp2-nghttp
 │                        │       │                          x-http-request-response-smuggling-via-upgrade-reque
 │                        │       │                          st-with-content-length 
 │                        │       ├ PublishedDate   : 2026-06-28T02:16:32.677Z 
@@ -21619,7 +21625,7 @@
 │                        │       │                  ├ [53]: https://ubuntu.com/security/notices/USN-8193-2 
 │                        │       │                  ╰ [54]: https://www.cve.org/CVERecord?id=CVE-2026-4878 
 │                        │       ├ PublishedDate   : 2026-04-09T16:16:31.987Z 
-│                        │       ╰ LastModifiedDate: 2026-08-15T21:16:23.77Z 
+│                        │       ╰ LastModifiedDate: 2026-08-16T13:16:56.47Z 
 │                        ├ [297] ╭ VulnerabilityID : CVE-2026-54411 
 │                        │       ├ PkgID           : libpam-modules@1.4.0-11ubuntu2.6 
 │                        │       ├ PkgName         : libpam-modules 
