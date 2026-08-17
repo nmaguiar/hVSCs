@@ -5063,7 +5063,7 @@
     - https://ubuntu.com/security/notices/USN-8193-2
     - https://www.cve.org/CVERecord?id=CVE-2026-4878
     PublishedDate: '2026-04-09T16:16:31.987Z'
-    LastModifiedDate: '2026-08-15T21:16:23.77Z'
+    LastModifiedDate: '2026-08-16T13:16:56.47Z'
   - VulnerabilityID: CVE-2026-4878
     PkgID: libcap2-bin@1:2.44-1ubuntu0.22.04.2
     PkgName: libcap2-bin
@@ -5161,7 +5161,7 @@
     - https://ubuntu.com/security/notices/USN-8193-2
     - https://www.cve.org/CVERecord?id=CVE-2026-4878
     PublishedDate: '2026-04-09T16:16:31.987Z'
-    LastModifiedDate: '2026-08-15T21:16:23.77Z'
+    LastModifiedDate: '2026-08-16T13:16:56.47Z'
   - VulnerabilityID: CVE-2025-14017
     PkgID: libcurl3-gnutls@7.81.0-1ubuntu1.21
     PkgName: libcurl3-gnutls
@@ -11748,6 +11748,7 @@
       julia: 2
       oracle-oval: 2
       redhat: 2
+      rocky: 2
       ubuntu: 2
     CVSS:
       julia:
@@ -11762,7 +11763,11 @@
     - https://access.redhat.com/errata/RHSA-2026:54662
     - https://access.redhat.com/security/cve/CVE-2026-58055
     - https://bugzilla.redhat.com/2493954
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2493954
+    - https://creativecommons.org/licenses/by/4.0/
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-58055
     - https://errata.almalinux.org/9/ALSA-2026-54662.html
+    - https://errata.rockylinux.org/RLSA-2026:54662
     - https://github.com/advisories/GHSA-xrr7-82jr-v58x
     - https://github.com/bikini/exploitarium/tree/main/nghttp2-nghttpx-upgrade-queue-poison-poc
     - https://github.com/nghttp2/nghttp2/commit/ab28105c4a0197da24f8bfc414bc116055249e1e
@@ -18913,7 +18918,7 @@
     - https://ubuntu.com/security/notices/USN-8193-2
     - https://www.cve.org/CVERecord?id=CVE-2026-4878
     PublishedDate: '2026-04-09T16:16:31.987Z'
-    LastModifiedDate: '2026-08-15T21:16:23.77Z'
+    LastModifiedDate: '2026-08-16T13:16:56.47Z'
   - VulnerabilityID: CVE-2026-54411
     PkgID: libpam-modules@1.4.0-11ubuntu2.6
     PkgName: libpam-modules
