@@ -3545,7 +3545,7 @@
     - https://github.com/advisories/GHSA-32xh-3x3c-6g6h
     - https://hackerone.com/reports/3718195
     - https://linux.oracle.com/cve/CVE-2026-8286.html
-    - https://linux.oracle.com/errata/ELSA-2026-55450.html
+    - https://linux.oracle.com/errata/ELSA-2026-57462.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-8286
     - https://ubuntu.com/security/notices/USN-8487-1
     - https://www.cve.org/CVERecord?id=CVE-2026-8286
@@ -7093,7 +7093,7 @@
     - https://ubuntu.com/security/notices/USN-8193-2
     - https://www.cve.org/CVERecord?id=CVE-2026-4878
     PublishedDate: '2026-04-09T16:16:31.987Z'
-    LastModifiedDate: '2026-08-19T12:18:30.727Z'
+    LastModifiedDate: '2026-08-21T13:18:15.45Z'
   - VulnerabilityID: CVE-2026-4878
     PkgID: libcap2-bin@1:2.44-1ubuntu0.22.04.2
     PkgName: libcap2-bin
@@ -7191,7 +7191,7 @@
     - https://ubuntu.com/security/notices/USN-8193-2
     - https://www.cve.org/CVERecord?id=CVE-2026-4878
     PublishedDate: '2026-04-09T16:16:31.987Z'
-    LastModifiedDate: '2026-08-19T12:18:30.727Z'
+    LastModifiedDate: '2026-08-21T13:18:15.45Z'
   - VulnerabilityID: CVE-2025-14017
     PkgID: libcurl3-gnutls@7.81.0-1ubuntu1.21
     PkgName: libcurl3-gnutls
@@ -8351,7 +8351,7 @@
     - https://github.com/advisories/GHSA-32xh-3x3c-6g6h
     - https://hackerone.com/reports/3718195
     - https://linux.oracle.com/cve/CVE-2026-8286.html
-    - https://linux.oracle.com/errata/ELSA-2026-55450.html
+    - https://linux.oracle.com/errata/ELSA-2026-57462.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-8286
     - https://ubuntu.com/security/notices/USN-8487-1
     - https://www.cve.org/CVERecord?id=CVE-2026-8286
@@ -9699,7 +9699,7 @@
     - https://github.com/advisories/GHSA-32xh-3x3c-6g6h
     - https://hackerone.com/reports/3718195
     - https://linux.oracle.com/cve/CVE-2026-8286.html
-    - https://linux.oracle.com/errata/ELSA-2026-55450.html
+    - https://linux.oracle.com/errata/ELSA-2026-57462.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-8286
     - https://ubuntu.com/security/notices/USN-8487-1
     - https://www.cve.org/CVERecord?id=CVE-2026-8286
@@ -10676,7 +10676,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-14512
     - https://www.cve.org/CVERecord?id=CVE-2025-14512
     PublishedDate: '2025-12-11T07:16:00.463Z'
-    LastModifiedDate: '2026-07-13T17:16:31.747Z'
+    LastModifiedDate: '2026-08-21T13:16:27.013Z'
   - VulnerabilityID: CVE-2026-0988
     PkgID: libglib2.0-0@2.72.4-0ubuntu2.6
     PkgName: libglib2.0-0
@@ -11203,7 +11203,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-14512
     - https://www.cve.org/CVERecord?id=CVE-2025-14512
     PublishedDate: '2025-12-11T07:16:00.463Z'
-    LastModifiedDate: '2026-07-13T17:16:31.747Z'
+    LastModifiedDate: '2026-08-21T13:16:27.013Z'
   - VulnerabilityID: CVE-2026-0988
     PkgID: libglib2.0-data@2.72.4-0ubuntu2.6
     PkgName: libglib2.0-data
@@ -11552,7 +11552,7 @@
     - https://ubuntu.com/security/notices/USN-8502-1
     - https://www.cve.org/CVERecord?id=CVE-2025-14831
     PublishedDate: '2026-02-09T15:16:09.937Z'
-    LastModifiedDate: '2026-06-30T00:16:53.7Z'
+    LastModifiedDate: '2026-08-21T14:16:47.313Z'
   - VulnerabilityID: CVE-2026-33845
     PkgID: libgnutls30@3.7.3-4ubuntu1.7
     PkgName: libgnutls30
@@ -11845,7 +11845,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-3832
     - https://www.gnutls.org/security-new.html#GNUTLS-SA-2026-04-29-12
     PublishedDate: '2026-04-30T18:16:30.433Z'
-    LastModifiedDate: '2026-07-13T17:17:20.443Z'
+    LastModifiedDate: '2026-08-21T13:17:48.8Z'
   - VulnerabilityID: CVE-2026-3833
     PkgID: libgnutls30@3.7.3-4ubuntu1.7
     PkgName: libgnutls30
@@ -12051,7 +12051,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-42009
     - https://www.gnutls.org/security-new.html#GNUTLS-SA-2026-04-29-2
     PublishedDate: '2026-05-18T13:16:32.707Z'
-    LastModifiedDate: '2026-07-23T12:17:54.21Z'
+    LastModifiedDate: '2026-08-21T14:16:49.217Z'
   - VulnerabilityID: CVE-2026-42010
     PkgID: libgnutls30@3.7.3-4ubuntu1.7
     PkgName: libgnutls30
@@ -12160,7 +12160,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-42010
     - https://www.gnutls.org/security-new.html#GNUTLS-SA-2026-04-29-4
     PublishedDate: '2026-05-07T12:16:17.977Z'
-    LastModifiedDate: '2026-07-23T12:17:55.39Z'
+    LastModifiedDate: '2026-08-21T13:17:50.477Z'
   - VulnerabilityID: CVE-2026-42011
     PkgID: libgnutls30@3.7.3-4ubuntu1.7
     PkgName: libgnutls30
@@ -12257,7 +12257,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-42011
     - https://www.gnutls.org/security-new.html#GNUTLS-SA-2026-04-29-6
     PublishedDate: '2026-05-07T15:16:09.76Z'
-    LastModifiedDate: '2026-07-22T16:17:19.94Z'
+    LastModifiedDate: '2026-08-21T14:16:49.747Z'
   - VulnerabilityID: CVE-2026-42012
     PkgID: libgnutls30@3.7.3-4ubuntu1.7
     PkgName: libgnutls30
@@ -12353,7 +12353,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-42012
     - https://www.gnutls.org/security-new.html#GNUTLS-SA-2026-04-29-7
     PublishedDate: '2026-05-26T22:16:41.913Z'
-    LastModifiedDate: '2026-07-24T11:10:00.17Z'
+    LastModifiedDate: '2026-08-21T14:16:50.003Z'
   - VulnerabilityID: CVE-2026-42013
     PkgID: libgnutls30@3.7.3-4ubuntu1.7
     PkgName: libgnutls30
@@ -12450,7 +12450,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-42013
     - https://www.gnutls.org/security-new.html#GNUTLS-SA-2026-04-29-8
     PublishedDate: '2026-05-26T22:16:42.05Z'
-    LastModifiedDate: '2026-07-24T11:10:00.17Z'
+    LastModifiedDate: '2026-08-21T13:17:51.583Z'
   - VulnerabilityID: CVE-2026-42014
     PkgID: libgnutls30@3.7.3-4ubuntu1.7
     PkgName: libgnutls30
@@ -12547,7 +12547,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-42014
     - https://www.gnutls.org/security-new.html#GNUTLS-SA-2026-04-29-9
     PublishedDate: '2026-06-16T02:16:19.14Z'
-    LastModifiedDate: '2026-07-22T16:17:20.867Z'
+    LastModifiedDate: '2026-08-21T13:17:51.893Z'
   - VulnerabilityID: CVE-2026-42015
     PkgID: libgnutls30@3.7.3-4ubuntu1.7
     PkgName: libgnutls30
@@ -12643,7 +12643,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-42015
     - https://www.gnutls.org/security-new.html#GNUTLS-SA-2026-04-29-11
     PublishedDate: '2026-05-26T22:16:42.18Z'
-    LastModifiedDate: '2026-07-24T11:10:00.17Z'
+    LastModifiedDate: '2026-08-21T13:17:52.177Z'
   - VulnerabilityID: CVE-2026-5260
     PkgID: libgnutls30@3.7.3-4ubuntu1.7
     PkgName: libgnutls30
@@ -12739,7 +12739,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-5260
     - https://www.gnutls.org/security-new.html#GNUTLS-SA-2026-04-29-10
     PublishedDate: '2026-05-26T22:16:44.17Z'
-    LastModifiedDate: '2026-07-24T12:10:00.21Z'
+    LastModifiedDate: '2026-08-21T14:16:50.587Z'
   - VulnerabilityID: CVE-2025-9820
     PkgID: libgnutls30@3.7.3-4ubuntu1.7
     PkgName: libgnutls30
@@ -12808,7 +12808,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-9820
     - https://www.gnutls.org/security-new.html#GNUTLS-SA-2025-11-18
     PublishedDate: '2026-01-26T20:16:09.37Z'
-    LastModifiedDate: '2026-06-30T09:16:23.387Z'
+    LastModifiedDate: '2026-08-21T18:16:47.21Z'
   - VulnerabilityID: CVE-2026-11850
     PkgID: libgssapi-krb5-2@1.19.2-2ubuntu0.7
     PkgName: libgssapi-krb5-2
@@ -12852,7 +12852,7 @@
     - https://ubuntu.com/security/notices/USN-8585-1
     - https://www.cve.org/CVERecord?id=CVE-2026-11850
     PublishedDate: '2026-06-11T10:16:21.217Z'
-    LastModifiedDate: '2026-06-17T10:14:30.383Z'
+    LastModifiedDate: '2026-08-21T13:16:47.713Z'
   - VulnerabilityID: CVE-2026-40355
     PkgID: libgssapi-krb5-2@1.19.2-2ubuntu0.7
     PkgName: libgssapi-krb5-2
@@ -13096,7 +13096,7 @@
     - https://ubuntu.com/security/notices/USN-8585-1
     - https://www.cve.org/CVERecord?id=CVE-2026-11850
     PublishedDate: '2026-06-11T10:16:21.217Z'
-    LastModifiedDate: '2026-06-17T10:14:30.383Z'
+    LastModifiedDate: '2026-08-21T13:16:47.713Z'
   - VulnerabilityID: CVE-2026-40355
     PkgID: libk5crypto3@1.19.2-2ubuntu0.7
     PkgName: libk5crypto3
@@ -13278,7 +13278,7 @@
     - https://ubuntu.com/security/notices/USN-8585-1
     - https://www.cve.org/CVERecord?id=CVE-2026-11850
     PublishedDate: '2026-06-11T10:16:21.217Z'
-    LastModifiedDate: '2026-06-17T10:14:30.383Z'
+    LastModifiedDate: '2026-08-21T13:16:47.713Z'
   - VulnerabilityID: CVE-2026-40355
     PkgID: libkrb5-3@1.19.2-2ubuntu0.7
     PkgName: libkrb5-3
@@ -13460,7 +13460,7 @@
     - https://ubuntu.com/security/notices/USN-8585-1
     - https://www.cve.org/CVERecord?id=CVE-2026-11850
     PublishedDate: '2026-06-11T10:16:21.217Z'
-    LastModifiedDate: '2026-06-17T10:14:30.383Z'
+    LastModifiedDate: '2026-08-21T13:16:47.713Z'
   - VulnerabilityID: CVE-2026-40355
     PkgID: libkrb5support0@1.19.2-2ubuntu0.7
     PkgName: libkrb5support0
@@ -21197,6 +21197,7 @@
     - CWE-674
     VendorSeverity:
       alma: 2
+      azure: 2
       oracle-oval: 2
       redhat: 2
       rocky: 2
@@ -21226,7 +21227,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-13757
     - https://www.cve.org/CVERecord?id=CVE-2026-13757
     PublishedDate: '2026-06-29T19:16:40.907Z'
-    LastModifiedDate: '2026-08-13T21:17:40.737Z'
+    LastModifiedDate: '2026-08-21T13:16:51.2Z'
   - VulnerabilityID: CVE-2026-4878
     PkgID: libpam-cap@1:2.44-1ubuntu0.22.04.2
     PkgName: libpam-cap
@@ -21324,7 +21325,7 @@
     - https://ubuntu.com/security/notices/USN-8193-2
     - https://www.cve.org/CVERecord?id=CVE-2026-4878
     PublishedDate: '2026-04-09T16:16:31.987Z'
-    LastModifiedDate: '2026-08-19T12:18:30.727Z'
+    LastModifiedDate: '2026-08-21T13:18:15.45Z'
   - VulnerabilityID: CVE-2026-54411
     PkgID: libpam-modules@1.4.0-11ubuntu2.6
     PkgName: libpam-modules
@@ -24239,6 +24240,7 @@
     VendorSeverity:
       alma: 3
       amazon: 3
+      azure: 2
       bitnami: 2
       nvd: 3
       oracle-oval: 3
@@ -26237,6 +26239,7 @@
     VendorSeverity:
       alma: 3
       amazon: 3
+      azure: 2
       bitnami: 2
       nvd: 3
       oracle-oval: 3
@@ -28235,6 +28238,7 @@
     VendorSeverity:
       alma: 3
       amazon: 3
+      azure: 2
       bitnami: 2
       nvd: 3
       oracle-oval: 3
@@ -29258,7 +29262,7 @@
     - https://www.libssh.org/2026/02/10/libssh-0-12-0-and-0-11-4-security-releases/
     - https://www.libssh.org/security/advisories/CVE-2026-0964.txt
     PublishedDate: '2026-03-26T21:17:00.393Z'
-    LastModifiedDate: '2026-06-17T10:11:41.993Z'
+    LastModifiedDate: '2026-08-21T12:16:20.713Z'
   - VulnerabilityID: CVE-2026-0967
     PkgID: libssh-4@0.9.6-2ubuntu0.22.04.5
     PkgName: libssh-4
@@ -29349,7 +29353,7 @@
     - https://www.libssh.org/2026/02/10/libssh-0-12-0-and-0-11-4-security-releases/
     - https://www.libssh.org/security/advisories/CVE-2026-0967.txt
     PublishedDate: '2026-03-26T21:17:00.97Z'
-    LastModifiedDate: '2026-06-17T10:11:42.407Z'
+    LastModifiedDate: '2026-08-21T13:16:46.763Z'
   - VulnerabilityID: CVE-2026-0968
     PkgID: libssh-4@0.9.6-2ubuntu0.22.04.5
     PkgName: libssh-4
@@ -29440,7 +29444,7 @@
     - https://www.libssh.org/2026/02/10/libssh-0-12-0-and-0-11-4-security-releases/
     - https://www.libssh.org/security/advisories/CVE-2026-0968.txt
     PublishedDate: '2026-03-26T21:17:01.15Z'
-    LastModifiedDate: '2026-06-17T10:11:42.54Z'
+    LastModifiedDate: '2026-08-21T13:16:46.92Z'
   - VulnerabilityID: CVE-2026-3731
     PkgID: libssh-4@0.9.6-2ubuntu0.22.04.5
     PkgName: libssh-4
@@ -29581,7 +29585,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-8277
     - https://www.libssh.org/security/advisories/CVE-2025-8277.txt
     PublishedDate: '2025-09-09T12:15:30.677Z'
-    LastModifiedDate: '2026-06-30T09:16:22.87Z'
+    LastModifiedDate: '2026-08-21T13:16:45.853Z'
   - VulnerabilityID: CVE-2026-0965
     PkgID: libssh-4@0.9.6-2ubuntu0.22.04.5
     PkgName: libssh-4
@@ -29667,7 +29671,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-0965
     - https://www.libssh.org/security/advisories/CVE-2026-0965.txt
     PublishedDate: '2026-03-26T21:17:00.607Z'
-    LastModifiedDate: '2026-06-17T10:11:42.137Z'
+    LastModifiedDate: '2026-08-21T13:16:46.607Z'
   - VulnerabilityID: CVE-2026-0966
     PkgID: libssh-4@0.9.6-2ubuntu0.22.04.5
     PkgName: libssh-4
@@ -29759,7 +29763,7 @@
     - https://www.libssh.org/2026/02/10/libssh-0-12-0-and-0-11-4-security-releases/
     - https://www.libssh.org/security/advisories/CVE-2026-0966.txt
     PublishedDate: '2026-03-26T21:17:00.783Z'
-    LastModifiedDate: '2026-06-17T10:11:42.263Z'
+    LastModifiedDate: '2026-08-21T12:16:20.873Z'
   - VulnerabilityID: CVE-2026-45447
     PkgID: libssl3@3.0.2-0ubuntu1.20
     PkgName: libssl3
@@ -33829,7 +33833,7 @@
     - https://ubuntu.com/security/notices/USN-7974-1
     - https://www.cve.org/CVERecord?id=CVE-2026-0989
     PublishedDate: '2026-01-15T15:15:52.35Z'
-    LastModifiedDate: '2026-06-30T20:20:47.89Z'
+    LastModifiedDate: '2026-08-21T13:16:47.08Z'
   - VulnerabilityID: CVE-2026-0990
     PkgID: libxml2@2.9.13+dfsg-1ubuntu0.10
     PkgName: libxml2
@@ -33878,7 +33882,7 @@
     - https://ubuntu.com/security/notices/USN-7974-1
     - https://www.cve.org/CVERecord?id=CVE-2026-0990
     PublishedDate: '2026-01-15T15:15:52.503Z'
-    LastModifiedDate: '2026-06-30T20:18:46.463Z'
+    LastModifiedDate: '2026-08-21T12:16:21.033Z'
   - VulnerabilityID: CVE-2026-0992
     PkgID: libxml2@2.9.13+dfsg-1ubuntu0.10
     PkgName: libxml2
@@ -33927,7 +33931,7 @@
     - https://ubuntu.com/security/notices/USN-7974-1
     - https://www.cve.org/CVERecord?id=CVE-2026-0992
     PublishedDate: '2026-01-15T15:15:52.657Z'
-    LastModifiedDate: '2026-06-30T20:17:25.733Z'
+    LastModifiedDate: '2026-08-21T13:16:47.243Z'
   - VulnerabilityID: CVE-2026-6653
     PkgID: libxml2@2.9.13+dfsg-1ubuntu0.10
     PkgName: libxml2
@@ -34142,7 +34146,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-10911
     - https://www.cve.org/CVERecord?id=CVE-2025-10911
     PublishedDate: '2025-09-25T16:15:31.337Z'
-    LastModifiedDate: '2026-07-23T14:16:56.823Z'
+    LastModifiedDate: '2026-08-21T13:16:25.997Z'
   - VulnerabilityID: CVE-2025-7424
     PkgID: libxslt1.1@1.1.34-4ubuntu0.22.04.4
     PkgName: libxslt1.1
@@ -34204,7 +34208,7 @@
     - https://ubuntu.com/security/notices/USN-7945-1
     - https://www.cve.org/CVERecord?id=CVE-2025-7424
     PublishedDate: '2025-07-10T14:15:27.573Z'
-    LastModifiedDate: '2026-06-29T21:16:37.76Z'
+    LastModifiedDate: '2026-08-21T12:16:19.84Z'
   - VulnerabilityID: CVE-2022-4899
     PkgID: libzstd1@1.4.8+dfsg-3build1
     PkgName: libzstd1
@@ -38932,7 +38936,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-55655
     - https://www.cve.org/CVERecord?id=CVE-2026-55655
     PublishedDate: '2026-06-23T04:17:40.787Z'
-    LastModifiedDate: '2026-08-12T16:17:07.32Z'
+    LastModifiedDate: '2026-08-21T12:16:29.07Z'
   - VulnerabilityID: CVE-2026-59995
     PkgID: openssh-client@1:8.9p1-3ubuntu0.13
     PkgName: openssh-client
@@ -39594,7 +39598,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-55654
     - https://www.cve.org/CVERecord?id=CVE-2026-55654
     PublishedDate: '2026-06-23T04:17:40.587Z'
-    LastModifiedDate: '2026-08-12T16:17:07.16Z'
+    LastModifiedDate: '2026-08-21T12:16:28.92Z'
   - VulnerabilityID: CVE-2026-3497
     PkgID: openssh-server@1:8.9p1-3ubuntu0.13
     PkgName: openssh-server
@@ -40173,7 +40177,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-55655
     - https://www.cve.org/CVERecord?id=CVE-2026-55655
     PublishedDate: '2026-06-23T04:17:40.787Z'
-    LastModifiedDate: '2026-08-12T16:17:07.32Z'
+    LastModifiedDate: '2026-08-21T12:16:29.07Z'
   - VulnerabilityID: CVE-2026-59995
     PkgID: openssh-server@1:8.9p1-3ubuntu0.13
     PkgName: openssh-server
@@ -40835,7 +40839,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-55654
     - https://www.cve.org/CVERecord?id=CVE-2026-55654
     PublishedDate: '2026-06-23T04:17:40.587Z'
-    LastModifiedDate: '2026-08-12T16:17:07.16Z'
+    LastModifiedDate: '2026-08-21T12:16:28.92Z'
   - VulnerabilityID: CVE-2026-3497
     PkgID: openssh-sftp-server@1:8.9p1-3ubuntu0.13
     PkgName: openssh-sftp-server
@@ -41414,7 +41418,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-55655
     - https://www.cve.org/CVERecord?id=CVE-2026-55655
     PublishedDate: '2026-06-23T04:17:40.787Z'
-    LastModifiedDate: '2026-08-12T16:17:07.32Z'
+    LastModifiedDate: '2026-08-21T12:16:29.07Z'
   - VulnerabilityID: CVE-2026-59995
     PkgID: openssh-sftp-server@1:8.9p1-3ubuntu0.13
     PkgName: openssh-sftp-server
@@ -42076,7 +42080,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-55654
     - https://www.cve.org/CVERecord?id=CVE-2026-55654
     PublishedDate: '2026-06-23T04:17:40.587Z'
-    LastModifiedDate: '2026-08-12T16:17:07.16Z'
+    LastModifiedDate: '2026-08-21T12:16:28.92Z'
   - VulnerabilityID: CVE-2026-45447
     PkgID: openssl@3.0.2-0ubuntu1.20
     PkgName: openssl
@@ -46827,6 +46831,7 @@
     VendorSeverity:
       alma: 3
       amazon: 3
+      azure: 2
       bitnami: 2
       nvd: 3
       oracle-oval: 3
@@ -48825,6 +48830,7 @@
     VendorSeverity:
       alma: 3
       amazon: 3
+      azure: 2
       bitnami: 2
       nvd: 3
       oracle-oval: 3
@@ -52710,7 +52716,8 @@
       PURL: pkg:deb/ubuntu/vim@8.2.3995-1ubuntu2.24?arch=amd64&distro=ubuntu-22.04&epoch=2
       UID: 582a48d64f4879ec
     InstalledVersion: 2:8.2.3995-1ubuntu2.24
-    Status: affected
+    FixedVersion: 2:8.2.3995-1ubuntu2.35
+    Status: fixed
     Layer:
       Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f672d99cf12d59721fb5d9
       DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7277787fa3578e3352a155
@@ -52727,6 +52734,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
+      azure: 1
       redhat: 1
       ubuntu: 2
     CVSS:
@@ -52739,6 +52747,7 @@
     - https://github.com/vim/vim/releases/tag/v9.2.0844
     - https://github.com/vim/vim/security/advisories/GHSA-69ch-22ch-r887
     - https://nvd.nist.gov/vuln/detail/CVE-2026-73071
+    - https://ubuntu.com/security/notices/USN-8657-1
     - https://www.cve.org/CVERecord?id=CVE-2026-73071
     PublishedDate: '2026-08-11T16:17:38.413Z'
     LastModifiedDate: '2026-08-11T17:19:15.437Z'
@@ -52749,7 +52758,8 @@
       PURL: pkg:deb/ubuntu/vim@8.2.3995-1ubuntu2.24?arch=amd64&distro=ubuntu-22.04&epoch=2
       UID: 582a48d64f4879ec
     InstalledVersion: 2:8.2.3995-1ubuntu2.24
-    Status: affected
+    FixedVersion: 2:8.2.3995-1ubuntu2.35
+    Status: fixed
     Layer:
       Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f672d99cf12d59721fb5d9
       DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7277787fa3578e3352a155
@@ -52767,6 +52777,7 @@
     - CWE-122
     - CWE-787
     VendorSeverity:
+      azure: 3
       redhat: 3
       ubuntu: 2
     CVSS:
@@ -52779,6 +52790,7 @@
     - https://github.com/vim/vim/releases/tag/v9.2.0846
     - https://github.com/vim/vim/security/advisories/GHSA-9jqx-hgpr-6v64
     - https://nvd.nist.gov/vuln/detail/CVE-2026-73072
+    - https://ubuntu.com/security/notices/USN-8657-1
     - https://www.cve.org/CVERecord?id=CVE-2026-73072
     PublishedDate: '2026-08-11T16:17:38.553Z'
     LastModifiedDate: '2026-08-13T16:19:03.257Z'
@@ -52789,7 +52801,8 @@
       PURL: pkg:deb/ubuntu/vim@8.2.3995-1ubuntu2.24?arch=amd64&distro=ubuntu-22.04&epoch=2
       UID: 582a48d64f4879ec
     InstalledVersion: 2:8.2.3995-1ubuntu2.24
-    Status: affected
+    FixedVersion: 2:8.2.3995-1ubuntu2.35
+    Status: fixed
     Layer:
       Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f672d99cf12d59721fb5d9
       DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7277787fa3578e3352a155
@@ -52806,6 +52819,7 @@
     CweIDs:
     - CWE-190
     VendorSeverity:
+      azure: 3
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -52817,6 +52831,7 @@
     - https://github.com/vim/vim/commit/a9336b476fd1a182e3f79b5f83c0ffb04f8a922b
     - https://github.com/vim/vim/security/advisories/GHSA-hm4g-pjfx-m27j
     - https://nvd.nist.gov/vuln/detail/CVE-2026-73074
+    - https://ubuntu.com/security/notices/USN-8657-1
     - https://www.cve.org/CVERecord?id=CVE-2026-73074
     PublishedDate: '2026-08-11T16:17:38.697Z'
     LastModifiedDate: '2026-08-12T23:17:23.217Z'
@@ -52827,7 +52842,8 @@
       PURL: pkg:deb/ubuntu/vim@8.2.3995-1ubuntu2.24?arch=amd64&distro=ubuntu-22.04&epoch=2
       UID: 582a48d64f4879ec
     InstalledVersion: 2:8.2.3995-1ubuntu2.24
-    Status: affected
+    FixedVersion: 2:8.2.3995-1ubuntu2.35
+    Status: fixed
     Layer:
       Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f672d99cf12d59721fb5d9
       DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7277787fa3578e3352a155
@@ -52845,6 +52861,7 @@
     - CWE-94
     - CWE-829
     VendorSeverity:
+      azure: 3
       redhat: 3
       ubuntu: 2
     CVSS:
@@ -52856,6 +52873,7 @@
     - https://github.com/vim/vim/commit/581a2f3ac9c6f96a26324f6b2c8c11415fd0d452
     - https://github.com/vim/vim/security/advisories/GHSA-r22p-fhw4-84p2
     - https://nvd.nist.gov/vuln/detail/CVE-2026-73076
+    - https://ubuntu.com/security/notices/USN-8657-1
     - https://www.cve.org/CVERecord?id=CVE-2026-73076
     PublishedDate: '2026-08-11T16:17:38.98Z'
     LastModifiedDate: '2026-08-11T16:17:38.98Z'
@@ -52866,7 +52884,8 @@
       PURL: pkg:deb/ubuntu/vim@8.2.3995-1ubuntu2.24?arch=amd64&distro=ubuntu-22.04&epoch=2
       UID: 582a48d64f4879ec
     InstalledVersion: 2:8.2.3995-1ubuntu2.24
-    Status: affected
+    FixedVersion: 2:8.2.3995-1ubuntu2.35
+    Status: fixed
     Layer:
       Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f672d99cf12d59721fb5d9
       DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7277787fa3578e3352a155
@@ -52883,6 +52902,7 @@
     CweIDs:
     - CWE-78
     VendorSeverity:
+      azure: 3
       redhat: 3
       ubuntu: 2
     CVSS:
@@ -52894,6 +52914,7 @@
     - https://github.com/vim/vim/commit/c5a82fe013e73c98004ad7cd4f906b1ad1ed610e
     - https://github.com/vim/vim/security/advisories/GHSA-r5v6-q6j8-8qw2
     - https://nvd.nist.gov/vuln/detail/CVE-2026-73077
+    - https://ubuntu.com/security/notices/USN-8657-1
     - https://www.cve.org/CVERecord?id=CVE-2026-73077
     PublishedDate: '2026-08-11T16:17:39.43Z'
     LastModifiedDate: '2026-08-11T19:18:50.743Z'
@@ -52904,7 +52925,8 @@
       PURL: pkg:deb/ubuntu/vim@8.2.3995-1ubuntu2.24?arch=amd64&distro=ubuntu-22.04&epoch=2
       UID: 582a48d64f4879ec
     InstalledVersion: 2:8.2.3995-1ubuntu2.24
-    Status: affected
+    FixedVersion: 2:8.2.3995-1ubuntu2.35
+    Status: fixed
     Layer:
       Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f672d99cf12d59721fb5d9
       DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7277787fa3578e3352a155
@@ -52922,6 +52944,7 @@
     - CWE-77
     - CWE-184
     VendorSeverity:
+      azure: 3
       redhat: 3
       ubuntu: 2
     CVSS:
@@ -52933,6 +52956,7 @@
     - https://github.com/vim/vim/commit/29c6fd090d4520592f8be7d9ec81190edf25ef69
     - https://github.com/vim/vim/security/advisories/GHSA-rcr7-f3wr-22r2
     - https://nvd.nist.gov/vuln/detail/CVE-2026-73078
+    - https://ubuntu.com/security/notices/USN-8657-1
     - https://www.cve.org/CVERecord?id=CVE-2026-73078
     PublishedDate: '2026-08-11T16:17:39.573Z'
     LastModifiedDate: '2026-08-11T17:19:15.6Z'
@@ -54913,7 +54937,8 @@
       PURL: pkg:deb/ubuntu/vim-common@8.2.3995-1ubuntu2.24?arch=all&distro=ubuntu-22.04&epoch=2
       UID: 28fd6bcaf0967379
     InstalledVersion: 2:8.2.3995-1ubuntu2.24
-    Status: affected
+    FixedVersion: 2:8.2.3995-1ubuntu2.35
+    Status: fixed
     Layer:
       Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f672d99cf12d59721fb5d9
       DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7277787fa3578e3352a155
@@ -54930,6 +54955,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
+      azure: 1
       redhat: 1
       ubuntu: 2
     CVSS:
@@ -54942,6 +54968,7 @@
     - https://github.com/vim/vim/releases/tag/v9.2.0844
     - https://github.com/vim/vim/security/advisories/GHSA-69ch-22ch-r887
     - https://nvd.nist.gov/vuln/detail/CVE-2026-73071
+    - https://ubuntu.com/security/notices/USN-8657-1
     - https://www.cve.org/CVERecord?id=CVE-2026-73071
     PublishedDate: '2026-08-11T16:17:38.413Z'
     LastModifiedDate: '2026-08-11T17:19:15.437Z'
@@ -54952,7 +54979,8 @@
       PURL: pkg:deb/ubuntu/vim-common@8.2.3995-1ubuntu2.24?arch=all&distro=ubuntu-22.04&epoch=2
       UID: 28fd6bcaf0967379
     InstalledVersion: 2:8.2.3995-1ubuntu2.24
-    Status: affected
+    FixedVersion: 2:8.2.3995-1ubuntu2.35
+    Status: fixed
     Layer:
       Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f672d99cf12d59721fb5d9
       DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7277787fa3578e3352a155
@@ -54970,6 +54998,7 @@
     - CWE-122
     - CWE-787
     VendorSeverity:
+      azure: 3
       redhat: 3
       ubuntu: 2
     CVSS:
@@ -54982,6 +55011,7 @@
     - https://github.com/vim/vim/releases/tag/v9.2.0846
     - https://github.com/vim/vim/security/advisories/GHSA-9jqx-hgpr-6v64
     - https://nvd.nist.gov/vuln/detail/CVE-2026-73072
+    - https://ubuntu.com/security/notices/USN-8657-1
     - https://www.cve.org/CVERecord?id=CVE-2026-73072
     PublishedDate: '2026-08-11T16:17:38.553Z'
     LastModifiedDate: '2026-08-13T16:19:03.257Z'
@@ -54992,7 +55022,8 @@
       PURL: pkg:deb/ubuntu/vim-common@8.2.3995-1ubuntu2.24?arch=all&distro=ubuntu-22.04&epoch=2
       UID: 28fd6bcaf0967379
     InstalledVersion: 2:8.2.3995-1ubuntu2.24
-    Status: affected
+    FixedVersion: 2:8.2.3995-1ubuntu2.35
+    Status: fixed
     Layer:
       Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f672d99cf12d59721fb5d9
       DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7277787fa3578e3352a155
@@ -55009,6 +55040,7 @@
     CweIDs:
     - CWE-190
     VendorSeverity:
+      azure: 3
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -55020,6 +55052,7 @@
     - https://github.com/vim/vim/commit/a9336b476fd1a182e3f79b5f83c0ffb04f8a922b
     - https://github.com/vim/vim/security/advisories/GHSA-hm4g-pjfx-m27j
     - https://nvd.nist.gov/vuln/detail/CVE-2026-73074
+    - https://ubuntu.com/security/notices/USN-8657-1
     - https://www.cve.org/CVERecord?id=CVE-2026-73074
     PublishedDate: '2026-08-11T16:17:38.697Z'
     LastModifiedDate: '2026-08-12T23:17:23.217Z'
@@ -55030,7 +55063,8 @@
       PURL: pkg:deb/ubuntu/vim-common@8.2.3995-1ubuntu2.24?arch=all&distro=ubuntu-22.04&epoch=2
       UID: 28fd6bcaf0967379
     InstalledVersion: 2:8.2.3995-1ubuntu2.24
-    Status: affected
+    FixedVersion: 2:8.2.3995-1ubuntu2.35
+    Status: fixed
     Layer:
       Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f672d99cf12d59721fb5d9
       DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7277787fa3578e3352a155
@@ -55048,6 +55082,7 @@
     - CWE-94
     - CWE-829
     VendorSeverity:
+      azure: 3
       redhat: 3
       ubuntu: 2
     CVSS:
@@ -55059,6 +55094,7 @@
     - https://github.com/vim/vim/commit/581a2f3ac9c6f96a26324f6b2c8c11415fd0d452
     - https://github.com/vim/vim/security/advisories/GHSA-r22p-fhw4-84p2
     - https://nvd.nist.gov/vuln/detail/CVE-2026-73076
+    - https://ubuntu.com/security/notices/USN-8657-1
     - https://www.cve.org/CVERecord?id=CVE-2026-73076
     PublishedDate: '2026-08-11T16:17:38.98Z'
     LastModifiedDate: '2026-08-11T16:17:38.98Z'
@@ -55069,7 +55105,8 @@
       PURL: pkg:deb/ubuntu/vim-common@8.2.3995-1ubuntu2.24?arch=all&distro=ubuntu-22.04&epoch=2
       UID: 28fd6bcaf0967379
     InstalledVersion: 2:8.2.3995-1ubuntu2.24
-    Status: affected
+    FixedVersion: 2:8.2.3995-1ubuntu2.35
+    Status: fixed
     Layer:
       Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f672d99cf12d59721fb5d9
       DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7277787fa3578e3352a155
@@ -55086,6 +55123,7 @@
     CweIDs:
     - CWE-78
     VendorSeverity:
+      azure: 3
       redhat: 3
       ubuntu: 2
     CVSS:
@@ -55097,6 +55135,7 @@
     - https://github.com/vim/vim/commit/c5a82fe013e73c98004ad7cd4f906b1ad1ed610e
     - https://github.com/vim/vim/security/advisories/GHSA-r5v6-q6j8-8qw2
     - https://nvd.nist.gov/vuln/detail/CVE-2026-73077
+    - https://ubuntu.com/security/notices/USN-8657-1
     - https://www.cve.org/CVERecord?id=CVE-2026-73077
     PublishedDate: '2026-08-11T16:17:39.43Z'
     LastModifiedDate: '2026-08-11T19:18:50.743Z'
@@ -55107,7 +55146,8 @@
       PURL: pkg:deb/ubuntu/vim-common@8.2.3995-1ubuntu2.24?arch=all&distro=ubuntu-22.04&epoch=2
       UID: 28fd6bcaf0967379
     InstalledVersion: 2:8.2.3995-1ubuntu2.24
-    Status: affected
+    FixedVersion: 2:8.2.3995-1ubuntu2.35
+    Status: fixed
     Layer:
       Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f672d99cf12d59721fb5d9
       DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7277787fa3578e3352a155
@@ -55125,6 +55165,7 @@
     - CWE-77
     - CWE-184
     VendorSeverity:
+      azure: 3
       redhat: 3
       ubuntu: 2
     CVSS:
@@ -55136,6 +55177,7 @@
     - https://github.com/vim/vim/commit/29c6fd090d4520592f8be7d9ec81190edf25ef69
     - https://github.com/vim/vim/security/advisories/GHSA-rcr7-f3wr-22r2
     - https://nvd.nist.gov/vuln/detail/CVE-2026-73078
+    - https://ubuntu.com/security/notices/USN-8657-1
     - https://www.cve.org/CVERecord?id=CVE-2026-73078
     PublishedDate: '2026-08-11T16:17:39.573Z'
     LastModifiedDate: '2026-08-11T17:19:15.6Z'
@@ -57116,7 +57158,8 @@
       PURL: pkg:deb/ubuntu/vim-runtime@8.2.3995-1ubuntu2.24?arch=all&distro=ubuntu-22.04&epoch=2
       UID: fd7bb60d2fb3aae9
     InstalledVersion: 2:8.2.3995-1ubuntu2.24
-    Status: affected
+    FixedVersion: 2:8.2.3995-1ubuntu2.35
+    Status: fixed
     Layer:
       Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f672d99cf12d59721fb5d9
       DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7277787fa3578e3352a155
@@ -57133,6 +57176,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
+      azure: 1
       redhat: 1
       ubuntu: 2
     CVSS:
@@ -57145,6 +57189,7 @@
     - https://github.com/vim/vim/releases/tag/v9.2.0844
     - https://github.com/vim/vim/security/advisories/GHSA-69ch-22ch-r887
     - https://nvd.nist.gov/vuln/detail/CVE-2026-73071
+    - https://ubuntu.com/security/notices/USN-8657-1
     - https://www.cve.org/CVERecord?id=CVE-2026-73071
     PublishedDate: '2026-08-11T16:17:38.413Z'
     LastModifiedDate: '2026-08-11T17:19:15.437Z'
@@ -57155,7 +57200,8 @@
       PURL: pkg:deb/ubuntu/vim-runtime@8.2.3995-1ubuntu2.24?arch=all&distro=ubuntu-22.04&epoch=2
       UID: fd7bb60d2fb3aae9
     InstalledVersion: 2:8.2.3995-1ubuntu2.24
-    Status: affected
+    FixedVersion: 2:8.2.3995-1ubuntu2.35
+    Status: fixed
     Layer:
       Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f672d99cf12d59721fb5d9
       DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7277787fa3578e3352a155
@@ -57173,6 +57219,7 @@
     - CWE-122
     - CWE-787
     VendorSeverity:
+      azure: 3
       redhat: 3
       ubuntu: 2
     CVSS:
@@ -57185,6 +57232,7 @@
     - https://github.com/vim/vim/releases/tag/v9.2.0846
     - https://github.com/vim/vim/security/advisories/GHSA-9jqx-hgpr-6v64
     - https://nvd.nist.gov/vuln/detail/CVE-2026-73072
+    - https://ubuntu.com/security/notices/USN-8657-1
     - https://www.cve.org/CVERecord?id=CVE-2026-73072
     PublishedDate: '2026-08-11T16:17:38.553Z'
     LastModifiedDate: '2026-08-13T16:19:03.257Z'
@@ -57195,7 +57243,8 @@
       PURL: pkg:deb/ubuntu/vim-runtime@8.2.3995-1ubuntu2.24?arch=all&distro=ubuntu-22.04&epoch=2
       UID: fd7bb60d2fb3aae9
     InstalledVersion: 2:8.2.3995-1ubuntu2.24
-    Status: affected
+    FixedVersion: 2:8.2.3995-1ubuntu2.35
+    Status: fixed
     Layer:
       Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f672d99cf12d59721fb5d9
       DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7277787fa3578e3352a155
@@ -57212,6 +57261,7 @@
     CweIDs:
     - CWE-190
     VendorSeverity:
+      azure: 3
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -57223,6 +57273,7 @@
     - https://github.com/vim/vim/commit/a9336b476fd1a182e3f79b5f83c0ffb04f8a922b
     - https://github.com/vim/vim/security/advisories/GHSA-hm4g-pjfx-m27j
     - https://nvd.nist.gov/vuln/detail/CVE-2026-73074
+    - https://ubuntu.com/security/notices/USN-8657-1
     - https://www.cve.org/CVERecord?id=CVE-2026-73074
     PublishedDate: '2026-08-11T16:17:38.697Z'
     LastModifiedDate: '2026-08-12T23:17:23.217Z'
@@ -57233,7 +57284,8 @@
       PURL: pkg:deb/ubuntu/vim-runtime@8.2.3995-1ubuntu2.24?arch=all&distro=ubuntu-22.04&epoch=2
       UID: fd7bb60d2fb3aae9
     InstalledVersion: 2:8.2.3995-1ubuntu2.24
-    Status: affected
+    FixedVersion: 2:8.2.3995-1ubuntu2.35
+    Status: fixed
     Layer:
       Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f672d99cf12d59721fb5d9
       DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7277787fa3578e3352a155
@@ -57251,6 +57303,7 @@
     - CWE-94
     - CWE-829
     VendorSeverity:
+      azure: 3
       redhat: 3
       ubuntu: 2
     CVSS:
@@ -57262,6 +57315,7 @@
     - https://github.com/vim/vim/commit/581a2f3ac9c6f96a26324f6b2c8c11415fd0d452
     - https://github.com/vim/vim/security/advisories/GHSA-r22p-fhw4-84p2
     - https://nvd.nist.gov/vuln/detail/CVE-2026-73076
+    - https://ubuntu.com/security/notices/USN-8657-1
     - https://www.cve.org/CVERecord?id=CVE-2026-73076
     PublishedDate: '2026-08-11T16:17:38.98Z'
     LastModifiedDate: '2026-08-11T16:17:38.98Z'
@@ -57272,7 +57326,8 @@
       PURL: pkg:deb/ubuntu/vim-runtime@8.2.3995-1ubuntu2.24?arch=all&distro=ubuntu-22.04&epoch=2
       UID: fd7bb60d2fb3aae9
     InstalledVersion: 2:8.2.3995-1ubuntu2.24
-    Status: affected
+    FixedVersion: 2:8.2.3995-1ubuntu2.35
+    Status: fixed
     Layer:
       Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f672d99cf12d59721fb5d9
       DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7277787fa3578e3352a155
@@ -57289,6 +57344,7 @@
     CweIDs:
     - CWE-78
     VendorSeverity:
+      azure: 3
       redhat: 3
       ubuntu: 2
     CVSS:
@@ -57300,6 +57356,7 @@
     - https://github.com/vim/vim/commit/c5a82fe013e73c98004ad7cd4f906b1ad1ed610e
     - https://github.com/vim/vim/security/advisories/GHSA-r5v6-q6j8-8qw2
     - https://nvd.nist.gov/vuln/detail/CVE-2026-73077
+    - https://ubuntu.com/security/notices/USN-8657-1
     - https://www.cve.org/CVERecord?id=CVE-2026-73077
     PublishedDate: '2026-08-11T16:17:39.43Z'
     LastModifiedDate: '2026-08-11T19:18:50.743Z'
@@ -57310,7 +57367,8 @@
       PURL: pkg:deb/ubuntu/vim-runtime@8.2.3995-1ubuntu2.24?arch=all&distro=ubuntu-22.04&epoch=2
       UID: fd7bb60d2fb3aae9
     InstalledVersion: 2:8.2.3995-1ubuntu2.24
-    Status: affected
+    FixedVersion: 2:8.2.3995-1ubuntu2.35
+    Status: fixed
     Layer:
       Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f672d99cf12d59721fb5d9
       DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7277787fa3578e3352a155
@@ -57328,6 +57386,7 @@
     - CWE-77
     - CWE-184
     VendorSeverity:
+      azure: 3
       redhat: 3
       ubuntu: 2
     CVSS:
@@ -57339,6 +57398,7 @@
     - https://github.com/vim/vim/commit/29c6fd090d4520592f8be7d9ec81190edf25ef69
     - https://github.com/vim/vim/security/advisories/GHSA-rcr7-f3wr-22r2
     - https://nvd.nist.gov/vuln/detail/CVE-2026-73078
+    - https://ubuntu.com/security/notices/USN-8657-1
     - https://www.cve.org/CVERecord?id=CVE-2026-73078
     PublishedDate: '2026-08-11T16:17:39.573Z'
     LastModifiedDate: '2026-08-11T17:19:15.6Z'
@@ -59607,7 +59667,8 @@
       PURL: pkg:deb/ubuntu/xxd@8.2.3995-1ubuntu2.24?arch=amd64&distro=ubuntu-22.04&epoch=2
       UID: a4cb7b48636a407a
     InstalledVersion: 2:8.2.3995-1ubuntu2.24
-    Status: affected
+    FixedVersion: 2:8.2.3995-1ubuntu2.35
+    Status: fixed
     Layer:
       Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f672d99cf12d59721fb5d9
       DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7277787fa3578e3352a155
@@ -59624,6 +59685,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
+      azure: 1
       redhat: 1
       ubuntu: 2
     CVSS:
@@ -59636,6 +59698,7 @@
     - https://github.com/vim/vim/releases/tag/v9.2.0844
     - https://github.com/vim/vim/security/advisories/GHSA-69ch-22ch-r887
     - https://nvd.nist.gov/vuln/detail/CVE-2026-73071
+    - https://ubuntu.com/security/notices/USN-8657-1
     - https://www.cve.org/CVERecord?id=CVE-2026-73071
     PublishedDate: '2026-08-11T16:17:38.413Z'
     LastModifiedDate: '2026-08-11T17:19:15.437Z'
@@ -59646,7 +59709,8 @@
       PURL: pkg:deb/ubuntu/xxd@8.2.3995-1ubuntu2.24?arch=amd64&distro=ubuntu-22.04&epoch=2
       UID: a4cb7b48636a407a
     InstalledVersion: 2:8.2.3995-1ubuntu2.24
-    Status: affected
+    FixedVersion: 2:8.2.3995-1ubuntu2.35
+    Status: fixed
     Layer:
       Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f672d99cf12d59721fb5d9
       DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7277787fa3578e3352a155
@@ -59664,6 +59728,7 @@
     - CWE-122
     - CWE-787
     VendorSeverity:
+      azure: 3
       redhat: 3
       ubuntu: 2
     CVSS:
@@ -59676,6 +59741,7 @@
     - https://github.com/vim/vim/releases/tag/v9.2.0846
     - https://github.com/vim/vim/security/advisories/GHSA-9jqx-hgpr-6v64
     - https://nvd.nist.gov/vuln/detail/CVE-2026-73072
+    - https://ubuntu.com/security/notices/USN-8657-1
     - https://www.cve.org/CVERecord?id=CVE-2026-73072
     PublishedDate: '2026-08-11T16:17:38.553Z'
     LastModifiedDate: '2026-08-13T16:19:03.257Z'
@@ -59686,7 +59752,8 @@
       PURL: pkg:deb/ubuntu/xxd@8.2.3995-1ubuntu2.24?arch=amd64&distro=ubuntu-22.04&epoch=2
       UID: a4cb7b48636a407a
     InstalledVersion: 2:8.2.3995-1ubuntu2.24
-    Status: affected
+    FixedVersion: 2:8.2.3995-1ubuntu2.35
+    Status: fixed
     Layer:
       Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f672d99cf12d59721fb5d9
       DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7277787fa3578e3352a155
@@ -59703,6 +59770,7 @@
     CweIDs:
     - CWE-190
     VendorSeverity:
+      azure: 3
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -59714,6 +59782,7 @@
     - https://github.com/vim/vim/commit/a9336b476fd1a182e3f79b5f83c0ffb04f8a922b
     - https://github.com/vim/vim/security/advisories/GHSA-hm4g-pjfx-m27j
     - https://nvd.nist.gov/vuln/detail/CVE-2026-73074
+    - https://ubuntu.com/security/notices/USN-8657-1
     - https://www.cve.org/CVERecord?id=CVE-2026-73074
     PublishedDate: '2026-08-11T16:17:38.697Z'
     LastModifiedDate: '2026-08-12T23:17:23.217Z'
@@ -59724,7 +59793,8 @@
       PURL: pkg:deb/ubuntu/xxd@8.2.3995-1ubuntu2.24?arch=amd64&distro=ubuntu-22.04&epoch=2
       UID: a4cb7b48636a407a
     InstalledVersion: 2:8.2.3995-1ubuntu2.24
-    Status: affected
+    FixedVersion: 2:8.2.3995-1ubuntu2.35
+    Status: fixed
     Layer:
       Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f672d99cf12d59721fb5d9
       DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7277787fa3578e3352a155
@@ -59742,6 +59812,7 @@
     - CWE-94
     - CWE-829
     VendorSeverity:
+      azure: 3
       redhat: 3
       ubuntu: 2
     CVSS:
@@ -59753,6 +59824,7 @@
     - https://github.com/vim/vim/commit/581a2f3ac9c6f96a26324f6b2c8c11415fd0d452
     - https://github.com/vim/vim/security/advisories/GHSA-r22p-fhw4-84p2
     - https://nvd.nist.gov/vuln/detail/CVE-2026-73076
+    - https://ubuntu.com/security/notices/USN-8657-1
     - https://www.cve.org/CVERecord?id=CVE-2026-73076
     PublishedDate: '2026-08-11T16:17:38.98Z'
     LastModifiedDate: '2026-08-11T16:17:38.98Z'
@@ -59763,7 +59835,8 @@
       PURL: pkg:deb/ubuntu/xxd@8.2.3995-1ubuntu2.24?arch=amd64&distro=ubuntu-22.04&epoch=2
       UID: a4cb7b48636a407a
     InstalledVersion: 2:8.2.3995-1ubuntu2.24
-    Status: affected
+    FixedVersion: 2:8.2.3995-1ubuntu2.35
+    Status: fixed
     Layer:
       Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f672d99cf12d59721fb5d9
       DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7277787fa3578e3352a155
@@ -59780,6 +59853,7 @@
     CweIDs:
     - CWE-78
     VendorSeverity:
+      azure: 3
       redhat: 3
       ubuntu: 2
     CVSS:
@@ -59791,6 +59865,7 @@
     - https://github.com/vim/vim/commit/c5a82fe013e73c98004ad7cd4f906b1ad1ed610e
     - https://github.com/vim/vim/security/advisories/GHSA-r5v6-q6j8-8qw2
     - https://nvd.nist.gov/vuln/detail/CVE-2026-73077
+    - https://ubuntu.com/security/notices/USN-8657-1
     - https://www.cve.org/CVERecord?id=CVE-2026-73077
     PublishedDate: '2026-08-11T16:17:39.43Z'
     LastModifiedDate: '2026-08-11T19:18:50.743Z'
@@ -59801,7 +59876,8 @@
       PURL: pkg:deb/ubuntu/xxd@8.2.3995-1ubuntu2.24?arch=amd64&distro=ubuntu-22.04&epoch=2
       UID: a4cb7b48636a407a
     InstalledVersion: 2:8.2.3995-1ubuntu2.24
-    Status: affected
+    FixedVersion: 2:8.2.3995-1ubuntu2.35
+    Status: fixed
     Layer:
       Digest: sha256:77dc01a03034151be619f8673c168579c37d8c56b6f672d99cf12d59721fb5d9
       DiffID: sha256:6c867fe21d692179ee43a49b2c1c37a7f418fb586d7277787fa3578e3352a155
@@ -59819,6 +59895,7 @@
     - CWE-77
     - CWE-184
     VendorSeverity:
+      azure: 3
       redhat: 3
       ubuntu: 2
     CVSS:
@@ -59830,6 +59907,7 @@
     - https://github.com/vim/vim/commit/29c6fd090d4520592f8be7d9ec81190edf25ef69
     - https://github.com/vim/vim/security/advisories/GHSA-rcr7-f3wr-22r2
     - https://nvd.nist.gov/vuln/detail/CVE-2026-73078
+    - https://ubuntu.com/security/notices/USN-8657-1
     - https://www.cve.org/CVERecord?id=CVE-2026-73078
     PublishedDate: '2026-08-11T16:17:39.573Z'
     LastModifiedDate: '2026-08-11T17:19:15.6Z'
@@ -61046,7 +61124,7 @@
     - https://w4ke.info/2025/06/18/funky-chunks.html
     - https://www.cve.org/CVERecord?id=CVE-2026-2332
     PublishedDate: '2026-04-14T12:16:21.333Z'
-    LastModifiedDate: '2026-08-17T15:16:54.82Z'
+    LastModifiedDate: '2026-08-21T13:17:15.19Z'
   - VulnerabilityID: CVE-2025-11143
     VendorIDs:
     - GHSA-wjpw-4j6x-6rwh
@@ -61632,7 +61710,7 @@
     - https://ubuntu.com/security/notices/USN-8473-1
     - https://www.cve.org/CVERecord?id=CVE-2026-33814
     PublishedDate: '2026-05-07T20:16:42.88Z'
-    LastModifiedDate: '2026-08-20T13:17:52.177Z'
+    LastModifiedDate: '2026-08-21T13:17:27.867Z'
   - VulnerabilityID: CVE-2026-39821
     VendorIDs:
     - GO-2026-5026
@@ -61789,6 +61867,7 @@
     - https://access.redhat.com/errata/RHSA-2026:56340
     - https://access.redhat.com/errata/RHSA-2026:56431
     - https://access.redhat.com/errata/RHSA-2026:57194
+    - https://access.redhat.com/errata/RHSA-2026:57541
     - https://access.redhat.com/security/cve/CVE-2026-39821
     - https://bugzilla.redhat.com/2480756
     - https://bugzilla.redhat.com/show_bug.cgi?id=2480756
@@ -61811,7 +61890,7 @@
     - https://ubuntu.com/security/notices/USN-8416-1
     - https://www.cve.org/CVERecord?id=CVE-2026-39821
     PublishedDate: '2026-05-22T16:16:20.41Z'
-    LastModifiedDate: '2026-08-20T13:18:12.15Z'
+    LastModifiedDate: '2026-08-21T13:17:38.087Z'
   - VulnerabilityID: CVE-2026-46600
     VendorIDs:
     - GO-2026-5942
@@ -61838,6 +61917,7 @@
     CweIDs:
     - CWE-125
     VendorSeverity:
+      azure: 2
       bitnami: 3
       redhat: 3
     CVSS:
@@ -63235,7 +63315,7 @@
     - https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-27145.json
     - https://www.cve.org/CVERecord?id=CVE-2026-27145
     PublishedDate: '2026-06-02T23:16:35.57Z'
-    LastModifiedDate: '2026-08-20T13:17:23.26Z'
+    LastModifiedDate: '2026-08-21T13:17:12.547Z'
   - VulnerabilityID: CVE-2026-32280
     VendorIDs:
     - GO-2026-4947
@@ -63888,7 +63968,7 @@
     - https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-33811.json
     - https://www.cve.org/CVERecord?id=CVE-2026-33811
     PublishedDate: '2026-05-07T20:16:42.77Z'
-    LastModifiedDate: '2026-08-20T13:17:49.543Z'
+    LastModifiedDate: '2026-08-21T13:17:26.337Z'
   - VulnerabilityID: CVE-2026-33814
     VendorIDs:
     - GO-2026-4918
@@ -63975,7 +64055,7 @@
     - https://ubuntu.com/security/notices/USN-8473-1
     - https://www.cve.org/CVERecord?id=CVE-2026-33814
     PublishedDate: '2026-05-07T20:16:42.88Z'
-    LastModifiedDate: '2026-08-20T13:17:52.177Z'
+    LastModifiedDate: '2026-08-21T13:17:27.867Z'
   - VulnerabilityID: CVE-2026-33818
     VendorIDs:
     - GO-2026-5972
@@ -64276,6 +64356,7 @@
     - https://access.redhat.com/errata/RHSA-2026:56340
     - https://access.redhat.com/errata/RHSA-2026:56431
     - https://access.redhat.com/errata/RHSA-2026:57194
+    - https://access.redhat.com/errata/RHSA-2026:57541
     - https://access.redhat.com/security/cve/CVE-2026-39821
     - https://bugzilla.redhat.com/2480756
     - https://bugzilla.redhat.com/show_bug.cgi?id=2480756
@@ -64298,7 +64379,7 @@
     - https://ubuntu.com/security/notices/USN-8416-1
     - https://www.cve.org/CVERecord?id=CVE-2026-39821
     PublishedDate: '2026-05-22T16:16:20.41Z'
-    LastModifiedDate: '2026-08-20T13:18:12.15Z'
+    LastModifiedDate: '2026-08-21T13:17:38.087Z'
   - VulnerabilityID: CVE-2026-39822
     VendorIDs:
     - GO-2026-4970
@@ -66688,7 +66769,7 @@
     - https://ubuntu.com/security/notices/USN-8473-1
     - https://www.cve.org/CVERecord?id=CVE-2026-33814
     PublishedDate: '2026-05-07T20:16:42.88Z'
-    LastModifiedDate: '2026-08-20T13:17:52.177Z'
+    LastModifiedDate: '2026-08-21T13:17:27.867Z'
   - VulnerabilityID: CVE-2026-39821
     VendorIDs:
     - GO-2026-5026
@@ -66845,6 +66926,7 @@
     - https://access.redhat.com/errata/RHSA-2026:56340
     - https://access.redhat.com/errata/RHSA-2026:56431
     - https://access.redhat.com/errata/RHSA-2026:57194
+    - https://access.redhat.com/errata/RHSA-2026:57541
     - https://access.redhat.com/security/cve/CVE-2026-39821
     - https://bugzilla.redhat.com/2480756
     - https://bugzilla.redhat.com/show_bug.cgi?id=2480756
@@ -66867,7 +66949,7 @@
     - https://ubuntu.com/security/notices/USN-8416-1
     - https://www.cve.org/CVERecord?id=CVE-2026-39821
     PublishedDate: '2026-05-22T16:16:20.41Z'
-    LastModifiedDate: '2026-08-20T13:18:12.15Z'
+    LastModifiedDate: '2026-08-21T13:17:38.087Z'
   - VulnerabilityID: CVE-2026-46600
     VendorIDs:
     - GO-2026-5942
@@ -66894,6 +66976,7 @@
     CweIDs:
     - CWE-125
     VendorSeverity:
+      azure: 2
       bitnami: 3
       redhat: 3
     CVSS:
@@ -68291,7 +68374,7 @@
     - https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-27145.json
     - https://www.cve.org/CVERecord?id=CVE-2026-27145
     PublishedDate: '2026-06-02T23:16:35.57Z'
-    LastModifiedDate: '2026-08-20T13:17:23.26Z'
+    LastModifiedDate: '2026-08-21T13:17:12.547Z'
   - VulnerabilityID: CVE-2026-32280
     VendorIDs:
     - GO-2026-4947
@@ -68944,7 +69027,7 @@
     - https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-33811.json
     - https://www.cve.org/CVERecord?id=CVE-2026-33811
     PublishedDate: '2026-05-07T20:16:42.77Z'
-    LastModifiedDate: '2026-08-20T13:17:49.543Z'
+    LastModifiedDate: '2026-08-21T13:17:26.337Z'
   - VulnerabilityID: CVE-2026-33814
     VendorIDs:
     - GO-2026-4918
@@ -69031,7 +69114,7 @@
     - https://ubuntu.com/security/notices/USN-8473-1
     - https://www.cve.org/CVERecord?id=CVE-2026-33814
     PublishedDate: '2026-05-07T20:16:42.88Z'
-    LastModifiedDate: '2026-08-20T13:17:52.177Z'
+    LastModifiedDate: '2026-08-21T13:17:27.867Z'
   - VulnerabilityID: CVE-2026-33818
     VendorIDs:
     - GO-2026-5972
@@ -69332,6 +69415,7 @@
     - https://access.redhat.com/errata/RHSA-2026:56340
     - https://access.redhat.com/errata/RHSA-2026:56431
     - https://access.redhat.com/errata/RHSA-2026:57194
+    - https://access.redhat.com/errata/RHSA-2026:57541
     - https://access.redhat.com/security/cve/CVE-2026-39821
     - https://bugzilla.redhat.com/2480756
     - https://bugzilla.redhat.com/show_bug.cgi?id=2480756
@@ -69354,7 +69438,7 @@
     - https://ubuntu.com/security/notices/USN-8416-1
     - https://www.cve.org/CVERecord?id=CVE-2026-39821
     PublishedDate: '2026-05-22T16:16:20.41Z'
-    LastModifiedDate: '2026-08-20T13:18:12.15Z'
+    LastModifiedDate: '2026-08-21T13:17:38.087Z'
   - VulnerabilityID: CVE-2026-39822
     VendorIDs:
     - GO-2026-4970
@@ -72297,7 +72381,7 @@
     - https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-27145.json
     - https://www.cve.org/CVERecord?id=CVE-2026-27145
     PublishedDate: '2026-06-02T23:16:35.57Z'
-    LastModifiedDate: '2026-08-20T13:17:23.26Z'
+    LastModifiedDate: '2026-08-21T13:17:12.547Z'
   - VulnerabilityID: CVE-2026-32280
     VendorIDs:
     - GO-2026-4947
@@ -72950,7 +73034,7 @@
     - https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-33811.json
     - https://www.cve.org/CVERecord?id=CVE-2026-33811
     PublishedDate: '2026-05-07T20:16:42.77Z'
-    LastModifiedDate: '2026-08-20T13:17:49.543Z'
+    LastModifiedDate: '2026-08-21T13:17:26.337Z'
   - VulnerabilityID: CVE-2026-33814
     VendorIDs:
     - GO-2026-4918
@@ -73037,7 +73121,7 @@
     - https://ubuntu.com/security/notices/USN-8473-1
     - https://www.cve.org/CVERecord?id=CVE-2026-33814
     PublishedDate: '2026-05-07T20:16:42.88Z'
-    LastModifiedDate: '2026-08-20T13:17:52.177Z'
+    LastModifiedDate: '2026-08-21T13:17:27.867Z'
   - VulnerabilityID: CVE-2026-33818
     VendorIDs:
     - GO-2026-5972
@@ -73338,6 +73422,7 @@
     - https://access.redhat.com/errata/RHSA-2026:56340
     - https://access.redhat.com/errata/RHSA-2026:56431
     - https://access.redhat.com/errata/RHSA-2026:57194
+    - https://access.redhat.com/errata/RHSA-2026:57541
     - https://access.redhat.com/security/cve/CVE-2026-39821
     - https://bugzilla.redhat.com/2480756
     - https://bugzilla.redhat.com/show_bug.cgi?id=2480756
@@ -73360,7 +73445,7 @@
     - https://ubuntu.com/security/notices/USN-8416-1
     - https://www.cve.org/CVERecord?id=CVE-2026-39821
     PublishedDate: '2026-05-22T16:16:20.41Z'
-    LastModifiedDate: '2026-08-20T13:18:12.15Z'
+    LastModifiedDate: '2026-08-21T13:17:38.087Z'
   - VulnerabilityID: CVE-2026-39822
     VendorIDs:
     - GO-2026-4970
@@ -75562,7 +75647,7 @@
     - https://github.com/moby/buildkit/releases/tag/v0.31.1
     - https://github.com/moby/buildkit/security/advisories/GHSA-72x6-4j93-7w86
     PublishedDate: '2026-08-19T20:17:19.73Z'
-    LastModifiedDate: '2026-08-19T20:17:19.73Z'
+    LastModifiedDate: '2026-08-21T20:16:38.01Z'
   - VulnerabilityID: CVE-2026-17106
     VendorIDs:
     - GHSA-hfg8-hc9c-6c3h
@@ -76141,7 +76226,7 @@
     - https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-39828.json
     - https://www.cve.org/CVERecord?id=CVE-2026-39828
     PublishedDate: '2026-05-22T04:16:22.19Z'
-    LastModifiedDate: '2026-08-20T13:18:14.353Z'
+    LastModifiedDate: '2026-08-21T13:17:40Z'
   - VulnerabilityID: CVE-2026-39829
     VendorIDs:
     - GO-2026-5018
@@ -76269,7 +76354,7 @@
     - https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-39829.json
     - https://www.cve.org/CVERecord?id=CVE-2026-39829
     PublishedDate: '2026-05-22T04:16:22.31Z'
-    LastModifiedDate: '2026-08-20T13:18:16.54Z'
+    LastModifiedDate: '2026-08-21T13:17:42.92Z'
   - VulnerabilityID: CVE-2026-39830
     VendorIDs:
     - GO-2026-5017
@@ -76390,7 +76475,7 @@
     - https://ubuntu.com/security/notices/USN-8447-3
     - https://www.cve.org/CVERecord?id=CVE-2026-39830
     PublishedDate: '2026-05-22T04:16:22.44Z'
-    LastModifiedDate: '2026-08-20T13:18:18.957Z'
+    LastModifiedDate: '2026-08-21T13:17:44.393Z'
   - VulnerabilityID: CVE-2026-39831
     VendorIDs:
     - GO-2026-5019
@@ -76634,7 +76719,7 @@
     - https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-39835.json
     - https://www.cve.org/CVERecord?id=CVE-2026-39835
     PublishedDate: '2026-05-22T04:16:24.53Z'
-    LastModifiedDate: '2026-08-20T13:18:21.99Z'
+    LastModifiedDate: '2026-08-21T13:17:45.613Z'
   - VulnerabilityID: CVE-2026-42508
     VendorIDs:
     - GHSA-5cgq-3rg8-m6cv
@@ -77399,7 +77484,7 @@
     - https://ubuntu.com/security/notices/USN-8473-1
     - https://www.cve.org/CVERecord?id=CVE-2026-33814
     PublishedDate: '2026-05-07T20:16:42.88Z'
-    LastModifiedDate: '2026-08-20T13:17:52.177Z'
+    LastModifiedDate: '2026-08-21T13:17:27.867Z'
   - VulnerabilityID: CVE-2026-39821
     VendorIDs:
     - GO-2026-5026
@@ -77556,6 +77641,7 @@
     - https://access.redhat.com/errata/RHSA-2026:56340
     - https://access.redhat.com/errata/RHSA-2026:56431
     - https://access.redhat.com/errata/RHSA-2026:57194
+    - https://access.redhat.com/errata/RHSA-2026:57541
     - https://access.redhat.com/security/cve/CVE-2026-39821
     - https://bugzilla.redhat.com/2480756
     - https://bugzilla.redhat.com/show_bug.cgi?id=2480756
@@ -77578,7 +77664,7 @@
     - https://ubuntu.com/security/notices/USN-8416-1
     - https://www.cve.org/CVERecord?id=CVE-2026-39821
     PublishedDate: '2026-05-22T16:16:20.41Z'
-    LastModifiedDate: '2026-08-20T13:18:12.15Z'
+    LastModifiedDate: '2026-08-21T13:17:38.087Z'
   - VulnerabilityID: CVE-2026-46600
     VendorIDs:
     - GO-2026-5942
@@ -77605,6 +77691,7 @@
     CweIDs:
     - CWE-125
     VendorSeverity:
+      azure: 2
       bitnami: 3
       redhat: 3
     CVSS:
@@ -79243,7 +79330,7 @@
     - https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-27145.json
     - https://www.cve.org/CVERecord?id=CVE-2026-27145
     PublishedDate: '2026-06-02T23:16:35.57Z'
-    LastModifiedDate: '2026-08-20T13:17:23.26Z'
+    LastModifiedDate: '2026-08-21T13:17:12.547Z'
   - VulnerabilityID: CVE-2026-32280
     VendorIDs:
     - GO-2026-4947
@@ -79896,7 +79983,7 @@
     - https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-33811.json
     - https://www.cve.org/CVERecord?id=CVE-2026-33811
     PublishedDate: '2026-05-07T20:16:42.77Z'
-    LastModifiedDate: '2026-08-20T13:17:49.543Z'
+    LastModifiedDate: '2026-08-21T13:17:26.337Z'
   - VulnerabilityID: CVE-2026-33814
     VendorIDs:
     - GO-2026-4918
@@ -79983,7 +80070,7 @@
     - https://ubuntu.com/security/notices/USN-8473-1
     - https://www.cve.org/CVERecord?id=CVE-2026-33814
     PublishedDate: '2026-05-07T20:16:42.88Z'
-    LastModifiedDate: '2026-08-20T13:17:52.177Z'
+    LastModifiedDate: '2026-08-21T13:17:27.867Z'
   - VulnerabilityID: CVE-2026-33818
     VendorIDs:
     - GO-2026-5972
@@ -80284,6 +80371,7 @@
     - https://access.redhat.com/errata/RHSA-2026:56340
     - https://access.redhat.com/errata/RHSA-2026:56431
     - https://access.redhat.com/errata/RHSA-2026:57194
+    - https://access.redhat.com/errata/RHSA-2026:57541
     - https://access.redhat.com/security/cve/CVE-2026-39821
     - https://bugzilla.redhat.com/2480756
     - https://bugzilla.redhat.com/show_bug.cgi?id=2480756
@@ -80306,7 +80394,7 @@
     - https://ubuntu.com/security/notices/USN-8416-1
     - https://www.cve.org/CVERecord?id=CVE-2026-39821
     PublishedDate: '2026-05-22T16:16:20.41Z'
-    LastModifiedDate: '2026-08-20T13:18:12.15Z'
+    LastModifiedDate: '2026-08-21T13:17:38.087Z'
   - VulnerabilityID: CVE-2026-39822
     VendorIDs:
     - GO-2026-4970
@@ -81991,7 +82079,7 @@
     - https://ubuntu.com/security/notices/USN-8473-1
     - https://www.cve.org/CVERecord?id=CVE-2026-33814
     PublishedDate: '2026-05-07T20:16:42.88Z'
-    LastModifiedDate: '2026-08-20T13:17:52.177Z'
+    LastModifiedDate: '2026-08-21T13:17:27.867Z'
   - VulnerabilityID: CVE-2026-39821
     VendorIDs:
     - GO-2026-5026
@@ -82148,6 +82236,7 @@
     - https://access.redhat.com/errata/RHSA-2026:56340
     - https://access.redhat.com/errata/RHSA-2026:56431
     - https://access.redhat.com/errata/RHSA-2026:57194
+    - https://access.redhat.com/errata/RHSA-2026:57541
     - https://access.redhat.com/security/cve/CVE-2026-39821
     - https://bugzilla.redhat.com/2480756
     - https://bugzilla.redhat.com/show_bug.cgi?id=2480756
@@ -82170,7 +82259,7 @@
     - https://ubuntu.com/security/notices/USN-8416-1
     - https://www.cve.org/CVERecord?id=CVE-2026-39821
     PublishedDate: '2026-05-22T16:16:20.41Z'
-    LastModifiedDate: '2026-08-20T13:18:12.15Z'
+    LastModifiedDate: '2026-08-21T13:17:38.087Z'
   - VulnerabilityID: CVE-2026-46600
     VendorIDs:
     - GO-2026-5942
@@ -82197,6 +82286,7 @@
     CweIDs:
     - CWE-125
     VendorSeverity:
+      azure: 2
       bitnami: 3
       redhat: 3
     CVSS:
@@ -83403,7 +83493,7 @@
     - https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-27145.json
     - https://www.cve.org/CVERecord?id=CVE-2026-27145
     PublishedDate: '2026-06-02T23:16:35.57Z'
-    LastModifiedDate: '2026-08-20T13:17:23.26Z'
+    LastModifiedDate: '2026-08-21T13:17:12.547Z'
   - VulnerabilityID: CVE-2026-32280
     VendorIDs:
     - GO-2026-4947
@@ -84056,7 +84146,7 @@
     - https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-33811.json
     - https://www.cve.org/CVERecord?id=CVE-2026-33811
     PublishedDate: '2026-05-07T20:16:42.77Z'
-    LastModifiedDate: '2026-08-20T13:17:49.543Z'
+    LastModifiedDate: '2026-08-21T13:17:26.337Z'
   - VulnerabilityID: CVE-2026-33814
     VendorIDs:
     - GO-2026-4918
@@ -84143,7 +84233,7 @@
     - https://ubuntu.com/security/notices/USN-8473-1
     - https://www.cve.org/CVERecord?id=CVE-2026-33814
     PublishedDate: '2026-05-07T20:16:42.88Z'
-    LastModifiedDate: '2026-08-20T13:17:52.177Z'
+    LastModifiedDate: '2026-08-21T13:17:27.867Z'
   - VulnerabilityID: CVE-2026-33818
     VendorIDs:
     - GO-2026-5972
@@ -84444,6 +84534,7 @@
     - https://access.redhat.com/errata/RHSA-2026:56340
     - https://access.redhat.com/errata/RHSA-2026:56431
     - https://access.redhat.com/errata/RHSA-2026:57194
+    - https://access.redhat.com/errata/RHSA-2026:57541
     - https://access.redhat.com/security/cve/CVE-2026-39821
     - https://bugzilla.redhat.com/2480756
     - https://bugzilla.redhat.com/show_bug.cgi?id=2480756
@@ -84466,7 +84557,7 @@
     - https://ubuntu.com/security/notices/USN-8416-1
     - https://www.cve.org/CVERecord?id=CVE-2026-39821
     PublishedDate: '2026-05-22T16:16:20.41Z'
-    LastModifiedDate: '2026-08-20T13:18:12.15Z'
+    LastModifiedDate: '2026-08-21T13:17:38.087Z'
   - VulnerabilityID: CVE-2026-39822
     VendorIDs:
     - GO-2026-4970
@@ -86823,7 +86914,7 @@
     - https://github.com/moby/buildkit/releases/tag/v0.31.1
     - https://github.com/moby/buildkit/security/advisories/GHSA-72x6-4j93-7w86
     PublishedDate: '2026-08-19T20:17:19.73Z'
-    LastModifiedDate: '2026-08-19T20:17:19.73Z'
+    LastModifiedDate: '2026-08-21T20:16:38.01Z'
   - VulnerabilityID: CVE-2026-17106
     VendorIDs:
     - GHSA-hfg8-hc9c-6c3h
@@ -87321,7 +87412,7 @@
     - https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-39828.json
     - https://www.cve.org/CVERecord?id=CVE-2026-39828
     PublishedDate: '2026-05-22T04:16:22.19Z'
-    LastModifiedDate: '2026-08-20T13:18:14.353Z'
+    LastModifiedDate: '2026-08-21T13:17:40Z'
   - VulnerabilityID: CVE-2026-39829
     VendorIDs:
     - GO-2026-5018
@@ -87449,7 +87540,7 @@
     - https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-39829.json
     - https://www.cve.org/CVERecord?id=CVE-2026-39829
     PublishedDate: '2026-05-22T04:16:22.31Z'
-    LastModifiedDate: '2026-08-20T13:18:16.54Z'
+    LastModifiedDate: '2026-08-21T13:17:42.92Z'
   - VulnerabilityID: CVE-2026-39830
     VendorIDs:
     - GO-2026-5017
@@ -87570,7 +87661,7 @@
     - https://ubuntu.com/security/notices/USN-8447-3
     - https://www.cve.org/CVERecord?id=CVE-2026-39830
     PublishedDate: '2026-05-22T04:16:22.44Z'
-    LastModifiedDate: '2026-08-20T13:18:18.957Z'
+    LastModifiedDate: '2026-08-21T13:17:44.393Z'
   - VulnerabilityID: CVE-2026-39831
     VendorIDs:
     - GO-2026-5019
@@ -87814,7 +87905,7 @@
     - https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-39835.json
     - https://www.cve.org/CVERecord?id=CVE-2026-39835
     PublishedDate: '2026-05-22T04:16:24.53Z'
-    LastModifiedDate: '2026-08-20T13:18:21.99Z'
+    LastModifiedDate: '2026-08-21T13:17:45.613Z'
   - VulnerabilityID: CVE-2026-42508
     VendorIDs:
     - GHSA-5cgq-3rg8-m6cv
@@ -88659,7 +88750,7 @@
     - https://ubuntu.com/security/notices/USN-8473-1
     - https://www.cve.org/CVERecord?id=CVE-2026-33814
     PublishedDate: '2026-05-07T20:16:42.88Z'
-    LastModifiedDate: '2026-08-20T13:17:52.177Z'
+    LastModifiedDate: '2026-08-21T13:17:27.867Z'
   - VulnerabilityID: CVE-2026-39821
     VendorIDs:
     - GO-2026-5026
@@ -88816,6 +88907,7 @@
     - https://access.redhat.com/errata/RHSA-2026:56340
     - https://access.redhat.com/errata/RHSA-2026:56431
     - https://access.redhat.com/errata/RHSA-2026:57194
+    - https://access.redhat.com/errata/RHSA-2026:57541
     - https://access.redhat.com/security/cve/CVE-2026-39821
     - https://bugzilla.redhat.com/2480756
     - https://bugzilla.redhat.com/show_bug.cgi?id=2480756
@@ -88838,7 +88930,7 @@
     - https://ubuntu.com/security/notices/USN-8416-1
     - https://www.cve.org/CVERecord?id=CVE-2026-39821
     PublishedDate: '2026-05-22T16:16:20.41Z'
-    LastModifiedDate: '2026-08-20T13:18:12.15Z'
+    LastModifiedDate: '2026-08-21T13:17:38.087Z'
   - VulnerabilityID: CVE-2026-46600
     VendorIDs:
     - GO-2026-5942
@@ -88865,6 +88957,7 @@
     CweIDs:
     - CWE-125
     VendorSeverity:
+      azure: 2
       bitnami: 3
       redhat: 3
     CVSS:
@@ -90503,7 +90596,7 @@
     - https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-27145.json
     - https://www.cve.org/CVERecord?id=CVE-2026-27145
     PublishedDate: '2026-06-02T23:16:35.57Z'
-    LastModifiedDate: '2026-08-20T13:17:23.26Z'
+    LastModifiedDate: '2026-08-21T13:17:12.547Z'
   - VulnerabilityID: CVE-2026-32280
     VendorIDs:
     - GO-2026-4947
@@ -91156,7 +91249,7 @@
     - https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-33811.json
     - https://www.cve.org/CVERecord?id=CVE-2026-33811
     PublishedDate: '2026-05-07T20:16:42.77Z'
-    LastModifiedDate: '2026-08-20T13:17:49.543Z'
+    LastModifiedDate: '2026-08-21T13:17:26.337Z'
   - VulnerabilityID: CVE-2026-33814
     VendorIDs:
     - GO-2026-4918
@@ -91243,7 +91336,7 @@
     - https://ubuntu.com/security/notices/USN-8473-1
     - https://www.cve.org/CVERecord?id=CVE-2026-33814
     PublishedDate: '2026-05-07T20:16:42.88Z'
-    LastModifiedDate: '2026-08-20T13:17:52.177Z'
+    LastModifiedDate: '2026-08-21T13:17:27.867Z'
   - VulnerabilityID: CVE-2026-33818
     VendorIDs:
     - GO-2026-5972
@@ -91544,6 +91637,7 @@
     - https://access.redhat.com/errata/RHSA-2026:56340
     - https://access.redhat.com/errata/RHSA-2026:56431
     - https://access.redhat.com/errata/RHSA-2026:57194
+    - https://access.redhat.com/errata/RHSA-2026:57541
     - https://access.redhat.com/security/cve/CVE-2026-39821
     - https://bugzilla.redhat.com/2480756
     - https://bugzilla.redhat.com/show_bug.cgi?id=2480756
@@ -91566,7 +91660,7 @@
     - https://ubuntu.com/security/notices/USN-8416-1
     - https://www.cve.org/CVERecord?id=CVE-2026-39821
     PublishedDate: '2026-05-22T16:16:20.41Z'
-    LastModifiedDate: '2026-08-20T13:18:12.15Z'
+    LastModifiedDate: '2026-08-21T13:17:38.087Z'
   - VulnerabilityID: CVE-2026-39822
     VendorIDs:
     - GO-2026-4970
@@ -93322,7 +93416,7 @@
     - https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-39828.json
     - https://www.cve.org/CVERecord?id=CVE-2026-39828
     PublishedDate: '2026-05-22T04:16:22.19Z'
-    LastModifiedDate: '2026-08-20T13:18:14.353Z'
+    LastModifiedDate: '2026-08-21T13:17:40Z'
   - VulnerabilityID: CVE-2026-39829
     VendorIDs:
     - GO-2026-5018
@@ -93450,7 +93544,7 @@
     - https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-39829.json
     - https://www.cve.org/CVERecord?id=CVE-2026-39829
     PublishedDate: '2026-05-22T04:16:22.31Z'
-    LastModifiedDate: '2026-08-20T13:18:16.54Z'
+    LastModifiedDate: '2026-08-21T13:17:42.92Z'
   - VulnerabilityID: CVE-2026-39830
     VendorIDs:
     - GO-2026-5017
@@ -93571,7 +93665,7 @@
     - https://ubuntu.com/security/notices/USN-8447-3
     - https://www.cve.org/CVERecord?id=CVE-2026-39830
     PublishedDate: '2026-05-22T04:16:22.44Z'
-    LastModifiedDate: '2026-08-20T13:18:18.957Z'
+    LastModifiedDate: '2026-08-21T13:17:44.393Z'
   - VulnerabilityID: CVE-2026-39831
     VendorIDs:
     - GO-2026-5019
@@ -93815,7 +93909,7 @@
     - https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-39835.json
     - https://www.cve.org/CVERecord?id=CVE-2026-39835
     PublishedDate: '2026-05-22T04:16:24.53Z'
-    LastModifiedDate: '2026-08-20T13:18:21.99Z'
+    LastModifiedDate: '2026-08-21T13:17:45.613Z'
   - VulnerabilityID: CVE-2026-42508
     VendorIDs:
     - GHSA-5cgq-3rg8-m6cv
@@ -94580,7 +94674,7 @@
     - https://ubuntu.com/security/notices/USN-8473-1
     - https://www.cve.org/CVERecord?id=CVE-2026-33814
     PublishedDate: '2026-05-07T20:16:42.88Z'
-    LastModifiedDate: '2026-08-20T13:17:52.177Z'
+    LastModifiedDate: '2026-08-21T13:17:27.867Z'
   - VulnerabilityID: CVE-2026-39821
     VendorIDs:
     - GO-2026-5026
@@ -94737,6 +94831,7 @@
     - https://access.redhat.com/errata/RHSA-2026:56340
     - https://access.redhat.com/errata/RHSA-2026:56431
     - https://access.redhat.com/errata/RHSA-2026:57194
+    - https://access.redhat.com/errata/RHSA-2026:57541
     - https://access.redhat.com/security/cve/CVE-2026-39821
     - https://bugzilla.redhat.com/2480756
     - https://bugzilla.redhat.com/show_bug.cgi?id=2480756
@@ -94759,7 +94854,7 @@
     - https://ubuntu.com/security/notices/USN-8416-1
     - https://www.cve.org/CVERecord?id=CVE-2026-39821
     PublishedDate: '2026-05-22T16:16:20.41Z'
-    LastModifiedDate: '2026-08-20T13:18:12.15Z'
+    LastModifiedDate: '2026-08-21T13:17:38.087Z'
   - VulnerabilityID: CVE-2026-46600
     VendorIDs:
     - GO-2026-5942
@@ -94786,6 +94881,7 @@
     CweIDs:
     - CWE-125
     VendorSeverity:
+      azure: 2
       bitnami: 3
       redhat: 3
     CVSS:
@@ -96648,7 +96744,7 @@
     - https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-27145.json
     - https://www.cve.org/CVERecord?id=CVE-2026-27145
     PublishedDate: '2026-06-02T23:16:35.57Z'
-    LastModifiedDate: '2026-08-20T13:17:23.26Z'
+    LastModifiedDate: '2026-08-21T13:17:12.547Z'
   - VulnerabilityID: CVE-2026-32280
     VendorIDs:
     - GO-2026-4947
@@ -97301,7 +97397,7 @@
     - https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-33811.json
     - https://www.cve.org/CVERecord?id=CVE-2026-33811
     PublishedDate: '2026-05-07T20:16:42.77Z'
-    LastModifiedDate: '2026-08-20T13:17:49.543Z'
+    LastModifiedDate: '2026-08-21T13:17:26.337Z'
   - VulnerabilityID: CVE-2026-33814
     VendorIDs:
     - GO-2026-4918
@@ -97388,7 +97484,7 @@
     - https://ubuntu.com/security/notices/USN-8473-1
     - https://www.cve.org/CVERecord?id=CVE-2026-33814
     PublishedDate: '2026-05-07T20:16:42.88Z'
-    LastModifiedDate: '2026-08-20T13:17:52.177Z'
+    LastModifiedDate: '2026-08-21T13:17:27.867Z'
   - VulnerabilityID: CVE-2026-33818
     VendorIDs:
     - GO-2026-5972
@@ -97689,6 +97785,7 @@
     - https://access.redhat.com/errata/RHSA-2026:56340
     - https://access.redhat.com/errata/RHSA-2026:56431
     - https://access.redhat.com/errata/RHSA-2026:57194
+    - https://access.redhat.com/errata/RHSA-2026:57541
     - https://access.redhat.com/security/cve/CVE-2026-39821
     - https://bugzilla.redhat.com/2480756
     - https://bugzilla.redhat.com/show_bug.cgi?id=2480756
@@ -97711,7 +97808,7 @@
     - https://ubuntu.com/security/notices/USN-8416-1
     - https://www.cve.org/CVERecord?id=CVE-2026-39821
     PublishedDate: '2026-05-22T16:16:20.41Z'
-    LastModifiedDate: '2026-08-20T13:18:12.15Z'
+    LastModifiedDate: '2026-08-21T13:17:38.087Z'
   - VulnerabilityID: CVE-2026-39822
     VendorIDs:
     - GO-2026-4970
@@ -99751,7 +99848,7 @@
     - https://ubuntu.com/security/notices/USN-8473-1
     - https://www.cve.org/CVERecord?id=CVE-2026-33814
     PublishedDate: '2026-05-07T20:16:42.88Z'
-    LastModifiedDate: '2026-08-20T13:17:52.177Z'
+    LastModifiedDate: '2026-08-21T13:17:27.867Z'
   - VulnerabilityID: CVE-2026-39821
     VendorIDs:
     - GO-2026-5026
@@ -99908,6 +100005,7 @@
     - https://access.redhat.com/errata/RHSA-2026:56340
     - https://access.redhat.com/errata/RHSA-2026:56431
     - https://access.redhat.com/errata/RHSA-2026:57194
+    - https://access.redhat.com/errata/RHSA-2026:57541
     - https://access.redhat.com/security/cve/CVE-2026-39821
     - https://bugzilla.redhat.com/2480756
     - https://bugzilla.redhat.com/show_bug.cgi?id=2480756
@@ -99930,7 +100028,7 @@
     - https://ubuntu.com/security/notices/USN-8416-1
     - https://www.cve.org/CVERecord?id=CVE-2026-39821
     PublishedDate: '2026-05-22T16:16:20.41Z'
-    LastModifiedDate: '2026-08-20T13:18:12.15Z'
+    LastModifiedDate: '2026-08-21T13:17:38.087Z'
   - VulnerabilityID: CVE-2026-46600
     VendorIDs:
     - GO-2026-5942
@@ -99957,6 +100055,7 @@
     CweIDs:
     - CWE-125
     VendorSeverity:
+      azure: 2
       bitnami: 3
       redhat: 3
     CVSS:
@@ -101262,7 +101361,7 @@
     - https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-27145.json
     - https://www.cve.org/CVERecord?id=CVE-2026-27145
     PublishedDate: '2026-06-02T23:16:35.57Z'
-    LastModifiedDate: '2026-08-20T13:17:23.26Z'
+    LastModifiedDate: '2026-08-21T13:17:12.547Z'
   - VulnerabilityID: CVE-2026-32280
     VendorIDs:
     - GO-2026-4947
@@ -101915,7 +102014,7 @@
     - https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-33811.json
     - https://www.cve.org/CVERecord?id=CVE-2026-33811
     PublishedDate: '2026-05-07T20:16:42.77Z'
-    LastModifiedDate: '2026-08-20T13:17:49.543Z'
+    LastModifiedDate: '2026-08-21T13:17:26.337Z'
   - VulnerabilityID: CVE-2026-33814
     VendorIDs:
     - GO-2026-4918
@@ -102002,7 +102101,7 @@
     - https://ubuntu.com/security/notices/USN-8473-1
     - https://www.cve.org/CVERecord?id=CVE-2026-33814
     PublishedDate: '2026-05-07T20:16:42.88Z'
-    LastModifiedDate: '2026-08-20T13:17:52.177Z'
+    LastModifiedDate: '2026-08-21T13:17:27.867Z'
   - VulnerabilityID: CVE-2026-33818
     VendorIDs:
     - GO-2026-5972
@@ -102303,6 +102402,7 @@
     - https://access.redhat.com/errata/RHSA-2026:56340
     - https://access.redhat.com/errata/RHSA-2026:56431
     - https://access.redhat.com/errata/RHSA-2026:57194
+    - https://access.redhat.com/errata/RHSA-2026:57541
     - https://access.redhat.com/security/cve/CVE-2026-39821
     - https://bugzilla.redhat.com/2480756
     - https://bugzilla.redhat.com/show_bug.cgi?id=2480756
@@ -102325,7 +102425,7 @@
     - https://ubuntu.com/security/notices/USN-8416-1
     - https://www.cve.org/CVERecord?id=CVE-2026-39821
     PublishedDate: '2026-05-22T16:16:20.41Z'
-    LastModifiedDate: '2026-08-20T13:18:12.15Z'
+    LastModifiedDate: '2026-08-21T13:17:38.087Z'
   - VulnerabilityID: CVE-2026-39822
     VendorIDs:
     - GO-2026-4970
@@ -104242,7 +104342,7 @@
     - https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-42154.json
     - https://www.cve.org/CVERecord?id=CVE-2026-42154
     PublishedDate: '2026-05-04T19:16:04.397Z'
-    LastModifiedDate: '2026-08-19T12:18:14.573Z'
+    LastModifiedDate: '2026-08-21T13:17:52.463Z'
   - VulnerabilityID: CVE-2026-40179
     VendorIDs:
     - GHSA-vffh-x6r8-xx99
@@ -104492,7 +104592,7 @@
     - https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-39828.json
     - https://www.cve.org/CVERecord?id=CVE-2026-39828
     PublishedDate: '2026-05-22T04:16:22.19Z'
-    LastModifiedDate: '2026-08-20T13:18:14.353Z'
+    LastModifiedDate: '2026-08-21T13:17:40Z'
   - VulnerabilityID: CVE-2026-39829
     VendorIDs:
     - GO-2026-5018
@@ -104620,7 +104720,7 @@
     - https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-39829.json
     - https://www.cve.org/CVERecord?id=CVE-2026-39829
     PublishedDate: '2026-05-22T04:16:22.31Z'
-    LastModifiedDate: '2026-08-20T13:18:16.54Z'
+    LastModifiedDate: '2026-08-21T13:17:42.92Z'
   - VulnerabilityID: CVE-2026-39830
     VendorIDs:
     - GO-2026-5017
@@ -104741,7 +104841,7 @@
     - https://ubuntu.com/security/notices/USN-8447-3
     - https://www.cve.org/CVERecord?id=CVE-2026-39830
     PublishedDate: '2026-05-22T04:16:22.44Z'
-    LastModifiedDate: '2026-08-20T13:18:18.957Z'
+    LastModifiedDate: '2026-08-21T13:17:44.393Z'
   - VulnerabilityID: CVE-2026-39831
     VendorIDs:
     - GO-2026-5019
@@ -104985,7 +105085,7 @@
     - https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-39835.json
     - https://www.cve.org/CVERecord?id=CVE-2026-39835
     PublishedDate: '2026-05-22T04:16:24.53Z'
-    LastModifiedDate: '2026-08-20T13:18:21.99Z'
+    LastModifiedDate: '2026-08-21T13:17:45.613Z'
   - VulnerabilityID: CVE-2026-42508
     VendorIDs:
     - GHSA-5cgq-3rg8-m6cv
@@ -105750,7 +105850,7 @@
     - https://ubuntu.com/security/notices/USN-8473-1
     - https://www.cve.org/CVERecord?id=CVE-2026-33814
     PublishedDate: '2026-05-07T20:16:42.88Z'
-    LastModifiedDate: '2026-08-20T13:17:52.177Z'
+    LastModifiedDate: '2026-08-21T13:17:27.867Z'
   - VulnerabilityID: CVE-2026-39821
     VendorIDs:
     - GO-2026-5026
@@ -105907,6 +106007,7 @@
     - https://access.redhat.com/errata/RHSA-2026:56340
     - https://access.redhat.com/errata/RHSA-2026:56431
     - https://access.redhat.com/errata/RHSA-2026:57194
+    - https://access.redhat.com/errata/RHSA-2026:57541
     - https://access.redhat.com/security/cve/CVE-2026-39821
     - https://bugzilla.redhat.com/2480756
     - https://bugzilla.redhat.com/show_bug.cgi?id=2480756
@@ -105929,7 +106030,7 @@
     - https://ubuntu.com/security/notices/USN-8416-1
     - https://www.cve.org/CVERecord?id=CVE-2026-39821
     PublishedDate: '2026-05-22T16:16:20.41Z'
-    LastModifiedDate: '2026-08-20T13:18:12.15Z'
+    LastModifiedDate: '2026-08-21T13:17:38.087Z'
   - VulnerabilityID: CVE-2026-46600
     VendorIDs:
     - GO-2026-5942
@@ -105956,6 +106057,7 @@
     CweIDs:
     - CWE-125
     VendorSeverity:
+      azure: 2
       bitnami: 3
       redhat: 3
     CVSS:
@@ -107594,7 +107696,7 @@
     - https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-27145.json
     - https://www.cve.org/CVERecord?id=CVE-2026-27145
     PublishedDate: '2026-06-02T23:16:35.57Z'
-    LastModifiedDate: '2026-08-20T13:17:23.26Z'
+    LastModifiedDate: '2026-08-21T13:17:12.547Z'
   - VulnerabilityID: CVE-2026-32280
     VendorIDs:
     - GO-2026-4947
@@ -108247,7 +108349,7 @@
     - https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-33811.json
     - https://www.cve.org/CVERecord?id=CVE-2026-33811
     PublishedDate: '2026-05-07T20:16:42.77Z'
-    LastModifiedDate: '2026-08-20T13:17:49.543Z'
+    LastModifiedDate: '2026-08-21T13:17:26.337Z'
   - VulnerabilityID: CVE-2026-33814
     VendorIDs:
     - GO-2026-4918
@@ -108334,7 +108436,7 @@
     - https://ubuntu.com/security/notices/USN-8473-1
     - https://www.cve.org/CVERecord?id=CVE-2026-33814
     PublishedDate: '2026-05-07T20:16:42.88Z'
-    LastModifiedDate: '2026-08-20T13:17:52.177Z'
+    LastModifiedDate: '2026-08-21T13:17:27.867Z'
   - VulnerabilityID: CVE-2026-33818
     VendorIDs:
     - GO-2026-5972
@@ -108635,6 +108737,7 @@
     - https://access.redhat.com/errata/RHSA-2026:56340
     - https://access.redhat.com/errata/RHSA-2026:56431
     - https://access.redhat.com/errata/RHSA-2026:57194
+    - https://access.redhat.com/errata/RHSA-2026:57541
     - https://access.redhat.com/security/cve/CVE-2026-39821
     - https://bugzilla.redhat.com/2480756
     - https://bugzilla.redhat.com/show_bug.cgi?id=2480756
@@ -108657,7 +108760,7 @@
     - https://ubuntu.com/security/notices/USN-8416-1
     - https://www.cve.org/CVERecord?id=CVE-2026-39821
     PublishedDate: '2026-05-22T16:16:20.41Z'
-    LastModifiedDate: '2026-08-20T13:18:12.15Z'
+    LastModifiedDate: '2026-08-21T13:17:38.087Z'
   - VulnerabilityID: CVE-2026-39822
     VendorIDs:
     - GO-2026-4970
@@ -110624,7 +110727,7 @@
     - https://ubuntu.com/security/notices/USN-8473-1
     - https://www.cve.org/CVERecord?id=CVE-2026-33814
     PublishedDate: '2026-05-07T20:16:42.88Z'
-    LastModifiedDate: '2026-08-20T13:17:52.177Z'
+    LastModifiedDate: '2026-08-21T13:17:27.867Z'
   - VulnerabilityID: CVE-2026-39821
     VendorIDs:
     - GO-2026-5026
@@ -110781,6 +110884,7 @@
     - https://access.redhat.com/errata/RHSA-2026:56340
     - https://access.redhat.com/errata/RHSA-2026:56431
     - https://access.redhat.com/errata/RHSA-2026:57194
+    - https://access.redhat.com/errata/RHSA-2026:57541
     - https://access.redhat.com/security/cve/CVE-2026-39821
     - https://bugzilla.redhat.com/2480756
     - https://bugzilla.redhat.com/show_bug.cgi?id=2480756
@@ -110803,7 +110907,7 @@
     - https://ubuntu.com/security/notices/USN-8416-1
     - https://www.cve.org/CVERecord?id=CVE-2026-39821
     PublishedDate: '2026-05-22T16:16:20.41Z'
-    LastModifiedDate: '2026-08-20T13:18:12.15Z'
+    LastModifiedDate: '2026-08-21T13:17:38.087Z'
   - VulnerabilityID: CVE-2026-46600
     VendorIDs:
     - GO-2026-5942
@@ -110830,6 +110934,7 @@
     CweIDs:
     - CWE-125
     VendorSeverity:
+      azure: 2
       bitnami: 3
       redhat: 3
     CVSS:
@@ -112138,7 +112243,7 @@
     - https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-27145.json
     - https://www.cve.org/CVERecord?id=CVE-2026-27145
     PublishedDate: '2026-06-02T23:16:35.57Z'
-    LastModifiedDate: '2026-08-20T13:17:23.26Z'
+    LastModifiedDate: '2026-08-21T13:17:12.547Z'
   - VulnerabilityID: CVE-2026-32280
     VendorIDs:
     - GO-2026-4947
@@ -112791,7 +112896,7 @@
     - https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-33811.json
     - https://www.cve.org/CVERecord?id=CVE-2026-33811
     PublishedDate: '2026-05-07T20:16:42.77Z'
-    LastModifiedDate: '2026-08-20T13:17:49.543Z'
+    LastModifiedDate: '2026-08-21T13:17:26.337Z'
   - VulnerabilityID: CVE-2026-33814
     VendorIDs:
     - GO-2026-4918
@@ -112878,7 +112983,7 @@
     - https://ubuntu.com/security/notices/USN-8473-1
     - https://www.cve.org/CVERecord?id=CVE-2026-33814
     PublishedDate: '2026-05-07T20:16:42.88Z'
-    LastModifiedDate: '2026-08-20T13:17:52.177Z'
+    LastModifiedDate: '2026-08-21T13:17:27.867Z'
   - VulnerabilityID: CVE-2026-33818
     VendorIDs:
     - GO-2026-5972
@@ -113179,6 +113284,7 @@
     - https://access.redhat.com/errata/RHSA-2026:56340
     - https://access.redhat.com/errata/RHSA-2026:56431
     - https://access.redhat.com/errata/RHSA-2026:57194
+    - https://access.redhat.com/errata/RHSA-2026:57541
     - https://access.redhat.com/security/cve/CVE-2026-39821
     - https://bugzilla.redhat.com/2480756
     - https://bugzilla.redhat.com/show_bug.cgi?id=2480756
@@ -113201,7 +113307,7 @@
     - https://ubuntu.com/security/notices/USN-8416-1
     - https://www.cve.org/CVERecord?id=CVE-2026-39821
     PublishedDate: '2026-05-22T16:16:20.41Z'
-    LastModifiedDate: '2026-08-20T13:18:12.15Z'
+    LastModifiedDate: '2026-08-21T13:17:38.087Z'
   - VulnerabilityID: CVE-2026-39822
     VendorIDs:
     - GO-2026-4970
@@ -115403,7 +115509,7 @@
     - https://github.com/moby/buildkit/releases/tag/v0.31.1
     - https://github.com/moby/buildkit/security/advisories/GHSA-72x6-4j93-7w86
     PublishedDate: '2026-08-19T20:17:19.73Z'
-    LastModifiedDate: '2026-08-19T20:17:19.73Z'
+    LastModifiedDate: '2026-08-21T20:16:38.01Z'
   - VulnerabilityID: CVE-2026-17106
     VendorIDs:
     - GHSA-hfg8-hc9c-6c3h
@@ -115929,7 +116035,7 @@
     - https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-39828.json
     - https://www.cve.org/CVERecord?id=CVE-2026-39828
     PublishedDate: '2026-05-22T04:16:22.19Z'
-    LastModifiedDate: '2026-08-20T13:18:14.353Z'
+    LastModifiedDate: '2026-08-21T13:17:40Z'
   - VulnerabilityID: CVE-2026-39829
     VendorIDs:
     - GO-2026-5018
@@ -116057,7 +116163,7 @@
     - https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-39829.json
     - https://www.cve.org/CVERecord?id=CVE-2026-39829
     PublishedDate: '2026-05-22T04:16:22.31Z'
-    LastModifiedDate: '2026-08-20T13:18:16.54Z'
+    LastModifiedDate: '2026-08-21T13:17:42.92Z'
   - VulnerabilityID: CVE-2026-39830
     VendorIDs:
     - GO-2026-5017
@@ -116178,7 +116284,7 @@
     - https://ubuntu.com/security/notices/USN-8447-3
     - https://www.cve.org/CVERecord?id=CVE-2026-39830
     PublishedDate: '2026-05-22T04:16:22.44Z'
-    LastModifiedDate: '2026-08-20T13:18:18.957Z'
+    LastModifiedDate: '2026-08-21T13:17:44.393Z'
   - VulnerabilityID: CVE-2026-39831
     VendorIDs:
     - GO-2026-5019
@@ -116422,7 +116528,7 @@
     - https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-39835.json
     - https://www.cve.org/CVERecord?id=CVE-2026-39835
     PublishedDate: '2026-05-22T04:16:24.53Z'
-    LastModifiedDate: '2026-08-20T13:18:21.99Z'
+    LastModifiedDate: '2026-08-21T13:17:45.613Z'
   - VulnerabilityID: CVE-2026-42508
     VendorIDs:
     - GHSA-5cgq-3rg8-m6cv
@@ -117187,7 +117293,7 @@
     - https://ubuntu.com/security/notices/USN-8473-1
     - https://www.cve.org/CVERecord?id=CVE-2026-33814
     PublishedDate: '2026-05-07T20:16:42.88Z'
-    LastModifiedDate: '2026-08-20T13:17:52.177Z'
+    LastModifiedDate: '2026-08-21T13:17:27.867Z'
   - VulnerabilityID: CVE-2026-39821
     VendorIDs:
     - GO-2026-5026
@@ -117344,6 +117450,7 @@
     - https://access.redhat.com/errata/RHSA-2026:56340
     - https://access.redhat.com/errata/RHSA-2026:56431
     - https://access.redhat.com/errata/RHSA-2026:57194
+    - https://access.redhat.com/errata/RHSA-2026:57541
     - https://access.redhat.com/security/cve/CVE-2026-39821
     - https://bugzilla.redhat.com/2480756
     - https://bugzilla.redhat.com/show_bug.cgi?id=2480756
@@ -117366,7 +117473,7 @@
     - https://ubuntu.com/security/notices/USN-8416-1
     - https://www.cve.org/CVERecord?id=CVE-2026-39821
     PublishedDate: '2026-05-22T16:16:20.41Z'
-    LastModifiedDate: '2026-08-20T13:18:12.15Z'
+    LastModifiedDate: '2026-08-21T13:17:38.087Z'
   - VulnerabilityID: CVE-2026-46600
     VendorIDs:
     - GO-2026-5942
@@ -117393,6 +117500,7 @@
     CweIDs:
     - CWE-125
     VendorSeverity:
+      azure: 2
       bitnami: 3
       redhat: 3
     CVSS:
@@ -119031,7 +119139,7 @@
     - https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-27145.json
     - https://www.cve.org/CVERecord?id=CVE-2026-27145
     PublishedDate: '2026-06-02T23:16:35.57Z'
-    LastModifiedDate: '2026-08-20T13:17:23.26Z'
+    LastModifiedDate: '2026-08-21T13:17:12.547Z'
   - VulnerabilityID: CVE-2026-32280
     VendorIDs:
     - GO-2026-4947
@@ -119684,7 +119792,7 @@
     - https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-33811.json
     - https://www.cve.org/CVERecord?id=CVE-2026-33811
     PublishedDate: '2026-05-07T20:16:42.77Z'
-    LastModifiedDate: '2026-08-20T13:17:49.543Z'
+    LastModifiedDate: '2026-08-21T13:17:26.337Z'
   - VulnerabilityID: CVE-2026-33814
     VendorIDs:
     - GO-2026-4918
@@ -119771,7 +119879,7 @@
     - https://ubuntu.com/security/notices/USN-8473-1
     - https://www.cve.org/CVERecord?id=CVE-2026-33814
     PublishedDate: '2026-05-07T20:16:42.88Z'
-    LastModifiedDate: '2026-08-20T13:17:52.177Z'
+    LastModifiedDate: '2026-08-21T13:17:27.867Z'
   - VulnerabilityID: CVE-2026-33818
     VendorIDs:
     - GO-2026-5972
@@ -120072,6 +120180,7 @@
     - https://access.redhat.com/errata/RHSA-2026:56340
     - https://access.redhat.com/errata/RHSA-2026:56431
     - https://access.redhat.com/errata/RHSA-2026:57194
+    - https://access.redhat.com/errata/RHSA-2026:57541
     - https://access.redhat.com/security/cve/CVE-2026-39821
     - https://bugzilla.redhat.com/2480756
     - https://bugzilla.redhat.com/show_bug.cgi?id=2480756
@@ -120094,7 +120203,7 @@
     - https://ubuntu.com/security/notices/USN-8416-1
     - https://www.cve.org/CVERecord?id=CVE-2026-39821
     PublishedDate: '2026-05-22T16:16:20.41Z'
-    LastModifiedDate: '2026-08-20T13:18:12.15Z'
+    LastModifiedDate: '2026-08-21T13:17:38.087Z'
   - VulnerabilityID: CVE-2026-39822
     VendorIDs:
     - GO-2026-4970
@@ -122782,7 +122891,7 @@
     - https://github.com/moby/buildkit/releases/tag/v0.31.1
     - https://github.com/moby/buildkit/security/advisories/GHSA-72x6-4j93-7w86
     PublishedDate: '2026-08-19T20:17:19.73Z'
-    LastModifiedDate: '2026-08-19T20:17:19.73Z'
+    LastModifiedDate: '2026-08-21T20:16:38.01Z'
   - VulnerabilityID: CVE-2026-17106
     VendorIDs:
     - GHSA-hfg8-hc9c-6c3h
@@ -123361,7 +123470,7 @@
     - https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-39828.json
     - https://www.cve.org/CVERecord?id=CVE-2026-39828
     PublishedDate: '2026-05-22T04:16:22.19Z'
-    LastModifiedDate: '2026-08-20T13:18:14.353Z'
+    LastModifiedDate: '2026-08-21T13:17:40Z'
   - VulnerabilityID: CVE-2026-39829
     VendorIDs:
     - GO-2026-5018
@@ -123489,7 +123598,7 @@
     - https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-39829.json
     - https://www.cve.org/CVERecord?id=CVE-2026-39829
     PublishedDate: '2026-05-22T04:16:22.31Z'
-    LastModifiedDate: '2026-08-20T13:18:16.54Z'
+    LastModifiedDate: '2026-08-21T13:17:42.92Z'
   - VulnerabilityID: CVE-2026-39830
     VendorIDs:
     - GO-2026-5017
@@ -123610,7 +123719,7 @@
     - https://ubuntu.com/security/notices/USN-8447-3
     - https://www.cve.org/CVERecord?id=CVE-2026-39830
     PublishedDate: '2026-05-22T04:16:22.44Z'
-    LastModifiedDate: '2026-08-20T13:18:18.957Z'
+    LastModifiedDate: '2026-08-21T13:17:44.393Z'
   - VulnerabilityID: CVE-2026-39831
     VendorIDs:
     - GO-2026-5019
@@ -123854,7 +123963,7 @@
     - https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-39835.json
     - https://www.cve.org/CVERecord?id=CVE-2026-39835
     PublishedDate: '2026-05-22T04:16:24.53Z'
-    LastModifiedDate: '2026-08-20T13:18:21.99Z'
+    LastModifiedDate: '2026-08-21T13:17:45.613Z'
   - VulnerabilityID: CVE-2026-42508
     VendorIDs:
     - GHSA-5cgq-3rg8-m6cv
@@ -124619,7 +124728,7 @@
     - https://ubuntu.com/security/notices/USN-8473-1
     - https://www.cve.org/CVERecord?id=CVE-2026-33814
     PublishedDate: '2026-05-07T20:16:42.88Z'
-    LastModifiedDate: '2026-08-20T13:17:52.177Z'
+    LastModifiedDate: '2026-08-21T13:17:27.867Z'
   - VulnerabilityID: CVE-2026-39821
     VendorIDs:
     - GO-2026-5026
@@ -124776,6 +124885,7 @@
     - https://access.redhat.com/errata/RHSA-2026:56340
     - https://access.redhat.com/errata/RHSA-2026:56431
     - https://access.redhat.com/errata/RHSA-2026:57194
+    - https://access.redhat.com/errata/RHSA-2026:57541
     - https://access.redhat.com/security/cve/CVE-2026-39821
     - https://bugzilla.redhat.com/2480756
     - https://bugzilla.redhat.com/show_bug.cgi?id=2480756
@@ -124798,7 +124908,7 @@
     - https://ubuntu.com/security/notices/USN-8416-1
     - https://www.cve.org/CVERecord?id=CVE-2026-39821
     PublishedDate: '2026-05-22T16:16:20.41Z'
-    LastModifiedDate: '2026-08-20T13:18:12.15Z'
+    LastModifiedDate: '2026-08-21T13:17:38.087Z'
   - VulnerabilityID: CVE-2026-46600
     VendorIDs:
     - GO-2026-5942
@@ -124825,6 +124935,7 @@
     CweIDs:
     - CWE-125
     VendorSeverity:
+      azure: 2
       bitnami: 3
       redhat: 3
     CVSS:
@@ -126463,7 +126574,7 @@
     - https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-27145.json
     - https://www.cve.org/CVERecord?id=CVE-2026-27145
     PublishedDate: '2026-06-02T23:16:35.57Z'
-    LastModifiedDate: '2026-08-20T13:17:23.26Z'
+    LastModifiedDate: '2026-08-21T13:17:12.547Z'
   - VulnerabilityID: CVE-2026-32280
     VendorIDs:
     - GO-2026-4947
@@ -127116,7 +127227,7 @@
     - https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-33811.json
     - https://www.cve.org/CVERecord?id=CVE-2026-33811
     PublishedDate: '2026-05-07T20:16:42.77Z'
-    LastModifiedDate: '2026-08-20T13:17:49.543Z'
+    LastModifiedDate: '2026-08-21T13:17:26.337Z'
   - VulnerabilityID: CVE-2026-33814
     VendorIDs:
     - GO-2026-4918
@@ -127203,7 +127314,7 @@
     - https://ubuntu.com/security/notices/USN-8473-1
     - https://www.cve.org/CVERecord?id=CVE-2026-33814
     PublishedDate: '2026-05-07T20:16:42.88Z'
-    LastModifiedDate: '2026-08-20T13:17:52.177Z'
+    LastModifiedDate: '2026-08-21T13:17:27.867Z'
   - VulnerabilityID: CVE-2026-33818
     VendorIDs:
     - GO-2026-5972
@@ -127504,6 +127615,7 @@
     - https://access.redhat.com/errata/RHSA-2026:56340
     - https://access.redhat.com/errata/RHSA-2026:56431
     - https://access.redhat.com/errata/RHSA-2026:57194
+    - https://access.redhat.com/errata/RHSA-2026:57541
     - https://access.redhat.com/security/cve/CVE-2026-39821
     - https://bugzilla.redhat.com/2480756
     - https://bugzilla.redhat.com/show_bug.cgi?id=2480756
@@ -127526,7 +127638,7 @@
     - https://ubuntu.com/security/notices/USN-8416-1
     - https://www.cve.org/CVERecord?id=CVE-2026-39821
     PublishedDate: '2026-05-22T16:16:20.41Z'
-    LastModifiedDate: '2026-08-20T13:18:12.15Z'
+    LastModifiedDate: '2026-08-21T13:17:38.087Z'
   - VulnerabilityID: CVE-2026-39822
     VendorIDs:
     - GO-2026-4970
@@ -129802,7 +129914,7 @@
     - https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-39828.json
     - https://www.cve.org/CVERecord?id=CVE-2026-39828
     PublishedDate: '2026-05-22T04:16:22.19Z'
-    LastModifiedDate: '2026-08-20T13:18:14.353Z'
+    LastModifiedDate: '2026-08-21T13:17:40Z'
   - VulnerabilityID: CVE-2026-39829
     VendorIDs:
     - GO-2026-5018
@@ -129930,7 +130042,7 @@
     - https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-39829.json
     - https://www.cve.org/CVERecord?id=CVE-2026-39829
     PublishedDate: '2026-05-22T04:16:22.31Z'
-    LastModifiedDate: '2026-08-20T13:18:16.54Z'
+    LastModifiedDate: '2026-08-21T13:17:42.92Z'
   - VulnerabilityID: CVE-2026-39830
     VendorIDs:
     - GO-2026-5017
@@ -130051,7 +130163,7 @@
     - https://ubuntu.com/security/notices/USN-8447-3
     - https://www.cve.org/CVERecord?id=CVE-2026-39830
     PublishedDate: '2026-05-22T04:16:22.44Z'
-    LastModifiedDate: '2026-08-20T13:18:18.957Z'
+    LastModifiedDate: '2026-08-21T13:17:44.393Z'
   - VulnerabilityID: CVE-2026-39831
     VendorIDs:
     - GO-2026-5019
@@ -130295,7 +130407,7 @@
     - https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-39835.json
     - https://www.cve.org/CVERecord?id=CVE-2026-39835
     PublishedDate: '2026-05-22T04:16:24.53Z'
-    LastModifiedDate: '2026-08-20T13:18:21.99Z'
+    LastModifiedDate: '2026-08-21T13:17:45.613Z'
   - VulnerabilityID: CVE-2026-42508
     VendorIDs:
     - GHSA-5cgq-3rg8-m6cv
@@ -131060,7 +131172,7 @@
     - https://ubuntu.com/security/notices/USN-8473-1
     - https://www.cve.org/CVERecord?id=CVE-2026-33814
     PublishedDate: '2026-05-07T20:16:42.88Z'
-    LastModifiedDate: '2026-08-20T13:17:52.177Z'
+    LastModifiedDate: '2026-08-21T13:17:27.867Z'
   - VulnerabilityID: CVE-2026-39821
     VendorIDs:
     - GO-2026-5026
@@ -131217,6 +131329,7 @@
     - https://access.redhat.com/errata/RHSA-2026:56340
     - https://access.redhat.com/errata/RHSA-2026:56431
     - https://access.redhat.com/errata/RHSA-2026:57194
+    - https://access.redhat.com/errata/RHSA-2026:57541
     - https://access.redhat.com/security/cve/CVE-2026-39821
     - https://bugzilla.redhat.com/2480756
     - https://bugzilla.redhat.com/show_bug.cgi?id=2480756
@@ -131239,7 +131352,7 @@
     - https://ubuntu.com/security/notices/USN-8416-1
     - https://www.cve.org/CVERecord?id=CVE-2026-39821
     PublishedDate: '2026-05-22T16:16:20.41Z'
-    LastModifiedDate: '2026-08-20T13:18:12.15Z'
+    LastModifiedDate: '2026-08-21T13:17:38.087Z'
   - VulnerabilityID: CVE-2026-46600
     VendorIDs:
     - GO-2026-5942
@@ -131266,6 +131379,7 @@
     CweIDs:
     - CWE-125
     VendorSeverity:
+      azure: 2
       bitnami: 3
       redhat: 3
     CVSS:
@@ -132904,7 +133018,7 @@
     - https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-27145.json
     - https://www.cve.org/CVERecord?id=CVE-2026-27145
     PublishedDate: '2026-06-02T23:16:35.57Z'
-    LastModifiedDate: '2026-08-20T13:17:23.26Z'
+    LastModifiedDate: '2026-08-21T13:17:12.547Z'
   - VulnerabilityID: CVE-2026-32280
     VendorIDs:
     - GO-2026-4947
@@ -133557,7 +133671,7 @@
     - https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-33811.json
     - https://www.cve.org/CVERecord?id=CVE-2026-33811
     PublishedDate: '2026-05-07T20:16:42.77Z'
-    LastModifiedDate: '2026-08-20T13:17:49.543Z'
+    LastModifiedDate: '2026-08-21T13:17:26.337Z'
   - VulnerabilityID: CVE-2026-33814
     VendorIDs:
     - GO-2026-4918
@@ -133644,7 +133758,7 @@
     - https://ubuntu.com/security/notices/USN-8473-1
     - https://www.cve.org/CVERecord?id=CVE-2026-33814
     PublishedDate: '2026-05-07T20:16:42.88Z'
-    LastModifiedDate: '2026-08-20T13:17:52.177Z'
+    LastModifiedDate: '2026-08-21T13:17:27.867Z'
   - VulnerabilityID: CVE-2026-33818
     VendorIDs:
     - GO-2026-5972
@@ -133945,6 +134059,7 @@
     - https://access.redhat.com/errata/RHSA-2026:56340
     - https://access.redhat.com/errata/RHSA-2026:56431
     - https://access.redhat.com/errata/RHSA-2026:57194
+    - https://access.redhat.com/errata/RHSA-2026:57541
     - https://access.redhat.com/security/cve/CVE-2026-39821
     - https://bugzilla.redhat.com/2480756
     - https://bugzilla.redhat.com/show_bug.cgi?id=2480756
@@ -133967,7 +134082,7 @@
     - https://ubuntu.com/security/notices/USN-8416-1
     - https://www.cve.org/CVERecord?id=CVE-2026-39821
     PublishedDate: '2026-05-22T16:16:20.41Z'
-    LastModifiedDate: '2026-08-20T13:18:12.15Z'
+    LastModifiedDate: '2026-08-21T13:17:38.087Z'
   - VulnerabilityID: CVE-2026-39822
     VendorIDs:
     - GO-2026-4970
@@ -136274,7 +136389,7 @@
     - https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-39828.json
     - https://www.cve.org/CVERecord?id=CVE-2026-39828
     PublishedDate: '2026-05-22T04:16:22.19Z'
-    LastModifiedDate: '2026-08-20T13:18:14.353Z'
+    LastModifiedDate: '2026-08-21T13:17:40Z'
   - VulnerabilityID: CVE-2026-39829
     VendorIDs:
     - GO-2026-5018
@@ -136402,7 +136517,7 @@
     - https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-39829.json
     - https://www.cve.org/CVERecord?id=CVE-2026-39829
     PublishedDate: '2026-05-22T04:16:22.31Z'
-    LastModifiedDate: '2026-08-20T13:18:16.54Z'
+    LastModifiedDate: '2026-08-21T13:17:42.92Z'
   - VulnerabilityID: CVE-2026-39830
     VendorIDs:
     - GO-2026-5017
@@ -136523,7 +136638,7 @@
     - https://ubuntu.com/security/notices/USN-8447-3
     - https://www.cve.org/CVERecord?id=CVE-2026-39830
     PublishedDate: '2026-05-22T04:16:22.44Z'
-    LastModifiedDate: '2026-08-20T13:18:18.957Z'
+    LastModifiedDate: '2026-08-21T13:17:44.393Z'
   - VulnerabilityID: CVE-2026-39831
     VendorIDs:
     - GO-2026-5019
@@ -136767,7 +136882,7 @@
     - https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-39835.json
     - https://www.cve.org/CVERecord?id=CVE-2026-39835
     PublishedDate: '2026-05-22T04:16:24.53Z'
-    LastModifiedDate: '2026-08-20T13:18:21.99Z'
+    LastModifiedDate: '2026-08-21T13:17:45.613Z'
   - VulnerabilityID: CVE-2026-42508
     VendorIDs:
     - GHSA-5cgq-3rg8-m6cv
@@ -137584,7 +137699,7 @@
     - https://ubuntu.com/security/notices/USN-8473-1
     - https://www.cve.org/CVERecord?id=CVE-2026-33814
     PublishedDate: '2026-05-07T20:16:42.88Z'
-    LastModifiedDate: '2026-08-20T13:17:52.177Z'
+    LastModifiedDate: '2026-08-21T13:17:27.867Z'
   - VulnerabilityID: CVE-2026-39821
     VendorIDs:
     - GO-2026-5026
@@ -137741,6 +137856,7 @@
     - https://access.redhat.com/errata/RHSA-2026:56340
     - https://access.redhat.com/errata/RHSA-2026:56431
     - https://access.redhat.com/errata/RHSA-2026:57194
+    - https://access.redhat.com/errata/RHSA-2026:57541
     - https://access.redhat.com/security/cve/CVE-2026-39821
     - https://bugzilla.redhat.com/2480756
     - https://bugzilla.redhat.com/show_bug.cgi?id=2480756
@@ -137763,7 +137879,7 @@
     - https://ubuntu.com/security/notices/USN-8416-1
     - https://www.cve.org/CVERecord?id=CVE-2026-39821
     PublishedDate: '2026-05-22T16:16:20.41Z'
-    LastModifiedDate: '2026-08-20T13:18:12.15Z'
+    LastModifiedDate: '2026-08-21T13:17:38.087Z'
   - VulnerabilityID: CVE-2026-46600
     VendorIDs:
     - GO-2026-5942
@@ -137790,6 +137906,7 @@
     CweIDs:
     - CWE-125
     VendorSeverity:
+      azure: 2
       bitnami: 3
       redhat: 3
     CVSS:
@@ -139623,7 +139740,7 @@
     - https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-27145.json
     - https://www.cve.org/CVERecord?id=CVE-2026-27145
     PublishedDate: '2026-06-02T23:16:35.57Z'
-    LastModifiedDate: '2026-08-20T13:17:23.26Z'
+    LastModifiedDate: '2026-08-21T13:17:12.547Z'
   - VulnerabilityID: CVE-2026-32280
     VendorIDs:
     - GO-2026-4947
@@ -140276,7 +140393,7 @@
     - https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-33811.json
     - https://www.cve.org/CVERecord?id=CVE-2026-33811
     PublishedDate: '2026-05-07T20:16:42.77Z'
-    LastModifiedDate: '2026-08-20T13:17:49.543Z'
+    LastModifiedDate: '2026-08-21T13:17:26.337Z'
   - VulnerabilityID: CVE-2026-33814
     VendorIDs:
     - GO-2026-4918
@@ -140363,7 +140480,7 @@
     - https://ubuntu.com/security/notices/USN-8473-1
     - https://www.cve.org/CVERecord?id=CVE-2026-33814
     PublishedDate: '2026-05-07T20:16:42.88Z'
-    LastModifiedDate: '2026-08-20T13:17:52.177Z'
+    LastModifiedDate: '2026-08-21T13:17:27.867Z'
   - VulnerabilityID: CVE-2026-33818
     VendorIDs:
     - GO-2026-5972
@@ -140664,6 +140781,7 @@
     - https://access.redhat.com/errata/RHSA-2026:56340
     - https://access.redhat.com/errata/RHSA-2026:56431
     - https://access.redhat.com/errata/RHSA-2026:57194
+    - https://access.redhat.com/errata/RHSA-2026:57541
     - https://access.redhat.com/security/cve/CVE-2026-39821
     - https://bugzilla.redhat.com/2480756
     - https://bugzilla.redhat.com/show_bug.cgi?id=2480756
@@ -140686,7 +140804,7 @@
     - https://ubuntu.com/security/notices/USN-8416-1
     - https://www.cve.org/CVERecord?id=CVE-2026-39821
     PublishedDate: '2026-05-22T16:16:20.41Z'
-    LastModifiedDate: '2026-08-20T13:18:12.15Z'
+    LastModifiedDate: '2026-08-21T13:17:38.087Z'
   - VulnerabilityID: CVE-2026-39822
     VendorIDs:
     - GO-2026-4970
