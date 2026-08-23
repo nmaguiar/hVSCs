@@ -29116,17 +29116,24 @@
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Fingerprint: sha256:47358badbcb6331fd2382b077050f1c2e6fea9330eade367d6c85776b3416426
-    Title: A NULL pointer dereference in the SQLite Session Extension in SQLite 3 ...
+    Title: 'sqlite: SQLite: Denial of Service via malformed changeset in Session Extension'
     Description: A NULL pointer dereference in the SQLite Session Extension in SQLite 3.53.1 and SQLite trunk builds before check-in e807d4e3798efd53 allows an attacker who can supply a malformed changeset blob to cause a denial of service. The issue occurs when sqlite3changeset_apply_v3() applies a corrupt changeset and reaches sqlite3_value_type() with a NULL sqlite3_value pointer.
     Severity: MEDIUM
     CweIDs:
     - CWE-476
     VendorSeverity:
       amazon: 3
+      redhat: 2
       ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.5
     References:
+    - https://access.redhat.com/security/cve/CVE-2026-50812
     - https://gist.github.com/junius-sec/bb556f333957c5226dede314db0e9e91
     - https://github.com/sqlite/sqlite/commit/b869ed6b067d623cb1383549f2a18aa35508385d
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-50812
     - https://sqlite.org/src/info/e807d4e3798efd53
     - https://ubuntu.com/security/notices/USN-8565-1
     - https://www.cve.org/CVERecord?id=CVE-2026-50812
@@ -29151,16 +29158,19 @@
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Fingerprint: sha256:f4fa10826065e3e77b763925f8606238a8aa18381e53d1a329d5a31e3832efb5
-    Title: An issue in SQLite before Fossil check-in 869a51ae84df allows a local  ...
+    Title: 'sqlite: SQLite: Information disclosure via Session Extension changeset merge path'
     Description: An issue in SQLite before Fossil check-in 869a51ae84df allows a local attacker to obtain sensitive information via the Session Extension changeset concat/changegroup merge path
     Severity: MEDIUM
     CweIDs:
     - CWE-126
     VendorSeverity:
+      redhat: 2
       ubuntu: 2
     References:
+    - https://access.redhat.com/security/cve/CVE-2026-50813
     - https://gist.github.com/junius-sec/f8acb66bafb80134c8e1a1c8c7c9f4f4
     - https://github.com/sqlite/sqlite/commit/c597ed79d1bd03f57198d10d1f431adda293cf2e
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-50813
     - https://sqlite.org/src/info/869a51ae84df
     - https://ubuntu.com/security/notices/USN-8565-1
     - https://www.cve.org/CVERecord?id=CVE-2026-50813
@@ -64614,6 +64624,7 @@
       amazon: 2
       azure: 3
       bitnami: 3
+      photon: 3
       redhat: 3
     CVSS:
       bitnami:
@@ -69673,6 +69684,7 @@
       amazon: 2
       azure: 3
       bitnami: 3
+      photon: 3
       redhat: 3
     CVSS:
       bitnami:
@@ -73680,6 +73692,7 @@
       amazon: 2
       azure: 3
       bitnami: 3
+      photon: 3
       redhat: 3
     CVSS:
       bitnami:
@@ -75669,7 +75682,7 @@
       Name: GitHub Security Advisory Go
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
     Fingerprint: sha256:d6540bafe624d82416ac436844b37285e2671be217d9b267b510294e0902a548
-    Title: 'moby/go-archive: Crafted tar archive can write outside the extraction directory'
+    Title: The tar extraction routines in moby/go-archive (Unpack, UnpackLayer, U ...
     Description: The tar extraction routines in moby/go-archive (Unpack, UnpackLayer, Untar/UntarUncompressed, and the ApplyLayer helpers) do not confine filesystem operations to the destination directory. The extractor decides where each archive entry lands using lexical string checks and then performs the filesystem operation on a path that is resolved by the OS, so links introduced by the archive can be followed out of the destination directory. An attacker who controls the contents of an archive can create or overwrite files at arbitrary paths writable by the extracting process.
     Severity: HIGH
     CweIDs:
@@ -80629,6 +80642,7 @@
       amazon: 2
       azure: 3
       bitnami: 3
+      photon: 3
       redhat: 3
     CVSS:
       bitnami:
@@ -84792,6 +84806,7 @@
       amazon: 2
       azure: 3
       bitnami: 3
+      photon: 3
       redhat: 3
     CVSS:
       bitnami:
@@ -86936,7 +86951,7 @@
       Name: GitHub Security Advisory Go
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
     Fingerprint: sha256:d2fc4ae038aaf8bc0e4b2c598afc95f3ee4a7ecd3934cf1427c2ebae99391cd3
-    Title: 'moby/go-archive: Crafted tar archive can write outside the extraction directory'
+    Title: The tar extraction routines in moby/go-archive (Unpack, UnpackLayer, U ...
     Description: The tar extraction routines in moby/go-archive (Unpack, UnpackLayer, Untar/UntarUncompressed, and the ApplyLayer helpers) do not confine filesystem operations to the destination directory. The extractor decides where each archive entry lands using lexical string checks and then performs the filesystem operation on a path that is resolved by the OS, so links introduced by the archive can be followed out of the destination directory. An attacker who controls the contents of an archive can create or overwrite files at arbitrary paths writable by the extracting process.
     Severity: HIGH
     CweIDs:
@@ -91895,6 +91910,7 @@
       amazon: 2
       azure: 3
       bitnami: 3
+      photon: 3
       redhat: 3
     CVSS:
       bitnami:
@@ -98043,6 +98059,7 @@
       amazon: 2
       azure: 3
       bitnami: 3
+      photon: 3
       redhat: 3
     CVSS:
       bitnami:
@@ -102660,6 +102677,7 @@
       amazon: 2
       azure: 3
       bitnami: 3
+      photon: 3
       redhat: 3
     CVSS:
       bitnami:
@@ -108995,6 +109013,7 @@
       amazon: 2
       azure: 3
       bitnami: 3
+      photon: 3
       redhat: 3
     CVSS:
       bitnami:
@@ -113542,6 +113561,7 @@
       amazon: 2
       azure: 3
       bitnami: 3
+      photon: 3
       redhat: 3
     CVSS:
       bitnami:
@@ -115531,7 +115551,7 @@
       Name: GitHub Security Advisory Go
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
     Fingerprint: sha256:f30d6e1c63227cf712dff156bdabf57d0f437b62803d2a00f5e9d1bf4be9e381
-    Title: 'moby/go-archive: Crafted tar archive can write outside the extraction directory'
+    Title: The tar extraction routines in moby/go-archive (Unpack, UnpackLayer, U ...
     Description: The tar extraction routines in moby/go-archive (Unpack, UnpackLayer, Untar/UntarUncompressed, and the ApplyLayer helpers) do not confine filesystem operations to the destination directory. The extractor decides where each archive entry lands using lexical string checks and then performs the filesystem operation on a path that is resolved by the OS, so links introduced by the archive can be followed out of the destination directory. An attacker who controls the contents of an archive can create or overwrite files at arbitrary paths writable by the extracting process.
     Severity: HIGH
     CweIDs:
@@ -120438,6 +120458,7 @@
       amazon: 2
       azure: 3
       bitnami: 3
+      photon: 3
       redhat: 3
     CVSS:
       bitnami:
@@ -122913,7 +122934,7 @@
       Name: GitHub Security Advisory Go
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
     Fingerprint: sha256:e79604e9ae6f93ddcb51a80c67256fca1d35b0f7880fe467904c3dc33f4f5a61
-    Title: 'moby/go-archive: Crafted tar archive can write outside the extraction directory'
+    Title: The tar extraction routines in moby/go-archive (Unpack, UnpackLayer, U ...
     Description: The tar extraction routines in moby/go-archive (Unpack, UnpackLayer, Untar/UntarUncompressed, and the ApplyLayer helpers) do not confine filesystem operations to the destination directory. The extractor decides where each archive entry lands using lexical string checks and then performs the filesystem operation on a path that is resolved by the OS, so links introduced by the archive can be followed out of the destination directory. An attacker who controls the contents of an archive can create or overwrite files at arbitrary paths writable by the extracting process.
     Severity: HIGH
     CweIDs:
@@ -127873,6 +127894,7 @@
       amazon: 2
       azure: 3
       bitnami: 3
+      photon: 3
       redhat: 3
     CVSS:
       bitnami:
@@ -134317,6 +134339,7 @@
       amazon: 2
       azure: 3
       bitnami: 3
+      photon: 3
       redhat: 3
     CVSS:
       bitnami:
@@ -141039,6 +141062,7 @@
       amazon: 2
       azure: 3
       bitnami: 3
+      photon: 3
       redhat: 3
     CVSS:
       bitnami:
