@@ -8773,6 +8773,7 @@
       amazon: 2
       azure: 3
       bitnami: 3
+      photon: 3
       redhat: 3
     CVSS:
       bitnami:
@@ -12072,6 +12073,7 @@
       amazon: 2
       azure: 3
       bitnami: 3
+      photon: 3
       redhat: 3
     CVSS:
       bitnami:
@@ -22027,6 +22029,7 @@
       amazon: 2
       azure: 3
       bitnami: 3
+      photon: 3
       redhat: 3
     CVSS:
       bitnami:
@@ -24825,7 +24828,7 @@
       Name: GitHub Security Advisory Go
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
     Fingerprint: sha256:6fcd9eb13014f6c63551928f0b895a5c169c9b553b835361cb4a08a8e94ec91f
-    Title: 'moby/go-archive: Crafted tar archive can write outside the extraction directory'
+    Title: The tar extraction routines in moby/go-archive (Unpack, UnpackLayer, U ...
     Description: The tar extraction routines in moby/go-archive (Unpack, UnpackLayer, Untar/UntarUncompressed, and the ApplyLayer helpers) do not confine filesystem operations to the destination directory. The extractor decides where each archive entry lands using lexical string checks and then performs the filesystem operation on a path that is resolved by the OS, so links introduced by the archive can be followed out of the destination directory. An attacker who controls the contents of an archive can create or overwrite files at arbitrary paths writable by the extracting process.
     Severity: HIGH
     CweIDs:
@@ -27433,7 +27436,7 @@
       Name: GitHub Security Advisory Go
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
     Fingerprint: sha256:61e408cda4efa3557f7e6445f0277c31cfd5a5b71f560731ad597a4f1a16a488
-    Title: 'moby/go-archive: Crafted tar archive can write outside the extraction directory'
+    Title: The tar extraction routines in moby/go-archive (Unpack, UnpackLayer, U ...
     Description: The tar extraction routines in moby/go-archive (Unpack, UnpackLayer, Untar/UntarUncompressed, and the ApplyLayer helpers) do not confine filesystem operations to the destination directory. The extractor decides where each archive entry lands using lexical string checks and then performs the filesystem operation on a path that is resolved by the OS, so links introduced by the archive can be followed out of the destination directory. An attacker who controls the contents of an archive can create or overwrite files at arbitrary paths writable by the extracting process.
     Severity: HIGH
     CweIDs:
@@ -28162,6 +28165,7 @@
       amazon: 2
       azure: 3
       bitnami: 3
+      photon: 3
       redhat: 3
     CVSS:
       bitnami:
