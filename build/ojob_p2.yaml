@@ -109,10 +109,18 @@ jobs:
     {{else}}
       echo K3D creating
       echo creating > /tmp/.kube
+      K3S_VERSION=$(k3d version list k3s -o raw -l 1 2>/dev/null)
+      if [ -z "$K3S_VERSION" ]; then
+        echo "Could not determine latest k3s version, using k3d default"
+        K3S_IMAGE_ARG=""
+      else
+        echo "Using latest k3s version: $K3S_VERSION"
+        K3S_IMAGE_ARG="--image rancher/k3s:$K3S_VERSION"
+      fi
       {{#if NOPUBLIC}}
-      k3d cluster create --k3s-arg "--snapshotter=native@server:*" --registry-create registry:5000 -p "127.0.0.1:1080:1080@loadbalancer"
+      k3d cluster create --k3s-arg "--snapshotter=native@server:*" $K3S_IMAGE_ARG --registry-create registry:5000 -p "127.0.0.1:1080:1080@loadbalancer"
       {{else}}
-      k3d cluster create --k3s-arg "--snapshotter=native@server:*" --registry-create registry:5000 -p "0.0.0.0:1080:1080@loadbalancer"
+      k3d cluster create --k3s-arg "--snapshotter=native@server:*" $K3S_IMAGE_ARG --registry-create registry:5000 -p "0.0.0.0:1080:1080@loadbalancer"
       {{/if}}
       echo created > /tmp/.kube
       echo K3D creation end
