@@ -2,7 +2,6 @@
 todo:
 - Start SSH daemon
 - Start docker
-#- Install VSCode extensions
 - Prepare VSC settings
 - Start K3D
 - Start K3D socks server
@@ -63,29 +62,6 @@ jobs:
       sudo /bin/sh -c "nohup dockerd --storage-driver=vfs >/var/log/dockerd.log 2>&1 &"
     fi
     {{/if}}
-
-# ================================
-- name : Install VSCode extensions
-  catch: sprintErr(exception)
-  exec : |
-    if (isDef(getEnv("NOVSCODE"))) return
-
-    var lst2 = io.readFileYAML("/tmp/.extensions/extensions.yaml").extensions
-
-    var lst = $from(lst2.map(r => ({ n: r })))
-              .attach("f", r => $from(io.listFiles("/tmp/.extensions").files).starts("filename", r.n).at(0))
-              .select()
-              
-    $from(lst)
-    .ends("f.filename", ".vsix")
-    .select(f => {
-      if (isDef(args.NOK8S) && f.n.indexOf("kubernetes") >= 0) return
-      if (isDef(args.NODOCKER) && (f.n.indexOf("docker") >= 0 || f.n.indexOf("container") >= 0)) return
-      log("installing extension " + f.f.filename + "...")
-      $sh("code-server --install-extension " + f.f.canonicalPath + " --force")
-      .prefix("code-server")
-      .exec(0)
-    })
 
 # ===========================
 - name : Prepare VSC settings

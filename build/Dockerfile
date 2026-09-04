@@ -38,6 +38,7 @@ RUN apt-get update\
 
 COPY ojob_p2.yaml /tmp/.p2.yaml
 COPY ojob_p1.sh /tmp/.p1.sh
+COPY ojob_install_extensions.yaml /tmp/.install-extensions.yaml
 COPY status.js /usr/bin/status.js
 COPY --chown=1000:1000 extensions /tmp/.extensions
 COPY bashrc /tmp/bashrc
@@ -52,9 +53,11 @@ RUN chsh --shell /bin/bash openvscode-server\
  && cd /home/openvscode-server\
  && mv /tmp/.p1.sh .p1.sh\
  && mv /tmp/.p2.yaml .p2.yaml\
+ && mv /tmp/.install-extensions.yaml .install-extensions.yaml\
  && chmod a+x .p1.sh\
  && chown openvscode-server: .p1.sh\
  && chown openvscode-server: .p2.yaml\
+ && chown openvscode-server: .install-extensions.yaml\
  && mkdir -p /workspace/.vscode\
  && mkdir -p /home/openvscode-server/.local/share/code-server/User\
  && chown -R openvscode-server: /home/openvscode-server/.local\
