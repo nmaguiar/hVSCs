@@ -63,7 +63,7 @@ jobs:
                 color     : blue
                 #icon      : "openaf_grey.svg"
             exec: |
-              var res = $sh("docker run --rm -t --entrypoint /bin/bash " + args.label + " -c \"code-server --version | head -1\"").get(0)
+              var res = $sh("docker run --rm -t --entrypoint /bin/bash " + args.label + " -c \"code-server --version | grep -Eo '^[0-9]+\\.[0-9]+\\.[0-9]+' | head -1\"").get(0)
               cprint(res)
               var out = res.stdout.trim()
               args.status = (res.exitcode == 0 && out.match(/^\d+(\.\d+)+/)) ? out : "unavailable"
