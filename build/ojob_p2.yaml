@@ -79,8 +79,8 @@ jobs:
     $from(lst)
     .ends("f.filename", ".vsix")
     .select(f => {
-      if (isDef(args.NOK8S) && f.f.filename.indexOf("-kubernetes-") >= 0) return
-      if (isDef(args.NODOCKER) && f.f.filename.indexOf("-docker-") >= 0) return
+      if (isDef(args.NOK8S) && f.n.indexOf("kubernetes") >= 0) return
+      if (isDef(args.NODOCKER) && (f.n.indexOf("docker") >= 0 || f.n.indexOf("container") >= 0)) return
       log("installing extension " + f.f.filename + "...")
       $sh("code-server --install-extension " + f.f.canonicalPath + " --force")
       .prefix("code-server")

@@ -1,0 +1,35 @@
+name: Update extensions
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 3 * * 1'
+
+jobs:
+  update-extensions:
+    runs-on: ubuntu-latest
+    permissions:
+      contents     : write
+      pull-requests: write
+
+    steps:
+    # --------------
+    - name: Checkout
+      uses: actions/checkout@v7
+
+    # ---------------------------
+    - name: Update extensions
+      id  : update
+      working-directory: build/extensions
+      run : ./update.sh
+
+    # -------------
+    - name: Checkin
+      if  : steps.update.outputs.changed == 'true'
+      uses: openaf/ojob-action@v7
+      env :
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        ojob: ojob.io/git/hub/contentIn
+        ## Change the following arguments as needed (see https://ojob.io/git/hub/contentIn.md)
+        args: 'message="Update\ VS\ Code\ extensions\ to\ latest\ versions" title="Extensions\ update" paths="build/extensions/"'
