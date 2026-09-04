@@ -238,7 +238,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-78408
     - https://www.cve.org/CVERecord?id=CVE-2026-78408
     PublishedDate: '2026-09-02T16:17:23.687Z'
-    LastModifiedDate: '2026-09-03T13:06:09.653Z'
+    LastModifiedDate: '2026-09-03T18:12:56.407Z'
   - VulnerabilityID: CVE-2026-78409
     PkgID: bsdextrautils@2.41.5-0+deb13u1
     PkgName: bsdextrautils
@@ -275,7 +275,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-78409
     - https://www.cve.org/CVERecord?id=CVE-2026-78409
     PublishedDate: '2026-09-02T16:17:23.833Z'
-    LastModifiedDate: '2026-09-03T13:06:09.8Z'
+    LastModifiedDate: '2026-09-03T18:12:56.407Z'
   - VulnerabilityID: CVE-2026-78410
     PkgID: bsdextrautils@2.41.5-0+deb13u1
     PkgName: bsdextrautils
@@ -312,7 +312,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-78410
     - https://www.cve.org/CVERecord?id=CVE-2026-78410
     PublishedDate: '2026-09-02T16:17:23.983Z'
-    LastModifiedDate: '2026-09-03T13:06:09.947Z'
+    LastModifiedDate: '2026-09-03T18:12:56.407Z'
   - VulnerabilityID: CVE-2026-3184
     PkgID: bsdextrautils@2.41.5-0+deb13u1
     PkgName: bsdextrautils
@@ -492,7 +492,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-78408
     - https://www.cve.org/CVERecord?id=CVE-2026-78408
     PublishedDate: '2026-09-02T16:17:23.687Z'
-    LastModifiedDate: '2026-09-03T13:06:09.653Z'
+    LastModifiedDate: '2026-09-03T18:12:56.407Z'
   - VulnerabilityID: CVE-2026-78409
     PkgID: bsdutils@1:2.41.5-0+deb13u1
     PkgName: bsdutils
@@ -529,7 +529,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-78409
     - https://www.cve.org/CVERecord?id=CVE-2026-78409
     PublishedDate: '2026-09-02T16:17:23.833Z'
-    LastModifiedDate: '2026-09-03T13:06:09.8Z'
+    LastModifiedDate: '2026-09-03T18:12:56.407Z'
   - VulnerabilityID: CVE-2026-78410
     PkgID: bsdutils@1:2.41.5-0+deb13u1
     PkgName: bsdutils
@@ -566,7 +566,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-78410
     - https://www.cve.org/CVERecord?id=CVE-2026-78410
     PublishedDate: '2026-09-02T16:17:23.983Z'
-    LastModifiedDate: '2026-09-03T13:06:09.947Z'
+    LastModifiedDate: '2026-09-03T18:12:56.407Z'
   - VulnerabilityID: CVE-2026-3184
     PkgID: bsdutils@1:2.41.5-0+deb13u1
     PkgName: bsdutils
@@ -1902,8 +1902,8 @@
       Name: Debian Security Tracker
       URL: https://salsa.debian.org/security-tracker-team/security-tracker
     Fingerprint: sha256:cb7d27730b70732327f2c7c80bcae5f9f6f6ca744e2810eb8a0bb8bce1e66bf9
-    Title: '[Unknown description]'
-    Description: '[Unknown description]'
+    Title: Title Not Available
+    Description: Description Not Available
     Severity: UNKNOWN
   - VulnerabilityID: CVE-2026-18924
     PkgID: curl@8.14.1-2+deb13u4
@@ -1922,8 +1922,8 @@
       Name: Debian Security Tracker
       URL: https://salsa.debian.org/security-tracker-team/security-tracker
     Fingerprint: sha256:4d7a5a15c6f615aba4a3f9d85d568c82dd832cea588e25dd314b5a7655d70811
-    Title: HTTP/2 server push UAF
-    Description: A flaw in libcurl's handling of HTTP/2 Server Push streams, when the parent handle is set to share connections with other handles, can lead to use-after-free in the cleanup process.
+    Title: Title Not Available
+    Description: Description Not Available
     Severity: UNKNOWN
   - VulnerabilityID: CVE-2026-19931
     PkgID: curl@8.14.1-2+deb13u4
@@ -2022,8 +2022,8 @@
       Name: Debian Security Tracker
       URL: https://salsa.debian.org/security-tracker-team/security-tracker
     Fingerprint: sha256:776e56f13bfea47d072442dcc56c789d12381cfec0cf8f22e379d075b36c8630
-    Title: '[Unknown description]'
-    Description: '[Unknown description]'
+    Title: Title Not Available
+    Description: Description Not Available
     Severity: UNKNOWN
   - VulnerabilityID: CVE-2026-53910
     PkgID: diffutils@1:3.10-4
@@ -2261,6 +2261,7 @@
     - https://blog.calif.io/p/how-to-format-a-ciphertext
     - https://github.com/advisories/GHSA-m6x2-4hhh-669j
     - https://nvd.nist.gov/vuln/detail/CVE-2026-57062
+    - https://ubuntu.com/security/notices/USN-8720-1
     - https://www.cve.org/CVERecord?id=CVE-2026-57062
     - https://www.gnupg.org/download
     - https://www.gnupg.org/download/
@@ -2841,6 +2842,7 @@
     - https://blog.calif.io/p/how-to-format-a-ciphertext
     - https://github.com/advisories/GHSA-m6x2-4hhh-669j
     - https://nvd.nist.gov/vuln/detail/CVE-2026-57062
+    - https://ubuntu.com/security/notices/USN-8720-1
     - https://www.cve.org/CVERecord?id=CVE-2026-57062
     - https://www.gnupg.org/download
     - https://www.gnupg.org/download/
@@ -3040,6 +3042,7 @@
     - https://blog.calif.io/p/how-to-format-a-ciphertext
     - https://github.com/advisories/GHSA-m6x2-4hhh-669j
     - https://nvd.nist.gov/vuln/detail/CVE-2026-57062
+    - https://ubuntu.com/security/notices/USN-8720-1
     - https://www.cve.org/CVERecord?id=CVE-2026-57062
     - https://www.gnupg.org/download
     - https://www.gnupg.org/download/
@@ -3239,6 +3242,7 @@
     - https://blog.calif.io/p/how-to-format-a-ciphertext
     - https://github.com/advisories/GHSA-m6x2-4hhh-669j
     - https://nvd.nist.gov/vuln/detail/CVE-2026-57062
+    - https://ubuntu.com/security/notices/USN-8720-1
     - https://www.cve.org/CVERecord?id=CVE-2026-57062
     - https://www.gnupg.org/download
     - https://www.gnupg.org/download/
@@ -3438,6 +3442,7 @@
     - https://blog.calif.io/p/how-to-format-a-ciphertext
     - https://github.com/advisories/GHSA-m6x2-4hhh-669j
     - https://nvd.nist.gov/vuln/detail/CVE-2026-57062
+    - https://ubuntu.com/security/notices/USN-8720-1
     - https://www.cve.org/CVERecord?id=CVE-2026-57062
     - https://www.gnupg.org/download
     - https://www.gnupg.org/download/
@@ -3637,6 +3642,7 @@
     - https://blog.calif.io/p/how-to-format-a-ciphertext
     - https://github.com/advisories/GHSA-m6x2-4hhh-669j
     - https://nvd.nist.gov/vuln/detail/CVE-2026-57062
+    - https://ubuntu.com/security/notices/USN-8720-1
     - https://www.cve.org/CVERecord?id=CVE-2026-57062
     - https://www.gnupg.org/download
     - https://www.gnupg.org/download/
@@ -3836,6 +3842,7 @@
     - https://blog.calif.io/p/how-to-format-a-ciphertext
     - https://github.com/advisories/GHSA-m6x2-4hhh-669j
     - https://nvd.nist.gov/vuln/detail/CVE-2026-57062
+    - https://ubuntu.com/security/notices/USN-8720-1
     - https://www.cve.org/CVERecord?id=CVE-2026-57062
     - https://www.gnupg.org/download
     - https://www.gnupg.org/download/
@@ -4035,6 +4042,7 @@
     - https://blog.calif.io/p/how-to-format-a-ciphertext
     - https://github.com/advisories/GHSA-m6x2-4hhh-669j
     - https://nvd.nist.gov/vuln/detail/CVE-2026-57062
+    - https://ubuntu.com/security/notices/USN-8720-1
     - https://www.cve.org/CVERecord?id=CVE-2026-57062
     - https://www.gnupg.org/download
     - https://www.gnupg.org/download/
@@ -4234,6 +4242,7 @@
     - https://blog.calif.io/p/how-to-format-a-ciphertext
     - https://github.com/advisories/GHSA-m6x2-4hhh-669j
     - https://nvd.nist.gov/vuln/detail/CVE-2026-57062
+    - https://ubuntu.com/security/notices/USN-8720-1
     - https://www.cve.org/CVERecord?id=CVE-2026-57062
     - https://www.gnupg.org/download
     - https://www.gnupg.org/download/
@@ -4433,6 +4442,7 @@
     - https://blog.calif.io/p/how-to-format-a-ciphertext
     - https://github.com/advisories/GHSA-m6x2-4hhh-669j
     - https://nvd.nist.gov/vuln/detail/CVE-2026-57062
+    - https://ubuntu.com/security/notices/USN-8720-1
     - https://www.cve.org/CVERecord?id=CVE-2026-57062
     - https://www.gnupg.org/download
     - https://www.gnupg.org/download/
@@ -5191,7 +5201,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-78408
     - https://www.cve.org/CVERecord?id=CVE-2026-78408
     PublishedDate: '2026-09-02T16:17:23.687Z'
-    LastModifiedDate: '2026-09-03T13:06:09.653Z'
+    LastModifiedDate: '2026-09-03T18:12:56.407Z'
   - VulnerabilityID: CVE-2026-78409
     PkgID: libblkid1@2.41.5-0+deb13u1
     PkgName: libblkid1
@@ -5228,7 +5238,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-78409
     - https://www.cve.org/CVERecord?id=CVE-2026-78409
     PublishedDate: '2026-09-02T16:17:23.833Z'
-    LastModifiedDate: '2026-09-03T13:06:09.8Z'
+    LastModifiedDate: '2026-09-03T18:12:56.407Z'
   - VulnerabilityID: CVE-2026-78410
     PkgID: libblkid1@2.41.5-0+deb13u1
     PkgName: libblkid1
@@ -5265,7 +5275,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-78410
     - https://www.cve.org/CVERecord?id=CVE-2026-78410
     PublishedDate: '2026-09-02T16:17:23.983Z'
-    LastModifiedDate: '2026-09-03T13:06:09.947Z'
+    LastModifiedDate: '2026-09-03T18:12:56.407Z'
   - VulnerabilityID: CVE-2026-3184
     PkgID: libblkid1@2.41.5-0+deb13u1
     PkgName: libblkid1
@@ -5437,6 +5447,7 @@
     - CWE-787
     VendorSeverity:
       redhat: 2
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L
@@ -5446,6 +5457,7 @@
     - https://access.redhat.com/security/cve/CVE-2026-18374
     - https://nvd.nist.gov/vuln/detail/CVE-2026-18374
     - https://sourceware.org/bugzilla/show_bug.cgi?id=34574
+    - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2026-0015
     - https://sourceware.org/git/?p=glibc.git;a=blob_plain;f=advisories/GLIBC-SA-2026-0015
     - https://www.cve.org/CVERecord?id=CVE-2026-18374
     PublishedDate: '2026-08-27T20:17:03.553Z'
@@ -6228,6 +6240,7 @@
     - CWE-787
     VendorSeverity:
       redhat: 2
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L
@@ -6237,6 +6250,7 @@
     - https://access.redhat.com/security/cve/CVE-2026-18374
     - https://nvd.nist.gov/vuln/detail/CVE-2026-18374
     - https://sourceware.org/bugzilla/show_bug.cgi?id=34574
+    - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2026-0015
     - https://sourceware.org/git/?p=glibc.git;a=blob_plain;f=advisories/GLIBC-SA-2026-0015
     - https://www.cve.org/CVERecord?id=CVE-2026-18374
     PublishedDate: '2026-08-27T20:17:03.553Z'
@@ -7019,6 +7033,7 @@
     - CWE-787
     VendorSeverity:
       redhat: 2
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L
@@ -7028,6 +7043,7 @@
     - https://access.redhat.com/security/cve/CVE-2026-18374
     - https://nvd.nist.gov/vuln/detail/CVE-2026-18374
     - https://sourceware.org/bugzilla/show_bug.cgi?id=34574
+    - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2026-0015
     - https://sourceware.org/git/?p=glibc.git;a=blob_plain;f=advisories/GLIBC-SA-2026-0015
     - https://www.cve.org/CVERecord?id=CVE-2026-18374
     PublishedDate: '2026-08-27T20:17:03.553Z'
@@ -8776,8 +8792,8 @@
       Name: Debian Security Tracker
       URL: https://salsa.debian.org/security-tracker-team/security-tracker
     Fingerprint: sha256:e89d4a0456cda345800d51a3bcb2ccbbb3797a882b1b50cdb240602143f3d6be
-    Title: '[Unknown description]'
-    Description: '[Unknown description]'
+    Title: Title Not Available
+    Description: Description Not Available
     Severity: UNKNOWN
   - VulnerabilityID: CVE-2026-18924
     PkgID: libcurl3t64-gnutls@8.14.1-2+deb13u4
@@ -8796,8 +8812,8 @@
       Name: Debian Security Tracker
       URL: https://salsa.debian.org/security-tracker-team/security-tracker
     Fingerprint: sha256:b35b5eb454112b1d213fc431601bb73709b020696ab8fcf1380dd69fd03ac416
-    Title: HTTP/2 server push UAF
-    Description: A flaw in libcurl's handling of HTTP/2 Server Push streams, when the parent handle is set to share connections with other handles, can lead to use-after-free in the cleanup process.
+    Title: Title Not Available
+    Description: Description Not Available
     Severity: UNKNOWN
   - VulnerabilityID: CVE-2026-19931
     PkgID: libcurl3t64-gnutls@8.14.1-2+deb13u4
@@ -8896,8 +8912,8 @@
       Name: Debian Security Tracker
       URL: https://salsa.debian.org/security-tracker-team/security-tracker
     Fingerprint: sha256:890dc95cd7e4a2f82e2471d5da6d6de0a75cbe85282f15b52a33ec5ccd1700d0
-    Title: '[Unknown description]'
-    Description: '[Unknown description]'
+    Title: Title Not Available
+    Description: Description Not Available
     Severity: UNKNOWN
   - VulnerabilityID: CVE-2026-12064
     PkgID: libcurl4t64@8.14.1-2+deb13u4
@@ -9894,8 +9910,8 @@
       Name: Debian Security Tracker
       URL: https://salsa.debian.org/security-tracker-team/security-tracker
     Fingerprint: sha256:80d039473af2918314d54bfa92594cfbd910344b5113ba9e70327cd83ae5a9aa
-    Title: '[Unknown description]'
-    Description: '[Unknown description]'
+    Title: Title Not Available
+    Description: Description Not Available
     Severity: UNKNOWN
   - VulnerabilityID: CVE-2026-18924
     PkgID: libcurl4t64@8.14.1-2+deb13u4
@@ -9914,8 +9930,8 @@
       Name: Debian Security Tracker
       URL: https://salsa.debian.org/security-tracker-team/security-tracker
     Fingerprint: sha256:2b20d44c14e6153fe445b2b821c497702f6e639f2bfdfdad64582bce77dea33f
-    Title: HTTP/2 server push UAF
-    Description: A flaw in libcurl's handling of HTTP/2 Server Push streams, when the parent handle is set to share connections with other handles, can lead to use-after-free in the cleanup process.
+    Title: Title Not Available
+    Description: Description Not Available
     Severity: UNKNOWN
   - VulnerabilityID: CVE-2026-19931
     PkgID: libcurl4t64@8.14.1-2+deb13u4
@@ -10014,8 +10030,8 @@
       Name: Debian Security Tracker
       URL: https://salsa.debian.org/security-tracker-team/security-tracker
     Fingerprint: sha256:b18aac4596ddc347204f0601e7cc3e7b467991938d69925d140dd5fb39a97f53
-    Title: '[Unknown description]'
-    Description: '[Unknown description]'
+    Title: Title Not Available
+    Description: Description Not Available
     Severity: UNKNOWN
   - VulnerabilityID: CVE-2026-19617
     PkgID: libdevmapper1.02.1@2:1.02.205-2
@@ -12141,7 +12157,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-78408
     - https://www.cve.org/CVERecord?id=CVE-2026-78408
     PublishedDate: '2026-09-02T16:17:23.687Z'
-    LastModifiedDate: '2026-09-03T13:06:09.653Z'
+    LastModifiedDate: '2026-09-03T18:12:56.407Z'
   - VulnerabilityID: CVE-2026-78409
     PkgID: liblastlog2-2@2.41.5-0+deb13u1
     PkgName: liblastlog2-2
@@ -12178,7 +12194,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-78409
     - https://www.cve.org/CVERecord?id=CVE-2026-78409
     PublishedDate: '2026-09-02T16:17:23.833Z'
-    LastModifiedDate: '2026-09-03T13:06:09.8Z'
+    LastModifiedDate: '2026-09-03T18:12:56.407Z'
   - VulnerabilityID: CVE-2026-78410
     PkgID: liblastlog2-2@2.41.5-0+deb13u1
     PkgName: liblastlog2-2
@@ -12215,7 +12231,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-78410
     - https://www.cve.org/CVERecord?id=CVE-2026-78410
     PublishedDate: '2026-09-02T16:17:23.983Z'
-    LastModifiedDate: '2026-09-03T13:06:09.947Z'
+    LastModifiedDate: '2026-09-03T18:12:56.407Z'
   - VulnerabilityID: CVE-2026-3184
     PkgID: liblastlog2-2@2.41.5-0+deb13u1
     PkgName: liblastlog2-2
@@ -13135,7 +13151,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-78408
     - https://www.cve.org/CVERecord?id=CVE-2026-78408
     PublishedDate: '2026-09-02T16:17:23.687Z'
-    LastModifiedDate: '2026-09-03T13:06:09.653Z'
+    LastModifiedDate: '2026-09-03T18:12:56.407Z'
   - VulnerabilityID: CVE-2026-78409
     PkgID: libmount1@2.41.5-0+deb13u1
     PkgName: libmount1
@@ -13172,7 +13188,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-78409
     - https://www.cve.org/CVERecord?id=CVE-2026-78409
     PublishedDate: '2026-09-02T16:17:23.833Z'
-    LastModifiedDate: '2026-09-03T13:06:09.8Z'
+    LastModifiedDate: '2026-09-03T18:12:56.407Z'
   - VulnerabilityID: CVE-2026-78410
     PkgID: libmount1@2.41.5-0+deb13u1
     PkgName: libmount1
@@ -13209,7 +13225,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-78410
     - https://www.cve.org/CVERecord?id=CVE-2026-78410
     PublishedDate: '2026-09-02T16:17:23.983Z'
-    LastModifiedDate: '2026-09-03T13:06:09.947Z'
+    LastModifiedDate: '2026-09-03T18:12:56.407Z'
   - VulnerabilityID: CVE-2026-3184
     PkgID: libmount1@2.41.5-0+deb13u1
     PkgName: libmount1
@@ -15381,7 +15397,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-78408
     - https://www.cve.org/CVERecord?id=CVE-2026-78408
     PublishedDate: '2026-09-02T16:17:23.687Z'
-    LastModifiedDate: '2026-09-03T13:06:09.653Z'
+    LastModifiedDate: '2026-09-03T18:12:56.407Z'
   - VulnerabilityID: CVE-2026-78409
     PkgID: libsmartcols1@2.41.5-0+deb13u1
     PkgName: libsmartcols1
@@ -15418,7 +15434,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-78409
     - https://www.cve.org/CVERecord?id=CVE-2026-78409
     PublishedDate: '2026-09-02T16:17:23.833Z'
-    LastModifiedDate: '2026-09-03T13:06:09.8Z'
+    LastModifiedDate: '2026-09-03T18:12:56.407Z'
   - VulnerabilityID: CVE-2026-78410
     PkgID: libsmartcols1@2.41.5-0+deb13u1
     PkgName: libsmartcols1
@@ -15455,7 +15471,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-78410
     - https://www.cve.org/CVERecord?id=CVE-2026-78410
     PublishedDate: '2026-09-02T16:17:23.983Z'
-    LastModifiedDate: '2026-09-03T13:06:09.947Z'
+    LastModifiedDate: '2026-09-03T18:12:56.407Z'
   - VulnerabilityID: CVE-2026-3184
     PkgID: libsmartcols1@2.41.5-0+deb13u1
     PkgName: libsmartcols1
@@ -15677,6 +15693,40 @@
     - https://www.vulncheck.com/advisories/sqlite-before-heap-buffer-overflow-via-fts5-fts5chunkiterate
     PublishedDate: '2026-06-09T20:16:32.3Z'
     LastModifiedDate: '2026-07-23T09:10:00.113Z'
+  - VulnerabilityID: CVE-2026-39113
+    PkgID: libsqlite3-0@3.46.1-7+deb13u1
+    PkgName: libsqlite3-0
+    PkgIdentifier:
+      PURL: pkg:deb/debian/libsqlite3-0@3.46.1-7%2Bdeb13u1?arch=amd64&distro=debian-13.6
+      UID: 78aa9d1b669c49f4
+    InstalledVersion: 3.46.1-7+deb13u1
+    Status: affected
+    Layer:
+      Digest: sha256:c6ec9b89d6570ccb8dda509b97844db10c4aeb8f4987acd620cb3690f1647b68
+      DiffID: sha256:25efaee5aa4aade8d5b822f03fd622a8a336fe9f51cfdf545c9e8a2f73be0314
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-39113
+    DataSource:
+      ID: debian
+      Name: Debian Security Tracker
+      URL: https://salsa.debian.org/security-tracker-team/security-tracker
+    Fingerprint: sha256:636aa3426865e1e3cb9e46d0ecca11b5f9bcfe2892a91fd9721bd4d59109f7f3
+    Title: Buffer Overflow vulnerability in SQLite affected version source snapsh ...
+    Description: Buffer Overflow vulnerability in SQLite affected version source snapshots/builds containing Fossil check-in 8bdc0d485e3ad0c7a1e818da66f106951d496b05cbe61d12c2c448f2f24b6d5d (Git mirror 169f68ed88b34cb68f720191c64c058f2ccec508, 2026-03-11) and later snapshots/builds allows an attacker to cause a denial of service via the ext/misc/sqlar.c, sqlarUncompressFunc(), sqlar_uncompress(), sqlite3_value_int64(), sqlite3_malloc(int), uncompress() components
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-122
+    VendorSeverity:
+      ubuntu: 2
+    References:
+    - https://github.com/20000419/CVE-2026-39113
+    - https://github.com/sqlite/sqlite/blob/169f68ed88b34cb68f720191c64c058f2ccec508/ext/misc/sqlar.c
+    - https://github.com/sqlite/sqlite/commit/169f68ed88b34cb68f720191c64c058f2ccec508
+    - https://github.com/sqlite/sqlite/commit/169f68ed88b34cb68f720191c64c058f2ccec508%20%28version-3.53.0%29
+    - https://www.cve.org/CVERecord?id=CVE-2026-39113
+    - https://www.sqlite.org/
+    - https://www.sqlite.org/sqlar.html
+    PublishedDate: '2026-08-25T21:17:00.08Z'
+    LastModifiedDate: '2026-08-31T16:17:59.35Z'
   - VulnerabilityID: CVE-2026-50812
     PkgID: libsqlite3-0@3.46.1-7+deb13u1
     PkgName: libsqlite3-0
@@ -15852,36 +15902,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-70873
     PublishedDate: '2026-03-12T19:16:15.933Z'
     LastModifiedDate: '2026-06-17T10:03:26.283Z'
-  - VulnerabilityID: CVE-2026-39113
-    PkgID: libsqlite3-0@3.46.1-7+deb13u1
-    PkgName: libsqlite3-0
-    PkgIdentifier:
-      PURL: pkg:deb/debian/libsqlite3-0@3.46.1-7%2Bdeb13u1?arch=amd64&distro=debian-13.6
-      UID: 78aa9d1b669c49f4
-    InstalledVersion: 3.46.1-7+deb13u1
-    Status: affected
-    Layer:
-      Digest: sha256:c6ec9b89d6570ccb8dda509b97844db10c4aeb8f4987acd620cb3690f1647b68
-      DiffID: sha256:25efaee5aa4aade8d5b822f03fd622a8a336fe9f51cfdf545c9e8a2f73be0314
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-39113
-    DataSource:
-      ID: debian
-      Name: Debian Security Tracker
-      URL: https://salsa.debian.org/security-tracker-team/security-tracker
-    Fingerprint: sha256:636aa3426865e1e3cb9e46d0ecca11b5f9bcfe2892a91fd9721bd4d59109f7f3
-    Title: Buffer Overflow vulnerability in SQLite affected version source snapsh ...
-    Description: Buffer Overflow vulnerability in SQLite affected version source snapshots/builds containing Fossil check-in 8bdc0d485e3ad0c7a1e818da66f106951d496b05cbe61d12c2c448f2f24b6d5d (Git mirror 169f68ed88b34cb68f720191c64c058f2ccec508, 2026-03-11) and later snapshots/builds allows an attacker to cause a denial of service via the ext/misc/sqlar.c, sqlarUncompressFunc(), sqlar_uncompress(), sqlite3_value_int64(), sqlite3_malloc(int), uncompress() components
-    Severity: UNKNOWN
-    CweIDs:
-    - CWE-122
-    References:
-    - https://github.com/20000419/CVE-2026-39113
-    - https://github.com/sqlite/sqlite/blob/169f68ed88b34cb68f720191c64c058f2ccec508/ext/misc/sqlar.c
-    - https://github.com/sqlite/sqlite/commit/169f68ed88b34cb68f720191c64c058f2ccec508
-    - https://www.sqlite.org/
-    - https://www.sqlite.org/sqlar.html
-    PublishedDate: '2026-08-25T21:17:00.08Z'
-    LastModifiedDate: '2026-08-31T16:17:59.35Z'
   - VulnerabilityID: CVE-2026-58050
     PkgID: libssh2-1t64@1.11.1-1+deb13u1
     PkgName: libssh2-1t64
@@ -16011,6 +16031,7 @@
       azure: 3
       julia: 3
       redhat: 2
+      ubuntu: 2
     CVSS:
       julia:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
@@ -16026,6 +16047,7 @@
     - https://github.com/libssh2/libssh2/commit/5e4776146552d898b9c0e1b313cd093fa8dc92d0
     - https://github.com/libssh2/libssh2/pull/2180
     - https://nvd.nist.gov/vuln/detail/CVE-2026-66032
+    - https://ubuntu.com/security/notices/USN-8722-1
     - https://www.cve.org/CVERecord?id=CVE-2026-66032
     - https://www.vulncheck.com/advisories/libssh2-double-free-heap-corruption-via-sftp-open
     PublishedDate: '2026-07-24T17:17:35.12Z'
@@ -16058,6 +16080,7 @@
       azure: 3
       julia: 3
       redhat: 2
+      ubuntu: 2
     CVSS:
       julia:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
@@ -16073,6 +16096,7 @@
     - https://github.com/libssh2/libssh2/commit/a2ed82d40964bbc0d64cd717aa0a5a892117d2e6
     - https://github.com/libssh2/libssh2/pull/2401
     - https://nvd.nist.gov/vuln/detail/CVE-2026-66033
+    - https://ubuntu.com/security/notices/USN-8722-1
     - https://www.cve.org/CVERecord?id=CVE-2026-66033
     - https://www.vulncheck.com/advisories/libssh2-integer-underflow-dos-via-aes-gcm-cipher-negotiation
     PublishedDate: '2026-07-24T17:17:35.263Z'
@@ -16152,6 +16176,7 @@
       azure: 3
       julia: 3
       redhat: 2
+      ubuntu: 2
     CVSS:
       julia:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H
@@ -16167,6 +16192,7 @@
     - https://github.com/libssh2/libssh2/commit/42e33d81577ed4b95d4b4f6f845e5ee8efe5eeb4
     - https://github.com/libssh2/libssh2/pull/2198
     - https://nvd.nist.gov/vuln/detail/CVE-2026-66035
+    - https://ubuntu.com/security/notices/USN-8722-1
     - https://www.cve.org/CVERecord?id=CVE-2026-66035
     - https://www.vulncheck.com/advisories/libssh2-heap-buffer-overflow-via-etm-cipher-negotiation
     PublishedDate: '2026-07-24T17:17:35.547Z'
@@ -17314,7 +17340,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-78408
     - https://www.cve.org/CVERecord?id=CVE-2026-78408
     PublishedDate: '2026-09-02T16:17:23.687Z'
-    LastModifiedDate: '2026-09-03T13:06:09.653Z'
+    LastModifiedDate: '2026-09-03T18:12:56.407Z'
   - VulnerabilityID: CVE-2026-78409
     PkgID: libuuid1@2.41.5-0+deb13u1
     PkgName: libuuid1
@@ -17351,7 +17377,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-78409
     - https://www.cve.org/CVERecord?id=CVE-2026-78409
     PublishedDate: '2026-09-02T16:17:23.833Z'
-    LastModifiedDate: '2026-09-03T13:06:09.8Z'
+    LastModifiedDate: '2026-09-03T18:12:56.407Z'
   - VulnerabilityID: CVE-2026-78410
     PkgID: libuuid1@2.41.5-0+deb13u1
     PkgName: libuuid1
@@ -17388,7 +17414,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-78410
     - https://www.cve.org/CVERecord?id=CVE-2026-78410
     PublishedDate: '2026-09-02T16:17:23.983Z'
-    LastModifiedDate: '2026-09-03T13:06:09.947Z'
+    LastModifiedDate: '2026-09-03T18:12:56.407Z'
   - VulnerabilityID: CVE-2026-3184
     PkgID: libuuid1@2.41.5-0+deb13u1
     PkgName: libuuid1
@@ -17692,6 +17718,7 @@
     - CWE-787
     VendorSeverity:
       redhat: 2
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L
@@ -17701,6 +17728,7 @@
     - https://access.redhat.com/security/cve/CVE-2026-18374
     - https://nvd.nist.gov/vuln/detail/CVE-2026-18374
     - https://sourceware.org/bugzilla/show_bug.cgi?id=34574
+    - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2026-0015
     - https://sourceware.org/git/?p=glibc.git;a=blob_plain;f=advisories/GLIBC-SA-2026-0015
     - https://www.cve.org/CVERecord?id=CVE-2026-18374
     PublishedDate: '2026-08-27T20:17:03.553Z'
@@ -18532,7 +18560,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-78408
     - https://www.cve.org/CVERecord?id=CVE-2026-78408
     PublishedDate: '2026-09-02T16:17:23.687Z'
-    LastModifiedDate: '2026-09-03T13:06:09.653Z'
+    LastModifiedDate: '2026-09-03T18:12:56.407Z'
   - VulnerabilityID: CVE-2026-78409
     PkgID: login@1:4.16.0-2+really2.41.5-0+deb13u1
     PkgName: login
@@ -18569,7 +18597,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-78409
     - https://www.cve.org/CVERecord?id=CVE-2026-78409
     PublishedDate: '2026-09-02T16:17:23.833Z'
-    LastModifiedDate: '2026-09-03T13:06:09.8Z'
+    LastModifiedDate: '2026-09-03T18:12:56.407Z'
   - VulnerabilityID: CVE-2026-78410
     PkgID: login@1:4.16.0-2+really2.41.5-0+deb13u1
     PkgName: login
@@ -18606,7 +18634,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-78410
     - https://www.cve.org/CVERecord?id=CVE-2026-78410
     PublishedDate: '2026-09-02T16:17:23.983Z'
-    LastModifiedDate: '2026-09-03T13:06:09.947Z'
+    LastModifiedDate: '2026-09-03T18:12:56.407Z'
   - VulnerabilityID: CVE-2026-3184
     PkgID: login@1:4.16.0-2+really2.41.5-0+deb13u1
     PkgName: login
@@ -18898,7 +18926,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-78408
     - https://www.cve.org/CVERecord?id=CVE-2026-78408
     PublishedDate: '2026-09-02T16:17:23.687Z'
-    LastModifiedDate: '2026-09-03T13:06:09.653Z'
+    LastModifiedDate: '2026-09-03T18:12:56.407Z'
   - VulnerabilityID: CVE-2026-78409
     PkgID: mount@2.41.5-0+deb13u1
     PkgName: mount
@@ -18935,7 +18963,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-78409
     - https://www.cve.org/CVERecord?id=CVE-2026-78409
     PublishedDate: '2026-09-02T16:17:23.833Z'
-    LastModifiedDate: '2026-09-03T13:06:09.8Z'
+    LastModifiedDate: '2026-09-03T18:12:56.407Z'
   - VulnerabilityID: CVE-2026-78410
     PkgID: mount@2.41.5-0+deb13u1
     PkgName: mount
@@ -18972,7 +19000,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-78410
     - https://www.cve.org/CVERecord?id=CVE-2026-78410
     PublishedDate: '2026-09-02T16:17:23.983Z'
-    LastModifiedDate: '2026-09-03T13:06:09.947Z'
+    LastModifiedDate: '2026-09-03T18:12:56.407Z'
   - VulnerabilityID: CVE-2026-3184
     PkgID: mount@2.41.5-0+deb13u1
     PkgName: mount
@@ -20007,6 +20035,7 @@
     VendorSeverity:
       julia: 2
       redhat: 2
+      ubuntu: 2
     CVSS:
       julia:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N
@@ -20018,8 +20047,10 @@
     - https://access.redhat.com/security/cve/CVE-2026-73282
     - https://github.com/advisories/GHSA-jwc3-6qvm-4r66
     - https://nvd.nist.gov/vuln/detail/CVE-2026-73282
+    - https://ubuntu.com/security/notices/USN-8721-1
     - https://www.cve.org/CVERecord?id=CVE-2026-73282
     - https://www.openssh.org/releasenotes.html#10.5
+    - https://www.openwall.com/lists/oss-security/2026/08/12/1
     PublishedDate: '2026-08-11T20:18:49.83Z'
     LastModifiedDate: '2026-08-31T19:27:52.023Z'
   - VulnerabilityID: CVE-2026-73283
@@ -20047,6 +20078,7 @@
     VendorSeverity:
       julia: 1
       redhat: 2
+      ubuntu: 2
     CVSS:
       julia:
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:L/A:N
@@ -20058,8 +20090,10 @@
     - https://access.redhat.com/security/cve/CVE-2026-73283
     - https://github.com/advisories/GHSA-97p6-qxmv-h7jm
     - https://nvd.nist.gov/vuln/detail/CVE-2026-73283
+    - https://ubuntu.com/security/notices/USN-8721-1
     - https://www.cve.org/CVERecord?id=CVE-2026-73283
     - https://www.openssh.org/releasenotes.html#10.5
+    - https://www.openwall.com/lists/oss-security/2026/08/12/1
     PublishedDate: '2026-08-11T20:18:49.96Z'
     LastModifiedDate: '2026-08-31T19:27:52.023Z'
   - VulnerabilityID: CVE-2007-2243
@@ -20548,6 +20582,7 @@
     VendorSeverity:
       julia: 1
       redhat: 1
+      ubuntu: 2
     CVSS:
       julia:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:N/I:L/A:N
@@ -20559,8 +20594,10 @@
     - https://access.redhat.com/security/cve/CVE-2026-73281
     - https://github.com/advisories/GHSA-j58v-28m8-49f3
     - https://nvd.nist.gov/vuln/detail/CVE-2026-73281
+    - https://ubuntu.com/security/notices/USN-8721-1
     - https://www.cve.org/CVERecord?id=CVE-2026-73281
     - https://www.openssh.org/releasenotes.html#10.5
+    - https://www.openwall.com/lists/oss-security/2026/08/12/1
     PublishedDate: '2026-08-11T20:18:49.69Z'
     LastModifiedDate: '2026-08-31T19:27:52.023Z'
   - VulnerabilityID: CVE-2026-60002
@@ -21040,6 +21077,7 @@
     VendorSeverity:
       julia: 2
       redhat: 2
+      ubuntu: 2
     CVSS:
       julia:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N
@@ -21051,8 +21089,10 @@
     - https://access.redhat.com/security/cve/CVE-2026-73282
     - https://github.com/advisories/GHSA-jwc3-6qvm-4r66
     - https://nvd.nist.gov/vuln/detail/CVE-2026-73282
+    - https://ubuntu.com/security/notices/USN-8721-1
     - https://www.cve.org/CVERecord?id=CVE-2026-73282
     - https://www.openssh.org/releasenotes.html#10.5
+    - https://www.openwall.com/lists/oss-security/2026/08/12/1
     PublishedDate: '2026-08-11T20:18:49.83Z'
     LastModifiedDate: '2026-08-31T19:27:52.023Z'
   - VulnerabilityID: CVE-2026-73283
@@ -21080,6 +21120,7 @@
     VendorSeverity:
       julia: 1
       redhat: 2
+      ubuntu: 2
     CVSS:
       julia:
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:L/A:N
@@ -21091,8 +21132,10 @@
     - https://access.redhat.com/security/cve/CVE-2026-73283
     - https://github.com/advisories/GHSA-97p6-qxmv-h7jm
     - https://nvd.nist.gov/vuln/detail/CVE-2026-73283
+    - https://ubuntu.com/security/notices/USN-8721-1
     - https://www.cve.org/CVERecord?id=CVE-2026-73283
     - https://www.openssh.org/releasenotes.html#10.5
+    - https://www.openwall.com/lists/oss-security/2026/08/12/1
     PublishedDate: '2026-08-11T20:18:49.96Z'
     LastModifiedDate: '2026-08-31T19:27:52.023Z'
   - VulnerabilityID: CVE-2007-2243
@@ -21581,6 +21624,7 @@
     VendorSeverity:
       julia: 1
       redhat: 1
+      ubuntu: 2
     CVSS:
       julia:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:N/I:L/A:N
@@ -21592,8 +21636,10 @@
     - https://access.redhat.com/security/cve/CVE-2026-73281
     - https://github.com/advisories/GHSA-j58v-28m8-49f3
     - https://nvd.nist.gov/vuln/detail/CVE-2026-73281
+    - https://ubuntu.com/security/notices/USN-8721-1
     - https://www.cve.org/CVERecord?id=CVE-2026-73281
     - https://www.openssh.org/releasenotes.html#10.5
+    - https://www.openwall.com/lists/oss-security/2026/08/12/1
     PublishedDate: '2026-08-11T20:18:49.69Z'
     LastModifiedDate: '2026-08-31T19:27:52.023Z'
   - VulnerabilityID: CVE-2026-60002
@@ -22073,6 +22119,7 @@
     VendorSeverity:
       julia: 2
       redhat: 2
+      ubuntu: 2
     CVSS:
       julia:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N
@@ -22084,8 +22131,10 @@
     - https://access.redhat.com/security/cve/CVE-2026-73282
     - https://github.com/advisories/GHSA-jwc3-6qvm-4r66
     - https://nvd.nist.gov/vuln/detail/CVE-2026-73282
+    - https://ubuntu.com/security/notices/USN-8721-1
     - https://www.cve.org/CVERecord?id=CVE-2026-73282
     - https://www.openssh.org/releasenotes.html#10.5
+    - https://www.openwall.com/lists/oss-security/2026/08/12/1
     PublishedDate: '2026-08-11T20:18:49.83Z'
     LastModifiedDate: '2026-08-31T19:27:52.023Z'
   - VulnerabilityID: CVE-2026-73283
@@ -22113,6 +22162,7 @@
     VendorSeverity:
       julia: 1
       redhat: 2
+      ubuntu: 2
     CVSS:
       julia:
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:L/A:N
@@ -22124,8 +22174,10 @@
     - https://access.redhat.com/security/cve/CVE-2026-73283
     - https://github.com/advisories/GHSA-97p6-qxmv-h7jm
     - https://nvd.nist.gov/vuln/detail/CVE-2026-73283
+    - https://ubuntu.com/security/notices/USN-8721-1
     - https://www.cve.org/CVERecord?id=CVE-2026-73283
     - https://www.openssh.org/releasenotes.html#10.5
+    - https://www.openwall.com/lists/oss-security/2026/08/12/1
     PublishedDate: '2026-08-11T20:18:49.96Z'
     LastModifiedDate: '2026-08-31T19:27:52.023Z'
   - VulnerabilityID: CVE-2007-2243
@@ -22614,6 +22666,7 @@
     VendorSeverity:
       julia: 1
       redhat: 1
+      ubuntu: 2
     CVSS:
       julia:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:N/I:L/A:N
@@ -22625,8 +22678,10 @@
     - https://access.redhat.com/security/cve/CVE-2026-73281
     - https://github.com/advisories/GHSA-j58v-28m8-49f3
     - https://nvd.nist.gov/vuln/detail/CVE-2026-73281
+    - https://ubuntu.com/security/notices/USN-8721-1
     - https://www.cve.org/CVERecord?id=CVE-2026-73281
     - https://www.openssh.org/releasenotes.html#10.5
+    - https://www.openwall.com/lists/oss-security/2026/08/12/1
     PublishedDate: '2026-08-11T20:18:49.69Z'
     LastModifiedDate: '2026-08-31T19:27:52.023Z'
   - VulnerabilityID: CVE-2007-5686
@@ -27303,7 +27358,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-78408
     - https://www.cve.org/CVERecord?id=CVE-2026-78408
     PublishedDate: '2026-09-02T16:17:23.687Z'
-    LastModifiedDate: '2026-09-03T13:06:09.653Z'
+    LastModifiedDate: '2026-09-03T18:12:56.407Z'
   - VulnerabilityID: CVE-2026-78409
     PkgID: util-linux@2.41.5-0+deb13u1
     PkgName: util-linux
@@ -27340,7 +27395,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-78409
     - https://www.cve.org/CVERecord?id=CVE-2026-78409
     PublishedDate: '2026-09-02T16:17:23.833Z'
-    LastModifiedDate: '2026-09-03T13:06:09.8Z'
+    LastModifiedDate: '2026-09-03T18:12:56.407Z'
   - VulnerabilityID: CVE-2026-78410
     PkgID: util-linux@2.41.5-0+deb13u1
     PkgName: util-linux
@@ -27377,7 +27432,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-78410
     - https://www.cve.org/CVERecord?id=CVE-2026-78410
     PublishedDate: '2026-09-02T16:17:23.983Z'
-    LastModifiedDate: '2026-09-03T13:06:09.947Z'
+    LastModifiedDate: '2026-09-03T18:12:56.407Z'
   - VulnerabilityID: CVE-2026-3184
     PkgID: util-linux@2.41.5-0+deb13u1
     PkgName: util-linux
@@ -29526,7 +29581,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-73070
     - https://www.cve.org/CVERecord?id=CVE-2026-73070
     PublishedDate: '2026-08-11T16:17:38.257Z'
-    LastModifiedDate: '2026-08-11T16:17:38.257Z'
+    LastModifiedDate: '2026-09-03T20:39:04.38Z'
   - VulnerabilityID: CVE-2026-73073
     PkgID: vim@2:9.1.1230-2
     PkgName: vim
@@ -31940,7 +31995,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-73070
     - https://www.cve.org/CVERecord?id=CVE-2026-73070
     PublishedDate: '2026-08-11T16:17:38.257Z'
-    LastModifiedDate: '2026-08-11T16:17:38.257Z'
+    LastModifiedDate: '2026-09-03T20:39:04.38Z'
   - VulnerabilityID: CVE-2026-73073
     PkgID: vim-common@2:9.1.1230-2
     PkgName: vim-common
@@ -34354,7 +34409,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-73070
     - https://www.cve.org/CVERecord?id=CVE-2026-73070
     PublishedDate: '2026-08-11T16:17:38.257Z'
-    LastModifiedDate: '2026-08-11T16:17:38.257Z'
+    LastModifiedDate: '2026-09-03T20:39:04.38Z'
   - VulnerabilityID: CVE-2026-73073
     PkgID: vim-runtime@2:9.1.1230-2
     PkgName: vim-runtime
@@ -36768,7 +36823,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-73070
     - https://www.cve.org/CVERecord?id=CVE-2026-73070
     PublishedDate: '2026-08-11T16:17:38.257Z'
-    LastModifiedDate: '2026-08-11T16:17:38.257Z'
+    LastModifiedDate: '2026-09-03T20:39:04.38Z'
   - VulnerabilityID: CVE-2026-73073
     PkgID: vim-tiny@2:9.1.1230-2
     PkgName: vim-tiny
@@ -37193,7 +37248,7 @@
     - https://github.com/advisories/GHSA-vv88-699v-w5rh
     - https://gitlab.com/gnuwget/wget/-/commit/c2640fe5171c59f87c58dc9fcb195b2d18b010ee
     - https://linux.oracle.com/cve/CVE-2026-58471.html
-    - https://linux.oracle.com/errata/ELSA-2026-62143-0.html
+    - https://linux.oracle.com/errata/ELSA-2026-62144-0.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-58471
     - https://ubuntu.com/security/notices/USN-8543-1
     - https://www.cve.org/CVERecord?id=CVE-2026-58471
@@ -37258,7 +37313,7 @@
     - https://github.com/advisories/GHSA-332r-8pmf-8m9p
     - https://gitlab.com/gnuwget/wget/-/commit/dd692d9cea5335b181d877ae917fe6e75587a812
     - https://linux.oracle.com/cve/CVE-2026-58472.html
-    - https://linux.oracle.com/errata/ELSA-2026-62143-0.html
+    - https://linux.oracle.com/errata/ELSA-2026-62144-0.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-58472
     - https://ubuntu.com/security/notices/USN-8543-1
     - https://www.cve.org/CVERecord?id=CVE-2026-58472
@@ -37380,6 +37435,7 @@
       alma: 2
       amazon: 3
       julia: 3
+      oracle-oval: 2
       redhat: 2
       rocky: 2
       ubuntu: 2
@@ -37409,6 +37465,8 @@
     - https://errata.rockylinux.org/RLSA-2026:62144
     - https://github.com/advisories/GHSA-fxf9-rxpj-26gx
     - https://gitlab.com/gnuwget/wget/-/commit/37a40fcb450153f69537c7cbc2a7a4fb0b6f7826
+    - https://linux.oracle.com/cve/CVE-2026-58469.html
+    - https://linux.oracle.com/errata/ELSA-2026-62144-0.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-58469
     - https://ubuntu.com/security/notices/USN-8543-1
     - https://www.cve.org/CVERecord?id=CVE-2026-58469
@@ -39550,7 +39608,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-73070
     - https://www.cve.org/CVERecord?id=CVE-2026-73070
     PublishedDate: '2026-08-11T16:17:38.257Z'
-    LastModifiedDate: '2026-08-11T16:17:38.257Z'
+    LastModifiedDate: '2026-09-03T20:39:04.38Z'
   - VulnerabilityID: CVE-2026-73073
     PkgID: xxd@2:9.1.1230-2
     PkgName: xxd
@@ -39974,6 +40032,35 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-27171
     PublishedDate: '2026-02-18T04:16:01.263Z'
     LastModifiedDate: '2026-06-17T10:26:47.357Z'
+  - VulnerabilityID: CVE-2026-85091
+    PkgID: zlib1g@1:1.3.dfsg+really1.3.1-1+b1
+    PkgName: zlib1g
+    PkgIdentifier:
+      PURL: pkg:deb/debian/zlib1g@1.3.dfsg%2Breally1.3.1-1%2Bb1?arch=amd64&distro=debian-13.6&epoch=1
+      UID: 79ac0176b2f3eb84
+    InstalledVersion: 1:1.3.dfsg+really1.3.1-1+b1
+    Status: affected
+    Layer:
+      Digest: sha256:c6ec9b89d6570ccb8dda509b97844db10c4aeb8f4987acd620cb3690f1647b68
+      DiffID: sha256:25efaee5aa4aade8d5b822f03fd622a8a336fe9f51cfdf545c9e8a2f73be0314
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-85091
+    DataSource:
+      ID: debian
+      Name: Debian Security Tracker
+      URL: https://salsa.debian.org/security-tracker-team/security-tracker
+    Fingerprint: sha256:a25fd96e47acf86ce517c6f2f653de3aff3cdb736ad1a96481fd24f3e1c05e92
+    Title: zlib versions 1.3.1.2 through 1.3.2 contain a heap buffer overflow vul ...
+    Description: zlib versions 1.3.1.2 through 1.3.2 contain a heap buffer overflow vulnerability in the gz_vacate() function when processing non-blocking gzwrite() operations with stale external buffer pointers. Attackers can trigger the overflow by calling gzprintf() or gzvprintf() after a write stall, causing an unchecked memmove() to write beyond the internal input buffer boundary.
+    Severity: UNKNOWN
+    CweIDs:
+    - CWE-787
+    References:
+    - https://gist.github.com/thesmartshadow/e0b9481792afb7c31e86fee1ff084490
+    - https://github.com/madler/zlib
+    - https://github.com/madler/zlib/blob/v1.3.2/gzwrite.c#L393
+    - https://www.vulncheck.com/advisories/zlib-1.3.1.2-through-1.3.2-heap-buffer-overflow-via-gz-vacate
+    PublishedDate: '2026-09-03T13:06:20.573Z'
+    LastModifiedDate: '2026-09-03T14:17:04.393Z'
 - Target: Java
   Class: lang-pkgs
   Type: jar
@@ -48328,7 +48415,7 @@
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
     Fingerprint: sha256:d5d176f12a2aeff9a218005933d4ca1ee5549011b097d84c8565c5129cd44c78
-    Title: Prevent DoS on deadlocked established channel in golang.org/x/crypto/ssh
+    Title: Previously, after a channel has been established, a malicious peer cou ...
     Description: Previously, after a channel has been established, a malicious peer could send crafted messages that would deadlock the entire connection. Now, we handle all RFC 4254 channel messages; global requests are handled explicitly. Then, treat all other messages as a protocol error and tear the connection down instead of buffering and blocking.
     Severity: UNKNOWN
     CweIDs:
@@ -48360,7 +48447,7 @@
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
     Fingerprint: sha256:f27a55c75c8ce51b8479c7b0281a6e4e7c243c845148eb5fa8158795b6b491cd
-    Title: Prevent DoS on deadlocked undecided channel in golang.org/x/crypto/ssh
+    Title: Previously, a channel registered in the mux's chanList is not usable u ...
     Description: Previously, a channel registered in the mux's chanList is not usable until it is established. A malicious peer was able flood the channel's incomingRequests, deadlocking the entire connection. Now, we add an atomic established state, set when a channel becomes usable. Until such a time, handlePacket drops every packet other than the open confirmation/failure, without blocking and without tearing down the connection.
     Severity: UNKNOWN
     CweIDs:
@@ -50721,7 +50808,7 @@
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
     Fingerprint: sha256:b03e1fd5c565f9fdbd85c15fb45146996387dd40eb45d12f4c3559c02c517d7a
-    Title: Prevent DoS on deadlocked established channel in golang.org/x/crypto/ssh
+    Title: Previously, after a channel has been established, a malicious peer cou ...
     Description: Previously, after a channel has been established, a malicious peer could send crafted messages that would deadlock the entire connection. Now, we handle all RFC 4254 channel messages; global requests are handled explicitly. Then, treat all other messages as a protocol error and tear the connection down instead of buffering and blocking.
     Severity: UNKNOWN
     CweIDs:
@@ -50753,7 +50840,7 @@
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
     Fingerprint: sha256:80e075a4bb49d9939dfde7074b0a87f795b17d884b97372451b2ff3f71388ae9
-    Title: Prevent DoS on deadlocked undecided channel in golang.org/x/crypto/ssh
+    Title: Previously, a channel registered in the mux's chanList is not usable u ...
     Description: Previously, a channel registered in the mux's chanList is not usable until it is established. A malicious peer was able flood the channel's incomingRequests, deadlocking the entire connection. Now, we add an atomic established state, set when a channel becomes usable. Until such a time, handlePacket drops every packet other than the open confirmation/failure, without blocking and without tearing down the connection.
     Severity: UNKNOWN
     CweIDs:
@@ -51922,7 +52009,7 @@
     - https://github.com/grpc/grpc-go
     - https://github.com/grpc/grpc-go/security/advisories/GHSA-p77j-4mvh-x3m3
     - https://linux.oracle.com/cve/CVE-2026-33186.html
-    - https://linux.oracle.com/errata/ELSA-2026-22937.html
+    - https://linux.oracle.com/errata/ELSA-2026-23228.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-33186
     - https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-33186.json
     - https://www.cve.org/CVERecord?id=CVE-2026-33186
@@ -56320,7 +56407,7 @@
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
     Fingerprint: sha256:81a71f0da301a5e47696ec09f79bb418db985f66fb5cc710af740245037caa00
-    Title: Prevent DoS on deadlocked established channel in golang.org/x/crypto/ssh
+    Title: Previously, after a channel has been established, a malicious peer cou ...
     Description: Previously, after a channel has been established, a malicious peer could send crafted messages that would deadlock the entire connection. Now, we handle all RFC 4254 channel messages; global requests are handled explicitly. Then, treat all other messages as a protocol error and tear the connection down instead of buffering and blocking.
     Severity: UNKNOWN
     CweIDs:
@@ -56352,7 +56439,7 @@
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
     Fingerprint: sha256:df17205861a45225457d9534668c481c7bea432d783c9a18906bd31a16a375d7
-    Title: Prevent DoS on deadlocked undecided channel in golang.org/x/crypto/ssh
+    Title: Previously, a channel registered in the mux's chanList is not usable u ...
     Description: Previously, a channel registered in the mux's chanList is not usable until it is established. A malicious peer was able flood the channel's incomingRequests, deadlocking the entire connection. Now, we add an atomic established state, set when a channel becomes usable. Until such a time, handlePacket drops every packet other than the open confirmation/failure, without blocking and without tearing down the connection.
     Severity: UNKNOWN
     CweIDs:
@@ -56724,7 +56811,7 @@
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
     Fingerprint: sha256:d5c1fc13647890aa952e38be9f7c338d1c6ffab8046cadfc6bfbfd5e2a1a28bc
-    Title: Prevent DoS on deadlocked established channel in golang.org/x/crypto/ssh
+    Title: Previously, after a channel has been established, a malicious peer cou ...
     Description: Previously, after a channel has been established, a malicious peer could send crafted messages that would deadlock the entire connection. Now, we handle all RFC 4254 channel messages; global requests are handled explicitly. Then, treat all other messages as a protocol error and tear the connection down instead of buffering and blocking.
     Severity: UNKNOWN
     CweIDs:
@@ -56756,7 +56843,7 @@
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
     Fingerprint: sha256:56f06ade34112ab508ce65956f7a7b30c93e5b2042b47be1a80d8348fba9e26c
-    Title: Prevent DoS on deadlocked undecided channel in golang.org/x/crypto/ssh
+    Title: Previously, a channel registered in the mux's chanList is not usable u ...
     Description: Previously, a channel registered in the mux's chanList is not usable until it is established. A malicious peer was able flood the channel's incomingRequests, deadlocking the entire connection. Now, we add an atomic established state, set when a channel becomes usable. Until such a time, handlePacket drops every packet other than the open confirmation/failure, without blocking and without tearing down the connection.
     Severity: UNKNOWN
     CweIDs:
@@ -56888,7 +56975,7 @@
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
     Fingerprint: sha256:775ea033f424812e172f2615b0c5cc7438ca7064eae5bf3f2c23ed6b63559a17
-    Title: Prevent DoS on deadlocked established channel in golang.org/x/crypto/ssh
+    Title: Previously, after a channel has been established, a malicious peer cou ...
     Description: Previously, after a channel has been established, a malicious peer could send crafted messages that would deadlock the entire connection. Now, we handle all RFC 4254 channel messages; global requests are handled explicitly. Then, treat all other messages as a protocol error and tear the connection down instead of buffering and blocking.
     Severity: UNKNOWN
     CweIDs:
@@ -56920,7 +57007,7 @@
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
     Fingerprint: sha256:7418190c01a417d3f988a5400679a47ec779092ddf4e7b44a3975b7ca054bf03
-    Title: Prevent DoS on deadlocked undecided channel in golang.org/x/crypto/ssh
+    Title: Previously, a channel registered in the mux's chanList is not usable u ...
     Description: Previously, a channel registered in the mux's chanList is not usable until it is established. A malicious peer was able flood the channel's incomingRequests, deadlocking the entire connection. Now, we add an atomic established state, set when a channel becomes usable. Until such a time, handlePacket drops every packet other than the open confirmation/failure, without blocking and without tearing down the connection.
     Severity: UNKNOWN
     CweIDs:
