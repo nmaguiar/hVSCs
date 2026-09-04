@@ -65,7 +65,8 @@ jobs:
             exec: |
               var res = $sh("docker run --rm -t --entrypoint /bin/bash " + args.label + " -c \"code-server --version | head -1\"").get(0)
               cprint(res)
-              args.status = res.stdout.trim()
+              var out = res.stdout.trim()
+              args.status = (res.exitcode == 0 && out.match(/^\d+(\.\d+)+/)) ? out : "unavailable"
 
     # -------------
     - name: Checkin
