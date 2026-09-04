@@ -68,7 +68,15 @@ jobs:
   exec : |
     if (isDef(getEnv("NOVSCODE"))) return
 
-    var settingsFile = "/home/openvscode-server/.local/share/code-server/User/settings.json"
+    var userDir      = "/home/openvscode-server/.local/share/code-server/User"
+    var settingsFile = userDir + "/settings.json"
+
+    // Self-heal ownership/permissions in case a mounted volume left this
+    // path owned by someone other than the current user (e.g. root), which
+    // would otherwise make every restart fail with AccessDeniedException.
+    $sh("sudo mkdir -p '" + userDir + "' && sudo chown -R openvscode-server: /home/openvscode-server/.local && sudo chmod -R u+rwX /home/openvscode-server/.local")
+    .prefix("fixperms")
+    .exec()
 
     // application-scoped setting (shared across all profiles) - default only if unset
     var menuBarVisibility = "visible"
@@ -79,11 +87,15 @@ jobs:
       }
     } catch(e) { }
 
-    io.writeFileJSON(settingsFile, {
-      "workbench.startupEditor"  : "readme",
-      "workbench.colorTheme"     : "GitHub Light Default",
-      "window.menuBarVisibility" : menuBarVisibility
-    })
+    try {
+      io.writeFileJSON(settingsFile, {
+        "workbench.startupEditor"  : "readme",
+        "workbench.colorTheme"     : "GitHub Light Default",
+        "window.menuBarVisibility" : menuBarVisibility
+      })
+    } catch(e) {
+      logErr("Couldn't write VSC settings (" + settingsFile + "): " + String(e))
+    }
 
 # -------------------------------
 - name : Wait for Docker to start
