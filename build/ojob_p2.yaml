@@ -90,11 +90,23 @@ jobs:
 # ===========================
 - name : Prepare VSC settings
   exec : |
-    if (isDef(getEnv("NOVSCODE"))) return 
+    if (isDef(getEnv("NOVSCODE"))) return
 
-    io.writeFileJSON("/home/openvscode-server/.local/share/code-server/User/settings.json", {
-      "workbench.startupEditor": "readme",
-      "workbench.colorTheme"   : "GitHub Light Default"
+    var settingsFile = "/home/openvscode-server/.local/share/code-server/User/settings.json"
+
+    // application-scoped setting (shared across all profiles) - default only if unset
+    var menuBarVisibility = "visible"
+    try {
+      var existing = io.readFileJSON(settingsFile)
+      if (isDef(existing) && isDef(existing["window.menuBarVisibility"])) {
+        menuBarVisibility = existing["window.menuBarVisibility"]
+      }
+    } catch(e) { }
+
+    io.writeFileJSON(settingsFile, {
+      "workbench.startupEditor"  : "readme",
+      "workbench.colorTheme"     : "GitHub Light Default",
+      "window.menuBarVisibility" : menuBarVisibility
     })
 
 # -------------------------------
