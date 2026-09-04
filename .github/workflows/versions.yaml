@@ -16,14 +16,14 @@ jobs:
     steps  :
     # --------------------------
     - name: Cache OpenAF runtime
-      uses: actions/cache@v5
+      uses: actions/cache@v6
       with:
         key : oaf
         path: /tmp/oaf
 
     # --------------
     - name: Checkout
-      uses: actions/checkout@v6
+      uses: actions/checkout@v7
 
     ## Add here other steps
 
@@ -63,7 +63,7 @@ jobs:
                 color     : blue
                 #icon      : "openaf_grey.svg"
             exec: |
-              var res = $sh("docker run --rm -t --entrypoint /bin/bash " + args.label + " /home/.openvscode-server/bin/openvscode-server -v | head -1").get(0)
+              var res = $sh("docker run --rm -t --entrypoint /bin/bash " + args.label + " -c 'code-server --version | head -1'").get(0)
               cprint(res)
               args.status = res.stdout.trim()
 
